@@ -5,10 +5,9 @@ title: Suite di rapporti virtuali e considerazioni sull’assegnazione di tag a 
 feature: Impostazioni di Suite di rapporti
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 1cd14244b81fbf8d1e4c6f0642f181fd4b60705d
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -85,7 +84,9 @@ Ad esempio, è consentito un solo Google DCM per suite di rapporti. Molte aziend
 
 ### Riepilogo origini dati
 
-Le origini dati di riepilogo consentono di importare metriche aggregate in Adobe Analytics a livello di suite di rapporti. Poiché i caricamenti di origini dati di riepilogo contengono metriche aggregate, non possono essere segmentati. Poiché la VRS funziona utilizzando la segmentazione, tutti i dati importati utilizzando origini dati di riepilogo non sono disponibili nelle suite di rapporti virtuali. Le origini dati di riepilogo sono visibili solo nella suite di rapporti di origine.
+Le origini dati di riepilogo consentono di importare metriche aggregate in Adobe Analytics a livello di suite di rapporti. Poiché i caricamenti di origine dati di riepilogo contengono metriche aggregate *senza un ID visitatore*, non possono essere segmentati nei contenitori [!UICONTROL Visit] e [!UICONTROL Visitor]. Poiché le VRS funzionano utilizzando la segmentazione, i dati importati utilizzando origini dati di riepilogo non saranno disponibili nelle suite di rapporti virtuali se il segmento viene generato utilizzando un contenitore Visita o Visitatore.
+
+Le origini dati di riepilogo vengono visualizzate nella suite di rapporti virtuali se viene utilizzato un contenitore Hit e se tale contenitore Hit dispone di regole condizionate per includere le informazioni sull’origine dati.
 
 >[!TIP]
 >
