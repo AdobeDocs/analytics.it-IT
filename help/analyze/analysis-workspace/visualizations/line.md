@@ -3,11 +3,10 @@ description: Utilizzare la visualizzazione delle linee per rappresentare set di 
 title: Linee
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizzazioni
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 
