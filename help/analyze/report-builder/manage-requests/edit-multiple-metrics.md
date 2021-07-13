@@ -2,21 +2,20 @@
 description: La funzione Modifica metriche in più richieste consente di aggiungere, rimuovere o sostituire agevolmente le metriche in una richiesta o gruppo di richieste preesistenti.
 title: Modificare le metriche in più richieste
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '535'
 ht-degree: 13%
 
 ---
-
 
 # Modificare le metriche in più richieste
 
 La funzione Modifica metriche in più richieste consente di aggiungere, rimuovere o sostituire agevolmente le metriche in una richiesta o gruppo di richieste preesistenti.
 
-## Aggiungi metriche {#section_3FBDA9668039404895059618D70FCBCD}
+## Aggiungere metriche {#section_3FBDA9668039404895059618D70FCBCD}
 
 Nota bene
 
@@ -77,4 +76,3 @@ Per rimuovere le metriche:
 
 1. Seleziona una o più metriche da rimuovere dalla richiesta.
 1. Aggiorna la richiesta. Fino a quando non ti aggiorni, vedrai i dati offline.
-
