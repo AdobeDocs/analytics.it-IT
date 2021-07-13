@@ -3,15 +3,14 @@ description: I controlli interattivi consentono di modificare segmenti e interva
 title: Controlli interattivi
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
-
 
 # Controlli interattivi
 
@@ -36,7 +35,7 @@ I controlli interattivi sono stati creati in risposta a un flusso di lavoro comu
 >
 >Non manomettere il nome del controllo. (Per visualizzare il nome, impostare lo stato attivo sul controllo e il nome del controllo viene visualizzato a destra sopra la griglia Excel, nell&#39;angolo in alto a sinistra.)
 
-## Implementa il controllo interattivo dell’intervallo di date {#section_39B228F2D2C44985863D31424C953280}
+## Implementare il controllo interattivo dell’intervallo di date {#section_39B228F2D2C44985863D31424C953280}
 
 1. Nel passaggio 1 della Creazione guidata richieste selezionare, ad esempio, il rapporto **[!UICONTROL Page]**.
 1. Accanto al menu a discesa **[!UICONTROL Commonly Used Dates]** , fai clic sull&#39;icona **[!UICONTROL Control Settings]** :
@@ -82,4 +81,3 @@ L’implementazione del controllo del segmento interattivo è simile all’imple
 1. Il nuovo controllo interattivo verrà ora visualizzato nella cartella di lavoro:
 
    ![](assets/segment_interactive_3.png)
-
