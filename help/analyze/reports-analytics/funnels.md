@@ -3,13 +3,12 @@ description: I rapporti di conversione in genere misurano la conversione tra gli
 title: Funnel di conversione
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 feature: Nozioni di base su Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
