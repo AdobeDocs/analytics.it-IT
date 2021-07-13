@@ -3,15 +3,14 @@ description: Passaggi per aiutarti a selezionare una suite di rapporti in Excel.
 title: Seleziona una suite di rapporti
 uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f9fd18a6-2c03-468a-a022-9f4d263f166d
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 20%
+source-wordcount: '45'
+ht-degree: 22%
 
 ---
-
 
 # Seleziona una suite di rapporti
 
