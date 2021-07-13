@@ -3,12 +3,12 @@ description: Questa sezione è destinata agli amministratori di Adobe Analytics.
 title: Metodologia di tracciamento dei collegamenti
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1000'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Questa sezione è destinata agli amministratori di Adobe Analytics. Si concentra
 
 >[!IMPORTANT]
 >
->Qualsiasi collegamento in cui il testo (non il href) può contenere PII (personalmente identificabili) deve essere implementato esplicitamente utilizzando [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) o escludendo la raccolta di collegamenti ActivityMap con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Per ulteriori informazioni sulla raccolta dei dati PII da parte di Activity Map, consulta [qui](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Qualsiasi collegamento in cui il testo (non il href) può contenere PII (personalmente identificabili) deve essere implementato esplicitamente utilizzando [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it) o escludendo la raccolta di collegamenti ActivityMap con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Per ulteriori informazioni sulla raccolta dei dati PII da parte di Activity Map, consulta [qui](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 Activity Map basa il tracciamento dei collegamenti su questi due ID:
 
