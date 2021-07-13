@@ -2,11 +2,10 @@
 title: Grafico a dispersione
 description: Visualizzazione che mostra la relazione tra un massimo di tre metriche.
 feature: Visualizzazioni
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
 
