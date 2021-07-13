@@ -3,11 +3,10 @@ description: La funzione di analisi dell’abbandono in Analysis Workspace perme
 title: Abbandono interdimensionale
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
 feature: Visualizzazioni
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
