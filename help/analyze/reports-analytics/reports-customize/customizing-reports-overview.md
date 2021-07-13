@@ -3,12 +3,12 @@ description: Dopo aver eseguito un rapporto, puoi personalizzare il rapporto per
 title: Panoramica della personalizzazione dei rapporti
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Nozioni di base su Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -86,7 +86,7 @@ Non è possibile confrontare date tra rapporti con tendenze.
 
 >[!NOTE]
 >
->Se desideri eseguire un confronto delle date sulle metriche chiave in un dashboard, puoi estrarre i dati in [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) utilizzando due richieste separate. In seguito, è possibile utilizzare formule personalizzate in Excel per analizzare la differenza tra le due.
+>Se desideri eseguire un confronto delle date sulle metriche chiave in un dashboard, puoi estrarre i dati in [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=it) utilizzando due richieste separate. In seguito, è possibile utilizzare formule personalizzate in Excel per analizzare la differenza tra le due.
 
 Per confrontare date tra rapporti classificati in Reporting e analisi:
 
