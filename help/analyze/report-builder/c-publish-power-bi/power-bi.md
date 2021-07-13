@@ -3,15 +3,14 @@ description: Utilizzare il Report Builder con Microsoft Power BI.
 title: 'Pubblicare su Power BI: panoramica'
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '959'
 ht-degree: 13%
 
 ---
-
 
 # Pubblicare su Power BI: panoramica
 
@@ -28,7 +27,7 @@ La combinazione della capacità di generazione rapporti di Report Builder e dell
 * Adobe Report Builder 5.5 [installato](/help/analyze/report-builder/setup/t-install-arb.md)
 * Account Microsoft attivo che consente di accedere a Power BI
 
-## Pubblica la cartella di lavoro in Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
+## Pubblica cartella di lavoro in Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
 
 Le cartelle di lavoro pianificate sono fogli di calcolo Excel formattati con dati provenienti da Adobe Analytics e inviati regolarmente.
 
@@ -58,7 +57,7 @@ Le cartelle di lavoro pianificate sono fogli di calcolo Excel formattati con dat
 
 1. È quindi possibile fissare un&#39;area della cartella di lavoro in modo da includerla in una qualsiasi delle dashboard Power BI.
 
-## Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle di set di dati Power BI {#section_7C54A54E75184DD6BAEF4ACCE241239A}
+## Pubblicare tutte le tabelle formattate nella cartella di lavoro come tabelle di set di dati Power BI {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
 >[!NOTE]
 >
@@ -102,7 +101,7 @@ Invece di importare l&#39;intera cartella di lavoro, è possibile importare solo
 
 1. Da qui puoi creare visualizzazioni da questa tabella di set di dati.
 
-## Pubblica tutte le richieste di Report Builder come tabelle del set di dati Power BI {#section_0C26057C7DBB4068A643FDD688F6E463}
+## Pubblicare tutte le richieste di Report Builder come tabelle del set di dati Power BI {#section_0C26057C7DBB4068A643FDD688F6E463}
 
 Puoi trasformare tutte le richieste in tabelle di set di dati e creare visualizzazioni al loro interno.
 
@@ -137,4 +136,3 @@ Ogni richiesta di Report Builder pianificata verrà pubblicata come tabella nel 
 1. Noterai inoltre che esiste una tabella aggiuntiva denominata **[!UICONTROL Legend]**. Se si toglie una richiesta dal contesto del Report Builder, può essere difficile ricordare cosa significa ogni richiesta. La tabella Legenda ha lo scopo, ad esempio, di mostrarti il nome di ogni richiesta in ID tabella. Puoi anche aggiungere le altre colonne Legenda per ottenere una visualizzazione completa della richiesta.
 
    ![](assets/legend-table.png)
-
