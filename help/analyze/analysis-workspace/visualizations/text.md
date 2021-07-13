@@ -3,11 +3,10 @@ description: Consente di aggiungere testo definito dall’utente al progetto Wor
 title: Testo
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizzazioni
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
 
