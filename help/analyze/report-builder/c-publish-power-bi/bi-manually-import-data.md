@@ -3,15 +3,14 @@ description: Se desideri importare manualmente i dati di Analytics tramite Power
 title: Importare manualmente i dati in Power BI
 uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f5685653-ed31-4183-a6d9-b36bdfecd85c
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '74'
 ht-degree: 18%
 
 ---
-
 
 # Importare manualmente i dati in Power BI
 
@@ -32,4 +31,3 @@ Se desideri importare manualmente i dati di Analytics tramite Power BI, segui qu
    ![](assets/upload-excel-file.png)
 
 1. Dovrebbe apparire il messaggio &quot;Il tuo file è stato caricato&quot;.
-
