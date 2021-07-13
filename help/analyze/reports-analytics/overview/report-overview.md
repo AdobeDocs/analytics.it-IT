@@ -3,13 +3,12 @@ description: Introduzione alle funzioni di un rapporto, inclusi la barra degli s
 title: Funzioni rapporto
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Nozioni di base su Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +18,7 @@ Introduzione alle funzioni di un rapporto, inclusi la barra degli strumenti, il 
 
 Questo esempio mostra un [!UICONTROL Pages Report]. Le opzioni di configurazione possono variare a seconda del rapporto eseguito. Ad esempio, anziché selezionare Con tendenze o con classifica in un rapporto [!UICONTROL Site Content], è possibile specificare la granularità e il nome della pagina per un rapporto [!UICONTROL Site Metrics].
 
-## Esempio di rapporto sulle pagine {#section_288CC85536684C2DB184141358481EF0}
+## Report delle pagine di esempio {#section_288CC85536684C2DB184141358481EF0}
 
 Esempio di rapporto sulle pagine ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
 
@@ -33,7 +32,7 @@ Condividi i dati dei tuoi rapporti con i responsabili decisionali che possono mo
 
 Consulta anche [Personalizzazione di un report](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
-## Intestazione del rapporto e impostazioni {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
+## Intestazione e impostazioni del rapporto {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
 Visualizza le impostazioni del rapporto e ti consente di configurare il tipo di rapporto, selezionare metriche e altro ancora. Le opzioni disponibili in questo gruppo variano a seconda del rapporto eseguito.
 
