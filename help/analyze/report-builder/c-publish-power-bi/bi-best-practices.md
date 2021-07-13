@@ -3,15 +3,14 @@ description: Best practice per Power BI.
 title: Best practice
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '140'
 ht-degree: 4%
 
 ---
-
 
 # Best practice
 
@@ -24,4 +23,3 @@ Se elimini una richiesta nella cartella di lavoro, accertati di non avere una vi
 * Se possibile, non eliminare le richieste create nel Report Builder
 * Assicurati di eliminare le richieste sul Report Builder anche la visualizzazione corrispondente in Power BI.
 * Se non sei sicuro: elimina le richieste di cui non hai più bisogno, quindi ripubblica e passa a Power BI per vedere quali visualizzazioni sono state interrotte
-
