@@ -3,10 +3,10 @@ description: Fattori che incidono sulle prestazioni e possibili ottimizzazioni d
 title: Fattori prestazionali e ottimizzazione di Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 feature: Concetti di base di Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 100%
 
