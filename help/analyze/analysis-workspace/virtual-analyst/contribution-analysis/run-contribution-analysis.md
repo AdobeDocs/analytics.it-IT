@@ -3,10 +3,10 @@ description: Esegui un rapporto di analisi dei contributi in un progetto Workspa
 title: Eseguire l’analisi dei contributi
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 feature: Strumenti di intelligenza artificiale
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
 
