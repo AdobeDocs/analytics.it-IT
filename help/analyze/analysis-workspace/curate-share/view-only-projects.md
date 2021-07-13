@@ -3,10 +3,10 @@ description: Progetti di sola visualizzazione in Workspace
 keywords: Progetti solo visualizzazione
 title: Progetti solo visualizzazione
 feature: Curare e condividere
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 
