@@ -3,11 +3,10 @@ description: Questa visualizzazione di Workspace è simile a un grafico a linee,
 title: Superfici e superfici sovrapposte
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizzazioni
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 # Superfici e superfici sovrapposte
 
-## Superfici {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
+## Area {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
 
 Questa visualizzazione di è simile a un grafico a linee, ma la superficie al sotto di ogni linea è colorata. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche.
 
