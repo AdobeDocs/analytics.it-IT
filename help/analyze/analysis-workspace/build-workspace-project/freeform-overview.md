@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Concetti di base di Workspace
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 100%
+source-wordcount: '1395'
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ Le impostazioni includono:
 | Ultima modifica | Data dell’ultima modifica apportata al progetto. |
 | Tag | Elenca eventuali tag applicati a un progetto per facilitarne la categorizzazione. |
 | Descrizione | La descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. |
-| Conteggio istanze ripetute nel progetto | Consente di specificare se conteggiare o meno, per i rapporti, le istanze ripetute. Nota: questa impostazione non si applica alle visualizzazioni Flusso o Abbandono. |
+| Conteggio istanze ripetute nel progetto | Consente di specificare se conteggiare o meno, per i rapporti, le istanze ripetute. Ad esempio, questa impostazione (se attivata) tratta più visualizzazioni di pagina consecutive sulla stessa pagina di più visualizzazioni di pagina. Con questa opzione, vengono conteggiati come visualizzazione a pagina singola (influisce solo su determinate metriche, come le visite a pagina singola). **Nota**: Questa impostazione non si applica alle visualizzazioni Flusso o Abbandono. |
 | [Palette dei colori del progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=it) | Per cambiare la palette di colori utilizzata per le categorie in Workspace, puoi scegliere una delle palette predefinite ottimizzate per il daltonismo o specificarne una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |
 | [Densità di visualizzazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=it) | Consente di visualizzare più dati nella schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. |
 
