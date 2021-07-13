@@ -5,9 +5,9 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizzazioni
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,6 @@ Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a 
 | Visualizzazione legenda | Mostra informazioni sulla metrica visualizzata. |
 | Abbrevia il valore | Scegli di abbreviare i valori e visualizzare fino a 3 posizioni decimali. |
 | Riepiloga valore per | Scegli di visualizzare il massimo, il minimo, la media, la mediana o la somma per una selezione di dati. |
-
-
-Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a destra per configurare le impostazioni del Numero di riepilogo:
-
-| Impostazione | Definizione |
-|--- |--- |
-| Percentuali | Visualizza le percentuali invece dei numeri. |
-| Visualizzazione legenda | Mostra informazioni sulla metrica visualizzata. |
-| Abbrevia il valore | Scegli di abbreviare i valori e visualizzare fino a 3 posizioni decimali. |
-| Riepiloga valore per | Scegli di visualizzare il massimo, il minimo, la media, la mediana o la somma per una selezione di dati. |
-
 
 ## Visualizzazione Variazione di riepilogo {#summary-change}
 
