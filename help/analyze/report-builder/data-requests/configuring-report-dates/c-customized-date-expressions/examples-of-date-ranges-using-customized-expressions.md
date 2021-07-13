@@ -3,15 +3,14 @@ description: Esempi, note e note di sintassi sull'utilizzo di intervalli di date
 title: Esempi di intervalli di date utilizzando espressioni personalizzate
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 7%
 
 ---
-
 
 # Esempi di intervalli di date utilizzando espressioni personalizzate
 
@@ -51,4 +50,3 @@ Puoi creare espressioni personalizzate che coprono la maggior parte degli interv
 * Non anteporre l&#39;abbreviazione con un solo zero. Ad esempio, 0w non è consentito.
 * I seguenti operatori vengono utilizzati per concatenare le abbreviazioni: + -
 * Poiché gli intervalli di date devono essere conteggiati rispetto al periodo corrente, il primo termine in un’espressione inizia sempre con c.
-
