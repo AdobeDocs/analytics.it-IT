@@ -2,10 +2,10 @@
 title: Tabella a forma libera
 description: Le tabelle a forma libera sono alla base dell’analisi dei dati in Workspace
 feature: Tabelle a forma libera
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -52,6 +52,6 @@ Ulteriori informazioni su tutte le [opzioni di esportazione](https://experiencel
 * Fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Download data as CSV]** per scaricare come CSV i dati della tabella visualizzata. Se è selezionata una parte della tabella, questa opzione diventa **[!UICONTROL Download selection as CSV]**.
 * Fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Project > Download items as CSV]** per esportare fino a 50.000 elementi dimensionali per la dimensione selezionata.
 
-Ulteriori informazioni su tutte le [opzioni di esportazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it) dei dati per Analysis Workspace.
+Ulteriori informazioni su tutte le [opzioni di esportazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) dei dati per Analysis Workspace.
 
 ![](assets/export-options.png)
