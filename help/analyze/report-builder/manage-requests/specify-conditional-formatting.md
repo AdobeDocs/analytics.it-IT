@@ -3,15 +3,14 @@ description: Dopo aver creato rapporti con richieste incorporate, puoi applicare
 title: Specificare la formattazione condizionale
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '185'
 ht-degree: 4%
 
 ---
-
 
 # Specificare la formattazione condizionale
 
@@ -26,4 +25,3 @@ Per motivi di sicurezza, le macro scritte per la cartella di lavoro utilizzando 
 >[!NOTE]
 >
 >La formattazione condizionale è una funzione di Excel. Per informazioni sulla creazione di regole di formattazione, vedere la documentazione di Excel.
-
