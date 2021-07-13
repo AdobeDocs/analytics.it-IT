@@ -3,15 +3,14 @@ description: Puoi selezionare il tipo di rapporto di base per la richiesta di da
 title: Panoramica sui tipi di rapporto
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 6%
+source-wordcount: '114'
+ht-degree: 7%
 
 ---
-
 
 # Panoramica sui tipi di rapporto
 
@@ -22,4 +21,3 @@ Puoi selezionare il tipo di rapporto di base per la richiesta di dati, ad esempi
 Puoi cercare i rapporti utilizzando la barra di ricerca completa automatica. Dopo aver selezionato un report da questo controllo, la visualizzazione ad albero selezionerà automaticamente il nodo corrispondente.
 
 ![](assets/search_reports.png)
-
