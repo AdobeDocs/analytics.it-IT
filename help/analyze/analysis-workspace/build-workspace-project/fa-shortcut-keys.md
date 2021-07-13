@@ -3,12 +3,12 @@ description: Interazioni con la tastiera, tasti di scelta rapida e comportamenti
 keywords: Analysis Workspace
 title: Tasti di scelta rapida
 feature: Concetti di base di Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 100%
 
 ---
 
