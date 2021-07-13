@@ -3,10 +3,9 @@ description: Domande frequenti sul tracciamento dei collegamenti in Activity Map
 title: Domande frequenti sul tracciamento dei collegamenti
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-translation-type: tm+mt
-source-git-commit: 7ba73d75dde80571125c83efb3265441b8d3278a
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 2%
