@@ -3,10 +3,10 @@ description: Specifica i punti di contatto per creare una sequenza di abbandono 
 title: Configurare una visualizzazione dell’abbandono
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: Visualizzazioni
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 100%
 
