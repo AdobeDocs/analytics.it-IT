@@ -3,12 +3,12 @@ description: Puoi distinguere i collegamenti personalizzando l’ID collegamento
 title: Differenziare i collegamenti che fanno riferimento allo stesso ID collegamento e area geografica
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -75,7 +75,7 @@ Come personalizzare la pagina web e i tag per differenziare i valori di questi c
 
 ## Personalizzare l’ID collegamento utilizzando s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Creando un ID oggetto univoco, `s_objectID`, per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento di Activity Map oppure utilizzare Activity Map per creare rapporti su un tipo o una posizione di collegamento, anziché sull’URL del collegamento. Fai clic [qui](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) per ulteriori informazioni sulla variabile `s_objectID`.
+Creando un ID oggetto univoco, `s_objectID`, per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento di Activity Map oppure utilizzare Activity Map per creare rapporti su un tipo o una posizione di collegamento, anziché sull’URL del collegamento. Fai clic [qui](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it) per ulteriori informazioni sulla variabile `s_objectID`.
 
 >[!IMPORTANT]
 >
