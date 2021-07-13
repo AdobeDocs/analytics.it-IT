@@ -3,15 +3,14 @@ description: Il rapporto Collegamenti riporta i collegamenti presenti nella pagi
 title: Rapporto dei collegamenti
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: d17b1bde-1785-461d-a1d8-66bd9739fc78
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '752'
 ht-degree: 2%
 
 ---
-
 
 # Rapporto dei collegamenti
 
@@ -66,7 +65,7 @@ In modalità standard, il rapporto &quot;Collegamenti sulla pagina&quot; mostra 
 
 Se desideri eseguire la ricerca di zero in un collegamento specifico, puoi cercare un termine correlato nel campo **[!UICONTROL Filter Data]** . Solo i collegamenti che corrispondono alla ricerca avranno sovrapposizioni. Senza un filtro, verranno visualizzate le sovrapposizioni specificate in [Impostazioni di Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md).
 
-## Modalità live {#section_AC1967217B5A4532ACB01D33636F6770}
+## Modalità Live {#section_AC1967217B5A4532ACB01D33636F6770}
 
 In modalità Live, il rapporto Links on Page (Collegamenti sulla pagina) mostra i dati con tendenze nell’arco di diversi minuti.
 
