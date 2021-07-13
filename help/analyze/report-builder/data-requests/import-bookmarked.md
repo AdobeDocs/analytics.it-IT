@@ -3,15 +3,14 @@ description: Tutti i rapporti con segnalibri e i rapporti dashboard sono ora ele
 title: Importare rapporti con segnalibri e minirapporti dashboard
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 19813950-2495-4a75-aacb-587b59bf2484
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '337'
 ht-degree: 4%
 
 ---
-
 
 # Importare rapporti con segnalibri e minirapporti dashboard
 
@@ -40,4 +39,3 @@ Il bookmarklet importato imposterà correttamente la suite di rapporti, il segme
 >[!IMPORTANT]
 >
 >L’intervallo di date verrà impostato sullo stesso intervallo di date, ma come intervallo di date statico, anche se questo intervallo era un intervallo di date continuo nel segnalibro Reports &amp; Analytics.
-
