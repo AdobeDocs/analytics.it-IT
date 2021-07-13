@@ -1,11 +1,11 @@
 ---
-description: Introduzione ai termini di analisi web comunemente utilizzati nei rapporti di marketing.
+description: Introduzione ai termini di analisi di marketing comunemente utilizzati in Reports & Analytics.
 title: Termini comuni
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 feature: Nozioni di base su Reports & Analytics, Reports and Analytics
 role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 7%
@@ -46,7 +46,7 @@ Introduzione ai termini di Adobe Analytics comunemente utilizzati.
   </tr> 
   <tr> 
    <td> <p>Visita </p> </td> 
-   <td> <p>Una sequenza di pagine visualizzate in una sessione. La visita termina solo dopo 30 minuti di inattività o dopo 12 ore di attività continua. (Questa misurazione del tempo è lo standard di settore per web analytics.) Le visite sono tracciate dai cookie. Una visita inizia quando un visualizzatore accede a una pagina. Una visita è talvolta indicata come sessione <span class="term"></span>, ma non come sessione del browser. L'accesso a un sito diverso, la chiusura del browser o persino il riavvio del computer non termina una visita. </p> <p> Se il timeout di inattività si verifica durante la lettura di una pagina da parte di un visitatore, la visita si chiude e viene elaborata. Una nuova visita inizia quando il visitatore fa clic su un'altra pagina. </p> <p>Se la data cambia durante una visita, ad esempio quando si visita un sito a mezzanotte, la visita viene attribuita al giorno in cui la visita ha avuto inizio. </p> </td> 
+   <td> <p>Una sequenza di pagine visualizzate in una sessione. La visita termina solo dopo 30 minuti di inattività o dopo 12 ore di attività continua. (Questa misurazione del tempo è lo standard di settore di analisi di marketing). Le visite sono tracciate dai cookie. Una visita inizia quando un visualizzatore accede a una pagina. Una visita è talvolta indicata come sessione <span class="term"></span>, ma non come sessione del browser. L'accesso a un sito diverso, la chiusura del browser o persino il riavvio del computer non termina una visita. </p> <p> Se il timeout di inattività si verifica durante la lettura di una pagina da parte di un visitatore, la visita si chiude e viene elaborata. Una nuova visita inizia quando il visitatore fa clic su un'altra pagina. </p> <p>Se la data cambia durante una visita, ad esempio quando si visita un sito a mezzanotte, la visita viene attribuita al giorno in cui la visita ha avuto inizio. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Visitatore univoco </p> </td> 
@@ -62,7 +62,7 @@ Introduzione ai termini di Adobe Analytics comunemente utilizzati.
   </tr> 
   <tr> 
    <td> <p>Eventi di conversione (di successo) </p> </td> 
-   <td> <p>Gli eventi di conversione sono le attività sul tuo sito che desideri che le persone facciano (indicatori di prestazioni chiave). Per un sito di e-commerce, gli eventi di conversione possono essere una visualizzazione dettagliata del prodotto, un checkout o un acquisto. Per un sito di generazione di lead, l’evento potrebbe essere il completamento di un modulo. Gli eventi di conversione vengono conteggiati sul sito e dispongono di propri report che mostrano quanti di essi sono accaduti. Questi eventi diventano anche metriche da inserire in altri rapporti e possono mostrare perché sono accaduti gli eventi di conversione o cosa ha contribuito al loro verificarsi. </p> <p>L’eccezione alla regola per cui un evento diventa una metrica è l’evento di acquisto, che genera tre metriche: Entrate, ordini e unità. </p> <p>Esistono più metriche di conversione che non sono definite qui, ma le metriche di conversione sono alla base della tua analisi web, su cui vengono generate altre metriche e report. </p> </td> 
+   <td> <p>Gli eventi di conversione sono le attività sul tuo sito che desideri che le persone facciano (indicatori di prestazioni chiave). Per un sito di e-commerce, gli eventi di conversione possono essere una visualizzazione dettagliata del prodotto, un checkout o un acquisto. Per un sito di generazione di lead, l’evento potrebbe essere il completamento di un modulo. Gli eventi di conversione vengono conteggiati sul sito e dispongono di propri report che mostrano quanti di essi sono accaduti. Questi eventi diventano anche metriche da inserire in altri rapporti e possono mostrare perché sono accaduti gli eventi di conversione o cosa ha contribuito al loro verificarsi. </p> <p>L’eccezione alla regola per cui un evento diventa una metrica è l’evento di acquisto, che genera tre metriche: Entrate, ordini e unità. </p> <p>Esistono più metriche di conversione che non sono definite qui, ma le metriche di conversione sono alla base della tua analisi di marketing, su cui vengono generate altre metriche e rapporti. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Canale </p> </td> 
