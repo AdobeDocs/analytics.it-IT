@@ -3,9 +3,9 @@ description: Descrive come impostare le autorizzazioni e quali dimensioni sono d
 title: Generazione di rapporti Activity Map in Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 9%
@@ -30,7 +30,7 @@ Puoi [personalizzare l’accesso utente alle dimensioni](https://experienceleagu
 
 | Dimensione | Descrizione |
 |---|---|
-| Pagina della Activity Map | Elenca le pagine su cui è stato fatto clic su un collegamento. |
+| Activity Map Pagina | Elenca le pagine su cui è stato fatto clic su un collegamento. |
 | Area geografica di Activity Map | Elenca tutte le aree di collegamento raccolte nell’intero sito web. Se una regione viene visualizzata su più pagine, la metrica viene aggregata in tutte le relative pagine. |
 | Collegamenti Activity Map | Elenca tutti i collegamenti raccolti nell&#39;intero sito web. |
 | Collegamenti e area geografica di Activity Map | Elenca tutti i collegamenti raccolti con la relativa area geografica nell’intero sito web. |
