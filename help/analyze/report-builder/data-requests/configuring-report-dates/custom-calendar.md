@@ -3,15 +3,14 @@ description: Report Builder utilizza il calendario personalizzato di Analytics. 
 title: Calendario personalizzato
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '382'
 ht-degree: 2%
 
 ---
-
 
 # Calendario personalizzato
 
@@ -50,4 +49,3 @@ Di seguito sono descritti tutti i formati del calendario.
   </tr> 
  </tbody> 
 </table>
-
