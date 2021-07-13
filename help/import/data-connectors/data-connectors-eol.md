@@ -2,10 +2,10 @@
 description: Scopri quando e perché i connettori dati di Analytics termineranno.
 title: Annuncio preliminare alla fine del ciclo di vita per i connettori dati di Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 10%
+source-wordcount: '662'
+ht-degree: 9%
 
 ---
 
@@ -44,12 +44,12 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 | Apteligent | Obsolescenza |
 | BlueHornet eMarketing Suite | Obsolescenza |
 | Filiale | Migrazione a Exchange |
-| BrightEdge 2.0 | Obsolescenza |
+| BrightEdge 2.0, BrightEdge, BrightEdge Express | Obsolescenza |
 | Software Bronto | Obsolescenza |
 | CheetahMail di Experian | Migrazione a Exchange |
 | ClickTale | Obsolescenza |
 | CA Clicktale | Obsolescenza |
-| Conduttore 2.0 | Obsolescenza |
+| Conduttore 2.0, Conduttore, Conduttore Metriche Organiche | Obsolescenza |
 | ContactLab 2.0 (connettore di invio contatto) | Obsolescenza |
 | Coradiant TrueSight | Obsolescenza |
 | Informazioni sui visitatori di D&amp;B | Obsolescenza |
@@ -62,7 +62,7 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 | DialogTech | Disponibile su Adobe Exchange |
 | [Doppio clic per inserzionisti (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Obsolescenza |
 | SOGNO | Obsolescenza |
-| DREAMmail 2.0 | Obsolescenza |
+| DREAMmail 1.0, DREAMmail 2.0 | Obsolescenza |
 | Segnale dinamico (Vora digitale) | Migrazione a Exchange |
 | eDialog Precision Central | Obsolescenza |
 | Messaggero elettronico | Obsolescenza |
@@ -70,10 +70,11 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 | emarsys xpress | Obsolescenza |
 | Epsilon Harmony | Migrazione a Exchange |
 | EveryoneSocial per Adobe Analytics | Obsolescenza |
+| ExactTarget, ExactTarget 2.0 | Obsolescenza |
 | Fiksu | Obsolescenza |
-| Foresee (v2.0) | Obsolescenza |
-| ForeSee Feedback | Obsolescenza |
+| Foresee (v2.0), Foresee Feedback, Foresee Results | Obsolescenza |
 | Giga | Obsolescenza |
+| Hootsuite | Obsolescenza |
 | ibrido | Obsolescenza |
 | Analisi del feedback di Kampyle (ora Medallia) (1.1) | Obsolescenza |
 | Listrak | Migrazione a Exchange |
@@ -83,11 +84,13 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 | Integrazione ufficiale Oracle Eloqua | Migrazione a Exchange |
 | optivo broadmail (Episerver) | Obsolescenza |
 | Qualtrics v2 | Migrazione a Exchange |
-| Responsys 2.0 | Obsolescenza |
+| Responsys 1.0, Responsys 2.0 | Obsolescenza |
+| Salesforce.com | Obsolescenza |
 | Selligent | Obsolescenza |
-| seoClarity 2.0 | Obsolescenza |
+| seoClarity, seoClarity 2.0 | Obsolescenza |
 | Silverpop Engage (v2.0) | Obsolescenza |
 | Sizmek | Obsolescenza |
+| Digitale SmartFOCUS | Obsolescenza |
 | SpotEffects | Obsolescenza |
 | StrongMail Systems, Inc | Obsolescenza |
 | Sindrome!360 | Obsolescenza |
@@ -98,6 +101,7 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 | WhatCounts Email | Obsolescenza |
 | wywy | Obsolescenza |
 | Yesmail Enterprise | Obsolescenza |
+| Zeta interattiva | Obsolescenza |
 
 ## Eccezione: Adobe Campaign Classic
 
