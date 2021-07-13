@@ -3,15 +3,14 @@ description: Copia una richiesta semplice invece di una richiesta referenziale. 
 title: Copiare richieste semplici
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
-
 
 # Copiare richieste semplici
 
