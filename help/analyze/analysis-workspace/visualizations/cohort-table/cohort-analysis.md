@@ -2,10 +2,10 @@
 title: Cos’è l’analisi per coorte e come funziona?
 description: Approfondisci i dati relativi al pubblico e suddividili in gruppi correlati con la funzione di analisi per coorte. Scopri l’analisi per coorte in Analysis Workspace.
 feature: Visualizzazioni
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
 
