@@ -3,15 +3,14 @@ description: È possibile proteggere tutte le richieste di una cartella di lavor
 title: Bloccare/sbloccare le cartelle di lavoro
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
-
 
 # Bloccare/sbloccare le cartelle di lavoro
 
@@ -70,4 +69,3 @@ Supponiamo che la cartella di lavoro A abbia una richiesta che si trova in uno s
 1. L&#39;utente accede al Report Builder e apre la cartella di lavoro A.
 1. L&#39;utente non può aggiungere/modificare la richiesta.
 1. L&#39;utente non può sbloccare la cartella di lavoro.
-
