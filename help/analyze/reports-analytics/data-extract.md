@@ -3,13 +3,12 @@ description: Gli estratti di dati consentono di scegliere i parametri che verran
 subtopic: Schedule
 title: Estrarre dati
 feature: Nozioni di base su Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
