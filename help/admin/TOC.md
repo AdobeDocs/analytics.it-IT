@@ -4,10 +4,9 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '727'
+source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -35,6 +34,7 @@ ht-degree: 100%
       + [Classificazioni di conversione](admin/conversion-var-admin/conversion-classifications.md)
       + [Gerarchie di classificazione](admin/conversion-var-admin/classification-hierarchies.md)
       + [Variabili elenco](admin/conversion-var-admin/list-var-admin.md)
+      + [eVar di Merchandising](admin/conversion-var-admin/merchandising-evars.md)
    + [Codici valuta](admin/currency.md)
    + [Descrizioni report personalizzati](admin/custom-desc-admin.md)
    + [Personalizza calendario](admin/custom-calendar.md)
@@ -44,7 +44,7 @@ ht-degree: 100%
    + [Metodi di ricerca](admin/finding-methods.md)
    + [Impostazioni account generali](admin/general-acct-settings-admin.md)
    + [Filtri URL interni](admin/internal-url-filter-admin.md)
-   + [Registri](admin/logs.md)
+   + [Registri ](admin/logs.md)
    + [Canali marketing](admin/marketing-channels-admin.md)
    + [Personalizzazione del menu](admin/customize-menus.md)
    + [Visibilità delle metriche](admin/metric-visibility.md)
@@ -120,7 +120,7 @@ ht-degree: 100%
    + [Livelli di accesso alle funzionalità](company/feature-access-levels.md)
    + [Servizi web](company/web-services-admin.md)
    + [Report del Report Builder](company/report-builder-reports-admin.md)
-   + [Single sign-on](company/single-signon-admin.md)
+   + [Single Sign-On](company/single-signon-admin.md)
    + [Azioni in sospeso](company/pending-actions-admin.md)
    + [Co-branding](company/co-branding-admin.md)
    + [Nascondere suite di rapporti](company/c-hide-report-suites.md)
@@ -133,7 +133,7 @@ ht-degree: 100%
    + Modelli suite di rapporti {#report-suite-templates}
       + [Panoramica dei modelli delle suite di rapporti](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
       + [Portale Aggregator](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-      + [Commercio](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+      + [Commerce](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
       + [Contenuto e media](c-manage-report-suites/c-report-suite-templates/content-media.md)
       + [Modello predefinito](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
       + [Servizi finanziari](c-manage-report-suites/c-report-suite-templates/financial-services.md)
