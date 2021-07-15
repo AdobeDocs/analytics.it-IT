@@ -2,22 +2,22 @@
 description: Spiega come la nuova pagina di destinazione riunisce sia Analysis Workspace che Reports & Analytics in un’unica interfaccia e in un unico punto di accesso sotto l’ombrello di Workspace.
 title: Nuova pagina di destinazione di Adobe Analytics
 role: User, Admin
-source-git-commit: d932a02375f6f124d84dd275cd1134bb25ff76ec
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2988'
 ht-degree: 4%
 
 ---
 
 # Nuova pagina di destinazione di Adobe Analytics
 
-La nuova pagina di destinazione, ad Adobe Analysis, riunisce Analysis Workspace e Reports &amp; Analytics in un’unica interfaccia e in un unico punto di accesso sotto l’ombrello di Workspace. Offre una nuova home page di project manager, un menu aggiornato dei rapporti, rapporti aggiornati e una nuova sezione di apprendimento per aiutarti a iniziare in modo più efficace.
+La nuova pagina di destinazione di Adobe Analytics riunisce Analysis Workspace e Reports &amp; Analytics in un’unica interfaccia e in un unico punto di accesso sotto l’ombrello di Workspace. Offre una nuova home page di project manager, un menu aggiornato dei rapporti, rapporti aggiornati e una nuova sezione di apprendimento per aiutarti a iniziare in modo più efficace.
 
 La nuova pagina migliora la possibilità di individuare e guida gli utenti di Reports &amp; Analytics a una migliore esperienza di reporting in Workspace.
 
 >[!IMPORTANT]
 >
->Questa pagina di destinazione sarà presto disponibile in versione beta pubblica. È un punto di partenza facoltativo. Se lo desideri, puoi utilizzare la pagina di destinazione esistente, che si tratti di Workspace o Report. Se decidi di partecipare al programma beta, accedi alla pagina e fai clic su **[!UICONTROL Provide feedback]** nella parte superiore dello schermo per registrare il tuo feedback ed eventuali bug che potresti riscontrare. Puoi scegliere di rinunciare e di nuovo accedere al programma beta in qualsiasi momento. Qualsiasi lavoro svolto nell’interfaccia utente beta viene trasferito nell’esperienza Workspace esistente/corrente.
+>Questa pagina di destinazione sarà in Open Beta a partire dal 21 luglio 2021. È un punto di partenza facoltativo. Se lo desideri, puoi utilizzare la pagina di destinazione esistente, che si tratti di Workspace o Report. Se decidi di partecipare al programma beta, accedi alla pagina e fai clic su **[!UICONTROL Provide feedback]** nella parte superiore dello schermo per registrare il tuo feedback ed eventuali bug che potresti riscontrare. Puoi scegliere di rinunciare e di nuovo accedere al programma beta in qualsiasi momento. Qualsiasi lavoro svolto nell’interfaccia utente beta viene trasferito nell’esperienza Workspace esistente/corrente.
 
 ## Accedere alla nuova pagina di destinazione {#access-landing}
 
