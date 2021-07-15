@@ -1,10 +1,10 @@
 ---
 title: Cookie di Adobe Analytics e browser
 description: Scopri in che modo le misure di prevenzione del tracking influiscono sui cookie di terze parti e di prima parte impostati da Adobe Analytics.
-source-git-commit: b2f606e74aa0d2ab0f01ab7cbfc795bfd7cda461
+source-git-commit: 2a0cc52664bbeaae66d6160d74fad4840bf692b8
 workflow-type: tm+mt
 source-wordcount: '1985'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Questo documento spiega in che modo le misure di prevenzione del tracciamento de
 
 ### Limitazioni dei cookie di terze parti
 
-I cookie utilizzati in un contesto di terze parti sono ampiamente obsoleti. Firefox e Safari hanno iniziato a bloccare i cookie di terze parti per impostazione predefinita a partire rispettivamente dal 2019 e dal 2020. Chrome ha annunciato piani per interrompere il supporto dei cookie di terze parti nel 2022. In tal caso, i cookie di terze parti saranno di fatto inutilizzabili.
+I cookie utilizzati in un contesto di terze parti sono ampiamente obsoleti. Firefox e Safari hanno iniziato a bloccare i cookie di terze parti per impostazione predefinita a partire rispettivamente dal 2019 e dal 2020. Chrome ha annunciato piani per smettere di supportare i cookie di terze parti nel 2023. In tal caso, i cookie di terze parti saranno di fatto inutilizzabili.
 
 Inoltre, Chrome attualmente consente ai cookie di funzionare in un contesto di terze parti solo se l’attributo &quot;SameSite&quot; è impostato su Nessuno e se l’attributo è etichettato come sicuro, il che significa che possono essere utilizzati solo tramite HTTPS. Ulteriori informazioni sono disponibili nella sezione &quot;[Qual è l&#39;attributo per cookie SameSite e come influisce su Analytics?](#samesite-effect)&quot;
 
@@ -38,7 +38,7 @@ I cookie di prime parti di Adobe sono limitati a una scadenza di 7 giorni o, per
 
 Attualmente, i criteri ITP si applicano a tutti i cookie di prime parti impostati da Adobe, sia che tu stia utilizzando il servizio ID visitatore sia l’ID Analytics legacy (&quot;s_vi&quot; cookie). A un certo punto, questi criteri si applicano solo ai cookie impostati sul lato client e non ai cookie impostati sul lato server tramite un’implementazione CNAME. Nel novembre 2020, tuttavia, ITP è stato aggiornato per applicarlo anche alle implementazioni CNAME.
 
-#### Timeline delle modifiche principali ai criteri ITP {#ITP-timeline}
+#### Tempistica delle principali modifiche alla politica ITP {#ITP-timeline}
 
 * Febbraio 2019 con [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/): I cookie lato client erano limitati a una scadenza di sette giorni
 * Aprile 2019 con [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/): I cookie lato client erano limitati a 24 ore per i clic degli annunci quando il dominio di riferimento era a) coinvolto nel tracciamento tra siti e b) l&#39;URL finale conteneva una stringa di query e/o un identificatore di frammento.
@@ -51,7 +51,7 @@ Le politiche ITP si evolvono frequentemente. Per i criteri più recenti, consult
 Tutti i cookie di prime parti impostati da Adobe e le relative librerie JavaScript sono interessati dai criteri ITP:
 
 * [Ccookie &quot;AMCV&quot; ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) impostato dalla libreria del servizio ID visitatore di Adobe Experience Cloud (ECID)
-* Il cookie legacy di Analytics [&quot;s_vi&quot;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) quando è configurato con la raccolta dati di prime parti utilizzando un CNAME
+* Il cookie legacy di Analytics [&quot;s_vi&quot;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=it) quando è configurato con la raccolta dati di prime parti utilizzando un CNAME
 * Il cookie legacy di Analytics [&quot;s_fid&quot;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), che è il cookie di fallback utilizzato quando non è possibile impostare &quot;s_vi&quot;
 
 #### Qual è l’impatto di ITP su Safari per Analytics?
@@ -73,7 +73,7 @@ Se queste limitazioni influiscono sui dati, vedrai:
 
 I cookie di terze parti non vengono creati dai siti web visitati dagli utenti.
 
-Anche se i browser trattano tutti i cookie di terze parti allo stesso modo e li memorizzano, i cookie di terze parti possono comportarsi in modi diversi. Con l’implementazione di cookie di terze parti di Analytics di un cliente, i browser memorizzano l’ID Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) come cookie di terze parti, ma il client effettua chiamate solo ad Adobe e non a domini di terze parti troppo sconosciuti o sospetti. Questo cookie fornisce identificatori permanenti tra i domini e consente contenuti protetti (HTTPS). Per ulteriori informazioni, consulta [Cookie e il servizio Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Anche se i browser trattano tutti i cookie di terze parti allo stesso modo e li memorizzano, i cookie di terze parti possono comportarsi in modi diversi. Con l’implementazione di cookie di terze parti di Analytics di un cliente, i browser memorizzano l’ID Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=it) come cookie di terze parti, ma il client effettua chiamate solo ad Adobe e non a domini di terze parti troppo sconosciuti o sospetti. Questo cookie fornisce identificatori permanenti tra i domini e consente contenuti protetti (HTTPS). Per ulteriori informazioni, consulta [Cookie e il servizio Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 Nelle implementazioni di Analytics, i cookie di terze parti vengono utilizzati per il tracciamento tra domini diversi e per i casi di utilizzo pubblicitario, inclusi gli annunci di retargeting. I cookie di terze parti ti consentono di identificare i visitatori che visitano diversi domini di tua proprietà o che vengono visualizzati annunci su siti di tua proprietà.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -83,7 +83,7 @@ I cookie di prime parti sono specifici del dominio e vengono creati dai siti web
 
 Nelle implementazioni di Analytics, i cookie di prime parti vengono utilizzati per identificare gli utenti quando si trovano sul tuo sito e supportano quindi tutte le analisi dell’attività dell’utente. Non è necessario utilizzare cookie di terze parti per comprendere l’attività sul sito.
 
-Per ulteriori informazioni, consulta [Informazioni sui cookie di prime parti](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html).
+Per ulteriori informazioni, consulta [Informazioni sui cookie di prime parti](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=it).
 
 ![Confronto tra cookie](/help/technotes/assets/cookies2.png)
 
