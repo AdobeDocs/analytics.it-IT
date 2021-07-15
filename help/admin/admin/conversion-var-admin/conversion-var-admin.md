@@ -5,7 +5,7 @@ title: Variabili di conversione (eVar)
 feature: Strumenti di amministrazione
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 5%
@@ -28,7 +28,7 @@ Se desideri misurare il traffico o tracciare un percorso, si consiglia di utiliz
 
 >[!NOTE]
 >
->In una richiesta di immagine è possibile memorizzare un solo valore in un eVar. Se in un valore eVar desideri valori multipli, ti consigliamo di implementare [Variabili elenco (variabili elenco)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html).
+>In una richiesta di immagine è possibile memorizzare un solo valore in un eVar. Se in un valore eVar desideri valori multipli, ti consigliamo di implementare [Variabili elenco (variabili elenco)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it).
 
 ## Variabili di conversione - Descrizioni {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -45,7 +45,7 @@ Descrizioni dei campi utilizzati durante la [modifica delle variabili di convers
 | [!UICONTROL Merchandising]  (Solo eVar) | Le variabili merchandising possono seguire una delle due sintassi:<ul><li>**[!UICONTROL Products Syntax]**: Associa il valore eVar a un prodotto. **Nota**: Se  [!UICONTROL Products Syntax] è selezionata, la  [!UICONTROL Merchandising Binding Event] sezione è disabilitata e non selezionabile per la modifica. Per questa sintassi, [!UICONTROL Binding Events] non sono applicabili.</li><li>**[!UICONTROL Conversion Variable Syntax]**: Associa l’eVar a un prodotto solo se  [!UICONTROL Binding Event] si verifica un evento . In questo caso, selezioni gli eventi che agiscono come [!UICONTROL Binding Events].  La modifica di questa impostazione senza aggiornare di conseguenza il codice JavaScript causa la perdita di dati. Consulta [Variabili di merchandising](/help/components/dimensions/evar-merchandising.md).</li></ul> |
 | [!UICONTROL Merchandising Binding Event] (Solo eVar) | Se Merchandising è impostato su [!UICONTROL Conversion Variable Syntax], gli eventi selezionati associano il valore di eVar corrente a un prodotto. Per utilizzare un [!UICONTROL Binding Event], impostare [!UICONTROL Allocation] su [!UICONTROL Most Recent]. Se [!UICONTROL Allocation] è impostato su [!UICONTROL Original Value], il primo binding del prodotto eVar rimane fino alla scadenza dell’eVar. Per selezionare più eventi, tenete premuto Ctrl (Windows) o Comando (Mac) e fate clic su più elementi nell’elenco. È possibile selezionare un evento solo quando è selezionato [!UICONTROL Conversion Variable Syntax]. |
 
-**Scadenza**
+### Scadenza
 
 `eVars` scadono dopo un periodo di tempo specificato. Dopo la scadenza dell’eVar, non riceve più crediti per eventi di successo. Le eVar possono anche essere configurate in modo da scadere in caso di eventi di successo. Ad esempio, se hai una promozione interna che scade alla fine di una visita, la promozione interna riceve credito solo per gli acquisti o le registrazioni che si verificano durante la visita in cui sono stati attivati.
 
@@ -58,10 +58,10 @@ Ad esempio, se modifichi la scadenza di un eVar da 30 a 90 giorni, i valori eVar
 
 Un altro esempio: Se un eVar viene utilizzato a maggio per riflettere le promozioni interne e scade dopo 21 giorni, e a giugno viene utilizzato per acquisire le parole chiave di ricerca interne, il 1° giugno è necessario forzare la scadenza o reimpostare la variabile. In questo modo sarà possibile mantenere i valori di promozione interni al di fuori dei rapporti di giugno.
 
-**Sensibilità ai casi**
+### Sensibilità ai casi
 
 Le eVar non distinguono tra maiuscole e minuscole. La maiuscola o minuscola utilizzata nei rapporti si basa sul primo valore registrato dal sistema backend. Questo valore potrebbe essere la prima istanza mai vista o variare a seconda di un determinato periodo di tempo (ad esempio, mensile), a seconda della varietà e della quantità di dati associati alla suite di rapporti.
 
-**Contatori**
+### Contatori
 
 Sebbene le eVar siano utilizzate più spesso per contenere valori stringa, possono anche essere configurate per fungere da contatori. Le eVar sono utili come contatori quando si tenta di contare il numero di azioni eseguite da un utente prima di un evento. Ad esempio, puoi utilizzare un eVar per acquisire il numero di ricerche interne prima dell’acquisto. Ogni volta che un visitatore esegue una ricerca, l’eVar deve contenere un valore di &quot;+1.&quot; Se un visitatore esegue ricerche quattro volte prima di un acquisto, visualizzerai un’istanza per ogni conteggio totale: 1.00, 2.00, 3.00 e 4.00. Tuttavia, solo il 4.00 riceve credito per l’evento di acquisto (Metriche Ordini e Entrate). Solo i numeri positivi sono consentiti come valori di un contatore eVar.
