@@ -5,7 +5,7 @@ role: User, Admin
 source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '2988'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ La nuova pagina migliora la possibilità di individuare e guida gli utenti di Re
 
 >[!IMPORTANT]
 >
->Questa pagina di destinazione sarà in Open Beta a partire dal 21 luglio 2021. È un punto di partenza facoltativo. Se lo desideri, puoi utilizzare la pagina di destinazione esistente, che si tratti di Workspace o Report. Se decidi di partecipare al programma beta, accedi alla pagina e fai clic su **[!UICONTROL Provide feedback]** nella parte superiore dello schermo per registrare il tuo feedback ed eventuali bug che potresti riscontrare. Puoi scegliere di rinunciare e di nuovo accedere al programma beta in qualsiasi momento. Qualsiasi lavoro svolto nell’interfaccia utente beta viene trasferito nell’esperienza Workspace esistente/corrente.
+>Questa pagina di destinazione sarà in Open Beta a partire dal 21 luglio 2021. È un punto di partenza facoltativo. Se lo desideri, puoi utilizzare la pagina di destinazione esistente, che si tratti di Workspace o dei rapporti. Se decidi di partecipare al programma beta, accedi alla pagina e fai clic su **[!UICONTROL Provide feedback]** nella parte superiore dello schermo per registrare il tuo feedback ed eventuali bug che potresti riscontrare. Puoi scegliere di rinunciare e di nuovo accedere al programma beta in qualsiasi momento. Qualsiasi lavoro svolto nell’interfaccia utente beta viene trasferito nell’esperienza Workspace esistente/corrente.
 
 ## Accedere alla nuova pagina di destinazione {#access-landing}
 
@@ -134,7 +134,7 @@ Altre opzioni di apprendimento:
 
 La pagina Apprendimento contiene esercitazioni e video introduttivi e collegamenti alla documentazione.
 
-## Passa alla nuova pagina
+## Passare alla nuova pagina
 
 * Il [!UICONTROL Workspace Fundamentals] Tour ti porta direttamente a Workspace e ti guida attraverso il layout di Workspace e dove trovare/eseguire le azioni più comuni. Questa presentazione può essere riavviata in qualsiasi momento direttamente in Workspace tramite il pop-up della descrizione comandi dall’intestazione del pannello.
 
@@ -146,7 +146,7 @@ La pagina Apprendimento contiene esercitazioni e video introduttivi e collegamen
 
 | Domanda | Risposta |
 | --- | --- |
-| Dove sono i modelli che sono utilizzati per visualizzare in Workspace? | Questi modelli sono raggruppati sotto la scheda [!UICONTROL Reports] . |
+| Dove sono i modelli che trovavo in Workspace? | Questi modelli sono raggruppati sotto la scheda [!UICONTROL Reports] . |
 | Posso rinunciare alla versione beta? | Puoi rinunciare alla versione beta in qualsiasi momento. |
 | Il lavoro che eseguo nell’interfaccia utente del programma beta viene riportato all’esperienza di Workspace di produzione? | Sì, qualsiasi lavoro svolto nella versione beta viene trasferito all’esperienza precedente/corrente di Workspace. |
 | I miei preferiti correnti di Reports &amp; Analytics sono riportati? | No, NON sono riportati. Tuttavia, vengono riportati tutti i preferiti di Workspace Project. |
