@@ -1,16 +1,20 @@
 ---
 title: eVar per merchandising e metodi di ricerca dei prodotti
 description: Approfondisci i concetti alla base degli eVar di merchandising e le modalità di elaborazione e allocazione dei dati.
-source-git-commit: eb508167930019c51823e652fc16122e9e416d07
+source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '5307'
 ht-degree: 0%
 
 ---
 
 # eVar per merchandising e metodi di ricerca dei prodotti
 
-Questo documento dettagliato spiega i concetti alla base degli eVar di merchandising, che elaborano e allocano i dati in modo diverso rispetto agli eVar standard. Inoltre, spiega come le eVar per merchandising si rapportano ai metodi di ricerca dei prodotti.
+Questo documento molto dettagliato spiega i concetti alla base degli eVar di merchandising, che elaborano e allocano i dati in modo diverso rispetto agli eVar standard. Inoltre, spiega come le eVar per merchandising si rapportano ai metodi di ricerca dei prodotti.
+
+## Panoramica
+
+L’utilizzo delle eVar per merchandising consente di allocare qualsiasi attività di successo ai valori acquisiti dalle eVar a un livello *per prodotto* invece di un livello *per visita/per ordine*.
 
 Mentre la maggior parte dei siti web per la vendita al dettaglio ha molti modi per trovare i prodotti, l&#39;Adobe considera i seguenti metodi fondamentali per la ricerca dei prodotti che ogni cliente al dettaglio dovrebbe monitorare in Adobe Analytics:
 
@@ -30,7 +34,7 @@ Possiamo utilizzare un eVar aggiuntivo per misurare le prestazioni di tutti i me
 
 * eVar 1: Metodi di ricerca dei prodotti
 
-Invece di configurare una qualsiasi di queste variabili come eVar standard, configurale come eVar per merchandising. L’utilizzo delle eVar per merchandising consente di allocare qualsiasi attività di successo ai valori acquisiti dalle eVar a un livello *per prodotto* invece di un livello *per visita/per ordine*. Questo documento chiarisce la differenza tra l&#39;allocazione per prodotto e per ordine in tutto.
+Invece di configurare una qualsiasi di queste variabili come eVar standard, configurale come eVar per merchandising.
 
 Per dimostrare come impostare queste variabili, ecco un esempio in cui un visitatore decide di utilizzare la parola chiave interna &quot;sandali&quot; per trovare un prodotto sul sito. Nella pagina dei risultati della ricerca per parola chiave, devi acquisire dati in almeno due eVar:
 
@@ -49,11 +53,11 @@ Ad esempio, quando un utente cerca prodotti utilizzando la parola chiave &quot;s
 
 ## Impostazioni eVar di Merchandising
 
-Prima di continuare con l’esempio &quot;sandali&quot;, ecco le diverse impostazioni che puoi utilizzare con le eVar di merchandising.  La schermata seguente proviene da Report Suite Manager. Accedi a questa pagina selezionando Analytics > Amministratore > Suite di rapporti > Modifica impostazioni > Conversione > Variabili di conversione > Aggiungi nuovo > Abilita merchandising.
+Di seguito sono elencate le diverse impostazioni che puoi utilizzare con le eVar di merchandising. La schermata seguente proviene da Report Suite Manager. Accedete a [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Conversion Variables] > [!UICONTROL Add new] > [!UICONTROL Enable Merchandising].
 
 ![](assets/merch-evars1.png)
 
-Le sezioni sotto la tabella contengono ulteriori dettagli su queste impostazioni.
+Ulteriori informazioni su queste impostazioni sono disponibili nelle sezioni sotto la tabella.
 
 | Impostazione | Descrizione |
 |--- | --- |
@@ -72,7 +76,7 @@ Quando l’impostazione &quot;Abilita merchandising&quot; è impostata su &quot;
 
 ### Merchandising
 
-Questa opzione non è disponibile per le eVar normali. L’impostazione [!UICONTROL Merchandising] ti consente di scegliere [!UICONTROL Conversion Variable Syntax] o [!UICONTROL Product Syntax] come metodo per acquisire il valore dell’eVar di merchandising.
+Questa opzione non è disponibile per le eVar standard. L’impostazione [!UICONTROL Merchandising] ti consente di scegliere [!UICONTROL Conversion Variable Syntax] o [!UICONTROL Product Syntax] come metodo per acquisire il valore dell’eVar di merchandising.
 
 **[!UICONTROL Conversion Variable Syntax]** significa che si imposta il valore eVar nella propria variabile. Ad esempio, con Sintassi della variabile di conversione, il valore `eVar1` di &quot;ricerca di parole chiave interna&quot; viene impostato come segue all’interno del codice della pagina (o del codice AppMeasurement, del codice SDK per web AEP e così via):
 
@@ -118,19 +122,36 @@ Come accennato in precedenza, le eVar per merchandising consentono di allocare e
 
 ### Scade dopo
 
-L’impostazione di scadenza di un eVar di merchandising consente di scegliere quando scade il binding prodotto/eVar e quando la colonna post_evar non deve più essere compilata automaticamente dopo che un eVar è stato trasmesso in una richiesta di immagine. La scadenza per un eVar può avvenire quando viene registrato un evento di successo (a scelta) o un certo periodo di tempo, di nuovo a scelta, viene superato. Adobe Analytics consente una sola impostazione di scadenza alla volta per eVar.
+L’impostazione di scadenza di un eVar di merchandising consente di scegliere
 
-Per la soluzione Product Finding Method, la best practice per impostare la scadenza di un eVar di merchandising dovrebbe essere quella di impostarlo su uguale o al tempo in cui un prodotto viene conservato nel carrello prima che il sito lo elimini automaticamente dal carrello O quando si verifica l&#39;evento di acquisto. Con entrambe le impostazioni di scadenza, a tutti i prodotti acquistati da un visitatore verrà assegnato il credito ordine/unità/ricavo ai valori di eVar merchandising a cui erano associati i prodotti in quel momento.
+* quando scadono i binding del prodotto/eVar e
+
+* Quando la colonna post_evar non deve più essere compilata automaticamente dopo che un eVar è stato passato in una richiesta di immagine.
+
+La scadenza per un eVar può avvenire quando viene registrato un evento di successo o quando passa un determinato periodo di tempo. Adobe Analytics consente una sola impostazione di scadenza alla volta, per eVar.
+
+Per il metodo di ricerca dei prodotti, la best practice per impostare la scadenza di un eVar di merchandising dovrebbe essere quella di impostarlo su uguale a
+
+* O il periodo di tempo in cui un prodotto viene tenuto nel carrello prima che il sito lo rimuove automaticamente dal carrello
+* O quando si verifica l&#39;evento di acquisto.
+
+Con entrambe le impostazioni, qualsiasi prodotto acquistato da un visitatore dispone del credito di ordine/unità/ricavo assegnato ai valori di eVar merchandising a cui erano associati i prodotti in quel momento.
 
 ### Tipo
 
-L’impostazione del tipo di eVar determina il tipo di dati inserito nell’eVar. Nella maggior parte dei casi, se non tutti, durante la configurazione di un eVar di merchandising, questo valore dovrebbe essere uguale a &quot;Testo&quot;. L’utilizzo di un tipo di &quot;Contatore&quot; per un eVar di merchandising è raro, ma, a seconda delle esigenze di tracciamento, potrebbe essere utilizzato in modo efficace per allocare il successo ai valori di Counter eVar a livello di prodotto.  La discussione delle soluzioni con un tipo di &quot;Contatore&quot; non rientra nell&#39;ambito di questo documento.
+L’impostazione del tipo di eVar determina il tipo di dati inserito nell’eVar. Nella maggior parte dei casi, questo valore deve essere uguale a &quot;Testo&quot;. Usare &quot;Counter&quot; per un eVar merchandising è raro. Tuttavia, &quot;Contatore&quot; potrebbe essere utilizzato per allocare il successo ai valori Counter eVar in base al prodotto.  La discussione delle soluzioni con un tipo di &quot;Contatore&quot; non rientra nell&#39;ambito di questo documento.
 
 ### Evento di associazione Merchandising
 
-L’impostazione Evento di binding di merchandising consente di specificare le condizioni che determinano l’associazione di un prodotto al valore di un eVar di merchandising. Tali condizioni sono limitate all&#39;attivazione di eventi di successo specifici o solo eVar; l’attivazione delle variabili di traffico (ad esempio proprietà) non ha alcun effetto sui binding di merchandising.
+L’impostazione Evento di binding di merchandising consente di specificare le condizioni per un prodotto da associare al valore di un eVar di merchandising. Queste condizioni sono limitate all’attivazione di eventi di successo specifici o solo eVar. Le variabili di traffico attivate (ad esempio proprietà) non hanno alcun effetto sui binding di merchandising.
 
-Una delle funzioni più utili dell’impostazione Evento di associazione Merchandising è la capacità di associare un prodotto a un valore di eVar attraverso più di un evento. Ad esempio, l’impostazione potrebbe consentire ai prodotti di essere associati a un valore eVar di merchandising tramite un evento di visualizzazione del prodotto, un evento di aggiunta del carrello o un evento di acquisto. L’impostazione potrebbe persino - e per impostazione predefinita - associare un prodotto a un valore di eVar merchandising ogni volta che un altro evento/eVar - merchandising o altro - è contenuto nella stessa richiesta di immagine del prodotto.
+Tieni presente che l’impostazione Evento di binding di merchandising può associare un prodotto a un valore di eVar tramite più di un evento. Esempi:
+
+* Tramite un evento di visualizzazione prodotto
+* Tramite un evento di aggiunta carrello
+* Tramite un evento di acquisto
+
+Per impostazione predefinita, vincola un prodotto a un valore di eVar merchandising ogni volta che un altro evento/eVar (merchandising o standard) è contenuto nella stessa richiesta di immagine del prodotto.
 
 ### Ripristino
 
@@ -141,7 +162,7 @@ L’impostazione Reset ti consente di &quot;scadere&quot; immediatamente tutti i
 
 ## Quali impostazioni utilizzare?
 
-Tra le numerose combinazioni di impostazioni disponibili, potreste chiedervi quali sono le impostazioni &quot;best practice&quot;.
+Tra le tante combinazioni di impostazione disponibili, ci si potrebbe chiedere: Quali sono le impostazioni consigliate?
 
 Se desideri eseguire un binding della &quot;ricerca per parola chiave interna&quot; con l’ID prodotto 12345, la variabile prodotti viene impostata come segue:
 
@@ -206,7 +227,7 @@ La sintassi del prodotto è ancora utile quando
 * Più prodotti con lo stesso ID prodotto interagiscono contemporaneamente e
 * Le eVar da associare a tali prodotti devono avere valori diversi per ID prodotto.
 
-Ad esempio, molti prodotti di abbigliamento hanno &quot;SKU bambini&quot;, che designano la dimensione, il colore, lo stile e qualsiasi altro attributo. Questi attributi separano un singolo prodotto secondario da altri prodotti di pari livello che appartengono allo stesso prodotto principale. Supponiamo che tu decida di acquistare una maglietta blu media più una grande t-shirt rossa. Supponiamo che entrambe le camicie abbiano l&#39;ID prodotto principale di &quot;tshirt123&quot; e che eVar10 sia stato configurato per acquisire SKU figlio. Le variabili impostate nella pagina di conferma dell’acquisto vengono impostate come segue:
+Ad esempio, molti prodotti di abbigliamento hanno &quot;SKU bambini&quot;, che designano la dimensione, il colore, lo stile e qualsiasi altro attributo. Questi attributi separano un singolo prodotto secondario da altri prodotti che appartengono allo stesso prodotto principale. Supponiamo che tu decida di acquistare una maglietta blu media più una grande t-shirt rossa. Supponiamo che entrambe le magliette abbiano l’ID prodotto principale di &quot;tshirt123&quot; e che `eVar10` sia stato configurato per acquisire SKU figlio. Le variabili impostate nella pagina di conferma dell’acquisto vengono impostate come segue:
 
 ```
 s.events='purchase';
@@ -276,12 +297,14 @@ Utilizzando il nostro esempio precedente, il valore `eVar2` di &quot;sandali&quo
 
 C&#39;è un&#39;altra cosa da riconsiderare con la sintassi della variabile di conversione. È quindi necessario impostare gli eventi di binding per associare un valore eVar a un prodotto. La semplice impostazione di un eVar merchandising (nella propria variabile) accanto a un prodotto (nella variabile dei prodotti) in una richiesta di immagine Adobe Analytics non necessariamente associa il valore eVar al prodotto.  L’impostazione Evento di associazione Merchandising, impostata in Report Suite Manager, determina invece i criteri che vincolano un valore di eVar a un prodotto
 
-Poiché vogliamo associare i valori eVar del metodo di ricerca dei prodotti ai prodotti ogni volta che si verifica un’interazione con il prodotto, il che implica che un prodotto è stato &quot;trovato&quot;, è possibile presumere che le interazioni più comuni tra i &quot;prodotti trovati&quot; che possono verificarsi siano una visualizzazione di prodotto (quando i visitatori accedono a una pagina di dettaglio del prodotto) o un’aggiunta di carrello (quando i visitatori aggiungono un prodotto al carrello direttamente da una pagina di metodo di ricerca dei prodotti).  Pertanto, possiamo scegliere questi due eventi (prodView, scAdd) come eventi di binding di merchandising &quot;fondamentali&quot;.
-Ogniqualvolta uno di questi eventi di binding è contenuto in una richiesta di immagine, gli ID prodotto contenuti nella stessa richiesta (all’interno della variabile products ) e non sono già stati associati a un eVar merchandising si associano ai valori più recenti passati nell’eVar merchandising (come contenuto nelle colonne post_evar ). Qualsiasi tentativo di ridefinire questi prodotti dopo aver effettuato questo binding originale verrà ignorato quando l’impostazione Allocazione (binding) è impostata su &quot;Valore originale (primo)&quot;.
+Poiché vogliamo associare i valori eVar del metodo di ricerca dei prodotti ai prodotti ogni volta che si verifica un’interazione con il prodotto, il che implica che un prodotto è stato &quot;trovato&quot;, è possibile presumere che le interazioni più comuni tra i &quot;prodotti trovati&quot; che possono verificarsi siano una visualizzazione di prodotto (quando i visitatori accedono a una pagina di dettaglio del prodotto) o un’aggiunta di carrello (quando i visitatori aggiungono un prodotto al carrello direttamente da una pagina di metodo di ricerca dei prodotti).
+
+Pertanto, possiamo scegliere questi due eventi (prodView, scAdd) come eventi di binding di merchandising &quot;fondamentali&quot;.
+Questo è ciò che accade quando uno di questi eventi di binding è contenuto all’interno di una richiesta di immagine. Eventuali ID prodotto contenuti nella stessa richiesta (all’interno della variabile prodotti) e non associati a un eVar merchandising verranno associati ai valori più recenti passati nell’eVar merchandising (colonne post_evar). Qualsiasi tentativo di ridefinire questi prodotti dopo aver effettuato questo binding originale viene ignorato quando l’impostazione Allocazione (binding) è impostata su &quot;Valore originale (primo)&quot;.
 
 ### Impostazioni delle best practice
 
-Di seguito sono riportate le impostazioni relative alle best practice. Implementano il metodo di ricerca dei prodotti il più facilmente possibile con il set più potente di risultati. Adobe consiglia ai clienti di configurare ciascuna delle eVar per merchandising dei metodi di ricerca dei prodotti (in generale) come segue:
+Di seguito sono riportate le impostazioni relative alle best practice. Implementano facilmente il metodo di ricerca dei prodotti con i migliori risultati. Adobe consiglia ai clienti di configurare ciascuna delle eVar per merchandising dei metodi di ricerca dei prodotti (in generale) come segue:
 
 * Merchandising abilitato: Abilitato
 * Sintassi del merchandising []: Sintassi della variabile di conversione
@@ -323,7 +346,7 @@ s.products=";sandals123"
 s.events="prodView";
 ```
 
-Considerando le colonne post_evar, gli Adobi server di elaborazione vedono questo hit come segue:
+Nelle colonne post_evar, i server di elaborazione Adobe visualizzano questo hit come segue:
 
 ```
 s.products=";sandals123"
@@ -344,4 +367,22 @@ post_events="prodView"
 post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell"
 ```
 
-Il valore contenuto nella colonna post_products potrebbe essere familiare. Scorri verso l’alto in questo documento e confronta il valore post_products e il valore s.products come mostrato in .  Noterai che la colonna post_products è impostata utilizzando Sintassi delle variabili di prodotto! Ciò significa che il binding &quot;copia&quot; i valori dell’eVar di sintassi della variabile di conversione nella variabile prodotti tramite Sintassi prodotto. Questa azione di copia ha luogo solo quando la variabile dei prodotti e un evento di binding (impostato tramite la configurazione di eVar) sono contenuti nella stessa richiesta. A questo punto, i valori contenuti nelle colonne post_eVar sono associati al prodotto. Questo Binding è rappresentato tramite la sintassi prodotto memorizzata nella colonna post_products .
+Il valore contenuto nella colonna post_products potrebbe essere familiare. Scorri verso l’alto in questo documento e confronta il valore post_products e il valore s.products come mostrato in .  La colonna post_products viene impostata utilizzando Sintassi delle variabili di prodotto.
+
+Ciò significa che il binding &quot;copia&quot; i valori dell’eVar di sintassi della variabile di conversione nella variabile prodotti tramite Sintassi prodotto. Questa azione di copia ha luogo solo quando la variabile dei prodotti e un evento di binding (impostato tramite la configurazione di eVar) sono contenuti nella stessa richiesta. A questo punto, i valori contenuti nelle colonne post_eVar sono associati al prodotto. Questo Binding è rappresentato tramite la sintassi prodotto memorizzata nella colonna post_products .
+
+## eVar per merchandising, metrica Istanze e Attribution IQ
+
+Quando un eVar standard viene inviato in una chiamata al server Analytics, il valore nella colonna post_evar riceve sempre un&#39;istanza attribuita ad esso. Le istanze rappresentano il numero di volte in cui un eVar è stato impostato come valore particolare in una richiesta di immagine.
+
+Ad esempio, si supponga che `eVar10` sia un eVar standard con attribuzione [!UICONTROL Last Touch]. Se imposti `s.eVar10="hello world"` su qualsiasi pagina, il valore di &quot;hello world&quot; viene trasmesso alla colonna post_evar10 quando Adobe elabora l’hit. La metrica delle istanze è uguale a &quot;1&quot; per ogni singola impostazione `eVar10` di `hello world`. Tieni presente che un’istanza non viene sempre registrata quando la colonna post_evar ha un valore. Piuttosto, la colonna post_evar determina quale valore ottiene l&#39;istanza quando viene registrata un&#39;istanza.
+
+Le istanze per un eVar di merchandising attribuiscono l’attribuzione ai valori che l’eVar raccoglie. Ma questo accade solo quando un prodotto legato al valore dell&#39;eVar di merchandising è stato &quot;interagito&quot; con allo stesso tempo.
+
+Ad esempio, l’impostazione `s.eVar1="Internal Keyword Search"` di per sé non attribuisce alcun credito alla metrica Instance al valore eVar1 di &quot;Internal Keyword Search&quot;. A quel punto viene registrata un&#39;istanza. Tuttavia, a meno che un prodotto non sia associato al valore di &quot;Ricerca parola chiave interna&quot; nello stesso momento in cui `eVar1` è impostato, l’istanza viene attribuita al bucket Non specificato. In altre parole, il valore `eVar1` di &quot;Ricerca di parole chiave interne&quot; può ottenere un’istanza. Ma questo accade solo quando un prodotto associato al valore di &quot;Ricerca di parole chiave interna&quot; appare nella variabile dei prodotti nella stessa richiesta di immagine.
+
+In sintesi, senza configurazioni aggiuntive, la metrica Istanze predefinita per un eVar merchandising è meno utile. Fortunatamente, Adobe rilasciato [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en). Ti consente di applicare più modelli di attribuzione per qualsiasi metrica personalizzata che Adobe Analytics raccoglie. Le metriche che applicano questi modelli di attribuzione non utilizzano i valori contenuti nelle colonne post_evar o i valori associati a uno specifico prodotto. Piuttosto, queste metriche utilizzano solo i valori trasmessi tramite le richieste di immagini stesse (o i valori acquisiti tramite le regole di elaborazione di Adobe Analytics). Puoi utilizzare le funzioni di Attribution IQ per ottenere una metrica di istanze con attribuzione accurata per tutte le eVar di merchandising che utilizzano la sintassi della variabile di conversione.
+
+![](assets/merch-evars3.png)
+
+Quando si aggiunge una metrica di istanza per un eVar di merchandising a un rapporto, il modello di Attribution IQ appropriato sarà il modello &quot;Ultimo contatto&quot;. In questo caso, l&#39;impostazione della finestra di lookback per il modello non ha importanza. Il motivo è che un modello di attribuzione Last Touch &quot;forzato&quot; attribuisce sempre all’istanza il merito di ogni singolo valore passato tramite una richiesta. Ciò indipendentemente dal fatto che le impostazioni di attribuzione/binding effettive dell’eVar siano impostate su &quot;Most Recent (Last)&quot; (Ultimo) (Valore originale) (Primo)&quot;.
