@@ -6,7 +6,7 @@ exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Consulta [Variabili di dati di contesto](/help/implement/vars/page-vars/contextd
 
 * Dati contestuali: `contextData.['cm.ssf']`
 * Valori accettati:
-   * 1: quando si invia il valore “1”, indica che l’inoltro lato server è in stato opt-out. Il valore “1” associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta [Conformità ePrivacy AAM](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=en).
+   * 1: quando si invia il valore “1”, indica che l’inoltro lato server è in stato opt-out. Il valore “1” associato a questa variabile bloccherà la condivisione dell’hit con Adobe Audience Manager. Consulta [Conformità ePrivacy AAM](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=it).
    * 0: facoltativo. Utilizza il valore “0” per i clienti che hanno acconsentito al marketing mirato. Si ottengono gli stessi risultati anche senza impostare la variabile.
 
 ### DMP
