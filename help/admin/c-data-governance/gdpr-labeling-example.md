@@ -4,9 +4,9 @@ title: Esempi di etichettatura
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: fe277bea867dc67e8693673a547adecccf169332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Supponi di avere i dati seguenti:
 
 ## Richiesta di accesso di esempio
 
-Se si invia una richiesta di accesso, il file di riepilogo contiene i valori indicati nella tabella seguente. Una richiesta può restituire solo un file di dispositivo, solo un file di persona o entrambi. Due file di riepilogo vengono restituiti solo se viene usato un ID persona ed expandIDs è true.
+Inviando una richiesta di accesso, il file di riepilogo contiene i valori indicati nella tabella seguente. Una richiesta può restituire solo un file di dispositivo, solo un file di persona o entrambi. Due file di riepilogo vengono restituiti solo se viene usato un ID persona ed expandIDs è true.
 
 <table>
   <tr>
@@ -141,7 +141,7 @@ Se si invia una richiesta di accesso, il file di riepilogo contiene i valori ind
 
 Si noti che le impostazioni di expandIDs non cambiano nell’output quando viene usato un ID cookie.
 
-## Richieste di cancellazione di esempio
+## Esempio di richieste di cancellazione
 
 Se la richiesta di cancellazione usa i valori dell’API nella prima riga della tabella, la tabella dei risultati verrà aggiornata e apparirà come la seguente:
 
@@ -289,7 +289,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 >[!NOTE]
 >
->sono interessate solo le celle nelle righe contenenti user=Mary e un’etichetta DEL-PERSON. Inoltre, in pratica, la variabile contenente A_ID probabilmente è una proprietà o un eVar. Il suo valore di sostituzione sarebbe una stringa che inizia con &quot;Privacy-&quot;, seguita da un numero casuale (GUID), anziché sostituire il valore numerico con un diverso valore numerico casuale.
+>sono interessate solo le celle nelle righe contenenti user=Mary e un’etichetta DEL-PERSON. Inoltre, in pratica, la variabile contenente A_ID probabilmente è una proprietà o un eVar. Il suo valore di sostituzione sarebbe una stringa che inizia con “Privacy-”, seguita da un numero casuale (GUID), invece della sostituzione del valore numerico con un diverso valore numerico casuale.
 
 <table>
   <tr>
@@ -362,8 +362,8 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 Tieni presente quanto segue:
 
-* Sono interessate le celle nelle righe contenenti `user=Mary` e un’etichetta `DEL-DEVICE` o `DEL-PERSON` , nonché le celle con un’etichetta `DEL-DEVICE` nelle righe contenenti eventuali ID visitatore (AAID) che si sono verificate in una riga contenente `user=Mary`.
-* L&#39;impostazione expandIDs non si espande alla chiamata per includere i valori presenti in MyEvar3, che ha un&#39;etichetta ID-DEVICE, quando `user=Mary`. ExpandIDs si espande solo per includere ID visitatore (AAID in questo esempio, ma anche ECID) nelle righe in cui `user=Mary`.
+* Sono interessate le celle nelle righe contenenti `user=Mary` e un’etichetta `DEL-DEVICE` o `DEL-PERSON`, nonché le celle con un’etichetta `DEL-DEVICE` nelle righe contenenti qualsiasi ID visitatore (AAID) presente in una riga contenente `user=Mary`.
+* L’impostazione expandIDs non si estende alla chiamata per includere i valori presenti in MyEvar3, che ha un’etichetta ID-DEVICE, quando `user=Mary`. ExpandIDs si estende solo all’inclusione di ID visitatore (AAID in questo esempio, ma anche ECID) nelle righe in cui `user=Mary`.
 * `MyEvar2` nella quarta e nella quinta riga viene aggiornato perché queste righe contengono gli stessi valori ID visitatore di quelli nella prima e nella seconda riga. Di conseguenza, l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
 * I valori di `MyEvar2` nella seconda e nella quinta riga corrispondono prima e dopo l’eliminazione. Tuttavia, dopo l’eliminazione non corrispondono più al valore N che si trova nell’ultima riga, perché tale riga non è stata aggiornata come parte della richiesta di eliminazione.
-* `MyEvar3` si comporta in modo molto diverso rispetto alla versione senza l’espansione dell’ID, in quanto senza l’espansione dell’ID, nessun corrisponde `ID-DEVICES`. Ora, `AAID` corrisponde alle prime cinque righe.
+* `MyEvar3` si comporta in modo molto diverso rispetto alla versione senza l’espansione dell’ID, in quanto senza l’espansione dell’ID, nessun corrisponde `ID-DEVICES`. Ora `AAID` corrisponde alle prime cinque righe.
