@@ -1,7 +1,7 @@
 ---
 title: eVar per merchandising e metodi di ricerca dei prodotti
 description: Approfondisci i concetti alla base degli eVar di merchandising e le modalità di elaborazione e allocazione dei dati.
-source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
+source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
 workflow-type: tm+mt
 source-wordcount: '5307'
 ht-degree: 0%
@@ -383,6 +383,6 @@ Ad esempio, l’impostazione `s.eVar1="Internal Keyword Search"` di per sé non 
 
 In sintesi, senza configurazioni aggiuntive, la metrica Istanze predefinita per un eVar merchandising è meno utile. Fortunatamente, Adobe rilasciato [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en). Ti consente di applicare più modelli di attribuzione per qualsiasi metrica personalizzata che Adobe Analytics raccoglie. Le metriche che applicano questi modelli di attribuzione non utilizzano i valori contenuti nelle colonne post_evar o i valori associati a uno specifico prodotto. Piuttosto, queste metriche utilizzano solo i valori trasmessi tramite le richieste di immagini stesse (o i valori acquisiti tramite le regole di elaborazione di Adobe Analytics). Puoi utilizzare le funzioni di Attribution IQ per ottenere una metrica di istanze con attribuzione accurata per tutte le eVar di merchandising che utilizzano la sintassi della variabile di conversione.
 
-![](assets/merch-evars3.png)
+![](assets/attribution-select.png)
 
 Quando si aggiunge una metrica di istanza per un eVar di merchandising a un rapporto, il modello di Attribution IQ appropriato sarà il modello &quot;Ultimo contatto&quot;. In questo caso, l&#39;impostazione della finestra di lookback per il modello non ha importanza. Il motivo è che un modello di attribuzione Last Touch &quot;forzato&quot; attribuisce sempre all’istanza il merito di ogni singolo valore passato tramite una richiesta. Ciò indipendentemente dal fatto che le impostazioni di attribuzione/binding effettive dell’eVar siano impostate su &quot;Most Recent (Last)&quot; (Ultimo) (Valore originale) (Primo)&quot;.
