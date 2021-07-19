@@ -5,10 +5,10 @@ uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
 exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 93%
+source-wordcount: '267'
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ Una tabella di confronto per le API di reporting di Analytics. Vengono forniti c
    <td colname="col5"> Dati completamente elaborati e finalizzati utilizzati per eseguire il pull di esportazioni dati di grandi dimensioni. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html"  > Latenza</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html?lang=it"  > Latenza</a> </p> </td> 
    <td colname="col2"> 30-90 minuti </td> 
    <td colname="col3"> * Secondi -10 minuti </td> 
    <td colname="col4"> Secondi -10 minuti </td> 
@@ -93,4 +93,3 @@ Una tabella di confronto per le API di reporting di Analytics. Vengono forniti c
 **Argomenti correlati**
 
 * [Adobe/IO](https://www.adobe.io/): una fonte completa per la documentazione tecnica e gli strumenti necessari per integrare le tecnologie Adobe nelle applicazioni.
-* [API di query di Data Workbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
