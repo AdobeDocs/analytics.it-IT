@@ -1,34 +1,37 @@
 ---
-title: Mappatura degli elementi dei dati di Launch alle variabili Analytics
+title: Mappare gli elementi dei dati dei tag alle variabili di Analytics
 description: Assegna elementi dati alle variabili di Analytics in modo da poterli utilizzare come dimensioni in Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 5%
+source-wordcount: '480'
+ht-degree: 4%
 
 ---
 
-# Mappatura degli elementi dei dati di Launch alle variabili Analytics
+# Mappare gli elementi dei dati dei tag alle variabili di Analytics
 
-Una volta che disponi di un archivio di elementi dati in Adobe Experience Platform Launch, puoi assegnarli alle dimensioni di Analytics.
+Una volta che hai un archivio di elementi dati tag, puoi assegnarli alle dimensioni di Analytics.
+
+>[!NOTE]
+>Adobe Experience Platform Launch è stato riclassificato come una suite di tecnologie di raccolta dati nell’Experience Platform. Di conseguenza, sono state introdotte diverse modifiche terminologiche nella documentazione del prodotto. Consulta questo [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) come riferimento consolidato delle modifiche terminologiche.
 
 ## Prerequisiti
 
-[Mappatura di oggetti livello dati su elementi](layer-to-elements.md) dati: Assicurati di comprendere gli elementi dati in Launch e di disporre di diversi elementi con cui lavorare.
+[Mappatura di oggetti livello dati su elementi](layer-to-elements.md) dati: Assicurati di comprendere gli elementi dei dati dei tag e di disporre di diversi elementi con cui lavorare.
 
 [Crea un documento](../prepare/solution-design.md) di progettazione della soluzione: Un documento di progettazione della soluzione è fondamentale per rimanere organizzati. Il seguente documento di progettazione della soluzione semplifica l&#39;assegnazione di elementi dati alle variabili di Analytics.
 
 ## Assegnare elementi dati alle variabili di Analytics
 
-La pubblicazione di una libreria in Launch dopo aver eseguito questi passaggi ti consente di utilizzare dimensioni personalizzate in Analysis Workspace. Puoi impostare le variabili di Analytics a livello globale o in singole regole.
+La pubblicazione di una libreria di tag dopo aver eseguito questi passaggi consente di utilizzare dimensioni personalizzate in Analysis Workspace. Puoi impostare le variabili di Analytics a livello globale o in singole regole.
 
 ### Imposta variabili globali
 
 Le variabili globali sono ideali nei casi in cui desideri impostare valori variabili su tutte le pagine in cui esiste un elemento dati.
 
 1. Vai a [Adobe Experience Platform Launch](https://launch.adobe.com) e, se richiesto, accedi.
-1. Fai clic sulla proprietà Launch desiderata.
+1. Fai clic sulla proprietà tag desiderata.
 1. Fai clic su [!UICONTROL Extensions tab], quindi fai clic su [!UICONTROL Configure] sotto l’estensione Adobe Analytics.
 1. Fai clic sul pannello a soffietto [!UICONTROL Global variables] per visualizzare l’interfaccia per assegnare variabili globali.
 
@@ -37,7 +40,7 @@ Le variabili globali sono ideali nei casi in cui desideri impostare valori varia
 Le variabili impostate nelle regole sono ideali nei casi in cui non desideri che le variabili siano impostate su ogni pagina. Puoi definire i criteri nella regola. Consulta [Regole](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html) nella guida utente di Adobe Experience Platform Launch.
 
 1. Vai a [Adobe Experience Platform Launch](https://launch.adobe.com) e, se richiesto, accedi.
-1. Fai clic sulla proprietà Launch desiderata.
+1. Fai clic sulla proprietà tag desiderata.
 1. Fai clic sulla scheda [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o creane una).
 1. Fare clic sul pulsante [!UICONTROL Add] in [!UICONTROL Actions].
 1. Imposta il menu a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su Imposta variabili.
