@@ -5,9 +5,9 @@ title: Ordine di elaborazione
 feature: Strumenti di amministrazione
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '503'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Nelle tabelle seguenti sono elencati i dati generalmente disponibili prima e dop
 |--- |--- |
 | Ricerca variabile dinamica | Le variabili vengono compilate dinamicamente estraendo informazioni dalle intestazioni HTTP o da altre variabili. Ad esempio, `s.eVar5="D=c1"` inserirà il valore di prop1 in eVar5. |
 | AppMeasurement | Le funzioni e i plug-in utilizzati in AppMeasurement vengono eseguiti nel browser o nell’applicazione client. |
-| Gestione tag | Le regole definite in Adobe Launch o Dynamic Tag Management vengono eseguite come definito. |
+| Gestione tag | Le regole definite nell’interfaccia utente della raccolta dati vengono eseguite come definito. |
 | Regole bot | [Le ](/help/admin/admin/bot-removal/bot-rules.md) regole dei bot consentono di rimuovere il traffico generato da ragni e bot noti dalla suite di rapporti. |
 
 ## Dopo le regole di elaborazione
