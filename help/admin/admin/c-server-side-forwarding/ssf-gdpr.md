@@ -3,10 +3,9 @@ description: Spiega i miglioramenti all'inoltro lato server richiesti dal regola
 title: Conformità a RGPD/ePrivacy e inoltro lato server
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '526'
 ht-degree: 9%
 
 ---
@@ -23,13 +22,13 @@ Quando questa nuova variabile di contesto, `cm.ssf=1`, esiste su un hit, questo 
 
 L&#39;inoltro lato server è bidirezionale, il che significa che quando viene applicato a un hit e quell&#39;hit viene inoltrato a AAM, Audience Analytics riceve informazioni sui segmenti per quell&#39;hit da AAM e lo invia nuovamente ad Analytics. Di conseguenza, gli hit che non sono inoltrati sul lato server da Analytics a AAM non verranno arricchiti con l’elenco degli ID del segmento da AAM. Pertanto, ci sarà un sottoinsieme di traffico/hit che non otterrà le informazioni ID del segmento da AAM.
 
-## Dettagli implementazione {#section_FFA8B66085BF469FAB5365C944FE38F7}
+## Dettagli di implementazione {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
 A seconda del metodo di implementazione, segui questi passaggi.
 
 | Metodo di implementazione | Passaggi |
 |--- |--- |
-| Adobe Experience Platform Launch | Supponendo che sia installata l’estensione Adobe Analytics, aggiungi la seguente definizione di variabile di dati di contesto all’editor di codice personalizzato nella configurazione Azione di una regola: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota:  Definisci la variabile contextdata e impostala su 1 se un cliente non dà il consenso al marketing mirato. Imposta la variabile `contextdata` su *0* per i clienti che hanno acconsentito al marketing mirato. |
+| Tag in Adobe Experience Platform | Presupponendo che sia installata l’estensione Adobe Analytics, aggiungi la seguente definizione di variabile di dati di contesto all’editor di codice personalizzato nella configurazione Azione di una regola: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota:  Definisci la variabile contextdata e impostala su 1 se un cliente non dà il consenso al marketing mirato. Imposta la variabile `contextdata` su *0* per i clienti che hanno acconsentito al marketing mirato. |
 | AppMeasurement | Aggiungi la definizione della variabile di dati di contesto al file AppMeasurement.js :  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota:  Definisci la variabile contextdata e impostala su 1 se un cliente non dà il consenso al marketing mirato. Imposta la variabile contextdata su 0 per i clienti che hanno acconsentito al marketing mirato. |
 
 ## Reporting (facoltativo) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
