@@ -1,14 +1,13 @@
 ---
 title: Dimensioni per dispositivi mobili
 description: Dimension basati sull’indirizzo IP del dispositivo.
-translation-type: tm+mt
-source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
+exl-id: fa460888-513d-4d14-93b1-33d308e0758a
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
-
 
 # Dimensioni per dispositivi mobili
 
@@ -19,7 +18,7 @@ Le dimensioni per dispositivi mobili forniscono informazioni approfondite sulle 
 ## Popolare queste dimensioni con i dati
 
 Queste dimensioni fanno riferimento a regole di ricerca interne all’Adobe. [!UICONTROL Mobile Carrier] Le ricerche sono determinate dall’indirizzo IP, utilizzando i dati ottenuti da NetAcuity (un prodotto Digital Elements).
-Se utilizzi una libreria AppMeasurement (ad esempio tramite Adobe Experience Platform Launch), tutte le dimensioni per dispositivi mobili non sono pronte all’uso.
+Se utilizzi una libreria AppMeasurement (ad esempio tramite tag in Adobe Experience Platform), tutte le dimensioni per dispositivi mobili non sono pronte all’uso.
 
 ## Descrizioni delle dimensioni mobili
 
