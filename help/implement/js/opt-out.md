@@ -2,10 +2,10 @@
 title: Collegamenti di rinuncia
 description: Scopri come creare e implementare i collegamenti di rinuncia per i visitatori del tuo sito.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 4%
+source-wordcount: '583'
+ht-degree: 3%
 
 ---
 
@@ -27,19 +27,22 @@ Quando un visitatore raggiunge un URL di rinuncia, gli viene richiesto di instal
 
 La pagina di rinuncia per la tua organizzazione dipende dal valore della variabile [`trackingServer`](../vars/config-vars/trackingserver.md) nella tua implementazione.
 
-* In Adobe Experience Platform Launch:
-   1. Accedi a [launch.adobe.com](https://launch.adobe.com) e fai clic sulla proprietà desiderata.
-   2. Fai clic sulla scheda [!UICONTROL Extensions] , quindi fai clic su [!UICONTROL Configure] in Adobe Analytics.
-   3. Fare clic sul pannello a soffietto [!UICONTROL General] e annotare il valore [!UICONTROL Tracking Server].
+* Nell’interfaccia utente di raccolta dati di Adobe Experience Platform:
+   1. Vai a `experience.adobe.com` e accedi quando richiesto.
+   1. Select [!UICONTROL Launch / Data Collection].
+   1. Fare clic su [!UICONTROL Go to Launch / Data Collection], quindi selezionare [!UICONTROL Tags].
+   1. Fai clic sulla proprietà desiderata.
+   1. Fai clic sulla scheda [!UICONTROL Extensions] , quindi fai clic su [!UICONTROL Configure] in Adobe Analytics.
+   1. Fare clic sul pannello a soffietto [!UICONTROL General] e annotare il valore [!UICONTROL Tracking Server].
 
 * In un&#39;implementazione JavaScript:
    1. Sul server web, apri il file AppMeasurement.js utilizzato sul tuo sito in un editor di codice o di testo.
-   2. Notare il valore della variabile `trackingServer`.
+   1. Notare il valore della variabile `trackingServer`.
 
-* Utilizzando [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html):
+* Utilizzando [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it):
    1. Passa al sito utilizzando il browser Chrome.
-   2. Apri il Experience Cloud Debugger, quindi vai a [!UICONTROL Network tab].
-   3. Osserva il valore [!UICONTROL Request URL - Hostname] .
+   1. Apri il Experience Cloud Debugger, quindi vai a [!UICONTROL Network tab].
+   1. Osserva il valore [!UICONTROL Request URL - Hostname] .
 
 Dopo aver trovato il dominio `trackingServer` dell&#39;implementazione, aggiungi il percorso `/optout.html` alla fine. Ad esempio:
 
