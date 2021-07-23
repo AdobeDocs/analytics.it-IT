@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Adobe Analytics. '
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '381'
 ht-degree: 91%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 91%
       + [visitorID](vars/config-vars/visitorid.md)
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
-   + Variabili di pagina {page-vars}
+   + Variabili di pagina {#page-vars}
       + [Panoramica delle variabili di pagina](vars/page-vars/page-variables.md)
       + [campagna](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
