@@ -1,33 +1,32 @@
 ---
-title: Altezza del browser - rilegatura
-description: L’altezza della finestra del browser in pixel.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+title: Altezza browser - a blocchi
+description: Altezza della finestra del browser in pixel.
+exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
-
 # Altezza browser
 
-La dimensione &#39;Altezza browser - rilegatura&#39; mostra l&#39;altezza della finestra del browser, classificata in gruppi di 100 pixel. Questa dimensione è utile per capire dove si trova la &quot;piega&quot; sul sito per i visitatori. Comprendere dove si trova la piega può consentire di ottimizzare il contenuto per la visualizzazione.
+La dimensione &#39;Altezza browser - fibket&#39; mostra l&#39;altezza della finestra del browser, classificata in gruppi di 100 pixel. Questa dimensione è utile quando desideri capire dove si trova la &quot;piega&quot; sul sito per i visitatori. Per ottimizzare il contenuto per la visualizzazione, occorre capire dove si trova la piega.
 
-Questa dimensione è diversa dall’altezza dello schermo. L’altezza del browser è il numero di pixel all’interno dello spazio visibile del browser, mentre l’altezza dello schermo è l’altezza dell’intero monitor, in pixel. Se desiderate visualizzare la differenza tra queste due variabili sul computer, aprite la console del browser (F12 nella maggior parte dei browser) e copiate e incollate il seguente codice nella console:
+Questa dimensione è diversa dall’altezza dello schermo. L&#39;altezza del browser è il numero di pixel all&#39;interno dello spazio visibile del browser, mentre l&#39;altezza dello schermo è l&#39;altezza dell&#39;intero monitor in pixel. Se desideri visualizzare la differenza tra queste due variabili sul tuo computer, apri la console del browser (F12 nella maggior parte dei browser) e copia e incolla il seguente codice nella console:
 
 ```javascript
 "Browser height: " + window.innerHeight + " pixels\nScreen height: " + screen.height + " pixels";
 ```
 
-L&#39;altezza del browser è sempre inferiore o uguale all&#39;altezza dello schermo, poiché l&#39;altezza del browser non include la navigazione del browser o i bordi.
+L’altezza del browser è sempre inferiore o uguale all’altezza dello schermo, poiché l’altezza del browser non include la navigazione o i bordi del browser.
 
-## Compilare questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
-Questa dimensione recupera i dati dalla stringa [`bh` di](/help/implement/validate/query-parameters.md) query nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `window.innerHeight` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite  lancio del Adobe Experience Platform), questa dimensione non è disponibile. Se utilizzi un metodo di raccolta dati all’esterno di AppMeasurement (ad esempio tramite l’API), accertati di includere il parametro della stringa di `bh` query nel primo hit di ogni visita.
+Questa dimensione recupera i dati dalla [`bh` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `window.innerHeight` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite tag in Adobe Experience Platform), questa dimensione funziona automaticamente. Se utilizzi un metodo di raccolta dati al di fuori di AppMeasurement (ad esempio tramite l’API), assicurati di includere il parametro della stringa di query `bh` sul primo hit di ogni visita.
 
-Adobe persiste nell’altezza del browser per una visita. Se l’altezza del browser viene regolata a metà visita, la regolazione non viene registrata.
+L’altezza del browser dell’Adobe persiste per una visita. Se l’altezza del browser viene regolata a metà visita, la regolazione non viene registrata.
 
-## Elementi dimensione
+## Elementi Dimension
 
-Gli elementi dimensione includono tutte le altezze del browser raccolte, classificati in gruppi di 100 pixel. Ad esempio, se l’altezza del browser di un hit è `720`, viene raggruppata nell’elemento dimensione `700 to 799`.
+Gli elementi di Dimension includono tutte le altezze raccolte del browser, classificate in gruppi di 100 pixel. Ad esempio, se l’altezza del browser di un hit è `720`, viene raggruppata nell’elemento dimensionale `700 to 799`.
