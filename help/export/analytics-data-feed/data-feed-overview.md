@@ -4,9 +4,9 @@ keywords: clickstream;feed dati;datafed;feed dati
 title: Panoramica sui feed dati di Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '557'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ I feed di dati sono un modo potente per estrarre dati grezzi da Adobe Analytics.
 Prima di utilizzare i feed di dati, verifica di soddisfare tutti i seguenti requisiti.
 
 * Avere a portata di mano un sito FTP e le relative credenziali. I feed di dati possono essere inviati solo a una destinazione server. In genere, l’organizzazione fornisce le credenziali FTP. Adobe può fornire una posizione FTP con una quantità modesta di archiviazione su tua richiesta. Contatta l’Assistenza clienti per richiedere una destinazione FTP per i feed di dati.
-* Implementazione funzionante che invia dati ai server di raccolta dati di Adobe. Consulta [Convalidare e pubblicare un&#39;implementazione in Launch](/help/implement/launch/validate-publish-prod.md) nella guida utente Implementa.
+* Implementazione funzionante che invia dati ai server di raccolta dati di Adobe. Consulta [Convalidare e pubblicare un&#39;implementazione](/help/implement/launch/validate-publish-prod.md) nella guida utente Implementa.
 * Il tuo account è un amministratore di prodotto Analytics oppure appartiene a un profilo di prodotto con accesso ai feed di dati.
 
 ## Passaggi da intraprendere
