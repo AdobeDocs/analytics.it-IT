@@ -2,10 +2,10 @@
 title: Device Graph
 description: Comprendi i prerequisiti e le limitazioni dell’unione dei dati utilizzando il grafico del dispositivo.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 1%
+source-wordcount: '425'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ Se intendi implementare Cross-Device Analytics utilizzando il metodo grafico dei
 
 * Tutti i prerequisiti elencati nella [pagina di panoramica](overview.md).
 * L’organizzazione deve utilizzare il grafico Co-op o Private Graph del servizio Adobe Experience Platform Identity. Consulta la sezione [Home page](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) nella guida utente di Device Co-op .
-* L’implementazione deve utilizzare la versione più recente del servizio Experience Cloud ID. Consulta la sezione [Home page](https://experienceleague.adobe.com/docs/id-service/using/home.html) nella guida utente del servizio Experience Cloud Identity. Probabilmente la maggior parte delle implementazioni che utilizzano Adobe Experience Platform Launch hanno già implementato ECID.
+* L’implementazione deve utilizzare la versione più recente del servizio Experience Cloud ID. Consulta la sezione [Home page](https://experienceleague.adobe.com/docs/id-service/using/home.html) nella guida utente del servizio Experience Cloud Identity. Probabilmente la maggior parte delle implementazioni che utilizzano i tag in Adobe Experience Platform hanno già implementato ECID.
 * L’implementazione deve chiamare la funzione `setCustomerIDs` (o equivalente SDK) ogni volta che è possibile identificare un singolo utente, ad esempio quando un utente accede o apre un’e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Consulta [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) nella guida utente del servizio Experience Cloud Identity.
 
 ## Limitazioni specifiche del grafico del dispositivo
