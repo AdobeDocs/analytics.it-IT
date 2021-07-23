@@ -2,9 +2,9 @@
 title: Suite di rapporti globali in Adobe Analytics
 description: Scopri i vantaggi e i requisiti dell’utilizzo di una suite di rapporti globale.
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ Segui le seguenti linee guida generali per comprendere il processo di implementa
    >
    >Assicurati che qualsiasi variabile personalizzata sia utilizzata in modo simile tra i domini. Non utilizzare lo stesso eVar o evento per scopi diversi nei siti.
 1. Assicurati che ogni dominio abbia un livello dati per semplificare la raccolta dati. I dati possono ancora essere raccolti senza un livello di dati, ma l’affidabilità e la longevità dell’implementazione diminuiscono, soprattutto quando il sito viene riprogettato.
-1. Utilizza Adobe Experience Platform Launch per implementare Analytics. Siti diversi richiederanno probabilmente elementi di dati diversi. Utilizza regole specifiche per ciascun dominio per assicurarti che ogni elemento dati sia popolato correttamente, quindi assegna tali elementi dati ai rispettivi eVar ed eventi. Consulta [Panoramica di Launch](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html) nella guida utente di Adobe Experience Platform Launch.
-1. Includi il [servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html) e utilizza la funzione [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html) . Questa funzione unisce i dati del visitatore quando gli utenti fanno clic da un dominio a un altro.
+1. Utilizza i tag in Adobe Experience Platform per implementare Analytics. Siti diversi richiederanno probabilmente elementi di dati diversi. Utilizza regole specifiche per ciascun dominio per assicurarti che ogni elemento dati sia popolato correttamente, quindi assegna tali elementi dati ai rispettivi eVar ed eventi. Consulta la [panoramica dei tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+1. Includi il [servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) e utilizza la funzione [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html) . Questa funzione unisce i dati del visitatore quando gli utenti fanno clic da un dominio a un altro.
 
 ## Modifica di un’implementazione esistente con una suite di rapporti globale
 
@@ -50,8 +50,8 @@ Il processo di spostamento di un’implementazione esistente tra più siti in un
 
 1. Determina se desideri utilizzare una delle suite di rapporti esistenti o inizia con una nuova suite di rapporti. Se desideri modificare gli usi per le variabili esistenti nell’implementazione, è consigliabile iniziare con una nuova suite di rapporti.
 2. Determina una data limite per passare a una suite di rapporti globale. Il momento migliore per eseguire un cutover è tra due periodi di reporting significativi o insieme a modifiche importanti al sito. Gli esempi includono l&#39;inizio di un trimestre o di un anno fiscale, durante un aggiornamento del sito o il passaggio a un nuovo sistema di gestione dei tag.
-3. Segui i passaggi indicati in precedenza (crea una suite di rapporti, raccogli i requisiti di reporting in un documento di progettazione della soluzione e stabilisci un livello di dati su ciascun sito). Quando implementi Launch, convalida la tua implementazione utilizzando una versione di sviluppo del tuo sito web.
-4. Dopo aver confermato che l’implementazione funziona su dev, esegui l’implementazione di Launch live nella data di interruzione.
+3. Segui i passaggi indicati in precedenza (crea una suite di rapporti, raccogli i requisiti di reporting in un documento di progettazione della soluzione e stabilisci un livello di dati su ciascun sito). Quando implementi i tag in Adobe Experience Platform, convalida l’implementazione utilizzando una versione di sviluppo del sito web.
+4. Dopo aver confermato che l’implementazione funziona su dev, invia l’implementazione dei tag in tempo reale alla data di consegna.
 
 ## Pagine correlate
 
