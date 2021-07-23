@@ -2,10 +2,10 @@
 title: Domande frequenti sull’implementazione
 description: Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '496'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Vedi la sezione [Misurazione di audio e video in Adobe Analytics](https://experi
 
 ## Un’interruzione del servizio Adobe può influire sulle prestazioni?
 
-No. Il file JavaScript non è ospitato sui server Adobe, pertanto un’interruzione da parte di Adobe non influirà sulla libreria AppMeasurement. Se utilizzi Adobe Experience Platform Launch, il file JavaScript è ospitato da Akamai o in una posizione server determinata dalla tua organizzazione.
+No. Il file JavaScript non è ospitato sui server Adobe, pertanto un’interruzione da parte di Adobe non influirà sulla libreria AppMeasurement. Se utilizzi i tag in Adobe Experience Platform, il file JavaScript è ospitato da Akamai o in una posizione server determinata dalla tua organizzazione.
 
 ## L’invio di dati dal browser ai servizi Adobe riduce le prestazioni?
 
@@ -33,7 +33,7 @@ AppMeasurement crea un oggetto immagine all’interno della pagina HTML e il bro
 
 A volte un’organizzazione desidera rimuovere un’implementazione a causa della scadenza del contratto o per ridurre il numero di chiamate al server.
 
-* **Implementazioni eseguite con Launch**: disabilita o disinstalla l’estensione Adobe Analytics nella scheda [!UICONTROL Extensions], quindi pubblica.
+* **Implementazioni con tag in Adobe Experience Platform**: Disabilita o disinstalla l&#39;estensione Adobe Analytics nella  [!UICONTROL Extensions] scheda , quindi pubblica.
 * **Implementazioni legacy di AppMeasurement**: sostituisci l’intero contenuto del file `s_code.js` con la seguente riga di codice:
 
 ```js
