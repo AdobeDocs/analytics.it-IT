@@ -3,9 +3,9 @@ title: Panoramica di variabili, funzioni, metodi e plug-in
 description: Scopri quali variabili puoi includere nei dati inviati ad Adobe per migliorare il reporting.
 keywords: appmeasurement,variabili,vars,configurazione,pagina,implementazione
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ Analytics fornisce una serie di variabili per raccogliere i dati di Analytics. L
 
 ## Variabili e metodi di implementazione
 
-Adobe offre diversi modi per implementare Adobe Analytics. Ogni pagina offre una sezione su come implementare la variabile utilizzando Launch e AppMeasurement per JavaScript.
+Adobe offre diversi modi per implementare Adobe Analytics. Ogni pagina offre una sezione su come implementare la variabile utilizzando i tag in Adobe Experience Platform e AppMeasurement per JavaScript.
 
 ## Ordine delle operazioni
 
 Le librerie AppMeasurement pubblicate da Adobe Analytics seguono un ordine specifico quando si inviano dati ad Adobe. Se esegui queste attività in modo errato, i dati possono essere incompleti.
 
 1. Se il sito utilizza un livello di dati, assicurati che tutte le variabili applicabili siano prima popolate. Per ulteriori informazioni, consulta [Livello dati](../prepare/data-layer.md) .
-2. Utilizza il livello dati per compilare le variabili di Analytics. Se utilizzi Launch, questa attività viene facilmente eseguita utilizzando elementi dati, quindi assegnando l’elemento dati a una variabile. Consulta [Elementi dati](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html) nella guida utente di Launch.
+2. Utilizza il livello dati per compilare le variabili di Analytics. Se utilizzi i tag in Adobe Experience Platform, questa attività viene facilmente eseguita utilizzando gli elementi dati e quindi assegnando l’elemento dati a una variabile. Vedere [Elementi dati](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html).
 3. Chiama la funzione di tracciamento. La maggior parte delle librerie AppMeasurement utilizza il metodo `t()` , tuttavia alcuni SDK per dispositivi mobili utilizzano `track()`. Quando viene chiamata la funzione di tracciamento, tutte le variabili supportate definite nell&#39;oggetto Analytics vengono inviate ad Adobe sotto forma di richiesta di immagine.
 
 ## Caratteri non validi
