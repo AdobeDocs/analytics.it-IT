@@ -1,52 +1,51 @@
 ---
-title: Acquisisci termini di ricerca interni
-description: Utilizzate una variabile personalizzata per acquisire i termini di ricerca interna.
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+title: Acquisire i termini di ricerca interni
+description: Utilizza una variabile personalizzata per acquisire i termini di ricerca interna.
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 
-# Acquisisci termini di ricerca interni
+# Acquisire i termini di ricerca interni
 
-Il reporting della ricerca interna è integrato in molte organizzazioni e non è una dimensione standard con  Adobe Analytics. Tuttavia, con il minimo sforzo di implementazione, è possibile acquisire facilmente la generazione di report interni per i termini di ricerca.
+Il reporting di ricerca interna è integrale per molte organizzazioni e non è una dimensione preconfigurata con Adobe Analytics. Tuttavia, con il minimo sforzo di implementazione, è possibile acquisire facilmente la generazione di rapporti per i termini di ricerca interni.
 
 ## Prerequisiti
 
-[Convalidare un’implementazione di sviluppo e pubblicarla in produzione](../launch/validate-publish-prod.md): Questa pagina presuppone che sia disponibile un&#39;implementazione di lavoro di base e che vengano visualizzate  richieste di immagini Adobe Analytics nel debugger del Adobe .
+[Convalida un&#39;implementazione di sviluppo e pubblica in produzione](../launch/validate-publish-prod.md): Questa pagina presuppone che tu disponga di un&#39;implementazione di lavoro di base e che tu veda una richiesta di immagine Adobe Analytics nel debugger di Adobe.
 
-## Creare un eVar  per la ricerca interna
+## Creare un eVar per adattarsi alla ricerca interna
 
-Segui l’amministratore [delle variabili di](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversione per creare un nuovo eVar  dedicato alla ricerca interna. Assegna al  eVar un nome facilmente riconoscibile (ad esempio &quot;Termine di ricerca interno&quot;) e registra il nuovo eVar  nel documento [di progettazione della](../prepare/solution-design.md)soluzione aziendale.
+Segui [Amministratore variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) per creare un nuovo eVar dedicato alla ricerca interna. Assegna all&#39;eVar un nome facilmente riconoscibile (ad esempio &quot;Termine di ricerca interno&quot;) e registra il nuovo eVar nel [documento di progettazione della soluzione](../prepare/solution-design.md) della tua organizzazione.
 
 ## Determinare la parola chiave di ricerca interna
 
-La maggior parte delle ricerche interne utilizza le stringhe di query per trasmettere i dati delle parole chiave tra le pagine. Utilizzate la ricerca interna del sito e prendete nota dell&#39;URL nella pagina dei risultati della ricerca:
+La maggior parte delle ricerche interne utilizza stringhe di query per trasmettere dati di parole chiave tra le pagine. Utilizza la ricerca interna del tuo sito e osserva l’URL nella pagina dei risultati della ricerca:
 
 `https://example.com/search.html?q=kittens`
 
-Se la ricerca interna del sito non utilizza l’URL, cerca il termine di ricerca in altre posizioni, come un livello dati o un cookie. Se non sei sicuro di dove trovare il termine di ricerca interno, collabora con il team di sviluppo del sito.
+Se la ricerca interna del sito non utilizza l’URL, cerca il termine di ricerca in altre posizioni, ad esempio un livello di dati o un cookie. Collabora con il team di sviluppo del sito se non sei sicuro di dove trovare il termine di ricerca interno.
 
-## Assegnazione del parametro della stringa di query a un elemento dati
+## Assegnare il parametro della stringa di query a un elemento dati
 
-Follow [Map data layer objects to data elements](../launch/layer-to-elements.md). Quando selezionate l’ **[!UICONTROL Data Element Type]**, selezionate **[!UICONTROL Query string parameter]** invece di **[!UICONTROL JavaScript Variable]**. Inserire il parametro della stringa di query desiderato (in genere `q`) nel campo di testo.
+Segui [Mappatura di oggetti livello dati su elementi dati](../launch/layer-to-elements.md). Quando selezioni **[!UICONTROL Data Element Type]**, seleziona **[!UICONTROL Query string parameter]** invece di **[!UICONTROL JavaScript Variable]**. Inserisci il parametro della stringa di query desiderato (in genere `q`) nel campo di testo.
 
-## Mappatura dell’elemento dati sul eVar 
+## Mappa l’elemento dati su eVar
 
-Follow [Map Launch data elements to Analytics variables](../launch/elements-to-variable.md). Accertatevi di selezionare lo stesso eVar  creato nelle impostazioni della suite di rapporti.
+Segui [Mappa gli elementi dati sulle variabili Analytics](../launch/elements-to-variable.md). Assicurati di selezionare lo stesso eVar creato nelle impostazioni della suite di rapporti.
 
-## Avviare il processo di distribuzione di Launch
+## Avvia la distribuzione dei tag
 
-Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). Una volta confermato che funziona nell’ambiente di sviluppo, puoi [convalidare un’implementazione di sviluppo e pubblicarla in produzione](../launch/validate-publish-prod.md).
+Segui [Implementare un&#39;implementazione di Analytics in un ambiente di sviluppo](../launch/deploy-dev.md). Dopo aver confermato il funzionamento nell&#39;ambiente di sviluppo, puoi [Convalidare un&#39;implementazione di sviluppo e pubblicare in produzione](../launch/validate-publish-prod.md).
 
-## Reporting in Workspace
+## Generazione di rapporti in Workspace
 
-Date un po&#39; di tempo alla vostra implementazione per raccogliere i dati, quindi potete iniziare a utilizzare la dimensione in  Analysis Workspace.
+Dai un po&#39; di tempo alla tua implementazione per raccogliere i dati, quindi puoi iniziare a utilizzare la dimensione in Analysis Workspace.
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
-2. Se non avete eseguito l&#39;accesso automatico a  Adobe Analytics, fate clic sull&#39;icona a 9 griglie in alto a destra e selezionate **[!UICONTROL Analytics]**.
-3. Fate clic sulla **[!UICONTROL Workspace]** scheda e create un nuovo progetto.
-4. Individuate il nome del eVar  creato in Dimension e trascinatelo nell’area di lavoro.
+1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali AdobeID.
+2. Se non hai effettuato l’accesso automatico ad Adobe Analytics, fai clic sull’icona a 9 griglie in alto a destra e seleziona **[!UICONTROL Analytics]**.
+3. Fai clic sulla scheda **[!UICONTROL Workspace]** e crea un nuovo progetto.
+4. Individua il nome dell’eVar creato in Dimension e trascinalo nell’area di lavoro.
