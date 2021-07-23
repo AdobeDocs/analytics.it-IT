@@ -2,14 +2,14 @@
 title: Creare una proprietà Analytics nei tag
 description: Crea uno spazio per personalizzare la modalità di raccolta dei dati utilizzando i tag .
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '580'
 ht-degree: 5%
 
 ---
 
-# Creare una proprietà tag di Analytics
+# Creare una proprietà tag Adobe Analytics
 
 I tag in Adobe Experience Platform consentono di integrare soluzioni Experience Cloud sul sito web (incluso Analytics). Questa pagina illustra in particolare come un amministratore di tag può configurare correttamente un’implementazione di base di Adobe Analytics.
 
