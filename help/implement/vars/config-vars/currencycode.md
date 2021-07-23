@@ -1,14 +1,13 @@
 ---
 title: Qual è la variabile currencyCode e come si utilizza?
 description: Per i siti di eCommerce, imposta la valuta in cui si trova la pagina.
-translation-type: tm+mt
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
-
 
 # currencyCode
 
@@ -26,14 +25,16 @@ Se `currencyCode` è definito ed è diverso dalla valuta della suite di rapporti
 
 Questa variabile non persiste tra i risultati. Assicurati che questa variabile sia definita su ogni pagina che include ricavi o eventi di valuta.
 
-## Codice valuta in Adobe Experience Platform Launch
+## Codice valuta nei tag Adobe Experience Platform
 
 Il codice valuta è un campo sotto il pannello a soffietto [!UICONTROL General] durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
-3. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] in Adobe Analytics.
-4. Espandi il [!UICONTROL General] pannello a soffietto, che mostra il campo [!UICONTROL Currency Code] .
+1. Vai a `experience.adobe.com` e accedi quando richiesto.
+1. Select [!UICONTROL Launch / Data Collection].
+1. Fare clic su [!UICONTROL Go to Launch / Data Collection], quindi selezionare [!UICONTROL Tags].
+1. Fai clic sulla proprietà desiderata.
+1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] in Adobe Analytics.
+1. Espandi il [!UICONTROL General] pannello a soffietto, che mostra il campo [!UICONTROL Currency Code] .
 
 È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se utilizzi un codice valuta personalizzato, assicurati che il codice sia valido.
 
@@ -42,12 +43,12 @@ Il codice valuta è un campo sotto il pannello a soffietto [!UICONTROL General] 
 Il codice valuta viene passato agli SDK di Adobe Experience Platform Mobile tramite variabili di dati di contesto nell&#39;estensione Adobe Analytics.
 
 1. Imposta il codice della valuta in una variabile di dati di contesto durante `trackState` o `trackAction`.
-2. Crea una regola di elaborazione nell’Admin Console di Adobe Analytics per la suite di rapporti. Imposta la regola per sovrascrivere la variabile Codice valuta.
-3. Passa il codice della valuta alla variabile `products` nella chiamata a `trackState` o `trackAction`.
+1. Crea una regola di elaborazione nell’Admin Console di Adobe Analytics per la suite di rapporti. Imposta la regola per sovrascrivere la variabile Codice valuta.
+1. Passa il codice della valuta alla variabile `products` nella chiamata a `trackState` o `trackAction`.
 
 È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se utilizzi un codice valuta personalizzato, assicurati che il codice sia valido.
 
-## s.currencyCode nell&#39;editor di codice personalizzato AppMeasurement e Launch
+## s.currencyCode nell&#39;editor di codice personalizzato AppMeasurement e Data Collection
 
 La variabile `s.currencyCode` è una stringa contenente un codice maiuscolo di 3 lettere che rappresenta la valuta nella pagina.
 
