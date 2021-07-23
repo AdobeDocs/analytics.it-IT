@@ -2,10 +2,10 @@
 title: Integrate Module
 description: Il modulo Integrate Module consente ai partner di Adobe di integrare le attività di raccolta dei dati con la tua organizzazione.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 4%
+source-wordcount: '880'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Un&#39;organizzazione che lavora con un partner di Adobe può utilizzare questi 
 
 ### Ottieni codice modulo integrato
 
-Per ottenere il codice del modulo è necessario un utente con accesso Amministratore prodotto o appartenente a un profilo di prodotto con accesso a Code Manager. Il metodo per ottenere il codice del modulo è lo stesso per tutti i metodi di implementazione, incluso Adobe Experience Platform Launch.
+Per ottenere il codice del modulo è necessario un utente con accesso Amministratore prodotto o appartenente a un profilo di prodotto con accesso a Code Manager. Il metodo per ottenere il codice del modulo è lo stesso per tutti i metodi di implementazione, inclusi i tag in Adobe Experience Platform.
 
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
 1. Fai clic sull’icona a 9 quadrati in alto a destra, quindi fai clic sul logo a colori di Analytics.
@@ -40,13 +40,15 @@ Per ottenere il codice del modulo è necessario un utente con accesso Amministra
 
 ### Inserire il modulo Integrate nell’implementazione
 
-L’implementazione del modulo Integrate sul sito richiede l’accesso ad Adobe Experience Platform Launch. Se utilizzi un’implementazione JavaScript legacy, è necessario accedere al codice sorgente del sito web dell’organizzazione.
+L’implementazione del modulo integrato sul sito richiede l’accesso all’interfaccia utente di raccolta dati in Adobe Experience Platform. Se utilizzi un’implementazione JavaScript legacy, è necessario accedere al codice sorgente del sito web dell’organizzazione.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali Adobe ID.
-2. Fai clic sulla proprietà Launch che desideri modificare.
-3. Fai clic sulla scheda Estensioni , quindi fai clic su Configura sotto Adobe Analytics.
-4. Apri il pannello a soffietto &quot;Configura il tracker utilizzando codice personalizzato&quot;, quindi fai clic su &quot;&lt;/> Apri editor&quot;.
-5. Incolla il codice del modulo Integrate nella finestra modale del codice. Fai clic su Salva una volta completato.
+1. Vai a `experience.adobe.com` e accedi quando richiesto.
+1. Select [!UICONTROL Launch / Data Collection].
+1. Fare clic su [!UICONTROL Go to Launch / Data Collection], quindi selezionare [!UICONTROL Tags].
+1. Fai clic sulla proprietà tag che desideri modificare.
+1. Fai clic sulla scheda Estensioni , quindi fai clic su Configura sotto Adobe Analytics.
+1. Apri il pannello a soffietto &quot;Configura il tracker utilizzando codice personalizzato&quot;, quindi fai clic su &quot;&lt;/> Apri editor&quot;.
+1. Incolla il codice del modulo Integrate nella finestra modale del codice. Fai clic su Salva una volta completato.
 
 ## Metodi di integrazione del modulo
 
