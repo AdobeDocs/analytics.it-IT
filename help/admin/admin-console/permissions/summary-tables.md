@@ -2,9 +2,9 @@
 title: Autorizzazioni Adobe Analytics - tabelle di riepilogo
 description: Tabelle che riepilogano le autorizzazioni Adobe Analytics disponibili in Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1272'
 ht-degree: 14%
 
 ---
@@ -73,7 +73,7 @@ Utilizza le tabelle di riepilogo seguenti per identificare le autorizzazioni di 
 
 | Strumento Analytics | Amministrazione | Controlli di accesso | Funzioni solo rapporti | Obsoleto | Descrizione |
 | --- | --- | --- | --- | --- | --- |
-| Gestore codici | x |  |  |  | Mantenuti a scopi legacy. Consente l&#39;accesso ad Amministratore > Tutti gli amministratori > Gestione codici. Nella maggior parte dei casi, utilizza le librerie incluse in Adobe Experience Platform Launch. |
+| Gestore codici | x |  |  |  | Mantenuti a scopi legacy. Consente l&#39;accesso ad Amministratore > Tutti gli amministratori > Gestione codici. Nella maggior parte dei casi, utilizza le librerie incluse nella raccolta dati di Adobe Experience Platform. |
 | Gestione codici - Servizi Web | x |  |  |  | Consente di accedere a Code Manager tramite l’API 1.4. |
 | Nascondi suite di rapporti | x |  |  |  | Consente l&#39;accesso a Amministratore > Tutti gli amministratori > Impostazioni società > Nascondi suite di rapporti. Consente di nascondere qualsiasi suite di rapporti nell’organizzazione, indipendentemente dall’accesso alla suite di rapporti. |
 | Integrazioni (Crea) | x |  |  |  | Consente l’accesso ad Amministratore > Tutti gli amministratori > Connettori dati e consente all’utente di creare connettori dati. |
