@@ -3,9 +3,9 @@ description: Creare un contenitore di base per la raccolta di dati in Adobe Anal
 title: Creare una suite di rapporti
 feature: Strumenti di amministrazione
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '365'
 ht-degree: 6%
 
 ---
@@ -47,4 +47,4 @@ Assicurati di aver effettuato l&#39;accesso tramite l&#39; [Experience Cloud](ht
 
 ## Passaggi successivi
 
-[Crea e configura una proprietà per Adobe Analytics in Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Creare un’area per gestire l’implementazione di Analytics
+[Creare una proprietà tag Adobe Analytics  ](/help/implement/launch/create-analytics-property.md): Creare un’area per gestire l’implementazione di Analytics
