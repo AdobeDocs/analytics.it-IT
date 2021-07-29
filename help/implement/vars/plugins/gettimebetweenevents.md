@@ -1,14 +1,13 @@
 ---
 title: getTimeBetweenEvents
 description: Misura il tempo tra due eventi.
-translation-type: tm+mt
-source-git-commit: e8c6f4bbc72f7edfd966d698b8e4678e5eaa739e
+exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
-
 
 # Plug-in di Adobe: getTimeBetweenEvents
 
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 Il plug-in `getTimeBetweenEvents` consente di tenere traccia del periodo di tempo tra due eventi di Analytics, inclusi carrello acquisti ed eventi personalizzati. È utile per tenere traccia del tempo necessario al completamento di un processo di pagamento o di qualsiasi altro processo che si desidera misurare. Questo plug-in non è necessario se non disponi di processi di conversione che desideri misurare quanto tempo impiegano.
 
-## Installare il plug-in utilizzando l’estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
 1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
@@ -34,11 +33,11 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
    * Tipo azione: Inizializza getTimeBetweenEvents
 1. Salva e pubblica le modifiche alla regola.
 
-## Installare il plug-in utilizzando l’editor di codice personalizzato di Launch
+## Installare il plug-in utilizzando l’editor di codice personalizzato
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
 1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
@@ -121,7 +120,7 @@ s.eVar1 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h"
 * Il timer viene reimpostato solo quando s.events contiene event3 OR se sono trascorsi 20 giorni dall&#39;avvio del timer
 * Quando viene registrato un intervallo tra (l&#39;originale) event1 e event2, il plug-in imposta eVar1 in modo pari al numero di ore tra i due eventi impostati, arrotondato al valore di riferimento di 1/2 ore più vicino (ad esempio 0 ore, 1,5 ore, 3 ore, 7,5 ore, 478,5 ore, ecc.)
 
-### Esempio n. 3
+### Esempio n. 2
 
 Codice seguente...
 
