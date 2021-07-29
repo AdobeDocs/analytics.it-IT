@@ -2,10 +2,10 @@
 title: visitorID
 description: Utilizza un ID visitatore personalizzato.
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 1%
+source-wordcount: '251'
+ht-degree: 3%
 
 ---
 
@@ -15,20 +15,20 @@ Adobe utilizza diversi metodi per identificare i visitatori sul sito. La variabi
 
 >[!IMPORTANT]
 >
->Adobe consiglia di non utilizzare questa variabile. Utilizza invece il [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+>Adobe consiglia di non utilizzare questa variabile. Utilizza invece il [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
 
-## ID visitatore in Adobe Experience Platform Launch
+## ID visitatore tramite tag in Adobe Experience Platform
 
 [!UICONTROL Visitor ID] è un campo a  [!UICONTROL Cookies] soffietto durante la configurazione dell’estensione Adobe Analytics.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 2. Fai clic sulla proprietà desiderata.
 3. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] in Adobe Analytics.
 4. Espandi il [!UICONTROL Cookies] pannello a soffietto, che mostra il campo [!UICONTROL Visitor ID] .
 
 Assegna questo campo all’elemento dati contenente l’ID visitatore personalizzato. Non impostare questo campo su un valore statico.
 
-## s.visitorID nell’editor di codice personalizzato AppMeasurement e Launch
+## s.visitorID in AppMeasurement e nell&#39;editor di codice personalizzato
 
 La variabile `s.visitorID` è una stringa che contiene un identificatore univoco personalizzato per il visitatore. I valori validi includono caratteri alfanumerici fino a 100 byte. Evita di usare trattini, spazi, caratteri di sottolineatura o simboli in questa variabile.
 
