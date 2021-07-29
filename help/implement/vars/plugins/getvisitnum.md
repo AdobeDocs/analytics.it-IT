@@ -1,14 +1,13 @@
 ---
 title: getVisitNum
 description: Tieni traccia del numero di visita corrente di un visitatore.
-translation-type: tm+mt
-source-git-commit: fb1cdcb53732be46037a79587fc2541e629496e3
+exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
-
 
 # Plug-in di Adobe: getVisitNum
 
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 Il plug-in `getVisitNum` restituisce il numero di visite per tutti i visitatori che accedono al sito entro il numero di giorni desiderato. Analysis Workspace offre una dimensione &quot;Numero visita&quot; che fornisce funzionalità simili. L’Adobe consiglia di utilizzare questo plug-in se desideri un maggiore controllo sulla modalità di incremento del numero di visite. Questo plug-in non è necessario se la dimensione &quot;Numero visita&quot; integrata in Analysis Workspace è sufficiente per le tue esigenze di reporting.
 
-## Installare il plug-in utilizzando l’estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
 1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
@@ -34,11 +33,11 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
    * Tipo azione: Inizializza getVisitNum
 1. Salva e pubblica le modifiche alla regola.
 
-## Installare il plug-in utilizzando l’editor di codice personalizzato di Launch
+## Installare il plug-in utilizzando l’editor di codice personalizzato
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
 1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
@@ -94,7 +93,7 @@ Se il visitatore ritorna al sito entro 364 giorni dalla sua seconda visita, il c
 s.prop1=s.getVisitNum(365);
 ```
 
-### Esempio n. 2
+### Esempio n. 3
 
 Per un visitatore che ritorna al sito entro 179 giorni dalla sua prima visita, il codice seguente imposta s.prop1 su 2:
 
