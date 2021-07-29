@@ -1,34 +1,36 @@
 ---
 title: campagna
-description: Compilare la dimensione "Codice di tracciamento".
-translation-type: tm+mt
-source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
+description: Popolare la dimensione "Tracking Code" (Codice di tracciamento).
+exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 1%
 
 ---
 
-
 # campagna
 
-La `campaign` variabile è dedicata alla raccolta dei codici di monitoraggio sul sito. Nelle versioni precedenti di Adobe Analytics, aveva un trattamento speciale da usare come suddivisione per la maggior parte delle dimensioni. Nella versione corrente di Adobe Analytics, si comporta come una eVar.
+La variabile `campaign` è dedicata alla raccolta dei codici di tracciamento sul sito. Nelle versioni precedenti di Adobe Analytics, aveva un trattamento speciale in cui poteva essere utilizzato come suddivisione per la maggior parte delle dimensioni. Nella versione corrente di Adobe Analytics, agisce in modo identico a un eVar.
 
-Questa variabile popola la dimensione &quot;Codice di tracciamento&quot;.
+Questa variabile popola la dimensione &quot;Tracking Code&quot; (Codice di tracciamento).
 
-## Campaign in Adobe Experience Platform Launch
+## Campaign utilizzando i tag in Adobe Experience Platform
 
-Puoi impostare la campagna sia durante la configurazione dell&#39;estensione di Analytics (variabili globali) che in base alle regole.
+Puoi impostare campaign sia durante la configurazione dell’estensione Analytics (variabili globali) che in regole.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-2. Fate clic sulla proprietà desiderata.
-3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
-4. In [!UICONTROL Actions], fare clic su un&#39;azione esistente [!UICONTROL Adobe Analytics - Set Variables] o fare clic sull&#39;icona &quot;+&quot;.
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
-6. Individuare la [!UICONTROL Campaign] sezione.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+2. Fai clic sulla proprietà desiderata.
+3. Vai alla scheda [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
+4. In [!UICONTROL Actions], fai clic su un&#39;azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull&#39;icona &quot;+&quot;.
+5. Imposta il menu a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+6. Individua la sezione [!UICONTROL Campaign] .
 
-È possibile impostare la campagna su un valore o su un parametro di stringa di query.
+Puoi impostare campaign su un valore o su un parametro di stringa query.
 
-## s.campaign in AppMeasurement e Launch editor di codice personalizzato
+## s.campaign in AppMeasurement e nell’editor di codice personalizzato
 
-La `s.campaign` variabile è una stringa che in genere contiene un codice di tracciamento utilizzato nelle attività di marketing. La sua lunghezza massima è di 255 byte; i valori superiori a 255 byte vengono troncati automaticamente quando inviati ad Adobe.
+La variabile `s.campaign` è una stringa che in genere contiene un codice di tracciamento utilizzato nelle attività di marketing. La sua lunghezza massima è di 255 byte; i valori superiori a 255 byte vengono troncati automaticamente quando inviati ad Adobe.
 
 ```js
 // Set the campaign variable to a static value
