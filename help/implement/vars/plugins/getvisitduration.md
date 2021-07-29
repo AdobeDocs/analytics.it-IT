@@ -1,14 +1,13 @@
 ---
 title: getVisitDuration
 description: Tieni traccia di quanto tempo un visitatore è stato sul sito finora.
-translation-type: tm+mt
-source-git-commit: ca8e563118dcc74dfa718bd203db295faf4e9aa6
+exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 1%
+source-wordcount: '577'
+ht-degree: 0%
 
 ---
-
 
 # Plug-in di Adobe: getVisitDuration
 
@@ -18,11 +17,11 @@ ht-degree: 1%
 
 Il plug-in `getVisitDuration` tiene traccia del tempo in minuti trascorso sul sito fino a quel momento. Adobe consiglia di utilizzare questo plug-in se si desidera tenere traccia del tempo cumulativo sul sito fino a quel momento, o per tenere traccia del tempo necessario per eseguire un&#39;attività. Questo plug-in non tiene traccia del periodo di tempo tra gli eventi; se desideri utilizzare questa funzionalità, utilizza il plug-in [`getTimeBetweenEvents`](gettimebetweenevents.md) .
 
-## Installare il plug-in utilizzando l’estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
 1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
@@ -34,11 +33,11 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
    * Tipo azione: Inizializza getVisitDuration
 1. Salva e pubblica le modifiche alla regola.
 
-## Installare il plug-in utilizzando l’editor di codice personalizzato di Launch
+## Installare il plug-in utilizzando l’editor di codice personalizzato
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
 1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
@@ -79,7 +78,7 @@ s.eVar10 = s.getVisitDuration();
 
 ...imposterà sempre eVar10 uguale al numero di minuti passati da quando il visitatore è atterrato sul sito
 
-### Esempio n. 3
+### Esempio n. 2
 
 Codice seguente...
 
@@ -89,7 +88,7 @@ if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
 
 ...utilizza il plug-in inList per verificare se la variabile eventi contiene l&#39;evento di acquisto.  In tal caso, eVar10 verrà impostato come numero di minuti tra l’inizio della visita e l’ora di acquisto del visitatore.
 
-### Esempio n. 2
+### Esempio n. 3
 
 Codice seguente...
 
@@ -107,4 +106,4 @@ s.prop10 = s.getVisitDuration();
 
 ### 2.0 (2 maggio 2018)
 
-* Rilascio a punto (rianalisi/riscrittura completa del plug-in).
+* Rilascio a punto (completa reanalisi/riscrittura del plug-in).
