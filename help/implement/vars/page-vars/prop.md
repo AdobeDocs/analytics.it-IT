@@ -1,43 +1,42 @@
 ---
 title: prop
-description: Variabili personalizzate utilizzabili nell’implementazione.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+description: Variabili personalizzate che puoi utilizzare nell’implementazione.
+exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
 
-
 # prop
 
-*Questa pagina della Guida descrive come implementare i prop. Per informazioni sul funzionamento dei prop come una dimensione, vedere[prop](/help/components/dimensions/prop.md)nella guida utente Componenti.*
+*Questa pagina di aiuto descrive come implementare i prop. Per informazioni sul funzionamento delle proprietà come dimensioni, consulta [prop](/help/components/dimensions/prop.md) nella guida utente Componenti.*
 
-Le proprietà sono variabili personalizzate che potete utilizzare come desiderate. Non persistono oltre il risultato raggiunto.
+Le proprietà sono variabili personalizzate che puoi utilizzare come desideri. Non persistono oltre il risultato impostato.
 
 >[!TIP]
 >
->Nella maggior parte dei casi, Adobe consiglia di utilizzare [le eVar](evar.md) . Nelle versioni precedenti di Adobe  Analytics, le proprietà eVar presentavano vantaggi e svantaggi l&#39;una per l&#39;altra. Tuttavia, Adobe ha migliorato le eVar dove soddisfano quasi tutti i casi di utilizzo per le prop.
+>Nella maggior parte dei casi, Adobe consiglia di utilizzare [eVar](evar.md). Nelle versioni precedenti di Adobe Analytics, le proprietà e le eVar presentavano vantaggi e svantaggi l’una per l’altra. Tuttavia, Adobe ha migliorato le eVar in cui soddisfano quasi tutti i casi d’uso per le proprietà.
 
-Se disponete di un documento [di progettazione di una](/help/implement/prepare/solution-design.md)soluzione, potete allocare queste dimensioni personalizzate a valori specifici dell&#39;organizzazione. Il numero di proprietà disponibili dipende dal contratto con Adobe. Se il contratto con Adobe lo supporta, sono disponibili fino a 75 proprietà.
+Se disponi di un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), puoi allocare queste dimensioni personalizzate ai valori specifici della tua organizzazione. Il numero di proprietà disponibili dipende dal contratto con Adobe. Sono disponibili fino a 75 proprietà se il contratto con Adobe lo supporta.
 
-## Prop nel lancio  Adobe Experience Platform
+## Proprietà che utilizzano i tag in Adobe Experience Platform
 
-Potete impostare le proprietà durante la configurazione dell&#39;estensione Analytics  (variabili globali) o in base a regole.
+Puoi impostare le proprietà durante la configurazione dell’estensione Analytics (variabili globali) o in regole.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-2. Fate clic sulla proprietà desiderata.
-3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
-4. In [!UICONTROL Actions], fare clic su un&#39;azione esistente [!UICONTROL Adobe Analytics - Set Variables] o fare clic sull&#39;icona &quot;+&quot;.
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe  Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
-6. Individuare la [!UICONTROL Props] sezione.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+2. Fai clic sulla proprietà desiderata.
+3. Vai alla scheda [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
+4. In [!UICONTROL Actions], fai clic su un&#39;azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull&#39;icona &quot;+&quot;.
+5. Imposta il menu a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+6. Individua la sezione [!UICONTROL Props] .
 
-È possibile impostare una proprietà su un valore o su un elemento dati. Potete anche copiare il valore da un’altra variabile  Analytics.
+Puoi impostare una proprietà su un valore o su un elemento dati. Puoi anche copiare il valore da un’altra variabile di Analytics.
 
-## s.prop1 - s.prop75 in AppMeasurement e Launch editor di codice personalizzato
+## s.prop1 - s.prop75 in AppMeasurement e nell&#39;editor di codice personalizzato
 
-Ogni variabile prop è una stringa che contiene valori personalizzati specifici dell&#39;organizzazione. La loro lunghezza massima è di 100 byte; i valori superiori a 100 byte vengono troncati automaticamente quando inviati ad Adobe.
+Ogni variabile di proprietà è una stringa che contiene valori personalizzati specifici dell’organizzazione. La loro lunghezza massima è di 100 byte; i valori superiori a 100 byte vengono troncati automaticamente quando inviati ad Adobe.
 
 ```js
 s.prop1 = "Example custom value";
@@ -45,19 +44,19 @@ s.prop1 = "Example custom value";
 
 ## Proprietà elenco
 
-Le proprietà elenco sono un&#39;impostazione applicata alle proprietà che consentono alla variabile di contenere più valori nello stesso hit. Se questa impostazione non è abilitata o se viene utilizzato il delimitatore sbagliato, la variabile viene trattata come un singolo valore.
+Le proprietà di elenco sono un’impostazione applicata alle proprietà che consentono alla variabile di contenere più valori nello stesso hit. Se questa impostazione non è abilitata o se viene utilizzato il delimitatore errato, la variabile viene trattata come un singolo valore.
 
-### Configurare le proprietà dell&#39;elenco
+### Configurare le proprietà dell’elenco
 
-Abilitare le proprietà dell&#39;elenco nelle impostazioni della suite di rapporti. Consultate Variabili [di](/help/admin/admin/c-traffic-variables/traffic-var.md) traffico nella guida utente di amministrazione. Accertatevi che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
+Abilitare le proprietà di elenco nelle impostazioni della suite di rapporti. Consulta [Variabili del traffico](/help/admin/admin/c-traffic-variables/traffic-var.md) nella guida utente Admin. Assicurati che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
 
 >[!TIP]
 >
->I delimitatori comuni utilizzati nelle implementazioni sono virgole (`,`), due punti (`:`), un punto e virgola (`;`) o una barra verticale (`|`). Potete utilizzare un carattere di delimitazione adatto alla vostra implementazione.
+>I delimitatori comuni utilizzati nelle implementazioni sono una virgola (`,`), due punti (`:`), un punto e virgola (`;`) o una barra verticale (`|`). Puoi utilizzare qualsiasi delimitatore adatto alla tua implementazione.
 
 ### Imposta proprietà elenco
 
-Una volta configurate le proprietà dell&#39;elenco nelle impostazioni della suite di rapporti con il delimitatore desiderato, non vi sono differenze di implementazione diverse dall&#39;utilizzo del delimitatore.
+Una volta configurate le proprietà di elenco nelle impostazioni della suite di rapporti con il delimitatore desiderato, non vi sono differenze di implementazione diverse dall’utilizzo del delimitatore.
 
 ```js
 // List prop delimited with a comma
@@ -66,6 +65,6 @@ s.prop1 = "value1,value2,value3";
 
 >[!IMPORTANT]
 >
->Le proprietà elenco sono ancora soggette alla lunghezza massima di 100 byte. Le proprietà elenco sono più facili da raggiungere e troncare, poiché possono contenere più valori. Se raggiungete questo limite di 100 byte, prendete in considerazione l&#39;uso di abbreviazioni o valori abbreviati.
+>Le proprietà di elenco sono ancora soggette alla lunghezza massima di 100 byte. Le proprietà di elenco sono più facili da raggiungere e troncare, poiché possono contenere più valori. Considera l’utilizzo di abbreviazioni o valori di abbreviazione se potresti raggiungere questo limite di 100 byte.
 
-Se imposti lo stesso valore più di una volta in un elenco di proprietà, questi vengono deduplicati nel reporting.  Analysis Workspace conteggia il numero di hit in cui viene visualizzato un valore e non il numero di volte in cui un valore esiste nei dati.
+Se imposti lo stesso valore più di una volta in un elenco di proprietà, questi vengono deduplicati nel reporting. Analysis Workspace conta il numero di hit in cui viene visualizzato un valore e non il numero di volte in cui un valore esiste nei dati.
