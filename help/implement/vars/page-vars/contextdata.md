@@ -1,55 +1,54 @@
 ---
 title: contextData
-description: Le variabili di dati di contesto consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere.
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+description: Le variabili di dati di contesto ti consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere.
+exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
-
 # contextData
 
-Le variabili di dati di contesto consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere. Invece di assegnare in modo esplicito i valori alle variabili Analytics nel codice, puoi inviare i dati nelle variabili di dati di contesto. Le regole di elaborazione prendono quindi i valori delle variabili di dati contestuali e li trasferiscono nelle rispettive variabili di Analytics. Consulta Regole [di](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) elaborazione nella guida utente di amministrazione.
+Le variabili di dati di contesto ti consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere. Invece di assegnare esplicitamente valori alle variabili Analytics nel codice, puoi inviare dati in variabili di dati di contesto. Le regole di elaborazione prendono quindi i valori delle variabili dei dati di contesto e li trasmettono alle rispettive variabili di Analytics. Consulta [Regole di elaborazione](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) nella guida utente Admin.
 
-Le variabili di dati di contesto sono utili per i team di sviluppo per raccogliere i dati in elementi denominati invece che in variabili numerate. Ad esempio, anziché richiedere ai team di sviluppo di assegnare l’autore della pagina a `eVar10`, potete richiedere che venga assegnata `s.contextData["author"]` invece a. Un amministratore Analytics nella tua organizzazione può quindi creare regole di elaborazione per mappare le variabili dei dati di contesto in variabili di analisi per il reporting. In ultima analisi, i team di sviluppo si preoccuperebbero solo delle variabili di dati di contesto invece delle numerose variabili di pagina offerte  Adobe.
+Le variabili di dati di contesto sono utili per i team di sviluppo per raccogliere i dati in elementi denominati invece che in variabili numerate. Ad esempio, invece di richiedere ai team di sviluppo di assegnare l’autore della pagina a `eVar10`, puoi richiederne l’assegnazione a `s.contextData["author"]`. Un amministratore di Analytics nella tua organizzazione può quindi creare regole di elaborazione per mappare le variabili dei dati di contesto in variabili di Analytics a scopo di reportistica. I team di sviluppo si preoccuperebbero in ultima analisi solo delle variabili di dati di contesto, anziché delle numerose offerte di Adobe delle variabili di pagina.
 
-## Variabili di dati di contesto in  Adobe Experience Platform Launch
+## Variabili di dati di contesto che utilizzano i tag in Adobe Experience Platform
 
-Launch non dispone di un percorso dedicato per impostare le variabili di dati di contesto. Utilizzate l&#39;editor di codice personalizzato, seguendo la sintassi AppMeasurement.
+L’interfaccia utente di raccolta dati non dispone di una posizione dedicata per impostare variabili di dati di contesto. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
 
-## s.contextData in AppMeasurement e Launch editor di codice personalizzato
+## s.contextData in AppMeasurement e nell&#39;editor di codice personalizzato
 
-La `s.contextData` variabile non riceve direttamente un valore. Impostare invece le proprietà di questa variabile su una stringa.
+La variabile `s.contextData` non prende direttamente un valore. Imposta invece le proprietà di questa variabile su una stringa.
 
 ```js
 // Assign the example_variable property a value
 s.contextData["example_variable"] = "Example value";
 ```
 
-* Le variabili di dati di contesto valide contengono solo caratteri alfanumerici, caratteri di sottolineatura e punti.  Adobe non garantisce la raccolta dei dati nelle regole di elaborazione se si includono altri caratteri, come i trattini.
-* Non avviare variabili di dati di contesto con `"a."`. Questo prefisso è riservato e utilizzato dal Adobe . Ad esempio, non utilizzare `s.contextData["a.InstallEvent"]`.
-* Le variabili di dati di contesto non fanno distinzione tra maiuscole e minuscole. Le variabili `s.contextData["example"]` e `s.contextData["EXAMPLE"]` sono identiche.
+* Le variabili di dati di contesto valide contengono solo caratteri alfanumerici, caratteri di sottolineatura e punti. Adobe non garantisce la raccolta dei dati nelle regole di elaborazione se includi altri caratteri, come i trattini.
+* Non avviare le variabili di dati di contesto con `"a."`. Questo prefisso è riservato e utilizzato dall’Adobe. Ad esempio, non utilizzare `s.contextData["a.InstallEvent"]`.
+* Le variabili di dati di contesto non sono sensibili all’uso di maiuscole e minuscole. Le variabili `s.contextData["example"]` e `s.contextData["EXAMPLE"]` sono identiche.
 
-## Utilizzare le regole di elaborazione per compilare le variabili di analisi
+## Utilizzare le regole di elaborazione per popolare le variabili di analisi
 
 >[!IMPORTANT]
 >
->Le variabili di dati di contesto vengono eliminate dopo l&#39;esecuzione delle regole di elaborazione. Se non sono attive regole di elaborazione che inseriscono i valori nelle variabili, i dati andranno persi definitivamente.
+>Le variabili di dati di contesto vengono scartate dopo l’esecuzione delle regole di elaborazione. Se le regole di elaborazione non sono attive e inseriscono i valori nelle variabili, i dati andranno perduti definitivamente.
 
-1. Aggiorna l’implementazione per impostare i nomi e i valori delle variabili di dati di contesto.
-2. Accedete a  Adobe Analytics e andate ad Admin > Suite di rapporti.
-3. Selezionate la suite di rapporti desiderata, quindi passate a Modifica impostazioni > Generale > Regole di elaborazione.
+1. Aggiorna l’implementazione per impostare i nomi e i valori delle variabili dei dati di contesto.
+2. Accedi ad Adobe Analytics e vai ad Amministratore > Suite di rapporti.
+3. Seleziona la suite di rapporti desiderata, quindi vai a Modifica impostazioni > Generale > Regole di elaborazione.
 4. Crea una regola di elaborazione che imposta una variabile di Analytics sul valore della variabile di dati di contesto.
-5. Salvare le modifiche.
+5. Salva le modifiche.
 
-Le regole di elaborazione diventano effettive immediatamente dopo il salvataggio. Non si applicano ai dati storici.
+Le regole di elaborazione hanno effetto immediatamente dopo il salvataggio. Non si applicano ai dati storici.
 
-## Invio di dati contestuali in una chiamata di tracciamento dei collegamenti
+## Inviare dati contestuali in una chiamata di tracciamento dei collegamenti
 
-Includi la variabile di dati contestuali come proprietà di `contextData` in [`s.linkTrackVars`](../config-vars/linktrackvars.md):
+Includi la variabile di dati di contesto come proprietà di `contextData` in [`s.linkTrackVars`](../config-vars/linktrackvars.md):
 
 ```js
 s.contextData["example_variable"] = "Example value";
@@ -57,12 +56,12 @@ s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
 ```
 
-## Incrementare gli eventi utilizzando le variabili dei dati contestuali
+## Incrementa gli eventi utilizzando le variabili di dati di contesto
 
-Durante la creazione di regole di elaborazione, puoi assegnare variabili di dati di contesto agli eventi.
+Quando crei regole di elaborazione, puoi assegnare variabili di dati di contesto agli eventi.
 
-* Se una variabile di dati di contesto contiene un qualsiasi tipo di testo, l&#39;evento si incrementa di un elemento.
-* Se una variabile di dati di contesto contiene un numero intero, l&#39;evento si incrementa di tale numero intero.
+* Se una variabile di dati di contesto contiene qualsiasi tipo di testo, l&#39;evento viene incrementato di uno.
+* Se una variabile di dati di contesto contiene un numero intero, l&#39;evento viene incrementato di tale numero intero.
 
 ```js
 // Assigning this context data variable to an event increments it by one
