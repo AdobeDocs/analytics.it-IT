@@ -1,51 +1,50 @@
 ---
 title: products
 description: Invia i dati relativi ai prodotti visualizzati o contenuti nel carrello.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
-
 # products
 
-La `products` variabile tiene traccia di prodotti e proprietà ad essi associati. Questa variabile viene in genere impostata su pagine di prodotti, pagine del carrello e pagine di conferma dell&#39;acquisto. Si tratta di una variabile con più valori, che consente di inviare più prodotti nello stesso hit e  Adobe analizza il valore in elementi dimensionali separati.
+La variabile `products` traccia i prodotti e le proprietà ad essi associate. Questa variabile viene generalmente impostata sulle singole pagine di prodotto, sulle pagine del carrello acquisti e sulle pagine di conferma degli acquisti. Si tratta di una variabile con più valori, il che significa che puoi inviare più prodotti nello stesso hit e l’Adobe analizza il valore in elementi dimensionali separati.
 
 >[!NOTE]
 >
->Se questa variabile viene impostata in un hit senza un evento del carrello della spesa nella [`events`](events/events-overview.md) variabile, la metrica Visualizzazioni [](/help/components/metrics/product-views.md) prodotto si incrementa di 1. Accertatevi di impostare l&#39;evento del carrello acquisti appropriato su ogni hit con la `products` variabile.
+>Se questa variabile viene impostata in un hit senza un evento del carrello nella variabile [`events`](events/events-overview.md) , la metrica [Visualizzazioni prodotto](/help/components/metrics/product-views.md) incrementa di 1. Assicurati di impostare l&#39;evento del carrello acquisti appropriato su ogni hit con la variabile `products` .
 
-## Prodotti in  Adobe Experience Platform Launch
+## Prodotti che utilizzano i tag in Adobe Experience Platform
 
-In Launch non è presente un campo dedicato per impostare questa variabile; tuttavia, esistono più estensioni di terze parti per facilitare l&#39;accesso.
+Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per impostare questa variabile; tuttavia, esistono più estensioni di terze parti per aiutarti.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-2. Fate clic sulla proprietà desiderata.
-3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic [!UICONTROL Catalog] per visualizzare tutte le estensioni disponibili.
-4. Cercare il termine &quot;prodotto&quot;, che rivela diverse estensioni disponibili per aiutare a impostare questa variabile.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+2. Fai clic sulla proprietà desiderata.
+3. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic su [!UICONTROL Catalog] per visualizzare tutte le estensioni disponibili.
+4. Cerca il termine &quot;prodotto&quot;, che rivela diverse estensioni disponibili per impostare questa variabile.
 
 Puoi utilizzare una di queste estensioni, oppure puoi utilizzare l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement riportata di seguito.
 
-## s.products in AppMeasurement e Launch editor di codice personalizzato
+## s.products in AppMeasurement e nell’editor di codice personalizzato
 
-La `s.products` variabile è una stringa che contiene più campi delimitati per prodotto. Ogni singolo prodotto può contenere fino a 100 byte in tutti i campi. Delimitare ogni campo con un punto e virgola (`;`) nella stringa.
+La variabile `s.products` è una stringa che contiene più campi delimitati per prodotto. Ogni singolo prodotto può contenere fino a 100 byte in tutti i campi. Delimitare ogni campo con un punto e virgola (`;`) nella stringa.
 
-* **Categoria** (facoltativo): La categoria di prodotto globale. L&#39;organizzazione decide come raggruppare i prodotti in categorie.
-* **Nome** prodotto (obbligatorio): Nome del prodotto.
-* **Quantità** (facoltativo): Quanti di questi prodotti sono nel carrello. Questo campo si applica solo agli hit con l’evento di acquisto.
-* **Prezzo** (facoltativo): Il prezzo totale del prodotto come decimale. Se la quantità è maggiore di una, impostare il prezzo sul totale e non sul prezzo del singolo prodotto. Allineare la valuta di questo valore in modo che corrisponda alla [`currencyCode`](../config-vars/currencycode.md) variabile. Non includere il simbolo di valuta in questo campo. Questo campo si applica solo agli hit con l’evento di acquisto.
-* **Eventi** (facoltativo): Eventi collegati al prodotto. Delimitare più eventi con una tubazione (`|`). Per ulteriori informazioni, consulta [Eventi](events/events-overview.md) .
-* **eVar** (facoltativo): eVar di merchandising collegate al prodotto. Delimitare più eVar di merchandising con una tubazione (`|`). Per ulteriori informazioni, vedi eVar [merchandising](evar-merchandising.md) .
+* **Categoria**  (facoltativo): La categoria di prodotto principale. La tua organizzazione decide come raggruppare i prodotti in categorie.
+* **Nome**  del prodotto (obbligatorio): Nome del prodotto.
+* **Quantità**  (facoltativo): Quanti di questi prodotti sono nel carrello. Questo campo si applica solo agli hit con l’evento di acquisto.
+* **Prezzo**  (facoltativo): Prezzo totale del prodotto come decimale. Se la quantità è superiore a uno, impostare il prezzo sul totale e non sul prezzo del singolo prodotto. Allinea la valuta di questo valore in modo che corrisponda alla variabile [`currencyCode`](../config-vars/currencycode.md) . Non includere il simbolo di valuta in questo campo. Questo campo si applica solo agli hit con l’evento di acquisto.
+* **Eventi**  (facoltativo): Eventi legati al prodotto. Delimitare più eventi con una barra verticale (`|`). Per ulteriori informazioni, consulta [eventi](events/events-overview.md) .
+* **eVar**  (facoltativo): eVar di merchandising collegate al prodotto. Delimitare più eVar di merchandising con una pipe (`|`). Per ulteriori informazioni, consulta [eVar per merchandising](evar-merchandising.md) .
 
 ```js
 // Set a single product using all available fields
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Questa variabile supporta più prodotti nello stesso hit. È utile per il carrello acquisti e acquisti che contengono più prodotti. Mentre per ogni prodotto è previsto un limite di 100 byte, la lunghezza totale della `products` variabile è 64 K. Separate ogni prodotto con una virgola (`,`) nella stringa.
+Questa variabile supporta più prodotti nello stesso hit. È utile per il carrello e gli acquisti contenenti più prodotti. Mentre per prodotto esiste un limite di 100 byte, la lunghezza totale della variabile `products` è di 64 K. Separa ogni prodotto con una virgola (`,`) nella stringa .
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
@@ -54,11 +53,11 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!IMPORTANT]
 >
->Elimina tutti i punti e virgola, virgole e pipe dai nomi dei prodotti, dalle categorie e dai valori  eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement la analizza come inizio di un nuovo prodotto. Questa analisi errata getta via il resto della stringa di prodotto, causando dati non corretti in dimensioni e rapporti.
+>Elimina tutti i punti e virgola, le virgole e i tubi dai nomi dei prodotti, dalle categorie e dai valori di eVar merchandising. Se un nome di prodotto include una virgola, AppMeasurement la analizza come inizio di un nuovo prodotto. Questa analisi errata getta via il resto della stringa di prodotto, causando dati errati nelle dimensioni e nei rapporti.
 
 ## Esempi
 
-La `products` variabile è flessibile quando si omettono campi e si includono più prodotti. Questa flessibilità può semplificare la mancanza di un delimitatore, il che fa sì che l&#39;implementazione invii dati errati al  Adobe.
+La variabile `products` è flessibile quando si omettono i campi e si includono più prodotti. Questa flessibilità può semplificare la mancanza di un delimitatore, il che fa sì che l’implementazione invii ad Adobe dati errati.
 
 ```js
 // Include only product and category. Common on individual product pages
@@ -97,7 +96,7 @@ s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
-Se si utilizza il livello `digitalData` di [dati, è possibile iterare nell&#39;array di](../../prepare/data-layer.md)`digitalData.product` oggetti:
+Se si utilizza il `digitalData` [livello dati](../../prepare/data-layer.md), è possibile eseguire iterazioni attraverso l&#39;array di oggetti `digitalData.product`:
 
 ```js
 for(var i=0; i<digitalData.product.length; i++) {
