@@ -1,14 +1,13 @@
 ---
 title: apl (appendToList)
 description: Aggiungi valori a variabili che supportano più valori.
-translation-type: tm+mt
-source-git-commit: d84d53dd237f5bba729c902c8c4980c0288dbbb0
+exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1028'
 ht-degree: 1%
 
 ---
-
 
 # Plug-in di Adobe: apl (appendToList)
 
@@ -24,11 +23,11 @@ Il plug-in `apl` consente di aggiungere in modo sicuro nuovi valori alle variabi
 
 Adobe consiglia di utilizzare questo plug-in se desideri aggiungere nuovi valori alle variabili esistenti che contengono una stringa di valori delimitati. Questo plug-in non è necessario se preferisci concatenare stringhe per variabili contenenti valori delimitati.
 
-## Installare il plug-in utilizzando l’estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
 1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
@@ -40,11 +39,11 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
    * Tipo azione: Inizializza APL (Aggiungi All’Elenco)
 1. Salva e pubblica le modifiche alla regola.
 
-## Installare il plug-in utilizzando l’editor di codice personalizzato di Launch
+## Installare il plug-in utilizzando l’editor di codice personalizzato
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
 1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
@@ -96,7 +95,7 @@ s.events = s.apl(s.events, "event23");
 s.events = "event22,event24,event23";
 ```
 
-### Esempio n. 3
+### Esempio n. 2
 
 Se viene mostrato...
 
