@@ -1,46 +1,45 @@
 ---
 title: linkLeaveQueryString
-description: Consente di mantenere le stringhe di query nelle dimensioni del tracciamento dei collegamenti.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+description: Consente la conservazione delle stringhe di query nelle dimensioni di tracciamento dei collegamenti.
+exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
 
-
 # linkLeaveQueryString
 
-Per impostazione predefinita, AppMeasurement elimina le stringhe di query dagli URL di tracciamento dei collegamenti. Utilizzate la `linkLeaveQueryString` variabile per mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
+Per impostazione predefinita, AppMeasurement elimina le stringhe di query dagli URL di tracciamento dei collegamenti. Utilizza la variabile `linkLeaveQueryString` per mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
 
-Per alcuni collegamenti di uscita e di download, la parte importante dell’URL può essere rappresentata dalla stringa di query. Ad esempio, un collegamento di download, come `https://example.com/download.asp?filename=myfile.exe` contiene informazioni importanti sul collegamento nella stringa di query.
+Per alcuni collegamenti di uscita e collegamenti di download, la parte importante dell’URL può trovarsi nella stringa di query. Ad esempio, un collegamento di download come `https://example.com/download.asp?filename=myfile.exe` contiene informazioni importanti sul collegamento nella stringa di query.
 
-Se le informazioni sul tracciamento dei collegamenti non sono negli URL del sito, l’utilizzo di questa variabile non è necessario. Strappare le stringhe di query dagli URL di tracciamento dei collegamenti per limitare il numero di valori univoci contenuti nella dimensione.
+Se le informazioni di tracciamento dei collegamenti non sono negli URL sul sito, non è necessario utilizzare questa variabile. L’eliminazione delle stringhe di query dagli URL di tracciamento dei collegamenti consente di limitare il numero di valori univoci contenuti nella dimensione.
 
-L’abilitazione `linkLeaveQueryString` si applica a tutte le dimensioni di tracciamento dei collegamenti (inclusi collegamenti personalizzati, collegamenti di uscita e collegamenti per il download).
+L’abilitazione di `linkLeaveQueryString` si applica a tutte le dimensioni di tracciamento dei collegamenti (inclusi collegamenti personalizzati, collegamenti di uscita e collegamenti per il download).
 
 >[!TIP]
 >
 >Questa variabile non influisce sulle dimensioni al di fuori del tracciamento dei collegamenti. Riguarda solo i collegamenti personalizzati, i collegamenti di uscita e i collegamenti per il download.
 
-## Mantieni parametri URL nel lancio  Adobe Experience Platform
+## Mantieni i parametri URL utilizzando i tag in Adobe Experience Platform
 
-[!UICONTROL Keep URL Parameters] è una casella di controllo sotto la struttura di [!UICONTROL Link Tracking] navigazione quando si configura l&#39;estensione Adobe  Analytics.
+[!UICONTROL Keep URL Parameters] è una casella di controllo nel  [!UICONTROL Link Tracking] pannello a soffietto durante la configurazione dell’estensione Adobe Analytics.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-2. Fate clic sulla proprietà desiderata.
-3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto Adobe  Analytics.
-4. Espande la [!UICONTROL Link Tracking] fisarmonica, che mostra la [!UICONTROL Keep URL Parameters] casella di controllo.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+2. Fai clic sulla proprietà desiderata.
+3. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] in Adobe Analytics.
+4. Espandi il [!UICONTROL Link Tracking] pannello a soffietto, che mostra la casella di controllo [!UICONTROL Keep URL Parameters].
 
-Selezionare questa casella se si desidera includere le stringhe di query nelle dimensioni del tracciamento dei collegamenti.
+Seleziona questa casella se desideri includere stringhe di query nelle dimensioni di tracciamento dei collegamenti.
 
-## s.linkLeftQueryString nell&#39;editor di codice personalizzato AppMeasurement e Launch
+## s.linkLeaveQueryString in AppMeasurement e nell&#39;editor di codice personalizzato
 
-La `s.linkLeaveQueryString` variabile è booleana. Its default value is `false`.
+La variabile `s.linkLeaveQueryString` è booleana. Il valore predefinito è `false`.
 
 * Se questa variabile è impostata su `true`, le stringhe di query vengono mantenute negli URL di tracciamento dei collegamenti.
-* Se questa variabile è impostata su `false` o non è definita, le stringhe di query vengono eliminate dagli URL di tracciamento dei collegamenti.
+* Se questa variabile è impostata su `false` o non è definita, le stringhe di query vengono tolte dagli URL di tracciamento dei collegamenti.
 
 ```js
 s.linkLeaveQueryString = true;
@@ -48,9 +47,9 @@ s.linkLeaveQueryString = true;
 
 ## Esempio
 
-Presta attenzione quando imposti questa variabile su true, in quanto può influenzare filtri di tracciamento dei collegamenti come [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md)e [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
+Presta attenzione quando imposti questa variabile su true, in quanto può influenzare i filtri di tracciamento dei collegamenti come [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md) e [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
 
-Considerare l&#39;esempio seguente come se fosse in `adobe.com`:
+Considera l&#39;esempio seguente come se si trovasse su `adobe.com`:
 
 ```html
 <script>
