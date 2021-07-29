@@ -1,14 +1,13 @@
 ---
 title: addProductEvent
 description: Aggiunge eventi personalizzati alla variabile prodotti ed eventi .
-translation-type: tm+mt
-source-git-commit: 3359ed8e7ef7979be57ca5ec9ca1803fc52afe88
+exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 1%
+source-wordcount: '624'
+ht-degree: 0%
 
 ---
-
 
 # Plug-in di Adobe: addProductEvent
 
@@ -18,11 +17,11 @@ ht-degree: 1%
 
 Il plug-in `addProductEvent` aggiunge un evento numerico o valutario alla variabile [`products`](../page-vars/products.md) . Adobe consiglia di utilizzare questo plug-in se si desidera aggiungere un evento numerico o valutario alla variabile `products` senza preoccuparsi del formato della stringa di prodotto. Questo plug-in non è necessario se non utilizzi eventi numerici o valutari nella variabile `products` .
 
-## Installare il plug-in utilizzando l’estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
 1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
@@ -34,11 +33,11 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
    * Tipo azione: Inizializza addProductEvent
 1. Salva e pubblica le modifiche alla regola.
 
-## Installare il plug-in utilizzando l’editor di codice personalizzato di Launch
+## Installare il plug-in utilizzando l’editor di codice personalizzato
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
 1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
@@ -84,7 +83,7 @@ s.addProductEvent("event35", "25");
 
 Il codice riportato sopra imposta anche la variabile `s.events` su `"purchase,event35"`
 
-### Esempio n. 3
+### Esempio n. 2
 
 Il codice seguente imposta la variabile `s.products` su `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
@@ -95,7 +94,7 @@ s.addProductEvent("event35", 25, 1);
 
 Quando il terzo argomento nella chiamata `addProductEvent` è `true` (o `1`), ogni voce di prodotto ha l’evento specificato nella chiamata aggiunta al suo valore.
 
-### Esempio n. 3
+### Esempio n. 2
 
 Il codice seguente imposta la variabile `s.products` su `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
