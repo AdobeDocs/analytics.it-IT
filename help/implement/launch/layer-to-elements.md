@@ -2,10 +2,10 @@
 title: Mappatura di oggetti del livello di dati su elementi di dati
 description: Configura i tag da leggere dal livello dati.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -24,9 +24,7 @@ Una volta che l’organizzazione ha stabilito e implementato un livello di dati 
 
 [Gli ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) elementi dati sono componenti nell’interfaccia utente di raccolta dati che puoi utilizzare in tutto lo strumento. Puoi assegnare valori variabili nell’estensione Adobe Analytics utilizzando elementi dati.
 
-1. Vai a [experience.adobe.com](https://experience.adobe.com) e accedi quando richiesto.
-1. Select **[!UICONTROL Launch / Data Collection]**.
-1. Fare clic su **[!UICONTROL Go to Launch / Data Collection]**, quindi selezionare **[!UICONTROL Tags]**.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà tag desiderata.
 1. Fai clic sulla scheda **[!UICONTROL Data Elements]** , quindi fai clic su **[!UICONTROL Add Data Element]**.
 
