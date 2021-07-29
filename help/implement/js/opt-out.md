@@ -2,7 +2,7 @@
 title: Collegamenti di rinuncia
 description: Scopri come creare e implementare i collegamenti di rinuncia per i visitatori del tuo sito.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 3%
@@ -27,10 +27,8 @@ Quando un visitatore raggiunge un URL di rinuncia, gli viene richiesto di instal
 
 La pagina di rinuncia per la tua organizzazione dipende dal valore della variabile [`trackingServer`](../vars/config-vars/trackingserver.md) nella tua implementazione.
 
-* Nell’interfaccia utente di raccolta dati di Adobe Experience Platform:
-   1. Vai a `experience.adobe.com` e accedi quando richiesto.
-   1. Select [!UICONTROL Launch / Data Collection].
-   1. Fare clic su [!UICONTROL Go to Launch / Data Collection], quindi selezionare [!UICONTROL Tags].
+* Nell’interfaccia utente di raccolta dati:
+   1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
    1. Fai clic sulla proprietà desiderata.
    1. Fai clic sulla scheda [!UICONTROL Extensions] , quindi fai clic su [!UICONTROL Configure] in Adobe Analytics.
    1. Fare clic sul pannello a soffietto [!UICONTROL General] e annotare il valore [!UICONTROL Tracking Server].
