@@ -1,37 +1,36 @@
 ---
 title: s_gi()
-description: Crea e monitora le istanze di AppMeasurement.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+description: Crea e tieni traccia delle istanze di AppMeasurement.
+exl-id: f87eff07-7e60-480b-8334-3db538c1030e
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
 
-
 # s_gi
 
-La `s_gi()` funzione crea o trova un&#39;istanza di AppMeasurement per ID suite di rapporti. AppMeasurement tiene traccia di ogni istanza creata e `s_gi()` restituisce l&#39;istanza esistente per una suite di rapporti, se esistente. Se un&#39;istanza non esiste, viene creata una nuova istanza.
+La funzione `s_gi()` crea o trova un&#39;istanza di AppMeasurement per ID suite di rapporti. AppMeasurement tiene traccia di ogni istanza creata e `s_gi()` restituisce l&#39;istanza esistente per una suite di rapporti, se presente. Se un&#39;istanza non esiste, viene creata una nuova istanza.
 
-## s_gi() in  lancio Adobe Experience Platform
+## s_gi() utilizzando i tag in Adobe Experience Platform
 
-L&#39;estensione Analytics  crea un&#39;istanza e gestisce automaticamente l&#39;oggetto di tracciamento. Tuttavia, potete anche impostare un oggetto di tracciamento globale nel [!UICONTROL Library Management] pannello a soffietto quando configurate l&#39;estensione Adobe  Analytics.
+L&#39;estensione Analytics crea un&#39;istanza e gestisce l&#39;oggetto di tracciamento per te. Tuttavia, puoi anche impostare un oggetto di tracciamento globale nel pannello a soffietto [!UICONTROL Library Management] durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-2. Fate clic sulla proprietà desiderata.
-3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante sotto Adobe  Analytics.
-4. Espandete la [!UICONTROL Library Management] fisarmonica e selezionate un pulsante di scelta diverso da [!UICONTROL Manage the library for me].
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+2. Fai clic sulla proprietà desiderata.
+3. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] in Adobe Analytics.
+4. Espandi il [!UICONTROL Library Management] pannello a soffietto e seleziona un pulsante di scelta diverso da [!UICONTROL Manage the library for me].
 
-Il campo di testo della variabile globale consente di impostare un oggetto di tracciamento personalizzato. Its default value is `s`.
+Il campo di testo della variabile globale consente di impostare un oggetto di tracciamento personalizzato. Il valore predefinito è `s`.
 
-## s_gi() nell&#39;editor di codice personalizzato AppMeasurement e Launch
+## s_gi() in AppMeasurement e nell&#39;editor di codice personalizzato
 
-Chiamare la `s_gi()` funzione per creare un&#39;istanza di un oggetto di tracciamento. L&#39;unico argomento contiene una stringa delimitata da virgole di ID suite di rapporti. L&#39;argomento ID suite di rapporti è obbligatorio.
+Chiama la funzione `s_gi()` per creare un&#39;istanza di un oggetto di tracciamento. L&#39;unico argomento contiene una stringa delimitata da virgole degli ID suite di rapporti. L’argomento ID suite di rapporti è obbligatorio.
 
 >[!TIP]
 >
->Adobe consiglia di utilizzare la `s` variabile come oggetto di tracciamento. Adobe utilizza `s` nella documentazione, negli esempi di implementazione e nei plug-in. Tuttavia, potete utilizzare qualsiasi variabile purché sia coerente sul sito.
+>Adobe consiglia di utilizzare la variabile `s` come oggetto di tracciamento. Adobe utilizza `s` nella documentazione, negli esempi di implementazione e nei plug-in. Tuttavia, puoi utilizzare qualsiasi variabile purché sia coerente all’interno del sito.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -43,11 +42,11 @@ var s = s_gi("examplersid1,examplersid2");
 
 >[!CAUTION]
 >
->Le sezioni e gli esempi seguenti contengono argomenti di implementazione complessi. Verifica accuratamente l&#39;implementazione e monitora importanti personalizzazioni nel documento [di progettazione della](../../prepare/solution-design.md)soluzione aziendale.
+>Le sezioni e gli esempi seguenti contengono argomenti di implementazione complessi. Verifica accuratamente l&#39;implementazione e monitora importanti personalizzazioni nel [documento di progettazione della soluzione](../../prepare/solution-design.md) della tua organizzazione.
 
 ## Gestire più implementazioni utilizzando diversi oggetti di tracciamento
 
-Se create un&#39;istanza di più oggetti di tracciamento, potete inviare dati diversi a suite di rapporti diverse. Questi due oggetti di tracciamento operano indipendentemente l&#39;uno dall&#39;altro.
+Se crei un&#39;istanza di più oggetti di tracciamento, puoi inviare dati diversi a suite di rapporti diverse. Questi due oggetti di tracciamento operano indipendentemente l’uno dall’altro.
 
 ```js
 // Instantiate two separate tracking objects to two different report suites
@@ -65,9 +64,9 @@ s.t();
 z.t();
 ```
 
-## Ripristina variabili AppMeasurement dopo la sovrascrittura dell&#39;oggetto s
+## Ripristinare le variabili AppMeasurement dopo la sovrascrittura dell&#39;oggetto s
 
-Alcuni strumenti di terze parti potrebbero inoltre utilizzare l&#39;oggetto JavaScript `s` . Se si sovrascrive accidentalmente l’ `s` oggetto sul sito, è possibile chiamare `s_gi` con lo stesso argomento della stringa RSID per ripristinare tutte le variabili e i metodi sovrascritti.
+Alcuni strumenti di terze parti potrebbero inoltre utilizzare l&#39;oggetto JavaScript `s` . Se sovrascrivi accidentalmente l&#39;oggetto `s` sul sito, puoi chiamare `s_gi` con lo stesso argomento della stringa RSID per ripristinare tutte le variabili e i metodi sovrascritti.
 
 ```js
 // Step 1: Instantiate the tracking object
@@ -86,9 +85,9 @@ s = s_gi("examplersid");
 s.t();
 ```
 
-## Riferimento allo stesso oggetto di tracciamento con più variabili
+## Fai riferimento allo stesso oggetto di tracciamento con più variabili
 
-Se due variabili fanno riferimento alla stessa `s_gi()` funzione della stessa suite di rapporti, è possibile utilizzare le variabili in modo intercambiabile.
+Se due variabili fanno riferimento alla stessa funzione `s_gi()` con la stessa suite di rapporti, puoi utilizzare le variabili in modo intercambiabile.
 
 ```js
 // If the RSID is the same, any variables set in the 's' tracking object also get set in 'z' tracking object
