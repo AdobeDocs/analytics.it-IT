@@ -2,9 +2,9 @@
 title: Qual è la variabile currencyCode e come si utilizza?
 description: Per i siti di eCommerce, imposta la valuta in cui si trova la pagina.
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,11 @@ Se `currencyCode` è definito ed è diverso dalla valuta della suite di rapporti
 
 Questa variabile non persiste tra i risultati. Assicurati che questa variabile sia definita su ogni pagina che include ricavi o eventi di valuta.
 
-## Codice valuta nei tag Adobe Experience Platform
+## Codice valuta utilizzando i tag in Adobe Experience Platform
 
 Il codice valuta è un campo sotto il pannello a soffietto [!UICONTROL General] durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Vai a `experience.adobe.com` e accedi quando richiesto.
-1. Select [!UICONTROL Launch / Data Collection].
-1. Fare clic su [!UICONTROL Go to Launch / Data Collection], quindi selezionare [!UICONTROL Tags].
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] in Adobe Analytics.
 1. Espandi il [!UICONTROL General] pannello a soffietto, che mostra il campo [!UICONTROL Currency Code] .
@@ -48,7 +46,7 @@ Il codice valuta viene passato agli SDK di Adobe Experience Platform Mobile tram
 
 È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se utilizzi un codice valuta personalizzato, assicurati che il codice sia valido.
 
-## s.currencyCode nell&#39;editor di codice personalizzato AppMeasurement e Data Collection
+## s.currencyCode in AppMeasurement e nell&#39;editor di codice personalizzato
 
 La variabile `s.currencyCode` è una stringa contenente un codice maiuscolo di 3 lettere che rappresenta la valuta nella pagina.
 
