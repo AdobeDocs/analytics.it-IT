@@ -2,10 +2,10 @@
 title: writeSecureCookies
 description: Consente ad AppMeasurement di impostare i cookie con l’attributo Secure.
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-source-git-commit: b93cd06c2a8867f4848dc317e426b73dcfbb5dfd
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 1%
+source-wordcount: '232'
+ht-degree: 0%
 
 ---
 
@@ -21,16 +21,16 @@ Ulteriori informazioni sui cookie di Analytics [qui](https://experienceleague.ad
 >
 >Se abiliti la variabile `writeSecureCookies` , assicurati che tutti i contenuti del sito siano protetti tramite HTTPS. AppMeasurement non funziona se questa variabile è abilitata e sulla pagina è presente contenuto non sicuro.
 
-## Scrivere cookie sicuri in Adobe Experience Platform Launch
+## Scrivere cookie sicuri utilizzando i tag in Adobe Experience Platform
 
 [!UICONTROL Write secure cookies] è una casella di controllo nel  [!UICONTROL Cookies] pannello a soffietto durante la configurazione dell’estensione Adobe Analytics.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 2. Fai clic sulla proprietà desiderata.
 3. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] in Adobe Analytics.
 4. Espandi il [!UICONTROL Cookies] pannello a soffietto, che mostra la casella di controllo [!UICONTROL Write secure cookies].
 
-## s.writeSecureCookies nell&#39;editor di codice personalizzato AppMeasurement e Launch
+## s.writeSecureCookies in AppMeasurement e nell&#39;editor di codice personalizzato
 
 La variabile `s.writeSecureCookies` è booleana che determina se AppMeasurement imposta l&#39;attributo Secure durante la creazione di un cookie. Il valore predefinito è `false`. Imposta questa variabile su `true` se tutto il contenuto del sito è protetto e desideri che nei cookie impostati da AppMeasurement sia presente l’attributo Secure .
 
