@@ -1,20 +1,19 @@
 ---
 title: t
-description: Inviare una chiamata di tracciamento della visualizzazione della pagina ad Adobe.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+description: Invia ad Adobe una chiamata di tracciamento della visualizzazione della pagina.
+exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 1%
+source-wordcount: '271'
+ht-degree: 0%
 
 ---
 
-
 # t()
 
-Il `t()` metodo è un componente di base importante per Adobe  Analytics. Prende tutte  variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati Adobe.
+Il metodo `t()` è un componente di base importante per Adobe Analytics. Prende tutte le variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe.
 
-Ad esempio, prendere in considerazione il seguente codice JavaScript:
+Ad esempio, considera il seguente codice JavaScript:
 
 ```js
 // Instantiate the tracking object
@@ -28,34 +27,34 @@ s.eVar1 = "Example dimension item";
 s.t();
 ```
 
-L&#39;esecuzione del `t()` metodo prende tutte  variabili Analytics definite e formula un URL basato su tali variabili. Alcune variabili Analytics  determinano l’URL dell’immagine, mentre altre determinano i valori dei parametri delle stringhe di query.
+L’esecuzione del metodo `t()` prende tutte le variabili Analytics definite e formula un URL basato su tali variabili. Alcune variabili di Analytics determinano l’URL dell’immagine, mentre altre variabili determinano i valori dei parametri della stringa di query.
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 ```
 
-Adobe riceve la richiesta di immagine, quindi analizza i parametri dell’intestazione della richiesta, dell’URL e della stringa di query. I server di raccolta dati restituiscono quindi un’immagine trasparente da 1 x 1 pixel, visualizzata in modo invisibile sul sito.
+Adobe riceve la richiesta di immagine, quindi analizza l’intestazione della richiesta, l’URL e i parametri della stringa di query. I server di raccolta dati restituiscono quindi un’immagine trasparente da 1 pixel x 1, visualizzata in modo invisibile sul sito.
 
-## Chiamata di tracciamento visualizzazione pagina in  lancio Adobe Experience Platform
+## Chiamata di tracciamento della visualizzazione pagina tramite tag in Adobe Experience Platform
 
-Launch ha una posizione dedicata impostata come chiamata di tracciamento della visualizzazione della pagina.
+L’interfaccia utente di raccolta dati dispone di una posizione dedicata impostata per una chiamata di tracciamento della visualizzazione della pagina.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-2. Fate clic sulla proprietà desiderata.
-3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
-4. In [!UICONTROL Actions], fare clic sull&#39;icona &quot;+&quot;
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe  Analytics e su [!UICONTROL Action Type] Invia beacon.
-6. Click the `s.t()` radio button.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+2. Fai clic sulla proprietà desiderata.
+3. Vai alla scheda [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
+4. In [!UICONTROL Actions], fai clic sull&#39;icona &quot;+&quot;
+5. Imposta il menu a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su Invia beacon.
+6. Fare clic sul pulsante di scelta `s.t()`.
 
-## s.t() nell&#39;editor di codice personalizzato AppMeasurement e Launch
+## s.t() in AppMeasurement e nell&#39;editor di codice personalizzato
 
-Chiama il `s.t()` metodo per inviare una chiamata di tracciamento ad Adobe.
+Chiama il metodo `s.t()` quando desideri inviare una chiamata di tracciamento ad Adobe.
 
 ```js
 s.t();
 ```
 
-Facoltativamente, è possibile utilizzare un oggetto come argomento per ignorare i valori delle variabili. Per ulteriori informazioni, vedi [sostituzioni](../../js/overrides.md) variabili.
+Facoltativamente, è possibile utilizzare un oggetto come argomento per sostituire i valori delle variabili. Per ulteriori informazioni, consulta [sostituzioni delle variabili](../../js/overrides.md) .
 
 ```js
 var y = new Object();
@@ -65,4 +64,4 @@ s.t(y);
 
 >[!NOTE]
 >
->Le versioni precedenti di AppMeasurement utilizzavano diverse righe di codice per chiamare questa funzione. Il codice aggiuntivo, che comprendeva soluzioni storicamente adattate per diversi browser. La standardizzazione e le best practice nei browser più recenti non richiedono più questo blocco di codice. È necessaria solo la chiamata del metodo `s.t()` ora.
+>Le versioni precedenti di AppMeasurement utilizzavano diverse righe di codice per chiamare questa funzione. Il codice aggiuntivo sistemato storicamente soluzioni alternative per diversi browser. La standardizzazione e le best practice nei browser moderni non richiedono più questo blocco di codice. È ora necessaria solo la chiamata del metodo `s.t()` .
