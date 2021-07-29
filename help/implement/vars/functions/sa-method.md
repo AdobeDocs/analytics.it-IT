@@ -1,23 +1,25 @@
 ---
 title: sa
-description: Modifica la suite di rapporti in qualsiasi momento nell'implementazione.
-translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+description: Modifica la suite di rapporti in qualsiasi momento dell’implementazione.
+exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 1%
 
 ---
 
-
 # sa
 
-Questo `sa()` metodo consente di modificare in modo dinamico una suite di rapporti in qualsiasi momento della pagina. Se desiderate inviare dati a suite di rapporti diverse senza ricaricare la pagina, potete utilizzare questo metodo.
+Il metodo `sa()` consente di modificare dinamicamente una suite di rapporti in qualsiasi momento della pagina. Se desideri inviare dati a suite di rapporti diverse senza ricaricare la pagina, puoi utilizzare questo metodo.
 
-## Utilizzare il metodo sa in Adobe Experience Platform Launch
+## Utilizzare il metodo sa utilizzando i tag in Adobe Experience Platform
 
-Non esiste un modo flessibile per cambiare la suite di rapporti nell&#39;interfaccia. Puoi impostare la suite di rapporti sotto il [!UICONTROL Library Management] pannello a soffietto quando configuri l&#39;estensione Adobe Analytics. Tuttavia, non puoi modificare o aggiornare la suite di rapporti utilizzando le regole. Se vuoi aggiornare i valori della suite di rapporti dopo che sono stati impostati, usa l&#39;editor di codice personalizzato seguendo la sintassi di AppMeasurement.
+Non esiste un modo flessibile per modificare la suite di rapporti nell’interfaccia di . Puoi impostare la suite di rapporti sotto il pannello a soffietto [!UICONTROL Library Management] durante la configurazione dell&#39;estensione Adobe Analytics. Tuttavia, non puoi modificare o aggiornare la suite di rapporti utilizzando le regole. Se desideri aggiornare i valori della suite di rapporti dopo averli impostati, utilizza l’editor di codice personalizzato seguendo la sintassi AppMeasurement.
 
-## s.sa() nell&#39;editor di codice personalizzato AppMeasurement e Launch
+## s.sa() in AppMeasurement e nell&#39;editor di codice personalizzato
 
-Chiama il `s.sa()` metodo per cambiare la suite di rapporti di destinazione. L&#39;unico argomento è una stringa contenente un ID suite di rapporti o più ID suite di rapporti delimitati da una virgola. L&#39;argomento ID suite di rapporti è obbligatorio. Non utilizzare spazi nell&#39;argomento della stringa.
+Chiama il metodo `s.sa()` per modificare la suite di rapporti di destinazione. L&#39;unico argomento è una stringa contenente un ID suite di rapporti o più ID suite di rapporti delimitati da una virgola. L’argomento ID suite di rapporti è obbligatorio. Non utilizzare spazi nell&#39;argomento stringa.
 
 ```js
 s.sa("examplersid");
@@ -25,7 +27,7 @@ s.sa("examplersid");
 
 ## Esempio
 
-Puoi cambiare la suite di rapporti se l&#39;utente esegue un&#39;azione specifica sul tuo sito.
+Puoi modificare la suite di rapporti se l’utente esegue un’azione specifica sul sito.
 
 ```js
 // Instantiate the tracking object
