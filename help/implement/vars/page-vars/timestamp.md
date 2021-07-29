@@ -1,30 +1,29 @@
 ---
 title: timestamp
-description: Imposta manualmente il timestamp dell’hit.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+description: Imposta manualmente la marca temporale dell'hit.
+exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
-
 # timestamp
 
-La `timestamp` variabile imposta manualmente il timestamp dell’hit per le suite di rapporti abilitate per le marche temporali.
+La variabile `timestamp` imposta manualmente il timestamp dell’hit per le suite di rapporti abilitate per le marche temporali.
 
 >[!WARNING]
 >
->Non utilizzate questa variabile se la suite di rapporti non è configurata in modo esplicito per accettare gli hit con marca temporale. AppMeasurement imposta automaticamente l’ora di un hit per le suite di rapporti che non supportano gli hit con marca temporale. Se invii un hit con questa variabile a una suite di rapporti che non supporta le marche temporali, quei dati andranno persi definitivamente.
+>Non utilizzare questa variabile se la suite di rapporti non è configurata in modo esplicito per accettare hit con marca temporale. AppMeasurement imposta automaticamente l&#39;ora di un hit per le suite di rapporti che non supportano gli hit con marca temporale. Se invii un hit con questa variabile a una suite di rapporti che non supporta le marche temporali, tali dati andranno perduti definitivamente.
 
-## Timestamp nel lancio  Adobe Experience Platform
+## Timestamp tramite tag in Adobe Experience Platform
 
-In Launch non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizzate l&#39;editor di codice personalizzato, seguendo la sintassi AppMeasurement.
+Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
 
-## s.timestamp nell&#39;editor di codice personalizzato AppMeasurement e Launch
+## s.timestamp in AppMeasurement e nell&#39;editor di codice personalizzato
 
-La `s.timestamp` variabile è una stringa contenente la data e l’ora dell’hit. I formati di marca temporale validi includono l&#39;ora [](https://en.wikipedia.org/wiki/ISO_8601) ISO 8601 [e](https://en.wikipedia.org/wiki/Unix_time)Unix.
+La variabile `s.timestamp` è una stringa contenente la data e l’ora dell’hit. I formati di marca temporale validi includono [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) e [Tempo Unix](https://en.wikipedia.org/wiki/Unix_time).
 
 ```js
 // Timestamp using ISO 8601
@@ -44,14 +43,14 @@ s.timestamp = new Date().toISOString();
 
 Le date e le ore espresse in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) possono assumere diverse forme. Adobe non supporta tutte le funzioni della norma ISO 8601.
 
-* È necessario specificare sia la data che l&#39;ora, separati da `T`.
-* Sono necessari ore e minuti; i secondi sono facoltativi, ma consigliati.
-* Le date della settimana e quelle ordinali non sono supportate.
+* È necessario specificare sia la data che l’ora, separati da `T`.
+* Sono richiesti ore e minuti; i secondi sono facoltativi ma consigliati.
+* Le date della settimana e le date ordinali non sono supportate.
 * La data può essere in formato standard o esteso. Ad esempio, `2020-01-01T00:00:00Z` e `20200101T000000Z` sono entrambi validi.
-* I minuti e i secondi frazionari sono tecnicamente validi, ma le frazioni vengono ignorate da Adobe.
+* I minuti e i secondi frazionari sono tecnicamente validi, ma le frazioni vengono ignorate per Adobe.
 * I fusi orari sono supportati nei formati standard ed esteso.
 
-Di seguito sono riportati valori ISO 8601 validi per la `timestamp` variabile:
+Di seguito è riportato un esempio valido di valori ISO 8601 nella variabile `timestamp` :
 
 ```text
 2020-01-01T00:00:00+00:00
