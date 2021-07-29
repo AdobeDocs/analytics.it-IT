@@ -3,9 +3,9 @@ description: Implementa il connettore dati Kampyle in Adobe Analytics.
 title: Distribuzione dell'integrazione
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
-source-git-commit: 4078d0be92c8ccd639e408e7372a5636938cad00
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '401'
 ht-degree: 2%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 2%
 
 La distribuzione di questa integrazione è un processo semplice che consiste nel completare l&#39;Integrazione guidata di Adobe, distribuire il codice plug-in (JavaScript) e verificare l&#39;integrazione.
 
-## Completa l&#39;Integrazione guidata Adobe{#complete-the-adobe-integration-wizard}
+## Completare la procedura guidata di integrazione di Adobe{#complete-the-adobe-integration-wizard}
 
 Per attivare l&#39;integrazione, completa la procedura guidata di configurazione nell&#39;interfaccia Data Connectors.
 
 1. Accedere a [!DNL Adobe Experience Cloud].
-1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]**.
+1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** (Componenti) > **[!UICONTROL All admin]** (Tutti i componenti) > **[!UICONTROL Data connectors]** (Eventi calendario).
 1. Avvia la procedura guidata di integrazione di Kampyle.
 1. Seleziona la suite di rapporti desiderata e specifica un nome per l’integrazione.
 1. Configura i seguenti elementi:
@@ -36,28 +36,28 @@ Per attivare l&#39;integrazione, completa la procedura guidata di configurazione
 1. Seleziona la casella per creare automaticamente il dashboard Integrazione Kampyle (consigliato).
 1. Rivedi tutti gli elementi di configurazione e fai clic su **[!UICONTROL Activate Now]**.
 
-## Distribuire l&#39;oggetto di configurazione dell&#39;integrazione{#deploy-the-integration-configuration-object}
+## Distribuzione dell&#39;oggetto di configurazione dell&#39;integrazione{#deploy-the-integration-configuration-object}
 
 Dopo aver completato l&#39;integrazione guidata, implementa l&#39;oggetto di configurazione dell&#39;integrazione nella proprietà Web. In molti casi, il modo più semplice per implementare l&#39;oggetto di configurazione dell&#39;integrazione è includerlo con il codice di distribuzione Adobe Analytics.
 
 >[!NOTE]
 >
->Se utilizzi Adobe Experience Platform Launch, puoi facilmente aggiungere l’oggetto di configurazione dell’integrazione tramite tale strumento.
+>Se utilizzi i tag in Adobe Experience Platform, puoi facilmente aggiungere l’oggetto di configurazione dell’integrazione tramite tale strumento.
 
 1. Passa alla scheda **[!UICONTROL Resources]** > **[!UICONTROL Support]** dell’integrazione.
-1. Scarica e salva la risorsa **[!UICONTROL Kampyle Integration Code (JS)]** . Il codice è simile al seguente:
+2. Scarica e salva la risorsa **[!UICONTROL Kampyle Integration Code (JS)]** . Il codice è simile al seguente:
 
    ```
    /* Kampyle:  Integration configuration settings */
      window.k_sc_param = { "version":1.1 }
    ```
 
-1. Distribuisci il codice utilizzando uno dei seguenti metodi:
+3. Distribuisci il codice utilizzando uno dei seguenti metodi:
 
-   * Utilizza Adobe Experience Platform Launch.
+   * Utilizza i tag in Adobe Experience Platform.
    * Distribuisci il codice alla risorsa organizzativa che gestisce la distribuzione Adobe Analytics.
 
-## Verifica l&#39;integrazione{#verify-the-integration}
+## Verificare l’integrazione{#verify-the-integration}
 
 Verifica che l’integrazione trasferisca correttamente i dati completando un paio di controlli.
 
