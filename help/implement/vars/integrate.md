@@ -2,9 +2,9 @@
 title: Integrate Module
 description: Il modulo Integrate Module consente ai partner di Adobe di integrare le attività di raccolta dei dati con la tua organizzazione.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '883'
 ht-degree: 3%
 
 ---
@@ -42,9 +42,7 @@ Per ottenere il codice del modulo è necessario un utente con accesso Amministra
 
 L’implementazione del modulo integrato sul sito richiede l’accesso all’interfaccia utente di raccolta dati in Adobe Experience Platform. Se utilizzi un’implementazione JavaScript legacy, è necessario accedere al codice sorgente del sito web dell’organizzazione.
 
-1. Vai a `experience.adobe.com` e accedi quando richiesto.
-1. Select [!UICONTROL Launch / Data Collection].
-1. Fare clic su [!UICONTROL Go to Launch / Data Collection], quindi selezionare [!UICONTROL Tags].
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà tag che desideri modificare.
 1. Fai clic sulla scheda Estensioni , quindi fai clic su Configura sotto Adobe Analytics.
 1. Apri il pannello a soffietto &quot;Configura il tracker utilizzando codice personalizzato&quot;, quindi fai clic su &quot;&lt;/> Apri editor&quot;.
