@@ -1,14 +1,13 @@
 ---
 title: manageVars
 description: Modifica i valori di più di una variabile Analytics alla volta.
-translation-type: tm+mt
-source-git-commit: 93a2dc1b265c92468722ebc2e3656db55d63547c
+exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 1%
+source-wordcount: '689'
+ht-degree: 0%
 
 ---
-
 
 # Plug-in di Adobe: manageVars
 
@@ -18,11 +17,11 @@ ht-degree: 1%
 
 Il plug-in `manageVars` ti consente di manipolare i valori di più variabili di Analytics contemporaneamente. È inoltre possibile impostare i valori in lettere minuscole o rimuovere allo stesso tempo caratteri non necessari da più valori di variabili. Adobe consiglia di utilizzare questo plug-in per pulire il valore di più variabili alla volta.
 
-## Installare il plug-in utilizzando l’estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
 1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
@@ -34,11 +33,11 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
    * Tipo azione: Inizializza manageVars
 1. Salva e pubblica le modifiche alla regola.
 
-## Installare il plug-in utilizzando l’editor di codice personalizzato di Launch
+## Installare il plug-in utilizzando l’editor di codice personalizzato
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
 1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
@@ -104,7 +103,7 @@ s.manageVars("lowerCaseVars", "events", false);
 
 ...essenzialmente produce lo stesso risultato esatto del primo esempio, in quanto la variabile degli eventi non viene ridotta per impostazione predefinita.
 
-### Esempio n. 3
+### Esempio n. 2
 
 Codice seguente...
 
