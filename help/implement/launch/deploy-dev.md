@@ -2,10 +2,10 @@
 title: Distribuire Adobe Analytics in un ambiente di sviluppo
 description: Scopri come utilizzare i tag per distribuire Adobe Analytics nel tuo ambiente di sviluppo.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 4%
+source-wordcount: '594'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ Dopo aver creato e configurato una proprietà tag, le librerie sono pronte per e
 
 I tag consentono di gestire molti flussi di lavoro organizzativi durante la distribuzione del codice. Segui questi passaggi per creare i componenti minimi necessari per un’implementazione di Analytics. In qualità di amministratore dei tag, puoi lavorare all’interno della tua organizzazione per stabilire il flusso di lavoro corretto per la distribuzione delle soluzioni Adobe.
 
-1. Vai a [Adobe Experience Platform Launch](https://launch.adobe.com) e, se richiesto, accedi.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 2. Fai clic sulla proprietà tag che intendi implementare sul sito.
 3. Fare clic sulla scheda Adattatori, quindi fare clic su Aggiungi adattatore.
 4. Denomina &quot;Akamai&quot; e seleziona Akamai nel menu a discesa del tipo . Fai clic su Salva.
@@ -37,7 +37,7 @@ I tag consentono di gestire molti flussi di lavoro organizzativi durante la dist
 
 Nonostante tutte le modifiche e le configurazioni apportate finora, non è stato pubblicato alcun codice. La creazione di una libreria, tradotta approssimativamente come una raccolta di modifiche, consente di utilizzare la pubblicazione del codice sul sito.
 
-1. Vai a [Adobe Experience Platform Launch](https://launch.adobe.com) e, se richiesto, accedi.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 2. Fai clic sulla proprietà tag che intendi implementare sul sito.
 3. Fai clic sulla scheda Pubblicazione , quindi su Aggiungi nuova libreria .
 4. Denomina la libreria &quot;Modifiche iniziali&quot; e seleziona l&#39;ambiente di sviluppo.
