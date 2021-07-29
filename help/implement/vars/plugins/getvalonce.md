@@ -1,14 +1,13 @@
 ---
 title: getValOnce
 description: Impedisci che una variabile di Analytics venga impostata sullo stesso valore due volte di fila.
-translation-type: tm+mt
-source-git-commit: 5a81754ca6137d7bc1e790fe537acbb4bbdb8efb
+exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 1%
+source-wordcount: '721'
+ht-degree: 0%
 
 ---
-
 
 # Plug-in di Adobe: getValOnce
 
@@ -18,11 +17,11 @@ ht-degree: 1%
 
 Il plug-in `getValOnce` impedisce che una variabile venga impostata più di una volta sullo stesso valore. Adobe consiglia di utilizzare questo plug-in quando si desidera deduplicare le occorrenze in cui un visitatore aggiorna una pagina o in altro modo visita una pagina specifica più volte. Questo plug-in non è necessario se non sei preoccupato della metrica &quot;Occorrenze&quot; in Analysis Workspace.
 
-## Installare il plug-in utilizzando l’estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
 1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
@@ -34,11 +33,11 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
    * Tipo azione: Inizializza getValOnce
 1. Salva e pubblica le modifiche alla regola.
 
-## Installare il plug-in utilizzando l’editor di codice personalizzato di Launch
+## Installare il plug-in utilizzando l’editor di codice personalizzato
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
 1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
@@ -81,7 +80,7 @@ s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
 
 Nella chiamata precedente, il plug-in confronterà prima il valore già contenuto nel cookie s_campaign con il valore proveniente dalla variabile s.campaign corrente.   Se non viene effettuata una corrispondenza, il plug-in imposta il cookie s_campaign su uguale al nuovo valore proveniente da s.campaign e restituisce il nuovo valore.   Questo confronto avverrà nei prossimi trenta giorni
 
-### Esempio n. 3
+### Esempio n. 2
 
 Usa questa chiamata per evitare che lo stesso valore venga impostato durante l&#39;intera sessione:
 
