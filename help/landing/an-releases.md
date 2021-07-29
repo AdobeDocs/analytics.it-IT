@@ -2,10 +2,10 @@
 description: Spiega la nuova strategia per il rilascio continuo di funzioni per Adobe Analytics
 title: Rilasci di funzioni di Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Con ogni rilascio di funzioni, la timeline da RTP a GA può variare. L’obietti
 
 ## Flag di funzioni
 
-I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di aggiungere app.launchdarkly.com all’[elenco di indirizzi consentiti](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=it) del firewall, per garantire un’esperienza fluida durante la fase di rilascio. Una volta che la versione definitiva viene rilasciata al pubblico, il flag viene rimosso.
+I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di aggiungere `app.launchdarkly.com` all’ [elenco Consentiti](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=it) del firewall per garantire un’esperienza ottimale durante la fase di rilascio. Una volta che la versione definitiva viene rilasciata al pubblico, il flag viene rimosso.
 
 Puoi visualizzare i flag di funzioni attivi in qualsiasi momento, da **Aiuto > Informazioni su Workspace > Flag di funzioni attivi**.
 
