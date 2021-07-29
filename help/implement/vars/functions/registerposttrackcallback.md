@@ -1,42 +1,41 @@
 ---
 title: registerPostTrackCallback
 description: Crea funzioni di callback dopo l’invio di un hit ad Adobe.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-
 # registerPostTrackCallback
 
-La `registerPostTrackCallback` variabile consente all&#39;organizzazione di collegare una funzione JavaScript immediatamente dopo che un hit è stato inviato ad Adobe. Se una chiamata di tracciamento non riesce, questa funzione non viene eseguita. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un partner o a un&#39;infrastruttura interna, oppure per ripulire i valori variabili nelle applicazioni a pagina singola.
+La variabile `registerPostTrackCallback` consente alla tua organizzazione di collegare una funzione JavaScript immediatamente dopo che un hit è stato inviato all’Adobe. Se una chiamata di tracciamento non riesce, questa funzione non viene eseguita. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un partner o a un&#39;infrastruttura interna oppure per pulire i valori delle variabili nelle applicazioni a pagina singola.
 
 >[!IMPORTANT]
 >
->Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all’interno della `registerPostTrackCallback` variabile. Le funzioni di tracciamento di questa variabile causano un numero infinito di richieste di immagini!
+>Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all&#39;interno della variabile `registerPostTrackCallback`. Le funzioni di tracciamento in questa variabile causano un ciclo infinito di richieste di immagini!
 
-Ogni volta che si chiama la `registerPostTrackCallback` variabile, si aggancia la funzione per l’esecuzione immediatamente dopo l’invio di una richiesta di immagine. Evitare di registrare la stessa funzione più volte nello stesso caricamento di pagina.
+Ogni volta che si chiama la variabile `registerPostTrackCallback`, si aggancia la funzione per eseguirla immediatamente dopo che una richiesta di immagine è stata inviata correttamente. Evita di registrare la stessa funzione più volte nello stesso caricamento della pagina.
 
 >[!NOTE]
 >
->I tempi e l&#39;ordine delle funzioni attivate tra [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` non sono garantiti. Evitare dipendenze tra queste due funzioni.
+>La tempistica e l&#39;ordine delle funzioni attivate tra [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` non sono garantiti. Evita le dipendenze tra queste due funzioni.
 
-## Registra post-callback nel lancio  Adobe Experience Platform
+## Registra callback di post utilizzando i tag in Adobe Experience Platform
 
-In Launch non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizzate l&#39;editor di codice personalizzato, seguendo la sintassi AppMeasurement.
+Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
 
-## s.registerPostTrackCallback in AppMeasurement e Avvia editor di codice personalizzato
+## s.registerPostTrackCallback in AppMeasurement e nell&#39;editor di codice personalizzato
 
-Si `s.registerPostTrackCallback` tratta di una funzione che utilizza una funzione come unico argomento. La funzione nidificata viene eseguita immediatamente dopo l&#39;invio corretto di una richiesta di immagine.
+La funzione `s.registerPostTrackCallback` assume una funzione come unico argomento. La funzione nidificata viene eseguita immediatamente dopo il corretto invio di una richiesta di immagine.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
 ```
 
-Se desiderate utilizzare l&#39;URL della richiesta di immagine nel codice, fate riferimento all&#39;argomento `requestUrl` stringa all&#39;interno della funzione nidificata. È possibile analizzare la `requestUrl` variabile per l&#39;uso desiderato; la modifica di questa variabile non influisce sulla raccolta dei dati.
+Se desideri utilizzare l’URL della richiesta di immagine nel codice, fai riferimento all’argomento della stringa `requestUrl` all’interno della funzione nidificata. Puoi analizzare la variabile `requestUrl` per l’uso desiderato; la regolazione di questa variabile non influisce sulla raccolta dei dati.
 
 ```js
 s.registerPostTrackCallback(function(requestUrl){
@@ -44,7 +43,7 @@ s.registerPostTrackCallback(function(requestUrl){
 });
 ```
 
-Ulteriori argomenti possono essere inclusi nella `s.registerPostTrackCallback` funzione, che può essere utilizzata nella funzione nidificata:
+Ulteriori argomenti possono essere inclusi nella funzione `s.registerPostTrackCallback`, che può essere utilizzata nella funzione nidificata:
 
 ```js
 s.registerPostTrackCallback(function(requestUrl,a,b,c) {
@@ -55,9 +54,9 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-## Esempio di caso di utilizzo
+## Esempio di caso d’uso
 
-La registrazione della [`clearVars()`](clearvars.md) funzione nel callback post-traccia può essere utile per le applicazioni a pagina singola. Ogni volta che viene inviato un hit ad Adobe, la `clearVars()` funzione viene eseguita. L’implementazione può quindi definire di nuovo le variabili senza preoccuparsi di valori che persistono in modo errato.
+La registrazione della funzione [`clearVars()`](clearvars.md) nel callback post-track può essere utile per le applicazioni a pagina singola. Ogni volta che viene inviato correttamente un hit ad Adobe, la funzione `clearVars()` viene eseguita. L’implementazione può quindi definire nuovamente le variabili senza preoccuparsi di valori persistenti in modo errato.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});
