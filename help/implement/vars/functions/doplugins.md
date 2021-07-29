@@ -1,31 +1,30 @@
 ---
 title: doPlugins
 description: Configura la logica immediatamente prima che un hit venga compilato e inviato ad Adobe.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '185'
 ht-degree: 1%
 
 ---
 
-
 # doPlugins
 
-La `doPlugins` variabile funge da &#39;ultima chiamata&#39; per impostare i valori nell&#39;implementazione. Se [`usePlugins`](../config-vars/useplugins.md) è attivato, viene eseguito automaticamente subito prima che qualsiasi tipo di richiesta di immagine venga compilato e inviato ad Adobe, compresi:
+La variabile `doPlugins` funge da &quot;ultima chiamata&quot; per impostare i valori nell’implementazione. Se [`usePlugins`](../config-vars/useplugins.md) è abilitato, viene eseguito automaticamente poco prima che qualsiasi tipo di richiesta di immagine venga compilata e inviata ad Adobe, tra cui:
 
-* Tutte le chiamate della visualizzazione pagina ([`t()`](t-method.md)Visualizzazione pagina)
-* Tutte le chiamate per il tracciamento dei collegamenti ([`tl()`](tl-method.md)), inclusi i collegamenti di download e di uscita automatici
+* Tutte le chiamate di visualizzazione pagina ([`t()`](t-method.md))
+* Tutte le chiamate di tracciamento dei collegamenti ([`tl()`](tl-method.md)), inclusi i collegamenti di download automatici e i collegamenti di uscita
 
-Utilizzate la `doPlugins` variabile per chiamare il codice plug-in e impostare i valori della variabile finale appena prima che una richiesta di immagine venga compilata e inviata ad Adobe.
+Utilizza la variabile `doPlugins` per chiamare il codice plug-in e impostare i valori della variabile finale poco prima che una richiesta di immagine venga compilata e inviata ad Adobe.
 
-## Plug-in  lancio Adobe Experience Platform
+## Plug-in tramite tag in Adobe Experience Platform
 
-In Launch non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizzate l&#39;editor di codice personalizzato, seguendo la sintassi AppMeasurement.
+Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
 
-## s.doPlugins in AppMeasurement e Launch codice personalizzato
+## s.doPlugins in AppMeasurement e codice personalizzato
 
-Impostare la `s.doPlugins` variabile su una funzione contenente il codice desiderato. La funzione viene eseguita automaticamente quando si effettua una chiamata di tracciamento.
+Imposta la variabile `s.doPlugins` su una funzione contenente il codice desiderato. La funzione viene eseguita automaticamente quando effettui una chiamata di tracciamento.
 
 ```js
 s.doPlugins = function() {/* Desired code */};
@@ -33,7 +32,7 @@ s.doPlugins = function() {/* Desired code */};
 
 >[!NOTE]
 >
->Impostate una funzione sulla `doPlugins` variabile una sola volta nell&#39;implementazione. Se impostate la `doPlugins` variabile più di una volta, viene utilizzato solo il codice più recente.
+>Imposta una funzione sulla variabile `doPlugins` una sola volta nell&#39;implementazione. Se imposti la variabile `doPlugins` più di una volta, viene utilizzato solo il codice più recente.
 
 ## Esempi
 
@@ -51,4 +50,4 @@ s.doPlugins = function() {
 
 >[!NOTE]
 >
->Le versioni precedenti di AppMeasurement presentavano un `doPlugins()` codice leggermente diverso. Adobe consiglia di utilizzare il formato indicato sopra come procedura ottimale.
+>Le versioni precedenti di AppMeasurement avevano un codice leggermente diverso `doPlugins()`. Adobe consiglia di utilizzare il formato di cui sopra come best practice.
