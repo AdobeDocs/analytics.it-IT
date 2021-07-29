@@ -1,32 +1,34 @@
 ---
 title: trackExternalLinks
-description: Abilita o disabilita il tracciamento automatico dei collegamenti per i collegamenti di uscita.
-translation-type: tm+mt
-source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
+description: Attiva o disattiva il tracciamento automatico dei collegamenti per i collegamenti di uscita.
+exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 1%
 
 ---
 
-
 # trackExternalLinks
 
-Adobe offre la possibilità di tracciare i collegamenti in uscita senza impostare manualmente il [`tl()`](../functions/tl-method.md) metodo per ciascun collegamento in uscita. Abilita questa variabile se desideri usare il tracciamento automatico dei collegamenti per i collegamenti di uscita.
+Adobe offre la possibilità di tracciare i collegamenti in uscita senza impostare manualmente il metodo [`tl()`](../functions/tl-method.md) per ogni collegamento in uscita. Abilita questa variabile se desideri utilizzare il tracciamento automatico dei collegamenti per i collegamenti di uscita.
 
-Quando è abilitata, AppMeasurement confronta qualsiasi URL di collegamento su valori in [`linkInternalFilters`](linkinternalfilters.md) e [`linkExternalFilters`](linkexternalfilters.md). In caso di corrispondenza, viene automaticamente attivata una chiamata di tracciamento dei collegamenti di uscita.
+Quando abilitato, AppMeasurement confronta qualsiasi URL di collegamento selezionato con valori in [`linkInternalFilters`](linkinternalfilters.md) e [`linkExternalFilters`](linkexternalfilters.md). Se c&#39;è una corrispondenza, una chiamata di tracciamento del collegamento di uscita si attiva automaticamente.
 
-## Tracciare i collegamenti in uscita nel lancio di Adobe Experience Platform
+## Tracciare i collegamenti in uscita utilizzando i tag in Adobe Experience Platform
 
-Tieni traccia dei collegamenti in uscita è una casella di controllo nella struttura di [!UICONTROL Link Tracking] navigazione quando configuri l’estensione Adobe Analytics.
+Tieni traccia dei collegamenti in uscita è una casella di controllo nel pannello a soffietto [!UICONTROL Link Tracking] durante la configurazione dell’estensione Adobe Analytics.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-2. Fate clic sulla proprietà desiderata.
-3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante in Adobe Analytics.
-4. Espande la [!UICONTROL Link Tracking] fisarmonica, che mostra la [!UICONTROL Track outbound links] casella di controllo.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+2. Fai clic sulla proprietà desiderata.
+3. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] in Adobe Analytics.
+4. Espandi il [!UICONTROL Link Tracking] pannello a soffietto, che mostra la casella di controllo [!UICONTROL Track outbound links].
 
 Fai clic sulla casella di controllo per abilitare il tracciamento automatico dei collegamenti di uscita.
 
-## s.trackExternalLinks in AppMeasurement e Launch editor di codice personalizzato
+## s.trackExternalLinks in AppMeasurement e nell&#39;editor di codice personalizzato
 
-Il valore booleano `s.trackExternalLinks` consente o disabilita il tracciamento automatico dei collegamenti di uscita. Se non si desidera tracciare i collegamenti in uscita o se si preferisce chiamare manualmente il `tl()` metodo per tracciare i collegamenti in uscita, impostare questa variabile su `false`.
+Il valore `s.trackExternalLinks` è booleano che abilita o disabilita il tracciamento automatico dei collegamenti di uscita. Se non desideri tenere traccia dei collegamenti in uscita o preferisci chiamare manualmente il metodo `tl()` per tracciare i collegamenti in uscita, imposta questa variabile su `false`.
 
 ```js
 s.trackExternalLinks = true;
