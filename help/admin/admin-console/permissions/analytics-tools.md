@@ -2,9 +2,9 @@
 title: Autorizzazioni del profilo di prodotto per gli strumenti Analytics
 description: Utilizza gli elementi di autorizzazione degli strumenti di Analytics per concedere l’accesso alle funzioni di Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '421'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ Gli elementi di autorizzazione Strumenti di Analytics concedono l’accesso alle
 | Voce di autorizzazione degli strumenti di Analytics | Descrizione |
 |----|----|
 | [!UICONTROL Server Call Usage] | Consente l&#39;accesso ad Admin > Server Call Usage (Amministrazione > Utilizzo chiamate al server). |
-| [!UICONTROL Code Manager] | Mantenuti a scopi legacy. Consente l&#39;accesso ad Amministratore > Tutti gli amministratori > Gestione codici. Nella maggior parte dei casi, utilizza le librerie incluse nella raccolta dati di Adobe Experience Platform. |
+| [!UICONTROL Code Manager] | Mantenuti a scopi legacy. Consente l&#39;accesso ad Amministratore > Tutti gli amministratori > Gestione codici. Nella maggior parte dei casi, utilizza le librerie incluse nell’interfaccia utente di raccolta dati . |
 | [!UICONTROL Code Manager - Web Services] | Consente di accedere a Code Manager tramite l’API 1.4. |
 | [!UICONTROL Logs] | Consente l’accesso ad Amministratore > Tutti gli amministratori > Registri. |
 | [!UICONTROL Logs - Web Services] | Consente l’accesso ai registri di pull tramite l’API 1.4. |
