@@ -2,9 +2,9 @@
 title: Prima guida dell'amministratore di Adobe Analytics
 description: Scopri come iniziare a utilizzare Adobe Analytics, i tipi di ruolo generali e ad accedere all’interfaccia utente di .
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '921'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ Un primo amministratore è il punto di partenza per consentire al resto dell’o
 Se la tua organizzazione ha acquistato Adobe Analytics, ci sono diversi ruoli chiave da considerare:
 
 * **Amministratori Adobe Analytics:** questi utenti hanno accesso completo a tutto ciò che si trova in Adobe Analytics, incluse le impostazioni della suite di rapporti e le autorizzazioni per gli utenti. A seconda di come è strutturata la tua organizzazione, persone o team diversi possono essere responsabili di diversi aspetti dell’amministrazione di Analytics. Ad esempio, una persona è responsabile della designazione delle variabili da utilizzare in un’implementazione. Un’altra persona può essere responsabile di consentire agli utenti di estrarre correttamente i rapporti garantendo a tutti le autorizzazioni corrette. Identifica almeno un utente che può essere responsabile delle impostazioni della suite di rapporti di Analytics e delle autorizzazioni utente e può invitare altri amministratori di Analytics da lì.
-* **Amministratori di Adobe Experience Platform Launch:** questi utenti hanno accesso completo a tutto ciò che si trova nell’interfaccia utente di raccolta dati (precedentemente denominato Experience Platform Launch), comprese le autorizzazioni di pubblicazione, la creazione di contenitori e le autorizzazioni utente. Questi utenti non sono necessariamente programmatori, ma avere almeno una conoscenza principiante di HTML, CSS e JavaScript è utile. Sono responsabili della collaborazione con i proprietari del sito web della tua organizzazione per implementare i tag di Experience Platform sul tuo sito. Identifica almeno un utente responsabile dell&#39;implementazione della tua organizzazione e può invitare altri amministratori di Experience Platform Launch da lì.
+* **Amministratori di raccolta dati:** questi utenti hanno accesso completo a tutto ciò che si trova nell’interfaccia utente di raccolta dati (precedentemente interfaccia utente del Experience Platform Launch), comprese le autorizzazioni di pubblicazione, creazione di contenitori e autorizzazioni per gli utenti. Questi utenti non sono necessariamente programmatori, ma avere almeno una conoscenza principiante di HTML, CSS e JavaScript è utile. Sono responsabili della collaborazione con i proprietari del sito web della tua organizzazione per implementare i tag di Experience Platform sul tuo sito. Identifica almeno un utente responsabile dell&#39;implementazione della tua organizzazione e può invitare altri amministratori di raccolta dati da lì.
 * **Delegati** di supporto: Noti anche come utenti supportati, non dispongono di privilegi aggiuntivi nell’interfaccia di Analytics. Al contrario, ricevono privilegi aggiuntivi durante la comunicazione con l’Assistenza clienti Adobe. Questi utenti sono quasi sempre amministratori di Analytics, in quanto aiuta l’Assistenza clienti a risolvere i problemi con loro. Identifica almeno un amministratore di Analytics responsabile di facilitare le interazioni tra gli utenti finali e l’Assistenza clienti di Adobe.
-* **Proprietari di siti web:** Questi individui o team sono responsabili della codifica e dello sviluppo del tuo sito web. Non richiedono account, ma desiderano collaborare con gli amministratori di Experience Platform Launch per ottenere il codice di Experience Platform Launch e implementarlo sul tuo sito web.
+* **Proprietari di siti web:** Questi individui o team sono responsabili della codifica e dello sviluppo del tuo sito web. Non richiedono account, ma desiderano collaborare con gli amministratori di raccolta dati per ottenere il codice tag e implementarlo sul sito web.
 * **Utenti finali:** in genere visualizzano i rapporti e cercano risposte alle domande aziendali. Gli amministratori di Analytics concedono a questi utenti le autorizzazioni per lavorare nel prodotto.
 
 Come primo amministratore, il tuo ruolo può sovrapporsi in uno o più di questi ruoli. Se sono coperte tutte queste responsabilità di base, puoi concedere autorizzazioni per far sì che altri utenti all’interno della tua organizzazione funzionino correttamente.
@@ -44,14 +44,14 @@ Gli amministratori a livello di sistema non hanno accesso diretto ai prodotti, m
 
 L’accesso dell’amministratore di prodotto per la raccolta dati in Experience Platform è quasi identico a quello concesso all’amministratore di prodotto per Analytics.
 
-1. Accedi all&#39;Admin Console con le tue credenziali Adobe ID.
-1. Fai clic sulla scheda **[!UICONTROL Products]** in alto. Tutti i prodotti acquistati dalla tua organizzazione sono a sinistra. Fai clic su **[!UICONTROL Experience Platform Launch by Adobe]**, quindi su **[!UICONTROL New Profile]**.
-1. Assegna un nome a questo profilo &quot;Accesso amministratore completo al Experience Platform Launch&quot;, quindi fai clic su **[!UICONTROL Done]**.
+1. Accedi a [Adobe Admin Console](https://adminconsole.adobe.com) con le tue credenziali Adobe ID.
+1. Fai clic sulla scheda **[!UICONTROL Products]** in alto. Tutti i prodotti acquistati dalla tua organizzazione sono a sinistra. Fai clic su **[!UICONTROL Experience Platform Launch]**, quindi su **[!UICONTROL New Profile]**.
+1. Denomina questo profilo &#39;Data Collection full admin access&#39;, quindi fai clic su **[!UICONTROL Done]**.
 1. Nella pagina **[!UICONTROL Product Profiles]** , fai clic sul nuovo profilo creato, quindi sulla scheda **[!UICONTROL Permissions]** .
 1. Fai clic su uno degli elementi della riga delle autorizzazioni. Se è disponibile **[!UICONTROL Auto-include]**, abilitalo. Se l&#39;opzione di inclusione automatica non è disponibile, fare clic su **[!UICONTROL Add all]**. Entrambe le opzioni spostano tutti gli elementi delle autorizzazioni nella colonna a destra.
 1. Fai clic su **[!UICONTROL Save]**. Ripeti il passaggio precedente per tutte le categorie di autorizzazioni.
 1. Una volta concesse tutte le categorie di autorizzazioni al profilo, torna alla pagina Panoramica facendo clic su **[!UICONTROL Overview]** in alto.
-1. Sotto il riquadro [!UICONTROL Experience Platform Launch by Adobe], fai clic su **[!UICONTROL Assign Users]**.
+1. Sotto il riquadro [!UICONTROL Experience Platform Launch], fai clic su **[!UICONTROL Assign Users]**.
 1. Immetti l’indirizzo e-mail a cui desideri dare accesso completo ad Analytics e assegnagli il profilo di accesso completo all’amministratore appena creato. Fai clic su **[!UICONTROL Save]**.
 1. L’utente ora dispone dell’accesso completo alla raccolta dati di Experience Platform.
 
