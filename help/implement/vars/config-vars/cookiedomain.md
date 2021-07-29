@@ -2,7 +2,7 @@
 title: cookieDomain
 description: La variabile cookieDomain consente di determinare il dominio in cui impostare i cookie.
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Questa variabile deve essere utilizzata solo quando **sia** che sono soddisfatte
 
 Solo un piccolo numero di implementazioni ha utilizzato per la variabile `cookieDomain` e anche allora è possibile utilizzare variabili alternative come [`cookieDomainPeriods`](cookiedomainperiods.md).
 
-## Dominio cookie nella raccolta dati di Adobe Experience Platform
+## Dominio cookie che utilizza i tag in Adobe Experience Platform
 
 Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
 
