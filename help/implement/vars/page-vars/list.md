@@ -1,36 +1,35 @@
 ---
 title: list
 description: Variabili personalizzate che contengono più valori nello stesso hit.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
+# elenco
 
-# list
+Le variabili elenco sono variabili personalizzate che puoi utilizzare come desideri. Funzionano in modo simile alle eVar, ma possono contenere più valori nello stesso hit. Le variabili elenco non hanno un limite di caratteri.
 
-Le variabili di elenco sono variabili personalizzate che potete utilizzare come desiderate. Funzionano in modo simile alle eVar, ma possono contenere più valori nello stesso hit. Le variabili di elenco non hanno un limite di caratteri.
-
-Accertatevi di registrare come usate ciascuna variabile di elenco e la relativa logica nel documento [di progettazione della](../../prepare/solution-design.md)soluzione.
+Assicurati di registrare come utilizzi ciascuna variabile di elenco e la relativa logica nel [documento di progettazione della soluzione](../../prepare/solution-design.md).
 
 >[!NOTE]
 >
->Le variabili elenco memorizzano i 250 valori più recenti per visitatore. Se per un determinato visitatore sono presenti più di 250 valori univoci, i valori più vecchi non vengono attribuiti alle metriche.
+>Le variabili elenco memorizzano i 250 valori più recenti per visitatore. Se per un visitatore sono presenti più di 250 valori univoci, i valori meno recenti non sono attribuiti alle metriche.
 
-## Impostare le variabili dell&#39;elenco nelle impostazioni della suite di rapporti
+## Impostare le variabili elenco nelle impostazioni delle suite di rapporti
 
-Accertatevi di configurare ogni variabile dell&#39;elenco nelle impostazioni della suite di rapporti prima di utilizzarla nell&#39;implementazione. Consulta Variabili [di](/help/admin/admin/conversion-var-admin/list-var-admin.md) conversione nella guida di amministrazione.
+Assicurati di configurare ogni variabile dell’elenco nelle impostazioni della suite di rapporti prima di utilizzarla nell’implementazione. Consulta [Variabili di conversione](/help/admin/admin/conversion-var-admin/list-var-admin.md) nella guida dell&#39;amministratore.
 
-## Elenca le variabili in  Adobe Experience Platform Launch
+## Elencare le variabili utilizzando i tag in Adobe Experience Platform
 
-In Launch non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizzate l&#39;editor di codice personalizzato, seguendo la sintassi AppMeasurement.
+Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
 
-## s.list1 - s.list3 nell&#39;editor di codice personalizzato AppMeasurement e Launch
+## s.list1 - s.list3 in AppMeasurement e nell’editor di codice personalizzato
 
-Ogni variabile dell&#39;elenco è una stringa che contiene valori personalizzati specifici per l&#39;organizzazione. Non hanno un numero massimo di byte; tuttavia, ogni singolo valore ha un massimo di 255 byte. Il carattere di delimitazione utilizzato viene determinato durante la configurazione della variabile nelle impostazioni della suite di rapporti. Non utilizzate gli spazi per delimitare più elementi.
+Ogni variabile di elenco è una stringa che contiene valori personalizzati specifici dell’organizzazione. Non hanno un numero massimo di byte; tuttavia, ogni singolo valore ha un massimo di 255 byte. Il delimitatore utilizzato viene determinato quando si imposta la variabile nelle impostazioni della suite di rapporti. Non utilizzare spazi quando si delimitano più elementi.
 
 ```js
 // A list variable configured with a comma as a delimiter
@@ -39,12 +38,12 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
->Se impostate valori duplicati nello stesso hit, Adobe deduplica tutte le istanze di tali valori. Ad esempio, se impostate `s.list1 = "Example,Example";`, un&#39;istanza viene conteggiata nei report.
+>Se imposti valori duplicati nello stesso hit, Adobe deduplica tutte le istanze di tali valori. Ad esempio, se imposti `s.list1 = "Example,Example";`, nei rapporti viene conteggiata una sola istanza.
 
-## Confronta proprietà elenco con variabili elenco
+## Confrontare proprietà elenco con variabili elenco
 
-Le proprietà elenco e le variabili elenco possono contenere più valori nello stesso hit. Esistono tuttavia diverse differenze chiave tra questi due tipi di variabili.
+Le proprietà di elenco e le variabili di elenco possono contenere più valori nello stesso hit. Tuttavia, esistono diverse differenze chiave tra questi due tipi di variabili.
 
-* Qualsiasi proprietà può diventare una proprietà elenco. È possibile avere fino a 75 proprietà elenco, se ogni prop è un prop elenco. Sono disponibili solo 3 variabili elenco.
-* Le proprietà elenco hanno un limite di 100 byte per l&#39;intera variabile. Le variabili di elenco hanno un limite di 255 byte per valore e nessun limite totale di byte.
-* Le proprietà elenco non persistono oltre l’hit impostato. Le variabili elenco dispongono di un’impostazione di scadenza. Tuttavia, con l&#39;elaborazione [del tempo del](/help/components/vrs/vrs-report-time-processing.md)rapporto, potete applicare l&#39;attribuzione personalizzata sia alle proprietà dell&#39;elenco che alle variabili dell&#39;elenco.
+* Qualsiasi prop può diventare una proprietà di elenco. Puoi effettivamente avere fino a 75 proprietà elenco, se ogni proprietà è una proprietà elenco. Sono disponibili solo 3 variabili elenco.
+* Le proprietà di elenco hanno un limite di 100 byte per l&#39;intera variabile. Le variabili elenco hanno un limite di 255 byte per valore e nessun limite totale di byte.
+* Le proprietà dell’elenco non persistono oltre l’hit impostato. Le variabili elenco dispongono di un’impostazione di scadenza. Tuttavia, con l’ [elaborazione dei tempi di report](/help/components/vrs/vrs-report-time-processing.md), puoi applicare l’attribuzione personalizzata sia alle proprietà dell’elenco che alle variabili dell’elenco.
