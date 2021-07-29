@@ -2,11 +2,10 @@
 title: Serializzazione degli eventi
 description: Consente di deduplicare le metriche sul sito.
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-translation-type: tm+mt
-source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 1%
+source-wordcount: '321'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +31,11 @@ Quando si utilizzano gli ID evento, la deduplicazione avviene ai seguenti livell
 >
 >Se desideri deduplicare l’evento [`purchase`](event-purchase.md), utilizza invece la variabile [`purchaseID`](../purchaseid.md) .
 
-## Utilizzare gli ID evento in Adobe Experience Platform Launch
+## Utilizzare gli ID evento utilizzando i tag in Adobe Experience Platform
 
 Puoi impostare il campo ID evento sia durante la configurazione dell&#39;estensione Analytics (variabili globali) sia come azione in una regola.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 2. Fai clic sulla proprietà desiderata.
 3. Vai alla scheda [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
 4. In [!UICONTROL Actions], fai clic su un&#39;azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull&#39;icona &quot;+&quot;.
@@ -45,7 +44,7 @@ Puoi impostare il campo ID evento sia durante la configurazione dell&#39;estensi
 
 I valori validi sono caratteri alfanumerici di lunghezza massima di 20 byte. Se si immette un valore superiore a 20 byte, il sistema lo troncherà ai primi 20 byte.
 
-## Utilizzare gli ID evento nell’editor di codice personalizzato AppMeasurement e Launch
+## Utilizzare gli ID evento in AppMeasurement e nell’editor di codice personalizzato
 
 La serializzazione degli eventi fa parte della variabile `s.events` . Assegna un ID a ogni evento utilizzando due punti nella stringa.
 
