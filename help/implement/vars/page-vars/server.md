@@ -1,32 +1,34 @@
 ---
 title: server
-description: Compilare la dimensione "Server".
-translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+description: Popolare la dimensione "Server".
+exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 1%
 
 ---
 
-
 # server
 
-La `server` variabile memorizza in genere il nome host del sito. È comunemente utilizzata nelle suite di rapporti che contengono dati da più domini. È funzionalmente identico a un prop.
+La variabile `server` in genere memorizza il nome host del sito. Viene comunemente utilizzato nelle suite di rapporti che contengono dati di più domini. È funzionalmente identico a un prop.
 
-## Server in Adobe Experience Platform Launch
+## Server che utilizza tag in Adobe Experience Platform
 
-Puoi impostare il server sia durante la configurazione dell&#39;estensione di Analytics (variabili globali) che in base alle regole.
+Puoi impostare il server sia durante la configurazione dell’estensione Analytics (variabili globali) sia in base alle regole.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-2. Fate clic sulla proprietà desiderata.
-3. Passate alla [!UICONTROL Rules] scheda, quindi fate clic sulla regola desiderata (o create una regola).
-4. In [!UICONTROL Actions], fare clic su un&#39;azione esistente [!UICONTROL Adobe Analytics - Set Variables] o fare clic sull&#39;icona &quot;+&quot;.
-5. Impostate il [!UICONTROL Extension] menu a discesa su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
-6. Individuare la [!UICONTROL Server] sezione.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+2. Fai clic sulla proprietà desiderata.
+3. Vai alla scheda [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
+4. In [!UICONTROL Actions], fai clic su un&#39;azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull&#39;icona &quot;+&quot;.
+5. Imposta il menu a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+6. Individua la sezione [!UICONTROL Server] .
 
-È possibile impostare il server su qualsiasi valore di stringa o elemento dati.
+Puoi impostare il server su qualsiasi valore stringa o elemento dati.
 
-## s.server in AppMeasurement e Launch editor di codice personalizzato
+## s.server in AppMeasurement e nell&#39;editor di codice personalizzato
 
-La `s.server` variabile è una stringa che in genere contiene il nome host del sito. Ha un valore massimo di 100 byte; i valori più lunghi vengono troncati.
+La variabile `s.server` è una stringa che in genere contiene il nome host del sito. ha un valore massimo di 100 byte; i valori più lunghi vengono troncati.
 
 ```js
 // Set the server variable to a static string
