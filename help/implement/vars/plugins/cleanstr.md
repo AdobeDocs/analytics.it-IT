@@ -1,14 +1,13 @@
 ---
 title: cleanStr
 description: Rimuovere o sostituire tutti i caratteri non necessari da una stringa.
-translation-type: tm+mt
-source-git-commit: c1a19f79eba3e992747a14146ca93306f84b355b
+exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 2%
+source-wordcount: '526'
+ht-degree: 1%
 
 ---
-
 
 # Plug-in di Adobe: cleanStr
 
@@ -16,13 +15,13 @@ ht-degree: 2%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `cleanStr` rimuove o sostituisce tutti i caratteri non necessari da una stringa, compresi i caratteri tag HTML, i whitespaces aggiuntivi, le schede e i ritorni a capo/riga. Sostituisce anche le virgolette singole sinistre/destre (`‘` e `’`) con virgolette singole rette (`'`). Adobe consiglia di utilizzare questo plug-in se desideri rimuovere caratteri non necessari dai valori delle variabili e la funzione &quot;Testo pulito&quot; in Launch non soddisfa le tue esigenze di implementazione. Questo plug-in non è necessario se i dati raccolti non contengono caratteri non necessari o se la funzione &quot;Testo pulito&quot; in Launch è sufficiente.
+Il plug-in `cleanStr` rimuove o sostituisce tutti i caratteri non necessari da una stringa, compresi i caratteri tag HTML, i whitespaces aggiuntivi, le schede e i ritorni a capo/riga. Sostituisce anche le virgolette singole sinistre/destre (`‘` e `’`) con virgolette singole rette (`'`). L’Adobe consiglia di utilizzare questo plug-in se desideri rimuovere caratteri non necessari dai valori delle variabili e la funzione &quot;Testo pulito&quot; in Adobe Experience Platform non soddisfa le tue esigenze di implementazione. Questo plug-in non è necessario se i dati raccolti non contengono caratteri non necessari o se la funzione &quot;Testo pulito&quot; nell’interfaccia utente di raccolta dati è sufficiente.
 
-## Installare il plug-in utilizzando l’estensione Adobe Experience Platform Launch
+## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
 1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
@@ -34,11 +33,11 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
    * Tipo azione: Inizializza cleanStr
 1. Salva e pubblica le modifiche alla regola.
 
-## Installare il plug-in utilizzando l’editor di codice personalizzato di Launch
+## Installare il plug-in utilizzando l’editor di codice personalizzato
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [launch.adobe.com](https://launch.adobe.com) utilizzando le tue credenziali AdobeID.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
 1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
@@ -82,7 +81,7 @@ s.eVar1 = cleanStr(s.eVar1)
 
 ...eVar1 verrà impostato come uguale a &quot;this is a messystring&quot; (questa è una stringa di messaggio) (tutti gli spazi extra e tutti i caratteri di tabulazione rimossi)
 
-### Esempio n. 2
+### Esempio n. 3
 
 Se viene mostrato...
 
