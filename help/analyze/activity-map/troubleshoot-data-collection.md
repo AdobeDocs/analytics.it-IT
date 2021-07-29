@@ -4,7 +4,7 @@ description: Determinare il motivo per cui non è possibile visualizzare i dati 
 feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 3%
@@ -30,7 +30,7 @@ In primo luogo, assicurati che AppMeasurement raccolga correttamente i dati di A
 Per verificare che i componenti di Activity Map siano presenti, controlla ciascuno dei seguenti elementi:
 
 * **Versione** AppMeasurement: Activity Map è supportato nelle versioni v1.6 e successive. Molti problemi relativi ai casi edge vengono risolti quando esegui l’aggiornamento all’ultima versione stabile di AppMeasurement.
-* **Modulo** Activity Map: Controlla se il  `AppMeasurement_Module_Activity_Map` modulo è presente nel tuo  `AppMeasurement.js` file. Se la tua implementazione utilizza Adobe Experience Platform Data Collection (Launch), assicurati che **[!UICONTROL Enable ClickMap]** sia selezionato durante la configurazione dell’estensione Analytics in **[!UICONTROL Link tracking]**.
+* **Modulo** Activity Map: Controlla se il  `AppMeasurement_Module_Activity_Map` modulo è presente nel tuo  `AppMeasurement.js` file. Se la tua implementazione utilizza Adobe Experience Platform per raccogliere i dati, assicurati che **[!UICONTROL Enable ClickMap]** sia controllato durante la configurazione dell&#39;estensione Analytics in **[!UICONTROL Link tracking]**.
 * **Il  `s_sq` cookie**: Activity Map dipende dal  `s_sq` cookie per la raccolta dati.
    * Assicurati che la variabile `cookieDomainPeriods` sia impostata correttamente, soprattutto per i domini regionali come `*.co.uk` o `*.co.jp`.
    * Assicurati che la variabile `linkInternalFilters` sia impostata sui valori desiderati. Se un collegamento selezionato non corrisponde ai filtri interni, Activity Map lo considera un collegamento di uscita e non raccoglie dati.
