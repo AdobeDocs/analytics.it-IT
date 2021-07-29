@@ -1,42 +1,41 @@
 ---
 title: registerPreTrackCallback
-description: Create le funzioni di callback prima di inviare un hit ad Adobe.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+description: Crea funzioni di callback prima di inviare un hit ad Adobe.
+exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
 
-
 # registerPreTrackCallback
 
-La `registerPreTrackCallback` variabile consente all’organizzazione di collegare una funzione JavaScript dopo che l’URL di una richiesta di immagine è stato compilato ma prima che venga inviato. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un&#39;infrastruttura partner o interna.
+La variabile `registerPreTrackCallback` consente alla tua organizzazione di collegare una funzione JavaScript dopo che un URL di richiesta di immagine è stato compilato ma prima che venga inviato. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un partner o a un’infrastruttura interna.
 
 >[!IMPORTANT]
 >
->Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all’interno della [`registerPostTrackCallback`](registerposttrackcallback.md) variabile. Le funzioni di tracciamento di questa variabile causano un numero infinito di richieste di immagini!
+>Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all&#39;interno della variabile [`registerPostTrackCallback`](registerposttrackcallback.md). Le funzioni di tracciamento in questa variabile causano un ciclo infinito di richieste di immagini!
 
-Ogni volta che chiamate la `registerPreTrackCallback` variabile, agganciate la funzione per l’esecuzione ogni volta che viene compilato l’URL di una richiesta di immagine. Evitare di registrare la stessa funzione più volte nello stesso caricamento di pagina.
+Ogni volta che si chiama la variabile `registerPreTrackCallback`, si aggancia tale funzione per eseguire ogni volta che viene compilato un URL di richiesta di immagine. Evita di registrare la stessa funzione più volte nello stesso caricamento della pagina.
 
 >[!NOTE]
 >
->I tempi e l&#39;ordine delle funzioni attivate tra `registerPreTrackCallback` e `registerPostTrackCallback` non sono garantiti. Evitare dipendenze tra queste due funzioni.
+>La tempistica e l&#39;ordine delle funzioni attivate tra `registerPreTrackCallback` e `registerPostTrackCallback` non sono garantiti. Evita le dipendenze tra queste due funzioni.
 
-## Registra callback pre-traccia nel lancio  Adobe Experience Platform
+## Registra pre-callback utilizzando i tag in Adobe Experience Platform
 
-In Launch non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizzate l&#39;editor di codice personalizzato, seguendo la sintassi AppMeasurement.
+Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
 
-## s.registerPreTrackCallback in AppMeasurement e Avvia editor di codice personalizzato
+## s.registerPreTrackCallback in AppMeasurement e nell&#39;editor di codice personalizzato
 
-Si `s.registerPreTrackCallback` tratta di una funzione che utilizza una funzione come unico argomento. La funzione nidificata viene eseguita immediatamente prima dell&#39;invio di una richiesta di immagine.
+La funzione `s.registerPreTrackCallback` assume una funzione come unico argomento. La funzione nidificata viene eseguita immediatamente prima dell’invio di una richiesta di immagine.
 
 ```js
 s.registerPreTrackCallback(function(){/* Desired code */});
 ```
 
-Se desiderate utilizzare l&#39;URL della richiesta di immagine nel codice, fate riferimento all&#39;argomento `requestUrl` stringa all&#39;interno della funzione nidificata. È possibile analizzare la `requestUrl` variabile per l&#39;uso desiderato; la modifica di questa variabile non influisce sulla raccolta dei dati.
+Se desideri utilizzare l’URL della richiesta di immagine nel codice, fai riferimento all’argomento della stringa `requestUrl` all’interno della funzione nidificata. Puoi analizzare la variabile `requestUrl` per l’uso desiderato; la regolazione di questa variabile non influisce sulla raccolta dei dati.
 
 ```js
 s.registerPreTrackCallback(function(requestUrl){
@@ -44,7 +43,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-È possibile includere argomenti aggiuntivi nella `s.registerPreTrackCallback` funzione, utilizzabili nella funzione nidificata:
+È possibile includere argomenti aggiuntivi nella funzione `s.registerPreTrackCallback`, che possono essere utilizzati nella funzione nidificata:
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
@@ -57,4 +56,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 
 >[!NOTE]
 >
->L&#39;impostazione di variabili di pagina o la modifica della `requestUrl` stringa all&#39;interno di questa funzione **non** influiscono sulla richiesta di immagine inviata subito dopo la chiamata di questa funzione. Utilizzare invece la [`doPlugins()`](doplugins.md) variabile.
+>L&#39;impostazione delle variabili di pagina o la modifica della stringa `requestUrl` all&#39;interno di questa funzione hanno un impatto su **non** la richiesta di immagine inviata poco dopo questa chiamata di funzione. Utilizza invece la variabile [`doPlugins()`](doplugins.md) .
