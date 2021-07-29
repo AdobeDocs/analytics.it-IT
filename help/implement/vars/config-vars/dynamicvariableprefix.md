@@ -1,32 +1,34 @@
 ---
 title: dynamicVariablePrefix
 description: Consente di personalizzare la stringa che identifica le variabili dinamiche.
-translation-type: tm+mt
-source-git-commit: 03a4c0d5e080219a7fd96dff33ce122669351ac3
+exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
-
 # dynamicVariablePrefix
 
-Le variabili dinamiche sono concetti abbreviati che consentono di copiare i valori da una variabile all’altra. Sono utili per valori variabili lunghi, in quanto consentono di ridurre la lunghezza URL di una richiesta di immagine. Per ulteriori informazioni su questo concetto, consultate Variabili [](../page-vars/dynamic-variables.md) dinamiche.
+Le variabili dinamiche sono concetti abbreviati che consentono di copiare i valori da una variabile all’altra. Sono utili per valori variabili lunghi, in quanto consentono di ridurre la lunghezza dell’URL di una richiesta di immagine. Per ulteriori informazioni su questo concetto, consulta [Variabili dinamiche](../page-vars/dynamic-variables.md) .
 
-Per impostazione predefinita, le variabili dinamiche usano il prefisso `D=`. La `dynamicVariablePrefix` variabile consente di personalizzare la stringa che identifica le variabili dinamiche. Fa distinzione tra maiuscole e minuscole.
+Per impostazione predefinita, le variabili dinamiche utilizzano il prefisso `D=`. La variabile `dynamicVariablePrefix` ti consente di personalizzare la stringa che identifica le variabili dinamiche. Fa distinzione tra maiuscole e minuscole.
 
-## Prefisso variabile dinamico in Adobe Experience Platform Launch
+## Prefisso variabile dinamico tramite tag in Adobe Experience Platform
 
-Prefisso variabile dinamico è un campo situato sotto la struttura di [!UICONTROL Global Variables] navigazione durante la configurazione dell’estensione Adobe Analytics.
+Dynamic Variable Prefix è un campo sotto il pannello a soffietto [!UICONTROL Global Variables] durante la configurazione dell’estensione Adobe Analytics.
 
-1. Accedete a [launch.adobe.com](https://launch.adobe.com) utilizzando le credenziali AdobeID.
-2. Fate clic sulla proprietà desiderata.
-3. Vai alla [!UICONTROL Extensions] scheda, quindi fai clic sul [!UICONTROL Configure] pulsante in Adobe Analytics.
-4. Espandere la [!UICONTROL Global Variables] struttura a soffietto, che mostra il [!UICONTROL Dynamic Variable Prefix] campo.
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+2. Fai clic sulla proprietà desiderata.
+3. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] in Adobe Analytics.
+4. Espandi il [!UICONTROL Global Variables] pannello a soffietto, che mostra il campo [!UICONTROL Dynamic Variable Prefix] .
 
-Questo campo contiene `D=` per impostazione predefinita. È possibile modificare il valore se si desidera utilizzare un diverso prefisso di variabile dinamica. È possibile utilizzare qualsiasi valore desiderato, purché corrisponda alla codifica dei caratteri sul sito.
+Questo campo contiene `D=` per impostazione predefinita. Puoi modificare il valore se desideri utilizzare un prefisso di variabile dinamica diverso. È possibile utilizzare qualsiasi valore desiderato, purché corrisponda alla codifica dei caratteri sul sito.
 
-## s.dynamicVariablePrefix nell&#39;editor di codice personalizzato AppMeasurement e Launch
+## s.dynamicVariablePrefix in AppMeasurement e nell&#39;editor di codice personalizzato
 
-La `s.dynamicVariablePrefix` variabile è una stringa che può contenere qualsiasi sequenza di caratteri. Se questa variabile non è definita, AppMeasurement utilizza la stringa `D=` per impostazione predefinita.
+La variabile `s.dynamicVariablePrefix` è una stringa che può contenere qualsiasi sequenza di caratteri. Se questa variabile non è definita, AppMeasurement utilizza la stringa `D=` per impostazione predefinita.
 
 ```js
 // An example that changes the dynamic variable prefix
