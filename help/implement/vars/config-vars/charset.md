@@ -2,9 +2,9 @@
 title: charSet
 description: La variabile charSet determina quale Adobe di codifica utilizza per analizzare la richiesta di immagine.
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '192'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,7 @@ Imposta questa variabile solo se nei rapporti sono presenti valori non elaborati
 
 Il set di caratteri è un campo sotto il pannello a soffietto [!UICONTROL General] durante la configurazione dell’estensione Adobe Analytics.
 
-1. Vai a `experience.adobe.com` e accedi quando richiesto.
-1. Select [!UICONTROL Launch / Data Collection].
-1. Fare clic su [!UICONTROL Go to Launch / Data Collection], quindi selezionare [!UICONTROL Tags].
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] in Adobe Analytics.
 1. Espandi il [!UICONTROL General] pannello a soffietto, che mostra il campo [!UICONTROL Character Set] .
