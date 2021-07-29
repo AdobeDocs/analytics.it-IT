@@ -2,10 +2,10 @@
 title: cookieLifetime
 description: Ignorare la scadenza dei cookie creati da AppMeasurement.
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 1%
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +17,11 @@ I cookie impostati da AppMeasurement hanno in genere una scadenza di 2 anni. Uti
 >
 >Questa variabile influisce sui conteggi e sull’attribuzione dei visitatori univoci. Presta attenzione quando imposti questa variabile.
 
-## Durata dei cookie nei tag Adobe Experience Platform
+## Durata dei cookie tramite tag in Adobe Experience Platform
 
 La funzione Cookie Lifetime è un menu a discesa nel pannello a soffietto [!UICONTROL Cookies] durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Vai a `experience.adobe.com` e accedi quando richiesto.
-1. Select [!UICONTROL Launch / Data Collection].
-1. Fare clic su [!UICONTROL Go to Launch / Data Collection], quindi selezionare [!UICONTROL Tags].
+1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] in Adobe Analytics.
 1. Espandi il [!UICONTROL Cookies] pannello a soffietto, che mostra il menu a discesa [!UICONTROL Cookie Lifetime].
@@ -35,7 +33,7 @@ Questo elenco a discesa contiene i seguenti valori:
 * **Sessione**: Il cookie scade alla fine della sessione del visitatore.
 * **Secondi**: Il cookie scade dopo che è trascorso il numero specificato di secondi. Ad esempio, se imposti questo menu a discesa su [!UICONTROL Seconds] e inserisci `86400` nel campo personalizzato, i cookie scadranno esattamente dopo 24 ore.
 
-## s.cookieLifetime nell&#39;editor di codice personalizzato AppMeasurement e Data Collection
+## s.cookieLifetime in AppMeasurement e nell&#39;editor di codice personalizzato
 
 La variabile `s.cookieLifetime` è una stringa che determina la data di scadenza dei cookie impostati da AppMeasurement.
 
