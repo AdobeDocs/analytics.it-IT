@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
    + [Pubblicazione Widget](admin/publishing-widgets-admin.md)
    + [Preferenze Manager](admin/preferences-manager.md)
    + [Impostazioni privacy](admin/privacy-settings.md)
-   + [Impostazioni privacy](admin/privacy-reporting.md)
+   + [Rapporti sulla privacy](admin/privacy-reporting.md)
    + Regole di elaborazione {#processing-rules}
       + [Panoramica sulle regole di elaborazione](admin/c-processing-rules/processing-rules.md)
       + Configurazione delle regole di elaborazione {#processing-rules-configuration}
