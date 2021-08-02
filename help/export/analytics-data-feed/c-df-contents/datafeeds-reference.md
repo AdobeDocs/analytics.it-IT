@@ -6,10 +6,9 @@ title: Riferimento colonna dati
 feature: Nozioni di base su Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3409'
 ht-degree: 3%
 
 ---
@@ -33,7 +32,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `accept_language` | Elenca tutte le lingue accettate, come indicato nell&#39;intestazione HTTP Accept-Language in una richiesta di immagine. | char(20) |
 | `aemassetid` | Variabile multivalore corrispondente ai GUID (Asset ID) di un set di Adobe Experience Manager Assets. Incrementa gli eventi di impression. | text |
 | `aemassetsource` | Identifica l’origine dell’evento risorsa. Utilizzato in Adobe Experience Manager. | varchar(255) |
-| `aemclickedassetid` | ID risorsa di una risorsa Adobe Experience Manager. Incrementa gli eventi di clic. | varchar(255) |
+| `aemclickedassetid` | ID risorsa di Adobe Experience Manager. Incrementa gli eventi di clic. | varchar(255) |
 | `browser` | ID numerico del browser. Fa riferimento alla tabella di ricerca `browser.tsv` . | int senza segno |
 | `browser_height` | Altezza in pixel della finestra del browser. | piccolo senza segno |
 | `browser_width` | Larghezza in pixel della finestra del browser. | piccolo senza segno |
@@ -82,7 +81,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `geo_country` | Abbreviazione del paese da cui proviene l&#39;hit, basata su IP. | char(4) |
 | `geo_dma` | ID numerico dell’area demografica da cui proviene l’hit, basato su IP. Utilizzato nella dimensione [US DMA](/help/components/dimensions/us-dma.md). | int senza segno |
 | `geo_region` | Nome dello stato o della regione da cui proviene l’hit, in base all’IP. Utilizzato nella dimensione [Regioni](/help/components/dimensions/regions.md). | char(32) |
-| `geo_zip` | Il codice postale da cui proviene l&#39;hit, basato su IP. Consente di popolare la dimensione [Codice postale](/help/components/dimensions/zip-code.md). Vedi anche `zip`. | varchar(16) |
+| `geo_zip` | Il codice postale da cui proviene l&#39;hit, basato su IP. Consente di popolare la dimensione [Codice postale](/help/components/dimensions/zip-code.md). Consulta anche `zip`. | varchar(16) |
 | `hier1 - hier5` | Utilizzato da variabili gerarchiche. Contiene un elenco delimitato di valori. Il delimitatore viene selezionato nelle impostazioni della suite di rapporti. | varchar(255) |
 | `hit_source` | Indica da quale origine proviene l&#39;hit. Le fonti di hit 1, 2 e 6 vengono fatturate. <br>1: Richiesta immagine standard senza timestamp  <br>2: Richiesta immagine standard con timestamp  <br>3: Caricamento origine dati in tempo reale con timestamp  <br>4: Non utilizzato  <br>5: Caricamento origine dati generica  <br>6: Caricamento origine dati elaborazione completa  <br>7: Caricamento origine dati TransactionID  <br>8: Non più utilizzato; Versioni precedenti di origini dati Adobe Advertising Cloud  <br>9: Non più utilizzato; Metriche di riepilogo di Adobe Social  <br>10: Audience Manager inoltro lato server utilizzato | tinyint senza segno |
 | `hit_time_gmt` | La marca temporale dei server di raccolta dati di Adobe di hit ha ricevuto l&#39;hit, in base all&#39;ora Unix. | int |
@@ -275,11 +274,11 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `visit_referrer` | Il primo referente della visita. | varchar(255) |
 | `visit_search_engine` | ID numerico del primo motore di ricerca della visita. Utilizza la ricerca `search_engines.tsv`. | piccolo senza segno |
 | `visit_start_page_url` | Il primo URL della visita. | varchar(255) |
-| `visit_start_pagename` | Nome pagina della visita. | varchar(100) |
+| `visit_start_pagename` | Il valore Nome pagina nel primo hit della visita. | varchar(100) |
 | `visit_start_time_gmt` | Timestamp (in tempo Unix) del primo hit della visita. | int |
 | `weekly_visitor` | Flag per determinare se l’hit è un nuovo visitatore settimanale. | tinyint senza segno |
 | `yearly_visitor` | Flag per determinare se l’hit è un nuovo visitatore annuale. | tinyint senza segno |
-| `zip` | Consente di popolare la dimensione [Codice postale](/help/components/dimensions/zip-code.md). Vedi anche `geo_zip`. | varchar(50) |
+| `zip` | Consente di popolare la dimensione [Codice postale](/help/components/dimensions/zip-code.md). Consulta anche `geo_zip`. | varchar(50) |
 
 ## Colonne vuote
 
