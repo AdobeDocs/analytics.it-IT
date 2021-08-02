@@ -2,9 +2,9 @@
 title: getNewRepeat
 description: Tracciare l’attività dei visitatori nuovi rispetto a quelli ripetuti.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -69,42 +69,42 @@ Questo plug-in utilizza un cookie denominato `"s_nr[LENGTH]"` in cui `[LENGTH]` 
 
 ### Esempio n. 1
 
-Il codice seguente imposterà s.eVar1 uguale al valore di &quot;Nuovo&quot; per i nuovi visitatori e continuerà a impostare s.eVar1 uguale al valore di &quot;Nuovo&quot; (con ogni nuova chiamata) per tutto il resto della visita del visitatore al sito.
+Il codice seguente imposta `eVar1` sul valore di `"New"` per i nuovi visitatori e continua a impostare `eVar1` sul valore di `"New"` (con ogni nuova chiamata) per tutto il resto della visita del visitatore al sito.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### Esempio n. 2
 
-Se il visitatore ritorna al sito in qualsiasi momento da 31 minuti a 30 giorni dall&#39;ultima chiamata a s.getNewRepeat(), il codice seguente imposta s.eVar1 uguale al valore di &quot;Repeat&quot; e continuerà a impostare s.eVar1 uguale al valore di &quot;Repeat&quot; (con ogni nuova chiamata) per tutto il resto della visita del visitatore al sito.
+Se il visitatore ritorna al sito in qualsiasi momento da 31 minuti a 30 giorni dall&#39;ultima chiamata di `getNewRepeat()` , il codice seguente imposta `eVar1` sul valore di `"Repeat"` e continua a impostare `eVar1` sul valore di `"Repeat"` (con ogni nuova chiamata) per tutto il resto della visita del visitatore al sito.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
-### Esempio n. 3
+### Esempio n. 2
 
-Se il visitatore non è stato sul sito per almeno 30 giorni dall&#39;ultima chiamata a s.getNewRepeat(), il codice seguente imposterà s.eVar1 uguale al valore di &quot;New&quot; e continuerà a impostare s.eVar1 uguale al valore di &quot;New&quot; (con ogni nuova chiamata) per tutto il resto della visita del visitatore al sito.
+Se il visitatore non è stato sul sito per almeno 30 giorni dall&#39;ultima chiamata di `getNewRepeat()` , il seguente codice imposta `eVar1` sul valore di `"New"` e continua a impostare `eVar1` sul valore di `"New"` (con ogni nuova chiamata) per tutto il resto della visita del visitatore al sito.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### Esempio n. 4
 
-Se il visitatore ritorna al sito in qualsiasi momento 31 minuti a 365 giorni (cioè 1 anno) dall&#39;ultima chiamata a s.getNewRepeat(), il seguente codice imposta s.eVar1 uguale al valore di &quot;Repeat&quot; e continuerà a impostare s.eVar1 uguale al valore di &quot;Repeat&quot; (con ogni nuova chiamata) per tutto il resto del visitatore. Visita al sito.
+Se il visitatore ritorna al sito in qualsiasi momento da 31 minuti a 365 giorni (cioè 1 anno) dall&#39;ultima chiamata di `getNewRepeat()`, il codice seguente imposta `eVar1` sul valore di `"Repeat"` e continua a impostare `eVar1` sul valore di `"Repeat"` (con ogni nuova chiamata) per tutto il resto della visita del visitatore al sito.
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ### Esempio n. 5
 
-Se il visitatore non è stato sul sito per almeno 365 giorni (cioè 1 anno) dall&#39;ultima chiamata a s.getNewRepeat(), il seguente codice imposterà s.eVar1 uguale al valore di &quot;Nuovo&quot; e continuerà a impostare s.eVar1 uguale al valore di &quot;Nuovo&quot; (con ogni nuova chiamata) per tutto il resto della visita del visitatore. al sito.
+Se il visitatore non è stato sul sito per almeno 365 giorni (cioè 1 anno) dall&#39;ultima chiamata di `getNewRepeat()`, il codice seguente imposta `eVar1` sul valore di `"New"` e continua a impostare `eVar1` sul valore di `"New"` (con ogni nuova chiamata) per tutto il resto della visita del visitatore al sito.
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ## Cronologia versioni
