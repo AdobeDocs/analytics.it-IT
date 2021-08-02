@@ -2,10 +2,10 @@
 description: Scopri quando e perché i connettori dati di Analytics termineranno.
 title: Annuncio preliminare alla fine del ciclo di vita per i connettori dati di Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
+source-git-commit: 711020fc00aaaf546b2daf343c28634f7a693b50
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 9%
+source-wordcount: '667'
+ht-degree: 8%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 Per più di un decennio, Adobe Analytics intende fornire la soluzione web e di analisi di marketing all’avanguardia per soddisfare le esigenze dei clienti. Con l&#39;evolversi delle esigenze tecnologiche e aziendali, ci sforziamo di offrire e soddisfare costantemente gli standard più elevati.  Sfortunatamente, le API che alimentano questa integrazione non soddisfano più questi standard e non sono sostenibili nella moderna infrastruttura tecnologica Adobe Analytics.
 
-**A partire dal 1° agosto 2021**, Adobe intende interrompere le integrazioni dei Data Connectors. La fine del ciclo di vita fa parte del ciclo di vita di qualsiasi prodotto tecnologico e l&#39;Adobe mira a rendere la transizione il più semplice possibile per i nostri clienti e partner. Molte di queste integrazioni sono disponibili tramite Adobe Exchange e possono continuare a essere utilizzate.
+**A partire dal 1° agosto 2021**, Adobe ha interrotto le integrazioni dei Data Connectors. La fine del ciclo di vita fa parte del ciclo di vita di qualsiasi prodotto tecnologico e l&#39;Adobe mira a rendere la transizione il più semplice possibile per i nostri clienti e partner. Molte di queste integrazioni sono disponibili tramite Adobe Exchange e possono continuare a essere utilizzate.
 
 ## Perché terminiamo questa funzione?
 
@@ -30,6 +30,8 @@ A ogni azienda che fornisce un&#39;integrazione è stata data la possibilità di
 Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 
 ## Stato del partner del connettore dati
+
+*Ultimo aggiornamento: 2 agosto 2021 (Hootsuite)*
 
 | Partner | Stato |
 | --- | --- |
@@ -74,7 +76,7 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 | Fiksu | Obsolescenza |
 | Foresee (v2.0), Foresee Feedback, Foresee Results | Obsolescenza |
 | Giga | Obsolescenza |
-| Hootsuite | Obsolescenza |
+| Hootsuite | Migrazione a Exchange |
 | ibrido | Obsolescenza |
 | Analisi del feedback di Kampyle (ora Medallia) (1.1) | Obsolescenza |
 | Listrak | Migrazione a Exchange |
