@@ -2,9 +2,9 @@
 title: products
 description: Invia i dati relativi ai prodotti visualizzati o contenuti nel carrello.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ La variabile `products` traccia i prodotti e le proprietà ad essi associate. Qu
 
 >[!NOTE]
 >
->Se questa variabile viene impostata in un hit senza un evento del carrello nella variabile [`events`](events/events-overview.md) , la metrica [Visualizzazioni prodotto](/help/components/metrics/product-views.md) incrementa di 1. Assicurati di impostare l&#39;evento del carrello acquisti appropriato su ogni hit con la variabile `products` .
+>Se questa variabile viene impostata in un hit senza la variabile [`events`](events/events-overview.md) , la metrica [Visualizzazioni prodotto](/help/components/metrics/product-views.md) incrementa di 1. Assicurati di impostare gli eventi appropriati per ogni hit con la variabile `products` .
 
 ## Prodotti che utilizzano i tag in Adobe Experience Platform
 
