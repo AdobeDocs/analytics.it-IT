@@ -1,14 +1,13 @@
 ---
 title: Unione basata sui campi
 description: Comprendi i prerequisiti e le limitazioni dell’unione di dati utilizzando l’unione basata sui campi.
-translation-type: tm+mt
-source-git-commit: beed7ffcc39b9b2628b1487b5e2eac42fa3a94d0
+exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
+source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
 
 ---
-
 
 # Unione basata sui campi
 
