@@ -1,26 +1,25 @@
 ---
-description: La funzione Rilevamento ricerca a pagamento differenzia le ricerche naturali nei report Motori di ricerca e Parole chiave di ricerca. Puoi specificare i motori di ricerca in cui utilizzi gli annunci a pagamento e specificare una stringa di caratteri trovata nell’URL di una visita da un annuncio a pagamento.
+description: 'La funzione Rilevamento ricerca a pagamento differenzia le ricerche naturali nei report Motori di ricerca e Parole chiave di ricerca. '
 title: Rilevamento di ricerca a pagamento
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: b88f9d373d715b295dc4982a6ee05bd982f5bae7
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 5%
+source-wordcount: '173'
+ht-degree: 6%
 
 ---
 
 # Rilevamento di ricerca a pagamento
 
-La funzione Rilevamento ricerca a pagamento differenzia le ricerche naturali nei report Motori di ricerca e Parole chiave di ricerca. Puoi specificare i motori di ricerca in cui utilizzi gli annunci a pagamento e specificare una stringa di caratteri trovata nell’URL di una visita da un annuncio a pagamento.
+[!UICONTROL Paid Search Detection] si distingue dalle ricerche naturali nelle  [!UICONTROL Search Engines] e nelle  [!UICONTROL Search Keywords] relazioni. Puoi specificare i motori di ricerca in cui utilizzi gli annunci a pagamento e specificare una stringa di caratteri trovata nell’URL di una visita da un annuncio a pagamento.
 
-## Rilevamento ricerca a pagamento - Descrizioni {#section_0C2CFA0AF77B47098BE37CB024665D0D}
+## Opzioni di configurazione {#section_0C2CFA0AF77B47098BE37CB024665D0D}
 
 Nella tabella seguente sono descritti i campi e le opzioni utilizzati per [configurare il rilevamento di ricerche a pagamento](/help/admin/admin/paid-search-detection/t-paid-search-detection.md).
 
-| Elementi | Descrizione |
-|--- |--- |
-| Motore di ricerca | Seleziona un motore di ricerca dall’elenco a discesa. È possibile specificare il motore se si utilizzano parametri di stringa di query diversi per motori di ricerca diversi. Di solito, il valore Any è sufficiente. |
-| Stringa di query | Specifica una regola sensibile a maiuscole e minuscole impostata in modo da contenere o meno un valore specifico. Questo valore deve essere il parametro della stringa query, omettendo &quot;?&quot;. <br>**Nota**: Il rilevamento di ricerche a pagamento è sensibile a maiuscole e minuscole. Ad esempio, una regola che specifica PID come parametro di stringa query non visualizza pid nel reporting. Se l&#39;organizzazione utilizza casi misti, inserisci i valori esatti come regole separate, in modo che tutti i parametri della stringa di query desiderati possano essere rilevati.</br> |
+| Opzione | Descrizione |
+| --- | --- |
+| [!UICONTROL Search Engine] | Seleziona un motore di ricerca dall’elenco a discesa. È possibile specificare il motore se si utilizzano parametri di stringa di query diversi per motori di ricerca diversi. Di solito, il valore `Any` è sufficiente. |
+| [!UICONTROL Query string] | Specifica una stringa per una corrispondenza sensibile a maiuscole e minuscole con qualsiasi parte del parametro della stringa query, che è la parte dell&#39;url dopo il &quot;?&quot;. <br>**Nota**:  [!UICONTROL Paid Search Detection] fa distinzione tra maiuscole e minuscole. Ad esempio, una regola che specifica &quot;PID&quot; come parametro di stringa query non corrisponderà a &quot;pid&quot;. Se l’organizzazione utilizza casi misti, inserisci i valori esatti come regole separate, in modo che tutti i parametri della stringa di query desiderati possano essere rilevati. |
