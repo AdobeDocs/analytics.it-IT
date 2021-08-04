@@ -1,23 +1,26 @@
 ---
-title: Visite di una singola pagina
-description: Il numero di volte in cui l'elemento dimensione 'Pagina' non è stato modificato in una visita.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+title: Visite a pagina singola
+description: Il numero di volte in cui l’elemento della dimensione "Pagina" non è stato modificato in una visita.
+exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
+source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 10%
 
 ---
 
+# Visite a pagina singola
 
-# Visite di una singola pagina
+*Questa pagina di aiuto descrive il funzionamento di &quot;visite a pagina singola&quot; come metrica. Per ulteriori informazioni, consulta la dimensione [Visite a pagina singola](../dimensions/single-page-visits.md) .*
 
-*Questa pagina della guida descrive il funzionamento delle &quot;visite a pagina singola&quot; come metrica. Per ulteriori informazioni, consulta la dimensione visite[a pagina](../dimensions/single-page-visits.md)singola.*
+La metrica [!UICONTROL Single page visits] mostra il numero di visite in cui l’elemento della dimensione [Pagina](../dimensions/page.md) conteneva un solo valore univoco per l’intera visita. Questa metrica è utile nel contesto delle dimensioni in cui desideri visualizzare visite brevi, ma non ha lo stesso rigore di una regola di quanto fa [[!UICONTROL Bounces]](bounces.md).
 
-La metrica &quot;Visite a pagina singola&quot; mostra il numero di visite in cui l’elemento dimensione [Pagina](../dimensions/page.md) conteneva un solo valore univoco per l’intera visita. Questa metrica è utile nel contesto delle dimensioni in cui si desidera visualizzare visite brevi, ma non ha regole altrettanto rigorose [dei rimbalzi](bounces.md).
+## Calcolo di questa metrica
 
-## Modalità di calcolo di questa metrica
+Questa metrica conta il numero di visite in cui l’elemento della dimensione [!UICONTROL Page] conteneva un solo valore univoco per l’intera visita. Se un visitatore ricarica la pagina o genera chiamate di tracciamento dei collegamenti, conteggia comunque come visita a una sola pagina. Non appena la dimensione Pagina diventa un secondo valore univoco, la visita non sarà più qualificata come visita a una sola pagina.
 
-Questa metrica conta il numero di visite in cui l’elemento dimensione &#39;Pagina&#39; conteneva solo un valore univoco per l’intera visita. Se un visitatore ricarica la pagina o attiva le chiamate di tracciamento dei collegamenti, continua a conteggiare come visita a una sola pagina. Non appena la dimensione Pagina diventa un secondo valore univoco, la visita non si qualifica più come visita a una singola pagina.
+Per un confronto tra metriche, consulta [Accesso singolo](single-access.md) .
 
-Consulta Accesso [](single-access.md) singolo per un confronto tra metriche.
+## Conta istanze ripetute
+
+Questa impostazione consente di specificare se le istanze ripetute vengono conteggiate nei rapporti. Per ulteriori informazioni, consulta [Contare istanze ripetute](/help/components/metrics/count-repeat-instances.md).
