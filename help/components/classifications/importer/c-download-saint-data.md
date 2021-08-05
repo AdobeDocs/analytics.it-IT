@@ -2,12 +2,11 @@
 description: (Facoltativo) Prima di importare le classificazioni nei rapporti di marketing, puoi scaricare un modello che ti aiuta a creare un file di dati delle classificazioni. Il file di dati utilizza le classificazioni desiderate come intestazioni di colonna, quindi organizza il set di dati di reporting sotto le intestazioni di classificazione appropriate.
 subtopic: Classifications
 title: Modello di classificazione
-feature: Admin Tools
+feature: Strumenti di amministrazione
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '344'
 ht-degree: 6%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 6%
 
 # Modello di classificazione
 
-(Facoltativo) Prima di importare le classificazioni nei rapporti di marketing, puoi scaricare un modello che ti aiuta a creare un file di dati delle classificazioni. Il file di dati utilizza le classificazioni desiderate come intestazioni di colonna, quindi organizza il set di dati di reporting sotto le intestazioni di classificazione appropriate.
+(Facoltativo) Prima di importare le classificazioni in rapporti e progetti, puoi scaricare un modello che ti aiuta a creare un file di dati delle classificazioni. Il file di dati utilizza le classificazioni desiderate come intestazioni di colonna, quindi organizza il set di dati di reporting sotto le intestazioni di classificazione appropriate.
 
 ## Modello di classificazione {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
@@ -24,10 +23,11 @@ ht-degree: 6%
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 | Elemento | Descrizione |
-|---|---|
+| --- | ---|
 | Seleziona suite di rapporti | Seleziona la suite di rapporti da utilizzare nel modello. La suite di rapporti e il set di dati devono corrispondere. |
 | Set di dati da classificare | Selezionare il tipo di dati per il file di dati. Il menu include tutti i rapporti nelle suite di rapporti configurati per le classificazioni. |
-| Codifica | Selezionare la codifica dei caratteri per il file di dati. Il formato di codifica predefinito è UTF-8. |
+| Esporta numerico 2 | **Importante**: Questa opzione non è disponibile per le suite di rapporti abilitate per la nuova architettura di classificazione. |
+| Codifica | Selezionare la codifica dei caratteri per il file di dati. Il formato di codifica predefinito è UTF-8.<br>**Importante**: Questa opzione non è disponibile per le suite di rapporti abilitate per la nuova architettura di classificazione. |
 | Scarica | Scarica il file modello. |
 
 Il modello include le classificazioni (intestazioni di colonna) attualmente definite di un set di dati specifico senza includere i dati associati a ciascuna classificazione.
@@ -38,7 +38,7 @@ Il modello include le classificazioni (intestazioni di colonna) attualmente defi
 
 Per ulteriori informazioni sulla struttura del file di dati, consulta [Informazioni sui file di dati di classificazione](/help/components/classifications/importer/c-saint-data-files.md).
 
-## Scarica un modello di dati di classificazione (facoltativo) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
+## Scaricare un modello di dati di classificazione (facoltativo) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
 Il modello fornisce il formato di file da seguire per le classificazioni.
 
