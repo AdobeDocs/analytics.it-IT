@@ -4,10 +4,10 @@ subtopic: Classifications
 title: File di dati di classificazione
 feature: Strumenti di amministrazione
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 99%
+source-wordcount: '1736'
+ht-degree: 98%
 
 ---
 
@@ -178,6 +178,9 @@ Le [!UICONTROL Classifications], possono essere utilizzate per assegnare interva
 * L’intervallo di date interessato deve contenere una data di inizio e (facoltativamente) una data di fine.
 
 Per classificare le campagne in base all’intervallo di date:
+
+>[!IMPORTANT]
+>Questa opzione non è disponibile per le suite di rapporti abilitate per la nuova architettura di classificazione.
 
 1. Accedi a [!DNL Analytics] e vai su Amministratore > Classificazioni.
 1. Fai clic sulla scheda **[!UICONTROL Browser Export]**, verifica che le impostazioni della classificazione con data abilitata siano corrette e fai clic su Esporta file.
