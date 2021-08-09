@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: Gestire i canali di marketing
 feature: Nozioni di base su Reports & Analytics
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -62,7 +62,7 @@ Aggiungi canali di marketing in Marketing Channel Manager.
 
    Consulta [Creare regole di elaborazione per il canale di marketing](/help/components/c-marketing-channels/c-rules.md).
 
-## Applica le impostazioni del canale {#mktg-channel-mgr}
+## Applicare le impostazioni del canale {#mktg-channel-mgr}
 
 Puoi applicare diverse impostazioni a ogni canale della pagina [!UICONTROL Marketing Channel Manager] .
 
