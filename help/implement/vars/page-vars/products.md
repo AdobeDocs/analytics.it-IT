@@ -2,9 +2,9 @@
 title: products
 description: Invia i dati relativi ai prodotti visualizzati o contenuti nel carrello.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
+source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ Puoi utilizzare una di queste estensioni, oppure puoi utilizzare l&#39;editor di
 
 ## s.products in AppMeasurement e nell’editor di codice personalizzato
 
-La variabile `s.products` è una stringa che contiene più campi delimitati per prodotto. Ogni singolo prodotto può contenere fino a 100 byte in tutti i campi. Delimitare ogni campo con un punto e virgola (`;`) nella stringa.
+La variabile `s.products` è una stringa che contiene più campi delimitati per prodotto. Delimitare ogni campo con un punto e virgola (`;`) nella stringa.
 
-* **Categoria**  (facoltativo): La categoria di prodotto principale. La tua organizzazione decide come raggruppare i prodotti in categorie.
-* **Nome**  del prodotto (obbligatorio): Nome del prodotto.
+* **Categoria**  (facoltativo): La categoria di prodotto principale. La tua organizzazione decide come raggruppare i prodotti in categorie. La lunghezza massima per questo campo è di 100 byte.
+* **Nome**  del prodotto (obbligatorio): Nome del prodotto. La lunghezza massima per questo campo è di 100 byte.
 * **Quantità**  (facoltativo): Quanti di questi prodotti sono nel carrello. Questo campo si applica solo agli hit con l’evento di acquisto.
 * **Prezzo**  (facoltativo): Prezzo totale del prodotto come decimale. Se la quantità è superiore a uno, impostare il prezzo sul totale e non sul prezzo del singolo prodotto. Allinea la valuta di questo valore in modo che corrisponda alla variabile [`currencyCode`](../config-vars/currencycode.md) . Non includere il simbolo di valuta in questo campo. Questo campo si applica solo agli hit con l’evento di acquisto.
 * **Eventi**  (facoltativo): Eventi legati al prodotto. Delimitare più eventi con una barra verticale (`|`). Per ulteriori informazioni, consulta [eventi](events/events-overview.md) .
@@ -44,11 +44,11 @@ La variabile `s.products` è una stringa che contiene più campi delimitati per 
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Questa variabile supporta più prodotti nello stesso hit. È utile per il carrello e gli acquisti contenenti più prodotti. Mentre per prodotto esiste un limite di 100 byte, la lunghezza totale della variabile `products` è di 64 K. Separa ogni prodotto con una virgola (`,`) nella stringa .
+Questa variabile supporta più prodotti nello stesso hit. È utile per il carrello e gli acquisti contenenti più prodotti. La lunghezza massima per l&#39;intera stringa `products` è 64K. Separa ogni prodotto con una virgola (`,`) nella stringa .
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
+s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]
@@ -99,11 +99,11 @@ s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;e
 Se si utilizza il `digitalData` [livello dati](../../prepare/data-layer.md), è possibile eseguire iterazioni attraverso l&#39;array di oggetti `digitalData.product`:
 
 ```js
-for(var i=0; i<digitalData.product.length; i++) {
+for(var i = 0; i < digitalData.product.length; i++) {
     // Add individual product info to the product string
     s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
     // If there are more products, add a comma
-    if(i != digitalData.product.length-1) {
+    if(i != digitalData.product.length - 1) {
         s.products += ",";
     }
 }
