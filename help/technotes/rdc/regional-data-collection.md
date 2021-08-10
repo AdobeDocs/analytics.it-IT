@@ -1,61 +1,59 @@
 ---
 title: Raccolta di dati regionali
 description: Informazioni sulla raccolta di dati regionali
-translation-type: tm+mt
-source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
+exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
+source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
 
-
 # Raccolta di dati regionali
 
-Adobe Experience Cloud utilizza la raccolta dati regionale (RDC) in modo che le interazioni tra gli utenti finali e Adobe Experience Cloud avvengano il più possibile vicino ai tuoi utenti finali. Questo migliora le prestazioni del sito e dell&#39;app e garantisce che i dati vengano raccolti il più rapidamente possibile per ottimizzare l&#39;esperienza dell&#39;utente finale. Una volta raccolti i dati delle proprietà digitali a livello regionale in un centro di raccolta dati (DCC), questi vengono inoltrati attraverso una connessione protetta a un centro di elaborazione dati (DPC), dove vengono elaborati e resi disponibili per i prodotti Adobe Experience Cloud.
+Adobe Experience Cloud utilizza la raccolta di dati regionali (RDC) in modo che le interazioni tra gli utenti finali e Adobe Experience Cloud si verifichino il più vicino possibile agli utenti finali. Questo migliora le prestazioni del sito/app e assicura che i dati vengano raccolti il più rapidamente possibile per ottimizzare l’esperienza dell’utente finale. Una volta raccolti i dati dalle proprietà digitali a livello regionale in un Data Collection Center (DCC), questi vengono inoltrati tramite una connessione protetta a un Data Processing Center (DPC) in cui vengono elaborati e resi disponibili ai prodotti in Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
->Il pacchetto aggiuntivo China RDC (China Performance Optimization) è un componente aggiuntivo caricabile per  Adobe Analytics.  Ottimizzazione delle prestazioni del Adobe in Cina continentale consente ai clienti cinesi di inviare dati direttamente al nodo Edge China, anziché ad altre posizioni a livello globale. Questo migliora i tempi di caricamento delle pagine e la precisione dei dati rispetto all&#39;invio dei dati a nodi esterni alla Cina. Per ulteriori informazioni, contattare il rappresentante commerciale  Adobe.
+>Il pacchetto aggiuntivo China RDC (China Performance Optimization) è un componente aggiuntivo a pagamento per Adobe Analytics. L’ottimizzazione delle prestazioni di Adobe nella Cina continentale consente ai clienti in Cina di inviare dati direttamente al nodo Edge Cina, anziché in altre aree a livello globale. Questo migliora i tempi di caricamento delle pagine e la precisione dei dati rispetto all’invio dei dati a nodi al di fuori della Cina. Per ulteriori informazioni, contattare il rappresentante commerciale Adobe.
 
 RDC attualmente include le seguenti posizioni (soggette a modifica):
 
 ## Raccolta di dati HTTP e di terze parti
 
-| RDC Type | Centri di raccolta dati |
+| Tipo RDC | Centri di raccolta dati |
 |---------------------|-------------------|
 | impostazione predefinita | Oregon, Virginia, Irlanda, Parigi, Mumbai, Singapore, Tokyo, Sydney, Cina* |
 
-Nota: Se la tua richiesta di immagine Analytics viene inviata agli `adobedc`, `2o7.net` o `omtrdc.net` agli endpoint, hai a disposizione una raccolta dati di terze parti. Potete determinare questo valore se visualizzate uno degli endpoint nell&#39;URL delle richieste.
+Nota: Se la richiesta di immagine di Analytics viene inviata agli endpoint `adobedc`, `2o7.net` o `omtrdc.net`, avrai a disposizione una raccolta dati di terze parti. Puoi determinarlo se vedi uno degli endpoint nell&#39;URL delle richieste.
 
-*China RDC richiede il pacchetto China Add-On. Vedi la nota &quot;Importante&quot; sopra.
+*China RDC richiede il pacchetto aggiuntivo Cina. Vedi la nota &quot;Importante&quot; sopra.
 
 ## Raccolta dati HTTPS di prime parti
 
-| RDC Type | Centri di raccolta dati |
+| Tipo RDC | Centri di raccolta dati |
 |---------------------|-------------------|
 | Globale (predefinito) | Oregon, Virginia, Irlanda, Parigi, Mumbai, Singapore, Tokyo, Sydney |
-| Solo America | Oregon (Virginia) |
+| Solo America | Oregon, Virginia |
 | Solo Europa | Irlanda, Parigi |
-| Solo Asia Pacifico | Mumbai, Singapore, Tokyo, Sydney |
+| Solo Asia-Pacifico | Mumbai, Singapore, Tokyo, Sydney |
 | Solo Cina* | Pechino |
 
-*China RDC richiede il pacchetto China Add-On. Vedi la nota &quot;Importante&quot; sopra.
+*China RDC richiede il pacchetto aggiuntivo Cina. Vedi la nota &quot;Importante&quot; sopra.
 
-Nota: Experience Edge Global offre le migliori prestazioni agli utenti finali.  Se desideri utilizzare un altro tipo di RDC, contatta l&#39;Assistenza clienti  Adobe.
+Nota: Experience Edge Global offre le migliori prestazioni per gli utenti finali.  Se desideri utilizzare un tipo RDC alternativo, contatta l’Assistenza clienti Adobe .
 
 ## Vantaggi dell&#39;RDC
 
 | Beneficio | Descrizione |
 | --- | --- |
 | Prestazioni | Con RDC, i visitatori si connetteranno al DCC più vicino. Questo fornisce il tempo di risposta più veloce, con conseguente tracciamento più preciso e tempi di caricamento più rapidi. |
-| Ridondanza | In caso di interruzione delle comunicazioni con un DCC, la raccolta dei dati viene automaticamente indirizzata al DCC successivo più vicino, garantendo la continuità del servizio. |
-| Ridondanza | In caso di interruzione delle comunicazioni tra il DCC e il DPC, &#39;infrastruttura RDC del Adobe consente di salvare i dati in locale, quindi di inoltrarli al DPC quando le comunicazioni vengono ripristinate. |
+| Ridondanza | In caso di interruzione delle comunicazioni tra DCC e il tuo DPC, l’infrastruttura RDC di Adobe salva i dati localmente, quindi li inoltra al DPC quando le comunicazioni vengono ripristinate. |
 
-## Funzionamento di RDC
+## Come funziona RDC
 
-L&#39;elenco seguente descrive il processo di raccolta dei dati utilizzato dall&#39;Adobe :
+L’elenco seguente descrive il processo di raccolta dei dati utilizzato dall’Adobe:
 
 1. Il DNS risolve automaticamente il nome host della raccolta all&#39;indirizzo IP del centro di raccolta dati più vicino al visitatore.
 1. Il visitatore invia i dati a tale posizione.
-1. I dati vengono immediatamente inoltrati attraverso una connessione protetta al centro di elaborazione dati, dove vengono elaborati e messi a disposizione dei prodotti nell&#39;Adobe Experience Cloud.
+1. I dati vengono inoltrati immediatamente tramite una connessione protetta al Centro di elaborazione dei dati, dove vengono elaborati e resi disponibili ai prodotti in Adobe Experience Cloud.
