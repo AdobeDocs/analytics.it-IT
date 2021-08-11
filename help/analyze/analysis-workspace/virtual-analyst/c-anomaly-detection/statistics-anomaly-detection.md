@@ -5,7 +5,7 @@ feature: Strumenti di intelligenza artificiale
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Dopo la selezione del modello, l’algoritmo regola i risultati in base a festiv
 * Cyber Monday
 * 24-26 dicembre
 * Gennaio 1
-* 31 dicembre
+* Dicembre 31
 
 Queste festività sono state scelte da un’estesa analisi statistica su numerosi punti di dati di clienti, per individuare le ricorrenze più significative per la maggior parte delle tendenze relative ai clienti. Non è certo un elenco completo per tutti i clienti o cicli di business, ma l’applicazione di queste festività migliora notevolmente le prestazioni complessive dell’algoritmo per quasi tutti i set di dati dei clienti.
 
