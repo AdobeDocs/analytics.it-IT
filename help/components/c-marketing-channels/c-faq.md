@@ -1,8 +1,7 @@
 ---
 title: Domande frequenti sui canali di marketing
 description: Domande frequenti per i canali di marketing.
-translation-type: tm+mt
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -25,21 +24,21 @@ Domande frequenti per i canali di marketing.
 
 ## I domini di riferimento contengono più dati di quanto previsto.
 
-* I domini di riferimento potrebbero essere troppo alti nell’elenco delle regole di elaborazione. Deve essere uno degli ultimi set di regole (o l&#39;ultimo), perché l&#39;ordine di elaborazione è importante.
+I domini di riferimento potrebbero essere troppo alti nell’elenco delle regole di elaborazione. Deve essere uno degli ultimi set di regole (o l&#39;ultimo), perché l&#39;ordine di elaborazione è importante.
 
 ## Ho creato una regola che corrisponde a un parametro di stringa query e non funziona.
 
-* Assicurati che il nome del parametro sia specificato nei campi del parametro della stringa query (in genere un valore alfanumerico). Inoltre, assicurati che il valore del parametro sia specificato dopo l’operatore , come mostrato nell’esempio seguente di una regola e-mail.
+Assicurati che il nome del parametro sia specificato nei campi del parametro della stringa query (in genere un valore alfanumerico). Inoltre, assicurati che il valore del parametro sia specificato dopo l’operatore , come mostrato nell’esempio seguente di una regola e-mail.
 
-   ![](assets/example_email.png)
+![](assets/example_email.png)
 
 ## Perché tutto il traffico dell’ultimo contatto è attribuito a un dominio interno?
 
-* Hai una regola che corrisponde al traffico interno. Tieni presente che queste regole elaborano per ogni hit che un visitatore fa sul tuo sito, non solo per la prima visita. Se disponi di una regola come *`Page URL exists`* senza altri criteri, tale canale corrisponde a ogni hit successivo sul sito, perché esiste sempre un URL di pagina.
+Hai una regola che corrisponde al traffico interno. Tieni presente che queste regole elaborano per ogni hit che un visitatore fa sul tuo sito, non solo per la prima visita. Se disponi di una regola come *`Page URL exists`* senza altri criteri, tale canale corrisponde a ogni hit successivo sul sito, perché esiste sempre un URL di pagina.
 
 ## Come eseguo il debug del traffico visualizzato in Nessun canale identificato nel report?
 
-* Le regole vengono elaborate in ordine. Se non è stato trovato alcun criterio specifico, gli hit rientrano in una delle tre categorie seguenti:
+Le regole vengono elaborate in ordine. Se non è stato trovato alcun criterio specifico, gli hit rientrano in una delle tre categorie seguenti:
 
 1. Nessun referente (una visita diretta).
 
@@ -112,7 +111,7 @@ A volte le regole di elaborazione del canale di marketing sono configurate in mo
 
    Anche diversi giorni dopo aver modificato le regole di elaborazione, i dati possono ancora essere raccolti nel canale Primo contatto sbagliato. I dati di primo contatto vengono raccolti continuamente nel canale errato fino alla scadenza del coinvolgimento di tutti gli utenti.
 
-Il modo migliore per rimediare a queste discrepanze è quello di fare uno o entrambi i seguenti:
+Il modo migliore per rimediare a queste discrepanze è fare una o entrambe le seguenti operazioni:
 
 * **Scadono manualmente tutti i periodi** di coinvolgimento dei visitatori: Questa impostazione scade immediatamente tutti i canali di primo e ultimo contatto tra tutti i visitatori:
    1. Vai a Strumenti di amministrazione > Suite di rapporti .
