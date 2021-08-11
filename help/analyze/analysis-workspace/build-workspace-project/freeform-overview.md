@@ -7,9 +7,9 @@ feature: Concetti di base di Workspace
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1395'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -71,13 +71,13 @@ Le impostazioni includono:
 | Ultima modifica | Data dell’ultima modifica apportata al progetto. |
 | Tag | Elenca eventuali tag applicati a un progetto per facilitarne la categorizzazione. |
 | Descrizione | La descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. |
-| Conteggio istanze ripetute nel progetto | Consente di specificare se conteggiare o meno, per i rapporti, le istanze ripetute. Ad esempio, questa impostazione (se attivata) tratta più visualizzazioni di pagina consecutive sulla stessa pagina di più visualizzazioni di pagina. Con questa opzione, vengono conteggiati come visualizzazione a pagina singola (influisce solo su determinate metriche, come le visite a pagina singola). **Nota**: Questa impostazione non si applica alle visualizzazioni Flusso o Abbandono. |
+| Conteggio istanze ripetute nel progetto | Consente di specificare se conteggiare o meno, per i rapporti, le istanze ripetute. Ad esempio, questa impostazione (se attivata) tratta più visualizzazioni consecutive della stessa pagina come molteplici visualizzazioni di pagina. Se questa opzione è disattivata, vengono invece conteggiate come una singola visualizzazione della pagina (influisce solo su determinate metriche, come le visite a pagina singola). **Nota**: questa impostazione non si applica alle visualizzazioni Flusso o Abbandono. |
 | [Palette dei colori del progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=it) | Per cambiare la palette di colori utilizzata per le categorie in Workspace, puoi scegliere una delle palette predefinite ottimizzate per il daltonismo o specificarne una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |
 | [Densità di visualizzazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=it) | Consente di visualizzare più dati nella schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. |
 
 ## Barra a sinistra {#left-rail}
 
-Nel progetto Workspace, puoi accedere a [pannelli](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it), tabelle, [visualizzazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it) e [componenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) dalla barra a sinistra. Si tratta degli elementi di base del progetto.
+Nel progetto Workspace, puoi accedere a [pannelli](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it), tabelle, [visualizzazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it) e [componenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=it) dalla barra a sinistra. Si tratta degli elementi di base del progetto.
 
 Puoi anche accedere a visualizzazioni e pannelli dal [pannello vuoto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=it).
 
@@ -91,7 +91,7 @@ Nell’area di lavoro del progetto puoi raccogliere i pannelli, le tabelle, le v
 
 I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, suite di rapporti o casi di utilizzo di analisi. Il pannello attivo è evindenziato da un bordo blu e determina quali componenti sono disponibili nella barra a sinistra.
 
-A seconda del punto iniziale scelto per i progetti, l’area di lavoro presenta una [tabella a forma libera](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=it) o un [pannello vuoto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html). Il modo più rapido per iniziare l’analisi consiste nel selezionare uno o più componenti e semplicemente trascinarli nell’area di lavoro del progetto. Viene creata automaticamente una tabella di dati. [Scopri di più](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) sulle diverse opzioni per la creazione di una tabella. Per maggiori informazioni su come creare il primo progetto, segui questo [tutorial](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it#training-tutorial).
+A seconda del punto iniziale scelto per i progetti, l’area di lavoro presenta una [tabella a forma libera](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=it) o un [pannello vuoto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=it). Il modo più rapido per iniziare l’analisi consiste nel selezionare uno o più componenti e semplicemente trascinarli nell’area di lavoro del progetto. Viene creata automaticamente una tabella di dati. [Scopri di più](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=it) sulle diverse opzioni per la creazione di una tabella. Per maggiori informazioni su come creare il primo progetto, segui questo [tutorial](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it#training-tutorial).
 
 ![](assets/canvas.png)
 
@@ -107,9 +107,9 @@ Di seguito sono riportate le azioni più comuni per la gestione dei progetti, ch
 
 | Azione | Descrizione |
 |---|---|
-| Add | Crea un nuovo progetto da zero o inizia da un [modello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). |
+| Add | Crea un nuovo progetto da zero o inizia da un [modello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it). |
 | Tag (Assegna tag) o Approve (Approva) | Scegli Tag (Assegna tag) o Approve (Approva) per organizzare i progetti e semplificarne la ricerca. |
-| [Condividi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Rendi un progetto disponibile ad altri utenti di Analysis Workspace all’interno dell’organizzazione. |
+| [Condividi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) | Rendi un progetto disponibile ad altri utenti di Analysis Workspace all’interno dell’organizzazione. |
 | Elimina | Elimina il progetto. |
 | Rinomina | Modifica il nome del progetto. |
 | Copia | Crea un duplicato del progetto. Viene creato un nuovo progetto, con un nuovo ID progetto. Eventuali condivisioni o pianificazioni collegate al progetto originale non vengono copiate. |
