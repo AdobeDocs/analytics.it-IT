@@ -6,9 +6,9 @@ title: Riferimento colonna dati
 feature: Nozioni di base su Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3407'
 ht-degree: 3%
 
 ---
@@ -85,8 +85,8 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `hier1 - hier5` | Utilizzato da variabili gerarchiche. Contiene un elenco delimitato di valori. Il delimitatore viene selezionato nelle impostazioni della suite di rapporti. | varchar(255) |
 | `hit_source` | Indica da quale origine proviene l&#39;hit. Le fonti di hit 1, 2 e 6 vengono fatturate. <br>1: Richiesta immagine standard senza timestamp  <br>2: Richiesta immagine standard con timestamp  <br>3: Caricamento origine dati in tempo reale con timestamp  <br>4: Non utilizzato  <br>5: Caricamento origine dati generica  <br>6: Caricamento origine dati elaborazione completa  <br>7: Caricamento origine dati TransactionID  <br>8: Non più utilizzato; Versioni precedenti di origini dati Adobe Advertising Cloud  <br>9: Non più utilizzato; Metriche di riepilogo di Adobe Social  <br>10: Audience Manager inoltro lato server utilizzato | tinyint senza segno |
 | `hit_time_gmt` | La marca temporale dei server di raccolta dati di Adobe di hit ha ricevuto l&#39;hit, in base all&#39;ora Unix. | int |
-| `hitid_high` | Utilizzato in combinazione con `hitid_low` per identificare in modo univoco un hit. | bigotto senza segno |
-| `hitid_low` | Utilizzato in combinazione con `hitid_high` per identificare in modo univoco un hit. | bigotto senza segno |
+| `hitid_high` | Utilizzato in combinazione con `hitid_low` per identificare un hit. | bigotto senza segno |
+| `hitid_low` | Utilizzato in combinazione con `hitid_high` per identificare un hit. | bigotto senza segno |
 | `homepage` | Non più utilizzato. Indica se l’URL corrente è la home page del browser. | char(1) |
 | `hourly_visitor` | Flag per determinare se l’hit è un nuovo visitatore orario. | tinyint senza segno |
 | `ip` | Indirizzo IP, basato sull’intestazione HTTP della richiesta di immagine. | char(20) |
