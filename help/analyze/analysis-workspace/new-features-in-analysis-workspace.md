@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
 workflow-type: tm+mt
-source-wordcount: '8178'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -438,7 +438,7 @@ Nuove funzionalità e miglioramenti rilasciati l’8 marzo 2018.
    <td colname="col2"> <p>Per gli ultimi modelli rilasciati: </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">È stata aggiunta un’icona modello nella parte superiore del progetto (vicino al titolo) che permette di differenziare meglio la modalità di modifica del modello rispetto all’utilizzo del modello come punto di partenza per un progetto. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Gli utenti non amministratore possono creare (con Salva con nome) e modificare modelli di progetto Workspace, purché sia stata loro concessa l’autorizzazione per creare e curare i progetti in Analysis Workspace. (<span class="ignoretag"> <span class="uicontrol">Admin (Amministrazione)</span> &gt; <span class="uicontrol">All admin (Tutti gli amministratori)</span> &gt; <span class="uicontrol">User management (Gestione utenti)</span> &gt; <span class="uicontrol">Groups (Gruppi)</span> &gt; <span class="uicontrol"> Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Analytics Tools (Personalizza strumenti di Analytics)</span> &gt; <span class="uicontrol">Create/Curate Projects in Analysis Workspace (Crea/Cura progetti in Analysis Workspace)</span></span>). </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Gli utenti non amministratore possono creare (con Salva con nome) e modificare modelli di progetto Workspace, purché sia stata loro concessa l’autorizzazione per creare e curare i progetti in Analysis Workspace. (<span class="ignoretag"> <span class="uicontrol">Admin (Amministrazione)</span> &gt; <span class="uicontrol">All admin (Tutti gli amministratori)</span> &gt; <span class="uicontrol">User management (Gestione utenti)</span> &gt; <span class="uicontrol">Groups (Gruppi)</span> &gt; <span class="uicontrol"> Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Analytics Tools (Personalizza strumenti di Analytics)</span> &gt; <span class="uicontrol">Create/Curate Projects in Analysis Workspace (Crea/Cura progetti in Analysis Workspace)</span> </span>). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -778,7 +778,7 @@ Nuove funzionalità rilasciate il 20 luglio 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>“Ottieni collegamento progetto” per accessi da Experience Cloud</b> </p> </td> 
-   <td colname="col2"> <p>Precedentemente, quando si effettuava l’accesso con le credenziali di Experience Cloud e si passava quindi ad Analytics, non era possibile usare la funzione <span class="ignoretag"> <span class="uicontrol"> Condividi</span> &gt; <span class="uicontrol"> Ottieni collegamento progetto</span></span>. Tale problema è stato risolto. Prima di poter usare questa opzione, è tuttavia necessario salvare il progetto. </p> </td> 
+   <td colname="col2"> <p>Precedentemente, quando si effettuava l’accesso con le credenziali di Experience Cloud e si passava quindi ad Analytics, non era possibile usare la funzione <span class="ignoretag"> <span class="uicontrol"> Condividi</span> &gt; <span class="uicontrol"> Ottieni collegamento progetto</span> </span>. Tale problema è stato risolto. Prima di poter usare questa opzione, è tuttavia necessario salvare il progetto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Filtro “Progetti scaduti” nella gestione Progetti programmati </a></b> </p> </td> 
@@ -811,7 +811,7 @@ Nuove funzionalità rilasciate il 8 giugno 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Miglioramenti al <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>flusso</b></a> </td> 
+   <td colname="col1"> Miglioramenti al <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>flusso</b> </a> </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Aggiunta di una nuova impostazione di visualizzazione dal titolo <span class="wintitle"> Disable Label Truncation </span> (Disabilita troncamento etichetta) (impostazione predefinita = non selezionata). </li> 
