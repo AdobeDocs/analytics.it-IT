@@ -3,9 +3,9 @@ description: Domande frequenti sui feed di dati
 keywords: Feed di dati;processo;pre colonna;post colonna;sensibilità maiuscole/minuscole
 title: Domande frequenti sui feed di dati
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ I feed di dati non includono bot filtrati da [regole bot della console di ammini
 Alcuni editor di fogli di calcolo, in particolare Microsoft Excel, arrotondano automaticamente numeri grandi. La colonna `event_list` contiene molti numeri delimitati da virgole e a volte Excel ne considera un numero elevato. Arrotonda le ultime diverse cifre a `000`.
 
 Adobe consiglia di non aprire automaticamente i file `hit_data.tsv` in Microsoft Excel. Utilizzare invece la finestra di dialogo Importa dati di Excel e assicurarsi che tutti i campi siano trattati come testo.
+
+## Le colonne come `hitid_high`, `hitid_low`, `visid_high` e `visid_low` sono garantite come univoche per l’hit o la visita?
+
+In quasi tutti i casi, la concatenazione di `hitid_high` e `hitid_low` identifica in modo univoco un hit. Lo stesso concetto si applica alla concatenazione di `visid_high` e `visid_low` per le visite. Tuttavia, le anomalie di elaborazione raramente possono causare la condivisione dello stesso ID hit da parte di due hit. L’Adobe consiglia di non creare flussi di lavoro per feed di dati che si basano in modo flessibile sull’univocità di ogni hit.
 
 ## Perché mancano informazioni nella colonna del dominio per alcuni gestori? {#section_B7508D65370442C7A314EAED711A2C75}
 
