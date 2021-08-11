@@ -5,7 +5,7 @@ feature: Dashboard di Analytics
 role: User, Admin
 exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2325'
 ht-degree: 100%
 
