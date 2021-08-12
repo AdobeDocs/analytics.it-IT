@@ -5,10 +5,10 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 37%
+source-wordcount: '292'
+ht-degree: 36%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 37%
 Activity Map è un’applicazione Adobe Analytics progettata per classificare l’attività dei collegamenti utilizzando sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico nelle pagine web.
 
 Activity Map ti permette di configurare varie viste per identificare visivamente l’accelerazione dell’attività dei clienti, quantificare le iniziative di marketing e intervenire sulle esigenze e i comportamenti del tuo pubblico.
+
+Ecco una panoramica video di Activity Map:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
 
 **Guida introduttiva per gli amministratori**
 
