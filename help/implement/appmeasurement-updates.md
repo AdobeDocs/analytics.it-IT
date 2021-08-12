@@ -3,10 +3,10 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
 workflow-type: tm+mt
-source-wordcount: '2128'
-ht-degree: 95%
+source-wordcount: '2167'
+ht-degree: 94%
 
 ---
 
@@ -17,6 +17,12 @@ Note cumulative sulla versione per [!DNL AppMeasurement] per JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Puoi scaricare la versione più recente di AppMeasurement da [Code Manager](/help/admin/admin/code-manager-admin.md).
+
+## Versione 2.22.1
+
+Data di rilascio: **12 agosto 2021**
+
+* I clienti che utilizzano la funzione di rinuncia potrebbero aver visto i parametri di rinuncia all’inoltro lato server non rispettati durante il tracciamento dei collegamenti. Le correzioni in questa versione causano l’invio dei flag di rinuncia se presenti durante il tracciamento dei collegamenti.
 
 ## Versione 2.22.0
 
@@ -394,7 +400,7 @@ Data di rilascio: **22 maggio 2014**
 
 Data di rilascio: **17 aprile 2014**
 
-* Supporto per il servizio [ID visitatore di Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* Supporto per il servizio [ID visitatore di Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
 
 ## Versione 1.2.4
 
@@ -424,7 +430,7 @@ Data di rilascio: **15 novembre 2013**
 
 Data di rilascio: **14 novembre 2013**
 
-* È stato aggiunto il supporto per la misurazione video [Heartbeat](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.translate.html).
+* È stato aggiunto il supporto per la misurazione video [Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
 * È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Versione 1.1.1
