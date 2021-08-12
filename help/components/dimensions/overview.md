@@ -1,20 +1,19 @@
 ---
 title: Panoramica delle dimensioni
 description: Variabili che contengono valori stringa.
-translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
+source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 0%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
-
 # Panoramica delle dimensioni
 
-Le dimensioni sono variabili in Adobe Analytics che in genere contengono valori stringa. Le dimensioni comuni comprendono [Pagina](page.md), Dominio [](referring-domain.md)di riferimento o [eVar](evar.md). Al contrario, [le metriche](../metrics/overview.md) contengono valori numerici che si legano a una dimensione. Un rapporto di base mostra le righe di valori stringa (dimensione) rispetto a una colonna di valori numerici (metrica).
+I Dimension sono variabili in Adobe Analytics che in genere contengono valori stringa. Le dimensioni comuni includono [Pagina](page.md), [Dominio di riferimento](referring-domain.md) o un [eVar](evar.md). Al contrario, [metriche](../metrics/overview.md) contengono valori numerici che si legano a una dimensione. Un rapporto di base mostra righe di valori stringa (dimensione) rispetto a una colonna di valori numerici (metrica).
 
-Ad esempio, se hai combinato la dimensione &quot;Pagina&quot; con la metrica &quot;Visite&quot;, riceverai un report classifica che mostra le pagine visitate più in alto:
+Ad esempio, se hai combinato la dimensione &quot;Pagina&quot; con la metrica &quot;Visite&quot;, riceverai un rapporto di classifica che mostra le pagine più visitate:
 
 | `Page` | `Visits` |
 | --- | --- |
@@ -22,4 +21,10 @@ Ad esempio, se hai combinato la dimensione &quot;Pagina&quot; con la metrica &qu
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-Ogni dimensione rappresenta una parte o un aspetto diverso del sito. Puoi combinare una o più di queste dimensioni con una o più metriche per creare un rapporto desiderato.
+Ogni dimensione rappresenta una parte o un volto diverso del sito. Puoi combinare una o più di queste dimensioni con una o più metriche per creare un rapporto desiderato.
+
+## Aggiungi descrizioni delle dimensioni
+
+Ecco un video che descrive come aggiungere descrizioni di dimensioni (e metriche) in Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
