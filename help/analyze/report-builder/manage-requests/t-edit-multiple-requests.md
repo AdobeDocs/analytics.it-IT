@@ -5,9 +5,9 @@ uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -42,3 +42,9 @@ Puoi modificare più richieste contemporaneamente, in base alla suite di rapport
 
 
 1. Nel modulo [!UICONTROL Edit Multiple Requests] fare clic su **[!UICONTROL OK]**.
+
+## Aggiungere segmenti a più richieste contemporaneamente
+
+Ecco un video che mostra il processo:
+
+https://video.tv.adobe.com/v/25445/?quality=12
