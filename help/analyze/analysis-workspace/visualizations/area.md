@@ -5,10 +5,10 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizzazioni
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '100'
-ht-degree: 100%
+source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 93%
 
 ---
 
@@ -29,3 +29,7 @@ Questa visualizzazione è simile al grafico a superfici, ma ogni serie inizia al
 Una nuova impostazione per le visualizzazioni Superfici sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%.
 
 ![](assets/areastacked100.png)
+
+Ecco un video sulle visualizzazioni con sovrapposizione 100%:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
