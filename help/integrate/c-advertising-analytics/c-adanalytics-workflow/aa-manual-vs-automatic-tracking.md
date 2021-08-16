@@ -2,16 +2,20 @@
 description: Il tracciamento determina il modo in cui i dati dei motori di ricerca vengono tracciati dall’implementazione Adobe Analytics. Questo è un passaggio necessario per integrare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
 title: Modalità manuale di tracciamento e modalità automatica
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 1%
+source-wordcount: '606'
+ht-degree: 0%
 
 ---
 
 # Tracciamento: modalità manuale e modalità automatica
 
 Il tracciamento determina il modo in cui i dati dei motori di ricerca vengono tracciati dall’implementazione Adobe Analytics. Questo è un passaggio necessario per integrare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
+
+Ecco una panoramica video su come implementare il modello di tracciamento di Advertising Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 Sono supportate due modalità di tracciamento: Modalità automatica e modalità manuale.
 
