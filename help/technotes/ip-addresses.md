@@ -2,7 +2,7 @@
 title: IP e domini utilizzati da Adobe Analytics
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP derivanti dall’Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: f93ad7ec87c045956a3764c9a558bc193fa999d7
+source-git-commit: d941e4308352d6228e73bc7f7443a36ffd374b0c
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 3%
@@ -27,7 +27,7 @@ Adobe Analytics utilizza i seguenti host per migliorare le prestazioni e l’esp
 | Dominio legacy di Adobe Analytics | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
-| Guadagno | `esp.aptrinsic.com` |
+| Guadagno | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
 | Archiviazione BLOB di Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
 | CDN Microsoft Azure | `aauicdnva7.azureedge.net` |
