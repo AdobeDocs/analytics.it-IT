@@ -5,20 +5,20 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizzazioni
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 88%
 
 ---
 
 # Linee
 
-La visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee può essere usato solo con una dimensione temporale.
+La visualizzazione [!UICONTROL Line] rappresenta le metriche utilizzando una riga per mostrare in che modo i valori cambiano nel tempo. È possibile utilizzare un grafico [!UICONTROL Line] solo quando il tempo è utilizzato come dimensione.
 
 ![Visualizzazione delle linee](assets/line-viz.png)
 
-Fai clic sull’icona dell’ingranaggio in alto a destra della visualizzazione delle linee per accedere alle [**impostazioni di visualizzazione**](freeform-analysis-visualizations.md) disponibili. Le impostazioni sono suddivise in categorie:
+Fai clic sull’icona a forma di ingranaggio in alto a destra della visualizzazione [!UICONTROL Line] per accedere alle [**impostazioni di visualizzazione**](freeform-analysis-visualizations.md) disponibili. Le impostazioni sono suddivise in categorie:
 
 * **Generali**: impostazioni comuni tra i tipi di visualizzazione
 * **Asse**: impostazioni che influiscono sull’asse x o y della visualizzazione delle linee
@@ -39,6 +39,10 @@ In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UIC
 ## Mostra la sovrapposizione della linea di tendenza
 
 In **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, puoi scegliere di aggiungere alla serie di linee una linea di tendenza di regressione o di media mobile. Le linee di tendenza consentono di rappresentare un pattern più chiaro nei dati.
+
+Ecco un video sull’aggiunta di linee di tendenza alle visualizzazioni Linee :
+
+>[!VIDEO](https://video.tv.adobe.com/v/330176/?quality=12)
 
 >[!TIP]
 >
