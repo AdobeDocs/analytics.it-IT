@@ -4,10 +4,10 @@ title: Pannello Quick Insights
 feature: Pannelli
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '987'
-ht-degree: 100%
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 99%
 
 ---
 
@@ -27,6 +27,10 @@ Per aiutarti a trovare le risposte, e in base all’utilizzo dei componenti dati
 * Imparare la terminologia e il vocabolario dei componenti ed elementi di base di [!UICONTROL Analysis Workspace].
 * Effettuare semplici raggruppamenti di dimensioni, aggiungere metriche multiple o confrontare facilmente segmenti all’interno di una [!UICONTROL Freeform table].
 * Modificare o provare vari tipi di visualizzazione per trovare lo strumento di ricerca per la tua analisi in modo rapido e intuitivo.
+
+Ecco una panoramica video del pannello [!UICONTROL Quick Insights]:
+
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Terminologia chiave di base
 
