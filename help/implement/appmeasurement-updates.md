@@ -3,7 +3,7 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
 workflow-type: tm+mt
 source-wordcount: '2167'
 ht-degree: 94%
@@ -20,7 +20,7 @@ Puoi scaricare la versione più recente di AppMeasurement da [Code Manager](/hel
 
 ## Versione 2.22.1
 
-Data di rilascio: **12 agosto 2021**
+Data di rilascio: **17 agosto 2021**
 
 * I clienti che utilizzano la funzione di rinuncia potrebbero aver visto i parametri di rinuncia all’inoltro lato server non rispettati durante il tracciamento dei collegamenti. Le correzioni in questa versione causano l’invio dei flag di rinuncia se presenti durante il tracciamento dei collegamenti.
 
