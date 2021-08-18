@@ -3,7 +3,7 @@ description: Le suite di rapporti virtuali segmentano i dati di Adobe Analytics 
 title: Panoramica delle suite di rapporti virtuali
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: fb5de8ad4eee3e9017ab547823a7fa9132fa2457
+source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 Le suite di rapporti virtuali segmentano i dati di Adobe Analytics in modo da poter controllare l’accesso a ogni segmento.
 
-Molti clienti hanno dati che scorrono in una suite di rapporti globale, ma hanno anche dati che scorrono in suite di rapporti più piccole. Imposta una variabile su più suite di rapporti e invia i loro dati a più di una suite di rapporti. Questo viene indicato come *tag multisuite* o *suite di rapporti base/principale*.
+Molti clienti hanno dati che scorrono in una suite di rapporti globale, ma hanno anche dati che scorrono in suite di rapporti più piccole. Imposta una variabile su più suite di rapporti e invia i loro dati a più di una suite di rapporti. Questo viene indicato come *assegnazione tag a più suite* o *suite di rapporti base/principale*.
 
 Ad esempio, tutti i dati possono essere raccolti in una singola suite di rapporti, ma puoi impostare suite di rapporti secondarie in modo che altre persone della tua azienda abbiano accesso a parte dei dati, ma non a tutti. I dati possono essere suddivisi per regione. Potresti avere diversi siti web per diversi paesi. Altri esempi possono essere marchi specifici che appartengono a un&#39;azienda più grande, ma che ciascuno di essi dispone di propri team di marketing.
 
