@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: 064674c3fa19f485850c4af6298c134d640d17bd
+source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1016'
 ht-degree: 99%
 
 ---
@@ -100,6 +100,7 @@ ht-degree: 99%
       + [Panoramica su Attribution](analysis-workspace/attribution/overview.md)
       + [Modelli di attribuzione e intervalli di lookback](analysis-workspace/attribution/models.md)
       + [Attribuzione algoritmica](analysis-workspace/attribution/algorithmic.md)
+      + [Best practice di attribuzione](analysis-workspace/attribution/best-practices.md)
       + [Domande frequenti](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segmento IQ](analysis-workspace/segment-iq.md)
