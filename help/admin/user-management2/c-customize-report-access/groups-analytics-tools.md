@@ -6,10 +6,10 @@ title: Personalizzare le autorizzazioni degli strumenti di Analytics
 feature: Strumenti di amministrazione
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 14%
+source-wordcount: '609'
+ht-degree: 15%
 
 ---
 
@@ -52,7 +52,7 @@ Le impostazioni di questa pagina si riferiscono alle suite di rapporti seleziona
 | [Sicurezza](/help/admin/company/security-manager.md) | Consente di controllare l&#39;accesso ai dati di reporting tramite la pagina Gestione sicurezza. Le opzioni includono password complesse, scadenza password, restrizioni di accesso IP e restrizioni del dominio e-mail. |
 | Informazioni di supporto | Consente di accedere alle informazioni di supporto nelle impostazioni aziendali. |
 | [Servizi web](/help/admin/company/web-services-admin.md) | Consente di accedere alla pagina Web Services nell’interfaccia Strumenti di amministrazione ([!UICONTROL Company Settings] > [!UICONTROL Web Services]).<br>L’API dei servizi Web fornisce accesso programmatico ai servizi Adobe Analytics che consentono di duplicare e potenziare le funzionalità disponibili tramite l’interfaccia utente. |
-| Single Sign-On (legacy) | Consente di accedere alla pagina di accesso singolo in Strumenti di amministrazione.<br>**Nota:** il single sign-on in Adobe Experience Cloud viene implementato utilizzando il  [collegamento dell&#39;account ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) tra l&#39;Experience Cloud e le soluzioni. |
+| Single Sign-On (legacy) | Consente di accedere alla pagina di accesso singolo in Strumenti di amministrazione.<br>**Nota:** il single sign-on in Adobe Experience Cloud viene implementato utilizzando il  [collegamento dell&#39;account ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=it) tra l&#39;Experience Cloud e le soluzioni. |
 | [Azioni in sospeso](/help/admin/company/pending-actions-admin.md) | Consente di gestire le azioni in sospeso in [!UICONTROL Company Settings]. |
 | [Co-branding](/help/admin/company/co-branding-admin.md) | Concede l’autorizzazione ad utilizzare Analytics con il co-brand. |
 | [Preferenze](/help/admin/admin/preferences-manager.md) | Concede l&#39;autorizzazione a [!UICONTROL Preference Manager]. |
@@ -62,7 +62,7 @@ Le impostazioni di questa pagina si riferiscono alle suite di rapporti seleziona
 | Accesso al servizio Web | Abilita l&#39;accesso ai servizi Web per i non amministratori. Genera le credenziali del servizio Web. |
 | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Consente ai membri di questo gruppo di accedere alle licenze [!UICONTROL Report Builder]. |
 | [Accesso in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) | Consente agli utenti di accedere ad Analysis Workspace, l’interfaccia di reporting consigliata per [!DNL Adobe Analytics]. |
-| [Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html) | Consente agli utenti di accedere a Reporting e analisi. |
+| [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | Consente agli utenti di accedere a Reporting e analisi. |
 | [Creazione di metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) | Consente agli utenti di creare metriche calcolate. |
 | [Creazione di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) | Consente agli utenti di creare segmenti. |
 | **Data Connectors** |  |
