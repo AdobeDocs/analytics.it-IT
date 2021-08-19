@@ -3,7 +3,7 @@ title: Uniformità dei dati intelligente
 description: Scopri in che modo l’ottimizzazione intelligente dei dati analizza le tendenze storiche per prevedere il valore di qualsiasi metrica in un periodo di tempo interessato.
 feature: Strumenti di intelligenza artificiale
 role: User, Admin
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 In rare occasioni, alcuni fattori possono influire sulla qualità dei dati. Il traffico dei bot, le modifiche di implementazione o le interruzioni del servizio possono influire sull’integrità dei dati raccolti. Inoltre, complicano l’analisi su come l’evento possa aver influenzato la completezza dei dati.
 
-Intelligent Data Smoothing è un prototipo in [Analytics Labs](/help/analyze/tech-previews/overview.md) che può aiutare a completare questa visualizzazione analizzando le tendenze della cronologia per prevedere il valore di qualsiasi metrica nel periodo di tempo interessato. Il prototipo applica algoritmi avanzati di apprendimento automatico per tracciare i valori previsti per le metriche nel periodo di tempo analizzato.
+Intelligent Data Smoothing è un prototipo in [Analytics Labs](/help/analyze/labs.md) che può aiutare a completare questa visualizzazione analizzando le tendenze della cronologia per prevedere il valore di qualsiasi metrica nel periodo di tempo interessato. Il prototipo applica algoritmi avanzati di apprendimento automatico per tracciare i valori previsti per le metriche nel periodo di tempo analizzato.
 
 ## Ottimizzazione intelligente dei dati
 
