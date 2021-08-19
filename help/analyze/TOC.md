@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 99%
+source-wordcount: '985'
+ht-degree: 98%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 99%
 # Guida agli strumenti di Analytics {#analyze}
 
 + [Guida agli strumenti di Analytics](home.md)
++ [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + [Scopri le novità di Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
@@ -273,10 +274,8 @@ ht-degree: 99%
    + [Generazione di rapporti Activity Map in Analytics](activity-map/activitymap-reporting-analytics.md)
    + [Risoluzione dei problemi relativi all’estensione del browser](activity-map/troubleshooting-browser-extensions.md)
    + [Risoluzione dei problemi di raccolta dati](activity-map/troubleshoot-data-collection.md)
-   + [Risorse relative alla conoscenza](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [Introduzione a Reports and Analytics](reports-analytics/getting-started.md)
-   + [Adobe Analytics: concetti chiave](reports-analytics/key-concepts.md)
    + Panoramica dell&#39;interfaccia di reportistica {#reporting-interface}
       + [Informazioni sulla raccolta di dati regionali](reports-analytics/overview/overview-data-collection.md)
       + [Menu Rapporti](reports-analytics/overview/reports-menu.md)
@@ -310,11 +309,5 @@ ht-degree: 99%
    + [Panoramica delle dashboard di Adobe Analytics](mobile-app/home.md)
    + [Guida per curatori](mobile-app/curator.md)
    + [Guida introduttiva per utenti esecutivi](mobile-app/executive.md)
-+ App web progressive {#pwa}
-   + [App web progressive](pwa/pwa.md)
-+ API di reportistica di Analytics {#analytics-reporting-api}
-   + [Panoramica API di reportistica di Analytics](c-reporting-api/c-reporting-api.md)
-   + [Confronto delle API di reportistica di Analytics](c-reporting-api/api-comparison.md)
-   + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
-+ Labs {#tech-previews}
-   + [Panoramica di Labs](tech-previews/overview.md)
++ [API di reporting](reporting-api.md)
++ [Labs](labs.md)
