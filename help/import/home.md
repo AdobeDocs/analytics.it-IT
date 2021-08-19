@@ -2,10 +2,9 @@
 title: Guida all’importazione di Analytics
 description: Questa guida spiega come inserire dati in Analytics tramite origini dati, l’API di inserimento dati e Data Connectors.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '128'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '132'
 ht-degree: 100%
 
 ---
@@ -22,11 +21,11 @@ Questa guida spiega come importare dati in Analytics. Include:
 
 ## Altre guide utente di Analytics
 
-[Guide utente di Analytics](/help/landing/home.md)
+[Guide utente di Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it)
 
 ## Risorse chiave per Analytics
 
 * [Contattare l’Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Experience League](https://experienceleague.adobe.com/?lang=it#home)
