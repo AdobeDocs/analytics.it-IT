@@ -1,14 +1,13 @@
 ---
 title: Integrazione di Analytics
 description: Scopri come integrare dati da altre posizioni in Adobe Analytics.
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '167'
 ht-degree: 92%
 
 ---
-
 
 # Integrazione di Analytics
 
@@ -31,11 +30,11 @@ Descrive come configurare le integrazioni con altre soluzioni Adobe Experience C
 
 ## Altre guide utente di Analytics
 
-[Guide utente di Analytics](/help/landing/home.md)
+[Guide utente di Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it)
 
 ## Risorse chiave per Analytics
 
 * [Contattare l’Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Experience League](https://experienceleague.adobe.com/?lang=it#home)
