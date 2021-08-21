@@ -2,10 +2,10 @@
 title: Panoramica sui plug-in
 description: Incolla il codice sul sito per introdurre nuove funzionalità.
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 9%
+source-wordcount: '366'
+ht-degree: 10%
 
 ---
 
@@ -37,7 +37,3 @@ Ogni organizzazione ha esigenze di implementazione diverse, quindi puoi decidere
 4. Convalida l’implementazione e pubblica.
 
 Molte organizzazioni chiamano i plug-in utilizzando la funzione [`doPlugins`](../functions/doplugins.md) . Anche se questa funzione non è necessaria, l’Adobe considera come best practice da utilizzare. AppMeasurement chiama questa funzione immediatamente prima di compilare e inviare una richiesta di immagine, il che è ideale perché diversi plug-in dipendono da altre variabili di Analytics.
-
-## Utilizzare plug-in con oggetti di tracciamento non standard
-
-I plug-in non funzionano per impostazione predefinita con oggetti di tracciamento diversi da `s`. Tuttavia, puoi modificare il codice del plug-in per adattarlo all&#39;oggetto di tracciamento personalizzato. All&#39;interno di un determinato plug-in, sostituisci tutti i riferimenti a `s` con l&#39;oggetto di tracciamento desiderato.
