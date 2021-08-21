@@ -2,10 +2,10 @@
 title: apl (appendToList)
 description: Aggiungi valori a variabili che supportano più valori.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 1%
+source-wordcount: '681'
+ht-degree: 0%
 
 ---
 
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## Usa il plug-in
 
-Il metodo `apl` utilizza i seguenti argomenti:
+La funzione `apl` utilizza i seguenti argomenti:
 
 * **`lv`** (obbligatorio, stringa): Variabile che contiene un elenco delimitato di elementi a cui aggiungere un nuovo valore
 * **`vta`** (obbligatorio, stringa): Elenco delimitato da virgole dei nuovi valori da aggiungere al valore dell’ `lv` argomento.
@@ -71,231 +71,59 @@ Il metodo `apl` utilizza i seguenti argomenti:
 * **`d2`** (facoltativo, stringa): Il delimitatore di output. Se non è impostato, restituisce lo stesso valore di `d1`.
 * **`cc`** (facoltativo, booleano): Flag che indica se viene utilizzato un controllo con distinzione tra maiuscole e minuscole. Se `true`, il controllo della duplicazione è sensibile a maiuscole e minuscole. Se `false` o non è impostato, il controllo della duplicazione non fa distinzione tra maiuscole e minuscole. Predefinito su `false`.
 
-Il metodo `apl` restituisce il valore dell&#39;argomento `lv` più eventuali valori non duplicati nell&#39;argomento `vta`.
+La funzione `apl` restituisce il valore dell&#39;argomento `lv` più eventuali valori non duplicati nell&#39;argomento `vta`.
 
-## Chiamate di esempio
-
-### Esempio n. 1
-
-Se viene mostrato...
+## Esempi
 
 ```js
+// Set the events variable to "event22,event24,event23".
 s.events = "event22,event24";
-```
+s.events = apl(s.events,"event23");
 
-...e viene eseguito il seguente codice...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... il valore finale di s.events sarà:
-
-```js
-s.events = "event22,event24,event23";
-```
-
-### Esempio n. 2
-
-Se viene mostrato...
-
-```js
+// The events variable remains unchanged because the apl function does not add duplicate values
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"event23");
 
-...e viene eseguito il seguente codice...
+// Set the events variable to "event23" if the events variable is blank
+s.events = "";
+s.events = apl(s.events,"event23");
 
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... il valore finale di s.events sarà comunque:
-
-```js
-s.events = "event22,event23";
-```
-
-In questo esempio, la chiamata apl non ha apportato modifiche a s.events poiché s.events conteneva già &quot;event23&quot;
-
-### Esempio n. 2
-
-Se viene mostrato...
-
-```js
-s.events = ""; //blank value
-```
-
-...e viene eseguito il seguente codice...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... il valore finale di s.events sarà...
-
-```js
-s.events = "event23";
-```
-
-### Esempio n. 4
-
-Se viene mostrato...
-
-```js
+// Append a value to eVar5. The value of prop4 remains unchanged.
+// The value of eVar5 is "hello|people|today".
 s.prop4 = "hello|people";
-```
+s.eVar5 = apl(s.prop4, "today", "|");
 
-...e viene eseguito il seguente codice...
-
-```js
-s.eVar5 = s.apl(s.prop4, "today", "|");
-```
-
-... il valore finale di s.prop4 sarà ancora...
-
-```js
+// Sets prop4 to "hello|people,today". Be mindful of correct delimiters!
 s.prop4 = "hello|people";
-```
+s.prop4 = apl(s.prop4, "today");
 
-...ma il valore finale di s.eVar5 sarà
-
-```js
-s.eVar5 = "hello|people|today";
-```
-
-Tieni presente che il plug-in restituisce solo un valore; non reimposta necessariamente la variabile passata attraverso l’argomento lv.
-
-### Esempio n. 5
-
-Se viene mostrato...
-
-```js
-s.prop4 = "hello|people";
-```
-
-...e viene eseguito il seguente codice...
-
-```js
-s.prop4 = s.apl(s.prop4, "today");
-```
-
-... il valore finale di s.prop4 sarà...
-
-```js
-s.prop4 = "hello|people,today";
-```
-
-Assicurati di mantenere il delimitatore coerente tra ciò che è nel valore dell&#39;argomento lv e ciò che è negli argomenti d1/d2
-
-### Esempio n. 6
-
-Se viene mostrato...
-
-```js
+// Sets the events variable to "event22,event23,EVentT23". Be mindful of capitalization when using the cc argument!
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"EVenT23", ",", ",", true);
 
-...e viene eseguito il seguente codice...
-
-```js
-s.events = s.apl(s.events,"EVenT23", ",", ",", true);
-```
-
-... il valore finale di s.events sarà:
-
-```js
-s.events = "event22,event23,EVentT23";
-```
-
-Anche se questo esempio non è pratico, dimostra la necessità di usare cautela quando si utilizza il flag che distingue tra maiuscole e minuscole.
-
-### Esempio n. 7
-
-Se viene mostrato...
-
-```js
+// Sets the events variable to "event22,event23,event24,event25".
 s.events = "event22,event23";
-```
+s.events = apl(s.events, "event23,event24,event25");
 
-...e viene eseguito il seguente codice...
-
-```js
-s.events = s.apl(s.events, "event23,event24,event25");
-```
-
-... il valore finale di s.events sarà:
-
-```js
-s.events = "event22,event23,event24,event25");
-```
-
-Il plug-in non aggiungerà &quot;event23&quot; a s.events perché esiste già in s.events.  Tuttavia, aggiungerà sia event24 che event25 a s.events perché nessuno dei due era precedentemente contenuto in s.events.
-
-### Esempio n. 8
-
-Se viene mostrato...
-
-```js
+// Sets linkTrackVars to "events,eVar1,campaign".
+// The last three arguments at the end of this apl call are not necessary because they match the default argument values.
 s.linkTrackVars = "events,eVar1";
-```
+s.linkTrackVars = apl(s.linkTrackVars, "campaign", ",", ",", false);
 
-...e viene eseguito il seguente codice...
-
-```js
-s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
-```
-
-... il valore finale di s.linkTrackVars sarà:
-
-```js
-s.linkTrackVars = "events,eVar1,campaign";
-```
-
-Gli ultimi tre argomenti (cioè &quot;,&quot;, &quot;,&quot;, false) alla fine di questa chiamata apl non sono necessarie ma non &quot;danneggiano nulla&quot; poiché corrispondono ai valori dell’argomento predefiniti.
-
-### Esempio n. 9
-
-Se viene mostrato...
-
-```js
+// This apl call does not do anything because the code does not assign the returned value to a variable.
 s.events = "event22,event24";
+apl(s.events, "event23");
+
+// Sets the list2 variable to "apple-APPLE-Apple".
+// Since the two delimiter arguments are different, the value passed in is delimited by "|", then joined together by "-".
+s.list2 = "apple|APPLE";
+s.list2 = apl(s.list2, "Apple", "|", "-", true);
+
+// Sets the list3 variable to "value1,value1,value1" (unchanged).
+// Only new values are deduplicated. Existing duplicate values remain.
+s.list3 = "value1,value1,value1";
+s.list3 = apl(s.list3,"value1");
 ```
-
-...e viene eseguito il seguente codice...
-
-```js
-s.apl(s.events, "event23");
-```
-
-... il valore finale di s.events sarà comunque:
-
-```js
-s.events = "event22,event24";
-```
-
-L&#39;esecuzione del plug-in da sola (senza assegnare il valore restituito a una variabile) in realtà non &quot;reimposta&quot; la variabile passata attraverso l&#39;argomento lv.
-
-### Esempio n. 10
-
-Se viene mostrato...
-
-```js
-s.list2 = "casesensitivevalue|casesensitiveValue"
-```
-
-...e viene eseguito il seguente codice...
-
-```js
-s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
-```
-
-... il valore finale di s.list2 sarà:
-
-```js
-s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
-```
-
-Poiché i due argomenti delimitatori sono diversi, il valore passato sarà delimitato dal primo argomento delimitatore (&quot;|&quot;) e quindi unito dal secondo argomento delimitatore (&quot;-&quot;)
 
 ## Cronologia versioni
 
@@ -323,7 +151,7 @@ Poiché i due argomenti delimitatori sono diversi, il valore passato sarà delim
 
 ### 2.5 (18 febbraio 2016)
 
-* Ora utilizza il metodo `inList` per l&#39;elaborazione del confronto
+* Ora utilizza la funzione `inList` per l&#39;elaborazione del confronto
 
 ### 2.0 (26 gennaio 2016)
 
