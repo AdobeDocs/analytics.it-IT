@@ -2,9 +2,9 @@
 title: rfl
 description: Rimuovere un valore specifico da una stringa delimitata da caratteri.
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 
 ## Usa il plug-in
 
-Il metodo `rfl` utilizza i seguenti argomenti:
+La funzione `rfl` utilizza i seguenti argomenti:
 
 * **`lv`** (obbligatorio, stringa): Variabile (o stringa) contenente un elenco di valori delimitati
 * **`vr`** (obbligatorio, stringa): Il valore da rimuovere dall&#39; `lv` argomento. Adobe consiglia di non rimuovere più valori durante una singola chiamata `rfl`.
@@ -70,7 +70,7 @@ Il metodo `rfl` utilizza i seguenti argomenti:
 * **`d2`** (facoltativo, stringa): Il delimitatore che si desidera utilizzare per la stringa restituita. Predefinito sullo stesso valore dell&#39;argomento `d1`.
 * **`df`** (facoltativo, booleano): Se  `true`, forza solo le istanze duplicate dell&#39; `vr` argomento dall&#39; `lv` argomento invece di tutte le istanze. Se non è impostato, viene impostato il valore predefinito `false`.
 
-Quando si richiama questo metodo, viene restituita una stringa modificata contenente l&#39;argomento `lv` ma senza istanze (o istanze duplicate) del valore specificato nell&#39;argomento `vr`.
+Una chiamata a questa funzione restituisce una stringa modificata contenente l&#39;argomento `lv` ma senza istanze (o istanze duplicate) del valore specificato nell&#39;argomento `vr`.
 
 ## Chiamate di esempio
 
@@ -85,7 +85,7 @@ s.events = "event22,event24,event25";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.events = s.rfl(s.events,"event24");
+s.events = rfl(s.events,"event24");
 ```
 
 ...il valore finale di s.events sarà:
@@ -105,7 +105,7 @@ s.events = "event22,event24,event25";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.events = s.rfl(s.events,"event26");
+s.events = rfl(s.events,"event26");
 ```
 
 ...il valore finale di s.events sarà:
@@ -127,7 +127,7 @@ s.events = "event22,event24,event25";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.events = s.rfl(s.events);
+s.events = rfl(s.events);
 ```
 
 ...il valore finale di s.events sarà:
@@ -136,7 +136,7 @@ s.events = s.rfl(s.events);
 s.events = "";
 ```
 
-Se l&#39;argomento lv o l&#39;argomento vr sono vuoti in una chiamata s.rfl, il plug-in non restituirà nulla
+Se l&#39;argomento `lv` o `vr` sono vuoti in una chiamata `rfl`, il plug-in non restituisce nulla.
 
 ### Esempio n. 4
 
@@ -149,7 +149,7 @@ s.prop4 = "hello|people|today";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.eVar5 = s.rfl(s.prop4,"people","|");
+s.eVar5 = rfl(s.prop4,"people","|");
 ```
 
 ...il valore finale di s.prop4 sarà ancora...
@@ -164,7 +164,7 @@ s.prop4 = "hello|people|today";
 s.eVar5 = "hello|today";
 ```
 
-Tieni presente che il plug-in restituisce solo un valore; in realtà non &quot;reimposta&quot; la variabile passata attraverso l&#39;argomento lv.
+Tieni presente che il plug-in restituisce solo un valore; in realtà non &quot;reimposta&quot; la variabile passata attraverso l&#39;argomento `lv` .
 
 ### Esempio n. 5
 
@@ -177,7 +177,7 @@ s.prop4 = "hello|people|today";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.prop4 = s.rfl(s.prop4,"people");
+s.prop4 = rfl(s.prop4,"people");
 ```
 
 ...il valore finale di s.prop4 sarà ancora...
@@ -186,7 +186,7 @@ s.prop4 = s.rfl(s.prop4,"people");
 s.prop4 = "hello|people|today";
 ```
 
-Assicurati di impostare l’argomento d1 nei casi in cui il valore dell’argomento lv contenga un delimitatore diverso dal valore predefinito (ad esempio, virgola).
+Assicurati di impostare l’argomento `d1` nei casi in cui il valore dell’argomento `lv` contiene un delimitatore diverso dal valore predefinito (ad esempio, virgola).
 
 ### Esempio n. 6
 
@@ -199,7 +199,7 @@ s.events = "event22,event23,event25";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.events = s.rfl(s.events,"EVenT23");
+s.events = rfl(s.events,"EVenT23");
 ```
 
 ...il valore finale di s.events sarà:
@@ -221,7 +221,7 @@ s.events = "event22,event23:12345,event25";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.events = s.rfl(s.events,"event23");
+s.events = rfl(s.events,"event23");
 ```
 
 ...il valore finale di s.events sarà:
@@ -241,7 +241,7 @@ s.events = "event22,event23:12345,event25";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.events = s.rfl(s.events,"event23:12345");
+s.events = rfl(s.events,"event23:12345");
 ```
 
 ...il valore finale di s.events sarà:
@@ -250,7 +250,7 @@ s.events = s.rfl(s.events,"event23:12345");
 s.events = "event22,event23:12345,event25";
 ```
 
-Quando devi rimuovere un evento che utilizza la serializzazione e/o la sintassi numerica/valuta, devi specificare solo l’evento stesso (ovvero senza i valori serialization/numeric/currency) nella chiamata s.rfl.
+Quando devi rimuovere un evento che utilizza la serializzazione e/o la sintassi numerica/valutaria, devi specificare solo l’evento stesso (ovvero senza i valori serialization/numeric/currency) nella chiamata `rfl` .
 
 ### Esempio n. 9
 
@@ -263,7 +263,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.events = s.rfl(s.events,"event23");
+s.events = rfl(s.events,"event23");
 ```
 
 ...il valore finale di s.events sarà:
@@ -283,7 +283,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.events = s.rfl(s.events,"event23", "", "",true);
+s.events = rfl(s.events,"event23", "", "",true);
 ```
 
 ...il valore finale di s.events sarà:
@@ -303,7 +303,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.events = s.rfl(s.events,"event23", "", "|",true);
+s.events = rfl(s.events,"event23", "", "|",true);
 ```
 
 ...il valore finale di s.events sarà:
@@ -323,7 +323,7 @@ s.events = "event22,event23,event24,event25";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.events = s.rfl(s.events,"event23,event24");
+s.events = rfl(s.events,"event23,event24");
 ```
 
 ...il valore finale di s.events sarà:
@@ -332,7 +332,7 @@ s.events = s.rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-L&#39;impostazione di più valori nell&#39;argomento vr non è supportata. La logica rfl nell&#39;esempio precedente dividerebbe prima i valori nell&#39;argomento lv (cioè s.events), quindi prova a far corrispondere ogni valore delimitato al valore completo dell&#39;argomento vr (cioè &quot;event23,event24&quot;).
+L&#39;impostazione di più valori nell&#39;argomento `vr` non è supportata. La logica `rfl` nell&#39;esempio precedente dividerebbe prima i valori nell&#39;argomento `lv` (cioè s.events), quindi prova a far corrispondere ogni valore delimitato al valore completo dell&#39;argomento `vr` (ovvero `"event23,event24"`).
 
 ### Esempio n. 13
 
@@ -345,8 +345,8 @@ s.events = "event22,event23,event24,event25";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.events = s.rfl(s.events,"event23");
-s.events = s.rfl(s.events,"event24");
+s.events = rfl(s.events,"event23");
+s.events = rfl(s.events,"event24");
 ```
 
 ...il valore finale di s.events sarà:
@@ -355,7 +355,7 @@ s.events = s.rfl(s.events,"event24");
 s.events = "event22,event25");
 ```
 
-Ogni valore da rimuovere dall’elenco deve essere contenuto all’interno della propria chiamata s.rfl.
+Ogni valore da rimuovere dall’elenco deve essere contenuto all’interno della relativa chiamata `rfl` .
 
 ### Esempio n. 14
 
@@ -368,7 +368,7 @@ s.linkTrackVars = "events,eVar1,eVar2,eVar3";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
+s.linkTrackVars = rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 ```
 
 ...il valore finale di s.linkTrackVars sarà:
@@ -377,7 +377,7 @@ s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-Gli ultimi tre argomenti (cioè &quot;,&quot;,&quot;,&quot;, false) alla fine di questa chiamata s.rfl non sono necessarie ma non &quot;danneggiano nulla&quot; in quanto corrispondono alle impostazioni predefinite.
+Gli ultimi tre argomenti (cioè &quot;,&quot;,&quot;,&quot;, false) alla fine di questa chiamata `rfl` non sono necessarie ma non &quot;danneggiano nulla&quot; se sono presenti in quanto corrispondono alle impostazioni predefinite.
 
 ### Esempio n. 15
 
@@ -390,7 +390,7 @@ s.events = "event22,event23,event24";
 ...e viene eseguito il seguente codice...
 
 ```js
-s.rfl(s.events,"event23");
+rfl(s.events,"event23");
 ```
 
 ...il valore finale di s.events sarà ancora:
@@ -399,7 +399,7 @@ s.rfl(s.events,"event23");
 s.events = "event22,event23,event24";
 ```
 
-Tieni presente che il plug-in restituisce solo un valore; in realtà non &quot;reimposta&quot; la variabile passata attraverso l&#39;argomento lv.
+Tieni presente che il plug-in restituisce solo un valore; in realtà non &quot;reimposta&quot; la variabile passata attraverso l&#39;argomento `lv` .
 
 ## Cronologia versioni
 
