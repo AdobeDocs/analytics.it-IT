@@ -2,7 +2,7 @@
 title: Suite numeri
 description: Produrre e manipolare numeri da utilizzare in altre variabili JavaScript.
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 1%
@@ -67,24 +67,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Utilizzare i plug-in
 
-Il metodo `zeroPad` utilizza i seguenti argomenti:
+La funzione `zeroPad` utilizza i seguenti argomenti:
 
-* **num**  (obbligatorio, intero): Numero da aggiungere al pad. Il metodo arrotonda il valore di questo argomento se contiene decimali.
+* **num**  (obbligatorio, intero): Numero da aggiungere al pad. La funzione arrotonda il valore di questo argomento se contiene decimali.
 * **nod**  (obbligatorio, numero intero): Numero di cifre nel valore finale restituito. Se il numero da aggiungere ha meno cifre del numero di cifre a cui aggiungere il pad, il plug-in aggiunge zeri all&#39;inizio dell&#39;argomento `num`.
 
-Il metodo `randomNumber` utilizza i seguenti argomenti:
+La funzione `randomNumber` utilizza i seguenti argomenti:
 
 * **nod**  (facoltativo, numero intero): Il numero di cifre nel numero casuale che si desidera generare. Il valore massimo è di 17 cifre. Il valore predefinito è 10 cifre.
 
-Il metodo `twoDecimals` utilizza i seguenti argomenti:
+La funzione `twoDecimals` utilizza i seguenti argomenti:
 
 * **val**  (obbligatorio, numero): Un numero (rappresentato da una stringa o un oggetto numerico) che si desidera arrotondare al centesimo più vicino.
 
 ## Restituisce
 
-* Il metodo **zeroPad** restituisce una stringa uguale all&#39;argomento `num` ma con un numero specifico di zeri aggiunti all&#39;inizio del relativo valore, in modo che il valore restituito abbia il numero corretto di cifre.
-* Il metodo **randomNumber** restituisce una stringa uguale a un numero casuale con il numero di cifre desiderato.
-* Il metodo **twoDecimals** restituisce un oggetto numero arrotondato al centesimo più vicino.
+* La funzione **zeroPad** restituisce una stringa uguale all&#39;argomento `num` ma con un numero specifico di zeri aggiunti all&#39;inizio del relativo valore, in modo che il valore restituito abbia il numero corretto di cifre.
+* La funzione **randomNumber** restituisce una stringa uguale a un numero casuale con il numero di cifre desiderato.
+* La funzione **twoDecimals** restituisce un oggetto numero arrotondato al centesimo più vicino.
 
 ## Chiamate di esempio
 
