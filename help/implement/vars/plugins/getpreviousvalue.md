@@ -2,9 +2,9 @@
 title: getPreviousValue
 description: Ottieni l’ultimo valore trasmesso in una variabile.
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -56,80 +56,58 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 ## Usa il plug-in
 
-Il metodo `getPreviousValue` utilizza i seguenti argomenti:
+La funzione `getPreviousValue` utilizza i seguenti argomenti:
 
 * **`v`** (stringa, obbligatoria): Variabile con il valore che si desidera passare alla richiesta di immagine successiva. Una variabile comune utilizzata è `s.pageName` per recuperare il valore della pagina precedente.
 * **`c`** (stringa, facoltativo): Nome del cookie che memorizza il valore.  Se questo argomento non è impostato, viene impostato automaticamente su `"s_gpv"`.
 
-Quando si chiama questo metodo, restituisce il valore stringa contenuto nel cookie. Il plug-in quindi reimposta la scadenza del cookie e gli assegna il valore della variabile dall&#39;argomento `v` . Il cookie scade dopo 30 minuti di inattività.
+Quando si chiama questa funzione, restituisce il valore stringa contenuto nel cookie. Il plug-in quindi reimposta la scadenza del cookie e gli assegna il valore della variabile dall&#39;argomento `v` . Il cookie scade dopo 30 minuti di inattività.
 
-## Chiamate di esempio
-
-### Esempio n. 1
-
-Codice seguente...
+## Esempi
 
 ```js
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
-```
+// 1. Sets prop7 to the cookie value contained in gpv_Page
+// 2. Resets the gpv_Page cookie value to the page variable
+// 3. If the page variable is not set, reset the gpv_Page cookie expiration
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-* Imposta s.prop7 come valore passato in s.pageName nella richiesta di immagine precedente (ovvero il valore memorizzato nel cookie &quot;gpv_Page&quot;)
-* Il codice reimposta il cookie &quot;gpv_Page&quot;, facendolo corrispondere al valore corrente di s.pageName
-* Se s.pageName non è impostato al momento dell&#39;esecuzione di questo codice, allora il codice reimposterà la scadenza per il valore corrente del cookie
+// Sets prop7 to the cookie value contained in gpv_Page, but only if event1 is in the events variable.
+if(inList(s.events,"event1")) s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-### Esempio n. 2
+// Sets prop7 to the cookie value contained in gpv_Page, but only if the page variable is currently set on the page
+if(s.pageName) s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-Il codice seguente imposta s.prop7 come ultimo valore passato in s.pageName, ma solo se event1 è incluso anche all&#39;interno di s.events, come determinato dal plug-in inList, al momento in cui avviene la chiamata.
-
-```js
-if(s.inList(s.events,"event1")) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
-```
-
-### Esempio n. 2
-
-Il codice seguente imposta s.prop7 come ultimo valore passato in s.pageName ma solo se s.pageName è attualmente impostato sulla pagina nello stesso momento.
-
-```js
-if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
-```
-
-### Esempio n. 4
-
-Il codice seguente imposta s.eVar10 come valore passato in s.eVar1 nella richiesta di immagine precedente.   Il precedente valore eVar1 sarebbe stato contenuto nel cookie &quot;s_gpv&quot;.  Il codice imposta quindi il cookie &quot;s_gpv&quot; uguale al valore corrente di s.eVar1.
-
-```js
-s.eVar10 = s.getPreviousValue(s.eVar1)
+// Sets eVar10 equal to the cookie value contained in s_gpv, then sets the s_gpv cookie to the current value of eVar1.
+s.eVar10 = getPreviousValue(s.eVar1);
 ```
 
 ## Soste improbabili
 
-Se la variabile associata all&#39;argomento v è impostata su un nuovo valore e il plug-in getPreviousValue viene eseguito MA una chiamata al server Analytics NON viene inviata contemporaneamente, il nuovo valore dell&#39;argomento v sarà comunque considerato il &quot;valore precedente&quot; al successivo avvio del plug-in.
+Se la variabile associata all&#39;argomento `v` è impostata su un nuovo valore e il plug-in `getPreviousValue` viene eseguito MA una chiamata al server Analytics NON viene inviata contemporaneamente, il nuovo valore dell&#39;argomento `v` viene comunque considerato il &quot;valore precedente&quot; al successivo avvio del plug-in.
 Ad esempio, si supponga che il seguente codice venga eseguito sulla prima pagina della visita:
 
 ```js
-s.pageName="home"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "Home";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Questo codice produrrebbe una chiamata al server in cui l&#39;argomento pageName è uguale a &quot;home&quot; e l&#39;argomento p7 (prop7) non è impostato.  Tuttavia, la chiamata a s.getPreviousValue memorizzerebbe il valore di s.pageName (ovvero &quot;home&quot;) nel cookie specificato nella chiamata (ovvero il cookie &quot;gpv_Page&quot;).
-Ora, si supponga che subito dopo, sulla stessa pagina, venga eseguito il seguente codice (per qualsiasi motivo):
+Questo codice genera una chiamata al server in cui `pageName` è &quot;Home&quot; e prop7 non è impostato.  Tuttavia, la chiamata a `getPreviousValue` memorizza il valore di `pageName` nel cookie `gpv_Page`. Si supponga che subito dopo, sulla stessa pagina, venga eseguito il seguente codice:
 
 ```js
-s.pageName="happy value"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "New value";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-Poiché la funzione s.t() non viene eseguita in questo blocco di codice, non verrà creata un’altra richiesta di immagine.  Tuttavia, quando il codice della funzione s.getPreviousValue() viene eseguito questa volta, s.prop7 verrà impostato su uguale al valore precedente di s.pageName (cioè &quot;home&quot;) e quindi memorizzerà il nuovo valore di s.pageName (ovvero &quot;happy value&quot;) nel cookie &quot;gpv_Page&quot;.
-Supponiamo che il visitatore passi a una pagina diversa e che il seguente codice venga eseguito su questa pagina:
+Poiché la funzione `t()` non viene eseguita in questo blocco di codice, non viene inviata un’altra richiesta di immagine.  Tuttavia, quando il codice della funzione `getPreviousValue` viene eseguito questa volta, `prop7` viene impostato sul valore precedente di `pageName` (&quot;Home&quot;), quindi memorizza il nuovo valore di `pageName` (&quot;Nuovo valore&quot;) nel cookie `gpv_Page`. Quindi, si supponga che il visitatore passi a una pagina diversa ed esegua il seguente codice su questa pagina:
 
 ```js
-s.pageName="page 2"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "Page 2";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Quando la funzione di chiamata s.t() viene eseguita, crea una richiesta di immagine in cui s.pageName=&quot;page 2&quot; e s.prop7 è uguale a &quot;valore felice&quot;, che era il valore di s.pageName quando è avvenuta l’ultima chiamata a getPreviousValue.   Il valore s.prop7 di &quot;home&quot; non è mai stato contenuto in alcuna richiesta di immagine reale, anche se &quot;home&quot; è stato il primo valore passato in s.pageName.
+Quando la funzione `t()` viene eseguita, crea una richiesta di immagine in cui `pageName` è &quot;Pagina 2&quot; e `prop7` è &quot;Nuovo valore&quot;, che era il valore di `pageName` quando è avvenuta l’ultima chiamata a `getPreviousValue`. Il valore `prop7` di `"Home"` non è mai stato contenuto in una richiesta di immagine, anche se &quot;Home&quot; è stato il primo valore passato a `pageName`.
 
 ## Cronologia versioni
 
