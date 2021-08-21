@@ -2,9 +2,9 @@
 title: getTimeBetweenEvents
 description: Misura il tempo tra due eventi.
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## Usa il plug-in
 
-Il metodo `getTimeBetweenEvents` utilizza i seguenti argomenti:
+La funzione `getTimeBetweenEvents` utilizza i seguenti argomenti:
 
 * **`ste`** (obbligatorio, stringa): Avvia gli eventi timer. Una stringa delimitata da virgole di eventi di Analytics per &quot;avviare il timer&quot;.
 * **`rt`** (obbligatorio, booleano): Riavvia l&#39;opzione del timer. Impostare su `true` se si desidera riavviare il timer ogni volta che la variabile `events` contiene un evento timer di avvio. Impostare su `false` se non si desidera che il timer si riavvii quando viene visualizzato un evento timer di avvio.
@@ -81,54 +81,28 @@ Il metodo `getTimeBetweenEvents` utilizza i seguenti argomenti:
 * **`bml`** (facoltativo, numero): Lunghezza del valore di riferimento per l&#39;arrotondamento in base al formato dell&#39; `fmt` argomento. Ad esempio, se l’argomento `fmt` è `"s"` e questo argomento è `2`, il valore restituito viene arrotondato al valore di riferimento più vicino di 2 secondi. Se l&#39;argomento `fmt` è `"m"` e questo argomento è `0.5`, il valore restituito viene arrotondato al valore di riferimento di mezzo minuto più vicino.
 * **`rte`** (facoltativo, stringa): Stringa delimitata da virgole degli eventi di Analytics che rimuovono o eliminano il timer. Non ha valore predefinito.
 
-Una chiamata a questo metodo restituisce un numero intero che rappresenta il periodo di tempo tra l&#39;evento del timer di avvio e l&#39;evento del timer di arresto nel formato desiderato.
+Una chiamata a questa funzione restituisce un numero intero che rappresenta la quantità di tempo tra l&#39;evento del timer di avvio e l&#39;evento del timer di arresto nel formato desiderato.
 
 ## Chiamate di esempio
 
-### Esempio n. 1
-
-Codice seguente...
-
 ```js
+// The timer starts or restarts when the events variable contains event1
+// The timer stops and resets when the events variable contains event2
+// The timer resets when the events variable contains event3 or the visitor closes their browser
+// Sets eVar1 to the number of seconds between event1 and event2, rounded to the nearest 2-second benchmark
 s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
+
+// The timer starts when the events variable contains event1. It does NOT restart with subsequent hits that also contain event1
+// The timer records a "lap" when the events variable contains event2. It does not stop the timer.
+// The timer resets when the events variable contains event3 or if more than 20 days pass since the timer started
+// The timer is stored in a cookie labeled "s_20"
+// Sets eVar4 to the number of hours between event1 and event2, rounded to the nearest 90-minute benchmark
+s.eVar4 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
+
+// Similar to the above timer in eVar4, except the return value is returned in seconds/minutes/hours/days depending on the timer length.
+// The timer expires after 1 day.
+s.eVar4 = getTimeBetweenEvents("event1", true, "event2", true);
 ```
-
-...è configurato in modo da comportarsi come segue:
-
-* Il timer si avvia quando s.events contiene event1.
-* Il timer si riavvia ogni volta che s.events contiene event1
-* Il timer si interrompe quando s.events contiene event2
-* Il timer viene reimpostato (ovvero passa a 0 secondi) ogni volta che s.events contiene event2
-* Il timer viene reimpostato anche quando s.events contiene event3 O se il visitatore chiude il browser
-* Quando si registra un tempo effettivo tra event1 e event2, il plug-in imposta eVar1 in modo uguale al numero di secondi tra i due eventi impostati, arrotondato al valore di riferimento più vicino (ad esempio 0 secondi, 2 secondi, 4 secondi, 10 secondi, 184 secondi, ecc.)
-* Se s.events contiene event2 prima dell&#39;avvio di un timer, eVar1 non verrà impostato affatto.
-
-### Esempio n. 3
-
-Codice seguente...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
-```
-
-...è configurato in modo da comportarsi come segue:
-
-* Il timer si avvia quando s.events contiene event1.
-* Il timer NON si riavvia ogni volta che s.events contiene event1, ma il timer originale continua a funzionare
-* Il timer NON si interrompe quando s.events contiene event2, ma il plug-in registra l&#39;ora dalla registrazione dell&#39;impostazione originale event1
-* Il timer viene memorizzato in un cookie denominato &quot;s_20&quot;
-* Il timer viene reimpostato solo quando s.events contiene event3 OR se sono trascorsi 20 giorni dall&#39;avvio del timer
-* Quando viene registrato un intervallo tra (l&#39;originale) event1 e event2, il plug-in imposta eVar1 in modo pari al numero di ore tra i due eventi impostati, arrotondato al valore di riferimento di 1/2 ore più vicino (ad esempio 0 ore, 1,5 ore, 3 ore, 7,5 ore, 478,5 ore, ecc.)
-
-### Esempio n. 2
-
-Codice seguente...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true);
-```
-
-...produrrà risultati simili al primo esempio di cui sopra; tuttavia, il valore di eVar1 viene restituito in secondi, minuti, ore o giorni, a seconda della lunghezza finale del timer.  Inoltre, il timer scade 1 giorno dopo che è stato impostato per la prima volta invece che al momento in cui il visitatore chiude il browser.
 
 ## Cronologia versioni
 
