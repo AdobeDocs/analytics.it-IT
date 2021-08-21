@@ -2,7 +2,7 @@
 title: manageVars
 description: Modifica i valori di più di una variabile Analytics alla volta.
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -57,7 +57,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## Usa il plug-in
 
-Il metodo `manageVars` utilizza i seguenti argomenti:
+La funzione `manageVars` utilizza i seguenti argomenti:
 
 * **`cb`** (obbligatorio, stringa): Nome di una funzione di callback utilizzata dal plug-in per manipolare le variabili di Analytics. È possibile utilizzare una funzione di Adobe come `cleanStr` o una funzione personalizzata.
 * **`l`** (facoltativo, stringa): Elenco delimitato da virgole delle variabili di Analytics da manipolare. Se non è impostato, viene impostata l’impostazione predefinita a TUTTE le variabili Adobe Analytics, che includono:
@@ -79,7 +79,7 @@ Il metodo `manageVars` utilizza i seguenti argomenti:
    * Tutte le variabili di dati di contesto
 * **`Il`** (facoltativo, booleano): Imposta su  `false` se desideri  ** escludere l’elenco delle variabili dichiarate nell’ `l` argomento anziché includerle. Predefinito su `true`.
 
-La chiamata di questo metodo non restituisce alcun risultato. Cambia invece i valori delle variabili di Analytics in base alla funzione di callback desiderata.
+La chiamata di questa funzione non restituisce alcun risultato. Cambia invece i valori delle variabili di Analytics in base alla funzione di callback desiderata.
 
 ## Chiamate di esempio
 
@@ -88,7 +88,7 @@ La chiamata di questo metodo non restituisce alcun risultato. Cambia invece i va
 Codice seguente...
 
 ```js
-s.manageVars("lowerCaseVars");
+manageVars("lowerCaseVars");
 ```
 
 ...cambia i valori di tutte le variabili descritte sopra in versioni minuscole.  L&#39;unica eccezione a questo è la variabile degli eventi, come alcuni degli eventi (ad esempio scAdd, scCheckout, ecc.) sono sensibili all’uso di maiuscole e minuscole e non devono essere minuscole
@@ -98,17 +98,17 @@ s.manageVars("lowerCaseVars");
 Codice seguente...
 
 ```js
-s.manageVars("lowerCaseVars", "events", false);
+manageVars("lowerCaseVars", "events", false);
 ```
 
 ...essenzialmente produce lo stesso risultato esatto del primo esempio, in quanto la variabile degli eventi non viene ridotta per impostazione predefinita.
 
-### Esempio n. 2
+### Esempio n. 3
 
 Codice seguente...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
 ...cambierà (ad esempio minuscolo) solo i valori di eVar1, eVar2, eVar3 e list2
@@ -118,7 +118,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 Codice seguente...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
 ...cambierà (ad esempio in minuscolo) i valori di tutte le variabili descritte in precedenza ECCETTO per eVar1, eVar2, eVar3 e list2
@@ -128,7 +128,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 Codice seguente...
 
 ```js
-s.manageVars("cleanStr");
+manageVars("cleanStr");
 ```
 
 ...cambia i valori di tutte le variabili descritte in precedenza, comprese le variabili degli eventi.  In particolare, la funzione di callback cleanStr effettua le seguenti operazioni sul valore di ciascuna variabile:
