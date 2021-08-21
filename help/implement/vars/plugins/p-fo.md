@@ -2,9 +2,9 @@
 title: p_fo (solo pagina prima)
 description: Assicurati che alcune routine si attivino una sola volta per pagina.
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## Usa il plug-in
 
-Il metodo `p_fo` utilizza i seguenti argomenti:
+La funzione `p_fo` utilizza i seguenti argomenti:
 
 * **on**  (obbligatorio, stringa): Nome dell&#39;oggetto JavaScript creato dal plug-in se l&#39;oggetto non esiste ancora nella pagina.
 
-Se l&#39;oggetto non esiste ancora, questo metodo restituisce `true` e crea l&#39;oggetto. Se l&#39;oggetto esiste già, questo metodo restituisce `false`.
+Se l&#39;oggetto non esiste ancora, questa funzione restituisce `true` e crea l&#39;oggetto. Se l&#39;oggetto esiste già, questa funzione restituisce `false`.
 
 ## Chiamate di esempio
 
@@ -71,14 +71,14 @@ Il codice seguente controllerà l&#39;esistenza dell&#39;oggetto &quot;myobject&
 
 Se invece l&#39;oggetto &quot;myobject&quot; esiste già quando avviene la chiamata p_fo, la funzione p_fo restituirà il valore di false e, quindi, l&#39;istruzione condizionale verrà considerata false.  In questo caso, il codice all’interno dell’istruzione condizionale non verrà eseguito.
 
-```javascript
-if(s.p_fo("myobject"))
+```js
+if(p_fo("myobject"))
 {
   console.log("hello");
 }
 ```
 
-**NOTA:** ogni volta che un nuovo oggetto pagina/DOM viene caricato (o la pagina corrente viene ricaricata), l&#39;oggetto specificato nell&#39;argomento on non esisterà più e quindi il plug-in p_fo restituirà nuovamente true la prima volta che viene eseguito dopo il termine del caricamento della pagina.
+**NOTA:** ogni volta che viene caricato un nuovo oggetto/DOM di pagina (o la pagina corrente viene ricaricata), l&#39;oggetto specificato nell&#39;argomento on non esisterà più e quindi il plug-in p_fo restituirà nuovamente true la prima volta che viene eseguito dopo il termine del caricamento della pagina.
 
 ## Cronologia versioni
 
