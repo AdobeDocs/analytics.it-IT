@@ -2,9 +2,9 @@
 title: inList
 description: Controlla se un valore è contenuto in un altro valore delimitato da caratteri.
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
@@ -57,96 +57,48 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## Usa il plug-in
 
-Il metodo `inList` utilizza i seguenti argomenti:
+La funzione `inList` restituisce un valore booleano in base ai relativi input. Utilizza i seguenti argomenti:
 
 * **`lv`** (obbligatorio, stringa o matrice): Un elenco delimitato di valori o un oggetto array JavaScript da cercare
 * **`vtc`** (obbligatorio, stringa): Valore da cercare
 * **`d`** (facoltativo, stringa): Il delimitatore utilizzato per separare i singoli valori nell’ `lv` argomento. Se non è impostato, viene impostata automaticamente una virgola (`,`).
-* **`cc`** (facoltativo, booleano): Se è impostato su  `true`, viene effettuato un controllo con distinzione tra maiuscole e minuscole. Se è impostato su `false` o omesso, viene effettuato un controllo senza distinzione tra maiuscole e minuscole. Predefinito su `false`.
+* **`cc`** (facoltativo, booleano): Se è impostato su  `true` o  `1`, viene effettuato un controllo con distinzione tra maiuscole e minuscole. Se è impostato su `false` o omesso, viene effettuato un controllo senza distinzione tra maiuscole e minuscole. Predefinito su `false`.
 
-Se si richiama questo metodo, viene restituito `true` se viene trovata una corrispondenza e `false` se non viene trovata una corrispondenza.
+Una chiamata a questa funzione restituisce `true` se trova una corrispondenza e `false` se non trova una corrispondenza.
 
-## Chiamate di esempio
-
-### Esempio n. 1
-
-Se viene mostrato...
+## Esempi
 
 ```js
-s.events="event22,event24";
-```
+// Returns true
+s.events = "event22,event24";
+if(inList(s.events,"event22")) {
+    // Code will execute
+}
 
-...e viene eseguito il seguente codice...
+// Returns false because event2 is not an exact match in the string
+s.events = "event22,event24";
+if(inList(s.events,"event2")) {
+    // Code will not execute
+}
 
-```js
-if(s.inList(s.events,"event22"))
-```
+// Returns true because of the NOT operator
+s.events = "event22,event24";
+if(!inList(s.events,"event23")) {
+    // Code will execute
+}
 
-...l’istruzione if condizionale sarà true
-
-### Esempio n. 2
-
-Se viene mostrato...
-
-```js
-s.events="event22,event24";
-```
-
-...e viene eseguito il seguente codice...
-
-```js
-if(s.inList(s.events,"event2"))
-```
-
-...l’istruzione if condizionale sarà false perché la chiamata inList non ha effettuato una corrispondenza esatta tra event2 e uno dei valori delimitati in s.events
-
-### Esempio n. 3
-
-Se viene mostrato...
-
-```js
-s.events="event22,event24";
-```
-
-...e viene eseguito il seguente codice...
-
-```js
-if(!s.inList(s.events,"event23"))
-```
-
-...l&#39;istruzione if condizionale sarà true perché la chiamata inList non ha effettuato una corrispondenza esatta tra event23 e uno dei valori delimitati in s.events (nota l&#39;operatore &quot;NOT&quot; all&#39;inizio della chiamata alla variabile inList ).
-
-### Esempio n. 4
-
-Se viene mostrato...
-
-```js
+// Returns false because of the case-sensitive check
 s.events = "event22,event23";
-```
+if(inList(s.events,"EVenT23","",true)) {
+    // Code will not execute
+}
 
-...e viene eseguito il seguente codice...
-
-```js
-if(s.inList(s.events,"EVenT23","",1))
-```
-
-...l’istruzione if condizionale sarà false.  Anche se questo esempio non è pratico, dimostra la necessità di usare cautela quando si utilizza il flag che distingue tra maiuscole e minuscole.
-
-### Esempio n. 5
-
-Se viene mostrato...
-
-```js
+// Returns false because of a mismatched delimiter, treating "events,eVar1" as a single value
 s.linkTrackVars = "events,eVar1";
+if(inList(s.linkTrackVars,"eVar1","|")) {
+    // Code will not execute
+}
 ```
-
-...e viene eseguito il seguente codice...
-
-```js
-if(s.inList(s.linkTrackVars,"eVar1","|"))
-```
-
-...l’istruzione if condizionale sarà false.  Il valore dell&#39;argomento d trasmesso nella chiamata (ovvero &quot;|&quot;) presuppone che i singoli valori in s.linkTrackVars siano delimitati da un carattere di barra verticale, mentre in realtà i valori sono delimitati da una virgola.  In questo caso, il plug-in cercherà di stabilire una corrispondenza tra l’intero valore di s.linkTrackVars (cioè &quot;events,eVar1&quot;) e il valore da cercare (ad es. &quot;eVar1&quot;).
 
 ## Cronologia versioni
 
