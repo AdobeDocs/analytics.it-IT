@@ -2,7 +2,7 @@
 title: pt
 description: Esegue una funzione in un elenco di variabili.
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `pt` esegue una funzione o un metodo in un elenco di variabili di Analytics. Ad esempio, puoi eseguire selettivamente il metodo [`clearVars`](../functions/clearvars.md) su più variabili senza chiamare manualmente ogni volta il metodo . Diversi altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più di una variabile Analytics alla volta o se non si utilizzano plug-in dipendenti.
+Il plug-in `pt` esegue una funzione o un metodo in un elenco di variabili di Analytics. Ad esempio, puoi eseguire in modo selettivo la funzione [`clearVars`](../functions/clearvars.md) su più variabili senza chiamare manualmente ogni volta la funzione. Diversi altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più di una variabile Analytics alla volta o se non si utilizzano plug-in dipendenti.
 
 ## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
@@ -57,14 +57,14 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ## Usa il plug-in
 
-Il metodo `pt` utilizza i seguenti argomenti:
+La funzione `pt` utilizza i seguenti argomenti:
 
 * **`l`** (obbligatorio, stringa): Elenco di variabili su cui può essere eseguita la funzione contenuta nell’ `cf` argomento.
 * **`de`** (facoltativo, stringa): Il delimitatore che separa l’elenco di variabili nell’ `l` argomento. Impostazione predefinita di una virgola (`,`).
 * **`cf`** (obbligatorio, stringa): Il nome della funzione di callback contenuta nell&#39;oggetto AppMeasurement da chiamare rispetto a ciascuna delle variabili contenute nell&#39; `l` argomento.
 * **`fa`** (facoltativo, stringa): Se la funzione nell&#39; `cf` argomento richiede argomenti aggiuntivi durante l&#39;esecuzione, includerli qui. Predefinito su `undefined`.
 
-Una chiamata a questo metodo restituisce un valore se la funzione di callback (nell&#39;argomento `cf` ) restituisce un valore.
+Una chiamata a questa funzione restituisce un valore se la funzione di callback (nell&#39;argomento `cf` ) restituisce un valore.
 
 ## Chiamate di esempio
 
@@ -72,7 +72,7 @@ Una chiamata a questo metodo restituisce un valore se la funzione di callback (n
 
 Il codice seguente fa parte del plug-in getQueryParam .  Esegue la funzione helper getParameterValue rispetto a ciascuna delle coppie chiave-valore contenute nella stringa query dell&#39;URL (fullQueryString).  In un altro caso, per estrarre ogni coppia chiave-valore, è necessario delimitare fullQueryString e dividerlo con un carattere e commerciale &quot;&amp;&quot;. Il parametroKey si riferisce al parametro della stringa di query che il plug-in sta tentando di estrarre dalla stringa di query
 
-```javascript
+```js
 returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
@@ -84,7 +84,7 @@ var returnValue = "",
   parametersLength = parameters.length;
 for(var i = 0; i < parametersLength; i++)
 {
-  returnValue = s.getParameterValue(parameters[i], parameterKey);
+  returnValue = getParameterValue(parameters[i], parameterKey);
   if(returnValue !== "") break;
 }
 ```
