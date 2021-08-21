@@ -2,9 +2,9 @@
 title: getPercentPageViewed
 description: Recupera la percentuale della pagina visualizzata dal visitatore.
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -55,59 +55,46 @@ function getPercentPageViewed(pid,ch){var n=pid,r=ch;function p(){if(window.ppvI
 
 ## Usa il plug-in
 
-Il metodo `getPercentPageViewed` utilizza i seguenti argomenti:
+La funzione `getPercentPageViewed` utilizza i seguenti argomenti:
 
 * **`pid`** (facoltativo, stringa): Un identificatore basato sulla pagina può essere correlato alle percentuali fornite dalle misurazioni del plug-in.  Predefinito per la variabile `pageName`.
 * **`ch`** (facoltativo, booleano): Imposta questo su  `false` (o  `0`) se non desideri che il plug-in tenga conto di eventuali modifiche apportate alle dimensioni di una pagina dopo il suo caricamento iniziale. Se omesso, questo argomento viene impostato automaticamente su `true`. L&#39;Adobe consiglia di omettere questo argomento nella maggior parte dei casi.
 
-La chiamata di questo metodo non restituisce alcun risultato; imposta invece le seguenti variabili:
+La chiamata di questa funzione non restituisce nulla; imposta invece le seguenti variabili:
 
 * `s._ppvPreviousPage`: Nome della pagina precedente visualizzata. Le misure di scorrimento finali per la pagina corrente non sono disponibili fino al caricamento di una nuova pagina.
-* `s._ppvHighestPercentViewed`: La percentuale più alta della pagina precedente visualizzata dal visitatore (in base all’altezza). Il punto più avanzato su cui il visitatore ha effettuato lo scorrimento nella pagina precedente.
-* `s._ppvInitialPercentViewed`: La percentuale della pagina precedente visibile al primo caricamento della pagina precedente.
+* `s._ppvHighestPercentViewed`: La percentuale più alta della pagina precedente visualizzata dal visitatore (in base all’altezza). Il punto più avanzato su cui il visitatore ha effettuato lo scorrimento nella pagina precedente. Se l’intera pagina è visibile al primo caricamento, questo valore è `100`.
+* `s._ppvInitialPercentViewed`: La percentuale della pagina precedente visibile al primo caricamento della pagina precedente. Se l’intera pagina è visibile al primo caricamento, questo valore è `100`.
 * `s._ppvHighestPixelsSeen`: Il numero più alto di pixel totali visualizzati (in altezza) mentre il visitatore scorreva verso il basso la pagina precedente.
-* `s._ppvFoldsSeen`: Il numero più alto di &quot;pieghe di pagina&quot; raggiunto quando il visitatore ha fatto scorrere la pagina precedente. Questa variabile include la piega &quot;inizio pagina&quot;.
-* `s._ppvFoldsAvailable`: Il numero di &quot;pieghe di pagina&quot; totali disponibili per scorrere verso il basso nella pagina precedente.
+* `s._ppvFoldsSeen`: Il numero più alto di &quot;pieghe di pagina&quot; raggiunto quando il visitatore ha fatto scorrere la pagina precedente. Questa variabile include la piega &quot;inizio pagina&quot;. Se l’intera pagina è visibile al primo caricamento, questo valore è `1`.
+* `s._ppvFoldsAvailable`: Il numero di &quot;pieghe di pagina&quot; totali disponibili per scorrere verso il basso nella pagina precedente. Se l’intera pagina è visibile al primo caricamento, questo valore è `1`.
 
 Assegna una o più di queste variabili a eVar per visualizzare i dati delle dimensioni nei rapporti.
 
 Questo plug-in crea un cookie di prime parti denominato `s_ppv` che contiene i valori sopra indicati. scade alla fine della sessione del browser.
 
-## Chiamate di esempio
-
-### Esempio n. 1
-
-Codice seguente...
+## Esempi
 
 ```js
-if(s.pageName) s.getPercentPageViewed();
-if(s._ppvPreviousPage)
+// 1. Runs the getPercentPageViewed function if the page variable is set
+// 2. Sets prop1 to the previous value of the page variable
+// 3. Sets prop2 to the highest percent viewed, the intial percent, the number of folds viewed, and total number of folds of the previous page
+if(s.pageName) getPercentPageViewed();
+if(_ppvPreviousPage)
 {
-  s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
+  s.prop1 = _ppvPreviousPage;
+  s.prop2 = "highestPercentViewed=" + _ppvHighestPercentViewed + " | initialPercentViewed=" + _ppvInitialPercentViewed + " | foldsSeen=" + _ppvFoldsSeen + " | foldsAvailable=" + _ppvFoldsAvailable;
 }
-```
 
-* Determina se s.pageName è impostato e, in tal caso, eseguirà la funzione getPercentPageViewed
-* Quando viene eseguita la funzione getPercentPageViewed, vengono create le variabili descritte nella sezione &quot;Restituisce&quot; di cui sopra
-* Se le variabili &quot;Restituisce&quot; sono state impostate correttamente:
-   * Il codice imposta s.prop1 uguale al valore di s._ppvPreviousPage (ovvero il valore precedente di s.pageName o la pagina precedente)
-   * Il codice imposta anche s.prop2 uguale alla percentuale più alta visualizzata della pagina precedente e alla percentuale iniziale visualizzata della pagina precedente, insieme al numero di cartelle raggiunte dal visitatore e al numero di cartelle disponibili
-
-**Nota**: Se un’intera pagina è visibile al primo caricamento, sia la percentuale di visualizzazione più alta che la percentuale di visualizzazione iniziale saranno uguali a 100, sia le pieghe visualizzate che le pieghe disponibili saranno uguali a 1.   Quando un’intera pagina NON è visibile al primo caricamento ma il visitatore non finisce mai per scorrere la pagina prima di passare alla pagina successiva, sia la percentuale più alta visualizzata che la percentuale iniziale visualizzata saranno uguali allo stesso valore.
-
-### Esempio n. 3
-
-Supponiamo che s.prop5 sia stato impostato per acquisire un &quot;tipo di pagina&quot; rollup anziché l’intero nome della pagina.
-
-Il codice seguente determina se s.prop5 è stato impostato e, in tal caso, ne memorizzerà il valore come &quot;pagina precedente&quot; in correlazione con le dimensioni Percentuale più alta visualizzata e Percentuale iniziale visualizzata.  Il valore sarà comunque memorizzato nella variabile s._ppvPreviousPage ma può essere trattato come se fosse il tipo di pagina precedente invece del nome pagina precedente.
-
-```js
-if(s.prop5) s.getPercentPageViewed(s.prop5);
-if(s._ppvPreviousPage)
+// Given prop5 operates as a page type variable:
+// 1. Runs the getPercentPageViewed function if prop5 has a value
+// 2. Sets prop1 to the previous value of the page variable
+// 3. Sets prop2 to the highest percent viewed and the initial percent viewed.
+if(s.prop5) getPercentPageViewed(s.prop5);
+if(_ppvPreviousPage)
 {
-  s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed;
+  s.prop1 = _ppvPreviousPage;
+  s.prop2 = "highestPercentViewed = " + _ppvHighestPercentViewed + " | initialPercentViewed=" + _ppvInitialPercentViewed;
 }
 ```
 
