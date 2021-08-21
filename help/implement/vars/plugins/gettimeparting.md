@@ -2,9 +2,9 @@
 title: getTimeParting
 description: Misura il momento in cui avviene un’azione specifica.
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## Usa il plug-in
 
-Il metodo `getTimeParting` utilizza il seguente argomento:
+La funzione `getTimeParting` utilizza il seguente argomento:
 
 **`t`** (Facoltativo ma consigliato, stringa): Nome del fuso orario in cui convertire l’ora locale del visitatore.  Impostazione predefinita per l’ora UTC/GMT. Per un elenco completo dei valori validi, vedere [Elenco dei fusi orari del database TZ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) su Wikipedia.
 
@@ -74,7 +74,7 @@ I valori validi comuni includono:
 * `"America/Denver"` per l&#39;ora di montagna
 * `"America/Los_Angeles"` per l&#39;ora del Pacifico
 
-Quando si chiama questo metodo, viene restituita una stringa contenente i seguenti elementi delimitati da una tubazione (`|`):
+Una chiamata a questa funzione restituisce una stringa contenente i seguenti elementi delimitati da una tubazione (`|`):
 
 * L&#39;anno in corso
 * Il mese in corso
@@ -82,55 +82,35 @@ Quando si chiama questo metodo, viene restituita una stringa contenente i seguen
 * Il giorno della settimana
 * Ora attuale (AM/PM)
 
-## Chiamate di esempio
-
-### Esempi per specifici fusi orari
-
-Utilizza il seguente codice di esempio se il cliente è a Parigi, Francia:
+## Esempi
 
 ```js
-s.eVarX = getTimeParting("Europe/Paris");
-```
+// Use the following code if the visitor resides in Paris, France
+s.eVar8 = getTimeParting("Europe/Paris");
 
-Se il cliente si trova a San Jose, California:
+// Use the following code if the visitor resides in San Jose, California
+s.eVar17 = getTimeParting("America/Los_Angeles");
 
-```js
-s.eVarX = getTimeParting("America/Los_Angeles");
-```
+// Use the following code if the visitor resides in Ghana.
+// Note that Ghana is in GMT time, the default time zone that the plug-in uses with no argument
+s.eVar22 = getTimeParting();
 
-Se il cliente si trova nel paese africano del Ghana:
-
-```js
-s.eVarX = getTimeParting();
-```
-
-Il Ghana si trova entro il fuso orario UTC/GMT. Questo esempio mostra che non è necessario alcun argomento plug-in per UTC/GMT.
-
-### Contabilità dei browser Internet Explorer
-
-Utilizza il seguente esempio se desideri escludere la suddivisione del tempo tra i dati dei visitatori di Internet Explorer. Il valore restituito dai browser IE è solo nell’ora locale del visitatore.
-
-```js
-if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
+// Internet Explorer only returns the visitor's local time. Use this conditional statement to accommodate IE visitors
+if(!document.documentMode) s.eVar39 = getTimeParting("America/New_York");
 else s.eVarX = "Internet Explorer Visitors";
-```
 
-### Risultati delle chiamate
-
-Considera uno scenario in cui un visitatore di Denver Colorado visita un sito il 31 agosto 2020 alle 9:15.
-
-```js
-s.eVar10 = getTimeParting("Europe/Athens");
+// Given a visitor from Denver Colorado visits a site on August 31, 2020 at 9:15 AM
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+s.eVar10 = getTimeParting("Europe/Athens");
 
-s.eVar11 = getTimeParting("America/Nome");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+s.eVar11 = getTimeParting("America/Nome");
 
-s.eVar12 = getTimeParting("Asia/Calcutta");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+s.eVar12 = getTimeParting("Asia/Calcutta");
 
-s.eVar13 = getTimeParting("Australia/Sydney");
 // Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
+s.eVar13 = getTimeParting("Australia/Sydney");
 ```
 
 ## Cronologia versioni
