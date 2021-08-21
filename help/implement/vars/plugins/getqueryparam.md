@@ -2,10 +2,10 @@
 title: getQueryParam
 description: Estrai il valore del parametro della stringa di query di un URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 0%
+source-wordcount: '652'
+ht-degree: 1%
 
 ---
 
@@ -55,132 +55,58 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## Usa il plug-in
 
-Il metodo `getQueryParam` utilizza i seguenti argomenti:
+La funzione `getQueryParam` utilizza i seguenti argomenti:
 
 * **`qsp`** (obbligatorio): Elenco delimitato da virgole dei parametri della stringa di query da cercare all’interno dell’URL. Non fa distinzione tra maiuscole e minuscole.
 * **`de`** (facoltativo): Il delimitatore da utilizzare se più parametri della stringa di query corrispondono. Impostazione predefinita di una stringa vuota.
 * **`url`** (facoltativo): Un URL personalizzato, una stringa o una variabile da cui estrarre i valori dei parametri della stringa di query. Predefinito su `window.location`.
 
-Una chiamata a questo metodo restituisce un valore a seconda degli argomenti precedenti e dell&#39;URL:
+Una chiamata a questa funzione restituisce un valore a seconda degli argomenti di cui sopra e dell&#39;URL:
 
-* Se non viene trovato un parametro della stringa di query corrispondente, il metodo restituisce una stringa vuota.
-* Se viene trovato un parametro della stringa di query corrispondente, il metodo restituisce il valore del parametro della stringa di query.
-* Se viene trovato un parametro della stringa di query corrispondente ma il valore è vuoto, il metodo restituisce `true`.
-* Se vengono trovati più parametri di stringa di query corrispondenti, il metodo restituisce una stringa con ogni valore di parametro delimitato dalla stringa nell&#39;argomento `de` .
+* Se non viene trovato un parametro della stringa di query corrispondente, la funzione restituisce una stringa vuota.
+* Se viene trovato un parametro della stringa di query corrispondente, la funzione restituisce il valore del parametro della stringa di query.
+* Se viene trovato un parametro della stringa di query corrispondente ma il valore è vuoto, la funzione restituisce `true`.
+* Se vengono trovati più parametri di stringa di query corrispondenti, la funzione restituisce una stringa con ogni valore di parametro delimitato dalla stringa nell&#39;argomento `de` .
 
-## Chiamate di esempio
-
-### Esempio n. 1
-
-Se l’URL corrente è il seguente:
+## Esempi
 
 ```js
-http://www.abc123.com/?cid=trackingcode1
+// Given the URL https://example.com/?cid=trackingcode
+// Sets the campaign variable to "trackingcode"
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode:123"
+s.campaign = getQueryParam('cid,ecid',':');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode123"
+s.campaign = getQueryParam('cid,ecid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123#location
+// Sets the campaign variable to "123"
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com/#location&cid=trackingcode&ecid=123
+// Sets the campaign variable to "123"
+// The plug-in replaces the URL's hash character with a question mark if a question mark doesn't exist.
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com
+// Does not set the campaign variable to a value.
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com
+// Sets the campaign variable to "trackingcode"
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid','',s.pageURL);
+
+// Given the URL https://example.com
+// Sets eVar2 to "123|trackingcode|true|300"
+s.eVar1 = "https://example.com/?cid=trackingcode&ecid=123#location&pos=300";
+s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ```
-
-Il codice seguente imposta s.campaign su &quot;trackingcode1&quot;:
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-### Esempio n. 2
-
-Se l’URL corrente è il seguente:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-Il codice seguente imposta s.campaign su &quot;trackingcode1:123456&quot;:
-
-```js
-s.campaign=s.getQueryParam('cid,ecid',':');
-```
-
-### Esempio n. 3
-
-Se l’URL corrente è il seguente:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-Il codice seguente imposta s.campaign su &quot;trackingcode1123456&quot;:
-
-```js
-s.campaign=s.getQueryParam('cid,ecid');
-```
-
-### Esempio n. 4
-
-Se l’URL corrente è il seguente:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
-```
-
-Il codice seguente imposta s.campaign su &quot;123456&quot;:
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-### Esempio n. 5
-
-Se l’URL corrente è il seguente:
-
-```js
-http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
-```
-
-Il codice seguente imposta s.campaign su &quot;123456&quot;
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-**Nota:** il plug-in sostituisce l&#39;URL del carattere hash di Check con un punto interrogativo se non esiste un punto interrogativo.  Se l&#39;URL contiene un punto interrogativo che viene prima del carattere hash, il plug-in sostituirà l&#39;URL del carattere hash di Check con una e commerciale;
-
-### Esempio n. 6
-
-Se l&#39;URL corrente è il seguente..
-
-```js
-http://www.abc123.com/
-```
-
-...e se la variabile s.testURL è impostata come segue:
-
-```js
-s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
-```
-
-Il codice seguente non imposta affatto s.campaign:
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-Tuttavia, il codice seguente imposta s.campaign su &quot;trackingcode1&quot;:
-
-```js
-s.campaign=s.getQueryParam('cid','',s.testURL);
-```
-
-**Nota:** il terzo parametro può essere qualsiasi stringa/variabile che il codice utilizzerà per cercare di trovare i parametri della stringa di query in
-
-Il codice seguente imposta s.eVar2 su &quot;123456|trackingcode1|true|300&quot;:
-
-```js
-s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
-```
-
-* Il valore 123456 proviene dal parametro ecid nella variabile s.testURL
-* Il valore di trackingcode1 proviene dal parametro cid nella variabile s.testURL
-* Il valore true deriva dall&#39;esistenza (ma non dal valore) del parametro di posizione dopo il carattere hash nella variabile s.testURL
-
-Il valore di 300 deriva dal valore del parametro pos nella variabile s.testURL
 
 ## Cronologia versioni
 
