@@ -2,9 +2,9 @@
 title: cleanStr
 description: Rimuovere o sostituire tutti i caratteri non necessari da una stringa.
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
@@ -57,51 +57,24 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## Usa il plug-in
 
-Il metodo `cleanStr` utilizza i seguenti argomenti:
+La funzione `cleanStr` utilizza i seguenti argomenti:
 
 * **`str`** (obbligatorio, stringa): Il valore che si desidera eliminare dalla codifica HTML, spazi bianchi aggiuntivi, schede o altri caratteri non necessari.
 
-Il metodo restituisce il valore dell&#39;argomento `str` rimuovendo tutti i caratteri non necessari.
+La funzione restituisce il valore dell&#39;argomento `str` con tutti i caratteri non necessari rimossi.
 
 ## Esempi
 
-### Esempio n. 1
-
-Supponiamo quanto segue (dove i punti rappresentano gli spazi e le frecce rappresentano i caratteri di tabulazione)
-
 ```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-Quando esegui il seguente codice...
-
-```js
+// Returns the value "this is a messystring". Note that both tabs and extra spaces are present in the original string.
+// Multiple spaces are reduced to one, while tabs are omitted entirely.
+s.eVar1 = "  this  is a      messy  string    ";
 s.eVar1 = cleanStr(s.eVar1)
+
+// This function call does not do anything because the code does not assign the returned value to a variable.
+s.eVar1 = "  this  is a      messy  string    ";
+cleanStr(s.eVar1);
 ```
-
-...eVar1 verrà impostato come uguale a &quot;this is a messystring&quot; (questa è una stringa di messaggio) (tutti gli spazi extra e tutti i caratteri di tabulazione rimossi)
-
-### Esempio n. 3
-
-Se viene mostrato...
-
-```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-...e viene eseguito il seguente codice...
-
-```js
-cleanStr(s.eVar1)
-```
-
-...il valore finale di s.eVar1 sarà ancora:
-
-```js
-"»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-L&#39;esecuzione del plug-in da sola (senza assegnare il valore restituito a una variabile) in realtà non &quot;reimposta&quot; la variabile passata attraverso l&#39;argomento str.
 
 ## Cronologia versioni
 
