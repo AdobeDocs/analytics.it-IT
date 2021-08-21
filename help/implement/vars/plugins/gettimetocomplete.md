@@ -2,10 +2,10 @@
 title: getTimeToComplete
 description: Misura il tempo necessario per completare un'attività.
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 0%
+source-wordcount: '557'
+ht-degree: 1%
 
 ---
 
@@ -57,51 +57,31 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## Usa il plug-in
 
-Il metodo `getTimeToComplete` utilizza i seguenti argomenti:
+La funzione `getTimeToComplete` utilizza i seguenti argomenti:
 
 * **`sos`** (facoltativo, stringa): Impostare su  `"start"` quando si desidera avviare il timer. Impostare su `"stop"` per arrestare il timer. Predefinito su `"start"`.
 * **`cn`** (facoltativo, stringa): Nome del cookie da memorizzare l&#39;ora di inizio. Predefinito su `"s_gttc"`.
 * **`exp`** (facoltativo, numero intero): Il numero di giorni di scadenza del cookie (e del timer). Il valore predefinito è `0`, che rappresenta la fine della sessione del browser.
 
-Una chiamata a questo metodo restituisce una stringa contenente il numero di giorni, ore, minuti e/o secondi necessari tra l&#39;azione `"start"` e `"stop"`.
+Una chiamata a questa funzione restituisce una stringa contenente il numero di giorni, ore, minuti e/o secondi necessari tra l&#39;azione `"start"` e `"stop"`.
 
-## Chiamate di esempio
-
-### Esempio n. 1
-
-Utilizza queste chiamate per determinare l&#39;intervallo di tempo tra l&#39;avvio del processo di pagamento da parte di un visitatore e il momento in cui effettua un acquisto.
-
-Avvia il timer quando il visitatore avvia il pagamento:
+## Esempi
 
 ```js
-if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
+// Start the timer when the visitor starts the checkout
+if(s.events.indexOf("scCheckout") > -1) getTimeToComplete("start");
+
+// Stop the timer when the visitor makes the purchase and set prop1 to the time difference between stop and start
+// Sets prop1 to the amount of time it took to complete the purchase process
+if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
+
+// Simultaneously track the time it takes to complete a purchase and to fill out a registration form
+// Stores each timer in their own respective cookies so they run independently
+if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
 ```
-
-Arresta il timer quando il visitatore effettua l’acquisto e imposta prop1 sulla differenza di tempo tra stop e start:
-
-```js
-if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
-```
-
-s.prop1 acquisirà il tempo necessario per completare il processo di acquisto
-
-### Esempio n. 2
-
-Se desideri che siano in esecuzione più timer contemporaneamente (per misurare processi diversi), dovrai impostare manualmente l’argomento cookie cn.  Ad esempio, se desideri misurare il tempo necessario per il completamento di un acquisto, imposta il seguente codice..
-
-```javascript
-if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase");
-if(s.inList(s.events, "purchase")) s.prop1 = s.getTimeToComplete("start", "gttcpurchase");
-```
-
-...ma se desideri anche misurare (allo stesso tempo) il tempo necessario per compilare un modulo di registrazione, esegui anche il seguente codice:
-
-```js
-if(s.inList(s.events, "event1")) s.getTimeToComplete("start", "gttcregister", 7);
-if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregister", 7);
-```
-
-Nel secondo esempio, event1 è destinato a catturare l&#39;inizio di un processo di registrazione che potrebbe richiedere fino a 7 giorni per essere completato, per qualsiasi motivo, e event2 è destinato a catturare il completamento della registrazione.  s.prop2 acquisirà il tempo necessario per completare il processo di registrazione
 
 ## Cronologia versioni
 
