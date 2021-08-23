@@ -2,9 +2,9 @@
 title: IP e domini utilizzati da Adobe Analytics
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP derivanti dall’Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: d941e4308352d6228e73bc7f7443a36ffd374b0c
+source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '407'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ La tabella seguente illustra tutti i server di raccolta dati standard e i server
 
 ## Blocchi di indirizzi IP per la raccolta dati e l’FTP
 
-Se la tua organizzazione preferisce consentire intervalli di indirizzi IP specifici, puoi utilizzare la tabella seguente. Tutti gli intervalli in questa sezione sono inclusi nella tabella precedente.
+Se la tua organizzazione preferisce consentire intervalli di indirizzi IP specifici, puoi utilizzare la tabella seguente. Tutti gli intervalli in questa sezione sono inclusi nella tabella precedente. Le connessioni FTP per Data Warehouse e Data Feeds provengono solo dalle posizioni Londra, Oregon e Singapore.
 
 | Posizione | Intervallo IP (notazione CIDR) |
 | --- | --- |
