@@ -6,9 +6,9 @@ title: Riferimento colonna dati
 feature: Nozioni di base su Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3407'
+source-wordcount: '3422'
 ht-degree: 3%
 
 ---
@@ -199,8 +199,8 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `state` | Variabile di stato. | varchar(50) |
 | `stats_server` | Non è utile. Adobe di server interno che ha elaborato l&#39;hit. | char(30) |
 | `t_time_info` | Ora locale del visitatore. Il formato è: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Utilizzato nelle integrazioni Adobe Target. | text |
-| `tnt_action` | Utilizzato nelle integrazioni Adobe Target. | text |
+| `tnt` | Utilizzato nelle integrazioni Adobe Target. Rappresenta tutti i test attualmente qualificati per. Il formato è: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | text |
+| `tnt_action` | Utilizzato nelle integrazioni Adobe Target. Rappresenta tutti i test per i quali l&#39;hit è qualificato. | text |
 | `tnt_post_vista` | Non più utilizzato. Utilizza invece `post_tnt` . | text |
 | `transactionid` | Identificatore univoco in cui è possibile caricare diversi punti dati in un secondo momento tramite origini dati. Raccolte utilizzando la variabile [`transactionID`](/help/implement/vars/page-vars/transactionid.md) . | text |
 | `truncated_hit` | Flag che indica che la richiesta di immagine è stata troncata. Indica che è stato ricevuto un hit parziale. <br>Y: Hit troncato; hit parziale ricevuto  <br>N: Hit non troncato; hit completo ricevuto | char(1) |
