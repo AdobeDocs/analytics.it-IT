@@ -2,9 +2,9 @@
 title: Utilizzo dei dati XDM con Analytics
 description: Panoramica dell’utilizzo di dati XDM da Experience Platform in Adobe Analytics
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
-source-git-commit: 501b64c7704c234b21a5ccb428883bc6fcaf166a
+source-git-commit: 3def20b348713b580429e342ad3319963cae6549
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Analytics raccoglie i dati XDM tramite due metodi:
 
 ## Mappatura automatica
 
-La mappatura automatica si basa su uno [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) predefinito in XDM che popola automaticamente gli oggetti JSON inclusi nella tipica raccolta dati di Analytics. Le variabili di Analytics mappate automaticamente da XDM alle suite di rapporti configurate non richiedono alcun supporto per gli sviluppatori da incorporare.
+La mappatura automatica si basa su uno [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) predefinito in XDM che popola automaticamente gli oggetti JSON inclusi nella tipica raccolta dati di Analytics. Le variabili di Analytics mappate automaticamente da XDM alle suite di rapporti configurate non richiedono alcun supporto per gli sviluppatori da incorporare. Consulta [Variabili mappate automaticamente in Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html) nella guida utente di Platform Web SDK.
 
 ## Mappatura manuale
 
