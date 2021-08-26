@@ -1,13 +1,13 @@
 ---
 description: Ti consente di utilizzare il segmento per l’attività di marketing nella Libreria tipi di pubblico, Target e nell’Audience Manager.
 title: Pubblicare segmenti in Experience Cloud
-feature: Segmentazione
+feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 14%
+source-wordcount: '1229'
+ht-degree: 15%
 
 ---
 
@@ -25,10 +25,8 @@ Inoltre, è stato aumentato il numero massimo di segmenti Adobe Analytics pubbli
 ## Prerequisiti
 
 * Assicurati che la suite di rapporti in cui stai salvando il segmento sia [abilitata per l&#39;Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html). In caso contrario, non puoi pubblicarlo nell’Experience Cloud.
-* Assicurati di lavorare in una suite di rapporti [mappata all&#39;organizzazione Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * Assicurati che la tua organizzazione utilizzi gli ID Experience Cloud.
-* Prima di poter pubblicare i segmenti, l’amministratore deve assegnare l’autorizzazione [!UICONTROL Segment Publishing] a un profilo di prodotto nell’ [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) e aggiungerti al profilo di prodotto.
-
+* Prima di poter pubblicare i segmenti, l’amministratore deve assegnare l’autorizzazione [!UICONTROL Segment Publishing] a un profilo di prodotto nell’ [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it) e aggiungerti al profilo di prodotto.
 
 ## Considerazioni
 
@@ -107,7 +105,7 @@ Le schermate seguenti mostrano come recuperare l’UUID AAM sul browser e utiliz
 
 1. Avviare Chrome Developer Tools prima di caricare una pagina
 1. Carica la pagina e controlla Applicazioni > Cookie. L’UUID AAM deve essere impostato in terze parti
-Cookie demdex ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) nell&#39;esempio seguente). Il campo demdex è il set UUID AAM
+Cookie demdex ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=it) nell&#39;esempio seguente). Il campo demdex è il set UUID AAM
 nel browser (`50814298273775797762943354787774730612` nell’esempio seguente).
 
 ![Strumenti per sviluppatori Chrome](assets/ggogle-uuid.png)

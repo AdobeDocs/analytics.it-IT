@@ -3,10 +3,10 @@ title: Aggiornamenti alla documentazione tecnica per Adobe Analytics
 description: Aggiornamenti di rilievo al set di documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2847'
-ht-degree: 63%
+source-wordcount: '2841'
+ht-degree: 62%
 
 ---
 
@@ -31,7 +31,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 2 agosto 2021 | Sono state aggiornate più pagine per riflettere il branding di [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) |
 | **Luglio 2021** |  |
 | 23 luglio 2021 | Nuova discussione approfondita su [eVar per merchandising](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
-| 15 luglio 2021 | È stata aggiunta una nuova documentazione sulla nuova [pagina di destinazione Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=it) |
+| 15 luglio 2021 | È stata aggiunta una nuova documentazione sulla nuova [pagina di destinazione Adobe Analytics](/help/analyze/landing.md) |
 | **Giugno 2021** |  |
 | 15 giugno 2021 | Aggiornate le [best practice per i canali di marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
 | 3 giugno 2021 | La documentazione è stata aggiornata per spiegare meglio l’[implementazione di feed dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) e in [questa sezione](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl). |
@@ -114,7 +114,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | **2019** |  |
 | 19 dicembre 2020 | Il limite di archiviazione dei dati [FTP predefinito](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) è stato modificato in 10 GB. |
 | 29 novembre 2019 | Revisione della [Documentazione del feed dati](/help/export/analytics-data-feed/data-feed-overview.md). |
-| 25 novembre 2019 | Nuovo argomento su [Fine del ciclo di vita per Applica restrizioni di accesso per gli indirizzi IP](/help/admin/company/login-restrictions-eol.md). |
+| 25 novembre 2019 | Nuovo argomento su Fine del ciclo di vita per Applica restrizioni di accesso per gli indirizzi IP. |
 | 21 novembre 2019 | Nuova documentazione impostata per l&#39;[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html). |
 | 21 novembre 2019 | Aggiornamento di [Audience Analytics Workflow FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en) per indicare la disponibilità in LiveStream. |
 | 25 ottobre 2019 | Pagina [Adobe Analytics Key Concepts](/help/technotes/terms.md) aggiornata. |

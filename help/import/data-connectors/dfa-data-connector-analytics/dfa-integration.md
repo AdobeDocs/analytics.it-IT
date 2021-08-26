@@ -5,9 +5,9 @@ title: Integrazione DFA
 feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2590'
 ht-degree: 1%
 
 ---
@@ -116,11 +116,11 @@ Le pagine di configurazione forniscono una panoramica dell’integrazione, insie
  </tbody> 
 </table>
 
-## Aggiornamenti del sito web per l&#39;integrazione DFA{#web-site-updates-for-the-dfa-integration}
+## Aggiornamenti del sito web per l’integrazione DFA{#web-site-updates-for-the-dfa-integration}
 
 Una volta che Genesis ha configurato la suite di rapporti di Analytics per l’integrazione DFA, è necessario effettuare le seguenti operazioni per configurare il sito Web e l’ambiente DFA per supportare l’integrazione:
 
-### Verifica lo spazio dei cookie sul dominio{#verify-cookie-space-on-the-domain}
+### Verifica dello spazio dei cookie sul dominio{#verify-cookie-space-on-the-domain}
 
 L’integrazione dei Data Connectors per DFA richiede di impostare un cookie sul dominio della pagina.
 
@@ -136,7 +136,7 @@ Per capire quando richiedere dati di visualizzazione e click-through dai dati DF
 >
 >Anche se la variabile Campaign può essere utilizzata per altre campagne, non utilizzarla per le campagne DFA. Se imposti la variabile Campaign su una pagina di destinazione della campagna DFA, Adobe non può collegare impression e clic ai click-through di una campagna DFA. Una volta per visita, i server di raccolta Adobe controllano i server DFA per un click-through precedente. Per questo motivo, includi il codice plug-in DFA solo sulle pagine di destinazione comuni per evitare reindirizzamenti non necessari che possano rallentare i tempi di caricamento delle pagine, in particolare per gli utenti con connessioni Internet più lente.
 
-## Aggiorna il codice di raccolta dati del sito Web{#update-your-web-site-s-data-collection-code}
+## Aggiornare il codice di raccolta dati del sito Web{#update-your-web-site-s-data-collection-code}
 
 L’integrazione del Genesis per DFA sfrutta l’ID di configurazione DFA Floodlight (dfa_SPOTID), che migliora la coerenza dei rapporti tra il sistema di raccolta dati DFA e Adobe.
 
@@ -176,7 +176,7 @@ var dfaConfig = {
    tEvar:             "eVar17", 
    errorEvar:         "eVar59", 
    timeoutEvent:      "event76", 
-   requestURL:         "http://fls.doubleclick.net/ 
+   requestURL:         "https://fls.doubleclick.net/ 
 json?spot=[SPOTID]&src=[CSID]&var=[VAR]&host=integrate.112.2o7.net%2 
 Fdfa_echo%3Fvar%3D[VAR]%26AQE%3D1%26A2S%3D1&ord=[RAND]", 
  
@@ -223,7 +223,7 @@ L’aggiunta del Codice di raccolta incorpora plug-in aggiuntivi che migliorano 
 >
 >Uno dei meccanismi utilizzati dal plug-in per eliminare le query DFA non necessarie è un cookie di visita basato su dominio. Una suite di rapporti per l’integrazione che si estende su più domini genera dati click-through e view-through quando i visitatori attraversano più domini dopo un click-through o una visualizzazione influenzata da DFA.
 
-## Conferma di un&#39;integrazione DFA riuscita{#confirming-a-successful-dfa-integration}
+## Conferma di un’integrazione DFA riuscita{#confirming-a-successful-dfa-integration}
 
 Dopo aver effettuato tutti gli aggiornamenti necessari al sito Web, puoi utilizzare un visualizzatore del traffico di rete, come Charles*, Chrome Developer Tools o Firebug*, per confermare che DFA sta comunicando con i server di raccolta di Adobe.
 

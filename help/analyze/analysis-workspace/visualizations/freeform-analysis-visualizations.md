@@ -2,12 +2,12 @@
 description: Rappresenta visivamente i dati con le visualizzazioni.
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
-feature: Visualizzazioni
+feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1081'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '1062'
 ht-degree: 100%
 
 ---
@@ -77,8 +77,6 @@ Per modificare un’etichetta di legenda:
 
 1. Inserisci il nuovo testo dell’etichetta.
 1. Fai clic su **[!UICONTROL Enter]** per salvare.
-
-Per approfondire, utilizza questo [collegamento a un video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=it) sull’argomento.
 
 ## Menu di scelta rapida {#right-click}
 

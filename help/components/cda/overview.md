@@ -2,8 +2,7 @@
 title: Analytics tra dispositivi
 description: Modifica i dati da incentrati sul dispositivo a quelli incentrati sulla persona combinando i dati del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-translation-type: tm+mt
-source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 16%
@@ -29,7 +28,7 @@ Quando i dispositivi sono uniti, la persistenza della variabile viene riportata 
 
 In uno spirito di collaborazione e trasparenza, vogliamo che i nostri clienti siano consapevoli del nostro utilizzo di Microsoft Azure in associazione con Cross-Device Analytics. Adobe utilizza Azure per memorizzare i dati del grafico dei dispositivi ed eseguire unione tra dispositivi. Di conseguenza, i dati di Adobe Analytics vengono trasmessi avanti e indietro tra il centro di elaborazione dati di Adobe e le istanze di Microsoft Azure fornite da Adobe.
 
-Vedi [Percorsi IQ: Pagina di Spark di Analytics tra dispositivi](http://adobe.ly/aacda) per ulteriori informazioni sulle funzionalità e le funzionalità di Cross-Device Analytics.
+Vedi [Percorsi IQ: Pagina di Spark di Analytics tra dispositivi](https://adobe.ly/aacda) per ulteriori informazioni sulle funzionalità e le funzionalità di Cross-Device Analytics.
 
 ## Prerequisiti
 
@@ -38,7 +37,7 @@ L’utilizzo di CDA richiede tutti i seguenti elementi. [Anche i metodi di ](fie
 * È necessario firmare un contratto con un Adobe che includa Adobe Analytics Ultimate.
 * Analisi multidispositivo è abilitata per ogni suite di rapporti. Adobe consiglia una suite di rapporti che contiene dati multi-dispositivo, ovvero dati provenienti da più tipi di dispositivi (web, app, ecc.). Alcune organizzazioni fanno riferimento a questo concetto come a una suite di rapporti &quot;globale&quot;, anche se CDA non deve necessariamente essere globale da un punto di vista geografico.
 
-## Limitazioni
+## Limitazioni 
 
 Analisi multidispositivo è una funzione innovativa e affidabile, ma presenta limitazioni nel modo in cui può essere utilizzata. [Anche i metodi di ](field-based-stitching.md) unione basati su campi e  [grafici dei dispositivi ](device-graph.md) presentano limitazioni specifiche.
 

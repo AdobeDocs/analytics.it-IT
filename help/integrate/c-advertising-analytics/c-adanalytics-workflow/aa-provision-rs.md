@@ -3,10 +3,10 @@ description: Configura un Experience Cloud di suite di rapporti mappata da utili
 title: Abilita suite di rapporti per Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 14%
+source-wordcount: '251'
+ht-degree: 15%
 
 ---
 
@@ -14,7 +14,6 @@ ht-degree: 14%
 
 Per visualizzare qualsiasi dato di ricerca Advertising Analytics in Analytics, devi configurare ogni suite di rapporti mappata su Experience Cloud per il reporting di Advertising Analytics.
 
-1. [Mappa la suite di rapporti su un’organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 1. Passa a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
 1. Seleziona la suite di rapporti mappata nell’organizzazione Experience Cloud.

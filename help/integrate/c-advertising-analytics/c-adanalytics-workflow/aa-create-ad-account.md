@@ -2,10 +2,10 @@
 title: Come impostare un account Advertising in Advertising Analytics
 description: Consente di creare nuovi account pubblicitari e di eseguire il mapping di più account a più suite di rapporti.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 3%
+source-wordcount: '805'
+ht-degree: 4%
 
 ---
 
@@ -64,24 +64,24 @@ Compila le seguenti **[!UICONTROL Tracking Settings]** linee guida:
 
    >[!IMPORTANT]
    >
-   >Solo le suite di rapporti mappate [a un&#39;organizzazione Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) saranno disponibili per la selezione. Se la suite di rapporti non è elencata, consulta [Risoluzione dei problemi relativi ad Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Puoi selezionare solo le suite di rapporti mappate a un’organizzazione Experience Cloud. Se la suite di rapporti non è elencata, consulta [Risoluzione dei problemi relativi ad Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    Per **[!UICONTROL Mapping Settings]** seguire le seguenti linee guida:
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Impostazione </th> 
-      <th colname="col2" class="entry"> Descrizione </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Mappatura di suite di rapporti </p> </td> 
-      <td colname="col2"> <p>La mappatura della suite di rapporti determina la suite di rapporti che viene collegata a questo account del motore di ricerca. In altre parole, determina in quali suite di rapporti vengono inviati i dati del motore di ricerca. </p> <p>Se la suite di rapporti non è elencata, è possibile <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  > mappare la suite di rapporti su un'organizzazione di Experience Cloud</a> utilizzando questo strumento. </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> Impostazione </th> 
+   <th colname="col2" class="entry"> Descrizione </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>Mappatura di suite di rapporti </p> </td> 
+   <td colname="col2"> <p>La mappatura della suite di rapporti determina la suite di rapporti che viene collegata a questo account del motore di ricerca. In altre parole, determina in quali suite di rapporti vengono inviati i dati del motore di ricerca. </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
 1. Fai clic su **[!UICONTROL Save]**.
 1. Dopo il salvataggio, una liberatoria visualizza un elenco di avvertenze. Ti viene chiesto di confermare di aver letto e di comprendere questo accordo. Fai clic sulla casella di controllo, quindi fai clic su **[!UICONTROL OK]**.

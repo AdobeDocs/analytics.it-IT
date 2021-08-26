@@ -3,9 +3,9 @@ description: La scheda Utilizzo suite di rapporti fornisce i dati di utilizzo de
 title: Visualizzazione dell'utilizzo della suite di rapporti
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '418'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ La scheda Utilizzo suite di rapporti fornisce i dati di utilizzo del server per 
 
 >[!IMPORTANT]
 >
->Se una suite di rapporti non è [collegata a un&#39;organizzazione Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html), i relativi dati di utilizzo non verranno riportati in questo dashboard. Inoltre, un ID di fatturazione potrebbe essere associato a più organizzazioni di Experience Cloud; non esiste sempre una relazione 1:1 tra un’organizzazione e un ID di fatturazione.
+>Se una suite di rapporti non è collegata a un&#39;organizzazione Experience Cloud, i relativi dati di utilizzo non vengono riportati in questo dashboard. Inoltre, un ID di fatturazione potrebbe essere associato a più organizzazioni di Experience Cloud; non esiste sempre una relazione 1:1 tra un’organizzazione e un ID di fatturazione.
 
 Dashboard di utilizzo della suite di rapporti
 

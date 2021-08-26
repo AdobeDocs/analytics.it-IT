@@ -3,9 +3,9 @@ description: Risolvere i problemi relativi ad Advertising Analytics.
 title: Risoluzione dei problemi relativi ad Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '168'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Stai cercando di [configurare un nuovo account pubblicitario](/help/integrate/c-
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. La suite di rapporti non è mappata all'ID organizzazione Experience Cloud dell'utente di accesso. </p> </td> 
-   <td colname="col2"> <p>Per istruzioni, fai riferimento a <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  > Mappatura di suite di rapporti per un'organizzazione</a> . </p> </td> 
+   <td colname="col2"> <p>Contatta l’Assistenza clienti per mappare la suite di rapporti su un’organizzazione IMS.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Non è stato effettuato il provisioning della suite di rapporti per il reporting di Advertising Analytics. </p> </td> 

@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '723'
+ht-degree: 99%
 
 ---
 
@@ -125,7 +125,6 @@ ht-degree: 0%
    + [Co-branding](company/co-branding-admin.md)
    + [Nascondere suite di rapporti](company/c-hide-report-suites.md)
    + [Sicurezza Manager](company/security-manager.md)
-   + [Fine di &quot;Applica restrizioni di accesso IP&quot;](company/login-restrictions-eol.md)
 + Gestione suite di rapporti {#manage-report-suites}
    + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
    + [Suite di rapporti rollup e globali](c-manage-report-suites/rollup-report-suite.md)

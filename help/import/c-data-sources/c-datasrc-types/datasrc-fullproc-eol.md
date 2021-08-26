@@ -2,7 +2,7 @@
 title: Terminazione dell'elaborazione completa delle origini dati
 description: Motivi della fine del ciclo di vita e confronti tra API di inserimento dati in blocco e Origini dati di elaborazione completa.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 27%
@@ -13,7 +13,7 @@ ht-degree: 27%
 
 Per diversi anni, Origini dati a elaborazione completa ti ha consentito di inviare dati a livello di hit ad Adobe Analytics. Questi dati sono stati elaborati allo stesso modo dei dati raccolti tramite le nostre librerie JavaScript e l’SDK per app mobili. Nel 2020, Adobe ha rilasciato l’ [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), che esegue le stesse funzioni di Origini dati a elaborazione completa, ma con funzioni aggiuntive. Questo argomento fornisce dettagli sulle funzionalità aggiuntive fornite dall’API di inserimento dati in blocco e illustra le differenze nei formati di file.
 
-A partire dal 25 marzo 2021, Adobe impedirà la creazione di nuove connessioni Origini dati Elaborazione completa . Le connessioni esistenti continueranno a essere supportate fino a quando il servizio non sarà completamente obsoleto il 31 luglio 2021. Oltre alla documentazione standard, forniamo una guida dettagliata dei [passaggi necessari per inviare dati tramite API di inserimento dati in blocco](http://adobe.ly/aabdia).
+A partire dal 25 marzo 2021, Adobe impedirà la creazione di nuove connessioni Origini dati Elaborazione completa . Le connessioni esistenti continueranno a essere supportate fino a quando il servizio non sarà completamente obsoleto il 31 luglio 2021. Oltre alla documentazione standard, forniamo una guida dettagliata dei [passaggi necessari per inviare dati tramite API di inserimento dati in blocco](https://adobe.ly/aabdia).
 
 ## Perché terminiamo questa funzione?
 
@@ -23,7 +23,7 @@ L’API di inserimento dati in blocco (BDIA) fornisce funzionalità aggiuntive e
 
 * L’inserimento di dati in blocco consente l’invio di più file che possono essere elaborati in parallelo. Puoi utilizzare i gruppi di visitatori per garantire la continuità del visitatore e l’attribuzione eVar.
 * L’inserimento di dati in blocco dispone di funzionalità di convalida dei dati e di gestione degli errori, rimuovendo così parte del lavoro amministrativo di invio dei dati degli hit.
-* L’inserimento dati in blocco supporta diverse opzioni per gli ID visitatore. Puoi inviare sia l’ID di Analytics che l’ID di Marketing Cloud (per ulteriori informazioni, consulta [Servizio identità](https://experienceleague.adobe.com/docs/id-service/using/home.html) ). Inoltre, puoi utilizzare il tuo ID come [seed per generare un ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
+* L’inserimento dati in blocco supporta diverse opzioni per gli ID visitatore. Puoi inviare sia l’ID di Analytics che l’ID di Marketing Cloud (per ulteriori informazioni, consulta [Servizio identità](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) ). Inoltre, puoi utilizzare il tuo ID come [seed per generare un ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
 * L’inserimento di dati in blocco supporta le variabili di dati di elenco e di contesto.
 * L’inserimento dati in blocco non supporta i dati di Activity Map.
 

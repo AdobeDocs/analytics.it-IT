@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Panoramica di Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 30%
+source-wordcount: '453'
+ht-degree: 32%
 
 ---
 
@@ -46,7 +46,7 @@ Assicurati che vi siano i seguenti prerequisiti:
 * Sei cliente di Audience Manager e Adobe Analytics.
 * Sei un amministratore di Audience Manager.
 * Stai utilizzando il servizio Identity v1.5 o successivo.
-* Le suite di rapporti AAM e Adobe Analytics sono [mappate nella stessa organizzazione di Experienci Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
-* Utilizza [inoltro lato server](/help/admin/admin/c-server-side-forwarding/ssf.md) e hai implementato il modulo [Gestione dell&#39;audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (nessun codice DIL) - AppMeasurement 1.5 o successivo.
+* Le suite di rapporti AAM e Adobe Analytics sono mappate nella stessa organizzazione di Experienci Cloud.
+* Utilizza [inoltro lato server](/help/admin/admin/c-server-side-forwarding/ssf.md) e hai implementato il modulo [Gestione dell&#39;audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it) (nessun codice DIL) - AppMeasurement 1.5 o successivo.
 
 Questi prerequisiti sono descritti nel [Flusso di lavoro di Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

@@ -2,14 +2,13 @@
 description: Utilizza il connettore dati Selligent con Adobe Analytics.
 title: Connettore dati Selligent per Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: baeabd9c-10bc-4733-8779-abfa81807c54
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 4%
 
 ---
-
 
 # Connettore dati Selligent per Adobe Analytics{#selligent-data-connector-for-adobe-analytics}
 
@@ -54,7 +53,7 @@ Elenca le azioni necessarie da eseguire in Adobe Analytics prima di poter distri
 | Tracciamento esterno | Se al momento non segui la best practice per abilitare il tracciamento esterno per ogni campagna e-mail inviata, devi farlo per garantire il successo dell’integrazione. Per ulteriori informazioni, consulta la sezione Selligent . |
 | Conformità alla privacy | È importante comprendere che abilitando il tracciamento del Destinatario o del Visitatore ID, questa funzione può tracciare le informazioni personali dei visitatori del sito. Questo ha implicazioni in materia di privacy che richiedono l’implementazione di procedure appropriate da parte dell’organizzazione, ad esempio l’invio di avvisi ai visitatori del sito e il loro consenso. |
 
-## Configura le variabili di Analytics per Selligent{#configure-analytics-variables-for-selligent}
+## Configurare le variabili di Analytics per Selligent{#configure-analytics-variables-for-selligent}
 
 Questa integrazione richiede 2 eVar da riservare per ogni implementazione della suite di rapporti.
 
@@ -84,13 +83,13 @@ Oltre a queste eVar, alcuni eventi possono essere riservati a seconda dei dati d
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
-   <td colname="col2"> Inviato </td> 
+   <td colname="col2"> Inviate </td> 
    <td colname="col3"> Per memorizzare il numero di e-mail inviate da Selligent. </td> 
    <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
-   <td colname="col2"> Consegnato </td> 
+   <td colname="col2"> Consegnate </td> 
    <td colname="col3"> Memorizzare il numero di e-mail consegnate. </td> 
    <td colname="col4"> <p><b>Tipo</b>: Numerico </p> <p><b>Partecipazione</b>: Abilitato </p> </td> 
   </tr> 
@@ -131,7 +130,7 @@ Durante questa configurazione dell’integrazione, dovrai ottenere le seguenti i
 
    L’URL può essere derivato dall’URL utilizzato per accedere alla soluzione Selligent Marketing. Sostituisci la parte &quot;/simweb/login.aspx&quot; dell’url con &quot;/automation/omniture.asmx&quot;
 
-   Ad esempio: `http://<client-specific install url>/automation/omniture.asmx`
+   Ad esempio: `https://<client-specific install url>/automation/omniture.asmx`
 
 * **Parametri stringa di query:** questi vengono aggiunti all’URL della pagina di destinazione per ID messaggio e ID destinatario (ID visitatore). Sono sempre MID e RID rispettivamente per ID messaggio e ID destinatario.
 

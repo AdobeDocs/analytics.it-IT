@@ -4,10 +4,10 @@ solution: Audience Manager
 title: Panoramica sull'inoltro lato server
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 9%
+source-wordcount: '821'
+ht-degree: 12%
 
 ---
 
@@ -32,7 +32,7 @@ Per capire dove si trova la tua organizzazione in termini di implementazione del
 
 ## ![step1_icon.png ](assets/step1_icon.png) imageVerifica l&#39;implementazione del servizio ECID
 
-Verifica se il servizio Experience Cloud ID (ECID) è implementato, controllando la [richiesta di tracciamento Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html).
+Verifica se il servizio Experience Cloud ID (ECID) è implementato, controllando la [richiesta di tracciamento Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=it).
 
 Nella scheda Request (Richiesta), verifica che sia impostato un valore ECID. Questo indica che il servizio Identity è implementato correttamente, il che è un prerequisito per l’inoltro lato server.
 
@@ -51,7 +51,7 @@ Nella scheda &quot;Risposta&quot;, controlla che la risposta contenga dati di Au
 
    * **Clienti AAM con DIL**: coordinare in stretto collegamento i due elementi seguenti:
 
-      1. Rimuovi il codice DIL e installa il codice della pagina [modulo Gestione dell&#39;audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
+      1. Rimuovi il codice DIL e installa il codice della pagina [modulo Gestione dell&#39;audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it).
       1. Abilita l’inoltro lato server nell’interfaccia utente di amministrazione di Analytics come descritto al passaggio 3. Se abiliti questa impostazione prima di rimuovere il codice DIL, i dati verranno duplicati e verranno create chiamate server fatturate aggiuntive per Audience Manager.
    * **Nuovi clienti AAM** : installa il codice del modulo  [Gestione dell&#39;audience ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) e continua il passaggio 3. I dati verranno inviati ad Audience Manager solo dopo l&#39;attivazione dell&#39;inoltro lato server al passaggio 3.
 
@@ -64,7 +64,7 @@ L’inoltro lato server a livello di suite di rapporti è consigliato rispetto a
 
 Vai a **Analytics** > **Amministratore** > **Suite di rapporti** > (seleziona **suite di rapporti**) > **Modifica impostazioni** > **Generale** > **Forum lato server warding**. Se la casella di controllo è:
 
-* **Inattivo**  (non è possibile effettuare una selezione o il menu non esiste): le suite di rapporti selezionate non sono mappate nell’organizzazione IMS. Assicurati che le suite di rapporti applicabili siano mappate sull’organizzazione di Experience Cloud corretta utilizzando l’interfaccia utente di mappatura  [suite di rapporti](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
+* **Inattivo**  (non è possibile effettuare una selezione o il menu non esiste): le suite di rapporti selezionate non sono mappate su un’organizzazione IMS. Contatta l’Assistenza clienti per assicurarti che la suite di rapporti sia mappata correttamente.
 * **Disabilitato**: Il nuovo inoltro lato server non è attivato. Leggi il contenuto della pagina e continua ad abilitare la funzione.
 * **Abilitato**: È stato effettuato il provisioning per un nuovo inoltro lato server. Puoi anche configurare questa integrazione di Audience Analytics.
 

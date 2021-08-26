@@ -2,21 +2,21 @@
 description: Informazioni necessarie sulla migrazione degli ID utente di Analytics all’Admin Console in Adobe Experience Cloud.
 title: Migrazione degli utenti di Analytics all’Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '3116'
+source-wordcount: '3113'
 ht-degree: 98%
 
 ---
 
 
-# Migrazione degli utenti di Analytics all’Admin Console {#analytics-user-migration-to-the-admin-console}
+# Migrazione degli utenti di Analytics all’Admin Console{#analytics-user-migration-to-the-admin-console}
 
 Informazioni necessarie sulla migrazione degli ID utente di Analytics all’Admin Console in Adobe Experience Cloud.
 
 Per assistenza generica sugli argomenti relativi all’Admin Console (non correlati alla migrazione di Analytics), vedi la [Guida utente di Admin Console](https://helpx.adobe.com/it/enterprise/administering/user-guide.html).
 
-Dopo la migrazione, puoi [gestire gli utenti e i prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) nella Admin Console.
+Dopo la migrazione, puoi [gestire gli utenti e i prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it) nella Admin Console.
 
 ## Cos’è la migrazione degli ID utente di Analytics? {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -38,7 +38,7 @@ I benefici dell’utilizzo della Admin Console includono:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gestione delle autorizzazioni e delle identità utente </p> </td> 
-   <td colname="col2"> <p>Gli amministratori di Analytics possono gestire gli utenti e le autorizzazioni esclusivamente nell’<a href="http://adminconsole.adobe.com/enterprise/"> Admin Console</a> (http://adminconsole.adobe.com/enterprise/). </p> </td> 
+   <td colname="col2"> <p>Gli amministratori di Analytics possono gestire gli utenti e le autorizzazioni esclusivamente nell’<a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gestire i prodotti e i servizi core </p> </td> 
@@ -142,7 +142,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
  </tbody> 
 </table>
 
-## Cosa bisogna sapere durante la migrazione (FAQ)  {#section-d394524aa6d046d79025bbd7499792bc}
+## Cosa bisogna sapere durante la migrazione (FAQ) {#section-d394524aa6d046d79025bbd7499792bc}
 
 Informazioni importanti sul processo di migrazione e sull’impatto sulla gestione degli utenti correnti.
 
@@ -231,7 +231,7 @@ Informazioni importanti sul processo di migrazione e sull’impatto sulla gestio
  </tbody> 
 </table>
 
-## Cosa bisogna sapere dopo la migrazione (FAQ)  {#section-9681baa01b8c41cdb9659b73b70b50ff}
+## Cosa bisogna sapere dopo la migrazione (FAQ) {#section-9681baa01b8c41cdb9659b73b70b50ff}
 
 <table id="table_F48CC9DFE3424AC9AD76A16882701C8F"> 
  <thead> 
@@ -315,7 +315,7 @@ Per inviare e-mail a tutti gli utenti, passa a **[!UICONTROL Analytics]** > **[!
 
 **Corpo del messaggio:** A tutti gli utenti di Adobe Analytics:
 
-La nostra società inizierà la migrazione di tutti gli account Adobe Analytics da [!DNL https://my.omniture.com/login/] ad Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). Con questa migrazione, il vostro account Adobe Analytics verrà aggiornato per poter accedere ad Analytics mediante Adobe Experience Cloud. Anche se cambierà il metodo di accesso ad Analytics, tutte le vostre autorizzazioni esistenti per gli strumenti e le suite di rapporti verranno preservate.
+La nostra società inizierà la migrazione di tutti gli account Adobe Analytics da [!DNL https://my.omniture.com/login/] ad Adobe Experience Cloud ([experiencecloud.adobe.com](https://experiencecloud.adobe.com/)). Con questa migrazione, il vostro account Adobe Analytics verrà aggiornato per poter accedere ad Analytics mediante Adobe Experience Cloud. Anche se cambierà il metodo di accesso ad Analytics, tutte le vostre autorizzazioni esistenti per gli strumenti e le suite di rapporti verranno preservate.
 
 **Prossime operazioni:** inizieremo a eseguire la migrazione degli utenti a partire dal giorno **INSERISCI DATA**. Riceverete un messaggio di benvenuto con le nuove credenziali all’ID e-mail indicato nel vostro account Analytics. Se non avete collegato un [Adobe ID](https://helpx.adobe.com/it/x-productkb/global/adobe-id-account-change.html) al vostro indirizzo e-mail, vi verrà chiesto di configurare un account.
 

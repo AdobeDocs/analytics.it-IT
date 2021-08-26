@@ -3,7 +3,7 @@ description: Spiega i miglioramenti all'inoltro lato server richiesti dal regola
 title: Conformità a RGPD/ePrivacy e inoltro lato server
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # Conformità a RGPD/ePrivacy e inoltro lato server
 
-Questa sezione spiega i miglioramenti all&#39;inoltro lato server richiesti dal [Regolamento UE sulla conformità dei cookie](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), entrato in vigore il 30 settembre 2017.
+Questa sezione spiega i miglioramenti all&#39;inoltro lato server richiesti dal [Regolamento UE sulla conformità dei cookie](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookie+e+tecnologie simili+tecnologie), entrato in vigore il 30 settembre 2017.
 
 L&#39;inoltro lato server viene utilizzato per condividere in tempo reale i dati da Adobe Analytics ad altri [!DNL Experience Cloud Solutions], ad Audience Manager. Quando abilitato, l’inoltro lato server consente ad Analytics di inviare dati push ad altre soluzioni Experience Cloud e a queste soluzioni di inviare dati in Analytics durante il processo di raccolta dei dati.
 

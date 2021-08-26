@@ -2,7 +2,7 @@
 title: Panoramica sull'implementazione JavaScript del codice H
 description: Scopri il flusso di lavoro per implementare il codice H sul tuo sito.
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 11%
@@ -39,4 +39,4 @@ Il file JavaScript viene memorizzato nella cache del browser del visitatore dopo
 
 ## Compressione del codice H
 
-Se sei preoccupato delle dimensioni di download del file `s_code.js`, Adobe consiglia di comprimere il file `s_code.js` utilizzando GZIP. GZIP è supportato da tutti i principali browser e offre prestazioni migliori rispetto alla compressione JavaScript. Consulta [Modulo Apache mod_deflate](http://httpd.apache.org/docs/current/mod/mod_deflate.html) nella documentazione di Apache.
+Se sei preoccupato delle dimensioni di download del file `s_code.js`, Adobe consiglia di comprimere il file `s_code.js` utilizzando GZIP. GZIP è supportato da tutti i principali browser e offre prestazioni migliori rispetto alla compressione JavaScript. Consulta [Modulo Apache mod_deflate](https://httpd.apache.org/docs/current/mod/mod_deflate.html) nella documentazione di Apache.

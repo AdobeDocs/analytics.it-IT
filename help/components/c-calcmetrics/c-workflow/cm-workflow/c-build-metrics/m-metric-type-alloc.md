@@ -3,9 +3,9 @@ description: 'Scopri '
 title: Tipo di metrica e attribuzione
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '871'
 ht-degree: 5%
 
 ---
@@ -27,14 +27,11 @@ Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specifi
 
 >[!IMPORTANT]
 >
->[Attribution ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) IQ ha modificato il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di allocazione non predefinito sono state migrate a nuovi modelli di attribuzione migliorati:
+>[Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) IQ ha modificato il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di allocazione non predefinito sono state migrate a nuovi modelli di attribuzione migliorati:
 >
->* Per un elenco completo dei modelli di attribuzione non predefiniti e degli intervalli di lookback supportati, consulta la documentazione [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) .
+>* Per un elenco completo dei modelli di attribuzione e degli intervalli di lookback non predefiniti supportati, consulta [Modelli di attribuzione e finestre di lookback](/help/analyze/analysis-workspace/attribution/models.md).
 >* I modelli di allocazione &quot;Marketing Channel Last Touch&quot; (Ultimo contatto canale marketing) e &quot;Marketing Channel First Touch&quot; (Primo contatto canale marketing) verranno migrati ai nuovi modelli di attribuzione &quot;Last Touch&quot; (Ultimo contatto) e &quot;First Touch&quot; (Primo contatto canale di marketing) rispettivamente (Nota: &quot;Marketing Channels&quot; (Canali di marketing) non verrà deprecato, ma solo i due modelli di allocazione che compaiono nelle metriche calcolate.
 >* Inoltre verrà corretto il metodo di calcolo dell’allocazione lineare. Per i clienti che utilizzano metriche calcolate con modelli di allocazione &quot;Lineare&quot;, i rapporti possono cambiare leggermente per riflettere il nuovo modello di attribuzione corretto. La modifica alle metriche calcolate si rifletterà in Analysis Workspace, Reports &amp; Analytics, API di reporting e Report Builder. Per ulteriori informazioni, consulta **Come funziona l’allocazione lineare (a partire dal 19 luglio 2018**, di seguito.
-
->
-
 
 
 ## Come funziona l’allocazione lineare (dal 19 luglio 2018)
