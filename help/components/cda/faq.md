@@ -2,10 +2,9 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti su Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-translation-type: tm+mt
-source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
+source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
@@ -115,3 +114,11 @@ I vantaggi dell&#39;utilizzo dell&#39;intervallo di lookback a 1 giorno sono 1) 
 ## Cosa succede ai dati uniti nelle suite di rapporti virtuali CDA se la mia azienda decide di eseguire il downgrade da Analytics Ultimate?
 
 Se un cliente effettua un downgrade da Ultimate, non avrà più accesso ai dati uniti. Tutti i dati uniti in precedenza verranno rimossi. Ciò significa che le suite di rapporti virtuali CDA ora non riflettono alcuna unione tra dispositivi. I dati saranno simili alla suite di rapporti non uniti originale.
+
+## Perché il numero totale di hit è diverso tra la suite di rapporti sorgente e la suite di rapporti virtuale CDA?
+
+CDA utilizza una pipeline di elaborazione parallela complessa, con più componenti dipendenti. È prevista una mancata corrispondenza dei dati di circa l’1% per il numero totale di hit tra la suite di rapporti originale e la suite di rapporti virtuale CDA. Ha un impatto minimo sulle funzionalità multi-dispositivo.
+
+## Perché la metrica &quot;Persone identificate&quot; è gonfiata?
+
+Se il conteggio è leggermente superiore al previsto, un valore eVar può appartenere a più di una persona identificata a causa di [conflitti hash](/help/implement/validate/hash-collisions.md). Se il conteggio è molto più alto del previsto, contatta l’Assistenza clienti per ulteriori passaggi di risoluzione dei problemi.

@@ -1,14 +1,13 @@
 ---
 title: Funzionamento delle riproduzioni
 description: Comprendere il concetto di "riproduzione" in Analisi multidispositivo
-translation-type: tm+mt
-source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
+exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
+source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '619'
 ht-degree: 2%
 
 ---
-
 
 # Funzionamento delle riproduzioni
 
@@ -48,6 +47,10 @@ Gli hit sia non autenticati che autenticati sui nuovi dispositivi vengono conteg
 * **Se utilizzi l’unione basata sui campi, gli hit non autenticati su dispositivi riconosciuti vengono codificati in tempo reale da quel momento in poi.** 
 
    L’attribuzione funziona non appena la variabile personalizzata di identificazione si collega a un dispositivo. Nell’esempio precedente, tutti gli hit ad eccezione degli hit 1 e 3 vengono uniti in tempo reale (utilizzano tutti l’identificatore `Bob` ). L’attribuzione funziona sugli hit 1 e 3 dopo la ripetizione dell’unione.
+
+>[!NOTE]
+>
+>Gli hit con marca temporale maggiore di 12 ore non vengono inseriti nello stesso flusso live. Tuttavia, questi hit vengono inclusi nella combinazione di ripetizione, purché rientrino nell’intervallo di lookback di ripetizione.
 
 ### Ripetete l&#39;unione
 

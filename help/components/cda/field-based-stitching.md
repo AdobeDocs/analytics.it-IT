@@ -2,9 +2,9 @@
 title: Unione basata sui campi
 description: Comprendi i prerequisiti e le limitazioni dell’unione di dati utilizzando l’unione basata sui campi.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
+source-git-commit: 71148b13e3fb72dfe09f5f25f11d5e12f30e0bc0
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '509'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,8 @@ Se intendi implementare Cross-Device Analytics utilizzando l’unione basata sui
 >Il mancato rispetto di tutti i prerequisiti può comportare l’impossibilità di abilitare Cross-Device Analytics o risultati errati durante l’unione dei dati.
 
 * Tutti i prerequisiti elencati nella [pagina di panoramica](overview.md).
-* L’implementazione deve impostare una proprietà o un eVar che identifichi in modo univoco un individuo ogni volta che è possibile, ad esempio quando un utente accede o apre un’e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Comunica la variabile di identificazione desiderata al tuo Account Manager quando è stato eseguito il provisioning per l&#39;unione basata su campi.
+* L’implementazione deve impostare una proprietà o un eVar che identifichi in modo univoco un individuo ogni volta che è possibile, ad esempio quando un utente accede o apre un’e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Evita di assegnare un valore predefinito alla proprietà o all’eVar.
+* Comunica la variabile di identificazione desiderata al tuo Account Manager quando è stato eseguito il provisioning per l&#39;unione basata su campi.
 
 ## Limitazioni specifiche per l’unione basata sui campi
 

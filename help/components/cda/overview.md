@@ -2,9 +2,9 @@
 title: Analytics tra dispositivi
 description: Modifica i dati da incentrati sul dispositivo a quelli incentrati sulla persona combinando i dati del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '771'
 ht-degree: 16%
 
 ---
@@ -15,6 +15,10 @@ Analisi multidispositivo è una funzione che trasforma Analytics da una visualiz
 
 * [**Unione basata sui campi**](field-based-stitching.md): Consente di scegliere una variabile di Analytics come base per l’unione tra dispositivi in una suite di rapporti virtuale. Utilizza la corrispondenza deterministica per collegare tra loro i dispositivi. Adobe consiglia di utilizzare unioni basate sul campo per la maggior parte dei casi di utilizzo di corrispondenza deterministica.
 * [**Grafico**](device-graph.md) del dispositivo: CDA comunica con un grafico dei dispositivi per unire i dispositivi. Il grafico co-op utilizza sia la corrispondenza deterministica che la corrispondenza probabilistica.
+
+>[!NOTE]
+>
+>Ulteriori informazioni sulla fine del ciclo di vita di [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html).
 
 Utilizzando CDA, puoi rispondere a domande quali:
 
@@ -44,10 +48,11 @@ Analisi multidispositivo è una funzione innovativa e affidabile, ma presenta li
 * CDA è disponibile solo tramite Analysis Workspace.
 * Cross-Device Analytics non funziona tra suite di rapporti, né combina dati provenienti da più suite di rapporti.
 * Le suite di rapporti di Adobe Analytics non possono essere mappate su più di un’organizzazione IMS. Poiché CDA unisce i dispositivi all’interno di una determinata suite di rapporti, non può essere utilizzato CDA per unire i dati tra più organizzazioni IMS.
-* Private Graph sfrutta le stesse sincronizzazioni ID utilizzate dalla funzionalità [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=en#customer-attributes) presente in Experience Cloud e Adobe Analytics. Tuttavia, le suite di rapporti virtuali CDA (basate su grafico privato o unione basata su campi) non sono compatibili con il resto della funzionalità Attributi del cliente. In altre parole, le dimensioni basate su Attributi del cliente non sono disponibili per l&#39;uso all&#39;interno delle suite di rapporti virtuali CDA.
+* Private Graph sfrutta le stesse sincronizzazioni ID utilizzate dalla funzionalità [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes) presente in Experience Cloud e Adobe Analytics. Tuttavia, le suite di rapporti virtuali CDA (basate su grafico privato o unione basata su campi) non sono compatibili con il resto della funzionalità Attributi del cliente. In altre parole, le dimensioni basate su Attributi del cliente non sono disponibili per l&#39;uso all&#39;interno delle suite di rapporti virtuali CDA.
 * CDA non è attualmente compatibile con A4T.
 * Cross-Device Analytics utilizza una suite di rapporti virtuali ed elaborazione dei tempi di report, con le proprie limitazioni. Per ulteriori informazioni su queste limitazioni, consulta [Suite di rapporti virtuali](../vrs/vrs-about.md) e [Elaborazione dei tempi di report](../vrs/vrs-report-time-processing.md) .
 * L’API 1.4 non è supportata. I connettori e il Report Builder Power BI si basano entrambi sull’API 1.4 e non sono quindi compatibili con CDA.
-* I dati storici nella suite di rapporti virtuali cambiano in base all’Adobe che riconosce e unisce i dispositivi. I dati nella suite di rapporti sorgente non cambiano.
 * Il monitoraggio attivo del processo di unione CDA per Adobe è limitato solo alle suite di rapporti di produzione.
 * CDA non è attualmente compatibile con Adobe Analytics [Data Repair API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)
+* I dati storici nella suite di rapporti virtuali cambiano in base all’Adobe che riconosce e unisce i dispositivi. I dati nella suite di rapporti sorgente non cambiano.
+* I dati uniti seguono una latenza di 8-12 ore.

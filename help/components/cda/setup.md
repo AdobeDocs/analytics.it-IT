@@ -2,10 +2,9 @@
 title: Configurare Analytics tra dispositivi
 description: Configura una suite di rapporti virtuale per abilitare CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-translation-type: tm+mt
-source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
+source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '533'
 ht-degree: 2%
 
 ---
@@ -27,6 +26,7 @@ Il provisioning di CDA nella suite di rapporti per più dispositivi è fornito d
 * Quale metodo di CDA vuoi utilizzare (unione basata sul campo, grafico privato Adobe o grafico cooperativo Adobe)
 * Se si intende utilizzare un&#39;unione basata sui campi, la proprietà o l&#39;eVar che contiene l&#39;ID utente
 * Preferisci frequenza di riproduzione e lunghezza di lookback. Le opzioni includono una riproduzione una volta alla settimana con un intervallo di lookback di 7 giorni o una riproduzione giornaliera con un intervallo di lookback di 1 giorno.
+Il valore predefinito è la riproduzione settimanale con un intervallo di lookback di 7 giorni. In questo caso, i dati nell’ultima settimana sono soggetti a modifiche (in quanto vengono progressivamente uniti e aggiornati).
 
 Una volta che avrai fornito queste informazioni all’Assistenza clienti, questi collaboreranno con Adobe Engineering per abilitare la suite di rapporti selezionata per l’elaborazione CDA.
 
@@ -51,7 +51,7 @@ Gli amministratori con accesso per creare suite di rapporti virtuali possono cre
 Quando Analytics tra dispositivi è abilitato su una suite di rapporti virtuali, tieni presente le seguenti modifiche:
 
 * Accanto al nome della suite di rapporti virtuali viene visualizzata una nuova icona per più dispositivi. Questa icona è esclusiva per le suite di rapporti virtuali su più dispositivi.
-* È disponibile una nuova dimensione con etichetta [Stato identificato](../dimensions/identified-state.md). Questa dimensione determina se l&#39;ID Experience Cloud sull&#39;hit è noto dal grafico del dispositivo in quel momento.
-* Sono disponibili nuove metriche etichettate [Persone](../metrics/people.md) e [Dispositivi univoci](../metrics/unique-devices.md) .
+* È disponibile una nuova dimensione con etichetta [Stato identificato](../dimensions/identified-state.md).
+* Sono disponibili nuove metriche etichettate [Persone](../metrics/people.md), [Dispositivi unici](../metrics/unique-devices.md), Persone identificate, Persone non identificate e Persone con ID Experience Cloud.
 * La metrica [Visitatori unici](../metrics/unique-visitors.md) non è disponibile, in quanto viene sostituita con &quot;Persone&quot; e &quot;Dispositivi unici&quot;.
 * Quando crei segmenti, il contenitore del segmento &quot;Visitatore&quot; viene sostituito da un contenitore &quot;Persona&quot;.
