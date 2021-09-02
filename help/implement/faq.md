@@ -3,9 +3,9 @@ title: Domande frequenti sull’implementazione
 description: Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ AppMeasurement crea un oggetto immagine all’interno della pagina HTML e il bro
 
 A volte un’organizzazione desidera rimuovere un’implementazione a causa della scadenza del contratto o per ridurre il numero di chiamate al server.
 
-* **Implementazioni con tag in Adobe Experience Platform**: Disabilita o disinstalla l&#39;estensione Adobe Analytics nella  [!UICONTROL Extensions] scheda , quindi pubblica.
+* **Implementazioni con tag in Adobe Experience Platform**: disabilita o disinstalla l’estensione Adobe Analytics nella scheda [!UICONTROL Extensions], quindi pubblica.
 * **Implementazioni legacy di AppMeasurement**: sostituisci l’intero contenuto del file `s_code.js` con la seguente riga di codice:
 
 ```js
