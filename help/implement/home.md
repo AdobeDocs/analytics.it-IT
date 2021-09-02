@@ -4,8 +4,8 @@ description: Implementa Adobe Analytics sul tuo sito, proprietà o applicazione.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,8 +28,8 @@ Il codice JavaScript invia una richiesta di immagine ai server di raccolta dati 
 
 Per poter inviare dati ai server di raccolta dati, Adobe Analytics richiede il codice all’interno del sito web, dell’app mobile o di altre applicazioni. Esistono diversi metodi per implementare questo codice, a seconda della piattaforma e delle esigenze aziendali.
 
-* **Tag Adobe Experience Platform**: Il metodo standardizzato e consigliato per l’implementazione di Adobe Analytics. Posiziona un tag loader in ogni pagina e utilizza l’interfaccia utente di raccolta dati per determinare come viene definita ogni variabile.
-* **JavaScript legacy:** metodo manuale che veniva utilizzato per implementare Adobe Analytics. Illustra le variabili e le impostazioni utilizzate in un&#39;implementazione, che possono essere utili per le implementazioni di tag utilizzando regole con codice personalizzato.
+* **Tag di Adobe Experience Platform**: metodo standardizzato e consigliato per l’implementazione di Adobe Analytics. Inserisci un tag loader in ciascuna pagina e utilizza l’interfaccia di Data Collection per determinare come viene definita ogni variabile.
+* **JavaScript legacy:** metodo manuale che veniva utilizzato per implementare Adobe Analytics. Consente di specificare le variabili e le impostazioni utilizzate in un’implementazione e può essere utile per le implementazioni basate su regole con codice personalizzato.
 * **SDK per dispositivi mobili:** librerie dedicate per inviare facilmente i dati ad Adobe dall’app mobile.
 
 ## Articoli chiave di implementazione di Analytics
