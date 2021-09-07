@@ -2,10 +2,10 @@
 description: Scopri quando e perché i connettori dati di Analytics termineranno.
 title: Annuncio preliminare alla fine del ciclo di vita per i connettori dati di Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
+source-git-commit: f034baca23980ae70d83bc6488e13fc610a43ab1
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 8%
+source-wordcount: '685'
+ht-degree: 4%
 
 ---
 
@@ -13,17 +13,17 @@ ht-degree: 8%
 
 Per più di un decennio, Adobe Analytics intende fornire la soluzione web e di analisi di marketing all’avanguardia per soddisfare le esigenze dei clienti. Con l&#39;evolversi delle esigenze tecnologiche e aziendali, ci sforziamo di offrire e soddisfare costantemente gli standard più elevati.  Sfortunatamente, le API che alimentano questa integrazione non soddisfano più questi standard e non sono sostenibili nella moderna infrastruttura tecnologica Adobe Analytics.
 
-**A partire dal 19 agosto 2021**, Adobe interromperà le integrazioni dei Data Connectors. La fine del ciclo di vita fa parte del ciclo di vita di qualsiasi prodotto tecnologico e l&#39;Adobe mira a rendere la transizione il più semplice possibile per i nostri clienti e partner. Molte di queste integrazioni sono disponibili tramite Adobe Exchange e possono continuare a essere utilizzate.
+**A partire dal 19 agosto 2021**, Adobe ha interrotto le integrazioni dei Data Connectors. La fine del ciclo di vita fa parte del ciclo di vita di qualsiasi prodotto tecnologico e l&#39;Adobe mira a rendere la transizione il più semplice possibile per i nostri clienti e partner. Molte di queste integrazioni sono disponibili tramite Adobe Exchange e possono continuare a essere utilizzate.
 
 ## Perché terminiamo questa funzione?
 
-Questa funzione è basata su una tecnologia legacy che non è più disponibile o supportata. Per continuare a offrire e supportare le integrazioni, si consiglia di adottare il nuovo programma standard [Adobe Exchange Partner Program.](https://partners.adobe.com/exchangeprogram/experiencecloud)
+Questa funzione è basata su una tecnologia legacy che non è più disponibile o supportata. Il [Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) è ora il luogo in cui trovare le integrazioni correnti per le soluzioni Adobe.
 
 ## In che modo la rimozione di questa funzione ti influisce?
 
 Se sei un partner di Adobe, i dettagli sulla migrazione della tua integrazione al nostro nuovo programma Adobe Exchange sono disponibili [qui](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) nella nostra documentazione.
 
-Se sei un cliente di Data Connector e desideri richiedere la migrazione dell’integrazione utilizzata, devi *inoltrare tutte le richieste direttamente al partner di integrazione*. L’invio di una richiesta ad Adobe tramite l’Assistenza clienti non avrà lo stesso effetto desiderato.
+Se sei un cliente di Data Connector e desideri richiedere la migrazione dell’integrazione utilizzata, devi *inoltrare tutte le richieste direttamente al partner di integrazione*. Il partner deve impegnarsi a passare alle nuove API. Sfortunatamente, l’Assistenza clienti di Adobe non può costringere i partner a passare alle nuove API.
 
 A ogni azienda che fornisce un&#39;integrazione è stata data la possibilità di migrare la propria integrazione a Adobe Exchange o interrompere l&#39;integrazione. Di seguito è riportato un riepilogo di ciascuna integrazione attuale e della relativa decisione.
 
@@ -37,18 +37,18 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 | --- | --- |
 | Acxiom | Obsolescenza |
 | Adform | Obsolescenza |
-| Regola | Migrazione a Adobe Exchange |
-| Adobe Campaign | Migrazione a Adobe Exchange (vedi nota di seguito) |
-| Appfigure | Migrazione a Adobe Exchange |
+| Regola | Migrazione alle API più recenti |
+| Adobe Campaign | Migrazione alle API più recenti (consulta la nota di seguito) |
+| Appfigure | Migrazione alle API più recenti |
 | Appello | Obsolescenza |
-| AppsFlyer | Migrazione a Adobe Exchange |
+| AppsFlyer | Migrazione alle API più recenti |
 | Aprimo Enterprise Marketing Engagement | Obsolescenza |
 | Apteligent | Obsolescenza |
 | BlueHornet eMarketing Suite | Obsolescenza |
-| Filiale | Migrazione a Exchange |
+| Filiale | Migrazione alle API più recenti |
 | BrightEdge 2.0, BrightEdge, BrightEdge Express | Obsolescenza |
 | Software Bronto | Obsolescenza |
-| CheetahMail di Experian | Migrazione a Exchange |
+| CheetahMail di Experian | Migrazione alle API più recenti |
 | ClickTale | Obsolescenza |
 | CA Clicktale | Obsolescenza |
 | Conduttore 2.0, Conduttore, Conduttore Metriche Organiche | Obsolescenza |
@@ -61,31 +61,31 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 | Delivra | Obsolescenza |
 | Demandbase CA | Obsolescenza |
 | Demandbase v3 | Obsolescenza |
-| DialogTech | Disponibile su Adobe Exchange |
+| DialogTech | Migrazione alle API più recenti |
 | [Doppio clic per inserzionisti (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Obsolescenza |
 | SOGNO | Obsolescenza |
 | DREAMmail 1.0, DREAMmail 2.0 | Obsolescenza |
-| Segnale dinamico (Vora digitale) | Migrazione a Exchange |
+| Segnale dinamico (Vora digitale) | Migrazione alle API più recenti |
 | eDialog Precision Central | Obsolescenza |
 | Messaggero elettronico | Obsolescenza |
 | Emailvision Campaign Commander | Obsolescenza |
 | emarsys xpress | Obsolescenza |
-| Epsilon Harmony | Migrazione a Exchange |
+| Epsilon Harmony | Migrazione alle API più recenti |
 | EveryoneSocial per Adobe Analytics | Obsolescenza |
 | ExactTarget, ExactTarget 2.0 | Obsolescenza |
 | Fiksu | Obsolescenza |
 | Foresee (v2.0), Foresee Feedback, Foresee Results | Obsolescenza |
 | Giga | Obsolescenza |
-| Hootsuite | Migrazione a Exchange |
+| Hootsuite | Migrazione alle API più recenti |
 | ibrido | Obsolescenza |
 | Analisi del feedback di Kampyle (ora Medallia) (1.1) | Obsolescenza |
-| Listrak | Migrazione a Exchange |
+| Listrak | Migrazione alle API più recenti |
 | Lyris HQ | Obsolescenza |
 | MaritzCX (V 2.0) | Obsolescenza |
 | Merkle | Obsolescenza |
-| Integrazione ufficiale Oracle Eloqua | Migrazione a Exchange |
+| Integrazione ufficiale Oracle Eloqua | Migrazione alle API più recenti |
 | optivo broadmail (Episerver) | Obsolescenza |
-| Qualtrics v2 | Migrazione a Exchange |
+| Qualtrics v2 | Migrazione alle API più recenti |
 | Responsys 1.0, Responsys 2.0 | Obsolescenza |
 | Salesforce.com | Obsolescenza |
 | Selligent | Obsolescenza |
