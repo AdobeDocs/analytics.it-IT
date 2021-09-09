@@ -3,12 +3,12 @@ description: Dati di tabella che descrivono le colonne nel feed di dati.
 keywords: Feed di dati;colonne
 subtopic: data feeds
 title: Riferimento colonna dati
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
+source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3420'
 ht-degree: 3%
 
 ---
@@ -156,7 +156,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `page_event_var2` | Utilizzato solo nelle richieste di tracciamento delle immagini di tracciamento dei collegamenti. Nome personalizzato (se specificato) del collegamento. | varchar(100) |
 | `page_event_var3` | Non più utilizzato. Dati del modulo Survey e Media contenuti. Report video legacy compilati nelle versioni precedenti di Adobe Analytics. | text |
 | `page_type` | Utilizzato per compilare la dimensione [Pagine non trovate](/help/components/dimensions/pages-not-found.md). Utilizzato esclusivamente per 404 pagine. Questa variabile deve essere vuota o contenere il valore `ErrorPage`. | char(20) |
-| `page_url` | URL dell&#39;hit. Nella sua variante post (post_page_url), il valore viene rimosso per le richieste di tracciamento dei collegamenti alle immagini. | varchar(255) |
+| `page_url` | URL dell&#39;hit. Tieni presente che `post_page_url` viene rimosso per le richieste di tracciamento dei collegamenti immagine e utilizza un tipo di dati varchar(255). | text |
 | `pagename` | Utilizzato per compilare la dimensione [Pagina](/help/components/dimensions/page.md). Se la variabile [`pagename`](/help/implement/vars/page-vars/pagename.md) è vuota, Analytics utilizza invece `page_url` . | varchar(100) |
 | `paid_search` | Flag impostato se l&#39;hit corrisponde al rilevamento di ricerca a pagamento. | tinyint senza segno |
 | `partner_plugins` | Non utilizzato. Parte di una feature di scarto. | varchar(255) |
