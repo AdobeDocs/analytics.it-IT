@@ -4,11 +4,10 @@ title: Impostazioni account generali
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d509de3ff49d996f821803f0a93c3184db4af1d3
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 1%
+source-wordcount: '789'
+ht-degree: 3%
 
 ---
 
@@ -30,3 +29,8 @@ Queste impostazioni contengono opzioni di modifica per le funzionalità di base 
 | Offuscamento IP | Trasforma gli indirizzi IP in stringhe non riconoscibili, essenzialmente rimuovendoli dagli archivi di dati di Adobe. Quando IP Obfuscation è abilitato, gli indirizzi IP originali vengono persi definitivamente. <br> **Nota**: Gli indirizzi IP vengono offuscati ovunque in Analytics, inclusa la Data Warehouse. Tuttavia, l’impostazione IP in Target è controllata separatamente, pertanto questa impostazione non ha alcun impatto su Target.<br> Se l’offuscamento dell’IP è abilitato, tutte le operazioni di elaborazione necessarie, inclusi i filtri/esclusione IP, le regole bot e le ricerche per la geosegmentazione, vengono eseguite prima che l’indirizzo IP sia offuscato. Non è necessario modificare nulla quando si abilita l’offuscamento dell’IP.<ul><li>Selezionando **Disabilitato** l&#39;indirizzo IP viene lasciato nei dati.</li><li>Selezionando **Indirizzo IP offuscato** l&#39;IP viene modificato in due punti, seguiti da un valore con hash (ad esempio, `::1932023538`).</li><li>La selezione di **Rimuovi indirizzo IP** sostituisce l&#39;indirizzo IP con `::X.X.X.X` nei dati, dopo la ricerca geografica.</li></ul>**Nota**: Questa impostazione potrebbe richiedere modifiche alle  [regole bot personalizzate o alle esclusioni ](/help/admin/admin/bot-removal/bot-rules.md) IP [ ](/help/admin/admin/exclude-ip.md). |
 | Archiviazione ID transazione | Consente di utilizzare le origini dati [ID transazione](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md). |
 | Abilita Data Warehouse | Abilita l’interfaccia utente Data Warehouse in Analytics > Strumenti > Data Warehouse. |
+| Opzione ZIP | Consente di specificare il codice postale anziché utilizzare qualsiasi prodotto dalla ricerca IP geografica. |
+| Supporto di caratteri multibyte | Il supporto per caratteri multibyte memorizza i caratteri nella suite di rapporti utilizzando UTF-8. Al momento della ricezione, il sistema converte i dati dal set di caratteri della pagina web al set di caratteri UTF-8, in modo da poter utilizzare qualsiasi lingua nei rapporti di marketing. Contatta il tuo Account Manager o l’Assistenza clienti per modificare il supporto per caratteri multibyte per una suite di rapporti esistente. |
+| Attivato | Specifica se la suite di rapporti è attivata o meno. |
+| Valuta di base | Consente di specificare la base [currency](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=en) per questa suite di rapporti. |
+| ID organizzazione | ID associato alla società di Experienci Cloud con provisioning. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) @AdobeOrg. |
