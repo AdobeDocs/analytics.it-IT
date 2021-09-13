@@ -3,9 +3,9 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1163'
 ht-degree: 90%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 90%
 Questa pagina dell’Aiuto contiene casi d’uso consigliati per ogni strumento di Adobe Analytics. Gli strumenti devono essere considerati nell’ordine in cui sono elencati. Se un determinato strumento non soddisfa le tue esigenze, passa a quello successivo.
 
 Per ulteriori informazioni su un confronto tra i vari prodotti Adobe Analytics, consulta [questo articolo](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
+
+Ecco un video che mette a confronto diversi strumenti di Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
 
 ## Interfacce utente di Adobe Analytics per la generazione di rapporti {#user-interfaces}
 
@@ -30,7 +34,7 @@ Per ulteriori informazioni su un confronto tra i vari prodotti Adobe Analytics, 
 * Per accedere a visualizzazioni video univoche del dayparting dei video e del rilascio del visualizzatore.
 * Sfruttare gli elenchi di pubblicazione nei rapporti pianificati
 
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** è indicato per:
+**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=it)** è indicato per:
 
 * Usufruire dell’opzione più flessibile tra gli strumenti Analytics (analisi a livello di visitatore e di hit)
 * Creare un dataset multicanale di interazioni online e offline da CRM a POS a Web
@@ -70,7 +74,7 @@ API di **[inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/
 
 * L’API di inserimento dati e l’API di inserimento dati in blocco sono entrambi metodi per inviare i dati di raccolta lato server ad Adobe Analytics. Le chiamate API di inserimento dati vengono effettuate un evento alla volta. L’API di inserimento dati in blocco accetta file in formato CSV contenenti dati evento, un evento per riga. Se stai lavorando a una nuova implementazione della raccolta lato server, ti consigliamo di utilizzare l’API di inserimento dati in blocco.
 
-Gli **[Attributi cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** sono indicati nei seguenti casi:
+Gli **[Attributi cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it)** sono indicati nei seguenti casi:
 
 * Se acquisisci dati cliente Enterprise in un database CRM (Customer Relationship Management) e vuoi caricarli in Experience Cloud.
 * Se desideri utilizzare i dati CRM per analisi più approfondite in Analytics o come criteri di targeting in Adobe Target.

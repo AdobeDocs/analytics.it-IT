@@ -2,12 +2,12 @@
 description: Utilizza l’analisi dei contributi per identificare anomalie statistiche e correlazioni nei dati.
 title: Panoramica dell’analisi dei contributi
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: Strumenti di intelligenza artificiale
+feature: AI Tools
 role: User, Admin
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1149'
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
+workflow-type: tm+mt
+source-wordcount: '1147'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 100%
 # Panoramica dell’analisi dei contributi
 
 L’analisi dei contributi riconosce pattern nascosti nei dati per spiegare le anomalie statistiche e identificare le correlazioni alla base di azioni inaspettate da parte del cliente, valori fuori dalla norma e improvvisi picchi o ribassi di metriche selezionate su segmenti di pubblico convergenti.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25443/?quality=12)
 
 Si è verificata un’anomalia. Perché? Il report della funzionalità di rilevamento delle anomalie mostra un picco insolito negli ordini e vuoi scoprirne il motivo. Cos’è successo di straordinario? Chi risponde a una determinata campagna o riferimento? Un contenuto è diventato virale? Quali sono i fattori specifici che hanno contribuito a questa anomalia? Forse l’informazione più importante: come posso acquisire informazioni critiche sul mio cliente e ripetere queste prestazioni? (Oppure, se si è verificato un calo in una metrica o un aumento in una metrica negativa, come posso evitarlo in futuro?)
 

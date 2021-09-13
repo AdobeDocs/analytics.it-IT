@@ -2,12 +2,12 @@
 description: In Analysis Workspace è possibile visualizzare e analizzare le anomalie nei dati in modo contestuale.
 title: Panoramica di Rilevamento delle anomalie
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-feature: Strumenti di intelligenza artificiale
+feature: AI Tools
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '282'
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
+workflow-type: tm+mt
+source-wordcount: '258'
 ht-degree: 100%
 
 ---
@@ -16,9 +16,7 @@ ht-degree: 100%
 
 In Analysis Workspace è possibile visualizzare e analizzare le anomalie nei dati in modo contestuale.
 
-[Tutorial video sul rilevamento delle anomalie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html?lang=it) (4:53)
-
-[Tutorial video sull’analisi dei contributi](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html?lang=it) (3:20)
+>[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
 
 >[!IMPORTANT]
 >
