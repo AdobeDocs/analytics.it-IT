@@ -2,13 +2,13 @@
 description: Utilizza la visualizzazione mappa in un progetto Workspace.
 title: Mappa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: Visualizzazioni
+feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+workflow-type: tm+mt
+source-wordcount: '633'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,9 @@ L’**icona ingranaggio** presenta invece queste impostazioni:
 | Stili: Stile mappa | Puoi scegliere tra Base, Strade, Vivace, Chiaro, Scuro e Satellite. |
 | Raggio cluster | Raggruppa i dati che si trovano entro un certo numero di pixel. Il valore predefinito è 50. |
 | Valore massimo personalizzato | Permette di modificare la soglia del valore massimo per la mappa. Quando regoli questo valore, viene regolata la scala dei valori per le bolle o la mappa di calore (colore e dimensioni) rispetto al valore massimo personalizzato impostato. |
+
+## Creare una mappa di calore suddivisa in base al tempo
+
+Ecco un video sull&#39;argomento:
+
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
