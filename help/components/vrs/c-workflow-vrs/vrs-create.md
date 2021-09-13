@@ -2,12 +2,12 @@
 description: Prima di iniziare a creare suite di rapporti virtuali, devi tenere presenti alcuni aspetti.
 keywords: Suite di rapporti virtuali
 title: Creare suite di rapporti
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '662'
 ht-degree: 6%
 
 ---
@@ -43,6 +43,10 @@ Nella scheda [!UICONTROL Settings] , definisci queste impostazioni e fai clic su
 Nella scheda [!UICONTROL Visit Definition] , definisci queste impostazioni e fai clic su **[!UICONTROL Continue]**.
 
 ![](assets/visit-definition.png)
+
+Ecco un video su come regolare la definizione di una visita in una suite di rapporti virtuale:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 | Elemento | Descrizione |
 | --- |--- |

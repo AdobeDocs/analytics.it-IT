@@ -3,13 +3,13 @@ description: Puoi creare segmenti da un punto di contatto, aggiungere segmenti c
 keywords: abbandono e segmentazione, segmenti nell’analisi dell’abbandono, confronta i segmenti nell’abbandono
 title: Applicare i segmenti nell’analisi dell’abbandono
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: Visualizzazioni
+feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 97%
 
 ---
 
@@ -50,6 +50,10 @@ Oppure puoi creare un punto di contatto AND trascinando il segmento degli utenti
 ## Confrontare i segmenti in Abbandono {#section_E0B761A69B1545908B52E05379277B56}
 
 Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandono.
+
+Ecco un video sul confronto di segmenti nell’abbandono:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
 
 1. Seleziona i segmenti che desideri confrontare dalla barra [!UICONTROL Segments] a sinistra. Nel nostro esempio, abbiamo selezionato 2 segmenti: Utenti USA e Utenti non USA.
 1. Trascinali nella zona di rilascio Segmento, in alto.

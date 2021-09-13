@@ -3,16 +3,20 @@ description: È possibile curare le suite di rapporti virtuali per includere ed 
 title: Cura dei componenti di suite di rapporti virtuali
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 10%
+source-wordcount: '392'
+ht-degree: 12%
 
 ---
 
 # Cura dei componenti di suite di rapporti virtuali
 
 È possibile curare le suite di rapporti virtuali per includere ed escludere i componenti in Analysis Workspace.
+
+Ecco un video sulla cura dei componenti:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23544/?quality=12)
 
 >[!NOTE]
 >
@@ -71,4 +75,4 @@ Utilizza i gruppi di componenti per aggiungere componenti in massa alla suite di
 
 ## Comportamento di Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Per ulteriori informazioni sulla cura in Analysis Workspace, consulta [Cura e condivisione di un progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Per ulteriori informazioni sulla cura in Analysis Workspace, consulta [Cura e condivisione di un progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
