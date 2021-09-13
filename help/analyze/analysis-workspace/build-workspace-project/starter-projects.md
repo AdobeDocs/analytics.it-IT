@@ -2,13 +2,13 @@
 description: Crea progetti Workspace basati su modelli standard o personalizzati.
 title: Modelli
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Concetti di base di Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1376'
+ht-degree: 100%
 
 ---
 
@@ -68,11 +68,11 @@ Questi modelli standard illustrano la terminologia e i passaggi comuni per lo sv
 
 * **Tutorial - Analisi di marketing**: questo tutorial mostra come creare un’analisi di marketing per i dirigenti che individui le dimensioni e le metriche personalizzate più importanti.
 
-### Pubblicità
+### Advertising
 
 >[!IMPORTANT]
 >
->I modelli pubblicitari sono disponibili solo se la suite di rapporti è abilitata per Advertising Cloud.
+>I modelli Advertising sono disponibili solo se la suite di rapporti è abilitata per Advertising Cloud.
 
 * **Motori di ricerca a pagamento**: questo modello suddivide le tendenze pubblicitarie, le piattaforme di annunci, le parole chiave, gli account, le campagne e molto altro.
 
