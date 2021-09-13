@@ -1,13 +1,13 @@
 ---
 title: Cos’è l’analisi per coorte e come funziona?
 description: Approfondisci i dati relativi al pubblico e suddividili in gruppi correlati con la funzione di analisi per coorte. Scopri l’analisi per coorte in Analysis Workspace.
-feature: Visualizzazioni
+feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+workflow-type: tm+mt
+source-wordcount: '464'
+ht-degree: 98%
 
 ---
 
@@ -45,6 +45,10 @@ Le seguenti funzionalità consentono un controllo accurato delle coorti che crei
 Un report della coorte [!UICONTROL Retention] restituisce i visitatori: ogni cella di dati mostra il numero e la percentuale di visitatori nella coorte che hanno eseguito un’azione in quel determinato periodo di tempo. Puoi includere fino a 3 metriche e 10 segmenti.
 
 ![](assets/retention-report.png)
+
+Ecco un video sul calcolo della conservazione continua:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
 
 ### [!UICONTROL Churn] Tabella
 

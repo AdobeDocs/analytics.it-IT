@@ -5,10 +5,10 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1073'
+ht-degree: 98%
 
 ---
 
@@ -100,3 +100,9 @@ Ulteriori funzionalità per una visualizzazione sono disponibili facendo clic co
 Se non sai quale visualizzazione scegliere, fai clic sull’icona **[!UICONTROL Create Visual]** in una delle righe della tabella (che appare quando vi si scorre sopra). Questo è il modo più veloce per aggiungere una visualizzazione. Facendo clic su di essa, Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea ai tuoi dati. Ad esempio, se hai selezionato 1 riga, verrà creato un grafico a linee con tendenze. Se sono state selezionate 3 righe di segmenti, verrà creato un diagramma di Venn.
 
 ![](assets/quick-viz.png)
+
+## Modificare l’asse di scala sulle visualizzazioni
+
+Ecco una panoramica video:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
