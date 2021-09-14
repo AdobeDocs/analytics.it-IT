@@ -2,7 +2,7 @@
 title: Configurare Analytics tra dispositivi
 description: Configura una suite di rapporti virtuale per abilitare CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 2%
@@ -52,6 +52,6 @@ Quando Analytics tra dispositivi è abilitato su una suite di rapporti virtuali,
 
 * Accanto al nome della suite di rapporti virtuali viene visualizzata una nuova icona per più dispositivi. Questa icona è esclusiva per le suite di rapporti virtuali su più dispositivi.
 * È disponibile una nuova dimensione con etichetta [Stato identificato](../dimensions/identified-state.md).
-* Sono disponibili nuove metriche etichettate [Persone](../metrics/people.md), [Dispositivi unici](../metrics/unique-devices.md), Persone identificate, Persone non identificate e Persone con ID Experience Cloud.
+* Sono disponibili nuove metriche etichettate [Persone](../metrics/people.md), [Dispositivi unici](../metrics/unique-devices.md), [Persone identificate](../metrics/identified-people.md), [Persone non identificate](../metrics/unidentified-people.md) e [Persone con ID Experience Cloud](../metrics/people-with-exp-cloud-id.md).
 * La metrica [Visitatori unici](../metrics/unique-visitors.md) non è disponibile, in quanto viene sostituita con &quot;Persone&quot; e &quot;Dispositivi unici&quot;.
 * Quando crei segmenti, il contenitore del segmento &quot;Visitatore&quot; viene sostituito da un contenitore &quot;Persona&quot;.

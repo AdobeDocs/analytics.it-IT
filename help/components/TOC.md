@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Organizza i dati utilizzando componenti quali segmenti, metriche calcolate, suite di rapporti virtuali e avvisi.
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '658'
+ht-degree: 97%
 
 ---
 
@@ -118,6 +118,7 @@ ht-degree: 0%
    + [Eventi personalizzati](metrics/custom-events.md)
    + [Voci](metrics/entries.md)
    + [Uscite](metrics/exits.md)
+   + [Persone identificate](metrics/identified-people.md)
    + [Istanze](metrics/instances.md)
    + [Visualizzazioni di dispositivi mobili](metrics/mobile-views.md)
    + [Nuovi engagement](metrics/new-engagements.md)
@@ -127,6 +128,7 @@ ht-degree: 0%
    + [Eventi pagina](metrics/page-events.md)
    + [Visualizzazioni pagina](metrics/page-views.md)
    + [Pagine non trovate](metrics/pages-not-found.md)
+   + [Persone con Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
    + [Persone](metrics/people.md)
    + [Visualizzazioni di prodotti](metrics/product-views.md)
    + [Ricariche](metrics/reloads.md)
@@ -138,6 +140,7 @@ ht-degree: 0%
    + [Tempo trascorso per visitatore](metrics/time-spent-per-visitor.md)
    + [Panoramica del tempo trascorso](metrics/time-spent.md)
    + [Totale secondi trascorsi](metrics/total-seconds-spent.md)
+   + [Persone non identificate](metrics/unidentified-people.md)
    + [Dispositivi univoci](metrics/unique-devices.md)
    + [Visitatori univoci](metrics/unique-visitors.md)
    + [Unità](metrics/units.md)
