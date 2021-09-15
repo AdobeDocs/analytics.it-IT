@@ -2,7 +2,7 @@
 title: linkDownloadFileTypes
 description: Determina le estensioni di file che vengono tracciate automaticamente come collegamenti per il download.
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 49bf0a459a096e011ff60724aa5bee4fb7721a21
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -19,14 +19,13 @@ Utilizza `linkDownloadFileTypes` per personalizzare quali estensioni di file des
 >
 >Solo i clic effettivi vengono tracciati automaticamente. I seguenti tipi di collegamenti non vengono tracciati automaticamente:
 >
-> * Download di file che si avviano automaticamente al caricamento di una pagina
-> * Download che si attivano dopo un reindirizzamento
-> * Fai clic con il pulsante destro del mouse e seleziona &quot;Salva Target con nome..&quot;
-> * Collegamenti che utilizzano JavaScript, ad esempio `javascript:openLink()`
+>* Download di file che si avviano automaticamente al caricamento di una pagina
+>* Download che si attivano dopo un reindirizzamento
+>* Fai clic con il pulsante destro del mouse e seleziona &quot;Salva Target con nome..&quot;
+>* Collegamenti che utilizzano JavaScript, ad esempio `javascript:openLink()`
 
 >
-> 
-Per questi tipi di download, puoi chiamare manualmente il metodo [`tl()`](../functions/tl-method.md) .
+>Per questi tipi di download, puoi chiamare manualmente il metodo [`tl()`](../functions/tl-method.md) .
 
 Se un collegamento selezionato corrisponde ai criteri di collegamento di uscita e di download, il tipo di collegamento di download ha la priorità.
 
