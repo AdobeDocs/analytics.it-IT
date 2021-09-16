@@ -2,12 +2,12 @@
 description: Passaggi sull’esecuzione dei diversi tipi di rapporti.
 title: Eseguire diversi tipi di rapporto
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1237'
 ht-degree: 4%
 
 ---
@@ -79,7 +79,7 @@ Descrive come visualizzare e interpretare i rapporti in tempo reale.
 
 Il reporting in tempo reale offre due rapporti principali: un rapporto di panoramica e un rapporto di dettaglio. Ciascuna di esse è costituita da una serie di rapporti.
 
-Per informazioni sulla configurazione dei rapporti in tempo reale, consulta la [Guida di riferimento di Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration).
+Per ulteriori informazioni, consulta [Panoramica sulla generazione di rapporti in tempo reale](/help/components/c-real-time-reporting/realtime.md) .
 
 1. Osserva il rapporto **[!UICONTROL Overview]** e i relativi componenti:  ![](assets/rtr_overview_report.png)
 
@@ -145,7 +145,7 @@ Per informazioni sulla configurazione dei rapporti in tempo reale, consulta la [
    </tr> 
    </table>
 
-1. Fai clic su una voce di elenco nel Reportlet principale per avviare la visualizzazione **[!UICONTROL Details]** della voce di elenco:  ![](assets/rtr_detail_report.png)
+2. Fai clic su una voce di elenco nel Reportlet principale per avviare la visualizzazione **[!UICONTROL Details]** della voce di elenco:  ![](assets/rtr_detail_report.png)
 
    | **Rapporto sulle tendenze degli articoli** | Presenta la linea di tendenza dell’elemento selezionato nel rapporto Panoramica per gli ultimi N minuti. N è configurabile tramite il selettore Intervallo temporale. |
    |---|---|
