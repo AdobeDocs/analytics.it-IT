@@ -2,9 +2,9 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti su Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
+source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Puoi utilizzare una visualizzazione [!UICONTROL Flow] con la dimensione Tipo di 
 
 ## Posso visualizzare il modo in cui le persone si spostano tra diverse esperienze utente (ad esempio, browser desktop e browser mobile rispetto all’app mobile)?
 
-L’utilizzo del tipo di dispositivo mobile come illustrato in precedenza consente di vedere come le persone si spostano tra i tipi di dispositivi mobili e quelli di dispositivi desktop. Tuttavia, potresti voler distinguere i browser desktop dai browser mobili. Un modo per farlo è creare un eVar che registri se l’esperienza si è verificata su un browser desktop, un browser mobile o un’app mobile. Quindi crea un diagramma di flusso come descritto in precedenza, utilizzando l’eVar &quot;esperienza&quot; anziché la dimensione Tipo di dispositivo mobile. Questo offre una vista leggermente diversa sul comportamento tra dispositivi.
+L’esempio di tipo di dispositivo mobile illustrato qui sopra consente di vedere come le persone si spostano tra i tipi di dispositivi mobili e quelli di dispositivi desktop. Tuttavia, non ti consente di distinguere i browser desktop dai browser mobili. Se desideri ottenere questo risultato, puoi creare una variabile personalizzata (ad esempio una proprietà o un eVar) che registra l’esperienza se si verifica su un browser desktop, un browser mobile o un’app mobile. Puoi quindi creare un diagramma di flusso come descritto in precedenza, utilizzando la variabile personalizzata invece della dimensione Tipo di dispositivo mobile. Questo metodo fornisce una visualizzazione leggermente diversa del comportamento tra dispositivi.
 
 ## Quanto tempo fa CDA unisce i visitatori?
 
@@ -53,7 +53,7 @@ I clienti che utilizzano già un ID visitatore personalizzato possono effettuare
 In alcune situazioni è possibile che più persone accedano dallo stesso dispositivo. Ad esempio, un dispositivo condiviso da casa, PC condivisi in una libreria o un chiosco in un punto vendita.
 
 * **Se utilizzi un grafico** dei dispositivi, la capacità di gestire dispositivi condivisi è limitata. Il grafico dei dispositivi utilizza un algoritmo per determinare la proprietà di un &quot;cluster&quot; e può cambiare ogni volta che il cluster viene pubblicato. Gli utenti del dispositivo condiviso sono soggetti al cluster a cui appartengono.
-* **Se utilizzi l’unione** basata sui campi, il prop o l’eVar scelto per aiutare a identificare gli utenti connessi sostituisce altri identificatori. I dispositivi condivisi sono considerati persone separate, anche se provengono dallo stesso dispositivo.
+* **Se utilizzi l’unione** basata sui campi, la proprietà o l’eVar scelto per aiutare a identificare gli utenti connessi esclude altri identificatori. I dispositivi condivisi sono considerati persone separate, anche se provengono dallo stesso dispositivo.
 
 ## In che modo CDA gestisce le situazioni in cui una singola persona dispone di MOLTI dispositivi/ECID?
 
@@ -64,11 +64,16 @@ In alcune situazioni, un singolo utente può associarsi a un numero elevato di E
 
 ## Qual è la differenza tra la metrica Persone in CDA e la metrica Visitatori unici al di fuori di CDA?
 
-La metrica [Persone](/help/components/metrics/people.md) è simile alla metrica [Visitatori unici](/help/components/metrics/unique-visitors.md) in quanto riporta il numero di singoli utenti univoci. Tuttavia, quando si utilizza Cross-Device Analytics, i visitatori univoci vengono combinati quando vengono altrimenti registrati come due visitatori unici separati al di fuori di CDA. La metrica &quot;Persone&quot; sostituisce la metrica &quot;Visitatori unici&quot; quando Analytics tra dispositivi è abilitato. È disponibile una nuova metrica, [Dispositivi unici](/help/components/metrics/unique-devices.md) che è approssimativamente uguale a Visitatori unici al di fuori di Analisi multidispositivo.
+Le metriche [Persone](/help/components/metrics/people.md) e [Visitatori unici](/help/components/metrics/unique-visitors.md) mirano a conteggiare visitatori distinti (individui). Tuttavia, considerare la possibilità che 2 dispositivi diversi possano appartenere alla stessa persona. CDA mappa i 2 dispositivi alla stessa persona, mentre i 2 dispositivi sono registrati come 2 &quot;Visitatori unici&quot; separati al di fuori di CDA.
 
 ## Qual è la differenza tra la metrica &quot;Dispositivi unici&quot; in CDA e la metrica &quot;Visitatori unici&quot; al di fuori di CDA?
 
-Queste due metriche sono approssimativamente equivalenti tra loro.
+Queste due metriche sono approssimativamente equivalenti tra loro. Le differenze tra le 2 metriche si verificano quando:
+
+* Un dispositivo condiviso si mappa a più persone. In questo scenario, viene conteggiato 1 visitatore univoco, mentre vengono conteggiati più dispositivi univoci.
+* Un dispositivo dispone sia di traffico non vincolato che vincolato dallo stesso visitatore. Ad esempio, un browser generato identificava il traffico vincolato + il traffico anonimo storico che non era vincolato. In questo caso, viene conteggiato 1 visitatore univoco, mentre vengono conteggiati 2 dispositivi univoci.
+
+Per ulteriori esempi e dettagli sul funzionamento, consulta [Dispositivi univoci](/help/components/metrics/unique-devices.md) .
 
 ## Posso includere le metriche CDA utilizzando l’API 2.0?
 
@@ -93,9 +98,9 @@ Entrambi questi identificatori sono calcolati per Adobe al momento dell&#39;esec
 
 Il passaggio dal grafico del dispositivo all’unione basata sui campi o viceversa può essere richiesto tramite l’Assistenza clienti. Tuttavia, per completare questo passaggio possono essere necessarie un paio di settimane o più e *i dati storici uniti dal metodo precedente vengono persi.*
 
-## In che modo Adobe gestisce i limiti univoci per un eVar utilizzato nelle cuciture basate sul campo?
+## In che modo Adobe gestisce i limiti univoci per una prop o un eVar utilizzato nella cucitura basata sul campo?
 
-CDA richiama gli elementi dimensionali eVar prima che siano ottimizzati per il reporting. Non devi preoccuparti di limiti unici per gli scopi di CDA. Tuttavia, se hai provato a utilizzare tale proprietà/eVar in un progetto Workspace, puoi comunque visualizzare l’elemento di dimensione [(Basso traffico)](/help/technotes/low-traffic.md) .
+CDA richiama gli elementi dimensionali della variabile di identificazione prima che siano ottimizzati per il reporting. Non devi preoccuparti di limiti unici per gli scopi di CDA. Tuttavia, se hai provato a utilizzare tale proprietà o eVar in un progetto Workspace, puoi comunque visualizzare l’elemento di dimensione [(Basso traffico)](/help/technotes/low-traffic.md) .
 
 ## Quante suite di rapporti della mia azienda possono essere abilitate per CDA?
 
@@ -121,4 +126,10 @@ CDA utilizza una pipeline di elaborazione parallela complessa, con più componen
 
 ## Perché la metrica &quot;Persone identificate&quot; è gonfiata?
 
-Se il conteggio è leggermente superiore al previsto, un valore eVar può appartenere a più di una persona identificata a causa di [conflitti hash](/help/implement/validate/hash-collisions.md). Se il conteggio è molto più alto del previsto, contatta l’Assistenza clienti per ulteriori passaggi di risoluzione dei problemi.
+Il numero della metrica &quot;Persone identificate&quot; può essere leggermente più alto se il valore dell’identificatore prop/eVar si trova in una [collisione hash](/help/implement/validate/hash-collisions.md).
+
+Il numero della metrica &quot;Persone identificate&quot; può essere significativamente più alto se l’identificatore prop/eVar fa distinzione tra maiuscole e minuscole. Ad esempio, `bob` e `Bob` devono essere uguali, ma la distinzione tra maiuscole e minuscole determina una distinzione di questi due valori.
+
+## Perché vedo i valori quando visualizzo l&#39;identificatore prop/eVar con la metrica &quot;Persone non identificate&quot;?
+
+Questa situazione si verifica solitamente quando un visitatore genera hit autenticati e non autenticati nell’intervallo di reporting e [Replay](replay.md) non è ancora stato eseguito. Prima della ripetizione, il visitatore appartiene sia a &quot;Non identificato&quot; che a &quot;Identificato&quot; nella dimensione [Stato identificato](/help/components/dimensions/identified-state.md), il che fa sì che alcuni visitatori attribuiscano hit non identificati a un identificatore. I visitatori rimangono in questo stato finché la riproduzione non viene eseguita (quotidianamente o settimanalmente, a seconda di come l’organizzazione ha configurato CDA). L’esecuzione di report solo sui dati successivi alla ripetizione attenua questa situazione.

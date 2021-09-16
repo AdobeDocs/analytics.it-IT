@@ -1,19 +1,36 @@
 ---
 title: Dispositivi univoci
 description: Numero di dispositivi univoci.
-translation-type: tm+mt
-source-git-commit: 31e97d3797697aa581f96c7429c728e055ab492a
+exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
+source-git-commit: 407111f6016fe8595f1d5c3464e36dfd4d314630
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 0%
+source-wordcount: '248'
+ht-degree: 2%
 
 ---
 
-
 # Dispositivi univoci
 
-La metrica &quot;Dispositivi unici&quot; è una metrica di analisi [](../cda/overview.md) tra dispositivi che conta il numero di dispositivi post-cuciti.
+La metrica &quot;Dispositivi unici&quot; è una metrica [Analisi multidispositivo](../cda/overview.md) che conta il numero di dispositivi univoci non identificati e di dispositivi virtuali univoci. I dispositivi non identificati sono dispositivi che hanno generato hit anonimi. I dispositivi virtuali univoci sono persone distinte identificate per dispositivo.
 
-## Modalità di calcolo di questa metrica
+## Calcolo di questa metrica
 
-Per tutte le [persone](people.md), contate il numero di dispositivi per persona. Questa metrica corrisponde in genere a quella dei visitatori [](unique-visitors.md) univoci in una suite di rapporti non CDA. Le differenze possono verificarsi quando un dispositivo condiviso viene mappato a più persone. In questo scenario, un visitatore univoco viene conteggiato mentre vengono contati più dispositivi univoci.
+Per ciascun dispositivo, somma tutte le persone distinte associate (incluso anonimo se il dispositivo contiene hit non uniti).
+
+Tieni presente che questa metrica non è uguale a [Visitatori unici](unique-visitors.md) nelle suite di rapporti non CDA. Ad esempio, un dispositivo è condiviso da 3 account diversi. Se tutti e 3 gli account visitano il tuo sito in un intervallo di reporting, il rapporto risultante mostrerà 3 Dispositivi univoci in CDA. Gli stessi dati al di fuori di CDA mostrerebbero 1 Visitatore univoco.
+
+## Esempio
+
+1. Bob arriva al tuo sito sul suo telefono tramite un annuncio, ma non è connesso.
+1. Bob vuole fare un acquisto, ma preferirebbe farlo sul computer di famiglia perché è già connesso lì. Sul computer di famiglia fa un acquisto.
+1. Il giorno dopo controlla il suo ordine sul suo telefono e vi si autentica.
+1. La moglie di Bob, Alice, naviga sul tuo sito mentre accedi al suo account sul computer della famiglia.
+1. Anche il fratello di Bob, Charles, naviga sul tuo sito durante l&#39;accesso al suo account sul computer della famiglia.
+
+![Conteggio dispositivi univoci](/help/components/metrics/assets/Unique_Devices_Count.png)
+
+La visualizzazione di questi dati in una suite di rapporti virtuali CDA prima di [Riproduci](/help/components/cda/replay.md) mostrerebbe:
+
+* **5 dispositivi** univoci: 1 per Bob non autenticato + 2 per Bob + 1 per Alice + 1 per Charles
+* **4  [Persone](people.md)**: 1  [Persone](unidentified-people.md)  Non Identificate + 3 Persone  [Identificate](identified-people.md).
+

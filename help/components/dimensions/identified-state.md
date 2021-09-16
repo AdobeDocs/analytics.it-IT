@@ -1,26 +1,25 @@
 ---
 title: Stato identificato
-description: Flag che determina il riconoscimento tramite il grafico del dispositivo.
-translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+description: Flag che determina il riconoscimento dal grafico del dispositivo.
+exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
+source-git-commit: 1a58c3e87f5918c91b891faa6027f5ad8b6024b9
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '111'
 ht-degree: 3%
 
 ---
 
-
 # Stato identificato
 
-La dimensione &#39;Stato identificato&#39; è specifica per le suite di rapporti virtuali [Analytics multi-dispositivo](../cda/overview.md). Indica se l&#39;ID Experience Cloud  viene riconosciuto dal grafico del dispositivo al momento dell&#39;esecuzione del rapporto. Questa dimensione è utile per comprendere l’efficacia dei punti CDA o dei dati di &quot;compressione&quot;.
+La dimensione &quot;Stato identificato&quot; è specifica per le suite di rapporti virtuali [Cross-Device Analytics](../cda/overview.md). Indica se gli hit vengono identificati (uniti) o meno dal sistema al momento dell&#39;esecuzione del rapporto. Questa dimensione è utile per comprendere come CDA unisce o comprime correttamente i dati.
 
-## Compilare questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
-Finché [Analytics multi-dispositivo](../cda/overview.md) è stato configurato per una suite di rapporti virtuale, questa dimensione non è disponibile.
+Se hai [Cross-Device Analytics](../cda/overview.md) configurato per una suite di rapporti virtuale, questa dimensione funziona automaticamente.
 
 ## Elementi Dimension
 
-Gli elementi di Dimension includono `"Identified"` e `"Unidentified"`.
+Gli elementi del Dimension includono `"Identified"` e `"Unidentified"`.
 
-* **`"Identified"`**: Il grafico del dispositivo riconosce l’ID Experience Cloud  associato all’hit.
-* **`"Unidentified"`**: Il grafico del dispositivo non riconosce l&#39;ID Experience Cloud , oppure l&#39;hit non ha un ID Experience Cloud .
+* **`"Identified"`**: L&#39;hit è mappato a una persona.
+* **`"Unidentified"`**: L&#39;hit non è mappato a una persona e non può essere mappato con alcun metodo di attribuzione.

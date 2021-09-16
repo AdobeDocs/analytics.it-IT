@@ -2,10 +2,10 @@
 title: Analytics tra dispositivi
 description: Modifica i dati da incentrati sul dispositivo a quelli incentrati sulla persona combinando i dati del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
+source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 16%
+source-wordcount: '808'
+ht-degree: 15%
 
 ---
 
@@ -13,7 +13,8 @@ ht-degree: 16%
 
 Analisi multidispositivo è una funzione che trasforma Analytics da una visualizzazione incentrata sul dispositivo a una visualizzazione incentrata sulla persona. Di conseguenza, gli analisti possono comprendere il comportamento dell&#39;utente che attraversa browser, dispositivi o app. Adobe supporta due flussi di lavoro generali per collegare insieme i dati dei dispositivi:
 
-* [**Unione basata sui campi**](field-based-stitching.md): Consente di scegliere una variabile di Analytics come base per l’unione tra dispositivi in una suite di rapporti virtuale. Utilizza la corrispondenza deterministica per collegare tra loro i dispositivi. Adobe consiglia di utilizzare unioni basate sul campo per la maggior parte dei casi di utilizzo di corrispondenza deterministica.
+* [**Unione basata sui campi**](field-based-stitching.md): Opzione di unione consigliata perché utilizza solo la corrispondenza deterministica per collegare i dispositivi insieme.
+Consente di scegliere una variabile di Analytics come base per l’unione tra dispositivi in una suite di rapporti virtuale.
 * [**Grafico**](device-graph.md) del dispositivo: CDA comunica con un grafico dei dispositivi per unire i dispositivi. Il grafico co-op utilizza sia la corrispondenza deterministica che la corrispondenza probabilistica.
 
 >[!NOTE]
@@ -56,3 +57,5 @@ Analisi multidispositivo è una funzione innovativa e affidabile, ma presenta li
 * CDA non è attualmente compatibile con Adobe Analytics [Data Repair API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)
 * I dati storici nella suite di rapporti virtuali cambiano in base all’Adobe che riconosce e unisce i dispositivi. I dati nella suite di rapporti sorgente non cambiano.
 * I dati uniti seguono una latenza di 8-12 ore.
+* I dati della cronologia di mappatura per un determinato dispositivo vengono memorizzati per un massimo di 1 anno.
+* Se un dispositivo raggiunge un numero molto elevato di voci della cronologia di mappatura in un anno, la cronologia di mappatura viene troncata. Il limite esatto dipende dall&#39;opzione di unione utilizzata.
