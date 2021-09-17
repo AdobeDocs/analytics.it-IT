@@ -1,13 +1,12 @@
 ---
 description: Quando un rapporto ha un numero elevato di valori univoci, Adobe fornisce funzionalità che garantiscono la visualizzazione dei valori più importanti nel rapporto.
 title: Valore di traffico ridotto in Adobe Analytics
-feature: Metriche
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-translation-type: tm+mt
-source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
+source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -27,6 +26,9 @@ Quando un rapporto ha molti valori univoci, Adobe fornisce funzionalità che gar
    * Se un valore non è ancora visualizzato nei rapporti, verrà visualizzato nella riga [!UICONTROL Low-Traffic]. Se un valore incluso nella riga [!UICONTROL Low-Traffic] viene visualizzato un numero significativo di volte in un breve periodo di tempo, verrà riconosciuto come elemento della riga corrispondente. Il numero significativo di volte in cui un elemento deve essere visualizzato ha molte dipendenze, ad esempio il numero di server di elaborazione e di demoni che elaborano i dati per quella particolare suite di rapporti.
 
 Perché Adobe sposta un elemento dalla riga [!UICONTROL Low Traffic] alla riga corrispondente? Ad esempio, questo spostamento potrebbe riconoscere una nuova pagina o un nuovo elemento popolare aggiunto più avanti nel mese (dopo il superamento di univoci) e che ottiene un sacco di hit/visualizzazioni. Lo spostamento non ha lo scopo di rilevare tutto ciò che riceve un certo numero di hit/visualizzazioni al giorno o al mese.
+
+>[!NOTE]
+>Il conteggio di ricerca della pagina non include solo i valori per [!UICONTROL pagename]/[!UICONTROL page_url]. La tabella di ricerca delle pagine include diverse colonne/campi quali [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] e il contesto di clic (i vecchi dati di ClickMap).
 
 ## Modifica delle soglie dei limiti univoci
 
