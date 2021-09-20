@@ -1,13 +1,13 @@
 ---
 description: 'I componenti in Analysis Workspace sono metriche, dimensioni, segmenti e intervalli temporali da trascinare su un progetto. '
 title: Panoramica dei componenti
-feature: Concetti di base di Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '668'
-ht-degree: 100%
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 98%
 
 ---
 
@@ -43,17 +43,17 @@ Esempi di metriche includono [!UICONTROL Page views], [!UICONTROL Visits], [!UIC
 
 ## Segmenti {#segments}
 
-I [**segmenti**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=it) sono filtri di pubblico applicati all’analisi. Si trovano nella barra dei componenti a sinistra (sezione blu) e sono in genere applicati nella parte superiore di un pannello o sopra le colonne di metrica in una tabella.
+I [**segmenti**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) sono filtri di pubblico applicati all’analisi. Si trovano nella barra dei componenti a sinistra (sezione blu) e sono in genere applicati nella parte superiore di un pannello o sopra le colonne di metrica in una tabella.
 
-Esempi di segmenti includono [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email] e [!UICONTROL Authenticated Hits]. I segmenti vengono forniti da Adobe oppure possono essere creati nella [zona di rilascio del pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) o mediante il [Generatore di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=it).
+Esempi di segmenti includono [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email] e [!UICONTROL Authenticated Hits]. I segmenti vengono forniti da Adobe oppure possono essere creati nella [zona di rilascio del pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) o mediante il [Generatore di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=it).
 
 ![](assets/segments.png)
 
 ## Intervalli di date {#date-ranges}
 
-Gli [**intervalli di date**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=it) sono l’intervallo di date in cui esegui l’analisi. Si trovano nella barra dei componenti a sinistra (sezione viola) e vengono in genere applicati nel calendario di ciascun pannello.
+Gli [**intervalli di date**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) sono l’intervallo di date in cui esegui l’analisi. Si trovano nella barra dei componenti a sinistra (sezione viola) e vengono in genere applicati nel calendario di ciascun pannello.
 
-Esempi di intervalli di date includono luglio 2019, [!UICONTROL Last 4 weeks] e [!UICONTROL This month]. Gli intervalli di date sono forniti da Adobe, possono essere applicati nel [calendario del pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) o creati mediante il [Generatore di intervalli di date](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=it).
+Esempi di intervalli di date includono luglio 2019, [!UICONTROL Last 4 weeks] e [!UICONTROL This month]. Gli intervalli di date sono forniti da Adobe, possono essere applicati nel [calendario del pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) o creati mediante il [Generatore di intervalli di date](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
 
 ![](assets/date-ranges.png)
 

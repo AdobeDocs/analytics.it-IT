@@ -5,10 +5,10 @@ title: Scopri le novità di Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '8174'
+ht-degree: 99%
 
 ---
 
@@ -359,7 +359,7 @@ Nuove funzionalità e miglioramenti rilasciati il 10 maggio 2018.
    <td colname="col2"> <p>Nell’angolo in fondo a destra dell’interfaccia saranno presenti i suggerimenti del giorno (insieme a un breve video). I suggerimenti ti consentono di acquisire familiarità con tantissime utili funzioni di Analysis Workspace. Puoi scegliere di ignorarli o di accedervi in qualsiasi momento tramite <span class="uicontrol">Guida</span> &gt; <span class="uicontrol">Suggerimenti</span>. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Modelli di segmento </a> e <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > modelli di metriche calcolate </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Modelli di segmento </a> e <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > modelli di metriche calcolate </a></b> </p> </td> 
    <td colname="col2"> <p>La barra a sinistra mostra ora i modelli di segmento e i modelli di metriche calcolate. </p> </td> 
   </tr> 
   <tr> 
@@ -605,7 +605,7 @@ Nuove funzionalità rilasciate il 26 ottobre 2017.
    <td colname="col2"> <p>Ora è possibile attivare e disattivare alternativamente le diverse granularità temporali disponibili, se la dimensione nell’origine dati è di tipo temporale. La selezione delle granularità viene effettuata mediante un apposito elenco a discesa nelle impostazioni di visualizzazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Dimensioni ed eventi completi nella zona di rilascio segmenti </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Dimensioni ed eventi completi nella zona di rilascio segmenti </a> </p> </td> 
    <td colname="col2"> <p>In precedenza, nella zona di rilascio segmenti era possibile rilasciare solo elementi dimensionali, intervalli di date o segmenti. Ora, al contrario, nella stessa zona è possibile rilasciare una dimensione o un evento completi. In entrambi i casi, Analysis Workspace provvederà a creare segmenti di hit di tipo “esiste”. </p> <p>Esempi: “Hit dove esiste eVar1” oppure “Hit dove esiste event1”. </p> <p>Nota: non è consentito rilasciare metriche calcolate in una zona segmenti. Solo le dimensioni/metriche per le quali è possibile generare dei segmenti sono idonee per la zona segmenti. </p> </td> 
   </tr> 
   <tr> 
@@ -935,7 +935,7 @@ Nuova funzionalità rilasciata il 19 gennaio 2017:
    <td colname="col2"> <p>È stato aggiunto il supporto per la visualizzazione dei dati di Abbandono nel formato CSV. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Intervalli di date nei segmenti </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Intervalli di date nei segmenti </a> </p> </td> 
    <td colname="col2"> <p>È possibile rilasciare intervalli di date nelle zone di rilascio dei segmenti (ad esempio, zone di rilascio dei segmenti nei pannelli, nella visualizzazione Abbandono e così via). Gli intervalli di date vengono automaticamente convertiti in segmenti. Gli intervalli di date possono essere personalizzati o meno, ma senza granularità quali ora, giorno, settimana, mese, trimestre o anno. </p> </td> 
   </tr> 
   <tr> 
@@ -1058,7 +1058,7 @@ Nuove funzionalità rilasciate il 16 giugno 2016:
 * La [selezione dei trend](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (grafico lineare) secondo graduatoria è ora collegata.
 * [Icona “Crea elemento visivo”](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): facendo clic su questa icona, è possibile ottenere una stima ragionata dell’azione successiva (grafico a barre, diagramma di Venn, ecc.).
 * Funzionalità ampliata [Righe manuali](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
-* Zona di rilascio [Aggiungi segmento](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
+* Zona di rilascio [Aggiungi segmento](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 * Aggiornamenti minori:
 
    * Possibilità di eliminare tutte le visualizzazioni in un pannello e tutti i pannelli in un progetto. (In precedenza, era necessario mantenere almeno una visualizzazione o un pannello).

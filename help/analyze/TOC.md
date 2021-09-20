@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '989'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + [Scopri le novità di Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Progetti {#build-workspace-project}
-      + [Panoramica sui progetti](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Panoramica dei progetti](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Suite di rapporti multiple](analysis-workspace/build-workspace-project/multiple-report-suites.md)
@@ -34,14 +34,16 @@ ht-degree: 0%
          + [Suddividere dimensioni](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [Suddividere le dimensioni in base al tempo](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [Metriche](analysis-workspace/components/apply-create-metrics.md)
-      + [Segmenti](analysis-workspace/components/t-freeform-project-segment.md)
+      + Segmenti {#segments}
+         + [Creare un segmento](analysis-workspace/components/segments/t-freeform-project-segment.md)
+         + [Segmenti rapidi](analysis-workspace/components/segments/quick-segments.md)
       + Calendario e intervalli di date {#calendar-date-ranges}
          + [Panoramica del calendario e degli intervalli di date](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Creazione di intervalli di date personalizzati](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Confronto delle date](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
    + Visualizzazioni {#visualizations}
       + [Panoramica delle visualizzazioni](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-      + [Gestione delle origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
+      + [Gestire le origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
       + Tabella a forma libera {#freeform-table}
          + [Tabella a forma libera](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + Impostazioni colonna e riga {#column-row-settings}
@@ -98,10 +100,10 @@ ht-degree: 0%
       + [Scaricare file PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Programmare progetti](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
-      + [Panoramica su Attribution](analysis-workspace/attribution/overview.md)
+      + [Panoramica di Attribution](analysis-workspace/attribution/overview.md)
       + [Modelli di attribuzione e intervalli di lookback](analysis-workspace/attribution/models.md)
       + [Attribuzione algoritmica](analysis-workspace/attribution/algorithmic.md)
-      + [Best practice di attribuzione](analysis-workspace/attribution/best-practices.md)
+      + [Best practice di Attribution](analysis-workspace/attribution/best-practices.md)
       + [Domande frequenti](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segmento IQ](analysis-workspace/segment-iq.md)

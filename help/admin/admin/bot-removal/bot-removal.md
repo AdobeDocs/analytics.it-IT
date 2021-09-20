@@ -2,10 +2,10 @@
 title: Rimozione dei bot in Adobe Analytics
 description: Come rimuovere i bot in Adobe Analytics
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 1%
+source-wordcount: '780'
+ht-degree: 2%
 
 ---
 
@@ -41,7 +41,7 @@ Inoltre, dal momento che i bot si stanno evolvendo rapidamente, l&#39;Adobe offr
 
 ### Passaggio 1: Passa l&#39;ID Experience Cloud dei visitatori in un nuovo ID dichiarato
 
-Per iniziare, crea un nuovo ID dichiarato nel [Servizio core Persone](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Passa l&#39;ID Experience Cloud del visitatore in questo nuovo ID dichiarato, che può essere fatto in modo rapido e semplice con i [tag in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en). Usiamo il nome &quot;ECID&quot; per l’ID dichiarato.
+Per iniziare, crea un nuovo ID dichiarato nel [Servizio core Persone](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Passa l&#39;ID Experience Cloud del visitatore in questo nuovo ID dichiarato, che può essere fatto in modo rapido e semplice con i [tag in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it). Usiamo il nome &quot;ECID&quot; per l’ID dichiarato.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -53,7 +53,7 @@ Una volta configurato questo elemento dati, segui [queste istruzioni](https://ex
 
 ### Passaggio 2: Utilizzare la segmentazione per identificare i bot
 
-Ora che l’ECID del visitatore è passato in un ID dichiarato, puoi utilizzare la [segmentazione in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=it) per identificare i visitatori che si comportano come bot. I robot sono spesso definiti dal loro comportamento: visite a accesso singolo, agenti utente insoliti, informazioni sconosciute su dispositivi/browser, senza referrer, nuovi visitatori, pagine di destinazione insolite, ecc. Utilizza i poteri di drill-down e segmentazione di Workspace per identificare i bot che hanno evitato il filtro IAB e le regole bot della suite di rapporti. Ad esempio, ecco una schermata di un segmento che puoi utilizzare:
+Ora che l’ECID del visitatore è passato in un ID dichiarato, puoi utilizzare la [segmentazione in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) per identificare i visitatori che si comportano come bot. I robot sono spesso definiti dal loro comportamento: visite a accesso singolo, agenti utente insoliti, informazioni sconosciute su dispositivi/browser, senza referrer, nuovi visitatori, pagine di destinazione insolite, ecc. Utilizza i poteri di drill-down e segmentazione di Workspace per identificare i bot che hanno evitato il filtro IAB e le regole bot della suite di rapporti. Ad esempio, ecco una schermata di un segmento che puoi utilizzare:
 
 ![](assets/bot-filter-seg1.png)
 
