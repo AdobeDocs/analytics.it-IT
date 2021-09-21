@@ -8,7 +8,7 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
 source-wordcount: '8174'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 >[!IMPORTANT]
 >Sono stati introdotti ulteriori aggiornamenti di Analysis Workspace nella pagina [Aggiornamenti alla documentazione di Adobe Analytics](/help/technotes/doc-updates.md).
 
-Per aggiornamenti sul prodotto di base, consulta [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it) .
+Per aggiornamenti sul prodotto di base, consulta [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 
 ## Marzo 2021
 
