@@ -3,10 +3,10 @@ description: Utilizzare segmenti ad hoc in Analysis Workspace.
 title: Segmenti ad hoc
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 27c9a3f8f8faeda934827eac6797dd39ba7dd2ca
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 45%
+source-wordcount: '276'
+ht-degree: 40%
 
 ---
 
@@ -26,7 +26,8 @@ Ecco un esempio di come creare un segmento per il dominio di riferimento Twitter
 
    Il pannello applica automaticamente questo segmento e potrai vedere immediatamente i risultati.
 
-1. Su
+1. Aggiungi fino a 3 segmenti ad hoc a un pannello.
+1. Se decidi di salvare questo segmento, consulta la sezione &quot;Rendere pubblici i segmenti ad hoc&quot;.
 
 Nota bene:
 
@@ -46,3 +47,4 @@ Puoi scegliere di rendere questi segmenti pubblici (globali), seguendo questi pa
 1. Nel pannello informazioni visualizzato, fai clic su **[!UICONTROL Make public]**.
 
    ![](assets/segment-info.png)
+

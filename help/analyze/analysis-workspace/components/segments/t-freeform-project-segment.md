@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 65c955e25714591b8c4b2359969717d13626b322
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 49%
+source-wordcount: '437'
+ht-degree: 56%
 
 ---
 
@@ -56,4 +56,9 @@ Esistono molti altri metodi per applicare i segmenti a un pannello a forma liber
 | Share (Condividi) > Share Project (Condividi progetto) or Share (Condividi) > Curate Project Data (Cura dati progetto) | In [Cura e condivisione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it#concept_4A9726927E7C44AFA260E2BB2721AFC6), scopri come i segmenti applicati al progetto sono disponibili al destinatario nelle analisi condivise. |
 | Uso dei segmenti come dimensioni | Video: [Uso dei segmenti come dimensioni in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=it) |
 
+## Segmento IQ
 
+Il segmento IQ include le seguenti funzioni:
+
+* [Pannello Confronto segmenti:](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) la funzione principale del segmento IQ. Trascina due segmenti nel pannello e visualizza un rapporto completo che mostra differenze statisticamente significative e sovrapposizioni tra i due pubblici.
+* [Confronto di segmenti in Abbandono:](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) scopri in che modo diversi tipi di pubblico si confrontano tra loro nel contesto di una visualizzazione di abbandono.
