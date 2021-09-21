@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 73%
+source-wordcount: '494'
+ht-degree: 77%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 73%
 
 Puoi creare diversi tipi di segmenti, a seconda di quanto complessi debbano essere, se devono essere applicati solo a questo progetto, ecc. Segue un riepilogo dei tipi di segmenti:
 
-| Tipo di segmento | Dove è stato creato? | Applicabile dove? | Contenitori multipli? | Colore interfaccia |
-| --- | --- | --- | --- |
-| Segmento elenco componenti | [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) | A tutti i progetti, dalla barra a sinistra | Sì | Blu |
-| Segmento rapido | [Generatore di segmenti rapido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo a livello di progetto | No | Grigio? |
-| Segmenti ad hoc: | Vedi sotto | Solo a livello di progetto | No | ? |
-| - Segmento di progetto ad hoc Workspace | Trascina e rilascia nel segmento ? in un nuovo progetto |  |  |  |
-| - Segmento basato su metriche calcolate | Generatore di metriche calcolate |  |  |  |
-| - Segmento basato su VRS | Generatore di suite di rapporti virtuali |  |  |  |
-| - Generatore di segmenti &quot;apply&quot; &quot; | Generatore di segmenti |  |  |  |
+| Tipo di segmento | Creato dove? | Applicabile dove? | Contenitori multipli? |
+| --- | --- | --- | 
+| Segmento elenco componenti | [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) | Tutti i progetti, nella barra a sinistra | Sì | Blu |
+| Segmento rapido | [Generatore di segmenti rapido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo a livello di progetto | No |
+| Segmenti ad hoc: | Vedi sotto | Solo a livello di progetto | No |
+| - Segmento di progetto ad hoc Workspace | Trascina e rilascia nel segmento ? in un nuovo progetto |  |  |
+| - Segmento basato su metriche calcolate | Generatore di metriche calcolate |  |  |
+| - Segmento basato su VRS | Generatore di suite di rapporti virtuali |  |  |
+| - Generatore di segmenti &quot;apply&quot; &quot; | Generatore di segmenti |  |  |
 
 Per una discussione approfondita sulla segmentazione in Adobe Analytics, vai [qui](/help/components/segmentation/seg-overview.md).
 
