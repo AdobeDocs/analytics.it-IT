@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
+source-git-commit: 366e595d38124a767e2c0d0e4ce4bd8cf9683707
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '991'
 ht-degree: 99%
 
 ---
@@ -37,6 +37,7 @@ ht-degree: 99%
       + Segmenti {#segments}
          + [Creare un segmento](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Segmenti rapidi](analysis-workspace/components/segments/quick-segments.md)
+         + [Segmenti ad hoc](analysis-workspace/components/segments/ad-hoc-segments.md)
       + Calendario e intervalli di date {#calendar-date-ranges}
          + [Panoramica del calendario e degli intervalli di date](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Creazione di intervalli di date personalizzati](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
@@ -103,7 +104,7 @@ ht-degree: 99%
       + [Panoramica di Attribution](analysis-workspace/attribution/overview.md)
       + [Modelli di attribuzione e intervalli di lookback](analysis-workspace/attribution/models.md)
       + [Attribuzione algoritmica](analysis-workspace/attribution/algorithmic.md)
-      + [Best practice di Attribution](analysis-workspace/attribution/best-practices.md)
+      + [Best practice di attribuzione](analysis-workspace/attribution/best-practices.md)
       + [Domande frequenti](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segmento IQ](analysis-workspace/segment-iq.md)
@@ -311,5 +312,5 @@ ht-degree: 99%
    + [Panoramica delle dashboard di Adobe Analytics](mobile-app/home.md)
    + [Guida per curatori](mobile-app/curator.md)
    + [Guida introduttiva per utenti esecutivi](mobile-app/executive.md)
-+ [API di reporting](reporting-api.md)
++ [API di reportistica](reporting-api.md)
 + [Labs](labs.md)

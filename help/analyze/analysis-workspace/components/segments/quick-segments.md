@@ -3,10 +3,10 @@ description: Utilizzare segmenti rapidi in Analysis Workspace.
 title: Segmenti rapidi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
+source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 0%
+source-wordcount: '322'
+ht-degree: 5%
 
 ---
 
@@ -42,8 +42,22 @@ Puoi creare segmenti rapidi all&#39;interno di un progetto per bypassare la comp
    ![](assets/quick-seg2.png)
 
 1. Fai clic su **[!UICONTROL Apply]** per applicare questo segmento al pannello.
-Il segmento viene visualizzato nella parte superiore. Osserva la relativa barra grigia, invece della barra blu per i segmenti a livello di componente a sinistra.
+Il segmento viene visualizzato nella parte superiore. Osserva la relativa barra laterale grigia, invece della barra blu per i segmenti a livello di componente a sinistra.
 
    ![](assets/quick-seg3.png)
 
-1. Nel segmento rapido
+## Rendere pubblici i segmenti rapidi
+
+Puoi scegliere di rendere questi segmenti pubblici (globali), seguendo questi passaggi:
+
+1. Passa il puntatore del mouse sul segmento rapido e fai clic sull’icona &quot;i&quot;.
+1. Fai clic su **[!UICONTROL Open builder]**.
+Viene aperto il segmento nel Generatore di segmenti.
+   >[!NOTE]
+   >Una volta applicato o salvato il segmento nel Generatore di segmenti, non è più possibile modificarlo nel Generatore di segmenti rapidi.
+1. Fai clic su **[!UICONTROL OK]**.
+1. Nel Generatore di segmenti, fai clic su **[!UICONTROL Apply]**.
+1. Torna a Workspace e osserva come il segmento ora ha una barra laterale blu che indica che fa parte della libreria dei componenti.
+
+   ![](assets/quick-seg4.png)
+
