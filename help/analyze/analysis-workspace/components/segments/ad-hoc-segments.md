@@ -3,10 +3,10 @@ description: Utilizzare segmenti ad hoc in Analysis Workspace.
 title: Segmenti ad hoc
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 27c9a3f8f8faeda934827eac6797dd39ba7dd2ca
+source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 40%
+source-wordcount: '286'
+ht-degree: 34%
 
 ---
 
@@ -17,7 +17,9 @@ Ecco un video sulla creazione di segmenti ad hoc:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-Puoi creare segmenti ad-hoc se desideri esplorare rapidamente in che modo un segmento potrebbe influenzare il progetto, senza passare al Generatore di segmenti. Considera questi segmenti come segmenti temporanei a livello di progetto. In genere non fanno parte della &quot;libreria&quot; del segmento, come i segmenti di componente nella barra a sinistra. Tuttavia, puoi renderli pubblici, come illustrato di seguito.
+Puoi creare segmenti ad-hoc se desideri esplorare rapidamente in che modo un segmento potrebbe influenzare il progetto, senza passare al Generatore di segmenti. Considera questi segmenti come segmenti temporanei a livello di progetto. In genere non fanno parte della &quot;libreria&quot; del segmento, come i segmenti di componente nella barra a sinistra. Tuttavia, puoi salvarli, come illustrato di seguito.
+
+Per un confronto tra le attività dei segmenti ad hoc e i segmenti a livello di componente a tutti gli effetti, visita [qui](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 1. Rilascia qualsiasi tipo di componente (dimensione, elemento dimensione, evento, metrica, segmento, modello di segmento, intervallo di date) nella zona di rilascio del segmento nella parte superiore di un pannello. I tipi di componente vengono automaticamente convertiti in segmenti.
 Ecco un esempio di come creare un segmento per il dominio di riferimento Twitter:
@@ -26,8 +28,8 @@ Ecco un esempio di come creare un segmento per il dominio di riferimento Twitter
 
    Il pannello applica automaticamente questo segmento e potrai vedere immediatamente i risultati.
 
-1. Aggiungi fino a 3 segmenti ad hoc a un pannello.
-1. Se decidi di salvare questo segmento, consulta la sezione &quot;Rendere pubblici i segmenti ad hoc&quot;.
+1. Puoi aggiungere a un pannello un numero illimitato di componenti.
+1. Se decidi di salvare questo segmento, consulta la sezione seguente.
 
 Nota bene:
 
@@ -39,12 +41,12 @@ Nota bene:
 >
 >I segmenti creati in questo modo sono interni al progetto.
 
-## Rendere pubblici i segmenti ad hoc {#ad-hoc-public}
+## Salvare segmenti ad-hoc {#ad-hoc-save}
 
-Puoi scegliere di rendere questi segmenti pubblici (globali), seguendo questi passaggi:
+Puoi scegliere di salvare questi segmenti seguendo questi passaggi:
 
 1. Passa il mouse sul segmento nella zona di rilascio e fai clic sull’icona “i”.
-1. Nel pannello informazioni visualizzato, fai clic su **[!UICONTROL Make public]**.
+1. Nel pannello informazioni visualizzato, fai clic su **[!UICONTROL Save]**.
 
    ![](assets/segment-info.png)
 

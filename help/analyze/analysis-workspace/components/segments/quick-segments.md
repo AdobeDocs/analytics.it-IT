@@ -3,10 +3,10 @@ description: Utilizzare segmenti rapidi in Analysis Workspace.
 title: Segmenti rapidi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 5%
+source-wordcount: '449'
+ht-degree: 0%
 
 ---
 
@@ -31,33 +31,63 @@ Puoi creare segmenti rapidi all&#39;interno di un progetto per bypassare la comp
 
 1. Aggiungi una dimensione/metrica/intervallo di date in uno dei tre modi seguenti:
 
-   - Inizia a digitare e il generatore di segmenti rapidi trova automaticamente il componente appropriato.
+   - Inizia a digitare e il [!UICONTROL Quick Segment builder] trova automaticamente il componente appropriato.
    - Utilizza l’elenco a discesa per trovare il componente.
    - Trascina i componenti dalla barra a sinistra.
 
-1. Specifica la prima regola, ad esempio `Page equals workspace`. Puoi avere fino a tre regole nelle definizioni dei segmenti. Fai clic sul segno &quot;+&quot; per aggiungere un’altra regola. Puoi aggiungere i qualificatori &quot;AND&quot; o &quot;OR&quot; alle regole, ma non puoi combinare &quot;AND&quot; e &quot;OR&quot; in una singola definizione di segmento.
+1. Specifica la prima regola, ad esempio `Page equals workspace`. Puoi avere fino a tre regole nelle definizioni di un segmento. Fai clic sul segno &quot;+&quot; per aggiungere un’altra regola. Puoi aggiungere i qualificatori &quot;AND&quot; o &quot;OR&quot; alle regole, ma non puoi combinare &quot;AND&quot; e &quot;OR&quot; in una singola definizione di segmento.
 
    Ecco un esempio di segmento che combina dimensioni e metriche:
 
    ![](assets/quick-seg2.png)
 
 1. Fai clic su **[!UICONTROL Apply]** per applicare questo segmento al pannello.
-Il segmento viene visualizzato nella parte superiore. Osserva la relativa barra laterale grigia, invece della barra blu per i segmenti a livello di componente a sinistra.
+Il segmento viene visualizzato nella parte superiore. Osserva la relativa barra laterale grigia, a differenza della barra laterale blu per i segmenti a livello di componente nella libreria dei segmenti a sinistra.
 
    ![](assets/quick-seg3.png)
 
-## Rendere pubblici i segmenti rapidi
+## Modificare segmenti rapidi
 
-Puoi scegliere di rendere questi segmenti pubblici (globali), seguendo questi passaggi:
+1. Passa il puntatore del mouse sul segmento rapido e seleziona l’icona a forma di matita .
+1. Modifica la definizione del segmento o il nome del segmento.
 
-1. Passa il puntatore del mouse sul segmento rapido e fai clic sull’icona &quot;i&quot;.
-1. Fai clic su **[!UICONTROL Open builder]**.
-Viene aperto il segmento nel Generatore di segmenti.
-   >[!NOTE]
-   >Una volta applicato o salvato il segmento nel Generatore di segmenti, non è più possibile modificarlo nel Generatore di segmenti rapidi.
-1. Fai clic su **[!UICONTROL OK]**.
-1. Nel Generatore di segmenti, fai clic su **[!UICONTROL Apply]**.
+## Salvare segmenti rapidi
+
+Puoi scegliere di salvare i segmenti rapidi seguendo questi passaggi.
+
+>[!IMPORTANT]
+>Una volta salvato il segmento, non sarà più possibile modificarlo nel Generatore di segmenti rapidi, solo nel Generatore di segmenti regolare.
+
+1. Passa il puntatore del mouse sul segmento rapido e seleziona l’icona Info (&quot;i&quot;).
+1. Select **[!UICONTROL Save segment]**
+
+   ![](assets/save-quick-seg.png)
+
+1. Lascia il nome così com’è o rinomina il segmento.
+
 1. Torna a Workspace e osserva come il segmento ora ha una barra laterale blu che indica che fa parte della libreria dei componenti.
 
    ![](assets/quick-seg4.png)
 
+## Rendere i segmenti disponibili per tutti i tuoi progetti
+
+Dopo aver salvato il segmento, puoi scegliere di aggiungerlo all’elenco dei componenti del segmento e renderlo disponibile per tutti i tuoi progetti.
+
+1. Passa il puntatore del mouse sul segmento salvato e seleziona l’icona a forma di matita .
+
+1. Nella parte superiore del Generatore di segmenti, osserva questa finestra di dialogo:
+
+   ![](assets/project-only.png)
+
+1. Seleziona la casella di controllo accanto a **[!UICONTROL Make this segment available to all your projects and add it to your component list.]**
+1. Fai clic su **[!UICONTROL Save]**.
+1. Il segmento verrà ora visualizzato nell’elenco dei componenti del segmento per tutti i progetti.
+1. Puoi anche [condividere il segmento](/help/components/segmentation/segmentation-workflow/t-seg-share.md).
+
+## Trasforma un segmento rapido in un segmento ad hoc
+
+1. Passa il puntatore del mouse sul segmento salvato e seleziona l’icona a forma di matita .
+
+1. Nella parte superiore del Generatore di segmenti, fai clic su **[!UICONTROL Apply]**.
+
+Per ulteriori informazioni sui segmenti ad hoc, visita [qui](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)

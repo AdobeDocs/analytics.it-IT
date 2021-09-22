@@ -5,12 +5,13 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 65c955e25714591b8c4b2359969717d13626b322
+source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 56%
+source-wordcount: '497'
+ht-degree: 41%
 
 ---
+
 
 # Segmenti {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
@@ -18,14 +19,16 @@ Puoi creare diversi tipi di segmenti in Workspace, a seconda di quanto debbano e
 
 | Tipo di segmento | Creato dove? | Applicabile dove? | Quando utilizzare |
 | --- | --- | --- | --- |
-| Segmento elenco componenti | [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) | Globale/Pubblico | Per segmenti complessi, segmenti sequenziali |
-| Segmento rapido | [Generatore di segmenti rapido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | A livello di progetto, ma può rendere pubblico | Flessibilità e controllo per aggiungere/modificare regole, nomi e regole multiple |
+| Segmento elenco componenti | Fai clic su +, per passare al [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) | Tutti i progetti Workspace | Per segmenti più complessi, segmenti sequenziali |
+| Segmento rapido | [Generatore di segmenti rapido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | A livello di progetto, ma può salvare e aggiungere all’elenco dei segmenti. | Flessibilità per aggiungere/modificare una o più regole |
 | Segmenti ad hoc: |  |  |  |
-| - Segmento di progetto ad hoc Workspace | [Trascina nella zona di rilascio segmenti di un progetto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | A livello di progetto, ma può rendere pubblico | Per impostazione predefinita, segmenti a regola singola |
+| - Segmento di progetto ad hoc Workspace | [Trascina nella zona di rilascio segmenti di un progetto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | A livello di progetto, ma può salvare e aggiungere all’elenco dei segmenti. | Per impostazione predefinita, segmenti a regola singola (nessun limite) |
 | - Segmento basato su metriche calcolate | [Generatore di metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Per una singola metrica calcolata | Applicare segmenti nella definizione della metrica |
 | - Segmento basato su VRS | [Generatore di suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Per suite di rapporti virtuali individuali | Applicare segmenti all’interno della definizione VRS |
 
-Per una discussione approfondita sulla segmentazione in Adobe Analytics, vai [qui](/help/components/segmentation/seg-overview.md).
+Ecco un video sull’utilizzo dei segmenti in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 
 ## Creare un segmento {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -37,11 +40,22 @@ In Analysis Workspace puoi creare diversi tipi di segmenti:
 
 ### Creare segmenti elenco di componenti {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
-La barra dei segmenti nel menu Components (Componenti) mostra i segmenti e i modelli di segmenti, come indicato da queste icone:
+La barra dei segmenti nel menu Componenti mostra
+* Segmenti creati da te o dalla tua azienda
+* Modelli di segmento, come indicato dall’icona Adobe:
 
 ![](assets/segment_icons.png)
 
-[Utilizzo dei segmenti in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html?lang=it) (6:46)
+Per creare un segmento di questo tipo, sono disponibili 2 opzioni. Entrambi ti portano al [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) in Adobe Analytics.
+
+* Nella barra a sinistra, fai clic sul segno più (+) accanto a [!UICONTROL Segments]:
+
+![](assets/create-seg.png)
+
+oppure
+
+* Vai a [!UICONTROL Components] > [!UICONTROL Segments], quindi fai clic su [!UICONTROL + Add].
+
 
 ### Altri metodi per applicare segmenti {#section_10FF2E309BA84618990EA5B473015894}
 
@@ -58,7 +72,11 @@ Esistono molti altri metodi per applicare i segmenti a un pannello a forma liber
 
 ## Segmento IQ
 
-Il segmento IQ include le seguenti funzioni:
+Il segmento IQ (noto anche come Confronto segmenti) include le seguenti funzionalità:
 
 * [Pannello Confronto segmenti:](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) la funzione principale del segmento IQ. Trascina due segmenti nel pannello e visualizza un rapporto completo che mostra differenze statisticamente significative e sovrapposizioni tra i due pubblici.
 * [Confronto di segmenti in Abbandono:](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) scopri in che modo diversi tipi di pubblico si confrontano tra loro nel contesto di una visualizzazione di abbandono.
+
+## Ulteriori informazioni
+
+Per una discussione approfondita sulla segmentazione in Adobe Analytics, vai [qui](/help/components/segmentation/seg-overview.md).
