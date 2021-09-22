@@ -3,9 +3,9 @@ description: Utilizzare segmenti rapidi in Analysis Workspace.
 title: Segmenti rapidi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Segmenti rapidi
 
-Puoi creare segmenti rapidi all&#39;interno di un progetto per bypassare la complessità del generatore di segmenti [completo](/help/components/segmentation/segmentation-workflow/seg-build.md). Per un confronto tra le attività dei segmenti veloci e quelle dei segmenti a livello di componente completi, visita [qui](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+Puoi creare segmenti rapidi all&#39;interno di un progetto per bypassare la complessità del generatore di segmenti [completo](/help/components/segmentation/segmentation-workflow/seg-build.md). Per un confronto tra le attività dei segmenti veloci e quelle dei segmenti elenco di componenti completi, visita [qui](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 >[!IMPORTANT]
 > I segmenti rapidi sono attualmente in fase di test limitati e non sono ancora generalmente disponibili.
@@ -56,7 +56,7 @@ Il segmento viene visualizzato nella parte superiore. Osserva la relativa barra 
 Puoi scegliere di salvare i segmenti rapidi seguendo questi passaggi.
 
 >[!IMPORTANT]
->Una volta salvato il segmento, non sarà più possibile modificarlo nel Generatore di segmenti rapidi, solo nel Generatore di segmenti regolare.
+>Una volta salvato o applicato il segmento, non è più possibile modificarlo nel Generatore di segmenti rapidi, solo nel Generatore di segmenti regolare.
 
 1. Passa il puntatore del mouse sul segmento rapido e seleziona l’icona Info (&quot;i&quot;).
 1. Select **[!UICONTROL Save segment]**
@@ -65,13 +65,11 @@ Puoi scegliere di salvare i segmenti rapidi seguendo questi passaggi.
 
 1. Lascia il nome così com’è o rinomina il segmento.
 
-1. Torna a Workspace e osserva come il segmento ora ha una barra laterale blu che indica che fa parte della libreria dei componenti.
+   Torna a Workspace e osserva come il segmento ora ha una barra laterale blu. Questo indica che non è più possibile modificarlo o aprirlo nel Generatore di segmenti rapidi. E salvandolo, diventa parte dell&#39;elenco dei componenti.
 
    ![](assets/quick-seg4.png)
 
-## Rendere i segmenti disponibili per tutti i tuoi progetti
-
-Dopo aver salvato il segmento, puoi scegliere di aggiungerlo all’elenco dei componenti del segmento e renderlo disponibile per tutti i tuoi progetti.
+Dopo aver applicato il segmento, puoi scegliere di aggiungerlo all’elenco dei componenti del segmento e renderlo disponibile per tutti i tuoi progetti.
 
 1. Passa il puntatore del mouse sul segmento salvato e seleziona l’icona a forma di matita .
 
@@ -81,13 +79,9 @@ Dopo aver salvato il segmento, puoi scegliere di aggiungerlo all’elenco dei co
 
 1. Seleziona la casella di controllo accanto a **[!UICONTROL Make this segment available to all your projects and add it to your component list.]**
 1. Fai clic su **[!UICONTROL Save]**.
-1. Il segmento verrà ora visualizzato nell’elenco dei componenti del segmento per tutti i progetti.
-1. Puoi anche [condividere il segmento](/help/components/segmentation/segmentation-workflow/t-seg-share.md).
+1. Il segmento viene ora visualizzato nell’elenco dei componenti del segmento per tutti i progetti.
+1. Puoi anche [condividere il segmento](/help/components/segmentation/segmentation-workflow/t-seg-share.md) con altre persone all&#39;interno della tua organizzazione.
 
-## Trasforma un segmento rapido in un segmento ad hoc
+## Cosa sono i segmenti solo per progetto?
 
-1. Passa il puntatore del mouse sul segmento salvato e seleziona l’icona a forma di matita .
-
-1. Nella parte superiore del Generatore di segmenti, fai clic su **[!UICONTROL Apply]**.
-
-Per ulteriori informazioni sui segmenti ad hoc, visita [qui](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
+I segmenti solo progetto sono segmenti rapidi o segmenti di progetto ad hoc Workspace. Quando li modifica/aprono nel generatore di segmenti, viene visualizzata la casella solo progetto. Se si applica un segmento rapido nel generatore ma non si seleziona la casella rendi disponibile, si tratta comunque di un segmento solo progetto, ma non può più essere aperto nel generatore QS. Se selezionano la casella e salvano, ora è un segmento dell’elenco di componenti.
