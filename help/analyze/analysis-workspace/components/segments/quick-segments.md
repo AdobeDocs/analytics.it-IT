@@ -3,9 +3,9 @@ description: Utilizzare segmenti rapidi in Analysis Workspace.
 title: Segmenti rapidi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 5ac3b11c559b03df2c08efc5a1a64c76ee1cf28e
+source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -107,4 +107,4 @@ Dopo aver applicato il segmento, puoi scegliere di aggiungerlo all’elenco dei 
 
 ## Cosa sono i segmenti solo per progetto?
 
-I segmenti solo progetto sono segmenti rapidi o segmenti di progetto ad hoc Workspace. Quando li modifichi o li apra nel Generatore di segmenti, viene visualizzata la casella solo progetto. Se applichi un segmento rapido nel generatore ma non selezioni la casella di reso disponibile, si tratta comunque di un segmento solo progetto ma non può più essere aperto nel generatore di segmenti rapidi. Se selezioni la casella e SAVE (SALVA), ora è un segmento dell’elenco di componenti.
+I segmenti solo progetto sono segmenti rapidi o segmenti di progetto ad hoc Workspace. Quando li modifico li aprite in [!UICONTROL Segment Builder], viene visualizzata la casella solo progetto. Se applichi un segmento rapido nel generatore ma non selezioni la casella rendi disponibile, si tratta comunque di un segmento solo progetto ma non può più essere aperto nel [!UICONTROL Quick Segment Builder]. Se selezioni la casella e fai clic su **[!UICONTROL SAVE]**, ora si tratta di un segmento dell’elenco di componenti.
