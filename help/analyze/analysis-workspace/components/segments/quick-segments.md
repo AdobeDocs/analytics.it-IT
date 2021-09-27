@@ -3,9 +3,9 @@ description: Utilizzare segmenti rapidi in Analysis Workspace.
 title: Segmenti rapidi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
+source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '881'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Il segmento viene visualizzato nella parte superiore. Osserva la sua barra later
 
 ## Salvare segmenti rapidi
 
-Puoi scegliere di salvare i segmenti rapidi nel Generatore di segmenti rapidi o nel Generatore di segmenti.
+Puoi scegliere di salvare i segmenti rapidi sia in [!UICONTROL Quick Segment Builder] che in [!UICONTROL Segment Builder].
 
 >[!IMPORTANT]
 >Una volta salvato o applicato il segmento, non è più possibile modificarlo nel Generatore di segmenti rapidi, solo nel Generatore di segmenti regolare.
