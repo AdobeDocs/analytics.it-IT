@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: 366e595d38124a767e2c0d0e4ce4bd8cf9683707
+source-git-commit: d395feb9a2d08f1c9e670d593b250c2d9bfa83f5
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '996'
 ht-degree: 99%
 
 ---
@@ -87,6 +87,7 @@ ht-degree: 99%
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Pannello Tempo di riproduzione dei contenuti multimediali](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Pannello Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Pannello Segment comparison {#segment-comparison}
          + [Panoramica sul confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
