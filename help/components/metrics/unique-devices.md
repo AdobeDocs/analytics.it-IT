@@ -2,10 +2,10 @@
 title: Dispositivi univoci
 description: Numero di dispositivi univoci.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 407111f6016fe8595f1d5c3464e36dfd4d314630
+source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 1%
 
 ---
 
@@ -29,8 +29,7 @@ Tieni presente che questa metrica non è uguale a [Visitatori unici](unique-visi
 
 ![Conteggio dispositivi univoci](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-La visualizzazione di questi dati in una suite di rapporti virtuali CDA prima di [Riproduci](/help/components/cda/replay.md) mostrerebbe:
+La visualizzazione di questi dati in una suite di rapporti virtuali CDA prima di [Riproduci](/help/components/cda/replay.md) l&#39;eventuale unione di hit non autenticati mostrerebbe:
 
 * **5 dispositivi** univoci: 1 per Bob non autenticato + 2 per Bob + 1 per Alice + 1 per Charles
 * **4  [Persone](people.md)**: 1  [Persone](unidentified-people.md)  Non Identificate + 3 Persone  [Identificate](identified-people.md).
-

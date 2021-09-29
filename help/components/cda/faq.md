@@ -2,9 +2,9 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti su Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
+source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -128,8 +128,8 @@ CDA utilizza una pipeline di elaborazione parallela complessa, con più componen
 
 Il numero della metrica &quot;Persone identificate&quot; può essere leggermente più alto se il valore dell’identificatore prop/eVar si trova in una [collisione hash](/help/implement/validate/hash-collisions.md).
 
-Il numero della metrica &quot;Persone identificate&quot; può essere significativamente più alto se l’identificatore prop/eVar fa distinzione tra maiuscole e minuscole. Ad esempio, `bob` e `Bob` devono essere uguali, ma la distinzione tra maiuscole e minuscole determina una distinzione di questi due valori.
+Per le unioni basate su campi, la variabile personalizzata dell’identificatore distingue tra maiuscole e minuscole. Il numero della metrica &quot;Persone identificate&quot; può essere significativamente più alto se i valori degli identificatori non corrispondono a maiuscole e minuscole. Ad esempio, se `bob` e `Bob` vengono inviati e si prevede che siano la stessa persona, CDA interpreta questi due valori come distinti.
 
-## Perché vedo i valori quando visualizzo l&#39;identificatore prop/eVar con la metrica &quot;Persone non identificate&quot;?
+## Quando visualizzo l’identificatore prop/eVar, perché visualizzo valori diversi da zero per la metrica &quot;Persone non identificate&quot;?
 
-Questa situazione si verifica solitamente quando un visitatore genera hit autenticati e non autenticati nell’intervallo di reporting e [Replay](replay.md) non è ancora stato eseguito. Prima della ripetizione, il visitatore appartiene sia a &quot;Non identificato&quot; che a &quot;Identificato&quot; nella dimensione [Stato identificato](/help/components/dimensions/identified-state.md), il che fa sì che alcuni visitatori attribuiscano hit non identificati a un identificatore. I visitatori rimangono in questo stato finché la riproduzione non viene eseguita (quotidianamente o settimanalmente, a seconda di come l’organizzazione ha configurato CDA). L’esecuzione di report solo sui dati successivi alla ripetizione attenua questa situazione.
+Questa situazione si verifica solitamente quando un visitatore genera hit autenticati e non autenticati nell’intervallo di reporting. Il visitatore appartiene sia a &quot;Non identificato&quot; che a &quot;Identificato&quot; nella dimensione [Stato identificato](/help/components/dimensions/identified-state.md), causando l’attribuzione di hit non identificati a un identificatore. Questo scenario può cambiare dopo l&#39;esecuzione di [Replay](replay.md), a seconda della frequenza di riproduzione e della frequenza di successo.

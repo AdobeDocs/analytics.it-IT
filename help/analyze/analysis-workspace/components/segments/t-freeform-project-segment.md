@@ -5,9 +5,9 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 63f833ffb3578614d7148bfcc6c786d4ddc8a2a8
+source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 41%
 
 ---
@@ -22,7 +22,7 @@ Puoi creare diversi tipi di segmenti in Workspace, a seconda di quanto debbano e
 | Segmento nell’elenco dei componenti | Fai clic su +, per passare al [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) | Tutti i progetti Workspace | Per segmenti più complessi, segmenti sequenziali |
 | Segmento rapido | [Generatore di segmenti rapido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo progetto, ma può salvare e aggiungere all’elenco dei segmenti. | Flessibilità per aggiungere/modificare una o più regole |
 | Segmenti ad hoc: |  |  |  |
-| - Segmento di progetto ad hoc Workspace | [Trascina nella zona di rilascio segmenti di un progetto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Solo progetto, ma può salvare e aggiungere all’elenco dei segmenti. | Per segmenti a regola singola (nessun limite) |
+| - Segmento di progetto ad hoc Workspace | [Trascina nella zona di rilascio segmenti di un progetto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Solo progetto, ma può salvare e aggiungere all’elenco dei segmenti. | Per segmenti a regola singola |
 | - Segmento basato su metriche calcolate | [Generatore di metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Per una singola metrica calcolata | Applicare segmenti nella definizione della metrica |
 | - Segmento basato su VRS | [Generatore di suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Per suite di rapporti virtuali individuali | Applicare segmenti all’interno della definizione VRS |
 
