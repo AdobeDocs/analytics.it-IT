@@ -4,9 +4,9 @@ description: Domande frequenti per Report Builder.
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '417'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,6 @@ In alternativa all’utilizzo di queste funzioni Excel, Adobe consiglia vivament
 
 Report Builder supporta le cartelle di lavoro fino ai seguenti limiti:
 
-* **1000 richieste**: Una cartella di lavoro può contenere fino a 1000 richieste di dati in una singola cartella di lavoro. Se si dispone di rapporti o progetti che richiedono più di 1000 richieste, Adobe consiglia di separarle in più cartelle di lavoro.
+* **1000 richieste**: Una singola cartella di lavoro può contenere fino a 1000 richieste di dati. Se si dispone di rapporti o progetti che richiedono più di 1000 richieste, Adobe consiglia di separarle in più cartelle di lavoro.
 * **20.000 richieste all&#39;ora per azienda**: Il Report Builder utilizza l’API di reporting di Analytics per recuperare i dati. Ogni singola richiesta utilizza una chiamata API ogni volta che viene creata o aggiornata. Se nell’organizzazione vengono accumulate più di 20.000 chiamate API in un’ora specifica, è necessario attendere fino all’ora successiva per recuperare nuovamente i dati.
-* **Tempo** di elaborazione 4 ore: Timeout dei report pianificati dopo l&#39;elaborazione delle ultime 4 ore. Se la cartella di lavoro contiene molte richieste complesse che utilizzano set di dati di grandi dimensioni, il rapporto pianificato potrebbe non riuscire.
+* **Tempo** di elaborazione 4 ore: I rapporti pianificati scadono dopo l’elaborazione per più di 4 ore. Se la cartella di lavoro contiene molte richieste complesse che utilizzano set di dati di grandi dimensioni, il rapporto pianificato potrebbe non riuscire.

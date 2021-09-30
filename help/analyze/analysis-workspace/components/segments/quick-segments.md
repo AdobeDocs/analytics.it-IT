@@ -3,9 +3,9 @@ description: Utilizzare segmenti rapidi in Analysis Workspace.
 title: Segmenti rapidi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '833'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Per un confronto tra le attività dei segmenti veloci e quelle dei segmenti elen
 
 ## Prerequisiti
 
-Per creare segmenti rapidi, gli utenti devono disporre dell’ autorizzazione [!UICONTROL Segment Creation] in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) .
+Chiunque può creare un [!UICONTROL Quick Segment]. Tuttavia, per poter salvare un segmento rapido o aprirlo in [!UICONTROL Segment Builder] è necessario disporre dell&#39;autorizzazione [!UICONTROL Segment Creation] in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools).
 
 ## Creare segmenti rapidi
 
@@ -56,7 +56,7 @@ Ecco un esempio di segmento che combina dimensioni e metriche:
 
 Il segmento viene visualizzato nella parte superiore. Osserva la sua barra laterale a strisce blu, invece della barra laterale blu per i segmenti a livello di componente nella libreria dei segmenti a sinistra.
 
-![](assets/quick-seg3.png)
+![](assets/quick-seg5.png)
 
 ## Modificare segmenti rapidi
 
@@ -73,24 +73,15 @@ Puoi scegliere di salvare i segmenti rapidi sia in [!UICONTROL Quick Segment Bui
 ### Salva nel generatore di segmenti rapidi
 
 1. Dopo aver applicato il segmento rapido, posiziona il puntatore del mouse su di esso e seleziona l’icona info (&quot;i&quot;).
+
+   ![](assets/quick-seg6.png)
+
 1. Fai clic su **[!UICONTROL Make available to all projects and add to your component list]**.
 1. (Facoltativo) Rinomina il segmento.
 1. Fai clic su **[!UICONTROL Save]**.
 
 La barra laterale del segmento cambia da blu a blu a righe. Ora viene visualizzato nell’elenco dei componenti nella barra a sinistra.
 
-### Salva nel Generatore di segmenti
-
-1. Passa il puntatore del mouse sul segmento rapido e seleziona l’icona Info (&quot;i&quot;).
-1. Select **[!UICONTROL Save segment]**
-
-   ![](assets/save-quick-seg.png)
-
-1. Lascia il nome così com’è o rinomina il segmento.
-
-   Torna a Workspace e osserva come il segmento ora ha una barra laterale blu. Questo indica che non è più possibile modificarlo o aprirlo nel Generatore di segmenti rapidi. E salvandolo, diventa parte dell&#39;elenco dei componenti.
-
-   ![](assets/quick-seg4.png)
 
 Dopo aver applicato il segmento, puoi scegliere di aggiungerlo all’elenco dei componenti del segmento e renderlo disponibile per tutti i tuoi progetti.
 
