@@ -3,9 +3,9 @@ description: Utilizzare segmenti rapidi in Analysis Workspace.
 title: Segmenti rapidi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -61,16 +61,13 @@ Il segmento viene visualizzato nella parte superiore. Osserva la sua barra later
 ## Modificare segmenti rapidi
 
 1. Passa il puntatore del mouse sul segmento rapido e seleziona l’icona a forma di matita .
-1. Modifica la definizione del segmento o il nome del segmento.
+1. Modifica la definizione del segmento e/o il nome del segmento.
+1. Fai clic su [!UICONTROL Apply].
 
 ## Salvare segmenti rapidi
 
-Puoi scegliere di salvare i segmenti rapidi sia in [!UICONTROL Quick Segment Builder] che in [!UICONTROL Segment Builder].
-
 >[!IMPORTANT]
 >Una volta salvato o applicato il segmento, non è più possibile modificarlo nel Generatore di segmenti rapidi, solo nel Generatore di segmenti regolare.
-
-### Salva nel generatore di segmenti rapidi
 
 1. Dopo aver applicato il segmento rapido, posiziona il puntatore del mouse su di esso e seleziona l’icona info (&quot;i&quot;).
 
@@ -81,20 +78,6 @@ Puoi scegliere di salvare i segmenti rapidi sia in [!UICONTROL Quick Segment Bui
 1. Fai clic su **[!UICONTROL Save]**.
 
 La barra laterale del segmento cambia da blu a blu a righe. Ora viene visualizzato nell’elenco dei componenti nella barra a sinistra.
-
-
-Dopo aver applicato il segmento, puoi scegliere di aggiungerlo all’elenco dei componenti del segmento e renderlo disponibile per tutti i tuoi progetti.
-
-1. Passa il puntatore del mouse sul segmento salvato e seleziona l’icona a forma di matita .
-
-1. Nella parte superiore del Generatore di segmenti, osserva questa finestra di dialogo:
-
-   ![](assets/project-only.png)
-
-1. Seleziona la casella di controllo accanto a **[!UICONTROL Make this segment available to all your projects and add it to your component list.]**
-1. Fai clic su **[!UICONTROL Save]**.
-1. Il segmento viene ora visualizzato nell’elenco dei componenti del segmento per tutti i progetti.
-1. Puoi anche [condividere il segmento](/help/components/segmentation/segmentation-workflow/t-seg-share.md) con altre persone all&#39;interno della tua organizzazione.
 
 ## Cosa sono i segmenti solo per progetto?
 
