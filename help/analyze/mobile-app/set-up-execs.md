@@ -3,10 +3,10 @@ description: Come creare una scorecard delle dashboard di Analytics
 title: Creare una scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 81%
+source-wordcount: '1015'
+ht-degree: 73%
 
 ---
 
@@ -15,15 +15,20 @@ ht-degree: 81%
 
 In alcuni casi, gli utenti esecutivi potrebbero aver bisogno di ulteriore assistenza per accedere all’app e utilizzarla. Questa sezione offre informazioni per aiutarti a fornire tale assistenza.
 
-## Prerequisiti per il sistema degli utenti esecutivi
+## Assicurati che gli utenti dell&#39;app abbiano accesso ad Adobe Analytics
+
+1. Imposta i nuovi utenti nell&#39; [Admin Console Experience Cloud](/help/admin/admin-console/permissions/product-profile.md).
+
+1. Per poter condividere le scorecard, devi concedere agli utenti dell’app le autorizzazioni per accedere ai componenti delle scorecard come Analysis Workspace, alle suite di rapporti su cui sono basate le scorecard, nonché ai segmenti, alle metriche e alle dimensioni.
+
+## Prerequisiti di sistema per gli utenti dell’app
 
 Per garantire che gli utenti esecutivi abbiano accesso alle tue scorecard sull’app, assicurati che:
 
 * Il sistema operativo per dispositivi mobili sui loro dispositivi sia iOS versione 10 o superiore o Android versione 4.4 (KitKat) o superiore
-* Abbiano un accesso valido ad Adobe Analytics
-* Tu abbia creato correttamente le scorecard per dispositivi mobili a essi destinate e condiviso con essi tali scorecard
-* Abbiano accesso all’Analysis Workspace e alla suite di rapporti su cui si basa la scorecard
-* Abbiano accesso ai Componenti che la scorecard include. Nota che puoi selezionare un’opzione quando condividi le scorecard per **[!UICONTROL Share embedded components]**.
+* Abbiano un accesso valido ad Adobe Analytics.
+* Le scorecard per dispositivi mobili sono state create correttamente e condivise con loro.
+* Hanno accesso ai Componenti inclusi nella scorecard. Tieni presente che puoi selezionare un’opzione quando condividi le scorecard in **[!UICONTROL Share embedded components]**.
 
 ## Download e installazione dell’app da parte dei dirigenti di Aiuto
 
