@@ -3,7 +3,7 @@ description: Come creare una scorecard delle dashboard di Analytics
 title: Creare una scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 73%

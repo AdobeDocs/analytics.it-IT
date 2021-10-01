@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: b3ed242a677ada3eef61b79ecb4167d834ee132e
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 98%
@@ -311,7 +311,7 @@ ht-degree: 98%
    + [Risoluzione dei problemi](reports-analytics/report-troubleshooting.md)
 + Dashboard di Adobe Analytics {#mobapp}
    + [Panoramica delle dashboard di Adobe Analytics](mobile-app/home.md)
-   + [Guida per curatori](mobile-app/curator.md)
+   + [Introduzione al curatore](mobile-app/curator.md)
    + [Creare una scorecard](mobile-app/create-scorecard.md)
    + [Configurare i dirigenti per l’utilizzo delle scorecard](mobile-app/set-up-execs.md)
    + [Guida introduttiva per utenti esecutivi](mobile-app/executive.md)

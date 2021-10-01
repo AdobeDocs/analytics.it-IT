@@ -1,13 +1,13 @@
 ---
 description: Istruzioni per l’uso delle scorecard delle dashboard.
 title: Guida esecutiva alle dashboard di Adobe Analytics
-feature: Dashboard di Analytics
+feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,12 +15,9 @@ ht-degree: 100%
 
 Le informazioni seguenti forniscono agli utenti esecutivi informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Adobe Analytics. Per vedere un video che illustra queste informazioni, consulta [Esperienza in-app delle dashboard di Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
 
-
 ## Introduzione
 
 Le dashboard di Adobe Analytics forniscono informazioni provenienti da Adobe Analytics ovunque e in qualsiasi momento.  L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Le dashboard sono supportate sia sui sistemi operativi iOS che su quelli Android.
-
-## Ulteriori informazioni su questa guida
 
 Questa guida ha lo scopo di aiutare gli utenti esecutivi a leggere e interpretare le scorecard sulle dashboard di Analytics. L’app consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
 
