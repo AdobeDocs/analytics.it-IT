@@ -6,7 +6,7 @@ feature: AI Tools
 role: User, Admin
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1147'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Di seguito è riportato un elenco dettagliato delle adesioni disponibili per Ril
 
 >[!IMPORTANT]
 >
->Le funzioni Rilevamento delle anomalie e Analisi contributi sono state rimosse da Reporting &amp; Analytics e ora sono disponibili solo in Analysis Workspace. I clienti Select e Foundation di Adobe Analytics possono accedere solo alla funzione Rilevamento anomalie con granularità giornaliera in Workspace.
+>Le funzioni Rilevamento delle anomalie e Analisi contributi sono state rimosse da Reports &amp; Analytics e ora sono disponibili solo in Analysis Workspace. I clienti Select e Foundation di Adobe Analytics possono accedere solo alla funzione Rilevamento anomalie con granularità giornaliera in Workspace.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
