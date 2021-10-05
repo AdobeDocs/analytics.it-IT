@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ La visualizzazione mappa in Analysis Workspace:
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Lat./Long. mobile</b> </p> </td> 
-   <td colname="col2"> <p>Questa opzione rappresenta i dati provenienti dall’app mobile. </p> <p>Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Suite di rapporti </span> &gt; <span class="uicontrol"> &lt;seleziona una suite di rapporti&gt; </span> &gt; <span class="uicontrol"> Modifica impostazioni </span> &gt; <span class="uicontrol"> Gestione mobile </span> &gt; <span class="uicontrol"> Abilita tracciamento posizione</span> </span>. </p> <p>Impostazione predefinita (se è abilitato il tracciamento della posizione). </p> </td> 
+   <td colname="col2"> <p>Questa opzione rappresenta i dati provenienti dall’app mobile. </p> <p>Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Suite di rapporti </span> &gt; <span class="uicontrol"> &lt;seleziona una suite di rapporti&gt; </span> &gt; <span class="uicontrol"> Modifica impostazioni </span> &gt; <span class="uicontrol"> Gestione mobile </span> &gt; <span class="uicontrol"> Abilita tracciamento posizione</span></span>. </p> <p>Impostazione predefinita (se è abilitato il tracciamento della posizione). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Dimensione geografica</b> </p> </td> 
@@ -90,8 +90,8 @@ L’**icona ingranaggio** presenta invece queste impostazioni:
 | Raggio cluster | Raggruppa i dati che si trovano entro un certo numero di pixel. Il valore predefinito è 50. |
 | Valore massimo personalizzato | Permette di modificare la soglia del valore massimo per la mappa. Quando regoli questo valore, viene regolata la scala dei valori per le bolle o la mappa di calore (colore e dimensioni) rispetto al valore massimo personalizzato impostato. |
 
-## Creare una mappa di calore suddivisa in base al tempo
+## Creare una mappa di calore con separazione temporale
 
-Ecco un video sull&#39;argomento:
+Panoramica video sull’argomento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
