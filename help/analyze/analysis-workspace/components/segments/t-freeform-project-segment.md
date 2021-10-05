@@ -8,23 +8,23 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 41%
+ht-degree: 49%
 
 ---
 
 
 # Segmenti {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
-Puoi creare diversi tipi di segmenti in Workspace, a seconda di quanto debbano essere complessi, se devono essere applicati solo a questo progetto e così via. Segue un riepilogo dei tipi di segmenti:
+Puoi creare diversi tipi di segmenti in Workspace, a seconda di quanto debbano essere complessi, se devono essere applicati solo a questo progetto e così via. Segue un riepilogo dei tipi di segmento:
 
 | Tipo di segmento | Creato dove? | Applicabile dove? | Quando utilizzare |
 | --- | --- | --- | --- |
 | Segmento nell’elenco dei componenti | Fai clic su +, per passare al [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) | Tutti i progetti Workspace | Per segmenti più complessi, segmenti sequenziali |
-| Segmento rapido | [Generatore di segmenti rapido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo progetto, ma può salvare e aggiungere all’elenco dei segmenti. | Flessibilità per aggiungere/modificare una o più regole |
+| Segmento rapido | [Generatore di segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo progetto, ma può salvare e aggiungere all’elenco dei segmenti. | Flessibilità per aggiungere/modificare una o più regole |
 | Segmenti ad hoc: |  |  |  |
 | - Segmento di progetto ad hoc Workspace | [Trascina nella zona di rilascio segmenti di un progetto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Solo progetto, ma può salvare e aggiungere all’elenco dei segmenti. | Per segmenti a regola singola |
-| - Segmento basato su metriche calcolate | [Generatore di metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Per una singola metrica calcolata | Applicare segmenti nella definizione della metrica |
-| - Segmento basato su VRS | [Generatore di suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Per suite di rapporti virtuali individuali | Applicare segmenti all’interno della definizione VRS |
+| - Segmento basato su metriche calcolate | [Generatore di metrica calcolata](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Per una singola metrica calcolata | Applicare segmenti nella definizione della metrica |
+| - Segmento basato su VRS | [Generatore suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Per suite di rapporti virtuali individuali | Applicare segmenti all’interno della definizione VRS |
 
 Ecco un video sull’utilizzo dei segmenti in Analysis Workspace:
 
@@ -79,4 +79,4 @@ Il segmento IQ (noto anche come Confronto segmenti) include le seguenti funziona
 
 ## Ulteriori informazioni
 
-Per una discussione approfondita sulla segmentazione in Adobe Analytics, vai [qui](/help/components/segmentation/seg-overview.md).
+Per una discussione approfondita sulla segmentazione in Adobe Analytics, visita [questa pagina](/help/components/segmentation/seg-overview.md).

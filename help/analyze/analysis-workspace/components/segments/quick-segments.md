@@ -1,19 +1,19 @@
 ---
-description: Utilizzare segmenti rapidi in Analysis Workspace.
+description: Usare i segmenti rapidi in Analysis Workspace.
 title: Segmenti rapidi
 feature: Workspace Basics
 role: User, Admin
 source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
 
 # Segmenti rapidi
 
-Puoi creare segmenti rapidi all&#39;interno di un progetto per bypassare la complessità del generatore di segmenti [completo](/help/components/segmentation/segmentation-workflow/seg-build.md). Segmenti rapidi
+Puoi creare segmenti rapidi all’interno di un progetto, senza ricorrere al più complesso [generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md). Segmenti rapidi
 
 * Applicare solo ai progetti in cui sono stati creati (è possibile modificarli).
 * Consenti fino a 3 regole.
@@ -31,7 +31,7 @@ Chiunque può creare un [!UICONTROL Quick Segment]. Tuttavia, per poter salvare 
 
 ## Creare segmenti rapidi
 
-In una tabella a forma libera, fai clic sull’icona del filtro+ nell’intestazione del pannello:
+In una tabella a forma libera, fai clic sull’icona Filtro+ nell’intestazione del pannello:
 
 ![](assets/quick-seg1.png)
 
@@ -40,17 +40,17 @@ In una tabella a forma libera, fai clic sull’icona del filtro+ nell’intestaz
 | Nome | Il nome predefinito di un segmento è una combinazione dei nomi delle regole nel segmento. È possibile rinominare il segmento. |
 | Includi/escludi | Puoi includere o escludere componenti nella definizione del segmento, ma non entrambi. |
 | Contenitore Hit/Visita/Visitatore | I segmenti rapidi includono un [contenitore di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) solo che consente di includere una dimensione/metrica/intervallo di date nel segmento (o escluderlo da). [!UICONTROL Visitor] contiene i dati generali specifici del visitatore per visite e visualizzazioni di pagina. Un contenitore [!UICONTROL Visit] consente di impostare regole per suddividere i dati del visitatore in base alle visite e un contenitore [!UICONTROL Hit] consente di suddividere le informazioni del visitatore in base alle singole visualizzazioni di pagina. Il contenitore predefinito è [!UICONTROL Hit]. |
-| Componenti (Dimension/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo dimensioni e/o metriche dei componenti e/o intervalli di date e relativi valori. Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare e il generatore [!UICONTROL Quick Segment] trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina i componenti dalla barra a sinistra.</li></ul> |
+| Componenti (Dimension/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo dimensioni e/o metriche dei componenti e/o intervalli di date e relativi valori. Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare e il generatore [!UICONTROL Quick Segment] trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
 | Operatore | Utilizza il menu a discesa per trovare gli operatori standard e gli operatori [!UICONTROL Distinct Count] . [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=en) |
 | Segno più (+) | Aggiungi un&#39;altra regola |
-| Qualificatori AND/OR | Puoi aggiungere i qualificatori &quot;AND&quot; o &quot;OR&quot; alle regole, ma non puoi combinare &quot;AND&quot; e &quot;OR&quot; in una singola definizione di segmento. |
+| Qualificatori AND/OR | Puoi aggiungere i qualificatori “AND” o “OR” alle regole, ma non puoi combinare “AND” e “OR” in una singola definizione di segmento. |
 | Applica | Applica questo segmento al pannello. Se il segmento non contiene dati, ti verrà chiesto se desideri continuare. |
 | Open builder | Apre il Generatore di segmenti. Una volta salvato il segmento nel Generatore di segmenti, non viene più considerato un &quot;Segmento rapido&quot;. Diventa parte della libreria di segmenti dell’elenco di componenti. |
 | Annulla | Annulla questo segmento rapido - non applicarlo. |
 | Intervallo date | La convalida utilizza l&#39;intervallo di date del pannello per la ricerca dei dati. Tuttavia, qualsiasi intervallo di date applicato in un segmento rapido sostituisce l’intervallo di date del pannello nella parte superiore del pannello. |
 | Anteprima (in alto a destra) | Ti consente di verificare se disponi di un segmento valido e la sua ampiezza. Rappresenta il raggruppamento del set di dati che si prevede di visualizzare quando si applica questo segmento. potresti ricevere un avviso che indica che questo segmento non ha dati. Puoi procedere o modificare la definizione del segmento. |
 
-Ecco un esempio di segmento che combina dimensioni e metriche:
+Esempio di segmento che combina dimensioni e metriche:
 
 ![](assets/quick-seg2.png)
 
