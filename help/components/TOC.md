@@ -5,9 +5,9 @@ user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Organizza i dati utilizzando componenti quali segmenti, metriche calcolate, suite di rapporti virtuali e avvisi.
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -198,7 +198,7 @@ ht-degree: 97%
       + [Totali delle metriche calcolate](c-calcmetrics/cm-totals.md)
 + Suite di rapporti virtuali {#virtual-report-suites}
    + [Panoramica delle suite di rapporti virtuali](vrs/vrs-about.md)
-   + [Suite di rapporti virtuali: cura dei componenti](vrs/vrs-components.md)
+   + [Suite di rapporti virtuale - Cura dei componenti](vrs/vrs-components.md)
    + [Supporto VRS in Mobile Services](vrs/vrs-mobile-services.md)
    + [Adobe Context-Aware Sessions](vrs/vrs-mobile-visit-processing.md)
    + [Elaborazione dell&#39;ora rapporto](vrs/vrs-report-time-processing.md)
