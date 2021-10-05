@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1073'
+ht-degree: 100%
 
 ---
 
@@ -95,14 +95,14 @@ Ulteriori funzionalità per una visualizzazione sono disponibili facendo clic co
 | Ottieni collegamento visualizzazione | Consente di indirizzare un utente a una specifica visualizzazione in un progetto. Quando si fa clic sul collegamento, al destinatario verrà richiesto di effettuare l’accesso prima di essere indirizzato all’esatta visualizzazione collegata. |
 | Ricomincia | (Per Flusso, Venn, Istogramma) Elimina la configurazione della visualizzazione corrente in modo da poterla riconfigurare da zero. |
 
-## Icona “Crea elemento visivo”  {#quick-viz}
+## Icona “Crea elemento visivo” {#quick-viz}
 
 Se non sai quale visualizzazione scegliere, fai clic sull’icona **[!UICONTROL Create Visual]** in una delle righe della tabella (che appare quando vi si scorre sopra). Questo è il modo più veloce per aggiungere una visualizzazione. Facendo clic su di essa, Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea ai tuoi dati. Ad esempio, se hai selezionato 1 riga, verrà creato un grafico a linee con tendenze. Se sono state selezionate 3 righe di segmenti, verrà creato un diagramma di Venn.
 
 ![](assets/quick-viz.png)
 
-## Modificare l’asse di scala sulle visualizzazioni
+## Modificare scala/asse nelle visualizzazioni
 
-Ecco una panoramica video:
+Panoramica video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
