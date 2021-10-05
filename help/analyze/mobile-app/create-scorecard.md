@@ -3,9 +3,9 @@ description: Come creare una scorecard delle dashboard di Adobe Analytics
 title: Creare una scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
+source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1140'
 ht-degree: 60%
 
 ---
@@ -104,7 +104,7 @@ Viene visualizzato il generatore di intervalli di date, in cui è possibile crea
 
 ### Applicare visualizzazioni
 
-Le dashboard di Analytics ora offrono quattro visualizzazioni che offrono informazioni approfondite sugli elementi dimensionali. Applica una visualizzazione diversa modificando la sezione [!UICONTROL chart type] delle proprietà di un riquadro:
+Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Passa a una visualizzazione diversa modificando la proprietà [!UICONTROL chart type] di un riquadro:
 
 ![Proprietà delle sezioni](assets/properties.png)
 
@@ -117,6 +117,8 @@ Questa visualizzazione è simile al grafico a torta e presenta i dati come parti
 **[!UICONTROL Line]visualizzazione**
 
 La visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee può essere utilizzato solo quando il tempo è utilizzato come dimensione.
+
+
 
 **[!UICONTROL Horizontal Bar]visualizzazione**
 
