@@ -3,9 +3,9 @@ description: Come creare una scorecard delle dashboard di Adobe Analytics
 title: Creare una scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
+source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1271'
 ht-degree: 55%
 
 ---
@@ -112,32 +112,32 @@ Oppure fai clic sull’icona [!UICONTROL Visualizations] nella barra a sinistra 
 
 ![Visualizzazioni](assets/vizs.png)
 
-**[!UICONTROL Summary Number]**
+### [!UICONTROL Summary Number]
 
 Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevato importante in un progetto.
 
-![Numero di riepilogo](assets/sparkline.png)
+![Numero di riepilogo](assets/summary-number.png)
 
-**[!UICONTROL Donut]visualizzazione**
+### [!UICONTROL Donut]
 
 Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Utilizzare un grafico ad anello per confrontare percentuali di un totale. Ad esempio, supponiamo che desideri vedere quale piattaforma di annunci ha contribuito al numero totale di visitatori unici:
 
 ![Visualizzazione Anello](assets/donut-viz.png)
 
-**[!UICONTROL Line]visualizzazione**
+### [!UICONTROL Line]
 
 La visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee mostra le dimensioni nel tempo, ma funziona con qualsiasi visualizzazione. In questo esempio stai visualizzando la dimensione della categoria di prodotto.
 
 ![Visualizzazione delle linee](assets/line.png)
 
 
-**[!UICONTROL Horizontal Bar]visualizzazione**
+### [!UICONTROL Horizontal Bar]
 
 Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche. Ad esempio, per vedere facilmente quali sono i tuoi prodotti principali, utilizza [!UICONTROL Horizontal Bar] per la visualizzazione preferita.
 
 ![barra orizzontale](assets/horizontal.png)
 
-**Rimuovi elementi  [!UICONTROL Unspecified] dimensionali**
+### Rimuovi elementi dimensionali [!UICONTROL Unspecified]
 
 Per rimuovere elementi dimensionali [!UICONTROL Unspecified] dai dati, procedi come segue:
 
