@@ -3,10 +3,10 @@ description: Come creare una scorecard delle dashboard di Adobe Analytics
 title: Creare una scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
+source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 60%
+source-wordcount: '1274'
+ht-degree: 55%
 
 ---
 
@@ -62,7 +62,7 @@ Per implementare il template della scorecard:
 
 1. Da ogni tessera, è possibile accedere a una vista dettagliata che visualizza informazioni aggiuntive sulla metrica, come gli elementi principali di un elenco di dimensioni correlate.
 
-### Aggiungere dimensioni o metriche
+## Aggiungere dimensioni o metriche
 
 Per aggiungere una dimensione correlata a una metrica, trascina una dimensione dal pannello di sinistra e rilasciala su una tessera.
 
@@ -70,7 +70,7 @@ Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Chann
 
 ![Aggiunta di dimensioni](assets/layer_dimensions.png)
 
-### Applicare i segmenti
+## Applicare i segmenti
 
 Per applicare segmenti alle singole tessere, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla tessera.
 
@@ -78,7 +78,7 @@ Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la te
 
 ![Creare segmenti per il filtro](assets/segment_ui.png)
 
-### Aggiungi intervalli di date
+## Aggiungi intervalli di date
 
 Aggiungi e rimuovi combinazioni di intervalli di date che possono essere selezionate nella scorecard mediante il menu a discesa dell’intervallo di date.
 
@@ -102,11 +102,21 @@ Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne un
 
 Viene visualizzato il generatore di intervalli di date, in cui è possibile creare e salvare un nuovo componente Intervallo di date.
 
-### Applicare visualizzazioni
+## Applicare visualizzazioni
 
-Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Passa a una visualizzazione diversa modificando la proprietà [!UICONTROL chart type] di un riquadro:
+Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Passa a una visualizzazione diversa modificando il valore [!UICONTROL chart type] di un riquadro [!UICONTROL Properties]. Seleziona la porzione destra e modifica il tipo di grafico.
 
 ![Proprietà delle sezioni](assets/properties.png)
+
+Oppure fai clic sull’icona [!UICONTROL Visualizations] nella barra a sinistra e trascina la visualizzazione a destra nella tessera:
+
+![Visualizzazioni](assets/vizs.png)
+
+**[!UICONTROL Summary Number]**
+
+Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevato importante in un progetto.
+
+![Numero di riepilogo](assets/sparkline.png)
 
 **[!UICONTROL Donut]visualizzazione**
 
@@ -116,15 +126,29 @@ Questa visualizzazione è simile al grafico a torta e presenta i dati come parti
 
 **[!UICONTROL Line]visualizzazione**
 
-La visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee può essere utilizzato solo quando il tempo è utilizzato come dimensione.
+La visualizzazione delle linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee mostra le dimensioni nel tempo, ma funziona con qualsiasi visualizzazione. In questo esempio stai visualizzando la dimensione della categoria di prodotto.
 
+![Visualizzazione delle linee](assets/line.png)
 
 
 **[!UICONTROL Horizontal Bar]visualizzazione**
 
-Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche.
+Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche. Ad esempio, per vedere facilmente quali sono i tuoi prodotti principali, utilizza [!UICONTROL Horizontal Bar] per la visualizzazione preferita.
 
-### Visualizzare e configurare le proprietà dei riquadri
+![barra orizzontale](assets/horizontal.png)
+
+**Rimuovi elementi  [!UICONTROL Unspecified] dimensionali**
+
+Per rimuovere elementi dimensionali [!UICONTROL Unspecified] dai dati, procedi come segue:
+
+1. Seleziona la porzione corretta.
+1. Nella barra a destra, sotto **[!UICONTROL Drill ins]**, seleziona la freccia destra accanto all’elemento dimensione di cui desideri rimuovere gli elementi **[!UICONTROL Unspecified]**.
+
+   ![non specificato](assets/unspecified.png)
+
+1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dal rapporto. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
+
+## Visualizzare e configurare le proprietà dei riquadri
 
 Quando fai clic su una tessera nel Creatore di scorecard, la barra a destra mostra le proprietà e le caratteristiche associate a tale tessera. In questa barra puoi assegnare un nuovo **[!UICONTROL Title]** alla tessera e, in alternativa, configurarla specificando i componenti invece di trascinarli dalla barra di sinistra.
 
@@ -142,7 +166,7 @@ Le suddivisioni consentono di perfezionare l’analisi suddividendo letteralment
 
 Ogni dimensione aggiunta alla tessera viene visualizzata in un elenco a discesa nella vista dettagliata dell’app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
 
-### Rimuovere i componenti
+## Rimuovere i componenti
 
 Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic sulla scorecard al di fuori delle tessere, quindi fai clic sulla **x** che compare quando passi il mouse sul componente, come mostrato di seguito per il segmento **Nuovo visitatore**:
 
