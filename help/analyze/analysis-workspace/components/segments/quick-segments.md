@@ -3,9 +3,9 @@ description: Usare i segmenti rapidi in Analysis Workspace.
 title: Segmenti rapidi
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
+source-git-commit: 533c58f3bcc3974dafab1d6b7dd3e239ad80831b
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '765'
 ht-degree: 14%
 
 ---
@@ -35,20 +35,24 @@ In una tabella a forma libera, fai clic sull’icona Filtro+ nell’intestazione
 
 ![](assets/quick-seg1.png)
 
+Configura il segmento rapido da questa lavagna vuota:
+
+![segmento rapido vuoto](assets/qs-blank-slate.png)
+
 | Impostazione | Descrizione |
 | --- | --- |
 | Nome | Il nome predefinito di un segmento è una combinazione dei nomi delle regole nel segmento. È possibile rinominare il segmento. |
 | Includi/escludi | Puoi includere o escludere componenti nella definizione del segmento, ma non entrambi. |
 | Contenitore Hit/Visita/Visitatore | I segmenti rapidi includono un [contenitore di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) solo che consente di includere una dimensione/metrica/intervallo di date nel segmento (o escluderlo da). [!UICONTROL Visitor] contiene i dati generali specifici del visitatore per visite e visualizzazioni di pagina. Un contenitore [!UICONTROL Visit] consente di impostare regole per suddividere i dati del visitatore in base alle visite e un contenitore [!UICONTROL Hit] consente di suddividere le informazioni del visitatore in base alle singole visualizzazioni di pagina. Il contenitore predefinito è [!UICONTROL Hit]. |
-| Componenti (Dimension/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo dimensioni e/o metriche dei componenti e/o intervalli di date e relativi valori. Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare e il generatore [!UICONTROL Quick Segment] trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
+| Componenti (Dimension/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo i componenti (dimensioni e/o metriche e/o intervalli di date) e i relativi valori. Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare e il generatore [!UICONTROL Quick Segment] trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
 | Operatore | Utilizza il menu a discesa per trovare gli operatori standard e gli operatori [!UICONTROL Distinct Count] . [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=en) |
 | Segno più (+) | Aggiungi un&#39;altra regola |
 | Qualificatori AND/OR | Puoi aggiungere i qualificatori “AND” o “OR” alle regole, ma non puoi combinare “AND” e “OR” in una singola definizione di segmento. |
 | Applica | Applica questo segmento al pannello. Se il segmento non contiene dati, ti verrà chiesto se desideri continuare. |
-| Open builder | Apre il Generatore di segmenti. Una volta salvato il segmento nel Generatore di segmenti, non viene più considerato un &quot;Segmento rapido&quot;. Diventa parte della libreria di segmenti dell’elenco di componenti. |
+| Open builder | Apre il Generatore di segmenti. Una volta salvato o applicato il segmento nel Generatore di segmenti, non viene più considerato un &quot;Segmento rapido&quot;. Diventa parte della libreria di segmenti dell’elenco di componenti. |
 | Annulla | Annulla questo segmento rapido - non applicarlo. |
 | Intervallo date | La convalida utilizza l&#39;intervallo di date del pannello per la ricerca dei dati. Tuttavia, qualsiasi intervallo di date applicato in un segmento rapido sostituisce l’intervallo di date del pannello nella parte superiore del pannello. |
-| Anteprima (in alto a destra) | Ti consente di verificare se disponi di un segmento valido e la sua ampiezza. Rappresenta il raggruppamento del set di dati che si prevede di visualizzare quando si applica questo segmento. potresti ricevere un avviso che indica che questo segmento non ha dati. Puoi procedere o modificare la definizione del segmento. |
+| Anteprima (in alto a destra) | Ti consente di verificare se disponi di un segmento valido e la sua ampiezza. Rappresenta il raggruppamento del set di dati che si prevede di visualizzare quando si applica questo segmento. Potresti ricevere un avviso che indica che questo segmento non ha dati. In questo caso, puoi procedere o modificare la definizione del segmento. |
 
 Esempio di segmento che combina dimensioni e metriche:
 
@@ -81,4 +85,10 @@ La barra laterale del segmento cambia da blu a blu a righe. Ora viene visualizza
 
 ## Cosa sono i segmenti solo per progetto?
 
-I segmenti solo progetto sono segmenti rapidi o segmenti di progetto ad hoc Workspace. Quando li modifico li aprite in [!UICONTROL Segment Builder], viene visualizzata la casella solo progetto. Se applichi un segmento rapido nel generatore ma non selezioni la casella rendi disponibile, si tratta comunque di un segmento solo progetto ma non può più essere aperto nel [!UICONTROL Quick Segment Builder]. Se selezioni la casella e fai clic su **[!UICONTROL SAVE]**, ora si tratta di un segmento dell’elenco di componenti.
+I segmenti solo progetto sono segmenti rapidi o segmenti di progetto ad hoc Workspace. Quando li modifico li aprite in [!UICONTROL Segment Builder], viene visualizzata la casella solo progetto. Se applichi un segmento rapido nel generatore ma non selezioni la casella rendi disponibile, si tratta comunque di un segmento solo progetto ma non può più essere aperto nel [!UICONTROL Quick Segment Builder].
+
+![Solo progetto deselezionato](assets/project-only-unchecked.png)
+
+Se selezioni la casella e fai clic su **[!UICONTROL SAVE]**, ora si tratta di un segmento dell’elenco di componenti.
+
+![Solo progetto selezionato](assets/project-only-checked.png)
