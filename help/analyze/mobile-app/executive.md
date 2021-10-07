@@ -4,35 +4,18 @@ title: Guida esecutiva alle dashboard di Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1208'
+ht-degree: 97%
 
 ---
 
-# Dashboard di Adobe Analytics: guida introduttiva rapida per utenti esecutivi
+# Guida introduttiva per utenti esecutivi
 
 Le informazioni seguenti forniscono agli utenti esecutivi informazioni sulle best practice per l’utilizzo e la visualizzazione delle dashboard di Adobe Analytics. Per vedere un video che illustra queste informazioni, consulta [Esperienza in-app delle dashboard di Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
 
-## Introduzione
-
-Le dashboard di Adobe Analytics forniscono informazioni provenienti da Adobe Analytics ovunque e in qualsiasi momento.  L’app consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a tessere che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. Le dashboard sono supportate sia sui sistemi operativi iOS che su quelli Android.
-
 Questa guida ha lo scopo di aiutare gli utenti esecutivi a leggere e interpretare le scorecard sulle dashboard di Analytics. L’app consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
-
-## Glossario dei termini
-
-| Termine | Definizione |
-|--- |--- |
-| Consumatore | Utente esecutivo che visualizza metriche e conoscenze chiave provenienti da Analytics su un dispositivo mobile |
-| Curatore | Persona esperta in materia di dati che trova e distribuisce le conoscenze provenienti da Analytics e configura le scorecard da mostrare al consumatore |
-| Cura | L’atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti pertinenti per il consumatore |
-| Scorecard | Una vista delle dashboard contenente una o più tessere |
-| Tessera | Una rappresentazione di una metrica all’interno di una vista Scorecard |
-| Raggruppamento | Una vista secondaria accessibile toccando una tessera nella scorecard. Questa vista mostra maggiori informazioni sulla metrica visualizzata sulla tessera e, opzionalmente, riporta informazioni su dimensioni di raggruppamento aggiuntive |
-| Intervallo date | L’intervallo date primario per la generazione di rapporti delle dashboard |
-| Intervallo date di confronto | L’intervallo date che viene confrontato con l’intervallo date primario |
 
 ## Configurare le dashboard sul dispositivo
 
@@ -73,9 +56,9 @@ Per utilizzare le dashboard:
 
    ![Sequenza di accesso](assets/signseq.png)
 
-2. Scegli un’azienda. Dopo aver effettuato l’accesso alle dashboard, viene visualizzata la schermata **[!UICONTROL Choose a company]**. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
+1. Scegli un’azienda. Dopo aver effettuato l’accesso alle dashboard viene visualizzata la schermata **[!UICONTROL Choose a company]** . Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
 
-3. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con te. Tocca la scorecard che desideri visualizzare.
+1. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con te. Tocca la scorecard che desideri visualizzare.
 
    ![Scegliere un’azienda](assets/nextseq.png)
 
@@ -86,7 +69,7 @@ Per utilizzare le dashboard:
 
    ![Niente di condiviso](assets/nothing.png)
 
-4. Esamina l’aspetto delle tessere nella scorecard (la prima scorecard viene visualizzata in modalità scura; per ulteriori informazioni, consulta **[!UICONTROL Preferences]** di seguito).
+1. Esamina l’aspetto delle tessere nella scorecard (la prima scorecard viene visualizzata in modalità scura; per ulteriori informazioni, consulta **[!UICONTROL Preferences]** di seguito).
 
    ![Informazioni sulle tessere](assets/newexplain.png)
 
@@ -105,12 +88,12 @@ Per utilizzare le dashboard:
 
    ![Esempio di scorecard](assets/intro_scorecard.png)
 
-5. Tocca una tessera per vedere come funziona un suo raggruppamento dettagliato.
+1. Tocca una tessera per vedere come funziona un suo raggruppamento dettagliato.
 
    ![Vista Raggruppamento](assets/sparkline.png)
 
 
-6. Per modificare gli intervalli date per la tua scorecard:
+1. Per modificare gli intervalli date per la tua scorecard:
 
    ![Modificare le date](assets/changedate.png)
 
@@ -118,13 +101,13 @@ Per utilizzare le dashboard:
 
    * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
-7. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa del filtro e seleziona un segmento configurato dal tuo curatore. I [filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell’app funzionano allo stesso modo di Analytics Workspace.
+1. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa del filtro e seleziona un segmento configurato dal tuo curatore. I [filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell’app funzionano allo stesso modo di Analytics Workspace.
 
    ![Filtro del segmento](assets/segment_filter.png)
 
-8. Ricevere gli aggiornamenti delle scorecard. Se una scorecard non include tutte le metriche o i raggruppamenti che potrebbero interessarti, contatta il tuo team di Analytics per far aggiornare la scorecard. Una volta aggiornata, è possibile trascinare giù la scheda sullo schermo per aggiornarla e caricare i dati aggiunti di recente.
+1. Ricevere gli aggiornamenti delle scorecard. Se una scorecard non include tutte le metriche o i raggruppamenti che potrebbero interessarti, contatta il tuo team di Analytics per far aggiornare la scorecard. Una volta aggiornata, è possibile trascinare giù la scheda sullo schermo per aggiornarla e caricare i dati aggiunti di recente.
 
-9. Per lasciare un feedback su questa app:
+1. Per lasciare un feedback su questa app:
 
    1. Tocca l’icona dell’utente in alto a destra della schermata dell’app.
    2. Nella schermata **[!UICONTROL Settings]**, tocca l’opzione **[!UICONTROL Feedback]**.
@@ -132,7 +115,7 @@ Per utilizzare le dashboard:
 
       ![Schermata Settings](assets/settings.png)
 
-10. Per modificare le preferenze, tocca l’opzione **[!UICONTROL Preferences]** mostrata sopra. Nelle preferenze, puoi attivare l’accesso biometrico oppure la modalità scura dell’app come illustrato di seguito:
+1. Per modificare le preferenze, tocca l’opzione **[!UICONTROL Preferences]** mostrata sopra. Nelle preferenze, puoi attivare l’accesso biometrico oppure la modalità scura dell’app come illustrato di seguito:
 
    ![Modalità scura](assets/darkmode.png)
 
@@ -151,3 +134,17 @@ Toccare l’opzione e scegliere una sottocategoria del suggerimento. Nel modulo 
 **Per fare una domanda**:
 
 Tocca l’opzione e fornisci il tuo indirizzo e-mail nel campo superiore e la tua domanda nel campo sotto di esso. Al messaggio viene automaticamente allegata una schermata, ma puoi cancellarla, se lo desideri, toccando la **X** nell’immagine allegata. Ci sono anche delle opzioni per effettuare una registrazione dello schermo, aggiungere altre schermate o allegare file. Per inviare la domanda, toccare l’icona dell’aeroplano di carta in alto a destra del modulo.
+
+## Glossario dei termini
+
+| Termine | Definizione |
+|--- |--- |
+| Consumatore | Utente esecutivo che visualizza metriche e conoscenze chiave provenienti da Analytics su un dispositivo mobile |
+| Curatore | Persona esperta in materia di dati che trova e distribuisce le conoscenze provenienti da Analytics e configura le scorecard da mostrare al consumatore |
+| Cura | L’atto di creare o modificare una scorecard mobile contenente metriche, dimensioni e altri componenti pertinenti per il consumatore |
+| Scorecard | Una vista delle dashboard contenente una o più tessere |
+| Tessera | Una rappresentazione di una metrica all’interno di una vista Scorecard |
+| Raggruppamento | Una vista secondaria accessibile toccando una tessera nella scorecard. Questa vista mostra maggiori informazioni sulla metrica visualizzata sulla tessera e, opzionalmente, riporta informazioni su dimensioni di raggruppamento aggiuntive |
+| Intervallo date | L’intervallo date primario per la generazione di rapporti delle dashboard |
+| Intervallo date di confronto | L’intervallo date che viene confrontato con l’intervallo date primario |
+

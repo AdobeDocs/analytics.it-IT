@@ -3,10 +3,10 @@ description: Come creare una scorecard delle dashboard di Analytics
 title: Creare una scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 73%
+source-wordcount: '709'
+ht-degree: 63%
 
 ---
 
@@ -111,28 +111,6 @@ Se l’utente esecutivo effettua l’accesso e vede un messaggio che dice che no
 * La scorecard potrebbe non essere stata condivisa con l’utente esecutivo.
 
 Verifica che l’utente esecutivo possa accedere alla giusta istanza di Adobe Analytics e che la scorecard sia stata condivisa.
-
-### Segnala un bug
-
-Toccare l’opzione e scegliere una sottocategoria del bug. Nel modulo per la segnalazione di un bug, fornisci il tuo indirizzo e-mail nel campo superiore e la tua descrizione del bug nel campo sotto di esso. Al messaggio viene automaticamente allegata una schermata con le informazioni del tuo account, ma puoi cancellarla, se lo desideri, toccando la **X** nell’immagine allegata. Ci sono anche delle opzioni per effettuare una registrazione dello schermo, aggiungere altre schermate o allegare file. Per inviare la segnalazione, toccare l’icona dell’aeroplano di carta in alto a destra del modulo.
-
-![Segnalare un bug](assets/newbug.png)
-
-### Lasciare un feedback
-
-1. Tocca l’icona dell’utente in alto a destra della schermata dell’app.
-1. Nella schermata **[!UICONTROL Settings]**, tocca l’opzione **[!UICONTROL Feedback]**.
-1. Tocca per visualizzare le opzioni per lasciare un feedback.
-
-   ![Schermata Settings](assets/settings.png)
-
-### Suggerisci un miglioramento
-
-Toccare l’opzione e scegliere una sottocategoria del suggerimento. Nel modulo di suggerimento, fornisci il tuo indirizzo e-mail nel campo superiore e la tua descrizione del bug nel campo sotto di esso. Al messaggio viene automaticamente allegata una schermata con le informazioni del tuo account, ma puoi cancellarla, se lo desideri, toccando la **X** nell’immagine allegata. Ci sono anche delle opzioni per effettuare una registrazione dello schermo, aggiungere altre schermate o allegare file. Per inviare il suggerimento, toccare l’icona dell’aeroplano di carta in alto a destra del modulo.
-
-### Fai una domanda
-
-Tocca l’opzione e fornisci il tuo indirizzo e-mail nel campo superiore e la tua domanda nel campo sotto di esso. Al messaggio viene automaticamente allegata una schermata, ma puoi cancellarla, se lo desideri, toccando la **X** nell’immagine allegata. Ci sono anche delle opzioni per effettuare una registrazione dello schermo, aggiungere altre schermate o allegare file. Per inviare la domanda, toccare l’icona dell’aeroplano di carta in alto a destra del modulo.
 
 >[!IMPORTANT]
 >
