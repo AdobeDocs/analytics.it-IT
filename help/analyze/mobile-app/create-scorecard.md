@@ -1,19 +1,19 @@
 ---
 description: Come creare una scorecard delle dashboard di Adobe Analytics
-title: Creare una scorecard
+title: Creare una scorecard per dispositivi mobili
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 55%
+source-wordcount: '1282'
+ht-degree: 53%
 
 ---
 
 
-# Creare una scorecard
+# Creare una scorecard per dispositivi mobili
 
-Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare dashboard per gli utenti esecutivi. Per iniziare, puoi visualizzare il video Creatore di scorecard delle dashboard di Adobe Analytics:
+Le informazioni seguenti spiegano ai curatori dei dati di Adobe Analytics come configurare e presentare scorecard per dispositivi mobili per gli utenti esecutivi. Per iniziare, puoi visualizzare il video Creatore di scorecard delle dashboard di Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -103,6 +103,10 @@ Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne un
 Viene visualizzato il generatore di intervalli di date, in cui è possibile creare e salvare un nuovo componente Intervallo di date.
 
 ## Applicare visualizzazioni
+
+Guarda un video sulle visualizzazioni delle scorecard per dispositivi mobili:
+
+>[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
 Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Passa a una visualizzazione diversa modificando il valore [!UICONTROL chart type] di un riquadro [!UICONTROL Properties]. Seleziona la porzione destra e modifica il tipo di grafico.
 
