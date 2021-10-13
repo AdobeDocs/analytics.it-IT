@@ -3,9 +3,9 @@ description: Spiega come, nella nuova pagina di destinazione, Analysis Workspace
 title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3174'
 ht-degree: 92%
 
 ---
@@ -162,7 +162,7 @@ Per creare una nuova segnalazione aziendale,
 
 1. Aggiungi tutti i campi desiderati al modale e salvalo.
 
-   Il rapporto viene aggiunto all&#39;elenco Rapporti aziendali ed è disponibile per quelli della tua azienda.
+   Il rapporto viene aggiunto all&#39;elenco Rapporti aziendali ed è disponibile per coloro che fanno parte della tua società di accesso.
 
 Altre opzioni di apprendimento:
 
