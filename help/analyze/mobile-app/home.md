@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
 source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '209'
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ I **[!UICONTROL dashboards]** di Adobe Analytics forniscono informazioni proveni
 
 Per ulteriori informazioni sulle [!UICONTROL dashboards] di Adobe Analytics, consulta le risorse seguenti:
 
-* [Risorse](/help/analyze/mobile-app/curator.md) curatore: Destinato ad aiutare i curatori di dati a configurare le scorecard per i loro utenti esecutivi su  [!UICONTROL dashboards]. I curatori possono essere amministratori organizzativi o persone con altri ruoli responsabili della configurazione delle scorecard:
+* [Risorse per il curatore](/help/analyze/mobile-app/curator.md): queste risorse aiutano i curatori di dati a configurare le scorecard per gli utenti manageriali che si avvalgono di [!UICONTROL dashboards]. I curatori possono essere amministratori organizzativi o persone con altri ruoli responsabili della configurazione delle scorecard:
 
    * [Creare scorecard](/help/analyze/mobile-app/create-scorecard.md)
-   * [Aiutare i dirigenti a configurare l’app e utilizzarla](/help/analyze/mobile-app/set-up-execs.md)
-   * Per una panoramica video dell’esperienza di gestione, consulta [Creatore di scorecard delle dashboard di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=it).
+   * [Aiutare i dirigenti a configurare e utilizzare l’app](/help/analyze/mobile-app/set-up-execs.md)
+   * Per una panoramica video dell’esperienza per il curatore, consulta [Creazione di scorecard per dashboard di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=it).
 
 
 * [Guida introduttiva rapida per utenti esecutivi](/help/analyze/mobile-app/executive.md): questa guida ha lo scopo di aiutare gli utenti esecutivi a leggere e interpretare le scorecard sulle [!UICONTROL dashboards]. L’app consente agli utenti esecutivi di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
 
-   * Per un video che evidenzia queste informazioni, consulta [Esperienza in-app delle dashboard di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=it).
+   * Per guardare un video che evidenzia queste informazioni, consulta [Esperienza in-app per le dashboard di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=it).
