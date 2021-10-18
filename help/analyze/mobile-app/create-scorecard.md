@@ -1,43 +1,43 @@
 ---
-description: Come creare una scorecard delle dashboard di Adobe Analytics
+description: Come creare una scorecard per le dashboard di Adobe Analytics
 title: Creare una scorecard per dispositivi mobili
 feature: Analytics Dashboards
 role: User, Admin
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1282'
-ht-degree: 53%
+ht-degree: 85%
 
 ---
 
 
 # Creare una scorecard per dispositivi mobili
 
-Le informazioni seguenti spiegano ai curatori dei dati di Adobe Analytics come configurare e presentare scorecard per dispositivi mobili per gli utenti esecutivi. Per iniziare, puoi visualizzare il video Creatore di scorecard delle dashboard di Adobe Analytics:
+Le informazioni seguenti spiegano ai curatori dei dati di Adobe Analytics come configurare e presentare scorecard per dispositivi mobili per gli utenti esecutivi. Per iniziare, puoi visualizzare il video Creazione di scorecard per le dashboard di Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
-Una scheda di valutazione di Adobe Analytics visualizza le visualizzazioni dei dati chiave per gli utenti esecutivi in un layout a tessere, come illustrato di seguito:
+Una scorecard Adobe Analytics mostra le visualizzazioni dei dati chiave per gli utenti manageriali in un layout a tessere affiancate, come mostrato di seguito:
 
 ![Esempio di scorecard](assets/intro_scorecard.png)
 
-In qualità di curatore di questa scorecard, puoi utilizzare lo strumento di creazione delle scorecard per configurare quali tessere visualizzare sulla scorecard per il consumatore esecutivo. Puoi anche configurare in che modo le viste dettagliate, o le suddivisioni, possono essere regolate una volta che le tessere vengono toccate. L’interfaccia del Creatore di scorecard è mostrata di seguito:
+In qualità di curatore di questa scorecard, puoi usare la funzione di creazione scorecard per configurare le tessere da presentare all’utente manageriale sulla scorecard. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le tessere vengono toccate. L’interfaccia del Creatore di scorecard è mostrata di seguito:
 
 ![Creatore di scorecard](assets/scorecard_builder.png)
 
-Per creare la scorecard, devi effettuare le seguenti operazioni:
+Per creare la scorecard, dovrai procedere in questo modo:
 
 1. Accedi al modello [!UICONTROL Blank Mobile Scorecard].
 2. Configura la scorecard con i dati e salvala.
 
 ## Accedi al modello [!UICONTROL Blank Mobile Scorecard]
 
-Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo progetto o dal menu Strumenti .
+Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo progetto o dal menu degli strumenti.
 
 ### Creare un nuovo progetto
 
 1. Apri Adobe Analytics e fai clic sulla scheda **[!UICONTROL Workspace]**.
-1. Fai clic su **[!UICONTROL Create project]** e seleziona il modello di progetto **[!UICONTROL Blank mobile scorecard]**.
+1. Fai clic sul pulsante **[!UICONTROL Create project]** e seleziona il modello di progetto **[!UICONTROL Blank mobile scorecard]**.
 1. Fai clic su **[!UICONTROL Create]**.
 
 ![Template Scorecard](assets/new_template.png)
@@ -47,7 +47,7 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 1. Dal menu **[!UICONTROL Tools]**, seleziona **[!UICONTROL Analytics dashboards (Mobile App)]**.
 1. Nella schermata successiva, fai clic su **[!UICONTROL Create new scorecard]**.
 
-## Configura la scorecard con i dati e salvala
+## Configurare la scorecard con i dati e salvarla
 
 Per implementare il template della scorecard:
 
@@ -66,7 +66,7 @@ Per implementare il template della scorecard:
 
 Per aggiungere una dimensione correlata a una metrica, trascina una dimensione dal pannello di sinistra e rilasciala su una tessera.
 
-Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla tessera. Le suddivisioni dei Dimension vengono visualizzate nella sezione [!UICONTROL Drill Ins] (suddivisione) del riquadro specifico **[!UICONTROL Properties]**. Puoi aggiungere più dimensioni a ogni tessera.
+Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla tessera. Le suddivisioni delle singole dimensioni vengono visualizzate nella sezione [!UICONTROL Drill Ins] (Approfondimenti) delle **[!UICONTROL Properties]** della tessera. Puoi aggiungere più dimensioni a ogni tessera.
 
 ![Aggiunta di dimensioni](assets/layer_dimensions.png)
 
@@ -78,7 +78,7 @@ Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la te
 
 ![Creare segmenti per il filtro](assets/segment_ui.png)
 
-## Aggiungi intervalli di date
+## Aggiungere intervalli di date
 
 Aggiungi e rimuovi combinazioni di intervalli di date che possono essere selezionate nella scorecard mediante il menu a discesa dell’intervallo di date.
 
@@ -108,11 +108,11 @@ Guarda un video sulle visualizzazioni delle scorecard per dispositivi mobili:
 
 >[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
-Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Passa a una visualizzazione diversa modificando il valore [!UICONTROL chart type] di un riquadro [!UICONTROL Properties]. Seleziona la porzione destra e modifica il tipo di grafico.
+Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Passa a una visualizzazione diversa modificando la variabile [!UICONTROL chart type] di una tessera [!UICONTROL Properties]. Seleziona la porzione destra e modifica il tipo di grafico.
 
-![Proprietà delle sezioni](assets/properties.png)
+![Proprietà delle tessere](assets/properties.png)
 
-Oppure fai clic sull’icona [!UICONTROL Visualizations] nella barra a sinistra e trascina la visualizzazione a destra nella tessera:
+Oppure, fai clic sul pulsante [!UICONTROL Visualizations] nella barra a sinistra, trascina e rilascia la visualizzazione a destra sulla tessera:
 
 ![Visualizzazioni](assets/vizs.png)
 
@@ -124,9 +124,9 @@ Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevat
 
 ### [!UICONTROL Donut]
 
-Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Utilizzare un grafico ad anello per confrontare percentuali di un totale. Ad esempio, supponiamo che desideri vedere quale piattaforma di annunci ha contribuito al numero totale di visitatori unici:
+Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Utilizzare un grafico ad anello per confrontare le percentuali di un totale. Ad esempio, per capire quale piattaforma di annunci ha contribuito al numero totale di visitatori univoci:
 
-![Visualizzazione Anello](assets/donut-viz.png)
+![Visualizzazione ad anello](assets/donut-viz.png)
 
 ### [!UICONTROL Line]
 
@@ -137,30 +137,30 @@ La visualizzazione delle linee rappresenta le metriche con linee che mostrano co
 
 ### [!UICONTROL Horizontal Bar]
 
-Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche. Ad esempio, per vedere facilmente quali sono i tuoi prodotti principali, utilizza [!UICONTROL Horizontal Bar] per la visualizzazione preferita.
+Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche. Ad esempio, per vedere facilmente quali sono i tuoi prodotti migliori, utilizza [!UICONTROL Horizontal Bar] per la visualizzazione desiderata.
 
 ![barra orizzontale](assets/horizontal.png)
 
-### Rimuovi elementi dimensionali [!UICONTROL Unspecified]
+### Rimuovi [!UICONTROL Unspecified] elementi dimensionali
 
-Per rimuovere elementi dimensionali [!UICONTROL Unspecified] dai dati, procedi come segue:
+Se si desidera rimuovere [!UICONTROL Unspecified] elementi dimensionali dai dati, effettua le seguenti operazioni:
 
 1. Seleziona la porzione corretta.
-1. Nella barra a destra, sotto **[!UICONTROL Drill ins]**, seleziona la freccia destra accanto all’elemento dimensione di cui desideri rimuovere gli elementi **[!UICONTROL Unspecified]**.
+1. Nella barra a destra, sotto **[!UICONTROL Drill ins]**, seleziona la freccia destra accanto all’elemento dimensionale di cui **[!UICONTROL Unspecified]** elementi da rimuovere.
 
    ![non specificato](assets/unspecified.png)
 
-1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dal rapporto. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
+1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dal reporting. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
 
-## Visualizzare e configurare le proprietà dei riquadri
+## Visualizzare e configurare le proprietà delle tessere
 
-Quando fai clic su una tessera nel Creatore di scorecard, la barra a destra mostra le proprietà e le caratteristiche associate a tale tessera. In questa barra puoi assegnare un nuovo **[!UICONTROL Title]** alla tessera e, in alternativa, configurarla specificando i componenti invece di trascinarli dalla barra di sinistra.
+Quando fai clic su una tessera nel Creatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella tessera. In questa barra puoi assegnare un nuovo **[!UICONTROL Title]** alla tessera e, in alternativa, configurarla specificando i componenti invece di trascinarli dalla barra di sinistra.
 
 ![Tessera delle proprietà](assets/properties_tile.png)
 
-Quando fai clic sulle tessere, un pop-up dinamico mostra come la visualizzazione Drill ins (Breakdown) viene visualizzata dall’utente esecutivo nell’app. Se non è stata applicata alcuna dimensione alla tessera, la dimensione di raggruppamento sarà **ore** o **giorni**, a seconda dell’intervallo date predefinito.
+Quando si fa clic su una tessera, un pop-up dinamico mostra la vista di approfondimento (Raggruppamento) che verrà presentata all’utente manageriale nell’app. Se non è stata applicata alcuna dimensione alla tessera, la dimensione di raggruppamento sarà **ore** o **giorni**, a seconda dell’intervallo date predefinito.
 
-Le suddivisioni consentono di perfezionare l’analisi suddividendo letteralmente metriche e dimensioni per altre metriche e dimensioni, come in questo esempio di vendita al dettaglio:
+I raggruppamenti consentono di perfezionare l’analisi suddividendo letteralmente metriche e dimensioni per altre metriche e dimensioni, come in questo esempio di vendita al dettaglio:
 
 * Metrica Visitatori univoci suddivisa per piattaforma di annunci (AMO ID)
 * Visite suddivise per categoria di prodotto (al dettaglio)
@@ -190,15 +190,15 @@ Per condividere la scorecard con un utente esecutivo:
 
 1. Nel modulo **[!UICONTROL Share mobile scorecard]**, compila i campi:
 
-   * Immetti il nome della scorecard
-   * Descrizione della scorecard
+   * Inserimento del nome della scorecard
+   * Inserimento di una descrizione della scorecard
    * Aggiungendo tag rilevanti
-   * Specifica dei destinatari della scorecard
+   * Specificare i destinatari della scorecard
 
 1. Fai clic su **[!UICONTROL Share]**.
 
 ![Condividere_scorecard](assets/new_share.png)
 
-Dopo aver condiviso una scorecard, i destinatari possono accedervi sulle proprie dashboard di Analytics. Se apporti modifiche successive alla scorecard nel Creatore di scorecard, queste verranno aggiornate automaticamente nella scorecard condivisa. Gli utenti esecutivi vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
+Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Creatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti esecutivi vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
-Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente (e di selezionare l’opzione **[!UICONTROL Share embedded components]**) per assicurarti che gli utenti esecutivi abbiano accesso a queste modifiche.
+Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente (e di selezionare l’opzione **[!UICONTROL Share embedded components]**) per assicurarti che gli utenti manageriali abbiano accesso a queste modifiche.
