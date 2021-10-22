@@ -5,9 +5,9 @@ uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a6b38c6e7a34c876524ebe15514ac205898549d0
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '992'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Activity Map basa il tracciamento dei collegamenti su questi due ID:
 
 ## ID principale {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
-Se l’HTML ha un s_object, l’ID principale viene impostato automaticamente su s_object. In caso contrario, i seguenti parametri vengono utilizzati come ID principale (in questo ordine di priorità):
+Se HTML ha un s_object, l&#39;ID principale viene impostato automaticamente su s_object. In caso contrario, i seguenti parametri vengono utilizzati come ID principale (in questo ordine di priorità):
 
 * Innertext
 * Testo alternativo
@@ -67,9 +67,9 @@ L’utilizzo dell’area geografica dei collegamenti offre i seguenti vantaggi:
 
 **Tracciamento area personalizzato**
 
-Puoi personalizzare il parametro Regione per un collegamento (l’impostazione predefinita è ID collegamento): Un tag impostato su &quot;ID&quot; utilizzerà tutti gli elementi HTML con un parametro &quot;id&quot; come regione. Pertanto, l’impostazione del tag Region su &quot;id&quot; restituirà molto probabilmente molte aree distinte (quante sono presenti diversi &quot;ID&quot; sulla pagina). In alternativa, se desideri un’implementazione più personalizzata, puoi impostare il tag di regione su un valore più specifico, ad esempio &quot;region_id&quot;.
+Puoi personalizzare il parametro Regione per un collegamento (l’impostazione predefinita è ID collegamento): Un tag impostato su &quot;ID&quot; utilizza tutti gli elementi di HTML con un parametro &quot;id&quot; come area geografica. Pertanto, l’impostazione del tag Region su &quot;id&quot; restituirà molto probabilmente molte aree distinte (quante sono presenti diversi &quot;ID&quot; sulla pagina). In alternativa, se desideri un’implementazione più personalizzata, puoi impostare il tag di regione su un valore più specifico, ad esempio &quot;region_id&quot;.
 
-Di seguito è riportato un esempio di HTML utilizzando l’attributo di ID regione predefinito &quot;id&quot;.
+Di seguito puoi visualizzare alcuni HTML di esempio utilizzando l’attributo ID di regione predefinito &quot;id&quot;.
 
 ```
 <div id="content">
@@ -117,102 +117,105 @@ s.ActivityMap.regionIDAttribute = "lpos";
 
 Tieni presente che queste variabili sono elencate solo a scopo di riferimento. Activity Map deve essere configurato correttamente ma puoi personalizzare l’implementazione utilizzando queste variabili.
 
-<table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Nome variable </th> 
-   <th colname="col2" class="entry"> Esempio </th> 
-   <th colname="col3" class="entry"> Descrizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
-   <td colname="col2"> Predefinito al parametro "id". Puoi impostarlo su un altro parametro. </td> 
-   <td colname="col3"> Stringa che identifica l'attributo del tag da utilizzare come ID di regione da un elemento precedente (parent, parent.parent, ...) di s.linkObject, cioè <b>l'elemento su cui è stato fatto clic</b>. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.link </td> 
-   <td colname="col2"> 
-    <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags</code><br/>
-    <code>function(clickedElement)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;linkId;</code><br/>
-    <code>&nbsp;&nbsp;if&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A')&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title');</code><br/>
-    <code>&nbsp;&nbsp;}</code><br/>
-    <code>&nbsp;&nbsp;return&nbsp;linkId;</code><br/>
-    <code>}</code> </td>
-   <td colname="col3"> Funzione che riceve l'oggetto HTMLElement selezionato e deve restituire un valore stringa che rappresenta <b>il collegamento selezionato</b>. <br/>
-      <br/>
-     Se il valore restituito è false (null, undefined, empty string, 0), non viene tracciato alcun collegamento. </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.region </td> 
-   <td colname="col2"> 
-        <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region</code><br/>
-    <code>function(clickedElement)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;regionId,&nbsp;className;</code><br/>
-    <code>&nbsp;&nbsp;while&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement&nbsp;=&nbsp;clickedElement.parentNode))&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(regionId)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;regionId.toLowerCase();</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;}</code><br/>
-    <code>&nbsp;&nbsp;}</code><br/>
-    <code>}</code> </td> 
-   <td colname="col3"> Funzione che riceve l'elemento HTMLElement selezionato e deve restituire un valore stringa che rappresenta <b>l'area in cui è stato trovato il collegamento quando si fa clic su</b>. <br/>
-      <br/>
-     Se il valore restituito è false (null, undefined, empty string, 0), non viene tracciato alcun collegamento. </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.linkExclusions </td> 
-   <td colname="col2"> 
-     <code>//&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class</code><br/>
-    <code>&lt;style&gt;</code><br/>
-    <code>.linkExcluded&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;display:&nbsp;block;</code><br/>
-    <code>&nbsp;&nbsp;height:&nbsp;1px;</code><br/>
-    <code>&nbsp;&nbsp;left:&nbsp;-9999px;</code><br/>
-    <code>&nbsp;&nbsp;overflow:&nbsp;hidden;</code><br/>
-    <code>&nbsp;&nbsp;position:&nbsp;absolute;</code><br/>
-    <code>&nbsp;&nbsp;width:&nbsp;1px;</code><br/>
-    <code>}</code><br/>
-    <code>&lt;/style&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;script&gt;</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
-    <code>&nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2';</code><br/>
-    <code>&lt;/script&gt;</code> </td> 
-   <td colname="col3"> Stringa che riceve un elenco di stringhe separate da virgola da cercare nel testo del collegamento. Se trovato, il collegamento viene escluso dal tracciamento da parte di Activity Map. Se non è impostato, non viene effettuato alcun tentativo per interrompere il tracciamento del collegamento da parte di Activity Map. </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.regionExclusions </td> 
-   <td colname="col2"> 
-    <code>//&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap</code><br/>
-    <code>&lt;div&nbsp;id="links-included"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
-    <code>&lt;/div&gt;</code><br/>
-    <code>&lt;div&nbsp;id="links-excluded"&gt;&nbsp;</code><br/>
-    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
-    <code>&lt;/div&gt;</code><br/>
-    <code>&lt;script&gt;</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
-    <code>&nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded';</code><br/>
-    <code>&lt;/script&gt;</code> </td> 
-   <td colname="col3"> Stringa che riceve un elenco di stringhe separate da virgola da cercare nel testo della regione. Se trovato, il collegamento viene escluso dal tracciamento da parte di Activity Map. Se non è impostato, non viene effettuato alcun tentativo per interrompere il tracciamento del collegamento da parte di Activity Map. </td>
-  </tr>
- </tbody>
-</table>
+### `s.ActivityMap.regionIDAttribute`
+
+Stringa che identifica l&#39;attributo del tag da utilizzare come ID di regione da un elemento precedente (parent, parent.parent, ...) di `s.linkObject`, vale a dire, **l’elemento su cui è stato fatto clic**.
+
+**Esempio**
+
+Predefinito al parametro &quot;id&quot;. Puoi impostarlo su un altro parametro.
+
+### `s.ActivityMap.link`
+
+Funzione che riceve il clic `HTMLElement` e deve restituire un valore stringa che rappresenta il collegamento su cui hai fatto clic. Se il valore restituito è false (null, undefined, empty string, 0), non viene tracciato alcun collegamento.
+
+**Esempio**
+
+```
+// only ever use "title" attributes from A tags
+function(clickedElement) {
+  var linkId;
+  if (clickedElement && clickedElement.tagName.toUpperCase() === 'A') {
+    linkId = clickedElement.getAttribute('title');
+  }
+  return linkId;
+}
+```
+
+### `s.ActivityMap.region`
+
+Funzione che riceve l&#39;oggetto HTMLElement selezionato e deve restituire un valore stringa che rappresenta **l’area in cui è stato trovato il collegamento quando si è fatto clic su di esso.** Se il valore restituito è false (null, undefined, empty string, 0), non viene tracciato alcun collegamento.
+
+**Esempio**
+
+```
+// only ever use lowercase version of tag name concatenated with first className as the region
+function(clickedElement) {
+  var regionId, className;
+  while (clickedElement && (clickedElement = clickedElement.parentNode)) {
+    regionId = clickedElement.tagName;
+    if (regionId) {
+      return regionId.toLowerCase();
+    }
+  }
+}
+```
+
+### `s.ActivityMap.linkExclusions`
+
+Stringa che riceve un elenco di stringhe separate da virgola da cercare nel testo del collegamento. Se trovato, il collegamento viene escluso dal tracciamento da parte di Activity Map. Se non è impostato, non viene effettuato alcun tentativo per interrompere il tracciamento del collegamento da parte di Activity Map.
+
+**Esempio**
+
+```
+// Exclude links tagged with a special linkExcluded CSS class
+<style>
+.linkExcluded {
+  display: block;
+  height: 1px;
+  left: -9999px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+</style>
+<a href="next-page.html">
+  Link is tracked because link does not have hidden text matching the filter. 
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link1</span>
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link2</span>
+</a>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.linkExclusions = 'exclude-link1,exclude-link2';
+</script>
+```
+
+### `s.ActivityMap.regionExclusions`
+
+Stringa che riceve un elenco di stringhe separate da virgola da cercare nel testo della regione. Se trovato, il collegamento viene escluso dal tracciamento da parte di Activity Map. Se non è impostato, non viene effettuato alcun tentativo per interrompere il tracciamento del collegamento da parte di Activity Map.
+
+**Esempio**
+
+```
+// Exclude regions on the page from its links being trackable by ActivityMap
+<div id="links-included">
+  <a href="next-page.html">
+    Link is tracked because s.ActivityMap.regionExclusions is set but does not match the filter.
+  </a>
+</div>
+<div id="links-excluded"> 
+  <a href="next-page.html">
+    Link not tracked because s.ActivityMap.regionExclusions is set and this link matches the filter.
+  </a>
+</div>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.regionExclusions = 'links-excluded';
+</script>
+```
