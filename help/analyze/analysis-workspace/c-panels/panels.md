@@ -4,16 +4,20 @@ title: Panoramica dei pannelli
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1025'
 ht-degree: 91%
 
 ---
 
 # Panoramica dei pannelli
 
-Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o da un [pannello vuoto](blank-panel.md). I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, suite di rapporti o casi di utilizzo di analisi. In Analysis Workspace sono disponibili i seguenti tipi di pannello:
+Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o da un [pannello vuoto](blank-panel.md). I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, suite di rapporti o casi di utilizzo di analisi.
+
+## Tipi di pannello
+
+In Analysis Workspace sono disponibili i seguenti tipi di pannello:
 
 | Nome pannello | Descrizione |
 | --- | --- |
