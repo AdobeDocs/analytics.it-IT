@@ -1,13 +1,13 @@
 ---
 title: Come impostare le preferenze utente in Analysis Workspace
-description: Puoi impostare le preferenze generali e di progetto per gli utenti.
-feature: Concetti di base di Workspace
+description: Puoi impostare le preferenze generali e di progetto per gli utenti, nonché una preferenza per un tema scuro.
+feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '215'
-ht-degree: 100%
+source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 80%
 
 ---
 
@@ -41,3 +41,13 @@ Le preferenze per i progetti sono applicabili ai nuovi progetti e pannelli creat
 |  | [Tipo di pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) | <ul><li>A forma libera (impostazione predefinita)</li><li>Vuoto</li><li>Quick Insights</li></ul> |
 |  | Formato dei numeri | <ul><li>1.000,00 (impsotazione predefinita)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Separatore CSV   | <ul><li>Virgola (impostazione predefinita)</li><li>Punto e virgola</li><li>Due punti</li><li>Barra verticale</li><li>Punto</li><li>Spazio</li><li>Scheda</li></ul> |
+
+## [!UICONTROL Dark theme]
+
+Se preferisci avere uno sfondo scuro per l’interfaccia utente di Adobe Analytics, puoi passare a [!UICONTROL Dark theme].
+
+1. Fai clic sull’icona utente Experience Cloud in alto a destra.
+
+   ![tema scuro](assets/dark-theme.png)
+
+1. Sposta la **[!UICONTROL Dark theme]** passa a destra.
