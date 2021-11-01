@@ -3,9 +3,9 @@ description: Domande frequenti sui feed di dati
 keywords: Feed di dati;processo;pre colonna;post colonna;sensibilità maiuscole/minuscole
 title: Domande frequenti sui feed di dati
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1439'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ Se ricevi questo errore, considera le seguenti soluzioni alternative:
 
 ## Quando vengono elaborati i dati? {#section_6346328F8D8848A7B81474229481D404}
 
-Prima di elaborare i dati su base oraria o giornaliera, i feed di dati attendono che tutti gli hit che hanno inserito la raccolta dati entro l’intervallo di tempo (giorno o ora) siano stati scritti in data warehouse. In seguito, i feed di dati raccolgono i dati con marche temporali che rientrano nell’intervallo temporale, li comprime e li invia tramite FTP. Per i feed orari, in genere i file vengono scritti in data warehouse entro 15-30 minuti dopo l&#39;ora, ma non esiste un periodo di tempo impostato. Se non vi erano dati con marche temporali che rientrano nell’intervallo temporale, il processo prova nuovamente l’intervallo temporale successivo. Il processo di feed dati corrente utilizza il campo `date_time` per determinare quali hit appartengono all’ora. Questo campo è basato sul fuso orario della suite di rapporti.
+Prima di elaborare i dati su base oraria o giornaliera, i feed di dati attendono che tutti gli hit che hanno inserito la raccolta dati entro l’intervallo di tempo (giorno o ora) siano stati scritti in data warehouse. In seguito, i feed di dati raccolgono i dati con marche temporali che rientrano nell’intervallo temporale, li comprime e li invia tramite FTP. Per i feed orari, in genere i file vengono scritti in data warehouse entro 15-30 minuti dopo l&#39;ora, ma non esiste un periodo di tempo impostato. Se non vi erano dati con marche temporali che rientrano nell’intervallo temporale, il processo prova nuovamente l’intervallo temporale successivo. Il processo di feed di dati corrente utilizza `date_time` per determinare quali hit appartengono all’ora. Questo campo è basato sul fuso orario della suite di rapporti.
 
-## Qual è la differenza tra le colonne con un prefisso `post_` e le colonne senza un prefisso `post_`?
+## Qual è la differenza tra le colonne con un `post_` prefisso e colonne senza un `post_` prefisso?
 
-Le colonne senza il prefisso `post_` contengono i dati esattamente come sono stati inviati alla raccolta dati. Le colonne con un prefisso `post_` contengono il valore dopo l’elaborazione. Esempi che possono modificare un valore sono la persistenza delle variabili, le regole di elaborazione, le regole VISTA, la conversione di valuta o altri Adobi logici lato server. Se possibile, Adobe consiglia di utilizzare la versione `post_` di una colonna.
+Colonne senza `post_` Il prefisso contiene i dati esattamente come è stato inviato alla raccolta dati. Colonne con un `post_` Prefisso contiene il valore dopo l’elaborazione. Esempi che possono modificare un valore sono la persistenza delle variabili, le regole di elaborazione, le regole VISTA, la conversione di valuta o altri Adobi logici lato server. L&#39;Adobe consiglia di utilizzare `post_` se possibile, versione di una colonna.
 
-Se una colonna non contiene una versione `post_` (ad esempio, `visit_num`), può essere considerata una colonna post.
+Se una colonna non contiene `post_` version (ad esempio, `visit_num`), quindi la colonna può essere considerata una colonna post.
 
 ## Come vengono gestiti i feed di dati per la distinzione tra maiuscole e minuscole?
 
@@ -44,17 +44,17 @@ Se vedi diverse varianti di maiuscole e minuscole dello stesso valore tra colonn
 
 ## I bot vengono filtrati dalle regole bot di Admin Console incluse nei feed di dati?
 
-I feed di dati non includono bot filtrati da [regole bot della console di amministrazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html).
+I feed di dati non includono bot filtrati da [Regole bot di Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html).
 
-## Perché visualizzo più valori `000` nella colonna dei feed di dati `event_list` o `post_event_list`?
+## Perché visualizzo più `000` nei valori `event_list` o `post_event_list` colonna feed dati?
 
-Alcuni editor di fogli di calcolo, in particolare Microsoft Excel, arrotondano automaticamente numeri grandi. La colonna `event_list` contiene molti numeri delimitati da virgole e a volte Excel ne considera un numero elevato. Arrotonda le ultime diverse cifre a `000`.
+Alcuni editor di fogli di calcolo, in particolare Microsoft Excel, arrotondano automaticamente numeri grandi. La `event_list` La colonna contiene molti numeri delimitati da virgole, a volte causando il trattamento di Excel come un numero elevato. Arrotonda le ultime diverse cifre a `000`.
 
-Adobe consiglia di non aprire automaticamente i file `hit_data.tsv` in Microsoft Excel. Utilizzare invece la finestra di dialogo Importa dati di Excel e assicurarsi che tutti i campi siano trattati come testo.
+L&#39;Adobe raccomanda di non aprire automaticamente `hit_data.tsv` file in Microsoft Excel. Utilizzare invece la finestra di dialogo Importa dati di Excel e assicurarsi che tutti i campi siano trattati come testo.
 
-## Le colonne come `hitid_high`, `hitid_low`, `visid_high` e `visid_low` sono garantite come univoche per l’hit o la visita?
+## Sono colonne come `hitid_high`, `hitid_low`, `visid_high`e `visid_low` garantito di essere unico per l&#39;hit o la visita?
 
-In quasi tutti i casi, la concatenazione di `hitid_high` e `hitid_low` identifica in modo univoco un hit. Lo stesso concetto si applica alla concatenazione di `visid_high` e `visid_low` per le visite. Tuttavia, le anomalie di elaborazione raramente possono causare la condivisione dello stesso ID hit da parte di due hit. L’Adobe consiglia di non creare flussi di lavoro per feed di dati che si basano in modo flessibile sull’univocità di ogni hit.
+In quasi tutti i casi, la concatenazione di `hitid_high` e `hitid_low` identificare in modo univoco un hit. Lo stesso concetto si applica alla concatenazione di `visid_high` e `visid_low` per visite. Tuttavia, le anomalie di elaborazione raramente possono causare la condivisione dello stesso ID hit da parte di due hit. L’Adobe consiglia di non creare flussi di lavoro per feed di dati che si basano in modo flessibile sull’univocità di ogni hit.
 
 ## Perché mancano informazioni nella colonna del dominio per alcuni gestori? {#section_B7508D65370442C7A314EAED711A2C75}
 
@@ -80,7 +80,7 @@ Se un trasferimento FTP non riesce (a causa di un accesso negato, connessione pe
 
 Se un trasferimento ha esito negativo, è possibile eseguire nuovamente un processo fino a quando non ha esito positivo.
 
-In caso di problemi durante il recupero del feed di dati dal sito FTP, consulta [Risoluzione dei problemi relativi ai processi](jobs-troubleshooting.md).
+In caso di problemi durante il recupero del feed di dati dal sito FTP, consulta [Risoluzione dei problemi dei feed dati](troubleshooting.md).
 
 ## Come faccio a rimandare un lavoro? {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
@@ -88,19 +88,14 @@ Dopo aver verificato/corretto il problema di consegna, esegui nuovamente il proc
 
 ## Qual è l’impostazione BucketOwnerFullControl per i feed di dati Amazon S3? {#BucketOwnerFullControl}
 
-**** BucketOwnerFullControlfornisce diritti tra account diversi per creare oggetti in altri bucket.
+**BucketOwnerFullControl** fornisce diritti tra account diversi per creare oggetti in altri bucket.
 
-Il caso d&#39;uso comune per Amazon S3 è che il proprietario dell&#39;account Amazon Web Services (AWS) crea un bucket, quindi crea un utente che dispone dell&#39;autorizzazione per creare oggetti in quel bucket e quindi fornisce le credenziali per tale utente. In questo caso, gli oggetti di un utente appartengono allo stesso account e il proprietario dell&#39;account ha implicitamente il pieno controllo dell&#39;oggetto (lettura, eliminazione e così via). Questo processo è simile al funzionamento della consegna FTP.
+Il caso d’uso comune per Amazon S3 è che il proprietario dell’account Amazon Web Services (AWS) crea un bucket, quindi crea un utente che dispone dell’autorizzazione per creare oggetti in tale bucket e quindi fornisce le credenziali per tale utente. In questo caso, gli oggetti di un utente appartengono allo stesso account e il proprietario dell&#39;account ha implicitamente il pieno controllo dell&#39;oggetto (lettura, eliminazione e così via). Questo processo è simile al funzionamento della consegna FTP.
 
-AWS consente inoltre a un utente di creare oggetti in un bucket che appartiene a un account utente diverso. Ad esempio, due utenti AWS, userA e userB, non appartengono allo stesso account AWS ma desiderano creare oggetti in altri bucket. Se l’utente A crea un bucket denominato &quot;bucketA&quot;, può creare un criterio per i bucket che consente esplicitamente all’utente B di creare oggetti in bucketA anche se l’utente non possiede il bucket. Questo criterio può essere vantaggioso perché non richiede agli utenti A e userB di scambiare le credenziali. Al contrario, userB fornisce a userA il loro numero di account, e userA crea una policy di bucket che sostanzialmente dice &quot;lascia che l&#39;utente B crei oggetti in bucketA&quot;.
+AWS consente inoltre a un utente di creare oggetti in un bucket che appartengono a un account utente diverso. Ad esempio, due utenti AWS, userA e userB, non appartengono allo stesso account AWS ma desiderano creare oggetti in altri bucket. Se l’utente A crea un bucket denominato &quot;bucketA&quot;, può creare un criterio per i bucket che consente esplicitamente all’utente B di creare oggetti in bucketA anche se l’utente non possiede il bucket. Questo criterio può essere vantaggioso perché non richiede agli utenti A e userB di scambiare le credenziali. Al contrario, userB fornisce a userA il loro numero di account, e userA crea una policy di bucket che sostanzialmente dice &quot;lascia che l&#39;utente B crei oggetti in bucketA&quot;.
 
 Tuttavia, gli oggetti non ereditano le autorizzazioni dal bucket principale. Pertanto, se userB carica un oggetto nel bucket dell&#39;utente A, userB &quot;possiede&quot; ancora tale oggetto e, per impostazione predefinita, a userA non vengono concesse autorizzazioni per tale oggetto anche se l&#39;utente A è proprietario del bucket. UserB deve concedere esplicitamente le autorizzazioni userA perché userB è ancora il proprietario dell&#39;oggetto. Per concedere questa autorizzazione, userB deve caricare l&#39;oggetto con un ACL BucketOwnerFullControl, che specifica che al proprietario del bucket (userA) sono concesse autorizzazioni complete per l&#39;oggetto (lettura, scrittura, eliminazione e così via), anche se l&#39;oggetto è &quot;di proprietà&quot; di userB.
 
 >[!NOTE]
 >
 >[!DNL Analytics] non determina se il bucket dispone di un criterio che richiede l’assegnazione al proprietario del bucket del controllo completo dei nuovi oggetti, o anche se il proprietario del bucket si trova in un account diverso da quello utilizzato dall’utente per scrivere i dati. Invece, [!DNL Analytics] aggiunge automaticamente il proprietario del bucket all&#39;ACL BucketOwnerFullControl con ogni caricamento di feed.
-
->[!MORELIKETHIS]
->
->* [Risoluzione dei problemi dei processi](jobs-troubleshooting.md)
-

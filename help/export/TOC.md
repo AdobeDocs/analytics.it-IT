@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Utilizza feed di dati per ricevere un’esportazione oraria o giornaliera di dati non elaborati. Utilizza Data Warehouse per recuperare un output di dati in un foglio di calcolo.
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
       + [Occorrenza in arrivo](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Domande frequenti sui feed dati](analytics-data-feed/df-faq.md)
    + [Procedure consigliate per il feed dati](analytics-data-feed/data-feeds-best-practices.md)
-   + [Risoluzione dei problemi dei processi](analytics-data-feed/jobs-troubleshooting.md)
+   + [Risoluzione dei problemi dei feed dati](analytics-data-feed/troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Panoramica di Data Warehouse](data-warehouse/data-warehouse.md)
    + [Aggiungere un gruppo utenti di Data Warehouse](data-warehouse/t-dw-group.md)
