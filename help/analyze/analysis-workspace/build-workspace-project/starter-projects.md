@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1376'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '1386'
+ht-degree: 99%
 
 ---
 
@@ -36,6 +36,10 @@ Gli utenti con diritti di amministratore possono trasformare qualunque progetto 
    >[!NOTE]
    >
    >Per impostazione predefinita, i modelli di progetto sono visibili a tutti gli utenti dell’organizzazione. Puoi utilizzare dei tag per organizzare i modelli. (Vai a **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Project Info & Settings]** (Informazioni e impostazioni progetto) per modificare tag e descrizioni.)
+
+Video sulla creazione e gestione di modelli personalizzati:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
 ### Azioni eseguibili sui modelli personalizzati
 

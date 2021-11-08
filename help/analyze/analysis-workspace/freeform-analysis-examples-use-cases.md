@@ -2,12 +2,12 @@
 description: Esempi delle modalità di utilizzo di tabelle di dati, segmenti e idee di casi di utilizzo per Analysis Workspace.
 keywords: Analysis Workspace
 title: Casi di utilizzo di Analysis Workspace
-feature: Nozioni di base su Reports & Analytics
+feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -61,3 +61,8 @@ Immagina di essere un analista di marketing per un rivenditore di attrezzatura d
 
    Ora puoi [condividere](/help/analyze/analysis-workspace/curate-share/curate.md) il rapporto con il team merchandising.
 
+## Analisi di cross-selling in Analysis Workspace
+
+Ecco un video sull&#39;argomento:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
