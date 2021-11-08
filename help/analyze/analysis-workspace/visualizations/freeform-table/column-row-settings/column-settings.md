@@ -2,13 +2,13 @@
 description: Le impostazioni colonna consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 title: Impostazioni colonna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-feature: Tabelle a forma libera
+feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '717'
+ht-degree: 97%
 
 ---
 
@@ -69,3 +69,9 @@ Analysis Workspace supporta l’[attribuzione](/help/analyze/analysis-workspace/
 >
 >* [Gestione delle origini dati](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
+
+## Colonne dinamiche
+
+Ecco un video sull’utilizzo delle colonne dinamiche in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)

@@ -2,12 +2,12 @@
 description: Utilizza la visualizzazione di flusso in un progetto Workspace.
 title: Panoramica del flusso
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: Visualizzazioni
+feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '207'
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '210'
 ht-degree: 100%
 
 ---
@@ -37,3 +37,7 @@ Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione
 ## Esportare i diagrammi di flusso come file .CSV {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 I diagrammi di flusso sono parte del file .CSV di un progetto che viene creato da **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Questo consente di analizzare i risultati del flusso in Microsoft Excel (sotto forma di tabella) o in un’altra applicazione.
+
+## Espansione della visualizzazione Flusso
+
+>[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)

@@ -5,9 +5,9 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '292'
 ht-degree: 35%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 35%
 # Panoramica di Activity Map
 
 >[!NOTE]
->Scopri come Activity Map supporta le applicazioni a pagina singola (SPA) nella nostra pagina [FAQ](/help/analyze/activity-map/activitymap-faq.md).
+>Scopri come Activity Map supporta le applicazioni a pagina singola (SPA) nel nostro [Domande frequenti](/help/analyze/activity-map/activitymap-faq.md) pagina.
 
 >[!IMPORTANT]
 >Il 16 gennaio 2020, Adobe Analytics ha iniziato a spostarsi su un nuovo dominio: https://experience.adobe.com/analytics. Questa modifica potrebbe impedire ad Activity Map di funzionare per alcuni clienti in casi specifici. Come sai, Activity Map viene inserito nella pagina del cliente in un iframe (un iframe per la barra degli strumenti di Activity Map e un iframe per il pannello inferiore di Activity Map). È possibile che nella pagina web sia stata impostata una direttiva informativa sulla sicurezza dei contenuti per &quot;frame-src&quot; che non include &quot;.adobe.com&quot;. In questo caso, Activity Map smetterà di lavorare su una pagina web del genere.
@@ -24,21 +24,17 @@ Activity Map è un’applicazione Adobe Analytics progettata per classificare l�
 
 Activity Map ti permette di configurare varie viste per identificare visivamente l’accelerazione dell’attività dei clienti, quantificare le iniziative di marketing e intervenire sulle esigenze e i comportamenti del tuo pubblico.
 
-Ecco una panoramica video di Activity Map:
-
->[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
-
-**Guida introduttiva per gli amministratori**
+## Guida introduttiva per gli amministratori
 
 * [Abilitare Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [Esempio di codice di implementazione](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**Guida introduttiva per gli utenti**
+## Guida introduttiva per gli utenti
 
 * [Installazione dei plug-in di Activity Map nel browser](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Avviare Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**Funzioni di Activity Map**
+## Funzioni di Activity Map
 
 * [Tracciamento solido dei collegamenti](lnk-tracking-overview.md)
 * [Modalità standard e modalità Live](activitymap-standard-live.md)
@@ -57,3 +53,13 @@ Ecco una panoramica video di Activity Map:
 * [Interfaccia utente di Activity Map](activitymap-user-interface.md)
 * [Generazione di rapporti Activity Map in Analytics](activitymap-reporting-analytics.md)
 * [Risoluzione dei problemi relativi alle estensioni del browser](troubleshooting-browser-extensions.md)
+
+## Video
+
+Panoramica video di Activity Map:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
+
+Abilitazione, disabilitazione e personalizzazione di Activity Map:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25878/?quality=12)

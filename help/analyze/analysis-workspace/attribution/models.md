@@ -4,10 +4,10 @@ description: Modalità di divisione del credito tra i vari elementi dimensionali
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1485'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '1492'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,10 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 * **Intervallo di lookback su visitatore:** considera fino alla prima visita registrata nel mese indicato nell’intervallo di date corrente. Gli intervalli di lookback su visitatore sono ampie in quanto possono coinvolgere molte visite. Il lookback su visitatore considera tutti i valori dall’inizio del mese dell’intervallo di date del rapporto. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su visitatore considererà il periodo dal 1° al 30 settembre.
 
 * **Intervallo di lookback personalizzato:** consente di estendere la finestra di attribuzione oltre l’intervallo di date del rapporto, fino a un massimo di 90 giorni. Gli intervalli di lookback personalizzati vengono valutati per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, un intervallo di lookback di 10 giorni valuterebbe tutti i punti di contatto delle dimensioni dal 10 al 20 febbraio nel modello di attribuzione.
+
+   Ecco un video sulle finestre di lookback personalizzate:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
 
 ## Esempio
 

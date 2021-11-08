@@ -5,16 +5,20 @@ title: Utilizzo dei timestamp opzionali
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 15%
+source-wordcount: '615'
+ht-degree: 16%
 
 ---
 
 # Utilizzo dei timestamp opzionali
 
 Scopri i vantaggi e i vincoli dell’utilizzo dell’impostazione Marca temporale opzionale.
+
+Panoramica video sull’argomento:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
 
 Marca temporale opzionale è l’impostazione predefinita per tutte le nuove suite di rapporti.
 
@@ -26,15 +30,14 @@ Marca temporale opzionale è l’impostazione predefinita per tutte le nuove sui
 >
 >Marca temporale opzionale è l&#39;impostazione predefinita per tutte le nuove suite per report generate da un modello Le nuove suite di rapporti copiate da una suite di rapporti esistente erediteranno le impostazioni dall’originale.
 
-Per ulteriori informazioni sulla configurazione, consulta [Marca temporale opzionale](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) .
+Vedi [Marca temporale opzionale](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) per ulteriori informazioni sulla configurazione.
 
 ## Marca temporale opzionale: Integrazione dei dati con marca temporale e dei dati con marca non temporale {#section_BF17CB593044462B993FD0D28EA56518}
 
 Utilizzando la funzione facoltativa Marca temporale, puoi combinare dati senza marca temporale con dati con marca temporale senza la conseguente perdita di dati. I dati offline con marca temporale generata da un dispositivo mobile possono essere combinati con dati live e senza marca temporale da una pagina web, oppure integrati con dati provenienti da qualsiasi piattaforma mediante una chiamata di marca temporale lato client.
 
-* **Dati di marca temporale**. I dati di marca temporale lato client vengono acquisiti e inviati direttamente con i dati del dispositivo utilizzando le variabili di marca temporale lato client: Javascript su una pagina web o utilizzando una chiamata SDK Mobile ( [!DNL offlineEnabled=true]) in un’app mobile.
-* **Dati** non di marca temporale. Adobe imposta una marca temporale sui dati privi di marca temporale in una suite di rapporti quando i dati arrivano sui server di raccolta.
-
+* **Dati timestamp**. I dati di marca temporale lato client vengono acquisiti e inviati direttamente con i dati del dispositivo utilizzando le variabili di marca temporale lato client: Javascript su una pagina web o utilizzando una chiamata SDK Mobile ( [!DNL offlineEnabled=true]) in un’app mobile.
+* **Dati non timestamp**. Adobe imposta una marca temporale sui dati privi di marca temporale in una suite di rapporti quando i dati arrivano sui server di raccolta.
 
 Una suite di rapporti può avere una delle seguenti impostazioni di marca temporale:
 
@@ -50,7 +53,7 @@ Marca temporale opzionale consente di integrare e creare rapporti tra più suite
 |--- |--- |
 | Impossibile inviare i dati con marca temporale a una suite di rapporti globale senza marca temporale. Di conseguenza, i dati hit inviati da dispositivi offline sono stati eliminati quando si aggiungevano a una suite di rapporti senza marca temporale. <br/><br/>Di conseguenza, i dati hit inviati da dati offline sono stati eliminati quando si aggiungevano a una suite di rapporti senza marca temporale. | L’aggiornamento di un’app per raccogliere e utilizzare le marche temporali richiedeva l’utilizzo di una nuova suite di rapporti. <br/>Non è stato possibile salvare nella suite di rapporti esistente o integrare dati esistenti quando si aggiorna l’app per l’utilizzo di marche temporali. |
 
-**Con Marca temporale opzionale**, puoi integrare dati non con marca temporale da un sito web live con dati offline da dispositivi mobili oppure aggiornare l’app senza marca temporale a un’app con marca temporale.
+**Con Marca temporale opzionale**, puoi integrare dati non con marca temporale da un sito web live con dati offline da dispositivi mobili o aggiornare l’app senza marca temporale a un’app con marca temporale.
 
 ## Combinazione di dati in una suite di rapporti globale {#section_5BE3BDF56007402BB1F5C3144D5FE1E0}
 
@@ -68,7 +71,7 @@ Di seguito sono riportate le best practice e alcuni requisiti e limitazioni da t
 
    I dati fuori ordine possono includere i dati in arrivo ritardati dalla raccolta dati offline e gli hit in arrivo ritardati o gli orologi non sincronizzati su dispositivi mobili offline. I dati fuori ordine possono avere un impatto negativo sui calcoli del tempo (come i valori del tempo trascorso), sull’attribuzione (persistenza eVar), sul numero di visite/sui conteggi delle visite e sui rapporti sui percorsi.
 
-* L&#39;utilizzo di marche temporali quando si imposta un [s.visitorID](/help/implement/vars/config-vars/visitorid.md) non è consigliato. Può portare a dati fuori servizio.
+* Utilizzo delle marche temporali quando si imposta una [s.visitorID](/help/implement/vars/config-vars/visitorid.md) non è consigliato. Può portare a dati fuori servizio.
 
 * Le app ibride composte da un’app (con marca temporale e dati offline) che apre un browser web (dati live e senza marca temporale) non devono utilizzare marche temporali. Ne consegue una segnalazione inesatta della sessione.
 
