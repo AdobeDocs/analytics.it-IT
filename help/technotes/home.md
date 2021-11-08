@@ -2,16 +2,20 @@
 title: Note tecniche di Analytics
 description: Questa guida fornisce informazioni utili su argomenti che non appartengono a uno strumento o componente di analisi specifico.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 100%
+source-wordcount: '104'
+ht-degree: 92%
 
 ---
 
 # Note tecniche di Analytics
 
 Questa guida fornisce informazioni utili su argomenti che non appartengono a uno strumento o componente di analisi specifico.
+
+Ecco una panoramica video di Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## Articoli principali sulle note tecniche
 

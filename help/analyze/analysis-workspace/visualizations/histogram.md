@@ -2,19 +2,23 @@
 description: L’istogramma è un nuovo tipo di visualizzazione disponibile in Analysis Workspace.
 title: Istogramma
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
-feature: Visualizzazioni
+feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 97%
 
 ---
 
 # Istogramma
 
 Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in intervalli. Analytics automatizza la creazione di intervalli di numeri, ma puoi comunque cambiare le impostazioni in [Impostazioni avanzate](#section_09D774C584864D4CA6B5672DC2927477).
+
+Ecco un video sull’utilizzo degli istogrammi:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23725/?quality=12)
 
 ## Creare un istogramma {#section_74647707CC984A1CB6D3097F43A30B45}
 

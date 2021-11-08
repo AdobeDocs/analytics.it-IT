@@ -2,10 +2,10 @@
 title: Guida dell’amministratore di Analytics
 description: Guida per gli amministratori di Adobe Analytics, compresa la gestione di utenti e prodotti nell'Admin Console, l'impostazione di suite di rapporti, variabili, classificazioni e raccolta dati.
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '319'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 97%
 
 ---
 
@@ -14,6 +14,10 @@ ht-degree: 100%
 ![Banner](/assets/doc_banner_admin.png)
 
 Questa guida è destinata agli amministratori di Adobe Analytics. Include informazioni sulla gestione di utenti e prodotti nell&#39;Admin Console, sulla configurazione di suite di rapporti, variabili, classificazioni e raccolta dati.
+
+Ecco una panoramica video di Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 Adobe Analytics dispone attualmente di due aree per gli amministratori:
 
