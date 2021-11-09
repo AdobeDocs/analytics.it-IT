@@ -1,20 +1,24 @@
 ---
 description: La funzione di analisi dell’abbandono in Analysis Workspace permette di usare dimensioni e metriche diverse come punti di contatto nei funnel e flussi di lavoro e offre maggiore flessibilità nella definizione dei passaggi utente da analizzare.
-title: Abbandono interdimensionale
+title: Abbandono multidimensionale
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-feature: Visualizzazioni
+feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 93%
 
 ---
 
-# Abbandono interdimensionale
+# Abbandono multidimensionale
 
 La funzione di analisi dell’abbandono in Analysis Workspace permette di usare dimensioni e metriche diverse come punti di contatto nei funnel e flussi di lavoro e offre maggiore flessibilità nella definizione dei passaggi utente da analizzare.
+
+Ecco un video sull&#39;argomento:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
 
 **Esempio**: oltre ad una dimensione Pagina, puoi aggiungere dimensioni basate su azioni a una visualizzazione Abbandono. In questo modo puoi vedere l’interrelazione tra pagine e determinate azioni nei percorsi dei clienti.
 

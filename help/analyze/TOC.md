@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 99%
@@ -60,7 +60,7 @@ ht-degree: 99%
       + Abbandono {#fallout}
          + [Panoramica dell’abbandono](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurare una visualizzazione dell’abbandono](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [Abbandono interdimensionale](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [Abbandono multidimensionale](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Applicare i segmenti nell’analisi dell’abbandono](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flusso {#flow}
          + [Panoramica del flusso](analysis-workspace/visualizations/c-flow/flow.md)
@@ -313,7 +313,7 @@ ht-degree: 99%
    + [Panoramica delle dashboard di Adobe Analytics](mobile-app/home.md)
    + [Introduzione al curatore](mobile-app/curator.md)
    + [Creare una scorecard per dispositivi mobili](mobile-app/create-scorecard.md)
-   + [Configurare i dirigenti per l’utilizzo delle dashboard](mobile-app/set-up-execs.md)
+   + [Preparare gli utenti manageriali a utilizzare le scorecard](mobile-app/set-up-execs.md)
    + [Guida introduttiva per utenti esecutivi](mobile-app/executive.md)
 + [API di reportistica](reporting-api.md)
 + [Labs](labs.md)

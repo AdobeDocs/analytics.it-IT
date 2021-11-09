@@ -1,13 +1,13 @@
 ---
 title: Suite di rapporti multiple
 description: Scopri come e perché creare progetti in Workspace con più suite di rapporti
-feature: Concetti di base di Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '513'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,10 @@ Questa funzionalità è utile, ad esempio, per:
 * Confrontare i dati provenienti da due aree geografiche diverse: i dati risiedono in due suite di rapporti diverse. Puoi creare tabelle e visualizzazioni per eseguire confronti affiancati dei dati.
 
 * Creare un dashboard di metriche e visualizzazioni da segnalare ad altre organizzazioni. Ora puoi estrarre dati da varie suite di rapporti nello stesso progetto.
+
+Ecco un video sull&#39;argomento:
+
+>[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
 ## Applica suite di rapporti a tutti i pannelli
 
@@ -35,7 +39,7 @@ Con questa funzione viene introdotto il concetto di “pannello attivo” e “p
 >Puoi trascinare e rilasciare contenuti in qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. Trascinare un contenuto in un pannello inattivo della stessa suite di rapporti rende il pannello attivo.
 
 | Attività | Pannello attivo | Pannello inattivo |
-|---|---|---|
+| --- | --- | --- |
 | Modificare la suite di rapporti | Sì | No |
 | Trascinare i componenti | Sì | Sì, per qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. |
 | Trascinare le visualizzazioni | Sì | Sì, per qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. |

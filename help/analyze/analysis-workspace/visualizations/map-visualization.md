@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '633'
-ht-degree: 100%
+source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,10 @@ La visualizzazione mappa in Analysis Workspace:
 * supporta l’esportazione PDF;
 * sfrutta la visualizzazione grafica WebGL; se il driver della scheda grafica non supporta il rendering WebGL, può essere necessario aggiornare i driver.
 
+Panoramica video:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
+
 ## Creare una visualizzazione mappa {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. Dall’elenco delle visualizzazioni, trascina **[!UICONTROL Map]** (Mappa) in un pannello a forma libera:
@@ -33,18 +37,10 @@ La visualizzazione mappa in Analysis Workspace:
 1. Trascina in essa una metrica dall’elenco delle metriche (comprese le metriche calcolate).
 1. Specifica l’origine dati desiderata. Questa finestra di dialogo compare solo se è stato abilitato il tracciamento della posizione per i dati dall’app per dispositivi mobili.
 
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Lat./Long. mobile</b> </p> </td> 
-   <td colname="col2"> <p>Questa opzione rappresenta i dati provenienti dall’app mobile. </p> <p>Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Suite di rapporti </span> &gt; <span class="uicontrol"> &lt;seleziona una suite di rapporti&gt; </span> &gt; <span class="uicontrol"> Modifica impostazioni </span> &gt; <span class="uicontrol"> Gestione mobile </span> &gt; <span class="uicontrol"> Abilita tracciamento posizione</span></span>. </p> <p>Impostazione predefinita (se è abilitato il tracciamento della posizione). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Dimensione geografica</b> </p> </td> 
-   <td colname="col2"> <p>Questa opzione rappresenta i dati per segmentazione geografica sulla posizione del visitatore, in base al suo indirizzo IP. I dati vengono trasformati in Paese, stato/provincia e città. Tieni presente che non arriva invece al livello del codice postale. </p> <p>Questa dimensione è abilitata per quasi tutte le suite di rapporti. Se non lo è, contatta l’Assistenza clienti Adobe e richiedi che vengano abilitati i rapporti geografici. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Impostazione | Descrizione |
+| --- | --- |
+| [!UICONTROL Mobile Lat/Long] | Questa opzione rappresenta i dati provenienti dall’app mobile. Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (seleziona suite di rapporti) > [!UICONTROL Edit Settings] >  [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking]. Impostazione predefinita (se è abilitato il tracciamento della posizione). |
+| [!UICONTROL Geographic Dimension] | Questa opzione rappresenta i dati per segmentazione geografica sulla posizione del visitatore, in base al suo indirizzo IP. Questi dati vengono trasformati in [!UICONTROL Country], [!UICONTROL Region]e [!UICONTROL City]. Tieni presente che non arriva invece al livello del codice postale. Questa dimensione è abilitata per quasi tutte le suite di rapporti. Se non lo è, contatta l’Assistenza clienti Adobe e richiedi che vengano abilitati i rapporti geografici. |
 
 1. Fai clic su **[!UICONTROL Build]** (Crea).
 
