@@ -4,11 +4,10 @@ title: Rapporti in tempo reale
 topic-fix: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 16%
+source-wordcount: '566'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +17,11 @@ Visualizza il traffico della pagina web e classifica le visualizzazioni di pagin
 
 >[!NOTE]
 >
->Il rapporto in tempo reale non richiede alcuna implementazione o assegnazione di tag aggiuntivi. Utilizza l’implementazione esistente di Adobe Analytics. Per configurare rapporti in tempo reale, consulta [Configurazione rapporti in tempo reale](/help/admin/admin/realtime/t-realtime-admin.md).
+>Il rapporto in tempo reale non richiede alcuna implementazione o assegnazione di tag aggiuntivi. Utilizza l’implementazione esistente di Adobe Analytics. Per configurare rapporti in tempo reale, vedi [Configurazione rapporti in tempo reale](/help/admin/admin/realtime/t-realtime-admin.md).
+
+Panoramica video:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
 
 **[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
 
@@ -44,7 +47,7 @@ In qualità di amministratore, puoi
 
 * Confronta, ad esempio, i valori della settimana scorsa ai valori dello scorso anno (così come al totale di oggi).
 
-Le eVar (metriche di conversione) non sono supportate, in quanto non esiste alcun concetto di persistenza. Puoi selezionare le metriche di conversione, ma queste funzionano solo se sono impostate sulla stessa pagina delle dimensioni. Per ulteriori informazioni, vedere il messaggio di avviso acquisito in [Impostazione di rapporti in tempo reale](/help/admin/admin/realtime/t-realtime-admin.md).
+Le eVar (metriche di conversione) non sono supportate, in quanto non esiste alcun concetto di persistenza. Puoi selezionare le metriche di conversione, ma queste funzionano solo se sono impostate sulla stessa pagina delle dimensioni. Per ulteriori informazioni, vedere il messaggio di avviso acquisito in [Impostazione dei rapporti in tempo reale](/help/admin/admin/realtime/t-realtime-admin.md).
 
 L&#39;impostazione e la visualizzazione dei rapporti in tempo reale è limitata agli amministratori o a qualsiasi utente nei gruppi di autorizzazioni &quot;Accesso a tutti i rapporti&quot; e &quot;Generazione avanzata di rapporti&quot; . Tuttavia, Real-Time rispetta le autorizzazioni. Se, ad esempio, non disponi dei diritti per visualizzare le entrate, non potrai visualizzare un rapporto in tempo reale che include i dati sulle entrate.
 

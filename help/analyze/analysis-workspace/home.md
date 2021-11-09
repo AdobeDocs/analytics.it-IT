@@ -4,10 +4,10 @@ description: Analysis Workspace è il principale strumento di analisi per Adobe 
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+workflow-type: tm+mt
+source-wordcount: '559'
+ht-degree: 97%
 
 ---
 
@@ -60,6 +60,12 @@ Le **visualizzazioni**, ad esempio i grafici a barre o a linee, vengono quindi a
 I **pannelli** servono per organizzare l’analisi all’interno di un progetto e possono contenere diverse tabelle e visualizzazioni. Molti dei pannelli forniti in Analysis Workspace generano una serie completa di analisi basate su alcuni input dell’utente. Nella barra a sinistra, seleziona l’icona **[!UICONTROL Panels]** superiore per visualizzare l’elenco di tutti i [panelli](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) disponibili.
 
 ![](assets/build-panels.png)
+
+### Gestione dei progetti in Analysis Workspace
+
+Ecco una panoramica video della gestione del progetto:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
 
 ## Risorse aggiuntive {#resources}
 

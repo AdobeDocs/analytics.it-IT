@@ -4,10 +4,10 @@ description: Approfondisci i dati relativi al pubblico e suddividili in gruppi c
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+source-git-commit: 447f03c240580462b92b04254ca682cef69b6ffc
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 90%
 
 ---
 
@@ -27,14 +27,13 @@ Esempi di cosa è possibile fare con l’[!UICONTROL Cohort Analysis]:
 
 L’[!UICONTROL Cohort Analysis] è disponibile per tutti i clienti Adobe Analytics con diritti di accesso ad [!UICONTROL Analysis Workspace].
 
-[Video tutorial sull’analisi per coorte](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=it) (4:36)
+Video sulle tabelle coorte in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis]
->
->non supporta le metriche non segmentabili (comprese le metriche calcolate), le metriche non intere (come Revenue) o Occurrences. Solo le metriche utilizzabili nei segmenti possono essere utilizzate in
->[!UICONTROL Cohort Analysis] e possono essere incrementate solo di 1 alla volta.
+>[!UICONTROL Cohort Analysis] non supporta le metriche non segmentabili (comprese le metriche calcolate), le metriche non intere (come Entrate, >o Occorrenze). Solo le metriche utilizzabili nei segmenti possono essere utilizzate in [!UICONTROL Cohort Analysis]e possono essere incrementati solo di >1 alla volta.
 
 ## Capacità dell’analisi per coorte
 
