@@ -2,19 +2,23 @@
 description: Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che viene quindi suddiviso in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
 title: Suddividere le dimensioni in base al tempo
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Concetti di base di Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 97%
 
 ---
 
 # Suddividere le dimensioni in base al tempo
 
 Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che viene quindi suddiviso in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
+
+Ecco un video sulle dimensioni suddivise in base al tempo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
 Le dimensioni suddivise in base al tempo sono relative al fuso orario della suite di rapporti o della suite di rapporti virtuale. Sono disponibili in Analysis Workspace e sono utili per rispondere a domande di tipo:
 
@@ -30,7 +34,7 @@ Le dimensioni suddivise in base al tempo sono relative al fuso orario della suit
 In Analysis Workspace, le dimensioni suddivise in base al tempo comprendono:
 
 | Dimensione | Valori di esempio |
-|--- |--- |
+| --- | --- |
 | Ora del giorno | 0-23 |
 | AM/PM | AM, PM |
 | Giorno della settimana | Lunedì, martedì, mercoledì, giovedì, venerdì, sabato |

@@ -2,13 +2,13 @@
 description: Fattori che incidono sulle prestazioni e possibili ottimizzazioni di Workspace
 title: Fattori prestazionali e ottimizzazione di Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Concetti di base di Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '1999'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '2011'
+ht-degree: 99%
 
 ---
 
@@ -77,3 +77,9 @@ Altri fattori non inclusi in Aiuto > Prestazioni:
 | Dimensione della suite di rapporti | Quantità di dati raccolti nella suite di rapporti. | - | Rivolgiti al team addetto all’implementazione o a un esperto Adobe per determinare se sia possibile migliorare l’implementazione al fine di migliorare l’esperienza complessiva in Adobe Analytics. |
 | Query simultanee | Numero di query che vengono inviate contemporaneamente dall’organizzazione ad Adobe. Ciascuna organizzazione ha diritto a un minimo di 5 query simultanee. | Se un rapporto richiede molto tempo, è probabile che si trovi in coda con altri rapporti. L’organizzazione sta tentando di eseguire troppe richieste simultanee per una specifica suite di rapporti. Le query possono provenire da richieste API, interfacce per la generazione dei rapporti (Analysis Workspace, Reports &amp; Analytics, Report Builder, ecc.), progetti pianificati, rapporti pianificati, avvisi pianificati e più utenti che eseguono contemporaneamente richieste di reporting. | Distribuisci le richieste e le pianificazioni per la suite di rapporti in modo più uniforme durante l’intera giornata. Inoltre, se possibile, rimanda le tue richieste a orari fuori picco. Lunedì mattina, martedì mattina e il primo di ogni mese sono solitamente momenti di picco per la generazione di rapporti. |
 | Capacità del centro dati | Capacità di generazione dei rapporti condivisa da te e altri clienti all’interno di un data center di Adobe. | È influenzata dal numero di query simultanee effettuate dalla tua organizzazione e da altre organizzazioni all’interno del centro dati. | La tua organizzazione ha diritto a una determinata capacità e, se il carico del sistema è leggero, Adobe ti allocherà una maggiore capacità, oltre il limite determinato. |
+
+## Suggerimenti per aumentare la produttività in Analysis Workspace
+
+Panoramica video sull’argomento:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)

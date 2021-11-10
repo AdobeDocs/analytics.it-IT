@@ -2,19 +2,23 @@
 description: Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni.
 title: Flussi interdimensionali
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-feature: Visualizzazioni
+feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '303'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 96%
 
 ---
 
 # Flussi interdimensionali
 
 Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni.
+
+Ecco un video sul ritorno a capo automatico e sul flusso multidimensionale in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
 Un’etichetta di dimensione all’inizio di ogni colonna Flusso facilita l’utilizzo di più dimensioni in una visualizzazione di flusso.
 

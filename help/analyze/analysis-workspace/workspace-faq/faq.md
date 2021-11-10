@@ -4,10 +4,10 @@ title: Domande frequenti e risoluzione dei problemi di Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: e9b917a60e31b63d8350d4023fa803605d86e050
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '528'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,12 @@ ht-degree: 0%
 | Posso utilizzare Analysis Workspace per il Data Warehouse? | Analysis Workspace non è consigliato per l’esportazione di dati in massa. Si tratta di un’area di lavoro di visualizzazione per la creazione di progetti di analisi con layout simile a una dashboard. |
 | Come si ottimizzano le prestazioni di Analysis Workspace? | Vedi [Ottimizzazione delle prestazioni](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 
+## Come entrano i dati nel progetto Analysis Workspace?
+
+Guarda questo video:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
 ## Risoluzione dei problemi
 
 **Quando trascino una metrica, visualizzo un messaggio indicante che i dati non sono validi.**
@@ -38,3 +44,4 @@ Se crei correttamente un report Workspace, ma non sono presenti dati, puoi contr
 * Se hai applicato un segmento nel report, i criteri del segmento potrebbero non corrispondere ad alcun dato. Prova a rimuovere il segmento o a regolare la definizione del segmento.
 * Controlla l’intervallo di date in alto a destra e accertati che sia impostato sul valore desiderato.
 * Vai al tuo sito web e utilizza il [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it) per convalidare i dati raccolti.
+

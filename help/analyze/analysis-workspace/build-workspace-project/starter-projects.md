@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1399'
 ht-degree: 98%
 
 ---
@@ -71,6 +71,10 @@ Questi modelli standard illustrano la terminologia e i passaggi comuni per lo sv
 * **Esercitazione - analisi delle ricerche interne**: l’esercitazione di Internal Search (ricerca interna) consente di comprendere cosa cercano e non trovano i visitatori sul sito web o sull’app. L’analisi di questo tipo di dati può far emergere opportunità di ottimizzazione dei contenuti.
 
 * **Tutorial - Analisi di marketing**: questo tutorial mostra come creare un’analisi di marketing per i dirigenti che individui le dimensioni e le metriche personalizzate più importanti.
+
+Ecco un video sul [!UICONTROL Training Tutorial] modello:
+
+>[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
 ### Advertising
 
