@@ -4,10 +4,10 @@ description: Il concetto di attribuire il credito di un evento di successo a pi�
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 96%
 
 ---
 
@@ -45,3 +45,9 @@ Attribution IQ include le seguenti funzionalità:
 * [Applica attribuzione a una metrica](../visualizations/freeform-table/column-row-settings/column-settings.md): utilizza un’attribuzione non predefinita su qualsiasi metrica in un progetto.
 * [Applica attribuzione a un raggruppamento](../components/dimensions/t-breakdown-fa.md): utilizza un’attribuzione non predefinita a un raggruppamento.
 * [Confronta modelli di attribuzione](../components/apply-create-metrics.md): scopri rapidamente le differenze tra i diversi modelli di attribuzione rispetto a qualsiasi metrica.
+
+## Video
+
+Ecco un video sull’utilizzo di diversi modelli di Attribution IQ con segmenti, in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)

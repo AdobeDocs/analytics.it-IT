@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 99%
+source-wordcount: '1409'
+ht-degree: 97%
 
 ---
 
@@ -89,6 +89,12 @@ I componenti (dimensioni, metriche, segmenti, intervalli di date) nella barra a 
 
 ![](assets/left-rail.png)
 
+## Menu di scelta rapida
+
+Video sull’utilizzo del menu di scelta rapida in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
 ## Area di lavoro del progetto {#canvas}
 
 Nell’area di lavoro del progetto puoi raccogliere i pannelli, le tabelle, le visualizzazioni e i componenti con cui intendi generare le analisi. Un progetto può contenere diversi pannelli, e ciascun pannello può contenere più tabelle e visualizzazioni.
@@ -101,7 +107,9 @@ A seconda del punto iniziale scelto per i progetti, l’area di lavoro presenta 
 
 ## Project Manager {#manager}
 
-I progetti di Analysis Workspace possono essere gestiti da **Analytics > Components >  Projects** (Componenti > Progetti). Lo strumento per la gestione dei progetti mostra gli elementi creati da uno specifico utente. La proprietà del progetto può essere trasferita a un nuovo utente da Admin > Analytics Users &amp; Assets > Transfer Assets (Amministrazione > Utenti e risorse di Analytics > Trasferisci risorse).
+I progetti Analysis Workspace possono essere gestiti in **[!UICONTROL Analytics]> [!UICONTROL Components] >[!UICONTROL Projects]**. Lo strumento per la gestione dei progetti mostra gli elementi creati da uno specifico utente.
+
+La proprietà del progetto può essere trasferita a un nuovo utente in [!UICONTROL Admin] > [!UICONTROL Analytics Users & Assets] > [!UICONTROL Transfer Assets].
 
 Nella finestra per la gestione dei progetti è possibile aggiungere, assegnare tag, condividere, duplicare/copiare e altro ancora. Per cercare un progetto puoi utilizzare la barra di ricerca o le opzioni filtro disponibili nella barra a sinistra. Puoi filtrare per tag, proprietari, tipo di progetto e altro ancora.
 

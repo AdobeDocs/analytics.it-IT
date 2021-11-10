@@ -5,10 +5,10 @@ title: Condividere progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 99%
+source-wordcount: '1049'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,10 @@ Puoi aggiungere i destinatari a uno dei tre ruoli di progetto. I ruoli di proget
 | Can edit | I destinatari possono **[!UICONTROL Save]** le modifiche a un progetto e fungere da co-proprietari. Questo ruolo è utile se desideri gestire un progetto con altri colleghi; ciò include la modifica e l’eliminazione degli elenchi dei destinatari per un progetto condiviso. <br>Nota: Analysis Workspace al momento non supporta la collaborazione in tempo reale, pertanto si consiglia di modificare un progetto solo un utente alla volta. Se i progetti vengono salvati contemporaneamente, viene mantenuta l’ultima versione. |
 | Can duplicate | I destinatari possono **[!UICONTROL Save as]** e accedere alla barra a sinistra. Le interazioni del progetto non sono limitate in questo ruolo. Questo ruolo è utile se desideri condividere un progetto con utenti che conoscono i dati dell’organizzazione e sanno come utilizzare Analysis Workspace, ma non desideri che il progetto venga modificato. |
 | Can view | I destinatari non possono salvare con nome e non hanno accesso alla barra a sinistra. Anche le interazioni del progetto sono limitate. Questo ruolo è utile se desideri condividere un progetto con utenti che hanno meno familiarità con la struttura dei dati della tua organizzazione e con Analysis Workspace o Adobe Analytics in genere. Tuttavia, desideri comunque che utilizzino dati e informazioni in un ambiente sicuro.<br>Scopri di più sull’[esperienza di progetto Can view](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
+
+Ecco un video sui progetti di sola visualizzazione in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
 >[!IMPORTANT]
 > I destinatari del progetto aggiunti prima del 18 giugno 2020 sono stati trasferiti in un ruolo di progetto. Gli utenti amministratore sono passati al ruolo **[!UICONTROL Can edit]** e gli utenti non amministratori sono passati al ruolo **[!UICONTROL Can duplicate]**. Questi ruoli forniscono la stessa esperienza di progetto che avevano in precedenza. Inoltre, tutti i gruppi (incluso “All”) sono stati trasferiti al ruolo **[!UICONTROL Can duplicate]**.

@@ -2,13 +2,13 @@
 description: La sincronizzazione delle visualizzazioni consente di individuare la tabella dati o l’origine dati corrispondente a una visualizzazione.
 keywords: Analysis Workspace, sincronizzazione di una visualizzazione con un’origine dati
 title: Gestione delle origini dati
-feature: Visualizzazioni
+feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '563'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 98%
 
 ---
 
@@ -28,15 +28,21 @@ La gestione di un’origine dati consente di mostrare l’origine dati o di bloc
 
    La sincronizzazione di una visualizzazione in una cella della tabella crea una nuova tabella (nascosta) e codifica tramite i colori la visualizzazione sincronizzata con quella tabella.
 
+## Impostazioni dell’origine dati
+
+Ecco un video sulle seguenti impostazioni:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23729/?quality=12)
+
 | Elemento | Descrizione |
-|--- |--- |
-| Visualizzazioni collegate | Se sono presenti visualizzazioni collegate a una tabella a forma libera o di coorti, con il punto in alto a sinistra si apre l’elenco delle visualizzazioni collegate e una casella “mostra” permette di mostrare o nascondere la tabella.  Quando si passa il mouse sulla visualizzazione collegata questa viene evidenziata; quando si fa clic, viene aperta. |
+| --- | --- |
+| Visualizzazioni collegate | Se sono presenti visualizzazioni collegate a una tabella a forma libera o di coorti, con il punto in alto a sinistra si apre l’elenco delle visualizzazioni collegate e una casella “mostra” permette di mostrare o nascondere la tabella. Quando si passa il mouse sulla visualizzazione collegata questa viene evidenziata; quando si fa clic, viene aperta. |
 | Mostra origine dati | Consente di mostrare (attivando la casella di controllo) o nascondere (disattivandola) la tabella di dati corrispondente alla visualizzazione. |
-| Blocca selezione | Selezionate questa impostazione per bloccare la visualizzazione ai dati attualmente selezionati nella tabella di dati corrispondente. Dopo aver abilitato questa impostazione, puoi scegliere tra:  <ul><li>**Posizioni selezionate:** scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sulle posizioni selezionate nella tabella di dati corrispondente. Queste posizioni continueranno ad essere visualizzate, anche nel caso in cui cambiassero gli elementi specifici che occupano tali posizioni. Ad esempio, scegli questa opzione se vuoi visualizzare sempre i migliori cinque nomi di campagne in questa visualizzazione, a prescindere dal nome delle campagne che occupano le prime cinque posizioni.</li> <li>**Elementi selezionati**: scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sugli elementi specifici selezionati nella tabella di dati corrispondente. Questi elementi continueranno a essere visualizzati, anche nel caso in cui cambiassero posizione in graduatoria rispetto agli altri elementi della tabella. Ad esempio, scegli questa opzione se vuoi visualizzare sempre gli stessi cinque nomi di campagne specifiche in questa visualizzazione, a prescindere dalla posizione in graduatoria delle campagne.</li></ul> |
+| Blocca selezione | Selezionate questa impostazione per bloccare la visualizzazione ai dati attualmente selezionati nella tabella di dati corrispondente. Dopo aver abilitato questa impostazione, puoi scegliere tra:<ul><li>**Posizioni selezionate:** scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sulle posizioni selezionate nella tabella di dati corrispondente. Queste posizioni continueranno ad essere visualizzate, anche nel caso in cui cambiassero gli elementi specifici che occupano tali posizioni. Ad esempio, scegli questa opzione se vuoi visualizzare sempre i migliori cinque nomi di campagne in questa visualizzazione, a prescindere dal nome delle campagne che occupano le prime cinque posizioni.</li><li>**Elementi selezionati**: scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sugli elementi specifici selezionati nella tabella di dati corrispondente. Questi elementi continueranno a essere visualizzati, anche nel caso in cui cambiassero posizione in graduatoria rispetto agli altri elementi della tabella. Ad esempio, scegli questa opzione se vuoi visualizzare sempre gli stessi cinque nomi di campagne specifiche in questa visualizzazione, a prescindere dalla posizione in graduatoria delle campagne.</li></ul> |
 
 A differenza dell’architettura precedente, con questa architettura Analysis Workspace non crea più un livello duplicato nascosto in cui viene memorizzata la selezione bloccata. Ora, l’origine dati fa riferimento alla tabella da cui è stata creata la visualizzazione.
 
-**Esempi di utilizzo:**
+## Esempi di casi d’uso
 
 * Puoi creare una visualizzazione di riepilogo e bloccarla su una cella nella tabella da cui l’hai creata. Quando abiliti l’opzione Mostra origine dati, viene mostrato esattamente da dove provengono i dati nella tabella. I dati origine sono visualizzati in grigio:
 

@@ -2,12 +2,12 @@
 description: 'In Analysis Workspace, il confronto delle date ti consente di prendere una qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comune, come: anno su anno, trimestre su trimestre, mese su mese, ecc.'
 title: Confronto delle date
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Concetti di base di Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '582'
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '587'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 100%
 # Confronto delle date
 
 In Analysis Workspace, il confronto delle date ti consente di prendere una qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comune, come: anno su anno, trimestre su trimestre, mese su mese, ecc.
+
+Panoramica video sull’argomento:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
 
 ## Confronto tra periodi temporali {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 

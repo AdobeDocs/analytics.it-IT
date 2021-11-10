@@ -2,19 +2,23 @@
 description: Invece di mantenere e caricare le classificazioni ogni volta che i codici di tracciamento cambiano, puoi creare classificazioni automatiche basate su regole e applicarle su più suite di rapporti. Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
 subtopic: Classifications
 title: Flusso di lavoro di Generatore regole di classificazione
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 96%
+source-wordcount: '558'
+ht-degree: 94%
 
 ---
 
 # Flusso di lavoro di Generatore regole di classificazione
 
 Invece di mantenere e caricare le classificazioni ogni volta che i codici di tracciamento cambiano, puoi creare classificazioni automatiche basate su regole e applicarle su più suite di rapporti. Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
+
+Ecco una panoramica video del Generatore di regole di classificazione:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25884/?quality=12)
 
 ## Avviso importante prima di iniziare
 
@@ -51,4 +55,4 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 
 **Blog**: per ulteriori informazioni su questa funzione, consulta l’articolo del blog di digital marketing [Classificazioni basate sulle regole](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Visualizza il video  [Classificazioni ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) generali.
+**Video**: Visualizza la [Panoramica delle classificazioni](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) video.

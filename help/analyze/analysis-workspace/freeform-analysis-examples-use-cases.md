@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Casi di utilizzo di Analysis Workspace
 feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '592'
+ht-degree: 93%
 
 ---
 
@@ -66,3 +66,15 @@ Immagina di essere un analista di marketing per un rivenditore di attrezzatura d
 Ecco un video sull&#39;argomento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
+
+## Utilizzare l’analisi incrociata per l’attribuzione di marketing di base
+
+Esistono diversi modi per dare una spinta ulteriore alla metodologia di attribuzione con Adobe Analytics. In questo video, viene evidenziato come ottenere informazioni più approfondite dal rapporto Marketing Channels (Canali di marketing) mediante le analisi incrociate in Workspace.
+
+>[!VIDEO](https://video.tv.adobe.com/v/39237/?quality=12)
+
+## Utilizzare le metriche di partecipazione in Analysis Workspace
+
+Questo video mostra come ottenere le metriche di partecipazione utilizzando le metriche calcolate:
+
+>[!VIDEO](https://video.tv.adobe.com/v/41266/?quality=12)

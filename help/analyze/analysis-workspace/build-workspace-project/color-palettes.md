@@ -1,13 +1,13 @@
 ---
 description: Come utilizzare la palette dei colori di visualizzazione in Analysis Workspace
 title: Cosa sono le palette di colori di visualizzazione e come funzionano?
-feature: Concetti di base di Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,10 @@ Nota bene:
 * La terza e la quinta palette di colori sotto le due soprastanti sono state ottimizzate per l’armonia dei colori.
 
 ## Per modificare la palette di colori:
+
+Video sull’utilizzo delle palette di colori personalizzate:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
 1. Passa a **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
 1. Dall’elenco a discesa **[!UICONTROL Project Color Palette]** puoi scegliere una delle cinque combinazioni di colore predefinite.
