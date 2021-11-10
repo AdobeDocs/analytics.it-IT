@@ -1,12 +1,12 @@
 ---
 description: I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I segmenti sono progettati come informazioni codificate sulle audience che puoi creare per soddisfare le tue esigenze specifiche e che puoi verificare, modificare e condividere con altri membri del gruppo o utilizzare in altri prodotti Adobe e funzionalità di Analytics.
 title: Informazioni su segmenti e contenitori
-feature: Segmentazione
+feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '3674'
+source-wordcount: '3681'
 ht-degree: 98%
 
 ---
@@ -68,6 +68,10 @@ Un segmento imposta le condizioni per filtrare un visitatore in base agli attrib
 L’architettura dei contenitori utilizzata nel Generatore segmenti definisce **[!UICONTROL Visitor]** come il contenitore più esterno, contenente i dati generali specifici del visitatore per visite e visualizzazioni di pagina. Un contenitore **[!UICONTROL Visit]** nidificato consente di impostare regole per suddividere i dati del visitatore in base alle visite, mentre un contenitore **[!UICONTROL Hit]** nidificato consente di suddividere le informazioni del visitatore in base alle singole visualizzazioni di pagina. Ogni contenitore consente di generare rapporti sulla cronologia di un visitatore e sulle sue interazioni suddivise per visite o di suddividere i singoli hit.
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
+
+Ecco una panoramica video dei contenitori di segmenti:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
 
 **Contenitore Visitatore**
 

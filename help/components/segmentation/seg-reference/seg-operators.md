@@ -1,13 +1,13 @@
 ---
 description: Il Generatore di segmenti consente di confrontare e vincolare i valori utilizzando gli operatori selezionati.
 title: Operatori di confronto per i segmenti
-feature: Segmentazione
+feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 94%
+source-wordcount: '1095'
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ L’unico carattere jolly supportato è l’asterisco: *. Se desideri cercare *,
 | non inizia con | Restituisce tutti gli elementi che non iniziano con i caratteri o le stringhe dei valori inseriti. Si tratta dell’inverso dell’operatore “inizia con”. |
 | termina con | Restituisce elementi che terminano con il carattere o le stringhe del valore inserito. |
 | non termina con | Restituisce tutti gli elementi che non terminano con i caratteri o le stringhe del valore inserito. Si tratta dell’inverso dell’operatore “termina con”. |
-| corrisponde | Restituisce elementi che contengono una corrispondenza esatta in base a un dato valore numerico o stringa. La clausola &quot;corrisponde&quot; fa distinzione tra maiuscole e minuscole in Adobe Analytics e in Customer Journey Analytics. **Nota**: Utilizzare questo operatore quando si utilizzano le funzioni dei caratteri jolly (globbing). Esempi di &quot;globbing&quot;:<ul><li>`a*e` corrisponderebbe a  `ae`,  `abcde`,  `adobe`, e  `a whole sentence`</li><li>`adob*` corrisponderebbe a  `adobe`,  `adobe analytics`e  `adobo recipe`</li><li>`*dobe` corrisponderebbe a  `dobe`,  `adobe`e  `cute little dobe`</li></ul> |
+| corrisponde | Restituisce elementi che contengono una corrispondenza esatta in base a un dato valore numerico o stringa. La clausola &quot;corrisponde&quot; fa distinzione tra maiuscole e minuscole in Adobe Analytics e in Customer Journey Analytics. **Nota**: Utilizzare questo operatore quando si utilizzano le funzioni dei caratteri jolly (globbing). Esempi di &quot;globbing&quot;:<ul><li>`a*e` corrisponde `ae`, `abcde`, `adobe`e `a whole sentence`</li><li>`adob*` corrisponde `adobe`, `adobe analytics`e `adobo recipe`</li><li>`*dobe` corrisponde `dobe`, `adobe`e `cute little dobe`</li></ul> |
 | non corrisponde | Restituisce tutti gli elementi che non contengono la corrispondenza esatta del valore inserito. Nota: utilizza questo operatore per le funzioni dei caratteri jolly (globbing). |
 | esiste | Restituisce il numero di elementi esistenti. Ad esempio, se valuti la dimensione Pagine non trovate utilizzando l’operatore “esiste”, viene restituito il numero di pagine di errore esistenti. |
 | non esiste | Restituisce tutti gli elementi che non esistono. Ad esempio, se valuti la dimensione Pagine non trovate utilizzando l’operatore “non esiste”, viene restituito il numero di pagine in cui non esisteva questa pagina di errore. |
@@ -63,3 +63,7 @@ Puoi creare segmenti in base a un numero specifico di elementi all’interno di 
 | è minore di | Restituisce elementi dimensionali il cui conteggio univoco è inferiore al valore inserito. |
 | è maggiore o uguale a | Restituisce elementi dimensionali il cui conteggio univoco è maggiore o uguale al valore inserito. |
 | è minore o uguale a | Restituisce elementi dimensionali il cui conteggio univoco è minore o uguale al valore inserito. |
+
+Ecco un video sulla segmentazione su conteggi di dimensioni distinti:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
