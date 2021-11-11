@@ -4,10 +4,10 @@ description: Puoi impostare le preferenze generali e di progetto per gli utenti,
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 80%
 La pagina [!UICONTROL Components] > [!UICONTROL User preferences] consente di gestire le impostazioni di Analysis Workspace e dei relativi componenti a livello di utente. Le preferenze utente si applicano a tutti i *nuovi* progetti o pannelli.
 
 ![Preferenze utente](assets/user-preferences.png)
+
+Ecco un breve video sulle preferenze degli utenti:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## Preferenze generali
 
