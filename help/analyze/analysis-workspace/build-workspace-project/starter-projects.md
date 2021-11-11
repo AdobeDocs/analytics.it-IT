@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 97%
+source-wordcount: '1395'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Puoi scegliere di creare un progetto da:
 
 ![](assets/start_modal.png)
 
-## Creare un modello personalizzato {#create-custom-template}
+## Creare modelli personalizzati {#create-custom-template}
 
 Gli utenti con diritti di amministratore possono trasformare qualunque progetto che creano in un modello personalizzato effettuando le seguenti operazioni:
 
@@ -41,9 +41,7 @@ Video sulla creazione e gestione di modelli personalizzati:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### Azioni eseguibili sui modelli personalizzati
-
-![](assets/custom_templates.png)
+### Gestire modelli personalizzati {#manage-custom-template}
 
 | Azione | Descrizione |
 |--- |--- |
@@ -66,11 +64,7 @@ Di seguito sono riportati i modelli disponibili e le domande che ogni modello pu
 
 ### Formazione
 
-Questi modelli standard illustrano la terminologia e i passaggi comuni per lo svolgimento della prima analisi in Workspace. Sono disponibili come modello standard nel modale Nuovo progetto e sostituiscono il progetto di esempio attuale per i nuovi utenti che non hanno altri progetti nel loro elenco.
-
-* **Esercitazione - analisi delle ricerche interne**: l’esercitazione di Internal Search (ricerca interna) consente di comprendere cosa cercano e non trovano i visitatori sul sito web o sull’app. L’analisi di questo tipo di dati può far emergere opportunità di ottimizzazione dei contenuti.
-
-* **Tutorial - Analisi di marketing**: questo tutorial mostra come creare un’analisi di marketing per i dirigenti che individui le dimensioni e le metriche personalizzate più importanti.
+Questo modello standard illustra la terminologia e i passaggi comuni per la creazione della prima analisi in Workspace. È disponibile come modello standard nel modale Nuovo progetto e sostituisce il progetto di esempio attuale per i nuovi utenti che non hanno altri progetti nel loro elenco.
 
 Ecco un video sul [!UICONTROL Training Tutorial] modello:
 
@@ -80,38 +74,40 @@ Ecco un video sul [!UICONTROL Training Tutorial] modello:
 
 >[!IMPORTANT]
 >
->I modelli Advertising sono disponibili solo se la suite di rapporti è abilitata per Advertising Cloud.
+>I modelli pubblicitari sono disponibili solo se la suite di rapporti è abilitata per [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
 
 * **Motori di ricerca a pagamento**: questo modello suddivide le tendenze pubblicitarie, le piattaforme di annunci, le parole chiave, gli account, le campagne e molto altro.
 
 ### Commerce
 
-* **Magento: Marketing e Commerce**: questo modello suddivide la conversione e-commerce in base all’attribuzione del canale di marketing, oltre a fornire informazioni dettagliate in base a parole chiave di ricerca, pagina di destinazione, posizione geografica e altro ancora. Per visualizzare un video introduttivo, vedi:
+* **Magento: Marketing e Commerce**: questo modello suddivide la conversione e-commerce in base all’attribuzione del canale di marketing, oltre a fornire informazioni dettagliate in base a parole chiave di ricerca, pagina di destinazione, posizione geografica e altro ancora. Di seguito è riportato un tutorial video sulla [Magento: Modello di marketing e commercio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=it).
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=it)
+### Raccolta dati
+
+* **Impatto ITP**: Scopri in che modo Apple ITP influisce sui tuoi dati e come regolare di conseguenza il reporting.
 
 ### Media
 
-* **Consumo audio**: quali contenuti vengono maggiormente consumati e coinvolgono maggiormente gli utenti? Ecco un video sul modello Consumo audio :
+* **Consumo di contenuti**: Chi sono i miei lettori più fedeli?
+* **Recency - Frequenza - Fedeltà**: Quali contenuti vengono maggiormente consumati e coinvolgono maggiormente gli utenti?
+* **Consumo di contenuti multimediali in streaming**: Fornisce tendenze e metriche principali del consumo di contenuti multimediali su tutti i dispositivi digitali. Ecco un video sul modello di consumo di contenuti multimediali in streaming:
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
-
-* **Recency - Frequenza - Fedeltà**: Chi sono i miei lettori più fedeli?
 
 ### Mobile
 
 >[!IMPORTANT]
 >
->I modelli per dispositivi mobili sono disponibili solo se la suite per rapporti è abilitata per i dispositivi mobili.
+>I modelli per dispositivi mobili sono disponibili solo se la suite per rapporti è abilitata per l’analisi delle app per dispositivi mobili.
 
-* **Messaggistica:** si focalizza sulle prestazioni di messaggi in-app e push.
-* **Posizione:** include una mappa che mostra i dati della posizione.
-* **Metriche chiave:** controlla le metriche chiave della tua app.
-* **Utilizzo app:** quanti utenti, avvii e primi avvii sono stati registrati per l’app, e quanto dura in media una sessione?
 * **Acquisizione:** scopri le prestazioni dei collegamenti per acquisizione mobile.
+* **Utilizzo app:** quanti utenti, avvii e primi avvii sono stati registrati per l’app, e quanto dura in media una sessione?
+* **Percorsi:** Quali sono i pattern di utilizzo principali per la l’app?
+* **Metriche chiave:** controlla le metriche chiave della tua app.
+* **Posizione:** include una mappa che mostra i dati della posizione.
+* **Messaggistica:** si focalizza sulle prestazioni di messaggi in-app e push.
 * **Prestazioni:** quali sono le prestazioni dell’app e dove vengono riscontrati problemi dagli utenti?
 * **Fidelizzazione:** chi sono i miei utenti più fedeli e cosa fanno?
-* **Percorsi:** Quali sono i pattern di utilizzo principali per la l’app?
 
 ### Vendita al dettaglio
 
@@ -121,6 +117,7 @@ Ecco un video sul [!UICONTROL Training Tutorial] modello:
 ### Web
 
 * **Acquisizione:** quali fattori generano maggior traffico verso il sito Web?
+* **Panoramica sulle prestazioni del sito AEM:** Come si comporta il mio sito Adobe Experience Manager?
 * **Consumo di contenuti:** quali sono le aree del sito più visitate?
 * **Fidelizzazione:** che tipi di utenti hanno più probabilità di diventare utenti fedeli del sito?
 * **Tecnologia:** quali tecnologie vengono usate per accedere al sito?
@@ -130,10 +127,6 @@ Ecco un video sul [!UICONTROL Training Tutorial] modello:
 >[!NOTE]
 >
 >Il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=it).
-
-Panoramica video del modello Persone:
-
->[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 Questo modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori univoci. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. Il modello consente di:
 
@@ -145,7 +138,7 @@ Questo modello è basato sulla metrica Persone, che è una versione deduplicata 
 * Scoprire come raggruppare i segmenti con la metrica Persone.
 * Capire in che modo l’uso di Experience Cloud ID nel tuo ambiente riesca a ottimizzare l’efficacia della metrica Persone.
 
-### Modello di Journey IQ: Cross-Device Analytics
+### IQ percorso: Modello di Analytics tra dispositivi
 
 <!--This content is mirrored in the CDA doc.-->
 
