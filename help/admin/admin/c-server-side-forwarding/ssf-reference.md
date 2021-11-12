@@ -3,9 +3,9 @@ description: Elenco completo e descrizioni delle variabili di configurazione, in
 title: Dati inoltri lato server e riferimento al codice
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 47026c5256039cf3fd9ff5d9a301778160ada9b6
+source-git-commit: 4f29245a80e54f3fbc5a830075d066b31d23c628
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 14%
 
 ---
@@ -36,7 +36,8 @@ Queste intestazioni sono campi che contengono informazioni come richieste di dat
 | Accept-Language | Imposta su  `Accept-Language`  intestazione trasmessa ad Analytics. | `h_accept-language` |
 | Referer | Impostato sull&#39;URL della pagina passato ad Analytics o raccolto dal `Referer` intestazione trasmessa ad Analytics. | `h_referer` |
 | Referrer | Impostato sull&#39;URL della pagina passato ad Analytics o raccolto dal `Referrer` intestazione trasmessa ad Analytics. | `h_referrer` |
-| IP | Segnale generato dall’IP dell’host che invia la richiesta al DCS. | `h_ip` |
+
+Inoltre, un `h_ip` il segnale viene generato dall’IP dell’host che invia la richiesta al DCS.
 
 ## Segnali definiti dal cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
