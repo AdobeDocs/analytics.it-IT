@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Media Playback Time Spen
 feature: Panels
 role: User, Admin
 exl-id: null
-source-git-commit: 74ef44c4afba6d2dffb2b10fa473baee3be16a23
-workflow-type: ht
-source-wordcount: '981'
+source-git-commit: 6347601c5c1b8e84f37db308717799dea43bd26d
+workflow-type: tm+mt
+source-wordcount: '989'
 ht-degree: 100%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 100%
 # Pannello Tempo di riproduzione dei contenuti multimediali
 
 I clienti di Media Analytics possono analizzare il tempo di riproduzione per capire dove si è verificato un picco di concorrenza o un calo, per fornire informazioni approfondite sulla qualità dei contenuti e sul coinvolgimento dei visualizzatori, utili per risolvere eventuali problemi o pianificare un adeguamento per volume o scala.
+
+Ecco una panoramica video del pannello :
+
+>[!VIDEO](https://video.tv.adobe.com/v/338699/?quality=12&learn=on)
 
 In Analysis Workspace, Playback Time Spent (Tempo di riproduzione trascorso) corrisponde alla quantità di tempo impiegato per visualizzare i flussi multimediali in un momento specifico e include pausa, buffer e tempo di avvio.
 
