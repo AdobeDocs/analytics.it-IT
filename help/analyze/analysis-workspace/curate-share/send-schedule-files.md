@@ -2,19 +2,19 @@
 description: Puoi curare, condividere e pianificare progetti PDF/CSV per i destinatari all’interno dell’organizzazione.
 title: Menu Share
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-feature: Curare e condividere
+feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 88%
 
 ---
 
 # Menu Share
 
-Puoi curare, condividere e pianificare progetti PDF/CSV per i destinatari della tua organizzazione nel **menu Share** di Workspace.
+Puoi curare, condividere e pianificare progetti PDF/CSV per i destinatari della tua organizzazione all’interno di Workspace **Menu Condividi**.
 
 | Opzione menu | Descrizione |
 |---|---|

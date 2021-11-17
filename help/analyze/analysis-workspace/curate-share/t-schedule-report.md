@@ -2,13 +2,13 @@
 description: Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
 keywords: Analysis Workspace
 title: Programmare progetti
-feature: Curare e condividere
+feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 77%
 
 ---
 
@@ -49,7 +49,22 @@ I progetti programmati di Analysis Workspace possono essere gestiti in **Analyti
 
 In Gestione progetti programmati, puoi modificare ed eliminare pianificazioni ricorrenti di progetti. Cerca una pianificazione nella barra di ricerca o utilizzando le opzioni filtro nella barra a sinistra. Puoi filtrare per tag, pianificazioni approvate, proprietari e altro ancora.
 
-![](assets/scheduled-project-manager.png)
+![](assets/scheduled-project-manager2.png)
+
+| Campo | Descrizione |
+| --- | --- |
+| Preferiti | Selezionando l’icona a forma di stella, questa pianificazione diventa un’opzione preferita. |
+| ID pianificazione | Questo ID viene utilizzato principalmente a scopo di debug. |
+| Titolo e descrizione | Titolo e descrizione del progetto. |
+| Proprietario | Utente che ha creato e proprietario del progetto. |
+| Tag | (Facoltativo) L’assegnazione tag è un buon modo per organizzare i progetti. Tutti gli utenti possono creare tag e applicarne uno o più a un progetto. Tuttavia, puoi visualizzare solo i tag per i progetti di tua proprietà o che sono stati condivisi con te. |
+| Consegnato a | Destinatari del progetto pianificato. |
+| Expiration Date (Data di scadenza) | La data di scadenza predefinita è di un anno dalla data di creazione. |
+| Frequenza | Con quale frequenza desideri che questo progetto di pianificazione venga inviato ai destinatari. |
+| Tempo di esecuzione | A che ora viene inviato il progetto pianificato. |
+| Numero di query | Numero di query relative al progetto. |
+
+## Azioni comuni
 
 Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 
