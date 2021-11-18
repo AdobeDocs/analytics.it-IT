@@ -2,9 +2,9 @@
 title: Raccolta di dati regionali
 description: Informazioni sulla raccolta di dati regionali
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e020e768b7a3a5495fcc86cb3fd1fbc5a421d224
+source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---
@@ -25,9 +25,11 @@ RDC attualmente include le seguenti posizioni (soggette a modifica):
 |---------------------|-------------------|
 | impostazione predefinita | Oregon, Virginia, Irlanda, Parigi, Mumbai, Singapore, Tokyo, Sydney, Cina* |
 
-Nota: Se la richiesta di immagine di Analytics viene inviata al `adobedc`, `2o7.net` o `omtrdc.net` endpoint, quindi la raccolta dati di terze parti. Puoi determinarlo se vedi uno degli endpoint nell&#39;URL delle richieste.
-
 *China RDC richiede il pacchetto aggiuntivo Cina. Vedi la nota &quot;Importante&quot; sopra.
+
+>[!NOTE]
+>
+>Se la richiesta di immagine di Analytics viene inviata al `adobedc`, `2o7.net` o `omtrdc.net` endpoint, quindi la raccolta dati di terze parti. Puoi determinarlo se vedi uno degli endpoint nell&#39;URL delle richieste.
 
 ## Raccolta dati HTTPS di prime parti
 
@@ -43,7 +45,8 @@ Nota: Se la richiesta di immagine di Analytics viene inviata al `adobedc`, `2o7.
 *Solo Cina e i tipi RDC globali + Cina richiedono il pacchetto aggiuntivo Cina. Vedi la nota &quot;Importante&quot; sopra. Global + China indirizza i dati provenienti dalla Cina alla nostra RDC Cina durante il routing dei dati provenienti da fuori dalla Cina alla RDC più vicina al di fuori della Cina.
 
 >[!NOTE]
->Experience Edge Global e Global + China offrono le migliori prestazioni per gli utenti finali. Se desideri utilizzare un tipo RDC alternativo, contatta l’Assistenza clienti Adobe .
+>
+>Experience Edge Global offre le migliori prestazioni per gli utenti finali.  Se desideri utilizzare un tipo RDC alternativo, contatta l’Assistenza clienti Adobe .
 
 ## Vantaggi dell&#39;RDC
 
