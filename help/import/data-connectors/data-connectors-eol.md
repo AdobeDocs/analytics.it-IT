@@ -2,7 +2,7 @@
 description: Scopri quando e perché i connettori dati di Analytics termineranno.
 title: Annuncio preliminare alla fine del ciclo di vita per i connettori dati di Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 4%
@@ -11,9 +11,9 @@ ht-degree: 4%
 
 # Terminazione di Adobe Data Connectors
 
-Per più di un decennio, Adobe Analytics intende fornire la soluzione web e di analisi di marketing all’avanguardia per soddisfare le esigenze dei clienti. Con l&#39;evolversi delle esigenze tecnologiche e aziendali, ci sforziamo di offrire e soddisfare costantemente gli standard più elevati.  Sfortunatamente, le API che alimentano questa integrazione non soddisfano più questi standard e non sono sostenibili nella moderna infrastruttura tecnologica Adobe Analytics.
-
 **Attive dal 19 agosto 2021**, Adobe ha interrotto le integrazioni dei Data Connectors. La fine del ciclo di vita fa parte del ciclo di vita di qualsiasi prodotto tecnologico e l&#39;Adobe mira a rendere la transizione il più semplice possibile per i nostri clienti e partner. Molte di queste integrazioni sono disponibili tramite Adobe Exchange e possono continuare a essere utilizzate.
+
+Per più di un decennio, Adobe Analytics intende fornire la soluzione web e di analisi di marketing all’avanguardia per soddisfare le esigenze dei clienti. Con l&#39;evolversi delle esigenze tecnologiche e aziendali, ci sforziamo di offrire e soddisfare costantemente gli standard più elevati.  Sfortunatamente, le API che alimentano questa integrazione non soddisfano più questi standard e non sono sostenibili nella moderna infrastruttura tecnologica Adobe Analytics.
 
 ## Perché terminiamo questa funzione?
 
@@ -62,7 +62,7 @@ Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 | Demandbase CA | Obsolescenza |
 | Demandbase v3 | Obsolescenza |
 | DialogTech | Migrazione alle API più recenti |
-| [Doppio clic per inserzionisti (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Obsolescenza |
+| [Doppio clic per inserzionisti (DFA)] | Obsolescenza |
 | SOGNO | Obsolescenza |
 | DREAMmail 1.0, DREAMmail 2.0 | Obsolescenza |
 | Segnale dinamico (Vora digitale) | Migrazione alle API più recenti |
