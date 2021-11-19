@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1011'
 ht-degree: 99%
 
 ---
@@ -87,7 +87,10 @@ ht-degree: 99%
       + [Pannello vuoto](analysis-workspace/c-panels/blank-panel.md)
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Pannello Tempo di riproduzione dei contenuti multimediali](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + Tempo di riproduzione dei contenuti multimediali trascorso {#media-playback-timespent}
+         + [Panoramica](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [Impostazioni di ingresso e uscita](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+         + [Domande frequenti](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [Pannello Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Pannello Segment comparison {#segment-comparison}
          + [Panoramica sul confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
