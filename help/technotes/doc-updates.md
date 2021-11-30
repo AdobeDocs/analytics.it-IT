@@ -3,9 +3,9 @@ title: Aggiornamenti alla documentazione tecnica per Adobe Analytics
 description: Aggiornamenti importanti della documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7a8a4d6c7a7addc1e5432d0f8d092caa64feb1eb
+source-git-commit: 579279798d67536fde182386ec0cf8db36785cc2
 workflow-type: tm+mt
-source-wordcount: '2899'
+source-wordcount: '2900'
 ht-degree: 97%
 
 ---
@@ -24,7 +24,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | --- | --- |
 | **Ottobre 2021** |  |
 | 21 ottobre 2021 | Nuova documentazione su [Segmenti rapidi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) in Analysis Workspace |
-| 21 ottobre 2021 | Nuova documentazione sul [Tempo di riproduzione dei contenuti multimediali trascorso](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html) in Analysis Workspace. |
+| 21 ottobre 2021 | Nuova documentazione sul [Tempo di riproduzione dei contenuti multimediali trascorso](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html) in Analysis Workspace. |
 | 7 ottobre 2021 | Nuova documentazione su [visualizzazioni per scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#applicare-visualizzazioni) |
 | **Agosto 2021** |  |
 | 18 agosto 2021 | Struttura di primo livello rivista e consolidata in un unico [Pagina di destinazione](https://experienceleague.adobe.com/docs/analytics.html?lang=it) |
