@@ -1,17 +1,17 @@
 ---
-title: Autorizzazioni del profilo di prodotto per gli strumenti Report Suite
+title: Autorizzazioni del profilo di prodotto per gli strumenti delle suite di rapporti in Adobe Admin Console
 description: Comprendere ogni elemento di autorizzazione in Strumenti delle suite di rapporti.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '631'
 ht-degree: 7%
 
 ---
 
 # Autorizzazioni del profilo di prodotto per gli strumenti Report Suite
 
-Utilizzare questa pagina per comprendere ogni elemento di autorizzazione in Strumenti suite di rapporti.
+Utilizzare questa pagina per comprendere ogni voce di autorizzazione in Strumenti delle suite di rapporti in Adobe Admin Console.
 
 | Voce di autorizzazione degli strumenti delle suite di rapporti | Descrizione |
 |------|------|
@@ -45,8 +45,8 @@ Utilizzare questa pagina per comprendere ogni elemento di autorizzazione in Stru
 | Origini dati Manager | Consente di accedere ad Amministratore > Tutti gli amministratori > Origini dati nella navigazione superiore di Analytics. Richiede l’autorizzazione &quot;Gestione suite di rapporti&quot;. |
 | Escludi per indirizzo IP | Consente di accedere ad Amministratore > Escludi per IP nella navigazione superiore di Analytics. |
 | Visite di ritorno | Consente di accedere a Visitor Retention (Conservazione dei visitatori) > Return Visits (Visite di ritorno) in Reports &amp; Analytics. |
-| Classificazioni | Consente di accedere a tutte le impostazioni di classificazione in Report Suite Manager. Questa voce di autorizzazione include: <br>Traffico > Classificazioni di traffico<br>Conversione > Classificazioni di conversione<br>Conversione > Gerarchie di classificazione<br>Canali di marketing > Classificazioni di canale di marketing<br>Gestione app > Classificazioni app<br>Gestione media > Classificazioni multimediali<br>AEM > Classificazioni AEM Assets<br>Adobe Campaign > Classificazioni Adobi |
-| I miei report consigliati | Consente di accedere a Metriche del sito > I miei report consigliati in Reports &amp; Analytics. |
+| Classificazioni | Consente di accedere a tutte le impostazioni di classificazione in Report Suite Manager. Questa voce di autorizzazione include: <br>Traffico > Classificazioni traffico<br>Conversione > Classificazioni di conversione<br>Conversione > Gerarchie di classificazione<br>Canali di marketing > Classificazioni canale di marketing<br>Gestione app > Classificazioni app<br>Media Management > Classificazioni multimediali<br>AEM > Classificazioni AEM Assets<br>Adobe Campaign > Classificazioni Adobi |
+| I miei rapporti consigliati | Consente di accedere a Metriche del sito > I miei report consigliati in Reports &amp; Analytics. |
 | Report immagini dashboard di Reports &amp; Analytics | Consente l&#39;accesso ai reportlet del dashboard. |
 | Report misuratore metriche dashboard di Reports &amp; Analytics | Consente l&#39;accesso ai reportlet del dashboard. |
 | Report di riepilogo suite per report per dashboard di Reports &amp; Analytics | Consente l&#39;accesso ai reportlet del dashboard. |

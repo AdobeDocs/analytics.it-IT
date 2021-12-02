@@ -1,24 +1,20 @@
 ---
-description: Gestisci la licenza assegnata agli utenti del generatore di report.
+description: Gestisci la licenza assegnata agli utenti del Report Builder.
 title: Report del Report Builder
-feature: Strumenti di amministrazione
+feature: Admin Tools
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
 exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 8%
+source-wordcount: '79'
+ht-degree: 7%
 
 ---
 
 # Report del Report Builder
 
-Gestisci la licenza assegnata agli utenti del generatore di report.
+Gestisci la licenza assegnata agli utenti del Report Builder.
 
-A ogni licenza del generatore di report assegnata a un utente vengono assegnate automaticamente dieci attività pianificate. È possibile regolare e riallocare questo numero di attività. Le attività pianificate non possono superare il numero di attività disponibili per ogni utente. Le attività non programmate non vengono eseguite.
+A ogni licenza di Report Builder assegnata a un utente vengono automaticamente assegnate dieci attività pianificate. È possibile regolare e riallocare questo numero di attività. Le attività pianificate non possono superare il numero di attività disponibili per ogni utente. Le attività non programmate non vengono eseguite.
 
-Puoi concedere l’accesso a qualsiasi utente di Report Builder aggiungendo tali utenti al gruppo di accesso di Report Builder ( **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > **[!UICONTROL Groups]**).[!DNL Analytics]
-
-La tabella delle informazioni [!UICONTROL Scheduled Task Usage] visualizza tutti gli utenti con privilegi di accesso di Report Builder.
-
-Vedere [Gruppi](/help/admin/user-management2/c-user-groups/groups.md).
+Puoi concedere l&#39;accesso Report Builder a qualsiasi [!DNL Analytics] gestendo i profili di prodotto in [Adobe Admin Console](/help/admin/admin-console/home.md).

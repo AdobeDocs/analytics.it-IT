@@ -5,10 +5,10 @@ title: Gestione di utenti e prodotti
 feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: f184cc7a98f0b15e2b96d5132e2a35b12d0f3556
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 10%
+source-wordcount: '277'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ Gestisci utenti, gruppi e prodotti Analytics nell’Admin Console.
 
 >[!IMPORTANT]
 >
->La gestione di utenti e prodotti è stata spostata in [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti avviserà quando è il tuo momento di eseguire la migrazione degli utenti. Dopo la migrazione di tutti i clienti, consulta i contenuti della guida per **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** sarà in pensione.
+>La gestione di utenti e prodotti è stata spostata in [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Adobe ti avviserà quando è il tuo momento di eseguire la migrazione degli utenti.
 
 ## Risorse di aiuto per gli amministratori di Admin Console {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -31,99 +31,101 @@ Gestisci utenti, gruppi e prodotti Analytics nell’Admin Console.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Eseguire la migrazione degli ID utente di Analytics all’Admin Console </p> </td> 
-   <td colname="col2"> <p> Adobe aiuta gli amministratori di Analytics a trasferire gli ID utente ad Adobe Admin Console. Questo sforzo avverrà a ondate. Quando toccherà a te trasferire i tuoi utenti, Adobe invierà agli amministratori di Analytics una notifica via e-mail con le istruzioni. A quel punto, un <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> strumento di migrazione</a> Sarà disponibile in Gestione utenti di Analytics per semplificare questa attività. </p> <p>Importante: Il giorno della migrazione degli utenti, i tuoi gruppi di autorizzazioni precedenti vengono automaticamente copiati nell’Admin Console. Non potrai più invitare nuovi utenti o creare nuovi gruppi in Strumenti di amministrazione di Analytics. Consulta le Domande frequenti e aiuto in <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Migrazione degli utenti di Analytics all’Admin Console</a> per informazioni su come prepararsi alla migrazione e sulle funzioni amministrative interessate. </p> </td> 
+   <td colname="col1"> <p>Migrazione degli ID utente di Analytics a Adobe Admin Console </p> </td> 
+   <td colname="col2"> <p> Adobe aiuta gli amministratori di Analytics a trasferire gli ID utente ad Adobe Admin Console. Questo sforzo avverrà a ondate. Quando toccherà a te trasferire i tuoi utenti, Adobe invierà agli amministratori di Analytics una notifica via e-mail con le istruzioni. A quel punto, un <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> strumento di migrazione</a> Sarà disponibile in Gestione utenti di Analytics per semplificare questa attività. </p> <p>Importante: Il giorno della migrazione degli utenti, i tuoi gruppi di autorizzazioni precedenti vengono automaticamente copiati nell’Admin Console. Non potrai più invitare nuovi utenti o creare nuovi gruppi in Strumenti di amministrazione di Analytics. Consulta le Domande frequenti e aiuto in <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Migrazione degli utenti di Analytics ad Adobe Admin Console</a> per informazioni su come prepararsi alla migrazione e sulle funzioni amministrative interessate. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Avvia l'Admin Console </p> </td> 
-   <td colname="col2"> <p>Dopo la migrazione degli account utente, puoi gestire utenti e prodotti in tutte le soluzioni dell’Admin Console </p> <p>Passa a: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Per assistenza, consulta <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it"> Gestione di utenti e prodotti Experience Cloud</a> per aggiornamenti alla gestione di utenti e prodotti di Experience Cloud nell’Admin Console. </p> </td> 
+   <td colname="col1"> <p>Avvia Adobe Admin Console </p> </td> 
+   <td colname="col2"> <p>Dopo la migrazione degli account utente, puoi gestire utenti e prodotti in tutte le soluzioni dell’Admin Console </p> <p>Passa a: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Per assistenza, consulta <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it"> Gestione di utenti e prodotti Experience Cloud</a> aggiornamenti alla gestione di utenti e prodotti Experience Cloud in Adobe Admin Console. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Descrizioni della gestione utente {#section_7C19842A3D4249109A9399D4DF18DE75}
+<!---
+## User Management Descriptions {#section_7C19842A3D4249109A9399D4DF18DE75}
 
-Nella tabella seguente sono descritti gli elementi presenti in [!UICONTROL Users] scheda in [!UICONTROL User Management].
+The following table describes elements on the [!UICONTROL Users] tab in [!UICONTROL User Management].
 
 <table id="table_6F81D1095EB945D8995FF971B65BA52A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Elemento </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
+   <th colname="col1" class="entry"> Element </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Numero di accessi utente disponibili</span> </td> 
-   <td colname="col2"> Il numero massimo di account utente che è possibile creare per questa azienda. Se necessario, contatta il tuo rappresentante commerciale o l’Assistenza clienti per aumentare questo numero gratuitamente. </td> 
+   <td colname="col1"> <span class="wintitle"> Number of User Logins available</span> </td> 
+   <td colname="col2"> The maximum number of user accounts you can create for this company. If necessary, you can contact your Account Representative or Customer Care to increase this number at no charge. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Numero di accessi utente in uso</span> </td> 
-   <td colname="col2"> Il numero di account utente attualmente in uso per questa società. </td> 
+   <td colname="col1"> <span class="wintitle"> Number of User Logins in use</span> </td> 
+   <td colname="col2"> The number of user accounts currently in use for this company. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Numero di accessi utente rimanenti</span> </td> 
-   <td colname="col2"> La differenza tra il massimo account utente e il numero di account utente esistenti. </td> 
+   <td colname="col1"> <span class="wintitle"> Number of User Logins Remaining</span> </td> 
+   <td colname="col2"> The difference between the user account maximum and the number of existing user accounts. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Aggiungi nuovo utente</span> </td> 
-   <td colname="col2"> <p>Consente di aggiungere un account utente all’azienda. Questo collegamento è disponibile solo se il numero di accessi utente rimanenti è maggiore di 0. </p> <p>Vedi <a href="/help/admin/user-management2/c-user-management/users.md"> Utenti</a>. </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Add New User</span> </td> 
+   <td colname="col2"> <p>Lets you add a user account to the company. This link is available only if the Number of User Logins Remaining is greater than 0. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Download del rapporto</span> </td> 
-   <td colname="col2">Esporta il contenuto del <span class="wintitle"> Utenti</span> in un file delimitato da tabulazioni. </td> 
+   <td colname="col1"> <span class="wintitle"> Download Report</span> </td> 
+   <td colname="col2">Exports the contents of the <span class="wintitle"> Users</span> table to a tab-delimited file. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Login</span> </td> 
-   <td colname="col2"> <p>Nome utente. Puoi fare clic sul nome utente per modificare le proprietà dell’account utente. </p> <p>Vedi <a href="/help/admin/user-management2/c-user-management/users.md"> Utenti</a>. </p> </td> 
+   <td colname="col2"> <p>The user name. You can click the user name to edit the user account properties. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Nome</span> </td> 
-   <td colname="col2"> Nome dell'utente (specificato). </td> 
+   <td colname="col1"> <span class="wintitle"> First Name</span> </td> 
+   <td colname="col2"> The user's first (given) name. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Cognome</span> </td> 
-   <td colname="col2"> Cognome dell'utente (cognome). </td> 
+   <td colname="col1"> <span class="wintitle"> Last Name</span> </td> 
+   <td colname="col2"> The user's surname (family name). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Titolo</span> </td> 
-   <td colname="col2"> Titolo del processo dell'utente. </td> 
+   <td colname="col1"> <span class="wintitle"> Title</span> </td> 
+   <td colname="col2"> The user's job title. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Amministrazione</span> </td> 
-   <td colname="col2"> Specifica se l'account utente dispone di privilegi amministrativi. </td> 
+   <td colname="col1"> <span class="wintitle"> Admin</span> </td> 
+   <td colname="col2"> Specifies if the user account has administrative privileges. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">Last Login (Ultimo accesso)</span> </td> 
-   <td colname="col2"> Visualizza una marca temporale dell'ultimo accesso per questo account utente. </td> 
+   <td colname="col1"> <span class="wintitle"> Last Login</span> </td> 
+   <td colname="col2"> Displays a timestamp of the last login for this user account. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="wintitle"> Crea ora</span> </td> 
-   <td colname="col2"> Mostra la data e l’ora in cui è stato creato l’account di accesso. </td> 
+   <td colname="col1"><span class="wintitle"> Create Time</span> </td> 
+   <td colname="col2"> Shows the date and time when the login account was created. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Scadenza</span> </td> 
-   <td colname="col2"> Visualizza l'account di scadenza, se applicabile. </td> 
+   <td colname="col1"> <span class="wintitle"> Expires</span> </td> 
+   <td colname="col2"> Displays the account expiration account, if applicable. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">Gestire i  </span> </td> 
-   <td colname="col2"> Fornisce collegamenti per la gestione dell'account utente. </td> 
+   <td colname="col1"> <span class="wintitle"> Manage</span> </td> 
+   <td colname="col2"> Provides links for user account management. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Modificare</span> </td> 
-   <td colname="col2"> <p>Modifica le impostazioni dell’account utente. </p> <p>Vedi <a href="/help/admin/user-management2/c-user-management/users.md"> Utenti</a>. </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Edit</span> </td> 
+   <td colname="col2"> <p>Edit user account settings. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Elimina</span> </td> 
-   <td colname="col2"> Elimina l'account utente. </td> 
+   <td colname="col1"> <span class="wintitle"> Delete</span> </td> 
+   <td colname="col2"> Delete the user account. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Transfer</span> </td> 
-   <td colname="col2">Assegna i privilegi (autorizzazioni e accesso alle risorse) di un account utente a un altro. <p>Vedi <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> Trasferimento dei privilegi dell’account utente</a>. </p> </td> 
+   <td colname="col2">Assign the privileges (permissions and resource access) of one user account to another. <p>See <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> Transfer user account privileges</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="wintitle"> Accedi come utente corrente</span> </td> 
-   <td colname="col2"> <p>Consente agli amministratori di rappresentare e accedere come account non amministratore. Gli account di amministrazione non possono essere impersonati. </p> </td> 
+   <td colname="col1"><span class="wintitle"> Login as this user</span> </td> 
+   <td colname="col2"> <p>Allows admins to impersonate and log in as a non-admin account. Admin accounts cannot be impersonated. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+-->
