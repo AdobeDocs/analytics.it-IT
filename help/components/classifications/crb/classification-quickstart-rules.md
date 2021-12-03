@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Regole di classificazione
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: c04e749f7db6971572701e839de0829777b8c58e
+source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
 workflow-type: tm+mt
 source-wordcount: '1959'
 ht-degree: 93%
@@ -257,7 +257,7 @@ In questo risultato, `a:b:1313` non indica una corrispondenza.
 | `\W` | Qualsiasi carattere non alfanumerico |
 | `\b` | Qualsiasi confine di parola |
 | `(...)` | Acquisire tutti i caratteri racchiusi tra parentesi |
-| `(a|b)` | a o b |
+| `(a\b)` | a o b |
 | `a?` | Zero o uno di a |
 | `a*` | Zero o più di uno di a |
 | `a+` | Uno o più di a |
