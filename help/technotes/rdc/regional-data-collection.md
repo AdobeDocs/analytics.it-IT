@@ -2,9 +2,9 @@
 title: Raccolta di dati regionali
 description: Informazioni sulla raccolta di dati regionali
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
+source-git-commit: 1cf95a2bf57aacd6b0b5bdb1c3bf31d1b31339e0
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Adobe Experience Cloud utilizza la raccolta di dati regionali (RDC) in modo che 
 
 RDC attualmente include le seguenti posizioni (soggette a modifica):
 
-## Raccolta di dati HTTP e di terze parti
+## Raccolta di dati di terze parti
 
 | Tipo RDC | Centri di raccolta dati |
 |---------------------|-------------------|
@@ -31,7 +31,7 @@ RDC attualmente include le seguenti posizioni (soggette a modifica):
 >
 >Se la richiesta di immagine di Analytics viene inviata al `adobedc`, `2o7.net` o `omtrdc.net` endpoint, quindi la raccolta dati di terze parti. Puoi determinarlo se vedi uno degli endpoint nell&#39;URL delle richieste.
 
-## Raccolta dati HTTPS di prime parti
+## Raccolta di dati di prime parti
 
 | Tipo RDC | Centri di raccolta dati |
 |---------------------|-------------------|
