@@ -6,14 +6,14 @@ role: User, Admin
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1282'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # Creare una scorecard per dispositivi mobili
 
-Le informazioni seguenti spiegano ai curatori dei dati di Adobe Analytics come configurare e presentare scorecard per dispositivi mobili per gli utenti esecutivi. Per iniziare, puoi visualizzare il video Creazione di scorecard per le dashboard di Adobe Analytics:
+Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare scorecard per dispositivi mobili per gli utenti manageriali. Per iniziare, puoi visualizzare il video Creazione di scorecard per le dashboard di Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -108,11 +108,11 @@ Guarda un video sulle visualizzazioni delle scorecard per dispositivi mobili:
 
 >[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
-Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Passa a una visualizzazione diversa modificando la variabile [!UICONTROL chart type] di una tessera [!UICONTROL Properties]. Seleziona la porzione destra e modifica il tipo di grafico.
+Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Applica una visualizzazione diversa modificando la sezione [!UICONTROL chart type] delle proprietà di una tessera [!UICONTROL Properties]. Seleziona la tessera destra e modifica il tipo di grafico.
 
 ![Proprietà delle tessere](assets/properties.png)
 
-Oppure, fai clic sul pulsante [!UICONTROL Visualizations] nella barra a sinistra, trascina e rilascia la visualizzazione a destra sulla tessera:
+Oppure, fai clic sull’icona [!UICONTROL Visualizations] nella barra a sinistra, quindi trascina la visualizzazione a destra sulla tessera:
 
 ![Visualizzazioni](assets/vizs.png)
 
@@ -137,20 +137,20 @@ La visualizzazione delle linee rappresenta le metriche con linee che mostrano co
 
 ### [!UICONTROL Horizontal Bar]
 
-Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche. Ad esempio, per vedere facilmente quali sono i tuoi prodotti migliori, utilizza [!UICONTROL Horizontal Bar] per la visualizzazione desiderata.
+Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche. Ad esempio, per vedere facilmente quali sono i tuoi prodotti migliori, utilizza la [!UICONTROL Horizontal Bar] per la visualizzazione desiderata.
 
 ![barra orizzontale](assets/horizontal.png)
 
-### Rimuovi [!UICONTROL Unspecified] elementi dimensionali
+### Rimuovere elementi di dimensione [!UICONTROL Unspecified]
 
-Se si desidera rimuovere [!UICONTROL Unspecified] elementi dimensionali dai dati, effettua le seguenti operazioni:
+Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecified], effettua le seguenti operazioni:
 
-1. Seleziona la porzione corretta.
-1. Nella barra a destra, sotto **[!UICONTROL Drill ins]**, seleziona la freccia destra accanto all’elemento dimensionale di cui **[!UICONTROL Unspecified]** elementi da rimuovere.
+1. Seleziona la tessera corretta.
+1. Nella barra a destra, sotto **[!UICONTROL Drill ins]**, seleziona la freccia destra accanto all’elemento di dimensione di cui vuoi rimuovere gli elementi **[!UICONTROL Unspecified]**.
 
    ![non specificato](assets/unspecified.png)
 
-1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dal reporting. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
+1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dalle attività di reporting. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
 
 ## Visualizzare e configurare le proprietà delle tessere
 
