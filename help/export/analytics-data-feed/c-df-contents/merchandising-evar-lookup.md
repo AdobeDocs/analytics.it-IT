@@ -1,8 +1,7 @@
 ---
 title: Ricerca di istanze eVar Merchandising in post_product_list
 description: Trova l’istanza Merchandising eVar per ogni valore di ricerca nella colonna post_product_list di un feed di dati.
-exl-id: null
-source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 86%
@@ -11,7 +10,7 @@ ht-degree: 86%
 
 # Ricerca di istanze eVar Merchandising in post_product_list
 
-In Feed dati, la colonna [post_product_list](datafeeds-reference.md) può contenere le istanze di eVar merchandising. Ogni eVar è rappresentato da un numero.
+Nei feed di dati, la [post_product_list](datafeeds-reference.md) La colonna può contenere le istanze di eVar merchandising. Ogni eVar è rappresentato da un numero.
 
 La ricerca dell&#39;istanza Merchandising eVar per post_product_list è diversa dalla colonna di ricerca event_list nel feed di dati.
 

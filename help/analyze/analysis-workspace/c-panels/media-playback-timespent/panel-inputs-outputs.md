@@ -3,8 +3,7 @@ title: Ingressi e uscite del pannello Tempo di riproduzione dei supporti
 description: Quali sono le impostazioni di ingresso e uscita Tempo di riproduzione multimediale trascorso?
 feature: Panels
 role: User, Admin
-exl-id: null
-source-git-commit: 6a82b998d6ff079f5e100d2ea09d160f6e9f8c8a
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 92%
