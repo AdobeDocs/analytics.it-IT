@@ -2,13 +2,13 @@
 description: Introduzione alle funzioni di un rapporto, inclusi la barra degli strumenti, il calendario e la tabella dei dettagli.
 title: Funzioni rapporto
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 3%
+source-wordcount: '403'
+ht-degree: 1%
 
 ---
 
@@ -16,11 +16,14 @@ ht-degree: 3%
 
 Introduzione alle funzioni di un rapporto, inclusi la barra degli strumenti, il calendario e la tabella dei dettagli.
 
-Questo esempio mostra un [!UICONTROL Pages Report]. Le opzioni di configurazione possono variare a seconda del rapporto eseguito. Ad esempio, anziché selezionare Con tendenze o con classifica in un rapporto [!UICONTROL Site Content], è possibile specificare la granularità e il nome della pagina per un rapporto [!UICONTROL Site Metrics].
+Questo esempio mostra un [!UICONTROL Pages Report]. Le opzioni di configurazione possono variare a seconda del rapporto eseguito. Ad esempio, anziché selezionare Con tendenze o con classifica in un [!UICONTROL Site Content] puoi specificare la granularità e il nome della pagina di un rapporto [!UICONTROL Site Metrics] rapporto.
+
+>[!IMPORTANT]
+>Efficace **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le funzionalità di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
 
 ## Report delle pagine di esempio {#section_288CC85536684C2DB184141358481EF0}
 
-Esempio di rapporto sulle pagine ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
+Un esempio di rapporto sulle pagine ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
@@ -30,7 +33,7 @@ Condividi i dati dei tuoi rapporti con i responsabili decisionali che possono mo
 
 ![](assets/toolbar.png){width=&quot;672px&quot;}
 
-Consulta anche [Personalizzazione di un report](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Fai riferimento anche a [Personalizzazione di un rapporto](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Intestazione e impostazioni del rapporto {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -38,7 +41,7 @@ Visualizza le impostazioni del rapporto e ti consente di configurare il tipo di 
 
 ![](assets/settings_header.png){width=&quot;672px&quot;}
 
-Per ulteriori informazioni, consulta [Personalizzazione di un report](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) .
+Vedi [Personalizzazione di un rapporto](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) per ulteriori informazioni.
 
 ## Calendario {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -46,7 +49,7 @@ Specifica la data facendo clic sul pulsante del calendario e selezionando un int
 
 ![](assets/calendar_large.png){width=&quot;672px&quot;}
 
-Vedere [Selezione di un intervallo di date o date](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) e [Confronto di date](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Vedi [Selezione di un intervallo di date o date](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) e [Confronto delle date](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Tipo di grafico {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
@@ -54,7 +57,7 @@ Selezionare il tipo di grafico o grafico da visualizzare:
 
 ![](assets/graph_type.png)
 
-Vedere [Modifica dei grafici dei rapporti.](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md)
+Vedi [Modifica dei grafici dei rapporti.](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md)
 
 ## Visualizzazione grafico {#section_4C78ADC82C234CC6841AC92C803636F4}
 
@@ -62,7 +65,7 @@ A seconda del tipo di grafico selezionato, in genere vengono visualizzati i prim
 
 ![](assets/graph.png)
 
-Consulta [Personalizzazione dei report.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
+Vedi [Personalizzazione dei report.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
 
 ## Metriche {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -70,7 +73,7 @@ Aggiungi metriche al rapporto. Gli amministratori possono specificare le metrich
 
 ![](assets/metrics.png)
 
-Vedere [Metriche.](/help/analyze/reports-analytics/metrics.md)
+Vedi [Metriche.](/help/analyze/reports-analytics/metrics.md)
 
 ## Tabella dei dettagli {#section_449A5DC848744F65A10DA12E189B835D}
 
@@ -80,4 +83,4 @@ I dettagli sono la maggior parte dei dati del rapporto. In questo caso, le pagin
 
 Nella tabella di dettaglio, puoi filtrare i dati, creare suddivisioni, aggiungere metriche e altro ancora.
 
-Consulta [Personalizzazione dei report.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
+Vedi [Personalizzazione dei report.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)

@@ -4,9 +4,9 @@ title: Impostazioni di visualizzazione e navigazione del rapporto
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1551'
 ht-degree: 9%
 
 ---
@@ -14,6 +14,9 @@ ht-degree: 9%
 # Impostazioni di visualizzazione e navigazione del rapporto
 
 Impostazioni che definiscono la modalità di visualizzazione di tutti i rapporti e informazioni che mappano le opzioni di menu predefinite alla loro posizione nel menu semplificato.
+
+>[!IMPORTANT]
+>Efficace **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le funzionalità di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
 
 ## Impostazioni di visualizzazione e navigazione del rapporto {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
@@ -145,6 +148,6 @@ Se si utilizza il menu predefinito, la tabella seguente semplifica la ricerca de
 | **App mobile** |  |  |
 |  | Panoramica dell’app mobile | Contenuto > App mobile > Panoramica app mobile |
 |  | Rapporti sul ciclo di vita | Contenuto > App mobile > Rapporti sul ciclo di vita |
-| **Report personalizzati** |  |  |
-|  | I rapporti personalizzati vengono visualizzati solo se sono impostati. | Report personalizzati |
+| **Rapporti personalizzati** |  |  |
+|  | I rapporti personalizzati vengono visualizzati solo se sono impostati. | Rapporti personalizzati |
 |  |  |  |

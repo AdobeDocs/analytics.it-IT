@@ -2,12 +2,12 @@
 description: Panoramica del menu Rapporti in Reporting e analisi.
 title: Menu Rapporti
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '849'
 ht-degree: 5%
 
 ---
@@ -15,6 +15,9 @@ ht-degree: 5%
 # Menu Rapporti{#reports-menu}
 
 Panoramica del menu Rapporti in Reporting e analisi.
+
+>[!IMPORTANT]
+>Efficace **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le funzionalità di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
 
 Il menu Rapporti fornisce:
 
@@ -27,11 +30,11 @@ Il menu Rapporti fornisce:
 
 I preferiti, le visualizzazioni frequenti e la cronologia dei rapporti sono tutti specifici della suite di rapporti. Se modifichi una suite di rapporti, verranno modificati tutti e tre gli elenchi.
 
-I rapporti vengono spostati utilizzando una vista a colonne gerarchica. Fare clic su **[!UICONTROL View All Reports]** oppure premere il tasto Barra (/), quindi premere il tasto Freccia giù (?) per visualizzare e navigare rapidamente nel menu utilizzando i tasti freccia. Premere il tasto Esc per chiudere il menu senza modificare il report corrente oppure premere Invio per caricare il report selezionato.
+I rapporti vengono spostati utilizzando una vista a colonne gerarchica. Fai clic su **[!UICONTROL View All Reports]** oppure premere il tasto Barra (/), quindi premere il tasto Freccia giù (?) per visualizzare e navigare rapidamente nel menu utilizzando i tasti freccia. Premere il tasto Esc per chiudere il menu senza modificare il report corrente oppure premere Invio per caricare il report selezionato.
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Per informazioni dettagliate sui singoli rapporti, consulta [Dimension](/help/components/dimensions/overview.md).
+Per informazioni dettagliate sui singoli rapporti, vedi [Dimension](/help/components/dimensions/overview.md).
 
 ## Ricerca di rapporti {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -65,7 +68,7 @@ Premere il tasto Tab o il tasto freccia Giù (?) per spostarsi nell’elenco dei
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmenti <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Apre la barra dei segmenti che consente di aggiungere o gestire i segmenti. Puoi anche accedere alle interfacce <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Generatore di segmenti</a> e <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=it"  > Gestore segmenti</a> dalla barra dei segmenti. </td> 
+   <td colname="col2">Apre la barra dei segmenti che consente di aggiungere o gestire i segmenti. Puoi anche accedere al <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Generatore di segmenti</a> e <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=it"  > Gestore segmenti</a> dalla barra dei segmenti. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -73,15 +76,15 @@ Premere il tasto Tab o il tasto freccia Giù (?) per spostarsi nell’elenco dei
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Visualizza tutti i report</span> </td> 
-   <td colname="col2">Tutti i rapporti, le dashboard, i segnalibri, le metriche calcolate e le destinazioni specifiche della suite di rapporti sono contenuti nelle sezioni <span class="uicontrol"> Visualizza tutti i rapporti </span>. Fai clic qui in qualsiasi momento per navigare tra tutte le opzioni disponibili. </td> 
+   <td colname="col2">Tutti i rapporti, le dashboard, i segnalibri, le metriche calcolate e le destinazioni specifiche della suite di rapporti sono contenuti in <span class="uicontrol"> Visualizza tutti i report </span>sezioni. Fai clic qui in qualsiasi momento per navigare tra tutte le opzioni disponibili. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Barra di ricerca in <span class="uicontrol"> Visualizza tutti i rapporti</span> </td> 
-   <td colname="col2"> <p> Consente di cercare la risorsa necessaria. Usa la ricerca "sfocata", quindi non è necessario inserire la formulazione esatta che stai cercando. I risultati della ricerca vengono visualizzati in una lista retta che consente di spostarsi utilizzando frecce verso l’alto, il basso e laterali. Premendo <span class="uicontrol"> Invio</span> su un risultato di ricerca puoi passare direttamente a tale rapporto. </p> </td> 
+   <td colname="col1">Barra di ricerca all’interno <span class="uicontrol"> Visualizza tutti i report</span> </td> 
+   <td colname="col2"> <p> Consente di cercare la risorsa necessaria. Usa la ricerca "sfocata", quindi non è necessario inserire la formulazione esatta che stai cercando. I risultati della ricerca vengono visualizzati in una lista retta che consente di spostarsi utilizzando frecce verso l’alto, il basso e laterali. Pressione <span class="uicontrol"> Invio</span> in base a un risultato di ricerca, passa direttamente a quel rapporto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol"> Preferiti  </span> </td> 
-   <td colname="col2">È possibile recuperare facilmente i rapporti contrassegnati come <span class="uicontrol"> Preferiti</span> da quest'area. Per ciascun utente e per suite di rapporti, vengono visualizzati dieci Preferiti e un <span class="uicontrol"> Altro...Collegamento </span> se hai più di dieci preferiti. <p>È possibile rinominare i rapporti ma non le dashboard nei Preferiti. </p> <p>I preferiti sono simili ai segnalibri, ma non vengono memorizzati in una cartella o gestiti tramite <a href="/help/analyze/reports-analytics/bookmarks.md"  > Gestione segnalibri</a> come i segnalibri. </p> </td> 
+   <td colname="col1"><span class="uicontrol"> Preferiti </span> </td> 
+   <td colname="col2">È possibile recuperare facilmente i rapporti contrassegnati come <span class="uicontrol"> Preferiti</span> da quest'area. Per ciascun utente e per suite di rapporti, vengono visualizzati dieci Preferiti e un <span class="uicontrol"> Altro...</span> se hai più di dieci preferiti. <p>È possibile rinominare i rapporti ma non le dashboard nei Preferiti. </p> <p>I preferiti sono simili ai segnalibri, ma non vengono memorizzati in una cartella o gestiti tramite <a href="/help/analyze/reports-analytics/bookmarks.md"  > Gestione segnalibri</a> come i segnalibri. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Visualizzato frequentemente</span> </td> 
@@ -101,11 +104,11 @@ Premere il tasto Tab o il tasto freccia Giù (?) per spostarsi nell’elenco dei
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Segnalibro..</span> </td> 
-   <td colname="col2">Consente di <a href="/help/analyze/reports-analytics/bookmarks.md"  > aggiungere un segnalibro</a> al rapporto. </td> 
+   <td colname="col2">Consente di <a href="/help/analyze/reports-analytics/bookmarks.md"  > segnalibro</a> la relazione. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Dashboard</span>... </td> 
-   <td colname="col2">Consente di aggiungere il rapporto a un dashboard <a href="/help/analyze/reports-analytics/dashboard.md"  ></a>. </td> 
+   <td colname="col2">Consente di aggiungere il rapporto a un <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Altro...</span> </td> 
@@ -113,15 +116,15 @@ Premere il tasto Tab o il tasto freccia Giù (?) per spostarsi nell’elenco dei
   </tr> 
   <tr> 
    <td colname="col1">Selettore suite di rapporti <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Consente di selezionare <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  > suite di rapporti di base</a> o <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  > suite di rapporti virtuali</a>. </td> 
+   <td colname="col2">Consente di selezionare <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=it"  > suite di rapporti di base</a> o <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  > suite di rapporti virtuali</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendario <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
-   <td colname="col2">Visualizza il <a href="/help/analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1"  > calendario</a> in modo da poter determinare il periodo di reporting. </td> 
+   <td colname="col2">Riporta i <a href="/help/analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1"  > calendario</a> in modo da poter determinare il periodo di riferimento. </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Personalizzazione del menu Tutti i report {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Gli amministratori possono modificare i rapporti contenuti nel menu Rapporti . Consulta [Personalizzazione del menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) nella Guida dell&#39;amministratore.
+Gli amministratori possono modificare i rapporti contenuti nel menu Rapporti . Vedi [Personalizzazione del menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) nell’Aiuto dell’amministratore.

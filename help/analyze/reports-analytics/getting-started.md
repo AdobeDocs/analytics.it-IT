@@ -4,16 +4,19 @@ title: Introduzione a Reports and Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 7%
+source-wordcount: '767'
+ht-degree: 3%
 
 ---
 
 # Guida introduttiva a Reports &amp; Analytics
 
 Prima di utilizzare Reports &amp; Analytics, è necessario comprendere queste attività di accesso e configurazione di base e come accedere alle informazioni sull’account.
+
+>[!IMPORTANT]
+>Efficace **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le funzionalità di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
 
 I rapporti forniscono informazioni approfondite sui canali tradizionali basati sul web e sui canali in evoluzione come i dispositivi mobili, i video e i social network. Alcuni esempi di rapporti includono:
 
@@ -30,9 +33,6 @@ I rapporti forniscono informazioni approfondite sui canali tradizionali basati s
 ## Requisiti del browser e del sistema
 
 Requisiti del browser e del sistema per accedere all’interfaccia di Reports &amp; Analytics.
-
->[!NOTE]
->Adobe ha terminato il supporto per Internet Explorer 11 in riferimento ad Adobe Analytics il 13 novembre 2018. Passa al più presto a Microsoft Edge o a un altro browser supportato.
 
 * Browser preferiti: Versioni più recenti di Firefox, Chrome, Safari o Edge.
 * Devono essere abilitati i cookie e JavaScript.
