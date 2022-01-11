@@ -6,9 +6,9 @@ title: Riferimento colonna dati
 feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 20a4ee51d0eace9cdcb5e0aeff5704b9a757a1eb
+source-git-commit: 0884c5a13fba7a22589e2962a4d79f4a6525dd8a
 workflow-type: tm+mt
-source-wordcount: '3432'
+source-wordcount: '3445'
 ht-degree: 3%
 
 ---
@@ -101,7 +101,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `latlon1` | Posizione (fino a 10 chilometri) | varchar(255) |
 | `latlon23` | Posizione (fino a 100 m) | varchar(255) |
 | `latlon45` | Posizione (fino a 1 m) | varchar(255) |
-| `mc_audiences` | Elenco degli ID del segmento di Audience Manager a cui appartiene il visitatore. | text |
+| `mc_audiences` | Elenco degli ID del segmento di Audience Manager a cui appartiene il visitatore. La `post_mc_audiences` cambia il delimitatore in `--**--`. | text |
 | `mcvisid` | ID visitatore di Experience Cloud. Numero a 128 bit costituito da due numeri concatenati a 64 bit aggiunti a 19 cifre. | varchar(255) |
 | `mobile_id` | Se l’utente utilizza un dispositivo mobile, l’ID numerico del dispositivo. | int |
 | `mobileaction` | Azione mobile. Raccolta automatica quando `trackAction` viene chiamato in Mobile Services. Consente il percorso automatico delle azioni nell’app. | varchar(100) |
@@ -146,7 +146,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `mobilerelaunchcampaigntrackingcode` | Raccolte dalla variabile di dati di contesto `a.launch.campaign.trackingcode`. Utilizzato nell&#39;acquisizione come codice di tracciamento per la campagna di lancio. | varchar(255) |
 | `mobileresolution` | Risoluzione del dispositivo mobile. `[Width] x [Height]` in pixel. | varchar(255) |
 | `monthly_visitor` | Flag che indica che il visitatore è univoco per il mese corrente. | tinyint senza segno |
-| `mvvar1` - `mvvar3` | Elencare i valori delle variabili. Contiene un elenco delimitato di valori personalizzati a seconda dell’implementazione. | text |
+| `mvvar1` - `mvvar3` | Elencare i valori delle variabili. Contiene un elenco delimitato di valori personalizzati a seconda dell’implementazione. La `post_mvvar1` - `post_mvvar3` le colonne sostituiscono il delimitatore originale con `--**--`. | text |
 | `namespace` | Non utilizzato. Parte di una feature di scarto. | varchar(50) |
 | `new_visit` | Flag che determina se l’hit corrente è una nuova visita. Impostato dai server di Adobe dopo 30 minuti di inattività della visita. | tinyint senza segno |
 | `os` | ID numerico che rappresenta il sistema operativo del visitatore. In base ai `user_agent` colonna. Usi `os` ricerca. | int senza segno |
