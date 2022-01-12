@@ -3,9 +3,9 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 7f27e92b1fc378516423bc971b05e34880897ec9
+source-git-commit: f06f067d3273883cea4f5d6b4e2b0da303a0d5d2
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2231'
 ht-degree: 92%
 
 ---
@@ -18,6 +18,12 @@ Note cumulative sulla versione per [!DNL AppMeasurement] per JavaScript.
 
 Puoi scaricare la versione più recente di AppMeasurement da [Code Manager](/help/admin/admin/code-manager-admin.md).
 
+## Versione 2.22.4
+
+Data di rilascio: **11 gennaio 2022**
+
+* È stato corretto s.tl() per ignorare in modo graduale gli oggetti con oggetti href invece delle stringhe href.
+
 ## Versione 2.22.3
 
 Data di rilascio: **11 ottobre 2021**
@@ -28,7 +34,7 @@ Data di rilascio: **11 ottobre 2021**
 
 Data di rilascio: **7 settembre 2021**
 
-* Questo aggiornamento fa sì che `opt.dmp` e `opt.sell` siano sempre inclusi durante il tracciamento dei collegamenti. Elenco [completo delle variabili di consenso](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+* Questo aggiornamento causa `opt.dmp` e `opt.sell` da includere sempre durante il tracciamento dei collegamenti. Ecco un [elenco completo delle variabili di consenso](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
 
 ## Versione 2.22.1
 
@@ -64,7 +70,7 @@ Data di rilascio:**21 febbraio 2020**
 
 Data di rilascio:**13 febbraio 2020**
 
-* AppMeasurement può ora forzare i cookie a includere l&#39;attributo Secure impostando la variabile [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) . Il requisito per questa variabile è che l’intero sito web client venga servito in modo sicuro (HTTPS). (AN-204604)
+* AppMeasurement può ora forzare i cookie a includere l’attributo Secure impostando il [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variabile. Il requisito per questa variabile è che l’intero sito web client venga servito in modo sicuro (HTTPS). (AN-204604)
 
 ## Versione 2.17.0
 
