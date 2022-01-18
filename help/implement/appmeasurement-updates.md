@@ -3,10 +3,10 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f06f067d3273883cea4f5d6b4e2b0da303a0d5d2
+source-git-commit: d9999d45476a70cee49f83d009ce95b9b4931529
 workflow-type: tm+mt
-source-wordcount: '2231'
-ht-degree: 92%
+source-wordcount: '2263'
+ht-degree: 90%
 
 ---
 
@@ -22,13 +22,13 @@ Puoi scaricare la versione più recente di AppMeasurement da [Code Manager](/hel
 
 Data di rilascio: **11 gennaio 2022**
 
-* È stato corretto s.tl() per ignorare in modo graduale gli oggetti con oggetti href invece delle stringhe href.
+* The link tracking call `s.tl()` now verifies that the object which is passed to it contains an `href` attribute of type `string`. Se non è un `string`, quindi ignorerà con grazia il `href` invece di fallire. This can occur when passing `svg` objects to the link tracking call.
 
 ## Versione 2.22.3
 
 Data di rilascio: **11 ottobre 2021**
 
-* File aggiornati a cui si fa riferimento nella documentazione della Guida per indicare le posizioni correnti della Guida.
+* Updated files that referenced Help documentation to point to the current Help locations.
 
 ## Versione 2.22.2
 
@@ -40,7 +40,7 @@ Data di rilascio: **7 settembre 2021**
 
 Data di rilascio: **17 agosto 2021**
 
-* I clienti che utilizzano la funzione di rinuncia potrebbero aver visto i parametri di rinuncia all’inoltro lato server non rispettati durante il tracciamento dei collegamenti. Le correzioni in questa versione causano l’invio dei flag di rinuncia se presenti durante il tracciamento dei collegamenti.
+* I clienti che utilizzano la funzione di rinuncia potrebbero aver visto i parametri di rinuncia all’inoltro lato server non rispettati durante il tracciamento dei collegamenti. The fixes in this release cause the opt-out flags to be sent if they are present when tracking links.
 
 ## Versione 2.22.0
 
@@ -58,7 +58,7 @@ Data di rilascio: **24 giugno 2020**
 
 Data di rilascio: **5 marzo 2020**
 
-* È stato risolto un problema relativo alla sicurezza aggiornando il rilevamento di Internet Explorer per eliminare l’avviso JSLint.
+* Fixed a security-related issue by updating Internet Explorer detection to suppress JSLint warning.
 
 ## Versione 2.19.0
 
@@ -70,7 +70,7 @@ Data di rilascio:**21 febbraio 2020**
 
 Data di rilascio:**13 febbraio 2020**
 
-* AppMeasurement può ora forzare i cookie a includere l’attributo Secure impostando il [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variabile. Il requisito per questa variabile è che l’intero sito web client venga servito in modo sicuro (HTTPS). (AN-204604)
+* AppMeasurement può ora forzare i cookie a includere l’attributo Secure impostando il [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variabile. The requirement for this variable is that the entire client website is served securely (HTTPS). (AN-204604)
 
 ## Versione 2.17.0
 
