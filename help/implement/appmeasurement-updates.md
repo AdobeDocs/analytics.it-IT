@@ -3,7 +3,7 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d9999d45476a70cee49f83d009ce95b9b4931529
+source-git-commit: 71c4b4d7381dcdf79c550f968c8f720d87c63126
 workflow-type: tm+mt
 source-wordcount: '2263'
 ht-degree: 90%
@@ -20,9 +20,9 @@ Puoi scaricare la versione più recente di AppMeasurement da [Code Manager](/hel
 
 ## Versione 2.22.4
 
-Data di rilascio: **11 gennaio 2022**
+Data di rilascio: **18 gennaio 2022**
 
-* The link tracking call `s.tl()` now verifies that the object which is passed to it contains an `href` attribute of type `string`. Se non è un `string`, quindi ignorerà con grazia il `href` invece di fallire. This can occur when passing `svg` objects to the link tracking call.
+* `s.tl()``href``string` `string``href` `svg`
 
 ## Versione 2.22.3
 
@@ -34,25 +34,25 @@ Data di rilascio: **11 ottobre 2021**
 
 Data di rilascio: **7 settembre 2021**
 
-* Questo aggiornamento causa `opt.dmp` e `opt.sell` da includere sempre durante il tracciamento dei collegamenti. Ecco un [elenco completo delle variabili di consenso](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+* `opt.dmp``opt.sell` [](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html)
 
 ## Versione 2.22.1
 
 Data di rilascio: **17 agosto 2021**
 
-* I clienti che utilizzano la funzione di rinuncia potrebbero aver visto i parametri di rinuncia all’inoltro lato server non rispettati durante il tracciamento dei collegamenti. The fixes in this release cause the opt-out flags to be sent if they are present when tracking links.
+* Customers using opt-out may have seen the server-side forwarding opt-out parameters not honored when tracking links. The fixes in this release cause the opt-out flags to be sent if they are present when tracking links.
 
 ## Versione 2.22.0
 
 Data di rilascio: **4 agosto 2020**
 
-* Correzione del referente mancante quando il primo hit non è stato inviato a causa delle preferenze di rinuncia dell&#39;utente.
+* Fix for missing referrer when first hit was not sent due to user&#39;s opt-out preferences.
 
 ## Versione 2.21.0
 
 Data di rilascio: **24 giugno 2020**
 
-* È stato risolto un problema a causa del quale il filtro linkExclusions di Activity Map non veniva sempre applicato a Firefox.
+* Fixed an issue where the Activity Map linkExclusions filter was not always being applied for Firefox.
 
 ## Versione 2.20.0
 
@@ -70,7 +70,7 @@ Data di rilascio:**21 febbraio 2020**
 
 Data di rilascio:**13 febbraio 2020**
 
-* AppMeasurement può ora forzare i cookie a includere l’attributo Secure impostando il [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variabile. The requirement for this variable is that the entire client website is served securely (HTTPS). (AN-204604)
+* [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) The requirement for this variable is that the entire client website is served securely (HTTPS). (AN-204604)
 
 ## Versione 2.17.0
 
