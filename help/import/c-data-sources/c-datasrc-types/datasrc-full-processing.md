@@ -3,9 +3,9 @@ description: Origini dati supporta le variabili seguenti durante l'elaborazione 
 title: Elaborazione completa
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 80%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Adobe consiglia ai clienti di utilizzare l’ [API di inserimento dati in blocco (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati a elaborazione completa. Adobe prevede di rendere obsolete le origini dati con elaborazione completa il 31 luglio 2021. [Ulteriori informazioni](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>L’Adobe consiglia di utilizzare il [API di inserimento dati in blocco (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece delle origini dati a elaborazione completa. Il 31 gennaio 2022, Adobe ha dichiarato obsolete le origini dati a elaborazione completa. [Ulteriori informazioni](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Origini dati supporta le variabili seguenti durante l&#39;elaborazione dei dati come chiamata server standard (Generic (Generico) > Full Processing (Elaborazione completa)).
 
@@ -27,7 +27,7 @@ I dati di origini dati Elaborazione completa vengono elaborati come se fossero s
 
 I dati di origini dati Elaborazione completa vengono elaborati utilizzando profili visitatore separati, così anche se l&#39;ID visitatore nei dati caricati corrisponde ai dati raccolti tramite JavaScript o un&#39;altra libreria AppMeasurement, i profili visitatore non sono collegati da un punto di vista di allocazione eVar.
 
-Ad esempio, un utente con un ID visitatore `"user@example.com"` visita il sito da una campagna di marketing denominata &quot;Vendita di primavera&quot;, memorizzata nella variabile della campagna. Se in seguito carichi una transazione utilizzando lo stesso ID visitatore, la campagna &quot;Vendita di primavera&quot; non riceve credito per eventuali ricavi o eventi di successo caricati utilizzando le origini dati di elaborazione completa.
+Ad esempio, un utente con un ID visitatore di `"user@example.com"` visita il tuo sito da una campagna di marketing denominata &quot;Vendita di primavera&quot;, memorizzata nella variabile della campagna. Se in seguito carichi una transazione utilizzando lo stesso ID visitatore, la campagna &quot;Vendita di primavera&quot; non riceve credito per eventuali ricavi o eventi di successo caricati utilizzando le origini dati di elaborazione completa.
 
 ## Riferimento colonna {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -52,7 +52,7 @@ Ad esempio, un utente con un ID visitatore `"user@example.com"` visita il sito d
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Nota:  Questa variabile è supportata anche dalle origini dati Standard come <code> currency code </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Nota: Questa variabile è supportata anche dalle origini dati Standard come <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>Codice valuta ricavi (ad esempio, USD) </p> </td> 
   </tr> 
   <tr> 
@@ -63,12 +63,12 @@ Ad esempio, un utente con un ID visitatore `"user@example.com"` visita il sito d
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, es. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome eVar conversione. Puoi avere fino a 75 eVar (  <span class="varname"> eVar1  </span> -  <span class="varname"> eVar75  </span>). </p> <p>Puoi specificare il nome eVar (eVar12) o un nome descrittivo (campagna pubblicitaria 3). </p> </td> 
+   <td colname="col3"> <p>Nome eVar conversione. Puoi avere fino a 75 eVar ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Puoi specificare il nome eVar (eVar12) o un nome descrittivo (campagna pubblicitaria 3). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Stringa Eventi, formattata utilizzando la stessa sintassi della variabile <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Ad esempio: </p> 
+   <td colname="col3"> <p>Stringa Eventi, formattata utilizzando la stessa sintassi della variabile <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=it"  >s.events</a>. </p> <p>Ad esempio: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -76,7 +76,7 @@ Ad esempio, un utente con un ID visitatore `"user@example.com"` visita il sito d
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>, es. &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome gerarchia. Puoi avere fino a 5 gerarchie (  <span class="varname"> hier1  </span> -  <span class="varname"> hier5  </span>). </p> <p>È possibile specificare il nome predefinito della gerarchia ( <span class="varname"> hier2 </span>) o un nome descrittivo ( <span class="term"> Yankees </span>). </p> </td> 
+   <td colname="col3"> <p>Nome gerarchia. Puoi avere fino a 5 gerarchie ( <span class="varname"> hier1 </span> - <span class="varname"> hier5 </span>). </p> <p>È possibile specificare il nome della gerarchia predefinita ( <span class="varname"> hier2 </span>) o un nome descrittivo ( <span class="term"> Yankees </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -203,7 +203,7 @@ La tabella seguente contiene le variabili di traffico inserite automaticamente q
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Tipo di connessione del visitatore (  <span class="term"> lan  </span> o  <span class="term"> modem  </span>). </p> </td> 
+   <td colname="col2"> <p>Tipo di connessione del visitatore ( <span class="term"> lan </span> o <span class="term"> modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
