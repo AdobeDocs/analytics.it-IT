@@ -6,10 +6,10 @@ uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 9f0f17936de2597611728498c5ed82d36fd01d1c
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 87%
+source-wordcount: '334'
+ht-degree: 56%
 
 ---
 
@@ -35,6 +35,14 @@ Analizza i dati in tantissimi modi per ogni necessità; realizza query con metri
 A qualsiasi raggruppamento all’interno di una tabella può essere applicato anche qualsiasi modello di attribuzione. Tale modello di attribuzione può essere lo stesso o diverso dalla colonna principale. Ad esempio, puoi analizzare gli ordini lineari sulla dimensione canali di marketing, ma applicare ordini a forma di U agli specifici codici di tracciamento all’interno di un canale. Per modificare il modello di attribuzione applicato a un raggruppamento, passa il cursore sul modello di raggruppamento e fai clic su **[!UICONTROL Edit]**:
 
 ![Impostazioni di raggruppamento](assets/breakdown_settings.png)
+
+Questo è il comportamento previsto quando si applicano o si modificano modelli di attribuzione alle suddivisioni:
+
+* Se applichi un’attribuzione quando non esistono altre attribuzioni, l’attribuzione si applica all’intero albero delle colonne.
+
+* Se aggiungi un raggruppamento dopo aver applicato un’attribuzione, utilizza l’impostazione predefinita per il raggruppamento specificato aggiunto, se tale dimensione ha un valore predefinito. In caso contrario, utilizzerà la suddivisione dalla colonna padre. Alcune dimensioni hanno un&#39;allocazione predefinita.  Ad esempio: [!UICONTROL Time] dimensioni e [!UICONTROL Referrer] use [!UICONTROL Same Touch]. La [!UICONTROL Product] utilizzi della dimensione [!UICONTROL Last Touch]. Altre dimensioni non hanno un valore predefinito e utilizzeranno l’allocazione della colonna padre.
+
+* Se l’albero delle colonne contiene già delle attribuzioni, la modifica dell’attribuzione ha effetto solo su quella che si sta modificando.
 
 ## Video
 
