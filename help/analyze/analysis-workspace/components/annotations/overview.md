@@ -2,9 +2,10 @@
 title: Panoramica delle annotazioni
 description: Come utilizzare le annotazioni in Workspace.
 role: User, Admin
-source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
+solution: Analytics
+source-git-commit: ba7a3193ef01f5865300554ed0ebb610146ebc5a
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
@@ -19,7 +20,7 @@ Le annotazioni consentono di comunicare in modo efficace sfumature di dati conte
 
 ## Visibilità
 
-Le annotazioni sono visibili in diversi modi:
+È possibile visualizzare le annotazioni in diversi modi:
 
 * Inserisci immagine del viz a linee>
 
