@@ -2,10 +2,10 @@
 title: Autorizzazioni del profilo di prodotto per gli strumenti Analytics
 description: Utilizza gli elementi di autorizzazione degli strumenti di Analytics per concedere l’accesso alle funzioni di Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 3%
+source-wordcount: '383'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Gli elementi di autorizzazione Strumenti di Analytics concedono l’accesso alle
 | [!UICONTROL Excel License Users] | Non utilizzato. |
 | [!UICONTROL Activity Map] | Consente di accedere a Strumenti > Activity Map. Consente all’utente di utilizzare l’estensione Activity Map. |
 | [!UICONTROL Current Data] | Abilita l’opzione per visualizzare i dati correnti nei rapporti di Reports &amp; Analytics. |
-| [!UICONTROL Ad Hoc Analysis License Users] | Ad Hoc Analysis è terminato. Vedere [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
+| [!UICONTROL Ad Hoc Analysis License Users] | Ad Hoc Analysis è terminato. Vedi [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
 | [!UICONTROL Mobile App Admin] | Non utilizzato. |
 | [!UICONTROL Web Service Access] | Consente di utilizzare l’API, inclusa l’autenticazione con siti di terze parti e l’invio di chiamate API. |
 | [!UICONTROL Report Builder] | Abilita il pulsante di download in Strumenti > Report Builder e consente all&#39;utente di eseguire l&#39;autenticazione in Microsoft Excel. |
@@ -41,6 +41,6 @@ Gli elementi di autorizzazione Strumenti di Analytics concedono l’accesso alle
 | [!UICONTROL Segment Creation] | Consente di creare e condividere segmenti in tutte le funzionalità di Analytics. |
 | [!UICONTROL Advertising Analytics Management] | Non utilizzato. |
 | [!UICONTROL Segment Publishing] | Consente di rendere un segmento un pubblico Experience Cloud durante la creazione o la modifica di un segmento. |
-| [!UICONTROL Integrations (Create)] | Consente l’accesso ad Amministratore > Tutti gli amministratori > Connettori dati e consente all’utente di creare connettori dati. |
-| [!UICONTROL Integrations (Update)] | Consente l’accesso ad Amministratore > Tutti gli amministratori > Connettori dati e consente all’utente di modificare le configurazioni del connettore esistenti. |
-| [!UICONTROL Integrations (Delete)] | Consente l’accesso ad Amministratore > Tutti gli amministratori > Connettori dati e consente all’utente di eliminare i connettori dati. |
+| [!UICONTROL Integrations (Create)] | Non utilizzato. Data Connectors terminati. |
+| [!UICONTROL Integrations (Update)] | Non utilizzato. |
+| [!UICONTROL Integrations (Delete)] | Non utilizzato. |
