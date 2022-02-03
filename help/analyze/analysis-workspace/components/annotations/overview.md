@@ -3,9 +3,9 @@ title: Panoramica delle annotazioni
 description: Come utilizzare le annotazioni in Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: 0516696ee9d51ac843c659390ae99d8337812cbb
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '336'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 >
 >Questa funzione è attualmente in fase di test.
 
-Le annotazioni consentono di comunicare in modo efficace sfumature di dati contestuali e informazioni all’organizzazione. Consentono di collegare gli eventi del calendario a dimensioni/metriche specifiche. È possibile annotare una data o un intervallo di date per problemi di dati, festività pubbliche, avvii di campagne, ecc. Puoi quindi visualizzare in modo grafico gli eventi e vedere se campagne o altri eventi hanno influenzato il traffico del sito, le entrate o qualsiasi altra metrica.
+Le annotazioni consentono di comunicare in modo efficace sfumature di dati contestuali e informazioni all’organizzazione. Consentono di collegare gli eventi del calendario a dimensioni/metriche specifiche. È possibile annotare un intervallo di date o di date con problemi di dati noti, festività pubbliche, avvii di campagne, ecc. Puoi quindi visualizzare in modo grafico gli eventi e vedere se campagne o altri eventi hanno influenzato il traffico del sito, le entrate o qualsiasi altra metrica.
 
 Ad esempio, supponiamo che tu stia condividendo progetti creati con la tua organizzazione. Noterai un calo o un picco nel traffico o in altri dati e leghi un’annotazione alle metriche, alle dimensioni o ai segmenti interessati. Queste annotazioni vengono quindi visualizzate in una tabella o in una visualizzazione a linee e forniscono contesto di dati a te e ai consumatori dei progetti Workspace.
 
@@ -38,7 +38,7 @@ Tuttavia, gli amministratori possono assegnare [!UICONTROL Annotation Creation] 
 
 ## Visualizzare le annotazioni
 
-È possibile visualizzare le annotazioni in diversi modi: come [!UICONTROL Line] visualizzazione (in quanto si tratta di dati con tendenze), come [!UICONTROL Freeform] tabella, a [!UICONTROL Bar] grafico o in un file .pdf esportato.
+È possibile visualizzare le annotazioni in diversi modi: in [!UICONTROL Line] visualizzazione (in quanto si tratta di dati con tendenze), in un [!UICONTROL Freeform] tabella, a [!UICONTROL Bar] grafico o in un file .pdf esportato.
 
 ### Visualizzazione delle linee
 

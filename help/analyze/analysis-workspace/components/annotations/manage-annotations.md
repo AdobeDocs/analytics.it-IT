@@ -2,10 +2,10 @@
 title: Gestione delle annotazioni
 description: Come gestire le annotazioni in Workspace.
 role: User, Admin
-source-git-commit: c4ffa987cd652b3e8f36fadf61ee6a395365fda0
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 0%
+source-wordcount: '458'
+ht-degree: 10%
 
 ---
 
@@ -47,23 +47,18 @@ La modifica di un’annotazione consente di regolare intervalli di date, colori,
 
 Entrambe queste opzioni consentono di tornare al Generatore di annotazioni. In questo caso è possibile apportare le modifiche necessarie e salvare la nuova versione.
 
-## Condividere le annotazioni
+## Altre attività di annotazione
 
-![](assets/share-ann.png)
+Gestione annotazioni consente agli amministratori di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le annotazioni. Non è visibile agli utenti non amministratori.
 
-1. Seleziona le annotazioni da condividere e fai clic su [!UICONTROL Share].
+È sufficiente selezionare una o più annotazioni e viene visualizzata la barra delle attività.
 
-1. In [!UICONTROL Share Component] cerca i singoli utenti o i gruppi con i quali vuoi condividere le annotazioni.
-
-1. Sotto [!UICONTROL Organization]....
-
-1. Fai clic su [!UICONTROL Save].
-
-## Assegnare tag alle annotazioni
-
-Da seguire
-
-
-
-
-
+| Attività | Descrizione |
+| --- | --- |
+| Add | Consente di accedere al Generatore di annotazioni per creare nuove annotazioni. |
+| Tag | Tutti gli utenti possono creare tag per le annotazioni e applicarne uno o più a un’annotazione. Tuttavia, puoi visualizzare solo i tag per i segmenti di tua proprietà. Che tipo di tag è utile creare? Di seguito sono riportati alcuni suggerimenti di tag utili:<ul><li>Tag basati sui nomi dei team, ad esempio Social Marketing e Mobile Marketing</li><li>Tag del progetto (tag di analisi), ad esempio Analisi per pagina di ingresso</li><li>Tag di categorie: maschile; geografia</li><li>Tag del flusso di lavoro: Curato per (una specifica unità operativa); Approvato</li></ul> |
+| Elimina | L’eliminazione di un’annotazione la rimuove da qualsiasi progetto dell’organizzazione. |
+| Rinomina | La denominazione di un’annotazione viene rinominata in tutti i progetti a cui è stata applicata. |
+| Copia | Crea una copia distinta con il proprio ID di annotazione, ma con lo stesso nome e la stessa definizione. |
+| Export to CSV (Esporta in CSV) | Esporta la definizione dell’annotazione in un file .csv . |
+| Filtro (barra a sinistra) | Filtrare per tag, suite di rapporti, proprietari e altri filtri (Personali, Approvati, Preferiti, Condivisi con me e Mostra tutto). |
