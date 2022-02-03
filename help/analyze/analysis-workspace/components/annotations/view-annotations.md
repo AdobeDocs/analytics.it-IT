@@ -2,15 +2,19 @@
 title: Visualizzare le annotazioni
 description: Come visualizzare le annotazioni in Workspace.
 role: User, Admin
-source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
+source-git-commit: 0985a31596103a0325509a66a6bde7688e24e9bd
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '133'
 ht-degree: 5%
 
 ---
 
 
 # Visualizzare le annotazioni
+
+>[!NOTE]
+>
+>Questa funzione è attualmente in fase di test.
 
 Le annotazioni si presentano in modo leggermente diverso, a seconda che si estendono su un singolo giorno o su un intervallo di date.
 
