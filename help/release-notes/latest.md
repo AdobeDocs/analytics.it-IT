@@ -1,17 +1,21 @@
 ---
 title: Visualizza le note sulla versione corrente di Adobe Analytics
 description: Note sulla versione più recente di Analytics
-source-git-commit: e19299820a03783215d8425b937a0935311d9e7b
+exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
+source-git-commit: 16e74d5374fd761af973ca7af9dd1c4022010911
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 94%
+source-wordcount: '574'
+ht-degree: 70%
 
 ---
 
-
 # Note sulla versione più recente di Adobe Analytics
 
-**Gennaio 2022**
+>[!IMPORTANT]
+>
+>Queste note sulla versione contengono informazioni precedenti al rilascio soggette a modifiche.
+
+**16 febbraio 2022**
 
 Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cloud](https://business.adobe.com/it/products/adobe-experience-cloud-products.html). Ottieni la documentazione, i tutorial e i corsi di supporto autonomo più recenti su Experience League.
 
@@ -19,40 +23,36 @@ Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cl
 
 | Funzione | Descrizione | Data definita |
 | ----------- | ---------- | ------- |
-| N/D |  | Consulta [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=it) |
+| Nessuna nuova funzionalità questo mese | N/D | Consulta [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=it) |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Correzioni in Adobe Analytics e Customer Journey Analytics {#aa-fixes}
+## Correzioni in Adobe Analytics
 
-* È stato risolto un problema di Analysis Workspace a causa del quale l’ID di audience non disponeva degli elementi dimensionali. (AN-262038; AN-279315)
-* È stato risolto un problema che impediva agli utenti di caricare un progetto [!DNL Target] salvato in Workspace. (AN-277461; AN-275825; AN-266397)
-* È stato risolto un problema a causa del quale le funzioni non abilitate erano visibili nell’interfaccia utente. (AN-262006)
-* È stato risolto un problema che si verificava durante la modifica della data utilizzando il campo data in Workspace. Di conseguenza, [!UICONTROL End Time] che cambia dalle 11:59 alle 12:00. (AN-277269; AN-277481)
-* È stato risolto un problema che causava l’interruzione dell’interfaccia utente Segmento durante l’aggiunta di nuovi segmenti in un segmento già caricato. (AN-260827)
-* È stato risolto un problema che impediva agli utenti di accedere ai progetti Workspace condivisi. (AN-267529)
-* È stato aggiunto un messaggio di errore che compare quando un intervallo di date continuo ha una data di inizio successiva alla data di fine. (AN-270488)
-* Sono stati risolti diversi problemi relativi ai feed di dati. (AN-275876; AN-270512; AN-277284; AN-277290; AN-274893; AN-274606; AN-269651)
-* È stato risolto un problema relativo agli intervalli di date nei grafici a causa del quale venivano ignorati i filtri di data nelle tabelle. (AN-263999)
-* È stato risolto un problema che causava l’invio anticipato dei rapporti pianificati a causa dell’ora legale. (AN-276410; AN-276305)
-* È stato risolto un problema che impediva il download del progetto in un file `.csv` in Workspace. (AN-275834)
+* Sono stati risolti diversi problemi relativi a [!UICONTROL Server call usage]. (AN-279134, AN-279878, AN-280802, AN-279097, AN-191284, AN-269720)
+* È stato risolto un problema a causa del quale la Data Warehouse esportava file .csv vuoti. (AN-280291)
+* È stato risolto un problema che impediva il popolamento dei nomi dei tipi di pubblico per i segmenti recenti. (AN-279715)
+* È stato risolto un problema relativo ai tempi di reporting lenti. (AN-280055)
+* Sono stati risolti dei problemi a causa dei quali le classificazioni non classificavano tutti gli elementi dimensionali. (AN-280031)
+
 
 ### Ulteriori correzioni in Adobe Analytics
 
-AN-253294; AN-254976; AN-255377; AN-255561; AN-258550; AN-259336; AN-263935; AN-265094; AN-269441; AN-269486; AN-269855; AN-271166; AN-271588; AN-272088; AN-272249; AN-272859; AN-272873; AN-272885; AN-273229; AN-273913; AN-274237; AN-274472; AN-274491; AN-274619; AN-274766; AN-275248; AN-275259; AN-275271; AN-275315; AN-275388; AN-275418; AN-275597; AN-275643; AN-275650; AN-275651; AN-275675; AN-275682; AN-275704; AN-275711; AN-275796; AN-275834; AN-275923; AN-275941; AN-276044; AN-276125; AN-276157; AN-276397; AN-276597; AN-276789; AN-276834; AN-276861; AN-276870; AN-276963; AN-276975; AN-277000; AN-277044; AN-277093; AN-277200; AN-277215; AN-277271; AN-277281; AN-277362; AN-277419; AN-277492; AN-277498; AN-277533; AN-277619; AN-277675; AN-277681; AN-277767; AN-277805; AN-277810; AN-277818; AN-277875; AN-277933; AN-277988; AN-278105; AN-278115; AN-278122; AN-278192; AN-278407; AN-278437; AN-278559; AN-278604; AN-278610; AN-278709; AN-278835; AN-278849; AN-278881; AN-279067; AN-279103; AN-279111; AN-279219; AN-279237; AN-279312
+AN-268093, AN-273820, AN-274435, AN-274904, AN-275356, AN-275947, AN-276160, AN-2 276258, AN-276705, AN-277051, AN-277957, AN-278693, AN-278882, AN-279000, AN-2 79046, AN-279362, AN-279460, AN-279488, AN-279554, AN-279572, AN-279663, AN-277 9755, AN-279825, AN-280002, AN-280013, AN-280019, AN-280033, AN-280086, AN-280 232, AN-280264, AN-280288, AN-280342, AN-280347, AN-280360, AN-280370, AN-2807 24, AN-280830, AN-280941, AN-281353, AN-281424, AN-281533
 
-## Avvisi importanti per [!DNL Analytics] amministratori {#aa-notices}
+
+## Avvisi importanti per [!DNL Analytics] amministratori
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
 | Scadenza dell’estensione per inserire nell’elenco Consentiti EOL le integrazioni legacy di Analytics OAuth/JWT | 14 gennaio 2022 | Il **25 maggio 2022** scadrà l’estensione per l’elenco Consentiti di [API di Analytics 1.3, API SOAP 1.4 e del servizio obsoleto Legacy OAuth/JWT di Analytics](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md). Questo offriva ai clienti che utilizzano le credenziali OAuth/JWT legacy di [!DNL Adobe Analytics] ulteriore tempo per migrare le integrazioni client alle [credenziali Adobe IMS](https://developer.adobe.com/console). Questa scadenza riguarda (ma non è limitata a) i clienti [!DNL Adobe Analytics Livestream] e [!DNL Adobe Campaign] che non hanno completato le migrazioni IMS richieste. I clienti che attualmente utilizzano versioni precedenti delle credenziali OAuth/JWT [!DNL Analytics] tramite l’estensione per inserire nell’elenco Consentiti e che non completano la migrazione alle credenziali IMS entro il 25 maggio 2022 perderanno l’accesso ai servizi Adobe. I clienti di Livestream possono fare riferimento a queste [istruzioni](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) durante la migrazione delle applicazioni client alle credenziali IMS. I clienti [!DNL Campaign] possono contattare il proprio account team Adobe per informazioni sull’aggiornamento alla versione più recente di [!DNL Campaign]. |
 | Fine del ciclo di vita per [!DNL Reports & Analytics] | 4 gennaio 2022 | A partire dal **31 dicembre 2023**, Adobe intende terminare [!DNL Reports & Analytics] e i relativi rapporti e funzioni. I rapporti, le visualizzazioni e la tecnologia su cui si basa [!DNL Reports & Analytics] non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di [!DNL Reports & Analytics] sono disponibili in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di [!DNL Reports & Analytics] sono state trasferite ad Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. [Questo avviso](https://spark.adobe.com/page/6WnF8JK6IRDhf/) spiega il processo di fine del ciclo di vita. |
-| Aggiornamento dei servizi SFTP (Secure File Transfer Protocol) | 13 gennaio 2022 | Il **2 maggio 2022**, in [!DNL Adobe Analytics] verranno aggiornati i servizi SFTP (Secure File Transfer Protocol) per migliorare ulteriormente la sicurezza dei trasferimenti di file. Con questa modifica, alcune configurazioni client SFTP non saranno più supportate. Stiamo anche aggiungendo alcune opzioni di connessione che saranno disponibili entro il **1° marzo 2022**. Questo influisce solo sui dati inviati o recuperati da Adobe Analytics tramite SFTP. Il protocollo FTP non sarà interessato. Per evitare interruzioni del servizio, assicurati che i client SFTP (codice, strumenti, servizi) siano in linea con le modifiche dettagliate [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=it). |
-| Tipo RDC _Global + China_ | 22 novembre 2021 | _Globale + Cina_ è un nuovo tipo di raccolta dati regionali (Regional Data Collection, RDC) che semplifica il routing del traffico per i clienti globali che utilizzano [!UICONTROL China Performance Optimization Add-On Package]. In passato, era necessario determinare se i dati dovevano essere instradati all’endpoint di raccolta della Cina o a uno degli endpoint di raccolta globale. Ora puoi scegliere questo *tipo* di RDC per consentire ad Adobe di determinare l’endpoint di raccolta ottimale in base alla geolocalizzazione dell’utente. |
-| Fine del ciclo vita per la completa elaborazione nelle origini dati | 18 ottobre 2021 | Il **31 gennaio 2022**, Adobe terminerà l’Elaborazione completa, che consente agli utenti di inserire dati hit offline in Analytics. Questa funzionalità è disponibile tramite [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=it ) |
-
-{style=&quot;table-layout:auto&quot;}
+| Aggiornamento dei servizi SFTP (Secure File Transfer Protocol) | 13 gennaio 2022 | Il **2 maggio 2022**, in [!DNL Adobe Analytics] verranno aggiornati i servizi SFTP (Secure File Transfer Protocol) per migliorare ulteriormente la sicurezza dei trasferimenti di file. Con questa modifica, alcune configurazioni client SFTP non saranno più supportate. Stiamo anche aggiungendo alcune opzioni di connessione che saranno disponibili entro il **1° marzo 2022**. Questo influisce solo sui dati inviati o recuperati da Adobe Analytics tramite SFTP. Il protocollo FTP non è interessato. Per evitare interruzioni del servizio, assicurati che i tuoi client SFTP (codice, strumenti, servizi) siano in linea con le modifiche dettagliate [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=it). |
 
 ## AppMeasurement {#appm}
 
 Per gli ultimi aggiornamenti sulle versioni di AppMeasurement (versione 2.22.4), fai riferimento alle [note sulla versione di AppMeasurement per JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=it).
+
+>[!MORELIKETHIS]
+>[[!DNL Customer Journey Analytics] Note sulla versione di ](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
+
