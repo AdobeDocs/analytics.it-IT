@@ -1,21 +1,23 @@
 ---
 title: Aggiornamento dei servizi SFTP - Domande frequenti
 description: Domande frequenti sull’aggiornamento pianificato dei servizi SFTP a maggio 2022.
-source-git-commit: eb9bdcbd99d45afc913c5ade37e8fb5c62a3a456
+exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
+source-git-commit: 49cfd64583826f7c44ba1acaa6d0c7812d30f821
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 2%
+source-wordcount: '452'
+ht-degree: 11%
 
 ---
 
-
 # Aggiornamento dei servizi SFTP - Domande frequenti
 
-On **2 maggio 2022**, Adobe Analytics aggiornerà il protocollo Secure File Transfer [SFTP] servizi per migliorare la sicurezza dei trasferimenti di file. Con questa modifica, alcune configurazioni client SFTP non saranno più supportate. Verranno inoltre aggiunte alcune opzioni di connessione disponibili per **1 marzo 2022**. Questo influisce solo sui dati inviati o recuperati da Adobe Analytics tramite SFTP. Il protocollo FTP non sarà interessato. Per evitare interruzioni del servizio, assicurati che i clienti SFTP (codice, strumenti, servizi) siano in linea con le modifiche descritte di seguito.
+On **2 maggio 2022**, Adobe Analytics aggiornerà il protocollo Secure File Transfer [SFTP] servizi per migliorare la sicurezza dei trasferimenti di file. Con questa modifica, alcune configurazioni client SFTP non saranno più supportate. Stiamo anche aggiungendo alcune opzioni di connessione che saranno disponibili entro il **1° marzo 2022**. Questo influisce solo sui dati inviati o recuperati da Adobe Analytics tramite SFTP. Il protocollo FTP non sarà interessato. Per evitare interruzioni del servizio, assicurati che i clienti SFTP (codice, strumenti, servizi) siano in linea con le modifiche descritte di seguito.
 
 ## Come posso determinare quali algoritmi, tipi di connessione e protocolli sono attualmente utilizzati dalla mia organizzazione?
 
 Il software FTP/SFTP utilizzato deve indicare quali impostazioni specifiche vengono utilizzate nelle connessioni configurate per lo scambio di dati con Adobe Analytics. Questo software dovrebbe includere anche la documentazione sulle diverse opzioni disponibili per le connessioni. Le opzioni che saranno supportate dopo questo aggiornamento sono ampiamente supportate e accettate nel settore.
+
+Le opzioni di connessione che verranno rimosse sono generalmente considerate obsolete e non utilizzate nel software corrente. Se hai aggiornato il software FTP/SFTP negli ultimi tre anni, probabilmente disponi già di una connessione conforme.
 
 ## Quali funzioni di Adobe Analytics utilizzano SFTP per l’acquisizione dei dati?
 
