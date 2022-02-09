@@ -1,17 +1,17 @@
 ---
-description: Spiega la nuova strategia per il rilascio continuo di funzioni per Adobe Analytics
+description: Spiega la strategia di rilascio continuo di funzioni per Adobe Analytics
 title: Rilasci di funzioni di Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 492f2333d07d887ce89d549306b05ee0df02fe90
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 90%
+source-wordcount: '374'
+ht-degree: 86%
 
 ---
 
 # Rilasci di funzioni di Adobe Analytics
 
-Precedentemente, i rilasci delle funzioni di Adobe Analytics seguivano una pianificazione mensile fissa. A partire da aprile 2020, Adobe Analytics è passato a un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle nuove funzioni.
+I rilasci di Adobe Analytics operano su un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni.
 
 ## Strategia di rilascio
 
@@ -27,7 +27,7 @@ Con ogni rilascio di funzioni, la timeline da RTP a GA può variare. L’obietti
 
 ## Flag di funzioni
 
-I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di aggiungere `app.launchdarkly.com` all’ [elenco Consentiti](/help/technotes/ip-addresses.md) del firewall per garantire un’esperienza ottimale durante la fase di rilascio. Una volta che la versione definitiva viene rilasciata al pubblico, il flag viene rimosso.
+I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di aggiungere `app.launchdarkly.com` all’[elenco di indirizzi consentiti](/help/technotes/ip-addresses.md) del firewall, per garantire un’esperienza ottimale durante la fase di rilascio. Una volta che la versione definitiva viene rilasciata al pubblico, il flag viene rimosso.
 
 Puoi visualizzare i flag di funzioni attivi in qualsiasi momento, da **Aiuto > Informazioni su Workspace > Flag di funzioni attivi**.
 
@@ -40,4 +40,4 @@ I rilasci graduali consentono ad Adobe di scalare meglio il processo di distribu
 | Domanda | Risposta |
 | --- | --- |
 | Posso richiedere l’accesso anticipato a una funzione? | No. Non sarà concesso un accesso anticipato.<br>Se desideri testare concetti di Analytics in fase iniziale, ti invitiamo a provare [Adobe Analytics Labs](/help/analyze/labs.md) per fornire feedback sulle innovazioni leader del settore. |
-| Questa strategia di rilascio influisce sull’accesso alle funzioni? | No. Una volta che una funzione raggiunge la fase GA, potrai accedervi se è inclusa nel tuo pacchetto Analytics.<br>Puoi visualizzare i dettagli del pacchetto Analytics in  [Feature Access Levels](/help/admin/company/feature-access-levels.md) (Livelli di accesso alle funzioni). |
+| Questa strategia di rilascio influisce sull’accesso alle funzioni? | No. Una volta che una funzione raggiunge la fase GA, potrai accedervi se è inclusa nel tuo pacchetto Analytics.<br>Puoi visualizzare i dettagli del pacchetto Analytics in [Livelli di accesso alle funzioni](/help/admin/company/feature-access-levels.md). |
