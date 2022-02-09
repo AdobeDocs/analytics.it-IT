@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Fornisce istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 98%
+source-wordcount: '1030'
+ht-degree: 97%
 
 ---
 
 
-# Guida agli strumenti di Analytics {#analyze}
+# Guida agli strumenti di Adobe Analytics {#analyze}
 
 + [Guida agli strumenti di Analytics](home.md)
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
@@ -49,7 +50,7 @@ ht-degree: 98%
          + [Confronto delle date](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
    + Visualizzazioni {#visualizations}
       + [Panoramica delle visualizzazioni](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-      + [Gestire le origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
+      + [Gestione delle origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
       + Tabella a forma libera {#freeform-table}
          + [Tabella a forma libera](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + Impostazioni colonna e riga {#column-row-settings}

@@ -4,17 +4,18 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Adobe Analytics. '
-source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 97%
 
 ---
 
 
-# Guida all’implementazione di Analytics {#implementation}
+# Guida all’implementazione di Adobe Analytics {#implementation}
 
 + [Implementazione di Adobe Analytics](home.md)
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [Note sulla versione di AppMeasurement](appmeasurement-updates.md)
 + Variabili, funzioni e metodi di Analytics {#vars}
    + [Panoramica](vars/overview.md)

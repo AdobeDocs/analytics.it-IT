@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Guida all’importazione di Analytics
 breadcrumb-title: Guida all’importazione
 user-guide-description: 'Trasferisci i dati in Analytics da sorgenti esterne, sia in massa che in tempo reale. '
-source-git-commit: a9d0cc251e8902f3c9c3cd9c31cbc71ae6ee20e9
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 100%
+source-wordcount: '136'
+ht-degree: 92%
 
 ---
 
 
-# Guida all’importazione di Analytics {#import}
+# Guida all’importazione di Adobe Analytics {#import}
 
 + [Guida all’importazione di Analytics](home.md)
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Origini dati {#data-sources}
    + [Panoramica su Origini dati](c-data-sources/datasrc-home.md)
    + [Funzionamento di Origini dati](c-data-sources/datasrc-how-data-sources-works.md)
