@@ -2,28 +2,28 @@
 title: Visualizza le note sulla versione corrente di Adobe Analytics
 description: Note sulla versione più recente di Analytics
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 16e74d5374fd761af973ca7af9dd1c4022010911
+source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 70%
+source-wordcount: '646'
+ht-degree: 61%
 
 ---
 
-# Note sulla versione più recente di Adobe Analytics
+# Note sulla versione corrente di Adobe Analytics (febbraio 2022)
 
 >[!IMPORTANT]
 >
 >Queste note sulla versione contengono informazioni precedenti al rilascio soggette a modifiche.
 
-**16 febbraio 2022**
+**Ultimo aggiornamento**: 10 febbraio 2022
 
 Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cloud](https://business.adobe.com/it/products/adobe-experience-cloud-products.html). Ottieni la documentazione, i tutorial e i corsi di supporto autonomo più recenti su Experience League.
 
 ## Nuove funzioni di Adobe Analytics {#aa-features}
 
-| Funzione | Descrizione | Data definita |
+| Funzione | Descrizione | [Data definita](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=it) |
 | ----------- | ---------- | ------- |
-| Nessuna nuova funzionalità questo mese | N/D | Consulta [Disponibilità generale](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=it) |
+| Modalità anteprima progetto scorecard mobile | Avvia un’anteprima dell’aspetto della scorecard mobile nell’app delle dashboard di Analytics, direttamente dal generatore di scorecard. La modalità di anteprima consente agli utenti di interagire con filtri e grafici nello stesso modo in cui si trovavano nell’app, consentendo loro di visualizzare un’anteprima dell’esperienza prima di salvare e condividere la scorecard. Gli utenti possono inoltre utilizzare il selettore dispositivi in modalità anteprima per vedere come si presenterà la loro scorecard sui diversi dispositivi. | 16 febbraio 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
