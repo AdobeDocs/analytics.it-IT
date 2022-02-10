@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Note sulla versione di Analytics
 breadcrumb-title: Note sulla versione
 user-guide-description: Elenco delle nuove funzioni e descrizioni delle correzioni di bug.
-source-git-commit: 4ccda7057df7543125be8c69e92aed6c45aed80f
+source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 29%
+source-wordcount: '39'
+ht-degree: 30%
 
 ---
 
@@ -20,3 +20,5 @@ ht-degree: 29%
    + [Note sulla versione 2021](2021.md)
    + [Note sulla versione 2020](2020.md)
    + [Note sulla versione 2019](2019-earlier.md)
++ [Aggiornamenti alla documentazione](doc-updates.md)
++ [Versioni delle funzioni di Analytics](releases.md)

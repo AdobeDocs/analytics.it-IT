@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Note tecniche di Analytics
 breadcrumb-title: Note tecniche
 user-guide-description: Una knowledge base contenente articoli utili che non appartengono a uno specifico strumento o componente di analisi.
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: fac5627cec2a398aaca8272fefe8497fbb8fb315
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 79%
+source-wordcount: '196'
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 79%
 # Note tecniche di Analytics {#technotes}
 
 + [Note tecniche di Analytics](home.md)
-+ [Aggiornamenti alla documentazione](doc-updates.md)
 + Adobe Analytics per gli utenti di Google Analytics {#ga-to-aa}
    + [Aiuto per gli utenti di Adobe Analytics per Google Analytics](ga-to-aa/home.md)
    + [Account e suite di rapporti](ga-to-aa/accounts.md)
@@ -44,7 +43,6 @@ ht-degree: 79%
    + [Opzioni per attenuare l’effetto delle limitazioni dei cookie del browser](cookies/cookieless.md)
 + [Conservazione dati](data-retention.md)
 + [Escludere i dati](exclude-data.md)
-+ [Versioni future](releases.md)
 + [IP e domini utilizzati da Adobe Analytics](ip-addresses.md)
 + [Latenza](latency.md)
 + [Valore traffico ridotto](low-traffic.md)
