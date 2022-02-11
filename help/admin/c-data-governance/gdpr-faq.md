@@ -3,10 +3,10 @@ description: Domande frequenti sulla governance dei dati in Adobe Analytics
 title: Domande frequenti
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>In che modo Adobe Analytics supporta le richieste di accesso e di cancellazione per gli utenti finali (persone interessate) convalidate dai clienti (titolari del trattamento)?</b> </p> </td> 
-   <td colname="col2"> <p>Quando entreranno in vigore diverse normative per la Privacy dei dati (RGPD, CCPA), Adobe Analytics supporterà l’elaborazione delle richieste verificate inviate dai titolari del trattamento all’API della Privacy dei dati per Experience Cloud al fine di favorire un processo maggiormente automatizzato. L’API della Privacy dei dati per Adobe è stata pensata per favorire l’elaborazione delle richieste di diritti emesse dagli individui (ad esempio, richieste di accesso e di cancellazione) per i dati dei clienti archiviati nelle soluzioni Adobe Experience Cloud. È flessibile e scalabile in base al numero di richieste di accesso e di cancellazione dei dati che la società riceve dalle persone interessate. Inoltre, l’API della Privacy dei dati consente ai clienti di controllare lo stato del processo tramite il quale le richieste di accesso e di cancellazione dei dati vengono soddisfatte. </p> <p>Per altre informazioni consulta la <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html"> documentazione sull’API della Privacy dei dati. </a> </p> </td> 
+   <td colname="col2"> <p>Quando entreranno in vigore diverse normative per la Privacy dei dati (RGPD, CCPA), Adobe Analytics supporterà l’elaborazione delle richieste verificate inviate dai titolari del trattamento all’API della Privacy dei dati per Experience Cloud al fine di favorire un processo maggiormente automatizzato. L’API della Privacy dei dati per Adobe è stata pensata per favorire l’elaborazione delle richieste di diritti emesse dagli individui (ad esempio, richieste di accesso e di cancellazione) per i dati dei clienti archiviati nelle soluzioni Adobe Experience Cloud. È flessibile e scalabile in base al numero di richieste di accesso e di cancellazione dei dati che la società riceve dalle persone interessate. Inoltre, l’API di Privacy Service consente al cliente di controllare lo stato del modo in cui vengono soddisfatte le richieste di accesso e cancellazione dei dati. </p> <p>Per ulteriori dettagli vedi <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Documentazione API di Privacy Service. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Quale figura si occupa di ricevere, accettare e soddisfare le richieste di Privacy dei dati degli utenti finali?</b> </p> </td> 

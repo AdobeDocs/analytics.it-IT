@@ -1,21 +1,19 @@
 ---
 description: Esempi di etichette sulla privacy dei dati per variabili Adobe Analytics
 title: Etichette Privacy dei dati per le variabili di Analytics
-uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '3642'
-ht-degree: 100%
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+workflow-type: tm+mt
+source-wordcount: '3906'
+ht-degree: 96%
 
 ---
 
 # Etichette Privacy dei dati per le variabili di Analytics
 
-## Perché etichettare i dati? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
+## Perché etichettare i dati? {#why-label}
 
-Molti clienti Adobe dispongono di team legali che hanno rivisto le normative sulla Privacy dei dati (RGPD, CCPA, ecc.) e che hanno tratto le proprie conclusioni sul modo in cui i dati devono essere trattati per conformarsi a tali normative. Le interpretazioni giuridiche possono essere diverse in base alle aziende e anche le impostazioni di gestione dei dati desiderate possono differire tra i clienti. Poiché i clienti hanno preferenze diverse per quanto riguarda il trattamento dei dati in termini di privacy e diversi set di dati, in Adobe i clienti, in qualità di titolari dei dati, possono personalizzare le impostazioni desiderate per il trattamento dei propri dati specifici in base alla Privacy dei dati. Questo consente a ogni singolo cliente di elaborare le richieste di Privacy dei dati nella maniera più adatta al proprio marchio e al proprio specifico set di dati.
+Molti clienti Adobe dispongono di team legali che hanno rivisto le normative sulla Privacy dei dati (RGPD, CCPA, ecc.). Questi team possono aver tratto le proprie conclusioni su come gestire i dati al fine di conformarsi alle normative sulla Privacy dei dati. Le interpretazioni giuridiche possono essere diverse in base alle aziende e anche le impostazioni di gestione dei dati desiderate possono differire tra i clienti. Poiché i clienti hanno preferenze diverse per quanto riguarda il trattamento dei dati in termini di privacy e diversi set di dati, in Adobe i clienti, in qualità di titolari dei dati, possono personalizzare le impostazioni desiderate per il trattamento dei propri dati specifici in base alla Privacy dei dati. Questo consente a ogni singolo cliente di elaborare le richieste di Privacy dei dati nella maniera più adatta al proprio marchio e al proprio specifico set di dati.
 
 Adobe Analytics offre gli strumenti necessari per etichettare i dati in base al loro stato di riservatezza e a vincoli contrattuali. Le etichette sono importanti e utili per: (1) individuare le persone interessate, (2) determinare i dati da restituire come parte di una richiesta di accesso e (3) individuare i campi di dati da cancellare in seguito a una richiesta di cancellazione.
 
@@ -23,7 +21,7 @@ Prima di capire quali etichette applicare a determinate variabili o campi, è ne
 
 L’implementazione Privacy dei dati in Adobe Analytics supporta le seguenti etichette per i dati di identità, i dati sensibili e la governance dei dati.
 
-## Etichette DULE {#section_B2E78130957647338495EF37DE21D6BC}
+## Etichette DULE {#dule-labels}
 
 >[!NOTE]
 >
@@ -90,7 +88,7 @@ Le etichette “S” per i dati sensibili vengono usate per organizzare in categ
 
 Le etichette per la governance dei dati consentono agli utenti di classificare i dati che riflettono considerazioni relative alla privacy e condizioni contrattuali conformi alle norme e ai criteri aziendali.
 
-**Etichette di accesso alla privacy dei dati**
+### Etichette di accesso alla privacy dei dati
 
 <table id="table_663EFF43A454498386F7F3E60875E0F8"> 
  <thead> 
@@ -121,7 +119,7 @@ Le etichette per la governance dei dati consentono agli utenti di classificare i
 
 Si prevede che per molte variabili verranno applicate le etichette di accesso, mentre alcune variabili riceveranno altre etichette. Tuttavia spetta all’utente, dopo aver consultato il team legale, decidere quali tra i dati raccolti condividere con le persone interessate.
 
-**Etichette di cancellazione della privacy dati**
+### Etichette di cancellazione della privacy dati
 
 <table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
  <thead> 
@@ -164,7 +162,7 @@ Si prevede che per molte variabili verranno applicate le etichette di accesso, m
  </tbody> 
 </table>
 
-**Etichette di identità privacy dati**
+### Etichette di identità privacy dati
 
 <table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
  <thead> 
@@ -176,9 +174,9 @@ Si prevede che per molte variabili verranno applicate le etichette di accesso, m
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>None </p> </td> 
+   <td colname="col1"> <p>Nessuno </p> </td> 
    <td colname="col2"> <p>Questa variabile non contiene un ID che verrà usato per le richieste di Privacy dei dati. </p> </td> 
-   <td colname="col3"> <p>Devi impostare una di queste etichette solo se questo campo contiene un ID che userai durante l’invio delle richieste di accesso o cancellazione tramite l’API o l’interfaccia utente Privacy dei dati. </p> </td> 
+   <td colname="col3"> <p>È necessario impostare una di queste etichette solo se questo campo contiene un ID che userai durante l’invio delle richieste di accesso o cancellazione tramite l’ [API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) o l’interfaccia utente di . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -205,11 +203,17 @@ Si prevede che per molte variabili verranno applicate le etichette di accesso, m
  </tbody> 
 </table>
 
+| Etichetta | Definizione | Altri requisiti |
+| --- | --- | --- |
+| Nessuno | Questa variabile non contiene un ID che verrà usato per le richieste di Privacy dei dati. | È necessario impostare una di queste etichette solo se questo campo contiene un ID che userai quando invii le richieste di accesso o di cancellazione tramite [API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) o interfaccia utente. |
+| ID-DEVICE | Questo campo contiene un ID che può essere utilizzato per identificare un dispositivo per una richiesta di Privacy dei dati, ma non può distinguere tra utenti diversi di un dispositivo condiviso.  Non è necessario specificare questa etichetta per tutte le variabili che contengono un ID (per questo si devono usare le etichette I1/I2). Usa questa etichetta se invii le richieste di Privacy dei dati usando gli ID memorizzati in questa variabile e vuoi cercare la variabile per l’ID specificato. | Richiede anche l’etichetta I1 o I2.<ul><li>Non può essere impostata negli eventi</li><li>Non può essere impostata nelle eVars Merchandising</li><li>Non può essere impostata nelle classificazioni</li></ul> |
+| ID-PERSON | Questo campo contiene un ID che può essere usato per identificare un utente autenticato (una persona specifica) per una richiesta di Privacy dei dati.  Non è necessario specificare questa etichetta per tutte le variabili che contengono un ID (per questo si devono usare le etichette I1/I2). Usa questa etichetta se invii le richieste di Privacy dei dati usando gli ID memorizzati in questa variabile e vuoi cercare la variabile per l’ID specificato. | Richiede anche l’etichetta I1 o I2.<ul><li>Non può essere impostata negli eventi</li><li>Non può essere impostata nelle eVars Merchandising</li><li>Non può essere impostata nelle classificazioni</li></ul> |
+
 ## Fornire un namespace quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Quando si applica un’etichetta ID-DEVICE o ID-PERSON a una variabile, viene richiesto di fornire un namespace. Puoi usare il namespace definito in precedenza o puoi definirne uno nuovo.
 
-**Usare un namespace definito in precedenza**
+### Usare un namespace definito in precedenza
 
 Se in precedenza hai assegnato un’etichetta ID ad altre variabili in una delle suite di rapporti della società di accesso, puoi selezionare uno dei namespace esistenti. È consigliabile riutilizzare lo spazio dei nomi se questa variabile contiene lo stesso tipo di ID di altre variabili già etichettate con lo spazio dei nomi e si desidera eseguire la ricerca di tutte quando si invia una richiesta.
 
@@ -218,7 +222,7 @@ Se in precedenza hai assegnato un’etichetta ID ad altre variabili in una delle
 
 ![](assets/namespace.png)
 
-**Definire un nuovo namespace**
+### Definire un nuovo namespace
 
 Puoi anche definire un nuovo namespace. Nelle stringhe del namespace consigliamo di usare solo caratteri alfanumerici oltre ai caratteri trattino basso, trattino e spazio. Tutti i caratteri verranno convertiti in lettere minuscole.
 
@@ -483,4 +487,4 @@ Esistono cinque variabili standard che contengono la marca temporale:
 
 Il codice per generare i file restituiti per le richieste di accesso privacy dei dati richiede che almeno una delle prime tre variabili di marca temporale sia inclusa nella richiesta di accesso (che quindi abbia un’etichetta ACC applicabile al tipo di richiesta). Se nessuna di queste è inclusa, allora la marca Ora hit personalizzata (UTC) sarà elaborata come se avesse etichetta ACC-ALL.
 
-Il file CSV restituito per le richieste di accesso Privacy dei dati convertirà i valori in questi campi da marche temporali unix a campi data/ora in formato AAAA-MM-GG HH:MM:SS (per esempio, 2018-05-01 13:49:22). Nel file HTML di riepilogo, questi valori di marca temporale saranno troncati per includere solo la data, in formato AAAA-MM-GG, per ridurre il numero di valori univoci che si verificano per questi campi.
+Il file CSV restituito per le richieste di accesso Privacy dei dati convertirà i valori in questi campi da marche temporali unix a campi data/ora in formato AAAA-MM-GG HH:MM:SS (ad esempio, 2018-05-01 13:49:22). Nel file HTML di riepilogo, questi valori di marca temporale saranno troncati per includere solo la data, in formato AAAA-MM-GG, per ridurre il numero di valori univoci che si verificano per questi campi.
