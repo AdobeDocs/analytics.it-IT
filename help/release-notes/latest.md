@@ -2,9 +2,9 @@
 title: Visualizza le note sulla versione corrente di Adobe Analytics
 description: Note sulla versione più recente di Analytics
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
+source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '650'
 ht-degree: 60%
 
 ---
@@ -23,7 +23,7 @@ Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cl
 
 | Funzione | Descrizione | [Data definita](releases.md) |
 | ----------- | ---------- | ------- |
-| Modalità anteprima progetto scorecard mobile | Avvia un’anteprima dell’aspetto della scorecard mobile nell’app delle dashboard di Analytics, direttamente dal generatore di scorecard. La modalità di anteprima consente agli utenti di interagire con filtri e grafici nello stesso modo in cui si trovavano nell’app, consentendo loro di visualizzare un’anteprima dell’esperienza prima di salvare e condividere la scorecard. Gli utenti possono inoltre utilizzare il selettore dispositivi in modalità anteprima per vedere come si presenterà la loro scorecard sui diversi dispositivi. | 16 febbraio 2022 |
+| Modalità anteprima progetto scorecard mobile | Avvia un’anteprima dell’aspetto della scorecard mobile nell’app delle dashboard di Analytics, direttamente dal generatore di scorecard. La modalità di anteprima consente agli utenti di interagire con filtri e grafici nello stesso modo in cui si trovavano nell’app, consentendo loro di visualizzare un’anteprima dell’esperienza prima di salvare e condividere la scorecard. Gli utenti possono inoltre utilizzare il selettore dispositivi in modalità anteprima per vedere come si presenterà la loro scorecard sui diversi dispositivi. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 16 febbraio 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
