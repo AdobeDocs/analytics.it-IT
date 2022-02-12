@@ -1,11 +1,11 @@
 ---
-title: Visualizza le note sulla versione corrente di Adobe Analytics
-description: Note sulla versione più recente di Analytics
+title: Note sulla versione più recente di Analytics
+description: Visualizza le note sulla versione corrente di Adobe Analytics.
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
+source-git-commit: 511e3f4c621137d76b40fcc04ea849a0bba9e3fa
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 60%
+source-wordcount: '673'
+ht-degree: 58%
 
 ---
 
@@ -24,6 +24,7 @@ Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cl
 | Funzione | Descrizione | [Data definita](releases.md) |
 | ----------- | ---------- | ------- |
 | Modalità anteprima progetto scorecard mobile | Avvia un’anteprima dell’aspetto della scorecard mobile nell’app delle dashboard di Analytics, direttamente dal generatore di scorecard. La modalità di anteprima consente agli utenti di interagire con filtri e grafici nello stesso modo in cui si trovavano nell’app, consentendo loro di visualizzare un’anteprima dell’esperienza prima di salvare e condividere la scorecard. Gli utenti possono inoltre utilizzare il selettore dispositivi in modalità anteprima per vedere come si presenterà la loro scorecard sui diversi dispositivi. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 16 febbraio 2022 |
+| Endpoint di progetti API | Aggiungi, modifica o elimina progetti Analysis Workspace utilizzando l’API. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 1° febbraio 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -35,11 +36,9 @@ Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cl
 * È stato risolto un problema relativo ai tempi di reporting lenti. (AN-280055)
 * Sono stati risolti dei problemi a causa dei quali le classificazioni non classificavano tutti gli elementi dimensionali. (AN-280031)
 
-
 ### Ulteriori correzioni in Adobe Analytics
 
 AN-268093, AN-273820, AN-274435, AN-274904, AN-275356, AN-275947, AN-276160, AN-2 276258, AN-276705, AN-277051, AN-277957, AN-278693, AN-278882, AN-279000, AN-2 79046, AN-279362, AN-279460, AN-279488, AN-279554, AN-279572, AN-279663, AN-277 9755, AN-279825, AN-280002, AN-280013, AN-280019, AN-280033, AN-280086, AN-280 232, AN-280264, AN-280288, AN-280342, AN-280347, AN-280360, AN-280370, AN-2807 24, AN-280830, AN-280941, AN-281353, AN-281424, AN-281533
-
 
 ## Avvisi importanti per [!DNL Analytics] amministratori
 
@@ -55,4 +54,3 @@ Per gli ultimi aggiornamenti sulle versioni di AppMeasurement (versione 2.22.4),
 
 >[!MORELIKETHIS]
 >[[!DNL Customer Journey Analytics] Note sulla versione di ](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
-
