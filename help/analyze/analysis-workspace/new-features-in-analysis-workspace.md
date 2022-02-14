@@ -5,10 +5,10 @@ title: Scopri le novità di Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
+source-git-commit: c818db35524d6c0d416ee2560943526f19842c5e
 workflow-type: tm+mt
-source-wordcount: '8174'
-ht-degree: 100%
+source-wordcount: '8164'
+ht-degree: 99%
 
 ---
 
@@ -548,7 +548,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analisi dei contributi: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=it"  > notifica token </a> </p> </td> 
-   <td colname="col2"> <p>Se la tua società ha un numero limitato di token di analisi dei contributi, ora puoi visualizzare una notifica nell’interfaccia utente di Analysis Workspace ogni volta che consumi un token. Puoi quindi sapere quanti token sono ancora disponibili.  </p> <p>(Gli utenti amministratori possono limitare il numero di utenti che possono utilizzare i token modificando l’autorizzazione del gruppo. Il titolo dell’autorizzazione è “Anomaly Detection and Contribution Analysis” (Rilevamento anomalie e Analisi contributi), alla voce <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin (Amministrazione)</span> &gt; <span class="uicontrol">All admin (Tutti gli amministratori)</span> &gt; <span class="uicontrol">User management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span>).  </p> </td> 
+   <td colname="col2"> <p>Se la tua società ha un numero limitato di token di analisi dei contributi, ora puoi visualizzare una notifica nell’interfaccia utente di Analysis Workspace ogni volta che consumi un token. Puoi quindi sapere quanti token sono ancora disponibili. </p> <p>(Gli utenti amministratori possono limitare il numero di utenti che possono utilizzare i token modificando l’autorizzazione del gruppo. L’autorizzazione si chiama "Anomaly Detection and Contribution Analysis" (Rilevamento anomalie e Analisi contributi) in <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Tutti gli amministratori </span>  &gt; <span class="uicontrol"> Gestione utente </span>&gt; <span class="uicontrol"> Modifica gruppi </span> &gt; <span class="uicontrol"> Modifica accesso a tutti i rapporti </span> &gt; <span class="uicontrol"> Personalizzare gli strumenti delle suite di rapporti </span> &gt; <span class="uicontrol"> Strumenti E Rapporti </span>. ) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>File CSV con caratteri multibyte </p> </td> 
@@ -598,7 +598,7 @@ Nuove funzionalità rilasciate il 26 ottobre 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Visualizzazione mappa </a> </p> </td> 
-   <td colname="col2"> <p>La nuova visualizzazione mappa permette di visualizzare agevolmente le interazioni dei clienti nel contesto della loro posizione. La visualizzazione spazia dalla modalità macro (globale) a quella micro (città) e permette di ingrandire e ridimensionare una serie di livelli gerarchici, per visualizzare i cluster di utenti nelle varie regioni. </p> <p>È possibile visualizzare i dati relativi alla posizione tramite indirizzo IP (per i set di dati non mobili) oppure riportare i dati di latitudine e longitudine (per i clienti che utilizzano SDK per Mobile) in Analysis Workspace.  </p> </td> 
+   <td colname="col2"> <p>La nuova visualizzazione mappa permette di visualizzare agevolmente le interazioni dei clienti nel contesto della loro posizione. La visualizzazione spazia dalla modalità macro (globale) a quella micro (città) e permette di ingrandire e ridimensionare una serie di livelli gerarchici, per visualizzare i cluster di utenti nelle varie regioni. </p> <p>Puoi visualizzare i dati sulla posizione tramite indirizzo IP (per i set di dati non mobili) oppure riportare i dati di latitudine e longitudine (per i clienti che utilizzano l’SDK di Mobile) in Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > Selettore di granularità per le visualizzazioni con tendenze </a> </p> </td> 
