@@ -2,13 +2,13 @@
 title: Visualizzare le annotazioni
 description: Come visualizzare le annotazioni in Workspace.
 role: User, Admin
-source-git-commit: 0985a31596103a0325509a66a6bde7688e24e9bd
+exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
+source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 6%
 
 ---
-
 
 # Visualizzare le annotazioni
 
@@ -34,3 +34,9 @@ Le annotazioni si presentano in modo leggermente diverso, a seconda che si esten
 Poiché non è possibile passare il cursore sulle icone in un file .pdf, questo file (dopo l’esportazione) fornisce note di spiegazione nella parte inferiore di un pannello. Ecco un esempio:
 
 ![](assets/ann-pdf.png)
+
+## Visualizzare annotazioni non basate su date
+
+A volte le annotazioni non sono legate a una data, ma a una dimensione specifica. In tal caso, vengono visualizzati solo in un’annotazione di riepilogo nell’angolo in basso a destra. Ecco un esempio:
+
+![](assets/non-date.png)
