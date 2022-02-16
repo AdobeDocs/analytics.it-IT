@@ -1,24 +1,24 @@
 ---
-title: Ricerca attributi per dispositivi mobili
-description: File di ricerca per gli attributi del dispositivo mobile.
-translation-type: tm+mt
-source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
+title: Ricerca attributi mobile
+description: File di ricerca per gli attributi mobili.
+feature: Data Feeds
+exl-id: d5130716-2bf2-42ce-811e-26a5081efc18
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
+# Ricerca attributi mobile
 
-# Ricerca attributi per dispositivi mobili
+Gli attributi per dispositivi mobili mostrano le proprietà del dispositivo mobile nell’hit. Questo file viene visualizzato quando:
 
-Gli attributi di Mobile mostrano le proprietà del dispositivo mobile nell’hit. Questo file viene visualizzato quando:
+* Le ricerche dinamiche sono abilitate. Un delegato del servizio di assistenza nell’organizzazione può contattare l’Assistenza clienti con l’ID del feed desiderato per abilitare le ricerche dinamiche.
+* La `mobile_id` è inclusa.
+* La `user_agent` Questa colonna è esclusa. Questa esclusione è necessaria a causa di accordi di licenza con DeviceAtlas.
 
-* Le ricerche dinamiche sono abilitate. Un delegato di supporto dell&#39;organizzazione può contattare l&#39;Assistenza clienti con l&#39;ID feed desiderato per abilitare le ricerche dinamiche.
-* La `mobile_id` colonna è inclusa.
-* La `user_agent` colonna è esclusa. Questa esclusione è necessaria a causa di accordi di licenza con DeviceAtlas.
-
-Scaricate [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv)o fate riferimento all&#39;elenco qui:
+Scarica [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv)oppure fare riferimento all&#39;elenco qui:
 
 * `mobile_id`
 * `Manufacturer`

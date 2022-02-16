@@ -2,12 +2,14 @@
 description: Configurare e utilizzare account FTP ospitati da Adobe.
 keywords: ftp;sftp
 title: 'Configurare account FTP: panoramica'
-uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+feature: FTP Export
+exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 96%
 
 ---
-
 
 # Configurare account FTP: panoramica
 
@@ -21,6 +23,6 @@ I clienti Adobe ricevono notifiche relative agli interventi di manutenzione attr
 * Gli utenti devono rimuovere i dati inviati da Adobe all&#39;account FTP dopo che questi sono stati correttamente trasferiti sui loro sistemi.
 * Informare Adobe nel caso gli account FTP non dovessero più servire, in modo che possano essere disattivati.
 
-The Adobe FTP host name is [!DNL ftp.omniture.com] or [!DNL ftp2.omniture.com].
+Il nome host FTP dell&#39;Adobe è [!DNL ftp.omniture.com] o [!DNL ftp2.omniture.com].
 
 Queste informazioni, insieme al nome utente e alla password devono essere fornite all&#39;interno di [!UICONTROL Experience Cloud] (per classificazioni e Origini dati) o dal rappresentante Adobe responsabile della configurazione dell&#39;account su tua richiesta. Se non sai che indirizzo FTP utilizzare, contatta il tuo Adobe Account Manager per conoscere l&#39;indirizzo corretto. Inoltre, per account classificazioni e Origini dati, Adobe non ha stabilito una specifica ora del giorno per l&#39;elaborazione dei file FTP, ma utilizza uno script che esegue un costante polling degli account FTP, alla ricerca di nuovi file da elaborare. I file caricati in questi account vengono elaborati il prima possibile.

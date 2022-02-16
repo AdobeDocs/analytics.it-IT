@@ -1,40 +1,40 @@
 ---
-title: Risoluzione dei problemi relativi ai tempi di consegna delle richieste di Data warehouse
-description: Determinare potenziali problemi con una richiesta di Data warehouse che può prolungare i tempi di consegna.
-translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+title: Risolvere i problemi relativi ai tempi di consegna della richiesta di Data Warehouse
+description: Determina i potenziali problemi con una richiesta di Data Warehouse che può prolungare i tempi di consegna.
+feature: Data Warehouse
+exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
+# Risolvere i problemi relativi ai tempi di consegna della richiesta di Data Warehouse
 
-# Risoluzione dei problemi relativi ai tempi di consegna delle richieste di Data warehouse
-
-Una determinata richiesta di Data warehouse può richiedere da meno di un&#39;ora a più giorni o più. È difficile stimare il tempo esatto necessario per l&#39;elaborazione di una richiesta, a causa dei seguenti fattori:
+Una determinata richiesta di Data Warehouse può richiedere da meno di un&#39;ora a diversi giorni o più. È difficile stimare il tempo esatto necessario per l’elaborazione di una richiesta, a causa dei seguenti fattori:
 
 * Intervallo di date della richiesta
-* Quantità di traffico ricevuto dalla suite di rapporti durante il periodo di tempo richiesto
-* Il numero di regole all&#39;interno di un segmento e quali variabili all&#39;interno di un segmento utilizzate
-* Quanti dati vengono inclusi nel segmento?
-* Numero di suddivisioni utilizzate e numero di valori univoci all&#39;interno di ogni suddivisione
-* Numero di metriche utilizzate
+* La quantità di traffico ricevuto dalla suite di rapporti durante il periodo di tempo richiesto
+* Il numero di regole all’interno di un segmento e quali variabili all’interno di un segmento hanno utilizzato
+* Quanti dati vengono inclusi nel segmento
+* Il numero di disaggregazioni utilizzate e il numero di valori univoci all’interno di ciascuna disaggregazione
+* Il numero di metriche utilizzate
 * Numero di richieste simultanee in fase di elaborazione
-* Regole VISTA, se configurate per le richieste di DataWarehouse
+* Regole VISTA, se configurate per l&#39;applicazione alle richieste di DataWarehouse
 
-Se visualizzate le richieste di data warehouse in modo coerente nel tempo, prendete in considerazione la possibilità di modificare le richieste per includere quanto segue:
+Se le richieste di data warehouse richiedono tempo costante, è consigliabile modificare le richieste per soddisfare le seguenti esigenze:
 
-* **Utilizza un segmento contenente un esempio di dati** più piccolo: Meno dati funziona una richiesta, più velocemente restituisce un report.
-* **Esegui richieste con incrementi di 14 giorni o inferiori**: Le richieste più piccole vengono elaborate più velocemente rispetto alle richieste di grandi dimensioni.
-* **Utilizzate meno suddivisioni:** Molte suddivisioni in una richiesta di Data warehouse aumentano esponenzialmente il tempo necessario per l&#39;elaborazione.
+* **Utilizza un segmento contenente un campione di dati più piccolo**: Minore è il numero di dati con cui una richiesta funziona, più veloce sarà il ritorno di un report.
+* **Esegui richieste con incrementi di 14 giorni o meno**: Le richieste più piccole vengono elaborate più rapidamente delle richieste di grandi dimensioni.
+* **Utilizza meno raggruppamenti:** Molte suddivisioni in una richiesta di Data Warehouse aumentano esponenzialmente il tempo necessario all’elaborazione.
 
 >[!IMPORTANT]
 >
-> *Non c&#39;è modo di accelerare la consegna di una richiesta di Data warehouse.*
+> *Non c&#39;è modo di accelerare la consegna di una richiesta di Data Warehouse.*
 
-Se si richiedono questi tipi di rapporti in modo più tempestivo, prendere in considerazione le seguenti alternative:
+Se richiedi questi tipi di report in modo più tempestivo, considera le seguenti alternative:
 
-* **Analysis Workspace**: Anche se gli elementi dimensionali illimitati non sono disponibili, include quasi tutti gli altri casi di utilizzo forniti dalla Data warehouse.
-* **Feed** dati: Prende tutti i dati grezzi in una suite di rapporti ogni giorno e li invia a un sito FTP. Potete quindi importare questi dati nel vostro database ed eseguire query per ottenere i dati desiderati.
-* **Soluzione** Custom Engineering Services:  Adobe Engineering Services può fornire una soluzione personalizzata per la vostra organizzazione a un costo aggiuntivo. Per ulteriori informazioni, contattate l&#39;Account Manager della vostra organizzazione.
+* **Analysis Workspace**: Anche se non sono disponibili elementi dimensionali illimitati, include quasi tutti gli altri casi d’uso forniti da Data Warehouse.
+* **Feed di dati**: Prende tutti i dati non elaborati in una suite di rapporti ogni giorno e li invia a un sito FTP. È quindi possibile importare questi dati nel proprio database ed eseguire query per ottenere i dati desiderati.
+* **Soluzione personalizzata di servizi tecnici**: Adobe Engineering Services può fornire una soluzione personalizzata per la tua organizzazione a un costo aggiuntivo. Per ulteriori informazioni, contatta l’Account Manager della tua organizzazione.

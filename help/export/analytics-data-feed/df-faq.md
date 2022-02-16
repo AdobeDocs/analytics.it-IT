@@ -2,8 +2,9 @@
 description: Domande frequenti sui feed di dati
 keywords: Feed di dati;processo;pre colonna;post colonna;sensibilità maiuscole/minuscole
 title: Domande frequenti sui feed di dati
+feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Se ricevi questo errore, considera le seguenti soluzioni alternative:
 
 ## Quando vengono elaborati i dati? {#section_6346328F8D8848A7B81474229481D404}
 
-Prima di elaborare i dati su base oraria o giornaliera, i feed di dati attendono che tutti gli hit che hanno inserito la raccolta dati entro l’intervallo di tempo (giorno o ora) siano stati scritti in data warehouse. In seguito, i feed di dati raccolgono i dati con marche temporali che rientrano nell’intervallo temporale, li comprime e li invia tramite FTP. Per i feed orari, in genere i file vengono scritti in data warehouse entro 15-30 minuti dopo l&#39;ora, ma non esiste un periodo di tempo impostato. Se non vi erano dati con marche temporali che rientrano nell’intervallo temporale, il processo prova nuovamente l’intervallo temporale successivo. Il processo di feed di dati corrente utilizza `date_time` per determinare quali hit appartengono all’ora. Questo campo è basato sul fuso orario della suite di rapporti.
+Prima di elaborare i dati su base oraria o giornaliera, i feed di dati attendono che tutti gli hit che hanno inserito la raccolta dati entro l’intervallo di tempo (giorno o ora) siano stati scritti in data warehouse. In seguito, i feed di dati raccolgono i dati con marche temporali che rientrano nell’intervallo temporale, li comprime e li invia tramite FTP. Per i feed orari, in genere i file vengono scritti in data warehouse entro 15-30 minuti dopo l&#39;ora, ma non esiste un periodo di tempo impostato. Se non vi erano dati con marche temporali che rientrano nell’intervallo temporale, il processo prova nuovamente l’intervallo temporale successivo. Il processo di feed dati corrente utilizza `date_time` per determinare quali hit appartengono all’ora. Questo campo è basato sul fuso orario della suite di rapporti.
 
 ## Qual è la differenza tra le colonne con un `post_` prefisso e colonne senza un `post_` prefisso?
 

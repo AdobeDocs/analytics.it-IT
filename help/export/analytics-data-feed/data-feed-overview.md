@@ -2,9 +2,9 @@
 description: I dati raccolti da siti web, app mobili o caricati utilizzando API di servizi web o origini dati, vengono elaborati e memorizzati nella Data Warehouse di Adobe. Questi dati click-stream non elaborati formano il set di dati utilizzato da Adobe Analytics.
 keywords: clickstream;feed dati;datafed;feed dati
 title: Panoramica sui feed dati di Analytics
-uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
+feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 7%

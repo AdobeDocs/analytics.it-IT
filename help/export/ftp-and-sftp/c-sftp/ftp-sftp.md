@@ -2,12 +2,12 @@
 description: SFTP è un protocollo sicuro per il trasferimento di dati che assicura che nessuno possa vedere i tuoi dati, tranne te. Adobe Engineering Services può configurare un account SFTP per conservare in modo sicuro i tuoi dati.
 keywords: ftp;sftp
 title: 'Secure File Transfer Protocol (protocollo di trasferimento file sicuro): panoramica'
-uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
+feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 40%
+ht-degree: 43%
 
 ---
 
@@ -19,9 +19,9 @@ SFTP è un protocollo sicuro per il trasferimento di dati che assicura che nessu
 
 Significa che i server Adobe inviano i file in modalità &quot;push&quot; ai tuoi server; in altre parole i file vengono consegnati presso il tuo end point.
 
-[Data ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) Warehouse e  [Analytics Data ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) Feedback possono inviare dati in push tramite SFTP.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) e [Feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=it) può inviare dati in push tramite SFTP.
 
-I seguenti strumenti di Analytics **non possono** inviare dati push tramite SFTP:
+I seguenti strumenti di Analytics **impossibile** dati push tramite SFTP:
 
 * Reports &amp; Analytics
 * Ad Hoc Analysis

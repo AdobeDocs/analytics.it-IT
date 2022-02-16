@@ -3,20 +3,18 @@ description: Informazioni sui caratteri speciali utilizzati nel feed di dati.
 keywords: Feed di dati;processo;caratteri speciali;dati_hit;variabili con più valori;elenco_eventi;elenco_prodotti;mvar
 subtopic: data feeds
 title: Caratteri speciali nei feed di dati
-feature: Nozioni di base su Reports & Analytics
-uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
+feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '341'
 ht-degree: 2%
 
 ---
 
 # Caratteri speciali nei feed di dati
 
-Ad Adobe, utilizza la logica escape per assicurarti che i valori inviati ai server di raccolta dati non danneggino o danneggiino i file di feed di dati. I seguenti caratteri sono riservati per Adobe ai seguenti fini in `hit_data.tsv`.
+Ad Adobe, utilizza la logica escape per assicurarti che i valori inviati ai server di raccolta dati non danneggino o danneggiino i file di feed di dati. I seguenti caratteri sono riservati per Adobe ai seguenti scopi in `hit_data.tsv`.
 
 ## Caratteri speciali in qualsiasi colonna
 
@@ -30,9 +28,9 @@ Quando questi valori riservati sono preceduti da una barra inversa, sono stati i
 
 | Carattere | Descrizione |
 |--- |--- |
-| `\\t` | Il valore &#39;`\t`&#39; è stato inviato durante la raccolta dei dati, in sequenza per Adobe. |
-| `\\n` | Il valore &#39;`\n`&#39; è stato inviato durante la raccolta dei dati, in sequenza per Adobe. |
-| `\\` | Il valore &#39;`\`&#39; è stato inviato durante la raccolta dei dati, in sequenza per Adobe. |
+| `\\t` | Valore &#39;`\t`&quot; è stato inviato durante la raccolta dei dati, con escape per Adobe. |
+| `\\n` | Valore &#39;`\n`&quot; è stato inviato durante la raccolta dei dati, con escape per Adobe. |
+| `\\` | Valore &#39;`\`&quot; è stato inviato durante la raccolta dei dati, con escape per Adobe. |
 
 Ad esempio, un visitatore del sito utilizza la ricerca interna e cerca &quot;search\nstring&quot;. È possibile compilare eVar1 con &quot;search\nstring&quot; e inviare tale valore ad Adobe. Adobe riceve questo hit ed evita la nuova riga inclusa nella stringa. Il valore effettivo inserito nei dati non elaborati è &quot;search\\nstring&quot;.
 
@@ -51,7 +49,7 @@ Quando questi valori riservati sono preceduti da un accento circonflesso, sono s
 
 | Carattere | Descrizione |
 |--- |--- |
-| `^,` | Il valore &#39;`,`&#39; è stato inviato durante la raccolta dei dati, in sequenza per Adobe. |
-| `^;` | Il valore &#39;`;`&#39; è stato inviato durante la raccolta dei dati, in sequenza per Adobe. |
-| `^=` | Il valore &#39;`=`&#39; è stato inviato durante la raccolta dei dati, in sequenza per Adobe. |
-| `^^` | Il valore &#39;`^`&#39; è stato inviato durante la raccolta dei dati, in sequenza per Adobe. |
+| `^,` | Valore &#39;`,`&quot; è stato inviato durante la raccolta dei dati, con escape per Adobe. |
+| `^;` | Valore &#39;`;`&quot; è stato inviato durante la raccolta dei dati, con escape per Adobe. |
+| `^=` | Valore &#39;`=`&quot; è stato inviato durante la raccolta dei dati, con escape per Adobe. |
+| `^^` | Valore &#39;`^`&quot; è stato inviato durante la raccolta dei dati, con escape per Adobe. |

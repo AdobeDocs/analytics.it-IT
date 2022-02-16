@@ -1,27 +1,27 @@
 ---
 title: Domande frequenti su Data Warehouse
 description: Domande frequenti per la Data Warehouse.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+feature: Data Warehouse
+exl-id: 51c3ba17-a8b2-4030-9521-355ebbbfcd0d
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
-
 
 # Domande frequenti su Data Warehouse
 
 Domande frequenti per la Data Warehouse.
 
-## Quando si utilizza il menu a discesa di granularità durante la creazione di una richiesta, in quale formato è possibile specificare le date?
+## Quando uso il menu a discesa di granularità durante la creazione di una richiesta, in quale formato è possibile prevedere le date?
 
-Quando si applica la granularità in una richiesta di Data Warehouse, al rapporto viene aggiunta la colonna &quot;Data&quot;. A seconda della granularità selezionata, cambia il formato della data.
+Quando applichi la granularità in una richiesta di Data Warehouse, la colonna &quot;Data&quot; viene aggiunta al rapporto. A seconda della granularità selezionata, il formato della data cambia.
 
 | Granularity (Granularità) | Formato | Esempio |
 | --- | --- | --- |
 | Oraria | `mmmm d, yyyy` Ora `H` | 1 gennaio, 20XX, ora 0 |
-| Giornaliero | `mmmm d, yyyy` | 1 gennaio, 20 XX |
+| Giornaliero | `mmmm d, yyyy` | 1 gennaio 2020 |
 | Settimanale | Settimana `w, yyyy` | Settimana 1, 20XX |
 | Mensile | `mmmm yyyy` | 20 gennaio |
 | Trimestrale | `q` Trimestre `yyyy` | 1° trimestre 20XX |
@@ -31,5 +31,5 @@ Quando si applica la granularità in una richiesta di Data Warehouse, al rapport
 
 Quando utilizzi un segmento come dimensione nella Data Warehouse, il rapporto restituisce una colonna contenente `"0"` o `"1"`:
 
-* **`"0"`**: L&#39;elemento dimensione non soddisfa i criteri del segmento.
-* **`"1"`**: L&#39;elemento dimensione soddisfa i criteri del segmento.
+* **`"0"`**: L’elemento dimensionale non soddisfaceva i criteri del segmento.
+* **`"1"`**: L’elemento dimensionale soddisfa i criteri del segmento.

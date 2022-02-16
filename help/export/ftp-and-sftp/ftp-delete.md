@@ -2,12 +2,14 @@
 description: La politica di Adobe prevede la disattivazione automatica dell'accesso agli account FTP che rimangono inattivi per 90 giorni consecutivi.
 keywords: ftp;sftp
 title: Eliminazione dei dati e degli account FTP
-uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+feature: FTP Export
+exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 99%
 
 ---
-
 
 # Eliminazione dei dati e degli account FTP
 
@@ -25,4 +27,3 @@ Per aiutarci in questa procedura e per accertarsi che l&#39;ambiente FTP miglior
 
 * Rimuovere i dati in uscita dal sistema FTP dopo che questi sono stati correttamente trasferiti nel tuo ambiente personale. Adobe identifica e rimuove eventuali file presenti sul sistema trascorsi 90 giorni.
 * Informare Adobe nel caso gli account FTP non dovessero più servire, in modo che possano essere disattivati e rimossi.
-
