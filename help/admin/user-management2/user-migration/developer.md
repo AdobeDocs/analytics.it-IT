@@ -1,9 +1,9 @@
 ---
 description: Elenca le API interessate dalla migrazione degli utenti
 title: API interessate dalla migrazione degli utenti
-uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
+feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 86%

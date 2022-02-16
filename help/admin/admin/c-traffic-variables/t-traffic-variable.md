@@ -2,13 +2,11 @@
 description: Passaggi che descrivono come aggiungere e abilitare i rapporti sulle variabili di traffico.
 title: Abilitare i rapporti sulle variabili traffico
 feature: Admin Tools
-uuid: c4109da1-4d46-407c-9ca7-cb22edaa68ba
 exl-id: 6c28c1ed-76ec-4df8-a583-3b7ac923569a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 29%
+source-wordcount: '45'
+ht-degree: 26%
 
 ---
 
@@ -18,5 +16,5 @@ Passaggi che descrivono come aggiungere e abilitare i rapporti sulle variabili d
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, quindi seleziona una suite di rapporti.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Variables]**.
-1. Fai clic su **[!UICONTROL Add New]**, quindi assegna un nome al rapporto.
+1. Fai clic su **[!UICONTROL Add New]**, quindi denomina il rapporto.
 1. Fai clic su **[!UICONTROL Enable]**, quindi su **[!UICONTROL Save]**.

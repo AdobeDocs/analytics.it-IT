@@ -1,13 +1,12 @@
 ---
 description: Code Manager consente di scaricare il codice di raccolta dati per le piattaforme web e mobili.
 title: Gestore codici
-feature: Strumenti di amministrazione
-uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
+feature: Admin Tools
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 6%
+source-wordcount: '127'
+ht-degree: 9%
 
 ---
 
@@ -17,7 +16,7 @@ Code Manager consente di scaricare il codice di raccolta dati per le piattaforme
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**.
 
-Dopo aver scaricato la libreria , devi configurare il codice per inviare i dati al server di tracciamento e alla suite di rapporti corretti. Ulteriori risorse di implementazione sono disponibili nella guida utente di [Implementa](/help/implement/home.md) .
+Dopo aver scaricato la libreria , devi configurare il codice per inviare i dati al server di tracciamento e alla suite di rapporti corretti. Sono disponibili ulteriori risorse di implementazione nella sezione [Implementare](/help/implement/home.md) guida utente.
 
 ## Descrizioni pagina di Code Manager {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -25,5 +24,5 @@ Dopo aver scaricato la libreria , devi configurare il codice per inviare i dati 
 |--- |--- |
 | [!UICONTROL Name] | Il nome corrisponde alla piattaforma in cui desideri abilitare la raccolta dati. Sono fornite librerie native per ogni piattaforma elencata in questa colonna. |
 | [!UICONTROL Type] | Tipo di applicazioni misurabili utilizzando ciascuna libreria. |
-| [!UICONTROL Version] | Elenca la versione più recente della libreria. Fai clic sul numero di versione per visualizzare la [cronologia delle versioni](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html). |
+| [!UICONTROL Version] | Elenca la versione più recente della libreria. Fai clic sul numero di versione per visualizzare il [cronologia delle versioni](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=it). |
 | [!UICONTROL Documentation] | Visualizza la documentazione di riferimento della libreria. |

@@ -2,13 +2,11 @@
 description: Le dimensioni che è possibile leggere e scrivere (salvo diversa indicazione) utilizzando le regole di elaborazione.
 subtopic: Processing rules
 title: Dimensioni disponibili per le regole di elaborazione
-feature: Admin Tools
-uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '742'
 ht-degree: 5%
 
 ---
@@ -41,7 +39,7 @@ Le dimensioni che è possibile leggere e scrivere (salvo diversa indicazione) ut
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variabili di dati di contesto </p> </td> 
-   <td colname="col2"> <p>Variabili denominate inviate con un hit. </p> <p>Nota:  Tutti i dati contenuti in una variabile di dati di contesto devono essere copiati in una variabile di reporting per essere visualizzati in un rapporto. Le variabili di dati di contesto non sono visualizzabili in alcuna interfaccia di reporting, inclusi i feed di dati ClickStream. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiare una variabile di dati di contesto in un eVar  </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Impostare un evento utilizzando una variabile di dati di contesto  </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Variabili di dati di contesto</a> </p> </td> 
+   <td colname="col2"> <p>Variabili denominate inviate con un hit. </p> <p>Nota: Tutti i dati contenuti in una variabile di dati di contesto devono essere copiati in una variabile di reporting per essere visualizzati in un rapporto. Le variabili di dati di contesto non sono visualizzabili in alcuna interfaccia di reporting, inclusi i feed di dati ClickStream. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiare una variabile di dati di contesto in un eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Impostare un evento utilizzando una variabile di dati di contesto </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Variabili di dati di contesto</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +73,7 @@ Le dimensioni che è possibile leggere e scrivere (salvo diversa indicazione) ut
  </tbody> 
 </table>
 
-## Attributi hit {#section_07E69A86A47741A083FD84F112EB80D0}
+## Attributi di hit {#section_07E69A86A47741A083FD84F112EB80D0}
 
 <table id="table_9011B1FA462B4DBBAA58FC2D6D638DA1"> 
  <thead> 
@@ -91,19 +89,19 @@ Le dimensioni che è possibile leggere e scrivere (salvo diversa indicazione) ut
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome pagina </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Nota:  Le chiamate di tracciamento dei collegamenti rimuovono la variabile <code>pageName</code> prima che raggiungano le regole di elaborazione. Se inserisci nuovamente un valore del nome di una pagina utilizzando le regole di elaborazione, l'hit viene considerato come una visualizzazione di pagina invece di una chiamata di tracciamento del collegamento. Adobe consiglia di verificare che il nome della pagina sia già impostato prima di modificarlo. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Nota: Le chiamate di tracciamento dei collegamenti rimuovono la <code>pageName</code> prima di raggiungere le regole di elaborazione. Se inserisci nuovamente un valore del nome di una pagina utilizzando le regole di elaborazione, l'hit viene considerato come una visualizzazione di pagina invece di una chiamata di tracciamento del collegamento. Adobe consiglia di verificare che il nome della pagina sia già impostato prima di modificarlo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL della pagina </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> o l'URL della pagina corrente se non  <code> s.pageURL</code> è specificato. <p>Nota:  Le chiamate di tracciamento dei collegamenti rimuovono la variabile <code>pageURL</code> prima che raggiungano le regole di elaborazione. Se inserisci nuovamente un valore URL della pagina utilizzando le regole di elaborazione, l'hit viene considerato come una visualizzazione di pagina invece di una chiamata di tracciamento del collegamento. Adobe consiglia di verificare che l’URL della pagina sia già impostato prima di modificarlo. </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> o l'URL della pagina corrente se <code> s.pageURL</code> non è specificato. <p>Nota: Le chiamate di tracciamento dei collegamenti rimuovono la <code>pageURL</code> prima di raggiungere le regole di elaborazione. Se inserisci nuovamente un valore URL della pagina utilizzando le regole di elaborazione, l'hit viene considerato come una visualizzazione di pagina invece di una chiamata di tracciamento del collegamento. Adobe consiglia di verificare che l’URL della pagina sia già impostato prima di modificarlo. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Query String Parameter </p> </td> 
-   <td colname="col2"> <p>Il valore di un parametro di stringa di query specificato nell'URL corrente oppure null se non esiste alcun parametro. Per l'URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, il valore del parametro di stringa query <span class="syntax codeph"> cid</span> è <b>ad1</b> e il valore del parametro di stringa query <span class="syntax codeph"> node</span> è <b>4</b>. </p> <p>Se utilizzi JavaScript AppMeasurement H.25.2 o versioni precedenti, l’URL della pagina potrebbe essere troncato dopo 255 caratteri. JavaScript AppMeasurement H.25.3 (rilasciato a gennaio 2013) e versioni successive forniscono l’URL completo alle regole di elaborazione. </p> </td> 
+   <td colname="col2"> <p>Il valore di un parametro di stringa di query specificato nell'URL corrente oppure null se non esiste alcun parametro. Per l’URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, il valore del parametro di stringa query <span class="syntax codeph"> cid</span> è <b>ad1</b>e il valore del parametro di stringa query <span class="syntax codeph"> nodo</span> è <b>4</b>. </p> <p>Se utilizzi JavaScript AppMeasurement H.25.2 o versioni precedenti, l’URL della pagina potrebbe essere troncato dopo 255 caratteri. JavaScript AppMeasurement H.25.3 (rilasciato a gennaio 2013) e versioni successive forniscono l’URL completo alle regole di elaborazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Percorso pagina </p> </td> 
-   <td colname="col2"> <p>Percorso dell’URL della pagina. Il percorso dell'URL <b>https://www.example.com/news/a.html?cid=ad1</b> è <span class="syntax codeph"> news/a.html</span> . </p> </td> 
+   <td colname="col2"> <p>Percorso dell’URL della pagina. Percorso dell’URL <b>https://www.example.com/news/a.html?cid=ad1</b> è <span class="syntax codeph"> news/a.html</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio pagina </p> </td> 
@@ -123,7 +121,7 @@ Le dimensioni che è possibile leggere e scrivere (salvo diversa indicazione) ut
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parametro stringa query di riferimento (sola lettura) </p> </td> 
-   <td colname="col2"> <p>Il valore di un parametro di stringa di query specificato nell'URL di riferimento o null se non esiste alcun parametro. Per l'URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, il valore del parametro di stringa query <span class="syntax codeph"> cid</span> è <b>ad1</b> e il valore del parametro di stringa query <span class="syntax codeph"> node</span> è <b>4</b>. </p> <p>Se utilizzi JavaScript AppMeasurement H.25.2 o versioni precedenti, l’URL della pagina potrebbe essere troncato dopo 255 caratteri. JavaScript AppMeasurement H.25.3 (rilasciato a gennaio 2013) e versioni successive forniscono l’URL completo alle regole di elaborazione. </p> </td> 
+   <td colname="col2"> <p>Il valore di un parametro di stringa di query specificato nell'URL di riferimento o null se non esiste alcun parametro. Per l’URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, il valore del parametro di stringa query <span class="syntax codeph"> cid</span> è <b>ad1</b>e il valore del parametro di stringa query <span class="syntax codeph"> nodo</span> è <b>4</b>. </p> <p>Se utilizzi JavaScript AppMeasurement H.25.2 o versioni precedenti, l’URL della pagina potrebbe essere troncato dopo 255 caratteri. JavaScript AppMeasurement H.25.3 (rilasciato a gennaio 2013) e versioni successive forniscono l’URL completo alle regole di elaborazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio di riferimento (sola lettura) </p> </td> 
@@ -147,7 +145,7 @@ Le dimensioni che è possibile leggere e scrivere (salvo diversa indicazione) ut
   </tr> 
   <tr> 
    <td colname="col1"> <p>Versione codice AppMeasurement (sola lettura) </p> </td> 
-   <td colname="col2"> <p>Versione della libreria appMeasurement utilizzata per effettuare la richiesta. Quando utilizzi i beacon per immagini, puoi compilare il modulo con un valore personalizzato letto utilizzando le regole di elaborazione. Questo valore viene visualizzato nella posizione seguente nell'URL: </p> <p>https://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/.. </p> </td> 
+   <td colname="col2"> <p>Versione della libreria appMeasurement utilizzata per effettuare la richiesta. Quando utilizzi i beacon per immagini, puoi compilare il modulo con un valore personalizzato letto utilizzando le regole di elaborazione. Questo valore viene visualizzato nella posizione seguente nell'URL: </p> <p>https://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSIONE</span>/... </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -176,7 +174,7 @@ Le dimensioni che è possibile leggere e scrivere (salvo diversa indicazione) ut
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variabili elenco1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> -  <code> s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID acquisto </p> </td> 
@@ -211,7 +209,7 @@ Le regole di elaborazione possono impostare eventi ma non possono leggerli come 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Evento 1-1000 </p> <p>(Per i clienti SiteCatalyst 15, evento 1-100.) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> -  <code> event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>acquisto, scView, scAdd e altri eventi cart </p> </td> 

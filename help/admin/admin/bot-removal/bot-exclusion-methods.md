@@ -2,7 +2,8 @@
 title: Confronto dei diversi metodi di esclusione dei bot
 description: Consente di confrontare diversi metodi per escludere i bot.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
-source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
+feature: Admin Tools
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 18%
@@ -15,7 +16,7 @@ La tabella seguente mostra diversi metodi per escludere i bot e come si sovrappo
 
 | Metodo | Regole bot | Escludi per indirizzo IP | Attributi cliente | Segmentazione | Punteggio di terze parti + Segmentazione | Elimina le chiamate server &#x200B; &#x200B; per i bot in fase di esecuzione | Regola VISTA del database personalizzato |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Descrizione del metodo di esclusione dei dati** | &#x200B; Escludi in base all’agente utente, all’indirizzo IP o all’intervallo di indirizzi IP | Indirizzo IP | &#x200B; Un flag negli attributi del cliente che identifica ECID come bot | &#x200B; criteri in un segmento di Analytics che identifica i bot noti in base al comportamento dei bot | &#x200B; Una terza parte, come [Perimetro X](https://www.perimeterx.com) o [Akamai Bot Manager](https://www.akamai.com/us/en/products/security/bot-manager.jsp) assegna a ogni pagina un punteggio sulla probabilità che sia un bot. Il punteggio viene inviato in Analytics e i segmenti possono essere utilizzati per filtrare i dati in base al punteggio. | &#x200B; logica lato client impedisce l’esecuzione della chiamata al server Analytics per i bot. | &#x200B; Una regola VISTA sposterà il traffico dai bot che soddisfano determinati criteri a una suite di rapporti separata. |
+| **Descrizione del metodo di esclusione dei dati** | &#x200B; Escludi in base all’agente utente, all’indirizzo IP o all’intervallo di indirizzi IP | Indirizzo IP | &#x200B; Un flag negli attributi del cliente che identifica ECID come bot | &#x200B; criteri in un segmento di Analytics che identifica i bot noti in base al comportamento dei bot | &#x200B; Una terza parte, come [Perimetro X](https://www.perimeterx.com) o [Akamai Bot Manager](https://www.akamai.com/us/en/products/security/bot-manager.jsp) assegna a ogni pagina un punteggio sulla probabilità che si tratti di un bot. Il punteggio viene inviato in Analytics e i segmenti possono essere utilizzati per filtrare i dati in base al punteggio. | &#x200B; logica lato client impedisce l’esecuzione della chiamata al server Analytics per i bot. | &#x200B; Una regola VISTA sposterà il traffico dai bot che soddisfano determinati criteri a una suite di rapporti separata. |
 | **&#x200B; nomi dei bot sono disponibili per la generazione di rapporti?** | Sì | No | No | No | No | No | Sì |
 | **&#x200B; in grado di vedere quali pagine vengono visitate dai bot?** | Sì | No | No | No | Sì | No | Sì |
 | &#x200B;**Riduce i costi di chiamata al server per i bot?** | Sì | Sì | Sì | Sì | Sì | No | Sì |

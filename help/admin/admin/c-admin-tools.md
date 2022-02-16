@@ -1,15 +1,14 @@
 ---
-description: Indice degli strumenti di amministrazione in  Adobe Analytics.
+description: Indice degli strumenti di amministrazione in Adobe Analytics.
 title: Strumenti di amministrazione
-uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
-source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
+feature: Admin Tools
+exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 58%
 
 ---
-
 
 # Strumenti di amministrazione
 
@@ -17,7 +16,7 @@ ht-degree: 58%
 
 >[!IMPORTANT]
 >
->Non aprire più schede Admin nello stesso browser. Ciò può comportare il salvataggio involontario delle impostazioni nella suite di rapporti errata. Se devi, ad esempio, confrontare i set di regole e copiarli in una nuova suite di rapporti, ti consigliamo di aprire un nuovo browser o di scattare una schermata per confrontare i set di regole.
+>Non aprire più schede Amministratore nello stesso browser. Questo può comportare il salvataggio involontario delle impostazioni nella suite di rapporti sbagliata. Ad esempio, se devi confrontare i set di regole e copiarli in una nuova suite di rapporti, ti consigliamo di aprire un nuovo browser o di scattare una schermata per confrontare i set di regole.
 
 + [Fatturazione](billing-admin.md)
 + [Panoramica delle regole bot](bot-removal/bot-rules.md)
@@ -32,7 +31,7 @@ ht-degree: 58%
 + [Metodi di ricerca](finding-methods.md)
 + [Impostazioni account generali](general-acct-settings-admin.md)
 + [Filtri URL interni](internal-url-filter-admin.md)
-+ [Registri](logs.md)
++ [Registri ](logs.md)
 + [Canali marketing](marketing-channels-admin.md)
 + [Personalizzazione del menu](customize-menus.md)
 + [Visibilità della metrica](metric-visibility.md)

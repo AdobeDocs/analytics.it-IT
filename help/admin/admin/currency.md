@@ -2,13 +2,11 @@
 description: Codici valuta utilizzati nell'Experience Cloud.
 title: Codici valuta
 feature: Admin Tools
-uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
 exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 1%
+source-wordcount: '633'
+ht-degree: 0%
 
 ---
 
@@ -181,9 +179,9 @@ Codici valuta utilizzati nell&#39;Experience Cloud.
 | XAU | Oscillazioni oro |
 | XCD | Dollaro dei Caraibi orientali |
 | XDR | Diritti speciali di prelievo del Fondo monetario internazionale |
-| XOF | Francs BCEAO, comunaut順 |
+| XOF | Francs BCEAO貥順 |
 | XPD | Unioni di palladio |
-| XPF | Compagnie Fran硩 s du Pacifique Francs |
+| XPF | Compagnie Fran硩s du Pacifique Francs |
 | XPT | Unioni platiniche |
 | YER | Yemen Riyal |
 | ZAR | Rand sudafricano |

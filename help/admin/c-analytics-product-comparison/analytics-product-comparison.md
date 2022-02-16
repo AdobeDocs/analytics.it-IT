@@ -2,26 +2,27 @@
 description: Requisiti di sistema e confronto tra Analysis Workspace, Reports & Analytics, Report Builder, Data Warehouse e Data Workbench
 title: Requisiti e confronto dei prodotti Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+feature: Analytics Basics
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 50%
+ht-degree: 54%
 
 ---
 
-# Analytics Requisiti e confronto dei prodotti
+# Requisiti e confronto dei prodotti Analytics
 
 Questa pagina contiene un confronto tra vari prodotti Adobe Analytics: API 2.0 per Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, feed di dati e Analytics.
 
 Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [questo articolo](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
-| Nome prodotto e collegamento all’Aiuto | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) | [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) | [API di Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Nome prodotto e collegamento all’Aiuto | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=it) | [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) | [API di Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **Metodo di accesso** | [Browser](/help/admin/sys-reqs.md) | [Browser](/help/admin/sys-reqs.md) | [MS Excel per Windows](/help/analyze/report-builder/setup/system-requirements.md) | Configurazione tramite il browser. [Ulteriori informazioni](/help/admin/sys-reqs.md) | [Windows a 64 bit](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html) | Configurazione tramite il browser. [Ulteriori informazioni](/help/export/analytics-data-feed/data-feed-overview.md) | Strumenti RESTful API. Accedi con le credenziali di Adobe I/O. [Ulteriori informazioni](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **Metodo di accesso** | [Browser](/help/admin/sys-reqs.md) | [Browser](/help/admin/sys-reqs.md) | [MS Excel per Windows](/help/analyze/report-builder/setup/system-requirements.md) | Configurazione tramite il browser. [Ulteriori informazioni](/help/admin/sys-reqs.md) | [Windows a 64 bit](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=it) | Configurazione tramite il browser. [Ulteriori informazioni](/help/export/analytics-data-feed/data-feed-overview.md) | Strumenti RESTful API. Accedi con le credenziali di Adobe I/O. [Ulteriori informazioni](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **Granularità dei dati** | Aggregata | Aggregata | Aggregata | Aggregata | Hit | Hit | Aggregata |
 | **Experience Cloud ID (ECID) disponibile** | No | No | No | Sì | Sì | Sì | No |
 | **Timestamp disponibile** | No | No | No | No | Sì | Sì | No |
-| **Livello di trasformazione** | Elaborazione completa | Elaborazione completa, con [report in tempo reale separato](/help/components/c-real-time-reporting/realtime.md) | Elaborazione completa, con [report in tempo reale separato](/help/components/c-real-time-reporting/realtime.md) | Elaborazione completa | Elaborazione completa | Elaborazione completa | Elaborazione completa |
+| **Livello di trasformazione** | Elaborazione completa | Completamente lavorati, separati [rapporto in tempo reale](/help/components/c-real-time-reporting/realtime.md) | Completamente lavorati, separati [rapporto in tempo reale](/help/components/c-real-time-reporting/realtime.md) | Elaborazione completa | Elaborazione completa | Elaborazione completa | Elaborazione completa |
 | **Dati del filtro bot amministratore inclusi** <br> [Ulteriori informazioni](/help/admin/admin/bot-removal/bot-removal.md) | No | Sì - relazione separata bot | Sì - relazione separata bot | No | No | No | No |
 | **Viene visualizzato traffico basso (non specificato)** <br> [Ulteriori informazioni](/help/technotes/low-traffic.md) | Sì | Sì | Sì | No | No | No | Sì |
 | **Limite di righe visibili (prima dell’impaginazione)** | 400 | 200 | 50000 | Senza limiti | Senza limiti | Senza limiti | 50000 |

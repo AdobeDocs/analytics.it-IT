@@ -1,9 +1,9 @@
 ---
 description: La scheda Utilizzo suite di rapporti fornisce i dati di utilizzo del server per ogni suite di rapporti in tutte le società di accesso associate alla società di fatturazione, per il periodo di utilizzo corrente.
 title: Visualizzazione dell'utilizzo della suite di rapporti
-uuid: c609ed99-9acc-4023-905a-81a40dd07a79
+feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Dashboard di utilizzo della suite di rapporti
 * Mostra la percentuale di utilizzo complessivo per categoria di chiamate al server.
 * Viene aggiornato ogni giorno.
 * È scaricabile.
-* Consente di accedere all’ interfaccia utente **[!UICONTROL Manage Alerts]** .
+* Consente di accedere al **[!UICONTROL Manage Alerts]** Interfaccia utente.
 
 ![](assets/report-suite-usage.png)
 
@@ -53,8 +53,8 @@ Questa opzione consente di scaricare i dati di utilizzo correnti e i dati relati
 |--- |--- |
 | Nome file | Nome codificato: Rapporto utilizzo `day and time of report creation.csv` |
 | Suite di rapporti incluse | Tutte le suite di rapporti selezionate nella pagina Utilizzo server di rapporto sono incluse in questo elenco. |
-| Tipi di chiamate inclusi | Specifica una combinazione di queste:  Tutte Le Chiamate (Predefinito), Primarie, Secondarie, Mobile Primary, Mobile Secondary. |
-| Intervallo di tempo | Puoi scegliere il periodo di utilizzo corrente o specificare un intervallo personalizzato.  Per un intervallo personalizzato, specificate Start intervallo e Fine intervallo. <br>**Nota:** non è possibile scaricare i dati di utilizzo prima di gennaio 2015  </br>. |
+| Tipi di chiamate inclusi | Specifica una combinazione di queste: Tutte Le Chiamate (Predefinito), Primarie, Secondarie, Mobile Primary, Mobile Secondary. |
+| Intervallo di tempo | Puoi scegliere il periodo di utilizzo corrente o specificare un intervallo personalizzato.  Per un intervallo personalizzato, specificate Start intervallo e Fine intervallo. <br>**Nota:** Non è possibile scaricare i dati di utilizzo prima di gennaio 2015 </br>. |
 
 1. Fai clic su **[!UICONTROL Download]**.
 

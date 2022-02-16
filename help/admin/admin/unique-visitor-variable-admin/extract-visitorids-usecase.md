@@ -2,13 +2,11 @@
 description: Data Warehouse fornisce una funzione che consente di estrarre un elenco di ID visitatore. Questi ID non sono ID cookie, ma ID acquisiti in una delle variabili di conversione. Anche se esistono altri modi per ottenere queste informazioni, l'esempio seguente è un collegamento per generare una richiesta di Data Warehouse.
 title: 'Caso di utilizzo: estrazione degli ID visitatore'
 feature: Admin Tools
-uuid: ed228334-619c-43d7-b781-a18af73b00bb
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 3%
+source-wordcount: '385'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +14,7 @@ ht-degree: 3%
 
 Data Warehouse fornisce una funzione che consente di estrarre un elenco di ID visitatore. Questi ID non sono ID cookie, ma ID acquisiti in una delle variabili di conversione. Anche se esistono altri modi per ottenere queste informazioni, l&#39;esempio seguente è un collegamento per generare una richiesta di Data Warehouse.
 
-Ad esempio, supponiamo che la tua azienda invii e-mail di marketing a clienti e potenziali clienti. Ciascuno di questi destinatari di posta elettronica dispone di un ID univoco nel sistema di posta elettronica (ad esempio *`EMAIL Contact ID`*). Hai impostato le tue e-mail in modo che quando i contatti ricevono un&#39;e-mail e fanno clic su uno dei loro collegamenti, il visitatore arrivi al tuo sito web con un ID campagna e un ID contatto e-mail univoco. Ad esempio, il collegamento e-mail potrebbe risolvere i seguenti problemi:
+Ad esempio, supponiamo che la tua azienda invii e-mail di marketing a clienti e potenziali clienti. Ognuno di questi destinatari di posta elettronica dispone di un ID univoco nel sistema di posta elettronica, ad esempio *`EMAIL Contact ID`*). Hai impostato le tue e-mail in modo che quando i contatti ricevono un&#39;e-mail e fanno clic su uno dei loro collegamenti, il visitatore arrivi al tuo sito web con un ID campagna e un ID contatto e-mail univoco. Ad esempio, il collegamento e-mail potrebbe risolvere i seguenti problemi:
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158

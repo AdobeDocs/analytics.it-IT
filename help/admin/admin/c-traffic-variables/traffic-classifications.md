@@ -3,13 +3,11 @@ description: Le classificazioni del traffico ti consentono di classificare le va
 subtopic: Classifications
 title: Classificazioni traffico
 feature: Admin Tools
-uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 9%
+source-wordcount: '170'
+ht-degree: 8%
 
 ---
 
@@ -35,15 +33,15 @@ t_classification_add_traffic.xml
 
 Passaggi che descrivono come aggiungere o modificare le classificazioni per le suite di rapporti selezionate.
 
-1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** nell’intestazione della suite.
+1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** nell’intestazione Suite.
 1. Seleziona una suite di rapporti.
-1. Nel campo **[!UICONTROL Select Classification Type]** , seleziona la variabile in cui desideri aggiungere una classificazione.
+1. In **[!UICONTROL Select Classification Type]** seleziona la variabile in cui desideri aggiungere una classificazione.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Classifications]**.
 
    ![Informazioni sul passaggio](../assets/traffic-classification.png)
 
-1. Passa il puntatore del mouse sull&#39;icona **[!UICONTROL Edit Classification]**, quindi seleziona **[!UICONTROL Add Classification]** o **[!UICONTROL Edit Classification]**.
-1. Nella finestra di dialogo **[!UICONTROL Text Classification]**, configura la classificazione come desiderato:
+1. Passa il puntatore del mouse sopra **[!UICONTROL Edit Classification]** , quindi seleziona **[!UICONTROL Add Classification]** o **[!UICONTROL Edit Classification]**.
+1. In **[!UICONTROL Text Classification]** configura la classificazione come desiderato nella finestra di dialogo:
 
    **[!UICONTROL Name:]** Specifica il nome della classificazione.
 

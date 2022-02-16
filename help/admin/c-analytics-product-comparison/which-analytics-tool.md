@@ -1,12 +1,12 @@
 ---
 description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per ogni strumento di Adobe Analytics. Gli strumenti devono essere considerati nell’ordine in cui sono elencati. Se un determinato strumento non soddisfa le tue esigenze, passa a quello successivo.
 title: Quale strumento Adobe Analytics usare?
-uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
+feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 90%
+source-wordcount: '1164'
+ht-degree: 89%
 
 ---
 
@@ -62,9 +62,9 @@ Le **[origini dati](/help/import/c-data-sources/datasrc-home.md)** sono utili 
    * ID transazione: caricamenti di dati che collegano un endpoint online a dati offline e associano completamente i dati importati a uno snapshot visitatore acquisito online (ad esempio, ordini completati online e restituiti offline)
    * Elaborazione completa: origini dati con marca temporale, elaborate come gli hit raccolti dai server Adobe. Ad esempio, i dati vengono inseriti direttamente nel percorso del visitatore.
 
-**[Data ](https://www.adobeexchange.com/experiencecloud.html)** Connectors:
+**[Integrazioni Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** devono essere utilizzati:
 
-* Quando interagisci con un provider di terze parti che ha creato una connessione supportata con Adobe Analytics. In genere, i Data Connectors incorporano dati di riepilogo in Adobe Analytics in modo permanente e automatico, su base periodica.
+* Quando interagisci con un provider di terze parti che ha creato una connessione supportata con Adobe Analytics. Le app di integrazione in genere incorporano dati a livello di riepilogo in Adobe Analytics in modo permanente e automatico, su base periodica.
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** è indicato nei seguenti casi:
 

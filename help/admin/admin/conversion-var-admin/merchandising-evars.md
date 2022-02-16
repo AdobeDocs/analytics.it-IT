@@ -1,8 +1,9 @@
 ---
 title: eVar per merchandising e metodi di ricerca dei prodotti
 description: Approfondisci i concetti alla base degli eVar di merchandising e le modalità di elaborazione e allocazione dei dati.
+feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '5289'
 ht-degree: 0%
@@ -17,7 +18,7 @@ Questo documento molto dettagliato spiega i concetti alla base degli eVar di mer
 
 L’utilizzo delle eVar per merchandising consente di allocare qualsiasi attività di successo ai valori acquisiti dalle eVar in una *per prodotto* livello invece di un *per visita/per ordine* livello.
 
-Mentre la maggior parte dei siti web per la vendita al dettaglio ha molti modi per trovare i prodotti, l&#39;Adobe considera i seguenti metodi fondamentali per la ricerca dei prodotti che ogni cliente al dettaglio dovrebbe monitorare in Adobe Analytics:
+Mentre la maggior parte dei siti web di vendita al dettaglio ha molti modi per trovare i prodotti, l&#39;Adobe considera i seguenti metodi fondamentali per la ricerca dei prodotti che ogni cliente al dettaglio dovrebbe monitorare in Adobe Analytics:
 
 * Parole chiave di ricerca interne
 * Codici di tracciamento delle campagne interne

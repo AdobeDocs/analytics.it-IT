@@ -1,11 +1,9 @@
 ---
 description: I modelli delle suite di rapporti configurano le impostazioni più comuni per diversi tipi di suite di rapporti.
 title: Panoramica dei modelli delle suite di rapporti
-feature: Admin Tools
-uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
+feature: Report Suite Settings
 exl-id: c329f73f-af91-4f0a-9e9e-ae17fcf2899f
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 10%
@@ -18,4 +16,4 @@ I modelli delle suite di rapporti configurano le impostazioni più comuni per di
 
 Per risparmiare tempo durante la creazione di una nuova suite di rapporti, puoi selezionare un modello simile alla configurazione della suite di rapporti progettata. La selezione di un modello di suite di rapporti non limita in alcun modo l’implementazione. Qualsiasi configurazione effettuata da un modello di suite di rapporti può essere modificata dopo la creazione della suite di rapporti.
 
-<!-- Meike, links to relevant articles? -->
+[Ulteriori informazioni](/help/admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)

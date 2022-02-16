@@ -1,8 +1,9 @@
 ---
 title: Guida dell’amministratore di Analytics
 description: Guida per gli amministratori di Adobe Analytics, compresa la gestione di utenti e prodotti nell'Admin Console, l'impostazione di suite di rapporti, variabili, classificazioni e raccolta dati.
+feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 97%

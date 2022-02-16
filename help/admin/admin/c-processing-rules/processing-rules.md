@@ -2,13 +2,11 @@
 description: Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto mentre viene inviato al reporting.
 subtopic: Processing rules
 title: Panoramica sulle regole di elaborazione
-feature: Admin Tools
-uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '394'
 ht-degree: 6%
 
 ---
@@ -28,7 +26,7 @@ Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il cont
 
 ## Autorizzazioni delle regole di elaborazione {#section_8A4846688050453784DAE4D89355169A}
 
-Per impostazione predefinita, gli amministratori dispongono dei diritti per utilizzare le regole di elaborazione **a1/>.** Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l&#39;interfaccia Strumenti di amministrazione. Per le istruzioni del caso, consulta []
+Gli amministratori dispongono dei diritti per utilizzare le regole di elaborazione **per impostazione predefinita**. Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l&#39;interfaccia Strumenti di amministrazione. Per le istruzioni del caso, consulta []
 
 ![](assets/processing-rules.png)
 
@@ -48,11 +46,11 @@ s.contextData['genre'] = "Youth";
 
 Una volta impostato il codice, puoi impostare le regole di elaborazione per assegnare valori alle variabili. Ad esempio:
 
-1. Mappa `author` su `eVar2`
-2. Mappa `section` su `prop1` e `eVar3`
-3. Se esistono `author` e `section`, impostare `event5`
+1. Mappa `author` a `eVar2`
+2. Mappa `section` a `prop1` e `eVar3`
+3. Se `author` e `section` esiste, set `event5`
 
-Per ulteriori informazioni, consulta [contextData](/help/implement/vars/page-vars/contextdata.md) nella guida utente Implementa .
+Vedi [contextData](/help/implement/vars/page-vars/contextdata.md) nella guida utente Implementa per ulteriori informazioni.
 
 ## Utilizzare le regole di elaborazione per trasformare i dati di hit e gli eventi di attivazione {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -62,4 +60,4 @@ Le regole di elaborazione possono monitorare i valori in arrivo per trasformare 
 
 Una volta definite le variabili di dati di contesto nell’implementazione, queste devono essere copiate in variabili quali eVar da utilizzare nei rapporti.
 
-Per ulteriori informazioni, consulta [Copiare una variabile di dati di contesto in un eVar](processing-rules-examples/processing-rules-copy-context-data.md) e [Impostare un evento utilizzando una variabile di dati di contesto](processing-rules-examples/processing-rules-copy-context-data-event.md) .
+Vedi [Copiare una variabile di dati di contesto in un eVar](processing-rules-examples/processing-rules-copy-context-data.md) e [Impostare un evento utilizzando una variabile di dati di contesto](processing-rules-examples/processing-rules-copy-context-data-event.md) per ulteriori informazioni.

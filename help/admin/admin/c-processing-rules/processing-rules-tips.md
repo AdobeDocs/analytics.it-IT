@@ -2,13 +2,11 @@
 description: Questa sezione contiene le linee guida per testare le regole di elaborazione e un elenco di errori comuni da evitare.
 subtopic: Processing rules
 title: Suggerimenti e trucchi per le regole di elaborazione
-feature: Admin Tools
-uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
+feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 8%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 8%
 
 Questa sezione contiene le linee guida per testare le regole di elaborazione e un elenco di errori comuni da evitare.
 
-## Regole di elaborazione dei test {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
+## Regole di elaborazione del test {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
 
 Questa sezione contiene alcune linee guida utili per testare le regole di elaborazione prima che vengano distribuite in produzione.
 
@@ -27,7 +25,7 @@ Per qualsiasi criterio basato su una ricerca, ad esempio se prop1 contiene &quot
 
 **Verifica delle regole per la lettura delle variabili**
 
-Crea una pagina HTML vuota sul desktop, includi s_code dal sito e imposta la variabile `s.account` su una suite di rapporti per sviluppo. Se le tue regole sono basate su un referente, un dominio di riferimento e così via, preleva alcuni URL di esempio dal rapporto referenti live, imposta la variabile `s.referrer` con uno di questi valori e carica la pagina. Allo stesso modo, se la regola si basa sul valore dell&#39;URL della pagina, puoi impostare `s.pageURL`. Lo stesso processo può essere utilizzato per qualsiasi variabile.
+Crea una pagina HTML vuota sul desktop, includi l’s_code dal sito e imposta il `s.account` in una suite di rapporti per sviluppo. Se le tue regole sono basate su referrer, dominio di riferimento e così via, preleva alcuni URL di esempio dal rapporto referrer live, imposta la `s.referrer` con uno di questi valori e carica la pagina. Allo stesso modo, se la regola si basa sul valore dell&#39;URL della pagina, puoi impostare `s.pageURL`. Lo stesso processo può essere utilizzato per qualsiasi variabile.
 
 **Utilizzo di una suite di rapporti per sviluppatori**
 
@@ -43,7 +41,7 @@ Quando crei una regola, considera il caso in cui un valore è vuoto. Se non aggi
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## Evita sovrascrittura dei valori {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## Evitare La Sovrascrittura Dei Valori {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 Nell’esempio seguente, sul sito vengono utilizzate due variabili di dati di contesto per acquisire i termini di ricerca: search_keyword e search_term. Tuttavia, in base alla configurazione, il valore search_keyword viene sempre sovrascritto, anche se search_term è vuoto.
 

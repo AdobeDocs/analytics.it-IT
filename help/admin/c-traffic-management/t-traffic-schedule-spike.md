@@ -1,28 +1,29 @@
 ---
 title: Pianificare un picco di traffico
 description: Partner con Adobe per assicurarti che gli eventi ad alto traffico non subiscano latenza.
+feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
 # Pianificare un picco di traffico
 
-L’Adobe tenta di collaborare con i client per garantire il successo di un evento con traffico elevato. La pianificazione dei picchi di traffico è il punto di partenza del processo di partnership. La sezione Spike pianificazione consente di avvisare Adobi di picchi di traffico temporanei in modo che le risorse appropriate possano essere allocate per gestirli.
+Adobe tenta di collaborare con i client per garantire il successo di un evento con traffico elevato. La pianificazione dei picchi di traffico è il punto di partenza del processo di collaborazione. La sezione di pianificazione di un picco consente di avvisare Adobe di picchi di traffico temporanei, in modo da allocare le risorse appropriate per gestirli.
 
-Il bilanciamento avanzato dei dati lato server con più personale dedicato viene utilizzato per garantire che tutti i clienti dispongano dei report più aggiornati possibili. Quando la tua organizzazione notifica l’Adobe di picchi di traffico, l’Adobe può assicurarsi che l’improvviso aumento di traffico sia un’esperienza positiva. La mancata notifica dell’Adobe di aumenti del traffico può aumentare la latenza durante i periodi critici di segnalazione.
+Il bilanciamento avanzato dei dati lato server con più personale dedicato viene utilizzato per garantire che tutti i clienti dispongano dei report più aggiornati possibili. Quando la tua organizzazione notifica l’Adobe di picchi di traffico, l’Adobe può assicurarsi che l’aumento improvviso del traffico sia un’esperienza positiva. La mancata notifica dell’Adobe di aumenti del traffico può aumentare la latenza durante i periodi critici di segnalazione.
 
-Leggi le informazioni su [Lead time necessario per incrementi di traffico](/help/admin/c-traffic-management/traffic-lead-time.md) prima di pianificare un picco di traffico.
+Leggi le informazioni [Lead time necessario per gli aumenti di traffico](/help/admin/c-traffic-management/traffic-lead-time.md) prima di pianificare un picco di traffico.
 
-1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**.
+1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** (Componenti) > **[!UICONTROL All admin]** (Tutti i componenti) > **[!UICONTROL Report suites]** (Eventi calendario).
 1. Seleziona una suite di rapporti.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > **[!UICONTROL Schedule Spike]**.
-1. Nel campo **[!UICONTROL Spike Start Date]** , specifica la data in cui prevede l’inizio del picco di traffico.
-1. Nel campo **[!UICONTROL Spike End Date]** , specifica la data in cui il picco di traffico dovrebbe terminare.
-1. Nel campo **[!UICONTROL Expected Daily Page Views During Spike]** , specifica il totale delle visualizzazioni giornaliere previste durante il periodo di picco del traffico, quindi fai clic su **[!UICONTROL Submit]**.
+1. In **[!UICONTROL Spike Start Date]** Specifica la data in cui si prevede che inizi il picco di traffico.
+1. In **[!UICONTROL Spike End Date]** specifica la data in cui si prevede la fine del picco di traffico.
+1. In **[!UICONTROL Expected Daily Page Views During Spike]** Specifica il totale previsto di visualizzazioni giornaliere della pagina durante il periodo di picco del traffico, quindi fai clic su **[!UICONTROL Submit]**.
 
    Assicurati di specificare il totale delle visualizzazioni di pagina previste, non solo le visualizzazioni di pagina aggiuntive.
 
@@ -42,6 +43,6 @@ Quando i clienti notificano Adobi di picchi di traffico per ogni suite di rappor
 
 Adobe vuole assicurarsi che l’esperienza con i rapporti aggiornati sia coerente. Per eseguire questo compito nel modo più efficace, l&#39;Adobe consiglia vivamente quanto segue:
 
-* Pianifica tutti i picchi di traffico in base a [Lead time richiesto per Incrementi di traffico](traffic-lead-time.md). **È particolarmente importante che qualsiasi picco di traffico previsto nei mesi di novembre-dicembre sia programmato entro il 15 settembre**. Se non raggiungi la scadenza, pianifica il picco il prima possibile. Meno lead time è migliore di nessuno e Adobe funziona con le risorse correnti per soddisfare al meglio le suite di rapporti.
+* Pianifica tutti i picchi di traffico in base a [Lead time necessario per gli aumenti di traffico](traffic-lead-time.md). **È particolarmente importante che qualsiasi picco di traffico previsto nei mesi di novembre-dicembre sia programmato entro il 15 settembre**. Se non raggiungi la scadenza, pianifica il picco il prima possibile. Meno lead time è migliore di nessuno e Adobe funziona con le risorse correnti per soddisfare al meglio le suite di rapporti.
 * Se Adobe contatta l’utente in relazione a un picco di traffico pianificato, assicurati di comunicare se è più importante la generazione di rapporti in tempo reale o la generazione di rapporti in elaborazione completa. Alcune organizzazioni si affidano al reporting in tempo reale più di altre. Il tipo di reporting utilizzato può aiutare ad Adobe assegnare le priorità di conseguenza.
 * Comunicare con il tuo Account Manager i report più importanti e quando li richiami può aiutarli a sostenere la tua iniziativa.

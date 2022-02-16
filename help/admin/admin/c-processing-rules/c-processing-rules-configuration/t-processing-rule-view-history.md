@@ -2,14 +2,12 @@
 description: Le modifiche alle regole di elaborazione possono essere visualizzate in History (Cronologia).
 subtopic: Processing rules
 title: Visualizzare la cronologia delle regole di elaborazione
-feature: Admin Tools
-uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
+feature: Processing Rules
 exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 40%
+source-wordcount: '38'
+ht-degree: 36%
 
 ---
 
@@ -21,4 +19,4 @@ Le modifiche alle regole di elaborazione possono essere visualizzate in History 
 1. Seleziona una suite di rapporti.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]**.
 
-1. Nella pagina **[!UICONTROL Processing Rules]** , fai clic sulla scheda **[!UICONTROL View History]** .
+1. Sulla **[!UICONTROL Processing Rules]** fai clic su **[!UICONTROL View History]** scheda .

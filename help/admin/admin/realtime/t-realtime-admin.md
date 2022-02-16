@@ -1,13 +1,12 @@
 ---
 description: Passaggi amministrativi per l’impostazione di rapporti in tempo reale.
 title: Configurazione rapporti in tempo reale
-feature: Strumenti di amministrazione
-uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
+feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 3%
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +18,7 @@ L’impostazione dei rapporti in tempo reale in Reports &amp; Analytics consiste
 
 1. Seleziona la suite di rapporti per la quale desideri abilitare i rapporti in tempo reale.
 
-   Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** e seleziona la suite di rapporti dall’elenco a discesa in alto:
+   Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** e seleziona la suite di rapporti dal menu a discesa in alto:
 
    ![](assets/report_suite_selector.png)
 
@@ -31,7 +30,7 @@ L’impostazione dei rapporti in tempo reale in Reports &amp; Analytics consiste
 
    (Disponibile anche in **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**.)
 
-1. Attiva l&#39;impostazione **[!UICONTROL Enable Real-Time]**.
+1. Accendere **[!UICONTROL Enable Real-Time]** impostazione.
 1. Imposta la raccolta dati in tempo reale per un massimo di tre rapporti, con una metrica e tre dimensioni o classificazioni per rapporto.
 
    ![](assets/real_time_admin.png)
@@ -46,7 +45,7 @@ L’impostazione dei rapporti in tempo reale in Reports &amp; Analytics consiste
    >
    >Per un singolo rapporto in tempo reale, al momento non è supportata l’abilitazione di dimensioni duplicate, anche se per ciascuna dimensione è selezionata una classificazione diversa.
 
-   Per ulteriori informazioni sulle classificazioni, consulta [Informazioni sulle classificazioni](/help/components/classifications/c-classifications.md).
+   Per ulteriori informazioni sulle classificazioni, vedi [Informazioni sulle classificazioni](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
@@ -56,6 +55,6 @@ L’impostazione dei rapporti in tempo reale in Reports &amp; Analytics consiste
 
 1. Fai clic su **[!UICONTROL Save]** o **[!UICONTROL Save and View Report]**.
 
-   Dopo questa configurazione iniziale del report, potrebbero essere necessari fino a 20 minuti perché i dati inizino lo streaming. Da quel momento in poi, i dati sono immediatamente disponibili. Per informazioni sulla visualizzazione dei rapporti in tempo reale, consulta [Eseguire un rapporto in tempo reale](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Dopo questa configurazione iniziale del report, potrebbero essere necessari fino a 20 minuti perché i dati inizino lo streaming. Da quel momento in poi, i dati sono immediatamente disponibili. Per informazioni sulla visualizzazione dei rapporti in tempo reale, vedi [Eseguire un rapporto in tempo reale](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. Per impostazione predefinita, tutti gli utenti hanno accesso ai rapporti in tempo reale.

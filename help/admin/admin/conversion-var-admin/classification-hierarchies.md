@@ -3,13 +3,11 @@ description: La pagina Gerarchie di classificazione ti consente di definire gera
 subtopic: Classifications
 title: Gerarchie di classificazione
 feature: Admin Tools
-uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 5%
+source-wordcount: '276'
+ht-degree: 4%
 
 ---
 
@@ -19,9 +17,9 @@ La pagina Gerarchie di classificazione ti consente di definire gerarchie di clas
 
 ## Gerarchie di classificazione {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
-La pagina [!UICONTROL Classification Hierarchies] ti consente di definire gerarchie di classificazione da utilizzare per creare rapporti [!UICONTROL Hierarchy] con lo stesso nome.
+La [!UICONTROL Classification Hierarchies] consente di definire gerarchie di classificazione da utilizzare per creare [!UICONTROL Hierarchy] rapporti con lo stesso nome.
 
-Un rapporto [!UICONTROL Hierarchy] ti consente di approfondire set di dati sempre più perfezionati, in base alla gerarchia di classificazione, in modo da visualizzare più facilmente le relazioni tra i dati.
+A [!UICONTROL Hierarchy] report ti consente di analizzare in profondità set di dati sempre più perfezionati, in base alla gerarchia di classificazione, in modo da visualizzare più facilmente le relazioni tra i dati.
 
 Puoi creare gerarchie di classificazione per pagine web, campagne, prodotti o qualsiasi altra variabile di rapporto. Il rapporto Gerarchia visualizza unità, ordini e ricavi per ciascuna classificazione di variabili nella gerarchia.
 
@@ -34,10 +32,10 @@ Crea le classificazioni prima di aggiungerle a una gerarchia.
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Classification Hierarchies]**.
-1. Dall’elenco a discesa **[!UICONTROL Build Hierarchy For]** , seleziona la variabile in cui desideri creare una gerarchia di classificazione.
+1. Da **[!UICONTROL Build Hierarchy For]** dall’elenco a discesa, seleziona la variabile in cui desideri creare una gerarchia di classificazione.
 
    Nell’elenco delle classificazioni vengono visualizzate automaticamente le classificazioni disponibili per la variabile selezionata.
-1. Trascina una classificazione nel campo **[!UICONTROL Drag new hierarchy root here]** per includerla nella gerarchia di classificazione.
+1. Trascina una classificazione in **[!UICONTROL Drag new hierarchy root here]** per includerlo nella gerarchia di classificazione.
 
    Trascina le classificazioni nella gerarchia nell’ordine in cui desideri che vengano visualizzate nella gerarchia. La prima classificazione è la radice gerarchica, la seconda è la prima sottoclassificazione e così via.
 1. Fai clic su **[!UICONTROL Save]**.

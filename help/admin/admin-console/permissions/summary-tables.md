@@ -2,7 +2,8 @@
 title: Autorizzazioni Adobe Analytics - tabelle di riepilogo
 description: Tabelle che riepilogano le autorizzazioni Adobe Analytics disponibili in Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 14%
@@ -46,7 +47,7 @@ Utilizza le tabelle di riepilogo seguenti per identificare le autorizzazioni di 
 | Bot |  |  | x |  | Consente di accedere al report Metriche del sito > Bots > Bots in Reports &amp; Analytics. |
 | Rapporto canale |  |  | x |  | Consente l&#39;accesso a Marketing Channels (Canali di marketing) > Channel Overview Report (Report panoramica canale) in Reports &amp; Analytics. |
 | Visite giornaliere di ritorno |  |  | x |  | Consente di accedere a Visitor Retention (Conservazione dei visitatori) > Daily Return Visits (Visite giornaliere di ritorno) in Reports &amp; Analytics. |
-| I miei report consigliati |  |  | x |  | Consente di accedere a Metriche del sito > I miei report consigliati in Reports &amp; Analytics. |
+| I miei rapporti consigliati |  |  | x |  | Consente di accedere a Metriche del sito > I miei report consigliati in Reports &amp; Analytics. |
 | Rapporto in tempo reale |  |  | x |  | Consente di accedere a Metriche del sito > In tempo reale in Reports &amp; Analytics. Utilizzare l&#39;autorizzazione &#39;Configurazione report in tempo reale&#39; per concedere l&#39;accesso per impostare questo report. |
 | Visite di ritorno |  |  | x |  | Consente di accedere a Visitor Retention (Conservazione dei visitatori) > Return Visits (Visite di ritorno) in Reports &amp; Analytics. |
 | Configurazione di Advertising Analytics |  |  |  | x | Non utilizzato. |
@@ -92,7 +93,7 @@ Utilizza le tabelle di riepilogo seguenti per identificare le autorizzazioni di 
 | Accesso in Analysis Workspace |  | x |  |  | Consente l’accesso ad Analysis Workspace. Per utilizzare Adobe Analytics, gli utenti devono appartenere a questo gruppo (preferito) o a Accesso a Reports &amp; Analytics . |
 | Analysis Workspace: Salva come modello |  | x |  |  | Consente di accedere a Progetto > Salva come modello in Analysis Workspace. |
 | Creazione di metriche calcolate |  | x |  |  | Consente di creare metriche calcolate in tutte le funzionalità di Analytics. |
-| Accesso Labs |  | x |  |  | Consente l&#39;accesso a Labs. |
+| Accesso a Labs |  | x |  |  | Consente l&#39;accesso a Labs. |
 | Report Builder |  | x |  |  | Abilita il pulsante di download in Strumenti > Report Builder e consente all&#39;utente di eseguire l&#39;autenticazione in Microsoft Excel. |
 | Creazione di segmenti |  | x |  |  | Consente di creare e condividere segmenti in tutte le funzionalità di Analytics. |
 | Pubblicazione dei segmenti |  | x |  |  | Consente di rendere un segmento un pubblico Experience Cloud durante la creazione o la modifica di un segmento. |

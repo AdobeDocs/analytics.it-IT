@@ -1,14 +1,12 @@
 ---
 description: Ad Adobe, è necessario un preavviso per le nuove impostazioni account, i picchi di traffico e l’aumento del traffico. L'hardware deve essere assegnato in anticipo per ridurre al minimo la latenza e gli eventuali impatti negativi sul sistema nel suo complesso.
 title: Tempo di lead richiesto per aumento di traffico
-feature: Admin Tools
-uuid: aa3fb882-51b0-458f-917b-7c54d5659623
+feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 5%
+source-wordcount: '332'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +18,7 @@ L’allocazione dell’hardware è guidata dagli avvisi inviati tramite l’inte
 
 >[!IMPORTANT]
 >
->Adobe non è in grado di soddisfare le richieste di modifica del traffico &quot;segnaposto&quot;. Se non diversamente indicato, rispettare il lead time suggerito il più vicino possibile, compreso il mancato invio di un avviso troppo presto. Consulta [Pianificare un picco di traffico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) o [Specificare un aumento di traffico permanente](/help/admin/c-traffic-management/t-traffic-permanent.md).
+>Adobe non è in grado di soddisfare le richieste di modifica del traffico &quot;segnaposto&quot;. Se non diversamente indicato, rispettare il lead time suggerito il più vicino possibile, compreso il mancato invio di un avviso troppo presto. Vedi [Pianificare un picco di traffico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) o [Specifica aumento traffico permanente](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
 Per determinare con quale anticipo è necessario inviare un avviso di traffico, attenersi alle seguenti linee guida:
 

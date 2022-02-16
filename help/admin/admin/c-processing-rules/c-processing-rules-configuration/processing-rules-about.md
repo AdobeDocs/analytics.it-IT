@@ -2,13 +2,11 @@
 description: Le regole di elaborazione ti consentono di apportare modifiche ai dati in base a condizioni definite. Quando gli attributi o i valori corrispondono a condizioni definite, è possibile impostare ed eliminare i valori e impostare gli eventi.
 subtopic: Processing rules
 title: Funzionamento delle regole di elaborazione
-feature: Admin Tools
-uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
+feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 2%
 
 ---
@@ -41,11 +39,11 @@ La tabella seguente contiene concetti chiave che è necessario comprendere quand
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole di elaborazione vengono applicate immediatamente alla suite di rapporti dopo il salvataggio. </p> </td> 
-   <td colname="col2"> <p>Le modifiche apportate alle regole di elaborazione dovrebbero essere visibili nella suite di rapporti entro pochi minuti dal salvataggio. Durante il test delle regole di elaborazione, ti consigliamo di configurare <a href="/help/admin/admin/realtime/t-realtime-admin.md"> rapporti in tempo reale</a> nella suite di rapporti di prova in modo da visualizzare rapidamente i risultati di una regola di elaborazione. </p> </td> 
+   <td colname="col2"> <p>Le modifiche apportate alle regole di elaborazione dovrebbero essere visibili nella suite di rapporti entro pochi minuti dal salvataggio. Durante il test delle regole di elaborazione, è consigliabile configurare <a href="/help/admin/admin/realtime/t-realtime-admin.md"> rapporti in tempo reale</a> nella suite di rapporti di test per visualizzare rapidamente i risultati di una regola di elaborazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole di elaborazione sono l'unico modo per accedere alle variabili di dati di contesto. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiare una variabile di dati di contesto in un eVar  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiare una variabile di dati di contesto in un eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole di elaborazione vengono applicate prima delle regole VISTA e Marketing Channel. </p> </td> 
@@ -81,11 +79,11 @@ La tabella seguente contiene concetti chiave che è necessario comprendere quand
   </tr> 
   <tr> 
    <td colname="col1"> <p>I confronti di valori nell’interfaccia utente distinguono tra maiuscole e minuscole. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Pulizia dei valori in un rapporto  </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Pulizia dei valori in un rapporto </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I nomi delle variabili di dati di contesto possono contenere solo caratteri alfanumerici, caratteri di sottolineatura e punti. Eventuali caratteri aggiuntivi vengono eliminati. </p> </td> 
-   <td colname="col2"> <p>Ad esempio, la variabile di dati di contesto <code> login_page-home</code> diventa automaticamente <code> login_pagehome</code>. Tutti i dati inviati alla variabile <code> login_page-home</code> sono allocati sotto <code> login_pagehome</code>. </p> <p>Le variabili di dati di contesto che contengono caratteri non supportati non possono essere aggiunte nell’interfaccia delle Regole di elaborazione. </p> </td> 
+   <td colname="col2"> <p>Ad esempio, la variabile di dati di contesto <code> login_page-home</code> diventa automaticamente <code> login_pagehome</code>. Tutti i dati inviati a <code> login_page-home</code> variabile assegnata in <code> login_pagehome</code>. </p> <p>Le variabili di dati di contesto che contengono caratteri non supportati non possono essere aggiunte nell’interfaccia delle Regole di elaborazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caret (^) è un carattere speciale nel sistema di regole di elaborazione. </p> </td> 
@@ -102,8 +100,8 @@ Puoi creare una regola senza condizioni per eseguire sempre azioni definite.
 
 Prima dell’esecuzione delle azioni, le variabili non vengono controllate automaticamente per i valori. Ad esempio, Prop1 contiene un valore di &quot;qualcosa&quot; e eVar1 è vuoto. Se si imposta Prop1 su uguale a eVar1, entrambi i valori saranno vuoti. Se devi evitarlo, aggiungi una condizione per verificare la presenza di un valore.
 
-## Azioni regola di elaborazione {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## Azioni delle regole di elaborazione {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 Le azioni impostano le variabili di pagina, eliminano le variabili di pagina o attivano gli eventi. Le azioni possono anche concatenare valori da visualizzare in un rapporto.
 
-Ad esempio, è possibile visualizzare `category:product` concatenando due variabili.
+Ad esempio, potrebbe essere utile visualizzare `category:product` concatenando due variabili.

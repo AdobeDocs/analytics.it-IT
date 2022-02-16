@@ -1,13 +1,12 @@
 ---
 description: Puoi creare una nuova suite di rapporti selezionando un modello predefinito o utilizzando una delle suite di rapporti esistenti da usare come modello.
 title: 'Nuova suite di rapporti: impostazioni'
-feature: Admin Tools
+feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '535'
 ht-degree: 3%
 
 ---
@@ -16,11 +15,11 @@ ht-degree: 3%
 
 Puoi creare una nuova suite di rapporti selezionando un modello predefinito o utilizzando una delle suite di rapporti esistenti da usare come modello.
 
-Descrizioni degli elementi utilizzati durante la [creazione di una suite di rapporti](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
+Descrizioni degli elementi utilizzati quando [creazione di una suite di rapporti](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
 >[!NOTE]
 >
->La [documentazione relativa alle suite di rapporti virtuali](/help/components/vrs/c-workflow-vrs/vrs-create.md) illustra come creare suite di rapporti virtuali.
+>La [Documentazione della suite di rapporti virtuali](/help/components/vrs/c-workflow-vrs/vrs-create.md) mostra come creare suite di rapporti virtuali.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -36,7 +35,7 @@ Descrizioni degli elementi utilizzati durante la [creazione di una suite di rapp
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Titolo sito</span> </td> 
-   <td colname="col2">Identifica la suite di rapporti in <span class="wintitle"> Strumenti di amministrazione</span>. Questo titolo viene utilizzato anche nell'elenco a discesa <span class="wintitle"> Report Suite</span> nell'intestazione della suite. </td> 
+   <td colname="col2">Identifica la suite di rapporti in <span class="wintitle"> Strumenti di amministrazione</span>. Questo titolo viene utilizzato anche nel <span class="wintitle"> Suite di rapporti</span> elenco a discesa nell'intestazione della suite. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Fuso orario</span> </td> 
@@ -48,11 +47,11 @@ Descrizioni degli elementi utilizzati durante la [creazione di una suite di rapp
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Pagina predefinita</span> </td> 
-   <td colname="col2"> <p>(Facoltativo) Elimina le occorrenze del valore <span class="wintitle"> Pagina predefinita</span> dagli URL che incontra. Se il rapporto <span class="wintitle"> Pagine più popolari</span> contiene URL anziché nomi di pagina, questa impostazione impedisce l'utilizzo di più URL per la stessa pagina web. </p> <p>Ad esempio, gli URL<span class="filepath"> https://example.com</span> e <span class="filepath"> https://example.com/index.html</span> sono in genere la stessa pagina. È possibile rimuovere i nomi di file estranei in modo che entrambi questi URL vengano visualizzati come <span class="filepath"> https://example.com</span> nei rapporti. </p> <p>Se non imposti questo valore, Analytics rimuove automaticamente i seguenti nomi di file dagli URL: <span class="filepath"> index.htm</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index.cgi</span>, <span class="filepath"> index.asp</span>, <span class="filepath"> default.htm</span>, <span class="filepath"> default.html</span>, <span class="filepath"> default.cgi</span>, <span class="filepath"> default.asp</span>, <span class="filepath"> home.htm</span>, <span class="filepath"> home.html</span>, <span class="filepath"> home.cgi</span> e&lt;a2 2/&gt; home.asp</span>.<span class="filepath"> </span></p> <p>Per disabilitare la stripping del nome file, specifica un valore di pagina predefinito che non si verifica mai negli URL. </p> </td> 
+   <td colname="col2"> <p>(Facoltativo) Elimina le occorrenze del <span class="wintitle"> Pagina predefinita</span> dagli URL che incontra. Se <span class="wintitle"> Pagine più popolari</span> Questo rapporto contiene URL anziché nomi di pagina, impedisce l’utilizzo di più URL per la stessa pagina web. </p> <p>Ad esempio, gli URL<span class="filepath"> https://example.com</span> e <span class="filepath"> https://example.com/index.html</span> sono in genere la stessa pagina. Puoi rimuovere i nomi di file estranei in modo che entrambi questi URL vengano visualizzati come <span class="filepath"> https://example.com</span> nei rapporti. </p> <p>Se non imposti questo valore, Analytics rimuove automaticamente i seguenti nomi di file dagli URL: <span class="filepath"> index.htm</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index.cgi</span>, <span class="filepath"> index.asp</span>, <span class="filepath"> default.htm</span>, <span class="filepath"> default.html</span>, <span class="filepath"> default.cgi</span>, <span class="filepath"> default.asp</span>, <span class="filepath"> home.htm</span>, <span class="filepath"> home.html</span>, <span class="filepath"> home.cgi</span>e<span class="filepath"> home.asp</span>. </p> <p>Per disabilitare la stripping del nome file, specifica un valore di pagina predefinito che non si verifica mai negli URL. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vai alla data live </p> </td> 
-   <td colname="col2">Adobe della data in cui la suite di rapporti diventerà attiva. Se la pianificazione della distribuzione cambia, fornisci una stima del traffico aggiornata utilizzando lo strumento <span class="wintitle"> Traffico previsto permanente</span> in <a href="/help/admin/c-traffic-management/traffic-management.md"> Gestione traffico</a>. </td> 
+   <td colname="col2">Adobe della data in cui la suite di rapporti diventerà attiva. Se la pianificazione della distribuzione cambia, fornisci una stima del traffico aggiornata utilizzando <span class="wintitle"> Traffico previsto permanente</span> entrare nello strumento <a href="/help/admin/c-traffic-management/traffic-management.md"> Gestione del traffico</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Visualizzazioni di pagina stimate al giorno</span> </td> 
@@ -60,11 +59,11 @@ Descrizioni degli elementi utilizzati durante la [creazione di una suite di rapp
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Valuta di base</span> </td> 
-   <td colname="col2"> <p>Specifica la valuta predefinita utilizzata per memorizzare tutti i dati monetari. Il reporting di Analytics converte le transazioni in altre valute nella valuta di base, utilizzando il tasso di conversione corrente al momento in cui riceve i dati. </p> <p> Il reporting di Analytics utilizza la variabile JavaScript <span class="varname"> currencyCode</span> per identificare la valuta di una determinata transazione. </p> </td> 
+   <td colname="col2"> <p>Specifica la valuta predefinita utilizzata per memorizzare tutti i dati monetari. Il reporting di Analytics converte le transazioni in altre valute nella valuta di base, utilizzando il tasso di conversione corrente al momento in cui riceve i dati. </p> <p> Il reporting di Analytics utilizza il <span class="varname"> currencyCode</span> Variabile JavaScript per identificare la valuta di una determinata transazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Disabilita supporto caratteri multibyte  </span> </td> 
-   <td colname="col2"> <p>Disattiva il supporto di caratteri multibyte per la suite di rapporti. Se disattivi il supporto per caratteri multibyte, il sistema presuppone che i dati siano in formato ISO-8859-1. Le pagine web devono specificare il proprio set di caratteri nella variabile JavaScript <span class="varname"> charSet</span> . </p> <p>Il supporto per caratteri multibyte memorizza i caratteri nella suite di rapporti utilizzando UTF-8. Al momento della ricezione, il sistema converte i dati dal set di caratteri della pagina web al set di caratteri UTF-8, in modo da poter utilizzare qualsiasi lingua nei rapporti di marketing. </p> <p>Contatta il tuo Account Manager o l’Assistenza clienti per modificare il supporto per caratteri multibyte per una suite di rapporti esistente. </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Disabilita supporto caratteri multibyte </span> </td> 
+   <td colname="col2"> <p>Disattiva il supporto di caratteri multibyte per la suite di rapporti. Se disattivi il supporto per caratteri multibyte, il sistema presuppone che i dati siano in formato ISO-8859-1. Le pagine web devono specificare il relativo set di caratteri nel <span class="varname"> charSet</span> Variabile JavaScript. </p> <p>Il supporto per caratteri multibyte memorizza i caratteri nella suite di rapporti utilizzando UTF-8. Al momento della ricezione, il sistema converte i dati dal set di caratteri della pagina web al set di caratteri UTF-8, in modo da poter utilizzare qualsiasi lingua nei rapporti di marketing. </p> <p>Contatta il tuo Account Manager o l’Assistenza clienti per modificare il supporto per caratteri multibyte per una suite di rapporti esistente. </p> </td> 
   </tr>  
  </tbody> 
 </table>

@@ -2,7 +2,8 @@
 title: Escludi per indirizzo IP
 description: Impedisci la visualizzazione nei rapporti dei dati generati da determinati indirizzi IP.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 3%
@@ -19,11 +20,11 @@ Puoi escludere dai rapporti i dati da indirizzi IP specifici, ad esempio attivit
 >
 >Gli hit esclusi dall’indirizzo IP vengono fatturati come [chiamate server](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
 
-Puoi utilizzare gli indicatori jolly (*) per escludere un intervallo di indirizzi. Ad esempio, `[!DNL 0.0.*.0]` escluderebbe tutti gli indirizzi IP compresi tra `[!DNL 0.0.0.0]` e `[!DNL 0.0.255.0]`. Puoi escludere fino a 50 indirizzi IP diversi.
+Puoi utilizzare gli indicatori jolly (*) per escludere un intervallo di indirizzi. Ad esempio: `[!DNL 0.0.*.0]` escluderebbe tutti gli indirizzi IP tra `[!DNL 0.0.0.0]` e `[!DNL 0.0.255.0]`. Puoi escludere fino a 50 indirizzi IP diversi.
 
 >[!TIP]
 >
->Non è necessario escludere gli indirizzi IP privati. Solo gli indirizzi IP esterni raggiungono i server di raccolta dati di Adobe. Gli indirizzi privati includono `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` e `169.254.*.*`.
+>Non è necessario escludere gli indirizzi IP privati. Solo gli indirizzi IP esterni raggiungono i server di raccolta dati di Adobe. Gli indirizzi privati includono `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`e `169.254.*.*`.
 
 ## Impatto dell&#39;offuscamento dell&#39;IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 

@@ -2,14 +2,12 @@
 description: Le regole di elaborazione attive vengono visualizzate in amministratore.
 subtopic: Processing rules
 title: Visualizzare le regole di elaborazione attive
-feature: Admin Tools
-uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
+feature: Processing Rules
 exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 45%
+source-wordcount: '42'
+ht-degree: 42%
 
 ---
 
@@ -23,4 +21,4 @@ Le regole di elaborazione attive vengono visualizzate in amministratore.
 
    Sono elencate tutte le regole di elaborazione attive per la suite di rapporti.
 
-   [Visualizzare la cronologia delle regole di elaborazione](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
+[Visualizzare la cronologia delle regole di elaborazione](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)

@@ -1,11 +1,9 @@
 ---
 description: Le regole bot consentono di rimuovere dalla suite di rapporti il traffico generato da spider e bot noti. La rimozione del traffico da bot può fornire una misurazione più precisa dell’attività degli utenti sul sito web.
-subtopic: Bot rules
 title: Panoramica delle regole bot
 feature: Admin Tools
-uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 8%
@@ -24,7 +22,7 @@ Una volta definite le regole bot, tutto il traffico in entrata viene confrontato
 
 Per aggiornare o caricare le regole bot, passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. Seleziona la suite di rapporti corretta, quindi vai a **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
 
-La rimozione del traffico da bot riduce in genere il volume di traffico e le metriche di conversione. Molti clienti ritengono che la rimozione del traffico da bot determini tassi di conversione più elevati e aumenti in altre metriche di usabilità. Prima di rimuovere il traffico da bot, comunica con le parti interessate per assicurarsi di poter apportare le modifiche necessarie agli indicatori di prestazioni chiave risultanti da questo cambiamento. Se possibile, consigliamo prima di tutto di rimuovere il traffico da bot da una piccola suite di rapporti per stimare il potenziale impatto.
+La rimozione del traffico da bot riduce in genere il volume di traffico e le metriche di conversione. Molti clienti ritengono che la rimozione del traffico da bot determini tassi di conversione più elevati e aumenti in altre metriche di usabilità. Prima di rimuovere il traffico da bot, comunica con le parti interessate per assicurarsi di poter apportare le modifiche necessarie agli indicatori di prestazioni chiave risultanti da questo cambiamento. Se possibile, consigliamo prima di tutto di rimuovere il traffico da bot da una piccola suite di rapporti per stimare l’impatto potenziale.
 
 I dati sul traffico dei bot vengono memorizzati in un archivio separato per la visualizzazione nei rapporti Bots e Bot Pages. Sono disponibili due opzioni per abilitare il filtro bot:
 
