@@ -2,13 +2,12 @@
 description: Crea intervalli di date personalizzati in Analysis Workspace e salvali come componenti Tempo.
 keywords: Analysis Workspace
 title: Creazione di intervalli di date personalizzati
-uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: Concetti di base di Workspace
+feature: Calendar
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '244'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '242'
 ht-degree: 100%
 
 ---

@@ -1,14 +1,13 @@
 ---
 description: Tutti i rapporti con segnalibri e i rapporti dashboard sono ora elencati come dimensioni nel passaggio 1 della Creazione guidata richieste e possono essere importati come richieste di Report Builder.
 title: Importare rapporti con segnalibri e minirapporti dashboard
-uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 4%
+source-wordcount: '335'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +21,7 @@ Questo è il modo in cui la Creazione guidata richieste al passaggio 1 mostra un
 
 ![](assets/import_dashboard_reportlet.png)
 
-Quando si fa clic su **[!UICONTROL Retrieve your Dashboards]** o **[!UICONTROL Retrieve your Bookmarks]**, i dati esistenti del dashboard e/o del segnalibro vengono recuperati e incollati nel foglio di lavoro.
+Quando fai clic su **[!UICONTROL Retrieve your Dashboards]** o **[!UICONTROL Retrieve your Bookmarks]**, i dati esistenti del dashboard e/o del segnalibro vengono recuperati e incollati nel foglio di lavoro.
 
 >[!NOTE]
 >

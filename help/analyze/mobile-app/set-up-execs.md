@@ -1,15 +1,15 @@
 ---
-description: Come creare una scorecard per le dashboard di Analytics
-title: Creare una scorecard
+description: Gli utenti esecutivi potrebbero aver bisogno di ulteriore assistenza per accedere all’app e utilizzarla. Questa sezione offre informazioni per aiutarti a fornire tale assistenza.
+title: Impostare gli utenti esecutivi con l’app
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
+exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '729'
+ht-degree: 98%
 
 ---
-
 
 # Impostare gli utenti esecutivi con l’app
 

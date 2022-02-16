@@ -1,15 +1,15 @@
 ---
 description: Usare i segmenti rapidi in Analysis Workspace.
 title: Segmenti rapidi
-feature: Workspace Basics
+feature: Segmentation
 role: User, Admin
-source-git-commit: 533c58f3bcc3974dafab1d6b7dd3e239ad80831b
+exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 100%
 
 ---
-
 
 # Segmenti rapidi
 

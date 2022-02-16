@@ -1,13 +1,12 @@
 ---
 description: Crea, modifica o elimina gli avvisi.
 title: Gestione avvisi
-uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-feature: Strumenti di intelligenza artificiale
+feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '153'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '151'
 ht-degree: 100%
 
 ---

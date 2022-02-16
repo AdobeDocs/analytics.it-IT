@@ -1,13 +1,12 @@
 ---
-description: Utilizzare il Report Builder con Microsoft Power BI.
+description: Utilizza il Report Builder con Microsoft Power BI.
 title: 'Pubblicare su Power BI: panoramica'
-uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '957'
 ht-degree: 13%
 
 ---
@@ -36,12 +35,12 @@ Le cartelle di lavoro pianificate sono fogli di calcolo Excel formattati con dat
 1. In Report Builder, generare e salvare una cartella di lavoro.
 1. Sulla barra degli strumenti del Report Builder, fai clic su **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
-1. Nella Pianificazione guidata di base, seleziona la casella accanto a **[!UICONTROL Publish Workbook to Microsoft Power BI]**.
+1. Nella Pianificazione guidata di base, selezionare la casella accanto a **[!UICONTROL Publish Workbook to Microsoft Power BI]**.
 
    ![](assets/simple-schedule-wizard.png)
 
 1. Specifica l’e-mail e l’invio immediato o specifica la frequenza di pianificazione (oraria, giornaliera, ecc.).
-1. Fai clic su **[!UICONTROL OK]** per pubblicare.
+1. Fai clic su **[!UICONTROL OK]** da pubblicare.
 1. Ora ti verrà chiesto di accedere al tuo account Microsoft. Immetti le tue credenziali.
 1. La cartella di lavoro del Report Builder viene pianificata e pubblicata in Power BI.
 
@@ -49,7 +48,7 @@ Le cartelle di lavoro pianificate sono fogli di calcolo Excel formattati con dat
 
 **Visualizza i dati della cartella di lavoro del Report Builder in Power BI**
 
-1. In Power BI, fare doppio clic sulla cartella di lavoro nel menu [!UICONTROL Workbooks].
+1. In Power BI, fai doppio clic sulla cartella di lavoro sotto la [!UICONTROL Workbooks] menu.
 
    ![](assets/workbooks-power-bi.png)
 
@@ -65,29 +64,29 @@ Le cartelle di lavoro pianificate sono fogli di calcolo Excel formattati con dat
 
 Invece di importare l&#39;intera cartella di lavoro, è possibile importare solo il contenuto di tutte le tabelle formattate all&#39;interno della cartella di lavoro.
 
-**Caso** di utilizzo: È disponibile una cartella di lavoro di Excel che richiama dati da più richieste di Report Builder e crea una tabella di riepilogo con molte formule. È possibile importare solo la tabella di riepilogo in Power BI e crearne una visualizzazione.
+**Caso d’uso**: È disponibile una cartella di lavoro di Excel che richiama dati da più richieste di Report Builder e crea una tabella di riepilogo con molte formule. È possibile importare solo la tabella di riepilogo in Power BI e crearne una visualizzazione.
 
 **Pubblicare una tabella formattata in Report Builder**
 
 1. In Report Builder, genera una tabella di dati che include una riga di intestazione seguita da una riga di dati.
-1. Selezionare la tabella e selezionare **[!UICONTROL Format as Table]** dal menu [!UICONTROL Home]. La tabella viene denominata per impostazione predefinita (Tabella 1, Tabella 2, ecc.), ma è possibile modificare il nome nel menu [!UICONTROL Design].
+1. Selezionare la tabella e selezionare **[!UICONTROL Format as Table]** dal [!UICONTROL Home] menu. La tabella viene denominata per impostazione predefinita (Tabella 1, Tabella 2, ecc.), ma è possibile modificare il nome [!UICONTROL Design]menu.
 
 1. Sulla barra degli strumenti del Report Builder, fai clic su **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
 1. Nella Pianificazione guidata di base, fare clic su **[!UICONTROL Advanced Scheduling Options]**.
-1. Nella scheda [!UICONTROL Scheduling Wizard - Advanced] , seleziona la casella accanto a **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]** nella scheda **[!UICONTROL Publishing Options]** .
+1. In [!UICONTROL Scheduling Wizard - Advanced], sul **[!UICONTROL Publishing Options]** , seleziona la casella accanto a **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (Facoltativo) Puoi personalizzare il nome della risorsa pubblicata in Power BI. Questo può essere utile se utilizzi il controllo delle versioni come parte del nome della cartella di lavoro (ad esempio, mycartella di lavoro_v1.1.xlsx) e non desideri che il numero di versione venga visualizzato nel nome della risorsa Power BI pubblicata. Inoltre, la risorsa pubblicata non subirà modifiche se cambia il numero di versione. (Vedi [specifiche](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) qui.)
+1. (Facoltativo) Puoi personalizzare il nome della risorsa pubblicata in Power BI. Questo può essere utile se utilizzi il controllo delle versioni come parte del nome della cartella di lavoro (ad esempio, mycartella di lavoro_v1.1.xlsx) e non desideri che il numero di versione venga visualizzato nel nome della risorsa Power BI pubblicata. Inoltre, la risorsa pubblicata non subirà modifiche se cambia il numero di versione. (Visualizzazione [specifiche](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) qui.)
 
 **Visualizza i dati della tabella in Power BI**
 
-1. In Power BI, vai al menu **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** .
+1. In Power BI, vai al **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
 
    ![](assets/datasets-menu.png)
 
-1. Seleziona il set di dati pubblicato e fai clic sull’icona [!UICONTROL Create report] accanto a esso. Le tabelle verranno visualizzate come Campi.
+1. Seleziona il set di dati pubblicato e fai clic sul pulsante [!UICONTROL Create report] accanto a essa. Le tabelle verranno visualizzate come Campi.
 
    ![](assets/formatted-tables.png)
 
@@ -95,7 +94,7 @@ Invece di importare l&#39;intera cartella di lavoro, è possibile importare solo
 
    ![](assets/view-table-dataset.png)
 
-1. Dal menu [!UICONTROL Visualizations], puoi selezionare come visualizzare una tabella in Power BI. Ad esempio, puoi scegliere di presentare i dati come grafico a linee:
+1. Da [!UICONTROL Visualizations] è possibile scegliere come visualizzare una tabella in Power BI. Ad esempio, puoi scegliere di presentare i dati come grafico a linee:
 
    ![](assets/bi-line-graph.png)
 
@@ -113,19 +112,19 @@ Puoi trasformare tutte le richieste in tabelle di set di dati e creare visualizz
 1. Sulla barra degli strumenti del Report Builder, fai clic su **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
 1. Nella Pianificazione guidata di base, fare clic su **[!UICONTROL Advanced Scheduling Options]**.
-1. Nella scheda [!UICONTROL Scheduling Wizard - Advanced] , seleziona la casella accanto a **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![](assets/advanced-schedule-wizard2.png)**[!UICONTROL Publishing Options]**
+1. In [!UICONTROL Scheduling Wizard - Advanced], sul **[!UICONTROL Publishing Options]** , seleziona la casella accanto a **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![](assets/advanced-schedule-wizard2.png)
 
 1. Fai clic su **[!UICONTROL OK]**.
 
 **Visualizza i dati della richiesta in Power BI**
 
-Ogni richiesta di Report Builder pianificata verrà pubblicata come tabella nel set di dati. Ogni tabella di richiesta prende il nome dalla dimensione primaria nella richiesta e ha una [!UICONTROL Report Suite] e una colonna [!UICONTROL Segments].
+Ogni richiesta di Report Builder pianificata verrà pubblicata come tabella nel set di dati. Ogni tabella di richiesta prende il nome dalla dimensione primaria nella richiesta e presenta un [!UICONTROL Report Suite] e [!UICONTROL Segments] colonna.
 
-1. In Power BI, vai al menu **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** .
+1. In Power BI, vai al **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
 
-1. Seleziona la richiesta pubblicata e fai clic sull’icona [!UICONTROL Create report] accanto a essa.
+1. Seleziona la richiesta pubblicata e fai clic sul pulsante [!UICONTROL Create report] accanto a essa.
 
-   Le richieste vengono visualizzate come tabelle nel menu [!UICONTROL Fields] .
+   Tieni presente che le richieste vengono visualizzate come tabelle nella [!UICONTROL Fields] menu.
 
    ![](assets/published-requests.png)
 

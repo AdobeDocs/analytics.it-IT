@@ -1,13 +1,12 @@
 ---
-description: Limitazioni per l'utilizzo di Report Builder e Microsoft Power BI.
+description: Limitazioni per l’utilizzo di Report Builder e Microsoft Power BI.
 title: Limiti e specifiche
-uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '622'
 ht-degree: 1%
 
 ---
@@ -70,5 +69,5 @@ Per impostazione predefinita, il nome verrà popolato dal nome del file della ca
 Nota bene
 
 * L’etichetta non può essere una combinazione di lettere e numeri che potrebbero essere erroneamente utilizzate per l’indirizzo di una riga o di una colonna. Ad esempio, A100 non può essere un&#39;etichetta perché è l&#39;indirizzo di una cella in un foglio di lavoro.
-* I seguenti caratteri non sono caratteri di etichetta validi: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; e `'~', ' '` . Vengono sostituiti da un carattere di sottolineatura.
-* Quando si immette un nome non valido, viene visualizzato un messaggio di avviso che suggerirà un nome generato automaticamente. Se fai clic su **[!UICONTROL Yes]**, verrà utilizzato questo nome. Se si fa clic su **[!UICONTROL No]**, l&#39;interfaccia utente della procedura guidata avanzata consente di immettere il nuovo nome.
+* I seguenti caratteri non sono caratteri di etichetta validi: `'#', '@', '!', '$', '^', '&', '&#42;', '`&quot;, e `'~', ' '` . Vengono sostituiti da un carattere di sottolineatura.
+* Quando si immette un nome non valido, viene visualizzato un messaggio di avviso che suggerirà un nome generato automaticamente. Se fai clic su **[!UICONTROL Yes]**, verrà utilizzato questo nome. Se fai clic su **[!UICONTROL No]**, l’interfaccia utente della procedura guidata avanzata consente di immettere il nuovo nome.

@@ -1,13 +1,12 @@
 ---
 description: Puoi scaricare i dati da Analysis Workspace copiandoli oppure esportandoli in formato PDF e CSV.
 title: Scaricare file PDF o CSV
-uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-feature: Curare e condividere
+feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '958'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '955'
 ht-degree: 100%
 
 ---
@@ -29,7 +28,7 @@ Per i download dei progetti, considera i seguenti aspetti:
 * I download dei PDF vengono riprodotti come una singola pagina senza impaginazione.
 * Quando viene generato il PDF di un progetto in PDF, questo conterrà ciò che si trova sulla pagina. Se un progetto contiene pannelli e visualizzazioni di dimensione personalizzata, dovrai impostarne ridimensionamento automatico (con il pulsante in alto a destra) in modo da evitare che alcuni contenuti vengano troncati.
 
-## Copiare i dati negli Appunti (scelta rapida: Ctrl+C) {#copy-data}
+## Copiare i dati negli Appunti (scelta rapida: Ctrl + C) {#copy-data}
 
 L’opzione **[!UICONTROL Copy to clipboard]** (accessibile mediante clic con il pulsante destro del mouse) consente di copiare rapidamente i dati da Workspace e incollarli altrove.
 
@@ -51,7 +50,7 @@ L’opzione di scelta rapida **[!UICONTROL Download data as CSV]** consente di s
 
 ## Scaricare elementi come CSV {#download-items}
 
-Per analizzare più delle 400 righe di dati visibili in una tabella, fai clic con il pulsante destro del mouse sull’intestazione della tabella o su una riga qualsiasi e seleziona **Scarica elementi come CSV (nome dimensione)**. Questa opzione consente di esportare fino a 50.000 elementi dimensionali (in base all’ordinamento della tabella) per la dimensione selezionata, con l’applicazione di filtri e segmenti. Se scegli questa opzione nella parte superiore della tabella, verrà esportata la prima dimensione della tabella. Anche se la tabella a forma libera non prevede alcun limite, per prestazioni ottimali si consiglia di utilizzare l’opzione Scarica elementi solo per le tabelle con meno di 20 colonne.
+Per analizzare più delle 400 righe di dati visibili in una tabella, fai clic con il pulsante destro del mouse sull’intestazione della tabella o su una riga qualsiasi e seleziona **Scarica elementi come CSV (nome dimensionale)**. Questa opzione consente di esportare fino a 50.000 elementi dimensionali (in base all’ordinamento della tabella) per la dimensione selezionata, con l’applicazione di filtri e segmenti. Se scegli questa opzione nella parte superiore della tabella, verrà esportata la prima dimensione della tabella. Anche se la tabella a forma libera non prevede alcun limite, per prestazioni ottimali si consiglia di utilizzare l’opzione Scarica elementi solo per le tabelle con meno di 20 colonne.
 
 >[!TIP]
 >

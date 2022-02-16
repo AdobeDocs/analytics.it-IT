@@ -1,14 +1,13 @@
 ---
 description: Passaggi per creare una richiesta di dati di Report Builder di base.
 title: Create a Data Request (Creare una richiesta di archivio dati)
-uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 3%
+source-wordcount: '286'
+ht-degree: 2%
 
 ---
 
@@ -17,23 +16,23 @@ ht-degree: 3%
 Passaggi per creare una richiesta di dati di base.
 
 1. In Excel, fai clic su **[!UICONTROL Create]**.
-1. Nella finestra [!UICONTROL Request Wizard: Step 1], seleziona una [suite di rapporti](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. In [!UICONTROL Request Wizard: Step 1] finestra, selezionare una [suite di rapporti](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Facoltativo) Seleziona un segmento da applicare alla richiesta. Dopo aver selezionato uno o più segmenti, questi si sposteranno in alto nell’elenco.
 
-   Report Builder utilizza i segmenti nello stesso modo in cui vengono utilizzati da Adobe Analytics. Consulta la [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Facoltativo) Selezionare una [lista di pubblicazione](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) da utilizzare per la distribuzione.
-1. Seleziona un [tipo di report](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
-1. Specifica un [intervallo di date](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) e un rapporto [granularità](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
+   Report Builder utilizza i segmenti nello stesso modo in cui vengono utilizzati da Adobe Analytics. Consulta la sezione [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Facoltativo) Seleziona un [elenco di pubblicazione](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) da utilizzare per la distribuzione.
+1. Seleziona una [tipo di rapporto](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
+1. Specifica una [intervallo date](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) e la relazione [granularità](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
 1. Fai clic su **[!UICONTROL Next]**.
-1. Nella finestra [Layout - Richiesta guidata Passaggio 2](/help/analyze/report-builder/layout/layout.md), specificare un layout:
+1. In [Layout: Creazione guidata richieste passaggio 2](/help/analyze/report-builder/layout/layout.md) finestra, specificare un layout:
 
    | Elemento | Descrizione |
    |---|---|
    | Layout pivot | Fornisce una griglia di righe, colonne e metriche per il layout, simile alle tabelle Excel standard. Utilizzando questo layout, puoi aggiungere richieste di suddivisione all’interno di una richiesta originale. |
-   | Layout personalizzato | Fornisce la maggior parte delle funzionalità di [!UICONTROL Pivot Layout], ma consente di scegliere dove collocare ogni elemento della griglia nel foglio di calcolo. Questo layout offre la flessibilità disponibile nelle versioni precedenti. |
+   | Layout personalizzato | Fornisce la maggior parte delle funzionalità del [!UICONTROL Pivot Layout] ma consente di scegliere dove collocare ogni elemento della griglia nel foglio di calcolo. Questo layout offre la flessibilità disponibile nelle versioni precedenti. |
 
-1. Nella scheda [!UICONTROL Metrics] , fai doppio clic (o trascina) sulle metriche nella struttura per aggiungerle alla griglia [!UICONTROL Metrics].
-1. Nella scheda [!UICONTROL Dimensions] , fai doppio clic (o trascina) sulle dimensioni nella griglia [!UICONTROL Row Labels].
+1. Sulla [!UICONTROL Metrics] fare doppio clic (o trascinare) sulle metriche nella struttura per aggiungerle alla [!UICONTROL Metrics] griglia.
+1. Sulla [!UICONTROL Dimensions] fare doppio clic (o trascinare) sulle dimensioni [!UICONTROL Row Labels] griglia.
 
-   Le [dimensioni](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html) disponibili nel passaggio 2 dipendono dal rapporto di base selezionato al passaggio 1 e dalla configurazione della suite di rapporti. Le dimensioni sono elementi correlati, correlati o sono una classificazione della metrica del tipo di rapporto originale selezionata nella finestra [!UICONTROL Request Wizard: Step 1]. Aggiungi più di una dimensione al passaggio 2 per creare un raggruppamento nella richiesta di dati.
+   La [dimensioni](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html) disponibile nel passaggio 2 dipende dal rapporto di base selezionato nel passaggio 1 e dalla configurazione della suite di rapporti. Le dimensioni sono elementi che correlano, si riferiscono o sono una classificazione della metrica del tipo di rapporto originale selezionata nella [!UICONTROL Request Wizard: Step 1] finestra. Aggiungi più di una dimensione al passaggio 2 per creare un raggruppamento nella richiesta di dati.
 
-   Per ulteriori informazioni, consulta [Aggiungere metriche e Dimension](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) .
+   Vedi [Aggiungere metriche e Dimension](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) per ulteriori informazioni.

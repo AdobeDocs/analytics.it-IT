@@ -1,19 +1,18 @@
 ---
 description: Scopri le nozioni di base per lavorare su un progetto Workspace.
 keywords: Analysis Workspace
-title: Panoramica sui progetti
-uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
+title: Panoramica dei progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 97%
 
 ---
 
-# Panoramica sui progetti
+# Panoramica dei progetti
 
 Utilizzando i progetti Workspace, puoi combinare componenti dati, tabelle e visualizzazioni per sviluppare delle analisi da condividere con altri nella tua organizzazione. Prima di iniziare il primo progetto, scopri come accedere, navigare e gestire i progetti.
 

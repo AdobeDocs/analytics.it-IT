@@ -1,13 +1,12 @@
 ---
 description: Aggiungere, modificare, applicare e filtrare i segmenti Adobe Analytics nel Report Builder.
 title: Gestire segmenti
-uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '890'
 ht-degree: 7%
 
 ---
@@ -26,9 +25,9 @@ Il Report Builder dispone di un pannello di segmentazione nel passaggio 1 della 
 >
 >Per aggiungere o modificare segmenti, l’interfaccia dei segmenti di Report Builder avvia il generatore di segmenti di Analytics in una finestra di Microsoft Internet Explorer. La sessione di Report Builder rimarrà attiva. Per questa operazione non sono supportati browser diversi da Internet Explorer.
 
-1. Nel pannello dei segmenti del passaggio 1 della Creazione guidata richieste fare clic su **[!UICONTROL Add]**.
-1. Viene avviata una finestra di Internet Explorer che apre l’interfaccia di Generatore di segmenti di Analytics. Per informazioni su come generare i segmenti, consulta [Segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
-1. Dopo aver definito e salvato il segmento, tornare alla Creazione guidata richieste.
+1. Nel pannello dei segmenti del passaggio 1 della Creazione guidata richieste, fai clic su **[!UICONTROL Add]**.
+1. Viene avviata una finestra di Internet Explorer che apre l’interfaccia di Generatore di segmenti di Analytics. Per informazioni su come creare i segmenti, consulta [Segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
+1. Dopo aver definito e salvato il segmento, tornare alla Richiesta guidata.
 1. Fai clic sull’icona Aggiorna per aggiornare l’elenco dei segmenti.
 
 >[!IMPORTANT]
@@ -40,11 +39,11 @@ Il Report Builder dispone di un pannello di segmentazione nel passaggio 1 della 
 Puoi avere combinazioni specifiche di dimensioni di report da trasformare in un segmento. Puoi creare questi segmenti dall’interfaccia di Report Builder. Ad esempio, seleziona alcune pagine da un output di richiesta di pagina e crea un segmento in base a questi valori.
 
 1. Seleziona gli elementi di output del report da trasformare in un segmento.
-1. Fai clic con il pulsante destro del mouse per selezionare **[!UICONTROL Create In-Context Segment in]** e specificare il contenitore destro (Contenitore di hit, Contenitore visite, Contenitore visitatori).
+1. Fai clic con il pulsante destro del mouse per selezionare **[!UICONTROL Create In-Context Segment in]** e specifica il contenitore di destra (Contenitore di hit, Contenitore visite, Contenitore visitatori).
 
    ![](assets/seg_in_context.png)
 
-   Per ulteriori informazioni sui contenitori, consulta la [Guida alla segmentazione](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
+   Per ulteriori informazioni sui contenitori, consulta la sezione [Guida alla segmentazione](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 
 1. L’interfaccia utente del Generatore di segmenti verrà ora avviata in Internet Explorer. L’interfaccia utente del Generatore di segmenti viene inizializzata con il contenitore e il filtro specificati.
 1. Dopo aver aggiunto un nome e una descrizione al segmento, salvalo.
@@ -57,7 +56,7 @@ Tutti i segmenti creati in Reports &amp; Analytics, Report Builder o Data Wareho
 
 Puoi applicare uno o più segmenti a una determinata richiesta. Ciò include segmenti sequenziali.
 
-1. Passa all’elenco a discesa **[!UICONTROL Segment]** e fai clic sulla freccia rivolta verso il basso nella casella **[!UICONTROL Choose Segment]** per visualizzare tutti i segmenti.
+1. Vai a **[!UICONTROL Segment]** elenco a discesa e fai clic sulla freccia rivolta verso il basso nella **[!UICONTROL Choose Segment]** per visualizzare tutti i segmenti.
 
    ![](assets/seg_list.png)
 
@@ -69,15 +68,15 @@ Puoi applicare uno o più segmenti a una determinata richiesta. Ciò include seg
 
 ## Filtrare segmenti {#section_376E986D3E684999A7CDB08E53854159}
 
-**** Filtrare i segmenti facendo clic sull’icona Filtro :   ![](assets/segment_filter.png)
+**Filtro** segmenti facendo clic sull’icona Filtro :  ![](assets/segment_filter.png)
 
 I filtri disponibili includono:
 
 | Nome filtro | Descrizione |
 |---|---|
-| Tag | Consente di filtrare i segmenti con tag specifici. I filtri di tag utilizzano l’operatore AND. Se controlli due tag, il riquadro a destra mostra i segmenti ai quali sono stati assegnati tag **due tag**. |
-| Proprietari | Consente di filtrare i segmenti in base al proprietario. I filtri Proprietari utilizzano l’operatore OR. Se selezioni due proprietari, il riquadro a destra mostra i segmenti di proprietà del proprietario **o**. |
-| Altri filtri > Solo *nome della suite di rapporti* | Se applichi il filtro &quot;Solo *nome della suite di rapporti*&quot; nel Generatore di segmenti in [!DNL marketing reports & analytics] e quindi visualizzi il Filtro avanzato in [!DNL report builder], il filtro Avanzate visualizzerà il segmento solo per la suite di rapporti selezionata. |
+| Tag | Consente di filtrare i segmenti con tag specifici. I filtri di tag utilizzano l’operatore AND. Se selezioni due tag, il riquadro a destra mostra i segmenti con cui sono stati assegnati i tag **entrambi** tag. |
+| Proprietari | Consente di filtrare i segmenti in base al proprietario. I filtri Proprietari utilizzano l’operatore OR. Se selezioni due proprietari, il riquadro a destra mostra i segmenti di proprietà di **o** proprietario. |
+| Altri filtri > Solo *nome della suite di rapporti* | Se si applica &quot;Solo&quot; *nome della suite di rapporti*&quot; nel Generatore di segmenti in [!DNL marketing reports & analytics], quindi visualizza il Filtro avanzato in [!DNL report builder], il filtro Avanzate visualizza il segmento solo per la suite di rapporti selezionata. |
 | Altri filtri > Personali | Mostra tutti i segmenti di tua proprietà. |
 | Altri filtri > Condivisi con me | Mostra tutti i segmenti che altri utenti hanno condiviso con te. |
 | Altri filtri > Preferiti | Mostra tutti i segmenti contrassegnati come Preferiti. |
@@ -91,20 +90,20 @@ L’aggiunta di un controllo segmenti consente di cambiare i segmenti all’inte
 
    ![](assets/seg_control.png)
 
-1. Controlla tutti i segmenti che vuoi visualizzare nel controllo dei segmenti o seleziona **[!UICONTROL Select All]**.
+1. Controlla tutti i segmenti che vuoi visualizzare nel controllo del segmento o controlla **[!UICONTROL Select All]**.
 1. Osserva l’opzione **[!UICONTROL Automatically refresh linked requests upon item selection]**.
 
    * Se questa opzione è selezionata, vengono aggiornate tutte le richieste che utilizzano questo controllo.
    * Se non è selezionato, i parametri di richiesta associati vengono aggiornati, ma le richieste non vengono aggiornate.
 
 1. Specificare la posizione della cella in alto a sinistra del controllo del segmento.
-1. Fare clic su **[!UICONTROL OK]** per visualizzare il controllo del segmento nella posizione specificata.
+1. Fai clic su **[!UICONTROL OK]** e il controllo del segmento viene visualizzato nella posizione specificata.
 
    ![](assets/seg_control2.png)
 
 ## Aggiornare l’elenco dei segmenti {#section_22E4A86789444B4A998532396B476EFB}
 
-Ogni volta che aggiungi un nuovo segmento o ne modifichi uno esistente, fai clic sull’icona Aggiorna ( ![](assets/refresh_icon.png)) per aggiornare l’elenco dei segmenti nella cache.
+Ogni volta che aggiungi un nuovo segmento o ne modifichi uno esistente, fai clic sull’icona Aggiorna ( ![](assets/refresh_icon.png) per aggiornare l’elenco dei segmenti nella cache.
 
 ## Gestire i segmenti tra le richieste {#section_C3D63FCBE1A94369A319243313B03C93}
 
