@@ -1,14 +1,14 @@
 ---
 title: Risoluzione di problemi dell’importazione di classificazioni
 description: Problemi di caricamento comuni quando si utilizza l’importazione classificazioni.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+feature: Classifications
+exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 86%
 
 ---
-
 
 # Risoluzione di problemi dell’importazione di classificazioni
 
@@ -18,7 +18,7 @@ I problemi più comuni durante il caricamento dei dati di classificazione in Ado
 
 Le classificazioni richiedono un tipo e un formato di file specifici affinché il caricamento vada a buon fine. Se vengono salvate in modo scorretto, si genera un errore e le righe non vengono elaborate. L’errore restituito è spesso *“La prima colonna deve essere occupata dalla chiave”*, ma possono verificarsi anche errori diversi. Verifica quanto segue:
 
-* **Caricamento di un foglio di calcolo (.xlsx) invece di un file**.tab o .txt: Potete visualizzare il messaggio di errore *&quot;La prima colonna deve essere la chiave&quot;* quando caricate i file di classificazione in un formato non corretto. Importazione classificazioni non sa come gestire i file .xls o .xlsx. Imposta il tipo di file corretto nella finestra di dialogo “Salva con nome” in Excel:
+* **Caricamento di un foglio di calcolo (.xlsx) invece di un file .tab o .txt**: Puoi ricevere il messaggio di errore *&quot;La prima colonna deve essere la chiave&quot;* quando carichi i file di classificazione in un formato non corretto. L’importazione di classificazioni non è in grado di gestire i file .xls o .xlsx. Imposta il tipo di file corretto nella finestra di dialogo “Salva con nome” in Excel:
    * In Windows, utilizza il formato file `Text (Tab delimited) (*.txt)`
    * In Mac, utilizza il formato file `Windows Formatted Text`.
 * **Modifica dell’estensione del nome file dopo averlo salvato come cartella di lavoro**: se provi a rinominare direttamente un’estensione di file, viene generata una cartella di lavoro non valida. Utilizza solo la funzione Salva con nome di Excel o modifica le classificazioni in un editor di testo come Notepad++.
@@ -38,7 +38,7 @@ Se il file di caricamento è formattato correttamente, il caricatore tenta di im
 * **Sono presenti sottoclassificazioni non configurate correttamente**. Se sono presenti sottoclassificazioni, verifica che:
    * Tutti i valori delle sottoclassificazioni abbiano un valore di classificazione padre
    * Due sottoclassificazioni non facciano riferimento allo stesso valore di classificazione padre
-* **Colonna non corrispondente**: È possibile visualizzare il messaggio di errore *&quot;La chiave in linea contiene troppe colonne&quot;* se è presente un numero non valido di colonne in una riga specifica. Ad esempio, nel caricamento della classificazione sono presenti 3 colonne e la variabile dispone solo di una classificazione singola. Convalidate il file di caricamento per essere certi che il numero di colonne non sia maggiore del numero di classificazioni configurate per tale variabile.
+* **Mancata corrispondenza delle colonne**: Puoi ricevere il messaggio di errore *&quot;La chiave in linea ha troppe colonne&quot;* se è presente un numero non valido di colonne in una riga specifica. Ad esempio, hai 3 colonne nel caricamento della classificazione e la variabile ha una sola classificazione. Convalida il file di caricamento per assicurarti che il numero di colonne non sia maggiore del numero di classificazioni configurate per quella variabile.
 
 ## Risoluzione dei problemi relativi alle importazioni FTP
 

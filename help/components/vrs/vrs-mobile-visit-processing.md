@@ -1,9 +1,9 @@
 ---
 description: Le sessioni in base al contesto nelle suite di rapporti virtuali cambiano il modo in cui Adobe Analytics calcola le visite per dispositivi mobili. Questo articolo descrive le implicazioni di elaborazione degli hit in background e degli eventi di avvio dell’app (entrambi impostati dall’SDK per dispositivi mobili) per la definizione delle visite mobili.
 title: Adobe Context-Aware Sessions
-uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
+feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 0%

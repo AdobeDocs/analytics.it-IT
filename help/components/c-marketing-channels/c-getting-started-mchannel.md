@@ -1,20 +1,20 @@
 ---
 title: Introduzione ai canali di marketing
 description: Scopri il flusso di lavoro Marketing Channels (Canali di marketing), la configurazione automatica e come applicare le impostazioni della suite di rapporti a più suite di rapporti.
-translation-type: tm+mt
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+feature: Marketing Channels
+exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 3%
 
 ---
 
-
 # Introduzione ai canali di marketing
 
 >[!NOTE]
 >
->Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, ne abbiamo pubblicati alcuni [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 I canali di marketing vengono comunemente utilizzati per fornire approfondimenti su come i visitatori arrivano sul tuo sito. Puoi personalizzare le regole di elaborazione del canale di marketing in base ai canali che desideri monitorare e a come desideri tenerli traccia.
 
@@ -33,25 +33,25 @@ La definizione dei canali utilizzati è uno dei componenti più importanti di Ma
 * Vuoi aggregare tutti i siti di social networking o ce ne sono di che vuoi tenere traccia individualmente?
 * Esistono altri canali che potrebbero influenzare la conversione di cui desideri tenere traccia?
 
-Un elenco dei canali consigliati si trova in [Domande frequenti ed esempi](/help/components/c-marketing-channels/c-faq.md). Crea un elenco di canali da utilizzare, in modo da facilitarne l’attivazione e la definizione quando crei canali.
+Un elenco dei canali consigliati è disponibile in [Domande frequenti ed esempi](/help/components/c-marketing-channels/c-faq.md). Crea un elenco di canali da utilizzare, in modo da facilitarne l’attivazione e la definizione quando crei canali.
 
-![](assets/step2_icon.png) Aggiungi canali di marketing sulla  [!UICONTROL Marketing Channel Manager] pagina.
+![](assets/step2_icon.png) Aggiungi canali di marketing sul [!UICONTROL Marketing Channel Manager] pagina.
 
 Dopo aver definito i canali da tracciare, attivali in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-Consulta [Canali e regole](/help/components/c-marketing-channels/c-channels.md) per informazioni importanti sui prerequisiti e sui concetti.
+Vedi [Canali e regole](/help/components/c-marketing-channels/c-channels.md) per importanti informazioni preliminari e concettuali.
 
-Per la procedura, consulta [Aggiungi canali di marketing](/help/components/c-marketing-channels/c-channels.md) .
+Vedi [Aggiungi canali di marketing](/help/components/c-marketing-channels/c-channels.md) per la procedura.
 
 >[!NOTE]
 >
->Se Marketing Channels non è stato configurato in precedenza, viene visualizzato il messaggio [setup automatico](/help/components/c-marketing-channels/c-getting-started-mchannel.md) . Questa configurazione fornisce diversi canali preconfigurati che è possibile personalizzare. Adobe consiglia di utilizzare queste regole come modello. Tuttavia, se disponi già di definizioni di canali solidi, puoi saltare la configurazione automatica.
+>Se Marketing Channels non è stato configurato in precedenza, il [configurazione automatica](/help/components/c-marketing-channels/c-getting-started-mchannel.md) viene visualizzato. Questa configurazione fornisce diversi canali preconfigurati che è possibile personalizzare. Adobe consiglia di utilizzare queste regole come modello. Tuttavia, se disponi già di definizioni di canali solidi, puoi saltare la configurazione automatica.
 
-![](assets/step3_icon.png) Configura o perfeziona le regole di ogni canale sulla  [!UICONTROL Marketing Channel Processing Rules] pagina.
+![](assets/step3_icon.png) Configura o perfeziona le regole di ogni canale in [!UICONTROL Marketing Channel Processing Rules] pagina.
 
-Dopo aver creato i canali nella pagina [!UICONTROL Marketing Channel Manager], configuri le regole in modo che i canali possano recuperare e segnalare i dati.
+Dopo aver creato i canali nel [!UICONTROL Marketing Channel Manager] configura le regole in modo che i canali possano recuperare e segnalare i dati.
 
-Consulta [Regole di elaborazione del canale di marketing](/help/components/c-marketing-channels/c-rules.md).
+Vedi [Regole di elaborazione del canale di marketing](/help/components/c-marketing-channels/c-rules.md).
 
 Se i canali sono stati creati nella configurazione automatica, le regole in tali canali sono definite. Puoi modificarli in base alle tue esigenze.
 
@@ -62,18 +62,18 @@ Il rapporto sul canale di marketing viene fornito con una pagina di configurazio
 Come eseguire la configurazione automatica di Marketing Channels .
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. In [!UICONTROL Report Suite Manager], seleziona una suite di rapporti.
+1. Sulla [!UICONTROL Report Suite Manager], seleziona una suite di rapporti.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
 
    ![Risultato del passaggio](assets/wizard.png)
 
    >[!NOTE]
    >
-   >La pagina [!UICONTROL Marketing Channels: Auto Setup] viene visualizzata automaticamente quando accedi alle applicazioni di configurazione del canale in Strumenti di amministrazione. (Consulta [Marketing Channel Manager](/help/components/c-marketing-channels/c-channels.md).) Questa pagina non viene visualizzata se la suite di rapporti contiene uno o più canali di marketing. Non puoi accedere nuovamente a questa pagina a meno che non selezioni un’altra suite di rapporti che non contiene canali di marketing.
+   >La [!UICONTROL Marketing Channels: Auto Setup] viene visualizzata automaticamente quando accedi alle applicazioni di configurazione del canale in Strumenti di amministrazione. (Vedi [Marketing Channel Manager](/help/components/c-marketing-channels/c-channels.md).) Questa pagina non viene visualizzata se la suite di rapporti contiene uno o più canali di marketing. Non puoi accedere nuovamente a questa pagina a meno che non selezioni un’altra suite di rapporti che non contiene canali di marketing.
 
 1. Assicurati che i canali da creare siano selezionati.
 
-   Quando è selezionata questa opzione, i campi **[!UICONTROL Email]**, **[!UICONTROL Display]** e **[!UICONTROL Affiliate]** sono obbligatori.
+   Se selezionato, **[!UICONTROL Email]**, **[!UICONTROL Display]** e **[!UICONTROL Affiliate]** sono campi obbligatori.
 
 1. Fai clic su **[!UICONTROL Save]**.
 
@@ -87,13 +87,12 @@ Utilizzare una suite di rapporti principale come modello per testare la configur
 
 1. Assicurati che il rapporto Canale di marketing sia abilitato per le suite di rapporti selezionate. Il tuo Account Manager esegue questo passaggio.
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Nella pagina **[!UICONTROL Report Suite Manager]** , seleziona la suite di rapporti del modello e una o più suite di rapporti di destinazione.
+1. Sulla **[!UICONTROL Report Suite Manager]** seleziona la suite di rapporti modello e una o più suite di rapporti target.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
-1. Nella pagina **[!UICONTROL Select Master Report Suites]** , seleziona una suite di rapporti modello.
+1. Sulla **[!UICONTROL Select Master Report Suites]** seleziona una suite di rapporti modello.
 1. Fai clic su **[!UICONTROL Save All]**.
 1. Applicare regole da un modello a più suite di rapporti:
-   1. Torna alla pagina [!UICONTROL Report Suite Manager] .
+   1. Torna a [!UICONTROL Report Suite Manager] pagina.
    1. Seleziona la suite di rapporti modello e una o più suite di rapporti target.
    1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
    1. Fai clic su **[!UICONTROL Save]**. Se in questo passaggio il pulsante Salva è disabilitato, abilitalo espandendo una delle regole.
-

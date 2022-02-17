@@ -1,19 +1,19 @@
 ---
-title: Viste mobili
+title: Visualizzazioni di dispositivi mobili
 description: Metrica disattivata; non più utilizzato.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Metrics
+exl-id: 091ea02c-d67e-484c-a7cc-7f9b1358a2f7
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-
-# Viste mobili
+# Visualizzazioni di dispositivi mobili
 
 >[!IMPORTANT]
 >
->Questa metrica è stata disattivata nel settembre 2017. Non restituisce dati.
+>Questa metrica è stata ritirata nel settembre 2017. Non restituisce dati.
 
-Se vuoi una metrica che misura il traffico dai dispositivi mobili, Adobe consiglia di utilizzare il segmento &quot;Visite dai dispositivi mobili&quot; in un progetto o in una metrica calcolata.
+Se desideri una metrica che misuri il traffico dai dispositivi mobili, Adobe consiglia di utilizzare il segmento &quot;Visite da dispositivi mobili&quot; in un progetto o in una metrica calcolata.

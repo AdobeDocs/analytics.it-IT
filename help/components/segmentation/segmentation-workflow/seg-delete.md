@@ -2,12 +2,10 @@
 description: Elenca alcune valutazioni di cui tenere conto prima di eliminare i segmenti.
 title: Eliminare segmenti
 feature: Segmentation
-uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---

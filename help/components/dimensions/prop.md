@@ -1,53 +1,53 @@
 ---
 title: Prop
-description: Una dimensione personalizzata che potete utilizzare nel reporting.
-translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+description: Una dimensione personalizzata utilizzabile nel reporting.
+feature: Dimensions
+exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-
 # Prop
 
-*Questa pagina della guida descrive il funzionamento dei prop come una dimensione. Per informazioni su come implementare i prop, vedete[prop](/help/implement/vars/page-vars/prop.md)nella guida per l&#39;utente Implementa.*
+*Questa pagina di aiuto descrive il funzionamento delle proprietà come dimensione. Per informazioni su come implementare i prop, vedi [proprietà](/help/implement/vars/page-vars/prop.md) nella guida utente Implementa .*
 
-Le proprietà sono variabili personalizzate che potete utilizzare come desiderate. Non persistono oltre il risultato raggiunto.
+Le proprietà sono variabili personalizzate che puoi utilizzare come desideri. Non persistono oltre il risultato impostato.
 
 >[!TIP]
 >
-> Adobe consiglia di utilizzare [le eVar](evar.md) nella maggior parte dei casi. Nelle versioni precedenti di  Adobe Analytics, le proprietà eVar presentavano vantaggi e svantaggi l&#39;una per l&#39;altra. Tuttavia,  Adobe ha migliorato le eVar dove soddisfano quasi tutti i casi di utilizzo per le prop.
+>Adobe consiglia di utilizzare [eVar](evar.md) nella maggior parte dei casi. Nelle versioni precedenti di Adobe Analytics, le proprietà e le eVar presentavano vantaggi e svantaggi l’una per l’altra. Tuttavia, Adobe ha migliorato le eVar in cui soddisfano quasi tutti i casi d’uso per le proprietà.
 
-Se disponete di un documento [di progettazione di una](/help/implement/prepare/solution-design.md)soluzione, potete allocare queste dimensioni personalizzate a valori specifici dell&#39;organizzazione. Il numero di proprietà disponibili dipende dal contratto con  Adobe. Sono disponibili fino a 75 proprietà se il contratto con  Adobe lo supporta.
+Se hai [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), puoi allocare queste dimensioni personalizzate ai valori specifici dell’organizzazione. Il numero di proprietà disponibili dipende dal contratto con Adobe. Sono disponibili fino a 75 proprietà se il contratto con Adobe lo supporta.
 
-## Compilare prop con i dati
+## Popolare prop con i dati
 
-Ogni prop raccoglie i dati dalla stringa [`c1` - `c75` query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. Ad esempio, il parametro della stringa di `c1` query raccoglie i dati per prop1, mentre il parametro della stringa di `c68` query raccoglie i dati per prop68.
+Ogni prop raccoglie dati dal [`c1` - `c75` stringa di interrogazione](/help/implement/validate/query-parameters.md) nelle richieste di immagini. Ad esempio, il `c1` il parametro della stringa di query raccoglie i dati per prop1, mentre il `c68` il parametro della stringa query raccoglie i dati per prop68.
 
-AppMeasurement, che compila le variabili JavaScript in una richiesta di immagine per la raccolta dei dati, utilizza le variabili `prop1` - `prop75`. Per le linee guida per l’implementazione, consulta [le informazioni di base](/help/implement/vars/page-vars/prop.md) nella guida Implementa.
+AppMeasurement, che compila variabili JavaScript in una richiesta di immagine per la raccolta dei dati, utilizza le variabili `prop1` - `prop75`. Vedi [prop](/help/implement/vars/page-vars/prop.md) nella guida utente Implementa per le linee guida di implementazione.
 
 ## Elementi Dimension
 
-Poiché le proprietà contengono stringhe personalizzate nella vostra implementazione, la vostra organizzazione determina quali elementi dimensione sono per ogni proprietà. Accertatevi di registrare lo scopo di ogni prop ed elementi dimensionali tipici in un documento [di progettazione di una](/help/implement/prepare/solution-design.md)soluzione.
+Poiché le proprietà contengono stringhe personalizzate nell’implementazione, l’organizzazione determina gli elementi dimensionali per ogni proprietà. Assicurati di registrare lo scopo di ogni prop e degli elementi dimensionali tipici in un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md).
 
 ## Sensibilità delle maiuscole
 
-Per impostazione predefinita, le proprietà non supportano la distinzione tra maiuscole e minuscole. Se inviate lo stesso valore in casi diversi (ad esempio `"DOG"` e `"Dog"`),  Analysis Workspace li raggruppa nello stesso elemento dimensione. Viene utilizzato il caso del primo valore visualizzato all&#39;inizio del mese di segnalazione. Data warehouse mostra il primo valore rilevato durante il periodo di richiesta.
+Per impostazione predefinita, le proprietà non sono sensibili all’uso di maiuscole e minuscole. Se invii lo stesso valore in casi diversi (ad esempio, `"DOG"` e `"Dog"`), Analysis Workspace le raggruppa nello stesso elemento dimensione. Viene utilizzato il caso del primo valore rilevato all’inizio del mese di riferimento. Data Warehouse mostra il primo valore rilevato durante il periodo di richiesta.
 
-Potete fare sì che qualsiasi proprietà faccia distinzione tra maiuscole e minuscole. È inoltre possibile disattivare la distinzione tra maiuscole e minuscole per qualsiasi proprietà una volta attivata. Contatta  Assistenza clienti di Adobe con l’ID suite di rapporti e le variabili desiderate per attivare o disattivare la distinzione tra maiuscole e minuscole.
+È possibile fare la distinzione tra maiuscole e minuscole per qualsiasi proprietà. Puoi anche disabilitare la distinzione tra maiuscole e minuscole per qualsiasi proprietà una volta attivato. Contatta l’Assistenza clienti Adobe con l’ID suite di rapporti e le variabili desiderate per attivare o disattivare la distinzione tra maiuscole e minuscole.
 
 >[!IMPORTANT]
 >
->L&#39;attivazione della sensibilità alle maiuscole può determinare un calo delle dimensioni degli elementi, produrre risultati imprevisti con i segmenti e causare problemi con i filtri.  Adobe consiglia vivamente di alternare questa impostazione tra due periodi di tempo importanti, ad esempio l&#39;inizio di un mese o di un anno.
+>L’attivazione della distinzione tra maiuscole e minuscole può causare uno scossone degli elementi dimensionali, risultati imprevisti con i segmenti e problemi con i filtri. L’Adobe consiglia vivamente di scegliere tra due periodi di tempo principali, ad esempio l’inizio di un mese o di un anno.
 
-## Valore delle proprietà sulle eVar
+## Valore delle proprietà su eVar
 
- Adobe consiglia di utilizzare le eVar nella maggior parte dei casi. Eccezioni a questa istruzione:
+Nella maggior parte dei casi, Adobe consiglia di utilizzare le eVar. Eccezioni a questa istruzione:
 
-* Potete utilizzare le proprietà nei rapporti in tempo reale. Le eVar impiegano almeno 30 minuti per essere visualizzate nel reporting.
-* Le proprietà possono diventare proprietà elenco, che accettano più valori nello stesso hit. Le variabili elenco sono separate e sono disponibili solo tre variabili elenco.
-* Quando attivi il percorso su una prop, diventano immediatamente disponibili le dimensioni [Entry](entry-dimensions.md) ed [Exit](exit-dimensions.md) . Se desiderate dimensioni di entrata e uscita per le eVar, potete creare manualmente un segmento.
+* Puoi utilizzare le proprietà nei rapporti in tempo reale. La visualizzazione delle eVar richiede almeno 30 minuti nel rapporto.
+* Le proprietà possono diventare proprietà di elenco, che accettano più valori nello stesso hit. Le variabili elenco sono separate e sono disponibili solo tre variabili elenco.
+* Quando si abilita il percorso su un prop, [Voce](entry-dimensions.md) e [Esci](exit-dimensions.md) le dimensioni diventano immediatamente disponibili. Se desideri dimensioni di entrata e uscita per eVar, puoi creare manualmente un segmento.
 
-Consultate [eVar](evar.md) per ulteriori confronti tra prop ed eVar.
+Vedi [eVar](evar.md) per ulteriori confronti tra prop ed eVar.

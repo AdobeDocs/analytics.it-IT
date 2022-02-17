@@ -1,9 +1,9 @@
 ---
 title: Classificazioni in canali di marketing
 description: Utilizza le classificazioni per classificare i valori in gruppi correlati e per generare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come le schede video. Quindi puoi creare rapporti sul successo di quella categoria in relazione a metriche come Istanze (o click-through).
+feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
-translation-type: tm+mt
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 5%
@@ -14,15 +14,15 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, ne abbiamo pubblicati alcuni [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Utilizza le classificazioni per classificare i valori in gruppi correlati e per generare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come le schede video. Quindi puoi creare rapporti sul successo di quella categoria in relazione a metriche come Istanze (o click-through).
 
-Le classificazioni aggiunte in questa procedura vengono visualizzate nel rapporto [!UICONTROL Marketing Channel Overview] come [!UICONTROL Channel Values]. I valori dei canali sono valori non classificati nei dettagli del canale.
+Le classificazioni aggiunte in questa procedura vengono visualizzate nel [!UICONTROL Marketing Channel Overview] segnala come [!UICONTROL Channel Values]. I valori dei canali sono valori non classificati nei dettagli del canale.
 
 >[!NOTE]
 >
->Assicurati di avere familiarità con la creazione di classificazioni in [Classificazioni](/help/components/classifications/c-classifications.md).
+>Acquisisci familiarità con la creazione di classificazioni in [Classificazioni](/help/components/classifications/c-classifications.md).
 
 >[!IMPORTANT]
 >
@@ -38,8 +38,8 @@ Le classificazioni aggiunte in questa procedura vengono visualizzate nel rapport
 
 ## Creare classificazioni dei canali di marketing {#create-mktg-channel-classifications}
 
-Crea classificazioni per [!UICONTROL Marketing Channels].
+Creare classificazioni per [!UICONTROL Marketing Channels].
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. In [!UICONTROL Report Suite Manager], fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Classification]**.
-1. In [!UICONTROL Classifications], fai clic su **[!UICONTROL Add Classification]** (o modifica uno esistente).
+1. Sotto [!UICONTROL Classifications], fai clic su **[!UICONTROL Add Classification]** (o modificane uno esistente).

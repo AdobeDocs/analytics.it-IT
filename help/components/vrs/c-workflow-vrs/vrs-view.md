@@ -2,14 +2,12 @@
 description: Fai clic sull’icona i (Informazioni) accanto al nome della suite di rapporti per ottenere informazioni su di essa.
 keywords: Suite di rapporti virtuali
 title: Visualizzazione delle informazioni sulle suite di rapporti virtuali
-feature: Nozioni di base su Reports & Analytics
-uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
+feature: VRS
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 12%
+source-wordcount: '98'
+ht-degree: 13%
 
 ---
 

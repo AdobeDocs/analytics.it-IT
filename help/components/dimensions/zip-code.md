@@ -1,8 +1,9 @@
 ---
 title: Codice di avviamento postale
 description: Codice postale del visitatore.
+feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 4%
@@ -17,10 +18,10 @@ La dimensione &quot;Codice postale&quot; indica il codice postale o ZIP del visi
 
 Questa dimensione è univoca in quanto contiene diversi modi per popolarla con i dati. È possibile utilizzare uno o una combinazione di entrambi.
 
-* Impostare il codice postale direttamente utilizzando la variabile `zip`; o
+* Imposta il codice postale direttamente utilizzando il `zip` variabile; o
 * Configura per estrarre dai dati di geosegmentazione.
 
-La sezione [!UICONTROL Zip option] in [Impostazioni account generali](/help/admin/admin/general-acct-settings-admin.md) controlla come si desidera popolare questa dimensione.
+La [!UICONTROL Zip option] sotto [Impostazioni account generali](/help/admin/admin/general-acct-settings-admin.md) controlla come desideri compilare la dimensione.
 
 >[!IMPORTANT]
 >

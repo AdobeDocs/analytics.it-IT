@@ -1,11 +1,11 @@
 ---
 description: I diritti delle metriche calcolate sono diversi tra utenti a livello di amministratore e non amministratori.
 title: Diritti basati su ruolo delle metriche calcolate
-uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
+feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '251'
 ht-degree: 13%
 
 ---
@@ -28,9 +28,9 @@ I diritti delle metriche calcolate sono diversi tra utenti a livello di amminist
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Utenti amministratori</b> </td> 
-   <td colname="col02"> Gli amministratori possono creare metriche calcolate e gruppi <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html"  > </a> per limitare i diritti degli utenti di creare metriche calcolate. </td> 
+   <td colname="col02"> Gli amministratori possono creare metriche calcolate e profili di prodotto nell’Admin Console per limitare i diritti degli utenti di creare metriche calcolate. </td> 
    <td colname="col2"> Possono condividere con l’azienda, con i gruppi di utenti e con i singoli utenti. </td> 
-   <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span>: Possono visualizzare/modificare/eliminare/ecc. metriche calcolate personalizzate e di altri utenti. <p> <span class="keyword"> Report Builder  </span>: Possono visualizzare/modificare/eliminare/ecc. le proprie metriche calcolate e quelle condivise con esse. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span>: Possono visualizzare/modificare/eliminare/ecc. metriche calcolate personalizzate e di altri utenti. <p> <span class="keyword"> Report Builder </span>: Possono visualizzare/modificare/eliminare/ecc. le proprie metriche calcolate e quelle condivise con esse. </p> </td> 
    <td colname="col4"> Può approvare le metriche calcolate come canoniche. </td> 
    <td colname="col5"> Può applicare qualsiasi metrica calcolata in tutta l’organizzazione. </td> 
   </tr> 

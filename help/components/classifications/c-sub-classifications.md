@@ -1,14 +1,11 @@
 ---
 description: Adobe Analytics supporta modelli di classificazione sia a livello singolo che a più livelli. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
-subtopic: Classifications
 title: Informazioni sulle sottoclassificazioni
-feature: Admin Tools
-uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
+feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '644'
 ht-degree: 100%
 
 ---

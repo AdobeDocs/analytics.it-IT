@@ -1,12 +1,12 @@
 ---
 description: Gestire gli avvisi
 title: Gestione avvisi
-uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
+feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 65%
+ht-degree: 76%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 65%
 
 ![](assets/alert-manager.png)
 
-La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) è strutturata in modo analogo alla [Gestione segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) e alla [Gestione metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) e consente di:
+La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) è strutturata in modo analogo alla [Gestione segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=it) e alla [Gestione metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=it) e consente di:
 
 ![](assets/alert-manager-tasks.png)
 
@@ -25,7 +25,7 @@ La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL C
 * Approvare gli avvisi
 * Copiare gli avvisi
 * Abilitare/disabilitare gli avvisi
-* **Rinnovare** la data di scadenza di un avviso. Se sono selezionati uno o più avvisi, è possibile rinnovarli facendo clic su **[!UICONTROL Renew]**. Questa funzione sposta le rispettive date di scadenza a 1 anno dal giorno in cui l’utente ha fatto clic su **[!UICONTROL Renew]**, indipendentemente dalla data di scadenza originale.
+* **Rinnovare** la data di scadenza di un avviso. Se sono selezionati uno o più avvisi, è possibile rinnovarli facendo clic su **[!UICONTROL Renew]**.Questa funzione sposta le rispettive date di scadenza a 1 anno dal giorno **[!UICONTROL Renew]** è stato fatto clic su , indipendentemente dalla data di scadenza originale.
 * Esportare un avviso come file .CSV
 * Modificare gli avvisi facendo doppio clic sul titolo
 * Cercare gli avvisi

@@ -1,32 +1,32 @@
 ---
-title: Ultimo dettaglio canale touch
-description: Dettagli per il canale di marketing più recente entro la scadenza del coinvolgimento del visitatore.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+title: Dettaglio del canale di ultimo contatto
+description: Dettagli del canale di marketing più recente entro la scadenza del coinvolgimento del visitatore.
+feature: Dimensions
+exl-id: def03267-f3e5-4772-a707-5678c45eba6d
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
+# Dettaglio del canale di ultimo contatto
 
-# Ultimo dettaglio canale touch
+La dimensione &quot;Dettaglio canale ultimo contatto&quot; riporta i dettagli relativi al canale di marketing più recente a cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita). Questa dimensione è utile per comprendere cosa ha contribuito alla corrispondenza dell’hit con un canale di marketing. Ad esempio, se un visitatore è arrivato sul tuo sito e corrisponde al canale di marketing &quot;Ricerca a pagamento&quot;, puoi utilizzare il dettaglio del canale per vedere quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.
 
-La dimensione &quot;Ultimo dettaglio canale di tocco&quot; indica i dettagli relativi al canale di marketing più recente con cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (per impostazione predefinita, 30 giorni). Questa dimensione è importante per comprendere cosa ha contribuito all’hit che corrisponde a un canale di marketing. Ad esempio, se un visitatore è arrivato sul sito e ha la corrispondenza con il canale Marketing &#39;Ricerca a pagamento&#39;, potete utilizzare il dettaglio del canale per vedere quale motore di ricerca è stato utilizzato o quale parola chiave ha cercato.
+## Popolare questa dimensione con i dati
 
-## Compilare questa dimensione con i dati
+Questa dimensione copia i valori da altre variabili. La variabile utilizzata fa riferimento al valore del canale all’interno di ogni [Regola di elaborazione del canale di marketing](/help/admin/admin/marketing-channels-admin.md). Quando un hit corrisponde a una regola di elaborazione del canale di marketing, il [Canale di ultimo contatto](last-touch-channel.md) è impostata sul nome del canale e questa dimensione è impostata sul valore del canale impostato nella regola.
 
-Questa dimensione copia i valori da altre variabili. La variabile utilizzata fa riferimento al valore del canale all&#39;interno di ogni regola [di elaborazione del canale](/help/admin/admin/marketing-channels-admin.md)Marketing. Quando un hit corrisponde a una regola di elaborazione del canale di marketing, la dimensione dell’ [ultimo canale](last-touch-channel.md) di contatto è impostata sul nome del canale e questa dimensione è impostata sul valore del canale impostato nella regola.
+Se desideri impostare questa dimensione su un valore specifico, sono necessari i seguenti passaggi:
 
-Per impostare questa dimensione su un valore specifico, sono necessari i passaggi seguenti:
+* Assicurati che l&#39;elemento dimensione desiderato si trovi in un attributo hit o in una variabile personalizzata.
+* Imposta una regola di elaborazione del canale di marketing che contiene i criteri desiderati per l’hit.
+* Seleziona il valore a discesa desiderato in [!UICONTROL Set the channel's value] nella regola di elaborazione del canale di marketing.
+* L’hit del visitatore per il sito deve corrispondere ai criteri descritti nella regola di elaborazione del canale di marketing .
 
-* Accertatevi che l&#39;elemento dimensione desiderato sia in un attributo hit o in una variabile personalizzata.
-* Impostate una regola di elaborazione del canale di marketing che contenga i criteri desiderati per l’hit.
-* Selezionate il valore a discesa desiderato all&#39;interno [!UICONTROL Set the channel's value] della regola di elaborazione del canale di marketing.
-* L&#39;hit del visitatore per il sito deve corrispondere ai criteri indicati nella regola di elaborazione del canale di marketing.
+## Elementi Dimension
 
-## Elementi dimensione
+Gli elementi di Dimension dipendono dal menu a discesa del valore del canale. Ad esempio, se imposti il valore del canale su &quot;URL pagina&quot;, gli elementi dimensionali includono gli URL della pagina sul sito. Se imposti il valore del canale su Dominio di riferimento, gli elementi dimensionali includono domini che i visitatori hanno fatto clic su per accedere al tuo sito. Questa dimensione aggrega tutti gli elementi dimensionali di dettaglio, indipendentemente dal canale in cui si trovano.
 
-Gli elementi dimensione dipendono dal menu a discesa del valore del canale. Ad esempio, se imposti il valore del canale su &#39;URL pagina&#39;, gli elementi dimensione includono gli URL di pagina sul sito. Se imposti il valore del canale su Dominio di riferimento, gli elementi dimensione includono i domini ai quali i visitatori hanno fatto clic per accedere al sito. Questa dimensione aggrega tutti gli elementi delle dimensioni dei dettagli, indipendentemente dal canale in cui si trovano.
-
-Adobe consiglia di impostare i valori dei canali relativi al canale di marketing per informazioni dettagliate sui dettagli dei canali.
+Adobe consiglia di impostare i valori di canale relativi al canale di marketing per informazioni dettagliate sui dettagli del canale.

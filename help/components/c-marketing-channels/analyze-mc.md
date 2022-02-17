@@ -1,8 +1,9 @@
 ---
 title: Analisi dei canali di marketing
 description: Scopri come utilizzare le dimensioni dei canali di marketing in Workspace.
+feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, ne abbiamo pubblicati alcuni [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Probabilmente desideri sapere quale dei tuoi canali di marketing è il più efficace e con chi, in modo da poter indirizzare meglio i tuoi sforzi e ricevere un ritorno migliore sui tuoi dollari di marketing. In Adobe Analytics, le dimensioni e le metriche dei canali di marketing in Workspace sono uno degli strumenti che possono aiutarti a monitorare l’influenza di diversi canali sui tuoi ordini, ricavi, ecc. e ti forniscono informazioni utili sui canali. Di seguito sono elencate le dimensioni e le metriche che puoi utilizzare per i canali di marketing:
 
@@ -49,7 +50,7 @@ Dettagli dei canali di marketing Diventa più profondo in ogni canale per mostra
 
 ## Applicare modelli di attribuzione
 
-Puoi utilizzare [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) per applicare istantaneamente diversi modelli di attribuzione:
+È possibile utilizzare [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) per applicare istantaneamente diversi modelli di attribuzione:
 
 ![](assets/mc-viz5.png)
 
@@ -61,4 +62,4 @@ Utilizzando i canali di primo contatto e ultimo contatto legacy, puoi ottenere u
 
 ![](assets/mc-viz6.png)
 
-Ulteriori informazioni sull’analisi di marketing incrociata in questo video: [Utilizzo di analisi incrociate per esplorare le attribuzioni marketing di base in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Ulteriori informazioni sull’analisi di marketing incrociata in questo video: [Utilizzo di Analisi multischeda per esplorare le attribuzioni marketing di base in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).

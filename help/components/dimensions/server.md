@@ -1,25 +1,25 @@
 ---
 title: Server
 description: Nome del server.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: c2454c0d-497e-46f8-8569-7d0517097cab
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 1%
 
 ---
 
-
 # Server
 
-La dimensione &#39;Server&#39; elenca in genere il nome host del sito. Per le suite di rapporti che combinano più domini o sottodomini, questa dimensione è utile per vedere quali domini o sottodomini eseguono al meglio le prestazioni.
+La dimensione &quot;Server&quot; elenca in genere il nome host del sito. Per le suite di rapporti che combinano più domini o sottodomini, questa dimensione è utile per vedere quali domini o sottodomini eseguono meglio.
 
-Questa dimensione è correlata alle dimensioni della sezione [](page.md) Pagina [e](site-section.md) Sito. La pagina è più granulare, il server è meno granulare e la sezione Sito è tra le due.
+Questa dimensione è correlata al [Pagina](page.md) e [Sezione del sito](site-section.md) dimensioni. La pagina è più granulare, il server è meno granulare e la sezione Sito è tra le due.
 
-## Compilare questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
-Questa dimensione recupera i dati dalla stringa [`server` di](/help/implement/validate/query-parameters.md) query nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la [`server`](/help/implement/vars/page-vars/server.md) variabile.
+Questa dimensione recupera i dati dal [`server` stringa di interrogazione](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile [`server`](/help/implement/vars/page-vars/server.md) variabile.
 
-## Elementi dimensione
+## Elementi Dimension
 
-Gli elementi dimensione includono i server sul sito. L&#39;organizzazione determina quali elementi dimensionali specifici si desidera utilizzare. Alcune organizzazioni utilizzano `window.location.hostname`, mentre altre formulano valori personalizzati. Qualunque sia il metodo utilizzato, accertati che sia coerente e che lo registri in un documento [di progettazione della](/help/implement/prepare/solution-design.md)soluzione.
+Gli elementi di Dimension includono i server sul sito. L’organizzazione determina gli elementi dimensionali specifici da utilizzare. Alcune organizzazioni utilizzano `window.location.hostname`, mentre altri formulano valori personalizzati. Qualunque sia il metodo utilizzato, assicurati che sia coerente e che lo registri in un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md).

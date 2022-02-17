@@ -1,21 +1,20 @@
 ---
 description: Utilizzare gli avvisi in Analysis Workspace.
 title: Alert Builder (Generatore di avvisi)
-uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Alerts
+exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 81%
 
 ---
 
-
 # Alert Builder (Generatore di avvisi)
 
 >[!IMPORTANT]
 >
->Gli avvisi intelligenti sono disponibili solo per i clienti Adobe [!DNL Analytics] Prime e Adobe [!DNL Analytics] Ultimate .
+>Adobe di avvisi intelligenti [!DNL Analytics] Prime e Adobi [!DNL Analytics] Solo clienti finali.
 
 Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
 
@@ -24,7 +23,7 @@ Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
    `ctrl (or cmd) + shift + a`
 * Da **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
 * Selezionando uno o più elementi della tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]**.
-* Da un rapporto [!UICONTROL Reports & Analytics], scegliendo **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
+* Da all&#39;interno di un [!UICONTROL Reports & Analytics] rapporto, **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 L’interfaccia di Generatore di avvisi è familiare per coloro che hanno generato segmenti o metriche calcolate in [!DNL Analytics]:
 
@@ -44,7 +43,7 @@ Specifica quando occorre controllare la metrica: ogni ora, giorno, settimana o m
 
 **Recipients (Destinatari)**
 
-Specifica a chi deve essere inviato l’avviso. È possibile inviare un avviso a un utente [!DNL Analytics], a un gruppo [!DNL Analytics], a un indirizzo e-mail non elaborato o a un numero di telefono.
+Specifica a chi deve essere inviato l’avviso. È possibile inviare un avviso a un [!DNL Analytics] utente, un [!DNL Analytics] un gruppo, un indirizzo e-mail non elaborato o un numero di telefono.
 
 >[!IMPORTANT]
 >
@@ -60,7 +59,7 @@ Imposta la data di scadenza dell’avviso.
 
 * Trascina la metrica nell’area di lavoro per l’aggiunta degli attivatori.
 
-   Se non tutti i componenti (metriche/dimensioni/segmenti) nell’avviso sono compatibili con la suite di rapporti selezionati, viene visualizzato un messaggio **&quot;components incompatibili&quot;**.
+   Tieni presente che **&quot;componenti incompatibili&quot;** se non tutti i componenti (metriche/dimensioni/segmenti) nell’avviso sono compatibili con la suite di rapporti attualmente selezionata, viene visualizzato un messaggio.
 
 * Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
 

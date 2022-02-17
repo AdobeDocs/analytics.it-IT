@@ -1,19 +1,19 @@
 ---
 title: Percentuale non recapitate
-description: Rapporto tra le visite con un solo hit rispetto alle voci.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+description: Il rapporto tra visite con esattamente un hit rispetto alle voci.
+feature: Metrics
+exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 5%
 
 ---
 
-
 # Percentuale non recapitate
 
-La metrica &#39;Bounce rate&#39; mostra il rapporto tra visite che contenevano esattamente un hit rispetto al numero di visite in quella pagina. Puoi utilizzare questa metrica per capire quali elementi dimensionali hanno il tasso di rimbalzo più alto, o per visualizzare un tasso di rimbalzo totale aggregato del sito nel tempo.
+La metrica &quot;Frequenza di rimbalzo&quot; mostra il rapporto tra le visite che contenevano esattamente un hit rispetto al numero di visite in quella pagina. Puoi utilizzare questa metrica per capire quali elementi dimensionali hanno la frequenza di rimbalzo più elevata o per visualizzare nel tempo una frequenza di rimbalzo totale aggregata del sito.
 
-## Modalità di calcolo di questa metrica
+## Calcolo di questa metrica
 
 Questa metrica viene calcolata utilizzando la formula [`Bounces`](bounces.md)` divided by `[`Entries`](entries.md).

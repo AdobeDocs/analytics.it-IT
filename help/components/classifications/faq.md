@@ -1,9 +1,9 @@
 ---
 title: Domande frequenti sulle classificazioni
 description: Domande frequenti sull’utilizzo delle classificazioni.
+feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-translation-type: tm+mt
-source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 81%

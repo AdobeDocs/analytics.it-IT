@@ -1,8 +1,9 @@
 ---
 title: Tipo di browser
 description: Organizzazione del browser.
+feature: Dimensions
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 2%
@@ -15,7 +16,7 @@ La dimensione &quot;Tipo di browser&quot; elenca le organizzazioni che hanno cre
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione fa riferimento a una tabella di ricerca interna all’Adobe. Il valore di ricerca si basa sull’intestazione HTTP `User-Agent` nelle richieste di immagini. Se utilizzi una libreria AppMeasurement (ad esempio tramite tag in Adobe Experience Platform), questa dimensione funziona automaticamente.
+Questa dimensione fa riferimento a una tabella di ricerca interna all’Adobe. Il valore di ricerca si basa sul `User-Agent` Intestazione HTTP nelle richieste di immagini. Se utilizzi una libreria AppMeasurement (ad esempio tramite tag in Adobe Experience Platform), questa dimensione funziona automaticamente.
 
 ## Elementi Dimension
 

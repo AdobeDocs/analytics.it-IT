@@ -1,30 +1,30 @@
 ---
-title: Dimensioni di ingresso
-description: Elenca le dimensioni delle voci e il loro utilizzo.
-keywords: entry page, entry site section, entry server, entry custom insight
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+title: Dimensioni di entrata
+description: Elenca le dimensioni di ingresso e il loro utilizzo.
+keywords: pagina di ingresso, sezione del sito di ingresso, server di ingresso, informazioni personalizzate di ingresso
+feature: Dimensions
+exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 1%
 
 ---
 
+# Dimensioni di entrata
 
-# Dimensioni di ingresso
+*Questa pagina di aiuto descrive il funzionamento delle voci come una dimensione. Per informazioni sul funzionamento delle voci come metriche, consulta la sezione [Voci](../metrics/entries.md) metrica.*
 
-*Questa pagina della guida descrive il funzionamento delle voci come una dimensione. Per informazioni sul funzionamento delle voci come metriche, vedi la metrica[Voci](../metrics/entries.md).*
+Le dimensioni di ingresso sono basate sulle visite. Registrano il primo elemento dimensione e lo persistono per l’intera durata della visita. Le dimensioni di ingresso sono disponibili per tutte le variabili con percorso abilitato in [Variabili del traffico](/help/admin/admin/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
 
-Le dimensioni di ingresso sono basate sulle visite. Registrano il primo elemento di dimensione e lo mantengono per tutta la durata della visita. Le dimensioni delle voci sono disponibili per tutte le variabili con percorso abilitato nelle variabili [](/help/admin/admin/c-traffic-variables/traffic-var.md) Traffico nelle impostazioni della suite di rapporti.
+## Popolare le dimensioni di ingresso con i dati
 
-## Compilare le dimensioni delle voci con i dati
+Una determinata dimensione di ingresso è basata sulla variabile di traffico associata. Se la variabile non entry ha dati, anche la dimensione di ingresso associata contiene dati. Non sono necessarie modifiche di implementazione per le dimensioni di ingresso se le variabili di traffico contengono dati.
 
-Una determinata dimensione di voce è basata sulla variabile di traffico associata. Se la variabile non entry ha dei dati, la dimensione di immissione associata contiene anche dei dati. Non sono necessarie modifiche di implementazione per le dimensioni di immissione se le variabili di traffico contengono dati.
+## Elementi Dimension
 
-## Elementi dimensione
+Poiché le variabili di ingresso sono in genere basate su stringhe personalizzate nell’implementazione, l’organizzazione determina gli elementi dimensionali desiderati. I valori in una data dimensione di ingresso corrispondono agli elementi dimensionali nella dimensione non di ingresso associata. Ad esempio, gli elementi dimensionali nella dimensione &quot;Pagina di ingresso&quot; contengono elementi dimensionali simili nella dimensione &quot;Pagina&quot;.
 
-Poiché le variabili di voce sono in genere basate su stringhe personalizzate nell’implementazione, l’organizzazione determina quali elementi dimensione sono. I valori in una data dimensione di immissione corrispondono agli elementi dimensione nella dimensione associata non di immissione. Ad esempio, gli elementi dimensionali nella dimensione &quot;Pagina entrata&quot; contengono elementi dimensionali simili nella dimensione &quot;Pagina&quot;.
+## Pagina di ingresso originale
 
-## Pagina iniziale originale
-
-La dimensione &quot;Originale pagina iniziale&quot; funziona in modo diverso rispetto alle altre dimensioni di immissione. Anziché conservare la pagina di immissione per una determinata visita, viene mantenuta la prima pagina di immissione per l’intera durata del cookie del visitatore. Ad esempio, se accedete `https://example.com/page4` per la prima visita al sito, un anno dopo accedete al sito `https://example.com/store`, la dimensione originale della pagina di immissione viene elencata `https://example.com/page4` come elemento dimensione.
+La dimensione &quot;Originale pagina di ingresso&quot; funziona in modo diverso rispetto ad altre dimensioni di ingresso. Invece di conservare la pagina di ingresso per una data visita, conserva la prima pagina di ingresso per l’intera durata del cookie del visitatore. Ad esempio, se accedi a `https://example.com/page4` per la tua prima visita al sito, poi un anno dopo atterrare su `https://example.com/store`, gli elenchi delle dimensioni originali della pagina di ingresso `https://example.com/page4` come elemento della dimensione.

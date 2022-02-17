@@ -1,26 +1,25 @@
 ---
 description: Risolvere i problemi relativi ai segmenti e risolverli.
 title: Risoluzione dei problemi di segmentazione
-uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Segmentation
+exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
-
 # Risoluzione dei problemi di segmentazione
 
-## Errore: &quot;Elementi non compatibili in questo segmento&quot; {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## Errore: &quot;Elementi non compatibili in questo segmento&quot; {#incompatible}
 
 Questo errore si verifica quando si tenta di salvare un segmento nella cartella Data Warehouse in cui il segmento contiene elementi non compatibili con Data Warehouse. Per risolvere questo errore, eseguire una delle due operazioni seguenti:
 
 * Salva il segmento in una cartella diversa
 * Rimuovi o modifica le parti non compatibili del segmento.
 
-## Perché il mio segmento non restituisce alcun dato? {#section_999749CBBE984142AEA49A6E68E6730A}
+## Perché il mio segmento non restituisce alcun dato? {#no-data}
 
 Possibili motivi:
 
@@ -28,7 +27,7 @@ Possibili motivi:
 * Il rapporto non supporta la segmentazione.
 * Nessun dato corrispondente ai criteri di segmentazione.
 
-## Perché non riesco a visualizzare il segmento creato nel Gestore segmenti? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## Perché non riesco a visualizzare il segmento creato nel Gestore segmenti? {#invisible}
 
 Possibili motivi:
 
@@ -40,11 +39,10 @@ Possibili motivi:
 * Il segmento non è stato salvato.
 * L&#39;indirizzo IP può essere bloccato all&#39;estremità dell&#39;utente.
 
-## Perché i dati pagina visualizzati dopo l’applicazione di un segmento sembrano errati? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## Perché i dati pagina visualizzati dopo l’applicazione di un segmento sembrano errati? {#page-data}
 
 Possibili motivi:
 
 * Regole/Operatori non corretti per il risultato richiesto.
 * Applicazione errata dei contenitori al segmento.
 * Le variabili di traffico utilizzate per segmentare non sono impostate correttamente o sono scadute.
-

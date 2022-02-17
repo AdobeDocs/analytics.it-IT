@@ -1,13 +1,11 @@
 ---
 description: Puoi importare (caricare) i dati delle classificazioni utilizzando il browser. Questo metodo limita il caricamento dei dati di classificazione a una singola suite di rapporti
-subtopic: Classifications
 title: Importazione browser
-feature: Strumenti di amministrazione
-uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
+feature: Classifications
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '331'
 ht-degree: 86%
 
 ---

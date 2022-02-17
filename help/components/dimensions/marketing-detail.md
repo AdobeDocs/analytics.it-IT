@@ -1,15 +1,15 @@
 ---
-title: Dettagli canale di marketing
-description: I dettagli più recenti del canale di marketing entro la scadenza del coinvolgimento del visitatore.
-translation-type: tm+mt
-source-git-commit: 5d7aa8f885e467c0fe86eb036557507a3b1ccfaa
+title: Dettagli del canale Marketing
+description: I dettagli del canale di marketing più recenti nella scadenza del coinvolgimento del visitatore.
+feature: Dimensions
+exl-id: 9b206066-2ffe-4996-8783-c83774e73dfe
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
+# Dettagli del canale Marketing
 
-# Dettagli canale di marketing
-
-La dimensione &quot;Dettagli canale di marketing&quot; funziona in modo identico alla dimensione &quot;Ultimo dettaglio canale di contatto&quot; [](last-touch-detail.md) .  Adobe ha introdotto questa dimensione da utilizzare nei report che utilizzano l&#39;attribuzione personalizzata. Gli utenti che hanno visualizzato i rapporti personalizzati sui canali di marketing dell&#39;attribuzione sono stati confusi con l&#39;etichetta &quot;ultimo tocco&quot;, in quanto l&#39;attribuzione personalizzata non è accurata.  Adobe ha introdotto la dimensione &quot;Dettaglio canale marketing&quot; generica in modo che gli analisti possano creare report personalizzati sull&#39;attribuzione dei canali di marketing senza l&#39;etichetta ingannevole della dimensione &quot;Ultimo tocco&quot;.
+La dimensione &quot;Dettaglio canale di marketing&quot; funziona in modo identico a [&#39;Dettaglio del canale di ultimo contatto&#39;](last-touch-detail.md) dimensione. Questo Adobe ha introdotto questa dimensione da utilizzare nei rapporti che utilizzano l’attribuzione personalizzata. Gli utenti che hanno visualizzato rapporti di canale di marketing di attribuzione personalizzati sono stati confusi con l’etichetta &quot;ultimo contatto&quot;, in quanto l’attribuzione &quot;ultimo contatto&quot; non è accurata con l’utente. L’Adobe ha introdotto la dimensione generica &quot;Dettaglio canale di marketing&quot; in modo che gli analisti possano creare report di canale di marketing di attribuzione personalizzati senza l’etichetta di dimensione &quot;ultimo contatto&quot; fuorviante.

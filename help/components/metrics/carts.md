@@ -1,8 +1,9 @@
 ---
 title: Carrelli
 description: Il numero di hit in cui un visitatore ha aggiunto il suo primo prodotto a un carrello.
+feature: Metrics
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
-source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 1%
@@ -15,7 +16,7 @@ La metrica &quot;Carrelli&quot; mostra il numero di hit in cui un visitatore ha 
 
 ## Calcolo di questa metrica
 
-Questa metrica conta il numero di hit in cui esiste `scOpen` nella variabile [`events`](/help/implement/vars/page-vars/events/events-overview.md).
+Questa metrica conta il numero di hit in cui `scOpen` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.
 
 ## Differenza tra &quot;Carte&quot; e &quot;Visualizzazioni carrello&quot;
 

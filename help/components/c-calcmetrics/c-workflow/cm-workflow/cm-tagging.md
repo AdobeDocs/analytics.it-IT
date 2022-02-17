@@ -1,34 +1,36 @@
 ---
-description: Nel Gestore della metrica calcolata, i segmenti di tag consentono di organizzarli.
+description: Nel Gestore della metrica calcolata, assegnare tag ai segmenti ti consente di organizzarli.
 title: Assegnare tag alle metriche calcolate
-uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Calculated Metrics
+exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 47%
 
 ---
 
-
 # Assegnare tag alle metriche calcolate
 
-Nel Gestore della metrica calcolata, i segmenti di tag consentono di organizzarli.
+Nel Gestore della metrica calcolata, assegnare tag ai segmenti ti consente di organizzarli.
 
-Tutti gli utenti possono creare tag per metriche calcolate e applicare uno o più tag a una metrica. Tuttavia, potete visualizzare i tag solo per le metriche calcolate di proprietà o condivise con voi. Che tipo di tag creare? Di seguito sono riportati alcuni suggerimenti per tag utili:
+Tutti gli utenti possono creare tag per le metriche calcolate e applicare uno o più tag a una metrica. Tuttavia, puoi visualizzare solo i tag per le metriche calcolate di tua proprietà o che sono state condivise con te. Che tipo di tag è utile creare? Di seguito sono riportati alcuni suggerimenti di tag utili:
 
-* Tag basati sui nomi **del** team, ad esempio Social Marketing e Mobile Marketing.
-* **Tag del progetto** (tag di analisi), come l’analisi Entry-page.
-* **Tag categoria** : Uomo; geografia.
-* **Tag del flusso di lavoro** : Da approvare; Cura per (una specifica unità aziendale)
+* Tag basati sui **nomi dei team**, ad esempio Social Marketing e Mobile Marketing.
+* Tag del **progetto** (tag di analisi), ad esempio Analisi per pagina di ingresso.
+* Tag di **categorie**: maschile, geografia.
+* Tag del **flusso di lavoro**: Da approvare, Curato per (una specifica unità aziendale)
 
-1. Nel Gestore della metrica calcolata, contrassegna la casella di controllo accanto alla metrica a cui vuoi assegnare il tag. Viene visualizzata la barra degli strumenti di gestione:
-1. Fate clic **[!UICONTROL Tag]** su
+1. Nel Gestore della metrica calcolata, contrassegna la casella di controllo accanto alla metrica a cui desideri assegnare il tag. Viene visualizzata la barra degli strumenti di gestione:
+1. Fai clic su **[!UICONTROL Tag]** e
 
-   * selezionare da tag esistenti, oppure
-   * aggiungete un nuovo nome di tag nella finestra di dialogo Aggiungi tag/ricerca e premete **[!UICONTROL Enter]**.
+   * seleziona da tag esistenti, oppure
+   * aggiungi un nuovo nome di tag nella finestra di dialogo Aggiungi tag/ricerca e premi **[!UICONTROL Enter]**.
 
       ![](assets/cm_add_tags.png)
 
-1. Fate **[!UICONTROL Tag]** di nuovo clic per assegnare un tag alla metrica.
+1. Fai clic su **[!UICONTROL Tag]** di nuovo per assegnare tag alla metrica.
 
-Il tag deve ora essere visualizzato nella colonna Tag. Fate clic sull’icona a forma di ingranaggio in alto a destra per gestire le colonne.
+Ora il tag dovrebbe essere visualizzato nella colonna Tag (fai clic sull’icona a forma di ingranaggio in alto a destra per gestire le colonne).
 
-Potete anche filtrare i tag scegliendo **[!UICONTROL Show Filters]** &gt; **[!UICONTROL Tags]**.
+Puoi anche filtrare i tag andando in **[!UICONTROL Show Filters]** > **[!UICONTROL Tags]**.

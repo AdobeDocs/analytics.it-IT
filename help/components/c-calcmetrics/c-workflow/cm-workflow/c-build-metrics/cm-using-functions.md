@@ -1,24 +1,23 @@
 ---
-description: Le funzioni consentono di filtrare/ordinare i dati e di eseguire analisi statistiche.
+description: Le funzioni consentono di filtrare/ordinare i dati ed eseguire analisi statistiche.
 title: Usare le funzioni
-uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Calculated Metrics
+exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
 
 ---
 
-
 # Usare le funzioni
 
-Le funzioni consentono di filtrare/ordinare i dati e di eseguire analisi statistiche.
+Le funzioni consentono di filtrare/ordinare i dati ed eseguire analisi statistiche.
 
-Per un elenco di tutte le funzioni, fare riferimento a Funzioni [](/help/components/c-calcmetrics/cm-reference/cm-functions.md) di base e Funzioni [](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)avanzate.
+Per un elenco di tutte le funzioni, consulta [Funzioni di base](/help/components/c-calcmetrics/cm-reference/cm-functions.md) e [Funzioni avanzate](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
 
 >[!NOTE]
 >
->Quando si includono funzioni in una formula di metrica calcolata, applicare sempre la funzione prima di trascinare in metriche o segmenti.
+>Quando includi funzioni in una formula di metriche calcolate, applica sempre la funzione prima di trascinare metriche o segmenti.
 
-Guardate questo [video](https://youtu.be/SSyWvomnewI) per comprendere l&#39;uso delle funzioni.
+Guarda questo [video](https://youtu.be/SSyWvomnewI) per comprendere l&#39;uso delle funzioni.

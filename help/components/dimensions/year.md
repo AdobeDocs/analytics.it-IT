@@ -1,23 +1,23 @@
 ---
 title: Anno
-description: L'anno in cui si è verificata la metrica.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+description: L’anno in cui si è verificata la metrica.
+feature: Dimensions
+exl-id: 872fb659-fb19-40ac-b371-e89c5a5d0274
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-
 # Anno
 
-La dimensione &#39;Anno&#39; indica l&#39;anno in cui si è verificata una metrica specifica. Il primo elemento dimensione è il primo anno nell&#39;intervallo di date e l&#39;ultimo elemento dimensione è l&#39;anno più recente nell&#39;intervallo di date.
+La dimensione &quot;Anno&quot; indica l’anno in cui si è verificata una determinata metrica. Il primo elemento dimensione è il primo anno nell’intervallo di date e l’ultimo elemento dimensione è l’anno più recente nell’intervallo di date.
 
-## Compilare questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
-Questa dimensione funziona automaticamente per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
+Questa dimensione funziona come standard per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
 
-## Elementi dimensione
+## Elementi Dimension
 
-Gli elementi dimensione includono un dato anno, con le date incluse tra parentesi.
+Gli elementi Dimension includono un dato anno, con le date incluse tra parentesi.

@@ -1,25 +1,25 @@
 ---
 title: Uscite
-description: Un'istanza dell'ultimo valore di una visita.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+description: Un’istanza dell’ultimo valore in una visita.
+feature: Metrics
+exl-id: 0997ed1f-29b0-403d-9ed2-644a5ff19aef
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 1%
 
 ---
 
-
 # Uscite
 
-*In questa pagina della guida viene descritto come le uscite funzionano come una metrica. Per informazioni sul funzionamento delle uscite come una dimensione, vedi[Dimensioni](../dimensions/exit-dimensions.md)di uscita.*
+*Questa pagina di aiuto descrive come le uscite funzionano come metriche. Per informazioni sul funzionamento delle uscite come dimensione, consulta [Dimensioni di uscita](../dimensions/exit-dimensions.md).*
 
-La metrica &#39;Exits&#39; mostra il numero di volte in cui un dato elemento dimensione viene acquisito come ultimo valore in una visita. Questa metrica è utile per comprendere meglio l’ultima cosa che i visitatori vedono prima di lasciare il sito. La visualizzazione degli ultimi valori di una dimensione può aiutarti a comprendere e ottimizzare l’esperienza acquisita da un visitatore prima che esca.
+La metrica &quot;Uscite&quot; mostra il numero di volte in cui un dato elemento dimensione viene acquisito come ultimo valore in una visita. Questa metrica è utile quando desideri comprendere di più sull’ultima cosa che i visitatori visualizzano prima di lasciare il sito. Visualizzare gli ultimi valori di una dimensione può essere utile per comprendere e ottimizzare l’esperienza che un visitatore ottiene prima di partire.
 
-## Modalità di calcolo di questa metrica
+## Calcolo di questa metrica
 
-Al termine di una [visita](visits.md) , registra l’elemento della dimensione più recente come uscita. Esiste una sola uscita per dimensione per visita. Non è necessariamente l’ultimo hit della visita se la dimensione è stata impostata negli hit precedenti. È una metrica basata sulle visite; si applica retroattivamente a tutti gli hit della visita.
+Dopo un [visita](visits.md) conclude, registra l’elemento della dimensione più recente come uscita. Esiste una sola uscita per dimensione per visita. Non è necessariamente l’ultimo hit della visita se la dimensione è stata impostata negli hit precedenti. È una metrica basata su visite; si applica retroattivamente a tutti gli hit della visita.
 
 >[!TIP]
 >
->Se visualizzi questa metrica rispetto a una dimensione non sempre impostata in ogni visita, puoi nascondere l’elemento dimensione &quot;Non specificato&quot; in  Analysis Workspace. Fate clic sull&#39;icona del filtro, quindi deselezionate [!UICONTROL Include unspecified (None)].
+>Se visualizzi questa metrica rispetto a una dimensione non sempre impostata in ogni visita, puoi nascondere l’elemento dimensione &quot;Non specificato&quot; in Analysis Workspace. Fai clic sull’icona del filtro, quindi deseleziona [!UICONTROL Include unspecified (None)].

@@ -1,8 +1,9 @@
 ---
 title: Altezza browser - a blocchi
 description: Altezza della finestra del browser in pixel.
+feature: Dimensions
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -23,10 +24,10 @@ L’altezza del browser è sempre inferiore o uguale all’altezza dello schermo
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione recupera i dati dalla [`bh` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `window.innerHeight` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite tag in Adobe Experience Platform), questa dimensione funziona automaticamente. Se utilizzi un metodo di raccolta dati al di fuori di AppMeasurement (ad esempio tramite l’API), assicurati di includere il parametro della stringa di query `bh` sul primo hit di ogni visita.
+Questa dimensione recupera i dati dal [`bh` stringa di interrogazione](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `window.innerHeight` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite tag in Adobe Experience Platform), questa dimensione funziona automaticamente. Se utilizzi un metodo di raccolta dati al di fuori di AppMeasurement (ad esempio tramite l’API), assicurati di includere il `bh` parametro della stringa query sul primo hit di ogni visita.
 
 L’altezza del browser dell’Adobe persiste per una visita. Se l’altezza del browser viene regolata a metà visita, la regolazione non viene registrata.
 
 ## Elementi Dimension
 
-Gli elementi di Dimension includono tutte le altezze raccolte del browser, classificate in gruppi di 100 pixel. Ad esempio, se l’altezza del browser di un hit è `720`, viene raggruppata nell’elemento dimensionale `700 to 799`.
+Gli elementi di Dimension includono tutte le altezze raccolte del browser, classificate in gruppi di 100 pixel. Ad esempio, se l’altezza del browser di un hit è `720`, viene quindi raggruppato nell’elemento della dimensione `700 to 799`.

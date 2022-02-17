@@ -1,14 +1,14 @@
 ---
 title: Tempo di elaborazione dell’importazione di classificazioni
 description: Comprendere l’intervallo di tempo in cui Adobe elabora i file di classificazione e come ridurre al minimo il tempo di elaborazione.
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
+feature: Classifications
+exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
 ---
-
 
 # Tempo di elaborazione dell’importazione di classificazioni
 

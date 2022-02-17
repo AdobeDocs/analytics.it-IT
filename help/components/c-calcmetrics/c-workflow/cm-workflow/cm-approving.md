@@ -1,25 +1,26 @@
 ---
-description: In Calculated Metric Manager (Gestione metriche calcolate) è possibile impostare un flusso di lavoro che include l'approvazione delle metriche per vari livelli di applicazione e per reparti o gruppi specifici.
+description: In Gestione metriche calcolate puoi impostare un flusso di lavoro che include l’approvazione delle metriche per vari livelli di applicazione e per reparti o gruppi specifici.
 title: Approvare le metriche calcolate
-uuid: df51252c-3121-4030-8a8c-566d557f28b2
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Calculated Metrics
+exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 5%
 
 ---
 
-
 # Approvare le metriche calcolate
 
-In Calculated Metric Manager (Gestione metriche calcolate) è possibile impostare un flusso di lavoro che include l'approvazione delle metriche per vari livelli di applicazione e per reparti o gruppi specifici.
+In Gestione metriche calcolate puoi impostare un flusso di lavoro che include l’approvazione delle metriche per vari livelli di applicazione e per reparti o gruppi specifici.
 
-Di seguito viene illustrato come contrassegnare una metrica calcolata come approvata:
+Ecco come contrassegnare una metrica calcolata come approvata:
 
-1. In Gestione metriche calcolate, seleziona la casella di controllo a sinistra del titolo della metrica.
-1. Fate clic **[!UICONTROL Approve]** nell'attività di gestione nella parte superiore.
-1. Prendete in considerazione la condivisione delle metriche calcolate approvate con la vostra organizzazione.
+1. In Gestore della metrica calcolata, seleziona la casella di controllo a sinistra del titolo della metrica.
+1. Fai clic su **[!UICONTROL Approve]** nell&#39;attività di gestione nella parte superiore.
+1. Prendi in considerazione la condivisione delle metriche calcolate approvate con la tua organizzazione.
 1. Fai clic su **[!UICONTROL OK]**.
-1. Osservate l’icona di approvazione accanto alla metrica calcolata nell’elenco:  ![](assets/cm_approve_icon.png)
+1. Osserva l’icona di approvazione accanto alla metrica calcolata nell’elenco:  ![](assets/cm_approve_icon.png)
 
-1. Puoi anche fare clic **[!UICONTROL Unapprove]** per cancellare questa metrica dall'elenco di quelle approvate.
-1. Puoi anche filtrare le metriche approvate facendo clic su **[!UICONTROL Show Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Approved]**.
-
+1. Puoi anche fare clic su **[!UICONTROL Unapprove]** per cancellare questa metrica dall’elenco di quelle approvate.
+1. Puoi filtrare le metriche approvate facendo clic su **[!UICONTROL Show Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Approved]**.

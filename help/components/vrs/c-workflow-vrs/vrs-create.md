@@ -2,10 +2,9 @@
 description: Prima di iniziare a creare suite di rapporti virtuali, devi tenere presenti alcuni aspetti.
 keywords: Suite di rapporti virtuali
 title: Creare suite di rapporti
-feature: Reports & Analytics Basics
-uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
+feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 6%
@@ -18,7 +17,7 @@ Prima di iniziare a creare suite di rapporti virtuali, devi tenere presenti alcu
 
 * Gli utenti non amministratori non possono visualizzare Virtual Report Suite Manager.
 * Impossibile condividere le suite di rapporti virtuali. La &quot;condivisione&quot; viene eseguita tramite gruppi/autorizzazioni.
-* In Gestione suite di rapporti virtuale è possibile visualizzare solo le suite di rapporti virtuali. Devi cliccare su &quot;mostra tutto&quot; per vedere quello di tutti gli altri.
+* In Gestione suite di rapporti virtuale è possibile visualizzare solo le suite di rapporti virtuali personalizzate. Devi cliccare su &quot;mostra tutto&quot; per vedere quello di tutti gli altri.
 
 1. Passa a **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**.
 1. Fai clic su **[!UICONTROL Add +]**.
@@ -27,7 +26,7 @@ Prima di iniziare a creare suite di rapporti virtuali, devi tenere presenti alcu
 
 ## Definisci impostazioni
 
-Nella scheda [!UICONTROL Settings] , definisci queste impostazioni e fai clic su **[!UICONTROL Continue]**.
+Sulla [!UICONTROL Settings] , definisci queste impostazioni e fai clic su **[!UICONTROL Continue]**.
 
 | Elemento | Descrizione |
 | --- |--- |
@@ -36,11 +35,11 @@ Nella scheda [!UICONTROL Settings] , definisci queste impostazioni e fai clic su
 | Tag | Puoi aggiungere dei tag per organizzare le suite di rapporti. |
 | Origine | La suite di rapporti da cui questa suite di rapporti virtuale eredita le seguenti impostazioni. La maggior parte dei livelli e delle funzioni del servizio (ad esempio, impostazioni eVar, Regole di elaborazione, Classificazioni e così via) vengono ereditati. Per apportare modifiche a queste impostazioni ereditate in una VRS, devi modificare la suite di rapporti principale ( Amministratore > Suite di rapporti). |
 | Fuso orario | La scelta di un fuso orario è facoltativa. Se scegli un fuso orario, questo viene salvato insieme alla VRS. Se non si seleziona un fuso orario, verrà utilizzato quello della suite di rapporti padre.  Durante la modifica di una VRS, il fuso orario salvato con la VRS viene visualizzato nel selettore a discesa. Se la VRS è stata creata prima dell’aggiunta del supporto per il fuso orario, il fuso orario della suite di rapporti principale viene visualizzato nel selettore a discesa. |
-| Segmenti | Puoi aggiungere un solo segmento o impilare segmenti.   Nota:  Quando si sovrappongono due segmenti, essi sono collegati da un’istruzione AND. Non è possibile modificare questo valore in un&#39;istruzione OR. Quando tenti di eliminare o modificare un segmento attualmente utilizzato in una suite di rapporti virtuale, viene visualizzato un avviso. |
+| Segmenti | Puoi aggiungere un solo segmento o impilare segmenti.   Nota: Quando si sovrappongono due segmenti, essi sono collegati da un’istruzione AND. Non è possibile modificare questo valore in un&#39;istruzione OR. Quando tenti di eliminare o modificare un segmento attualmente utilizzato in una suite di rapporti virtuale, viene visualizzato un avviso. |
 
 ## Definire la definizione della visita
 
-Nella scheda [!UICONTROL Visit Definition] , definisci queste impostazioni e fai clic su **[!UICONTROL Continue]**.
+Sulla [!UICONTROL Visit Definition] , definisci queste impostazioni e fai clic su **[!UICONTROL Continue]**.
 
 ![](assets/visit-definition.png)
 
@@ -62,10 +61,10 @@ Ecco un video su come regolare la definizione di una visita in una suite di rapp
 
 ![](assets/components.png)
 
-1. Nella scheda [!UICONTROL Components] , seleziona la casella di controllo per applicare la cura per includere, escludere e rinominare i componenti per questa suite di rapporti virtuale in Analysis Workspace.
-Per ulteriori informazioni sulla cura delle VRS, consulta [Cura dei componenti delle suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
+1. Sulla [!UICONTROL Components] , seleziona la casella di controllo per applicare la cura per includere, escludere e rinominare i componenti per questa suite di rapporti virtuale in Analysis Workspace.
+Per ulteriori informazioni sulla cura delle VRS, consulta [Cura dei componenti della suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
 
-1. Trascina nella sezione [!UICONTROL Included Components] i componenti (dimensioni, metriche, segmenti o intervalli di date) che desideri includere nella VRS.
+1. Trascina nella VRS i componenti (dimensioni, metriche, segmenti o intervalli di date) da includere nella [!UICONTROL Included Components] sezione .
 
 1. Al termine, fai clic su **[!UICONTROL Save]**.
 

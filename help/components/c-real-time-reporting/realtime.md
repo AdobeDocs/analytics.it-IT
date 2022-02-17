@@ -2,10 +2,9 @@
 description: Visualizza il traffico della pagina web e classifica le visualizzazioni di pagina in tempo reale. Fornisce dati utilizzabili su cui basare le tue decisioni aziendali.
 title: Panoramica reportistica in tempo reale
 topic-fix: Reports
-uuid: ff832952-c507-4c63-9437-25d9c44c44d1
+feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 12%
@@ -18,7 +17,7 @@ Il reporting in tempo reale mostra il traffico della pagina web e classifica le 
 
 >[!NOTE]
 >
->Il rapporto in tempo reale non richiede alcuna implementazione o assegnazione di tag aggiuntivi. Utilizza l’implementazione esistente di Adobe Analytics. Per configurare rapporti in tempo reale, consulta [Configurazione rapporti in tempo reale](/help/components/c-real-time-reporting/t-realtime-admin.md).
+>Il rapporto in tempo reale non richiede alcuna implementazione o assegnazione di tag aggiuntivi. Utilizza l’implementazione esistente di Adobe Analytics. Per configurare rapporti in tempo reale, vedi [Configurazione rapporti in tempo reale](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
 
@@ -44,13 +43,13 @@ In qualità di amministratore, puoi
 
 * Confronta, ad esempio, i valori della settimana scorsa ai valori dello scorso anno (così come al totale di oggi).
 
-Le eVar (metriche di conversione) non sono supportate, in quanto non esiste alcun concetto di persistenza. Puoi selezionare le metriche di conversione, ma queste funzionano solo se sono impostate sulla stessa pagina delle dimensioni. Per ulteriori informazioni, vedere il messaggio di avviso acquisito in [Impostazione di rapporti in tempo reale](/help/components/c-real-time-reporting/t-realtime-admin.md).
+Le eVar (metriche di conversione) non sono supportate, in quanto non esiste alcun concetto di persistenza. Puoi selezionare le metriche di conversione, ma queste funzionano solo se sono impostate sulla stessa pagina delle dimensioni. Per ulteriori informazioni, vedere il messaggio di avviso acquisito in [Impostazione dei rapporti in tempo reale](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 L&#39;impostazione e la visualizzazione dei rapporti in tempo reale è limitata agli amministratori o a qualsiasi utente nei gruppi di autorizzazioni &quot;Accesso a tutti i rapporti&quot; e &quot;Generazione avanzata di rapporti&quot; . Tuttavia, Real-Time rispetta le autorizzazioni. Se, ad esempio, non disponi dei diritti per visualizzare le entrate, non potrai visualizzare un rapporto in tempo reale che include i dati sulle entrate.
 
 ## Latenza dei dati come risultato della configurazione A4T {#section_806CE36354FC4C539A0DED9266A5C704}
 
-Dopo che l’integrazione A4T è abilitata nell’Adobe [!DNL Target], si verifica una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento della latenza consente la memorizzazione dei dati di Analytics e [!DNL Target] sullo stesso hit, consentendo di suddividere i test per pagina e sezione del sito.
+Dopo aver abilitato l’integrazione A4T in Adobe [!DNL Target], si verifica una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento della latenza consente l’utilizzo di dati da Analytics e [!DNL Target] da memorizzare sullo stesso hit, per suddividere i test per pagina e sezione del sito.
 
 Questo aumento si riflette in tutti i servizi e gli strumenti di Adobe Analytics, compresi lo streaming live e il reporting in tempo reale e si applica nei seguenti scenari:
 

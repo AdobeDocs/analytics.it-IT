@@ -1,12 +1,12 @@
 ---
 description: 'La segmentazione sulle singole metriche consente di effettuare confronti tra metriche all’interno dello stesso rapporto. '
 title: Metriche segmentate
-uuid: 88f9829b-76e4-4598-9494-084a91602bc1
+feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ Supponiamo che desideri confrontare diversi aspetti di un segmento &quot;Visitat
 
    >[!NOTE]
    >
-   >Puoi eseguire questa operazione anche nel [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md), ma abbiamo semplificato il flusso di lavoro rendendo disponibili le dimensioni nel Generatore di metriche calcolate. &quot;Adhoc&quot; indica che il segmento non è visibile nell’elenco **[!UICONTROL Segments]** nella barra a sinistra. Tuttavia, puoi renderlo pubblico passando con il mouse sull&#39;icona &quot;i&quot; accanto a essa e facendo clic su **[!UICONTROL Make public]**.
+   >Puoi eseguire questa operazione anche nella [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md), ma abbiamo semplificato il flusso di lavoro rendendo disponibili le dimensioni nel Generatore di metrica calcolata. &quot;Ad hoc&quot; indica che il segmento non è visibile nel **[!UICONTROL Segments]** nella barra a sinistra. Tuttavia, puoi renderlo pubblico passando con il mouse sull&#39;icona &quot;i&quot; accanto ad essa e cliccando **[!UICONTROL Make public]**.
 
 1. Se non hai un segmento comparabile, crea un segmento chiamato &quot;Visitatori internazionali&quot; in cui &quot;Paesi&quot; non è uguale a &quot;Germania&quot;.
 1. Crea e salva una metrica denominata &quot;Visitatori tedeschi&quot; trascinando il segmento Germania nell’area di lavoro Definizione e trascinando la metrica Visitatori unici al suo interno:
@@ -38,11 +38,11 @@ Supponiamo che desideri confrontare diversi aspetti di un segmento &quot;Visitat
    ![](assets/german-visitors.png)
 
 1. Ripeti il Passaggio 3 con il segmento Visitatori internazionali e la metrica Visitatori unici per creare una metrica Visitatori internazionali.
-1. In Analysis Workspace, trascina il Dimension **[!UICONTROL Page]** in una tabella a forma libera e trascina le due nuove metriche calcolate una accanto all’altra nella parte superiore:
+1. In Analysis Workspace, trascina la **[!UICONTROL Page]** Dimension in una tabella a forma libera e trascina in alto le due nuove metriche calcolate una accanto all’altra:
 
    ![](assets/workspace-pages.png)
 
-Ecco una panoramica video:
+Panoramica video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 

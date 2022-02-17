@@ -1,13 +1,11 @@
 ---
 description: Utilizza l’importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione.
-subtopic: Classifications
 title: 'Importazione classificazioni: panoramica'
-feature: Strumenti di amministrazione
-uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
+feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 88%
 
 ---
@@ -24,4 +22,4 @@ I dati importati con lo strumento di importazione devono essere in un formato sp
 >
 >Adobe consiglia di limitare a 30 il numero di colonne di importazione ed esportazione.
 
-Consulta [Risoluzione dei problemi relativi all&#39;importazione di classificazioni](/help/components/classifications/importer/troubleshooting.md). Questo argomento descrive i problemi derivanti da formati di file e contenuti di file non corretti.
+Vedi [Risoluzione dei problemi relativi all’importazione di classificazioni](/help/components/classifications/importer/troubleshooting.md). Questo argomento descrive i problemi derivanti da formati di file e contenuti di file non corretti.

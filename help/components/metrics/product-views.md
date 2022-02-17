@@ -1,22 +1,22 @@
 ---
-title: Viste del prodotto
-description: Il numero di visualizzazioni per le pagine di prodotto.
-translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+title: Visualizzazioni di prodotti
+description: Il numero di visualizzazioni nelle pagine dei prodotti.
+feature: Metrics
+exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
+# Visualizzazioni di prodotti
 
-# Viste del prodotto
+La metrica &quot;Visualizzazioni prodotto&quot; mostra il numero di volte in cui un prodotto è stato visualizzato. Questa metrica è utile quando desideri visualizzare i tuoi prodotti più visualizzati o vedere come il totale del prodotto visualizza la tendenza nel tempo.
 
-La metrica &quot;Visualizzazioni prodotto&quot; mostra il numero di volte in cui un prodotto è stato visualizzato. Questa metrica è utile quando desiderate visualizzare i prodotti più visualizzati o vedere la tendenza complessiva del prodotto nel tempo.
+## Calcolo di questa metrica
 
-## Modalità di calcolo di questa metrica
+Questa metrica conta il numero di hit che corrispondono a **o** dei seguenti elementi:
 
-Questa metrica conta il numero di hit che corrispondono **a uno** dei seguenti:
-
-* Il valore `prodView` esiste nella [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile; o
-* La [`products`](/help/implement/vars/page-vars/products.md) variabile è impostata e nella `events` variabile non esistono eventi del carrello. Qualsiasi evento che non è personalizzato (`event1` - `event1000`) è un evento del carrello.
+* Il valore `prodView` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile; o
+* La [`products`](/help/implement/vars/page-vars/products.md) è impostata e non sono presenti eventi del carrello nel `events` variabile. Qualsiasi evento non personalizzato (`event1` - `event1000`) è un evento del carrello.

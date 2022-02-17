@@ -1,8 +1,9 @@
 ---
 title: Risoluzione monitor
 description: La risoluzione in pixel del monitor del visitatore.
+feature: Dimensions
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 1%
@@ -23,8 +24,8 @@ Le dimensioni del browser sono sempre più piccole della risoluzione del monitor
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione recupera i dati dalla [`s` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando le variabili JavaScript `screen.width` e `screen.height` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite tag in Adobe Experience Platform), questa dimensione funziona automaticamente. Se utilizzi un metodo di raccolta dati all’esterno di AppMeasurement (ad esempio tramite l’API), assicurati di includere il parametro della stringa di query `s` nelle richieste di immagini.
+Questa dimensione recupera i dati dal [`s` stringa di interrogazione](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `screen.width` e `screen.height` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite tag in Adobe Experience Platform), questa dimensione funziona automaticamente. Se utilizzi un metodo di raccolta dati al di fuori di AppMeasurement (ad esempio tramite l’API), assicurati di includere il `s` parametro della stringa query nelle richieste di immagini.
 
 ## Elementi Dimension
 
-Gli elementi di Dimension includono tutte le risoluzioni di monitoraggio raccolte. I valori di esempio includono `1920 x 1080`, `1366 x 768` e `1280 x 720`.
+Gli elementi di Dimension includono tutte le risoluzioni di monitoraggio raccolte. I valori di esempio includono `1920 x 1080`, `1366 x 768`e `1280 x 720`.

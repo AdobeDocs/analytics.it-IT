@@ -1,9 +1,9 @@
 ---
 description: 'Scopri '
 title: Tipo di metrica e attribuzione
-uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 5%
@@ -20,18 +20,18 @@ Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specifi
 
 | Tipi di metriche | Definizione |
 |---|---|
-| Standard | Queste metriche sono le stesse utilizzate nel reporting [!DNL Analytics] standard. Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singolo elemento di riga. Ad esempio, [Ordini] / [Visite] prende gli ordini per quell’elemento specifico e lo divide per il numero di visite per quell’elemento specifico. |
-| Totale | Utilizza il totale per il periodo di reporting in ogni riga. Se una formula è costituita da una singola metrica totale, visualizza lo stesso numero totale su ogni voce di riga. Le metriche totali sono utili per creare metriche calcolate confrontate con i dati totali del sito. Ad esempio, [Ordini] / [Visite totali] mostra la proporzione di ordini rispetto a TUTTE le visite al sito, non solo le visite alla voce di riga specifica. |
+| Standard | Queste metriche sono le stesse metriche utilizzate in standard [!DNL Analytics] rapporti. Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singolo elemento di riga. Ad esempio: [Ordini] / [Visite] prende gli ordini per quell’elemento specifico e lo divide per il numero di visite per quell’elemento specifico. |
+| Totale | Utilizza il totale per il periodo di reporting in ogni riga. Se una formula è costituita da una singola metrica totale, visualizza lo stesso numero totale su ogni voce di riga. Le metriche totali sono utili per creare metriche calcolate confrontate con i dati totali del sito. Ad esempio: [Ordini] / [Totale visite] mostra la proporzione di ordini rispetto a TUTTE le visite al tuo sito, non solo le visite alla riga specifica. |
 
 ## Modello di attribuzione colonna
 
 >[!IMPORTANT]
 >
->[Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) IQ ha modificato il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di allocazione non predefinito sono state migrate a nuovi modelli di attribuzione migliorati:
+>[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) è stato rivisto il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di allocazione non predefinito sono state migrate a nuovi modelli di attribuzione migliorati:
 >
->* Per un elenco completo dei modelli di attribuzione e degli intervalli di lookback non predefiniti supportati, consulta [Modelli di attribuzione e finestre di lookback](/help/analyze/analysis-workspace/attribution/models.md).
+>* Per un elenco completo dei modelli di attribuzione non predefiniti e degli intervalli di lookback supportati, consulta [Modelli di attribuzione e finestre di lookback](/help/analyze/analysis-workspace/attribution/models.md).
 >* I modelli di allocazione &quot;Marketing Channel Last Touch&quot; (Ultimo contatto canale marketing) e &quot;Marketing Channel First Touch&quot; (Primo contatto canale marketing) verranno migrati ai nuovi modelli di attribuzione &quot;Last Touch&quot; (Ultimo contatto) e &quot;First Touch&quot; (Primo contatto canale di marketing) rispettivamente (Nota: &quot;Marketing Channels&quot; (Canali di marketing) non verrà deprecato, ma solo i due modelli di allocazione che compaiono nelle metriche calcolate.
->* Inoltre verrà corretto il metodo di calcolo dell’allocazione lineare. Per i clienti che utilizzano metriche calcolate con modelli di allocazione &quot;Lineare&quot;, i rapporti possono cambiare leggermente per riflettere il nuovo modello di attribuzione corretto. La modifica alle metriche calcolate si rifletterà in Analysis Workspace, Reports &amp; Analytics, API di reporting e Report Builder. Per ulteriori informazioni, consulta **Come funziona l’allocazione lineare (a partire dal 19 luglio 2018**, di seguito.
+>* Inoltre verrà corretto il metodo di calcolo dell’allocazione lineare. Per i clienti che utilizzano metriche calcolate con modelli di allocazione &quot;Lineare&quot;, i rapporti possono cambiare leggermente per riflettere il nuovo modello di attribuzione corretto. La modifica alle metriche calcolate si rifletterà in Analysis Workspace, Reports &amp; Analytics, API di reporting e Report Builder. Per ulteriori informazioni, consulta **Come funziona l’allocazione lineare (dal 19 luglio 2018** qui sotto.
 
 
 ## Come funziona l’allocazione lineare (dal 19 luglio 2018)
@@ -71,7 +71,7 @@ Per l’eVar di primo contatto di cui sopra, tutti i $ 10 vengono dati a A. Per 
 
 **Riepilogo del funzionamento dell&#39;allocazione lineare**
 
-Invece di utilizzare i valori persistenti basati sull’ultimo contatto o sul primo contatto, ora [!DNL Analytics] utilizza solo i valori passati (la prima riga della tabella superiore). Di conseguenza, le impostazioni di allocazione delle dimensioni non influiscono più sul modo in cui viene calcolata l’allocazione lineare (ovvero proprietà ed eVar verranno trattate nello stesso modo) e i risultati riflettono ciò che è stato originariamente passato invece dei valori di primo o ultimo contatto che potrebbero essere persistiti. Quindi, in tutti e tre i casi, A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50 e C = 10 * (1/4) = $2,50.
+Invece di utilizzare i valori persistenti basati sull’ultimo contatto o sul primo contatto, [!DNL Analytics] ora utilizza solo i valori passati (la prima riga della tabella superiore). Di conseguenza, le impostazioni di allocazione delle dimensioni non influiscono più sul modo in cui viene calcolata l’allocazione lineare (ovvero proprietà ed eVar verranno trattate nello stesso modo) e i risultati riflettono ciò che è stato originariamente passato invece dei valori di primo o ultimo contatto che potrebbero essere persistiti. Quindi, in tutti e tre i casi, A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50 e C = 10 * (1/4) = $2,50.
 
 | Valori | Nuovo eVar ultimo contatto | Nuovo eVar primo contatto | Nuovo prop. |
 |---|---|---|---|

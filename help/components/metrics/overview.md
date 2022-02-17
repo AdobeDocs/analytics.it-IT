@@ -1,8 +1,9 @@
 ---
 title: Panoramica delle metriche
 description: Visualizza quantità di elementi dimensionali o dati nel tempo.
+feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 2%
@@ -21,9 +22,9 @@ Ad esempio, se hai combinato la dimensione &quot;Pagina&quot; con la metrica &qu
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-Se non riesci a trovare una determinata pagina di aiuto metrica, è probabile che si tratti di un [evento personalizzato](custom-events.md) o di una [metrica calcolata](../c-calcmetrics/cm-overview.md).
+Se non riesci a trovare una determinata pagina di aiuto metrica, è probabile che sia un [evento personalizzato](custom-events.md) o [metrica calcolata](../c-calcmetrics/cm-overview.md).
 
-* Se la metrica è un evento personalizzato, consulta un amministratore Analytics all’interno della tua organizzazione o il documento di progettazione della soluzione [della suite di rapporti](/help/implement/prepare/solution-design.md).
+* Se la metrica è un evento personalizzato, consulta un amministratore di Analytics all’interno della tua organizzazione o la suite di rapporti [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md).
 * Se la metrica è una metrica calcolata, fai clic sull’icona delle informazioni per determinarne la formula.
 
 ## Aggiungi descrizioni metriche

@@ -2,12 +2,10 @@
 description: Illustra i passaggi e le best practice da seguire per la pianificazione dei segmenti.
 title: Pianificare segmenti
 feature: Segmentation
-uuid: bc522834-123c-457d-bde7-db7c5c97077f
 exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '208'
 ht-degree: 100%
 
 ---

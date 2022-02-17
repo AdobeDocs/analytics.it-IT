@@ -2,12 +2,11 @@
 description: Le suite di rapporti virtuali e l’assegnazione di tag a più suite hanno vantaggi diversi. Scopri quale è meglio per la tua organizzazione.
 keywords: Suite di rapporti virtuale,VRS
 title: Suite di rapporti virtuali e considerazioni sull’assegnazione di tag a più suite
-feature: Impostazioni di Suite di rapporti
-uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
+feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1751'
 ht-degree: 0%
 
 ---
@@ -16,13 +15,13 @@ ht-degree: 0%
 
 Le suite di rapporti virtuali (VRS, Virtual Report Suite) consentono di visualizzare i dati di una suite di rapporti che raccoglie dati dalle proprietà digitali, ma con un segmento applicato in modo permanente.
 
-In molti casi, puoi utilizzare suite di rapporti virtuali per sostituire l’assegnazione tag a più suite. Il passaggio alle suite di rapporti virtuali può rimuovere efficacemente la necessità di [chiamate server secondarie](/help/admin/c-server-call-usage/overage-overview.md). Ad esempio, la tua organizzazione dispone di 6 siti web diversi, ognuno dei quali invia dati alla propria suite di rapporti e a una suite di rapporti globale combinata. Ogni sito effettua una chiamata server secondaria; una alla singola suite di rapporti del marchio e una seconda alla suite di rapporti globale. Puoi invece inviare dati da tutti i siti esclusivamente alla suite di rapporti globale, quindi utilizzare più suite di rapporti virtuali per separare ogni marchio.
+In molti casi, puoi utilizzare suite di rapporti virtuali per sostituire l’assegnazione tag a più suite. Il passaggio alle suite di rapporti virtuali consente di eliminare efficacemente la necessità di [chiamate server secondarie](/help/admin/c-server-call-usage/overage-overview.md). Ad esempio, la tua organizzazione dispone di 6 siti web diversi, ognuno dei quali invia dati alla propria suite di rapporti e a una suite di rapporti globale combinata. Ogni sito effettua una chiamata server secondaria; una alla singola suite di rapporti del marchio e una seconda alla suite di rapporti globale. Puoi invece inviare dati da tutti i siti esclusivamente alla suite di rapporti globale, quindi utilizzare più suite di rapporti virtuali per separare ogni marchio.
 
 La sostituzione dell’assegnazione tag a più suite con una suite di rapporti globale e una VRS consente di semplificare l’implementazione di Adobe Analytics e di ridurre il consumo di chiamate al server, ed è consigliata come best practice. Tuttavia, esistono alcune limitazioni importanti della VRS da considerare. Le seguenti linee guida possono aiutarti a decidere se implementare suite di rapporti virtuali create su una suite di rapporti globale è l’approccio giusto per te.
 
 ## Linee guida
 
-Se non sei sicuro se i casi d’uso descritti sono applicabili a te e alla tua organizzazione, consulta gli altri amministratori di Adobe Analytics o il tuo account manager di Adobe. Possono aiutare a valutare le tue esigenze aziendali e a formulare un consiglio.
+Se non sei sicuro se i casi d’uso descritti sono applicabili a te e alla tua organizzazione, consulta gli altri amministratori di Adobe Analytics o il tuo account manager di Adobe. Possono aiutare a valutare le esigenze aziendali e a formulare un consiglio.
 
 Quando stabilisci se devi utilizzare tag per più suite o suite di rapporti virtuali, prendi in considerazione le seguenti considerazioni:
 
@@ -36,11 +35,11 @@ I segmenti non possono ancora essere pubblicati in Adobe Experience Cloud da una
 
 I rapporti in tempo reale non sono supportati nelle suite di rapporti virtuali, perché i dati sono segmentati. I dati correnti non sono supportati anche nelle suite di rapporti virtuali, in quanto non supportano la segmentazione. Entrambe queste funzioni sono specifiche di Reports &amp; Analytics.
 
-[I ](/help/admin/admin/realtime/t-realtime-admin.md) rapporti in tempo reale e i  [dati ](/help/technotes/latency.md) correnti non sono disponibili nelle suite di rapporti virtuali. Questo influisce sugli utenti che rispondono alle tendenze osservate in Reports &amp; Analytics in pochi secondi o minuti dalla raccolta dei dati. Ad esempio, potrebbe includere gli editori in una newsroom che modificano i titoli in base al consumo di contenuti in tempo reale. Prendi in considerazione l’utilizzo di tag per più suite se hai esigenze di dati in tempo reale significative e specifiche per le singole suite di rapporti. I dati in tempo reale e correnti possono ancora essere utilizzati nella suite di rapporti globale.
+[Rapporti in tempo reale](/help/admin/admin/realtime/t-realtime-admin.md) e [Dati correnti](/help/technotes/latency.md) non sono disponibili nelle suite di rapporti virtuali. Questo influisce sugli utenti che rispondono alle tendenze osservate in Reports &amp; Analytics in pochi secondi o minuti dalla raccolta dei dati. Ad esempio, potrebbe includere gli editori in una newsroom che modificano i titoli in base al consumo di contenuti in tempo reale. Prendi in considerazione l’utilizzo di tag per più suite se hai esigenze di dati in tempo reale significative e specifiche per le singole suite di rapporti. I dati in tempo reale e correnti possono ancora essere utilizzati nella suite di rapporti globale.
 
 ### Limiti univoci
 
-Se disponi di una suite di rapporti globale che combina un numero elevato di siti, è possibile che venga eseguito frequentemente nell&#39;elemento di riga [traffico ridotto](/help/technotes/low-traffic.md). Se utilizzi l’assegnazione tag a più suite, si tratta solo di un problema per la suite di rapporti globale (le singole suite di rapporti potrebbero avere meno probabilità di visualizzare traffico ridotto). Se utilizzi suite di rapporti virtuali, vengono condivisi limiti univoci, causando la visualizzazione di traffico limitato anche nelle singole suite di rapporti. Prendi in considerazione l’utilizzo di tag per più suite se desideri evitare il bucketing dei dati in traffico ridotto.
+Se disponi di una suite di rapporti globale che combina un numero elevato di siti, è possibile eseguire [traffico ridotto](/help/technotes/low-traffic.md) riga frequente. Se utilizzi l’assegnazione tag a più suite, si tratta solo di un problema per la suite di rapporti globale (le singole suite di rapporti potrebbero avere meno probabilità di visualizzare traffico ridotto). Se utilizzi suite di rapporti virtuali, vengono condivisi limiti univoci, causando la visualizzazione di traffico limitato anche nelle singole suite di rapporti. Prendi in considerazione l’utilizzo di tag per più suite se desideri evitare il bucketing dei dati in traffico ridotto.
 
 Ad esempio, una grande organizzazione multimediale possiede 100 proprietà web. Ogni proprietà pubblica qualche migliaio di articoli al mese, oltre ad ospitare tutti gli articoli dei mesi precedenti. Questa organizzazione utilizza una suite di rapporti globale in cui eVar1 è &quot;Nome articolo&quot;. In questo rapporto, ci sono circa 4 milioni di nomi di articolo unici ogni mese dalle varie proprietà combinate. Se utilizzi una suite di rapporti virtuale, i primi 500.000 valori che costituiscono la maggior parte del traffico sono inclusi nelle suite di rapporti virtuali; i restanti 3,5 milioni sono inclusi nella categoria traffico limitato. Se utilizzi l’assegnazione tag a più suite, ogni singola suite di rapporti può visualizzare i propri valori principali di 500.000. I limiti univoci della suite di rapporti globali sono gli stessi tra l’utilizzo di tag con più suite e le suite di rapporti virtuali.
 
@@ -52,11 +51,11 @@ Le suite di rapporti virtuali non dispongono di un proprio set di dimensioni e m
 
 Un sito diverso ha esigenze di implementazione diverse. Alcune dimensioni ed eventi possono essere condivisi tra due siti. Ad esempio, una registrazione e-mail può utilizzare lo stesso evento su più siti web, attivando lo stesso evento personalizzato. Altre dimensioni possono essere specifiche per un sito. Ad esempio, solo uno dei tuoi siti può modificare la propria immagine del profilo. Questo evento personalizzato verrebbe implementato solo sul sito web che lo supporta.
 
-Assicurati che il numero di dimensioni e metriche univoche possa essere incluso in una singola suite di rapporti globale. Se trovi troppe dimensioni o metriche univoche, controlla ogni dimensione all’interno di ogni implementazione. È probabile che vi siano sovrapposizioni e dimensioni che non sono fondamentali per il successo aziendale. Considera anche l&#39;utilizzo di [classificazioni](/help/components/classifications/c-classifications.md). Ad esempio, invece di acquisire &quot;Product Name&quot; in eVar5, crea una classificazione &quot;Product Name&quot; basata sulla dimensione &quot;Product&quot;. Le classificazioni in una suite di rapporti sorgente sono automaticamente disponibili per tutte le suite di rapporti virtuali dipendenti.
+Assicurati che il numero di dimensioni e metriche univoche possa essere incluso in una singola suite di rapporti globale. Se trovi troppe dimensioni o metriche univoche, controlla ogni dimensione all’interno di ogni implementazione. È probabile che vi siano sovrapposizioni e dimensioni che non sono fondamentali per il successo aziendale. Considera l&#39;utilizzo di [classificazioni](/help/components/classifications/c-classifications.md) anche. Ad esempio, invece di acquisire &quot;Product Name&quot; in eVar5, crea una classificazione &quot;Product Name&quot; basata sulla dimensione &quot;Product&quot;. Le classificazioni in una suite di rapporti sorgente sono automaticamente disponibili per tutte le suite di rapporti virtuali dipendenti.
 
 >[!TIP]
 >
->Con l’introduzione di [curation](/help/analyze/analysis-workspace/curate-share/curate.md), puoi modificare il nome di una data dimensione o metrica in base a VRS.
+>Con l&#39;introduzione di [cura](/help/analyze/analysis-workspace/curate-share/curate.md), puoi modificare il nome di una data dimensione o metrica in base a VRS.
 
 ### Sfumature di segmentazione
 
@@ -80,11 +79,11 @@ I feed di dati consentono di ricevere un’esportazione giornaliera o oraria di 
 
 Alcune integrazioni dei partner di Adobe in Adobe Analytics sono limitate a un account partner per suite di rapporti. Alcune organizzazioni potrebbero richiedere più account partner per la stessa integrazione.
 
-Ad esempio, è consentito un solo Google DCM per suite di rapporti. Molte aziende dispongono di più account DCM, che consentono a marchi, business unit e aree geografiche diversi di gestire i propri annunci display separatamente l&#39;uno dall&#39;altro. Impossibile configurare le integrazioni nelle suite di rapporti virtuali. Se disponi di connettori dati dipendenti con più account, puoi utilizzare l’assegnazione tag a più suite.
+Ad esempio, è consentito un solo DCM Google per suite di rapporti. Molte aziende dispongono di più account DCM, che consentono a marchi, business unit e aree geografiche diversi di gestire i propri annunci display separatamente l&#39;uno dall&#39;altro. Impossibile configurare le integrazioni nelle suite di rapporti virtuali. Se disponi di connettori dati dipendenti con più account, puoi utilizzare l’assegnazione tag a più suite.
 
 ### Riepilogo origini dati
 
-Le origini dati di riepilogo consentono di importare metriche aggregate in Adobe Analytics a livello di suite di rapporti. Poiché i caricamenti di origine dati di riepilogo contengono metriche aggregate *senza un ID visitatore*, non possono essere segmentati nei contenitori [!UICONTROL Visit] e [!UICONTROL Visitor]. Poiché le VRS funzionano utilizzando la segmentazione, i dati importati utilizzando origini dati di riepilogo non saranno disponibili nelle suite di rapporti virtuali se il segmento viene generato utilizzando un contenitore Visita o Visitatore.
+Le origini dati di riepilogo consentono di importare metriche aggregate in Adobe Analytics a livello di suite di rapporti. Poiché i caricamenti di origini dati di riepilogo contengono metriche aggregate *senza un ID visitatore*, non possono essere segmentati in [!UICONTROL Visit] e [!UICONTROL Visitor] contenitori. Poiché le VRS funzionano utilizzando la segmentazione, i dati importati utilizzando origini dati di riepilogo non saranno disponibili nelle suite di rapporti virtuali se il segmento viene generato utilizzando un contenitore Visita o Visitatore.
 
 Le origini dati di riepilogo vengono visualizzate nella suite di rapporti virtuali se viene utilizzato un contenitore Hit e se tale contenitore Hit dispone di regole condizionate per includere le informazioni sull’origine dati.
 
@@ -98,7 +97,7 @@ Se si sceglie di rimuovere le chiamate al server secondario a favore delle suite
 
 1. Crea suite di rapporti virtuali per farli corrispondere ai dati presenti nelle suite di rapporti figlio. Segmento su una dimensione personalizzata che distingue i siti tra loro.
    * Se esegui la migrazione da un’implementazione con tag multi-suite esistente, confronta i segmenti della suite di rapporti virtuali con le suite di rapporti figlio esistenti. È necessario assicurarsi che i dati siano confrontabili prima di spostare gli utenti nella suite di rapporti virtuali.
-   * Come best practice, considera l’utilizzo di [stack di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) in modo da poter modificare un segmento in un’unica posizione e applicarlo a tutte le suite di rapporti virtuali dipendenti.
+   * Come best practice, considera l’utilizzo di [sovrapposizione segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) puoi modificare un segmento in una posizione e applicarlo a tutte le suite di rapporti virtuali dipendenti.
    * Utilizza i contenitori hit per mantenere le suite di rapporti virtuali più esclusive tra loro.
 2. Dopo aver confermato che le suite di rapporti virtuali sono configurate correttamente, rimuovi gli ID della suite di rapporti secondari dall’implementazione. Per rimuovere le suite di rapporti secondarie:
    * Nell’interfaccia utente di raccolta dati di Adobe Experience Platform, fai clic sulla x accanto a qualsiasi suite di rapporti che non desideri più utilizzare.

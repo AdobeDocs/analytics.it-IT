@@ -1,8 +1,9 @@
 ---
 title: Tempo precedente all’evento
 description: Il tempo tra la metrica e il primo hit della visita.
+feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 5%
@@ -19,4 +20,4 @@ Questa dimensione funziona tecnicamente come standard per tutte le implementazio
 
 ## Elementi Dimension
 
-Gli elementi di Dimension includono bucket basati sul tempo che vanno da `"Less than 1 minute"` a `"More than 15 hours"`. Ad esempio, se ci sono voluti 23 minuti dal primo hit per un acquisto, il visitatore deve appartenere all’elemento della dimensione `"10 to 30 minutes"` . Impossibile personalizzare i bucket per questa metrica.
+Gli elementi di Dimension includono bucket basati sul tempo che vanno da `"Less than 1 minute"` a `"More than 15 hours"`. Ad esempio, se un visitatore impiegava 23 minuti dal suo primo hit a un acquisto, apparirebbe sotto il `"10 to 30 minutes"` elemento dimensione. Impossibile personalizzare i bucket per questa metrica.

@@ -1,14 +1,14 @@
 ---
 title: Best practice di segmentazione
 description: Crea segmenti ottimali in grado di restituire i dati in modo efficiente.
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+feature: Segmentation
+exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
 ---
-
 
 # Best practice di segmentazione
 

@@ -1,8 +1,9 @@
 ---
 title: Panoramica delle dimensioni
 description: Variabili che contengono valori stringa.
+feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 3%
@@ -11,7 +12,7 @@ ht-degree: 3%
 
 # Panoramica delle dimensioni
 
-I Dimension sono variabili in Adobe Analytics che in genere contengono valori stringa. Le dimensioni comuni includono [Pagina](page.md), [Dominio di riferimento](referring-domain.md) o un [eVar](evar.md). Al contrario, [metriche](../metrics/overview.md) contengono valori numerici che si legano a una dimensione. Un rapporto di base mostra righe di valori stringa (dimensione) rispetto a una colonna di valori numerici (metrica).
+I Dimension sono variabili in Adobe Analytics che in genere contengono valori stringa. Le dimensioni comuni includono [Pagina](page.md), [Dominio di riferimento](referring-domain.md)o [eVar](evar.md). Al contrario, [metriche](../metrics/overview.md) contengono valori numerici che si legano a una dimensione. Un rapporto di base mostra righe di valori stringa (dimensione) rispetto a una colonna di valori numerici (metrica).
 
 Ad esempio, se hai combinato la dimensione &quot;Pagina&quot; con la metrica &quot;Visite&quot;, riceverai un rapporto di classifica che mostra le pagine più visitate:
 

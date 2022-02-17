@@ -2,13 +2,11 @@
 description: Scopri come specificare la scadenza del coinvolgimento del visitatore nei canali di marketing.
 subtopic: Marketing channels
 title: Scadenza del canale di marketing
-feature: Nozioni di base su Reports & Analytics
-uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
+feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
-translation-type: tm+mt
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 3%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, ne abbiamo pubblicati alcuni [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Scopri come specificare la scadenza, o il periodo di coinvolgimento del visitatore, per i canali di marketing.
 

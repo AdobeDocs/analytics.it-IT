@@ -1,9 +1,9 @@
 ---
 description: Il Generatore di metriche calcolate fornisce un’area di lavoro per trascinare Dimension, metriche, segmenti e funzioni per creare metriche personalizzate basate sulla logica gerarchica dei contenitori, sulle regole e sugli operatori. Questo strumento di sviluppo integrato consente di generare e salvare semplici metriche calcolate o metriche calcolate avanzate complesse.
 title: Creare metriche
-uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
+feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 10%
@@ -16,12 +16,12 @@ Il Generatore di metriche calcolate fornisce un’area di lavoro per trascinare 
 
 Esistono diversi modi per accedere al Generatore di metriche calcolate:
 
-* In Analysis Workspace, apri un progetto e fai clic su **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
+* In Analysis Workspace, apri un progetto e fai clic su  **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
 * In [!DNL Analytics], vai a **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
 
-* Fai clic su **[!UICONTROL + Add]** nella parte superiore del [Gestore della metrica calcolata](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) oppure
+* Fai clic su **[!UICONTROL + Add]** nella parte superiore del [Gestore della metrica calcolata](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)oppure
 
-* Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, apri un rapporto e fai clic sull’icona Metriche ![](assets/metrics_icon.png) per visualizzare la barra Metriche, quindi fai clic su **[!UICONTROL Add]**.
+* Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, apri un rapporto e fai clic sull’icona Metriche  ![](assets/metrics_icon.png) per visualizzare la barra Metriche , fai clic su **[!UICONTROL Add]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -48,11 +48,11 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
    <td colname="col3"> <p>Le scelte includono Decimale, Tempo, Percentuale e Valuta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Luoghi decimali  </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Luoghi decimali </span> </td> 
    <td colname="col3"> <p>Mostra il numero di posizioni decimali da visualizzare nel rapporto. Il numero massimo di posizioni decimali è 10. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Mostra tendenza verso l'alto come..  </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Mostra tendenza verso l'alto come.. </span> </td> 
    <td colname="col3"> <p>Questa impostazione di polarità della metrica indica se Analytics deve considerare una tendenza al rialzo nella metrica buona (verde) o cattiva (rossa). Di conseguenza, il grafico del rapporto sarà visualizzato in verde o rosso quando cresce. </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Riepilogo </span> </td> 
-   <td colname="col3"> <p>La formula <span class="uicontrol"> Riepilogo </span> viene aggiornata ogni volta che apporti una modifica alla definizione della metrica. Questa formula viene visualizzata anche nella barra delle metriche a sinistra quando passi il cursore su una metrica e fai clic sull'icona <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> . </p> </td> 
+   <td colname="col3"> <p>La <span class="uicontrol"> Riepilogo </span> La formula viene aggiornata ogni volta che apporti una modifica alla definizione della metrica. Questa formula viene visualizzata anche nella barra delle metriche a sinistra quando passi il cursore su una metrica e fai clic sul pulsante <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> icona. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Definizione </span> </td> 
@@ -86,8 +86,8 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
    <td colname="col3"> <p>Fornisce una lettura rapida di eventuali errori. L’anteprima copre gli ultimi 90 giorni. Questo è un modo per verificare inizialmente se hai selezionato i componenti giusti per la metrica. Un risultato imprevisto implica la necessità di dare un'occhiata alla definizione della metrica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Compatibilità del prodotto  </span> </td> 
-   <td colname="col3"> <p>La compatibilità del prodotto mostra se la metrica è compatibile con i <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > dati correnti </a>, con i dati completamente elaborati o solo con i rapporti sul canale di marketing (allocazione primo contatto). <p>Nota:  I dati correnti non supportano tutte le metriche. Le metriche che contengono segmenti o funzioni non sono compatibili con i dati correnti. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Altro... </a> </p> </p> </td> 
+   <td colname="col2"> <span class="uicontrol"> Compatibilità del prodotto </span> </td> 
+   <td colname="col3"> <p>La compatibilità del prodotto mostra se la metrica è compatibile con <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > Dati correnti </a>, con dati completamente elaborati o solo con rapporti sul canale di marketing (allocazione primo contatto). <p>Nota: I dati correnti non supportano tutte le metriche. Le metriche che contengono segmenti o funzioni non sono compatibili con i dati correnti. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Altro... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Add </span> </td> 
@@ -99,12 +99,12 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> Icona a forma di ruota dentata ( <span class="uicontrol"> Tipo di metrica </span>, <span class="uicontrol"> Attribuzione </span>) </td> 
-   <td colname="col3"> <p>Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specificare il tipo di metrica <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > e i modelli di attribuzione </a>. </p> </td> 
+   <td colname="col2"> Icona ingranaggio ( <span class="uicontrol"> Tipo di metrica </span>, <span class="uicontrol"> Attribuzione </span>) </td> 
+   <td colname="col3"> <p>Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specificare la <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > tipo di metrica e modelli di attribuzione </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + Nuovo </span> </td> 
-   <td colname="col3"> <p>Consente di creare un nuovo componente, ad esempio un nuovo segmento (che ti porta al <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Generatore di segmenti </a>). </p> </td> 
+   <td colname="col3"> <p>Consente di creare un nuovo componente, ad esempio un nuovo segmento (che ti porta al <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Generatore di segmenti </a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Componenti di ricerca </p> </td> 
@@ -120,7 +120,7 @@ Esistono diversi modi per accedere al Generatore di metriche calcolate:
     <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
      <li id="li_90F2312927A6499CA1CE04F8FFC912CF">Metriche standard ( <img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
      <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">Metriche calcolate ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
-     <li id="li_8735E76637ED4C3F983731A66E04C93E">Modelli di metriche ( <img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />) - in fondo all’elenco. </li> 
+     <li id="li_8735E76637ED4C3F983731A66E04C93E">Modelli di metriche ( <img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />) - in fondo all'elenco. </li> 
     </ul> <p>Quando passi il puntatore del mouse su una metrica, puoi vedere l’icona Informazioni a destra: <img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Fai clic su questa icona per ottenere le seguenti informazioni: </p> 
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
      <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">La formula di calcolo. </li> 

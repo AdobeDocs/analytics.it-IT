@@ -1,14 +1,12 @@
 ---
 description: Come caricare i file di dati tramite FTP.
-subtopic: Classifications
 title: Importazione FTP
-feature: Strumenti di amministrazione
-uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
+feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 5%
+source-wordcount: '693'
+ht-degree: 4%
 
 ---
 
@@ -45,16 +43,16 @@ Prima di caricare i dati tramite FTP, crea un account FTP. Per ulteriori informa
 
 Passaggi che descrivono come utilizzare un account FTP per importare classificazioni in Adobe Analytics.
 
-Per ulteriori informazioni sulla creazione di un account FTP, consulta [Creare un account FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Per ulteriori informazioni sulla creazione di un account FTP, vedi [Creare un account FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Fai clic su **[!UICONTROL Import File]**, quindi su **[!UICONTROL FTP Import]**.
 1. Accanto all&#39;account FTP che desideri utilizzare, fai clic su **[!UICONTROL View]**.
 1. Utilizza le informazioni di accesso FTP (Host, Accesso, Password) per accedere al server FTP utilizzando un client FTP scelto.
-1. Carica il file di dati ( [!DNL .tab] o [!DNL .txt]) sul server FTP.
+1. Carica il file di dati ( [!DNL .tab] o [!DNL .txt]) al server FTP.
 1. Dopo aver caricato il file di dati, carica un file FIN che indica che il file è pronto per l&#39;elaborazione.
 
-   Il file FIN è un file vuoto con lo stesso nome del file di dati, con estensione del nome del file [!DNL .fin]. Ad esempio, se il file di dati è [!DNL classdata1.tab], il nome del file FIN è [!DNL classdata1.fin].
+   Il file FIN è un file vuoto con lo stesso nome del file di dati, con un [!DNL .fin] estensione del nome file. Ad esempio, se il file di dati è [!DNL classdata1.tab], il nome del file FIN è [!DNL classdata1.fin].
 
 A intervalli regolari, Adobe recupera i file di dati caricati con un file FIN associato. Adobe li importa nelle suite di rapporti e nei set di dati specificati nella configurazione dell’account FTP.
 
@@ -62,7 +60,7 @@ A intervalli regolari, Adobe recupera i file di dati caricati con un file FIN as
 
 Prima di caricare i dati tramite FTP, crea un account FTP. >
 
-Per ulteriori informazioni sui server FTP Adobe, consulta [FTP e sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html) .
+Vedi [FTP e sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html) per ulteriori informazioni sui server FTP di Adobe.
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Fai clic su **[!UICONTROL Import File]**, quindi su **[!UICONTROL FTP Import]**.

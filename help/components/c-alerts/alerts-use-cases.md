@@ -1,15 +1,14 @@
 ---
 description: Casi di utilizzo per la creazione e la gestione degli avvisi intelligenti.
 title: 'Avvisi intelligenti: casi di utilizzo'
-uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Alerts
+exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 90%
 
 ---
-
 
 # Avvisi intelligenti: casi di utilizzo
 
@@ -38,4 +37,3 @@ Il generatore di avvisi viene immediatamente compilato per creare un avviso con 
 Gli avvisi possono essere combinati in modo da evitare di ricevere troppi avvisi distinti.
 
 ![](assets/alerts_example2.png)
-

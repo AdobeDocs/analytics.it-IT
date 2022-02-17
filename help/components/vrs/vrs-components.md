@@ -1,9 +1,9 @@
 ---
 description: È possibile curare le suite di rapporti virtuali per includere ed escludere i componenti in Analysis Workspace.
 title: Cura dei componenti di suite di rapporti virtuali
-uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
+feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 12%
@@ -20,12 +20,12 @@ Ecco un video sulla cura dei componenti:
 
 >[!NOTE]
 >
->Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. In precedenza, chiunque poteva vedere i componenti non curati facendo clic su **[!UICONTROL Show all Components]**. L’ [esperienza di cura aggiornata](/help/analyze/analysis-workspace/curate-share/curate.md) consente un controllo più dettagliato sui componenti visibili.
+>Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. In precedenza, chiunque poteva vedere i componenti non curati facendo clic su **[!UICONTROL Show all Components]**. La [esperienza di cura aggiornata](/help/analyze/analysis-workspace/curate-share/curate.md) consente un controllo più dettagliato sui componenti visibili.
 
 Per abilitare la cura dei componenti,
 
 1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
-1. Dopo aver definito la **[!UICONTROL Settings]**, fai clic sulla scheda **[!UICONTROL Components]** .
+1. Dopo aver definito la **[!UICONTROL Settings]**, fai clic su **[!UICONTROL Components]** scheda .
 
 1. Seleziona la casella di controllo **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
 
@@ -33,7 +33,7 @@ Per abilitare la cura dei componenti,
 
    >[!NOTE]
    >
-   >Se è abilitata la personalizzazione dei componenti, la suite di rapporti virtuali è accessibile **solo in Analysis Workspace** e non è accessibile nei seguenti elementi:
+   >Se è abilitata la personalizzazione dei componenti, la suite di rapporti virtuali è accessibile **Solo in Analysis Workspace** e non è accessibile nei seguenti elementi:
    >
    >* [!UICONTROL Reports & Analytics]
    >* [!UICONTROL Data Warehouse]
@@ -51,7 +51,7 @@ Per abilitare la cura dei componenti,
 
    >[!NOTE]
    >
-   >Non è necessario *condividere* componenti curati (segmenti, metriche calcolate, intervalli di date). Saranno sempre visibili in Analysis Workspace se sono curati per la suite di rapporti virtuali, anche se non sono condivisi.
+   >Non è necessario *share* componenti curati (segmenti, metriche calcolate, intervalli di date). Saranno sempre visibili in Analysis Workspace se sono curati per la suite di rapporti virtuali, anche se non sono condivisi.
 
 1. Inoltre, puoi filtrare o cercare i componenti e aggiungere l’intera selezione filtrata alla colonna inclusa facendo clic su **[!UICONTROL Add All]**.
 
@@ -75,4 +75,4 @@ Utilizza i gruppi di componenti per aggiungere componenti in massa alla suite di
 
 ## Comportamento di Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Per ulteriori informazioni sulla cura in Analysis Workspace, consulta [Cura e condivisione di un progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
+Per ulteriori informazioni sulla cura in Analysis Workspace, vedi [Cura e condivisione di un progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
