@@ -1,8 +1,9 @@
 ---
 title: IP e domini utilizzati da Adobe Analytics
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP derivanti dall’Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
+feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 3%
@@ -112,7 +113,7 @@ Se la tua organizzazione preferisce consentire intervalli di indirizzi IP specif
 
 ## Host AWS
 
-Adobe Analytics utilizza Amazon Web Services come parte del processo di raccolta dei dati. La tabella seguente include gli host AWS riservati ad Adobe. Questi host sono **non** inclusi nell&#39;intervallo di blocchi aggregati riportato sopra.
+Adobe Analytics utilizza Amazon Web Services come parte del processo di raccolta dei dati. La tabella seguente include gli host AWS riservati ad Adobe. Questi host sono **not** incluso nell’intervallo di blocchi aggregati di cui sopra.
 
 | Posizione | Host |
 | --- | --- |

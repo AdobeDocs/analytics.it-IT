@@ -3,9 +3,9 @@ description: Scopri i vantaggi e i vincoli dell’utilizzo dell’impostazione M
 keywords: Implementazione di Analytics
 title: Utilizzo dei timestamp opzionali
 topic-fix: Developer and implementation
-uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
+feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 16%

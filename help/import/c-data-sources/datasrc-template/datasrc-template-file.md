@@ -3,10 +3,9 @@ description: Informazioni sul modello Origini dati, che forniscono un framework 
 subtopic: Data sources
 title: Panoramica modello Origini dati
 topic-fix: Developer and implementation
-uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
+feature: Data Sources
 exl-id: d3122582-d392-4bd9-af2a-fb3d1292ba66
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 77%
@@ -32,6 +31,6 @@ Ad esempio, per un tipo di dati ID visitatore, puoi aggiungere una colonna per q
 
 Una volta creato, puoi scaricare il modello, inserire i dati nel modello, quindi caricare i dati sul sito FTP Origini dati. Una volta elaborati dal server Origini dati, i dati importati sono disponibili per l&#39;uso nei rapporti di marketing.
 
-Il modello Origine dati è un file [!DNL .txt] che puoi aprire con qualsiasi editor di testo. Tuttavia, è più semplice lavorare con il modello utilizzando Microsoft Excel o un&#39;altra applicazione di fogli di calcolo. Il contenuto del modello varia in base alle selezioni effettuate in [!UICONTROL Data Source Activation Wizard].
+Il modello Origine dati è un [!DNL .txt] file che puoi aprire con qualsiasi editor di testo. Tuttavia, è più semplice lavorare con il modello utilizzando Microsoft Excel o un&#39;altra applicazione di fogli di calcolo. Il contenuto del modello varia in base alle selezioni nella [!UICONTROL Data Source Activation Wizard].
 
-Per ulteriori informazioni, consulta [Riferimento file di importazione](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) .
+Vedi [Riferimento file di importazione](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) per ulteriori dettagli.

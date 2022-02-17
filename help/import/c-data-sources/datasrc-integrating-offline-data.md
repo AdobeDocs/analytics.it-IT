@@ -3,9 +3,9 @@ description: Origini dati offre due modi aggiuntivi per integrare gli eventi che
 subtopic: Data sources
 title: Integrazione transazione e cliente
 topic-fix: Developer and implementation
-uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 69%
@@ -42,7 +42,7 @@ Per verificare se la Registrazione ID transazione è abilitata, passa a **[!UICO
 
 ![](assets/transaction-ID-recording-active.png)
 
-La scheda [!UICONTROL Manage] visualizza lo stato della Registrazione ID transazione.
+La [!UICONTROL Manage] visualizza lo stato della Registrazione ID transazione.
 
 ## Integrazione cliente {#section_9F4AAD710D2543BDA834090A98115FBF}
 
@@ -65,4 +65,4 @@ Il cliente è spesso anonimo quando passa da online a offline.
 
 Gli eventi ID transazione non sono inclusi nelle metriche Partecipazione visita (mostrate nei rapporti di marketing). Questo perché i dati ID transazione non sono associati a una visita (perché l’evento offline di solito non fa parte dell’evento online), ma sono associati al visitatore.
 
-Vedere [ID transazione](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+Vedi [ID transazione](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

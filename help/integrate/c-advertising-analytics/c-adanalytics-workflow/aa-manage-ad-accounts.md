@@ -1,19 +1,18 @@
 ---
 description: Gestisci gli account in Advertising Analytics.
 title: Gestire gli account pubblicitari
-uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Advertising Analytics
+exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 11%
 
 ---
 
-
 # Gestire gli account pubblicitari
 
-Per accedere all’interfaccia utente di gestione, passa a **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
+Per accedere all’interfaccia utente di gestione, vai a **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 
 ![](assets/manage_ad_accounts.png)
 
@@ -27,11 +26,11 @@ Per accedere all’interfaccia utente di gestione, passa a **[!UICONTROL Admin]*
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Azioni</b> </p> </td> 
-   <td colname="col2"> <p><b>Nota: Le azioni vengono visualizzate solo se hai selezionato almeno un account pubblicitario.  </b> </p> </td> 
+   <td colname="col2"> <p><b>Nota: Le azioni vengono visualizzate solo se hai selezionato almeno un account pubblicitario. </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Add </p> </td> 
-   <td colname="col2"> <p>Consente di accedere all’ interfaccia utente <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > Set Up Advertising Account</a> . </p> </td> 
+   <td colname="col2"> <p>Ti porta al <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > Configurare l’account Advertising</a> Interfaccia utente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rinomina </p> </td> 
@@ -43,7 +42,7 @@ Per accedere all’interfaccia utente di gestione, passa a **[!UICONTROL Admin]*
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pausa </p> </td> 
-   <td colname="col2"> <p>Disattiva l’account. Per attivarlo nuovamente, fare clic su <span class="uicontrol"> Attiva</span>. </p> </td> 
+   <td colname="col2"> <p>Disattiva l’account. Per riattivarlo, fai clic su <span class="uicontrol"> Attiva</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Intestazioni colonna</b> </p> </td> 
@@ -79,4 +78,3 @@ Per accedere all’interfaccia utente di gestione, passa a **[!UICONTROL Admin]*
   </tr> 
  </tbody> 
 </table>
-

@@ -1,100 +1,100 @@
 ---
-title: Rapporti sulle conversioni in Adobe  Analytics
-description: Scoprite come utilizzare i rapporti sulle conversioni in Adobe  Analytics.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+title: Rapporti sulle conversioni in Adobe Analytics
+description: Scopri come utilizzare i rapporti sulle conversioni in Adobe Analytics.
+feature: Third-party Integration
+exl-id: 315b7dc0-1cd9-4beb-8203-88e205375f84
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 0%
 
 ---
 
-
 # Rapporti sulle conversioni
 
-Una &quot;conversione&quot; è un&#39;azione eseguita da un visitatore sul sito che si traduce direttamente negli indicatori chiave dell&#39;organizzazione. I rapporti sulle conversioni mostrano i dettagli sulla modalità di conversione dei visitatori.
+Una &quot;conversione&quot; è un’azione eseguita da un visitatore sul tuo sito che si traduce direttamente negli indicatori chiave della tua organizzazione. I rapporti sulle conversioni mostrano dettagli sulla modalità di conversione dei visitatori.
 
-Questa pagina presuppone che l&#39;utente disponga di conoscenze di base sull&#39;utilizzo  Analysis Workspace. Consultate [Creare un rapporto di base in  Analysis Workspace per gli utenti](create-report.md) di Google  Analytics se non avete ancora familiarità con lo strumento in Adobe  Analytics.
+Questa pagina presuppone che l’utente abbia una conoscenza di base dell’utilizzo di Analysis Workspace. Vedi [Creare un rapporto di base in Analysis Workspace per gli utenti di Google Analytics](create-report.md) se non hai ancora familiarità con lo strumento in Adobe Analytics.
 
-## Obiettivi, rapporti
+## Rapporti sugli obiettivi
 
-Gli obiettivi forniscono agli utenti di Google  Analytics un modo per definire la conversione di un sito Web. Sono il modo predefinito per creare funnel, invertire il flusso comportamentale, funnel multicanale e l&#39;attribuzione. Gli obiettivi in Google  Analytics non sono retroattivi e possono essere impostati solo sulla pagina di amministrazione. Inoltre, si basano solo su una pagina, un evento, il tempo trascorso o il numero medio di pagine.
+Gli obiettivi forniscono agli utenti Google Analytics un modo per definire la conversione di un sito web. Sono il modo predefinito per creare funnel, flusso comportamentale inverso, funnel multicanale e attribuzione. Gli obiettivi in Google Analytics non sono retroattivi e possono essere impostati solo nella pagina di amministrazione. Inoltre, si basano solo su una pagina, un evento, un tempo trascorso o un numero medio di pagine.
 
-In Adobe  Analytics, il concetto di obiettivo non è richiesto perché le metriche possono essere applicate in qualsiasi contesto. Fintanto che l&#39;implementazione include gli eventi da monitorare, puoi modificare qualsiasi rapporto di conversione e ottenere immediatamente risultati per i dati storici.
+In Adobe Analytics, il concetto di obiettivo non è necessario perché le metriche possono essere applicate in qualsiasi contesto. Finché l’implementazione gestisce gli eventi di cui desideri tenere traccia, puoi modificare qualsiasi rapporto di conversione e ottenere immediatamente i risultati per i dati storici.
 
 ### Visualizzazione funnel
 
-Il rapporto di visualizzazione funnel aiuta gli analisti a concentrarsi su una serie particolare di passaggi necessari per la conversione. Ad esempio, prima di effettuare un acquisto, un visitatore su un sito di eCommerce dovrà accedere al carrello, alla pagina di fatturazione e spedizione, alla pagina di pagamento e alla pagina di revisione dell&#39;ordine.
+Il rapporto di visualizzazione funnel aiuta gli analisti a concentrarsi su una particolare serie di passaggi necessari per la conversione. Ad esempio, prima di effettuare un acquisto, un visitatore su un sito di e-commerce deve accedere al carrello, alla pagina di fatturazione e spedizione, alla pagina di pagamento e alla pagina di revisione dell’ordine.
 
-In  Analysis Workspace, questi dati possono essere visualizzati mediante la visualizzazione Abbandono.
+In Analysis Workspace, questi dati possono essere visualizzati utilizzando la visualizzazione Abbandono.
 
-1. Fai clic sull’icona delle visualizzazioni a sinistra, quindi trascina una visualizzazione Abbandono nell’area di lavoro sopra la tabella a forma libera
-2. Fate clic sull’icona dei componenti a sinistra, quindi individuate la dimensione **Pagine** .
-3. Fate clic sull’icona freccia accanto alla dimensione Pagine per visualizzare i valori della pagina. Gli elementi dimensione sono colorati in giallo.
-4. Individua la pagina desiderata come primo punto di contatto e trascinala nello spazio con l’etichetta &quot;Aggiungi punto di contatto&quot; nella visualizzazione.
+1. Fai clic sull’icona delle visualizzazioni a sinistra e trascina una visualizzazione Abbandono nell’area di lavoro sopra la tabella a forma libera
+2. Fai clic sull’icona dei componenti a sinistra, quindi individua la **Pagine** dimensione.
+3. Fai clic sull’icona a forma di freccia accanto alla dimensione Pagine per visualizzare i valori della pagina. Gli articoli di Dimension sono di colore giallo.
+4. Individua la pagina desiderata come primo punto di contatto e trascinala nello spazio contrassegnato come &quot;Aggiungi punto di contatto&quot; nella visualizzazione.
 5. Continua ad aggiungere i punti di contatto desiderati trascinando i valori della pagina sulla visualizzazione.
 
-La visualizzazione Abbandono non è limitata alla sola dimensione Pagine. Qualsiasi dimensione, metrica o segmento può essere utilizzato per adattare il rapporto di abbandono alle esigenze della tua organizzazione.
+La visualizzazione Abbandono non è limitata alla sola dimensione Pagine . Puoi utilizzare qualsiasi dimensione, metrica o segmento per adattare il rapporto di fallout in base alle esigenze della tua organizzazione.
 
 ![Visualizzazione abbandono](/help/technotes/ga-to-aa/assets/fallout.png)
 
-## Rapporti eCommerce
+## Rapporti e-commerce
 
-I rapporti e-commerce sono generalmente utilizzati dai siti che vendono prodotti o servizi per misurare gli ordini e le entrate sugli articoli acquistati. Questa funzione è disponibile in Adobe  Analytics ed è nota come Rapporti sui prodotti.
+I rapporti e-commerce sono generalmente utilizzati dai siti che vendono prodotti o servizi per misurare gli ordini e i ricavi sugli articoli acquistati. Questa funzione è disponibile in Adobe Analytics ed è nota come Rapporti sui prodotti .
 
-Entrambi i rapporti e-commerce in Google  Analytics e i rapporti sui prodotti in Adobe  Analytics richiedono modifiche di implementazione personalizzate da utilizzare. Per ulteriori informazioni, consulta la dimensione [Prodotti](/help/components/dimensions/product.md) nella guida utente Componenti.
+Sia i rapporti e-commerce in Google Analytics che i rapporti sui prodotti in Adobe Analytics richiedono modifiche di implementazione personalizzate da utilizzare. Consulta la sezione [Prodotti](/help/components/dimensions/product.md) nella guida utente Componenti per ulteriori informazioni.
 
 ## Rapporti Funnel multicanale
 
-I report funnel multicanale forniscono dati aggiuntivi sui canali di marketing oltre a quelli forniti dai report di acquisizione. Questi rapporti si concentrano sul modo in cui i visitatori si convertono invece di quello in cui arrivano al sito.
+I rapporti funnel multicanale forniscono dati aggiuntivi sui canali di marketing oltre a quelli forniti dai rapporti di acquisizione. Questi rapporti si concentrano sul modo in cui i visitatori si convertono, anziché sul modo in cui i visitatori arrivano al tuo sito.
 
 >[!NOTE]
 >
-> L&#39;utilizzo di rapporti con più canali in Adobe  Analytics richiede sia l&#39;impostazione di Marketing Channels, sia un&#39;implementazione personalizzata per adattarla alla variabile &quot;products&quot; e all&#39;evento di acquisto. Adobe consiglia di lavorare con un consulente per l&#39;implementazione se queste funzioni non sono ancora configurate per la suite di rapporti.
+> L’utilizzo di rapporti multicanale in Adobe Analytics richiede sia la configurazione di Marketing Channels sia un’implementazione personalizzata per adattarsi alla variabile dei prodotti e all’evento di acquisto. Adobe consiglia di lavorare con un consulente di implementazione se queste funzioni non sono ancora configurate per la suite di rapporti.
 
-### Multi-canale - Conversioni Assistite
+### Multi-canale - Conversioni assistite
 
-Conversioni assistite mostra quante volte ogni canale ha assistito con una conversione. In  Analysis Workspace, è possibile utilizzare la metrica **Order Assists** .
+Le conversioni assistite mostrano quante volte ogni canale ha assistito con una conversione. In Analysis Workspace, la **Ordina assistenti** può essere utilizzata.
 
-1. Nel menu Componenti, individua la dimensione Canale **** marketing e trascinala sull’area grande della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
-2. Trascinate la metrica **Order Assists** sopra l’intestazione della metrica **Occorrenze** creata automaticamente per sostituirla. Se necessario, è possibile trascinare ulteriori metriche nell&#39;area di lavoro.
+1. Nel menu Componenti , individua la **Canale di marketing** e trascinarlo nell’area grande della tabella a forma libera denominata &quot;Rilascia qui un Dimension&quot;.
+2. Trascina **Ordina assistenti** metrica al di sopra della creazione automatica **Occorrenze** intestazione metrica per sostituirla. Se necessario, è possibile trascinare ulteriori metriche nell’area di lavoro.
 
-### Multi-canale - Percorsi di conversione superiori
+### Multi-canale - Percorsi di conversione principali
 
-Il rapporto sui percorsi di conversione principali mostra i percorsi dei canali superiori seguiti dall&#39;utente prima della conversione.  Analysis Workspace utilizza un rapporto di flusso per visualizzare i percorsi di conversione principali.
+Il rapporto dei percorsi di conversione principali mostra i percorsi dei canali principali seguiti dall’utente prima della conversione. Analysis Workspace utilizza un rapporto di flusso per visualizzare i principali percorsi di conversione.
 
-1. Fate clic sull’icona Pannelli a sinistra, quindi trascinate un pannello Attribuzione sopra la tabella a forma libera.
-2. Fate clic sull&#39;icona Componenti a sinistra, individuate la dimensione del canale **di** marketing e trascinatela nella casella con l&#39;etichetta &quot;Aggiungi dimensione&quot;.
-3. Individuate l&#39;evento di conversione desiderato in Metriche (ad esempio, Ordini) e trascinatelo nella casella con l&#39;etichetta &quot;Aggiungi metrica&quot;. Le metriche calcolate non sono supportate per il pannello Attribuzione.
+1. Fai clic sull’icona Pannelli a sinistra e trascina un pannello Attribuzione sopra la tabella a forma libera.
+2. Fai clic sull’icona Componenti a sinistra, individua la **Canale di marketing** e trascinarlo nella casella denominata &quot;Aggiungi Dimension&quot;.
+3. Individua l’evento di conversione desiderato in Metriche (ad esempio, Ordini) e trascinalo nella casella denominata &quot;Aggiungi metrica&quot;. Le metriche calcolate non sono supportate per il pannello Attribuzione .
 4. Fai clic su Genera.
-5. Nel rapporto risultante, individuate la visualizzazione &quot;Flusso canale&quot;. Questo flusso mostra i percorsi principali che un visitatore ha toccato prima di un acquisto.
+5. Nel rapporto risultante, individua la visualizzazione &quot;Flusso di canale&quot;. Questo flusso mostra i percorsi principali che un visitatore ha toccato prima di un acquisto.
 
-Questa visualizzazione del flusso è interattiva. Fate clic su ciascun canale per espandere il flusso in una delle due direzioni.
+Questa visualizzazione del flusso è interattiva. Fare clic su ciascun canale per espandere il flusso in una direzione o nell&#39;altra.
 
 ![Visualizzazione flusso](/help/technotes/ga-to-aa/assets/flow.png)
 
 ### Multi-canale - Time Lag
 
-Il rapporto sull&#39;intervallo di tempo mostra il tempo in giorni impiegato da un visitatore per effettuare la conversione sul sito. In  Analysis Workspace, questi dati sono disponibili utilizzando la dimensione **Giorni prima del primo acquisto** . È disponibile solo nel contesto di un evento di acquisto correttamente implementato.
+Il rapporto sull’intervallo di tempo mostra il tempo in giorni impiegato da un visitatore per la conversione sul sito. In Analysis Workspace, questi dati sono disponibili utilizzando il **Giorni precedenti al primo acquisto** dimensione. È disponibile solo nel contesto di un evento di acquisto implementato correttamente.
 
-1. Nel menu Componenti, individua la dimensione **Giorni prima del primo acquisto** e trascinala nell’area grande della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
-2. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
+1. Nel menu Componenti , individua la **Giorni precedenti al primo acquisto** e trascinarlo nell’area grande della tabella a forma libera denominata &quot;Rilascia qui un Dimension&quot;.
+2. Trascina le metriche desiderate nell’area di lavoro accanto alla creazione automatica **Occorrenze** metrica. Consulta la sezione [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica rispettiva.
 
-Adobe consiglia di utilizzare le metriche **Ordini**, **Unità** o **Entrate** con questa dimensione.
+L&#39;Adobe consiglia di utilizzare **Ordini**, **Unità** oppure **Entrate** metriche con questa dimensione.
 
-Per altri tipi di conversioni, compresi gli eventi personalizzati, è disponibile la dimensione **Tempo precedente all’evento** . Mostra il tempo, in minuti, impiegato dal visitatore per attivare l’evento all’interno della visita.
+Per altri tipi di conversioni, inclusi gli eventi personalizzati, la variabile **Tempo precedente all’evento** è disponibile la dimensione . Mostra il tempo, in minuti, impiegato da un visitatore per attivare l’evento all’interno della visita.
 
-1. Nel menu Componenti, individuate la dimensione **Tempo precedente all’evento** e trascinatela nell’area della tabella a forma libera con l’etichetta &quot;Rilascia qui una dimensione&quot;.
-2. Trascina le metriche desiderate nell&#39;area di lavoro accanto alla metrica **Occorrenze** creata automaticamente. Consulta la guida [alla traduzione](common-metrics.md) Metrica per informazioni dettagliate su come ottenere ciascuna metrica.
+1. Nel menu Componenti , individua la **Tempo precedente all’evento** e trascinarlo nell’area grande della tabella a forma libera denominata &quot;Rilascia qui un Dimension&quot;.
+2. Trascina le metriche desiderate nell’area di lavoro accanto alla creazione automatica **Occorrenze** metrica. Consulta la sezione [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica rispettiva.
 
-Adobe consiglia di utilizzare questa dimensione insieme agli eventi personalizzati o agli eventi di acquisto.
+Adobe consiglia di utilizzare questa dimensione insieme a eventi personalizzati o eventi di acquisto.
 
-### Multi-canale - Lunghezza percorso
+### Multi-canale - lunghezza del percorso
 
-Il rapporto sulla lunghezza del percorso mostra il numero di canali toccati prima di un evento di conversione. In  Analysis Workspace, il pannello Attribuzione contiene questi dati in una delle relative visualizzazioni.
+Il rapporto sulla lunghezza del percorso mostra il numero di canali toccati prima di un evento di conversione. In Analysis Workspace, il pannello Attribuzione contiene questi dati in una delle relative visualizzazioni.
 
-1. Fate clic sull’icona Pannelli a sinistra, quindi trascinate un pannello Attribuzione sopra la tabella a forma libera
-2. Fate clic sull&#39;icona Componenti a sinistra, individuate la dimensione del canale **di** marketing e trascinatela nella casella con l&#39;etichetta &quot;Aggiungi dimensione&quot;.
-3. Individuate l&#39;evento di conversione desiderato in Metriche (ad esempio, Ordini) e trascinatelo nella casella con l&#39;etichetta &quot;Aggiungi metrica&quot;. Le metriche calcolate non sono supportate per il pannello Attribuzione.
+1. Fai clic sull’icona Pannelli a sinistra e trascina un pannello Attribuzione sopra la tabella a forma libera
+2. Fai clic sull’icona Componenti a sinistra, individua la **Canale di marketing** e trascinarlo nella casella denominata &quot;Aggiungi Dimension&quot;.
+3. Individua l’evento di conversione desiderato in Metriche (ad esempio, Ordini) e trascinalo nella casella denominata &quot;Aggiungi metrica&quot;. Le metriche calcolate non sono supportate per il pannello Attribuzione .
 4. Fai clic su Genera.
-5. Nel rapporto risultante, individua la visualizzazione &quot;Punti di contatto per viaggio&quot;. Questo istogramma mostra il numero di canali che un visitatore ha toccato prima di un acquisto.
+5. Nel rapporto risultante, individua la visualizzazione &quot;Punti di contatto per Percorso&quot;. Questo istogramma mostra il numero di canali toccati da un visitatore prima di un acquisto.

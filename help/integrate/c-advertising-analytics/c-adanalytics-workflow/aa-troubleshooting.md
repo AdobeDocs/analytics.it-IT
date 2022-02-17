@@ -1,9 +1,9 @@
 ---
 description: Risolvere i problemi relativi ad Advertising Analytics.
 title: Risoluzione dei problemi relativi ad Advertising Analytics
-uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
+feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 ## Non visualizzo la suite di rapporti nella sezione Mappatura {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-Stai cercando di [configurare un nuovo account pubblicitario](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e non vedi la tua suite di rapporti nell&#39;elenco a discesa **[!UICONTROL Select Report Suite]**. Ci sono due possibili ragioni per questo:
+Stai cercando di [impostare un nuovo account Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e non visualizzi la tua suite di rapporti elencata in **[!UICONTROL Select Report Suite]** elenco a discesa. Ci sono due possibili ragioni per questo:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -33,7 +33,7 @@ Stai cercando di [configurare un nuovo account pubblicitario](/help/integrate/c-
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Non è stato effettuato il provisioning della suite di rapporti per il reporting di Advertising Analytics. </p> </td> 
-   <td colname="col2"> <p>Per istruzioni, consulta <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > Provisioning Report Suite</a> . </p> </td> 
+   <td colname="col2"> <p>Fai riferimento a <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > Suite di rapporti di provisioning</a> per istruzioni. </p> </td> 
   </tr> 
  </tbody> 
 </table>

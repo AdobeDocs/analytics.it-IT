@@ -1,9 +1,9 @@
 ---
 description: Analytics e Audience Manager utilizzano entrambi i segmenti. Tuttavia, un segmento di Analytics non corrisponde esattamente a un segmento di Audience Manager. Queste differenze contribuiscono, in parte, alle discrepanze che vedrai nei rapporti di Analytics e di Audience Manager. Di conseguenza, è importante e utile cercare di comprendere queste differenze quando inizi a lavorare con i segmenti in entrambe queste soluzioni.
 title: Comprendere i segmenti in Analytics e Audience Manager
-uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
+feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 2%
@@ -27,7 +27,7 @@ L’appartenenza al segmento di Audience Manager è fluida. Gli utenti possono i
 
 Un segmento di Audience Manager è identificato come pubblico in Analytics.
 
-Per ulteriori informazioni, consulta [Dati sulle caratteristiche e sulla popolazione dei segmenti in Generatore di segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) e [Segnali, caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
+Per ulteriori informazioni, consulta [Dati sulle caratteristiche e sulla popolazione dei segmenti nel Generatore di segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) e [Segnali, caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Segmenti di Analytics {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -44,4 +44,4 @@ Un segmento di Analytics è un meccanismo di filtro per i dati nei rapporti. Il 
 
    Al contrario, in Analytics, i visitatori verranno inclusi o esclusi da un segmento in base all’intervallo di date del rapporto. Ad esempio, un singolo visitatore ha effettuato un acquisto il mese scorso. In AAM, quel visitatore sarebbe incluso in un segmento &quot;acquirente&quot;, indipendentemente dall&#39;intervallo di date. In Analytics, un report basato su questo mese non includerebbe il visitatore nel segmento. Tuttavia, un rapporto basato su questo mese e lo scorso mese includerebbe il visitatore nel segmento.
 
-Per ulteriori informazioni, consulta la [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) .
+Consulta la sezione [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) per ulteriori informazioni.

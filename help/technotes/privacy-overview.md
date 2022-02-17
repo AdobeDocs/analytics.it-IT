@@ -2,9 +2,9 @@
 description: Panoramica dei dati raccolti da Adobe Analytics e altre considerazioni sulla privacy.
 keywords: privacy
 title: Panoramica sulla privacy
-uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
+feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Adobe Analytics raccoglie i dati seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe ha attivato l’impostazione IP-Obfuscation (oscuramento dell’IP): abilitato - IP rimosso (x.x.x.x) per impostazione predefinita per tutti i clienti con una suite di rapporti nell’area EMEA. Con questa impostazione, l’indirizzo IP verrà completamente sostituito con il valore (x.x.x.x) dopo la geo-lookup e non sarà più disponibile come punto dati. <p>Con questo metodo di sostituzione di base non è possibile risalire a un indirizzo IP univoco specifico. Né il cliente né Adobe possono accedere all’indirizzo IP, che diventa irreversibilmente anonimo. Per ulteriori informazioni sulle altre impostazioni di oscuramento dell'IP, vedi </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">Impostazioni account generali </a> nella guida utente di Admin.</p> </td>
+   <td colname="col2"> Adobe ha attivato l’impostazione IP-Obfuscation (oscuramento dell’IP): abilitato - IP rimosso (x.x.x.x) per impostazione predefinita per tutti i clienti con una suite di rapporti nell’area EMEA. Con questa impostazione, l’indirizzo IP verrà completamente sostituito con il valore (x.x.x.x) dopo la geo-lookup e non sarà più disponibile come punto dati. <p>Con questo metodo di sostituzione di base non è possibile risalire a un indirizzo IP univoco specifico. Né il cliente né Adobe possono accedere all’indirizzo IP, che diventa irreversibilmente anonimo. Per ulteriori informazioni sulle altre impostazioni di oscuramento dell'IP, vedi </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">Impostazioni account generali</a> nella guida utente Admin.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Globale </td> 

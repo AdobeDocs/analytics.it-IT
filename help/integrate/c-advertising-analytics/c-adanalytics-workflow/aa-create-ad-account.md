@@ -3,9 +3,9 @@ title: Come impostare un account Advertising in Advertising Analytics
 description: Consente di creare nuovi account pubblicitari e di eseguire il mapping di più account a più suite di rapporti.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '795'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Gli amministratori possono inoltre [concedere l&#39;accesso ai non amministrator
    | --- | --- |
    | Tipo | Sono disponibili 2 opzioni: Google AdWords e Microsoft Bing Ads.  Nota: Yahoo Gemini è stata assorbita da Microsoft Bing il 31 marzo 2019. Di conseguenza, l’opzione per l’account per annunci Yahoo Gemini non è più disponibile. |
    | Nome account | Puoi scegliere di impostare questo nome account su qualsiasi nome che desideri. Questo è il nome descrittivo dell’account che verrà visualizzato nell’interfaccia utente. |
-   | Token OAuth | **Nota:**  OAuth è uno standard aperto per la delega degli accessi, comunemente utilizzato come modo per garantire ai siti web o alle applicazioni l’accesso alle loro informazioni su altri siti web, ma senza fornire loro le password. Noterai che verrai indirizzato a un URL di terze parti (efrontier.com). L’Adobe utilizza efrontier per alimentare il processo di autenticazione OAuth per tutti e tre i motori di ricerca. Se si utilizza Internet Explorer 11 (o versioni precedenti), non sarà possibile recuperare correttamente il token Oauth per nessuno dei tre motori di ricerca. Usa altri browser web.<p>Clic **[!UICONTROL Retrieve Token]** avvia il processo di autenticazione OAuth2. Questo significa che ti verrà chiesto di accedere al tuo account di ricerca Google/Bing utilizzando le tue credenziali. A seconda del motore di ricerca scelto, il processo è leggermente diverso: <ul><li>Google Adwords: Fornire l’ID account Google</li><li>Microsoft Bing: Fornire l’ID account Bing e l’ID cliente Bing.</li></ul>Fai riferimento a [Individua l&#39;ID account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) per informazioni su questi ID. Una volta effettuato l&#39;accesso, la **[!UICONTROL OAuth Token]** visualizzazioni di campo **[!UICONTROL Retrieved]**. |
+   | Token OAuth | **Nota:**  OAuth è uno standard aperto per la delega degli accessi, comunemente utilizzato come modo per garantire ai siti web o alle applicazioni l’accesso alle loro informazioni su altri siti web, ma senza fornire loro le password. Noterai che verrai indirizzato a un URL di terze parti (efrontier.com). L’Adobe utilizza efrontier per alimentare il processo di autenticazione OAuth per tutti e tre i motori di ricerca. Se si utilizza Internet Explorer 11 (o versioni precedenti), non sarà possibile recuperare correttamente il token Oauth per nessuno dei tre motori di ricerca. Usa altri browser web.<p>Clic **[!UICONTROL Retrieve Token]** avvia il processo di autenticazione OAuth2. Ti verrà chiesto di accedere al tuo account di ricerca Google/Bing utilizzando le tue credenziali. A seconda del motore di ricerca scelto, il processo è leggermente diverso: <ul><li>Google Adwords: Fornire l’ID account Google</li><li>Microsoft Bing: Fornire l’ID account Bing e l’ID cliente Bing.</li></ul>Fai riferimento a [Individua l&#39;ID account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) per informazioni su questi ID. Una volta effettuato l&#39;accesso, la **[!UICONTROL OAuth Token]** visualizzazioni di campo **[!UICONTROL Retrieved]**. |
 
 1. In **[!UICONTROL Tracking]** Questa sezione fornisce informazioni su come i dati del motore di ricerca vengono tracciati dall’implementazione Adobe Analytics. Questo è un passaggio necessario per integrare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
 Compila il **[!UICONTROL Tracking Settings]** in conformità alle presenti linee guida:

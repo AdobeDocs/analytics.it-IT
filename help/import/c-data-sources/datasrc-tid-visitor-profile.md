@@ -2,10 +2,9 @@
 description: Utilizza l’ID transazione nelle origini dati per collegare insieme dati online e offline.
 title: ID transazione e profili visitatore
 topic-fix: Developer and implementation
-uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
+feature: Data Sources
 exl-id: ca5f9e8d-853f-4444-a8fd-a20933ef33d7
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 98%

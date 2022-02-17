@@ -2,9 +2,9 @@
 description: Adobe Audience Manager (AAM) è una potente piattaforma di gestione dei dati che consente di creare profili di pubblico univoci da integrazioni di dati di prime, seconda e terze parti. Per gli inserzionisti, questi profili di pubblico consentono di definire i segmenti più importanti da usare tra i canali digitali.
 solution: Experience Cloud
 title: Panoramica di Audience Analytics
-uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
+feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 32%
@@ -49,6 +49,6 @@ Assicurati che vi siano i seguenti prerequisiti:
 * Sei un amministratore di Audience Manager.
 * Stai utilizzando il servizio Identity v1.5 o successivo.
 * Le suite di rapporti AAM e Adobe Analytics sono mappate nella stessa organizzazione di Experienci Cloud.
-* Utilizza [inoltro lato server](/help/admin/admin/c-server-side-forwarding/ssf.md) e hai implementato il modulo [Gestione dell&#39;audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it) (nessun codice DIL) - AppMeasurement 1.5 o successivo.
+* Utilizzate [inoltro lato server](/help/admin/admin/c-server-side-forwarding/ssf.md) e hanno implementato [Modulo Gestione dell&#39;audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it) (nessun codice DIL) - AppMeasurement 1.5 o successivo.
 
-Questi prerequisiti sono descritti nel [Flusso di lavoro di Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
+Questi prerequisiti sono descritti nella sezione [Flusso di lavoro di Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

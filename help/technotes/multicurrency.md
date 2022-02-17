@@ -1,12 +1,12 @@
 ---
 description: Descrive come definire codici valuta di destinazione per il funzionamento del supporto multi-valuta.
 title: Supporto multi-valuta
-uuid: null
+feature: Analytics Basics
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '1354'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,19 +18,19 @@ I codici di valuta di destinazione sono definiti a tre livelli:
 
 ## Livello pagina
 
-Puoi impostare una variabile JavaScript per la valuta di destinazione a livello di pagina. Il proprietario del sito imposta questa variabile con il codice valuta ISO 4217 a tre lettere appropriato (come indicato di seguito in questo documento). Se la variabile [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) non è impostata a questo livello, la valuta predefinita sarà la stessa di quella specificata nella suite di rapporti. Se la variabile a livello di pagina è in conflitto con la variabile specificata nella suite di rapporti, la variabile nella suite di rapporti avrà la precedenza.
+Puoi impostare una variabile JavaScript per la valuta di destinazione a livello di pagina. Il proprietario del sito imposta questa variabile con il codice valuta ISO 4217 a tre lettere appropriato (come indicato di seguito in questo documento). Se la [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=it) La variabile non è impostata a questo livello, la valuta predefinita sarà la stessa di quella specificata nella suite di rapporti. Se la variabile a livello di pagina è in conflitto con la variabile specificata nella suite di rapporti, la variabile nella suite di rapporti avrà la precedenza.
 
 
 ## Livello suite di rapporti
 
-La **valuta di base** viene specificata quando [si creano suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Questa è l&#39;impostazione predefinita per la valuta e ha la precedenza sui codici della valuta impostati a livello di pagina. Pertanto, se una suite di rapporti ha ordini che accettano dollari USA, euro e sterline britanniche e la suite di rapporti ha un codice valuta predefinito impostato su &quot;Dollari USA&quot;, il database back-end di reporting traduce tutte le transazioni in Dollari USA.
+La **valuta di base** è specificato quando [creazione di suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=it). Questa è l&#39;impostazione predefinita per la valuta e ha la precedenza sui codici della valuta impostati a livello di pagina. Pertanto, se una suite di rapporti ha ordini che accettano dollari USA, euro e sterline britanniche e la suite di rapporti ha un codice valuta predefinito impostato su &quot;Dollari USA&quot;, il database back-end di reporting traduce tutte le transazioni in Dollari USA.
 
 I rapporti di marketing utilizzano il tasso di cambio nel momento in cui si verifica la richiesta di immagine per tradurre i valori di valuta a livello di pagina nei valori di valuta predefiniti della suite di rapporti. Le suite di rapporti utilizzano &quot;Dollari USA&quot; come valuta predefinita.
 
 
 ## Livello del rapporto
 
-Gli utenti possono impostare la valuta predefinita indicata per la sessione di accesso dell’utente. È possibile accedervi tramite il collegamento **Opzioni di visualizzazione** in qualsiasi rapporto di conversione. I rapporti di marketing utilizzano il tasso di cambio al momento dell’esecuzione del rapporto per tradurre i valori di valuta della suite di rapporti in valori di valuta specificati nel rapporto.
+Gli utenti possono impostare la valuta predefinita indicata per la sessione di accesso dell’utente. È accessibile tramite **Opzioni di visualizzazione**  in qualsiasi rapporto di conversione. I rapporti di marketing utilizzano il tasso di cambio al momento dell’esecuzione del rapporto per tradurre i valori di valuta della suite di rapporti in valori di valuta specificati nel rapporto.
 
 ## Codici valuta supportati (ISO 4217)
 
@@ -303,7 +303,7 @@ Rubli Russia &#39;RUB&#39; (RUB)
 
 Rubli russi &quot;RUR&quot; (RUR)
 
-Francs del Ruanda (RWF)
+RWF Francs (RWF)
 
 &quot;SHP&quot; Saint Helena Pound (SHP)
 
@@ -414,7 +414,7 @@ Dollari dello Zimbabwe &quot;ZWD&quot; (ZWD)
 
 ## Esempio di AppMeasurement.js
 
-La variabile `currencyCode` può essere definita globalmente nel file AppMeasurement.js . La definizione della variabile currencyCode in questo file assicura che tutte le transazioni valutarie utilizzino un codice valuta uniforme. L&#39;esempio seguente specifica Euros come variabile `currencyCode` nel `CONFIG SECTION` del file AppMeasurement.js. Tutti gli eventi di acquisto saranno interpretati segnalando come operazioni &quot;Euro&quot;.
+La `currencyCode` può essere definita globalmente nel file AppMeasurement.js. La definizione della variabile currencyCode in questo file assicura che tutte le transazioni valutarie utilizzino un codice valuta uniforme. L&#39;esempio seguente specifica Euros come valore `currencyCode` nella variabile `CONFIG SECTION` del file AppMeasurement.js. Tutti gli eventi di acquisto saranno interpretati segnalando come operazioni &quot;Euro&quot;.
 
 ```
 /************************** CONFIG SECTION **************************/ 
@@ -433,6 +433,6 @@ s.linkTrackEvents="None"
 
 * Tieni presente che mentre i codici valuta possono cambiare tra le pagine, tutti gli elementi delle linee di conversione definiti in una determinata richiesta di pagina devono utilizzare la stessa valuta (ad esempio, non è possibile definire Euro, Sterline britanniche e Dollari USA nella stessa visualizzazione di pagina). Se non si desidera eseguire alcuna conversione di valuta, lasciare vuoto il valore currencyCode. In questo modo i valori inviati vengono passati direttamente ai rapporti senza conversione.
 
-* L&#39;impostazione di un currencyCode non valido (qualsiasi valore non presente nell&#39;elenco dei codici di valuta supportati) comporta l&#39;esclusione dell&#39;intero hit e la mancata raccolta dei dati per la transazione. Prima di impostare `currencyCode` in produzione, utilizza una suite di rapporti di prova per verificare che i dati siano raccolti e che la conversione di valuta sia corretta.
+* L&#39;impostazione di un currencyCode non valido (qualsiasi valore non presente nell&#39;elenco dei codici di valuta supportati) comporta l&#39;esclusione dell&#39;intero hit e la mancata raccolta dei dati per la transazione. Prima dell’impostazione `currencyCode` in produzione, utilizza una suite di rapporti di prova per verificare che i dati siano raccolti e che la conversione della valuta sia corretta.
 
 * Valute che non utilizzano un punto (.) come separatore deve essere modificato per utilizzare il punto anziché il separatore tipico. Ad esempio, lo svedese Krona, che utilizza una virgola (,), deve essere modificato per utilizzare un punto invece della virgola. Analytics utilizza la virgola per separare i valori e i dati non verranno passati correttamente. Il periodo passa correttamente il valore ai rapporti.

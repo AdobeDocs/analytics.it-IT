@@ -1,8 +1,9 @@
 ---
 title: Risolvere i problemi relativi alle sessioni in Adobe Analytics
 description: Scopri come risolvere i problemi relativi all’uscita da Adobe Analytics.
+feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # Risolvere i problemi relativi alle sessioni in Adobe Analytics
 
-Questa pagina riguarda la risoluzione dei problemi delle sessioni, il che significa che si è in grado di accedere con successo ma che hanno problemi ad accedere. In caso di problemi durante l&#39;accesso ad Adobe Analytics, consulta [Risoluzione dei problemi di accesso ad Adobe Analytics](troubleshoot-login.md).
+Questa pagina riguarda la risoluzione dei problemi delle sessioni, il che significa che si è in grado di accedere con successo ma che hanno problemi ad accedere. In caso di problemi di accesso ad Adobe Analytics, consulta [Risoluzione dei problemi di accesso ad Adobe Analytics](troubleshoot-login.md).
 
 Quasi tutti i problemi basati su sessioni provengono dalla rete aziendale personalizzata di un&#39;organizzazione. Se riesci ad accedere ad Adobe Analytics ma hai problemi ad accedere, utilizza questo articolo per determinare la causa.
 

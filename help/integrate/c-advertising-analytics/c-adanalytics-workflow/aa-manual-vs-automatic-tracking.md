@@ -1,8 +1,9 @@
 ---
 description: Il tracciamento determina il modo in cui i dati dei motori di ricerca vengono tracciati dall’implementazione Adobe Analytics. Questo è un passaggio necessario per integrare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
 title: Modalità manuale di tracciamento e modalità automatica
+feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -27,12 +28,12 @@ Di conseguenza, è necessario selezionare una casella di controllo di conferma q
 
 Tieni presente che per configurare un account del motore di ricerca in &quot;Modalità automatica&quot;, sei responsabile di eseguire le azioni seguenti:
 
-* Il parametro e il valore `s_kwcid` verranno aggiunti ai modelli di tracciamento dell’account o agli URL della pagina di destinazione nell’account che si sta aggiungendo. Questo verrà inserito alla fine dell’URL. Può essere necessaria un&#39;azione aggiuntiva da parte dell&#39;utente se il server web richiede una determinata coppia chiave=valore alla fine dell&#39;URL OPPURE un aggiornamento per supportare una nuova coppia chiave=valore nell&#39;URL. **È tua responsabilità assicurarsi che i parametri dell’URL aggiunto persistano correttamente nella pagina di destinazione finale.**
-* Inoltre, le parole chiave possono essere inserite nell’URL di destinazione come parte del valore `s_kwcid` . Se contengono caratteri o simboli speciali, confermare che il server web possa supportare questi caratteri. Esempio: Un carattere speciale comune è &quot;+&quot;, utilizzato nelle parole chiave &quot;Broad Match Modified&quot;.
+* La `s_kwcid` verranno aggiunti parametri e valori ai modelli di tracciamento dell’account o agli URL della pagina di destinazione nell’account che si aggiunge. Questo verrà inserito alla fine dell’URL. Può essere necessaria un&#39;azione aggiuntiva da parte dell&#39;utente se il server web richiede una determinata coppia chiave=valore alla fine dell&#39;URL OPPURE un aggiornamento per supportare una nuova coppia chiave=valore nell&#39;URL. **È tua responsabilità assicurarsi che i parametri dell’URL aggiunto persistano correttamente nella pagina di destinazione finale.**
+* Inoltre, le parole chiave possono essere inserite nell’URL di destinazione come parte del `s_kwcid` valore. Se contengono caratteri o simboli speciali, confermare che il server web possa supportare questi caratteri. Esempio: Un carattere speciale comune è &quot;+&quot;, utilizzato nelle parole chiave &quot;Broad Match Modified&quot;.
 
 >[!IMPORTANT]
 >
->Ulteriori informazioni sull&#39;aggiunta del parametro `s_kwcid` al [Criterio di sicurezza dei contenuti](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).
+>Ulteriori informazioni sull’aggiunta di `s_kwcid` al tuo [Informativa sulla sicurezza dei contenuti](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).
 
 ## Tracciamento manuale della modalità {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -44,7 +45,7 @@ La stringa che deve essere aggiunta al tuo account Google è mostrata di seguito
 
 >[!IMPORTANT]
 >
->Il valore `<Advertising Analytics ID>` (in **bold** sotto) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa ID account specifica dalla schermata di configurazione dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
+>La `<Advertising Analytics ID>` (in **audace** di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa ID account specifica dalla schermata di configurazione dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
 
 **Stringa di tracciamento per campagne:**
 
@@ -89,7 +90,7 @@ La stringa che deve essere aggiunta al tuo account Bing è mostrata di seguito. 
 
 >[!IMPORTANT]
 >
->Il valore `<Advertising Analytics ID>` (in **bold** sotto) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa ID account specifica dalla schermata di configurazione dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
+>La `<Advertising Analytics ID>` (in **audace** di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa ID account specifica dalla schermata di configurazione dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
 
 **Stringa di tracciamento per campagne:**
 

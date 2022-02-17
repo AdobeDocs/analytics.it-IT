@@ -1,9 +1,9 @@
 ---
 description: Configura un Experience Cloud di suite di rapporti mappata da utilizzare in Advertising Analytics.
 title: Abilita suite di rapporti per Advertising Analytics
-uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
+feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 15%
@@ -33,4 +33,4 @@ Per visualizzare qualsiasi dato di ricerca Advertising Analytics in Analytics, d
    | Più recente (ultimo) | L&#39;ultimo valore visto ottiene il pieno credito di allocazione per l&#39;evento di successo, indipendentemente dalle variabili che sono state attivate prima di esso. |
    | Scade dopo | Consente di specificare un periodo di tempo, o un evento, dopo la scadenza del valore eVar (ovvero, non riceve più crediti per eventi di successo).  Se un evento di successo si verifica dopo la scadenza eVar, il valore None non riceve credito per l’evento (nessun eVar è attivo). |
 
-1. Fare clic su **[!UICONTROL Enable Advertising Analytics Reporting]** (prima volta) o su **[!UICONTROL Update Advertising Analytics Reporting]** (ore successive). La suite di rapporti è ora pronta per ricevere i dati di Advertising Analytics Search. Non sei pronto a [creare account pubblicitari](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+1. Fai clic su **[!UICONTROL Enable Advertising Analytics Reporting]** (prima volta), oppure **[!UICONTROL Update Advertising Analytics Reporting]** (ore successive). La suite di rapporti è ora pronta per ricevere i dati di Advertising Analytics Search. Non sei pronto a [creare account pubblicitari](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).

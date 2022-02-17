@@ -3,10 +3,9 @@ description: Informazioni sul modello .txt Origine dati.
 subtopic: Data sources
 title: Riferimento file di importazione
 topic-fix: Developer and implementation
-uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
+feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 71%
@@ -22,11 +21,11 @@ Utilizza la procedura guidata Origini dati per generare un modello di importazio
 * Un simbolo cancelletto (#) identifica la riga come commento.
 * Puoi aggiungere altri commenti al file, in base alle necessità.
 * Un commento che elenca il titolo del file modello.
-* Un commento che elenca i nomi delle metriche esterne e delle dimensioni dati specificati in [!UICONTROL Data Source Activation Wizard].
+* Un commento che elenca i nomi della metrica esterna e della dimensione dati specificati nel [!UICONTROL Data Source Activation Wizard].
 
 Le intestazioni colonna vengono utilizzate per identificare i dati in ogni colonna del file Origine dati. Esistono tre tipi di intestazioni colonna:
 
-**Data**: (Obbligatorio) Una marca temporale per ogni riga di dati nel file, nel formato  `m/d/yyyy`.
+**Data**: (Obbligatorio) Una marca temporale per ogni riga di dati nel file, nel formato `m/d/yyyy`.
 
 **Variabili**: I nomi delle variabili di reporting mappate alle dimensioni dati dell&#39;origine dati.
 
@@ -63,6 +62,6 @@ Usa il modello Origine dati per creare un file Origini dati che contiene i dati 
 
 **File .FIN**
 
-Dopo aver completato la compilazione del file Origine dati, puoi inviarlo tramite FTP ad Analytics. Tuttavia, è necessario un file aggiuntivo per l&#39;elaborazione dei dati. Sarà necessario caricare un file di testo vuoto con lo stesso nome del file di dati, ma con estensione [!DNL .fin].
+Dopo aver completato la compilazione del file Origine dati, puoi inviarlo tramite FTP ad Analytics. Tuttavia, è necessario un file aggiuntivo per l&#39;elaborazione dei dati. Sarà necessario caricare un file di testo vuoto con lo stesso nome del file di dati, ma con un [!DNL .fin] estensione.
 
-Ad esempio, se carichi un file di dati (delimitato da tabulazioni) denominato [!DNL myproductdata.txt], dovrai caricare anche un file di testo vuoto denominato [!DNL myproductdata.fin]. Senza il file [!DNL .fin], i dati non verranno mai elaborati.
+Ad esempio, se carichi un file di dati (delimitato da tabulazioni) denominato [!DNL myproductdata.txt], è necessario caricare anche un file di testo vuoto denominato [!DNL myproductdata.fin]. Senza [!DNL .fin] file, i dati non verranno mai elaborati.

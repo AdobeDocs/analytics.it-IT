@@ -2,8 +2,9 @@
 title: PWA per Analytics
 description: App web progressive per Adobe Analytics
 role: User, Admin
+feature: Progressive Web Apps
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 68%
@@ -26,7 +27,7 @@ Per raccogliere e analizzare i dati di PWA con [!UICONTROL Analytics], non è ne
 
 ## Aggiungere il tracciamento offline per aumentare l’efficacia della PWA
 
-Puoi aumentare l’efficacia del tuo PWA utilizzando le funzionalità di tracciamento offline di Adobe Analytics [e ](/help/implement/vars/config-vars/trackoffline.md). Per impostazione predefinita, questa funzione è disattivata, ma puoi aggiungere la seguente proprietà al file AppMeasurement.js per attivarla: `s.trackOffline=true;`.
+Puoi aumentare l’efficacia di PWA utilizzando Adobe Analytics [funzionalità di tracciamento offline](/help/implement/vars/config-vars/trackoffline.md) con esso. Per impostazione predefinita, questa funzione è disattivata, ma puoi aggiungere la seguente proprietà al file AppMeasurement.js per attivarla: `s.trackOffline=true;`.
 
 Ad esempio, nel seguente file AppMeasurement.js, la proprietà viene aggiunta alla fine della `CONFIG SECTION`:
 
@@ -46,6 +47,6 @@ s.trackOffline=true
 *** 
 ```
 
-Per ulteriori informazioni sulla configurazione del file AppMeasurement.js, consulta [Panoramica delle variabili di configurazione](/help/implement/vars/config-vars/configuration-variables.md) e le singole pagine specifiche per le variabili nello stesso capitolo.
+Per ulteriori informazioni sulla configurazione del file AppMeasurement.js, vedi [Panoramica delle variabili di configurazione](/help/implement/vars/config-vars/configuration-variables.md) e le singole pagine specifiche per le variabili nello stesso capitolo.
 
-Per ulteriori informazioni sulle caratteristiche del file AppMeasurement.js, consulta la [Panoramica sull&#39;implementazione JavaScript](/help/implement/js/overview.md).
+Per ulteriori informazioni sulle caratteristiche del file AppMeasurement.js, vedi [Panoramica sull&#39;implementazione JavaScript](/help/implement/js/overview.md).

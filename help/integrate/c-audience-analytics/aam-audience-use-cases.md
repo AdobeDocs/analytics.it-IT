@@ -1,9 +1,9 @@
 ---
 description: Casi di utilizzo in Advertising Analytics.
 title: Casi di utilizzo di Audience Analytics
-uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
+feature: Audience Analytics
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 3%
@@ -22,12 +22,12 @@ In qualità di società di viaggi, puoi sovrapporre rapidamente le preferenze di
 
 ## Modellazione lookalike {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-In qualità di editore multimediale, puoi confrontare i tipi di pubblico di terze parti utilizzando [Segment IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) per comprendere le caratteristiche principali che differenziano. Questo consente di creare segmenti 1st-party di alto valore da utilizzare per il targeting.
+In qualità di editore multimediale, puoi confrontare i tipi di pubblico di terze parti utilizzando [Segmento IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) per comprendere le principali caratteristiche di differenziazione. Questo consente di creare segmenti 1st-party di alto valore da utilizzare per il targeting.
 
 ## Analisi prospettica {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-In qualità di rivenditore B2B, ora puoi analizzare profondamente il comportamento del pubblico potenziale subito prima che acquisti utilizzando [segmentazione sequenziale](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html), per comprendere quali azioni determinano la conversione.
+In qualità di rivenditore B2B, ora puoi analizzare profondamente il comportamento del pubblico potenziale prima che acquisti utilizzando [segmentazione sequenziale](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html), che consente di comprendere quali azioni determinano la conversione.
 
 ## Targeting demografico {#section_F034DB721A06419283DBD29D4A1B444B}
 
-Come Area di destinazione, puoi utilizzare [Istogrammi in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html) per visualizzare gli acquisti distribuiti in base all’età. Questo ti aiuta a trovare il pubblico giusto per eseguire il targeting per ciascuna delle proprietà del tuo resort.
+In qualità di Resort di destinazione, puoi utilizzare [Istogrammi in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html) per vedere gli acquisti distribuiti per età. Questo ti aiuta a trovare il pubblico giusto per eseguire il targeting per ciascuna delle proprietà del tuo resort.

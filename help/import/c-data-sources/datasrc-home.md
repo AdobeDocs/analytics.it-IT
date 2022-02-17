@@ -1,14 +1,14 @@
 ---
 description: Le origini dati Adobe Analytics ti consentono di importare manualmente altri dati online e offline per il reporting.
 title: Cosa sono le Origini dati e a cosa servono?
-translation-type: tm+mt
-source-git-commit: a653fe3ad1056d5a40217d1481e8d2c5c7f849b2
+feature: Data Sources
+exl-id: 8e695f0a-06b7-4aac-8917-318ae80ce1ec
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 90%
 
 ---
-
 
 # Panoramica su Origini dati
 

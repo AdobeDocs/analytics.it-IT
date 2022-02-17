@@ -3,12 +3,12 @@ description: 'Procedura per prepararsi all''utilizzo di Origini dati:'
 subtopic: Data sources
 title: Preparazione all'utilizzo di Origini dati
 topic-fix: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -24,11 +24,11 @@ Procedura per prepararsi all&#39;utilizzo di Origini dati
 
 ## Identificare e denominare le metriche {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
-È importante comprendere le metriche o le misurazioni contenute nelle origini dati, ad esempio  *`Off-line Sales Revenue by Product`*,  *`Returns by Product`* o  *`Ad Impressions by Campaign`*. Questi sono i nomi che puoi associare alle metriche del rapporto (eventi, proprietà e eVar).
+È importante comprendere le metriche o le misurazioni contenute nelle origini dati, ad esempio *`Off-line Sales Revenue by Product`*, *`Returns by Product`* oppure *`Ad Impressions by Campaign`*. Questi sono i nomi che puoi associare alle metriche del rapporto (eventi, proprietà e eVar).
 
 Dopo aver determinato le mappature metrica-evento opportune per i dati Origini dati, rinominare gli eventi con nomi descrittivi adatti alla metrica Origini dati associata.
 
-Consulta [Eventi di successo](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) nell&#39;Aiuto di Strumenti di amministrazione.
+Consulta [Eventi di successo](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=it) nell&#39;Aiuto di Strumenti di amministrazione.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Identificare e raccogliere i dati (rapporti) da utilizzare per suddividere le me
 
 Ad esempio, se una metrica Origini dati misura ad impression, la dimensione dati è probabilmente il codice di tracciamento campagna. Se stai misurando una vendita offline, potresti voler utilizzare il codice prodotto (o SKU) come dimensione dati.
 
-Puoi definire più dimensioni dati per una metrica, ma ogni metrica deve fornire un valore rilevante, o una combinazione di valori, per ogni dimensione dati associata. Ad esempio, se importi una metrica Vendita offline e la associ alle dimensioni dati  *`Product`* e le dimensioni  *`Partner`* dei dati, la metrica Vendite offline deve essere rilevante per ogni combinazione di prodotto e partner (ad esempio, Entrate totali).
+Puoi definire più dimensioni dati per una metrica, ma ogni metrica deve fornire un valore rilevante, o una combinazione di valori, per ogni dimensione dati associata. Ad esempio, se importi una metrica Vendita offline e la associ alle dimensioni dati *`Product`* e *`Partner`* dimensioni dei dati, la metrica Vendite offline deve essere rilevante per ogni combinazione di prodotto e partner (ad esempio, Entrate totali).
 
 >[!NOTE]
 >

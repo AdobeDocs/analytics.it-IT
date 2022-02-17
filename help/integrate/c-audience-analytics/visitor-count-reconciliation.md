@@ -1,9 +1,9 @@
 ---
 description: In Adobe Analytics e Adobe Audience Manager sono presenti metriche visitatore con definizioni simili, ma non allineate al 100%, per vari motivi.
 title: Differenze tra i conteggi dei visitatori
-uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
+feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
@@ -72,4 +72,4 @@ AAM i visitatori di Real-time Segment Population e Analytics con ID Experience C
  </tbody> 
 </table>
 
-Consulta [Informazioni sui segmenti in Analytics e Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) per ulteriori spiegazioni sulle sfumature tra i dati di Audience Manager e la segmentazione.
+Vedi [Segmenti in Analytics ed Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) per ulteriori spiegazioni sulle sfumature tra i dati di Analytics e di Audience Manager e la segmentazione.

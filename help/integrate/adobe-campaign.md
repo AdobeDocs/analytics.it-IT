@@ -1,14 +1,14 @@
 ---
-description: Scoprite come abilitare  report Adobe Campaign in  Adobe Analytics
-title: Come posso integrare  Adobe Campaign Reporting in  Adobe Analytics?
-translation-type: tm+mt
-source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
+description: Scopri come abilitare il reporting di Adobe Campaign in Adobe Analytics
+title: Come si integrano i rapporti di Adobe Campaign in Adobe Analytics?
+feature: Campaign Integration
+exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 95%
 
 ---
-
 
 # Reportistica di Adobe Campaign
 
@@ -62,8 +62,8 @@ Le seguenti **metriche** sono disponibili da Campaign nelle suite di rapporti di
 * Adobe Campaign clic
 * Adobe Campaign elaborazione
 * Adobe Campaign consegna
-* Adobe Campaign apertura unica
-* Adobe Campaign clic unico
+* Adobe Campaign apertura univoca
+* Adobe Campaign clic univoco
 * Adobe Campaign disiscrizione
 * Adobe Campaign rimbalzi totali
 * Adobe Campaign istanze di ID consegna eseguita
