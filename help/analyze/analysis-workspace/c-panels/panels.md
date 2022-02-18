@@ -4,10 +4,10 @@ title: Panoramica dei pannelli
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
+source-git-commit: ca1ca90c5b40ef89db14741bca826d7a57be44c6
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 91%
+source-wordcount: '1071'
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,9 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannello:
 | [Pannello Analytics for Target](a4t-panel.md) | Analizza le attività ed esperienze Target in Analysis Workspace. |
 | [Pannello Attribution](attribution.md) | Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione. |
 | [Pannello Freeform](freeform-panel.md) | Esegui confronti illimitati e suddivisioni, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
+| [Pannello Pubblico medio per minuto](average-minute-audience-panel.md) | Analizza nel tempo il pubblico medio dei minuti, con dettagli sulle visualizzazioni di picco e sulla possibilità di suddividerlo e confrontarlo. |
 | [Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
+| [Pannello a tendina della riproduzione multimediale](media-playback-timespent/media-playback-time-spent.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
 | [Pannello Segment Comparison](c-segment-comparison/segment-comparison.md) | Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti. |
 
 ![](assets/panel-overview.png)
