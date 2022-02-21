@@ -3,11 +3,9 @@ description: Esempio contenente un esempio di chiamate server inviate in una com
 keywords: Implementazione di Analytics
 subtopic: Visitors
 title: Esempio di identificazione dei visitatori tra i dispositivi
-topic-fix: Developer and implementation
-uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
+feature: Implementation Basics
 exl-id: c68bb745-29de-48e3-8731-d714503a2447
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 11%
@@ -18,18 +16,18 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Consulta [Analisi multidispositivo](/help/components/cda/overview.md) nella guida utente dei componenti.
+>Questo metodo di identificazione dei visitatori tra dispositivi non è più consigliato. Vedi [Analisi multidispositivo](/help/components/cda/overview.md) nella guida utente Componenti .
 
 L’esempio seguente illustra il funzionamento dell’identificazione dei visitatori tra dispositivi tramite un esempio di chiamate server inviate in una comune interazione con il cliente.
 
 | Chiamata server | Azione | Cookie ID visitatore | Variabile ID visitatore | ID visitatore effettivo | Numero pagina visita | Numero di visite |
 |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Un visitatore fa clic su un collegamento in un’e-mail di marketing e visita il sito dal computer di origine. Questo visitatore ha visitato il tuo sito 7 altre volte in passato. | 3 | - | 3 | 1 | 8 |
-| 2-8 | Visita 7 pagine aggiuntive sul tuo sito. | 1 | - | 3 | 2-8 | 8 |
-| 9 | Esegue l&#39;autenticazione nel computer di casa. | 3 | CID1 | CID1 | 9 <br>(Questo è il primo hit di CID1 in assoluto, quindi prende il sopravvento e continua sul profilo del visitatore da ID visitatore 1.) | 8 |
-| 10 | Visita 1 pagina aggiuntiva. | 3 | CID1 | CID1 | 10 | 8 |
-| 11 | Apre il sito da laptop in ufficio. Questo visitatore non ha visitato il sito prima di utilizzare questo dispositivo. | 2 | - | 2 | 3 | 3 |
-| 12 | Esegue l&#39;autenticazione sul laptop. | 2 | CID1 | CID1 | 3 | 9 |
+| 1 | Un visitatore fa clic su un collegamento in un’e-mail di marketing e visita il sito dal computer di origine. Questo visitatore ha visitato il tuo sito 7 altre volte in passato. | 1 | - | 1 | 1 | 8 |
+| 2-8 | Visita 7 pagine aggiuntive sul tuo sito. | 1 | - | 1 | 2-8 | 8 |
+| 9 | Esegue l&#39;autenticazione nel computer di casa. | 1 | CID1 | CID1 | 9 <br>(Questo è il primo hit di CID1 in assoluto, quindi prende il sopravvento e continua sul profilo del visitatore da ID visitatore 1.) | 8 |
+| 10 | Visita 1 pagina aggiuntiva. | 1 | CID1 | CID1 | 10 | 8 |
+| 11 | Apre il sito da laptop in ufficio. Questo visitatore non ha visitato il sito prima di utilizzare questo dispositivo. | 2 | - | 2 | 1 | 1 |
+| 12 | Esegue l&#39;autenticazione sul laptop. | 2 | CID1 | CID1 | 1 | 9 |
 | 13 | Visualizza 1 pagina aggiuntiva. | 2 | CID1 | CID1 | 2 | 9 |
 
 ## Conteggio delle visite
@@ -52,4 +50,4 @@ Dopo l’associazione iniziale, il conteggio delle visite torna alla normalità 
 
 ![](assets/visitors_2.png)
 
-Assicurati di essere il più coerente possibile quando identifichi i visitatori univoci. Ad esempio, utilizza sempre la variabile `visitorID` quando l’utente è autenticato.
+Assicurati di essere il più coerente possibile quando identifichi i visitatori univoci. Ad esempio, utilizza sempre il `visitorID` quando l&#39;utente è autenticato.

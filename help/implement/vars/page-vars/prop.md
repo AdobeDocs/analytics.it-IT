@@ -1,8 +1,9 @@
 ---
 title: prop
 description: Variabili personalizzate che puoi utilizzare nell’implementazione.
+feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -11,26 +12,26 @@ ht-degree: 0%
 
 # prop
 
-*Questa pagina di aiuto descrive come implementare i prop. Per informazioni sul funzionamento delle proprietà come dimensioni, consulta [prop](/help/components/dimensions/prop.md) nella guida utente Componenti.*
+*Questa pagina di aiuto descrive come implementare i prop. Per informazioni sul funzionamento delle proprietà come dimensione, consulta [prop](/help/components/dimensions/prop.md) nella guida utente Componenti .*
 
 Le proprietà sono variabili personalizzate che puoi utilizzare come desideri. Non persistono oltre il risultato impostato.
 
 >[!TIP]
 >
->Nella maggior parte dei casi, Adobe consiglia di utilizzare [eVar](evar.md). Nelle versioni precedenti di Adobe Analytics, le proprietà e le eVar presentavano vantaggi e svantaggi l’una per l’altra. Tuttavia, Adobe ha migliorato le eVar in cui soddisfano quasi tutti i casi d’uso per le proprietà.
+>Adobe consiglia di utilizzare [eVar](evar.md) nella maggior parte dei casi. Nelle versioni precedenti di Adobe Analytics, le proprietà e le eVar presentavano vantaggi e svantaggi l’una per l’altra. Tuttavia, Adobe ha migliorato le eVar in cui soddisfano quasi tutti i casi d’uso per le proprietà.
 
-Se disponi di un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), puoi allocare queste dimensioni personalizzate ai valori specifici della tua organizzazione. Il numero di proprietà disponibili dipende dal contratto con Adobe. Sono disponibili fino a 75 proprietà se il contratto con Adobe lo supporta.
+Se hai [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), puoi allocare queste dimensioni personalizzate ai valori specifici dell’organizzazione. Il numero di proprietà disponibili dipende dal contratto con Adobe. Sono disponibili fino a 75 proprietà se il contratto con Adobe lo supporta.
 
 ## Proprietà che utilizzano i tag in Adobe Experience Platform
 
 Puoi impostare le proprietà durante la configurazione dell’estensione Analytics (variabili globali) o in regole.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 2. Fai clic sulla proprietà desiderata.
-3. Vai alla scheda [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
-4. In [!UICONTROL Actions], fai clic su un&#39;azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull&#39;icona &quot;+&quot;.
-5. Imposta il menu a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
-6. Individua la sezione [!UICONTROL Props] .
+3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
+4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
+5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+6. Individua il [!UICONTROL Props] sezione .
 
 Puoi impostare una proprietà su un valore o su un elemento dati. Puoi anche copiare il valore da un’altra variabile di Analytics.
 
@@ -48,11 +49,11 @@ Le proprietà di elenco sono un’impostazione applicata alle proprietà che con
 
 ### Configurare le proprietà dell’elenco
 
-Abilitare le proprietà di elenco nelle impostazioni della suite di rapporti. Consulta [Variabili del traffico](/help/admin/admin/c-traffic-variables/traffic-var.md) nella guida utente Admin. Assicurati che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
+Abilitare le proprietà di elenco nelle impostazioni della suite di rapporti. Vedi [Variabili del traffico](/help/admin/admin/c-traffic-variables/traffic-var.md) nella guida utente Admin. Assicurati che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
 
 >[!TIP]
 >
->I delimitatori comuni utilizzati nelle implementazioni sono una virgola (`,`), due punti (`:`), un punto e virgola (`;`) o una barra verticale (`|`). Puoi utilizzare qualsiasi delimitatore adatto alla tua implementazione.
+>I delimitatori comuni utilizzati nelle implementazioni sono una virgola (`,`), due punti (`:`), punto e virgola (`;`), o tubo (`|`). Puoi utilizzare qualsiasi delimitatore adatto alla tua implementazione.
 
 ### Imposta proprietà elenco
 

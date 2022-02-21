@@ -1,8 +1,9 @@
 ---
 title: Debugger Adobe Experience Cloud legacy
 description: Installa il debugger Adobe Experience Cloud legacy. Questo debugger esamina i tag per i tag di Analytics, Target, Advertising Cloud, Identity Service e Data Collection.
+feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 2%
@@ -13,9 +14,9 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Questo strumento di debug non viene più mantenuto. Adobe consiglia invece di utilizzare l’ [Estensione Adobe Experience Cloud Debugger Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it).
+>Questo strumento di debug non viene più mantenuto. L’Adobe consiglia invece di utilizzare il [Estensione Adobe Experience Cloud Debugger per Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it).
 
-La sezione [!UICONTROL Legacy Debugger] esamina i tag per la maggior parte dei servizi Adobe Experience Cloud. L’utilizzo del debugger consente di vedere quali dati vengono inviati ad Adobe in una determinata pagina del sito. Puoi utilizzare queste informazioni per risolvere i problemi o convalidare l’implementazione della tua organizzazione.
+La [!UICONTROL Legacy Debugger] esamina i tag per la maggior parte dei servizi Adobe Experience Cloud. L’utilizzo del debugger consente di vedere quali dati vengono inviati ad Adobe in una determinata pagina del sito. Puoi utilizzare queste informazioni per risolvere i problemi o convalidare l’implementazione della tua organizzazione.
 
 ## Installazione del debugger legacy
 
@@ -35,7 +36,7 @@ Ogni browser ha diversi modi di gestire i segnalibri, ma il concetto è lo stess
 
 #### Chrome
 
-Se insistai per non utilizzare l&#39; [estensione chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), puoi utilizzare al suo posto il bookmarklet di debug legacy.
+Se insisti per non utilizzare il [estensione chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), è invece possibile utilizzare il bookmarklet di debug legacy.
 
 1. Fai clic sui tre punti in alto a destra, quindi vai a Segnalibri > Gestione segnalibri. È inoltre possibile premere `Ctrl` + `Shift` + `O` (Windows) o `Cmd` + `Shift` + `O` (Mac).
 2. In alto a destra del gestore dei segnalibri, fare clic sui tre punti, quindi fare clic su &#39;Aggiungi nuovo segnalibro&#39;.
@@ -49,7 +50,7 @@ Se insistai per non utilizzare l&#39; [estensione chrome](https://experienceleag
 3. Nel campo Nome , etichettalo &quot;Adobe Experience Cloud Debugger&quot; e incolla lo snippet di codice nel campo Posizione. I campi Tag e Parola chiave non sono obbligatori.
 4. Utilizzare la finestra della libreria per inserire il nuovo bookmarklet nella posizione desiderata.
 
-#### Bordo
+#### Edge
 
 Edge non è in grado di creare manualmente un bookmarklet, ma l’URL di un segnalibro può essere modificato in un bookmarklet.
 
@@ -78,9 +79,9 @@ Passa alla pagina desiderata sul sito, quindi fai clic sul bookmarklet. Viene vi
 
 Il debugger dispone di diverse opzioni disponibili, che consentono di personalizzare la visualizzazione dei dati. Nessuna di queste opzioni influisce sulla raccolta dei dati.
 
-* **Prodotti di Experience Cloud visualizzati:** mostra o nasconde le richieste di immagini per ciascun prodotto di Experience Cloud corrispondente.
-* **Decode URL:** l’URL decodifica la richiesta di immagine per farla corrispondere a quanto viene visualizzato nel reporting. Adobe consiglia di lasciare selezionata questa casella.
-* **Aggiornamento automatico:** aggiorna automaticamente la finestra a comparsa ogni pochi secondi per verificare la presenza di ulteriori richieste di immagini sulla pagina. Se devi copiare/incollare contenuto nel debugger, disattiva l’aggiornamento automatico in modo che la selezione rimanga attiva.
-* **Formato descrittivo:** consente di attivare o disattivare il formato di visualizzazione tra etichette utili e stringhe di query non elaborate in una richiesta di immagine. Per ulteriori informazioni, consulta [Parametri query della raccolta dati](query-parameters.md) .
+* **Prodotti di Experience Cloud visualizzati:** Mostra o nasconde le richieste di immagini per ciascun prodotto di Experience Cloud.
+* **Decode URL:** L’URL decodifica la richiesta di immagine per corrispondere a quanto viene visualizzato nel reporting. Adobe consiglia di lasciare selezionata questa casella.
+* **Aggiornamento automatico:** Aggiorna automaticamente la finestra a comparsa ogni pochi secondi per verificare la presenza di ulteriori richieste di immagini nella pagina. Se devi copiare/incollare contenuto nel debugger, disattiva l’aggiornamento automatico in modo che la selezione rimanga attiva.
+* **Formato descrittivo:** Attiva o disattiva il formato di visualizzazione tra etichette utili e stringhe di query non elaborate in una richiesta di immagine. Vedi [Parametri query di raccolta dati](query-parameters.md) per ulteriori informazioni.
 
 Per salvare le opzioni di visualizzazione predefinite per il debugger, fai clic con il pulsante destro del mouse sul collegamento &quot;Adobe Debugger&quot; nell’angolo in alto a destra, quindi copia l’indirizzo del collegamento. Modifica il bookmarklet di debug corrente e incolla lo snippet di codice aggiornato nel campo URL.

@@ -1,8 +1,9 @@
 ---
 title: manageVars
 description: Modifica i valori di più di una variabile Analytics alla volta.
+feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -15,16 +16,16 @@ ht-degree: 0%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `manageVars` ti consente di manipolare i valori di più variabili di Analytics contemporaneamente. È inoltre possibile impostare i valori in lettere minuscole o rimuovere allo stesso tempo caratteri non necessari da più valori di variabili. Adobe consiglia di utilizzare questo plug-in per pulire il valore di più variabili alla volta.
+La `manageVars` Il plug-in ti consente di manipolare i valori di più variabili di Analytics alla volta. È inoltre possibile impostare i valori in lettere minuscole o rimuovere allo stesso tempo caratteri non necessari da più valori di variabili. Adobe consiglia di utilizzare questo plug-in per pulire il valore di più variabili contemporaneamente.
 
 ## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
-1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (pagina in alto)
@@ -37,10 +38,10 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
-1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
 1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche all’estensione Analytics.
 
@@ -57,9 +58,9 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## Usa il plug-in
 
-La funzione `manageVars` utilizza i seguenti argomenti:
+La `manageVars` La funzione utilizza i seguenti argomenti:
 
-* **`cb`** (obbligatorio, stringa): Nome di una funzione di callback utilizzata dal plug-in per manipolare le variabili di Analytics. È possibile utilizzare una funzione di Adobe come `cleanStr` o una funzione personalizzata.
+* **`cb`** (obbligatorio, stringa): Nome di una funzione di callback utilizzata dal plug-in per manipolare le variabili di Analytics. È possibile utilizzare una funzione di Adobe come `cleanStr` o la tua funzione personalizzata.
 * **`l`** (facoltativo, stringa): Elenco delimitato da virgole delle variabili di Analytics da manipolare. Se non è impostato, viene impostata l’impostazione predefinita a TUTTE le variabili Adobe Analytics, che includono:
    * `pageName`
    * `purchaseID`
@@ -77,7 +78,7 @@ La funzione `manageVars` utilizza i seguenti argomenti:
    * Tutte le variabili della gerarchia
    * Tutte le variabili dell’elenco
    * Tutte le variabili di dati di contesto
-* **`Il`** (facoltativo, booleano): Imposta su  `false` se desideri  ** escludere l’elenco delle variabili dichiarate nell’ `l` argomento anziché includerle. Predefinito su `true`.
+* **`Il`** (facoltativo, booleano): Imposta su `false` se vuoi *escludere* l&#39;elenco delle variabili dichiarate nella `l` argomenti invece di includerli. Predefinito su `true`.
 
 La chiamata di questa funzione non restituisce alcun risultato. Cambia invece i valori delle variabili di Analytics in base alla funzione di callback desiderata.
 
@@ -148,9 +149,9 @@ manageVars("cleanStr");
 ### 2.1 (14 gennaio 2019)
 
 * Correzione di bug per i browser Internet Explorer 11.
-* Modifiche per `s.cleanStr`, che ora utilizza la normale funzione `cleanStr`.
+* Modifiche per `s.cleanStr`, che ora utilizza il `cleanStr` funzione .
 
 ### 2.0 (7 maggio 2018)
 
 * Rilascio in punti (compresa la reanalisi/riscrittura completa del plug-in)
-* È stata aggiunta la funzione di callback `cleanStr`
+* Aggiunto `cleanStr` funzione di callback

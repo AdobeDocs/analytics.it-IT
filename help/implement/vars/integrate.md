@@ -1,8 +1,9 @@
 ---
 title: Integrate Module
 description: Il modulo Integrate Module consente ai partner di Adobe di integrare le attività di raccolta dei dati con la tua organizzazione.
+feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 3%
@@ -19,9 +20,9 @@ Il modulo Integrate Module consente ai partner di Adobe di integrare le attivit�
 
 ## Flusso di lavoro del modulo Integrate
 
-1. Un visitatore del sito carica una pagina che avvia una richiesta `get` per i dati del partner.
-2. Il partner di Adobe riceve la richiesta `get` e crea il pacchetto delle variabili appropriate in un oggetto JSON. Viene restituito l’oggetto JSON.
-3. Il sito riceve l’oggetto JSON e chiama `setVars` per assegnare le informazioni contenute nell’oggetto JSON alle variabili Adobe Analytics
+1. Un visitatore del sito carica una pagina che avvia un `get` richiesta di dati partner.
+2. Il partner Adobe riceve il `get` richiede e crea il pacchetto delle variabili appropriate in un oggetto JSON. Viene restituito l’oggetto JSON.
+3. Il tuo sito riceve l’oggetto JSON e le chiamate `setVars` per assegnare le informazioni contenute nell’oggetto JSON alle variabili Adobe Analytics
 4. Viene inviata una richiesta di immagine ai server di raccolta dati di Adobe.
 
 ## Implementazione del modulo Integrate
@@ -42,7 +43,7 @@ Per ottenere il codice del modulo è necessario un utente con accesso Amministra
 
 L’implementazione del modulo integrato sul sito richiede l’accesso all’interfaccia utente di raccolta dati in Adobe Experience Platform. Se utilizzi un’implementazione JavaScript legacy, è necessario accedere al codice sorgente del sito web dell’organizzazione.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà tag che desideri modificare.
 1. Fai clic sulla scheda Estensioni , quindi fai clic su Configura sotto Adobe Analytics.
 1. Apri il pannello a soffietto &quot;Configura il tracker utilizzando codice personalizzato&quot;, quindi fai clic su &quot;&lt;/> Apri editor&quot;.
@@ -54,7 +55,7 @@ Una volta implementato il modulo Integrate, utilizza questi metodi per configura
 
 ### add
 
-Il metodo `add` crea un&#39;istanza di un oggetto partner, che funge da archivio intermedio di dati variabili durante la condivisione di dati tra i sistemi partner e l&#39;implementazione. Questo metodo è necessario per tutte le integrazioni. Se più partner vengono utilizzati in un’unica implementazione, è necessario utilizzare un oggetto partner separato per ciascun partner univoco.
+La `add` crea un&#39;istanza di un oggetto partner, che funge da archivio intermedio di dati variabili durante la condivisione di dati tra i sistemi partner e l&#39;implementazione. Questo metodo è necessario per tutte le integrazioni. Se più partner vengono utilizzati in un’unica implementazione, è necessario utilizzare un oggetto partner separato per ciascun partner univoco.
 
 ```JavaScript
 s.Integrate.add("<partner_name>");
@@ -64,7 +65,7 @@ In genere, l’organizzazione collabora con un partner di Adobe per determinare 
 
 ### beacon
 
-Il metodo `beacon` crea una richiesta di immagine e la indirizza all’URL specificato. Queste richieste di immagini sono diverse dalle richieste di immagini standard. Il metodo beacon invia in genere i dati al partner Adobe anziché ai server di raccolta dati Adobe.
+La `beacon` crea una richiesta di immagine e la indirizza all&#39;URL specificato. Queste richieste di immagini sono diverse dalle richieste di immagini standard. Il metodo beacon invia in genere i dati al partner Adobe anziché ai server di raccolta dati Adobe.
 
 ```JavaScript
 p.beacon("<partner_url>/track?qs1=value1&qs2=value2");
@@ -78,15 +79,15 @@ Adobe sta lavorando internamente con i team per ottenere la documentazione di qu
 
 ### get
 
-Il metodo `get` consente a un client di importare le variabili del partner e archiviarle nell&#39;oggetto partner. Una volta che i dati si trovano nell’oggetto partner, possono essere assegnati alle variabili di Analytics e inviati in una richiesta di immagine. Questo metodo chiama un URL, che punta a un oggetto JSON contenente i dati desiderati.
+La `get` consente a un client di importare le variabili partner e archiviarle nell&#39;oggetto partner. Una volta che i dati si trovano nell’oggetto partner, possono essere assegnati alle variabili di Analytics e inviati in una richiesta di immagine. Questo metodo chiama un URL, che punta a un oggetto JSON contenente i dati desiderati.
 
 ```JavaScript
 s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 ```
 
-* **Nome partner:** la tua organizzazione in genere collabora con il partner di Adobe per determinare il valore del nome del partner.
-* **URL dell’oggetto JSON:** l’URL di un oggetto JSON che contiene le variabili partner da incorporare in una richiesta di immagine.
-* **Parametri della stringa di query:** informazioni sull’account partner che identificano la tua organizzazione nel sistema del partner. Il partner di Adobe utilizza queste informazioni per identificare il set di dati.
+* **Nome partner:** In genere, l’organizzazione collabora con il partner di Adobe per determinare il valore del nome del partner.
+* **URL dell’oggetto JSON:** L’URL di un oggetto JSON che contiene le variabili partner da incorporare in una richiesta di immagine.
+* **Parametri della stringa di query:** Informazioni sull&#39;account partner che identificano l&#39;organizzazione nel sistema del partner. Il partner di Adobe utilizza queste informazioni per identificare il set di dati.
 
 Il modulo Integrate aggiunge automaticamente ulteriori stringhe di query all’URL. Una stringa di query var specifica il nome dell&#39;oggetto JSON che il modulo si aspetta di nuovo dal partner. Viene inoltre aggiunto un numero casuale per impedire la memorizzazione in cache del browser.
 
@@ -96,7 +97,7 @@ Adobe sta lavorando internamente con i team per ottenere la documentazione di qu
 
 ### useVars
 
-Il metodo `useVars` consente al client di condividere i valori delle variabili con un partner di Adobe.
+La `useVars` consente al client di condividere i valori delle variabili con un partner di Adobe.
 
 ```JavaScript
 s.Integrate.<partner_name>.useVars = function (s,p) {
@@ -109,7 +110,7 @@ In genere, la tua organizzazione collabora con un partner di Adobe per determina
 
 ### setVars
 
-Il metodo `setVars` consente al client di popolare le variabili di Analytics utilizzando i dati del partner recuperati. I dati dei partner possono essere il risultato di un metodo `get`, di un&#39;assegnazione statica o di qualsiasi altro meccanismo che popola l&#39;oggetto partner con i dati.
+La `setVars` consente al client di popolare le variabili di Analytics utilizzando i dati del partner recuperati. I dati dei partner possono essere il risultato di un `get` metodo, assegnazione statica o qualsiasi altro meccanismo che popola l&#39;oggetto partner con i dati.
 
 ```JavaScript
 s.Integrate.<partner_name>.setVars = function (s,p) {
@@ -122,7 +123,7 @@ In genere, la tua organizzazione collabora con un partner di Adobe per determina
 
 ### script
 
-Il metodo `script` consente a un partner di Adobe di chiamare un codice JavaScript aggiuntivo dal sito partner se vengono soddisfatte determinate condizioni (ad esempio, se la variabile della campagna è impostata).
+La `script` Questo metodo consente a un partner di Adobe di chiamare un codice JavaScript aggiuntivo dal sito partner se vengono soddisfatte determinate condizioni (ad esempio, se la variabile campagna è impostata).
 
 ```JavaScript
 p.script("<partner_url>/script?qs1=value1&qs2=value2");

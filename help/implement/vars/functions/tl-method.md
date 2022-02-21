@@ -1,8 +1,9 @@
 ---
 title: tl
 description: Invia ad Adobe una chiamata di tracciamento dei collegamenti.
+feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -11,26 +12,26 @@ ht-degree: 0%
 
 # tl
 
-Il metodo `tl()` è un componente di base importante per Adobe Analytics. Prende tutte le variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe. Funziona in modo simile al metodo [`t()`](t-method.md) , tuttavia questo metodo non incrementa le visualizzazioni di pagina. È utile per tenere traccia dei collegamenti e di altri elementi che non verrebbero considerati come un caricamento completo della pagina.
+La `tl()` è un componente di base importante per Adobe Analytics. Prende tutte le variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe. Funziona in modo simile al [`t()`](t-method.md) , tuttavia questo metodo non incrementa le visualizzazioni di pagina. È utile per tenere traccia dei collegamenti e di altri elementi che non verrebbero considerati come un caricamento completo della pagina.
 
-Se sono abilitati [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) , AppMeasurement chiama automaticamente il metodo `tl()` per inviare il collegamento di download e uscire dai dati di tracciamento dei collegamenti. Se la tua organizzazione preferisce avere più controllo sui collegamenti da tracciare e sul loro comportamento, puoi chiamare manualmente il metodo `tl()` . I collegamenti personalizzati possono essere tracciati solo manualmente.
+Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) sono abilitati, AppMeasurement chiama automaticamente il `tl()` metodo per inviare i dati di tracciamento dei collegamenti di download e di uscita. Se la tua organizzazione preferisce avere più controllo sui collegamenti da tracciare e sul loro comportamento, puoi chiamare il `tl()` metodo manuale. I collegamenti personalizzati possono essere tracciati solo manualmente.
 
 ## Chiamata di tracciamento dei collegamenti tramite tag in Adobe Experience Platform
 
 L’interfaccia utente di raccolta dati dispone di una posizione dedicata impostata per una chiamata di tracciamento dei collegamenti.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
-1. In [!UICONTROL Actions], fai clic sull&#39;icona &quot;+&quot;
-1. Imposta il menu a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su Invia beacon.
-1. Fare clic sul pulsante di scelta `s.tl()`.
+1. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
+1. Sotto [!UICONTROL Actions], fai clic sull&#39;icona &quot;+&quot;
+1. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a Invia beacon.
+1. Fai clic sul pulsante `s.tl()` pulsante di scelta.
 
 Non è possibile impostare argomenti facoltativi nell’interfaccia utente Raccolta dati.
 
 ## s.tl() in AppMeasurement e nell&#39;editor di codice personalizzato
 
-Chiama il metodo `s.tl()` quando desideri inviare una chiamata di tracciamento ad Adobe.
+Chiama il `s.tl()` quando desideri inviare una chiamata di tracciamento ad Adobe.
 
 ```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
@@ -42,7 +43,7 @@ L’argomento dell’oggetto collegamento determina se il browser attende fino a
 
 >[!NOTE]
 >
->AppMeasurement abilita automaticamente la variabile [`useBeacon`](../config-vars/usebeacon.md) per i collegamenti di uscita, rendendo questo argomento non più necessario nei browser moderni. Questo argomento è stato utilizzato più comunemente nelle versioni precedenti di AppMeasurement.
+>AppMeasurement abilita automaticamente il [`useBeacon`](../config-vars/usebeacon.md) per i collegamenti di uscita, rendendo questo argomento non più necessario nei browser moderni. Questo argomento è stato utilizzato più comunemente nelle versioni precedenti di AppMeasurement.
 
 * `this`: Attendi fino a 500 ms per dare tempo ad AppMeasurement per inviare una richiesta di immagine. Valore predefinito.
 * `true`: Non aspettare.
@@ -59,9 +60,9 @@ s.tl(true,"e","Example exit link");
 
 L’argomento tipo di collegamento è una stringa a carattere singolo che determina il tipo di chiamata di tracciamento del collegamento. Tre valori validi.
 
-* `o`: Il collegamento è un collegamento  [personalizzato](/help/components/dimensions/custom-link.md).
-* `d`: Il collegamento è un collegamento  [Scarica](/help/components/dimensions/download-link.md).
-* `e`: Il collegamento è un collegamento  [Esci](/help/components/dimensions/exit-link.md).
+* `o`: Il collegamento è un [Collegamento personalizzato](/help/components/dimensions/custom-link.md).
+* `d`: Il collegamento è un [Collegamento di download](/help/components/dimensions/download-link.md).
+* `e`: Il collegamento è un [Collegamento di uscita](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
@@ -76,7 +77,7 @@ s.tl(true,"e","Example exit link");
 
 ### Nome collegamento (consigliato)
 
-L’argomento nome collegamento è una stringa che determina l’elemento della dimensione di tracciamento del collegamento. Quando utilizzi le dimensioni [Collegamento personalizzato](/help/components/dimensions/custom-link.md), [Collegamento di download](/help/components/dimensions/download-link.md) o [Collegamento di uscita](/help/components/dimensions/exit-link.md) nel rapporto, questa stringa contiene l’elemento dimensione. Se questo argomento non è impostato, viene utilizzata la variabile [linkURL](../config-vars/linkurl.md) .
+L’argomento nome collegamento è una stringa che determina l’elemento della dimensione di tracciamento del collegamento. Quando utilizzi [Collegamento personalizzato](/help/components/dimensions/custom-link.md), [Collegamento di download](/help/components/dimensions/download-link.md)oppure [Collegamento di uscita](/help/components/dimensions/exit-link.md) dimensioni nel reporting, questa stringa contiene l&#39;elemento dimensione. Se questo argomento non viene impostato, il [linkURL](../config-vars/linkurl.md) viene utilizzata la variabile .
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
@@ -85,7 +86,7 @@ s.tl(true,"d","Sea turtle PDF report");
 
 ### Ignorare le variabili (facoltativo)
 
-Consente di modificare i valori delle variabili per una singola chiamata. Per ulteriori informazioni, consulta [sostituzioni delle variabili](../../js/overrides.md) .
+Consente di modificare i valori delle variabili per una singola chiamata. Vedi [sostituzioni delle variabili](../../js/overrides.md) per ulteriori informazioni.
 
 ```js
 var y = new Object();
@@ -130,7 +131,7 @@ Puoi quindi chiamare la funzione ogni volta che desideri tenere traccia di un de
 
 ### Evita di tracciare i collegamenti duplicati
 
-Se sono abilitati `trackDownloadLinks` o `trackExternalLinks` , AppMeasurement effettua automaticamente una chiamata di tracciamento dei collegamenti se i filtri corretti corrispondono. Se effettui anche una chiamata manuale `s.tl()` per questi clic sul collegamento, puoi inviare dati duplicati ad Adobe. I dati duplicati gonfiano i numeri dei rapporti e li rendono meno precisi.
+Se `trackDownloadLinks` o `trackExternalLinks` sono abilitati, AppMeasurement effettua automaticamente una chiamata di tracciamento dei collegamenti se i filtri corretti corrispondono. Se si chiama anche manualmente `s.tl()` per questi clic sul collegamento, puoi inviare dati duplicati ad Adobe. I dati duplicati gonfiano i numeri dei rapporti e li rendono meno precisi.
 
 Ad esempio, la funzione seguente invierebbe due chiamate di tracciamento dei collegamenti per lo stesso clic (collegamenti per il download manuale e automatico):
 

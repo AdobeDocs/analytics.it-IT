@@ -1,8 +1,9 @@
 ---
 title: Implementazione di Analytics per gli assistenti digitali
 description: Implementa Adobe Analytics sugli assistenti digitali, ad esempio Amazon Alexa o Google Home.
+feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 1%
@@ -26,7 +27,7 @@ Questa pagina fornisce una panoramica del modo migliore di utilizzare Adobe Anal
 La maggior parte degli assistenti digitali segue oggi un&#39;architettura di alto livello simile:
 
 1. **Dispositivo**: Esiste un dispositivo (come un Amazon Echo o un telefono) con un microfono che consente all&#39;utente di fare una domanda.
-1. **Assistente** digitale: Quel dispositivo interagisce con il servizio che alimenta l&#39;assistente digitale. È lì che il discorso viene convertito in intenti comprensibili a macchina e i dettagli della richiesta vengono analizzati. Una volta compreso l’intento dell’utente, l’assistente digitale trasmette l’intento e i dettagli della richiesta all’app che gestisce la richiesta.
+1. **Assistente digitale**: Quel dispositivo interagisce con il servizio che alimenta l&#39;assistente digitale. È lì che il discorso viene convertito in intenti comprensibili a macchina e i dettagli della richiesta vengono analizzati. Una volta compreso l’intento dell’utente, l’assistente digitale trasmette l’intento e i dettagli della richiesta all’app che gestisce la richiesta.
 1. **&quot;App&quot;**: L’app può essere un’app sul telefono o un’app per voce. L’app risponde alla richiesta. Risponde all&#39;assistente digitale e l&#39;assistente digitale risponde quindi all&#39;utente.
 
 ## Dove implementare Analytics
@@ -57,7 +58,7 @@ Host:
 
 ## Più assistenti o più app
 
-È probabile che la tua organizzazione desideri app per più piattaforme. La best practice prevede l’inclusione di un ID app a ogni richiesta. Questa variabile può essere impostata nella variabile di dati di contesto `a.AppID` . Segui il formato di `[AppName] [BundleVersion]`, ad esempio, BigMac per Alexa 1.2:
+È probabile che la tua organizzazione desideri app per più piattaforme. La best practice prevede l’inclusione di un ID app a ogni richiesta. Questa variabile può essere impostata nel `a.AppID` variabile di dati di contesto. Seguire il formato di `[AppName] [BundleVersion]`, ad esempio, BigMac per Alexa 1.2:
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
@@ -73,9 +74,9 @@ Cache-Control: no-cache
 
 ## Identificazione utente/visitatore
 
-Adobe Analytics utilizza il [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html) per collegare le interazioni nel tempo alla stessa persona. La maggior parte degli assistenti digitali restituisce un valore `userID` che è possibile utilizzare per mantenere l’attività per utenti diversi. Nella maggior parte dei casi, questo valore è quello che puoi passare come identificatore univoco. Alcune piattaforme restituiscono un identificatore più lungo dei 100 caratteri consentiti. In questi casi, l’Adobe consiglia di aggiungere l’identificatore univoco a un valore a lunghezza fissa utilizzando un algoritmo di hash standard, ad esempio MD5 o Sha1.
+Adobe Analytics utilizza [Servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) legare le interazioni nel tempo alla stessa persona. La maggior parte degli assistenti digitali restituisce un `userID` che puoi utilizzare per mantenere l’attività per utenti diversi. Nella maggior parte dei casi, questo valore è quello che puoi passare come identificatore univoco. Alcune piattaforme restituiscono un identificatore più lungo dei 100 caratteri consentiti. In questi casi, l’Adobe consiglia di aggiungere l’identificatore univoco a un valore a lunghezza fissa utilizzando un algoritmo di hash standard, ad esempio MD5 o Sha1.
 
-L&#39;utilizzo del servizio ID fornisce il massimo valore quando mappi ECID su diversi dispositivi (ad esempio, da web a digitale). Se l&#39;app è un&#39;app mobile, usa gli SDK di Experience Platform così com&#39;è e invia l&#39;ID utente utilizzando il metodo `setCustomerID` . Tuttavia, se la tua app è un servizio, usa l’ID utente fornito dal servizio come ECID, nonché impostalo in `setCustomerID`.
+L&#39;utilizzo del servizio ID fornisce il massimo valore quando mappi ECID su diversi dispositivi (ad esempio, da web a digitale). Se la tua app è un’app mobile, usa gli SDK di Experience Platform così com’è e invia l’ID utente utilizzando `setCustomerID` metodo . Tuttavia, se la tua app è un servizio, usa l’ID utente fornito dal servizio come ECID, nonché impostalo in `setCustomerID`.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
@@ -87,18 +88,18 @@ Cache-Control: no-cache
 
 Poiché gli assistenti digitali sono conversazionali, spesso hanno il concetto di sessione. Ad esempio:
 
-**Consumatore:**  &quot;Ok Google, chiama un taxi per me&quot;
+**Consumatore:** &quot;Ok Google, chiama un taxi per me&quot;
 
 **Google:**: &quot;Certo, a che ora vuoi?&quot;
 
-**Consumatore:**  &quot;20:30&quot;
+**Consumatore:** &quot;20:30&quot;
 
 **Google:** &quot;Suona bene, il conducente sarà alle 8:30pm&quot;
 
 Le sessioni sono importanti per mantenere il contesto e aiutare a raccogliere più dettagli per rendere più naturale l&#39;assistente digitale. Quando si implementa Analytics su una conversazione, è necessario eseguire due operazioni all’avvio di una nuova sessione:
 
-1. **Consulta l’Audience Manager**: Ottieni i segmenti rilevanti di cui fa parte un utente in modo da poter personalizzare la risposta. (Ad esempio, questa persona attualmente può usufruire dello sconto multicanale).
-2. **Invia una nuova sessione o un nuovo evento** di avvio: Quando invii la prima risposta ad Analytics, includi un evento di avvio. Di solito, questo può essere inviato impostando i dati contestuali di `a.LaunchEvent=1`.
+1. **Audience Manager**: Ottieni i segmenti rilevanti di cui fa parte un utente in modo da poter personalizzare la risposta. (Ad esempio, questa persona attualmente può usufruire dello sconto multicanale).
+2. **Inviare una nuova sessione o un nuovo evento di avvio**: Quando invii la prima risposta ad Analytics, includi un evento di avvio. Di solito, questo può essere inviato impostando i dati contestuali di `a.LaunchEvent=1`.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
@@ -110,7 +111,7 @@ Cache-Control: no-cache
 
 Ciascuno degli assistenti digitali dispone di algoritmi che rilevano gli intenti e quindi trasmettono l’intento all’app in modo che l’app sappia cosa fare. Questi intenti sono una breve rappresentazione della richiesta.
 
-Ad esempio, se un utente dice, &quot;Siri, invia John $20 per la cena ieri sera dalla mia app bancaria&quot;, l&#39;intento potrebbe essere qualcosa come *sendMoney*.
+Per esempio, se un utente dice, &quot;Siri, mandi John $20 per cena ieri sera dalla mia app bancaria&quot;, l&#39;intento potrebbe essere qualcosa come *sendMoney*.
 
 Inviando ciascuna di queste richieste come eVar, puoi eseguire rapporti di percorsi su ciascuno degli intenti per le app conversazionali. Assicurati che la tua app possa gestire le richieste anche senza un intento. L&#39;Adobe consiglia di passare &#39;Nessun intento specificato&#39; alla variabile di dati di contesto intento, anziché omettere la variabile .
 
@@ -162,10 +163,10 @@ Anche se la maggior parte delle piattaforme non espongono il dispositivo a cui l
 
 Esempio: `":Audio:Camera:Screen:Video:"`
 
-I due punti iniziali e finali sono utili per la creazione dei segmenti. Ad esempio, mostra tutti gli hit con funzionalità `:Audio:`.
+I due punti iniziali e finali sono utili per la creazione dei segmenti. Ad esempio, mostra tutti gli hit con `:Audio:` funzionalità.
 
-* [Funzionalità ](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference) di Amazon con Amazon Alexa
-* [Funzionalità ](https://developers.google.com/actions/assistant/surface-capabilities) di Google tramite azioni su Google
+* [Funzionalità di Amazon](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference) utilizzo di Amazon Alexa
+* [Funzionalità Google](https://developers.google.com/actions/assistant/surface-capabilities) utilizzo delle azioni in Google
 
 ## Esempi
 

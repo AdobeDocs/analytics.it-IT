@@ -1,15 +1,16 @@
 ---
 title: Creare una proprietà Analytics nei tag
 description: Crea uno spazio per personalizzare la modalità di raccolta dei dati utilizzando i tag .
+feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
-# Creare una proprietà tag Adobe Analytics
+# Creare una proprietà tag in Adobe Analytics
 
 I tag in Adobe Experience Platform consentono di integrare soluzioni Experience Cloud sul sito web (incluso Analytics). Questa pagina illustra in particolare come un amministratore di tag può configurare correttamente un’implementazione di base di Adobe Analytics.
 
@@ -18,17 +19,17 @@ I tag in Adobe Experience Platform consentono di integrare soluzioni Experience 
 
 ## Prerequisiti
 
-[Creare una suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) di rapporti: Crea un silos per i dati di Analytics da raccogliere.
+[Creare una suite di rapporti](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Crea un silos per i dati di Analytics da raccogliere.
 
 ## Creare una proprietà tag e installare estensioni vitali
 
 Le proprietà sono contenitori principali utilizzati per gestire i tag. Le estensioni ti consentono di installare tag specifici per il prodotto e configurarli.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic su **[!UICONTROL New Property]**.
 1. Assegna alla proprietà un nome, ad esempio il titolo del sito web, e immetti il dominio su cui intendi implementare Analytics. Fai clic su **[!UICONTROL Save]**.
 1. Fai clic sulla nuova proprietà tag creata per inserirne le impostazioni.
-1. Fai clic sulla scheda **[!UICONTROL Extensions]** , quindi fai clic su **[!UICONTROL Catalog]**.
+1. Fai clic sul pulsante **[!UICONTROL Extensions]** scheda , quindi fai clic su **[!UICONTROL Catalog]**.
 1. Individua il servizio Identity, quindi fai clic su **[!UICONTROL Install]**.
 1. Tutte le impostazioni, incluso l’ID organizzazione Experience Cloud, devono essere già compilate. Fai clic su **[!UICONTROL Save]**.
 1. Nel catalogo delle estensioni, individua Adobe Analytics e fai clic su **[!UICONTROL Install]**.
@@ -37,9 +38,9 @@ Le proprietà sono contenitori principali utilizzati per gestire i tag. Le esten
 
 Gli elementi dati sono riferimenti a parti specifiche del sito per raccogliere valori variabili.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà tag che intendi implementare sul sito.
-1. Fai clic sulla scheda **[!UICONTROL Data Elements]** , quindi fai clic su **[!UICONTROL Create New Data Element]**.
+1. Fai clic sul pulsante **[!UICONTROL Data Elements]** scheda , quindi fai clic su **[!UICONTROL Create New Data Element]**.
 1. Assegna all’elemento dati le seguenti impostazioni:
 
    * Nome: Nome pagina
@@ -58,20 +59,20 @@ Gli elementi dati sono riferimenti a parti specifiche del sito per raccogliere v
 
 Le regole mappano gli elementi dati ai valori delle variabili di Analytics e determinano quando tali valori vengono inviati ai server di Adobe.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà tag che intendi implementare sul sito.
-1. Fare clic su **[!UICONTROL Create New Rule]** e denominarlo `Global Rule`.
-1. Fai clic su **[!UICONTROL Add]** accanto agli eventi e immetti le seguenti impostazioni:
+1. Fai clic su **[!UICONTROL Create New Rule]** e denominalo `Global Rule`.
+1. Fai clic su **[!UICONTROL Add]** accanto agli eventi e immettere le impostazioni seguenti:
    * Estensione: Core
    * Tipo evento: Libreria caricata (Pagina in alto)
    * Nome: Core - Libreria caricata (pagina in alto)
    * Ordine: 50
 1. Fai clic su **[!UICONTROL Keep Changes]**.
-1. In **[!UICONTROL Actions]**, fai clic su **[!UICONTROL Add]** e immetti le seguenti impostazioni:
+1. Sotto **[!UICONTROL Actions]**, fai clic su **[!UICONTROL Add]** e immetti le seguenti impostazioni:
    * Estensione: Adobe Analytics
    * Tipo azione: Imposta variabili
-   * Nome pagina: fai clic sull’icona del contenitore e seleziona l’elemento dati `Page Name` .
-   * Campagna: Parametro query con valore `cid`
+   * Nome pagina: fai clic sull’icona del contenitore e seleziona la `Page Name` elemento dati.
+   * Campagna: Parametro query con valore di `cid`
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 1. Fai clic sul segno più accanto alle azioni per aggiungere un’altra azione e immetti le seguenti impostazioni:
    * Estensione: Adobe Analytics
@@ -83,10 +84,10 @@ Le regole mappano gli elementi dati ai valori delle variabili di Analytics e det
 
 ## Documentazione e risorse aggiuntive
 
-* [Documentazione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) dell&#39;estensione Adobe Analytics: Documentazione completa specifica per l’estensione Adobe Analytics nei tag.
+* [Documentazione dell&#39;estensione di Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it): Documentazione completa specifica per l’estensione Adobe Analytics nei tag.
 * [Guida introduttiva ai tag](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): Documentazione completa sui tag, inclusa una guida introduttiva più dettagliata
-* [Canale](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform) Adobe Experience Platform Launch: Scopri come utilizzare i tag nei video
+* [Canale Adobe Experience Platform Launch](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): Scopri come utilizzare i tag nei video
 
 ## Passaggi successivi
 
-[Implementare l&#39;implementazione di Analytics nell&#39;ambiente](deploy-dev.md) di sviluppo: Ottieni il codice Analytics che funziona in un ambiente di test.
+[Implementazione di Analytics nell’ambiente di sviluppo](deploy-dev.md): Ottieni il codice Analytics che funziona in un ambiente di test.

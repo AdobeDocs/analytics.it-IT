@@ -1,8 +1,9 @@
 ---
 title: list
 description: Variabili personalizzate che contengono più valori nello stesso hit.
+feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Le variabili elenco sono variabili personalizzate che puoi utilizzare come desideri. Funzionano in modo simile alle eVar, ma possono contenere più valori nello stesso hit. Le variabili elenco non hanno un limite di caratteri.
 
-Assicurati di registrare come utilizzi ciascuna variabile di elenco e la relativa logica nel [documento di progettazione della soluzione](../../prepare/solution-design.md).
+Assicurati di registrare come utilizzare ogni variabile di elenco e la relativa logica nel [documento di progettazione della soluzione](../../prepare/solution-design.md).
 
 >[!NOTE]
 >
@@ -21,7 +22,7 @@ Assicurati di registrare come utilizzi ciascuna variabile di elenco e la relativ
 
 ## Impostare le variabili elenco nelle impostazioni delle suite di rapporti
 
-Assicurati di configurare ogni variabile dell’elenco nelle impostazioni della suite di rapporti prima di utilizzarla nell’implementazione. Consulta [Variabili di conversione](/help/admin/admin/conversion-var-admin/list-var-admin.md) nella guida dell&#39;amministratore.
+Assicurati di configurare ogni variabile dell’elenco nelle impostazioni della suite di rapporti prima di utilizzarla nell’implementazione. Vedi [Variabili di conversione](/help/admin/admin/conversion-var-admin/list-var-admin.md) nella guida Amministratore.
 
 ## Elencare le variabili utilizzando i tag in Adobe Experience Platform
 
@@ -38,7 +39,7 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
->Se imposti valori duplicati nello stesso hit, Adobe deduplica tutte le istanze di tali valori. Ad esempio, se imposti `s.list1 = "Example,Example";`, nei rapporti viene conteggiata una sola istanza.
+>Se imposti valori duplicati nello stesso hit, Adobe deduplica tutte le istanze di tali valori. Ad esempio, se si imposta `s.list1 = "Example,Example";`, un’istanza viene conteggiata nei rapporti.
 
 ## Confrontare proprietà elenco con variabili elenco
 
@@ -46,4 +47,4 @@ Le proprietà di elenco e le variabili di elenco possono contenere più valori n
 
 * Qualsiasi prop può diventare una proprietà di elenco. Puoi effettivamente avere fino a 75 proprietà elenco, se ogni proprietà è una proprietà elenco. Sono disponibili solo 3 variabili elenco.
 * Le proprietà di elenco hanno un limite di 100 byte per l&#39;intera variabile. Le variabili elenco hanno un limite di 255 byte per valore e nessun limite totale di byte.
-* Le proprietà dell’elenco non persistono oltre l’hit impostato. Le variabili elenco dispongono di un’impostazione di scadenza. Tuttavia, con l’ [elaborazione dei tempi di report](/help/components/vrs/vrs-report-time-processing.md), puoi applicare l’attribuzione personalizzata sia alle proprietà dell’elenco che alle variabili dell’elenco.
+* Le proprietà dell’elenco non persistono oltre l’hit impostato. Le variabili elenco dispongono di un’impostazione di scadenza. Tuttavia, con [elaborazione dei tempi di report](/help/components/vrs/vrs-report-time-processing.md), puoi applicare l’attribuzione personalizzata sia alle proprietà dell’elenco che alle variabili dell’elenco.

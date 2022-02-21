@@ -1,8 +1,9 @@
 ---
 title: rfl
 description: Rimuovere un valore specifico da una stringa delimitata da caratteri.
+feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 1%
@@ -15,7 +16,7 @@ ht-degree: 1%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `rfl` consente di rimuovere in modo &quot;sicuro&quot; i valori dalle stringhe delimitate, ad esempio [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md) e altri. Questo plug-in è utile se desideri rimuovere valori specifici da una stringa delimitata senza preoccuparti dei delimitatori. Diversi altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più di una variabile Analytics alla volta o se non si utilizzano plug-in dipendenti.
+La `rfl` il plug-in consente di rimuovere in modo &quot;sicuro&quot; i valori dalle stringhe delimitate, ad esempio [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md)e altri. Questo plug-in è utile se desideri rimuovere valori specifici da una stringa delimitata senza preoccuparti dei delimitatori. Diversi altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più di una variabile Analytics alla volta o se non si utilizzano plug-in dipendenti.
 
 Il plug-in utilizza la logica seguente:
 
@@ -26,10 +27,10 @@ Il plug-in utilizza la logica seguente:
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
-1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (pagina in alto)
@@ -42,10 +43,10 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
-1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
 1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche all’estensione Analytics.
 
@@ -62,15 +63,15 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 
 ## Usa il plug-in
 
-La funzione `rfl` utilizza i seguenti argomenti:
+La `rfl` La funzione utilizza i seguenti argomenti:
 
 * **`lv`** (obbligatorio, stringa): Variabile (o stringa) contenente un elenco di valori delimitati
-* **`vr`** (obbligatorio, stringa): Il valore da rimuovere dall&#39; `lv` argomento. Adobe consiglia di non rimuovere più valori durante una singola chiamata `rfl`.
-* **`d1`** (facoltativo, stringa): Il delimitatore utilizzato dall&#39; `lv` argomento. Impostazione predefinita di una virgola (`,`).
-* **`d2`** (facoltativo, stringa): Il delimitatore che si desidera utilizzare per la stringa restituita. Predefinito sullo stesso valore dell&#39;argomento `d1`.
-* **`df`** (facoltativo, booleano): Se  `true`, forza solo le istanze duplicate dell&#39; `vr` argomento dall&#39; `lv` argomento invece di tutte le istanze. Se non è impostato, viene impostato il valore predefinito `false`.
+* **`vr`** (obbligatorio, stringa): Il valore da rimuovere dal `lv` argomento. Adobe sconsiglia di rimuovere più valori durante un singolo `rfl` chiama.
+* **`d1`** (facoltativo, stringa): Il delimitatore che la `lv` viene utilizzato l&#39;argomento . Impostazione predefinita di una virgola (`,`).
+* **`d2`** (facoltativo, stringa): Il delimitatore che si desidera utilizzare per la stringa restituita. Predefinito allo stesso valore della variabile `d1` argomento.
+* **`df`** (facoltativo, booleano): Se `true`, forza solo le istanze duplicate del `vr` argomento del `lv` anziché tutte le istanze. Predefinito su `false` quando non è impostato.
 
-Una chiamata a questa funzione restituisce una stringa modificata contenente l&#39;argomento `lv` ma senza istanze (o istanze duplicate) del valore specificato nell&#39;argomento `vr`.
+Una chiamata a questa funzione restituisce una stringa modificata contenente `lv` ma senza istanze (o istanze duplicate) del valore specificato nel `vr` argomento.
 
 ## Chiamate di esempio
 
@@ -116,7 +117,7 @@ s.events = "event22,event24,event25";
 
 In questo esempio, la chiamata rfl non ha apportato modifiche a s.events poiché s.events non conteneva &quot;event26&quot;
 
-### Esempio n. 2
+### Esempio n. 3
 
 Se viene mostrato...
 
@@ -136,7 +137,7 @@ s.events = rfl(s.events);
 s.events = "";
 ```
 
-Se l&#39;argomento `lv` o `vr` sono vuoti in una chiamata `rfl`, il plug-in non restituisce nulla.
+Se `lv` argomento o `vr` argomento vuoto in un `rfl` Chiama, quindi il plug-in non restituisce nulla.
 
 ### Esempio n. 4
 
@@ -164,7 +165,7 @@ s.prop4 = "hello|people|today";
 s.eVar5 = "hello|today";
 ```
 
-Tieni presente che il plug-in restituisce solo un valore; in realtà non &quot;reimposta&quot; la variabile passata attraverso l&#39;argomento `lv` .
+Tieni presente che il plug-in restituisce solo un valore; in realtà non &quot;reimposta&quot; la variabile passata attraverso il `lv` argomento.
 
 ### Esempio n. 5
 
@@ -186,7 +187,7 @@ s.prop4 = rfl(s.prop4,"people");
 s.prop4 = "hello|people|today";
 ```
 
-Assicurati di impostare l’argomento `d1` nei casi in cui il valore dell’argomento `lv` contiene un delimitatore diverso dal valore predefinito (ad esempio, virgola).
+Assicurati di impostare il `d1` in casi in cui `lv` il valore dell&#39;argomento contiene un delimitatore diverso rispetto al valore predefinito (ovvero virgola).
 
 ### Esempio n. 6
 
@@ -250,7 +251,7 @@ s.events = rfl(s.events,"event23:12345");
 s.events = "event22,event23:12345,event25";
 ```
 
-Quando devi rimuovere un evento che utilizza la serializzazione e/o la sintassi numerica/valutaria, devi specificare solo l’evento stesso (ovvero senza i valori serialization/numeric/currency) nella chiamata `rfl` .
+Quando devi rimuovere un evento che utilizza la serializzazione e/o la sintassi numerica/valutaria, devi specificare solo l’evento stesso (ovvero senza i valori serialization/numeric/currency) nel `rfl` chiama.
 
 ### Esempio n. 9
 
@@ -332,7 +333,7 @@ s.events = rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-L&#39;impostazione di più valori nell&#39;argomento `vr` non è supportata. La logica `rfl` nell&#39;esempio precedente dividerebbe prima i valori nell&#39;argomento `lv` (cioè s.events), quindi prova a far corrispondere ogni valore delimitato al valore completo dell&#39;argomento `vr` (ovvero `"event23,event24"`).
+Impostazione di più valori nel `vr` argomento non supportato. La `rfl` Nell&#39;esempio precedente, i valori vengono prima suddivisi nel `lv` argomento (ad esempio s.events) quindi cercare di far corrispondere ogni valore delimitato al valore completo `vr` valore dell&#39;argomento (ovvero `"event23,event24"`).
 
 ### Esempio n. 13
 
@@ -355,7 +356,7 @@ s.events = rfl(s.events,"event24");
 s.events = "event22,event25");
 ```
 
-Ogni valore da rimuovere dall’elenco deve essere contenuto all’interno della relativa chiamata `rfl` .
+Ogni valore da rimuovere dall’elenco deve essere contenuto all’interno del proprio `rfl` chiama.
 
 ### Esempio n. 14
 
@@ -377,7 +378,7 @@ s.linkTrackVars = rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-Gli ultimi tre argomenti (cioè &quot;,&quot;,&quot;,&quot;, false) alla fine di questa chiamata `rfl` non sono necessarie ma non &quot;danneggiano nulla&quot; se sono presenti in quanto corrispondono alle impostazioni predefinite.
+Gli ultimi tre argomenti (cioè &quot;,&quot;,&quot;,&quot;, false) alla fine di questo `rfl` Le chiamate non sono necessarie, ma non &quot;danneggiano nulla&quot; poiché corrispondono alle impostazioni predefinite.
 
 ### Esempio n. 15
 
@@ -399,7 +400,7 @@ rfl(s.events,"event23");
 s.events = "event22,event23,event24";
 ```
 
-Tieni presente che il plug-in restituisce solo un valore; in realtà non &quot;reimposta&quot; la variabile passata attraverso l&#39;argomento `lv` .
+Tieni presente che il plug-in restituisce solo un valore; in realtà non &quot;reimposta&quot; la variabile passata attraverso il `lv` argomento.
 
 ## Cronologia versioni
 
@@ -414,7 +415,7 @@ Tieni presente che il plug-in restituisce solo un valore; in realtà non &quot;r
 ### 2.0 (16 aprile 2018)
 
 * Rilascio del punto (ricompilato, dimensioni del codice più piccole).
-* È stata rimossa la necessità del plug-in `join` .
+* È stata rimossa la necessità di `join` plug-in.
 
 ### 1.0 (18 luglio 2016)
 

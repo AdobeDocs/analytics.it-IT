@@ -1,11 +1,12 @@
 ---
 title: pt
 description: Esegue una funzione in un elenco di variabili.
+feature: Variables
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -15,16 +16,16 @@ ht-degree: 0%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `pt` esegue una funzione o un metodo in un elenco di variabili di Analytics. Ad esempio, puoi eseguire in modo selettivo la funzione [`clearVars`](../functions/clearvars.md) su più variabili senza chiamare manualmente ogni volta la funzione. Diversi altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più di una variabile Analytics alla volta o se non si utilizzano plug-in dipendenti.
+La `pt` Il plug-in esegue una funzione o un metodo in un elenco di variabili di Analytics. Ad esempio, puoi eseguire in modo selettivo il [`clearVars`](../functions/clearvars.md) funziona su più variabili senza chiamare manualmente la funzione ogni volta. Diversi altri plug-in dipendono da questo codice per essere eseguiti correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più di una variabile Analytics alla volta o se non si utilizzano plug-in dipendenti.
 
 ## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
-1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (pagina in alto)
@@ -37,10 +38,10 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
-1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
 1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche all’estensione Analytics.
 
@@ -57,14 +58,14 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ## Usa il plug-in
 
-La funzione `pt` utilizza i seguenti argomenti:
+La `pt` La funzione utilizza i seguenti argomenti:
 
-* **`l`** (obbligatorio, stringa): Elenco di variabili su cui può essere eseguita la funzione contenuta nell’ `cf` argomento.
-* **`de`** (facoltativo, stringa): Il delimitatore che separa l’elenco di variabili nell’ `l` argomento. Impostazione predefinita di una virgola (`,`).
-* **`cf`** (obbligatorio, stringa): Il nome della funzione di callback contenuta nell&#39;oggetto AppMeasurement da chiamare rispetto a ciascuna delle variabili contenute nell&#39; `l` argomento.
-* **`fa`** (facoltativo, stringa): Se la funzione nell&#39; `cf` argomento richiede argomenti aggiuntivi durante l&#39;esecuzione, includerli qui. Predefinito su `undefined`.
+* **`l`** (obbligatorio, stringa): Elenco di variabili contenute nella funzione `cf` L&#39;argomento può essere eseguito in base a.
+* **`de`** (facoltativo, stringa): Il delimitatore che separa l’elenco delle variabili nel `l` argomento. Impostazione predefinita di una virgola (`,`).
+* **`cf`** (obbligatorio, stringa): Nome della funzione di callback contenuta nell&#39;oggetto AppMeasurement da chiamare rispetto a ciascuna delle variabili contenute nel `l` argomento.
+* **`fa`** (facoltativo, stringa): Se la funzione in `cf` L&#39;argomento richiede argomenti aggiuntivi quando viene eseguito, includerli qui. Predefinito su `undefined`.
 
-Una chiamata a questa funzione restituisce un valore se la funzione di callback (nell&#39;argomento `cf` ) restituisce un valore.
+Una chiamata a questa funzione restituisce un valore se la funzione di callback (nel `cf` (argomento) restituisce un valore.
 
 ## Chiamate di esempio
 

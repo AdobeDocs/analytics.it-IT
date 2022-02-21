@@ -1,8 +1,9 @@
 ---
 title: getPageName
 description: Crea un pageName di facile lettura dal percorso del sito Web corrente.
+feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 0%
@@ -15,16 +16,16 @@ ht-degree: 0%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `getPageName` crea una versione formattata semplice e intuitiva dell’URL corrente. Adobe consiglia di utilizzare questo plug-in se desideri un valore [`pageName`](../page-vars/pagename.md) facile da impostare e comprendere nei rapporti. Questo plug-in non è necessario se disponi già di una struttura di denominazione per la variabile `pageName` , ad esempio tramite un livello di dati. Viene utilizzato al meglio quando non hai un&#39;altra soluzione per impostare la variabile `pageName`.
+La `getPageName` Il plug-in crea una versione formattata semplice e intuitiva dell’URL corrente. Adobe consiglia di utilizzare questo plug-in se desideri [`pageName`](../page-vars/pagename.md) valore facile da impostare e comprendere nel reporting. Questo plug-in non è necessario se disponi già di una struttura di denominazione per `pageName` , ad esempio attraverso un livello dati. Viene utilizzato al meglio quando non si dispone di un&#39;altra soluzione per impostare `pageName` variabile.
 
 ## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
-1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (pagina in alto)
@@ -37,10 +38,10 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
-1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
 1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche all’estensione Analytics.
 
@@ -57,14 +58,14 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## Usa il plug-in
 
-La funzione `getPageName` utilizza i seguenti argomenti:
+La `getPageName` La funzione utilizza i seguenti argomenti:
 
 * **`si`** (facoltativo, stringa): Un ID inserito all&#39;inizio della stringa che rappresenta l&#39;ID del sito. Questo valore può essere un ID numerico o un nome descrittivo. Se non è impostato, viene impostato automaticamente sul dominio corrente.
 * **`qv`** (facoltativo, stringa): Elenco delimitato da virgole di parametri della stringa di query che, se trovati nell’URL, vengono aggiunti alla stringa
 * **`hv`** (facoltativo, stringa): Elenco di parametri delimitati da virgole trovati nell’hash dell’URL che, se trovato nell’URL, vengono aggiunti alla stringa
 * **`de`** (facoltativo, stringa): Il delimitatore per suddividere singole parti della stringa. Impostazione predefinita di una tubazione (`|`).
 
-La funzione restituisce una stringa contenente una versione in formato descrittivo dell&#39;URL. Questa stringa viene generalmente assegnata alla variabile `pageName` , ma può essere utilizzata anche in altre variabili.
+La funzione restituisce una stringa contenente una versione in formato descrittivo dell&#39;URL. Questa stringa viene generalmente assegnata alla `pageName` , ma può essere utilizzato anche in altre variabili.
 
 ## Esempi
 
@@ -93,7 +94,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## Aggiornamento da versioni precedenti
 
-La versione 4.0+ del plug-in `getPageName` non dipende dall&#39;esistenza dell&#39;oggetto AppMeasurement di Adobe Analytics (ovvero l&#39;oggetto `s`). Se esegui l’aggiornamento a questa versione, modifica il codice che chiama il plug-in rimuovendo dalla chiamata tutte le istanze dell’ oggetto `s` . Ad esempio, modificare `s.getPageName();` in `getPageName();`.
+Versione 4.0+ del `getPageName` il plug-in non dipende dall&#39;esistenza dell&#39;oggetto AppMeasurement di Adobe Analytics (ovvero `s` oggetto). Se esegui l&#39;aggiornamento a questa versione, cambia il codice che chiama il plug-in rimuovendo eventuali istanze del `s` oggetto della chiamata . Ad esempio, modifica `s.getPageName();` a `getPageName();`.
 
 ## Cronologia versioni
 

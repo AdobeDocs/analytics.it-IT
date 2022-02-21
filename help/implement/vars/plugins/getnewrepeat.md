@@ -1,8 +1,9 @@
 ---
 title: getNewRepeat
 description: Tracciare l’attività dei visitatori nuovi rispetto a quelli ripetuti.
+feature: Variables
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -15,16 +16,16 @@ ht-degree: 0%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `getNewRepeat` consente di determinare se un visitatore del sito è un nuovo visitatore o un visitatore ripetuto entro un numero desiderato di giorni. Adobe consiglia di utilizzare questo plug-in se desideri identificare i visitatori come &quot;nuovi&quot; utilizzando un numero personalizzato di giorni. Questo plug-in non è necessario se le dimensioni Nuovo/Ripeti visitatore in Analysis Workspace soddisfano le esigenze della tua organizzazione.
+La `getNewRepeat` Il plug-in consente di determinare se un visitatore del sito è un nuovo visitatore o un visitatore ripetuto entro un numero desiderato di giorni. Adobe consiglia di utilizzare questo plug-in se desideri identificare i visitatori come &quot;nuovi&quot; utilizzando un numero personalizzato di giorni. Questo plug-in non è necessario se le dimensioni Nuovo/Ripeti visitatore in Analysis Workspace soddisfano le esigenze della tua organizzazione.
 
 ## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
-1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (pagina in alto)
@@ -37,10 +38,10 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
-1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
 1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche all’estensione Analytics.
 
@@ -57,13 +58,13 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## Usa il plug-in
 
-La funzione `getNewRepeat` utilizza i seguenti argomenti:
+La `getNewRepeat` La funzione utilizza i seguenti argomenti:
 
-* **`d`** (intero, facoltativo): Il numero minimo di giorni necessari tra le visite che reimposta i visitatori su  `"New"`. Se questo argomento non viene impostato, viene impostato automaticamente su 30 giorni.
+* **`d`** (intero, facoltativo): Il numero minimo di giorni necessari tra le visite che reimposta i visitatori su `"New"`. Se questo argomento non viene impostato, viene impostato automaticamente su 30 giorni.
 
 Questa funzione restituisce il valore di `"New"` se il cookie impostato dal plug-in non esiste o è scaduto. Restituisce il valore di `"Repeat"` se il cookie impostato dal plug-in esiste e il tempo trascorso dall&#39;hit corrente e il tempo impostato nel cookie è maggiore di 30 minuti. Questa funzione restituisce lo stesso valore per un’intera visita.
 
-Questo plug-in utilizza un cookie denominato `"s_nr[LENGTH]"` in cui `[LENGTH]` è uguale all&#39;argomento `d`. Il cookie contiene una marca temporale Unix che rappresenta l&#39;ora corrente e lo stato corrente del visitatore (`"New"` o `"Repeat"`).
+Questo plug-in utilizza un cookie denominato `"s_nr[LENGTH]"` dove `[LENGTH]` è uguale a `d` argomento. Il cookie contiene una marca temporale Unix che rappresenta l’ora corrente e lo stato corrente del visitatore (`"New"` o `"Repeat"`).
 
 ## Esempi
 
@@ -88,4 +89,4 @@ s.eVar2 = getNewRepeat(365);
 ### 2.0 (16 aprile 2018)
 
 * Ricompilato con dimensioni di codice più piccole
-* È stata rimossa la possibilità di denominare il cookie per memorizzare le informazioni sulla visita. Il plug-in ora assegna un nome dinamico al cookie in base al valore passato nell&#39;argomento `d` .
+* È stata rimossa la possibilità di denominare il cookie per memorizzare le informazioni sulla visita. Il plug-in ora assegna al cookie un nome dinamico in base al valore passato nel `d` argomento.

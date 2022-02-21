@@ -1,8 +1,9 @@
 ---
 title: addProductEvent
 description: Aggiunge eventi personalizzati alla variabile prodotti ed eventi .
+feature: Variables
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -15,16 +16,16 @@ ht-degree: 1%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `addProductEvent` aggiunge un evento numerico o valutario alla variabile [`products`](../page-vars/products.md) . Adobe consiglia di utilizzare questo plug-in se si desidera aggiungere un evento numerico o valutario alla variabile `products` senza preoccuparsi del formato della stringa di prodotto. Questo plug-in non è necessario se non utilizzi eventi numerici o valutari nella variabile `products` .
+La `addProductEvent` il plug-in aggiunge un evento numerico o valutario alla variabile [`products`](../page-vars/products.md) variabile. Adobe consiglia di utilizzare questo plug-in se si desidera aggiungere un evento numerico o valutario al `products` senza preoccuparsi del formato della stringa del prodotto. Questo plug-in non è necessario se non utilizzi eventi numerici o valutari nella variabile `products` variabile.
 
 ## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
-1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (pagina in alto)
@@ -37,10 +38,10 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
-1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
 1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche all’estensione Analytics.
 
@@ -57,17 +58,17 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## Usa il plug-in
 
-La funzione `addProductEvent` utilizza i seguenti argomenti:
+La `addProductEvent` La funzione utilizza i seguenti argomenti:
 
-* **`en`** (obbligatorio, stringa): L’evento da aggiungere all’ultima voce della  `products` variabile. Se la variabile `products` è vuota, viene creata una voce di prodotto &quot;vuota&quot; con l’evento (e il relativo valore) associato.
-* **`ev`** (obbligatorio, stringa): Valore assegnato all&#39;evento numerico o di valuta nell&#39; `en` argomento.  Se non è impostato, viene impostato il valore predefinito `1`. Sono validi anche i numeri non racchiusi tra virgolette stringa.
-* **`ap`** (facoltativo, booleano): Se la variabile &quot;products&quot; contiene attualmente più di una voce di prodotto, il valore  `true` (o  `1`) aggiunge l’evento a tutte le voci di prodotto.  Se non è impostato, viene impostato il valore predefinito `false`.
+* **`en`** (obbligatorio, stringa): L’evento da aggiungere all’ultima voce nel `products` variabile. Se la `products` variabile è vuota, quindi viene creata una voce di prodotto &quot;vuota&quot; con l’evento (e il relativo valore) associato.
+* **`ev`** (obbligatorio, stringa): Il valore assegnato all&#39;evento numerico o valutario nel `en` argomento.  Predefinito su `1` quando non è impostato. Sono validi anche i numeri non racchiusi tra virgolette stringa.
+* **`ap`** (facoltativo, booleano): Se la variabile &quot;products&quot; contiene attualmente più di una voce di prodotto, viene visualizzato il valore `true` o `1`) aggiunge l’evento a tutte le voci di prodotto.  Predefinito su `false` quando non è impostato.
 
-`addProductEvent` non restituisce nulla. Al contrario, aggiunge l&#39;evento e il relativo valore alla variabile `products` . Il plug-in aggiunge automaticamente anche l&#39;evento alla variabile [`events`](../page-vars/events/events-overview.md) , poiché è necessario anche in questo caso.
+La `addProductEvent` non restituisce nulla. Al contrario, aggiunge l’evento e il relativo valore al `products` variabile. Il plug-in aggiunge automaticamente anche l’evento al [`events`](../page-vars/events/events-overview.md) , in quanto è necessaria anche in questo caso.
 
 ## Cookie
 
-La funzione `addProductEvent` non crea né utilizza cookie.
+La `addProductEvent` non crea né utilizza cookie.
 
 ## Esempi
 

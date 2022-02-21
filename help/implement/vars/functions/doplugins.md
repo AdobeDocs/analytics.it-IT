@@ -1,8 +1,9 @@
 ---
 title: doPlugins
 description: Configura la logica immediatamente prima che un hit venga compilato e inviato ad Adobe.
+feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%
@@ -11,12 +12,12 @@ ht-degree: 1%
 
 # doPlugins
 
-La variabile `doPlugins` funge da &quot;ultima chiamata&quot; per impostare i valori nell’implementazione. Se [`usePlugins`](../config-vars/useplugins.md) è abilitato, viene eseguito automaticamente poco prima che qualsiasi tipo di richiesta di immagine venga compilata e inviata ad Adobe, tra cui:
+La `doPlugins` funge da &quot;ultima chiamata&quot; per impostare i valori nell’implementazione. Se [`usePlugins`](../config-vars/useplugins.md) viene attivato, viene eseguito automaticamente immediatamente prima che qualsiasi tipo di richiesta di immagine venga compilata e inviata ad Adobe, tra cui:
 
-* Tutte le chiamate di visualizzazione pagina ([`t()`](t-method.md))
-* Tutte le chiamate di tracciamento dei collegamenti ([`tl()`](tl-method.md)), inclusi i collegamenti di download automatici e i collegamenti di uscita
+* Visualizzazione di tutte le pagine ([`t()`](t-method.md)) chiamate
+* Tracciamento di tutti i collegamenti ([`tl()`](tl-method.md)) chiamate , compresi i collegamenti di download e di uscita automatici
 
-Utilizza la variabile `doPlugins` per chiamare il codice plug-in e impostare i valori della variabile finale poco prima che una richiesta di immagine venga compilata e inviata ad Adobe.
+Utilizza la `doPlugins` per chiamare il codice plug-in e impostare i valori della variabile finale poco prima che una richiesta di immagine venga compilata e inviata ad Adobe.
 
 ## Plug-in tramite tag in Adobe Experience Platform
 
@@ -24,7 +25,7 @@ Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato 
 
 ## s.doPlugins in AppMeasurement e codice personalizzato
 
-Imposta la variabile `s.doPlugins` su una funzione contenente il codice desiderato. La funzione viene eseguita automaticamente quando effettui una chiamata di tracciamento.
+Imposta la `s.doPlugins` a una funzione contenente il codice desiderato. La funzione viene eseguita automaticamente quando effettui una chiamata di tracciamento.
 
 ```js
 s.doPlugins = function() {/* Desired code */};
@@ -32,7 +33,7 @@ s.doPlugins = function() {/* Desired code */};
 
 >[!NOTE]
 >
->Imposta una funzione sulla variabile `doPlugins` una sola volta nell&#39;implementazione. Se imposti la variabile `doPlugins` più di una volta, viene utilizzato solo il codice più recente.
+>Imposta una funzione su `doPlugins` una sola volta nell&#39;implementazione. Se imposti la `doPlugins` più di una volta, viene utilizzato solo il codice più recente.
 
 ## Esempi
 
@@ -50,4 +51,4 @@ s.doPlugins = function() {
 
 >[!NOTE]
 >
->Le versioni precedenti di AppMeasurement avevano un codice leggermente diverso `doPlugins()`. Adobe consiglia di utilizzare il formato di cui sopra come best practice.
+>Le versioni precedenti di AppMeasurement erano leggermente diverse `doPlugins()` codice. Adobe consiglia di utilizzare il formato di cui sopra come best practice.

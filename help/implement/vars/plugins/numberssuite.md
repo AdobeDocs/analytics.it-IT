@@ -1,8 +1,9 @@
 ---
 title: Suite numeri
 description: Produrre e manipolare numeri da utilizzare in altre variabili JavaScript.
+feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 1%
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 I numeri Suite una serie di funzioni JavaScript. Include i seguenti plug-in:
 
-* **`zeroPad`**: Aggiungi un numero specifico di zeri all&#39;inizio di un numero. Questo plug-in è utile se una variabile richiede un certo numero di cifre, ad esempio se si lavora con oggetti data JavaScript e si desidera formattare il mese e il giorno di una data con due cifre invece di una sola cifra. Ad esempio, `01/09/2020` anziché `1/9/2020`.
+* **`zeroPad`**: Aggiungi un numero specifico di zeri all&#39;inizio di un numero. Questo plug-in è utile se una variabile richiede un certo numero di cifre, ad esempio se si lavora con oggetti data JavaScript e si desidera formattare il mese e il giorno di una data con due cifre invece di una sola cifra. Ad esempio: `01/09/2020` anziché `1/9/2020`.
 * **`randomNumber`**: Genera un numero casuale con un numero specifico di cifre. Questo plug-in è utile se distribuisci tag di terze parti e desideri un numero casuale di cache non compatibile.
 * **`twoDecimals`**: Girare un numero fino alla centesima. Questo plug-in è utile a scopo di valuta, consentendoti di arrotondare un numero a un valore di valuta valido.
 
@@ -25,10 +26,10 @@ I numeri Suite una serie di funzioni JavaScript. Include i seguenti plug-in:
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
-1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (pagina in alto)
@@ -41,10 +42,10 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
-1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
 1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche all’estensione Analytics.
 
@@ -67,24 +68,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Utilizzare i plug-in
 
-La funzione `zeroPad` utilizza i seguenti argomenti:
+La `zeroPad` La funzione utilizza i seguenti argomenti:
 
-* **num**  (obbligatorio, intero): Numero da aggiungere al pad. La funzione arrotonda il valore di questo argomento se contiene decimali.
-* **nod**  (obbligatorio, numero intero): Numero di cifre nel valore finale restituito. Se il numero da aggiungere ha meno cifre del numero di cifre a cui aggiungere il pad, il plug-in aggiunge zeri all&#39;inizio dell&#39;argomento `num`.
+* **num** (obbligatorio, numero intero): Numero da aggiungere al pad. La funzione arrotonda il valore di questo argomento se contiene decimali.
+* **cenno** (obbligatorio, numero intero): Numero di cifre nel valore finale restituito. Se il numero da aggiungere ha meno cifre del numero di cifre a cui aggiungere il pad, il plug-in aggiunge zeri all&#39;inizio della `num` argomento.
 
-La funzione `randomNumber` utilizza i seguenti argomenti:
+La `randomNumber` La funzione utilizza i seguenti argomenti:
 
-* **nod**  (facoltativo, numero intero): Il numero di cifre nel numero casuale che si desidera generare. Il valore massimo è di 17 cifre. Il valore predefinito è 10 cifre.
+* **cenno** (facoltativo, numero intero): Il numero di cifre nel numero casuale che si desidera generare. Il valore massimo è di 17 cifre. Il valore predefinito è 10 cifre.
 
-La funzione `twoDecimals` utilizza i seguenti argomenti:
+La `twoDecimals` La funzione utilizza i seguenti argomenti:
 
-* **val**  (obbligatorio, numero): Un numero (rappresentato da una stringa o un oggetto numerico) che si desidera arrotondare al centesimo più vicino.
+* **val** (obbligatorio, numero): Un numero (rappresentato da una stringa o un oggetto numerico) che si desidera arrotondare al centesimo più vicino.
 
 ## Restituisce
 
-* La funzione **zeroPad** restituisce una stringa uguale all&#39;argomento `num` ma con un numero specifico di zeri aggiunti all&#39;inizio del relativo valore, in modo che il valore restituito abbia il numero corretto di cifre.
-* La funzione **randomNumber** restituisce una stringa uguale a un numero casuale con il numero di cifre desiderato.
-* La funzione **twoDecimals** restituisce un oggetto numero arrotondato al centesimo più vicino.
+* La **zeroPad** restituisce una stringa uguale a `num` argomento ma con un numero specifico di zeri aggiunti all&#39;inizio del suo valore, in modo che il valore restituito abbia il numero corretto di cifre.
+* La **randomNumber** restituisce una stringa uguale a un numero casuale con il numero desiderato di cifre.
+* La **dueDecimali** restituisce un numero di oggetto arrotondato al centesimo più vicino.
 
 ## Chiamate di esempio
 

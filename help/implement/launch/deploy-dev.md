@@ -1,11 +1,12 @@
 ---
 title: Distribuire Adobe Analytics in un ambiente di sviluppo
 description: Scopri come utilizzare i tag per distribuire Adobe Analytics nel tuo ambiente di sviluppo.
+feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -18,13 +19,13 @@ Dopo aver creato e configurato una proprietà tag, le librerie sono pronte per e
 
 ## Prerequisiti
 
-[Crea e configura una proprietà tag per Adobe Analytics](create-analytics-property.md): Accedi allo strumento e crea uno spazio per la tua implementazione di Analytics.
+[Creare e configurare una proprietà tag per Adobe Analytics](create-analytics-property.md): Accedi allo strumento e crea uno spazio per la tua implementazione di Analytics.
 
 ## Creare adattatori e ambienti
 
 I tag consentono di gestire molti flussi di lavoro organizzativi durante la distribuzione del codice. Segui questi passaggi per creare i componenti minimi necessari per un’implementazione di Analytics. In qualità di amministratore dei tag, puoi lavorare all’interno della tua organizzazione per stabilire il flusso di lavoro corretto per la distribuzione delle soluzioni Adobe.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 2. Fai clic sulla proprietà tag che intendi implementare sul sito.
 3. Fare clic sulla scheda Adattatori, quindi fare clic su Aggiungi adattatore.
 4. Denomina &quot;Akamai&quot; e seleziona Akamai nel menu a discesa del tipo . Fai clic su Salva.
@@ -37,7 +38,7 @@ I tag consentono di gestire molti flussi di lavoro organizzativi durante la dist
 
 Nonostante tutte le modifiche e le configurazioni apportate finora, non è stato pubblicato alcun codice. La creazione di una libreria, tradotta approssimativamente come una raccolta di modifiche, consente di utilizzare la pubblicazione del codice sul sito.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 2. Fai clic sulla proprietà tag che intendi implementare sul sito.
 3. Fai clic sulla scheda Pubblicazione , quindi su Aggiungi nuova libreria .
 4. Denomina la libreria &quot;Modifiche iniziali&quot; e seleziona l&#39;ambiente di sviluppo.
@@ -49,7 +50,7 @@ Nonostante tutte le modifiche e le configurazioni apportate finora, non è stato
 
 ## Installare i tag nell’ambiente di sviluppo del sito web
 
-Se controlli il codice del tuo sito web, implementa i due blocchi di codice nelle rispettive posizioni (nel tag `<head>` e appena sopra il tag di chiusura `</body>` ) su ogni pagina del sito. Questo codice viene comunemente inserito nel modello di panoramica del sito. Una pagina vuota contenente solo codice di implementazione avrà un aspetto simile al seguente:
+Se controlli il codice del tuo sito web, implementa i due blocchi di codice nelle rispettive posizioni (nel `<head>` e immediatamente sopra la chiusura `</body>` in ogni pagina del sito. Questo codice viene comunemente inserito nel modello di panoramica del sito. Una pagina vuota contenente solo codice di implementazione avrà un aspetto simile al seguente:
 
 ```html
 <!doctype html>
@@ -74,9 +75,9 @@ Un motivo comune è che esistono già elementi in altre librerie inviate alla ge
 
 ## Documentazione e risorse aggiuntive
 
-- [Guida](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en) rapida: Scopri il flusso di lavoro di base dell’implementazione dei tag
-- [Panoramica](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en) sulla pubblicazione: Ulteriori informazioni sulla pubblicazione e sugli ambienti
+- [Guida rapida](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): Scopri il flusso di lavoro di base dell’implementazione dei tag
+- [Panoramica sulla pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en): Ulteriori informazioni sulla pubblicazione e sugli ambienti
 
 ## Passaggi successivi
 
-[Convalida l’implementazione di Analytics e pubblica in produzione](validate-publish-prod.md): Inizia a ottenere valore da Adobe Analytics.
+[Convalidare l’implementazione di Analytics e pubblicare in produzione](validate-publish-prod.md): Inizia a ottenere valore da Adobe Analytics.

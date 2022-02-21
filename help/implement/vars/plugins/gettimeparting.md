@@ -1,8 +1,9 @@
 ---
 title: getTimeParting
 description: Misura il momento in cui avviene un’azione specifica.
+feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
@@ -15,9 +16,9 @@ ht-degree: 0%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `getTimeParting` ti consente di acquisire i dettagli del momento in cui si verifica un’attività misurabile sul tuo sito. Questo plug-in è utile quando desideri suddividere le metriche in base a una suddivisione ripetibile del tempo su un determinato intervallo di date. Ad esempio, puoi confrontare i tassi di conversione tra due giorni della settimana diversi, ad esempio tutti i giorni della domenica rispetto a tutti i giovedì. Puoi anche confrontare i periodi del giorno, ad esempio tutte le mattine rispetto a tutte le serate.
+La `getTimeParting` plug-in consente di acquisire i dettagli del momento in cui si verifica un’attività misurabile sul sito. Questo plug-in è utile quando desideri suddividere le metriche in base a una suddivisione ripetibile del tempo su un determinato intervallo di date. Ad esempio, puoi confrontare i tassi di conversione tra due giorni della settimana diversi, ad esempio tutti i giorni della domenica rispetto a tutti i giovedì. Puoi anche confrontare i periodi del giorno, ad esempio tutte le mattine rispetto a tutte le serate.
 
-Analysis Workspace fornisce dimensioni predefinite simili e formattate in modo leggermente diverso rispetto a questo plug-in. Per ulteriori informazioni, consulta [Suddividere le dimensioni in base al tempo](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) nella guida utente Analisi . Alcune organizzazioni ritengono sufficienti le dimensioni predefinite di Analysis Workspace.
+Analysis Workspace fornisce dimensioni predefinite simili e formattate in modo leggermente diverso rispetto a questo plug-in. Vedi [ripartizione del tempo](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) nella guida utente Analisi per ulteriori informazioni. Alcune organizzazioni ritengono sufficienti le dimensioni predefinite di Analysis Workspace.
 
 >[!IMPORTANT]
 >
@@ -27,10 +28,10 @@ Analysis Workspace fornisce dimensioni predefinite simili e formattate in modo l
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
-1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (pagina in alto)
@@ -43,10 +44,10 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
-1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
 1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche all’estensione Analytics.
 
@@ -63,9 +64,9 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## Usa il plug-in
 
-La funzione `getTimeParting` utilizza il seguente argomento:
+La `getTimeParting` La funzione utilizza l&#39;argomento seguente:
 
-**`t`** (Facoltativo ma consigliato, stringa): Nome del fuso orario in cui convertire l’ora locale del visitatore.  Impostazione predefinita per l’ora UTC/GMT. Per un elenco completo dei valori validi, vedere [Elenco dei fusi orari del database TZ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) su Wikipedia.
+**`t`** (Facoltativo ma consigliato, stringa): Nome del fuso orario in cui convertire l’ora locale del visitatore.  Impostazione predefinita per l’ora UTC/GMT. Vedi [Elenco dei fusi orari del database TZ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) su Wikipedia per un elenco completo di valori validi.
 
 I valori validi comuni includono:
 
@@ -135,11 +136,11 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 ### 5.0 (17 aprile 2018)
 
 * Versione punto (ricompilato, dimensioni del codice più piccole)
-* È stata rimossa la necessità del parametro `tpDST`, poiché le date di inizio/fine del risparmio di luce ora vengono rilevate automaticamente
+* È stata rimossa la necessità di `tpDST` , poiché le date di inizio/fine del risparmio di giorno vengono ora rilevate automaticamente
 
 >[!CAUTION]
 >
->Le versioni precedenti di questo plug-in non erano compatibili per tutti gli anni futuri. Se utilizzi una versione precedente di questo plug-in, Adobe consiglia vivamente di effettuare l’aggiornamento alla versione più recente per evitare errori JavaScript e perdita di dati. Se l&#39;aggiornamento di questo plug-in non è possibile, assicurati che la variabile `s._tpdst` nel codice del plug-in contenga gli anni appropriati in futuro.
+>Le versioni precedenti di questo plug-in non erano compatibili per tutti gli anni futuri. Se utilizzi una versione precedente di questo plug-in, Adobe consiglia vivamente di effettuare l’aggiornamento alla versione più recente per evitare errori JavaScript e perdita di dati. Se l&#39;aggiornamento di questo plug-in non è fattibile, assicurati che il `s._tpdst` nel codice plug-in sono inclusi gli anni appropriati.
 
 ### 4.0 (22 agosto 2016)
 

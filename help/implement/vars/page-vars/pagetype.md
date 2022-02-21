@@ -1,8 +1,9 @@
 ---
 title: pageType
 description: Determina se la pagina corrente è un errore 404.
+feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 1%
@@ -11,7 +12,7 @@ ht-degree: 1%
 
 # pageType
 
-La variabile `pageType` è un flag utilizzato per designare le pagine di errore sul sito, ad esempio 404 errori. Se questa variabile contiene la stringa `errorPage`, compila la dimensione &quot;Pagine non trovate&quot;.
+La `pageType` è un flag utilizzato per designare le pagine di errore sul sito, ad esempio 404 errori. Se questa variabile contiene la stringa `errorPage`, compila la dimensione &quot;Pagine non trovate&quot;.
 
 >[!IMPORTANT]
 >
@@ -23,7 +24,7 @@ Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato 
 
 ## s.pageType in AppMeasurement e nell&#39;editor di codice personalizzato
 
-La variabile `s.pageType` è una stringa in cui il valore `errorPage` è l’unico valore valido. Imposta questa variabile su questo valore in qualsiasi pagina di errore sul tuo sito, ad esempio su 404 pagine.
+La `s.pageType` variabile è una stringa in cui il valore `errorPage` è l&#39;unico valore valido. Imposta questa variabile su questo valore in qualsiasi pagina di errore sul tuo sito, ad esempio su 404 pagine.
 
 ```js
 s.pageType = "errorPage";

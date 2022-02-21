@@ -1,8 +1,9 @@
 ---
 title: linkTrackVars
 description: Specifica le variabili da includere nelle richieste di immagini di tracciamento dei collegamenti.
+feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 2%
@@ -11,9 +12,9 @@ ht-degree: 2%
 
 # linkTrackVars
 
-Alcune implementazioni non vogliono includere tutte le variabili in tutte le richieste di immagini di tracciamento dei collegamenti. Utilizza le variabili `linkTrackVars` e [`linkTrackEvents`](linktrackevents.md) per includere in modo selettivo dimensioni e metriche nelle chiamate [`tl()`](../functions/tl-method.md).
+Alcune implementazioni non vogliono includere tutte le variabili in tutte le richieste di immagini di tracciamento dei collegamenti. Utilizza la `linkTrackVars` e [`linkTrackEvents`](linktrackevents.md) variabili per includere in modo selettivo dimensioni e metriche in [`tl()`](../functions/tl-method.md) chiamate.
 
-Questa variabile non viene utilizzata per le chiamate di visualizzazione della pagina ([`t()`](../functions/t-method.md) metodo ).
+Questa variabile non viene utilizzata per le chiamate di visualizzazione della pagina ([`t()`](../functions/t-method.md) metodo).
 
 ## Variabili nelle chiamate di tracciamento dei collegamenti che utilizzano i tag in Adobe Experience Platform
 
@@ -21,27 +22,27 @@ Adobe Experience Platform compila automaticamente questa variabile sul backend i
 
 >[!IMPORTANT]
 >
->Se imposti le variabili utilizzando l&#39;editor di codice personalizzato, devi includere la variabile in `linkTrackVars` utilizzando anche il codice personalizzato.
+>Se imposti le variabili utilizzando l’editor di codice personalizzato, devi includere la variabile in `linkTrackVars` utilizzando anche codice personalizzato.
 
 ## s.linkTrackVars in AppMeasurement e nell&#39;editor di codice personalizzato
 
-La variabile `s.linkTrackVars` è una stringa contenente un elenco delimitato da virgole di variabili che si desidera includere nelle richieste di tracciamento dei collegamenti immagine (`tl()` metodo ). Per includere le dimensioni negli hit di tracciamento dei collegamenti, è necessario soddisfare entrambi i seguenti criteri:
+La `s.linkTrackVars` è una stringa contenente un elenco delimitato da virgole di variabili che desideri includere nelle richieste di tracciamento dei collegamenti alle immagini (`tl()` metodo). Per includere le dimensioni negli hit di tracciamento dei collegamenti, è necessario soddisfare entrambi i seguenti criteri:
 
 * Imposta il valore della variabile desiderata. Ad esempio, `s.eVar1 = "Example value";`.
-* Imposta la variabile desiderata nella variabile `linkTrackVars` . Ad esempio, `s.linkTrackVars = "eVar1";`.
+* Imposta la variabile desiderata nel `linkTrackVars` variabile. Ad esempio, `s.linkTrackVars = "eVar1";`.
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
 ```
 
-Il valore predefinito per questa variabile è una stringa vuota. Tuttavia, Adobe ha fornito il codice AppMeasurement nel Gestore codice in cui questa variabile è impostata su `"None"`. I valori validi sono qualsiasi variabile a livello di pagina che popola una dimensione.
+Il valore predefinito per questa variabile è una stringa vuota. Tuttavia, Adobe ha fornito il codice AppMeasurement nel Code Manager dove questa variabile è impostata su `"None"`. I valori validi sono qualsiasi variabile a livello di pagina che popola una dimensione.
 
-* Se questa variabile non è definita o impostata su una stringa vuota, le variabili *tutte* vengono incluse nelle richieste di immagini di tracciamento dei collegamenti.
-* Se questa variabile è impostata su `"None"`, le variabili *no* vengono incluse nelle richieste di immagini di tracciamento dei collegamenti.
+* Se questa variabile non è definita o impostata su una stringa vuota, *tutto* Le variabili sono incluse nelle richieste di immagini di tracciamento dei collegamenti.
+* Se questa variabile è impostata su `"None"`, *no* Le variabili sono incluse nelle richieste di immagini di tracciamento dei collegamenti.
 
 >[!TIP]
 >
->Evita di usare l&#39;identificatore oggetto Analytics (`s.`) quando si specificano le variabili in questa variabile. Ad esempio, `s.linkTrackVars = "eVar1";` è corretto, mentre `s.linkTrackVars = "s.eVar1";` non è corretto.
+>Evita di usare l’identificatore oggetto di Analytics (`s.`) quando si specificano le variabili in questa variabile. Ad esempio: `s.linkTrackVars = "eVar1";` è corretto, mentre `s.linkTrackVars = "s.eVar1";` non è corretto.
 
 ## Esempio
 

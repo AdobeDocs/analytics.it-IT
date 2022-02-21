@@ -1,8 +1,9 @@
 ---
 title: contextData
 description: Le variabili di dati di contesto ti consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere.
+feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 
 # contextData
 
-Le variabili di dati di contesto ti consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere. Invece di assegnare esplicitamente valori alle variabili Analytics nel codice, puoi inviare dati in variabili di dati di contesto. Le regole di elaborazione prendono quindi i valori delle variabili dei dati di contesto e li trasmettono alle rispettive variabili di Analytics. Consulta [Regole di elaborazione](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) nella guida utente Admin.
+Le variabili di dati di contesto ti consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere. Invece di assegnare esplicitamente valori alle variabili Analytics nel codice, puoi inviare dati in variabili di dati di contesto. Le regole di elaborazione prendono quindi i valori delle variabili dei dati di contesto e li trasmettono alle rispettive variabili di Analytics. Vedi [Regole di elaborazione](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) nella guida utente Admin.
 
-Le variabili di dati di contesto sono utili per i team di sviluppo per raccogliere i dati in elementi denominati invece che in variabili numerate. Ad esempio, invece di richiedere ai team di sviluppo di assegnare l’autore della pagina a `eVar10`, puoi richiederne l’assegnazione a `s.contextData["author"]`. Un amministratore di Analytics nella tua organizzazione può quindi creare regole di elaborazione per mappare le variabili dei dati di contesto in variabili di Analytics a scopo di reportistica. I team di sviluppo si preoccuperebbero in ultima analisi solo delle variabili di dati di contesto, anziché delle numerose offerte di Adobe delle variabili di pagina.
+Le variabili di dati di contesto sono utili per i team di sviluppo per raccogliere i dati in elementi denominati invece che in variabili numerate. Ad esempio, anziché richiedere ai team di sviluppo di assegnare l’autore della pagina a `eVar10`, può richiedere che lo assegni a `s.contextData["author"]` invece. Un amministratore di Analytics nella tua organizzazione può quindi creare regole di elaborazione per mappare le variabili dei dati di contesto in variabili di Analytics a scopo di reportistica. I team di sviluppo si preoccuperebbero in ultima analisi solo delle variabili di dati di contesto, anziché delle numerose offerte di Adobe delle variabili di pagina.
 
 ## Variabili di dati di contesto che utilizzano i tag in Adobe Experience Platform
 
@@ -21,7 +22,7 @@ L’interfaccia utente di raccolta dati non dispone di una posizione dedicata pe
 
 ## s.contextData in AppMeasurement e nell&#39;editor di codice personalizzato
 
-La variabile `s.contextData` non prende direttamente un valore. Imposta invece le proprietà di questa variabile su una stringa.
+La `s.contextData` non acquisisce direttamente un valore. Imposta invece le proprietà di questa variabile su una stringa.
 
 ```js
 // Assign the example_variable property a value
@@ -30,7 +31,7 @@ s.contextData["example_variable"] = "Example value";
 
 * Le variabili di dati di contesto valide contengono solo caratteri alfanumerici, caratteri di sottolineatura e punti. Adobe non garantisce la raccolta dei dati nelle regole di elaborazione se includi altri caratteri, come i trattini.
 * Non avviare le variabili di dati di contesto con `"a."`. Questo prefisso è riservato e utilizzato dall’Adobe. Ad esempio, non utilizzare `s.contextData["a.InstallEvent"]`.
-* Le variabili di dati di contesto non sono sensibili all’uso di maiuscole e minuscole. Le variabili `s.contextData["example"]` e `s.contextData["EXAMPLE"]` sono identiche.
+* Le variabili di dati di contesto non sono sensibili all’uso di maiuscole e minuscole. Le variabili `s.contextData["example"]` e `s.contextData["EXAMPLE"]` sono identici.
 
 ## Utilizzare le regole di elaborazione per popolare le variabili di analisi
 

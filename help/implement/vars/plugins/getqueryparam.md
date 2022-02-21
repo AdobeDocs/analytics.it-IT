@@ -1,8 +1,9 @@
 ---
 title: getQueryParam
 description: Estrai il valore del parametro della stringa di query di un URL.
+feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -15,18 +16,18 @@ ht-degree: 1%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `getQueryParam` ti consente di estrarre il valore di qualsiasi parametro della stringa di query contenuto in un URL. È utile per estrarre i codici della campagna, sia interni che esterni, dagli URL della pagina di destinazione. È utile anche per l’estrazione dei termini di ricerca o di altri parametri della stringa di query.
+La `getQueryParam` il plug-in consente di estrarre il valore di qualsiasi parametro della stringa di query contenuto in un URL. È utile per estrarre i codici della campagna, sia interni che esterni, dagli URL della pagina di destinazione. È utile anche per l’estrazione dei termini di ricerca o di altri parametri della stringa di query.
 
-Questo plug-in fornisce solide funzioni per l’analisi di URL complessi, tra cui hash e URL contenenti più parametri di stringa di query. Se hai solo esigenze di parametri di stringa di query semplici, Adobe consiglia di utilizzare le funzionalità dei parametri URL utilizzando i tag in Adobe Experience Platform o il metodo [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluso in AppMeasurement.
+Questo plug-in fornisce solide funzioni per l’analisi di URL complessi, tra cui hash e URL contenenti più parametri di stringa di query. Se hai solo esigenze di parametri di stringa di query semplici, Adobe consiglia di utilizzare le funzionalità dei parametri URL utilizzando i tag in Adobe Experience Platform o nella [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluso in AppMeasurement.
 
 ## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
-1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (pagina in alto)
@@ -39,10 +40,10 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
-1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
 1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche all’estensione Analytics.
 
@@ -55,7 +56,7 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## Usa il plug-in
 
-La funzione `getQueryParam` utilizza i seguenti argomenti:
+La `getQueryParam` La funzione utilizza i seguenti argomenti:
 
 * **`qsp`** (obbligatorio): Elenco delimitato da virgole dei parametri della stringa di query da cercare all’interno dell’URL. Non fa distinzione tra maiuscole e minuscole.
 * **`de`** (facoltativo): Il delimitatore da utilizzare se più parametri della stringa di query corrispondono. Impostazione predefinita di una stringa vuota.
@@ -66,7 +67,7 @@ Una chiamata a questa funzione restituisce un valore a seconda degli argomenti d
 * Se non viene trovato un parametro della stringa di query corrispondente, la funzione restituisce una stringa vuota.
 * Se viene trovato un parametro della stringa di query corrispondente, la funzione restituisce il valore del parametro della stringa di query.
 * Se viene trovato un parametro della stringa di query corrispondente ma il valore è vuoto, la funzione restituisce `true`.
-* Se vengono trovati più parametri di stringa di query corrispondenti, la funzione restituisce una stringa con ogni valore di parametro delimitato dalla stringa nell&#39;argomento `de` .
+* Se vengono trovati più parametri di stringa di query corrispondenti, la funzione restituisce una stringa con ogni valore di parametro delimitato dalla stringa nel `de` argomento.
 
 ## Esempi
 
@@ -125,7 +126,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 3.2 (15 maggio 2018)
 
-* Le funzioni `findParameterValue` e `getParameterValue` sono state spostate nella funzione `getQueryParam`
+* Spostato `findParameterValue` e `getParameterValue` nelle funzioni `getQueryParam` Funzione
 
 ### 3.1 (10 maggio 2018)
 
@@ -134,16 +135,16 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 3.0 (16 aprile 2018)
 
 * Rilascio del punto (ricompilato, dimensioni del codice più piccole).
-* Le funzioni helper sono state rinominate in `findParameterValue` e `getParameterValue` a scopo di leggibilità.
+* Funzioni helper rinominate in `findParameterValue` e `getParameterValue` a fini di leggibilità.
 * È stata rimossa la necessità di aggiungere un argomento per trovare i parametri contenuti nell’hash dell’URL
 
 ### 2.5 (8 gennaio 2016)
 
-* Compatibile sia con H-code che con AppMeasurement (richiede `s.pt` con AppMeasurement).
+* Compatibile sia con codice H che con AppMeasurement (richiesto) `s.pt` con AppMeasurement).
 
 ### 2,4
 
-* È stato aggiunto il parametro `h` , che consente al codice di trovare i parametri della stringa di query trovati dopo il carattere hash (`#`)
+* È stato aggiunto il `h` , che consente al codice di trovare i parametri della stringa di query trovati dopo l’hash (`#`) carattere
 
 ### 2.3.
 

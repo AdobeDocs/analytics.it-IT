@@ -1,11 +1,12 @@
 ---
 title: Convalidare un'implementazione di sviluppo e pubblicare in produzione
 description: Scopri come utilizzare i tag Adobe Experience Platform per distribuire Adobe Analytics nel tuo ambiente di produzione.
+feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -18,13 +19,13 @@ Una volta effettuata la distribuzione dei tag in produzione, la tua organizzazio
 
 ## Prerequisiti
 
-[Implementare l&#39;implementazione di Analytics nell&#39;ambiente](deploy-dev.md) di sviluppo: Per seguire questa pagina, devi pubblicare un’implementazione di Analytics nel tuo ambiente di sviluppo.
+[Implementazione di Analytics nell’ambiente di sviluppo](deploy-dev.md): Per seguire questa pagina, devi pubblicare un’implementazione di Analytics nel tuo ambiente di sviluppo.
 
 ## Convalidare l’implementazione di sviluppo tramite Experience Cloud Debugger
 
 Il debugger di Experience Cloud è un plug-in Chrome che mostra tutti i tag di Experience Cloud presenti su una pagina.
 
-1. Apri [Browser Web Chrome](https://www.google.com/chrome/) e vai a [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) su Chrome Web Store per installare l&#39;estensione.
+1. Apri [Browser Web Chrome](https://www.google.com/chrome/) e vai a [Debugger Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) su Chrome Web Store per installare l&#39;estensione.
 2. Passa al sito web di sviluppo in cui sono stati implementati i tag.
 3. Fai clic sull’icona di Adobe Experience Cloud Debugger in alto a destra di Chrome
 4. Se tutto è implementato correttamente, dovresti vedere il contenuto in Adobe Analytics, tag e il servizio ID visitatore di Adobe Experience Cloud:
@@ -35,14 +36,14 @@ Il debugger di Experience Cloud è un plug-in Chrome che mostra tutti i tag di E
 
 Dopo aver convalidato la visualizzazione dei dati, puoi inviare l’implementazione alla versione live del sito.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà tag che intendi implementare sul sito.
-1. Fai clic sulla scheda **[!UICONTROL Publishing]** e individua la libreria nella colonna di sviluppo.
+1. Fai clic sul pulsante **[!UICONTROL Publishing]** individua la libreria nella colonna di sviluppo .
 1. Fai clic sul menu a discesa della libreria, quindi seleziona **[!UICONTROL Submit for Approval]**. Fai clic su **[!UICONTROL Submit]** nella finestra modale.
 1. Fai nuovamente clic sull&#39;elenco a discesa della libreria (ora nella colonna Inviato) e seleziona **[!UICONTROL Build for Staging]**.
 1. Dopo alcuni istanti, la luce gialla colorata della libreria diventa verde e indica una build corretta.
 1. Fai nuovamente clic sul menu a discesa della libreria e seleziona **[!UICONTROL Approve for Publishing]**.
-1. Fai nuovamente clic sull&#39;elenco a discesa della libreria (ora nella colonna [!UICONTROL Approved]) e seleziona **[!UICONTROL Build and Publish to Production]**.
+1. Fai di nuovo clic sul menu a discesa della libreria (ora nella [!UICONTROL Approved] e seleziona **[!UICONTROL Build and Publish to Production]**.
 1. Vai alla scheda Ambienti e fai clic su **[!UICONTROL Production Environment]**.
 1. Copia l’intestazione di produzione e il codice a piè di pagina e invialo ai proprietari del sito web. Richiedi che implementino questo codice nell&#39;ambiente di produzione del tuo sito.
 
@@ -50,7 +51,7 @@ Dopo aver convalidato la visualizzazione dei dati, puoi inviare l’implementazi
 
 Conferma di visualizzare i dati nella versione attiva del sito e avvia la raccolta dati ufficiale per Adobe Analytics.
 
-1. Una volta confermato dai proprietari del sito web che hanno inviato il codice tag in produzione, accedi alla home page del sito web in Chrome e apri il [!UICONTROL Adobe Experience Cloud debugger].
+1. Dopo aver confermato dai proprietari del sito web che hanno inviato il codice tag in produzione, accedi alla home page del tuo sito web in Chrome e apri il [!UICONTROL Adobe Experience Cloud debugger].
 2. Se tutto funziona, nell’ambiente di sviluppo dovresti visualizzare dati simili ai test. A questo punto, stai raccogliendo dati sul tuo sito e ora puoi iniziare a utilizzare Adobe Analytics per la generazione di rapporti.
 
 ## Risoluzione dei problemi
@@ -60,7 +61,7 @@ Conferma di visualizzare i dati nella versione attiva del sito e avvia la raccol
 Sul sito, apri la console per sviluppatori del browser (in genere F12). Osserva il codice sorgente della pagina e accertati che siano soddisfatte le seguenti condizioni:
 
 * Non ci sono errori JavaScript nella console. Collabora con i proprietari del sito web della tua organizzazione per assicurarti che tutti gli errori JS siano risolti.
-* Il codice di intestazione è implementato correttamente: Assicurati che il codice di intestazione sia all&#39;interno del tag `<head>` e che il file esista.
+* Il codice di intestazione è implementato correttamente: Assicurati che il codice di intestazione sia all&#39;interno della `<head>` e che il file esista.
 * La libreria AppMeasurement esiste: Passa direttamente all&#39;origine JS per assicurarti che il file JS contenga codice. In caso contrario, assicurati che ogni ambiente sia creato e che la libreria sia pubblicata nel rispettivo ambiente.
 * Plug-in di interferenza: Alcuni plug-in di Chrome possono impedire l’attivazione delle richieste di immagini. Disattiva eventuali plug-in che potrebbero impedire l’invio di dati ai server di Adobe.
 
@@ -68,5 +69,5 @@ Sul sito, apri la console per sviluppatori del browser (in genere F12). Osserva 
 
 Ora che è impostata un’implementazione di base, il tuo ruolo all’interno dell’organizzazione può influenzare il percorso di cui desideri ulteriori informazioni:
 
-* [Crea un documento](../prepare/solution-design.md) di progettazione della soluzione: Pianifica l’utilizzo delle variabili personalizzate, quindi includerle nell’implementazione
+* [Creare un documento di progettazione della soluzione](../prepare/solution-design.md): Pianifica l’utilizzo delle variabili personalizzate, quindi includerle nell’implementazione
 * [Introduzione all’utilizzo di Analysis Workspace](/help/analyze/analysis-workspace/home.md): Entra direttamente in Adobe Analytics utilizzando la funzionalità di punta dello strumento.

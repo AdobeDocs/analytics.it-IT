@@ -1,8 +1,9 @@
 ---
 title: Collegamenti di rinuncia
 description: Scopri come creare e implementare i collegamenti di rinuncia per i visitatori del tuo sito.
+feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 3%
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->L’Adobe consiglia di utilizzare il servizio di consenso, in particolare per le organizzazioni interessate dalle normative RGPD. Consulta [Panoramica del servizio Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it) nella guida utente del servizio Experience Cloud Identity.
+>L’Adobe consiglia di utilizzare il servizio di consenso, in particolare per le organizzazioni interessate dalle normative RGPD. Vedi [Panoramica del servizio Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it) nella guida utente del servizio Experience Cloud Identity.
 
 Alcuni visitatori del sito web preferiscono non includere le informazioni di navigazione nel set di dati. L’Adobe offre ai visitatori del sito web la possibilità di rinunciare alla raccolta delle informazioni. Tutti i tipi di implementazione sono gestiti; la tua organizzazione è responsabile della tua informativa sulla privacy e del rispetto dei termini firmati.
 
@@ -21,28 +22,28 @@ Quando un visitatore raggiunge un URL di rinuncia, gli viene richiesto di instal
 
 >[!TIP]
 >
->Adobe offre anche le impostazioni di privacy in base alla suite di rapporti. Consulta [Impostazioni privacy](../../admin/admin/privacy-settings.md) nella guida utente Admin.
+>Adobe offre anche le impostazioni di privacy per suite di rapporti. Vedi [Impostazioni privacy](../../admin/admin/privacy-settings.md) nella guida utente Admin.
 
 ## URL rinuncia
 
-La pagina di rinuncia per la tua organizzazione dipende dal valore della variabile [`trackingServer`](../vars/config-vars/trackingserver.md) nella tua implementazione.
+La pagina di rinuncia per la tua organizzazione dipende dalla [`trackingServer`](../vars/config-vars/trackingserver.md) valore variabile nell&#39;implementazione.
 
 * Nell’interfaccia utente di raccolta dati:
-   1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+   1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
    1. Fai clic sulla proprietà desiderata.
-   1. Fai clic sulla scheda [!UICONTROL Extensions] , quindi fai clic su [!UICONTROL Configure] in Adobe Analytics.
-   1. Fare clic sul pannello a soffietto [!UICONTROL General] e annotare il valore [!UICONTROL Tracking Server].
+   1. Fai clic sul pulsante [!UICONTROL Extensions] scheda , quindi fai clic su [!UICONTROL Configure] in Adobe Analytics.
+   1. Fai clic sul pulsante [!UICONTROL General] a soffietto e annotare il [!UICONTROL Tracking Server] valore.
 
 * In un&#39;implementazione JavaScript:
    1. Sul server web, apri il file AppMeasurement.js utilizzato sul tuo sito in un editor di codice o di testo.
-   1. Notare il valore della variabile `trackingServer`.
+   1. Tieni presente che `trackingServer` valore variabile.
 
-* Utilizzando [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it):
+* Utilizzo della [Debugger Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it):
    1. Passa al sito utilizzando il browser Chrome.
-   1. Apri il Experience Cloud Debugger, quindi vai a [!UICONTROL Network tab].
-   1. Osserva il valore [!UICONTROL Request URL - Hostname] .
+   1. Apri il Experience Cloud Debugger, quindi vai al [!UICONTROL Network tab].
+   1. Tieni presente che [!UICONTROL Request URL - Hostname] valore.
 
-Dopo aver trovato il dominio `trackingServer` dell&#39;implementazione, aggiungi il percorso `/optout.html` alla fine. Ad esempio:
+Una volta trovata l&#39;implementazione di `trackingServer` dominio, aggiungi il percorso `/optout.html` fino alla fine. Ad esempio:
 
 * Cookie di terze parti: `https://example.data.adobedc.net/optout.html`
 * Cookie di prime parti: `https://stats.example.com/optout.html`
@@ -53,7 +54,7 @@ Sono disponibili impostazioni che è possibile caricare automaticamente in quest
 
 ### Impostazioni internazionali
 
-Passa automaticamente alla lingua della pagina di rinuncia includendo il parametro della stringa di query `locale` . Assegna il parametro della stringa di query uno dei seguenti valori:
+Passa automaticamente alla lingua della pagina di rinuncia includendo il `locale` parametro della stringa query. Assegna il parametro della stringa di query uno dei seguenti valori:
 
 * en_US (inglese, predefinito)
 * bg_BG (bulgaro)
@@ -78,17 +79,17 @@ Passa automaticamente alla lingua della pagina di rinuncia includendo il paramet
 * sk_SK (Slovacco)
 * es_ES (spagnolo)
 
-Ad esempio, `https://example.data.adobedc.net/optout.html?locale=ko_KR` carica la pagina di rinuncia in coreano.
+Ad esempio: `https://example.data.adobedc.net/optout.html?locale=ko_KR` carica la pagina di rinuncia in coreano.
 
 >[!TIP]
 >
->Il valore della stringa di query `en_US` non è obbligatorio, in quanto la pagina viene caricata in inglese per impostazione predefinita.
+>La `en_US` il valore della stringa di interrogazione non è obbligatorio, in quanto la pagina viene caricata in inglese per impostazione predefinita.
 
 ### Popup
 
-Aggiunge alla pagina un pulsante &quot;Chiudi finestra&quot;, che consente di rendere la pagina di rinuncia una finestra a comparsa. Utilizzare il parametro della stringa di query `popup` e assegnargli un valore di `1`.
+Aggiunge alla pagina un pulsante &quot;Chiudi finestra&quot;, che consente di rendere la pagina di rinuncia una finestra a comparsa. Utilizza la `popup` parametro della stringa query e fornirgli un valore di `1`.
 
-Ad esempio, `https://example.data.adobedc.net/optout.html?popup=1` carica la pagina di rinuncia con un pulsante &quot;Chiudi finestra&quot;.
+Ad esempio: `https://example.data.adobedc.net/optout.html?popup=1` carica la pagina di rinuncia con un pulsante &quot;Chiudi finestra&quot;.
 
 >[!NOTE]
 >
@@ -96,12 +97,12 @@ Ad esempio, `https://example.data.adobedc.net/optout.html?popup=1` carica la pag
 
 ### Rinuncia a clic singolo
 
-Consente all’utente di rinunciare immediatamente al tracciamento. Aggiungi i due parametri della stringa di query `opt_out` e `confirm_change`, assegnando a ciascuno un valore di `1`.
+Consente all’utente di rinunciare immediatamente al tracciamento. Aggiungi i due parametri della stringa di query `opt_out` e `confirm_change`, fornendo a ciascuno un valore di `1`.
 
-Ad esempio, `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` installa immediatamente il cookie di rinuncia sulla pagina del visitatore.
+Ad esempio: `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` installa immediatamente il cookie di rinuncia sulla pagina del visitatore.
 
 ### Consenso clic singolo
 
-Consente all’utente di dare immediatamente il consenso al tracciamento eliminando il cookie di rinuncia. Aggiungi i due parametri della stringa di query `opt_in` e `confirm_change`, assegnando a ciascuno un valore di `1`.
+Consente all’utente di dare immediatamente il consenso al tracciamento eliminando il cookie di rinuncia. Aggiungi i due parametri della stringa di query `opt_in` e `confirm_change`, fornendo a ciascuno un valore di `1`.
 
-Ad esempio, `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` elimina immediatamente il cookie di rinuncia per il visitatore.
+Ad esempio: `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` elimina immediatamente il cookie di rinuncia per il visitatore.

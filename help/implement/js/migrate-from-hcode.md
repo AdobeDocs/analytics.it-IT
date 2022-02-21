@@ -1,8 +1,9 @@
 ---
 title: Migrazione ad AppMeasurement per JavaScript
 description: Determina cosa è necessario per migrare l'implementazione di H Code.
+feature: Implementation Basics
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 3%
@@ -11,28 +12,28 @@ ht-degree: 3%
 
 # Migrazione ad AppMeasurement per JavaScript
 
-Se l’implementazione utilizza ancora il codice H, Adobe consiglia vivamente di eseguire la migrazione all’ultima versione di AppMeasurement. Si consiglia di implementare Analytics tramite i tag [in Adobe Experience Platform](../launch/overview.md), tuttavia è possibile utilizzare un&#39;implementazione JavaScript aggiornata.
+Se l’implementazione utilizza ancora il codice H, Adobe consiglia vivamente di eseguire la migrazione all’ultima versione di AppMeasurement. Implementazione di Analytics tramite [tag in Adobe Experience Platform](../launch/overview.md) è consigliato, tuttavia è possibile utilizzare un’implementazione JavaScript aggiornata.
 
 In AppMeasurement sono presenti le seguenti modifiche importanti rispetto al codice H:
 
 * 3-7 volte più veloce del codice H.
 * Più leggero del codice H - 21 kb non compresso rispetto al codice H, che è 33 kb non compresso.
-* La libreria e il codice della pagina possono essere distribuiti all&#39;interno del tag `<head>` .
+* La libreria e il codice della pagina possono essere distribuiti all&#39;interno della `<head>` tag .
 * Il codice H esistente a livello di pagina è compatibile con AppMeasurement.
 * La libreria fornisce utility native per ottenere parametri di query, cookie di lettura e scrittura ed eseguire il tracciamento avanzato dei collegamenti.
-* La libreria non supporta le variabili di configurazione dell’account dinamico (inclusi `dynamicAccountSelection`, `dynamicAccountMatch` e `dynamicAccountList`).
+* La libreria non supporta le variabili di configurazione dell’account dinamico (tra cui `dynamicAccountSelection`, `dynamicAccountMatch`e `dynamicAccountList`).
 
 I passaggi seguenti delineano un flusso di lavoro di migrazione tipico.
 
-1. **Scarica il nuovo file** AppMeasurement: Accedi al nuovo file accedendo ad Adobe Analytics, quindi vai a Amministratore > Tutti gli amministratori > Gestione codici. Il file compresso scaricato contiene un file `AppMeasurement.js` minimizzato, insieme ai moduli Media e Integrate.
-1. **Copia  `s_code.js` le personalizzazioni in`AppMeasurement.js`**: Sposta tutto il codice prima della  `DO NOT ALTER ANYTHING BELOW THIS LINE` sezione in  `s_code.js` all&#39;inizio di  `AppMeasurement.js`.
-1. **Aggiorna tutti i plug-in**: Assicurati di utilizzare la versione più recente di ogni plug-in presente nel  `s_code.js` file . Ciò include i moduli Media e Integrate .
-1. **Distribuisci il file** AppMeasurement.js: Carica il  `AppMeasurement.js` file sul server web.
-1. **Aggiorna i riferimenti allo script per puntare a`AppMeasurement.js`**: Assicurati che tutte le pagine facciano riferimento  `AppMeasurement.js` invece di  `s_code.js`.
+1. **Scarica il nuovo file AppMeasurement**: Accedi al nuovo file accedendo ad Adobe Analytics, quindi vai a Amministratore > Tutti gli amministratori > Gestione codici. Il file compresso scaricato contiene un `AppMeasurement.js` , insieme ai moduli Media e Integrate .
+1. **Copia il `s_code.js` personalizzazioni a`AppMeasurement.js`**: Sposta tutto il codice prima della `DO NOT ALTER ANYTHING BELOW THIS LINE` sezione `s_code.js` all&#39;inizio di `AppMeasurement.js`.
+1. **Aggiorna tutti i plug-in**: Assicurati di utilizzare la versione più recente di ogni plug-in elencato nella `s_code.js` file. Ciò include i moduli Media e Integrate .
+1. **Distribuire il file AppMeasurement.js**: Carica il `AppMeasurement.js` al server web.
+1. **Aggiorna i riferimenti di script per puntare a`AppMeasurement.js`**: Assicurati che tutti i riferimenti alle pagine `AppMeasurement.js` anziché `s_code.js`.
 
 ## Esempio di codice Appmeasurement
 
-Un file `AppMeasurement.js` tipico. Assicurati che le variabili di configurazione siano impostate sopra la funzione `doPlugins` .
+Tipico `AppMeasurement.js` file. Assicurati che le variabili di configurazione siano impostate sopra la variabile `doPlugins` funzione .
 
 ```js
 // Initialize AppMeasurement
@@ -87,4 +88,4 @@ s.t();
 </script>
 ```
 
-Assicurati anche di aver incluso un riferimento a `AppMeasurement.js` e `VisitorAPI.js` in ogni pagina. Per ulteriori informazioni, consulta [Implementazione JavaScript](/help/implement/js/overview.md) .
+Assicurati di aver incluso anche un riferimento a `AppMeasurement.js` e `VisitorAPI.js` su ogni pagina. Vedi [Implementazione JavaScript](/help/implement/js/overview.md) per ulteriori informazioni.

@@ -1,8 +1,9 @@
 ---
 title: Util.cookieWrite
 description: Scrive un valore per un cookie.
+feature: Variables
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
@@ -11,7 +12,7 @@ ht-degree: 2%
 
 # Util.cookieWrite
 
-I cookie possono memorizzare e recuperare informazioni tra le pagine dello stesso dominio. Utilizza il metodo `Util.cookieWrite()` per impostare un valore su un cookie. È possibile utilizzare il metodo [`Util.cookieRead()`](util-cookieread.md) per recuperare i valori impostati utilizzando `Util.cookieWrite()`.
+I cookie possono memorizzare e recuperare informazioni tra le pagine dello stesso dominio. Utilizza la `Util.cookieWrite()` per impostare un valore su un cookie. È possibile utilizzare [`Util.cookieRead()`](util-cookieread.md) metodo per recuperare i valori impostati con `Util.cookieWrite()`.
 
 ## Impostare i cookie utilizzando i tag in Adobe Experience Platform
 
@@ -19,13 +20,13 @@ L’interfaccia utente di raccolta dati non consente di impostare i cookie nell�
 
 ## s.Util.cookieWrite() in AppMeasurement e nell&#39;editor di codice personalizzato
 
-Chiama il metodo `s.Util.cookieWrite()` per impostare un cookie su un valore desiderato.
+Chiama il `s.Util.cookieWrite()` per impostare un cookie su un valore desiderato.
 
 ```js
 s.Util.cookieWrite("example_cookie","Example cookie value")
 ```
 
-È disponibile un terzo argomento facoltativo che determina la scadenza del cookie. I cookie impostati utilizzando `s.Util.cookieWrite()` scadono alla fine della sessione del browser per impostazione predefinita.
+È disponibile un terzo argomento facoltativo che determina la scadenza del cookie. Cookie impostati tramite `s.Util.cookieWrite()` scade alla fine della sessione del browser per impostazione predefinita.
 
 ```js
 // Set a cookie with an expiration 6 months from now

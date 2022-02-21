@@ -1,8 +1,9 @@
 ---
 title: inList
 description: Controlla se un valore è contenuto in un altro valore delimitato da caratteri.
+feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 1%
@@ -15,16 +16,16 @@ ht-degree: 1%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `inList` consente di verificare se un valore esiste già all&#39;interno di una stringa delimitata o di un oggetto array JavaScript. Diversi altri plug-in dipendono dal funzionamento del plug-in `inList` . Questo plug-in fornisce un vantaggio distinto rispetto al metodo JavaScript `indexOf()` in cui non corrisponde a stringhe parziali. Ad esempio, se hai utilizzato questo plug-in per verificare la presenza di `"event2"`, non corrisponderà a una stringa contenente `"event25"`. Questo plug-in non è necessario se non è necessario verificare la presenza di valori in stringhe o array delimitati o se si desidera utilizzare la propria logica `indexOf()`.
+La `inList` Il plug-in consente di verificare se un valore esiste già all&#39;interno di una stringa delimitata o di un oggetto array JavaScript. Diversi altri plug-in dipendono dal `inList` plug-in per il funzionamento. Questo plug-in fornisce un vantaggio distinto rispetto al metodo JavaScript `indexOf()` in cui non corrisponde a stringhe parziali. Ad esempio, se hai usato questo plug-in per verificare la presenza di `"event2"`, non corrisponde a una stringa contenente `"event25"`. Questo plug-in non è necessario se non è necessario verificare la presenza di valori in stringhe o array delimitati o se si desidera utilizzare il proprio `indexOf()` logica.
 
 ## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
-1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (pagina in alto)
@@ -37,10 +38,10 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
-1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
 1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche all’estensione Analytics.
 
@@ -57,14 +58,14 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## Usa il plug-in
 
-La funzione `inList` restituisce un valore booleano in base ai relativi input. Utilizza i seguenti argomenti:
+La `inList` restituisce un valore booleano a seconda dei relativi input. Utilizza i seguenti argomenti:
 
 * **`lv`** (obbligatorio, stringa o matrice): Un elenco delimitato di valori o un oggetto array JavaScript da cercare
 * **`vtc`** (obbligatorio, stringa): Valore da cercare
-* **`d`** (facoltativo, stringa): Il delimitatore utilizzato per separare i singoli valori nell’ `lv` argomento. Se non è impostato, viene impostata automaticamente una virgola (`,`).
-* **`cc`** (facoltativo, booleano): Se è impostato su  `true` o  `1`, viene effettuato un controllo con distinzione tra maiuscole e minuscole. Se è impostato su `false` o omesso, viene effettuato un controllo senza distinzione tra maiuscole e minuscole. Predefinito su `false`.
+* **`d`** (facoltativo, stringa): Il delimitatore utilizzato per separare i singoli valori nel `lv` argomento. Impostazione predefinita di una virgola (`,`) quando non è impostato.
+* **`cc`** (facoltativo, booleano): Se impostato su `true` o `1`, viene effettuato un controllo con distinzione tra maiuscole e minuscole. Se impostato su `false` o omesso, quindi viene effettuato un controllo senza distinzione tra maiuscole e minuscole. Predefinito su `false`.
 
-Una chiamata a questa funzione restituisce `true` se trova una corrispondenza e `false` se non trova una corrispondenza.
+La chiamata di questa funzione restituisce `true` se trova una corrispondenza, e `false` se non trova una corrispondenza.
 
 ## Esempi
 
@@ -108,7 +109,7 @@ if(inList(s.linkTrackVars,"eVar1","|")) {
 
 ### v2.1 (26 settembre 2019)
 
-* È stata aggiunta l’opzione per l’argomento `cc` che non è booleano. Ad esempio, `1` è un valore di controllo maiuscole/minuscole valido.
+* È stata aggiunta l’opzione per `cc` argomento per non essere booleano. Ad esempio: `1` è un valore di controllo maiuscole/minuscole valido.
 
 ### v2.0 (17 aprile 2018)
 

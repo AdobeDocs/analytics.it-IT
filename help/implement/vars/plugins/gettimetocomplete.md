@@ -1,8 +1,9 @@
 ---
 title: getTimeToComplete
 description: Misura il tempo necessario per completare un'attività.
+feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 1%
@@ -15,16 +16,16 @@ ht-degree: 1%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-Il plug-in `getTimeToComplete` tiene traccia del tempo impiegato dall&#39;utente per completare un processo su un sito. L&#39;orologio inizia quando viene chiamata l&#39;azione `start` e termina quando viene chiamata l&#39;azione `stop` . Adobe consiglia di utilizzare questo plug-in se sul sito è presente un flusso di lavoro che richiede un po&#39; di tempo per il completamento e desideri sapere quanto tempo impiegano i visitatori per completarlo. Non è necessario utilizzare questo plug-in se il flusso di lavoro sul sito richiede un breve periodo di tempo (meno di 3 secondi) perché la granularità è limitata solo al secondo completo.
+La `getTimeToComplete` il plug-in tiene traccia del tempo impiegato dall&#39;utente per completare un processo su un sito. Il &quot;clock&quot; inizia quando il `start` viene chiamata e termina quando `stop` viene chiamata l&#39;azione . Adobe consiglia di utilizzare questo plug-in se sul sito è presente un flusso di lavoro che richiede un po&#39; di tempo per il completamento e desideri sapere quanto tempo impiegano i visitatori per completarlo. Non è necessario utilizzare questo plug-in se il flusso di lavoro sul sito richiede un breve periodo di tempo (meno di 3 secondi) perché la granularità è limitata solo al secondo completo.
 
 ## Installare il plug-in utilizzando i tag in Adobe Experience Platform
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
-1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
 1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Libreria caricata (pagina in alto)
@@ -37,10 +38,10 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi all&#39; [Interfaccia di raccolta dati](https://experience.adobe.com/data-collection) utilizzando le tue credenziali AdobeID.
+1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai alla scheda [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
-1. Espandi il [!UICONTROL Configure tracking using custom code] pannello a soffietto, che mostra il pulsante [!UICONTROL Open Editor] .
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
 1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche all’estensione Analytics.
 
@@ -57,13 +58,13 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## Usa il plug-in
 
-La funzione `getTimeToComplete` utilizza i seguenti argomenti:
+La `getTimeToComplete` La funzione utilizza i seguenti argomenti:
 
-* **`sos`** (facoltativo, stringa): Impostare su  `"start"` quando si desidera avviare il timer. Impostare su `"stop"` per arrestare il timer. Predefinito su `"start"`.
+* **`sos`** (facoltativo, stringa): Imposta su `"start"` quando si desidera avviare il timer. Imposta su `"stop"` quando si desidera arrestare il timer. Predefinito su `"start"`.
 * **`cn`** (facoltativo, stringa): Nome del cookie da memorizzare l&#39;ora di inizio. Predefinito su `"s_gttc"`.
-* **`exp`** (facoltativo, numero intero): Il numero di giorni di scadenza del cookie (e del timer). Il valore predefinito è `0`, che rappresenta la fine della sessione del browser.
+* **`exp`** (facoltativo, numero intero): Il numero di giorni di scadenza del cookie (e del timer). Predefinito su `0`, che rappresenta la fine della sessione del browser.
 
-Una chiamata a questa funzione restituisce una stringa contenente il numero di giorni, ore, minuti e/o secondi necessari tra l&#39;azione `"start"` e `"stop"`.
+Una chiamata a questa funzione restituisce una stringa contenente il numero di giorni, ore, minuti e/o secondi necessari tra il `"start"` e `"stop"` azione.
 
 ## Esempi
 
@@ -92,11 +93,11 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 ### 3.1 (30 settembre 2019)
 
 * È stata aggiunta una logica che richiede un valore di &quot;start&quot; o &quot;stop&quot; nel primo argomento.  Tutti gli altri valori passati impediscono l&#39;esecuzione del plug-in.
-* Il plug-in `inList 2.0` è stato aggiornato a `inList 2.1`.
+* Aggiornato `inList 2.0` plug-in a `inList 2.1`.
 
 ### 3.0 (23 agosto 2018)
 
-* È stato aggiornato il plug-in `formatTime v1.0` in `formatTime v1.1`.
+* È stato aggiornato il `formatTime v1.0` plug-in a `formatTime v1.1`.
 
 ### 3.0 (17 aprile 2018)
 
@@ -105,6 +106,6 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 
 ### 2.0 giugno 21, 2016)
 
-* È stata eliminata la dipendenza dal plug-in `p_fo` .
+* È stata eliminata la dipendenza dal `p_fo` plug-in.
 * È stata aggiunta la compatibilità con H-code e AppMeasurement.
 * È stata aggiunta la registrazione della console.

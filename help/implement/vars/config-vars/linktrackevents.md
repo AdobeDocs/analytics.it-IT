@@ -1,8 +1,9 @@
 ---
 title: linkTrackEvents
 description: Determina gli eventi da includere nelle richieste di tracciamento dei collegamenti alle immagini.
+feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 3%
@@ -11,9 +12,9 @@ ht-degree: 3%
 
 # linkTrackEvents
 
-Alcune implementazioni non vogliono includere tutte le variabili in tutte le richieste di immagini di tracciamento dei collegamenti. Utilizza le variabili [`linkTrackVars`](linktrackvars.md) e `linkTrackEvents` per includere in modo selettivo dimensioni e metriche nelle chiamate [`tl()`](../functions/tl-method.md).
+Alcune implementazioni non vogliono includere tutte le variabili in tutte le richieste di immagini di tracciamento dei collegamenti. Utilizza la [`linkTrackVars`](linktrackvars.md) e `linkTrackEvents` variabili per includere in modo selettivo dimensioni e metriche in [`tl()`](../functions/tl-method.md) chiamate.
 
-Questa variabile non viene utilizzata per le chiamate di visualizzazione della pagina ([`t()`](../functions/t-method.md) metodo ).
+Questa variabile non viene utilizzata per le chiamate di visualizzazione della pagina ([`t()`](../functions/t-method.md) metodo).
 
 ## Eventi nelle chiamate di tracciamento dei collegamenti che utilizzano i tag in Adobe Experience Platform
 
@@ -21,15 +22,15 @@ Adobe Experience Platform include automaticamente gli eventi definiti negli hit 
 
 >[!IMPORTANT]
 >
->Se imposti eventi nell’interfaccia utente Raccolta dati utilizzando l’editor di codice personalizzato, devi includere l’evento in `linkTrackEvents` utilizzando anche il codice personalizzato.
+>Se imposti eventi nell’interfaccia utente Raccolta dati utilizzando l’editor di codice personalizzato, devi includere l’evento in `linkTrackEvents` utilizzando anche codice personalizzato.
 
 ## s.linkTrackEvents in AppMeasurement e nell&#39;editor di codice personalizzato
 
-La variabile `s.linkTrackEvents` è una stringa contenente un elenco delimitato da virgole di eventi che si desidera includere nelle richieste di tracciamento dei collegamenti immagine (`tl()` metodo ). Per includere le metriche negli hit di tracciamento dei collegamenti, è necessario soddisfare i tre criteri seguenti:
+La `s.linkTrackEvents` è una stringa contenente un elenco delimitato da virgole di eventi che desideri includere nelle richieste di tracciamento dei collegamenti alle immagini (`tl()` metodo). Per includere le metriche negli hit di tracciamento dei collegamenti, è necessario soddisfare i tre criteri seguenti:
 
-* Imposta l’evento desiderato nella variabile [`events`](../page-vars/events/events-overview.md) . Ad esempio, `s.events = "event1";`.
-* Imposta la variabile `events` in `linkTrackVars`. Ad esempio, `s.linkTrackVars = "events";`.
-* Imposta l’evento desiderato nella variabile `linkTrackEvents` . Ad esempio, `s.linkTrackEvents = "event1";`.
+* Imposta l’evento desiderato nella [`events`](../page-vars/events/events-overview.md) variabile. Ad esempio, `s.events = "event1";`.
+* Imposta la `events` variabile in `linkTrackVars`. Ad esempio, `s.linkTrackVars = "events";`.
+* Imposta l’evento desiderato nella `linkTrackEvents` variabile. Ad esempio, `s.linkTrackEvents = "event1";`.
 
 ```js
 s.linkTrackEvents = "event1,event2,event3,purchase";
@@ -39,7 +40,7 @@ Il valore predefinito per questa variabile è una stringa vuota. Se questa varia
 
 >[!TIP]
 >
->Evita di usare l&#39;identificatore oggetto Analytics (`s.`) quando si specificano gli eventi in questa variabile. Ad esempio, `s.linkTrackEvents = "event1";` è corretto, mentre `s.linkTrackEvents = "s.event1";` non è corretto.
+>Evita di usare l’identificatore oggetto di Analytics (`s.`) quando si specificano gli eventi in questa variabile. Ad esempio: `s.linkTrackEvents = "event1";` è corretto, mentre `s.linkTrackEvents = "s.event1";` non è corretto.
 
 ## Esempio
 
