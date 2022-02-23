@@ -2,8 +2,8 @@
 title: Confronto dei diversi metodi di esclusione dei bot
 description: Consente di confrontare diversi metodi per escludere i bot.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
-feature: Admin Tools
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+feature: Bot Removal
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 18%

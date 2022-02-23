@@ -1,8 +1,9 @@
 ---
 description: Esempi di etichette sulla privacy dei dati per variabili Adobe Analytics
 title: Etichette Privacy dei dati per le variabili di Analytics
+feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '3906'
 ht-degree: 96%

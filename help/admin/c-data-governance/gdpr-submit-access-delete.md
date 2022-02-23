@@ -1,9 +1,9 @@
 ---
 description: Come inviare ed eliminare le richieste di accesso ai dati in Adobe Analytics.
 title: Inviare richieste di accesso e cancellazione
-uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 100%
@@ -36,7 +36,7 @@ Puoi inviare l’accesso alla Privacy dei dati e cancellare le richieste tramite
 >
 >L’API Privacy dei dati supporta gli invii in batch per più utenti in una sola richiesta. Il limite attualmente supportato è 1.000 utenti (è possibile avere più ID per ciascun utente) in un unico file JSON della richiesta.
 
-## Richiesta JSON di esempio  {#sample-json-request}
+## Richiesta JSON di esempio {#sample-json-request}
 
 Segue un esempio di codice JSON che potrebbe essere inviato tramite l’API o l’interfaccia utente Privacy dei dati per richiedere l’elaborazione Privacy dei dati per tre utenti.
 

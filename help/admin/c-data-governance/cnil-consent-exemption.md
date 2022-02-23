@@ -1,8 +1,9 @@
 ---
 description: Scopri le linee guida e le raccomandazioni per il consenso degli utenti a memorizzare o leggere cookie non essenziali su dispositivi o browser.
 title: Quali sono le linee guida CNIL per il consenso degli utenti e i cookie
+feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 100%

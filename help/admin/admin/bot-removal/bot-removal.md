@@ -1,12 +1,12 @@
 ---
 title: Rimozione dei bot in Adobe Analytics
 description: Come rimuovere i bot in Adobe Analytics
-feature: Admin Tools
+feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -42,7 +42,7 @@ Inoltre, dal momento che i bot si stanno evolvendo rapidamente, l&#39;Adobe offr
 
 ### Passaggio 1: Passa l&#39;ID Experience Cloud dei visitatori in un nuovo ID dichiarato
 
-Per iniziare, crea un nuovo ID dichiarato nel [Servizio core persone](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Passa l’ID Experience Cloud del visitatore in questo nuovo ID dichiarato, che può essere fatto in modo rapido e semplice con [tag in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it). Usiamo il nome &quot;ECID&quot; per l’ID dichiarato.
+Per iniziare, crea un nuovo ID dichiarato nel [Servizio core persone](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it). Passa l’ID Experience Cloud del visitatore in questo nuovo ID dichiarato, che può essere fatto in modo rapido e semplice con [tag in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it). Usiamo il nome &quot;ECID&quot; per l’ID dichiarato.
 
 ![](assets/bot-cust-attr-setup.png)
 

@@ -1,8 +1,9 @@
 ---
 title: Note sulla versione più recente di Analytics
 description: Visualizza le note sulla versione corrente di Adobe Analytics.
+feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 511e3f4c621137d76b40fcc04ea849a0bba9e3fa
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 58%
@@ -26,7 +27,7 @@ Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cl
 | Modalità anteprima progetto scorecard mobile | Avvia un’anteprima dell’aspetto della scorecard mobile nell’app delle dashboard di Analytics, direttamente dal generatore di scorecard. La modalità di anteprima consente agli utenti di interagire con filtri e grafici nello stesso modo in cui si trovavano nell’app, consentendo loro di visualizzare un’anteprima dell’esperienza prima di salvare e condividere la scorecard. Gli utenti possono inoltre utilizzare il selettore dispositivi in modalità anteprima per vedere come si presenterà la loro scorecard sui diversi dispositivi. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 16 febbraio 2022 |
 | Endpoint di progetti API | Aggiungi, modifica o elimina progetti Analysis Workspace utilizzando l’API. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 1° febbraio 2022 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=“table-layout:auto”}
 
 ## Correzioni in Adobe Analytics
 

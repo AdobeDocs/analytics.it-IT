@@ -1,34 +1,37 @@
 ---
 description: Questa pagina elenca tutte le variabili partner nei Data Connectors (noti in precedenza come Genesis) che potrebbero contenere dati direttamente o indirettamente identificabili delle persone interessate.
 title: Privacy dei dati e Data Connectors (Genesis)
-uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
+feature: Privacy
 exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '436'
-ht-degree: 100%
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 45%
 
 ---
 
 # Privacy dei dati e Data Connectors (Genesis)
 
-Questa pagina elenca tutte le variabili partner nei Data Connectors (noti in precedenza come Genesis) che potrebbero contenere dati direttamente o indirettamente identificabili delle persone interessate.
+>[!NOTE]
+>
+>**Attive dal 19 agosto 2021**, Adobe ha interrotto le integrazioni dei Data Connectors. La fine del ciclo di vita fa parte del ciclo di vita di qualsiasi prodotto tecnologico e l&#39;Adobe mira a rendere la transizione il più semplice possibile per i nostri clienti e partner. Molte di queste integrazioni sono disponibili tramite Adobe Exchange e possono continuare a essere utilizzate.
 
-Queste informazioni ti consentono di identificare i dati importanti direttamente o indirettamente identificabili tramite i nostri connettori quando si riceve una richiesta di Privacy dei dati.
+<!--This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 
-Se usi un’integrazione di uno dei connettori seguenti, è sufficiente che controlli le variabili/classificazioni partner nell’integrazione che potrebbero contenere dati direttamente o indirettamente identificabili.
+This information lets you identify any directly identifiable data or indirectly identifiable data imported via our connectors, when they receive a Data Privacy request.
+
+If you are using an integration of any of the below connectors, you can simply check which partner variables/classifications in your integration may potentially contain directly identifiable data or indirectly identifiable data.
 
 >[!NOTE]
 >
->Queste informazioni sono fornite per identificare le variabili che devono essere [etichettate](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), ma è responsabilità dell’utente, in quanto responsabile del trattamento, applicare le etichette appropriate o eseguire altre azioni per [prepararsi per la Privacy dei dati](/help/admin/c-data-governance/an-gdpr-overview.md) (aggiornamento delle classificazioni, ecc.).
+>This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Nome connettore </th> 
-   <th colname="col2" class="entry"> Variabili </th> 
-   <th colname="col4" class="entry"> Tipo </th> 
+   <th colname="col1" class="entry"> Connector Name </th> 
+   <th colname="col2" class="entry"> Variables </th> 
+   <th colname="col4" class="entry"> Type </th> 
   </tr>
  </thead>
  <tbody> 
@@ -40,7 +43,7 @@ Se usi un’integrazione di uno dei connettori seguenti, è sufficiente che cont
   <tr> 
    <td colname="col1"> <p><b>appFigures</b> </p> </td> 
    <td colname="col2"> <p>App Store Object ID -&gt; App Store User </p> <p>App Store Object ID -&gt; Review Comment </p> <p>App Store Object ID -&gt; Review Title </p> </td> 
-   <td colname="col4"> <p>Classificazioni </p> </td> 
+   <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Aprimo Enterprise Marketing Management</b> </p> </td> 
@@ -74,7 +77,7 @@ Se usi un’integrazione di uno dei connettori seguenti, è sufficiente che cont
   </tr> 
   <tr> 
    <td colname="col2"> <p>Dialog Tech Caller -&gt; City </p> <p>Dialog Tech Caller -&gt; First Name </p> <p>Dialog Tech Caller -&gt; Last Name </p> <p>Dialog Tech Caller -&gt; State </p> <p>Dialog Tech Caller -&gt; Street Address </p> <p>Dialog Tech Caller -&gt; Zip Code </p> </td> 
-   <td colname="col4"> <p>Classificazioni </p> </td> 
+   <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>DREAMmail 2.0</b> </p> </td> 
@@ -84,7 +87,7 @@ Se usi un’integrazione di uno dei connettori seguenti, è sufficiente che cont
   <tr> 
    <td colname="col1"> <p><b>Dynamic Signal</b> </p> </td> 
    <td colname="col2"> <p>Tracking Code -&gt; Source ID </p> <p>Tracking Code -&gt; Source Name </p> <p>Tracking Code -&gt; User ID </p> <p>Tracking Code -&gt; User Name </p> </td> 
-   <td colname="col4"> <p>Classificazioni </p> </td> 
+   <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>eDialog Precision Central</b> </p> </td> 
@@ -103,7 +106,7 @@ Se usi un’integrazione di uno dei connettori seguenti, è sufficiente che cont
   </tr> 
   <tr> 
    <td colname="col2"> <p>Message ID -&gt; Mailing List Name </p> <p>Message ID -&gt; Manager ID </p> <p>Message ID -&gt; Manager Name </p> </td> 
-   <td colname="col4"> <p>Classificazioni </p> </td> 
+   <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Epsilon Harmony</b> </p> </td> 
@@ -122,12 +125,12 @@ Se usi un’integrazione di uno dei connettori seguenti, è sufficiente che cont
   </tr> 
   <tr> 
    <td colname="col2"> <p>Foresee Respondent ID -&gt; variable name 1 </p> <p>... </p> <p>Foresee Respondent ID -&gt; variable name n </p> </td> 
-   <td colname="col4"> <p>Classificazioni </p> </td> 
+   <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>ForeSee Feedback</b> </p> </td> 
-   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey -&gt; Question -&gt; Response </p> </td> 
-   <td colname="col4"> <p>Classificazioni </p> </td> 
+   <td colname="col1"> <p><b>Foresee Feedback</b> </p> </td> 
+   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey &gt; Question &gt; Response </p> </td> 
+   <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Listrak</b> </p> </td> 
@@ -166,7 +169,7 @@ Se usi un’integrazione di uno dei connettori seguenti, è sufficiente che cont
   </tr> 
   <tr> 
    <td colname="col2"> <p>Recipient ID -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
-   <td colname="col4"> <p>Classificazioni </p> </td> 
+   <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Silverpop Engage</b> </p> </td> 
@@ -199,4 +202,4 @@ Se usi un’integrazione di uno dei connettori seguenti, è sufficiente che cont
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->
