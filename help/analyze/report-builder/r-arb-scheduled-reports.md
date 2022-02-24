@@ -4,9 +4,9 @@ title: Attività programmate Manager
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 68a8eb3452d3f86bb59140ab5842667094198dee
+source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '622'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Lo scopo di questa pausa è quello di gestire e mantenere in modo efficace il da
 | [!UICONTROL Publishing Options] | Questa colonna elenca i Power BI se uno dei [Opzioni di pubblicazione Power BI](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html) è selezionato. |
 | [!UICONTROL Schedule] | Tipo di consegna pianificata. |
 | [!UICONTROL File Format] | Il formato di consegna del rapporto, ad esempio Excel, PDF, HTML e così via. |
-| [!UICONTROL Reactivate] | Quando una cartella di lavoro pianificata non viene eseguita, il Report Builder tenta di eseguire la cartella di lavoro due volte ogni quindici minuti. Dopo tre tentativi non riusciti, il Report Builder disattiva la pianificazione e visualizza il pulsante Riattiva . Quando si riattiva una cartella di lavoro, la consegna pianificata viene riavviata dal momento in cui è stata disattivata.  Ad esempio, se una cartella di lavoro pianificata è stata disattivata 14 giorni fa e la riattiva oggi, viene eseguita per ogni giorno mancante e verrà consegnata 14 volte. Se non si desidera che la cartella di lavoro venga consegnata per i giorni mancanti, è possibile eliminare la cartella di lavoro pianificata e quindi creare una nuova cartella di lavoro pianificata utilizzando gli stessi parametri di pianificazione.   Nota: È consigliabile non riattivare una cartella di lavoro a meno che non si conosca il motivo per cui è stata disattivata dal sistema. Una soluzione per la risoluzione dei problemi consiste nel scaricare una cartella di lavoro disattivata e aggiornarla sul lato client. Se non viene visualizzato alcun errore, è necessario essere in grado di riattivarlo. |
+| [!UICONTROL Reactivate] | Quando una cartella di lavoro pianificata non viene eseguita, il Report Builder tenta di eseguire la cartella di lavoro due volte ogni quindici minuti. Dopo tre tentativi non riusciti, il Report Builder disattiva la pianificazione e visualizza il pulsante Riattiva . Quando si riattiva una cartella di lavoro, la consegna pianificata viene riavviata dal momento in cui è stata disattivata.<p>Ad esempio, se una cartella di lavoro pianificata è stata disattivata 14 giorni fa e la riattiva oggi, viene eseguita per ogni giorno mancante e verrà consegnata 14 volte. Se non si desidera che la cartella di lavoro venga consegnata per i giorni mancanti, è possibile eliminare la cartella di lavoro pianificata e quindi creare una nuova cartella di lavoro pianificata utilizzando gli stessi parametri di pianificazione.<p>**Nota:** Non riattivare una cartella di lavoro a meno che non si conosca il motivo per cui è stata disattivata dal sistema. Per risolvere i problemi, scarica una cartella di lavoro disattivata e aggiornala sul lato client. Se non viene visualizzato alcun errore, è necessario essere in grado di riattivarlo. |
 | [!UICONTROL Last sent] | Data e ora dell’ultimo invio del rapporto. |
 | **Scheda Destinatario** |  |
 | [!UICONTROL Recipient email] | Il destinatario e-mail del rapporto. |
