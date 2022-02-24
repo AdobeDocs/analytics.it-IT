@@ -1,5 +1,5 @@
 ---
-description: Come eseguire la migrazione degli account utente di Analytics come Enterprise ID o Federated ID all’Admin Console.
+description: Come migrare ad Admin Console gli account utente Analytics come Enterprise ID o Federated ID.
 title: Eseguire la migrazione degli account utente di Analytics per Enterprise ID e Federated ID
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Eseguire la migrazione degli account utente di Analytics per Enterprise ID e Federated ID{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
-Come eseguire la migrazione degli account utente di Analytics come Enterprise ID o Federated ID all’Admin Console.
+Come migrare ad Admin Console gli account utente Analytics come Enterprise ID o Federated ID.
 
 ## Prerequisiti {#prereqs}
 
@@ -28,7 +28,7 @@ Consulta [Impostazione di un sistema di gestione delle identità](https://helpx.
 
 Se un’altra unità aziendale o un altro team avevano già creato una directory in un’altra organizzazione, seguire i passaggi descritti in [trusting di directory](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html#Directorytrusting) per stabilire la directory nell’organizzazione che stai utilizzando per Analytics.
 
-## Eseguire la migrazione degli account utente di per Enterprise ID e Federated ID {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
+## Migrazione gli account utente per Enterprise ID e Federated ID {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
 Segui questa procedura per:
 
@@ -80,7 +80,7 @@ Se ti occorre trasferire gli account utente Adobe ID esistenti a un Enterprise I
 
       >[!IMPORTANT]
       >
-      >Se trovi duplicati, eliminali dal file [!DNL User Logins List.csv] di Analytics. Questo passaggio aiuta a evitare la sovrascrittura delle autorizzazioni utente esistenti di Experience Cloud nell’Admin Console e ti fornisce un elenco di account da migrare.
+      >Se trovi dei duplicati, eliminali dal file [!DNL User Logins List.csv] di Analytics. Questo passaggio aiuta a evitare la sovrascrittura delle autorizzazioni utente esistenti di Experience Cloud nell’Admin Console e ti fornisce un elenco di account da migrare.
 
 1. Scarica il modello CSV dall’Admin Console:
    1. Nella scheda Utenti, fai clic su **[!UICONTROL Add users by CSV]**, quindi **[!UICONTROL Download CSV Template]**.

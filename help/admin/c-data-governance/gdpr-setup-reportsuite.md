@@ -63,7 +63,7 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
 1. Una volta terminata l’etichettatura fai clic su **[!UICONTROL Apply]**.
 
-## Copiare le etichette nelle suite di rapporti  {#section_7C6FDAFF049F4126B84F6261F72668EE}
+## Copiare le etichette nelle suite di rapporti {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
 Se vuoi applicare le stesse impostazioni DULE/Privacy dei dati a più di una suite di rapporti, puoi seguire questi passaggi:
 

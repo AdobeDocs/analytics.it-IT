@@ -6,7 +6,7 @@ exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 58%
 
 + [Fatturazione](billing-admin.md)
 + [Panoramica delle regole bot](bot-removal/bot-rules.md)
-+ [Gestore codici](code-manager-admin.md)
++ [Gestione codici](code-manager-admin.md)
 + [Variabili di conversione (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Codici valuta](currency.md)
 + [Descrizioni report personalizzati](custom-desc-admin.md)
@@ -31,10 +31,10 @@ ht-degree: 58%
 + [Metodi di ricerca](finding-methods.md)
 + [Impostazioni account generali](general-acct-settings-admin.md)
 + [Filtri URL interni](internal-url-filter-admin.md)
-+ [Registri ](logs.md)
-+ [Canali marketing](marketing-channels-admin.md)
++ [Registri](logs.md)
++ [Canali di marketing](marketing-channels-admin.md)
 + [Personalizzazione del menu](customize-menus.md)
-+ [Visibilità della metrica](metric-visibility.md)
++ [Visibilità delle metriche](metric-visibility.md)
 + [Gestione dispositivi mobili](mobile-management.md)
 + [Panoramica sul rilevamento di ricerca a pagamento](paid-search-detection/paid-search-detection.md)
 + [Elenchi di pubblicazione](publishing-list.md)
@@ -44,11 +44,11 @@ ht-degree: 58%
 + [Panoramica sulle regole di elaborazione](c-processing-rules/processing-rules.md)
 + [Panoramica rapporti in tempo reale](realtime/realtime.md)
 + [Coda dei report pianificati](scheduled-reports-admin.md)
-+ [Panoramica sull&#39;inoltro lato server](c-server-side-forwarding/ssf.md)
++ [Panoramica sull’inoltro lato server](c-server-side-forwarding/ssf.md)
 + [Menu dei rapporti semplificati](t-simplified-menu.md)
 + [Gestione social](social-management.md)
-+ [Panoramica eventi di successo](c-success-events/success-event.md)
++ [Panoramica degli eventi di successo](c-success-events/success-event.md)
 + [Marca temporale opzionale](timestamp-optional.md)
 + [Panoramica della variabile traffico (prop)](c-traffic-variables/traffic-var.md)
-+ [Specificare la variabile Visitatore univoco](unique-visitor-variable-admin/t-unique-visitor-variable.md)
++ [Specificare la variabile visitatore univoco](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [Gestione video](video-management.md)

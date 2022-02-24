@@ -1,5 +1,5 @@
 ---
-description: Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto mentre viene inviato al reporting.
+description: Utilizza le regole di elaborazione per semplificare la raccolta dati e gestire i contenuti quando viene inviato al reporting.
 subtopic: Processing rules
 title: Panoramica sulle regole di elaborazione
 feature: Processing Rules
@@ -7,26 +7,26 @@ exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # Panoramica sulle regole di elaborazione
 
-Le regole di elaborazione semplificano la raccolta dei dati e gestiscono il contenuto mentre viene inviato al reporting. Le regole di elaborazione consentono di semplificare l’interazione con i gruppi IT e gli sviluppatori Web fornendo un’interfaccia per:
+Utilizza le regole di elaborazione per semplificare la raccolta dati e gestire i contenuti quando viene inviato al reporting. Le regole di elaborazione aiutano a semplificare l’interazione con i gruppi IT e gli sviluppatori Web fornendo un’interfaccia per:
 
 * Impostare un evento nella pagina di panoramica del prodotto
 * Popolare la campagna con un parametro di stringa query
 * Concatenare il nome di una categoria e di una pagina in un prop per una generazione di rapporti più semplice
-* Copia un eVar in un prop per visualizzare i percorsi
-* Pulizia delle sezioni del sito errate
+* Copiare un eVar in un prop per visualizzare i percorsi
+* Pulire delle sezioni del sito errate
 * Estrarre i termini di ricerca interni o un ID campagna dalla stringa di query in un eVar
 
 >[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
 ## Autorizzazioni delle regole di elaborazione {#section_8A4846688050453784DAE4D89355169A}
 
-Gli amministratori dispongono dei diritti per utilizzare le regole di elaborazione **per impostazione predefinita**. Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l&#39;interfaccia Strumenti di amministrazione. Per le istruzioni del caso, consulta []
+Ora gli amministratori dispongono delle autorizzazioni per utilizzare le regole di elaborazione **per impostazione predefinita**. Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l’interfaccia Strumenti di amministrazione. Per le istruzioni del caso, consulta []
 
 ![](assets/processing-rules.png)
 
@@ -34,7 +34,7 @@ Gli amministratori dispongono dei diritti per utilizzare le regole di elaborazio
 >
 >Poiché le regole di elaborazione influiscono in modo permanente sui dati di Analytics, Adobe consiglia vivamente agli amministratori delle regole di elaborazione di ricevere un corso di formazione sulla certificazione in Adobe Analytics e di avere familiarità con tutte le fonti di dati per le suite di rapporti (siti web standard, siti mobili, app mobili, API di inserimento dati e così via). La conoscenza delle variabili di dati di contesto e delle variabili standard popolate in varie piattaforme aiuterà a prevenire l’eliminazione o l’alterazione accidentale dei dati.
 
-## Utilizza i dati contestuali per semplificare la raccolta dei dati {#section_09EEA03612D24C15839631AA9E9668D8}
+## Utilizzare i dati contestuali per semplificare la raccolta dei dati {#section_09EEA03612D24C15839631AA9E9668D8}
 
 Le variabili di dati di contesto sono un tipo di variabile disponibile solo per le regole di elaborazione. Per utilizzare le variabili di dati di contesto, le coppie chiave/valore vengono inviate dall’implementazione e le regole di elaborazione vengono utilizzate per acquisire questi valori nelle variabili di Analytics standard. Questo consente ai programmatori di capire esattamente quale prop e/o eVar deve contenere quale valore.
 
@@ -44,13 +44,13 @@ s.contextData['section'] = "Books";
 s.contextData['genre'] = "Youth";
 ```
 
-Una volta impostato il codice, puoi impostare le regole di elaborazione per assegnare valori alle variabili. Ad esempio:
+Una volta impostato il codice, puoi impostare le regole di elaborazione per assegnare valori alle variabili. Esempio:
 
 1. Mappa `author` a `eVar2`
 2. Mappa `section` a `prop1` e `eVar3`
-3. Se `author` e `section` esiste, set `event5`
+3. Se `author` e `section` esiste, imposta `event5`
 
-Vedi [contextData](/help/implement/vars/page-vars/contextdata.md) nella guida utente Implementa per ulteriori informazioni.
+Consulta [contextData](/help/implement/vars/page-vars/contextdata.md) nella guida utente Implementa per ulteriori informazioni.
 
 ## Utilizzare le regole di elaborazione per trasformare i dati di hit e gli eventi di attivazione {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -60,4 +60,4 @@ Le regole di elaborazione possono monitorare i valori in arrivo per trasformare 
 
 Una volta definite le variabili di dati di contesto nell’implementazione, queste devono essere copiate in variabili quali eVar da utilizzare nei rapporti.
 
-Vedi [Copiare una variabile di dati di contesto in un eVar](processing-rules-examples/processing-rules-copy-context-data.md) e [Impostare un evento utilizzando una variabile di dati di contesto](processing-rules-examples/processing-rules-copy-context-data-event.md) per ulteriori informazioni.
+Consulta [Copiare una variabile di dati di contesto in un eVar](processing-rules-examples/processing-rules-copy-context-data.md) e [Impostare un evento utilizzando una variabile di dati di contesto](processing-rules-examples/processing-rules-copy-context-data-event.md) per ulteriori informazioni.

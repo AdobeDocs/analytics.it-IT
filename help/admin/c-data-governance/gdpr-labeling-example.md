@@ -6,7 +6,7 @@ exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Inviando una richiesta di accesso, il file di riepilogo contiene i valori indica
     <th>Namespace/ID</th>
     <th>expandIDs</th>
     <th>MyProp1</th>
-    <th>ID visitatore</th>
+    <th>Visitor ID</th>
     <th>MyEvar1</th>
     <th>MyEvar2</th>
     <th>MyEvar3</th>
@@ -362,9 +362,9 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 Tieni presente quanto segue:
 
-* Celle nelle righe contenenti `user=Mary` e `DEL-PERSON` sono interessate.
-* A causa dell’espansione dell’ID, le celle nelle righe contenenti `AAID=77`, `AAID=88` o `AAID=99` (che sono i valori AAID nelle righe contenenti `user=Mary`) e a `DEL-DEVICE` sono interessate. Questo include le celle con un `DEL-DEVICE` etichetta nelle righe in cui `user=Mary`. Questo causa le celle nelle righe 4 e 5 (nonché nelle righe 1-3 con `DEL-DEVICE` le etichette (AAID, MyEvar2 e MyEvar3) da oscurare.
-* L&#39;impostazione expandIDs non si espande alla chiamata per includere i valori presenti in MyEvar3 (`X`, `Y` e `Z`), che ha un&#39;etichetta ID-DEVICE, quando `user=Mary`. ExpandIDs si estende solo all’inclusione di ID visitatore (AAID in questo esempio, ma anche ECID) nelle righe in cui `user=Mary`. Così le ultime due righe, che contengono i valori MyEvar3 di `X` e `Z` non sono interessati.
-* `MyEvar2` nella quarta e nella quinta riga viene aggiornato perché queste righe contengono gli stessi valori ID visitatore (`77` e `88`) come nella prima e nella seconda riga. Di conseguenza, l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
-* I valori di `MyEvar2` nella seconda e nella quinta riga corrispondono prima e dopo l’eliminazione. Tuttavia, dopo l’eliminazione non corrispondono più al valore `N` che si verifica nell’ultima riga, perché non è stata aggiornata come parte della richiesta di eliminazione.
+* Sono interessate solo le celle nelle righe contenenti `user=Mary` e un’etichetta `DEL-PERSON`.
+* A causa dell’espansione dell’ID, sono interessate le celle nelle righe contenenti `AAID=77`, `AAID=88` o `AAID=99` (valori AAID nelle righe contenenti `user=Mary`) e un’etichetta `DEL-DEVICE`. Questo include le celle con un’etichetta `DEL-DEVICE` nelle righe in cui `user=Mary`. Questo causa l’oscuramento delle celle nelle righe 4 e 5 (nonché nelle righe 1-3) con le etichette `DEL-DEVICE` (AAID, MyEvar2 e MyEvar3).
+* L’impostazione expandIDs non si estende alla chiamata per includere i valori presenti in MyEvar3 (`X`, `Y` e `Z`), che ha un’etichetta ID-DEVICE, quando `user=Mary`. ExpandIDs si estende solo per includere l’ID visitatore (AAID in questo esempio, ma anche ECID) nelle righe in cui `user=Mary`. Così le ultime due righe, che contengono i valori MyEvar3 `X` e `Z`, non sono interessate.
+* `MyEvar2` nella quarta e nella quinta riga viene aggiornata perché queste righe contengono gli stessi valori ID visitatore (`77` e `88`) di quelli nella prima e nella seconda riga. Di conseguenza, l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
+* I valori di `MyEvar2` nella seconda e nella quinta riga corrispondono prima e dopo l’eliminazione. Tuttavia, dopo l’eliminazione non corrispondono più al valore `N` che si trova nell’ultima riga, perché tale riga non è stata aggiornata come parte della richiesta di eliminazione.
 * `MyEvar3` si comporta in modo molto diverso rispetto alla versione senza l’espansione dell’ID, in quanto senza l’espansione dell’ID, nessun corrisponde `ID-DEVICES`. Ora `AAID` corrisponde alle prime cinque righe.

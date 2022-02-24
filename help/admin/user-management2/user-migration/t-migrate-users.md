@@ -1,6 +1,6 @@
 ---
 description: Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’Admin Console.
-title: Eseguire la migrazione degli account utente di Analytics per Adobe ID
+title: 'Eseguire la migrazione degli account utente di Analytics per Adobe ID '
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
@@ -10,11 +10,11 @@ ht-degree: 100%
 
 ---
 
-# Eseguire la migrazione degli account utente di Analytics per Adobe ID{#migrate-analytics-user-accounts-for-adobe-ids}
+# Eseguire la migrazione degli account utente di Analytics per Adobe ID {#migrate-analytics-user-accounts-for-adobe-ids}
 
 Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’Admin Console.
 
-## Eseguire la migrazione degli account utente di Analytics per Adobe ID {#task-f3355f3b14a340feae58cfa04c0ba1c9}
+## Eseguire la migrazione degli account utente di Analytics per Adobe ID  {#task-f3355f3b14a340feae58cfa04c0ba1c9}
 
 Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’Admin Console.
 

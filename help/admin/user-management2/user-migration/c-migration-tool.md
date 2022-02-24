@@ -6,11 +6,11 @@ exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '3113'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Migrazione degli utenti di Analytics all’Admin Console{#analytics-user-migration-to-the-admin-console}
+# Migrazione degli utenti di Analytics all’Admin Console {#analytics-user-migration-to-the-admin-console}
 
 Informazioni necessarie sulla migrazione degli ID utente di Analytics all’Admin Console in Adobe Experience Cloud.
 
@@ -47,7 +47,7 @@ I benefici dell’utilizzo della Admin Console includono:
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">Invitare nuovi utenti </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">Creare profili di prodotto </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">Concedere agli utenti l’autorizzazione a prodotti e servizi specifici </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Accedere ai <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html"> servizi core delle diverse soluzioni</a> disponibili in Adobe Experience Cloud </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Accedere ai <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=it"> servizi core delle diverse soluzioni</a> disponibili in Adobe Experience Cloud </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -75,7 +75,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aggiornare Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Importante: è necessario aggiornare l’installazione di <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html"> Report Builder</a> all’ultima versione. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Importante: è necessario aggiornare l’installazione di <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html?lang=it"> Report Builder</a> all’ultima versione. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quando inizia la migrazione? </p> </td> 
@@ -84,7 +84,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
      <li id="li_BA0AD50DCDC14C90ADD513DEF6F78180">Imposta le date di inizio e di fine per la migrazione della società. </li> 
      <li id="li_C048A5C64FAA46C4BB41EF24F1CEDF62">Invia un’e-mail di notifica agli attuali amministratori di Analytics della società circa 30 giorni prima della migrazione. </li> 
      <li id="li_476265B24CE2404B995201170C75D674">Mostra una notifica all’interno del prodotto per comunicare agli amministratori la data di inizio della migrazione. </li> 
-    </ul> <p> Il giorno della migrazione, i tuoi gruppi di autorizzazioni precedenti vengono automaticamente copiati nell’Admin Console. Non potrai più invitare nuovi utenti o creare nuovi gruppi in Strumenti di amministrazione di Analytics. </p> <p>Dopo la migrazione: </p> 
+    </ul> <p> Il giorno della migrazione, i tuoi gruppi di autorizzazioni precedenti vengono automaticamente copiati nell’Admin Console. Non potrai più invitare nuovi utenti o creare nuovi gruppi dagli strumenti di amministrazione di Analytics. </p> <p>Dopo la migrazione: </p> 
     <ul id="ul_4639963EB08F407F8C18ACE2B3D30223"> 
      <li id="li_7F24A3FC900146C3B2E988D399C859EA">Gli amministratori utilizzeranno l’Admin Console per gestire i propri utenti e le autorizzazioni di Analytics. (Non potrai più utilizzare l’interfaccia di gestione degli utenti in Analytics &gt; Amministratore &gt; Gestione utente.) </li> 
      <li id="li_5B5234D4F94A4B96A8920F6A5831A64C">Gli utenti accederanno ad Analytics con il proprio Adobe ID o Enterprise ID mediante Experience Cloud anziché tramite <span class="filepath"> my.omniture.com</span>. </li> 
@@ -97,7 +97,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
      <li id="li_418476105FE341229CE146E730AAB33D">I tuoi gruppi di autorizzazioni esistenti in Analytics verranno automaticamente replicati nell’Admin Console come profili di prodotto, incluse la loro descrizione e le autorizzazioni granulari nelle suite di rapporti, nelle metriche, nelle dimensioni, in Analytics e negli strumenti delle suite di rapporti. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">Se qualcuno dei tuoi utenti di Analytics attuali è stato creato nell’Admin Console e dispone quindi di un Adobe/Enterprise ID collegato, verrà aggiunto ai profili di prodotto appropriati nell’Admin Console. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">La sezione Gestione utente della scheda Amministratore in Analytics verrà impostata per la <span class="term"> sola lettura</span>. Potrai creare nuovi utenti o gruppi di autorizzazioni solo nell’Admin Console. Per ulteriori informazioni, vedi <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56"> Funzioni di Analytics non supportate nell’Admin Console</a>. </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">In quanto amministratore, avrai accesso allo strumento di <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">Migrazione degli ID utente</a>. Inoltre, all’interno del prodotto verrà visualizzata una notifica con la data di fine della migrazione (che generalmente corrisponde al sessantesimo giorno dall’inizio del processo) e con i collegamenti al contenuto della guida e alle domande frequenti. </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">In quanto amministratore, avrai accesso allo <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html?lang=it">strumento di Migrazione degli ID utente</a>. Inoltre, all’interno del prodotto verrà visualizzata una notifica con la data di fine della migrazione (che generalmente corrisponde al sessantesimo giorno dall’inizio del processo) e con i collegamenti al contenuto della guida e alle domande frequenti. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">Avrai accesso alla scheda Autorizzazioni dell’Admin Console da cui puoi creare i profili di prodotto con tutte le opzioni granulari che ti sono familiari in Analytics. </li> 
     </ul> </td> 
   </tr> 
@@ -132,7 +132,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adesso che la mia società sta eseguendo la migrazione all’Admin Console, dove posso creare nuovi utenti e gruppi di autorizzazioni prima della data di inizio della migrazione? </p> </td> 
-   <td colname="col2"> <p>Prima della data di inizio della migrazione, puoi creare gli utenti nell’Admin Console o in Analytics &gt; Gestione utente. </p> <p>Dopo l’inizio della migrazione, puoi creare utenti e gruppi di autorizzazioni solo nell’Admin Console. </p><p>Per ulteriori informazioni su cosa accade alla data di inizio della migrazione, consulta la sezione Migrazione (in basso. </p>
+   <td colname="col2"> <p>Prima della data di inizio della migrazione, puoi creare gli utenti nell’Admin Console o in Analytics &gt; Gestione utente. </p> <p>Dopo l’inizio della migrazione, puoi creare utenti e gruppi di autorizzazioni solo nell’Admin Console. </p><p>Per ulteriori informazioni su cosa accade alla data di inizio della migrazione, consulta la sezione Migrazione in basso. </p>
    </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ Informazioni importanti sul processo di migrazione e sull’impatto sulla gestio
 
 Potresti voler comunicare proattivamente questo piano di migrazione ai tuoi utenti correnti. Qui puoi trovare un modello personalizzabile da inviare a tutti i tuoi utenti di Analytics:
 
-Per inviare un messaggio e-mail a tutti gli utenti, passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > [Utenti e-mail](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html).
+Per inviare un messaggio e-mail a tutti gli utenti, passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > [Invia e-mail agli utenti](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html?lang=it).
 
 **Oggetto:** Disponibile a breve: nuovo metodo di accesso per Adobe Analytics e Adobe Experience Cloud.
 

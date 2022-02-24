@@ -6,7 +6,7 @@ feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
@@ -14,44 +14,44 @@ ht-degree: 7%
 
 Utilizzare questa pagina per comprendere ogni voce di autorizzazione in Strumenti delle suite di rapporti in Adobe Admin Console.
 
-| Voce di autorizzazione degli strumenti delle suite di rapporti | Descrizione |
+| Elementi di autorizzazione per gli strumenti della suite di rapporti | Descrizione |
 |------|------|
 | Gestione traffico | Non utilizzato. |
-| Gestione delle suite di rapporti | Consente l&#39;accesso a Report Suite Manager, ma non consente alcuna modifica. |
-| Riepilogo account | Consente di accedere a Generale > Impostazioni account generali nel Report Suite Manager. |
-| Filtri URL | Consente l&#39;accesso a Generali > Filtri URL interni in Report Suite Manager. |
-| Calendario personalizzato | Consente di accedere a Generale > Personalizza calendario nel Report Suite Manager. |
-| Ricerca a pagamento | Consente di accedere a Generale > Rilevamento ricerca a pagamento nel Report Suite Manager. |
-| Personalizzazione del menu | Consente di accedere a Generale > Personalizza menu nel Report Suite Manager. |
-| Configurazione rapporti in tempo reale | Consente l&#39;accesso in tempo reale in Report Suite Manager. Utilizzare la voce di autorizzazione &#39;Rapporto in tempo reale&#39; per concedere l&#39;accesso al report stesso. |
-| Variabili di traffico | Consente l&#39;accesso a Traffic (Traffico) > Traffic Variables (Variabili di traffico) in Report Suite Manager. |
-| Canali | Consente l&#39;accesso ai canali di marketing, inclusi Marketing Channel Manager, Marketing Channel Processing Rules e Marketing Channel Expiration nel Report Suite Manager. |
-| Costi | Consente l&#39;accesso a Marketing Channels (Canali di marketing) > Marketing Channel Cost (Costi canale di marketing) nel Report Suite Manager (Gestore suite di rapporti). |
-| Variabili di conversione | Consente l&#39;accesso a Conversion (Conversione) > Conversion Variables (Variabili di conversione) in Report Suite Manager. |
-| Metodi di ricerca | Consente l&#39;accesso a Conversion (Conversione) > Finding Methods (Metodi di ricerca) in Report Suite Manager (Gestore suite per rapporti). |
-| Visitatore univoco | Consente l’accesso a Conversione > Variabile Visitatore univoco. Non viene generalmente utilizzato nelle implementazioni moderne. |
-| Eventi di successo | Consente di accedere a Conversion (Conversione) > Success Events (Eventi di successo) in Report Suite Manager (Gestore suite per rapporti). |
-| Variabili elenco | Consente l&#39;accesso a Conversion (Conversione) > List Variables (Elenco variabili) in Report Suite Manager. |
+| Gestione delle suite di rapporti | Consente l’accesso a Report Suite Manager, ma non consente alcuna modifica. |
+| Riepilogo account | Consente di accedere a Generale > Impostazioni account generali in Report Suite Manager. |
+| Filtri URL | Consente l’accesso a Generali > Filtri URL interni in Report Suite Manager. |
+| Calendario personalizzato | Consente di accedere a Generale > Personalizza calendario in Report Suite Manager. |
+| Ricerca a pagamento | Consente di accedere a Generale > Rilevamento ricerca a pagamento in Report Suite Manager. |
+| Personalizzazione del menu | Consente di accedere a Generale > Personalizza menu in Report Suite Manager. |
+| Configurazione rapporti in tempo reale | Consente l’accesso in tempo reale in Report Suite Manager. Utilizzare la voce di autorizzazione “Rapporto in tempo reale” per concedere l’accesso al report stesso. |
+| Variabili di traffico | Consente l’accesso a Traffico > Variabili di traffico in Report Suite Manager. |
+| Canali | Consente l’accesso ai canali di marketing, inclusi Marketing Channel Manager, Marketing Channel Processing Rules e Marketing Channel Expiration nel Report Suite Manager. |
+| Costi | Consente l’accesso a Canali di marketing > Costi canale di marketing in Report Suite Manager. |
+| Variabili di conversione | Consente l’accesso a Conversione > Variabili di conversione in Report Suite Manager. |
+| Metodi di ricerca | Consente l’accesso a Conversione > Metodi di ricerca in Report Suite Manager. |
+| Visitatore univoco | Consente l’accesso a Conversione > Variabile visitatore univoco. Non viene generalmente utilizzato nelle implementazioni moderne. |
+| Eventi di successo | Consente di accedere a Conversione > Eventi di successo in Report Suite Manager. |
+| Variabili elenco | Consente l’accesso a Conversione > Elenco variabili in Report Suite Manager. |
 | Metriche predefinite | Consente di accedere a Impostazioni suite di rapporti singole > Metriche predefinite in Report Suite Manager. |
-| Regole di elaborazione | Consente l&#39;accesso a Generale > Regole di elaborazione e Generale > Regole bot in Report Suite Manager. |
+| Regole di elaborazione | Consente l’accesso a Generale > Regole di elaborazione e Generale > Regole bot in Report Suite Manager. |
 | Rilevamento delle anomalie | Consente l’accesso al rilevamento delle anomalie in Analysis Workspace. |
-| Analisi contributi | Consente di accedere al menu di scelta rapida &quot;Esegui analisi contributi&quot; in Analysis Workspace. |
-| Rapporto canale | Consente l&#39;accesso a Marketing Channels (Canali di marketing) > Channel Overview Report (Report panoramica canale) in Reports &amp; Analytics. |
-| Rapporto in tempo reale | Consente di accedere a Metriche del sito > In tempo reale in Reports &amp; Analytics. Utilizzare l&#39;autorizzazione &#39;Configurazione report in tempo reale&#39; per concedere l&#39;accesso per impostare questo report. |
+| Analisi contributi | Consente di accedere al menu di scelta rapida “Esegui analisi contributi” in Analysis Workspace. |
+| Rapporto canale | Consente l’accesso a Canali di marketing > Report panoramica canale in Reports &amp; Analytics. |
+| Rapporto in tempo reale | Consente di accedere a Metriche del sito > In tempo reale in Reports &amp; Analytics. Utilizza l’elemento di autorizzazione “Configurazione report in tempo reale” per concedere l’accesso per impostare questo report. |
 | Pagine bot | Consente di accedere al report Metriche del sito > Bots > Pagine bot in Reports &amp; Analytics. |
 | Bot | Consente di accedere al report Metriche del sito > Bots > Bots in Reports &amp; Analytics. |
-| Gestione feed dati | Consente di accedere ad Amministratore > Feed dati nella navigazione superiore di Analytics. |
+| Gestione feed dati | Consente di accedere ad Admin > Data feeds (Amministrazione > Feed dati) nell’area di navigazione superiore di Analytics. |
 | Rapporto Data Warehouse personalizzato | Consente di accedere a Strumenti > Data Warehouse nella navigazione superiore di Analytics. |
-| Visite giornaliere di ritorno | Consente di accedere a Visitor Retention (Conservazione dei visitatori) > Daily Return Visits (Visite giornaliere di ritorno) in Reports &amp; Analytics. |
-| Origini dati Manager | Consente di accedere ad Amministratore > Tutti gli amministratori > Origini dati nella navigazione superiore di Analytics. Richiede l’autorizzazione &quot;Gestione suite di rapporti&quot;. |
+| Visite giornaliere di ritorno | Consente di accedere a Conservazione dei visitatori > Visite giornaliere di ritorno in Reports &amp; Analytics. |
+| Gestione origini dati | Consente di accedere ad Admin > All admin > Data Sources (Amministrazione > Tutte le attività di amministrazione > Origini dati nella navigazione superiore di Analytics). Richiede l’elemento di autorizzazione “Gestione suite di rapporti”. |
 | Escludi per indirizzo IP | Consente di accedere ad Amministratore > Escludi per IP nella navigazione superiore di Analytics. |
-| Visite di ritorno | Consente di accedere a Visitor Retention (Conservazione dei visitatori) > Return Visits (Visite di ritorno) in Reports &amp; Analytics. |
-| Classificazioni | Consente di accedere a tutte le impostazioni di classificazione in Report Suite Manager. Questa voce di autorizzazione include: <br>Traffico > Classificazioni traffico<br>Conversione > Classificazioni di conversione<br>Conversione > Gerarchie di classificazione<br>Canali di marketing > Classificazioni canale di marketing<br>Gestione app > Classificazioni app<br>Media Management > Classificazioni multimediali<br>AEM > Classificazioni AEM Assets<br>Adobe Campaign > Classificazioni Adobi |
-| I miei rapporti consigliati | Consente di accedere a Metriche del sito > I miei report consigliati in Reports &amp; Analytics. |
-| Report immagini dashboard di Reports &amp; Analytics | Consente l&#39;accesso ai reportlet del dashboard. |
-| Report misuratore metriche dashboard di Reports &amp; Analytics | Consente l&#39;accesso ai reportlet del dashboard. |
-| Report di riepilogo suite per report per dashboard di Reports &amp; Analytics | Consente l&#39;accesso ai reportlet del dashboard. |
-| Report Dashboard di Reports &amp; Analytics DashboardText | Consente l&#39;accesso ai reportlet del dashboard. |
-| Report di riepilogo suite per report per dashboard di Reports &amp; Analytics | Consente l&#39;accesso ai reportlet del dashboard. |
-| Report esterno dashboard di Reports &amp; Analytics | Consente l&#39;accesso ai reportlet del dashboard. |
+| Visite di ritorno | Consente di accedere a Conservazione dei visitatori > Visite di ritorno in Reports &amp; Analytics. |
+| Classificazioni | Consente di accedere a tutte le impostazioni di classificazione in Report Suite Manager. Questo elemento di autorizzazione include: <br>Traffico > Classificazioni traffico<br>Conversione > Classificazioni di conversione<br>Conversione > Gerarchie di classificazione<br>Canali di marketing > Classificazioni canale di marketing<br>Gestione app > Classificazioni app<br>Media Management > Classificazioni multimediali<br>AEM > Classificazioni AEM Assets<br>Adobe Campaign > Classificazioni Adobe |
+| I miei rapporti consigliati | Consente di accedere a Metriche del sito > I miei rapporti consigliati in Reports &amp; Analytics. |
+| Reportlet immagini dashboard di Reports &amp; Analytics | Consente l’accesso ai reportlet del dashboard. |
+| Reportlet misuratore metriche dashboard di Reports &amp; Analytics | Consente l’accesso ai reportlet del dashboard. |
+| Reportlet di riepilogo suite per report per dashboard di Reports &amp; Analytics | Consente l’accesso ai reportlet del dashboard. |
+| Reportlet DashboardText di Reports &amp; Analytics | Consente l’accesso ai reportlet del dashboard. |
+| Reportlet di riepilogo suite per report per dashboard di Reports &amp; Analytics | Consente l’accesso ai reportlet del dashboard. |
+| Reportlet esterno per dashboard di Reports &amp; Analytics | Consente l’accesso ai reportlet del dashboard. |
 | API Data Repair | Consente l’accesso all’API Data Repair |

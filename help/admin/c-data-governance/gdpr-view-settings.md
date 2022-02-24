@@ -50,7 +50,7 @@ La finestra di dialogo Data Governance (Governance dei dati) negli strumenti del
     </ul> <p>Nota: in Adobe Analytics non è possibile ricevere assistenza per elaborare le richieste per l’API Privacy dei dati, ovvero per elaborare le richieste di accesso o di cancellazione ricevute dagli utenti finali, se non è stato impostato il periodo di conservazione dei dati. Contatta il tuo Customer Success Manager per impostare il periodo di conservazione dei dati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Groups (Gruppi) </p> </td> 
+   <td colname="col1"> <p> Groups (Gruppi) </p> </td> 
    <td colname="col2"> <p>La funzionalità di raggruppamento al momento non è implementata. </p> </td> 
   </tr> 
   <tr> 

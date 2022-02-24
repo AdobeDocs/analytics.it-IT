@@ -6,7 +6,7 @@ exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '3906'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -252,7 +252,7 @@ Un altro esempio: è possibile che CRM-ID venga inviato a volte tramite eVar1, a
 
 >[!CAUTION]
 >
->I namespace “visitorId” e “customVisitorId” sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi namespace per le variabili di traffico o conversione personalizzate.
+>I namespace “visitorId” e “customVisitorId” sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi spazi dei nomi per le variabili di traffico o conversione personalizzate.
 
 ## Tipi di variabili ed etichette Privacy dei dati/DULE supportate {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -386,7 +386,7 @@ La tabella seguente descrive come vengono “eliminate” molte variabili. Quest
    <td colname="col2"> <p>Il valore esistente è sostituito da un nuovo valore del modulo “G-7588FCD8642718EC50”, in cui il valore esadecimale a 18 cifre dopo il prefisso “G-” è un numero di 18 cifre pseudo-casuale e crittograficamente sicuro di 128 bit. Tutti i commenti che si applicano alla cancellazione delle variabili relative al traffico e al commercio si applicano anche in questo caso. </p> <p>Questo è un ID di transazione il cui scopo principale è quello di garantire che un acquisto non venga accreditato due volte, ad esempio quando qualcuno aggiorna la pagina di conferma dell’acquisto. L’ID stesso può spostare l’acquisto in una riga nel proprio DB in cui viene registrato l’acquisto. Nella maggior parte dei casi non è necessario cancellare questo ID, quindi non viene cancellato per impostazione predefinita. Se si riesce ancora a ricollegare l’acquisto ad un utente dopo la richiesta di cancellazione Privacy dei dati dei propri dati, allora potrebbe essere necessario cancellare questo campo, in modo che i dati di Analytics per questo visitatore non possano essere legati all’acquirente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID visitatore </p> </td> 
+   <td colname="col1"> <p>Visitor ID </p> </td> 
    <td colname="col2"> <p>Il valore è un numero intero di 128 bit e viene sostituito da un valore pseudo-casuale e crittograficamente sicuro di 128 bit. </p> </td> 
   </tr> 
   <tr> 

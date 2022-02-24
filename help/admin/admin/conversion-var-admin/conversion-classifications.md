@@ -1,22 +1,22 @@
 ---
-description: Le classificazioni vengono utilizzate per classificare i valori in gruppi e generare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come i termini della musica pop e generare rapporti sul successo di tale categoria in relazione a metriche quali Istanze (click-through) e conversione in eventi di successo.
+description: Le classificazioni vengono utilizzate per categorizzare i valori in gruppi e generare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come i termini della musica pop e generare rapporti sul successo di tale categoria in relazione a metriche quali Istanze (click-through) e conversione in eventi di successo.
 title: Classificazioni di conversione
 feature: Admin Tools
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 # Classificazioni di conversione
 
-Le classificazioni vengono utilizzate per classificare i valori in gruppi e generare rapporti a livello di gruppo. Ad esempio, puoi classificare tutti [!UICONTROL Paid Search] campagne in una categoria come *termini musicali pop* e genera rapporti sul successo di quella categoria in relazione a metriche quali Istanze (click-through) e conversione in eventi di successo. Puoi aggiungere fino a 255 classificazioni a una variabile.
+Le classificazioni vengono utilizzate per categorizzare i valori in gruppi e generare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne [!UICONTROL Paid Search] in una categoria come *termini musicali pop* e genera rapporti sul successo di quella categoria in relazione a metriche quali Istanze (click-through) e conversione in eventi di successo. Puoi aggiungere fino a 255 classificazioni a una variabile.
 
-Le classificazioni di conversione ti consentono di classificare le variabili di conversione. Una volta effettuata la classificazione, qualsiasi rapporto che puoi generare utilizzando i dati chiave può essere generato anche utilizzando le proprietà dati associate.
+Le classificazioni di conversione ti consentono di classificare le variabili di conversione. Una volta effettuata la classificazione, qualsiasi rapporto che puoi generare utilizzando la variabile chiave può essere generato anche utilizzando le proprietà dati.
 
-Dopo aver abilitato le classificazioni, utilizza le [Importatore di classificazione](/help/components/classifications/importer/c-working-with-saint.md) per assegnare valori specifici alla classificazione appropriata.
+Dopo aver abilitato le classificazioni, utilizza l’[Importatore di classificazione](/help/components/classifications/importer/c-working-with-saint.md) per assegnare valori specifici alla classificazione appropriata.
 
 >[!WARNING]
 >
@@ -38,19 +38,19 @@ Passaggi che descrivono come aggiungere classificazioni di conversione in Ammini
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**.
-1. Da **[!UICONTROL Select Classification Type]** dall’elenco a discesa, seleziona la variabile in cui desideri aggiungere una classificazione.
+1. Dall’**[!UICONTROL Select Classification Type]** elenco a discesa, seleziona la variabile in cui desideri aggiungere una classificazione.
 
    ![Informazioni sul passaggio](../assets/sub_class_create.png)
 
-1. Passa il puntatore del mouse sopra **[!UICONTROL Edit Classification]** , quindi seleziona **[!UICONTROL Add Classification]**.
-1. In **[!UICONTROL Select Type]** seleziona il tipo di classificazione da aggiungere alla variabile.
+1. Passa il puntatore del mouse sopra l’icona **[!UICONTROL Edit Classification]**, quindi seleziona **[!UICONTROL Add Classification]**.
+1. Nel campo **[!UICONTROL Select Type]**, seleziona il tipo di classificazione da aggiungere alla variabile.
 
    Le opzioni includono **[!UICONTROL Text]** e **[!UICONTROL Numeric]**. Per ulteriori informazioni sui tipi di classificazione, consulta [Informazioni sulle classificazioni](/help/components/classifications/c-classifications.md).
-1. In **[!UICONTROL Text Classifications]** configura la classificazione come desiderato nella finestra di dialogo.
+1. Nella finestra di dialogo **[!UICONTROL Text Classifications]**, configura la classificazione come desiderato.
 
-1. In **[!UICONTROL Dropdown List]** per aggiungere o rimuovere opzioni.
+1. Nella finestra di dialogo **[!UICONTROL Dropdown List]**, aggiungi o rimuovi opzioni.
 
-   Aggiungi opzioni crea un elenco dei valori di classificazione disponibili per questa classificazione. Puoi utilizzare questa opzione con le variabili di Campaign per fornire agli utenti un elenco di valori supportati per la classificazione in Campaign Manager. Utilizza questa opzione per le dimensioni di classificazione in cui si dispone di un numero limitato di valori consentiti che raramente o mai cambiano. Ad esempio, puoi eseguire diverse campagne indirizzate a diversi livelli di fedeltà dei clienti: Argento, Oro e Platino. È quindi possibile utilizzare l’elenco a discesa per assicurarsi che gli unici valori accettati siano quelli corrispondenti ai tre livelli. Se qualcuno prova a utilizzare un valore diverso, viene scartato.
+   Aggiungi opzioni crea un elenco dei valori di classificazione disponibili per questa classificazione. Puoi utilizzare questa opzione con le variabili di Campaign per fornire agli utenti un elenco di valori supportati per la classificazione in Campaign Manager. Utilizza questa opzione per le dimensioni di classificazione in cui si dispone di un numero limitato di valori consentiti che cambiano raramente o mai. Ad esempio, puoi eseguire diverse campagne indirizzate a diversi livelli di fedeltà dei clienti: Argento, Oro e Platino. È quindi possibile utilizzare l’elenco a discesa per assicurarsi che gli unici valori accettati siano quelli corrispondenti ai tre livelli. Se qualcuno cerca di utilizzare un valore diverso, viene scartato.
 
 1. Fai clic su **[!UICONTROL Save]**.
 
@@ -61,6 +61,6 @@ Elimina una classificazione di conversione quando non è più necessaria.
 1. Apri Report Suite Manager facendo clic su **[!UICONTROL Admin]**> **[!UICONTROL Report Suites]** nell’intestazione Suite.
 1. Seleziona una suite di rapporti.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**.
-1. Da **[!UICONTROL Select Classification Type]** dall’elenco a discesa, seleziona la variabile in cui desideri eliminare una classificazione.
-1. Passa il puntatore del mouse sopra **[!UICONTROL Edit Classification]** , quindi seleziona **[!UICONTROL Delete Classification]**.
-1. Nella finestra di dialogo Elimina classificazione fare clic su **[!UICONTROL Delete]**.
+1. Dall’elenco a discesa **[!UICONTROL Select Classification Type]**, seleziona la variabile in cui desideri eliminare una classificazione.
+1. Passa il puntatore del mouse sopra l’icona **[!UICONTROL Edit Classification]**, quindi seleziona **[!UICONTROL Delete Classification]**.
+1. Nella finestra di dialogo Elimina classificazione, fai clic su **[!UICONTROL Delete]**.

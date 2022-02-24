@@ -6,7 +6,7 @@ exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ Questa pagina dell’Aiuto contiene casi d’uso consigliati per ogni strumento 
 
 Per ulteriori informazioni su un confronto tra i vari prodotti Adobe Analytics, consulta [questo articolo](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
-Ecco un video che mette a confronto diversi strumenti di Adobe Analytics:
+Questo video mette a confronto diversi strumenti di Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
 
@@ -31,8 +31,8 @@ Ecco un video che mette a confronto diversi strumenti di Adobe Analytics:
 * Impostare eventi di Calendario
 * Impostare le destinazioni
 * Visualizzare i rapporti generati da bot
-* Per accedere a visualizzazioni video univoche del dayparting dei video e del rilascio del visualizzatore.
-* Sfruttare gli elenchi di pubblicazione nei rapporti pianificati
+* Accesso a visualizzazioni video univoche di video Daypart e abbandono dei visualizzatori
+* Sfruttamento degli elenchi di pubblicazione nei rapporti pianificati
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=it)** è indicato per:
 
@@ -70,7 +70,7 @@ Le **[origini dati](/help/import/c-data-sources/datasrc-home.md)** sono utili 
 
 * Quando devi caricare dei dati in Adobe Analytics e non puoi usare il codice di Adobe AppMeasurement o Mobile SDK.
 
-API di **[inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+**[API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
 * L’API di inserimento dati e l’API di inserimento dati in blocco sono entrambi metodi per inviare i dati di raccolta lato server ad Adobe Analytics. Le chiamate API di inserimento dati vengono effettuate un evento alla volta. L’API di inserimento dati in blocco accetta file in formato CSV contenenti dati evento, un evento per riga. Se stai lavorando a una nuova implementazione della raccolta lato server, ti consigliamo di utilizzare l’API di inserimento dati in blocco.
 

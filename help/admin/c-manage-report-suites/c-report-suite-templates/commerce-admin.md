@@ -6,7 +6,7 @@ exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 Definisce le impostazioni comuni per un sito web di e-commerce.
 
-| Variabili di conversione | Tipo | Sottorelazioni | Allocazione | Scadenza | `s_code` variable |
+| Variabili di conversione | Tipo | Sottorelazioni | Allocazione | Scadenza | variabile `s_code` |
 |---|---|---|---|---|---|
 | Promozioni interne | Stringa | Base | Più recente (ultimo) | Visita | `evar1` |
 | Termini di ricerca interni | Stringa | Base | Più recente (ultimo) | Visita | `evar2` |
@@ -22,18 +22,18 @@ Definisce le impostazioni comuni per un sito web di e-commerce.
 | Variabile Commerce 4 | Stringa | Base | Più recente (ultimo) | Visita | `evar4` |
 | Variabile Commerce 5 | Stringa | Base | Più recente (ultimo) | Visita | `evar5` |
 
-| Eventi di successo | Tipo | `s_code` variable |
+| Eventi di successo | Tipo | variabile `s_code` |
 |---|---|---|
 | Registrazioni | Contatore (nessuna sottorelazione) | `event1` |
 | Eventi personalizzati 1-5 | Contatore (nessuna sottorelazione) | `event1, event2, event3, event4, event5` |
 
-| Variabili Custom Insight | `s_code` variable |
+| Variabili Custom Insight | variabile `s_code` |
 |---|---|
 | Proprietà traffico 1 - 5 | `prop1, prop2, prop3, prop4, prop5` |
 
 La tabella seguente contiene un elenco degli eventi di e-commerce standard. La configurazione iniziale di questi eventi è identica in tutti i modelli della suite di rapporti. Gli eventi con una variabile s_code di N/D non devono essere impostati, ma vengono forniti automaticamente.
 
-| Eventi Commerce standard | Tipo | `s_code` variable |
+| Eventi Commerce standard | Tipo | variabile `s_code` |
 |---|---|---|
 | Ricavi | Contatore | `purchase` |
 | Ordini | Contatore | `purchase` |

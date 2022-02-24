@@ -1,6 +1,6 @@
 ---
 description: Scopri come disabilitare gli accessi legacy per gli utenti di Analytics.
-title: Disattivazione degli accessi legacy
+title: 'Disattivazione degli accessi legacy '
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Disattivazione degli accessi legacy{#disable-legacy-logins}
+# Disattivazione degli accessi legacy {#disable-legacy-logins}
 
 Scopri come disabilitare gli accessi legacy per gli utenti di Analytics.
 
