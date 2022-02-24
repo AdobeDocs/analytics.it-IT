@@ -3,10 +3,10 @@ description: Domande frequenti sulla governance dei dati in Adobe Analytics
 title: Domande frequenti
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 98%
+source-wordcount: '1802'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>In che modo i clienti di Adobe (titolari del trattamento) individueranno le richieste di Privacy dei dati da mappare in corrispondenza agli ID in Adobe Analytics per l’elaborazione della Privacy dei dati?</b> </p> </td> 
-   <td colname="col2"> <p>I titolari del trattamento determineranno come risolvere le identità per le richieste delle persone interessate. Prendi in considerazione la distribuzione del <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm"> tag di recupero degli ID Privacy dei dati di Adobe. </a> I team di sviluppo risparmieranno molto tempo usando il tag di recupero degli ID Privacy dei dati per acquisire gli ID degli utenti (ID cookie) e l’API della Privacy dei dati per inviare gli ID degli utenti alle soluzioni pertinenti in Adobe Experience Cloud per l’elaborazione della richiesta di Privacy dei dati. </p> <p>L’API della Privacy dei dati può supportare una vasta gamma di ID dei clienti su più soluzioni di Adobe. Se una persona interessata invia una richiesta insieme a un identificatore (variabile personalizzata: proprietà o eVar), Adobe Analytics analizzerà tutta la cronologia dei dati raccolti per l’identificatore specifico. Per ulteriori informazioni su come configurare gli ID personalizzati memorizzati nelle proprietà o eVar di Analytics, consulta la documentazione di Analytics in <a href="/help/admin/c-data-governance/gdpr-namespaces.md"> Namespace.</a>
+   <td colname="col2"> <p>I titolari del trattamento determineranno come risolvere le identità per le richieste delle persone interessate. Prendi in considerazione la distribuzione del <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> tag di recupero degli ID Privacy dei dati di Adobe. </a> I team di sviluppo risparmieranno molto tempo usando il tag di recupero degli ID Privacy dei dati per acquisire gli ID degli utenti (ID cookie) e l’API della Privacy dei dati per inviare gli ID degli utenti alle soluzioni pertinenti in Adobe Experience Cloud per l’elaborazione della richiesta di Privacy dei dati. </p> <p>L’API della Privacy dei dati può supportare una vasta gamma di ID dei clienti su più soluzioni di Adobe. Se una persona interessata invia una richiesta insieme a un identificatore (variabile personalizzata: proprietà o eVar), Adobe Analytics analizzerà tutta la cronologia dei dati raccolti per l’identificatore specifico. Per ulteriori informazioni su come configurare gli ID personalizzati memorizzati nelle proprietà o eVar di Analytics, consulta la documentazione di Analytics in <a href="/help/admin/c-data-governance/gdpr-namespaces.md"> Namespace.</a>
     </p> </td> 
   </tr> 
   <tr> 

@@ -3,9 +3,9 @@ description: L’elaborazione dei tempi di report è un’impostazione della sui
 title: Elaborazione dell'ora rapporto
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1396'
 ht-degree: 4%
 
 ---
@@ -30,14 +30,14 @@ Durante l’elaborazione dei dati di Analytics, i dati scorrono attraverso la pi
 
 Questa architettura di elaborazione consente opzioni di reporting molto più flessibili. Ad esempio, puoi modificare il periodo di timeout della visita in qualsiasi momento in modo non distruttivo e tali modifiche si riflettono nella persistenza eVar e nei contenitori di segmenti retroattivamente come se aveste applicato quelle impostazioni prima che i dati venissero raccolti. Inoltre, puoi creare un numero qualsiasi di suite di rapporti virtuali, ciascuna con diverse opzioni di elaborazione dei tempi di report basate sulla stessa suite di rapporti di base, senza modificare nessuno dei dati nella suite di rapporti di base.
 
-[!UICONTROL Report Time Processing] consente inoltre ad Analytics di impedire l’avvio di nuove visite in background e consente [SDK per dispositivi mobili](https://www.adobe.io/apis/cloudplatform/mobile.html) per comunicare al reporting di avviare una nuova visita ogni volta che viene attivato un evento App Launch.
+[!UICONTROL Report Time Processing] consente inoltre ad Analytics di impedire l’avvio di nuove visite in background e consente [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) per comunicare al reporting di avviare una nuova visita ogni volta che viene attivato un evento App Launch.
 
 ## Opzioni di configurazione
 
 Le seguenti opzioni di configurazione sono attualmente disponibili per le suite di rapporti virtuali con l’elaborazione al momento della generazione del rapporto abilitata:
 
 * **[!UICONTROL Visit Timeout]:** L’impostazione di timeout visita definisce la quantità di inattività che un visitatore univoco deve avere prima dell’avvio automatico di una nuova visita. Il valore predefinito è 30 minuti. Ad esempio, se imposti il timeout di visita a 15 minuti, viene creato un nuovo raggruppamento di visite per ogni sequenza di hit raccolta, separate da 15 minuti di inattività. Questa impostazione ha un impatto non solo sui conteggi delle visite, ma anche sulla valutazione dei contenitori dei segmenti di visite e sulla logica di scadenza delle visite per tutte le eVar in scadenza alla visita. Una diminuzione del timeout della visita determinerà probabilmente un aumento del numero totale di visite nei rapporti, mentre un aumento del timeout della visita ridurrà probabilmente il numero totale di visite nei rapporti.
-* **[!UICONTROL Mobile App Visit Settings]:** Per le suite di rapporti contenenti dati generati da app mobili tramite [SDK di Adobe Mobile](https://www.adobe.io/apis/cloudplatform/mobile.html), sono disponibili altre impostazioni di visita. Queste impostazioni non sono distruttive e influiscono solo sugli hit raccolti tramite gli SDK di Mobile. Queste impostazioni non hanno alcun impatto sui dati raccolti al di fuori dell&#39;SDK di Mobile.
+* **[!UICONTROL Mobile App Visit Settings]:** Per le suite di rapporti contenenti dati generati da app mobili tramite [SDK di Adobe Mobile](https://experienceleague.adobe.com/docs/mobile.html), sono disponibili altre impostazioni di visita. Queste impostazioni non sono distruttive e influiscono solo sugli hit raccolti tramite gli SDK di Mobile. Queste impostazioni non hanno alcun impatto sui dati raccolti al di fuori dell&#39;SDK di Mobile.
 * **[!UICONTROL Prevent Background Hits from starting a new Visit]:** Gli hit in background vengono raccolti dagli SDK di Mobile quando l&#39;app è in background.
 * **[!UICONTROL Start a New Visit upon each App Launch]:** Oltre al timeout previsto per la visita, puoi forzare l’inizio di una visita ogni volta che un evento App Launch è stato registrato dagli SDK Mobile, indipendentemente dalla finestra di inattività. Questa impostazione influisce sulla metrica di visita e sul contenitore del segmento di visita, nonché sulla logica di scadenza della visita sulle eVar.
 * **[!UICONTROL Start New Visit with Event]:** Viene avviata una nuova sessione quando un evento viene attivato, a prescindere dal timeout di una sessione. La nuova sessione creata include l’evento che l’ha avviata. Inoltre, puoi utilizzare più eventi per avviare una sessione e una nuova sessione viene avviata se nei dati viene rilevato uno qualsiasi degli eventi. Questa impostazione influisce sul conteggio delle visite, sul contenitore di segmentazione delle visite e sulla logica di scadenza delle visite sugli eVar.

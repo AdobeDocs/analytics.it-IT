@@ -3,10 +3,10 @@ description: Elenca le API interessate dalla migrazione degli utenti
 title: 'API interessate dalla migrazione degli utenti '
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +42,6 @@ Se la tua società non utilizza nessuno di questi metodi, non è necessaria alcu
 Per ulteriori informazioni:
 
 * [Informazioni generali sulla gestione utenti](https://helpx.adobe.com/it/enterprise/help/users.html)
-* [Gestione utenti tramite adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
+* [Gestione utenti tramite adobe.io](https://developer.adobe.com/UMAPI/)
 * [Forum della API di gestione utenti](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [Migrazione dell’accesso e della gestione utenti di Analytics a Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=it)
