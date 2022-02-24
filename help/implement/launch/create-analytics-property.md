@@ -3,9 +3,9 @@ title: Creare una proprietà Analytics nei tag
 description: Crea uno spazio per personalizzare la modalità di raccolta dei dati utilizzando i tag .
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 0763f2624d46eb282b7b4c94f7d103d8e9ad8095
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '582'
 ht-degree: 10%
 
 ---
@@ -30,7 +30,7 @@ Le proprietà sono contenitori principali utilizzati per gestire i tag. Le esten
 1. Assegna alla proprietà un nome, ad esempio il titolo del sito web, e immetti il dominio su cui intendi implementare Analytics. Fai clic su **[!UICONTROL Save]**.
 1. Fai clic sulla nuova proprietà tag creata per inserirne le impostazioni.
 1. Fai clic sul pulsante **[!UICONTROL Extensions]** scheda , quindi fai clic su **[!UICONTROL Catalog]**.
-1. Individua il servizio Identity, quindi fai clic su **[!UICONTROL Install]**.
+1. Individua &quot;Servizio ID Experience Cloud&quot;, quindi fai clic su **[!UICONTROL Install]**.
 1. Tutte le impostazioni, incluso l’ID organizzazione Experience Cloud, devono essere già compilate. Fai clic su **[!UICONTROL Save]**.
 1. Nel catalogo delle estensioni, individua Adobe Analytics e fai clic su **[!UICONTROL Install]**.
 
