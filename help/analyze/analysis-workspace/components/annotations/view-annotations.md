@@ -4,7 +4,7 @@ description: Come visualizzare le annotazioni in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 6%
@@ -21,10 +21,10 @@ Le annotazioni si presentano in modo leggermente diverso, a seconda che si esten
 
 ## Visualizzare annotazioni nei grafici a linee o nelle tabelle
 
-| Data | Aspetto |
+| Date | Aspetto |
 | --- | --- |
 | **Giorno singolo** | ![](assets/single-day.png) |
-| **Intervallo date** | L’icona cambia e quando passi il cursore sopra di essa viene visualizzato l’intervallo di date.<p>![](assets/multi-day.png)<p>In una tabella viene visualizzata un’icona a ogni data dell’intervallo di date.<p>![](assets/multi-day-table.png)<p>Tieni presente quanto segue: nei giorni a cui è associata più di un’annotazione, l’icona è di colore grigio. |
+| **Intervallo date** | L’icona cambia e quando passi il cursore sopra di essa viene visualizzato l’intervallo di date.<p>![](assets/multi-day.png)<p>In una tabella viene visualizzata un’icona a ogni data dell’intervallo di date.<p>![](assets/multi-day-table.png)<p>Tieni presente quanto segue: nei giorni a cui è associata più di un’annotazione, l’icona viene visualizzata con un colore grigio. |
 
 ## Visualizzare le annotazioni in un grafico di riepilogo
 
