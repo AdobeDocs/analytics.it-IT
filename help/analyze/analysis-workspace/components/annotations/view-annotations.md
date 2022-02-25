@@ -4,10 +4,10 @@ description: Come visualizzare le annotazioni in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
+source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 6%
+source-wordcount: '228'
+ht-degree: 4%
 
 ---
 
@@ -23,8 +23,9 @@ Le annotazioni si presentano in modo leggermente diverso, a seconda che si esten
 
 | Date | Aspetto |
 | --- | --- |
-| **Giorno singolo** | ![](assets/single-day.png) |
-| **Intervallo date** | L’icona cambia e quando passi il cursore sopra di essa viene visualizzato l’intervallo di date.<p>![](assets/multi-day.png)<p>In una tabella viene visualizzata un’icona a ogni data dell’intervallo di date.<p>![](assets/multi-day-table.png)<p>Tieni presente quanto segue: nei giorni a cui è associata più di un’annotazione, l’icona viene visualizzata con un colore grigio. |
+| **Giorno singolo** | ![](assets/single-day.png)<p>Quando passi il cursore del mouse sull’annotazione, vengono visualizzati i relativi dettagli, è possibile modificarla selezionando l’icona a forma di penna oppure eliminarla:<p> ![](assets/hover.png) |
+| **Intervallo date** | L’icona cambia e quando passi il cursore sopra di essa viene visualizzato l’intervallo di date.<p>![](assets/multi-day.png)<p>Quando lo selezioni nel grafico a linee, vengono visualizzati i metadati dell’annotazione e puoi modificarli o eliminarli:![](assets/multi-hover.png)<p>In una tabella viene visualizzata un’icona a ogni data dell’intervallo di date.<p>![](assets/multi-day-table.png) |
+| **Sovrapposizione delle annotazioni** | Nei giorni a cui è associata più di un’annotazione, l’icona viene visualizzata con un colore grigio.<p>![](assets/grey.png)<p>Quando passi il cursore sull’icona grigia, vengono visualizzate tutte le annotazioni sovrapposte:<p>![](assets/overlap.png) |
 
 ## Visualizzare le annotazioni in un grafico di riepilogo
 
