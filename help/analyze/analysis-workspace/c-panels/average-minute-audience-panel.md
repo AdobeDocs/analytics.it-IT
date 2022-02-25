@@ -3,14 +3,19 @@ title: Pannello Pubblico medio per minuto
 description: Come utilizzare e interpretare il pannello Pubblico medio in Analysis Workspace.
 feature: Panels
 role: User, Admin
-source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
+exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
+source-git-commit: 86f546da8a5eaded5abb4ee2ce8d4a536818574a
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1320'
 ht-degree: 8%
 
 ---
 
 # Pannello Pubblico medio per minuto
+
+>[!NOTE]
+>
+>Questa funzione è attualmente in fase di test.
 
 I clienti Media Analytics possono utilizzare il pannello del pubblico di minuti medi per comprendere meglio il consumo medio dei loro contenuti. Il pubblico di minuti medi consente confronti di programmazione di qualsiasi lunghezza o genere. Inoltre, i clienti possono confrontare o aggiungere questo pubblico medio digitale di minuti alle metriche di minuti medi della TV lineare. Questo pannello offre maggiore flessibilità per misurare il pubblico medio per i periodi di tempo personalizzati, nonché quando la classificazione della durata è stata aggiornata dopo il fatto. La metrica del pubblico in minuti medi correnti funziona solo se la durata è disponibile al momento dell’elaborazione.
 
