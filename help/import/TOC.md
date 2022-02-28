@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guida all’importazione di Analytics
 breadcrumb-title: Guida all’importazione
-user-guide-description: 'Trasferisci i dati in Analytics da sorgenti esterne, sia in massa che in tempo reale. '
-source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
+user-guide-description: 'Trasferisci i dati in Adobe Analytics da fonti esterne, in modalità collettiva o in tempo reale. '
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 92%
+source-wordcount: '141'
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
    + [Requisiti e limiti di caricamento](c-data-sources/datasrc-requirements.md)
    + [Tempo di elaborazione Origini dati](c-data-sources/datasrc-processing-time.md)
    + [Preparazione all&#39;utilizzo di Origini dati](c-data-sources/datasrc-preparing.md)
-   + [Origini dati Manager](c-data-sources/datasrc-manager.md)
+   + [Gestione origini dati](c-data-sources/datasrc-manager.md)
    + Modello Origini dati {#data-sources-template}
       + [Panoramica modello Origini dati](c-data-sources/datasrc-template/datasrc-template-file.md)
       + [Generare un modello di file di importazione](c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)
@@ -34,7 +34,7 @@ ht-degree: 92%
       + [Traffico](c-data-sources/c-datasrc-types/datasrc-traffic.md)
       + [Conversione](c-data-sources/c-datasrc-types/datasrc-conversion.md)
       + [ID transazione](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
-      + [ID visitatore](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+      + [Visitor ID](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [Elaborazione completa](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
       + [Fine del ciclo di vita della funzione Full Processing](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
    + [Integrazione transazione e cliente](c-data-sources/datasrc-integrating-offline-data.md)
