@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '2900'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Data | Descrizione |
 | --- | --- |
 | **Ottobre 2021** |  |
-| 21 ottobre 2021 | Nuova documentazione su [Segmenti rapidi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) in Analysis Workspace |
-| 21 ottobre 2021 | Nuova documentazione sul [Tempo di riproduzione dei contenuti multimediali trascorso](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html) in Analysis Workspace. |
-| 7 ottobre 2021 | Nuova documentazione su [visualizzazioni per scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#applicare-visualizzazioni) |
+| 21 ottobre 2021 | Nuova documentazione su [Segmenti rapidi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=it) in Analysis Workspace |
+| 21 ottobre 2021 | Nuova documentazione sul pannello [Tempo trascorso su contenuti multimediali](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=it) in Analysis Workspace. |
+| 7 ottobre 2021 | Nuova documentazione su [visualizzazioni per scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#viz) |
 | **Agosto 2021** |  |
-| 18 agosto 2021 | Struttura di primo livello rivista e consolidata in un unico [Pagina di destinazione](https://experienceleague.adobe.com/docs/analytics.html?lang=it) |
+| 18 agosto 2021 | Struttura di primo livello rivista e consolidata in un’unica [Pagina di destinazione](https://experienceleague.adobe.com/docs/analytics.html?lang=it) |
 | 18 agosto 2021 | Nuovo argomento su [A4T e suite di rapporti virtuali](/help/components/vrs/vrs-a4t.md) |
 | 18 agosto 2021 | Nuovo argomento su [Best practice di attribuzione](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5 agosto 2021 | Nuovo argomento sulla funzione [Conta istanze ripetute](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=it). |
@@ -58,7 +58,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 7 dicembre 2020 | Sono state modificate tutte le pagine rilevanti per includere o sostituire l’endpoint “adobedc.net”. |
 | 8 dicembre 2020 | È stata aggiornata la pagina [Crea nuovo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=it) di Workspace. |
 | **Novembre 2020** |  |
-| 24 novembre 2020 | È stata aggiornata la pagina [Panoramica dei pannelli](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) in Workspace. |
+| 24 novembre 2020 | È stata aggiornata la pagina [Panoramica dei pannelli](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) in Workspace. |
 | 24 novembre 2020 | Nuovi documenti sulla revisione dell’implementazione: <ul><li>[Revisione completa dell’implementazione](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=it)</li><li>[Revisione mirata dell’implementazione](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=it)</li></ul> |
 | 24 novembre 2020 | È stata aggiornata la pagina [Panoramica delle visualizzazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it) di Analysis Workspace. |
 | 12 novembre 2020 | È stata aggiunta una pagina sull’[implementazione ereditata di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=it). |
@@ -71,7 +71,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 17 settembre 2020 | [Download di 50.000 elementi per una singola dimensione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it#download-items): ora puoi scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. |
 | 17 settembre 2020 | [Miglioramenti alla visualizzazione Linee](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): <ul><li>Puoi mostrare o nascondere l’asse X e l’asse Y di qualsiasi visualizzazione [!UICONTROL Line]. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni [!UICONTROL Line] sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle linee per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle linee per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] e [!UICONTROL Quadratic].</li></ul> |
 | 17 settembre 2020 | Nuovi intervalli di date in Workspace: sono stati aggiunti 5 nuovi intervalli di date che consentono di escludere i dati parziali del giorno corrente (oggi): ultimi 7 giorni interi, ultimi 14 giorni interi, ultimi 30 giorni interi, ultimi 60 giorni interi, ultimi 90 giorni interi. |
-| 17 settembre 2020 | Nuova documentazione sul pannello [Visualizzatore simultaneo di contenuti multimediali di Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
+| 17 settembre 2020 | Nuova documentazione sul pannello [Visualizzatore simultaneo di contenuti multimediali di Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=it) |
 | **Agosto 2020** |  |
 | 31 agosto 2020 | Sono stati aggiunti miglioramenti alla [documentazione sull’unione basata sui campi](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=it) in Analytics tra più dispositivi. |
 | **Luglio 2020** |  |

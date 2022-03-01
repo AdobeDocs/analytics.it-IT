@@ -1,5 +1,5 @@
 ---
-title: Note sulla versione di Adobe Analytics (e precedenti) 2019
+title: Note sulla versione 2019 di Adobe Analytics (e precedenti)
 description: Note sulla versione 2019 di Adobe Analytics
 solution: Analytics
 feature: Release Notes
@@ -7,7 +7,7 @@ exl-id: 5f6822e9-895a-4285-8f30-48a2ed9f1f0a
 source-git-commit: 49a8035ff7e230877da15e858d9c044ced9b9901
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 42%
+ht-degree: 59%
 
 ---
 
