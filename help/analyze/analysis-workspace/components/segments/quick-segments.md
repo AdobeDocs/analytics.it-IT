@@ -4,10 +4,10 @@ title: Segmenti rapidi
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 100%
+source-wordcount: '842'
+ht-degree: 77%
 
 ---
 
@@ -15,15 +15,11 @@ ht-degree: 100%
 
 Puoi creare segmenti rapidi all’interno di un progetto, senza ricorrere al più complesso [generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md). Segmenti rapidi
 
-* Applica solo ai progetti in cui sono stati creati (è possibile modificarli).
+* Applica come [segmenti solo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
 * Consenti fino a 3 regole.
 * Non inserire contenitori nidificati o regole sequenziali.
-* Lavora in progetti con più suite di rapporti.
 
 Per un confronto tra le funzionalità dei segmenti rapidi e quelle dei segmenti veri e propri a livello di componente, visita [questa pagina](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
-
->[!IMPORTANT]
-> I segmenti rapidi sono attualmente in fase di test limitati e saranno generalmente disponibili il 21 ottobre 2021.
 
 ## Prerequisiti
 
@@ -81,14 +77,16 @@ Il segmento viene visualizzato nella parte superiore. Osserva la barra laterale 
 1. (Facoltativo) Rinomina il segmento.
 1. Fai clic su **[!UICONTROL Save]**.
 
-La barra laterale del segmento cambia da blu a blu a righe. Ora viene visualizzato nell’elenco dei componenti nella barra a sinistra.
+La barra laterale del segmento cambia da blu a blu a righe. Viene ora visualizzato anche nell’elenco dei componenti della barra a sinistra.
 
 ## Cosa sono i segmenti solo progetto?
 
-I segmenti Solo progetto sono segmenti rapidi o segmenti di progetto ad hoc Workspace. Quando li modifichi o li apri in [!UICONTROL Segment Builder], viene visualizzata la casella Solo progetto. Se APPLICHI un segmento rapido nel generatore ma non selezioni la casella che lo rende disponibile, si tratta comunque di un segmento solo progetto ma non può più essere aperto nel [!UICONTROL Quick Segment Builder].
+I segmenti solo progetto sono segmenti che si applicano solo al progetto corrente in cui sono stati creati. Non saranno disponibili in altri progetti e non possono essere condivisi con altri utenti. Sono progettati per un’esplorazione rapida dei dati senza dover creare e salvare un segmento nella barra a sinistra. È possibile creare segmenti solo progetto nella zona di rilascio del pannello con i segmenti Quick o [segmenti ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+
+Se viene aperto un segmento solo progetto nella variabile [!UICONTROL Segment Builder], viene visualizzata una notifica solo per il progetto. Se non selezioni &quot;Rendi questo segmento disponibile.&quot; e fai clic su **[!UICONTROL APPLY]**, il segmento rimane un segmento solo progetto. Nota: se applichi un segmento rapido dal Generatore di segmenti, non può più essere aperto nel [!UICONTROL Quick Segment Builder].
 
 ![Casella Solo progetto deselezionata](assets/project-only-unchecked.png)
 
-Se selezioni la casella e fai clic su **[!UICONTROL SAVE]**, diventa un segmento dell’elenco di componenti.
+Se selezioni &quot;Rendi disponibile questo segmento.&quot; e fai clic su **[!UICONTROL SAVE]**, il segmento diventa disponibile nell’elenco dei componenti della barra a sinistra e può essere utilizzato in altri progetti. Può essere condiviso anche con altri utenti dal Gestore segmenti.
 
 ![Casella Solo progetto selezionata](assets/project-only-checked.png)
