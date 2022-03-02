@@ -3,19 +3,17 @@ title: Mappare gli elementi dati dei tag alle variabili Analytics
 description: Assegna elementi dati alle variabili di Analytics in modo da poterli utilizzare come dimensioni in Analysis Workspace.
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 9%
+source-wordcount: '428'
+ht-degree: 4%
 
 ---
+
 
 # Mappare gli elementi dati dei tag alle variabili Analytics
 
 Una volta che hai un archivio di elementi dati tag, puoi assegnarli alle dimensioni di Analytics.
-
->[!NOTE]
->Adobe Experience Platform Launch è stato riclassificato come una suite di tecnologie di raccolta dati nell’Experience Platform. Di conseguenza, sono state introdotte diverse modifiche terminologiche nella documentazione del prodotto. Consulta questo [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) come riferimento consolidato delle modifiche terminologiche.
 
 ## Prerequisiti
 

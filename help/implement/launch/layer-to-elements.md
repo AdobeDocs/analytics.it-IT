@@ -3,19 +3,16 @@ title: Mappatura di oggetti del livello di dati su elementi di dati
 description: Configura i tag da leggere dal livello dati.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 13%
+source-wordcount: '292'
+ht-degree: 6%
 
 ---
 
 # Mappatura di oggetti del livello di dati su elementi di dati
 
 Una volta che l’organizzazione ha stabilito e implementato un livello di dati sul sito, puoi mappare gli oggetti livello dati su elementi dati all’interno di tag.
-
->[!NOTE]
->Adobe Experience Platform Launch è stato riclassificato come una suite di tecnologie di raccolta dati nell’Experience Platform. Di conseguenza, sono state introdotte diverse modifiche terminologiche nella documentazione del prodotto. Consulta questo [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) come riferimento consolidato delle modifiche terminologiche.
 
 ## Prerequisiti
 

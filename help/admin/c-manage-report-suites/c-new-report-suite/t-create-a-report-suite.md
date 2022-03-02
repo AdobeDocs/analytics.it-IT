@@ -3,10 +3,10 @@ description: Creare un contenitore di base per la raccolta di dati in Adobe Anal
 title: Creare una suite di rapporti
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 95%
 
 ---
 
@@ -24,13 +24,13 @@ Questo articolo è pensato per gli amministratori a livello di sistema o per gli
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Fai clic su **[!UICONTROL Create New]** > **[!UICONTROL Report Suite]**.
-1. Per copiare le impostazioni di una suite di rapporti, seleziona nell’elenco dei modelli un modello predefinito o una suite di rapporti esistente da utilizzare come [modello.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+1. Selezionare un modello predefinito o una suite di rapporti esistente da utilizzare come [template](../c-report-suite-templates/report-suite-templates.md).
 
    >[!NOTE]
    >
    >È possibile copiare solo le impostazioni, non i dati. Se l&#39;Assistenza clienti sta copiando le impostazioni, dovrai fornire una conferma scritta alla liberatoria fornita dall&#39;Assistenza clienti sui rischi implicati. Consulta [Impostazioni non copiate da una suite di rapporti di origine](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) per ulteriori informazioni.
 
-1. Compila i campi descritti in [Nuova suite di rapporti.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+1. Compila i campi descritti in [Nuova suite di rapporti.](../c-new-report-suite/new-report-suite.md)
 1. Fai clic su **[!UICONTROL Create Report Suite]**.
 
 Un ID suite di rapporti ha una lunghezza massima di 40 byte. Un nome descrittivo della suite di rapporti ha una lunghezza massima di 255 byte.
@@ -41,10 +41,6 @@ Un ID suite di rapporti ha una lunghezza massima di 40 byte. Un nome descrittivo
 
 Ciò significa che al tuo account non sono state concesse le autorizzazioni corrette per Analytics. Lavora con un amministratore a livello di sistema nella tua organizzazione per assicurarti di appartenere a un profilo con autorizzazioni adeguate per accedere ad Adobe Analytics.
 
-**Dopo aver effettuato l’accesso ad Adobe Analytics, mancano il menu a comparsa e il menu a discesa “Benvenuti in Adobe Analytics”.**
-
-Assicurati di aver effettuato l’accesso tramite [Experience Cloud](https://experience.adobe.com) e non tramite my.omniture.com. L’utente che accede tramite my.omniture.com non dispone della procedura guidata di configurazione della suite di rapporti.
-
 ## Passaggi successivi
 
-[Creare una proprietà tag Adobe Analytics ](/help/implement/launch/create-analytics-property.md): consente di creare un’area per gestire l’implementazione di Analytics
+[Creare una proprietà tag Adobe Analytics ](/help/implement/launch/create-analytics-property.md): consente di creare un’area per gestire l’implementazione di Analytics.

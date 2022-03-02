@@ -3,10 +3,10 @@ title: Convalidare un'implementazione di sviluppo e pubblicare in produzione
 description: Scopri come utilizzare i tag Adobe Experience Platform per distribuire Adobe Analytics nel tuo ambiente di produzione.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 8%
+source-wordcount: '607'
+ht-degree: 5%
 
 ---
 
@@ -14,23 +14,18 @@ ht-degree: 8%
 
 Una volta effettuata la distribuzione dei tag in produzione, la tua organizzazione può iniziare a utilizzare Adobe Analytics per richiamare rapporti di base.
 
->[!NOTE]
->Adobe Experience Platform Launch è stato riclassificato come una suite di tecnologie di raccolta dati nell’Experience Platform. Di conseguenza, sono state introdotte diverse modifiche terminologiche nella documentazione del prodotto. Consulta questo [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) come riferimento consolidato delle modifiche terminologiche.
-
 ## Prerequisiti
 
 [Implementazione di Analytics nell’ambiente di sviluppo](deploy-dev.md): Per seguire questa pagina, devi pubblicare un’implementazione di Analytics nel tuo ambiente di sviluppo.
 
 ## Convalidare l’implementazione di sviluppo tramite Experience Cloud Debugger
 
-Il debugger di Experience Cloud è un plug-in Chrome che mostra tutti i tag di Experience Cloud presenti su una pagina.
+Experience Cloud Debugger è un’estensione che mostra tutti i tag Experienci Cloud presenti in una pagina.
 
-1. Apri [Browser Web Chrome](https://www.google.com/chrome/) e vai a [Debugger Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) su Chrome Web Store per installare l&#39;estensione.
+1. Installa l&#39;estensione per [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o [Firefox](https://addons.mozilla.org/it/firefox/addon/adobe-experience-platform-dbg/).
 2. Passa al sito web di sviluppo in cui sono stati implementati i tag.
-3. Fai clic sull’icona di Adobe Experience Cloud Debugger in alto a destra di Chrome
-4. Se tutto è implementato correttamente, dovresti vedere il contenuto in Adobe Analytics, tag e il servizio ID visitatore di Adobe Experience Cloud:
-
-![debugger][assets/debugger.png]
+3. Fai clic sull’icona di Adobe Experience Cloud Debugger nel browser.
+4. Se tutto è implementato correttamente, dovresti vedere il contenuto in Adobe Analytics, tag e il servizio ID visitatore di Adobe Experience Cloud.
 
 ## Implementare l&#39;implementazione di sviluppo per staging/prod
 
@@ -45,7 +40,7 @@ Dopo aver convalidato la visualizzazione dei dati, puoi inviare l’implementazi
 1. Fai nuovamente clic sul menu a discesa della libreria e seleziona **[!UICONTROL Approve for Publishing]**.
 1. Fai di nuovo clic sul menu a discesa della libreria (ora nella [!UICONTROL Approved] e seleziona **[!UICONTROL Build and Publish to Production]**.
 1. Vai alla scheda Ambienti e fai clic su **[!UICONTROL Production Environment]**.
-1. Copia l’intestazione di produzione e il codice a piè di pagina e invialo ai proprietari del sito web. Richiedi che implementino questo codice nell&#39;ambiente di produzione del tuo sito.
+1. Copia il codice di installazione di produzione e forniscilo ai proprietari del sito web. Richiedi che implementino questo codice nell&#39;ambiente di produzione del tuo sito.
 
 ## Convalidare l’implementazione di produzione
 
@@ -63,7 +58,7 @@ Sul sito, apri la console per sviluppatori del browser (in genere F12). Osserva 
 * Non ci sono errori JavaScript nella console. Collabora con i proprietari del sito web della tua organizzazione per assicurarti che tutti gli errori JS siano risolti.
 * Il codice di intestazione è implementato correttamente: Assicurati che il codice di intestazione sia all&#39;interno della `<head>` e che il file esista.
 * La libreria AppMeasurement esiste: Passa direttamente all&#39;origine JS per assicurarti che il file JS contenga codice. In caso contrario, assicurati che ogni ambiente sia creato e che la libreria sia pubblicata nel rispettivo ambiente.
-* Plug-in di interferenza: Alcuni plug-in di Chrome possono impedire l’attivazione delle richieste di immagini. Disattiva eventuali plug-in che potrebbero impedire l’invio di dati ai server di Adobe.
+* Estensioni di interferenza: Alcune estensioni, come ad blocker, possono impedire l&#39;attivazione delle richieste di immagini. Disattiva le estensioni che potrebbero impedire l&#39;invio di dati ad Adobe.
 
 ## Passaggi successivi
 

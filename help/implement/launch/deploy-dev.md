@@ -3,19 +3,16 @@ title: Distribuire Adobe Analytics in un ambiente di sviluppo
 description: Scopri come utilizzare i tag per distribuire Adobe Analytics nel tuo ambiente di sviluppo.
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 7%
+source-wordcount: '556'
+ht-degree: 1%
 
 ---
 
 # Distribuire un&#39;implementazione di Analytics in un ambiente di sviluppo
 
 Dopo aver creato e configurato una proprietà tag, le librerie sono pronte per essere distribuite e implementate il codice sul sito.
-
->[!NOTE]
->Adobe Experience Platform Launch è stato riclassificato come una suite di tecnologie di raccolta dati nell’Experience Platform. Di conseguenza, sono state introdotte diverse modifiche terminologiche nella documentazione del prodotto. Consulta questo [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) come riferimento consolidato delle modifiche terminologiche.
 
 ## Prerequisiti
 
@@ -27,12 +24,13 @@ I tag consentono di gestire molti flussi di lavoro organizzativi durante la dist
 
 1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 2. Fai clic sulla proprietà tag che intendi implementare sul sito.
-3. Fare clic sulla scheda Adattatori, quindi fare clic su Aggiungi adattatore.
-4. Denomina &quot;Akamai&quot; e seleziona Akamai nel menu a discesa del tipo . Fai clic su Salva.
-5. Passa alla scheda Ambienti , quindi fai clic su Crea nuovo ambiente .
-6. Seleziona Sviluppo, denominalo &quot;Ambiente di sviluppo&quot;, quindi seleziona l’adattatore Akamai dal menu a discesa. Fare clic su Crea, quindi su Chiudi.
-7. Fai clic su Aggiungi ambiente, seleziona Staging, denominalo &quot;Staging Environment&quot;, quindi seleziona l&#39;adattatore Akamai. Fare clic su Crea, quindi su Chiudi.
-8. Fai di nuovo clic su Aggiungi ambiente , seleziona Produzione, denominalo &quot;Ambiente produzione&quot;, quindi seleziona la scheda Akamai. Fare clic su Crea, quindi su Chiudi.
+3. Fai clic su **[!UICONTROL Hosts]**, quindi su **[!UICONTROL Add Host]**.
+4. Denomina `"Adobe managed"`, quindi seleziona **[!UICONTROL Managed by Adobe]** nel menu a discesa tipo . Fai clic su Salva.
+5. Passa a **[!UICONTROL Environments]**, quindi fai clic su **[!UICONTROL Add Environment]**.
+6. Seleziona **[!UICONTROL Development]**, denomina `"Dev Environment"`, quindi seleziona l’host gestito dall’Adobe a discesa. Fai clic su **[!UICONTROL Save]**.
+7. Viene visualizzata una finestra modale che mostra le istruzioni di installazione Web. Torneremo a questa finestra in un secondo momento; click **[!UICONTROL Close]** per ora.
+8. Fai clic su **[!UICONTROL Add Environment]**, seleziona **[!UICONTROL Staging]**, denomina `"Staging Environment"`, quindi seleziona l’host gestito di Adobe. Fai clic su **[!UICONTROL Create]**, quindi chiudi la finestra modale delle istruzioni di installazione.
+9. Fai clic su **[!UICONTROL Add Environment]** di nuovo, seleziona **[!UICONTROL Production]**, denomina `"Production Environment"`, quindi seleziona l’host gestito di Adobe. Fai clic su **[!UICONTROL Create]**, quindi chiudi la finestra modale delle istruzioni di installazione.
 
 ## Creare una libreria di sviluppo
 
@@ -40,17 +38,22 @@ Nonostante tutte le modifiche e le configurazioni apportate finora, non è stato
 
 1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 2. Fai clic sulla proprietà tag che intendi implementare sul sito.
-3. Fai clic sulla scheda Pubblicazione , quindi su Aggiungi nuova libreria .
-4. Denomina la libreria &quot;Modifiche iniziali&quot; e seleziona l&#39;ambiente di sviluppo.
-5. Fai clic su Aggiungi tutte le risorse modificate , che elenca automaticamente Adobe Analytics, il servizio Identity e il servizio core.
-6. Fai clic su Salva.
-7. Nella schermata del flusso di lavoro di pubblicazione, fai clic sul menu a discesa accanto alla nuova libreria e fai clic su Genera per lo sviluppo. Dopo alcuni secondi, il punto giallo della libreria diventa verde e indica che la build è stata completata correttamente.
-8. Vai alla scheda Ambienti , quindi fai clic sul tuo ambiente di sviluppo.
-9. In &quot;Installa tag&quot;, copia i blocchi di codice e forniscili ai proprietari del sito web della tua organizzazione.
+3. Fai clic sul pulsante **[!UICONTROL Publishing Flow]** scheda , quindi fai clic su **[!UICONTROL Add Library]**. Vedi [Panoramica sulla pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) per ulteriori informazioni su questa pagina, consulta la documentazione sui tag .
+4. Assegna un nome alla libreria `'Initial changes'`, quindi seleziona l’ambiente di sviluppo.
+5. Fai clic su **[!UICONTROL Add All Changed Resources]**, che elenca automaticamente Adobe Analytics, il servizio Identity e il servizio core.
+6. Fai clic su **[!UICONTROL Save]**.
+7. Nella schermata del flusso di lavoro di pubblicazione, fai clic sul menu a discesa accanto alla nuova libreria e fai clic su **[!UICONTROL Build for Development]**. Dopo alcuni secondi, il punto giallo della libreria diventa verde e indica che la build è stata completata correttamente.
+8. Passa a **[!UICONTROL Environments]**, quindi fai clic sull’icona di installazione a destra dell’ambiente di sviluppo. Questa azione riapre la finestra modale Istruzioni di installazione web.
+9. Copia i blocchi di codice e forniscili ai proprietari del sito web della tua organizzazione.
 
 ## Installare i tag nell’ambiente di sviluppo del sito web
 
-Se controlli il codice del tuo sito web, implementa i due blocchi di codice nelle rispettive posizioni (nel `<head>` e immediatamente sopra la chiusura `</body>` in ogni pagina del sito. Questo codice viene comunemente inserito nel modello di panoramica del sito. Una pagina vuota contenente solo codice di implementazione avrà un aspetto simile al seguente:
+Se controlli il codice del tuo sito web, implementa ogni blocco di codice nella rispettiva posizione:
+
+* Il tag principale appartiene alla `<head>` sul sito.
+* Se scegli di caricare i tag in modo sincrono, devi anche includere un secondo blocco di codice appena sotto la chiusura `</body>` sul sito. Puoi scegliere di caricare i tag della libreria in modo sincrono attivando l’ **[!UICONTROL Load Library Asynchronously]** nelle istruzioni di installazione web.
+
+Il codice di tag viene in genere inserito nel modello di panoramica del sito. Una pagina vuota contenente solo codice di implementazione avrà un aspetto simile al seguente:
 
 ```html
 <!doctype html>
@@ -62,6 +65,7 @@ Se controlli il codice del tuo sito web, implementa i due blocchi di codice nell
 </head>
 <body>
    <p>This is a test page.</p>
+   <!-- Only include this extra code if you load tags synchronously -->
    <script type="text/javascript">_satellite.pageBottom();</script>
 </body>
 </html>
@@ -72,11 +76,6 @@ Se controlli il codice del tuo sito web, implementa i due blocchi di codice nell
 **Il tentativo di creazione non riesce.**
 
 Un motivo comune è che esistono già elementi in altre librerie inviate alla gestione temporanea o alla produzione. Quando crei inizialmente le librerie, assicurati che alla libreria vengano aggiunte solo le risorse modificate .
-
-## Documentazione e risorse aggiuntive
-
-- [Guida rapida](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): Scopri il flusso di lavoro di base dell’implementazione dei tag
-- [Panoramica sulla pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en): Ulteriori informazioni sulla pubblicazione e sugli ambienti
 
 ## Passaggi successivi
 
