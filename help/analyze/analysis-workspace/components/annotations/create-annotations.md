@@ -4,9 +4,9 @@ description: Come creare annotazioni in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 7e73f66d4a2253dbcce6c5af4a9bb267dc5c34f5
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '554'
 ht-degree: 1%
 
 ---
@@ -41,5 +41,7 @@ ht-degree: 1%
    | [!UICONTROL Scope] | (Facoltativo) Trascina le metriche che attivano l’annotazione. Trascina quindi eventuali dimensioni o segmenti che fungono da filtri (ad esempio, con cui sarà visibile l’annotazione). Se non si specifica un ambito, l’annotazione verrà applicata a tutti i dati.<ul><li>**[!UICONTROL Any of these metrics are present]**: Trascina fino a 10 metriche per attivare l’annotazione da visualizzare.</li><li>**[!UICONTROL With all of these filters]**: Trascina fino a 10 dimensioni o segmenti per filtrare quando viene visualizzata l’annotazione.</li></ul><p>Casi di utilizzo: Un eVar ha interrotto la raccolta dei dati per un intervallo di date specifico. Trascina l’eVar nella **[!UICONTROL Any of these metrics are present]** finestra di dialogo. Oppure [!UICONTROL Visits] la metrica non riporta dati; segui lo stesso processo.<p>**Nota:** Qualsiasi annotazione applicata a un componente che viene quindi utilizzata come parte di una metrica calcolata o di una definizione di segmento NON eredita automaticamente l’annotazione. Per visualizzare l’annotazione, è necessario aggiungere alla sezione dell’ambito anche la metrica calcolata desiderata. È tuttavia necessario creare una nuova annotazione per qualsiasi segmento a cui si desidera aggiungere le stesse informazioni.<p>Esempio: Applicazione di un’annotazione [!UICONTROL Orders] in un giorno specifico. Quindi utilizza [!UICONTROL Orders] in una metrica calcolata per lo stesso intervallo di date. La nuova metrica calcolata non visualizza automaticamente l’annotazione per gli ordini; la metrica calcolata deve essere aggiunta anche alla sezione ambito per visualizzare l’annotazione. |
    | [!UICONTROL Apply to all report suites] | Per impostazione predefinita, l’annotazione si applica alla suite di rapporti di origine. Selezionando questa casella, puoi applicare l’annotazione a tutte le suite di rapporti dell’azienda. |
    | [!UICONTROL Apply to all projects] | Per impostazione predefinita, l’annotazione si applica al progetto corrente. Selezionando questa casella, puoi applicare l’annotazione a tutti i progetti di tua proprietà. Questa casella di controllo viene visualizzata solo quando si avvia il Generatore di annotazioni dal Generatore di annotazioni? |
+
+   {style=&quot;table-layout:auto&quot;}
 
 1. Fai clic su **[!UICONTROL Save]**.
