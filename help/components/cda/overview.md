@@ -2,9 +2,9 @@
 title: Analytics tra dispositivi
 description: Modifica i dati da incentrati sul dispositivo a quelli incentrati sulla persona combinando i dati del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: b5fe55f69d30d87cc394d731d2ae696152faa535
+source-git-commit: 47824be19d3cc25b3120ce9aed6938f69fe0e096
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '883'
 ht-degree: 17%
 
 ---
@@ -49,9 +49,9 @@ Analisi multidispositivo è una funzione innovativa e affidabile, ma presenta li
 * CDA è disponibile solo tramite Analysis Workspace.
 * Cross-Device Analytics non funziona tra suite di rapporti, né combina dati provenienti da più suite di rapporti.
 * Le suite di rapporti di Adobe Analytics non possono essere mappate su più di un’organizzazione IMS. Poiché CDA unisce i dispositivi all’interno di una determinata suite di rapporti, non può essere utilizzato CDA per unire i dati tra più organizzazioni IMS.
-* CDA utilizza una pipeline di elaborazione complessa, con più componenti dipendenti. Questo viene eseguito in parallelo con il flusso di lavoro di reporting di Analytics di base. Pertanto, è prevista una mancata corrispondenza dei dati di circa l’1% per il numero totale di hit tra la suite di rapporti originale e la suite di rapporti virtuale CDA.
-* Cross-Device Analytics utilizza una suite di rapporti virtuali ed elaborazione dei tempi di report, con le proprie limitazioni, come nessun supporto corrente per le variabili dei canali di marketing. Vedi [Suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it) e [Elaborazione dell&#39;ora rapporto](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en#report-time-processing-limitations) per ulteriori informazioni su queste limitazioni.
-* Private Graph sfrutta le stesse sincronizzazioni ID utilizzate dal [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes) funzionalità trovata in Experience Cloud e Adobe Analytics. Tuttavia, le suite di rapporti virtuali CDA (basate su grafico privato o unione basata su campi) non sono compatibili con il resto della funzionalità Attributi del cliente. In altre parole, le dimensioni basate su Attributi del cliente non sono disponibili per l&#39;uso all&#39;interno delle suite di rapporti virtuali CDA.
+* CDA utilizza una pipeline di elaborazione complessa, con più componenti dipendenti. Questo viene eseguito in parallelo con il flusso di lavoro di base di reporting di Analytics. Pertanto, è prevista una mancata corrispondenza dei dati di circa l’1% per il numero totale di hit tra la suite di rapporti originale e la suite di rapporti virtuale CDA.
+* Cross-Device Analytics utilizza una suite di rapporti virtuali ed elaborazione dei tempi di report, con le proprie limitazioni. Ad esempio, al momento non supportano le variabili Marketing Channels . Vedi [Suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it) e [Elaborazione dell&#39;ora rapporto](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en#report-time-processing-limitations) per ulteriori informazioni su queste limitazioni.
+* Private Graph sfrutta le stesse sincronizzazioni ID utilizzate dal [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes) funzionalità trovata in Experience Cloud e Adobe Analytics. Tuttavia, le suite di rapporti virtuali CDA (basate su grafico privato o unione basata su campi) non sono compatibili con il resto della funzionalità Attributi del cliente. In altre parole, le dimensioni basate su Attributi del cliente non sono disponibili per l&#39;uso con le suite di rapporti virtuali CDA.
 * CDA non è attualmente compatibile con A4T.
 * L’API 1.4 non è supportata. I connettori e il Report Builder Power BI si basano entrambi sull’API 1.4 e non sono quindi compatibili con CDA.
 * Il monitoraggio attivo del processo di unione CDA per Adobe è limitato solo alle suite di rapporti di produzione.
