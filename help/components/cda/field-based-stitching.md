@@ -2,7 +2,7 @@
 title: Unione basata sui campi
 description: Comprendi i prerequisiti e le limitazioni dell’unione di dati utilizzando l’unione basata sui campi.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
+source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # Unione basata sui campi
 
-Analisi multidispositivo fornisce due metodi distinti per unire i dati. Questo metodo si basa su una variabile di Analytics, ad esempio [prop](/help/implement/vars/page-vars/prop.md) o [eVar](/help/implement/vars/page-vars/evar.md), per contenere un identificatore di persona. Usa quella variabile come base per collegare i dispositivi. Adobe consiglia questa opzione di unione per una maggiore trasparenza e prevedibilità nel tracciamento dei visitatori.
+Analisi multidispositivo fornisce due metodi distinti per unire i dati. Questo metodo si basa su una variabile di Analytics, ad esempio un [prop](/help/implement/vars/page-vars/prop.md) o [eVar](/help/implement/vars/page-vars/evar.md), per contenere un identificatore di persona. Usa quella variabile come base per collegare i dispositivi. L’Adobe consiglia questa opzione di unione per una maggiore trasparenza e prevedibilità nel tracciamento dei visitatori.
 
 ## Prerequisiti specifici per l’unione basata sui campi
 
@@ -21,7 +21,7 @@ Se intendi implementare Cross-Device Analytics utilizzando l’unione basata sui
 >
 >Il mancato rispetto di tutti i prerequisiti può comportare l’impossibilità di abilitare Cross-Device Analytics o risultati errati durante l’unione dei dati.
 
-* Tutti i prerequisiti elencati nella [pagina di panoramica](overview.md).
+* Tutti i prerequisiti elencati nel [pagina panoramica](overview.md).
 * L’implementazione deve impostare una proprietà o un eVar che identifichi in modo univoco un individuo ogni volta che è possibile, ad esempio quando un utente accede o apre un’e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Evita di assegnare un valore predefinito alla proprietà o all’eVar.
 * Comunica la variabile di identificazione desiderata al tuo Account Manager quando è stato eseguito il provisioning per l&#39;unione basata su campi.
 
@@ -38,4 +38,4 @@ Se intendi implementare Cross-Device Analytics utilizzando l’unione basata sui
 
 ## Passaggi successivi
 
-Una volta che l&#39;organizzazione soddisfa tutti i requisiti e comprende i limiti, puoi iniziare a [Configurare Cross-Device Analytics](setup.md).
+Una volta che la tua organizzazione soddisfa tutti i requisiti e comprende i limiti, puoi iniziare [Configurazione di Analytics tra dispositivi](setup.md).

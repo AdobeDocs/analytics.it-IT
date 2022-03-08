@@ -4,10 +4,10 @@ description: Come gestire le annotazioni in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 0d20c6debdb71b86aefa43e78900453f15d83e8f
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 10%
+source-wordcount: '654'
+ht-degree: 6%
 
 ---
 
@@ -46,7 +46,21 @@ La modifica di un’annotazione consente di regolare intervalli di date, colori,
 
 * In [!UICONTROL Annotations Manager], fai clic sul titolo dell’annotazione.
 
-Entrambe queste opzioni consentono di tornare al Generatore di annotazioni. In questo caso è possibile apportare le modifiche necessarie e salvare la nuova versione.
+Entrambe queste opzioni consentono di tornare alla [!UICONTROL Annotations Builder]. In questo caso è possibile apportare le modifiche necessarie e salvare la nuova versione.
+
+## Condividere le annotazioni
+
+Quando condividi annotazioni o lavori con annotazioni condivise con te, tieni presente quanto segue:
+
+* Supponiamo che crei un progetto con annotazioni di sola progettazione e quindi lo condividi con un altro utente. Queste annotazioni verranno visualizzate, ma non possono essere modificate o eliminate da altri utenti con cui condividi il progetto.
+
+* Se salvi un’annotazione e la condividi direttamente con un utente, questa può essere modificata o eliminata solo se dispone dei diritti di amministratore.
+
+* Per ricapitolare, se il progetto è condiviso con te, verrà visualizzato solo in quel progetto. Se l’annotazione viene condivisa direttamente con te, viene visualizzata in tutti i progetti in cui è possibile visualizzarla.
+
+## Annotazioni e fusi orari
+
+Tutte le annotazioni vengono create con una marca temporale, ma non con informazioni sul fuso orario o sulle ore. Al momento del rapporto, viene sempre applicato il fuso orario della suite di rapporti del pannello. Quindi, il 25 dicembre si verifica un&#39;annotazione creata per Natale - indipendentemente dal fuso orario della suite di rapporti in cui ti trovi. Un altro esempio è il giorno di Capodanno. Ogni ora, un fuso orario diverso inizia i fuochi d&#39;artificio all&#39;inizio del nuovo anno. Alle 10 ora USA di montagna, la costa orientale USA sta bruciando i fuochi d&#39;artificio perché è già alle 12 ora orientale.
 
 ## Altre attività di annotazione
 
@@ -56,10 +70,10 @@ Gestione annotazioni consente agli amministratori di modificare, aggiungere, ass
 
 | Attività | Descrizione |
 | --- | --- |
-| Add | Consente di accedere al Generatore di annotazioni per creare nuove annotazioni. |
-| Tag | Tutti gli utenti possono creare tag per le annotazioni e applicarne uno o più a un’annotazione. Tuttavia, puoi visualizzare solo i tag per i segmenti di tua proprietà. Che tipo di tag è utile creare? Di seguito sono riportati alcuni suggerimenti di tag utili:<ul><li>Tag basati sui nomi dei team, ad esempio Social Marketing e Mobile Marketing</li><li>Tag del progetto (tag di analisi), ad esempio Analisi per pagina di ingresso</li><li>Tag di categorie: maschile; geografia</li><li>Tag del flusso di lavoro: Curato per (una specifica unità operativa); Approvato</li></ul> |
-| Elimina | L’eliminazione di un’annotazione la rimuove da qualsiasi progetto dell’organizzazione. |
-| Rinomina | La denominazione di un’annotazione viene rinominata in tutti i progetti a cui è stata applicata. |
-| Copia | Crea una copia distinta con il proprio ID di annotazione, ma con lo stesso nome e la stessa definizione. |
-| Export to CSV (Esporta in CSV) | Esporta la definizione dell’annotazione in un file .csv . |
-| Filtro (barra a sinistra) | Filtrare per tag, suite di rapporti, proprietari e altri filtri (Personali, Approvati, Preferiti, Condivisi con me e Mostra tutto). |
+| [!UICONTROL Add] | Consente di accedere al Generatore di annotazioni per creare nuove annotazioni. |
+| [!UICONTROL Tag] | Tutti gli utenti possono creare tag per le annotazioni e applicarne uno o più a un’annotazione. Tuttavia, è possibile visualizzare solo i tag delle annotazioni di proprietà. Che tipo di tag è utile creare? Di seguito sono riportati alcuni suggerimenti di tag utili:<ul><li>Tag basati sui nomi dei team, ad esempio Social Marketing e Mobile Marketing</li><li>Tag del progetto (tag di analisi), ad esempio Analisi per pagina di ingresso</li><li>Tag di categorie: maschile; geografia</li><li>Tag del flusso di lavoro: Curato per (una specifica unità operativa); Approvato</li></ul> |
+| [!UICONTROL Delete] | L’eliminazione di un’annotazione la rimuove da qualsiasi progetto dell’organizzazione. |
+| [!UICONTROL Rename] | La denominazione di un’annotazione viene rinominata in tutti i progetti a cui è stata applicata. |
+| [!UICONTROL Copy] | Crea una copia distinta con il proprio ID di annotazione, ma con lo stesso nome e la stessa definizione. |
+| [!UICONTROL Export to CSV] | Esporta la definizione dell’annotazione in un file .csv . |
+| [!UICONTROL Filter] (barra a sinistra) | Filtrare per tag, suite di rapporti, proprietari e altri filtri (Personali, Approvati, Preferiti, Condivisi con me e Mostra tutto). |
