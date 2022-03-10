@@ -3,10 +3,10 @@ description: Scopri le linee guida e le raccomandazioni per il consenso degli ut
 title: Quali sono le linee guida CNIL per il consenso degli utenti e i cookie
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 99bbc9d6cc4d50c39b7f689a9bd84ee95a008691
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: '754'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ Le Linee guida prevedono un’esenzione limitata dall’obbligo del consenso (�
 
 Si applicano le seguenti considerazioni aggiuntive:
 
+* Adobe Analytics gestisce centri di elaborazione dati negli Stati Uniti, nel Regno Unito e a Singapore al fine di offrire flessibilità a tutti i clienti per raccogliere, elaborare e archiviare i propri dati a livello regionale. Durante la configurazione della configurazione iniziale di Adobe Analytics, i clienti selezionano la posizione desiderata per il centro di elaborazione dati. I dati dei clienti vengono infine archiviati nell’area selezionata per il prodotto Analytics di base.
 * Prendi in considerazione la raccolta dello stato di consenso (opt-in) in una variabile Analytics al fine di separare i dati con e senza consenso per la segmentazione, per le suite di rapporti virtuali o per l’indirizzamento a end-point diversi.
 * Nessuna misurazione all’esterno del sito o dell’app senza previo consenso, ad esempio nessuna campagna off-site, campagne e-mail o iFrame.
 * La raccolta di informazioni personali in variabili non è consentita senza consenso. [Controllare le attività Experience Cloud in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=it&quot;\l&quot;implementation#implementation)
