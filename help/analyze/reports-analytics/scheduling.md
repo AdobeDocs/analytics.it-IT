@@ -6,9 +6,9 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1674'
 ht-degree: 5%
 
 ---
@@ -30,16 +30,16 @@ A causa delle differenze nei meccanismi e nelle piattaforme di elaborazione, i v
 
 Tali limitazioni riguardano i singoli rapporti pianificati e scaricati; le dashboard sono limitate alla quantità di spazio disponibile all’interno di un reportlet.
 
->[!NOTE]
->
->Il valore &quot;Ora di consegna&quot;/&quot;Ora del giorno&quot; immesso dall’utente specifica l’ora in cui il rapporto deve iniziare l’elaborazione, non l’ora in cui verrà effettivamente consegnato. Il tempo effettivo di consegna del rapporto si basa principalmente sul tempo necessario all’elaborazione (l’elaborazione di rapporti complessi e di grandi dimensioni richiede più tempo rispetto a quella di rapporti più semplici). Ad esempio, se l’elaborazione di un rapporto richiede 15 minuti, il tempo di consegna effettivo sarà di almeno 15 minuti superiore a quello originariamente specificato come &quot;Ora di consegna&quot;/&quot;Ora del giorno&quot;.
->Inoltre, vi sono altri fattori che possono aumentare ulteriormente il ritardo prima che la relazione venga effettivamente presentata:
->
-> * **Esecuzione simultanea di più pianificazioni diverse dello stesso tipo** (ad esempio, molte dashboard, ecc.) può sovraccaricare il sistema. Il sistema di programmazione consente solo l&#39;esecuzione simultanea di alcuni report (5-10) di un tipo qualsiasi, quindi quando più di 5-10 vengono tutti pianificati contemporaneamente, alcuni dovranno attendere il completamento di altri report prima che possano iniziare l&#39;elaborazione. Questo problema può essere attenuato pianificando i report di un&#39;azienda in orari scaglionati per tutto il giorno o l&#39;ora, anziché simultaneamente.
-> * Oltre al tipo di rapporto specifico (dashboard, ecc.), i rapporti attendono anche in linea se l’azienda ha **più di 15-20 di qualsiasi tipo di report pianificati contemporaneamente (in tutti i diversi tipi di report)**. Questo può essere attenuato dai tempi di pianificazione sbalorditivi invece di averne molti eseguiti contemporaneamente.
-> * **Problemi relativi ai servizi a valle** l’utilizzo dello strumento di pianificazione può influire anche sulla consegna dei rapporti. Ad esempio, se utilizzi in modo indipendente le API per eseguire i rapporti e compilare la coda di richiesta API, i rapporti pianificati potrebbero essere consegnati lentamente mentre ti trovi in competizione per quella risorsa.
-> * **Latenza suite di rapporti** (un ritardo nella raccolta dei dati) può anche ritardare alcuni rapporti pianificati.
+## Tempo di consegna e tempo di elaborazione
 
+Il valore &quot;Ora di consegna&quot; o &quot;Ora del giorno&quot; immesso dall’utente specifica l’ora in cui il rapporto deve iniziare l’elaborazione, non l’ora in cui verrà effettivamente consegnato. La data in cui il rapporto verrà consegnato si basa principalmente sul tempo necessario all’elaborazione. L&#39;elaborazione di report complessi e di grandi dimensioni richiede più tempo rispetto a quella di report più semplici. Ad esempio, se l’elaborazione di un rapporto richiede 15 minuti, il tempo di consegna effettivo sarà di almeno 15 minuti superiore a quello originariamente specificato come &quot;Ora di consegna&quot; o &quot;Ora del giorno&quot;.
+
+Inoltre, vi sono altri fattori che possono aumentare ulteriormente il ritardo prima che la relazione venga effettivamente presentata:
+
+* **Esecuzione simultanea di più pianificazioni diverse dello stesso tipo** (ad esempio, molte dashboard, ecc.) può sovraccaricare il sistema. Il sistema di programmazione consente solo l&#39;esecuzione simultanea di alcuni report (5-10) di qualsiasi tipo. Quando più di 5-10 vengono pianificati contemporaneamente, alcuni dovranno attendere il completamento di altri rapporti prima che possano iniziare l’elaborazione. Questo problema può essere attenuato pianificando i report di un&#39;azienda in orari scaglionati per tutto il giorno o l&#39;ora, anziché simultaneamente.
+* Oltre al tipo di rapporto specifico (dashboard, ecc.), i rapporti attendono anche in linea se l’azienda ha **più di 15-20 di qualsiasi tipo di report pianificati contemporaneamente (in tutti i diversi tipi di report)**. Questo può essere attenuato dai tempi di pianificazione sbalorditivi invece di averne molti eseguiti contemporaneamente.
+* **Problemi relativi ai servizi a valle** l’utilizzo dello strumento di pianificazione può influire anche sulla consegna dei rapporti. Ad esempio, se utilizzi in modo indipendente le API per eseguire i rapporti e compilare la coda di richiesta API, i rapporti pianificati potrebbero essere consegnati lentamente mentre ti trovi in competizione per quella risorsa.
+* **Latenza suite di rapporti** (un ritardo nella raccolta dei dati) può anche ritardare alcuni rapporti pianificati.
 
 
 ## Inviare un rapporto {#task_27642CD33D484FD0BF59EBD159EEF52C}
@@ -59,7 +59,7 @@ Passaggi che descrivono come scaricare ed inviare per e-mail i rapporti in diver
 1. Fai clic su **[!UICONTROL Advanced Delivery Options]** per specificare una pianificazione della consegna.
 
 | Opzione | Descrizione |
-|--- |--- |
+| --- |--- |
 | Nome file del rapporto | Specifica il nome del report. Il formato predefinito è `<report name> for <suite> - <report date range>`. Per specificare un nome personalizzato, seleziona [!UICONTROL Custom]. |
 | Formato del rapporto | Consente di specificare i formati PDF, CSV, Excel, HTML, Word o Mobile da distribuire. Se selezioni CSV, puoi anche specificare la codifica per CSV:<ul><li>Shift-JIS: Codifica caratteri giapponese.</li><li>EUC-JP: Codice Unix esteso, principalmente per giapponese, coreano e cinese semplificato.</li></ul> |
 | Contenuto del rapporto | <ul><li>Numero di righe nella tabella: Specifica il numero di righe che si desidera visualizzare nella tabella del rapporto che si sta inviando.</li><li>Lingua per intestazione e piè di pagina: Specifica la lingua dell&#39;intestazione e del piè di pagina.</li><li>Commenti: Specifica il testo visualizzato all&#39;inizio del report.</li></ul> |
@@ -119,7 +119,7 @@ Passaggi che descrivono come condividere un rapporto generando un collegamento a
 
 Quando il destinatario fa clic sul collegamento, il sistema richiede le credenziali di accesso (nome società, nome utente e password). Dopo l’accesso, al destinatario viene mostrato il rapporto generato dall’utente originale. Si applicano restrizioni standard alle autorizzazioni.
 
-**Per condividere un collegamento a un rapporto**
+Per condividere un collegamento a un rapporto,
 
 1. Esegui un report.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
