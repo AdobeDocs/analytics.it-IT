@@ -1,17 +1,17 @@
 ---
-title: Gestione delle annotazioni
+title: Gestire le annotazioni
 description: Come gestire le annotazioni in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 0d20c6debdb71b86aefa43e78900453f15d83e8f
+source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 6%
 
 ---
 
-# Gestione delle annotazioni
+# Gestire le annotazioni
 
 >[!NOTE]
 >
@@ -60,7 +60,9 @@ Quando condividi annotazioni o lavori con annotazioni condivise con te, tieni pr
 
 ## Annotazioni e fusi orari
 
-Tutte le annotazioni vengono create con una marca temporale, ma non con informazioni sul fuso orario o sulle ore. Al momento del rapporto, viene sempre applicato il fuso orario della suite di rapporti del pannello. Quindi, il 25 dicembre si verifica un&#39;annotazione creata per Natale - indipendentemente dal fuso orario della suite di rapporti in cui ti trovi. Un altro esempio è il giorno di Capodanno. Ogni ora, un fuso orario diverso inizia i fuochi d&#39;artificio all&#39;inizio del nuovo anno. Alle 10 ora USA di montagna, la costa orientale USA sta bruciando i fuochi d&#39;artificio perché è già alle 12 ora orientale.
+Tutte le annotazioni vengono create con una marca temporale, ma non con informazioni sul fuso orario o sulle ore. Al momento del rapporto, viene sempre applicato il fuso orario della suite di rapporti del pannello. Quindi, il 25 dicembre si verifica un&#39;annotazione creata per Natale - indipendentemente dal fuso orario della suite di rapporti in cui ti trovi.
+
+Un altro esempio è il giorno di Capodanno. Ogni ora, un fuso orario diverso inizia i fuochi d&#39;artificio all&#39;inizio del nuovo anno. Alle 10 ora USA di montagna, la costa orientale USA sta bruciando i fuochi d&#39;artificio perché è già alle 12 ora orientale.
 
 ## Altre attività di annotazione
 
