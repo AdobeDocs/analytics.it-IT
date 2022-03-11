@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Istruzioni per Analysis Workspace, lo strumento di analisi e visualizzazione principale per Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1039'
 ht-degree: 94%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 94%
       + Annotazioni {#annotations}
          + [Panoramica delle annotazioni](analysis-workspace/components/annotations/overview.md)
          + [Creare annotazioni](analysis-workspace/components/annotations/create-annotations.md)
-         + [Gestione delle annotazioni](analysis-workspace/components/annotations/manage-annotations.md)
+         + [Gestire le annotazioni](analysis-workspace/components/annotations/manage-annotations.md)
          + [Visualizzare le annotazioni](analysis-workspace/components/annotations/view-annotations.md)
       + Dimensioni {#dimensions}
          + [Anteprima dimensioni](analysis-workspace/components/dimensions/view-dimensions.md)
@@ -298,6 +298,7 @@ ht-degree: 94%
       + [Adobe Analytics per iOS](reports-analytics/overview/app-ios.md)
    + [Impostazioni di visualizzazione e navigazione del rapporto](reports-analytics/report-settings.md)
    + [Pianificazione e distribuzione del rapporto](reports-analytics/scheduling.md)
+   + [Avviso di fine del ciclo di vita per i rapporti pianificati](reports-analytics/scheduled-reports-eol.md)
    + [Tipi di rapporto](reports-analytics/reports.md)
    + [Eseguire diversi tipi di rapporto](reports-analytics/t-running-report-types.md)
    + Personalizzare i rapporti {#customize-reports}
