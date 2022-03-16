@@ -1,12 +1,12 @@
 ---
-title: Visite a pagina singola
+title: Visite a pagina singola (metriche)
 description: Il numero di volte in cui l’elemento della dimensione "Pagina" non è stato modificato in una visita.
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 10%
+source-wordcount: '186'
+ht-degree: 8%
 
 ---
 

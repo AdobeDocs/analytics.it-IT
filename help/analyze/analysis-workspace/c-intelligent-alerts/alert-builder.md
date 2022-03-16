@@ -1,13 +1,13 @@
 ---
 description: Puoi ricevere degli avvisi quando i componenti del progetto raggiungono determinate soglie.
-title: Alert Builder (Generatore di avvisi)
+title: Generatore di avvisi (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 99%
 
 ---
 

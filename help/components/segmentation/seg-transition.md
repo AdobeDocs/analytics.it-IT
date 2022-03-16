@@ -1,11 +1,11 @@
 ---
 description: Domande frequenti sulla segmentazione.
-title: Domande frequenti
+title: Domande frequenti sulla segmentazione
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2076'
 ht-degree: 93%
 
 ---
@@ -19,7 +19,7 @@ Risposte alle domande frequenti su funzioni di segmentazione, accesso, autorizza
 * Segmentazione in Analysis Workspace:
 
    * Puoi [confrontare i segmenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
-   * Utilizzare i [segmenti come dimensioni](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in un confronto.
+   * Utilizzare i [segmenti come dimensioni](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) in un confronto.
    * Utilizzare i segmenti nell’[analisi dell’abbandono](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * Puoi [applicare più segmenti a un rapporto o a un progetto](/help/components/segmentation/segmentation-workflow/seg-workflow.md).

@@ -1,12 +1,12 @@
 ---
-title: eVar
+title: eVar per Dimension
 description: Una dimensione personalizzata utilizzabile nel reporting.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 0%
+source-wordcount: '782'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Le eVar sono variabili personalizzate che puoi utilizzare come desideri. Se hai 
 
 Il numero di eVar disponibili dipende dal contratto con l’Adobe. Sono disponibili fino a 250 eVar se il contratto con Adobe lo supporta.
 
-Il caso (superiore o inferiore) utilizzato nel reporting si basa sul primo valore registrato dal sistema backend. Questo valore potrebbe essere la prima istanza mai vista o variare a seconda di un determinato periodo di tempo (ad esempio, mensile), a seconda della varietà e della quantità di dati associati alla suite di rapporti.
+Il caso (superiore o inferiore) utilizzato nel reporting si basa sul primo valore registrato dal sistema backend. Questo valore potrebbe essere la prima istanza mai vista o variare su base temporale (ad esempio, mensile), a seconda della varietà e della quantità di dati associati alla suite di rapporti.
 
 ## Popolare eVar con i dati
 

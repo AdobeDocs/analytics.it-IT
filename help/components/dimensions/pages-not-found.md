@@ -1,12 +1,12 @@
 ---
-title: Pagine non trovate
+title: Pagine non trovate (dimensioni)
 description: URL che hanno restituito un errore sul sito.
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 2%
+source-wordcount: '215'
+ht-degree: 1%
 
 ---
 

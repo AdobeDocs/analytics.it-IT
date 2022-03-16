@@ -1,14 +1,14 @@
 ---
 description: Visualizza il traffico della pagina web e classifica le visualizzazioni di pagina in tempo reale, in modo da comprendere più rapidamente le tendenze del sito.
-title: Rapporti in tempo reale
+title: Panoramica rapporti in tempo reale
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
@@ -25,8 +25,8 @@ Per il reporting in tempo reale, Analytics utilizza metriche ad alta frequenza e
 * Utilizza qualsiasi evento personalizzato, evento del carrello acquisti o istanza.
 * Visualizza fino a 20 ore di dati storici in tempo reale.
 
-Il tempo reale rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non disponi dei diritti per visualizzare le entrate, non puoi visualizzare un rapporto in tempo reale che include i dati sulle entrate. Le eVar (metriche di conversione) non sono supportate. Le autorizzazioni in tempo reale sono abilitate in [Strumenti di amministrazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+Il tempo reale rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non disponi dei diritti per visualizzare le entrate, non puoi visualizzare un rapporto in tempo reale che include i dati sulle entrate. Le eVar (metriche di conversione) non sono supportate. Le autorizzazioni in tempo reale sono abilitate nella [Strumenti di amministrazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] non sono uguali alla funzione  [Includi dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html)  (data recency) rilasciata in precedenza, che ha ridotto la latenza per i rapporti standard, visualizzando i dati prima che vengano finalizzati.
+>[!UICONTROL Real-Time Reports] non sono uguali a [Includi dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) Funzione (Data Recency) rilasciata in precedenza, che ha ridotto la latenza per i rapporti standard, visualizzando i dati prima della loro finalizzazione.
