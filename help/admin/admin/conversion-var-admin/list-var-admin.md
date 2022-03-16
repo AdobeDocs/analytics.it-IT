@@ -4,7 +4,7 @@ description: Crea e configura variabili elenco da utilizzare nei rapporti.
 feature: Admin Tools
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
 ht-degree: 100%
 
