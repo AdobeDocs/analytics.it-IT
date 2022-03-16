@@ -5,7 +5,7 @@ title: Visualizzare la cronologia delle regole di elaborazione
 feature: Processing Rules
 exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '38'
 ht-degree: 100%
 
