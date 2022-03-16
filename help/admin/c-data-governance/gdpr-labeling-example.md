@@ -4,7 +4,7 @@ title: Esempi di etichettatura
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
