@@ -5,7 +5,7 @@ title: Ordine di elaborazione
 feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
 ht-degree: 100%
 
