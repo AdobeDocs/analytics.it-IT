@@ -4,7 +4,7 @@ title: Panoramica delle impostazioni aziendali
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '55'
 ht-degree: 100%
 
