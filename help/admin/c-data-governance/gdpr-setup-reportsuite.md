@@ -4,7 +4,7 @@ title: Etichettare i dati della suite di rapporti
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '947'
 ht-degree: 100%
 
