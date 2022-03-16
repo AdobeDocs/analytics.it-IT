@@ -4,7 +4,7 @@ title: Conformità a RGPD/ePrivacy e inoltro lato server
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
 ht-degree: 100%
 
