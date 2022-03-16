@@ -4,7 +4,7 @@ title: Modificare le variabili di conversione
 feature: Admin Tools
 exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
