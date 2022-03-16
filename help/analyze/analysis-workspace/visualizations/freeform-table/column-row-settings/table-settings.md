@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
 source-git-commit: 3903387ac6cba1ceb45e1de35fbceb259151f4f8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '439'
+ht-degree: 100%
 
 ---
 
@@ -25,15 +25,15 @@ Le Impostazioni riga variano a seconda del componente che hai trascinato all’i
 | Percentuali | **Calcola percentuali per colonna** è l’impostazione predefinita. Le percentuali visibili in una colonna vengono calcolate in base al totale della colonna. <br>**Calcola percentuali per riga** costringe la tabella a forma libera a calcolare le percentuali delle celle di una riga, anziché di una colonna, utilizzando il totale come denominatore. Questo è utile in particolare per le percentuali di tendenza. Questa impostazione è abilitata per impostazione predefinita quando si utilizza l’icona Visualizza. |
 | Totali colonna | Queste impostazioni sono disponibili solo per le [righe statiche](manual-vs-dynamic-rows.md). <br> **Mostra come somma delle righe correnti** mostra una somma lato client delle righe nella tabella, il che significa che il totale *non* deduplica metriche quali visite o visitatori. <br> **Mostra totale** mostra una somma lato server, il che significa che il totale deduplica le metriche. |
 
-## Modifica conteggio righe
+## Modificare conteggio righe
 
 Per modificare il numero di righe visualizzate:
 
-1. Fai clic sul numero accanto a [!UICONTROL Rows] in cima al tavolo.
+1. Fai clic sul numero accanto a [!UICONTROL Rows] in cima alla tabella.
 
    ![](assets/row-number.png)
 
-1. Dall’elenco a discesa, selezionare il numero di righe che si desidera visualizzare nella tabella.
+1. Dall’elenco a discesa, seleziona il numero di righe che si desidera visualizzare nella tabella.
 
 ## Video
 
