@@ -4,10 +4,10 @@ title: Segmenti rapidi
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
+source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 77%
+source-wordcount: '844'
+ht-degree: 75%
 
 ---
 
@@ -77,7 +77,7 @@ Il segmento viene visualizzato nella parte superiore. Osserva la barra laterale 
 1. (Facoltativo) Rinomina il segmento.
 1. Fai clic su **[!UICONTROL Save]**.
 
-La barra laterale del segmento cambia da blu a blu a righe. Viene ora visualizzato anche nell’elenco dei componenti della barra a sinistra.
+La barra laterale del segmento cambia da blu striato a blu più chiaro. Viene ora visualizzato anche nell’elenco dei componenti della barra a sinistra.
 
 ## Cosa sono i segmenti solo progetto?
 
