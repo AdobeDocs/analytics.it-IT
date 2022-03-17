@@ -4,10 +4,10 @@ description: Puoi impostare le preferenze generali e di progetto per gli utenti,
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 941b2b472301c3e99f268ab98976de348573ae1b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '271'
+ht-degree: 82%
 
 ---
 
@@ -45,6 +45,7 @@ Le preferenze per i progetti sono applicabili ai nuovi progetti e pannelli creat
 |  | [Tipo di pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) | <ul><li>A forma libera (impostazione predefinita)</li><li>Vuoto</li><li>Quick Insights</li></ul> |
 |  | Formato dei numeri | <ul><li>1.000,00 (impsotazione predefinita)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Separatore CSV   | <ul><li>Virgola (impostazione predefinita)</li><li>Punto e virgola</li><li>Due punti</li><li>Barra verticale</li><li>Punto</li><li>Spazio</li><li>Scheda</li></ul> |
+|  | Tabella a forma libera | <ul><li>Mostra anomalie </li><li>Mostra scintille</li><li>Mostra annotazioni</li></ul> |
 
 ## [!UICONTROL Dark theme]
 
@@ -54,4 +55,4 @@ Se preferisci avere uno sfondo scuro per l’interfaccia utente di Adobe Analyti
 
    ![tema scuro](assets/dark-theme.png)
 
-1. Sposta la **[!UICONTROL Dark theme]** passa a destra.
+1. Sposta **[!UICONTROL Dark theme]** verso destra.
