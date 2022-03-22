@@ -3,12 +3,12 @@ description: I segnalibri consentono di accedere ai rapporti più utilizzati. I 
 subtopic: Bookmarks
 title: Segnalibro Manager
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 029c6b168756448d01d73dd5e92cbe9df70e3f57
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 4%
 
 ---
@@ -29,15 +29,15 @@ t_bookmarks_creating.xml
 
 1. Esegui un rapporto, quindi fai clic su **[!UICONTROL Bookmark.]**.
 
-       |Nome|Un nome descrittivo per il segnalibro.|
-       |—|
-       |Aggiungi a|Specifica la cartella in cui si desidera inserire il segnalibro.|
-       |Rendi pubblico| Rende questo segnalibro disponibile agli utenti con accesso alla suite di rapporti.|
-       |Visualizza il rapporto al momento dell&#39;accesso| Visualizza il rapporto al momento dell&#39;accesso.|
-   
-## Gestire i segnalibri {#task_1EE793CB52EA467787817BBD98DEF150}
+   | Nome | Nome intuitivo per il segnalibro. |
+   |---|---|
+   | Aggiungi a | Specifica la cartella in cui si desidera inserire il segnalibro. |
+   | Rendi pubblico | Rende questo segnalibro disponibile agli utenti con accesso alla suite di rapporti. |
+   | Visualizza rapporto all&#39;accesso | Visualizza il rapporto al momento dell&#39;accesso. |
 
-Dopo aver creato i segnalibri per report, puoi gestirli nel [!UICONTROL Bookmark Manager]. È possibile modificare, eliminare e organizzare i segnalibri e le cartelle da una posizione centrale.
+## Gestione segnalibri {#task_1EE793CB52EA467787817BBD98DEF150}
+
+Dopo aver creato i segnalibri per i rapporti, puoi gestirli nel [!UICONTROL Bookmark Manager]. È possibile modificare, eliminare e organizzare i segnalibri e le cartelle da una posizione centrale.
 
 <!-- 
 
@@ -100,7 +100,7 @@ t_bookmarks_managing.xml
   </tr> 
   <tr> 
    <td colname="col1"> Copy Me </td> 
-   <td colname="col2"> <p>Crea una copia dei segnalibri e la inserisce in una cartella predefinita nella colonna <span class="uicontrol"> Segnalibri</span>. </p> </td> 
+   <td colname="col2"> <p>Crea una copia dei segnalibri e la inserisce in una cartella predefinita nel <span class="uicontrol"> Segnalibri</span> colonna. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Menu attivato </td> 
