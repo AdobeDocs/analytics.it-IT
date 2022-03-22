@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 591c7af7fe721b94b4da0c1f09f63f88603f9af9
 workflow-type: tm+mt
 source-wordcount: '3445'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -103,7 +103,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `mc_audiences` | Elenco degli ID del segmento di Audience Manager a cui appartiene il visitatore. La `post_mc_audiences` cambia il delimitatore in `--**--`. | text |
 | `mcvisid` | ID visitatore di Experience Cloud. Numero a 128 bit costituito da due numeri concatenati a 64 bit aggiunti a 19 cifre. | varchar(255) |
 | `mobile_id` | Se l’utente utilizza un dispositivo mobile, l’ID numerico del dispositivo. | int |
-| `mobileaction` | Azione mobile. Raccolta automatica quando `trackAction` viene chiamato in Mobile Services. Consente il percorso automatico delle azioni nell’app. | varchar(100) |
+| `mobileaction` | Azione Mobile. Raccolta automatica quando `trackAction` viene chiamato in Mobile Services. Consente il percorso automatico delle azioni nell’app. | varchar(100) |
 | `mobileappid` | ID app mobile. Memorizza il nome e la versione dell&#39;applicazione nel seguente formato: `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Utilizzato nel connettore dati Apteligent. L&#39;ID app utilizzato in Apteligent. | varchar(255) |
 | `mobileappperformancecrashid` | Utilizzato nel connettore dati Apteligent. ID dell&#39;arresto anomalo utilizzato in Apteligent. | varchar(255) |
@@ -122,12 +122,12 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `mobiledayssincelastupgrade` | Raccolto dalla variabile di dati di contesto a.DaysSinceLastUpgrade. Il numero di giorni trascorsi dalla sessione precedente. | varchar(255) |
 | `mobiledayssincelastuse` | Numero di giorni dall’ultima esecuzione dell’app. | varchar(255) |
 | `mobiledeeplinkid` | Raccolte dalla variabile di dati di contesto `a.deeplink.id`. Utilizzato nei rapporti di acquisizione come identificatore per il collegamento di acquisizione mobile. | varchar(255) |
-| `mobiledevice` | Nome del dispositivo mobile. In iOS, viene memorizzato come stringa di 2 cifre separate da virgola. Il primo numero rappresenta la generazione del dispositivo e il secondo numero rappresenta la famiglia di dispositivi. | varchar(255) |
+| `mobiledevice` | Nome del dispositivo Mobile. In iOS, viene memorizzato come stringa di 2 cifre separate da virgola. Il primo numero rappresenta la generazione del dispositivo e il secondo numero rappresenta la famiglia di dispositivi. | varchar(255) |
 | `mobilehourofday` | Definisce l&#39;ora del giorno in cui l&#39;app è stata avviata. Segue il formato numerico a 24 ore. | varchar(255) |
-| `mobileinstalldate` | Data di installazione per dispositivi mobili. Fornisce la data della prima apertura dell’app mobile da parte di un utente. | varchar(255) |
+| `mobileinstalldate` | Data di installazione di Mobile. Fornisce la data della prima apertura dell’app mobile da parte di un utente. | varchar(255) |
 | `mobilelaunchessincelastupgrade` | Raccolto dalla variabile di dati di contesto a.LaunchesSinceUpgrade. Segnala il numero di avvii dall’ultimo aggiornamento. | varchar(255) |
 | `mobilelaunchnumber` | Aumenta di una volta ogni volta che l’app mobile viene avviata. | varchar(255) |
-| `mobileltv` | Non più utilizzato. Viene compilata dai metodi trackLifetimeValue. | varchar(255) |
+| `mobileltv` | Non più utilizzato. Compilato dai metodi trackLifetimeValue. | varchar(255) |
 | `mobilemessagebuttonname` | Raccolte dalla variabile di dati di contesto `a.message.button.id`. Utilizzato per la messaggistica in-app per identificare il pulsante che ha chiuso il messaggio. | varchar(100) |
 | `mobilemessageid` | ID messaggio in-app | varchar(255) |
 | `mobilemessageonline` | Messaggi in-app online | varchar(255) |
@@ -139,8 +139,8 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `mobileplacecategory` | Raccolte dalla variabile di dati di contesto `a.loc.category`. Descrive la categoria di un luogo specifico. | varchar(255) |
 | `mobileplaceid` | Raccolte dalla variabile di dati di contesto `a.loc.id`. Identificatore per un dato punto di interesse. | varchar(255) |
 | `mobilerelaunchcampaigncontent` | Contenuto lancio di Mobile Services | varchar(255) |
-| `mobilerelaunchcampaignmedium` | Media di lancio di Mobile Services | varchar(255) |
-| `mobilerelaunchcampaignsource` | Origine lancio Mobile Services | varchar(255) |
+| `mobilerelaunchcampaignmedium` | Mezzo di lancio di Mobile Services | varchar(255) |
+| `mobilerelaunchcampaignsource` | Origine lancio di Mobile Services | varchar(255) |
 | `mobilerelaunchcampaignterm` | Termine di avvio di Mobile Services | varchar(255) |
 | `mobilerelaunchcampaigntrackingcode` | Raccolte dalla variabile di dati di contesto `a.launch.campaign.trackingcode`. Utilizzato nell&#39;acquisizione come codice di tracciamento per la campagna di lancio. | varchar(255) |
 | `mobileresolution` | Risoluzione del dispositivo mobile. `[Width] x [Height]` in pixel. | varchar(255) |
@@ -264,7 +264,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `visid_low` | Utilizzato in combinazione con `visid_high` per identificare in modo univoco un visitatore. | bigotto senza segno |
 | `visid_new` | Flag per identificare se l&#39;hit contiene un ID visitatore appena generato. | char(1) |
 | `visid_timestamp` | Se l&#39;ID visitatore è stato generato di recente, fornisce la marca temporale (in tempo Unix) di quando è stato generato l&#39;ID visitatore. | int |
-| `visid_type` | Non per uso esterno; Utilizzato internamente da Adobe per l’elaborazione delle ottimizzazioni. ID numerico che rappresenta il metodo utilizzato per identificare il visitatore.<br>0: ID visitatore personalizzato o sconosciuto/non applicabile<br>1: Fallback dell’agente IP e dell’agente utente <br>2: Intestazione del sottoscrittore mobile HTTP <br>3: Valore cookie legacy (`s_vi`) <br>4. Valore cookie di fallback (`s_fid`) <br>5: Servizio identità | tinyint senza segno |
+| `visid_type` | Non per uso esterno; Utilizzato internamente da Adobe per l’elaborazione delle ottimizzazioni. ID numerico che rappresenta il metodo utilizzato per identificare il visitatore.<br>0: ID visitatore personalizzato o sconosciuto/non applicabile<br>1: Fallback dell’agente IP e dell’agente utente <br>2: Intestazione del sottoscrittore Mobile HTTP <br>3: Valore cookie legacy (`s_vi`) <br>4. Valore cookie di fallback (`s_fid`) <br>5: Servizio identità | tinyint senza segno |
 | `visit_keywords` | Variabile utilizzata nella variabile [Parola chiave di ricerca](/help/components/dimensions/search-keyword.md) dimensione. Questa colonna utilizza un limite di caratteri non standard di varchar(244) per adattarsi alla logica back-end utilizzata da Adobe. | varchar(244) |
 | `visit_num` | Variabile utilizzata nella variabile [Numero di visite](/help/components/dimensions/visit-number.md) dimensione. Inizia a 1 e viene incrementato ogni volta che inizia una nuova visita per visitatore. | int senza segno |
 | `visit_page_num` | Variabile utilizzata nella variabile [Profondità di hit](/help/components/dimensions/hit-depth.md) dimensione. Aumenta di 1 per ogni hit generato dall’utente. Ripristina ogni visita. | int senza segno |
@@ -360,7 +360,6 @@ Il seguente elenco di colonne non è utilizzato e non contiene dati:
 * `socialtermslist`
 * `socialtermslist (deprecated)`
 * `socialtotalsentiment`
-* `sourceid`
 * `videoauthorized`
 * `videoaverageminuteaudience`
 * `videochaptercomplete`
