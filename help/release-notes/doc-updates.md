@@ -4,10 +4,10 @@ description: Aggiornamenti importanti della documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '3032'
-ht-degree: 96%
+source-wordcount: '3105'
+ht-degree: 94%
 
 ---
 
@@ -24,13 +24,16 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Data | Descrizione |
 | --- | --- |
 | **Marzo 2022** |  |
+| Nuovo argomento sugli algoritmi di crittografia HTTPS supportati | [Algoritmi di crittografia HTTPS supportati](/help/technotes/rdc/encryption-algos.md) per i clienti con livello di sicurezza crittografato impostato su &quot;High&quot;. |
 | Nuova documentazione sulle annotazioni in Workspace | [Annotazioni in Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) consente di comunicare in modo efficace le sfumature e le informazioni contestuali ai dati all’organizzazione. |
 | Aggiornamenti delle pagine di destinazione di Adobe Analytics | [Aggiornamenti](/help/analyze/landing.md) alla pagina di destinazione congiunta Workspace/Reports &amp; Analytics che migliora l’usabilità e la facilità di navigazione. |
 | [!UICONTROL Next item] o [!UICONTROL Previous item] Pannello Workspace | Questo pannello consente di esplorare gli elementi che seguono o precedono un elemento dimensionale scelto. |
 | [!UICONTROL Page Summary] Pannello Workspace | Questo pannello fornisce un’analisi approfondita per una pagina a scelta. |
-| **Febbraio 2022** |  |
+| Nuovo argomento relativo alla sospensione di report pianificati meno recenti | Efficace **15 aprile 2022**, l&#39;Adobe intende [sospendi tutti i rapporti pianificati con una data di creazione maggiore di due anni](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| **Febbraio 2022** |
 | Modalità anteprima dei progetti scorecard per dispositivi mobili | La [modalità anteprima](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#preview) consente di visualizzare un’anteprima dell’esperienza prima di salvare e condividere una scorecard. |
 | Endpoint di progetti API | Aggiungi, modifica o elimina progetti Analysis Workspace utilizzando l’API. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
+| Argomento aggiornato sulla sospensione di attività di Report Builder pianificate precedenti | **Attive dal 15 aprile 2022**, l&#39;Adobe intende [sospendi tutte le attività di Report Builder pianificate create più di due anni fa](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **Ottobre 2021** |  |
 | 21 ottobre 2021 | Nuova documentazione su [Segmenti rapidi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=it) in Analysis Workspace |
 | 21 ottobre 2021 | Nuova documentazione sul pannello [Tempo trascorso su contenuti multimediali](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=it) in Analysis Workspace. |

@@ -3,10 +3,10 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 42%
+source-wordcount: '1086'
+ht-degree: 43%
 
 ---
 
@@ -35,7 +35,6 @@ ht-degree: 42%
 * Sono stati risolti i problemi relativi al pannello Area di lavoro A4T . (AN-281594; AN-282418)
 * È stato risolto un problema che impediva ad alcuni utenti di accedere ad Adobe Analytics. (AN-282776)
 * Sono stati risolti dei problemi a causa dei quali alcune suite di rapporti appena create non raccoglievano dati. (AN-283114, AN-283311)
-* Sono stati risolti dei problemi che impedivano il rilevamento di Win11 utilizzando la dimensione Sistema operativo . (AN-275569, AN-275727; (AN-280335)
 * Sono stati risolti i problemi relativi alle e-mail dei feed di dati inviate in modo errato. (AN-280255; AN-282051)
 
 
