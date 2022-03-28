@@ -1,11 +1,11 @@
 ---
-description: Quando un rapporto ha un numero elevato di valori univoci, Adobe utilizza l’elemento dimensione Traffico basso per migliorare le prestazioni del rapporto.
+description: Quando un rapporto ha molti valori univoci, Adobe utilizza l’elemento dimensione traffico ridotto per migliorare le prestazioni del rapporto.
 title: Valore di traffico ridotto in Adobe Analytics
 feature: Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: e087c50784a99eb4e664021b243ad38c3b95e538
+source-git-commit: ddd1473ccfe27dbcb28c0c51992628c9bf03cb5c
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,10 @@ Quando un rapporto ha molti valori univoci, Adobe fornisce funzionalità che gar
 * Quando una variabile raggiunge 500.000 valori univoci, i dati iniziano a essere inseriti nei bucket in [!UICONTROL Low-Traffic]. Ogni valore oltre questa soglia passa attraverso la logica seguente:
    * Se un valore è già visualizzato nei rapporti, aggiungilo come di consueto.
    * Se un valore non è ancora visualizzato nei rapporti, viene inizialmente inserito nei [!UICONTROL Low-Traffic] elemento dimensione.
-   * Se un valore inserito in [!UICONTROL Low-Traffic] viene visualizzato in un punto qualsiasi con due cifre in quel mese, inizia a essere riconosciuto come elemento dimensionale proprio. Le istanze raccolte prima di raggiungere la soglia rimangono sotto [!UICONTROL Low-Traffic]. La soglia esatta include molte dipendenze, ad esempio il numero di server che elaborano i dati per la suite di rapporti e il tempo tra ogni istanza di elemento dimensione.
-* Se una suite di rapporti raggiunge più di 1.000.000 valori univoci, viene applicato un filtro più aggressivo. I valori univoci richiedono istanze con tre cifre prima di essere riconosciuti come elemento dimensione proprio.
+   * Se un valore inserito in [!UICONTROL Low-Traffic] riceve un afflusso di traffico (in genere istanze con due cifre in un singolo giorno), inizia a essere riconosciuto come elemento dimensionale proprio. Le istanze raccolte prima di raggiungere la soglia rimangono sotto [!UICONTROL Low-Traffic]. La soglia esatta include molte dipendenze, ad esempio il numero di server che elaborano i dati per la suite di rapporti e il tempo tra ogni istanza di elemento dimensione.
+* Se una suite di rapporti raggiunge più di 1.000.000 valori univoci, viene applicato un filtro più aggressivo. I valori univoci richiedono le istanze con tre cifre in un singolo giorno prima di essere riconosciuti come elemento dimensione proprio.
 
-Questa logica consente ad Adobe di ottimizzare le funzionalità di reporting, consentendo allo stesso tempo alla tua organizzazione di generare rapporti sugli elementi dimensionali cruciali raccolti più avanti nel mese. Ad esempio, la tua organizzazione esegue un sito con milioni di articoli e un nuovo articolo è diventato popolare verso la fine del mese (dopo aver superato entrambe le soglie univoche). Si potrebbe ancora analizzare le prestazioni di quell&#39;articolo senza che sia inserito in [!UICONTROL Low-Traffic]. Tieni presente che questa logica non intende rimuovere dal bucket tutto ciò che ottiene un certo numero di visualizzazioni di pagina al giorno o al mese.
+Questa logica consente ad Adobe di ottimizzare le funzionalità di reporting, consentendo allo stesso tempo alla tua organizzazione di generare rapporti sugli elementi dimensionali cruciali raccolti più avanti nel mese. Ad esempio, la tua organizzazione esegue un sito con milioni di articoli e un nuovo articolo è diventato popolare verso la fine del mese (dopo aver superato entrambe le soglie univoche). Si potrebbe ancora analizzare le prestazioni di quell&#39;articolo senza che sia inserito in [!UICONTROL Low-Traffic]. Questa logica non prevede di rimuovere dal bucket tutto ciò che ottiene un certo numero di visualizzazioni di pagina al giorno o al mese.
 
 >[!NOTE]
 >La [Pagina](../components/dimensions/page.md) la dimensione utilizza diverse colonne di backend che vengono conteggiate in base a soglie univoche, tra cui `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`e `click_context`. Queste colonne di back-end possono causare [!UICONTROL Low-Traffic] da applicare molto prima che il numero di elementi dimensionali pagina univoci in Workspace raggiunga 500.000.
