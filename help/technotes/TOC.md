@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Note tecniche di Analytics
 breadcrumb-title: Note tecniche
 user-guide-description: Una knowledge base contenente articoli utili che non appartengono a uno specifico strumento o componente di analisi.
-source-git-commit: fac5627cec2a398aaca8272fefe8497fbb8fb315
+source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 80%
+source-wordcount: '200'
+ht-degree: 78%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 80%
 + Raccolta di dati regionali {#rdc}
    + [Aiuto per la raccolta dati regionali](rdc/regional-data-collection.md)
    + [Licenza di certificazione SSL](rdc/ssl-cert-licensing.md)
+   + [Algoritmi di crittografia HTTPS supportati](rdc/encryption-algos.md)
 + [Risorse di sicurezza](security.md)
 + [Termini utilizzati (glossario)](terms.md)
 + [Marca temporale opzionale](timestamps-optional.md)
