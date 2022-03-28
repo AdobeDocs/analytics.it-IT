@@ -1,45 +1,44 @@
 ---
-description: Quando un rapporto ha un numero elevato di valori univoci, Adobe fornisce funzionalità che garantiscono la visualizzazione dei valori più importanti nel rapporto.
+description: Quando un rapporto ha un numero elevato di valori univoci, Adobe utilizza l’elemento dimensione Traffico basso per migliorare le prestazioni del rapporto.
 title: Valore di traffico ridotto in Adobe Analytics
 feature: Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: e087c50784a99eb4e664021b243ad38c3b95e538
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # Valore di traffico ridotto in Adobe Analytics
 
-Quando un rapporto ha molti valori univoci, Adobe fornisce funzionalità che garantiscono la visualizzazione dei valori più importanti nel rapporto. I valori delle variabili univoche raccolti dopo circa 500.000 valori esistenti sono elencati sotto una voce con titolo **[!UICONTROL Low-Traffic]**.
+Quando un rapporto ha molti valori univoci, Adobe fornisce funzionalità che garantiscono la visualizzazione dei valori più importanti nel rapporto. I valori delle variabili univoci raccolti dopo circa 500.000 valori esistenti sono elencati sotto un elemento dimensione etichettato **[!UICONTROL Low-Traffic]**.
 
 ## Come [!UICONTROL Low-Traffic] lavori
 
 * La generazione di rapporti non viene influenzata se la variabile non raggiunge 500.000 valori univoci in un dato mese.
-* Quando una variabile raggiunge la prima soglia di 500.000, i dati iniziano a essere inseriti nei bucket con traffico limitato. Ogni valore oltre questa soglia passa attraverso la logica seguente:
+* Quando una variabile raggiunge 500.000 valori univoci, i dati iniziano a essere inseriti nei bucket in [!UICONTROL Low-Traffic]. Ogni valore oltre questa soglia passa attraverso la logica seguente:
    * Se un valore è già visualizzato nei rapporti, aggiungilo come di consueto.
-   * Se un valore non è ancora visualizzato nei rapporti, verrà visualizzato nella [!UICONTROL Low-Traffic] riga. Se un valore è stato incluso nel [!UICONTROL Low-Traffic] l’elemento di riga viene visualizzato un numero significativo di volte in un breve periodo di tempo, inizierà a essere riconosciuto come elemento di riga proprio. Il numero significativo di volte in cui un elemento deve essere visualizzato ha molte dipendenze, ad esempio il numero di server di elaborazione e di demoni che elaborano i dati per quella particolare suite di rapporti.
-* Se una suite di rapporti raggiunge più di 1.000.000 valori univoci, viene applicato un filtro più aggressivo:
-   * Se un valore è già visualizzato nei rapporti, aggiungilo come di consueto.
-   * Se un valore non è ancora visualizzato nei rapporti, verrà visualizzato nella [!UICONTROL Low-Traffic] riga. Se un valore è stato incluso nel [!UICONTROL Low-Traffic] l’elemento di riga viene visualizzato un numero significativo di volte in un breve periodo di tempo, inizierà a essere riconosciuto come elemento di riga proprio. Il numero significativo di volte in cui un elemento deve essere visualizzato ha molte dipendenze, ad esempio il numero di server di elaborazione e di demoni che elaborano i dati per quella particolare suite di rapporti.
+   * Se un valore non è ancora visualizzato nei rapporti, viene inizialmente inserito nei [!UICONTROL Low-Traffic] elemento dimensione.
+   * Se un valore inserito in [!UICONTROL Low-Traffic] viene visualizzato in un punto qualsiasi con due cifre in quel mese, inizia a essere riconosciuto come elemento dimensionale proprio. Le istanze raccolte prima di raggiungere la soglia rimangono sotto [!UICONTROL Low-Traffic]. La soglia esatta include molte dipendenze, ad esempio il numero di server che elaborano i dati per la suite di rapporti e il tempo tra ogni istanza di elemento dimensione.
+* Se una suite di rapporti raggiunge più di 1.000.000 valori univoci, viene applicato un filtro più aggressivo. I valori univoci richiedono istanze con tre cifre prima di essere riconosciuti come elemento dimensione proprio.
 
-Perché Adobe sposta un elemento dal [!UICONTROL Low Traffic] riga al proprio elemento riga? Ad esempio, questo spostamento potrebbe riconoscere una nuova pagina o un nuovo elemento popolare aggiunto più avanti nel mese (dopo il superamento di univoci) e che ottiene un sacco di hit/visualizzazioni. Lo spostamento non ha lo scopo di rilevare tutto ciò che riceve un certo numero di hit/visualizzazioni al giorno o al mese.
+Questa logica consente ad Adobe di ottimizzare le funzionalità di reporting, consentendo allo stesso tempo alla tua organizzazione di generare rapporti sugli elementi dimensionali cruciali raccolti più avanti nel mese. Ad esempio, la tua organizzazione esegue un sito con milioni di articoli e un nuovo articolo è diventato popolare verso la fine del mese (dopo aver superato entrambe le soglie univoche). Si potrebbe ancora analizzare le prestazioni di quell&#39;articolo senza che sia inserito in [!UICONTROL Low-Traffic]. Tieni presente che questa logica non intende rimuovere dal bucket tutto ciò che ottiene un certo numero di visualizzazioni di pagina al giorno o al mese.
 
 >[!NOTE]
->Il conteggio di ricerca della pagina non include solo i valori per [!UICONTROL pagename]/[!UICONTROL page_url]. La tabella di ricerca delle pagine include diverse colonne/campi, ad esempio [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url], e il contesto di clic (i vecchi dati di ClickMap).
+>La [Pagina](../components/dimensions/page.md) la dimensione utilizza diverse colonne di backend che vengono conteggiate in base a soglie univoche, tra cui `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`e `click_context`. Queste colonne di back-end possono causare [!UICONTROL Low-Traffic] da applicare molto prima che il numero di elementi dimensionali pagina univoci in Workspace raggiunga 500.000.
 
 ## Modifica delle soglie dei limiti univoci
 
-I limiti di soglia sono 500.000 e 1 milione di valori univoci per impostazione predefinita. Questi limiti possono essere modificati per ogni variabile. Per richiedere questa modifica, contatta l’account manager della tua organizzazione. Quando richiedi una modifica, includi:
+I limiti di soglia sono 500.000 e 1 milione di valori univoci per impostazione predefinita. Questi limiti possono essere modificati per ogni variabile. Per richiedere questa modifica, contatta l’Assistenza clienti Adobe o l’account manager della tua organizzazione. Quando richiedi una modifica, includi:
 
 * ID suite di rapporti
 * Variabile per la quale desideri aumentare la soglia
 * Desiderate la prima e la seconda soglia
 
-Le modifiche alle soglie possono influire sulle prestazioni dei rapporti. L&#39;Adobe consiglia vivamente di utilizzare il buon senso quando si richiede un aumento di valori univoci in una variabile.
+Le modifiche alle soglie possono influire sulle prestazioni dei rapporti. L&#39;Adobe consiglia vivamente di utilizzare il buon senso quando si richiede un aumento di valori univoci in una variabile. Aumenta solo i limiti univoci per le variabili che sono fondamentali per le esigenze di reporting della tua organizzazione.
 
-Le soglie a traffico ridotto non sono visibili nell’interfaccia utente di Analytics. Se desideri ulteriori informazioni sulle soglie esistenti, chiedi a un utente supportato della tua organizzazione di contattare l’Assistenza clienti Adobe.
+Le soglie a traffico ridotto non sono visibili nell’interfaccia utente di Analytics. Per ulteriori informazioni sulle soglie esistenti, contatta l’Assistenza clienti di Adobe.
 
 ## Traffico ridotto utilizzando componenti e altre funzionalità
 
