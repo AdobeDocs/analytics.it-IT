@@ -4,10 +4,10 @@ title: Segmenti rapidi
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
+source-git-commit: 7434a941f3e5a47a3f5d5a28320a3fc396dd3740
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 75%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,10 @@ Puoi creare segmenti rapidi all’interno di un progetto, senza ricorrere al pi�
 * Non inserire contenitori nidificati o regole sequenziali.
 
 Per un confronto tra le funzionalità dei segmenti rapidi e quelle dei segmenti veri e propri a livello di componente, visita [questa pagina](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+
+Ecco una panoramica video dei segmenti rapidi:
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## Prerequisiti
 
