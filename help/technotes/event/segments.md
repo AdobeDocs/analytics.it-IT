@@ -2,7 +2,7 @@
 title: Esclusione di date specifiche nell’analisi
 description: Suggerimenti per escludere date o intervalli di date se non desideri includerli nei rapporti.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
-source-git-commit: 84f00a330334d6f4272f35140da0fecbf43622c9
+source-git-commit: d03206b127e16cbb98d1318b0acc6c304f91ca48
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 Se disponi di dati [interessato da un evento](overview.md), puoi utilizzare un segmento per escludere qualsiasi intervallo di date che non desideri includere nei rapporti. La segmentazione delle date interessate dall’evento può essere utile per evitare che l’organizzazione prenda decisioni sui dati parziali.
 
-## Isolare i giorni interessati
+## Isolare i giorni interessati {#isolate}
 
 Crea un segmento che isola l’intervallo di giorni o date interessato. Questo segmento è utile se desideri concentrarti sui giorni problematici per visualizzare ulteriori informazioni sul suo impatto.
 
@@ -31,7 +31,7 @@ Adobe consiglia di utilizzare i componenti dimensione arancione e non i componen
 
 ![Escludere il tipo di giorno del segmento](assets/exclude_segment_day_type.jpg)
 
-## Escludere i giorni interessati
+## Escludere i giorni interessati {#exclude}
 
 Crea un segmento che escluda l’intervallo di giorni o date interessato. Questo segmento è utile se desideri escludere i giorni in cui si sono verificati problemi per ridurre al minimo l’impatto sulla generazione di rapporti complessiva.
 
@@ -46,7 +46,7 @@ Crea un segmento che escluda l’intervallo di giorni o date interessato. Questo
 
 Una volta creato il segmento di esclusione, puoi utilizzarlo esattamente come faresti con altri segmenti.
 
-### Confrontare i segmenti in un rapporto con tendenze
+### Confrontare i segmenti in un rapporto con tendenze {#compare}
 
 Puoi applicare sia il segmento &quot;Giorni interessati&quot; che il segmento &quot;Escludi giorni interessati&quot; in un rapporto per confrontarli uno accanto all’altro. Trascina entrambi i segmenti sopra o sotto una metrica per confrontarli:
 
@@ -60,7 +60,7 @@ Se non desideri mostrare zeri nella tabella o nelle visualizzazioni (con consegu
 
 ![Interpreta zero](assets/interpret_zero.png)
 
-### Applicare il segmento di esclusione a un progetto
+### Applicare il segmento di esclusione a un progetto {#apply}
 
 Puoi applicare il segmento &quot;Escludi giorni interessati&quot; a un progetto Workspace. Trascina il segmento di esclusione nella sezione Area di lavoro con etichetta *Rilascia un segmento qui*.
 
@@ -70,9 +70,9 @@ Puoi applicare il segmento &quot;Escludi giorni interessati&quot; a un progetto 
 
 ![Segmento applicato a un pannello](assets/exclude_segment_panel.jpg)
 
-### Utilizzare il segmento di esclusione in una suite di rapporti virtuale
+### Utilizzare il segmento di esclusione in una suite di rapporti virtuale {#use-vrs}
 
-Puoi utilizzare il segmento in una [Suite di rapporti virtuali](/help/components/vrs/vrs-about.md) per escludere i dati in modo più conveniente. Questa opzione è ideale in quanto non ti devi ricordare di applicare il segmento per ogni rapporto che include l’intervallo di date interessato. Se utilizzi già le suite di rapporti virtuali come origine principale di dati, puoi aggiungere il segmento a una VRS esistente.
+Puoi utilizzare il segmento in una [suite di rapporti virtuale](/help/components/vrs/vrs-about.md) per escludere i dati in modo più conveniente. Questa opzione è ideale in quanto non ti devi ricordare di applicare il segmento per ogni rapporto che include l’intervallo di date interessato. Se utilizzi già le suite di rapporti virtuali come origine principale di dati, puoi aggiungere il segmento a una VRS esistente.
 
 1. Passa a **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
 2. Fai clic su **[!UICONTROL Add]**.
