@@ -3,16 +3,16 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 433a750ddf4aca56fd9fbe5ec2482f66cf45125f
+source-git-commit: 14881de9527796430f13199a6fc5d06452a94a60
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1127'
 ht-degree: 41%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (marzo 2022)
 
-**Ultimo aggiornamento: 31 marzo 2022**
+**Ultimo aggiornamento: 6 aprile 2022**
 
 * Per le note sulla versione di febbraio 2022, consulta [qui](/help/release-notes/2022.md).
 * Per le note sulla versione di Customer Journey Analytics, consulta [qui](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it)
@@ -21,12 +21,14 @@ ht-degree: 41%
 
 ## Nuove funzioni di Adobe Analytics {#aa-features}
 
+**Ultimo aggiornamento: 6 aprile 2022**
+
 | Funzione | Descrizione | [Data definita](releases.md) |
 | ----------- | ---------- | ------- |
 | Annotazioni in Workspace | Le annotazioni in Workspace consentono di comunicare in modo efficace sfumature di dati e informazioni contestuali all’organizzazione. [Ulteriori informazioni](/help/analyze/analysis-workspace/components/annotations/overview.md) | Il rollout graduale inizia il 23 marzo 2022. Disponibilità generale: 11 aprile 2022 |
 | Aggiornamenti delle pagine di destinazione di Adobe Analytics | Aggiornamenti alla pagina di destinazione congiunta Workspace/Reports &amp; Analytics che migliora l’usabilità e la facilità di navigazione. [Ulteriori informazioni](/help/analyze/landing.md) | 1 aprile 2022 |
-| [!UICONTROL Next item] o [!UICONTROL Previous item] Pannello Workspace | La [!UICONTROL Next or Previous item] consente di esplorare gli elementi che seguono o precedono un elemento dimensionale scelto. Ad esempio, utilizzalo se desideri visualizzare le pagine successive o precedenti in una pagina di prodotto specifica, in un canale di marketing o persino in un tipo di dispositivo. Questo pannello va oltre il reporting precedente/successivo legacy, perché consente di esaminare qualsiasi dimensione e non richiede alcuna nuova implementazione per ottenere informazioni approfondite. | 1 aprile 2022 |
-| [!UICONTROL Page Summary] Pannello Workspace | La [!UICONTROL Page Summary] fornisce un’analisi approfondita per una pagina a scelta. Fornisce gli stessi dettagli di Reports &amp; Analytics legacy [!UICONTROL Page Summary] report, più molto altro. | 1 aprile 2022 |
+| [!UICONTROL Next item] o [!UICONTROL Previous item] Pannello Workspace | La [!UICONTROL Next or Previous item] consente di esplorare gli elementi che seguono o precedono un elemento dimensionale scelto. Ad esempio, utilizzalo se desideri visualizzare le pagine successive o precedenti in una pagina di prodotto specifica, in un canale di marketing o persino in un tipo di dispositivo. Questo pannello va oltre il reporting precedente/successivo legacy, perché consente di esaminare qualsiasi dimensione e non richiede alcuna nuova implementazione per ottenere informazioni approfondite. | 20 aprile 2022 |
+| [!UICONTROL Page Summary] Pannello Workspace | La [!UICONTROL Page Summary] fornisce un’analisi approfondita per una pagina a scelta. Fornisce gli stessi dettagli di Reports &amp; Analytics legacy [!UICONTROL Page Summary] report, più molto altro. | 20 aprile 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
