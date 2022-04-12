@@ -4,7 +4,7 @@ title: Attività programmate Manager
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 1%
@@ -17,7 +17,7 @@ La [!UICONTROL Scheduled Task Manager] ti consente di visualizzare un elenco dei
 
 ## Sospensione delle attività pianificate precedenti
 
-**Attive dal 15 aprile 2022**, Adobe intende mettere in pausa tutte le attività di Report Builder pianificate create più di due anni fa. In particolare, questa pausa si applica a **eventuali attività create prima del 31 gennaio 2020**. Non verranno eliminate attività, cartelle di lavoro o dati. Le attività con una durata superiore a due anni verranno messe in pausa e non verranno inviate altre attività pianificate.
+**Attive dal 21 aprile 2022**, Adobe intende mettere in pausa tutte le attività di Report Builder pianificate create più di due anni fa. In particolare, questa pausa si applica a **eventuali attività create prima del 31 gennaio 2020**. Non verranno eliminate attività, cartelle di lavoro o dati. Le attività con una durata superiore a due anni verranno messe in pausa e non verranno inviate altre attività pianificate.
 
 È possibile riattivare tutte le attività che si desidera riprendere l’invio. Accedi a Report Builder e avvia il [!UICONTROL Scheduled Task Manager]. Fai clic su **[!UICONTROL Reactivate]** per l’attività pianificata da riprendere l’invio. Qualsiasi attività che viene riattivata avrà una scadenza predefinita di 18 mesi, a meno che non venga selezionata una data di scadenza più breve.
 

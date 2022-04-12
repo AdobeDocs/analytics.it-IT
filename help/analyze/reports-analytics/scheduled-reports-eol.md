@@ -3,17 +3,17 @@ title: Avviso di fine del ciclo di vita per i rapporti pianificati
 description: Adobe intende mettere in pausa tutti i rapporti pianificati con una data di creazione superiore a due anni.
 feature: Reports & Analytics Basics
 role: User, Admin
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
-
 # Avviso di fine del ciclo di vita per i rapporti pianificati
 
-A partire dal 15 aprile 2022, Adobe intende sospendere tutti i rapporti pianificati con una data di creazione maggiore di due anni (tutte le attività create prima del 31 gennaio 2020). Nessun rapporto o dato verrà eliminato. Verranno messi in pausa solo i rapporti identificati come più vecchi di due anni e non verranno inviati ulteriori rapporti pianificati.
+A partire dal 21 aprile 2022, Adobe intende sospendere tutti i rapporti pianificati con una data di creazione maggiore di due anni (tutte le attività create prima del 31 gennaio 2020). Nessun rapporto o dato verrà eliminato. Verranno messi in pausa solo i rapporti identificati come più vecchi di due anni e non verranno inviati ulteriori rapporti pianificati.
 
 Qualsiasi rapporto pianificato ancora da inviare può essere riattivato semplicemente accedendo ad Analytics e aprendo la [!UICONTROL Scheduled Reports] responsabile. Fai clic sul pulsante [!UICONTROL Edit] e imposta una nuova ora e scadenza pianificate. Qualsiasi rapporto che viene riattivato avrà una scadenza predefinita di 9 mesi, a meno che non venga selezionata una data di scadenza più breve.
 
