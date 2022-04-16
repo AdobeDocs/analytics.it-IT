@@ -4,14 +4,14 @@ keywords: ftp;sftp
 title: Panoramica su Origini dati
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 44%
+source-wordcount: '424'
+ht-degree: 43%
 
 ---
 
-# Origini dati
+# Origini dati basate su FTP
 
 Puoi utilizzare Analytics per creare e gestire origini dati basate su FTP, che si basano sul trasferimento file FTP per importare dati di cronologia o offline nell’Experience Cloud.
 

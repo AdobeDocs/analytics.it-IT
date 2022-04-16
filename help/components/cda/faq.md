@@ -2,9 +2,9 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti su Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1933'
 ht-degree: 5%
 
 ---
@@ -104,7 +104,7 @@ CDA richiama gli elementi dimensionali della variabile di identificazione prima 
 
 ## Quante suite di rapporti della mia azienda possono essere abilitate per CDA?
 
-È possibile abilitare più suite di rapporti, tuttavia ogni suite di rapporti aggiuntiva aumenterà il tempo di provisioning complessivo se vengono richieste più suite di rapporti contemporaneamente. CDA non unisce le suite di rapporti. Ogni suite di rapporti abilitata per CDA deve essere di natura multi-dispositivo (contenente dati provenienti da più superfici come web per desktop, web per dispositivi mobili, app per dispositivi mobili, ecc.)
+A partire dal 1° maggio 2022, qualsiasi nuova implementazione di CDA sarà limitata a un massimo di tre ID suite di rapporti (RSID) per cliente. CDA non unisce le suite di rapporti. Ogni suite di rapporti abilitata per CDA deve essere di natura multi-dispositivo (contenente dati provenienti da più superfici come web per desktop, web per dispositivi mobili, app per dispositivi mobili, ecc.).
 
 ## Se la mia organizzazione Experience Cloud (anche nota come organizzazione IMS) ha più aziende in diverse regioni, posso abilitare CDA per tutte?
 
