@@ -5,9 +5,9 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
+source-git-commit: 0bab340afcffdf337d0ff6bacb0351d744c1d9a5
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1469'
 ht-degree: 4%
 
 ---
@@ -40,8 +40,8 @@ Le seguenti opzioni di configurazione sono attualmente disponibili per le suite 
 
 * **[!UICONTROL Visit Timeout]:** L’impostazione di timeout visita definisce la quantità di inattività che un visitatore univoco deve avere prima dell’avvio automatico di una nuova visita. Il valore predefinito è 30 minuti. Ad esempio, se imposti il timeout di visita a 15 minuti, viene creato un nuovo raggruppamento di visite per ogni sequenza di hit raccolta, separate da 15 minuti di inattività. Questa impostazione ha un impatto non solo sui conteggi delle visite, ma anche sulla valutazione dei contenitori dei segmenti di visite e sulla logica di scadenza delle visite per tutte le eVar in scadenza alla visita. Una diminuzione del timeout della visita determinerà probabilmente un aumento del numero totale di visite nei rapporti, mentre un aumento del timeout della visita ridurrà probabilmente il numero totale di visite nei rapporti.
 * **[!UICONTROL Mobile App Visit Settings]:** Per le suite di rapporti contenenti dati generati da app mobili tramite [Adobe Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html), sono disponibili altre impostazioni di visita. Queste impostazioni non sono distruttive e influiscono solo sugli hit raccolti tramite gli SDK di Mobile. Queste impostazioni non hanno alcun impatto sui dati raccolti al di fuori dell&#39;SDK di Mobile.
-* **[!UICONTROL Prevent Background Hits from starting a new Visit]:** Gli hit in background vengono raccolti dagli SDK Mobile quando l&#39;app è in uno stato di background.
-* **[!UICONTROL Start a New Visit upon each App Launch]:** Oltre al timeout previsto per la visita, puoi forzare l’inizio di una visita ogni volta che un evento App Launch viene registrato dagli SDK di Mobile, indipendentemente dalla finestra di inattività. Questa impostazione influisce sulla metrica di visita e sul contenitore del segmento di visita, nonché sulla logica di scadenza della visita sulle eVar.
+* **[!UICONTROL Prevent Background Hits from starting a new Visit]:** Gli hit in background vengono raccolti dagli SDK di Mobile quando l&#39;app è in background.
+* **[!UICONTROL Start a New Visit upon each App Launch]:** Oltre al timeout previsto per la visita, puoi forzare l’inizio di una visita ogni volta che un evento App Launch è stato registrato dagli SDK Mobile, indipendentemente dalla finestra di inattività. Questa impostazione influisce sulla metrica di visita e sul contenitore del segmento di visita, nonché sulla logica di scadenza della visita sulle eVar.
 * **[!UICONTROL Start New Visit with Event]:** Viene avviata una nuova sessione quando un evento viene attivato, a prescindere dal timeout di una sessione. La nuova sessione creata include l’evento che l’ha avviata. Inoltre, puoi utilizzare più eventi per avviare una sessione e una nuova sessione viene avviata se nei dati viene rilevato uno qualsiasi degli eventi. Questa impostazione influisce sul conteggio delle visite, sul contenitore di segmentazione delle visite e sulla logica di scadenza delle visite sugli eVar.
 
 Ecco un video sull’avvio di una nuova visita con un evento:
@@ -88,4 +88,4 @@ Di seguito è riportato un elenco di dimensioni e metriche che sono interessate 
 * **eVar non merchandising/eVar riservate:** I valori impostati in un eVar persistono solo se il valore è stato impostato all&#39;interno dell&#39;intervallo di date del rapporto a causa della finestra Data elaborazione ora rapporto. Inoltre, le scadenze basate sul tempo possono scadere con un’ora di anticipo o con un’ora di ritardo se la persistenza si estende per un cambiamento dell’ora legale.
 * **eVar per merchandising/eVar riservate:** Vedi sopra. Inoltre, per la sintassi di conversione, in cui il binding è impostato su &quot;qualsiasi evento&quot;, viene utilizzato invece &quot;qualsiasi hit&quot;.
 * **Tipo di hit:** Questa dimensione specifica se un hit è in primo piano o in background.
-* **Dimension con (traffico ridotto) o &quot;Uniques Superato&quot;:** L’elemento di riga (traffico ridotto) viene determinato in modo leggermente diverso quando si utilizza l’elaborazione al momento del rapporto e non è garantito che corrisponda a quello osservato durante il reporting sulla suite di rapporti di base. Inoltre, gli elementi delle linee di dimensione che non fanno parte di traffico ridotto non possono rappresentare il 100% dei dati per quell’elemento, a differenza di una suite di rapporti di base. Queste differenze diventano più pronunciate più alto è il numero di valori univoci esistenti in una dimensione.
+* **Dimension con (traffico ridotto) o &quot;Uniques Superato&quot;:** L’elemento di riga (traffico ridotto) viene determinato in modo leggermente diverso quando si utilizza l’elaborazione al momento del rapporto e non è garantito che corrisponda a quello osservato durante il reporting sulla suite di rapporti di base. Gli elementi riga di Dimension che non fanno parte di traffico ridotto non rappresentano il 100% dei dati per tale riga. Queste differenze possono diventare più pronunciate più alto è il numero di valori univoci esistenti in una dimensione.
