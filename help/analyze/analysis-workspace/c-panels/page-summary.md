@@ -3,13 +3,13 @@ description: Il pannello Riepilogo pagina mostra le informazioni di riepilogo pe
 title: Pannello di riepilogo delle pagine
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
+source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '432'
 ht-degree: 2%
 
 ---
-
 
 # Pannello di riepilogo delle pagine
 
@@ -26,12 +26,12 @@ Puoi accedere al pannello da [!UICONTROL Reports] o [!UICONTROL Workspace].
 
 ## Ingressi del pannello {#Input}
 
-Puoi configurare le [!UICONTROL Next or previous item] pannello con le seguenti impostazioni di input:
+Puoi configurare le [!UICONTROL Page summary] mediante le seguenti impostazioni di input:
 
 | Impostazione | Descrizione |
 | --- | --- |
 | Zona di rilascio del segmento (o altro componente) | Puoi trascinare segmenti o altri componenti per filtrare ulteriormente i risultati del pannello. |
-| Elemento dimensione pagina | Dall’elenco a discesa, seleziona l’elemento dimensionale di cui desideri esplorare le statistiche chiave. |
+| Elemento dimensione pagina | Dall’elenco a discesa, seleziona l’elemento Dimensione pagina di cui desideri esplorare le statistiche chiave. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -56,3 +56,7 @@ La [!UICONTROL Page summary] restituisce un set completo di dati e visualizzazio
 | [!UICONTROL Flow] | Diagramma di flusso con la pagina selezionata come punto focale. Puoi approfondire i dati come in qualsiasi [Diagramma di flusso](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
 
 {style=&quot;table-layout:auto&quot;}
+
+![Pannello di riepilogo delle pagine](assets/page-sum1.png)
+
+![Metriche e flusso](assets/page-sum2.png)
