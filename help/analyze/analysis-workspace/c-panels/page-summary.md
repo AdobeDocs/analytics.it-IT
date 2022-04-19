@@ -3,9 +3,9 @@ description: Il pannello Riepilogo pagina mostra le informazioni di riepilogo pe
 title: Pannello di riepilogo delle pagine
 feature: Panels
 role: User, Admin
-source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Pannello di riepilogo delle pagine
 
-La [!UICONTROL Page summary] pannello avviato come rapporto in Reports &amp; Analytics, in Reports > Engagement > Page analysis > Page summary (Rapporti > Coinvolgimento > Analisi pagina > Riepilogo pagina). Questo pannello Workspace consente di esplorare facilmente le statistiche chiave su pagine specifiche.
+La [!UICONTROL Page summary] pannello avviato come rapporto in Reports &amp; Analytics, in Reports > Engagement > Page analysis > Page summary (Rapporti > Coinvolgimento > Analisi pagina > Riepilogo pagina). È ora disponibile anche un pannello Workspace . Questo pannello consente di esplorare facilmente le statistiche chiave su pagine specifiche.
 
 ## Accedere al pannello
 
