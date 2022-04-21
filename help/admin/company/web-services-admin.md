@@ -3,10 +3,10 @@ description: Le API dei servizi Web forniscono accesso programmatico ai rapporti
 title: Servizi web
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '231'
+ht-degree: 5%
 
 ---
 
@@ -20,9 +20,9 @@ Le API dei servizi Web forniscono accesso programmatico ai rapporti di marketing
 
 In [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html) è possibile aggiornare le autorizzazioni per includere gli utenti che necessitano di accesso alle API dei servizi Web.
 
-## WSDL: Scarica la WSDL API dei servizi Web per gli sviluppatori di servizi Web.
+## WSDL: Scaricare l’API WSDL per gli sviluppatori di servizi Web
 
-Visita [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), che fornisce documentazione, codice di esempio e forum relativi alle API dei servizi web. Per ulteriori informazioni, fare clic su Panoramica API servizi Web .
+Visita [Sviluppatore Adobe](https://developer.adobe.com/analytics-apis/docs/2.0/), che fornisce documentazione, codice di esempio e forum relativi alle API dei servizi web. Per ulteriori informazioni, fare clic su Panoramica API servizi Web .
 
 ## Opzioni di filtro
 
