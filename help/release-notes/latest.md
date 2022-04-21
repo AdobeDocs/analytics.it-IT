@@ -3,16 +3,16 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b93b27fac0a9e3364512bb8a27ad64c7eb379dd1
+source-git-commit: 80e7241fd35e5c745c2341182983613f537ce224
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1008'
 ht-degree: 30%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (aprile 2022)
 
-**Ultimo aggiornamento**: 19 aprile 2022
+**Ultimo aggiornamento**: 20 aprile 2022
 
 * Per le note sulla versione di marzo 2022, consulta [qui](/help/release-notes/2022.md).
 
@@ -27,7 +27,7 @@ ht-degree: 30%
 | Aggiornamenti delle pagine di destinazione di Adobe Analytics | Aggiornamenti alla pagina di destinazione congiunta Workspace/Reports &amp; Analytics che migliora l’usabilità e la facilità di navigazione. [Ulteriori informazioni](/help/analyze/landing.md) | 20 aprile 2022 |
 | [!UICONTROL Next item] o [!UICONTROL Previous item] Pannello Workspace | La [!UICONTROL Next or Previous item] consente di esplorare gli elementi che seguono o precedono un elemento dimensionale scelto. Ad esempio, utilizzalo se desideri visualizzare le pagine successive o precedenti in una pagina di prodotto specifica, in un canale di marketing o persino in un tipo di dispositivo. Questo pannello va oltre il reporting precedente/successivo legacy, perché consente di esaminare qualsiasi dimensione e non richiede alcuna nuova implementazione per ottenere informazioni approfondite. [Ulteriori informazioni](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 20 aprile 2022 |
 | [!UICONTROL Page Summary] Pannello Workspace | La [!UICONTROL Page Summary] fornisce un’analisi approfondita per una pagina a scelta. Fornisce gli stessi dettagli di Reports &amp; Analytics legacy [!UICONTROL Page Summary] report, più molto altro. [Ulteriori informazioni](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 20 aprile 2022 |
-| Obbligo di `x-proxy-global-company-id` intestazione per le chiamate API 2.0 | Le API di Adobe Analytics 2.0 non richiedono più il `x-proxy-global-company-id` , poiché queste informazioni fanno parte dell’URL dell’endpoint. Puoi comunque includere questa intestazione, ma non genera più un errore se manca. | 20 aprile 2022 |
+| Obbligo di `x-proxy-global-company-id` intestazione per le chiamate API 2.0 | Le API di Adobe Analytics 2.0 non richiedono più il `x-proxy-global-company-id` , poiché queste informazioni fanno parte dell’URL dell’endpoint. Puoi comunque includere questa intestazione, ma non ricevi più un errore se manca. | 20 aprile 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
