@@ -1,45 +1,46 @@
 ---
-description: Per utilizzare in modo efficace le regole di elaborazione è essenziale capire quando vengono applicate durante la raccolta dei dati.
+description: Dove risiedono le regole di elaborazione nella pipeline dei dati di Analytics.
 subtopic: Processing rules
 title: Ordine di elaborazione
 feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+source-git-commit: 790c3a02fbdf896cba0933dcd7a2b2efd5a19f15
+workflow-type: tm+mt
+source-wordcount: '497'
+ht-degree: 53%
 
 ---
 
 # Ordine di elaborazione
 
-Per utilizzare in modo efficace le regole di elaborazione è essenziale capire quando vengono applicate durante la raccolta dei dati.
+Per utilizzare in modo efficace le regole di elaborazione, è essenziale capire quando vengono applicate durante la raccolta dei dati.
 
-![](assets/analytics_processing_order_test.png)
+![Ordine di elaborazione](assets/analytics_processing_order.png)
 
-Nelle tabelle seguenti sono elencati i dati generalmente disponibili prima e dopo l’applicazione delle regole di elaborazione:
+Nelle tabelle seguenti sono elencati i dati generalmente disponibili prima e dopo l’applicazione delle regole di elaborazione.
 
 ## Prima delle regole di elaborazione
 
 | Dimensione | Descrizione |
 |--- |--- |
-| Ricerca dinamica delle variabili | Le variabili vengono compilate dinamicamente estraendo informazioni dalle intestazioni HTTP o da altre variabili. Ad esempio: `s.eVar5="D=c1"` inserirà il valore di prop1 in eVar5. |
-| AppMeasurement | Le funzioni e i plug-in utilizzati in AppMeasurement vengono eseguiti nel browser o nell’applicazione client. |
-| Tag Management | Le regole definite nell’interfaccia utente della raccolta dati vengono eseguite come definito. |
-| Regole bot | Le [regole bot](/help/admin/admin/bot-removal/bot-rules.md) consentono di rimuovere dalla suite di rapporti il traffico generato da spider e bot noti. |
+| [Variabili dinamiche](/help/implement/vars/page-vars/dynamic-variables.md) | Variabili compilate dinamicamente richiamando informazioni dalle intestazioni HTTP o da altre variabili. |
+| [AppMeasurement](/help/implement/home.md) | Le funzioni e i plug-in utilizzati nelle librerie AppMeasurement vengono eseguiti nel browser o nell’applicazione client. |
+| [Implementazione dei tag](/help/implement/launch/overview.md) | Regole definite nell’interfaccia utente di raccolta dati. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html) | I dati raccolti tramite l’SDK per web vengono inviati ad Adobe Experience Edge e quindi inoltrati alla suite di rapporti desiderata. |
+| [Regole bot](/help/admin/admin/bot-removal/bot-rules.md) | Consente di rimuovere il traffico generato da ragni e bot noti. |
 
 ## Dopo le regole di elaborazione
 
 | Dimensione | Descrizione |
 |--- |--- |
 | Dati aggiunti da VISTA | Le regole di elaborazione vengono applicate prima di VISTA. |
-| Numero pagina di visita | Come regola generale, le regole di elaborazione tengono conto dei dati contenuti solo nell’hit corrente. Il numero di pagina della visita viene compilato dopo l’applicazione delle regole di elaborazione. |
-| L’URL pulito viene aggiunto come nome della pagina, se non impostato | Dopo aver applicato le regole di elaborazione e VISTA, l’URL pulito viene aggiunto come nome della pagina se quest’ultimo non è stato impostato. Poiché questo si verifica dopo l’applicazione delle regole di elaborazione, è consigliabile aggiungere una condizione per verificare se il nome della pagina è vuoto. Se esegui il rapporto Site Content > Pages (Contenuto sito > Pagine) e trovi dei valori https:// per i nomi di pagina, è probabile che il nome della pagina sia vuoto e che quindi sia stato usato l’URL.  È possibile impostare una condizione per verificare la presenza di un nome di pagina vuoto o per verificare se il nome o l’URL della pagina contiene un valore specifico. Il nome della pagina può quindi essere impostato in base alle esigenze. |
+| Numero pagina di visita | Le regole di elaborazione sono a conoscenza solo dei dati contenuti nell&#39;hit corrente. Il numero di pagina della visita viene compilato dopo l’applicazione delle regole di elaborazione. |
+| L’URL pulito viene aggiunto come nome della pagina, se non impostato | Dopo aver applicato le regole di elaborazione e VISTA, l’URL pulito viene aggiunto come nome della pagina se quest’ultimo non è stato impostato. Poiché questa logica si verifica dopo l’applicazione delle regole di elaborazione, Adobe consiglia di aggiungere una condizione per verificare se il nome della pagina è vuoto.  Se esegui la **[!UICONTROL Site Content]** > **[!UICONTROL Pages]** Il rapporto e i valori URL visualizzati per i nomi di pagina sono probabilmente vuoti.  È possibile impostare una condizione per verificare la presenza di un nome di pagina vuoto o per verificare se il nome della pagina o l’URL della pagina contiene un valore specifico. Il nome della pagina può quindi essere impostato in base alle esigenze. |
 | Regole di elaborazione per il canale di marketing | È possibile utilizzare le regole di elaborazione per preparare i dati per le [regole di elaborazione del canale di marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=it). |
-| Ricerca geografica | Questo include i valori dello Stato e del codice postale del visitatore. |
+| Ricerca geografica | Include i valori di Stato visitatore e CAP/postale del visitatore. |
 | Persistenza eVar | Le eVar contenute in un hit precedente non vengono mantenute in ogni hit durante l’elaborazione delle regole. Sono disponibili solo le eVar impostate sull’hit attualmente in fase di elaborazione. |
 
-## Applicazione delle regole di elaborazione durante la copia degli hit tramite VISTA {#section_576EE8C240A24CBA979BD614E8D5338D}
+## Applicazione delle regole di elaborazione durante la copia degli hit tramite VISTA
 
 Se disponi di una regola VISTA configurata per copiare gli hit in un’altra suite di rapporti, gli hit vengono trattati dalle regole di elaborazione definite nell’altra suite di rapporti.
 
