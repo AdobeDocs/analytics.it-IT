@@ -3,24 +3,25 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 80e7241fd35e5c745c2341182983613f537ce224
+source-git-commit: c29515da8c74ad3332aa9797db9de505af7fe3aa
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 68%
+source-wordcount: '1056'
+ht-degree: 60%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (aprile 2022)
 
-**Ultimo aggiornamento**: 20 aprile 2022
+**Ultimo aggiornamento**: 28 aprile 2022
 
-* Per le note sulla versione di marzo 2022, vai [qui](/help/release-notes/2022.md).
+## Risorse correlate
 
-* Per le note sulla versione di Customer Journey Analytics, vai [qui](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it).
+* [Note sulla versione precedente per il 2022](/help/release-notes/2022.md)
+* [Note sulla versione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [Note sulla versione di Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* Ultimi aggiornamenti sulla versione di [Prodotti Adobe Experience Cloud](https://business.adobe.com/it/products/adobe-experience-cloud-products.html)
 
-* Per le note sulla versione di Media Analytics, vai [qui](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=it).
-
-* Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cloud](https://business.adobe.com/it/products/adobe-experience-cloud-products.html). Ottieni la documentazione, i tutorial e i corsi di supporto autonomo più recenti su Experience League.
+## Nuove funzioni di Adobe Analytics
 
 | Funzione | Descrizione | [Data definita](releases.md) |
 | ----------- | ---------- | ------- |
@@ -34,12 +35,12 @@ ht-degree: 68%
 ## Correzioni in Adobe Analytics
 
 * È stato risolto un problema nel Feed dati a causa del quale le date di inizio e di fine venivano modificate automaticamente dopo il salvataggio del Feed dati durante la creazione dalla relativa interfaccia utente. Le date si stavano aggiornando di un giorno. (AN-281262)
-
 * È stato risolto un problema che impediva il rinnovo dei progetti pianificati tramite collegamento e-mail. (AN-283622)
+* È stato risolto un problema che impediva la corretta identificazione delle versioni recenti di Apple Safari e Microsoft Edge nella tabella di ricerca del tipo di browser di Adobe. Simile a quando [le versioni del browser vengono aggiornate](/help/components/dimensions/browser.md), aggiornamenti alle tabelle di ricerca del tipo di browser solo i dati corretti che avanzano. Le tabelle di ricerca per la versione del browser sono state aggiornate il 20 aprile e le tabelle di ricerca per il tipo di browser sono state aggiornate il 28 aprile. (AN-284872; AN-285753; (AN-286257)
 
 ### Ulteriori correzioni in Adobe Analytics
 
-AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761;
+AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761
 
 ## Avvisi importanti per gli amministratori di Adobe Analytics
 
