@@ -4,16 +4,16 @@ description: Adobe intende mettere in pausa tutti i rapporti pianificati con una
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+source-git-commit: d3309815de29264c743f30a236c99a55fc731413
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 0%
+source-wordcount: '333'
+ht-degree: 9%
 
 ---
 
 # Avviso di fine del ciclo di vita per i rapporti pianificati
 
-A partire dal 21 aprile 2022, Adobe intende sospendere tutti i rapporti pianificati con una data di creazione maggiore di due anni (tutte le attività create prima del 31 gennaio 2020). Nessun rapporto o dato verrà eliminato. Verranno messi in pausa solo i rapporti identificati come più vecchi di due anni e non verranno inviati ulteriori rapporti pianificati.
+A partire dal 21 aprile 2022, Adobe intende sospendere tutti i rapporti pianificati con una data di creazione maggiore di due anni (tutte le attività create prima del 31 gennaio 2020). Nessun rapporto o dato verrà eliminato. Verranno sospesi solo i rapporti identificati come più vecchi di due anni e non verranno inviati ulteriori rapporti pianificati.
 
 Qualsiasi rapporto pianificato ancora da inviare può essere riattivato semplicemente accedendo ad Analytics e aprendo la [!UICONTROL Scheduled Reports] responsabile. Fai clic sul pulsante [!UICONTROL Edit] e imposta una nuova ora e scadenza pianificate. Qualsiasi rapporto che viene riattivato avrà una scadenza predefinita di 9 mesi, a meno che non venga selezionata una data di scadenza più breve.
 
@@ -27,6 +27,7 @@ Al momento della scadenza, il rapporto pianificato verrà messo in pausa. Tuttav
 
 Questa azione ha lo scopo di gestire e mantenere in modo efficace i nostri rapporti pianificati in preparazione della fine del ciclo di vita di Reports &amp; Analytics, precedentemente annunciata. Questo servirà da guida per la nostra nuova politica di governance:
 
+* Dopo il 15 aprile 2022 non sarà più possibile creare nuovi rapporti pianificati.
 * Dopo il 15 aprile 2022, tutti i rapporti pianificati avranno una data di scadenza massima di 9 mesi.
 * Dopo 9 mesi, le attività scadute saranno messe in pausa e possono essere riattivate, se necessario, fino al 31 dicembre 2023.
 * Il 31 dicembre 2023 Reports &amp; Analytics diventerà obsoleto.
