@@ -3,7 +3,7 @@ description: Risolvere i problemi relativi ad Advertising Analytics.
 title: Risoluzione dei problemi relativi ad Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 5%
@@ -29,7 +29,7 @@ Stai cercando di [impostare un nuovo account Advertising](/help/integrate/c-adve
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. La suite di rapporti non è mappata all'ID organizzazione Experience Cloud dell'utente di accesso. </p> </td> 
-   <td colname="col2"> <p>Contatta l’Assistenza clienti per mappare la suite di rapporti su un’organizzazione IMS.</p> </td> 
+   <td colname="col2"> <p>Contatta l’Assistenza clienti per mappare la suite di rapporti su un ID organizzazione.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Non è stato effettuato il provisioning della suite di rapporti per il reporting di Advertising Analytics. </p> </td> 

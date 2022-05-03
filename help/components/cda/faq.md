@@ -2,10 +2,10 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti su Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 5%
+source-wordcount: '1930'
+ht-degree: 6%
 
 ---
 
@@ -32,7 +32,7 @@ L’unione tra dispositivi di CDA si verifica in due processi simultanei.
 
 * Il secondo processo si chiama &quot;replay&quot;. Durante la riproduzione, CDA torna indietro nel tempo e ristabilisce i dati storici, ove possibile, all’interno di un intervallo di lookback specificato. Questo intervallo di lookback è di 1 giorno o 7 giorni, a seconda di come hai richiesto la configurazione di CDA. Durante la riproduzione, CDA tenta di ripristinare i risultati in cui la persona era precedentemente sconosciuta.
 
-* **Se utilizzi un grafico dei dispositivi**, in Adobe le mappature dei dispositivi vengono mantenute in Co-op Graph e Private Graph per circa 6 mesi. Un ECID che non ha attività per più di sei mesi viene rimosso dal grafico. I dati già uniti in CDA non vengono interessati, ma gli hit successivi per tale ECID vengono trattati come una nuova persona.
+* **If using a device graph**, Adobe keeps device mappings in the Co-op Graph and Private Graph for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. I dati già uniti in CDA non vengono interessati, ma gli hit successivi per tale ECID vengono trattati come una nuova persona.
 
 ## In che modo CDA gestisce gli hit con marca temporale?
 
@@ -40,9 +40,9 @@ L’Adobe tratta gli hit con marca temporale come se fossero stati ricevuti al m
 
 ## Come si confronta CDA con gli ID visitatore personalizzati?
 
-L&#39;utilizzo di un ID visitatore personalizzato è un metodo legacy per [connettere utenti tra dispositivi](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con un ID visitatore personalizzato utilizzi la funzione [`visitorID`](/help/implement/vars/config-vars/visitorid.md) per impostare esplicitamente l’ID utilizzato per la logica del visitatore. La `visitorID` sostituisce gli ID basati su cookie presenti.
+L&#39;utilizzo di un ID visitatore personalizzato è un metodo legacy per [connettere utenti tra dispositivi](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con un ID visitatore personalizzato utilizzi la funzione [`visitorID`](/help/implement/vars/config-vars/visitorid.md) per impostare esplicitamente l’ID utilizzato per la logica del visitatore. The `visitorID` variable overrides any cookie-based IDs that are present.
 
-Gli ID visitatore personalizzati hanno diversi effetti collaterali indesiderati che CDA supera o riduce al minimo. Ad esempio, la metodologia ID visitatore personalizzato non ha [ripetizione](replay.md) funzionalità. Se un utente si autentica nel mezzo di una visita, la prima parte della visita viene associata a un ID visitatore diverso rispetto all’ultima parte della visita. Gli ID visitatore separati generano un’inflazione di visite e visitatori. CDA riafferma i dati storici in modo che gli hit non autenticati appartengano alla persona corretta.
+Custom visitor IDs have several undesirable side effects that CDA overcomes or minimizes. Ad esempio, la metodologia ID visitatore personalizzato non ha [ripetizione](replay.md) funzionalità. Se un utente si autentica nel mezzo di una visita, la prima parte della visita viene associata a un ID visitatore diverso rispetto all’ultima parte della visita. Gli ID visitatore separati generano un’inflazione di visite e visitatori. CDA riafferma i dati storici in modo che gli hit non autenticati appartengano alla persona corretta.
 
 ## Posso effettuare l’aggiornamento dall’ID visitatore personalizzato a CDA?
 
@@ -104,25 +104,25 @@ CDA richiama gli elementi dimensionali della variabile di identificazione prima 
 
 ## Quante suite di rapporti della mia azienda possono essere abilitate per CDA?
 
-A partire dal 1° maggio 2022, qualsiasi nuova implementazione di CDA sarà limitata a un massimo di tre ID suite di rapporti (RSID) per cliente. CDA non unisce le suite di rapporti. Ogni suite di rapporti abilitata per CDA deve essere di natura multi-dispositivo (contenente dati provenienti da più superfici come web per desktop, web per dispositivi mobili, app per dispositivi mobili, ecc.).
+A decorrere dal 1° maggio 2022, qualsiasi nuova implementazione di CDA sarà limitata a un massimo di tre ID di suite di rapporti (RSID) per cliente. CDA non unisce le suite di rapporti. Ogni suite di rapporti abilitata per CDA deve essere di natura multi-dispositivo (contenente dati provenienti da più superfici come web per desktop, web per dispositivi mobili, app per dispositivi mobili, ecc.).
 
-## Se la mia organizzazione Experience Cloud (anche nota come organizzazione IMS) ha più aziende in diverse regioni, posso abilitare CDA per tutte?
+## Se il mio ID organizzazione ha più aziende in diverse aree geografiche, posso abilitare CDA per tutte?
 
-No. Per la stessa organizzazione, solo una regione può avere CDA abilitato.
+No. Per lo stesso ID organizzazione, solo una regione può avere CDA abilitato.
 
 ## Quali sono i vantaggi e gli svantaggi di una riproduzione di 7 giorni rispetto a una riproduzione di 1 giorno?
 
-Il vantaggio dell’intervallo di lookback di 7 giorni è che CDA è in grado di tornare indietro nel tempo per cercare di associare eventi precedentemente anonimi a una persona che successivamente ha effettuato l’accesso in quei 7 giorni. Gli svantaggi dell’intervallo di lookback di 7 giorni sono 1) la riproduzione viene eseguita una sola volta alla settimana e 2) i più recenti 7 giorni sono soggetti a modifiche.
+The advantage of the 7-day replay lookback window is that CDA is able to go back further in time to try to associate previously anonymous events with some person who later logged in within those 7 days. Gli svantaggi dell’intervallo di lookback di 7 giorni sono 1) la riproduzione viene eseguita una sola volta alla settimana e 2) i più recenti 7 giorni sono soggetti a modifiche.
 
 I vantaggi dell&#39;utilizzo dell&#39;intervallo di lookback a 1 giorno sono 1) la riproduzione viene eseguita ogni giorno e 2) solo ieri è soggetto a modifiche. Lo svantaggio dell’intervallo di lookback di 1 giorno è che CDA è in grado di tornare indietro solo 1 giorno per cercare di associare eventi precedentemente anonimi a una persona che ha effettuato l’accesso ieri.
 
 ## Cosa succede ai dati uniti nelle suite di rapporti virtuali CDA se la mia azienda decide di eseguire il downgrade da Analytics Ultimate?
 
-Se un cliente effettua un downgrade da Ultimate, non avrà più accesso ai dati uniti. Tutti i dati uniti in precedenza verranno rimossi. Ciò significa che le suite di rapporti virtuali CDA ora non riflettono alcuna unione tra dispositivi. I dati saranno simili alla suite di rapporti non uniti originale.
+Se un cliente effettua un downgrade da Ultimate, non avrà più accesso ai dati uniti. All previously stitched data will be removed. Ciò significa che le suite di rapporti virtuali CDA ora non riflettono alcuna unione tra dispositivi. Data will look similar to the original unstitched report suite.
 
-## Perché il numero totale di hit è diverso tra la suite di rapporti sorgente e la suite di rapporti virtuale CDA?
+## Why is the total number of hits different between my source report suite and CDA virtual report suite?
 
-CDA utilizza una pipeline di elaborazione parallela complessa, con più componenti dipendenti. È prevista una mancata corrispondenza dei dati di circa l’1% per il numero totale di hit tra la suite di rapporti originale e la suite di rapporti virtuale CDA.
+CDA utilizza una pipeline di elaborazione parallela complessa, con più componenti dipendenti. A data mismatch of approximately 1% for the total number of hits between the original report suite and the CDA virtual report suite is expected.
 
 ## Perché la metrica &quot;Persone identificate&quot; è gonfiata?
 

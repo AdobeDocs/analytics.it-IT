@@ -4,10 +4,10 @@ solution: Analytics
 title: Panoramica sull’inoltro lato server
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ Nella scheda “Response” (Risposta), verifica che la risposta contenga dati d
 
       1. Rimuovi il codice DIL e installa il codice della pagina del [modulo Audience Management](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it).
       1. Abilita l’inoltro lato server nell’interfaccia utente di amministrazione di Analytics, come indicato al passaggio 3. Se abiliti l’impostazione prima di rimuovere il codice DIL, i dati verranno duplicati e verranno create chiamate server fatturate aggiuntive per Audience Manager.
-   * **Nuovi clienti AAM**: installa il codice della pagina del [modulo Audience Management](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it) e procedi al passaggio 3. I dati verranno inviati ad Audience Manager solo dopo l’attivazione dell’inoltro lato server al passaggio 3.
+   * **Nuovi clienti AAM**: installa il codice della pagina del [modulo Audience Management](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) e procedi al passaggio 3. I dati verranno inviati ad Audience Manager solo dopo l’attivazione dell’inoltro lato server al passaggio 3.
 
 
 ## ![immagine step3_icon.png](assets/step3_icon.png) Verificare l’implementazione lato server della suite di rapporti
@@ -64,7 +64,7 @@ L’inoltro lato server a livello della suite di rapporti è consigliato rispett
 
 Vai a **Analytics** > **Admin** > **Report Suites** > (seleziona una **suite di rapporti**) > **Edit Settings** > **General** > **Server Side Forwardin** (Modifica impostazioni > Generale > Inoltro lato server). Se la casella di controllo è:
 
-* **Inattiva** (non disponibile o non selezionabile): non hai eseguito la mappatura delle suite di rapporti selezionate su un’organizzazione IMS. Contatta l’Assistenza clienti per assicurarti che la mappatura della suite di rapporti sia corretta.
+* **Inattivo** (Impossibile effettuare una selezione o il menu non esiste): le suite di rapporti selezionate non sono mappate su un ID organizzazione. Contatta l’Assistenza clienti per assicurarti che la suite di rapporti sia mappata correttamente.
 * **Disabilitata**: non hai attivato la nuova funzione di inoltro lato server. Leggi il contenuto della pagina, quindi procedi all’abilitazione della funzione.
 * **Abilitata**: è stato effettuato il provisioning per la nuova funzione di inoltro lato server. Puoi anche configurare questa integrazione di Audience Analytics.
 

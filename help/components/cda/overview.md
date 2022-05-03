@@ -2,7 +2,7 @@
 title: Analytics tra dispositivi
 description: Modifica i dati da incentrati sul dispositivo a quelli incentrati sulla persona combinando i dati del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 47824be19d3cc25b3120ce9aed6938f69fe0e096
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 17%
@@ -35,20 +35,20 @@ In uno spirito di collaborazione e trasparenza, vogliamo che i nostri clienti si
 
 Consulta la sezione [IQ percorso: Pagina di Spark di Analytics tra dispositivi](https://adobe.ly/aacda) per ulteriori informazioni sulle funzionalità di Cross-Device Analytics.
 
-## Prerequisiti
+## Prerequisiti 
 
 L’utilizzo di CDA richiede tutti i seguenti elementi. [Unione basata sui campi](field-based-stitching.md) e [Grafico dei dispositivi](device-graph.md) i metodi hanno anche dei prerequisiti specifici.
 
 * È necessario firmare un contratto con un Adobe che includa Adobe Analytics Ultimate.
 * Analisi multidispositivo è abilitata per ogni suite di rapporti. Adobe consiglia una suite di rapporti che contiene dati multi-dispositivo, ovvero dati provenienti da più tipi di dispositivi (web, app, ecc.). Alcune organizzazioni fanno riferimento a questo concetto come a una suite di rapporti &quot;globale&quot;, anche se CDA non deve necessariamente essere globale da un punto di vista geografico.
 
-## Limitazioni 
+## Limitazioni
 
 Analisi multidispositivo è una funzione innovativa e affidabile, ma presenta limitazioni nel modo in cui può essere utilizzata. [Unione basata sui campi](field-based-stitching.md) e [Grafico dei dispositivi](device-graph.md) i metodi hanno anche le proprie limitazioni specifiche.
 
 * CDA è disponibile solo tramite Analysis Workspace.
 * Cross-Device Analytics non funziona tra suite di rapporti, né combina dati provenienti da più suite di rapporti.
-* Le suite di rapporti di Adobe Analytics non possono essere mappate su più di un’organizzazione IMS. Poiché CDA unisce i dispositivi all’interno di una determinata suite di rapporti, non può essere utilizzato CDA per unire i dati tra più organizzazioni IMS.
+* Le suite di rapporti di Adobe Analytics non possono essere mappate su più di un ID organizzazione. Poiché CDA unisce i dispositivi all’interno di una determinata suite di rapporti, non può essere utilizzato per unire i dati tra più ID organizzazione.
 * CDA utilizza una pipeline di elaborazione complessa, con più componenti dipendenti. Questo viene eseguito in parallelo con il flusso di lavoro di base di reporting di Analytics. Pertanto, è prevista una mancata corrispondenza dei dati di circa l’1% per il numero totale di hit tra la suite di rapporti originale e la suite di rapporti virtuale CDA.
 * Cross-Device Analytics utilizza una suite di rapporti virtuali ed elaborazione dei tempi di report, con le proprie limitazioni. Ad esempio, al momento non supportano le variabili Marketing Channels . Vedi [Suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it) e [Elaborazione dell&#39;ora rapporto](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en#report-time-processing-limitations) per ulteriori informazioni su queste limitazioni.
 * Private Graph sfrutta le stesse sincronizzazioni ID utilizzate dal [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes) funzionalità trovata in Experience Cloud e Adobe Analytics. Tuttavia, le suite di rapporti virtuali CDA (basate su grafico privato o unione basata su campi) non sono compatibili con il resto della funzionalità Attributi del cliente. In altre parole, le dimensioni basate su Attributi del cliente non sono disponibili per l&#39;uso con le suite di rapporti virtuali CDA.
