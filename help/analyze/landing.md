@@ -4,28 +4,20 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 97396b20aec5864f70a14d969c7b87244ff84ae0
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
-source-wordcount: '3456'
+source-wordcount: '3405'
 ht-degree: 85%
 
 ---
 
 # Pagina di destinazione di Adobe Analytics
 
-La pagina di destinazione di Adobe Analytics riunisce entrambi [!DNL Analysis Workspace] e [!DNL Reports & Analytics] in un&#39;unica interfaccia e punto di accesso [!DNL Workspace] ombrello. Sono disponibili una pagina Home per project manager, un menu aggiornato per i rapporti, che hanno ora un design più attuale, nonché una sezione di apprendimento per aiutarti a iniziare in modo più efficace.
-
->[!IMPORTANT]
->
->La pagina di destinazione è attualmente in Open Beta. È comunque facoltativa. Puoi utilizzare la pagina di destinazione esistente, anche questa [!UICONTROL Workspace] o [!UICONTROL Reports]. Se decidi di partecipare al programma beta, accedi alla pagina e fai clic su **[!UICONTROL Provide feedback]**, nella parte superiore dello schermo per fornire i tuoi feedback e registrare eventuali bug riscontrati. In qualsiasi momento puoi rinunciare o accedere nuovamente al programma beta. Qualsiasi lavoro svolto nell’interfaccia utente beta viene trasferito nella [!UICONTROL Workspace] esperienza.
+La pagina di destinazione di Adobe Analytics riunisce entrambi [!DNL Analysis Workspace] e [!DNL Reports & Analytics] in un&#39;unica interfaccia e punto di accesso [!DNL Workspace] ombrello. Sono disponibili una pagina Home per project manager, un menu aggiornato per i rapporti, che hanno ora un design più attuale, nonché una sezione di apprendimento per aiutarti a iniziare in modo più efficace. Panoramica video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## Nuove funzioni della pagina di destinazione
-
->[!NOTE]
->
->Queste aggiunte e modifiche sono attualmente [in prove limitate](/help/release-notes/releases.md).
+## Nuove funzioni della pagina di destinazione {#new-features}
 
 | Funzione | Descrizione | Schermata |
 | --- | --- | --- |
@@ -47,7 +39,7 @@ Dopo aver effettuato l’accesso ad Adobe Experience Cloud e Analytics, attiva i
 
 ![Destinazione](assets/landing.png)
 
-## Struttura del menu
+## Struttura del menu principale {#top-menu}
 
 ![Menu superiore](assets/top-menus.png)
 
@@ -112,7 +104,7 @@ La scheda [!UICONTROL Reports] consolida tre set di rapporti:
 
 Come già accennato, qui sono disponibili solo i rapporti più utilizzati tra quelli che erano precedentemente raggruppati in Reports &amp; Analytics. Non è stata effettuata la migrazione di alcuni rapporti raramente utilizzati o non più rilevanti. Per maggiori informazioni, consulta le domande frequenti riportate di seguito.
 
-### Menu e sottomenu
+### Menu e sottomenu {#menus}
 
 Ecco i menu e i relativi sottomenu. Se non riesci a trovare un rapporto specifico, usa la funzione di ricerca sulla pagina per trovarlo.
 
@@ -125,7 +117,7 @@ Ecco i menu e i relativi sottomenu. Se non riesci a trovare un rapporto specific
 | **[!UICONTROL Acquisition]** | <ul><li>Canali marketing > Canale primo contatto, Dettaglio canale primo contatto (quale canale di primo contatto e quale canale di primo contatto specifico offre le prestazioni migliori?)</li><li>Canali marketing > Primo ultimo canale, Dettaglio primo ultimo canale (quale canale di ultimo contatto e quale canale di ultimo contatto specifico ha prestazioni migliori?)</li><li>Campagne > Campagne (quali campagne sono più determinanti per le metriche chiave?)</li><li>Campagne > Prestazione campagna (quali campagne generano maggior fatturato?)</li><li>Campagne > Codice di tracciamento (quali codici di tracciamento delle campagne hanno le migliori prestazioni?)</li><li>[Acquisizione web](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#web)</li><li>[Acquisizione mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics: ricerca a pagamento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#advertising)</li><li>Parole chiave di ricerca - tutto, a pagamento, naturale (quali parole chiave di ricerca e parole chiave di ricerca a pagamento/naturale sono più determinanti per le metriche chiave?)</li><li>Motori di ricerca - tutti, a pagamento, naturali (quali motori di ricerca e motori di ricerca a pagamento/naturali sono più determinanti per le metriche chiave?)</li><li>Classificazione di tutte le pagine di ricerca (da quale pagina di ricerca arrivano gli utenti?)</li><li>Domini di riferimento (quali domini indirizzano il traffico al sito?)</li><li>Domini di riferimento originali (qual era il primo dominio in cui si trovavano gli utenti prima di visitare il sito?)</li><li>Riferimenti (su quali URL si trovavano gli utenti prima di fare clic e arrivare al mio sito?)</li><li>Tipi di riferimento (a quale categoria appartengono gli URL di riferimento?)</li></ul> |
 | **[!UICONTROL Company reports]** | Rapporti creati dalla tua azienda per il tuo utilizzo. Consulta “Creare una relazione sulla società” di seguito. |
 
-### Posizione dei modelli (ora denominati rapporti)
+### Posizione dei modelli (ora denominati rapporti) {#templates}
 
 | Nome del rapporto (modello) | Posizione del rapporto |
 | --- | --- |
@@ -152,7 +144,7 @@ Ecco i menu e i relativi sottomenu. Se non riesci a trovare un rapporto specific
 | Acquisizione web | Acquisizione > Acquisizione web |
 | Advertising Analytics: ricerca a pagamento | Acquisizione > Advertising Analytics: ricerca a pagamento |
 
-### Utilizzare la scheda Rapporti
+### Utilizzare la scheda Rapporti {#use-reports}
 
 Questa breve introduzione spiega come utilizzare in Workspace i rapporti che si utilizzavano in Reports &amp; Analytics. I rapporti si comportano come i modelli: se si apportano modifiche, viene richiesto di salvarle o eliminarle quando si esce o si passa a un altro rapporto. Quando si salvano le modifiche, il rapporto viene salvato come un nuovo progetto.
 
@@ -170,7 +162,7 @@ Questa breve introduzione spiega come utilizzare in Workspace i rapporti che si 
    * Puoi modificare l’intervallo di date dal calendario in alto a destra.
    * Puoi aggiungere suddivisioni dimensionali, trascinare altre metriche e in genere personalizzare il rapporto come preferisci.
 
-### Creare un rapporto aziendale (personalizzato)
+### Creare un rapporto aziendale (personalizzato) {#company-report}
 
 I rapporti personalizzati si chiamano Rapporti aziendali e si trovano nel menu Rapporti aziendali (vedi sotto). Qui vengono elencati tutti quelli nuovi e quelli già creati in precedenza.
 
@@ -199,6 +191,22 @@ La pagina Apprendimento contiene tutorial e presentazioni video pratiche, nonch�
 * La presentazione [!UICONTROL Workspace Fundamentals] porta direttamente a Workspace, descrive il layout di Workspace e mostra dove si possono trovare ed eseguire le azioni più comuni. Questa presentazione può essere riavviata in qualsiasi momento direttamente in Workspace tramite la descrizione a comparsa accessibile dall’intestazione del pannello.
 * Quando si fa clic su un video o una presentazione, viene aggiunto un tag **[!UICONTROL Viewed]**. Questo tag consente di tenere traccia dei contenuti di apprendimento già visualizzati. Se non hai ancora completato il contenuto, puoi fare clic sul tag per rimuoverlo.
 * Il pulsante **[!UICONTROL Learn more]** nella finestra modale del video apre una pagina della documentazione Adobe Experience League in cui puoi trovare ulteriori contenuti relativi al video appena guardato. **[!UICONTROL View more videos]** consente di accedere alla playlist YouTube completa su Analysis Workspace.
+
+## Imposta la pagina di destinazione {#set-landing}
+
+Gli utenti possono impostare la pagina di destinazione preferita.
+
+1. Vai a Analytics > [!UICONTROL Components] > [!UICONTROL Preferences] > [!UICONTROL General].
+1. Seleziona la pagina di destinazione preferita:
+
+   ![Imposta pagina di destinazione](assets/landing-pref.png)
+
+## Nascondi scheda Rapporto {#hide-reports}
+
+Gli amministratori possono nascondere la scheda Rapporti per tutti gli utenti all’interno della propria organizzazione.
+
+1. Vai a [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Preferences] > [!UICONTROL Company].
+1. Controlla **[!UICONTROL Hide Reports Tab]**.
 
 ## Domande frequenti sulla pagina di destinazione {#landing-faq}
 
