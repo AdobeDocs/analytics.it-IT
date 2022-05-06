@@ -1,16 +1,16 @@
 ---
 description: Visualizza il traffico della pagina web e classifica le visualizzazioni di pagina in tempo reale. Fornisce dati utilizzabili su cui basare le tue decisioni aziendali.
-title: Rapporti in tempo reale in Adobe Analytics
+title: Rapporti in tempo reale
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: f0d2508b64b835a030258c7437c10b7c8654b5ed
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 16%
+source-wordcount: '566'
+ht-degree: 17%
 
 ---
 
-# Rapporti in tempo reale in Adobe Analytics
+# Rapporti in tempo reale
 
 Visualizza il traffico della pagina web e classifica le visualizzazioni di pagina in tempo reale. Fornisce dati utilizzabili su cui basare le tue decisioni aziendali.
 

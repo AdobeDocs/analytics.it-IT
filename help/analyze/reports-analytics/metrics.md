@@ -4,14 +4,14 @@ title: Panoramica delle metriche
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: f0d2508b64b835a030258c7437c10b7c8654b5ed
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 15%
+source-wordcount: '314'
+ht-degree: 14%
 
 ---
 
-# Panoramica delle metriche
+# Panoramica sulle metriche di Reports &amp; Analytics
 
 Le metriche sono alla base dei rapporti e consentono di visualizzare e comprendere le relazioni tra i dati e di abilitare confronti affiancati di diversi set di dati sul sito web. Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via.
 
