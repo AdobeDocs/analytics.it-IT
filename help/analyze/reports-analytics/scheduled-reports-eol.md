@@ -1,36 +1,36 @@
 ---
-title: End-of-life notice for scheduled reports
-description: Adobe intends to pause all scheduled reports that have a creation date greater than two years.
+title: Avviso di fine del ciclo di vita per i rapporti pianificati
+description: Adobe intende mettere in pausa tutti i rapporti pianificati con una data di creazione superiore a due anni.
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 35e5f056f962066a068ca1f0247c5b550efc2edc
+source-git-commit: 3a307eefec4f9e6559c5109819ef55b200852b3b
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# End-of-life notice for scheduled reports
+# Avviso di fine del ciclo di vita per i rapporti pianificati
 
-**** No reports or data were deleted. Only reports identified as older than two years were paused, and no additional scheduled reports can be sent.
+Efficace **21 aprile 2022**, ad Adobe tutti i rapporti pianificati con una data di creazione maggiore di due anni (tutte le attività create prima del 31 gennaio 2020). Nessun rapporto o dato eliminato. Solo i rapporti identificati come più vecchi di due anni sono stati messi in pausa e non è possibile inviare altri rapporti pianificati.
 
-[!UICONTROL Scheduled Reports] [!UICONTROL Edit] Any report that gets reactivated will have a default expiration of 9 months, unless a shorter expiration date is chosen.
+Qualsiasi rapporto pianificato ancora da inviare può essere riattivato semplicemente accedendo ad Analytics e aprendo la [!UICONTROL Scheduled Reports] responsabile. Fai clic sul pulsante [!UICONTROL Edit] e imposta una nuova ora e scadenza pianificate. Qualsiasi rapporto che viene riattivato avrà una scadenza predefinita di 9 mesi, a meno che non venga selezionata una data di scadenza più breve.
 
-Any report with a creation date less than two years with no expiration date (or with an expiration date longer than two years) will have a default 9-month expiration date applied. The new expiration date will be December 15, 2022. You can edit this expiration date to be less than 9 months, but not greater.
+Per qualsiasi rapporto con una data di creazione inferiore a due anni senza data di scadenza (o con una data di scadenza superiore a due anni) verrà applicata una data di scadenza predefinita di 9 mesi. La nuova data di scadenza sarà il 15 dicembre 2022. Puoi modificare questa data di scadenza impostandola su inferiore a 9 mesi, ma non su maggiore.
 
-Finally, any edits to an existing scheduled report with no expiration date require an expiration date of 9 months or less. Otherwise, you cannot save any edits or changes to the report.
+Infine, qualsiasi modifica apportata a un rapporto pianificato esistente senza data di scadenza richiede una data di scadenza pari o inferiore a 9 mesi. In caso contrario, non è possibile salvare modifiche o modifiche al rapporto.
 
-At the time of expiration, the scheduled report will be paused. However, the report can be reactivated with a new 9-month expiration date. Nessun rapporto o dato verrà eliminato.
+Al momento della scadenza, il rapporto pianificato verrà messo in pausa. Tuttavia, il rapporto può essere riattivato con una nuova data di scadenza di 9 mesi. Nessun rapporto o dato verrà eliminato.
 
-## New governance policy
+## Nuova politica di governance
 
-The purpose of this action is to effectively manage and maintain our scheduled reports as we prepare for the previously announced end-of-life for Reports &amp; Analytics. This will serve as our new governance policy moving forward:
+Questa azione ha lo scopo di gestire e mantenere in modo efficace i nostri rapporti pianificati in preparazione della fine del ciclo di vita di Reports &amp; Analytics, precedentemente annunciata. Questo servirà da guida per la nostra nuova politica di governance:
 
-* No new scheduled reports can be created after April 21, 2022.
-* After April 21, 2022, all scheduled reports have a maximum expiration date of 9 months.
-* After 9 months, expired tasks are paused and can be reactivated, if still needed, until December 31, 2023.
-* On December 31, 2023, Reports &amp; Analytics will be deprecated.
-* You can no longer set up new Data Extracts. Existing ones will continue to run, but no new ones can be scheduled.
+* Dopo il 21 aprile 2022 non sarà più possibile creare nuovi rapporti pianificati.
+* Dopo il 21 aprile 2022, tutti i rapporti pianificati hanno una data massima di scadenza di 9 mesi.
+* Dopo 9 mesi, le attività scadute vengono messe in pausa e possono essere riattivate, se necessario, fino al 31 dicembre 2023.
+* Il 31 dicembre 2023 Reports &amp; Analytics diventerà obsoleto.
+* A partire dal 21 aprile 2022 non sarà più possibile impostare nuovi estratti dati. Le versioni esistenti continueranno a essere eseguite, ma non è possibile pianificarne di nuove.
 
-For additional questions or support, please reach out to Adobe Customer Care.
+Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
