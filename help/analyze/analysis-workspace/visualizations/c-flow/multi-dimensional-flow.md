@@ -5,7 +5,7 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 96%
@@ -14,9 +14,7 @@ ht-degree: 96%
 
 # Flussi interdimensionali
 
-Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni.
-
-Ecco un video sul ritorno a capo automatico e sul flusso multidimensionale in Analysis Workspace:
+Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni. Ecco un video sul ritorno a capo automatico e sul flusso multidimensionale in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -26,7 +24,7 @@ Un’etichetta di dimensione all’inizio di ogni colonna Flusso facilita l’ut
 
 Verranno esaminati due casi di utilizzo: per un’app e per un sito Web.
 
-## Caso di utilizzo 1: app {#section_3D31D37B9C9F4134AE46C96291E41294}
+## Caso di utilizzo 1: app {#app}
 
 La dimensione [!UICONTROL Action Name] (Nome azione) è stata aggiunta al flusso, e il primo elemento restituito è [!UICONTROL ItemAdded]:
 
@@ -56,7 +54,7 @@ Quando si aggiunge un’altra dimensione Nome azione alla fine della visualizzaz
 
 Questo ti permette di ottenere informazioni approfondite e di apportare eventuali modifiche all’app che stai analizzando.
 
-## Caso di utilizzo 2: web {#section_8D55983FA0C84926995270052AE01CD8}
+## Caso di utilizzo 2: web {#web}
 
 Questo caso di utilizzo mostra come individuare le campagne che generano il maggior numero di accessi al sito Web.
 

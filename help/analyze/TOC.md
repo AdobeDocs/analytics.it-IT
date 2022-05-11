@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: e865cd474b5b4a3251ed6e7cf6dae1f604f5a9c8
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 96%
+source-wordcount: '1051'
+ht-degree: 97%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 96%
       + Flusso {#flow}
          + [Panoramica del flusso](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurare una visualizzazione di flusso](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [Nuova visualizzazione del flusso (beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Impostazioni del flusso](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Flussi interdimensionali](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Istogramma](analysis-workspace/visualizations/histogram.md)
@@ -94,12 +95,12 @@ ht-degree: 96%
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Pubblico medio per minuto](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Tempo di riproduzione dei contenuti multimediali trascorso {#media-playback-timespent}
-         + [Panoramica](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+      + Tempo trascorso su contenuti multimediali {#media-playback-timespent}
+         + [Panoramica ](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Impostazioni di ingresso e uscita](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Domande frequenti](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [Pannello elemento successivo o precedente](analysis-workspace/c-panels/next-previous.md)
-      + [Pannello di riepilogo delle pagine](analysis-workspace/c-panels/page-summary.md)
+      + [Pannello Riepilogo pagina](analysis-workspace/c-panels/page-summary.md)
       + [Pannello Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Pannello Segment comparison {#segment-comparison}
          + [Panoramica sul confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)

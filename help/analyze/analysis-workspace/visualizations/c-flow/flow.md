@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 96%
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ Ecco un’esercitazione video sulla visualizzazione del flusso:
 
 ## Flussi interdimensionali {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-Ora puoi visualizzare il [flusso tra dimensioni](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Ad esempio, puoi combinare pagine e reparti in un unico diagramma. In questo caso, il flusso potrebbe andare dalla home page alla pagina Uomo e quindi al reparto Scarpe.
+Ora puoi visualizzare il [flusso tra dimensioni](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Ad esempio, puoi combinare pagine e reparti in un unico diagramma. In questo caso, il flusso potrebbe passare dalla home page alla pagina Mens e quindi al reparto Scarpe.
 
 Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione al diagramma, trascinala fino ad una zona di rilascio.
 
