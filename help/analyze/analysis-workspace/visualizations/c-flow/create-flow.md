@@ -3,13 +3,13 @@ description: Utilizza la visualizzazione di flusso in un progetto Workspace.
 title: Configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
-source-git-commit: 141daf54e845970254f478e8c3e95be2239013c5
+exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
+source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 43%
+source-wordcount: '729'
+ht-degree: 40%
 
 ---
-
 
 # Configurare una visualizzazione di flusso
 
@@ -17,13 +17,13 @@ ht-degree: 43%
 >
 >Questa nuova versione del [!UICONTROL Flow] la visualizzazione è attualmente in versione beta privata. Fai riferimento a [questa pagina](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) per la funzionalità corrente.
 
-Flusso consente di tenere traccia dei percorsi esatti che i clienti stanno prendendo attraverso il tuo sito web o la tua app. Traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche. Ogni flusso ha un punto iniziale e un endpoint e una metrica o dimensione (o elemento) che stai tracciando.
+La visualizzazione Flusso aggiornata ti consente di comprendere il percorso che deriva da o precede un evento di conversione specifico sul tuo sito web o sulla tua app. Traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche. Flusso consente di configurare l’inizio o la fine del percorso desiderato o di analizzare tutti i percorsi che passano attraverso una dimensione o un elemento dimensionale.
 
 Il nuovo [!UICONTROL flow] esperienza migliora il flusso di lavoro in diversi modi:
 
-* Consente il tracciamento delle metriche, oltre a dimensioni ed elementi dimensionali.
+* Ora puoi scegliere di iniziare o terminare il percorso con la combinazione di una metrica e una dimensione di percorso.
 * Contiene [!UICONTROL Advanced Settings] per personalizzare ulteriormente [!UICONTROL flow].
-* Ti consente di configurare le [!UICONTROL flow] prima di costruirla.
+* Il nuovo pulsante &quot;Genera&quot; consente di risparmiare tempo nell’analisi consentendo di configurare il percorso in una sola volta, quindi di eseguire una query e quindi di creare automaticamente più colonne e nodi contemporaneamente &#x200B;.
 
 ![nuova interfaccia utente Flusso](assets/new-flow.png)
 
@@ -53,7 +53,7 @@ Il nuovo [!UICONTROL flow] esperienza migliora il flusso di lavoro in diversi mo
    | --- | --- |
    | **[!UICONTROL Include repeat instances]** | Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione offre la possibilità di includere o escludere istanze ripetute, ad esempio i ricaricamenti delle pagine. Tuttavia, le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori, come listVars, listProps, s.product, eVars di merchandising, ecc. Impostazione predefinita = non selezionata. |
    | **[!UICONTROL Wrap labels]** | Di norma, le etichette degli elementi di Flusso vengono troncate per risparmiare spazio sullo schermo, ma selezionando questa casella puoi rendere visibile l’intera etichetta.  Impostazione predefinita = non selezionata. |
-   | **[!UICONTROL Limit to Entries/Exits]** | I risultati sono limitati ai percorsi in cui il primo/ultimo punto di contatto è e in entrata/uscita. |
+   | **[!UICONTROL Limit to first/last occurrence]** | Limita i percorsi a quelli che iniziano/terminano con la prima/ultima occorrenza di una dimensione/elemento/metrica. |
    | **[!UICONTROL Number of Columns]** | Determina il numero di colonne desiderato nel diagramma di flusso. |
    | **[!UICONTROL Items expanded per Column]** | Quanti elementi desideri inserire in ogni colonna. |
    | **[!UICONTROL Flow Container]** | <ul><li>Visita</li><li>Visitatore</li></ul> Consente di passare da Visita a Visitatore per analizzare il percorso dei visitatori. Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello dei singoli visitatori (attraverso più visite) o di limitare l’analisi a una singola visita. |
