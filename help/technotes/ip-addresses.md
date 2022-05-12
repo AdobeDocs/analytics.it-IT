@@ -3,16 +3,16 @@ title: IP e domini utilizzati da Adobe Analytics
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP derivanti dall’Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: e777313f5a46939ef5525205deaffc807f33a894
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '427'
 ht-degree: 3%
 
 ---
 
 # IP e domini utilizzati da Adobe Analytics
 
-Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server o dai server di raccolta dati di Adobe responsabili dell’accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall della tua organizzazione per consentire l’accesso e l’invio di dati dall’interno della tua organizzazione.
+Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server o dai server di raccolta dati di Adobe responsabili dell’accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall della tua organizzazione per consentire l’accesso e l’invio di dati dall’interno della tua organizzazione. Questa pagina include sia i sistemi in entrata (come la raccolta dati) che i sistemi in uscita (come i feed dati) utilizzati da Adobe.
 
 >[!IMPORTANT]
 >
@@ -20,7 +20,7 @@ Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai ser
 
 ## Consenti domini di tecnologia dipendenti
 
-Adobe Analytics utilizza i seguenti host per migliorare le prestazioni e l’esperienza di prodotto. Adobe consiglia di aggiungere questi domini all’elenco Consentiti del firewall, per un’esperienza ottimale tramite Adobe Analytics.
+Adobe Analytics utilizza i seguenti host per migliorare le prestazioni e l’esperienza di prodotto. Adobe consiglia di consentire a questi domini tramite il firewall dell’organizzazione per un’esperienza ottimale tramite Adobe Analytics.
 
 | Tecnologia | Dominio |
 | --- | --- |
