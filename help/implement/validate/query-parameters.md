@@ -3,10 +3,10 @@ title: Parametri query della raccolta dati
 description: Elenca tutti i parametri della stringa di query utilizzati nelle richieste di immagini.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 5%
+source-wordcount: '710'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ Nella tabella seguente sono elencati tutti i parametri della stringa di query ut
 
 | Parametro | Variabile di implementazione di Analytics | Descrizione |
 | --- | --- | --- |
-| `aamlh` | None | Audience Manager di hint di posizione. Utilizzato nell’integrazione del profilo condiviso di Experience Cloud. |
+| `aamlh` | Nessuno | Audience Manager di hint di posizione. Utilizzato nell’integrazione del profilo condiviso di Experience Cloud. |
 | `aamb` | Nessuno | BLOB di Audience Manager. Utilizzato nell’integrazione del profilo condiviso di Experience Cloud. |
 | `aid` | Nessuno | ID visitatore di Analytics. |
 | `AQB` | Nessuno | Indica l&#39;inizio di una stringa di query di richiesta di immagine. |
@@ -55,7 +55,7 @@ Nella tabella seguente sono elencati tutti i parametri della stringa di query ut
 | `p` | Nessuno | Non più utilizzato. Elenco dei plug-in utilizzati nel browser. |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Utilizzato in [Pagina](/help/components/dimensions/page.md) dimensione. |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Utilizzato in [Pagine non trovate](/help/components/dimensions/pages-not-found.md) dimensione. |
-| `pccr` | Nessuno | Impostato solo per i nuovi visitatori e sempre impostato su `true`. Consente di evitare reindirizzamenti infiniti. |
+| `pccr` | Nessuno | Impostato solo per i nuovi visitatori e sempre impostato su `true`. Consente di evitare reindirizzamenti infiniti se un visitatore rifiuta i cookie. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Determina il tipo di collegamento personalizzato. Obbligatorio per [Collegamenti personalizzati](/help/components/dimensions/custom-link.md), [Collegamenti di download](/help/components/dimensions/download-link.md)e [Collegamenti di uscita](/help/components/dimensions/exit-link.md). |
 | `pev1` | Nessuno | URL su cui si è verificato il collegamento personalizzato. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nome descrittivo collegamento personalizzato. |
@@ -77,7 +77,8 @@ Nella tabella seguente sono elencati tutti i parametri della stringa di query ut
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [Codice di tracciamento](/help/components/dimensions/tracking-code.md) dimensione. |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md)o dimensioni di conversione personalizzate. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Variabile ID visitatore. |
+| `vidn` | Nessuno | Impostato da AppMeasurement per i nuovi visitatori. Contiene il valore ID memorizzato nel cookie del visitatore. |
 | `vmk` | `vmk` | Non più utilizzato. Chiave di migrazione dei visitatori, che ha aiutato a migrare le implementazioni dai cookie di terze parti a quelli di prima parte. |
-| `vvp` | `variableProvider` | Utilizzato nei Data Connectors. |
+| `vvp` | `variableProvider` | Utilizzato in Data Connectors. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Utilizzato con Origini dati per collegare dati online e offline. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | Utilizzato in [Codice postale](/help/components/dimensions/zip-code.md) dimensione. |
