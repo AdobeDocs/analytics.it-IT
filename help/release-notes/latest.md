@@ -3,16 +3,20 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 43869c683ca30c94157c6822b53f02a917f6e3ff
+source-git-commit: aa4dc06dc1719f398c29aeca40051d88f339ce42
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 95%
+source-wordcount: '872'
+ht-degree: 88%
 
 ---
 
-# Note sulla versione corrente di Adobe Analytics (aprile 2022)
+# Note sulla versione corrente di Adobe Analytics (maggio 2022)
 
-**Ultimo aggiornamento**: 9 maggio 2022
+**Ultimo aggiornamento**: 11 maggio 2022
+
+>[!NOTE]
+>
+>Questa pagina contiene informazioni precedenti al rilascio ed è soggetta a modifiche.
 
 ## Risorse correlate
 
@@ -25,24 +29,23 @@ ht-degree: 95%
 
 | Funzione | Descrizione | [Data definita](releases.md) |
 | ----------- | ---------- | ------- |
-| Aggiornamenti pagina di destinazione di Adobe Analytics | Aggiornamenti alla pagina di destinazione congiunta Workspace/Reports &amp; Analytics che migliora l’usabilità e la facilità di navigazione. [Ulteriori informazioni](/help/analyze/landing.md) | 20 aprile 2022 |
-| Pannello Workspace [!UICONTROL Next item] o [!UICONTROL Previous item]  | Il panello [!UICONTROL Next or Previous item] consente di esplorare gli elementi che seguono o precedono un elemento dimensionale scelto. Ad esempio, utilizzalo se desideri visualizzare le pagine successive o precedenti in una pagina di prodotto specifica, in un canale di marketing o persino in un tipo di dispositivo. Questo pannello va oltre il reporting legacy precedente/successivo, perché consente di esaminare qualsiasi dimensione e non richiede alcuna nuova implementazione per ottenere informazioni approfondite. [Ulteriori informazioni](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 20 aprile 2022 |
-| Pannello Workspace [!UICONTROL Page Summary]  | Il pannello [!UICONTROL Page Summary] fornisce un’analisi approfondita per una pagina a scelta. Fornisce gli stessi dettagli del rapporto legacy [!UICONTROL Page Summary] di Reports &amp; Analytics e molto altro. [Ulteriori informazioni](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 20 aprile 2022 |
-| Intestazione `x-proxy-global-company-id` non più richiesta per le chiamate API 2.0 | Le API di Adobe Analytics 2.0 non richiedono più l’intestazione `x-proxy-global-company-id`, poiché queste informazioni fanno parte dell’URL dell’endpoint. Puoi comunque includere questa intestazione, ma se manca non riceverai più un messaggio di errore. | 20 aprile 2022 |
+| Nessuna nuova funzionalità questo mese | N/D | N/D |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Correzioni in Adobe Analytics
+### Correzioni in Adobe Analytics
 
-* È stato risolto un problema nel Feed dati a causa del quale le date di inizio e di fine venivano modificate automaticamente dopo il salvataggio del Feed dati durante la creazione dalla relativa interfaccia utente. Le date si stavano aggiornando di un giorno. (AN-281262)
-* È stato risolto un problema che impediva il rinnovo dei progetti pianificati tramite collegamento e-mail. (AN-283622)
-* È stato risolto un problema che impediva la corretta identificazione delle versioni recenti di Apple Safari e Microsoft Edge nella tabella di ricerca del tipo di browser di Adobe. Analogamente a quando [le versioni del browser vengono aggiornate](/help/components/dimensions/browser.md), gli aggiornamenti alle tabelle di ricerca del tipo di browser correggono solo i dati a partire dal momento dell’aggiornamento. Le tabelle di ricerca per la versione del browser sono state aggiornate il 20 aprile; quelle per il tipo di browser sono state aggiornate il 28 aprile. (AN-284872, AN-285753, AN-286257)
+(Correzioni per più clienti)
+
+N/D
 
 ### Ulteriori correzioni in Adobe Analytics
 
-AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761
+(Correzioni per i singoli clienti)
 
-## Avvisi importanti per gli amministratori di Adobe Analytics
+AN-274429; AN-280918; AN-280945; AN-282884; AN-283565; AN-284785; AN-284814; AN-284854; AN-285253; AN-285432; AN-285535; AN-286255; AN-286340; AN-286434; AN-286454; AN-286630; AN-286716; AN-286854; AN-286911
+
+### Avvisi importanti per gli amministratori di Adobe Analytics
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
@@ -58,9 +61,7 @@ AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-
 
 {style=&quot;table-layout:auto&quot;}
 
-## AppMeasurement {#appm}
+### AppMeasurement
 
 Per gli ultimi aggiornamenti sulle versioni di AppMeasurement (versione 2.22.4), fai riferimento alle [note sulla versione di AppMeasurement per JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=it).
 
->[!MORELIKETHIS]
->[[!DNL Customer Journey Analytics] note sulla versione](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it)
