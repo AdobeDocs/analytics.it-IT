@@ -4,9 +4,9 @@ title: Configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
+source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '739'
 ht-degree: 40%
 
 ---
@@ -44,6 +44,10 @@ Il nuovo [!UICONTROL flow] esperienza migliora il flusso di lavoro in diversi mo
 1. Se scegli una metrica, devi anche fornire un [!UICONTROL Pathing Dimension], come mostrato qui, che utilizzerai per creare il percorso. Il valore predefinito è [!UICONTROL Page].
 
    ![dimensione del percorso](assets/pathing-dim.png)
+
+   >[!IMPORTANT]
+   >
+   >Le metriche calcolate non possono essere rilasciate nel  **[!UICONTROL Starts with]** o **[!UICONTROL Ends with]** zone di rilascio.
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Show Advanced Settings]** per configurare le impostazioni avanzate:
 
