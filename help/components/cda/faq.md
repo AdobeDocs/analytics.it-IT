@@ -1,135 +1,135 @@
 ---
 title: Domande frequenti su Analytics tra dispositivi
-description: Domande frequenti su Analytics tra dispositivi
+description: Domande frequenti per Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1930'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # Domande frequenti
 
-## Come posso utilizzare CDA per vedere come le persone si spostano da un tipo di dispositivo all&#39;altro?
+## Come posso usare CDA per vedere come le persone passano da un dispositivo all’altro?
 
-Puoi utilizzare un [!UICONTROL Flow] visualizzazione con la dimensione Tipo di dispositivo mobile.
+Puoi utilizzare una visualizzazione [!UICONTROL Flow] con la dimensione Tipo di dispositivo mobile.
 
 1. Accedi ad Adobe Analytics e crea un nuovo progetto Workspace vuoto.
 2. Fai clic sulla scheda Visualizzazioni a sinistra e trascina una visualizzazione Flusso sull’area di lavoro a destra.
-3. Fai clic sulla scheda Componenti a sinistra e trascina la dimensione &quot;Tipo di dispositivo mobile&quot; nella posizione centrale abilitata &quot;Dimension o elemento&quot;.
+3. Fai clic sulla scheda Componenti a sinistra e trascina la dimensione “Tipo di dispositivo mobile” nella posizione centrale denominata “Dimensione o elemento”.
 4. Questo rapporto di flusso è interattivo. Fai clic su uno dei valori per espandere i flussi alle pagine successive o precedenti. Utilizza il menu di scelta rapida per espandere o comprimere le colonne. Possono essere utilizzate anche dimensioni diverse all’interno dello stesso rapporto di flusso.
 
-## Posso visualizzare il modo in cui le persone si spostano tra diverse esperienze utente (ad esempio, browser desktop e browser mobile rispetto all’app mobile)?
+## Posso vedere in che modo le persone passano da un’esperienza utente a un’altra (ad esempio, al browser desktop al browser mobile o all’app mobile)?
 
-L’esempio di tipo di dispositivo mobile illustrato qui sopra consente di vedere come le persone si spostano tra i tipi di dispositivi mobili e quelli di dispositivi desktop. Tuttavia, non ti consente di distinguere i browser desktop dai browser mobili. Se desideri ottenere questo risultato, puoi creare una variabile personalizzata (ad esempio una proprietà o un eVar) che registra l’esperienza se si verifica su un browser desktop, un browser mobile o un’app mobile. Puoi quindi creare un diagramma di flusso come descritto in precedenza, utilizzando la variabile personalizzata invece della dimensione Tipo di dispositivo mobile. Questo metodo fornisce una visualizzazione leggermente diversa del comportamento tra dispositivi.
+L’esempio per il tipo di dispositivo mobile illustrato qui sopra consente di vedere come le persone passano a tipi di dispositivi mobili e desktop. Tuttavia, non ti consente di distinguere tra browser desktop e browser mobili. Se desideri questa informazione, puoi creare una variabile personalizzata (ad esempio, prop o eVar) che registra se l’esperienza si verifica su un browser desktop, un browser mobile o un’app mobile. Puoi quindi creare un diagramma di flusso come descritto in precedenza, utilizzando la variabile personalizzata invece della dimensione Tipo di dispositivo mobile. Questo metodo fornisce una visualizzazione leggermente diversa del comportamento tra dispositivi diversi.
 
-## Quanto tempo fa CDA unisce i visitatori?
+## Quanto indietro nel tempo va CDA nell’unire i visitatori?
 
 L’unione tra dispositivi di CDA si verifica in due processi simultanei.
 
-* Il primo processo è denominato &quot;live stitching&quot;, che avviene durante lo streaming dei dati in Adobe Analytics. Durante l’unione in tempo reale CDA fa del suo meglio per ripristinare i dati a livello di persona. Tuttavia, se la persona è sconosciuta al momento dell’unione live, CDA ritorna all’ID visitatore per rappresentare la persona.
+* Il primo processo è denominato “live stitching” e avviene durante il flusso dei dati in Adobe Analytics. Durante il live stitching, CDA fa del suo meglio per aggiornare i dati a livello di persona. Ma se la persona è sconosciuta al momento del live stitching, CDA la rappresenta mediante l’ID visitatore.
 
-* Il secondo processo si chiama &quot;replay&quot;. Durante la riproduzione, CDA torna indietro nel tempo e ristabilisce i dati storici, ove possibile, all’interno di un intervallo di lookback specificato. Questo intervallo di lookback è di 1 giorno o 7 giorni, a seconda di come hai richiesto la configurazione di CDA. Durante la riproduzione, CDA tenta di ripristinare i risultati in cui la persona era precedentemente sconosciuta.
+* Il secondo processo è denominato “ripetizione”. Durante la ripetizione, CDA torna indietro nel tempo e aggiorna i dati storici, ove possibile, all’interno di una finestra temporale specificata. Questo finestra temporale può essere di 1 giorno o 7 giorni, a seconda della configurazione di CDA. Durante la ripetizione, CDA tenta di aggiornare i risultati in cui la persona era precedentemente sconosciuta.
 
-* **If using a device graph**, Adobe keeps device mappings in the Co-op Graph and Private Graph for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. I dati già uniti in CDA non vengono interessati, ma gli hit successivi per tale ECID vengono trattati come una nuova persona.
+* **Se utilizzi un grafo di dispositivi**, in Adobe le mappature dei dispositivi vengono mantenute in Co-op Graph e Private Graph per circa 6 mesi. Un ECID che non ha attività per più di sei mesi viene rimosso dal grafo. I dati già uniti in CDA non vengono interessati, ma gli hit successivi per tale ECID vengono trattati come una nuova persona.
 
 ## In che modo CDA gestisce gli hit con marca temporale?
 
-L’Adobe tratta gli hit con marca temporale come se fossero stati ricevuti al momento della marca temporale, non quando Adobe ha ricevuto l’hit. Gli hit con marca temporale superiore a 1 mese non vengono mai uniti in quanto non rientrano nell’intervallo utilizzato dall’Adobe per le unioni.
+Adobe tratta gli hit con marca temporale come se fossero stati ricevuti al momento della marca temporale, non quando Adobe ha ricevuto l’hit. Gli hit con marca temporale superiore a 1 mese non vengono mai uniti in quanto non rientrano nell’intervallo utilizzato da Adobe per le unioni.
 
-## Come si confronta CDA con gli ID visitatore personalizzati?
+## Come si comporta CDA con gli ID visitatore personalizzati?
 
-L&#39;utilizzo di un ID visitatore personalizzato è un metodo legacy per [connettere utenti tra dispositivi](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con un ID visitatore personalizzato utilizzi la funzione [`visitorID`](/help/implement/vars/config-vars/visitorid.md) per impostare esplicitamente l’ID utilizzato per la logica del visitatore. The `visitorID` variable overrides any cookie-based IDs that are present.
+L’utilizzo di un ID visitatore personalizzato è un metodo legacy per [collegare gli utenti a dispositivi diversi](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con un ID visitatore personalizzato, utilizzi la variabile [`visitorID`](/help/implement/vars/config-vars/visitorid.md) per impostare esplicitamente l’ID utilizzato per la logica del visitatore. La variabile `visitorID` sostituisce gli ID presenti basati su cookie.
 
-Custom visitor IDs have several undesirable side effects that CDA overcomes or minimizes. Ad esempio, la metodologia ID visitatore personalizzato non ha [ripetizione](replay.md) funzionalità. Se un utente si autentica nel mezzo di una visita, la prima parte della visita viene associata a un ID visitatore diverso rispetto all’ultima parte della visita. Gli ID visitatore separati generano un’inflazione di visite e visitatori. CDA riafferma i dati storici in modo che gli hit non autenticati appartengano alla persona corretta.
+Gli ID visitatore personalizzati hanno diversi effetti collaterali indesiderati che CDA supera o riduce al minimo. Ad esempio, la metodologia dell’ID visitatore personalizzato non ha la funzionalità di [ripetizione](replay.md). Se un utente si autentica nel mezzo di una visita, la prima parte della visita viene associata a un ID visitatore diverso rispetto all’ultima parte della visita. Gli ID visitatore separati generano un’inflazione di visite e visitatori. CDA aggiorna i dati storici in modo che gli hit non autenticati appartengano alla persona corretta.
 
 ## Posso effettuare l’aggiornamento dall’ID visitatore personalizzato a CDA?
 
-I clienti che utilizzano già un ID visitatore personalizzato possono effettuare l’aggiornamento a CDA senza alcuna modifica all’implementazione. La `visitorID` viene ancora utilizzata nella suite di rapporti sorgente. Tuttavia, CDA ignora il `visitorID` nella suite di rapporti virtuali se un utente si autentica.
+I clienti che già utilizzano un ID visitatore personalizzato possono effettuare l’aggiornamento a CDA senza apportare alcuna modifica all’implementazione. La variabile `visitorID` viene ancora utilizzata nella suite di rapporti sorgente. Tuttavia, CDA ignora la variabile `visitorID` nella suite di rapporti virtuali se un utente si autentica.
 
-## In che modo il grafico del dispositivo gestisce i dispositivi condivisi?
+## In che modo il grafo di dispositivi gestisce i dispositivi condivisi?
 
 In alcune situazioni è possibile che più persone accedano dallo stesso dispositivo. Ad esempio, un dispositivo condiviso da casa, PC condivisi in una libreria o un chiosco in un punto vendita.
 
-* **Se utilizzi un grafico dei dispositivi**, la capacità di gestire dispositivi condivisi è limitata. Il grafico dei dispositivi utilizza un algoritmo per determinare la proprietà di un &quot;cluster&quot; e può cambiare ogni volta che il cluster viene pubblicato. Gli utenti del dispositivo condiviso sono soggetti al cluster a cui appartengono.
-* **Se si utilizza l’unione basata sui campi**, la proprietà o l’eVar scelto per aiutare a identificare gli utenti connessi sostituisce altri identificatori. I dispositivi condivisi sono considerati persone separate, anche se provengono dallo stesso dispositivo.
+* **Se utilizzi un grafo di dispositivi**, la capacità di gestire dispositivi condivisi è limitata. Il grafo di dispositivi utilizza un algoritmo per determinare a chi appartiene un “cluster” e può cambiare ogni volta che il cluster viene pubblicato. Gli utenti del dispositivo condiviso dipendono dal cluster a cui appartengono.
+* **Se utilizzi l’unione basata sui campi**, la variabile prop o eVar scelta per identificare gli utenti connessi prevale sugli altri identificatori. I dispositivi condivisi sono considerati persone distinte, anche se provengono dallo stesso dispositivo.
 
-## In che modo CDA gestisce le situazioni in cui una singola persona dispone di MOLTI dispositivi/ECID?
+## In che modo CDA gestisce le situazioni in cui una singola persona dispone di MOLTI dispositivi o ECID?
 
-In alcune situazioni, un singolo utente può associarsi a un numero elevato di ECID. Questo può verificarsi se l&#39;individuo utilizza molti browser o app, e può essere esacerbato se cancella frequentemente i cookie o utilizzano la modalità di navigazione privata o in incognito del browser.
+In alcune situazioni, un singolo utente può essere associato a un numero elevato di ECID. Questo può verificarsi se il singolo utente utilizza molti browser o app e può aggravarsi se cancella frequentemente i cookie o utilizza la modalità di navigazione privata o in incognito del browser.
 
-* **Se utilizzi un grafico dei dispositivi**, CDA limita a 50 il numero di ECID che si collega a un determinato ID utente. Se un ID utente viene associato a un numero eccessivo di ECID, il grafico del dispositivo presuppone che l&#39;ID utente non sia valido e rimuove il cluster associato a tale ID utente. L’ID utente viene quindi aggiunto a un inserire nell&#39;elenco Bloccati per impedirne l’aggiunta a eventuali cluster in futuro. Il risultato nel reporting è che l’ID utente non è vincolato a diversi dispositivi.
-* **Se si utilizza l’unione basata sui campi**, il numero di dispositivi è irrilevante a favore del prop/eVar scelto per aiutare a identificare gli utenti connessi. Un singolo utente può appartenere a qualsiasi numero di dispositivi senza influire sulla capacità di CDA di eseguire unioni tra dispositivi.
+* **Se utilizzi un grafo di dispositivi**, CDA limita a 50 il numero di ECID associati a un determinato ID utente. Se un ID utente è associato a un numero eccessivo di ECID, il grafo dei dispositivi presuppone che l’ID utente non sia valido e rimuove il cluster associato a tale ID utente. L’ID utente viene quindi inserito in un elenco di valori bloccati per impedire che in futuro venga aggiunto a eventuali cluster. Pertanto, nei rapporti l’ID utente non verrà unito per diversi dispositivi.
+* **Se utilizzi l’unione basata sui campi**, il numero di dispositivi è irrilevante a favore della variabile prop o eVar scelta per identificare gli utenti connessi. Un singolo utente può appartenere a un numero qualsiasi di dispositivi senza influire sulla capacità di CDA di eseguire unioni tra dispositivi diversi.
 
-## Qual è la differenza tra la metrica Persone in CDA e la metrica Visitatori unici al di fuori di CDA?
+## Qual è la differenza tra la metrica Persone in CDA e la metrica Visitatori univoci al di fuori di CDA?
 
-Entrambi [Persone](/help/components/metrics/people.md) e [Visitatori unici](/help/components/metrics/unique-visitors.md) Le metriche hanno lo scopo di contare visitatori distinti (singoli utenti). Tuttavia, considerare la possibilità che 2 dispositivi diversi possano appartenere alla stessa persona. CDA mappa i 2 dispositivi alla stessa persona, mentre i 2 dispositivi sono registrati come 2 &quot;Visitatori unici&quot; separati al di fuori di CDA.
+Entrambe le metriche [Persone](/help/components/metrics/people.md) e [Visitatori univoci](/help/components/metrics/unique-visitors.md) hanno lo scopo di contare i visitatori distinti (i singoli utenti). Considera comunque la possibilità che 2 dispositivi diversi possano appartenere alla stessa persona. CDA mappa i 2 dispositivi sulla stessa persona, mentre i 2 dispositivi sono registrati come 2 “Visitatori univoci” distinti al di fuori di CDA.
 
-## Qual è la differenza tra la metrica &quot;Dispositivi unici&quot; in CDA e la metrica &quot;Visitatori unici&quot; al di fuori di CDA?
+## Qual è la differenza tra la metrica “Dispositivi univoci” in CDA e la metrica “Visitatori univoci” al di fuori di CDA?
 
-Queste due metriche sono approssimativamente equivalenti tra loro. Le differenze tra le 2 metriche si verificano quando:
+Queste due metriche sono approssimativamente equivalenti tra loro. Si verificano differenze tra le 2 metriche quando:
 
-* Un dispositivo condiviso si mappa a più persone. In questo scenario, viene conteggiato 1 visitatore univoco, mentre vengono conteggiati più dispositivi univoci.
-* Un dispositivo dispone sia di traffico non vincolato che vincolato dallo stesso visitatore. Ad esempio, un browser generato identificava il traffico vincolato + il traffico anonimo storico che non era vincolato. In questo caso, viene conteggiato 1 visitatore univoco, mentre vengono conteggiati 2 dispositivi univoci.
+* Un dispositivo condiviso è mappato su più persone. In questo scenario, viene conteggiato 1 visitatore univoco, ma sono conteggiati più dispositivi univoci.
+* Un dispositivo dispone di traffico sia non unito sia unito dallo stesso visitatore. Ad esempio, un browser ha generato traffico identificato unito + traffico anonimo storico non unito. In questo caso, vengono conteggiati 1 visitatore univoco e 2 dispositivi univoci.
 
-Vedi [Dispositivi univoci](/help/components/metrics/unique-devices.md) per ulteriori esempi e dettagli su come funziona.
+Per ulteriori esempi e dettagli su come funziona, vedi [Dispositivi univoci](/help/components/metrics/unique-devices.md).
 
-## Posso includere le metriche CDA utilizzando l’API 2.0?
+## Posso includere le metriche di CDA utilizzando l’API 2.0?
 
-Sì. Analysis Workspace utilizza l’API 2.0 per richiedere dati dai server Adobe e puoi visualizzare le chiamate API che l’Adobe utilizza per creare rapporti personalizzati:
+Sì. Analysis Workspace utilizza l’API 2.0 per richiedere dati dai server Adobe e puoi visualizzare le chiamate API utilizzate da Adobe per creare i rapporti:
 
-1. Quando hai effettuato l’accesso ad Analysis Workspace, passa a [!UICONTROL Help] > [!UICONTROL Enable debugger].
+1. Dopo l’accesso ad Analysis Workspace, passa a [!UICONTROL Help] > [!UICONTROL Enable debugger].
 2. Fai clic sull’icona di debug nel pannello desiderato, quindi seleziona la visualizzazione e l’ora desiderate per la richiesta.
 3. Individua la richiesta JSON, che puoi utilizzare nella chiamata API ad Adobe.
 
-## Cross-Device Analytics può unire visitatori unici. Può unire le visite?
+## Analytics tra dispositivi può unire visitatori univoci. Può unire le visite?
 
-Sì. Se una persona invia hit da due dispositivi diversi entro il timeout di visita della suite di rapporti virtuali (30 minuti per impostazione predefinita), viene unita alla stessa visita.
+Sì. Se un singolo utente invia hit da due dispositivi distinti entro il timeout di visita della suite di rapporti virtuali (30 minuti per impostazione predefinita), questi vengono uniti nella stessa visita.
 
 ## Qual è l’ID visitatore finale utilizzato da CDA? Posso esportarlo da Adobe Analytics?
 
-* **Se utilizzi un grafico dei dispositivi**, un ID personalizzato basato sul cluster è l&#39;identificatore principale.
-* **Se si utilizza l’unione basata sui campi**, un ID personalizzato basato sulla proprietà/eVar scelto è l’identificatore principale.
+* **Se utilizzi un grafo di dispositivi**, l’identificatore primario è un ID personalizzato basato sul cluster.
+* **Se utilizzi l’unione basata sui campi**, l’identificatore primario è un ID personalizzato basato sulla variable prop o eVar scelta.
 
-Entrambi gli identificatori sono calcolati per Adobe al momento dell&#39;esecuzione del rapporto, noto anche come [Elaborazione a tempo di rapporto](../vrs/vrs-report-time-processing.md). La natura dell’elaborazione al momento del rapporto indica che non è compatibile con Data Warehouse, feed di dati o altre funzioni di esportazione offerte da Adobe.
+Entrambi gli identificatori sono calcolati da Adobe al momento dell’esecuzione del rapporto, ossia tramite [elaborazione al momento del rapporto](../vrs/vrs-report-time-processing.md). L’elaborazione al momento del rapporto non è compatibile con Data Warehouse, feed di dati o altre funzioni di esportazione offerte da Adobe.
 
-## Come posso passare dal grafico del dispositivo all’unione basata sui campi o viceversa?
+## Come posso passare dal grafo di dispositivi all’unione basata sui campi e viceversa?
 
-Il passaggio dal grafico del dispositivo all’unione basata sui campi o viceversa può essere richiesto tramite l’Assistenza clienti. Tuttavia, fare un tale interruttore può richiedere un paio di settimane o più per completare e *i dati uniti storici del metodo precedente vengono persi.*
+Per passare dal grafo di dispositivi all’unione basata sui campi o viceversa, rivolgiti all’Assistenza clienti. Tuttavia, questo cambiamento può richiedere un paio di settimane o più e *i dati uniti storici del metodo precedente andranno perduti.*
 
-## In che modo Adobe gestisce i limiti univoci per una prop o un eVar utilizzato nella cucitura basata sul campo?
+## In che modo Adobe gestisce i limiti univoci per una variabile prop o eVar utilizzata nell’unione basata sui campi?
 
-CDA richiama gli elementi dimensionali della variabile di identificazione prima che siano ottimizzati per il reporting. Non devi preoccuparti di limiti unici per gli scopi di CDA. Tuttavia, se hai provato a utilizzare la proprietà o l’eVar in un progetto Workspace, puoi ancora visualizzare la [(traffico ridotto)](/help/technotes/low-traffic.md) elemento dimensione.
+CDA richiama gli elementi dimensione della variabile di identificazione prima che vengano ottimizzati per il reporting. Non devi preoccuparti di limiti univoci per gli scopi di CDA. Tuttavia, se hai provato a utilizzare la variabile prop o eVar in un progetto Workspace, puoi ancora visualizzare l’elemento dimensione [(Traffico ridotto)](/help/technotes/low-traffic.md).
 
 ## Quante suite di rapporti della mia azienda possono essere abilitate per CDA?
 
-A decorrere dal 1° maggio 2022, qualsiasi nuova implementazione di CDA sarà limitata a un massimo di tre ID di suite di rapporti (RSID) per cliente. CDA non unisce le suite di rapporti. Ogni suite di rapporti abilitata per CDA deve essere di natura multi-dispositivo (contenente dati provenienti da più superfici come web per desktop, web per dispositivi mobili, app per dispositivi mobili, ecc.).
+A decorrere dal 1° maggio 2022, ogni nuova implementazione di CDA sarà limitata a un massimo di tre ID di suite di rapporti (RSID) per cliente. CDA non unisce le suite di rapporti. Ogni suite di rapporti abilitata per CDA deve essere di natura cross-device (contenente dati provenienti da più superfici come web per desktop, web per dispositivi mobili, app per dispositivi mobili, ecc.).
 
 ## Se il mio ID organizzazione ha più aziende in diverse aree geografiche, posso abilitare CDA per tutte?
 
-No. Per lo stesso ID organizzazione, solo una regione può avere CDA abilitato.
+No. Per lo stesso ID organizzazione, CDA può essere abilitato in una sola regione.
 
-## Quali sono i vantaggi e gli svantaggi di una riproduzione di 7 giorni rispetto a una riproduzione di 1 giorno?
+## Quali sono i vantaggi e gli svantaggi di una ripetizione di 7 giorni rispetto a una ripetizione di 1 giorno?
 
-The advantage of the 7-day replay lookback window is that CDA is able to go back further in time to try to associate previously anonymous events with some person who later logged in within those 7 days. Gli svantaggi dell’intervallo di lookback di 7 giorni sono 1) la riproduzione viene eseguita una sola volta alla settimana e 2) i più recenti 7 giorni sono soggetti a modifiche.
+Il vantaggio di una ripetizione con intervallo di lookback di 7 giorni è che CDA è in grado di tornare indietro nel tempo per tentare di associare eventi precedentemente anonimi a una persona che ha successivamente effettuato l’accesso in quei 7 giorni. L’intervallo di lookback di 7 giorni presenta tuttavia i seguenti svantaggi: 1) la ripeditione viene eseguita una sola volta alla settimana; 2) i 7 giorni più recenti sono soggetti a modifiche.
 
-I vantaggi dell&#39;utilizzo dell&#39;intervallo di lookback a 1 giorno sono 1) la riproduzione viene eseguita ogni giorno e 2) solo ieri è soggetto a modifiche. Lo svantaggio dell’intervallo di lookback di 1 giorno è che CDA è in grado di tornare indietro solo 1 giorno per cercare di associare eventi precedentemente anonimi a una persona che ha effettuato l’accesso ieri.
+I vantaggi di un intervallo di lookback di 1 giorno sono i seguenti: 1) la ripetizione viene eseguita ogni giorno; e 2) solo il giorno immediatamente precedente è soggetto a modifiche. Lo svantaggio dell’intervallo di lookback di 1 giorno è che CDA è in grado di tornare indietro solo di 1 giorno per tentare di associare eventi precedentemente anonimi a una persona che ha effettuato l’accesso il girono precedente.
 
-## Cosa succede ai dati uniti nelle suite di rapporti virtuali CDA se la mia azienda decide di eseguire il downgrade da Analytics Ultimate?
+## Cosa succede ai dati uniti nelle suite di rapporti virtuali di CDA se si esegue il downgrade da Analytics Ultimate?
 
-Se un cliente effettua un downgrade da Ultimate, non avrà più accesso ai dati uniti. All previously stitched data will be removed. Ciò significa che le suite di rapporti virtuali CDA ora non riflettono alcuna unione tra dispositivi. Data will look similar to the original unstitched report suite.
+Se un cliente effettua un downgrade da Ultimate, non avrà più accesso ai dati uniti. Tutti i dati uniti in precedenza verranno rimossi. Ciò significa che le suite di rapporti virtuali di CDA non rifletteranno alcuna unione tra dispositivi diversi. I dati saranno simili a quelli della suite di rapporti originale senza dati uniti.
 
-## Why is the total number of hits different between my source report suite and CDA virtual report suite?
+## Perché il numero totale di hit è diverso tra la suite di rapporti di origine e la suite di rapporti virtuali di CDA?
 
-CDA utilizza una pipeline di elaborazione parallela complessa, con più componenti dipendenti. A data mismatch of approximately 1% for the total number of hits between the original report suite and the CDA virtual report suite is expected.
+CDA utilizza una complessa pipeline di elaborazione parallela, con diversi componenti dipendenti. È previsto uno scostamento di circa 1% per il numero totale di hit tra la suite di rapporti originale e la suite di rapporti virtuali di CDA.
 
-## Perché la metrica &quot;Persone identificate&quot; è gonfiata?
+## Perché la metrica “Persone identificate” è più alta?
 
-Il numero della metrica &quot;Persone identificate&quot; può essere leggermente superiore se il valore dell’identificatore prop/eVar si trova in un [collisione di hash](/help/implement/validate/hash-collisions.md).
+Il valore della metrica “Persone identificate” può essere leggermente superiore se per il valore prop/eVar dell’identificatore si verifica una [collisione hash](/help/implement/validate/hash-collisions.md).
 
-Per le unioni basate su campi, la variabile personalizzata dell’identificatore distingue tra maiuscole e minuscole. Il numero della metrica &quot;Persone identificate&quot; può essere significativamente più alto se i valori degli identificatori non corrispondono a maiuscole e minuscole. Ad esempio, se `bob` e `Bob` vengono inviati e devono essere la stessa persona, CDA interpreta questi due valori come distinti.
+Per le unioni basate sui campi, la variabile personalizzata dell’identificatore distingue tra maiuscole e minuscole. Il valore della metrica “Persone identificate” può essere significativamente più alto se i valori dell’identificatore usano maiuscole e minuscole diverse. Ad esempio, se per una stessa persona vengono trasmessi i valori `bob` e `Bob`, CDA li interpreta come due valori distinti.
 
-## Quando visualizzo l’identificatore prop/eVar, perché visualizzo valori diversi da zero per la metrica &quot;Persone non identificate&quot;?
+## Quando visualizzo l’identificatore prop/eVar, perché trovo valori diversi da zero per la metrica “Persone non identificate”?
 
-Questa situazione si verifica solitamente quando un visitatore genera hit autenticati e non autenticati nell’intervallo di reporting. Il visitatore appartiene sia a &quot;Non identificato&quot; che a &quot;Identificato&quot; nel [Stato identificato](/help/components/dimensions/identified-state.md) , causando l’attribuzione di hit non identificati a un identificatore . Questo scenario può cambiare dopo [Riproduci](replay.md) in base alla frequenza di riproduzione e alla frequenza di successo.
+Questa situazione si verifica solitamente quando un visitatore genera hit autenticati e non autenticati nella finestra di reporting. Il visitatore appartiene sia a “Non identificato” che a “Identificato” nella dimensione [Stato identificato](/help/components/dimensions/identified-state.md), causando l’attribuzione di hit non identificati a un identificatore. Questo scenario può cambiare dopo esecuzioni di [Ripetizione](replay.md) in base alla frequenza di ripetizione e al tasso di successo.
