@@ -1,13 +1,13 @@
 ---
-description: Usare i segmenti ad hoc in Analysis Workspace.
+description: Utilizzare segmenti ad hoc in Analysis Workspace.
 title: Segmenti ad hoc
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
-source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 57%
+source-wordcount: '319'
+ht-degree: 50%
 
 ---
 
@@ -37,7 +37,7 @@ Nota bene:
 
 Per un confronto dei diversi segmenti che puoi creare e applicare all’interno di un progetto, vai [qui](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
-## Salvare segmenti ad-hoc {#ad-hoc-save}
+## Salvare segmenti ad hoc {#ad-hoc-save}
 
 I segmenti ad hoc possono essere resi disponibili ad altri progetti salvandoli.
 
