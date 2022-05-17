@@ -4,10 +4,10 @@ title: Panoramica dei pannelli
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: ca1ca90c5b40ef89db14741bca826d7a57be44c6
+source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 93%
+source-wordcount: '1074'
+ht-degree: 88%
 
 ---
 
@@ -68,9 +68,9 @@ Per iniziare a filtrare il pannello., trascina un segmento dalla barra a sinistr
 
 ### Filtri di segmenti ad hoc
 
-Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di rilascio, per creare segmenti ad hoc in modo più rapido e senza dover passare al Generatore di segmenti. I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di hit. Puoi modificarli come di consueto facendo clic sull’icona delle informazioni (i) accanto al segmento, quindi sull’icona Modifica a forma di matita per accedere al Generatore di segmenti.
+Puoi anche trascinare componenti non di segmento direttamente nella zona di rilascio per creare segmenti ad hoc, risparmiando tempo e fatica nell’andare al Generatore di segmenti. I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di hit. Puoi modificarli come di consueto facendo clic sull’icona delle informazioni (i) accanto al segmento, quindi sull’icona Modifica a forma di matita per accedere al Generatore di segmenti.
 
-I segmenti ad hoc sono locali per il progetto e non verranno visualizzati nella barra a sinistra, a meno che non li rendi pubblici.
+I segmenti ad hoc sono locali per il progetto e non vengono visualizzati nella barra a sinistra a meno che tu non li renda pubblici.
 
 ![](assets/adhoc-segment-filter.png)
 
