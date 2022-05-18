@@ -4,9 +4,9 @@ description: Come creare annotazioni in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '534'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 | **Fai clic con il pulsante destro del mouse su un punto in un [!UICONTROL Line] grafico.** | La [!UICONTROL Annotation builder] si apre. Per impostazione predefinita, le annotazioni create in questo modo sono visibili solo nel progetto in cui sono state create. Ma puoi renderli disponibili a tutti i progetti. Inoltre, noterai che le date e qualsiasi metrica, ecc., sono già state compilate.<p>![](assets/annotate-line.png) |
 | **In Workspace, vai a [!UICONTROL Components] > [!UICONTROL Create annotation].** | La [!UICONTROL Annotation builder] si apre. |
 | **Usa questo tasto di scelta rapida** per aprire il generatore di annotazioni: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Tieni presente che utilizzando il tasto di scelta rapida per creare un’annotazione, puoi creare un’annotazione per un giorno singolo per la data corrente, senza alcun ambito (metriche o dimensioni) preselezionato. |
+
+{style=&quot;table-layout:auto&quot;}
 
 1. Compila il [!UICONTROL Annotation builder] elementi.
 

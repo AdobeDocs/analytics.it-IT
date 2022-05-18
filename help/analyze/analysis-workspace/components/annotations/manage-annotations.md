@@ -4,10 +4,10 @@ description: Come gestire le annotazioni in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 6%
+source-wordcount: '653'
+ht-degree: 7%
 
 ---
 
@@ -33,6 +33,8 @@ La [!UICONTROL Annotations] manager mostra tutte le annotazioni che possiedi che
 | [!UICONTROL Applied Date Range] | Data o intervallo di date a cui si applica questa annotazione. |
 | [!UICONTROL Shared with] | Elenca quanti singoli utenti o gruppi hanno condiviso l’annotazione. Fai clic su per ulteriori dettagli. |
 | [!UICONTROL Date Modified] | Mostra la data e l’ora dell’ultima modifica apportata all’annotazione. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Modificare le annotazioni
 
@@ -75,3 +77,5 @@ Gestione annotazioni consente agli amministratori di modificare, aggiungere, ass
 | [!UICONTROL Copy] | Crea una copia distinta con il proprio ID di annotazione, ma con lo stesso nome e la stessa definizione. |
 | [!UICONTROL Export to CSV] | Esporta la definizione dell’annotazione in un file .csv . |
 | [!UICONTROL Filter] (barra a sinistra) | Filtrare per tag, suite di rapporti, proprietari e altri filtri (Personali, Approvati, Preferiti, Condivisi con me e Mostra tutto). |
+
+{style=&quot;table-layout:auto&quot;}
