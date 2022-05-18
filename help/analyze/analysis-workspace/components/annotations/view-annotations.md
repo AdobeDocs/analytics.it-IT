@@ -4,18 +4,14 @@ description: Come visualizzare le annotazioni in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '240'
 ht-degree: 6%
 
 ---
 
 # Visualizzare le annotazioni
-
->[!NOTE]
->
->Il rollout graduale di questa funzione inizia il 23 marzo 2022. Disponibilità generale: 11 aprile 2022.
 
 Le annotazioni si presentano in modo leggermente diverso, a seconda che si estendono su un singolo giorno o su un intervallo di date.
 

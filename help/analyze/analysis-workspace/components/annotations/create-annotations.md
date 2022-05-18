@@ -4,18 +4,14 @@ description: Come creare annotazioni in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
+source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
 
 # Creare annotazioni
-
->[!NOTE]
->
->Il rollout graduale di questa funzione inizia il 23 marzo 2022. Disponibilità generale: 11 aprile 2022.
 
 1. Per creare le annotazioni, è possibile iniziare in diversi modi:
 
