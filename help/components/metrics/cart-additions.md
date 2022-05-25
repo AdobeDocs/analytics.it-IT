@@ -3,10 +3,10 @@ title: Aggiunte al carrello
 description: Il numero di hit in cui un visitatore ha aggiunto un prodotto al carrello.
 feature: Metrics
 exl-id: 0617b4c4-6425-4425-b6f7-efadbd6f58b2
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 5%
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
@@ -17,3 +17,5 @@ La metrica &quot;Aggiunte al carrello&quot; mostra il numero di volte in cui un 
 ## Calcolo di questa metrica
 
 Questa metrica conta il numero di hit in cui `scAdd` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.
+
+Vedi [Carrelli](carts.md) per un confronto metrico.
