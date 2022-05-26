@@ -7,7 +7,7 @@ user-guide-description: Istruzioni sull’utilizzo di Analysis Workspace, lo str
 source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # Guida agli strumenti di Adobe Analytics {#analyze}
 
 + [Guida agli strumenti di Analytics](home.md)
-+ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
@@ -301,7 +301,7 @@ ht-degree: 97%
       + [Adobe Analytics per iOS](reports-analytics/overview/app-ios.md)
    + [Impostazioni di visualizzazione e navigazione del rapporto](reports-analytics/report-settings.md)
    + [Pianificazione e distribuzione del rapporto](reports-analytics/scheduling.md)
-   + [Avviso di fine del ciclo di vita per i rapporti pianificati](reports-analytics/scheduled-reports-eol.md)
+   + [Avviso di fine del ciclo di vita dei rapporti pianificati](reports-analytics/scheduled-reports-eol.md)
    + [Tipi di rapporto](reports-analytics/reports.md)
    + [Eseguire diversi tipi di rapporto](reports-analytics/t-running-report-types.md)
    + Personalizzare i rapporti {#customize-reports}
