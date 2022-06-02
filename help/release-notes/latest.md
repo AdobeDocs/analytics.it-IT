@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: b9bf373d7d62d7b6df405629cdf304246b80649f
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 90%
 
 | Funzione | Descrizione | [Data definita](releases.md) |
 | ----------- | ---------- | ------- |
-| Popolare dimensioni e metriche del ciclo di vita tramite Experience Edge | I dati del ciclo di vita mobile inviati tramite Experience Edge verranno ora visualizzati nei rapporti di Analytics. Consulta la documentazione per i dettagli su quali dati del ciclo di vita vengono raccolti tramite Experience Edge e come corrispondono ai rapporti esistenti sul ciclo di vita. [Ulteriori informazioni - disponibile a breve] | 27 maggio 2022 |
+| Popolare dimensioni e metriche del ciclo di vita tramite Experience Edge | I dati del ciclo di vita mobile inviati tramite Experience Edge ora verranno visualizzati nei rapporti di Analytics. Consulta la documentazione per i dettagli su quali dati del ciclo di vita vengono raccolti tramite Experience Edge e qual è la corrispondenza con i rapporti sul ciclo di vita già esistenti. [Ulteriori informazioni disponibili a breve] | 27 maggio 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -46,7 +46,7 @@ AN-274429; AN-279640; AN-280918; AN-280945; AN-282884; AN-283565; AN-284785; AN-
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
 | **Aggiornamento SFTP** | 9 maggio 2022 | In precedenza, avevamo comunicato che Adobe avrebbe aggiornato i servizi SFTP (Secure File Transfer Protocol) nel maggio 2022 per garantire una maggiore sicurezza nel trasferimento di file. Questo aggiornamento è stato posticipato all’estate del 2022. Quando questa modifica verrà implementata, alcune configurazioni client SFTP non saranno più supportate. Questo influisce solo sui dati inviati o recuperati da Adobe Analytics tramite SFTP. Il protocollo FTP non è interessato. Per evitare interruzioni del servizio, assicurati che i client SFTP (codice, strumenti, servizi) siano in linea con le modifiche descritte [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=it). |
-| **Adesione a Cross-Device Analytics (CDA)** | 13 aprile 2022 | Efficace **1 maggio 2022**, qualsiasi nuova implementazione di [CDA](/help/components/cda/overview.md) sono limitati a un massimo di tre ID suite di rapporti (RSID) per cliente. |
+| **Adesione a Cross-Device Analytics (CDA)** | 13 aprile 2022 | A decorrere dal **1° maggio 2022**, le nuove implementazioni di [CDA](/help/components/cda/overview.md) saranno limitate a un massimo di tre ID di suite di rapporti (RSID) per cliente. |
 | **Modifica del modo in cui Adobe Analytics gestisce i dati A4T raccolti tramite Experience Edge** | 31 marzo 2022 | Il 7 marzo 2022 è stato modificato il modo in cui vengono gestite alcune chiamate provenienti da Experience Edge che includono contenuti Target destinati al reporting di Analytics for Target (A4T). A partire dal 7 marzo, tutti gli hit con contenuti di reporting A4T sono stati modificati in modo da non essere trattati come eventi di Visualizzazione pagina o Collegamento. A partire dal **31 marzo 2022**, la logica è più selettiva in modo che gli eventi di Visualizzazione pagina e Clic standard non vengano modificati. In futuro, gli unici eventi che verranno modificati saranno le chiamate di sola personalizzazione che presentano esclusivamente contenuti A4T. |
 | **Aggiornamento dei metodi di crittografia del browser supportati per alcuni clienti** | 28 marzo 2022 | Adobe offre due livelli di protezione crittografata per soddisfare le diverse esigenze dei clienti in materia di sicurezza nella raccolta dati di prime parti. Il **23 giugno 2022** verrà rimosso il supporto di alcuni algoritmi di crittografia HTTPS, o crittografie, per i clienti con livello di sicurezza impostato su “Elevato”. Di conseguenza, alcuni sistemi operativi meno recenti non saranno più in grado di inviare dati ad Analytics, in quanto non supportano metodi di crittografia moderni. I clienti che utilizzano le impostazioni predefinite di sicurezza con crittografia “Standard” non saranno interessati. Tutti i clienti che utilizzano attualmente l’impostazione “Elevato” sono già stati contattati direttamente. Un elenco dettagliato delle crittografie interessate da questo cambiamento è disponibile qui. |
 | **Sospensione dei rapporti pianificati meno recenti** | 12 aprile 2022 | A decorrere dal **20 aprile 2022**, Adobe intende sospendere tutti i rapporti pianificati con una data di creazione superiore ai due anni (creati prima del 31 gennaio 2020). Non verranno eliminati rapporti o dati. Verranno sospesi solo i rapporti identificati come più vecchi di due anni e non verranno inviati ulteriori rapporti pianificati. Ulteriori informazioni |
