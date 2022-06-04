@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Adobe Analytics. '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 97%
+source-wordcount: '402'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # Guida all’implementazione di Adobe Analytics {#implementation}
 
 + [Implementazione di Adobe Analytics](home.md)
-+ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
 + [Note sulla versione di AppMeasurement](appmeasurement-updates.md)
 + Variabili, funzioni e metodi di Analytics {#vars}
    + [Panoramica](vars/overview.md)
@@ -131,6 +131,22 @@ ht-degree: 97%
    + [Modale di implementazione](prepare/implementation-modal.md)
    + [Creare un documento di progettazione della soluzione](prepare/solution-design.md)
    + [Prendere in consegna un’implementazione Adobe Analytics esistente](prepare/existing-implementation.md)
++ Implementazione di Analytics tramite Experience Platform Edge {#aep-edge}
+   + [Panoramica di Experience Edge](aep-edge/overview.md)
+   + [Mappatura variabile](aep-edge/variable-mapping.md)
+   + SDK per web {#web-sdk}
+      + [Panoramica dell’SDK web](aep-edge/web-sdk/overview.md)
+   + Mobile SDK {#mobile-sdk}
+      + [Panoramica dell’SDK per dispositivi mobili](aep-edge/mobile-sdk/overview.md)
+   + API Edge {#edge-api}
+      + [Panoramica API di Edge](aep-edge/edge-api/overview.md)
++ Implementazione di Analytics utilizzando i tag in Adobe Experience Platform {#launch}
+   + [Panoramica sui tag](launch/overview.md)
+   + [Creare una proprietà tag in Adobe Analytics](launch/create-analytics-property.md)
+   + [Implementare in un ambiente di sviluppo](launch/deploy-dev.md)
+   + [Convalidare e pubblicare nell’ambiente di produzione](launch/validate-publish-prod.md)
+   + [Mappatura di oggetti del livello di dati su elementi di dati](launch/layer-to-elements.md)
+   + [Mappare gli elementi dati dei tag alle variabili Analytics](launch/elements-to-variable.md)
 + Implementazione di Analytics tramite JavaScript {#js}
    + [Panoramica di JavaScript](js/overview.md)
    + [Implementazione dei collegamenti di opt-out](js/opt-out.md)
@@ -150,13 +166,6 @@ ht-degree: 97%
       + [Esempio di visita](js/xdevice-visid/visit-example.md)
       + [Domande frequenti legacy tra dispositivi](js/xdevice-visid/xdevice-faq.md)
    + [Risoluzione dei problemi relativi ad AppMeasurement](js/troubleshooting.md)
-+ Implementazione di Analytics utilizzando i tag in Adobe Experience Platform {#launch}
-   + [Panoramica sui tag](launch/overview.md)
-   + [Creare una proprietà tag in Adobe Analytics](launch/create-analytics-property.md)
-   + [Implementare in un ambiente di sviluppo](launch/deploy-dev.md)
-   + [Convalidare e pubblicare nell’ambiente di produzione](launch/validate-publish-prod.md)
-   + [Mappatura di oggetti del livello di dati su elementi di dati](launch/layer-to-elements.md)
-   + [Mappare gli elementi dati dei tag alle variabili Analytics](launch/elements-to-variable.md)
 + Implementazione di Analytics su altre piattaforme {#other}
    + [Implementazione di Analytics utilizzando richieste di immagini codificate](other/hardcoded.md)
    + [Implementazione di Analytics utilizzando DTM](other/dtm-implementation-overview.md)
@@ -179,6 +188,3 @@ ht-degree: 97%
    + [Revisione mirata (dopo ogni rilascio del sito web)](review/focused-review.md)
    + [Revisione completa (ogni 6 mesi)](review/full-review.md)
    + [Definire i primi 5 KPI](review/define-kpis.md)
-+ Utilizzare i dati XDM con Analytics {#aep-edge}
-   + [Usa SDK Web AEP](aep-edge/xdmoverview.md)
-   + [Mappare manualmente i dati XDM su Analytics](aep-edge/xdm-manual.md)
