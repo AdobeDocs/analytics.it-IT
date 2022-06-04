@@ -3,7 +3,7 @@ title: writeSecureCookies
 description: Consente ad AppMeasurement di impostare i cookie con l’attributo Secure.
 feature: Variables
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
@@ -18,7 +18,7 @@ La `writeSecureCookies` permette ad AppMeasurement di impostare [Cookie protetti
 
 Ulteriori informazioni sui cookie di Analytics [qui](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html).
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Se si abilita `writeSecureCookies` assicurati che tutti i contenuti del sito siano protetti tramite HTTPS. AppMeasurement non funziona se questa variabile è abilitata e sulla pagina è presente contenuto non sicuro.
 

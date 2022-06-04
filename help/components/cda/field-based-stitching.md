@@ -2,7 +2,7 @@
 title: Unione basata sui campi
 description: Comprendi i prerequisiti e le limitazioni dell’unione di dati utilizzando l’unione basata sui campi.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Analisi multidispositivo fornisce due metodi distinti per unire i dati. Questo m
 
 Se intendi implementare Cross-Device Analytics utilizzando l’unione basata sui campi, sono necessari i seguenti elementi. Collabora con i team all’interno della tua organizzazione e con il tuo Adobe Account Manager per assicurarti di soddisfare tutte le seguenti esigenze.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Il mancato rispetto di tutti i prerequisiti può comportare l’impossibilità di abilitare Cross-Device Analytics o risultati errati durante l’unione dei dati.
 

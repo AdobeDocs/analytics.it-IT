@@ -3,7 +3,7 @@ title: registerPostTrackCallback
 description: Crea funzioni di callback dopo l’invio di un hit ad Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La `registerPostTrackCallback` consente alla tua organizzazione di collegare una funzione JavaScript immediatamente dopo che un hit è stato inviato correttamente ad Adobe. Se una chiamata di tracciamento non riesce, questa funzione non viene eseguita. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un partner o a un&#39;infrastruttura interna oppure per pulire i valori delle variabili nelle applicazioni a pagina singola.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all&#39;interno del `registerPostTrackCallback` variabile. Le funzioni di tracciamento in questa variabile causano un ciclo infinito di richieste di immagini!
 

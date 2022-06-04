@@ -4,8 +4,8 @@ title: Marca temporale opzionale
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Marca temporale opzionale consente di:
 * Inviate dati con marca temporale da un app per dispositivo mobile a una suite per report globale.
 * Aggiornate le app per poter utilizzare il monitoraggio offline senza dover creare per una suite per report.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Se utilizzi Marca temporale opzionale, non impostare [s.visitorID](/help/implement/vars/config-vars/visitorid.md) su dati con marca temporale già esistente. Questo può portare a dati fuori ordine e influire negativamente sui calcoli dei tempi (come i valori del tempo trascorso), sull’attribuzione (persistenza eVar), sui conteggi di numero di visite/visite e sui rapporti sui percorsi.
 

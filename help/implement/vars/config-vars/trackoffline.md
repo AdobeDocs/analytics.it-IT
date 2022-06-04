@@ -3,7 +3,7 @@ title: trackOffline
 description: Abilita o disabilita il tracciamento offline, che modifica il modo in cui AppMeasurement raccoglie i dati.
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Il tracciamento offline è un modo facoltativo per raccogliere i dati in Adobe A
 
 La `trackOffline` determina se desideri utilizzare il tracciamento offline nell&#39;implementazione.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Prima di abilitare questa variabile, devi configurare la suite di rapporti per accettare gli hit con marca temporale. Se una suite di rapporti non accetta gli hit con marca temporale e questa variabile è abilitata, i dati vengono persi e non possono essere recuperati.
 

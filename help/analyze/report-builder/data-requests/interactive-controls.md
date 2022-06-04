@@ -4,7 +4,7 @@ title: Controlli interattivi
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 1%
@@ -18,7 +18,7 @@ I controlli interattivi consentono di modificare segmenti e intervalli di date p
 I controlli interattivi sono stati creati in risposta a un flusso di lavoro comune in cui gli analisti creano cartelle di lavoro e condividono tali cartelle di lavoro con l’organizzazione di marketing. I controlli interattivi consentono agli addetti al marketing di modificare e aggiornare le richieste senza dover conoscere in dettaglio il funzionamento di Report Builder. Per aggiornare una richiesta, il destinatario della cartella di lavoro deve essere un utente del generatore di report. Questi controlli funzionano all&#39;interno delle cartelle di lavoro pianificate. Sono attualmente disponibili due tipi di controlli interattivi:
 
 * Intervallo date continuo
-* Segmenti
+* Segmenti 
 
 >[!IMPORTANT]
 >
@@ -28,7 +28,7 @@ I controlli interattivi sono stati creati in risposta a un flusso di lavoro comu
 >
 
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Non manomettere il nome del controllo. (Per visualizzare il nome, impostare lo stato attivo sul controllo e il nome del controllo viene visualizzato a destra sopra la griglia Excel, nell&#39;angolo in alto a sinistra.)
 

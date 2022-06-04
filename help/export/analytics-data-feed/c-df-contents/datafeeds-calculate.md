@@ -4,7 +4,7 @@ keywords: Feed dati;processo;metriche;pre colonna;post colonna;bot;filtro data;s
 title: Calcolare metriche
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Descrive come calcolare le metriche comuni utilizzando i feed di dati.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Gli hit normalmente esclusi da Adobe Analytics sono inclusi nei feed di dati. Utilizzo `exclude_hit > 0` per rimuovere gli hit esclusi dalle query sui dati non elaborati. I dati originati sono inclusi anche nei feed di dati. Se desideri escludere origini dati, escludi tutte le righe con `hit_source = 5,7,8,9`.
 

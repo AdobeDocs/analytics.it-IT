@@ -4,7 +4,7 @@ title: Confronto delle date
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 100%
@@ -31,7 +31,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
    ![](assets/compare-time.png)
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
    >Questa opzione accessibile tramite clic con il pulsante destro del mouse è disabilitata per le righe di metrica, di intervallo dati e di dimensione temporale.
 
@@ -93,7 +93,7 @@ Una nuova impostazione per tutte le tabelle consente di **[!UICONTROL Align Date
 
 ![](assets/date-comparison-setting.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Questa impostazione è **disabilitata** (non selezionata) per tutti i progetti esistenti ed **abilitata** (selezionata) per tutti i nuovi progetti.
 

@@ -3,9 +3,9 @@ title: products
 description: Invia i dati relativi ai prodotti visualizzati o contenuti nel carrello.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,7 @@ Puoi utilizzare una di queste estensioni, oppure puoi utilizzare l&#39;editor di
 
 La `s.products` è una stringa che contiene più campi delimitati per prodotto. Delimitare ogni campo con un punto e virgola (`;`) nella stringa .
 
->[!IMPORTANT]
->**[!UICONTROL Category]**non è più consigliata come opzione valida per mantenere traccia delle prestazioni della categoria di prodotti. Di conseguenza, tutte le stringhe di prodotto devono iniziare con il punto e virgola, indicando il primo campo vuoto.
-
+* **Categoria** (facoltativo): La categoria di prodotto. La lunghezza massima per questo campo è di 100 byte.
 * **Nome del prodotto** (obbligatorio): Nome del prodotto. La lunghezza massima per questo campo è di 100 byte.
 * **Quantità** (facoltativo): Quanti di questi prodotti sono nel carrello. Questo campo si applica solo agli hit con l’evento di acquisto.
 * **Prezzo** (facoltativo): Prezzo totale del prodotto come decimale. Se la quantità è superiore a uno, impostare il prezzo sul totale e non sul prezzo del singolo prodotto. Allinea la valuta di questo valore in modo che corrisponda al [`currencyCode`](../config-vars/currencycode.md) variabile. Non includere il simbolo di valuta in questo campo. Questo campo si applica solo agli hit con l’evento di acquisto.
@@ -44,17 +42,17 @@ La `s.products` è una stringa che contiene più campi delimitati per prodotto. 
 
 ```js
 // Set a single product using all available fields
-s.products = ";Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
+s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
 Questa variabile supporta più prodotti nello stesso hit. È utile per il carrello e gli acquisti contenenti più prodotti. La lunghezza massima per l&#39;intero `products` string è 64K. Separa ogni prodotto con una virgola (`,`) nella stringa .
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = ";Example product 1;1;3.50,;Example product 2;1;5.99";
+s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Elimina tutti i punti e virgola, le virgole e i tubi dai nomi dei prodotti, dalle categorie e dai valori di eVar merchandising. Se un nome di prodotto include una virgola, AppMeasurement la analizza come inizio di un nuovo prodotto. Questa analisi errata getta via il resto della stringa di prodotto, causando dati errati nelle dimensioni e nei rapporti.
 
@@ -64,13 +62,13 @@ La `products` è flessibile quando si omettono i campi e si includono più prodo
 
 ```js
 // Include only product and category. Common on individual product pages
-s.products = ";Example product";
+s.products = "Example category;Example product";
 
 // Include only product name
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = ";Example product 1,;Example product 2";
+s.products = "Example category;Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
@@ -96,7 +94,7 @@ s.products = ";Example product;;;;eVar1=Merchandising value";
 
 // Multiple products using multiple different events and multiple different merchandising eVars
 s.events = "event1,event2,event3,event4,purchase";
-s.products = ";Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
+s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
 Se utilizzi `digitalData` [livello dati](../../prepare/data-layer.md), è possibile eseguire iterazioni attraverso `digitalData.product` array di oggetti:

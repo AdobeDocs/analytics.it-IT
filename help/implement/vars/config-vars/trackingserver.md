@@ -3,7 +3,7 @@ title: trackingServer
 description: Determina la posizione in cui vengono inviate le richieste di immagini.
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 Adobe raccoglie i dati sul sito ricevendo una richiesta di immagine generata dal visitatore. La `trackingServer` determina la posizione in cui viene inviata una richiesta di immagine. Se questa variabile non è definita correttamente, l’implementazione può subire una perdita di dati.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >La modifica di questo valore fa sì che AppMeasurement cerchi i cookie in una posizione diversa. Il conteggio di visitatori univoci può causare un picco temporaneo nel reporting quando i cookie dei visitatori sono impostati nella nuova posizione.
 

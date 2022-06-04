@@ -3,7 +3,7 @@ title: contextData
 description: Le variabili di dati di contesto ti consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere.
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -35,7 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## Utilizzare le regole di elaborazione per popolare le variabili di analisi
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Le variabili di dati di contesto vengono scartate dopo l’esecuzione delle regole di elaborazione. Se le regole di elaborazione non sono attive e inseriscono i valori nelle variabili, i dati andranno perduti definitivamente.
 

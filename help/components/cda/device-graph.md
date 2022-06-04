@@ -2,10 +2,10 @@
 title: Device Graph
 description: Comprendi i prerequisiti e le limitazioni dell’unione dei dati utilizzando il grafico del dispositivo.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -17,21 +17,21 @@ Analisi multidispositivo fornisce due metodi distinti per unire i dati. Questo m
 
 Nell&#39;ambito del servizio ID, Adobe offre due tipi di grafici dei dispositivi:
 
-* **Grafico** cooperativo: Un archivio di ID dispositivo con hash a cui qualsiasi cliente può contribuire e fare riferimento. Dato che questo tipo di grafico dei dispositivi è collaborativo, in genere corrisponde a più dispositivi rispetto a un grafico privato.
-* **Grafico** privato: Un archivio di ID dispositivo con hash a cui fa riferimento solo la tua organizzazione.
+* **Grafico Co-op**: Un archivio di ID dispositivo con hash a cui qualsiasi cliente può contribuire e fare riferimento. Dato che questo tipo di grafico dei dispositivi è collaborativo, in genere corrisponde a più dispositivi rispetto a un grafico privato.
+* **Grafico privato**: Un archivio di ID dispositivo con hash a cui fa riferimento solo la tua organizzazione.
 
 ## Prerequisiti specifici per il grafico del dispositivo
 
 Se intendi implementare Cross-Device Analytics utilizzando il metodo grafico dei dispositivi, sono necessari i seguenti elementi. Collabora con i team all’interno della tua organizzazione e con il tuo Adobe Account Manager per assicurarti di soddisfare tutte le seguenti esigenze.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Il mancato rispetto di tutti i prerequisiti può comportare l’impossibilità di abilitare Cross-Device Analytics o risultati errati durante l’unione dei dati.
 
-* Tutti i prerequisiti elencati nella [pagina di panoramica](overview.md).
-* L’organizzazione deve utilizzare il grafico Co-op o Private Graph del servizio Adobe Experience Platform Identity. Consulta la sezione [Home page](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) nella guida utente di Device Co-op .
-* L’implementazione deve utilizzare la versione più recente del servizio Experience Cloud ID. Consulta la sezione [Home page](https://experienceleague.adobe.com/docs/id-service/using/home.html) nella guida utente del servizio Experience Cloud Identity. Probabilmente la maggior parte delle implementazioni che utilizzano i tag in Adobe Experience Platform hanno già implementato ECID.
-* L’implementazione deve chiamare la funzione `setCustomerIDs` (o equivalente SDK) ogni volta che è possibile identificare un singolo utente, ad esempio quando un utente accede o apre un’e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Consulta [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) nella guida utente del servizio Experience Cloud Identity.
+* Tutti i prerequisiti elencati nel [pagina panoramica](overview.md).
+* L’organizzazione deve utilizzare il grafico Co-op o Private Graph del servizio Adobe Experience Platform Identity. Consulta la sezione [Home page](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=it) nella guida utente di Device Co-op .
+* L’implementazione deve utilizzare la versione più recente del servizio Experience Cloud ID. Consulta la sezione [Home page](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) nella guida utente del servizio Experience Cloud Identity. Probabilmente la maggior parte delle implementazioni che utilizzano i tag in Adobe Experience Platform hanno già implementato ECID.
+* L’implementazione deve chiamare il `setCustomerIDs` (o equivalente SDK) ogni volta che è possibile identificare un individuo, ad esempio quando un utente accede o apre un’e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Vedi [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) nella guida utente del servizio Experience Cloud Identity.
 
 ## Limitazioni specifiche del grafico del dispositivo
 
@@ -42,4 +42,4 @@ Se intendi implementare Cross-Device Analytics utilizzando il metodo grafico dei
 
 ## Passaggi successivi
 
-Una volta che l&#39;organizzazione soddisfa tutti i requisiti e comprende i limiti, puoi iniziare a [Configurazione di Analytics tra dispositivi](setup.md).
+Una volta che la tua organizzazione soddisfa tutti i requisiti e comprende i limiti, puoi iniziare [Configurazione di Analytics tra dispositivi](setup.md).

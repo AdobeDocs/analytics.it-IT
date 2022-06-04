@@ -3,7 +3,7 @@ title: Prop
 description: Una dimensione personalizzata utilizzabile nel reporting.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Per impostazione predefinita, le proprietà non sono sensibili all’uso di maiu
 
 È possibile fare la distinzione tra maiuscole e minuscole per qualsiasi proprietà. Puoi anche disabilitare la distinzione tra maiuscole e minuscole per qualsiasi proprietà una volta attivato. Contatta l’Assistenza clienti Adobe con l’ID suite di rapporti e le variabili desiderate per attivare o disattivare la distinzione tra maiuscole e minuscole.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >L’attivazione della distinzione tra maiuscole e minuscole può causare uno scossone degli elementi dimensionali, risultati imprevisti con i segmenti e problemi con i filtri. L’Adobe consiglia vivamente di scegliere tra due periodi di tempo principali, ad esempio l’inizio di un mese o di un anno.
 

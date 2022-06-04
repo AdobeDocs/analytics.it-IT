@@ -4,7 +4,7 @@ description: Scopri come e perché creare progetti in Workspace con più suite d
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 98%
@@ -35,7 +35,7 @@ Per applicare una suite di rapporti a tutti i pannelli contemporaneamente, fai c
 
 Con questa funzione viene introdotto il concetto di “pannello attivo” e “pannello inattivo”. Il pannello attivo è riconoscibile dal bordo blu chiaro intorno ad esso. È sufficiente fare clic all’interno del pannello per renderlo attivo.
 
->[!IMPORTANT]
+>[!TIP]
 >Puoi trascinare e rilasciare contenuti in qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. Trascinare un contenuto in un pannello inattivo della stessa suite di rapporti rende il pannello attivo.
 
 | Attività | Pannello attivo | Pannello inattivo |

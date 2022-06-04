@@ -3,7 +3,7 @@ description: I segmenti sequenziali vengono creati utilizzando l’operatore THE
 title: Creare segmenti sequenziali
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 99%
@@ -399,7 +399,7 @@ Se si imposta “After 2 weeks” (Dopo 2 settimane), se un hit per la pagina A 
 * [!UICONTROL Within] consente di monitorare per anno, mese, giorno, ora e minuto per far corrispondere le visite.
 * [!UICONTROL Within] può essere applicato solo a un contenitore [!UICONTROL Hit], perché è l’unico livello per il quale è definita una granularità così fine.
 
->[!IMPORTANT]
+>[!TIP]
 >
 >In una clausola “within” (entro), tra istruzioni THEN, puoi aggiungere ad esempio “entro 1 istanza di parola chiave di ricerca”, “entro 1 istanza di eVar 47”. In questo modo si vincola il segmento entro un’istanza di una dimensione.
 

@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: Panoramica sulle regole di elaborazione
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '394'
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,7 @@ Utilizza le regole di elaborazione per semplificare la raccolta dati e gestire i
 
 Ora gli amministratori dispongono delle autorizzazioni per utilizzare le regole di elaborazione **per impostazione predefinita**. Gli amministratori possono concedere questo diritto anche ai non amministratori utilizzando l’interfaccia Strumenti di amministrazione. Per le istruzioni del caso, consulta []
 
-![](assets/processing-rules.png)
-
->[!IMPORTANT]
->
->Poiché le regole di elaborazione influiscono in modo permanente sui dati di Analytics, Adobe consiglia vivamente agli amministratori delle regole di elaborazione di ricevere un corso di formazione sulla certificazione in Adobe Analytics e di avere familiarità con tutte le fonti di dati per le suite di rapporti (siti web standard, siti mobili, app mobili, API di inserimento dati e così via). La conoscenza delle variabili di dati di contesto e delle variabili standard popolate in varie piattaforme aiuterà a prevenire l’eliminazione o l’alterazione accidentale dei dati.
+![Regole di elaborazione](assets/processing-rules.png)
 
 ## Utilizzare i dati contestuali per semplificare la raccolta dei dati {#section_09EEA03612D24C15839631AA9E9668D8}
 

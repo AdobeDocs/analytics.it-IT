@@ -3,8 +3,8 @@ description: Indice degli strumenti di amministrazione in Adobe Analytics.
 title: Strumenti di amministrazione
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Non aprire più schede Amministratore nello stesso browser. Questo può comportare il salvataggio involontario delle impostazioni nella suite di rapporti sbagliata. Ad esempio, se devi confrontare i set di regole e copiarli in una nuova suite di rapporti, ti consigliamo di aprire un nuovo browser o di scattare una schermata per confrontare i set di regole.
 
