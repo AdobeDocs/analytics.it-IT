@@ -1,13 +1,13 @@
 ---
 title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
-source-git-commit: 984d62f6ece15ebbd41dbbd1e3cb800faa7f323b
+exl-id: fbff5c38-0f04-4780-b976-023e207023c6
+source-git-commit: 1ed07727530ef5e3c9afbb291772f668fdee5d45
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
 
 ---
-
 
 # Mappatura delle variabili di Analytics in Adobe Experience Edge
 
@@ -70,26 +70,26 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `media.mediaTimed.midpoints.value` | Metrica Media Analytics [Marcatore progresso 50 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#fifty-progress-marker). |
 | `media.mediaTimed.pauseTime.value` | Metrica Media Analytics [Durata totale pausa](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#total-pause-duration). |
 | `media.mediaTimed.pauses.value` | Metrica Media Analytics [Pausa eventi](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#pause-events). |
-| `media.mediaTimed.primaryAssetReference.@id` | Dimensione Media Analytics [ID risorsa](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#asset-id). |
-| `media.mediaTimed.primaryAssetReference.dc:title` | Dimensione Media Analytics [Nome video](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-name). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | Dimensione Media Analytics [Originatore](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#originator). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Episode.iptc4xmpExt:Number` | Dimensione Media Analytics [Episodio](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#episode). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Genre` | Dimensione Media Analytics [Genere](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#genre). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | Dimensione Media Analytics [Valutazione dei contenuti](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-rating). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Season.iptc4xmpExt:Number` | Dimensione Media Analytics [Stagione](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#season). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Series.iptc4xmpExt:Identifier` | Dimensione Media Analytics [ID contenuto](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-id). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Series.iptc4xmpExt:Name` | Dimensione Media Analytics [Mostra](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show). |
-| `media.mediaTimed.primaryAssetReference.showType` | Dimensione Media Analytics [Mostra tipo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show-type). |
-| `media.mediaTimed.primaryAssetReference.xmpDM:duration` | Dimensione Media Analytics [Lunghezza video](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-length). |
-| `media.mediaTimed.primaryAssetViewDetails.@id` | Dimensione Media Analytics [ID sessione multimediale](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-session-id). |
-| `media.mediaTimed.primaryAssetViewDetails.broadcastChannel` | Dimensione Media Analytics [Canale del contenuto](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-channel). |
-| `media.mediaTimed.primaryAssetViewDetails.broadcastContentType` | Dimensione Media Analytics [Tipo di contenuto](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-type). |
-| `media.mediaTimed.primaryAssetViewDetails.broadcastNetwork` | Dimensione Media Analytics [Rete](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#network). |
-| `media.mediaTimed.primaryAssetViewDetails.mediaSegmentView.value` | Dimensione Media Analytics [Segmento di contenuto](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-segment). |
-| `media.mediaTimed.primaryAssetViewDetails.playerName` | Dimensione Media Analytics [Nome del lettore di contenuti](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-player-name). |
-| `media.mediaTimed.primaryAssetViewDetails.playerSDKVersion.version` | Dimensione Media Analytics [Versione SDK](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#sdk-version). |
-| `media.mediaTimed.primaryAssetViewDetails.sourceFeed` | Dimensione Media Analytics [Tipo di feed multimediale](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-feed-type). |
-| `media.mediaTimed.primaryAssetViewDetails.streamFormat` | Dimensione Media Analytics [Formato flusso](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#stream-format). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`@id` | Dimensione Media Analytics [ID risorsa](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#asset-id). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | Dimensione Media Analytics [Nome video](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-name). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | Dimensione Media Analytics [Originatore](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#originator). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | Dimensione Media Analytics [Episodio](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#episode). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Genre` | Dimensione Media Analytics [Genere](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#genre). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | Dimensione Media Analytics [Valutazione dei contenuti](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-rating). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Season.iptc4xmpExt:Number` | Dimensione Media Analytics [Stagione](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#season). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Identifier` | Dimensione Media Analytics [ID contenuto](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-id). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Name` | Dimensione Media Analytics [Mostra](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`showType` | Dimensione Media Analytics [Mostra tipo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show-type). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`xmpDM:duration` | Dimensione Media Analytics [Lunghezza video](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-length). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`@id` | Dimensione Media Analytics [ID sessione multimediale](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-session-id). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastChannel` | Dimensione Media Analytics [Canale del contenuto](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-channel). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastContentType` | Dimensione Media Analytics [Tipo di contenuto](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-type). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastNetwork` | Dimensione Media Analytics [Rete](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#network). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | Dimensione Media Analytics [Segmento di contenuto](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-segment). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`playerName` | Dimensione Media Analytics [Nome del lettore di contenuti](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-player-name). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`playerSDKVersion.version` | Dimensione Media Analytics [Versione SDK](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#sdk-version). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`sourceFeed` | Dimensione Media Analytics [Tipo di feed multimediale](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-feed-type). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`streamFormat` | Dimensione Media Analytics [Formato flusso](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#stream-format). |
 | `media.mediaTimed.progress10.value` | Metrica Media Analytics [Marcatore progresso 10 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#ten-progress-marker). |
 | `media.mediaTimed.progress95.value` | Metrica Media Analytics [Marcatore progresso 95 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#ninety-five-progress-marker). |
 | `media.mediaTimed.resumes.value` | Metrica Media Analytics [Riprende il contenuto](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-resumes). |
