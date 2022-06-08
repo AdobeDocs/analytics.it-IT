@@ -3,10 +3,10 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 8666c32ffe907ad486778fa382404807459be03c
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 63%
+source-wordcount: '826'
+ht-degree: 62%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 63%
 
 | Funzione | Descrizione | [Data definita](releases.md) |
 | ----------- | ---------- | ------- |
-| Popolare dimensioni e metriche del ciclo di vita tramite Experience Edge | I dati del ciclo di vita mobile inviati tramite Experience Edge ora verranno visualizzati nei rapporti di Analytics. Consulta la documentazione per i dettagli su quali dati del ciclo di vita vengono raccolti tramite Experience Edge e qual è la corrispondenza con i rapporti sul ciclo di vita già esistenti. [Ulteriori informazioni disponibili a breve] | 27 maggio 2022 |
+| Popolare dimensioni e metriche del ciclo di vita tramite Experience Edge | I dati del ciclo di vita mobile inviati tramite Experience Edge ora verranno visualizzati nei rapporti di Analytics. Consulta la documentazione per i dettagli su quali dati del ciclo di vita vengono raccolti tramite Experience Edge e qual è la corrispondenza con i rapporti sul ciclo di vita già esistenti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 27 maggio 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
