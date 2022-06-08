@@ -6,9 +6,9 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
+source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1729'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 Informazioni sulla pianificazione, il download e la distribuzione dei rapporti.
 
 >[!IMPORTANT]
->A partire dal 15 aprile 2022, Adobe intende sospendere tutti i rapporti pianificati con una data di creazione maggiore di due anni (tutte le attività create prima del 31 gennaio 2020). Nessun rapporto o dato verrà eliminato. Verranno messi in pausa solo i rapporti identificati come più vecchi di due anni e non verranno inviati ulteriori rapporti pianificati. [Ulteriori informazioni](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>Il 21 aprile 2022 è stata annunciata la rimozione di diverse funzioni specifiche dei rapporti pianificati in preparazione della scadenza del ciclo di vita di Reports &amp; Analytics, precedentemente annunciata. Queste funzionalità includevano la possibilità di pianificare nuovi rapporti e nuovi estratti di dati. In risposta alle richieste dei clienti che richiedono un’estensione e per facilitare la transizione da Reports &amp; Analytics, abbiamo deciso di estendere l’accesso a queste funzioni fino al 31 gennaio 2023. Si prega di notare che le scadenze per i rapporti e gli estratti dei dati continueranno a essere limitate a nove mesi; la consegna del report e dell&#39;estrazione dei dati verrà sospesa alla fine di questo periodo, a meno che la pianificazione non venga riattivata. [Ulteriori informazioni](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Quando pianifichi la consegna di un report in un&#39;applicazione di Adobe Analytics puoi utilizzare gli strumenti Scheduling (Pianificazione) e Distribution (Distribuzione) per visualizzare i file automaticamente inviati e modificati o per terminare le consegne.
 
@@ -80,7 +80,7 @@ Passaggi che descrivono come scaricare ed inviare per e-mail i rapporti in diver
 
 Passaggi che descrivono come stampare un rapporto.
 
-1. Esegui un report.
+1. Esegui un rapporto.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Print]**.  ![](assets/print.png)
 
 ## Scaricare un rapporto utilizzando le opzioni di base {#task_43660107A1C9485D92981CD75B562577}
@@ -121,7 +121,7 @@ Quando il destinatario fa clic sul collegamento, il sistema richiede le credenzi
 
 Per condividere un collegamento a un rapporto,
 
-1. Esegui un report.
+1. Esegui un rapporto.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
 
 ## Annulla sottoscrizione a rapporti pianificati {#concept_6B48360F935740B6851BA85D32DEF637}
