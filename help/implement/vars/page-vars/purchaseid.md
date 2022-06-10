@@ -3,9 +3,9 @@ title: purchaseID
 description: Deduplica gli hit in base a un identificatore di acquisto univoco.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,15 @@ Quando Adobe riconosce un hit come acquisto duplicato, tutti i dati di conversio
 
 L’ID acquisto è valido per tutti i visitatori e non scade. Se un visitatore imposta un determinato ID acquisto, un visitatore diverso lo imposta un anno dopo, il secondo acquisto viene deduplicato.
 
-## ID acquisto tramite tag in Adobe Experience Platform
+## ID acquisto tramite SDK per web
 
-Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+ID acquisto: [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nel campo XDM `commerce.order.purchaseID`.
 
-## s.purchaseID in AppMeasurement e nell&#39;editor di codice personalizzato
+## ID acquisto tramite l’estensione Adobe Analytics
+
+Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+
+## s.purchaseID in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 La `s.purchaseID` è una stringa che contiene un identificatore univoco di un acquisto. È impostato sullo stesso hit di un evento di acquisto. Utilizza solo caratteri alfanumerici per compilare la variabile.
 

@@ -3,9 +3,9 @@ title: Creare un livello di dati
 description: Scopri cosa è un livello di dati nell’implementazione di Analytics e come può essere utilizzato per mappare le variabili in Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '489'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ Ecco un video sull’uso dei livelli dati:
 
 >[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
 
-## Prerequisiti
+## Prerequisiti 
 
 [Creare un documento di progettazione della soluzione](solution-design.md) - È importante che l’organizzazione si allinei ai requisiti di tracciamento. Assicurati di essere preparato con un documento di progettazione della soluzione prima di avvicinarti ai team di sviluppo della tua organizzazione.
 
@@ -32,7 +32,7 @@ L’implementazione di Adobe Analytics tramite un livello dati in genere segue q
    >
    >Le specifiche dei livelli dati consigliate di Adobe sono facoltative. Se disponi già di un livello di dati, o in altro modo scegli di non seguire le specifiche di Adobe, assicurati che l&#39;organizzazione sia allineata alle specifiche da seguire.
 1. **Convalidare il livello dati utilizzando una console del browser**: Una volta creato un livello dati, puoi verificare che funzioni utilizzando qualsiasi console di sviluppo del browser. Puoi aprire la Developer Console nella maggior parte dei browser utilizzando `F12` chiave. Un valore variabile di esempio è `digitalData.page.pageInfo.pageID`.
-1. **Utilizzare i tag Adobe Experience Platform per mappare gli oggetti del livello dati agli elementi dati**: Crea elementi dati nell’interfaccia utente di raccolta dati in Adobe Experience Platform e mappali agli attributi JavaScript descritti nel livello dati.
+1. **Utilizzare la raccolta dati di Adobe Experience Platform per mappare gli oggetti del livello dati agli elementi dati**: Crea elementi dati in Adobe Experience Platform Data Collection e mappali agli attributi JavaScript descritti nel livello dati.
 1. **Utilizza l’estensione tag di Adobe Analytics per mappare gli elementi dati alle variabili di Analytics**: Seguendo il documento di progettazione della soluzione, assegna ogni elemento dati alla variabile Analytics appropriata.
 
 ## Specifiche

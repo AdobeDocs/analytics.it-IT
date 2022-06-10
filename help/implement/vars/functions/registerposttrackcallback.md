@@ -3,9 +3,9 @@ title: registerPostTrackCallback
 description: Crea funzioni di callback dopo l’invio di un hit ad Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,29 @@ Ogni volta che si chiama il `registerPostTrackCallback` aggancia la funzione per
 >
 >Tempi e ordine delle funzioni attivate tra [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` non sono garantite. Evita le dipendenze tra queste due funzioni.
 
-## Registra callback di post utilizzando i tag in Adobe Experience Platform
+## Callback post-tracciamento tramite l&#39;estensione SDK per web
 
-Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+Presto disponibile!
 
-## s.registerPostTrackCallback in AppMeasurement e nell&#39;editor di codice personalizzato
+## Callback di post-tracciamento Implementazione manuale dell&#39;SDK per web
+
+Puoi utilizzare una promessa JavaScript quando invii un evento per registrare una funzione dopo che i dati sono stati inviati con successo ad Adobe.
+
+```js
+alloy("sendEvent",{
+  "xdm": {}
+}).then(function(result) {
+  Console.Log("Data was successfully sent.");
+});
+```
+
+Vedi [Gestione delle risposte dagli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) per ulteriori informazioni, consulta la documentazione SDK per web .
+
+## Registra callback di post-tracciamento utilizzando l&#39;estensione Adobe Analytics
+
+Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+
+## s.registerPostTrackCallback in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 La `s.registerPostTrackCallback` è una funzione che utilizza una funzione come unico argomento. La funzione nidificata viene eseguita immediatamente dopo il corretto invio di una richiesta di immagine.
 

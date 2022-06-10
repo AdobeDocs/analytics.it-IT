@@ -3,9 +3,9 @@ title: Util.getQueryParam
 description: Restituisce il valore di un parametro di stringa query.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 I parametri della stringa di query in un URL del browser contengono frequentemente dati importanti per Analytics. Utilizza la `Util.getQueryParam()` per recuperare i dati dalla stringa di query.
 
-## Ottenere i dati dei parametri della stringa di query utilizzando i tag in Adobe Experience Platform
+## Ottieni i dati dei parametri della stringa di query utilizzando l&#39;estensione Adobe Analytics e l&#39;estensione SDK per web
 
 È possibile ottenere i dati dei parametri della stringa di query impostando i valori negli elementi dati.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+2. Fai clic sulla proprietà tag desiderata.
 3. Vai a [!UICONTROL Data Elements] , quindi fai clic sull’elemento dati desiderato (o crea un elemento dati).
-4. Imposta la [!UICONTROL Extension] a discesa [!UICONTROL Core]e [!UICONTROL Data Element Type] a [!UICONTROL Query String Parameter].
+4. Imposta la [!UICONTROL Extension] a discesa **[!UICONTROL Core]** e [!UICONTROL Data Element Type] a **[!UICONTROL Query String Parameter]**.
 5. Immettere il parametro della stringa query nel campo di testo.
 
-Il valore del parametro della stringa di query viene memorizzato nell&#39;elemento dati. Puoi quindi fare riferimento all’elemento dati nelle regole per assegnare le variabili di Analytics.
+Il valore del parametro della stringa di query viene memorizzato nell&#39;elemento dati. Puoi quindi fare riferimento all’elemento dati nelle regole per assegnare le variabili desiderate.
 
-## s.Util.getQueryParam() in AppMeasurement e nell&#39;editor di codice personalizzato
+## s.Util.getQueryParam() in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 Chiama il `s.Util.getQueryParam()` per recuperare un valore della stringa di query dall&#39;URL del browser. L&#39;argomento stringa contenente un parametro della stringa di query è obbligatorio. Questo metodo restituisce una stringa che puoi assegnare alle variabili di Analytics:
 

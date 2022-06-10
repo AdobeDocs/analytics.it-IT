@@ -3,10 +3,10 @@ title: Autorizzazioni Adobe Analytics - tabelle di riepilogo
 description: Tabelle che riepilogano le autorizzazioni Adobe Analytics disponibili in Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ Utilizza le tabelle di riepilogo seguenti per identificare le autorizzazioni di 
 
 | Strumento di Analytics | Amministrazione | Controlli di accesso | Funzioni solo rapporti | Obsoleto | Descrizione |
 | --- | --- | --- | --- | --- | --- |
-| Gestione codici | x |  |  |  | Mantenuto per scopi legacy. Consente di accedere ad Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Nella maggior parte dei casi, utilizza le librerie incluse nell’interfaccia utente di raccolta dati. |
+| Gestione codici | x |  |  |  | Mantenuto per scopi legacy. Consente di accedere ad Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Nella maggior parte dei casi, utilizza invece le librerie incluse nell’estensione Adobe Analytics all’interno di Raccolta dati di Adobe Experience Platform. |
 | Gestione codici - Servizi web | x |  |  |  | Consente di accedere a Gestione codici tramite l’API 1.4. |
 | Nascondere suite di rapporti | x |  |  |  | Consente di accedere ad Admin > All admin > Company settings > Hide Report Suites (Amministrazione > Tutte le attività di amministrazione > Impostazioni società > Nascondi suite di rapporti). Consente di nascondere qualsiasi suite di rapporti nell’organizzazione, indipendentemente dall’accesso alla suite di rapporti. |
 | Integrazioni (creare) | x |  |  |  | Consente di accedere ad Admin > All admin > Data connectors (Amministrazione > Tutte le attività di amministrazione > Connettori dati) e di creare connettori dati. |

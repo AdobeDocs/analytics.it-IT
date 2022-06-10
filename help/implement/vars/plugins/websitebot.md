@@ -3,10 +3,10 @@ title: websiteBot
 description: Identificare dinamicamente i bot utilizzando il movimento del mouse.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 >
 >Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
 
-La `websiteBot` Il plug-in ti consente di identificare dinamicamente se i visitatori del desktop sono bot. Puoi utilizzare questi dati per ottenere una maggiore precisione in tutti i tipi di reporting, che ti offre un modo migliore per misurare il traffico del sito legittimo.
+Il plug-in `websiteBot` consente di verificare dinamicamente se i visitatori del desktop sono bot. Puoi utilizzare questi dati per ottenere una maggiore precisione in tutti i tipi di reportistica e quindi un modo migliore per misurare il traffico del sito legittimo.
 
 Questo plug-in esegue due verifiche:
 
@@ -25,10 +25,10 @@ Questo plug-in esegue due verifiche:
 
 Se l&#39;agente utente è su un desktop e non viene rilevato alcun movimento del mouse, il plug-in può
 
-* Effettua una chiamata diretta alla regola utilizzando i tag in Adobe Experience Platform, oppure
+* Effettua una chiamata diretta della regola di chiamata utilizzando l’SDK per web o l’estensione Adobe Analytics, oppure
 * Effettua una chiamata di tracciamento dei collegamenti per indicare che il visitatore non è un bot.
 
-## Prerequisiti
+## Prerequisiti 
 
 Adobe consiglia quanto segue prima di utilizzare questo plug-in:
 

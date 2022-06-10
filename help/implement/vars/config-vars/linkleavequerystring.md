@@ -3,10 +3,10 @@ title: linkLeaveQueryString
 description: Consente la conservazione delle stringhe di query nelle dimensioni di tracciamento dei collegamenti.
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 1%
+source-wordcount: '318'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +24,22 @@ Abilitazione `linkLeaveQueryString` si applica a tutte le dimensioni di tracciam
 >
 >Questa variabile non influisce sulle dimensioni al di fuori del tracciamento dei collegamenti. Riguarda solo i collegamenti personalizzati, i collegamenti di uscita e i collegamenti per il download.
 
-## Mantieni i parametri URL utilizzando i tag in Adobe Experience Platform
+## Gestire le stringhe di query dei collegamenti utilizzando l’SDK per web
+
+Le stringhe di query non vengono eliminate dal campo XDM `web.webInteraction.URL`. Se si desidera rimuovere le stringhe di query da questo campo XDM, è possibile modificarle utilizzando `onBeforeEventSend`.
+
+## Mantenere i parametri URL tramite l’estensione Adobe Analytics
 
 [!UICONTROL Keep URL Parameters] è una casella di controllo sotto [!UICONTROL Link Tracking] pannello a soffietto durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
-3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto Adobe Analytics.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+2. Fai clic sulla proprietà tag desiderata.
+3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto Adobe Analytics.
 4. Espandi la [!UICONTROL Link Tracking] fisarmonica, che rivela [!UICONTROL Keep URL Parameters] casella di controllo.
 
 Seleziona questa casella se desideri includere stringhe di query nelle dimensioni di tracciamento dei collegamenti.
 
-## s.linkLeaveQueryString in AppMeasurement e nell&#39;editor di codice personalizzato
+## s.linkLeaveQueryString in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 La `s.linkLeaveQueryString` è una variabile booleana. Il valore predefinito è `false`.
 

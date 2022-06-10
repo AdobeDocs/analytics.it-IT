@@ -3,9 +3,9 @@ title: prop
 description: Variabili personalizzate che puoi utilizzare nell’implementazione.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,16 @@ Le proprietà sono variabili personalizzate che puoi utilizzare come desideri. N
 
 Se hai [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), puoi allocare queste dimensioni personalizzate ai valori specifici dell’organizzazione. Il numero di proprietà disponibili dipende dal contratto con Adobe. Sono disponibili fino a 75 proprietà se il contratto con Adobe lo supporta.
 
-## Proprietà che utilizzano i tag in Adobe Experience Platform
+## Proprietà che utilizzano l’SDK per web
+
+Le proprietà sono [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nei campi XDM `_experience.analytics.customDimensions.props.prop1` a `_experience.analytics.customDimensions.props.prop75`.
+
+## Proprietà che utilizzano l’estensione Adobe Analytics
 
 Puoi impostare le proprietà durante la configurazione dell’estensione Analytics (variabili globali) o in regole.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+2. Fai clic sulla proprietà tag desiderata.
 3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
 4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
 5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
@@ -35,7 +39,7 @@ Puoi impostare le proprietà durante la configurazione dell’estensione Analyti
 
 Puoi impostare una proprietà su un valore o su un elemento dati. Puoi anche copiare il valore da un’altra variabile di Analytics.
 
-## s.prop1 - s.prop75 in AppMeasurement e nell&#39;editor di codice personalizzato
+## s.prop1 - s.prop75 in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
 Ogni variabile di proprietà è una stringa che contiene valori personalizzati specifici dell’organizzazione. La loro lunghezza massima è di 100 byte; i valori superiori a 100 byte vengono troncati automaticamente quando inviati ad Adobe.
 

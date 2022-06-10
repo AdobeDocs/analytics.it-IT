@@ -3,10 +3,10 @@ title: charSet
 description: La variabile charSet determina quale Adobe di codifica utilizza per analizzare la richiesta di immagine.
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
@@ -16,18 +16,22 @@ La variabile charSet viene utilizzata da Adobe per convertire i dati in entrata 
 
 Imposta questa variabile solo se visualizzi valori non elaborati ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) nei rapporti. Puoi impostare questa variabile pagina per pagina se il sito utilizza codifiche diverse su pagine diverse.
 
-## Set di caratteri in Adobe Experience Platform
+## Set di caratteri nell’SDK per web
 
-Il set di caratteri è un campo sotto [!UICONTROL General] pannello a soffietto durante la configurazione dell&#39;estensione Adobe Analytics.
+L&#39;SDK per web supporta attualmente solo UTF-8 e non fornisce opzioni per modificare la codifica.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto Adobe Analytics.
+## Set di caratteri nell’estensione Adobe Analytics
+
+Il set di caratteri è un campo sotto [!UICONTROL General] pannello a soffietto durante la configurazione dell’estensione Adobe Analytics in Adobe Experience Platform Data Collection.
+
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Fai clic sulla proprietà tag desiderata.
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto Adobe Analytics.
 1. Espandi la [!UICONTROL General] fisarmonica, che rivela [!UICONTROL Character Set] campo .
 
 Puoi utilizzare un set di caratteri predefinito o personalizzato. Evita di modificare il valore da `UTF-8` a meno che nei rapporti non vengano visualizzati valori illeggibili.
 
-## s.charSet in AppMeasurement e nell&#39;editor di codice personalizzato
+## s.charSet in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 La `charSet` è una stringa. Se in Adobe Analytics sono presenti valori non validi, imposta questa variabile sullo stesso valore della variabile `<meta charset="">` Tag HTML sul sito.
 

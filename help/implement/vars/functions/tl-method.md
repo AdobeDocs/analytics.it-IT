@@ -3,9 +3,9 @@ title: tl
 description: Invia ad Adobe una chiamata di tracciamento dei collegamenti.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -16,20 +16,38 @@ La `tl()` è un componente di base importante per Adobe Analytics. Prende tutte 
 
 Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) sono abilitati, AppMeasurement chiama automaticamente il `tl()` metodo per inviare i dati di tracciamento dei collegamenti di download e di uscita. Se la tua organizzazione preferisce avere più controllo sui collegamenti da tracciare e sul loro comportamento, puoi chiamare il `tl()` metodo manuale. I collegamenti personalizzati possono essere tracciati solo manualmente.
 
-## Chiamata di tracciamento dei collegamenti tramite tag in Adobe Experience Platform
+## Tracciamento dei collegamenti tramite l’SDK per web
 
-L’interfaccia utente di raccolta dati dispone di una posizione dedicata impostata per una chiamata di tracciamento dei collegamenti.
+L&#39;SDK per web non distingue tra le chiamate di visualizzazione della pagina e quelle di tracciamento dei collegamenti; entrambi utilizzano `sendEvent` comando. Se desideri che Adobe Analytics conti un dato evento come una chiamata di tracciamento dei collegamenti, assicurati che i dati XDM includano `web.webInteraction.name`, `web.webInteraction.URL`e `web.webInteraction.type`.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-1. Fai clic sulla proprietà desiderata.
+```js
+alloy("sendEvent", {
+  "xdm": {
+    "web": {
+      "webInteraction": {
+        "name": "My Custom Link",
+        "URL": "https://example.com",
+        "type": "other"
+      }
+    }
+  }
+});
+```
+
+## Tracciamento dei collegamenti tramite l’estensione Adobe Analytics
+
+L’estensione Adobe Analytics dispone di una posizione dedicata per impostare una chiamata di tracciamento dei collegamenti.
+
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Fai clic sulla proprietà tag desiderata.
 1. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
-1. Sotto [!UICONTROL Actions], fai clic sull&#39;icona &quot;+&quot;
-1. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a Invia beacon.
+1. Sotto [!UICONTROL Actions], fai clic sull’azione desiderata o fai clic sul pulsante **&#39;+&#39;** per aggiungere un’azione.
+1. Imposta la [!UICONTROL Extension] a discesa **[!UICONTROL Adobe Analytics]** e [!UICONTROL Action Type] a **[!UICONTROL Send Beacon]**.
 1. Fai clic sul pulsante `s.tl()` pulsante di scelta.
 
-Non è possibile impostare argomenti facoltativi nell’interfaccia utente Raccolta dati.
+Non è possibile impostare argomenti facoltativi nell’estensione Analytics.
 
-## s.tl() in AppMeasurement e nell&#39;editor di codice personalizzato
+## s.tl() in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 Chiama il `s.tl()` quando desideri inviare una chiamata di tracciamento ad Adobe.
 

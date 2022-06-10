@@ -3,10 +3,10 @@ title: s_gi()
 description: Crea e tieni traccia delle istanze di AppMeasurement.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '480'
+ht-degree: 0%
 
 ---
 
@@ -14,18 +14,43 @@ ht-degree: 1%
 
 La `s_gi()` crea un&#39;istanza di AppMeasurement per l&#39;ID suite di rapporti. AppMeasurement tiene traccia di ogni istanza creata, e `s_gi()` restituisce l&#39;istanza esistente per una suite di rapporti, se esistente. Se un&#39;istanza non esiste, viene creata una nuova istanza.
 
-## s_gi() utilizzando i tag in Adobe Experience Platform
+## Creare un’istanza di un oggetto di tracciamento utilizzando l’estensione SDK per web
+
+L&#39;estensione Web SDK crea un&#39;istanza e gestisce l&#39;oggetto di tracciamento per te. Tuttavia, puoi personalizzare il nome dell&#39;oggetto di tracciamento nelle impostazioni dell&#39;estensione:
+
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Fai clic sulla proprietà tag desiderata.
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Experience Platform Web SDK.
+1. Modificare la [!UICONTROL Name] al valore desiderato. Il valore predefinito è `alloy`.
+
+## Creare un’istanza di un oggetto di tracciamento manualmente tramite l’implementazione dell’SDK per web
+
+Il codice seguente carica l&#39;SDK per web e crea un&#39;istanza di un oggetto di tracciamento. Puoi personalizzare il nome dell’oggetto di tracciamento modificando la stringa `"alloy"` alla fine dello script in linea con il valore desiderato.
+
+```js
+<script>
+  !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+  []).push(o),n[o]=function(){var u=arguments;return new Promise(
+  function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+  (window,["alloy"]);
+</script>
+<script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
+```
+
+Vedi [Installare l’SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) per ulteriori informazioni, consulta la documentazione SDK per web .
+
+## Creare un’istanza di un oggetto di tracciamento utilizzando l’estensione Adobe Analytics
 
 L&#39;estensione Analytics crea un&#39;istanza e gestisce l&#39;oggetto di tracciamento per te. Tuttavia, puoi anche impostare un oggetto di tracciamento globale nel [!UICONTROL Library Management] pannello a soffietto durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
-3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto Adobe Analytics.
-4. Espandi la [!UICONTROL Library Management] e selezionare un pulsante di scelta diverso da [!UICONTROL Manage the library for me].
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Fai clic sulla proprietà tag desiderata.
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto Adobe Analytics.
+1. Espandi la [!UICONTROL Library Management] e selezionare un pulsante di scelta diverso da [!UICONTROL Manage the library for me].
 
 Il campo di testo della variabile globale consente di impostare un oggetto di tracciamento personalizzato. Il valore predefinito è `s`.
 
-## s_gi() in AppMeasurement e nell&#39;editor di codice personalizzato
+## s_gi() in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 Chiama il `s_gi()` per creare un&#39;istanza di un oggetto di tracciamento. L&#39;unico argomento contiene una stringa delimitata da virgole degli ID suite di rapporti. L’argomento ID suite di rapporti è obbligatorio.
 

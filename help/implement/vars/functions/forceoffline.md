@@ -3,9 +3,9 @@ title: forceOffline
 description: Imposta manualmente lo stato online di AppMeasurement.
 feature: Variables
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,15 @@ La `forceOffline()` consente di ignorare lo stato rilevato automaticamente di Ap
 
 AppMeasurement rileva automaticamente lo stato online del dispositivo. È possibile utilizzare `forceOffline()` per forzare AppMeasurement a trattare gli hit come se il dispositivo fosse offline. Questo metodo non accetta argomenti e non restituisce alcun valore. L’unico scopo è quello di ignorare lo stato online in AppMeasurement.
 
-## Force Offline using tags in Adobe Experience Platform (Forza offline utilizzando i tag in)
+## Forza offline utilizzando l&#39;SDK per web
 
-Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+L&#39;SDK per web non supporta il tracciamento offline.
 
-## s.forceOffline() in AppMeasurement e nell&#39;editor di codice personalizzato
+## Force offline using the Adobe Analytics extension (Forza offline utilizzando l’estensione)
+
+Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+
+## s.forceOffline() in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 Puoi chiamare il `s.forceOffline()` in qualsiasi punto dell&#39;implementazione dopo aver creato un&#39;istanza dell&#39;oggetto Analytics.
 

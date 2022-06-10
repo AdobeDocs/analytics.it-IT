@@ -3,9 +3,9 @@ title: fpcookieDomainPeriods
 description: Aiuta AppMeasurement a capire quale dominio memorizzare i cookie se il tuo dominio ha un punto nel suo suffisso.
 feature: Variables
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,22 @@ La `fpCookieDomainPeriods` aiuta AppMeasurement a determinare dove vengono impos
 >
 >Non prendere in considerazione i sottodomini per questa variabile. Ad esempio, non impostare `fpCookieDomainPeriods` sull’URL di esempio `store.toys.example.com`. AppMeasurement per impostazione predefinita riconosce che i cookie devono essere memorizzati in `example.com`, anche sugli URL con molti sottodomini.
 
-## Periodi di dominio di prime parti utilizzando i tag in Adobe Experience Platform
+## Periodi di dominio di prime parti che utilizzano l’SDK per web
+
+L&#39;SDK per web può determinare il dominio di archiviazione dei cookie corretto senza questa variabile.
+
+## Periodi di dominio di prime parti che utilizzano l’estensione Adobe Analytics
 
 Periodi di dominio di prime parti è un campo nel campo [!UICONTROL Cookies] pannello a soffietto durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
-3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto Adobe Analytics.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+2. Fai clic sulla proprietà tag desiderata.
+3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto Adobe Analytics.
 4. Espandi la [!UICONTROL Cookies] fisarmonica, che rivela [!UICONTROL First-party Domain Periods] campo .
 
 Imposta questo campo su `3` solo nei domini che contengono un punto nel relativo suffisso. In caso contrario, questo campo può essere lasciato vuoto.
 
-## s.fpCookieDomainPeriods in AppMeasurement e nell&#39;editor di codice personalizzato
+## s.fpCookieDomainPeriods in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 La `fpCookieDomainPeriods` è una stringa generalmente impostata su `"3"`, solo nei domini che contengono un punto nel relativo suffisso. Il valore predefinito è `"2"`, che gestisce la maggior parte dei domini.
 

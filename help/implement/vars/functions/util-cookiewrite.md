@@ -3,7 +3,7 @@ title: Util.cookieWrite
 description: Scrive un valore per un cookie.
 feature: Variables
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 I cookie possono memorizzare e recuperare informazioni tra le pagine dello stesso dominio. Utilizza la `Util.cookieWrite()` per impostare un valore su un cookie. È possibile utilizzare [`Util.cookieRead()`](util-cookieread.md) metodo per recuperare i valori impostati con `Util.cookieWrite()`.
 
-## Impostare i cookie utilizzando i tag in Adobe Experience Platform
+## Impostare i cookie utilizzando l’estensione Adobe Analytics e l’estensione Web SDK
 
-L’interfaccia utente di raccolta dati non consente di impostare i cookie nell’interfaccia di . Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+La raccolta dati di Adobe Experience Platform non consente di impostare i cookie nell’interfaccia di .
 
-## s.Util.cookieWrite() in AppMeasurement e nell&#39;editor di codice personalizzato
+## s.Util.cookieWrite() in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 Chiama il `s.Util.cookieWrite()` per impostare un cookie su un valore desiderato.
 

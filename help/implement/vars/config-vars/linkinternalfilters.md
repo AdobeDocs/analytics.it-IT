@@ -3,18 +3,18 @@ title: linkInternalFilters
 description: Utilizza la variabile linkInternalFilters per facilitare l'uscita automatica del tracciamento dei collegamenti.
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 # linkInternalFilters
 
-AppMeasurement offre la possibilità di tracciare automaticamente i collegamenti che puntano all&#39;esterno del sito. Se [`trackExternalLinks`](trackexternallinks.md) è abilitata, una richiesta di immagine viene inviata all’Adobe a destra quando un visitatore fa clic su un collegamento per uscire dal sito. La [`linkExternalFilters`](linkexternalfilters.md) e `linkInternalFilters` le variabili determinano quali collegamenti sono considerati interni/esterni.
+AppMeasurement offre la possibilità di tracciare automaticamente i collegamenti che puntano all&#39;esterno del sito. Se [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) è abilitato e viene inviata una richiesta di immagine all’Adobe a destra quando un visitatore fa clic su un collegamento per uscire dal sito. La [`linkExternalFilters`](linkexternalfilters.md) e `linkInternalFilters` le variabili determinano quali collegamenti sono considerati interni/esterni.
 
-Se questa variabile contiene un valore, il tracciamento automatico dei collegamenti di uscita si comporta come un inserire nell&#39;elenco Bloccati. Se un clic su un collegamento non corrisponde ad alcun `linkInternalFilters` viene considerato un collegamento di uscita. L’intero URL viene esaminato rispetto a questa variabile. Se [`linkLeaveQueryString`](linkleavequerystring.md) è abilitata, viene esaminata anche la stringa di query.
+Se questa variabile contiene un valore, il tracciamento automatico dei collegamenti di uscita si comporta come un elenco Bloccati. Se un clic su un collegamento non corrisponde ad alcun `linkInternalFilters` viene considerato un collegamento di uscita. L’intero URL viene esaminato rispetto a questa variabile. Se [`linkLeaveQueryString`](linkleavequerystring.md) è abilitata, viene esaminata anche la stringa di query.
 
 Se utilizzi entrambi `linkInternalFilters` e `linkExternalFilters` contemporaneamente, il collegamento selezionato deve corrispondere a `linkExternalFilters` **e** non corrispondente `linkInternalFilters` da considerare un collegamento di uscita. Se un collegamento selezionato corrisponde ai criteri di collegamento di uscita e di download, il tipo di collegamento di download ha la priorità.
 
@@ -24,18 +24,24 @@ Activity Map utilizza questa variabile per determinare quali collegamenti sono i
 >
 >`linkInternalFilters` e [Filtri URL interni](/help/admin/admin/internal-url-filter-admin.md) sono caratteristiche separate che soddisfano scopi separati. La `linkInternalFilters` Questa variabile funziona in modo specifico per il tracciamento dei collegamenti in uscita. I filtri URL interni sono un’impostazione Admin che consente di gestire le dimensioni delle origini di traffico come Dominio di riferimento.
 
-## Collegamenti in uscita - Non tenere traccia dell’utilizzo dei tag in Adobe Experience Platform
+## Esci dai collegamenti nell’SDK per web
+
+I collegamenti si qualificano automaticamente come collegamento di uscita se il dominio di destinazione del collegamento è diverso da quello corrente `window.location.hostname`. L&#39;SDK per web non offre variabili di configurazione per modificare il rilevamento automatico dei collegamenti di uscita. Se devi personalizzare i domini che si qualificano come collegamento di uscita, puoi utilizzare la logica personalizzata nel `onBeforeEventSend` callback.
+
+Vedi [Tracciamento automatico dei collegamenti](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) per ulteriori informazioni, consulta la documentazione SDK per web .
+
+## Collegamenti in uscita - Non tenere traccia dell’utilizzo dell’estensione Adobe Analytics
 
 Il campo Never Track è un elenco di filtri separati da virgole (in genere domini) sotto [!UICONTROL Link Tracking] pannello a soffietto durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
-3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto Adobe Analytics.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+2. Fai clic sulla proprietà tag desiderata.
+3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto Adobe Analytics.
 4. Espandi la [!UICONTROL Link Tracking] fisarmonica, che rivela [!UICONTROL Outbound Links - Never Track] campo .
 
 Posiziona in questo campo i filtri che non dovranno mai essere tracciati come collegamenti di uscita. Separa più domini con una virgola senza uno spazio.
 
-## s.linkInternalFilters in AppMeasurement e nell&#39;editor di codice personalizzato
+## s.linkInternalFilters in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 La `s.linkInternalFilters` è una stringa contenente filtri (come i domini) considerati interni al sito. Separa più filtri utilizzando una virgola senza spazi.
 

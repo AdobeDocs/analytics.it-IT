@@ -3,9 +3,9 @@ title: t
 description: Invia ad Adobe una chiamata di tracciamento della visualizzazione della pagina.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -36,18 +36,40 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe riceve la richiesta di immagine, quindi analizza l’intestazione della richiesta, l’URL e i parametri della stringa di query. I server di raccolta dati restituiscono quindi un’immagine trasparente da 1 pixel x 1, visualizzata in modo invisibile sul sito.
 
-## Chiamata di tracciamento della visualizzazione pagina tramite tag in Adobe Experience Platform
+## Invia un evento utilizzando l&#39;estensione SDK per web
 
-L’interfaccia utente di raccolta dati dispone di una posizione dedicata impostata per una chiamata di tracciamento della visualizzazione della pagina.
+Utilizza un’azione per configurare l’invio ad Adobe di dati evento XDM. Il Datastream riceve questi dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics se si tratta di un servizio aggiunto a tale Datastream.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
-3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
-4. Sotto [!UICONTROL Actions], fai clic sull&#39;icona &quot;+&quot;
-5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a Invia beacon.
-6. Fai clic sul pulsante `s.t()` pulsante di scelta.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Fai clic sulla proprietà tag desiderata.
+1. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
+1. Sotto [!UICONTROL Actions], fai clic sull’azione desiderata o sul pulsante **&#39;+&#39;** per aggiungere un’azione.
+1. Imposta la [!UICONTROL Extension] a discesa **[!UICONTROL Adobe Experience Platform Web SDK]** e [!UICONTROL Action Type] a **[!UICONTROL Send event]**.
 
-## s.t() in AppMeasurement e nell&#39;editor di codice personalizzato
+## Invia l&#39;evento manualmente implementazione dell&#39;SDK per web
+
+Utilizza la `sendEvent` per inviare dati ad Adobe. Il Datastream riceve questi dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics se si tratta di un servizio aggiunto a tale Datastream.
+
+```js
+alloy("sendEvent", {
+  "xdm": {}
+});
+```
+
+Vedi [Tracciare gli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) per ulteriori informazioni, consulta la documentazione SDK per web .
+
+## Chiamata di tracciamento della visualizzazione pagina tramite l’estensione Adobe Analytics
+
+L’estensione Adobe Analytics in Adobe Experience Platform Data Collection ha una posizione dedicata impostata come chiamata di tracciamento della visualizzazione della pagina.
+
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Fai clic sulla proprietà tag desiderata.
+1. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
+1. Sotto [!UICONTROL Actions], fai clic sull’azione desiderata o fai clic sul pulsante **&#39;+&#39;** per aggiungere un’azione.
+1. Imposta la [!UICONTROL Extension] a discesa **[!UICONTROL Adobe Analytics]** e [!UICONTROL Action Type] a **[!UICONTROL Send Beacon]**.
+1. Fai clic sul pulsante `s.t()` pulsante di scelta.
+
+## s.t() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
 Chiama il `s.t()` quando desideri inviare una chiamata di tracciamento ad Adobe.
 

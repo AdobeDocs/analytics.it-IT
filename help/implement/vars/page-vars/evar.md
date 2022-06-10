@@ -3,9 +3,9 @@ title: Variabili eVar
 description: Variabili personalizzate che puoi utilizzare nell’implementazione.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,16 @@ Il numero di eVar disponibili dipende dal contratto con l’Adobe. Sono disponib
 
 Prima di utilizzare le eVar nell’implementazione, assicurati di configurare ogni eVar nelle impostazioni della suite di rapporti. Vedi [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nella guida Amministratore.
 
-## eVar che utilizzano i tag in Adobe Experience Platform
+## eVar tramite l’SDK per web
+
+Le eVar sono [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nei campi XDM `_experience.analytics.customDimensions.eVars.eVar1` a `_experience.analytics.customDimensions.eVars.eVar250`.
+
+## eVar tramite l’estensione Adobe Analytics
 
 Puoi impostare le eVar sia durante la configurazione dell’estensione Analytics (variabili globali) sia in base a regole.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+2. Fai clic sulla proprietà tag desiderata.
 3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
 4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
 5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
@@ -35,7 +39,7 @@ Puoi impostare le eVar sia durante la configurazione dell’estensione Analytics
 
 Puoi impostare un eVar su un valore o su un elemento dati. Puoi anche copiare il valore da un’altra variabile di Analytics.
 
-## s.eVar1 - s.eVar250 in AppMeasurement e nell&#39;editor di codice personalizzato
+## s.eVar1 - s.eVar250 in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 Ogni eVar è una stringa che contiene valori personalizzati specifici dell&#39;organizzazione. La loro lunghezza massima è di 255 byte; i valori superiori a 255 byte vengono troncati automaticamente quando inviati ad Adobe.
 

@@ -4,9 +4,9 @@ description: Scopri quali variabili puoi includere nei dati inviati ad Adobe per
 keywords: appmeasurement,variabili,vars,configurazione,pagina,implementazione
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Analytics fornisce una serie di variabili per raccogliere i dati di Analytics. L
 
 ## Variabili e metodi di implementazione
 
-Adobe offre diversi modi per implementare Adobe Analytics. Ogni pagina offre una sezione su come implementare la variabile utilizzando i tag in Adobe Experience Platform e AppMeasurement per JavaScript.
+Adobe offre diversi modi per implementare Adobe Analytics. Ogni pagina offre una sezione su come implementare la variabile utilizzando l’SDK per web, utilizzando l’estensione Adobe Analytics e AppMeasurement per JavaScript.
 
 Ecco un video sulla configurazione delle variabili in Adobe Analytics:
 

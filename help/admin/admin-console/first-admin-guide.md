@@ -3,10 +3,10 @@ title: Guida per il primo amministratore di Adobe Analytics
 description: Scopri come iniziare a utilizzare Adobe Analytics, i tipi di ruolo generali e l’accesso all’interfaccia utente.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '921'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '913'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Un primo amministratore è il punto di partenza per consentire al resto dell’o
 Se la tua organizzazione ha acquistato Adobe Analytics, ci sono diversi ruoli chiave da considerare:
 
 * **Amministratori Adobe Analytics:** questi utenti hanno accesso completo a tutto ciò che si trova in Adobe Analytics, incluse le impostazioni della suite di rapporti e le autorizzazioni per gli utenti. A seconda di come è strutturata la tua organizzazione, persone o team diversi possono essere responsabili di diversi aspetti dell’amministrazione di Analytics. Ad esempio, può esserci un responsabile della designazione delle variabili da utilizzare in un’implementazione. Un’altra persona può essere responsabile di consentire agli utenti di estrarre correttamente i rapporti garantendo a tutti le autorizzazioni corrette. Identifica almeno un utente come responsabile delle impostazioni della suite di rapporti di Analytics e delle autorizzazioni utente in modo che possa invitare da lì altri amministratori di Analytics.
-* **Amministratori della raccolta dati:** questi utenti hanno accesso completo a tutto ciò che si trova nell’interfaccia utente di raccolta dati (precedentemente interfaccia utente di Experience Platform Launch), comprese le autorizzazioni di pubblicazione, creazione di contenitori e autorizzazioni per gli utenti. Questi utenti non sono necessariamente programmatori, ma è utile che abbiano una conoscenza almeno da principiante di HTML, CSS e JavaScript. Essi devono collaborare con i proprietari del sito web dell’organizzazione per implementare i tag di Experience Platform sul sito. Identifica almeno un utente responsabile dell’implementazione dell’organizzazione: si occuperà di invitare altri amministratori di raccolta dati da lì.
+* **Amministratori della raccolta dati:** Questi utenti hanno accesso completo a tutto ciò che si trova nella raccolta dati di Adobe Experience Platform, comprese le autorizzazioni di pubblicazione, creazione di contenitori e autorizzazioni per gli utenti. Questi utenti non sono necessariamente programmatori, ma è utile che abbiano una conoscenza almeno da principiante di HTML, CSS e JavaScript. Sono responsabili di lavorare con i proprietari del sito web della tua organizzazione per implementare i tag sul tuo sito. Identifica almeno un utente responsabile dell’implementazione dell’organizzazione: si occuperà di invitare altri amministratori di raccolta dati da lì.
 * **Delegati di supporto**: noti anche come utenti supportati, non dispongono di privilegi aggiuntivi nell’interfaccia di Analytics. Al contrario, ricevono privilegi aggiuntivi durante la comunicazione con l’Assistenza clienti Adobe. Questi utenti sono quasi sempre amministratori di Analytics, poiché questo consente all’Assistenza clienti di collaborare per risolvere i problemi. Identifica almeno un amministratore di Analytics responsabile di facilitare le interazioni tra gli utenti finali e l’Assistenza clienti di Adobe.
 * **Proprietari del sito web:** questi utenti singoli o team sono responsabili della codifica e dello sviluppo del sito web. Non hanno bisogno di account, ma devono essere pronti a collaborare con gli amministratori di raccolta dati per ottenere il codice tag e implementarlo sul sito web.
 * **Utenti finali:** in genere questi utenti visualizzano i rapporti e cercano le risposte alle domande aziendali. Gli amministratori di Analytics concedono a questi utenti le autorizzazioni per lavorare nel prodotto.

@@ -3,9 +3,9 @@ title: Panoramica sui plug-in
 description: Incolla il codice sul sito per introdurre nuove funzionalità.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '369'
 ht-degree: 10%
 
 ---
@@ -20,7 +20,7 @@ I plug-in sono snippet di codice che eseguono diverse funzioni avanzate per faci
 
 Adobe offre diversi modi per installare un determinato plug-in:
 
-1. Utilizza l’estensione &quot;Common Analytics Plugins&quot; utilizzando i tag in Adobe Experience Platform
+1. Utilizza l’estensione &quot;Common Analytics Plugins&quot; utilizzando l’SDK per web o l’estensione Adobe Analytics
 2. Incolla il codice plug-in utilizzando l’editor di codice personalizzato
 3. Incolla il codice del plug-in nel tuo `AppMeasurement.js` file
 

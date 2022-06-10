@@ -3,9 +3,9 @@ title: Distribuire Adobe Analytics in un ambiente di sviluppo
 description: Scopri come utilizzare i tag per distribuire Adobe Analytics nel tuo ambiente di sviluppo.
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '558'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Dopo aver creato e configurato una proprietà tag, le librerie sono pronte per essere distribuite e implementate il codice sul sito.
 
-## Prerequisiti
+## Prerequisiti 
 
 [Creare e configurare una proprietà tag per Adobe Analytics](create-analytics-property.md): Accedi allo strumento e crea uno spazio per la tua implementazione di Analytics.
 
@@ -22,7 +22,7 @@ Dopo aver creato e configurato una proprietà tag, le librerie sono pronte per e
 
 I tag consentono di gestire molti flussi di lavoro organizzativi durante la distribuzione del codice. Segui questi passaggi per creare i componenti minimi necessari per un’implementazione di Analytics. In qualità di amministratore dei tag, puoi lavorare all’interno della tua organizzazione per stabilire il flusso di lavoro corretto per la distribuzione delle soluzioni Adobe.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 2. Fai clic sulla proprietà tag che intendi implementare sul sito.
 3. Fai clic su **[!UICONTROL Hosts]**, quindi su **[!UICONTROL Add Host]**.
 4. Denomina `"Adobe managed"`, quindi seleziona **[!UICONTROL Managed by Adobe]** nel menu a discesa tipo . Fai clic su Salva.
@@ -36,7 +36,7 @@ I tag consentono di gestire molti flussi di lavoro organizzativi durante la dist
 
 Nonostante tutte le modifiche e le configurazioni apportate finora, non è stato pubblicato alcun codice. La creazione di una libreria, tradotta approssimativamente come una raccolta di modifiche, consente di utilizzare la pubblicazione del codice sul sito.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 2. Fai clic sulla proprietà tag che intendi implementare sul sito.
 3. Fai clic sul pulsante **[!UICONTROL Publishing Flow]** scheda , quindi fai clic su **[!UICONTROL Add Library]**. Vedi [Panoramica sulla pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) per ulteriori informazioni su questa pagina, consulta la documentazione sui tag .
 4. Assegna un nome alla libreria `'Initial changes'`, quindi seleziona l’ambiente di sviluppo.

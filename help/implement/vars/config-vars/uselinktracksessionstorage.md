@@ -3,9 +3,9 @@ title: useLinkTrackSessionStorage
 description: Archivia i dati di tracciamento dei collegamenti nell’archiviazione delle sessioni invece che in un cookie.
 feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,15 @@ L’utilizzo dell’archiviazione di sessione di un browser per il tracciamento 
 
 AppMeasurement rimuove i dati di tracciamento dei collegamenti di archiviazione sessione dopo l&#39;invio di un hit ad Adobe. Inoltre scade automaticamente quando la scheda del browser viene chiusa.
 
-## Utilizza l’archiviazione delle sessioni di tracciamento dei collegamenti tramite tag in Adobe Experience Platform
+## Utilizzare l&#39;archiviazione delle sessioni di tracciamento dei collegamenti tramite SDK per web
 
-Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+L&#39;SDK per web non supporta questa funzionalità.
 
-## s.useLinkTrackSessionStorage in AppMeasurement e nell&#39;editor di codice personalizzato
+## Utilizzare l&#39;archiviazione delle sessioni di tracciamento dei collegamenti tramite l&#39;estensione Adobe Analytics
+
+Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+
+## s.useLinkTrackSessionStorage in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 La `s.useLinkTrackSessionStorage` è una variabile booleana che determina se AppMeasurement utilizza l&#39;archiviazione della sessione per i dati di tracciamento dei collegamenti invece che `s_sq` cookie. Il valore predefinito è `false`. Imposta questa variabile su `true` se desideri che AppMeasurement utilizzi l&#39;archiviazione sessione invece del `s_sq` cookie per il tracciamento dei collegamenti e Activity Map.
 

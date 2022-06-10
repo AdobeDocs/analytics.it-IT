@@ -3,9 +3,9 @@ title: Convalidare un'implementazione di sviluppo e pubblicare in produzione
 description: Scopri come utilizzare i tag Adobe Experience Platform per distribuire Adobe Analytics nel tuo ambiente di produzione.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 Una volta effettuata la distribuzione dei tag in produzione, la tua organizzazione può iniziare a utilizzare Adobe Analytics per richiamare rapporti di base.
 
-## Prerequisiti
+## Prerequisiti 
 
 [Implementazione di Analytics nell’ambiente di sviluppo](deploy-dev.md): Per seguire questa pagina, devi pubblicare un’implementazione di Analytics nel tuo ambiente di sviluppo.
 
@@ -31,7 +31,7 @@ Experience Cloud Debugger è un’estensione che mostra tutti i tag Experienci C
 
 Dopo aver convalidato la visualizzazione dei dati, puoi inviare l’implementazione alla versione live del sito.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
 1. Fai clic sulla proprietà tag che intendi implementare sul sito.
 1. Fai clic sul pulsante **[!UICONTROL Publishing]** individua la libreria nella colonna di sviluppo .
 1. Fai clic sul menu a discesa della libreria, quindi seleziona **[!UICONTROL Submit for Approval]**. Fai clic su **[!UICONTROL Submit]** nella finestra modale.

@@ -3,10 +3,10 @@ title: Autorizzazioni del profilo di prodotto per gli strumenti Analytics
 description: Utilizza gli elementi di autorizzazione degli strumenti di Analytics per concedere l’accesso alle funzioni di Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 98%
+source-wordcount: '389'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ Gli elementi di autorizzazione degli strumenti di Analytics concedono l’access
 | Elemento di autorizzazione degli strumenti di Analytics | Descrizione |
 |----|----|
 | [!UICONTROL Server Call Usage] | Consente di accedere ad Admin > Server call usage (Amministrazione > Utilizzo chiamate al server). |
-| [!UICONTROL Code Manager] | Mantenuto per scopi legacy. Consente di accedere ad Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Nella maggior parte dei casi, utilizza le librerie incluse nell’interfaccia utente di raccolta dati. |
+| [!UICONTROL Code Manager] | Mantenuto per scopi legacy. Consente di accedere ad Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Nella maggior parte dei casi, utilizza invece le librerie incluse nell’estensione Adobe Analytics all’interno di Raccolta dati di Adobe Experience Platform. |
 | [!UICONTROL Code Manager - Web Services] | Consente di accedere a Gestione codici tramite l’API 1.4. |
 | [!UICONTROL Logs] | Consente di accedere ad Admin > All admin > Log (Amministrazione > Tutte le attività di amministrazione > Registri). |
 | [!UICONTROL Logs - Web Services] | Consente di accedere ai registri di pull tramite l’API 1.4. |
@@ -42,6 +42,6 @@ Gli elementi di autorizzazione degli strumenti di Analytics concedono l’access
 | [!UICONTROL Segment Creation] | Consente di creare e condividere segmenti in tutte le funzionalità di Analytics. |
 | [!UICONTROL Advertising Analytics Management] | Non utilizzato. |
 | [!UICONTROL Segment Publishing] | Consente di usare un segmento come pubblico Experience Cloud durante la creazione o la modifica di un segmento. |
-| [!UICONTROL Integrations (Create)] | Non utilizzato. Data Connectors terminati. |
+| [!UICONTROL Integrations (Create)] | Non utilizzato. Data Connectors è stato abolito. |
 | [!UICONTROL Integrations (Update)] | Non utilizzato. |
 | [!UICONTROL Integrations (Delete)] | Non utilizzato. |

@@ -3,9 +3,9 @@ title: visitorID
 description: Utilizza un ID visitatore personalizzato.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '264'
 ht-degree: 3%
 
 ---
@@ -18,18 +18,22 @@ Adobe utilizza diversi metodi per identificare i visitatori sul sito. La `visito
 >
 >Adobe consiglia di non utilizzare questa variabile. Utilizza la [Servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) invece.
 
-## ID visitatore tramite tag in Adobe Experience Platform
+## Ignorare l’ID del visitatore utilizzando l’SDK per web
+
+Presto disponibile!
+
+## ID visitatore che utilizza l’estensione Adobe Analytics
 
 [!UICONTROL Visitor ID] è un campo sotto [!UICONTROL Cookies] pannello a soffietto durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
-3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante [!UICONTROL Configure] sotto Adobe Analytics.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+2. Fai clic sulla proprietà tag desiderata.
+3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto Adobe Analytics.
 4. Espandi la [!UICONTROL Cookies] fisarmonica, che rivela [!UICONTROL Visitor ID] campo .
 
 Assegna questo campo all’elemento dati contenente l’ID visitatore personalizzato. Non impostare questo campo su un valore statico.
 
-## s.visitorID in AppMeasurement e nell&#39;editor di codice personalizzato
+## s.visitorID in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 La `s.visitorID` è una stringa che contiene un identificatore univoco personalizzato per il visitatore. I valori validi includono caratteri alfanumerici fino a 100 byte. Evita di usare trattini, spazi, caratteri di sottolineatura o simboli in questa variabile.
 

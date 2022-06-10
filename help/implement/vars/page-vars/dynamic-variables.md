@@ -3,10 +3,10 @@ title: Variabili dinamiche
 description: Copia le variabili senza aumentare la lunghezza della richiesta di immagine.
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 2%
 
 ---
 
@@ -24,12 +24,22 @@ Quando Adobe riconosce un prefisso di variabile dinamica, copia automaticamente 
 >
 >Presta attenzione ai limiti massimi dei caratteri durante la copia delle variabili. Ad esempio, se copi `eVar1` a `prop1`, `prop1` può avere un valore troncato poiché ha un limite di 100 byte (mentre `eVar1` ha un limite di 255 byte).
 
-## Variabili dinamiche che utilizzano i tag in Adobe Experience Platform
+## Variabili dinamiche che utilizzano l’SDK per web
+
+Utilizza la mappatura Datastream per inviare dati a più variabili Analytics da un singolo campo XDM.
+
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Fai clic su **[!UICONTROL Datastreams]** nella barra a sinistra.
+1. Fai clic sul datastream desiderato.
+1. Fai clic su **[!UICONTROL Edit Mapping]** a destra.
+1. Mappa la pagina desiderata [!UICONTROL Source Field] a quello desiderato [!UICONTROL Target Field]. Un singolo campo di origine può essere mappato su qualsiasi numero di campi di destinazione.
+
+## Variabili dinamiche che utilizzano l’estensione Adobe Analytics
 
 È possibile utilizzare variabili dinamiche in qualsiasi campo di dimensione che accetta una stringa. Gli elementi di Dimension vengono generalmente impostati durante la configurazione dell&#39;estensione Analytics (variabili globali) o in base alle regole.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+2. Fai clic sulla proprietà tag desiderata.
 3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
 4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
 5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
@@ -37,7 +47,7 @@ Quando Adobe riconosce un prefisso di variabile dinamica, copia automaticamente 
 
 Posiziona il prefisso della variabile dinamica nel campo di testo, seguito dal parametro della stringa di query o dall’intestazione HTTP a cui si desidera fare riferimento. Per impostazione predefinita, il prefisso della variabile dinamica è `D=`.
 
-## Variabili dinamiche in AppMeasurement e nell’editor di codice personalizzato
+## Variabili dinamiche in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
 Le variabili dinamiche sono stringhe di testo assegnate ad altre variabili. Il prefisso predefinito della variabile dinamica è `D=`. Le variabili dinamiche sono sensibili all’uso di maiuscole e minuscole.
 

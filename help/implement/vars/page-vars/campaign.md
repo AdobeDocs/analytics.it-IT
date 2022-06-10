@@ -3,10 +3,10 @@ title: campagna
 description: Popolare la dimensione "Tracking Code" (Codice di tracciamento).
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 1%
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -16,12 +16,16 @@ La `campaign` è dedicata alla raccolta dei codici di tracciamento sul sito. Nel
 
 Questa variabile popola la dimensione &quot;Tracking Code&quot; (Codice di tracciamento).
 
-## Campaign utilizzando i tag in Adobe Experience Platform
+## Campaign utilizzando l’SDK per web
+
+Campaign è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nel campo XDM `marketing.trackingCode`.
+
+## Campaign utilizzando l’estensione Adobe Analytics
 
 Puoi impostare campaign sia durante la configurazione dell’estensione Analytics (variabili globali) che in regole.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+2. Fai clic sulla proprietà tag desiderata.
 3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
 4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
 5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
@@ -29,7 +33,7 @@ Puoi impostare campaign sia durante la configurazione dell’estensione Analytic
 
 Puoi impostare campaign su un valore o su un parametro di stringa query.
 
-## s.campaign in AppMeasurement e nell’editor di codice personalizzato
+## s.campaign in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
 La `s.campaign` è una stringa che in genere contiene un codice di tracciamento utilizzato nelle attività di marketing. La sua lunghezza massima è di 255 byte; i valori superiori a 255 byte vengono troncati automaticamente quando inviati ad Adobe.
 

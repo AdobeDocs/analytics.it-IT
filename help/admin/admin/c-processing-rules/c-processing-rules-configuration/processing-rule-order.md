@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Ordine di elaborazione
 feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: 790c3a02fbdf896cba0933dcd7a2b2efd5a19f15
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 53%
+source-wordcount: '503'
+ht-degree: 52%
 
 ---
 
@@ -25,7 +25,7 @@ Nelle tabelle seguenti sono elencati i dati generalmente disponibili prima e dop
 |--- |--- |
 | [Variabili dinamiche](/help/implement/vars/page-vars/dynamic-variables.md) | Variabili compilate dinamicamente richiamando informazioni dalle intestazioni HTTP o da altre variabili. |
 | [AppMeasurement](/help/implement/home.md) | Le funzioni e i plug-in utilizzati nelle librerie AppMeasurement vengono eseguiti nel browser o nell’applicazione client. |
-| [Implementazione dei tag](/help/implement/launch/overview.md) | Regole definite nell’interfaccia utente di raccolta dati. |
+| [Implementazione dei tag](/help/implement/launch/overview.md) | Regole definite nell&#39;estensione Adobe Analytics in Raccolta dati di Adobe Experience Platform. |
 | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html) | I dati raccolti tramite l’SDK per web vengono inviati ad Adobe Experience Edge e quindi inoltrati alla suite di rapporti desiderata. |
 | [Regole bot](/help/admin/admin/bot-removal/bot-rules.md) | Consente di rimuovere il traffico generato da ragni e bot noti. |
 

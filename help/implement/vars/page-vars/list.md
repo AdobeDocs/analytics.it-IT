@@ -3,9 +3,9 @@ title: list
 description: Variabili personalizzate che contengono più valori nello stesso hit.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,15 @@ Assicurati di registrare come utilizzare ogni variabile di elenco e la relativa 
 
 Assicurati di configurare ogni variabile dell’elenco nelle impostazioni della suite di rapporti prima di utilizzarla nell’implementazione. Vedi [Variabili di conversione](/help/admin/admin/conversion-var-admin/list-var-admin.md) nella guida Amministratore.
 
-## Elencare le variabili utilizzando i tag in Adobe Experience Platform
+## Elencare le variabili utilizzando l’SDK per web
 
-Nell’interfaccia utente di raccolta dati non è disponibile un campo dedicato per l’utilizzo di questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+Variabili di elenco [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nei campi XDM `_experience.analytics.customDimensions.lists.list1` a `_experience.analytics.customDimensions.lists.list3`.
 
-## s.list1 - s.list3 in AppMeasurement e nell’editor di codice personalizzato
+## Elencare le variabili utilizzando l’estensione Adobe Analytics
+
+Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+
+## s.list1 - s.list3 in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
 Ogni variabile di elenco è una stringa che contiene valori personalizzati specifici dell’organizzazione. Non hanno un numero massimo di byte; tuttavia, ogni singolo valore ha un massimo di 255 byte. Il delimitatore utilizzato viene determinato quando si imposta la variabile nelle impostazioni della suite di rapporti. Non utilizzare spazi quando si delimitano più elementi.
 

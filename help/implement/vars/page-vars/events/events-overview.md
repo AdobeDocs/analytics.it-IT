@@ -3,9 +3,9 @@ title: events
 description: Imposta la variabile degli eventi, che regola la maggior parte delle metriche sul sito.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,29 @@ I Dimension e le metriche sono componenti vitali per i rapporti. La `events` è 
 
 Prima di implementare gli eventi, assicurati di crearli e configurarli in [Eventi di successo](/help/admin/admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti. Se prevedi di utilizzare eventi personalizzati negli hit di tracciamento dei collegamenti, assicurati che [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) sono impostati correttamente.
 
-## Eventi che utilizzano i tag in Adobe Experience Platform
+## Eventi che utilizzano l’SDK per web
+
+Gli eventi personalizzati sono [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nei seguenti campi XDM:
+
+* Gli eventi personalizzati 1-100 sono mappati su `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
+* Gli eventi personalizzati 101-200 sono mappati su `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
+* Questo modello ripete ogni 100 eventi in `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
+* Gli ordini sono mappati su `commerce.purchases.value`.
+* Le unità sono mappate alla somma di tutte `productListItems[].quantity` campi.
+* Le entrate sono mappate alla somma di tutte `productListItems[].priceTotal` campi.
+* Le visualizzazioni prodotto sono mappate su `commerce.productListViews.value`.
+* I carrelli sono mappati su `commerce.productListOpens.value`.
+* Le aggiunte al carrello sono mappate su `commerce.productListAdds.value`.
+* Le rimozione del carrello sono mappate su `commerce.productListRemovals.value`.
+* Le visualizzazioni del carrello sono mappate su `commerce.productListViews.value`.
+* Pagamenti mappati su `commerce.checkouts.value`.
+
+## Eventi che utilizzano l’estensione Adobe Analytics
 
 Puoi impostare gli eventi sia durante la configurazione dell’estensione Analytics (variabili globali) che in regole.
 
-1. Accedi a [Interfaccia utente per la raccolta dati](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà desiderata.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+2. Fai clic sulla proprietà tag desiderata.
 3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
 4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
 5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
@@ -34,7 +51,7 @@ Sono disponibili diverse funzioni:
 * Campo di testo facoltativo per un valore evento. È possibile includere la valuta per gli eventi di valuta o un numero intero per gli eventi non di valuta per incrementarla più volte. Ad esempio, selezionando `event1` nel menu a discesa e include `10` in questo campo incrementali `event1` entro 10 nei rapporti.
 * Un pulsante per aggiungere un altro evento. Non esiste un limite ragionevole al numero di eventi che puoi includere in un hit.
 
-## s.events in AppMeasurement e nell&#39;editor di codice personalizzato
+## s.events in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 La `s.events` variabile è una stringa che contiene un elenco delimitato da virgole di eventi da includere nell&#39;hit. Non esiste un limite di byte per questa variabile, quindi non viene troncata. I valori validi includono:
 
