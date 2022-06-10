@@ -1,17 +1,17 @@
 ---
 description: Il pannello Riepilogo pagina mostra le informazioni di riepilogo per una pagina a scelta.
-title: Pannello di riepilogo delle pagine
+title: Pannello Riepilogo pagina
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Pannello di riepilogo delle pagine
+# Pannello Riepilogo pagina
 
 La [!UICONTROL Page summary] pannello avviato come rapporto in Reports &amp; Analytics, in Reports > Engagement > Page analysis > Page summary (Rapporti > Coinvolgimento > Analisi pagina > Riepilogo pagina). È ora disponibile anche un pannello Workspace . Questo pannello consente di esplorare facilmente le statistiche chiave su pagine specifiche.
 
@@ -53,10 +53,10 @@ La [!UICONTROL Page summary] restituisce un set completo di dati e visualizzazio
 | [!UICONTROL Reloads] | La [!UICONTROL Reloads] mostra il numero di volte in cui un elemento dimensione era presente durante un ricaricamento. Un visitatore che aggiorna il proprio browser è il modo più comune per attivare un ricaricamento. |
 | [!UICONTROL Entries] | La [!UICONTROL Entries] mostra il numero di volte in cui un dato elemento dimensione viene acquisito come primo valore in una visita. |
 | [!UICONTROL Exits] | La [!UICONTROL Exits] mostra il numero di volte in cui un dato elemento dimensione viene acquisito come ultimo valore in una visita. |
-| [!UICONTROL Flow] | Diagramma di flusso con la pagina selezionata come punto focale. Puoi approfondire i dati come in qualsiasi [Diagramma di flusso](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
+| [!UICONTROL Flow] | Diagramma di flusso con la pagina selezionata come punto focale. Puoi approfondire i dati come in qualsiasi [Diagramma di flusso](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style=&quot;table-layout:auto&quot;}
 
-![Pannello di riepilogo delle pagine](assets/page-sum1.png)
+![Pannello Riepilogo pagina](assets/page-sum1.png)
 
 ![Metriche e flusso](assets/page-sum2.png)
