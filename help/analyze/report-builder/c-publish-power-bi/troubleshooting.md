@@ -4,10 +4,10 @@ title: Risoluzione dei problemi di integrazione di Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: b98fbf52ab9fefef9c19e82f440ca9f5a81f933f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 2%
+source-wordcount: '545'
+ht-degree: 1%
 
 ---
 
@@ -42,3 +42,26 @@ Chiedi a un amministratore Microsoft di rivedere l&#39;impostazione &quot;Gli ut
 Gli utenti possono concedere l&#39;accesso utilizzando i seguenti [collegamento](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
 Gli amministratori hanno concesso l’accesso per ciascuno di essi utilizzando i seguenti [collegamento](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+
+## Raggiungere il limite API
+
+Il reporting in Power BI funziona con l’API di reporting di Analytics, pertanto si applicano i limiti di soglia API. Per le API di Analytics 2.0, il limite di velocità è impostato a 120 chiamate al minuto, per utente, indipendentemente dalla suite di rapporti o dalla società. Quando il limite di velocità viene superato, il server restituisce all’utente lo stato HTTP 429 con questo contenuto del messaggio:
+
+```
+too many requests
+{"error_code":"429050","message":"Too many requests"}
+```
+
+L’Adobe consiglia di *aderire a* le seguenti linee guida:
+
+* Effettua più richieste più piccole invece di una singola richiesta di grandi dimensioni.
+* Richiedi i dati una volta e memorizzali nella cache.
+* Non eseguire il polling per i nuovi dati più velocemente di un intervallo di 30 minuti.
+* Recupera i dati storici e incrementali regolarmente invece di richiedere l’intero set di dati.
+
+L’Adobe consiglia di *evitare* quanto segue:
+
+* Richiedi il maggior numero di dati possibile in una singola richiesta
+* Richiedi un anno di dati con granularità giornaliera per ottenere una finestra continua di 12 mesi. Adobe consiglia invece di richiedere i dati del nuovo giorno e di unirli ai dati esistenti dei giorni precedenti.
+* Guidare una pagina web con un widget di prestazioni del sito effettuando una richiesta API ogni volta che la pagina web viene caricata
+* Migrazione da 1.4
