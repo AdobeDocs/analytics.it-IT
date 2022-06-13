@@ -5,7 +5,7 @@ title: Scopri le novità di Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
+source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
 workflow-type: tm+mt
 source-wordcount: '8164'
 ht-degree: 99%
@@ -169,7 +169,7 @@ Miglioramento rilasciato il 09 maggio 2019.
 
 | Miglioramento | Descrizione |
 |--- |--- |
-| Una nuova impostazione è stata aggiunta alle impostazioni di visualizzazione del Flusso: Includi istanze ripetute. | [Impostazioni di Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) |
+| Una nuova impostazione è stata aggiunta alle impostazioni di visualizzazione del Flusso: Includi istanze ripetute. | [Impostazioni di Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 
 ## Aprile 2019
 
@@ -811,7 +811,7 @@ Nuove funzionalità rilasciate il 8 giugno 2017.
     </ul> </td>
   </tr>
   <tr>
-   <td colname="col1"> Miglioramenti al <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>flusso</b></a> </td>
+   <td colname="col1"> Miglioramenti al <a href="/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md"  ><b>flusso</b></a> </td>
    <td colname="col2">
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1">
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Aggiunta di una nuova impostazione di visualizzazione dal titolo <span class="wintitle"> Disable Label Truncation </span> (Disabilita troncamento etichetta) (impostazione predefinita = non selezionata). </li>
