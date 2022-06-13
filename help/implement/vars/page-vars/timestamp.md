@@ -3,9 +3,9 @@ title: timestamp
 description: Imposta manualmente la marca temporale dell'hit.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ La `timestamp` imposta manualmente la marca temporale dell’hit per le suite di
 >[!WARNING]
 >
 >Non utilizzare questa variabile se la suite di rapporti non è configurata in modo esplicito per accettare hit con marca temporale. AppMeasurement imposta automaticamente l&#39;ora di un hit per le suite di rapporti che non supportano gli hit con marca temporale. Se invii un hit con questa variabile a una suite di rapporti che non supporta le marche temporali, tali dati andranno perduti definitivamente.
+
+## Timestamp tramite SDK web
+
+Timestamp [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nel campo XDM `_experience.analytics.session.timestamp`. Questo campo supporta solo il tempo Unix.
 
 ## Timestamp tramite l’estensione Adobe Analytics
 

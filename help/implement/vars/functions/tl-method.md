@@ -3,9 +3,9 @@ title: tl
 description: Invia ad Adobe una chiamata di tracciamento dei collegamenti.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExterna
 
 ## Tracciamento dei collegamenti tramite l’SDK per web
 
-L&#39;SDK per web non distingue tra le chiamate di visualizzazione della pagina e quelle di tracciamento dei collegamenti; entrambi utilizzano `sendEvent` comando. Se desideri che Adobe Analytics conti un dato evento come una chiamata di tracciamento dei collegamenti, assicurati che i dati XDM includano `web.webInteraction.name`, `web.webInteraction.URL`e `web.webInteraction.type`.
+L&#39;SDK per web non distingue tra le chiamate di visualizzazione della pagina e quelle di tracciamento dei collegamenti; entrambi utilizzano `sendEvent` comando. Se desideri che Adobe Analytics conti un dato evento XDM come chiamata di tracciamento dei collegamenti, assicurati che i dati XDM includano o siano mappati su `web.webInteraction.name`, `web.webInteraction.URL`e `web.webInteraction.type`.
+
+* Il nome del collegamento è associato a `web.webInteraction.name`.
+* Collegare le mappe URL a `web.webInteraction.URL`.
+* Il tipo di collegamento mappa su `web.webInteraction.type`. I valori validi includono `other` (Collegamenti personalizzati), `download` (collegamenti di download) e `exit` (Collegamenti di uscita).
 
 ```js
 alloy("sendEvent", {

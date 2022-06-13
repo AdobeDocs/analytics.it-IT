@@ -2,7 +2,7 @@
 title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 0%
@@ -114,7 +114,7 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `productListItems[].quantity` | Aiuta a determinare il [Unità](../../components/metrics/units.md) metrica. |
 | `web.webInteraction.URL` | La [linkURL](../vars/config-vars/linkurl.md) variabile di implementazione. |
 | `web.webInteraction.name` | La [Collegamento personalizzato](../../components/dimensions/custom-link.md), [Collegamento di download](../../components/dimensions/download-link.md)oppure [Collegamento di uscita](../../components/dimensions/exit-link.md) a seconda del valore in `web.webInteraction.type` |
-| `web.webInteraction.type` | Determina il tipo di collegamento su cui è stato fatto clic. I valori validi includono `lnk_o` (Collegamenti personalizzati), `lnk_d` (collegamenti di download) e `lnk_e` (Collegamenti di uscita). |
+| `web.webInteraction.type` | Determina il tipo di collegamento su cui è stato fatto clic. I valori validi includono `other` (Collegamenti personalizzati), `download` (collegamenti di download) e `exit` (Collegamenti di uscita). |
 | `web.webPageDetails.URL` | La [URL della pagina](../../components/dimensions/page-url.md) dimensione. |
 | `web.webPageDetails.errorPage` | Flag che consente di determinare le &quot;Pagine non trovate&quot; [dimension](../../components/dimensions/pages-not-found.md) e [metrica](../../components/metrics/pages-not-found.md). |
 | `web.webPageDetails.name` | La [Pagina](../../components/dimensions/page.md) dimensione. |
