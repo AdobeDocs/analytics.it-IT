@@ -4,10 +4,10 @@ title: Risoluzione dei problemi di integrazione di Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: b98fbf52ab9fefef9c19e82f440ca9f5a81f933f
+source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 1%
+source-wordcount: '399'
+ht-degree: 2%
 
 ---
 
@@ -45,23 +45,4 @@ Gli amministratori hanno concesso l’accesso per ciascuno di essi utilizzando i
 
 ## Raggiungere il limite API
 
-Il reporting in Power BI funziona con l’API di reporting di Analytics, pertanto si applicano i limiti di soglia API. Per le API di Analytics 2.0, il limite di velocità è impostato a 120 chiamate al minuto, per utente, indipendentemente dalla suite di rapporti o dalla società. Quando il limite di velocità viene superato, il server restituisce all’utente lo stato HTTP 429 con questo contenuto del messaggio:
-
-```
-too many requests
-{"error_code":"429050","message":"Too many requests"}
-```
-
-L’Adobe consiglia di *aderire a* le seguenti linee guida:
-
-* Effettua più richieste più piccole invece di una singola richiesta di grandi dimensioni.
-* Richiedi i dati una volta e memorizzali nella cache.
-* Non eseguire il polling per i nuovi dati più velocemente di un intervallo di 30 minuti.
-* Recupera i dati storici e incrementali regolarmente invece di richiedere l’intero set di dati.
-
-L’Adobe consiglia di *evitare* quanto segue:
-
-* Richiedi il maggior numero di dati possibile in una singola richiesta
-* Richiedi un anno di dati con granularità giornaliera per ottenere una finestra continua di 12 mesi. Adobe consiglia invece di richiedere i dati del nuovo giorno e di unirli ai dati esistenti dei giorni precedenti.
-* Guidare una pagina web con un widget di prestazioni del sito effettuando una richiesta API ogni volta che la pagina web viene caricata
-* Migrazione da 1.4
+Il reporting in Power BI funziona con l’API di reporting di Analytics, pertanto si applicano i limiti di soglia API. Per ulteriori informazioni consulta [Qual è il limite di tasso per le chiamate API?](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
