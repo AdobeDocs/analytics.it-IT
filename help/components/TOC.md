@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i tuoi dati utilizzando componenti quali segmenti, metriche calcolate, suite di rapporti virtuali, avvisi, canali di marketing, classificazioni e scopri le funzioni di Analytics tra dispositivi.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 95%
+source-wordcount: '693'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # [!DNL Adobe Analytics] Guida ai componenti {#components}
 
 + [Guida ai componenti di Analytics](home.md)
-+ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
 + Dimensioni {#dimensions}
    + [Panoramica delle dimensioni](dimensions/overview.md)
    + [Compatibilità delle dimensioni](dimensions/compatibility.md)
@@ -227,6 +227,18 @@ ht-degree: 95%
    + [Avvisi intelligenti: casi di utilizzo](c-alerts/alerts-use-cases.md)
 + Classificazioni {#classifications}
    + [Panoramica delle classificazioni](classifications/c-classifications.md)
+   + Set di classificazioni {#sets}
+      + [Panoramica sui set di classificazioni](classifications/sets/overview.md)
+      + [Gestione set di classificazioni](classifications/sets/set-manager.md)
+      + [Gestione processi set di classificazione](classifications/sets/job-manager.md)
+      + [Creare un set di classificazione](classifications/sets/create.md)
+      + [Impostazioni set di classificazioni](classifications/sets/settings.md)
+   + Generatore regole di classificazione {#classifications-rulebuilder}
+      + [Flusso di lavoro di Generatore regole di classificazione](classifications/crb/classification-rule-builder.md)
+      + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)
+      + [Regole di classificazione](classifications/crb/classification-quickstart-rules.md)
+      + [Regole di classificazione - definizioni](classifications/crb/classification-rule-definitions.md)
+      + [Sottoclassificazioni e Generatore di regole](classifications/crb/sub-classification-rule-builder.md)
    + Importazione classificazioni {#classifications-importer}
       + [Importazione classificazioni: panoramica](classifications/importer/c-working-with-saint.md)
       + [File di dati di classificazione](classifications/importer/c-saint-data-files.md)
@@ -241,12 +253,6 @@ ht-degree: 95%
       + [Esportazione FTP](classifications/importer/ftp-export.md)
       + [Tempo di elaborazione](classifications/importer/processing-time.md)
       + [Risoluzione dei problemi](classifications/importer/troubleshooting.md)
-   + Generatore regole di classificazione {#classifications-rulebuilder}
-      + [Flusso di lavoro di Generatore regole di classificazione](classifications/crb/classification-rule-builder.md)
-      + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)
-      + [Regole di classificazione](classifications/crb/classification-quickstart-rules.md)
-      + [Regole di classificazione - definizioni](classifications/crb/classification-rule-definitions.md)
-      + [Sottoclassificazioni e Generatore di regole](classifications/crb/sub-classification-rule-builder.md)
    + [Sottoclassificazioni](classifications/c-sub-classifications.md)
    + [Domande frequenti sulle classificazioni](classifications/faq.md)
 + [Eventi calendario](t-calendar-event.md)

@@ -1,16 +1,16 @@
 ---
 description: Adobe Analytics supporta modelli di classificazione sia a livello singolo che a più livelli. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
-title: Informazioni sulle sottoclassificazioni
+title: Sottoclassificazioni
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 611f20718c0af133f2daf3fe44e8a5b9ea97336b
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '642'
 ht-degree: 100%
 
 ---
 
-# Informazioni sulle sottoclassificazioni
+# Sottoclassificazioni
 
 Adobe Analytics supporta modelli di classificazione sia a livello singolo che a più livelli. Una gerarchia di classificazione consente di applicare una classificazione a una classificazione.
 
@@ -88,6 +88,6 @@ Quando carichi i file di dati per questa classificazione di prodotto, puoi caric
 
 | CHIAVE | CODICE | CODICE^COLORE |
 |---|---|---|
-| * | 01 | Grigio pietra |
-| * | 03 | Violaceo |
-| * | 23 | Acquamarina |
+| &#42; | 01 | Grigio pietra |
+| &#42; | 03 | Violaceo |
+| &#42; | 23 | Acquamarina |
