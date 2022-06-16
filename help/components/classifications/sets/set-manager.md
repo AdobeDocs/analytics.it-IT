@@ -1,13 +1,13 @@
 ---
 title: Gestione set di classificazioni
 description: Gestire i set di classificazione in Adobe Analytics.
-source-git-commit: fae00c7ba48d9595628f68e63fd16e37a6a4c84a
+exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
 
 ---
-
 
 # Gestione set di classificazioni
 
@@ -41,7 +41,7 @@ I seguenti pulsanti sono disponibili in Gestione set di classificazione:
 
 * **[!UICONTROL Add]**: [Crea](create.md) un set di classificazione.
 * **[!UICONTROL Search by title]**: Cerca i set di classificazione per nome.
-* **[!UICONTROL Load more]**: In Gestione set di classificazioni vengono inizialmente visualizzati fino a 1000 set di classificazioni. Fai clic su questo pulsante per caricare altri 1000 set di classificazione.
+* **[!UICONTROL Load more]**: Gestione set di classificazione visualizza inizialmente fino a 1000 set di classificazione. Fai clic su questo pulsante per caricare altri 1000 set di classificazione.
 * **Mostra/Nascondi colonne**: Attiva/disattiva la visibilità di qualsiasi colonna oltre a [!UICONTROL Classification Set].
 
 Seleziona uno o più set di classificazione facendo clic sulla casella di controllo accanto al set di classificazione desiderato. Quando si seleziona un set di classificazioni vengono visualizzate le seguenti opzioni:
