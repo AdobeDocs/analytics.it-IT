@@ -4,9 +4,9 @@ title: Fattori prestazionali e ottimizzazione di Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 568000a7da84301f8a7c5a48a68a146e4af5f105
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '1943'
 ht-degree: 99%
 
 ---
@@ -75,10 +75,9 @@ Altri fattori non inclusi in Aiuto > Prestazioni:
 | Complessità della visualizzazione (segmenti, metriche, filtri) | Il tipo di visualizzazione (ad es. abbandono o tabella a forma libera) aggiunta a un progetto di per sé non influenza molto le prestazioni del progetto. È la complessità della visualizzazione che influenzerà il tempo di elaborazione. | Fattori che aggiungono complessità a una visualizzazione includono:<ul><li>Intervallo dei dati richiesti</li><li>Numero di segmenti applicati; ovvero segmenti utilizzati come righe di una tabella a forma libera</li><li>Utilizzo di segmenti complessi</li><li>Righe o colonne [statiche di elementi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=it) in tabelle a forma libera</li><li>Filtri applicati a righe in tabelle a forma libera</li><li>Numero di metriche incluse, in particolare metriche calcolate che utilizzano segmenti</li></ul> | Se noti che i tuoi progetti non si caricano rapidamente tanto quanto vorresti, prova a sostituire alcuni segmenti con eVar e filtri, ove possibile.<br><br>Se utilizzi sempre segmenti e metriche calcolate per punti dati importanti per la tua azienda, puoi migliorare la tua implementazione per acquisire questi punti dati in modo più diretto. L’utilizzo dei tag in Adobe Experience Platform e delle regole di elaborazione di Adobe può velocizzare le modifiche e facilitarne l’implementazione. |
 | Dimensione della suite di rapporti | Quantità di dati raccolti nella suite di rapporti. | - | Rivolgiti al team addetto all’implementazione o a un esperto Adobe per determinare se sia possibile migliorare l’implementazione al fine di migliorare l’esperienza complessiva in Adobe Analytics. |
 | Query simultanee | Numero di query che vengono inviate contemporaneamente dall’organizzazione ad Adobe. Ciascuna organizzazione ha diritto a un minimo di 5 query simultanee. | Se un rapporto richiede molto tempo, è probabile che si trovi in coda con altri rapporti. L’organizzazione sta tentando di eseguire troppe richieste simultanee per una specifica suite di rapporti. Le query possono provenire da richieste API, interfacce per la generazione dei rapporti (Analysis Workspace, Reports &amp; Analytics, Report Builder, ecc.), progetti pianificati, rapporti pianificati, avvisi pianificati e più utenti che eseguono contemporaneamente richieste di reporting. | Distribuisci le richieste e le pianificazioni per la suite di rapporti in modo più uniforme durante l’intera giornata. Inoltre, se possibile, rimanda le tue richieste a orari fuori picco. Lunedì mattina, martedì mattina e il primo di ogni mese sono solitamente momenti di picco per la generazione di rapporti. |
-| Capacità del centro dati | Capacità di generazione dei rapporti condivisa da te e altri clienti all’interno di un data center di Adobe. | È influenzata dal numero di query simultanee effettuate dalla tua organizzazione e da altre organizzazioni all’interno del centro dati. | La tua organizzazione ha diritto a una determinata capacità e, se il carico del sistema è leggero, Adobe ti allocherà una maggiore capacità, oltre il limite determinato. |
 
 ## Suggerimenti per aumentare la produttività in Analysis Workspace
 
-Panoramica video sull’argomento:
+Video sull’argomento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)
