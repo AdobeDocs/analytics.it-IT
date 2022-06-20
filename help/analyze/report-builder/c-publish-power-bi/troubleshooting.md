@@ -4,10 +4,10 @@ title: Risoluzione dei problemi di integrazione di Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
+source-git-commit: f6f65f34c4d8caf04eb3ea47108e36e5b9adf24f
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 2%
+source-wordcount: '405'
+ht-degree: 1%
 
 ---
 
@@ -45,4 +45,4 @@ Gli amministratori hanno concesso l’accesso per ciascuno di essi utilizzando i
 
 ## Raggiungere il limite API
 
-Il reporting in Power BI funziona con l’API di reporting di Analytics, pertanto si applicano i limiti di soglia API. Per ulteriori informazioni consulta [Qual è il limite di tasso per le chiamate API?](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
+Il reporting in Power BI funziona con l’API di reporting di Analytics, pertanto si applicano i limiti di soglia API. Per ulteriori informazioni consulta [Codici di errore dei servizi web](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
