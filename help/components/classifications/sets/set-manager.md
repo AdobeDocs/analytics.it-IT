@@ -2,9 +2,9 @@
 title: Gestione set di classificazioni
 description: Gestire i set di classificazione in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,7 @@ Le colonne seguenti sono disponibili in Gestione set di classificazioni:
 * **[!UICONTROL Subscriptions]**: Il numero di sottoscrizioni o il numero di suite di rapporti a cui si applica questo set di classificazione.
 * **[!UICONTROL Owner]**: Proprietario del set di classificazioni.
 * **[!UICONTROL Classifications]**: Il numero di dimensioni di classificazione contenute nel set di classificazioni.
-* **[!UICONTROL Automated]**: Indica se il set di classificazione è configurato per estrarre automaticamente i dati da un sito FTP.
 * **[!UICONTROL Last Modified]**: Data e ora dell’ultima modifica del set di classificazioni.
-* **[!UICONTROL FTP Host + Path]**: Se automatizzato, la posizione FTP da cui il set di classificazione richiama i dati.
 
 ## Creare o modificare le opzioni
 
