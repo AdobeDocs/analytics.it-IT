@@ -7,7 +7,7 @@ user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Ad
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -53,12 +53,12 @@ ht-degree: 92%
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Variabili di pagina {#page-vars}
       + [Panoramica delle variabili di pagina](vars/page-vars/page-variables.md)
-      + [campagna](vars/page-vars/campaign.md)
+      + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
+      + [eVar  (Merchandising)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)
          + [Evento di acquisto](vars/page-vars/events/event-purchase.md)
@@ -74,7 +74,7 @@ ht-degree: 92%
       + [referrer](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [server](vars/page-vars/server.md)
-      + [stato](vars/page-vars/state.md)
+      + [state](vars/page-vars/state.md)
       + [timestamp](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
@@ -136,10 +136,10 @@ ht-degree: 92%
    + [Mappatura variabile](aep-edge/variable-mapping.md)
    + SDK per web {#web-sdk}
       + [Panoramica dell’SDK web](aep-edge/web-sdk/overview.md)
-   + Mobile SDK {#mobile-sdk}
+   + SDK per dispositivi mobili {#mobile-sdk}
       + [Panoramica dell’SDK per dispositivi mobili](aep-edge/mobile-sdk/overview.md)
    + API Edge {#edge-api}
-      + [Panoramica API di Edge](aep-edge/edge-api/overview.md)
+      + [Panoramica API Edge](aep-edge/edge-api/overview.md)
 + Implementazione di Analytics tramite l’estensione Adobe Analytics {#launch}
    + [Panoramica sui tag](launch/overview.md)
    + [Creare una proprietà tag in Adobe Analytics](launch/create-analytics-property.md)

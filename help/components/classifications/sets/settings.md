@@ -2,9 +2,9 @@
 title: Impostazioni del set di classificazioni
 description: Crea o modifica un set di classificazione.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: c849f216f8dda83070fc3f8d8b1c25fba4d2786a
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 1%
 # Impostazioni del set di classificazioni
 
 Configura un set di classificazione, carica dati o scarica dati.
+
+>[!NOTE]
+>
+>Questa funzione è attualmente in versione limitata. Se desideri accedere a questa funzione, contatta l’Assistenza clienti Adobe o il tuo Account Manager, che può inoltrare la tua richiesta al team Classificazioni per il provisioning.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Fai clic sul nome del set di classificazioni desiderato
 

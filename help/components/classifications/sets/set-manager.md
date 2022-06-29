@@ -2,9 +2,9 @@
 title: Gestione set di classificazioni
 description: Gestire i set di classificazione in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Gestione set di classificazioni
 
 Gestione set di classificazione consente di creare, modificare o eliminare set di classificazioni.
+
+>[!NOTE]
+>
+>Questa funzione è attualmente in versione limitata. Se desideri accedere a questa funzione, contatta l’Assistenza clienti Adobe o il tuo Account Manager, che può inoltrare la tua richiesta al team Classificazioni per il provisioning.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]**
 

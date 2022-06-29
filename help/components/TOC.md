@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i tuoi dati utilizzando componenti quali segmenti, metriche calcolate, suite di rapporti virtuali, avvisi, canali di marketing, classificazioni e scopri le funzioni di Analytics tra dispositivi.
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 97%
@@ -45,7 +45,7 @@ ht-degree: 97%
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
    + [eVar](dimensions/evar.md)
-   + [eVar (Merchandising)](dimensions/evar-merchandising.md)
+   + [eVar  (Merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
    + [Canale di primo contatto](dimensions/first-touch-channel.md)
@@ -230,7 +230,7 @@ ht-degree: 97%
    + Set di classificazioni {#sets}
       + [Panoramica sui set di classificazioni](classifications/sets/overview.md)
       + [Gestione set di classificazioni](classifications/sets/set-manager.md)
-      + [Gestione processi set di classificazione](classifications/sets/job-manager.md)
+      + [Gestione processi set di classificazioni](classifications/sets/job-manager.md)
       + [Creare un set di classificazione](classifications/sets/create.md)
       + [Impostazioni set di classificazioni](classifications/sets/settings.md)
    + Generatore regole di classificazione {#classifications-rulebuilder}

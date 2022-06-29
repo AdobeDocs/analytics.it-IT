@@ -2,9 +2,9 @@
 title: Gestione processi set di classificazioni
 description: Visualizza i lavori di classificazione correnti e completati generati dai set di classificazioni.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Gestione processi set di classificazioni
 
 Gestione processi set di classificazione consente di visualizzare i processi di classificazione correnti e completati generati dai set di classificazioni. Puoi inoltre utilizzare questa interfaccia per scaricare i dati o i modelli di classificazione per un particolare lavoro o per caricare dati aggiuntivi su un processo.
+
+>[!NOTE]
+>
+>Questa funzione è attualmente in versione limitata. Se desideri accedere a questa funzione, contatta l’Assistenza clienti Adobe o il tuo Account Manager, che può inoltrare la tua richiesta al team Classificazioni per il provisioning.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Jobs]**
 
