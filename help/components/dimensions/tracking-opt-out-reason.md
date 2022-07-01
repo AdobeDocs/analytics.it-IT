@@ -3,14 +3,16 @@ title: Tracking del motivo di rinuncia
 description: Visualizza in anteprima quali dati verrebbero esclusi se si attivassero le impostazioni di privacy.
 feature: Dimensions
 exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
-source-git-commit: 4c896fe930b52e440f8b91725fa6451faaa76fc8
+source-git-commit: b7209b914695423099266f5c507eaa34c2b98bc5
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 3%
+source-wordcount: '235'
+ht-degree: 5%
 
 ---
 
 # Tracking del motivo di rinuncia
+
+*Questa pagina fa riferimento alla dimensione che ti consente di vedere il potenziale impatto dei dati derivante dall’abilitazione di determinate impostazioni della suite di rapporti. Non è correlato al [Servizio Opt-in Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it).*
 
 La dimensione &quot;Tracking opt-out reason&quot; funge da anteprima per i dati che verrebbero esclusi se avessi abilitato Impostazioni privacy. Questa dimensione viene utilizzata principalmente per determinare se l’implementazione risulterebbe compromessa se abilitata [Impostazioni privacy](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) in Impostazioni suite di rapporti.
 
