@@ -4,9 +4,9 @@ description: Implementa Adobe Analytics sul tuo sito, proprietà o applicazione.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -33,8 +33,8 @@ Il codice JavaScript invia una richiesta di immagine ai server di raccolta dati 
 
 Per poter inviare dati ai server di raccolta dati, Adobe Analytics richiede il codice all’interno del sito web, dell’app mobile o di altre applicazioni. Esistono diversi metodi per implementare questo codice, a seconda della piattaforma e delle esigenze aziendali.
 
-* **SDK per web**: Il metodo standardizzato e consigliato per l’implementazione di Adobe Analytics. Installa l&#39;estensione Web SDK in Adobe Experience Platform Data Collection, utilizza un tag loader in ogni pagina e invia i dati a Adobe Experience Platform Edge in un formato adatto alla tua organizzazione. Experience Edge inoltra i dati in arrivo ad Adobe Analytics nel formato corretto.
-* **Estensione Adobe Analytics**: Installa l&#39;estensione Adobe Analytics in Adobe Experience Platform Data Collection. Posiziona un tag loader in ogni pagina e utilizza l’estensione Analytics per determinare come viene definita ogni variabile.
+* **Web SDK**: metodo standardizzato e consigliato per l’implementazione di Adobe Analytics. Installa l’estensione Web SDK in raccolta dati Adobe Experience Platform, utilizza un tag loader in ogni pagina e invia i dati a Adobe Experience Platform Edge in un formato adatto alla tua organizzazione. Experience Edge inoltra i dati in arrivo ad Adobe Analytics nel formato corretto.
+* **Estensione Adobe Analytics**: installa l’estensione Adobe Analytics in raccolta dati Adobe Experience Platform. Inserisci un tag loader in ciascuna pagina e utilizza l’estensione Analytics per determinare come viene definita ogni variabile.
 * **JavaScript legacy:** metodo manuale che veniva utilizzato per implementare Adobe Analytics. Consente di specificare le variabili e le impostazioni utilizzate in un’implementazione e può essere utile per le implementazioni basate su regole con codice personalizzato.
 * **SDK per dispositivi mobili:** librerie dedicate per inviare facilmente i dati ad Adobe dall’app mobile.
 
