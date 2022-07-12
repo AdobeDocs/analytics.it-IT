@@ -3,14 +3,15 @@ title: Variabili eVar (Merchandising)
 description: Variabili personalizzate correlate a singoli prodotti.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+mini-toc-levels: 3
+source-git-commit: 2624a18896f99aadcfe0a04538ece21c370a28b9
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 3%
+source-wordcount: '503'
+ht-degree: 2%
 
 ---
 
-# eVar (merchandising)
+# eVar  (Merchandising)
 
 *Questa pagina di aiuto descrive come implementare le eVar di merchandising. Per informazioni sul funzionamento degli eVar di merchandising come dimensione, consulta [eVar (Merchandising)](/help/components/dimensions/evar-merchandising.md) nella guida utente Componenti .*
 
@@ -41,6 +42,47 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 Valore per `eVar1` viene assegnato al prodotto. Tutti gli eventi di successo successivi che coinvolgono questo prodotto vengono accreditati al valore eVar.
 
+### Utilizzo di XDM per Edge Collection
+
+Ogni campo nella variabile &quot;products&quot; viene compilato da un campo XDM corrispondente. È disponibile un elenco di tutte le mappature dai parametri XDM ad Analytics [qui](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). Di seguito è riportato un esempio che illustra come i campi XDM productListItems vengono combinati per creare una variabile di prodotto.
+
+Struttura XDM:
+
+```js
+              "productListItems": [
+                    {
+                        "name": "Bahama Shirt",
+                        "priceTotal": "12.99",
+                        "quantity": 3,
+                        "_experience": {
+                            "analytics": {
+                                "customDimensions" : {
+                                    "eVars" : {
+                                        "eVar10" : "green",
+                                        "eVar33" : "large"
+                                    }
+                                },
+                                "event1to100" : {
+                                    "event4" : {
+                                        "value" : 1
+                                    },
+                                    "event10" : {
+                                        "value" : 2,
+                                        "id" : "abcd"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+```
+
+Parametro &quot;products&quot; risultante passato ad Analytics:
+
+```js
+pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
+```
+
 ## Implementare utilizzando la sintassi della variabile di conversione
 
 La sintassi della variabile di conversione viene utilizzata quando il valore eVar non è disponibile per l&#39;impostazione nel `products` variabile. In genere, questo scenario indica che la pagina non ha contesto del canale di merchandising o del metodo di ricerca. In questi casi, è possibile impostare la variabile merchandising prima di arrivare alla pagina del prodotto e il valore viene mantenuto finché non si verifica l’evento di binding.
@@ -53,10 +95,36 @@ s.eVar1 = "Aviary";
 
 // Place on the page where the binding event occurs:
 s.events = "prodView";
-s.products = "Birds;Canary";
+s.products = ";Canary";
 ```
 
 Il valore `"Aviary"` per `eVar1` viene assegnato al prodotto `"Canary"`. Tutti gli eventi di successo successivi che coinvolgono questo prodotto vengono accreditati a `"Canary"`. Inoltre, il valore corrente della variabile merchandising è associato a tutti i prodotti successivi fino a quando non viene soddisfatta una delle seguenti condizioni:
 
 * La scadenza dell’eVar (in base all’impostazione &quot;Scade dopo&quot;)
 * L’eVar merchandising viene sovrascritto con un nuovo valore.
+
+### Utilizzo di XDM per Edge Collection
+
+Puoi specificare le stesse informazioni utilizzando i campi XDM mappati ai campi di Analytics. È disponibile un elenco di tutte le mappature dai parametri XDM ad Analytics [qui](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). Il mirroring XDM dell&#39;esempio precedente sarà simile al seguente:
+
+```js
+                  "_experience": {
+                      "analytics": {
+                          "customDimensions": {
+                              "eVars": {
+                                  "eVar1" : "Aviary"
+                              }
+                          }
+                      }
+                  },
+                  "commerce": {
+                      "productViews" : {
+                          "value" : 1
+                      }
+                  },
+                  "productListItems": [
+                      {
+                          "name": "Canary"
+                      }
+                  ]
+```
