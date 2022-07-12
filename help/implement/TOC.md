@@ -7,7 +7,7 @@ user-guide-description: 'Personalizza i dati raccolti per ottenere di più da Ad
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 98%
       + [Panoramica dell’SDK per dispositivi mobili](aep-edge/mobile-sdk/overview.md)
    + API Edge {#edge-api}
       + [Panoramica API Edge](aep-edge/edge-api/overview.md)
-+ Implementazione di Analytics tramite l’estensione Adobe Analytics {#launch}
++ Implementare Analytics tramite l’estensione Adobe Analytics {#launch}
    + [Panoramica sui tag](launch/overview.md)
    + [Creare una proprietà tag in Adobe Analytics](launch/create-analytics-property.md)
    + [Implementare in un ambiente di sviluppo](launch/deploy-dev.md)
