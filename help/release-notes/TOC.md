@@ -5,7 +5,7 @@ user-guide-title: Note sulla versione di Analytics
 breadcrumb-title: Note sulla versione
 user-guide-description: Elenco delle nuove funzioni e descrizioni delle correzioni di bug.
 source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 100%
 

@@ -7,7 +7,7 @@ user-guide-description: Gestisci i tuoi dati utilizzando componenti quali segmen
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -228,9 +228,9 @@ ht-degree: 97%
 + Classificazioni {#classifications}
    + [Panoramica delle classificazioni](classifications/c-classifications.md)
    + Set di classificazioni {#sets}
-      + [Panoramica sui set di classificazioni](classifications/sets/overview.md)
+      + [Panoramica sui set di classificazione](classifications/sets/overview.md)
       + [Gestione set di classificazioni](classifications/sets/set-manager.md)
-      + [Gestione processi set di classificazioni](classifications/sets/job-manager.md)
+      + [Gestione processi set di classificazione](classifications/sets/job-manager.md)
       + [Creare un set di classificazione](classifications/sets/create.md)
       + [Impostazioni set di classificazioni](classifications/sets/settings.md)
    + Generatore regole di classificazione {#classifications-rulebuilder}

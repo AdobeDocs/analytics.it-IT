@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guida all’integrazione di Analytics
 breadcrumb-title: Guida all’integrazione
-user-guide-description: Configura le integrazioni con altre soluzioni Adobe Experience Cloud, ad esempio Audience Manager e Advertising Cloud.
+user-guide-description: Configura le integrazioni con altre soluzioni di Adobe Experience Cloud, come Audience Manager e Advertising Cloud.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 58%
+ht-degree: 70%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 58%
 # Guida all’integrazione di Adobe Analytics {#integration}
 
 + [Integrazione di Analytics](home.md)
-+ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
 + Audience Analytics {#audience-analytics}
    + [Panoramica di Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
    + Flusso di lavoro di Audience Analytics {#audience-analytics-workflow}

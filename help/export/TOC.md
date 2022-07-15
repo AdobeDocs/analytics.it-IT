@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
-user-guide-description: Utilizza feed di dati per ricevere un’esportazione oraria o giornaliera di dati non elaborati. Utilizza Data Warehouse per recuperare un output di dati in un foglio di calcolo. Scopri come utilizzare l'FTP e l'sFTP per il trasferimento di file tra computer e server.
+user-guide-description: Utilizza feed di dati per ricevere un’esportazione oraria o giornaliera di dati non elaborati. Utilizza Data Warehouse per recuperare un output di dati in un foglio di calcolo. Scopri come utilizzare FTP e SFTP per trasferire file tra computer e server.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 # Guida all’esportazione di Adobe Analytics {#export}
 
 + [Guida all’esportazione di Analytics](home.md)
-+ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
 + Feed dati di Analytics {#analytics-data-feed}
    + [Panoramica sui feed dati](analytics-data-feed/data-feed-overview.md)
    + [Creare o modificare un feed dati](analytics-data-feed/create-feed.md)
