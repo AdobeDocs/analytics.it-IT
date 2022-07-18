@@ -4,9 +4,9 @@ description: Risposte alle domande frequenti riguardanti il passaggio da una pia
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -18,17 +18,17 @@ Ogni piattaforma Analytics offre diversi modi per raccogliere, gestire e archivi
 
 Se l’organizzazione desidera che i dati storici vengano trasferiti ad Adobe, contatta il loro Account Manager. Un consulente per l’implementazione può collaborare con l’organizzazione per tradurre un’esportazione di dati Google Analytics in un’origine dati che può essere ingerita dai server di raccolta dati Adobe.
 
-Per spostarsi sui dati storici consigliamo di utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it) che può importare qualsiasi origine dati omni-channel.
+Per trasferire i dati storici consigliamo di utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it) che può acquisire qualsiasi origine dati omni-channel.
 
-**Ho l’abitudine di usare in molti rapporti un elenco a discesa di segmentazione. Come posso ricrearlo in [!UICONTROL Analysis Workspace]?**
+**Ho l’abitudine di usare in molti rapporti un elenco a discesa di segmentazione. Come è possibile ricrearlo in [!UICONTROL Analysis Workspace]?**
 
-I filtri a discesa sono una funzione flessibile e affidabile in [!UICONTROL Analysis Workspace] consente di visualizzare un elenco a discesa di segmentazione. In un progetto Workspace:
+I filtri a discesa sono una funzione flessibile e affidabile in [!UICONTROL Analysis Workspace] che consente di visualizzare un elenco a discesa di segmentazione. In un progetto Workspace:
 
 1. Usa i comandi Ctrl-clic (Windows) o Cmd-clic (Mac) sui componenti che desideri includere nell’elenco a discesa. Oltre ai segmenti, puoi includere qualsiasi componente nei filtri a discesa.
 2. Trascina il gruppo di componenti nella sezione di Workspace con l’etichetta “Drop a segment here” (Rilascia un segmento qui). Prima di rilasciare, tieni premuto Maiusc.
 
-Utenti che accedono a questo [!UICONTROL Workspace] ora puoi utilizzare questo menu a discesa per applicare segmenti o altri componenti al progetto. Vedi [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md) nella guida Strumenti di Adobe Analytics per ulteriori informazioni.
+Gli utenti che accedono a questo progetto [!UICONTROL Workspace] ora possono utilizzare l’elenco a discesa per applicare al progetto segmenti o altri componenti. Per ulteriori informazioni, consulta la [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md) nella guida Strumenti di Adobe Analytics.
 
-**Ho l’abitudine di fare clic su un elemento di dimensione per visualizzare un drill-down. Come posso replicare questo flusso di lavoro agevole in Analysis Workspace?**
+**Ho l’abitudine di fare clic su un elemento di dimensione per visualizzare un approfondimento. Come posso replicare questo semplice flusso di lavoro in Analysis Workspace?**
 
-Dimension elementi in [!UICONTROL Analysis Workspace] dispongono anche di un flusso di lavoro di suddivisione semplice. Per accedervi, fai clic con il pulsante destro del mouse invece di scegliere il pulsante sinistro del mouse. Fai clic con il pulsante destro del mouse su un elemento di dimensione e fai clic su **[!UICONTROL Breakdown], quindi seleziona il componente desiderato. Puoi applicare lo stesso raggruppamento a più elementi dimensionali utilizzando i comandi Ctrl+clic (Windows) o Comando+clic (Mac) su ciascun valore.
+Anche gli elementi Dimensione in [!UICONTROL Analysis Workspace] dispongono di un semplice flusso di lavoro basato su raggruppamenti. Per accedervi, fai clic con il pulsante destro del mouse invece che con il pulsante sinistro. Fai clic con il pulsante destro su un elemento di dimensione, fai clic su [!UICONTROL Breakdown] e seleziona il componente desiderato. Per applicare lo stesso raggruppamento a più elementi di dimensione, usa i comandi Ctrl-clic (Windows) o Comando-clic (Mac) su ciascun valore.
