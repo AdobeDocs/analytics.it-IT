@@ -5,7 +5,7 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | --- | --- |
 | `application.id` | La dimensione mobile [ID app](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#dimensions). |
 | `application.isClose` | Consente di definire la metrica mobile [Arresti anomali](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#metrics). |
-| `application.isInstall` | Aiuta a determinare quando aumentare la metrica mobile [Primi avvii](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isLaunch` | Aiuta a determinare quando aumentare la metrica mobile [Primi avvii](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isInstall` | Consente di determinare quando aumentare la metrica mobile [Primi avvii](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isLaunch` | Consente di determinare quando aumentare la metrica mobile [Primi avvii](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.closeType` | Determina se un evento di chiusura è un arresto anomalo o meno. I valori validi includono `close` (una sessione del ciclo di vita termina ed è stato ricevuto un evento di pausa per la sessione precedente) e `unknown` (una sessione del ciclo di vita termina senza un evento di pausa). Aiuta a impostare la metrica [Arresti anomali](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isInstall` | La metrica mobile [Installazioni](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isLaunch` | La metrica mobile [Lanci](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isLaunch` | La metrica mobile [Avvii](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.name` | Consente di impostare la dimensione mobile [ID app](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `application.isUpgrade` | La metrica mobile [Aggiornamenti](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.version` | Consente di impostare la dimensione mobile [ID app](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
@@ -34,7 +34,7 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `commerce.productListAdds.value` | Incrementa la metrica [Aggiunte al carrello](../../components/metrics/cart-additions.md). |
 | `commerce.productListOpens.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla metrica [Carrelli](../../components/metrics/carts.md). |
 | `commerce.productListOpens.value` | Incrementa la metrica [Carrelli](../../components/metrics/carts.md). |
-| `commerce.productListRemovals.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla metrica [Rimozioni carrello](../../components/metrics/cart-removals.md). |
+| `commerce.productListRemovals.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla metrica [Rimozioni dal carrello](../../components/metrics/cart-removals.md). |
 | `commerce.productListRemovals.value` | Incrementa la metrica [Rimozioni dal carrello](../../components/metrics/cart-removals.md). |
 | `commerce.productListViews.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla metrica [Visualizzazioni carrello](../../components/metrics/cart-views.md). |
 | `commerce.productListViews.value` | Incrementa la metrica [Visualizzazioni carrello](../../components/metrics/cart-views.md). |
@@ -57,7 +57,7 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `environment.ipV4` | Utilizzato come metodo di identificazione di riserva per [visitatore univoco](../../components/metrics/unique-visitors.md). Generalmente popolato utilizzando `X-Forwarded-For` Intestazione HTTP. |
 | `environment.language` | La dimensione mobile Locale. |
 | `environment.operatingSystem` | La dimensione mobile [Sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `environment.operatingSystemVersion` | Aiuta a impostare [Versione sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) dimensione. |
+| `environment.operatingSystemVersion` | Consente di impostare la dimensione [Versione sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Imposta la dimensione delle rispettive [eVar](../../components/dimensions/evar.md). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Il delimitatore utilizzato per un [Prop elenco](../vars/page-vars/prop.md#list-props) specifico. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Matrice di stringhe contenente i rispettivi valori [Prop elenco](../vars/page-vars/prop.md#list-props). |
