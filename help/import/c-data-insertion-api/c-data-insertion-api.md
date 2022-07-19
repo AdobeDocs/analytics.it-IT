@@ -3,19 +3,17 @@ description: Link alla documentazione API di inserimento dati.
 title: API di inserimento dati
 feature: API
 exl-id: d0ed201a-4bc9-49e2-919b-8cea4fcff587
-source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
+source-git-commit: 9f83d5670d717aa1aaa4b9e10d5e79d20655c762
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 43%
+source-wordcount: '106'
+ht-degree: 74%
 
 ---
 
 # API di inserimento dati
 
-<!-- Git link needs to change to root relative link -->
+[L’API di inserimento dati e l’API di inserimento dati in blocco sono entrambi metodi per inviare i dati di raccolta lato server ad Adobe Analytics. ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)[](../bulk-data-insertion-api/bulk-data-insert.md) Le chiamate API di inserimento dati vengono effettuate un evento alla volta. L’API di inserimento dati in blocco accetta file in formato CSV contenenti dati evento, un evento per riga.
 
-Consulta [https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)
+Fai riferimento a [documentazione per gli sviluppatori per l’inserimento di dati in blocco API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) per ulteriori informazioni.
 
-API di [inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)
-
-API di inserimento dati e [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)sono entrambi metodi per inviare dati di raccolta lato server ad Adobe Analytics. Le chiamate API di inserimento dati vengono effettuate un evento alla volta. L’API di inserimento dati in blocco accetta file in formato CSV contenenti dati evento, un evento per riga. Se stai lavorando a una nuova implementazione della raccolta lato server, ti consigliamo di utilizzare l’API di inserimento dati in blocco.
+Se stai lavorando a una nuova implementazione della raccolta lato server, ti consigliamo di utilizzare l’API di inserimento dati in blocco.
