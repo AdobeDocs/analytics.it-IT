@@ -4,9 +4,9 @@ keywords: Feed di dati;processo;pre colonna;post colonna;sensibilità maiuscole/
 title: Domande frequenti sui feed di dati
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,5 @@ Tuttavia, gli oggetti non ereditano le autorizzazioni dal bucket principale. Per
 
 >[!NOTE]
 >
->[!DNL Analytics] non determina se il bucket dispone di un criterio che richiede l’assegnazione al proprietario del bucket del controllo completo dei nuovi oggetti, o anche se il proprietario del bucket si trova in un account diverso da quello utilizzato dall’utente per scrivere i dati. Invece, [!DNL Analytics] aggiunge automaticamente il proprietario del bucket all&#39;ACL BucketOwnerFullControl con ogni caricamento di feed.
+>Adobe Analytics non determina se il bucket dispone di un criterio che richiede l’assegnazione al proprietario del bucket del controllo completo dei nuovi oggetti, o anche se il proprietario del bucket si trova in un account diverso da quello utilizzato dall’utente per scrivere i dati. Al contrario, Analytics aggiunge automaticamente il proprietario del bucket al `BucketOwnerFullControl` ACL con ogni caricamento di feed.
+
