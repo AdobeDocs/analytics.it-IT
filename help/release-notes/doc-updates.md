@@ -4,10 +4,10 @@ description: Aggiornamenti importanti della documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
+source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
 workflow-type: tm+mt
-source-wordcount: '3351'
-ht-degree: 100%
+source-wordcount: '3379'
+ht-degree: 99%
 
 ---
 
@@ -24,6 +24,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Data | Descrizione |
 | --- | --- |
 | **Giugno 2022** |  |
+| Variabili merchandising in XDM per Edge Collection | Documentazione su [supporto per le variabili Merchandising in XDM per Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) |
 | Documentazione di Experience Platform Edge | Nuovi articoli sull’implementazione di Adobe Analytics tramite [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=it), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=it) e [API Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=it). |
 | Documentazione aggiornata sulla visualizzazione del flusso | Basata sulla [nuova interfaccia utente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=it) |
 | Documentazione sulla condivisione di annotazioni nelle scorecard per dispositivi mobili | È possibile visualizzare le [annotazioni create in Workspace nelle scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=it). |
