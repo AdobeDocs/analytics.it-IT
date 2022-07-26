@@ -3,9 +3,9 @@ title: list
 description: Variabili personalizzate che contengono più valori nello stesso hit.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,6 @@ Assicurati di registrare come utilizzare ogni variabile di elenco e la relativa 
 ## Impostare le variabili elenco nelle impostazioni delle suite di rapporti
 
 Assicurati di configurare ogni variabile dell’elenco nelle impostazioni della suite di rapporti prima di utilizzarla nell’implementazione. Vedi [Variabili di conversione](/help/admin/admin/conversion-var-admin/list-var-admin.md) nella guida Amministratore.
-
-## Elencare le variabili utilizzando l’SDK per web
-
-Variabili di elenco [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nei campi XDM `_experience.analytics.customDimensions.lists.list1` a `_experience.analytics.customDimensions.lists.list3`.
 
 ## Elencare le variabili utilizzando l’estensione Adobe Analytics
 
