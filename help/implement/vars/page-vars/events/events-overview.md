@@ -3,7 +3,7 @@ title: events
 description: Imposta la variabile degli eventi, che regola la maggior parte delle metriche sul sito.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
+source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 1%
@@ -22,9 +22,7 @@ Gli eventi personalizzati sono [mappato per Adobe Analytics](https://experiencel
 
 * Gli eventi personalizzati 1-100 sono mappati su `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Gli eventi personalizzati 101-200 sono mappati su `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Questo modello ripete ogni 100 eventi in `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
-* `eventx.value` viene utilizzato per specificare il valore.
-* `eventx.id` viene utilizzato per specificare l’id per la serializzazione.
+* Questo modello ripete ogni 100 eventi in `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` viene utilizzato per specificare il valore. `eventx.id` viene utilizzato per specificare l’id per la serializzazione.
 * Gli ordini sono mappati su `commerce.purchases.value`.
 * Le unità sono mappate alla somma di tutte `productListItems[].quantity` campi.
 * Le entrate sono mappate alla somma di tutte `productListItems[].priceTotal` campi.
