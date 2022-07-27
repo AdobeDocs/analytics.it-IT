@@ -3,10 +3,10 @@ title: inList
 description: Controlla se un valore è contenuto in un altro valore delimitato da caratteri.
 feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 1%
+source-wordcount: '442'
+ht-degree: 2%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 1%
 
 La `inList` Il plug-in consente di verificare se un valore esiste già all&#39;interno di una stringa delimitata o di un oggetto array JavaScript. Diversi altri plug-in dipendono dal `inList` plug-in per il funzionamento. Questo plug-in fornisce un vantaggio distinto rispetto al metodo JavaScript `indexOf()` in cui non corrisponde a stringhe parziali. Ad esempio, se hai usato questo plug-in per verificare la presenza di `"event2"`, non corrisponde a una stringa contenente `"event25"`. Questo plug-in non è necessario se non è necessario verificare la presenza di valori in stringhe o array delimitati o se si desidera utilizzare il proprio `indexOf()` logica.
 
-## Installare il plug-in utilizzando l’SDK per web o l’estensione Adobe Analytics
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-1. Fai clic sulla proprietà tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
-1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
-1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
-   * Condizione: nessuna
-   * Evento: Core - Libreria caricata (pagina in alto)
-1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
-   * Tipo azione: Inizializza inList
-1. Salva e pubblica le modifiche alla regola.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize inList
+1. Save and publish the changes to the rule.-->
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 

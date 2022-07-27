@@ -3,10 +3,10 @@ title: getPageName
 description: Crea un pageName di facile lettura dal percorso del sito Web corrente.
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 0%
+source-wordcount: '481'
+ht-degree: 1%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 0%
 
 La `getPageName` Il plug-in crea una versione formattata semplice e intuitiva dell’URL corrente. Adobe consiglia di utilizzare questo plug-in se desideri [`pageName`](../page-vars/pagename.md) valore facile da impostare e comprendere nel reporting. Questo plug-in non è necessario se disponi già di una struttura di denominazione per `pageName` , ad esempio attraverso un livello dati. Viene utilizzato al meglio quando non si dispone di un&#39;altra soluzione per impostare `pageName` variabile.
 
-## Installare il plug-in utilizzando l’SDK per web o l’estensione Adobe Analytics
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-1. Fai clic sulla proprietà tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
-1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
-1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
-   * Condizione: nessuna
-   * Evento: Core - Libreria caricata (pagina in alto)
-1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
-   * Tipo azione: Inizializza getPageName
-1. Salva e pubblica le modifiche alla regola.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getPageName
+1. Save and publish the changes to the rule.-->
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 

@@ -3,9 +3,9 @@ title: getPercentPageViewed
 description: Recupera la percentuale della pagina visualizzata dal visitatore.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 0%
 
 La `getPercentPageViewed` Il plug-in misura l’attività di scorrimento di un visitatore per vedere la quantità di una pagina visualizzata prima di passare a un’altra pagina. Questo plug-in non è necessario se le pagine sono di piccole dimensioni o se non desideri misurare l’attività di scorrimento.
 
-## Installare il plug-in utilizzando l’SDK per web o l’estensione Adobe Analytics
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-1. Fai clic sulla proprietà tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
-1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
-1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
-   * Condizione: nessuna
-   * Evento: Core - Libreria caricata (pagina in alto)
-1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
-   * Tipo azione: Inizializza getPercentPageViewed
-1. Salva e pubblica le modifiche alla regola.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getPercentPageViewed
+1. Save and publish the changes to the rule.-->
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
