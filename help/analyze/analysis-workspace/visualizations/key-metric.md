@@ -3,10 +3,10 @@ description: Utilizza la visualizzazione di riepilogo delle metriche chiave per 
 title: Riepilogo delle metriche chiave
 feature: Visualizations
 role: User, Admin
-source-git-commit: a126f51c82cf7b23f4e03134c2d870d216dadc47
+source-git-commit: 73de5dca8584d8d04b57a0d50dffcb57cfeefb08
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 4%
+source-wordcount: '551'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 >
 >Questa funzionalità è attualmente in [fase di test](/help/release-notes/releases.md).
 
-La visualizzazione Riepilogo metriche chiave ti permette di vedere come una metrica importante tende in un singolo arco di tempo. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. Fornisce i vantaggi di più visualizzazioni combinate in un’unica visualizzazione:
+La [!UICONTROL Key metric summary] la visualizzazione ti consente di vedere come si presenta una metrica importante in un singolo arco di tempo. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. Fornisce i vantaggi di più visualizzazioni combinate in un’unica visualizzazione:
 
 * **[!UICONTROL Line]** visualizzazioni che mostrano la tendenza della metrica per gli intervalli di date principali e di confronto
 
@@ -62,7 +62,7 @@ Nota:
 
 * La **[!UICONTROL Previous period]** il grafico a linee (sempre visualizzato in grigio) corrisponde al **[!UICONTROL Comparison date range]** nel passaggio di configurazione.
 
-* Se non è selezionato un intervallo di date di confronto durante la configurazione o è nascosto nelle impostazioni di visualizzazione (per ulteriori informazioni sulle impostazioni sottostanti), viene visualizzato solo il grafico a linee per l’intervallo di date principale. La modifica di riepilogo sarà nascosta.
+* Se durante la configurazione non viene specificato un intervallo di date di confronto o se questo è nascosto nelle impostazioni di visualizzazione, viene visualizzato solo il grafico a linee per l’intervallo di date principale. La modifica di riepilogo sarà nascosta.
 
 * Da qui, puoi passare il cursore del mouse sui grafici a linee per vedere le statistiche dei singoli giorni:
 
@@ -76,16 +76,16 @@ Il riepilogo delle metriche chiave offre diverse impostazioni flessibili per con
 
 | Impostazione | Descrizione |
 | --- | --- |
-| Modifica percentuale enfasi | Visualizza la modifica di riepilogo in grassetto prominente al centro della visualizzazione |
-| Valore del numero di enfasi | Visualizza il numero di riepilogo in grassetto prominente al centro della visualizzazione |
-| Visualizzazione legenda | Mostra o nasconde la legenda nella parte inferiore della visualizzazione |
-| Mostra annotazioni | Mostra o nasconde le annotazioni aggiunte da un amministratore |
-| Mostra sparkline | Mostra o nasconde i grafici a linee nella parte inferiore del grafico. Quando è nascosta, la legenda non fa più riferimento visivamente alle linee |
-| Mostra minimo e massimo sui grafici sparkline | Mostra o nascondi valori minimi e massimi nei grafici a linee principali e a linee di confronto |
-| Mostra confronto | Mostra o nasconde i dati di confronto. Se nascosti, gli oggetti grafico a linee di confronto e di riepilogo delle modifiche saranno nascosti dalla visualizzazione. |
-| Mostra numero totale | Mostra o nasconde il numero di riepilogo |
-| Mostra differenza raw | Mostra o nasconde la differenza non elaborata tra il valore totale della metrica nell’intervallo di date principale e l’intervallo di date secondario |
-| Abbrevia il valore | Abbrevia i valori numerici per semplificare le informazioni comunicate (ad esempio 20.000 -> 20K) |
+| **[!UICONTROL Emphasize percent change]** | Visualizza la modifica di riepilogo in grassetto prominente al centro della visualizzazione |
+| **[!UICONTROL Emphasize number value]** | Visualizza il numero di riepilogo in grassetto prominente al centro della visualizzazione |
+| **[!UICONTROL Legend visible]** | Mostra o nasconde la legenda nella parte inferiore della visualizzazione |
+| **[!UICONTROL Show annotations]** | Mostra o nasconde le annotazioni aggiunte da un amministratore |
+| **[!UICONTROL Show sparklines]** | Mostra o nasconde i grafici a linee nella parte inferiore del grafico. Quando è nascosta, la legenda non fa più riferimento visivamente alle linee |
+| **[!UICONTROL Show min and max on sparklines]** | Mostra o nascondi valori minimi e massimi nei grafici a linee principali e a linee di confronto |
+| **[!UICONTROL Show comparison]** | Mostra o nasconde i dati di confronto. Se nascosti, gli oggetti grafico a linee di confronto e di riepilogo delle modifiche saranno nascosti dalla visualizzazione. |
+| **[!UICONTROL Show total number]** | Mostra o nasconde il numero di riepilogo |
+| **[!UICONTROL Show raw difference]** | Mostra o nasconde la differenza non elaborata tra il valore totale della metrica nell’intervallo di date principale e l’intervallo di date secondario |
+| **[!UICONTROL Abbreviate value]** | Abbrevia i valori numerici per semplificare le informazioni comunicate (ad esempio 20.000 -> 20K) |
 
 ## Visualizzazione Modifica
 
