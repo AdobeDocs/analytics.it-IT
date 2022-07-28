@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Istruzioni sull’utilizzo di Analysis Workspace, lo strumento di analisi e visualizzazione principale di Analytics, nonché strumenti come Adobe Analytics Dashboards, Report Builder e Activity Map.
-source-git-commit: 6f0d92a85003537447821687bf5385b1690dc33f
+source-git-commit: eb45e267835fcf91010dd87deb13707082dbf736
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 100%
+source-wordcount: '1051'
+ht-degree: 99%
 
 ---
 
@@ -74,6 +74,7 @@ ht-degree: 100%
          + [Configurare una visualizzazione di flusso](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flussi interdimensionali](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Istogramma](analysis-workspace/visualizations/histogram.md)
+      + [Riepilogo delle metriche chiave](analysis-workspace/visualizations/key-metric.md)
       + [Mappa](analysis-workspace/visualizations/map-visualization.md)
       + [Venn](analysis-workspace/visualizations/venn.md)
       + [Superfici e superfici sovrapposte](analysis-workspace/visualizations/area.md)
@@ -94,7 +95,7 @@ ht-degree: 100%
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Pubblico medio per minuto](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Tempo trascorso su contenuti multimediali {#media-playback-timespent}
+      + Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali) {#media-playback-timespent}
          + [Panoramica ](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Impostazioni di ingresso e uscita](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Domande frequenti](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
