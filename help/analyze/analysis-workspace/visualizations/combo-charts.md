@@ -3,10 +3,10 @@ description: Consente di visualizzare facilmente i dati di confronto in Analysis
 title: Visualizzazione di grafici combinati
 feature: Visualizations
 role: User, Admin
-source-git-commit: e2cd08ae4109e037f8b54edf21239fa6fa659896
+source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 32%
+source-wordcount: '697'
+ht-degree: 34%
 
 ---
 
@@ -30,9 +30,9 @@ Utilizza un [!UICONTROL Combo chart] a
 Tieni presente che puoi
 
 * Aggiungere più confronti in un singolo [!UICONTROL Combo chart].
-* Se aggiungi uno o più confronti, questi devono essere dello stesso tipo, ad esempio Periodo di tempo.
+* Se aggiungi uno o più confronti, questi devono essere dello stesso tipo, ad esempio [!UICONTROL Time comparison].
 * Puoi aggiungere fino a 5 confronti.
-* Puoi applicare un filtro a una metrica.
+* Puoi applicare fino a 3 filtri (segmenti) a una metrica.
 
 ## Creare un grafico combinato
 
@@ -46,9 +46,9 @@ Tieni presente che puoi
 
    | Tipo di confronto delle linee | Definizione |
    | --- | --- |
-   | Periodo di tempo | Il tipo di confronto più comune - paragonando questo periodo di tempo a 4 settimane fa, per esempio. Se hai selezionato Periodo di tempo, scegli un periodo di tempo secondario da confrontare.<p>![](assets/combo-time-period.png) |
-   | Metrica aggiuntiva | Ad esempio, puoi confrontare [!UICONTROL Revenue] a un’altra metrica.<p>![](assets/combo-2metrics.png) |
-   | Funzione | Si potrebbe introdurre una funzione come [!UICONTROL Average] nel confronto. Di seguito è riportato un elenco delle funzioni supportate.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Time comparison]** | Il tipo di confronto più comune - paragonando questo periodo di tempo a 4 settimane fa, per esempio. Se hai selezionato [!UICONTROL Time comparison], seleziona un periodo di tempo secondario da confrontare.<p>![](assets/combo-time-period.png) |
+   | **[!UICONTROL Additional metric]** | Ad esempio, puoi confrontare [!UICONTROL Revenue] a un’altra metrica.<p>![](assets/combo-2metrics.png) |
+   | **[!UICONTROL Function]** | Si potrebbe introdurre una funzione come [!UICONTROL Average] nel confronto. Di seguito è riportato un elenco delle funzioni supportate.<p>![](assets/combo-functions.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -66,11 +66,13 @@ Se scegli **[!UICONTROL Function]** come [!UICONTROL Line comparison type], vien
 
 | Funzione | Definizione |
 | --- | --- |
-| **[!UICONTROL Cumulative average]** | Restituisce la media delle ultime N righe. |
-| **[!UICONTROL Sum]** | Somma tutti i valori numerici di una metrica all’interno di una colonna (negli elementi di una dimensione) |
-| **[!UICONTROL Exponent]** | Restituisce *e* elevato alla potenza di un numero specificato. |
+| **[!UICONTROL Column Sum]** | Somma tutti i valori numerici di una metrica all’interno di una colonna (negli elementi di una dimensione) |
+| **[!UICONTROL Cumulative Average]** | Restituisce la media delle ultime N righe. |
+| **[!UICONTROL Median]** | Restituisce la mediana di una metrica in una colonna. La mediana è il numero nel mezzo di un insieme di numeri, ovvero metà dei numeri ha valori che sono maggiori o uguali alla mediana, e metà sono minori o uguali alla mediana. |
+| **[!UICONTROL Cumulative]** | La somma cumulativa di N righe. |
+| **[!UICONTROL Column Maximum]** | Restituisce il valore più grande in un insieme di elementi dimensionali della colonna di una metrica. |
 | **[!UICONTROL Mean]** | Restituisce la media aritmetica, o media, di una metrica. |
-| **[!UICONTROL Quartile]** | Restituisce il quartile dei valori di una metrica. Ad esempio, i quartili possono essere utilizzati per trovare il 25% dei prodotti che generano maggiori ricavi. |
+| **[!UICONTROL Column Minimum]** | Restituisce il valore più piccolo in un insieme di elementi dimensionali della colonna di una metrica. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -90,13 +92,15 @@ Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico comb
 
 | Impostazione | Definizione |
 | --- | --- |
+| **[!UICONTROL Visualization type]** | Consente di passare a un altro tipo di visualizzazione. |
+| **[!UICONTROL Granularity]** | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo menu a discesa. |
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Percentages]** | Visualizza i valori in percentuale. |
 | **[!UICONTROL Legend visible]** | Consente di nascondere il testo della legenda dettagliata per la visualizzazione dei grafici Combo. |
-| **[!UICONTROL Granularity]** | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo menu a discesa. |
+| **[!UICONTROL Limit max items]** | Riduce il numero di elementi sull&#39;asse X. Se hai un set di dati grande, puoi mostrare solo i primi 10 elementi (o qualsiasi valore scelto). |
 | **[!UICONTROL Overlays]** | Mostrare o nascondere le campane sulle linee. |
 | **[!UICONTROL Axis]** |  |
-| **[!UICONTROL Display dual axis]** | Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
+| **[!UICONTROL Display dual axis]** | Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. Il colore del doppio asse corrisponde al colore della tabella, a meno che non siano presenti più confronti. In tal caso, il colore di tutti i confronti è grigio. |
 | **[!UICONTROL Normalization]** | Forza le metriche ad adeguarsi alle proporzioni. Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 | **[!UICONTROL Show x-axis]** | Visualizzare l&#39;asse x o nasconderlo. |
 | **[!UICONTROL Show y-axis]** | Visualizzare l&#39;asse y o nasconderlo. |
