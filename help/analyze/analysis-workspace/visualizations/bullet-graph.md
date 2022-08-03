@@ -1,11 +1,10 @@
 ---
 description: È possibile vedere come un valore al quale sei interessato si confronta con altre gamme di prestazioni (obiettivi).
 title: Grafico bullet
-uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 4e230320dbda7bc626a04a9f9ec9cac438c8dba7
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 90%
