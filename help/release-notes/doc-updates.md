@@ -24,7 +24,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Data | Descrizione |
 | --- | --- |
 | **Giugno 2022** |  |
-| Variabili merchandising in XDM per Edge Collection | Documentazione su [supporto per le variabili Merchandising in XDM per Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) |
+| Variabili merchandising in XDM per Edge Collection | Documentazione su [supporto per le variabili Merchandising in XDM per Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=it) |
 | Documentazione di Experience Platform Edge | Nuovi articoli sull’implementazione di Adobe Analytics tramite [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=it), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=it) e [API Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=it). |
 | Documentazione aggiornata sulla visualizzazione del flusso | Basata sulla [nuova interfaccia utente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=it) |
 | Documentazione sulla condivisione di annotazioni nelle scorecard per dispositivi mobili | È possibile visualizzare le [annotazioni create in Workspace nelle scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=it). |
