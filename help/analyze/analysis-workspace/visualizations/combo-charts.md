@@ -3,13 +3,13 @@ description: Consente di visualizzare facilmente i dati di confronto in Analysis
 title: Visualizzazione di grafici combinati
 feature: Visualizations
 role: User, Admin
-source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
+exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
+source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 34%
 
 ---
-
 
 # Grafico combinato
 
@@ -47,8 +47,8 @@ Tieni presente che puoi
    | Tipo di confronto delle linee | Definizione |
    | --- | --- |
    | **[!UICONTROL Time comparison]** | Il tipo di confronto più comune - paragonando questo periodo di tempo a 4 settimane fa, per esempio. Se hai selezionato [!UICONTROL Time comparison], seleziona un periodo di tempo secondario da confrontare.<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL Additional metric]** | Ad esempio, puoi confrontare [!UICONTROL Revenue] a un’altra metrica.<p>![](assets/combo-2metrics.png) |
    | **[!UICONTROL Function]** | Si potrebbe introdurre una funzione come [!UICONTROL Average] nel confronto. Di seguito è riportato un elenco delle funzioni supportate.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Secondary metric]** | Ad esempio, puoi confrontare [!UICONTROL Revenue] a un’altra metrica.<p>![](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -107,5 +107,3 @@ Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico comb
 | **[!UICONTROL Anchor y-axis at zero]** | Se tutti i valori rappresentati sul grafico sono uniformemente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà NON-ZERO. Attivando questa opzione, l’asse y verrà forzata sullo zero (e il grafico verrà ridisegnato). |
 
 {style=&quot;table-layout:auto&quot;}
-
-
