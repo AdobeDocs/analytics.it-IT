@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
 workflow-type: tm+mt
 source-wordcount: '3379'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,21 +24,21 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Data | Descrizione |
 | --- | --- |
 | **Giugno 2022** |  |
-| Variabili merchandising in XDM per Edge Collection | Documentazione su [supporto per le variabili Merchandising in XDM per Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=it) |
+| Variabili di merchandising in XDM per la raccolta di dati Edge | Documentazione sul [supporto per le variabili di merchandising in XDM per la raccolta di dati Edge](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=it) |
 | Documentazione di Experience Platform Edge | Nuovi articoli sull’implementazione di Adobe Analytics tramite [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=it), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=it) e [API Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=it). |
 | Documentazione aggiornata sulla visualizzazione del flusso | Basata sulla [nuova interfaccia utente](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=it) |
-| Documentazione sulla condivisione di annotazioni nelle scorecard per dispositivi mobili | È possibile visualizzare le [annotazioni create in Workspace nelle scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=it). |
+| Documentazione sulla condivisione di annotazioni nelle scorecard per dispositivi mobili | È possibile visualizzare le [annotazioni create in Analysis Workspace nelle scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=it). |
 | Documentazione sulla versione della sintassi di prodotto di variabili di merchandising con Raccolta Edge | Ora puoi impostare le variabili di merchandising utilizzando l’equivalente della sintassi di prodotto impostando i campi XDM pertinenti. Ulteriori informazioni sulla sintassi di prodotto per le variabili di merchandising [qui](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=it). Vedi le mappature per la sintassi del prodotto [qui](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it#aep-edge). |
 | **Maggio 2022** |  |
 | Popolare dimensioni e metriche del ciclo di vita tramite Experience Edge | I dati del ciclo di vita mobile inviati tramite Experience Edge ora verranno visualizzati nei rapporti di Analytics. Consulta la documentazione per i dettagli sui campi XDM da mappare ai rapporti sul ciclo di vita mobile esistenti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) |
 | **Aprile 2022** |  |
-| Aggiornamenti pagina di destinazione di Adobe Analytics | Aggiornamenti alla [pagina di destinazione congiunta di Workspace e Reports &amp; Analytics](/help/analyze/landing.md) per migliorare l’usabilità e agevolare la navigazione. |
+| Aggiornamenti pagina di destinazione di Adobe Analytics | Aggiornamenti alla [pagina di destinazione congiunta di Analysis Workspace e Reports &amp; Analytics](/help/analyze/landing.md) per migliorare l’usabilità e agevolare la navigazione. |
 | Nuovo argomento sul pannello [!UICONTROL Page Summary] | [Pannello Riepilogo pagina](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Nuovo argomento sul pannello [!UICONTROL Next/Previous item] | [Pannello per elemento dimensione successivo/precedente](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Marzo 2022** |  |
 | Nuovo argomento sugli algoritmi di crittografia HTTPS supportati | [Algoritmi di crittografia HTTPS supportati](/help/technotes/rdc/encryption-algos.md) per i clienti con livello di sicurezza crittografato impostato su “Elevato”. |
-| Nuova documentazione sulle annotazioni in Workspace | [Le annotazioni in Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) consentono di comunicare in modo efficace dettagli sui dati contestuali a beneficio degli utenti in tutta l’organizzazione. |
-| Aggiornamenti pagina di destinazione di Adobe Analytics | [Aggiornamenti](/help/analyze/landing.md) alla pagina di destinazione congiunta Workspace/Reports &amp; Analytics che migliora l’usabilità e la facilità di navigazione. |
+| Nuova documentazione sulle annotazioni in Analysis Workspace | [Le annotazioni in Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) consentono di comunicare in modo efficace dettagli sui dati contestuali a beneficio degli utenti in tutta l’organizzazione. |
+| Aggiornamenti pagina di destinazione di Adobe Analytics | [Aggiornamenti](/help/analyze/landing.md) alla pagina di destinazione congiunta Analysis Workspace/Reports &amp; Analytics che migliora l’usabilità e la facilità di navigazione. |
 | Pannello Workspace [!UICONTROL Next item] o [!UICONTROL Previous item] | Questo pannello consente di esplorare gli elementi che seguono o precedono un elemento dimensionale scelto. |
 | Pannello Workspace [!UICONTROL Page Summary]  | Questo pannello fornisce un’analisi approfondita per una pagina a scelta. |
 | Nuovo argomento relativo alla sospensione dei report pianificati meno recenti | A partire dal **15 aprile 2022**, Adobe intende [sospendere tutti i rapporti pianificati con una data di creazione superiore ai due anni](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
