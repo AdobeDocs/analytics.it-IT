@@ -3,9 +3,9 @@ title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,15 +16,15 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | Percorso campo XDM | Dimensione e descrizione di Analytics |
 | --- | --- |
 | `application.isClose` | Consente di definire la metrica mobile [Arresti anomali](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#metrics). |
-| `application.isInstall` | Consente di determinare quando aumentare la metrica mobile [Primi avvii](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isLaunch` | Consente di determinare quando aumentare la metrica mobile [Primi avvii](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.closeType` | Determina se un evento di chiusura è un arresto anomalo o meno. I valori validi includono `close` (una sessione del ciclo di vita termina ed è stato ricevuto un evento di pausa per la sessione precedente) e `unknown` (una sessione del ciclo di vita termina senza un evento di pausa). Aiuta a impostare la metrica [Arresti anomali](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isInstall` | La metrica mobile [Installazioni](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isLaunch` | La metrica mobile [Avvii](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isInstall` | Consente di determinare quando aumentare la metrica mobile [Primi avvii](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#metrics). |
+| `application.isLaunch` | Consente di determinare quando aumentare la metrica mobile [Primi avvii](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#metrics). |
+| `application.closeType` | Determina se un evento di chiusura è un arresto anomalo o meno. I valori validi includono `close` (una sessione del ciclo di vita termina ed è stato ricevuto un evento di pausa per la sessione precedente) e `unknown` (una sessione del ciclo di vita termina senza un evento di pausa). Aiuta a impostare la metrica [Arresti anomali](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#metrics). |
+| `application.isInstall` | La metrica mobile [Installazioni](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#metrics). |
+| `application.isLaunch` | La metrica mobile [Avvii](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#metrics). |
 | `application.name` | Consente di impostare la dimensione mobile [ID app](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#dimensions). |
-| `application.isUpgrade` | La metrica mobile [Aggiornamenti](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.version` | Consente di impostare la dimensione mobile [ID app](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `application.sessionLength` | La metrica mobile [Lunghezza della sessione precedente](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isUpgrade` | La metrica mobile [Aggiornamenti](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#metrics). |
+| `application.version` | Consente di impostare la dimensione mobile [ID app](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#dimensions). |
+| `application.sessionLength` | La metrica mobile [Lunghezza della sessione precedente](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#metrics). |
 | `commerce.checkouts.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla metrica [Casse](../../components/metrics/checkouts.md). |
 | `commerce.checkouts.value` | Incrementa la metrica [Casse](../../components/metrics/checkouts.md) della quantità desiderata. |
 | `commerce.order.currencyCode` | Imposta variabile di configurazione [currencyCode](../vars/config-vars/currencycode.md). |
@@ -40,7 +40,7 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `commerce.productViews.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla metrica [Visualizzazioni prodotto](../../components/metrics/product-views.md). |
 | `commerce.productViews.value` | Incrementa la metrica [Visualizzazioni prodotto](../../components/metrics/product-views.md). |
 | `commerce.purchases.value` | Incrementa la metrica [Ordini](../../components/metrics/orders.md). |
-| `device.model` | La dimensione mobile [Nome del dispositivo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `device.model` | La dimensione mobile [Nome del dispositivo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#dimensions). |
 | `device.colorDepth` | Aiuta a impostare la dimensione [Profondità colore](../../components/dimensions/color-depth.md). |
 | `device.screenHeight` | Aiuta a impostare la dimensione [Risoluzione monitor.](../../components/dimensions/monitor-resolution.md) |
 | `device.screenWidth` | Aiuta a impostare la dimensione [Risoluzione monitor](../../components/dimensions/monitor-resolution.md). |
@@ -51,12 +51,12 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `environment.browserDetails.userAgent` | Utilizzato come metodo di identificazione di riserva per[ visitatore univoco](../../components/metrics/unique-visitors.md). Generalmente popolato utilizzando `User-Agent` Intestazione della richiesta HTTP. Puoi mappare questo campo su un eVar se desideri utilizzarlo nei rapporti. |
 | `environment.browserDetails.viewportHeight` | Imposta la dimensione [Altezza browser](../../components/dimensions/browser-height.md). |
 | `environment.browserDetails.viewportWidth` | Imposta la dimensione [Larghezza browser](../../components/dimensions/browser-width.md). |
-| `environment.carrier` | La dimensione mobile [Nome gestore](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.carrier` | La dimensione mobile [Nome gestore](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#dimensions). |
 | `environment.connectionType` | Aiuta a impostare la dimensione [Tipo di connessione](../../components/dimensions/connection-type.md). |
 | `environment.ipV4` | Utilizzato come metodo di identificazione di riserva per [visitatore univoco](../../components/metrics/unique-visitors.md). Generalmente popolato utilizzando `X-Forwarded-For` Intestazione HTTP. |
 | `environment.language` | La dimensione mobile Locale. |
-| `environment.operatingSystem` | La dimensione mobile [Sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `environment.operatingSystemVersion` | Consente di impostare la dimensione [Versione sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.operatingSystem` | La dimensione mobile [Sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#dimensions). |
+| `environment.operatingSystemVersion` | Consente di impostare la dimensione [Versione sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=it#dimensions). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Imposta la dimensione delle rispettive [eVar](../../components/dimensions/evar.md). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Il delimitatore utilizzato per un [Prop elenco](../vars/page-vars/prop.md#list-props) specifico. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Matrice di stringhe contenente i rispettivi valori [Prop elenco](../vars/page-vars/prop.md#list-props). |
@@ -127,7 +127,7 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 
 ## Mappatura di altri campi XDM su variabili Analytics
 
-Se esistono dimensioni o metriche da aggiungere ad Adobe Analytics, puoi farlo tramite [Variabili di dati di contesto](../vars/page-vars/contextdata.md). Tutti gli elementi di campo XDM che non sono mappati automaticamente vengono inviati ad Adobe Analytics come dati contestuali con il prefisso a.x. Puoi quindi mappare questa variabile di dati di contesto alla variabile di Analytics desiderata utilizzando [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=it). Ad esempio, se invii il seguente evento:
+Se esistono dimensioni o metriche da aggiungere ad Adobe Analytics, puoi farlo tramite [Variabili di dati di contesto](../vars/page-vars/contextdata.md). Tutti gli elementi di campo XDM che non sono mappati automaticamente vengono inviati ad Adobe Analytics come dati contestuali con il prefisso a.x. Puoi quindi mappare questa variabile di dati di contesto alla variabile di Analytics desiderata utilizzando le [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=it). Ad esempio, se invii il seguente evento:
 
 ```js
 alloy("event",{
