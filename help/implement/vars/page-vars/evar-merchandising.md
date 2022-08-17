@@ -4,10 +4,10 @@ description: Variabili personalizzate correlate a singoli prodotti.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 9a94e910d4e837bb9808b5662beebe6214ed4174
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 2%
+source-wordcount: '510'
+ht-degree: 3%
 
 ---
 
@@ -42,46 +42,45 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 Valore per `eVar1` viene assegnato al prodotto. Tutti gli eventi di successo successivi che coinvolgono questo prodotto vengono accreditati al valore eVar.
 
-### Utilizzo di XDM per Edge Collection
+### Sintassi di prodotto tramite l’SDK per web
 
-Ogni campo nella variabile &quot;products&quot; viene compilato da un campo XDM corrispondente. È disponibile un elenco di tutte le mappature dai parametri XDM ad Analytics [qui](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). Di seguito è riportato un esempio che illustra come i campi XDM productListItems vengono combinati per creare una variabile di prodotto.
+Le variabili di merchandising della sintassi del prodotto sono [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) in diversi campi XDM.
 
-Struttura XDM:
+* La sintassi del prodotto eVar per merchandising è mappata in `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` a `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
+* Gli eventi di merchandising della sintassi del prodotto sono mappati in `productListItems[]._experience.analytics.event1to100.event1.value` a `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Serializzazione degli eventi](events/event-serialization.md) I campi XDM sono mappati in `productListItems[]._experience.analytics.event1to100.event1.id` a `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+L’esempio seguente mostra un singolo [prodotto](products.md) utilizzando più eVar ed eventi di merchandising:
 
 ```js
-              "productListItems": [
-                    {
-                        "name": "Bahama Shirt",
-                        "priceTotal": "12.99",
-                        "quantity": 3,
-                        "_experience": {
-                            "analytics": {
-                                "customDimensions" : {
-                                    "eVars" : {
-                                        "eVar10" : "green",
-                                        "eVar33" : "large"
-                                    }
-                                },
-                                "event1to100" : {
-                                    "event4" : {
-                                        "value" : 1
-                                    },
-                                    "event10" : {
-                                        "value" : 2,
-                                        "id" : "abcd"
-                                    }
-                                }
-                            }
-                        }
+"productListItems": [
+    {
+        "name": "Bahama Shirt",
+        "priceTotal": "12.99",
+        "quantity": 3,
+        "_experience": {
+            "analytics": {
+                "customDimensions" : {
+                    "eVars" : {
+                        "eVar10" : "green",
+                        "eVar33" : "large"
                     }
-                ]
+                },
+                "event1to100" : {
+                    "event4" : {
+                        "value" : 1
+                    },
+                    "event10" : {
+                        "value" : 2,
+                        "id" : "abcd"
+                    }
+                }
+            }
+        }
+    }
+]
 ```
 
-Parametro &quot;products&quot; risultante passato ad Analytics:
-
-```js
-pl = ”;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large”
-```
+L’oggetto di esempio precedente viene inviato ad Adobe Analytics come `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
 ## Implementare utilizzando la sintassi della variabile di conversione
 
@@ -103,35 +102,35 @@ Il valore `"Aviary"` per `eVar1` viene assegnato al prodotto `"Canary"`. Tutti g
 * La scadenza dell’eVar (in base all’impostazione &quot;Scade dopo&quot;)
 * L’eVar merchandising viene sovrascritto con un nuovo valore.
 
-### Utilizzo di XDM per Edge Collection
+### Sintassi della variabile di conversione tramite SDK per web
 
-Puoi specificare le stesse informazioni utilizzando i campi XDM mappati ai campi di Analytics. È disponibile un elenco di tutte le mappature dai parametri XDM ad Analytics [qui](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). Il mirroring XDM dell&#39;esempio precedente sarà simile al seguente:
+La sintassi della variabile di conversione che utilizza l’SDK per web funziona in modo simile all’implementazione di altre [eVar](evar.md) e [events](events/events-overview.md). Il mirroring XDM dell&#39;esempio precedente sarà simile al seguente:
 
 Imposta l’eVar sulla stessa chiamata dell’evento precedente o precedente:
 
 ```js
-                  "_experience": {
-                      "analytics": {
-                          "customDimensions": {
-                              "eVars": {
-                                  "eVar1" : "Aviary"
-                              }
-                          }
-                      }
-                  }
+"_experience": {
+    "analytics": {
+        "customDimensions": {
+            "eVars": {
+                "eVar1" : "Aviary"
+            }
+        }
+    }
+}
 ```
 
 Impostare l&#39;evento di binding e i valori per la stringa prodotti:
 
 ```js
-                  "commerce": {
-                      "productViews" : {
-                          "value" : 1
-                      }
-                  },
-                  "productListItems": [
-                      {
-                          "name": "Canary"
-                      }
-                  ]
+"commerce": {
+    "productViews" : {
+        "value" : 1
+    }
+},
+"productListItems": [
+    {
+        "name": "Canary"
+    }
+]
 ```
