@@ -3,16 +3,16 @@ title: DMA Stati Uniti
 description: Area di mercato designata dell'hit.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 89e8c9ac085d020db954790331103846c9dbc7a1
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
 
 # DMA Stati Uniti
 
-La dimensione &quot;US DMA&quot; indica l’area di mercato designata (DMA) del visitatore. Si basa sui mercati dei media compilati da [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/).
+La dimensione &quot;US DMA&quot; indica l’area di mercato designata (DMA) del visitatore. Si basa sui mercati dei media compilati da [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/).
 
 ## Popolare questa dimensione con i dati
 
