@@ -3,9 +3,9 @@ title: list
 description: Variabili personalizzate che contengono più valori nello stesso hit.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,10 @@ Variabili di elenco [mappato per Adobe Analytics](https://experienceleague.adobe
     }
 }
 ```
+
+>[!NOTE]
+>
+>Lo schema XDM di Adobe contiene `key` oltre a `value` oggetti in ogni `list[]` array. Adobe non utilizza questi `key` durante l’invio di dati ad Adobe Analytics.
 
 Se l’organizzazione richiede un delimitatore diverso da una virgola (&#39;`,`&#39;), puoi passare l&#39;intera stringa di elenco, compresi i delimitatori desiderati, in un campo XDM personalizzato. Assicurati che la variabile di elenco sia configurata per accettare il delimitatore desiderato in [Impostazioni della suite di rapporti](/help/admin/admin/conversion-var-admin/list-var-admin.md).
 
