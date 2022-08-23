@@ -3,10 +3,10 @@ title: Creare un livello di dati
 description: Scopri cosa è un livello di dati nell’implementazione di Analytics e come può essere utilizzato per mappare le variabili in Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
+source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 4%
+source-wordcount: '468'
+ht-degree: 3%
 
 ---
 
@@ -36,11 +36,7 @@ L’implementazione di Adobe Analytics tramite un livello dati in genere segue q
 
 L&#39;Adobe consiglia di utilizzare [Livello dati client di Adobe](https://github.com/adobe/adobe-client-data-layer/wiki) per implementazioni nuove o ristrutturate.
 
-La tua organizzazione è libera di utilizzare altre specifiche del livello dati, ad esempio [Livello dati digitale esperienza cliente](https://www.w3.org/2013/12/ceddl-201312.pdf)oppure un altro livello di dati personalizzato interamente. L’allineamento a un livello di dati coerente che soddisfa le esigenze della tua organizzazione è il più importante.
-
-
-
-Utilizza la [Livello dati digitale esperienza cliente](https://www.w3.org/2013/12/ceddl-201312.pdf) per informazioni dettagliate su ciascun oggetto e sottooggetto. Non tutti i siti utilizzano tutti gli oggetti; ad esempio, se si ospita un sito di notizie, è improbabile che sia stato utilizzato per `digitalData.product` array di oggetti.
+La tua organizzazione è libera di utilizzare altre specifiche del livello dati, ad esempio [Livello dati digitale esperienza cliente](https://www.w3.org/2013/12/ceddl-201312.pdf)oppure un&#39;altra specifica personalizzata. L’allineamento a un livello di dati coerente che soddisfa le esigenze della tua organizzazione è il più importante.
 
 I livelli dati sono estensibili; se hai dei requisiti specifici per la tua organizzazione, puoi includere oggetti nel livello dati per soddisfare tali esigenze.
 
