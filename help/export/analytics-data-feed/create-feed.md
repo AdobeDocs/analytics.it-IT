@@ -3,10 +3,10 @@ title: Creare o modificare un feed dati
 description: Scopri come creare o modificare un feed di dati.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 60335be9a60b467969f5e1796ce465a7d453951f
+source-git-commit: ed1a627dafdf10f8a0a65e94b20ab6a3204a5d15
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 4%
+source-wordcount: '944'
+ht-degree: 7%
 
 ---
 
@@ -26,69 +26,27 @@ Prima di leggere questa pagina è consigliabile conoscere i feed di dati di base
 * **Date di inizio e fine**: La data di inizio indica la prima data desiderata per un feed di dati. Imposta questa data in passato per iniziare immediatamente l’elaborazione dei feed di dati per i dati storici. I feed continuano l’elaborazione fino alla data di fine. Le date di inizio e di fine si basano sul fuso orario della suite di rapporti.
 * **Alimentazione continua**: Questa casella di controllo rimuove la data di fine, consentendo l’esecuzione indefinita di un feed. Al termine dell’elaborazione dei dati storici da parte di un feed, questi attende che i dati terminino la raccolta per un’ora o un giorno specifici. Al termine dell’ora o del giorno corrente, l’elaborazione inizia dopo il ritardo specificato.
 
-## Campo di destinazione
+## Campi di destinazione
 
 I campi disponibili nei campi di destinazione dipendono dal tipo di destinazione.
 
-### Piattaforma Google Cloud
+### FTP
 
-Accedere ai bucket di archiviazione GCP come destinazione sicura
+I dati dei feed di dati possono essere inviati a una posizione FTP ospitata da un Adobe o da un cliente. Richiede un host FTP, un nome utente e una password. Utilizzare il campo percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere; i feed generano un errore se il percorso specificato non esiste.
 
-**Campi**
-* *Tipo:* Tipo di destinazione della piattaforma Google Cloud
-* *ID progetto:* ID del progetto GCP in cui esiste il bucket di archiviazione
-* *Nome bucket di archiviazione:* I nomi dei bucket senza punti sono limitati a 3-63 caratteri. I nomi contenenti punti possono contenere fino a 222 caratteri, ma ogni componente separato da punti non può superare i 63 caratteri.
-* *Percorso (facoltativo):* &amp; *Aggiungi ID suite di rapporti al percorso:* Posizione delle risorse da recuperare o archiviare
+![Informazioni FTP](assets/dest-ftp.jpg)
 
-![Informazioni GCP](assets/dest-gcp.png)
+### SFTP
 
-**Processo di creazione dell&#39;account di servizio**
+È disponibile il supporto SFTP per i feed di dati. Richiede un host SFTP, un nome utente e il sito di destinazione per contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
 
-L’utente dovrà creare un account di servizio per la destinazione Google Cloud Platform selezionata.
+![Informazioni SFTP](assets/dest-sftp.jpg)
 
-Per ogni organizzazione di analisi sarà consentito un solo account di servizio GCP. Una volta creato l’account del servizio per il datafed, tutti i datafeeds aggiuntivi all’interno dell’organizzazione verranno precompilati con l’account del servizio.
+### S3
 
-![Informazioni sull&#39;account del servizio GCP](assets/service-account.png)
+Puoi inviare feed direttamente ai bucket Amazon S3. Questo tipo di destinazione richiede un nome bucket, un ID chiave di accesso e una chiave segreta. Vedi [Requisiti di denominazione dei bucket Amazon S3](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) per ulteriori informazioni, consulta la documentazione di Amazon S3 .
 
-
-### Amazon S3
-
-Archiviazione bucket Amazon S3 accessibile tramite IAM Role all’interno di un’entità attendibile.
-
-**Campi**
-
-* *Tipo:* Tipo di destinazione di Amazon S3
-* *Intervallo:* Nome del bucket S3
-* *ARN entità attendibile:* ARN di entità AWS IAM `arn:aws:iam::<12 digit account number>:user/<username>`
-* *Ruolo ARN:* ARN ruolo AWS IAM `arn:aws:iam::<12 digit account number>:role/<role name>`
-* *Percorso (facoltativo):* &amp; *Aggiungi ID suite di rapporti al percorso:* Posizione delle risorse da recuperare o archiviare
-* *Specifica area geografica (facoltativo):* Elenco a discesa di tutte le aree AWS disponibili, incluse le aree CN
-
-![Informazioni su Amazon S3](assets/dest-s3-secure.png)
-
-
-**Creazione e selezione di un&#39;entità attendibile**
-
-L&#39;utente può selezionare un&#39;entità affidabile da qualsiasi opzione elencata nel menu a discesa oppure crearne e recuperarne una nuova facendo clic sul pulsante `Create Entity` pulsante .
-
-Dopo aver fatto clic su `Create Entity` l&#39;utente verrà reindirizzato a un processo di autenticazione. Una volta che l&#39;utente si autentica, l&#39;entità affidabile viene creata e aggiunta alle opzioni nel menu a discesa.
-
-Il menu a discesa elenca tutte le entità attendibili create nell&#39;organizzazione da questo utente.
-
-![Informazioni entità](assets/entity-creation.png)
-
-Puoi inviare feed direttamente ai bucket Amazon S3 tramite il metodo legacy . Vedi [Requisiti di denominazione dei bucket Amazon S3](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) per ulteriori informazioni, consulta la documentazione di Amazon S3 .
-
-**Campi - Obsoleto**
-
-* *Tipo:* Tipo di destinazione del metodo S3 obsoleto
-* *Intervallo:* Nome bucket Amazon S3
-* *Percorso (facoltativo):* &amp; *Aggiungi ID suite di rapporti al percorso:* Posizione delle risorse da recuperare o archiviare
-* *Chiave di accesso:* ID chiave di accesso dell’utente AWS
-* *Chiave segreta:* Chiave segreta dell’utente di AWS
-* *Conferma chiave segreta:* Immetti nuovamente la chiave segreta dell’utente AWS
-
-![Informazioni S3](assets/dest-s3-dpr.png)
+![Informazioni S3](assets/dest-s3.jpg)
 
 L’utente fornito per il caricamento dei feed di dati deve avere i seguenti [permissions](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
 
@@ -96,9 +54,12 @@ L’utente fornito per il caricamento dei feed di dati deve avere i seguenti [pe
 * s3:PutObject
 * s3:PutObjectAcl
 
-Per ogni caricamento su un bucket Amazon S3, [!DNL Analytics] aggiunge il proprietario del bucket all&#39;ACL BucketOwnerFullControl, indipendentemente dal fatto che il bucket abbia o meno un criterio che lo richieda. Per ulteriori informazioni, consulta &quot;[Qual è l’impostazione BucketOwnerFullControl per i feed di dati Amazon S3?](df-faq.md#BucketOwnerFullControl)&quot;
+   >[!NOTE]
+   >
+   >Per ogni caricamento su un bucket Amazon S3, [!DNL Analytics] aggiunge il proprietario del bucket all&#39;ACL BucketOwnerFullControl, indipendentemente dal fatto che il bucket abbia o meno un criterio che lo richieda. Per ulteriori informazioni, consulta &quot;[Qual è l’impostazione BucketOwnerFullControl per i feed di dati Amazon S3?](df-faq.md#BucketOwnerFullControl)&quot;
 
-**Aree geografiche AWS supportate**:
+Sono supportate le 16 aree AWS standard seguenti (utilizzando, se necessario, l’algoritmo di firma appropriato):
+
 * us-east-2
 * us-east-1
 * us-west-1
@@ -115,78 +76,20 @@ Per ogni caricamento su un bucket Amazon S3, [!DNL Analytics] aggiunge il propri
 * eu-west-3
 * ue-nord-1
 * sa-east-1
-* cn-nord-1
-* cn-northwest-1
 
+>[!NOTE]
+>
+>L&#39;area cn-North-1 non è supportata.
 
 ### BLOB di Azure
 
-Destinazione protetta BLOB di Azure che utilizza il controllo dell’accesso basato su ruoli (RBAC) o la firma di accesso condiviso (SAS). Selezionando il controllo di accesso, il contenuto del pannello viene aggiornato per riflettere i campi corrispondenti.
+I feed di dati supportano le destinazioni BLOB di Azure. Richiede un contenitore, un account e una chiave. Amazon crittografa automaticamente i dati a riposo. Quando scarichi i dati, viene decrittografato automaticamente. Vedi [Creare un account di archiviazione](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) nella documentazione di Microsoft Azure per ulteriori informazioni.
 
-**Campi - RBAC**
-* *Tipo:* Tipo di destinazione del BLOB di Azure
-* *Controllo di accesso:* Opzione per utilizzare RBAC o SAS
-* *ID tenant Active Directory:* ID organizzazione dell’account Azure
-* *ID applicazione:* ID applicazione dalla scheda di Active Directory
-* *Segreto client:* Segreto client di Azure
-* *Nome account di archiviazione:* Nome dell&#39;account contenente oggetti dati
-* *Nome contenitore:* Contenitore appartenente a un dato account di archiviazione.
-* *Percorso (facoltativo):* &amp; *Aggiungi ID suite di rapporti al percorso:* Posizione delle risorse da recuperare o archiviare
-
-![Informazioni RBAC di Azure](assets/dest-azure-rbac.png)
-
-**Campi - SAS**
-* *Tipo:* Tipo di destinazione del BLOB di Azure
-* *Controllo di accesso:* Opzione per utilizzare RBAC o SAS
-* *ID tenant Active Directory:* ID dell&#39;istanza di Azure Active Directory
-* *ID applicazione:* ID applicazione dalla scheda di Active Directory
-* *Segreto client:* Segreto client di Azure
-* *URI archivio chiavi:* Posizione dell’insieme di credenziali delle chiavi di Azure
-* *Nome segreto archivio chiavi:* Nome segreto per accedere all&#39;insieme di credenziali delle chiavi sicuro
-* *Percorso (facoltativo):* &amp; *Aggiungi ID suite di rapporti al percorso:* Posizione delle risorse da recuperare o archiviare
-
-![Informazioni SAS di Azure](assets/dest-azure-sas.png)
-
-**Campi - Obsoleto**
-* *Tipo:* Tipo di destinazione del BLOB di Azure
-* *Contenitore:* Nome del contenitore Azure
-* *Percorso (facoltativo):* &amp; *Aggiungi ID suite di rapporti al percorso:* Posizione delle risorse da recuperare o archiviare
-* *Account:* Segreto account di Azure
-* *URI archivio chiavi:* Posizione dell’insieme di credenziali delle chiavi di Azure
-* *Nome segreto archivio chiavi:* Nome segreto per accedere all&#39;insieme di credenziali delle chiavi sicuro
-
-È necessario implementare un processo personalizzato per gestire lo spazio su disco nella destinazione del feed. Adobe non elimina alcun dato dal server.
-Vedi [Creare un account di archiviazione](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) nella documentazione di Microsoft Azure per ulteriori informazioni.
-
-![Informazioni obsolete di Azure](assets/dest-azure-dpr.png)
+![Informazioni di Azure](assets/azure.png)
 
 >[!NOTE]
 >
 >È necessario implementare un processo personalizzato per gestire lo spazio su disco nella destinazione del feed. Adobe non elimina alcun dato dal server.
-
-### FTP - Obsoleto
-
-**Campi**
-* *Tipo:* Tipo di destinazione dell&#39;FTP
-* *Host:* Endpoint per accedere all&#39;host
-* *Percorso (facoltativo):* &amp; *Aggiungi ID suite di rapporti al percorso:* Posizione delle risorse da recuperare o archiviare
-* *Nome utente:* Nome utente dell&#39;host
-* *Password:* Password per host
-* *Conferma password:* Immetti nuovamente e verifica la password per l&#39;host
-
-![Informazioni FTP](assets/dest-ftp-dpr.png)
-
-### SFTP - Obsoleto
-
-È disponibile il supporto SFTP per i feed di dati. Richiede un host SFTP, un nome utente e il sito di destinazione per contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
-
-**Campi**
-* *Tipo:* Tipo di destinazione SFTP
-* *Host:* Endpoint per accedere all&#39;host
-* *Percorso (facoltativo):* &amp; *Aggiungi ID suite di rapporti al percorso:* Posizione delle risorse da recuperare o archiviare
-* *Chiave pubblica RSA:* o *Chiave pubblica DSA:* Chiave pubblica per accedere all&#39;host
-
-![Informazioni SFTP](assets/dest-sftp-dpr.png)
 
 ## Definizioni delle colonne dati
 
