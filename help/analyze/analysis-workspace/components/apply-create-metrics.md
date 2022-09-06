@@ -4,7 +4,7 @@ title: Metriche in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 56fd6dd8450df3ffea78154fafa1e858d5a653a7
+source-git-commit: e0a10540bdfbd9fa3694ff3c7a8585eeb87eaad8
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 20%
@@ -33,12 +33,12 @@ Le metriche sono flessibili nel loro utilizzo in Analysis Workspace. Trascina un
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## Metriche calcolate 
+## Metriche calcolate
 
 Le metriche calcolate consentono di vedere facilmente la correlazione tra le metriche utilizzando operatori semplici o funzioni statistiche. Esistono diversi modi per creare le metriche calcolate:
 
 * Fai clic sull’icona più accanto all’intestazione Metriche , nell’elenco dei componenti a sinistra.
-* Passa a **[!UICONTROL Componets]** > **[!UICONTROL Calculated Metrics]** > **[!UICONTROL Add]**.
+* Passa a **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]** > **[!UICONTROL Add]**.
 * Fai clic con il pulsante destro del mouse su un’intestazione di colonna > **[!UICONTROL Create metric from selection]** quando sono selezionate una o più celle di intestazione di colonna. Questa opzione crea automaticamente una metrica calcolata senza dover utilizzare il Generatore di regole di metrica calcolata.
 
 [Metriche calcolate: metriche senza implementazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=it) (3:42)
