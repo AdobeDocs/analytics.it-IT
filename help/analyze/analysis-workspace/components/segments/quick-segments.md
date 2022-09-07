@@ -4,10 +4,10 @@ title: Segmenti rapidi
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 75%
+source-wordcount: '875'
+ht-degree: 73%
 
 ---
 
@@ -71,7 +71,7 @@ Il segmento viene visualizzato nella parte superiore. Osserva la barra laterale 
 ## Salvare segmenti rapidi
 
 >[!IMPORTANT]
->Una volta salvato o applicato il segmento, non è più possibile modificarlo nel Generatore di segmenti rapidi ma solo nel Generatore di segmenti regolare.
+>Una volta salvato o applicato il segmento, non è più possibile modificarlo nel Generatore di segmenti rapidi ma solo nel Generatore di segmenti regolare. Solo gli amministratori dei prodotti Adobe Analytics e il creatore del segmento rapido possono salvare le modifiche a un segmento rapido esistente.
 
 1. Dopo aver applicato il segmento rapido, posiziona il puntatore su di esso e seleziona l’icona Info (“i”).
 
