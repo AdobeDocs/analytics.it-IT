@@ -2,10 +2,10 @@
 title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti per Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: ht
-source-wordcount: '1930'
-ht-degree: 100%
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '1923'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ L’unione tra dispositivi di CDA si verifica in due processi simultanei.
 
 * Il secondo processo è denominato “ripetizione”. Durante la ripetizione, CDA torna indietro nel tempo e aggiorna i dati storici, ove possibile, all’interno di una finestra temporale specificata. Questo finestra temporale può essere di 1 giorno o 7 giorni, a seconda della configurazione di CDA. Durante la ripetizione, CDA tenta di aggiornare i risultati in cui la persona era precedentemente sconosciuta.
 
-* **Se utilizzi un grafo di dispositivi**, in Adobe le mappature dei dispositivi vengono mantenute in Co-op Graph e Private Graph per circa 6 mesi. Un ECID che non ha attività per più di sei mesi viene rimosso dal grafo. I dati già uniti in CDA non vengono interessati, ma gli hit successivi per tale ECID vengono trattati come una nuova persona.
+* **Se utilizzi un grafico dei dispositivi**, ad Adobe mantiene le mappature di Device Graph per circa 6 mesi. Un ECID che non ha attività per più di sei mesi viene rimosso dal grafo. I dati già uniti in CDA non sono interessati; gli hit successivi per tale ECID vengono trattati come una nuova persona.
 
 ## In che modo CDA gestisce gli hit con marca temporale?
 

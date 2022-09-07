@@ -4,10 +4,10 @@ title: Modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 88%
+source-wordcount: '1298'
+ht-degree: 87%
 
 ---
 
@@ -23,7 +23,7 @@ Puoi scegliere di creare un progetto da:
 
 ## Creare modelli personalizzati {#create-custom-template}
 
-Gli utenti con diritti di amministratore possono trasformare qualunque progetto che creano in un modello personalizzato effettuando le seguenti operazioni:
+Gli utenti con diritti di amministratore possono trasformare qualunque progetto che creano in un modello personalizzato Ecco come:
 
 1. Apri il progetto.
 1. Vai a **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
@@ -73,7 +73,7 @@ Ecco un video sul [!UICONTROL Training Tutorial] modello:
 
 >[!IMPORTANT]
 >
->I modelli pubblicitari sono disponibili solo se la suite di rapporti è abilitata per [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
+>I modelli pubblicitari sono disponibili solo se la suite di rapporti è abilitata per [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html?lang=it).
 
 * **Motori di ricerca a pagamento**: questo modello suddivide le tendenze pubblicitarie, le piattaforme di annunci, le parole chiave, gli account, le campagne e molto altro.
 
@@ -123,19 +123,15 @@ Ecco un video sul [!UICONTROL Training Tutorial] modello:
 
 ### Persone
 
->[!NOTE]
->
->Il modello Persone e la metrica Persone corrispondente sono disponibili per l’uso unicamente nell’ambito di [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=it).
+Questo modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori univoci. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. Il modello consente di::
 
-Questo modello è basato sulla metrica Persone, che è una versione deduplicata della metrica Visitatori univoci. La metrica Persone misura la frequenza con cui i consumatori che utilizzano più dispositivi interagiscono con il tuo marchio. Il modello consente di:
-
-* Segmentare i dati relativi a USA/Canada rispetto al resto del mondo. Device Co-op attualmente è disponibile solo nel Nord America.
-* Affiancare e confrontare le metriche Persone e Visitatori univoci.
-* Visualizzare il “tasso di compressione”, una metrica calcolata che mostra lo scarto della metrica Persone come percentuale di Visitatori univoci.
+* Segmentare i dati relativi a USA/Canada rispetto al resto del mondo
+* Affiancare e confrontare le metriche Persone e Visitatori univoci
+* Visualizzare il “tasso di compressione”, una metrica calcolata che mostra lo scarto della metrica Persone come percentuale di Visitatori univoci
 * Confrontare i totali dei diversi tipi di dispositivi utilizzati dalla clientela.
-* Verificare la media dei dispositivi pro capite.
-* Scoprire come raggruppare i segmenti con la metrica Persone.
-* Capire in che modo l’uso di Experience Cloud ID nel tuo ambiente riesca a ottimizzare l’efficacia della metrica Persone.
+* Verificare la media dei dispositivi pro capite
+* Scoprire come raggruppare i segmenti con la metrica Persone
+* Capire in che modo l’uso di Experience Cloud ID nel tuo ambiente riesca a ottimizzare l’efficacia della metrica Persone
 
 ### IQ percorso: Modello di Analytics tra dispositivi
 
@@ -143,10 +139,8 @@ Questo modello è basato sulla metrica Persone, che è una versione deduplicata 
 
 Questo modello consente di visualizzare dati vitali delle prestazioni tra dispositivi. È disponibile solo per i clienti che hanno accesso a [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=it) (CDA).
 
-* **Nota speciale per i membri del Co-op Graph**: mostra quale parte della suite di rapporti contiene i visitatori nelle aree in cui è supportato il grafico Co-op e le aree in cui non è supportato.
 * **Identificazione degli utenti**: mostra la frequenza con cui i visitatori del sito vengono identificati utilizzando metodi basati su Cross-Device Analytics.
 * **Misurazione della dimensione dell’audience**: mostra un confronto tra “Dispositivi univoci” e “Persone”. La proporzione di questi due numeri è nota come “compressione tra dispositivi”, una metrica calcolata visibile in questo pannello. Questa metrica di compressione dipende da un’ampia gamma di fattori:
-   * **Utilizzo del grafico Co-op o del grafico Private**: in generale, le organizzazioni che utilizzano Device Co-op godono di tassi di compressione migliori rispetto alle organizzazioni che utilizzano il grafico Private.
    * **Tasso di accesso**: più utenti accedono al sito, più Adobe è in grado di identificare e unire i visitatori tra i dispositivi. I siti con un tasso di accesso basso hanno anche tassi di compressione bassi.
    * **Copertura di Experience Cloud ID**: è possibile unire solo i visitatori con un ECID. Una percentuale inferiore di visitatori del sito che utilizza un ECID è correlata a tassi di compressione più bassi.
    * **Utilizzo di più dispositivi**: se i visitatori del sito non utilizzano più dispositivi le percentuali di compressione potrebbero essere più basse.

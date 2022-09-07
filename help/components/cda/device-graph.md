@@ -2,23 +2,16 @@
 title: Device Graph
 description: Comprendi i prerequisiti e le limitazioni dell’unione dei dati utilizzando il grafico del dispositivo.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 4%
+source-wordcount: '358'
+ht-degree: 5%
 
 ---
 
 # Device Graph
 
-Analisi multidispositivo fornisce due metodi distinti per unire i dati. Questo metodo utilizza il grafico Co-op o Private Graph del servizio Adobe Experience Platform Identity per unire i dati. CDA comunica regolarmente con il grafico del dispositivo per collegare i dispositivi.
-
-## Differenze tra grafico co-op e grafico privato
-
-Nell&#39;ambito del servizio ID, Adobe offre due tipi di grafici dei dispositivi:
-
-* **Grafico Co-op**: Un archivio di ID dispositivo con hash a cui qualsiasi cliente può contribuire e fare riferimento. Dato che questo tipo di grafico dei dispositivi è collaborativo, in genere corrisponde a più dispositivi rispetto a un grafico privato.
-* **Grafico privato**: Un archivio di ID dispositivo con hash a cui fa riferimento solo la tua organizzazione.
+Analisi multidispositivo può utilizzare Private Graph per unire i dati. Private Graph è un archivio di ID dispositivo con hash specifici per la tua organizzazione. CDA comunica regolarmente con il grafico del dispositivo per collegare i dispositivi.
 
 ## Prerequisiti specifici per il grafico del dispositivo
 

@@ -5,9 +5,9 @@ subtopic: Visitors
 title: Connettere gli utenti tra i dispositivi
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '398'
 ht-degree: 2%
 
 ---
@@ -26,9 +26,9 @@ Impostazione della `visitorID` generalmente viene impostata dopo l’autenticazi
 
 Dopo che il cliente effettua l’accesso da ciascun dispositivo, tutti sono legati allo stesso profilo utente. Se il visitatore si disconnette in un secondo momento su un dispositivo, continua a appartenere allo stesso profilo visitatore, perché ad Adobe riconosce che il cookie del browser su ciascun dispositivo appartiene allo stesso profilo visitatore. L&#39;Adobe consiglia di utilizzare `visitorID` se possibile, nel caso in cui il cookie del browser venga eliminato.
 
-## Limitazioni 
+## Limitazioni
 
 L’utilizzo di ID visitatore personalizzati offre un maggiore controllo sull’identificazione dei visitatori, ma presenta alcune limitazioni.
 
 * **La deduplicazione dei visitatori non è retroattiva**: Se un visitatore accede al sito per la prima volta e quindi si autentica, vengono conteggiati due visitatori unici. Un visitatore univoco conta l&#39;ID di Analytics generico generato automaticamente e un altro conta l&#39;ID visitatore personalizzato al momento dell&#39;accesso. Questa duplicazione di visitatori univoci è presente ogni volta che un visitatore utilizza un nuovo dispositivo o cancella i propri cookie.
-* **Incompatibilità con il servizio Experience Cloud ID**: Dall’introduzione dell’identificazione incrociata dei visitatori su più dispositivi, Adobe ha rilasciato modi più potenti e affidabili per tenere traccia dei visitatori su più dispositivi. Questi nuovi metodi di identificazione non sono compatibili con l’override dell’ID visitatore personalizzato. Se prevedi di utilizzare il servizio ID, Cross-Device Analytics (CDA) o Device Co-op, Adobe consiglia vivamente di non utilizzare il `visitorID` variabile.
+* **Incompatibilità con il servizio Experience Cloud ID**: Dall’introduzione dell’identificazione incrociata dei visitatori su più dispositivi, Adobe ha rilasciato modi più potenti e affidabili per tenere traccia dei visitatori su più dispositivi. Questi nuovi metodi di identificazione non sono compatibili con l’override dell’ID visitatore personalizzato. Se prevedi di utilizzare il servizio ID o Cross-Device Analytics (CDA), Adobe consiglia vivamente di non utilizzare il `visitorID` variabile.

@@ -3,9 +3,9 @@ description: Le suite di rapporti virtuali segmentano i dati di Adobe Analytics 
 title: Panoramica delle suite di rapporti virtuali
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '782'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,6 @@ Aiuto per le suite di rapporti virtuali:
 * Semplifica l’implementazione consentendo di utilizzare un singolo ID suite di rapporti (RSID) in tutti i siti/domini. Disporre di tutti i dati in una singola suite di rapporti consente l’analisi dei clienti man mano che ci avviciniamo alla prossima generazione di Adobe Analytics.
 * Gli utenti aziendali della tua organizzazione visualizzano sempre solo i segmenti di dati rilevanti per loro.
 * Migliora la sicurezza consentendo agli utenti amministratori di controllare l’accesso ai dati in modo più semplice e granulare dopo l’implementazione.
-* Fornire la possibilità di partecipare a Device Co-op
 * Metrica Persone
 * Visualizzazione dei dati per singolo cliente (in futuro)
 * Possibilità di creare suite di rapporti virtuali illimitate per segmentare i dati

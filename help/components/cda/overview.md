@@ -2,9 +2,9 @@
 title: Analytics tra dispositivi
 description: Unisci i dati dei dispositivi, per renderli incentrati sulla persona invece che incentrati sul dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: ht
-source-wordcount: '883'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '860'
 ht-degree: 100%
 
 ---
@@ -15,11 +15,7 @@ Analytics tra dispositivi è una funzione che trasforma Analytics da una visione
 
 * [**Unione basata sui campi**](field-based-stitching.md): opzione di unione consigliata che utilizza solo la corrispondenza deterministica per collegare i dispositivi.
 Consente di scegliere una variabile di Analytics come base per l’unione tra dispositivi diversi in una suite di rapporti virtuali.
-* [**Grafo di dispositivi**](device-graph.md): CDA comunica con un grafo di dispositivi per unire i dispositivi. Co-op Graph utilizza sia la corrispondenza deterministica sia quella probabilistica.
-
->[!NOTE]
->
->Ulteriori informazioni sulla [fine del ciclo di vita di Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=it).
+* [**Grafo di dispositivi**](device-graph.md): CDA comunica con un grafo di dispositivi per unire i dispositivi.
 
 Utilizzando CDA, potrai rispondere a domande quali:
 
