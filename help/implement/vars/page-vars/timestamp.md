@@ -3,10 +3,10 @@ title: timestamp
 description: Imposta manualmente la marca temporale dell'hit.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ La `timestamp` imposta manualmente la marca temporale dell’hit per le suite di
 
 ## Timestamp tramite SDK web
 
-Timestamp [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nel campo XDM `_experience.analytics.session.timestamp`. Questo campo supporta solo il tempo Unix.
+Timestamp [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `xdm.timestamp`. Questo campo supporta solo il tempo Unix.
 
 ## Timestamp tramite l’estensione Adobe Analytics
 
