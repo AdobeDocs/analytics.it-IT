@@ -2,20 +2,21 @@
 title: Analytics tra dispositivi
 description: Unisci i dati dei dispositivi, per renderli incentrati sulla persona invece che incentrati sul dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 9c9322647145832503e4a5875789e9cf7e9a2397
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Analytics tra dispositivi
 
-Analytics tra dispositivi è una funzione che trasforma Analytics da una visione incentrata sul dispositivo a una incentrata sulla persona. Di conseguenza, gli analisti possono comprendere il comportamento dell’utente su app, browser o dispositivi diversi. Adobe supporta due flussi di lavoro generali per collegare i dati dei dispositivi:
+Analisi multidispositivo (CDA) è una funzione che trasforma Analytics da una visualizzazione incentrata sul dispositivo a una visualizzazione incentrata sulla persona. Di conseguenza, gli analisti possono comprendere il comportamento dell’utente su app, browser o dispositivi diversi. Adobe supporta due flussi di lavoro generali per collegare i dati dei dispositivi:
 
 * [**Unione basata sui campi**](field-based-stitching.md): opzione di unione consigliata che utilizza solo la corrispondenza deterministica per collegare i dispositivi.
 Consente di scegliere una variabile di Analytics come base per l’unione tra dispositivi diversi in una suite di rapporti virtuali.
-* [**Grafo di dispositivi**](device-graph.md): CDA comunica con un grafo di dispositivi per unire i dispositivi.
+
+* [**Grafico dei dispositivi**](device-graph.md): CDA comunica con un grafico privato per unire i dispositivi.
 
 Utilizzando CDA, potrai rispondere a domande quali:
 
@@ -36,7 +37,7 @@ Per ulteriori informazioni sulle funzionalità di Analytics tra dispositivi, con
 L’utilizzo di CDA richiede tutti i seguenti elementi. Inoltre, i metodi con [unione basata sui campi](field-based-stitching.md) e [grafo di dispositivi](device-graph.md) presentano prerequisiti specifici.
 
 * È necessario firmare un contratto con Adobe che includa Adobe Analytics Ultimate.
-* La funzione Analytics tra dispositivi è abilitata per singole suite di rapporti. Adobe consiglia una suite di rapporti che contenga dati cross-device, ovvero dati provenienti da più tipi di dispositivi (web, app, ecc.). Alcune organizzazioni fanno riferimento a questo concetto come a una suite di rapporti “globale”, anche se CDA non deve necessariamente essere globale da un punto di vista geografico.
+* La tua organizzazione sceglie quali suite di rapporti abilitare CDA. Adobe consiglia suite di rapporti che contengono dati tra dispositivi, ovvero dati provenienti da più tipi di dispositivi/browser/app. Alcune organizzazioni fanno riferimento a questo concetto come a una suite di rapporti “globale”, anche se CDA non deve necessariamente essere globale da un punto di vista geografico.
 
 ## Limitazioni
 
