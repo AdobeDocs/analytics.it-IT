@@ -4,9 +4,9 @@ description: Variabili personalizzate correlate a singoli prodotti.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '541'
 ht-degree: 3%
 
 ---
@@ -48,6 +48,10 @@ Le variabili di merchandising della sintassi del prodotto sono [mappato per Adob
 
 * La sintassi del prodotto eVar per merchandising è mappata in `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` a `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
 * Gli eventi di merchandising della sintassi del prodotto sono mappati in `productListItems[]._experience.analytics.event1to100.event1.value` a `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Serializzazione degli eventi](events/event-serialization.md) I campi XDM sono mappati in `productListItems[]._experience.analytics.event1to100.event1.id` a `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+>[!NOTE]
+>
+>Quando imposti gli eventi in `productListItems`, non è necessario impostarli nella stringa evento . Se sono impostati in entrambe le posizioni, il valore nella stringa evento ha la precedenza.
 
 L’esempio seguente mostra un singolo [prodotto](products.md) utilizzando più eVar ed eventi di merchandising:
 
