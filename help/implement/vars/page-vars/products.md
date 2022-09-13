@@ -3,9 +3,9 @@ title: products
 description: Invia i dati relativi ai prodotti visualizzati o contenuti nel carrello.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '630'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ I prodotti [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs
 * Quantità mappata su `productListItems[].quantity`.
 * Il prezzo è mappato su `productListItems[].priceTotal`.
 * Le eVar di merchandising sono mappate su `productListItems._experience.analytics.customDimensions.eVars.eVar1` a `productListItems._experience.analytics.customDimensions.eVars.eVar250`, a seconda dell’eVar da associare a un prodotto.
-* Gli eventi di merchandising sono mappati su `productListItems[]._experience.analytics.event1to100.event1.value` a `productListItems._experience.analytics.event901to1000.event1000.value`, a seconda dell’evento da associare a un prodotto.
+* Gli eventi di merchandising sono mappati su `productListItems[]._experience.analytics.event1to100.event1.value` a `productListItems._experience.analytics.event901to1000.event1000.value`, a seconda dell’evento da associare a un prodotto. Se imposti un evento in uno di questi campi, viene incluso automaticamente nel [event](events/events-overview.md) stringa inviata ad Adobe Analytics.
 
 >[!NOTE]
 >
