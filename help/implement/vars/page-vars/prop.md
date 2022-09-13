@@ -3,10 +3,10 @@ title: prop
 description: Variabili personalizzate che puoi utilizzare nell’implementazione.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 0%
+source-wordcount: '591'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Se hai [documento di progettazione della soluzione](/help/implement/prepare/solu
 
 ## Proprietà che utilizzano l’SDK per web
 
-Le proprietà sono [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nei campi XDM `_experience.analytics.customDimensions.props.prop1` a `_experience.analytics.customDimensions.props.prop75`.
+Le proprietà sono [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nei campi XDM `_experience.analytics.customDimensions.props.prop1` a `_experience.analytics.customDimensions.props.prop75`. Le proprietà dell’elenco sono specificate in un set separato di campi.
 
 ## Proprietà che utilizzano l’estensione Adobe Analytics
 
@@ -53,13 +53,17 @@ Le proprietà di elenco sono un’impostazione applicata alle proprietà che con
 
 ### Configurare le proprietà dell’elenco
 
-Abilitare le proprietà di elenco nelle impostazioni della suite di rapporti. Vedi [Variabili del traffico](/help/admin/admin/c-traffic-variables/traffic-var.md) nella guida utente Admin. Assicurati che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
+Abilita proprietà elenco in [Variabili del traffico](/help/admin/admin/c-traffic-variables/traffic-var.md) in impostazioni suite di rapporti. Assicurati che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
 
 >[!TIP]
 >
->I delimitatori comuni utilizzati nelle implementazioni sono una virgola (`,`), due punti (`:`), punto e virgola (`;`), o tubo (`|`). Puoi utilizzare qualsiasi delimitatore adatto alla tua implementazione.
+>I delimitatori comuni utilizzati nelle implementazioni sono una virgola (`,`), due punti (`:`), punto e virgola (`;`), o tubo (`|`). È possibile utilizzare qualsiasi delimitatore ASCII non esteso adatto alla propria implementazione.
 
-### Imposta proprietà elenco
+### Impostare le proprietà dell’elenco tramite l’SDK per web
+
+Una volta configurate le proprietà elenco nelle impostazioni della suite di rapporti con il delimitatore desiderato, le proprietà elenco vengono mappate per Adobe Analytics in `_experience.analytics.customDimensions.listProps.prop1.values[]` a `_experience.analytics.customDimensions.listProps.prop75.values[]`. L’SDK per web utilizza automaticamente il delimitatore corretto elencato nelle impostazioni della suite di rapporti. Se imposti il delimitatore nel campo XDM (ad esempio, `_experience.analytics.customDimensions.props.prop1.delimiter`), che sostituisce il delimitatore recuperato automaticamente dalle impostazioni della suite di rapporti e può causare un&#39;analisi errata della stringa di proprietà dell&#39;elenco.
+
+### Impostare le proprietà dell&#39;elenco utilizzando l&#39;estensione Adobe Analytics e AppMeasurement
 
 Una volta configurate le proprietà di elenco nelle impostazioni della suite di rapporti con il delimitatore desiderato, non vi sono differenze di implementazione diverse dall’utilizzo del delimitatore.
 
