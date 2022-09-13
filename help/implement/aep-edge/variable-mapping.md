@@ -2,10 +2,10 @@
 title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
+source-git-commit: 610cab7cf71f178af2166133728e9152f0175c47
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 99%
+source-wordcount: '1398'
+ht-degree: 98%
 
 ---
 
@@ -106,6 +106,7 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `placeContext.geo.longitude` | La dimensione Mobile Longitudine. |
 | `placeContext.geo.postalCode` | La dimensione [Codice postale](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | La dimensione [Stati Uniti](../../components/dimensions/us-states.md). |
+| `placeContext.localTime` | Aiuta a popolare [Fusi orari](/help/analyze/reports-analytics/reports.md) in Report &amp; Analytics. Viene visualizzato come `t_time_info` in [Feed dati](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Applica la [sintassi del prodotto](../vars/page-vars/products.md) merchandising alle eVar. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Applica la [sintassi del prodotto](../vars/page-vars/products.md) merchandising agli eventi. |
 | `productListItems[].lineItemId` | La dimensione [Categoria](../../components/dimensions/category.md). Vedi anche la variabile di pagina [prodotti](../vars/page-vars/products.md). |
