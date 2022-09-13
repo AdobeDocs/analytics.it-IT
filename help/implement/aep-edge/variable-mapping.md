@@ -2,10 +2,10 @@
 title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 610cab7cf71f178af2166133728e9152f0175c47
+source-git-commit: 47a5f891f2769a97936a3809c3615374b0045bd4
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 98%
+source-wordcount: '1441'
+ht-degree: 95%
 
 ---
 
@@ -59,9 +59,9 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `environment.operatingSystem` | La dimensione mobile [Sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.operatingSystemVersion` | Consente di impostare la dimensione [Versione sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Imposta la dimensione delle rispettive [eVar](../../components/dimensions/evar.md). |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Il delimitatore utilizzato per un [Prop elenco](../vars/page-vars/prop.md#list-props) specifico. |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Sostituzione delimitatore proprietà elenco. L’utilizzo di questo campo non è consigliato, in quanto il delimitatore viene recuperato automaticamente da [Amministratore variabile traffico](/help/admin/admin/c-traffic-variables/traffic-var.md) in impostazioni suite di rapporti. L’utilizzo di questo campo può creare una mancata corrispondenza tra il delimitatore utilizzato e il delimitatore previsto da Analytics. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Matrice di stringhe contenente i rispettivi valori [Prop elenco](../vars/page-vars/prop.md#list-props). |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena tutte le stringhe `value` in ciascuna matrice `list[]` alla rispettiva [variabile elenco](../vars/page-vars/list.md) usando i delimitatori di virgola. |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena tutte le stringhe `value` in ciascuna matrice `list[]` alla rispettiva [variabile elenco](../vars/page-vars/list.md). Il delimitatore viene scelto automaticamente in base al valore impostato in [Impostazioni della suite di rapporti](/help/admin/admin/conversion-var-admin/list-var-admin.md). |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Imposta la rispettiva dimensione [Prop](../../components/dimensions/prop.md). |
 | `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla rispettiva metrica [Eventi personalizzati](../../components/metrics/custom-events.md). |
 | `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Incrementa la rispettiva metrica [Eventi personalizzati](../../components/metrics/custom-events.md) della quantità desiderata. |
