@@ -1,9 +1,9 @@
 ---
 title: Ordine di elaborazione dei dati in Adobe Analytics
 description: Scopri l’ordine dei componenti e dei servizi che elaborano i dati in Adobe Analytics.
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,15 @@ ht-degree: 0%
 
 Adobe offre diversi modi per modificare o manipolare i dati prima che vengano visualizzati nel reporting. Questa pagina mostra l’ordine in cui diverse funzioni di Adobe Analytics elaborano i dati. È possibile utilizzare questo elenco per risolvere eventuali incongruenze nei dati o per determinare la funzione migliore da utilizzare quando sono necessarie regolazioni dei dati.
 
+![Ordine di elaborazione](assets/processing-order.png)
+
 ## Dati prima dell’invio all’Adobe
 
 Prima dell&#39;invio dei dati ad Adobe, in genere viene compilato lato client utilizzando uno dei seguenti metodi:
 
 * **AppMeasurement**: Un file JavaScript ospitato sul tuo sito e a cui si fa riferimento in ogni pagina. I dati vengono inviati direttamente ad Adobe Analytics.
 * **Adobe Experience Platform Web SDK**: Un file JavaScript ospitato sul tuo sito e a cui si fa riferimento in ogni pagina. I dati vengono inviati ad Adobe Experience Edge.
-* **Tag nella raccolta dati di Adobe Experience Cloud**: Un riferimento JavaScript su ogni pagina, contenente regole create all’interno dell’interfaccia utente di raccolta dati. L&#39;estensione Adobe Analytics offre e un modo più semplice per implementare AppMeasurement. L&#39;estensione SDK per web offre un modo più semplice per implementare l&#39;SDK per web.
+* **Tag nella raccolta dati di Adobe Experience Cloud**: Un file JavaScript a cui si fa riferimento in ogni pagina, contenente regole create all’interno dell’interfaccia utente Raccolta dati. L&#39;estensione Adobe Analytics offre e un modo più semplice per implementare AppMeasurement. L&#39;estensione SDK per web offre un modo più semplice per implementare l&#39;SDK per web.
 
 Se invii dati ad Adobe Experience Edge, puoi configurarli per l’inoltro di dati ad Adobe Analytics (nonché a molte altre soluzioni Adobe Experience Cloud). Indipendentemente dal metodo di implementazione, alla fine una richiesta di immagine con le variabili desiderate viene inviata ai server di raccolta dati di Adobe.
 
