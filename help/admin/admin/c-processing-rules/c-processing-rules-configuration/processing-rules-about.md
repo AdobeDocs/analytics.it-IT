@@ -4,8 +4,8 @@ subtopic: Processing rules
 title: Funzionamento delle regole di elaborazione
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
+source-git-commit: 65b3a9001aa062429a870d374af20618c532de35
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ La tabella seguente contiene concetti chiave da considerare quando si utilizzano
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole di elaborazione vengono applicate prima delle regole VISTA e del canale di marketing. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Ordine di elaborazione </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/technotes/processing-order.md"> Ordine di elaborazione </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gli hit non possono essere esclusi. </p> </td> 

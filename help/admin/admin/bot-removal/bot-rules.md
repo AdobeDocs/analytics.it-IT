@@ -3,10 +3,10 @@ description: Le regole bot consentono di rimuovere dalla suite di rapporti il tr
 title: Panoramica delle regole bot
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '1322'
-ht-degree: 100%
+source-git-commit: 65b3a9001aa062429a870d374af20618c532de35
+workflow-type: tm+mt
+source-wordcount: '1327'
+ht-degree: 96%
 
 ---
 
@@ -65,7 +65,7 @@ Il campo **[!UICONTROL contains]** è limitato a 100 caratteri. L’elenco “do
 
 ### Indirizzo IP (comprese le corrispondenze con caratteri jolly)
 
-Trova uno o più indirizzi IP nello stesso blocco utilizzando caratteri jolly (*). Specifica i valori numerici dell’indirizzo IP da trovare. Sostituisci * per tutti i valori da trovare utilizzando un carattere jolly. Il seguente elenco contiene esempi di stringa di corrispondenza dell’indirizzo IP:
+Trova uno o più indirizzi IP nello stesso blocco utilizzando caratteri jolly (&#42;). Specifica i valori numerici dell’indirizzo IP da trovare. Sostituisci &#42; per qualsiasi valore a cui desideri corrispondere utilizzando un carattere jolly. Il seguente elenco contiene esempi di stringa di corrispondenza dell’indirizzo IP:
 
 ```
 10.10.10.1
@@ -74,7 +74,7 @@ Trova uno o più indirizzi IP nello stesso blocco utilizzando caratteri jolly (*
 
 ### Intervallo indirizzi IP
 
-Specifica gli intervalli iniziale e finale degli indirizzi IP da rilevare. Sostituisci * per tutti i valori da trovare utilizzando un carattere jolly.
+Specifica gli intervalli iniziale e finale degli indirizzi IP da rilevare. Sostituisci &#42; per qualsiasi valore a cui desideri corrispondere utilizzando un carattere jolly.
 
 ### Definire una regola bot personalizzata
 
@@ -118,12 +118,11 @@ Seleziona la casella di controllo **[!UICONTROL Overwrite existing rules]** per 
 
 Il pulsante **[!UICONTROL Export Uploaded Bot File]** esporta tutte le regole definite nell’interfaccia utente in formato CSV.
 
-
 ## Impatto delle regole bot sulla raccolta dei dati {#section_F01A3130E7A04A9993371CF26F6586F2}
 
 Le regole bot vengono applicate a tutti i dati di analisi. I dati rimossi dalle regole bot sono visibili solo nei rapporti su bot e pagine bot.
 
-Le regole VISTA vengono applicate dopo le regole bot (vedi [Ordine di elaborazione).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
+Le regole VISTA vengono applicate dopo le regole bot. Vedi [Ordine di elaborazione](/help/technotes/processing-order.md) nella guida utente delle note tecniche.
 
 **Elaborazione di visite con numero elevato di hit:** se in una visita si verificano più di 100 hit, il reporting determina se la durata della visita in secondi è inferiore o uguale al numero di hit nella visita. In questa situazione, a causa dei costi di elaborazione di visite lunghe e intense, il reporting inizia da capo con una nuova visita. Le visite con molti hit sono solitamente causate da attacchi di bot e non sono considerate come normale attività di navigazione dei visitatori.
 
@@ -137,4 +136,4 @@ L’elenco dei bot IAB si basa esclusivamente sull’agente utente, pertanto i f
 
 Se l’offuscamento dell’IP è abilitato, l’esclusione di tale IP si verifica prima che l’indirizzo IP sia offuscato, pertanto i clienti non devono apportare alcuna modifica quando abilitano l’offuscamento dell’IP.
 
-Se l’ultimo ottetto viene rimosso, questa operazione viene eseguita prima del filtro dell’IP. Di conseguenza, l’ultimo ottetto viene sostituito da 0 e le regole di esclusione IP devono essere aggiornate in modo che corrispondano agli indirizzi IP con uno zero alla fine. La corrispondenza * deve corrispondere a 0.
+Se l’ultimo ottetto viene rimosso, questa operazione viene eseguita prima del filtro dell’IP. Di conseguenza, l’ultimo ottetto viene sostituito da 0 e le regole di esclusione IP devono essere aggiornate in modo che corrispondano agli indirizzi IP con uno zero alla fine. Corrispondenza &#42; deve corrispondere a 0.

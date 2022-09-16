@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Suggerimenti e trucchi per le regole di elaborazione
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '490'
-ht-degree: 100%
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 95%
 
 ---
 
@@ -60,3 +60,9 @@ I termini di ricerca estratti da una stringa di query devono essere codificati c
 Seleziona la condizione di corrispondenza corretta per trovare la condizione più restrittiva che crei correttamente la corrispondenza. Puoi cercare i valori in un rapporto prima di creare una regola per assicurarti che non vi siano corrispondenze non desiderate. Ad esempio, è necessario cercare nel rapporto Prop2 tutte le posizioni in cui questa condizione corrisponde prima di abilitare questa regola.
 
 ![](assets/tips-startswith.png)
+
+## Applicazione delle regole di elaborazione durante la copia degli hit tramite VISTA
+
+Se disponi di una regola VISTA configurata per copiare gli hit in un’altra suite di rapporti, gli hit vengono trattati dalle regole di elaborazione definite nell’altra suite di rapporti.
+
+Se nella suite di rapporti originale sono definite regole di elaborazione, queste possono essere applicate o meno in base alla configurazione della regola VISTA da parte di Engineering Services. Per informazioni, puoi chiedere al tuo specialista dell’implementazione se la regola VISTA copia i valori “prima” o “dopo” nella suite di rapporti aggiuntiva. Se viene copiato il valore “prima”, le regole di elaborazione definite nella suite di rapporti originale non vengono applicate. Se viene copiato il valore “dopo”, le regole di elaborazione vengono applicate prima che l’hit venga copiato.

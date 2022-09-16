@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 99%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 99%
       + [Panoramica sulle regole di elaborazione](admin/c-processing-rules/processing-rules.md)
       + Configurazione delle regole di elaborazione {#processing-rules-configuration}
          + [Funzionamento delle regole di elaborazione](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [Ordine di elaborazione](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [Creare regole di elaborazione](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
          + [Visualizzare le regole di elaborazione attive](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [Visualizzare la cronologia delle regole di elaborazione](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
