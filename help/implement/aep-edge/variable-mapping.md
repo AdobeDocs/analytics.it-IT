@@ -29,8 +29,8 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `commerce.checkouts.value` | Incrementa la metrica [Casse](../../components/metrics/checkouts.md) della quantità desiderata. |
 | `commerce.order.currencyCode` | Imposta variabile di configurazione [currencyCode](../vars/config-vars/currencycode.md). |
 | `commerce.order.purchaseID` | Imposta la variabile di pagina [purchaseID](../vars/page-vars/purchaseid.md). |
-| `commerce.order.transactionID` | Imposta la [transactionID](../vars/page-vars/transactionid.md) variabile di pagina. |
-| `commerce.productListAdds.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla metrica [Aggiunte carrello](../../components/metrics/cart-additions.md). |
+| `commerce.order.transactionID` | Imposta la variabile di pagina [transactionID](../vars/page-vars/transactionid.md). |
+| `commerce.productListAdds.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla metrica [Aggiunte al carrello](../../components/metrics/cart-additions.md). |
 | `commerce.productListAdds.value` | Incrementa la metrica [Aggiunte al carrello](../../components/metrics/cart-additions.md). |
 | `commerce.productListOpens.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla metrica [Carrelli](../../components/metrics/carts.md). |
 | `commerce.productListOpens.value` | Incrementa la metrica [Carrelli](../../components/metrics/carts.md). |
