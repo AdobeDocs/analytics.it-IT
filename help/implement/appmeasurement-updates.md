@@ -3,10 +3,10 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
 workflow-type: tm+mt
-source-wordcount: '2263'
-ht-degree: 90%
+source-wordcount: '2321'
+ht-degree: 88%
 
 ---
 
@@ -17,6 +17,13 @@ Note cumulative sulla versione per [!DNL AppMeasurement] per JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Puoi scaricare la versione più recente di AppMeasurement da [Code Manager](/help/admin/admin/code-manager-admin.md).
+
+## Versione 2.23.0
+
+Data di rilascio: **TBD**
+
+* AppMeasurement ora supporta la raccolta di suggerimenti client ad alta entropia agente utente che i browser Chromium (Google Chrome e Microsoft Edge) utilizzano per fornire informazioni sul dispositivo. Puoi configurare i suggerimenti client tramite Tag o utilizzare il flag &quot;collectHighEntropyUserAgentHint&quot;. La raccolta di suggerimenti entropici elevati è disattivata per impostazione predefinita. Ulteriori informazioni sui suggerimenti client dell&#39;agente utente qui [link a seguire].
+
 
 ## Versione 2.22.4
 
