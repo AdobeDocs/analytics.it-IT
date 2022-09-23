@@ -4,10 +4,10 @@ description: Aggiornamenti importanti della documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
+source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
 workflow-type: tm+mt
-source-wordcount: '3262'
-ht-degree: 98%
+source-wordcount: '3398'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,14 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Data | Descrizione |
 | --- | --- |
 | **Settembre 2022** |  |
+| Grafici combinati | Nuovo argomento su [grafici combinati](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualizzazione. |
+| Plug-in aggiornato | Versione aggiornata della [getvaluna](/help/implement/vars/plugins/getvalonce.md) plug-in di implementazione. |
+| Nuova variabile di configurazione | Documentazione su [collectHighEntropyUserAgentHint](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
+| Suggerimenti per i client ad alta entropia | Nuovo argomento sull’utilizzo di Adobe [suggerimenti client](/help/technotes/client-hints.md) oltre a User-Agent per determinare le informazioni sul dispositivo. |
 | Ordine di elaborazione | Sono state aggregate diverse pagine dell’Aiuto per fornire un singolo argomento dell’Aiuto su [Ordine di elaborazione](/help/technotes/processing-order.md). |
+| **Agosto 2022** |  |
+| Supporto per le variabili elenco in XDM per la raccolta di dati Edge | Consente ai clienti che raccolgono dati tramite Experience Edge/Web SDK di utilizzare XDM per specificare il contenuto della variabile di elenco. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=it#list-variables-using-the-web-sdk) | 18 agosto 2022 |
+| Uso del campo SKU in XDM per la raccolta di dati Edge quando si impostano le variabili della stringa di prodotto | Consente ai clienti che raccolgono i dati tramite Experience Edge/Web SDK di utilizzare il valore SKU per impostare il campo prodotto nella variabile prodotti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=it#prodotti-che-utilizzano-l%E2%80%99sdk-per-web) |
 | **Giugno 2022** |  |
 | Variabili di merchandising in XDM per la raccolta di dati Edge | Documentazione sul [supporto per le variabili di merchandising in XDM per la raccolta di dati Edge](/help/components/dimensions/evar-merchandising.md) |
 | Documentazione di Experience Platform Edge | Nuovi articoli sull’implementazione di Adobe Analytics tramite [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) e [API Edge](/help/implement/aep-edge/edge-api/overview.md). |
@@ -37,7 +44,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Nuovo argomento sul pannello [!UICONTROL Page Summary] | [Pannello Riepilogo pagina](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Nuovo argomento sul pannello [!UICONTROL Next/Previous item] | [Pannello per elemento dimensione successivo/precedente](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Marzo 2022** |  |
-| Nuovo argomento sugli algoritmi di crittografia HTTPS supportati | [Algoritmi di crittografia HTTPS supportati](/help/technotes/rdc/encryption-algos.md) per i clienti con livello di sicurezza crittografato impostato su “Elevato”. |
+| Nuovo argomento sugli algoritmi di crittografia HTTPS supportati | [Algoritmi di crittografia HTTPS supportati](/help/technotes/rdc/encryption-algos.md) per i clienti con livello di sicurezza crittografato impostato su &quot;High&quot;. |
 | Nuova documentazione sulle annotazioni in Analysis Workspace | [Le annotazioni in Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) consentono di comunicare in modo efficace dettagli sui dati contestuali a beneficio degli utenti in tutta l’organizzazione. |
 | Aggiornamenti pagina di destinazione di Adobe Analytics | [Aggiornamenti](/help/analyze/landing.md) alla pagina di destinazione congiunta Analysis Workspace/Reports &amp; Analytics che migliora l’usabilità e la facilità di navigazione. |
 | Pannello Workspace [!UICONTROL Next item] o [!UICONTROL Previous item] | Questo pannello consente di esplorare gli elementi che seguono o precedono un elemento dimensionale scelto. |
@@ -65,7 +72,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 15 giugno 2021 | Sono state aggiornate le [best practice per i canali di marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=it). |
 | 3 giugno 2021 | La documentazione è stata aggiornata per spiegare meglio l’[implementazione di feed dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=it) e in [questa sezione](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=it#BucketOwnerFullControl). |
 | 25 maggio 2021 | È stata aggiornata la documentazione sulla [sensibilità alle maiuscole/minuscole nelle eVar nei rapporti](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=it). |
-| 13 maggio 2021 | È stata aggiornata la sezione sulle [richieste API Data Warehouse](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Ora supportano “Ore”. |
+| 13 maggio 2021 | È stata aggiornata la sezione sulle [richieste API Data Warehouse](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Ora supportano &quot;Hours&quot;. |
 | **Marzo 2021** |  |
 | Marzo, aprile 2021 | Sono state aggiornate la [guida per i dirigenti](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=it) e la [guida per i curatori](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=it) dei dashboard di Adobe Analytics. |
 | 25 marzo 2021 | È stata aggiunta la documentazione sulla pagina [!UICONTROL Components] > [!UICONTROL User preferences]. Consente di gestire le impostazioni di [!UICONTROL Analysis Workspace] e dei relativi componenti per l’utente. Le impostazioni di [!UICONTROL User preferences] sono applicabili a tutti i nuovi progetti e pannelli. <br>**Nota:** le seguenti impostazioni sono state spostate nella pagina [!UICONTROL User preferences]:<ul><li>Impostazioni dei rapporti: Separatore delle migliaia (ora denominato _Formato numero_)</li><li>Impostazioni dei rapporti: Separatore CSV</li><li>Progetti Workspace: Aiuto > Abilita suggerimenti</li><li>Progetti Workspace: opzione _Avvia nuovi progetti con questo pannello_ per pannello vuoto</li></ul> |
@@ -107,9 +114,9 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 18 giugno 2020 | Nuova documentazione su [Attribution IQ: attribuzione algoritmica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=it) |
 | 18 giugno 2020 | Nuova documentazione su [Attribution IQ: finestre di lookback personalizzate](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=it#lookback-windows) |
 | 18 giugno 2020 | Nuova documentazione per [Ruoli di progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) per i progetti Workspace condivisi. Ora quando condividi un progetto Workspace puoi assegnare ai destinatari uno dei tre ruoli di progetto, a seconda di come desideri che interagiscano con il progetto: Modifica, Duplica e Visualizza. |
-| 18 giugno 2020 | Nuova documentazione sui [progetti Workspace di sola visualizzazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=it). I progetti possono essere condivisi con gli utenti con la sola modalità di accesso “Può visualizzare”. Quando un destinatario con ruolo Visualizza apre il progetto condiviso, lo vedrà con alcune restrizioni, senza barra a sinistra e con interazioni limitate. |
+| 18 giugno 2020 | Nuova documentazione sui [progetti Workspace di sola visualizzazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=it). I progetti possono essere condivisi con gli utenti solo come &quot;Può visualizzare&quot;. Quando un destinatario con ruolo Visualizza apre il progetto condiviso, lo vedrà con alcune restrizioni, senza barra a sinistra e con interazioni limitate. |
 | 18 giugno 2020 | Nuova documentazione su [Ruoli di progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) per i progetti Workspace condivisi. Ora quando condividi un progetto Workspace puoi assegnare ai destinatari uno dei tre ruoli di progetto, a seconda di come desideri che interagiscano con il progetto: Modifica, Duplica e Visualizza. |
-| 18 giugno 2020 | Nuova documentazione sul [co-editing dei progetti Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). I destinatari aggiunti al ruolo “Può modificare” possono salvare in sovrascrittura un progetto condiviso con loro. Questo vale sia per gli amministratori che per i non amministratori. |
+| 18 giugno 2020 | Nuova documentazione sul [co-editing dei progetti Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). I destinatari aggiunti al ruolo &quot;Può modificare&quot; possono salvare in sovrascrittura un progetto condiviso con loro. Questo vale sia per gli amministratori che per i non amministratori. |
 | **Maggio 2020** |  |
 | 31 maggio 2020 | Nuova documentazione su [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | 21 maggio 2020 | Nuova documentazione relativa ai [dashboard di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=it) |
@@ -148,7 +155,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 21 novembre 2019 | Sono state aggiornate le [domande frequenti sul flusso di lavoro di Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=it) per indicare la disponibilità in LiveStream. |
 | 25 ottobre 2019 | È stata aggiornata la pagina sui [concetti chiave di Adobe Analytics](/help/technotes/terms.md). |
 | 10 ottobre 2019 | Sono stati aggiornati i totali delle tabelle a forma libera: ora includono due totali, **[!UICONTROL Table total]** e **[!UICONTROL Grand total]**. Il conteggio delle righe totali della tabella tiene ora conto i [filtri dei report](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=it) applicati. Precedentemente, solo la segmentazione interessava i totali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=it)<br/>Inoltre, sono state aggiunte le opzioni **[!UICONTROL Show Totals]** e **[!UICONTROL Show Grand Total]** a **[!UICONTROL Column Settings]**.<br/>Con questa modifica ai totali delle tabelle a forma libera verranno aggiornate le visualizzazioni dipendenti (ad esempio le visualizzazioni **[!UICONTROL Summary Number]** Numero di riepilogo collegate), nonché i dati CSV e PDF esportati. |
-| Ottobre 10,2019 | In Workspace, la possibilità di rimuovere facilmente “Non specificato (Nessuno)” è stata aggiunta come opzione dei filtri per i rapporti. |
+| Ottobre 10,2019 | In Workspace, è stata aggiunta la possibilità di rimuovere facilmente &quot;Non specificato (Nessuno)&quot; come opzione per segnalare i filtri. |
 | Ottobre 10,2019 | In Workspace, i componenti con granularità viola (Minuto, Ora, Giorno, Settimana, Mese, Trimestre, Anno) sono stati dichiarati obsoleti. **Non è necessario eseguire alcuna azione** se in precedenza è stato utilizzato uno dei componenti tempo viola.<br/>Con questa modifica, anche la sezione viola **[!UICONTROL Time]** è stata rinominata in **[!UICONTROL Date Ranges]**. |
 | 1º ottobre 2019 | Nuovo articolo sui [Totali in Workspace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=it#cja-workspace). |
 | 28 settembre 2019 | Nuovi articoli sulle [variabili di configurazione per l&#39;implementazione Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
