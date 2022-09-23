@@ -1,7 +1,7 @@
 ---
 title: Suggerimenti client
 description: Scopri in che modo i suggerimenti client sostituiranno gradualmente User-Agent come origine delle informazioni sul dispositivo.
-source-git-commit: cd8370f6c19e79e1a8a506e772db390708e96a44
+source-git-commit: c26012465b998b2d05bd08e8ddb064cd43940449
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -15,9 +15,9 @@ I suggerimenti client sono singole informazioni sul dispositivo di un utente. So
 
 Google divide i suggerimenti client User-Agent in due categorie: note entropiche basse e ad alta entropia.
 
-* I suggerimenti entropici bassi contengono informazioni più generiche sui dispositivi. Questi suggerimenti vengono forniti automaticamente dai browser Chromium.
+* **Suggerimenti per bassa entropia** contiene informazioni più generiche sui dispositivi. Questi suggerimenti vengono forniti automaticamente dai browser Chromium.
 
-* I suggerimenti ad alta entropia hanno informazioni più dettagliate. Questi suggerimenti sono disponibili solo su richiesta. È possibile configurare sia AppMeasurement che l&#39;SDK web per richiedere hint ad alta entropia. Per impostazione predefinita, entrambe le librerie lo fanno **not** richiedi suggerimenti entropici elevati.
+* **Alta entropia** i suggerimenti contengono informazioni più dettagliate. Questi suggerimenti sono disponibili solo su richiesta. È possibile configurare sia AppMeasurement che l&#39;SDK web per richiedere hint ad alta entropia. Per impostazione predefinita, entrambe le librerie lo fanno **not** richiedi suggerimenti entropici elevati.
 
 >[!NOTE]
 >
