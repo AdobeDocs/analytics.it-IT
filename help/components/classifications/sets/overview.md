@@ -2,10 +2,10 @@
 title: Panoramica sui set di classificazione
 description: Utilizza i set di classificazione per gestire i dati di classificazione.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+source-git-commit: faa1c730e051000032b4c442b43f17bd9c4d76d1
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ I set di classificazione forniscono un’unica interfaccia per gestire classific
 
 >[!NOTE]
 >
->Questa funzione è attualmente rilasciata in modo limitato. Se desideri accedere a questa funzione, contatta l’Assistenza clienti Adobe o il tuo Account Manager, che può inoltrare la tua richiesta al team Classificazioni per il provisioning.
+>I set di classificazioni saranno disponibili per tutti i clienti che hanno eseguito la migrazione delle loro suite di rapporti alla nuova architettura Classificazioni. Per ulteriori informazioni, contatta l’Assistenza clienti Adobe o il tuo Account Manager.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**
 
