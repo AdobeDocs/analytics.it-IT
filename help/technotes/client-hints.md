@@ -1,9 +1,9 @@
 ---
 title: Suggerimenti client
 description: Scopri in che modo i suggerimenti client sostituiranno gradualmente User-Agent come origine delle informazioni sul dispositivo.
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '855'
 ht-degree: 5%
 
 ---
@@ -86,9 +86,15 @@ I suggerimenti client si applicano solo ai browser Chromium come Google Chrome e
 
 +++
 
++++**I suggerimenti client sono supportati su connessioni non sicure?
+
+No. Gli hint client possono essere raccolti solo tramite una connessione HTTP protetta, ad esempio HTTPS.
+
++++
+
 +++**I suggerimenti client saranno disponibili nei dati inviati ad AEP e CJA tramite il connettore sorgente Adobe?**
 
-Prevediamo di includere i suggerimenti dei clienti nei dati tramite Adobe Source Connector nella prima metà del 2023.
+Adobe prevede di includere i suggerimenti dei clienti nei dati tramite Adobe Source Connector nella prima metà del 2023.
 
 +++
 
