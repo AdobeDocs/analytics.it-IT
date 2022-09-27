@@ -5,14 +5,14 @@ user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
 source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Guida per l’amministratore di Adobe Analytics {#admin}
+# Guida dell’amministratore di Adobe Analytics {#admin}
 
 + [Guida dell’amministratore di Analytics](home.md)
 + [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
