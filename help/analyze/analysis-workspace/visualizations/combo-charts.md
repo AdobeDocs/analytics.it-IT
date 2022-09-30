@@ -4,10 +4,10 @@ title: Visualizzazione con grafici combinati
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,12 +23,13 @@ Utilizza un [!UICONTROL Combo chart] per
 
 * Analizzare una metrica rispetto a una funzione (ad esempio [!UICONTROL Cumulative Average]) su un orizzonte temporale.
 
-Tieni presente che puoi
+Aspetti da considerare:
 
-* Aggiungere più confronti in un singolo [!UICONTROL Combo chart].
+* È possibile aggiungere più confronti in un unico [!UICONTROL Combo chart].
 * Se aggiungi uno o più confronti, questi devono essere dello stesso tipo, ad esempio [!UICONTROL Time comparison].
 * Puoi aggiungere fino a 5 confronti.
 * Puoi applicare fino a 3 filtri (segmenti) a una metrica.
+* Le metriche calcolate non sono supportate nei grafici combinati.
 
 ## Creare un grafico combinato
 
