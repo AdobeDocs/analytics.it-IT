@@ -4,10 +4,10 @@ description: Aggiornamenti importanti della documentazione di Adobe Analytics.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
+source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
 workflow-type: tm+mt
-source-wordcount: '3398'
-ht-degree: 96%
+source-wordcount: '3476'
+ht-degree: 95%
 
 ---
 
@@ -21,8 +21,13 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 ## Dettagli sugli aggiornamenti principali della documentazione
 
-| Data | Descrizione |
+| Funzione | Descrizione |
 | --- | --- |
+| **Ottobre 2022** |  |
+| Riepilogo della metrica chiave | Nuovo argomento su [Riepilogo delle metriche chiave](/help/analyze/analysis-workspace/visualizations/key-metric.md) visualizzazione. |
+| Set di classificazioni | Il nuovo utente [Set di classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) experience fornisce un’unica interfaccia per gestire classificazioni e regole e migliorare la visibilità dei dati di classificazione di proprietà del cliente. |
+| App mobile: Visualizzazioni dettagli personalizzate | Nuovo argomento su [visualizzazioni dettagli personalizzate](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it). |
+| Data Workbench | Data Workbench [domande frequenti sulla fine del ciclo di vita](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
 | **Settembre 2022** |  |
 | Grafici combinati | Nuovo argomento su [grafici combinati](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualizzazione. |
 | Plug-in aggiornato | Versione aggiornata della [getvaluna](/help/implement/vars/plugins/getvalonce.md) plug-in di implementazione. |
@@ -63,7 +68,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 18 agosto 2021 | Nuovo argomento su [A4T e suite di rapporti virtuali](/help/components/vrs/vrs-a4t.md) |
 | 18 agosto 2021 | Nuovo argomento su [Best practice di attribuzione](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5 agosto 2021 | Nuovo argomento sulla funzione [Conta istanze ripetute](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=it). |
-| 5 agosto 2021 | È stata aggiornata la documentazione sulle classificazioni relativa a [modelli](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=it), [importazione browser](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=it) ed [esportazione browser](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=it) per indicare le opzioni non disponibili per le suite di rapporti abilitate per la nuova architettura di classificazione. |
+| 5 agosto 2021 | È stata aggiornata la documentazione sulle classificazioni relativa a [modelli](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [importazione browser](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) ed [esportazione browser](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) per indicare le opzioni non disponibili per le suite di rapporti abilitate per la nuova architettura di classificazione. |
 | 2 agosto 2021 | Sono state aggiornate diverse pagine a seguito del branding di [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=it). |
 | **Luglio 2021** |  |
 | 23 luglio 2021 | Nuova discussione approfondita su [eVar per merchandising](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=it). |

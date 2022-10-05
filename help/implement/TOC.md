@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
-user-guide-description: Personalizza i dati raccolti per ottenere di più da Adobe Analytics.
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+user-guide-description: Scopri come implementare Adobe Analytics. Personalizza i dati raccolti per ottenere il massimo dai dati di Analytics.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 99%
+source-wordcount: '409'
+ht-degree: 95%
 
 ---
 

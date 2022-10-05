@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
-user-guide-description: Gestisci i tuoi dati utilizzando componenti quali segmenti, metriche calcolate, suite di rapporti virtuali, avvisi, canali di marketing, classificazioni e scopri le funzioni di Analytics tra dispositivi.
-source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
+user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Informazioni su Cross-Device Analytics.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 98%
+source-wordcount: '689'
+ht-degree: 96%
 
 ---
 
