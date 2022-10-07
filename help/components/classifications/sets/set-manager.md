@@ -3,9 +3,9 @@ title: Gestione set di classificazione
 description: Gestire i set di classificazione in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 source-git-commit: b75594e21cc499bf3367577df90d6a4f4705f09c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
