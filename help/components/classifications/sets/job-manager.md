@@ -3,9 +3,9 @@ title: Gestione processo set di classificazione
 description: Visualizza i lavori di classificazione correnti e completati generati dai set di classificazione.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 source-git-commit: cc01d492dbbf99fc6a2736c4c50d889933d6f4ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
