@@ -4,7 +4,7 @@ description: Scopri l’ordine dei componenti e dei servizi che elaborano i dati
 source-git-commit: 0881efeb2ce4f7af96f42bc925e43ce5ba1f64a2
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Prima dell’invio dei dati ad Adobe, in genere avviene una compilazione lato cl
 
 * **AppMeasurement**: un file JavaScript ospitato sul tuo sito e a cui si fa riferimento in ogni pagina. I dati vengono inviati direttamente ad Adobe Analytics.
 * **Adobe Experience Platform Web SDK**: un file JavaScript ospitato sul tuo sito e a cui si fa riferimento in ogni pagina. I dati vengono inviati ad Adobe Experience Edge.
-* **Tag nella raccolta dati di Adobe Experience Cloud**: un file JavaScript a cui si fa riferimento in ogni pagina, contenente regole create all’interno dell’interfaccia di Raccolta dati. L&#39;estensione Adobe Analytics offre un modo più semplice di implementare AppMeasurement. L’estensione Web SDK offre un modo più semplice per implementare Web SDK.
+* **Tag nella raccolta dati di Adobe Experience Cloud**: un file JavaScript a cui si fa riferimento in ogni pagina, contenente regole create all’interno dell’interfaccia di Raccolta dati. L’estensione Adobe Analytics offre un modo più semplice per implementare AppMeasurement. L’estensione Web SDK offre un modo più semplice per implementare Web SDK.
 
 Se invii dati ad Adobe Experience Edge, puoi configurarlo per l’inoltro dei dati ad Adobe Analytics (nonché a molte altre soluzioni Adobe Experience Cloud). Indipendentemente dal metodo di implementazione, il risultato è l’invio di una richiesta di immagine con le variabili desiderate ai server di raccolta dati di Adobe.
 
