@@ -4,9 +4,9 @@ description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2317'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,38 +22,38 @@ Puoi scaricare la versione più recente di AppMeasurement da [Code Manager](/hel
 
 Data di rilascio: **23 settembre 2022**
 
-* AppMeasurement ora supporta la raccolta di suggerimenti client ad alta entropia agente utente che i browser Chromium (Google Chrome e Microsoft Edge) utilizzano per fornire informazioni sul dispositivo. Puoi configurare i suggerimenti client tramite Tag o utilizzare il flag &quot;collectHighEntropyUserAgentHint&quot;. La raccolta di suggerimenti entropici elevati è disattivata per impostazione predefinita. Ulteriori informazioni su User-Agent [suggerimenti client](/help/technotes/client-hints.md).
+* AppMeasurement ora supporta la raccolta di hint client ad alta entropia dall’agente utente utilizzati dai browser Chromium (Google Chrome e Microsoft Edge) per fornire informazioni sul dispositivo. Puoi configurare gli hint client tramite i tag o utilizzare il flag “collectHighEntropyUserAgentHints”. Per impostazione predefinita, la raccolta di hint al alta entropia è disattivata. Ulteriori informazioni sugli [hint client](/help/technotes/client-hints.md) dell’agente utente.
 
 
 ## Versione 2.22.4
 
 Data di rilascio: **18 gennaio 2022**
 
-* Chiamata di tracciamento dei collegamenti `s.tl()` verifica che l&#39;oggetto passato contenga un `href` attributo di tipo `string`. Se non è un `string`, quindi ignorerà con grazia il `href` invece di fallire. Ciò può verificarsi quando si passa `svg` alla chiamata di tracciamento dei collegamenti.
+* La chiamata di tracciamento dei collegamenti `s.tl()` verifica se l’oggetto trasmesso contiene un attributo `href` di tipo `string`. Se non è di tipo `string`, l’attributo `href` verrà ignorato invece di generare un errore. Ciò può verificarsi quando si trasmettono oggetti `svg` alla chiamata di tracciamento dei collegamenti.
 
 ## Versione 2.22.3
 
 Data di rilascio: **11 ottobre 2021**
 
-* File aggiornati a cui si fa riferimento nella documentazione della Guida per indicare le posizioni correnti della Guida.
+* Sono stati aggiornati i file a cui si fa riferimento nella documentazione per indicare le posizioni correnti nella guida.
 
 ## Versione 2.22.2
 
 Data di rilascio: **7 settembre 2021**
 
-* Questo aggiornamento causa `opt.dmp` e `opt.sell` da includere sempre durante il tracciamento dei collegamenti. Ecco un [elenco completo delle variabili di consenso](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+* Con questo aggiornamento, `opt.dmp` e `opt.sell` vengono sempre inclusi durante il tracciamento dei collegamenti. Ecco un [elenco completo delle variabili di consenso](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=it).
 
 ## Versione 2.22.1
 
 Data di rilascio: **17 agosto 2021**
 
-* I clienti che utilizzano la funzione di rinuncia potrebbero aver visto i parametri di rinuncia all’inoltro lato server non rispettati durante il tracciamento dei collegamenti. Le correzioni in questa versione causano l’invio dei flag di rinuncia se presenti durante il tracciamento dei collegamenti.
+* I clienti che utilizzano la funzione di rinuncia potrebbero aver riscontrato che i parametri di rinuncia per l’inoltro lato server non venivano rispettati durante il tracciamento dei collegamenti. Le correzioni in questa versione causano l’invio dei flag di rinuncia se presenti durante il tracciamento dei collegamenti.
 
 ## Versione 2.22.0
 
 Data di rilascio: **4 agosto 2020**
 
-* Correzione del referente mancante quando il primo hit non è stato inviato a causa delle preferenze di rinuncia dell&#39;utente.
+* È stata introdotta una correzione relativa al referente mancante quando il primo hit non veniva inviato a causa delle preferenze di rinuncia dell&#39;utente.
 
 ## Versione 2.21.0
 
@@ -65,19 +65,19 @@ Data di rilascio: **24 giugno 2020**
 
 Data di rilascio: **5 marzo 2020**
 
-* È stato risolto un problema relativo alla sicurezza aggiornando il rilevamento di Internet Explorer per eliminare l’avviso JSLint.
+* È stato risolto un problema relativo alla sicurezza aggiornando il rilevamento di Internet Explorer per sopprimere l’avvertenza JSLint.
 
 ## Versione 2.19.0
 
 Data di rilascio:**21 febbraio 2020**
 
-* Il modulo Gestione dell&#39;audience è stato aggiornato a DIL 9.4. (AN-209341)
+* Il modulo Gestione dell’audience è stato aggiornato a DIL 9.4. (AN-209341)
 
 ## Versione 2.18.0
 
 Data di rilascio:**13 febbraio 2020**
 
-* AppMeasurement può ora forzare i cookie a includere l’attributo Secure impostando il [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variabile. Il requisito per questa variabile è che l’intero sito web client venga servito in modo sicuro (HTTPS). (AN-204604)
+* AppMeasurement può ora forzare i cookie a includere l’attributo Secure impostando la variabile [`writeSecureCookies`](vars/config-vars/writesecurecookies.md). Il requisito per questa variabile è che l’intero sito web client venga servito in modo sicuro (HTTPS). (AN-204604)
 
 ## Versione 2.17.0
 
@@ -149,7 +149,7 @@ Data di rilascio: **24 maggio 2018**
 
 >[!NOTE]
 >
->per i clienti che utilizzano il servizio ID è richiesto l’API Visitor 3.0 o la versione successiva[!DNL Experience Cloud]. Adobe consiglia di eseguire l’aggiornamento alla versione più recente dell’API Visitor ogni volta che le librerie di codice associate vengono aggiornate ([!DNL at.js], [!DNL AppMeasurement.js] e così via).
+>Per i clienti che utilizzano il servizio [!DNL Experience Cloud] ID è richiesto l’API Visitor 3.0 o versione successiva. Adobe consiglia di eseguire l’aggiornamento alla versione più recente dell’API Visitor ogni volta che le librerie di codice associate vengono aggiornate ([!DNL at.js], [!DNL AppMeasurement.js] e così via).
 
 * Il file [!DNL AppMeasurement] è stato aggiornato in modo da utilizzare la versione aggiornata dell’interfaccia Visitor per la richiesta degli ID. (AN-151483)
 * È stato corretto un problema in cui il cookie di tracciamento dei collegamenti viene scritto anche dopo la disattivazione della funzione di tracciamento dei collegamenti. (AN-156332)
@@ -275,7 +275,7 @@ Aggiornato il **4 agosto 2016**
 
 >[!IMPORTANT]
 >
->La versione 1.6.0 del servizio ID [!DNL Experience Cloud] *richiede* [!DNL AppMeasurement] per [!DNL JavaScript] versione 1.6.3 o superiore. Se vuoi eseguire l’aggiornamento alla versione 1.6.0 del servizio Experience Cloud ID, assicurati di utilizzare la versione codice 1.6.3 di [!DNL AppMeasurement] o superiore.
+>La versione 1.6.0 del servizio [!DNL Experience Cloud] ID *richiede* [!DNL AppMeasurement] per [!DNL JavaScript] versione 1.6.3 o successiva. Se vuoi eseguire l’aggiornamento alla versione 1.6.0 del servizio Experience Cloud ID, assicurati di utilizzare la versione codice 1.6.3 di [!DNL AppMeasurement] o superiore.
 
 ## Versione 1.6.2
 
@@ -339,14 +339,14 @@ Data di rilascio: **18 giugno 2015**
 
 Data di rilascio: **21 maggio 2015**
 
-* Con iOS SDK versione 4.5, una nuova estensione iOS consente di collegare i dati di utilizzo dalle applicazioni Apple Watch, Widget del giorno, widget per l&#39;editing di foto e tutte le applicazioni iOS. Consulta la sezione [Implementazione dell’estensione iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html) nella guida utente di Mobile Services.
-* A partire dalla versione SDK Android 4.5, una nuova estensione Android consente di raccogliere dati dall&#39;applicazione del tuo dispositivo indossabile Android. Consulta la sezione [Android Wearables](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html) nella guida utente di Mobile Services.
+* Con iOS SDK versione 4.5, una nuova estensione iOS consente di collegare i dati di utilizzo dalle applicazioni Apple Watch, Widget del giorno, widget per l&#39;editing di foto e tutte le applicazioni iOS. Consulta la sezione [Implementazione dell’estensione iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=it) nella guida utente di Mobile Services.
+* A partire dalla versione SDK Android 4.5, una nuova estensione Android consente di raccogliere dati dall&#39;applicazione del tuo dispositivo indossabile Android. Consulta la sezione [Android Wearables](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=it) nella guida utente di Mobile Services.
 * Inclusione di API Visitor 1.4.
 * Il modulo AudienceManagement è stato aggiornato per l’utilizzo di DIL versione 6.0.
 
 >[!NOTE]
 >
->**Problema noto**: nelle integrazioni modulo API Visitor/ [!DNL AppMeasurement] [!DNL Audience Manager], sono disponibili due destinazioni per la pubblicazione delle richieste iFrame effettuate in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. Come visto negli altri browser, la procedura corretta prevede di caricare solo `//fast.<subdomain>.demdex.net/dest5.html`.
+>**Problema noto**: nelle integrazioni con il modulo API Visitor/ [!DNL AppMeasurement] [!DNL Audience Manager], sono disponibili due destinazioni per la pubblicazione delle richieste iFrame effettuate in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. Come visto negli altri browser, la procedura corretta prevede di caricare solo `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Versione 1.4.4
 
@@ -394,7 +394,7 @@ Data di rilascio: **18 settembre 2014**
 
    >[!IMPORTANT]
    >
-   >Affinché una chiamata [!DNL Analytics]utilizzi il metodo POST invece del metodo GET in [!DNL AppMeasurement] (un metodo per risolvere gli URL troncati [ in IE](https://helpx.adobe.com/it/analytics/kb/shortening-image-request-urls.html)), devi usare l’implementazione più recente del servizio ID visitatori per Experience Cloud.
+   >Affinché una chiamata [!DNL Analytics] possa utilizzare il metodo POST invece del metodo GET in [!DNL AppMeasurement] (un metodo per risolvere gli [URL troncati](https://helpx.adobe.com/it/analytics/kb/shortening-image-request-urls.html) in IE), devi usare l’implementazione più recente del servizio ID visitatori per Experience Cloud.
 
 ## Versione 1.4
 
@@ -456,7 +456,7 @@ Data di rilascio: **15 novembre 2013**
 Data di rilascio: **14 novembre 2013**
 
 * È stato aggiunto il supporto per la misurazione video [Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
-* È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
 
 ## Versione 1.1.1
 
