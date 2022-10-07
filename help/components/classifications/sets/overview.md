@@ -3,9 +3,9 @@ title: Panoramica sui set di classificazione
 description: Utilizza i set di classificazione per gestire i dati di classificazione.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 source-git-commit: faa1c730e051000032b4c442b43f17bd9c4d76d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
