@@ -3,9 +3,9 @@ title: Impostazioni del set di classificazione
 description: Crea o modifica un set di classificazione.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 source-git-commit: fa0de6241d56e10144b7eefeb72e9d6ed25a9773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
