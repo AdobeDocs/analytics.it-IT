@@ -4,10 +4,10 @@ title: Creare una scorecard per dispositivi mobili
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 40f335c18849551bce23f386c647f2aec32c7988
+source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 74%
+source-wordcount: '1681'
+ht-degree: 96%
 
 ---
 
@@ -154,15 +154,15 @@ Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecifie
 
 ## Visualizzare e configurare le proprietà delle sezioni {#tiles}
 
-Quando fai clic su una tessera nel Creatore di scorecard, la barra a destra mostra le proprietà e le caratteristiche associate a tale tessera e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per la tessera e in alternativa configura la tessera applicando i segmenti.
+Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per la tessera e in alternativa configura la tessera applicando i segmenti.
 
-![Proprietà di una sezione](assets/properties_tile.png)
+![Proprietà di una sezione](assets/properties-tile-new.png)
 
-## Visualizza diapositive dettagliate {#view-detail-slides}
+## Visualizza diapositive di dettaglio {#view-detail-slides}
 
-Quando fai clic sulle tessere, una finestra a comparsa dinamica mostra come la diapositiva dei dettagli viene visualizzata dall’utente esecutivo nell’app. Puoi aggiungere dimensioni per suddividere i dati in base alle tue esigenze specifiche. Se non è stata applicata alcuna dimensione, la dimensione di raggruppamento sarà **ora** o **giorni**, a seconda dell’intervallo di date predefinito.
+Quando si fa clic su un riquadro, un pop-up dinamico mostra come la diapositiva di dettaglio apparirà all’utente esecutivo nell’app. Puoi aggiungere dimensioni per suddividere i dati in base alle tue esigenze specifiche. Se non è stata applicata alcuna dimensione, la dimensione del raggruppamento sarà di **ore** o **giorni**, a seconda dell’intervallo date predefinito.
 
-Le suddivisioni consentono di perfezionare l’analisi suddividendo letteralmente le metriche per elementi dimensionali.
+I raggruppamenti consentono di perfezionare l’analisi suddividendo le metriche per elementi dimensionali come i seguenti:
 
 * Metrica Visitatori univoci suddivisa per piattaforma di annunci (AMO ID)
 * Visite suddivise per categoria di prodotto (al dettaglio)
@@ -172,27 +172,27 @@ Le suddivisioni consentono di perfezionare l’analisi suddividendo letteralment
 
 Ogni dimensione aggiunta alla diapositiva di dettaglio viene visualizzata in un elenco a discesa nella visualizzazione della diapositiva di dettaglio nell’app. L’utente direzionale può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
 
-## Personalizzare le diapositive dettagliate {#customize-detail-slide}
+## Personalizzare le diapositive di dettaglio {#customize-detail-slide}
 
-Le diapositive di dettaglio personalizzate consentono di essere ancora più mirati sulle informazioni condivise con il pubblico. È possibile modificare il layout di ogni diapositiva di dettaglio e aggiungere testo per spiegare meglio ciò che l&#39;utente finale può vedere nei dati. È inoltre possibile modificare il tipo di grafico utilizzando il menu a discesa.
+Le diapositive di dettaglio personalizzate consentono di essere ancora più mirati sul tipo di informazioni condivise con il pubblico. È possibile modificare il layout di ogni diapositiva di dettaglio e aggiungere un testo per spiegare meglio ciò che l’utente finale può visualizzare nei dati. È inoltre possibile modificare il tipo di grafico utilizzando il menu a discesa.
 
-![Diapositiva dettaglio personalizzata](assets/custom-detail-slide.png)
+![Diapositiva di dettaglio personalizzata](assets/custom-detail-slide.png)
 
 ### Modificare il layout della diapositiva
 
-Modificate il layout della diapositiva per concentrarvi sulle informazioni più importanti. Ad esempio, è possibile modificare il layout per visualizzare solo un grafico o una tabella. Per modificare il layout della diapositiva, selezionare uno dei formati predefiniti.
+Puoi modificare il layout della diapositiva per concentrarti sulle informazioni più importanti. Ad esempio, è possibile modificare il layout per visualizzare solamente un grafico oppure una tabella. Per modificare il layout della diapositiva, seleziona uno dei formati predefiniti.
 
 ![Layout diapositiva](assets/layout.png)
 
-Puoi anche modificare il layout della diapositiva trascinando i componenti di visualizzazione dalla barra a sinistra nell’area di lavoro. Ciascuna diapositiva di dettaglio può contenere solo due visualizzazioni alla volta.
+Puoi anche modificare il layout della diapositiva trascinando i componenti per la visualizzazione dalla barra a sinistra nell’area di lavoro. Ciascuna diapositiva di dettaglio può contenere solo due visualizzazioni alla volta.
 
 ![Modifica del layout della diapositiva](assets/slide-layout-change.png)
 
 ### Aggiungere testo descrittivo a una diapositiva
 
-È possibile aggiungere testo per fornire informazioni significative su ciò che è contenuto nei grafici o sfumature sui dati.
+È possibile aggiungere un testo per fornire informazioni significative su ciò che è contenuto nei grafici oppure dettagli sui dati.
 
-Per aggiungere testo a una diapositiva di dettaglio, selezionare un layout che mostri il `T` oppure trascina e rilascia il componente Visualizzazione testo dalla barra a sinistra. L’editor di testo si apre automaticamente quando si aggiunge una nuova visualizzazione di testo o si sceglie un layout di diapositiva con testo. L’editor di testo fornisce tutte le opzioni standard per la formattazione del testo. È possibile applicare stili di testo quali paragrafi, intestazioni e sottotitoli e applicare font in grassetto e corsivo. È possibile giustificare il testo, aggiungere elenchi puntati e numerati e aggiungere collegamenti. Al termine della modifica, seleziona il pulsante Riduci a icona nell’angolo superiore destro dell’editor di testo per chiuderlo. Per modificare il testo già aggiunto, seleziona l’icona a forma di matita per aprire nuovamente l’editor di testo.
+Per aggiungere un testo a una diapositiva di dettaglio, seleziona un layout che mostra il simbolo `T` oppure trascina il componente della Visualizzazione testo dalla barra a sinistra. Quando si aggiunge una nuova visualizzazione di testo oppure si sceglie un layout di diapositiva con testo, l’editor di testo si apre automaticamente. L’editor di testo fornisce tutte le opzioni standard per la formattazione del testo. È possibile applicare stili di testo quali paragrafi, intestazioni e sottotitoli e applicare font in grassetto e corsivo. È possibile giustificare il testo, aggiungere elenchi puntati e numerati e aggiungere collegamenti. Al termine della modifica, fai clic sul pulsante Riduci a icona nell’angolo superiore a destra dell’editor di testo per chiuderlo. Per modificare il testo già aggiunto, fai clic sull’icona a forma di matita per aprire nuovamente l’editor di testo.
 
 ![Modifica del layout della diapositiva](assets/add-descriptive-text.png)
 
