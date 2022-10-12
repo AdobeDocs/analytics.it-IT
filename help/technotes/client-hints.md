@@ -1,10 +1,10 @@
 ---
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
-source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
-workflow-type: ht
-source-wordcount: '855'
-ht-degree: 100%
+source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+workflow-type: tm+mt
+source-wordcount: '947'
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,11 @@ Google divide gli hint client dall’agente utente in due categorie: hint a bass
 
 >[!NOTE]
 >
->A partire dal mese di ottobre 2022, le nuove versioni dei browser basati su Chromium inizieranno a “congelare“ la versione del sistema operativo rappresentata nella stringa dell’agente utente. Quando un utente aggiornerà il suo dispositivo, il sistema operativo nella stringa dell’agente utente non verrà modificato. Così, nel corso del tempo le informazioni sulla versione del sistema operativo provenienti dalla stringa dell’agente utente diventeranno sempre meno precise. La versione del sistema operativo è un hint ad alta entropia; per essere certi di includere nei rapporti informazioni accurate sulla versione del sistema operativo è quindi necessario configurare la libreria di raccolta per raccogliere tali hint. Nel corso del tempo, le altre informazioni relative al dispositivo dell’agente utente verranno congelate, e sarà quindi necessario ricorrere agli hint client affinché sia possibile raccogliere nei rapporti informazioni accurate sui dispositivi.
+>A partire dal mese di ottobre 2022, le nuove versioni dei browser basati su Chromium inizieranno a “congelare“ la versione del sistema operativo rappresentata nella stringa dell’agente utente. La versione del sistema operativo è un hint ad alta entropia; per essere certi di includere nei rapporti informazioni accurate sulla versione del sistema operativo è quindi necessario configurare la libreria di raccolta per raccogliere tali hint. Nel corso del tempo, le altre informazioni relative al dispositivo dell’agente utente verranno congelate, e sarà quindi necessario ricorrere agli hint client affinché sia possibile raccogliere nei rapporti informazioni accurate sui dispositivi.
+
+>[!NOTE]
+>
+>AAM richiede la raccolta di hint entropici elevati per preservare la funzionalità completa. Se utilizzi [inoltro lato server a AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di suggerimenti entropici elevati.
 
 ## Domande frequenti
 
@@ -49,6 +53,24 @@ Al momento non è possibile. È possibile scegliere di raccogliere tutti gli hin
 
 +++
 
++++**Quali sono i diversi valori dei suggerimenti client?**
+
+La tabella seguente descrive i suggerimenti dei clienti a partire da ottobre 2022.
+
+| Hint | Descrizione | Alta o bassa entropia | Esempio |
+| --- | --- | --- | --- | 
+| Sec-CH-UA | Browser e versione rilevante | Bassa | &quot;Google Chrome 84&quot; |
+| Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Bassa | TRUE |
+| Sec-CH-UA-Platform | Sistema operativo/piattaforma | Bassa | &quot;Android&quot; |
+| Sec-CH-UA-Arch | Architettura del sito | Alta | &quot;arm&quot; |
+| Sec-CH-UA-Bitness | Numero di bit dell’architettura | Alta | &quot;64&quot; |
+| Sec-CH-UA-Full-Version | Versione completa del browser | Alta | &quot;84.0.4143.2&quot; |
+| Sec-CH-UA-Full-Version-List | Elenco dei marchi e versione | Alta | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
+| Sec-CH-UA-Model | Modello dispositivo | Alta | &quot;Pixel 3&quot; |
+| Sec-CH-UA-Platform-Version | Versione del sistema operativo/piattaforma | Alta | &quot;10&quot; |
+
++++
+
 +++**Ci saranno modifiche al reporting sui dispositivi in Analytics?**
 
 I campi relativi al dispositivo disponibili per il reporting non subiranno modifiche. I dati acquisiti per questi campi possono variare a seconda del campo e della modalità di configurazione della raccolta di hint client.
@@ -57,18 +79,19 @@ I campi relativi al dispositivo disponibili per il reporting non subiranno modif
 
 +++**Quali campi di reporting di Analytics sono derivati dall’agente utente?**
 
+Questi campi sono derivati direttamente dall&#39;utente-agente, ma l&#39;utente-agente può essere utilizzato per aiutare a derivare i valori per altri campi relativi alla periferica, a seconda dei dettagli della periferica.
+
 * [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=it)
 * [Tipo di browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=it)
 * [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it)
 * [Tipi di sistemi operativi](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=it)
 * [Tipo di dispositivo mobile e dispositivo mobile](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=it)
-* [Feed dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it)
 
 +++
 
 +++**Quali campi di reporting di Analytics sono derivati dai valori memorizzati negli hint ad alta entropia?**
 
-In base alle informazioni disponibili a settembre 2022, la timeline pubblicata da Google relativa al “congelamento“ degli hint dall’agente utente indica che la versione del sistema operativo cesserà di essere aggiornata a partire dal mese di ottobre 2022. Quando un utente aggiornerà il suo dispositivo, la versione del sistema operativo nella stringa dell’agente utente non verrà modificata. Senza gli hint ad alta entropia, le informazioni sulla versione del sistema operativo, incluse nella dimensione “Sistema operativo“ di Analytics, diventeranno gradualmente meno accurate.
+Questo cambierà nel tempo, in quanto Google &#39;blocca&#39; più parti dell&#39;agente utente. Il primo campo da influenzare direttamente è &quot;Sistema operativo&quot; che include la versione del sistema operativo Secondo la cronologia pubblicata di Google per il &quot;congelamento&quot; dei suggerimenti utente-agente, la versione del sistema operativo sarà congelata a partire dalla fine di ottobre 2022 con Chromium versione 107. A questo punto la versione del sistema operativo nell&#39;agente utente sarà in alcuni casi imprecisa.
 
 Consulta la [timeline pubblicata da Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) per informazioni sulla tempistica del congelamento di altre parti dell’agente utente.
 
@@ -82,11 +105,11 @@ Adobe utilizza un componente di terze parti, Device Atlas, che utilizzerà sia g
 
 +++**Quali browser sono interessati dagli hint client?**
 
-Gli hint client sono applicabili solo ai browser basati su Chromium, come Google Chrome e Microsoft Edge. Non vi sono cambiamenti per quanto riguarda i dati provenienti da altri browser o app per dispositivi mobili.
+I suggerimenti client si applicano solo ai browser Chromium come Google Chrome e Microsoft Edge. Non vi sono cambiamenti per quanto riguarda i dati provenienti da altri browser o app per dispositivi mobili.
 
 +++
 
-+++**Gli hint client sono supportati su connessioni non sicure?
++++**Gli hint client sono supportati su connessioni non sicure?**
 
 No. Gli hint client possono essere raccolti solo tramite una connessione HTTP protetta, ad esempio HTTPS.
 
@@ -104,28 +127,15 @@ Consulta la [documentazione sugllo schema](https://github.com/adobe/xdm/blob/mas
 
 +++
 
-+++**Quali sono i vari campi degli hint? Quali influiscono sui dati di reporting relativi ai dispositivi?**
-
-La tabella seguente descrive gli hint client disponibili da settembre 2022.
-
-| Hint | Descrizione | Alta o bassa entropia | Esempio |
-| --- | --- | --- | --- | 
-| Sec-CH-UA | Browser e versione rilevante | Bassa | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Bassa | TRUE |
-| Sec-CH-UA-Platform | Sistema operativo/piattaforma | Bassa | &quot;Android&quot; |
-| Sec-CH-UA-Arch | Architettura del sito | Alta | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | Numero di bit dell’architettura | Alta | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | Versione completa del browser | Alta | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | Elenco dei marchi e versione | Alta | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | Modello dispositivo | Alta | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | Versione del sistema operativo/piattaforma | Alta | &quot;10&quot; |
-
-+++
-
-
-
 +++**Quali parti dell’agente utente saranno “congelate“ e quando?**
 
 Consulta la [timeline pubblicata da Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Tale timeline potrebbe essere soggetta a modifiche.
 
 +++
+
++++**AAM server-side forwarding supporterà gli hint client?**
+
+Sì. I suggerimenti client verranno inclusi nei dati inoltrati a AAM. Tieni presente che AAM richiedono la raccolta di suggerimenti ad alta entropia per mantenere la funzionalità completa. Se utilizzi [inoltro lato server a AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) allora potrebbe essere utile abilitare la raccolta di suggerimenti ad alta entropia.
+
++++
+
