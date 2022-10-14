@@ -1,10 +1,10 @@
 ---
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
-source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 78%
+source-wordcount: '948'
+ht-degree: 76%
 
 ---
 
@@ -99,7 +99,7 @@ Consulta la [timeline pubblicata da Google](https://blog.chromium.org/2021/09/us
 
 +++**In che modo Adobe utilizzerà gli hint client per derivare informazioni sul dispositivo?**
 
-Adobe utilizza un componente di terze parti, Device Atlas, che utilizzerà sia gli hint client che l’agente utente per derivare informazioni sul dispositivo.
+Adobe utilizza una terza parte, Device Atlas, che utilizzerà sia i suggerimenti client che User-Agent per derivare le informazioni sul dispositivo.
 
 +++
 
