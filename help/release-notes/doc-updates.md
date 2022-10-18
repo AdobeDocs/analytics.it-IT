@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
 workflow-type: tm+mt
 source-wordcount: '3476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Ottobre 2022** |  |
-| Riepilogo della metrica chiave | Nuovo argomento su [Riepilogo delle metriche chiave](/help/analyze/analysis-workspace/visualizations/key-metric.md) visualizzazione. |
-| Set di classificazioni | Il nuovo utente [Set di classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) experience fornisce un’unica interfaccia per gestire classificazioni e regole e migliorare la visibilità dei dati di classificazione di proprietà del cliente. |
-| App mobile: Visualizzazioni dettagli personalizzate | Nuovo argomento su [visualizzazioni dettagli personalizzate](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it). |
-| Data Workbench | Data Workbench [domande frequenti sulla fine del ciclo di vita](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
+| Riepilogo delle metriche chiave | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
+| Set di classificazione | La nuova esperienza utente [Set di classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=it) fornisce un’unica interfaccia per gestire classificazioni e regole e migliorare la visibilità dei dati di classificazione di proprietà del cliente. |
+| App per dispositivo mobile: visualizzazioni dettagli personalizzate | Nuovo argomento sulle [visualizzazioni dettagli personalizzate](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it) |
+| Data Workbench | [Domande frequenti sul fine ciclo di vita](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=it) di Data Workbench. |
 | **Settembre 2022** |  |
 | Grafici combinati | Nuovo argomento sulla visualizzazione con [grafici combinati](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
 | Plug-in aggiornato | Versione aggiornata del plug-in di implementazione [getvalonce](/help/implement/vars/plugins/getvalonce.md). |
@@ -36,7 +36,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Ordine di elaborazione | Sono state aggregate diverse pagine di Aiuto per fornire un singolo argomento di Aiuto in merito all’[Ordine di elaborazione](/help/technotes/processing-order.md). |
 | **Agosto 2022** |  |
 | Supporto per le variabili elenco in XDM per la raccolta di dati Edge | Consente ai clienti che raccolgono dati tramite Experience Edge/Web SDK di utilizzare XDM per specificare il contenuto della variabile di elenco. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=it#list-variables-using-the-web-sdk) | 18 agosto 2022 |
-| Uso del campo SKU in XDM per la raccolta di dati Edge quando si impostano le variabili della stringa di prodotto | Consente ai clienti che raccolgono i dati tramite Experience Edge/Web SDK di utilizzare il valore SKU per impostare il campo prodotto nella variabile prodotti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=it#prodotti-che-utilizzano-l%E2%80%99sdk-per-web) |
+| Uso del campo SKU in XDM per la raccolta di dati Edge quando si impostano le variabili della stringa di prodotto | Consente ai clienti che raccolgono i dati tramite Experience Edge/Web SDK di utilizzare il valore SKU per impostare il campo prodotto nella variabile prodotti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=it#prodotti-che-utilizzano-l’sdk-per-web) |
 | **Giugno 2022** |  |
 | Variabili di merchandising in XDM per la raccolta di dati Edge | Documentazione sul [supporto per le variabili di merchandising in XDM per la raccolta di dati Edge](/help/components/dimensions/evar-merchandising.md) |
 | Documentazione di Experience Platform Edge | Nuovi articoli sull’implementazione di Adobe Analytics tramite [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) e [API Edge](/help/implement/aep-edge/edge-api/overview.md). |
@@ -68,7 +68,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 18 agosto 2021 | Nuovo argomento su [A4T e suite di rapporti virtuali](/help/components/vrs/vrs-a4t.md) |
 | 18 agosto 2021 | Nuovo argomento su [Best practice di attribuzione](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5 agosto 2021 | Nuovo argomento sulla funzione [Conta istanze ripetute](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=it). |
-| 5 agosto 2021 | È stata aggiornata la documentazione sulle classificazioni relativa a [modelli](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [importazione browser](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) ed [esportazione browser](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) per indicare le opzioni non disponibili per le suite di rapporti abilitate per la nuova architettura di classificazione. |
+| 5 agosto 2021 | È stata aggiornata la documentazione sulle classificazioni relativa a [modelli](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=it), [importazione browser](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=it) ed [esportazione browser](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=it) per indicare le opzioni non disponibili per le suite di rapporti abilitate per la nuova architettura di classificazione. |
 | 2 agosto 2021 | Sono state aggiornate diverse pagine a seguito del branding di [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=it). |
 | **Luglio 2021** |  |
 | 23 luglio 2021 | Nuova discussione approfondita su [eVar per merchandising](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=it). |
