@@ -3,8 +3,8 @@ title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 61%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
