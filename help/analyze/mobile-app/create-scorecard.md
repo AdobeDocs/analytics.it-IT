@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
-workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Per implementare il template della scorecard:
 
 Per aggiungere una dimensione correlata a una metrica, trascina una dimensione dal pannello di sinistra e rilasciala su una tessera.
 
-Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla sezione. Le suddivisioni dei Dimension vengono visualizzate sotto la sezione [!UICONTROL Drill Ins] sezione del dettaglio specifico della diapositiva **[!UICONTROL Properties]**. Puoi aggiungere più dimensioni a ogni sezione.
+Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla sezione. Le dimensioni dei raggruppamenti vengono visualizzate sotto la [!UICONTROL Drill Ins]sezione del dettaglio specifico della diapositiva **[!UICONTROL Properties]**. Puoi aggiungere più dimensioni a ogni sezione.
 
 ![Aggiunta di dimensioni](assets/layer_dimensions.png)
 
@@ -154,7 +154,7 @@ Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecifie
 
 ## Visualizzare e configurare le proprietà delle sezioni {#tiles}
 
-Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per la tessera e in alternativa configura la tessera applicando i segmenti.
+Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei segmenti.
 
 ![Proprietà di una sezione](assets/properties-tile-new.png)
 
@@ -170,17 +170,17 @@ I raggruppamenti consentono di perfezionare l’analisi suddividendo le metriche
 
 ![Vista_Raggruppamento](assets/break_view.png)
 
-Ogni dimensione aggiunta alla diapositiva di dettaglio viene visualizzata in un elenco a discesa nella visualizzazione della diapositiva di dettaglio nell’app. L’utente direzionale può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
+Ogni dimensione aggiunta alla diapositiva di dettaglio viene visualizzata in un elenco a discesa nella visualizzazione della diapositiva di dettaglio nell’app. L’utente esecutivo può quindi scegliere tra le opzioni elencate nell’elenco a discesa.
 
 ## Personalizzare le diapositive di dettaglio {#customize-detail-slide}
 
-Le diapositive di dettaglio personalizzate consentono di essere ancora più mirati sul tipo di informazioni condivise con il pubblico. È possibile modificare il layout di ogni diapositiva di dettaglio e aggiungere un testo per spiegare meglio ciò che l’utente finale può visualizzare nei dati. È inoltre possibile modificare il tipo di grafico utilizzando il menu a discesa.
+Le diapositive di dettaglio personalizzate consentono di essere ancora più mirati sulle informazioni condivise con il pubblico. È possibile modificare il layout di ogni diapositiva di dettaglio e aggiungere un testo per spiegare meglio ciò che l’utente finale può visualizzare nei dati. È inoltre possibile modificare il tipo di grafico utilizzando il menu a discesa.
 
 ![Diapositiva di dettaglio personalizzata](assets/custom-detail-slide.png)
 
 ### Modificare il layout della diapositiva
 
-Puoi modificare il layout della diapositiva per concentrarti sulle informazioni più importanti. Ad esempio, è possibile modificare il layout per visualizzare solamente un grafico oppure una tabella. Per modificare il layout della diapositiva, seleziona uno dei formati predefiniti.
+Puoi modificare il layout della diapositiva per concentrarti sulle informazioni più importanti. Ad esempio, puoi modificare il layout per visualizzare solo un grafico o una tabella. Per modificare il layout della diapositiva, seleziona uno dei formati predefiniti.
 
 ![Layout diapositiva](assets/layout.png)
 
@@ -192,7 +192,7 @@ Puoi anche modificare il layout della diapositiva trascinando i componenti per l
 
 È possibile aggiungere un testo per fornire informazioni significative su ciò che è contenuto nei grafici oppure dettagli sui dati.
 
-Per aggiungere un testo a una diapositiva di dettaglio, seleziona un layout che mostra il simbolo `T` oppure trascina il componente della Visualizzazione testo dalla barra a sinistra. Quando si aggiunge una nuova visualizzazione di testo oppure si sceglie un layout di diapositiva con testo, l’editor di testo si apre automaticamente. L’editor di testo fornisce tutte le opzioni standard per la formattazione del testo. È possibile applicare stili di testo quali paragrafi, intestazioni e sottotitoli e applicare font in grassetto e corsivo. È possibile giustificare il testo, aggiungere elenchi puntati e numerati e aggiungere collegamenti. Al termine della modifica, fai clic sul pulsante Riduci a icona nell’angolo superiore a destra dell’editor di testo per chiuderlo. Per modificare il testo già aggiunto, fai clic sull’icona a forma di matita per aprire nuovamente l’editor di testo.
+Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mostri il simbolo `T` oppure trascina il componente della Visualizzazione testo dalla barra a sinistra. Quando si aggiunge una nuova visualizzazione di testo oppure si sceglie un layout di diapositiva con testo, l’editor di testo si apre automaticamente. L’editor di testo fornisce tutte le opzioni standard per la formattazione del testo. È possibile applicare stili di testo quali paragrafi, intestazioni e sottotitoli e applicare font in grassetto e corsivo. È possibile giustificare il testo, aggiungere elenchi puntati e numerati e aggiungere collegamenti. Al termine della modifica, seleziona il pulsante Riduci a icona nell’angolo superiore a destra dell’editor di testo per chiuderlo. Per modificare il testo già aggiunto, seleziona l’icona a forma di matita per aprire nuovamente l’editor di testo.
 
 ![Modifica del layout della diapositiva](assets/add-descriptive-text.png)
 
