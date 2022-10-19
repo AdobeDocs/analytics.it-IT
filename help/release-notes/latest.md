@@ -3,16 +3,16 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 51fe791a0a0ea45aab3b19f9639d8cc1a10ec114
+source-git-commit: 10b0f4f99d382cbf04b63f2dc518f0d6595d689e
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 89%
+source-wordcount: '1587'
+ht-degree: 87%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (ottobre 2022)
 
-**Ultimo aggiornamento**: 14 ottobre 2022
+**Ultimo aggiornamento**: 19 ottobre 2022
 
 I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -27,7 +27,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 
 | Funzione | Descrizione | [Data definita](releases.md) |
 | ----------- | ---------- | ------- |
-| Visualizzazione **[!UICONTROL Key metric summary]** | La visualizzazione [!UICONTROL Key metric summary] ti consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it) | Rollout graduale a partire dal 5 ottobre 2022 |
+| **Cartelle in progetti Workspace** | Le cartelle in Progetti Workspace consentono agli utenti di organizzare e classificare i progetti utilizzando le cartelle per un migliore recupero e accesso. Una cartella condivisa dell’azienda consente agli amministratori di creare e condividere facilmente i contenuti con tutti gli utenti di Workspace [Ulteriori informazioni](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) | 19 ottobre 2022 |  | Visualizzazione **[!UICONTROL Key metric summary]** | La visualizzazione [!UICONTROL Key metric summary] ti consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it) | Rollout graduale a partire dal 5 ottobre 2022 |
 | Nuova esperienza utente **[!UICONTROL Classification sets]** | La nuova esperienza utente offre un’unica interfaccia per gestire classificazioni e regole e migliorare la visibilità dei dati di classificazione di proprietà del cliente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=it) | 5 ottobre 2022 |
 | App per dispositivo mobile: **visualizzazioni dettagli personalizzate** | Le visualizzazioni dettagli personalizzate ti consentono di scegliere in modo più mirato le informazioni da condividere con il tuo pubblico, affinché chi le riceve possa concentrarsi su ciò che è più importante. È possibile modificare il layout della visualizzazione dettagli associata a ogni riquadro di scorecard e aggiungere testo per spiegare meglio cosa l’utente finale può visualizzare nei dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it) | 5 ottobre 2022 |
 | **Variabili con più valori senza distinzione tra maiuscole e minuscole** | Per le variabili multivalore senza distinzione tra maiuscole e minuscole, i valori memorizzati in `mvvar1` - `mvvar3` nei feed di dati non verranno più abbassati automaticamente. Al contrario, i feed di dati (e i dati passati tramite il connettore di origine di Analytics a Adobe Experience Platform e CJA) rifletteranno il caso originale passato dalla pagina. | 24 ottobre 2022 |
