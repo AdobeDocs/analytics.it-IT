@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder e Activity Map.
-source-git-commit: 51fcb9043b2983336bc1f5d674231eb5f2524142
+source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1063'
 ht-degree: 98%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 98%
       + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + Cartelle in Workspace {#workspace-folders}
          + [Informazioni sulle cartelle in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Crea cartelle](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Creare cartelle e sottocartelle](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Aggiungi progetti](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Rimuovere un progetto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Salvare un nuovo progetto](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
