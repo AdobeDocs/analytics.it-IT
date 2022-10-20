@@ -3,10 +3,10 @@ description: Informazioni sul salvataggio di progetti nelle cartelle in Workspac
 keywords: Analysis Workspace
 title: Salvataggio di progetti nelle cartelle
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ Per salvare un nuovo progetto in una cartella specifica, selezionate il nome del
 
 >[!NOTE]
 >
->Questa funzione è attualmente rilasciata in modo limitato. Alcuni schermi possono cambiare.
+>Questa funzione è attualmente in versione beta. Alcuni schermi possono cambiare.
 
 1. In Workspace, crea un nuovo progetto.
 

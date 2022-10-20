@@ -3,10 +3,10 @@ description: Informazioni sulle cartelle in Workspace
 keywords: Analysis Workspace
 title: Panoramica cartelle
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 2%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ Cartelle in Progetti Workspace è un sistema di gestione delle cartelle che si t
 
 >[!NOTE]
 >
->Questa funzione è attualmente rilasciata in modo limitato. Alcuni schermi possono cambiare.
+>Questa funzione è attualmente in versione beta. Alcuni schermi possono cambiare.
 
 Le cartelle in Progetti Workspace consentono agli utenti di organizzare e classificare i loro progetti per un migliore recupero e accesso. Inoltre, una cartella aziendale condivisa consente agli amministratori di creare e condividere facilmente i contenuti con tutti gli utenti di Workspace. 
 

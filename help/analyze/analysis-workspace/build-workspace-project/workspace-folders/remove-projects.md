@@ -3,10 +3,10 @@ description: Scopri come rimuovere progetti dalle cartelle
 keywords: Analysis Workspace
 title: Rimuovere progetti dalle cartelle
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Per rimuovere un progetto da una cartella, puoi spostarlo in un’altra posizion
 
 >[!NOTE]
 >
->Questa funzione è attualmente rilasciata in modo limitato. Alcuni schermi possono cambiare.
+>Questa funzione è attualmente in versione beta. Alcuni schermi possono cambiare.
 
 >[!NOTE]
 >

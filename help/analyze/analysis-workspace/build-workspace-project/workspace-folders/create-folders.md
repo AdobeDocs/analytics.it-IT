@@ -3,10 +3,10 @@ description: Scopri come creare cartelle e sottocartelle in Workspace
 keywords: Analysis Workspace
 title: Crea cartelle
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 8%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ Puoi aggiungere una nuova cartella o una sottocartella all’elenco dei progetti
 
 >[!NOTE]
 >
->Questa funzione è attualmente rilasciata in modo limitato. Alcuni schermi possono cambiare.
+>Questa funzione è attualmente in versione beta. Alcuni schermi possono cambiare.
 
 ## Crea una nuova cartella
 
