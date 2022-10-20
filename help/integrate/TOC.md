@@ -7,7 +7,7 @@ user-guide-description: Configura le integrazioni con altre soluzioni di Adobe E
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 70%
+ht-degree: 75%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 70%
       + [Risoluzione dei problemi relativi ad Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Domande frequenti](c-advertising-analytics/aa-faq.md)
 + [Adobe Analytics per Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
-+ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
++ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it)
 + [Rapporti di Adobe Campaign in Adobe Analytics](adobe-campaign.md)
 + [Integrare i dati di Adobe Analytics con Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [Reportistica di AEM Assets](aem-assets-reporting.md)
