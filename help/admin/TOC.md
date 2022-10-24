@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 99%
 
 ---
 
@@ -84,6 +84,7 @@ ht-degree: 100%
       + [Panoramica rapporti in tempo reale](admin/realtime/realtime.md)
       + [Configurazione rapporti in tempo reale](admin/realtime/t-realtime-admin.md)
       + [Metriche e dimensioni in tempo reale supportate](admin/realtime/realtime-metrics.md)
+   + [Reporting Activity Manager](admin/reporting-activity.md)
    + [Coda dei report pianificati](admin/scheduled-reports-admin.md)
    + Inoltro lato server {#server-side-forwarding}
       + [Panoramica sull&#39;inoltro lato server](admin/c-server-side-forwarding/ssf.md)
