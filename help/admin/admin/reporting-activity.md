@@ -4,9 +4,9 @@ title: Reporting Activity Manager
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 70cfad1a04d17e1007178f32af73988be503fe90
+source-git-commit: 6ab2f39bdfc3a50c2b91f020c98b0e81da8b2b8e
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -28,23 +28,21 @@ Reporting Activity Manager consente di visualizzare la capacità di reporting pe
 
 In Adobe Analytics, gli amministratori accedono a **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
-## Gestire la coda dei report
+## Visualizza la coda dei report
 
-Quando si apre Reporting Activity Manager, viene visualizzato un elenco di suite di rapporti di base. Le suite di rapporti virtuali non sono incluse in questa visualizzazione.
+Quando apri la pagina di panoramica di Reporting Activity Manager, viene visualizzato un elenco delle suite di rapporti di base abilitate.
 
 ![coda dei report](assets/reporting-activity1.png)
 
-Le suite di rapporti virtuali aggiungono complessità alle richieste di reporting a causa di ulteriori livelli di filtro e segmentazione applicati. Tutte le richieste provenienti dalle suite di rapporti virtuali vengono combinate e vengono ridotte alla suite di rapporti di base. Quindi, se hai 10 richieste provenienti da 5 VRS, sono 50 le richieste nella suite di rapporti a livello di base. In questo modo, si può raggiungere molto rapidamente la capacità.
-
-Ecco una vista di una VRS la cui capacità di reporting viene visualizzata in tempo reale:
-
-![suite di rapporti virtuali](assets/reporting-activity-vrs.png)
+| Elemento nell’interfaccia utente | Descrizione |
+| --- | --- |
+| **[!UICONTROL Report Suite]** | La suite di rapporti di base |
+| **[!UICONTROL Virtual Report Suite]** | Tutte le suite di rapporti virtuali che si inseriscono in questa suite di rapporti di base. Le suite di rapporti virtuali aggiungono complessità alle richieste di reporting a causa di ulteriori livelli di filtro e segmentazione applicati. Tutte le richieste provenienti dalle suite di rapporti virtuali vengono combinate e vengono ridotte alla suite di rapporti di base.<p>Se hai 10 richieste provenienti da 5 VRS, sono 50 le richieste nella suite di rapporti di livello base. In questo modo, si può raggiungere molto rapidamente la capacità. |
+| **[!UICONTROL Usage Capacity]** | In percentuale, quanta capacità di reporting della suite di rapporti viene utilizzata in tempo reale. |
+| **[!UICONTROL Status]** | Quattro possibili indicatori di stato: <ul><li>**Rosso - A Capacità**: La suite di rapporti è composta in termini di capacità di reporting.</li><li>**Giallo - Capacità prossima**: Questa suite di rapporti rischia di raggiungere la sua massima capacità.</li><li>**Verde - Disponibile**: La capacità di segnalazione è abbondante.</li><li>**Grigio - Non disponibile**: La suite di rapporti non è configurata per la capacità di reporting.</li></ul> |
 
 Aggiorna la pagina per modificare i risultati.
 
-## Impatto sul reporting in Workspace
+## Filtrare le suite di rapporti
 
-
-
-
-
+Puoi filtrare le suite di rapporti in base alla
