@@ -2,11 +2,12 @@
 description: Scopri come utilizzare Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i picchi di reporting.
 title: Reporting Activity Manager
 feature: Admin Tools
+mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 6ab2f39bdfc3a50c2b91f020c98b0e81da8b2b8e
+source-git-commit: 77b3e8a1f8ebb1459eeac83f098cab92f671efe6
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -30,19 +31,26 @@ In Adobe Analytics, gli amministratori accedono a **[!UICONTROL Admin]** > **[!U
 
 ## Visualizza la coda dei report
 
-Quando apri la pagina di panoramica di Reporting Activity Manager, viene visualizzato un elenco delle suite di rapporti di base abilitate.
+Quando si apre la pagina di panoramica di Reporting Activity Manager, viene visualizzato un elenco delle suite di rapporti di base abilitate.
 
 ![coda dei report](assets/reporting-activity1.png)
 
 | Elemento nell’interfaccia utente | Descrizione |
 | --- | --- |
-| **[!UICONTROL Report Suite]** | La suite di rapporti di base |
-| **[!UICONTROL Virtual Report Suite]** | Tutte le suite di rapporti virtuali che si inseriscono in questa suite di rapporti di base. Le suite di rapporti virtuali aggiungono complessità alle richieste di reporting a causa di ulteriori livelli di filtro e segmentazione applicati. Tutte le richieste provenienti dalle suite di rapporti virtuali vengono combinate e vengono ridotte alla suite di rapporti di base.<p>Se hai 10 richieste provenienti da 5 VRS, sono 50 le richieste nella suite di rapporti di livello base. In questo modo, si può raggiungere molto rapidamente la capacità. |
+| **[!UICONTROL Report Suite]** | La suite di rapporti di base di cui stai monitorando l’attività di reporting. |
+| **[!UICONTROL Virtual Report Suite]** | Mostra tutte le suite di rapporti virtuali che si inseriscono in questa suite di rapporti di base. Le suite di rapporti virtuali aggiungono complessità alle richieste di reporting a causa di ulteriori livelli di filtro e segmentazione applicati. Tutte le richieste provenienti dalle suite di rapporti virtuali vengono combinate e vengono ridotte alla suite di rapporti di base.<p>Ad esempio, se hai 10 richieste provenienti da 5 VRS, sono 50 le richieste nella suite di rapporti a livello di base. In questo modo, si può raggiungere molto rapidamente la capacità. |
 | **[!UICONTROL Usage Capacity]** | In percentuale, quanta capacità di reporting della suite di rapporti viene utilizzata in tempo reale. |
-| **[!UICONTROL Status]** | Quattro possibili indicatori di stato: <ul><li>**Rosso - A Capacità**: La suite di rapporti è composta in termini di capacità di reporting.</li><li>**Giallo - Capacità prossima**: Questa suite di rapporti rischia di raggiungere la sua massima capacità.</li><li>**Verde - Disponibile**: La capacità di segnalazione è abbondante.</li><li>**Grigio - Non disponibile**: La suite di rapporti non è configurata per la capacità di reporting.</li></ul> |
+| **[!UICONTROL Status]** | Quattro possibili indicatori di stato: <ul><li>**Rosso - A Capacità**: La suite di rapporti è composta in termini di capacità di reporting.</li><li>**Giallo - Capacità prossima**: Questa suite di rapporti rischia di raggiungere la sua massima capacità.</li><li>**Verde - Tutto buono**: La capacità di segnalazione è abbondante.</li><li>**[!UICONTROL Status pending]**: ?</li><li>**Grigio - Non disponibile**: La suite di rapporti non è configurata per la capacità di reporting.</li></ul> |
 
-Aggiorna la pagina per modificare i risultati.
+### Azioni per attività di reporting
 
-## Filtrare le suite di rapporti
+* Fai clic su **[!UICONTROL Refresh]** in alto a destra per aggiornare i risultati.
+* Fai clic sulla stella a sinistra del nome della suite di rapporti per preferire questa suite di rapporti.
+* Controlla **[!UICONTROL Favorites]** in alto a sinistra per mostrare i tuoi preferiti.
+* Cerca le suite di rapporti per nome o per ID nella barra di ricerca.
+* Filtrare le suite di rapporti in base al loro stato.
 
-Puoi filtrare le suite di rapporti in base alla
+## Visualizzare l’attività di reporting per le singole suite di rapporti
+
+
+
