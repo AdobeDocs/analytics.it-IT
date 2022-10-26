@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
+source-git-commit: 56c11dd4f35f7b2de0e124b1bcb005afb356ece6
 workflow-type: tm+mt
-source-wordcount: '3445'
+source-wordcount: '3537'
 ht-degree: 6%
 
 ---
@@ -38,11 +38,13 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `c_color` | Profondità in bit della palette di colori. Utilizzato come parte del calcolo del [Profondità colore](/help/components/dimensions/color-depth.md) dimensione. AppMeasurement utilizza la funzione JavaScript `screen.colorDepth()`. | char(20) |
 | `campaign` | Variabile utilizzata nella variabile [Codice di tracciamento](/help/components/dimensions/tracking-code.md) dimensione. | varchar(255) |
 | `carrier` | Variabile di integrazione Adobe Advertising Cloud. Specifica il gestore di telefonia mobile. Fa riferimento a `carrier` tabella di ricerca. | varchar(100) |
+| `ch_hdr` | Suggerimenti client raccolti tramite l’intestazione della richiesta HTTP. | text |
+| `ch_js` | Suggerimenti client raccolti tramite l’API JavaScript per i suggerimenti client User-Agent. | text |
 | `channel` | Variabile utilizzata nella variabile [Sezioni del sito](/help/components/dimensions/site-section.md) dimensione. | varchar(100) |
 | `click_action` | Non più utilizzato. Indirizzo di clic collegato nello strumento ClickMap legacy. | varchar(100) |
 | `click_action_type` | Non più utilizzato. Tipo di collegamento dello strumento ClickMap legacy.<br>0: URL HREF<br>1: ID personalizzato<br>2: Evento onClick JavaScript<br>3: Elemento modulo | tinyint senza segno |
 | `click_context` | Non più utilizzato. Nome della pagina in cui si è verificato il clic sul collegamento. Parte dello strumento ClickMap legacy. | varchar(255) |
-| `click_context_type` | Non più utilizzato. Indica se click_context ha un nome di pagina o se è stato impostato in modo predefinito sull&#39;URL della pagina.<br>0: URL della pagina<br>1: Nome pagina | tinyint senza segno |
+| `click_context_type` | Non più utilizzato. Indica se `click_context` aveva un nome di pagina o è stato impostato come URL predefinito per la pagina.<br>0: URL della pagina<br>1: Nome pagina | tinyint senza segno |
 | `click_sourceid` | Non più utilizzato. ID numerico della posizione sulla pagina del collegamento selezionato. Parte dello strumento ClickMap legacy. | int senza segno |
 | `click_tag` | Non più utilizzato. Tipo di elemento HTML su cui è stato fatto clic. | char(10) |
 | `clickmaplink` | Collegamento Activity Map | varchar(255) |
@@ -64,7 +66,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `date_time` | L&#39;ora dell&#39;hit in formato leggibile, in base al fuso orario della suite di rapporti. | datetime |
 | `domain` | Variabile utilizzata nella variabile [Dominio](/help/components/dimensions/domain.md) dimensione. In base al punto di accesso a Internet del visitatore. | varchar(100) |
 | `duplicate_events` | Elenca ogni evento conteggiato come duplicato. | varchar(255) |
-| `duplicate_purchase` | Flag che indica che l&#39;evento di acquisto per questo hit deve essere ignorato perché è un duplicato. | tinyint senza segno |
+| `duplicate_purchase` | Flag che indica che l&#39;evento di acquisto per questo hit viene ignorato perché è un duplicato. | tinyint senza segno |
 | `duplicated_from` | Utilizzato solo nelle suite di rapporti contenenti regole VISTA della copia hit. Indica la suite di rapporti da cui è stato copiato l&#39;hit. | varchar(40) |
 | `ef_id` | La `ef_id` utilizzato nelle integrazioni Adobe Advertising Cloud. | varchar(255) |
 | `evar1 - evar250` | Variabili personalizzate 1-250. Utilizzato in [eVar](/help/components/dimensions/evar.md) dimensioni. Ogni organizzazione utilizza eVar in modo diverso. Il luogo migliore per ulteriori informazioni su come la tua organizzazione compila i rispettivi eVar sarebbe un documento di progettazione della soluzione specifico per la tua organizzazione. | varchar(255) |
@@ -88,8 +90,9 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `hitid_low` | Utilizzato in combinazione con `hitid_high` per identificare un hit. | bigotto senza segno |
 | `homepage` | Non più utilizzato. Indica se l’URL corrente è la home page del browser. | char(1) |
 | `hourly_visitor` | Flag per determinare se l’hit è un nuovo visitatore orario. | tinyint senza segno |
-| `ip` | Indirizzo IP, basato sull’intestazione HTTP della richiesta di immagine. | char(20) |
+| `ip` | L’indirizzo IPv4, in base all’intestazione HTTP della richiesta di immagine. Reciprocamente esclusivo per `ipv6`; se questa colonna contiene un indirizzo IP non offuscato, `ipv6` è vuoto. | char(20) |
 | `ip2` | Non utilizzato. Variabile di riferimento di back-end per suite di rapporti che contiene regole VISTA basate sull’indirizzo IP. | char(20) |
+| `ipv6` | Indirizzo IPv6 compresso, se disponibile. Se un indirizzo IP è simile a `2001:cDBa:0000:0000:0000:0000:3257:0052`, il feed di dati contiene `2001:cdba::3257:52`. Reciprocamente esclusivo per `ip`; se questa colonna contiene un indirizzo IP non offuscato, `ip` è vuoto. | varchar(40) |
 | `j_jscript` | Versione di JavaScript supportata dal browser. | char(5) |
 | `java_enabled` | Flag che indica se Java è abilitato. <br>Y: Abilitato <br>N: Disabilitato <br>U: Sconosciuto | char(1) |
 | `javascript` | ID ricerca della versione JavaScript, in base a `j_jscript`. Utilizza la tabella di ricerca. | tinyint senza segno |
@@ -145,7 +148,8 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `mobilerelaunchcampaigntrackingcode` | Raccolte dalla variabile di dati di contesto `a.launch.campaign.trackingcode`. Utilizzato nell&#39;acquisizione come codice di tracciamento per la campagna di lancio. | varchar(255) |
 | `mobileresolution` | Risoluzione del dispositivo mobile. `[Width] x [Height]` in pixel. | varchar(255) |
 | `monthly_visitor` | Flag che indica che il visitatore è univoco per il mese corrente. | tinyint senza segno |
-| `mvvar1` - `mvvar3` | Elencare i valori delle variabili. Contiene un elenco delimitato di valori personalizzati a seconda dell’implementazione. La `post_mvvar1` - `post_mvvar3` le colonne sostituiscono il delimitatore originale con `--**--`. | text |
+| `mvvar1` - `mvvar3` | Elenca i valori delle variabili impostati sull&#39;hit corrente o mantenuti dagli hit precedenti. Contiene un elenco delimitato di valori personalizzati a seconda dell’implementazione. La `post_mvvar1` - `post_mvvar3` le colonne sostituiscono il delimitatore originale con `--**--`. | text |
+| `mvvar1_instances` - `mvvar3_instances` | I valori delle variabili di elenco impostati sull&#39;hit corrente. La `post_mvvar1_instances` - `post_mvvar3_instances` le colonne sostituiscono il delimitatore originale con `--**--`. | text |
 | `namespace` | Non utilizzato. Parte di una feature di scarto. | varchar(50) |
 | `new_visit` | Flag che determina se l’hit corrente è una nuova visita. Impostato dai server di Adobe dopo 30 minuti di inattività della visita. | tinyint senza segno |
 | `os` | ID numerico che rappresenta il sistema operativo del visitatore. In base ai `user_agent` colonna. Usi `os` ricerca. | int senza segno |
@@ -240,9 +244,9 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | `videoepisode` | episodio video | varchar(255) |
 | `videofeedtype` | Tipo di feed video | varchar(255) |
 | `videogenre` | Genere video | text |
-| `videolength` | Lunghezza del video | varchar(255) |
+| `videolength` | Lunghezza video | varchar(255) |
 | `videomvpd` | MVPD video | varchar(255) |
-| `videoname` | Nome video | varchar(255) |
+| `videoname` | Nome del video | varchar(255) |
 | `videonetwork` | Rete video | varchar(255) |
 | `videopath` | Percorso video | varchar(100) |
 | `videoplayername` | Nome del lettore video | varchar(255) |
