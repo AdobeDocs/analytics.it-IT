@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder e Activity Map.
-source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 98%
+source-wordcount: '1059'
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 98%
       + [Panoramica dei progetti](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + Cartelle in Workspace {#workspace-folders}
-         + [Informazioni sulle cartelle in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Informazioni sulla funzione Cartelle di Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creare cartelle e sottocartelle](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Aggiungi progetti](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Aggiungere progetti](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Rimuovere un progetto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Salvare un nuovo progetto](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -103,7 +103,7 @@ ht-degree: 98%
       + [Pannello Pubblico medio per minuto](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali) {#media-playback-timespent}
-         + [Panoramica ](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [Panoramica](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Impostazioni di ingresso e uscita](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Domande frequenti](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [Pannello elemento successivo o precedente](analysis-workspace/c-panels/next-previous.md)
@@ -305,7 +305,6 @@ ht-degree: 98%
       + [Menu Rapporti](reports-analytics/overview/reports-menu.md)
       + [Funzioni rapporto](reports-analytics/overview/report-overview.md)
       + [Termini comuni](reports-analytics/overview/overview-common-terms.md)
-      + [Adobe Analytics per iOS](reports-analytics/overview/app-ios.md)
    + [Impostazioni di visualizzazione e navigazione del rapporto](reports-analytics/report-settings.md)
    + [Pianificazione e distribuzione del rapporto](reports-analytics/scheduling.md)
    + [Avviso di fine del ciclo di vita dei rapporti pianificati](reports-analytics/scheduled-reports-eol.md)

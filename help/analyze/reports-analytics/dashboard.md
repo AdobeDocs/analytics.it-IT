@@ -5,14 +5,16 @@ title: Dashboard e minirapporti
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '1692'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Dashboard e minirapporti
+
+{{ra-eol}}
 
 Un dashboard è una raccolta di miniature di rapporti denominati reportlet. Un dashboard è particolarmente utile quando contiene minirapporti correlati che ti forniscono panorami completi su alcuni aspetti del sito, ad esempio metodi di ricerca, profili visitatore e così via.
 
@@ -54,7 +56,7 @@ Questa dashboard offre una panoramica delle metriche chiave correlate alle opera
 * Pagine più popolari
 * Sezioni più popolari del sito
 * Report KPI/Gage
-* Rapporto testo
+* Reportlet testo
 * Report di riepilogo della società
 
 Utilizza la [!UICONTROL Dashboard Manager] per modificare e gestire le dashboard e abilitarle per DirectAccess.
@@ -102,7 +104,7 @@ t_dashboard_add_report.xml
 
  -->
 
-1. Esegui un report.
+1. Esegui un rapporto.
 1. Fai clic su **[!UICONTROL Dashboard.]**
 1. Sulla [!UICONTROL Add Reportlet] pagina, denomina il rapporto, quindi seleziona un dashboard da **[!UICONTROL Place in Dashboard]**.
 1. (Facoltativo) Configura l’intervallo di date.
@@ -216,7 +218,7 @@ t_dashboard_branding.xml
  -->
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]**.
-1. Sulla [!UICONTROL Company Settings] pagina, fai clic su **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
+1. Nella pagina [!UICONTROL Company Settings] fai clic su **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Fai clic su **[!UICONTROL Enable Co-Branding]**.
 1. Sfoglia per caricare l&#39;immagine, quindi fai clic su **[!UICONTROL Save.]**
 

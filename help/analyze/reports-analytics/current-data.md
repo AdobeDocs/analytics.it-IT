@@ -3,17 +3,19 @@ description: L’opzione Includi dati correnti in Reports & Analytics consente d
 subtopic: Current Data
 title: Dati correnti
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 2%
+source-wordcount: '566'
+ht-degree: 1%
 
 ---
 
 # Dati correnti
+
+{{ra-eol}}
 
 L’opzione Includi dati correnti in Reports &amp; Analytics consente di visualizzare i dati Analytics più recenti, spesso prima che i dati siano completamente elaborati e finalizzati. I dati correnti visualizzano la maggior parte delle metriche in pochi minuti, fornendo dati fruibili per processi decisionali rapidi.
 
@@ -25,7 +27,7 @@ I dati correnti sono attivati per impostazione predefinita su tutti i rapporti c
 
 * Utilizza Analysis Workspace, che utilizza dati completamente elaborati.
 * Fare clic su &#39;No&#39; nell&#39;impostazione del report dati corrente per utilizzare solo i dati elaborati completamente.
-* Rimuovi l’elemento di autorizzazione &quot;Dati correnti&quot; da un profilo di prodotto nell’Admin Console per impedire agli utenti non amministratori di visualizzare questa opzione. Per ulteriori informazioni, consulta [Autorizzazioni del profilo di prodotto per gli strumenti di Analytics](/help/admin/admin-console/permissions/analytics-tools.md) nella guida utente dell’amministratore .
+* Rimuovi l’elemento di autorizzazione &quot;Dati correnti&quot; da un profilo di prodotto nell’Admin Console per impedire agli utenti non amministratori di visualizzare questa opzione. Vedi [Autorizzazioni del profilo di prodotto per gli strumenti di Analytics](/help/admin/admin-console/permissions/analytics-tools.md) nella guida utente di Admin per ulteriori informazioni.
 
 A causa della priorità sulla disponibilità dei dati, i dati correnti non possono attualmente essere utilizzati con segmenti, classificazioni, raggruppamenti, percorsi e alcune metriche. Se si utilizza una di queste funzioni, i dati correnti vengono forzati a &quot;No&quot; nel rapporto e viene visualizzato un avviso giallo che spiega perché i dati correnti non sono disponibili.
 
@@ -43,7 +45,7 @@ Le metriche vengono visualizzate in uno dei tre intervalli di tempo seguenti. Fa
 
 Poiché alcuni dei dati visualizzati nella visualizzazione dati corrente non sono stati completamente elaborati, è possibile notare una differenza tra i valori segnalati nella visualizzazione dati corrente e nella visualizzazione finale. Nei rapporti con tendenze, la differenza di dati si trova in genere all’1%.
 
-## Metriche calcolate
+## Metriche calcolate 
 
 Poiché le metriche calcolate possono essere create utilizzando metriche con latenza diversa, alcuni valori recenti potrebbero essere calcolati utilizzando dati incompleti nella visualizzazione dati corrente.
 

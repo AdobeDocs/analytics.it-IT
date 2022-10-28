@@ -5,7 +5,7 @@ keywords: best practice;errore;timeout;risoluzione dei problemi;lento
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Best practice e risoluzione dei problemi di reporting
+
+{{ra-eol}}
 
 *Questa pagina di aiuto fa riferimento alle best practice di Reports &amp; Analytics. Per Analysis Workspace, consulta [Ottimizzare le prestazioni di Analysis Workspace](../analysis-workspace/workspace-faq/optimizing-performance.md). Per Data Warehouse, vedi [Best practice per la Data Warehouse](/help/export/data-warehouse/data-warehouse-bp.md).*
 

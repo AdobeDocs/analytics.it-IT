@@ -3,17 +3,19 @@ description: Dashboard Manager consente di copiare, condividere, archiviare e pi
 subtopic: Dashboards
 title: Dashboard Manager
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '741'
 ht-degree: 3%
 
 ---
 
 # Dashboard Manager
+
+{{ra-eol}}
 
 Dashboard Manager consente di copiare, condividere, archiviare e pianificare la distribuzione dei dashboard.
 
@@ -21,7 +23,7 @@ Dashboard Manager consente di copiare, condividere, archiviare e pianificare la 
 >
 >Quando si utilizza Dashboard Manager, è consigliabile non disporre di più di 300 dashboard per ogni singolo utente. Inoltre, ricorda che il responsabile carica tutte le dashboard condivise di seguito, quindi fai attenzione a condividere le dashboard.
 
-Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL All components]** (Tutti i componenti) > **[!UICONTROL Dashboards]** (Eventi calendario).
+Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]**.
 
 | Elemento | Descrizione |
 |--- |--- |
@@ -36,7 +38,7 @@ Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** (Componenti
 Passaggi che descrivono come utilizzare le opzioni di gestione del dashboard condiviso.
 
 1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]**.
-1. In [!UICONTROL Shared Dashboards], individua il dashboard condiviso (o il dashboard legacy) che desideri gestire e scegli una o più delle seguenti opzioni:
+1. Sotto [!UICONTROL Shared Dashboards], individua il dashboard condiviso (o dashboard legacy) da gestire e scegli una o più delle seguenti opzioni:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
@@ -53,14 +55,14 @@ Passaggi che descrivono come utilizzare le opzioni di gestione del dashboard con
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Copy Me</strong></td> 
-  <td class="chdesc stentry"> Aggiunge una copia nell’elenco delle dashboard con lo stesso nome dell’originale. Tuttavia, non è possibile visualizzare gli aggiornamenti o le modifiche apportate dal proprietario del dashboard. Copiare un dashboard legacy consente di aprire un dashboard vuoto in cui è possibile aggiungere contenuto legacy. <p>Importante:  Se gli utenti condivisi del dashboard non possono vedere le modifiche apportate nel dashboard, controlla il tuo Dashboard Manager per vedere se gli utenti hanno scelto l'opzione <span class="uicontrol"> Copy Me </span> (Copia utente). Se lo hanno fatto, non possono vedere gli aggiornamenti o le modifiche apportate da te. Per visualizzare tutte le modifiche/gli aggiornamenti, gli utenti condivisi devono selezionare l'opzione <span class="uicontrol"> Nel menu </span> in Dashboard Manager. </p> </td> 
+  <td class="chdesc stentry"> Aggiunge una copia nell’elenco delle dashboard con lo stesso nome dell’originale. Tuttavia, non è possibile visualizzare gli aggiornamenti o le modifiche apportate dal proprietario del dashboard. Copiare un dashboard legacy consente di aprire un dashboard vuoto in cui è possibile aggiungere contenuto legacy. <p>Importante: Se gli utenti condivisi del dashboard non possono vedere le modifiche apportate nel dashboard, controlla il tuo Dashboard Manager per vedere se gli utenti hanno scelto il <span class="uicontrol"> Copiami </span> opzione . Se lo hanno fatto, non possono vedere gli aggiornamenti o le modifiche apportate da te. Per visualizzare tutte le modifiche o gli aggiornamenti, gli utenti condivisi devono selezionare il <span class="uicontrol"> Menu attivato </span> in Dashboard Manager. </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Menu attivato</strong></td> 
   <td class="chdesc stentry"> Consente di visualizzare le modifiche o gli aggiornamenti apportati dal proprietario del dashboard. </td> 
  </tr> 
  <tr class="chrow strow"> 
-  <td class="choption"><strong>Unshare</strong></td> 
+  <td class="choption"><strong>Annullamento condivisione</strong></td> 
   <td class="chdesc stentry"> Rimuove il dashboard dall’elenco delle dashboard condivise. </td> 
  </tr> 
 </table>
@@ -71,7 +73,7 @@ Le dashboard esistenti continueranno a essere eseguite e potrai comunque modific
 
 >[!NOTE]
 >
->In futuro, considera l&#39;utilizzo di [progetti Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) e la possibilità di scaricarli e pianificarli.
+>In futuro, considera l&#39;utilizzo di [Progetti Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it) e la loro possibilità di essere scaricati e pianificati.
 
 Quando copi il dashboard legacy, il sistema apre il dashboard legacy per la modifica, in cui puoi aggiungere contenuto legacy o nuovo contenuto. Quando copi un dashboard legacy, l’originale viene mantenuto nell’elenco delle dashboard legacy.
 
@@ -82,32 +84,32 @@ Quando copi il dashboard legacy, il sistema apre il dashboard legacy per la modi
 **Per eseguire la migrazione di un dashboard legacy versione 14.x**
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. Nella colonna [!UICONTROL Manage], sotto [!UICONTROL Legacy Dashboards] fare clic su **[!UICONTROL Copy to New Dashboard]**.
+1. In [!UICONTROL Manage] sotto [!UICONTROL Legacy Dashboards], fai clic su **[!UICONTROL Copy to New Dashboard]**.
 
    Il dashboard copiato si apre nell’editor di layout del dashboard.
 
-   Consulta [Modifica dei dati del dashboard e del reportlet](/help/analyze/reports-analytics/dashboard.md).
+   Vedi [Modifica dei dati del dashboard e del reportlet](/help/analyze/reports-analytics/dashboard.md).
 
 ## Condivisione di un dashboard
 
-Procedura che descrive come un amministratore può condividere (o inviare in push) un dashboard a più utenti. Quando invii le dashboard agli utenti, diventano disponibili nel menu [!UICONTROL Shared Dashboards] dell’utente.
+Procedura che descrive come un amministratore può condividere (o inviare in push) un dashboard a più utenti. Quando invii le dashboard agli utenti, diventano disponibili nelle [!UICONTROL Shared Dashboards] menu.
 
 1. In [!UICONTROL Dashboard Manager], individua il dashboard, quindi abilita **[!UICONTROL Shared]**.
 1. Fai clic su **[!UICONTROL Push To Users]**.  ![](assets/push.png)
 
-1. Nella pagina [!UICONTROL Push Dashboard] , seleziona gli utenti target o fai clic su **[!UICONTROL Check All]**.
+1. Sulla [!UICONTROL Push Dashboard] , seleziona gli utenti target o fai clic su **[!UICONTROL Check All]**.
 1. Fai clic su **[!UICONTROL Save]**.
 
-Se gli utenti condivisi del dashboard non possono vedere le modifiche apportate nel dashboard, controlla il tuo Dashboard Manager per vedere se gli utenti hanno scelto l&#39;opzione **[!UICONTROL Copy Me]**. Se lo hanno fatto, non possono vedere gli aggiornamenti o le modifiche apportate da te. Per visualizzare tutte le modifiche/gli aggiornamenti, gli utenti condivisi devono selezionare l&#39;opzione **[!UICONTROL On Menu]** in Dashboard Manager.
+Se gli utenti condivisi del dashboard non possono vedere le modifiche apportate nel dashboard, controlla il tuo Dashboard Manager per vedere se gli utenti hanno scelto il **[!UICONTROL Copy Me]** opzione . Se lo hanno fatto, non possono vedere gli aggiornamenti o le modifiche apportate da te. Per visualizzare tutte le modifiche o gli aggiornamenti, gli utenti condivisi devono selezionare il **[!UICONTROL On Menu]** in Dashboard Manager.
 
 ## Pianificare un dashboard per la consegna
 
-In [!UICONTROL Dashboard Manager] puoi vedere se è prevista la consegna di un dashboard e modificare la pianificazione. Le opzioni di consegna del dashboard sono identiche alle opzioni di consegna del report.
+In [!UICONTROL Dashboard Manager], puoi vedere se è prevista la consegna di un dashboard e modificare la pianificazione. Le opzioni di consegna del dashboard sono identiche alle opzioni di consegna del report.
 
 1. Apri un dashboard.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
-   Per ulteriori informazioni, consulta [Pianificazione e distribuzione](/help/analyze/reports-analytics/scheduling.md) .
+   Vedi [Pianificazione e distribuzione](/help/analyze/reports-analytics/scheduling.md) per ulteriori informazioni.
 
 ## Archiviare un dashboard
 
@@ -115,11 +117,11 @@ In [!UICONTROL Dashboard Manager] puoi vedere se è prevista la consegna di un d
 >
 >Questa funzionalità non sarà più disponibile a gennaio 2020.
 
-Passaggi che descrivono come archiviare qualsiasi dashboard inviato come file PDF. Il sistema memorizza il file archiviato per due anni, o fino a quando non si raggiunge un limite massimo di 4 GB di rapporti archiviati, a seconda di quale dei due eventi si verifica prima.
+Passaggi che descrivono come archiviare un dashboard inviato come file PDF. Il sistema memorizza il file archiviato per due anni, o fino a quando non si raggiunge un limite massimo di 4 GB di rapporti archiviati, a seconda di quale dei due eventi si verifica prima.
 
 1. Apri un dashboard.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Send]**.
-1. Nel gruppo [!UICONTROL Email Report] , abilita **[!UICONTROL Archive]**.
+1. In [!UICONTROL Email Report] gruppo, abilita **[!UICONTROL Archive]**.
 1. Specifica le opzioni di consegna, quindi fai clic su **[!UICONTROL Send]**.
 
-   Potete visualizzare le dashboard archiviate in Dashboard Manager. In alternativa, apri una dashboard e fai clic su **[!UICONTROL More]** > **[!UICONTROL View Archive]**.
+   Potete visualizzare le dashboard archiviate in Dashboard Manager. In alternativa, apri un dashboard e fai clic su **[!UICONTROL More]** > **[!UICONTROL View Archive]**.

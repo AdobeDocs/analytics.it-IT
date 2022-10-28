@@ -4,14 +4,16 @@ description: Dimensioni e metriche utilizzate da Reports & Analytics per ogni ra
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 # Rapporti
+
+{{ra-eol}}
 
 Ogni rapporto in Reporting e analisi utilizza una dimensione dedicata e una metrica predefinita. Puoi modificare la metrica in ciascun rapporto e aggiungere suddivisioni, se necessario. Gli elenchi seguenti forniscono la dimensione utilizzata in ciascun rapporto.
 
@@ -20,7 +22,7 @@ Ogni rapporto in Reporting e analisi utilizza una dimensione dedicata e una metr
 >Il menu dei rapporti può avere un aspetto diverso a seconda delle personalizzazioni effettuate da un amministratore nell’organizzazione. Vedi [Personalizzazione del menu](/help/admin/admin/customize-menus.md) nella guida utente Admin.
 
 >[!IMPORTANT]
->Efficace **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le funzionalità di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
+>A partire dal **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
 
 ## Metriche del sito
 

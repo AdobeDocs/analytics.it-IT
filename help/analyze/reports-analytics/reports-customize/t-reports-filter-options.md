@@ -2,17 +2,19 @@
 description: I filtri ti consentono di restringere il rapporto per includere o escludere elementi di riga che corrispondono a un filtro.
 title: Filtraggio dati dei rapporti
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '644'
 ht-degree: 4%
 
 ---
 
 # Filtrare i dati dei rapporti {#concept_09DC5B986A644738B12204DAC76A90E1}
+
+{{ra-eol}}
 
 I filtri ti consentono di restringere il rapporto per includere o escludere elementi di riga che corrispondono a un filtro.
 
@@ -22,7 +24,7 @@ I filtri ti consentono di restringere il rapporto per includere o escludere elem
 
 Il filtro semplice viene visualizzato nella maggior parte dei rapporti per consentire di trovare rapidamente elementi di riga specifici. I filtri semplici non utilizzano caratteri speciali, pertanto `-, ", ', +` e altri caratteri speciali corrispondono al valore letterale nel rapporto. È possibile trovare elementi riga contenenti più termini utilizzando uno spazio.
 
-Ad esempio:
+Esempio:
 
 ```
 help search
@@ -131,11 +133,11 @@ Avanzate ti consente di eseguire caratteri jolly e altre ricerche complesse.
 | Avanzate (carattere speciale) | Descrizione |
 |--- |--- |
 | `" "` | Corrispondenza esatta frase. |
-| `*` | Cartoncino selvaggio, acidità abbinamento. <br>Ad esempio,  `r*p`  corrisponde a &quot;Registrazione registrazione&quot;. |
+| `*` | Cartoncino selvatico, abbinamento avido. <br>Ad esempio: `r*p`  corrisponde a &quot;Registrazione&quot;. |
 | `^` | Inizia con. <br>Non includere uno spazio tra il carattere speciale e la frase di ricerca. |
 | `$` | Termina con. <br>Non includere uno spazio tra il carattere speciale e la frase di ricerca. |
-| `-` | No. <br>Non includere uno spazio tra il carattere speciale e la frase di ricerca. |
-| `|` | Oppure<br>Nota:  è necessario includere uno spazio su ciascun lato del carattere della barra verticale, `" | "`. |
+| `-` | Not. <br>Non includere uno spazio tra il carattere speciale e la frase di ricerca. |
+| `|` | Oppure<br>Nota: è necessario includere uno spazio su ciascun lato del carattere della barra, `" | "`. |
 
 ## Creare filtri specifici per i rapporti {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -147,16 +149,16 @@ t_reports_filter_specific.xml
 
  -->
 
-Alcuni rapporti contengono un filtro specifico per quel rapporto. Ad esempio, un [!UICONTROL Purchase Conversion Funnel Report] consente di filtrare per pagine web. Un [!UICONTROL Geosegmentation Report] consente di filtrare per area geografica. Altri filtri sono disponibili per i rapporti specifici.
+Alcuni rapporti contengono un filtro specifico per quel rapporto. Ad esempio, un [!UICONTROL Purchase Conversion Funnel Report] consente di filtrare per pagine web. A [!UICONTROL Geosegmentation Report] consente di filtrare per area geografica. Altri filtri sono disponibili per i rapporti specifici.
 
 Quando accedi a questi filtri, puoi visualizzare le metriche dei rapporti per gli elementi specificati nell’elenco.
 
 **Creazione di filtri specifici per i rapporti**
 
-1. Genera un rapporto, ad esempio un [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
-1. Nell’intestazione del rapporto, fai clic sul collegamento **[!UICONTROL Filter]** .
-1. Nella pagina [!UICONTROL Filter Selector] , fai clic su **[!UICONTROL Apply a Filter]**, quindi seleziona un tipo di filtro.
-1. Per cercare un elemento, digitare una stringa di caratteri nel campo **[!UICONTROL Search]**.
+1. Genera un report, ad esempio un [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
+1. Nell’intestazione del rapporto, fai clic sul pulsante **[!UICONTROL Filter]** link.
+1. Sulla [!UICONTROL Filter Selector] pagina, fai clic su **[!UICONTROL Apply a Filter]**, quindi seleziona un tipo di filtro.
+1. Per cercare un elemento, digitare una stringa di caratteri nel **[!UICONTROL Search]** campo .
 1. Fai clic su **[!UICONTROL OK]**.
 
 ## Aggiungere un filtro di correlazione {#task_065042E384DA4BF3864C58AF2B88D6E2}
@@ -169,13 +171,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-Alcuni rapporti consentono di aggiungere filtri di correlazione personalizzati. Ad esempio, se visualizzi la sezione [!UICONTROL Pages Report] per una suite di rapporti con sezioni del sito correlate a una pagina Donne, puoi creare una regola di filtro che genera un rapporto che mostra le pagine più popolari quando Sezioni del sito = Donne.
+Alcuni rapporti consentono di aggiungere filtri di correlazione personalizzati. Ad esempio, se visualizzi il [!UICONTROL Pages Report] per una suite di rapporti con sezioni del sito correlate a una pagina Donne, puoi creare una regola di filtro che genera un rapporto che mostra le pagine più popolari quando Sezioni del sito = Donne.
 
 Puoi filtrare i dati visualizzati in un rapporto di correlazione utilizzando qualsiasi correlazione disponibile. L’esempio seguente mostra come aggiungere un filtro di correlazione del motore di ricerca.
 
 **Per aggiungere un filtro di correlazione**
 
-1. Esegui un rapporto che supporta le correlazioni. (Consultare [Esecuzione di un rapporto di suddivisione](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. Nell’intestazione del rapporto, fai clic sul collegamento **[!UICONTROL Correlation Filter]** .
-1. In [!UICONTROL Filter Rule Creator], seleziona una categoria da correlare a un elemento.
+1. Esegui un rapporto che supporta le correlazioni. (Vedi [Esecuzione di un rapporto di suddivisione](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. Nell’intestazione del rapporto, fai clic sul pulsante **[!UICONTROL Correlation Filter]** link.
+1. Sotto [!UICONTROL Filter Rule Creator], seleziona una categoria da correlare a un elemento.
 1. Fai clic su **[!UICONTROL OK.]**

@@ -5,21 +5,23 @@ uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
 # Funzioni rapporto
+
+{{ra-eol}}
 
 Introduzione alle funzioni di un rapporto, inclusi la barra degli strumenti, il calendario e la tabella dei dettagli.
 
 Questo esempio mostra un [!UICONTROL Pages Report]. Le opzioni di configurazione possono variare a seconda del rapporto eseguito. Ad esempio, anziché selezionare Con tendenze o con classifica in un [!UICONTROL Site Content] puoi specificare la granularità e il nome della pagina di un rapporto [!UICONTROL Site Metrics] rapporto.
 
 >[!IMPORTANT]
->Efficace **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le funzionalità di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
+>A partire dal **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
 
 ## Report delle pagine di esempio {#section_288CC85536684C2DB184141358481EF0}
 

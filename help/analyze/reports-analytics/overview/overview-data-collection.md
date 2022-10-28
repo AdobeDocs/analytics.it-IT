@@ -3,17 +3,19 @@ description: Scopri come vengono raccolti i dati per Adobe Analytics.
 subtopic: Get started
 title: Informazioni sulla raccolta di dati regionali
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 5%
+source-wordcount: '173'
+ht-degree: 3%
 
 ---
 
 # Informazioni sulla raccolta di dati regionali
+
+{{ra-eol}}
 
 Scopri come vengono raccolti i dati per Adobe Analytics.
 
@@ -27,6 +29,6 @@ Ad un livello elevato, il processo di raccolta dei dati procede come segue:
 1. Al caricamento della pagina, il codice di raccolta dati invia una richiesta di immagine (chiamata web beacon) ai server di raccolta dati di Adobe. La richiesta di immagine contiene i dati che desideri raccogliere sull’interazione del visitatore con il tuo sito web.
 1. Adobe memorizza i dati nelle suite di rapporti. Puoi accedere per accedere ai dati della suite di rapporti e generare rapporti relativi all’attività del visitatore sul tuo sito web.
 
-La raccolta dei dati è molto rapida e non influisce in modo significativo sui tempi di caricamento delle pagine. I dati raccolti includono le visualizzazioni di pagina risultanti dal clic dei pulsanti del browser **Ricarica** o **Indietro** . Il codice JavaScript viene eseguito anche quando la pagina viene recuperata dalla cache.
+La raccolta dei dati è molto rapida e non influisce in modo significativo sui tempi di caricamento delle pagine. I dati raccolti includono le visualizzazioni di pagina risultanti dal clic sul browser **Ricarica** o **Indietro** pulsanti. Il codice JavaScript viene eseguito anche quando la pagina viene recuperata dalla cache.
 
-Consulta [Raccolta dati in Analytics.](/help/import/home.md)
+Vedi [Raccolta dati in Analytics.](/help/import/home.md)

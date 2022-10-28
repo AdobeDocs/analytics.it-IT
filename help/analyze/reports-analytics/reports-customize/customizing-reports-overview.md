@@ -2,17 +2,19 @@
 description: Dopo aver eseguito un rapporto, puoi personalizzare il rapporto per visualizzare e analizzare i dati in base alle tue esigenze. Puoi filtrare i dati dei rapporti, modificare il modo in cui i dati vengono presentati graficamente, modificare la granularità della data e così via.
 title: Panoramica della personalizzazione dei rapporti
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 5%
+source-wordcount: '865'
+ht-degree: 6%
 
 ---
 
 # Panoramica della personalizzazione dei rapporti
+
+{{ra-eol}}
 
 Dopo aver eseguito un rapporto, puoi personalizzare il rapporto per visualizzare e analizzare i dati in base alle tue esigenze. Puoi filtrare i dati dei rapporti, modificare il modo in cui i dati vengono presentati graficamente, modificare la granularità della data e così via.
 
@@ -38,7 +40,7 @@ Solo gli amministratori possono creare un rapporto personalizzato. Quando crei u
 
 >[!MORELIKETHIS]
 >
->* [Personalizzazione del menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
+>* [Personalizzazione del menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=it)
 
 
 ## Selezionare un intervallo di date o date {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -57,7 +59,7 @@ Quando apri una dashboard con minirapporti che hanno intervalli di date diversi,
 
 **Per selezionare un intervallo di date**
 
-1. Esegui un report.
+1. Esegui un rapporto.
 1. Fai clic sull&#39;icona del calendario in alto a destra.
 1. Seleziona una data.
 
@@ -90,7 +92,7 @@ Non è possibile confrontare date tra rapporti con tendenze.
 
 Per confrontare date tra rapporti classificati in Reporting e analisi:
 
-1. Esegui un report.
+1. Esegui un rapporto.
 1. Fai clic sul calendario in alto a destra.
 1. Fai clic su **[!UICONTROL Compare Dates]**.
 1. Seleziona le date da utilizzare.
@@ -108,7 +110,7 @@ t_reports_graph_percent.xml
 
 Questa visualizzazione è disponibile anche nei reportlet del dashboard.
 
-1. Esegui un rapporto che supporta le percentuali, ad esempio un [!UICONTROL Pages Report].
+1. Eseguire un rapporto che supporta le percentuali, ad esempio [!UICONTROL Pages Report].
 1. Fai clic su **[!UICONTROL Percent Shown As: Graph]**.
 
 ## Normalizzare i dati del report {#task_8005B55E59BD479DA67BC618FF8BC94A}
@@ -126,7 +128,7 @@ Dopo aver eseguito un rapporto con date confrontate o per confronti A/B, puoi no
 **normalizzazione dei dati del rapporto**
 
 1. Esegui un rapporto che supporta i confronti tra date.
-1. Fai clic su **[!UICONTROL Compare Dates]**, quindi specifica il confronto delle date.
+1. Fai clic su **[!UICONTROL Compare Dates]**, quindi specifica il confronto tra date.
 1. Fai clic su **[!UICONTROL Run Report]**.
 1. Fai clic su **[!UICONTROL Normalize Data: Yes]**.
 
@@ -140,9 +142,9 @@ t_reports_select_page.xml
 
  -->
 
-1. Genera un rapporto, ad esempio un [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Page Views]**).
-1. Fai clic sul collegamento **[!UICONTROL Selected Page]** .
-1. In [!UICONTROL Choose Page], selezionare le pagine da visualizzare.
+1. Genera un report, ad esempio un [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Page Views]**).
+1. Fai clic sul pulsante **[!UICONTROL Selected Page]** link.
+1. On [!UICONTROL Choose Page], seleziona le pagine da visualizzare.
 1. Individua la pagina.
 1. Fai clic su **[!UICONTROL OK.]**
 
@@ -173,7 +175,7 @@ Oltre alla visualizzazione grafica, la tabella del rapporto fornisce un confront
 **Confronto delle suite di rapporti**
 
 1. Genera un rapporto che ti consente di confrontare i rapporti.
-1. Fai clic sul collegamento **[!UICONTROL Compare to Site]** .
+1. Fai clic sul pulsante **[!UICONTROL Compare to Site]** link.
 1. Individua la suite di rapporti.
 1. Fai clic su **[!UICONTROL OK.]**
 
@@ -187,12 +189,12 @@ t_reports_granularity.xml
 
  -->
 
-Il periodo di tempo del rapporto determina quali opzioni di granularità sono disponibili. Ad esempio, è possibile selezionare solo **[!UICONTROL Hourly]** se è stato selezionato uno o due intervalli di tempo. È possibile selezionare solo la granularità **[!UICONTROL Yearly]** se sono stati selezionati più di un anno.
+Il periodo di tempo del rapporto determina quali opzioni di granularità sono disponibili. Ad esempio, puoi selezionare solo **[!UICONTROL Hourly]** se è selezionato un intervallo di tempo di uno o due giorni. Puoi selezionare solo **[!UICONTROL Yearly]** granularità se hai selezionato più di un anno.
 
 **Per specificare la granularità del rapporto**
 
-1. Genera un rapporto con tendenze, ad esempio **[!UICONTROL Site Content]** > **[!UICONTROL Pages.]**
-1. Fai clic sul collegamento **[!UICONTROL View by]** , quindi fai clic su una granularità.
+1. Generare un rapporto con tendenze, ad esempio **[!UICONTROL Site Content]** > **[!UICONTROL Pages.]**
+1. Fai clic sul pulsante **[!UICONTROL View by]** , quindi fai clic su una granularità.
 
 ## Eseguire un rapporto giornaliero della settimana {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
@@ -207,11 +209,11 @@ t_reports_day_of_week.xml
 Questa funzione si applica solo ai report con tendenze filtrati con un intervallo di date di Settimana o Giorno.
 
 1. Esegui un rapporto con tendenze su un intervallo di date specificato.
-1. Fai clic sul collegamento **[!UICONTROL Day of Week]**, quindi fai clic su un giorno.
+1. Fai clic sul pulsante **[!UICONTROL Day of Week]** , quindi fai clic su un giorno.
 
 ## Pulsante &quot;Prova in Workspace&quot; {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
-Facendo clic sul pulsante **[!UICONTROL Try In Workspace]** nella parte superiore di un rapporto, lo stesso verrà caricato in Analysis Workspace.
+Fai clic su **[!UICONTROL Try In Workspace]** nella parte superiore di un rapporto viene caricato lo stesso rapporto in Analysis Workspace.
 
 <!-- 
 
@@ -223,4 +225,4 @@ La maggior parte dei rapporti in Reports &amp; Analytics ora include un pulsante
 
 Attualmente, il pulsante è disponibile solo se il tuo nome utente dispone dei diritti completi su Analysis Workspace.
 
-Per ulteriori informazioni su come personalizzare il rapporto, consulta la guida [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) .
+Per ulteriori informazioni su come personalizzare il rapporto, consulta la [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it) guida.

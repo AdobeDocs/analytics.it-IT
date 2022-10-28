@@ -5,19 +5,21 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
 # Menu Rapporti{#reports-menu}
 
+{{ra-eol}}
+
 Panoramica del menu Rapporti in Reporting e analisi.
 
 >[!IMPORTANT]
->Efficace **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le funzionalità di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
+>A partire dal **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
 
 Il menu Rapporti fornisce:
 
@@ -95,7 +97,7 @@ Premere il tasto Tab o il tasto freccia Giù (?) per spostarsi nell’elenco dei
    <td colname="col2"> Qui trovi i dieci rapporti o dashboard più recenti a cui hai effettuato l’accesso negli ultimi 90 giorni. Puoi trovare facilmente la strada per tornare a un passaggio precedente nell’analisi o nel reporting. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol"> Scarica</span> </td> 
+   <td colname="col1"><span class="uicontrol"> Download (Scarica)</span> </td> 
    <td colname="col2">Consente di scaricare il rapporto nei formati PDF, CSV, Excel e Word. </td> 
   </tr> 
   <tr> 
@@ -116,7 +118,7 @@ Premere il tasto Tab o il tasto freccia Giù (?) per spostarsi nell’elenco dei
   </tr> 
   <tr> 
    <td colname="col1">Selettore suite di rapporti <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Consente di selezionare <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=it"  > suite di rapporti di base</a> o <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  > suite di rapporti virtuali</a>. </td> 
+   <td colname="col2">Consente di selezionare <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=it"  > suite di rapporti di base</a> o <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it"  > suite di rapporti virtuali</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendario <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -127,4 +129,4 @@ Premere il tasto Tab o il tasto freccia Giù (?) per spostarsi nell’elenco dei
 
 ## Personalizzazione del menu Tutti i report {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Gli amministratori possono modificare i rapporti contenuti nel menu Rapporti . Vedi [Personalizzazione del menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) nell’Aiuto dell’amministratore.
+Gli amministratori possono modificare i rapporti contenuti nel menu Rapporti . Vedi [Personalizzazione del menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=it) nell’Aiuto dell’amministratore.

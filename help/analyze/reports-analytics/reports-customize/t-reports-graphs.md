@@ -2,17 +2,19 @@
 description: Passaggi che descrivono come personalizzare il grafico in modo che sia più utile per il pubblico a cui è destinato.
 title: Modificare i grafici dei rapporti
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Nozioni di base su Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 2%
+source-wordcount: '565'
+ht-degree: 1%
 
 ---
 
 # Modificare i grafici dei rapporti
+
+{{ra-eol}}
 
 Passaggi che descrivono come personalizzare il grafico in modo che sia più utile per il pubblico a cui è destinato.
 
@@ -20,7 +22,7 @@ Il tipo di grafico disponibile dipende dal tipo di rapporto eseguito. Ad esempio
 
 **Per modificare un grafico dei rapporti**
 
-1. Esegui un report.
+1. Esegui un rapporto.
 1. Fai clic su **[!UICONTROL Configure Graph]**.
 1. Seleziona un tipo di grafico.
 
@@ -28,7 +30,7 @@ Il tipo di grafico disponibile dipende dal tipo di rapporto eseguito. Ad esempio
 
    ![](assets/graph_trend_line.png)
 
-   **[!UICONTROL Smooth Line]**: Usa questo tipo di grafico con  [!UICONTROL Video Detail Report]. Mostra i numeri o le percentuali di visualizzazioni per segmenti specifici di un video. Un aumento delle visualizzazioni per un segmento specifico del video indica che gli utenti hanno riavvolto e visualizzato più volte quella sezione del video. Se utilizzi percentuali, la percentuale visualizzata nel grafico è una percentuale di tutti i segmenti visualizzati, non una percentuale di visualizzatori che hanno visto il segmento. Ad esempio, nel grafico la somma di tutti i segmenti del rapporto è 39. Il numero di visualizzazioni per il segmento da 0 a 10 secondi è 10. Pertanto, la percentuale di visualizzazioni per questo segmento è approssimativamente il 26%.
+   **[!UICONTROL Smooth Line]**: Utilizza questo tipo di grafico con [!UICONTROL Video Detail Report]. Mostra i numeri o le percentuali di visualizzazioni per segmenti specifici di un video. Un aumento delle visualizzazioni per un segmento specifico del video indica che gli utenti hanno riavvolto e visualizzato più volte quella sezione del video. Se utilizzi percentuali, la percentuale visualizzata nel grafico è una percentuale di tutti i segmenti visualizzati, non una percentuale di visualizzatori che hanno visto il segmento. Ad esempio, nel grafico la somma di tutti i segmenti del rapporto è 39. Il numero di visualizzazioni per il segmento da 0 a 10 secondi è 10. Pertanto, la percentuale di visualizzazioni per questo segmento è approssimativamente il 26%.
 
    ![](assets/graph_smooth_line.png)
 
