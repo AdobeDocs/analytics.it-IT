@@ -5,10 +5,10 @@ uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 9%
+source-wordcount: '185'
+ht-degree: 8%
 
 ---
 
@@ -20,18 +20,18 @@ Quando crei o modifichi una nuova richiesta, vengono effettuate chiamate API per
 
 Per abilitare la modalità offline:
 
-1. Fare clic su **[!UICONTROL Options]** nel menu Report Builder.
+1. Fai clic su **[!UICONTROL Options]** nel menu Report Builder.
 
-   ![](assets/offline_mode.png)
+   ![Modalità offline](assets/offline_mode.png)
 
 1. Spunta la casella di controllo accanto a **[!UICONTROL Turn on offline mode for creating and editing requests]**.
-1. Nel campo **[!UICONTROL Display Metric Data as]** , inserisci i dati segnaposto che desideri restituire nella richiesta. Ad esempio, immettere &quot;1&quot;.
+1. In **[!UICONTROL Display Metric Data as]** immettere i dati segnaposto da restituire nella richiesta. Ad esempio, immettere &quot;1&quot;.
 1. Fai clic su **[!UICONTROL OK]**.
 1. Ora crea ed esegui la richiesta (in modalità offline) utilizzando la Creazione guidata richieste.
 1. La tua richiesta con &quot;1&quot; come dati del segnaposto sarà simile alla seguente:
 
-   ![](assets/offline_mode_example.png)
+   ![Esempio di modalità offline](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >
-   >Assicurati di disabilitare la modalità offline prima di eseguire le richieste con dati reali. Per farlo, torna a **[!UICONTROL Options]** e rimuovi il segno di spunta.
+   >Assicurati di disabilitare la modalità offline prima di eseguire le richieste con dati reali. Per farlo, torna a **[!UICONTROL Options]** e rimuovere il segno di spunta.

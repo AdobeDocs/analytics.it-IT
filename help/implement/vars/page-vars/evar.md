@@ -1,16 +1,16 @@
 ---
-title: Variabili eVar
+title: eVar (variabile)
 description: Variabili personalizzate che puoi utilizzare nell’implementazione.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 2%
 
 ---
 
-# eVar
+# eVar 
 
 *Questa pagina di aiuto descrive come implementare le eVar. Per informazioni sul funzionamento delle eVar come dimensioni, consulta [eVar](/help/components/dimensions/evar.md) nella guida utente Componenti .*
 
@@ -20,11 +20,11 @@ Il numero di eVar disponibili dipende dal contratto con l’Adobe. Sono disponib
 
 ## Configurare eVar nelle impostazioni della suite di rapporti
 
-Prima di utilizzare le eVar nell’implementazione, assicurati di configurare ogni eVar nelle impostazioni della suite di rapporti. Vedi [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nella guida Amministratore.
+Prima di utilizzare le eVar nell’implementazione, accertati di configurare ogni eVar nelle impostazioni della suite di rapporti. Vedi [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nella guida Amministratore.
 
 ## eVar tramite l’SDK per web
 
-Le eVar sono [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nei campi XDM `_experience.analytics.customDimensions.eVars.eVar1` a `_experience.analytics.customDimensions.eVars.eVar250`.
+Le eVar sono [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nei campi XDM `_experience.analytics.customDimensions.eVars.eVar1` a `_experience.analytics.customDimensions.eVars.eVar250`.
 
 ## eVar tramite l’estensione Adobe Analytics
 

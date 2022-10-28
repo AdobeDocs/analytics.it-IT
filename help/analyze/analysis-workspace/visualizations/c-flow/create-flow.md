@@ -4,10 +4,10 @@ title: Configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 89%
+source-wordcount: '1247'
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ La nuova esperienza di [!UICONTROL flow] migliora il flusso di lavoro in diversi
 
    * Utilizza il menu a discesa per selezionare metriche o dimensioni.
    * Trascina gli elementi dall’elenco delle dimensioni o delle metriche.
-   * Utilizza la ricerca per trovare le metriche o la dimensione che stai cercando.
+   * Utilizza la ricerca per trovare la dimensione o la metrica che stai cercando.
 
    Ad esempio, supponiamo che tu desideri tracciare tutto ciò che porta a un evento di pagamento. Trascinerai una dimensione o una metrica relativa al pagamento (ad esempio [!UICONTROL Order exists]) nella zona di rilascio **[!UICONTROL Ends with]**.
 

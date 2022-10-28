@@ -1,11 +1,11 @@
 ---
 title: Definire i primi 5 KPI
-description: Assicurati che gli indicatori di prestazioni chiave e le metriche e dimensioni associate siano allineati in base alle tue esigenze aziendali.
+description: Assicurati che gli indicatori prestazioni chiave e le metriche e dimensioni associate siano in linea con le tue esigenze aziendali.
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 3%
 
 ---

@@ -1,18 +1,18 @@
 ---
-description: Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati innanzitutto di conoscere bene le etichette e le relative definizioni.
+description: Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti.
 title: Etichettare i dati della suite di rapporti
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '947'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '950'
+ht-degree: 97%
 
 ---
 
 # Etichettare i dati della suite di rapporti
 
-Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati innanzitutto di conoscere bene le etichette e le relative definizioni.
+Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati innanzitutto di acquisire familiarità con le etichette e le relative definizioni.
 
 >[!NOTE]
 >
@@ -22,11 +22,11 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
 **Esempio**: in qualità di titolare del trattamento dei dati, pianifica di raccogliere gli indirizzi e-mail e gli ID cookie delle persone interessate per elaborare le loro richieste di Privacy dei dati. Gli ID cookie vengono archiviati in una suite di rapporti in Adobe Analytics. Per creare un&#39;etichetta per gli indirizzi e-mail e gli ID cookie, devi usare il framework DULE (Data Usage Labeling &amp; Enforcement, Etichettatura e applicazione dell&#39;uso dei dati) di Adobe Cloud Platform in Analytics.
 
-1. In Analytics, passa a **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
+1. In Analytics, passa a **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]** ![Impostazioni privacy](assets/privacy_rs_settings.png)
 
 1. Seleziona il gruppo di variabili che vuoi etichettare.
 
-   ![](assets/variables.png)
+   ![Variabili](assets/variables.png)
 
    * **Dimensioni standard** (dimensioni predefinite per Adobe Analytics)
    * **Metriche standard** (metriche predefinite per Adobe Analytics)
@@ -39,11 +39,11 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
 1. (Facoltativo) Fai clic sull&#39;icona delle informazioni (i) accanto a ciascuna variabile per avere maggiori informazioni sui valori più comuni oltre i 90 giorni. (Questa funzionalità non è disponibile per le dimensioni di elaborazione dei dati, perché queste non sono disponibili nell&#39;interfaccia utente di Analytics).
 
-   ![](assets/info.png)
+   ![Info](assets/info.png)
 
 1. Seleziona una o più variabili facendo clic sulle relative caselle di controllo, quindi seleziona l’icona **[!UICONTROL Edit]** (a destra) per modificare una o più variabili.
 
-   ![](assets/edit.png)
+   ![Modifica](assets/edit.png)
 
 1. Si apre automaticamente la finestra di dialogo delle etichette **dati di identità**. Queste etichette classificano i dati che possono essere usati da soli o in combinazione con altri dati per identificare o consentire un contatto diretto con una persona. Per altre informazioni su queste opzioni, fai riferimento alle [etichette dei dati di identità (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
@@ -51,15 +51,15 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
    >
    >Il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione dell’uso dei dati) è progettato per fornire un metodo uniforme per soluzioni/servizi/piattaforme al fine di acquisire, comunicare e usare i metadati sui dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, dati sensibili e vincoli di contratto associati a questi.
 
-   ![](assets/identity_labels.png)
+   ![Etichette di identità](assets/identity_labels.png)
 
 1. Apri la sezione **Sensitive Data** (Dati sensibili) per impostare le etichette dei dati sensibili, che organizzano in categorie i dati di geolocalizzazione. Per altre informazioni su queste opzioni, fai riferimento alle [etichette per i dati sensibili (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
-   ![](assets/sensitive_data.png)
+   ![Dati sensibili](assets/sensitive_data.png)
 
 1. Apri la sezione Dati Privacy dei dati per impostare le etichette di **governance dei dati**. Usa questa sezione per dare istruzioni ad Adobe su come gestire le variabili per le richieste di accesso e di cancellazione della Privacy dei dati, nonché per definire le variabili da esaminare per trovare gli ID delle persone interessate per queste richieste. Per altre informazioni su queste opzioni, fai riferimento alle [Etichette di governance dei dati (Privacy dei dati).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
-   ![](assets/privacy_labels.png)
+   ![Etichette per la privacy](assets/privacy_labels.png)
 
 1. Una volta terminata l’etichettatura fai clic su **[!UICONTROL Apply]**.
 
@@ -71,7 +71,7 @@ Se vuoi applicare le stesse impostazioni DULE/Privacy dei dati a più di una sui
 1. Seleziona alcune o tutte le variabili del gruppo.
 1. Fai clic su **[!UICONTROL Copy Labels to Report Suite(s)]** nella parte in alto a destra della finestra di dialogo Governance dei dati.
 
-   ![](assets/apply_as_template.png)
+   ![Applica come modello](assets/apply_as_template.png)
 
 1. Oppure spunta **[!UICONTROL Select All]** per copiare le etichette per le variabili selezionate in tutte le suite di rapporti oppure seleziona le singole suite di rapporti in di cui desideri copiare le etichette.
 

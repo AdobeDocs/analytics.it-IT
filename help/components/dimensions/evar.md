@@ -1,16 +1,16 @@
 ---
-title: eVar per Dimension
-description: Una dimensione personalizzata utilizzabile nel reporting.
+title: eVar (dimensione)
+description: Una dimensione personalizzata che puoi utilizzare nel reporting.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '783'
 ht-degree: 4%
 
 ---
 
-# eVar
+# eVar 
 
 *Questa pagina di aiuto descrive il funzionamento delle eVar come una dimensione. Per informazioni su come implementare le eVar, vedi [eVar](/help/implement/vars/page-vars/evar.md) nella guida utente Implementa .*
 

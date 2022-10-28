@@ -3,9 +3,9 @@ title: Revisione mirata (dopo ogni rilascio del sito web)
 description: Segui questi passaggi per garantire che l’implementazione rimanga priva di errori e in linea con i KPI.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '513'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ Perché dovresti rivedere la tua implementazione ogni qualche mese? È quindi po
 
 Conoscere i primi 5 indicatori di prestazioni chiave (KPI, Key Performance Indicators) ti aiuterà a determinare le metriche e le dimensioni associate che devi esaminare. Se non hai aggiornato i KPI negli ultimi 6 mesi o se la tua azienda non ha ancora creato i KPI, segui [queste istruzioni](/help/implement/review/define-kpis.md).
 
-## 2. Assicurati che le metriche e le variabili KPI funzionino ancora bene
+## 2. Assicurati che le metriche e le variabili KPI continuino a funzionare bene
 
-Gli aggiornamenti del codice nel tempo possono avere ramificazioni non desiderate. Assicurati che tutte le metriche e le dimensioni associate al tuo [primi 5 KPI](/help/implement/review/define-kpis.md) funzionano ancora correttamente. Idealmente, questo dovrebbe essere fatto subito dopo il rilascio di un sito web; se non lo hai fatto negli ultimi mesi, fallo *now*. Per eseguire questa operazione:
+Gli aggiornamenti del codice nel tempo possono avere ramificazioni non desiderate. Assicurati che tutte le metriche e le dimensioni associate al tuo [primi 5 KPI](/help/implement/review/define-kpis.md) funziona ancora correttamente. Idealmente, questo viene fatto subito dopo il rilascio di un sito web; se non lo hai fatto negli ultimi mesi, fallo *now*. Per eseguire questa operazione:
 
 * Crea dashboard per visualizzare le visualizzazioni con tendenze orarie di queste metriche e variabili critiche (o configura) [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) per ogni metrica). Poi monitorali per uno o due giorni per assicurarti di ottenere i dati previsti e i dati sono corretti. Cercare i punti di flesso. Preparati a risolvere immediatamente eventuali problemi critici. Se riscontri delle discrepanze, cerca nel livello dati, nelle regole di gestione dei tag e nelle regole di elaborazione per scoprirne il motivo.
 * Esegui nuovamente il [Dashboard di stato di Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) per monitorare le tendenze generali delle metriche e delle variabili KPI.

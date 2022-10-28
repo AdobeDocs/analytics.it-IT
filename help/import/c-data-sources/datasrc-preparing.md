@@ -5,10 +5,10 @@ title: Preparazione all'utilizzo di Origini dati
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 88%
+source-wordcount: '568'
+ht-degree: 84%
 
 ---
 
@@ -48,7 +48,7 @@ Puoi definire più dimensioni dati per una metrica, ma ogni metrica deve fornire
 
 Dopo aver definito le dimensioni dati da utilizzare con un&#39;origine dati, integra i dati delle dimensioni nei rapporti di marketing mappandoli a una variabile. Usa i rapporti standard (ad esempio, Prodotto, Codice di tracciamento, Cerca parola chiave) o le variabili Traffico conversione (eVars).
 
-Quando utilizzi eVar, puoi usare eVar esistenti o nuove come dimensioni dati. Dopo aver selezionato un&#39;eVar per ricevere una dimensione dati da Origini dati, accertati di denominarla correttamente.
+Quando utilizzi eVar, puoi usare eVar esistenti o nuove come dimensioni dati. Dopo aver selezionato un eVar per ricevere una dimensione dati da Origini dati, accertati di denominarli in modo appropriato.
 
 Consulta [Eventi di successo](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) nell&#39;Aiuto di Analytics.
 

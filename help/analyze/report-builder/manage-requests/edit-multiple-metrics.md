@@ -4,9 +4,9 @@ title: Modificare le metriche in più richieste
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '542'
 ht-degree: 13%
 
 ---
@@ -29,7 +29,7 @@ Per aggiungere una o più metriche:
 1. Seleziona una o più richieste in Excel e fai clic con il pulsante destro del mouse per selezionare **[!UICONTROL Edit Metrics]**. Oppure fai clic su **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** per selezionare il gruppo di richieste da modificare.)
 1. Seleziona **[!UICONTROL Add Metric(s)]**e seleziona le metriche da aggiungere.
 
-   ![](assets/add_metric.png)
+   ![Aggiungi metrica](assets/add_metric.png)
 
 1. Aggiorna la richiesta per visualizzare i dati effettivi. Fino a quando non ti aggiorni, vedrai i dati offline.
 
@@ -50,9 +50,9 @@ Per sostituire una metrica
 
 1. Seleziona una o più richieste in Excel e fai clic con il pulsante destro del mouse per selezionare **[!UICONTROL Edit Metrics]**. Oppure fai clic su **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** per selezionare il gruppo di richieste da modificare.)
 
-1. Select **[!UICONTROL Replace Metric]**.
+1. Seleziona **[!UICONTROL Replace Metric]**.
 
-   ![](assets/replace_metric.png)
+   ![Sostituire la metrica](assets/replace_metric.png)
 
 1. Seleziona la metrica da sostituire e la metrica con cui sostituirla.
 1. Aggiorna la richiesta. Fino a quando non ti aggiorni, vedrai i dati offline.
@@ -72,7 +72,7 @@ Per rimuovere le metriche:
 
 1. Seleziona **[!UICONTROL Remove Metric(s)]**.
 
-   ![](assets/remove_metric.png)
+   ![Rimuovi metrica](assets/remove_metric.png)
 
 1. Seleziona una o più metriche da rimuovere dalla richiesta.
 1. Aggiorna la richiesta. Fino a quando non ti aggiorni, vedrai i dati offline.

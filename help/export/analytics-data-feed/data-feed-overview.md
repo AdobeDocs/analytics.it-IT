@@ -4,9 +4,9 @@ keywords: clickstream;feed dati;datafed;feed dati
 title: Panoramica sui feed dati di Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '559'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ I feed di dati sono un modo potente per estrarre dati grezzi da Adobe Analytics.
 
 ## Prerequisiti
 
-Prima di utilizzare i feed di dati, verifica di soddisfare tutti i seguenti requisiti.
+Prima di utilizzare i feed di dati, è necessario soddisfare tutti i seguenti requisiti.
 
 * Avere a portata di mano un sito FTP e le relative credenziali. I feed di dati possono essere inviati solo a una destinazione server. In genere, l’organizzazione fornisce le credenziali FTP. Adobe può fornire una posizione FTP con una quantità modesta di archiviazione su tua richiesta. Contatta l’Assistenza clienti per richiedere una destinazione FTP per i feed di dati.
 * Implementazione funzionante che invia dati ai server di raccolta dati di Adobe. Vedi [Convalidare e pubblicare un’implementazione](/help/implement/launch/validate-publish-prod.md) nella guida utente Implementa .
@@ -38,7 +38,7 @@ Prima di utilizzare i feed di dati, verifica di soddisfare tutti i seguenti requ
    * Date di inizio e fine: Seleziona una data di inizio da diversi giorni fa e oggi come data di fine.
 6. Compilare [!UICONTROL Destination] campi.
    * Tipo: FTP
-   * Host: Immetti l&#39;URL di destinazione FTP desiderato. Ad esempio, `ftp://ftp.omniture.com`.
+   * Host: Immetti l&#39;URL di destinazione FTP desiderato. Esempio: `ftp://ftp.omniture.com`.
    * Percorso: Può essere lasciato vuoto
    * Nome utente: Immetti il nome utente per accedere al sito FTP.
    * Password e conferma password: Immetti la password per accedere al sito FTP.

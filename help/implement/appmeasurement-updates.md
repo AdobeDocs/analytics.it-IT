@@ -3,10 +3,10 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
-workflow-type: ht
-source-wordcount: '2317'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '2315'
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ Data di rilascio: **10 aprile 2019**
 
 Data di rilascio: **22 febbraio 2019**
 
-* Il modulo Gestione dell&#39;audience è stato aggiornato a DIL 9.1. (AN-175255)
+* Il modulo Gestione dell’audience è stato aggiornato a DIL 9.1. (AN-175255)
 * Il criterio di sicurezza GTM non consente l’esecuzione del modulo Activity Map. (AN-174679)
 * AppMeasurement è stato migliorato per rispettare eventuali rinunce (opt-out) quando Identity Service non è approvato in consenso (opt-in). (AN-175259)
 
@@ -275,7 +275,7 @@ Aggiornato il **4 agosto 2016**
 
 >[!IMPORTANT]
 >
->La versione 1.6.0 del servizio [!DNL Experience Cloud] ID *richiede* [!DNL AppMeasurement] per [!DNL JavaScript] versione 1.6.3 o successiva. Se vuoi eseguire l’aggiornamento alla versione 1.6.0 del servizio Experience Cloud ID, assicurati di utilizzare la versione codice 1.6.3 di [!DNL AppMeasurement] o superiore.
+>La versione 1.6.0 del servizio [!DNL Experience Cloud] ID *richiede* [!DNL AppMeasurement] per [!DNL JavaScript] versione 1.6.3 o successiva. Se desideri effettuare l’aggiornamento alla versione 1.6.0 del servizio Experience Cloud ID, assicurati di utilizzare AppMeasurement 1.6.3 o versione successiva.
 
 ## Versione 1.6.2
 
@@ -456,7 +456,7 @@ Data di rilascio: **15 novembre 2013**
 Data di rilascio: **14 novembre 2013**
 
 * È stato aggiunto il supporto per la misurazione video [Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
-* È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
+* È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Versione 1.1.1
 

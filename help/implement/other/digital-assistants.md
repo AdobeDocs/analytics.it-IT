@@ -3,9 +3,9 @@ title: Implementazione di Analytics per gli assistenti digitali
 description: Implementa Adobe Analytics sugli assistenti digitali, ad esempio Amazon Alexa o Google Home.
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1265'
 ht-degree: 1%
 
 ---
@@ -84,9 +84,9 @@ Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
-## Sessions
+## Sessioni
 
-Poiché gli assistenti digitali sono conversazionali, spesso hanno il concetto di sessione. Ad esempio:
+Poiché gli assistenti digitali sono conversazionali, spesso hanno il concetto di sessione. Esempio:
 
 **Consumatore:** &quot;Ok Google, chiama un taxi per me&quot;
 
@@ -96,7 +96,7 @@ Poiché gli assistenti digitali sono conversazionali, spesso hanno il concetto d
 
 **Google:** &quot;Suona bene, il conducente sarà alle 8:30pm&quot;
 
-Le sessioni sono importanti per mantenere il contesto e aiutare a raccogliere più dettagli per rendere più naturale l&#39;assistente digitale. Quando si implementa Analytics su una conversazione, è necessario eseguire due operazioni all’avvio di una nuova sessione:
+Le sessioni sono importanti per mantenere il contesto e contribuire a raccogliere più dettagli per rendere più naturale l’assistente digitale. Quando si implementa Analytics su una conversazione, è necessario eseguire due operazioni all’avvio di una nuova sessione:
 
 1. **Audience Manager**: Ottieni i segmenti rilevanti di cui fa parte un utente in modo da poter personalizzare la risposta. (Ad esempio, questa persona attualmente può usufruire dello sconto multicanale).
 2. **Inviare una nuova sessione o un nuovo evento di avvio**: Quando invii la prima risposta ad Analytics, includi un evento di avvio. Di solito, questo può essere inviato impostando i dati contestuali di `a.LaunchEvent=1`.
@@ -178,4 +178,4 @@ I due punti iniziali e finali sono utili per la creazione dei segmenti. Ad esemp
 | Gioca &quot;Baby Shark&quot; | &quot;Ok, giocando a &#39;Baby Shark&#39; di PinkFong&quot; | ChangeSong | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
 | Modificare la playlist | &quot;Ok, quale playlist vuoi?&quot; | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
 | Riproduci la mia playlist di brani preferiti | &quot;Ok, riproduzione della playlist dei tuoi brani preferiti&quot; | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Disattiva musica | Nessuna risposta, la musica si spegne | Disattivato | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Disattiva musica | Nessuna risposta, la musica si spegne | Off | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |

@@ -3,9 +3,9 @@ title: Risoluzione dei problemi di implementazione JavaScript
 description: Scopri i problemi comuni e le best practice per la risoluzione dei problemi dell’implementazione JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ Questi due valori variabili sono considerati separati in Adobe Analytics. Tuttav
 Le implementazioni che popolano molte variabili con valori lunghi a volte possono incorrere in richieste di immagini troncate. Alcuni browser meno recenti, come Internet Explorer, impongono un limite di 2083 caratteri per gli URL delle richieste di immagini. Se l&#39;organizzazione deve affrontare richieste di immagini molto lunghe, prova quanto segue:
 
 * **Utilizzare il servizio Experience Cloud ID**: Le librerie AppMeasurement 1.4.1 e versioni successive inviano automaticamente richieste di immagini utilizzando HTTP POST se sono troppo lunghe. I dati inviati con questo metodo non vengono troncati indipendentemente dalla lunghezza. Vedi [Servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) per ulteriori informazioni.
-* **Utilizzare le regole di elaborazione**: [Regole di elaborazione](/help/admin/admin/c-processing-rules/processing-rules.md) può copiare i valori da una variabile a un&#39;altra. Questo metodo ti consente di evitare di impostare lo stesso valore in più variabili. Ad esempio:
+* **Utilizzare le regole di elaborazione**: [Regole di elaborazione](/help/admin/admin/c-processing-rules/processing-rules.md) può copiare i valori da una variabile a un&#39;altra. Questo metodo ti consente di evitare di impostare lo stesso valore in più variabili. Esempio:
 
    Esegui sempre:<br>
 Sovrascrivi il valore di prop1 con eVar1<br>

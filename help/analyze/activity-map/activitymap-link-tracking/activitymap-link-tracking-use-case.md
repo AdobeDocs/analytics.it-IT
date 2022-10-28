@@ -5,9 +5,9 @@ uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '363'
 ht-degree: 10%
 
 ---
@@ -57,13 +57,13 @@ Ad esempio, supponiamo che tu disponga di più collegamenti &quot;Acquista&quot;
    <td colname="col3">
      <br/>
      <br/>
-    pannello consigli<br/>
+    pannello di raccomandazione<br/>
      <br/>
      <br/>
-    pannello consigli<br/>
+    pannello di raccomandazione<br/>
      <br/>
      <br/>
-    pannello consigli<br/>
+    pannello di raccomandazione<br/>
      <br/>
      <br/>
    </td>
@@ -75,11 +75,12 @@ Come personalizzare la pagina web e i tag per differenziare i valori di questi c
 
 ## Personalizzare l’ID collegamento utilizzando s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Creando un ID oggetto univoco, `s_objectID`, per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento di Activity Map oppure utilizzare Activity Map per creare rapporti su un tipo o una posizione di collegamento, anziché sull’URL del collegamento. Fai clic [qui](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it) per ulteriori informazioni sulla variabile `s_objectID`.
+Creando un ID oggetto univoco, `s_objectID`, per un collegamento o una posizione di collegamento su una pagina, puoi migliorare il tracciamento di Activity Map oppure utilizzare Activity Map per creare rapporti su un tipo o una posizione di collegamento, anziché sull’URL del collegamento. Fai clic su [qui](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=it) per ulteriori informazioni sul `s_objectID` variabile.
 
 >[!IMPORTANT]
 >
->Tenere presente che è necessario un punto e virgola finale (`;`) quando si utilizza `s_objectID` in Activity Map.
+>Si noti che un punto e virgola finale (`;`) quando si utilizza `s_objectID` in Activity Map.
+
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -106,26 +107,26 @@ Creando un ID oggetto univoco, `s_objectID`, per un collegamento o una posizione
    <td colname="col2">
      <br/>
      <br/>
-    Product1<br/>
+    Prodotto1<br/>
      <br/>
      <br/>
-    Product2<br/>
+    Prodotto2<br/>
      <br/>
      <br/>
-    Product3<br/>
+    Prodotto3<br/>
      <br/>
      <br/>
    </td> 
    <td colname="col3">
      <br/>
      <br/>
-    pannello consigli<br/>
+    pannello di raccomandazione<br/>
      <br/>
      <br/>
-    pannello consigli<br/>
+    pannello di raccomandazione<br/>
      <br/>
      <br/>
-    pannello consigli<br/>
+    pannello di raccomandazione<br/>
      <br/>
      <br/>
    </td>
@@ -135,13 +136,13 @@ Creando un ID oggetto univoco, `s_objectID`, per un collegamento o una posizione
 
 ## Personalizzare la regione {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Puoi personalizzare la regione assicurandoti che ogni collegamento &quot;Acquista&quot; abbia la propria area geografica definita. Per farlo, aggiungi un parametro `"id"` a uno dei principali tag di ancoraggio &quot;Acquista&quot;.
+Puoi personalizzare la regione assicurandoti che ogni collegamento &quot;Acquista&quot; abbia la propria area geografica definita. Per farlo, aggiungi un `"id"` ad uno dei genitori di ogni tag di ancoraggio &quot;Buy&quot;.
 
 >[!NOTE]
->Non sei strettamente limitato al parametro `"id"` come identificatore di area. Puoi anche impostare un identificatore personalizzato utilizzando la variabile JavaScript `"s.ActivityMap.regionIDAttribute"`.
 >
->
-><table id="table_250DB52A869C466B942517BABA1C287B">
+>Non sei strettamente limitato al `"id"` come identificatore di regione. Puoi anche impostare un identificatore personalizzato utilizzando la variabile JavaScript `"s.ActivityMap.regionIDAttribute"`.
+
+<table id="table_250DB52A869C466B942517BABA1C287B">
  <thead>
   <tr>
    <th colname="col02" class="entry"> Esempio di codice </th>
@@ -197,11 +198,12 @@ Puoi personalizzare la regione assicurandoti che ogni collegamento &quot;Acquist
 ## Personalizzare il file del modulo ActivityMap di AppMeasurement {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
-Verifica che il codice modificato funzioni correttamente. Adobe non è responsabile del funzionamento del codice modificato.
+>
+>Verifica che il codice modificato funzioni correttamente. Adobe non è responsabile del funzionamento del codice modificato.
 
-Di seguito sono riportati un paio di esempi di funzioni di collegamento/area geografica **generiche** che è possibile includere (in formato modificato) nel file AppMeasurement.js.
+Ecco un paio di esempi di **generico** funzioni di collegamento/area geografica da includere (in formato modificato) nel file AppMeasurement.js.
 
-```
+```js
 s.ActivityMap.link = function(ele, linkName) {
   if (linkName) {
     return linkName;
@@ -214,9 +216,9 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-Il `linkName` viene passato durante le chiamate a `s.tl()`.
+La `linkName` viene passato durante le chiamate a `s.tl()`.
 
-```
+```js
 s.ActivityMap.region = function(ele) {
   var className,
   classNames = {
