@@ -3,16 +3,16 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 96488440c73acfdc015560012de5481368baed8a
+source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 94%
+source-wordcount: '1412'
+ht-degree: 93%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (ottobre/novembre 2022)
 
-**Ultimo aggiornamento**: 25 ottobre 2022
+**Ultimo aggiornamento**: 28 ottobre 2022
 
 I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -21,7 +21,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | Visualizzazione **[!UICONTROL Key metric summary]** | La visualizzazione [!UICONTROL Key metric summary] ti consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it) | 5 ottobre 2022 | 19 ottobre 2023 |
-| **Variabili multivalore senza distinzione tra maiuscole e minuscole** | Per le variabili multivalore senza distinzione tra maiuscole e minuscole, i valori memorizzati in `mvvar1` - `mvvar3` nei feed di dati non verranno più convertiti in minuscolo automaticamente. Al contrario, i feed di dati (e i dati trasmessi tramite il connettore di origine di Analytics ad Adobe Experience Platform e CJA) rifletteranno il carattere originale trasmesso dalla pagina. | N/D | 24 ottobre 2022 |
+| **Variabili con più valori senza distinzione tra maiuscole e minuscole** | Per le variabili multivalore senza distinzione tra maiuscole e minuscole, i valori memorizzati in `mvvar1 - mvvar3` e `post_mvvar1 - post_mvvar3` in Feed dati non verrà più abbassato automaticamente. Al contrario, i feed di dati (e i dati trasmessi tramite il connettore di origine di Analytics ad Adobe Experience Platform e CJA) rifletteranno il carattere originale trasmesso dalla pagina. | N/D | 24 ottobre 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
