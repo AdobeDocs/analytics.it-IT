@@ -3,10 +3,10 @@ description: I segmenti sequenziali vengono creati utilizzando l’operatore THE
 title: Creare segmenti sequenziali
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
 workflow-type: tm+mt
-source-wordcount: '3695'
-ht-degree: 99%
+source-wordcount: '3658'
+ht-degree: 97%
 
 ---
 
@@ -210,14 +210,7 @@ Crea un segmento come faresti per un segmento sequenziale semplice, a livello mi
 
 Se il punto di controllo di esclusione si trova all’inizio di un segmento sequenziale, ciò assicura che una visualizzazione di pagina esclusa non sia avvenuta prima del primo hit non escluso.
 
-**Esempio**: il visitatore ha visitato la pagina A e non la pagina B.
-
-**Casi di utilizzo**
-
-Di seguito sono riportati alcuni esempi di casi di utilizzo di questo tipo di segmento:
-
-* I visitatori che hanno visitato la pagina A e non la pagina B.
-* Un ristorante vuole vedere utenti abituali che evitano la pagina di destinazione principale e vanno direttamente alla pagina Ordina.
+Ad esempio, un ristorante vuole vedere utenti abituali che evitano la pagina di destinazione principale e visitano direttamente la pagina Ordina. Questo esempio può essere semplificato per un visitatore evitando di visitare la pagina A e andando direttamente alla pagina B.
 
 **Creare il segmento**
 
@@ -229,14 +222,7 @@ Crea due contenitori Hit separati all’interno di un contenitore Visitor di liv
 
 Se il punto di controllo di esclusione si trova alla fine di una sequenza, ciò assicura che il punto di controllo non si sia verificato tra l’ultimo punto di controllo non escluso e la fine della sequenza del visitatore.
 
-**Esempio**: i visitatori visitano la pagina A e non visitano la pagina B nella stessa visita o in visite successive.
-
-**Casi di utilizzo**
-
-Di seguito sono riportati alcuni esempi di utilizzo di questo tipo di segmento:
-
-* I visitatori che hanno visitato la pagina A e non la pagina B.
-* Un ristorante vuole vedere utenti abituali che evitano la pagina di destinazione principale e vanno direttamente alla pagina Ordina.
+Ad esempio, un negozio di abbigliamento vuole vedere tutti i visitatori che hanno visualizzato una pagina di prodotto ma non hanno mai visitato il carrello successivamente. Questo esempio può essere semplificato per un visitatore che va alla pagina A e poi non va mai alla pagina B nelle visite correnti o successive.
 
 **Creare il segmento**
 
