@@ -3,10 +3,10 @@ description: Scopri come utilizzare Reporting Activity Manager per diagnosticare
 title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 4%
+source-wordcount: '904'
+ht-degree: 5%
 
 ---
 
@@ -45,6 +45,8 @@ Quando si apre la pagina di panoramica di Reporting Activity Manager, viene visu
 | **[!UICONTROL Virtual Report Suite]** | Mostra tutte le suite di rapporti virtuali che si inseriscono in questa suite di rapporti di base. Le suite di rapporti virtuali aggiungono complessità alle richieste di reporting a causa di ulteriori livelli di filtro e segmentazione applicati. Tutte le richieste provenienti dalle suite di rapporti virtuali vengono combinate e vengono ridotte alla suite di rapporti di base.<p>Ad esempio, se hai 10 richieste provenienti da 5 VRS, sono 50 le richieste nella suite di rapporti a livello di base. In questo modo, si può raggiungere molto rapidamente la capacità. |
 | **[!UICONTROL Usage Capacity]** | In percentuale, quanta capacità di reporting della suite di rapporti viene utilizzata in tempo reale. |
 | **[!UICONTROL Status]** | Quattro possibili indicatori di stato: <ul><li>**Rosso -[!UICONTROL At Capacity]**: La suite di rapporti è composta in termini di capacità di reporting. (95% - 100%) </li><li>**Giallo -[!UICONTROL Nearing capacity]**: Questa suite di rapporti rischia di raggiungere la sua massima capacità. (90% - 94%)</li><li>**Verde -[!UICONTROL All good]**: La capacità di segnalazione è abbondante. (0% - 90%)</li><li>**Grigio -[!UICONTROL Status pending]**: ?</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Altre azioni dell’attività di reporting
 
