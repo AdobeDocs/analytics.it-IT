@@ -3,10 +3,10 @@ description: Scopri come utilizzare Reporting Activity Manager per diagnosticare
 title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
+source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 5%
+source-wordcount: '863'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Quando si apre la pagina di panoramica di Reporting Activity Manager, viene visu
 | **[!UICONTROL Report Suite]** | La suite di rapporti di base di cui stai monitorando l’attività di reporting. |
 | **[!UICONTROL Virtual Report Suite]** | Mostra tutte le suite di rapporti virtuali che si inseriscono in questa suite di rapporti di base. Le suite di rapporti virtuali aggiungono complessità alle richieste di reporting a causa di ulteriori livelli di filtro e segmentazione applicati. Tutte le richieste provenienti dalle suite di rapporti virtuali vengono combinate e vengono ridotte alla suite di rapporti di base.<p>Ad esempio, se hai 10 richieste provenienti da 5 VRS, sono 50 le richieste nella suite di rapporti a livello di base. In questo modo, si può raggiungere molto rapidamente la capacità. |
 | **[!UICONTROL Usage Capacity]** | In percentuale, quanta capacità di reporting della suite di rapporti viene utilizzata in tempo reale. |
-| **[!UICONTROL Status]** | Quattro possibili indicatori di stato: <ul><li>**Rosso -[!UICONTROL At Capacity]**: La suite di rapporti è composta in termini di capacità di reporting. (95% - 100%) </li><li>**Giallo -[!UICONTROL Nearing capacity]**: Questa suite di rapporti rischia di raggiungere la sua massima capacità. (90% - 94%)</li><li>**Verde -[!UICONTROL All good]**: La capacità di segnalazione è abbondante. (0% - 90%)</li><li>**Grigio -[!UICONTROL Status pending]**: ?</li></ul> |
+| **[!UICONTROL Status]** | Quattro possibili indicatori di stato: <ul><li>**Rosso -[!UICONTROL At Capacity]**: La suite di rapporti è composta in termini di capacità di reporting. (100%) </li><li>**Giallo -[!UICONTROL Nearing capacity]**: Questa suite di rapporti rischia di raggiungere la sua massima capacità. (90% - 99%)</li><li>**Verde -[!UICONTROL All good]**: La capacità di segnalazione è abbondante. (0% - 89%)</li><li>**Grigio -[!UICONTROL Status pending/Not enabled]**: Capacità del rapporto non disponibile.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -86,11 +86,11 @@ I numeri di riepilogo mostrano le seguenti informazioni:
 
 | Numero di riepilogo | Descrizione |
 | --- | --- |
-| Utenti | Quanti utenti stanno attualmente inviando richieste di reporting a questa suite di rapporti. |
-| Progetti | Progetti Workspace, cartelle di lavoro di Report Builder, ecc. |
-| Query | Numero di query attualmente in esecuzione. |
-| Tempo medio di attesa | Tempo medio di attesa per tutte le query in esecuzione. |
-| Capacità di utilizzo | La capacità di utilizzo corrente per questa suite di rapporti. |
+| [!UICONTROL Users] | Quanti utenti stanno attualmente inviando richieste di reporting a questa suite di rapporti. |
+| [!UICONTROL Projects] | Progetti Workspace, cartelle di lavoro di Report Builder, ecc. |
+| [!UICONTROL Queries] | Numero di query attualmente in esecuzione. |
+| [!UICONTROL Average Wait Time] | Tempo medio di attesa per tutte le query in esecuzione. |
+| [!UICONTROL Usage Capacity] | La capacità di utilizzo corrente per questa suite di rapporti. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -100,17 +100,17 @@ La tabella dettagliata seguente mostra i dettagli sulla suite di rapporti.
 
 | Colonna | Descrizione |
 | --- | --- |
-| ID query | Può essere utilizzato per la risoluzione dei problemi. |
-| Tempo di esecuzione | Per quanto tempo la query è in esecuzione. |
-| Tempo di attesa | Tempo di attesa della query prima dell’elaborazione. Generalmente a &quot;0&quot; quando c&#39;è abbastanza capacità. |
-| Ora di inizio | Quando la query ha iniziato l’elaborazione (ora locale dell’amministratore). |
-| Applicazione | Le applicazioni supportate da Reporting Activity Manager sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: Segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da API 1.4 o 2.0 (5 richieste simultanee)</li><li>Avvisi intelligenti</li></ul> |
-| Utente | Utente che ha avviato la query. |
-| Progetto | Progetti Workspace, cartelle di lavoro di Report Builder, ecc. |
-| Limiti del mese | Quanti confini mensili attraversa una richiesta. Questo aggiunge la complessità della richiesta. |
-| Colonne | Il numero di metriche e suddivisioni in Workspace per misurare la complessità della richiesta. |
-| Segmenti  | Quanti segmenti vengono applicati a questa richiesta. Questo aggiunge la complessità della richiesta. |
-| Stato | Quattro possibili indicatori di stato: <ul><li>**Rosso -[!UICONTROL At Capacity]**: La suite di rapporti è composta in termini di capacità di reporting. (95% e superiore)</li><li>**Giallo -[!UICONTROL Nearing capacity]**: Questa suite di rapporti rischia di raggiungere la sua capacità massima (90% - 95%).</li><li>**Verde -[!UICONTROL All good]**: La capacità di segnalazione è abbondante.</li><li>**[!UICONTROL Status pending]**: Stato non disponibile.</li></ul> |
+| [!UICONTROL Query ID] | Può essere utilizzato per la risoluzione dei problemi. |
+| [!UICONTROL Running Time] | Per quanto tempo la query è in esecuzione. |
+| [!UICONTROL Wait Time] | Tempo di attesa della query prima dell’elaborazione. Generalmente a &quot;0&quot; quando c&#39;è abbastanza capacità. |
+| [!UICONTROL Start Time] | Quando la query ha iniziato l’elaborazione (ora locale dell’amministratore). |
+| [!UICONTROL Application] | Le applicazioni supportate da Reporting Activity Manager sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: Segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi intelligenti</li></ul> |
+| [!UICONTROL User] | Utente che ha avviato la query. |
+| [!UICONTROL Project] | Nomi di progetto Workspace salvati, ID di report API e così via (I metadati possono variare tra le varie applicazioni). |
+| [!UICONTROL Month Boundaries] | Quanti confini mensili attraversa una richiesta. Questo aggiunge la complessità della richiesta. |
+| [!UICONTROL Columns] | Il numero di metriche e suddivisioni in Workspace per misurare la complessità della richiesta. |
+| [!UICONTROL Segments] | Quanti segmenti vengono applicati a questa richiesta. Questo aggiunge la complessità della richiesta. |
+| [!UICONTROL Status] | Indicatori di stato: <ul><li>**In esecuzione**: La richiesta è in fase di elaborazione.</li><li>**In sospeso**: Richiesta in attesa di elaborazione.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -134,6 +134,5 @@ Gli utenti di applicazioni in Workspace, ad esempio, vedranno il seguente avviso
 | Domanda | Risposta |
 | --- | --- |
 | Posso acquistare una capacità di reporting aggiuntiva? | Questa funzionalità sarà disponibile a breve. |
-| Altre domande? |  |
 
 {style=&quot;table-layout:auto&quot;}
