@@ -3,7 +3,7 @@ title: Creare un livello di dati
 description: Scopri cosa è un livello di dati nell’implementazione di Analytics e come può essere utilizzato per mappare le variabili in Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
+source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 3%
@@ -27,6 +27,7 @@ L’implementazione di Adobe Analytics tramite un livello dati in genere segue q
    >[!NOTE]
    >
    >Le specifiche dei livelli dati consigliate di Adobe sono facoltative. Se disponi già di un livello di dati, o in altro modo scegli di non seguire le specifiche di Adobe, assicurati che l&#39;organizzazione sia allineata alle specifiche da seguire.
+
 1. **Convalidare il livello dati utilizzando una console del browser**: Una volta creato un livello dati, puoi verificare che funzioni utilizzando qualsiasi console di sviluppo del browser. Puoi aprire la Developer Console nella maggior parte dei browser utilizzando `F12` chiave. Un valore variabile di esempio è `adobeDataLayer.page.title`.
 1. **Utilizzare la raccolta dati di Adobe Experience Platform per mappare gli oggetti del livello dati agli elementi dati**: Questo passaggio varia in base al metodo di implementazione della tua organizzazione:
    * **Se utilizzi l’SDK per web**: Mappa gli oggetti livello dati desiderati sui campi XDM desiderati in Adobe Experience Platform Edge. Vedi [Mappatura delle variabili di Analytics](../aep-edge/variable-mapping.md) per determinare la mappatura del livello dati desiderata.
