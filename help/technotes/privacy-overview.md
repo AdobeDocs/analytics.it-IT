@@ -4,10 +4,10 @@ keywords: privacy
 title: Panoramica sulla privacy
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 97%
+source-wordcount: '791'
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Analytics raccoglie i dati seguenti:
 | Sistema operativo | Sì |
 | Velocità di connessione/ISP | Sì |
 | Impostazioni di visualizzazione (ad esempio dimensioni e risoluzione dello schermo) | Sì |
-| Indirizzo IP (utilizzato per approssimare la posizione) | Sì* |
+| Indirizzo IP (utilizzato per approssimare la posizione) | Sì&#42; |
 | Informazioni fornite dai consumatori nei moduli sul sito del cliente | Sì |
 | Informazioni fornite dai consumatori nei moduli sui siti di social networking | **No** |
 | Se il consumatore ha fatto clic sull’annuncio | Sì |
@@ -49,7 +49,7 @@ Adobe Analytics raccoglie i dati seguenti:
 | Tassi di successo delle campagne pubblicitarie | Sì |
 | Informazioni sul prodotto, ad esempio colori, prezzi, stili, foto | Sì |
 
-*A meno che il cliente Adobe non scelga di rimuovere l’IP.
+&#42;A meno che il cliente Adobe non scelga di rimuovere l’IP.
 
 ## Altre considerazioni sulla privacy {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
@@ -103,7 +103,7 @@ Adobe Analytics raccoglie i dati seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Germania </td> 
-   <td colname="col2"> <p>Se i clienti non dispongono già di un accordo di elaborazione dati per Adobe Analytics stipulato con Adobe, devono contattare il proprio Adobe Account Manager o Customer Success Manager, che collaborerà con l’ufficio legale di Adobe per stipulare l’accordo. </p> <p>Adobe ha preparato un accordo sull’elaborazione dei dati (Vertrag fuer Auftragsdatenverarbeitung - ADV) per Analytics che è stato rivisto e approvato dall’Autorità bavarese per la protezione dei dati (Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA). L’ADV è disponibile in tedesco e in inglese. </p> </td> 
+   <td colname="col2"> <p>Se non hai già in vigore un accordo sull’elaborazione dei dati per Adobe Analytics con Adobe, contatta il tuo Account Manager di Adobe o il tuo Customer Success Manager, che collaborerà con l’Ufficio legale di Adobe per mettere in atto l’applicazione del DPA. </p> </td> 
   </tr> 
  </tbody> 
 </table>

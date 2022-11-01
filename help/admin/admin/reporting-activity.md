@@ -3,9 +3,9 @@ description: Scopri come utilizzare Reporting Activity Manager per diagnosticare
 title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '861'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ In Adobe Analytics, gli amministratori accedono a **[!UICONTROL Admin]** > **[!U
 
 ## Autorizzazioni
 
-Per gestire le attività di reporting è necessario disporre delle autorizzazioni di amministratore di sistema di Analytics. L&#39;accesso dell&#39;amministratore del prodotto non è sufficiente.
+Per gestire le attività di reporting è necessario disporre delle autorizzazioni di amministratore prodotto di Analytics.
 
 ## Visualizza la coda dei report
 
@@ -118,7 +118,7 @@ La tabella dettagliata seguente mostra i dettagli sulla suite di rapporti.
 
 Per annullare una richiesta
 
-1. Seleziona la casella a sinistra di uno o più **[!UICONTROL Query ID]** nella tabella e fai clic su **[!UICONTROL Cancel requests]** in basso.
+1. Seleziona la casella a sinistra di uno o più **[!UICONTROL Query ID]** nella tabella e fai clic su **[!UICONTROL Cancel requests]** in basso. (Puoi anche annullare le richieste in blocco visualizzando i dettagli per [!UICONTROL User], [!UICONTROL Project]oppure [!UICONTROL Application].)
 1. In **[!UICONTROL Cancel x query]** Se necessario, puoi modificare il messaggio di cancellazione.
 1. Fai clic su **[!UICONTROL Continue]**.
 
@@ -127,7 +127,6 @@ Per annullare una richiesta
 Gli utenti di applicazioni in Workspace, ad esempio, vedranno il seguente avviso comparire nei loro progetti:
 
 ![avviso-cancellazione](assets/cancel-user-facing.png)
-
 
 ## Domande frequenti
 
