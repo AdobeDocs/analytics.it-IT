@@ -4,8 +4,8 @@ keywords: evento
 title: Panoramica degli eventi di successo
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
-workflow-type: ht
+source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
+workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 100%
 

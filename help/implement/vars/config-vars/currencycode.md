@@ -3,10 +3,10 @@ title: Qual è la variabile currencyCode e come si utilizza?
 description: Per i siti di eCommerce, imposta la valuta in cui si trova la pagina.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 0%
+source-wordcount: '949'
+ht-degree: 1%
 
 ---
 
@@ -14,21 +14,24 @@ ht-degree: 0%
 
 Per i siti che utilizzano l’e-commerce, i ricavi e la valuta sono una parte importante di Analytics. Molti siti, soprattutto quelli che si estendono su più paesi, utilizzano valute diverse. Utilizza la `currencyCode` per assicurarti che i ricavi siano attribuiti alla valuta corretta.
 
-Se `currencyCode` non è definito, i valori monetari definiti [`products`](../page-vars/products.md) Gli eventi di variabile e valuta vengono trattati come se fossero uguali alla valuta della suite di rapporti. Vedi [Impostazioni account generali](/help/admin/admin/general-acct-settings-admin.md) nella guida utente Admin per visualizzare la valuta della suite di rapporti.
+La conversione della valuta utilizza la seguente logica su ogni hit. Questi passaggi si applicano ai valori dei ricavi impostati [`products`](../page-vars/products.md) e tutti gli eventi elencati come &quot;Valuta&quot; in [Eventi di successo](/help/admin/admin/c-success-events/success-event.md) in Impostazioni suite di rapporti .
 
-Se `currencyCode` è definito e corrisponde alla valuta della suite di rapporti, non viene applicata alcuna conversione di valuta.
+* Se `currencyCode` non è definito, l&#39;Adobe presuppone che tutti i valori di valuta siano la valuta della suite di rapporti. Vedi [Impostazioni account generali](/help/admin/admin/general-acct-settings-admin.md) in Impostazioni suite di rapporti per visualizzare la valuta della suite di rapporti.
+* Se `currencyCode` è definito e corrisponde alla valuta della suite di rapporti, non viene applicata alcuna conversione di valuta.
+* Se `currencyCode` è definito ed è diverso dalla valuta della suite di rapporti, ad Adobe applica una conversione di valuta in base al tasso di cambio del giorno corrente. partner di Adobe con [XE](https://xe.com) per convertire la valuta ogni giorno. Tutti i valori memorizzati nella suite di rapporti si trovano nella valuta della suite di rapporti.
+* Se `currencyCode` è impostato su un valore non valido, **l&#39;intero hit viene eliminato causando la perdita di dati.** Assicurati che questa variabile sia definita correttamente ogni volta che viene utilizzata.
 
-Se `currencyCode` è definito ed è diverso dalla valuta della suite di rapporti, ad Adobe applica una conversione di valuta in base al tasso di cambio del giorno corrente. partner di Adobe con [XE](https://xe.com) per convertire la valuta ogni giorno. Tutti i valori memorizzati nei server di raccolta dati vengono infine memorizzati nella valuta della suite di rapporti.
+Questa variabile non persiste tra i risultati. Assicurati che questa variabile sia definita in ogni pagina che include ricavi o eventi di valuta che non corrispondono alla valuta predefinita della suite di rapporti.
 
->[!WARNING]
+>[!NOTE]
 >
->Se `currencyCode` contiene un valore non valido. L&#39;intero hit viene eliminato causando la perdita di dati. Assicurati che questa variabile sia definita correttamente se la utilizzi nell&#39;implementazione.
+>Anche se i codici di valuta possono cambiare tra le pagine, tutte le metriche di valuta in un singolo hit devono utilizzare la stessa valuta.
 
-Questa variabile non persiste tra i risultati. Assicurati che questa variabile sia definita su ogni pagina che include ricavi o eventi di valuta.
+Un periodo **deve** utilizzare come separatore di valuta per tutte le valute quando si implementa questa variabile. Ad esempio, la corona svedese, che in genere visualizza un separatore di virgola, deve essere modificata per utilizzare un punto nel `products` e tutti gli eventi relativi alla valuta. In Adobe viene visualizzato il separatore di valuta corretto nel rapporto.
 
 ## Codice valuta tramite l’SDK per web
 
-Il codice della valuta è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nel campo XDM `commerce.order.currencyCode`.
+Il codice della valuta è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `commerce.order.currencyCode`.
 
 ## Codice valuta utilizzando l’estensione Adobe Analytics
 
@@ -53,7 +56,7 @@ Il codice valuta viene passato agli SDK di Adobe Experience Platform Mobile tram
 
 ## s.currencyCode in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
-La `s.currencyCode` è una stringa contenente un codice maiuscolo di 3 lettere che rappresenta la valuta nella pagina.
+La `s.currencyCode` è una stringa contenente un codice maiuscolo di 3 lettere che rappresenta la valuta nella pagina. I valori sono sensibili all’uso di maiuscole e minuscole.
 
 ```js
 s.currencyCode = "USD";
@@ -61,7 +64,7 @@ s.currencyCode = "USD";
 
 I seguenti codici valuta sono validi:
 
-| Codice della valuta | Descrizione valuta |
+| Codice della valuta | Etichetta |
 | --- | --- |
 | `AED` | Dirhams degli Emirati Arabi Uniti |
 | `AFA` | Afghanistan afgani |
