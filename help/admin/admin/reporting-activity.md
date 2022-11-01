@@ -3,9 +3,9 @@ description: Scopri come utilizzare Reporting Activity Manager per diagnosticare
 title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
+source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '855'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 >
 >Questa funzionalità è attualmente in fase di beta testing.
 
-Reporting Activity Manager consente di visualizzare la capacità di reporting per ogni suite di rapporti dell&#39;organizzazione. In qualità di Amministratore, offre una visibilità dettagliata sul consumo dei rapporti e ti aiuta a diagnosticare e risolvere facilmente i problemi di capacità durante i periodi di picco dei rapporti.
+La [!UICONTROL Reporting Activity Manager] ti consente di visualizzare la capacità di reporting per ogni suite di rapporti della tua organizzazione. In qualità di Amministratore, offre una visibilità dettagliata sul consumo dei rapporti e ti aiuta a diagnosticare e risolvere facilmente i problemi di capacità durante i periodi di picco dei rapporti.
 
 Quando la tua organizzazione raggiunge la capacità di richiesta di reporting e si verifica un peggioramento delle prestazioni di reporting, ora puoi diagnosticare autonomamente i problemi di reporting senza l’intervento dell’assistenza clienti o dell’ingegneria Adobe. Puoi gestire facilmente le code di reporting all’interno di un’unica interfaccia e agire immediatamente &#x200B; &#x200B; per migliorare l’esperienza degli utenti. Questo strumento:
 
@@ -35,7 +35,7 @@ Per gestire le attività di reporting è necessario disporre delle autorizzazion
 
 ## Visualizza la coda dei report
 
-Quando si apre la pagina di panoramica di Reporting Activity Manager, viene visualizzato un elenco delle suite di rapporti di base abilitate.
+All&#39;apertura della [!UICONTROL Reporting Activity] Nella pagina di panoramica di Manager viene visualizzato un elenco delle suite di rapporti di base abilitate.
 
 ![coda dei report](assets/reporting-activity1.png)
 
@@ -104,7 +104,7 @@ La tabella dettagliata seguente mostra i dettagli sulla suite di rapporti.
 | [!UICONTROL Running Time] | Per quanto tempo la query è in esecuzione. |
 | [!UICONTROL Wait Time] | Tempo di attesa della query prima dell’elaborazione. Generalmente a &quot;0&quot; quando c&#39;è abbastanza capacità. |
 | [!UICONTROL Start Time] | Quando la query ha iniziato l’elaborazione (ora locale dell’amministratore). |
-| [!UICONTROL Application] | Le applicazioni supportate da Reporting Activity Manager sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: Segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi intelligenti</li></ul> |
+| [!UICONTROL Application] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: Segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi intelligenti</li></ul> |
 | [!UICONTROL User] | Utente che ha avviato la query. |
 | [!UICONTROL Project] | Nomi di progetto Workspace salvati, ID di report API e così via (I metadati possono variare tra le varie applicazioni). |
 | [!UICONTROL Month Boundaries] | Quanti confini mensili attraversa una richiesta. Questo aggiunge la complessità della richiesta. |
