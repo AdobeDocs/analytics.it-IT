@@ -3,9 +3,9 @@ description: Le suite di rapporti virtuali segmentano i dati di Adobe Analytics 
 title: Panoramica delle suite di rapporti virtuali
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
+source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '802'
 ht-degree: 3%
 
 ---
@@ -59,6 +59,8 @@ Le suite di rapporti virtuali hanno le seguenti limitazioni:
 | Supporta la creazione di report DL, segnalibri, dashboard, destinazioni, avvisi, segmenti, metriche calcolate... | Sì | Sì |
 | Può essere aggiunto singolarmente ai gruppi di autorizzazioni | Sì | Sì |
 | Può utilizzare le funzioni di amministrazione per modificare le singole impostazioni in questa suite di rapporti (Amministratore > Suite di rapporti) | No (le impostazioni vengono ereditate dall&#39;elemento padre) | Sì |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Combinare suite di rapporti virtuali e assegnazione di tag a più suite {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
