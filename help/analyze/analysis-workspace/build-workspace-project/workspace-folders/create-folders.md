@@ -1,14 +1,14 @@
 ---
 description: Scopri come creare cartelle e sottocartelle in Workspace
 keywords: Analysis Workspace
-title: Crea cartelle
+title: Creare cartelle
 feature: Workspace Basics
 hide: true
 hidefromtoc: true
 source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ Puoi aggiungere una nuova cartella o una sottocartella all’elenco dei progetti
 
 >[!NOTE]
 >
->Questa funzione è attualmente in versione beta. Alcuni schermi possono cambiare.
+>Questa funzionalità è attualmente in versione beta. Alcune schermate potrebbero cambiare.
 
-## Crea una nuova cartella
+## Creare una nuova cartella
 
 Per creare una nuova cartella,
 
-1. Fai clic su **Crea nuovo**.
+1. fai clic su **Crea nuova**.
 
-1. Immettere un nome per la nuova cartella.
+1. Immetti un nome per la nuova cartella.
 
 1. Seleziona i tag dal menu a discesa.
 
@@ -37,7 +37,7 @@ Per creare una nuova cartella,
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create.png)
 
-   La nuova cartella viene aggiunta nell’elenco principale dei progetti e delle cartelle.
+   La nuova cartella viene aggiunta all’elenco principale dei progetti e delle cartelle.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
@@ -47,11 +47,11 @@ Le sottocartelle consentono di fornire ulteriori livelli di gestione e organizza
 
 Per creare una sottocartella quando è aperta una cartella esistente,
 
-1. Fai clic su **Crea una nuova cartella**.
+1. fai clic su **Crea una nuova cartella**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
 
-1. Immettere il nome di una sottocartella e aggiungere i tag necessari.
+1. Immetti il nome di una sottocartella e aggiungi i tag necessari.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
 
