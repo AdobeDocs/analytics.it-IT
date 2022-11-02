@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 13%
 
 ---
@@ -34,7 +34,7 @@ I preferiti, le visualizzazioni frequenti e la cronologia dei rapporti sono tutt
 
 I rapporti vengono spostati utilizzando una vista a colonne gerarchica. Fai clic su **[!UICONTROL View All Reports]** oppure premere il tasto Barra (/), quindi premere il tasto Freccia giù (?) per visualizzare e navigare rapidamente nel menu utilizzando i tasti freccia. Premere il tasto Esc per chiudere il menu senza modificare il report corrente oppure premere Invio per caricare il report selezionato.
 
-![](assets/reports-landing.png){width=&quot;672px&quot;}
+![](assets/reports-landing.png){width="672px"}
 
 Per informazioni dettagliate sui singoli rapporti, vedi [Dimension](/help/components/dimensions/overview.md).
 

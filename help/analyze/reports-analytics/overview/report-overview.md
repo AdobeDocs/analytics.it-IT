@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 17%
+source-wordcount: '395'
+ht-degree: 16%
 
 ---
 
@@ -27,13 +27,13 @@ Questo esempio mostra un [!UICONTROL Pages Report]. Le opzioni di configurazione
 
 Un esempio di rapporto sulle pagine ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
 
-![](assets/pages_report.png){width=&quot;672px&quot;}
+![](assets/pages_report.png){width="672px"}
 
 ## Barra degli strumenti del rapporto {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Condividi i dati dei tuoi rapporti con i responsabili decisionali che possono modificare il tuo sito o le tue strategie di marketing in base ai dati.
 
-![](assets/toolbar.png){width=&quot;672px&quot;}
+![](assets/toolbar.png){width="672px"}
 
 Fai riferimento anche a [Personalizzazione di un rapporto](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
@@ -41,7 +41,7 @@ Fai riferimento anche a [Personalizzazione di un rapporto](/help/analyze/reports
 
 Visualizza le impostazioni del rapporto e ti consente di configurare il tipo di rapporto, selezionare metriche e altro ancora. Le opzioni disponibili in questo gruppo variano a seconda del rapporto eseguito.
 
-![](assets/settings_header.png){width=&quot;672px&quot;}
+![](assets/settings_header.png){width="672px"}
 
 Vedi [Personalizzazione di un rapporto](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) per ulteriori informazioni.
 
@@ -49,7 +49,7 @@ Vedi [Personalizzazione di un rapporto](/help/analyze/reports-analytics/reports-
 
 Specifica la data facendo clic sul pulsante del calendario e selezionando un intervallo di date. Puoi anche selezionare due intervalli di tempo per confrontare le prestazioni.
 
-![](assets/calendar_large.png){width=&quot;672px&quot;}
+![](assets/calendar_large.png){width="672px"}
 
 Vedi [Selezione di un intervallo di date o date](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) e [Confronto delle date](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
