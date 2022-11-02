@@ -3,9 +3,9 @@ description: Le suite di rapporti virtuali segmentano i dati di Adobe Analytics 
 title: Panoramica delle suite di rapporti virtuali
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '799'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ Le suite di rapporti virtuali hanno le seguenti limitazioni:
 | Funzionalità | Suite di rapporti virtuali | Assegnazione di tag a più suite |
 |--- |--- |--- |
 | Rapporti in tempo reale o &quot;Dati correnti&quot; | No | Sì |
-| Funziona in tutti gli strumenti di Analytics (Analysis Workspace, Report Builder, ecc.) | Sì. **Nota:** Puoi modificarli e identificarli come suite di rapporti virtuali solo in Reports &amp; Analytics. Tuttavia, puoi selezionarli negli elenchi a discesa delle suite di rapporti negli altri strumenti. | Sì |
+| Funziona in tutti gli strumenti di Analytics (Analysis Workspace, Report Builder, ecc.) | Sì. **Nota:** Puoi modificarli e identificarli come suite di rapporti virtuali solo in [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Virtual Report Suites]. Tuttavia, puoi selezionarli negli elenchi a discesa delle suite di rapporti negli altri strumenti.<p>**Importante**: Le suite di rapporti virtuali con elaborazione dei tempi di report e personalizzazione delle variabili non sono attualmente supportate in Adobe Report Builder. | Sì |
 | Può caricare i dati su di esso (tramite classificazioni, feed di dati, ecc.) | No | Sì |
 | Supporta la creazione di report DL, segnalibri, dashboard, destinazioni, avvisi, segmenti, metriche calcolate... | Sì | Sì |
 | Può essere aggiunto singolarmente ai gruppi di autorizzazioni | Sì | Sì |
