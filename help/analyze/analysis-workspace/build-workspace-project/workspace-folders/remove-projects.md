@@ -8,30 +8,30 @@ hidefromtoc: true
 source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # Rimuovere un progetto da una cartella
 
-Per rimuovere un progetto da una cartella, puoi spostarlo in un’altra posizione o eliminarlo.
+Per rimuovere un progetto da una cartella, puoi spostarlo in un’altra posizione oppure eliminarlo.
 
 >[!NOTE]
 >
->Questa funzione è attualmente in versione beta. Alcuni schermi possono cambiare.
+>Questa funzionalità è attualmente in versione beta. Alcune schermate potrebbero cambiare.
 
 >[!NOTE]
 >
->Quando un amministratore sposta un progetto nella cartella Azienda, la cartella viene condivisa con tutti anche se i privilegi condivisi originali erano limitati. Quando un amministratore sposta un progetto fuori dalla cartella dell&#39;azienda, vengono rispettati i privilegi di condivisione originali o precedenti.
+>Quando un amministratore sposta un progetto nella cartella aziendale, questa viene condivisa con tutti anche se i privilegi condivisi originali erano limitati. Quando un amministratore sposta un progetto al di fuori dalla cartella aziendale, vengono rispettati i privilegi di condivisione originali o precedenti.
 
 ## Spostare un progetto
 
-1. Dall’interno di una cartella di progetto, seleziona la **...** puntini di sospensione accanto al nome del progetto.
+1. Dall’interno di una cartella di progetto, seleziona i puntini di sospensione **...** accanto al nome del progetto.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Seleziona **Sposta a** quindi selezionate una cartella in cui spostare il progetto.
+1. Seleziona **Sposta in** e quindi seleziona una cartella in cui spostare il progetto.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
@@ -39,7 +39,7 @@ Per rimuovere un progetto da una cartella, puoi spostarlo in un’altra posizion
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
-   Un brindisi conferma che il progetto è stato spostato.
+   Un avviso pop-up conferma che il progetto è stato spostato.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
@@ -47,7 +47,7 @@ Per rimuovere un progetto da una cartella, puoi spostarlo in un’altra posizion
 
 Quando elimini un progetto da una cartella, questo viene eliminato completamente.
 
-1. Dall’interno di una cartella di progetto, seleziona la **...** puntini di sospensione accanto al nome del progetto.
+1. Dall’interno di una cartella di progetto, seleziona i puntini di sospensione **...** accanto al nome del progetto.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
