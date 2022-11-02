@@ -3,10 +3,10 @@ title: IP e domini utilizzati da Adobe Analytics
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP derivanti dall’Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 7f55b7d0fae6031088cd31d9605a9b47aa5fce9f
+source-git-commit: 0a66bc86ee68259fdb5835bf7bccd9b5e9455990
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 3%
+source-wordcount: '400'
+ht-degree: 4%
 
 ---
 
@@ -33,9 +33,9 @@ Adobe Analytics utilizza i seguenti host per migliorare le prestazioni e l’esp
 | Archiviazione BLOB di Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
 | CDN Microsoft Azure | `aauicdnva7.azureedge.net` |
 
-## Tutti i blocchi di indirizzi IP per la raccolta dati di Adobe Analytics
+## Tutti i blocchi di indirizzi IP di Adobe Analytics
 
-La tabella seguente illustra tutti i server di raccolta dati standard e i server di raccolta dati regionali per Adobe Analytics. Non includono singoli host AWS.
+La tabella seguente illustra tutti gli indirizzi IP di proprietà di un Adobe utilizzati per Adobe Analytics. Non includono tutti i servizi ospitati in cloud pubblici.
 
 | Blocco IP (notazione CIDR) |
 | --- |
@@ -43,6 +43,7 @@ La tabella seguente illustra tutti i server di raccolta dati standard e i server
 | `66.117.16.0/20` |
 | `66.235.128.0/19` |
 | `130.248.0.0/16` |
+| `185.34.188.0/22` |
 
 ## Blocchi di indirizzi IP per la raccolta dati e l’FTP
 
