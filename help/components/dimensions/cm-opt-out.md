@@ -1,9 +1,9 @@
 ---
 title: Gestione del consenso Opt-Out
 description: Scopri le impostazioni di privacy di cui un visitatore ha rinunciato.
-source-git-commit: 49b2c144fea5786564ccb6dc70adead3bc669596
+source-git-commit: c305f74d5047db57509de8ff9ee03b8144009f5a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,6 @@ La tua organizzazione determina la logica necessaria per implementare queste var
 
 Gli elementi di Dimension includono i tre valori seguenti:
 
-* **`SSF`**: Il visitatore ha rinunciato [Inoltro lato server](/help/admin/admin/c-server-side-forwarding/ssf.md). Questo elemento dimensione è presente quando la variabile di dati di contesto `cm.ssf` è `1`. Vedi [Panoramica sulla privacy dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) nella guida utente di Audience Manager per ulteriori informazioni.
-* **`DMP`**: Il visitatore ha rinunciato alla condivisione su piattaforme di gestione dati. Questo elemento dimensione è presente quando la variabile di dati di contesto `opt.dmp` è `N`. L&#39;hit non viene inoltrato a Adobe Audience Manager.
+* **`SSF`**: Il visitatore ha rinunciato [Inoltro lato server](/help/admin/admin/c-server-side-forwarding/ssf.md). Questo elemento dimensione è presente quando la variabile di dati di contesto `cm.ssf` è `1`. Vedi [Panoramica sulla privacy dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) nella guida utente di Audience Manager per ulteriori informazioni. L&#39;hit non viene inoltrato a Adobe Audience Manager.
+* **`DMP`**: Il visitatore ha rinunciato alla condivisione su piattaforme di gestione dati. Questo elemento dimensione è presente quando la variabile di dati di contesto `opt.dmp` è `N`. Simile a `SSF`, l’hit non viene inoltrato a Adobe Audience Manager.
 * **`SELL`**: Il visitatore ha rinunciato alla condivisione o alla vendita dei dati a terzi. Questa dimensione è presente quando la variabile di dati di contesto `opt.sell` è `N`.
