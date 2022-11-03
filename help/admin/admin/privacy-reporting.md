@@ -1,18 +1,34 @@
 ---
-description: Puoi abilitare i rapporti sulla privacy.
+description: Abilita le dimensioni di gestione del consenso.
 title: Informativa sulla privacy
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 6ce83892cc3b3dd6ee818b6d00e764e892060a1b
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 6%
+source-wordcount: '74'
+ht-degree: 9%
 
 ---
 
-# Informativa sulla privacy
+# Rapporti sulla privacy
 
-Per supportare la misurazione della governance dei dati e della gestione del consenso, utilizza queste variabili.
+La generazione di rapporti sulla privacy consente di abilitare [Gestione del consenso Opt-in](/help/components/dimensions/cm-opt-in.md) e [Gestione del consenso Opt-Out](/help/components/dimensions/cm-opt-out.md) dimensioni da utilizzare nel reporting.
 
-Per ulteriori informazioni, consulta [Variabili di gestione del consenso](/help/admin/c-data-governance/consent-variables.md) .
+Per accedere a questa pagina:
+
+1. Accedi ad Adobe Analytics e passa a **[!UICONTROL Admin]** > **[!UICONTROL Report suites]**.
+1. Seleziona una o più suite di rapporti desiderate, quindi seleziona **[!UICONTROL Edit settings]** > **[!UICONTROL Privacy management]** > **[!UICONTROL Privacy reporting]**.
+
+   ![Modifica impostazioni](assets/rsm-privacy-select.png)
+
+1. Fai clic sul pulsante **[!UICONTROL Enable Data Privacy Reports]**.
+
+   >[!NOTE]
+   >
+   >Una volta abilitate, queste variabili non possono essere disattivate.
+
+   ![Abilita](assets/rsm-privacy-enable.png)
+
+1. Una volta attivato, viene visualizzato un messaggio di conferma. Le dimensioni sono disponibili nei rapporti.
+
+   ![Rapporto](assets/consent-management.png)

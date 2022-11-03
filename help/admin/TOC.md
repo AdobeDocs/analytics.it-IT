@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '671'
 ht-degree: 99%
 
 ---
@@ -172,7 +172,6 @@ ht-degree: 99%
    + [Esempi di etichettatura](c-data-governance/gdpr-labeling-example.md)
    + [Privacy dei dati e Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminologia sulla privacy dei dati](c-data-governance/gdpr-terminology.md)
-   + [Variabili per la generazione di rapporti sulla privacy](c-data-governance/consent-variables.md)
 + Utilizzo delle chiamate server {#server-call-usage}
    + [Guida per il primo amministratore di Adobe Analytics](c-server-call-usage/overage-overview.md)
    + [Visualizzazione dell&#39;utilizzo della chiamata server corrente](c-server-call-usage/server-call-usage-dashboard.md)
