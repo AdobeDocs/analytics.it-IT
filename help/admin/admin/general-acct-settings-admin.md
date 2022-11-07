@@ -4,9 +4,9 @@ title: Impostazioni account generali
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: ht
-source-wordcount: '798'
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '796'
 ht-degree: 100%
 
 ---

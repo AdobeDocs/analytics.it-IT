@@ -3,9 +3,9 @@ description: Elenco completo e descrizioni delle variabili di configurazione, in
 title: Dati inoltro lato server e codice
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
-source-wordcount: '520'
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '518'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Inoltre, un segnale `h_ip` viene generato dall’IP dell’host che invia la ric
 
 ## Segnali definiti dal cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-I parametri con prefisso `c_` identificano le variabili definite dal cliente. Consulta anche [Attributi supportati per le chiamate API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=it).
+I parametri con prefisso `c_` identificano le variabili definite dal cliente. Consulta anche [Attributi supportati per le chiamate API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Segnale | Descrizione |
 | --- |--- |

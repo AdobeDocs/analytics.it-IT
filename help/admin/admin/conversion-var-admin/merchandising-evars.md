@@ -3,9 +3,9 @@ title: eVar di merchandising e metodi di ricerca dei prodotti
 description: Approfondisci i concetti alla base delle eVar di merchandising e come vengono elaborati e allocati i dati.
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 3d9b64bd28210732c7506dbf667c5d4d50e7fb07
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '5260'
+source-wordcount: '5258'
 ht-degree: 99%
 
 ---

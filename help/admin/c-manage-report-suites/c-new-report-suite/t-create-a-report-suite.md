@@ -3,16 +3,16 @@ description: Creare un contenitore di base per la raccolta di dati in Adobe Anal
 title: Creare una suite di rapporti
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 95%
+source-wordcount: '305'
+ht-degree: 92%
 
 ---
 
 # Creare una suite di rapporti
 
-Una suite di rapporti è un silos di dati utilizzati da Adobe Analytics per estrarre i rapporti. Un’organizzazione può avere molte suite di rapporti, ciascuna contenente set di dati diversi. Anche se in passato le suite di rapporti separate erano importanti, avere una singola suite di rapporti è diventato più vantaggioso. L’introduzione di [suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it#virtual-report-suites) e i tempi di elaborazione del rapporto consentono agli amministratori di creare sottoinsiemi di dati personalizzati, consentendo la flessibilità di ottenere dati globali e specifici per il sito.
+Una suite di rapporti è un silos di dati utilizzati da Adobe Analytics per estrarre i rapporti. Un’organizzazione può avere molte suite di rapporti, ciascuna contenente set di dati diversi. Anche se in passato le suite di rapporti separate erano importanti, avere una singola suite di rapporti è diventato più vantaggioso. L’introduzione di [suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html#virtual-report-suites) e i tempi di elaborazione del rapporto consentono agli amministratori di creare sottoinsiemi di dati personalizzati, consentendo la flessibilità di ottenere dati globali e specifici per il sito.
 
 Questo articolo è pensato per gli amministratori a livello di sistema o per gli amministratori di Adobe Analytics in preparazione alla raccolta dei dati.
 

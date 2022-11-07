@@ -1,10 +1,10 @@
 ---
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
-source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ Questo [articolo di blog di Google](https://web.dev/user-agent-client-hints/) è
 
 +++**Come si abilita la raccolta di hint client?**
 
-Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consulta le indicazioni per [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=it#enabling-high-entropy-client-hints) e [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=it).
+Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consulta le indicazioni per [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Per entrambe le librerie, la raccolta di hint ad alta entropia è **disattivata per impostazione predefinita**.
 
@@ -81,11 +81,11 @@ I campi relativi al dispositivo disponibili per il reporting non subiranno modif
 
 Questi campi sono derivati direttamente dall’agente utente, ma l’agente utente può essere utilizzato per aiutare a derivare i valori per altri campi relativi al dispositivo, a seconda dei relativi dettagli.
 
-* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=it)
-* [Tipo di browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=it)
-* [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it)
-* [Tipi di sistemi operativi](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=it)
-* [Tipo di dispositivo mobile e dispositivo mobile](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=it)
+* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
+* [Tipo di browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
+* [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
+* [Tipi di sistemi operativi](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
+* [Tipo di dispositivo mobile e dispositivo mobile](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
 
 +++
 
@@ -141,7 +141,7 @@ Consulta la [documentazione sugllo schema](https://github.com/adobe/xdm/blob/mas
 
 +++**L’inoltro lato server ad AAM supporterà gli hint client?**
 
-Sì. Gli hint client verranno inclusi nei dati inoltrati ad AAM. Tieni presente che per preservare la piena funzionalità AAM richiede la raccolta di hint ad alta entropia. Se utilizzi l’[inoltro lato server ad AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
+Sì. Gli hint client verranno inclusi nei dati inoltrati ad AAM. Tieni presente che per preservare la piena funzionalità AAM richiede la raccolta di hint ad alta entropia. Se utilizzi l’[inoltro lato server ad AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
 
 +++
 

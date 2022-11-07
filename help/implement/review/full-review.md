@@ -3,9 +3,9 @@ title: Revisione completa
 description: Rivedi l’implementazione ogni 6 mesi per garantire un continuo allineamento con le esigenze aziendali e i KPI.
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ Perché dovresti rivedere la tua implementazione ogni 6 mesi? Perché è necessa
 
 ## 1. Assicurati che la tua implementazione sia ancora completamente allineata con le nostre esigenze aziendali
 
-Incontrare il proprietario e/o gli analisti aziendali per esaminare le mutevoli esigenze aziendali. Per qualsiasi esigenza o opportunità di misurazione che non sono attualmente soddisfatte dalla tua implementazione, scopri come aggiornare i KPI e i piani di misurazione. Ricorda di registrare le modifiche nel [BRD e SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en#implementation).
+Incontrare il proprietario e/o gli analisti aziendali per esaminare le mutevoli esigenze aziendali. Per qualsiasi esigenza o opportunità di misurazione che non sono attualmente soddisfatte dalla tua implementazione, scopri come aggiornare i KPI e i piani di misurazione. Ricorda di registrare le modifiche nel [BRD e SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 2. Assicurati che le metriche e le variabili funzionino ancora bene
 
-Controlla brevemente tutte le tue metriche e variabili, in ordine di importanza per l&#39;azienda, per assicurarti che i dati vengano raccolti correttamente. Inizia con le metriche e le variabili più importanti: quelle associate al tuo [primi 5 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). Per eseguire questa operazione:
+Controlla brevemente tutte le tue metriche e variabili, in ordine di importanza per l&#39;azienda, per assicurarti che i dati vengano raccolti correttamente. Inizia con le metriche e le variabili più importanti: quelle associate al tuo [primi 5 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review). Per eseguire questa operazione:
 
 * Crea dashboard per visualizzare le visualizzazioni con tendenze mensili delle metriche e delle variabili (o configura) [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) per ciascuno) per assicurarsi di ottenere i dati previsti e i dati sono corretti. Se riscontri delle discrepanze, esamina il livello dati, le regole di gestione dei tag e le regole di elaborazione per scoprirne il motivo.
 * Esegui nuovamente il [Dashboard di stato di Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) per monitorare le tendenze generali delle metriche e delle variabili.

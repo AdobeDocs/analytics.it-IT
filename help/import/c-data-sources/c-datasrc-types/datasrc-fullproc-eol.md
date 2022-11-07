@@ -3,9 +3,9 @@ title: Terminazione dell'elaborazione completa delle origini dati
 description: Motivi della fine del ciclo di vita e confronti tra API di inserimento dati in blocco e Origini dati di elaborazione completa.
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1217'
 ht-degree: 28%
 
 ---
@@ -44,7 +44,7 @@ Per ulteriori dettagli, vedere il seguente confronto dei valori dei campi dispon
 | aamlh | Non supportati | Suggerimento sulla posizione di Adobe Audience Manager. |
 | browserHeight | browserHeight | Altezza browser in pixel (ad esempio, 768) |
 | browserWidth | browserWidth | Larghezza browser in pixel (ad esempio, 1024) |
-| campagna | campagna | Codice di tracciamento campagna di conversione |
+| campaign | campagna | Codice di tracciamento campagna di conversione |
 | channel | canale | Stringa canale (ad esempio, sezione Sport) |
 | colorDepth | colorDepth | Profondità colore monitor in bit (ad esempio, 24) |
 | connectionType | connectionType | Tipo di connessione del visitatore (LAN o modem) |
@@ -55,18 +55,18 @@ Per ulteriori dettagli, vedere il seguente confronto dei valori dei campi dispon
 | customerID.[customerIDType].id | Non supportati | ID cliente da utilizzare. Il customerIDType può essere una qualsiasi stringa alfanumerica, ma deve essere considerato sensibile a maiuscole e minuscole. |
 | customerID.[customerIDType].isMCSeed | Non supportati | Indica se si tratta o meno del valore di seed per l’ID visitatore Marketing Cloud. I valori supportati sono: 0, 1, TRUE, FALSE, &#39;&#39; (senza distinzione tra maiuscole e minuscole). Se si utilizzano 0, FALSE o due virgolette singole consecutive (&#39;), il valore viene omesso dalla stringa di query. Il customerIDType può essere una qualsiasi stringa alfanumerica, ma deve essere considerato sensibile a maiuscole e minuscole. |
 | eVarN | eVarN, cioè `<eVar2>`...`<eVar>` | Nome eVar conversione. Puoi avere fino a 75 eVar ( eVar1 - eVar75 ) Puoi specificare il nome dell’eVar (eVar12) o un nome descrittivo (Ad Campaign 3). |
-| events | events | [Stringa eventi](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars), formattato utilizzando la stessa sintassi della variabile s.events . Ad esempio: scAdd,event1,event7 |
+| events | events | [Stringa eventi](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars), formattato utilizzando la stessa sintassi della variabile s.events . Ad esempio: scAdd,event1,event7 |
 | hierN | hierN, cioè `<hier2>`...`</hier2>` | Nome gerarchia. Puoi avere fino a 5 gerarchie ( hier1 - hier5 ). È possibile specificare il nome della gerarchia predefinita `hier2` o un nome descrittivo (Yankees). |
 | homePage | homePage | S o N se la pagina corrente è la pagina iniziale del visitatore. |
 | indirizzo IP | Non supportati | L’indirizzo IP del visitatore. |
 | javaEnabled | javaEnabled | S o N se il visitatore ha abilitato Java. |
 | javaScriptVersion | javaScriptVersion | Versione JavaScript (ad esempio, 1.3). |
-| lingua | Non supportati | Lingua supportata dal browser. Ad esempio, `en-us`. |
+| lingua | Non supportati | Lingua supportata dal browser. Esempio: `en-us`. |
 | linkName | linkName | Nome del collegamento. |
 | linkType | linkType | Tipo di collegamento. I valori supportati includono: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF del collegamento. |
 | Ad esempio, list2. | Non supportati | Un elenco delimitato di valori che vengono passati in una variabile e quindi segnalati come voci di riga individuali per la generazione di rapporti |
-| marketingCloudVisitorID | Non supportati | Marketing Cloud ID. Vedi [Identificazione visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) e il servizio ID visitatori del Marketing Cloud |
+| marketingCloudVisitorID | Non supportati | Marketing Cloud ID. Vedi [Identificazione visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html#id-service-api) e il servizio ID visitatori del Marketing Cloud |
 | Non supportati | charSet | Il set di caratteri supportato per il sito Web. Ad esempio, UTF-8, ISO-8859-1 e così via. |
 | Non supportati | clickAction | Identificatore oggetto per mappa clic visitatore (oid). |
 | Non supportati | clickActionType | Identificatore oggetto per mappa clic visitatore (oidt). |
@@ -88,10 +88,10 @@ Per ulteriori dettagli, vedere il seguente confronto dei valori dei campi dispon
 | reportSuiteID | s_account | Specifica le suite di rapporti in cui si desidera inviare i dati. Separa più ID suite di rapporti con una virgola. |
 | resolution | resolution | Risoluzione del monitor (ad esempio, 1024x768). |
 | server | server | Stringa Server. |
-| stato | stato | Stringa Stato di conversione. |
+| state | stato | Stringa Stato di conversione. |
 | timestamp | data | Utilizzare il formato data ISO 8601 di AAAA-MM-DDThh:mm:ss±UTC_offset (ad esempio, 2021-09-01T12):00:00-07:00 ) o Unix Time Format (il numero di secondi trascorsi dal 1° gennaio 1970). |
 | trackingServer | Non supportati | Può essere fornito solo tramite intestazione di colonna. |
-| transactionID | Non supportati | Valore comune utilizzato per collegare le attività utente multicanale insieme a scopo di reporting. Per ulteriori informazioni, consulta la sezione [Guida utente di Origini dati](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
+| transactionID | Non supportati | Valore comune utilizzato per collegare le attività utente multicanale insieme a scopo di reporting. Per ulteriori informazioni, consulta la sezione [Guida utente di Origini dati](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html#data-sources). |
 | userAgent | Non supportati | Stringa agente utente |
-| visitorID | visitorID | ID Analytics del visitatore. Vedi [Identificazione visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
+| visitorID | visitorID | ID Analytics del visitatore. Vedi [Identificazione visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | zip | zip | Codice zip di conversione. |

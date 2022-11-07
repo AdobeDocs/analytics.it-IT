@@ -3,9 +3,9 @@ title: Revisione mirata (dopo ogni rilascio del sito web)
 description: Segui questi passaggi per garantire che l’implementazione rimanga priva di errori e in linea con i KPI.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '511'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Assicurati che la versione più recente del sito non abbia avuto un impatto nega
 
 Se hai aggiunto o modificato metriche o variabili di recente, devi aggiornare il tuo documento per i requisiti aziendali (BRD) e il riferimento per la progettazione della soluzione (SDR).
 
-Se non disponi di documentazione sull’implementazione, esporta un elenco di variabili e crea il tuo BRD o SDR utilizzando [questo modello](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en#implementation).
+Se non disponi di documentazione sull’implementazione, esporta un elenco di variabili e crea il tuo BRD o SDR utilizzando [questo modello](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 5. Risolvere immediatamente eventuali lacune nella qualità dei dati
 

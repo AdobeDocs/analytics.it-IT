@@ -2,10 +2,10 @@
 title: Analytics tra dispositivi
 description: Unisci i dati dei dispositivi, per renderli incentrati sulla persona invece che incentrati sul dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 9c9322647145832503e4a5875789e9cf7e9a2397
-workflow-type: ht
-source-wordcount: '860'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Analytics tra dispositivi è una funzione innovativa e affidabile, ma presenta l
 * Analytics tra dispositivi non funziona tra diverse suite di rapporti e non combina dati provenienti da più suite di rapporti.
 * Le suite di rapporti di Adobe Analytics non possono essere mappate su più di un ID organizzazione. Poiché CDA unisce i dispositivi all’interno di una determinata suite di rapporti, non può essere utilizzato per unire dati da più ID organizzazione.
 * CDA utilizza una pipeline di elaborazione complessa, con più componenti dipendenti. Questo viene eseguito in parallelo con il flusso di lavoro di base di Analytics per la reportistica. Pertanto, è previsto uno scostamento di circa 1% per il numero totale di hit tra la suite di rapporti originale e la suite di rapporti virtuale di CDA.
-* Analytics tra dispositivi utilizza una suite di rapporti virtuale e l’elaborazione al momento del rapporto, con proprie limitazioni. Ad esempio, al momento non supportano le variabili dei canali di marketing. Per ulteriori informazioni su queste limitazioni, consulta [Suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it) ed [Elaborazione al momento del rapporto](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=it).
+* Analytics tra dispositivi utilizza una suite di rapporti virtuale e l’elaborazione al momento del rapporto, con proprie limitazioni. Ad esempio, al momento non supportano le variabili dei canali di marketing. Per ulteriori informazioni su queste limitazioni, consulta [Suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it) ed [Elaborazione al momento del rapporto](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html#report-time-processing-limitations).
 * Private Graph sfrutta le stesse sincronizzazioni ID utilizzate dalla funzionalità [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it#customer-attributes) disponibile in Experience Cloud e Adobe Analytics. Tuttavia, le suite di rapporti virtuali di CDA (basate su Private Graph o unione basata sui campi) non sono compatibili con il resto della funzionalità Attributi del cliente. In altre parole, le dimensioni basate su Attributi del cliente non possono essere utilizzate con le suite di rapporti virtuali di CDA.
 * CDA non è attualmente compatibile con A4T.
 * L’API 1.4 non è supportato. Report Builder e i connettori Power BI si basano sull’API 1.4 e non sono quindi compatibili con CDA.

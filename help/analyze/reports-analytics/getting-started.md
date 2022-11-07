@@ -4,10 +4,10 @@ title: Introduzione a Reports and Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 3%
+source-wordcount: '765'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 Prima di utilizzare Reports &amp; Analytics, è necessario comprendere queste attività di accesso e configurazione di base e come accedere alle informazioni sull’account.
 
 >[!IMPORTANT]
->Efficace **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le funzionalità di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
+>A partire dal **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
 
 I rapporti forniscono informazioni approfondite sui canali tradizionali basati sul web e sui canali in evoluzione come i dispositivi mobili, i video e i social network. Alcuni esempi di rapporti includono:
 
@@ -48,7 +48,7 @@ Passaggi che descrivono come accedere a Adobe Experience Cloud.
 
 1. Su un computer con accesso a Internet, avviare un browser.
 1. Vai a [!DNL https://login.experiencecloud.adobe.com/].
-1. Sulla [!UICONTROL Sign In] pagina, fai clic su **[!UICONTROL Single Sign-On]**.
+1. Nella pagina [!UICONTROL Sign In] fai clic su **[!UICONTROL Single Sign-On]**.
 1. Completa le seguenti informazioni, quindi fai clic su **[!UICONTROL Sign In]**.
 
    **[!UICONTROL Company]**: Specifica l&#39;ID società.
@@ -60,7 +60,7 @@ Passaggi che descrivono come accedere a Adobe Experience Cloud.
 
    L’Experience Cloud ti disconnette automaticamente dopo 30 minuti di inattività.
 
-## Eseguire un rapporto
+## Esegui un rapporto
 
 Passaggi che descrivono come generare un rapporto.
 
@@ -87,7 +87,7 @@ Tutti gli utenti hanno accesso al [!UICONTROL Account Information] pagina. Sono 
 | Tipo di informazioni | Definizione |
 | --- | --- |
 | Contatta    | Specifica le seguenti informazioni personali per il tuo account:<ul><li>Nome (obbligatorio)</li><li>Cognome (obbligatorio)</li><li>Title</li><li>Indirizzo e-mail (obbligatorio)</li><li>Numero di telefono</li></ul> |
-| Login | Visualizza il nome utente dell’account e consente di modificare la password dell’account. Vedi anche: [Come reimpostare la password dell’account Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en). |
+| Login | Visualizza il nome utente dell’account e consente di modificare la password dell’account. Vedi anche: [Come reimpostare la password dell’account Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html). |
 | Servizio Web | Visualizza il nome utente e il segreto condiviso dei servizi Web associati a questo account. Utilizza queste credenziali per accedere ad Experience Cloud tramite le API dei servizi web. Per ulteriori informazioni, vedere Developer Connection. **Nota:** Queste informazioni vengono visualizzate solo se l’account è autorizzato come utente di servizi web. |
 | Escludi questo computer | Applica un cookie al computer corrente per escluderlo dalla raccolta dati. Questa funzione è utile se non desideri che le attività online influenzino i conteggi di visualizzazione pagina e visitatori nel dominio. **Nota:** Per utilizzare questa funzione, nel browser devono essere abilitati i cookie. Se elimini i cookie sul computer, devi reimpostare il cookie di esclusione. |
 

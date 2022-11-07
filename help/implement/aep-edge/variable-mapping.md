@@ -2,9 +2,9 @@
 title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 99%
 
 ---
@@ -131,7 +131,7 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 
 ## Mappatura di altri campi XDM su variabili Analytics
 
-Se esistono dimensioni o metriche da aggiungere ad Adobe Analytics, puoi farlo tramite [Variabili di dati di contesto](../vars/page-vars/contextdata.md). Tutti gli elementi di campo XDM che non sono mappati automaticamente vengono inviati ad Adobe Analytics come dati contestuali con il prefisso a.x. Puoi quindi mappare questa variabile di dati di contesto alla variabile di Analytics desiderata utilizzando le [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=it). Ad esempio, se invii il seguente evento:
+Se esistono dimensioni o metriche da aggiungere ad Adobe Analytics, puoi farlo tramite [Variabili di dati di contesto](../vars/page-vars/contextdata.md). Tutti gli elementi di campo XDM che non sono mappati automaticamente vengono inviati ad Adobe Analytics come dati contestuali con il prefisso a.x. Puoi quindi mappare questa variabile di dati di contesto alla variabile di Analytics desiderata utilizzando le [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). Ad esempio, se invii il seguente evento:
 
 ```js
 alloy("event",{

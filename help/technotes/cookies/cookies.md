@@ -3,9 +3,9 @@ title: Cookie di Adobe Analytics e browser
 description: Scopri in che modo le misure di prevenzione del tracking influiscono sui cookie di terze parti e di prima parte impostati da Adobe Analytics.
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1981'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Questo documento spiega in che modo le misure di prevenzione del tracciamento de
 ## In che modo i browser hanno limitato l’utilizzo dei cookie?
 
 >[!NOTE]
->[Analisi multidispositivo](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en#cda) e [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#comparing-cja-to-traditional-adobe-analytics) può eseguire unioni tra i cookie utilizzando un ID persona, ad esempio un ID di accesso con hash, se disponibile.
+>[Analisi multidispositivo](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda) e [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) può eseguire unioni tra i cookie utilizzando un ID persona, ad esempio un ID di accesso con hash, se disponibile.
 
 ### Limitazioni dei cookie di terze parti
 

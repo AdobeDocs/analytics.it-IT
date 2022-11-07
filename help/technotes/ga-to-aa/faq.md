@@ -3,9 +3,9 @@ title: Domande frequenti sulla migrazione ad Adobe Analytics
 description: Risposte alle domande frequenti riguardanti il passaggio da una piattaforma di terze parti ad Adobe.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
-workflow-type: ht
-source-wordcount: '391'
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '389'
 ht-degree: 100%
 
 ---

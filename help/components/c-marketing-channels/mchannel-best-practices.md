@@ -3,16 +3,16 @@ title: Best practice per l’implementazione dei canali di marketing Adobe Analy
 description: Sono state aggiornate le best practice per l’utilizzo dei canali di marketing con Attribution IQ e Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '635'
 ht-degree: 3%
 
 ---
 
 # Attribution IQ con i canali di marketing - Best practice
 
-[Canali marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) sono una funzionalità preziosa e potente di Adobe Analytics. Le linee guida attuali relative all’implementazione del canale di marketing sono state formulate in un momento in cui nessuna delle due [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)  né [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=it#cja-usecases) esisteva.
+[Canali marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) sono una funzionalità preziosa e potente di Adobe Analytics. Le linee guida attuali relative all’implementazione del canale di marketing sono state formulate in un momento in cui nessuna delle due [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html#analysis-workspace)  né [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=it#cja-usecases) esisteva.
 
 Per garantire la scalabilità dell’implementazione di Marketing Channels e la coerenza dei rapporti con Attribution IQ e con il Customer Journey Analytics, stiamo emanando una serie di best practice aggiornate. Se utilizzi già Marketing Channels, puoi scegliere le opzioni migliori tra queste nuove linee guida. Se hai poca esperienza con Marketing Channels, ti consigliamo di aderire a tutte le nuove best practice.
 
@@ -22,19 +22,19 @@ Poiché le dimensioni del canale di marketing dipendono da una definizione di vi
 
 ## Best practice n. 1: Utilizzo delle Attribution IQ per analisi controllate
 
-Si consiglia di utilizzare [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) invece dell’attribuzione del canale di marketing esistente per ottimizzare l’analisi del canale di marketing. Segui le altre best practice per garantire coerenza e controlli affidabili sull’analisi con Attribution IQ.
+Si consiglia di utilizzare [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html#analysis-workspace) invece dell’attribuzione del canale di marketing esistente per ottimizzare l’analisi del canale di marketing. Segui le altre best practice per garantire coerenza e controlli affidabili sull’analisi con Attribution IQ.
 
 ![](assets/attribution.png)
 
 * La configurazione delle dimensioni Marketing Channel e Marketing Channel Detail stabilisce i punti di contatto da valutare, corrispondenti a ciascuna istanza del canale di marketing.
 * Per l’analisi delle metriche, l’organizzazione deve allinearsi a uno o più modelli di attribuzione. Salva le metriche personalizzate con questo modello per un facile riutilizzo.
-* Per impostazione predefinita, i dati vengono allocati utilizzando Ultimo contatto e l’impostazione del periodo di coinvolgimento del visitatore. I modelli di metriche Attribution IQ offrono un maggiore controllo sugli intervalli di lookback e su più varietà, tra cui [attribuzione algoritmica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace).
+* Per impostazione predefinita, i dati vengono allocati utilizzando Ultimo contatto e l’impostazione del periodo di coinvolgimento del visitatore. I modelli di metriche Attribution IQ offrono un maggiore controllo sugli intervalli di lookback e su più varietà, tra cui [attribuzione algoritmica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html#analysis-workspace).
 
 ## Best practice n. 2: Nessuna definizione del canale Direct e Session Refresh
 
 I canali di aggiornamento diretto e interno/sessione non sono consigliati per l’utilizzo con modelli di attribuzione personalizzati (Attribution IQ).
 
-Cosa succede se nella tua organizzazione sono già configurati Direct e Session Refresh? In questo caso, ti consigliamo di: [creare una classificazione](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en) per Primo contatto/Ultimo contatto e lasciare i canali di aggiornamento diretto e sessione non classificati. La dimensione classificata darà gli stessi risultati delle Attribution IQ come se tali canali non fossero mai stati configurati.
+Cosa succede se nella tua organizzazione sono già configurati Direct e Session Refresh? In questo caso, ti consigliamo di: [creare una classificazione](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html) per Primo contatto/Ultimo contatto e lasciare i canali di aggiornamento diretto e sessione non classificati. La dimensione classificata darà gli stessi risultati delle Attribution IQ come se tali canali non fossero mai stati configurati.
 
 ![](assets/direct-session-refresh.png)
 

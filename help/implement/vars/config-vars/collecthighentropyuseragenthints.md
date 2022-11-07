@@ -1,10 +1,10 @@
 ---
 title: collectHighEntropyUserAgentHints
 description: Utilizza la variabile collectHighEntropyUserAgentHint per determinare se Adobe richiederà suggerimenti entropici elevati dai browser Chromium (ad esempio Google Chrome e Microsoft Edge).
-source-git-commit: 885a8f229fa814053e4766f3b38b6e7fb209fc00
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 4%
+source-wordcount: '210'
+ht-degree: 8%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Analytics utilizza suggerimenti client ad alta entropia per migliorare l�
 
 ## raccogliere hint di entropia elevata utilizzando l’SDK per web
 
-Gli hint client ad alta entropia fanno parte delle categorie di contesto in SDK per web. Vedi [Configurare l’SDK web per Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en) per ulteriori dettagli.
+Gli hint client ad alta entropia fanno parte delle categorie di contesto in SDK per web. Vedi [Configurare l’SDK web per Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it) per ulteriori dettagli.
 
 ## Raccogli hint ad alta entropia utilizzando l’estensione Adobe Analytics
 

@@ -3,10 +3,10 @@ title: eVar (dimensione Merchandising)
 description: Variabili personalizzate che si legano alla dimensione prodotti.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 4%
+source-wordcount: '445'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 *Questa pagina di aiuto descrive il funzionamento degli eVar di merchandising come una dimensione. Per informazioni su come implementare le eVar di merchandising, vedi [eVar (variabile merchandising)](/help/implement/vars/page-vars/evar-merchandising.md) nella guida utente Implementazione .*
 
-Per una discussione dettagliata sul funzionamento delle eVar per merchandising, vedi [eVar per merchandising e metodi di ricerca dei prodotti](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=it).
+Per una discussione dettagliata sul funzionamento delle eVar per merchandising, vedi [eVar per merchandising e metodi di ricerca dei prodotti](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
 
 Quando si misura il successo di campagne esterne o termini di ricerca esterni, in genere si desidera che un singolo valore riceva credito per eventuali eventi di successo. Ad esempio, se un cliente fa clic su un collegamento presente in una campagna e-mail per visitare il sito web, tutti gli acquisti effettuati come risultato devono essere accreditati su tale campagna.
 

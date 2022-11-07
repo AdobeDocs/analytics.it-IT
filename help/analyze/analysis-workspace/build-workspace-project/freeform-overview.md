@@ -5,10 +5,10 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 97%
+source-wordcount: '1407'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni
 
 | Elemento | Descrizione |
 |---|---|
-| [Crea nuovo progetto](/help/analyze/analysis-workspace/home.md) | Fai clic su questo collegamento per avviare un nuovo progetto partendo da zero o da un [modello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#analysis-workspace) che è stato creato per te. |
+| [Crea nuovo progetto](/help/analyze/analysis-workspace/home.md) | Fai clic su questo collegamento per avviare un nuovo progetto partendo da zero o da un [modello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace) che è stato creato per te. |
 | Gestione progetti | Fai clic su questo collegamento per passare al modulo di gestione dei componenti per progetti (**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), in cui vengono elencati tutti i tuoi progetti e dove puoi assegnare tag, condividere, eliminare, rinominare, approvare, copiare ed esportare i progetti come file CSV. |
 | Imposta come pagina di destinazione | Consente di impostare la pagina attuale come pagina di destinazione di Workspace. |
 | [Visualizza esercitazioni](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=it) | Consente di accedere ai video tutorial su Analysis Workspace. |
@@ -51,7 +51,7 @@ In un progetto, il menu fornisce le opzioni necessarie per gestirlo, aggiungervi
 
 | Opzione di menu | Descrizione |
 |---|---|
-| Progetto | Include azioni comuni per la gestione dei progetti, come Nuovo, Apri, Salva, Salva con nome e [Salva come modello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it). Puoi anche aggiornare l’intero progetto per recuperare i dati e le definizioni più recenti facendo clic su Refresh Project (Aggiorna progetto). Le opzioni [Download CSV and PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it) (Scarica CSV e PDF) consentono di esportare i dati da Workspace. [Project Info &amp; Settings](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=it#info-settings) (Informazioni e impostazioni progetto) offre molte opzioni per la gestione del progetto. |
+| Progetto | Include azioni comuni per la gestione dei progetti, come Nuovo, Apri, Salva, Salva con nome e [Salva come modello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). Puoi anche aggiornare l’intero progetto per recuperare i dati e le definizioni più recenti facendo clic su Refresh Project (Aggiorna progetto). Le opzioni [Download CSV and PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it) (Scarica CSV e PDF) consentono di esportare i dati da Workspace. [Project Info &amp; Settings](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=it#info-settings) (Informazioni e impostazioni progetto) offre molte opzioni per la gestione del progetto. |
 | Modificare | Annulla o ripristina l’ultima azione. Con Clear All (Cancella tutto) puoi ripristinare il progetto e tornare al progetto vuoto iniziale. |
 | Inserisci | Con questo menu puoi inserire nuovi pannelli o visualizzazioni. Puoi anche inserire nuovi pannelli e visualizzazioni dalla barra a sinistra. |
 | [Componenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=it) | Crea dal progetto nuovi segmenti, metriche calcolate, intervalli di date o componenti di avviso. Puoi anche creare nuovi componenti dalla barra a sinistra. Se le definizioni dei componenti sono state recentemente modificate, usa Refresh Components (Aggiorna componenti) per recuperare le definizioni più recenti. |
@@ -122,6 +122,6 @@ Di seguito sono riportate le azioni più comuni per la gestione dei progetti, ch
 | Tag (Assegna tag) o Approve (Approva) | Scegli Tag (Assegna tag) o Approve (Approva) per organizzare i progetti e semplificarne la ricerca. |
 | [Condividi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Rendi un progetto disponibile ad altri utenti di Analysis Workspace all’interno dell’organizzazione. |
 | Elimina | Elimina il progetto. |
-| Rinomina | Modifica il nome del progetto. |
+| Rename (Rinomina) | Modifica il nome del progetto. |
 | Copia | Crea un duplicato del progetto. Viene creato un nuovo progetto, con un nuovo ID progetto. Eventuali condivisioni o pianificazioni collegate al progetto originale non vengono copiate. |
 | Export to CSV (Esporta in CSV) | Scarica il progetto come file CSV, contenente dati in formato solo testo. |

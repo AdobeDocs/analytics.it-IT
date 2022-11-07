@@ -3,9 +3,9 @@ description: Esempi di etichette sulla privacy dei dati per variabili Adobe Anal
 title: Etichette Privacy dei dati per le variabili di Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '3906'
+source-wordcount: '3902'
 ht-degree: 97%
 
 ---
@@ -177,7 +177,7 @@ Si prevede che per molte variabili verranno applicate le etichette di accesso, m
   <tr> 
    <td colname="col1"> <p>Nessuno </p> </td> 
    <td colname="col2"> <p>Questa variabile non contiene un ID che verrà usato per le richieste di Privacy dei dati. </p> </td> 
-   <td colname="col3"> <p>È necessario impostare una di queste etichette solo se questo campo contiene un ID che userai durante l’invio delle richieste di accesso o cancellazione tramite l’ [API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) o l’interfaccia utente di . </p> </td> 
+   <td colname="col3"> <p>È necessario impostare una di queste etichette solo se questo campo contiene un ID che userai durante l’invio delle richieste di accesso o cancellazione tramite l’ [API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) o l’interfaccia utente di . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -206,7 +206,7 @@ Si prevede che per molte variabili verranno applicate le etichette di accesso, m
 
 | Etichetta | Definizione | Altri requisiti |
 | --- | --- | --- |
-| Nessuno | Questa variabile non contiene un ID che verrà usato per le richieste di Privacy dei dati. | È necessario impostare una di queste etichette solo se questo campo contiene un ID che userai quando invii le richieste di accesso o di cancellazione tramite [API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) o interfaccia utente. |
+| Nessuno | Questa variabile non contiene un ID che verrà usato per le richieste di Privacy dei dati. | È necessario impostare una di queste etichette solo se questo campo contiene un ID che userai quando invii le richieste di accesso o di cancellazione tramite [API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) o interfaccia utente. |
 | ID-DEVICE | Questo campo contiene un ID che può essere utilizzato per identificare un dispositivo per una richiesta di Privacy dei dati, ma non può distinguere tra utenti diversi di un dispositivo condiviso.  Non è necessario specificare questa etichetta per tutte le variabili che contengono un ID (per questo si devono usare le etichette I1/I2). Usa questa etichetta se invii le richieste di Privacy dei dati usando gli ID memorizzati in questa variabile e vuoi cercare la variabile per l’ID specificato. | Richiede anche l’etichetta I1 o I2.<ul><li>Non può essere impostata negli eventi</li><li>Non può essere impostata nelle eVars Merchandising</li><li>Non può essere impostata nelle classificazioni</li></ul> |
 | ID-PERSON | Questo campo contiene un ID che può essere usato per identificare un utente autenticato (una persona specifica) per una richiesta di Privacy dei dati.  Non è necessario specificare questa etichetta per tutte le variabili che contengono un ID (per questo si devono usare le etichette I1/I2). Usa questa etichetta se invii le richieste di Privacy dei dati usando gli ID memorizzati in questa variabile e vuoi cercare la variabile per l’ID specificato. | Richiede anche l’etichetta I1 o I2.<ul><li>Non può essere impostata negli eventi</li><li>Non può essere impostata nelle eVars Merchandising</li><li>Non può essere impostata nelle classificazioni</li></ul> |
 

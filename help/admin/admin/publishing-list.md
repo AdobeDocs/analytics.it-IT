@@ -4,10 +4,10 @@ title: Elenchi di pubblicazione
 feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
-source-git-commit: 2f14b9059601fd0b8d1603cb7dfc4a0b4a3ff55e
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 3%
+source-wordcount: '649'
+ht-degree: 6%
 
 ---
 
@@ -21,13 +21,13 @@ Gli elenchi di pubblicazione consentono di inviare facilmente vari rapporti spec
 
 Come probabilmente saprete, il 31 dicembre 2023 Adobe deprecherà sia Reports and Analytics (R&amp;A) che il prodotto punto Site Catalyst. [Puoi saperne di più sulla fine del ciclo di vita e su come prepararti ad esso qui](https://express.adobe.com/page/6WnF8JK6IRDhf/).
 
-Una delle funzioni di R&amp;A che si prevede raggiungerà la fine del ciclo di vita in questa data è Elenchi di pubblicazione. Alcune funzioni, come Eventi calendario e Rapporto di riepilogo pagina, hanno o avranno una versione di parità in Analysis Workspace. Tuttavia, gli elenchi di pubblicazione non sono tra questi e diventeranno obsoleti quando le attività di R&amp;A raggiungeranno la fine del loro ciclo di vita. **Non sarà possibile creare elenchi di pubblicazione nuovi o accedere a elenchi di pubblicazione esistenti per inviare o pianificare progetti Analysis Workspace.**
+Una delle funzioni di R&amp;A che si prevede raggiungerà la fine del ciclo di vita in questa data è Elenchi di pubblicazione. Alcune funzioni, come Eventi calendario e Rapporto di riepilogo pagina, hanno o avranno una versione di parità in Analysis Workspace. Tuttavia, gli elenchi di pubblicazione non sono tra questi e diventeranno obsoleti quando le attività di R&amp;A raggiungeranno la fine del loro ciclo di vita. **Non sarà possibile creare nuovi elenchi di pubblicazione o accedere a quelli esistenti per inviare o pianificare progetti di Analysis Workspace.**
 
 Per attenuare eventuali interruzioni dei flussi di lavoro di distribuzione dei rapporti correnti che si basano su Elenchi di pubblicazione, è necessario considerare le seguenti alternative:
 
 * Se utilizzi Elenchi di pubblicazione per distribuire la stessa versione del rapporto a più utenti (senza applicare sostituzioni alla suite di rapporti):
 
-   Una volta ricreati i rapporti in Analysis Workspace come progetti, puoi utilizzare una combinazione di un gruppo di contatti o di una lista di distribuzione creata per il client di posta e la funzione Progetti pianificati di Workspace per inviare o pianificare la consegna ricorrente del progetto. Come per gli elenchi di pubblicazione, una versione PDF/CSV del progetto viene quindi inviata a ogni ID e-mail che fa parte del gruppo/elenco. Ulteriori informazioni [Progetti programmati qui](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=en#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
+   Una volta ricreati i rapporti in Analysis Workspace come progetti, puoi utilizzare una combinazione di un gruppo di contatti o di una lista di distribuzione creata per il client di posta e la funzione Progetti pianificati di Workspace per inviare o pianificare la consegna ricorrente del progetto. Come per gli elenchi di pubblicazione, una versione PDF/CSV del progetto viene quindi inviata a ogni ID e-mail che fa parte del gruppo/elenco. Ulteriori informazioni [Progetti programmati qui](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
 
 * Se utilizzi gli elenchi di pubblicazione per distribuire più versioni del rapporto o del dashboard a più utenti (tramite la funzione di sostituzione della suite di rapporti):
 

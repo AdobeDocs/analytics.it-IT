@@ -3,10 +3,10 @@ title: Implementare Adobe Analytics con i tag in Adobe Experience Platform
 description: Scopri come implementare Adobe Analytics utilizzando i tag
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 6%
+source-wordcount: '308'
+ht-degree: 5%
 
 ---
 
