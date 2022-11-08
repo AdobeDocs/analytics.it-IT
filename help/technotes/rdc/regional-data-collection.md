@@ -3,7 +3,7 @@ title: Raccolta di dati regionali
 description: Informazioni sulla raccolta di dati regionali
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 1016e802f80855aebe0046f48556733652379d33
+source-git-commit: 60c2422ef32a4fadbb975006c111d12878a98f53
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 1%
@@ -54,7 +54,7 @@ RDC attualmente include le seguenti posizioni (soggette a modifica):
 | Beneficio | Descrizione |
 | --- | --- |
 | Prestazioni | Con RDC, i visitatori si connettono al DCC più vicino. Questo fornisce il tempo di risposta più veloce, con conseguente tracciamento più preciso e tempi di caricamento più rapidi. |
-| Ridondanza | In caso di interruzione delle comunicazioni tra DCC e il tuo DPC, l’infrastruttura RDC di Adobe salva i dati localmente, quindi li inoltra al DPC quando le comunicazioni vengono ripristinate. |
+| Ridondanza | In caso di interruzione della comunicazione tra DCC e il tuo DPC, l&#39;infrastruttura RDC di Adobe salva i dati localmente, quindi li inoltra al DPC quando le comunicazioni vengono ripristinate. |
 
 ## Come funziona RDC
 
