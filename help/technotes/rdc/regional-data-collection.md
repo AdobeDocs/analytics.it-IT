@@ -3,10 +3,10 @@ title: Raccolta di dati regionali
 description: Informazioni sulla raccolta di dati regionali
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 1016e802f80855aebe0046f48556733652379d33
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 2%
+source-wordcount: '510'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud utilizza la raccolta di dati regionali (RDC) in modo che 
 
 >[!IMPORTANT]
 >
->Il pacchetto aggiuntivo China RDC (China Performance Optimization) è un componente aggiuntivo a pagamento per Adobe Analytics. L’ottimizzazione delle prestazioni di Adobe nella Cina continentale consente ai clienti con utenti in Cina di inviare tali dati direttamente al nodo Edge Cina, anziché in altre posizioni a livello globale. Questo migliora i tempi di caricamento delle pagine e la precisione dei dati rispetto all’invio dei dati a nodi al di fuori della Cina. Per ulteriori informazioni, contattare il rappresentante commerciale Adobe.
+>Il pacchetto aggiuntivo China RDC (China Performance Optimization) è un componente aggiuntivo a pagamento per Adobe Analytics. L’ottimizzazione delle prestazioni di Adobe nella Cina continentale consente ai clienti con utenti in Cina di inviare tali dati direttamente ai server di raccolta edge di Adobe in Cina, anziché in altre aree a livello globale. Questo migliora i tempi di caricamento delle pagine e la precisione dei dati rispetto all’invio dei dati a nodi al di fuori della Cina. Si noti che i dati vengono infine trasferiti a uno dei Data Processing Center (DPC) di Adobe al di fuori della Cina. Per ulteriori informazioni, contattare il rappresentante commerciale Adobe.
 
 RDC attualmente include le seguenti posizioni (soggette a modifica):
 
@@ -24,7 +24,7 @@ RDC attualmente include le seguenti posizioni (soggette a modifica):
 
 | Tipo RDC | Centri di raccolta dati |
 |---------------------|-------------------|
-| impostazione predefinita | Oregon, Virginia, Irlanda, Parigi, Mumbai, Singapore, Tokyo, Sydney, Cina* |
+| Impostazione predefinita | Oregon, Virginia, Irlanda, Parigi, Mumbai, Singapore, Tokyo, Sydney, Cina* |
 
 *China RDC richiede il pacchetto aggiuntivo Cina. Vedi la nota &quot;Importante&quot; sopra.
 
