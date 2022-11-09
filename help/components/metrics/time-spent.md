@@ -3,9 +3,9 @@ title: Calcolo del tempo trascorso in Adobe Analytics
 description: Pagina aggregata di dimensioni e metriche del tempo trascorso.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 283b8e23c95b46d091b41ed97ca9bc683e7a33ee
+source-git-commit: e2128ef18a62832a9740a4cb610685f351c7db19
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1531'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ Varie [!UICONTROL 'time spent'] metriche e dimensioni sono offerte tra i prodott
 
 | Metrica | Definizione | Disponibile in |
 |---|---|---|
-| [!UICONTROL Total seconds spent] | Rappresenta la quantità totale di tempo che i visitatori interagiscono con un elemento dimensione specifico. Include l’istanza di un valore e una persistenza in tutti gli hit successivi. Nel caso delle proprietà, il tempo trascorso viene conteggiato anche tra gli eventi di collegamento successivi. | Analysis Workspace, Reports &amp; Analytics, Report Builder (chiamato &quot;tempo totale trascorso&quot;), Data Warehouse |
+| [!UICONTROL Total seconds spent] | Rappresenta la quantità totale di tempo che i visitatori interagiscono con un elemento dimensione specifico. Include l’istanza di un valore e una persistenza in tutti gli hit successivi. Nel caso delle proprietà, il tempo trascorso viene conteggiato anche tra gli eventi di collegamento successivi. | Analysis Workspace, Reports &amp; Analytics, Report Builder (detto &quot;tempo totale trascorso&quot;), Data Warehouse |
 | [!UICONTROL Time spent per visit] (Seconds) | Circa *Totale secondi trascorsi / (rimbalzi a visita)*<br> Rappresenta il tempo medio di interazione dei visitatori con un elemento dimensione specifico durante ogni visita. **Nota**: Questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Time spent per visitor] (Secondi) | Circa *Totale secondi trascorsi / visitatore univoco*<br> Rappresenta il tempo medio di interazione dei visitatori con un elemento dimensione specifico per tutta la durata del visitatore (lunghezza del cookie). **Nota**: Questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Time Spent/User (State)] | Circa *Totale secondi trascorsi per app mobili / visitatori univoci per app mobili*<br> Rappresenta il tempo medio di interazione dei visitatori dell’app mobile con un elemento dimensione specifico per tutta la durata del visitatore (lunghezza del cookie). **Nota**: Questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace |
@@ -55,9 +55,9 @@ La **denominatore** non è disponibile come metrica separata in Adobe Analytics.
 
 ## Domande frequenti
 
-**Q1: Tutte le metriche &quot;tempo trascorso&quot; possono essere applicate a qualsiasi dimensione?**
++++È possibile applicare tutte le metriche &quot;tempo trascorso&quot; a qualsiasi dimensione?
 
-R: Le metriche &quot;tempo trascorso&quot; che possono essere applicate a qualsiasi dimensione sono:
+Le metriche &quot;tempo trascorso&quot; che possono essere applicate a qualsiasi dimensione sono:
 
 * [!UICONTROL Total seconds spent]
 
@@ -67,22 +67,28 @@ R: Le metriche &quot;tempo trascorso&quot; che possono essere applicate a qualsi
 
 * [!UICONTROL Average time spent on site] (Secondi)
 
-**Q2: Quale dimensione tempo trascorso è più utilizzata nelle suddivisioni con altre dimensioni?**
++++
 
-R: La [!UICONTROL Time Spent on Page – granular] è una dimensione a livello di hit. Se suddividi questo per un’altra dimensione, potrai sapere in quali secondi è durato un hit dove era presente anche la dimensione di suddivisione.
++++Quale dimensione tempo trascorso è più utilizzata nelle suddivisioni con altre dimensioni?
+
+La [!UICONTROL Time Spent on Page – granular] è una dimensione a livello di hit. Se suddividi questo per un’altra dimensione, potrai sapere in quali secondi è durato un hit dove era presente anche la dimensione di suddivisione.
 Nell’esempio seguente, il termine di ricerca &quot;annunci&quot; è associato a periodi di hit di 54 secondi, 59 secondi, ecc., ad esempio per indicare ai visitatori che trascorrono del tempo a leggere il contenuto restituito per quel termine.
 
 ![](assets/time-spent1.png)
 
-**Q3: Quale metrica è appropriata rispetto alla dimensione di [!UICONTROL Time Spent on Page – granular]?**
++++
 
-R: Qualsiasi metrica. La dimensione mostra il tempo trascorso sull’hit esatto in cui si è verificato l’evento. Un tempo più lungo trascorso indica che un visitatore è rimasto più a lungo in una pagina (hit) in cui si è verificato l’evento.
++++Qual è la metrica appropriata rispetto alla dimensione di [!UICONTROL Time Spent on Page – granular]?
+
+Qualsiasi metrica. La dimensione mostra il tempo trascorso sull’hit esatto in cui si è verificato l’evento. Un tempo più lungo trascorso indica che un visitatore è rimasto più a lungo in una pagina (hit) in cui si è verificato l’evento.
 
 ![](assets/time-spent2.png)
 
-**Q4: Come funziona [!UICONTROL Average Time Spent on Site] differisci da [!UICONTROL Time Spent per Visit]?**
++++
 
-R: La differenza è il denominatore della metrica:
++++How [!UICONTROL Average Time Spent on Site] differisci da [!UICONTROL Time Spent per Visit]?
+
+La differenza è il denominatore della metrica:
 
 * [!UICONTROL Average time spent on site] utilizza le sequenze che includono un elemento dimensione.
 
@@ -90,9 +96,11 @@ R: La differenza è il denominatore della metrica:
 
 Di conseguenza, queste metriche possono produrre risultati simili a livello di visita, ma saranno diverse a livello di hit.
 
-**Q5: Perché suddividere i totali con [!UICONTROL Average Time Spent on Site] non corrisponde all&#39;elemento della riga padre?**
++++
 
-R: Perché [!UICONTROL Average Time Spent on Site] dipende da sequenze non interrotte di una dimensione e il rapporto interno non dipende dal rapporto esterno per il calcolo di tali esecuzioni.
++++Perché si suddividono i totali con [!UICONTROL Average Time Spent on Site] non corrisponde all&#39;elemento della riga padre?
+
+Perché [!UICONTROL Average Time Spent on Site] dipende da sequenze non interrotte di una dimensione e il rapporto interno non dipende dal rapporto esterno per il calcolo di tali esecuzioni.
 
 Ad esempio, considera la visita seguente.
 
@@ -105,6 +113,8 @@ Ad esempio, considera la visita seguente.
 Quando si calcola il tempo trascorso per la Homepage sarebbe (30+10)/2=20, ma la suddivisione per giorno darebbe (30+10)/1=40 dal momento che il giorno ha una singola esecuzione ininterrotta del 1 gennaio.
 
 Di conseguenza, queste metriche possono produrre risultati simili a livello di visita, ma saranno diverse a livello di hit.
+
++++
 
 ## Esempi di [!UICONTROL Time Spent] calcoli
 
