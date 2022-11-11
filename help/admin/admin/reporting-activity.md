@@ -3,13 +3,13 @@ description: Scopri come utilizzare Reporting Activity Manager per diagnosticare
 title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
+exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
+source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '867'
 ht-degree: 4%
 
 ---
-
 
 # Reporting Activity Manager
 
@@ -31,7 +31,9 @@ In Adobe Analytics, gli amministratori accedono a **[!UICONTROL Admin]** > **[!U
 
 ## Autorizzazioni
 
-Per gestire le attività di reporting è necessario disporre delle autorizzazioni di amministratore prodotto di Analytics.
+Per gestire l’attività di reporting è necessaria l’autorizzazione amministratore prodotto di Analytics (in Adobe Admin Console).
+
+![autorizzazione](assets/rep-mgr-permission.png)
 
 ## Visualizza la coda dei report
 
