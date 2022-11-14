@@ -4,9 +4,9 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
+source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '895'
 ht-degree: 4%
 
 ---
@@ -88,7 +88,7 @@ I numeri di riepilogo mostrano le seguenti informazioni:
 
 | Numero di riepilogo | Descrizione |
 | --- | --- |
-| [!UICONTROL Users] | Quanti utenti stanno attualmente inviando richieste di reporting a questa suite di rapporti. |
+| [!UICONTROL Users] | Il numero di utenti che attualmente inviano richieste di reporting a questa suite di rapporti. |
 | [!UICONTROL Projects] | Progetti Workspace, cartelle di lavoro di Report Builder, ecc. |
 | [!UICONTROL Queries] | Numero di query attualmente in esecuzione. |
 | [!UICONTROL Average Wait Time] | Tempo medio di attesa per tutte le query in esecuzione. |
@@ -120,7 +120,10 @@ La tabella dettagliata seguente mostra i dettagli sulla suite di rapporti.
 
 Per annullare una richiesta
 
-1. Seleziona la casella a sinistra di uno o più **[!UICONTROL Query ID]** nella tabella e fai clic su **[!UICONTROL Cancel requests]** in basso. (Puoi anche annullare le richieste in blocco visualizzando i dettagli per [!UICONTROL User], [!UICONTROL Project]oppure [!UICONTROL Application].)
+1. Seleziona la casella a sinistra di uno o più **[!UICONTROL Query ID]** nella tabella e fai clic su **[!UICONTROL Cancel requests]** in basso.
+
+   Puoi anche annullare le richieste in blocco visualizzando i dettagli per: [!UICONTROL User], [!UICONTROL Project]oppure [!UICONTROL Application]. Le richieste successive per un progetto, un utente o un&#39;applicazione che non erano in coda o in esecuzione al momento dell&#39;annullamento possono ancora essere visualizzate quando l&#39;attività viene aggiornata.
+
 1. In **[!UICONTROL Cancel x query]** Se necessario, puoi modificare il messaggio di cancellazione.
 1. Fai clic su **[!UICONTROL Continue]**.
 
