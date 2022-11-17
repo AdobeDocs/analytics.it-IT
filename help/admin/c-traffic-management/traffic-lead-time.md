@@ -3,10 +3,10 @@ description: Ad Adobe, è necessario un preavviso per le nuove impostazioni acco
 title: Tempo di lead richiesto per aumento di traffico
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: f9462d1b8b2795bec9dab9b479d4885fcaa92b5d
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 4%
+source-wordcount: '341'
+ht-degree: 3%
 
 ---
 
@@ -24,36 +24,30 @@ Per determinare con quale anticipo è necessario inviare un avviso di traffico, 
 
 ## Lead time di allocazione hardware
 
+
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Stime giornaliere del traffico (hit) </th>
-   <th colname="col2" class="entry"> <p>Lead time necessario (gennaio - ottobre) </p> </th>
-   <th colname="col3" class="entry"> <p>Lead time necessario (novembre - dicembre) </p> </th>
+   <th colname="col1" class="entry"> Tipo di modifica del traffico </th>
+   <th colname="col2" class="entry"> Lead time necessario </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Fino a 1.000.000 </td>
-   <td colname="col2"> Nessun lead time necessario </td>
-   <td colname="col3"> Nessun lead time necessario </td>
+   <td colname="col1"> Nuova configurazione account </td>
+   <td colname="col2"> <ul><li>3 giorni lavorativi</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 1.000.000 - 5.000.000 </td>
-   <td colname="col2"> Due giorni lavorativi </td>
-   <td colname="col3" morerows="3"> Tutti gli aumenti di traffico previsti per novembre-dicembre devono essere presentati entro il 1° settembre. In questo modo, è possibile disporre del tempo necessario per l'acquisto della capacità necessaria per accogliere il traffico delle vacanze. </td>
+   <td colname="col1"> Aumento improvviso del traffico permanente fino al 25% in volume medio giornaliero rispetto agli ultimi 30 giorni</td>
+   <td colname="col2"> <ul><li>Suite di rapporti con &lt; 100M hit/giorno: Nessuna notifica richiesta</li><li>Suite di rapporti con &gt; 100M hit/giorno: 5 giorni lavorativi</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 5.000.000 - 10.000.000 </td>
-   <td colname="col2"> Una settimana di calendario </td>
+   <td colname="col1"> Aumento improvviso del traffico permanente di oltre il 25% in volume medio giornaliero rispetto agli ultimi 30 giorni</td>
+   <td colname="col2"> <ul><li>5 giorni lavorativi</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 10.000.000 - 25.000.000 </td>
-   <td colname="col2"> Due settimane di calendario </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Superiore a 25.000.000 </p> </td>
-   <td colname="col2"> Uno o più mesi </td>
+   <td colname="col1"> Eventi festivi Ottobre - Dicembre </td>
+   <td colname="col2"> <ul><li>Un mese di calendario</li></ul> </td>
   </tr>
  </tbody>
 </table>
