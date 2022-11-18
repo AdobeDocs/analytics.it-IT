@@ -1,20 +1,20 @@
 ---
-description: Domande frequenti sulla configurazione, la configurazione e l’implementazione delle funzioni in Activity Map.
+description: Domande frequenti sull’organizzazione, la configurazione e l’implementazione delle funzioni in Activity Map.
 title: Domande frequenti su Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Domande frequenti su Activity Map
 
-Domande frequenti sulla configurazione, la configurazione e l’implementazione delle funzioni in Activity Map.
+Domande frequenti sull’organizzazione, la configurazione e l’implementazione delle funzioni in Activity Map.
 
 +++Tutti i clienti di Analytics hanno accesso alla pagina Abilitazione ActivityMap degli Strumenti di amministrazione?
 Le organizzazioni con un contratto per Adobe Analytics Standard, Premium e Ultimate possono accedere ad Activity Map.
@@ -25,10 +25,10 @@ Ogni pochi secondi, Activity Map esegue la scansione della pagina web alla ricer
 
 * Activity Map controlla se la visibilità dei collegamenti di cui è a conoscenza è cambiata. Se viene rilevata una modifica nella visibilità, la colonna Link On Page della tabella Links On Page presente per quel collegamento si aggiorna con [!UICONTROL Displayed] o [!UICONTROL Hidden].
 
-* Quando l’interazione dell’utente crea un nuovo contenuto, tutti i nuovi elementi trovati da AppMeasurement come collegamento verranno aggiunti al [!UICONTROL Links On Page] tabella. Activity Map invia una nuova richiesta di dati che include questi nuovi collegamenti. I nuovi collegamenti dovrebbero essere visualizzati nella sezione [!UICONTROL Links On Page] quando la richiesta di dati viene gestita dall’interfaccia utente.
+* Quando l’interazione dell’utente crea un nuovo contenuto, tutti i nuovi elementi trovati da AppMeasurement come collegamento verranno aggiunti alla tabella [!UICONTROL Links On Page]. Activity Map invia una nuova richiesta di dati che include questi nuovi collegamenti. I nuovi collegamenti dovrebbero essere visualizzati nella sezione [!UICONTROL Links On Page] quando la richiesta di dati viene gestita dall’interfaccia utente.
 +++
 
-+++Activity Map fornisce dati sulle &quot;visualizzazioni&quot;?
++++Activity Map fornisce dati sulle “visualizzazioni”?
 No, Adobe non tiene traccia dei collegamenti visualizzati.
 +++
 
@@ -41,16 +41,16 @@ Activity Map non invia chiamate server da sola. Invece, le variabili di dati di 
 +++
 
 +++Perché mancano alcune sovrapposizioni di elementi classificati?
-Alcuni collegamenti con classifica, come i collegamenti dei sottomenu, sono nascosti dalla pagina. Di conseguenza, le sovrapposizioni di collegamento corrispondenti non vengono visualizzate. La classificazione viene calcolata per tutti i collegamenti sulla pagina, compresi quelli nascosti.
+Alcuni collegamenti classificati, come i collegamenti dei sottomenu, sono nascosti dalla pagina. Di conseguenza, le sovrapposizioni di collegamento corrispondenti non vengono visualizzate. La classificazione viene calcolata per tutti i collegamenti sulla pagina, compresi quelli nascosti.
 +++
 
 +++Come viene determinata la classificazione dei collegamenti nel rapporto Tutti i collegamenti?**
-* **In modalità Sfumatura e bolla**: La classificazione è determinata dalla colonna della metrica. Per i collegamenti con lo stesso valore di metrica, il rango si basa ulteriormente sull’ordine alfabetico degli ID collegamento.
-* **In modalità Gainer &amp; Loser**: La classificazione è determinata principalmente dalla colonna Guadagno %. Per i collegamenti con lo stesso guadagno, il rango è ulteriormente basato sull&#39;ordine alfabetico dell&#39;ID collegamento.
+* **In modalità Sfumatura e bolla**: la classificazione è determinata dalla colonna della metrica. Per i collegamenti con lo stesso valore di metrica, la classificazione si basa ulteriormente sull’ordine alfabetico degli ID collegamento.
+* **In modalità Gainer &amp; Loser**: la classificazione è determinata principalmente dalla colonna Guadagno %. Per i collegamenti con lo stesso guadagno, la classificazione è ulteriormente basato sull’ordine alfabetico dell’ID collegamento.
 +++
 
 +++Come funziona Activity Map con pagine che utilizzano più suite di rapporti?
-Per impostazione predefinita, Activity Map utilizza la suite di rapporti associata al primo tag inviato dalla pagina. Puoi selezionare una suite di rapporti con tag diversa tramite **[!UICONTROL Activity Map Settings]** > **[!UICONTROL Others]** scheda .
+Per impostazione predefinita, Activity Map utilizza la suite di rapporti associata al primo tag inviato dalla pagina. Puoi selezionare una suite di rapporti con tag diversa tramite la scheda **[!UICONTROL Activity Map Settings]** > **[!UICONTROL Others]**.
 +++
 
 +++Per quanto tempo Activity Map esegue la scansione di Adobe Analytics sulla pagina?
@@ -72,7 +72,7 @@ Tutti i dati visualizzati si basano sulle visualizzazioni di pagina.
 +++
 
 +++Posso esportare le variabili di dati di contesto Activity Map tramite feed di dati?
-Sì. La [Colonne dati](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) che Activity Map utilizza `clickmaplink`, `clickmaplinkbyregion`, `clickmappage`e `clickmapregion`.
+Sì. Le [Colonne dati](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) che Activity Map utilizza sono `clickmaplink`, `clickmaplinkbyregion`, `clickmappage`e `clickmapregion`.
 +++
 
 +++I segmenti funzionano in modalità Live?
@@ -86,7 +86,7 @@ Sì. Tuttavia, a causa delle limitazioni della suite di rapporti virtuali, la mo
 +++Come posso disabilitare Activity Map?
 Sono disponibili tre opzioni:
 
-* Elimina `AppMeasurement_Module_ActivityMap` funzione dal file JS
+* Elimina la funzione `AppMeasurement_Module_ActivityMap` dal file JS
 * Aggiungi un codice personalizzato che riscrive la funzione precedente con un corpo vuoto, ad esempio:
 
    ```js
