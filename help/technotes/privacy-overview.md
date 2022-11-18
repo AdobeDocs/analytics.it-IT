@@ -5,9 +5,9 @@ title: Panoramica sulla privacy
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Adobe Analytics raccoglie i dati seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe ha attivato l’impostazione IP-Obfuscation (oscuramento dell’IP): abilitato - IP rimosso (x.x.x.x) per impostazione predefinita per tutti i clienti con una suite di rapporti nell’area EMEA. Con questa impostazione, l’indirizzo IP verrà completamente sostituito con il valore (x.x.x.x) dopo la geo-lookup e non sarà più disponibile come punto dati. <p>Con questo metodo di sostituzione di base non è possibile risalire a un indirizzo IP univoco specifico. Né il cliente né Adobe possono accedere all’indirizzo IP, che diventa irreversibilmente anonimo. Per ulteriori informazioni sulle altre impostazioni di oscuramento dell'IP, vedi </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">Impostazioni account generali</a> nella guida utente Admin.</p> </td>
+   <td colname="col2"> Adobe ha attivato l’impostazione IP-Obfuscation (oscuramento dell’IP): abilitato - IP rimosso (x.x.x.x) per impostazione predefinita per tutti i clienti con una suite di rapporti nell’area EMEA. Con questa impostazione, l’indirizzo IP verrà completamente sostituito con il valore (x.x.x.x) dopo la geo-lookup e non sarà più disponibile come punto dati. <p>Con questo metodo di sostituzione di base non è possibile risalire a un indirizzo IP univoco specifico. Né il cliente né Adobe possono accedere all’indirizzo IP, che diventa irreversibilmente anonimo. Per maggiori informazioni sulle altre impostazioni di offuscamento dell’IP, consulta </p> <p> le <a href="/help/admin/admin/general-acct-settings-admin.md">Impostazioni account generali</a> nella guida utente di Amministrazione.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Globale </td> 
@@ -103,7 +103,7 @@ Adobe Analytics raccoglie i dati seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Germania </td> 
-   <td colname="col2"> <p>Se non hai già in vigore un accordo sull’elaborazione dei dati per Adobe Analytics con Adobe, contatta il tuo Account Manager di Adobe o il tuo Customer Success Manager, che collaborerà con l’Ufficio legale di Adobe per mettere in atto l’applicazione del DPA. </p> </td> 
+   <td colname="col2"> <p>Se non disponi già di un accordo di elaborazione dati per Adobe Analytics stipulato con Adobe, devi contattare il tuo Adobe Account Manager o Customer Success Manager, che collaborerà con l’ufficio legale di Adobe per stipulare l’accordo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
