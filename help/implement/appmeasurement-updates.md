@@ -4,9 +4,9 @@ description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2315'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Data di rilascio: **15 agosto 2019**
 
 Data di rilascio: **15 luglio 2019**
 
-* Aggiunto il tracking della portata di scorrimento all’estensione di Activity Map (AN-172949)
+* Aggiunto il tracking della portata di scorrimento all’estensione di ActivityMap (AN-172949)
 * Aggiunto DIL 9.2 ad AppMeasurement (AN-182472)
 
 ## Versione 2.14.0
@@ -275,7 +275,7 @@ Aggiornato il **4 agosto 2016**
 
 >[!IMPORTANT]
 >
->La versione 1.6.0 del servizio [!DNL Experience Cloud] ID *richiede* [!DNL AppMeasurement] per [!DNL JavaScript] versione 1.6.3 o successiva. Se desideri effettuare l’aggiornamento alla versione 1.6.0 del servizio Experience Cloud ID, assicurati di utilizzare AppMeasurement 1.6.3 o versione successiva.
+>La versione 1.6.0 del servizio [!DNL Experience Cloud] ID *richiede* [!DNL AppMeasurement] per [!DNL JavaScript] versione 1.6.3 o successiva. Se vuoi eseguire l’aggiornamento alla versione 1.6.0 del servizio ID di Experience Cloud, assicurati di utilizzare la versione di AppMeasurement 1.6.3 o successiva.
 
 ## Versione 1.6.2
 
@@ -456,7 +456,7 @@ Data di rilascio: **15 novembre 2013**
 Data di rilascio: **14 novembre 2013**
 
 * È stato aggiunto il supporto per la misurazione video [Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
-* È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
 
 ## Versione 1.1.1
 
