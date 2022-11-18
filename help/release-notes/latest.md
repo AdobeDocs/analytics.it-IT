@@ -3,16 +3,16 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 3c010207764de51ed053b7bf9ee777e68097e411
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 93%
+source-wordcount: '1447'
+ht-degree: 91%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (ottobre/novembre 2022)
 
-**Ultimo aggiornamento**: 28 ottobre 2022
+**Ultimo aggiornamento**: 18 novembre 2022
 
 I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -39,6 +39,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
+| **Linee guida aggiornate per le notifiche con picchi di traffico** | 18 novembre 2022 | Le precedenti linee guida si basavano rigorosamente sui volumi di hit. La [nuove linee guida](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=en) si basano su una combinazione di dimensioni della suite di rapporti e aumento della percentuale. |
 | **Aggiornamento delle ricerche dei dispositivi a causa di suggerimenti client Google** | 14 ottobre 2022 | L’utilizzo degli hint client nella ricerca del dispositivo, originariamente pianificati per il 26 ottobre 2022, è stato posticipato a **gennaio 2023**. <p> <p>Da ottobre 2022 è possibile raccogliere gli hint client con le librerie Web SDK o AppMeasurement per JavaScript. Tuttavia, gli hint client non saranno incorporati nella ricerca del dispositivo fino a gennaio 2023. In tale data, Adobe inizierà a utilizzare gli hint client in aggiunta all’agente utente per ricavare determinate informazioni sul dispositivo per gli hit provenienti dai browser Chromium, come Google Chrome e Microsoft Edge. Ciò risponde al piano di Google volto a ridurre gradualmente le informazioni presentate dalla stringa dell’agente utente al posto dei dati trasmessi tramite gli hint client. <p> <p>Come parte di questa modifica, Adobe utilizzerà Device Atlas per tutte le ricerche di informazioni sui dispositivi relative all’agente utente. [Ulteriori informazioni](/help/technotes/client-hints.md) |
 | **Pagina di destinazione predefinita** | 29 settembre 2022 | La [nuova pagina di destinazione](/help/analyze/landing.md) introdotta all&#39;inizio di quest&#39;anno diventerà l&#39;esperienza predefinita per tutti gli utenti a **gennaio 2023**. La pagina corrente diventerà obsoleta e tutti dovranno utilizzare la nuova esperienza. |
 | Condizioni per l’esecuzione automatica di **[!UICONTROL Anomaly detection]** | 29 settembre 2022 | Oggi, [!UICONTROL Anomaly detection] viene eseguito automaticamente su tutte le colonne delle tabelle a forma libera con serie temporale. Affinché i dati possano essere rapidamente disponibili per l’analisi e per velocizzare il caricamento dei progetti, Adobe cambierà il modo in cui funziona l’esecuzione automatica del Rilevamento delle anomalie. A partire dal **26 ottobre 2022**, [!UICONTROL Anomaly detection] viene eseguito automaticamente solo sulla prima colonna di metriche di una tabella. Se necessario, puoi configurare le impostazioni delle colonne per eseguire il rilevamento delle anomalie su altre colonne. |
