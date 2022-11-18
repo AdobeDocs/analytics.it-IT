@@ -6,9 +6,9 @@ feature: Admin Tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 84%
 
 Puoi cercare valori contenenti errori ortografici comuni e aggiornarli in modo da riportarli correttamente nei rapporti.
 
-Per evitare di corrispondere inavvertitamente ad altri valori, utilizza l’opzione di corrispondenza più restrittiva disponibile. Puoi eseguire un rapporto sulla variabile (prop1 nell’esempio seguente) e cercare i termini che vuoi sostituire per evitare che vengano rilevati valori non desiderati. Nel confronto delle stringhe non viene fatta distinzione tra maiuscole e minuscole.
+Per evitare di agire accidentalmente su altri valori, utilizza l’opzione di corrispondenza più restrittiva disponibile. Puoi eseguire un rapporto sulla variabile (prop1 nell’esempio seguente) e cercare i termini che vuoi sostituire per evitare che vengano rilevati valori non desiderati. Nel confronto delle stringhe non viene fatta distinzione tra maiuscole e minuscole.
 
 | Set di regole | Valore |
 |---|---|
