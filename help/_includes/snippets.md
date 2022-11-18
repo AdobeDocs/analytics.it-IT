@@ -1,14 +1,14 @@
 ---
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '19'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 # Snippet
 
-## Annuncio finale di Reports &amp; Analytics {#ra-eol}
+## Annuncio sulla fine del ciclo di vita di Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
->Ulteriori informazioni su Reports &amp; Analytics [Annuncio di fine vita](https://express.adobe.com/page/6WnF8JK6IRDhf/).
+>Ulteriori informazioni sull’[Annuncio sulla fine del ciclo di vita](https://express.adobe.com/page/6WnF8JK6IRDhf/) di Reports &amp; Analytics.
