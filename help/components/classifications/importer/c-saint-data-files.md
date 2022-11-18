@@ -4,9 +4,9 @@ title: File di dati di classificazione
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1735'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,10 +50,10 @@ Un file di dati deve rispettare le seguenti regole di struttura:
 * Le esportazioni delle classificazioni possono avere chiavi duplicate a causa di caratteri di nuova riga nella chiave. In un’esportazione FTP o browser, questo può essere risolto attivando le virgolette per l’account FTP. In questo modo ciascuna chiave con caratteri di nuova riga verrà inserita tra virgolette.
 * La cella C1 nella prima riga del file di importazione contiene un identificatore di versione che determina il modo in cui le classificazioni gestiscono l’uso delle virgolette per la parte restante del file.
 
-   * v2.0 ignora le virgolette e presuppone che siano parte delle chiavi e dei valori specificati. Ad esempio, considera questo valore: “Questo è ““un valore”””. v2.0 lo interpreterebbe letteralmente: “Questo è ““un valore”””.
+   * v2.0 ignora le virgolette e presuppone che siano parte delle chiavi e dei valori specificati. Ad esempio, considera questo valore: “Questo è “un valore””. v2.0 lo interpreterebbe letteralmente: “Questo è “un valore””.
    * v2.1 indica alle classificazioni di presumere che le virgolette siano parte della formattazione del file utilizzata nei file Excel. Quindi v2.1 formatta l’esempio precedente in questo modo: Questo è “un valore”.
    * Possono sorgere problemi quando v2.1 è specificato nel file, ma si desidera v2.0, ovvero quando le virgolette sono utilizzate in modi che non sono concessi nella formattazione Excel. Ad esempio, se disponi di un valore: “VP NO REPS” S/l Dress w/ Overlay. Con v2.1 questa viene considerata una formattazione errata (il valore deve essere racchiuso tra virgolette di apertura e chiusura e le virgolette che fanno parte del valore effettivo devono essere precedute da virgolette) e le classificazioni non funzioneranno oltre questo punto.
-   * Effettua una delle seguenti operazioni: cambia il formato del file in v2.0 cambiando l&#39;intestazione (cella C1) nei file caricati, OPPURE implementa correttamente le virgolette Excel in tutti i file.
+   * Effettua una delle seguenti operazioni: modifica il formato del file in v2.0 cambiando l’intestazione (cella C1) nei file caricati, OPPURE implementa correttamente le virgolette Excel in tutti i file.
 
 * La prima riga (senza commenti) del file di dati contiene le intestazioni di colonna utilizzate per identificare i dati di classificazione nella colonna. L’importazione richiede un formato specifico per le intestazioni di colonna. Per ulteriori informazioni, consulta [Formato delle intestazioni di colonna](/help/components/classifications/importer/c-saint-data-files.md).
 * Dopo la riga di intestazione in un file di dati sono riportate le righe di dati. Ognuna di esse deve contenere un campo dati per ogni intestazione di colonna.
@@ -155,7 +155,7 @@ Questi caratteri hanno un significato particolare in un file di dati. Laddove po
 
 **Esempio:** se la campagna A costa $ 10.000, la colonna [!UICONTROL Campaigns^~Cost] contiene il valore 10000 e la colonna [!UICONTROL Campaigns^~Cost~per] contiene [!UICONTROL FIXED]. Quando visualizzi il costo per la campagna A nei rapporti, vedrai $ 10.000 come costo fisso per la campagna A per l’intervallo di date.
 
-**Esempio:** se la campagna B costa circa $ 2 per clic, la colonna [!UICONTROL Campaigns^~Cost] contiene il valore 2 e la colonna **[!UICONTROL Campaigns^~Cost~per]** contiene [!UICONTROL CLICK]. Quando nei rapporti viene visualizzato il costo per la campagna B, Adobe calcola (2 &#42; [numero di clic]) all’istante per l’intervallo di date del rapporto. Questo consente di calcolare il costo totale in base al numero di clic eseguiti con la campagna B.
+**Esempio:** se la campagna B costa circa $ 2 per clic, la colonna [!UICONTROL Campaigns^~Cost] contiene il valore 2 e la colonna **[!UICONTROL Campaigns^~Cost~per]** contiene [!UICONTROL CLICK]. Quando nei rapporti viene visualizzato il costo per la campagna B, Adobe calcola in tempo reale (2 &#42; [numero di clic]) per l’intervallo di date del rapporto. Questo consente di calcolare il costo totale in base al numero di clic eseguiti con la campagna B.
 
 ### Data
 
@@ -203,4 +203,4 @@ Per classificare le campagne in base all’intervallo di date:
 
 ## Risoluzione di problemi relativi alle classificazioni
 
-* [Problemi comuni relativi al caricamento](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): articolo della knowledge base che descrive i problemi derivanti da formati e contenuti di file non corretti.
+* [Problemi comuni relativi al caricamento](https://helpx.adobe.com/it/analytics/kb/common-saint-upload-issues.html): articolo della knowledge base che descrive i problemi derivanti da formati e contenuti di file non corretti.
