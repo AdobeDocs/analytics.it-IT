@@ -4,9 +4,9 @@ title: Creare segmenti sequenziali
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3658'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ Posizionando punti di controllo sia a livello di [!UICONTROL Visit] che a livell
 
 Le regole del segmento includono tutti i dati a meno che tu non escluda espressamente i dati di [!UICONTROL Visitor], [!UICONTROL Visit] o [!UICONTROL Hit] utilizzando la regola [!UICONTROL Exclude]. Essa consente di ignorare i dati comuni e creare segmenti con maggiore precisione. Oppure consente di creare segmenti escludendo i gruppi individuati per identificare il set di dati rimanente. Ad esempio è possibile creare una regola che includa i visitatori che hanno effettuato un ordine e poi escluderli per identificare i “non acquirenti”. Tuttavia, nella maggior parte dei casi è meglio creare regole che escludano valori ampi piuttosto che cercare di utilizzare la regola [!UICONTROL Exclude] per valori di inclusione specifici.
 
-Ad esempio:
+Esempio:
 
 * **Escludi pagine**. Utilizza una regola di segmento per eliminare una pagina specifica (ad esempio *`Home Page`*) da un rapporto, creare una regola Hit in cui la pagina sia uguale a “Home page” e poi escluderla. Questa regola include automaticamente tutti i valori eccetto “Home page”.
 * **Escludi i domini di riferimento**. Utilizza una regola che include solo i domini di riferimento da Google.com ed esclude tutti gli altri.
@@ -210,7 +210,7 @@ Crea un segmento come faresti per un segmento sequenziale semplice, a livello mi
 
 Se il punto di controllo di esclusione si trova all’inizio di un segmento sequenziale, ciò assicura che una visualizzazione di pagina esclusa non sia avvenuta prima del primo hit non escluso.
 
-Ad esempio, un ristorante vuole vedere utenti abituali che evitano la pagina di destinazione principale e visitano direttamente la pagina Ordina. Questo esempio può essere semplificato per un visitatore evitando di visitare la pagina A e andando direttamente alla pagina B.
+Ad esempio, un ristorante desidera vedere gli utenti abituali che evitano la pagina di destinazione principale e vanno direttamente alla pagina Ordina. Questo esempio può essere semplificato per un visitatore che evita di visitare la pagina A e va direttamente alla pagina B.
 
 **Creare il segmento**
 
@@ -222,7 +222,7 @@ Crea due contenitori Hit separati all’interno di un contenitore Visitor di liv
 
 Se il punto di controllo di esclusione si trova alla fine di una sequenza, ciò assicura che il punto di controllo non si sia verificato tra l’ultimo punto di controllo non escluso e la fine della sequenza del visitatore.
 
-Ad esempio, un negozio di abbigliamento vuole vedere tutti i visitatori che hanno visualizzato una pagina di prodotto ma non hanno mai visitato il carrello successivamente. Questo esempio può essere semplificato per un visitatore che va alla pagina A e poi non va mai alla pagina B nelle visite correnti o successive.
+Ad esempio, un negozio di abbigliamento vuole vedere tutti i visitatori che hanno visualizzato una pagina di prodotto ma poi non hanno mai visitato il loro carrello. Questo esempio può essere semplificato per un visitatore che va alla pagina A e non va mai alla pagina B nelle visite correnti o successive.
 
 **Creare il segmento**
 
