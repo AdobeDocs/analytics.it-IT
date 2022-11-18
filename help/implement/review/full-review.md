@@ -6,27 +6,27 @@ exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 0%
+ht-degree: 95%
 
 ---
 
-# Revisione completa (per rivedere l&#39;implementazione due volte all&#39;anno)
+# Revisione completa (per rivedere l’implementazione due volte all’anno)
 
-Perché dovresti rivedere la tua implementazione ogni 6 mesi? Perché è necessario assicurarsi che l&#39;implementazione rimanga in linea con le esigenze aziendali! Desideri anche affrontare qualsiasi problema di qualità dei dati, se sono di piccole dimensioni e prima che diventino importanti questioni relative ai dati che potrebbero erodere la fiducia delle parti interessate. Oltre a queste recensioni complete ogni 6 mesi, si dovrebbe anche fare [Recensioni mirate](/help/implement/review/focused-review.md)dopo ogni versione del sito web.
+Perché dovresti rivedere la tua implementazione ogni 6 mesi? Perché è necessario assicurarsi che l’implementazione sia ancora in linea con le esigenze aziendali. Inoltre, è meglio affrontare eventuali problemi di qualità dei dati quando sono ancora di piccola entità, prima che diventino questioni importanti che potrebbero minare la fiducia delle parti interessate. Oltre a queste revisioni complete ogni 6 mesi, dovresti eseguire anche [revisioni mirate](/help/implement/review/focused-review.md) dopo ogni aggiornamento del sito web.
 
-## 1. Assicurati che la tua implementazione sia ancora completamente allineata con le nostre esigenze aziendali
+## 1. Assicurati che l’implementazione sia ancora totalmente allineata alle esigenze aziendali
 
-Incontrare il proprietario e/o gli analisti aziendali per esaminare le mutevoli esigenze aziendali. Per qualsiasi esigenza o opportunità di misurazione che non sono attualmente soddisfatte dalla tua implementazione, scopri come aggiornare i KPI e i piani di misurazione. Ricorda di registrare le modifiche nel [BRD e SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
+Esamina eventuali cambiamenti nelle esigenze aziendali insieme al responsabile business e/o agli analisti. Se vengono rilevate esigenze o opportunità di misurazione che non sono attualmente soddisfatte dalla tua implementazione, determina come aggiornare i KPI e i piani di misurazione. Ricorda di registrare le modifiche nei documenti [BRD e SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 2. Assicurati che le metriche e le variabili funzionino ancora bene
 
-Controlla brevemente tutte le tue metriche e variabili, in ordine di importanza per l&#39;azienda, per assicurarti che i dati vengano raccolti correttamente. Inizia con le metriche e le variabili più importanti: quelle associate al tuo [primi 5 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review). Per eseguire questa operazione:
+Rivedi brevemente tutte le metriche e le variabili, in ordine di importanza per l’azienda, per assicurarti che i dati vengano raccolti correttamente. Inizia con le metriche e le variabili più importanti: quelle associate ai tuoi [primi 5 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review). Per eseguire questa operazione:
 
-* Crea dashboard per visualizzare le visualizzazioni con tendenze mensili delle metriche e delle variabili (o configura) [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) per ciascuno) per assicurarsi di ottenere i dati previsti e i dati sono corretti. Se riscontri delle discrepanze, esamina il livello dati, le regole di gestione dei tag e le regole di elaborazione per scoprirne il motivo.
-* Esegui nuovamente il [Dashboard di stato di Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) per monitorare le tendenze generali delle metriche e delle variabili.
+* Crea delle dashboard che presentino viste con tendenze mensili delle metriche e delle variabili (o configura [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=it#analysis-workspace) per ciascuna di esse), per assicurarti di ottenere i dati previsti e che i dati siano corretti. Se riscontri delle discrepanze, esamina il livello dati, le regole di gestione dei tag e le regole di elaborazione per scoprirne il motivo.
+* Esegui nuovamente [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) per monitorare le tendenze generali delle metriche e delle variabili.
 
-Non consentire che la tua implementazione si gonfi di metriche e variabili di cui non hai bisogno. Disabilita le metriche o le variabili che l&#39;azienda non ha più bisogno o utilizza. È possibile eliminarli o riutilizzarli in un secondo momento.
+Evita che l’implementazione si gonfi di metriche e variabili di cui non hai bisogno. Disabilita le metriche o le variabili che l’azienda non utilizza più o di cui non ha più bisogno. Potrai eliminarle o riutilizzarle in un secondo momento.
 
-## 3. Aggiornare i KPI
+## 3. Aggiorna i KPI
 
-Ora che avete una visione aggiornata degli obiettivi aziendali, riconsiderate se avete effettivamente scelto i 5 *più* indicatori prestazioni chiave (KPI, Key Performance Indicators) importanti. Puoi averne solo 5! Questi KPI possono essere metriche quali ricavi o metriche calcolate come ricavi per visita e possono avere anche variabili. Fai riferimento a [Definire i primi 5 KPI](/help/implement/review/define-kpis.md) per ulteriori informazioni.
+Ora che hai una visione aggiornata degli obiettivi aziendali, riconsidera se hai effettivamente scelto i 5 indicatori di prestazioni chiave (KPI, Key Performance Indicators) *più* importanti. Puoi averne solo 5. Questi KPI possono essere metriche (come ricavi) oppure metriche calcolate (come ricavi per visita) che possono avere anche delle variabili. Per ulteriori informazioni, consulta [Definire i primi 5 KPI](/help/implement/review/define-kpis.md).

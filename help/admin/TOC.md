@@ -7,7 +7,7 @@ user-guide-description: Scopri le attività di amministrazione di Analytics, com
 source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

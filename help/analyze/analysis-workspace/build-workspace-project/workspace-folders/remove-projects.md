@@ -5,13 +5,13 @@ title: Rimuovere progetti dalle cartelle
 feature: Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
 ---
-
 
 # Rimuovere un progetto da una cartella
 
@@ -23,7 +23,7 @@ Per rimuovere un progetto da una cartella, puoi spostarlo in un’altra posizion
 
 >[!NOTE]
 >
->Quando un amministratore sposta un progetto nella cartella aziendale, questa viene condivisa con tutti anche se i privilegi condivisi originali erano limitati. Quando un amministratore sposta un progetto al di fuori dalla cartella aziendale, vengono rispettati i privilegi di condivisione originali o precedenti.
+>Quando un amministratore sposta un progetto nella cartella dell’azienda, il progetto viene condiviso con tutti, anche se i suoi privilegi di condivisione originali prevedevano restrizioni. Quando un amministratore sposta un progetto al di fuori dalla cartella aziendale, vengono rispettati i privilegi di condivisione originali o precedenti.
 
 ## Spostare un progetto
 

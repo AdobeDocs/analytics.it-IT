@@ -5,13 +5,13 @@ title: Salvataggio dei progetti nelle cartelle
 feature: Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%
 
 ---
-
 
 # Salvare un nuovo progetto in una cartella
 
