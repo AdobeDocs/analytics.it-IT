@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1247'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ La nuova esperienza di [!UICONTROL flow] migliora il flusso di lavoro in diversi
 
 * Ora puoi scegliere di iniziare o terminare il percorso con la combinazione di una metrica e una dimensione di percorso.
 * Contiene [!UICONTROL Advanced Settings] per personalizzare ulteriormente il [!UICONTROL flow].
-* Il nuovo pulsante &quot;Genera&quot; consente di risparmiare tempo nell’analisi consentendo di configurare il percorso in una sola volta, quindi di eseguire una query e quindi di creare automaticamente più colonne e nodi contemporaneamente &#x200B;.
+* Il nuovo pulsante “Genera” consente di risparmiare tempo nell’analisi permettendoti di configurare il percorso in una volta sola, quindi di eseguire una query e di creare automaticamente più colonne e nodi contemporaneamente.
 
 ![nuova interfaccia utente di Flusso](assets/new-flow.png)
 
@@ -119,7 +119,7 @@ Quando utilizzi questa opzione, tieni presente che:
 * Se utilizzata con un flusso **[!UICONTROL Starts with]**, è inclusa solo la prima occorrenza corrispondente ai criteri di inizio.
 * Se utilizzata con un flusso **[!UICONTROL Ends with]**, verrà inclusa solo l’ultima occorrenza corrispondente ai criteri di fine.
 * La serie utilizzata varia in base al contenitore. Se utilizzi il contenitore **[!UICONTROL Visit]**, la serie di hit corrisponderà alla sessione. Se utilizzi il contenitore **[!UICONTROL Visitor]**, la serie di hit sarà costituita da tutti gli hit di un dato utente nell’intervallo di date specificato.
-* La **[!UICONTROL Limit to first/last occurrence]** È possibile configurare l’opzione nelle impostazioni avanzate quando si utilizza una metrica o un elemento di Dimension nei campi &quot;Inizia con&quot; o &quot;Termina con&quot;.
+* Quando si utilizza una metrica o un elemento dimensionale nei campi “Inizia con” o “Termina con”, l’opzione **[!UICONTROL Limit to first/last occurrence]** può essere configurata nelle impostazioni avanzate.
 
 Serie di hit di esempio:
 
@@ -131,11 +131,14 @@ Home > Prodotti > Aggiungi al carrello > Prodotti > Aggiungi al carrello > Fattu
 * Dimensione del percorso [!UICONTROL Page]
 * Contenitore [!UICONTROL Visit]
 
-Se **[!UICONTROL Limit to first/last occurrence]** è *disattivato*, quindi questa singola serie di hit conta 2 occorrenze di &quot;Aggiungi al carrello&quot;.
-Flusso previsto: &quot;Aggiungi al carrello&quot; (2) —> &quot;Prodotti&quot; (1) -> &quot;Fatturazione&quot; (1)
+Se **[!UICONTROL Limit to first/last occurrence]** è *disattivato*, questa singola serie di hit conterà due occorrenze di “Aggiungi al carrello”.
+Output di flusso previsto:
+“Aggiungi al carrello” (2) —> “Prodotti” (1)
+-> “Fatturazione” (1)
 
-Tuttavia, se **[!UICONTROL Limit to first/last occurrence]** è *abilitato*, nell’analisi è inclusa solo la prima occorrenza di &quot;Aggiungi al carrello&quot;.
-Flusso previsto: &quot;Aggiungi al carrello&quot; (1) —> &quot;Prodotti&quot; (1)
+Tuttavia, se **[!UICONTROL Limit to first/last occurrence]** è *abilitato*, nell’analisi verrà inclusa solo la prima occorrenza di “Aggiungi al carrello”.
+Output di flusso previsto: 
+“Aggiungi al carrello” (1) —> “Prodotti” (1)
 
 ### Considera la stessa serie di hit, ma utilizzando le seguenti impostazioni:
 
@@ -143,8 +146,10 @@ Flusso previsto: &quot;Aggiungi al carrello&quot; (1) —> &quot;Prodotti&quot; 
 * Dimensione del percorso [!UICONTROL Page]
 * Contenitore [!UICONTROL Visit]
 
-Se **[!UICONTROL Limit to first/last occurrence]** è *disattivato*, questa singola serie di hit conterebbe 2 occorrenze di &quot;Aggiungi al carrello&quot;.
-Flusso previsto: &quot;Prodotti&quot; (2) &lt;— &quot;Aggiungi al carrello&quot; (2)
+Se **[!UICONTROL Limit to first/last occurrence]** è *disattivato*, questa singola serie di hit conterà due occorrenze di “Aggiungi al carrello”.
+Flusso di output previsto: 
+“Prodotti” (2) &lt;— “Aggiungi al carrello” (2)
 
 Tuttavia, se **[!UICONTROL Limit to first/last occurrence]** è *abilitato*, nell’analisi verrà inclusa solo l’ultima occorrenza di [!UICONTROL Add to cart].
-Flusso previsto: &quot;Prodotti&quot; (1) &lt;— &quot;Aggiungi al carrello&quot; (1)
+Flusso di output previsto: 
+“Prodotti” (1) &lt;— “Aggiungi al carrello” (1)
