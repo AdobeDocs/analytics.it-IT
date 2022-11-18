@@ -1,62 +1,62 @@
 ---
-title: Qual è la variabile currencyCode e come si utilizza?
-description: Per i siti di eCommerce, imposta la valuta in cui si trova la pagina.
+title: Cos’è la variabile currencyCode e come si usa?
+description: Per i siti di eCommerce, imposta la valuta in cui sono effettuate le offerte della pagina.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # currencyCode
 
-Per i siti che utilizzano l’e-commerce, i ricavi e la valuta sono una parte importante di Analytics. Molti siti, soprattutto quelli che si estendono su più paesi, utilizzano valute diverse. Utilizza la `currencyCode` per assicurarti che i ricavi siano attribuiti alla valuta corretta.
+Per i siti che utilizzano Commerce, le entrate e la valuta sono una parte importante di Analytics. Molti siti, soprattutto quelli che interessano più Paesi, utilizzano valute diverse. Utilizza la variabile `currencyCode` per assicurarti che le entrate siano attribuite alla valuta corretta.
 
-La conversione della valuta utilizza la seguente logica su ogni hit. Questi passaggi si applicano ai valori dei ricavi impostati [`products`](../page-vars/products.md) e tutti gli eventi elencati come &quot;Valuta&quot; in [Eventi di successo](/help/admin/admin/c-success-events/success-event.md) in Impostazioni suite di rapporti .
+La conversione della valuta utilizza la seguente logica su ogni hit. Questi passaggi si applicano ai valori delle entrate assegnati alla variabile [`products`](../page-vars/products.md) e tutti gli eventi elencati come “Valuta” negli [Eventi di successo](/help/admin/admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
-* Se `currencyCode` non è definito, l&#39;Adobe presuppone che tutti i valori di valuta siano la valuta della suite di rapporti. Vedi [Impostazioni account generali](/help/admin/admin/general-acct-settings-admin.md) in Impostazioni suite di rapporti per visualizzare la valuta della suite di rapporti.
-* Se `currencyCode` è definito e corrisponde alla valuta della suite di rapporti, non viene applicata alcuna conversione di valuta.
-* Se `currencyCode` è definito ed è diverso dalla valuta della suite di rapporti, ad Adobe applica una conversione di valuta in base al tasso di cambio del giorno corrente. partner di Adobe con [XE](https://xe.com) per convertire la valuta ogni giorno. Tutti i valori memorizzati nella suite di rapporti si trovano nella valuta della suite di rapporti.
-* Se `currencyCode` è impostato su un valore non valido, **l&#39;intero hit viene eliminato causando la perdita di dati.** Assicurati che questa variabile sia definita correttamente ogni volta che viene utilizzata.
+* Se `currencyCode` non è definita, Adobe presuppone che tutti i valori di valuta siano la valuta della suite di rapporti. Consulta le [Impostazioni account generali](/help/admin/admin/general-acct-settings-admin.md) nelle Impostazioni della suite di rapporti per visualizzare la valuta della suite di rapporti.
+* Se `currencyCode` è definita e corrisponde alla valuta della suite di rapporti, non viene applicata alcuna conversione di valuta.
+* Se `currencyCode` è definita ed è diversa dalla valuta della suite di rapporti, Adobe applica una conversione della valuta in base al tasso di cambio del giorno corrente. Adobe collabora con [XE](https://xe.com) per convertire la valuta ogni giorno. Tutti i valori memorizzati nella suite di rapporti si trovano nella valuta della suite di rapporti.
+* Se `currencyCode` è impostata su un valore non valido, **l’intero hit viene eliminato causando la perdita di dati.** Assicurati che questa variabile sia definita correttamente ogni volta che viene utilizzata.
 
-Questa variabile non persiste tra i risultati. Assicurati che questa variabile sia definita in ogni pagina che include ricavi o eventi di valuta che non corrispondono alla valuta predefinita della suite di rapporti.
+Questa variabile non persiste negli hit. Assicurati che questa variabile sia definita in ogni pagina che include entrate o eventi di valuta che non corrispondono alla valuta predefinita della suite di rapporti.
 
 >[!NOTE]
 >
 >Anche se i codici di valuta possono cambiare tra le pagine, tutte le metriche di valuta in un singolo hit devono utilizzare la stessa valuta.
 
-Un periodo **deve** utilizzare come separatore di valuta per tutte le valute quando si implementa questa variabile. Ad esempio, la corona svedese, che in genere visualizza un separatore di virgola, deve essere modificata per utilizzare un punto nel `products` e tutti gli eventi relativi alla valuta. In Adobe viene visualizzato il separatore di valuta corretto nel rapporto.
+Quando si implementa questa variabile, **deve** essere utilizzato un punto come separatore di valuta per tutte le valute. Ad esempio, la corona svedese, che in genere visualizza un separatore con la virgola, deve essere modificata per utilizzare un punto nella variabile `products` e in tutti gli eventi di valuta. In Adobe nel reporting viene visualizzato il separatore di valuta corretto.
 
-## Codice valuta tramite l’SDK per web
+## Codice valuta utilizzando il Web SDK
 
 Il codice della valuta è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `commerce.order.currencyCode`.
 
-## Codice valuta utilizzando l’estensione Adobe Analytics
+## Codice valuta utilizzando l’estensione di Adobe Analytics
 
-Codice valuta è un campo sotto [!UICONTROL General] pannello a soffietto durante la configurazione dell&#39;estensione Adobe Analytics.
+Il Codice valuta è un campo che si trova sotto il pannello a soffietto [!UICONTROL General] durante la configurazione dell’estensione di Adobe Analytics.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-1. Fai clic sulla proprietà tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto Adobe Analytics.
-1. Espandi la [!UICONTROL General] fisarmonica, che rivela [!UICONTROL Currency Code] campo .
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Fai clic sulla proprietà del tag desiderata.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
+1. Espandi il pannello a soffietto [!UICONTROL General], che mostra il campo [!UICONTROL Currency Code].
 
-È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se utilizzi un codice valuta personalizzato, assicurati che il codice sia valido.
+È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se utilizzi un codice valuta personalizzato, assicurati che sia valido.
 
-## Codice valuta nell&#39;SDK di Adobe Experience Platform Mobile
+## Codice valuta in Adobe Experience Platform Mobile SDK
 
-Il codice valuta viene passato agli SDK di Adobe Experience Platform Mobile tramite variabili di dati di contesto nell&#39;estensione Adobe Analytics.
+Il codice valuta viene passato agli SDK di Adobe Experience Platform Mobile tramite variabili di dati di contesto nell’estensione di Adobe Analytics.
 
-1. Imposta il codice della valuta in una variabile di dati contestuali durante `trackState` o `trackAction`.
+1. Imposta il codice valuta in una variabile di dati contestuali durante `trackState` o `trackAction`.
 1. Crea una regola di elaborazione nell’Admin Console di Adobe Analytics per la suite di rapporti. Imposta la regola per sovrascrivere la variabile Codice valuta.
-1. Passa il codice della valuta al `products` nella chiamata a `trackState` o `trackAction`.
+1. Trasferisci il codice valuta alla variabile `products` nella chiamata a `trackState` o a `trackAction`.
 
-È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se utilizzi un codice valuta personalizzato, assicurati che il codice sia valido.
+È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se utilizzi un codice valuta personalizzato, assicurati che sia valido.
 
-## s.currencyCode in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
+## s.currencyCode in AppMeasurement e nell’editor di codice personalizzato dell’estensione di Analytics
 
-La `s.currencyCode` è una stringa contenente un codice maiuscolo di 3 lettere che rappresenta la valuta nella pagina. I valori sono sensibili all’uso di maiuscole e minuscole.
+La variabile `s.currencyCode` è una stringa contenente un codice in maiuscolo di 3 lettere che rappresenta la valuta nella pagina. I valori fanno distinzione tra maiuscole e minuscole.
 
 ```js
 s.currencyCode = "USD";
@@ -66,176 +66,176 @@ I seguenti codici valuta sono validi:
 
 | Codice della valuta | Etichetta |
 | --- | --- |
-| `AED` | Dirhams degli Emirati Arabi Uniti |
-| `AFA` | Afghanistan afgani |
-| `ALL` | Albania Leke |
-| `AMD` | Dram in Armenia |
-| `ANG` | Guilibri Di Atille Olandesi |
-| `AOA` | Angola Kwanza |
-| `ARS` | Pesos Argentina |
+| `AED` | Dirham degli Emirati Arabi Uniti |
+| `AFA` | Afghani dell’Afghanistan |
+| `ALL` | Lek dell’Albania |
+| `AMD` | Dram armeno |
+| `ANG` | Fiorino delle Antille Olandesi |
+| `AOA` | Kwanza angolano |
+| `ARS` | Peso argentino |
 | `AUD` | Dollaro australiano |
-| `AWG` | Aruba Guilder |
-| `AZM` | Manat azeri |
-| `BAM` | Marka convertibile Bosnia-Erzegovina |
-| `BBD` | Dollari Barbados |
-| `BDT` | Taka del Bangladesh |
-| `BGN` | Leva |
-| `BHD` | Dinari del Bahrein |
-| `BIF` | Francs del Burundi |
-| `BMD` | Dollaro delle Bermuda |
-| `BND` | Dollaro del Brunei |
-| `BOB` | Bolivia |
-| `BRL` | Brasile Reais |
-| `BSD` | Dollaro delle Bahamas |
-| `BTN` | Bhutan Ngultrum |
-| `BWP` | Pulas Botswana |
-| `BYR` | Rubli della Bielorussia |
+| `AWG` | Fiorino Aruba |
+| `AZM` | Manat Azerbaigian |
+| `BAM` | Marka convertibile Bosnia ed Erzegovina |
+| `BBD` | Dollaro Barbados |
+| `BDT` | Taka Bangladesh |
+| `BGN` | Lev Bulgaria |
+| `BHD` | Dinaro Bahrein |
+| `BIF` | Franco Burundi |
+| `BMD` | Dollaro Bermuda |
+| `BND` | Dollaro Brunei |
+| `BOB` | Boliviano Bolivia |
+| `BRL` | Real Brasile |
+| `BSD` | Dollaro Bahamas |
+| `BTN` | Ngultrum Bhutan |
+| `BWP` | Pula Botswana |
+| `BYR` | Rublo Bielorussia |
 | `BZD` | Dollaro Belize |
-| `CAD` | Dollaro canadese |
-| `CDF` | Francs Congo/Kinshasa |
-| `CHF` | Franchi svizzeri |
-| `CLP` | Pesos del Cile |
-| `CNY` | Renminbi cinese Yuan |
-| `COP` | Pesos Colombia |
-| `CRC` | Colori Costa Rica |
-| `CSD` | Dinari serbi |
-| `CUP` | Cuba Pesos |
-| `CVE` | Escudos del Capo Verde |
-| `CYP` | Limiti di Cipro |
-| `CZK` | Repubblica Ceca Corea |
-| `DJF` | Francesi di Gibuti |
-| `DKK` | Corona danese |
-| `DOP` | Pesos Repubblica Dominicana |
-| `DZD` | Dinari algerini |
-| `EEK` | Estonia Krooni |
-| `EGP` | Sterlina egiziana |
-| `ERN` | Eritrea Nakfa |
-| `ETB` | Birra Etiope |
+| `CAD` | Dollaro Canada |
+| `CDF` | Franco Congo/Kinshasa |
+| `CHF` | Franco Svizzera |
+| `CLP` | Peso Cile |
+| `CNY` | Renminbi Cina |
+| `COP` | Peso Colombia |
+| `CRC` | Colon Costa Rica |
+| `CSD` | Dinaro Serbia |
+| `CUP` | Peso Cuba |
+| `CVE` | Scudo Capo Verde |
+| `CYP` | Sterlina Cipro |
+| `CZK` | Corona Repubblica Ceca |
+| `DJF` | Franco Gibuti |
+| `DKK` | Corona Danimarca |
+| `DOP` | Peso Repubblica Dominicana |
+| `DZD` | Dinaro Algeria |
+| `EEK` | Coronia Estonia |
+| `EGP` | Sterlina Egitto |
+| `ERN` | Nacfa Eritrea |
+| `ETB` | Birr Etiopia |
 | `EUR` | Euro |
-| `FJD` | Dollaro delle Figi |
-| `FKP` | Sterline Isole Falkland |
-| `GBP` | Sterline Regno Unito |
-| `GEL` | Georgia Lari |
-| `GGP` | Sterlina di Guernsey |
-| `GHC` | Ghana Cedis |
-| `GIP` | Limiti di Gibilterra |
-| `GMD` | Gambia Dalasi |
-| `GNF` | Francs della Guinea |
-| `GTQ` | Guatemala Quetzales |
-| `GYD` | Dollaro della Guyana |
-| `HKD` | Dollaro di Hong Kong |
-| `HNL` | Honduras Lempiras |
-| `HRK` | Croazia Kuna |
-| `HTG` | Haiti Gourdes |
-| `HUF` | Fiorino ungherese |
-| `IDR` | Rupie indonesiane |
-| `ILS` | Israele: nuovi sicli |
-| `IMP` | Isola di Man Pound |
-| `INR` | Rupes dell&#39;India |
-| `IQD` | Dinari iracheni |
-| `IRR` | Iran Riyal |
-| `ISK` | Corona islandese |
-| `JEP` | Ferite da maglia |
-| `JMD` | Dollaro giamaicano |
-| `JOD` | Dinari giordani |
-| `JPY` | Yen del Giappone |
-| `KES` | Scalli del Kenya |
-| `KGS` | Soma del Kirghizistan |
-| `KHR` | Cambogia |
-| `KMF` | Francs Comore |
-| `KPW` | Corea del Nord |
-| `KRW` | La Corea del Sud vince |
-| `KWD` | Dinari del Kuwait |
-| `KYD` | Dollaro delle Isole Cayman |
+| `FJD` | Dollaro Figi |
+| `FKP` | Sterlina Isole Falkland |
+| `GBP` | Sterlina Regno Unito |
+| `GEL` | Lari Georgia |
+| `GGP` | Sterlina Guernsey |
+| `GHC` | Cedi Ghana |
+| `GIP` | Sterlina Gibilterra |
+| `GMD` | Dalasi Gambia |
+| `GNF` | Franco Guinea |
+| `GTQ` | Quetzal Guatemala |
+| `GYD` | Dollaro Guyana |
+| `HKD` | Dollaro Hong Kong |
+| `HNL` | Lempira Honduras |
+| `HRK` | Kuna Croazia |
+| `HTG` | Gourde Haiti |
+| `HUF` | Fiorino Ungheria |
+| `IDR` | Rupia Indonesia |
+| `ILS` | Nuovo siclo Israele |
+| `IMP` | Sterlina Isola di Man |
+| `INR` | Rupia India |
+| `IQD` | Dinaro Iraq |
+| `IRR` | Riyal Iran |
+| `ISK` | Corona Islanda |
+| `JEP` | Sterlina Jersey |
+| `JMD` | Dollaro Giamaica |
+| `JOD` | Dinaro Giordania |
+| `JPY` | Yen Giappone |
+| `KES` | Scellino Kenya |
+| `KGS` | Som Kirghizistan |
+| `KHR` | Riel Cambogia |
+| `KMF` | Franco Comore |
+| `KPW` | Won Corea del Nord |
+| `KRW` | Won Corea del Sud |
+| `KWD` | Dinaro Kuwait |
+| `KYD` | Dollaro Isole Cayman |
 | `KZT` | Tenge Kazakistan |
-| `LAK` | Kips del Laos |
-| `LBP` | Libri |
-| `LKR` | Rupie dello Sri Lanka |
-| `LRD` | Dollaro liberiano |
-| `LSL` | Lesotho Maloti |
-| `LTL` | Lituania Litai |
-| `LVL` | Lettonia Lati |
-| `LYD` | Dinari libici |
-| `MAD` | Sporchi marocchini |
-| `MDL` | Moldavia |
-| `MGA` | Ariete del Madagascar |
-| `MKD` | La Macedonia Denuncia |
-| `MMK` | Kyat in Myanmar |
-| `MNT` | Mongolia Tugriks |
-| `MOP` | Macao Patacas |
-| `MRO` | Mauritania Ouguiyas |
-| `MTL` | Malta Liri |
-| `MUR` | Mauritius Rupees |
-| `MVR` | Maldive Rufiya |
-| `MWK` | Kwacha del Malawi |
-| `MXN` | Pesos del Messico |
-| `MYR` | Malesia Ringgits |
-| `MZM` | Mozambico Meticais |
-| `NAD` | Dollaro della Namibia |
-| `NGN` | Nigeria Nairas |
-| `NIO` | Cordobas d&#39;oro Nicaragua |
-| `NOK` | Corona norvegese |
-| `NPR` | Rupes del Nepal |
-| `NZD` | Dollaro neozelandese |
+| `LAK` | Kip Laos |
+| `LBP` | Sterlina Libano |
+| `LKR` | Rupia Sri Lanka |
+| `LRD` | Dollaro Liberia |
+| `LSL` | Loti Lesotho |
+| `LTL` | Litas Lituania |
+| `LVL` | Lats Lettonia |
+| `LYD` | Dinaro Libia |
+| `MAD` | Dirham Marocco |
+| `MDL` | Leu Moldavia |
+| `MGA` | Ariary Madagascar |
+| `MKD` | Dinaro Macedonia |
+| `MMK` | Kyat Myanmar |
+| `MNT` | Tugrik Mongolia |
+| `MOP` | Pataca Macao |
+| `MRO` | Ouguiya Mauritania |
+| `MTL` | Lira Malta |
+| `MUR` | Rupia Mauritius |
+| `MVR` | Rufiyaa Maldive |
+| `MWK` | Kwacha Malawi |
+| `MXN` | Peso Messico |
+| `MYR` | Rinngit Malesia |
+| `MZM` | Metical Mozambico |
+| `NAD` | Dollaro Namibia |
+| `NGN` | Naira Nigeria |
+| `NIO` | Córdoba d’oro Nicaragua |
+| `NOK` | Corona Norvegia |
+| `NPR` | Rupia Nepal |
+| `NZD` | Dollaro Nuova Zelanda |
 | `OMR` | Riyal Oman |
-| `PAB` | Panama Balboas |
-| `PEN` | Sole Nuevos Perù |
-| `PGK` | Papua Nuova Guinea Kina |
-| `PHP` | Pesos Filippine |
-| `PKR` | Rupie pakistane |
-| `PLN` | Polonia Zlotych |
-| `PYG` | Paraguay Guarani |
-| `QAR` | Qatar Riyals |
-| `ROL` | Romania Lei |
-| `RUR` | Russia Rubli |
-| `RWF` | Francs del Ruanda |
-| `SAR` | Riyal dell&#39;Arabia Saudita |
-| `SBD` | Dollaro delle Isole Salomone |
-| `SCR` | Rupie Seychelles |
-| `SDD` | Dinari sudanesi |
-| `SEK` | Corona svedese |
-| `SGD` | Dollaro di Singapore |
-| `SHP` | Sant&#39;Helena |
-| `SIT` | Talleri Slovenia |
-| `SKK` | Slovacchia |
-| `SLL` | Leoni della Sierra Leone |
-| `SOS` | Somalia Scellino |
-| `SPL` | Seborga Luigini |
-| `SRD` | Dollaro di Suriname |
-| `SRG` | Guilder Suriname |
-| `STD` | São Tomé e Principe Dobras |
-| `SVC` | Coloni El Salvador |
-| `SYP` | Siria: limiti |
-| `SZL` | Swaziland Emalangeni |
+| `PAB` | Balboa Panama |
+| `PEN` | Nuevo Sol Perù |
+| `PGK` | Kina Papua Nuova Guinea |
+| `PHP` | Peso Filippine |
+| `PKR` | Rupie Pakistan |
+| `PLN` | Zloty Polonia |
+| `PYG` | Guarani Paraguay |
+| `QAR` | Riyal Qatar |
+| `ROL` | Leu Romania |
+| `RUR` | Rublo Russia |
+| `RWF` | Franco Ruanda |
+| `SAR` | Riyal Arabia Saudita |
+| `SBD` | Dollaro Isole Salomone |
+| `SCR` | Rupia Seychelles |
+| `SDD` | Dinaro Sudan |
+| `SEK` | Corona Svezia |
+| `SGD` | Dollaro Singapore |
+| `SHP` | Sterlina Sant’Elena |
+| `SIT` | Tallero Slovenia |
+| `SKK` | Corona Slovacchia |
+| `SLL` | Leone Sierra Leone |
+| `SOS` | Scellino Somalia |
+| `SPL` | Luigino Seborga |
+| `SRD` | Dollaro Suriname |
+| `SRG` | Fiorino Suriname |
+| `STD` | Dobra São Tomé e Príncipe |
+| `SVC` | Colon El Salvador |
+| `SYP` | Sterlina Siria |
+| `SZL` | Lilangeni eSwatini |
 | `THB` | Baht Thailandia |
-| `TJS` | Tagikistan Somoni |
-| `TMM` | Turkmenistan Manat |
-| `TND` | Dinari tunisini |
-| `TOP` | Tonga Pa&#39;anga |
-| `TRL` | Turchia Liras |
-| `TTD` | Dollaro di Trinidad e Tobago |
+| `TJS` | Somoni Tagikistan |
+| `TMM` | Manat Turkmenistan |
+| `TND` | Dinaro Tunisia |
+| `TOP` | Pa’anga Tonga |
+| `TRL` | Lira Turchia |
+| `TTD` | Dollaro Trinidad e Tobago |
 | `TVD` | Dollaro Tuvalu |
-| `TWD` | Nuovi dollari di Taiwan |
-| `TZS` | Scalli della Tanzania |
-| `UAH` | Ucraina |
-| `UGX` | Scalli dell&#39;Uganda |
-| `USD` | Dollaro degli Stati Uniti |
-| `UYU` | Pesos Uruguay |
-| `UZS` | Uzbekistan |
-| `VEB` | Bolivares Venezuela |
-| `VND` | Dong del Vietnam |
-| `VUV` | Vanuatu Vatu |
-| `WST` | Samoa Tala |
-| `XAF` | Communauté Financière Africaine Francs B |
-| `XAG` | Unioni in argento |
-| `XAU` | Oscillazioni oro |
-| `XCD` | Dollaro dei Caraibi orientali |
-| `XDR` | Strumento speciale del Fondo monetario internazionale |
-| `XOF` | Communauté Financière Africaine Francs B |
-| `XPD` | Unioni di palladio |
-| `XPF` | Compiti Français du Pacifique Francs |
-| `XPT` | Unioni platiniche |
-| `YER` | Yemen Riyal |
-| `ZAR` | Rand sudafricano |
-| `ZMK` | Zambia Kwacha |
-| `ZWD` | Dollaro dello Zimbabwe |
+| `TWD` | Nuovo dollaro Taiwan |
+| `TZS` | Scellino Tanzania |
+| `UAH` | Grivnia Ucraina |
+| `UGX` | Scellino Uganda |
+| `USD` | Dollaro Stati Uniti |
+| `UYU` | Peso Uruguay |
+| `UZS` | Som Uzbekistan |
+| `VEB` | Bolivar Venezuela |
+| `VND` | Dong Vietnam |
+| `VUV` | Vatu Vanuatu |
+| `WST` | Tala Samoa |
+| `XAF` | Franco Comunità Finanziaria Africana |
+| `XAG` | Oncia d’argento |
+| `XAU` | Oncia d’oro |
+| `XCD` | Dollaro Caraibi orientali |
+| `XDR` | Prelievo speciale del Fondo monetario internazionale |
+| `XOF` | Franco Comunità Finanziaria Africana |
+| `XPD` | Once di palladio |
+| `XPF` | Franco CFP |
+| `XPT` | Oncia di platino |
+| `YER` | Riyal Yemen |
+| `ZAR` | Rand Sudafrica |
+| `ZMK` | Kwacha Zambia |
+| `ZWD` | Dollaro Zimbabwe |
