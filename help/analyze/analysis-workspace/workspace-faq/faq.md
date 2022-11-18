@@ -5,16 +5,16 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: 5bad2982cc8883701be3c63a6ca179933fb59d2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Domande frequenti
 
 +++Quali sono i prerequisiti per utilizzare Analysis Workspace?
-[Invia dati ad Adobe Analytics tramite l’estensione Adobe Experience](/help/implement/launch/validate-publish-prod.md): l’utilizzo di Analysis Workspace richiede un’implementazione funzionante. Assicurati che l’organizzazione invii dati ad Adobe prima di utilizzare lo strumento . Possono funzionare anche altre implementazioni, come le implementazioni manuali precedenti.
+[Invia dati ad Adobe Analytics tramite l’estensione Adobe Experience](/help/implement/launch/validate-publish-prod.md): l’utilizzo di Analysis Workspace richiede un’implementazione funzionante. Prima di utilizzare lo strumento, assicurati che la tua organizzazione invii dati ad Adobe. Possono funzionare anche altre implementazioni, come le implementazioni manuali precedenti.
 +++
 
 +++Quali sono i requisiti di amministrazione e di accesso per Analysis Workspace?
@@ -37,7 +37,7 @@ Non è richiesta alcuna implementazione particolare. Analysis Workspace è dispo
 No. Poiché si tratta di un ambiente separato, non verrà modificato alcun rapporto esistente o pre-configurato in Adobe Analytics. Potrai sempre utilizzare lo strumento standard di Reports &amp; Analytics e i rapporti del Report Builder tramite Analysis Workspace.
 +++
 
-+++Posso utilizzare Analysis Workspace per il Data Warehouse?
++++Posso utilizzare Analysis Workspace per Data Warehouse?
 Analysis Workspace non è consigliato per l’esportazione di dati in massa. Si tratta di un’area di lavoro di visualizzazione per la creazione di progetti di analisi con layout simile a una dashboard.
 +++
 
@@ -60,11 +60,11 @@ Guarda questo video sul tracciamento dell’utilizzo tramite i registri di Analy
 
 +++
 
-+++Quando trascino una metrica, viene scritto &quot;Dati non validi&quot;. Come posso risolvere questo problema?
++++Quando trascino una metrica, un messaggio indica “Dati non validi”. Come posso risolvere questo problema?
 Il messaggio indicante che i dati non sono validi significa che Adobe non può restituire dati utilizzando la combinazione di dimensioni e metriche utilizzate nel report. Ad esempio, due metriche posizionate una sopra all’altra non possono essere restituite come dati, in quanto non è possibile visualizzare due metriche in questo modo. Posiziona invece le metriche una accanto all’altra.
 +++
 
-+++Quando trascino una metrica, non visualizzo dati effettivi, ma solo zeri. Come posso risolvere questo problema?
++++Quando trascino una metrica, non visualizzo dati effettivi, ma solo zeri. Come posso trovare una risoluzione a questo problema?
 Se crei correttamente un report Workspace, ma non sono presenti dati, puoi controllare alcuni elementi:
 
 * Controlla la suite di rapporti e assicurati che includa dati.
