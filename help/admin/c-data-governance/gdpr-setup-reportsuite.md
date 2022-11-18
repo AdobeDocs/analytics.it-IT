@@ -4,15 +4,15 @@ title: Etichettare i dati della suite di rapporti
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '950'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Etichettare i dati della suite di rapporti
 
-Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati innanzitutto di acquisire familiarità con le etichette e le relative definizioni.
+Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati innanzitutto di conoscere bene le etichette e le relative definizioni.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
 1. In Analytics, passa a **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]** ![Impostazioni privacy](assets/privacy_rs_settings.png)
 
-1. Seleziona il gruppo di variabili che vuoi etichettare.
+1. Seleziona il gruppo di variabili che desideri etichettare.
 
    ![Variabili](assets/variables.png)
 
@@ -53,15 +53,15 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
    ![Etichette di identità](assets/identity_labels.png)
 
-1. Apri la sezione **Sensitive Data** (Dati sensibili) per impostare le etichette dei dati sensibili, che organizzano in categorie i dati di geolocalizzazione. Per altre informazioni su queste opzioni, fai riferimento alle [etichette per i dati sensibili (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
+1. Apri la sezione **Dati sensibili** per impostare le etichette dei dati sensibili, che classificano i dati di geolocalizzazione. Per altre informazioni su queste opzioni, fai riferimento alle [etichette per i dati sensibili (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
    ![Dati sensibili](assets/sensitive_data.png)
 
 1. Apri la sezione Dati Privacy dei dati per impostare le etichette di **governance dei dati**. Usa questa sezione per dare istruzioni ad Adobe su come gestire le variabili per le richieste di accesso e di cancellazione della Privacy dei dati, nonché per definire le variabili da esaminare per trovare gli ID delle persone interessate per queste richieste. Per altre informazioni su queste opzioni, fai riferimento alle [Etichette di governance dei dati (Privacy dei dati).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
-   ![Etichette per la privacy](assets/privacy_labels.png)
+   ![Etichette privacy](assets/privacy_labels.png)
 
-1. Una volta terminata l’etichettatura fai clic su **[!UICONTROL Apply]**.
+1. Dopo aver completato l’etichettatura, fai clic su **[!UICONTROL Apply]**.
 
 ## Copiare le etichette nelle suite di rapporti {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
