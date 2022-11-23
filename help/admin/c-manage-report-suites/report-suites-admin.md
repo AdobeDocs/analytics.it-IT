@@ -3,18 +3,30 @@ description: Una suite di rapporti definisce il reporting indipendente e complet
 title: Report Suite Manager
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 89%
 
 ---
 
 # Report Suite Manager
 
-Una suite di rapporti definisce il reporting indipendente e completo su un sito web, un insieme di siti web o un sottoinsieme di pagine web. Solitamente, una suite di rapporti si applica a un sito web, ma può essere applicata a un segmento globale in cui hai combinato i numeri di diversi siti per ottenere un totale. Quando accedi a una soluzione Adobe Analytics, selezioni una suite di rapporti da utilizzare (tranne quando utilizzi rapporti di aggregazione dai che combinano più suite di rapporti). Inoltre, una suite di rapporti può essere limitata a una parte del sito. Le soluzioni Analytics aggregano e generano rapporti su questi archivi di dati. La pagina di amministrazione di Report Suite Manager consente di definire le regole che disciplinano il modo in cui i dati vengono elaborati in una suite di rapporti.
+Una suite di rapporti definisce il reporting indipendente e completo per uno dei seguenti archivi di dati:
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
+* Un singolo sito web (più tipico)
+
+* Una porzione o un sottoinsieme di un singolo sito web
+
+* Un segmento globale composto dai numeri di diversi siti per ottenere i totali
+
+Le soluzioni Analytics aggregano e generano rapporti su questi archivi di dati. La pagina di amministrazione di Report Suite Manager consente di definire le regole che disciplinano il modo in cui i dati vengono elaborati in una suite di rapporti.
+
+Quando accedi a una soluzione Adobe Analytics, selezioni una suite di rapporti da utilizzare (tranne quando utilizzi rapporti di aggregazione dai che combinano più suite di rapporti).
+
+Per accedere a una suite di rapporti:
+
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**
 
 >[!NOTE]
 >
