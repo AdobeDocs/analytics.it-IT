@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
+source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
 workflow-type: tm+mt
-source-wordcount: '3638'
+source-wordcount: '3641'
 ht-degree: 96%
 
 ---
@@ -125,13 +125,13 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`mobilecampaignterm`** | Parole chiave a pagamento o altri termini di cui tenere traccia con questa acquisizione. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
 | **`mobiledayofweek`** | Numero del giorno della settimana in cui è stata avviata l’app. | varchar(255) |
 | **`mobiledayssincefirstuse`** | Numero di giorni dalla prima esecuzione dell’app. | varchar(255) |
-| **`mobiledayssincelastupgrade`** | Raccolto dalla variabile di dati di contesto a.DaysSinceLastUpgrade. Il numero di giorni trascorsi dalla sessione precedente. | varchar(255) |
+| **`mobiledayssincelastupgrade`** | RETIRED - Raccolto dalla variabile di dati di contesto a.DaysSinceLastUpgrade. Il numero di giorni trascorsi dalla sessione precedente. | varchar(255) |
 | **`mobiledayssincelastuse`** | Numero di giorni dall’ultima esecuzione dell’app. | varchar(255) |
 | **`mobiledeeplinkid`** | Raccolto dalla variabile di dati di contesto `a.deeplink.id`. Utilizzato nei rapporti di acquisizione come identificatore per il collegamento di acquisizione mobile. | varchar(255) |
 | **`mobiledevice`** | Nome del dispositivo mobile. In iOS, viene memorizzato come stringa di 2 cifre separate da virgola. Il primo numero rappresenta la generazione del dispositivo e il secondo rappresenta la famiglia di dispositivi. | varchar(255) |
 | **`mobilehourofday`** | Definisce l’ora del giorno in cui l’app è stata avviata. Segue il formato numerico di 24 ore. | varchar(255) |
 | **`mobileinstalldate`** | Data di installazione dell’app mobile. Fornisce la data della prima apertura dell’app mobile da parte di un utente. | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | Raccolto dalla variabile di dati di contesto a.LaunchesSinceUpgrade. Segnala il numero di avvii dall’ultimo aggiornamento. | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | RETIRED - Raccolto dalla variabile di dati di contesto a.LaunchesSinceUpgrade. Segnala il numero di avvii dall’ultimo aggiornamento. | varchar(255) |
 | **`mobilelaunchnumber`** | Aumenta di uno ogni volta che l’app mobile viene avviata. | varchar(255) |
 | **`mobileltv`** | Non più utilizzato. Compilato dai metodi trackLifetimeValue. | varchar(255) |
 | **`mobilemessagebuttonname`** | Raccolto dalla variabile di dati di contesto `a.message.button.id`. Utilizzato per la messaggistica in-app per identificare il pulsante che ha chiuso il messaggio. | varchar(100) |
@@ -139,7 +139,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`mobilemessageonline`** | Messaggio in-app online | varchar(255) |
 | **`mobilemessagepushoptin`** | Raccolto dalla variabile di dati di contesto `a.push.optin`. Imposta su “true” quando l’utente acconsente ai messaggi push; altrimenti il valore è “false”. | varchar(255) |
 | **`mobilemessagepushpayloadid`** | Raccolto dalla variabile di dati di contesto `a.push.payloadid`. Utilizzato nei messaggi push come identificatore del payload. | varchar(255) |
-| **`mobileosenvironment`** | Raccolto dalla variabile di dati di contesto `a.OSEnvironment`. Ambiente del sistema operativo degli stati, ad esempio Android o iOS. | varchar(255) |
+| **`mobileosenvironment`** | PENSATO: raccolto dalla variabile di dati di contesto `a.OSEnvironment`. Ambiente del sistema operativo degli stati, ad esempio Android o iOS. | varchar(255) |
 | **`mobileosversion`** | Versione del sistema operativo Mobile Services | varchar(255) |
 | **`mobileplaceaccuracy`** | Raccolto dalla variabile di dati di contesto `a.loc.acc`. Indica la precisione del GPS in metri al momento della raccolta. | varchar(255) |
 | **`mobileplacecategory`** | Raccolto dalla variabile di dati di contesto `a.loc.category`. Descrive la categoria di un luogo specifico. | varchar(255) |
