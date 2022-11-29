@@ -1,13 +1,13 @@
 ---
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
+source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 95%
+source-wordcount: '1134'
+ht-degree: 87%
 
 ---
-
 
 # Panoramica degli hint client e domande frequenti
 
@@ -95,6 +95,14 @@ Consulta la [timeline pubblicata da Google](https://blog.chromium.org/2021/09/us
 
 +++
 
++++**In che modo Analytics dipende dall’agente utente?**
+
+Le informazioni sul dispositivo nel reporting vengono derivate dall&#39;agente utente. Abbiamo aggiornato i nostri processi per utilizzare sia l&#39;agente utente che i suggerimenti client, se disponibili.
+
+ID di fallback ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) deriva dall’agente utente e dall’indirizzo IP. Questo ID viene utilizzato solo se un cookie non può essere impostato in modo che non sia ampiamente utilizzato
+
++++
+
 +++**Quali campi di reporting di Analytics sono derivati dai valori memorizzati negli hint ad alta entropia?**
 
 Tali campi subiranno modifiche nel tempo, man mano che Google “congelerà” più parti dell&#39;agente utente. Il primo campo che verrà interessato direttamente è “Sistema operativo” che include la versione del sistema operativo in base alla timeline pubblicata di Google per il “congelamento” degli hint dell’agente utente e la versione del sistema operativo verrà congelata a partire dalla fine di ottobre 2022 con la versione 107 di Chromium. A quel punto la versione del sistema operativo nell&#39;agente utente in alcuni casi sarà imprecisa.
@@ -105,7 +113,7 @@ Consulta la [timeline pubblicata da Google](https://blog.chromium.org/2021/09/us
 
 +++**In che modo Adobe utilizzerà gli hint client per derivare informazioni sul dispositivo?**
 
-Adobe utilizza un componente di terze parti, Device Atlas, che utilizzerà sia gli hint client che l’agente-utente per derivare informazioni sul dispositivo.
+Adobe utilizza una terza parte, Device Atlas, che utilizzerà sia i suggerimenti client che l&#39;agente utente per derivare le informazioni sul dispositivo.
 
 +++
 
@@ -144,4 +152,3 @@ Consulta la [documentazione sugllo schema](https://github.com/adobe/xdm/blob/mas
 Sì. Gli hint client verranno inclusi nei dati inoltrati ad AAM. Tieni presente che per preservare la piena funzionalità AAM richiede la raccolta di hint ad alta entropia. Se utilizzi l’[inoltro lato server ad AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
 
 +++
-
