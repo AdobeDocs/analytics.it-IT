@@ -3,20 +3,20 @@ title: Requisiti di sistema di Adobe Analytics
 description: Requisiti di sistema per l’utilizzo di Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
+source-git-commit: 1ff50284015588888f9118f7640b4057232457d2
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 76%
+source-wordcount: '125'
+ht-degree: 63%
 
 ---
 
 # Requisiti di sistema di Adobe Analytics
 
-La maggior parte delle soluzioni Adobe Analytics viene eseguita nel browser. Le sezioni seguenti forniscono i requisiti di sistema sia per le soluzioni browser che per quelle client:
+La maggior parte delle soluzioni Adobe Analytics viene eseguita nel browser. Le informazioni contenute in questo articolo forniscono i requisiti di sistema sia per le soluzioni browser che per quelle client.
 
 ## Requisiti di sistema per soluzioni basate su browser
 
-La maggior parte delle soluzioni Adobe Analytics, incluso Analysis Workspace, è basata su browser. Pertanto, il requisito più importante per utilizzare Adobe Analytics è un browser web moderno. Adobe supporta la versione più recente dei seguenti browser:
+La maggior parte delle soluzioni Adobe Analytics, incluso Analysis Workspace, è basata su browser. Pertanto, il requisito più importante per utilizzare Adobe Analytics è un browser web moderno. Adobe supporta l’ultima versione stabile dei seguenti browser:
 
 * Microsoft Edge
 * Google Chrome
@@ -31,5 +31,5 @@ La maggior parte delle soluzioni Adobe Analytics, incluso Analysis Workspace, è
 
 Consulta la pagina della soluzione collegata per i requisiti di sistema di quella soluzione.
 
-* [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=it)
+* [Report Builder requisiti di sistema](/help/analyze/report-builder/setup/system-requirements.md)
+* [Requisiti del sistema di Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=it)
