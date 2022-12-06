@@ -3,9 +3,9 @@ title: Dimensioni per dispositivi mobili
 description: Dimension basati sull’indirizzo IP del dispositivo.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Se utilizzi una libreria AppMeasurement (ad esempio tramite tag in Adobe Experie
 * **Operatore mobile**: I valori per questa dimensione vengono compilati cercando dati di terze parti (elementi digitali) in base agli indirizzi IP acquisiti da Analytics. I valori di esempio includono `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`e `"Verizon"`.
 * **Profondità colore mobile**: Profondità colore del dispositivo mobile, in bit.
 * **Supporto cookie per dispositivi mobili**: Determina se il dispositivo mobile supporta i cookie. Questo rapporto non indica se il browser accetta i cookie. Gli elementi del Dimension includono `"Supported"`, `"Not supported"`e `"Unknown"`.
-* **Dispositivo mobile**: Il dispositivo mobile utilizzato dal visitatore.
+* **Dispositivo mobile**: Il dispositivo mobile utilizzato dal visitatore. **Nota**: Digital Elements pubblica periodicamente aggiornamenti per riconoscere i dispositivi nuovi/aggiornati.
 * **Numero dispositivo mobile**: Determina se il dispositivo mobile trasmette il proprio numero. Gli elementi del Dimension includono `"Supported"`, `"Not supported"`e `"Unknown"`.
 * **Tipo di dispositivo mobile**: Il tipo di dispositivo mobile. I valori di esempio includono `"Mobile phone"`, `"Tablet"`, `"Media player"`e `"Gaming console"`.
 * **DRM mobile**: Il tipo di DRM supportato dal dispositivo mobile. I valori di esempio includono `"DRM OMA forward"`, `"DRM OMA combined delivery"`e `"DRM OMA separate delivery"`.
