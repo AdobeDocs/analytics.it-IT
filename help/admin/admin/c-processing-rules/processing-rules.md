@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Panoramica sulle regole di elaborazione
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+source-git-commit: 3d22d27a259b100cbbe8306b4d610afacb59d265
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 88%
 
 ---
 
@@ -57,3 +57,7 @@ Le regole di elaborazione possono monitorare i valori in arrivo per trasformare 
 Una volta definite le variabili di dati di contesto nell’implementazione, queste devono essere copiate in variabili quali eVar da utilizzare nei rapporti.
 
 Consulta [Copiare una variabile di dati di contesto in un eVar](processing-rules-examples/processing-rules-copy-context-data.md) e [Impostare un evento utilizzando una variabile di dati di contesto](processing-rules-examples/processing-rules-copy-context-data-event.md) per ulteriori informazioni.
+
+## Limitazioni note
+
+**Uso dei carati (^) nelle regole di elaborazione.** Se desideri utilizzare i carati nelle regole di elaborazione come delimitatori o per altri scopi, ogni singolo carato deve essere rappresentato da due carati. Ad esempio, rappresentare un singolo carato come ^^, un doppio carato come ^^^^, ecc.
