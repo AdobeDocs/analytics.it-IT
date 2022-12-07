@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: ff6184949d0d8c3093dd3fa1d9ac67e6645c6fb8
+source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '678'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,16 @@ ht-degree: 0%
    + [Quale strumento Adobe Analytics usare?](admin/get-started/which-analytics-tool.md)
    + [Confronto dei prodotti Analytics e requisiti](admin/get-started/analytics-product-comparison.md)
    + [Requisiti di sistema](admin/get-started/sys-reqs.md)
+   + Impostazioni aziendali {#company-settings}
+      + [Panoramica delle impostazioni aziendali](admin/get-started/company/c-company-settings.md)
+      + [Livelli di accesso alle funzionalità](admin/get-started/company/feature-access-levels.md)
+      + [Servizi web](admin/get-started/company/web-services-admin.md)
+      + [Rapporti di Report Builder](admin/get-started/company/report-builder-reports-admin.md)
+      + [Single Sign-On](admin/get-started/company/single-signon-admin.md)
+      + [Azioni in sospeso](admin/get-started/company/pending-actions-admin.md)
+      + [Co-branding](admin/get-started/company/co-branding-admin.md)
+      + [Nascondere suite di rapporti](admin/get-started/company/c-hide-report-suites.md)
+      + [Security Manager](admin/get-started/company/security-manager.md)
 + Strumenti di amministrazione {#admin-tools}
    + [Strumenti di amministrazione](admin/c-admin-tools.md)
    + [Fatturazione](admin/billing-admin.md)
@@ -117,16 +127,6 @@ ht-degree: 0%
       + [Autorizzazioni del profilo di prodotto per gli strumenti Analytics](admin-console/permissions/analytics-tools.md)
    + [Prima guida per l’amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
    + [Ruoli di amministratore in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-+ Impostazioni aziendali {#company-settings}
-   + [Panoramica delle impostazioni aziendali](company/c-company-settings.md)
-   + [Livelli di accesso alle funzionalità](company/feature-access-levels.md)
-   + [Servizi web](company/web-services-admin.md)
-   + [Rapporti di Report Builder](company/report-builder-reports-admin.md)
-   + [Single Sign-On](company/single-signon-admin.md)
-   + [Azioni in sospeso](company/pending-actions-admin.md)
-   + [Co-branding](company/co-branding-admin.md)
-   + [Nascondere suite di rapporti](company/c-hide-report-suites.md)
-   + [Security Manager](company/security-manager.md)
 + Gestione suite di rapporti {#manage-report-suites}
    + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
    + [Suite di rapporti rollup e globali](c-manage-report-suites/rollup-report-suite.md)

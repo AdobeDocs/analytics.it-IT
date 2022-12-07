@@ -5,8 +5,8 @@ title: Domande frequenti per Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: 88df864b58cecef71aadc0314d1d2d81c5b9b72f
+workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Gli elementi Dimension possono spesso essere applicati in più luoghi, ad esempi
 +++
 
 +++Posso eliminare una suite di rapporti?
-Non è possibile eliminare una suite di rapporti. Tuttavia, una suite di rapporti può essere nascosta da tutte le visualizzazioni in Adobe Analytics. Tieni presente che le chiamate server inviate a una suite di rapporti nascosta vengono comunque conteggiate in base al limite di contratto mensile. Per ulteriori informazioni, consulta [Nascondere suite di rapporti](/help/admin/company/c-hide-report-suites.md) nella guida utente dell’amministratore.
+Non è possibile eliminare una suite di rapporti. Tuttavia, una suite di rapporti può essere nascosta da tutte le visualizzazioni in Adobe Analytics. Tieni presente che le chiamate server inviate a una suite di rapporti nascosta vengono comunque conteggiate in base al limite di contratto mensile. Per ulteriori informazioni, consulta [Nascondere suite di rapporti](/help/admin/admin/get-started/company/c-hide-report-suites.md) nella guida utente dell’amministratore.
 +++
 
 +++Quando utilizzo la segmentazione, quale contenitore devo utilizzare? Visualizzazione pagina, visita o visitatore?
