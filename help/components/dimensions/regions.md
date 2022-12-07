@@ -3,10 +3,10 @@ title: Aree geografiche
 description: Area geografica del visitatore.
 feature: Dimensions
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '381'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ La dimensione &quot;Regioni&quot; indica l’area geografica del visitatore. È 
 
 Questa dimensione fa riferimento a regole di ricerca interne all’Adobe. Il valore di ricerca si basa sull’indirizzo IP inviato con l’hit. partner di Adobe con [Elemento digitale](https://www.digitalelement.com/) per mantenere le ricerche tra l’indirizzo IP e il paese. Questa dimensione funziona come standard per tutte le implementazioni.
 
-## Elementi Dimension
+## Elementi dimensionali
 
 Gli elementi di Dimension includono le regioni e il paese in cui risiede la regione. I valori di esempio includono `"California (United States)"`, `"Tokyo (Japan)"`oppure `"Sao Paulo (Brazil)"`.
 
@@ -32,3 +32,4 @@ Poiché questa dimensione è basata sull’indirizzo IP, alcuni scenari possono 
 * **Indirizzi IP mobili**: Il targeting IP per dispositivi mobili funziona a diversi livelli a seconda della posizione e della rete. Un certo numero di vettori ritorna il traffico IP attraverso punti di presenza centralizzati o regionali.
 * **Utenti ISP satellitari**: Identificare la posizione specifica di questi utenti è difficile, in quanto in genere sembrano originare dalla posizione di uplink.
 * **IP militari e governativi**: Rappresenta il personale che viaggia per il mondo e che entra nella propria posizione di casa, piuttosto che la base o l&#39;ufficio in cui si trovano attualmente.
+* **Proxy che oscurano gli indirizzi IP per motivi di privacy**: Servizi come Apple Private Relay nascondono il vero indirizzo IP inviando in modo casuale i dati tramite un intermediario o un proxy. Questo proxy sostituisce quindi un indirizzo IP diverso prima di inoltrare ad Adobe.
