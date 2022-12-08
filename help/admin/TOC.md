@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '673'
 ht-degree: 96%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 96%
       + [Security Manager](get-started/company/security-manager.md)
 + Autorizzazioni utente in Adobe Admin Console {#admin-console}
    + [Analytics in Adobe Admin Console](admin-console/home.md)
+   + [Prima guida per l’amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
+   + [Ruoli di amministratore in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
    + Autorizzazioni {#permissions}
       + [Autorizzazioni di Analytics in Admin Console](admin-console/permissions/summary-tables.md)
       + [Profili di prodotto per Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Autorizzazioni del profilo di prodotto per gli strumenti Report Suite](admin-console/permissions/report-suite-tools.md)
       + [Autorizzazioni del profilo di prodotto per gli strumenti Analytics](admin-console/permissions/analytics-tools.md)
-   + [Prima guida per l’amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
-   + [Ruoli di amministratore in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
 + Strumenti di amministrazione {#admin-tools}
    + [Strumenti di amministrazione](admin/c-admin-tools.md)
    + [Fatturazione](admin/billing-admin.md)
@@ -72,8 +72,6 @@ ht-degree: 96%
    + Rilevamento di ricerca a pagamento {#paid-search-detection}
       + [Panoramica sul rilevamento di ricerca a pagamento](admin/paid-search-detection/paid-search-detection.md)
       + [Configurare il rilevamento di ricerche a pagamento](admin/paid-search-detection/t-paid-search-detection.md)
-   + [Elenchi di pubblicazione](admin/publishing-list.md)
-   + [Pubblicazione Widget](admin/publishing-widgets-admin.md)
    + [Preferenze Manager](admin/preferences-manager.md)
    + [Impostazioni privacy](admin/privacy-settings.md)
    + [Rapporti sulla privacy](admin/privacy-reporting.md)
@@ -113,7 +111,6 @@ ht-degree: 96%
       + [Verificare l’implementazione dell’inoltro lato server](admin/c-server-side-forwarding/ssf-verify.md)
       + [Domande frequenti sull&#39;inoltro lato server](admin/c-server-side-forwarding/ssf-faq.md)
    + [Menu dei rapporti semplificati](admin/t-simplified-menu.md)
-   + [Gestione social](admin/social-management.md)
    + Eventi di successo {#success-events}
       + [Panoramica degli eventi di successo](admin/c-success-events/success-event.md)
       + [Configurare eventi di successo](admin/c-success-events/t-success-events.md)

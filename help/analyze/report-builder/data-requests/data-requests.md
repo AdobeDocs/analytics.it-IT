@@ -4,10 +4,10 @@ title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 2%
+source-wordcount: '356'
+ht-degree: 3%
 
 ---
 
@@ -24,8 +24,6 @@ Nella Creazione guidata richieste: Modulo del passaggio 1: seleziona la suite di
 1. **Segmento**: I segmenti sono sottoinsiemi personalizzati di dati o dati filtrati dalle regole create dall’utente. I segmenti si basano su hit, visite e visitatori. Consulta la sezione [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) per ulteriori informazioni sui segmenti.
 
    Ad esempio, puoi eseguire un [!UICONTROL Pages Report], quindi applica un segmento First Time Visits (Visite per la prima volta).
-
-1. **Consenti sostituzione elenco di pubblicazione**: Quando pianifichi un rapporto, puoi scegliere una lista di pubblicazione da utilizzare per la distribuzione. Gli elenchi di pubblicazione sono impostati in **[!UICONTROL Analytics]** > **[!UICONTROL Admin tools]**. La suite di rapporti per questa richiesta viene sostituita dall’ID suite di rapporti assegnato a ciascun destinatario nell’elenco di pubblicazione. Vedi [Consenti sostituzioni elenco di pubblicazione](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md).
 
 1. **Tipo di rapporto**: Specifica il report di base che si desidera eseguire nella richiesta di dati. Puoi eseguire un rapporto per richiesta, con dimensioni da uno a molti e metriche da uno a molti. Le metriche e le dimensioni di un tipo di rapporto vengono visualizzate sul [!UICONTROL Request Wizard; Step 2] interfaccia. Vedi [Seleziona tipi di rapporti](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 

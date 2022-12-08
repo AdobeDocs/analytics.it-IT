@@ -3,9 +3,9 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1159'
 ht-degree: 97%
 
 ---
@@ -32,7 +32,6 @@ Questo video mette a confronto diversi strumenti di Adobe Analytics:
 * Impostare le destinazioni
 * Visualizzare i rapporti generati da bot
 * Accesso a visualizzazioni video univoche di video Daypart e abbandono dei visualizzatori
-* Sfruttamento degli elenchi di pubblicazione nei rapporti pianificati
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=it)** è indicato per:
 

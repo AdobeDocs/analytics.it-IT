@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder e Activity Map.
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 100%
 
 ---
@@ -171,7 +171,6 @@ ht-degree: 100%
          + [Selezionare una suite di rapporti da una richiesta esistente in Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Usare Excel per individuare un ID suite di rapporti](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Gestire segmenti](report-builder/data-requests/segmentation.md)
-      + [Consentire le sostituzioni degli elenchi di pubblicazione](report-builder/data-requests/allow-publishing-list-overrides.md)
       + Tipi di rapporto {#report-types}
          + [Panoramica sui tipi di rapporto](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Rapporti di percorso e fallout percorso in Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)

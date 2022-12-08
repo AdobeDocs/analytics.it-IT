@@ -4,9 +4,9 @@ title: Create a Data Request (Creare una richiesta di archivio dati)
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d2e4a6eed54fa8b3e080b162a5e841fc2f5a0e59
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '276'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Passaggi per creare una richiesta di dati di base.
 1. In [!UICONTROL Request Wizard: Step 1] finestra, selezionare una [suite di rapporti](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Facoltativo) Seleziona un segmento da applicare alla richiesta. Dopo aver selezionato uno o più segmenti, questi si sposteranno in alto nell’elenco.
 
-   Report Builder utilizza i segmenti nello stesso modo in cui vengono utilizzati da Adobe Analytics. Consulta la sezione [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Facoltativo) Seleziona un [elenco di pubblicazione](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) da utilizzare per la distribuzione.
+   Report Builder utilizza i segmenti nello stesso modo in cui vengono utilizzati da Adobe Analytics. Consulta la sezione [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 1. Seleziona una [tipo di rapporto](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 1. Specifica una [intervallo date](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) e la relazione [granularità](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
 1. Fai clic su **[!UICONTROL Next]**.
