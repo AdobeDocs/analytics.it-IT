@@ -3,7 +3,7 @@ description: Descrive la strategia di rilascio continuo di funzioni per Adobe An
 title: Rilasci di funzioni di Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 517c12482ea87a8b600f1d8eab3143ff90ff0524
+source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
@@ -41,4 +41,4 @@ I rilasci graduali consentono ad Adobe di scalare meglio il processo di distribu
 | Domanda | Risposta |
 | --- | --- |
 | Posso richiedere l’accesso anticipato a una funzione? | No. Non sarà concesso un accesso anticipato.<br>Se desideri testare concetti di Analytics in fase iniziale, ti invitiamo a provare [Adobe Analytics Labs](/help/analyze/labs.md) per fornire feedback sulle innovazioni leader del settore. |
-| Questa strategia di rilascio influisce sull’accesso alle funzioni? | No. Una volta che una funzione raggiunge la fase GA, potrai accedervi se è inclusa nel tuo pacchetto Analytics.<br>Puoi visualizzare i dettagli del tuo pacchetto Analytics in [Feature Access Levels](/help/admin/admin/get-started/company/feature-access-levels.md) (Livelli di accesso alle funzioni). |
+| Questa strategia di rilascio influisce sull’accesso alle funzioni? | No. Una volta che una funzione raggiunge la fase GA, potrai accedervi se è inclusa nel tuo pacchetto Analytics.<br>Puoi visualizzare i dettagli del tuo pacchetto Analytics in [Feature Access Levels](/help/admin/get-started/company/feature-access-levels.md) (Livelli di accesso alle funzioni). |
