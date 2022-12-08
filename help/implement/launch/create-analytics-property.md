@@ -3,10 +3,10 @@ title: Creare una proprietà Analytics nei tag
 description: Crea uno spazio per personalizzare la modalità di raccolta dei dati utilizzando i tag .
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -16,13 +16,13 @@ I tag in Adobe Experience Platform consentono di integrare soluzioni Experience 
 
 ## Prerequisiti
 
-[Creare una suite di rapporti](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Crea un silos per i dati di Analytics da raccogliere.
+[Creare una suite di rapporti](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Crea un silos per i dati di Analytics da raccogliere.
 
 ## Creare una proprietà tag e installare estensioni vitali
 
 Le proprietà sono contenitori principali utilizzati per gestire i tag. Le estensioni ti consentono di installare tag specifici per il prodotto e configurarli.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic su **[!UICONTROL New Property]**.
 1. Assegna alla proprietà un nome, ad esempio il titolo del sito web, e immetti il dominio su cui intendi implementare Analytics. Fai clic su **[!UICONTROL Save]**.
 1. Fai clic sulla nuova proprietà tag creata per inserirne le impostazioni.
@@ -37,7 +37,7 @@ Vedi la documentazione completa per [Estensione Adobe Analytics](https://experie
 
 Gli elementi dati sono riferimenti a parti specifiche del sito per raccogliere valori variabili.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà tag che intendi implementare sul sito.
 1. Fai clic sul pulsante **[!UICONTROL Data Elements]** scheda , quindi fai clic su **[!UICONTROL Add Data Element]**.
 1. Assegna all’elemento dati le seguenti impostazioni:
@@ -58,7 +58,7 @@ Gli elementi dati sono riferimenti a parti specifiche del sito per raccogliere v
 
 Le regole mappano gli elementi dati ai valori delle variabili di Analytics e determinano quando tali valori vengono inviati ai server di Adobe.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà tag che intendi implementare sul sito.
 1. Fai clic sul pulsante **[!UICONTROL Rules]** scheda , quindi fai clic su **[!UICONTROL Add Rule]**. Denomina `Global Rule`.
 1. Fai clic su **[!UICONTROL Add]** accanto agli eventi e immettere le impostazioni seguenti:

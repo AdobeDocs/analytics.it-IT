@@ -3,8 +3,8 @@ title: Guida dell’amministratore di Analytics
 description: Guida per gli amministratori di Adobe Analytics, compresa la gestione di utenti e prodotti nell'Admin Console, l'impostazione di suite di rapporti, variabili, classificazioni e raccolta dati.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Questa guida non tratta molte delle funzionalità generiche offerte da Adobe Adm
 ## Articoli chiave
 
 * [Guida introduttiva per il primo amministratore di Analytics](admin-console/first-admin-guide.md): se la tua organizzazione utilizza Adobe Analytics per la prima volta, segui questa guida per iniziare a sfruttare le possibilità offerte da Adobe Analytics.
-* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md): questo è lo strumento di amministrazione più utilizzato in Analytics. Report Suite Manager contiene le impostazioni per la gestione delle variabili e delle classificazioni, del fuso orario e altro ancora.
+* [Report Suite Manager](admin/c-manage-report-suites/report-suites-admin.md): questo è lo strumento di amministrazione più utilizzato in Analytics. Report Suite Manager contiene le impostazioni per la gestione delle variabili e delle classificazioni, del fuso orario e altro ancora.
 
 ## Altre guide utente di Analytics
 
@@ -46,4 +46,4 @@ Questa guida non tratta molte delle funzionalità generiche offerte da Adobe Adm
 * [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=it#support)
 * [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://experienceleague.adobe.com/?lang=it#home)
+* [Experience League](https://experienceleague.adobe.com/?lang=it#dashboard/learning)

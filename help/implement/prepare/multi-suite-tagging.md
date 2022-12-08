@@ -3,20 +3,20 @@ description: Scopri come implementare l’assegnazione tag a più suite per invi
 title: Implementazione dell’assegnazione tag per più suite
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # Implementazione dell’assegnazione tag per più suite
 
-[Assegnazione di tag a più suite](/help/admin/c-manage-report-suites/rollup-report-suite.md) consente di inviare richieste di immagini non solo a una suite di rapporti globale, ma anche a suite di rapporti figlio individuali, in modo da poter fornire sottoinsiemi dei dati della suite di rapporti globale della tua azienda a utenti finali diversi.
+[Assegnazione di tag a più suite](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) consente di inviare richieste di immagini non solo a una suite di rapporti globale, ma anche a suite di rapporti figlio individuali, in modo da poter fornire sottoinsiemi dei dati della suite di rapporti globale della tua azienda a utenti finali diversi.
 
 Per implementare l’assegnazione tag a più suite, devi includere nel codice di tracciamento delle pagine web e delle app l’ID suite di rapporti (RSID) per la suite di rapporti globale e gli RSID per le suite di rapporti figlio applicabili.
 
-* Per le implementazioni di tag Adobe Experience Platform, specifica ciascuna suite di rapporti per [[!DNL Analytics] estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).
+* Per le implementazioni di tag Adobe Experience Platform, specifica ciascuna suite di rapporti per [[!DNL Analytics] estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it).
 
 * Per le implementazioni JavaScript e SDK per dispositivi mobili legacy, separa gli RSID con virgole e senza spazi (`rsid1,rsid2,rsid3` e così via).
 

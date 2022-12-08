@@ -2,7 +2,8 @@
 title: Ruoli di amministratore in Adobe Analytics
 description: Scopri come iniziare a utilizzare Adobe Analytics, i tipi di ruolo generali e l’accesso all’interfaccia utente.
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 56%
@@ -69,7 +70,7 @@ Per informazioni sull’assegnazione degli utenti come amministratori del profil
 
 ## Passaggi successivi
 
-[Creare una suite di rapporti](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Chiedi all&#39;amministratore di Analytics di accedere allo strumento e creare una suite di rapporti per la raccolta dati
+[Creare una suite di rapporti](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Chiedi all&#39;amministratore di Analytics di accedere allo strumento e creare una suite di rapporti per la raccolta dati
 
 [Creare una proprietà tag di Analytics](/help/implement/launch/create-analytics-property.md): chiedi all’amministratore della raccolta dati di accedere allo strumento e creare una proprietà da implementare sul tuo sito
 
