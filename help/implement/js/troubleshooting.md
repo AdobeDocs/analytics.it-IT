@@ -3,7 +3,7 @@ title: Risoluzione dei problemi di implementazione JavaScript
 description: Scopri i problemi comuni e le best practice per la risoluzione dei problemi dell’implementazione JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -33,7 +33,7 @@ A volte è necessario includere una virgoletta singola o doppia in una stringa. 
 
 ### Evita di utilizzare virgolette curvi
 
-Alcuni programmi convertono automaticamente le virgolette neutre (`"..."` e `'...'`) tra virgolette graffe (`“...”` e `‘...’`). Evita di utilizzare editor di documenti (come Microsoft Word) o di trasmettere frammenti di codice tramite e-mail. Non è possibile utilizzare virgolette curve in JavaScript.
+Alcuni programmi convertono automaticamente le virgolette neutre (`"..."` e `'...'`) tra virgolette graffe (`"..."` e `'...'`). Evita di utilizzare editor di documenti (come Microsoft Word) o di trasmettere frammenti di codice tramite e-mail. Non è possibile utilizzare virgolette curve in JavaScript.
 
 ## Riferimento all’oggetto Analytics
 
@@ -87,7 +87,7 @@ Questi due valori variabili sono considerati separati in Adobe Analytics. Tuttav
 Le implementazioni che popolano molte variabili con valori lunghi a volte possono incorrere in richieste di immagini troncate. Alcuni browser meno recenti, come Internet Explorer, impongono un limite di 2083 caratteri per gli URL delle richieste di immagini. Se l&#39;organizzazione deve affrontare richieste di immagini molto lunghe, prova quanto segue:
 
 * **Utilizzare il servizio Experience Cloud ID**: Le librerie AppMeasurement 1.4.1 e versioni successive inviano automaticamente richieste di immagini utilizzando HTTP POST se sono troppo lunghe. I dati inviati con questo metodo non vengono troncati indipendentemente dalla lunghezza. Vedi [Servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) per ulteriori informazioni.
-* **Utilizzare le regole di elaborazione**: [Regole di elaborazione](/help/admin/admin/c-processing-rules/processing-rules.md) può copiare i valori da una variabile a un&#39;altra. Questo metodo ti consente di evitare di impostare lo stesso valore in più variabili. Esempio:
+* **Utilizzare le regole di elaborazione**: [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) può copiare i valori da una variabile a un&#39;altra. Questo metodo ti consente di evitare di impostare lo stesso valore in più variabili. Esempio:
 
    Esegui sempre:<br>
 Sovrascrivi il valore di prop1 con eVar1<br>

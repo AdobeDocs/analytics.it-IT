@@ -3,7 +3,7 @@ description: Descrizioni dei tipi di suite di rapporti e confronto tra le suite 
 title: Approcci suite di rapporti
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
@@ -44,7 +44,7 @@ Invece di usare più suite di rapporti con tag, spesso è preferibile utilizzare
 >
 >[!DNL Reports & Analytics] è l’unico strumento che supporta i rapporti di aggregazione dati; Adobe non consiglia più l’uso delle aggregazioni dati. Piuttosto, è consigliabile utilizzare una suite di rapporti globale con assegnazione di tag a più suite o le suite di rapporti virtuali.
 
-Un rapporto di aggregazione dati è una semplice aggregazione di dati provenienti da più suite di rapporti, senza deduplicazione né raggruppamenti di segmenti o dati. Le aggregazioni dati non richiedono alcuna implementazione di codice. Per utilizzare i rapporti di aggregazione dati, [implementa suite di rapporti figlio](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) e poi [combinale in un rapporto di aggregazione dati](/help/admin/admin/c-manage-report-suites/t-rollups.md) utilizzando [!UICONTROL Admin Tools].
+Un rapporto di aggregazione dati è una semplice aggregazione di dati provenienti da più suite di rapporti, senza deduplicazione né raggruppamenti di segmenti o dati. Le aggregazioni dati non richiedono alcuna implementazione di codice. Per utilizzare i rapporti di aggregazione dati, [implementa suite di rapporti figlio](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) e poi [combinale in un rapporto di aggregazione dati](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) utilizzando [!UICONTROL Admin Tools].
 
 I rapporti di aggregazione dati sono gratuiti: le suite di rapporti figlio eseguono le proprie chiamate al server, ma l’aggregazione dati non comporta chiamate aggiuntive. Le aggregazioni dati sono una funzione legacy e presentano molte limitazioni.
 

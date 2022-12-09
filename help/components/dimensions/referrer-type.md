@@ -3,10 +3,10 @@ title: Tipo di referrer
 description: Il tipo di referente, a seconda di da dove proviene il visitatore.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: f456c69c8a39149aba2587425714674db6154a18
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -16,9 +16,9 @@ La dimensione &quot;Referrer type&quot; (Tipo referente) indica i canali generic
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione fa riferimento a più tabelle di ricerca interne all’Adobe. Ogni valore è basato sul [referrer](referrer.md) dell’hit, che dipende da [Filtri URL interni](/help/admin/admin/internal-url-filter-admin.md). Assicurati che la dimensione del referente e i filtri URL interni siano configurati correttamente.
+Questa dimensione fa riferimento a più tabelle di ricerca interne all’Adobe. Ogni valore è basato sul [referrer](referrer.md) dell’hit, che dipende da [Filtri URL interni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Assicurati che la dimensione del referente e i filtri URL interni siano configurati correttamente.
 
-## Elementi Dimension
+## Elementi dimensionali
 
 Gli elementi di Dimension includono il tipo di referente dell&#39;hit. I valori specifici includono quanto segue:
 

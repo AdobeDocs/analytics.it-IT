@@ -3,10 +3,10 @@ title: Codice di avviamento postale
 description: Codice postale del visitatore.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -21,13 +21,13 @@ Questa dimensione è univoca in quanto contiene diversi modi per popolarla con i
 * Imposta il codice postale direttamente utilizzando il `zip` variabile; o
 * Configura per estrarre dai dati di geosegmentazione.
 
-La [!UICONTROL Zip option] sotto [Impostazioni account generali](/help/admin/admin/general-acct-settings-admin.md) controlla come desideri compilare la dimensione.
+La [!UICONTROL Zip option] sotto [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) controlla come desideri compilare la dimensione.
 
 >[!IMPORTANT]
 >
 >L’impostazione della suite di rapporti è fondamentale se desideri un controllo completo sulla modalità di compilazione di questa dimensione.
 
-## Elementi Dimension
+## Elementi dimensionali
 
 Gli articoli di Dimension includono il codice postale del visitatore.
 

@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8e6f8ecb153d5af183adee76acef0a12901bb1be
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '3448'
 ht-degree: 94%
@@ -203,7 +203,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 11 aprile 2019 | Sono state migliorate le best practice per l’ottimizzazione di Workspace: [Ottimizzazione delle prestazioni](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11 aprile 2019 | Aggiornamento della sezione su come [ottimizzare le prestazioni di Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14 marzo 2019 | Aggiornamento importante sulla [raccolta di dati regionali](/help/technotes/rdc/regional-data-collection.md). |
-| 7 febbraio 2019 | Aggiornamento minore delle impostazioni “Replace the last octet of IP addresses with 0” (Sostituisci con 0 ultimo ottetto indirizzi IP) e “IP Obfuscation” (Offuscamento IP) nella sezione sulle [Impostazioni generali dell’account](/help/admin/admin/general-acct-settings-admin.md). |
+| 7 febbraio 2019 | Aggiornamento minore delle impostazioni “Replace the last octet of IP addresses with 0” (Sostituisci con 0 ultimo ottetto indirizzi IP) e “IP Obfuscation” (Offuscamento IP) nella sezione sulle [Impostazioni generali dell’account](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1 febbraio 2019 | Aggiornamento importante del plug-in di implementazione [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 gennaio 2019 | [Analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - Importanti miglioramenti apportati all’analisi per coorte consentono di:<ul><li>Applicare separatamente le metriche di inclusione e di restituzione di un segmento. </li><li>Visualizzare l’abbandono invece della fidelizzazione.</li><li>Visualizzare tabelle di latenza (tempo trascorso prima e dopo un evento di inclusione).</li><li>Personalizzare la dimensione delle coorti (per raggruppare i visitatori in base a una eVar, non solo al tempo).</li><li>Eseguire un calcolo continuo per coorti: calcolare fidelizzazione e abbandono in base al periodo di tempo precedente, non alla coorte originale. </li><li>Aggiungere più metriche nei campi di inclusione e di ritorno, oltre che applicare i segmenti. (Le metriche calcolate non sono supportate)</li></ul> |
 | 17 gennaio 2019 | [Densità di visualizzazione](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Questa nuova impostazione consente di visualizzare più dati in una singola schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. Accessibile da Progetto > Informazioni e impostazioni progetto. |

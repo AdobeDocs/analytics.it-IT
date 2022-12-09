@@ -3,7 +3,7 @@ title: Rapporti di acquisizione in Adobe Analytics
 description: Scopri come creare rapporti basati sull'acquisizione utilizzando Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 2%
@@ -127,7 +127,7 @@ Il rapporto delle campagne è disponibile in Analysis Workspace utilizzando **Co
 
 ## Campagne - Parole chiave a pagamento
 
-Il rapporto sulle parole chiave a pagamento mostra le prestazioni di ogni parola chiave dopo che un visitatore fa clic su un collegamento di ricerca a pagamento da un motore di ricerca. La **Parole chiave di ricerca - Pagato** La dimensione è disponibile in Analysis Workspace, ma richiede una configurazione unica del rilevamento di ricerca a pagamento per raccogliere i dati. Vedi [Rilevamento ricerca a pagamento](/help/admin/admin/paid-search-detection/paid-search-detection.md) nella guida utente Amministratore per i dettagli della configurazione.
+Il rapporto sulle parole chiave a pagamento mostra le prestazioni di ogni parola chiave dopo che un visitatore fa clic su un collegamento di ricerca a pagamento da un motore di ricerca. La **Parole chiave di ricerca - Pagato** La dimensione è disponibile in Analysis Workspace, ma richiede una configurazione unica del rilevamento di ricerca a pagamento per raccogliere i dati. Vedi [Rilevamento ricerca a pagamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) nella guida utente Amministratore per i dettagli della configurazione.
 
 1. Nel menu Componenti , individua la **Parola chiave di ricerca - Pagato** e trascinarlo nell’area grande della tabella a forma libera denominata &quot;Rilascia qui un Dimension&quot;.
 2. Trascina le metriche desiderate nell’area di lavoro accanto alla creazione automatica **Occorrenze** metrica. Consulta la sezione [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica rispettiva.

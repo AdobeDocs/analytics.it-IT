@@ -3,28 +3,28 @@ title: contextData
 description: Le variabili di dati di contesto ti consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere.
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 # contextData
 
-Le variabili di dati di contesto ti consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere. Invece di assegnare esplicitamente valori alle variabili Analytics nel codice, puoi inviare dati in variabili di dati di contesto. Le regole di elaborazione prendono quindi i valori delle variabili dei dati di contesto e li trasmettono alle rispettive variabili di Analytics. Vedi [Regole di elaborazione](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) nella guida utente Admin.
+Le variabili di dati di contesto ti consentono di definire variabili personalizzate su ogni pagina che le regole di elaborazione possono leggere. Invece di assegnare esplicitamente valori alle variabili Analytics nel codice, puoi inviare dati in variabili di dati di contesto. Le regole di elaborazione prendono quindi i valori delle variabili dei dati di contesto e li trasmettono alle rispettive variabili di Analytics. Vedi [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) nella guida utente Admin.
 
 Le variabili di dati di contesto sono utili per i team di sviluppo per raccogliere i dati in elementi denominati invece che in variabili numerate. Ad esempio, anziché richiedere ai team di sviluppo di assegnare l’autore della pagina a `eVar10`, può richiedere che lo assegni a `s.contextData["author"]` invece. Un amministratore di Analytics nella tua organizzazione può quindi creare regole di elaborazione per mappare le variabili dei dati di contesto in variabili di Analytics a scopo di reportistica. I team di sviluppo si preoccuperebbero in ultima analisi solo delle variabili di dati di contesto, anziché delle numerose offerte di Adobe delle variabili di pagina.
 
 ## Variabili di dati di contesto che utilizzano l’SDK per web
 
-Se un campo XDM non è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), viene incluso automaticamente come variabile di dati di contesto. È quindi possibile utilizzare [Regole di elaborazione](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) per assegnare la variabile di dati di contesto alla variabile di Analytics desiderata.
+Se un campo XDM non è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it), viene incluso automaticamente come variabile di dati di contesto. È quindi possibile utilizzare [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) per assegnare la variabile di dati di contesto alla variabile di Analytics desiderata.
 
 Anche se è consigliabile mappare i dati sui campi XDM corretti nel Datastream, questo metodo fornisce risultati simili.
 
 ## Variabili di dati di contesto che utilizzano l’estensione Adobe Analytics
 
-Adobe Experience Platform Data Collection non dispone di una posizione dedicata per impostare variabili di dati di contesto. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+Adobe Experience Platform Data Collection non dispone di una posizione dedicata per impostare variabili di dati di contesto. Utilizza l’editor di codice personalizzato seguendo la sintassi di AppMeasurement.
 
 ## s.contextData in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 

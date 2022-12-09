@@ -3,10 +3,10 @@ title: linkInternalFilters
 description: Utilizza la variabile linkInternalFilters per facilitare l'uscita automatica del tracciamento dei collegamenti.
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ Activity Map utilizza questa variabile per determinare quali collegamenti sono i
 
 >[!NOTE]
 >
->`linkInternalFilters` e [Filtri URL interni](/help/admin/admin/internal-url-filter-admin.md) sono caratteristiche separate che soddisfano scopi separati. La `linkInternalFilters` Questa variabile funziona in modo specifico per il tracciamento dei collegamenti in uscita. I filtri URL interni sono un’impostazione Admin che consente di gestire le dimensioni delle origini di traffico come Dominio di riferimento.
+>`linkInternalFilters` e [Filtri URL interni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) sono caratteristiche separate che soddisfano scopi separati. La `linkInternalFilters` Questa variabile funziona in modo specifico per il tracciamento dei collegamenti in uscita. I filtri URL interni sono un’impostazione Admin che consente di gestire le dimensioni delle origini di traffico come Dominio di riferimento.
 
 ## Esci dai collegamenti nell’SDK per web
 
@@ -34,10 +34,10 @@ Vedi [Tracciamento automatico dei collegamenti](https://experienceleague.adobe.c
 
 Il campo Never Track è un elenco di filtri separati da virgole (in genere domini) sotto [!UICONTROL Link Tracking] pannello a soffietto durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà tag desiderata.
-3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto Adobe Analytics.
-4. Espandi la [!UICONTROL Link Tracking] fisarmonica, che rivela [!UICONTROL Outbound Links - Never Track] campo .
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+2. Fai clic sulla proprietà del tag desiderata.
+3. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
+4. Espandi il pannello a soffietto [!UICONTROL Link Tracking], che mostra il campo [!UICONTROL Outbound Links - Never Track].
 
 Posiziona in questo campo i filtri che non dovranno mai essere tracciati come collegamenti di uscita. Separa più domini con una virgola senza uno spazio.
 

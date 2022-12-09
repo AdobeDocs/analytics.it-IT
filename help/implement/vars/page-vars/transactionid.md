@@ -3,10 +3,10 @@ title: transactionID
 description: Utilizza questa variabile per collegare insieme dati online e offline.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 2%
+ht-degree: 17%
 
 ---
 
@@ -16,7 +16,7 @@ La `transactionID` identifica in modo univoco una transazione in modo che l&#39;
 
 >[!NOTE]
 >
->Assicurati che [!UICONTROL Transaction ID Storage] è abilitata in una suite di rapporti prima di utilizzare questa variabile. Vedi [Impostazioni account generali](/help/admin/admin/general-acct-settings-admin.md) nella guida utente di Admin per ulteriori informazioni.
+>Assicurati che [!UICONTROL Transaction ID Storage] è abilitata in una suite di rapporti prima di utilizzare questa variabile. Vedi [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) nella guida utente di Admin per ulteriori informazioni.
 
 Quando si imposta `transactionID` in un hit, Adobe prende uno &quot;snapshot&quot; di tutte le variabili Analytics impostate o persistite in quel momento. I dati caricati tramite Origini dati con un ID transazione corrispondente sono legati in modo permanente a tali valori variabili.
 
@@ -30,12 +30,12 @@ ID transazione: [mappato per Adobe Analytics](https://experienceleague.adobe.com
 
 Puoi impostare l’ID transazione sia durante la configurazione dell’estensione Analytics (variabili globali) sia in base alle regole.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà tag desiderata.
-3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
-4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
-5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
-6. Individua il [!UICONTROL Transaction ID] sezione .
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+2. Fai clic sulla proprietà del tag desiderata.
+3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
+4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
+5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+6. Individua la sezione [!UICONTROL Transaction ID].
 
 Puoi impostare l’ID transazione su qualsiasi valore stringa, inclusi gli elementi dati.
 

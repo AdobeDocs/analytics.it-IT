@@ -3,8 +3,8 @@ title: Cos’è la variabile currencyCode e come si usa?
 description: Per i siti di eCommerce, imposta la valuta in cui sono effettuate le offerte della pagina.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Per i siti che utilizzano Commerce, le entrate e la valuta sono una parte import
 
 La conversione della valuta utilizza la seguente logica su ogni hit. Questi passaggi si applicano ai valori delle entrate assegnati alla variabile [`products`](../page-vars/products.md) e tutti gli eventi elencati come “Valuta” negli [Eventi di successo](/help/admin/admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
-* Se `currencyCode` non è definita, Adobe presuppone che tutti i valori di valuta siano la valuta della suite di rapporti. Consulta le [Impostazioni account generali](/help/admin/admin/general-acct-settings-admin.md) nelle Impostazioni della suite di rapporti per visualizzare la valuta della suite di rapporti.
+* Se `currencyCode` non è definita, Adobe presuppone che tutti i valori di valuta siano la valuta della suite di rapporti. Consulta le [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) nelle Impostazioni della suite di rapporti per visualizzare la valuta della suite di rapporti.
 * Se `currencyCode` è definita e corrisponde alla valuta della suite di rapporti, non viene applicata alcuna conversione di valuta.
 * Se `currencyCode` è definita ed è diversa dalla valuta della suite di rapporti, Adobe applica una conversione della valuta in base al tasso di cambio del giorno corrente. Adobe collabora con [XE](https://xe.com) per convertire la valuta ogni giorno. Tutti i valori memorizzati nella suite di rapporti si trovano nella valuta della suite di rapporti.
 * Se `currencyCode` è impostata su un valore non valido, **l’intero hit viene eliminato causando la perdita di dati.** Assicurati che questa variabile sia definita correttamente ogni volta che viene utilizzata.

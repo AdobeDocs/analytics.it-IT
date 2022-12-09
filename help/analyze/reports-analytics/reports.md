@@ -4,8 +4,8 @@ description: Dimensioni e metriche utilizzate da Reports & Analytics per ogni ra
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Ogni rapporto in Reports &amp; Analytics utilizza una dimensione dedicata e una 
 
 >[!NOTE]
 >
->Il menu dei rapporti può avere un aspetto diverso a seconda delle personalizzazioni effettuate da un amministratore nell’organizzazione. Vedi [Personalizzazione del menu](/help/admin/admin/customize-menus.md) nella guida utente Admin.
+>Il menu dei rapporti può avere un aspetto diverso a seconda delle personalizzazioni effettuate da un amministratore nell’organizzazione. Vedi [Personalizzazione del menu](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) nella guida utente Admin.
 
 >[!IMPORTANT]
 >A partire dal **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I rapporti, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. Dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
@@ -119,7 +119,7 @@ Contiene rapporti che ti consentono di visualizzare i dati del percorso per i vi
 
 ## Origini di traffico
 
-Contiene un rapporto che fornisce indicazioni sulla provenienza dei visitatori, dove si trovavano prima di arrivare al tuo sito. Questi rapporti funzionano correttamente solo se vengono impostati correttamente i [Filtri per URL interni](../../admin/admin/internal-url-filter-admin.md) nelle impostazioni della suite di rapporti.
+Contiene un rapporto che fornisce indicazioni sulla provenienza dei visitatori, dove si trovavano prima di arrivare al tuo sito. Questi rapporti funzionano correttamente solo se vengono impostati correttamente i [Filtri per URL interni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) nelle impostazioni della suite di rapporti.
 
 * Parole chiave di ricerca - tutto: usa la dimensione [Parola chiave di ricerca](/help/components/dimensions/search-keyword.md).
 * Parole chiave di ricerca - a pagamento: usa la dimensione [Parola chiave di ricerca - a pagamento](/help/components/dimensions/search-keyword.md).
@@ -230,4 +230,4 @@ Contiene i target che hai creato. Per ulteriori informazioni, consulta [Target](
 
 >[!NOTE]
 >
->Se non riesci a trovare il rapporto in questa pagina della guida, è possibile che l’amministratore abbia rinominato o modificato le cartelle. Consulta [Personalizzazione del menu](/help/admin/admin/customize-menus.md) nella guida utente dell’amministratore.
+>Se non riesci a trovare il rapporto in questa pagina della guida, è possibile che l’amministratore abbia rinominato o modificato le cartelle. Consulta [Personalizzazione del menu](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) nella guida utente dell’amministratore.
