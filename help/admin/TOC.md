@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -48,18 +48,10 @@ ht-degree: 95%
       + [Firme bot comuni](admin/bot-removal/bot-signatures.md)
       + [Metodi di esclusione bot](admin/bot-removal/bot-exclusion-methods.md)
    + [Gestione codici](admin/code-manager-admin.md)
-   + Variabili di conversione {#conversion-variables}
-      + [Variabili di conversione (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
-      + [Modificare le variabili di conversione](admin/conversion-var-admin/t-conversion-variables-admin.md)
-      + [Classificazioni di conversione](admin/conversion-var-admin/conversion-classifications.md)
-      + [Gerarchie di classificazione](admin/conversion-var-admin/classification-hierarchies.md)
-      + [Variabili elenco](admin/conversion-var-admin/list-var-admin.md)
-      + [eVar di Merchandising](admin/conversion-var-admin/merchandising-evars.md)
    + [Codici valuta](admin/currency.md)
    + [Origini dati](admin/data-sources.md)
    + [Metriche predefinite](admin/default-metrics.md)
    + [Escludi per indirizzo IP](admin/exclude-ip.md)
-   + [Metodi di ricerca](admin/finding-methods.md)
    + [Registri](admin/logs.md)
    + [Canali di marketing](admin/marketing-channels-admin.md)
    + [Visibilità delle metriche](admin/metric-visibility.md)
@@ -131,6 +123,21 @@ ht-degree: 95%
             + [Abilitare i rapporti sulle variabili traffico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [Classificazioni traffico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Descrizioni report personalizzati](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
+         + Variabili di conversione {#conversion-variables}
+            + [Variabili di conversione (eVar)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+            + [Modificare le variabili di conversione](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)
+            + [Classificazioni di conversione](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
+            + [Gerarchie di classificazione](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
+            + [Variabili elenco](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
+            + [eVar di Merchandising](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
+            + [Metodi di ricerca](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
+            + Variabile Visitatore univoco {#unique-visitor-variable}
+               + [Specificare la variabile Visitatore univoco](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+               + [Caso di utilizzo: estrazione degli ID visitatore](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+            + Eventi di successo {#success-events}
+               + [Panoramica degli eventi di successo](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
+               + [Configurare eventi di successo](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
+               + [Informazioni sulla modifica del tipo di evento](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
    + Inoltro lato server {#server-side-forwarding}
       + [Panoramica sull&#39;inoltro lato server](admin/c-server-side-forwarding/ssf.md)
       + [Conformità a RGPD/ePrivacy e inoltro lato server](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -139,14 +146,7 @@ ht-degree: 95%
       + [Verificare l’implementazione dell’inoltro lato server](admin/c-server-side-forwarding/ssf-verify.md)
       + [Domande frequenti sull&#39;inoltro lato server](admin/c-server-side-forwarding/ssf-faq.md)
    + [Menu dei rapporti semplificati](admin/t-simplified-menu.md)
-   + Eventi di successo {#success-events}
-      + [Panoramica degli eventi di successo](admin/c-success-events/success-event.md)
-      + [Configurare eventi di successo](admin/c-success-events/t-success-events.md)
-      + [Informazioni sulla modifica del tipo di evento](admin/c-success-events/event-type.md)
    + [Marca temporale opzionale](admin/timestamp-optional.md)
-   + Variabile Visitatore univoco {#unique-visitor-variable}
-      + [Specificare la variabile Visitatore univoco](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Caso di utilizzo: estrazione degli ID visitatore](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestione video](admin/video-management.md)
 + Gestione di utenti e prodotti (Legacy) {#user-product-management}
    + [Gestione di utenti e prodotti](user-management2/user-management.md)

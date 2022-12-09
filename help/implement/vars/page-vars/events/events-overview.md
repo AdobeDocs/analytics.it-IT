@@ -3,10 +3,10 @@ title: events
 description: Imposta la variabile degli eventi, che regola la maggior parte delle metriche sul sito.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 48f840f3f15702761a453763e7c416a67bcb687b
+source-git-commit: 62f793491d2f95266a71bc217260353f8c040525
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 I Dimension e le metriche sono componenti vitali per i rapporti. La `events` è responsabile della raccolta dati di molte metriche sul sito. Generalmente gli eventi si incrementano [metriche](/help/components/metrics/overview.md) nei rapporti.
 
-Prima di implementare gli eventi, assicurati di crearli e configurarli in [Eventi di successo](/help/admin/admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti. Se prevedi di utilizzare eventi personalizzati negli hit di tracciamento dei collegamenti, assicurati che [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) sono impostati correttamente.
+Prima di implementare gli eventi, assicurati di crearli e configurarli in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti. Se prevedi di utilizzare eventi personalizzati negli hit di tracciamento dei collegamenti, assicurati che [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) sono impostati correttamente.
 
 ## Eventi che utilizzano l’SDK per web
 
@@ -41,12 +41,12 @@ Gli eventi personalizzati sono [mappato per Adobe Analytics](https://experiencel
 
 Puoi impostare gli eventi sia durante la configurazione dell’estensione Analytics (variabili globali) che in regole.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà tag desiderata.
-3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
-4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
-5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
-6. Individua il [!UICONTROL Events] sezione .
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+2. Fai clic sulla proprietà del tag desiderata.
+3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
+4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
+5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+6. Individua la sezione [!UICONTROL Events].
 
 Sono disponibili diverse funzioni:
 
@@ -100,7 +100,7 @@ s.events = "event1=2,event2";
 
 È possibile modificare un evento personalizzato per utilizzare la valuta anziché i numeri interi. Gli eventi di valuta si convertono automaticamente nella valuta della suite di rapporti se la valuta della suite di rapporti e `currencyCode` La variabile non corrisponde. Sono utili per calcolare i costi di spedizione, gli sconti o i rimborsi. È possibile impostare gli eventi di valuta nella `products` se desideri attribuire l&#39;evento solo a quel prodotto.
 
-Prima di implementare gli eventi di valuta, accertati di impostare l’evento desiderato su &quot;Valuta&quot; in [Eventi di successo](/help/admin/admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
+Prima di implementare gli eventi di valuta, accertati di impostare l’evento desiderato su &quot;Valuta&quot; in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -121,7 +121,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 È possibile modificare un evento personalizzato accettando valori decimali anziché numeri interi. Gli eventi numerici si comportano in modo simile agli eventi di valuta, ma non utilizzano la conversione di valuta. È possibile impostare eventi numerici nella `products` se desideri attribuire l&#39;evento solo a quel prodotto.
 
-Prima di implementare eventi numerici, accertati di impostare l’evento desiderato su &quot;Numerico&quot; in [Eventi di successo](/help/admin/admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
+Prima di implementare eventi numerici, accertati di impostare l’evento desiderato su &quot;Numerico&quot; in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings

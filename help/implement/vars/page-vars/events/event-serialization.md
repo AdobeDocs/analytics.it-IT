@@ -3,10 +3,10 @@ title: Serializzazione degli eventi
 description: Consente di deduplicare le metriche sul sito.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ La serializzazione degli eventi è il processo di implementazione delle misure p
 
 ## Imposta la serializzazione degli eventi
 
-È innanzitutto necessario impostare il valore di [!UICONTROL Unique Event Recording] a [!UICONTROL Use Event ID] nelle impostazioni della suite di rapporti. Vedi [Eventi di successo](/help/admin/admin/c-success-events/success-event.md) nella guida utente Admin.
+È innanzitutto necessario impostare il valore di [!UICONTROL Unique Event Recording] a [!UICONTROL Use Event ID] nelle impostazioni della suite di rapporti. Vedi [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nella guida utente Admin.
 
 Quando si utilizzano gli ID evento, la deduplicazione avviene ai seguenti livelli:
 
@@ -34,7 +34,7 @@ Quando si utilizzano gli ID evento, la deduplicazione avviene ai seguenti livell
 
 ## Utilizzare gli ID evento utilizzando l’SDK per web
 
-La serializzazione degli eventi è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nel campo XDM dell&#39;evento desiderato `id`. Il percorso XDM completo dipende dall’evento da serializzare.
+La serializzazione degli eventi è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM dell&#39;evento desiderato `id`. Il percorso XDM completo dipende dall’evento da serializzare.
 
 Ad esempio, se desideri serializzare la metrica Aggiunte carrello, imposta la `commerce.productListAdds.id` Campo XDM al valore di serializzazione desiderato. Se desideri serializzare l&#39;evento personalizzato 20, imposta la variabile `_experience.analytics.event1to100.event20` Campo XDM al valore di serializzazione desiderato.
 
@@ -42,11 +42,11 @@ Ad esempio, se desideri serializzare la metrica Aggiunte carrello, imposta la `c
 
 Puoi impostare il campo ID evento sia durante la configurazione dell&#39;estensione Analytics (variabili globali) sia come azione in una regola.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà tag desiderata.
-3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
-4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
-5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+2. Fai clic sulla proprietà del tag desiderata.
+3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
+4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
+5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua il [!UICONTROL Events] sezione , dove ogni evento contiene un [!UICONTROL Event ID] campo .
 
 I valori validi sono caratteri alfanumerici di lunghezza massima di 20 byte. Se si immette un valore superiore a 20 byte, il sistema lo troncherà ai primi 20 byte.

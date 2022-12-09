@@ -3,7 +3,7 @@ title: websiteBot
 description: Identificare dinamicamente i bot utilizzando il movimento del mouse.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 11%
@@ -28,11 +28,11 @@ Se l&#39;agente utente è su un desktop e non viene rilevato alcun movimento del
 * Effettua una chiamata diretta della regola di chiamata utilizzando l’SDK per web o l’estensione Adobe Analytics, oppure
 * Effettua una chiamata di tracciamento dei collegamenti per indicare che il visitatore non è un bot.
 
-## Prerequisiti 
+## Prerequisiti
 
 Adobe consiglia quanto segue prima di utilizzare questo plug-in:
 
-* **Configurare le impostazioni di eVar**: Imposta un eVar in [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nelle impostazioni della suite di rapporti. Imposta la scadenza su **Mai** o **Visita** e l&#39;assegnazione **&quot;Valore originale (primo)&quot;**. Questo eVar deve essere stabilito in entrambe le circostanze: quando [!UICONTROL Direct Call] o `s.tl` La chiamata viene attivata.
+* **Configurare le impostazioni di eVar**: Imposta un eVar in [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nelle impostazioni della suite di rapporti. Imposta la scadenza su **Mai** o **Visita** e l&#39;assegnazione **&quot;Valore originale (primo)&quot;**. Questo eVar deve essere stabilito in entrambe le circostanze: quando [!UICONTROL Direct Call] o `s.tl` La chiamata viene attivata.
 * **Raccogliere l’agente utente in una variabile separata**: Raccogliere la stringa dell&#39;agente utente in una variabile separata per monitorare l&#39;efficacia di questo plug-in. Imposta un eVar su `navigator.UserAgent` su ogni hit per raccogliere questi dati.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato

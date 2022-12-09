@@ -1,20 +1,20 @@
 ---
 description: Puoi nascondere metriche standard (integrate), eventi personalizzati ed eventi incorporati in Menu, Selettori metriche, Generatore metriche calcolate e Generatore segmenti.
-title: Visibilità della metrica
+title: Visibilità delle metriche
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 36%
 
 ---
 
-# Visibilità della metrica
+# Visibilità delle metriche
 
 Puoi nascondere metriche standard (integrate), eventi personalizzati ed eventi incorporati in Menu, Selettori metriche, Generatore metriche calcolate e Generatore segmenti.
 
-1. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**. [Altro...](/help/admin/admin/c-success-events/t-success-events.md)
+1. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**. [Altro...](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
 1. Imposta la colonna Visibilità su **[!UICONTROL Visible Everywhere]**, **[!UICONTROL Builders]** oppure **[!UICONTROL Hidden Everywhere]**.
 
 Queste impostazioni non influiscono sulla raccolta di dati per quella metrica, ma riguardano solamente la visualizzazione nell’interfaccia utente. In questo modo le impostazioni influiscono sulla visibilità delle metriche nell’interfaccia utente:

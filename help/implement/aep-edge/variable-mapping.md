@@ -2,7 +2,7 @@
 title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 99%
@@ -62,7 +62,7 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1` -<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Imposta la rispettiva dimensione [Gerarchia](/help/components/dimensions/hierarchy.md). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Sovrascrittura delimitatore Prop elenco. L’utilizzo di questo campo non è consigliato, in quanto il delimitatore viene recuperato automaticamente dall’[Amministratore variabile di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti. L’utilizzo di questo campo può creare una mancata corrispondenza tra il delimitatore utilizzato e quello previsto da Analytics. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Matrice di stringhe contenente i rispettivi valori [Prop elenco](../vars/page-vars/prop.md#list-props). |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena tutte le stringhe `value` in ciascuna matrice `list[]` alla rispettiva [variabile elenco](../vars/page-vars/list.md). Il delimitatore viene scelto automaticamente in base al valore impostato in [Impostazioni delle suite di rapporti](/help/admin/admin/conversion-var-admin/list-var-admin.md). |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena tutte le stringhe `value` in ciascuna matrice `list[]` alla rispettiva [variabile elenco](../vars/page-vars/list.md). Il delimitatore viene scelto automaticamente in base al valore impostato in [Impostazioni delle suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Imposta la rispettiva dimensione [Prop](../../components/dimensions/prop.md). |
 | `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla rispettiva metrica [Eventi personalizzati](../../components/metrics/custom-events.md). |
 | `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Incrementa la rispettiva metrica [Eventi personalizzati](../../components/metrics/custom-events.md) della quantità desiderata. |

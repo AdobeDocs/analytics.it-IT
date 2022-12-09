@@ -3,7 +3,7 @@ title: Cos’è la variabile currencyCode e come si usa?
 description: Per i siti di eCommerce, imposta la valuta in cui sono effettuate le offerte della pagina.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Per i siti che utilizzano Commerce, le entrate e la valuta sono una parte importante di Analytics. Molti siti, soprattutto quelli che interessano più Paesi, utilizzano valute diverse. Utilizza la variabile `currencyCode` per assicurarti che le entrate siano attribuite alla valuta corretta.
 
-La conversione della valuta utilizza la seguente logica su ogni hit. Questi passaggi si applicano ai valori delle entrate assegnati alla variabile [`products`](../page-vars/products.md) e tutti gli eventi elencati come “Valuta” negli [Eventi di successo](/help/admin/admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
+La conversione della valuta utilizza la seguente logica su ogni hit. Questi passaggi si applicano ai valori delle entrate assegnati alla variabile [`products`](../page-vars/products.md) e tutti gli eventi elencati come “Valuta” negli [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
 * Se `currencyCode` non è definita, Adobe presuppone che tutti i valori di valuta siano la valuta della suite di rapporti. Consulta le [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) nelle Impostazioni della suite di rapporti per visualizzare la valuta della suite di rapporti.
 * Se `currencyCode` è definita e corrisponde alla valuta della suite di rapporti, non viene applicata alcuna conversione di valuta.

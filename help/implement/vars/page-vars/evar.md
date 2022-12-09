@@ -3,8 +3,8 @@ title: eVar (variabile)
 description: Variabili personalizzate che puoi utilizzare nell’implementazione.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 *Questa pagina di aiuto descrive come implementare le eVar. Per informazioni sul funzionamento delle eVar come dimensione, consulta [eVar](/help/components/dimensions/evar.md) nella guida utente Componenti.*
 
-Le eVar sono variabili personalizzate che puoi utilizzare come desideri. Se hai un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), la maggior parte delle dimensioni specifiche dell’organizzazione saranno delle eVar. Per impostazione predefinita, le eVar persistono oltre l’hit su cui sono impostate. Puoi personalizzarne la scadenza e l’allocazione in [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nelle impostazioni della suite di rapporti.
+Le eVar sono variabili personalizzate che puoi utilizzare come desideri. Se hai un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), la maggior parte delle dimensioni specifiche dell’organizzazione saranno delle eVar. Per impostazione predefinita, le eVar persistono oltre l’hit su cui sono impostate. Puoi personalizzarne la scadenza e l’allocazione in [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nelle impostazioni della suite di rapporti.
 
 Il numero di eVar disponibili dipende dal contratto con Adobe. Se il contratto con Adobe lo supporta, sono disponibili fino a 250 eVar.
 
 ## Impostare le eVar nelle impostazioni della suite di rapporti
 
-Prima di utilizzare le eVar nell’implementazione, accertati di configurarle nelle impostazioni della suite di rapporti. Vedi [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nella guida per l’amministratore.
+Prima di utilizzare le eVar nell’implementazione, accertati di configurarle nelle impostazioni della suite di rapporti. Vedi [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nella guida per l’amministratore.
 
 ## eVar tramite Web SDK
 
@@ -33,7 +33,7 @@ Puoi impostare le eVar sia durante la configurazione dell’estensione Analytics
 1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
-4. In [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente oppure fai clic sull’icona “+”.
+4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
 5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL eVars].
 
@@ -63,4 +63,4 @@ Se vengono fornite più di due posizioni decimali, il contatore eVar arrotonda a
 
 >[!IMPORTANT]
 >
->Prima di utilizzare le eVar come contatore, devi configurarle come “Contatore” in Admin Console. Vedi [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nella guida per l’amministratore.
+>Prima di utilizzare le eVar come contatore, devi configurarle come “Contatore” in Admin Console. Vedi [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nella guida per l’amministratore.

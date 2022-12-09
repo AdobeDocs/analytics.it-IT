@@ -2,7 +2,7 @@
 title: Termini utilizzati in Adobe Analytics
 description: Glossario per Adobe Analytics, definizione dei termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 2%
@@ -17,7 +17,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Admin Console:** Può fare riferimento a:
    * Strumenti di amministrazione legacy, in cui vengono gestite le impostazioni della suite di rapporti in Adobe Analytics. Nelle versioni precedenti di Adobe Analytics, anche le autorizzazioni utente sono state gestite qui. Vedi [Strumenti di amministrazione](/help/admin/admin/c-admin-tools.md) nella guida utente Admin.
    * L’Adobe Admin Console, in cui è stato eseguito il provisioning dell’accesso al prodotto e vengono gestite le autorizzazioni utente. Vedi [Admin Console](/help/admin/admin-console/home.md) nella guida utente Admin.
-* **Allocazione:** Se una variabile di conversione rileva più di un valore durante una visita, l&#39;impostazione di allocazione della variabile determina quale valore viene mantenuto. Vedi [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nella guida utente Admin.
+* **Allocazione:** Se una variabile di conversione rileva più di un valore durante una visita, l&#39;impostazione di allocazione della variabile determina quale valore viene mantenuto. Vedi [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nella guida utente Admin.
 * **Analysis Workspace:** Soluzione browser per la creazione di solidi progetti di analisi personalizzati e la democratizzazione delle informazioni. Offre maggiore flessibilità rispetto a Reports and Analytics.
 * **Anomalie:** Rilevata utilizzando la modellazione statistica per trovare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un intervallo di valori più basso, con limite superiore e previsto. Vedi [Rilevamento delle anomalie](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) nella guida utente Analisi.
 * **AppMeasurement:** La libreria dei codici utilizzata per raccogliere i dati e inviarli ad Adobe. Consulta la sezione [Homepage](/help/implement/home.md) della guida utente Implementa .
@@ -55,7 +55,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **eVar:** Vedi Variabile di conversione.
 * **Evento:** Vedi Evento Success .
 * **ExcelClient:** Non più utilizzato come termine. Nome del predecessore del Report Builder.
-* **Scadenza:** Nel contesto di una variabile di conversione, per quanto tempo il valore persiste sul backend. Questa persistenza consente agli eventi di associarsi ai valori delle variabili prima dell&#39;hit dell&#39;evento. Vedi [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nella guida utente Admin.
+* **Scadenza:** Nel contesto di una variabile di conversione, per quanto tempo il valore persiste sul backend. Questa persistenza consente agli eventi di associarsi ai valori delle variabili prima dell&#39;hit dell&#39;evento. Vedi [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nella guida utente Admin.
 * **Flusso:** Tipo di visualizzazione in Analysis Workspace che mostra i percorsi seguiti dagli utenti sul sito. Vedi [Visualizzazione a flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) nella guida utente Analisi.
 * **Genesis:** Non più utilizzato come termine. Nome precedente di Data Connectors.
 * **Suite di rapporti globale:** Termine informale designato a una suite di rapporti che raccoglie hit da più siti.

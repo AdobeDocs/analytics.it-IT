@@ -3,10 +3,10 @@ title: eVar (dimensione)
 description: Una dimensione personalizzata che puoi utilizzare nel reporting.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '783'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 *Questa pagina di aiuto descrive il funzionamento delle eVar come una dimensione. Per informazioni su come implementare le eVar, vedi [eVar](/help/implement/vars/page-vars/evar.md) nella guida utente Implementa .*
 
-Le eVar sono variabili personalizzate che puoi utilizzare come desideri. Se hai [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), la maggior parte delle dimensioni specifiche della tua organizzazione si conclude come [!UICONTROL eVars]. Per impostazione predefinita, le eVar persistono oltre l’hit su cui sono impostate. Puoi personalizzarne la scadenza e l’allocazione in [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings].
+Le eVar sono variabili personalizzate che puoi utilizzare come desideri. Se hai [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), la maggior parte delle dimensioni specifiche della tua organizzazione si conclude come [!UICONTROL eVars]. Per impostazione predefinita, le eVar persistono oltre l’hit su cui sono impostate. Puoi personalizzarne la scadenza e l’allocazione in [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings].
 
-Il numero di eVar disponibili dipende dal contratto con l’Adobe. Sono disponibili fino a 250 eVar se il contratto con Adobe lo supporta.
+Il numero di eVar disponibili dipende dal contratto con Adobe. Se il contratto con Adobe lo supporta, sono disponibili fino a 250 eVar.
 
 Il caso (superiore o inferiore) utilizzato nel reporting si basa sul primo valore registrato dal sistema backend. Questo valore potrebbe essere la prima istanza mai vista o variare su base temporale (ad esempio, mensile), a seconda della varietà e della quantità di dati associati alla suite di rapporti.
 
@@ -24,9 +24,9 @@ Il caso (superiore o inferiore) utilizzato nel reporting si basa sul primo valor
 
 Ogni eVar raccoglie dati dal [`v1` - `v250` stringa di interrogazione](/help/implement/validate/query-parameters.md) nelle richieste di immagini. Ad esempio, il `v1` il parametro della stringa di query raccoglie i dati per eVar1, mentre il `v222` il parametro della stringa query raccoglie i dati per eVar222.
 
-AppMeasurement, che compila variabili JavaScript in una richiesta di immagine per la raccolta dei dati, utilizza le variabili `eVar1` - `eVar250`. Vedi [eVar](/help/implement/vars/page-vars/evar.md) nella guida utente Implementa per le linee guida di implementazione.
+AppMeasurement, che compila variabili JavaScript in una richiesta di immagine per la raccolta dati, utilizza le variabili `eVar1` - `eVar250`. Vedi [eVar](/help/implement/vars/page-vars/evar.md) nella guida utente Implementa per le linee guida di implementazione.
 
-## Elementi Dimension
+## Elementi dimensionali
 
 Poiché le eVar contengono stringhe personalizzate nell’implementazione, l’organizzazione determina gli elementi dimensionali per ogni eVar. Assicurati di registrare lo scopo di ogni elemento dimensionale eVar e tipico in un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md).
 
@@ -84,7 +84,7 @@ Poiché l’allocazione e la scadenza determinano quali valori persistono, sono 
 * Per impostazione predefinita, un eVar utilizza l’ultima allocazione. I nuovi valori sovrascrivono quelli persistenti.
 * Per impostazione predefinita, un eVar utilizza una scadenza della visita. Al termine di una visita, i valori smettono di copiarsi da una riga all’altra `post_evar` colonna.
 
-Puoi modificare l’allocazione e la scadenza di eVar in [Variabili di conversione](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) nelle impostazioni della suite di rapporti.
+Puoi modificare l’allocazione e la scadenza di eVar in [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nelle impostazioni della suite di rapporti.
 
 ## Valore delle eVar rispetto alle proprietà
 

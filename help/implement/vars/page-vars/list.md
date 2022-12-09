@@ -3,14 +3,14 @@ title: list
 description: Variabili personalizzate che contengono più valori nello stesso hit.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
 
-# list
+# elenco
 
 Le variabili elenco sono variabili personalizzate che puoi utilizzare come preferisci. Funzionano in modo simile alle eVar, ma possono contenere più valori nello stesso hit. Le variabili elenco non hanno un limite di caratteri.
 
@@ -22,11 +22,11 @@ Assicurati di registrare in che modo utilizzi ciascuna variabile elenco e la rel
 
 ## Impostare le variabili elenco nelle impostazioni delle suite di rapporti
 
-Assicurati di configurare ogni variabile elenco nelle impostazioni della suite di rapporti prima di utilizzarla nell’implementazione. Consulta [Variabili di conversione](/help/admin/admin/conversion-var-admin/list-var-admin.md) nella guida per l’amministratore. Questo passaggio si applica a tutti i metodi di implementazione.
+Assicurati di configurare ogni variabile elenco nelle impostazioni della suite di rapporti prima di utilizzarla nell’implementazione. Consulta [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) nella guida per l’amministratore. Questo passaggio si applica a tutti i metodi di implementazione.
 
 ## Variabili elenco tramite il Web SDK
 
-Le variabili elenco sono [mappate per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nei campi XDM da `_experience.analytics.customDimensions.lists.list1.list[]` a `_experience.analytics.customDimensions.lists.list3.list[]`. Ogni elemento matrice contiene un oggetto `"value"` che contiene ogni stringa. Non è necessario fornire un delimitatore, poiché viene incluso automaticamente utilizzando il valore specificato nelle [Impostazioni della suite di rapporti](/help/admin/admin/conversion-var-admin/list-var-admin.md). Ad esempio, se una virgola (“`,`”) è configurata come delimitatore per la variabile elenco 1, il seguente oggetto XDM compila la variabile `list1` con `"Example value 1,Example value 2,Example value 3"`.
+Le variabili elenco sono [mappate per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nei campi XDM da `_experience.analytics.customDimensions.lists.list1.list[]` a `_experience.analytics.customDimensions.lists.list3.list[]`. Ogni elemento matrice contiene un oggetto `"value"` che contiene ogni stringa. Non è necessario fornire un delimitatore, poiché viene incluso automaticamente utilizzando il valore specificato nelle [Impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Ad esempio, se una virgola (“`,`”) è configurata come delimitatore per la variabile elenco 1, il seguente oggetto XDM compila la variabile `list1` con `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
@@ -64,7 +64,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.list1 - s.list3 in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Ogni variabile elenco è una stringa che contiene valori personalizzati specifici dell’organizzazione. Non hanno un numero massimo di byte; tuttavia, ogni singolo valore ha un massimo di 255 byte. Il delimitatore utilizzato viene determinato quando si imposta la variabile nelle [Impostazioni della suite di rapporti](/help/admin/admin/conversion-var-admin/list-var-admin.md). Non utilizzare spazi quando si delimitano più elementi.
+Ogni variabile elenco è una stringa che contiene valori personalizzati specifici dell’organizzazione. Non hanno un numero massimo di byte; tuttavia, ogni singolo valore ha un massimo di 255 byte. Il delimitatore utilizzato viene determinato quando si imposta la variabile nelle [Impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Non utilizzare spazi quando si delimitano più elementi.
 
 ```js
 // A list variable configured with a comma as a delimiter

@@ -3,7 +3,7 @@ title: Eventi personalizzati
 description: Il numero di hit in cui esiste un evento personalizzato.
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -18,7 +18,7 @@ Le metriche degli eventi personalizzati mostrano il numero di hit in cui è stat
 
 ## Calcolo di questa metrica
 
-Gli eventi personalizzati vengono calcolati in modo diverso a seconda del tipo. Puoi controllare il tipo di un evento in [Eventi di successo](../../admin/admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
+Gli eventi personalizzati vengono calcolati in modo diverso a seconda del tipo. Puoi controllare il tipo di un evento in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
 * **Eventi contatore**: L’impostazione predefinita dell’evento. La maggior parte degli eventi sono eventi contatore. Conta il numero di hit in cui l’evento personalizzato corrispondente è `event1` - `event1000` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.
 * **Eventi numerici**: Somma il valore numerico assegnato all&#39;evento nel `events` variabile.
