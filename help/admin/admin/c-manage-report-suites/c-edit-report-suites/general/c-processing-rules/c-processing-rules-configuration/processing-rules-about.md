@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Funzionamento delle regole di elaborazione
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
@@ -39,7 +39,7 @@ La tabella seguente contiene concetti chiave da considerare quando si utilizzano
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole di elaborazione vengono applicate alla suite di rapporti immediatamente dopo il salvataggio. </p> </td> 
-   <td colname="col2"> <p>Le modifiche apportate alle regole di elaborazione diventano visibili nella suite di rapporti entro pochi minuti dal salvataggio. Durante il test delle regole di elaborazione, è consigliabile configurare <a href="/help/admin/admin/realtime/t-realtime-admin.md"> rapporti in tempo reale</a> nella suite di rapporti di test, per vedere rapidamente i risultati di una regola di elaborazione. </p> </td> 
+   <td colname="col2"> <p>Le modifiche apportate alle regole di elaborazione diventano visibili nella suite di rapporti entro pochi minuti dal salvataggio. Durante il test delle regole di elaborazione, è consigliabile configurare <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> rapporti in tempo reale</a> nella suite di rapporti di test, per vedere rapidamente i risultati di una regola di elaborazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le regole di elaborazione rappresentano l’unico modo per poter accedere alle variabili di dati di contesto. </p> </td> 

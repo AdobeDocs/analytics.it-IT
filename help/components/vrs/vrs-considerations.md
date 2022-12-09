@@ -4,7 +4,7 @@ keywords: Suite di rapporti virtuale,VRS
 title: Suite di rapporti virtuali e considerazioni sull’assegnazione di tag a più suite
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Le suite di rapporti virtuali (VRS, Virtual Report Suite) consentono di visualizzare i dati di una suite di rapporti che raccoglie dati dalle proprietà digitali, ma con un segmento applicato in modo permanente.
 
-In molti casi, puoi utilizzare suite di rapporti virtuali per sostituire l’assegnazione tag a più suite. Il passaggio alle suite di rapporti virtuali consente di eliminare efficacemente la necessità di [chiamate server secondarie](/help/admin/c-server-call-usage/overage-overview.md). Ad esempio, la tua organizzazione dispone di 6 siti web diversi, ognuno dei quali invia dati alla propria suite di rapporti e a una suite di rapporti globale combinata. Ogni sito effettua una chiamata server secondaria; una alla singola suite di rapporti del marchio e una seconda alla suite di rapporti globale. Puoi invece inviare dati da tutti i siti esclusivamente alla suite di rapporti globale, quindi utilizzare più suite di rapporti virtuali per separare ogni marchio.
+In molti casi, puoi utilizzare suite di rapporti virtuali per sostituire l’assegnazione tag a più suite. Il passaggio alle suite di rapporti virtuali consente di eliminare efficacemente la necessità di [chiamate server secondarie](/help/admin/admin/c-server-call-usage/overage-overview.md). Ad esempio, la tua organizzazione dispone di 6 siti web diversi, ognuno dei quali invia dati alla propria suite di rapporti e a una suite di rapporti globale combinata. Ogni sito effettua una chiamata server secondaria; una alla singola suite di rapporti del marchio e una seconda alla suite di rapporti globale. Puoi invece inviare dati da tutti i siti esclusivamente alla suite di rapporti globale, quindi utilizzare più suite di rapporti virtuali per separare ogni marchio.
 
 La sostituzione dell’assegnazione tag a più suite con una suite di rapporti globale e una VRS consente di semplificare l’implementazione di Adobe Analytics e di ridurre il consumo di chiamate al server, ed è consigliata come best practice. Tuttavia, esistono alcune limitazioni importanti della VRS da considerare. Le seguenti linee guida possono aiutarti a decidere se implementare suite di rapporti virtuali create su una suite di rapporti globale è l’approccio giusto per te.
 
@@ -35,7 +35,7 @@ I segmenti non possono ancora essere pubblicati in Adobe Experience Cloud da una
 
 I rapporti in tempo reale non sono supportati nelle suite di rapporti virtuali, perché i dati sono segmentati. I dati correnti non sono supportati anche nelle suite di rapporti virtuali, in quanto non supportano la segmentazione. Entrambe queste funzioni sono specifiche di Reports &amp; Analytics.
 
-[Rapporti in tempo reale](/help/admin/admin/realtime/t-realtime-admin.md) e [Dati correnti](/help/technotes/latency.md) non sono disponibili nelle suite di rapporti virtuali. Questo influisce sugli utenti che rispondono alle tendenze osservate in Reports &amp; Analytics in pochi secondi o minuti dalla raccolta dei dati. Ad esempio, potrebbe includere gli editori in una newsroom che modificano i titoli in base al consumo di contenuti in tempo reale. Prendi in considerazione l’utilizzo di tag per più suite se hai esigenze di dati in tempo reale significative e specifiche per le singole suite di rapporti. I dati in tempo reale e correnti possono ancora essere utilizzati nella suite di rapporti globale.
+[Rapporti in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) e [Dati correnti](/help/technotes/latency.md) non sono disponibili nelle suite di rapporti virtuali. Questo influisce sugli utenti che rispondono alle tendenze osservate in Reports &amp; Analytics in pochi secondi o minuti dalla raccolta dei dati. Ad esempio, potrebbe includere gli editori in una newsroom che modificano i titoli in base al consumo di contenuti in tempo reale. Prendi in considerazione l’utilizzo di tag per più suite se hai esigenze di dati in tempo reale significative e specifiche per le singole suite di rapporti. I dati in tempo reale e correnti possono ancora essere utilizzati nella suite di rapporti globale.
 
 ### Limiti univoci
 

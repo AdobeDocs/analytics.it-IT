@@ -3,10 +3,10 @@ title: Introduzione ai canali di marketing
 description: Scopri il flusso di lavoro Marketing Channels (Canali di marketing), la configurazione automatica e come applicare le impostazioni della suite di rapporti a più suite di rapporti.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '747'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, ne abbiamo pubblicati alcuni [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Per massimizzare l’efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
-I canali di marketing vengono comunemente utilizzati per fornire approfondimenti su come i visitatori arrivano sul tuo sito. Puoi personalizzare le regole di elaborazione del canale di marketing in base ai canali che desideri monitorare e a come desideri tenerli traccia.
+I canali di marketing vengono comunemente utilizzati per fornire approfondimenti su come i visitatori arrivano sul sito. Puoi personalizzare le regole di elaborazione del canale di marketing in base ai canali che desideri monitorare e a come desideri tenerli traccia.
 
 I canali di marketing ruotano intorno alle metriche First e Last Touch, che sono componenti delle metriche di conversione standard.
 
 ## Flusso di lavoro dei canali di marketing
 
-![](assets/step1_icon.png) Definisci ogni canale in base ai requisiti aziendali.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Definisci ogni canale in base ai requisiti aziendali.
 
 La definizione dei canali utilizzati è uno dei componenti più importanti di Marketing Channels. La definizione dei canali può richiedere la collaborazione tra più individui nell’organizzazione. Ecco alcune domande da considerare:
 
@@ -35,7 +35,7 @@ La definizione dei canali utilizzati è uno dei componenti più importanti di Ma
 
 Un elenco dei canali consigliati è disponibile in [Domande frequenti ed esempi](/help/components/c-marketing-channels/c-faq.md). Crea un elenco di canali da utilizzare, in modo da facilitarne l’attivazione e la definizione quando crei canali.
 
-![](assets/step2_icon.png) Aggiungi canali di marketing sul [!UICONTROL Marketing Channel Manager] pagina.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) Aggiungi canali di marketing sul [!UICONTROL Marketing Channel Manager] pagina.
 
 Dopo aver definito i canali da tracciare, attivali in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
@@ -47,7 +47,7 @@ Vedi [Aggiungi canali di marketing](/help/components/c-marketing-channels/c-chan
 >
 >Se Marketing Channels non è stato configurato in precedenza, il [configurazione automatica](/help/components/c-marketing-channels/c-getting-started-mchannel.md) viene visualizzato. Questa configurazione fornisce diversi canali preconfigurati che è possibile personalizzare. Adobe consiglia di utilizzare queste regole come modello. Tuttavia, se disponi già di definizioni di canali solidi, puoi saltare la configurazione automatica.
 
-![](assets/step3_icon.png) Configura o perfeziona le regole di ogni canale in [!UICONTROL Marketing Channel Processing Rules] pagina.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Configura o perfeziona le regole di ogni canale in [!UICONTROL Marketing Channel Processing Rules] pagina.
 
 Dopo aver creato i canali nel [!UICONTROL Marketing Channel Manager] configura le regole in modo che i canali possano recuperare e segnalare i dati.
 

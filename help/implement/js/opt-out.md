@@ -3,10 +3,10 @@ title: Collegamenti di rinuncia
 description: Scopri come creare e implementare i collegamenti di rinuncia per i visitatori del tuo sito.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -22,15 +22,15 @@ Quando un visitatore raggiunge un URL di rinuncia, gli viene richiesto di instal
 
 >[!TIP]
 >
->Adobe offre anche le impostazioni di privacy per suite di rapporti. Vedi [Impostazioni privacy](../../admin/admin/privacy-settings.md) nella guida utente Admin.
+>Adobe offre anche le impostazioni di privacy per suite di rapporti. Vedi [Impostazioni privacy](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md) nella guida utente Admin.
 
 ## URL rinuncia
 
 La pagina di rinuncia per la tua organizzazione dipende dalla [`trackingServer`](../vars/config-vars/trackingserver.md) valore variabile nell&#39;implementazione.
 
 * Nell’estensione Analytics:
-   1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-   1. Fai clic sulla proprietà tag desiderata.
+   1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+   1. Fai clic sulla proprietà del tag desiderata.
    1. Fai clic sul pulsante [!UICONTROL Extensions] scheda , quindi fai clic su [!UICONTROL Configure] in Adobe Analytics.
    1. Fai clic sul pulsante [!UICONTROL General] a soffietto e annotare il [!UICONTROL Tracking Server] valore.
 
@@ -43,7 +43,7 @@ La pagina di rinuncia per la tua organizzazione dipende dalla [`trackingServer`]
    1. Apri il Experience Cloud Debugger, quindi vai al [!UICONTROL Network tab].
    1. Tieni presente che [!UICONTROL Request URL - Hostname] valore.
 
-Una volta trovata l&#39;implementazione di `trackingServer` dominio, aggiungi il percorso `/optout.html` fino alla fine. Ad esempio:
+Una volta trovata l&#39;implementazione di `trackingServer` dominio, aggiungi il percorso `/optout.html` fino alla fine. Esempio:
 
 * Cookie di terze parti: `https://example.data.adobedc.net/optout.html`
 * Cookie di prime parti: `https://stats.example.com/optout.html`

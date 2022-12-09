@@ -2,7 +2,7 @@
 title: Ordine di elaborazione per dati in Adobe Analytics
 description: Scopri l’ordine dei componenti e dei servizi che elaborano i dati in Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
@@ -31,7 +31,7 @@ Una volta arrivati i dati ad Adobe Analytics, le seguenti funzioni modificano i 
 
 1. **Tabelle di ricerca**: dimensioni che si basano su tabelle di ricerca interne di Adobe (ad esempio, la dimensione [Browser](/help/components/dimensions/browser.md)) vengono associate al valore corrispondente.
 2. [**Variabili dinamiche**](/help/implement/vars/page-vars/dynamic-variables.md): se una variabile dinamica viene visualizzata in una qualsiasi parte di una richiesta di immagine, il valore viene copiato e trattato come un valore indipendente da qui in avanti.
-3. [**Regole bot**](/help/admin/admin/bot-removal/bot-rules.md): applica un filtro bot standard o personalizzato per escludere tali dati dal reporting.
+3. [**Regole bot**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): applica un filtro bot standard o personalizzato per escludere tali dati dal reporting.
 4. [**Regole di elaborazione**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md): regole personalizzate applicate ai dati dalla tua organizzazione. Include la mappatura delle [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md) alla rispettiva variabile.
 5. **Regole VISTA**: regole flessibili personalizzate applicate ai tuoi dati da un consulente di Adobe. Potenzialmente, le regole VISTA possono essere eseguite prima o dopo le regole di elaborazione, a seconda delle esigenze della tua organizzazione. La maggior parte delle regole VISTA viene generalmente eseguita dopo le regole di elaborazione, ma ogni organizzazione viene impostata in modo diverso. Contatta il tuo Adobe Account Manager per ulteriori informazioni sulle regole VISTA esistenti.
 6. [**Regole di elaborazione per il canale di marketing**](/help/components/c-marketing-channels/c-rules.md): è possibile utilizzare le [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) per preparare i dati da utilizzare nelle regole di elaborazione del canale di marketing.

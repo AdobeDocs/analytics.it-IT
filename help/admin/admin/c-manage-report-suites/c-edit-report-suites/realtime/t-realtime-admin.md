@@ -1,20 +1,20 @@
 ---
 description: Passaggi amministrativi per l’impostazione di rapporti in tempo reale.
-title: Configurare rapporti in tempo reale
+title: Configurazione rapporti in tempo reale
 feature: Real-time
-exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
+exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
 
-# Configurare rapporti in tempo reale
+# Configurazione rapporti in tempo reale
 
 Passaggi amministrativi per l’impostazione di rapporti in tempo reale.
 
-Impostazione di rapporti in tempo reale in [!UICONTROL Reports & Analytics] consiste nella selezione della suite di rapporti e nella configurazione di un massimo di 3 rapporti.
+L’impostazione dei rapporti in tempo reale in Reports &amp; Analytics consiste nella selezione della suite di rapporti e nella configurazione di un massimo di 3 rapporti.
 
 1. Seleziona la suite di rapporti per la quale desideri abilitare i rapporti in tempo reale.
 
@@ -33,13 +33,13 @@ Impostazione di rapporti in tempo reale in [!UICONTROL Reports & Analytics] cons
 1. Accendere **[!UICONTROL Enable Real-Time]** impostazione.
 1. Imposta la raccolta dati in tempo reale per un massimo di tre rapporti, con una metrica e tre dimensioni o classificazioni per rapporto.
 
-   ![](assets/real_time_admin.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
    Per informazioni sulle metriche e dimensioni in tempo reale supportate, consulta [Metriche e Dimension supportati](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Se hai creato delle classificazioni, vengono visualizzate con un rientro sotto la dimensione per la quale sono definite:
 
-   ![](assets/classifications.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
    >[!NOTE]
    >

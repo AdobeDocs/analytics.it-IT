@@ -4,7 +4,7 @@ keywords: dati mancanti;lento
 title: Disponibilità dei dati e latenza
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Esistono diverse strategie per evitare la latenza o ridurre il tempo di recupero
    * Più di 20 valori nella variabile prodotti
    * Serializzazione degli eventi
 
-* Abilita il filtro bot IAB: [Filtro bot](/help/admin/admin/bot-removal/bot-removal.md) può ridurre notevolmente la latenza se la suite di rapporti è frequentata da bot o crawler. Si consiglia di utilizzare l’elenco dei bot IAB, in quanto viene aggiornato e mantenuto dal [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un utente può personalizzare le proprie regole bot per integrarle da IAB.
+* Abilita il filtro bot IAB: [Filtro bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) può ridurre notevolmente la latenza se la suite di rapporti è frequentata da bot o crawler. Si consiglia di utilizzare l’elenco dei bot IAB, in quanto viene aggiornato e mantenuto dal [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un utente può personalizzare le proprie regole bot per integrarle da IAB.
 
 ## Cosa fare sulla latenza
 

@@ -4,7 +4,7 @@ description: Dimensioni e metriche utilizzate da Reports & Analytics per ogni ra
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -56,9 +56,9 @@ Contiene rapporti che in genere presentano tendenze utilizzando un intervallo di
    * Pagamenti: genera tendenze sulla metrica [Pagamenti](/help/components/metrics/checkouts.md) nel tempo.
 * Eventi personalizzati: contiene tutti i rapporti intorno all&#39;oggetto personalizzato [Eventi](/help/components/metrics/custom-events.md) specifici per l&#39;implementazione.
 * Bot: mostra rapporti relativi ai bot.
-   * Bot: mostra i bot che più frequentano il tuo sito. Vedi [Regole bot](../../admin/admin/bot-removal/bot-rules.md) nella guida utente Admin.
+   * Bot: mostra i bot che più frequentano il tuo sito. Vedi [Regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) nella guida utente Admin.
    * Pagine bot: mostra le pagine più visitate dai bot.
-* In tempo reale: mostra determinate dimensioni e metriche entro pochi secondi dalla raccolta dei dati. Per ulteriori informazioni, consulta [Rapporti in tempo reale](/help/components/c-real-time-reporting/realtime.md).
+* In tempo reale: mostra determinate dimensioni e metriche entro pochi secondi dalla raccolta dei dati. Per ulteriori informazioni, consulta [Rapporti in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md).
 
 ## Contenuto del sito
 

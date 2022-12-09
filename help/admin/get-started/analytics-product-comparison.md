@@ -3,7 +3,7 @@ description: Requisiti di sistema e confronto tra Analysis Workspace, Reports & 
 title: Confronto dei prodotti Analytics e requisiti
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 94%
@@ -22,8 +22,8 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [Quale str
 | **Granularità dei dati** | Aggregata | Aggregata | Aggregata | Aggregata | Hit | Hit | Aggregata |
 | **Experience Cloud ID (ECID) disponibile** | No | No | No | Sì | Sì | Sì | No |
 | **Timestamp disponibile** | No | No | No | No | Sì | Sì | No |
-| **Livello di elaborazione** | Elaborazione completa | Elaborazione completa con [rapporto in tempo reale](/help/components/c-real-time-reporting/realtime.md) distinto | Elaborazione completa con [rapporto in tempo reale](/help/components/c-real-time-reporting/realtime.md) distinto | Elaborazione completa | Elaborazione completa | Elaborazione completa | Elaborazione completa |
-| **Dati da filtri bot per amministrazione inclusi** <br> [Ulteriori informazioni](/help/admin/admin/bot-removal/bot-removal.md) | No | Sì - Rapporto bot distinto | Sì - Rapporto bot distinto | No | No | No | No |
+| **Livello di elaborazione** | Elaborazione completa | Elaborazione completa con [rapporto in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) distinto | Elaborazione completa con [rapporto in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) distinto | Elaborazione completa | Elaborazione completa | Elaborazione completa | Elaborazione completa |
+| **Dati da filtri bot per amministrazione inclusi** <br> [Ulteriori informazioni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | No | Sì - Rapporto bot distinto | Sì - Rapporto bot distinto | No | No | No | No |
 | **Visualizzazione traffico ridotto (valori univoci eccessivi)** <br> [Ulteriori informazioni](/help/technotes/low-traffic.md) | Sì | Sì | Sì | No | No | No | Sì |
 | **Limite righe visibili (prima dell’impaginazione)** | 400 | 200 | 50.000 | Senza limiti | Senza limiti | Senza limiti | 50.000 |
 | **Più suite di rapporti** | [Sì](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sì, con limitazioni | Sì | No | Sì | No | Sì |

@@ -2,7 +2,7 @@
 title: Termini utilizzati in Adobe Analytics
 description: Glossario per Adobe Analytics, definizione dei termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 2%
@@ -87,7 +87,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
    * Regole di elaborazione del canale di marketing, un set di regole che determinano il canale di marketing a cui appartiene un hit. Vedi [Regole di elaborazione per i canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md) nella guida utente Admin.
 * **Prop:** Vedi Variabile Traffico .
 * **Rapporto classifica:** Formato di report che generalmente segue una dimensione con una metrica. Questo tipo di rapporto consente di visualizzare gli elementi principali, ad esempio le pagine più visualizzate sul sito. Vedi anche Rapporto con tendenze .
-* **In tempo reale:** Visualizza le variabili configurate non appena raccolte con latenza minima o nulla. Vedi [Rapporti in tempo reale](/help/admin/admin/realtime/realtime.md) nella guida utente Admin.
+* **In tempo reale:** Visualizza le variabili configurate non appena raccolte con latenza minima o nulla. Vedi [Rapporti in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) nella guida utente Admin.
 * **Report Builder:** Componente aggiuntivo per Microsoft Excel che consente di creare richieste personalizzate a partire da dati Adobe Analytics.
 * **Suite di rapporti:** Contenitore globale a cui vengono inviati i dati. Tutti i rapporti in Adobe Analytics fanno riferimento a una suite di rapporti.
 * **Reports &amp; Analytics:** Precedentemente noto come SiteCatalyst. Soluzione browser per la generazione di rapporti e analisi. Strumento di avvio nel pacchetto Analytics.

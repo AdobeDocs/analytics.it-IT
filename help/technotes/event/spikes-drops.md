@@ -1,53 +1,52 @@
 ---
-title: Risoluzione di picchi e perdite di dati
-description: Scopri i possibili motivi per cui nei rapporti con tendenze possono verificarsi significativi incrementi o decrementi.
-translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+title: Risolvere i problemi relativi a picchi e perdite di dati
+description: Scopri possibili motivi per cui è possibile visualizzare aumenti o diminuzioni drastici dei rapporti con tendenze.
+exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
 
 ---
 
+# Risolvere i problemi relativi a picchi e perdite di dati
 
-# Risoluzione di picchi e perdite di dati
+Quando il tuo sito raccoglie dati, ci sono molti fattori esterni che possono influenzare drasticamente la raccolta o il reporting di dati. Di seguito è riportato un elenco di possibili spiegazioni sul motivo per cui determinate variabili o il traffico complessivo aumentano o diminuiscono drasticamente.
 
-Quando il sito raccoglie i dati, ci sono molti fattori esterni che possono influenzare drasticamente la raccolta di dati o il reporting. Di seguito è riportato un elenco di possibili spiegazioni sul motivo per cui determinate variabili o il traffico complessivo aumentano o diminuiscono notevolmente.
+Quando si determina la causa e si passa a una risoluzione, è possibile misurare l&#39;impatto dell&#39;evento sui dati e determinare come si desidera procedere. Consulta la sezione [pagina panoramica](overview.md) per ulteriori informazioni.
 
-Man mano che si determina la causa e si passa a una risoluzione, è possibile misurare l&#39;impatto dell&#39;evento sui dati e determinare come si desidera procedere. Per ulteriori informazioni, consultate la pagina [](overview.md) della panoramica.
+## Calo del traffico
 
-## Cadute di traffico
+Le gocce di traffico sono suddivise in due sezioni: dati parziali e dati zero.
 
-Le gocce di traffico sono suddivise in due sezioni: dati parziali e zero.
+### Cause potenziali di dati completamente mancanti (zeri di segnalazione)
 
-### Cause potenziali di dati completamente mancanti (zero di reporting)
+* **Latenza suite di rapporti**: A volte, una suite di rapporti può sperimentare [latenza](../latency.md) a causa di una serie di fattori. Molti problemi di latenza vengono risolti in poche ore. Se hai a che fare con una suite di rapporti specifica, contatta l’Assistenza clienti Adobe con l’ID suite di rapporti interessato.
+* **Rimozione dell&#39;implementazione**: A volte, quando un&#39;organizzazione apporta modifiche all&#39;implementazione o ristruttura il sito, la reimplementazione di Analytics viene ignorata. Collabora con gli sviluppatori della tua organizzazione per implementare nuovamente il codice sul tuo sito.
+* **Problema di interfaccia/memorizzazione nella cache di Analytics**: In rare occasioni, la cache di un browser contiene dati non validi che fanno sì che tutti i rapporti restituiscano zeri. Cancella i cookie e la cache del browser per risolvere il problema. Se la cancellazione dei cookie/cache non funziona, contatta l’Assistenza clienti con il rapporto e l’intervallo di date mancanti; possono duplicare il problema e fornire informazioni aggiuntive.
+* **Disponibilità di Analytics**: Controlla [status.adobe.com](https://status.adobe.com/products/1173/) per qualsiasi problema relativo alla raccolta o all’elaborazione dei dati.
 
-* **Latenza** suite di rapporti: Talvolta, una suite di rapporti può rilevare una [latenza](../latency.md) dovuta a una serie di fattori. Molti problemi di latenza vengono risolti in poche ore. Se hai a che fare con una suite di rapporti specifica, contatta l&#39;Assistenza clienti  Adobe con l&#39;ID suite di rapporti interessato.
-* **Rimozione** implementazione: A volte, quando un&#39;organizzazione apporta modifiche di implementazione o ristruttura il sito,  Analytics viene trascurata la reimplementazione. Collaborate con gli sviluppatori della vostra organizzazione per reimplementare il codice sul sito.
-* **problema** di interfaccia/memorizzazione nella cache di Analytics: In rare occasioni, la cache di un browser contiene dati non validi che fanno sì che tutti i rapporti restituiscano zeri. Cancellate i cookie e la cache del browser per risolvere il problema. Se la cancellazione dei cookie/della cache non funziona, contatta l&#39;Assistenza clienti con il rapporto mancante e l&#39;intervallo di date; possono duplicare il problema e fornire ulteriori informazioni.
-* **disponibilità** Analytics: Controlla [status.adobe.com](https://status.adobe.com/products/1173/) per eventuali problemi relativi alla raccolta o all&#39;elaborazione dei dati.
+### Cause potenziali di dati parzialmente mancanti o di traffico ridotto
 
-### Possibili cause di dati parzialmente mancanti o diminuzione del traffico
-
-* **Modifiche** di implementazione: Utilizzate il [debugger](/help/implement/validate/debugger.md) per verificare il funzionamento delle dimensioni desiderate.
-* **Traffico** di riferimento ridotto: Se viene rimosso un banner pubblicitario o un collegamento ipertestuale popolare in un altro sito, il traffico potrebbe subire una notevole diminuzione. Tendenza della dimensione dei domini [di](/help/components/dimensions/referring-domain.md) riferimento da prima e dopo il rilascio per proseguire la ricerca.
-* **Problemi** di prestazioni del sito: Una distribuzione non corretta del traffico attraverso i bilanciatori del carico o problemi del server in cui è installato il sito può contribuire a una riduzione  rapporti Analytics. Collabora con il team all&#39;interno dell&#39;organizzazione che gestisce l&#39;integrità e lo stato del sito per indagare su eventuali problemi di prestazioni.
-* **Modifiche nella classificazione** della ricerca naturale: Il traffico può diminuire se un altro sito supera la classifica di ricerca naturale per alcune delle parole chiave. Questa diminuzione può essere particolarmente evidente se il sito non si trova più nella prima pagina dei risultati della ricerca. Tendenza della dimensione motori [di](/help/components/dimensions/search-engine.md) ricerca per ulteriori ricerche.
-* **Modifiche nella pubblicità** PPC: La modifica dei titoli e delle descrizioni degli annunci per le campagne esistenti può influenzare il punteggio di qualità. In generale, un punteggio di qualità elevata indica che la parola chiave attiva gli annunci in una posizione più alta e a un costo inferiore per clic. Tendenza delle parole chiave di [ricerca - dimensione pagata](/help/components/dimensions/search-keyword.md) per approfondire la ricerca.
+* **Modifiche all&#39;implementazione**: Utilizza la [debugger](/help/implement/validate/debugger.md) per verificare che le dimensioni desiderate funzionino.
+* **Traffico di riferimento ridotto**: Se viene rimosso un banner pubblicitario o un collegamento ipertestuale popolare in un altro sito, può causare una notevole diminuzione del traffico. Tendenza [Domini di riferimento](/help/components/dimensions/referring-domain.md) dimensione prima e dopo il calo per ulteriori ricerche.
+* **Problemi di prestazioni del sito**: Una distribuzione errata del traffico tramite load balancer o problemi del server che ospitano il sito può contribuire a una diminuzione dei rapporti di Analytics. Collabora con il team all’interno dell’organizzazione che gestisce l’integrità e lo stato del sito per indagare eventuali problemi di prestazioni.
+* **Modifiche nella classificazione della ricerca naturale**: Il traffico può potenzialmente diminuire se un altro sito supera la classifica di ricerca naturale per alcune delle tue parole chiave. Questa diminuzione può essere particolarmente evidente se il sito non è più sulla prima pagina dei risultati di ricerca. Tendenza [Motori di ricerca](/help/components/dimensions/search-engine.md) la dimensione della ricerca.
+* **Modifiche alla pubblicità PPC**: La modifica dei titoli e delle descrizioni degli annunci per le campagne esistenti può influenzare il punteggio di qualità. In generale, un punteggio di alta qualità significa che la tua parola chiave attiva gli annunci in una posizione più alta e ad un costo più basso per clic. Tendenza [Parole chiave di ricerca - paid](/help/components/dimensions/search-keyword.md) la dimensione della ricerca.
 
 ## Picchi di traffico
 
-I picchi di traffico sono organizzati in due sezioni: quasi doppi dati e altre cause.
+I picchi di traffico sono suddivisi in due sezioni: dati quasi doppi e altre cause.
 
-### Possibili cause di avere quasi o esattamente il doppio dei dati previsti
+### Cause potenziali di avere dati prossimi o esattamente doppi dei dati previsti
 
-* **Più richieste di immagini all&#39;interno di un&#39;implementazione**: Se l’implementazione contiene più di una chiamata [`t()`](/help/implement/vars/functions/t-method.md) metodo per pagina, raddoppia efficacemente tutti i dati raccolti. Utilizzate il debugger sul sito e cercate più richieste di immagini per acquisire duplicati.
-* **File di origine dati duplicati caricati**: Se l&#39;azienda utilizza origini [](/help/import/c-data-sources/datasrc-home.md)dati, un utente dell&#39;azienda può caricare lo stesso file due volte in  Adobe Analytics. Se si esegue questo duplicato del caricamento, i dati nel reporting vengono raddoppiati, causando il picco di traffico.
+* **Richieste di immagini multiple all&#39;interno di un&#39;implementazione**: Se l&#39;implementazione contiene più di un [`t()`](/help/implement/vars/functions/t-method.md) chiamata del metodo per pagina, raddoppia efficacemente tutti i dati raccolti. Usa il debugger sul tuo sito e cerca più richieste di immagini per acquisire duplicati.
+* **File di origine dati duplicati caricati**: Se l&#39;organizzazione utilizza [Origini dati](/help/import/c-data-sources/datasrc-home.md), un utente dell’organizzazione può caricare lo stesso file due volte in Adobe Analytics. L’esecuzione di questo caricamento duplicato raddoppia efficacemente i dati nel reporting, causando il picco di traffico.
 
-### Altre potenziali cause dell&#39;aumento del traffico
+### Altre cause potenziali dell&#39;aumento del traffico
 
-* **Ragni o botti**: Se vedete un grande aumento improvviso del traffico, la prima cosa da cercare è la possibilità di un ragno o un bot. L&#39;identificazione dei bot può essere talvolta difficile, in quanto ognuno ha un proprio modo di eseguire il codice sul sito. Crea un rapporto di Data warehouse utilizzando l&#39;IP come dimensione per vedere quali indirizzi causano il maggior numero di traffico. Potete quindi utilizzare le regole [bot](/help/admin/admin/bot-removal/bot-rules.md) o una regola VISTA per eliminare il traffico bot dai rapporti futuri.
-* **Campagne** avviate: Le attività di marketing, come campagne e-mail o ottimizzazione dei motori di ricerca, possono potenzialmente causare un picco del traffico sul sito. Tendenza della dimensione del codice [di](/help/components/dimensions/tracking-code.md) tracciamento per ulteriori ricerche. Può anche essere utile per contattare il team marketing per assicurarsi che il picco sia intenzionale.
-* **Cause** ambientali o circostanziali: Se si è verificato un evento festivo o circostanziale (un evento significativo in cui il sito è una risorsa nota, o le attività di marketing residue di altre organizzazioni), il traffico può aumentare sul sito. Risolvere i problemi della causa esatta è difficile, in quanto ci sono un numero quasi illimitato di motivi circostanziali per cui il traffico può aumentare. Queste cause, tuttavia, sono alcune delle più importanti da determinare in modo che la tua organizzazione possa trarre vantaggio da tali cause e prendere le decisioni aziendali di conseguenza. La tendenza della dimensione [Pagina](/help/components/dimensions/page.md) o [Referente](/help/components/dimensions/referrer.md) è probabilmente il punto migliore per iniziare a determinare l’origine del traffico.
+* **Ragni o robot**: Se vedete un forte aumento improvviso del traffico, la prima cosa da cercare è la possibilità di un ragno o un bot. A volte è difficile identificare i bot, in quanto ciascuno di essi dispone di un proprio modo di eseguire il codice sul sito. Crea un rapporto di Data Warehouse utilizzando l’IP come dimensione per vedere quali indirizzi causano il maggior traffico. Puoi quindi utilizzare [Regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) o una regola VISTA per eliminare il traffico da bot dai rapporti futuri.
+* **Campagne avviate**: Le attività di marketing come le campagne e-mail o l’ottimizzazione dei motori di ricerca possono potenzialmente causare un picco di traffico sul sito. Tendenza [Codice di tracciamento](/help/components/dimensions/tracking-code.md) la dimensione della ricerca. Può inoltre essere utile per contattare il team di marketing per assicurarsi che il picco sia intenzionale.
+* **Cause ambientali o circostanziate**: Se si è verificato un evento festivo o circostanziale (un evento significativo in cui il sito è una risorsa nota o attività di marketing residue di altre organizzazioni), il traffico può aumentare sul sito. È difficile risolvere i problemi relativi alla causa esatta, in quanto il traffico può aumentare per un numero quasi illimitato di ragioni circostanziali. Queste cause, tuttavia, sono alcune delle più importanti da determinare in modo che la tua organizzazione possa sfruttarle e prendere le decisioni aziendali di conseguenza. Tendenza del [Pagina](/help/components/dimensions/page.md) o [Referrer](/help/components/dimensions/referrer.md) probabilmente è la posizione migliore per iniziare a determinare l’origine del traffico.
 
-Se nessuno dei motivi di cui sopra è una potenziale causa di aumento o diminuzione del traffico sul sito, contatta  Assistenza clienti del Adobe. Possono fornire assistenza per individuare la fonte del picco di traffico o della caduta. Durante la creazione dell&#39;incidente, istruite l&#39;agente su come ricreare un rapporto specifico che illustri chiaramente il picco o la goccia.
+Se nessuna delle ragioni di cui sopra è una potenziale causa di aumento o diminuzione del traffico sul sito, contatta l’Assistenza clienti Adobe. Possono fornire assistenza nell’individuazione della fonte del picco o del calo di traffico. Quando crei l&#39;incidente, indica all&#39;agente come ricreare un report specifico che illustri chiaramente il picco o il calo.

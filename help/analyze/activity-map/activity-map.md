@@ -4,7 +4,7 @@ title: Che cos’è Activity Map?
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 34%
@@ -40,7 +40,7 @@ Activity Map ti permette di configurare varie viste per identificare visivamente
 * [Rapporto dei collegamenti](activitymap-links-report.md)
 * [Dettagli pagina](activitymap-page-flow.md)
 * [Set completo di metriche](activitymap-complete-metrics.md)
-* [Analisi delle pagine in tempo reale (Live)](activitymap-realtime.md)
+* [Analisi delle pagine in tempo reale (Live)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
 * [Segmentazione cliente](activitymap-multiple-segments.md)
 * [Sovrapposizioni personalizzabili](activitymap-gainerslosers.md)
 * [Dettagli della sovrapposizione](activitymap-overlay-details.md)
