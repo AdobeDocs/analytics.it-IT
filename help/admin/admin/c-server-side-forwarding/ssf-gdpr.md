@@ -3,8 +3,8 @@ description: Vengono descritti i miglioramenti relativi all’inoltro lato serve
 title: Conformità a RGPD/ePrivacy e inoltro lato server
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Puoi utilizzare Adobe Analytics per generare rapporti di confronto tra la quanti
 Per configurare questo tipo di reportistica, usa le regole di elaborazione per mappare a nuova variabile di contesto su una variabile di traffico personalizzata (prop). A questo scopo, eseguie le seguenti operazioni:
 
 1. Implementa la variabile “cm.ssf” (come illustrato sopra).
-1. [Abilita la proprietà.](/help/admin/admin/c-traffic-variables/traffic-var.md)
+1. [Abilita la proprietà.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 1. Utilizza le regole di elaborazione per mappare la variabile di contesto sulla proprietà.
 
    1. Passa a  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** , quindi seleziona una suite di rapporti.

@@ -5,8 +5,8 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I filtri consentono di restringere il rapporto includendo o escludendo elementi 
 
 ## Filtro semplice {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
-![](assets/filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 Il filtro semplice viene visualizzato nella maggior parte dei rapporti per consentire di trovare rapidamente elementi di riga specifici. I filtri semplici non utilizzano caratteri speciali, pertanto `-, ", ', +` e altri caratteri speciali corrispondono al valore letterale nel rapporto. È possibile trovare elementi di riga contenenti più termini utilizzando uno spazio.
 

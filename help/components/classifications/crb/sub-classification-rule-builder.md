@@ -3,10 +3,10 @@ description: Non è possibile combinare il Generatore di regole di classificazio
 title: Sottoclassificazioni e Generatore di regole
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ Esempi di passaggi che descrivono come caricare le sottoclassificazioni utilizza
 >
 >Questi passaggi descrivono come eseguire il caso di utilizzo descritto in [Sottoclassificazioni e Generatore di regole](/help/components/classifications/crb/sub-classification-rule-builder.md).
 
-1. Crea classificazioni e sottoclassificazioni nel [Gestore di classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
+1. Crea classificazioni e sottoclassificazioni nel [Gestore di classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=it).
 
    Esempio:
 
-   ![Informazioni sul passaggio](assets/sub_class_create.png)
+   ![Informazioni sul passaggio](/help/admin/admin/assets/sub_class_create.png)
 
 1. Nel [Generatore di regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md), classifica la chiave della sottoclassificazione dal codice di tracciamento originale.
 
@@ -67,8 +67,8 @@ Esempi di passaggi che descrivono come caricare le sottoclassificazioni utilizza
 
    | Chiave | Canale | Codice Campaign ampio | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
-   | * |  | 111 | Brand | Suzanne |  |
-   | * |  | 222 | Brand | Frank |  |
+   | &#42; |  | 111 | Brand | Suzanne |  |
+   | &#42; |  | 222 | Brand | Frank |  |
 
 1. Per mantenere le tabelle di ricerca, carica un file di piccole dimensioni (come mostrato sopra).
 

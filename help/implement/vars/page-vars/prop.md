@@ -3,10 +3,10 @@ title: prop
 description: Variabili personalizzate che puoi utilizzare nell’implementazione.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 *Questa pagina di aiuto descrive come implementare i prop. Per informazioni sul funzionamento delle proprietà come dimensione, consulta [prop](/help/components/dimensions/prop.md) nella guida utente Componenti .*
 
-Le proprietà sono variabili personalizzate che puoi utilizzare come desideri. Non persistono oltre il risultato impostato.
+Le proprietà sono variabili personalizzate che puoi utilizzare come desideri. Non persistono oltre l’hit impostato.
 
 >[!TIP]
 >
@@ -30,18 +30,18 @@ Le proprietà sono [mappato per Adobe Analytics](https://experienceleague.adobe.
 
 Puoi impostare le proprietà durante la configurazione dell’estensione Analytics (variabili globali) o in regole.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà tag desiderata.
-3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
-4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
-5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
-6. Individua il [!UICONTROL Props] sezione .
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+2. Fai clic sulla proprietà del tag desiderata.
+3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
+4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
+5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+6. Individua la sezione [!UICONTROL Props].
 
 Puoi impostare una proprietà su un valore o su un elemento dati. Puoi anche copiare il valore da un’altra variabile di Analytics.
 
 ## s.prop1 - s.prop75 in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Ogni variabile di proprietà è una stringa che contiene valori personalizzati specifici dell’organizzazione. La loro lunghezza massima è di 100 byte; i valori superiori a 100 byte vengono troncati automaticamente quando inviati ad Adobe.
+Ogni variabile di proprietà è una stringa che contiene valori personalizzati specifici dell’organizzazione. La loro lunghezza massima è di 100 byte; i valori superiori a 100 byte vengono troncati automaticamente quando sono inviati ad Adobe.
 
 ```js
 s.prop1 = "Example custom value";
@@ -53,7 +53,7 @@ Le proprietà di elenco sono un’impostazione applicata alle proprietà che con
 
 ### Configurare le proprietà dell’elenco
 
-Abilita proprietà elenco in [Variabili del traffico](/help/admin/admin/c-traffic-variables/traffic-var.md) in impostazioni suite di rapporti. Assicurati che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
+Abilita proprietà elenco in [Variabili del traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in impostazioni suite di rapporti. Assicurati che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
 
 >[!TIP]
 >

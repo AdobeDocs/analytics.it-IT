@@ -2,7 +2,7 @@
 title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 99%
@@ -60,7 +60,7 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `environment.operatingSystemVersion` | Consente di impostare la dimensione [Versione sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Imposta la dimensione delle rispettive [eVar](../../components/dimensions/evar.md). |
 | `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1` -<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Imposta la rispettiva dimensione [Gerarchia](/help/components/dimensions/hierarchy.md). |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Sovrascrittura delimitatore Prop elenco. L’utilizzo di questo campo non è consigliato, in quanto il delimitatore viene recuperato automaticamente dall’[Amministratore variabile di traffico](/help/admin/admin/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti. L’utilizzo di questo campo può creare una mancata corrispondenza tra il delimitatore utilizzato e quello previsto da Analytics. |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Sovrascrittura delimitatore Prop elenco. L’utilizzo di questo campo non è consigliato, in quanto il delimitatore viene recuperato automaticamente dall’[Amministratore variabile di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti. L’utilizzo di questo campo può creare una mancata corrispondenza tra il delimitatore utilizzato e quello previsto da Analytics. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Matrice di stringhe contenente i rispettivi valori [Prop elenco](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena tutte le stringhe `value` in ciascuna matrice `list[]` alla rispettiva [variabile elenco](../vars/page-vars/list.md). Il delimitatore viene scelto automaticamente in base al valore impostato in [Impostazioni delle suite di rapporti](/help/admin/admin/conversion-var-admin/list-var-admin.md). |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Imposta la rispettiva dimensione [Prop](../../components/dimensions/prop.md). |

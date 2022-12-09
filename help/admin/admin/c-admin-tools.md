@@ -3,7 +3,7 @@ description: Indice degli strumenti di amministrazione in Adobe Analytics.
 title: Strumenti di amministrazione
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 + [Gestione codici](code-manager-admin.md)
 + [Variabili di conversione (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Codici valuta](currency.md)
-+ [Descrizioni report personalizzati](custom-desc-admin.md)
++ [Descrizioni report personalizzati](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
 + [Personalizza calendario](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
 + [Origini dati](data-sources.md)
 + [Metriche predefinite](default-metrics.md)
@@ -46,6 +46,6 @@ ht-degree: 100%
 + [Menu dei rapporti semplificati](t-simplified-menu.md)
 + [Panoramica degli eventi di successo](c-success-events/success-event.md)
 + [Marca temporale opzionale](timestamp-optional.md)
-+ [Panoramica della variabile traffico (prop)](c-traffic-variables/traffic-var.md)
++ [Panoramica della variabile traffico (prop)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 + [Specificare la variabile visitatore univoco](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [Gestione video](video-management.md)

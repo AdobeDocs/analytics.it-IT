@@ -3,8 +3,8 @@ description: I segmenti sequenziali vengono creati utilizzando l’operatore THE
 title: Creare segmenti sequenziali
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '3658'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Ecco un video sulla segmentazione sequenziale:
 
 Quando crei un segmento in cui è impostata l’opzione “Includi tutti”, il segmento identifica i percorsi che corrispondono al pattern specificato nel suo insieme. Di seguito è riportato un esempio di segmento di sequenza di base alla ricerca di un hit (Pagina A) seguito da un altro (Pagina B) visitato dallo stesso visitatore. Il segmento è impostato su Includi tutti.
 
-![](assets/sequence-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 | Se il risultato | Sequenza |
 |--- |--- |

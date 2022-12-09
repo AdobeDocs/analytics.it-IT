@@ -4,10 +4,10 @@ title: Panoramica dei pannelli
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '1074'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -25,10 +25,10 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannello:
 | [Pannello Quick Insights](quickinsight.md) | Crea una tabella a forma libera e una relativa visualizzazione per analizzare e individuare più rapidamente le informazioni. |
 | [Pannello Analytics for Target](a4t-panel.md) | Analizza le attività ed esperienze Target in Analysis Workspace. |
 | [Pannello Attribution](attribution.md) | Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione. |
-| [Pannello Freeform](freeform-panel.md) | Esegui confronti illimitati e suddivisioni, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
+| [Pannello a forma libera](freeform-panel.md) | Esegui confronti illimitati e raggruppamenti, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
 | [Pannello Pubblico medio per minuto](average-minute-audience-panel.md) | Analizza nel tempo il pubblico medio dei minuti, con dettagli sulle visualizzazioni di picco e sulla possibilità di suddividerlo e confrontarlo. |
 | [Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
-| [Pannello a tendina della riproduzione multimediale](media-playback-timespent/media-playback-time-spent.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
+| [Pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)](media-playback-timespent/media-playback-time-spent.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
 | [Pannello Segment Comparison](c-segment-comparison/segment-comparison.md) | Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti. |
 
 ![](assets/panel-overview.png)
@@ -64,7 +64,7 @@ La zona di rilascio del pannello consente di applicare filtri a segmenti e filtr
 
 Per iniziare a filtrare il pannello., trascina un segmento dalla barra a sinistra fino alla zona di rilascio del pannello.
 
-![](assets/segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Filtri di segmenti ad hoc
 
@@ -72,7 +72,7 @@ Puoi anche trascinare componenti non di segmento direttamente nella zona di rila
 
 I segmenti ad hoc sono locali per il progetto e non vengono visualizzati nella barra a sinistra a meno che tu non li renda pubblici.
 
-![](assets/adhoc-segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Filtri a discesa {#dropdown-filter}
 
@@ -94,7 +94,7 @@ Per ulteriori informazioni su come aggiungere filtri a discesa a un progetto, [g
 
 ## Menu di scelta rapida {#right-click}
 
-Ulteriori funzionalità per un pannello sono disponibili nel menu di scelta rapida che compare quandi fai clic con il pulsante destro del mouse sull’intestazione del pannello.
+Ulteriori funzionalità per un pannello sono disponibili nel menu di scelta rapida che compare quando fai clic con il pulsante destro del mouse sull’intestazione del pannello.
 
 ![](assets/right-click-menu.png)
 

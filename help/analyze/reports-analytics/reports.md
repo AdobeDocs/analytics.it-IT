@@ -4,7 +4,7 @@ description: Dimensioni e metriche utilizzate da Reports & Analytics per ogni ra
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -115,7 +115,7 @@ Contiene rapporti che ti consentono di visualizzare i dati del percorso per i vi
 
 >[!NOTE]
 >
->Altri rapporti possono essere visualizzati in questa cartella. Sono altre dimensioni, come prop, in cui sono stati [abilitati dei percorsi](../../admin/admin/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
+>Altri rapporti possono essere visualizzati in questa cartella. Sono altre dimensioni, come prop, in cui sono stati [abilitati dei percorsi](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
 
 ## Origini di traffico
 

@@ -4,7 +4,7 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 93%
@@ -33,13 +33,13 @@ In Adobe Analytics, gli amministratori accedono a **[!UICONTROL Admin]** > **[!U
 
 Per gestire l’attività di reporting è necessaria l’autorizzazione amministratore prodotto di Analytics (in Adobe Admin Console).
 
-![autorizzazione](assets/rep-mgr-permission.png)
+![autorizzazione](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## Visualizzare la coda dei rapporti
 
 All’apertura della pagina di panoramica di [!UICONTROL Reporting Activity] Manager, viene visualizzato un elenco delle suite di rapporti di base abilitate.
 
-![coda dei rapporti](assets/reporting-activity1.png)
+![coda dei rapporti](/help/admin/admin/assets/reporting-activity1.png)
 
 | Elemento nell’interfaccia utente | Descrizione |
 | --- | --- |
@@ -62,7 +62,7 @@ All’apertura della pagina di panoramica di [!UICONTROL Reporting Activity] Man
 
 Fai clic sul collegamento del titolo di una suite di rapporti per la quale vuoi visualizzare i dettagli.
 
-![suite per report](assets/indiv-report-ste.png)
+![suite per report](/help/admin/admin/assets/indiv-report-ste.png)
 
 ### Grafico a linee
 
@@ -72,17 +72,17 @@ Il grafico a linee mostra l’attività di reporting per la suite di rapporti se
 * L’asse y mostra il tempo medio di attesa di una query in secondi.
 * Puoi passare il cursore del mouse sul grafico a linee per visualizzare i punti nel tempo e il tempo medio di attesa per quell’istante.
 
-   ![dettaglio](assets/detail.png)
+   ![dettaglio](/help/admin/admin/assets/detail.png)
 
 ### Filtro
 
 È possibile filtrare la tabella per Applicazione (consulta l’elenco nella tabella seguente), per Utente e per Progetto.
 
-![filter](assets/filter.png)
+![filter](/help/admin/admin/assets/filter.png)
 
 ### Numeri di riepilogo
 
-![filter](assets/summary_numbers.png)
+![filter](/help/admin/admin/assets/summary_numbers.png)
 
 I numeri di riepilogo mostrano le seguenti informazioni:
 
@@ -127,11 +127,11 @@ Per annullare una richiesta
 1. Nella finestra **[!UICONTROL Cancel x query]** che viene visualizzata, puoi modificare il messaggio di cancellazione se necessario.
 1. Fai clic su **[!UICONTROL Continue]**.
 
-   ![cancel-query](assets/cancel-query.png)
+   ![cancel-query](/help/admin/admin/assets/cancel-query.png)
 
 Gli utenti di applicazioni in Workspace, ad esempio, vedranno il seguente avviso comparire nei loro progetti:
 
-![cancel-user-notice](assets/cancel-user-facing.png)
+![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
 ## Domande frequenti
 

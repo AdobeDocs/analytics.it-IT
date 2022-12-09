@@ -3,7 +3,7 @@ description: Abilita le dimensioni di gestione del consenso.
 title: Informativa sulla privacy
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 6ce83892cc3b3dd6ee818b6d00e764e892060a1b
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 9%
@@ -19,7 +19,7 @@ Per accedere a questa pagina:
 1. Accedi ad Adobe Analytics e passa a **[!UICONTROL Admin]** > **[!UICONTROL Report suites]**.
 1. Seleziona una o più suite di rapporti desiderate, quindi seleziona **[!UICONTROL Edit settings]** > **[!UICONTROL Privacy management]** > **[!UICONTROL Privacy reporting]**.
 
-   ![Modifica impostazioni](assets/rsm-privacy-select.png)
+   ![Modifica impostazioni](/help/admin/admin/assets/rsm-privacy-select.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Enable Data Privacy Reports]**.
 
@@ -27,8 +27,8 @@ Per accedere a questa pagina:
    >
    >Una volta abilitate, queste variabili non possono essere disattivate.
 
-   ![Abilita](assets/rsm-privacy-enable.png)
+   ![Abilita](/help/admin/admin/assets/rsm-privacy-enable.png)
 
 1. Una volta attivato, viene visualizzato un messaggio di conferma. Le dimensioni sono disponibili nei rapporti.
 
-   ![Rapporto](assets/consent-management.png)
+   ![Rapporto](/help/admin/admin/assets/consent-management.png)
