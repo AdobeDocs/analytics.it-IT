@@ -4,7 +4,7 @@ keywords: Feed di dati;best practice;picco di traffico;ogni ora;ftp
 title: Procedure consigliate e informazioni generali
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Di seguito sono riportate alcune best practice per l’elaborazione e la distribuzione dei feed di dati.
 
-* Assicurati di comunicare anticipatamente eventuali picchi di traffico previsti. La latenza influisce direttamente sul tempo di elaborazione dei feed di dati. Vedi [Pianificare un picco di traffico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) nella guida utente Admin.
+* Assicurati di comunicare anticipatamente eventuali picchi di traffico previsti. La latenza influisce direttamente sul tempo di elaborazione dei feed di dati. Vedi [Pianificare un picco di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) nella guida utente Admin.
 
 * I feed di dati non contengono un accordo a livello di servizio, a meno che non sia esplicitamente indicato nel contratto con l’Adobe. In genere i feed vengono consegnati entro diverse ore dal passaggio dell’intervallo di reporting, ma occasionalmente possono richiedere fino a 12 ore o più.
 

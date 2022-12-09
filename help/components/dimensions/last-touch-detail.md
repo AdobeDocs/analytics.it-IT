@@ -3,10 +3,10 @@ title: Dettaglio del canale di ultimo contatto
 description: Dettagli del canale di marketing più recente entro la scadenza del coinvolgimento del visitatore.
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ab0f0c80c13b9064b40511b59d03d9d899d20df1
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ La dimensione &quot;Dettaglio canale ultimo contatto&quot; riporta i dettagli re
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione copia i valori da altre variabili. La variabile utilizzata fa riferimento al valore del canale all’interno di ogni [Regola di elaborazione del canale di marketing](/help/admin/admin/marketing-channels-admin.md). Quando un hit corrisponde a una regola di elaborazione del canale di marketing, il [Canale di ultimo contatto](last-touch-channel.md) è impostata sul nome del canale e questa dimensione è impostata sul valore del canale impostato nella regola.
+Questa dimensione copia i valori da altre variabili. La variabile utilizzata fa riferimento al valore del canale all’interno di ogni [Regola di elaborazione del canale di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md). Quando un hit corrisponde a una regola di elaborazione del canale di marketing, il [Canale di ultimo contatto](last-touch-channel.md) è impostata sul nome del canale e questa dimensione è impostata sul valore del canale impostato nella regola.
 
 Se desideri impostare questa dimensione su un valore specifico, sono necessari i seguenti passaggi:
 
@@ -25,7 +25,7 @@ Se desideri impostare questa dimensione su un valore specifico, sono necessari i
 * Seleziona il valore a discesa desiderato in [!UICONTROL Set the channel's value] nella regola di elaborazione del canale di marketing.
 * L’hit del visitatore per il sito deve corrispondere ai criteri descritti nella regola di elaborazione del canale di marketing .
 
-## Elementi Dimension
+## Elementi dimensionali
 
 Gli elementi di Dimension dipendono dal menu a discesa del valore del canale. Ad esempio, se imposti il valore del canale su &quot;URL pagina&quot;, gli elementi dimensionali includono gli URL della pagina sul sito. Se imposti il valore del canale su Dominio di riferimento, gli elementi dimensionali includono domini che i visitatori hanno fatto clic su per accedere al tuo sito. Questa dimensione aggrega tutti gli elementi dimensionali di dettaglio, indipendentemente dal canale in cui si trovano.
 
