@@ -3,9 +3,9 @@ description: Le sessioni in base al contesto nelle suite di rapporti virtuali ca
 title: Adobe Context-Aware Sessions
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Il tempo trascorso viene comunque calcolato in modo analogo a come si verifica s
 
 ## Impostazioni di elaborazione degli hit in background
 
-Poiché l’elaborazione degli hit in background è disponibile solo per le suite di rapporti virtuali che utilizzano l’elaborazione al momento della generazione del rapporto, Adobe Analytics supporta due modi per elaborare gli hit in background, al fine di mantenere i conteggi delle visite nella suite di rapporti di base che non utilizzano l’elaborazione al momento della generazione del rapporto. Per accedere a questa impostazione vai all&#39;Admin Console Adobe Analytics, vai alle impostazioni della suite di rapporti di base applicabile, quindi vai al menu &quot;Gestione mobile&quot; e infine al sottomenu &quot;Generazione rapporti applicazioni mobili&quot;.
+Poiché l’elaborazione degli hit in background è disponibile solo per le suite di rapporti virtuali che utilizzano l’elaborazione al momento della generazione del rapporto, Adobe Analytics supporta due modi per elaborare gli hit in background, al fine di mantenere i conteggi delle visite nella suite di rapporti di base che non utilizzano l’elaborazione al momento della generazione del rapporto. Per accedere a questa impostazione vai a Strumenti di amministrazione di Adobe Analytics, vai alle impostazioni della suite di rapporti di base applicabile, quindi vai al menu &quot;Gestione mobile&quot; e infine al sottomenu &quot;Generazione rapporti applicazioni mobili&quot;.
 
 1. &quot;Elaborazione legacy su&quot;: Questa è l’impostazione predefinita per tutte le suite di rapporti. L’elaborazione legacy nei processi degli hit in background viene lasciata come hit normali nella nostra pipeline di elaborazione per quanto riguarda la suite di rapporti di base Attribuzione tempo non rapporto . Ciò significa che tutti gli hit di background visualizzati nella suite di rapporti di base incrementano le visite come hit normale. Se non desideri che gli hit di background vengano visualizzati nella suite di rapporti di base, modifica questa impostazione in &quot;Off&quot;.
 1. &quot;Elaborazione legacy disattivata&quot;: Con l’elaborazione legacy per gli hit in background disattivata, tutti gli hit in background inviati alla suite di rapporti di base vengono ignorati dalla suite di rapporti di base e sono accessibili solo quando una suite di rapporti virtuale creata in questa suite di rapporti di base è configurata per l’utilizzo dell’elaborazione al momento della generazione del rapporto. Ciò significa che tutti i dati acquisiti da hit in background inviati a questa suite di rapporti di base vengono visualizzati solo in una suite di rapporti virtuali abilitata per l’elaborazione dei tempi di report.

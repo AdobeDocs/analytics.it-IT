@@ -3,10 +3,10 @@ title: Cos’è la variabile currencyCode e come si usa?
 description: Per i siti di eCommerce, imposta la valuta in cui sono effettuate le offerte della pagina.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 100%
+source-wordcount: '948'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Il Codice valuta è un campo che si trova sotto il pannello a soffietto [!UICONT
 Il codice valuta viene passato agli SDK di Adobe Experience Platform Mobile tramite variabili di dati di contesto nell’estensione di Adobe Analytics.
 
 1. Imposta il codice valuta in una variabile di dati contestuali durante `trackState` o `trackAction`.
-1. Crea una regola di elaborazione nell’Admin Console di Adobe Analytics per la suite di rapporti. Imposta la regola per sovrascrivere la variabile Codice valuta.
+1. Crea una regola di elaborazione in Strumenti di amministrazione di Adobe Analytics per la suite di rapporti. Imposta la regola per sovrascrivere la variabile Codice valuta.
 1. Trasferisci il codice valuta alla variabile `products` nella chiamata a `trackState` o a `trackAction`.
 
 È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se utilizzi un codice valuta personalizzato, assicurati che sia valido.

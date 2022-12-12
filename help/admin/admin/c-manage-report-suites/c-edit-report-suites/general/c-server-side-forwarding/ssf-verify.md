@@ -4,9 +4,9 @@ solution: Analytics
 title: Verificare l’implementazione dell’inoltro lato server
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '256'
 ht-degree: 84%
 
 ---
@@ -25,7 +25,7 @@ Per controllare lo stato dell’inoltro lato server:
 
 >[!CAUTION]
 >
->Se la risposta contiene la coppia chiave-valore `"status":"SUCCESS"` o un’immagine 2 x 2, l’inoltro lato server *non* è configurato correttamente. Assicurati che il servizio Identity sia correttamente distribuito, hai implementato il modulo App Measurement , che la suite di rapporti applicabile sia stata mappata sull’ID organizzazione corretto e che l’inoltro lato server sia stato abilitato nella Admin Console di Analytics.
+>Se la risposta contiene la coppia chiave-valore `"status":"SUCCESS"` o un’immagine 2 x 2, l’inoltro lato server *non* è configurato correttamente. Assicurati che il servizio Identity sia correttamente distribuito, hai implementato il modulo App Measurement , che la suite di rapporti applicabile sia stata mappata sull’ID organizzazione corretto e che l’inoltro lato server sia stato abilitato in Strumenti di amministrazione di Analytics.
 
 >[!MORELIKETHIS]
 >

@@ -3,10 +3,10 @@ description: Eseguire la migrazione dal sistema legacy di gestione utenti di Ana
 title: Eseguire la migrazione degli account utente di Analytics per Adobe ID
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 100%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
@@ -69,7 +69,7 @@ Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’
    </tr> 
    <tr> 
       <td colname="col1"> <p>Dominio registrato </p> </td> 
-      <td colname="col2"> <p>Se desideri trasferire gli utenti come Enterprise ID o Federated ID, devi essere amministratore di sistema e registrare un dominio disponibile tramite l’Admin Console prima di eseguire la migrazione degli utenti. Puoi trovare ulteriori informazioni <a href="https://helpx.adobe.com/it/enterprise/help/identity.html">qui</a>. </p> <p>Se non desideri registrare domini per Enterprise ID o Federated ID, salta questo passaggio ed esegui la migrazione degli utenti come Adobe ID. <a href="https://helpx.adobe.com/enterprise/help/identity.html">Qui</a> puoi trovare ulteriori informazioni sui tipi di ID. </p> </td> 
+      <td colname="col2"> <p>Se desideri trasferire gli utenti come Enterprise ID o Federated ID, devi essere amministratore di sistema e registrare un dominio disponibile tramite Adobe Admin Console prima di eseguire la migrazione degli utenti. Puoi trovare ulteriori informazioni <a href="https://helpx.adobe.com/it/enterprise/help/identity.html">qui</a>. </p> <p>Se non desideri registrare domini per Enterprise ID o Federated ID, salta questo passaggio ed esegui la migrazione degli utenti come Adobe ID. <a href="https://helpx.adobe.com/enterprise/help/identity.html">Qui</a> puoi trovare ulteriori informazioni sui tipi di ID. </p> </td> 
    </tr> 
    </tbody> 
    </table>
