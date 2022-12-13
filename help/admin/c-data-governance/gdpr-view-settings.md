@@ -3,9 +3,9 @@ description: La finestra di dialogo Data Governance (Governance dei dati) negli 
 title: Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 538d5bcea449ecb868ff9ebcce4ca742f91b4a87
-workflow-type: ht
-source-wordcount: '497'
+source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+workflow-type: tm+mt
+source-wordcount: '500'
 ht-degree: 100%
 
 ---
@@ -33,3 +33,5 @@ La finestra di dialogo Data Governance (Governance dei dati) negli strumenti del
 | **[!UICONTROL Groups]** | La funzionalità di raggruppamento al momento non è implementata. |
 | Barra laterale a sinistra | Fai clic sull’icona dell’imbuto per aprire o chiudere la barra laterale. La sezione [!UICONTROL Organization Mapping] mostra il numero di suite di rapporti che rientrano in ognuna delle categorie descritte. La sezione [!UICONTROL Data Retention Policy] mostra tutti i criteri univoci di conservazione dei dati validi per l’organizzazione e il numero di suite di rapporti assegnate a quei criteri. |
 | **[!UICONTROL Export to CSV]** | Se indichi il segno di spunta accanto a una o più suite di rapporti, viene visualizzata l’opzione Esporta in CSV. Questa opzione ti consente di scaricare un file CSV contenente tutte le definizioni delle etichette attuali per tutte le variabili per tutte le suite di rapporti selezionate. Consigliamo al team legale di esaminare le scelte di etichettatura; questa opzione facilita la revisione. Invece di dover eseguire la revisione quando sei autenticato nell’interfaccia utente della governance dei dati, puoi condividere il file .CSV. |
+
+{style=&quot;table-layout:auto&quot;}
