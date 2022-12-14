@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 97%
+source-wordcount: '758'
+ht-degree: 85%
 
 ---
 
@@ -18,11 +18,23 @@ Le [!UICONTROL Column Settings] consentono di configurare la formattazione delle
 
 ## Modificare [!UICONTROL Column Settings] {#edit-column-settings}
 
-Per accedere a [!UICONTROL Column Settings], trascina una tabella a forma libera nel progetto e fai clic sull’icona con l’ingranaggio nell’intestazione della colonna.
+È possibile modificare le impostazioni di colonna per una singola colonna o per più colonne contemporaneamente.
 
-![](assets/column_settings.png)
+1. In Analysis Workspace, trascina una tabella a forma libera nel progetto.
 
-È possibile modificare le impostazioni di **più colonne alla volta**. Seleziona più colonne e fai clic sull’icona delle impostazioni di una delle colonne. Le modifiche apportate verranno applicate a tutte le colonne contenenti celle selezionate.
+1. (Condizionale) Per modificare più colonne contemporaneamente, selezionate ogni colonna da modificare tenendo premuto il tasto Maiusc.
+
+1. Passa il puntatore del mouse sulla colonna da modificare, quindi seleziona l’icona a forma di ingranaggio.
+
+   Se hai selezionato più colonne, fai clic sull’icona a forma di ingranaggio per una delle colonne selezionate. Tutte le modifiche apportate vengono applicate a tutte le colonne selezionate.
+
+   ![](assets/column_settings.png)
+
+1. Continua con [Impostazioni colonna](#column-settings).
+
+## Impostazioni colonna
+
+Quando si modificano le colonne in Analysis Workspace sono disponibili le seguenti impostazioni di colonna:
 
 | Elemento | Descrizione |
 | --- | --- |
