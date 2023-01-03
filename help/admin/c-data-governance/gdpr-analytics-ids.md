@@ -4,9 +4,9 @@ title: Tecniche di etichettatura consigliate
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2698'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Usa questa tabella per determinare i tipi di ID che userai durante l’invio del
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Tipo di ID </th> 
-   <th colname="col2" class="entry"> Tecniche consigliate </th> 
+   <th colname="col2" class="entry"> Raccomandazioni </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -95,7 +95,7 @@ Sebbene pochissimi campi avranno un’etichetta diversa, in molti campi spesso s
 <table id="table_A5B834CC08C641D99E2691A2361997E4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> ID utilizzato </th> 
+   <th colname="col1" class="entry"> Versione utilizzata </th> 
    <th colname="col2" class="entry"> Tecniche consigliate </th> 
   </tr> 
  </thead>
@@ -110,7 +110,7 @@ Sebbene pochissimi campi avranno un’etichetta diversa, in molti campi spesso s
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID misti e/o espansione dell’ID </p> </td> 
-   <td colname="col2"> <p>Se nelle richieste di Privacy dei dati includi sia gli ID persona che visitatore, o se usi gli ID personalizzati (ID visitatore personalizzato o un ID in una proprietà o in un’eVar), devi fare attenzione alle etichette ACC usate. Ogni richiesta di accesso restituirà due coppie di file di dati, una coppia con i dati dei risultati che contenevano un ID persona corrispondente e una seconda coppia con i dati dei risultati che non corrispondevano a un ID persona, ma a un ID dispositivo. </p> <p>I file "ID persona" contengono dati su tutti i punti che corrispondono agli ID persona con tutti i campi dotati di etichetta ACC-PERSON e/o ACC-ALL (un file con tutti i punti corrispondenti e l'altro come riepilogo). </p> <p>La coppia di file "ID dispositivo" contiene solo campi che hanno un'etichetta ACC-ALL e contiene solo risultati che non contengono ID persona corrispondenti. Questi file possono contenere dati generati da altri utenti di un dispositivo condiviso, pertanto è consigliabile considerare attentamente il set di campi che contengono l'etichetta ACC-ALL. Le etichette predefinite in Analytics applicano questa etichetta solo a campi di informazioni generiche correlati al dispositivo (tipo di dispositivo, sistema operativo, browser e così via) oltre all'ora/data di ogni risultato. </p> <p>Puoi scegliere di ricevere da Adobe sia i set di file relativi alla persona che quelli relativi al dispositivo e di condividere solo i file relativi alla persona, in modo da non condividere dati che potrebbero essere generati da altri utenti di un dispositivo condiviso. Oppure puoi combinare i dati di uno o di entrambi i set con altre informazioni note sui dati interessati e restituirli nel formato desiderato. </p> </td> 
+   <td colname="col2"> <p>Se nelle richieste di Privacy dei dati includi sia gli ID persona che visitatore, o se usi gli ID personalizzati (ID visitatore personalizzato o un ID in una proprietà o in un’eVar), devi fare attenzione alle etichette ACC usate. Ogni richiesta di accesso restituirà due coppie di file di dati, una coppia con i dati dei risultati che contenevano un ID persona corrispondente e una seconda coppia con i dati dei risultati che non corrispondevano a un ID persona, ma a un ID dispositivo. </p> <p>I file “ID persona” contengono dati su tutti i punti che corrispondono agli ID persona con tutti i campi dotati di etichetta ACC-PERSON e/o ACC-ALL (un file con tutti i punti corrispondenti e l'altro come riepilogo). </p> <p>La coppia di file “ID dispositivo” contiene solo campi che hanno un'etichetta ACC-ALL e contiene solo risultati che non contengono ID persona corrispondenti. Questi file possono contenere dati generati da altri utenti di un dispositivo condiviso, pertanto è consigliabile considerare attentamente il set di campi che contengono l'etichetta ACC-ALL. Le etichette predefinite in Analytics applicano questa etichetta solo a campi di informazioni generiche correlati al dispositivo (tipo di dispositivo, sistema operativo, browser e così via) oltre all'ora/data di ogni risultato. </p> <p>Puoi scegliere di ricevere da Adobe sia i set di file relativi alla persona che quelli relativi al dispositivo e di condividere solo i file relativi alla persona, in modo da non condividere dati che potrebbero essere generati da altri utenti di un dispositivo condiviso. Oppure puoi combinare i dati di uno o di entrambi i set con altre informazioni note sui dati interessati e restituirli nel formato desiderato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
