@@ -20,7 +20,7 @@ Supponi di avere i dati seguenti:
 * La seconda riga è il nome della variabile. Se ha un’etichetta ID, contiene lo spazio dei nomi assegnato tra parentesi.
 * I dati dei risultati partono dalla terza riga.
 
-| Etichette | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
+| Etichette | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
 | **Nome variable** <br> **(Namespace)** | **MyProp1** <br> **(utente)** | **ID visitatore** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | Dati dei risultati | Mary | 77 | A | M | X |
@@ -220,7 +220,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=false</th>
+    <th colspan="5" style="text-align:center">user=Mary <br> expandIDs=false</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -293,7 +293,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=true</th>
+    <th colspan="5" style="text-align:center">user=Mary <br> expandIDs=true</th>
   </tr>
   <tr>
     <th>MyProp1</th>
