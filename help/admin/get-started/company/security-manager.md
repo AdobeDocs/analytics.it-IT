@@ -4,13 +4,13 @@ title: Security Manager
 feature: Company Settings
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
 source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
 ht-degree: 100%
 
 ---
 
-# Sicurezza Manager
+# Security Manager
 
 Security Manager consente di controllare l’accesso ai dati di reporting. Le opzioni includono password sicure, scadenza password, restrizioni di accesso IP e restrizioni del dominio e-mail.
 
