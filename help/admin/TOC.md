@@ -5,9 +5,9 @@ user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
 source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 + [Guida dell’amministratore di Analytics](home.md)
 + [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
-+ Guida introduttiva all’amministrazione di Analytics {#admin-overview}
++ Introduzione all’amministrazione di Analytics {#admin-overview}
    + [Quale strumento Adobe Analytics usare?](get-started/which-analytics-tool.md)
    + [Confronto dei prodotti Analytics e requisiti](get-started/analytics-product-comparison.md)
    + [Requisiti di sistema](get-started/sys-reqs.md)
@@ -28,11 +28,11 @@ ht-degree: 95%
       + [Single Sign-On](get-started/company/single-signon-admin.md)
       + [Azioni in sospeso](get-started/company/pending-actions-admin.md)
       + [Co-branding](get-started/company/co-branding-admin.md)
-      + [Nascondere suite di rapporti](get-started/company/c-hide-report-suites.md)
+      + [Nascondere le suite di rapporti](get-started/company/c-hide-report-suites.md)
       + [Security Manager](get-started/company/security-manager.md)
 + Autorizzazioni utente in Adobe Admin Console {#admin-console}
    + [Analytics in Adobe Admin Console](admin-console/home.md)
-   + [Prima guida per l’amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
+   + [Prima guida dell’amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
    + [Ruoli di amministratore in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
    + Autorizzazioni {#permissions}
       + [Autorizzazioni di Analytics in Admin Console](admin-console/permissions/summary-tables.md)
@@ -57,13 +57,13 @@ ht-degree: 95%
    + [Escludi per indirizzo IP](admin/exclude-ip.md)
    + [Registri](admin/logs.md)
    + [Visibilità delle metriche](admin/metric-visibility.md)
-   + [Preferenze Manager](admin/preferences-manager.md)
+   + [Preferenze manager](admin/preferences-manager.md)
    + [Rapporti sulla privacy](admin/privacy-reporting.md)
    + [Reporting Activity Manager](admin/reporting-activity.md)
    + [Coda dei report pianificati](admin/scheduled-reports-admin.md)
    + Report Suite Manager {#manage-report-suites}
       + [Gestione suite di rapporti](admin/c-manage-report-suites/report-suites-admin.md)
-      + [Suite di rapporti rollup e globali](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [Suite di rapporti di aggregazione dati e globali](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Salvare una ricerca suite di rapporti](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [Scaricare le impostazioni delle suite di rapporti](admin/c-manage-report-suites/t-download-rs-settings.md)
       + New Report Suite (Nuova suite di rapporti) {#c-new-report-suite}
