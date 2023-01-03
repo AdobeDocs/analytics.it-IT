@@ -4,9 +4,9 @@ title: Quale strumento Adobe Analytics usare?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,9 +61,9 @@ Le **[origini dati](/help/import/c-data-sources/datasrc-home.md)** sono utili 
    * ID transazione: caricamenti di dati che collegano un endpoint online a dati offline e associano completamente i dati importati a uno snapshot visitatore acquisito online (ad esempio, ordini completati online e restituiti offline)
    * Elaborazione completa: origini dati con marca temporale, elaborate come gli hit raccolti dai server Adobe. Ad esempio, i dati vengono inseriti direttamente nel percorso del visitatore.
 
-**[Integrazioni Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** devono essere utilizzati:
+**[Le integrazioni Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** devono essere utilizzate:
 
-* Quando interagisci con un provider di terze parti che ha creato una connessione supportata con Adobe Analytics. Le app di integrazione in genere incorporano dati a livello di riepilogo in Adobe Analytics in modo permanente e automatico, su base periodica.
+* Quando interagisci con un provider di terze parti che ha creato una connessione supportata con Adobe Analytics. In genere, le app di integrazione incorporano dati di riepilogo in Adobe Analytics in modo permanente e automatico, su base periodica.
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** è indicato nei seguenti casi:
 
