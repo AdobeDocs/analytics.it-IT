@@ -4,9 +4,9 @@ title: Namespace
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ La stringa namespace viene usata per identificare i campi in cui si desidera ese
 * Un campo “type” che per la maggior parte delle richieste di Adobe Analytics contiene il valore “analytics”.
 * Un campo “value” contenente l’ID che Analytics deve cercare nelle variabili namespace associate di ciascuna suite di rapporti.
 
-Per altre informazioni fai riferimento alla [documentazione relativa all’API Privacy dei dati](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) per Experience Cloud.
+Per altre informazioni fai riferimento alla [documentazione relativa all’API Privacy dei dati](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it) per Experience Cloud.
 
 ## ID cookie
 
