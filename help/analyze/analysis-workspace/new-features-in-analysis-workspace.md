@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8165'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Per aggiornamenti sul prodotto di base, consulta [Note sulla versione di Adobe E
 | Funzione | Descrizione |
 | --- | --- |
 | [Possibilità di scaricare 50.000 elementi per una singola dimensione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it#download-items) | Ora puoi scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. |
-| [Miglioramenti alla visualizzazione Linee](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puoi mostrare o nascondere l’asse X e l’asse Y di qualsiasi visualizzazione [!UICONTROL Line]. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni [!UICONTROL Line] sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle linee per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle linee per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] e [!UICONTROL Quadratic].</li></ul> |
+| [Miglioramenti alla visualizzazione Linee](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=it) | <ul><li>Puoi mostrare o nascondere l’asse X e l’asse Y di qualsiasi visualizzazione [!UICONTROL Line]. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni [!UICONTROL Line] sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle linee per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle linee per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] e [!UICONTROL Quadratic].</li></ul> |
 | Nuovi intervalli di date | Abbiamo aggiunto 5 nuovi intervalli di date per permetterti di scegliere tra intervalli di date che non includono dati del giorno parziali da oggi: Ultimi 7 giorni interi, Ultimi 14 giorni interi, Ultimi 30 giorni interi, Ultimi 60 giorni interi, Ultimi 90 giorni interi. |
 
 ## Agosto 2020
@@ -76,7 +76,7 @@ Nuove funzioni rilasciate il 18 giugno 2020.
 | Attribution IQ: finestre di lookback personalizzate | Ora puoi configurare qualsiasi modello di attribuzione in Attribution IQ in modo da includere punti di contatto risalenti a un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione dell’attribuzione per gli eventi che si verificano all’inizio del periodo di reporting tenendo conto delle interazioni avvenute nei mesi precedenti. Disponibile per i clienti Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=it#lookback-windows) |
 | Ruoli di progetto per progetti Workspace condivisi | Ora quando condividi un progetto Workspace puoi assegnare ai destinatari uno dei tre ruoli di progetto, a seconda di come desideri che interagiscano con il progetto: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) |
 | Progetti Workspace solo visualizzazione | I progetti Workspace possono essere condivisi con gli utenti solo con la modalità di accesso “Può visualizzare”. Quando un destinatario con ruolo Visualizza apre il progetto condiviso, lo vedrà con alcune restrizioni, senza barra a sinistra e con interazioni limitate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=it) |
-| Possibilità di collaborare alla modifica dei progetti Workspace | I destinatari aggiunti al ruolo “Può modificare” possono salvare in sovrascrittura un progetto condiviso con loro. Questo vale sia per gli amministratori che per i non amministratori. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Possibilità di collaborare alla modifica dei progetti Workspace | I destinatari aggiunti al ruolo “Può modificare” possono salvare in sovrascrittura un progetto condiviso con loro. Questo vale sia per gli amministratori che per i non amministratori. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) |
 | Aggiornamento del pannello vuoto | Il pannello vuoto ora include pannelli e visualizzazioni, garantendo così una maggiore facilità nella scelta del flusso di lavoro di analisi più adatto alle tue esigenze. |
 | Pannello Quick Insights (25 giugno 2020) | Quick Insights fornisce indicazioni ai non analisti e ai nuovi utenti di Analysis Workspace per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Pannello Analytics for Target in Workspace (25 giugno 2020) | Il pannello Analytics for Target (A4T) consente di analizzare le attività e le esperienze Adobe Target in Analysis Workspace con incremento e affidabilità. [Ulteriori informazioni...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -481,7 +481,7 @@ Nuove funzionalità e ottimizzazioni rilasciate l’8 febbraio 2018.
    <td colname="col2"> <p>L’applicazione della formattazione condizionale (colori, ecc.) nelle tabelle a forma libera ora è abilitata automaticamente nelle suddivisioni, a meno che non venga selezionata l’opzione per limiti “personalizzati”. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p>Modifiche alla vista <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >calendario</a> predefinita </p> </td>
+   <td colname="col1"> <p>Modifiche alla vista <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >Calendario</a> predefinita </p> </td>
    <td colname="col2"> <p>Ora, per impostazione predefinita, il calendario Workspace visualizza il mese in corso e quello precedente, invece del mese in corso e quello successivo. </p> </td>
   </tr>
   <tr>
@@ -548,7 +548,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
   </tr>
   <tr>
    <td colname="col1"> <p>Analisi dei contributi: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=it"  > notifica token </a> </p> </td>
-   <td colname="col2"> <p>Se la tua società ha un numero limitato di token di analisi dei contributi, ora puoi visualizzare una notifica nell’interfaccia utente di Analysis Workspace ogni volta che consumi un token. Puoi quindi sapere quanti token sono ancora disponibili. </p> <p>(Gli utenti amministratori possono limitare il numero di utenti che possono utilizzare i token modificando l’autorizzazione del gruppo. L’autorizzazione si chiama "Anomaly Detection and Contribution Analysis" (Rilevamento anomalie e Analisi contributi) in <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Tutti gli amministratori </span>  &gt; <span class="uicontrol"> Gestione utente </span>&gt; <span class="uicontrol"> Modifica gruppi </span> &gt; <span class="uicontrol"> Modifica accesso a tutti i rapporti </span> &gt; <span class="uicontrol"> Personalizzare gli strumenti delle suite di rapporti </span> &gt; <span class="uicontrol"> Strumenti E Rapporti </span>. ) </p> </td>
+   <td colname="col2"> <p>Se la tua società ha un numero limitato di token di analisi dei contributi, ora puoi visualizzare una notifica nell’interfaccia utente di Analysis Workspace ogni volta che consumi un token. Puoi quindi sapere quanti token sono ancora disponibili. </p> <p>(Gli utenti amministratori possono limitare il numero di utenti che possono utilizzare i token modificando l’autorizzazione del gruppo. Il titolo dell’autorizzazione è “Anomaly Detection and Contribution Analysis” (Rilevamento anomalie e Analisi contributi), alla voce <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin </span> &gt; <span class="uicontrol">All admin </span> &gt; <span class="uicontrol">User management (Gestione utente)</span> &gt; <span class="uicontrol">Edit Groups (Modifica gruppi)</span> &gt; <span class="uicontrol">Edit All Report Access (Modifica accesso a tutti i rapporti)</span> &gt; <span class="uicontrol">Customize Report Suite Tools (Personalizza strumenti della suite di rapporti)</span> &gt; <span class="uicontrol">Tools And Reports (Strumenti e rapporti)</span>). </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>File CSV con caratteri multibyte </p> </td>
@@ -598,7 +598,7 @@ Nuove funzionalità rilasciate il 26 ottobre 2017.
  <tbody>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Visualizzazione mappa </a> </p> </td>
-   <td colname="col2"> <p>La nuova visualizzazione mappa permette di visualizzare agevolmente le interazioni dei clienti nel contesto della loro posizione. La visualizzazione spazia dalla modalità macro (globale) a quella micro (città) e permette di ingrandire e ridimensionare una serie di livelli gerarchici, per visualizzare i cluster di utenti nelle varie regioni. </p> <p>Puoi visualizzare i dati sulla posizione tramite indirizzo IP (per i set di dati non mobili) oppure riportare i dati di latitudine e longitudine (per i clienti che utilizzano l’SDK di Mobile) in Analysis Workspace. </p> </td>
+   <td colname="col2"> <p>La nuova visualizzazione Mappa permette di visualizzare agevolmente le interazioni dei clienti nel contesto della loro posizione. La visualizzazione spazia dalla modalità macro (globale) a quella micro (città) e permette di ingrandire e ridimensionare una serie di livelli gerarchici, per visualizzare i cluster di utenti nelle varie regioni. </p> <p>È possibile visualizzare i dati relativi alla posizione tramite indirizzo IP (per i set di dati non mobili) oppure riportare i dati di latitudine e longitudine (per i clienti che utilizzano Mobile SDK) in Analysis Workspace. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > Selettore di granularità per le visualizzazioni con tendenze </a> </p> </td>
@@ -818,7 +818,7 @@ Nuove funzionalità rilasciate il 8 giugno 2017.
     </ul> </td>
   </tr>
   <tr>
-   <td colname="col1"> Modifiche al <b><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >calendario</a></b> </td>
+   <td colname="col1"> Modifiche al <b><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >Calendario</a></b> </td>
    <td colname="col2"> Modifiche al calendario per risolvere incongruenze con quello di Reports &amp; Analytics:
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F">
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">Fai un primo clic per iniziare la selezione di un intervallo di date. Evidenzia quindi l’intervallo desiderato in una direzione e fai di nuovo clic per selezionare la data di fine. Se tieni premuto il tasto Maiusc (o usi il pulsante destro del mouse) al momento del clic sulla prima data, questa viene aggiunta all’intervallo. </li>
@@ -1051,7 +1051,7 @@ Nuove funzionalità rilasciate il 20 ottobre 2016:
 Nuove funzionalità rilasciate il 16 giugno 2016:
 
 * [Nuova autorizzazione di gruppo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=it), che consente agli amministratori di concedere o negare l’accesso alla scheda **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**. Dal 16 giugno 2016, tutti gli utenti possono accedere a questa scheda. Per negare l’accesso, basta rimuovere gli utenti dal gruppo Accesso ad Analysis Workspace.
-* La [Pannello Confronto segmenti](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)rileva le differenze più importanti dal punto di vista statistico tra due segmenti attraverso un’analisi automatizzata di ciascuna metrica e dimensione a cui hai accesso.
+* Il [Pannello Confronto segmenti](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) rileva le differenze più importanti dal punto di vista statistico tra due segmenti attraverso un’analisi automatizzata di ciascuna metrica e dimensione a cui accedi.
 * [Nuova struttura menu di progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md), che ridispone il menu principale e lo rende più estendibile. Ad esempio, la creazione di un **new Cohort Panel** (nuovo pannello coorte) implica la creazione di un pannello vuoto e il trascinamento nella tabella coorte.
 * [Nuova barra a sinistra](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Pannelli, Visualizzazioni, Componenti.
 * Nuovo [tipo di visualizzazione Venn](/help/analyze/analysis-workspace/visualizations/venn.md), che consente di trascinare fino a 3 segmenti e una metrica e di creare un diagramma di Venn.
