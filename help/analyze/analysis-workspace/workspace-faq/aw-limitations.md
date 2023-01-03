@@ -1,12 +1,12 @@
 ---
 description: Elenco delle limitazioni note in Adobe Analysis Workspace e dei relativi componenti
 title: Limitazioni note in Analysis Workspace
-feature: Concetti di base di Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: ht
-source-wordcount: '367'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
