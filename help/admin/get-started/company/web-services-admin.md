@@ -4,9 +4,9 @@ title: Servizi web
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -18,19 +18,19 @@ Le API dei servizi Web forniscono accesso programmatico ai rapporti di marketing
 
 ## Gestisci servizi Web
 
-In [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html) è possibile aggiornare le autorizzazioni per includere gli utenti che necessitano di accesso alle API dei servizi Web.
+In [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html) è possibile aggiornare le autorizzazioni per includere gli utenti che hanno bisogno di accedere alle API dei servizi Web.
 
-## WSDL: Scaricare l’API WSDL per gli sviluppatori di servizi Web
+## WSDL: scaricare l’API WSDL dei servizi Web per gli sviluppatori di servizi Web
 
-Visita [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), che fornisce documentazione, codice di esempio e forum relativi alle API dei servizi web. Per ulteriori informazioni, fare clic su Panoramica API servizi Web .
+Visita [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), che fornisce documentazione, codice di esempio e forum relativi alle API dei servizi Web. Per ulteriori informazioni, fai clic su Panoramica API servizi Web.
 
 ## Opzioni di filtro
 
-Quando si utilizza SOAP, se il parser XML ha problemi con caratteri non validi o non validi nelle risposte alle chiamate API dei servizi Web, selezionare una o entrambe le opzioni seguenti affinché Analytics filtri automaticamente l&#39;output di risposta. In genere, si tratta di un problema solo con le lingue a doppio byte (giapponese, cinese, coreano).
+Quando si utilizza SOAP, se il parser XML ha problemi con caratteri illegali o non validi nelle risposte alle chiamate API dei servizi Web, seleziona una o entrambe le opzioni seguenti affinché Analytics filtri automaticamente l’output di risposta. In genere, si tratta di un problema solo con le lingue a doppio byte (giapponese, cinese, coreano).
 
 ## Informazioni di accesso API
 
-Visualizza le informazioni di accesso ai servizi Web in base all&#39;utente. Questa tabella include il nome utente e il segreto condiviso dei servizi Web, che gli utenti devono utilizzare come parte del processo di autenticazione durante l&#39;esecuzione di chiamate a servizi Web.
+Visualizza le informazioni di accesso ai servizi Web in base all’utente. Questa tabella include il nome utente e il segreto condiviso dei servizi Web, che gli utenti devono utilizzare come parte del processo di autenticazione durante l’esecuzione di chiamate a servizi Web.
 
 ## Utilizzo token
 
