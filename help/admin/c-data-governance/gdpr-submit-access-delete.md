@@ -4,9 +4,9 @@ title: Inviare richieste di accesso e cancellazione
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1297'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamen
 
 ## Inviare le richieste {#submit-requests}
 
-Puoi inviare l’accesso alla Privacy dei dati e cancellare le richieste tramite la nostra [Interfaccia utente di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html) o tramite [API Privacy Service.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)
+Puoi inviare l’accesso alla privacy dei dati e cancellare le richieste tramite la nostra [Interfaccia utente Privacy dei dati](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=it) o tramite la nostra [API Privacy dei dati.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it)
 
 >[!NOTE]
 >
