@@ -4,7 +4,7 @@ title: Panoramica delle impostazioni aziendali
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
 source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '55'
 ht-degree: 100%
 
@@ -22,5 +22,5 @@ La pagina [!UICONTROL Company Settings] consente di configurare le impostazioni 
 + [Single Sign-On](single-signon-admin.md)
 + [Azioni in sospeso](pending-actions-admin.md)
 + [Co-branding](co-branding-admin.md)
-+ [Nascondere suite di rapporti](c-hide-report-suites.md)
++ [Nascondere le suite di rapporti](c-hide-report-suites.md)
 + [Security Manager](security-manager.md)
