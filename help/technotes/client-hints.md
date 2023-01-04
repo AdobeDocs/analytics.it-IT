@@ -2,10 +2,10 @@
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 87%
+source-wordcount: '1133'
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ Google divide gli hint client dall’agente utente in due categorie: hint a bass
 
 >[!NOTE]
 >
->Gli hint client verranno incorporati nel processo di ricerca del dispositivo di Analytics a partire da metà gennaio 2023. Attualmente AppMeasurement e Web SDK supportano la raccolta di dati hint, ma non verranno utilizzati nella ricerca del dispositivo fino a metà gennaio. In questo modo si eviteranno potenziali interruzioni nel reporting durante il periodo critico di fine anno. Come indicato di seguito, la versione del sistema operativo verrà congelata a partire da ottobre, ma a causa di un rollout graduale e del fatto che la maggior parte degli agenti utente sarà congelata nella versione corretta del sistema operativo, prevediamo che questo interesserà &lt;3% dei visitatori di Chrome.
+>I suggerimenti client verranno incorporati nel processo di ricerca dei dispositivi di Analytics a partire dal 25 gennaio 2023. Attualmente AppMeasurement e Web SDK supportano la raccolta di dati hint, ma non verranno utilizzati nella ricerca del dispositivo fino a metà gennaio. In questo modo si eviteranno potenziali interruzioni nel reporting durante il periodo critico di fine anno. Come indicato di seguito, la versione del sistema operativo verrà congelata a partire da ottobre, ma a causa di un rollout graduale e del fatto che la maggior parte degli agenti utente sarà congelata nella versione corretta del sistema operativo, prevediamo che questo interesserà &lt;3% dei visitatori di Chrome.
 
 >[!NOTE]
 >
@@ -149,6 +149,6 @@ Consulta la [documentazione sugllo schema](https://github.com/adobe/xdm/blob/mas
 
 +++**L’inoltro lato server ad AAM supporterà gli hint client?**
 
-Sì. Gli hint client verranno inclusi nei dati inoltrati ad AAM. Tieni presente che per preservare la piena funzionalità AAM richiede la raccolta di hint ad alta entropia. Se utilizzi l’[inoltro lato server ad AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
+Sì. Gli hint client verranno inclusi nei dati inoltrati ad AAM. Tieni presente che per preservare la piena funzionalità AAM richiede la raccolta di hint ad alta entropia. Se utilizzi l’[inoltro lato server ad AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
 
 +++
