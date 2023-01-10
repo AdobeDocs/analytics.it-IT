@@ -3,25 +3,19 @@ description: Scopri come aggiungere cartelle in Workspace
 keywords: Analysis Workspace
 title: Aggiungere cartelle in Workspace
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # Aggiungere progetti alle cartelle
 
 È possibile aggiungere progetti a una cartella nella vista tabella o dall’interno di una cartella.
 
->[!NOTE]
->
->Questa funzionalità è attualmente in versione beta. Alcune schermate potrebbero cambiare.
-
-## Dalla vista tabella
+## Dalla vista tabella {#table-view}
 
 Aggiungere progetti a una cartella dalla vista tabella nella pagina Home.
 
@@ -47,7 +41,7 @@ Aggiungere progetti a una cartella dalla vista tabella nella pagina Home.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## Dall’interno di una cartella
+## Dall’interno di una cartella {#inside-folder}
 
 Puoi anche aggiungere progetti dall’interno di una cartella utilizzando il collegamento con i puntini di sospensione.
 
