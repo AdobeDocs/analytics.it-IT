@@ -5,10 +5,10 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 92%
 
 ---
 
@@ -43,9 +43,25 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | [Mappa ad albero](/help/analyze/analysis-workspace/visualizations/treemap.md) | Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Utilizza dei cerchi per rappresentare la sovrapposizione delle metriche fino a 3 segmenti. |
 
-## Impostazioni {#settings}
+## Personalizzare le impostazioni di visualizzazione
 
-Ogni visualizzazione ha le proprie impostazioni che è possibile gestire. Per accedere a [!UICONTROL Visualization Settings], fai clic sull’icona a forma di ingranaggio [!UICONTROL Visualization Settings].
+Puoi personalizzare le impostazioni di visualizzazione per una singola visualizzazione o per tutte le visualizzazioni create.
+
+### Personalizzare le impostazioni di visualizzazione per una singola visualizzazione
+
+Per accedere [!UICONTROL Visualization Settings] per una visualizzazione individuale:
+
+1. In Analysis Workspace, passa il puntatore del mouse sulla visualizzazione di cui desideri personalizzare le impostazioni.
+
+1. Fai clic sull’icona a forma di ingranaggio.
+
+   Ogni tipo di visualizzazione dispone di impostazioni univoche che è possibile personalizzare. Per informazioni sulle impostazioni disponibili, consulta [Impostazioni](#settings).
+
+### Personalizzare le impostazioni di visualizzazione per tutte le visualizzazioni create
+
+Puoi personalizzare le impostazioni per tutte le visualizzazioni create. Per ulteriori informazioni, consulta [Preferenze utente](/help/analyze/analysis-workspace/user-preferences.md).
+
+## Impostazioni {#settings}
 
 ![](assets/settings.png)
 

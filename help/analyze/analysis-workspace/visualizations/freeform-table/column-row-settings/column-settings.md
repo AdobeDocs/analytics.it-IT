@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+source-git-commit: 1ce29a131302e32a6bafd8cfdb21abb65619b359
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 85%
+source-wordcount: '789'
+ht-degree: 82%
 
 ---
 
@@ -34,7 +34,9 @@ Le [!UICONTROL Column Settings] consentono di configurare la formattazione delle
 
 ## Impostazioni colonna
 
-Quando si modificano le colonne in Analysis Workspace sono disponibili le seguenti impostazioni di colonna:
+È possibile aggiornare le seguenti impostazioni di colonna per singole tabelle in Analysis Workspace, come descritto in [Modifica impostazioni colonna](#edit-uicontrol-column-settings).
+
+Alcune di queste stesse impostazioni possono essere gestite anche per tutti i nuovi progetti creati in Analysis Workspace, come descritto in [Preferenze utente](/help/analyze/analysis-workspace/user-preferences.md)
 
 | Elemento | Descrizione |
 | --- | --- |
