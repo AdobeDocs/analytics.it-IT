@@ -4,10 +4,10 @@ title: Salvare i progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 598271d12257df2f78128e44ea04f04db8fde811
+source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 37%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,8 +31,6 @@ Per salvare manualmente un progetto:
    | **[!UICONTROL Save with notes]** | Prima di salvare il progetto, aggiungi note sulle modifiche apportate al progetto. Le note sono memorizzate con la versione del progetto e sono disponibili per tutti gli editor in [!UICONTROL Project] (Progetto) > [!UICONTROL Open previous version] (Apri versione precedente). |
    | **[!UICONTROL Save as]** | Crea un duplicato del progetto. Il progetto originale non subirà modifiche. |
    | **[!UICONTROL Save as template]** | Salva il progetto come [modello personalizzato](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it) che diventa disponibile per la tua organizzazione in **[!UICONTROL Project > New]** |
-
-   ![](assets/save-project.png)
 
 ## Salvataggio automatico {#Autosave}
 
