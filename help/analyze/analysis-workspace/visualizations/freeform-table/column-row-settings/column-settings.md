@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 8be2b622250b1da3ec765592253df2607de67a96
+source-git-commit: 2525180898d8f4cf29df891a5f228cfd82e6ffc2
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 81%
+source-wordcount: '828'
+ht-degree: 73%
 
 ---
 
@@ -56,16 +56,17 @@ Alcune di queste stesse impostazioni possono essere gestite anche per tutti i nu
 
 ## Formattazione condizionale {#conditional-formatting}
 
-La formattazione condizionale applica la formattazione ai limiti superiori e inferiori e ai punti intermedi definiti dall’utente. L’applicazione della formattazione condizionale (colori, ecc.) nelle tabelle a forma libera è inoltre abilitata automaticamente nelle suddivisioni, a meno che non venga selezionata l’opzione per limiti personalizzati.
+La formattazione condizionale applica la formattazione ai limiti superiori e inferiori e ai punti intermedi definiti dall’utente. L’applicazione della formattazione condizionale (ad esempio, i colori) nelle tabelle a forma libera viene abilitata automaticamente anche nelle suddivisioni, a meno che non venga selezionata l’opzione per limiti personalizzati.
 
 ![](assets/conditional-formatting.png)
 
 | Elemento | Descrizione |
 | --- | --- |
-| Formattazione condizionale | Applica i seguenti colori alle celle sulla base dei valori dei dati: <ul><li>Verde: valori massimi</li><li>Giallo: valori intermedi</li><li>Rosso: valori minimi</li></ul> <br> La sostituzione di una dimensione nella tabella ridefinisce i limiti della formattazione condizionale. La sostituzione di un dato ricalcola i limiti per la colonna (dove il dato si trova sull’asse X e la dimensione sull’asse Y). |
+| Formattazione condizionale | Applica alle celle un set di colori preconfigurato scelto. A seconda delle 4 combinazioni di colori disponibili selezionate, i diversi colori vengono assegnati a valori alti, valori di punto intermedio e valori bassi. <br> La sostituzione di una dimensione nella tabella ridefinisce i limiti della formattazione condizionale. La sostituzione di un dato ricalcola i limiti per la colonna (dove il dato si trova sull’asse X e la dimensione sull’asse Y). |
 | Use Percent Limits (Usa limiti percentuali) | Modifica l’intervallo di limiti in modo che sia basato su percentuali anziché su valori assoluti. Funziona sia per metriche basate unicamente sulle percentuali (come Bounce Rate, o frequenza di rimbalzo), sia per quelle basate su conteggio e percentuale (come Visualizzazioni di pagina). |
 | Generazione automatica | Calcola automaticamente i limiti superiori/medi/inferiori in base ai dati. Il limite superiore corrisponde al valore massimo nella colonna. Il limite inferiore corrisponde a quello minimo e il punto intermedio è la media fra il limite superiore e quello inferiore. |
 | Personalizzato | Assegna manualmente i limiti superiori/medi/inferiori. Ciò offre la flessibilità di poter determinare quando il valore di una colonna diventa buono, medio o scarso. |
+| Formattazione condizionale, palette | Scegliere quale delle 4 combinazioni di colori disponibili utilizzare per la formattazione condizionale. |
 
 ## Usa modello di attribuzione non predefinito {#attribution}
 
