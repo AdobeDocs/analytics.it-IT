@@ -4,9 +4,9 @@ title: Visualizzare le anomalie in Analysis Workspace
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
+source-git-commit: bc56f3567d2285d063ef35f316e22699bdcf151d
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '462'
 ht-degree: 16%
 
 ---
@@ -59,7 +59,7 @@ Per visualizzare le anomalie in un grafico a linee:
 
    La **linea tratteggiata** è il valore esatto previsto.
 
-1. Fai clic su un punto bianco per visualizzare le seguenti informazioni sull’anomalia:
+1. Fai clic su un’anomalia (punto bianco) per visualizzare le seguenti informazioni:
 
    * Data in cui si è verificata l’anomalia
 
