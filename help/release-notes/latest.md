@@ -3,16 +3,16 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e4468aa0a34654395fe78e70092df77d8f7011f6
+source-git-commit: b6c22fdeab68c55f145ed72002532ed87c06a258
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 60%
+source-wordcount: '1461'
+ht-degree: 59%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics
 
-**Ultimo aggiornamento**: 6 gennaio 2023
+**Ultimo aggiornamento**: 12 gennaio 2023
 
 I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -22,6 +22,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 | ----------- | ---------- | ------- | ---- |
 | **Cartelle in Workspace** | Le cartelle consentono di organizzare e classificare i progetti per un migliore recupero e accesso. Inoltre, un **[!UICONTROL Company]** Questa cartella consente agli amministratori di creare e condividere facilmente il contenuto con tutti gli utenti di Workspace. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | N/D | 11 gennaio 2023 |
 | **Pagina di destinazione predefinita** | La [nuova pagina di destinazione](/help/analyze/landing.md) introdotta in precedenza nel 2022 diventerà l’esperienza predefinita per tutti gli utenti su **11 gennaio 2023**. La pagina di destinazione precedente diventerà obsoleta e tutti dovranno utilizzare la nuova esperienza. | N/D | 11 gennaio 2023 |
+| **Pagina di Project Manager obsoleta** | Con il rilascio della nuova pagina di destinazione, la funzione **[!UICONTROL Project Manager]** come indicato in **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Components]**. La nuova pagina di destinazione dispone di tutte le funzionalità della vecchia pagina di Project Manager e di altro ancora. Ulteriori informazioni | N/D | 11 gennaio 2023 |
 | **Salvataggio automatico di nuovi progetti** | Analysis Workspace ora salva automaticamente i progetti appena creati. Se per qualsiasi motivo perdi inaspettatamente l’accesso a un nuovo progetto creato prima di salvarlo manualmente, è ora disponibile una versione di ripristino del progetto. In precedenza, i progetti venivano salvati automaticamente solo dopo essere stati inizialmente salvati manualmente. [Ulteriori informazioni](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | N/D | 11 gennaio 2023 |
 | **Preferenze utente ottimizzate** | È ora possibile configurare preferenze aggiuntive a livello di utente (in [!UICONTROL Components] > [!UICONTROL Preferences]). Quando imposti le preferenze utente, le selezioni si estendono su progetti, tabelle e visualizzazioni. La pagina Preferenze ora contiene le seguenti nuove schede, ciascuna contenente molte nuove opzioni di configurazione:<ul><li>Tabella a forma libera</li><li>Visualizzazioni</li></ul>Inoltre, sono ora disponibili ulteriori preferenze nella **[!UICONTROL General]** e **[!UICONTROL Project]** schede.<p>In precedenza, molte di queste preferenze erano configurabili solo per singoli progetti, tabelle e visualizzazioni. [Ulteriori informazioni](/help/analyze/analysis-workspace/user-preferences.md) | N/D | 11 gennaio 2023 |
 
