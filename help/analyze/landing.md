@@ -4,10 +4,10 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: f13e282c83b76c28cd75dfd4964fa1a51cc60229
+source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
 workflow-type: tm+mt
-source-wordcount: '3435'
-ht-degree: 82%
+source-wordcount: '3580'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,18 @@ La pagina di destinazione di Adobe Analytics riunisce [!DNL Analysis Workspace] 
 | Icona Personalizza tabella | Seleziona le colonne da visualizzare nella tabella. Per aggiungere o rimuovere colonne dall’elenco dei progetti, fai clic sull’icona della colonna (![Destinazione completa](/help/analyze/assets/select-column.png) ) in alto a destra, quindi seleziona o deseleziona i titoli delle colonne. |
 | MOSTRA: Cartelle e progetti o tutti i progetti | Modifica l’impostazione di visualizzazione nella tabella per mostrare cartelle e progetti in base all’organizzazione delle cartelle **o** mostra tutti i progetti in un elenco non organizzato. |
 | &lt; (pulsante Indietro) | Consente di tornare alla configurazione della pagina di destinazione più recente in un progetto Workspace o in un report. La configurazione della pagina che avevi quando hai lasciato la pagina di destinazione persisterà quando torni. |
+
+### Pagina Gestione progetti obsoleta {#deprecate-pm-page}
+
+Con il rilascio della nuova pagina di destinazione, Project Manager è diventato obsoleto in quanto elencato in Component Manager (Gestione componenti). La nuova pagina di destinazione gestisce tutte le funzionalità della vecchia pagina di Project Manager e altro ancora.
+
+Un caso d’uso comune per la pagina Gestione progetti era quello di visualizzare tutti i tuoi progetti. Per visualizzare tutti i progetti nella nuova pagina di destinazione utilizzando la barra dei filtri, seleziona **ALTRI FILTRI** quindi seleziona **Mostra tutto**.
+
+![Altri filtri](assets/other-filters.png)
+
+Se ti trovi nella visualizzazione &quot;Cartelle e progetti&quot;, verrà visualizzato un modale che chiede se desideri passare alla visualizzazione &quot;Tutti i progetti&quot;, facilitando la visualizzazione di tutti i progetti al di fuori delle cartelle in cui possono essere organizzati.   Seleziona **Passa alla visualizzazione &quot;Tutti i progetti&quot;** per visualizzare meglio tutti i progetti a cui hai accesso.
+
+![Passa a tutti i progetti](assets/switch-all-projects-view.png)
 
 ## Scheda [!UICONTROL Reports] {#navigate-reports}
 
