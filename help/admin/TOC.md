@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: f84ba51558dbbe59af496f83d37ed5f2789baf1d
+source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 98%
+source-wordcount: '682'
+ht-degree: 97%
 
 ---
 
@@ -174,14 +174,14 @@ ht-degree: 98%
    + [Esenzione dal consenso CNIL](c-data-governance/cnil-consent-exemption.md)
    + [Domande frequenti](c-data-governance/gdpr-faq.md)
    + [Flusso di lavoro sulla privacy dei dati di Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti](c-data-governance/gdpr-view-settings.md)
+   + [Etichette Privacy dei dati per i componenti di Analytics](c-data-governance/gdpr-labels.md)
    + [Etichettare i dati della suite di rapporti](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Inviare richieste di accesso e cancellazione](c-data-governance/gdpr-submit-access-delete.md)
-   + [Etichette Privacy dei dati per le variabili di Analytics](c-data-governance/gdpr-labels.md)
-   + [Namespace](c-data-governance/gdpr-namespaces.md)
-   + [Espansione dell’ID](c-data-governance/gdpr-id-expansion.md)
+   + [Visualizzare/gestire le etichette di privacy della suite di rapporti](c-data-governance/gdpr-view-settings.md)
    + [Tecniche di etichettatura consigliate](c-data-governance/gdpr-analytics-ids.md)
    + [Esempi di etichettatura](c-data-governance/gdpr-labeling-example.md)
+   + [Inviare richieste di accesso e cancellazione](c-data-governance/gdpr-submit-access-delete.md)
+   + [Namespace](c-data-governance/gdpr-namespaces.md)
+   + [Espansione dell’ID](c-data-governance/gdpr-id-expansion.md)
    + [Privacy dei dati e Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminologia sulla privacy dei dati](c-data-governance/gdpr-terminology.md)
 + [Amministratore API](c-admin-api/c-admin-api.md)

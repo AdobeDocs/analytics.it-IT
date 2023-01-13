@@ -3,10 +3,10 @@ description: Questa pagina elenca tutte le variabili partner nei Data Connectors
 title: Privacy dei dati e Data Connectors (Genesis)
 feature: Privacy
 exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '87'
-ht-degree: 100%
+source-git-commit: 6038e38fcbf02877cfb9a34c00c80cd396d181e5
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 80%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**A partire dal 19 agosto 2021**, Adobe ha interrotto le integrazioni Data Connectors. La fine del ciclo di vita fa parte del ciclo di vita di qualsiasi prodotto tecnologico e Adobe mira a rendere la transizione più fluida possibile per i nostri clienti e partner. Molte di queste integrazioni sono disponibili tramite Adobe Exchange e possono continuare a essere utilizzate.
+>**A partire dal 19 agosto 2021**, Adobe ha interrotto le integrazioni Data Connectors. La fine del ciclo di vita fa parte del ciclo di vita di qualsiasi prodotto tecnologico e Adobe mira a rendere la transizione più fluida possibile per i nostri clienti e partner. Molte delle integrazioni sono disponibili tramite [Adobe Exchange](https://exchange.adobe.com/) e può continuare ad essere utilizzato.
 
 <!--This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 

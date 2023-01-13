@@ -3,16 +3,16 @@ description: Esempi di etichette sulla privacy dei dati per variabili Adobe Anal
 title: Etichette Privacy dei dati per le variabili di Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
-workflow-type: ht
+source-git-commit: 4f7282f22cba344a86efca992ea273af0707cdcf
+workflow-type: tm+mt
 source-wordcount: '3673'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Etichette Privacy dei dati per le variabili di Analytics
 
-## Perché etichettare i dati? {#why-label}
+## Perché etichettare i tuoi dati? {#why-label}
 
 Molti clienti Adobe dispongono di team legali che hanno rivisto le normative sulla Privacy dei dati (RGPD, CCPA, ecc.). Questi team possono aver tratto le proprie conclusioni sul modo in cui i dati devono essere gestiti per conformarsi alle normative sulla Privacy dei dati. Le interpretazioni giuridiche possono essere diverse in base alle aziende e anche le impostazioni di gestione dei dati desiderate possono differire tra i clienti. Poiché i clienti hanno preferenze diverse per quanto riguarda il trattamento dei dati in termini di privacy e diversi set di dati, in Adobe i clienti, in qualità di titolari dei dati, possono personalizzare le impostazioni desiderate per il trattamento dei propri dati specifici in base alla Privacy dei dati. Questo consente a ogni singolo cliente di elaborare le richieste di Privacy dei dati nella maniera più adatta al proprio marchio e al proprio specifico set di dati.
 
@@ -89,11 +89,11 @@ L’etichetta di cancellazione è necessaria solo per i campi che contengono un 
 
 {style=&quot;table-layout:auto&quot;}
 
-## Fornire uno spazio dei nomi quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Fornire un namespace quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile {#provide-namespace}
 
 Quando si applica un’etichetta ID-DEVICE o ID-PERSON a una variabile, viene richiesto di fornire un namespace. Puoi usare il namespace definito in precedenza o puoi definirne uno nuovo.
 
-### Usare uno spazio dei nomi definito in precedenza
+### Utilizzare uno spazio dei nomi definito in precedenza
 
 Se in precedenza hai assegnato un’etichetta ID ad altre variabili in una delle suite di rapporti della società di accesso, puoi selezionare uno dei namespace esistenti. È consigliabile riutilizzare lo spazio dei nomi se questa variabile contiene lo stesso tipo di ID di altre variabili già etichettate con lo spazio dei nomi e si desidera eseguire la ricerca di tutte quando si invia una richiesta.
 
@@ -102,7 +102,7 @@ Se in precedenza hai assegnato un’etichetta ID ad altre variabili in una delle
 
 ![](assets/namespace.png)
 
-### Definire un nuovo spazio dei nomi
+### Definire un nuovo namespace
 
 Puoi anche definire un nuovo namespace. Nelle stringhe del namespace consigliamo di usare solo caratteri alfanumerici oltre ai caratteri trattino basso, trattino e spazio. Tutti i caratteri verranno convertiti in lettere minuscole.
 
@@ -146,7 +146,7 @@ Le etichette Privacy dei dati/DULE riguardano quattro grandi classi di variabili
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variabili a cui è possibile assegnare etichette diverse da ACC-ALL/ACC-PERSON o modificarle {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variabili a cui è possibile assegnare etichette diverse da ACC-ALL/ACC-PERSON o modificarle {#variables}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -209,7 +209,7 @@ Le etichette Privacy dei dati/DULE riguardano quattro grandi classi di variabili
  </tbody> 
 </table>
 
-## Gestione dell’eliminazione {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Gestione dell’eliminazione {#deletion}
 
 Il supporto Adobe Analytics per le richieste di eliminazione Privacy dei dati è progettato per ridurre l’impatto sulla creazione di rapporti. Nella maggior parte dei casi, le metriche visualizzate nei rapporti non devono essere modificate. Un rapporto storico eseguito prima dell’eliminazione Privacy dei dati corrisponde allo stesso rapporto eseguito dopo l’eliminazione. Questa operazione viene eseguita disassociando completamente i dati eliminati dai dati interessati, lasciando intatti i dati non-identificabili in modo che i valori del rapporto rimangano coerenti.
 
@@ -226,7 +226,7 @@ La tabella seguente descrive come vengono “eliminate” molte variabili. Quest
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variabili che non supportano le etichette di eliminazione previste {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variabili che non supportano le etichette di eliminazione previste {#no-delete-support}
 
 Questa sezione contiene informazioni sulle variabili Analytics che non supportano l’eliminazione. A volte queste variabili vengono eliminate dagli utenti non Analytics (come il team legale) che non conoscono il tipo di dati contenuti nella variabile e fanno supposizioni errate in base al nome della variabile. Segue un elenco di alcune di queste variabili e del perché non richiedono l’eliminazione o perché non richiedono un’etichetta di eliminazione specifica.
 
