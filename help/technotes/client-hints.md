@@ -2,10 +2,10 @@
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
+source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 86%
+source-wordcount: '1174'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +26,10 @@ Google divide gli hint client dall’agente utente in due categorie: hint a bass
 >[!NOTE]
 >
 >A partire dal mese di ottobre 2022, le nuove versioni dei browser basati su Chromium inizieranno a “congelare” la versione del sistema operativo rappresentata nella stringa dell’agente utente. La versione del sistema operativo è un hint ad alta entropia; per essere certi di includere nei rapporti informazioni accurate sulla versione del sistema operativo è quindi necessario configurare la libreria di raccolta per raccogliere tali hint. Nel corso del tempo, le altre informazioni relative al dispositivo dell’agente utente verranno congelate, e sarà quindi necessario ricorrere agli hint client affinché sia possibile raccogliere nei rapporti informazioni accurate sui dispositivi.
+
+>[!NOTE]
+>
+> A partire da gennaio 2023, alcune versioni dei sistemi operativi Mac e Windows non sono correttamente rappresentate nell&#39;Agente utente ma correttamente rappresentate nei suggerimenti client entropici elevati. Vedi [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it) per ulteriori informazioni.
 
 >[!NOTE]
 >
