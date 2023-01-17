@@ -3,10 +3,10 @@ description: L’analisi dei contributi è un potente processo di machine learni
 title: Tecniche di statistica utilizzate nell’analisi dei contributi
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ L’analisi dei contributi applica un algoritmo in due parti a ogni elemento dim
 
    ![](assets/cramers-v.png)
 
-1. Per ogni elemento dimensione, il residuo di Pearson (PR) viene usato per misurare l’associazione tra la metrica anomala e ogni elemento di dimensione. Il PR segue una distribuzione normale standard, che consente all’algoritmo di confrontare i PR di due variabili casuali anche se le deviazioni non sono paragonabili. In pratica, l’errore non è noto ed è stimato con correzione a campione finita.
+1. Per ogni elemento dimensione, il residuo di Pearson (PR) viene utilizzato per misurare l’associazione tra la metrica anomala e ogni elemento di dimensione. Il PR segue una distribuzione normale standard, che consente all’algoritmo di confrontare i PR di due variabili casuali anche se le deviazioni non sono paragonabili. In pratica, l’errore non è noto ed è stimato con correzione a campione finita.
 
    Nell’esempio della tabella 1, il PR con correzione a campione finita per il paese 1 e il periodo di tempo 2 è dato da
 
