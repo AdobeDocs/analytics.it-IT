@@ -3,10 +3,10 @@ title: getTimeToComplete
 description: Misura il tempo necessario per completare un'attività.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 2%
+source-wordcount: '506'
+ht-degree: 4%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
 1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
 1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
@@ -62,7 +62,8 @@ La `getTimeToComplete` La funzione utilizza i seguenti argomenti:
 
 * **`sos`** (facoltativo, stringa): Imposta su `"start"` quando si desidera avviare il timer. Imposta su `"stop"` quando si desidera arrestare il timer. Predefinito su `"start"`.
 * **`cn`** (facoltativo, stringa): Nome del cookie da memorizzare l&#39;ora di inizio. Predefinito su `"s_gttc"`.
-* **`exp`** (facoltativo, numero intero): Il numero di giorni di scadenza del cookie (e del timer). Predefinito su `0`, che rappresenta la fine della sessione del browser.
+* **`exp`** (facoltativo, numero intero): Il numero di secondi, ore o giorni (a seconda del `tp` argomento che separa il tempo) relativo alla scadenza del cookie (e del timer). Il valore predefinito è 30 minuti.
+* **`tp`** (facoltativo, stringa): La stringa di suddivisione del tempo che scade il cookie (e il timer), utilizzata con il `exp` argomento. Imposta su &quot;d&quot; per giorni, &quot;h&quot; per ore o &quot;s&quot; per secondi. Se questa impostazione non viene impostata, la scadenza del cookie (e del timer) viene impostata automaticamente su 30 minuti, indipendentemente dal valore `exp` argomento impostato su.
 
 Una chiamata a questa funzione restituisce una stringa contenente il numero di giorni, ore, minuti e/o secondi necessari tra il `"start"` e `"stop"` azione.
 
@@ -80,8 +81,8 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
 // Stores each timer in their own respective cookies so they run independently
 if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
 if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
-if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
-if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7, "d");
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7, "d");
 ```
 
 ## Cronologia versioni
