@@ -3,10 +3,10 @@ title: Implementazione di Adobe Analytics
 description: Implementa Adobe Analytics sul tuo sito, proprietà o applicazione.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: be00ae15cfcd1afb1ecf225c9dff82e969bb5127
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 79%
 
 ---
 
@@ -23,18 +23,16 @@ Per inviare dati ai propri server di raccolta dati, Adobe richiede codice sul si
 1. Quando un visitatore accede al tuo sito, viene inviata una richiesta al server web.
 2. Il server web del sito invia le informazioni sul codice della pagina e la pagina viene visualizzata nel browser.
 3. La pagina viene caricata e viene eseguito il codice JavaScript di Analytics.
-Il codice JavaScript invia una richiesta di immagine ai server di raccolta dati Adobe. In questa richiesta di immagine, i dati di pagina definiti nell’implementazione vengono inviati come parte di una stringa di query.
+4. Il codice JavaScript invia una richiesta di immagine da 1x1 pixel ai server di raccolta dati di Adobe. In questa richiesta di immagine, i dati di pagina definiti nell’implementazione vengono inviati come parte di una stringa di query.
+5. I server di raccolta dati di Adobe restituiscono l’immagine richiesta.
+6. I server di Adobe analizzano e memorizzano i dati raccolti in una suite di rapporti.
+7. I dati della suite di report popolano i rapporti a cui potrai poi accedere in un browser web.
 
-4. Adobe restituisce un’immagine trasparente in pixel.
-5. I server di Adobe memorizzano i dati raccolti in una o più *suite di rapporti*.
-6. I dati della suite di report popolano i rapporti a cui potrai poi accedere in un browser web.
 
-   L’esecuzione del codice JavaScript avviene rapidamente e non influisce in modo rilevante sui tempi di caricamento delle pagine. Questo approccio consente di contare le pagine visualizzate quando un visitatore fa clic su **[!UICONTROL Reload]** o **[!UICONTROL Back]** per raggiungere una pagina, perché JavaScript viene eseguito anche durante il recupero della pagina dalla cache.
+Adobe offre diversi metodi per implementare questo codice, a seconda della piattaforma e delle esigenze della tua organizzazione.
 
-Per poter inviare dati ai server di raccolta dati, Adobe Analytics richiede il codice all’interno del sito web, dell’app mobile o di altre applicazioni. Esistono diversi metodi per implementare questo codice, a seconda della piattaforma e delle esigenze aziendali.
-
-* **Estensione Web SDK**: metodo standardizzato e consigliato per l’implementazione di Adobe Analytics. Installa l’estensione Web SDK in raccolta dati Adobe Experience Platform, utilizza un tag loader in ogni pagina e invia i dati a Adobe Experience Platform Edge in un formato adatto alla tua organizzazione. Experience Edge inoltra i dati in arrivo ad Adobe Analytics nel formato corretto.
-* **SDK per web**: se non desideri utilizzare la raccolta dati di Adobe Experience Platform, puoi caricare manualmente le librerie SDK web sul tuo sito. Fai riferimento alla libreria SDK web in ogni pagina e invia le chiamate di tracciamento desiderate ad Adobe Experience Edge.
+* **Estensione SDK per web**: Il metodo corrente, standardizzato e consigliato per l’implementazione di Adobe Analytics. Installa l’estensione Web SDK in raccolta dati Adobe Experience Platform, utilizza un tag loader in ogni pagina e invia i dati a Adobe Experience Platform Edge in un formato adatto alla tua organizzazione. Experience Edge inoltra i dati in arrivo ad Adobe Analytics nel formato corretto.
+* **SDK per web**: Se non desideri utilizzare i tag, puoi caricare manualmente le librerie SDK web sul tuo sito. Fai riferimento alla libreria SDK web in ogni pagina e invia le chiamate di tracciamento desiderate ad Adobe Experience Edge.
 * **Estensione Adobe Analytics**: installa l’estensione Adobe Analytics in raccolta dati Adobe Experience Platform. Inserisci un tag loader in ciascuna pagina e utilizza l’estensione Analytics per determinare come viene definita ogni variabile.
 * **JavaScript legacy:** metodo manuale che veniva utilizzato per implementare Adobe Analytics. Consente di specificare le variabili e le impostazioni utilizzate in un’implementazione e può essere utile per le implementazioni di basate su regole con codice personalizzato.
 * **SDK per dispositivi mobili:** librerie dedicate per inviare facilmente i dati ad Adobe dall’app mobile.

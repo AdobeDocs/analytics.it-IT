@@ -3,8 +3,8 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+workflow-type: tm+mt
 source-wordcount: '2315'
 ht-degree: 100%
 
@@ -23,7 +23,6 @@ Puoi scaricare la versione più recente di AppMeasurement da [Code Manager](/hel
 Data di rilascio: **23 settembre 2022**
 
 * AppMeasurement ora supporta la raccolta di hint client ad alta entropia dall’agente utente utilizzati dai browser Chromium (Google Chrome e Microsoft Edge) per fornire informazioni sul dispositivo. Puoi configurare gli hint client tramite i tag o utilizzare il flag “collectHighEntropyUserAgentHints”. Per impostazione predefinita, la raccolta di hint al alta entropia è disattivata. Ulteriori informazioni sugli [hint client](/help/technotes/client-hints.md) dell’agente utente.
-
 
 ## Versione 2.22.4
 
