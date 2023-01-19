@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ae44be2166334f2a2f785f877f6919cf295dc663
+source-git-commit: 5e6341663eecaa7ebc99155a9eec085a8b7acf1c
 workflow-type: tm+mt
-source-wordcount: '3458'
+source-wordcount: '3481'
 ht-degree: 99%
 
 ---
@@ -26,7 +26,9 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Gennaio 2023** |  |
-| Cartelle | Pagine dedicate per [Gestione cartelle](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) |
+| Cartelle | Pagine dedicate per [Gestione cartelle](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Preferenze utente | Sono ora disponibili molte preferenze utente aggiuntive in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md). |
+| Salvataggio automatico per progetti | Contenuto aggiornato per includere funzionalità di salvataggio automatico in [Salvare i progetti](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
 
 ### 2022 {#22}
 
