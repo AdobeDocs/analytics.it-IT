@@ -4,10 +4,10 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
+source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
 workflow-type: tm+mt
-source-wordcount: '3580'
-ht-degree: 79%
+source-wordcount: '3800'
+ht-degree: 74%
 
 ---
 
@@ -87,13 +87,17 @@ La pagina di destinazione di Adobe Analytics riunisce [!DNL Analysis Workspace] 
 
 Con il rilascio della nuova pagina di destinazione, Project Manager è diventato obsoleto in quanto elencato in Component Manager (Gestione componenti). La nuova pagina di destinazione gestisce tutte le funzionalità della vecchia pagina di Project Manager e altro ancora.
 
-Un caso d’uso comune per la pagina Gestione progetti era quello di visualizzare tutti i tuoi progetti. Per visualizzare tutti i progetti nella nuova pagina di destinazione utilizzando la barra dei filtri, seleziona **ALTRI FILTRI** quindi seleziona **Mostra tutto**.
+Un caso d’uso comune per la pagina Gestione progetti era quello di visualizzare tutti i tuoi progetti.
 
-![Altri filtri](assets/other-filters.png)
+Per visualizzare tutti i progetti nella nuova pagina di destinazione utilizzando la barra dei filtri, seleziona **ALTRI FILTRI** quindi seleziona **Mostra tutto**.
+
+![Mostra tutti i progetti](assets/show-all-fIlter.png)
 
 Se ti trovi nella visualizzazione &quot;Cartelle e progetti&quot;, verrà visualizzato un modale che chiede se desideri passare alla visualizzazione &quot;Tutti i progetti&quot;, facilitando la visualizzazione di tutti i progetti al di fuori delle cartelle in cui possono essere organizzati.   Seleziona **Passa alla visualizzazione &quot;Tutti i progetti&quot;** per visualizzare meglio tutti i progetti a cui hai accesso.
 
 ![Passa a tutti i progetti](assets/switch-all-projects-view.png)
+
+Un altro caso d’uso per gli amministratori è la gestione dei rapporti aziendali per eliminare, rinominare, assegnare tag o approvare i rapporti. Per informazioni sulla gestione dei rapporti, consulta [Gestione dei rapporti aziendali](#manage-company-reports).
 
 ## Scheda [!UICONTROL Reports] {#navigate-reports}
 
@@ -188,6 +192,36 @@ Altre opzioni di apprendimento:
 * Per i nuovi utenti, consigliamo il video [Training Tutorial](https://www.youtube.com/watch?v=lCH1Kl1q9Wk) che illustra come creare un nuovo progetto.
 * Questo è un collegamento alla [documentazione completa di Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * Ecco la [playlist YouTube completa per Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
+
+### Gestione dei rapporti aziendali {#manage-company-reports}
+
+Gli amministratori possono filtrare l’elenco dei progetti per visualizzare e gestire i rapporti aziendali. Gli elementi bloccati rimangono bloccati seguito dall&#39;elenco dei rapporti aziendali identificati dai ![icona rapporto](assets/report-icon.png) icona del report. In questa visualizzazione è possibile eliminare, rinominare, assegnare tag o approvare uno o più rapporti.
+
+Visualizzazione e gestione dei rapporti aziendali
+
+1. Nella barra del filtro, seleziona **ALTRI FILTRI** quindi seleziona **Rapporti aziendali**.
+Viene visualizzato un elenco dei rapporti aziendali. Non vengono visualizzati tutti i progetti regolari, a meno che non siano bloccati.
+
+   ![Visualizzare i filtri per i rapporti aziendali](assets/company-reports-filter.png)
+
+   Con la visualizzazione dei rapporti aziendali, gli amministratori possono eliminare, rinominare, aggiungere un tag o approvare il rapporto.
+
+1. Nell’elenco dei rapporti, selezionare un singolo rapporto o più rapporti.
+
+1. Fai clic sul pulsante **...** Icona dell’elenco accanto a un rapporto per visualizzare le opzioni disponibili (Elimina, Rinomina, Tag e Approva).
+
+   ![Azioni di segnalazione dell&#39;azienda](assets/company-reports-actions.png)
+
+1. Seleziona un’opzione (Elimina, Rinomina, Assegna tag e Approva).
+
+1. Per tornare alla visualizzazione normale al termine dell&#39;operazione, nella barra del filtro deseleziona nuovamente l&#39;opzione Rapporti aziendali .
+
+### Eliminare un rapporto aziendale
+
+Gli amministratori possono eliminare un rapporto utilizzando l’opzione di elenco dei rapporti dell’azienda (descritta in precedenza) o eliminare un rapporto dal modale Crea progetto .
+
+![Altri filtri](assets/delete-fr-create-project-modal.png)
+
 
 ## Passare alla scheda Apprendimento {#navigate-learning}
 
