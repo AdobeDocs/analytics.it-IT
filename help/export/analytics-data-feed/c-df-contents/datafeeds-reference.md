@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
+source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
 workflow-type: tm+mt
-source-wordcount: '3644'
+source-wordcount: '3641'
 ht-degree: 96%
 
 ---
@@ -38,7 +38,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`browser_width`** | Larghezza in pixel della finestra del browser. | smallint senza segno |
 | **`c_color`** | Profondità in bit della palette di colori. Utilizzato come parte del calcolo della dimensione [Profondità colore](/help/components/dimensions/color-depth.md). AppMeasurement utilizza la funzione `screen.colorDepth()` di JavaScript. | char(20) |
 | **`campaign`** | Variabile utilizzata nella dimensione [Codice di tracciamento](/help/components/dimensions/tracking-code.md). | varchar(255) |
-| **`carrier`** | Variabile di integrazione di Adobe Advertising Cloud. Specifica il gestore di telefonia mobile. Fa riferimento alla tabella di ricerca `carrier`. | varchar(100) |
+| **`carrier`** | Variabile di integrazione di Adobe Advertising Specifica il gestore di telefonia mobile. Fa riferimento alla tabella di ricerca `carrier`. | varchar(100) |
 | **`ch_hdr`** | Hint client raccolti tramite l’intestazione della richiesta HTTP. | testo |
 | **`ch_js`** | Hint client raccolti tramite l’API JavaScript per gli hint client dall’agente utente | testo |
 | **`channel`** | Variabile utilizzata nella dimensione [Sezioni del sito](/help/components/dimensions/site-section.md). | varchar(100) |
@@ -71,7 +71,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`duplicate_events`** | Elenca ogni evento conteggiato come duplicato. | varchar(255) |
 | **`duplicate_purchase`** | Flag che indica che l’evento di acquisto per questo hit viene ignorato perché è un duplicato. | tinyint unsigned |
 | **`duplicated_from`** | Utilizzato solo nelle suite di rapporti contenenti regole VISTA della copia hit. Indica la suite di rapporti da cui è stato copiato l’hit. | varchar(40) |
-| **`ef_id`** | Valore `ef_id` utilizzato nelle integrazioni di Adobe Advertising Cloud. | varchar(255) |
+| **`ef_id`** | Valore `ef_id` utilizzato nelle integrazioni di Adobe Advertising  | varchar(255) |
 | **`evar1 - evar250`** | Variabili personalizzate 1-250. Utilizzato nelle dimensioni [eVar](/help/components/dimensions/evar.md). Ogni organizzazione utilizza le eVar in modo diverso. Il luogo migliore per ulteriori informazioni su come la tua organizzazione compila le rispettive eVar sarebbe un documento di progettazione della soluzione specifico per la tua organizzazione. | varchar(255) |
 | **`event_list`** | Elenco di ID numerici separati da virgole che rappresentano gli eventi attivati sull’hit. Include eventi predefiniti ed eventi personalizzati da 1 a 1.000. Usa la ricerca `event.tsv`. | testo |
 | **`exclude_hit`** | Flag che indica che l’hit è escluso dal reporting. La colonna `visit_num` non viene incrementata per gli hit esclusi.<br>1: non utilizzato. Parte di una funzione scartata.<br>2: non utilizzato. Parte di una funzione scartata.<br>3: non più utilizzato. Esclusione dell’agente utente<br>4: esclusione basata sull’indirizzo IP<br>5: informazioni hit vitali mancanti, ad esempio `page_url`, `pagename`, `page_event` oppure `event_list`<br>6: JavaScript non ha elaborato correttamente gli hit<br>7: esclusione specifica dell’account, ad esempio in una regola VISTA<br>8: non utilizzato. Esclusione alternativa specifica per l’account.<br>9: non utilizzato. Parte di una funzione scartata.<br>10: codice valuta non valido<br>11: hit mancante di una marca temporale in una suite di rapporti solo di marca temporale o un hit contenente una marca temporale in una suite di rapporti non di marca temporale<br>12: non utilizzato. Parte di una funzione scartata.<br>13: non utilizzato. Parte di una funzione scartata.<br>14: hit di destinazione che non corrisponde a un hit di Analytics<br>15: non attualmente utilizzato.<br>16: hit di Advertising Cloud che non corrisponde a un hit di Analytics | tinyint unsigned |
@@ -184,7 +184,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`ref_type`** | Un ID numerico che rappresenta il tipo di riferimento per l’hit. Utilizzato nella dimensione [Tipo referrer](/help/components/dimensions/referrer-type.md). <br>1: All’interno del sito<br>2: Altri siti web <br>3: Motori di ricerca <br>4. Disco rigido <br>5: USENET <br>6. Digitato/Contrassegnato con segnalibro (nessun referrer) <br>7: E-mail <br>8: Nessun JavaScript <br>9: Social network | tinyint unsigned |
 | **`referrer`** | URL della pagina precedente. Utilizzato nella dimensione [Referrer](/help/components/dimensions/referrer.md). Tieni presente che `referrer` utilizza un tipo di dati varchar(255), `post_referrer` utilizza un tipo di dati varchar(244). | varchar(255) |
 | **`resolution`** | ID numerico che rappresenta la risoluzione del monitoraggio. Utilizzato in dimensione [Risoluzione monitor](/help/components/dimensions/monitor-resolution.md). Usa la tabella di ricerca `resolution.tsv`. | smallint senza segno |
-| **`s_kwcid`** | ID parola chiave utilizzato nelle integrazioni Adobe Advertising Cloud. | varchar(255) |
+| **`s_kwcid`** | ID parola chiave utilizzato nelle integrazioni Adobe Advertising  | varchar(255) |
 | **`s_resolution`** | Valore di risoluzione dello schermo non elaborato. Raccolto utilizzando la funzione JavaScript `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | ID numerico che rappresenta il motore di ricerca che ha indirizzato il visitatore al sito. Usa ricerca `search_engines.tsv`. | smallint senza segno |
 | **`search_page_num`** | Utilizzato dalla dimensione [Classificazione di tutte le pagine di ricerca](/help/components/dimensions/all-search-page-rank.md). Indica in quale pagina dei risultati di ricerca il sito è stato visualizzato prima che l’utente avesse fatto clic sul sito. | smallint senza segno |
