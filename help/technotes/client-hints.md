@@ -2,7 +2,7 @@
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 0364b52a2abc05b57184871616b702507d17205d
+source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 73%
@@ -21,7 +21,7 @@ Google divide gli hint client dall’agente utente in due categorie: hint a bass
 
 >[!NOTE]
 >
->I suggerimenti client verranno incorporati nel processo di ricerca dei dispositivi di Analytics a partire dal 15 febbraio 2023. L’SDK per AppMeasurement e Web supporta attualmente la raccolta di dati dei suggerimenti, ma non verrà utilizzato nella ricerca del dispositivo fino a metà febbraio. Come indicato di seguito la versione del sistema operativo è stata congelata a partire da ottobre ma a causa di un rollout graduale e il fatto che molti agenti utente già forniscono una versione del sistema operativo congelato (vedere di più [qui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it)), si stima che questo influirà su &lt;3% dei visitatori di Chrome.
+>I suggerimenti client verranno incorporati nel processo di ricerca dei dispositivi di Analytics a partire dal 16 febbraio 2023. L’SDK per AppMeasurement e Web supporta attualmente la raccolta di dati dei suggerimenti, ma non verrà utilizzato nella ricerca del dispositivo fino a metà febbraio. Come indicato di seguito la versione del sistema operativo è stata congelata a partire da ottobre ma a causa di un rollout graduale e il fatto che molti agenti utente già forniscono una versione del sistema operativo congelato (vedere di più [qui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it)), si stima che questo influirà su &lt;3% dei visitatori di Chrome.
 
 >[!NOTE]
 >
