@@ -4,7 +4,7 @@ description: Collabora con Adobe per assicurarti che gli eventi a traffico eleva
 feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
 source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
 ht-degree: 100%
 
