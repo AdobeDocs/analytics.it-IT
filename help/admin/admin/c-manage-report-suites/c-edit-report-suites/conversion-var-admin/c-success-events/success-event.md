@@ -5,7 +5,7 @@ title: Panoramica degli eventi di successo
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
 ht-degree: 100%
 
