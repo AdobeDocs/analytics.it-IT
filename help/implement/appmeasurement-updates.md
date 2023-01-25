@@ -4,7 +4,7 @@ description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2315'
 ht-degree: 100%
 
