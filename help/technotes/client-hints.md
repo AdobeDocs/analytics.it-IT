@@ -2,10 +2,10 @@
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
+source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 83%
+source-wordcount: '1230'
+ht-degree: 73%
 
 ---
 
@@ -21,11 +21,11 @@ Google divide gli hint client dall’agente utente in due categorie: hint a bass
 
 >[!NOTE]
 >
->I suggerimenti client verranno incorporati nel processo di ricerca dei dispositivi di Analytics a partire dal 25 gennaio 2023. Attualmente AppMeasurement e Web SDK supportano la raccolta di dati hint, ma non verranno utilizzati nella ricerca del dispositivo fino a metà gennaio. In questo modo si eviteranno potenziali interruzioni nel reporting durante il periodo critico di fine anno. Come indicato di seguito, la versione del sistema operativo verrà congelata a partire da ottobre, ma a causa di un rollout graduale e del fatto che la maggior parte degli agenti utente sarà congelata nella versione corretta del sistema operativo, prevediamo che questo interesserà &lt;3% dei visitatori di Chrome.
+>I suggerimenti client verranno incorporati nel processo di ricerca dei dispositivi di Analytics a partire dal 15 febbraio 2023. L’SDK per AppMeasurement e Web supporta attualmente la raccolta di dati dei suggerimenti, ma non verrà utilizzato nella ricerca del dispositivo fino a metà febbraio. Come indicato di seguito la versione del sistema operativo è stata congelata a partire da ottobre ma a causa di un rollout graduale e il fatto che molti agenti utente già forniscono una versione del sistema operativo congelato (vedere di più [qui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it)), si stima che questo influirà su &lt;3% dei visitatori di Chrome.
 
 >[!NOTE]
 >
->A partire dal mese di ottobre 2022, le nuove versioni dei browser basati su Chromium inizieranno a “congelare” la versione del sistema operativo rappresentata nella stringa dell’agente utente. La versione del sistema operativo è un hint ad alta entropia; per essere certi di includere nei rapporti informazioni accurate sulla versione del sistema operativo è quindi necessario configurare la libreria di raccolta per raccogliere tali hint. Nel corso del tempo, le altre informazioni relative al dispositivo dell’agente utente verranno congelate, e sarà quindi necessario ricorrere agli hint client affinché sia possibile raccogliere nei rapporti informazioni accurate sui dispositivi.
+>A partire da ottobre 2022, nuove versioni dei browser Chromium hanno iniziato a &#39;congelare&#39; la versione del sistema operativo rappresentata nella stringa User-Agent. La versione del sistema operativo è un hint ad alta entropia; per essere certi di includere nei rapporti informazioni accurate sulla versione del sistema operativo è quindi necessario configurare la libreria di raccolta per raccogliere tali hint. Nel corso del tempo, le altre informazioni relative al dispositivo dell’agente utente verranno congelate, e sarà quindi necessario ricorrere agli hint client affinché sia possibile raccogliere nei rapporti informazioni accurate sui dispositivi.
 
 >[!NOTE]
 >
@@ -48,6 +48,8 @@ Questo [articolo di blog di Google](https://web.dev/user-agent-client-hints/) è
 Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consulta le indicazioni per [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Per entrambe le librerie, la raccolta di hint ad alta entropia è **disattivata per impostazione predefinita**.
+
+Per i dati inviati tramite API, ad esempio tramite [API di inserimento dati](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o [API di inserimento dati in blocco](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), i suggerimenti devono essere inclusi esplicitamente nel payload. Per ulteriori informazioni, consulta la relativa documentazione.
 
 +++
 
@@ -72,6 +74,8 @@ La tabella seguente descrive gli hint client da ottobre 2022.
 | Sec-CH-UA-Full-Version-List | Elenco dei marchi e versione | Alta | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
 | Sec-CH-UA-Model | Modello dispositivo | Alta | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Versione del sistema operativo/piattaforma | Alta | &quot;10&quot; |
+
+Gli hint entropici elevati vengono raccolti tramite chiamata JavaScript e trasmessi tramite parametro query
 
 +++
 
