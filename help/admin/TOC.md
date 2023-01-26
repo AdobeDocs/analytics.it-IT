@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
+source-git-commit: db87f32341e064343f1f233701ed04011f802d94
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 97%
+source-wordcount: '667'
+ht-degree: 96%
 
 ---
 
@@ -169,19 +169,16 @@ ht-degree: 97%
       + [Avvisi di utilizzo delle chiamate al server](admin/c-server-call-usage/scu-alerts.md)
       + [Domande frequenti sull&#39;utilizzo delle chiamate server](admin/c-server-call-usage/overage-faq.md)
 + Governance dei dati {#data-governance}
-   + [Adobe Analytics e RGPD](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics e CCPA](c-data-governance/an-ccpa-overview.md)
-   + [Esenzione dal consenso CNIL](c-data-governance/cnil-consent-exemption.md)
-   + [Domande frequenti](c-data-governance/gdpr-faq.md)
    + [Flusso di lavoro sulla privacy dei dati di Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Etichette Privacy dei dati per i componenti di Analytics](c-data-governance/gdpr-labels.md)
-   + [Etichettare i dati della suite di rapporti](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Visualizzare/gestire le etichette di privacy della suite di rapporti](c-data-governance/gdpr-view-settings.md)
-   + [Tecniche di etichettatura consigliate](c-data-governance/gdpr-analytics-ids.md)
-   + [Esempi di etichettatura](c-data-governance/gdpr-labeling-example.md)
+   + [Domande frequenti](c-data-governance/gdpr-faq.md)
+   + Etichettatura dei dati {#data-labels}
+      + [Etichette Privacy dei dati per i componenti di Analytics](c-data-governance/data-labeling/gdpr-labels.md)
+      + [Etichettare i dati della suite di rapporti](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [Visualizzare/gestire le etichette di privacy della suite di rapporti](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [Tecniche di etichettatura consigliate](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [Esempi di etichettatura](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [Namespace](c-data-governance/data-labeling/gdpr-namespaces.md)
    + [Inviare richieste di accesso e cancellazione](c-data-governance/gdpr-submit-access-delete.md)
-   + [Namespace](c-data-governance/gdpr-namespaces.md)
    + [Espansione dell’ID](c-data-governance/gdpr-id-expansion.md)
-   + [Privacy dei dati e Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [Terminologia sulla privacy dei dati](c-data-governance/gdpr-terminology.md)
+   + [Esenzione dal consenso CNIL](c-data-governance/cnil-consent-exemption.md)
 + [Amministratore API](c-admin-api/c-admin-api.md)

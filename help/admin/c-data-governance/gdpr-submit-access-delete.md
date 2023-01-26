@@ -3,8 +3,8 @@ description: Come inviare ed eliminare le richieste di accesso ai dati in Adobe 
 title: Inviare richieste di accesso e cancellazione
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Nota che ci sono tre blocchi nella sezione dell’utente, che rappresentano tre 
 Nota bene
 
 * Il valore “5D7236525AA6D9580A495C6C@AdobeOrg” nella sezione “companyContexts” deve essere aggiornato con il valore dell’organizzazione Experience Cloud.
-* I campi “type” e “namespace” sono descritti più dettagliatamente nella sezione [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md).
+* I campi “type” e “namespace” sono descritti più dettagliatamente nella sezione [Namespaces](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
 * I campi “description” vengono ignorati.
 * I campi “key” possono contenere qualsiasi valore desiderato. Se disponi di un ID interno che usi per monitorare le richieste di Privacy dei dati, puoi inserirne il valore qui, per facilitare la corrispondenza tra le richieste nel sistema di Adobe e quelle nei tuoi sistemi.
 
