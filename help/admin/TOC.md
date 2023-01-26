@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
+source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 97%
@@ -20,16 +20,6 @@ ht-degree: 97%
    + [Quale strumento Adobe Analytics usare?](get-started/which-analytics-tool.md)
    + [Confronto dei prodotti Analytics e requisiti](get-started/analytics-product-comparison.md)
    + [Requisiti di sistema](get-started/sys-reqs.md)
-   + Impostazioni aziendali {#company-settings}
-      + [Panoramica delle impostazioni aziendali](get-started/company/c-company-settings.md)
-      + [Livelli di accesso alle funzionalità](get-started/company/feature-access-levels.md)
-      + [Servizi web](get-started/company/web-services-admin.md)
-      + [Rapporti di Report Builder](get-started/company/report-builder-reports-admin.md)
-      + [Single Sign-On](get-started/company/single-signon-admin.md)
-      + [Azioni in sospeso](get-started/company/pending-actions-admin.md)
-      + [Co-branding](get-started/company/co-branding-admin.md)
-      + [Nascondere le suite di rapporti](get-started/company/c-hide-report-suites.md)
-      + [Security Manager](get-started/company/security-manager.md)
 + Autorizzazioni utente in Adobe Admin Console {#admin-console}
    + [Analytics in Adobe Admin Console](admin-console/home.md)
    + [Prima guida dell’amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
@@ -160,6 +150,16 @@ ht-degree: 97%
             + [Panoramica rapporti in tempo reale](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configurazione rapporti in tempo reale](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Metriche e dimensioni in tempo reale supportate](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+   + Impostazioni aziendali {#company-settings}
+      + [Panoramica delle impostazioni aziendali](admin/company/c-company-settings.md)
+      + [Livelli di accesso alle funzionalità](admin/company/feature-access-levels.md)
+      + [Servizi web](admin/company/web-services-admin.md)
+      + [Rapporti di Report Builder](admin/company/report-builder-reports-admin.md)
+      + [Single Sign-On](admin/company/single-signon-admin.md)
+      + [Azioni in sospeso](admin/company/pending-actions-admin.md)
+      + [Co-branding](admin/company/co-branding-admin.md)
+      + [Nascondere le suite di rapporti](admin/company/c-hide-report-suites.md)
+      + [Security Manager](admin/company/security-manager.md)
    + [Menu dei rapporti semplificati](admin/t-simplified-menu.md)
    + [Gestione video](admin/video-management.md)
    + Utilizzo delle chiamate server {#server-call-usage}
