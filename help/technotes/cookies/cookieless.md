@@ -3,10 +3,10 @@ title: Opzioni per attenuare l’effetto delle limitazioni dei cookie del browse
 description: Scopri come attenuare l’effetto delle limitazioni dei cookie del browser per migliorare la raccolta dei dati per Adobe Analytics.
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 8%
+source-wordcount: '566'
+ht-degree: 7%
 
 ---
 
@@ -30,7 +30,7 @@ Queste limitazioni del browser riflettono una più ampia transizione dal traccia
 
 La raccolta lato server offre la flessibilità di fornire un proprio identificatore anziché utilizzare i meccanismi del browser per l’impostazione dei cookie.
 
-Puoi inviare dati al server di Analytics utilizzando [API di inserimento dati](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). L’API di inserimento dati in blocco è consigliata per nuove implementazioni lato server. Per un confronto tra le due API, vedi &quot;[Quale strumento Adobe Analytics usare](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=it).&quot;
+Puoi inviare dati al server di Analytics utilizzando [API di inserimento dati](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o [API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). L’API di inserimento dati in blocco è consigliata per nuove implementazioni lato server. Per un confronto tra le due API, vedi &quot;[Quale strumento Adobe Analytics usare](/help/analyze/get-started/which-analytics-tool.md).&quot;
 
 ## ID dispositivo di prima parte (FPID) con SDK per web
 
