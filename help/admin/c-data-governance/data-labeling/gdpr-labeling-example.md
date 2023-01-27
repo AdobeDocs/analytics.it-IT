@@ -3,16 +3,16 @@ description: Mostra esempi su come etichettare i dati per i dati relativi agli h
 title: Esempi di etichettatura
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: b0716d9a4ea51dc0e1e6fc024f3de6b01a9ccfd8
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Esempi di etichettatura
 
-## Dati di esempio dei risultati
+## Dati hit di esempio {#hit}
 
 Supponi di avere i dati seguenti:
 
@@ -32,7 +32,7 @@ Supponi di avere i dati seguenti:
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-## Richiesta di accesso di esempio
+## Richiesta di accesso di esempio {#access}
 
 Inviando una richiesta di accesso, il file di riepilogo contiene i valori indicati nella tabella seguente. Una richiesta può restituire solo un file di dispositivo, solo un file di persona o entrambi. Due file di riepilogo vengono restituiti solo se viene usato un ID persona ed expandIDs è true.
 
@@ -141,7 +141,7 @@ Inviando una richiesta di accesso, il file di riepilogo contiene i valori indica
 
 Si noti che le impostazioni di expandIDs non cambiano nell’output quando viene usato un ID cookie.
 
-## Esempio di richieste di cancellazione
+## Richieste di cancellazione di esempio {#delete}
 
 Se la richiesta di cancellazione usa i valori dell’API nella prima riga della tabella, la tabella dei risultati verrà aggiornata e apparirà come la seguente:
 
