@@ -3,10 +3,10 @@ description: A ciascun ID che si desidera cercare viene assegnato uno spazio dei
 title: Namespace
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Questo valore deve essere specificato come due numeri esadecimali separati da un
 
 È consentito usare `"namespaceId": 10` al posto o in aggiunta di `"namespace": "AAID"` e potresti riscontrare che altri prodotti Adobe usano quel modulo.
 
-## Cookie di monitoraggio di Analytics Legacy: forma obsoleta
+## Cookie di tracciamento legacy di Analytics: Modulo obsoleto
 
 ```
 {

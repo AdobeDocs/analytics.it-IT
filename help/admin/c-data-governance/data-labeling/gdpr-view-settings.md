@@ -3,7 +3,7 @@ description: La finestra di dialogo Etichettatura privacy per governance dei dat
 title: Visualizzare/gestire le etichette sulla privacy per la governance dei dati
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 45%
@@ -75,7 +75,7 @@ Se desideri applicare le stesse impostazioni DULE/Privacy dei dati a più di una
    >
    >Devi sempre controllare la suite di rapporti di destinazione per accertarti che le etichette siano state copiate correttamente. Questo è molto importante soprattutto per le variabili che hanno le etichette ID o DEL.
 
-## Esportare in un file .csv
+## Esportare in un file .csv {#export-csv}
 
 Puoi scaricare un file CSV contenente tutte le definizioni delle etichette correnti per tutte le variabili per le suite di rapporti selezionate. È consigliabile che il team legale esamini le scelte di etichettatura e questa opzione facilita la revisione. Invece di dover eseguire la revisione quando sei autenticato nell’interfaccia utente della governance dei dati, puoi condividere il file .CSV.
 
@@ -85,6 +85,6 @@ Puoi scaricare un file CSV contenente tutte le definizioni delle etichette corre
 
 1. Seleziona una o più suite di rapporti per le quali desideri esportare tutte le impostazioni di governance dei dati.
 
-## Modificare le etichette della privacy
+## Modificare le etichette della privacy {#edit}
 
 Fai riferimento a [Assegnare o modificare le etichette di privacy della suite di rapporti](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).

@@ -3,10 +3,10 @@ description: Comprendi gli ID acquisiti nei dati di Analytics e decidi quale uti
 title: Tecniche di etichettatura consigliate
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '2698'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Ricorda che l’etichettatura deve essere rivista ogni volta che viene creata una nuova suite di rapporti o quando viene abilitata una nuova variabile all’interno di una suite di rapporti. Potrebbe essere necessario rivedere l&#39;etichettatura anche quando vengono abilitate nuove integrazioni della soluzione, perché queste potrebbero esporre nuove variabili che potrebbero richiedere le etichette. Una nuova implementazione delle app mobili o dei siti Web potrebbe cambiare il modo in cui vengono usate le variabili esistenti. Anche per queste potrebbe essere necessario aggiornare le etichette.
+>Ricorda che l’etichettatura deve essere rivista ogni volta che viene creata una nuova suite di rapporti o quando viene abilitata una nuova variabile all’interno di una suite di rapporti. Potrebbe essere necessario rivedere l&#39;etichettatura anche quando vengono abilitate nuove integrazioni della soluzione, perché queste potrebbero esporre nuove variabili che potrebbero richiedere le etichette. Una nuova implementazione delle app mobili o dei siti web potrebbe cambiare il modo in cui vengono usate le variabili esistenti. Anche per queste potrebbe essere necessario aggiornare le etichette.
 
-## ID direttamente e indirettamente identificabili {#section_030799AA1397433FBA61A2BC60A7A750}
+## ID direttamente o indirettamente identificabili {#direct-vs-indirect}
 
 Prima di capire quali etichette applicare a determinate variabili o campi, è necessario conoscere gli ID che vengono acquisiti nei dati di Analytics e decidere quali usare per le richieste di Privacy dei dati. La Privacy dei dati espande l’ambito di definizione di ID. Gli ID rientrano in due grandi classi: direttamente identificabili (etichetta di identità: I1) e indirettamente identificabili (etichetta di identità: I2).
 
@@ -32,7 +32,7 @@ Anche se l’azienda raccoglie molti ID diversi nei dati di Analytics, puoi sceg
 * Alcuni ID possono corrispondere a più persone e non è consigliabile rischiare di restituire informazioni su una persona a un&#39;altra persona con lo stesso ID. Ad esempio, anche se puoi verificare che il nome di una persona è Mario Rossi, non è consigliabile restituire tutti i dati su tutti i Mario Rossi nel tuo sistema.
 * Un altro esempio è l&#39;ID di un dispositivo, ad esempio l&#39;ID cookie di Analytics. Se l&#39;ID si presenta in un&#39;app per cellulare, puoi decidere che tutte le interazioni che usano quell&#39;ID debbano essere disponibili per il proprietario del cellulare. Tuttavia se questo si verifica su un dispositivo condiviso, ad esempio un computer usato in casa, di una biblioteca o di un Internet café, non puoi distinguere i vari utenti del dispositivo e il rischio di restituire i dati a un utente diverso è troppo elevato per poter usare questo tipo di ID.
 
-## Tecniche consigliate per gli ID supportati da Analytics {#section_B6481505FF1949498D4B4B35B780D050}
+## Tecniche consigliate per gli ID supportati da Analytics {#best-practices-an}
 
 Usa questa tabella per determinare i tipi di ID che userai durante l’invio delle richieste di Privacy dei dati ad Analytics. Una volta appresa questa informazione, sarà più facile determinare le altre etichette da usare per le variabili.
 
@@ -68,7 +68,7 @@ Usa questa tabella per determinare i tipi di ID che userai durante l’invio del
  </tbody> 
 </table>
 
-## Tecniche consigliate per l’impostazione delle etichette di cancellazione {#section_08166C99B48E49218392FAC18922C10E}
+## Tecniche consigliate per l’impostazione delle etichette di cancellazione {#best-practices-delete}
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ Le etichette di cancellazione DEL-DEVICE e DEL-PERSON devono essere usate con mo
 
    Ad esempio, se tre risultati contengono il valore “foo” in eVar7, ma solo uno di essi contiene anche un ID in una variabile diversa che corrisponde a una cancellazione, il valore “foo” in quei risultati verrà modificato in un valore simile a “Privacy dei dati-123456789”, mentre rimarrà invariato negli altri due risultati. Un rapporto che mostra il numero di valori univoci per eVar7 mostrerà ora anche un altro valore univoco. Un rapporto che mostra i valori più importanti per eVars può includere il valore “foo” con due sole istanze (invece delle 3 precedenti). Anche il nuovo valore verrà visualizzato con una sola istanza.
 
-## Tecniche consigliate per l&#39;impostazione delle etichette di accesso {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Tecniche consigliate per l’impostazione delle etichette di accesso {#best-practices-access}
 
 Sebbene pochissimi campi avranno un’etichetta diversa, in molti campi spesso saranno presenti le etichette ACC. Il tipo di etichetta di accesso adeguato dipende dagli ID usati per le richieste di Privacy dei dati.
 

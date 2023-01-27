@@ -3,7 +3,7 @@ description: Esempi di etichette sulla privacy dei dati per variabili Adobe Anal
 title: Etichette Privacy dei dati per le variabili di Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '3673'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Etichette Privacy dei dati per le variabili di Analytics
 
-## Perché etichettare i tuoi dati? {#why-label}
+## Perché etichettare i dati? {#why-label}
 
 Molti clienti Adobe dispongono di team legali che hanno rivisto le normative sulla Privacy dei dati (RGPD, CCPA, ecc.). Questi team possono aver tratto le proprie conclusioni sul modo in cui i dati devono essere gestiti per conformarsi alle normative sulla Privacy dei dati. Le interpretazioni giuridiche possono essere diverse in base alle aziende e anche le impostazioni di gestione dei dati desiderate possono differire tra i clienti. Poiché i clienti hanno preferenze diverse per quanto riguarda il trattamento dei dati in termini di privacy e diversi set di dati, in Adobe i clienti, in qualità di titolari dei dati, possono personalizzare le impostazioni desiderate per il trattamento dei propri dati specifici in base alla Privacy dei dati. Questo consente a ogni singolo cliente di elaborare le richieste di Privacy dei dati nella maniera più adatta al proprio marchio e al proprio specifico set di dati.
 
