@@ -3,10 +3,10 @@ description: Domande frequenti sulla governance dei dati in Adobe Analytics
 title: Domande frequenti sulla governance dei dati
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 82c69131fcc5a22795e44ed97246240aec31f4d9
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,6 +49,20 @@ Lo strumento per la governance dei dati contiene le seguenti etichette per i dat
 * Etichette per i dati Privacy dei dati:  vengono usate per definire i campi che possono contenere gli identificatori personali da usare nelle richieste relative alla Privacy dei dati o che possono essere rimosse come parte di una richiesta di cancellazione nell’ambito della Privacy dei dati. In alcuni casi queste etichette possono sovrapporsi alle etichette per l’identità e per i dati sensibili.
 
 Per altre informazioni sulle etichette per la governance dei dati, vedi [ Etichette Privacy dei dati per le variabili di Analytics](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
+
++++
+
++++ **Come posso verificare che le richieste del servizio privacy funzionino correttamente per eliminare i dati da Adobe Analytics?**
+
+In genere, i clienti di Analytics impostano alcune suite di rapporti di prova per verificare la funzionalità prima che venga rilasciata al pubblico in generale. I siti web o le applicazioni in preproduzione invieranno dati in queste suite di rapporti test/dev/QA per valutare come funzionano quando viene rilasciato il codice prima che il traffico vero e proprio venga inviato alle suite di rapporti di produzione.
+
+Tuttavia, con una normale configurazione, l’elaborazione delle richieste RGDP non può essere verificata inizialmente su queste suite di rapporti di prova, prima di applicare le richieste alle suite di rapporti di produzione. Il motivo è che una richiesta di Privacy dei dati viene applicata automaticamente a tutte le suite di rapporti nell’organizzazione Experience Cloud, che spesso sono tutte le suite di rapporti per l’azienda.
+
+Sono disponibili alcuni modi per verificare l’elaborazione Privacy dei dati prima di applicarla a tutte le suite di rapporti:
+
+* Un’opzione consiste nell’impostare un’organizzazione Experience Cloud diversa che contiene solo suite di rapporti di prova. Quindi si utilizza questa organizzazione Experience Cloud per il test Privacy dei dati e la normale organizzazione Experience Cloud per l’elaborazione effettiva Privacy dei dati.
+
+* Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione. Ad esempio, puoi usare il prefisso “qa-” per ogni namespace nelle suite di rapporti di prova. Quando si inviano richieste di Privacy dei dati con solo namespace con il prefisso qa, queste richieste verranno eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l’approccio consigliato, a meno che non si utilizzino i namespace visitorId, AAID, ECID o customVisitorId. Questi namespace sono codificati e non è possibile specificarne nomi alternativi nelle suite di rapporti di prova.**
 
 +++
 
