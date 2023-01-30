@@ -3,9 +3,9 @@ description: Gli ID che invii non sempre comprendono tutti i dati dei risultati 
 title: Espansione dell’ID
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '1355'
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+workflow-type: tm+mt
+source-wordcount: '1338'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Gli ID che invii non sempre comprendono tutti i dati dei risultati che Analytics
 "expandIds": true
 ```
 
-Per un esempio su come includere questa opzione nella richiesta, consultare [Esempio di richiesta JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request). Per altre informazioni consulta la [documentazione sulle API del servizio Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it).
+Per altre informazioni consulta la [documentazione sulle API del servizio Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
