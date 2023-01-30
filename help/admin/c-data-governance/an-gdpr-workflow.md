@@ -3,10 +3,10 @@ description: Illustra i passaggi necessari per abilitare l’implementazione di 
 title: Flusso di lavoro per la privacy
 feature: Privacy
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
-source-git-commit: ac496016c2f4ac7841518d2d53a015e958538f45
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Questo flusso di lavoro delinea la procedura da seguire per preparare l’implem
 
 1. Inizia con [Panoramica di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) in Adobe Experience Platform per avere un&#39;idea di quali domande porre prima di etichettare i dati di Analytics.
 1. **Imposta i criteri di conservazione dei dati.** Affinché Adobe possa soddisfare le richieste di accesso o cancellazione dei dati in Data Privacy, è necessario un criterio di conservazione dei dati. Per altre informazioni consulta le [Domande frequenti sulla conservazione dei dati](/help/technotes/data-retention.md). Per utilizzare l’API Privacy Service, è necessario assicurarsi che il periodo di conservazione dei dati sia impostato in Adobe Analytics.
-1. **Acquisisci familiarità con le etichette DULE/Privacy dei dati, gli ID di Adobe Analytics, i namespace e l’espansione dell’ID.** Consulta [Etichette di Privacy dei dati per le variabili di Analytics](/help/admin/c-data-governance/data-labeling/gdpr-labels.md) e [Tecniche di etichettatura consigliate](/help/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md).
+1. **Acquisisci familiarità con le etichette Privacy dei dati, gli ID di Adobe Analytics, i namespace e l’espansione dell’ID.** Consulta [Etichette di Privacy dei dati per le variabili di Analytics](/help/admin/c-data-governance/data-labeling/gdpr-labels.md) e [Tecniche di etichettatura consigliate](/help/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md).
 1. **Assegna etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una suite di rapporti.** L’etichettatura deve essere rivista ogni volta che viene creata una nuova suite di rapporti o quando viene abilitata una nuova variabile all’interno di una suite di rapporti. Rivedi l’etichettatura anche quando vengono abilitate nuove integrazioni della soluzione, perché queste potrebbero esporre nuove variabili che neccessitano di etichette. Una nuova implementazione delle app mobili o dei siti web potrebbe cambiare il modo in cui vengono usate le variabili esistenti. Anche per queste potrebbe essere necessario aggiornare le etichette. Consulta [Etichettare i dati della suite di rapporti](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).
 1. **Collegati all’API Privacy dei dati di Adobe e invia le richieste di accesso e cancellazione.** In qualità di cliente di Adobe Analytics, puoi inviare singole richieste di privacy dei dati per accedere ai dati di un cliente e cancellarli, richiamando l’[API Privacy Service di Adobe Experience](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it). Nelle richieste puoi inviare qualsiasi identificatore di Analytics (come descritto nella sezione [Tecniche di etichettatura consigliate](/help/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)) insieme ai rispettivi ID dei namespace (ID dell’origine dati).
 1. **Visualizza e gestisci le impostazioni di Privacy dei dati della suite di rapporti.** Consulta [Visualizzare le impostazioni di governance dei dati della suite di rapporti](/help/admin/c-data-governance/data-labeling/gdpr-view-settings.md).
