@@ -2,10 +2,10 @@
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
+source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 73%
+source-wordcount: '1248'
+ht-degree: 72%
 
 ---
 
@@ -63,7 +63,7 @@ Al momento non è possibile. È possibile scegliere di raccogliere tutti gli hin
 
 La tabella seguente descrive gli hint client da ottobre 2022.
 
-| Hint | Descrizione | Alta o bassa entropia | Esempio |
+| Hint* | Descrizione | Alta o bassa entropia | Esempio |
 | --- | --- | --- | --- | 
 | Sec-CH-UA | Browser e versione rilevante | Bassa | &quot;Google Chrome 84&quot; |
 | Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Bassa | TRUE |
@@ -75,7 +75,11 @@ La tabella seguente descrive gli hint client da ottobre 2022.
 | Sec-CH-UA-Model | Modello dispositivo | Alta | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Versione del sistema operativo/piattaforma | Alta | &quot;10&quot; |
 
-Gli hint di entropia elevata vengono raccolti tramite una chiamata JavaScript e trasmessi tramite il parametro di query
+
+* I suggerimenti entropici bassi vengono raccolti tramite intestazione. Gli hint di entropia elevata vengono raccolti tramite JavaScript e trasmessi nei parametri della stringa di query.
+
+* Gli hint di entropia elevata vengono raccolti tramite chiamata JavaScript e trasmessi tramite parametro di query
+
 
 +++
 
