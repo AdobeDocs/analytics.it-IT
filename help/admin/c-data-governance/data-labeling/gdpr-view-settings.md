@@ -3,9 +3,9 @@ description: La finestra di dialogo Etichettatura privacy per governance dei dat
 title: Visualizzare/gestire le etichette sulla privacy per la governance dei dati
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '874'
 ht-degree: 45%
 
 ---
@@ -45,7 +45,7 @@ La **[!UICONTROL Privacy Labeling for Data Governance]** fornisce una panoramica
 
 ## Copiare le etichette di privacy in una suite di rapporti  {#copy-to-rs}
 
-Se desideri applicare le stesse impostazioni DULE/Privacy dei dati a più di una suite di rapporti, segui questi passaggi:
+Se desideri applicare le stesse impostazioni Privacy dei dati a più di una suite di rapporti, segui questi passaggi:
 
 1. Seleziona la variabile da copiare. Puoi copiare le etichette solo per una variabile alla volta.
 1. Fai clic su **[!UICONTROL Copy to Report Suite(s)]** nella parte inferiore della finestra di dialogo Governance dei dati.
