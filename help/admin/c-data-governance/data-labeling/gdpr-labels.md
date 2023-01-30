@@ -3,10 +3,10 @@ description: Esempi di etichette sulla privacy dei dati per variabili Adobe Anal
 title: Etichette Privacy dei dati per le variabili di Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '3673'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,13 +22,7 @@ Prima di capire quali etichette applicare a determinate variabili o campi, è ne
 
 L’implementazione Privacy dei dati in Adobe Analytics supporta le seguenti etichette per i dati di identità, i dati sensibili e la governance dei dati.
 
-## Etichette DULE {#dule-labels}
-
->[!NOTE]
->
->Il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione dell’uso dei dati) è progettato per fornire un metodo uniforme per tutte le soluzioni, i servizi e le piattaforme di Adobe al fine di acquisire, comunicare e usare i metadati sui dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, dati sensibili e vincoli di contratto associati a questi. In questa versione iniziale Analytics espone solo le etichette DULE pertinenti alla Privacy dei dati. Poiché altri prodotti Adobe implementano il supporto per le etichette DULE, le versioni future introdurranno altre etichette per i dati sensibili, nonché etichette contrattuali che garantiranno che i dati condivisi tra i prodotti verranno usati solo nei modi consentiti dalla legge.
-
-## Etichette per i dati di identità (DULE) {#identity-data-labels}
+## Etichette per i dati di identità {#identity-data-labels}
 
 Le etichette “I” per i dati di identità sono usate per organizzare in categorie i dati che possono identificare o consentono di contattare una persona specifica.
 
@@ -39,7 +33,7 @@ Le etichette “I” per i dati di identità sono usate per organizzare in categ
 
 {style=&quot;table-layout:auto&quot;}
 
-## Etichette per i dati sensibili (DULE) {#sensitive-data-labels}
+## Etichette per i dati sensibili {#sensitive-data-labels}
 
 Le etichette “S” per i dati sensibili vengono usate per organizzare in categorie i dati sensibili, come i dati geografici. Per identificare altri tipi di informazioni riservate, verranno introdotte etichette di dati riservati aggiuntive.
 
@@ -133,9 +127,9 @@ Un altro esempio: è possibile che CRM-ID venga inviato a volte tramite eVar1, a
 >
 >I namespace “visitorId” e “customVisitorId” sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi spazi dei nomi per le variabili di traffico o conversione personalizzate.
 
-## Tipi di variabili ed etichette Privacy dei dati/DULE supportate {#variable-types}
+## Tipi di variabili ed etichette Privacy dei dati supportate {#variable-types}
 
-Le etichette Privacy dei dati/DULE riguardano quattro grandi classi di variabili di Analytics. Le diverse etichette non sono supportate da tutte le variabili. Questa tabella mostra le variabili e le relative etichette supportate da ognuna di esse.
+L’etichettatura relativa alla Privacy dei dati riguarda quattro grandi classi di variabili di Analytics. Le diverse etichette non sono supportate da tutte le variabili. Questa tabella mostra le variabili e le relative etichette supportate da ognuna di esse.
 
 | Tipo di variabile | Etichette supportate | Etichette non supportate |
 |--- |--- |--- |
