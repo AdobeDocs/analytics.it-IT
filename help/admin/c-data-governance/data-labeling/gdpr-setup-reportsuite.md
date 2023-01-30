@@ -3,10 +3,10 @@ description: Etichettare i dati della suite di rapporti significa assegnare etic
 title: Etichettare i dati della suite di rapporti
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 51%
+source-wordcount: '524'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
 ## Assegnare o modificare le etichette di privacy della suite di rapporti {#assign-edit}
 
-**Esempio**: in qualità di titolare del trattamento dei dati, pianifica di raccogliere gli indirizzi e-mail e gli ID cookie delle persone interessate per elaborare le loro richieste di Privacy dei dati. Gli ID cookie vengono archiviati in una suite di rapporti in Adobe Analytics. Per creare un’etichetta per gli indirizzi e-mail e gli ID cookie, devi utilizzare il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione dell’uso dei dati) di Adobe Experience Cloud Platform in Analytics.
+**Esempio**: in qualità di titolare del trattamento dei dati, pianifica di raccogliere gli indirizzi e-mail e gli ID cookie delle persone interessate per elaborare le loro richieste di Privacy dei dati. Gli ID cookie vengono archiviati in una suite di rapporti in Adobe Analytics.
 
 1. In Adobe Analytics, passa a **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Data governance]**.
 
@@ -48,10 +48,6 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
    Questa schermata mostra le etichette attualmente applicate e consente di applicare etichette aggiuntive. A seconda del componente, potrebbe non essere possibile applicare o modificare tutte le etichette.
 
    ![Etichette applicate](assets/edit-labels2.png)
-
-   >[!NOTE]
-   >
-   >Il framework DULE (Data Usage Labeling &amp; Enforcement, etichettatura e applicazione dell’uso dei dati) è progettato per fornire un metodo uniforme per soluzioni/servizi/piattaforme al fine di acquisire, comunicare e usare i metadati sui dati in Adobe Experience Cloud. I metadati consentono ai titolari del trattamento di indicare i dati che si riferiscono a informazioni personali, dati sensibili e vincoli di contratto associati a questi.
 
 1. Dopo aver completato l’etichettatura, fai clic su **[!UICONTROL Apply]**.
 
