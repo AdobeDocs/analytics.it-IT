@@ -1,13 +1,13 @@
 ---
-description: Video sull’impaginazione, il filtraggio e l’ordinamento.
-title: Paginazione, filtri e ordinamento di tabelle
+description: Documentazione che descrive come filtrare e ordinare le tabelle in Analysis Workspace.
+title: Filtrare e ordinare tabelle
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
+source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 3%
+source-wordcount: '653'
+ht-degree: 1%
 
 ---
 
@@ -46,7 +46,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 ## Ordinare le tabelle
 
-Puoi ordinare i dati di una tabella a forma libera in base a una qualsiasi delle colonne disponibili in Analysis Workspace.
+Puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna di Analysis Workspace che sia una metrica.
 
 Icona a freccia giù ![Icona a freccia in giù, colonna della tabella ordinata](assets/table-sort-arrow-icon.png) è visibile nell’intestazione della colonna in base alla quale i dati vengono ordinati.
 
