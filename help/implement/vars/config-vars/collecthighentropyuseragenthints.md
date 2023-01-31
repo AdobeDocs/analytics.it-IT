@@ -2,10 +2,10 @@
 title: collectHighEntropyUserAgentHints
 description: Utilizza la variabile collectHighEntropyUserAgentHints per determinare se Adobe richiederà suggerimenti entropici elevati dai browser Chromium (ad esempio Google Chrome e Microsoft Edge).
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-source-git-commit: 61d5006a20f13ab5aec9e1b63f4197e9a9c98429
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 95%
+ht-degree: 80%
 
 ---
 
@@ -31,10 +31,10 @@ Gli hint client ad alta entropia fanno parte delle categorie di contesto in SDK 
 
 ## collectHighEntropyUserAgentHints in AppMeasurement
 
-La variabile `s.collectHighEntropyUserAgentHints` determina se AppMeasurement richiede hint ad alta entropia dai browser Chromium (ad esempio, Google Chrome e Microsoft Edge). Questi suggerimenti vengono utilizzati da Adobe Analytics per migliorare l’identificazione del dispositivo e del browser.
+La `s.collectHighEntropyUserAgentHints` La variabile determina se AppMeasurement richiede hint ad alta entropia dai browser Chromium (ad esempio, Google Chrome o Microsoft Edge). Questi suggerimenti vengono utilizzati da Adobe Analytics per migliorare l’identificazione del dispositivo e del browser.
 
-Se impostato su TRUE, tutti i suggerimenti entropici elevati verranno richiesti dal browser.
+Se impostato su `true`, tutti i suggerimenti entropici elevati saranno richiesti dal browser.
 
-`s.collectHighEntropyUserAgentHints = true`
-
-`s.collectHighEntropyUserAgentHints = false`
+```js
+s.collectHighEntropyUserAgentHints = true;
+```

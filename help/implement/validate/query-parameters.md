@@ -3,9 +3,9 @@ title: Parametri query della raccolta dati
 description: Elenca tutti i parametri della stringa di query utilizzati nelle richieste di immagini.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '718'
 ht-degree: 7%
 
 ---
@@ -41,6 +41,7 @@ Nella tabella seguente sono elencati tutti i parametri della stringa di query ut
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | Gli URL di lunghezza superiore a 255 byte vengono suddivisi. I primi 255 byte vengono visualizzati nel `g` e tutti i byte rimanenti appaiono nel `-g` parametro . |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Pantaloncino per `pageName` stringa di interrogazione. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Pantaloncino per `pageType` stringa di interrogazione. |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Prefisso per diverse variabili che rappresentano [Suggerimenti client](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Dimensioni gerarchiche. |
 | `hp` | Nessuno | Non più utilizzato. Nelle versioni precedenti di Adobe Analytics, veniva determinato se l’URL corrente era la home page del browser. |
 | `j` | Nessuno | Versione JavaScript installata nel browser. |

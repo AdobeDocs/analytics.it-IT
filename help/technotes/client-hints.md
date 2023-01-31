@@ -2,10 +2,10 @@
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 72%
+source-wordcount: '1232'
+ht-degree: 71%
 
 ---
 
@@ -63,23 +63,20 @@ Al momento non è possibile. È possibile scegliere di raccogliere tutti gli hin
 
 La tabella seguente descrive gli hint client da ottobre 2022.
 
-| Hint* | Descrizione | Alta o bassa entropia | Esempio |
+| Hint | Descrizione | Alta o bassa entropia | Esempio |
 | --- | --- | --- | --- | 
-| Sec-CH-UA | Browser e versione rilevante | Bassa | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Bassa | TRUE |
-| Sec-CH-UA-Platform | Sistema operativo/piattaforma | Bassa | &quot;Android&quot; |
-| Sec-CH-UA-Arch | Architettura del sito | Alta | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | Numero di bit dell’architettura | Alta | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | Versione completa del browser | Alta | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | Elenco dei marchi e versione | Alta | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | Modello dispositivo | Alta | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | Versione del sistema operativo/piattaforma | Alta | &quot;10&quot; |
+| Sec-CH-UA | Browser e versione rilevante | Bassa | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Bassa | `true` |
+| Sec-CH-UA-Platform | Sistema operativo/piattaforma | Bassa | `"Android"` |
+| Sec-CH-UA-Arch | Architettura del sito | Alta | `"arm"` |
+| Sec-CH-UA-Bitness | Numero di bit dell’architettura | Alta | `"64"` |
+| Sec-CH-UA-Full-Version | Versione completa del browser | Alta | `"84.0.4143.2"` |
+| Sec-CH-UA-Full-Version-List | Elenco dei marchi e versione | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| Sec-CH-UA-Model | Modello dispositivo | Alta | `"Pixel 3"` |
+| Sec-CH-UA-Platform-Version | Versione del sistema operativo/piattaforma | Alta | `"10"` |
 
-
-* I suggerimenti entropici bassi vengono raccolti tramite intestazione. Gli hint di entropia elevata vengono raccolti tramite JavaScript e trasmessi nei parametri della stringa di query.
-
-* Gli hint di entropia elevata vengono raccolti tramite chiamata JavaScript e trasmessi tramite parametro di query
-
+* I suggerimenti per entropia bassa vengono raccolti tramite l’intestazione della richiesta.
+* I suggerimenti ad alta entropia vengono raccolti tramite JavaScript e trasmessi attraverso i valori dei parametri delle stringhe di query. I parametri della stringa di query utilizzano `h.` come prefisso nella richiesta di immagine.
 
 +++
 
