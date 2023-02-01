@@ -4,8 +4,8 @@ description: Scopri come implementare Adobe Analytics utilizzando JavaScript sen
 feature: Implementation Basics
 source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
