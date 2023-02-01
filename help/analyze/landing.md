@@ -4,7 +4,7 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
+source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
 source-wordcount: '3800'
 ht-degree: 74%
@@ -195,7 +195,7 @@ Altre opzioni di apprendimento:
 
 ### Gestione dei rapporti aziendali {#manage-company-reports}
 
-Gli amministratori possono filtrare l’elenco dei progetti per visualizzare e gestire i rapporti aziendali. Gli elementi bloccati rimangono bloccati seguito dall&#39;elenco dei rapporti aziendali identificati dai ![icona rapporto](assets/report-icon.png) icona del report. In questa visualizzazione è possibile eliminare, rinominare, assegnare tag o approvare uno o più rapporti.
+Gli amministratori possono filtrare l’elenco dei progetti per visualizzare e gestire i rapporti aziendali. Gli elementi bloccati rimangono bloccati seguito dall&#39;elenco dei rapporti aziendali identificati dai ![icona rapporto](assets/report-icon.png) icona rapporto . In questa visualizzazione è possibile eliminare, rinominare, assegnare tag o approvare uno o più rapporti.
 
 Visualizzazione e gestione dei rapporti aziendali
 

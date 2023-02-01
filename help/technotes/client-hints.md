@@ -2,10 +2,10 @@
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1245'
+ht-degree: 70%
 
 ---
 
@@ -77,6 +77,8 @@ La tabella seguente descrive gli hint client da ottobre 2022.
 
 * I suggerimenti per entropia bassa vengono raccolti tramite l’intestazione della richiesta.
 * I suggerimenti ad alta entropia vengono raccolti tramite JavaScript e trasmessi attraverso i valori dei parametri delle stringhe di query. I parametri della stringa di query utilizzano `h.` come prefisso nella richiesta di immagine.
+
+Gli hint di entropia elevata vengono raccolti tramite una chiamata JavaScript e trasmessi tramite il parametro di query
 
 +++
 

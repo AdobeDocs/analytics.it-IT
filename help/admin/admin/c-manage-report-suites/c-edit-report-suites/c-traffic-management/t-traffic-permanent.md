@@ -3,18 +3,20 @@ description: Le sezioni Traffico permanente consentono di modificare i livelli d
 title: Specificare aumento traffico permanente
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '149'
 ht-degree: 18%
 
 ---
 
 # Specificare aumento traffico permanente
 
-Le sezioni Traffico permanente consentono di modificare i livelli di traffico previsti in modo che l’Adobe possa riassegnare le risorse per gestire il nuovo livello di traffico.
+È possibile modificare i livelli di traffico previsti in modo che l’Adobe possa riassegnare le risorse per gestire il nuovo livello di traffico. In alternativa, è possibile [pianificare un picco di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) se si desidera riassegnare temporaneamente le risorse).
 
-Leggi le informazioni [Lead time necessario per gli aumenti di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md) prima di specificare un aumento permanente del traffico.
+{{$include /help/_includes/traffic-lead-time.md}}
+
+## Specificare un aumento del traffico permanente
 
 1. Apri Report Suite Manager facendo clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**.
 1. Seleziona una suite di rapporti.

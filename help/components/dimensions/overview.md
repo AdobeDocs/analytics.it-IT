@@ -3,10 +3,10 @@ title: Panoramica delle dimensioni
 description: Variabili che contengono valori stringa.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 3%
+source-wordcount: '144'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,4 @@ Ogni dimensione rappresenta una parte o un volto diverso del sito. Puoi combinar
 
 ## Aggiungi descrizioni delle dimensioni
 
-Ecco un video che descrive come aggiungere descrizioni di dimensioni (e metriche) in Adobe Analytics:
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Gli amministratori di Analytics possono aggiungere descrizioni per dimensioni e altri componenti sia all’interno della suite di rapporti che direttamente in Analysis Workspace. Per informazioni su come aggiungere descrizioni alle dimensioni, consulta [Aggiungi descrizioni dei componenti](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

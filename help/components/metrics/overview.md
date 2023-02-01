@@ -3,9 +3,9 @@ title: Panoramica delle metriche
 description: Visualizza quantità di elementi dimensionali o dati nel tempo.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '185'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,4 @@ Se non riesci a trovare una determinata pagina di aiuto metrica, è probabile ch
 
 ## Aggiungi descrizioni metriche
 
-Ecco un video che descrive come aggiungere descrizioni di metriche (e dimensioni) in Adobe Analytics:
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Gli amministratori di Analytics possono aggiungere descrizioni per metriche e altri componenti sia all’interno della suite di rapporti che direttamente in Analysis Workspace. Per informazioni su come aggiungere descrizioni alle metriche, consulta [Aggiungi descrizioni dei componenti](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

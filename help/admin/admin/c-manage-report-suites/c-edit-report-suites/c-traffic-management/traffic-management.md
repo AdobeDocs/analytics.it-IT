@@ -3,14 +3,14 @@ description: La pagina Gestione del traffico consente di specificare le modifich
 title: Gestione del traffico
 feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: ht
-source-wordcount: '79'
-ht-degree: 100%
+source-git-commit: c13e39e7bfe3d7fef07ea9ccda76255d28dde1c3
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 96%
 
 ---
 
-# Gestione del traffico
+# Panoramica sulla gestione del traffico
 
 La pagina Gestione del traffico consente di specificare le modifiche previste per il volume di traffico. Queste impostazioni consentono ad Adobe di allocare le risorse appropriate per garantire che il traffico possa essere monitorato ed elaborato in modo tempestivo.
 

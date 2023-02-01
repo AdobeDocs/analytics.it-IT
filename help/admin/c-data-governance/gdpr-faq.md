@@ -3,7 +3,7 @@ description: Domande frequenti sulla governance dei dati in Adobe Analytics
 title: Domande frequenti sulla governance dei dati
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 87%
@@ -119,7 +119,6 @@ La [API di Data Privacy Service](https://developer.adobe.com/experience-platform
 Contatta il tuo Account Manager (CSM) per coordinarti con il nostro team di consulenza ingegneristico al fine di eseguire un’ulteriore esame e rimuovere eventuali problemi di PII o dati.
 
 +++
-
 
 Ulteriori risorse sulla Privacy dei dati:
 
