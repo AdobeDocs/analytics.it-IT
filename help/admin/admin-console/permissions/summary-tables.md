@@ -3,14 +3,14 @@ title: Autorizzazioni Adobe Analytics - tabelle di riepilogo
 description: Tabelle che riepilogano le autorizzazioni Adobe Analytics disponibili in Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 96%
+source-wordcount: '1280'
+ht-degree: 95%
 
 ---
 
-# Autorizzazioni Adobe Analytics - tabelle di riepilogo
+# Autorizzazioni di Analytics nell’Admin Console
 
 Utilizza le tabelle di riepilogo seguenti per identificare le autorizzazioni di Adobe Analytics in Adobe Admin Console, per raggruppamenti logici.
 

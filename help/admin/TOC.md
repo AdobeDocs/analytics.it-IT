@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 96%
+source-wordcount: '634'
+ht-degree: 95%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 96%
 + [Guida dell’amministratore di Analytics](home.md)
 + [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
 + Admin Console di Adobe {#admin-console}
-   + [Analytics in Adobe Admin Console](admin-console/home.md)
+   + [Panoramica](admin-console/home.md)
    + [Prima guida dell’amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
    + [Ruoli di amministratore in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-   + Autorizzazioni {#permissions}
+   + Riepilogo delle autorizzazioni degli strumenti di Analytics {#permissions}
       + [Autorizzazioni di Analytics in Admin Console](admin-console/permissions/summary-tables.md)
       + [Profili di prodotto per Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Autorizzazioni del profilo di prodotto per gli strumenti Report Suite](admin-console/permissions/report-suite-tools.md)
@@ -156,7 +156,6 @@ ht-degree: 96%
       + [Co-branding](admin/company/co-branding-admin.md)
       + [Nascondere le suite di rapporti](admin/company/c-hide-report-suites.md)
       + [Security Manager](admin/company/security-manager.md)
-   + [Menu dei rapporti semplificati](admin/t-simplified-menu.md)
    + [Gestione video](admin/video-management.md)
    + Utilizzo delle chiamate server {#server-call-usage}
       + [Guida per il primo amministratore di Adobe Analytics](admin/c-server-call-usage/overage-overview.md)
