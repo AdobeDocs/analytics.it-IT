@@ -1,38 +1,32 @@
 ---
-title: Implementare Adobe Analytics con i tag in Adobe Experience Platform
-description: Scopri come implementare Adobe Analytics utilizzando i tag
+title: Implementare Adobe Analytics utilizzando l’estensione Analytics
+description: Scopri come implementare Adobe Analytics utilizzando tag ed estensione Analytics
 feature: Launch Implementation
-exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 472faef9c6ef99d4e58f2f5a9a71ca8d058f0ee2
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 5%
+source-wordcount: '358'
+ht-degree: 10%
 
 ---
 
-# Implementare Adobe Analytics con i tag in Adobe Experience Platform
+# Implementare Adobe Analytics utilizzando l’estensione Analytics
 
 Nel corso della vita di Adobe Analytics, Adobe ha offerto diversi metodi per implementare il codice sul sito per la raccolta dei dati. Il metodo attualmente consigliato da Adobe è tramite i tag in Adobe Experience Platform.
 
-I tag in Adobe Experience Platform è una soluzione di gestione tag che consente di distribuire il codice Analytics insieme ad altri requisiti di assegnazione tag. Adobe offre integrazioni con altre soluzioni e prodotti e consente di distribuire codice personalizzato. Tutte queste attività possono essere eseguite senza affidarsi ad alcun team di sviluppo dell’organizzazione per aggiornare il codice sul sito.
+Tag in Adobe Experience Platform è una soluzione di gestione dei tag che consente di distribuire il codice Analytics insieme ad altri requisiti di assegnazione tag. Adobe offre integrazioni con altre soluzioni e prodotti e consente di distribuire codice personalizzato. Tutte queste attività possono essere eseguite senza affidarsi ad alcun team di sviluppo dell’organizzazione per aggiornare il codice sul sito.
 
 Tutti i clienti con un contratto Adobe Experience Cloud attivo possono utilizzare i tag . Se non sei sicuro di avere accesso, contatta uno degli amministratori di sistema di Experience Cloud della tua organizzazione.
 
-## Flusso di lavoro globale
+Panoramica di alto livello delle attività di implementazione:
 
-Per ottenere un&#39;implementazione in esecuzione utilizzando i tag, procedi come segue:
+![Adobe Analytics tramite il flusso di lavoro dell’estensione Analytics](../assets/analytics-extension-annotated.png)
 
-1. **Accesso ai tag**: Puoi ottenere l’accesso ai tag Platform tramite un amministratore di sistema nella tua organizzazione.
-2. **Creare una proprietà tag**: Le proprietà sono contenitori sovrapposti utilizzati per fare riferimento ai dati di gestione dei tag.
-3. **Distribuire in un ambiente di sviluppo**: Avere un ambiente in cui è possibile eseguire iterazioni sullo sviluppo dei tag.
-4. **Convalidare e pubblicare in produzione**: Assicurati che tutto funzioni, quindi pubblicalo in diretta.
-
-Vedi [Creare una proprietà tag di Analytics](create-analytics-property.md) per iniziare.
+| | Attività | Ulteriori informazioni | |-| —|—| | 1 | Assicurati di avere **definizione di una suite di rapporti**. | [Report Suite Manager](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Creare un livello di dati** per gestire il tracciamento dei dati sul sito web. | [Creare un livello di dati](../prepare/data-layer.md) | | 3 | **Creare una proprietà tag**. Le proprietà sono contenitori sovrapposti utilizzati per fare riferimento ai dati di gestione dei tag.| [Creare una proprietà tag Adobe Analytics](../launch/create-analytics-property.md) | | 4 | **Installare l’estensione Analytics** nella proprietà tag . Configura l’estensione Analytics per l’invio di dati ad Adobe Analytics. | [Panoramica dell&#39;estensione Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **Distribuire in un ambiente di sviluppo**. Avere un ambiente in cui è possibile eseguire iterazioni sullo sviluppo dei tag. | [Distribuire un&#39;implementazione di Analytics in un ambiente di sviluppo](./deploy-dev.md) | | 6 | **Convalidare e pubblicare in produzione**. Aggiungi la proprietà tag al sito Web. Quindi utilizza elementi dati, regole e così via per personalizzare la tua implementazione.| [Convalidare un&#39;implementazione di sviluppo e pubblicare in produzione](./validate-publish-prod.md) |
 
 ## Risorse aggiuntive
 
 I tag possono essere altamente personalizzati. Ulteriori informazioni su come ottenere il massimo da Adobe Analytics includendo i dati giusti nella tua implementazione.
 
-* [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it#): Scopri come funziona l’interfaccia e quali estensioni sono disponibili.
-* [Estensione Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it): Utilizza l’estensione Analytics per inviare dati ad Adobe Analytics.
-* [Variabili di implementazione](../vars/overview.md): Determina le variabili che desideri inviare ai server di raccolta dati.
+- [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it#): Scopri come funziona l’interfaccia e quali estensioni sono disponibili.
+
+- [Variabili di implementazione](../vars/overview.md): Determina le variabili che desideri inviare ai server di raccolta dati.
