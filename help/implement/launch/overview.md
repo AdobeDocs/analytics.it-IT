@@ -2,7 +2,7 @@
 title: Implementare Adobe Analytics utilizzando l’estensione Analytics
 description: Scopri come implementare Adobe Analytics utilizzando tag ed estensione Analytics
 feature: Launch Implementation
-source-git-commit: 472faef9c6ef99d4e58f2f5a9a71ca8d058f0ee2
+source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 10%
@@ -21,7 +21,7 @@ Panoramica di alto livello delle attività di implementazione:
 
 ![Adobe Analytics tramite il flusso di lavoro dell’estensione Analytics](../assets/analytics-extension-annotated.png)
 
-| | Attività | Ulteriori informazioni | |-| —|—| | 1 | Assicurati di avere **definizione di una suite di rapporti**. | [Report Suite Manager](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Creare un livello di dati** per gestire il tracciamento dei dati sul sito web. | [Creare un livello di dati](../prepare/data-layer.md) | | 3 | **Creare una proprietà tag**. Le proprietà sono contenitori sovrapposti utilizzati per fare riferimento ai dati di gestione dei tag.| [Creare una proprietà tag Adobe Analytics](../launch/create-analytics-property.md) | | 4 | **Installare l’estensione Analytics** nella proprietà tag . Configura l’estensione Analytics per l’invio di dati ad Adobe Analytics. | [Panoramica dell&#39;estensione Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **Distribuire in un ambiente di sviluppo**. Avere un ambiente in cui è possibile eseguire iterazioni sullo sviluppo dei tag. | [Distribuire un&#39;implementazione di Analytics in un ambiente di sviluppo](./deploy-dev.md) | | 6 | **Convalidare e pubblicare in produzione**. Aggiungi la proprietà tag al sito Web. Quindi utilizza elementi dati, regole e così via per personalizzare la tua implementazione.| [Convalidare un&#39;implementazione di sviluppo e pubblicare in produzione](./validate-publish-prod.md) |
+|<div style="width:20px"></div>| Attività | Ulteriori informazioni | |-| —|—| | 1 | Assicurati di avere **definizione di una suite di rapporti**. | [Report Suite Manager](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Creare un livello di dati** per gestire il tracciamento dei dati sul sito web. | [Creare un livello di dati](../prepare/data-layer.md) | | 3 | **Creare una proprietà tag**. Le proprietà sono contenitori sovrapposti utilizzati per fare riferimento ai dati di gestione dei tag.| [Creare una proprietà tag Adobe Analytics](../launch/create-analytics-property.md) | | 4 | **Installare l’estensione Analytics** nella proprietà tag . Configura l’estensione Analytics per l’invio di dati ad Adobe Analytics. | [Panoramica dell&#39;estensione Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **Distribuire in un ambiente di sviluppo**. Avere un ambiente in cui è possibile eseguire iterazioni sullo sviluppo dei tag. | [Distribuire un&#39;implementazione di Analytics in un ambiente di sviluppo](./deploy-dev.md) | | 6 | **Convalidare e pubblicare in produzione**. Aggiungi la proprietà tag al sito Web. Quindi utilizza elementi dati, regole e così via per personalizzare la tua implementazione.| [Convalidare un&#39;implementazione di sviluppo e pubblicare in produzione](./validate-publish-prod.md) |
 
 ## Risorse aggiuntive
 
