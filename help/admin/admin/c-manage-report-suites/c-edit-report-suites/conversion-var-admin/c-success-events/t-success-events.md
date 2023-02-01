@@ -3,10 +3,10 @@ description: Passaggi che descrivono come configurare gli eventi di successo.
 title: Configurare eventi di successo
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '187'
-ht-degree: 100%
+source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 78%
 
 ---
 
@@ -32,7 +32,15 @@ Passaggi che descrivono come configurare gli eventi di successo.
 1. Nella colonna **[!UICONTROL Polarity]** specifica se una tendenza verso l’alto per questa metrica è buona o cattiva.
 1. Nella colonna **[!UICONTROL Visibility]** puoi nascondere le metriche standard (integrate), gli eventi personalizzati e gli eventi incorporati in Menu, Selettori metriche, Generatore metriche calcolate e Generatore segmenti.
 
-   Questa impostazione non influisce sulla raccolta dei dati per quella metrica o evento; influisce solo sulla sua visibilità nell’interfaccia utente. [Altro...](/help/admin/admin/metric-visibility.md)
+   Questa impostazione non influisce sulla raccolta dei dati per tale metrica o evento; influisce solo sulla sua visibilità nell’interfaccia utente, come segue:
+
+
+   | Impostazione | Visibile in | Non visibile in |
+   |---------|----------|---------|
+   | [!UICONTROL **Visibile ovunque**] | <ul><li>Reports &amp; Analytics (selettore di menu e metriche)</li><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> | N/D |
+   | [!UICONTROL **Edifici**] | <ul><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> | <ul><li>Reports &amp; Analytics (selettore di menu e metriche)</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Nascosto ovunque**] | N/D | <ul><li>Reports &amp; Analytics (selettore di menu e metriche)</li><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> |
+
 1. Fornisci una descrizione.
 1. Controlla se registrare sempre l’evento.
 1. Abilitare o disabilitare le metriche di partecipazione.
