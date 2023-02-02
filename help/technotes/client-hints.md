@@ -2,10 +2,10 @@
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
+source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 70%
+source-wordcount: '1247'
+ht-degree: 69%
 
 ---
 
@@ -13,27 +13,23 @@ ht-degree: 70%
 
 Gli hint client sono singole informazioni relative al dispositivo di un utente. Sono forniti dai browser basati su Chromium, come ad esempio Google Chrome e Microsoft Edge. Per questi browser, gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo. Adobe Analytics aggiornerà il processo di ricerca di informazioni sui dispositivi in modo da utilizzare, oltre all’agente utente, anche gli hint client per determinare le informazioni sul dispositivo.
 
+## Suggerimenti per client a bassa entropia e alta entropia
+
 Google divide gli hint client dall’agente utente in due categorie: hint a bassa entropia e ad alta entropia.
 
 * Gli **hint a bassa entropia** contengono informazioni più generiche sui dispositivi. Vengono forniti automaticamente dai browser basati su Chromium.
 
 * Gli hint ad **alta entropia** contengono informazioni più dettagliate. Questi sono disponibili solo su richiesta. Le librerie AppMeasurement e Web SDK possono essere configurate per richiedere hint ad alta entropia. Per impostazione predefinita, entrambe le librerie **non** richiedono hint ad alta entropia.
 
->[!NOTE]
->
->I suggerimenti client verranno incorporati nel processo di ricerca dei dispositivi di Analytics a partire dal 16 febbraio 2023. L’SDK per AppMeasurement e Web supporta attualmente la raccolta di dati dei suggerimenti, ma non verrà utilizzato nella ricerca del dispositivo fino a metà febbraio. Come indicato di seguito la versione del sistema operativo è stata congelata a partire da ottobre ma a causa di un rollout graduale e il fatto che molti agenti utente già forniscono una versione del sistema operativo congelato (vedere di più [qui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it)), si stima che questo influirà su &lt;3% dei visitatori di Chrome.
+A partire da ottobre 2022, nuove versioni dei browser Chromium hanno iniziato a &#39;congelare&#39; la versione del sistema operativo rappresentata nella stringa User-Agent. La versione del sistema operativo è un hint ad alta entropia; per essere certi di includere nei rapporti informazioni accurate sulla versione del sistema operativo è quindi necessario configurare la libreria di raccolta per raccogliere tali hint. Nel corso del tempo, le altre informazioni relative al dispositivo dell’agente utente verranno congelate, e sarà quindi necessario ricorrere agli hint client affinché sia possibile raccogliere nei rapporti informazioni accurate sui dispositivi.
+
+I suggerimenti client verranno incorporati nel processo di ricerca dei dispositivi di Analytics a partire dal 16 febbraio 2023. L’SDK per AppMeasurement e Web supporta attualmente la raccolta di dati dei suggerimenti, ma non verrà utilizzato nella ricerca del dispositivo fino a metà febbraio. Come indicato di seguito la versione del sistema operativo è stata congelata a partire da ottobre ma a causa di un rollout graduale e il fatto che molti agenti utente già forniscono una versione del sistema operativo congelato (vedere di più [qui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it)), si stima che questo influirà su &lt;3% dei visitatori di Chrome.
 
 >[!NOTE]
 >
->A partire da ottobre 2022, nuove versioni dei browser Chromium hanno iniziato a &#39;congelare&#39; la versione del sistema operativo rappresentata nella stringa User-Agent. La versione del sistema operativo è un hint ad alta entropia; per essere certi di includere nei rapporti informazioni accurate sulla versione del sistema operativo è quindi necessario configurare la libreria di raccolta per raccogliere tali hint. Nel corso del tempo, le altre informazioni relative al dispositivo dell’agente utente verranno congelate, e sarà quindi necessario ricorrere agli hint client affinché sia possibile raccogliere nei rapporti informazioni accurate sui dispositivi.
+> A partire da gennaio 2023, alcune versioni dei sistemi operativi Mac e Windows non sono correttamente rappresentate nell&#39;Agente utente, ma sono correttamente rappresentate nei suggerimenti client ad alta entropia. Vedi [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it) per ulteriori informazioni.
 
->[!NOTE]
->
-> A partire da gennaio 2023, alcune versioni dei sistemi operativi Mac e Windows non sono correttamente rappresentate nell&#39;Agente utente ma correttamente rappresentate nei suggerimenti client entropici elevati. Vedi [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it) per ulteriori informazioni.
-
->[!NOTE]
->
->Per preservare la piena funzionalità, AAM richiede la raccolta di hint ad alta entropia. Se utilizzi l’[inoltro lato server ad AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
+AAM richiede la raccolta di hint di entropia elevati per preservare la funzionalità completa. Se utilizzi l’[inoltro lato server ad AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
 
 ## Domande frequenti
 
