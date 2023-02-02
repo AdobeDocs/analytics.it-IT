@@ -5,10 +5,10 @@ title: Creare collegamenti condivisibili
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 67%
+source-wordcount: '284'
+ht-degree: 79%
 
 ---
 
@@ -32,14 +32,6 @@ Puoi anche condividere un collegamento a una parte specifica del progetto, ad es
 [Guarda il video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=it) sulla creazione di collegamenti e sul loro utilizzo per indirizzare i destinatari verso parti specifiche del progetto.
 
 ![](assets/get-viz-link.png)
-
-## Ottieni collegamento pubblico
-
-{{release-limited-testing-section}}
-
-Puoi condividere progetti Analysis Workspace con persone che non hanno accesso ad Adobe Analytics. Questo può includere persone esterne alla tua organizzazione o all’interno della tua organizzazione che non dispongono del provisioning con Adobe Analytics.
-
-Per ulteriori informazioni, consulta [Condividi un collegamento pubblico con chiunque (non è richiesto l’accesso)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
 
 ## Utilizzare i collegamenti in un sommario {#TOC}
 

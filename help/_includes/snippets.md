@@ -1,8 +1,8 @@
 ---
-source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
+source-git-commit: 98d6b952855d5206c12ee07cfdb53e541fe29847
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 7%
+source-wordcount: '120'
+ht-degree: 15%
 
 ---
 # Snippet
@@ -12,41 +12,6 @@ ht-degree: 7%
 >[!IMPORTANT]
 >
 >Ulteriori informazioni sull’[Annuncio sulla fine del ciclo di vita](https://express.adobe.com/page/6WnF8JK6IRDhf/) di Reports &amp; Analytics.
-
-## Criteri di filtro del dizionario dati {#dd-filter-criteria}
-
-1. (Facoltativo) Seleziona la **Filtro** icona ![Icona Filtro dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png), quindi seleziona una delle seguenti opzioni di filtro per filtrare l’elenco dei componenti:
-
-   | Opzione | Funzione |
-   |---------|----------|
-   | [!UICONTROL **Dimensioni**] | Mostra solo i componenti che sono Dimension. (Questa opzione è disponibile anche nel [!UICONTROL **Filtri rapidi**] al primo accesso al dizionario dati). |
-   | [!UICONTROL **Metriche**] | Mostra solo i componenti che sono metriche. (Questa opzione è disponibile anche nel [!UICONTROL **Filtri rapidi**] al primo accesso al dizionario dati). |
-   | [!UICONTROL **Segmenti**] | Mostra solo i componenti che sono Segmenti. (Questa opzione è disponibile anche nel [!UICONTROL **Filtri rapidi**] al primo accesso al dizionario dati). <!--this is Filters in CJA--> |
-   | [!UICONTROL **Intervalli di date**] | Mostra solo i componenti che sono intervalli di date. (Questa opzione è disponibile anche nel [!UICONTROL **Filtri rapidi**] al primo accesso al dizionario dati). |
-   | [!UICONTROL **Descrizione mancante**] | Nel campo Descrizione è possibile visualizzare solo i componenti che non dispongono ancora di una descrizione. Questa opzione è disponibile solo per gli amministratori. |
-   | [!UICONTROL **Duplicati**] | Mostra solo i componenti che hanno la stessa etichetta o la stessa descrizione di un altro componente della suite di rapporti selezionata. Questa opzione è disponibile solo per gli amministratori. |
-   | [!UICONTROL **Nessun dato recente**] | Mostra solo i componenti che non hanno raccolto dati negli ultimi 90 giorni. Questa opzione è disponibile solo per gli amministratori. |
-   | [!UICONTROL **Creato da Adobe**] | Mostra solo i componenti creati da Adobe. I componenti creati da un amministratore o da un altro utente dell’organizzazione non vengono visualizzati. |
-   | [!UICONTROL **Approvato**] | Mostra solo i componenti contrassegnati come approvati da un amministratore. |
-   | Non approvato (disponibile solo per gli amministratori) | <!--this is in the requirements doc, but I don't see this in the UI--> |
-
-   {style=&quot;table-layout:auto&quot;}
-
-## Informazioni sui componenti del dizionario dati {#dd-component-information}
-
-| Opzione | Funzione |
-|---------|----------|
-| [!UICONTROL **Approvato**] | Indica che il componente è stato rivisto e approvato dall’amministratore. Gli amministratori visualizzano un [!UICONTROL **Approvazione richiesta**] per i componenti non approvati. Selezionando questa opzione, l&#39;opzione viene contrassegnata come Approvata. |
-| [!UICONTROL **Descrizione**] | Descrive la funzione prevista del componente. (Queste informazioni vengono aggiunte dall’amministratore di Analytics, come descritto in [Aggiungi descrizioni dei componenti](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-| [!UICONTROL **Frequentemente utilizzato con**] | Mostra i 5 componenti più comunemente utilizzati con il componente che stai visualizzando. Questo elenco è basato sui dati degli ultimi 90 giorni. Vengono visualizzati solo i componenti a cui hai accesso. |
-| [!UICONTROL **Simile a**] | Mostra 5 componenti con etichette simili al componente che stai visualizzando. Vengono visualizzati solo i componenti a cui hai accesso. |
-| [!UICONTROL **Tag**] | Mostra tutti i tag applicati al componente. |
-| [!UICONTROL **Tipo di componente**] | Elenca il tipo di componente, che si tratti di un Dimension, una metrica, un segmento o un intervallo di date. |
-| [!UICONTROL **Creato da**] | Visualizza il nome dell’utente che ha creato il componente. |
-| [!UICONTROL **Anteprima**] | Mostra un’anteprima del componente in Analysis Workspace. |
-| [!UICONTROL **Data ultima modifica**] | Visualizza il giorno dell’ultima modifica apportata al componente. Questa sezione viene visualizzata quando si visualizzano Segmenti, metriche calcolate e intervalli di date. <!--for CJA, it is displayed for all components--> |
-
-{style=&quot;table-layout:auto&quot;}
 
 ## Fase di rilascio Test limitati {#release-limited-testing}
 

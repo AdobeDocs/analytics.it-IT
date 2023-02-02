@@ -5,31 +5,14 @@ title: Condividere progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 33%
+source-wordcount: '1056'
+ht-degree: 49%
 
 ---
 
 # Condividere progetti
-
-Puoi condividere un progetto Analysis Workspace con i seguenti tipi di persone:
-
-* Utenti e gruppi della tua organizzazione che hanno accesso ad Adobe Analytics
-
-* Utenti e gruppi dell’organizzazione che non hanno accesso ad Adobe Analytics
-
-* Persone esterne all’organizzazione
-
-Qualsiasi [cura](curate.md) quando i destinatari aprono il progetto, viene visualizzata l’applicazione prima della condivisione.
-
-Ecco una panoramica video della condivisione dei progetti:
-
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
-
-
-## Condividi con gli utenti e i gruppi Adobe Analytics della tua organizzazione {#Add}
 
 Puoi condividere un progetto con gli utenti o i gruppi Adobe Analytics esistenti nella tua organizzazione. Quando condividi un progetto come descritto in questa sezione, gli utenti con cui condividi devono già disporre di un account Adobe Analytics.
 
@@ -39,7 +22,7 @@ Puoi condividere un ruolo specifico con utenti o gruppi oppure un collegamento.
 
 * [Condivisione di un collegamento a un progetto](#share-a-link-to-a-project)
 
-### Condividere un ruolo di progetto specifico
+## Condividere un ruolo di progetto specifico
 
 Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organizzazione, considera quanto segue:
 
@@ -77,7 +60,7 @@ In caso di modifiche non salvate, viene richiesto di salvare prima il progetto.
 1. Fai clic su **[!UICONTROL Share]**.
 Puoi anche fare clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se un progetto è già stato condiviso, questi pulsanti indicano **[!UICONTROL Update]** e **[!UICONTROL Curate & Update]**. Ulteriori informazioni sulla [cura dei progetti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
 
-### Condivisione di un collegamento a un progetto
+## Condivisione di un collegamento a un progetto
 
 Quando condividi un collegamento come descritto in questa sezione, considera quanto segue:
 
@@ -95,59 +78,6 @@ In caso di modifiche non salvate, viene richiesto di salvare prima il progetto.
 1. Fai clic su **[!UICONTROL Copy link]** accanto al **[!UICONTROL Share URL field]**.
 
 1. Condividi il collegamento con gli utenti della tua organizzazione. Ad esempio, puoi incollarlo in un’e-mail, in un sito web interno e così via.
-
-## Condividi un collegamento pubblico con chiunque (non è richiesto l’accesso) {#share-public-link}
-
-{{release-limited-testing-section}}
-
-Puoi condividere progetti Analysis Workspace con persone che non hanno accesso ad Adobe Analytics. Ciò può includere:
-
-* Persone esterne all’organizzazione
-
-* Persone all’interno della tua organizzazione che non dispongono del provisioning con Adobe Analytics
-
->[!NOTE]
->
->Questa opzione può essere disabilitata dall’amministratore di Analytics, come descritto in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md). Se non riesci a condividere un collegamento pubblico come descritto in questa sezione, l’amministratore di Analytics ha disabilitato questa funzionalità.
-
-Per condividere un collegamento pubblico a un progetto Analysis Workspace:
-
-1. Apri il progetto Analysis Workspace da condividere.
-
-1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Share public link]**.
-
-   In caso di modifiche non salvate, viene richiesto di salvare il progetto.
-
-   <!-- Add screen shot of new modal -->
-
-1. Abilita la **[!UICONTROL Link active]** se non è già abilitata.
-
-1. Scegli se abilitare le seguenti opzioni di protezione (che possono essere controllate dall’amministratore di Analytics):
-
-   * **[!UICONTROL Require single sign-on (SSO) authentication]:**
-
-      Richiedi alle persone con il collegamento di eseguire l&#39;autenticazione tramite SSO prima di accedere al progetto condiviso. Seleziona questa opzione se desideri che il progetto sia accessibile solo agli utenti all’interno dell’organizzazione.
-
-      Gli amministratori di Analytics possono impostare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md). È possibile che si verifichino i seguenti scenari, a seconda di come l’amministratore ha configurato questa opzione:
-
-      * Se questa opzione non è visibile, SSO non è abilitato per la tua organizzazione o il tuo amministratore di Analytics non ha abilitato questa funzione.
-
-      * Se questa opzione è abilitata e disattivata, l’amministratore di Analytics richiede l’autenticazione SSO per accedere a tutti i collegamenti pubblici.
-   * **[!UICONTROL Require Password]:** Richiedi alle persone con il collegamento di specificare una password prima di accedere al progetto Analysis Workspace. Questo offre un ulteriore livello di sicurezza al progetto.
-
-      Se selezioni questa opzione, specifica una password. Ricorda di condividere questa password e il collegamento al progetto quando lo condividi con altri utenti. <!--go through this workflow and see how it works.-->
-
-      Se questa opzione è attivata e disattivata, l’amministratore di Analytics richiede che tutti i collegamenti pubblici siano protetti da password. Gli amministratori di Analytics possono impostare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md).
-
-
-1. Accanto al **[!UICONTROL Share with anyone (no login required)]** fai clic sul campo **Copia collegamento** per copiare il collegamento negli Appunti del sistema.
-
-1. Condividi il collegamento con le persone a cui desideri accedere al progetto. Ad esempio, puoi incollare il collegamento in un messaggio e-mail.
-
-   Qualsiasi persona con cui condividi il collegamento può visualizzare il progetto Analysis Workspace. Se hai scelto di richiedere una password, devi anche condividerla con chiunque desideri accedere al collegamento.
-
-1. Seleziona **[!UICONTROL Close]** per chiudere la finestra di dialogo di condivisione. Le modifiche vengono salvate automaticamente. <!-- True? -->
-
 
 ## Condivisione di progetti nel Project manager {#Manager}
 
