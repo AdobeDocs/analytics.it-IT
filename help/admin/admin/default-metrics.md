@@ -4,15 +4,14 @@ title: Metriche predefinite
 feature: Admin Tools
 uuid: 85d50082-aab6-4c4f-b88b-77c9a35b3f6e
 exl-id: b09dc5f3-414e-4d0d-9e89-b029d9a6a642
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 6%
 
 ---
 
-# Metriche standard
+# Metriche predefinite
 
 Analytics visualizza un set standard di metriche in tutti i rapporti e i progetti, a meno che un utente non selezioni un set personalizzato di metriche. Le metriche selezionate vengono visualizzate per tutti gli utenti della suite di rapporti associata. Puoi aggiornare solo le metriche predefinite di una suite di rapporti alla volta. Queste impostazioni non garantiscono l’ordine in cui vengono visualizzate le metriche predefinite.
 

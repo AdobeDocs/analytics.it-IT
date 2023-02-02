@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
+source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 94%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 94%
    + [Metriche predefinite](admin/default-metrics.md)
    + [Escludi per indirizzo IP](admin/exclude-ip.md)
    + [Registri](admin/logs.md)
-   + [Preferenze manager](admin/preferences-manager.md)
    + [Rapporti sulla privacy](admin/privacy-reporting.md)
    + [Reporting Activity Manager](admin/reporting-activity.md)
    + [Coda dei report pianificati](admin/scheduled-reports-admin.md)
@@ -136,7 +135,6 @@ ht-degree: 94%
             + [Panoramica](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Spiaggia programmata](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Traffico permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-         + [Impostazioni suite di rapporti singole](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [Gestione delle app](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + Rapporti in tempo reale {#real-time-reports}
             + [Panoramica rapporti in tempo reale](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -144,14 +142,15 @@ ht-degree: 94%
             + [Metriche e dimensioni in tempo reale supportate](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + Impostazioni aziendali {#company-settings}
       + [Panoramica delle impostazioni aziendali](admin/company/c-company-settings.md)
-      + [Livelli di accesso alle funzionalità](admin/company/feature-access-levels.md)
+      + [Security Manager](admin/company/security-manager.md)
       + [Servizi web](admin/company/web-services-admin.md)
       + [Rapporti di Report Builder](admin/company/report-builder-reports-admin.md)
       + [Single Sign-On](admin/company/single-signon-admin.md)
-      + [Azioni in sospeso](admin/company/pending-actions-admin.md)
       + [Co-branding](admin/company/co-branding-admin.md)
       + [Nascondere le suite di rapporti](admin/company/c-hide-report-suites.md)
-      + [Security Manager](admin/company/security-manager.md)
+      + [Preferenze manager](admin/company/preferences-manager.md)
+      + [Azioni in sospeso](admin/company/pending-actions-admin.md)
+      + [Livelli di accesso alle funzionalità](admin/company/feature-access-levels.md)
    + [Gestione video](admin/video-management.md)
    + Utilizzo delle chiamate server {#server-call-usage}
       + [Guida per il primo amministratore di Adobe Analytics](admin/c-server-call-usage/overage-overview.md)
