@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '699'
 ht-degree: 97%
 
 ---
@@ -259,6 +259,7 @@ ht-degree: 97%
    + [Sottoclassificazioni](classifications/c-sub-classifications.md)
    + [Domande frequenti sulle classificazioni](classifications/faq.md)
 + [Eventi calendario](t-calendar-event.md)
++ [Coda dei report pianificati](scheduled-reports-admin.md)
 + Rapporti in tempo reale {#real-time-reporting}
    + [Panoramica reportistica in tempo reale](c-real-time-reporting/realtime.md)
    + [Configurare rapporti in tempo reale](c-real-time-reporting/t-realtime-admin.md)

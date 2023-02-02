@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 94%
 
 ---
@@ -42,9 +42,7 @@ ht-degree: 94%
    + [Metriche predefinite](admin/default-metrics.md)
    + [Escludi per indirizzo IP](admin/exclude-ip.md)
    + [Registri](admin/logs.md)
-   + [Rapporti sulla privacy](admin/privacy-reporting.md)
    + [Reporting Activity Manager](admin/reporting-activity.md)
-   + [Coda dei report pianificati](admin/scheduled-reports-admin.md)
    + Report Suite Manager {#manage-report-suites}
       + [Gestione suite di rapporti](admin/c-manage-report-suites/report-suites-admin.md)
       + [Suite di rapporti di aggregazione dati e globali](admin/c-manage-report-suites/rollup-report-suite.md)
@@ -136,6 +134,7 @@ ht-degree: 94%
             + [Spiaggia programmata](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Traffico permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Gestione delle app](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [Rapporti sulla privacy](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Rapporti in tempo reale {#real-time-reports}
             + [Panoramica rapporti in tempo reale](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configurazione rapporti in tempo reale](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
