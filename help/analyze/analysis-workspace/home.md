@@ -4,10 +4,10 @@ description: Analysis Workspace è il principale strumento di analisi per Adobe 
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '566'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ Completato il tutorial, puoi iniziare a creare il primo progetto. La **finestra 
 
 ![](assets/create-new-project.png)
 
-Puoi anche iniziare l’analisi dai **modelli** standard forniti da Adobe o da modelli personalizzati creati dalla tua organizzazione. Sono disponibili diversi modelli, adatti a diversi tipi di analisi o casi d’uso. [Qui trovi ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it) sulle diverse opzioni di modelli disponibili.
+Puoi anche iniziare l’analisi dai **modelli** standard forniti da Adobe o da modelli personalizzati creati dalla tua organizzazione. Sono disponibili diversi modelli, a seconda dell’analisi o del caso di utilizzo. [Qui trovi ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it) sulle diverse opzioni di modelli disponibili.
 
 ## Generare l’analisi {#analysis}
 
@@ -51,7 +51,7 @@ I **componenti** sono dimensioni, metriche, segmenti o intervalli di date, che p
 
 ### Visualizzazioni
 
-Le **visualizzazioni**, ad esempio i grafici a barre o a linee, vengono quindi aggiunte ai dati per riprodurli in modo visivo. Nella barra a sinistra, seleziona l’icona **[!UICONTROL Visualizations]** centrale per ottenere l’elenco di tutte le [visualizzazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it) disponibili.
+**Visualizzazioni**, ad esempio un grafico a barre o a linee, può essere utilizzato per riprodurre visivamente i dati. Nella barra a sinistra, seleziona l’icona **[!UICONTROL Visualizations]** centrale per ottenere l’elenco di tutte le [visualizzazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it) disponibili.
 
 ![](assets/build-visualizations.png)
 

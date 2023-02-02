@@ -3,10 +3,10 @@ description: I tasti non classificati sono raggruppati nei rapporti di classific
 title: Tasti non classificati
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 73%
+source-wordcount: '241'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ t_rename_classification_none.xml
 
  -->
 
-Passaggi che descrivono come rinominare un tasto non classificato visualizzato come *`none`* nei rapporti.
+Per rinominare un tasto non classificato visualizzato come *`none`* nel reporting:
 
 1. Utilizzando l’importazione, esporta le classificazioni in un file locale.
 1. Aggiungi una riga al file e digita `~none~` nella colonna Tasto.

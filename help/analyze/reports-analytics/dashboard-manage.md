@@ -6,10 +6,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 3%
+source-wordcount: '661'
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,7 @@ Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICON
 
 ## Gestire le dashboard condivise
 
-Passaggi che descrivono come utilizzare le opzioni di gestione del dashboard condiviso.
+Per gestire le dashboard condivise:
 
 1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]**.
 1. Sotto [!UICONTROL Shared Dashboards], individua il dashboard condiviso (o dashboard legacy) da gestire e scegli una o più delle seguenti opzioni:
@@ -92,7 +92,9 @@ Quando copi il dashboard legacy, il sistema apre il dashboard legacy per la modi
 
 ## Condivisione di un dashboard
 
-Procedura che descrive come un amministratore può condividere (o inviare in push) un dashboard a più utenti. Quando invii le dashboard agli utenti, diventano disponibili nelle [!UICONTROL Shared Dashboards] menu.
+Gli amministratori di Analytics possono condividere (o inviare) un dashboard a più utenti. Quando invii le dashboard agli utenti, diventano disponibili nelle [!UICONTROL Shared Dashboards] menu.
+
+Per condividere un dashboard con più utenti:
 
 1. In [!UICONTROL Dashboard Manager], individua il dashboard, quindi abilita **[!UICONTROL Shared]**.
 1. Fai clic su **[!UICONTROL Push To Users]**.  ![](assets/push.png)
@@ -110,18 +112,3 @@ In [!UICONTROL Dashboard Manager], puoi vedere se è prevista la consegna di un 
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
    Vedi [Pianificazione e distribuzione](/help/analyze/reports-analytics/scheduling.md) per ulteriori informazioni.
-
-## Archiviare un dashboard
-
->[!NOTE]
->
->Questa funzionalità non sarà più disponibile a gennaio 2020.
-
-Passaggi che descrivono come archiviare un dashboard inviato come file PDF. Il sistema memorizza il file archiviato per due anni, o fino a quando non si raggiunge un limite massimo di 4 GB di rapporti archiviati, a seconda di quale dei due eventi si verifica prima.
-
-1. Apri un dashboard.
-1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Send]**.
-1. In [!UICONTROL Email Report] gruppo, abilita **[!UICONTROL Archive]**.
-1. Specifica le opzioni di consegna, quindi fai clic su **[!UICONTROL Send]**.
-
-   Potete visualizzare le dashboard archiviate in Dashboard Manager. In alternativa, apri un dashboard e fai clic su **[!UICONTROL More]** > **[!UICONTROL View Archive]**.

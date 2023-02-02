@@ -5,10 +5,10 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '632'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Avanzato consente di cercare caratteri jolly ed eseguire altre ricerche compless
 
 ## Creare filtri specifici per i rapporti {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-Passaggi che descrivono come creare filtri per i rapporti.
+Puoi creare filtri per i rapporti.
 
 <!-- 
 
@@ -153,7 +153,7 @@ Alcuni rapporti contengono un filtro specifico per quel rapporto. Ad esempio, un
 
 Quando accedi a questi filtri, puoi visualizzare le metriche dei rapporti per gli elementi specificati nell’elenco.
 
-**Per creare filtri specifici per i rapporti**
+Per creare filtri specifici per i rapporti:
 
 1. Genera un rapporto, ad esempio un [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
 1. Nell’intestazione del rapporto, fai clic sul pulsante sul collegamento **[!UICONTROL Filter]**.
@@ -162,8 +162,6 @@ Quando accedi a questi filtri, puoi visualizzare le metriche dei rapporti per gl
 1. Fai clic su **[!UICONTROL OK]**.
 
 ## Aggiungere un filtro di correlazione {#task_065042E384DA4BF3864C58AF2B88D6E2}
-
-Passaggi che descrivono come aggiungere un filtro di correlazione.
 
 <!-- 
 
@@ -175,7 +173,7 @@ Alcuni rapporti consentono di aggiungere filtri di correlazione personalizzati. 
 
 Puoi filtrare i dati visualizzati in un rapporto di correlazione utilizzando qualsiasi correlazione disponibile. L’esempio seguente mostra come aggiungere un filtro di correlazione per motore di ricerca.
 
-**Per aggiungere un filtro di correlazione**
+Per aggiungere un filtro di correlazione:
 
 1. Esegui un rapporto che supporta le correlazioni. (Vedi [Esecuzione di un rapporto con raggruppamenti](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. Nell’intestazione del rapporto, fai clic sul collegamento **[!UICONTROL Correlation Filter]**.

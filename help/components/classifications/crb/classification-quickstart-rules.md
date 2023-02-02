@@ -3,10 +3,10 @@ description: Le regole di classificazione cercano regolarmente termini non class
 title: Regole di classificazione
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '1959'
-ht-degree: 93%
+source-wordcount: '1954'
+ht-degree: 92%
 
 ---
 
@@ -304,13 +304,13 @@ t_classification_rule.xml
 
  -->
 
-Passaggi che descrivono come aggiungere o modificare una regola di classificazione.
-
 Per aggiungere nuove regole, fai corrispondere una condizione a una classificazione e specifica l’azione.
 
 >[!NOTE]
 >
 >In questa procedura, devi applicare le regole a una o più suite di rapporti. Il numero di regole consigliato per set di regole è compreso tra 500 e 1000, anche se non esistono limiti. Se disponi di più di 100 regole, prova a semplificare il set di regole utilizzando le [sottoclassificazioni](/help/components/classifications/c-sub-classifications.md).
+
+Per aggiungere o modificare una regola di classificazione:
 
 1. [Crea un set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md) .
 1. Nella pagina del set di regole, fai clic su **[!UICONTROL Add Rule]**.
@@ -363,7 +363,9 @@ t_classifications_test_rule.xml
 
  -->
 
-Passaggi che descrivono come verificare una regola di classificazione o un set di regole. L’esecuzione di un test verifica tutte le regole in un set.
+Puoi verificare una regola di classificazione o un set di regole. L’esecuzione di un test verifica tutte le regole in un set.
+
+Per testare un set di regole di classificazione:
 
 1. [Crea un set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md) .
 1. Fai clic sul nome del set di regole nel [!UICONTROL Classification Rule Builder].
@@ -395,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-Passaggi che descrivono come convalidare e attivare le regole di classificazione.
+Per convalidare e attivare le regole di classificazione:
 
 1. [Crea un set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md), quindi [aggiungi le regole di classificazione](/help/components/classifications/crb/classification-quickstart-rules.md) al set.
 1. Nell’editor delle regole, fai clic su **[!UICONTROL Activate]**.

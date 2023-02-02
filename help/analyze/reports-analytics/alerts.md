@@ -6,9 +6,9 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '831'
 ht-degree: 14%
 
 ---
@@ -32,7 +32,7 @@ Per ulteriori informazioni, consulta la documentazione di Analysis Workspace in 
 
 ## Aggiungere un avviso {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-Passaggi che descrivono come aggiungere un avviso in Adobe Analytics.
+È possibile aggiungere un avviso in Adobe Analytics dal Generatore di avvisi o da un rapporto specifico.
 
 <!-- 
 
@@ -40,7 +40,11 @@ t_add_an_alert.xml
 
  -->
 
-Passa al nuovo Generatore di avvisi nel **[!UICONTROL Analytics]** > **[!UICONTROL Components]** menu. Tuttavia, è comunque possibile accedervi dall’interno di reporting e analisi:
+### Aggiungere un avviso dal Generatore di avvisi
+
+1. Seleziona **[!UICONTROL Analytics]** > **[!UICONTROL Components]** per aprire il Generatore di avvisi.
+
+### Aggiungere un avviso da un singolo rapporto
 
 1. In Reports &amp; Analytics, apri il rapporto in cui desideri impostare un avviso.
 1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
@@ -48,7 +52,7 @@ Passa al nuovo Generatore di avvisi nel **[!UICONTROL Analytics]** > **[!UICONTR
 
 ## Visualizzare o modificare gli avvisi esistenti {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
-Contesto attività
+<!-- add Task Context-->
 
 1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Questo ti porta al nuovo [Gestione avvisi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 

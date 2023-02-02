@@ -3,16 +3,16 @@ description: Passaggi che descrivono come generare un foglio di calcolo Excel co
 title: Scaricare le impostazioni delle suite di rapporti
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
-source-wordcount: '65'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 77%
 
 ---
 
 # Scaricare le impostazioni delle suite di rapporti
 
-Passaggi che descrivono come generare un foglio di calcolo Excel contenente tutte le impostazioni per la suite di rapporti selezionata.
+Per generare un foglio di calcolo Excel contenente tutte le impostazioni per la suite di rapporti selezionata:
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti dalla tabella [!UICONTROL Report Suite].

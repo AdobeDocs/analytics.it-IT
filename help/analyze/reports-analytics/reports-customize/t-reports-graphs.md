@@ -5,10 +5,10 @@ uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '565'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-Passaggi che descrivono come personalizzare il grafico in modo che sia più utile per il pubblico a cui è destinato.
+Puoi personalizzare il grafico in modo che sia più utile per il pubblico a cui è destinato.
 
 Il tipo di grafico disponibile dipende dal tipo di rapporto eseguito. Ad esempio, i grafici a linee di tendenza sono utili per i rapporti con tendenze, ma è anche possibile utilizzare un grafico a barre verticali con linee di tendenza che illustrano chiaramente le tendenze per giorni, settimane, mesi e così via. In alternativa, è possibile scegliere un grafico a torta per illustrare le percentuali relative alle pagine visualizzate.
 
-**Per modificare un grafico in un rapporto**
+Per modificare un grafico in un rapporto:
 
 1. Esegui un rapporto.
 1. Fai clic su **[!UICONTROL Configure Graph]**.

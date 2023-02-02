@@ -4,10 +4,10 @@ subtopic: Classifications
 title: Classificazioni traffico
 feature: Admin Tools
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ t_classification_add_traffic.xml
 
  -->
 
-Segui questi passaggi per aggiungere o modificare le classificazioni per le suite di rapporti selezionate.
+Per aggiungere o modificare le classificazioni per le suite di rapporti selezionate:
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** nell’intestazione Suite.
 1. Seleziona una suite di rapporti.

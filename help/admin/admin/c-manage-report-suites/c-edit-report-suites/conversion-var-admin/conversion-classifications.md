@@ -3,10 +3,10 @@ description: Le classificazioni vengono utilizzate per categorizzare i valori in
 title: Classificazioni di conversione
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Dopo aver abilitato le classificazioni, utilizza l’[Importatore di classificaz
 
 ## Aggiungere classificazioni di conversione
 
-Passaggi che descrivono come aggiungere classificazioni di conversione in Amministratore.
+Per aggiungere classificazioni di conversione in Amministratore:
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.

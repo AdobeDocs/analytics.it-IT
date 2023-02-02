@@ -5,10 +5,10 @@ uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Puoi creare raggruppamenti in base a qualsiasi variabile di Analytics (eVar o pr
 
 ## Eseguire un rapporto con raggruppamenti {#task_F685624830E64C829C8BE6435A107F69}
 
-Passaggi che descrivono come eseguire un rapporto con raggruppamenti.
+Per eseguire un rapporto di suddivisione:
 
 <!-- 
 

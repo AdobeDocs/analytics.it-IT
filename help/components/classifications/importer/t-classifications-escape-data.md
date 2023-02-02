@@ -3,16 +3,16 @@ description: Passaggi che descrivono come effettuare l’escape dei dati di clas
 title: Esci dai dati di classificazione
 feature: Classifications
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '92'
 ht-degree: 8%
 
 ---
 
 # Esci dai dati di classificazione
 
-Passaggi che descrivono come effettuare l’escape dei dati di classificazione nel file di classificazione.
+Per evitare i dati di classificazione nel file di classificazione:
 
 <!--Meike, please check this page against orginal. It might be missing information. -->
 

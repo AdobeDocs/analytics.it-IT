@@ -5,10 +5,10 @@ title: Dashboard e minirapporti
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '1692'
-ht-degree: 100%
+source-git-commit: dbccae5fdfd092da40e0786aa76238f1e6c1ccb9
+workflow-type: tm+mt
+source-wordcount: '1683'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,6 @@ Consulta [Gestione delle dashboard](/help/analyze/reports-analytics/dashboard-ma
 
 ## Creare un dashboard {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
-Passaggi che descrivono come creare una dashboard.
 
 <!-- 
 
@@ -74,6 +73,8 @@ t_dashboard_add.xml
  -->
 
 Prima di aggiungere un rapporto (come reportlet) a una dashboard, definisci il layout della dashboard.
+
+Per creare un dashboard:
 
 1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
 1. Fai clic su **[!UICONTROL Add Dashboard]**.
@@ -96,13 +97,15 @@ Prima di aggiungere un rapporto (come reportlet) a una dashboard, definisci il l
 
 ## Creare un reportlet {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-Passaggi che descrivono come creare un reportlet. Una volta creato un reportlet, questo può essere visualizzato in una dashboard.
+Dopo aver creato un minirapporti, questo può essere visualizzato in un dashboard.
 
 <!-- 
 
 t_dashboard_add_report.xml
 
  -->
+
+Per creare un minirapporto:
 
 1. Esegui un rapporto.
 1. Fai clic su **[!UICONTROL Dashboard.]**
@@ -122,13 +125,15 @@ t_dashboard_add_report.xml
 
 ## Aggiungere contenuto a un dashboard {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-Passaggi che descrivono come aggiungere contenuti da altre dashboard e dashboard condivise. Puoi anche aggiungere contenuto da origini personalizzate ed esterne, come testo e immagini.
+Puoi aggiungere contenuti da altre dashboard e dashboard condivise. Puoi anche aggiungere contenuto da origini personalizzate ed esterne, come testo e immagini.
 
 <!-- 
 
 t_dashboard_content.xml
 
  -->
+
+Per aggiungere contenuti a una dashboard:
 
 1. Apri un dashboard, quindi fai clic su **[!UICONTROL Layout]**.
 1. Fai clic su **[!UICONTROL Add Content]**, quindi trascina gli elementi nel dashboard.
@@ -209,7 +214,7 @@ t_dashboard_edit.xml
 
 ## Co-branding di una dashboard {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-Passaggi che descrivono come caricare un’immagine da visualizzare in una dashboard.
+Per caricare un’immagine da visualizzare in un dashboard:
 
 <!-- 
 

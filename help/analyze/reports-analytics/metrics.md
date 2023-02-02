@@ -4,10 +4,10 @@ title: Panoramica sulle metriche di Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '316'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Per un elenco completo delle metriche, consulta [Panoramica delle metriche](/hel
 
 ## Selezionare le metriche predefinite di un rapporto
 
-Passaggi che descrivono come selezionare le metriche predefinite a livello di rapporto.
+Per selezionare le metriche predefinite a livello di rapporto:
 
 <!-- 
 

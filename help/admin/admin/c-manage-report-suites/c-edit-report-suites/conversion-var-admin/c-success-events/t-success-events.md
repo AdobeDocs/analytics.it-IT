@@ -3,16 +3,16 @@ description: Passaggi che descrivono come configurare gli eventi di successo.
 title: Configurare eventi di successo
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 78%
+source-wordcount: '238'
+ht-degree: 76%
 
 ---
 
 # Configurare eventi di successo
 
-Passaggi che descrivono come configurare gli eventi di successo.
+Per configurare gli eventi di successo:
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.

@@ -3,16 +3,16 @@ description: Procedura per configurare il rilevamento di ricerche a pagamento.
 title: Configurare il rilevamento di ricerche a pagamento
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '56'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 90%
 
 ---
 
 # Configurare il rilevamento di ricerche a pagamento
 
-Procedura per configurare il rilevamento di ricerche a pagamento.
+Per configurare il rilevamento della ricerca a pagamento:
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** per aprire [!UICONTROL Report Suite Manager].
 1. Seleziona una suite di rapporti.

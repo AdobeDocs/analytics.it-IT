@@ -4,10 +4,10 @@ title: Introduzione a Reports and Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 12%
+source-wordcount: '759'
+ht-degree: 16%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 Prima di utilizzare Reports &amp; Analytics, è necessario comprendere queste attività di accesso e configurazione di base e come accedere alle informazioni sull’account.
 
 >[!IMPORTANT]
->A partire dal **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I report, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
+>A partire dal **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I rapporti, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. Dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
 
 I rapporti forniscono informazioni approfondite sui canali tradizionali basati sul web e sui canali in evoluzione come i dispositivi mobili, i video e i social network. Alcuni esempi di rapporti includono:
 
@@ -44,7 +44,7 @@ Prima di accedere all’interfaccia, collabora con il tuo Account Manager o con 
 
 ## Accedi utilizzando l’Experience Cloud
 
-Passaggi che descrivono come accedere a Adobe Experience Cloud.
+Per accedere a Adobe Experience Cloud:
 
 1. Su un computer con accesso a Internet, avviare un browser.
 1. Vai a [!DNL https://login.experiencecloud.adobe.com/].
@@ -62,7 +62,7 @@ Passaggi che descrivono come accedere a Adobe Experience Cloud.
 
 ## Esegui un rapporto
 
-Passaggi che descrivono come generare un rapporto.
+Per generare un rapporto:
 
 1. Accedere a [!UICONTROL Reports & Analytics].
 
@@ -93,7 +93,9 @@ Tutti gli utenti hanno accesso al [!UICONTROL Account Information] pagina. Sono 
 
 ## Modificare la lingua dell’interfaccia
 
-Passaggi che descrivono come modificare il linguaggio dell’interfaccia. Puoi visualizzare l’interfaccia Reports and Analytics nella lingua desiderata.
+È possibile modificare la lingua dell’interfaccia. Puoi visualizzare l’interfaccia Reports and Analytics nella lingua desiderata.
+
+Per modificare la lingua dell’interfaccia:
 
 1. Accedi ad Analytics e seleziona la **[!UICONTROL Reports]** scheda .
 1. Nel piè di pagina della pagina, fare clic sulla lingua attiva nel **[!UICONTROL Language]** , quindi seleziona la lingua preferita.
