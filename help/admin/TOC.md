@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 94%
@@ -134,6 +134,7 @@ ht-degree: 94%
             + [Spiaggia programmata](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Traffico permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Gestione delle app](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [Gestione dei supporti](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Rapporti sulla privacy](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Rapporti in tempo reale {#real-time-reports}
             + [Panoramica rapporti in tempo reale](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -150,7 +151,6 @@ ht-degree: 94%
       + [Preferenze manager](admin/company/preferences-manager.md)
       + [Azioni in sospeso](admin/company/pending-actions-admin.md)
       + [Livelli di accesso alle funzionalità](admin/company/feature-access-levels.md)
-   + [Gestione video](admin/video-management.md)
    + Utilizzo delle chiamate server {#server-call-usage}
       + [Guida per il primo amministratore di Adobe Analytics](admin/c-server-call-usage/overage-overview.md)
       + [Visualizzazione dell&#39;utilizzo della chiamata server corrente](admin/c-server-call-usage/server-call-usage-dashboard.md)
