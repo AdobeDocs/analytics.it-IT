@@ -3,7 +3,7 @@ title: getPercentPageViewed
 description: Recupera la percentuale della pagina visualizzata dal visitatore.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 2575db561c244a9b52f98355137e73f05b3b7ee4
+source-git-commit: bebd9e9e53c05d697adf52e5a2bdda3ca60796f2
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 2%
@@ -69,8 +69,7 @@ La chiamata di questa funzione non restituisce nulla; imposta invece le seguenti
 * `window._ppvFinalPercentViewed`: La percentuale della pagina precedente visibile nel punto in cui il visitatore si è spostato sulla pagina corrente. Questo valore sarà uguale o maggiore della percentuale iniziale visualizzata e sarà anche uguale o inferiore alla percentuale più alta visualizzata.
 * `window._ppvHighestPixelsSeen`: Il numero più alto di pixel totali visualizzati (in altezza) mentre il visitatore scorreva verso il basso la pagina precedente.
 * `window._ppvFoldsAvailable`: Il numero di &quot;pieghe di pagina&quot; totali disponibili per scorrere verso il basso nella pagina precedente. Se l’intera pagina è visibile al primo caricamento, questo valore è `1`.
-* 
-   * `window._ppvFoldsSeen`: Il numero più alto di &quot;pieghe di pagina&quot; raggiunto quando il visitatore ha fatto scorrere la pagina precedente. Questa variabile include la piega &quot;inizio pagina&quot;. Se l’intera pagina è visibile al primo caricamento, questo valore è `1`.
+* `window._ppvFoldsSeen`: Il numero più alto di &quot;pieghe di pagina&quot; raggiunto quando il visitatore ha fatto scorrere la pagina precedente. Questa variabile include la piega &quot;inizio pagina&quot;. Se l’intera pagina è visibile al primo caricamento, questo valore è `1`.
 
 Assegna una o più di queste variabili a eVar per visualizzare i dati delle dimensioni nei rapporti.
 
