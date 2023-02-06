@@ -3,10 +3,10 @@ title: Analisi dei canali di marketing
 description: Scopri come utilizzare le dimensioni dei canali di marketing in Workspace.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 2%
+source-wordcount: '416'
+ht-degree: 6%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, ne abbiamo pubblicati alcuni [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Per massimizzare l’efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>
+>Gli amministratori di Analytics possono gestire i canali di marketing per le loro organizzazioni come descritto in [Gestire i canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Probabilmente desideri sapere quale dei tuoi canali di marketing è il più efficace e con chi, in modo da poter indirizzare meglio i tuoi sforzi e ricevere un ritorno migliore sui tuoi dollari di marketing. In Adobe Analytics, le dimensioni e le metriche dei canali di marketing in Workspace sono uno degli strumenti che possono aiutarti a monitorare l’influenza di diversi canali sui tuoi ordini, ricavi, ecc. e ti forniscono informazioni utili sui canali. Di seguito sono elencate le dimensioni e le metriche che puoi utilizzare per i canali di marketing:
 

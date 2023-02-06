@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '619'
 ht-degree: 94%
 
 ---
@@ -127,7 +127,11 @@ ht-degree: 94%
             + [Gerarchie di classificazione](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
             + [Variabili elenco](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [eVar di Merchandising](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
-         + [Canali marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + Canali marketing {#marketing-channels}
+            + [Gestire i canali di marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [Regole di elaborazione per i canali di marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [Classificazioni in canali di marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Scadenza dell&#39;engagement dei visitatori](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Gestione traffico {#traffic-management}
             + [Panoramica](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Spiaggia programmata](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)

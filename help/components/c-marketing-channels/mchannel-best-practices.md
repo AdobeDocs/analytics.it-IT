@@ -3,10 +3,10 @@ title: Best practice per l’implementazione dei canali di marketing Adobe Analy
 description: Sono state aggiornate le best practice per l’utilizzo dei canali di marketing con Attribution IQ e Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 3%
+source-wordcount: '628'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Per garantire la scalabilità dell’implementazione di Marketing Channels e la coerenza dei rapporti con Attribution IQ e con il Customer Journey Analytics, stiamo emanando una serie di best practice aggiornate. Se utilizzi già Marketing Channels, puoi scegliere le opzioni migliori tra queste nuove linee guida. Se hai poca esperienza con Marketing Channels, ti consigliamo di aderire a tutte le nuove best practice.
 
-Quando i canali di marketing sono stati introdotti per la prima volta, presentavano solo dimensioni di primo e ultimo contatto. La versione corrente dell’attribuzione non richiede più dimensioni esplicite di primo/ultimo contatto. L’Adobe fornisce dimensioni generiche &quot;Marketing Channel&quot; e &quot;Marketing Channel Detail&quot; per consentirti di utilizzarle con il modello di attribuzione desiderato. Queste dimensioni generiche si comportano in modo identico alle dimensioni Last-Touch Channel, ma sono etichettate in modo diverso per evitare confusione quando si utilizzano canali di marketing con un modello di attribuzione diverso.
+Quando i canali di marketing sono stati introdotti per la prima volta, presentavano solo dimensioni di primo e ultimo contatto. La versione corrente dell’attribuzione non richiede più dimensioni esplicite di primo/ultimo contatto. Adobe fornisce dimensioni generiche “Marketing Channel” e “Marketing Channel Detail” per consentirti di utilizzarle con il modello di attribuzione desiderato. Queste dimensioni generiche si comportano in modo identico alle dimensioni Last-Touch Channel, ma sono etichettate in modo diverso per evitare confusione quando si utilizzano canali di marketing con un modello di attribuzione diverso.
 
 Poiché le dimensioni del canale di marketing dipendono da una definizione di visita tradizionale (come definita dalle relative regole di elaborazione), non è possibile modificarne la definizione utilizzando le suite di rapporti virtuali. Queste pratiche riviste consentono intervalli di lookback chiari e controllati con Attribution IQ e con CJA.
 
@@ -34,7 +34,7 @@ Si consiglia di utilizzare [Attribution IQ](https://experienceleague.adobe.com/d
 
 I canali di aggiornamento diretto e interno/sessione non sono consigliati per l’utilizzo con modelli di attribuzione personalizzati (Attribution IQ).
 
-Cosa succede se nella tua organizzazione sono già configurati Direct e Session Refresh? In questo caso, ti consigliamo di: [creare una classificazione](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html) per Primo contatto/Ultimo contatto e lasciare i canali di aggiornamento diretto e sessione non classificati. La dimensione classificata darà gli stessi risultati delle Attribution IQ come se tali canali non fossero mai stati configurati.
+Cosa succede se nella tua organizzazione sono già configurati Direct e Session Refresh? In questo caso, ti consigliamo di: [creare una classificazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) per Primo contatto/Ultimo contatto e lasciare i canali di aggiornamento diretto e sessione non classificati. La dimensione classificata darà gli stessi risultati delle Attribution IQ come se tali canali non fossero mai stati configurati.
 
 ![](assets/direct-session-refresh.png)
 

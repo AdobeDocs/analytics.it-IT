@@ -3,7 +3,7 @@ title: Tipo di referrer
 description: Il tipo di referente, a seconda di da dove proviene il visitatore.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 1700ec727912f49c7aed12af74d18488daeb1e7e
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 1%
@@ -35,7 +35,7 @@ L&#39;elenco seguente fa riferimento alla tabella di ricerca &quot;Social networ
 
 >[!NOTE]
 >
->Questo elenco è diverso dall&#39;elenco predefinito dei social network nel [Regole di elaborazione per i canali di marketing](../c-marketing-channels/c-rules.md).
+>Questo elenco è diverso dall&#39;elenco predefinito dei social network nel [Regole di elaborazione per i canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`

@@ -2,7 +2,7 @@
 title: Termini utilizzati in Adobe Analytics
 description: Glossario per Adobe Analytics, definizione dei termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 2%
@@ -84,7 +84,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Chiamata server principale:** Nome alternativo per la richiesta di immagini o l’hit, utilizzato principalmente nel contesto di tag e fatturazione con più suite. Quando lo stesso hit viene inviato a più suite di rapporti, la prima suite di rapporti è una chiamata al server principale, mentre le altre sono chiamate al server secondario. Questa regola si applica a tutti i tipi di hit, inclusi la visualizzazione della pagina e il tracciamento dei collegamenti. Vedi anche Chiamate server secondarie.
 * **Regole di elaborazione:** Può fare riferimento a:
    * Regole di elaborazione, un modo per modificare la raccolta dei dati utilizzando determinate regole nell’Admin Console. Vedi [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) nella guida utente Admin.
-   * Regole di elaborazione del canale di marketing, un set di regole che determinano il canale di marketing a cui appartiene un hit. Vedi [Regole di elaborazione per i canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md) nella guida utente Admin.
+   * Regole di elaborazione del canale di marketing, un set di regole che determinano il canale di marketing a cui appartiene un hit. Vedi [Regole di elaborazione per i canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) nella guida utente Admin.
 * **Prop:** Vedi Variabile Traffico .
 * **Rapporto classifica:** Formato di report che generalmente segue una dimensione con una metrica. Questo tipo di rapporto consente di visualizzare gli elementi principali, ad esempio le pagine più visualizzate sul sito. Vedi anche Rapporto con tendenze .
 * **In tempo reale:** Visualizza le variabili configurate non appena raccolte con latenza minima o nulla. Vedi [Rapporti in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) nella guida utente Admin.

@@ -3,10 +3,10 @@ title: Domande frequenti sui canali di marketing
 description: Domande frequenti per i canali di marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 0%
+source-wordcount: '1463'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Per massimizzare l&#39;efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, ne abbiamo pubblicati alcuni [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Per massimizzare l’efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>
+>Gli amministratori di Analytics possono gestire i canali di marketing per le loro organizzazioni come descritto in [Gestire i canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Domande frequenti per i canali di marketing.
 
@@ -81,7 +83,7 @@ Questo tipo di regola funge da elemento catch-all per garantire che il traffico 
 
 L’ultimo contatto interno (aggiornamento sessione) può verificarsi solo se si è trattato anche del primo contatto - vedi &quot;Relazione tra primo e ultimo contatto&quot; sopra. Gli scenari riportati di seguito spiegano come l’aggiornamento della sessione potrebbe essere un canale di primo contatto.
 
-* **Timeout sessione**: Un visitatore accede al sito web e quindi lascia la scheda aperta nel browser per utilizzarla in un secondo momento. Il periodo di coinvolgimento del visitatore scade (o elimina volontariamente i cookie) e utilizza la scheda aperta per visitare nuovamente il sito web. Poiché l’URL di riferimento è un dominio interno, la visita verrà classificata come Aggiornamento sessione.
+* **Timeout sessione**: Un visitatore accede al sito web e quindi lascia la scheda aperta nel browser per utilizzarla in un secondo momento. Il periodo di coinvolgimento del visitatore scade (o elimina volontariamente i suoi cookie) e utilizza la scheda aperta per visitare nuovamente il sito web. Poiché l’URL di riferimento è un dominio interno, la visita verrà classificata come Aggiornamento sessione.
 
 * **Non tutte le pagine del sito sono contrassegnate**: Un visitatore arriva alla pagina A senza tag e quindi passa alla pagina B con tag. La pagina A viene visualizzata come referente interno e la visita viene classificata come aggiornamento della sessione.
 

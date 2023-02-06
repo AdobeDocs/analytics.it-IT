@@ -3,7 +3,7 @@ title: Canale di primo contatto
 description: Il primo canale di marketing entro la scadenza del coinvolgimento del visitatore.
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-source-git-commit: ee27311cac5b61dea4d8e850e67126e5fe1d649d
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -16,7 +16,7 @@ La dimensione &quot;Canale primo contatto&quot; indica il primo canale di market
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione fa riferimento direttamente ai nomi dei canali definiti nella [Marketing Channel Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md).
+Questa dimensione fa riferimento direttamente ai nomi dei canali definiti nella [Marketing Channel Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Ogni hit inviato ai server di raccolta dati di Adobe viene eseguito tramite le regole di elaborazione del canale di marketing della suite di rapporti. Ripete ogni regola in ordine numerico fino a quando non trova una corrispondenza, in cui quel canale di marketing si collega all’hit. Il canale di primo contatto persiste con il visitatore finché non visita il sito per un periodo di tempo superiore al periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita).
 
