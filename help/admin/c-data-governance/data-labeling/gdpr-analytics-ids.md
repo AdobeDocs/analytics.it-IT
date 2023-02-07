@@ -3,10 +3,10 @@ description: Comprendi gli ID acquisiti nei dati di Analytics e decidi quale uti
 title: Tecniche di etichettatura consigliate
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
+source-git-commit: a36654fcf10712e0d12917bad832bb46f343d6fd
 workflow-type: tm+mt
 source-wordcount: '2695'
-ht-degree: 81%
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,7 @@ Prima di capire quali etichette applicare a determinate variabili o campi, è ne
 * **ID direttamente identificabile (I1)**: indica il nome di una persona o ne fornisce il metodo di contatto diretto. Tra gli esempi abbiamo il nome di una persona (persino un nome comune come Mario Rossi che potrebbe essere associato a centinaia di persone), indirizzi e-mail o numeri di telefono e così via. Un indirizzo postale senza un nome potrebbe essere considerato direttamente identificabile, sebbene possa identificare soltanto una famiglia o un&#39;azienda anziché una persona specifica all&#39;interno di quella famiglia o di quell&#39;azienda.
 * **ID indirettamente identificabile (I2)**: da solo non consente l&#39;identificazione di una persona, ma può essere combinato con altre informazioni (che potrebbero essere o meno in tuo possesso) per identificare un individuo. Esempi di un ID indirettamente identificabile includono un numero fedeltà del cliente o un ID utilizzato dal sistema CRM di una società che è univoco per ciascuno dei suoi clienti. In base alla Privacy dei dati, gli ID anonimi memorizzati nei cookie di monitoraggio usati da Analytics possono essere considerati identificativi indiretti, sebbene possano individuare solo un dispositivo invece di una persona; su un dispositivo condiviso, questi cookie non distinguono i diversi utenti del sistema. Ad esempio, anche se il cookie non può essere utilizzato per trovare un computer che contiene il cookie, se qualcuno ha accesso al computer e individua il cookie, può ricollegare i dati del cookie Analytics al computer.
 
-   Anche un indirizzo IP viene considerato indirettamente identificabile, perché in un dato momento potrebbe essere assegnato solo a un singolo dispositivo. Tuttavia, gli ISP possono cambiare gli indirizzi IP, come spesso avviene, per la maggior parte degli utenti, pertanto con il passare del tempo un indirizzo IP potrebbe essere usato da uno qualsiasi dei loro utenti. Inoltre, non è insolito per molti clienti di un ISP o per più dipendenti di un&#39;azienda nella stessa Intranet condividere lo stesso indirizzo IP esterno. Per questo motivo, Adobe non supporterà l’uso di un indirizzo IP come ID per una [richiesta di Privacy dei dati.](/help/admin/c-data-governance/gdpr-submit-access-delete.md#submit-requests) Tuttavia, quando un ID accettato viene usato come parte di una richiesta di cancellazione, verranno cancellati anche gli indirizzi IP in cui era presente quell’ID. È necessario stabilire se esistono altri ID raccolti che possono rientrare in questa categoria, I1 o I2, ma non sono idonei all’uso come ID distintivo per le richieste di Privacy dei dati.
+   Anche un indirizzo IP viene considerato indirettamente identificabile, perché in un dato momento potrebbe essere assegnato solo a un singolo dispositivo. Tuttavia, gli ISP possono cambiare gli indirizzi IP, come spesso avviene, per la maggior parte degli utenti, pertanto con il passare del tempo un indirizzo IP potrebbe essere usato da uno qualsiasi dei loro utenti. Inoltre, non è insolito per molti clienti di un ISP o per più dipendenti di un&#39;azienda nella stessa Intranet condividere lo stesso indirizzo IP esterno. Per questo motivo, Adobe non supporta l’utilizzo di un indirizzo IP come ID per una richiesta di Privacy dei dati. Tuttavia, quando un ID accettato viene usato come parte di una richiesta di cancellazione, verranno cancellati anche gli indirizzi IP in cui era presente quell’ID. È necessario stabilire se esistono altri ID raccolti che possono rientrare in questa categoria, I1 o I2, ma non sono idonei all’uso come ID distintivo per le richieste di Privacy dei dati.
 
 Anche se l’azienda raccoglie molti ID diversi nei dati di Analytics, puoi scegliere di usare solo un sottoinsieme di questi ID per le richieste di Privacy dei dati. Ecco delle possibili ragioni per questa scelta:
 
