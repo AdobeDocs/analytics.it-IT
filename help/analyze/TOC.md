@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder e Activity Map.
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
+source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 98%
+source-wordcount: '1101'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +61,11 @@ ht-degree: 98%
          + [Panoramica del calendario e degli intervalli di date](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Creazione di intervalli di date personalizzati](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Confronto delle date](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+      + Dizionario dati {#data-dictionary}
+         + [Panoramica sul dizionario dati](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [Visualizzare le informazioni sui componenti nel dizionario dati](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [Modificare le voci del componente nel dizionario dati](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [Monitorare lo stato del dizionario dati](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualizzazioni {#visualizations}
       + [Panoramica delle visualizzazioni](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gestione delle origini dati](analysis-workspace/visualizations/t-sync-visualization.md)
