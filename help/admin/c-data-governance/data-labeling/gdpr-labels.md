@@ -3,10 +3,10 @@ description: Esempi di etichette sulla privacy dei dati per variabili Adobe Anal
 title: Etichette Privacy dei dati per le variabili di Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '3555'
-ht-degree: 98%
+source-wordcount: '3548'
+ht-degree: 78%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 98%
 
 ## Perché etichettare i dati? {#why-label}
 
-Molti clienti Adobe dispongono di team legali che hanno rivisto le normative sulla Privacy dei dati (RGPD, CCPA, ecc.). Questi team possono aver tratto le proprie conclusioni sul modo in cui i dati devono essere gestiti per conformarsi alle normative sulla Privacy dei dati. Le interpretazioni giuridiche possono essere diverse in base alle aziende e anche le impostazioni di gestione dei dati desiderate possono differire tra i clienti. Poiché i clienti hanno preferenze diverse per quanto riguarda il trattamento dei dati in termini di privacy e diversi set di dati, in Adobe i clienti, in qualità di titolari dei dati, possono personalizzare le impostazioni desiderate per il trattamento dei propri dati specifici in base alla Privacy dei dati. Questo consente a ogni singolo cliente di elaborare le richieste di Privacy dei dati nella maniera più adatta al proprio marchio e al proprio specifico set di dati.
+I clienti di Adobe, in qualità di titolari del trattamento dei dati, sono responsabili del rispetto delle leggi sulla Privacy dei dati applicabili, come RGPD e CCPA. I clienti devono consultare il proprio team legale per determinare in che modo i loro dati devono essere gestiti in modo da rispettare le leggi sulla Privacy dei dati. Adobe è consapevole del fatto che ciascuno dei suoi clienti ha esigenze specifiche relative alla privacy, motivo per cui l’Adobe consente ai suoi clienti di personalizzare le impostazioni desiderate per l’elaborazione dei dati sulla Privacy dei dati. Questo consente a ogni singolo cliente di elaborare le richieste di Privacy dei dati nella maniera più adatta al proprio marchio e al proprio specifico set di dati.
 
-Adobe Analytics offre gli strumenti necessari per etichettare i dati in base al loro stato di riservatezza e a vincoli contrattuali. Le etichette sono importanti e utili per: (1) individuare le persone interessate, (2) determinare i dati da restituire come parte di una richiesta di accesso e (3) individuare i campi di dati da cancellare in seguito a una richiesta di cancellazione.
+Adobe Analytics offre gli strumenti necessari per etichettare i dati in base al loro stato di riservatezza e a vincoli contrattuali. Le etichette sono un passo importante per: (1) identificazione degli interessati, (2) determinazione dei dati da restituire come parte di una richiesta di accesso e (3) identificazione dei campi di dati che devono essere cancellati come parte di una richiesta di cancellazione.
 
 Prima di capire quali etichette applicare a determinate variabili o campi, è necessario [conoscere gli ID](/help/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md) che vengono acquisiti nei dati di Analytics e decidere quali usare per le richieste di Privacy dei dati.
 
@@ -46,30 +46,30 @@ Le etichette “S” per i dati sensibili vengono usate per organizzare in categ
 
 ## Etichette per la governance dei dati (Privacy dei dati) {#data-governance-labels}
 
-Le etichette per la governance dei dati consentono agli utenti di classificare i dati che riflettono considerazioni relative alla privacy e condizioni contrattuali conformi alle norme e ai criteri aziendali.
+Le etichette per la governance dei dati consentono agli utenti di classificare i dati che riflettono considerazioni relative alla privacy e condizioni contrattuali per aiutare i clienti di Adobe a rimanere conformi alle normative e ai criteri aziendali.
 
 ### Etichette di accesso alla privacy dei dati
 
 | Etichetta | Definizione | Altri requisiti |
 | --- | --- | --- |
-| None | Seleziona questa opzione se questa variabile non contiene i dati da includere nei dati restituiti alla persona interessata come parte di una richiesta di accesso alla Privacy dei dati. |  |
+| None | Seleziona questa opzione se questa variabile non contiene i dati che devono essere inclusi nei dati restituiti all’interessato come parte di una richiesta di accesso alla Privacy dei dati. |  |
 | ACC-ALL | I valori in questo campo devono essere inclusi in tutte le richieste di accesso alla Privacy dei dati. Se questo risultato deriva da un dispositivo condiviso tra più individui, applicando questa etichetta, l’utente, in qualità di controllore dei dati, indica che è accettabile la condivisione dei dati in questo campo con qualsiasi individuo che abbia accesso al dispositivo condiviso. | I campi con questa etichetta devono essere restituiti per tutte le richieste di Privacy dei dati. |
-| ACC-PERSON | I valori in questo campo devono essere inclusi solo per le richieste di accesso alla Privacy dei dati quando si è sufficientemente certi che il risultato derivi da una persona interessata, perché determinato dalla corrispondenza tra l’ID di una richiesta di Privacy dei dati e un valore del campo ID-PERSON. | Inoltre, è necessario disporre di un’etichetta ID-PERSON impostata su alcune variabili in questa suite di rapporti e inviare richieste con tale ID, altrimenti l’etichetta non verrà mai applicata. |
+| ACC-PERSON | I valori in questo campo devono essere inclusi solo per le richieste di accesso alla Privacy dei dati quando si è sufficientemente certi che il risultato provenisse dall’interessato, come determinato da un ID di richiesta di Privacy dei dati che corrisponde al valore di un campo ID-PERSON. | Inoltre, è necessario disporre di un’etichetta ID-PERSON impostata su alcune variabili in questa suite di rapporti e inviare richieste con tale ID, altrimenti l’etichetta non verrà mai applicata. |
 
 {style=&quot;table-layout:auto&quot;}
 
-Si prevede che per molte variabili verranno applicate le etichette di accesso, mentre alcune variabili riceveranno altre etichette. Tuttavia spetta all’utente, dopo aver consultato il team legale, decidere quali tra i dati raccolti condividere con le persone interessate.
+Si prevede che per molte variabili verranno applicate le etichette di accesso, mentre alcune variabili riceveranno altre etichette. Tuttavia, spetta a te, in consultazione con il tuo team legale, decidere quali dati hai raccolto devono essere condivisi con gli interessati.
 
 ### Etichette di cancellazione della privacy dati
 
 Diversamente dalle altre etichette, le etichette di cancellazione non si escludono a vicenda. Puoi selezionarne una, entrambe o nessuna. Non è necessaria un’etichetta [!UICONTROL None] distinta, perché [!UICONTROL None] viene indicata automaticamente non selezionando alcuna delle opzioni di cancellazione.
 
-L’etichetta di cancellazione è necessaria solo per i campi che contengono un valore che consentirebbe l’associazione di un risultato alla persona interessata (ovvero che consentirebbe di identificare la persona interessata). Non è necessario cancellare altre informazioni personali (preferiti, cronologia di navigazione/acquisto, condizioni di salute e così via) perché l’associazione alla persona interessata verrà impedita.
+Un’etichetta Elimina è necessaria solo per i campi che contengono un valore che consentirebbe l’associazione di un hit all’interessato (ovvero che consentirebbe l’identificazione dell’interessato). Non è necessario cancellare altre informazioni personali (preferiti, cronologia di navigazione/acquisto, condizioni di salute e così via) non è necessario eliminarlo perché l’associazione con l’interessato verrà interrotta.
 
 | Etichetta | Definizione | Altri requisiti |
 | --- | --- | --- |
-| DEL-DEVICE | Per le richieste di cancellazione Privacy dei dati, i valori in questo campo devono essere resi anonimi solo per le richieste in cui è presente un ID-DEVICE specifico nel risultato.  Se lo stesso valore ricorre in altri risultati, che non vengono cancellati, tali istanze non verranno modificate. Questo comporterà una modifica dei conteggi per i rapporti che elaborano conteggi univoci in questo campo. Nei dispositivi condivisi, questa operazione può rimuovere gli identificatori per altri individui, oltre alla sola persona interessata.  I conteggi non cambiano se il campo ha anche un’etichetta ID-DEVICE e il suo valore in questo campo è stato usato come un ID per la richiesta di Privacy dei dati. | <ul><li>Richiede anche l’etichetta I1 o I2 o S1</li><li>Non può essere impostata negli eventi</li><li>Non può essere impostata nelle eVars Merchandising</li></li><li>Non può essere impostata nelle classificazioni</li><li>È necessario inviare richieste utilizzando un ID-DEVICE o impostare expandIDs su true oppure l’etichetta non verrà mai applicata.</li></ul> |
-| DEL-PERSON | Per le richieste di cancellazione Privacy dei dati, i valori in questo campo devono essere resi anonimi solo per le richieste in cui è presente un ID-PERSON specifico nel risultato.  Se lo stesso valore ricorre in altri risultati, che non vengono cancellati, tali valori non verranno modificati. Questo comporterà una modifica dei conteggi per i rapporti che elaborano conteggi univoci in questo campo. I conteggi non cambiano se il campo ha anche un’etichetta ID-PERSON e il suo valore in questo campo è stato usato come un ID per la richiesta Privacy dei dati. | <ul><li>Richiede anche l’etichetta I1 o I2 o S1</li><li>Non può essere impostata negli eventi</li><li>Non può essere impostata nelle eVars Merchandising</li></li><li>Non può essere impostata nelle classificazioni</li><li>È necessario inviare richieste utilizzando un’etichetta ID-PERSON impostata su alcune variabili in questa suite di rapporti e inviarle con tale ID, altrimenti l’etichetta non verrà mai applicata.</li></ul> |
+| DEL-DEVICE | Per le richieste di cancellazione Privacy dei dati, i valori in questo campo devono essere resi anonimi solo per le richieste in cui è presente un ID-DEVICE specifico nel risultato.  Se lo stesso valore si verifica in altri risultati che non vengono eliminati, le altre istanze non verranno modificate. Questo comporterà una modifica dei conteggi per i rapporti che elaborano conteggi univoci in questo campo. Sui dispositivi condivisi, questo può rimuovere gli identificatori per altri individui, oltre alla sola persona interessata.  I conteggi non cambiano se il campo ha anche un’etichetta ID-DEVICE e il suo valore in questo campo è stato usato come un ID per la richiesta di Privacy dei dati. | <ul><li>Richiede anche l’etichetta I1 o I2 o S1</li><li>Non può essere impostata negli eventi</li><li>Non può essere impostata nelle eVars Merchandising</li></li><li>Non può essere impostata nelle classificazioni</li><li>È necessario inviare richieste utilizzando un ID-DEVICE o impostare expandIDs su true oppure l’etichetta non verrà mai applicata.</li></ul> |
+| DEL-PERSON | Per le richieste di cancellazione Privacy dei dati, i valori in questo campo devono essere resi anonimi solo per le richieste in cui è presente un ID-PERSON specifico nel risultato.  Se lo stesso valore si verifica in altri risultati che non vengono eliminati, gli altri valori non verranno modificati. Questo comporterà la modifica dei conteggi per i rapporti che calcolano conteggi univoci in questo campo. I conteggi non cambiano se il campo ha anche un’etichetta ID-PERSON e il suo valore in questo campo è stato usato come un ID per la richiesta Privacy dei dati. | <ul><li>Richiede anche l’etichetta I1 o I2 o S1</li><li>Non può essere impostata negli eventi</li><li>Non può essere impostata nelle eVars Merchandising</li></li><li>Non può essere impostata nelle classificazioni</li><li>È necessario inviare richieste utilizzando un’etichetta ID-PERSON impostata su alcune variabili in questa suite di rapporti e inviarle con tale ID, altrimenti l’etichetta non verrà mai applicata.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -107,7 +107,7 @@ Puoi anche definire un nuovo namespace. Nelle stringhe del namespace consigliamo
 1. Premi **[!UICONTROL Enter]** per aggiungere questo namespace. Solo a questo punto si attiverà il pulsante Applica.
 1. Fai clic su **[!UICONTROL Apply]**.
 
-La stringa specificata come namespace è la stessa stringa che devi usare quando invii le richieste tramite l’API Privacy dei dati come valore del parametro “namespace”. Per via della richiesta, Adobe Analytics cercherà tutte le variabili in tutte le suite di rapporti che condividono questo namespace per l’ID specificata con la richiesta.
+La stringa specificata come namespace è la stessa stringa che devi usare quando invii le richieste tramite l’API Privacy dei dati come valore del parametro “namespace”. La richiesta quindi fa sì che Adobe Analytics cerchi tutte le variabili in tutte le suite di rapporti che condividono lo spazio dei nomi per l’ID specificato con la richiesta.
 
 Non è necessario specificare le etichette ID-DEVICE o ID-PERSON per tutte le variabili che contengono un ID (per questo si devono usare le etichette I1/I2). Usa questa etichetta se invii le richieste di Privacy dei dati usando gli ID memorizzati in questa variabile e vuoi cercare la variabile per l’ID specificato. Ad esempio, se eVar1 può contenere un indirizzo e-mail e eVar2 può contenere un nome utente di accesso, ma invierai le richieste usando solo il nome utente, puoi assegnare a eVar1 le etichette I1, ACC-PERSON, DEL-PERSON, ma a eVar2 le etichette I2, ACC-PERSON, DEL-PERSON, ID-PERSON con il namespace “nome utente”. Puoi quindi inviare una richiesta con un blocco JSON della sezione utente come ad esempio:
 
@@ -119,9 +119,9 @@ Non è necessario specificare le etichette ID-DEVICE o ID-PERSON per tutte le va
 }
 ```
 
-È consentito usare lo stesso namespace per variabili diverse all’interno della stessa suite di rapporti. Ad esempio, alcune implementazioni personalizzate memorizzano un CRM-ID sia nella proprietà che in eVar. Se CRM-ID si trova sempre in una delle due (ad esempio in eVar) e solo di tanto in tanto nell’altra (prop) e non è mai in prop quando è assente anche in eVar, solo eVar richiede un’etichetta ID e uno spazio dei nomi, perché Adobe può cercare l’ID solo in quell’eVar. Se tuttavia CRM-ID si trova a volte in una variabile e a volte nell’altra, entrambe devono avere lo stesso namespace e Adobe cercherà in entrambe le variabili la presenza dell’ID specificato come parte di una richiesta di Privacy dei dati con questo namespace. È comunque necessario disporre di etichette DEL su tutte queste variabili, in modo che il valore sia anonimo indipendentemente da dove si verifica.
+È consentito usare lo stesso namespace per variabili diverse all’interno della stessa suite di rapporti. Ad esempio, alcune implementazioni personalizzate memorizzano un CRM-ID sia nella proprietà che in eVar. Se CRM-ID si trova sempre in uno di essi (come l’eVar) e solo di tanto in tanto nell’altro (il prop) e non si trova mai nel prop quando non è anche nell’eVar, solo eVar richiede un’etichetta ID e un namespace perché Adobe può cercare l’ID solo in quell’eVar. Se tuttavia CRM-ID si trova a volte in una variabile e a volte nell’altra, entrambe devono avere lo stesso namespace e Adobe cercherà in entrambe le variabili la presenza dell’ID specificato come parte di una richiesta di Privacy dei dati con questo namespace. È comunque necessario disporre di etichette DEL su tutte queste variabili, in modo che il valore sia anonimo indipendentemente da dove si verifica.
 
-Un altro esempio: è possibile che CRM-ID venga inviato a volte tramite eVar1, a volte tramite prop7. In questo caso, una regola di elaborazione copia il valore da eVar1, se esiste, in eVar3. Altrimenti copia il valore da prop7 in eVar3. In questo scenario, eVar3 conterrà sempre l’ID CRM se noto, pertanto solo eVar3 richiede un’etichetta ID-PERSON.
+Un altro esempio: è possibile che CRM-ID venga inviato a volte tramite eVar1, a volte tramite prop7. In questo caso, una regola di elaborazione copia il valore da eVar1, se esiste, in eVar3. In caso contrario, copia il valore da prop7 in eVar3. In questo scenario, eVar3 conterrà sempre l’ID CRM se noto, pertanto solo eVar3 richiede un’etichetta ID-PERSON.
 
 >[!CAUTION]
 >
@@ -129,7 +129,7 @@ Un altro esempio: è possibile che CRM-ID venga inviato a volte tramite eVar1, a
 
 ## Tipi di variabili ed etichette Privacy dei dati supportate {#variable-types}
 
-L’etichettatura relativa alla Privacy dei dati riguarda quattro grandi classi di variabili di Analytics. Le diverse etichette non sono supportate da tutte le variabili. Questa tabella mostra le variabili e le relative etichette supportate da ognuna di esse.
+L’etichettatura relativa alla Privacy dei dati riguarda quattro grandi classi di variabili di Analytics. Le diverse etichette non sono supportate da tutte le variabili. Questa tabella mostra quali variabili supportano o meno le etichette.
 
 | Tipo di variabile | Etichette supportate | Etichette non supportate |
 |--- |--- |--- |
@@ -183,7 +183,7 @@ L’etichettatura relativa alla Privacy dei dati riguarda quattro grandi classi 
    <td colname="col1"> <p>Dimensioni di elaborazione dei dati </p> </td> 
    <td colname="col2"> <p>ID visitatore personalizzato </p> </td> 
    <td colname="col3"> <p>ID-DEVICE / ID-PERSON </p> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Non è possibile rimuovere le etichette ID o DEL (impostate su Nessuno), ma è possibile modificarle nelle varianti DEVICE o PERSON, in base all’implementazione dell’ID personalizzata. </p> <p>Se non usi l’ID visitatore personalizzato, le impostazioni non hanno rilevanza. </p> </td> 
+   <td colname="col4"> <p>Non è possibile rimuovere le etichette ID o DEL (impostate su Nessuno), ma è possibile modificarle nelle varianti DEVICE o PERSON, in base all’implementazione dell’ID personalizzata. </p> <p>Se non utilizzi l’ID visitatore personalizzato, l’impostazione non ha importanza. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -205,7 +205,7 @@ L’etichettatura relativa alla Privacy dei dati riguarda quattro grandi classi 
 
 ## Gestione dell’eliminazione {#deletion}
 
-Il supporto Adobe Analytics per le richieste di eliminazione Privacy dei dati è progettato per ridurre l’impatto sulla creazione di rapporti. Nella maggior parte dei casi, le metriche visualizzate nei rapporti non devono essere modificate. Un rapporto storico eseguito prima dell’eliminazione Privacy dei dati corrisponde allo stesso rapporto eseguito dopo l’eliminazione. Questa operazione viene eseguita disassociando completamente i dati eliminati dai dati interessati, lasciando intatti i dati non-identificabili in modo che i valori del rapporto rimangano coerenti.
+Il supporto Adobe Analytics per le richieste di eliminazione Privacy dei dati è progettato per ridurre l’impatto sulla creazione di rapporti. Nella maggior parte dei casi, le metriche visualizzate nei rapporti non devono essere modificate. Un rapporto storico eseguito prima dell’eliminazione Privacy dei dati corrisponde allo stesso rapporto eseguito dopo l’eliminazione. A tal fine, disassocia completamente i dati eliminati dall’interessato, lasciando intatti i dati non identificabili in modo che i valori riportati rimangano coerenti.
 
 La tabella seguente descrive come vengono “eliminate” molte variabili. Questo non è un elenco completo.
 
@@ -220,20 +220,22 @@ La tabella seguente descrive come vengono “eliminate” molte variabili. Quest
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variabili che non supportano le etichette di eliminazione previste {#no-delete-support}
+## Variabili che potrebbero non supportare le etichette di eliminazione previste {#no-delete-support}
 
-Questa sezione contiene informazioni sulle variabili Analytics che non supportano l’eliminazione. A volte queste variabili vengono eliminate dagli utenti non Analytics (come il team legale) che non conoscono il tipo di dati contenuti nella variabile e fanno supposizioni errate in base al nome della variabile. Segue un elenco di alcune di queste variabili e del perché non richiedono l’eliminazione o perché non richiedono un’etichetta di eliminazione specifica.
+Questa sezione contiene informazioni sulle variabili di Analytics che potrebbero non supportare l’eliminazione. A volte queste variabili vengono eliminate dagli utenti non Analytics (come il team legale) che non conoscono il tipo di dati contenuti nella variabile e fanno supposizioni in base al nome della variabile.
+
+È importante comprendere quale tipo di dati è contenuto in ciascuna variabile prima di prendere una decisione sull&#39;etichettatura o la cancellazione e non basarsi solo sul nome della variabile. Di seguito è riportato un elenco di alcune di queste variabili e del motivo per cui potrebbero non richiedere l’eliminazione o perché potrebbero non richiedere un’etichetta di eliminazione specifica:
 
 | Variabile | Commenti |
 | --- | --- |
-| ID nuovo visitatore | L’ID nuovo visitatore è un booleano che è true la prima volta che viene visualizzato un ID visitatore. Non è necessario eliminarlo una volta che l’ID visitatore è reso anonimo. Una volta reso anonimo, corrisponde alla prima volta che questo ID è stato visto anonimo. |
-| Codice postale<p>Codice postale geografico | I codici postali vengono impostati solo per risposte provenienti dagli Stati Uniti. Non vengono impostate per risposte provenienti dall’UE. Anche se è impostati, forniscono solo un’area geografica ampia che rende difficile la reidentificazione dei dati interessati. |
-| Latitudine geografica<p>Longitudine geografica | Forniscono una posizione approssimativa derivata dall’indirizzo IP. Di norma, la precisione è simile a quella di un codice postale, entro alcune dozzine di chilometri dalla posizione effettiva. |
-| Agente utente | L’agente utente identifica la versione del browser utilizzato. |
-| ID utente | Specifica la suite di rapporti Analytics (come numero) contenente i dati. |
-| ID suite di rapporti | Specifica il nome della suite di rapporti Analytics contenente i dati. |
-| Visitor ID<p>MCID/ECID | Questi ID presentano un’etichetta DEL-DEVICE, ma non è possibile aggiungere l’etichetta DEL-PERSON. Se specifichi [!UICONTROL ID Expansion] con ogni richiesta, questi ID verranno eliminati automaticamente per tutte le richieste di eliminazione, anche quelle che utilizzano un ID-PERSON.<p>Se non si utilizza l’opzione Espansione dell’ID, ma si desidera che questi ID cookie siano resi anonimi nei risultati con un ID corrispondente in un prop o in un eVar, è possibile aggirare questa limitazione di etichettatura etichettando il prop o il eVar con un’etichetta ID-DEVICE, anche se identifica effettivamente una persona (tutte le etichette DEL-PERSON devono essere sostituite dalle etichette DEL-DEVICE). In questo caso, poiché solo alcune istanze dell’ID visitatore o di ECID vengono rese anonime, i conteggi dei visitatori univoci verranno modificati nella cronologia. |
-| ID AMO | L’ID Adobe Advertising Cloud è una variabile di soluzione con un’etichetta [!UICONTROL DEL-DEVICE] non modificabile. Viene compilato da un cookie come l’ID visitatore e l’MCID. Deve essere eliminato dai risultati ogni volta che vengono eliminati altri ID. Per ulteriori informazioni, consultare la descrizione di tali variabili. |
+| [!UICONTROL New Visitor ID] | ID nuovo visitatore è un valore booleano true la prima volta che viene visualizzato un ID visitatore specifico. Non è necessario eliminarlo una volta che l’ID visitatore è reso anonimo. Una volta reso anonimo, corrisponde alla prima volta che questo ID è stato visto anonimo. |
+| [!UICONTROL Zip Code]<p>[!UICONTROL Geo Zip Code] | I codici postali vengono impostati solo per risposte provenienti dagli Stati Uniti. Non vengono impostate per risposte provenienti dall’UE. Anche quando sono impostati, forniscono solo un&#39;ampia area geografica che rende difficile la reidentificazione dell&#39;interessato. |
+| [!UICONTROL Geo Latitude]<p>[!UICONTROL Geo Longitude] | Forniscono una posizione approssimativa derivata dall’indirizzo IP. Di norma, la precisione è simile a quella di un codice postale, entro alcune dozzine di chilometri dalla posizione effettiva. |
+| [!UICONTROL User Agent] | L’agente utente identifica la versione del browser utilizzato. |
+| [!UICONTROL User ID] | Specifica la suite di rapporti Analytics (come numero) contenente i dati. |
+| [!UICONTROL Report Suite ID] | Specifica il nome della suite di rapporti Analytics contenente i dati. |
+| [!UICONTROL Visitor ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Questi ID presentano un’etichetta DEL-DEVICE, ma non è possibile aggiungere l’etichetta DEL-PERSON. Se specifichi [!UICONTROL ID Expansion] con ogni richiesta, questi ID verranno eliminati automaticamente per tutte le richieste di eliminazione, anche quelle che utilizzano un ID-PERSON.<p>Se non si utilizza l’opzione Espansione dell’ID, ma si desidera che questi ID cookie siano resi anonimi nei risultati con un ID corrispondente in un prop o in un eVar, è possibile aggirare questa limitazione di etichettatura etichettando il prop o il eVar con un’etichetta ID-DEVICE, anche se identifica effettivamente una persona (tutte le etichette DEL-PERSON devono essere sostituite dalle etichette DEL-DEVICE). In questo caso, poiché solo alcune istanze dell’ID visitatore o dell’ECID vengono rese anonime, i conteggi dei visitatori univoci verranno modificati nei rapporti storici. |
+| [!UICONTROL AMO ID] | L’ID Adobe Advertising Cloud è una variabile di soluzione con un’etichetta [!UICONTROL DEL-DEVICE] non modificabile. Viene compilato da un cookie come l’ID visitatore e l’MCID. Deve essere eliminato dai risultati ogni volta che vengono eliminati altri ID. Per ulteriori informazioni, consultare la descrizione di tali variabili. |
 
 {style=&quot;table-layout:auto&quot;}
 

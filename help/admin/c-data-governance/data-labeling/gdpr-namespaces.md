@@ -3,10 +3,10 @@ description: A ciascun ID che si desidera cercare viene assegnato uno spazio dei
 title: Namespace
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 A ciascun ID che si desidera cercare viene assegnato uno spazio dei nomi, o namespace, ovvero una stringa personalizzata che identifica l’ID in qualsiasi variabile in cui esso viene usato per tutte le suite di rapporti.
 
-La stringa namespace viene usata per identificare i campi in cui si desidera eseguire le ricerche quando si fornisce un ID come parte di una richiesta di Privacy dei dati. Quando una richiesta di Privacy dei dati viene inviata, la richiesta includerà una sezione JSON che specifica gli ID della persona interessata da usare nella richiesta. È possibile includere più ID come parte di una singola richiesta per una persona interessata. La sezione JSON include:
+La stringa namespace viene usata per identificare i campi in cui si desidera eseguire le ricerche quando si fornisce un ID come parte di una richiesta di Privacy dei dati. Quando viene inviata una richiesta di Privacy dei dati, la richiesta includerà una sezione JSON che specifica gli ID della persona interessata da usare nella richiesta. È possibile includere più ID come parte di una singola richiesta per un interessato. La sezione JSON include:
 
 * Un campo “namespace” contenente la stringa namespace.
 * Un campo “type” che per la maggior parte delle richieste di Adobe Analytics contiene il valore “analytics”.
@@ -38,7 +38,7 @@ Questo valore deve essere specificato come due numeri esadecimali separati da un
 
 È consentito usare `"namespaceId": 10` al posto o in aggiunta di `"namespace": "AAID"` e potresti riscontrare che altri prodotti Adobe usano quel modulo.
 
-## Cookie di tracciamento legacy di Analytics: Modulo obsoleto
+## Cookie di tracciamento legacy di Analytics: modulo obsoleto
 
 ```
 {

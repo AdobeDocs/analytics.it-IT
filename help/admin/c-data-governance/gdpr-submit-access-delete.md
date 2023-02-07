@@ -3,30 +3,30 @@ description: Come inviare ed eliminare le richieste di accesso ai dati in Adobe 
 title: Inviare richieste di accesso e cancellazione
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 100%
+ht-degree: 68%
 
 ---
 
 # Inviare richieste di accesso e cancellazione
 
-Se i tuoi clienti (consumatori/persone interessate) desiderano sapere quali dei loro dati sono in tuo possesso o decidono di voler essere cancellati dalle proprietà di Analytics, in qualità di titolare del trattamento dei dati, rispondere a queste richieste rientra nelle tue responsabilità. Il titolare del trattamento dei dati determina in che modo l’azienda interagirà con le persone interessate (ad esempio attraverso un portale per gli utenti dedicato alle persone interessate) e gestisce le interazioni con gli interessati. Inoltre rientra tra le responsabilità del titolare chiudere il ciclo con la persona interessata quando la richiesta viene soddisfatta. In altre parole, Adobe Experience Cloud, in qualità di responsabile del trattamento dei dati, non riceverà direttamente le richieste dalle persone interessate né restituirà loro i dati. Piuttosto, Adobe potrà solo interagire con te, come titolare del trattamento dei dati, per la ricezione delle richieste e la restituzione dei dati.
+Se i tuoi clienti (consumatori/persone interessate) desiderano sapere quali dati mantieni su di loro o decidono di voler essere cancellati dalle proprietà di Analytics, in qualità di titolare del trattamento dei dati, sei responsabile della risposta a tali richieste. Il Titolare del trattamento dei dati determina in che modo l’organizzazione interagirà con gli interessati (ad esempio, tramite un portale per gli utenti relativo all’interessato) e gestisce le interazioni con l’interessato. È inoltre responsabilità del titolare chiudere il ciclo con l’interessato quando la richiesta viene soddisfatta. In altre parole, Adobe Experience Cloud, in qualità di Incaricato del trattamento dei dati, non accetterà richieste direttamente dagli interessati né restituirà loro i dati direttamente. Al contrario, Adobe riceverà richieste da e restituirà dati solo a te in qualità di Titolare del trattamento dei dati.
 
-È consigliabile accertarsi che le app per dispositivi mobili e i siti web siano dotati di avvisi pop-up e materiale di supporto pertinenti sui diritti della persona interessata per quanto riguarda i dati personali direttamente o indirettamente identificabili e altri dati raccolti.
+Puoi anche accertarti che le tue app mobili e i tuoi siti web abbiano avvisi pop-up e materiali di supporto pertinenti sui diritti degli interessati relativi ai loro dati direttamente o indirettamente identificabili e altri dati che raccogli.
 
 ## Gestire il consenso dei clienti {#section_3012015E7E8942519FB9279CF7057EAB}
 
-In qualità di titolare del trattamento, è tua responsabilità ottenere il consenso esplicito delle persone interessate prima di raccogliere i dati personali (che potrebbero includere i dati di Adobe Analytics) e implementare un [meccanismo di opt-out](https://www.adobe.com/it/privacy/opt-out.html#customeruse) sul sito web. Questo consentirà alle persone interessate di negare future raccolte di dati di Adobe Experience Cloud.
+In qualità di titolare del trattamento dei dati, è tua responsabilità ottenere il consenso esplicito degli interessati prima di raccogliere i dati su di essi (che potrebbero includere i dati di Adobe Analytics) e implementare un [meccanismo di rinuncia](https://www.adobe.com/it/privacy/opt-out.html#customeruse) sul sito web. Questo consente agli interessati di rinunciare alla futura raccolta di dati Adobe Experience Cloud.
 
 ## Convalidare gli utenti e i relativi dati {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-In qualità di titolare del trattamento dei dati, rientra nelle tue responsabilità verificare l’identità della persona interessata e il suo diritto a ricevere i dati che richiede. Inoltre rientra tra le tue responsabilità accertarsi che alla persona interessata siano restituiti i dati corretti e che non riceva inavvertitamente i dati di un’altra persona interessata.
+In qualità di Titolare del trattamento dei dati, è tua responsabilità verificare che l’interessato sia l’interessato che dichiara di essere e che abbia diritto ai dati che richiede. Inoltre, è tua responsabilità garantire che i dati corretti vengano restituiti all’interessato e che non riceva inavvertitamente i dati relativi ad altri interessati.
 
-Questo prevede il controllo dei dati restituiti da Adobe Analytics, come parte della richiesta di accesso alla Privacy dei dati, prima di inviarli alla persona interessata. Particolare attenzione è richiesta nel caso di uso di ID personali e nel caso in cui vengano restituiti non solo i dati in cui è presente l’ID, ma anche i dati per altri risultati su un dispositivo condiviso in cui l’ID era talvolta presente. Consulta [Espansione dell’ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
+Ciò include il controllo dei dati restituiti da Adobe Analytics come parte di una richiesta di accesso alla Privacy dei dati prima di inviarli all’interessato. Particolare attenzione è richiesta nel caso di uso di ID personali e nel caso in cui vengano restituiti non solo i dati in cui è presente l’ID, ma anche i dati per altri risultati su un dispositivo condiviso in cui l’ID era talvolta presente. Consulta [Espansione dell’ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
-Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamente le copie in più dei risultati replicati. Puoi decidere quali di questi file restituire alla persona interessata, oppure puoi estrarre alcuni di questi dati e combinarli con i dati di altri sistemi prima di restituirli alla persona interessata.
+Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamente le copie in più dei risultati replicati. Puoi decidere quali di questi file restituire all’interessato. Oppure puoi estrarre alcuni di questi dati e combinarli con dati di altri sistemi prima di restituirli all’interessato.
 
 ## Inviare le richieste {#submit-requests}
 
@@ -98,7 +98,7 @@ Segue un esempio di codice JSON che potrebbe essere inviato tramite l’API o l�
 } 
 ```
 
-Nota che ci sono tre blocchi nella sezione dell’utente, che rappresentano tre richieste diverse, presumibilmente per tre diverse persone interessate.
+Nella sezione dell’utente sono presenti tre blocchi che rappresentano tre richieste separate, presumibilmente per tre soggetti di dati separati.
 
 * La prima richiesta è una richiesta di accesso che usa un tradizionale cookie di ID Adobe Analytics (AAID).
 * La seconda è una richiesta di accesso che però usa un cookie MCID/ECID.
@@ -117,7 +117,7 @@ Questa sezione contiene i dettagli sulle risposte in merito a richieste di acces
 
 **Dettagli sulle risposte a richieste di accesso**
 
-I dati restituiti per una richiesta di accesso ti forniscono, come titolare del trattamento, l’URL da usare per scaricare un file ZIP contenente una directory per ogni prodotto Adobe che possiedi. Nella cartella di Analytics possono essere presenti:
+I dati restituiti per una richiesta di accesso ti forniscono, Titolare del trattamento, un URL da usare per scaricare un file ZIP contenente una directory per ogni prodotto di Adobe che possiedi. Nella cartella di Analytics possono essere presenti:
 
 * File di persona: derivanti da risultati che contengono un’etichetta ID-PERSON corrispondente
 
@@ -131,7 +131,7 @@ I dati restituiti per una richiesta di accesso ti forniscono, come titolare del 
 
 Ogni file combina i dati di tutte le suite di rapporti, rimuovendo automaticamente le copie in più dei risultati replicati.
 
-Puoi decidere quali di questi restituire alla persona interessata, oppure puoi estrarre alcuni di questi dati e combinarli con i dati di altri sistemi prima di restituirli alla persona interessata.
+Puoi decidere quali di questi restituire all’interessato. Oppure puoi estrarre alcuni di questi dati e combinarli con dati di altri sistemi prima di restituirli all’interessato.
 
 **Dettagli sulle risposte alle richieste di cancellazione**
 

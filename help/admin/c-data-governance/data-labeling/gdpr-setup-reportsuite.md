@@ -3,18 +3,14 @@ description: Etichettare i dati della suite di rapporti significa assegnare etic
 title: Etichettare i dati della suite di rapporti
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 45%
 
 ---
 
 # Etichettare i dati della suite di rapporti
-
->[!NOTE]
->
->Questa interfaccia utente aggiornata è attualmente in fase di test.
 
 Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati prima di tutto di acquisire familiarità con il [etichette e relative definizioni](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
@@ -24,7 +20,7 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
 ## Assegnare o modificare le etichette di privacy della suite di rapporti {#assign-edit}
 
-**Esempio**: in qualità di titolare del trattamento dei dati, pianifica di raccogliere gli indirizzi e-mail e gli ID cookie delle persone interessate per elaborare le loro richieste di Privacy dei dati. Gli ID cookie vengono archiviati in una suite di rapporti in Adobe Analytics.
+**Esempio**: In qualità di titolare del trattamento dei dati, pianifica di raccogliere gli indirizzi e-mail e gli ID cookie degli interessati per elaborare le loro richieste di Privacy dei dati. Gli ID cookie vengono archiviati in una suite di rapporti in Adobe Analytics.
 
 1. In Adobe Analytics, passa a **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Data governance]**.
 
