@@ -5,9 +5,9 @@ feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Per modificare un componente nel dizionario dati:
 
    ![Visualizzazione amministratore del dizionario dati](assets/data-dictionary-admin.png)
 
-1. Assicurati che nel menu a discesa sia selezionata la suite di rapporti corretta.
+1. Assicurati che nel menu a discesa sia selezionata la suite di rapporti corretta. Per impostazione predefinita, viene visualizzata la suite di rapporti già in uso.
 
 1. (Facoltativo) Nel campo di ricerca, inizia a digitare il nome del componente da modificare.
 
