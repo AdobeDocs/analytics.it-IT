@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 64a0bb6e04f4b56cd40676ea1c239f1beef8c41a
+source-git-commit: 8c4535a1811381e7a24735d7cbfffd241d5b19b9
 workflow-type: tm+mt
 source-wordcount: '3570'
 ht-degree: 96%
@@ -27,8 +27,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | --- | --- |
 | **Febbraio 2023** |  |
 | Implementazione | Contenuto aggiornato su come [implementare Adobe Analytics per web e dispositivi mobili](../implement/home.md). |
-| Calendario di Workspace e intervalli di date | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo della formula e modifiche dell’interfaccia utente del calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/components/date-ranges/calendar.md). |
-| Scorecard per dispositivi mobili | Nuova sezione della documentazione per descrivere come mostrare e nascondere gli intervalli di date del confronto. Vedi [Mostra intervalli di date di confronto](/help/mobile-app/create-scorecard.md) in CJA. |
+| Calendario di Workspace e intervalli di date | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo della formula e modifiche dell’interfaccia utente del calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| Scorecard per dispositivi mobili | Nuova sezione della documentazione per descrivere come mostrare e nascondere gli intervalli di date del confronto. Vedi [Mostra intervalli di date di confronto](/help/analyze/mobile-app/create-scorecard.md) in CJA. |
 | **Gennaio 2023** |  |
 | Filtrare e ordinare tabelle | Contenuto aggiornato (incluse l’aggiunta di procedure e la spiegazione delle opzioni disponibili) nel [Filtrare e ordinare tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) articolo. Questo articolo è stato rinominato da &quot;Paginazione, filtro e ordinamento di tabelle&quot;. |
 | Cartelle | Pagine dedicate per [Gestione cartelle](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
