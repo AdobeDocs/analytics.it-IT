@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: Aggiungere cartelle in Workspace
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 66%
 
 ---
 
 # Aggiungere progetti alle cartelle
 
 È possibile aggiungere progetti a una cartella nella vista tabella o dall’interno di una cartella.
+
+>[!NOTE]
+>
+>Solo gli amministratori di Analytics possono aggiungere progetti alla cartella Azienda o creare un nuovo progetto e salvarlo nella cartella Azienda
 
 ## Dalla vista tabella {#table-view}
 
@@ -23,13 +27,15 @@ Aggiungere progetti a una cartella dalla vista tabella nella pagina Home.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. Seleziona **Sposta in**. Viene visualizzata la finestra di dialogo Seleziona cartella.
+1. Seleziona **Sposta in**.
 
-1. Seleziona un nome della cartella dal menu a discesa.
+   Viene visualizzata la finestra di dialogo Seleziona cartella.
+
+1. Nel menu a discesa, selezionate la cartella in cui desiderate spostare i progetti selezionati.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. Fai clic su **Aggiungi**.
+1. Seleziona **Sposta**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -49,25 +55,19 @@ Puoi anche aggiungere progetti dall’interno di una cartella utilizzando il col
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Fai clic sull’icona con i puntini di sospensione **...** in alto a destra.
+1. Seleziona la **...** icona dei puntini di sospensione in alto a destra.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-   In un menu a discesa viene visualizzata l’opzione per aggiungere progetti alla cartella. Altre opzioni consentono di rinominare, spostare o eliminare la cartella e gestire le autorizzazioni relative alla cartella.
 
 1. Seleziona **Aggiungi progetti** e seleziona il progetto che desideri aggiungere dall’elenco a discesa.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
-   È possibile aggiungere più progetti alla cartella.
+
+1. (Facoltativo) Seleziona altri progetti dall’elenco a discesa per aggiungere più progetti.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. Fai clic su **Aggiungi** per aggiungere i progetti alla cartella.
+1. Seleziona **Aggiungi** per aggiungere i progetti alla cartella.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-
-
->[!NOTE]
->
->Solo gli amministratori possono aggiungere progetti alla cartella aziendale o creare un nuovo progetto e salvarlo nella cartella aziendale
