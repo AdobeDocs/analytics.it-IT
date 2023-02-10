@@ -2,10 +2,10 @@
 title: Panoramica sui set di classificazione
 description: Utilizza i set di classificazione per gestire i dati di classificazione.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: 4824170ae2465f3fa04ee588d9571e1cc73d11fc
+source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 44%
+source-wordcount: '251'
+ht-degree: 43%
 
 ---
 
@@ -27,8 +27,8 @@ L’architettura di back-end rilasciata con i set di classificazione contiene di
 
 L’architettura di back-end rilasciata con i set di classificazione contiene anche diverse modifiche di rilievo:
 
-* Quando utilizzi l’importazione del browser, &quot;[!UICONTROL Overwrite on conflict]&#39; è sempre abilitato.
-* Quando utilizzi l’importazione dal browser, l’opzione per esportare immediatamente dopo l’importazione non è più supportata. Le esportazioni devono essere avviate separatamente.
+* Quando utilizzi il browser o l’importazione FTP, &quot;[!UICONTROL Overwrite on conflict]&#39; è sempre abilitato.
+* Quando utilizzi il browser o l’importazione FTP, l’opzione per esportare immediatamente dopo l’importazione non è più supportata. Le esportazioni devono essere avviate separatamente.
 * API di Analytics 2.0 `GetDimensions` endpoint restituisce ora identificatori stringa per le classificazioni anziché identificatori numerici. È ancora possibile utilizzare gli identificatori numerici, ma in Adobe si consiglia di utilizzare, ove possibile, i nuovi identificatori stringa. Gli identificatori numerici possono essere recuperati utilizzando `?expansion=hidden` parametro della stringa query.
 
 
