@@ -4,9 +4,9 @@ title: Creare una scorecard per dispositivi mobili
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: b585743c835312b579ae810a04b7849c5e4f4953
+source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1723'
 ht-degree: 97%
 
 ---
@@ -102,9 +102,9 @@ Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne un
 
 Viene visualizzato il generatore di intervalli di date, in cui è possibile creare e salvare un nuovo componente Intervallo di date.
 
-### Mostra intervalli di date di confronto {#show-comparison-dates}
+### Mostra/Nascondi intervalli di date di confronto {#show-comparison-dates}
 
-Per includere intervalli di date di confronto, attiva **Includi date di confronto** impostazione.
+Per visualizzare o nascondere gli intervalli di date del confronto, attiva/disattiva **Includi date di confronto** impostazione.
 
 ![Includi date di confronto](assets/include-comparison-dates.png)
 
