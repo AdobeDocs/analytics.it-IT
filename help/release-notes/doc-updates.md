@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8c4535a1811381e7a24735d7cbfffd241d5b19b9
+source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3610'
+ht-degree: 95%
 
 ---
 
@@ -29,6 +29,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Implementazione | Contenuto aggiornato su come [implementare Adobe Analytics per web e dispositivi mobili](../implement/home.md). |
 | Calendario di Workspace e intervalli di date | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo della formula e modifiche dell’interfaccia utente del calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Scorecard per dispositivi mobili | Nuova sezione della documentazione per descrivere come mostrare e nascondere gli intervalli di date del confronto. Vedi [Mostra intervalli di date di confronto](/help/analyze/mobile-app/create-scorecard.md) in CJA. |
+| API 1.4 | La [API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) ha ricevuto una riscrittura completa ed è ora pubblicata su Adobe Developer. |
+| Tracciamento tra i tipi di implementazione | È stato aggiornato il caso d’uso [Tracciare diversi tipi di implementazione](../implement/use-cases/cross-type-implementation.md) per soddisfare il servizio Experience Cloud ID. |
 | **Gennaio 2023** |  |
 | Filtrare e ordinare tabelle | Contenuto aggiornato (incluse l’aggiunta di procedure e la spiegazione delle opzioni disponibili) nel [Filtrare e ordinare tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) articolo. Questo articolo è stato rinominato da &quot;Paginazione, filtro e ordinamento di tabelle&quot;. |
 | Cartelle | Pagine dedicate per [Gestione cartelle](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |

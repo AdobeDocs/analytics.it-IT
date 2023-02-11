@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: 5015fd9b4ab98e31f30b4156d11ace554668a4b7
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
@@ -129,7 +129,6 @@ ht-degree: 100%
    + [Creare un livello di dati](prepare/data-layer.md)
    + [Considerazioni globali sulla suite di report](prepare/global-rs.md)
    + [Implementazione dell’assegnazione tag per più suite](prepare/multi-suite-tagging.md)
-   + [Modale di implementazione](prepare/implementation-modal.md)
    + [Creare un documento di progettazione della soluzione](prepare/solution-design.md)
    + [Prendere in consegna un’implementazione Adobe Analytics esistente](prepare/existing-implementation.md)
 + Implementazione di Analytics tramite Experience Platform Edge {#aep-edge}
