@@ -3,16 +3,16 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
+source-git-commit: 1bb989f3a7e1367ddc1cc2d88bcde9aa680ff963
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 44%
+source-wordcount: '1104'
+ht-degree: 41%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (febbraio 2023)
 
-**Ultimo aggiornamento**: 9 febbraio 2023
+**Ultimo aggiornamento**: 13 febbraio 2023
 
 I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -44,6 +44,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 
 | Fine del ciclo di vita del prodotto o della funzione | Data aggiunta o aggiornata | Descrizione |
 | --- | --- | --- |
+| **Fine del ciclo vita del servizio giapponese di tracciamento dei telefoni a funzioni** | 13 febbraio 2023 | Solo per i nostri clienti giapponesi: Alla fine di maggio 2023, il servizio giapponese di tracciamento dei Feature Phone (mod_ktrack) verrà interrotto. Ci scusiamo per l&#39;inconveniente, ma ti chiediamo di disinstallare o disabilitare i moduli installati sul tuo server Apache. Vedere le pagine 27 e 28 in [presente documento](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) di riferimento. |
 | **Fine del ciclo di vita di alcune funzionalità di Reports &amp; Analytics e di pianificazione dei Report Builder** | 9 febbraio 2023 | Le seguenti funzionalità di pianificazione sono scadute il 31 gennaio 2023:<ul><li>Opzione &quot;fine dopo x occorrenze&quot; per le attività orarie nel Report Builder</li><li>Possibilità di pianificare nuovi report e scaricare estratti di dati in Reports and Analytics</li></ul><p>**Nota**: Queste funzioni sono state originariamente interrotte nell’aprile 2022, ma sono state ripristinate. Abbiamo inoltre inviato una notifica del ripristino temporaneo di queste funzioni e della loro reterminazione il 31 gennaio 2023. |
 | **Fine del ciclo di vita della [!UICONTROL Publishing Lists] caratteristica** | 29 settembre 2022 | Come parte della fine del ciclo di vita di Reports &amp; Analytics, gli elenchi di pubblicazione sono destinati a raggiungere la fine del ciclo di vita a **dicembre 2023**. Non sarà possibile creare nuovi elenchi di pubblicazione o accedere a quelli esistenti per inviare o pianificare progetti di Analysis Workspace. |
 | **Fine del ciclo di vita per Data Workbench** | 14 settembre 2022 | Adobe intende terminare il ciclo di vita di Data Workbench a partire dal **31 dicembre 2023**. Vedi [Annuncio della fine del ciclo di vita di Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=it) per i dettagli. Per qualsiasi domanda, contatta l’Adobe Account Manager della tua organizzazione. |
