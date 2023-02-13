@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 6%
+source-wordcount: '718'
+ht-degree: 5%
 
 ---
 # Snippet
@@ -19,16 +19,18 @@ ht-degree: 6%
 
    | Opzione | Funzione |
    |---------|----------|
+   | [!UICONTROL **Approvato**] | Mostra solo i componenti contrassegnati come approvati da un amministratore. |
+   | [!UICONTROL **Preferiti**] | Mostra solo i componenti inclusi nell&#39;elenco dei Preferiti. Per informazioni sull’aggiunta di componenti all’elenco dei preferiti, consulta [Panoramica dei componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensioni**] | Mostra solo i componenti che sono Dimension. (Questa opzione è disponibile anche nel [!UICONTROL **Filtri rapidi**] al primo accesso al dizionario dati). |
    | [!UICONTROL **Metriche**] | Mostra solo i componenti che sono metriche. (Questa opzione è disponibile anche nel [!UICONTROL **Filtri rapidi**] al primo accesso al dizionario dati). |
    | [!UICONTROL **Segmenti**] | Mostra solo i componenti che sono Segmenti. (Questa opzione è disponibile anche nel [!UICONTROL **Filtri rapidi**] al primo accesso al dizionario dati). <!--this is Filters in CJA--> |
    | [!UICONTROL **Intervalli di date**] | Mostra solo i componenti che sono intervalli di date. (Questa opzione è disponibile anche nel [!UICONTROL **Filtri rapidi**] al primo accesso al dizionario dati). |
+   | [!UICONTROL **Mostra tutto**] | Mostra tutti i componenti. Questa opzione è disponibile solo per gli amministratori. |
+   | [!UICONTROL **Non approvato**] | Mostra solo i componenti non ancora contrassegnati come approvati da un amministratore. In qualità di amministratore, è utile per identificare i componenti che richiedono la revisione e l’approvazione dell’utente. Questa opzione è disponibile solo per gli amministratori. |
    | [!UICONTROL **Descrizione mancante**] | Nel campo Descrizione è possibile visualizzare solo i componenti che non dispongono ancora di una descrizione. Questa opzione è disponibile solo per gli amministratori. |
-   | [!UICONTROL **Duplicati**] | Mostra solo i componenti che hanno la stessa etichetta o la stessa descrizione di un altro componente della suite di rapporti selezionata. Questa opzione è disponibile solo per gli amministratori. Le etichette o le descrizioni devono corrispondere esattamente per poter essere visualizzate come duplicati. |
+   | [!UICONTROL **Mostra duplicati**] | Mostra solo i componenti che hanno la stessa etichetta o la stessa descrizione di un altro componente della suite di rapporti selezionata. Le etichette o le descrizioni devono corrispondere esattamente per poter essere visualizzate come duplicati. Questa opzione è disponibile solo per gli amministratori. |
    | [!UICONTROL **Nessun dato recente**] | Mostra solo i componenti che non hanno raccolto dati negli ultimi 90 giorni. Questa opzione è disponibile solo per gli amministratori. |
-   | [!UICONTROL **Creato da Adobe**] | Mostra solo i componenti creati da Adobe. I componenti creati da un amministratore o da un altro utente dell’organizzazione non vengono visualizzati. |
-   | [!UICONTROL **Approvato**] | Mostra solo i componenti contrassegnati come approvati da un amministratore. |
-   | Non approvato (disponibile solo per gli amministratori) | <!--this is in the requirements doc, but I don't see this in the UI--> |
+   | [!UICONTROL **Creato da Adobe**] <!-- I don't see this option--> | Mostra solo i componenti creati da Adobe. I componenti creati da un amministratore o da un altro utente dell’organizzazione non vengono visualizzati. |
 
    {style=&quot;table-layout:auto&quot;}
 

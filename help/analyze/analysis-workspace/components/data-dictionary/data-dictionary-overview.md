@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Il dizionario dati in Analysis Workspace aiuta sia gli utenti che gli amministratori a tenere traccia dei componenti nel proprio ambiente Analytics e a comprenderli meglio.
 
-Gli amministratori di sistema hanno la responsabilità di curare queste informazioni su ogni componente del dizionario dati e di renderle disponibili agli utenti.
+Gli amministratori di Analytics sono responsabili della gestione delle informazioni su ciascun componente nel dizionario dati per renderlo disponibile agli utenti.
 
 ## Vantaggi per gli utenti
 
@@ -33,6 +33,8 @@ Le informazioni disponibili nel dizionario dati includono:
 * Componenti simili a quelli visualizzati
 
 * Se un componente viene approvato dall’amministratore di sistema
+
+Per informazioni su come accedere al dizionario dati e per informazioni dettagliate sulle informazioni in esso contenute, consulta [Visualizzare le informazioni sui componenti nel dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## Vantaggi per gli amministratori
 
@@ -67,7 +69,13 @@ Puoi accedere al dizionario dati in uno dei seguenti modi all’interno di Analy
 
 * Dal menu: [!UICONTROL **Aiuto**] > [!UICONTROL **Dizionario dati**].
 
-   <!--add screenshot-->
+Per informazioni dettagliate sulle varie opzioni disponibili nel dizionario dati, vedi [Visualizzare le informazioni sui componenti nel dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+
+## Aggiornare e curare il dizionario dati
+
+Gli amministratori di Analytics sono responsabili della manutenzione di un dizionario dati sano per la loro organizzazione, come descritto in [Monitorare lo stato del dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+
+Come parte di questo processo, gli amministratori di Analytics possono modificare le informazioni su ciascun componente nel dizionario dati, come descritto in [Modificare le voci del componente nel dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Spostare, minimizzare o chiudere il dizionario dati
 
