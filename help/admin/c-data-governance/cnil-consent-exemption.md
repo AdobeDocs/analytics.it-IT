@@ -3,7 +3,7 @@ description: Scopri le linee guida e le raccomandazioni per il consenso degli ut
 title: Quali sono le linee guida CNIL per il consenso degli utenti e i cookie
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 75%
@@ -46,3 +46,4 @@ Si applicano le seguenti considerazioni aggiuntive:
 
 
 Per ulteriori informazioni, consulta il sito Web [Esenzione dai cookie CNIL](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications).
+

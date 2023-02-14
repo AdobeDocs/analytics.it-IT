@@ -3,7 +3,7 @@ description: La finestra di dialogo Etichettatura privacy per governance dei dat
 title: Visualizzare/gestire le etichette sulla privacy per la governance dei dati
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 43%
@@ -17,15 +17,15 @@ La **[!UICONTROL Privacy Labeling for Data Governance]** fornisce una panoramica
 ## Visualizza etichette privacy {#view-privacy}
 
 1. Accedi ad Adobe Experience Cloud.
-1. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** > **[!UICONTROL Data Governance]**.
+2. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** > **[!UICONTROL Data Governance]**.
 
    >[!NOTE]
    >
    >Se questa voce di menu non viene visualizzata, è necessario aggiungerla a un [profilo di prodotto in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=it) con autorizzazioni per questa funzionalità.
 
-1. In alto a destra, seleziona una suite di rapporti le cui etichette di privacy si desidera visualizzare o gestire.
+3. In alto a destra, seleziona una suite di rapporti le cui etichette di privacy si desidera visualizzare o gestire.
 
-   ![](assets/privacy_labeling.png)
+![](assets/privacy_labeling.png)
 
 | Impostazione | Descrizione |
 | --- | --- |

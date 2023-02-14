@@ -3,7 +3,7 @@ title: Criteri di conservazione dei dati
 description: I criteri di conservazione dei dati determinano per quanto tempo Adobe memorizza i dati.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 14%
@@ -54,3 +54,4 @@ Sì. Adobe può fornire un’immagine dei dati storici di dati grezzi a livello 
 **Quando vengono eliminati i dati in Adobe?**
 
 Contatta l&#39;account manager della tua organizzazione per sapere quando è prevista l&#39;eliminazione dei tuoi dati. I dati vengono generalmente eliminati su base mensile continua.
+
