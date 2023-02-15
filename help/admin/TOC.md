@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 91%
+source-wordcount: '574'
+ht-degree: 93%
 
 ---
 
@@ -163,17 +163,5 @@ ht-degree: 91%
          + [Eseguire la migrazione degli account utente di Analytics per Enterprise ID e Federated ID](admin/user-management2/user-migration/migrate-enterprise.md)
          + [Disattivazione degli accessi legacy](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [API interessate dalla migrazione](admin/user-management2/user-migration/developer.md)
-+ Governance dei dati {#data-governance}
-   + [Flusso di lavoro sulla privacy dei dati di Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Domande frequenti](c-data-governance/gdpr-faq.md)
-   + Etichettatura dei dati {#data-labels}
-      + [Etichette Privacy dei dati per i componenti di Analytics](c-data-governance/data-labeling/gdpr-labels.md)
-      + [Etichettare i dati della suite di rapporti](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [Visualizzare/gestire le etichette di privacy della suite di rapporti](c-data-governance/data-labeling/gdpr-view-settings.md)
-      + [Tecniche di etichettatura consigliate](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-      + [Esempi di etichettatura](c-data-governance/data-labeling/gdpr-labeling-example.md)
-      + [Namespace](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [Espansione dell’ID](c-data-governance/gdpr-id-expansion.md)
-   + [Esenzione dal consenso CNIL](c-data-governance/cnil-consent-exemption.md)
 + [Amministratore API](c-admin-api/c-admin-api.md)
 

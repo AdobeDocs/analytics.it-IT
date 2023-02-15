@@ -3,7 +3,7 @@ title: Criteri di conservazione dei dati
 description: I criteri di conservazione dei dati determinano per quanto tempo Adobe memorizza i dati.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 14%
@@ -35,7 +35,7 @@ Quando i dati superano i criteri di conservazione dei dati, Adobe mantiene il di
 
 ## Visualizza/gestisci criteri di conservazione dei dati correnti
 
-Finestra di dialogo Governance dei dati in [!UICONTROL Admin] Gli strumenti forniscono una panoramica delle suite di rapporti configurate per la governance dei dati. Indica inoltre se sono stati mappati a un&#39;organizzazione Experience Cloud e se sono in vigore criteri di conservazione dei dati per questa suite di rapporti. [Ulteriori informazioni](/help/admin/c-data-governance/an-gdpr-workflow.md)
+Finestra di dialogo Governance dei dati in [!UICONTROL Admin] Gli strumenti forniscono una panoramica delle suite di rapporti configurate per la governance dei dati. Indica inoltre se sono stati mappati a un&#39;organizzazione Experience Cloud e se sono in vigore criteri di conservazione dei dati per questa suite di rapporti. [Ulteriori informazioni](/help/technotes/c-data-governance/an-gdpr-workflow.md)
 
 ## Domande frequenti
 
