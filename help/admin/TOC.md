@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 93%
+source-wordcount: '572'
+ht-degree: 92%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 93%
                + [Firme bot comuni](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Metodi di esclusione bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Impostazioni privacy](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-            + [Marca temporale opzionale](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + [Configurazione dei timestamp](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
             + Inoltro lato server {#server-side-forwarding}
                + [Panoramica sull&#39;inoltro lato server](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [Conformità a RGPD/ePrivacy e inoltro lato server](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
@@ -80,7 +80,7 @@ ht-degree: 93%
                + [Verificare l’implementazione dell’inoltro lato server](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [Domande frequenti sull&#39;inoltro lato server](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + Traffico {#traffic-variables}
-            + [Variabili traffico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [Variabili di traffico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Abilitare i rapporti sulle variabili traffico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [Classificazioni traffico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Descrizioni report personalizzati](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
@@ -99,9 +99,9 @@ ht-degree: 93%
             + [Variabili elenco](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [eVar di merchandising](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + Canali marketing {#marketing-channels}
-            + [Gestire i canali di marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
-            + [Regole di elaborazione per i canali di marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [Classificazioni in canali di marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Marketing Channel Manager](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [Regole di elaborazione per il canale di marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [Classificazioni canale di marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [Scadenza canale di marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Gestione traffico {#traffic-management}
             + [Panoramica](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
