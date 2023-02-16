@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
+source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 92%
+source-wordcount: '588'
+ht-degree: 90%
 
 ---
 
@@ -114,6 +114,10 @@ ht-degree: 92%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Informativa sulla privacy](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + Gestione dei Document Cloud {#doc-cloud-mgt}
+            + [Configurare Document Cloud con Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Configurare il reporting dei Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + [Configurazione di Advertising Analytics](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Tempo reale {#real-time-reports}
             + [Panoramica rapporti in tempo reale](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configurazione rapporti in tempo reale](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
