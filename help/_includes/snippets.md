@@ -1,7 +1,7 @@
 ---
-source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
+source-git-commit: df0d2c4687117fd00714ced56db6259e44698a20
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '751'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,8 @@ ht-degree: 5%
 
 | Opzione | Funzione |
 |---------|----------|
-| [!UICONTROL **Approvato**] | Indica che il componente è stato rivisto e approvato dall’amministratore. Gli amministratori visualizzano un [!UICONTROL **Approvazione richiesta**] per i componenti non approvati. Selezionando questa opzione, l&#39;opzione viene contrassegnata come Approvata. |
+| [!UICONTROL **Approvato**] | <p>Indica che il componente è stato rivisto e approvato dall’amministratore.</p><p>Gli amministratori visualizzano un’opzione per [!UICONTROL **Annulla approvazione**]. Selezionando questa opzione, il componente viene contrassegnato come &quot;Non approvato&quot; dagli utenti.</p> |
+| [!UICONTROL **Non approvato**] | <p>Indica che il componente non è ancora stato rivisto e approvato dall’amministratore.</p><p>Gli amministratori visualizzano un’opzione per [!UICONTROL **Approva**]. Selezionando questa opzione, il componente viene contrassegnato come &quot;Approvato&quot; dagli utenti.</p> |
 | [!UICONTROL **Descrizione**] | Descrive la funzione prevista del componente. (Queste informazioni vengono aggiunte dall’amministratore di Analytics, come descritto in [Aggiungi descrizioni dei componenti](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
 | [!UICONTROL **Frequentemente utilizzato con**] | <p>Mostra i componenti più comunemente utilizzati con il componente che stai visualizzando.</p><p>Sono visualizzati fino a 5 componenti tra i 5 tipi di componenti principali: Metrica, Metrica calcolata, Dimension, Segmento e Intervallo date.</p><p>Questo elenco è basato sui dati degli ultimi 90 giorni. Vengono visualizzati solo i componenti a cui hai accesso. <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **Simile a**] | <p>Mostra i componenti con etichette simili al componente che stai visualizzando.</p><p>Sono visualizzati fino a 5 componenti tra i 5 tipi di componenti principali: Metrica, Metrica calcolata, Dimension, Segmento e Intervallo date.</p><p>Vengono visualizzati solo i componenti a cui hai accesso.</p><p>Eventuali componenti duplicati nella suite di rapporti verranno visualizzati qui. Gli amministratori di Analytics devono identificare e rimuovere tutti i componenti duplicati, come descritto in [Monitorare lo stato del dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
