@@ -3,9 +3,9 @@ title: Visite
 description: Una sequenza di pagine visualizzate in una sessione.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: ceee6f27581abc288ff08134218ae7f6b93e9201
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '656'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Una visita collega sempre a un periodo di tempo, quindi sai se contare una nuova
 * **30 minuti di inattività**: Quasi tutte le sessioni terminano in questo modo. Se trascorrono più di 30 minuti tra un’occorrenza e l’altra, inizia una nuova visita.
 * **12 ore di attività**: Se un utente attiva in modo coerente le richieste di immagini senza spazi di 30 minuti per più di 12 ore, viene avviata automaticamente una nuova visita.
 * **2500 hit**: Se un utente genera un numero elevato di hit senza avviare una nuova sessione, una nuova visita viene conteggiata dopo 2500 richieste di immagini.
-* **100 hit in 100 secondi**: Se una visita è costituita da più di 100 hit che si verificano in meno di 100 secondi, la visita termina automaticamente. Questo comportamento indica tipicamente l’attività bot e questa limitazione viene applicata per migliorare le prestazioni dei report.
+* **100 hit in 100 secondi**: Se una visita ha più di 100 hit che si verificano nei primi 100 secondi della visita, la visita termina automaticamente. Questo comportamento indica tipicamente l’attività bot e questa limitazione viene applicata per migliorare le prestazioni dei report.
 
 Una visita non coincide necessariamente con una sessione del browser a causa dei criteri impostati. Una delle differenze più comuni è la posizione in cui un visitatore accede al sito, lascia aperta la scheda per più di 30 minuti, quindi riprende la navigazione. Anche se questa azione fa tecnicamente parte della stessa sessione di navigazione, l’Adobe considera questa azione due visite separate.
 
