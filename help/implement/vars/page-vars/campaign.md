@@ -1,35 +1,35 @@
 ---
-title: campagna
+title: campaign
 description: Popolare la dimensione "Tracking Code" (Codice di tracciamento).
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 0%
+source-wordcount: '232'
+ht-degree: 27%
 
 ---
 
-# campagna
+# campaign
 
 La `campaign` è dedicata alla raccolta dei codici di tracciamento sul sito. Nelle versioni precedenti di Adobe Analytics, aveva un trattamento speciale in cui poteva essere utilizzato come suddivisione per la maggior parte delle dimensioni. Nella versione corrente di Adobe Analytics, agisce in modo identico a un eVar.
 
-Questa variabile popola la dimensione &quot;Tracking Code&quot; (Codice di tracciamento).
+Questa variabile popola il [Codice di tracciamento](/help/components/dimensions/tracking-code.md) dimensione. In genere ottiene il suo valore da una stringa di query utilizzando [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) metodo di utilità. Tuttavia, l’organizzazione determina esattamente come impostare questa variabile.
 
 ## Campaign utilizzando l’SDK per web
 
-Campaign è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nel campo XDM `marketing.trackingCode`.
+Campaign è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `marketing.trackingCode`.
 
 ## Campaign utilizzando l’estensione Adobe Analytics
 
 Puoi impostare campaign sia durante la configurazione dell’estensione Analytics (variabili globali) che in regole.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà tag desiderata.
-3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
-4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
-5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
-6. Individua il [!UICONTROL Campaign] sezione .
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+2. Fai clic sulla proprietà del tag desiderata.
+3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
+4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
+5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+6. Individua la sezione [!UICONTROL Campaign].
 
 Puoi impostare campaign su un valore o su un parametro di stringa query.
 
