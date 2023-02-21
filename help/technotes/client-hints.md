@@ -2,7 +2,7 @@
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
+source-git-commit: 66c314d45c4ee4f15cc2e7d05ea248b95ff3c717
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 69%
@@ -23,7 +23,7 @@ Google divide gli hint client dall’agente utente in due categorie: hint a bass
 
 A partire da ottobre 2022, nuove versioni dei browser Chromium hanno iniziato a &#39;congelare&#39; la versione del sistema operativo rappresentata nella stringa User-Agent. La versione del sistema operativo è un hint ad alta entropia; per essere certi di includere nei rapporti informazioni accurate sulla versione del sistema operativo è quindi necessario configurare la libreria di raccolta per raccogliere tali hint. Nel corso del tempo, le altre informazioni relative al dispositivo dell’agente utente verranno congelate, e sarà quindi necessario ricorrere agli hint client affinché sia possibile raccogliere nei rapporti informazioni accurate sui dispositivi.
 
-I suggerimenti client verranno incorporati nel processo di ricerca dei dispositivi di Analytics a partire dal 16 febbraio 2023. L’SDK per AppMeasurement e Web supporta attualmente la raccolta di dati dei suggerimenti, ma non verrà utilizzato nella ricerca del dispositivo fino a metà febbraio. Come indicato di seguito la versione del sistema operativo è stata congelata a partire da ottobre ma a causa di un rollout graduale e il fatto che molti agenti utente già forniscono una versione del sistema operativo congelato (vedere di più [qui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it)), si stima che questo influirà su &lt;3% dei visitatori di Chrome.
+I suggerimenti client verranno incorporati nel processo di ricerca dei dispositivi di Analytics a partire da marzo 2023. L’SDK per AppMeasurement e Web supporta attualmente la raccolta di dati dei suggerimenti, ma non verrà utilizzato nella ricerca del dispositivo fino a metà febbraio. Come indicato di seguito la versione del sistema operativo è stata congelata a partire da ottobre ma a causa di un rollout graduale e il fatto che molti agenti utente già forniscono una versione del sistema operativo congelato (vedere di più [qui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it)), si stima che questo influirà su &lt;3% dei visitatori di Chrome.
 
 >[!NOTE]
 >
