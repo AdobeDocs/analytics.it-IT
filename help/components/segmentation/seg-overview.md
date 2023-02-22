@@ -3,9 +3,9 @@ description: I segmenti ti consentono di identificare sottoinsiemi di visitatori
 title: Informazioni sui segmenti
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 385c27de382b7bb047b6c62420d0471dd6e1650d
+source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1153'
 ht-degree: 76%
 
 ---
@@ -53,7 +53,7 @@ Analysis Workspace contiene le seguenti funzionalità aggiuntive:
 
 ## Segmenti forniti da Adobe
 
-La barra dei componenti sul lato sinistro dello schermo mostra i segmenti creati da te e dalla tua azienda, nonché i segmenti di Adobe forniti come predefiniti. Quando fai clic su **[!UICONTROL Show all]**, questi segmenti vengono generalmente visualizzati in fondo all’elenco e sono identificati dal logo di Adobe a destra:
+La barra dei componenti sul lato sinistro dello schermo mostra i segmenti creati da te e dalla tua azienda, nonché i segmenti di Adobe forniti come predefiniti. Quando fai clic su **[!UICONTROL Show all]**, questi segmenti vengono generalmente visualizzati in fondo all’elenco e sono identificati dal logo di Adobe a destra. Elenco parziale dei segmenti forniti da Adobe:
 
 ![Segmenti di Adobe](assets/adobe-segs.png)
 
@@ -76,7 +76,7 @@ I segmenti sequenziali possono essere basati sui seguenti valori hit:
 
 Un segmento sequenziale filtra i set di dati in base alle azioni degli utenti che utilizzano l’operatore [!UICONTROL THEN].
 
-## Video introduttivo {#segment-video}
+## Video sulla segmentazione {#segment-video}
 
 Questo video offre una breve panoramica dei contenitori di segmenti e del loro utilizzo: [Contenitori di segmenti in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 

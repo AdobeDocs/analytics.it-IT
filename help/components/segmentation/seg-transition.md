@@ -3,36 +3,16 @@ description: Domande frequenti sulla gestione dei segmenti legacy.
 title: Domande frequenti sui segmenti legacy
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: e1ba6e93bcea4ece6e06941a97227a54116e2c25
+source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 93%
+source-wordcount: '1440'
+ht-degree: 91%
 
 ---
 
 # Domande frequenti sui segmenti legacy
 
 Risposte alle domande frequenti sulle best practice per la gestione dei segmenti legacy - segmenti creati prima del 2014.
-
-## Best practice {#best-practices}
-
-+++ **Cosa conviene fare con i segmenti duplicati che hanno lo stesso nome ma definizioni diverse?**
-Ora che i segmenti funzionano in più suite di rapporti, potresti avere più segmenti con lo stesso nome. Consigliamo di svolgere una delle seguenti azioni:
-
-* Rinominare i segmenti che hanno lo stesso nome ma definizioni diverse, oppure
-* Eliminare i segmenti non più necessari.
-
-+++
-
-+++ **Cosa consiglia Adobe per quanto riguarda la pulizia dei segmenti?**
-
-* Assegna a tutti i segmenti un tag legacy.
-* Esamina i tuoi segmenti.
-* Aggiungili alla libreria dei segmenti, se applicabile.
-* Approva i segmenti canonici.
-* Assegna tag ai segmenti seguendo le [best practice](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
-
-+++
 
 ## Gestione dei segmenti legacy {#legacy}
 
@@ -70,7 +50,7 @@ Puoi creare o modificare nuovi segmenti di Data Warehouse nel Generatore/Gestore
 
 +++
 
-**Cos’è successo ai segmenti preconfigurati?**
++++ **Cos’è successo ai segmenti preconfigurati?**
 
 * **Visite a pagina singola**
 * **Visite da dispositivi mobili**
@@ -98,7 +78,7 @@ I rapporti esistenti a cui sono applicati questi segmenti continuano a funzionar
 
 +++
 
-+++ **Cosa succederà ai segmenti admin (noti anche come segmenti “globali”)?**
++++ **Cos’è successo ai segmenti admin (noti anche come segmenti &quot;globali&quot;)?**
 
 I segmenti **admin** verranno migrati nella nuova interfaccia dei segmenti e visualizzati come segmenti condivisi con tutti.
 
@@ -110,6 +90,24 @@ I segmenti esistenti che utilizzano una logica che ha subito modifiche nel modo 
 
 +++
 
++++ **Cosa conviene fare con i segmenti duplicati che hanno lo stesso nome ma definizioni diverse?**
+Ora che i segmenti funzionano in più suite di rapporti, potresti avere più segmenti con lo stesso nome. Consigliamo di svolgere una delle seguenti azioni:
+
+* Rinominare i segmenti che hanno lo stesso nome ma definizioni diverse, oppure
+* Eliminare i segmenti non più necessari.
+
++++
+
++++ **Cosa consiglia Adobe per quanto riguarda la pulizia dei segmenti?**
+
+* Assegna a tutti i segmenti un tag legacy.
+* Esamina i tuoi segmenti.
+* Aggiungili alla libreria dei segmenti, se applicabile.
+* Approva i segmenti canonici.
+* Assegna tag ai segmenti seguendo le [best practice](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+
++++
+
 ### Suggerimenti per la migrazione
 
 Di seguito sono riportati alcuni suggerimenti per la migrazione delle dimensioni comuni:
@@ -117,10 +115,7 @@ Di seguito sono riportati alcuni suggerimenti per la migrazione delle dimensioni
 * Geo-città/area geografica/paese: cerca e seleziona città, aree geografiche o paesi specifici invece di utilizzare una corrispondenza parziale.
 * Browser: utilizza la dimensione Tipi di browser per ottenere tutti i browser in un tipo, ad esempio Google Chrome
 * Sistemi operativi: utilizza le dimensioni Tipi di sistema operativo per ottenere tutti i sistemi operativi in un tipo, ad esempio Microsoft Windows.
-
-* [Dimensioni nuove e rinominate](/help/components/segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Modifiche a “contiene”](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Modifiche a “minore di” e “maggiore di”](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* Fai riferimento a &quot;Dimension nuovi e rinominati&quot; (vedi di seguito)
 
 ## Dimensioni nuove e rinominate {#renamed}
 
