@@ -3,10 +3,10 @@ description: Domande frequenti sulla gestione dei segmenti legacy.
 title: Domande frequenti sui segmenti legacy
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 91%
+source-wordcount: '1446'
+ht-degree: 90%
 
 ---
 
@@ -153,8 +153,9 @@ Le dimensioni basate su stringhe che hanno un set noto di valori sono state modi
 
 Le seguenti dimensioni sono state modificate in elenchi enumerati:
 
+| Nome Dimension | Nome Dimension | Nome Dimension |
+| --- | --- | --- |
 | produttore di dispositivi mobili | lunghezza e-mail mobile | profondità colore |
-|---|---|---|
 | dimensioni schermo mobile | numero dispositivo mobile | risoluzione monitor |
 | altezza schermo mobile | push-to-talk per dispositivi mobili | plug-in |
 | supporto cookie per dispositivi mobile | decoration mail mobile | sistema operativo |
@@ -171,7 +172,7 @@ Le seguenti dimensioni sono state modificate in elenchi enumerati:
 
 ## Modifiche alle dimensioni basate su numeri interi con valori noti {#integer-based-dims}
 
-Le dimensioni basate su numeri interi (come la larghezza del browser) con un set di valori noto sono state suddivise in intervalli enumerati, in modo da poter definire rapidamente i segmenti per un intervallo specifico. Gli elenchi enumerati sono seguiti da “ - Bucket” dopo il nome della dimensione. La schermata seguente illustra il modo in cui queste dimensioni vengono segmentate utilizzando l’interfaccia precedente del Generatore di segmenti e l’interfaccia nuova:
+Le dimensioni basate su numeri interi (come la larghezza del browser) con un set di valori noto sono state suddivise in intervalli enumerati, in modo da poter definire rapidamente i segmenti per un intervallo specifico. Gli elenchi enumerati sono seguiti da “ - Bucket” dopo il nome della dimensione. La schermata seguente mostra come queste dimensioni vengono segmentate utilizzando le interfacce del generatore di segmenti precedente e nuova:
 
 ![](assets/seg_browser_dimension.png)
 

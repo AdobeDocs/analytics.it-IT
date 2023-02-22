@@ -4,10 +4,10 @@ keywords: segmentazione;segmenti
 title: Segmentazione di Analytics
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 98%
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,6 @@ La segmentazione di Analytics include il [Generatore di segmenti](/help/componen
 
 I data scientist e gli analisti di marketing possono utilizzare, estendere e perfezionare i segmenti per analisi specifiche in base alle proprie esigenze, quindi salvare il segmento affinché altri utenti possano estenderlo, perfezionarlo e salvarlo come nuovo segmento nella libreria. Viene così avviato un ciclo di progettazione e gestione di informazioni codificate sul pubblico come un [flusso di lavoro del segmento unificato](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-**Introduzione**
+## Introduzione
 
-Inizia con l’[Impostazione di un flusso di lavoro di segmentazione](/help/components/segmentation/segmentation-workflow/seg-workflow.md) o con la [Creazione di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md), oppure consulta le [Informazioni sui segmenti](/help/components/segmentation/seg-overview.md) per una panoramica rapida.
+Vedi [Informazioni sui segmenti](/help/components/segmentation/seg-overview.md) per una rapida panoramica. Quindi vai a [Impostazione di un flusso di lavoro di segmentazione](/help/components/segmentation/segmentation-workflow/seg-workflow.md) o [Creazione di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md).
