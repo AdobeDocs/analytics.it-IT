@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
+source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 97%
+source-wordcount: '687'
+ht-degree: 96%
 
 ---
 
@@ -152,7 +152,8 @@ ht-degree: 97%
    + [Visite](metrics/visits.md)
 + Segmentazione {#segmentation}
    + [Segmentazione di Analytics](segmentation/seg-home.md)
-   + [Informazioni su segmenti e contenitori](segmentation/seg-overview.md)
+   + [Informazioni sui segmenti](segmentation/seg-overview.md)
+   + [Informazioni sui contenitori di segmenti](segmentation/seg-containers.md)
    + [Funzionalità di segmentazione di Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Segmentazione del flusso di lavoro {#segmentation-workflow}
       + [Panoramica sulla segmentazione del flusso di lavoro](segmentation/segmentation-workflow/seg-workflow.md)
@@ -173,7 +174,7 @@ ht-degree: 97%
       + [Compatibilità dei segmenti con Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Diritti del segmento per ruolo](segmentation/seg-reference/seg-rights.md)
       + [Risoluzione dei problemi](segmentation/seg-reference/c-troubleshooting.md)
-   + [Domande frequenti](segmentation/seg-transition.md)
+   + [Domande frequenti sulla gestione dei segmenti legacy ](segmentation/seg-transition.md)
    + [Best practice](segmentation/best-practices.md)
 + Metriche calcolate {#calculated-metrics}
    + [Metriche calcolate e metriche calcolate avanzate (derivate)](c-calcmetrics/cm-overview.md)
