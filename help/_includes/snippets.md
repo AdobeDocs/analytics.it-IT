@@ -1,8 +1,8 @@
 ---
-source-git-commit: df0d2c4687117fd00714ced56db6259e44698a20
+source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 5%
+source-wordcount: '763'
+ht-degree: 15%
 
 ---
 # Snippet
@@ -28,7 +28,7 @@ ht-degree: 5%
    | [!UICONTROL **Mostra tutto**] | Mostra tutti i componenti. Questa opzione è disponibile solo per gli amministratori. |
    | [!UICONTROL **Non approvato**] | Mostra solo i componenti non ancora contrassegnati come approvati da un amministratore. In qualità di amministratore, è utile per identificare i componenti che richiedono la revisione e l’approvazione dell’utente. Questa opzione è disponibile solo per gli amministratori. |
    | [!UICONTROL **Descrizione mancante**] | Nel campo Descrizione è possibile visualizzare solo i componenti che non dispongono ancora di una descrizione. Questa opzione è disponibile solo per gli amministratori. |
-   | [!UICONTROL **Mostra duplicati**] | Mostra solo i componenti che hanno la stessa etichetta o la stessa descrizione di un altro componente della suite di rapporti selezionata. Le etichette o le descrizioni devono corrispondere esattamente per poter essere visualizzate come duplicati. Questa opzione è disponibile solo per gli amministratori. |
+   | [!UICONTROL **Mostra duplicati**] | Mostra solo i componenti che hanno la stessa etichetta o la stessa descrizione di un altro componente della suite di rapporti selezionata. Sono inclusi i componenti creati dall’utente e quelli forniti da Adobe. Le etichette o le descrizioni devono corrispondere esattamente per poter essere visualizzate come duplicati. Questa opzione è disponibile solo per gli amministratori. |
    | [!UICONTROL **Nessun dato recente**] | Mostra solo i componenti che non hanno raccolto dati negli ultimi 90 giorni. Questa opzione è disponibile solo per gli amministratori. |
    | [!UICONTROL **Creato da Adobe**] <!-- I don't see this option--> | Mostra solo i componenti creati da Adobe. I componenti creati da un amministratore o da un altro utente dell’organizzazione non vengono visualizzati. |
 
@@ -51,15 +51,15 @@ ht-degree: 5%
 
 {style=&quot;table-layout:auto&quot;}
 
-## Fase di rilascio Test limitati {#release-limited-testing}
+## Fase di test del rilascio {#release-limited-testing}
 
 >[!AVAILABILITY]
 >
->La funzionalità descritta in questo articolo si trova nella fase di testing limitato della versione e potrebbe non essere ancora disponibile nel tuo ambiente. Questa nota verrà rimossa quando la funzionalità è generalmente disponibile. Per informazioni sul processo di rilascio di Analytics, vedi [Versioni delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
+>La funzionalità descritta in questo articolo si trova nella fase di test del rilascio e potrebbe non essere ancora disponibile nell‘ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, vedi [Versioni delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
 
-## Sezione Test limitati della fase di rilascio {#release-limited-testing-section}
+## Sezione della fase di test del rilascio {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->La funzionalità descritta in questa sezione si trova nella fase di testing limitata della versione e potrebbe non essere ancora disponibile nel tuo ambiente. Questa nota verrà rimossa quando la funzionalità è generalmente disponibile. Per informazioni sul processo di rilascio di Analytics, vedi [Versioni delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
+>La funzionalità descritta in questa sezione si trova nella fase di test del rilascio e potrebbe non essere ancora disponibile nell‘ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, vedi [Versioni delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
 
