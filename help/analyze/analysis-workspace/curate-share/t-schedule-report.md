@@ -5,10 +5,10 @@ title: Programmare progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+source-git-commit: bf9f04ce6ff057ca66bcf0d9cf66540cea160444
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 77%
+source-wordcount: '608'
+ht-degree: 69%
 
 ---
 
@@ -20,12 +20,12 @@ Dal **menu Share** di Workspace, puoi inviare progetti Analysis Workspace tramit
 
 Per inviare immediatamente un file ai destinatari tramite e-mail:
 
-1. Fai clic su **Condividi > Invia subito file**.
+1. Fai clic su **[!UICONTROL Share]>[!UICONTROL Send File Now]**.
 1. Specifica il tipo di file (CSV o PDF).
 1. (Facoltativo) Aggiungi una descrizione del file che verrà inclusa nell’e-mail.
 1. Aggiungi destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
-1. Fai clic su **Invia subito**.
-1. (Facoltativo) Fai clic su **Mostra opzioni di pianificazione** per specificare la pianificazione della consegna.
+1. Fai clic su **[!UICONTROL Send Now]** (Usa modello di attribuzione non predefinito).
+1. (Facoltativo) Fai clic su **[!UICONTROL Show scheduling options]** per specificare una pianificazione della consegna.
 
 ![Invia subito file](assets/send-file-now.png)
 
@@ -33,13 +33,13 @@ Per inviare immediatamente un file ai destinatari tramite e-mail:
 
 Per inviare un file tramite e-mail secondo una pianificazione periodica:
 
-1. Fai clic su **Condividi > Invia file secondo programma**.
+1. Fai clic su **[!UICONTROL Share]>[!UICONTROL Send File on Schedule]**.
 1. Specifica il tipo di file (CSV o PDF).
 1. (Facoltativo) Aggiungi una descrizione del file che verrà inclusa nell’e-mail.
 1. Aggiungi destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
 1. Specifica l’intervallo per il quale la pianificazione deve essere consegnata modificando l’opzione Inizia e Termina negli input. La data di fine deve essere compresa entro un anno dal giorno in cui la pianificazione viene creata o modificata.
 1. Specifica la frequenza di consegna. Ogni frequenza consente diverse personalizzazioni.
-1. Fai clic su **Invia secondo programma**.
+1. Fai clic su **[!UICONTROL Send on schedule]** (Usa modello di attribuzione non predefinito).
 
 ![](assets/send-on-schedule.png)
 
@@ -53,16 +53,16 @@ In Gestione progetti programmati, puoi modificare ed eliminare pianificazioni ri
 
 | Campo | Descrizione |
 | --- | --- |
-| Preferiti | Selezionando l’icona a forma di stella, questa pianificazione diventa un’opzione preferita. |
-| ID pianificazione | Questo ID viene utilizzato principalmente a scopo di debug. |
-| Titolo e descrizione | Titolo e descrizione del progetto. |
-| Proprietario | Utente che ha creato e proprietario del progetto. |
-| Tag | (Facoltativo) L’assegnazione tag è un buon modo per organizzare i progetti. Tutti gli utenti possono creare tag e applicarne uno o più a un progetto. Tuttavia, puoi visualizzare solo i tag per i progetti di tua proprietà o che sono stati condivisi con te. |
-| Consegnato a | Destinatari del progetto pianificato. |
-| Expiration Date (Data di scadenza) | La data di scadenza predefinita è di un anno dalla data di creazione. |
-| Frequenza | Con quale frequenza desideri che questo progetto di pianificazione venga inviato ai destinatari. |
-| Tempo di esecuzione | A che ora viene inviato il progetto pianificato. |
-| Numero di query | Numero di query relative al progetto. |
+| [!UICONTROL Favorites] | Selezionando l’icona a forma di stella, questa pianificazione diventa un’opzione preferita. |
+| [!UICONTROL Schedule ID] | Questo ID viene utilizzato principalmente a scopo di debug. |
+| [!UICONTROL Title and Description] | Titolo e descrizione del progetto. |
+| [!UICONTROL Owner] | Utente che ha creato e proprietario del progetto. |
+| [!UICONTROL Tags] | (Facoltativo) L’assegnazione tag è un buon modo per organizzare i progetti. Tutti gli utenti possono creare tag e applicarne uno o più a un progetto. Tuttavia, puoi visualizzare solo i tag per i progetti di tua proprietà o che sono stati condivisi con te. |
+| [!UICONTROL Delivered To] | Destinatari del progetto pianificato. |
+| [!UICONTROL Expiration Date] | La data di scadenza predefinita dipende dalla frequenza della pianificazione. Vedi &quot;Date di scadenza del progetto programmato&quot; di seguito. |
+| [!UICONTROL Frequency] | Con quale frequenza desideri che questo progetto di pianificazione venga inviato ai destinatari. |
+| [!UICONTROL Execution Time] | A che ora viene inviato il progetto pianificato. |
+| [!UICONTROL Number of Queries] | Numero di query relative al progetto. |
 
 ## Azioni comuni
 
@@ -70,11 +70,20 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 
 | Azione | Descrizione |
 |---|---|
-| **Modifica pianificazione** | Fai clic sul titolo della pianificazione per aggiornare le impostazioni di consegna. |
-| **Elimina pianificazione** | Seleziona il progetto programmato nell’elenco, quindi fai clic su Elimina dal menu. In questo modo verrà eliminata la pianificazione selezionata per il progetto, mentre il progetto stesso non verrà eliminato. |
-| **Aggiungi tag** | Seleziona il progetto programmato nell’elenco, quindi scegli “Assegna tag” o “Approva” per organizzare le pianificazioni e semplificarne la ricerca. |
-| **Visualizza pianificazioni non riuscite** | Passa alla barra a sinistra > Altri filtri > Non riuscite per visualizzare le pianificazioni non riuscite. |
-| **Visualizza pianificazioni scadute** | Passa alla barra a sinistra > Altri filtri > Scadute per visualizzare le pianificazioni scadute. Fai clic sul titolo della pianificazione per impostare una nuova pianificazione di consegna. |
-| **Visualizza ID pianificazione** | Passa alle opzioni della colonna in alto a destra e aggiungi la colonna ID pianificazione alla tabella. L’ID pianificazione è spesso utile per il debug. |
+| **[!UICONTROL Edit schedule]** | Fai clic sul titolo della pianificazione per aggiornare le impostazioni di consegna. |
+| **[!UICONTROL Delete schedule]** | Seleziona il progetto programmato nell’elenco, quindi fai clic su Elimina dal menu. In questo modo verrà eliminata la pianificazione selezionata per il progetto, mentre il progetto stesso non verrà eliminato. |
+| **[!UICONTROL Add tags]** | Seleziona il progetto programmato nell’elenco, quindi scegli “Assegna tag” o “Approva” per organizzare le pianificazioni e semplificarne la ricerca. |
+| **[!UICONTROL View failed schedules]** | Passa alla barra a sinistra > Altri filtri > Non riuscite per visualizzare le pianificazioni non riuscite. |
+| **[!UICONTROL View expired schedules]** | Passa alla barra a sinistra > Altri filtri > Scadute per visualizzare le pianificazioni scadute. Fai clic sul titolo della pianificazione per impostare una nuova pianificazione della consegna. |
+| **[!UICONTROL View schedule ID]** | Passa alle opzioni della colonna in alto a destra e aggiungi la colonna ID pianificazione alla tabella. L’ID pianificazione è spesso utile per il debug. |
 
 Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte. La proprietà del progetto programmato può essere **trasferita** a un nuovo utente in **Amministratore > Utenti e risorse di Analytics > Trasferisci risorse**.
+
+## Date di scadenza del progetto pianificato
+
+Le date di scadenza dei progetti pianificati dipendono dalla frequenza di consegna pianificata:
+
+* Le consegne orarie scadono in una settimana.
+* Le consegne giornaliere scadono in un mese.
+* Le consegne settimanali scadono tra 6 mesi.
+* Le consegne mensili/annuali scadono in un anno.
