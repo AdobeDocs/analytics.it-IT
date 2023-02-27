@@ -2,7 +2,7 @@
 title: Ordine di elaborazione per dati in Adobe Analytics
 description: Scopri l’ordine dei componenti e dei servizi che elaborano i dati in Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
@@ -45,6 +45,6 @@ A questo punto, il singolo hit viene registrato nelle tabelle di dati della suit
 I dati in Adobe Analytics sono per lo più permanenti. Tuttavia, esistono alcune funzioni che possono consentire la modifica o la rimozione selettiva dei dati:
 
 * [**API Data Repair**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): modifica determinate colonne o elimina le righe di dati desiderate.
-* [**Governance dei dati**](/help/technotes/c-data-governance/an-gdpr-workflow.md): soddisfa le richieste di privacy per eliminare definitivamente i dati.
+* [**Governance dei dati**](/help/admin/admin/c-data-governance/an-gdpr-workflow.md): soddisfa le richieste di privacy per eliminare definitivamente i dati.
 * [**Classificazioni**](/help/components/classifications/c-classifications.md): crea dimensioni basate su regole o dati caricati che ti consentono di organizzare i dati in modo diverso. I dati sottostanti della suite di rapporti non vengono modificati, pertanto puoi modificare o sovrascrivere liberamente i dati di classificazione.
 * [**Suite di rapporti virtuale**](/help/components/vrs/vrs-about.md): crea una visualizzazione alternativa della suite di rapporti che può modificare il timeout della visita o consentire [Cross-Device Analytics](/help/components/cda/overview.md).
