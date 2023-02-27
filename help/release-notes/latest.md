@@ -3,16 +3,16 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5eefd324cfb1d9985f21faf3809e889802c96e0c
+source-git-commit: 6d2042359e1ee97ebed0077c9faeceb2cb0fe739
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 55%
+source-wordcount: '1120'
+ht-degree: 53%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (febbraio 2023)
 
-**Ultimo aggiornamento**: 23 febbraio 2023
+**Ultimo aggiornamento**: 27 febbraio 2023
 
 I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -36,7 +36,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
-| **Aggiornamento delle ricerche dei dispositivi a causa di suggerimenti client Google** | 17 febbraio 2023 | **L’utilizzo di suggerimenti client, pianificato per il 16 febbraio 2023, è stato posticipato al fine di garantire una migliore qualità delle ricerche dei dispositivi tramite suggerimenti. Comunicheremo tra breve una nuova data di rollout.** [Ulteriori informazioni](/help/technotes/client-hints.md) |
+| **Aggiornamento delle ricerche dei dispositivi a causa di suggerimenti client Google** | 27 febbraio 2023 | L’utilizzo di suggerimenti client, pianificato per il 16 febbraio 2023, è stato posticipato al fine di garantire una migliore qualità delle ricerche dei dispositivi tramite suggerimenti. Il 27 febbraio 2023 verrà rilasciata la prima fase del rilascio per il supporto di Client Hint. Se tutto va bene, procederemo alla seconda e ultima fase del rilascio giovedì 2 marzo 2023. [Ulteriori informazioni](/help/technotes/client-hints.md) |
 | **Disponibilità del connettore di origine di Analytics** | 15 febbraio 2023 | Il 28 febbraio 2023, il Connettore sorgente di Analytics sarà reso disponibile nel nuovo data center Adobe Experience Platform situato in Canada. |
 | **Migrazione automatica all’architettura del set di classificazioni** | 8 febbraio 2023 | Nei prossimi mesi, Adobe prevede di migrare tutte le classificazioni tra tutte le organizzazioni all’architettura di classificazione più recente. Si stima che gli ultimi clienti che hanno effettuato la migrazione avranno luogo a maggio 2023. Non è richiesta alcuna azione da parte del cliente e non è previsto alcun tempo di inattività. Questa nuova architettura offre numerosi vantaggi, tra cui:<ul><li>Tempi di elaborazione significativamente ridotti (72 ore → 24 ore)</li><li>La possibilità di utilizzare [Set di classificazioni](/help/components/classifications/sets/overview.md) Interfaccia</li><li>L’opzione per utilizzare i dati di classificazione in Adobe Experience Platform in futuro tramite [Connettore sorgente Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>Tieni presente le seguenti modifiche che possono influenzare potenzialmente il flusso di lavoro della tua organizzazione:<ul><li>Quando utilizzi il browser o l’importazione FTP, &quot;[!UICONTROL Overwrite on conflict]&#39; è sempre abilitato.</li><li>Quando utilizzi il browser o l’importazione FTP, l’opzione per esportare immediatamente dopo l’importazione non è più supportata.</li><li>API di Analytics 2.0 `GetDimensions` endpoint restituisce ora identificatori stringa per le classificazioni anziché identificatori numerici. È ancora possibile utilizzare gli identificatori numerici, ma in Adobe si consiglia di utilizzare, ove possibile, i nuovi identificatori stringa. Gli identificatori numerici possono essere recuperati utilizzando `?expansion=hidden` parametro della stringa query.</li></ul>Contatta l’Assistenza clienti di Adobe se desideri una pianificazione della migrazione più specifica per la tua organizzazione o se hai domande o dubbi su questa migrazione. [Ulteriori informazioni](/help/components/classifications/sets/overview.md) |
 
