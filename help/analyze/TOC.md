@@ -7,7 +7,7 @@ user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra c
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
       + Cartelle in Workspace {#workspace-folders}
          + [Informazioni sulle cartelle in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creare cartelle e sottocartelle](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Elimina cartelle](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
+         + [Eliminare le cartelle](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [Aggiungere progetti](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Rimuovere un progetto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Salvare un nuovo progetto](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
