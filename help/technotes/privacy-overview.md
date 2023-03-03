@@ -4,10 +4,10 @@ keywords: privacy
 title: Panoramica sulla privacy
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 77e50dec593722855f30c517f63141e84f665519
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 96%
+source-wordcount: '759'
+ht-degree: 91%
 
 ---
 
@@ -65,12 +65,12 @@ Adobe Analytics raccoglie i dati seguenti:
 | Europa | Adobe ha attivato l’impostazione IP-Obfuscation (oscuramento dell’IP): abilitato - IP rimosso (x.x.x.x) per impostazione predefinita per tutti i clienti con una suite di rapporti nell’area EMEA. Con questa impostazione, l’indirizzo IP verrà completamente sostituito con il valore (x.x.x.x) dopo la geo-lookup e non sarà più disponibile come punto dati. Con questo metodo di sostituzione di base non è possibile risalire a un indirizzo IP univoco specifico. Né il cliente né Adobe possono accedere all’indirizzo IP, che diventa irreversibilmente anonimo. Per maggiori informazioni sulle altre impostazioni di offuscamento dell’IP, consulta le [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) nella guida utente di Amministrazione. |
 | Globale | Un cliente può impostare la variabile “lifetime” del cookie nel codice di misura JavaScript su un valore “none” (nessuno), “session” (sessione) o su un altro valore specificato, espresso in secondi. |
 | Europa | Adobe ha sviluppato una nuova impostazione “privacy by design” che ora può essere abilitata dalle versioni 14.9 e 15.4 di Adobe ClientCare per Adobe Analytics (ex SiteCatalyst). Quando questa nuova impostazione è attivata, l’ultimo ottetto (l’ultima parte) dell’indirizzo IP viene immediatamente sostituito con il valore 0 una volta che l’IP viene raccolto da Adobe. Il processo di anonimizzazione viene eseguito prima dell’elaborazione dell’indirizzo IP, anche prima della geo-lookup e dell’ISP-lookup opzionali dell’indirizzo IP. |
-| Germania | Se non disponi già di un accordo di elaborazione dati per Adobe Analytics stipulato con Adobe, devi contattare il tuo Adobe Account Manager o Customer Success Manager, che collaborerà con l’ufficio legale di Adobe per stipulare l’accordo. |
+| Germania | Se non disponi già di un accordo di elaborazione dati per Adobe Analytics stipulato con Adobe, contatta il team del tuo account Adobe, che collaborerà con l’Ufficio legale di Adobe per stipulare l’accordo. |
 
-## Posizione del centro dati EMEA {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## Posizione del centro dati dell’area EMEA {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
-Il seguente centro dati EMEA ospita attualmente i dati di Adobe Analytics:
+Il seguente data center EMEA ospita attualmente i dati di Adobe Analytics:
 
 | Nome Adobe | Indirizzo | Tipo di impianto (operatore) | Componenti della soluzione supportati | Certificazioni |
 |--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Hemel Hempstead per la via limite HP2 7SU UK | Struttura di localizzazione (Gyron) | Analisi multicanale, analisi digitale | SSAE 16 |
+| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Impianto Di Collocazione (Gyron) | Analisi multicanale, analisi digitale | SSAE 16 |

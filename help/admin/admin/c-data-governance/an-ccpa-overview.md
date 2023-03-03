@@ -3,10 +3,10 @@ description: Questo documento descrive cosa fare in Adobe Analytics per supporta
 title: Adobe Analytics e CCPA
 feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ Consulta [Etichettare i dati della suite di rapporti](/help/admin/admin/c-data-g
 * Se non lo hai già fatto, collega la tua società di accesso a un’organizzazione Experience Cloud. Contatta l’Assistenza clienti di Adobe e fai riferimento a [Organizzazioni e collegamento di account.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=it)
 * Imposta i criteri di conservazione dei dati per ciascuna suite di rapporti in modo da poter rispettare le richieste di accesso e cancellazione del CCPA.
 
-   In Adobe Analytics non è possibile ricevere assistenza per elaborare le richieste per l’API dei servizi di Privacy, ovvero per elaborare le richieste di accesso o cancellazione ricevute dagli utenti finali, se non è stato impostato il periodo di conservazione dei dati. Contatta il tuo Customer Success Manager per impostare il periodo di conservazione dei dati.
+   In Adobe Analytics non è possibile ricevere assistenza per elaborare le richieste per l’API dei servizi di Privacy, ovvero per elaborare le richieste di accesso o cancellazione ricevute dagli utenti finali, se non è stato impostato il periodo di conservazione dei dati. Contatta il team del tuo account Adobe per impostare il periodo di conservazione dei dati.
 
 * Controlla le tue autorizzazioni: per usare l&#39;interfaccia di gestione della governance dei dati in Adobe Analytics, devi essere un amministratore di Adobe Analytics.
 * Prendi in considerazione l’implementazione delle [variabili di gestione del consenso](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) per monitorare lo stato del consenso a livello di hit.

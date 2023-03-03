@@ -3,10 +3,10 @@ description: Se hai copiato le impostazioni da una suite di rapporti esistente, 
 title: Impostazioni non copiate da una suite di rapporti di origine
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ Le seguenti impostazioni non vengono copiate da modelli o suite di rapporti dupl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regole VISTA </p> </td> 
-   <td colname="col2"> <p>Rivolgiti al tuo Customer Success Manager per contattare Engineering Services. </p> </td> 
+   <td colname="col2"> <p>Contatta il tuo Account Team di Adobi per contattare Engineering Services. </p> </td> 
   </tr> 
  </tbody> 
 </table>
