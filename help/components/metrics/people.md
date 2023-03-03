@@ -3,9 +3,9 @@ title: Persone
 description: Il numero di individui univoci, in genere con più dispositivi.
 feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
-source-git-commit: 2f725239404a1d08b63a12c9e6b4e4fa3c35d410
+source-git-commit: 4c329e8868df0a112ddbc710417eefbc5043ec9b
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->La metrica Persone diventerà obsoleta nel 2023. Ulteriori dettagli sui tempi esatti saranno comunicati tramite le Note sulla versione.
+>La metrica Persone che si riferisce a Device Co-op diventerà obsoleta nel 2023. La metrica Persone relativa a CDA descritta di seguito non è interessata da questa rimozione.
 
 La metrica &quot;Persone&quot; è specifica per [Analisi cross-device](../cda/overview.md) suite di rapporti virtuali. Rappresenta la somma delle persone identificate nel rapporto, più il numero di dispositivi che non sono identificati come appartenenti a una persona.
 
