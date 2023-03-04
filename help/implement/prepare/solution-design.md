@@ -27,7 +27,7 @@ Un documento di progettazione della soluzione (noto anche come Solution Design R
 
 Quando si determinano i dati da raccogliere, è facile dire &quot;tutto&quot;, tuttavia ciò può diventare rapidamente difficile da gestire e può persino fornire meno valore rispetto alla raccolta di quantità più concise di dati.
 
-1. **Determina gli indicatori di prestazioni chiave.** Cosa volete che facciano in definitiva i visitatori? La risposta a questa domanda varia a seconda del settore e della verticale, e può essere molteplici. Alcuni esempi includono acquisti, registrazioni o clic sugli annunci.
+1. **Determina gli indicatori di prestazioni chiave.** Cosa volete che facciano in definitiva i visitatori? La risposta a questa domanda varia a seconda del settore e del settore verticale, e può essere molteplici. Alcuni esempi includono acquisti, registrazioni o clic sugli annunci.
 1. **Individua i dati più importanti da raccogliere.** Poni le tue domande aziendali alle quali desideri risposte specifiche. Le risposte a queste domande fornirebbero approfondimenti su come migliorare i KPI.
 1. **Prenditi queste domande e determina cosa è necessario per il tracciamento.** Raggruppale in dimensioni e metriche.
    * I Dimension sono variabili che contengono testo. Alcuni esempi includono il termine di ricerca interno, la categoria di prodotto o il nome di un’area su cui un visitatore ha fatto clic.
