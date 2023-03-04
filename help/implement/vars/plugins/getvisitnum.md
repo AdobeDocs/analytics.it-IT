@@ -1,22 +1,20 @@
 ---
 title: getVisitNum
-description: Tieni traccia del numero di visita corrente di un visitatore.
+description: Monitora il numero di visita corrente di un visitatore.
 feature: Variables
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '513'
+ht-degree: 3%
 
 ---
 
 # Plug-in di Adobe: getVisitNum
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
+{{plug-in}}
 
-La `getVisitNum` Il plug-in restituisce il numero di visite per tutti i visitatori che accedono al sito entro il numero di giorni desiderato. Analysis Workspace offre una dimensione &quot;Numero visita&quot; che fornisce funzionalità simili. L’Adobe consiglia di utilizzare questo plug-in se desideri un maggiore controllo sulla modalità di incremento del numero di visite. Questo plug-in non è necessario se la dimensione &quot;Numero visita&quot; integrata in Analysis Workspace è sufficiente per le tue esigenze di reporting.
+Il `getVisitNum` il plug-in restituisce il numero di visita per tutti i visitatori che arrivano sul sito entro il numero di giorni desiderato. Analysis Workspace offre una dimensione &quot;Numero di visite&quot; che offre funzionalità simili. L’Adobe consiglia di utilizzare questo plug-in se desideri un maggiore controllo sull’incremento del numero di visite. Questo plug-in non è necessario se la dimensione integrata &quot;Numero di visite&quot; in Analysis Workspace è sufficiente per le tue esigenze di reporting.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -36,18 +34,18 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -56,19 +54,19 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `getVisitNum` La funzione utilizza i seguenti argomenti:
+Il `getVisitNum` La funzione utilizza i seguenti argomenti:
 
-* **`rp`** (facoltativo, stringa OR intera): Il numero di giorni prima della reimpostazione del contatore del numero di visita.  Predefinito su `365` quando non è impostato.
-   * Quando questo argomento è `"w"`, il contatore riprende alla fine della settimana (questo sabato alle 11:59)
-   * Quando questo argomento è `"m"`, il contatore viene reimpostato alla fine del mese (l’ultimo giorno del mese)
-   * Quando questo argomento è `"y"`, il contatore riprende alla fine dell&#39;anno (31 dicembre)
-* **`erp`** (facoltativo, booleano): Quando il `rp` argomento è un numero, questo argomento determina se la scadenza del numero di visita deve essere estesa. Se impostato su `true`, gli hit successivi al sito reimpostano il contatore dei numeri di visita. Se impostato su `false`, gli hit successivi al sito non si estendono quando il contatore del numero di visite viene reimpostato. Predefinito su `true`. Questo argomento non è valido quando `rp` argomento è una stringa.
+* **`rp`** (facoltativo, numero intero O stringa): il numero di giorni prima che il contatore dei numeri di visita venga ripristinato.  Impostazione predefinita `365` quando non è impostato.
+   * Quando questo argomento è `"w"`, il contatore si ripristina alla fine della settimana (questo sabato alle 23:59)
+   * Quando questo argomento è `"m"`, il contatore si ripristina alla fine del mese (l&#39;ultimo giorno del mese)
+   * Quando questo argomento è `"y"`, il contatore viene ripristinato alla fine dell&#39;anno (31 dicembre)
+* **`erp`** (facoltativo, booleano): quando `rp` argomento è un numero, questo argomento determina se la scadenza del numero di visita deve essere estesa. Se impostato su `true`, gli hit successivi sul sito reimpostano il contatore dei numeri di visita. Se impostato su `false`, gli hit successivi sul sito non si estendono quando il contatore dei numeri di visita si ripristina. Predefinito su `true`. Questo argomento non è valido quando `rp` è una stringa.
 
-Il numero di visite aumenta ogni volta che il visitatore ritorna al tuo sito dopo 30 minuti di inattività. Una chiamata a questa funzione restituisce un numero intero che rappresenta il numero di visita corrente del visitatore.
+Il numero di visite aumenta ogni volta che il visitatore ritorna al sito dopo 30 minuti di inattività. Chiamando questa funzione viene restituito un numero intero che rappresenta il numero di visita corrente del visitatore.
 
-Questo plug-in imposta un cookie di prime parti denominato `"s_vnc[LENGTH]"` dove `[LENGTH]` è il valore trasmesso in `rp` argomento. Ad esempio: `"s_vncw"`, `"s_vncm"`oppure `"s_vnc365"`. Il valore del cookie è una combinazione di un timestamp Unix che rappresenta quando il contatore di visite viene reimpostato, come la fine della settimana, la fine del mese o dopo 365 giorni di inattività. Contiene anche il numero della visita corrente. Questo plug-in imposta un altro cookie denominato `"s_ivc"` è impostato su `true` e scade dopo 30 minuti di inattività.
+Questo plug-in imposta un cookie di prime parti denominato `"s_vnc[LENGTH]"` dove `[LENGTH]` è il valore passato nel `rp` argomento. Ad esempio: `"s_vncw"`, `"s_vncm"`, o `"s_vnc365"`. Il valore del cookie è una combinazione di una marca temporale Unix che rappresenta il ripristino del contatore delle visite, ad esempio fine settimana, fine mese o dopo 365 giorni di inattività. Contiene anche il numero di visita corrente. Questo plug-in imposta un altro cookie denominato `"s_ivc"` impostato su `true` e scade dopo 30 minuti di inattività.
 
 ## Esempi
 
@@ -100,7 +98,7 @@ s.prop3 = getVisitNum("y");
 
 ### 4.11 (30 settembre 2019)
 
-* È stato risolto un problema che causava la `erp` argomento impostato esplicitamente su `false`.
+* È stato risolto un problema a causa del quale `erp` è stato impostato in modo esplicito su `false`.
 
 ### 4.1 (21 maggio 2018)
 
@@ -108,10 +106,10 @@ s.prop3 = getVisitNum("y");
 
 ### 4.0 (17 aprile 2018)
 
-* Rilascio del punto (ricompilato, dimensioni del codice più piccole).
-* Sono stati rimossi gli argomenti dei cookie poiché il plug-in ora genera in modo dinamico i cookie in base ai `rp` argomento)
+* Versione a punti (ricompilata, con codice di dimensioni inferiori).
+* Sono stati rimossi gli argomenti dei cookie perché il plug-in ora genera cookie in modo dinamico in base al `rp` )
 
 ### 3.0 (5 giugno 2016)
 
-* Revisione completa
-* Tutte le soluzioni precedenti disponibili in varie versioni di `getVisitNum` plug-in.
+* Completa revisione
+* Sono state unite tutte le soluzioni precedenti disponibili in varie versioni di `getVisitNum` plug-in.

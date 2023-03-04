@@ -1,22 +1,20 @@
 ---
 title: cleanStr
-description: Rimuovere o sostituire tutti i caratteri non necessari da una stringa.
+description: Rimuovi o sostituisci tutti i caratteri non necessari da una stringa.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 2%
+source-wordcount: '291'
+ht-degree: 6%
 
 ---
 
-# Plug-in di Adobe: cleanStr
+# Plug-in Adobe: cleanStr
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
+{{plug-in}}
 
-La `cleanStr` il plug-in rimuove o sostituisce tutti i caratteri non necessari da una stringa, compresi i caratteri tag HTML, gli spazi bianchi, le tabulazioni e i ritorni a capo/riga. Sostituisce anche le virgolette singole sinistra/destra (`‘` e `’`) con virgolette singole rette (`'`). L’Adobe consiglia di utilizzare questo plug-in se desideri rimuovere caratteri non necessari dai valori delle variabili e la funzione &quot;Testo pulito&quot; nella raccolta dati di Adobe Experience Platform non soddisfa le tue esigenze di implementazione. Questo plug-in non è necessario se i dati raccolti non contengono caratteri non necessari o se la funzione &quot;Testo pulito&quot; nella raccolta dati di Adobe Experience Platform è sufficiente.
+Il `cleanStr` il plug-in rimuove o sostituisce tutti i caratteri non necessari da una stringa, inclusi i caratteri HTML tag, gli spazi vuoti aggiuntivi, le tabulazioni e i ritorni a capo o a nuova riga. Sostituisce inoltre le virgolette singole sinistra/destra (`‘` e `’`) con virgolette semplici (`'`). L’Adobe consiglia di utilizzare questo plug-in se desideri rimuovere i caratteri non necessari dai valori delle variabili e la funzione &quot;Testo pulito&quot; in Raccolta dati di Adobe Experience Platform non soddisfa le tue esigenze di implementazione. Questo plug-in non è necessario se i dati raccolti non contengono caratteri superflui o se è sufficiente la funzione &quot;Testo pulito&quot; in Raccolta dati di Adobe Experience Platform.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -36,18 +34,18 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -56,13 +54,13 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `cleanStr` La funzione utilizza i seguenti argomenti:
+Il `cleanStr` La funzione utilizza i seguenti argomenti:
 
-* **`str`** (obbligatorio, stringa): Il valore che si desidera eliminare dalla codifica HTML, dallo spazio vuoto aggiuntivo, dalle schede o da altri caratteri non necessari.
+* **`str`** (obbligatorio, stringa): valore per il quale si desidera eliminare la codifica HTML, spazi vuoti aggiuntivi, tabulazioni o altri caratteri non necessari.
 
-La funzione restituisce il valore del `str` argomento con tutti i caratteri non necessari rimossi.
+La funzione restituisce il valore della proprietà `str` con tutti i caratteri non necessari rimossi.
 
 ## Esempi
 

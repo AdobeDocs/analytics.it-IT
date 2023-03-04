@@ -1,44 +1,42 @@
 ---
 title: websiteBot
-description: Identificare dinamicamente i bot utilizzando il movimento del mouse.
+description: Identificazione dinamica dei bot mediante il movimento del mouse.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 11%
+source-wordcount: '375'
+ht-degree: 13%
 
 ---
 
-# Plug-in di Adobe: sito webBot
+# Plug-in di Adobe: websiteBot
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
+{{plug-in}}
 
 Il plug-in `websiteBot` consente di verificare dinamicamente se i visitatori del desktop sono bot. Puoi utilizzare questi dati per ottenere una maggiore precisione in tutti i tipi di reportistica e quindi un modo migliore per misurare il traffico del sito legittimo.
 
 Questo plug-in esegue due verifiche:
 
 * Innanzitutto, nel caso di un dispositivo desktop, aggiunge un listener di eventi per il movimento del mouse.
-* Successivamente, determina se il dispositivo è un desktop o un dispositivo mobile che utilizza il `navigator.UserAgent` variabile. I dispositivi mobili vengono ignorati.
+* Quindi, determina se il dispositivo è un dispositivo desktop o mobile utilizzando `navigator.UserAgent` variabile. I dispositivi mobili vengono ignorati.
 
-Se l&#39;agente utente è su un desktop e non viene rilevato alcun movimento del mouse, il plug-in può
+Se l&#39;agente utente si trova su un desktop e non viene rilevato alcun movimento del mouse, il plug-in può
 
-* Effettua una chiamata diretta della regola di chiamata utilizzando l’SDK per web o l’estensione Adobe Analytics, oppure
-* Effettua una chiamata di tracciamento dei collegamenti per indicare che il visitatore non è un bot.
+* Effettuare una chiamata di regola di chiamata diretta utilizzando il Web SDK o l’estensione Adobe Analytics, oppure
+* Effettuare una chiamata di tracciamento dei collegamenti per indicare che il visitatore non è un bot.
 
 ## Prerequisiti
 
-Adobe consiglia quanto segue prima di utilizzare questo plug-in:
+L’Adobe consiglia di effettuare le seguenti operazioni prima di utilizzare questo plug-in:
 
-* **Configurare le impostazioni di eVar**: Imposta un eVar in [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nelle impostazioni della suite di rapporti. Imposta la scadenza su **Mai** o **Visita** e l&#39;assegnazione **&quot;Valore originale (primo)&quot;**. Questo eVar deve essere stabilito in entrambe le circostanze: quando [!UICONTROL Direct Call] o `s.tl` La chiamata viene attivata.
-* **Raccogliere l’agente utente in una variabile separata**: Raccogliere la stringa dell&#39;agente utente in una variabile separata per monitorare l&#39;efficacia di questo plug-in. Imposta un eVar su `navigator.UserAgent` su ogni hit per raccogliere questi dati.
+* **Configurare le impostazioni eVar**: imposta un eVar in [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nelle impostazioni della suite di rapporti. Imposta la scadenza su **Mai** o **Visita** e assegnazione a **&quot;Valore originale (primo)&quot;**. Questo eVar deve essere impostato in entrambe le circostanze: quando [!UICONTROL Direct Call] regola o `s.tl` chiamata attivata.
+* **Raccogli l’agente utente in una variabile separata**: raccogli la stringa dell’agente utente in una variabile separata per monitorare l’efficacia di questo plug-in. Imposta un eVar su `navigator.UserAgent` su ogni hit per raccogliere questi dati.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
 1. Aggiungi un nuovo `websiteBot` regola.
-1. Aggiungi un **Listener di spostamento del mouse** a `websiteBot` con questo codice personalizzato:
+1. Aggiungi un **Listener spostamento mouse** evento al `websiteBot` con questo codice personalizzato:
 
    ```js
    trigger(document.addEventListener('mousemove', function detectMouseMove() {   
@@ -73,18 +71,18 @@ Adobe consiglia quanto segue prima di utilizzare questo plug-in:
       }))
    ```
 
-1. Aggiungi un [!UICONTROL Direct Call] regola che attiva un beacon di Analytics utilizzando `websiteBot` come identificatore. In questo esempio viene utilizzato un `s.tl` chiamata:
+1. Aggiungi un [!UICONTROL Direct Call] regola che attiva un beacon di Analytics utilizzando `websiteBot` come identificatore. In questo esempio viene utilizzato un `s.tl` chiama:
 
-   ![identificatore del sito web](assets/websitebot.png)
+   ![identificatore websiteBot](assets/websitebot.png)
 
-1. Attiva Adobe Analytics - Imposta variabili e Adobe Analytics - Invia azioni beacon nel [!UICONTROL Direct Call] regola.  Un modo per farlo è mostrato nell&#39;esempio seguente:
+1. Attivare le azioni Adobe Analytics - Imposta variabili e Adobe Analytics - Invia beacon in [!UICONTROL Direct Call] regola.  Un modo per farlo è mostrato nell’esempio seguente:
 
-   ![Azioni Invia beacon](assets/websitebot2.png)
+   ![Inviare azioni beacon](assets/websitebot2.png)
 
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -93,9 +91,9 @@ Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement do
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `websiteBot` il plug-in attiva un `s.tl` chiamare se viene rilevato traffico non bot.
+Il `websiteBot` il plug-in genera un `s.tl` effettua la chiamata se viene rilevato traffico non bot.
 
 ## Esempi
 
@@ -116,5 +114,5 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 ### 0.11 (3 giugno 2021)
 
 * È stato aggiornato il codice del plug-in AppMeasurement
-* È stata aggiornata la sezione dell’editor di codice personalizzato con istruzioni estese.
+* È stata aggiornata la sezione dell’editor di codice personalizzato con istruzioni espanse.
 * È stata aggiornata la sezione &quot;Utilizzare il plug-in&quot;.

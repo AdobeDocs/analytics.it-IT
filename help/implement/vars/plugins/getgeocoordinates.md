@@ -1,22 +1,20 @@
 ---
 title: getGeoCoordinates
-description: Monitora la geolocalizzazione di un visitatore.
+description: Tracciare la geolocalizzazione di un visitatore.
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 1%
+source-wordcount: '312'
+ht-degree: 6%
 
 ---
 
 # Plug-in di Adobe: getGeoCoordinates
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
+{{plug-in}}
 
-La `getGeoCoordinates` Il plug-in consente di acquisire la latitudine e la longitudine dei dispositivi dei visitatori. Adobe consiglia di utilizzare questo plug-in se desideri acquisire dati di geolocalizzazione nelle variabili di Analytics.
+Il `getGeoCoordinates` Il plug-in consente di acquisire la latitudine e la longitudine dei dispositivi dei visitatori. L’Adobe consiglia di utilizzare questo plug-in se desideri acquisire dati di geolocalizzazione nelle variabili di Analytics.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -36,18 +34,18 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -56,19 +54,19 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `getGeoCoordinates` La funzione non utilizza argomenti. Restituisce uno dei seguenti valori:
+Il `getGeoCoordinates` La funzione non utilizza alcun argomento. Restituisce uno dei seguenti valori:
 
-* `"geo coordinates not available"`: Per i dispositivi che non dispongono di dati di geolocalizzazione al momento dell&#39;esecuzione del plug-in. Questo valore è comune per il primo hit della visita, soprattutto quando i visitatori hanno bisogno del consenso per tracciare la propria posizione.
-* `"error retrieving geo coordinates"`: Quando il plug-in rileva errori durante il tentativo di recupero della posizione del dispositivo
+* `"geo coordinates not available"`: per dispositivi per i quali non sono disponibili dati di geolocalizzazione al momento dell’esecuzione del plug-in. Questo valore è comune al primo hit della visita, soprattutto quando i visitatori devono fornire il consenso per il tracciamento della loro posizione.
+* `"error retrieving geo coordinates"`: quando il plug-in rileva errori durante il tentativo di recupero del percorso del dispositivo
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Dove [LATITUDINE]/[LONGITUDINE] sono rispettivamente latitudine e longitudine
 
 >[!NOTE]
 >
->I valori delle coordinate vengono arrotondati al quarto decimale più vicino. Ad esempio, il valore di `"40.438635333"` viene arrotondato a `"40.4386"` per limitare il numero di valori univoci da acquisire. I valori sono abbastanza vicini da identificare la posizione esatta del dispositivo a circa 20 piedi.
+>I valori delle coordinate vengono arrotondati al quarto decimale più vicino. Ad esempio, il valore `"40.438635333"` è arrotondato a `"40.4386"` per limitare il numero di valori univoci da acquisire. I valori sono abbastanza vicini da individuare la posizione esatta del dispositivo entro circa 20 piedi.
 
-Questo plug-in utilizza un cookie denominato `"s_ggc"` per memorizzare le coordinate tra i risultati, se necessario.
+Questo plug-in utilizza un cookie denominato `"s_ggc"` per memorizzare le coordinate tra gli hit, se necessario.
 
 ## Esempi
 

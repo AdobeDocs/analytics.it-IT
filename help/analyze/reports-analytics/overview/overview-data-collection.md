@@ -6,9 +6,9 @@ uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '173'
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 100%
 {{ra-eol}}
 
 Scopri come vengono raccolti i dati per Adobe Analytics.
-
-Ogni pagina che Adobe traccia contiene un piccolo frammento di codice JavaScript autorizzato da Adobe. Questo codice viene fornito dal tuo Account Manager.
 
 A un livello elevato, il processo di raccolta dei dati procede come segue:
 

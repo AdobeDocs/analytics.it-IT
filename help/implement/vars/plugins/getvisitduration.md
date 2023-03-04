@@ -1,22 +1,20 @@
 ---
 title: getVisitDuration
-description: Tieni traccia di quanto tempo un visitatore è stato sul sito finora.
+description: Monitora il periodo di tempo in cui un visitatore è stato finora sul sito.
 feature: Variables
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 1%
+source-wordcount: '295'
+ht-degree: 5%
 
 ---
 
 # Plug-in di Adobe: getVisitDuration
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
+{{plug-in}}
 
-La `getVisitDuration` Il plug-in tiene traccia della quantità di tempo in minuti che il visitatore ha visitato il sito fino a quel momento. Adobe consiglia di utilizzare questo plug-in se si desidera tenere traccia del tempo cumulativo sul sito fino a quel momento, o per tenere traccia del tempo necessario per eseguire un&#39;attività. Questo plug-in non tiene traccia del periodo di tempo tra gli eventi; se desideri utilizzare questa funzionalità, utilizza [`getTimeBetweenEvents`](gettimebetweenevents.md) plug-in.
+Il `getVisitDuration` il plug-in tiene traccia della quantità di tempo in minuti in cui il visitatore è stato sul sito fino a quel momento. L’Adobe consiglia di utilizzare questo plug-in se desideri tenere traccia del tempo cumulativo sul sito fino a quel momento o per tenere traccia del tempo necessario per eseguire un’attività. Questo plug-in non tiene traccia del periodo di tempo tra gli eventi. Se si desidera utilizzare questa funzionalità, utilizzare [`getTimeBetweenEvents`](gettimebetweenevents.md) plug-in.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -36,18 +34,18 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -56,16 +54,16 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `getVisitDuration` La funzione non utilizza argomenti. Restituisce uno dei seguenti valori:
+Il `getVisitDuration` La funzione non utilizza alcun argomento. Restituisce uno dei seguenti valori:
 
 * `"first hit of visit"`
 * `"less than a minute"`
 * `"1 minute"`
-* `"[x] minutes"` (4) `[x]` è il numero di minuti trascorsi dall&#39;arrivo del visitatore sul sito)
+* `"[x] minutes"` (dove `[x]` è il numero di minuti trascorsi dall’arrivo del visitatore sul sito)
 
-Questo plug-in crea un cookie di prime parti denominato `"s_dur"`: il numero di millisecondi trascorsi dall’arrivo del visitatore sul sito. Il cookie scade dopo 30 minuti di inattività.
+Questo plug-in crea un cookie di prime parti denominato `"s_dur"`: numero di millisecondi trascorsi dall’arrivo del visitatore sul sito. Il cookie scade dopo 30 minuti di inattività.
 
 ## Esempi
 
@@ -86,4 +84,4 @@ if(inList(s.events, "purchase")) s.eVar56 = getVisitDuration();
 
 ### 2.0 (2 maggio 2018)
 
-* Rilascio a punto (completa reanalisi/riscrittura del plug-in).
+* Versione punto (rianalisi/riscrittura completa del plug-in).

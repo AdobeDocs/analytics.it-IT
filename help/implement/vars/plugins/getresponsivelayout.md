@@ -1,22 +1,20 @@
 ---
 title: getResponsiveLayout
-description: Determinare il layout di un sito Web attualmente in fase di visualizzazione.
+description: Determinare il layout di un sito Web visualizzato.
 feature: Variables
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 2%
+source-wordcount: '357'
+ht-degree: 5%
 
 ---
 
 # Plug-in di Adobe: getResponsiveLayout
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
+{{plug-in}}
 
-La `getResponsiveLayout` Il plug-in consente di tenere traccia di quale versione del sito web dinamico basato sulla progettazione sta attualmente esaminando un visitatore. Adobe consiglia di utilizzare questo plug-in se il sito utilizza una progettazione reattiva e desideri tenere traccia della versione del sito visualizzata da un visitatore. Questo plug-in non è necessario se il sito non utilizza design reattivo.
+Il `getResponsiveLayout` Il plug-in consente di tenere traccia della versione del sito web basato sulla progettazione reattiva che un visitatore sta visitando. L’Adobe consiglia di utilizzare questo plug-in se il sito utilizza il design responsive e se desideri tenere traccia della versione del sito visualizzata da un visitatore. Questo plug-in non è necessario se il sito non utilizza la progettazione reattiva.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -36,18 +34,18 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -56,23 +54,23 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `getResponsiveLayout` La funzione utilizza i seguenti argomenti:
+Il `getResponsiveLayout` La funzione utilizza i seguenti argomenti:
 
-* **`ppw`** (obbligatorio, numero intero): Larghezza massima dei pixel che una finestra del browser può avere prima che la pagina passi da un layout di ritratto del telefono a un layout basato su orizzontale del telefono
-* **`plw`** (obbligatorio, numero intero): Larghezza massima dei pixel che una finestra del browser può avere prima che la pagina passi da un layout orizzontale del telefono a un layout basato su tablet
-* **`tw`** (obbligatorio, numero intero): Larghezza massima dei pixel che una finestra del browser può avere prima che la pagina passi da un layout tablet a un layout basato su desktop
+* **`ppw`** (obbligatorio, numero intero): la larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout con orientamento verticale a un layout con orientamento orizzontale nel telefono
+* **`plw`** (obbligatorio, numero intero): la larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout con orientamento telefonico a un layout basato su tablet
+* **`tw`** (obbligatorio, numero intero): la larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout tablet a uno desktop
 
-Una chiamata a questa funzione restituisce una stringa contenente due parti delimitate da due punti (`:`). La prima parte della stringa contiene uno dei seguenti valori, a seconda della larghezza del browser e degli argomenti precedenti:
+La chiamata di questa funzione restituisce una stringa contenente due parti delimitate da due punti (`:`). La prima parte della stringa contiene uno dei seguenti valori, a seconda della larghezza del browser e degli argomenti sopra riportati:
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
-* `"phone layout"` (per i siti che non dispongono sia di layout verticale che orizzontale)
+* `"phone layout"` (per i siti che non hanno sia layout verticale che layout orizzontale)
 * `"tablet layout"`
 * `"desktop layout"`
 
-La seconda parte della stringa restituita sono le dimensioni di larghezza e altezza del browser. Esempio: `"desktop layout:1243x700"`.
+La seconda parte della stringa restituita è costituita dalle dimensioni di larghezza e altezza del browser. Esempio: `"desktop layout:1243x700"`.
 
 ## Esempi
 

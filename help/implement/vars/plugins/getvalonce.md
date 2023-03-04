@@ -1,22 +1,20 @@
 ---
 title: getValOnce
-description: Impedisci che una variabile di Analytics venga impostata sullo stesso valore due volte di fila.
+description: Impedisci che una variabile Analytics venga impostata sullo stesso valore due volte di fila.
 feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 02b7e45bb4141d92cd37ef7ccbbbb9bdbc70bc2a
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 2%
+source-wordcount: '411'
+ht-degree: 5%
 
 ---
 
-# Plug-in di Adobe: getValOnce
+# Plug-in Adobe: getValOnce
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
+{{plug-in}}
 
-La `getValOnce` il plug-in impedisce che una variabile venga impostata più di una volta sullo stesso valore. Adobe consiglia di utilizzare questo plug-in quando si desidera deduplicare le occorrenze in cui un visitatore aggiorna una pagina o in altro modo visita una pagina specifica più volte. Questo plug-in non è necessario se non sei preoccupato della metrica &quot;Occorrenze&quot; in Analysis Workspace.
+Il `getValOnce` Il plug-in impedisce che una variabile venga impostata più volte sullo stesso valore. L’Adobe consiglia di utilizzare questo plug-in quando desideri deduplicare le occorrenze in cui un visitatore aggiorna una pagina o visita in altro modo una determinata pagina più volte. Questo plug-in non è necessario se non sei preoccupato per la metrica &quot;Occorrenze&quot; in Analysis Workspace.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -36,18 +34,18 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -56,16 +54,16 @@ function getValOnce(vtc,cn,et,ep){var e=vtc,i=cn,t=et,n=ep;  if(arguments&&"-v"=
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `getValOnce` La funzione utilizza i seguenti argomenti:
+Il `getValOnce` La funzione utilizza i seguenti argomenti:
 
-* **`vtc`** (obbligatorio, stringa): Variabile da controllare e vedere se è stata impostata in precedenza su un valore identico
-* **`cn`** (facoltativo, stringa): Nome del cookie che contiene il valore da controllare. Predefinito su `"s_gvo"`
-* **`et`** (facoltativo, numero intero): La scadenza del cookie in giorni (o minuti, a seconda del `ep` (argomento). Predefinito su `0`, che scade alla fine della sessione del browser
-* **`ep`** (facoltativo, stringa): Imposta questo argomento solo se `et` viene impostato anche l&#39;argomento . Imposta questo argomento su `"m"` se vuoi `et` argomento che scade in minuti anziché in giorni. Predefinito su `"d"`, che imposta `et` argomento in giorni.
+* **`vtc`** (obbligatorio, stringa): variabile da verificare e vedere se è stata impostata su un valore identico in precedenza
+* **`cn`** (facoltativo, stringa): nome del cookie che contiene il valore da verificare. Predefinito su `"s_gvo"`
+* **`et`** (facoltativo, numero intero): scadenza del cookie in giorni (o minuti, a seconda del `ep` ). Impostazione predefinita `0`, che scade alla fine della sessione del browser
+* **`ep`** (facoltativo, stringa): imposta questo argomento solo se `et` viene impostato anche. Imposta questo argomento su `"m"` se si desidera `et` l&#39;argomento scade in minuti anziché in giorni. Impostazione predefinita `"d"`, che imposta `et` in giorni.
 
-Se la `vtc` corrispondenza tra argomento e valore cookie, questa funzione restituisce una stringa vuota. Se la `vtc` il valore dell&#39;argomento e del cookie non corrisponde, la funzione restituisce il `vtc` come stringa.
+Se il `vtc` corrisponde al valore di argomento e cookie, questa funzione restituisce una stringa vuota. Se il `vtc` e cookie non corrispondono, la funzione restituisce il `vtc` come stringa.
 
 ## Esempi
 
@@ -84,21 +82,21 @@ s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 
 ### 3.1 (22 settembre 2022)
 
-* È stato corretto un bug per la scadenza
+* È stato corretto un bug di scadenza
 
 ### 3.0 (19 marzo 2021)
 
 * È stato aggiunto il numero di versione come dati contestuali.
 
-### 2,01
+### 2.01
 
 * È stato risolto un problema relativo alla scrittura di cookie.
 
 ### 2.0
 
-* Rilascio del punto (ricompilato, dimensioni del codice più piccole).
+* Versione a punti (ricompilata, con codice di dimensioni inferiori).
 
-### 1.1.
+### 1.1
 
-* È stata aggiunta l’opzione per scegliere minuti o giorni per la scadenza tramite la `t` parametro .
-* Correzione dell&#39;ambito di applicazione `k` utilizzata solo per limitarla al plug-in. Questa modifica impedisce possibili interferenze con altro codice sulla pagina.
+* È stata aggiunta l’opzione per scegliere i minuti o i giorni per la scadenza tramite il `t` parametro.
+* È stato corretto l&#39;ambito del `k` variabile utilizzata per limitarla al solo plug-in. Questa modifica evita possibili interferenze con altri codici sulla pagina.

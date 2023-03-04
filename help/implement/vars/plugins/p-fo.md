@@ -3,20 +3,18 @@ title: p_fo (solo pagina prima)
 description: Assicurati che alcune routine si attivino una sola volta per pagina.
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 1%
+source-wordcount: '463'
+ht-degree: 4%
 
 ---
 
 # Plug-in di Adobe: p_fo (solo pagina prima)
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
+{{plug-in}}
 
-La `p_fo` Il plug-in è un&#39;utility che verifica l&#39;esistenza di un oggetto JavaScript specifico. Se l&#39;oggetto non esiste, il plug-in crea l&#39;oggetto e restituisce `true`. Se l&#39;oggetto JavaScript esiste già nella pagina, restituisce `false`. Questo plug-in è utile per eseguire il codice esattamente una volta su una pagina. Diversi altri plug-in si basano su questo codice per funzionare. Questo plug-in non è necessario se non sei preoccupato del numero di volte in cui il codice viene eseguito su una pagina o se non utilizzi plug-in dipendenti.
+Il `p_fo` Il plug-in è un&#39;utility che verifica l&#39;esistenza di un oggetto JavaScript specifico. Se l&#39;oggetto non esiste, il plug-in crea l&#39;oggetto e restituisce `true`. Se l&#39;oggetto JavaScript esiste già nella pagina, restituisce `false`. Questo plug-in è utile per eseguire il codice esattamente una volta su una pagina. Diversi altri plug-in si basano su questo codice per funzionare. Questo plug-in non è necessario se non sei preoccupato del numero di volte in cui il codice viene eseguito su una pagina o se non utilizzi plug-in dipendenti.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -36,18 +34,18 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -56,21 +54,21 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `p_fo` La funzione utilizza i seguenti argomenti:
+Il `p_fo` La funzione utilizza i seguenti argomenti:
 
-* **su** (obbligatorio, stringa): Nome dell&#39;oggetto JavaScript creato dal plug-in se l&#39;oggetto non esiste ancora nella pagina.
+* **il** (obbligatorio, stringa): nome dell&#39;oggetto JavaScript creato dal plug-in, se l&#39;oggetto non esiste ancora nella pagina.
 
-Se l&#39;oggetto non esiste ancora, questa funzione restituisce `true` e crea l&#39;oggetto. Se l&#39;oggetto esiste già, questa funzione restituisce `false`.
+Se l’oggetto non esiste ancora, questa funzione restituisce `true` e crea l’oggetto. Se l’oggetto esiste già, questa funzione restituisce `false`.
 
-## Chiamate di esempio
+## Esempio di chiamate
 
-### Esempio n. 1
+### Esempio di #1
 
-Il codice seguente controllerà l&#39;esistenza dell&#39;oggetto &quot;myobject&quot; all&#39;interno della pagina.  Se l&#39;oggetto &quot;myobject&quot; non esiste, il codice creerà l&#39;oggetto &quot;myobject&quot; e restituirà il valore true.  Di conseguenza, viene eseguito il codice all’interno dell’istruzione condizionale (ad esempio Console.log(&#39;hello&#39;);).
+Il codice seguente verifica l&#39;esistenza dell&#39;oggetto &quot;myobject&quot; all&#39;interno della pagina.  Se l&#39;oggetto &quot;myobject&quot; non esiste, il codice creerà l&#39;oggetto &quot;myobject&quot; e restituirà il valore true.  Di conseguenza, verrà eseguito il codice all’interno dell’istruzione condizionale (ovvero Console.log(&#39;hello&#39;);).
 
-Se invece l&#39;oggetto &quot;myobject&quot; esiste già quando avviene la chiamata p_fo, la funzione p_fo restituirà il valore di false e, quindi, l&#39;istruzione condizionale verrà considerata false.  In questo caso, il codice all’interno dell’istruzione condizionale non verrà eseguito.
+D&#39;altra parte, se l&#39;oggetto &quot;myobject&quot; esiste già quando viene effettuata la chiamata p_fo, la funzione p_fo restituirà il valore false e, pertanto, l&#39;istruzione condizionale sarà considerata false.  In questo caso, il codice all’interno dell’istruzione condizionale non verrà eseguito.
 
 ```js
 if(p_fo("myobject"))
@@ -79,7 +77,7 @@ if(p_fo("myobject"))
 }
 ```
 
-**NOTA:** Ogni volta che viene caricato un nuovo oggetto pagina/DOM (o la pagina corrente viene ricaricata), l’oggetto specificato nell’argomento on non esisterà più e quindi il plug-in p_fo restituirà nuovamente true la prima volta che viene eseguito dopo il termine del caricamento della pagina.
+**NOTA:** Ogni volta che un nuovo oggetto pagina/DOM viene caricato (o la pagina corrente viene ricaricata), l&#39;oggetto specificato nell&#39;argomento on non esisterà più e pertanto il plug-in p_fo restituirà nuovamente true la prima volta che viene eseguito dopo il completamento del caricamento della pagina.
 
 ## Cronologia versioni
 
@@ -89,9 +87,9 @@ if(p_fo("myobject"))
 
 ### 2.0
 
-* Rilascio del punto (ricompilato, dimensioni del codice più piccole).
-* Tipo di valore restituito modificato da integer a booleano
+* Versione a punti (ricompilata, con codice di dimensioni inferiori).
+* Tipo di valore restituito cambiato da intero a booleano
 
-### 1,0
+### 1.0
 
 * Versione iniziale.

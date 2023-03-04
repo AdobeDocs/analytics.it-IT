@@ -3,20 +3,18 @@ title: getNewRepeat
 description: Tracciare l’attività dei visitatori nuovi rispetto a quelli ripetuti.
 feature: Variables
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 1%
+source-wordcount: '381'
+ht-degree: 4%
 
 ---
 
 # Plug-in di Adobe: getNewRepeat
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
+{{plug-in}}
 
-La `getNewRepeat` Il plug-in consente di determinare se un visitatore del sito è un nuovo visitatore o un visitatore ripetuto entro un numero desiderato di giorni. Adobe consiglia di utilizzare questo plug-in se desideri identificare i visitatori come &quot;nuovi&quot; utilizzando un numero personalizzato di giorni. Questo plug-in non è necessario se le dimensioni Nuovo/Ripeti visitatore in Analysis Workspace soddisfano le esigenze della tua organizzazione.
+Il `getNewRepeat` Il plug-in consente di determinare se un visitatore del sito è un nuovo visitatore o un visitatore ripetuto entro un numero desiderato di giorni. L’Adobe consiglia di utilizzare questo plug-in se desideri identificare i visitatori come &quot;nuovi&quot; utilizzando un numero di giorni personalizzato. Questo plug-in non è necessario se le dimensioni Visitatore nuovo/ripetuto in Analysis Workspace soddisfano le esigenze della tua organizzazione.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -36,18 +34,18 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -56,13 +54,13 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `getNewRepeat` La funzione utilizza i seguenti argomenti:
+Il `getNewRepeat` La funzione utilizza i seguenti argomenti:
 
-* **`d`** (intero, facoltativo): Il numero minimo di giorni necessari tra le visite che reimposta i visitatori su `"New"`. Se questo argomento non viene impostato, viene impostato automaticamente su 30 giorni.
+* **`d`** (numero intero, facoltativo): il numero minimo di giorni necessari tra una visita e l’altra per reimpostare i visitatori su `"New"`. Se questo argomento non è impostato, il valore predefinito è 30 giorni.
 
-Questa funzione restituisce il valore di `"New"` se il cookie impostato dal plug-in non esiste o è scaduto. Restituisce il valore di `"Repeat"` se il cookie impostato dal plug-in esiste e il tempo trascorso dall&#39;hit corrente e il tempo impostato nel cookie è maggiore di 30 minuti. Questa funzione restituisce lo stesso valore per un’intera visita.
+Questa funzione restituisce il valore di `"New"` se il cookie impostato dal plug-in non esiste o è scaduto. Restituisce il valore di `"Repeat"` se il cookie impostato dal plug-in esiste e il tempo trascorso dall’hit corrente e dal momento impostato nel cookie è superiore a 30 minuti. Questa funzione restituisce lo stesso valore per un’intera visita.
 
 Questo plug-in utilizza un cookie denominato `"s_nr[LENGTH]"` dove `[LENGTH]` è uguale a `d` argomento. Il cookie contiene una marca temporale Unix che rappresenta l’ora corrente e lo stato corrente del visitatore (`"New"` o `"Repeat"`).
 
@@ -84,9 +82,9 @@ s.eVar2 = getNewRepeat(365);
 
 ### 2.1 (30 settembre 2019)
 
-* Riorganizzazione della logica JavaScript per ridurre le dimensioni del plug-in
+* Ridisposizione della logica JavaScript per ridurre le dimensioni del plug-in
 
 ### 2.0 (16 aprile 2018)
 
-* Ricompilato con dimensioni di codice più piccole
-* È stata rimossa la possibilità di denominare il cookie per memorizzare le informazioni sulla visita. Il plug-in ora assegna al cookie un nome dinamico in base al valore passato nel `d` argomento.
+* Ricompilato con dimensioni del codice inferiori
+* È stata rimossa la possibilità di denominare il cookie per memorizzare le informazioni sulla visita. Il plug-in ora assegna dinamicamente un nome al cookie in base al valore passato nel `d` argomento.

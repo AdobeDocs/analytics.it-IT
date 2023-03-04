@@ -1,24 +1,22 @@
 ---
 title: getPageLoadTime
-description: Tieni traccia del tempo necessario al caricamento di una pagina.
+description: Monitora il tempo necessario al caricamento di una pagina.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: a00511d62960dc077620b2882f4e7f816267f939
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 3%
+source-wordcount: '438'
+ht-degree: 4%
 
 ---
 
 # Plug-in di Adobe: getPageLoadTime
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
+{{plug-in}}
 
-La `getPageLoadTime` Il plug-in utilizza l&#39;oggetto prestazioni JavaScript per consentire di misurare il tempo necessario al caricamento completo di una pagina. Adobe consiglia di utilizzare questo plug-in per misurare il tempo di caricamento delle pagine.
+Il `getPageLoadTime` Il plug-in utilizza l&#39;oggetto prestazione JavaScript per consentire di misurare il tempo necessario al caricamento completo di una pagina. L’Adobe consiglia di utilizzare questo plug-in per misurare il tempo necessario al caricamento delle pagine.
 
->NOTA/AVVISO: Se stai aggiornando questo plug-in da una versione precedente, molto probabilmente dovrai modificare anche il codice che chiama questa funzione.  Controlla l&#39;implementazione e verifica accuratamente prima dell&#39;implementazione in produzione
+>NOTA/AVVERTENZA: se aggiorni questo plug-in da una versione precedente, molto probabilmente dovrai modificare anche il codice che chiama questa funzione.  Controlla l’implementazione e verifica accuratamente prima di implementare in produzione
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -38,18 +36,18 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,20 +56,20 @@ Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement do
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `getPercentPageViewed` La funzione utilizza i seguenti argomenti:
+Il `getPercentPageViewed` La funzione utilizza i seguenti argomenti:
 
-* **`pv`** (facoltativo, stringa): Dimensione con cui correlare il tempo di caricamento della pagina.  Questo valore deve essere uguale a un valore che identifica la pagina stessa. Se non è impostato, questo argomento viene impostato automaticamente sulla variabile pageName di Adobe AppMeasurement (cioè s.pageName) o sull&#39;URL quando s.pageName non è impostato
+* **`pv`** (facoltativo, stringa): dimensione con cui correlare il tempo di caricamento della pagina.  Questo valore deve essere uguale a un valore che identifica la pagina stessa. Se non viene impostato, l’impostazione predefinita di questo argomento è la variabile pageName di Adobe AppMeasurement (ad esempio s.pageName) oppure l’URL se s.pageName non è impostato
 
-La chiamata di questa funzione non restituisce nulla; imposta invece le seguenti variabili:
+La chiamata di questa funzione non restituisce alcun risultato, ma imposta le seguenti variabili:
 
-* `window._pltPreviousPage`: Il valore della pagina precedente (ovvero ciò che è stato passato nell’argomento pv)
-* `window._pltLoadTime`: Tempo in secondi necessario al caricamento della pagina precedente
+* `window._pltPreviousPage`: valore della pagina precedente (ovvero ciò che è stato passato nell’argomento pv)
+* `window._pltLoadTime`: tempo di caricamento della pagina precedente, in secondi
 
-Il plug-in getPageLoadTime crea un cookie di prima parte:
+Il plug-in getPageLoadTime crea un cookie di prime parti:
 
-* `s_plt`: Tempo, in secondi, necessario per caricare la pagina precedente.  Contiene anche il valore di ciò che è stato passato nell&#39;argomento pv.  Scade alla fine della sessione del browser.
+* `s_plt`: tempo di caricamento della pagina precedente, in secondi.  Contiene anche il valore di ciò che è stato passato nell’argomento pv.  Scade alla fine della sessione del browser.
 
 ## Esempio
 
@@ -94,14 +92,14 @@ if(window._pltPreviousPage)
 
 ### 3.0 (6 dicembre 2022)
 
-* Riscrittura completa del plug-in per renderlo indipendente dalla soluzione.  Ad esempio, questo è ora compatibile con AEP Web SDK
-* Crea la `_pltPreviousPage` e `_pltLoadTime` variabili nell&#39;oggetto finestra (anziché nell&#39;oggetto AppMeasurement s)
+* Riscrittura completa del plug-in per renderlo indipendente dalla soluzione.  Ad esempio, ora è compatibile con AEP Web SDK
+* Crea il `_pltPreviousPage` e `_pltLoadTime` variabili nell&#39;oggetto finestra (anziché nell&#39;oggetto AppMeasurement)
 * Rimuove la necessità del cookie s_pltp: tutto è ora memorizzato solo nel cookie s_plt
 * Include la funzione getVersion per facilitare la risoluzione dei problemi
 
 ### 2.0.1 (26 marzo 2021)
 
-* È stato corretto un problema a causa del quale il plug-in non impostava correttamente i valori sull’oggetto s.
+* È stato risolto un problema che impediva al plug-in di impostare correttamente i valori sull’oggetto s.
 
 ### 2.0 (19 marzo 2021)
 

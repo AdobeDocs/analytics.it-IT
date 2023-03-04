@@ -1,22 +1,20 @@
 ---
 title: addProductEvent
-description: Aggiunge eventi personalizzati alla variabile prodotti ed eventi .
+description: Aggiunge eventi personalizzati alla variabile prodotti ed eventi.
 feature: Variables
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 1%
+source-wordcount: '347'
+ht-degree: 5%
 
 ---
 
 # Plug-in di Adobe: addProductEvent
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting come cortesia per aiutarti a ottenere più valore da Adobe Analytics. L’Assistenza clienti di Adobe non fornisce supporto per questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di aiuto con questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare una riunione con un consulente per l&#39;assistenza.
+{{plug-in}}
 
-La `addProductEvent` il plug-in aggiunge un evento numerico o valutario alla variabile [`products`](../page-vars/products.md) variabile. Adobe consiglia di utilizzare questo plug-in se si desidera aggiungere un evento numerico o valutario al `products` senza preoccuparsi del formato della stringa del prodotto. Questo plug-in non è necessario se non utilizzi eventi numerici o valutari nella variabile `products` variabile.
+Il `addProductEvent` Il plug-in aggiunge un evento numerico o di valuta al [`products`](../page-vars/products.md) variabile. L’Adobe consiglia di utilizzare questo plug-in se desideri aggiungere un evento numerico o di valuta al `products` senza preoccuparsi del formato della stringa di prodotto. Questo plug-in non è necessario se non si utilizzano eventi numerici o di valuta nella `products` variabile.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -36,18 +34,18 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -56,19 +54,19 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `addProductEvent` La funzione utilizza i seguenti argomenti:
+Il `addProductEvent` La funzione utilizza i seguenti argomenti:
 
-* **`en`** (obbligatorio, stringa): L’evento da aggiungere all’ultima voce nel `products` variabile. Se la `products` variabile è vuota, quindi viene creata una voce di prodotto &quot;vuota&quot; con l’evento (e il relativo valore) associato.
-* **`ev`** (obbligatorio, stringa): Il valore assegnato all&#39;evento numerico o valutario nel `en` argomento.  Predefinito su `1` quando non è impostato. Sono validi anche i numeri non racchiusi tra virgolette stringa.
-* **`ap`** (facoltativo, booleano): Se la variabile &quot;products&quot; contiene attualmente più di una voce di prodotto, viene visualizzato il valore `true` o `1`) aggiunge l’evento a tutte le voci di prodotto.  Predefinito su `false` quando non è impostato.
+* **`en`** (obbligatorio, stringa): evento da aggiungere all’ultima voce della sezione `products` variabile. Se il `products` Se la variabile è vuota, viene creata una voce di prodotto &quot;vuota&quot; con l’evento (e il relativo valore) associato.
+* **`ev`** (obbligatorio, stringa): valore assegnato all’evento numerico o di valuta nel `en` argomento.  Impostazione predefinita `1` quando non è impostato. Sono validi anche i numeri non racchiusi tra virgolette.
+* **`ap`** (facoltativo, booleano): se la variabile prodotti contiene attualmente più di una voce di prodotto, il valore `true` (o `1`) aggiunge l&#39;evento a tutte le voci di prodotto.  Impostazione predefinita `false` quando non è impostato.
 
-La `addProductEvent` non restituisce nulla. Al contrario, aggiunge l’evento e il relativo valore al `products` variabile. Il plug-in aggiunge automaticamente anche l’evento al [`events`](../page-vars/events/events-overview.md) , in quanto è necessaria anche in questo caso.
+Il `addProductEvent` non restituisce nulla. Al contrario, aggiunge l’evento e il relativo valore al `products` variabile. Il plug-in aggiunge inoltre automaticamente l’evento al [`events`](../page-vars/events/events-overview.md) variabile, in quanto è obbligatorio anche in questo caso.
 
 ## Cookie
 
-La `addProductEvent` non crea né utilizza cookie.
+Il `addProductEvent` La funzione non crea o utilizza cookie.
 
 ## Esempi
 

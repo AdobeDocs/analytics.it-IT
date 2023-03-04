@@ -4,10 +4,10 @@ description: Il concetto di attribuire il credito di un evento di successo a pi�
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 82%
+ht-degree: 78%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 82%
 Attribution consente agli analisti di personalizzare il modo in cui i valori delle dimensioni ottengono credito per gli eventi di successo. Ad esempio:
 
 1. Un visitatore del sito fa clic su un collegamento di ricerca a pagamento a una delle pagine dei tuoi prodotti. Aggiunge il prodotto al carrello, ma non lo acquista.
-2. Il giorno successivo visualizzano un post sui social media di uno dei loro amici, cliccano sul link e completano l&#39;acquisto.
+2. Il giorno successivo, viene visualizzato un post di social media di uno dei loro amici, fai clic sul collegamento e completa l’acquisto.
 
-In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta l’Account Manager della tua organizzazione.
+In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta il team del tuo account Adobe.
 
 ## Valore di Attribution IQ
 
@@ -56,14 +56,14 @@ Attribution IQ nelle metriche calcolate
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Utilizzando il pannello Attribution IQ:
+Utilizzo del pannello Attribution IQ:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Aggiunta di confronti affiancati dei modelli di Attribution IQ:
+Aggiunta di confronti affiancati di modelli di Attribution IQ:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Strumenti Adobe Analytics che non supportano Attribution IQ
+## Strumenti di Adobe Analytics che non supportano Attribution IQ
 
-Gli strumenti che non supportano l’API di Analytics 2.0, ad esempio Report Builder, non supportano Attribution IQ.
+Gli strumenti che non supportano l’API di Analytics 2.0, come Report Builder, non supportano Attribution IQ.
