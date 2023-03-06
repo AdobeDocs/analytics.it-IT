@@ -2,10 +2,10 @@
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 58937630e6173013b622deec0433ef67b483c483
+source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 69%
+source-wordcount: '1279'
+ht-degree: 66%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 69%
 
 Gli hint client sono singole informazioni relative al dispositivo di un utente. Sono forniti dai browser basati su Chromium, come ad esempio Google Chrome e Microsoft Edge. Per questi browser, gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo. Adobe Analytics aggiornerà il processo di ricerca di informazioni sui dispositivi in modo da utilizzare, oltre all’agente utente, anche gli hint client per determinare le informazioni sul dispositivo.
 
-## Suggerimenti per client a bassa entropia e alta entropia
+## Hint client a bassa entropia e ad alta entropia
 
 Google divide gli hint client dall’agente utente in due categorie: hint a bassa entropia e ad alta entropia.
 
@@ -21,15 +21,15 @@ Google divide gli hint client dall’agente utente in due categorie: hint a bass
 
 * Gli hint ad **alta entropia** contengono informazioni più dettagliate. Questi sono disponibili solo su richiesta. Le librerie AppMeasurement e Web SDK possono essere configurate per richiedere hint ad alta entropia. Per impostazione predefinita, entrambe le librerie **non** richiedono hint ad alta entropia.
 
-A partire da ottobre 2022, nuove versioni dei browser Chromium hanno iniziato a &#39;congelare&#39; la versione del sistema operativo rappresentata nella stringa User-Agent. La versione del sistema operativo è un hint ad alta entropia; per essere certi di includere nei rapporti informazioni accurate sulla versione del sistema operativo è quindi necessario configurare la libreria di raccolta per raccogliere tali hint. Nel corso del tempo, le altre informazioni relative al dispositivo dell’agente utente verranno congelate, e sarà quindi necessario ricorrere agli hint client affinché sia possibile raccogliere nei rapporti informazioni accurate sui dispositivi.
+A partire da ottobre 2022, le nuove versioni dei browser basati su Chromium hanno iniziato a &quot;congelare&quot; la versione del sistema operativo rappresentata nella stringa dell’agente utente. La versione del sistema operativo è un hint ad alta entropia; per essere certi di includere nei rapporti informazioni accurate sulla versione del sistema operativo è quindi necessario configurare la libreria di raccolta per raccogliere tali hint. Nel corso del tempo, le altre informazioni relative al dispositivo dell’agente utente verranno congelate, e sarà quindi necessario ricorrere agli hint client affinché sia possibile raccogliere nei rapporti informazioni accurate sui dispositivi.
 
-I suggerimenti client verranno incorporati nel processo di ricerca dei dispositivi di Analytics a partire dal 27 febbraio 2023 e a conclusione il 2 marzo 2023. L’SDK per AppMeasurement e Web supporta attualmente la raccolta di dati dei suggerimenti, ma non verrà utilizzato nella ricerca del dispositivo fino a metà febbraio. Come indicato di seguito la versione del sistema operativo è stata congelata a partire da ottobre ma a causa di un rollout graduale e il fatto che molti agenti utente già forniscono una versione del sistema operativo congelato (vedere di più [qui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it)), si stima che questo influirà su &lt;3% dei visitatori di Chrome.
+Gli hint client verranno incorporati nel processo di ricerca del dispositivo di Analytics a partire dal 27 febbraio 2023 e fino al 2 marzo 2023. AppMeasurement e Web SDK supportano attualmente la raccolta di dati hint, ma non verranno utilizzati nella ricerca del dispositivo fino a metà febbraio. Come indicato di seguito, la versione del sistema operativo è stata congelata a partire da ottobre, ma a causa di un rollout graduale e del fatto che molti agenti utente forniscono già una versione del sistema operativo congelata (vedi altro [qui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it)), prevediamo che questo interesserà &lt;3% dei visitatori di Chrome.
 
 >[!NOTE]
 >
-> A partire da gennaio 2023, alcune versioni dei sistemi operativi Mac e Windows non sono correttamente rappresentate nell&#39;Agente utente, ma sono correttamente rappresentate nei suggerimenti client ad alta entropia. Vedi [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it) per ulteriori informazioni.
+> A partire da gennaio 2023, alcune versioni dei sistemi operativi Mac e Windows non sono rappresentate correttamente nell’agente utente, ma sono correttamente rappresentate negli hint client ad alta entropia. Consulta [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it) per ulteriori informazioni.
 
-AAM richiede la raccolta di hint di entropia elevati per preservare la funzionalità completa. Se utilizzi l’[inoltro lato server ad AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
+L’AAM richiede la raccolta di hint ad alta entropia per preservare la piena funzionalità. Se utilizzi l’[inoltro lato server ad AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
 
 ## Domande frequenti
 
@@ -41,17 +41,19 @@ Questo [articolo di blog di Google](https://web.dev/user-agent-client-hints/) è
 
 +++**Come si abilita la raccolta di hint client?**
 
-Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Vedere le indicazioni per [SDK per web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
+Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consultare le istruzioni per [SDK per web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Per entrambe le librerie, la raccolta di hint ad alta entropia è **disattivata per impostazione predefinita**.
 
-Per i dati inviati tramite API, ad esempio tramite [API di inserimento dati](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o [API di inserimento dati in blocco](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), i suggerimenti devono essere inclusi esplicitamente nel payload. Per ulteriori informazioni, consulta la relativa documentazione.
+Per i dati inviati tramite API, ad esempio tramite [API di inserimento dati](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o [API di inserimento dati in blocco](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), gli hint devono essere inclusi esplicitamente nel payload. Per informazioni dettagliate, consulta la relativa documentazione.
 
 +++
 
 +++**Posso scegliere quali hint ad alta entropia raccogliere?**
 
 Al momento non è possibile. È possibile scegliere di raccogliere tutti gli hint ad alta entropia oppure nessuno.
+
+FullVersionList non viene attualmente raccolto perché la versione principale del browser viene acquisita come hint a bassa entropia.
 
 +++
 
@@ -64,17 +66,16 @@ La tabella seguente descrive gli hint client da ottobre 2022.
 | Sec-CH-UA | Browser e versione rilevante | Bassa | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Bassa | `true` |
 | Sec-CH-UA-Platform | Sistema operativo/piattaforma | Bassa | `"Android"` |
-| Sec-CH-UA-Arch | Architettura del sito | Alta | `"arm"` |
-| Sec-CH-UA-Bitness | Numero di bit dell’architettura | Alta | `"64"` |
-| Sec-CH-UA-Full-Version | Versione completa del browser | Alta | `"84.0.4143.2"` |
-| Sec-CH-UA-Full-Version-List | Elenco dei marchi e versione | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| Sec-CH-UA-Model | Modello dispositivo | Alta | `"Pixel 3"` |
-| Sec-CH-UA-Platform-Version | Versione del sistema operativo/piattaforma | Alta | `"10"` |
+| architettura | Architettura del sito | Alta | `"arm"` |
+| amarezza | Abilità dell&#39;architettura | Alta | `"64"` |
+| fullVersionList | Elenco dei marchi e versione | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| modello | Modello dispositivo | Alta | `"Pixel 3"` |
+| platformVersion | Versione del sistema operativo/piattaforma | Alta | `"10"` |
 
-* I suggerimenti per entropia bassa vengono raccolti tramite l’intestazione della richiesta.
-* I suggerimenti ad alta entropia vengono raccolti tramite JavaScript e trasmessi attraverso i valori dei parametri delle stringhe di query. I parametri della stringa di query utilizzano `h.` come prefisso nella richiesta di immagine.
+* Gli hint a bassa entropia vengono raccolti tramite l’intestazione della richiesta.
+* Gli hint ad alta entropia vengono raccolti tramite JavaScript e trasmessi attraverso i valori dei parametri delle stringhe di query. I parametri della stringa di query utilizzano `h.` come prefisso nella richiesta di immagine. FullVersionList non viene attualmente raccolto perché la versione principale del browser viene acquisita come hint a bassa entropia.
 
-Gli hint di entropia elevata vengono raccolti tramite una chiamata JavaScript e trasmessi tramite il parametro di query
+Gli hint ad alta entropia vengono raccolti tramite chiamata JavaScript e trasmessi tramite il parametro di query
 
 +++
 
@@ -104,9 +105,9 @@ Consulta la [timeline pubblicata da Google](https://blog.chromium.org/2021/09/us
 
 +++**In che modo Analytics dipende dall’agente utente?**
 
-Le informazioni sul dispositivo nel reporting vengono derivate dall&#39;agente utente. Abbiamo aggiornato i nostri processi per utilizzare sia l&#39;agente utente che i suggerimenti client, se disponibili.
+Le informazioni sul dispositivo nel reporting sono derivate dall’agente utente. Abbiamo aggiornato i nostri processi per utilizzare sia l’agente utente che gli hint client, se disponibili.
 
-ID di fallback ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) deriva dall’agente utente e dall’indirizzo IP. Questo ID viene utilizzato solo se un cookie non può essere impostato in modo che non sia ampiamente utilizzato
+ID di fallback ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) deriva dall&#39;agente utente e dall&#39;indirizzo IP. Questo ID viene utilizzato solo se non è possibile impostare un cookie in modo che non sia ampiamente utilizzato
 
 +++
 
@@ -120,7 +121,7 @@ Consulta la [timeline pubblicata da Google](https://blog.chromium.org/2021/09/us
 
 +++**In che modo Adobe utilizzerà gli hint client per derivare informazioni sul dispositivo?**
 
-Adobe utilizza una terza parte, Device Atlas, che utilizzerà sia i suggerimenti client che l&#39;agente utente per derivare le informazioni sul dispositivo.
+Adobe utilizza una terza parte, Device Atlas, che utilizzerà sia gli hint client che l’agente utente per derivare informazioni sul dispositivo.
 
 +++
 
