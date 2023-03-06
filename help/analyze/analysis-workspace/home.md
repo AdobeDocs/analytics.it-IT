@@ -4,10 +4,10 @@ description: Analysis Workspace è il principale strumento di analisi per Adobe 
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 8c4c5e2a0149f720f9ae2d5dac95be8d2e8894e8
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 93%
+source-wordcount: '537'
+ht-degree: 71%
 
 ---
 
@@ -21,23 +21,27 @@ Se hai solo pochi minuti, guarda questa breve panoramica per scoprire le varie p
 
 ## Accedere ad Adobe Analytics {#login}
 
-Per iniziare a utilizzare Analysis Workspace, accedi ad Adobe Analytics da [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Se non è già stato selezionato un progetto specifico, verrà visualizzata la pagina home di Workspace, con un elenco di progetti.
+Per iniziare a utilizzare Analysis Workspace, accedi ad Adobe Analytics da [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Se un progetto specifico non è stato selezionato in precedenza, verrà visualizzata la pagina Progetti.
 
-![](assets/login-analytics.png)
+![](assets/create-new-project.png)
 
 ## Utilizzare il tutorial di formazione {#training-tutorial}
 
-Una volta effettuato l’accesso, segui il tutorial di formazione su Analysis Workspace: illustra la terminologia e i passaggi più comuni per creare la prima analisi in Workspace. Per iniziare il tutorial, fai clic su **[!UICONTROL Create New Project]** e seleziona **Training Tutorial** (Tutorial di formazione), nella finestra modale Nuovo progetto.
+Dopo aver effettuato l’accesso, puoi iniziare con il modello Analysis Workspace Training Tutorial. Illustra la terminologia comune e i passaggi da seguire per creare la prima analisi in Workspace. Per iniziare l’esercitazione:
+
+1. Fai clic su **[!UICONTROL Learning]** a sinistra.
+1. Fai clic su **[!UICONTROL Open Tutorial]** (Usa modello di attribuzione non predefinito).
 
 ![](assets/training-tutorial.png)
 
 ## Creare un nuovo progetto {#new-project}
 
-Completato il tutorial, puoi iniziare a creare il primo progetto. La **finestra modale Nuovo progetto** offre diverse opzioni per avviare l’analisi. Puoi scegliere se iniziare da un progetto vuoto oppure da una [scheda di valutazione mobile vuota](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=it), per condividere l’analisi rispettivamente dal browser oppure dai dashboard dell’app mobile Adobe Analytics.
+Dopo aver completato l’esercitazione, puoi iniziare a creare il primo progetto. Il giorno [!UICONTROL Projects] , è possibile scegliere di iniziare da
 
-![](assets/create-new-project.png)
+* [!UICONTROL Blank project] se prevedi di condividere l’analisi dal browser, oppure
+* [[!UICONTROL Blank mobile scorecard]](/help/analyze/mobile-app/curator.md), se prevedi di condividere l’analisi dall’app mobile delle dashboard di Customer Journey Analytics.
 
-Puoi anche iniziare l’analisi dai **modelli** standard forniti da Adobe o da modelli personalizzati creati dalla tua organizzazione. Sono disponibili diversi modelli, a seconda dell’analisi o del caso di utilizzo. [Qui trovi ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it) sulle diverse opzioni di modelli disponibili.
+Puoi anche iniziare l’analisi dai **modelli** standard forniti da Adobe o da modelli personalizzati creati dalla tua organizzazione. Sono disponibili diversi modelli, a seconda dell’analisi o del caso d’uso a cui stai pensando. Ora puoi trovarli sotto il [!UICONTROL Reports] nella barra a sinistra.
 
 ## Generare l’analisi {#analysis}
 
@@ -51,7 +55,7 @@ I **componenti** sono dimensioni, metriche, segmenti o intervalli di date, che p
 
 ### Visualizzazioni
 
-**Visualizzazioni**, ad esempio un grafico a barre o a linee, può essere utilizzato per riprodurre visivamente i dati. Nella barra a sinistra, seleziona l’icona **[!UICONTROL Visualizations]** centrale per ottenere l’elenco di tutte le [visualizzazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it) disponibili.
+**Visualizzare**, ad esempio un grafico a barre o a linee, può essere utilizzato per dare vita visivamente ai dati. Nella barra a sinistra, seleziona l’icona **[!UICONTROL Visualizations]** centrale per ottenere l’elenco di tutte le [visualizzazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it) disponibili.
 
 ![](assets/build-visualizations.png)
 
