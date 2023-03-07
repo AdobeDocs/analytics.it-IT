@@ -3,16 +3,16 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: 6c52659f3b2c9e3731d78d0b1e0bef3ed2fc88b7
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 61%
+source-wordcount: '1162'
+ht-degree: 57%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (febbraio 2023)
 
-**Ultimo aggiornamento**: 27 febbraio 2023
+**Ultimo aggiornamento**: 7 marzo 2023
 
 I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -26,7 +26,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 | **Aggiornamenti dell’intervallo di date del pannello** | In Workspace sono stati aggiunti i seguenti miglioramenti:<ul><li>A partire dalla versione di febbraio, le anteprime dei dati e dei componenti saranno basate sull’intervallo di date del pannello e non sugli ultimi 90 giorni. </li><li>Tutti gli elementi dimensionali visualizzati saranno disponibili in base all’intervallo di date del pannello.</li><li>Tutte le anteprime di date nel segmento e i generatori di metriche calcolate saranno basati sull’intervallo di date del pannello (a meno che non siano accessibili dai gestori dei componenti che non hanno un pannello associato, saranno comunque basati sugli ultimi 90 giorni).</li><li>Tutte le anteprime dei dati mostreranno dati o componenti in base all’intervallo di date del pannello.</li></ul> | N/D | 8 febbraio 2023 |
 | **Filtro riga/colonna per lo streaming del connettore di origine di Adobe Analytics** | Il connettore di origine di Analytics in Adobe Experience Platform ora consente di filtrare i dati di Analytics che vengono utilizzati per popolare i profili nel [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it). Il filtro a livello di riga consente di ridurre il numero di eventi associati ai profili. Il filtro a livello di colonna consente di ridurre la rilevanza degli eventi stessi, consentendoti in tal modo di ottimizzare l’utiizzo delle adesioni al profilo. Questo filtro si applica solo ai dati inviati al Profilo cliente in tempo reale e al [servizio Identity](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it). **Il filtro non influisce sui dati inviati al Data Lake per l’utilizzo in applicazioni come Customer Journey Analytics**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it#filtering-for-profile) | N/D | Riprogrammato per il 29 marzo 2023 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Correzioni in Adobe Analytics
 
@@ -40,18 +40,18 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 | **Disponibilità del connettore di origine di Analytics** | 15 febbraio 2023 | Il 28 febbraio 2023, il connettore di origine di Analytics è stato reso disponibile nel nuovo data center Adobe Experience Platform in Canada. |
 | **Migrazione automatica all’architettura del set di classificazione** | 8 febbraio 2023 | Nei prossimi mesi, Adobe pianifica di migrare tutte le classificazioni in tutte le organizzazioni all’architettura di classificazione più recente. Si stima che gli ultimi clienti a migrare avverranno a maggio 2023. Non è richiesta alcuna azione da parte del cliente e non è previsto alcun tempo di inattività. Questa nuova architettura offre numerosi vantaggi, tra cui:<ul><li>Tempo di elaborazione notevolmente ridotto (72 ore → 24 ore)</li><li>La possibilità di utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md) UI</li><li>L’opzione per utilizzare in futuro i dati di classificazione in Adobe Experience Platform tramite [Connettore di origine di Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>Tieni presente le seguenti modifiche che possono potenzialmente influire sul flusso di lavoro dell’organizzazione:<ul><li>Quando si utilizza il browser o l’importazione FTP, &quot;[!UICONTROL Overwrite on conflict]&#39; è sempre abilitato.</li><li>Quando si utilizza il browser o l’importazione FTP, l’opzione per esportare immediatamente dopo l’importazione non è più supportata.</li><li>API di Analytics 2.0 `GetDimensions` l’endpoint ora restituisce identificatori stringa per le classificazioni anziché identificatori numerici. È comunque possibile utilizzare gli identificatori numerici, ma Adobe consiglia di utilizzare i nuovi identificatori stringa laddove possibile. Gli identificatori numerici possono essere recuperati utilizzando `?expansion=hidden` parametro stringa query.</li></ul>Se desideri una pianificazione di migrazione più specifica per la tua organizzazione o se hai domande/dubbi su questa migrazione, contatta l’Assistenza clienti di Adobe. [Ulteriori informazioni](/help/components/classifications/sets/overview.md) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Avvisi sulla fine del ciclo di vita (EOL)
 
 | Fine del ciclo di vita del prodotto o della funzione | Data aggiunta o aggiornata | Descrizione |
 | --- | --- | --- |
+| **Fine del ciclo di vita per [!DNL Reports & Analytics]** | 7 marzo 2023 | A partire dal **31 dicembre 2023**, Adobe intende interrompere [!DNL Reports & Analytics] e i relativi rapporti e funzioni. I rapporti, le visualizzazioni e la tecnologia soggiacente [!DNL Reports & Analytics] non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di [!DNL Reports & Analytics] sono disponibili in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di [!DNL Reports & Analytics] sono state trasferite ad Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. [Questo avviso](https://spark.adobe.com/page/6WnF8JK6IRDhf/) spiega il processo di fine del ciclo di vita.<p>Il 31 dicembre 2023 termineremo molte delle funzioni di Reports &amp; Analytics associate, tra cui, a titolo esemplificativo: rapporti pianificati, estratti di dati e rapporti DL. Dopo il 31 dicembre 2023, tutti i rapporti pianificati non verranno più inviati. In entrata **Aprile 2023**, tutti i rapporti la cui scadenza era prevista dopo il 31 dicembre 2023 verranno automaticamente aggiornati e ripristinati per riflettere la data di fine del ciclo di vita del 31 dicembre 2023. Inoltre, non è più possibile pianificare rapporti futuri oltre il 31 dicembre 2023. |
 | **Fine del ciclo di vita di alcune funzioni di Reports &amp; Analytics e pianificazione del Report Builder** | 9 febbraio 2023 | Le seguenti funzionalità di pianificazione sono state terminate il 31 gennaio 2023:<ul><li>Opzione &quot;termina dopo x occorrenze&quot; per le attività orarie nel Report Builder</li><li>Possibilità di pianificare nuovi rapporti e scaricare estratti di dati in Reports and Analytics</li></ul><p>**Nota**: queste funzioni sono state originariamente terminate ad aprile 2022, ma la modifica è stata annullata. Abbiamo inoltre inviato una notifica che segnala che queste funzioni sono state temporaneamente ripristinate e che verranno terminate nuovamente il 31 gennaio 2023. |
 | **Fine del ciclo di vita della [!UICONTROL Publishing Lists] caratteristica** | 29 settembre 2022 | Come parte della fine del ciclo di vita di Reports &amp; Analytics, gli elenchi di pubblicazione sono destinati a raggiungere la fine del ciclo di vita a **dicembre 2023**. Non sarà possibile creare nuovi elenchi di pubblicazione o accedere a quelli esistenti per inviare o pianificare progetti di Analysis Workspace. |
 | **Fine del ciclo di vita per Data Workbench** | 14 settembre 2022 | Adobe intende terminare il ciclo di vita di Data Workbench a partire dal **31 dicembre 2023**. Vedi [Annuncio della fine del ciclo di vita di Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=it) per i dettagli. Per qualsiasi domanda, contatta il team del tuo account di Adobe. |
-| **Fine del ciclo di vita per [!DNL Reports & Analytics]** | 4 gennaio 2022 | A partire dal **31 dicembre 2023**, Adobe intende interrompere [!DNL Reports & Analytics] e i relativi rapporti e funzioni. I rapporti, le visualizzazioni e la tecnologia soggiacente [!DNL Reports & Analytics] non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di [!DNL Reports & Analytics] sono disponibili in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it). A partire dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di [!DNL Reports & Analytics] sono state trasferite ad Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. [Questo avviso](https://spark.adobe.com/page/6WnF8JK6IRDhf/) spiega il processo di fine del ciclo di vita. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## AppMeasurement
 
