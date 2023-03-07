@@ -5,10 +5,10 @@ title: Domande frequenti su Origini dati
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 18c5f88cef907af1bdb17c99df59dfb46cc859bc
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 95%
+source-wordcount: '1599'
+ht-degree: 88%
 
 ---
 
@@ -136,13 +136,19 @@ No per elaborazione completa, sì per ID transazione. Le origini dati a elaboraz
 No. Le eVar caricate tramite origini dati ID transazione vengono lette solo dalle informazioni profilo memorizzate e non aggiornano il profilo.
 No. Le eVar sono le uniche variabili salvate nello snapshot del profilo visitatore.
 
-## Come funzionano gli eventi numerici e valutari con le origini dati? {#numeric}
+## Come funzionano gli eventi numerici e di valuta con le origini dati? {#numeric}
 
-L’elaborazione completa supporta solo i formati degli elenchi di eventi precedenti, escludendo il valore evento numerico/valuta/contatore (più di 1) direttamente nell’elenco degli eventi, ovvero `"eventNN,eventKK"` not `"eventNN=#.##"`. Significa che supporta un evento contatore solo se viene passato nella colonna eventi nel file di origine dati e incrementa di 1.
+L’elaborazione completa supporta solo i formati di elenchi di eventi legacy, escludendo il valore numerico/valuta/contatore (più di 1) dell’evento direttamente nell’elenco degli eventi, ovvero `"eventNN,eventKK"` non `"eventNN=#.##"`. Ciò significa che supporta un evento contatore solo se viene passato nella colonna degli eventi nel file di origine dati e viene incrementato di 1.
 
-Se sono necessari eventi numerici, valutari o contatore (più di 1), utilizzare l’elenco dei prodotti:
+Se sono necessari eventi numerici, di valuta o di contatore (più di 1), utilizza l’elenco dei prodotti:
 
 ```js
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
 ```
+
+## Perché il mio caricamento ftp non viene rilevato?
+
+Dopo il caricamento del file .fin, è importante disconnettersi dal sito FTP di Origini dati. Il motivo è che Analytics utilizza gli eventi di disconnessione come trigger per indicare che i file sono pronti per l’elaborazione. Se carichi i file a livello di programmazione, è importante che il processo automatizzato esca dal sito FTP anche dopo il caricamento dei file.
+
+Verifica che i nomi dei file seguano il formato corretto. Se si inserisce uno spazio vuoto iniziale o finale nel nome del file, il file non viene riconosciuto e non viene acquisito dal processo di acquisizione Adobe.
