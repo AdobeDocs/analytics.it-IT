@@ -1,22 +1,22 @@
 ---
-description: Gli amministratori possono aggiungere descrizioni per i componenti utilizzando la suite di rapporti o il dizionario dati.
-title: Aggiungi descrizioni dei componenti
+description: Gli amministratori possono aggiungere descrizioni per i componenti utilizzando la suite di rapporti.
+title: Aggiungere descrizioni dei componenti
 feature: Components
 role: Admin
-source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
+source-git-commit: a8605f6c3077a625d6936b4ba9e135dc35c99439
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
-# Aggiungi descrizioni dei componenti
+# Aggiungere descrizioni dei componenti
 
-Le descrizioni consentono agli utenti di scoprire come utilizzare al meglio i vari componenti durante la creazione di progetti in Analysis Workspace o la visualizzazione di rapporti.
+Le descrizioni consentono agli utenti di sapere come utilizzare al meglio i vari componenti durante la creazione di progetti in Analysis Workspace o la visualizzazione di rapporti.
 
-Gli amministratori di Analytics possono aggiungere descrizioni per i componenti (Dimension, metriche, segmenti e intervalli di date)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Gli amministratori di Analytics possono aggiungere descrizioni per i componenti (Dimension, Metriche, Segmenti e Intervalli di date)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
 
-## Aggiungere descrizioni ai componenti in una suite di rapporti
+## Aggiungere descrizioni ai componenti di una suite di rapporti
 
 Il video seguente descrive come aggiungere descrizioni di dimensioni e metriche in una suite di rapporti:
 

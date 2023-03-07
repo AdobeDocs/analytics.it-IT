@@ -5,16 +5,16 @@ title: Creare collegamenti condivisibili
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
+source-git-commit: 8935f71e52e2486fc1fd8562a31dbd18d69fd18d
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 79%
+source-wordcount: '319'
+ht-degree: 70%
 
 ---
 
 # Creare collegamenti condivisibili
 
-Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Per la maggior parte dei tipi di collegamenti, gli utenti che ricevono un collegamento devono accedere ad Adobe Analytics prima di poter accedere al progetto.
+Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Alcuni tipi di collegamento richiedono che il destinatario acceda ad Adobe Analytics prima di accedere al progetto, altri no.
 
 ## Ottieni collegamento progetto {#project-link}
 
@@ -22,9 +22,17 @@ Per condividere un collegamento all’intero progetto, vai su **[!UICONTROL Shar
 
 ![](assets/get-project-link.png)
 
+## Ottieni collegamento pubblico
+
+{{release-limited-testing-section}}
+
+Puoi condividere un collegamento di sola visualizzazione ai progetti Analysis Workspace con persone che non hanno accesso ad Adobe Analytics.
+
+Per ulteriori informazioni, consulta &quot;Condividere un collegamento pubblico con chiunque (accesso non richiesto)&quot; nell’articolo [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+
 ## Ottenere un collegamento a un pannello o a una visualizzazione {#panel-link}
 
-Puoi anche condividere un collegamento a una parte specifica del progetto, ad esempio un pannello o una visualizzazione individuale. Questa pratica viene talvolta definita intralinking e Può essere utile per attirare l’attenzione degli utenti sulle informazioni chiave all’interno del progetto.
+Puoi anche condividere un collegamento a una parte specifica del progetto, ad esempio un pannello o una visualizzazione individuale. Questa pratica viene talvolta definita intralinking e Questo può essere utile per attirare l’attenzione degli utenti sulle informazioni chiave all’interno del progetto.
 
 * Dall’intestazione di qualsiasi pannello, fai clic con il pulsante destro del mouse su **[!UICONTROL Get panel link]**
 * Dall’intestazione di qualsiasi tabella o visualizzazione, fai clic con il pulsante destro del mouse su **[!UICONTROL Get visualization link]**
