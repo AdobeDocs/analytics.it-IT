@@ -4,10 +4,10 @@ title: Creare una scorecard per dispositivi mobili
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
+source-git-commit: 67f74d852f1650f729ce9b5ad725134d9fc9cd60
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 97%
+source-wordcount: '2284'
+ht-degree: 74%
 
 ---
 
@@ -104,15 +104,15 @@ Viene visualizzato il generatore di intervalli di date, in cui è possibile crea
 
 ### Mostra/Nascondi intervalli di date di confronto {#show-comparison-dates}
 
-Per visualizzare o nascondere gli intervalli di date del confronto, attiva/disattiva **Includi date di confronto** impostazione.
+Per mostrare o nascondere gli intervalli di date del confronto, attiva/disattiva la **Includi date di confronto** impostazione.
 
 ![Includi date di confronto](assets/include-comparison-dates.png)
 
-L&#39;impostazione è *su* per impostazione predefinita. Deseleziona l’opzione se non desideri visualizzare le date di confronto.
+L’impostazione è *attiva* per impostazione predefinita. Deseleziona l’opzione se non desideri visualizzare le date di confronto.
 
-![Impostazione della data di confronto deselezionata](assets/no-comparison-dates.png)
+![Impostazione delle date di confronto deselezionata](assets/no-comparison-dates.png)
 
-## Applicare visualizzazioni {#viz}
+## Applicare le visualizzazioni {#viz}
 
 Guarda un video sulle visualizzazioni delle scorecard per dispositivi mobili:
 
@@ -215,6 +215,68 @@ Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mos
 Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic sulla scorecard al di fuori delle sezioni, quindi fai clic sulla **x** che compare quando passi il puntatore sul componente, come mostrato di seguito per il segmento **Nuovo visitatore**:
 
 ![Rimuovere_componenti](assets/new_remove.png)
+
+## Creare storie di dati {#create-data-story}
+
+Una storia di dati è una raccolta di punti di dati di supporto, contesto di business e metriche correlate basate su un tema o una metrica centrale.
+
+Ad esempio, se ti concentri sul traffico web, la metrica più importante può essere costituita dalle visite, ma potresti anche essere interessato a nuovi visitatori, visitatori univoci, e potresti voler visualizzare i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le storie di dati nei progetti di scorecard per dispositivi mobili consentono di mettere in primo piano e al centro le metriche più importanti, raccontando l’intera storia dietro le metriche con più diapositive di dettaglio.
+
+Guarda il video per ulteriori informazioni sulla creazione di storie di dati nei progetti di scorecard per dispositivi mobili in Analysis Workspace.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+**Per creare una storia di dati**
+
+Crea la tua storia di dati aggiungendo più diapositive di dettaglio a una tessera.
+
+1. Inizia con un progetto di scorecard per dispositivi mobili.
+1. Selezionate un riquadro da cui creare una storia.
+   ![Creare una storia di dati](assets/data-story1.png)
+   ![Creare icone delle storie di dati](assets/create-data-story.png){width="25%"}
+1. Aggiungi delle diapositive per creare la tua storia dei dati. La prima diapositiva viene generata per impostazione predefinita.
+Per aggiungere nuove diapositive, passa il cursore del mouse o fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
+   * Tocca il segno + per creare una nuova diapositiva.
+   * Toccare l&#39;icona di duplicazione per duplicare la diapositiva esistente.
+1. Se crei una diapositiva vuota, trascina i componenti dalla barra a sinistra oppure scegli un layout per compilare automaticamente la diapositiva con i dati della sezione.
+   ![Creare una storia di dati](assets/data-story2.png)
+Per eliminare una diapositiva, tocca l’icona del cestino.
+
+### Personalizzare una storia di dati {#customize-data-story}
+
+Le storie di dati consentono di personalizzare tutto in modo da condividere le informazioni che si desidera condividere ed escludere tutto ciò che non è necessario. È possibile personalizzare sezioni e singole diapositive per aggiungere filtri, visualizzare raggruppamenti, modificare il layout e modificare le visualizzazioni.
+
+**Per personalizzare le tessere**
+
+1. Tocca una tessera. La tessera selezionata è evidenziata in blu e il pannello di destra mostra le proprietà della tessera.
+1. Consente di modificare il titolo, il tipo di grafico e altre opzioni di sezione.
+1. Trascina un componente sulla sezione.
+   ![Creare una storia di dati](assets/data-story3.png)
+Quando trascini un componente, ad esempio una visualizzazione, su una tessera, il componente viene applicato a tutte le diapositive della storia di dati.
+1. Per applicare una modifica solo al titolo, tenete premuto il tasto Maiusc per applicare la modifica.
+   ![Creare una storia di dati](assets/data-story4.png)
+
+>[!NOTE]
+>Le diapositive ereditano i componenti dalla sezione, ma le sezioni non ereditano i componenti dalle diapositive.
+
+**Per personalizzare singole diapositive**
+
+È possibile modificare la visualizzazione per singole diapositive in una storia di dati. Ad esempio, potete modificare una barra orizzontale in un grafico ad anello per una diapositiva specifica. È inoltre possibile modificare il layout. Consulta [Personalizzare le diapositive di dettaglio](#customize-detail-slide).
+
+### Visualizzare l’anteprima di una storia di dati {#preview-data-story}
+
+Dopo aver creato una storia di dati, utilizza **Anteprima** per visualizzare e interagire con una storia di dati come se fossi un utente dell’app. Per informazioni sull’anteprima della tua storia dei dati, consulta [Visualizzare in anteprima una scorecard](#preview)
+
+### Spostarsi tra sezioni e diapositive {#navigate-tiles-slides}
+
+Nella barra di spostamento vengono visualizzate icone che rappresentano gli elementi presenti in ogni diapositiva. La barra di spostamento consente di passare facilmente a una diapositiva specifica se sono presenti numerose diapositive.
+
+Per spostarsi tra il riquadro e le diapositive, tocca la barra di navigazione.
+![Creare una storia di dati](assets/data-story5.png)
+![Creare una storia di dati](assets/data-story-nav.png){width="25%"}
+
+Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera o selezionando un componente e tenendolo a sinistra o a destra dello schermo per scorrere.
+
 
 ## Anteprima delle scorecard {#preview}
 
