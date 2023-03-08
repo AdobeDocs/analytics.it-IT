@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
+source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
 workflow-type: tm+mt
-source-wordcount: '3610'
+source-wordcount: '3624'
 ht-degree: 98%
 
 ---
@@ -25,12 +25,14 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Marzo 2023** |  |
+| Metriche calcolate predefinite | Sono stati aggiunti contenuti che spiegano [metriche calcolate predefinite fornite da Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | **Febbraio 2023** |  |
-| Implementazione | Contenuto aggiornato su come [implementare Adobe Analytics per web e dispositivi mobili](../implement/home.md). |
+| Implementazione | Sono stati aggiornati i contenuti su come [implementare Adobe Analytics per web e dispositivi mobili](../implement/home.md). |
 | Calendario e intervalli di date in Workspace | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo delle formule e modifiche all’interfaccia utente degli elementi calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Scorecard per dispositivi mobili | Nuova sezione della documentazione per descrivere come mostrare e nascondere gli intervalli di date di confronto. Vedi [Mostrare intervalli di date di confronto](/help/analyze/mobile-app/create-scorecard.md) in CJA. |
-| API 1.4 | La [API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) ha ricevuto una riscrittura completa ed è ora pubblicata su Adobe Developer. |
-| Tracciamento tra i tipi di implementazione | È stato aggiornato il caso d’uso [Tracciare diversi tipi di implementazione](../implement/use-cases/cross-type-implementation.md) per soddisfare il servizio Experience Cloud ID. |
+| API 1.4 | Il [API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) ha ricevuto una riscrittura completa e ora è pubblicato su Adobe Developer. |
+| Tracciamento tra i tipi di implementazione | È stato aggiornato il caso d’uso [Tracciare diversi tipi di implementazione](../implement/use-cases/cross-type-implementation.md) per ospitare il servizio ID Experience Cloud. |
 | **Gennaio 2023** |  |
 | Filtrare e ordinare tabelle | Contenuto aggiornato (incluse l’aggiunta di procedure e la spiegazione delle opzioni disponibili) nell’articolo [Filtrare e ordinare le tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Questo articolo è stato rinominato da “Paginazione, filtri e ordinamento di tabelle in Workspace”. |
 | Cartelle | Pagine dedicate per [Gestione delle cartelle](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
