@@ -4,7 +4,7 @@ title: Creare una scorecard per dispositivi mobili
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 67f74d852f1650f729ce9b5ad725134d9fc9cd60
+source-git-commit: 06fc208465e8eb5be1f1fd766d40dadee84e4f9c
 workflow-type: tm+mt
 source-wordcount: '2284'
 ht-degree: 74%
@@ -233,7 +233,7 @@ Crea la tua storia di dati aggiungendo più diapositive di dettaglio a una tesse
 1. Inizia con un progetto di scorecard per dispositivi mobili.
 1. Selezionate un riquadro da cui creare una storia.
    ![Creare una storia di dati](assets/data-story1.png)
-   ![Creare icone delle storie di dati](assets/create-data-story.png){width="25%"}
+   ![Creare icone delle storie di dati](assets/create-data-story.png){width=".50%"}
 1. Aggiungi delle diapositive per creare la tua storia dei dati. La prima diapositiva viene generata per impostazione predefinita.
 Per aggiungere nuove diapositive, passa il cursore del mouse o fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
    * Tocca il segno + per creare una nuova diapositiva.
