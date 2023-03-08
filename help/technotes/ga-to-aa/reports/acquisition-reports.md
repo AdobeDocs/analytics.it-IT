@@ -3,7 +3,7 @@ title: Rapporti di acquisizione in Adobe Analytics
 description: Scopri come creare rapporti basati sull’acquisizione utilizzando Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 2%
@@ -141,4 +141,4 @@ Il rapporto delle parole chiave organiche mostra il comportamento di ciascuna pa
 
 ## Analisi dei costi
 
-Questo rapporto mostra i dati sulle prestazioni di visite, costi e ricavi per i canali di marketing a pagamento. Adobe fornisce un prodotto dedicato per fornire approfondimenti chiamato Adobe Advertising Cloud. Se la tua organizzazione è interessata a utilizzare questo prodotto, contatta il team del tuo account Adobe.
+Questo rapporto mostra i dati sulle prestazioni di visite, costi e ricavi per i canali di marketing a pagamento. Adobe fornisce un prodotto dedicato per fornire approfondimenti chiamato Adobe Advertising Cloud. Se la tua organizzazione è interessata a utilizzare questo prodotto, contatta l’Account Manager della tua organizzazione.

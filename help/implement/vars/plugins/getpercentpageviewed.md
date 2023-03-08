@@ -3,16 +3,18 @@ title: getPercentPageViewed
 description: Recupera la percentuale della pagina visualizzata dal visitatore.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '635'
 ht-degree: 2%
 
 ---
 
 # Plug-in di Adobe: getPercentPageViewed
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
 
 Il `getPercentPageViewed` il plug-in misura l’attività di scorrimento di un visitatore per vedere quanta pagina viene visualizzata prima di passare a un’altra pagina. Questo plug-in non è necessario se le pagine sono di piccole dimensioni o se non si desidera misurare l&#39;attività di scorrimento.
 

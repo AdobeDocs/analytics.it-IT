@@ -3,10 +3,10 @@ description: Domande frequenti sulla governance dei dati in Adobe Analytics
 title: Domande frequenti sulla governance dei dati
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '2076'
-ht-degree: 50%
+ht-degree: 52%
 
 ---
 
@@ -108,7 +108,7 @@ Il [API di Data Privacy Service](https://developer.adobe.com/experience-platform
 
 Chiediamo all’utente di non utilizzare l’API Privacy dei dati per altri scopi, come la cancellazione dei dati che sono stati accidentalmente inviati in grandi gruppi di visitatori. È inoltre necessario tenere presente che ogni visitatore con un hit eliminato (aggiornato o anonimizzato) a seguito di una richiesta di cancellazione di Privacy dei dati avrà le informazioni sullo stato reimpostate. La prossima volta che il visitatore ritorna sul tuo sito web, sarà un nuovo visitatore. Tutte le attribuzioni eVar ricominceranno, così come informazioni quali numeri di visita, referrer, prima pagina visitata, ecc. Questo effetto collaterale non è opportuno nelle situazioni in cui si desidera cancellare i campi di dati ed evidenzia un motivo per cui l’API Privacy dei dati è inappropriata per questo utilizzo.
 
-Contatta il tuo Account Team di Adobi per coordinarti con il nostro team di consulenza ingegneristico per eseguire un’ulteriore esame e rimuovere eventuali problemi di PII o dati.
+Contatta il tuo Account Manager (CSM) per coordinarti con il nostro team di consulenza ingegneristico per eseguire un’ulteriore esame e rimuovere eventuali problemi di PII o dati.
 
 +++
 
@@ -118,7 +118,7 @@ Il [API di Data Privacy Service](https://developer.adobe.com/experience-platform
 
 È inoltre necessario tenere presente che ogni visitatore con un hit eliminato (aggiornato o anonimizzato) a seguito di una richiesta di cancellazione di Privacy dei dati avrà le informazioni sullo stato reimpostate. La prossima volta che il visitatore ritorna sul tuo sito web, sarà un nuovo visitatore. Tutte le attribuzioni eVar ricominceranno, così come informazioni quali numeri di visita, referrer, prima pagina visitata, ecc. Questo effetto collaterale non è opportuno nelle situazioni in cui si desidera cancellare i campi di dati ed evidenzia un motivo per cui l’API Privacy dei dati è inappropriata per questo utilizzo.
 
-Contatta il tuo Account Team di Adobi per coordinarti con il nostro team di consulenza ingegneristico per eseguire un’ulteriore esame e rimuovere eventuali problemi di PII o dati.
+Contatta il tuo Account Manager (CSM) per coordinarti con il nostro team di consulenza ingegneristico al fine di eseguire un’ulteriore esame e rimuovere eventuali problemi di PII o dati.
 
 +++
 

@@ -4,10 +4,10 @@ title: 'Nuova suite di rapporti: impostazioni'
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 96%
+source-wordcount: '515'
+ht-degree: 100%
 
 ---
 
@@ -31,6 +31,6 @@ Descrizioni degli elementi utilizzati per [creare una suite di rapporti](/help/a
 | Data pubblicazione | Informa Adobe della data in cui la suite di rapporti diventerà attiva. Se la pianificazione dell’implementazione cambia, fornisci una stima del traffico aggiornata utilizzando lo strumento Traffico previsto permanente in Gestione del traffico. |
 | Visualizzazioni pagina stimate al giorno | Identifica una stima del numero di visualizzazioni di pagina che la suite di rapporti supporterà in un giorno. Volumi di traffico elevati richiedono un processo di approvazione più lungo. Per evitare ritardi nell’elaborazione, specifica una stima che sia quanto più accurata possibile. |
 | Valuta di base | Specifica la valuta predefinita utilizzata per memorizzare tutti i dati monetari. La funzione di reporting di Analytics converte le transazioni in altre valute nella valuta di base, utilizzando il tasso di conversione corrente al momento in cui riceve i dati. Per identificare la valuta di una determinata transazione, la funzione di reporting di Analytics utilizza la variabile JavaScript  currencyCode. |
-| Disabilita supporto caratteri multibyte | Disattiva il supporto di caratteri multibyte per la suite di rapporti. Se disattivi il supporto per caratteri multibyte, il sistema presuppone che i dati siano in formato `ISO-8859-1`. Il set di caratteri delle pagine web deve essere specificato nella variabile JavaScript  charSet. <p>Il supporto per caratteri multibyte memorizza i caratteri nella suite di rapporti utilizzando il formato UTF-8. Al momento della ricezione, il sistema converte i dati dal set di caratteri della pagina web al set di caratteri UTF-8, in modo da poter utilizzare qualsiasi lingua nei rapporti di marketing.  Contatta il team dell’account Adobe o l’Assistenza clienti per modificare il supporto dei caratteri multibyte per una suite di rapporti esistente. |
+| Disabilita supporto caratteri multibyte | Disattiva il supporto di caratteri multibyte per la suite di rapporti. Se disattivi il supporto per caratteri multibyte, il sistema presuppone che i dati siano in formato `ISO-8859-1`. Il set di caratteri delle pagine web deve essere specificato nella variabile JavaScript  charSet. <p>Il supporto per caratteri multibyte memorizza i caratteri nella suite di rapporti utilizzando il formato UTF-8. Al momento della ricezione, il sistema converte i dati dal set di caratteri della pagina web al set di caratteri UTF-8, in modo da poter utilizzare qualsiasi lingua nei rapporti di marketing.  Per modificare il supporto dei caratteri multibyte per una suite di rapporti esistente, contatta il tuo Account Manager o l’Assistenza clienti. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

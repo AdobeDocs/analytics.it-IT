@@ -2,10 +2,10 @@
 title: Panoramica sui set di classificazione
 description: Utilizza i set di classificazione per gestire i dati di classificazione.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 32%
+source-wordcount: '251'
+ht-degree: 43%
 
 ---
 
@@ -17,7 +17,7 @@ I set di classificazione forniscono un’unica interfaccia per gestire classific
 
 >[!NOTE]
 >
->Questa funzione è disponibile per tutti i clienti nell’architettura del set di classificazioni. Per ulteriori informazioni, contatta l’Assistenza clienti Adobe o il team del tuo account Adobe.
+>I set di classificazioni saranno disponibili per tutti i clienti che hanno eseguito la migrazione delle loro suite di rapporti alla nuova architettura Classificazioni. Per ulteriori informazioni, contatta l’Assistenza clienti Adobe o il tuo Account Manager.
 
 L’architettura back-end rilasciata con i set di classificazione contiene diversi miglioramenti degni di nota:
 

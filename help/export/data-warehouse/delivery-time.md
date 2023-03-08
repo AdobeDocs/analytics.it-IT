@@ -3,7 +3,7 @@ title: Risolvere i problemi relativi ai tempi di consegna delle richieste Data W
 description: Individua potenziali problemi con una richiesta Data Warehouse che possono prolungare i tempi di consegna.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -37,4 +37,4 @@ Se hai bisogno di questi tipi di rapporti in modo più tempestivo, considera le 
 
 * **Analysis Workspace**: anche se non sono disponibili elementi dimensionali illimitati, questo include quasi tutti gli altri casi d’uso forniti da Data Warehouse.
 * **Feed dati**: prende tutti i dati non elaborati in una suite di rapporti ogni giorno e li invia a un sito FTP. È quindi possibile importare tali dati nel proprio database ed eseguire query per ottenere i dati desiderati.
-* **Soluzione personalizzata di Engineering Services**: Adobe Engineering Services può fornire una soluzione personalizzata per la tua organizzazione a un costo aggiuntivo. Per ulteriori informazioni, contatta il team dell’account di Adobe.
+* **Soluzione personalizzata di Engineering Services**: Adobe Engineering Services può fornire una soluzione personalizzata per la tua organizzazione a un costo aggiuntivo. Per ulteriori informazioni, contatta l’Account Manager della tua organizzazione.

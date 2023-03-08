@@ -3,7 +3,7 @@ description: Quando un rapporto ha molti valori univoci, Adobe utilizza l’elem
 title: Valore a traffico ridotto in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Questa logica consente ad Adobe di ottimizzare le funzionalità di reporting, co
 
 ## Modifica delle soglie dei limiti univoci
 
-Per impostazione predefinita, i limiti di soglia sono di 500.000 e 1 milione di valori univoci. Questi limiti possono essere modificati per singole variabili. Contatta l’Assistenza clienti Adobe o il team del tuo account Adobe per richiedere questa modifica. Quando si richiede una modifica, includere:
+Per impostazione predefinita, i limiti di soglia sono di 500.000 e 1 milione di valori univoci. Questi limiti possono essere modificati per singole variabili. Contatta l’Assistenza clienti Adobe o l’account manager della tua organizzazione per richiedere questa modifica. Quando si richiede una modifica, includere:
 
 * ID suite di rapporti
 * La variabile per la quale desideri aumentare la soglia

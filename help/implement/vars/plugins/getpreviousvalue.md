@@ -3,16 +3,18 @@ title: getPreviousValue
 description: Ottieni l’ultimo valore passato in una variabile.
 feature: Variables
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '549'
 ht-degree: 3%
 
 ---
 
 # Plug-in di Adobe: getPreviousValue
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
 
 Il `getPreviousValue` Il plug-in consente di impostare una variabile su un valore impostato su un hit precedente. Questo plug-in non è necessario se l’implementazione contiene tutti i valori desiderati nell’hit corrente.
 

@@ -3,16 +3,18 @@ title: Suite numeri
 description: Produrre e manipolare numeri da utilizzare in altre variabili JavaScript.
 feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 4%
+source-wordcount: '528'
+ht-degree: 3%
 
 ---
 
 # Plug-in di Adobe: suite di numeri
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
 
 La Numbers Suite dispone di una serie di funzioni JavaScript. Include i seguenti plug-in:
 

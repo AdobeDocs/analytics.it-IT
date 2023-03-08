@@ -4,10 +4,10 @@ title: Impostazioni account generali
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 97%
+source-wordcount: '796'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Ecco un video sulla configurazione delle impostazioni generali dell’account:
 | Archiviazione ID transazione | Consente di utilizzare [ID transazione](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md) origini dati. |
 | Abilita Data Warehouse | Abilita l’interfaccia utente Data Warehouse in Analytics > Strumenti > Data Warehouse. |
 | Opzione ZIP | Consente di specificare il codice postale anziché utilizzare qualsiasi prodotto dalla ricerca IP geografica. |
-| Supporto di caratteri multibyte | Il supporto per caratteri multibyte memorizza i caratteri nella suite di rapporti utilizzando il formato UTF-8. Al momento della ricezione, il sistema converte i dati dal set di caratteri della pagina web al set di caratteri UTF-8, in modo da poter utilizzare qualsiasi lingua nei rapporti di marketing. Contatta il team dell’account Adobe o l’Assistenza clienti per modificare il supporto dei caratteri multibyte per una suite di rapporti esistente. |
+| Supporto di caratteri multibyte | Il supporto per caratteri multibyte memorizza i caratteri nella suite di rapporti utilizzando il formato UTF-8. Al momento della ricezione, il sistema converte i dati dal set di caratteri della pagina web al set di caratteri UTF-8, in modo da poter utilizzare qualsiasi lingua nei rapporti di marketing. Per modificare il supporto dei caratteri multibyte per una suite di rapporti esistente, contatta il tuo Account Manager o l’Assistenza clienti. |
 | Attivato | Specifica se la suite di rapporti è attivata o meno. |
 | Valuta di base | Consente di specificare la [valuta](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=it) di base per questa suite di rapporti. |
 | ID organizzazione | ID associato alla società di Experience Cloud con provisioning. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (e che deve includere) @AdobeOrg. |

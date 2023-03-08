@@ -1,5 +1,5 @@
 ---
-source-git-commit: 7f8fdceaaac1d9384e108660c09010bfdc1472b2
+source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 13%
@@ -62,6 +62,7 @@ ht-degree: 13%
 >[!AVAILABILITY]
 >
 >La funzionalità descritta in questa sezione si trova nella fase di test del rilascio e potrebbe non essere ancora disponibile nell‘ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilasci di funzioni di Adobe Analytics](/help/release-notes/releases.md).
+
 
 ## Dichiarazione di non responsabilità del plug-in {#plug-in}
 

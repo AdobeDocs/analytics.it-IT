@@ -3,9 +3,9 @@ description: La pagina Fatturazione consente di accedere alle informazioni di fa
 title: Fatturazione
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '496'
 ht-degree: 8%
 
 ---
@@ -16,7 +16,7 @@ La pagina Fatturazione consente di accedere alle informazioni di fatturazione, i
 
 >[!NOTE]
 >
->Se l’accesso alla scheda di fatturazione è disabilitato per la tua azienda, contatta il team del tuo account di Adobe.
+>Se l’accesso alla scheda di fatturazione è disabilitato per la tua azienda, contatta il tuo Account Manager.
 
 I dati di panoramica del traffico dalla pagina di fatturazione consentono di correlare i dati di visualizzazione della pagina nei rapporti con chiamate al server fatturabili nella fattura. Il [!UICONTROL Billing] pagina consente di effettuare le seguenti operazioni:
 

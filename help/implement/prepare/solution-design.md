@@ -3,9 +3,9 @@ title: Creare un documento di progettazione della soluzione
 description: Scopri cos’è un documento di progettazione della soluzione e come utilizzarlo nella tua organizzazione.
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '696'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Quando si determinano i dati da raccogliere, è facile dire &quot;tutto&quot;, t
 
 ## Risorse aggiuntive
 
-La definizione di un documento di progettazione della soluzione è un progetto piuttosto complesso, soprattutto per le organizzazioni che non ne hanno mai creato uno prima. Se desideri ulteriore assistenza, Adobe fornisce consulenza specializzata per aiutarti a rendere operativa la tua organizzazione con Adobe Analytics. Contatta il team del tuo account Adobe se desideri integrare i servizi professionali di Adobe. A [Questionario tecnico di pre-implementazione](assets/technical-pre-implementation-questionnaire.pdf) può essere compilato in modo che Adobe sappia esattamente come aiutarti in base alle esigenze della tua organizzazione.
+La definizione di un documento di progettazione della soluzione è un progetto piuttosto complesso, soprattutto per le organizzazioni che non ne hanno mai creato uno prima. Se desideri ulteriore assistenza, Adobe fornisce consulenza specializzata per aiutarti a rendere operativa la tua organizzazione con Adobe Analytics. Contatta il tuo Account Manager per integrare i servizi professionali di Adobe. A [Questionario tecnico di pre-implementazione](assets/technical-pre-implementation-questionnaire.pdf) può essere compilato in modo che Adobe sappia esattamente come aiutarti in base alle esigenze della tua organizzazione.
 
 Ci sono anche diversi partner di Adobi specializzati nell’assistenza per la creazione di un documento di progettazione della soluzione e nell’implementazione di Adobe Analytics sul sito.
 

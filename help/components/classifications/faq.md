@@ -3,10 +3,10 @@ title: Domande frequenti sulle classificazioni
 description: Domande frequenti sull’utilizzo delle classificazioni.
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -24,7 +24,7 @@ I file di classificazione caricati con un valore chiave o un valore di classific
 
    *Se la [dimensione] è uguale a `0`, sovrascrivi il valore di [dimensione] con il valore personalizzato `Zero`.*
 
-* **Richiedere una regola VISTA**: un consulente di servizi tecnici imposta una regola lato server a un costo aggiuntivo. Contatta il team dell’account Adobe per richiedere una regola VISTA.
+* **Richiedere una regola VISTA**: un consulente di servizi tecnici imposta una regola lato server a un costo aggiuntivo. Contatta l’Account Manager della tua organizzazione per richiedere una regola VISTA.
 
 ## È possibile utilizzare l’importazione di classificazioni per classificare elementi dimensionali non ancora esistenti?
 

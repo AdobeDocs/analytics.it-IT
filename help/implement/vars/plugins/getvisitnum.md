@@ -3,16 +3,18 @@ title: getVisitNum
 description: Monitora il numero di visita corrente di un visitatore.
 feature: Variables
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '569'
 ht-degree: 3%
 
 ---
 
 # Plug-in di Adobe: getVisitNum
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
 
 Il `getVisitNum` il plug-in restituisce il numero di visita per tutti i visitatori che arrivano sul sito entro il numero di giorni desiderato. Analysis Workspace offre una dimensione &quot;Numero di visite&quot; che offre funzionalità simili. L’Adobe consiglia di utilizzare questo plug-in se desideri un maggiore controllo sull’incremento del numero di visite. Questo plug-in non è necessario se la dimensione integrata &quot;Numero di visite&quot; in Analysis Workspace è sufficiente per le tue esigenze di reporting.
 

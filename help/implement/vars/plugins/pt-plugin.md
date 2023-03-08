@@ -3,16 +3,18 @@ title: pt
 description: Esegue una funzione su un elenco di variabili.
 feature: Variables
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '493'
 ht-degree: 4%
 
 ---
 
 # Plug-in di Adobe: pt
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
 
 Il `pt` Il plug-in esegue una funzione o un metodo in un elenco di variabili di Analytics. Ad esempio, puoi eseguire in modo selettivo [`clearVars`](../functions/clearvars.md) su diverse variabili senza chiamare manualmente la funzione ogni volta. Diversi altri plug-in dipendono da questo codice per funzionare correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più variabili Analytics alla volta o se non si utilizzano plug-in dipendenti.
 

@@ -3,7 +3,7 @@ title: events
 description: Imposta la variabile degli eventi, che governa la maggior parte delle metriche sul sito.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 8%
@@ -59,7 +59,7 @@ Sono disponibili diverse funzioni:
 
 Il `s.events` variable è una stringa che contiene un elenco delimitato da virgole di eventi da includere nell’hit. Non esiste un limite di byte per questa variabile, pertanto non viene troncata. I valori validi includono:
 
-* `event1` - `event1000`: eventi personalizzati, impostati nel modo desiderato. Registra come utilizzi ogni evento nel [documento di progettazione della soluzione](../../../prepare/solution-design.md). Il numero di eventi disponibili dipende dal contratto Analytics della tua organizzazione. La maggior parte delle organizzazioni con contratti non legacy dispone di 1000 eventi personalizzati. Se non sai quanti eventi personalizzati sono disponibili, contatta il tuo account team di Adobi.
+* `event1` - `event1000`: eventi personalizzati, impostati nel modo desiderato. Registra come utilizzi ogni evento nel [documento di progettazione della soluzione](../../../prepare/solution-design.md). Il numero di eventi disponibili dipende dal contratto Analytics della tua organizzazione. La maggior parte delle organizzazioni con contratti non legacy dispone di 1000 eventi personalizzati. Se non sai quanti eventi personalizzati sono disponibili, contatta l’account manager della tua organizzazione.
 * `purchase`: incrementa il [&#39;Ordini&#39;](/help/components/metrics/orders.md) metrica per 1 e accetta i valori impostati nella `products` variabile da calcolare [&#39;Unità&#39;](/help/components/metrics/units.md) e [&#39;Entrate&#39;](/help/components/metrics/revenue.md). Consulta [evento di acquisto](event-purchase.md) per ulteriori informazioni.
 * `prodView`: incrementa il [&#39;Visualizzazioni prodotto&#39;](/help/components/metrics/product-views.md) metrica.
 * `scOpen`: incrementa il [&#39;Carrelli&#39;](/help/components/metrics/carts.md) metrica.

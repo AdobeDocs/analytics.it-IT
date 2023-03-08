@@ -3,10 +3,10 @@ title: Pianificare un picco di traffico
 description: Collabora con Adobe per assicurarti che gli eventi a traffico elevato non subiscano latenza.
 feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 70%
+source-wordcount: '703'
+ht-degree: 72%
 
 ---
 
@@ -62,4 +62,4 @@ Adobe vuole assicurarsi che la tua esperienza con la creazione di rapporti aggio
 
 * Pianifica il lead time per tutti i picchi di traffico. **È particolarmente importante che qualsiasi picco di traffico anticipato nei mesi di novembre e dicembre sia programmato entro il 15 settembre**. Se non rispetti la scadenza, pianifica il picco il prima possibile. Un lead time ridotto è meglio che niente e Adobe lavora con le risorse correnti per adattarsi alle suite di rapporti nel modo migliore.
 * Se Adobe ti contatta in relazione a un picco di traffico pianificato, assicurati di comunicare se è più importante generare rapporti in tempo reale o rapporti con elaborazione completa. Alcune organizzazioni si affidano al reporting in tempo reale più di altre. Sapere quale tipo di reporting utilizzi può aiutare Adobe ad assegnare le priorità di conseguenza.
-* Comunicare al team del tuo account Adobe i rapporti più importanti e quando li richiami può essere utile per avere il suo sostegno.
+* Comunicare al tuo account manager quali sono i report più importanti e quando li richiami può essere utile per avere il suo sostegno.

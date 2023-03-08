@@ -3,16 +3,18 @@ title: rfl
 description: Rimuovi un valore specifico da una stringa delimitata da caratteri.
 feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '925'
 ht-degree: 3%
 
 ---
 
 # Plug-in di Adobe: rfl (Rimuovi dall&#39;elenco)
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
 
 Il `rfl` Il plug-in consente di rimuovere &quot;in modo sicuro&quot; i valori dalle stringhe delimitate, ad esempio [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md), e altri. Questo plug-in è utile se si desidera rimuovere valori specifici da una stringa delimitata senza preoccuparsi dei delimitatori. Diversi altri plug-in dipendono da questo codice per funzionare correttamente. Questo plug-in non è necessario se non è necessario eseguire una funzione specifica su più variabili Analytics alla volta o se non si utilizzano plug-in dipendenti.
 

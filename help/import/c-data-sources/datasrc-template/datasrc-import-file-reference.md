@@ -5,10 +5,10 @@ title: Riferimento file di importazione
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 64%
+source-wordcount: '426'
+ht-degree: 71%
 
 ---
 
@@ -58,7 +58,7 @@ Usa il modello Origine dati per creare un file Origini dati che contiene i dati 
 * Per velocizzare l&#39;elaborazione del file Origini dati, Adobe consiglia di aggregare dati di eventi (metriche) in una sola riga per data.
 
    Ad esempio, se il file Origini dati mappa dati ad impression all&#39;Evento 6, crea una singola riga di dati che include il numero totale di ad impression per ogni giorno, invece di creare una riga di dati separata per ogni ad impression che si verifica in un giorno specifico.
-* Se devi caricare dati da date precedenti alla data di creazione della suite di rapporti, contatta il team dell’account Adobe per modificare la data meno recente per la quale puoi eseguire i rapporti.
+* Se devi caricare dati da date antecedenti alla data di creazione della suite di rapporti, contatta l&#39;account manager per modificare la data più remota per cui puoi eseguire i rapporti.
 
 **File .FIN**
 

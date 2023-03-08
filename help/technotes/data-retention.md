@@ -3,7 +3,7 @@ title: Criteri di conservazione dei dati
 description: Un criterio di conservazione dei dati determina per quanto tempo Adobe memorizza i dati.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 14%
@@ -20,7 +20,7 @@ I dati conservati si basano sulla data corrente e sulla data/ora dei dati storic
 
 ## Modifica del periodo di conservazione dei dati predefinito
 
-Se desideri ridurre o estendere il periodo di conservazione dei dati predefinito, contatta il team del tuo account di Adobe.
+Se desideri ridurre o estendere il periodo di conservazione dei dati predefinito, contatta l’account manager della tua organizzazione.
 
 * La riduzione del periodo predefinito di conservazione dei dati non comporta alcun costo.
 * L’estensione della conservazione dei dati oltre il periodo predefinito di 25 mesi richiede l’acquisto di estensioni disponibili con incrementi di un anno ciascuna. È possibile acquistare fino a otto estensioni, per un totale di 10 anni e 1 mese (2 anni e 1 mese per il mantenimento in caso di inadempimento, più 8 anni acquistati).
@@ -49,9 +49,9 @@ I criteri di conservazione dei dati definiscono una finestra temporale dinamica 
 
 **Posso richiedere una copia dei miei dati prima che vengano cancellati?**
 
-Sì. Adobe può fornire un dump di dati storici di dati grezzi a livello di hit. Consulta [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) nella guida utente Esporta per ulteriori informazioni. Se hai requisiti di esportazione dei dati che esulano dall’ambito di ciò che l’interfaccia utente può fornire, contatta il team del tuo account Adobe. Si possono effettuare sistemazioni speciali; i costi possono variare.
+Sì. Adobe può fornire un dump di dati storici di dati grezzi a livello di hit. Consulta [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) nella guida utente Esporta per ulteriori informazioni. Se i requisiti di esportazione dei dati non rientrano nell’ambito di ciò che l’interfaccia utente può fornire, contatta l’account manager della tua organizzazione. Si possono effettuare sistemazioni speciali; i costi possono variare.
 
 **Quando Adobe elimina i dati?**
 
-Contatta il team dell’account Adobe per l’ora specifica in cui è pianificata l’eliminazione dei dati. I dati vengono in genere eliminati su base mensile continua.
+Contatta l’account manager della tua organizzazione per l’ora specifica in cui è pianificata l’eliminazione dei dati. I dati vengono in genere eliminati su base mensile continua.
 

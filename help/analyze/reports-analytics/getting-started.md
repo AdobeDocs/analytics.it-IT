@@ -4,9 +4,9 @@ title: Introduzione a Reports and Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '759'
 ht-degree: 16%
 
 ---
@@ -40,7 +40,7 @@ Requisiti di browser e sistema per accedere all’interfaccia di Reports &amp; A
 
 ## Accedi a Reports and Analytics
 
-Prima di accedere all’interfaccia, rivolgiti al team dell’account Adobe o all’Assistenza clienti Adobe per configurare l’account aziendale.
+Prima di accedere all’interfaccia, rivolgiti al tuo Account Manager o Adobe dell’Assistenza clienti per configurare l’account della tua azienda.
 
 ## Accedi utilizzando l’Experience Cloud
 

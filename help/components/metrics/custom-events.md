@@ -3,7 +3,7 @@ title: Eventi personalizzati
 description: Il numero di hit in cui esiste un evento personalizzato.
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -24,6 +24,6 @@ Gli eventi personalizzati vengono calcolati in modo diverso a seconda del tipo. 
 * **Eventi numerici**: somma il valore numerico assegnato all’evento nel `events` variabile.
 * **Eventi valuta**: applica la conversione della valuta al tasso di cambio di quel giorno, quindi somma il valore numerico assegnato a ogni hit nel `events` variabile.
 
-Il numero di eventi disponibili dipende dal contratto Analytics della tua organizzazione. La maggior parte delle organizzazioni con contratti non legacy dispone di 1000 eventi personalizzati. Se non sai quanti eventi personalizzati sono disponibili, contatta il tuo account team di Adobi.
+Il numero di eventi disponibili dipende dal contratto Analytics della tua organizzazione. La maggior parte delle organizzazioni con contratti non legacy dispone di 1000 eventi personalizzati. Se non sai quanti eventi personalizzati sono disponibili, contatta l’account manager della tua organizzazione.
 
 L’Adobe consiglia vivamente di registrare in che modo utilizzi ogni evento nel [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md).

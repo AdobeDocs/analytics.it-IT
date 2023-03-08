@@ -4,7 +4,7 @@ keywords: Suite di rapporti virtuale,VRS
 title: Considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 0%
@@ -21,7 +21,7 @@ La sostituzione dell’assegnazione tag per più suite con una suite di rapporti
 
 ## Linee guida
 
-Se non sei sicuro se i casi d’uso descritti si applicano a te e alla tua organizzazione, consulta gli altri amministratori di Adobe Analytics o il tuo account team di Adobi. Possono essere utili per valutare le esigenze aziendali e formulare raccomandazioni.
+Se non sei sicuro se i casi d’uso descritti si applicano a te e alla tua organizzazione, consulta gli altri amministratori di Adobe Analytics o il tuo account manager Adobe. Possono essere utili per valutare le esigenze aziendali e formulare raccomandazioni.
 
 Per determinare se utilizzare l’assegnazione di tag multisuite o le suite di rapporti virtuali, tieni presenti le seguenti considerazioni:
 

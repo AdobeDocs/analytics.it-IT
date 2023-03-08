@@ -3,16 +3,18 @@ title: manageVars
 description: Modifica i valori di più variabili Analytics alla volta.
 feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
 
 # Plug-in di Adobe: manageVars
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
 
 Il `manageVars` Il plug-in consente di manipolare i valori di più variabili di Analytics contemporaneamente. Puoi anche impostare i valori in minuscolo o rimuovere contemporaneamente caratteri non necessari da più valori di variabili. L’Adobe consiglia di utilizzare questo plug-in per pulire il valore di più variabili contemporaneamente.
 

@@ -2,9 +2,9 @@
 title: Unione basata sui campi
 description: Comprendi i prerequisiti e le limitazioni dell’unione di dati utilizzando l’unione basata sui campi.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ Analytics tra dispositivi fornisce due metodi distinti per unire i dati. Questo 
 
 ## Prerequisiti specifici per l’unione basata sui campi
 
-Se intendi implementare Cross-Device Analytics utilizzando l’unione basata sui campi, è necessario quanto segue. Collabora con i team della tua organizzazione e con il tuo account team Adobe per assicurarti di soddisfare tutte le seguenti esigenze.
+Se intendi implementare Cross-Device Analytics utilizzando l’unione basata sui campi, è necessario quanto segue. Collabora con i team della tua organizzazione e con il tuo Account Manager Adobe per assicurarti di soddisfare tutte le seguenti esigenze.
 
 >[!WARNING]
 >
@@ -23,7 +23,7 @@ Se intendi implementare Cross-Device Analytics utilizzando l’unione basata sui
 
 * Tutti i prerequisiti elencati in [pagina panoramica](overview.md).
 * L’implementazione deve impostare una prop o un eVar che identifica in modo univoco un individuo ogni volta che è possibile, ad esempio quando un utente accede o apre un’e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Evita di assegnare un valore predefinito alla proprietà o all’eVar.
-* Comunica la variabile di identificazione desiderata al team dell’account Adobe quando viene eseguito il provisioning per l’unione basata sui campi.
+* Comunica la variabile di identificazione desiderata all’Account Manager quando viene eseguito il provisioning per l’unione basata sui campi.
 
 ## Limitazioni specifiche dell’unione basata sui campi
 

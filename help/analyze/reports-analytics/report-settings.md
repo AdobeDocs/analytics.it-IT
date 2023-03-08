@@ -4,9 +4,9 @@ title: Impostazioni di visualizzazione e navigazione del rapporto
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1551'
 ht-degree: 15%
 
 ---
@@ -45,7 +45,7 @@ Impostazioni che definiscono la modalità di visualizzazione di tutti i rapporti
 | **Lingua/valuta/codifica** |  |
 | Separatore migliaia | Seleziona un separatore per ogni migliaia (decimale o virgola). Molti paesi utilizzano un decimale per separare il numero delle migliaia. Questo separatore viene applicato a tutti i numeri nel sistema, non solo alla valuta. |
 | Utilizzare la valuta predefinita della suite di rapporti | Specifica se utilizzare la valuta predefinita della suite di rapporti. |
-| Valuta | Valuta in cui si desidera convertire i dati. Quando si seleziona un valore in questa impostazione, i dati memorizzati nel database non vengono interessati, ma vengono visualizzati come valori convertiti in base al tasso di conversione della valuta del giorno corrente. Quando le opzioni di valuta non sono configurate (impostate sui valori predefiniti) non viene eseguita alcuna conversione di valuta e tutti i valori vengono memorizzati e visualizzati in dollari USA (USD). Per convertire la valuta quando i dati vengono elaborati (prima che vengano visualizzati), contatta il team dell’account di Adobe. |
+| Valuta | Valuta in cui si desidera convertire i dati. Quando si seleziona un valore in questa impostazione, i dati memorizzati nel database non vengono interessati, ma vengono visualizzati come valori convertiti in base al tasso di conversione della valuta del giorno corrente. Quando le opzioni di valuta non sono configurate (impostate sui valori predefiniti) non viene eseguita alcuna conversione di valuta e tutti i valori vengono memorizzati e visualizzati in dollari USA (USD). Per convertire la valuta quando i dati vengono elaborati (prima che vengano visualizzati), contatta il tuo account manager. |
 | Codifica report pianificata | SHIFT-JIS per la codifica di caratteri giapponese. EUC-JP per codice Unix esteso, principalmente per giapponese, coreano e cinese semplificato. |
 | Carattere separatore CSV | Carattere da utilizzare per separare i valori CSV. |
 

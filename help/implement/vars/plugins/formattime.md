@@ -3,16 +3,18 @@ title: formatTime
 description: Converti un numero di secondi nel suo equivalente in minuti, ore, ecc.
 feature: Variables
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '485'
 ht-degree: 3%
 
 ---
 
 # Plug-in Adobe: formatTime
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
 
 Il `formatTime` Il plug-in consente di richiedere un numero qualsiasi di secondi e di presentarli in un formato a blocchi, arrotondati al valore di riferimento desiderato. L’Adobe consiglia di utilizzare questo plug-in se desideri acquisire un valore di tempo in secondi e convertirlo in un formato bucket (ad esempio minuti, giorni o settimane). Questo plug-in non è necessario se non si desidera inserire valori basati su secondi in un formato con arrotondamento temporale.
 

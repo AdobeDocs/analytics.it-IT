@@ -4,10 +4,10 @@ description: Il concetto di attribuire il credito di un evento di successo a pi�
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ Attribution consente agli analisti di personalizzare il modo in cui i valori del
 1. Un visitatore del sito fa clic su un collegamento di ricerca a pagamento a una delle pagine dei tuoi prodotti. Aggiunge il prodotto al carrello, ma non lo acquista.
 2. Il giorno successivo, viene visualizzato un post di social media di uno dei loro amici, fai clic sul collegamento e completa l’acquisto.
 
-In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta il team del tuo account Adobe.
+In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta l’Account Manager della tua organizzazione.
 
 ## Valore di Attribution IQ
 

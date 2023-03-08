@@ -2,16 +2,16 @@
 title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 6a1c95a25c89332b0d549e5ce8c5197331e71e3c
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 98%
+source-wordcount: '1441'
+ht-degree: 99%
 
 ---
 
 # Mappatura delle variabili di Analytics in Adobe Experience Edge
 
-La tabella seguente mostra le variabili mappate automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi XDM, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics. Questi campi sono inclusi nel **[!UICONTROL Adobe Analytics ExperienceEvent Template]** gruppo di campi.
+La tabella seguente mostra le variabili mappate automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi XDM, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics.
 
 | Percorso campo XDM | Dimensione e descrizione di Analytics |
 | --- | --- |
@@ -125,7 +125,7 @@ La tabella seguente mostra le variabili mappate automaticamente da Adobe Experie
 | `web.webPageDetails.siteSection` | La dimensione [Sezione del sito](../../components/dimensions/site-section.md). |
 | `web.webReferrer.URL` | La dimensione [Referrer](../../components/dimensions/referrer.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
 
