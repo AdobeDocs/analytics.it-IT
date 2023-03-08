@@ -5,10 +5,10 @@ title: Condividere progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ec3539389ab3aa9589e15e14f19b6f34d57a15a2
+source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 31%
+source-wordcount: '1508'
+ht-degree: 33%
 
 ---
 
@@ -136,23 +136,17 @@ Per condividere un collegamento pubblico a un progetto Analysis Workspace:
 
 1. Abilita **[!UICONTROL Link active]** se non è già abilitata.
 
-1. Scegli se abilitare le seguenti opzioni di sicurezza (che possono essere controllate dall’amministratore Analytics):
+1. Scegli se abilitare la seguente opzione di sicurezza (questa opzione può essere controllata dall’amministratore Analytics):
 
-   * **[!UICONTROL Require single sign-on (SSO) authentication]:**
+   * **[!UICONTROL Require Experience Cloud authentication]:**
 
-      Richiedi l&#39;autenticazione tramite SSO agli utenti con il collegamento prima di accedere al progetto condiviso. Seleziona questa opzione se desideri che il progetto sia accessibile solo agli utenti all’interno dell’organizzazione.
+      Quando questa opzione è abilitata, solo i destinatari con un Federated ID e che possono accedere a Adobe Experience Cloud possono accedere ai collegamenti pubblici condivisi. Richiedi agli utenti con il collegamento di autenticarsi con il proprio accesso a Adobe Experience Cloud per accedere al progetto condiviso.
 
       Gli amministratori di Analytics possono impostare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
 
-      * Se questa opzione non è visibile, l’SSO non è abilitato per la tua organizzazione oppure l’amministratore di Analytics non ha abilitato questa funzione.
+      * Se questa opzione non è visibile, l’amministratore di Analytics non ha abilitato questa funzione.
 
-      * Se questa opzione è abilitata e disabilitata, l’amministratore di Analytics richiede l’autenticazione SSO per accedere a tutti i collegamenti pubblici.
-   * **[!UICONTROL Require Password]:** Richiedi agli utenti con il collegamento di specificare una password prima di accedere al progetto Analysis Workspace. Questo offre un ulteriore livello di sicurezza al progetto.
-
-      Se si seleziona questa opzione, specificare una password. Ricordati di condividere questa password insieme al collegamento del progetto quando la condividi con altri. <!--go through this workflow and see how it works.-->
-
-      Se questa opzione è abilitata e disabilitata, l’amministratore di Analytics richiede che tutti i collegamenti pubblici siano protetti da password. Gli amministratori di Analytics possono impostare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md).
-
+      * Se questa opzione è abilitata e disabilitata, l’amministratore di Analytics richiede l’autenticazione Experience Cloud per accedere a tutti i collegamenti pubblici.
 
 1. Accanto al **[!UICONTROL Share with anyone (no login required)]** , fare clic sul pulsante **Copia collegamento** per copiare il collegamento negli Appunti di sistema.
 
