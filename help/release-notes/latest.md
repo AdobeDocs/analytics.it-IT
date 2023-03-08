@@ -3,7 +3,7 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 22374dbf0cea5842bd59c8c22aec6518a0600aa8
+source-git-commit: c156ab154bc34ffb653c9ad5509c409f475db39d
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 57%
@@ -16,7 +16,7 @@ ht-degree: 57%
 
 I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
-## Funzioni nuove o aggiornate in Adobe Analytics
+## Funzioni nuove o aggiornate in Adobe Analytics {#features}
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
@@ -32,7 +32,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 
 -302282; AN-303127; AN-303541; AN-303550; AN-305282; AN-306504; AN-307351; AN-307496; AN-307530; AN-307947; AN-308497; AN-; AN-308610; AN-308777; AN-308994; AN-309143; AN-309404; AN-309414; AN-309445; AN-309575; AN-309630; AN-309658; AN-309690; AN-309742; AN-309861; AN-309967; AN-309973; AN-310059; AN-310132; AN-310168; AN-310238; AN-310241; AN-310301; AN-310318; AN-310324; AN-310335; AN-310338; AN-310460; AN-310500; AN-310684; AN-310690; AN-311010; AN-311022; AN-311043; AN-311125; AN-311250; AN-311370; AN-311458;
 
-## Avvisi importanti per gli amministratori di Adobe Analytics
+## Avvisi importanti per gli amministratori di Adobe Analytics {#admin}
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
@@ -42,7 +42,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 
 {style="table-layout:auto"}
 
-## Avvisi sulla fine del ciclo di vita (EOL)
+## Avvisi sulla fine del ciclo di vita (EOL) {#eol}
 
 | Fine del ciclo di vita del prodotto o della funzione | Data aggiunta o aggiornata | Descrizione |
 | --- | --- | --- |
