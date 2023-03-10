@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 60af9f7a14e81609a2a51558677031bc778aef3e
+source-git-commit: 04e80edd290b1b6a007e7ccec1bb1d563e98ecf8
 workflow-type: tm+mt
-source-wordcount: '3704'
-ht-degree: 96%
+source-wordcount: '3732'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Marzo 2023** |  |
+| Creare storie di dati nelle scorecard per dispositivi mobili | A [storia dei dati](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) è una raccolta di punti di dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale. |
 | Metriche calcolate predefinite | Sono stati aggiunti contenuti che spiegano [metriche calcolate predefinite fornite da Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | Dizionario dati | <p>È stata aggiunta una nuova documentazione per il dizionario dati che include: [Panoramica](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Visualizzazione](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Modifica](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), e [Monitorare](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) il dizionario dati.</p><p>Informazioni in [Aggiunta di descrizioni dei componenti](/help/analyze/analysis-workspace/components/add-component-descriptions.md) è stato aggiornato per tenere conto della funzionalità del dizionario dati.</p> |
 | Condivisione dei collegamenti per i progetti (accesso non richiesto) | <p>È stata aggiornata la documentazione esistente per spiegare come condividere un collegamento di sola lettura di un progetto con persone che non hanno accesso ad Analysis Workspace.</p> <p>La documentazione utente aggiornata include [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md) e [Creare collegamenti condivisibili](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>Le opzioni per gli amministratori sono state aggiunte a [Preferenze](/help/analyze/analysis-workspace/user-preferences.md).</p> |
