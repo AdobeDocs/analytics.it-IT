@@ -3,10 +3,10 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c99e4f2b91d6246a2a47e39dc24ba443b76636f6
+source-git-commit: 3d2e6966fbc765cd19f7a258457d89af3097083f
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 36%
+source-wordcount: '1192'
+ht-degree: 32%
 
 ---
 
@@ -24,6 +24,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 | **Storie di dati nei dashboard per dispositivi mobili** | Le storie di dati consentono di aggiungere più visualizzazioni di dettaglio personalizzabili alle tessere nei progetti di scorecard per dispositivi mobili. Utilizza le storie di dati per approfondire i driver chiave, le metriche correlate e i diversi passaggi del percorso del cliente. Puoi scorrere facilmente queste visualizzazioni per comprendere l’intera storia dietro le metriche chiave. [Ulteriori informazioni](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N/D | 8 marzo 2023 |
 | **Date di scadenza per il progetto programmato** | È possibile impostare date di scadenza massime per i progetti programmati fino a un anno, indipendentemente dalla frequenza di programmazione. | N/D | 8 marzo 2023 |
 | **Condivisione dei collegamenti per i progetti (accesso non richiesto)** - Solo accesso beta privato | <p>Ora puoi condividere collegamenti in sola lettura ai progetti Analysis Workspace con persone che non hanno accesso ad Adobe Analytics. Puoi condividere i collegamenti dei progetti con persone esterne all’organizzazione o con persone all’interno dell’organizzazione che non dispongono del provisioning per Adobe Analytics. [Ulteriori informazioni](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Per partecipare alla versione beta privata, contatta il team del tuo account Adobe.</p> | 15 marzo 2023 (versione beta privata) | Aprile 2023 |
+| **Aggiornamenti dell’intervallo di date del pannello** | In Workspace sono stati aggiunti i seguenti miglioramenti:<ul><li>A partire dalla versione di febbraio, gli elementi dimensionali e le anteprime dei dati si basano sull’intervallo di date del pannello e non sugli ultimi 90 giorni. </li><li>Tutti gli elementi dimensionali elencati sono basati su dati all’interno dell’intervallo di date del pannello. Se un elemento dimensione contiene dati non compresi nell’intervallo di date, puoi visualizzare dati aggiuntivi oltre l’intervallo di date nella parte inferiore dell’elenco.</li><li>I Dimension privi di dati possono essere visualizzati nella barra a sinistra. Fai clic sul pulsante Mostra altre opzioni per visualizzare gli elementi dimensionali con dati che non rientrano nell’intervallo di date del pannello.</li><li>Le anteprime dei dati nei generatori di segmenti e metriche calcolate si basano sull’intervallo di date del pannello, a meno che non siano accessibili dai gestori dei componenti, ai quali non è associato un pannello e che si basano ancora sugli ultimi 90 giorni.</li><li>Le anteprime dei dati visualizzano dati o componenti in base all’intervallo di date del pannello.</li></ul> | N/D | 8 febbraio 2023 |
 
 ## Correzioni in Adobe Analytics
 
