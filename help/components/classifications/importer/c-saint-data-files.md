@@ -3,10 +3,10 @@ description: L’importazione consente di caricare in massa i dati delle classif
 title: File di dati di classificazione
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1735'
-ht-degree: 100%
+source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+workflow-type: tm+mt
+source-wordcount: '1749'
+ht-degree: 98%
 
 ---
 
@@ -109,11 +109,11 @@ Ogni valore deve essere univoco in tutto il sistema. Il valore in questo campo c
 
 ### Intestazione della colonna di classificazione
 
-Ad esempio, Reports and Analytics include automaticamente due classificazioni per le variabili [!UICONTROL Campaign]: [!UICONTROL Campaigns] e [!UICONTROL Creative Elements]. Per aggiungere dati alla classificazione [!UICONTROL Campaigns], l’intestazione di colonna nel file di dati di classificazione sarà [!UICONTROL Campaigns].
+Esempio: l’implementazione di Reports &amp; Analytics include automaticamente due classificazioni per [!UICONTROL Campaign] Variabili: [!UICONTROL Campaigns] e [!UICONTROL Creative Elements]. Per aggiungere dati alla classificazione [!UICONTROL Campaigns], l’intestazione di colonna nel file di dati di classificazione sarà [!UICONTROL Campaigns].
 
 >[!NOTE]
 >
->I valori nell’intestazione della colonna [!UICONTROL Classifications] devono corrispondere esattamente alla convenzione di denominazione della classificazione, altrimenti l’importazione non riesce. Ad esempio, se l’amministratore modifica [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] nel [!UICONTROL Campaign Set-up Manager], l’intestazione della colonna del file dev’essere modificata di conseguenza.
+>I valori nell’intestazione della colonna [!UICONTROL Classifications] devono corrispondere esattamente alla convenzione di denominazione della classificazione, altrimenti l’importazione non riesce. Ad esempio, se l’amministratore modifica [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] nel [!UICONTROL Campaign Set-up Manager], l’intestazione della colonna del file dev’essere modificata di conseguenza. &quot;Chiave&quot; è un valore di classificazione riservato (intestazione). Le nuove classificazioni denominate &quot;Chiave&quot; non sono supportate.
 
 Inoltre, il file di dati supporta le seguenti convenzioni di intestazione aggiuntive per identificare sottoclassificazioni e altre colonne di dati specializzate:
 
