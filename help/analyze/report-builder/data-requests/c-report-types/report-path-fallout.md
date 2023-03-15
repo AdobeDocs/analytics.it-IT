@@ -1,5 +1,5 @@
 ---
-description: Descrive come Report Builder supporta i report di percorsi e fallout e come l'implementazione differisce da Reports & Analytics.
+description: Descrive come Report Builder supporta i rapporti di percorsi e fallout e come l’implementazione differisce da Reports & Analytics.
 title: Rapporti di percorso e fallout percorso in Report Builder
 feature: Report Builder
 role: User, Admin
@@ -13,21 +13,21 @@ ht-degree: 8%
 
 # Rapporti di percorso e fallout percorso in Report Builder
 
-Descrive come Report Builder supporta i report di percorsi e fallout e come l&#39;implementazione differisce da Reports &amp; Analytics.
+Descrive come Report Builder supporta i rapporti di percorsi e fallout e come l’implementazione differisce da Reports &amp; Analytics.
 
 | Nome del rapporto di percorso in Reports &amp; Analytics (Percorsi > dimensione >) | Supportato nel Report Builder? |
 |--- |--- |
-| Flusso della dimensione successiva/precedente | Non fornito come rapporto indipendente. Può essere riprodotto con diverse richieste con la dimensione Percorso e utilizzando un filtro. |
-| Dimensione successiva/precedente | Non fornito come rapporto indipendente. Può essere riprodotto con un rapporto Percorso e utilizzando un filtro. |
-| Abbandono | Supportato e fornito come rapporto indipendente ( Percorsi > dimensione > Abbandono dimensione). |
+| Flusso dimensione precedente/successiva | Non viene fornito come rapporto autonomo. Può essere riprodotto con diverse richieste con la dimensione Percorso e utilizzando un filtro. |
+| Dimensione precedente/successivo | Non viene fornito come rapporto autonomo. Può essere riprodotto con un rapporto Percorso e utilizzando un filtro. |
+| Fallout (abbandono) | Supportato e fornito come rapporto indipendente ( Percorsi > dimensione > Abbandono dimensione). |
 | Percorsi completi | Non supportati. |
-| PathFinder | Non fornito come rapporto indipendente. Può essere riprodotto come rapporto di percorso utilizzando un filtro. |
+| PathFinder | Non viene fornito come rapporto autonomo. Può essere riprodotto come report Percorso utilizzando un filtro. |
 | Lunghezza percorso | Supportato solo per la dimensione Pagina. |
-| Analisi pagina > Riepilogo dimensioni | Non fornito come rapporto indipendente. Può essere riprodotto con diverse richieste con la dimensione Percorso e utilizzando un filtro. |
-| Analisi pagina > Ricarica | Non fornito come rapporto indipendente. Può essere riprodotto con un rapporto di dimensione utilizzando la metrica Ricarica. |
+| Analisi pagina > Riepilogo dimensioni | Non viene fornito come rapporto autonomo. Può essere riprodotto con diverse richieste con la dimensione Percorso e utilizzando un filtro. |
+| Analisi pagina > Ricaricamenti | Non viene fornito come rapporto autonomo. Può essere riprodotto con un rapporto di dimensione utilizzando la metrica Ricarica. |
 | Analisi pagina > Profondità dimensione | Supportato solo per la dimensione Pagina. |
 | Analisi pagina > Tempo trascorso sulla dimensione | Non supportati. |
-| Entrate e uscite > Pagine di ingresso | Non fornito come rapporto indipendente. Può essere riprodotto come rapporto Percorso utilizzando il filtro predefinito Sito inserito. |
+| Entrate e uscite > Pagine di ingresso | Non viene fornito come rapporto autonomo. Può essere riprodotto come rapporto Percorso utilizzando il filtro predefinito Sito immesso. |
 | Entrate e uscite > Pagine di ingresso originali | Supportato solo per la dimensione Pagina. |
-| Entrate e uscite > Visite a pagina singola | Non fornito come rapporto indipendente. Può essere riprodotto come rapporto di percorso utilizzando un filtro predefinito. |
-| Entrate e uscite > Dimensione di uscita | Non fornito come rapporto indipendente. Può essere riprodotto come rapporto di percorso utilizzando il filtro predefinito Exited Site. |
+| Entrate e uscite > Visite a pagina singola | Non viene fornito come rapporto autonomo. Può essere riprodotto come rapporto di percorso utilizzando un filtro predefinito. |
+| Entrate e uscite > Dimensione uscita | Non viene fornito come rapporto autonomo. Può essere riprodotto come rapporto di Percorso utilizzando il filtro predefinito Sito Uscito. |

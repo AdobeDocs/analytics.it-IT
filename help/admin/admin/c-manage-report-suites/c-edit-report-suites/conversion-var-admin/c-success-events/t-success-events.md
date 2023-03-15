@@ -12,7 +12,7 @@ ht-degree: 76%
 
 # Configurare eventi di successo
 
-Per configurare gli eventi di successo:
+Per configurare eventi di successo:
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
@@ -32,14 +32,14 @@ Per configurare gli eventi di successo:
 1. Nella colonna **[!UICONTROL Polarity]** specifica se una tendenza verso l’alto per questa metrica è buona o cattiva.
 1. Nella colonna **[!UICONTROL Visibility]** puoi nascondere le metriche standard (integrate), gli eventi personalizzati e gli eventi incorporati in Menu, Selettori metriche, Generatore metriche calcolate e Generatore segmenti.
 
-   Questa impostazione non influisce sulla raccolta dei dati per tale metrica o evento; influisce solo sulla sua visibilità nell’interfaccia utente, come segue:
+   Questa impostazione non influisce sulla raccolta di dati per quella metrica o evento; influisce solo sulla sua visibilità nell’interfaccia utente, come segue:
 
 
    | Impostazione | Visibile in | Non visibile in |
    |---------|----------|---------|
-   | [!UICONTROL **Visibile ovunque**] | <ul><li>Reports &amp; Analytics (selettore di menu e metriche)</li><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> | N/D |
-   | [!UICONTROL **Edifici**] | <ul><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> | <ul><li>Reports &amp; Analytics (selettore di menu e metriche)</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Nascosto ovunque**] | N/D | <ul><li>Reports &amp; Analytics (selettore di menu e metriche)</li><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> |
+   | [!UICONTROL **Visibile ovunque**] | <ul><li>Reports &amp; Analytics (selettore menu e metriche)</li><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> | N/D |
+   | [!UICONTROL **Builder**] | <ul><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> | <ul><li>Reports &amp; Analytics (selettore menu e metriche)</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Nascosto ovunque**] | N/D | <ul><li>Reports &amp; Analytics (selettore menu e metriche)</li><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> |
 
 1. Fornisci una descrizione.
 1. Controlla se registrare sempre l’evento.

@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Configurare il rilevamento di ricerche a pagamento
 
-Per configurare il rilevamento della ricerca a pagamento:
+Per configurare il rilevamento di ricerche a pagamento:
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** per aprire [!UICONTROL Report Suite Manager].
 1. Seleziona una suite di rapporti.

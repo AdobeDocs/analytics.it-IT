@@ -14,7 +14,7 @@ ht-degree: 94%
 
 A ciascun ID che si desidera cercare viene assegnato uno spazio dei nomi, o namespace, ovvero una stringa personalizzata che identifica l’ID in qualsiasi variabile in cui esso viene usato per tutte le suite di rapporti.
 
-La stringa namespace viene usata per identificare i campi in cui si desidera eseguire le ricerche quando si fornisce un ID come parte di una richiesta di Privacy dei dati. Quando viene inviata una richiesta di Privacy dei dati, la richiesta includerà una sezione JSON che specifica gli ID della persona interessata da usare nella richiesta. È possibile includere più ID come parte di una singola richiesta per un interessato. La sezione JSON include:
+La stringa namespace viene usata per identificare i campi in cui si desidera eseguire le ricerche quando si fornisce un ID come parte di una richiesta di Privacy dei dati. Quando una richiesta di Privacy dei dati viene inviata, la richiesta includerà una sezione JSON che specifica gli ID dell’interessato da utilizzare per la richiesta. È possibile includere più ID come parte di una singola richiesta per un interessato. La sezione JSON include:
 
 * Un campo “namespace” contenente la stringa namespace.
 * Un campo “type” che per la maggior parte delle richieste di Adobe Analytics contiene il valore “analytics”.

@@ -4,7 +4,7 @@ description: Domande frequenti sull’implementazione e collegamenti a ulteriori
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 100%
 

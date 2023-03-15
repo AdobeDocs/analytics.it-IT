@@ -6,40 +6,40 @@ exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 3%
+ht-degree: 18%
 
 ---
 
 # visitorID
 
-Adobe utilizza diversi metodi per identificare i visitatori sul sito. La `visitorID` sostituisce tutti gli altri metodi di identificazione dei visitatori.
+In Adobe vengono utilizzati diversi metodi per identificare i visitatori sul sito. Il `visitorID` la variabile sostituisce tutti gli altri metodi di identificazione dei visitatori.
 
 >[!IMPORTANT]
 >
->Adobe consiglia di non utilizzare questa variabile. Utilizza la [Servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) invece.
+>L’Adobe consiglia di non utilizzare questa variabile. Utilizza il [Servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) invece.
 
-## Ignorare l’ID del visitatore utilizzando l’SDK per web
+## Sostituzione dell’ID visitatore tramite Web SDK
 
-Presto disponibile!
+Disponibile a breve!
 
-## ID visitatore che utilizza l’estensione Adobe Analytics
+## ID visitatore tramite l’estensione Adobe Analytics
 
-[!UICONTROL Visitor ID] è un campo sotto [!UICONTROL Cookies] pannello a soffietto durante la configurazione dell&#39;estensione Adobe Analytics.
+[!UICONTROL Visitor ID] è un campo sotto [!UICONTROL Cookies] Pannello a soffietto durante la configurazione dell’estensione Adobe Analytics.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà tag desiderata.
-3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto Adobe Analytics.
-4. Espandi la [!UICONTROL Cookies] fisarmonica, che rivela [!UICONTROL Visitor ID] campo .
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+2. Fai clic sulla proprietà del tag desiderata.
+3. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
+4. Espandi il pannello a soffietto [!UICONTROL Cookies], che mostra il campo [!UICONTROL Visitor ID].
 
 Assegna questo campo all’elemento dati contenente l’ID visitatore personalizzato. Non impostare questo campo su un valore statico.
 
-## s.visitorID in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
+## s.visitorID in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-La `s.visitorID` è una stringa che contiene un identificatore univoco personalizzato per il visitatore. I valori validi includono caratteri alfanumerici fino a 100 byte. Evita di usare trattini, spazi, caratteri di sottolineatura o simboli in questa variabile.
+Il `s.visitorID` variabile è una stringa che contiene un identificatore univoco personalizzato per il visitatore. I valori validi includono caratteri alfanumerici fino a 100 byte. Evita di usare trattini, spazi, trattini bassi o simboli in questa variabile.
 
 >[!WARNING]
 >
->Se imposti la `visitorID` passaggio variabile all’interno di una visita, i dati si traducono in due visitatori univoci separati.
+>Se si imposta `visitorID` variabile a metà percorso in una visita, i dati generano due visitatori univoci distinti.
 
 ```js
 s.visitorID = "abc123";
@@ -47,4 +47,4 @@ s.visitorID = "abc123";
 
 >[!CAUTION]
 >
->Un’implementazione non valida degli ID visitatore personalizzati può causare dati errati e prestazioni di reporting scadenti. Se questa variabile contiene un valore predefinito, ad esempio `"0"` o `"NULL"`), Adobe tratta questi hit come se fossero lo stesso visitatore. Questa situazione si traduce in dati errati, con conteggi bassi dei visitatori e segmenti a livello di visitatore che non funzionano come previsto. Inoltre, gli ID visitatore personalizzati implementati in modo errato generano un carico elevato sui server di elaborazione, con un aumento [latenza](/help/technotes/latency.md) e riduzione delle prestazioni dei rapporti.
+>Un’implementazione non valida degli ID visitatore personalizzati può portare a dati errati e prestazioni di reporting scadenti. Se questa variabile contiene un valore predefinito (ad esempio `"0"` o `"NULL"`), Adobe tratta questi hit come se fossero lo stesso visitatore. Questa situazione genera dati errati, con un numero basso di visitatori e segmenti a livello di visitatore che non funzionano come previsto. Gli ID visitatore personalizzati implementati in modo non corretto introducono anche un carico pesante sui server di elaborazione, aumentando [latenza](/help/technotes/latency.md) e la riduzione delle prestazioni dei rapporti.

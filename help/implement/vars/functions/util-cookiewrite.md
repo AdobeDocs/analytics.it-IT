@@ -12,15 +12,15 @@ ht-degree: 2%
 
 # Util.cookieWrite
 
-I cookie possono memorizzare e recuperare informazioni tra le pagine dello stesso dominio. Utilizza la `Util.cookieWrite()` per impostare un valore su un cookie. È possibile utilizzare [`Util.cookieRead()`](util-cookieread.md) metodo per recuperare i valori impostati con `Util.cookieWrite()`.
+I cookie possono memorizzare e recuperare informazioni tra le pagine dello stesso dominio. Utilizza il `Util.cookieWrite()` per impostare un valore su un cookie. È possibile utilizzare [`Util.cookieRead()`](util-cookieread.md) metodo per recuperare i valori impostati mediante `Util.cookieWrite()`.
 
 ## Impostare i cookie utilizzando l’estensione Adobe Analytics e l’estensione Web SDK
 
-La raccolta dati di Adobe Experience Platform non consente di impostare i cookie nell’interfaccia di .
+La funzione Raccolta dati di Adobe Experience Platform non consente di impostare i cookie nell’interfaccia.
 
-## s.Util.cookieWrite() in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
+## s.Util.cookieWrite() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Chiama il `s.Util.cookieWrite()` per impostare un cookie su un valore desiderato.
+Chiama il `s.Util.cookieWrite()` per impostare un cookie sul valore desiderato.
 
 ```js
 s.Util.cookieWrite("example_cookie","Example cookie value")
@@ -37,7 +37,7 @@ s.Util.cookieWrite("example_cookie","Example 6-month cookie",cookieDate);
 
 ## Esempi
 
-È possibile creare un&#39;istanza di una variabile in seguito alla scrittura di un cookie. Questa variabile è booleana.
+Puoi creare un’istanza di una variabile al completamento della scrittura di un cookie. Questa variabile è booleana.
 
 ```js
 var success = s.Util.cookieWrite("example_cookie","Example cookie value");

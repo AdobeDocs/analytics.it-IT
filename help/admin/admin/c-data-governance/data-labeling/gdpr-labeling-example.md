@@ -141,7 +141,7 @@ Inviando una richiesta di accesso, il file di riepilogo contiene i valori indica
 
 Si noti che le impostazioni di expandIDs non cambiano nell’output quando viene usato un ID cookie.
 
-## Richieste di cancellazione di esempio {#delete}
+## Esempio di richieste di eliminazione {#delete}
 
 Se la richiesta di cancellazione usa i valori dell’API nella prima riga della tabella, la tabella dei risultati verrà aggiornata e apparirà come la seguente:
 
@@ -365,6 +365,6 @@ Tieni presente quanto segue:
 * Sono interessate solo le celle nelle righe contenenti `user=Mary` e un’etichetta `DEL-PERSON`.
 * A causa dell’espansione dell’ID, sono interessate le celle nelle righe contenenti `AAID=77`, `AAID=88` o `AAID=99` (valori AAID nelle righe contenenti `user=Mary`) e un’etichetta `DEL-DEVICE`. Questo include le celle con un’etichetta `DEL-DEVICE` nelle righe in cui `user=Mary`. Questo causa l’oscuramento delle celle nelle righe 4 e 5 (nonché nelle righe 1-3) con le etichette `DEL-DEVICE` (AAID, MyEvar2 e MyEvar3).
 * L’impostazione expandIDs non si estende alla chiamata per includere i valori presenti in MyEvar3 (`X`, `Y` e `Z`), che ha un’etichetta ID-DEVICE, quando `user=Mary`. ExpandIDs si estende solo per includere l’ID visitatore (AAID in questo esempio, ma anche ECID) nelle righe in cui `user=Mary`. Così le ultime due righe, che contengono i valori MyEvar3 `X` e `Z`, non sono interessate.
-* `MyEvar2` nella quarta e nella quinta riga vengono aggiornate perché queste righe contengono gli stessi valori ID visitatore (`77` e `88`) come nella prima e nella seconda riga. Di conseguenza, l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
+* `MyEvar2` nella quarta e nella quinta riga vengono aggiornate perché queste righe contengono gli stessi valori ID visitatore (`77` e `88`) come quelle sulla prima e sulla seconda riga. Di conseguenza, l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
 * I valori di `MyEvar2` nella seconda e nella quinta riga corrispondono prima e dopo l’eliminazione. Tuttavia, dopo l’eliminazione non corrispondono più al valore `N` che si trova nell’ultima riga, perché tale riga non è stata aggiornata come parte della richiesta di eliminazione.
 * `MyEvar3` si comporta in modo molto diverso rispetto alla versione senza l’espansione dell’ID, in quanto senza l’espansione dell’ID, nessun corrisponde `ID-DEVICES`. Ora `AAID` corrisponde alle prime cinque righe.

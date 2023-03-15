@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 7%
+source-wordcount: '102'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Una richiesta dipendente è una richiesta dipendente da una richiesta esistente.
 
-Per i rapporti con suddivisioni di correlazione abilitate all’interno della tabella di rapporto, puoi osservare da vicino un elemento facendo clic con il pulsante destro del mouse nella cella e facendo clic su **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
+Per i rapporti con raggruppamenti di correlazioni abilitati nella tabella dei rapporti, puoi esaminare più da vicino un elemento facendo clic con il pulsante destro del mouse nella cella e facendo clic su **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
 
 >[!NOTE]
 >
@@ -24,6 +24,6 @@ Per i rapporti con suddivisioni di correlazione abilitate all’interno della ta
 
 >[!NOTE]
 >
->Adobe Report Builder applica le dipendenze richieste solo all&#39;interno dello stesso foglio di lavoro, non tra i fogli di lavoro. La limitazione alle dipendenze all&#39;interno di un singolo foglio di lavoro garantisce la tempestività dell&#39;esecuzione.
+>Adobe Report Builder applica le dipendenze delle richieste solo all&#39;interno dello stesso foglio di lavoro, non tra fogli di lavoro diversi. La limitazione alle dipendenze all&#39;interno di un singolo foglio di lavoro garantisce la tempestività dell&#39;esecuzione.
 
 Consulta [Rapporti di suddivisione](/help/analyze/reports-analytics/reports-customize/breakdowns.md).

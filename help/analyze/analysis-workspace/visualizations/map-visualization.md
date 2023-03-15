@@ -40,7 +40,7 @@ Panoramica video:
 | Impostazione | Descrizione |
 | --- | --- |
 | [!UICONTROL Mobile Lat/Long] | Questa opzione rappresenta i dati provenienti dall’app mobile. Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (seleziona suite di rapporti) > [!UICONTROL Edit Settings] >  [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking]. Impostazione predefinita (se è abilitato il tracciamento della posizione). |
-| [!UICONTROL Geographic Dimension] | Questa opzione rappresenta i dati per segmentazione geografica sulla posizione del visitatore, in base al suo indirizzo IP. Questi dati vengono trasformati in [!UICONTROL Country], [!UICONTROL Region]e [!UICONTROL City]. Tieni presente che non arriva invece al livello del codice postale. Questa dimensione è abilitata per quasi tutte le suite di rapporti. Se non lo è, contatta l’Assistenza clienti Adobe e richiedi che vengano abilitati i rapporti geografici. |
+| [!UICONTROL Geographic Dimension] | Questa opzione rappresenta i dati per segmentazione geografica sulla posizione del visitatore, in base al suo indirizzo IP. Questi dati vengono trasformati in [!UICONTROL Country], [!UICONTROL Region], e [!UICONTROL City]. Tieni presente che non arriva invece al livello del codice postale. Questa dimensione è abilitata per quasi tutte le suite di rapporti. Se non lo è, contatta l’Assistenza clienti Adobe e richiedi che vengano abilitati i rapporti geografici. |
 
 1. Fai clic su **[!UICONTROL Build]** (Crea).
 

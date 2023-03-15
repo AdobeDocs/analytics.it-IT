@@ -28,7 +28,7 @@ I dati di origini dati Elaborazione completa vengono elaborati come se fossero s
 
 I dati di origini dati Elaborazione completa vengono elaborati utilizzando profili visitatore separati, così anche se l&#39;ID visitatore nei dati caricati corrisponde ai dati raccolti tramite JavaScript o un&#39;altra libreria AppMeasurement, i profili visitatore non sono collegati da un punto di vista di allocazione eVar.
 
-Ad esempio, un utente con un ID visitatore di `"user@example.com"` visita il tuo sito da una campagna di marketing denominata &quot;Vendita di primavera&quot;, memorizzata nella variabile della campagna. Se in seguito carichi una transazione utilizzando lo stesso ID visitatore, la campagna &quot;Vendita di primavera&quot; non riceve credito per eventuali ricavi o eventi di successo caricati utilizzando le origini dati di elaborazione completa.
+Ad esempio, un utente con un ID visitatore di `"user@example.com"` visita il tuo sito da una campagna di marketing denominata &quot;Spring Sale&quot; (Vendita di primavera), memorizzata nella variabile della campagna. Se in seguito carichi una transazione utilizzando lo stesso ID visitatore, la campagna &quot;Vendita di primavera&quot; non riceve credito per eventuali ricavi o eventi di successo caricati utilizzando le origini dati di elaborazione completa.
 
 ## Riferimento colonna {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -42,29 +42,29 @@ Ad esempio, un utente con un ID visitatore di `"user@example.com"` visita il tuo
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>campagna </p> </td> 
-   <td colname="col2"> <p>campagna </p> </td> 
+   <td colname="col1"> <p>campaign </p> </td> 
+   <td colname="col2"> <p>campaign </p> </td> 
    <td colname="col3"> <p>Codice di tracciamento campagna di conversione </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>canale </p> </td> 
+   <td colname="col2"> <p>channel </p> </td> 
    <td colname="col3"> <p>Stringa canale (ad esempio, sezione Sport). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Nota: Questa variabile è supportata anche dalle origini dati Standard come <code> currency code </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Nota: questa variabile è supportata anche dalle origini dati Standard come <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>Codice valuta ricavi (ad esempio, USD) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>data </p> </td> 
-   <td colname="col3"> <p>Utilizzare il formato di data ISO 8601 di <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (ad esempio, <code> 2013-09-01T12:00:00-07:00 </code>) o Unix Time Format (il numero di secondi trascorsi dal 1° gennaio 1970). </p> </td> 
+   <td colname="col3"> <p>Utilizza il formato data ISO 8601 di <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (ad esempio, <code> 2013-09-01T12:00:00-07:00 </code>), o Unix Time Format (il numero di secondi trascorsi dal 1° gennaio 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, es. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Nome eVar conversione. Puoi avere fino a 75 eVar ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Puoi specificare il nome eVar (eVar12) o un nome descrittivo (campagna pubblicitaria 3). </p> </td> 
+   <td colname="col3"> <p>Nome eVar conversione. Puoi avere fino a 75 eVar ( <span class="varname"> EVAR 1 </span> - <span class="varname"> eVar 75 </span>). </p> <p>Puoi specificare il nome eVar (eVar12) o un nome descrittivo (campagna pubblicitaria 3). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -140,8 +140,8 @@ Ad esempio, un utente con un ID visitatore di `"user@example.com"` visita il tuo
    <td colname="col3"> <p>Stringa Server. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>stato </p> </td> 
-   <td colname="col2"> <p>stato </p> </td> 
+   <td colname="col1"> <p>state </p> </td> 
+   <td colname="col2"> <p>state </p> </td> 
    <td colname="col3"> <p>Stringa Stato di conversione. </p> </td> 
   </tr> 
   <tr> 

@@ -1,6 +1,6 @@
 ---
 title: Gestione del consenso Opt-Out
-description: Scopri le impostazioni di privacy di cui un visitatore ha rinunciato.
+description: Scopri quali impostazioni di privacy hanno rinunciato un visitatore.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
@@ -11,22 +11,22 @@ ht-degree: 3%
 
 # Gestione del consenso Opt-Out
 
-La dimensione &quot;Consent Management Opt-Out&quot; visualizza le impostazioni di privacy da cui un visitatore ha esplicitamente rinunciato. Puoi utilizzare questa dimensione per filtrare i dati in base alle impostazioni di privacy o per visualizzare i motivi più comuni di rinuncia alla privacy.
+La dimensione &quot;Rinuncia alla gestione del consenso&quot; mostra quali impostazioni di privacy hanno esplicitamente escluso un visitatore. Puoi utilizzare questa dimensione per filtrare i dati in base alle impostazioni della privacy o visualizzare i motivi di rinuncia alla privacy più comuni.
 
-## Popolare questa dimensione con i dati
+## Popola questa dimensione con i dati
 
-Questa dimensione raccoglie i dati seguenti [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md):
+Questa dimensione raccoglie dati dai seguenti elementi [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md):
 
-* `contextData.['cm.ssf']` quando è impostato su `1`. Se `cm.ssf` è `0` o è vuoto, questa variabile non esegue alcuna operazione.
-* `contextData.['opt.dmp']` quando è impostato su `N`. Se `opt.dmp` è `Y`, [Gestione del consenso Opt-in](cm-opt-in.md) viene compilata.
-* `contextData.['opt.sell']` quando è impostato su `N`. Se `opt.sell` è `Y`, [Gestione del consenso Opt-in](cm-opt-in.md) viene compilata.
+* `contextData.['cm.ssf']` se impostato su `1`. Se `cm.ssf` è uguale a `0` o è vuoto, questa variabile non esegue alcuna operazione.
+* `contextData.['opt.dmp']` se impostato su `N`. Se `opt.dmp` è uguale a `Y`, il [Gestione del consenso Opt-in](cm-opt-in.md) La dimensione viene invece compilata.
+* `contextData.['opt.sell']` se impostato su `N`. Se `opt.sell` è uguale a `Y`, il [Gestione del consenso Opt-in](cm-opt-in.md) La dimensione viene invece compilata.
 
-La tua organizzazione determina la logica necessaria per implementare queste variabili di dati di contesto. Non persistono oltre l’hit su cui sono impostati, pertanto devi impostare ogni variabile di dati di contesto su ogni pagina.
+La tua organizzazione determina la logica per implementare queste variabili di dati di contesto. Non persistono oltre l’hit su cui sono impostati, pertanto devi impostare ogni variabile di dati di contesto su ogni pagina.
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono i tre valori seguenti:
+Gli elementi Dimension includono i tre valori seguenti:
 
-* **`SSF`**: Il visitatore ha rinunciato [Inoltro lato server](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md). Questo elemento dimensione è presente quando la variabile di dati di contesto `cm.ssf` è `1`. Vedi [Panoramica sulla privacy dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) nella guida utente di Audience Manager per ulteriori informazioni. L&#39;hit non viene inoltrato a Adobe Audience Manager.
-* **`DMP`**: Il visitatore ha rinunciato alla condivisione su piattaforme di gestione dati. Questo elemento dimensione è presente quando la variabile di dati di contesto `opt.dmp` è `N`. Simile a `SSF`, l’hit non viene inoltrato a Adobe Audience Manager.
-* **`SELL`**: Il visitatore ha rinunciato alla condivisione o alla vendita dei dati a terzi. Questa dimensione è presente quando la variabile di dati di contesto `opt.sell` è `N`.
+* **`SSF`**: il visitatore ha rinunciato a [Inoltro lato server](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md). Questo elemento dimensione è presente quando la variabile di dati di contesto `cm.ssf` è uguale a `1`. Consulta [Panoramica sulla privacy dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) per ulteriori informazioni, consulta la guida utente di Audience Manager. L’hit non viene inoltrato a Adobe Audience Manager.
+* **`DMP`**: il visitatore ha rinunciato alla condivisione sulle piattaforme di gestione dei dati. Questo elemento dimensione è presente quando la variabile di dati di contesto `opt.dmp` è uguale a `N`. Simile a `SSF`, l’hit non viene inoltrato a Adobe Audience Manager.
+* **`SELL`**: il visitatore ha rinunciato alla condivisione o alla vendita dei dati a terzi. Questa dimensione è presente quando la variabile di dati di contesto `opt.sell` è uguale a `N`.

@@ -1,5 +1,5 @@
 ---
-description: 'Due importanti considerazioni quando si utilizza Personalizza espressione per impostare l’intervallo di date '
+description: Due considerazioni importanti sull’utilizzo dell’espressione Personalizza per impostare l’intervallo di date
 title: Considerazioni sulle date personalizzate
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 feature: Report Builder
@@ -7,48 +7,48 @@ role: User, Admin
 exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 # Considerazioni sulle date personalizzate
 
-Due importanti considerazioni quando si utilizza Personalizza espressione per impostare l’intervallo di date:
+Due considerazioni importanti sull’utilizzo dell’espressione Personalizza per impostare l’intervallo di date:
 
-* Il giorno in cui viene eseguito il rapporto (A partire da) (o le richieste aggiornate) determina i dati disponibili.
+* Il giorno in cui il rapporto (A partire da) viene eseguito (o le richieste vengono aggiornate) determina quali dati sono disponibili.
 * Il rollover delle date di inizio e di fine del rapporto influisce sull’intervallo di date coperto dal rapporto.
 
-Poiché la disponibilità dei dati è sensibile sia all’intervallo di tempo del rapporto che alla data in cui aggiorni le richieste nel rapporto, assicurati di eseguire il rapporto il giorno appropriato per estrarre le informazioni desiderate. Gli esempi seguenti illustrano entrambe queste considerazioni.
+Poiché la disponibilità dei dati è sensibile sia all’intervallo di tempo del rapporto che alla data di aggiornamento delle richieste nel rapporto, assicurati di eseguire il rapporto nel giorno appropriato per estrarre le informazioni desiderate. Gli esempi che seguono dimostrano entrambe queste considerazioni.
 
-Supponiamo di effettuare una richiesta per [!UICONTROL Page Views] utilizzando la granularità aggregata. In Nord America la settimana inizia la domenica. Per ottenere rapporti aggiornati per il periodo da domenica a sabato (ad esempio, dal 23 novembre al 29 novembre 2008), esegui il rapporto (richieste di aggiornamento) domenica (30 novembre) per la settimana precedente (dal 23/11/29).
+Supponiamo di effettuare una richiesta per [!UICONTROL Page Views] utilizzando la granularità aggregata. In Nord America, la settimana inizia la domenica. Per ottenere rapporti aggiornati per il periodo da domenica a sabato (ad esempio, dal 23 novembre al 29 novembre 2008), esegui il rapporto (richieste di aggiornamento) domenica 30 novembre per la settimana precedente (dal 23 novembre all’11/29).
 
-Utilizzare questa espressione personalizzata:
+Usa questa espressione personalizzata:
 
-*Da:* cw-1w  *a:* cw-1d
+*Da:* cw-1w *A:* cw-1d
 
-Un&#39;analisi dell&#39;espressione Customize quando il valore [!UICONTROL End Date] incluso per la richiesta è 11/30:
+Un’analisi dell’espressione di personalizzazione quando il [!UICONTROL End Date] per la richiesta è 11/30:
 
 *Da:* cw-1w
 
-il giorno della settimana corrente a partire da domenica 30 novembre meno sette giorni = il giorno della settimana precedente a partire da domenica 23 novembre
+il giorno della settimana corrente che inizia domenica 30 novembre meno sette giorni = il giorno della settimana precedente che inizia domenica 23 novembre
 
 *A:* cw-1d
 
 il giorno della settimana corrente a partire da domenica 30 novembre meno un giorno = sabato 29 novembre
 
-Dopo aver mappato l’espressione personalizzata sul foglio di calcolo, aggiorna la richiesta utilizzando domenica 30 novembre 2008 come elemento [!UICONTROL End Date] inclusivo per la richiesta mobile. I dati riflettono il periodo di una settimana.
+Dopo aver mappato l’espressione personalizzata sul foglio di calcolo, aggiorna la richiesta utilizzando domenica 30 novembre 2008 come pagina inclusa [!UICONTROL End Date] per la richiesta mobile. I dati rifletteranno il periodo di una settimana.
 
-Se invece aggiorni l’espressione e specifichi sabato 29 novembre come [!UICONTROL End Date] per la richiesta mobile, i dati riflettono la settimana dal 16/11/22. Questo perché la data di riferimento per l’aggiornamento della richiesta è un giorno precedente.
+Se invece aggiorni l’espressione e specifichi sabato 29 novembre come [!UICONTROL End Date] per la richiesta mobile, i dati rifletteranno le settimane da 11/16 a 11/22. Questo perché la data di riferimento per l’aggiornamento della richiesta è un giorno prima.
 
-Di seguito sono riportate le differenze quando il [!UICONTROL End Date] inclusivo per la richiesta è il 29/11:
+Di seguito sono riportate le differenze quando il [!UICONTROL End Date] per la richiesta è 11/29:
 
 *Da:* cw-1w
 
-il giorno della settimana corrente a partire da domenica 23 novembre meno sette giorni = il giorno della settimana precedente a partire da domenica 16 novembre
+il giorno della settimana corrente che inizia domenica 23 novembre meno sette giorni = il giorno della settimana precedente che inizia domenica 16 novembre
 
 *A:* cw-1d
 
 il giorno della settimana corrente a partire da domenica 23 novembre meno un giorno = sabato 22 novembre
 
-In Europa e in altri paesi la settimana inizia il lunedì, non la domenica. In questo caso, puoi personalizzare il calendario per modificare la data di inizio. (Vedere [Calendario personalizzato](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
+In Europa e in altri paesi, la settimana inizia lunedì, anziché domenica. In questo caso, è possibile personalizzare il calendario per modificare la data di inizio. (vedere [Calendario personalizzato](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)

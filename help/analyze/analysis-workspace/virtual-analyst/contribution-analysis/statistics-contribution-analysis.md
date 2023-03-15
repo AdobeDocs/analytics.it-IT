@@ -24,7 +24,7 @@ L’analisi dei contributi applica un algoritmo in due parti a ogni elemento dim
 
    ![](assets/cramers-v.png)
 
-1. Per ogni elemento dimensione, il residuo di Pearson (PR) viene utilizzato per misurare l’associazione tra la metrica anomala e ogni elemento di dimensione. Il PR segue una distribuzione normale standard, che consente all’algoritmo di confrontare i PR di due variabili casuali anche se le deviazioni non sono paragonabili. In pratica, l’errore non è noto ed è stimato con correzione a campione finita.
+1. Per ogni elemento dimensionale, viene utilizzato il residuo di Pearson (PR) per misurare l’associazione tra la metrica anomala e ogni elemento dimensionale. Il PR segue una distribuzione normale standard, che consente all’algoritmo di confrontare i PR di due variabili casuali anche se le deviazioni non sono paragonabili. In pratica, l’errore non è noto ed è stimato con correzione a campione finita.
 
    Nell’esempio della tabella 1, il PR con correzione a campione finita per il paese 1 e il periodo di tempo 2 è dato da
 

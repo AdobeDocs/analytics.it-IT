@@ -1,113 +1,113 @@
 ---
-description: Scopri quando e perché i connettori dati di Analytics termineranno.
-title: Annuncio preliminare alla fine del ciclo di vita per i connettori dati di Analytics
+description: Scopri quando e perché i connettori dati di Analytics cesseranno di esistere.
+title: Annuncio preliminare sulla fine del ciclo di vita dei connettori dati di Analytics
 feature: Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
-# Terminazione di Adobe Data Connectors
+# Fine del ciclo di vita di Adobe Data Connectors
 
-**Attive dal 19 agosto 2021**, Adobe ha interrotto le integrazioni dei Data Connectors. La fine del ciclo di vita fa parte del ciclo di vita di qualsiasi prodotto tecnologico e l&#39;Adobe mira a rendere la transizione il più semplice possibile per i nostri clienti e partner. Molte di queste integrazioni sono disponibili tramite Adobe Exchange e possono continuare a essere utilizzate.
+**A partire dal 19 agosto 2021**, Adobe ha interrotto le integrazioni Data Connectors. La fine del ciclo di vita fa parte del ciclo di vita di qualsiasi prodotto tecnologico e Adobe mira a rendere la transizione più fluida possibile per i nostri clienti e partner. Molte di queste integrazioni sono disponibili tramite Adobe Exchange e possono continuare a essere utilizzate.
 
-Per più di un decennio, Adobe Analytics intende fornire la soluzione web e di analisi di marketing all’avanguardia per soddisfare le esigenze dei clienti. Con l&#39;evolversi delle esigenze tecnologiche e aziendali, ci sforziamo di offrire e soddisfare costantemente gli standard più elevati.  Sfortunatamente, le API che alimentano questa integrazione non soddisfano più questi standard e non sono sostenibili nella moderna infrastruttura tecnologica Adobe Analytics.
+Per oltre un decennio, Adobe Analytics si è proposta di fornire la soluzione di analisi Web e marketing all&#39;avanguardia in grado di soddisfare le esigenze dei clienti. Con l&#39;evolversi delle esigenze tecnologiche e aziendali, ci impegniamo a garantire e soddisfare costantemente gli standard più elevati.  Sfortunatamente, le API che alimentano questa integrazione non soddisfano più questi standard e non sono sostenibili nella moderna infrastruttura tecnologica di Adobe Analytics.
 
 ## Perché abbiamo terminato questa funzione?
 
-Questa funzione era basata su una tecnologia legacy non più disponibile o supportata. La [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) è ora il luogo in cui trovare le integrazioni correnti per le soluzioni Adobe.
+Questa funzione si basa su una tecnologia legacy, che non è più disponibile o supportata. Il [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) è ora il luogo in cui trovare le integrazioni correnti, ad Adobe le soluzioni.
 
-## In che modo la rimozione di questa funzione ti influisce?
+## Che impatto ha la rimozione di questa funzione su di te?
 
-Se sei un partner di Adobe, puoi trovare i dettagli sulla migrazione della tua integrazione al nuovo programma Adobe Exchange. [qui](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) nella nostra documentazione.
+Se sei un partner di Adobe, puoi trovare i dettagli sulla migrazione della tua integrazione al nostro nuovo programma Adobe Exchange [qui](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) nella nostra documentazione.
 
-Se sei un cliente di Data Connector e desideri richiedere la migrazione dell’integrazione utilizzata, devi *Instradare tutte le richieste direttamente al partner di integrazione*. Il partner deve impegnarsi a passare alle nuove API. Sfortunatamente, l’Assistenza clienti di Adobe non può costringere i partner a passare alle nuove API.
+Se sei un cliente di Data Connector e desideri richiedere la migrazione dell’integrazione utilizzata, devi *indirizza tutte le richieste direttamente al partner di integrazione*. Il partner deve impegnarsi a passare alle nuove API. Sfortunatamente, l’Assistenza clienti Adobe non può obbligare i partner a passare alle nuove API.
 
-A ogni azienda che fornisce un&#39;integrazione è stata data la possibilità di migrare la propria integrazione a Adobe Exchange o interrompere l&#39;integrazione. Di seguito è riportato un riepilogo di ciascuna integrazione attuale e della relativa decisione.
+A ciascuna società che ha fornito un&#39;integrazione è stata data la possibilità di migrare la propria integrazione a Adobe Exchange o di interromperne l&#39;integrazione. Di seguito è riportato un riepilogo di ciascuna integrazione corrente e della relativa decisione di accompagnamento.
 
 Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
 
-## Stato del partner del connettore dati
+## Stato del partner Data Connector
 
-*Ultimo aggiornamento: 2 agosto 2021 (Hootsuite)*
+*Ultimo Aggiornamento: 2 Agosto 2021 (Hootsuite)*
 
 | Partner | Stato |
 | --- | --- |
-| Acxiom | Obsolescenza |
-| Adform | Obsolescenza |
+| Acxiom | Obsoleto |
+| Adform | Obsoleto |
 | Regola | Migrazione alle API più recenti |
-| Adobe Campaign | Migrazione alle API più recenti (consulta la nota di seguito) |
-| Appfigure | Migrazione alle API più recenti |
-| Appello | Obsolescenza |
-| AppsFlyer | Migrazione alle API più recenti |
-| Aprimo Enterprise Marketing Engagement | Obsolescenza |
-| Apteligent | Obsolescenza |
-| BlueHornet eMarketing Suite | Obsolescenza |
-| Filiale | Migrazione alle API più recenti |
-| BrightEdge 2.0, BrightEdge, BrightEdge Express | Obsolescenza |
-| Software Bronto | Obsolescenza |
+| Adobe Campaign | Migrazione alle API più recenti (vedi la nota seguente) |
+| Appfigures | Migrazione alle API più recenti |
+| Applica | Obsoleto |
+| VolantinoApp | Migrazione alle API più recenti |
+| Aprimo Enterprise Marketing Engagement | Obsoleto |
+| Apteligent | Obsoleto |
+| Suite di eMarketing BlueHornet | Obsoleto |
+| Ramo | Migrazione alle API più recenti |
+| BrightEdge 2.0, BrightEdge, BrightEdge Express | Obsoleto |
+| Software Bronto | Obsoleto |
 | CheetahMail di Experian | Migrazione alle API più recenti |
-| ClickTale | Obsolescenza |
-| CA Clicktale | Obsolescenza |
-| Conduttore 2.0, Conduttore, Conduttore Metriche Organiche | Obsolescenza |
-| ContactLab 2.0 (connettore di invio contatto) | Obsolescenza |
-| Coradiant TrueSight | Obsolescenza |
-| Informazioni sui visitatori di D&amp;B | Obsolescenza |
-| Datran Media | Obsolescenza |
-| Approfondimenti a fondo perduto | Obsolescenza |
-| Decipatore | Obsolescenza |
-| Delivra | Obsolescenza |
-| Demandbase CA | Obsolescenza |
-| Demandbase v3 | Obsolescenza |
+| ClickTale | Obsoleto |
+| Clic su CA | Obsoleto |
+| Conduttore 2.0, Conduttore, Conduttore, Metriche organiche | Obsoleto |
+| ContactLab 2.0 (connettore di invio contatto) | Obsoleto |
+| Coradiant TrueSight | Obsoleto |
+| Intelligence visitatore D&amp;B | Obsoleto |
+| Datran Media | Obsoleto |
+| Decibel Insight | Obsoleto |
+| Decifrare | Obsoleto |
+| Delivra | Obsoleto |
+| CA Demandbase | Obsoleto |
+| Demandbase v3 | Obsoleto |
 | DialogTech | Migrazione alle API più recenti |
-| [Doppio clic per inserzionisti (DFA)] | Obsolescenza |
-| SOGNO | Obsolescenza |
-| DREAMmail 1.0, DREAMmail 2.0 | Obsolescenza |
-| Segnale dinamico (Vora digitale) | Migrazione alle API più recenti |
-| eDialog Precision Central | Obsolescenza |
-| Messaggero elettronico | Obsolescenza |
-| Emailvision Campaign Commander | Obsolescenza |
-| emarsys xpress | Obsolescenza |
+| [Doppio clic per inserzionisti (DFA)] | Obsoleto |
+| SOGNO | Obsoleto |
+| DREAMmail 1.0, DREAMmail 2.0 | Obsoleto |
+| Segnale dinamico (Nital Vora) | Migrazione alle API più recenti |
+| eDialog Precision Central | Obsoleto |
+| eC-messenger | Obsoleto |
+| Emailvision Campaign Commander | Obsoleto |
+| emarsys xpress | Obsoleto |
 | Epsilon Harmony | Migrazione alle API più recenti |
-| EveryoneSocial per Adobe Analytics | Obsolescenza |
-| ExactTarget, ExactTarget 2.0 | Obsolescenza |
-| Fiksu | Obsolescenza |
-| Foresee (v2.0), Foresee Feedback, Foresee Results | Obsolescenza |
-| Giga | Obsolescenza |
+| EveryoneSocial per Adobe Analytics | Obsoleto |
+| ExactTarget, ExactTarget 2.0 | Obsoleto |
+| Fiksu | Obsoleto |
+| Previsto (v2.0), Feedback previsto, Risultati previsti | Obsoleto |
+| Gigya | Obsoleto |
 | Hootsuite | Migrazione alle API più recenti |
-| ibrido | Obsolescenza |
-| Analisi del feedback di Kampyle (ora Medallia) (1.1) | Obsolescenza |
+| ibrido | Obsoleto |
+| Analisi del feedback di Kampyle (ora Medallia) (1.1) | Obsoleto |
 | Listrak | Migrazione alle API più recenti |
-| Lyris HQ | Obsolescenza |
-| MaritzCX (V 2.0) | Obsolescenza |
-| Merkle | Obsolescenza |
-| Integrazione ufficiale Oracle Eloqua | Migrazione alle API più recenti |
-| optivo broadmail (Episerver) | Obsolescenza |
+| Lyris HQ | Obsoleto |
+| MaritzCX (V 2.0) | Obsoleto |
+| Merkle | Obsoleto |
+| Oracle ufficiale Integrazione Eloqua | Migrazione alle API più recenti |
+| optivo broadmail (Episerver) | Obsoleto |
 | Qualtrics v2 | Migrazione alle API più recenti |
-| Responsys 1.0, Responsys 2.0 | Obsolescenza |
-| Salesforce.com | Obsolescenza |
-| Selligent | Obsolescenza |
-| seoClarity, seoClarity 2.0 | Obsolescenza |
-| Silverpop Engage (v2.0) | Obsolescenza |
-| Sizmek | Obsolescenza |
-| Digitale SmartFOCUS | Obsolescenza |
-| SpotEffects | Obsolescenza |
-| StrongMail Systems, Inc | Obsolescenza |
-| Sindrome!360 | Obsolescenza |
-| ThinData EMS | Obsolescenza |
-| TUNE | Obsolescenza |
-| Aereo urbano | Obsolescenza |
-| Strumento Sondaggio zoom utente | Obsolescenza |
-| WhatCounts Email | Obsolescenza |
-| wywy | Obsolescenza |
-| Yesmail Enterprise | Obsolescenza |
-| Zeta interattiva | Obsolescenza |
+| Responsys 1.0, Responsys 2.0 | Obsoleto |
+| Salesforce.com | Obsoleto |
+| Selligent | Obsoleto |
+| seoClarity, seoClarity 2.0 | Obsoleto |
+| Silverpop Engage (v2.0) | Obsoleto |
+| Sizmek | Obsoleto |
+| SmartFOCUS digitale | Obsoleto |
+| EffettiSpot | Obsoleto |
+| StrongMail Systems, Inc | Obsoleto |
+| Sincronia!360 | Obsoleto |
+| ThinData EMS | Obsoleto |
+| OTTIMIZZARE | Obsoleto |
+| Aereo urbano | Obsoleto |
+| Strumento sondaggio UserZoom | Obsoleto |
+| WhatCounts Email | Obsoleto |
+| scappatoia | Obsoleto |
+| Yesmail Enterprise | Obsoleto |
+| Zeta Interactive | Obsoleto |
 
 ## Eccezione: Adobe Campaign Classic
 
-L’eccezione ONE alla data del 1 agosto 2021 è l’integrazione Adobe Campaign Classic. Questa integrazione verrà ufficialmente dichiarata obsoleta il 17 agosto 2022.
+L’unica eccezione alla data del 1° agosto 2021 è l’integrazione di Adobe Campaign Classic. Questa integrazione diventerà ufficialmente obsoleta il 17 agosto 2022.
 
-Il 1° agosto 2021, Adobe Campaign Classic verrà rimosso dall’interfaccia utente dei Data Connectors insieme a tutte le altre integrazioni; tuttavia, le integrazioni esistenti di Campaign continueranno a raccogliere e trasmettere dati ad Adobe Analytics fino al 17 agosto 2022. Il 17 agosto 2022 l’integrazione cesserà di raccogliere e trasmettere dati ad Adobe Analytics. Se utilizzi questa integrazione, devi passare al nuovo connettore Campaign-Analytics prima del 17 agosto 2022. Ulteriori informazioni in [Documentazione di Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).
+Il 1° agosto 2021 Adobe Campaign Classic verrà rimosso dall’interfaccia utente di Data Connectors insieme a tutte le altre integrazioni; tuttavia, le integrazioni esistenti di Campaign continueranno a raccogliere e trasmettere dati ad Adobe Analytics fino al 17 agosto 2022. Il 17 agosto 2022, l’integrazione cesserà di raccogliere e trasmettere dati ad Adobe Analytics. Se utilizzi questa integrazione, devi passare al nuovo connettore Campaign-Analytics prima del 17 agosto 2022. Ulteriori informazioni in [Documentazione di Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).

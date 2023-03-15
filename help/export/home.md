@@ -3,7 +3,7 @@ title: Guida all’esportazione di Analytics
 description: Questa guida descrive come estrarre i dati da Adobe Analytics utilizzando feed di dati e Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 

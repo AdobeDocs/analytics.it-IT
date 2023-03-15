@@ -1,5 +1,5 @@
 ---
-description: Scopri come specificare la scadenza del coinvolgimento del visitatore nei canali di marketing.
+description: Scopri come specificare la scadenza del coinvolgimento dei visitatori nei canali di marketing.
 subtopic: Marketing channels
 title: Scadenza canale di marketing
 feature: Marketing Channels
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
-> Per informazioni generali sui canali di marketing, vedi [Introduzione ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> Per informazioni generali sui canali di marketing, consulta [Introduzione ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
 > Per massimizzare l’efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
@@ -23,17 +23,17 @@ ht-degree: 10%
 
 Scopri come specificare la scadenza, o il periodo di coinvolgimento del visitatore, per i canali di marketing.
 
-Il coinvolgimento del visitatore è il tempo che vuoi dedicare affinché l’attività precedente del visitatore sul tuo sito sia attribuita al canale di primo contatto. L’impostazione predefinita della scadenza è 30 giorni.
+Il coinvolgimento del visitatore è il tempo che desideri dedicare all’attività precedente del visitatore sul sito per attribuirla al canale di primo contatto. L’impostazione di scadenza predefinita è 30 giorni.
 
-Se il visitatore utilizza il sito frequentemente, la finestra di coinvolgimento si sposterà con loro. Devono essere inattivi per 30 giorni affinché il periodo scada e i canali vengano reimpostati. I canali di primo e ultimo contatto per un visitatore verranno reimpostati dopo 30 giorni di inattività in quel browser.
+Se il visitatore utilizza frequentemente il sito, la finestra di coinvolgimento scorre insieme a loro. Devono essere inattivi per 30 giorni per la scadenza del periodo e i canali da reimpostare. Sia il primo che l’ultimo canale di contatto di un visitatore vengono ripristinati dopo 30 giorni di inattività in tale browser.
 
 Esempio:
 
-* Giorno 1: L&#39;utente accede al sito su Display. I canali di primo e ultimo contatto saranno impostati su Visualizzazione.
-* Giorno 2: L&#39;utente viene al sito sulla ricerca naturale. Il primo contatto rimane Display e l’ultimo contatto è impostato su Ricerca naturale.
-* Giorno 35: L&#39;utente non è stato sul sito in 33 giorni e torna utilizzando la scheda che aveva aperto nel loro browser. Supponendo che sia presente una finestra di coinvolgimento di 30 giorni, la finestra si sarebbe chiusa e i cookie del canale di marketing sarebbero scaduti. Il canale di primo contatto e ultimo contatto viene reimpostato su Aggiornamento sessione poiché l’utente proviene da un URL interno.
+* Giorno 1: l’utente accede al sito tramite display. I canali di primo e ultimo contatto verranno impostati su Display.
+* Giorno 2: l’utente accede al sito tramite ricerca naturale. Il primo contatto rimane visualizzato e Ultimo contatto è impostato su Ricerca naturale.
+* Giorno 35: l’utente non accede al sito da 33 giorni e ritorna utilizzando la scheda che aveva aperto nel browser. Supponendo un intervallo di coinvolgimento di 30 giorni, la finestra sarebbe stata chiusa e i cookie del canale di marketing sarebbero scaduti. Il canale di primo e ultimo contatto verrà reimpostato e sarà impostato su Aggiornamento sessione da quando l’utente proviene da un URL interno.
 
-## Impostazioni di scadenza del canale di marketing
+## Impostazioni scadenza canale di marketing
 
 Le impostazioni di scadenza sono le seguenti:
 
@@ -41,7 +41,7 @@ Le impostazioni di scadenza sono le seguenti:
 |--- |--- |
 | Giorni di inattività | Il numero di giorni che devono trascorrere prima della scadenza del coinvolgimento di primo contatto di un visitatore. Il valore predefinito è 30. |
 | Mai | Il periodo di coinvolgimento del visitatore non scade. |
-| Ripristino del canale | Scade da tutti i periodi di coinvolgimento del visitatore.  Se devi reimpostare tutti i dati dei canali di marketing, puoi scadere tutti i periodi di coinvolgimento dei visitatori. Potrebbe essere necessario reimpostare i dati se le regole di elaborazione erano precedentemente configurate in modo errato. Tutti i valori del canale di primo e ultimo contatto scadranno immediatamente e verranno reimpostati quando i visitatori ritornano. |
+| Ripristino canale | Scade tutti i periodi di coinvolgimento dei visitatori.  Se devi reimpostare tutti i dati del canale di marketing puoi far scadere tutti i periodi di coinvolgimento dei visitatori. Potrebbe essere necessario reimpostare i dati se le regole di elaborazione non erano configurate in precedenza correttamente. Tutti i valori del canale di primo e ultimo contatto scadranno immediatamente e verranno reimpostati al ritorno dei visitatori. |
 
 ## Definire la scadenza del canale di marketing {#define-expiration}
 

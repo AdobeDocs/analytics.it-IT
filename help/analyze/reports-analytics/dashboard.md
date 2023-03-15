@@ -97,7 +97,7 @@ Per creare un dashboard:
 
 ## Creare un reportlet {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-Dopo aver creato un minirapporti, questo può essere visualizzato in un dashboard.
+Dopo aver creato un reportlet, questo può essere visualizzato in una dashboard.
 
 <!-- 
 
@@ -105,7 +105,7 @@ t_dashboard_add_report.xml
 
  -->
 
-Per creare un minirapporto:
+Per creare un reportlet:
 
 1. Esegui un rapporto.
 1. Fai clic su **[!UICONTROL Dashboard.]**
@@ -133,7 +133,7 @@ t_dashboard_content.xml
 
  -->
 
-Per aggiungere contenuti a una dashboard:
+Per aggiungere contenuto a una dashboard:
 
 1. Apri un dashboard, quindi fai clic su **[!UICONTROL Layout]**.
 1. Fai clic su **[!UICONTROL Add Content]**, quindi trascina gli elementi nel dashboard.

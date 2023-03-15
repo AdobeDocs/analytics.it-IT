@@ -1,5 +1,5 @@
 ---
-description: Mostra come sovrapporre e sostituire i segmenti nel Generatore di metriche calcolate.
+description: Mostra come impilare e sostituire i segmenti nel Generatore di metriche calcolate.
 title: Sovrapponi e sostituisci segmenti
 feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
@@ -12,16 +12,16 @@ ht-degree: 11%
 
 # Sovrapponi e sostituisci segmenti
 
-Mostra come sovrapporre e sostituire i segmenti nel Generatore di metriche calcolate.
+Mostra come impilare e sostituire i segmenti nel Generatore di metriche calcolate.
 
-## Stacking dei segmenti {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
+## Sovrapposizione dei segmenti {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
 
-Nell&#39;area di lavoro Definizione, rilascia semplicemente il nuovo segmento accanto a quello esistente:
+Nell’area di lavoro Definizione, rilascia semplicemente il nuovo segmento accanto a quello esistente:
 
 ![](assets/cm_stack_seg.png)
 
 ## Sostituzione di un segmento con un altro {#section_3DA899DF522A44D7A583C5DC8C0A033E}
 
-Nell&#39;area di lavoro Definizione, è sufficiente spostare il nuovo segmento su quello esistente:
+Nell’area di lavoro Definizione, rilascia semplicemente il nuovo segmento sopra quello esistente:
 
 ![](assets/cm_replace_seg.png)

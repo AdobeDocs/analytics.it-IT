@@ -5,7 +5,7 @@ title: Suggerimenti e trucchi per le regole di elaborazione
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%
 

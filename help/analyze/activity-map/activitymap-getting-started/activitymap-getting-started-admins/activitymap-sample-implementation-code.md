@@ -13,4 +13,4 @@ ht-degree: 37%
 
 # Implementare Activity Map
 
-Activity Map può essere implementato con una casella di controllo nell’estensione tag Adobe Analytics, in [Tracciamento dei collegamenti](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it).
+L’Activity Map può essere implementato con una casella di controllo nell’estensione tag Adobe Analytics, in [Tracciamento collegamenti](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it).

@@ -1,6 +1,6 @@
 ---
 title: Calcolo del tempo trascorso in Adobe Analytics
-description: Pagina aggregata di dimensioni e metriche del tempo trascorso.
+description: Una pagina aggregata di dimensioni e metriche relative al tempo trascorso.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 source-git-commit: e2128ef18a62832a9740a4cb610685f351c7db19
@@ -12,83 +12,83 @@ ht-degree: 9%
 
 # Panoramica del tempo trascorso
 
-Varie [!UICONTROL 'time spent'] metriche e dimensioni sono offerte tra i prodotti Adobe Analytics.
+Varie [!UICONTROL 'time spent'] Le metriche e le dimensioni sono offerte tra i prodotti Adobe Analytics.
 
 ## Metriche &quot;Tempo trascorso&quot;
 
 | Metrica | Definizione | Disponibile in |
 |---|---|---|
-| [!UICONTROL Total seconds spent] | Rappresenta la quantità totale di tempo che i visitatori interagiscono con un elemento dimensione specifico. Include l’istanza di un valore e una persistenza in tutti gli hit successivi. Nel caso delle proprietà, il tempo trascorso viene conteggiato anche tra gli eventi di collegamento successivi. | Analysis Workspace, Reports &amp; Analytics, Report Builder (detto &quot;tempo totale trascorso&quot;), Data Warehouse |
-| [!UICONTROL Time spent per visit] (Seconds) | Circa *Totale secondi trascorsi / (rimbalzi a visita)*<br> Rappresenta il tempo medio di interazione dei visitatori con un elemento dimensione specifico durante ogni visita. **Nota**: Questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace, Reports &amp; Analytics |
-| [!UICONTROL Time spent per visitor] (Secondi) | Circa *Totale secondi trascorsi / visitatore univoco*<br> Rappresenta il tempo medio di interazione dei visitatori con un elemento dimensione specifico per tutta la durata del visitatore (lunghezza del cookie). **Nota**: Questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace, Reports &amp; Analytics |
-| [!UICONTROL Time Spent/User (State)] | Circa *Totale secondi trascorsi per app mobili / visitatori univoci per app mobili*<br> Rappresenta il tempo medio di interazione dei visitatori dell’app mobile con un elemento dimensione specifico per tutta la durata del visitatore (lunghezza del cookie). **Nota**: Questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace |
-| [!UICONTROL Average time spent on site] (Secondi) | Rappresenta la quantità totale di tempo che i visitatori interagiscono con un elemento dimensione specifico, per sequenza con un elemento dimensione. Non è limitato alle medie del &quot;sito&quot; come suggerisce il nome. Per ulteriori informazioni sulle sequenze, consulta la sezione &quot;Modalità di calcolo del tempo trascorso&quot;.<br>**Nota**: Questa metrica è molto probabilmente diversa da &quot;Tempo trascorso per visita&quot; a livello di elemento dimensione a causa delle differenze nel denominatore nel calcolo. | Analysis Workspace, Reports &amp; Analytics (in minuti), Report Builder (in minuti) |
-| [!UICONTROL Average time on site] | È la stessa metrica di *Tempo medio trascorso sul sito (secondi)*, eccetto formattato come Tempo (hh:mm:s) | Analysis Workspace |
-| [!UICONTROL Average time spent on page] | Metrica obsoleta.<br> È invece consigliabile utilizzare &quot;Tempo medio trascorso sul sito&quot; se è necessario il tempo medio per un elemento dimensione. | Report Builder (quando una dimensione si trova nella richiesta) |
-| [!UICONTROL Total session length], anche noto come [!UICONTROL Previous session length] | Solo SDK per app mobili. <br>Determinata la prossima volta che l’app viene avviata, per la sessione precedente. Calcolata in secondi, questa metrica non conta quando l’app è in background, solo quando è in uso. Questa è una metrica a livello di sessione.<br>Esempio: Possiamo installare l’app ABC e avviarla e utilizzarla per 2 minuti, quindi chiudere l’app. Nessun dato inviato per l&#39;ora di sessione corrente. Al prossimo avvio dell’app, [!UICONTROL Previous Session Length] verrà inviato con un valore di 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, interfaccia utente di Mobile Services |
-| [!UICONTROL Average session length] (dispositivi mobili) | *Lunghezza totale della sessione / (avvii - primi avvii)*<br> Solo SDK per app mobili. Questa è una metrica a livello di sessione. | Report Builder, interfaccia utente di Mobile Services |
+| [!UICONTROL Total seconds spent] | Rappresenta il tempo totale in cui i visitatori interagiscono con un elemento dimensione specifico. Include l’istanza di un valore e la persistenza in tutti gli hit successivi. Nel caso di prop, il tempo trascorso viene conteggiato anche negli eventi di collegamento successivi. | Analysis Workspace, Reports &amp; Analytics, Report Builder (denominato &quot;tempo totale trascorso&quot;), Data Warehouse |
+| [!UICONTROL Time spent per visit] (Seconds) | Circa *Totale secondi trascorsi / (rimbalzi di visita)*<br> Rappresenta il tempo medio di interazione dei visitatori con un elemento di dimensione specifico durante ogni visita. **Nota**: questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL Time spent per visitor] (Seconds) | Circa *Totale secondi trascorsi/visitatore univoco*<br> Rappresenta il tempo medio di interazione dei visitatori con un elemento dimensione specifico nel corso della vita del visitatore (durata del cookie). **Nota**: questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL Time Spent/User (State)] | Circa *Totale secondi trascorsi per app mobile/visitatori univoci per app mobile*<br> Rappresenta il tempo medio di interazione dei visitatori di un’app mobile con un elemento di dimensione specifico nel corso della vita del visitatore (durata del cookie). **Nota**: questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace |
+| [!UICONTROL Average time spent on site] (Seconds) | Rappresenta il tempo totale in cui i visitatori interagiscono con un elemento dimensione specifico, per sequenza con un elemento dimensione. Non è limitato solo alle medie &quot;del sito&quot;, come suggerisce il nome. Per ulteriori informazioni sulle sequenze, consulta la sezione &quot;Modalità di calcolo del tempo trascorso&quot;.<br>**Nota**: questa metrica molto probabilmente differisce da &quot;Tempo trascorso per visita&quot; a livello di elemento dimensionale a causa delle differenze nel denominatore nel calcolo. | Analysis Workspace, Reports &amp; Analytics (in minuti), Report Builder (in minuti) |
+| [!UICONTROL Average time on site] | Questa è la stessa metrica di *Tempo medio trascorso sul sito (secondi)*, tranne formattato come Ora (hh:mm:ss) | Analysis Workspace |
+| [!UICONTROL Average time spent on page] | Metrica obsoleta.<br> Consigliamo invece di utilizzare &quot;Tempo medio trascorso sul sito&quot; se è necessario il tempo medio per un elemento dimensione. | Report Builder (quando una dimensione è nella richiesta) |
+| [!UICONTROL Total session length], alias [!UICONTROL Previous session length] | Solo SDK per app mobili. <br>Determinato al successivo avvio dell’app, per la sessione precedente. Calcolata in secondi, questa metrica non conta quando l’app è in background, ma solo quando è in uso. Si tratta di una metrica a livello di sessione.<br>Esempio: installiamo l’app ABC, la avviamo e la utilizziamo per 2 minuti, quindi chiudiamo l’app. Non vengono inviati dati sull’ora di questa sessione. La prossima volta che avviamo l’app, [!UICONTROL Previous Session Length] verrà inviato con un valore di 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, interfaccia utente di Mobile Services |
+| [!UICONTROL Average session length] (dispositivi mobili) | *Lunghezza totale della sessione / (lanci - primi lanci)*<br> Solo SDK per app mobili. Si tratta di una metrica a livello di sessione. | Report Builder, interfaccia utente di Mobile Services |
 
 ## Dimensioni &quot;Tempo trascorso&quot;
 
 | Dimensione | Definizione | Disponibile in |
 | --- | --- | --- |
-| [!UICONTROL Time spent per visit - granular] | Il tempo totale trascorso durante la visita è stato troncato al secondo più vicino e applicato a ogni hit che faceva parte della visita. Si tratta di una dimensione a livello di visita. | Analysis Workspace |
-| [!UICONTROL Time spent per visit - bucketed] | La dimensione granulare è divisa in 9 intervalli diversi. Si tratta di una dimensione a livello di visita. Gli intervalli includono:<ul><li>Inferiore a 1 minuto</li><li>1-5 minuti</li><li>5-10 minuti</li><li>10-30 minuti</li><li>30-60 minuti</li><li>1-2 ore</li><li>2-5 ore</li><li>5-10 ore</li><li>10-15 ore</li></ul>**Nota**: Non possono esserci blocchi più grandi di questo, perché una visita scade dopo 12 ore di attività. | Analysis Workspace, Reports &amp; Analytics, Report Builder |
-| [!UICONTROL Time spent on page - granular] | Il tempo totale trascorso su ciascun hit, troncato al secondo più vicino. Si tratta di una dimensione a livello di hit e include sia le visualizzazioni di pagina che gli eventi di collegamento. Nonostante il nome, non è limitato alla dimensione &quot;page&quot;. | Analysis Workspace |
-| [!UICONTROL Time spent on page - bucketed] | La dimensione granulare è divisa in 10 intervalli diversi; tuttavia, la dimensione a blocchi conta solo le visualizzazioni di pagina (ed esclude gli eventi di collegamento). Si tratta di una dimensione a livello di hit. Gli intervalli includono:<ul><li>inferiore a 15 secondi</li><li>da 15 a 29 secondi</li><li>da 30 a 59 secondi</li><li>da 1 a 3 minuti</li><li>da 3 a 5 minuti</li><li>Da 5 a 10 minuti</li><li>da 10 a 15 minuti</li><li>da 15 a 20 minuti</li><li>20-30 minuti</li><li>più di 30 minuti</li></ul> | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL Time spent per visit - granular] | Il tempo totale trascorso durante la visita viene troncato al secondo più vicino e viene applicato a ogni hit che faceva parte della visita. Si tratta di una dimensione a livello di visita. | Analysis Workspace |
+| [!UICONTROL Time spent per visit - bucketed] | La dimensione granulare racchiusa in 9 intervalli diversi. Si tratta di una dimensione a livello di visita. Gli intervalli includono:<ul><li>Meno di 1 minuto</li><li>1-5 minuti</li><li>5-10 minuti</li><li>10-30 minuti</li><li>30-60 minuti</li><li>1-2 ore</li><li>2-5 ore</li><li>5-10 ore</li><li>10-15 ore</li></ul>**Nota**: non possono essere presenti contenitori più alti di questo, perché una visita scade dopo 12 ore di attività. | Analysis Workspace, Reports &amp; Analytics, Report Builder |
+| [!UICONTROL Time spent on page - granular] | Il tempo totale trascorso su ogni hit, troncato al secondo più vicino. Si tratta di una dimensione a livello di hit che include sia visualizzazioni di pagina che eventi di collegamento. Nonostante il nome, non è limitato alla dimensione &quot;pagina&quot;. | Analysis Workspace |
+| [!UICONTROL Time spent on page - bucketed] | La dimensione granulare racchiusa in 10 intervalli diversi; tuttavia, la dimensione a blocchi conta solo le visualizzazioni di pagina (ed esclude gli eventi di collegamento). Si tratta di una dimensione a livello di hit. Gli intervalli includono:<ul><li>meno di 15 secondi</li><li>Da 15 a 29 secondi</li><li>Da 30 a 59 secondi</li><li>Da 1 a 3 minuti</li><li>Da 3 a 5 minuti</li><li>Da 5 a 10 minuti</li><li>Da 10 a 15 minuti</li><li>Da 15 a 20 minuti</li><li>Da 20 a 30 minuti</li><li>più di 30 minuti</li></ul> | Analysis Workspace, Reports &amp; Analytics |
 
-## Calcolo del valore di Tempo trascorso
+## Come viene calcolato il tempo trascorso
 
-Adobe Analytics utilizza valori espliciti (comprese le visualizzazioni di collegamento e video) per calcolare [!UICONTROL Time Spent].
+Adobe Analytics utilizza valori espliciti (inclusi eventi di collegamento e visualizzazioni video) per calcolare [!UICONTROL Time Spent].
 
 >[!NOTE]
 >
->Senza collegare eventi come [!UICONTROL Video Views] o [!UICONTROL Exit Links], non è possibile conoscere il tempo trascorso sull’ultimo hit di una visita. Per motivi analoghi, [!UICONTROL Bounce Visits] (ad esempio, visite con un singolo hit) non ha anche un &quot;tempo trascorso&quot; associato ad esso.
+>Senza eventi di collegamento come [!UICONTROL Video Views] o [!UICONTROL Exit Links], non è possibile conoscere il tempo trascorso sull’ultimo hit di una visita. Per ragioni analoghe, [!UICONTROL Bounce Visits] (ad esempio, visite con un singolo hit) a cui non è associato un &quot;tempo trascorso&quot;.
 
-La **numeratore** in tutto il tempo trascorso i calcoli sono i secondi totali trascorsi.
+Il **numeratore** in tutti i calcoli relativi al tempo trascorso indica il totale dei secondi trascorsi.
 
-La **denominatore** non è disponibile come metrica separata in Adobe Analytics. Per le metriche &quot;tempo trascorso&quot; a livello di hit, il denominatore è sequenze. Una sequenza è un insieme consecutivo di hit in cui una determinata variabile contiene lo stesso valore (sia che venga impostata, distribuita in avanti o persistente). Per &quot;Diffusione in avanti&quot; si intende la persistenza delle prop tra le visualizzazioni di pagina (cioè tra eventi di collegamento successivi), ai fini del calcolo del tempo trascorso.
+Il **denominatore** non è disponibile come metrica separata in Adobe Analytics. Per le metriche &quot;tempo trascorso&quot; a livello di hit, il denominatore è sequenze. Una sequenza è un set consecutivo di hit in cui una determinata variabile contiene lo stesso valore (sia tramite impostazione, distribuzione in avanti o persistenza). &quot;Diffondi in avanti&quot; si riferisce alla persistenza di proprietà tra le visualizzazioni di pagina (ovvero tra eventi di collegamento successivi), ai fini del calcolo del tempo trascorso.
 
-* Ad esempio, nel caso di [!UICONTROL Page Name] o altre dimensioni a livello di hit, il denominatore è essenzialmente [!UICONTROL 'Instances'] o [!UICONTROL 'Page Views'], ma con ricarichi e valori non impostati (ad esempio, eventi di collegamento) conteggiati come una singola interazione (una sequenza).
+* Ad esempio, nel caso di [!UICONTROL Page Name] o altre dimensioni a livello di hit, il denominatore è essenzialmente [!UICONTROL 'Instances'] o [!UICONTROL 'Page Views'], ma con ricaricamenti e valori non impostati (ad esempio eventi di collegamento) conteggiati come una singola interazione (una sequenza).
 
 * Anche gli hit di mancato recapito e di uscita vengono rimossi dal denominatore perché non è possibile conoscere il tempo trascorso.
 
 ## Domande frequenti
 
-+++È possibile applicare tutte le metriche &quot;tempo trascorso&quot; a qualsiasi dimensione?
++++Tutte le metriche &quot;tempo trascorso&quot; possono essere applicate a qualsiasi dimensione?
 
 Le metriche &quot;tempo trascorso&quot; che possono essere applicate a qualsiasi dimensione sono:
 
 * [!UICONTROL Total seconds spent]
 
-* [!UICONTROL Time spent per visit] (Secondi)
+* [!UICONTROL Time spent per visit] (Seconds)
 
-* [!UICONTROL Time spent per visitor] (Secondi)
+* [!UICONTROL Time spent per visitor] (Seconds)
 
-* [!UICONTROL Average time spent on site] (Secondi)
+* [!UICONTROL Average time spent on site] (Seconds)
 
 +++
 
-+++Quale dimensione tempo trascorso è più utilizzata nelle suddivisioni con altre dimensioni?
++++Quale dimensione Tempo trascorso è più indicata nelle suddivisioni con altre dimensioni?
 
-La [!UICONTROL Time Spent on Page – granular] è una dimensione a livello di hit. Se suddividi questo per un’altra dimensione, potrai sapere in quali secondi è durato un hit dove era presente anche la dimensione di suddivisione.
-Nell’esempio seguente, il termine di ricerca &quot;annunci&quot; è associato a periodi di hit di 54 secondi, 59 secondi, ecc., ad esempio per indicare ai visitatori che trascorrono del tempo a leggere il contenuto restituito per quel termine.
+Il [!UICONTROL Time Spent on Page – granular] dimension è una dimensione a livello di hit. Suddividendo questa per un’altra dimensione, potrai sapere in quali secondi è durato un hit in cui era presente anche la dimensione di raggruppamento.
+Nell’esempio seguente, il termine di ricerca &quot;classificifieds&quot; è associato a hit time di 54 secondi, 59 secondi, ecc., che indicano probabilmente che i visitatori dedicano tempo alla lettura del contenuto restituito per quel termine.
 
 ![](assets/time-spent1.png)
 
 +++
 
-+++Qual è la metrica appropriata rispetto alla dimensione di [!UICONTROL Time Spent on Page – granular]?
++++Quale metrica è appropriata rispetto alla dimensione di [!UICONTROL Time Spent on Page – granular]?
 
-Qualsiasi metrica. La dimensione mostra il tempo trascorso sull’hit esatto in cui si è verificato l’evento. Un tempo più lungo trascorso indica che un visitatore è rimasto più a lungo in una pagina (hit) in cui si è verificato l’evento.
+Qualsiasi metrica. La dimensione mostra il tempo trascorso sull’hit esatto in cui si è verificato l’evento. Maggiore è il tempo trascorso, più un visitatore è rimasto a lungo su una pagina (hit) in cui si è verificato l’evento.
 
 ![](assets/time-spent2.png)
 
 +++
 
-+++How [!UICONTROL Average Time Spent on Site] differisci da [!UICONTROL Time Spent per Visit]?
++++In che modo [!UICONTROL Average Time Spent on Site] differire da [!UICONTROL Time Spent per Visit]?
 
-La differenza è il denominatore della metrica:
+La differenza è il denominatore nella metrica:
 
 * [!UICONTROL Average time spent on site] utilizza le sequenze che includono un elemento dimensione.
 
@@ -98,19 +98,19 @@ Di conseguenza, queste metriche possono produrre risultati simili a livello di v
 
 +++
 
-+++Perché si suddividono i totali con [!UICONTROL Average Time Spent on Site] non corrisponde all&#39;elemento della riga padre?
++++Perché i totali delle suddivisioni con [!UICONTROL Average Time Spent on Site] non corrisponde all&#39;elemento riga padre?
 
-Perché [!UICONTROL Average Time Spent on Site] dipende da sequenze non interrotte di una dimensione e il rapporto interno non dipende dal rapporto esterno per il calcolo di tali esecuzioni.
+Perché [!UICONTROL Average Time Spent on Site] dipende dalle sequenze non interrotte di una dimensione e il rapporto interno non dipende dal rapporto esterno durante il calcolo di queste esecuzioni.
 
 Ad esempio, considera la visita seguente.
 
 | hit# | 1 | 2 | 3 |
 |---|---|---|---|
-| **Secondi spesi** | 30 | 100 | 10 |
-| **Nome pagina** | Home | Prodotto | Pagina principale |
-| **data** | Gen. 1 | Gen. 1 | Gen. 1 |
+| **Secondi trascorsi** | 30 | 100 | 10 |
+| **Nome pagina** | Home | Prodotto | Home |
+| **data** | Gen 1 | Gen 1 | Gen 1 |
 
-Quando si calcola il tempo trascorso per la Homepage sarebbe (30+10)/2=20, ma la suddivisione per giorno darebbe (30+10)/1=40 dal momento che il giorno ha una singola esecuzione ininterrotta del 1 gennaio.
+Quando si calcola il tempo trascorso per la homepage, questo sarebbe (30+10)/2=20, ma suddividendo tale dato per giorno si otterrebbe (30+10)/1=40 in quanto il giorno presenta un’unica esecuzione ininterrotta il 1° gennaio.
 
 Di conseguenza, queste metriche possono produrre risultati simili a livello di visita, ma saranno diverse a livello di hit.
 
@@ -118,46 +118,46 @@ Di conseguenza, queste metriche possono produrre risultati simili a livello di v
 
 ## Esempi di [!UICONTROL Time Spent] calcoli
 
-Supponiamo che il seguente set di chiamate server sia per un singolo visitatore all’interno di una singola visita:
+Supponiamo che il seguente set di chiamate al server sia per un singolo visitatore all’interno di una singola visita:
 
-| Visita l&#39;hit# | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| N. hit visita | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|
-| **Tempo trascorso della visita (in secondi)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
-| **Secondi spesi** | 30 | 50 | 100 | 10 | 40 | 60 | - |
+| **Tempo trascorso per la visita (in sec)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
+| **Secondi trascorsi** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo di hit** | Pagina | Collegamento | Pagina | Pagina | Pagina | Pagina | Pagina |
-| **Nome pagina** | Pagina principale | - | Prodotto | Pagina principale | Home (ricarica) | Carrello | Conferma d&#39;ordine |
+| **Nome pagina** | Home | - | Prodotto | Home | Home (ricarica) | Carrello | Conferma dell’ordine |
 |  |  |  |  |  |  |  |  |
-| **prop1** | A (set) | A (differita in avanti) | non impostato | B (set) | B (set) | A(set) | C (set) |
+| **prop1** | A (impostato) | A (diffusione in avanti) | non impostato | B (impostato) | B (impostato) | A(set) | C (set) |
 | **prop1 secondi trascorsi** | 30 | 50 | - | 10 | 40 | 60 | - |
 |  |  |  |  |  |  |  |  |
-| **eVar1** | Rosso (set) | Rosso (persistente) | (scaduto) | Blu (set) | Blu (set) | Blu (persistente) | Rosso (set) |
-| **eVar1 secondi trascorsi** | 30 | 50 | - | 10 | 40 | 60 | - |
+| **eVar1** | Rosso (impostato) | Rosso (persistente) | (scaduto) | Blu (impostato) | Blu (impostato) | Blu (persistente) | Rosso (impostato) |
+| **eVar 1 secondi trascorsi** | 30 | 50 | - | 10 | 40 | 60 | - |
 
-In base alla tabella precedente, le metriche sul tempo trascorso sono calcolate come segue:
+In base alla tabella precedente, le metriche tempo trascorso vengono calcolate come segue:
 
-| prop 1 | Totale secondi trascorsi | Tempo trascorso per visita | Tempo trascorso per visitatore | Conteggio delle sequenze | Tempo medio trascorso sul sito |
+| prop 1 | Totale secondi trascorsi | Tempo trascorso per visita | Tempo trascorso per visitatore | Numero di sequenze | Tempo medio trascorso sul sito |
 |---|---|---|---|---|---|
 | A | 30+50+60=140 | 140/1=140 | 140/1=140 | 2 | 140/2=70 |
 | B | 10+40=50 | 50/1=50 | 50/1=50 | 1 | 50/1=50 |
 | C | 0 | 0 | 0 | 0 | 0 |
-| Tempo non attribuito | 100 | - | - | - | - |
+| Ora non attribuita | 100 | - | - | - | - |
 
-| eVar1 | Totale secondi trascorsi | Tempo trascorso per visita | Tempo trascorso per visitatore | Conteggio delle sequenze | Tempo medio trascorso sul sito |
+| eVar1 | Totale secondi trascorsi | Tempo trascorso per visita | Tempo trascorso per visitatore | Numero di sequenze | Tempo medio trascorso sul sito |
 |---|---|---|---|---|---|
 | Rosso | 30+50=80 | 80/1=80 | 80/1=80 | 1 | 80/1=80 |
-| Blu | 10+40+60=110 | 10/1=110 | 10/1=110 | 1 | 10/1=110 |
-| Tempo non attribuito | 100 | - | - | - | - |
+| Blu | 10+40+60=110 | 110/1=110 | 110/1=110 | 1 | 110/1=110 |
+| Ora non attribuita | 100 | - | - | - | - |
 
 Tempo trascorso per visita (granulare): 290 Tempo trascorso sulla pagina (granulare): 10, 30, 40, 50, 60, 100
 
-Alcune note aggiuntive a supporto dell’esempio:
+Alcune note aggiuntive a sostegno dell’esempio:
 
-* Tutti i calcoli del tempo trascorso si basano sul tempo trascorso della visita che inizia a zero al primo hit della visita.
+* Tutti i calcoli del tempo trascorso si basano sul tempo trascorso della visita che inizia da zero al primo hit della visita.
 
-* &quot;Secondi trascorsi&quot; è la differenza tra il timestamp dell&#39;hit corrente e il timestamp dell&#39;hit successivo. Di conseguenza, l’ultimo hit della visita (e rimbalzi) non ha tempo trascorso.
+* &quot;Secondi trascorsi&quot; è la differenza tra la marca temporale dell’hit corrente e la marca temporale dell’hit successivo. Di conseguenza, l’ultimo hit della visita (e i mancati recapiti) non hanno tempo trascorso.
 
-* Una &quot;sequenza&quot; è un insieme consecutivo di risultati in cui una determinata variabile contiene lo stesso valore (sia mediante impostazione, distribuzione in avanti o persistenza). Ad esempio, la prop1 &quot;A&quot; ha due sequenze: hit 1 e 2 e hit 6. I valori sull’ultimo hit della visita non iniziano una nuova sequenza perché l’ultimo hit non ha tempo trascorso. Il tempo medio trascorso sul sito utilizza sequenze nel denominatore.
+* Una &quot;sequenza&quot; è un insieme consecutivo di hit in cui una data variabile contiene lo stesso valore (sia esso impostato, diffuso in avanti o persistente). Ad esempio, prop1 &quot;A&quot; ha due sequenze: hit 1 e 2 e hit 6. I valori dell’ultimo hit della visita non iniziano una nuova sequenza perché l’ultimo hit non ha tempo trascorso. Il tempo medio trascorso sul sito utilizza le sequenze nel denominatore.
 
-   * Solo ai fini del tempo trascorso, le proprietà vengono &quot;distribuite in avanti&quot; dagli hit di pagina agli hit di collegamento successivi, come mostrato in precedenza per prop1 nell’hit 2. Questo consente al valore impostato per prop1 sull&#39;hit 1 (&quot;A&quot;) di accumulare il tempo trascorso sull&#39;hit 2.
+   * Solo ai fini del tempo trascorso, le proprietà vengono &quot;distribuite in avanti&quot; dagli hit di pagina agli hit di collegamento successivi, come mostrato in precedenza per prop1 sull’hit 2. Questo consente al valore impostato per prop1 sull’hit 1 (&quot;A&quot;) di accumulare il tempo trascorso sull’hit 2.
 
-   * Le eVar accumulano il tempo trascorso per qualsiasi hit in cui l’eVar è impostato o mantenuto. La persistenza eVar è definita dalle impostazioni di eVar in Analytics > Amministratore.
+   * Le eVar accumulano il tempo trascorso su qualsiasi hit in cui l’eVar viene impostato o mantenuto. La persistenza in eVar è definita dalle impostazioni in eVar in Analytics > Amministratore.

@@ -6,7 +6,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -64,4 +64,4 @@ Utilizzando i canali di primo contatto e ultimo contatto legacy, puoi ottenere u
 
 ![](assets/mc-viz6.png)
 
-Ulteriori informazioni sull’analisi di marketing incrociata in questo video: [Utilizzo di Analisi multischeda per esplorare le attribuzioni marketing di base in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Ulteriori informazioni sull’analisi di marketing incrociata in questo video: [Utilizzo di Analisi multischeda per esplorare le attribuzioni marketing di base in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=it).

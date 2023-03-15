@@ -14,21 +14,21 @@ ht-degree: 12%
 
 ## Comprendere gli strumenti di amministrazione
 
-L’area Strumenti di amministrazione di Analytics è l’area principale per la gestione dell’istanza di Adobe Analytics; è qui che è possibile eseguire la maggior parte delle attività amministrative. L’altra area per l’amministrazione di Analytics, l’Admin Console di Adobe, è il provisioning degli utenti e l’impostazione delle autorizzazioni.
+L’area Strumenti di amministrazione di Analytics è l’area principale in cui gestire l’istanza di Adobe Analytics e in cui è possibile eseguire la maggior parte delle attività amministrative. L’altra area per l’amministrazione di Analytics, Adobe Admin Console, è dedicata al provisioning degli utenti e all’impostazione delle autorizzazioni.
 
 Di seguito è riportata una ripartizione di questi due settori:
 
 * **Strumenti di amministrazione di Analytics**
 
-   Utilizza l’area Strumenti di amministrazione di Analytics per tutte le attività di amministrazione di Adobe Analytics (oltre al provisioning degli utenti e alla gestione delle autorizzazioni). Esempi di compiti amministrativi comuni includono: creazione e gestione di suite di rapporti; importazione di fonti di dati esterne; esclusione dei dati da indirizzi IP specifici; e così via.
+   Utilizza l’area Strumenti di amministrazione di Analytics per tutte le attività di amministrazione di Adobe Analytics (oltre al provisioning degli utenti e alla gestione delle autorizzazioni). Esempi di attività amministrative comuni includono: creazione e gestione di suite di rapporti, importazione di origini dati esterne, esclusione di dati da indirizzi IP specifici e così via.
 
-   Vedi la gerarchia dei contenuti sul lato sinistro della pagina per passare a qualsiasi attività amministrativa disponibile in Adobe Analytics.
+   Consulta la gerarchia dei contenuti sul lato sinistro della pagina per passare a qualsiasi attività amministrativa disponibile in Adobe Analytics.
 
-* **Admin Console di Adobe**
+* **Admin Console per Adobe**
 
-   Utilizza questo strumento per eseguire il provisioning degli utenti e modificare le autorizzazioni di accesso.
+   Utilizzare questo strumento per assegnare ruoli agli utenti e modificare le autorizzazioni di accesso.
 
-   Per tutte le organizzazioni che vengono migrate ad Adobe IMS, queste attività vengono eseguite in Adobe Admin Console. Per ulteriori informazioni, consulta la sezione [Prima guida per l’amministratore di Adobe Analytics](/help/admin/admin-console/first-admin-guide.md). Se la tua organizzazione non è ancora stata migrata ad Adobe IMS, consulta [Migrazione degli utenti di Analytics ad Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
+   Per tutte le organizzazioni che vengono migrate ad Adobe IMS, queste attività vengono eseguite nell’Admin Console di Adobe. Per ulteriori informazioni, vedere [Prima guida dell’amministratore di Adobe Analytics](/help/admin/admin-console/first-admin-guide.md). Se la tua organizzazione non è ancora stata migrata ad Adobe IMS, consulta [Migrazione degli utenti di Analytics al Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
 
 ## Accedere agli strumenti di amministrazione
 

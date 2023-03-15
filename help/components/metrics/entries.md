@@ -12,13 +12,13 @@ ht-degree: 1%
 
 # Voci
 
-*Questa pagina di aiuto descrive come le voci funzionano come una metrica. Per informazioni sul funzionamento delle voci come dimensione, consulta [Dimensioni di ingresso](../dimensions/entry-dimensions.md).*
+*Questa pagina della guida descrive come funzionano le voci come una metrica. Per informazioni sul funzionamento delle voci come dimensione, vedere [Dimensioni di entrata](../dimensions/entry-dimensions.md).*
 
-La metrica &quot;Entrate&quot; mostra il numero di volte in cui un dato elemento dimensione viene acquisito come primo valore in una visita. Questa metrica è utile per comprendere di più sulle prime impression che i visitatori hanno sul sito. Visualizzare i primi valori di una dimensione può aiutarti a comprendere e ottimizzare l’esperienza ottenuta da un nuovo visitatore.
+La metrica &quot;Entrate&quot; mostra il numero di volte in cui un dato elemento dimensione viene acquisito come primo valore in una visita. Questa metrica è utile quando vuoi saperne di più sulle prime impressioni che i visitatori hanno sul tuo sito. La visualizzazione dei primi valori di una dimensione può aiutarti a comprendere e ottimizzare l’esperienza che riceve un nuovo visitatore.
 
-## Calcolo di questa metrica
+## Modalità di calcolo di questa metrica
 
-Per una determinata dimensione, registra il primo elemento dimensione visualizzato in una visita come voce. Esiste una sola voce per dimensione per visita. Non è necessariamente il primo hit della visita se la dimensione non è inizialmente impostata. È una metrica basata su visite; una volta collegato a un elemento dimensionale, persiste per il resto della visita.
+Per una determinata dimensione, registra il primo elemento dimensione visualizzato in una visita come voce. Esiste una sola voce per dimensione per visita. Non è necessariamente il primo hit della visita se la dimensione non è inizialmente impostata. Si tratta di una metrica basata sulle visite; una volta collegata a un elemento dimensione, persiste per il resto della visita.
 
 >[!TIP]
 >

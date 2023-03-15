@@ -4,7 +4,7 @@ description: Riconoscere gli identificatori comuni dei bot.
 feature: Bot Removal
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
 

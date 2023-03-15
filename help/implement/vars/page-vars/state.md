@@ -4,7 +4,7 @@ description: Popolare il “Rapporto sullo stato del visitatore” in Reports an
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Puoi impostare lo stato sia durante la configurazione dell’estensione Analytic
 1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
-4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] oppure fai clic sull’icona “+”.
+4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
 5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL State].
 

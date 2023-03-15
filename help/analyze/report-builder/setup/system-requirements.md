@@ -1,6 +1,6 @@
 ---
-description: Raccomandazioni e prerequisiti di sistema.
-title: Requisiti di sistema per il Report Builder
+description: Raccomandazioni di sistema e prerequisiti.
+title: Requisiti di Report Builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
 role: User, Admin
@@ -14,14 +14,14 @@ ht-degree: 4%
 
 # Requisiti di sistema
 
-Raccomandazioni e prerequisiti di sistema.
+Raccomandazioni di sistema e prerequisiti.
 
-* Windows XP o superiore
-* Microsoft Excel 2007 o versione successiva a 32 bit o 64 bit
+* Windows XP o versione successiva
+* Microsoft Excel 2007 a 32 bit o 64 bit o versione successiva
 * OS X non supportato
 
 **Prerequisiti**
 
 * Il contratto della tua organizzazione include Report Builder for Excel.
-* Il nome utente fa parte del gruppo di utenti predefinito del Report Builder. Questo requisito include [!DNL Analytics] amministratori.
+* Il nome utente fa parte del Report Builder utenti predefinito. Questo requisito comprende [!DNL Analytics] amministratori.
 * L&#39;utente deve eseguire Windows e aver effettuato l&#39;accesso come amministratore.

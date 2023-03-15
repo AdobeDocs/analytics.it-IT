@@ -1,6 +1,6 @@
 ---
 title: Ricerca a pagamento
-description: Consente di distinguere le metriche dalla ricerca a pagamento e naturale.
+description: Distingue le metriche da ricerca a pagamento e naturale.
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
 source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
@@ -12,12 +12,12 @@ ht-degree: 4%
 
 # Ricerca a pagamento
 
-La dimensione &quot;Ricerca a pagamento&quot; consente di esaminare qualsiasi metrica e di confrontarla tra ricerca a pagamento e ricerca naturale. Tutti gli altri hit esterni ai motori di ricerca vengono omessi. Questa dimensione è utile per comprendere in che modo le attività di ricerca a pagamento si confrontano con la ricerca organica.
+La dimensione &quot;Ricerca a pagamento&quot; consente di esaminare qualsiasi metrica e confrontarla tra ricerca a pagamento e ricerca naturale. Tutti gli altri risultati al di fuori dei motori di ricerca vengono omessi. Questa dimensione è utile per comprendere in che modo le attività di ricerca a pagamento si confrontano con la ricerca organica.
 
-## Popolare questa dimensione con i dati
+## Popola questa dimensione con i dati
 
-L&#39;unico requisito per il corretto funzionamento di questa dimensione è quello di [Rilevamento di ricerca a pagamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) configurato correttamente nelle impostazioni della suite di rapporti. Se il rilevamento della ricerca a pagamento è configurato correttamente e una suite di rapporti dispone di dati, questa dimensione funziona sempre.
+L’unico requisito per il corretto funzionamento di questa dimensione è disporre di [Rilevamento di ricerca a pagamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) configurato correttamente nelle impostazioni della suite di rapporti. Se il rilevamento di ricerche a pagamento è configurato correttamente e una suite di rapporti contiene dati, questa dimensione funziona sempre.
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono due valori statici: `"Natural"` e `"Paid"`. Se una visita soddisfa i criteri per un motore di ricerca e corrisponde anche al rilevamento di ricerca a pagamento, appartiene alla `"Paid"` elemento dimensione. Se una visita soddisfa i criteri di un motore di ricerca e lo fa *not* rilevamento di ricerca a pagamento abbinato, appartiene al `"Natural"` elemento dimensione.
+Gli elementi Dimension includono due valori statici: `"Natural"` e `"Paid"`. Se una visita soddisfa i criteri di un motore di ricerca e corrisponde anche al rilevamento di ricerche a pagamento, appartiene al `"Paid"` elemento dimensione. Se una visita soddisfa i criteri di un motore di ricerca e *non* corrisponde al rilevamento di ricerche a pagamento, appartiene al `"Natural"` elemento dimensione.

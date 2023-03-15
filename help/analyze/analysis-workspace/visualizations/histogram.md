@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Un istogramma è simile a un grafico a barre, ma con i numeri raggruppati in intervalli. Analytics automatizza la creazione di intervalli di numeri, ma puoi comunque cambiare le impostazioni in [Impostazioni avanzate](#section_09D774C584864D4CA6B5672DC2927477).
 
-Ecco un video sull’utilizzo degli istogrammi:
+Ecco un video su come utilizzare gli istogrammi:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23725/?quality=12)
 

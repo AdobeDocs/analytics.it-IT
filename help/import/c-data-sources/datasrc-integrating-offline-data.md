@@ -16,13 +16,13 @@ ht-degree: 69%
 
 Origini dati offre due modi aggiuntivi per integrare gli eventi che si verificano offline nei dati online.
 
-* [Abilita registrazione ID transazione](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
+* [Abilitare la registrazione dell’ID transazione](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [Integrazione transazione](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
 * [Integrazione cliente](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_9F4AAD710D2543BDA834090A98115FBF)
 
 Queste integrazioni associano i dati offline a una transazione online specifica o a un visitatore online.
 
-## Abilita registrazione ID transazione {#section_30D6D47AEC0F4A36B87EBFE4C858F20C}
+## Abilitare la registrazione dell’ID transazione {#section_30D6D47AEC0F4A36B87EBFE4C858F20C}
 
 L&#39;ID transazione può essere abilitato/disabilitato dalla UI senza coinvolgere ClientCare:
 
@@ -38,11 +38,11 @@ Vai a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Seleziona suite 
 
  -->
 
-Per verificare se la Registrazione ID transazione è abilitata, passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
+Per verificare se la registrazione ID transazione è abilitata, passare a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
-La [!UICONTROL Manage] visualizza lo stato della Registrazione ID transazione.
+Il [!UICONTROL Manage] Questa scheda mostra lo stato della Registrazione ID transazione.
 
 ## Integrazione cliente {#section_9F4AAD710D2543BDA834090A98115FBF}
 
@@ -63,6 +63,6 @@ Gli ID transazione vengono utilizzati per registrare lo stato di un visitatore i
 
 Il cliente è spesso anonimo quando passa da online a offline.
 
-Gli eventi ID transazione non sono inclusi nelle metriche Partecipazione visita (mostrate nei rapporti di marketing). Questo perché i dati ID transazione non sono associati a una visita (perché l’evento offline di solito non fa parte dell’evento online), ma sono associati al visitatore.
+Gli eventi ID transazione non sono inclusi nelle metriche di partecipazione alla visita (quelle visualizzate nei rapporti di marketing). Questo perché i dati ID transazione non sono associati a una visita (perché l’evento offline di solito non fa parte dell’evento online), ma sono associati al visitatore.
 
-Vedi [ID transazione](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+Consulta [ID transazione](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

@@ -1,52 +1,51 @@
 ---
 title: Analisi dei dati interessati dagli eventi
-description: Comprendere in che modo i dati influenzati da un evento contribuiscono alla qualità generale dei dati.
-translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+description: Scopri in che modo i dati interessati da un evento contribuiscono alla qualità complessiva dei dati.
+exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 3%
 
 ---
 
-
 # Analisi dei dati interessati dagli eventi
 
-A volte un evento può avere un impatto sulla qualità dei dati nell&#39;organizzazione. Gli esempi includono:
+A volte un evento può influire sulla qualità dei dati all’interno dell’organizzazione. Gli esempi includono:
 
-* Un bot che invia dati esterni, come milioni di dollari in entrate
-* L&#39;organizzazione ha inviato un aggiornamento al sito Web che ha avuto un impatto negativo sull&#39;implementazione  Analytics
-* Altri aspetti che influiscono sulla qualità o completezza dei dati
+* Un bot che invia dati aberranti, ad esempio milioni di dollari di ricavi
+* La tua organizzazione ha inviato al sito web un aggiornamento che ha avuto un impatto negativo sull’implementazione di Analytics
+* Altri problemi che influiscono sulla qualità o la completezza dei dati
 
-Se si è verificato un problema di qualità dei dati nel sito, potrebbe essere utile escluderlo dai rapporti per evitare di prendere decisioni aziendali al riguardo. Utilizzare queste sezioni per misurare l&#39;impatto dell&#39;evento sui dati e determinare come si desidera procedere.
+Se nel tuo sito si sono verificati problemi di qualità dei dati, puoi escluderlo dai rapporti per evitare di prendere decisioni commerciali al riguardo. Utilizza queste sezioni per misurare l’impatto dell’evento sui dati e determinare come procedere.
 
 ## Determinare la causa di un evento
 
-Se non sei sicuro del motivo per cui visualizzi un picco o un rilascio di dati, consulta [Risoluzione dei problemi relativi a picchi/perdite di dati](spikes-drops.md).
+Se non sei sicuro del motivo per cui visualizzi un picco o un calo nei dati, consulta [Risolvere i problemi relativi a picchi/cadute nei dati](spikes-drops.md).
 
-## Analizzare ed escludere i dati mediante la segmentazione
+## Analizzare ed escludere dati utilizzando la segmentazione
 
- Adobe Analytics offre un modo semplice e affidabile di focalizzare o escludere i dati mediante la segmentazione. Puoi utilizzare le dimensioni dell&#39;intervallo di date all&#39;interno dei segmenti per filtrare o rendere attive quelle date specifiche. See [Exclude specific dates in analysis](segments.md).
+Adobe Analytics offre un modo semplice e affidabile di concentrarsi o escludere i dati utilizzando la segmentazione. Puoi utilizzare dimensioni di intervallo di date all’interno di segmenti per filtrare o evidenziare tali date specifiche. Consulta [Escludere date specifiche nell’analisi](segments.md).
 
-## Confronto di un evento con intervalli di date precedenti
+## Confrontare un evento con intervalli di date precedenti
 
-Per saperne di più sull&#39;impatto che un evento ha avuto sui dati nel tempo, è possibile utilizzare il confronto delle date in  Analysis Workspace. Questa funzione consente di confrontare i dati giorno per giorno, settimana per settimana o mese per mese per vedere il confronto con gli intervalli precedenti. È quindi possibile utilizzare questo confronto per determinare l&#39;effetto di un evento sulle tendenze. Consultate [Confrontare le date interessate da un evento con gli intervalli](compare-dates.md)precedenti.
+Per ulteriori informazioni sull’impatto di un evento sui dati nel tempo, puoi utilizzare il confronto delle date in Analysis Workspace. Questa funzione consente di confrontare i dati giorno per giorno, settimana per settimana o mese per mese per vedere come si confrontano con gli intervalli precedenti. Puoi quindi utilizzare questo confronto per determinare in che misura un evento influisce sulle tendenze. Consulta [Confrontare le date interessate da un evento con intervalli precedenti](compare-dates.md).
 
 ## Derivare dati utilizzando metriche calcolate
 
-Dopo aver creato segmenti e utilizzato il confronto delle date, puoi combinare entrambi questi concetti per correggere i dati con tendenze utilizzando metriche calcolate. Includi i segmenti all’interno di una metrica calcolata, quindi moltiplica i giorni interessati per l’offset rilevato durante il confronto delle date. See [Derive data impacted by events](calcmetrics.md).
+Dopo aver creato i segmenti e aver utilizzato il confronto delle date, puoi combinare entrambi questi concetti per correggere i dati con tendenze utilizzando metriche calcolate. Includi i segmenti all’interno di una metrica calcolata, quindi moltiplica i giorni interessati per l’offset rilevato durante il confronto delle date. Consulta [Derivazione dei dati interessati dagli eventi](calcmetrics.md).
 
-## Comunicare l’impatto agli utenti nell’organizzazione
+## Comunicare l’impatto sugli utenti dell’organizzazione
 
-Una volta preparato il modo in cui intendete gestire un evento, potete [comunicare con gli utenti dell&#39;organizzazione](communicate.md).  Adobe offre diverse aree all’interno  Analytics in cui è possibile inserire del testo per comunicare agli utenti cosa è accaduto e quali componenti possono utilizzare.
+Una volta preparati a gestire un evento, puoi [comunica con gli utenti della tua organizzazione](communicate.md). Adobe offre diverse aree all’interno di Analytics in cui puoi inserire del testo per comunicare agli utenti cosa è successo e quali componenti possono utilizzare.
 
 ## Video
 
-Questo video illustra i passaggi descritti qui sopra.
+Questo video illustra ciascuno dei passaggi precedenti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
 
-* **0:27**: Escludere i dati utilizzando la segmentazione
-* **2:55**: Confronto di un evento con gli intervalli precedenti
-* **8:42**: Derivare dati utilizzando metriche calcolate
-* **11:46**: Comunicare l’impatto agli utenti
+* **0:27**: escludi dati utilizzando la segmentazione
+* **02:55**: confronta un evento con intervalli precedenti
+* **08:42**: derivare dati utilizzando metriche calcolate
+* **11:46**: comunicazione dell’impatto agli utenti

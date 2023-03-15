@@ -1,6 +1,6 @@
 ---
-description: Di seguito sono riportate alcune best practice per l’elaborazione e la distribuzione dei feed di dati.
-keywords: Feed di dati;best practice;picco di traffico;ogni ora;ftp
+description: Di seguito sono riportate alcune best practice per l’elaborazione e la distribuzione di feed di dati.
+keywords: Feed dati;best practice;picco di traffico;ogni ora;ftp
 title: Procedure consigliate e informazioni generali
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
@@ -13,18 +13,18 @@ ht-degree: 2%
 
 # Best practice
 
-Di seguito sono riportate alcune best practice per l’elaborazione e la distribuzione dei feed di dati.
+Di seguito sono riportate alcune best practice per l’elaborazione e la distribuzione di feed di dati.
 
-* Assicurati di comunicare anticipatamente eventuali picchi di traffico previsti. La latenza influisce direttamente sul tempo di elaborazione dei feed di dati. Vedi [Pianificare un picco di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) nella guida utente Admin.
+* Assicurati di comunicare in anticipo eventuali picchi di traffico previsti. La latenza influisce direttamente sul tempo di elaborazione dei feed di dati. Consulta [Pianificare un picco di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) nella guida utente Admin.
 
-* I feed di dati non contengono un accordo a livello di servizio, a meno che non sia esplicitamente indicato nel contratto con l’Adobe. In genere i feed vengono consegnati entro diverse ore dal passaggio dell’intervallo di reporting, ma occasionalmente possono richiedere fino a 12 ore o più.
+* I feed di dati non contengono un accordo sui livelli di servizio, a meno che non sia esplicitamente indicato nel contratto con Adobe. I feed vengono generalmente consegnati entro diverse ore dal termine del periodo definito per la generazione del rapporto, tuttavia possono occasionalmente richiedere fino a 12 ore o più.
 
-* Assicurati di avere ampio spazio sul tuo sito FTP. Rimuovi regolarmente i file dalla destinazione in modo da non esaurire inavvertitamente lo spazio su disco.
+* Assicurati di avere spazio sufficiente sul tuo sito FTP. Rimuovere regolarmente i file dalla destinazione in modo da non esaurire inavvertitamente lo spazio su disco.
 
-* I feed orari utilizzano il processo di consegna di più file più veloce. Considera l’utilizzo di più feed di file orari se una consegna tempestiva è una priorità elevata per la tua organizzazione.
+* I feed orari che utilizzano più file elaborano il processo più veloce. Valuta l’utilizzo di feed di file multipli orari se una consegna tempestiva è una priorità elevata per la tua organizzazione.
 
-* Se utilizzi sFTP, non leggere o eliminare i file con un `.part` suffisso La `.part` suffisso indica che il file è parzialmente trasferito. Una volta trasferito il file, il `.part` il suffisso scompare.
+* Se utilizzi sFTP, non leggere o eliminare i file con un `.part` suffisso. Il `.part` suffisso indica che il file è trasferito parzialmente. Una volta trasferito il file, `.part` il suffisso scompare.
 
-* Se automatizza il processo di inserimento dei feed, considera la possibilità che gli hit e i file possano essere trasferiti più di una volta. Il processo di acquisizione dei feed deve gestire hit duplicati e file duplicati senza errori o duplicazioni dei dati. Si consiglia di utilizzare la combinazione di `hitid_high` e `hitid_low` per identificare in modo univoco un hit.
+* Se automatizzi il processo di acquisizione dei feed, considera la possibilità che hit e file possano essere trasferiti più di una volta. Il processo di acquisizione dei feed deve gestire gli hit duplicati e i file duplicati senza generare errori o duplicare i dati. È consigliabile utilizzare la combinazione di `hitid_high` e `hitid_low` colonne per identificare in modo univoco un hit.
 
-   In rari casi, potresti vedere duplicati `hitid_high` e `hitid_low` valori. In questo caso, conferma che il file non è stato inviato ed elaborato in precedenza. Se solo alcune delle righe di un file sono duplicate, è consigliabile aggiungere `visit_num` e `visit_page_num` per determinare l&#39;univocità.
+   In rari casi, è possibile che vengano visualizzati duplicati `hitid_high` e `hitid_low` valori. In questo caso, verifica che il file non sia stato inviato ed elaborato in precedenza. Se solo alcune delle righe di un file sono duplicate, provare ad aggiungere `visit_num` e `visit_page_num` per determinare l’univocità.

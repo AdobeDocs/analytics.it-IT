@@ -41,7 +41,7 @@ ht-degree: 97%
       + [Densità di visualizzazione](analysis-workspace/build-workspace-project/view-density.md)
    + Componenti {#components}
       + [Panoramica dei componenti](analysis-workspace/components/analysis-workspace-components.md)
-      + [Aggiungi descrizioni dei componenti](analysis-workspace/components/add-component-descriptions.md)
+      + [Aggiungere descrizioni dei componenti](analysis-workspace/components/add-component-descriptions.md)
       + Annotazioni {#annotations}
          + [Panoramica sulle annotazioni](analysis-workspace/components/annotations/overview.md)
          + [Creare annotazioni](analysis-workspace/components/annotations/create-annotations.md)
@@ -62,10 +62,10 @@ ht-degree: 97%
          + [Creazione di intervalli di date personalizzati](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Confronto delle date](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
       + Dizionario dati {#data-dictionary}
-         + [Panoramica sul dizionario dati](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [Panoramica del dizionario dati](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [Visualizzare le informazioni sui componenti nel dizionario dati](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [Modificare le voci del componente nel dizionario dati](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [Monitorare lo stato del dizionario dati](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
+         + [Modificare le voci dei componenti nel dizionario dati](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [Monitorare l’integrità del dizionario dati](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualizzazioni {#visualizations}
       + [Panoramica delle visualizzazioni](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gestione delle origini dati](analysis-workspace/visualizations/t-sync-visualization.md)

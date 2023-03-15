@@ -4,7 +4,7 @@ description: Guida per gli amministratori di Adobe Analytics, compresa la gestio
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 100%
 

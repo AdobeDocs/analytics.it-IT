@@ -72,7 +72,7 @@ Le eVar non distinguono tra maiuscole e minuscole. La maiuscola o la minuscola u
 
 Sebbene le eVar siano utilizzate più spesso per valori stringa, possono anche essere configurate come contatori. Come contatori, le eVar sono utili se si vuole contare il numero di azioni eseguite da un utente prima di un evento. Ad esempio, puoi utilizzare un’eVar per acquisire il numero di ricerche interne eseguite prima dell’acquisto. Ogni volta che un visitatore esegue una ricerca, l’eVar deve contenere un valore “+1”. Se un visitatore esegue quattro ricerche prima di un acquisto, troverai un’istanza per ogni conteggio totale: 1.00, 2.00, 3.00 e 4.00. Tuttavia, solo al 4.00 viene attribuito il merito per l’evento di acquisto (metriche Ordini e Ricavi). I valori delle eVar di tipo contatore possono essere solo numeri positivi.
 
-## Aggiungi o modifica variabili di conversione
+## Aggiungere o modificare le variabili di conversione
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.

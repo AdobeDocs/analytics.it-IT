@@ -21,7 +21,7 @@ Per informazioni dettagliate su come caricare gli attributi del cliente, consult
 
    ![](assets/ca_metrics.png) ![](assets/ca_dimension.png)
 
-* Supporta lo stesso raggruppamento di un eVar (tutto può essere suddiviso per qualsiasi cosa).
+* Supporta la stessa suddivisione di un eVar (tutto può essere suddiviso per qualsiasi cosa).
 * VisAttr supporta tutte le metriche eVar.
-* VisAttr come metrica supporta la &quot;bucketization&quot; (come Tempo trascorso sul sito: da 0 a 30, da 31 a 60, ...)
+* VisAttr come metrica supporta la &quot;bucketizzazione&quot; (come Tempo trascorso sul sito: da 0 a 30, da 31 a 60, ...)
 * VisAttr è disponibile come dimensione di segmentazione.

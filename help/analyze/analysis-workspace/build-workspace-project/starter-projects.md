@@ -36,11 +36,11 @@ Gli utenti con diritti di amministratore possono trasformare qualunque progetto 
    >
    >Per impostazione predefinita, i modelli di progetto sono visibili a tutti gli utenti dell’organizzazione. Puoi utilizzare dei tag per organizzare i modelli. (Vai a **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Project Info & Settings]** (Informazioni e impostazioni progetto) per modificare tag e descrizioni.)
 
-Video sulla creazione e gestione di modelli personalizzati:
+Ecco un video sulla creazione e la gestione di modelli personalizzati:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### Gestire modelli personalizzati {#manage-custom-template}
+### Gestire i modelli personalizzati {#manage-custom-template}
 
 | Azione | Descrizione |
 |--- |--- |
@@ -63,9 +63,9 @@ Di seguito sono riportati i modelli disponibili e le domande che ogni modello pu
 
 ### Formazione
 
-Questo modello standard illustra la terminologia e i passaggi comuni per la creazione della prima analisi in Workspace. È disponibile come modello standard nel modale Nuovo progetto e sostituisce il progetto di esempio attuale per i nuovi utenti che non hanno altri progetti nel loro elenco.
+Questo modello standard illustra la terminologia e i passaggi comuni per lo svolgimento della prima analisi in Workspace. È disponibile come modello standard nel modale Nuovo progetto e sostituisce il progetto di esempio attuale per i nuovi utenti che non hanno altri progetti nel loro elenco.
 
-Ecco un video sul [!UICONTROL Training Tutorial] modello:
+Ecco un video sulla [!UICONTROL Training Tutorial] modello:
 
 >[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
@@ -79,17 +79,17 @@ Ecco un video sul [!UICONTROL Training Tutorial] modello:
 
 ### Commerce
 
-* **Magento: Marketing e Commerce**: questo modello suddivide la conversione e-commerce in base all’attribuzione del canale di marketing, oltre a fornire informazioni dettagliate in base a parole chiave di ricerca, pagina di destinazione, posizione geografica e altro ancora. Di seguito è riportato un tutorial video sulla [Magento: Modello di marketing e commercio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=it).
+* **Magento: Marketing e Commerce**: questo modello suddivide la conversione e-commerce in base all’attribuzione del canale di marketing, oltre a fornire informazioni dettagliate in base a parole chiave di ricerca, pagina di destinazione, posizione geografica e altro ancora. Questo è un video tutorial sulla [Magento: modello di marketing e commercio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=it).
 
 ### Raccolta dati
 
-* **Impatto ITP**: Scopri in che modo Apple ITP influisce sui tuoi dati e come regolare di conseguenza il reporting.
+* **Impatto ITP**: scopri in che modo l’ITP di Apple influisce sui dati e come regolare di conseguenza il reporting.
 
 ### Media
 
-* **Consumo di contenuti**: Chi sono i miei lettori più fedeli?
-* **Recency - Frequenza - Fedeltà**: Quali contenuti vengono maggiormente consumati e coinvolgono maggiormente gli utenti?
-* **Consumo di contenuti multimediali in streaming**: Fornisce tendenze e metriche principali del consumo di contenuti multimediali su tutti i dispositivi digitali. Ecco un video sul modello di consumo di contenuti multimediali in streaming:
+* **Consumo di contenuti**: Chi sono i miei lettori più fedeli
+* **Recency - Frequenza - Fedeltà**: quali contenuti vengono maggiormente consumati e coinvolgono maggiormente gli utenti?
+* **Consumo di contenuti multimediali in streaming**: fornisce tendenze e metriche principali del consumo di contenuti multimediali su tutti i dispositivi digitali. Ecco un video sul modello di consumo di contenuti multimediali in streaming:
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
 
@@ -97,7 +97,7 @@ Ecco un video sul [!UICONTROL Training Tutorial] modello:
 
 >[!IMPORTANT]
 >
->I modelli per dispositivi mobili sono disponibili solo se la suite per rapporti è abilitata per l’analisi delle app per dispositivi mobili.
+>I modelli mobili sono disponibili solo se la suite di rapporti è abilitata per l’analisi delle app mobili.
 
 * **Acquisizione:** scopri le prestazioni dei collegamenti per acquisizione mobile.
 * **Utilizzo app:** quanti utenti, avvii e primi avvii sono stati registrati per l’app, e quanto dura in media una sessione?
@@ -116,7 +116,7 @@ Ecco un video sul [!UICONTROL Training Tutorial] modello:
 ### Web
 
 * **Acquisizione:** quali fattori generano maggior traffico verso il sito Web?
-* **Panoramica sulle prestazioni del sito AEM:** Come si comporta il mio sito Adobe Experience Manager?
+* **Panoramica sulle prestazioni del sito AEM:** Come stanno andando le prestazioni del mio sito Adobe Experience Manager?
 * **Consumo di contenuti:** quali sono le aree del sito più visitate?
 * **Fidelizzazione:** che tipi di utenti hanno più probabilità di diventare utenti fedeli del sito?
 * **Tecnologia:** quali tecnologie vengono usate per accedere al sito?
@@ -133,7 +133,7 @@ Questo modello è basato sulla metrica Persone, che è una versione deduplicata 
 * Scoprire come raggruppare i segmenti con la metrica Persone
 * Capire in che modo l’uso di Experience Cloud ID nel tuo ambiente riesca a ottimizzare l’efficacia della metrica Persone
 
-### IQ percorso: Modello di Analytics tra dispositivi
+### Percorsi IQ: modello di Analytics tra dispositivi
 
 <!--This content is mirrored in the CDA doc.-->
 

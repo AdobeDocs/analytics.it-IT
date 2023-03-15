@@ -60,4 +60,4 @@ Consulta [Copiare una variabile di dati di contesto in un eVar](/help/admin/admi
 
 ## Limitazioni note
 
-**Uso dei carati (^) nelle regole di elaborazione.** Se desideri utilizzare i carati nelle regole di elaborazione come delimitatori o per altri scopi, ogni singolo carato deve essere rappresentato da due carati. Ad esempio, rappresentare un singolo carato come ^^, un doppio carato come ^^^^, ecc.
+**Uso dei carati (^) nelle regole di elaborazione.** Se desideri utilizzare i carati nelle regole di elaborazione come delimitatori o per altri scopi, ogni singolo carato deve essere rappresentato da due carati. Ad esempio, rappresenta un singolo carato come ^^, un doppio carato come ^^^^, ecc.

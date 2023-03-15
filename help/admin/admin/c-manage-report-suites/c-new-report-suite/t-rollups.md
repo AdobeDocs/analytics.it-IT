@@ -16,7 +16,7 @@ ht-degree: 93%
 >
 >[!DNL Reports & Analytics] è l’unico strumento che supporta i rapporti di aggregazione dati. Adobe non consiglia più di utilizzare gli aggregatori dati. Per delle alternative, consulta “[Approcci suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html?lang=it)”.
 
-Per creare una suite di rapporti rollup:
+Per creare una suite di rapporti di aggregazione dati:
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. In [!UICONTROL Report Suite Groups], fai clic su **[!UICONTROL Add]** accanto all’intestazione **[!UICONTROL Rollups]**.

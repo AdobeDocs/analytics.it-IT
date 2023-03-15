@@ -14,9 +14,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript legacy (H Code). Queste variabili non sono supportate nelle librerie AppMeasurement correnti o nella raccolta dati di Adobe Experience Platform.
+>Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript legacy (codice H). Queste variabili non sono supportate nelle librerie AppMeasurement correnti o nella raccolta dati di Adobe Experience Platform.
 
-La `s.dynamicAccountList` determina dinamicamente il valore di `s_account`. Se `dynamicAccountSelection` è impostato su `true`, `dynamicAccountMatch` viene confrontata con `dynamicAccountList`. Se viene trovata una corrispondenza, viene utilizzato l&#39;ID suite di rapporti corrispondente.
+Il `s.dynamicAccountList` determina dinamicamente il valore di `s_account`. Se `dynamicAccountSelection` è impostato su `true`, il `dynamicAccountMatch` variabile confrontata con `dynamicAccountList`. Se viene trovata una corrispondenza, viene utilizzato l’ID suite di rapporti corrispondente.
 
 ## Sintassi
 
@@ -26,17 +26,17 @@ Questa variabile è una stringa che viene analizzata automaticamente dal file Ja
 s.dynamicAccountList = "[rsid]=[valuetomatch],[rsid2]=[valuetomatch]";
 ```
 
-L&#39;input valido è un elenco separato da punto e virgola di coppie di valori e rsid. Ogni elenco contiene i seguenti elementi:
+L&#39;input valido è un elenco separato da punto e virgola di coppie rsid e valore. Ogni elenco contiene i seguenti elementi:
 
 * Uno o più ID suite di rapporti (separati da virgole)
-* Un segno uguale a
-* Una o più stringhe da abbinare (separate da virgole)
+* Un segno di uguale
+* Una o più stringhe da associare (separate da virgole)
 
-Nella stringa devono essere utilizzati solo caratteri ASCII standard. Non includere spazi.
+Nella stringa devono essere utilizzati solo i caratteri ASCII standard. Non includere spazi.
 
 ## Esempi
 
-Per tutti gli esempi seguenti, l’URL della pagina è `https://example.com/path2/?prod_id=12345`, `dynamicAccountSelection` è impostata su `true`e `s_account` è impostata su `examplersid`.
+Per tutti gli esempi seguenti, l’URL della pagina è `https://example.com/path2/?prod_id=12345`, il `dynamicAccountSelection` variabile impostata su `true`e `s_account` variabile impostata su `examplersid`.
 
 ```js
 // In this example, the report suite that receives data is examplersid1.
@@ -54,8 +54,8 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 
 ## Insidie, domande e suggerimenti
 
-* Le regole elencate in questa variabile vengono applicate in ordine da sinistra a destra. Se la `dynamicAccountMatch` corrisponde a più di una regola; la regola più a sinistra viene utilizzata per determinare la suite di rapporti. Di conseguenza, posiziona regole più generiche a destra dell’elenco.
-* Se non corrispondono regole, la suite di rapporti predefinita in `s_account` viene utilizzato.
-* Se la pagina viene salvata sul disco rigido di un utente o tradotta tramite un motore di traduzione basato sul web (come le pagine tradotte di Google), la selezione dell’account dinamico probabilmente non funzionerà.
-* La `dynamicAccountSelection` le regole si applicano solo alla sezione dell’URL specificato in `dynamicAccountMatch`.
-* Utilizza la [!DNL Adobe Experience Cloud Debugger] per testare la suite di rapporti di destinazione.
+* Le regole elencate in questa variabile vengono applicate da sinistra a destra. Se il `dynamicAccountMatch` corrisponde a più di una regola, la regola all’estrema sinistra viene utilizzata per determinare la suite di rapporti. Di conseguenza, posiziona le regole più generiche a destra dell’elenco.
+* Se nessuna regola corrisponde, la suite di rapporti predefinita in `s_account` viene utilizzato.
+* Se la pagina viene salvata sul disco rigido di un utente o tradotta tramite un motore di traduzione basato su Web (ad esempio le pagine tradotte di Google), la selezione dinamica dell’account probabilmente non funzionerà.
+* Il `dynamicAccountSelection` Le regole si applicano solo alla sezione dell&#39;URL specificato in `dynamicAccountMatch`.
+* Utilizza il [!DNL Adobe Experience Cloud Debugger] per testare la suite di rapporti di destinazione.

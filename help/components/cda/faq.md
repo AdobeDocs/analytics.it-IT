@@ -3,7 +3,7 @@ title: Domande frequenti su Analytics tra dispositivi
 description: Domande frequenti per Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 100%
 

@@ -1,6 +1,6 @@
 ---
 title: Dominio di riferimento
-description: Il dominio di primo piano su cui si trovava un visitatore prima di fare clic sul sito.
+description: Il dominio generale su cui si trovava un visitatore prima di fare clic per accedere al sito.
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
@@ -12,30 +12,30 @@ ht-degree: 1%
 
 # Dominio di riferimento
 
-La dimensione &quot;Dominio di riferimento&quot; indica quali domini i visitatori fanno clic attraverso per raggiungere il tuo sito. Questa dimensione è utile per comprendere quali siti di terze parti generano il maggior traffico verso i tuoi. Un collegamento deve esistere sul sito esterno e un visitatore deve fare clic su di esso per visualizzare l’elemento dimensione.
+La dimensione &quot;Dominio di riferimento&quot; segnala i domini su cui i visitatori fanno clic per raggiungere il sito. Questa dimensione è utile per capire quali siti di terze parti generano più traffico verso la tua. Affinché l’elemento dimensione venga visualizzato, deve esistere un collegamento sul sito esterno e un visitatore deve fare clic su di esso.
 
 >[!IMPORTANT]
 >
 >Devi configurare i [Filtri URL interni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) per utilizzare questa dimensione. La mancata configurazione dei filtri URL interni può includere domini interni o impedire la visualizzazione di domini esterni.
 
-Lo stesso rapporto può mostrare risultati diversi tra Analysis Workspace e Data Warehouse. Analysis Workspace riporta il dominio di riferimento per ogni singola pagina, esclusi i valori che corrispondono a filtri URL interni. Data Warehouse riporta solo il primo dominio di riferimento della visita e ignora i filtri URL interni.
+Lo stesso rapporto può mostrare risultati diversi tra Analysis Workspace e Data Warehouse. Analysis Workspace segnala il dominio di riferimento per ogni singola pagina, esclusi i valori che corrispondono ai filtri URL interni. Data Warehouse segnala solo il primo dominio di riferimento della visita e ignora i filtri URL interni.
 
-## Popolare questa dimensione con i dati
+## Popola questa dimensione con i dati
 
 Questa dimensione richiede la configurazione nell’interfaccia di Analytics e i dati nelle richieste di immagini.
 
-* All’interno dell’implementazione, questa dimensione recupera i dati dalla [`r` stringa di interrogazione](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `document.referrer` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite tag in Adobe Experience Platform), questa dimensione funziona automaticamente. Se utilizzi un metodo di raccolta dati al di fuori di AppMeasurement (ad esempio tramite l’API), assicurati di includere il `r` parametro della stringa query nelle richieste di immagini.
-* All’interno dell’interfaccia di Analytics, devi configurare i [Filtri URL interni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). La mancata configurazione dei filtri URL interni può includere domini interni o impedire la visualizzazione di domini esterni.
+* All&#39;interno dell&#39;implementazione, questa dimensione recupera i dati da [`r` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `document.referrer` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati esterno ad AppMeasurement (ad esempio tramite l&#39;API), assicurati di includere i `r` parametro della stringa di query nelle richieste di immagini.
+* Nell’interfaccia di Analytics, devi configurare i [Filtri URL interni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). La mancata configurazione dei filtri URL interni può includere domini interni o impedire la visualizzazione di domini esterni.
 
-L&#39;Adobe persiste nel dominio di riferimento per una visita. Se un visitatore parte e fa clic su un collegamento su un dominio diverso all’interno di una singola visita, il nuovo valore viene aggiornato e persiste per il resto della visita. Se desideri visualizzare solo il valore originale, consulta [Dominio di riferimento originale](original-referring-domain.md).
+L’Adobe persiste nel dominio di riferimento per una visita. Se un visitatore abbandona e fa clic su un collegamento su un dominio diverso all’interno di una singola visita, il nuovo valore viene aggiornato e persiste per il resto della visita. Se desideri visualizzare solo il valore originale, consulta [Dominio di riferimento originale](original-referring-domain.md).
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono domini che i visitatori cliccano sul tuo sito. Se un hit non ha dati di riferimento (impostati o persistenti), si raggruppa sotto l’elemento dimensione `"Typed/Bookmarked"`. Questo elemento dimensione significa che non vi era alcun valore referente, ad esempio se il visitatore ha digitato manualmente l’indirizzo del browser nella barra degli indirizzi o ha fatto clic su un segnalibro. La `"Typed/Bookmarked"` l’elemento dimensionale viene visualizzato anche per i reindirizzamenti non compatibili con Analytics. Vedi [Reindirizzamenti e alias](/help/technotes/redirects.md) nella guida utente delle note tecniche.
+Gli elementi del Dimension includono i domini su cui i visitatori fanno clic per accedere al sito. Se un hit non ha dati di riferimento (impostati o persistenti), viene raggruppato sotto l’elemento dimensione `"Typed/Bookmarked"`. Questo elemento dimensione significa che non era presente alcun valore di riferimento, ad esempio se il visitatore ha digitato manualmente l’indirizzo del browser nella barra degli indirizzi o ha fatto clic su un segnalibro. Il `"Typed/Bookmarked"` viene visualizzato anche un elemento dimensione per i reindirizzamenti che non rientrano in Analytics. Consulta [Reindirizzamenti e alias](/help/technotes/redirects.md) nella guida utente delle note tecniche.
 
-### Articoli di Dimension contenenti `googleusercontent.com`
+### elementi Dimension contenenti `googleusercontent.com`
 
-Gli utenti possono visualizzare elementi dimensionali con il dominio `googleusercontent.com`.
+Gli utenti possono visualizzare gli elementi dimensionali con il dominio `googleusercontent.com`.
 
-* **Pagine memorizzate nella cache**: I ragni di Google cercano costantemente il web e memorizzano copie delle pagine nel caso in cui vengano portate offline. Le pagine memorizzate nella cache sono disponibili accanto alla maggior parte dei risultati della ricerca facendo clic sul collegamento &quot;Memorizzato nella cache&quot;. Quando un utente fa clic sul collegamento e visualizza il contenuto memorizzato nella cache in Google, `googleusercontent.com` è l’elemento della dimensione.
-* **Pagine tradotte**: Google offre un servizio di traduzione robusto e comodo. Quando si visualizza un sito utilizzando questo servizio, viene da `googleusercontent.com`. Questo elemento dimensione viene visualizzato se l’utente fa clic su un collegamento per tornare al contenuto originale.
+* **Pagine memorizzate in cache**: i ragni di Google esaminano costantemente il web e memorizzano copie delle pagine nel caso in cui vengano portate offline. Queste pagine memorizzate in cache sono disponibili accanto alla maggior parte dei risultati di ricerca facendo clic sul collegamento &quot;Memorizzate in cache&quot;. Quando un utente fa clic su questo collegamento e visualizza il contenuto memorizzato in cache da Google, `googleusercontent.com` è l’elemento dimensionale.
+* **Pagine tradotte**: Google offre un servizio di traduzione solido e conveniente. Quando si visualizza un sito utilizzando questo servizio, il sito proviene da `googleusercontent.com`. Questo elemento dimensione viene visualizzato se l’utente fa clic su un collegamento per tornare al contenuto originale.

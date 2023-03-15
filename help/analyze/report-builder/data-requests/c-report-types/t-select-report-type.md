@@ -15,6 +15,6 @@ ht-degree: 16%
 
 Passaggi per selezionare il tipo di rapporto di base per la richiesta di dati.
 
-1. Passa a [!UICONTROL Request Wizard: Step 1] finestra.
-1. Seleziona una suite di rapporti dal **[!UICONTROL Report Suite]** menu.
-1. Scegli il tipo di report di base per la richiesta di dati.
+1. Accedi a [!UICONTROL Request Wizard: Step 1] finestra.
+1. Seleziona una suite di rapporti da **[!UICONTROL Report Suite]** menu.
+1. Scegliere il tipo di rapporto di base per la richiesta di dati.

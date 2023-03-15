@@ -1,6 +1,6 @@
 ---
-description: Activity Map è un’applicazione Adobe Analytics progettata per classificare l’attività dei collegamenti utilizzando sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico nelle pagine web.
-title: Che cos’è Activity Map?
+description: Activity Map è un’applicazione Adobe Analytics progettata per classificare l’attività di collegamento utilizzando le sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico delle pagine web.
+title: Che cos’è l’Activity Map?
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
@@ -14,16 +14,16 @@ ht-degree: 34%
 # Panoramica di Activity Map
 
 >[!NOTE]
->Scopri come Activity Map supporta le applicazioni a pagina singola (SPA) nel nostro [Domande frequenti](/help/analyze/activity-map/activitymap-faq.md) pagina.
+>Scopri come Activity Map supporta le applicazioni a pagina singola (SPA) sul nostro [Domande frequenti](/help/analyze/activity-map/activitymap-faq.md) pagina.
 
 >[!IMPORTANT]
->Il 16 gennaio 2020, Adobe Analytics ha iniziato a spostarsi su un nuovo dominio: https://experience.adobe.com/analytics. Questa modifica potrebbe impedire ad Activity Map di funzionare per alcuni clienti in casi specifici. Come sai, Activity Map viene inserito nella pagina del cliente in un iframe (un iframe per la barra degli strumenti di Activity Map e un iframe per il pannello inferiore di Activity Map). È possibile che nella pagina web sia stata impostata una direttiva informativa sulla sicurezza dei contenuti per &quot;frame-src&quot; che non include &quot;.adobe.com&quot;. In questo caso, Activity Map smetterà di lavorare su una pagina web del genere.
+>Il 16 gennaio 2020, Adobe Analytics ha iniziato a spostarsi su un nuovo dominio: https://experience.adobe.com/analytics. Questa modifica potrebbe impedire il funzionamento di Activity Map per alcuni clienti in casi specifici. Come sai, Activity Map viene inserito nella pagina del cliente in un iframe (un iframe per la barra degli strumenti Activity Map e un iframe per il pannello inferiore Activity Map). È possibile che sulla pagina Web sia stata impostata una direttiva informativa sulla sicurezza dei contenuti per &quot;frame-src&quot; che non include &quot;.adobe.com&quot;. In questo caso, Activity Map smetterà di lavorare su tale pagina web.
 
-Activity Map è un’applicazione Adobe Analytics progettata per classificare l’attività dei collegamenti utilizzando sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico nelle pagine web.
+Activity Map è un’applicazione Adobe Analytics progettata per classificare l’attività di collegamento utilizzando le sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico delle pagine web.
 
 Activity Map ti permette di configurare varie viste per identificare visivamente l’accelerazione dell’attività dei clienti, quantificare le iniziative di marketing e intervenire sulle esigenze e i comportamenti del tuo pubblico.
 
-## Guida introduttiva per gli amministratori
+## Introduzione per gli amministratori
 
 * [Abilitare Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [Esempio di codice di implementazione](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
@@ -33,7 +33,7 @@ Activity Map ti permette di configurare varie viste per identificare visivamente
 * [Installazione dei plug-in di Activity Map nel browser](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Avviare Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-## Funzioni di Activity Map
+## Funzioni Activity Map
 
 * [Tracciamento solido dei collegamenti](lnk-tracking-overview.md)
 * [Modalità standard e modalità Live](activitymap-standard-live.md)

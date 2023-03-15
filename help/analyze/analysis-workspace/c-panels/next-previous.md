@@ -1,59 +1,59 @@
 ---
-description: Pannello che mostra gli elementi dimensionali successivi o precedenti per una dimensione specifica.
+description: Pannello che mostra gli elementi dimensionali precedenti o successivi per una dimensione specifica.
 title: Pannello elemento successivo o precedente
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
+source-git-commit: c289f4aa1e49e428182fed9a871a1f90dd1f5c42
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 5%
+source-wordcount: '428'
+ht-degree: 6%
 
 ---
 
-
 # Pannello elemento successivo o precedente
 
-La [!UICONTROL Next or previous item] pannello avviato come rapporto in Reports &amp; Analytics, in [!UICONTROL Reports] > [!UICONTROL Most popular] > [!UICONTROL Next page/Previous page]. È ora disponibile anche un pannello Workspace . Questo pannello contiene diverse tabelle e visualizzazioni per identificare facilmente l’elemento dimensionale successivo o precedente per una dimensione specifica. Ad esempio, potresti voler esplorare le pagine in cui sono stati visitati più spesso i clienti dopo aver visitato la home page.
+Il [!UICONTROL Next or previous item] pannello avviato come rapporto in Reports &amp; Analytics, in [!UICONTROL Reports] > [!UICONTROL Most popular] > [!UICONTROL Next page/Previous page]. Ora è anche un pannello Workspace. Questo pannello contiene una serie di tabelle e visualizzazioni per identificare facilmente l’elemento dimensione successivo o precedente per una dimensione specifica. Ad esempio, puoi scoprire a quali pagine i clienti accedono più spesso dopo aver visitato la home page.
 
 ## Accedere al pannello
 
-Puoi accedere al pannello da [!UICONTROL Reports] o [!UICONTROL Workspace].
+Puoi accedere al pannello da [!UICONTROL Reports] o entro [!UICONTROL Workspace].
 
 | Punto di accesso | Descrizione |
 | --- | --- |
-| [!UICONTROL Reports] | <ul><li>Il pannello è già stato rilasciato in un progetto.</li><li>La barra a sinistra viene ridotta.</li><li>Se hai selezionato [!UICONTROL Next page], le impostazioni predefinite sono già state applicate, ad esempio [!UICONTROL Page] per [!UICONTROL Dimension]e nella pagina superiore come [!UICONTROL Dimension Item], [!UICONTROL Next] per [!UICONTROL Direction] e [!UICONTROL Visit] per [!UICONTROL Container]. Puoi modificare tutte queste impostazioni.</li></ul>![Pannello successivo/precedente](assets/next-previous.png) |
-| Workspace | Crea un nuovo progetto e seleziona l’icona Pannello nella barra a sinistra. Quindi trascina la [!UICONTROL Next or previous item] sopra la tabella a forma libera. Tieni presente che [!UICONTROL Dimension] e [!UICONTROL Dimension Item] i campi vengono lasciati vuoti. Seleziona una dimensione dall’elenco a discesa. [!UICONTROL Dimension items] vengono compilati in base ai [!UICONTROL dimension] ha scelto. Viene aggiunto l’elemento di dimensione superiore, ma puoi selezionare un altro elemento. Le impostazioni predefinite sono Successivo e Visitatore. Anche in questo caso, puoi modificarli.<p>![Pannello successivo/precedente](assets/next-previous2.png) |
+| [!UICONTROL Reports] | <ul><li>Il pannello è già stato rilasciato in un progetto.</li><li>La barra a sinistra è compressa.</li><li>Se hai selezionato [!UICONTROL Next page], sono già state applicate le impostazioni predefinite, ad esempio [!UICONTROL Page] per [!UICONTROL Dimension]e la pagina superiore come [!UICONTROL Dimension Item], [!UICONTROL Next] per [!UICONTROL Direction] e [!UICONTROL Visit] per [!UICONTROL Container]. Puoi modificare tutte queste impostazioni.</li></ul>![Pannello precedente/successivo](assets/next-previous.png) |
+| Workspace | Crea un nuovo progetto e seleziona l’icona Pannello nella barra a sinistra. Quindi trascina [!UICONTROL Next or previous item] sopra la tabella a forma libera. Tieni presente che [!UICONTROL Dimension] e [!UICONTROL Dimension Item] I campi vengono lasciati vuoti. Seleziona una dimensione dall’elenco a discesa. [!UICONTROL Dimension items] sono compilati in base al [!UICONTROL dimension] tu hai scelto. Viene aggiunto l’elemento della dimensione superiore, ma puoi selezionare un elemento diverso. Le impostazioni predefinite sono Successivo e Visitatore. Di nuovo, puoi modificare anche questi.<p>![Pannello precedente/successivo](assets/next-previous2.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Input del pannello {#Input}
 
-Puoi configurare le [!UICONTROL Next or previous item] pannello con le seguenti impostazioni di input:
+È possibile configurare [!UICONTROL Next or previous item] pannello utilizzando le seguenti impostazioni di input:
 
 | Impostazione | Descrizione |
 | --- | --- |
-| Zona di rilascio del segmento (o altro componente) | Puoi trascinare segmenti o altri componenti per filtrare ulteriormente i risultati del pannello. |
+| Zona di rilascio del segmento (o di un altro componente) | Puoi trascinare segmenti o altri componenti per filtrare ulteriormente i risultati del pannello. |
 | Dimensione | La dimensione per la quale desideri esplorare gli elementi successivi o precedenti. |
-| Elemento Dimension | Elemento specifico al centro della richiesta successiva/precedente. |
-| Direzione | Specifica se stai cercando il [!UICONTROL Next] o [!UICONTROL Previous] elemento dimensione. |
-| Contenitore | [!UICONTROL Visit] o [!UICONTROL Visitor] (Impostazione predefinita) determina l&#39;ambito della richiesta. |
+| Elemento Dimension | L&#39;oggetto specifico al centro della richiesta successiva/precedente. |
+| Direzione | Specifica se stai cercando [!UICONTROL Next] o [!UICONTROL Previous] elemento dimensione. |
+| Contenitore | [!UICONTROL Visit] o [!UICONTROL Visitor] (impostazione predefinita) determina l&#39;ambito della richiesta di informazioni. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Fai clic su **[!UICONTROL Build]** per creare il pannello .
+Clic **[!UICONTROL Build]** per creare il pannello.
 
 ## Output del pannello {#output}
 
-La [!UICONTROL Next or previous item] Il pannello restituisce un set completo di dati e visualizzazioni per consentirti di comprendere meglio quali occorrenze seguono o precedono specifici elementi dimensionali.
+Il [!UICONTROL Next or previous item] Il pannello restituisce un set completo di dati e visualizzazioni per aiutarti a comprendere meglio quali occorrenze seguono o precedono specifici elementi dimensionali.
 
-![Uscita pannello successivo/precedente](assets/next-previous-output.png)
+![Output pannello precedente/successivo](assets/next-previous-output.png)
 
-![Uscita pannello successivo/precedente](assets/next-previous-output2.png)
+![Output pannello precedente/successivo](assets/next-previous-output2.png)
 
 | Visualizzazione | Descrizione |
 | --- | --- |
-| Barre orizzontali | Elenca gli elementi successivi (o precedenti) in base all’elemento dimensione scelto. Passando il puntatore del mouse su una singola barra, viene evidenziato l’elemento corrispondente nella tabella a forma libera. |
-| Numero di riepilogo | Numero di riepilogo di alto livello di tutte le occorrenze successive o precedenti dell’elemento dimensione per il mese corrente (finora). |
-| Tabella a forma libera | Elenca gli elementi successivi (o precedenti) in base all’elemento dimensione scelto, in un formato tabella. Ad esempio, le pagine più popolari (per occorrenze) a cui gli utenti hanno seguito (o prima) la pagina principale o la pagina dell’area di lavoro. |
+| Barre orizzontali | Elenca gli elementi successivi (o precedenti) in base all’elemento dimensione scelto. Passando il puntatore del mouse su una singola barra viene evidenziato l’elemento corrispondente nella tabella a forma libera. |
+| Numero di riepilogo | Numero di riepilogo di alto livello di tutte le occorrenze successive o precedenti degli elementi dimensione per il mese corrente (finora). |
+| Tabella a forma libera | Elenca gli elementi successivi (o precedenti) in base all’elemento dimensione scelto, in formato tabella. Ad esempio, si trattava delle pagine più popolari (per occorrenze) a cui gli utenti accedevano dopo (o prima) la pagina Home o l’area di lavoro. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

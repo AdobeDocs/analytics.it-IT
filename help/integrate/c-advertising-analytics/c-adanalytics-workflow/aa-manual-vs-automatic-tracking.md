@@ -1,5 +1,5 @@
 ---
-description: Il tracciamento determina il modo in cui i dati dei motori di ricerca vengono tracciati dall’implementazione Adobe Analytics. Questo è un passaggio necessario per integrare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
+description: Il tracciamento determina il modo in cui i dati del motore di ricerca vengono tracciati dall’implementazione di Adobe Analytics. Questo passaggio è necessario per integrare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
 title: Modalità manuale di tracciamento e modalità automatica
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
@@ -12,42 +12,42 @@ ht-degree: 0%
 
 # Tracciamento: modalità manuale e modalità automatica
 
-Il tracciamento determina il modo in cui i dati dei motori di ricerca vengono tracciati dall’implementazione Adobe Analytics. Questo è un passaggio necessario per integrare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
+Il tracciamento determina il modo in cui i dati del motore di ricerca vengono tracciati dall’implementazione di Adobe Analytics. Questo passaggio è necessario per integrare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
 
 Ecco una panoramica video su come implementare il modello di tracciamento di Advertising Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
-Sono supportate due modalità di tracciamento: Modalità automatica e modalità manuale.
+Sono supportate due modalità di tracciamento: modalità automatica e modalità manuale.
 
-## Tracciamento automatico della modalità {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## Tracciamento in modalità automatica {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-In modalità automatica, puoi consentire al motore di ricerca Advertising Cloud di decidere come gestire i dati del motore di ricerca. Questo è l’approccio più semplice, ma potrebbe non tradursi in un set di dati integrato migliore.
+In modalità automatica, puoi lasciare che sia il motore di Advertising Cloud a decidere come gestire i dati del motore di ricerca. Questo è l’approccio più semplice, ma potrebbe non risultare nel miglior set di dati integrato.
 
-Di conseguenza, è necessario selezionare una casella di controllo di conferma quando si seleziona Modalità automatica, prima di salvare l&#39;impostazione dell&#39;account.
+Di conseguenza, è necessario selezionare una casella di controllo di conferma quando si seleziona Modalità automatica, prima di poter salvare l&#39;impostazione dell&#39;account.
 
-Tieni presente che per configurare un account del motore di ricerca in &quot;Modalità automatica&quot;, sei responsabile di eseguire le azioni seguenti:
+Per configurare un account del motore di ricerca in &quot;Modalità automatica&quot;, è necessario effettuare le seguenti operazioni:
 
-* La `s_kwcid` verranno aggiunti parametri e valori ai modelli di tracciamento dell’account o agli URL della pagina di destinazione nell’account che si aggiunge. Questo verrà inserito alla fine dell’URL. Può essere necessaria un&#39;azione aggiuntiva da parte dell&#39;utente se il server web richiede una determinata coppia chiave=valore alla fine dell&#39;URL OPPURE un aggiornamento per supportare una nuova coppia chiave=valore nell&#39;URL. **È tua responsabilità assicurarsi che i parametri dell’URL aggiunto persistano correttamente nella pagina di destinazione finale.**
-* Inoltre, le parole chiave possono essere inserite nell’URL di destinazione come parte del `s_kwcid` valore. Se contengono caratteri o simboli speciali, confermare che il server web possa supportare questi caratteri. Esempio: Un carattere speciale comune è &quot;+&quot;, utilizzato nelle parole chiave &quot;Broad Match Modified&quot;.
+* Il `s_kwcid` Il parametro e il valore verranno aggiunti ai modelli di tracciamento dell’account o agli URL della pagina di destinazione nell’account aggiunto. Verrà inserito alla fine dell’URL. Potrebbe essere necessaria un&#39;azione aggiuntiva da parte tua se il server web richiede una determinata coppia chiave=valore alla fine dell&#39;URL OPPURE un aggiornamento per supportare qualsiasi nuova coppia chiave=valore nell&#39;URL. **È tua responsabilità verificare che i parametri URL aggiunti persistano correttamente nella pagina di destinazione finale.**
+* Inoltre, è possibile inserire parole chiave nell’URL di destinazione come parte del `s_kwcid` valore. Se contengono caratteri o simboli speciali, verificare che il server Web in uso supporti tali caratteri. Esempio: un carattere speciale comune è &quot;+&quot;, che viene utilizzato nelle parole chiave &quot;Broad Match Modified&quot;.
 
 >[!IMPORTANT]
 >
->Ulteriori informazioni sull’aggiunta di `s_kwcid` al tuo [Informativa sulla sicurezza dei contenuti](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).
+>Ulteriori informazioni sull&#39;aggiunta o meno del `s_kwcid` parametro per il [Informativa sulla sicurezza dei contenuti](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).
 
-## Tracciamento manuale della modalità {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## Tracciamento modalità manuale {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
-In modalità Manuale, è necessario specificare come i dati del motore di ricerca devono essere trattati dal processo di integrazione dei dati di Advertising Analytics.
+In modalità manuale, devi specificare in che modo i dati del motore di ricerca devono essere trattati dal processo di integrazione dei dati di Advertising Analytics.
 
 ### Aggiungi tracciamento manuale all’account Google {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
-La stringa che deve essere aggiunta al tuo account Google è mostrata di seguito. Devi aggiungere la stringa a tutti i modelli di tracciamento utilizzati nell’account.
+La stringa da aggiungere al tuo account Google è mostrata di seguito. Devi aggiungere la stringa a tutti i modelli di tracciamento utilizzati nel tuo account.
 
 >[!IMPORTANT]
 >
->La `<Advertising Analytics ID>` (in **audace** di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa ID account specifica dalla schermata di configurazione dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
+>Il `<Advertising Analytics ID>` valore (in **grassetto** di seguito) è generico e **deve essere sostituito con la stringa del tuo ID account specifico**. Puoi ottenere la stringa dell’ID account specifico dalla schermata di configurazione dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
 
-**Stringa di tracciamento per campagne:**
+**Stringa di tracciamento per le campagne:**
 
 ```
 s_kwcid=AL! 
@@ -70,15 +70,15 @@ Esempi di codici di tracciamento in vari formati di modelli di tracciamento:
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**di terze parti (DoubleClick)`{unescapedlpurl}`**
+**Terze parti (doppio clic)`{unescapedlpurl}`**
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-**di terze parti (DoubleClick)`{lpurl}`**
+**Terze parti (doppio clic)`{lpurl}`**
 
-Se l’URL passa attraverso un reindirizzamento e non utilizza un valore &quot;unescapelpurl&quot;, devi codificare la stringa abbastanza volte in modo che continui a persistere attraverso il reindirizzamento all’URL della pagina di destinazione finale.
+Se l’URL attraversa un reindirizzamento e non utilizza un valore &quot;unescape edlpurl&quot;, devi codificare la stringa un numero di volte sufficiente affinché persista attraverso il reindirizzamento all’URL della pagina di destinazione finale.
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
@@ -86,13 +86,13 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 ### Aggiungi tracciamento manuale all&#39;account Bing {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-La stringa che deve essere aggiunta al tuo account Bing è mostrata di seguito. Devi aggiungere la stringa a tutti i suffissi URL finali utilizzati in tutto l’account.
+La stringa da aggiungere al tuo account Bing è mostrata di seguito. Devi aggiungere la stringa a tutti i suffissi URL finali utilizzati in tutto l’account.
 
 >[!IMPORTANT]
 >
->La `<Advertising Analytics ID>` (in **audace** di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa ID account specifica dalla schermata di configurazione dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
+>Il `<Advertising Analytics ID>` valore (in **grassetto** di seguito) è generico e **deve essere sostituito con la stringa del tuo ID account specifico**. Puoi ottenere la stringa dell’ID account specifico dalla schermata di configurazione dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
 
-**Stringa di tracciamento per campagne:**
+**Stringa di tracciamento per le campagne:**
 
 ```
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
@@ -100,7 +100,7 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 
 ![](assets/Bing.png)
 
-Esempi di codici di tracciamento in vari formati di suffisso URL finali:
+Esempi di codici di tracciamento in vari formati di suffisso URL finale:
 
 **{lpurl}**
 
@@ -115,15 +115,15 @@ Esempi di codici di tracciamento in vari formati di suffisso URL finali:
 s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**di terze parti (DoubleClick)`{unescapedlpurl}`**
+**Terze parti (doppio clic)`{unescapedlpurl}`**
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**di terze parti (DoubleClick)`{lpurl}`**
+**Terze parti (doppio clic)`{lpurl}`**
 
-Se l’URL passa attraverso un reindirizzamento e non utilizza un valore &quot;unescapelpurl&quot;, devi codificare la stringa abbastanza volte in modo che continui a persistere attraverso il reindirizzamento all’URL della pagina di destinazione finale.
+Se l’URL attraversa un reindirizzamento e non utilizza un valore &quot;unescape edlpurl&quot;, devi codificare la stringa un numero di volte sufficiente affinché persista attraverso il reindirizzamento all’URL della pagina di destinazione finale.
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}

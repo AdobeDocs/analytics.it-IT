@@ -1,5 +1,5 @@
 ---
-description: Elenca metriche e dimensioni supportate dai report in tempo reale. Sono supportate anche le classificazioni, se le hai definite.
+description: Elenca metriche e dimensioni supportate dai rapporti in tempo reale. Sono supportate anche le classificazioni, se le hai definite.
 title: Panoramica delle metriche e delle dimensioni in tempo reale supportate
 topic-fix: Reports
 feature: Real-time
@@ -13,7 +13,7 @@ ht-degree: 28%
 
 # Metriche e dimensioni in tempo reale supportate
 
-Elenca metriche e dimensioni supportate dai report in tempo reale. Sono supportate anche le classificazioni, se le hai definite.
+Elenca metriche e dimensioni supportate dai rapporti in tempo reale. Sono supportate anche le classificazioni, se le hai definite.
 
 ## Metriche supportate {#section_514ED8B382494C47BFC0657894D1AF94}
 
@@ -35,14 +35,14 @@ Elenca metriche e dimensioni supportate dai report in tempo reale. Sono supporta
 * Motore di ricerca
 * Dominio di riferimento
 * Paese di geosegmentazione
-* Area geografica
-* Città Geosegmentazione
+* Area di geosegmentazione
+* Città Geosegmentation
 * Geosegmentazione DMA USA
 * Prodotto
 * Server
 * Sezione del sito
 * Codice di tracciamento
 * Collegamento personalizzato
-* Download file
+* Download del file
 * Collegamento di uscita.
-* Variabili Custom Insight (props) 1-75 (se abilitate nella suite di rapporti)
+* Variabili Custom Insight (prop) 1-75 (se abilitate nella suite di rapporti)

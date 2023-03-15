@@ -1,5 +1,5 @@
 ---
-description: La pagina Preferenze Manager ti consente di configurare come eseguire il rendering dell’output del rapporto Excel e valori separati da virgole (CSV).
+description: La pagina Preferences Manager (Gestione preferenze) consente di configurare la modalità di rendering dell’output di rapporti Excel e con valori separati da virgole (CSV).
 title: Preferenze Manager
 feature: Admin Tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
@@ -13,9 +13,9 @@ ht-degree: 7%
 
 # Preferenze Manager
 
-La pagina Preferenze Manager ti consente di configurare come eseguire il rendering dell’output del rapporto Excel e valori separati da virgole (CSV).
+La pagina Preferences Manager (Gestione preferenze) consente di configurare la modalità di rendering dell’output di rapporti Excel e con valori separati da virgole (CSV).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Preferences]**
 
 * Usa formato data obsoleto per CSV (30 agosto 2013)
-* Usa il formato data ISO 8601 per CSV (2013-08-30)
+* Utilizza il formato data ISO 8601 per CSV (30/08/2013)

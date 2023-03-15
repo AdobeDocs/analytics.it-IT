@@ -16,18 +16,18 @@ ht-degree: 9%
 
 Per creare una richiesta di rilevamento delle anomalie in Report Builder:
 
-1. Seleziona un rapporto con tendenze, ad esempio un **[!UICONTROL Site Metrics]** > **[!UICONTROL Traffic]** rapporto.
+1. Seleziona un rapporto con tendenze, ad esempio **[!UICONTROL Site Metrics]** > **[!UICONTROL Traffic]** rapporto.
 1. In [!UICONTROL Apply Granularity] menu, seleziona **[!UICONTROL Day]**.
 
    >[!NOTE]
    >
-   >La [!UICONTROL Anomaly Detection] Il menu è disponibile solo quando si seleziona Granularità giorno . I 30 giorni precedenti di dati vengono utilizzati come periodo di formazione per i dati statistici, indipendentemente dall’intervallo di date selezionato.
+   >Il [!UICONTROL Anomaly Detection] è disponibile solo quando selezioni Granularità giorno. I dati dei 30 giorni precedenti vengono utilizzati come periodo di formazione dei dati statistici, indipendentemente dall’intervallo di date selezionato.
 
 1. Dopo aver configurato gli intervalli di date, fai clic su **[!UICONTROL Next]**.
 
-   Passaggio 1: Nella Creazione guidata richieste: Passaggio 2 di 2, aggiungi una metrica, ad esempio **[!UICONTROL Visits]**.
+   Risultato passaggio 1. Nella Creazione guidata richieste: passaggio 2 di 2, aggiungi una metrica, ad esempio **[!UICONTROL Visits]**.
 
-   Passaggio 1: Per la metrica aggiunta, fai clic sul pulsante **[!UICONTROL None]** link.
+   Risultato passaggio 1. Per la metrica aggiunta, fai clic su **[!UICONTROL None]** collegamento.
 
    ![Risultato del passaggio](assets/anomaly_select.png)
 
@@ -35,7 +35,7 @@ Per creare una richiesta di rilevamento delle anomalie in Report Builder:
 
    ![Informazioni sul passaggio](assets/anomaly_visit.png)
 
-   Quando selezioni una di queste opzioni, il sistema crea copie di Rilevamento anomalie della metrica originale. Ad esempio, per la metrica Visita, viene aggiunta una metrica Visita con limite inferiore alla [!UICONTROL Metric] gruppo.
-1. Fai clic su **[!UICONTROL Finish]** e selezionare la cella per l&#39;output in Excel.
+   Quando selezionate una di queste opzioni, il sistema crea copie della metrica originale con Rilevamento anomalie. Ad esempio, per la metrica Visita, una metrica Visita con limite inferiore viene aggiunta al [!UICONTROL Metric] gruppo.
+1. Clic **[!UICONTROL Finish]** e selezionare la cella per l&#39;output in Excel.
 
-   Vedi [Rilevamento delle anomalie](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) per le definizioni.
+   Consulta [Rilevamento delle anomalie](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) definizioni.

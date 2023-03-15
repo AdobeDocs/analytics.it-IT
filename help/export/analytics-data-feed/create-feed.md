@@ -14,17 +14,17 @@ ht-degree: 7%
 
 La creazione di un feed dati consente ad Adobe di sapere dove inviare i file di dati non elaborati e cosa si desidera includere in ciascun file. In questa pagina sono elencate le singole impostazioni che è possibile personalizzare durante la creazione di un feed di dati.
 
-Prima di leggere questa pagina è consigliabile conoscere i feed di dati di base. Vedi [Panoramica sui feed dati](data-feed-overview.md) per essere certi di soddisfare i requisiti per la creazione di un feed di dati.
+Prima di leggere questa pagina, è consigliabile conoscere i feed di dati. Consulta [Panoramica sui feed dati](data-feed-overview.md) per essere certo di soddisfare i requisiti per la creazione di un feed di dati.
 
-## Campi di informazioni sui feed
+## Campi Informazioni feed
 
-* **Nome**: Nome del feed di dati. Deve essere univoco all’interno della suite di rapporti selezionata e può contenere fino a 255 caratteri.
-* **Suite di rapporti:** La suite di rapporti su cui si basa il feed di dati. Se vengono creati più feed di dati per la stessa suite di rapporti, devono avere definizioni di colonna diverse. Solo le suite di rapporti di origine supportano i feed di dati; le suite di rapporti virtuali non sono supportate.
-* **Invia e-mail al completamento**: L’indirizzo e-mail da notificare al termine dell’elaborazione di un feed. L’indirizzo e-mail deve essere formattato correttamente.
-* **Intervallo di feed**: I feed orari contengono dati di un&#39;ora. I feed giornalieri contengono dati del valore di una giornata intera; includono dati da mezzanotte a mezzanotte nel fuso orario della suite di rapporti.
-* **Elaborazione ritardata**: Attendi un periodo di tempo specificato prima di elaborare un file di feed di dati. Un ritardo può essere utile per dare alle implementazioni mobili un’opportunità per i dispositivi offline di venire online e inviare dati. Può essere utilizzato anche per gestire i processi lato server della tua organizzazione nella gestione dei file elaborati in precedenza. Nella maggior parte dei casi non è necessario alcun ritardo. Un feed può essere ritardato fino a 120 minuti.
-* **Date di inizio e fine**: La data di inizio indica la prima data desiderata per un feed di dati. Imposta questa data in passato per iniziare immediatamente l’elaborazione dei feed di dati per i dati storici. I feed continuano l’elaborazione fino alla data di fine. Le date di inizio e di fine si basano sul fuso orario della suite di rapporti.
-* **Alimentazione continua**: Questa casella di controllo rimuove la data di fine, consentendo l’esecuzione indefinita di un feed. Al termine dell’elaborazione dei dati storici da parte di un feed, questi attende che i dati terminino la raccolta per un’ora o un giorno specifici. Al termine dell’ora o del giorno corrente, l’elaborazione inizia dopo il ritardo specificato.
+* **Nome**: nome del feed di dati. Deve essere univoco all’interno della suite di rapporti selezionata e può contenere fino a 255 caratteri.
+* **Suite di rapporti:** La suite di rapporti su cui si basa il feed di dati. Se vengono creati più feed di dati per la stessa suite di rapporti, devono avere definizioni di colonne diverse. Solo le suite di rapporti di origine supportano i feed di dati; le suite di rapporti virtuali non sono supportate.
+* **E-mail al termine**: indirizzo e-mail da notificare al termine dell’elaborazione di un feed. L’indirizzo e-mail deve essere formattato correttamente.
+* **Intervallo feed**: i feed orari contengono dati relativi a una sola ora. I feed giornalieri contengono dati relativi a un’intera giornata; includono dati da mezzanotte a mezzanotte nel fuso orario della suite di rapporti.
+* **Ritarda elaborazione**: attendi un determinato periodo di tempo prima di elaborare un file di feed dati. Un ritardo può essere utile per dare alle implementazioni mobili l’opportunità ai dispositivi offline di connettersi e inviare dati. Può essere utilizzato anche per adattarsi ai processi lato server della tua organizzazione nella gestione dei file elaborati in precedenza. Nella maggior parte dei casi, non è necessario attendere. Un feed può essere ritardato fino a 120 minuti.
+* **Date di inizio e fine**: la data di inizio indica la prima data in cui desideri un feed di dati. Imposta questa data nel passato per iniziare immediatamente a elaborare i feed di dati per i dati storici. I feed continuano l’elaborazione fino a raggiungere la data di fine. Le date di inizio e fine si basano sul fuso orario della suite di rapporti.
+* **Alimentazione continua**: questa casella di controllo rimuove la data di fine, consentendo l’esecuzione indefinita di un feed. Al termine dell’elaborazione dei dati storici, un feed attende che i dati vengano raccolti per una determinata ora o giorno. Al termine dell’ora o del giorno corrente, l’elaborazione inizia dopo il ritardo specificato.
 
 ## Campi di destinazione
 
@@ -32,7 +32,7 @@ I campi disponibili nei campi di destinazione dipendono dal tipo di destinazione
 
 ### FTP
 
-I dati dei feed di dati possono essere inviati a una posizione FTP ospitata da un Adobe o da un cliente. Richiede un host FTP, un nome utente e una password. Utilizzare il campo percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere; i feed generano un errore se il percorso specificato non esiste.
+I dati del feed dati possono essere inviati a un Adobe o a una posizione FTP ospitata dal cliente. Richiede un host FTP, un nome utente e una password. Utilizza il campo percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste.
 
 ![Informazioni FTP](assets/dest-ftp.jpg)
 
@@ -44,11 +44,11 @@ I dati dei feed di dati possono essere inviati a una posizione FTP ospitata da u
 
 ### S3
 
-Puoi inviare feed direttamente ai bucket Amazon S3. Questo tipo di destinazione richiede un nome bucket, un ID chiave di accesso e una chiave segreta. Vedi [Requisiti di denominazione dei bucket Amazon S3](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) per ulteriori informazioni, consulta la documentazione di Amazon S3 .
+Puoi inviare feed direttamente ai bucket di Amazon S3. Questo tipo di destinazione richiede un nome bucket, un ID chiave di accesso e una chiave segreta. Consulta [Requisiti di denominazione del bucket Amazon S3](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) nella documentazione di Amazon S3 per ulteriori informazioni.
 
 ![Informazioni S3](assets/dest-s3.jpg)
 
-L’utente fornito per il caricamento dei feed di dati deve avere i seguenti [permissions](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+L’utente fornito per il caricamento dei feed di dati deve disporre dei seguenti elementi [autorizzazioni](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
 
 * s3:GetObject
 * s3:PutObject
@@ -56,9 +56,9 @@ L’utente fornito per il caricamento dei feed di dati deve avere i seguenti [pe
 
    >[!NOTE]
    >
-   >Per ogni caricamento su un bucket Amazon S3, [!DNL Analytics] aggiunge il proprietario del bucket all&#39;ACL BucketOwnerFullControl, indipendentemente dal fatto che il bucket abbia o meno un criterio che lo richieda. Per ulteriori informazioni, consulta &quot;[Qual è l’impostazione BucketOwnerFullControl per i feed di dati Amazon S3?](df-faq.md#BucketOwnerFullControl)&quot;
+   >Per ogni caricamento in un bucket Amazon S3, [!DNL Analytics] aggiunge il proprietario del bucket all’ACL BucketOwnerFullControl, indipendentemente dal fatto che il bucket disponga di un criterio che lo richieda. Per ulteriori informazioni, consulta la sezione &quot;[Qual è l’impostazione BucketOwnerFullControl per i feed di dati Amazon S3?](df-faq.md#BucketOwnerFullControl)&quot;
 
-Sono supportate le 16 aree AWS standard seguenti (utilizzando, se necessario, l’algoritmo di firma appropriato):
+Sono supportate le seguenti 16 aree geografiche standard di AWS (utilizzando l’algoritmo di firma appropriato, se necessario):
 
 * us-east-2
 * us-east-1
@@ -74,31 +74,31 @@ Sono supportate le 16 aree AWS standard seguenti (utilizzando, se necessario, l�
 * eu-west-1
 * eu-west-2
 * eu-west-3
-* ue-nord-1
+* eu-north-1
 * sa-east-1
 
 >[!NOTE]
 >
->L&#39;area cn-North-1 non è supportata.
+>L&#39;area cn-north-1 non è supportata.
 
 ### BLOB di Azure
 
-I feed di dati supportano le destinazioni BLOB di Azure. Richiede un contenitore, un account e una chiave. Amazon crittografa automaticamente i dati a riposo. Quando scarichi i dati, viene decrittografato automaticamente. Vedi [Creare un account di archiviazione](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) nella documentazione di Microsoft Azure per ulteriori informazioni.
+I feed di dati supportano le destinazioni BLOB di Azure. Richiede un contenitore, un account e una chiave. Amazon crittografa automaticamente i dati inattivi. Quando scarichi i dati, questi vengono decrittografati automaticamente. Consulta [Creare un account di archiviazione](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) nei documenti di Microsoft Azure per ulteriori informazioni.
 
 ![Informazioni di Azure](assets/azure.png)
 
 >[!NOTE]
 >
->È necessario implementare un processo personalizzato per gestire lo spazio su disco nella destinazione del feed. Adobe non elimina alcun dato dal server.
+>È necessario implementare un processo personalizzato per gestire lo spazio su disco nella destinazione del feed. Adobe non elimina dati dal server.
 
 ## Definizioni delle colonne dati
 
-Sono disponibili tutte le colonne, indipendentemente dai dati disponibili. Un feed di dati deve includere almeno una colonna.
+Sono disponibili tutte le colonne, indipendentemente dal fatto che contengano dati. Un feed di dati deve includere almeno una colonna.
 
-* **Rimuovere i caratteri di escape**: Quando si raccolgono i dati, alcuni caratteri (come le righe nuove) possono causare problemi. Selezionare questa casella se si desidera rimuovere questi caratteri dai file di feed.
-* **Formato di compressione**: Tipo di compressione utilizzato. File di output Gzip in `.tar.gz` formato. File di output ZIP in `.zip` formato.
-* **Tipo di pacchetto**: Uscite di file singolo `hit_data.tsv` file in un unico file potenzialmente massiccio. Più file impaginano i dati in blocchi da 2 GB (non compressi). Se sono selezionati più file e i dati non compressi per l’intervallo di reporting sono inferiori a 2 GB, viene inviato un file. Adobe consiglia di utilizzare più file per la maggior parte dei feed di dati.
-* **Manifesto**: Se Adobe deve o meno fornire un [file manifest](c-df-contents/datafeeds-contents.md#feed-manifest) alla destinazione quando non vengono raccolti dati per un intervallo di feed. Se selezioni Manifest File, riceverai un file manifesto simile al seguente quando non vengono raccolti dati:
+* **Rimuovi caratteri di escape**: durante la raccolta dei dati, alcuni caratteri (come le nuove righe) possono causare problemi. Selezionare questa casella se si desidera rimuovere questi caratteri dai file di feed.
+* **Formato di compressione**: tipo di compressione utilizzato. Gzip restituisce i file in `.tar.gz` formato. File di output Zip in `.zip` formato.
+* **Tipo di imballaggio**: file singolo restituisce il `hit_data.tsv` file in un unico file, potenzialmente di grandi dimensioni. Più file impaginano i dati in blocchi da 2 GB (non compressi). Se sono selezionati più file e i dati non compressi per la finestra di reporting sono inferiori a 2 GB, viene inviato un file. L’Adobe consiglia di utilizzare più file per la maggior parte dei feed di dati.
+* **Manifesto**: indica se Adobe deve consegnare o meno un [file manifesto](c-df-contents/datafeeds-contents.md#feed-manifest) alla destinazione quando non vengono raccolti dati per un intervallo di feed. Se selezioni File manifesto, riceverai un file manifesto simile al seguente quando non vengono raccolti dati:
 
 ```text
    Datafeed-Manifest-Version: 1.0
@@ -107,7 +107,7 @@ Sono disponibili tutte le colonne, indipendentemente dai dati disponibili. Un fe
     Total-Records: 0
 ```
 
-* **Modelli di colonna**: Quando si creano molti feed di dati, Adobe consiglia di creare un modello di colonna. Quando si seleziona un modello di colonna, vengono automaticamente incluse le colonne specificate nel modello. In Adobe sono inoltre disponibili diversi modelli per impostazione predefinita.
-* **Colonne disponibili**: Tutte le colonne di dati disponibili in Adobe Analytics. Fai clic su [!UICONTROL Add all] per includere tutte le colonne in un feed di dati.
-* **Colonne incluse**: Le colonne da includere in un feed di dati. Fai clic su [!UICONTROL Remove all] per rimuovere tutte le colonne da un feed di dati.
-* **Scarica CSV**: Scarica un file CSV contenente tutte le colonne incluse.
+* **Modelli di colonna**: durante la creazione di molti feed di dati, l’Adobe consiglia di creare un modello di colonna. Quando si seleziona un modello di colonna, le colonne specificate vengono incluse automaticamente nel modello. Per impostazione predefinita, in Adobe sono inoltre disponibili diversi modelli.
+* **Colonne disponibili**: tutte le colonne di dati disponibili in Adobe Analytics. Clic [!UICONTROL Add all] per includere tutte le colonne in un feed di dati.
+* **Colonne incluse**: colonne da includere in un feed di dati. Clic [!UICONTROL Remove all] per rimuovere tutte le colonne da un feed di dati.
+* **Scarica CSV**: scarica un file CSV contenente tutte le colonne incluse.

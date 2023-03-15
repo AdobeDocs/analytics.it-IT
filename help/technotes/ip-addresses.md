@@ -1,6 +1,6 @@
 ---
 title: IP e domini utilizzati da Adobe Analytics
-description: Se il firewall dell’organizzazione blocca gli indirizzi IP derivanti dall’Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
+description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 source-git-commit: d109011bcdbc6b5f37c9304e5d72f572a4245193
@@ -12,15 +12,15 @@ ht-degree: 4%
 
 # IP e domini utilizzati da Adobe Analytics
 
-Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server o dai server di raccolta dati di Adobe responsabili dell’accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall della tua organizzazione per consentire l’accesso e l’invio di dati dall’interno della tua organizzazione. Questa pagina include sia i sistemi in entrata (come la raccolta dati) che i sistemi in uscita (come i feed dati) utilizzati da Adobe.
+Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server di raccolta dati di Adobe o dai server responsabili dell’accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall dell’organizzazione per consentire l’accesso e l’invio di dati dall’interno dell’organizzazione. Questa pagina include sia i sistemi in entrata (come la raccolta dati) che i sistemi in uscita (come i feed di dati) utilizzati da Adobe.
 
 >[!IMPORTANT]
 >
->Sebbene Adobe faccia del suo meglio per mantenere aggiornato il documento, non può garantire che l’elenco degli intervalli IP rimanga lo stesso. Eventuali modifiche includono la crescita e l&#39;espansione dell&#39;attività, un registro Internet richiede modifiche allo spazio degli indirizzi IP di Adobe, o un provider di servizi Internet smette di funzionare.
+>Adobe fa del suo meglio per mantenere aggiornato questo documento, ma non può garantire che l’elenco degli intervalli IP rimanga lo stesso. Tra i possibili cambiamenti vi sono la crescita e l&#39;espansione dell&#39;attività, un registro Internet richiede modifiche allo spazio di indirizzi IP di Adobe o un provider di servizi Internet smette di funzionare.
 
-## Consenti domini di tecnologia dipendenti
+## Consenti domini tecnologici dipendenti
 
-Adobe Analytics utilizza i seguenti host per migliorare le prestazioni e l’esperienza di prodotto. Adobe consiglia di consentire a questi domini tramite il firewall dell’organizzazione per un’esperienza ottimale tramite Adobe Analytics.
+Adobe Analytics utilizza i seguenti host per migliorare le prestazioni e l’esperienza di utilizzo del prodotto. Adobe consiglia di consentire a questi domini di utilizzare il firewall dell’organizzazione per un’esperienza ottimale con Adobe Analytics.
 
 | Tecnologia | Dominio |
 | --- | --- |
@@ -28,14 +28,14 @@ Adobe Analytics utilizza i seguenti host per migliorare le prestazioni e l’esp
 | Dominio legacy di Adobe Analytics | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
-| Guadagno | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |
-| LaunchDarkly | `app.launchdarkly.com` |
+| Gainsight | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |
+| LaunchDark | `app.launchdarkly.com` |
 | Archiviazione BLOB di Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
-| CDN Microsoft Azure | `aauicdnva7.azureedge.net` |
+| CDN di Microsoft Azure | `aauicdnva7.azureedge.net` |
 
 ## Tutti i blocchi di indirizzi IP di Adobe Analytics
 
-La tabella seguente illustra tutti gli indirizzi IP di proprietà di un Adobe utilizzati per Adobe Analytics. Non includono tutti i servizi ospitati in cloud pubblici.
+La tabella seguente descrive tutti gli indirizzi IP di proprietà dell’Adobe utilizzati per Adobe Analytics. Non includono tutti i servizi ospitati su cloud pubblici.
 
 | Blocco IP (notazione CIDR) |
 | --- |
@@ -45,9 +45,9 @@ La tabella seguente illustra tutti gli indirizzi IP di proprietà di un Adobe ut
 | `130.248.0.0/16` |
 | `185.34.188.0/22` |
 
-## Blocchi di indirizzi IP per la raccolta dati e l’FTP
+## Raccolta dei dati e blocchi degli indirizzi IP FTP
 
-Se la tua organizzazione preferisce consentire intervalli di indirizzi IP specifici, puoi utilizzare la tabella seguente. Tutti gli intervalli in questa sezione sono inclusi nella tabella precedente. Le connessioni FTP per Data Warehouse e Data Feeds provengono solo dalle posizioni Londra, Oregon e Singapore.
+Se la tua organizzazione preferisce consentire intervalli di indirizzi IP specifici, puoi utilizzare la tabella seguente. Tutti gli intervalli in questa sezione sono inclusi nella tabella precedente. Le connessioni FTP per Data Warehouse e Data Feeds provengono solo dalle sedi di Londra, Oregon e Singapore.
 
 | Posizione | Intervallo IP (notazione CIDR) |
 | --- | --- |
@@ -75,9 +75,9 @@ Se la tua organizzazione preferisce consentire intervalli di indirizzi IP specif
 | Virginia | `63.140.38.0/23` |
 | Virginia | `63.140.54.0/24` |
 
-## Host AWS
+## Host di AWS
 
-Adobe Analytics utilizza Amazon Web Services come parte del processo di raccolta dei dati. La tabella seguente include gli indirizzi host AWS IPv4 riservati per Adobe. Questi host sono **not** incluso nell’intervallo di blocchi aggregati di cui sopra.
+Adobe Analytics utilizza Amazon Web Services come parte del processo di raccolta dei dati. La tabella seguente include gli indirizzi host AWS IPv4 riservati ad Adobe. Questi host sono **non** incluso nell’intervallo di blocchi aggregati indicato sopra.
 
 | Posizione | Host |
 | --- | --- |
@@ -90,7 +90,7 @@ Adobe Analytics utilizza Amazon Web Services come parte del processo di raccolta
 | Francia | `15.236.117.205` |
 | Francia | `15.236.125.10` |
 
-La tabella seguente include i blocchi indirizzo IPv6 di AWS utilizzati da Adobe. Questi host sono **not** incluso nell’intervallo di blocchi aggregati di cui sopra.
+La tabella seguente include i blocchi di indirizzi IPv6 di AWS utilizzati da Adobe. Questi host sono **non** incluso nell’intervallo di blocchi aggregati indicato sopra.
 
 | Posizione | Host |
 | --- | --- |

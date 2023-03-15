@@ -12,11 +12,11 @@ ht-degree: 89%
 
 # Report Suite Manager
 
-Una suite di rapporti definisce il reporting indipendente e completo per uno dei seguenti archivi di dati:
+Una suite di rapporti definisce il reporting indipendente e completo per uno qualsiasi dei seguenti archivi di dati:
 
-* Un singolo sito web (più tipico)
+* Un singolo sito Web (più tipico)
 
-* Una porzione o un sottoinsieme di un singolo sito web
+* Parte o sottoinsieme di un singolo sito Web
 
 * Un segmento globale composto dai numeri di diversi siti per ottenere i totali
 

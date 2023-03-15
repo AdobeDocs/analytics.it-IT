@@ -1,5 +1,5 @@
 ---
-description: Definisce impostazioni comuni per le banche e altre istituzioni che forniscono accesso ai servizi online.
+description: Definisce impostazioni comuni per le banche e le altre istituzioni che forniscono accesso ai servizi online.
 title: Servizi finanziari
 feature: Report Suite Settings
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
@@ -12,7 +12,7 @@ ht-degree: 75%
 
 # Servizi finanziari
 
-Definisce impostazioni comuni per le banche e altre istituzioni che forniscono accesso ai servizi online.
+Definisce impostazioni comuni per le banche e le altre istituzioni che forniscono accesso ai servizi online.
 
 | Variabili di conversione (eVar) | Tipo | Sottorelazioni | Allocazione | Scadenza | variabile `s_code` |
 |---|---|---|---|---|---|
@@ -20,7 +20,7 @@ Definisce impostazioni comuni per le banche e altre istituzioni che forniscono a
 | Termini di ricerca interni | Stringa | Base | Più recente (ultimo) | Visita | `evar2` |
 | Tipo di evento self-service | Stringa | Base | Più recente (ultimo) | Visita | `evar3` |
 
-Nessun evento di successo è configurato da questo modello di suite di rapporti.
+Questo modello di suite di rapporti non configura alcun evento di successo.
 
 | Variabili Custom Insight | variabile `s_code` |
 |---|---|

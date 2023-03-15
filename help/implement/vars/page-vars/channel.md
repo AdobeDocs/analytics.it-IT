@@ -6,40 +6,40 @@ exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 1%
+ht-degree: 39%
 
 ---
 
-# canale
+# channel
 
-La `channel` in genere memorizza la sezione del sito in cui si trova una determinata pagina. È utile determinare quali gruppi del sito sono più popolari. Questa variabile popola la dimensione &quot;Sezioni del sito&quot;.
+Il `channel` La variabile in genere memorizza la sezione del sito in cui si trova una determinata pagina. È utile determinare quali gruppi del sito sono più popolari. Questa variabile popola la dimensione &quot;Sezioni del sito&quot;.
 
-## Canale tramite l’SDK per web
+## Canale tramite Web SDK
 
-Il canale è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nel campo XDM `web.webPageDetails.siteSection`.
+Il canale è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `web.webPageDetails.siteSection`.
 
 ## Canale tramite l’estensione Adobe Analytics
 
-Puoi impostare il canale sia durante la configurazione dell’estensione Analytics (variabili globali) che in regole.
+Puoi impostare il canale sia durante la configurazione dell’estensione Analytics (variabili globali) sia nelle regole.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà tag desiderata.
-3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
-4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
-5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
-6. Individua il [!UICONTROL Channel] sezione .
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+2. Fai clic sulla proprietà del tag desiderata.
+3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
+4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
+5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+6. Individua la sezione [!UICONTROL Channel].
 
 Puoi impostare il canale su qualsiasi valore stringa o elemento dati.
 
-## s.channel in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
+## s.channel in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-La `s.channel` è una stringa che in genere contiene la sezione del sito della pagina. ha un valore massimo di 100 byte; i valori più lunghi vengono troncati.
+Il `s.channel` variabile è una stringa che in genere contiene la sezione del sito della pagina. Può avere un valore massimo di 100 byte; i valori più lunghi vengono troncati.
 
 ```js
 s.channel = "Example site section";
 ```
 
-Se utilizzi `digitalData` [livello dati](../../prepare/data-layer.md):
+Se utilizzi il `digitalData` [livello dati](../../prepare/data-layer.md):
 
 ```js
 s.channel = digitalData.page.category.primaryCategory;

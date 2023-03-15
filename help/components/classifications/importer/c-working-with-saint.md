@@ -22,4 +22,4 @@ I dati importati con lo strumento di importazione devono essere in un formato sp
 >
 >Adobe consiglia di limitare a 30 il numero di colonne di importazione ed esportazione.
 
-Vedi [Risoluzione dei problemi relativi all’importazione di classificazioni](/help/components/classifications/importer/troubleshooting.md). Questo argomento descrive i problemi derivanti da formati di file e contenuti di file non corretti.
+Consulta [Risoluzione dei problemi di Importazione classificazioni](/help/components/classifications/importer/troubleshooting.md). In questo argomento vengono descritti i problemi derivanti da formati e contenuti di file non corretti.

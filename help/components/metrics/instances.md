@@ -12,8 +12,8 @@ ht-degree: 1%
 
 # Istanze
 
-La metrica &quot;Istanze&quot; mostra il numero di volte in cui una dimensione è stata esplicitamente definita in una richiesta di immagine. Alcune dimensioni, ad esempio [eVar](../dimensions/evar.md), gli elementi dimensionali persistenti oltre l’hit su cui sono impostati. Questa metrica è utile quando desideri visualizzare il numero di volte in cui un elemento dimensione è stato impostato senza gli hit in cui tale valore è persistito.
+La metrica &quot;Istanze&quot; mostra il numero di volte in cui una dimensione è stata definita in modo esplicito in una richiesta di immagine. Alcune dimensioni, come [eVar](../dimensions/evar.md), mantiene gli elementi dimensionali oltre l’hit su cui sono impostati. Questa metrica è utile quando vuoi visualizzare il numero di volte in cui un elemento dimensione è stato impostato senza gli hit in cui tale valore è persistito.
 
-## Calcolo di questa metrica
+## Modalità di calcolo di questa metrica
 
-Di tutti gli hit in una suite di rapporti, includi solo gli hit che impostano esplicitamente un elemento dimensione nella richiesta di immagine. Alcune dimensioni, ad esempio [eVar](../dimensions/evar.md), persistono oltre l’hit su cui sono impostati. Metriche come [Visualizzazioni pagina](page-views.md) e [Occorrenze](occurrences.md) conteggia sia i valori iniziali che quelli persistenti. Questa metrica non conta i valori persistenti.
+Di tutti gli hit in una suite di rapporti, includi solo quelli che impostano esplicitamente un elemento dimensione nella richiesta di immagine. Alcune dimensioni, come [eVar](../dimensions/evar.md), persistono oltre l&#39;hit su cui sono impostati. Metriche come [Visualizzazioni pagina](page-views.md) e [Occorrenze](occurrences.md) conteggia sia i valori iniziali che quelli permanenti. Questa metrica non conta i valori persistenti.

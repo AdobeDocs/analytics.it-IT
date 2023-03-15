@@ -65,7 +65,7 @@ Il campo **[!UICONTROL contains]** è limitato a 100 caratteri. L’elenco “do
 
 ### Indirizzo IP (comprese le corrispondenze con caratteri jolly)
 
-Trova uno o più indirizzi IP nello stesso blocco utilizzando caratteri jolly (&#42;). Specifica i valori numerici dell’indirizzo IP da trovare. Sostituisci &#42; per qualsiasi valore a cui desideri corrispondere utilizzando un carattere jolly. Il seguente elenco contiene esempi di stringa di corrispondenza dell’indirizzo IP:
+Trova uno o più indirizzi IP nello stesso blocco utilizzando caratteri jolly (&#42;). Specifica i valori numerici dell’indirizzo IP da trovare. Sostituisci &#42; per tutti i valori che si desidera trovare utilizzando un carattere jolly. Il seguente elenco contiene esempi di stringa di corrispondenza dell’indirizzo IP:
 
 ```
 10.10.10.1
@@ -74,7 +74,7 @@ Trova uno o più indirizzi IP nello stesso blocco utilizzando caratteri jolly (&
 
 ### Intervallo indirizzi IP
 
-Specifica gli intervalli iniziale e finale degli indirizzi IP da rilevare. Sostituisci &#42; per qualsiasi valore a cui desideri corrispondere utilizzando un carattere jolly.
+Specifica gli intervalli iniziale e finale degli indirizzi IP da rilevare. Sostituisci &#42; per tutti i valori che si desidera trovare utilizzando un carattere jolly.
 
 ### Definire una regola bot personalizzata
 
@@ -122,7 +122,7 @@ Il pulsante **[!UICONTROL Export Uploaded Bot File]** esporta tutte le regole de
 
 Le regole bot vengono applicate a tutti i dati di analisi. I dati rimossi dalle regole bot sono visibili solo nei rapporti su bot e pagine bot.
 
-Le regole VISTA vengono applicate dopo le regole bot. Vedi [Ordine di elaborazione](/help/technotes/processing-order.md) nella guida utente delle note tecniche.
+Le regole VISTA vengono applicate dopo le regole bot. Consulta [Ordine di elaborazione](/help/technotes/processing-order.md) nella guida utente delle note tecniche.
 
 **Elaborazione di visite con numero elevato di hit:** se in una visita si verificano più di 100 hit, il reporting determina se la durata della visita in secondi è inferiore o uguale al numero di hit nella visita. In questa situazione, a causa dei costi di elaborazione di visite lunghe e intense, il reporting inizia da capo con una nuova visita. Le visite con molti hit sono solitamente causate da attacchi di bot e non sono considerate come normale attività di navigazione dei visitatori.
 

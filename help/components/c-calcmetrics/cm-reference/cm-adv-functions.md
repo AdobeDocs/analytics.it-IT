@@ -69,7 +69,7 @@ Questo è il modo in cui la metrica “Approximate Customers” (Clienti appross
 
 ### Uniques Exceeded (Univoci superati) {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Analogamente a Count() e RowCount(), Approximate Count Distinct() è soggetto ai [limiti di “uniques exceeded” (univoci superati)](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). Se in un determinato mese si raggiunge il limite “uniques exceeded” per una dimensione, il valore viene conteggiato come 1 elemento dimensione.
+Analogamente a Count() e RowCount(), Approximate Count Distinct() è soggetto ai [limiti di “uniques exceeded” (univoci superati)](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=it). Se in un determinato mese si raggiunge il limite “uniques exceeded” per una dimensione, il valore viene conteggiato come 1 elemento dimensione.
 
 ### Confronto delle funzioni di conteggio {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -99,7 +99,7 @@ ASIN(metric)
 
 | Argomento |  |
 |---|---|
-| *metrica* | Il coseno dell’angolo desiderato da -1 a 1. |
+| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
 
 ## Arcotangente (riga) {#concept_3408520673774A10998E9BD8B909E90C}
 
@@ -111,7 +111,7 @@ ATAN(metric)
 
 | Argomento |  |
 |---|---|
-| *metrica* | Il coseno dell’angolo desiderato da -1 a 1. |
+| *metric* | Il coseno dell’angolo desiderato da -1 a 1. |
 
 ## Regressione esponenziale: valore Y previsto (riga) {#concept_25615693312B4A7AB09A2921083502AD}
 
@@ -161,7 +161,7 @@ CEILING(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | La metrica da arrotondare. |
+| *metric* | La metrica da arrotondare. |
 
 ## Coseno (riga) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
@@ -173,7 +173,7 @@ COS(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il coseno. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno. |
 
 ## Radice cubica {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
 
@@ -185,7 +185,7 @@ CBRT(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | La metrica per la quale vuoi ottenere la radice cubica. |
+| *metric* | La metrica per la quale vuoi ottenere la radice cubica. |
 
 ## Cumulativo {#concept_3D3347797B6344CE88B394C3E39318ED}
 
@@ -210,7 +210,7 @@ Se N &lt;= 0 vengono usate tutte le righe precedenti. Poiché questa funzione è
 
 >[!NOTE]
 >
->Questa funzione non opera come previsto con metriche di tasso come entrate/visitatore: essa calcola la media dei tassi, anziché sommare le entrate rispetto all’ultima N, quindi sommare i visitatori rispetto all’ultima N e infine dividere i due valori ottenuti. Invece, utilizza
+>Questa funzione non opera come previsto con metriche di tasso come entrate/visitatore: calcola la media dei tassi, anziché sommare i ricavi rispetto all’ultima N, quindi sommare i visitatori rispetto all’ultima N e infine dividere i due valori ottenuti. Invece, utilizza
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -269,7 +269,7 @@ FLOOR(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | La metrica da arrotondare. |
+| *metric* | La metrica da arrotondare. |
 
 ## Maggiore di {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
@@ -289,7 +289,7 @@ COSH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il coseno iperbolico. |
 
 ## Seno iperbolico (riga) {#concept_96230731600C45E3A4E823FE155ABA85}
 
@@ -301,7 +301,7 @@ SINH(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il seno iperbolico. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il seno iperbolico. |
 
 ## Tangente iperbolica (riga) {#concept_BD249013732F462B9863629D142BCA6A}
 
@@ -363,7 +363,7 @@ LOG10(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | Numero reale positivo di cui vuoi ottenere il logaritmo base 10. |
+| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo base 10. |
 
 ## Regressione logaritmo: coefficiente di correlazione (tabella) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
@@ -429,7 +429,7 @@ LN(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | Numero reale positivo di cui vuoi ottenere il logaritmo naturale. |
+| *metric* | Numero reale positivo di cui vuoi ottenere il logaritmo naturale. |
 
 ## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
@@ -642,7 +642,7 @@ SIN(metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere il seno. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere il seno. |
 
 ## Punteggio T {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
@@ -684,7 +684,7 @@ TAN (metric)
 
 | Argomento | Descrizione |
 |---|---|
-| *metrica* | L’angolo in radianti di cui vuoi ottenere la tangente. |
+| *metric* | L’angolo in radianti di cui vuoi ottenere la tangente. |
 
 ## Punteggio Z (riga) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
@@ -711,7 +711,7 @@ Punteggio Z (metrica)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metrica</i> </td> 
+   <td colname="col1"> <i>metric</i> </td> 
    <td colname="col2"> <p> Restituisce il valore del primo argomento diverso da zero. </p> </td> 
   </tr> 
  </tbody> 

@@ -14,7 +14,7 @@ ht-degree: 96%
 
 # Flussi interdimensionali
 
-Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni. Ecco un video sul ritorno a capo automatico e sul flusso multidimensionale in Analysis Workspace:
+Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni. Ecco un video sul ritorno a capo e sul flusso multidimensionale in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 

@@ -1,6 +1,6 @@
 ---
 title: Domande frequenti su Report Builder
-description: Domande frequenti per Report Builder.
+description: Domande frequenti per il Report Builder.
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
@@ -13,22 +13,22 @@ ht-degree: 1%
 
 # Domande frequenti su Report Builder
 
-Domande frequenti intorno al Report Builder.
+Domande frequenti in Report Builder.
 
-## È possibile utilizzare la funzione `TODAY()` o `DATERANGE()` nelle cartelle di lavoro?
+## Posso utilizzare il `TODAY()` o `DATERANGE()` funzione nelle cartelle di lavoro?
 
-La funzione [`TODAY()`](https://support.microsoft.com/en-us/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9) in Excel restituisce il giorno corrente. La funzione [`DATEVALUE()`](https://support.microsoft.com/en-us/office/datevalue-function-df8b07d4-7761-4a93-bc33-b7471bbff252) converte una stringa di data in un valore seriale. Anche se utile per molte funzionalità in Excel, Adobe consiglia vivamente di non utilizzare queste funzioni come parte delle richieste pianificate del Report Builder. L’Assistenza clienti di Adobe non supporta le richieste di risoluzione dei problemi che utilizzano una di queste funzioni.
+Il [`TODAY()` funzione](https://support.microsoft.com/en-us/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9) in Excel restituisce il giorno corrente. Il [`DATEVALUE()` funzione](https://support.microsoft.com/en-us/office/datevalue-function-df8b07d4-7761-4a93-bc33-b7471bbff252) converte una stringa di data in un valore seriale. Sebbene sia utile per molte funzioni in Excel, Adobe consiglia vivamente di non utilizzare queste funzioni come parte delle richieste pianificate dal Report Builder. Adobe L’Assistenza clienti non supporta la risoluzione dei problemi relativi alle richieste che utilizzano una di queste funzioni.
 
-I report pianificati vengono elaborati su server che probabilmente non condividono fusi orari come suite di rapporti. Le `TODAY()` che un utente si aspetta e le `TODAY()` utilizzate dal server di elaborazione possono spesso essere diverse. Inoltre, la data utilizzata si basa sull&#39;inizio dell&#39;elaborazione. Se vengono eseguiti più rapporti contemporaneamente, la data può variare tra l’ora in cui è richiesta e il momento in cui inizia l’elaborazione a causa di ritardi. Questo problema è presente se l&#39;orario pianificato è vicino a mezzanotte.
+I rapporti pianificati vengono elaborati su server che probabilmente non condividono i fusi orari come suite di rapporti. Il `TODAY()` un utente si aspetta e `TODAY()` gli utilizzi del server di elaborazione possono spesso essere diversi. Inoltre, la data utilizzata si basa sull’inizio dell’elaborazione. Se vengono eseguiti più rapporti contemporaneamente, la data può variare tra l’ora in cui viene richiesta e il momento in cui inizia l’elaborazione a causa di ritardi. Questo problema è presente se l’orario pianificato è vicino a mezzanotte.
 
-I report pianificati vengono elaborati anche su server che probabilmente non condividono la sintassi della data. Ad esempio, `7/1/YYYY` può fare riferimento al 1° luglio o al 7 gennaio, a seconda del paese o dell’area geografica. L&#39;utilizzo della funzione `DATEVALUE()` in questa data comporterebbe valori seriali diversi a seconda del computer che lo esegue.
+I rapporti pianificati vengono elaborati anche su server che probabilmente non condividono la sintassi della data. Ad esempio: `7/1/YYYY` può fare riferimento a 1 luglio o 7 gennaio a seconda del paese o della regione. Utilizzo di `DATEVALUE()` funzione in questa data provocherebbe valori seriali diversi a seconda del computer che lo esegue.
 
-In alternativa all’utilizzo di queste funzioni Excel, Adobe consiglia vivamente di utilizzare intervalli di date all’interno delle richieste di Report Builder. Nella prima pagina della procedura guidata di richiesta, seleziona **[!UICONTROL Preset Dates]** nel menu a discesa, quindi in Date comunemente utilizzate, seleziona **[!UICONTROL Today]** o un altro intervallo di date desiderato. Questa impostazione richiede l’ora della suite di rapporti al momento dell’esecuzione e non l’ora del server che elabora la richiesta.
+In alternativa all’utilizzo di queste funzioni di Excel, Adobe consiglia vivamente di utilizzare intervalli di date all’interno di richieste di Report Builder. Nella prima pagina della Creazione guidata richieste, seleziona **[!UICONTROL Preset Dates]** nel menu a discesa, quindi in Date di uso comune, seleziona **[!UICONTROL Today]** o un altro intervallo di date desiderato. Questa impostazione richiede il tempo della suite di rapporti al momento dell’esecuzione e non il tempo di elaborazione della richiesta da parte del server.
 
-## Quanto posso creare le mie cartelle di lavoro grandi e complesse?
+## Quanto è grande e complessa la creazione delle cartelle di lavoro?
 
-Report Builder supporta le cartelle di lavoro fino ai seguenti limiti:
+Il Report Builder supporta le cartelle di lavoro fino ai seguenti limiti:
 
-* **1000 richieste**: Una singola cartella di lavoro può contenere fino a 1000 richieste di dati. Se si dispone di rapporti o progetti che richiedono più di 1000 richieste, Adobe consiglia di separarle in più cartelle di lavoro.
-* **20.000 richieste all&#39;ora per azienda**: Il Report Builder utilizza l’API di reporting di Analytics per recuperare i dati. Ogni singola richiesta utilizza una chiamata API ogni volta che viene creata o aggiornata. Se nell’organizzazione vengono accumulate più di 20.000 chiamate API in un’ora specifica, è necessario attendere fino all’ora successiva per recuperare nuovamente i dati.
-* **Tempo** di elaborazione 4 ore: I rapporti pianificati scadono dopo l’elaborazione per più di 4 ore. Se la cartella di lavoro contiene molte richieste complesse che utilizzano set di dati di grandi dimensioni, il rapporto pianificato potrebbe non riuscire.
+* **1000 richieste**: una singola cartella di lavoro può contenere fino a 1000 richieste di dati. In presenza di rapporti o progetti che richiedono più di 1000 richieste, l’Adobe consiglia di separarli in più cartelle di lavoro.
+* **20.000 richieste all&#39;ora per azienda**: il Report Builder utilizza l’API di reporting di Analytics per recuperare i dati. Ogni singola richiesta utilizza una chiamata API ogni volta che viene creata o aggiornata. Se l’organizzazione accumula più di 20.000 chiamate API in una determinata ora, devi aspettare l’ora successiva per recuperare nuovamente i dati.
+* **Tempo di elaborazione di 4 ore**: i rapporti pianificati scadono dopo l’elaborazione per più di 4 ore. Se la cartella di lavoro contiene molte richieste complesse che utilizzano set di dati di grandi dimensioni, il rapporto pianificato potrebbe non riuscire.

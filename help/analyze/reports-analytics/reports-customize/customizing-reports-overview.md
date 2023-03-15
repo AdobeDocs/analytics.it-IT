@@ -20,7 +20,7 @@ Dopo aver eseguito un rapporto, puoi personalizzarlo per visualizzare e analizza
 
 ## Creare un rapporto personalizzato {#task_BA6EACA3039C40AEA5605E1D8C76E646}
 
-Puoi salvare la configurazione corrente di un rapporto come nuovo rapporto personalizzato da visualizzare a tutti gli utenti.
+Puoi salvare la configurazione corrente di un rapporto come nuovo rapporto personalizzato che tutti gli utenti potranno visualizzare.
 
 <!-- 
 
@@ -45,7 +45,7 @@ Per creare un rapporto personalizzato:
 
 ## Seleziona una data o un intervallo di date {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
-Puoi scegliere i periodi di tempo per i dati del rapporto.
+È possibile scegliere i periodi di tempo per i dati del rapporto.
 
 <!-- 
 
@@ -100,7 +100,7 @@ Per confrontare i rapporti classificati per date diverse in Reports &amp; Analyt
 
 ## Visualizzare i valori percentuali sotto forma di grafico {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
-È possibile specificare se visualizzare la percentuale in una tabella di rapporto sotto forma di grafico.
+È possibile specificare se visualizzare come grafico la percentuale in una tabella di rapporto.
 
 <!-- 
 
@@ -110,7 +110,7 @@ t_reports_graph_percent.xml
 
 Questa visualizzazione è disponibile anche nei reportlet delle dashboard.
 
-Per visualizzare la percentuale come grafico in una tabella di rapporto:
+Per visualizzare la percentuale sotto forma di grafico in una tabella di rapporto:
 
 1. Esegui un rapporto che supporta i valori percentuali, ad esempio [!UICONTROL Pages Report].
 1. Fai clic su **[!UICONTROL Percent Shown As: Graph]**.
@@ -130,11 +130,11 @@ Per normalizzare i dati del rapporto:
 1. Esegui un rapporto che supporta i confronti tra date.
 1. Fai clic su **[!UICONTROL Compare Dates]**, quindi specifica il confronto tra date.
 1. Fai clic su **[!UICONTROL Run Report]**.
-1. Fai clic su **[!UICONTROL Normalize Data: Yes]**.
+1. Fai clic su **[!UICONTROL Normalize Data: Yes]** (Crea set di dati da schema).
 
 ## Seleziona una pagina per un rapporto {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
 
-Per selezionare una pagina specifica dalle pagine del sito web per un rapporto:
+Per selezionare una pagina specifica dalle pagine del sito Web per un rapporto:
 
 <!-- 
 
@@ -198,7 +198,7 @@ Specificare la granularità del rapporto:
 
 ## Esegui un rapporto in base al giorno della settimana {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
-Puoi eseguire rapporti in un giorno specifico della settimana, ad esempio ogni lunedì in un determinato intervallo di date.
+È possibile eseguire rapporti in un giorno specifico della settimana, ad esempio ogni lunedì in un determinato intervallo di date.
 
 <!-- 
 
@@ -208,7 +208,7 @@ t_reports_day_of_week.xml
 
 Questa funzione si applica solo ai rapporti con tendenze filtrati con un intervallo di date di Settimana o Giorno.
 
-Per eseguire un rapporto del giorno della settimana:
+Per eseguire un rapporto in base al giorno della settimana:
 
 1. Esegui un rapporto con tendenze su un intervallo di date specificato.
 1. Fai clic sul collegamento **[!UICONTROL Day of Week]**, quindi fai clic su un giorno.

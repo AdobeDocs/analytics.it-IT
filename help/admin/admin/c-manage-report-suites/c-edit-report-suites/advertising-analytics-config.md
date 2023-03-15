@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Configurare Advertising Analytics
 
-Puoi configurare Adobe Analytics per mostrare tutti i dati di Google e Bing Paid Search affiancati.
+Puoi configurare Adobe Analytics per mostrare affiancati tutti i dati di Google e di Bing Paid Search.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**
 
@@ -22,8 +22,8 @@ In Adobe Analytics puoi ottenere i seguenti dati:
 
 * Clic
 
-* Costi dei dati direttamente dai motori di ricerca
+* Dati sui costi direttamente dai motori di ricerca
 
-* Istanze AMO ID (fai clic su Istanze)
+* Istanze AMO ID (Istanze di clic)
 
 Per ulteriori informazioni, consulta [Guida ad Advertising Analytics](/help/integrate/c-advertising-analytics/overview.md).

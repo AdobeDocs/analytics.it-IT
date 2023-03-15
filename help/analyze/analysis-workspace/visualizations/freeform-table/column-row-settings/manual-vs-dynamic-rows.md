@@ -7,7 +7,7 @@ exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,8 +55,8 @@ Le righe dinamiche e statiche si comportano in modo diverso nella riga del total
 * Le righe dinamiche vengono sommate lato server e deduplicano metriche quali visite o visitatori
 * Le righe statiche vengono sommate lato client e **non** duplicano le metriche. Per calcolare la riga del totale lato server, modifica l’impostazione della riga in **Mostra totale**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=it)
 
-## Riordina righe statiche
+## Riordinare righe statiche
 
-Panoramica video sull’argomento:
+Video sull’argomento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)

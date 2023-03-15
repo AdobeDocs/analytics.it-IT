@@ -7,7 +7,7 @@ exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -29,9 +29,9 @@ Istruzioni per la configurazione di un trasferimento sicuro con server Adobe FTP
 1. Carica [!DNL authorized_keys] a un account FTP:
 
    * Connettiti all&#39;account Adobe FTP.
-   * Crea un [!DNL .ssh] directory (se non esiste già).
-   * Carica il [!DNL authorized_keys] al [!DNL .ssh] directory.
+   * Creare un [!DNL .ssh] (se non esiste già).
+   * Carica [!DNL authorized_keys] file in [!DNL .ssh] directory.
 
-1. Verifica la connessione effettuando l&#39;accesso all&#39;account FTP utilizzando SFTP.
+1. Verifica la connessione accedendo all’account FTP tramite SFTP.
 
-Per informazioni più dettagliate, consulta [Come connettersi ad Adobe tramite sFTP senza password_...](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md).
+Per informazioni più dettagliate, consulta [Come connettersi ad Adobe tramite sFTP senza una password_...](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md).

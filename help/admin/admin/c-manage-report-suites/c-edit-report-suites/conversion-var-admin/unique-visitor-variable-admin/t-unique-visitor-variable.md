@@ -1,5 +1,5 @@
 ---
-description: Passaggi che descrivono come specificare quale eVar contiene l’identificatore del visitatore.
+description: Passaggi che descrivono come designare quale eVar contiene l’identificatore del visitatore.
 title: Specificare la variabile visitatore univoco
 feature: Admin Tools
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
@@ -12,11 +12,11 @@ ht-degree: 18%
 
 # Specificare la variabile visitatore univoco
 
-Puoi specificare quale eVar contiene l’identificatore del visitatore.
+Puoi indicare quale eVar contiene l’identificatore del visitatore.
 
-Questa variabile indica un eVar che deve contenere l’identificatore univoco del visitatore. Questa variabile ti consente di creare rapporti sull’attività del cliente utilizzando un identificatore univoco.
+Questa variabile indica un eVar per contenere l’identificatore visitatore univoco. Questa variabile consente di creare rapporti sull’attività del cliente utilizzando un identificatore univoco.
 
-Per specificare quale eVar contiene l’identificatore del visitatore:
+Per indicare quale eVar contiene l’identificatore del visitatore:
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.

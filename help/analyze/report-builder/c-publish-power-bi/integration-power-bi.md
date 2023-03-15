@@ -1,5 +1,5 @@
 ---
-description: Adobe Analytics Content Pack fornisce dashboard predefiniti di Power BI e una serie di rapporti Power BI che forniscono informazioni sul traffico del sito e sulle dimensioni dell'utente. Puoi utilizzare il dashboard e i rapporti forniti o personalizzarli per evidenziare le informazioni che ti interessano di più. I dati vengono aggiornati automaticamente una volta al giorno.
+description: I pacchetti di contenuti Adobe Analytics forniscono dashboard di Power BI predefinite e una serie di rapporti di Power BI che forniscono informazioni approfondite sul traffico del sito e sulle dimensioni degli utenti. Puoi utilizzare la dashboard e i report forniti oppure personalizzarli per evidenziare le informazioni che ti interessano di più. I dati verranno aggiornati automaticamente una volta al giorno.
 title: Pacchetti di contenuto Adobe Analytics per Power BI
 feature: Report Builder
 role: User, Admin
@@ -13,12 +13,12 @@ ht-degree: 10%
 
 # Pacchetti di contenuto Adobe Analytics per Power BI
 
-Adobe Analytics Content Pack fornisce dashboard predefiniti di Power BI e una serie di rapporti Power BI che forniscono informazioni sul traffico del sito e sulle dimensioni dell&#39;utente. Puoi utilizzare il dashboard e i rapporti forniti o personalizzarli per evidenziare le informazioni che ti interessano di più. I dati vengono aggiornati automaticamente una volta al giorno.
+I pacchetti di contenuti Adobe Analytics forniscono dashboard di Power BI predefinite e una serie di rapporti di Power BI che forniscono informazioni approfondite sul traffico del sito e sulle dimensioni degli utenti. Puoi utilizzare la dashboard e i report forniti oppure personalizzarli per evidenziare le informazioni che ti interessano di più. I dati verranno aggiornati automaticamente una volta al giorno.
 
 Sono disponibili 3 pacchetti di contenuti:
 
 * Adobe Analytics
-* Analisi delle app mobili Adobe Analytics
+* Adobe Analytics Mobile App Analytics
 * Analisi del traffico Adobe Analytics
 
-Per ulteriori informazioni, consulta la [Pacchetto di contenuti Adobe Analytics per Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-content-pack-adobe-analytics/) documentazione.
+Per ulteriori informazioni, consulta [Pacchetto di contenuti Adobe Analytics per Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-content-pack-adobe-analytics/) documentazione.

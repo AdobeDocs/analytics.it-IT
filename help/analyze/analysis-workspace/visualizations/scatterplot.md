@@ -23,6 +23,6 @@ La visualizzazione del grafico a dispersione mostra la relazione tra gli element
 
 ![Grafico a dispersione](assets/scatter.png)
 
-Ecco un video sulle visualizzazioni dei grafici a dispersione:
+Ecco un video sulle visualizzazioni grafico a dispersione:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)

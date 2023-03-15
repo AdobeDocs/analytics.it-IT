@@ -127,7 +127,7 @@ ht-degree: 98%
    + [Integrate Module](vars/integrate.md)
 + Preparazione all’implementazione di Adobe Analytics {#prepare}
    + [Creare un livello di dati](prepare/data-layer.md)
-   + [Confronto dei metodi di implementazione](prepare/comparison.md)
+   + [Confrontare i metodi di implementazione](prepare/comparison.md)
    + [Considerazioni globali sulla suite di report](prepare/global-rs.md)
    + [Implementazione dell’assegnazione tag per più suite](prepare/multi-suite-tagging.md)
    + [Creare un documento di progettazione della soluzione](prepare/solution-design.md)

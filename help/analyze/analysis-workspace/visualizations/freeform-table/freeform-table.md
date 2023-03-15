@@ -7,7 +7,7 @@ exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ In Analysis Workspace, una tabella a forma libera è la base per l’analisi dei
 
 ## Tabelle automatizzate
 
-Il modo più rapido per creare una tabella consiste nel trascinare i componenti direttamente in un progetto o pannello vuoto o in una tabella a forma libera. Una tabella a forma libera verrà creata automaticamente in un formato consigliato. [Guarda il tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=it#analysis-workspace).
+Il modo più rapido per creare una tabella consiste nel trascinare i componenti direttamente in un progetto o pannello vuoto o in una tabella a forma libera. Una tabella a forma libera verrà creata automaticamente in un formato consigliato. [Guarda il tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=it).
 
 ![](assets/automated-table.png)
 
@@ -37,7 +37,7 @@ Puoi interagire con una tabella a forma libera e personalizzarla in diversi modi
    * È possibile inserire più righe in una singola schermata regolando la [densità di visualizzazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=it) del progetto.
    * Prima dell’impaginazione ogni riga delle dimensioni può visualizzare fino a 400 righe. Fai clic sul numero accanto a “Rows” (Righe) per visualizzare più righe su una pagina. Passa a una pagina diversa utilizzando la freccia delle pagine nell’intestazione.
    * Le righe possono essere suddivise per componenti aggiuntivi. Per suddividere più righe alla volta, seleziona semplicemente più righe e quindi trascina il componente successivo sopra le righe selezionate. Scopri di più sulle [suddivisioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=it).
-   * Le righe possono essere [filtrate](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) per visualizzare un set ridotto di elementi. Sono disponibili altre impostazioni in [Impostazioni riga](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=it).
+   * Le righe possono essere [filtrate](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=it) per visualizzare un set ridotto di elementi. Sono disponibili altre impostazioni in [Impostazioni riga](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=it).
 
 * **Colonne**
    * I componenti possono essere impilati all’interno di colonne per creare metriche segmentate, analisi incrociate e altro ancora.
@@ -66,6 +66,6 @@ Filtri per tabelle a forma libera:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
 
-Totali delle tabelle a forma libera:
+Totali nelle tabelle a forma libera:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)

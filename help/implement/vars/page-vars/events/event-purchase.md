@@ -6,46 +6,46 @@ exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
 # Evento di acquisto
 
-L&#39;evento di acquisto è un valore nel `events` variabile. Questo valore è utile per le organizzazioni che desiderano raccogliere dati sui ricavi generati dal sito. Dipende fortemente dalla [`products`](../products.md) e [`purchaseID`](../purchaseid.md) variabili.
+L’evento di acquisto è un valore in `events` variabile. Questo valore è utile per le organizzazioni che desiderano raccogliere dati sui ricavi generati dal sito. Dipende in larga misura dalla [`products`](../products.md) e [`purchaseID`](../purchaseid.md) variabili.
 
-Quando imposti un evento di acquisto, questo influisce sulle metriche seguenti:
+L’impostazione di un evento di acquisto influisce sulle metriche seguenti:
 
-* La metrica &quot;Ordini&quot; incrementa di 1
-* La metrica &quot;Unità&quot; incrementa per il numero di prodotti nel `products` variable
-* La metrica &quot;Entrate&quot; aumenta della somma dei parametri di prezzo nel `products` variable
+* La metrica &quot;Ordini&quot; aumenta di 1
+* La metrica &quot;Unità&quot; viene incrementata del numero di prodotti nel `products` variabile
+* La metrica &quot;Entrate&quot; aumenta della somma dei parametri di prezzo nel `products` variabile
 
 >[!NOTE]
 >
->Le entrate non vengono moltiplicate per il campo della quantità. Ad esempio: `s.products="Womens;Socks;5;4.50"` non trasferisce 22,50 dollari in entrate; supera $ 4,50. Assicurati che l&#39;implementazione superi i ricavi totali per la quantità indicata. Ad esempio, `s.products="Womens;Socks;5;22.50"`.
+>I ricavi non vengono moltiplicati per il campo della quantità. Ad esempio: `s.products="Womens;Socks;5;4.50"` non trasferisce $ 22,50 nei ricavi; trasferisce $ 4,50. Assicurati che l’implementazione superi i ricavi totali per la quantità indicata. Esempio: `s.products="Womens;Socks;5;22.50"`.
 
-## Impostare l&#39;evento di acquisto utilizzando l&#39;SDK per web
+## Impostare l’evento di acquisto tramite Web SDK
 
-L&#39;evento di acquisto è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) in diversi campi XDM:
+L’evento di acquisto è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) in diversi campi XDM:
 
-* Gli ordini sono mappati su `commerce.purchases.value`.
+* Gli ordini sono mappati a `commerce.purchases.value`.
 * Le unità sono mappate alla somma di tutte `productListItems[].quantity` campi.
-* Le entrate sono mappate alla somma di tutte `productListItems[].priceTotal` campi.
+* I ricavi vengono mappati sulla somma di tutti `productListItems[].priceTotal` campi.
 
-## Impostare l’evento di acquisto utilizzando l’estensione Adobe Analytics
+## Impostare l’evento di acquisto tramite l’estensione Adobe Analytics
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà tag desiderata.
-3. Vai a [!UICONTROL Rules] , quindi fai clic sulla regola desiderata (o crea una regola).
-4. Sotto [!UICONTROL Actions], fai clic su un [!UICONTROL Adobe Analytics - Set Variables] fare clic sull&#39;icona &quot;+&quot;.
-5. Imposta la [!UICONTROL Extension] del menu a discesa Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+2. Fai clic sulla proprietà del tag desiderata.
+3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
+4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
+5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua il [!UICONTROL Events] e imposta il menu a discesa degli eventi su [!UICONTROL purchase].
 
-Altre variabili dipendenti come `products` e `purchaseID` non dispongono di campi dedicati nell’estensione Analytics all’interno di Raccolta dati di Adobe Experience Platform. Utilizza l’editor di codice personalizzato seguendo la sintassi AppMeasurement per queste variabili.
+Altre variabili dipendenti come `products` e `purchaseID` non sono presenti campi dedicati nell’estensione Analytics all’interno di Adobe Experience Platform Data Collection. Utilizza l’editor di codice personalizzato seguendo la sintassi di AppMeasurement per queste variabili.
 
-## Imposta l’evento di acquisto in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
+## Impostare l’evento di acquisto in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-L&#39;evento di acquisto è una stringa impostata come parte della variabile degli eventi.
+L’evento di acquisto è una stringa impostata come parte della variabile degli eventi.
 
 ```js
 // Set the purchase event by itself
@@ -57,8 +57,8 @@ s.events = "purchase,event1,event2";
 
 ## Deduplicazione degli eventi di acquisto
 
-Quando si attiva un evento di acquisto, in Adobe vengono controllati i seguenti elementi:
+Quando si attiva un evento di acquisto, Adobe verifica quanto segue:
 
-* L’hit contiene il `purchaseID` variabile? In caso contrario, Adobe utilizza le informazioni dell’hit per creare un &quot;ID acquisto temporaneo&quot;. Questo ID acquisto temporaneo si applica solo al visitatore dell’hit. I precedenti 5 ID acquisto temporaneo sono memorizzati per ogni ID visitatore per suite di rapporti.
-* L’ID acquisto temporaneo corrisponde a uno degli ultimi cinque ID acquisto temporanei memorizzati? In tal caso, la richiesta di immagine viene considerata un acquisto duplicato. Tutte le variabili di conversione, incluso l’evento di acquisto, non vengono visualizzate nel rapporto.
-* Se la `purchaseID` viene definita una variabile , corrisponde a qualsiasi valore già raccolto nella suite di rapporti per tutti i visitatori? In tal caso, la richiesta di immagine viene considerata un acquisto duplicato. Tutte le variabili di conversione, incluso l’evento di acquisto, non vengono visualizzate nel rapporto.
+* L’hit contiene `purchaseID` variabile? In caso contrario, Adobe utilizza le informazioni dell’hit per creare un &quot;ID acquisto temporaneo&quot;. Questo ID acquisto temporaneo si applica solo al visitatore dell’hit. I precedenti 5 ID di acquisto temporanei vengono memorizzati per ogni ID visitatore per suite di rapporti.
+* L’ID acquisto temporaneo corrisponde a uno degli ultimi cinque ID acquisto temporanei memorizzati? In tal caso, la richiesta di immagine viene considerata un acquisto duplicato. Tutte le variabili di conversione, incluso l’evento di acquisto, non vengono visualizzate nel reporting.
+* Se il `purchaseID` è definita una variabile, corrisponde a qualsiasi valore già raccolto nella suite di rapporti per tutti i visitatori? In tal caso, la richiesta di immagine viene considerata un acquisto duplicato. Tutte le variabili di conversione, incluso l’evento di acquisto, non vengono visualizzate nel reporting.

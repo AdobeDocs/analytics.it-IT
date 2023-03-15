@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 0ae7887f-29bf-4565-9ca0-20b77a3a70cb
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 15%
+source-wordcount: '78'
+ht-degree: 12%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 15%
 Abbreviazioni per le date di inizio e fine.
 
 * cd-1d = ieri
-* cm-1d = ultimo giorno dell&#39;ultimo mese
+* cm-1d = ultimo giorno del mese scorso
 * cw-1w = primo giorno della settimana scorsa
 * cw+1w-1d = ultimo giorno della settimana corrente
 * cd-2d = due giorni fa
 * cw-2w = primo giorno della settimana, due settimane fa
 
-Tieni presente che l’impostazione della data su una data futura non restituisce valori per date future.
+L&#39;impostazione della data su una data futura non restituisce valori per date future.

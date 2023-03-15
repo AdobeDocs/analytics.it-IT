@@ -6,39 +6,39 @@ exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
 # fpCookieDomainPeriods
 
-La `fpCookieDomainPeriods` aiuta AppMeasurement a determinare dove vengono impostati i cookie di Analytics richiamando che il suffisso di dominio contiene un periodo aggiuntivo. Questa variabile consente ad AppMeasurement di contenere il periodo aggiuntivo nel suffisso di dominio e di impostare i cookie nella posizione giusta. Eredita il valore di [`cookieDomainPeriods`](cookiedomainperiods.md), ma è comunque una best practice da impostare se utilizzi un’implementazione di cookie di prime parti.
+Il `fpCookieDomainPeriods` Questa variabile consente ad AppMeasurement di determinare dove vengono impostati i cookie di Analytics, richiamando l’attenzione sul fatto che il suffisso di dominio contiene un periodo aggiuntivo. Questa variabile consente ad AppMeasurement di memorizzare il periodo aggiuntivo nel suffisso di dominio e impostare i cookie nella posizione giusta. Eredita il valore di [`cookieDomainPeriods`](cookiedomainperiods.md), ma è comunque una best practice da impostare se utilizzi un’implementazione di cookie di prima parte.
 
-* Per domini come `example.com` o `www.example.com`, questa variabile non deve essere impostata. Se necessario, puoi impostare questa variabile su `"2"`.
-* Per domini come `example.co.uk` o `www.example.co.jp`imposta questa variabile su `"3"`.
+* Per domini come `example.com` o `www.example.com`, non è necessario impostare questa variabile. Se necessario, puoi impostare questa variabile su `"2"`.
+* Per domini come `example.co.uk` o `www.example.co.jp`, imposta questa variabile su `"3"`.
 
 >[!IMPORTANT]
 >
->Non prendere in considerazione i sottodomini per questa variabile. Ad esempio, non impostare `fpCookieDomainPeriods` sull’URL di esempio `store.toys.example.com`. AppMeasurement per impostazione predefinita riconosce che i cookie devono essere memorizzati in `example.com`, anche sugli URL con molti sottodomini.
+>Non prendere in considerazione i sottodomini per questa variabile. Ad esempio, non impostare `fpCookieDomainPeriods` sull’URL di esempio `store.toys.example.com`. AppMeasurement per impostazione predefinita riconosce che i cookie devono essere memorizzati su `example.com`, anche su URL con molti sottodomini.
 
-## Periodi di dominio di prime parti che utilizzano l’SDK per web
+## Periodi del dominio di prime parti tramite Web SDK
 
-L&#39;SDK per web può determinare il dominio di archiviazione dei cookie corretto senza questa variabile.
+L’SDK per web può determinare il dominio di archiviazione dei cookie corretto senza questa variabile.
 
-## Periodi di dominio di prime parti che utilizzano l’estensione Adobe Analytics
+## Periodi di dominio di prime parti tramite l’estensione Adobe Analytics
 
-Periodi di dominio di prime parti è un campo nel campo [!UICONTROL Cookies] pannello a soffietto durante la configurazione dell&#39;estensione Adobe Analytics.
+Periodi di dominio di prime parti è un campo sotto [!UICONTROL Cookies] Pannello a soffietto durante la configurazione dell’estensione Adobe Analytics.
 
-1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzo delle credenziali AdobeID.
-2. Fai clic sulla proprietà tag desiderata.
-3. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto Adobe Analytics.
-4. Espandi la [!UICONTROL Cookies] fisarmonica, che rivela [!UICONTROL First-party Domain Periods] campo .
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+2. Fai clic sulla proprietà del tag desiderata.
+3. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
+4. Espandi il pannello a soffietto [!UICONTROL Cookies], che mostra il campo [!UICONTROL First-party Domain Periods].
 
-Imposta questo campo su `3` solo nei domini che contengono un punto nel relativo suffisso. In caso contrario, questo campo può essere lasciato vuoto.
+Imposta questo campo su `3` solo sui domini contenenti un punto nel relativo suffisso. In caso contrario, questo campo può essere lasciato vuoto.
 
-## s.fpCookieDomainPeriods in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
+## s.fpCookieDomainPeriods in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-La `fpCookieDomainPeriods` è una stringa generalmente impostata su `"3"`, solo nei domini che contengono un punto nel relativo suffisso. Il valore predefinito è `"2"`, che gestisce la maggior parte dei domini.
+Il `fpCookieDomainPeriods` variabile è una stringa in genere impostata su `"3"`, solo sui domini che contengono un punto nel relativo suffisso. Il valore predefinito è `"2"`, che ospita la maggior parte dei domini.
 
 ```js
 // Manually set fpCookieDomainPeriods for domains with a period in its suffix, such as www.example.co.uk

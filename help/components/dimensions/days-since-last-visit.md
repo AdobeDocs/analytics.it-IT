@@ -1,29 +1,29 @@
 ---
 title: Giorni dall’ultima visita
-description: Il numero di giorni tra l'hit corrente e l'ultima visita effettuata.
+description: Il numero di giorni tra l’hit corrente e l’ultima volta che hanno visitato.
 feature: Dimensions
 exl-id: 8063bdc6-516a-4dd0-a4ca-ded739e8d406
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
 # Giorni dall’ultima visita
 
-La dimensione &quot;Giorni dall’ultima visita&quot; misura il tempo trascorso tra l’hit corrente del visitatore e la visita precedente (se presente). Questa dimensione ti aiuta a comprendere il comportamento dei visitatori dopo aver visitato il tuo sito. Gli esempi includono:
+La dimensione &quot;Giorni dall’ultima visita&quot; misura il tempo trascorso tra l’hit corrente del visitatore e la visita precedente (se presente). Questa dimensione ti aiuta a comprendere il comportamento dei visitatori dopo la visita al tuo sito. Gli esempi includono:
 
-* Con quale frequenza gli utenti rivedono il sito?
-* In che modo la frequenza di ritorno è correlata con la conversione? Gli acquirenti ripetuti visitano frequentemente o raramente?
-* Gli utenti che fanno clic sulle campagne ritornano frequentemente?
+* Con quale frequenza gli utenti visitano nuovamente il sito?
+* In che modo la frequenza di ritorno è correlata alla conversione? Visita frequente o occasionale degli acquirenti?
+* Gli utenti che fanno clic sulle campagne tornano spesso?
 
-I nuovi visitatori non sono inclusi in questa dimensione.
+I visitatori nuovi non sono inclusi in questa dimensione.
 
-## Popolare questa dimensione con i dati
+## Popola questa dimensione con i dati
 
-Questa dimensione funziona come standard per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
+Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
 
-## Elementi Dimension
+## Elementi dimensionali
 
-Gli elementi di Dimension includono il numero di giorni tra l’ultima visita di un visitatore e l’hit corrente. Ogni numero di giorni è un elemento di dimensione separato, con `"Same day"` che si verificava quando l’ultima visita di un visitatore e l’hit corrente si verificavano nello stesso giorno.
+Gli elementi Dimension includono il numero di giorni tra l’ultima visita di un visitatore e l’hit corrente. Ogni numero di giorni è un elemento dimensione separato, con `"Same day"` si verifica quando l’ultima visita di un visitatore e l’hit corrente si sono verificati nello stesso giorno.

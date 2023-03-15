@@ -26,7 +26,7 @@ Consente di:
 >
 >Per informazioni sulle differenze tra i risultati dell’applicazione dei segmenti al flusso in Analysis Workspace e in Reports &amp; Analytics, consulta [Segmentazione come fondamento per Flusso e Abbandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-Ecco un’esercitazione video sulla visualizzazione del flusso:
+Questo è un video tutorial sulla visualizzazione Flusso:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
 

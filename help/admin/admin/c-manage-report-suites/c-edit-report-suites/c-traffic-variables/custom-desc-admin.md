@@ -14,16 +14,16 @@ ht-degree: 6%
 
 Puoi fornire descrizioni personalizzate dei rapporti per eVar, prop, classificazioni ed eventi. Le descrizioni sono visibili a tutti gli utenti finali.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL *variable *]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL *variabile *]**
 
 >[!NOTE]
 >
->L’aggiunta di descrizioni è disponibile per la maggior parte delle classificazioni tradizionali, ma al momento non per le classificazioni per dispositivi mobili.
+>L’aggiunta di descrizioni è disponibile per la maggior parte delle classificazioni tradizionali, ma al momento non per le classificazioni mobili.
 
 ![](/help/admin/admin/assets/report_descriptions.png)
 
-1. Fornisci una descrizione del rapporto. Il numero massimo di caratteri è 255.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fornisci una descrizione per il rapporto. Il numero massimo di caratteri è 255.
+1. Fai clic su **[!UICONTROL Save]** (Usa modello di attribuzione non predefinito).
 
 La descrizione è visibile in due posizioni:
 
@@ -31,6 +31,6 @@ La descrizione è visibile in due posizioni:
 
    ![](/help/admin/admin/assets/report_description_2.png)
 
-* Come suggerimento quando passi il cursore del mouse sul rapporto nella barra di navigazione a sinistra:
+* Come descrizione comando quando passi il cursore sul report nella navigazione a sinistra:
 
    ![](/help/admin/admin/assets/report_description_3.png)

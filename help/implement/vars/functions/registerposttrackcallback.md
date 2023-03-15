@@ -1,36 +1,36 @@
 ---
 title: registerPostTrackCallback
-description: Crea funzioni di callback dopo l’invio di un hit ad Adobe.
+description: Crea funzioni di callback dopo aver inviato un hit all’Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 # registerPostTrackCallback
 
-La `registerPostTrackCallback` consente alla tua organizzazione di collegare una funzione JavaScript immediatamente dopo che un hit è stato inviato correttamente ad Adobe. Se una chiamata di tracciamento non riesce, questa funzione non viene eseguita. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un partner o a un&#39;infrastruttura interna oppure per pulire i valori delle variabili nelle applicazioni a pagina singola.
+Il `registerPostTrackCallback` consente all’organizzazione di agganciare una funzione JavaScript immediatamente dopo che un hit è stato inviato correttamente all’Adobe. Se una chiamata di tracciamento non riesce, questa funzione non viene eseguita. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un partner o a un’infrastruttura interna, oppure per pulire i valori delle variabili nelle applicazioni a pagina singola.
 
 >[!WARNING]
 >
->Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all&#39;interno del `registerPostTrackCallback` variabile. Le funzioni di tracciamento in questa variabile causano un ciclo infinito di richieste di immagini!
+>Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all&#39;interno del `registerPostTrackCallback` variabile. Le funzioni di tracciamento in questa variabile causano un ciclo infinito di richieste di immagini.
 
-Ogni volta che si chiama il `registerPostTrackCallback` aggancia la funzione per l’esecuzione immediatamente dopo il corretto invio di una richiesta di immagine. Evita di registrare la stessa funzione più volte nello stesso caricamento della pagina.
+Ogni volta che chiami il `registerPostTrackCallback` è possibile eseguire tale funzione subito dopo l’invio di una richiesta di immagine. Evita di registrare la stessa funzione più volte nello stesso caricamento della pagina.
 
 >[!NOTE]
 >
->Tempi e ordine delle funzioni attivate tra [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` non sono garantite. Evita le dipendenze tra queste due funzioni.
+>Tempistica e ordine delle funzioni attivate tra [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` non sono garantite. Evita le dipendenze tra queste due funzioni.
 
-## Callback post-tracciamento tramite l&#39;estensione SDK per web
+## Tracciare il callback utilizzando l&#39;estensione Web SDK
 
-Presto disponibile!
+Disponibile a breve!
 
-## Callback di post-tracciamento Implementazione manuale dell&#39;SDK per web
+## Tracciare manualmente il callback implementando Web SDK
 
-Puoi utilizzare una promessa JavaScript quando invii un evento per registrare una funzione dopo che i dati sono stati inviati con successo ad Adobe.
+Puoi utilizzare una promessa JavaScript quando invii un evento per registrare una funzione dopo che i dati sono stati inviati correttamente ad Adobe.
 
 ```js
 alloy("sendEvent",{
@@ -40,21 +40,21 @@ alloy("sendEvent",{
 });
 ```
 
-Vedi [Gestione delle risposte dagli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) per ulteriori informazioni, consulta la documentazione SDK per web .
+Consulta [Gestione delle risposte dagli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
 
-## Registra callback di post-tracciamento utilizzando l&#39;estensione Adobe Analytics
+## Registrare il callback di post-tracciamento utilizzando l’estensione Adobe Analytics
 
-Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l&#39;editor di codice personalizzato seguendo la sintassi AppMeasurement.
+Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l’editor di codice personalizzato seguendo la sintassi di AppMeasurement.
 
-## s.registerPostTrackCallback in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
+## s.registerPostTrackCallback in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-La `s.registerPostTrackCallback` è una funzione che utilizza una funzione come unico argomento. La funzione nidificata viene eseguita immediatamente dopo il corretto invio di una richiesta di immagine.
+Il `s.registerPostTrackCallback` è una funzione che utilizza una funzione come unico argomento. La funzione nidificata viene eseguita immediatamente dopo l’invio di una richiesta di immagine.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
 ```
 
-Se desideri utilizzare l’URL della richiesta di immagine nel tuo codice, fai riferimento alla `requestUrl` argomento string all&#39;interno della funzione nidificata. È possibile analizzare i `requestUrl` variabile per l’uso desiderato; la regolazione di questa variabile non influisce sulla raccolta dei dati.
+Se desideri utilizzare l’URL della richiesta di immagine nel codice, fai riferimento a `requestUrl` argomento stringa nella funzione nidificata. Puoi analizzare `requestUrl` per l’uso desiderato; la regolazione di questa variabile non influisce sulla raccolta dei dati.
 
 ```js
 s.registerPostTrackCallback(function(requestUrl){
@@ -62,7 +62,7 @@ s.registerPostTrackCallback(function(requestUrl){
 });
 ```
 
-Ulteriori argomenti possono essere inclusi nella `s.registerPostTrackCallback` , che può essere utilizzato nella funzione nidificata:
+Argomenti aggiuntivi possono essere inclusi nel `s.registerPostTrackCallback` funzione, che può essere utilizzata nella funzione nidificata:
 
 ```js
 s.registerPostTrackCallback(function(requestUrl,a,b,c) {
@@ -75,7 +75,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## Esempio di caso d’uso
 
-Registrazione del [`clearVars()`](clearvars.md) la funzione nel callback di tracciamento può essere utile per le applicazioni a pagina singola. Ogni volta che invii correttamente un hit ad Adobe, la `clearVars()` viene eseguita la funzione . L’implementazione può quindi definire di nuovo le variabili senza preoccuparsi di valori persistenti in modo errato.
+Registrazione di [`clearVars()`](clearvars.md) funzione nel callback di post-tracciamento può essere utile per le applicazioni a pagina singola. Ogni volta che invii correttamente un hit a Adobe, il `clearVars()` viene eseguita. L’implementazione può quindi definire nuovamente le variabili senza preoccuparsi di valori persistenti in modo errato.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});

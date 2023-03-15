@@ -5,14 +5,14 @@ feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1443'
 ht-degree: 90%
 
 ---
 
 # Domande frequenti sui segmenti legacy
 
-Risposte alle domande frequenti sulle best practice per la gestione dei segmenti legacy - segmenti creati prima del 2014.
+Risposte alle domande frequenti sulle best practice per la gestione dei segmenti legacy: segmenti creati prima del 2014.
 
 ## Gestione dei segmenti legacy {#legacy}
 
@@ -44,7 +44,7 @@ I rapporti programmati non vengono aggiornati quando si modifica un segmento con
 
 +++ **Cos’è successo ai segmenti di Data Warehouse?**
 
-Tutti i segmenti esistenti di Data Warehouse continueranno a funzionare in Data Warehouse. La maggior parte dei segmenti di Data Warehouse funzionerà anche in altri componenti come Analysis Workspace e Reports &amp; Analytics.
+Tutti i segmenti esistenti di Data Warehouse continueranno a funzionare in Data Warehouse. La maggior parte dei segmenti Data Warehouse funziona anche in altri componenti come Analysis Workspace e Reports &amp; Analytics.
 
 Puoi creare o modificare nuovi segmenti di Data Warehouse nel Generatore/Gestore segmenti. Il meccanismo di compatibilità dei prodotti nel Generatore di segmenti determina automaticamente la compatibilità di un segmento con Data Warehouse.
 
@@ -62,7 +62,7 @@ Verrà eseguita la migrazione di questi segmenti e diventeranno modelli di segme
 
 +++
 
-+++ **Cos’è successo ai segmenti di Experience Cloud (Suite):**
++++ **Cos’è successo ai segmenti Experience Cloud (Suite):**
 
 * Non acquirenti
 * Acquirenti
@@ -72,7 +72,7 @@ Verrà eseguita la migrazione di questi segmenti e diventeranno modelli di segme
 * Visite con oltre 5 visite precedenti*
 * Visite da Facebook*
 
-La maggior parte di questi segmenti (tranne quelli contrassegnati con un asterisco *) sono stati migrati e i modelli di segmenti sono stati inseriti nel generatore di segmenti. Sono stati inoltre aggiunti diversi nuovi modelli di segmenti.
+La maggior parte di questi segmenti (ad eccezione di quelli contrassegnati con un asterisco *) è stata migrata nel generatore di segmenti sotto forma di modelli. Sono stati inoltre aggiunti diversi nuovi modelli di segmenti.
 
 I rapporti esistenti a cui sono applicati questi segmenti continuano a funzionare correttamente.
 
@@ -115,7 +115,7 @@ Di seguito sono riportati alcuni suggerimenti per la migrazione delle dimensioni
 * Geo-città/area geografica/paese: cerca e seleziona città, aree geografiche o paesi specifici invece di utilizzare una corrispondenza parziale.
 * Browser: utilizza la dimensione Tipi di browser per ottenere tutti i browser in un tipo, ad esempio Google Chrome
 * Sistemi operativi: utilizza le dimensioni Tipi di sistema operativo per ottenere tutti i sistemi operativi in un tipo, ad esempio Microsoft Windows.
-* Fai riferimento a &quot;Dimension nuovi e rinominati&quot; (vedi di seguito)
+* Consultare &quot;Dimension nuovi e rinominati&quot; (vedere di seguito)
 
 ## Dimensioni nuove e rinominate {#renamed}
 
@@ -145,7 +145,7 @@ La tabella seguente contiene un elenco di dimensioni rinominate nel Generatore d
 | Profondità della visita | Lunghezza percorso | - |
 | Codice postale | CAP | - |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Modifiche alle dimensioni basate su stringhe con valori noti {#string-based-dims}
 
@@ -172,7 +172,7 @@ Le seguenti dimensioni sono state modificate in elenchi enumerati:
 
 ## Modifiche alle dimensioni basate su numeri interi con valori noti {#integer-based-dims}
 
-Le dimensioni basate su numeri interi (come la larghezza del browser) con un set di valori noto sono state suddivise in intervalli enumerati, in modo da poter definire rapidamente i segmenti per un intervallo specifico. Gli elenchi enumerati sono seguiti da “ - Bucket” dopo il nome della dimensione. La schermata seguente mostra come queste dimensioni vengono segmentate utilizzando le interfacce del generatore di segmenti precedente e nuova:
+Le dimensioni basate su numeri interi (come la larghezza del browser) con un set di valori noto sono state suddivise in intervalli enumerati, in modo da poter definire rapidamente i segmenti per un intervallo specifico. Gli elenchi enumerati sono seguiti da “ - Bucket” dopo il nome della dimensione. La schermata seguente mostra come queste dimensioni vengono segmentate utilizzando l’interfaccia precedente del generatore di segmenti e quella nuova:
 
 ![](assets/seg_browser_dimension.png)
 

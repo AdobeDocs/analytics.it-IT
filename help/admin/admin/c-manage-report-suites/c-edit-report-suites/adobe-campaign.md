@@ -14,4 +14,4 @@ ht-degree: 0%
 
 [!UICONTROL **Analytics**] > [!UICONTROL **Amministratore**] > [!UICONTROL **Suite di rapporti**] > seleziona suite di rapporti > [!UICONTROL **Modifica impostazioni**] > [!UICONTROL **Adobe Campaign**]
 
-Puoi visualizzare i dati di Adobe Campaign Standard in Adobe Analytics. Per ulteriori informazioni, consulta [Generazione di rapporti standard Adobe Campaign](/help/integrate/adobe-campaign.md).
+Puoi visualizzare i dati di Adobe Campaign Standard in Adobe Analytics. Per ulteriori informazioni, consulta [Generazione rapporti standard di Adobe Campaign](/help/integrate/adobe-campaign.md).

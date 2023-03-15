@@ -18,9 +18,9 @@ Ecco un video sulle due visualizzazioni:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
-## [!UICONTROL Summary Number] visualizzazione {#summary-number}
+## Visualizzazione [!UICONTROL Summary Number] {#summary-number}
 
-Utilizza la [!UICONTROL Summary Number] visualizzazione per evidenziare un numero elevato importante in un progetto. Questa visualizzazione si comporta come segue:
+Utilizza il [!UICONTROL Summary Number] per evidenziare un numero elevato importante in un progetto. Questa visualizzazione si comporta come segue:
 
 * Se non è selezionata alcuna cella, viene selezionato il totale della colonna.
 * Se è selezionata una cella, viene visualizzato il riepilogo per tale cella.
@@ -36,9 +36,9 @@ Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a 
 | [!UICONTROL Abbreviate value] | Scegli di abbreviare i valori e visualizzare fino a 3 posizioni decimali. |
 | [!UICONTROL Summarize value by] | Scegli di visualizzare il massimo, il minimo, la media, la mediana o la somma per una selezione di dati. |
 
-## [!UICONTROL Summary Change] visualizzazione {#summary-change}
+## Visualizzazione [!UICONTROL Summary Change] {#summary-change}
 
-Utilizza la [!UICONTROL Summary Change] visualizzazione per mostrare il delta (cambiamento) tra due numeri. Il colore verde e rosso del [!UICONTROL Summary Change] può essere controllato tramite [polarità degli eventi personalizzati](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=it) o di una metrica calcolata [Mostra tendenza verso l’alto come](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=it) opzione .
+Utilizza il [!UICONTROL Summary Change] visualizzazione per mostrare il delta (variazione) tra due numeri. Il colore verde e rosso del [!UICONTROL Summary Change] può essere controllato tramite [polarità degli eventi personalizzata](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=it) o di una metrica calcolata [Mostra tendenza verso l&#39;alto come](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=it) opzione.
 
 Questa visualizzazione si comporta come segue:
 

@@ -1,5 +1,5 @@
 ---
-description: Puoi selezionare il tipo di rapporto di base per la richiesta di dati, ad esempio Metriche del sito, Contenuto sito e Video.
+description: Puoi selezionare il tipo di rapporto di base per la richiesta di dati, ad esempio Metriche del sito, Contenuto del sito e Video.
 title: Panoramica sui tipi di rapporto
 feature: Report Builder
 role: User, Admin
@@ -13,10 +13,10 @@ ht-degree: 5%
 
 # Panoramica sui tipi di rapporto
 
-Puoi selezionare il tipo di rapporto di base per la richiesta di dati, ad esempio Metriche del sito, Contenuto sito e Video.
+Puoi selezionare il tipo di rapporto di base per la richiesta di dati, ad esempio Metriche del sito, Contenuto del sito e Video.
 
-È possibile scegliere un solo tipo di rapporto di base per un intervallo di celle di foglio di calcolo. Se modifichi una richiesta creata in precedenza, puoi modificare il tipo di rapporto nel [!UICONTROL Request Wizard: Step 1] senza dover riconfigurare altre impostazioni nella richiesta.
+È possibile scegliere un solo tipo di report di base per un intervallo di celle del foglio di calcolo. Se stai modificando una richiesta creata in precedenza, puoi modificare il tipo di rapporto nella [!UICONTROL Request Wizard: Step 1] senza dover riconfigurare altre impostazioni nella richiesta.
 
-Puoi cercare i rapporti utilizzando la barra di ricerca completa automatica. Dopo aver selezionato un report da questo controllo, la visualizzazione ad albero selezionerà automaticamente il nodo corrispondente.
+Puoi cercare i rapporti utilizzando la barra di ricerca di completamento automatico. Dopo aver selezionato un report da questo controllo, la visualizzazione struttura selezionerà automaticamente il nodo corrispondente.
 
 ![](assets/search_reports.png)

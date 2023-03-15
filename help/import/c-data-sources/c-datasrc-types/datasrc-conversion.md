@@ -28,7 +28,7 @@ Se specifichi un evento Visualizzazione, devi specificare anche la dimensione de
 | Data | Utilizzare il formato data seguente: MM/GG/AAAA/HH/mm/SS (ad esempio, 01/01/2015/06/00/00). |
 | Categoria | Nome della categoria.  Se specifichi una categoria, devi anche selezionare un prodotto. |
 | Canale | Nome del canale. |
-| eVarn | Nome eVarn. I valori validi per n sono numeri interi 1 - 250. |
+| eVarn | Nome della variante. I valori validi per n sono numeri interi 1 - 250. |
 | Prodotto | Nome del prodotto. |
 | Stato | Nome dello stato. |
 | ZIP | Nome dello ZIP. |
@@ -44,7 +44,7 @@ Se specifichi un evento Visualizzazione, devi specificare anche la dimensione de
 | Visualizzazioni carrello | Numero di visualizzazioni del carrello. |
 | Pagamenti | Numero di pagamenti. |
 | Evento n | Numero di volte in cui si è verificato l&#39;evento n. I valori validi per n sono numeri interi 1 - 100.  Se specifichi un evento Visualizzazione, devi specificare anche la dimensione dei dati corrispondenti (eVar). Ad esempio, se includi visualizzazioni eVar2, devi elencare eVar2 con un valore. |
-| Visualizzazioni eVarn | Numero di volte in cui è stata visualizzata l&#39;eVar n. I valori validi per n sono numeri interi 1 - 250. |
+| Visualizzazioni disegno | Numero di volte in cui è stata visualizzata l&#39;eVar n. I valori validi per n sono numeri interi 1 - 250. |
 | Prezzo | Prezzo del prodotto. |
 | Ordini | Numero di ordini inseriti. |
 | Visualizzazioni prodotto | Numero di visualizzazioni del prodotto. |

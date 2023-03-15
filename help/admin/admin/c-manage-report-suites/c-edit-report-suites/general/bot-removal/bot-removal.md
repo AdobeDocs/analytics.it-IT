@@ -50,7 +50,7 @@ Ecco come si può acquisire questo ID tramite l’elemento dati. Assicurati di c
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Una volta configurato l’elemento dati, segui [queste istruzioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) per passare gli ID dichiarati nello strumento ECID utilizzando i tag in Adobe Experience Platform.
+Una volta configurato l’elemento dati, segui [queste istruzioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it) per passare gli ID dichiarati nello strumento ECID utilizzando i tag in Adobe Experience Platform.
 
 ### Passaggio 2: utilizza la segmentazione per identificare i bot
 

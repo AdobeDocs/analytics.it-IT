@@ -7,7 +7,7 @@ mini-toc-levels: 3
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 *Questa pagina della guida descrive come implementare le eVar di merchandising. Per informazioni sul funzionamento delle eVar di merchandising come dimensione, consulta [eVar (dimensione merchandising)](/help/components/dimensions/evar-merchandising.md) nella guida utente dei Componenti.*
 
-Per una discussione dettagliata sul funzionamento delle eVar di merchandising, consulta [eVar di merchandising e metodi di ricerca dei prodotti](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
+Per una discussione dettagliata sul funzionamento delle eVar di merchandising, consulta [eVar di merchandising e metodi di ricerca dei prodotti](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=it).
 
 ## Impostare le eVar nelle impostazioni della suite di rapporti
 

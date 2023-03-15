@@ -1,5 +1,5 @@
 ---
-description: Definisce le impostazioni comuni per un sito web che fornisce informazioni su servizi e prodotti generalmente venduti attraverso un ulteriore coinvolgimento.
+description: Definisce le impostazioni comuni per un sito Web che fornisce informazioni su servizi e prodotti generalmente venduti attraverso un ulteriore coinvolgimento.
 title: Generazione di lead
 feature: Report Suite Settings
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
@@ -12,7 +12,7 @@ ht-degree: 70%
 
 # Generazione di lead
 
-Definisce le impostazioni comuni per un sito web che fornisce informazioni su servizi e prodotti generalmente venduti attraverso un ulteriore coinvolgimento.
+Definisce le impostazioni comuni per un sito Web che fornisce informazioni su servizi e prodotti generalmente venduti attraverso un ulteriore coinvolgimento.
 
 | Variabili di conversione | Tipo | Sottorelazioni | Allocazione | Scadenza | variabile `s_code` |
 |---|---|---|---|---|---|
@@ -20,7 +20,7 @@ Definisce le impostazioni comuni per un sito web che fornisce informazioni su se
 | Termini di ricerca interni | Stringa | Base | Più recente (ultimo) | Visita | `evar2` |
 | Tipo di evento self-service | Stringa | Base | Più recente (ultimo) | Visita | `evar3` |
 
-Nessun evento di successo è configurato da questo modello di suite di rapporti.
+Questo modello di suite di rapporti non configura alcun evento di successo.
 
 | Variabili Custom Insight | variabile `s_code` |
 |---|---|

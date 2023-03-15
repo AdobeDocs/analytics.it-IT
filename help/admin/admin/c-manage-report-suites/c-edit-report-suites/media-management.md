@@ -1,6 +1,6 @@
 ---
-description: È possibile abilitare i file multimediali in Analytics per riservare un set speciale di variabili di soluzioni multimediali da utilizzare nelle misurazioni e nei rapporti.
-title: Gestione dei supporti
+description: Puoi abilitare i contenuti multimediali in Analytics per riservare un set speciale di variabili di soluzioni multimediali da utilizzare nelle attività di misurazione e reporting.
+title: Gestione dei contenuti multimediali
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
@@ -11,20 +11,20 @@ ht-degree: 3%
 
 ---
 
-# Gestione dei supporti
+# Gestione dei contenuti multimediali
 
-È possibile abilitare i file multimediali in Analytics per riservare un set speciale di variabili di soluzioni multimediali da utilizzare nelle misurazioni e nei rapporti. Queste variabili si comportano come Evar personalizzati, Eventi e Prop, ma non vengono conteggiate in base ai limiti delle variabili. Una volta abilitate, gli utenti visualizzeranno un nuovo set di rapporti multimediali nei menu di Analytics.
+Puoi abilitare i contenuti multimediali in Analytics per riservare un set speciale di variabili di soluzioni multimediali da utilizzare nelle attività di misurazione e reporting. Queste variabili si comportano come Evar personalizzate, Eventi e Prop, ma non vengono conteggiate in base ai limiti delle variabili. Una volta abilitati, gli utenti visualizzeranno un nuovo set di rapporti multimediali nei menu di Analytics.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Media Management]**.
 
-Quando modifichi una suite di rapporti sono disponibili le seguenti opzioni di gestione file multimediali:
+Durante la modifica di una suite di rapporti sono disponibili le seguenti opzioni di Media Management:
 
-* [!UICONTROL **Reporting multimediale**]
+* [!UICONTROL **Reporting sui contenuti multimediali**]
 
-   I rapporti specifici per gli elementi multimediali in streaming sono disponibili nella pagina Generazione rapporti multimediali. Per ulteriori informazioni sul reporting multimediale, consulta [Abilitazione dei report multimediali](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en).
+   I rapporti specifici per Streaming Media sono disponibili nella pagina Media Reporting. Per ulteriori informazioni su Media Reporting, consulta [Abilitazione di rapporti sui contenuti multimediali](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en).
 
-* [!UICONTROL **Classificazioni multimediali**]
+* [!UICONTROL **Classificazioni file multimediali**]
 
-   Le classificazioni specifiche per i file multimediali in streaming sono disponibili nella pagina Classificazioni multimediali. Per informazioni sulle classificazioni, vedi [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+   Le classificazioni specifiche per Streaming Media sono disponibili nella pagina Classificazioni file multimediali. Per informazioni sulle classificazioni, consulta [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
 
-Per informazioni generali su Streaming Media Analytics, consulta la sezione [Guida di Adobe Analytics per contenuti in streaming](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
+Per informazioni generali su Streaming Media Analytics, vedi [Guida di Adobe Analytics per contenuti in streaming](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).

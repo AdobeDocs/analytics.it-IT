@@ -1,5 +1,5 @@
 ---
-description: Le richieste vengono aggiornate dopo averle aggiornate con modifiche, filtri o dopo aver visualizzato dati più recenti. È possibile selezionare più richieste in un foglio di lavoro e aggiornarle tutte contemporaneamente.
+description: Dopo aver aggiornato le richieste con modifiche, filtri o per visualizzare dati più recenti, è possibile aggiornarle. È possibile selezionare più richieste in un foglio di lavoro e aggiornarle tutte contemporaneamente.
 title: Aggiornare una richiesta
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 feature: Report Builder
@@ -7,25 +7,25 @@ role: User, Admin
 exl-id: 319dc040-92cf-4289-9373-bc165e58c2db
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 4%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
 # Aggiornare una richiesta
 
-Le richieste vengono aggiornate dopo averle aggiornate con modifiche, filtri o dopo aver visualizzato dati più recenti. È possibile selezionare più richieste in un foglio di lavoro e aggiornarle tutte contemporaneamente.
+Dopo aver aggiornato le richieste con modifiche, filtri o per visualizzare dati più recenti, è possibile aggiornarle. È possibile selezionare più richieste in un foglio di lavoro e aggiornarle tutte contemporaneamente.
 
-Se aumenti l’intervallo di date di una richiesta e quindi lo aggiorni, report builder aggiunge delle celle per adattarsi al numero di periodi aggiunto.
+Se aumenti l’intervallo di date di una richiesta e quindi aggiorni la richiesta, Report Builder aggiunge celle per accogliere il numero aggiunto di periodi.
 
-1. Crea ed esegui una richiesta.
-1. Dopo aver modificato la richiesta, fai clic con il pulsante destro del mouse sulla richiesta, quindi scegli **[!UICONTROL Refresh Request]** dal menu di scelta rapida. In alternativa, fai clic su nella richiesta, quindi fai clic su **[!UICONTROL Refresh]** nella barra degli strumenti.
+1. Creare ed eseguire una richiesta.
+1. Dopo aver modificato la richiesta, fai clic con il pulsante destro del mouse sulla richiesta, quindi scegli **[!UICONTROL Refresh Request]** dal menu di scelta rapida. In alternativa, fai clic su nella richiesta, quindi fai clic su **[!UICONTROL Refresh]** nella barra degli strumenti.)
 
-   Il sistema visualizza il modulo [!UICONTROL Refresh Requests]:
+   Il sistema visualizza [!UICONTROL Refresh Requests] forma:
 
-   **Ora data:** la data in cui si desidera basare l&#39;aggiornamento. Noto anche come data [!UICONTROL As Of].
+   **Data adesso:** La data su cui desideri basare l’aggiornamento. Noto anche come [!UICONTROL As Of] data.
 
-   **Imposta su Data corrente per future azioni di aggiornamento:** l’abilitazione di questa opzione indica al generatore di report di utilizzare sempre la data corrente come data  [!UICONTROL Now] (o  [!UICONTROL As Of]). Per ripristinare questa impostazione, fai clic su [!UICONTROL Options] nella barra degli strumenti.
-1. Fai clic su **[!UICONTROL OK]**.
+   **Imposta su Data corrente per le azioni di aggiornamento future:** L&#39;attivazione di questa opzione indica al generatore di report di utilizzare sempre la data corrente come [!UICONTROL Now] (o [!UICONTROL As Of]) data. Per ripristinare questa impostazione, fai clic su [!UICONTROL Options] nella barra degli strumenti.
+1. Fai clic su **[!UICONTROL OK]** (Usa modello di attribuzione non predefinito).
 
-   Quando un aggiornamento ha esito positivo, il sistema lo segnala con un&#39;icona verde sul [!UICONTROL Request Manager].
+   Quando un aggiornamento ha esito positivo, il sistema lo segnala con un’icona verde sul [!UICONTROL Request Manager].

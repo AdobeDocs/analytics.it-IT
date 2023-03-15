@@ -1,5 +1,5 @@
 ---
-description: Elenca i parametri del browser non compatibili con l’utilizzo di Activity Map. Disattiva queste impostazioni.
+description: Elenca i parametri del browser non compatibili con l’utilizzo dell’Activity Map. È necessario disattivare queste impostazioni.
 title: Risoluzione dei problemi relativi alle estensioni del browser
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 feature: Activity Map
@@ -7,14 +7,14 @@ role: User, Admin
 exl-id: 0d91180c-a53b-4ee8-b441-43d936c98133
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 19%
+source-wordcount: '49'
+ht-degree: 16%
 
 ---
 
 # Risoluzione dei problemi relativi alle estensioni del browser
 
-Mostra i parametri del browser non compatibili con l’utilizzo di Activity Map. Disattiva queste impostazioni.
+Mostra i parametri del browser non compatibili con l’utilizzo di Activity Map. È necessario disattivare queste impostazioni.
 
 ## Chrome
 

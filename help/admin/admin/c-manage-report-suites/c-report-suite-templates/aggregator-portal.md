@@ -1,5 +1,5 @@
 ---
-description: Definisce le impostazioni comuni per un sito web che aggrega il contenuto, ad esempio un portale di notizie.
+description: Definisce le impostazioni comuni per un sito Web che aggrega il contenuto, ad esempio un portale di notizie.
 title: Portale Aggregator
 feature: Report Suite Settings
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Portale Aggregator
 
-Definisce le impostazioni comuni per un sito web che aggrega il contenuto, ad esempio un portale di notizie.
+Definisce le impostazioni comuni per un sito Web che aggrega il contenuto, ad esempio un portale di notizie.
 
 | Variabili di conversione | Tipo | Sottorelazioni | Allocazione | Scadenza | variabile `s_code` |
 |---|---|---|---|---|---|
@@ -22,9 +22,9 @@ Definisce le impostazioni comuni per un sito web che aggrega il contenuto, ad es
 
 | Eventi di successo | Tipo | variabile `s_code` |
 |---|---|---|
-| Accesso | Contatore (nessuna sottorelazione) | `event1` |
-| Visualizzazione di riferimento | Contatore (nessuna sottorelazione) | `event2` |
-| Clic di riferimento | Contatore (nessuna sottorelazione) | `event3` |
+| Accedi | Contatore (nessuna sottorelazione) | `event1` |
+| Visualizzazione referral | Contatore (nessuna sottorelazione) | `event2` |
+| Clic sui riferimenti | Contatore (nessuna sottorelazione) | `event3` |
 
 | Variabili Custom Insight | variabile `s_code` |
 |---|---|

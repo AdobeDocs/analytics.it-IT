@@ -46,7 +46,7 @@ Quando un destinatario apre un progetto curato, vedrà solo il set curato di com
 Per rimuovere la cura del progetto e ripristinare l’intero set di componenti nella barra a sinistra:
 
 1. Fai clic su **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
-1. Fai clic su **[!UICONTROL Remove Curation]**.
+1. Fai clic su **[!UICONTROL Remove Curation]** (Crea set di dati).
 1. Fai clic su **[!UICONTROL Done]**.
 
 ## Cura di suite di rapporti virtuali (VRS, Virtual Report Suite)

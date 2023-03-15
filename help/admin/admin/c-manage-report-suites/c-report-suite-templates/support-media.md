@@ -1,5 +1,5 @@
 ---
-description: Fornisce impostazioni comuni per un sito web che fornisce articoli e video di supporto ai prodotti.
+description: Fornisce impostazioni comuni per un sito Web che fornisce articoli e video di supporto per i prodotti.
 title: Supporto media
 feature: Report Suite Settings
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
@@ -12,7 +12,7 @@ ht-degree: 75%
 
 # Supporto media
 
-Fornisce impostazioni comuni per un sito web che fornisce articoli e video di supporto ai prodotti.
+Fornisce impostazioni comuni per un sito Web che fornisce articoli e video di supporto per i prodotti.
 
 | Variabili di conversione | Tipo | Sottorelazioni | Allocazione | Scadenza | variabile `s_code` |
 |---|---|---|---|---|---|
@@ -20,7 +20,7 @@ Fornisce impostazioni comuni per un sito web che fornisce articoli e video di su
 | Termini di ricerca interni | Stringa | Base | Più recente (ultimo) | Visita | `evar2` |
 | Tipo di evento self-service | Stringa | Base | Più recente (ultimo) | Visita | `evar3` |
 
-Nessun evento di successo è configurato da questo modello di suite di rapporti.
+Questo modello di suite di rapporti non configura alcun evento di successo.
 
 | Variabili Custom Insight | variabile `s_code` |
 |---|---|

@@ -7,7 +7,7 @@ exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 60%
 
 Le metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che puoi creare dalle metriche esistenti.
 
-I nostri strumenti di metriche calcolate offrono un modo altamente flessibile di generare, gestire e curare le metriche. Consentono ad addetti al marketing, product manager e analisti di porre domande sui dati senza dover cambiare l’implementazione [!DNL Analytics]. Le metriche personalizzate disponibili in ogni [!DNL Analytics] i pacchetti sono:
+I nostri strumenti di metriche calcolate offrono un modo altamente flessibile di generare, gestire e curare le metriche. Consentono ad addetti al marketing, product manager e analisti di porre domande sui dati senza dover cambiare l’implementazione [!DNL Analytics]. Le metriche personalizzate disponibili in ogni [!DNL Analytics] pacchetto:
 
-* Adobe [!DNL Analytics] Foundation: Calcolato
-* [Selezione Adobe Analytics](https://www.adobe.com/it/data-analytics-cloud/analytics/select.html): Calcolato + calcolato avanzato
-* [Adobe Analytics Prime](https://www.adobe.com/it/data-analytics-cloud/analytics/prime.html): Calcolato + calcolato avanzato
-* [Adobe Analytics Ultimate](https://www.adobe.com/it/data-analytics-cloud/analytics/ultimate.html): Calcolato + calcolato avanzato
+* Adobe [!DNL Analytics] Foundation: calcolato
+* [Selezione Adobe Analytics](https://www.adobe.com/it/data-analytics-cloud/analytics/select.html): calcolato + Avanzato calcolato
+* [Adobe Analytics Prime](https://www.adobe.com/it/data-analytics-cloud/analytics/prime.html): calcolato + Avanzato calcolato
+* [Adobe Analytics Ultimate](https://www.adobe.com/it/data-analytics-cloud/analytics/ultimate.html): calcolato + Avanzato calcolato
 
 Ecco un confronto tra le funzionalità delle metriche calcolate e delle metriche calcolate avanzate:
 
 | Opzioni di generazione | Metriche calcolate | Metriche calcolate avanzate (derivate) |
 |---|---|---|
 | [Tipi di formato (decimale, ora, percentuale, valuta)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Sì | Sì |
-| [Modifiche dell’attribuzione (predefinita, lineare, di partecipazione, ecc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sì | Sì |
+| [Modifiche all’attribuzione (predefinita, lineare, di partecipazione, ecc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sì | Sì |
 | [Tipi di metriche (standard, totale)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sì | Sì |
 | Operatori di base (aggiungere, sottrarre, moltiplicare, dividere) | Sì | Sì |
 | [Applicare i segmenti](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | No | Sì |
@@ -36,23 +36,23 @@ Ecco un confronto tra le funzionalità delle metriche calcolate e delle metriche
 
 ## Funzionalità {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
-È possibile
+È possibile eseguire le seguenti azioni:
 
-* Creare metriche in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection]e [!UICONTROL Contribution Analysis].
-* Crea metriche segmentate derivate in fase di esecuzione dei rapporti, senza dover modificare l’implementazione. Questi possono essere visualizzati storicamente perché sono basati su segmenti. Ecco un video sulle metriche prive di implementazione:
+* Creare metriche in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], e [!UICONTROL Contribution Analysis].
+* Creare metriche segmentate derivate in fase di esecuzione dei rapporti, senza dover modificare l’implementazione. Questi possono essere visualizzati storicamente perché sono basati su segmenti. Video sulle metriche senza implementazione:
 
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * Condividere le metriche tra le suite di rapporti. Ciò significa che tutte le metriche create di recente si applicano a tutte le suite di rapporti nella stessa società di accesso.
-* Segmento sulle metriche (solo per metriche calcolate avanzate). Ad esempio, puoi creare una metrica per “Nuovi visitatori”, conteggiando le persone per cui questa è la prima sessione. Ecco un video sull&#39;argomento:
+* (Solo per metriche calcolate avanzate) Segmento sulle metriche. Ad esempio, puoi creare una metrica per “Nuovi visitatori”, conteggiando le persone per cui questa è la prima sessione. Video sull’argomento:
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
 * Incorporare funzioni statistiche per descrivere meglio i dati (solo per metriche calcolate avanzate). Ad esempio, puoi contare il numero di elementi in un rapporto o aggiungere il numero di deviazioni standard per ogni elemento.
 
-## Limitazioni  {#section_CB878B02451541D68A68B508D4DBD19A}
+## Limitazioni {#section_CB878B02451541D68A68B508D4DBD19A}
 
-Alcuni [!DNL Analytics] Le funzioni consentono di utilizzare gli eventi ma non le metriche calcolate:
+Alcuni [!DNL Analytics] Le funzioni di consentono di utilizzare eventi ma non metriche calcolate:
 
 * [!UICONTROL Funnels] in [!UICONTROL Reports & Analytics]
 * [!UICONTROL Fallout] in [!UICONTROL Analysis Workspace]
@@ -65,7 +65,7 @@ Alcuni [!DNL Analytics] Le funzioni consentono di utilizzare gli eventi ma non l
 
 ## Strumenti {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Ecco una breve panoramica del [!UICONTROL Calculated Metrics] strumenti:
+Ecco una breve panoramica della [!UICONTROL Calculated Metrics] strumenti:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
@@ -80,8 +80,8 @@ Ecco una breve panoramica del [!UICONTROL Calculated Metrics] strumenti:
    <td colname="col2"> 
     <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
      <li id="li_A4A6E716374243A190C539A3F4A41C0C">Creare metriche calcolate e calcolate avanzate utilizzando modelli di allocazione avanzati. </li> 
-     <li id="li_C8C97BA4E227463E98077ABA5818FFC6">Aggiungi segmenti in linea alle formule delle metriche. </li> 
-     <li id="li_8503D9E06A3C46569B5CDB4B90F72446">Confrontare i segmenti nello stesso rapporto. Ad esempio, confrontare i visitatori locali con quelli internazionali. </li> 
+     <li id="li_C8C97BA4E227463E98077ABA5818FFC6">Aggiungere segmenti inline alle formule delle metriche. </li> 
+     <li id="li_8503D9E06A3C46569B5CDB4B90F72446">Confrontare segmenti nello stesso rapporto. Ad esempio, confrontare i visitatori locali con quelli internazionali. </li> 
      <li id="li_4B528FDE1F96400DBA0D3276408FF919">Utilizzare le funzioni statistiche. </li> 
      <li id="li_C1162B1EA6784B8189A8A87E2B0DA79A">Fornire descrizioni dettagliate delle metriche (mostrare cosa fanno, dove usarle, dove NON usarle). </li> 
      <li id="li_DEA13F5E8BF94AF1B311C467FE6E2A74">Copiare le definizioni in nuove metriche. </li> 
@@ -102,8 +102,8 @@ Ecco una breve panoramica del [!UICONTROL Calculated Metrics] strumenti:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Barra di selezione della metrica </td> 
-   <td colname="col2"> <p>Sostituisce la <span class="uicontrol"> Mostra metriche</span> popup <span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Ti consente di cercare e aggiungere/applicare metriche al rapporto. È inoltre possibile modificare le <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sort</a> ordine (le opzioni sono: alfabetico, consigliato, utilizzato frequentemente, utilizzato di recente). Inoltre, puoi filtrare le suite di rapporti per mostrare solo le metriche create in una specifica suite di rapporti. </p> <p>Per accedere a questo selettore della metrica, fai clic sull’icona Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> a sinistra di un report. Il selettore della metrica si presenta così: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col1"> Barra del selettore delle metriche </td> 
+   <td colname="col2"> <p>Sostituisce il <span class="uicontrol"> Mostra metriche</span> finestra a comparsa in <span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Consente di cercare e aggiungere/applicare metriche al rapporto. È inoltre possibile modificare <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sort</a> ordine (le opzioni sono: alfabetico, consigliato, usato di frequente, usato di recente). Inoltre, puoi filtrare in base alle suite di rapporti in modo da visualizzare solo le metriche create in una specifica suite di rapporti. </p> <p>Per accedere a questo selettore delle metriche, fai clic sull’icona Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> a sinistra di un report. Ecco come appare il selettore delle metriche: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API per metriche calcolate</a> </td> 

@@ -12,10 +12,10 @@ ht-degree: 4%
 
 # Funzioni e metodi
 
-Adobe offre diverse funzioni e metodi che puoi utilizzare nell’implementazione. Quando si fa riferimento a queste funzioni o metodi, questi eseguono operazioni comuni con una singola riga di codice.
+Adobe offre diverse funzioni e metodi che puoi utilizzare nell’implementazione. Quando si fa riferimento a tali funzioni o metodi, questi eseguono operazioni comuni con un&#39;unica riga di codice.
 
 Alcune di queste singole righe di codice appartengono alle seguenti categorie:
 
-* **Tracking delle chiamate**: I metodi più comuni e vitali in molte implementazioni. Includono [`t()`](t-method.md) e [`tl()`](tl-method.md) metodi.
-* **Utility AppMeasurement**: Nelle versioni precedenti di AppMeasurement, le implementazioni dovevano scrivere il proprio codice per eseguire queste attività. L&#39;Adobe fornisce questi metodi di utilità per semplificare queste attività comuni. Le utility AppMeasurement includono [`Util.cookieRead()`](util-cookieread.md), [`Util.cookieWrite()`](util-cookiewrite.md)e [`Util.getQueryParam()`](util-getqueryparam.md).
-* **Registrare le funzioni**: Puoi scrivere le tue funzioni e far sì che AppMeasurement le esegua automaticamente prima o dopo l’invio di una chiamata di tracciamento ad Adobe. Le variabili che rientrano in questa categoria sono [`doPlugins()`](doplugins.md), [`registerPreTrackCallback()`](registerpretrackcallback.md)e [`registerPostTrackCallback()`](registerposttrackcallback.md).
+* **Tracciamento delle chiamate**: i metodi più comuni e vitali in molte implementazioni di. Includono [`t()`](t-method.md) e [`tl()`](tl-method.md) metodi.
+* **Utility AppMeasurement**: nelle versioni precedenti di AppMeasurement, le implementazioni dovevano scrivere il proprio codice per eseguire queste attività. Adobe fornisce questi metodi di utilità per semplificare queste attività comuni. Le utility AppMeasurement includono [`Util.cookieRead()`](util-cookieread.md), [`Util.cookieWrite()`](util-cookiewrite.md), e [`Util.getQueryParam()`](util-getqueryparam.md).
+* **Registra funzioni**: puoi scrivere le tue funzioni e far sì che AppMeasurement le esegua automaticamente prima o dopo l’invio di una chiamata di tracciamento ad Adobe. Le variabili che rientrano in questa categoria sono [`doPlugins()`](doplugins.md), [`registerPreTrackCallback()`](registerpretrackcallback.md), e [`registerPostTrackCallback()`](registerposttrackcallback.md).

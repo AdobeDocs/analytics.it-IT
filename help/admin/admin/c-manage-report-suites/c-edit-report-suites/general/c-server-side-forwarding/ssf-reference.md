@@ -42,7 +42,7 @@ Inoltre, un segnale `h_ip` viene generato dall’IP dell’host che invia la ric
 
 ## Segnali definiti dal cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-I parametri con prefisso `c_` identificano le variabili definite dal cliente. Consulta anche [Attributi supportati per le chiamate API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+I parametri con prefisso `c_` identificano le variabili definite dal cliente. Consulta anche [Attributi supportati per le chiamate API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=it).
 
 | Segnale | Descrizione |
 | --- |--- |

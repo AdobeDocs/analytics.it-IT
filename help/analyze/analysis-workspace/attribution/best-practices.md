@@ -29,11 +29,11 @@ Per comprendere meglio la situazione, puoi quindi eseguire un’analisi upper fu
 
 ### Analisi upper funnel
 
-I canali di analisi con funnel superiore vengono utilizzati per creare brand o consapevolezza del prodotto. Ad esempio, la maggior parte degli annunci TV hanno come obiettivo la brand awareness. Con il passare del tempo, le persone si dimenticheranno del tuo annuncio TV, e potresti quindi usare il [modello di attribuzione Time decay (Decadimento temporale)](/help/analyze/analysis-workspace/attribution/models.md).
+I canali di analisi upper funnel vengono utilizzati per creare awareness del brand o del prodotto. Ad esempio, la maggior parte degli annunci TV hanno come obiettivo la brand awareness. Con il passare del tempo, le persone si dimenticheranno del tuo annuncio TV, e potresti quindi usare il [modello di attribuzione Time decay (Decadimento temporale)](/help/analyze/analysis-workspace/attribution/models.md).
 
 ### Analisi lower funnel
 
-Nell’analisi a basso funnel, si presume che le persone siano già a conoscenza del tuo marchio e che tu voglia che la conversione avvenga. Utilizza e-mail, notifiche push o annunci Facebook.
+Nell’analisi lower funnel, il presupposto è che le persone conoscano già il tuo marchio e che desideri che vengano convertite. Utilizza e-mail, notifiche push o annunci Facebook.
 
 ## Passaggio 2: attribuzione basata su regole
 
@@ -41,19 +41,19 @@ Lo scopo di questo passaggio è quello di convalidare le tue ipotesi.
 
 **Esempio 1**
 
-Supponiamo che la tua ipotesi sia: &quot;Il mio canale di primo contatto ha un impatto maggiore sulla conversione rispetto al mio canale di ultimo contatto.&quot;
+Supponiamo che l’ipotesi sia: &quot;Il mio canale di primo contatto ha un impatto maggiore sulla conversione rispetto al mio canale di ultimo contatto&quot;.
 
-In questo caso, puoi utilizzare il [Modello di attribuzione &quot;a forma di J inversa&quot;](/help/analyze/analysis-workspace/attribution/models.md) per testare questa ipotesi. Questo modello attribuisce il 60% del credito al primo punto di contatto.
+In questo caso, puoi quindi utilizzare [Modello di attribuzione &quot;a J inversa&quot;](/help/analyze/analysis-workspace/attribution/models.md) per testare questa ipotesi. Questo modello attribuisce il 60% del credito al primo punto di contatto.
 
 **Esempio 2**
 
-Supponiamo che la tua ipotesi sia: &quot;Nel nostro settore (come quello dei viaggi), la finestra di attribuzione è 60 o 90 giorni, non 30 giorni, perché i clienti fanno molta ricerca prima di comprare un prodotto.&quot;
+Supponiamo che l’ipotesi sia: &quot;nel nostro settore (ad esempio, viaggi), la finestra di attribuzione è di 60 o 90 giorni, non di 30 giorni, perché i clienti fanno molta ricerca prima di acquistare un prodotto&quot;.
 
-In questo caso, cambiereste il vostro [finestra di lookback](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=it#lookback-windows) a 90 giorni.
+In questo caso, è necessario modificare [intervallo di lookback](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=it#lookback-windows) a 90 giorni.
 
 ## Passaggio 3: utilizzare l’attribuzione algoritmica
 
-Se non disponi ancora di un modello di attribuzione che fornisca risposte soddisfacenti a tutte le tue domande, puoi utilizzare [attribuzione algoritmica](/help/analyze/analysis-workspace/attribution/algorithmic.md). Poiché è molto difficile convalidare un numero elevato di ipotesi e combinazioni possibili, l’attribuzione algoritmica utilizza algoritmi incorporati per allocare credito tra elementi dimensionali.
+Se non disponi ancora di un modello di attribuzione che fornisca risposte soddisfacenti a tutte le domande, puoi utilizzare [attribuzione algoritmica](/help/analyze/analysis-workspace/attribution/algorithmic.md). Poiché è molto difficile convalidare un numero elevato di ipotesi e combinazioni possibili, l’attribuzione algoritmica utilizza algoritmi incorporati per allocare credito tra gli elementi dimensionali.
 
 ## Altre considerazioni
 

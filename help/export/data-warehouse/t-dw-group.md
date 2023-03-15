@@ -1,6 +1,6 @@
 ---
-description: Passaggi che descrivono come gli amministratori possono abilitare l’accesso agli utenti per i rapporti sulle Date Warehouse.
-title: Gestire le autorizzazioni di Data Warehouse
+description: Passaggi che descrivono come gli amministratori possono abilitare l’accesso ai rapporti Data Warehouse per gli utenti.
+title: Gestire le autorizzazioni Data Warehouse
 feature: Data Warehouse
 solution: Analytics
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Gestire le autorizzazioni di Data Warehouse
+# Gestire le autorizzazioni Data Warehouse
 
-Fai riferimento a [Adobe Admin Console](/help/admin/admin-console/home.md) documentazione su come impostare le autorizzazioni per gli utenti di Data Warehouse. L’autorizzazione è elencata [qui](/help/admin/admin-console/permissions/report-suite-tools.md).
+Consulta la sezione [Adobe Admin Console](/help/admin/admin-console/home.md) documentazione su come impostare le autorizzazioni per gli utenti Data Warehouse. L’autorizzazione è elencata [qui](/help/admin/admin-console/permissions/report-suite-tools.md).
 

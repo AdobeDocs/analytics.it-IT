@@ -74,7 +74,7 @@ Utilizza le tabelle di riepilogo seguenti per identificare le autorizzazioni di 
 
 | Strumento di Analytics | Amministrazione | Controlli di accesso | Funzioni solo rapporti | Obsoleto | Descrizione |
 | --- | --- | --- | --- | --- | --- |
-| Gestione codici | x |  |  |  | Mantenuto per scopi legacy. Consente di accedere ad Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Nella maggior parte dei casi, utilizza invece le librerie incluse nell’estensione Adobe Analytics all’interno di Raccolta dati di Adobe Experience Platform. |
+| Gestione codici | x |  |  |  | Mantenuto per scopi legacy. Consente di accedere ad Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Nella maggior parte dei casi, utilizza le librerie incluse nell’estensione Adobe Analytics in Raccolta dati di Adobe Experience Platform. |
 | Gestione codici - Servizi web | x |  |  |  | Consente di accedere a Gestione codici tramite l’API 1.4. |
 | Nascondere suite di rapporti | x |  |  |  | Consente di accedere ad Admin > All admin > Company settings > Hide Report Suites (Amministrazione > Tutte le attività di amministrazione > Impostazioni società > Nascondi suite di rapporti). Consente di nascondere qualsiasi suite di rapporti nell’organizzazione, indipendentemente dall’accesso alla suite di rapporti. |
 | Integrazioni (creare) | x |  |  |  | Consente di accedere ad Admin > All admin > Data connectors (Amministrazione > Tutte le attività di amministrazione > Connettori dati) e di creare connettori dati. |

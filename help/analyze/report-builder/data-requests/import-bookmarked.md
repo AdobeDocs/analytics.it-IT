@@ -1,5 +1,5 @@
 ---
-description: Tutti i rapporti con segnalibri e i rapporti dashboard sono ora elencati come dimensioni nel passaggio 1 della Creazione guidata richieste e possono essere importati come richieste di Report Builder.
+description: Tutti i rapporti con segnalibri e i rapporti del dashboard sono ora elencati come dimensioni nel passaggio 1 della Creazione guidata richieste e possono essere importati come richieste del generatore di rapporti.
 title: Importare rapporti con segnalibri e minirapporti dashboard
 feature: Report Builder
 role: User, Admin
@@ -13,28 +13,28 @@ ht-degree: 3%
 
 # Importare rapporti con segnalibri e minirapporti dashboard
 
-Tutti i rapporti con segnalibri e i rapporti dashboard sono ora elencati come dimensioni nel passaggio 1 della Creazione guidata richieste e possono essere importati come richieste di Report Builder.
+Tutti i rapporti con segnalibri e i rapporti del dashboard sono ora elencati come dimensioni nel passaggio 1 della Creazione guidata richieste e possono essere importati come richieste del generatore di rapporti.
 
-Quando si seleziona un rapporto con segnalibro, la Creazione guidata richieste compila tutte le dimensioni e le metriche che definiscono questo rapporto con segnalibro. Anche l’intervallo di date, la granularità e il segmento selezionato vengono aggiornati in base al segnalibro selezionato.
+Quando si seleziona un rapporto con segnalibro, la Creazione guidata richieste popola tutte le dimensioni e le metriche che definiscono tale rapporto. Anche l’intervallo di date, la granularità e il segmento selezionato vengono aggiornati in base al segnalibro selezionato.
 
-Questo è il modo in cui la Creazione guidata richieste al passaggio 1 mostra un dashboard e i relativi minirapporti:
+Il passaggio 1 della Creazione guidata richieste mostra un dashboard e i relativi reportlet in questo modo:
 
 ![](assets/import_dashboard_reportlet.png)
 
-Quando fai clic su **[!UICONTROL Retrieve your Dashboards]** o **[!UICONTROL Retrieve your Bookmarks]**, i dati esistenti del dashboard e/o del segnalibro vengono recuperati e incollati nel foglio di lavoro.
+Quando fai clic su **[!UICONTROL Retrieve your Dashboards]** o **[!UICONTROL Retrieve your Bookmarks]**, i dati del dashboard e/o segnalibro esistenti vengono recuperati e incollati nel foglio di lavoro.
 
 >[!NOTE]
 >
->Al Report Builder, l’elenco delle dashboard e dei segnalibri disponibili è limitato all’utente ma anche a quelli applicabili alla suite di rapporti selezionata al passaggio 1 della procedura guidata. Al contrario, in reporting e analisi di marketing, puoi accedere a tutti i segnalibri e le dashboard che ti sono accessibili, indipendentemente dalle suite di rapporti che utilizzano il dashboard e i segnalibri.
+>In Report Builder, l’elenco delle dashboard e dei segnalibri disponibili è limitato all’utente ma anche a quelli applicabili alla suite di rapporti selezionata al passaggio 1 della procedura guidata. Al contrario, in Reports &amp; Analytics di marketing, puoi accedere a tutti i segnalibri e le dashboard accessibili, indipendentemente dalle suite di rapporti utilizzate da dashboard e segnalibri.
 
 >[!NOTE]
 >
 >Vengono importati solo i dati, quindi se il segnalibro contiene un grafico o se il reportlet del dashboard è costituito solo da un grafico, vengono importati solo i dati utilizzati per compilare il grafico.
 
-Dopo aver creato una richiesta importando un reportlet di dashboard (o un segnalibro), la richiesta verrà quindi associata alla dimensione primaria del reportlet (o del segnalibro). Di conseguenza, se si modifica la richiesta, la vista ad albero non seleziona più il nodo di visualizzazione ad albero del reportlet del dashboard (o il nodo del segnalibro): seleziona invece la dimensione primaria.
+Dopo aver creato una richiesta importando un reportlet del dashboard (o un segnalibro), la richiesta verrà associata alla dimensione principale del reportlet (o del segnalibro). Di conseguenza, se si modifica la richiesta, la vista albero non seleziona più il nodo di visualizzazione della struttura del reportlet del dashboard (o nodo segnalibro), ma la dimensione principale.
 
 Il bookmarklet importato imposterà correttamente la suite di rapporti, il segmento selezionato, la dimensione e le metriche selezionate sugli stessi parametri esposti nel segnalibro Reports &amp; Analytics.
 
 >[!IMPORTANT]
 >
->L’intervallo di date verrà impostato sullo stesso intervallo di date, ma come intervallo di date statico, anche se questo intervallo era un intervallo di date continuo nel segnalibro Reports &amp; Analytics.
+>L’intervallo di date sarà impostato sullo stesso intervallo, ma come intervallo di date statico, anche se si tratta di un intervallo di date continuo nel segnalibro di Reports &amp; Analytics.

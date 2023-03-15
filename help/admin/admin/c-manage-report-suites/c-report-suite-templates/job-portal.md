@@ -1,5 +1,5 @@
 ---
-description: Definisce le impostazioni comuni per un portale di lavoro o un sito web di ricerca di carriera.
+description: Definisce le impostazioni comuni per un portale delle mansioni o un sito Web per la ricerca della carriera.
 title: Portale dei processi
 feature: Report Suite Settings
 exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
@@ -12,7 +12,7 @@ ht-degree: 77%
 
 # Portale dei processi
 
-Definisce le impostazioni comuni per un portale di lavoro o un sito web di ricerca di carriera.
+Definisce le impostazioni comuni per un portale delle mansioni o un sito Web per la ricerca della carriera.
 
 | Variabili di conversione | Tipo | Sottorelazioni | Allocazione | Scadenza | variabile `s_code` |
 |---|---|---|---|---|---|
@@ -20,7 +20,7 @@ Definisce le impostazioni comuni per un portale di lavoro o un sito web di ricer
 | Termini di ricerca interni | Stringa | Base | Più recente (ultimo) | Visita | `evar2` |
 | Tipo di evento self-service | Stringa | Base | Più recente (ultimo) | Visita | `evar3` |
 
-Nessun evento di successo è configurato da questo modello di suite di rapporti.
+Questo modello di suite di rapporti non configura alcun evento di successo.
 
 | Variabili Custom Insight | variabile `s_code` |
 |---|---|

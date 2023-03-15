@@ -6,7 +6,7 @@ exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 93%
 
 Il Generatore di segmenti consente di confrontare e vincolare i valori utilizzando gli operatori selezionati. Esistono tre categorie di operatori: Standard, Data Warehouse e Conteggio valori univoci.
 
-L’unico carattere jolly supportato è l’asterisco: *. Se desideri cercare *, puoi utilizzare la barra rovesciata come carattere di escape.
+L’unico carattere jolly supportato è l’asterisco: &#42;. Se è necessario cercare &#42;, è possibile eseguirne l’escape con una barra rovesciata.
 
-**Esempio**: supponiamo che tu abbia un nome pagina “My cool product”. La regola del segmento “Il nome pagina corrisponde a My*product” corrisponderà al nome pagina indicato sopra. Tuttavia, la regola “Il nome pagina corrisponde a My\\*product” corrisponde solo al nome pagina “My*Product”.
+**Esempio**: supponiamo che tu abbia un nome pagina “My cool product”. La regola del segmento &quot;Il nome pagina corrisponde a My&#42;product&quot; corrisponderà al nome della pagina precedente. Tuttavia, la regola &quot;Il nome pagina corrisponde a My\\&#42;product&quot; corrisponde solo al nome della pagina &quot;My&#42;Prodotto&quot;.
 
 ## Operatori standard
 
@@ -26,7 +26,7 @@ L’unico carattere jolly supportato è l’asterisco: *. Se desideri cercare *,
 | non è uguale a | Restituisce tutti gli elementi che non contengono la corrispondenza esatta del valore inserito.  Nota: se utilizzi caratteri jolly, usa l’operatore “non corrisponde a”. |
 | è uguale a uno qualsiasi di | Restituisce elementi che corrispondono esattamente a qualsiasi valore nel campo di input (fino a 500 elementi). Ad esempio, l’inserimento di “Risultati ricerca, Home page” con questo operatore corrisponde a “Risultati ricerca” e “Home page”, che verranno conteggiati come 2 elementi. Il campo di input per questo operatore è delimitato da virgole. |
 | non è uguale a nessuno di | Identifica gli elementi che corrispondono esattamente a qualsiasi valore nel campo di input (fino a 500 elementi) e restituisce solo gli elementi senza questi valori. Ad esempio, l’inserimento di “Risultati ricerca, Home page” con questo operatore identifica “Risultati ricerca” e “Home page” e li esclude dagli elementi restituiti. In questo esempio vengono conteggiati 2 elementi. Il campo di input per questo operatore è delimitato da virgole. |
-| contiene | Restituisce elementi paragonabili alle sottostringhe dei valori inseriti. Ad esempio, se la regola per “Pagina” contiene “Cerca”, corrisponderà a qualsiasi pagina contenente la sottostringa “Cerca”, incluse “Risultati ricerca”, “Cerca” e “Ricerca in corso”. La clausola &quot;contiene&quot; non fa distinzione tra maiuscole e minuscole in Adobe Analytics, ma fa distinzione tra maiuscole e minuscole nel Customer Journey Analytics. |
+| contiene | Restituisce elementi paragonabili alle sottostringhe dei valori inseriti. Ad esempio, se la regola per “Pagina” contiene “Cerca”, corrisponderà a qualsiasi pagina contenente la sottostringa “Cerca”, incluse “Risultati ricerca”, “Cerca” e “Ricerca in corso”. La clausola &quot;contains&quot; non distingue tra maiuscole e minuscole in Adobe Analytics, ma nel Customer Journey Analytics distingue tra maiuscole e minuscole. |
 | non contiene | Restituisce l’inverso della regola “contiene”. Nello specifico, tutti gli elementi che corrispondono al valore inserito verranno esclusi dai valori inseriti. Ad esempio, se la regola per “Pagina” non contiene “Cerca”, non corrisponderà a nessuna pagina contenente la sottostringa “Cerca”, incluse “Risultati ricerca”, “Cerca” e “Ricerca in corso”. Questi valori verranno esclusi dai risultati. |
 | contiene tutti | Restituisce gli elementi confrontati con le sottostringhe, compresi più valori uniti tra loro. Ad esempio, l’inserimento di “Risultati ricerca” con questo operatore corrisponderebbe a “Risultati ricerca” e “Risultati della ricerca”, ma non a “Ricerca” o “Risultati” in modo indipendente. Corrisponderebbe a Ricerca E Risultati trovati insieme. Il campo di input per questo operatore è delimitato da spazi (100 parole). |
 | non contiene tutti | Identifica gli elementi confrontati con le sottostringhe, inclusi più valori uniti tra loro, e restituisce solo gli elementi senza questi valori. Ad esempio, l’inserimento di “Risultati ricerca” con questo operatore identificherebbe “Risultati ricerca” e “Risultati della ricerca” (ma non “Ricerca” o “Risultati” in modo indipendente) ed escluderebbe questi elementi. Il campo di input per questo operatore è delimitato da spazi (100 parole). |
@@ -36,12 +36,12 @@ L’unico carattere jolly supportato è l’asterisco: *. Se desideri cercare *,
 | non inizia con | Restituisce tutti gli elementi che non iniziano con i caratteri o le stringhe dei valori inseriti. Si tratta dell’inverso dell’operatore “inizia con”. |
 | termina con | Restituisce elementi che terminano con il carattere o le stringhe del valore inserito. |
 | non termina con | Restituisce tutti gli elementi che non terminano con i caratteri o le stringhe del valore inserito. Si tratta dell’inverso dell’operatore “termina con”. |
-| corrisponde | Restituisce elementi che contengono una corrispondenza esatta in base a un dato valore numerico o stringa. La clausola &quot;corrisponde&quot; fa distinzione tra maiuscole e minuscole in Adobe Analytics e in Customer Journey Analytics. **Nota**: Utilizzare questo operatore quando si utilizzano le funzioni dei caratteri jolly (globbing). Esempi di &quot;globbing&quot;:<ul><li>`a*e` corrisponde `ae`, `abcde`, `adobe`e `a whole sentence`</li><li>`adob*` corrisponde `adobe`, `adobe analytics`e `adobo recipe`</li><li>`*dobe` corrisponde `dobe`, `adobe`e `cute little dobe`</li></ul> |
+| corrisponde | Restituisce elementi che contengono una corrispondenza esatta in base a un dato valore numerico o stringa. La clausola &quot;matches&quot; distingue tra maiuscole e minuscole in Adobe Analytics e in Customer Journey Analytics. **Nota**: utilizza questo operatore quando utilizzi le funzioni dei caratteri jolly (globbing). Esempi di globbing:<ul><li>`a*e` corrisponde a `ae`, `abcde`, `adobe`, e `a whole sentence`</li><li>`adob*` corrisponde a `adobe`, `adobe analytics`, e `adobo recipe`</li><li>`*dobe` corrisponde a `dobe`, `adobe`, e `cute little dobe`</li></ul> |
 | non corrisponde | Restituisce tutti gli elementi che non contengono la corrispondenza esatta del valore inserito. Nota: utilizza questo operatore per le funzioni dei caratteri jolly (globbing). |
 | esiste | Restituisce il numero di elementi esistenti. Ad esempio, se valuti la dimensione Pagine non trovate utilizzando l’operatore “esiste”, viene restituito il numero di pagine di errore esistenti. |
 | non esiste | Restituisce tutti gli elementi che non esistono. Ad esempio, se valuti la dimensione Pagine non trovate utilizzando l’operatore “non esiste”, viene restituito il numero di pagine in cui non esisteva questa pagina di errore. |
 
-## Date Warehouse
+## Data Warehouse operatori
 
 | Operatore | L’evento di dimensione, segmento o metrica selezionato... |
 | --- | --- |

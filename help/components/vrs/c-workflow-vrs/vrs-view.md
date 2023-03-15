@@ -1,5 +1,5 @@
 ---
-description: Fai clic sull’icona i (Informazioni) accanto al nome della suite di rapporti per ottenere informazioni su di essa.
+description: Fai clic sull’icona i (Info) accanto al nome della suite di rapporti per ottenere informazioni al riguardo.
 keywords: Suite di rapporti virtuali
 title: Visualizzazione delle informazioni sulle suite di rapporti virtuali
 feature: VRS
@@ -13,14 +13,14 @@ ht-degree: 13%
 
 # Visualizzazione delle informazioni sulle suite di rapporti virtuali
 
-Fai clic sull’icona i (Informazioni) accanto al nome della suite di rapporti per ottenere informazioni su di essa.
+Fai clic sull’icona i (Info) accanto al nome della suite di rapporti per ottenere informazioni al riguardo.
 
-## Nel selettore suite di rapporti {#section_74E43B60C1CA4180B5ACA57574C1FA0F}
+## Nel selettore delle suite di rapporti {#section_74E43B60C1CA4180B5ACA57574C1FA0F}
 
-Facendo clic sull’icona Informazioni accanto alla suite di rapporti virtuali nel selettore delle suite di rapporti, vengono fornite le seguenti informazioni:
+Fai clic sull’icona Info accanto alla suite di rapporti virtuali nel selettore delle suite di rapporti per ottenere le seguenti informazioni:
 
 * Nome della suite di rapporti principale.
-* Nome di tutti i segmenti ad esso applicati.
+* Il nome di tutti i segmenti ad esso applicati.
 * Una semplice anteprima della suite di rapporti con il segmento applicato.
 * Numero totale di visitatori univoci.
 

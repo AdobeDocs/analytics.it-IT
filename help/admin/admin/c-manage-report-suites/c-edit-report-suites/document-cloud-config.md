@@ -1,6 +1,6 @@
 ---
-description: Puoi visualizzare i dati di Document Cloud in Adobe Analytics
-title: Configurare il reporting dei Document Cloud
+description: Puoi visualizzare i dati del Document Cloud in Adobe Analytics
+title: Configurare la generazione di rapporti di Document Cloud
 feature: Admin Tools
 source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
 workflow-type: tm+mt
@@ -10,13 +10,13 @@ ht-degree: 1%
 ---
 
 
-# Configurare il reporting dei Document Cloud
+# Configurare la generazione di rapporti di Document Cloud
 
-Puoi configurare dimensioni e metriche specifiche per PDF in modo che siano disponibili in Adobe Analytics.
+Puoi configurare dimensioni e metriche specifiche per PDF affinché siano disponibili in Adobe Analytics.
 
-## Componenti aggiunti quando si abilita il reporting di PDF
+## Componenti aggiunti quando abiliti il reporting di PDF
 
-Quando il reporting di PDF è configurato correttamente, le dimensioni e le metriche seguenti sono disponibili in Adobe Analytics:
+Quando il reporting di PDF è configurato correttamente, in Adobe Analytics sono disponibili le dimensioni e le metriche seguenti:
 
 **Dimensioni:**
 
@@ -26,7 +26,7 @@ Quando il reporting di PDF è configurato correttamente, le dimensioni e le metr
 
 * Azione PDF
 
-* Numero pagina PDF
+* Numero di pagina PDF
 
 * Nome file PDF
 
@@ -34,9 +34,9 @@ Quando il reporting di PDF è configurato correttamente, le dimensioni e le metr
 
 * Visualizzazioni PDF
 
-* Visualizzazioni di pagina di PDF
+* Visualizzazioni pagina PDF
 
-* Download di PDF
+* Download PDF
 
 * Ricerca PDF
 
@@ -46,12 +46,12 @@ Quando il reporting di PDF è configurato correttamente, le dimensioni e le metr
 
 * Stampa PDF
 
-## Abilitare il reporting di PDF in Adobe Analytics
+## Abilitare la generazione di rapporti PDF in Adobe Analytics
 
-1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Document Cloud Management]** > [!UICONTROL **Reporting sui Document Cloud**].
+1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Document Cloud Management]** > [!UICONTROL **Rapporti sui Document Cloud**].
 
-1. Nella pagina Gestione Adobe Document Cloud , seleziona [!UICONTROL **Abilitare i rapporti di PDF**].
+1. Nella pagina Adobe Document Cloud Management, seleziona [!UICONTROL **Abilita report PDF**].
 
-1. Per configurare Adobe Document Cloud per la trasmissione dei dati ad Adobe Analytics, utilizza il [SDK JavaScript per Adobe Document Cloud](https://www.adobe.io/apis/documentcloud/dcsdk.html).
+1. Per configurare Adobe Document Cloud per la trasmissione dei dati ad Adobe Analytics, utilizza [SDK JavaScript di Adobe Document Cloud](https://www.adobe.io/apis/documentcloud/dcsdk.html).
 
 

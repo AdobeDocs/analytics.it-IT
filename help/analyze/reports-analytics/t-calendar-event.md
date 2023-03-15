@@ -1,6 +1,6 @@
 ---
 description: Passaggi per aggiungere eventi di calendario e per gestire eventi condivisi.
-title: Aggiungi e gestisci eventi calendario
+title: Aggiungere e gestire eventi calendario
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 feature: Calendar
 role: User, Admin
@@ -40,7 +40,7 @@ Per i report con tendenze nel tempo, puoi visualizzare in modo grafico gli event
 
    In questo modo gli eventi del calendario sono maggiormente utilizzabili. Analytics ora può forzare una sovrapposizione nel report dell&#39;utente per fornire più contesto.
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** (Componenti) > **[!UICONTROL All components]** (Tutti i componenti) > **[!UICONTROL Calendar events]** (Eventi calendario).
-1. In Eventi calendario condivisi, specifica una delle seguenti opzioni:
+1. In Eventi calendario condiviso specificare una delle opzioni seguenti:
 
        | ** Copiami** | Aggiunge una copia nell’elenco degli eventi con lo stesso nome dell’originale. Tuttavia, non puoi visualizzare eventuali aggiornamenti o modifiche apportate dal proprietario dell’evento. |
        |---|---|

@@ -1,5 +1,5 @@
 ---
-description: Procedura che descrive come disinstallare Adobe Report Builder.
+description: Procedura per la disinstallazione di Adobe Report Builder.
 title: Disinstallare Report Builder
 uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 feature: Report Builder
@@ -16,13 +16,13 @@ ht-degree: 8%
 
 Per disinstallare Adobe Report Builder.
 
-1. Assicurati che Microsoft Excel sia chiuso.
+1. Verificare che Microsoft Excel sia chiuso.
 1. Fai clic su **[!UICONTROL Start]** > **[!UICONTROL Control Panel]**.
-1. In Windows 7 o Vista, fare clic su Disinstalla un programma. In Windows XP, fai clic su **[!UICONTROL Add/Remove Programs]**.
-1. Verrà visualizzato un elenco dei programmi installati. Fai clic con il pulsante destro del mouse su Adobe Report Builder e seleziona **[!UICONTROL Uninstall]**.
-1. Viene visualizzata la finestra della procedura guidata di disinstallazione. Fai clic su **[!UICONTROL Uninstall]**.
+1. In Windows 7 o Vista, fare clic su Disinstalla un programma. In Windows XP, fare clic su **[!UICONTROL Add/Remove Programs]**.
+1. Verrà visualizzato un elenco dei programmi installati. Fai clic con il pulsante destro del mouse su Adobe Report Builder e seleziona (Condividi) **[!UICONTROL Uninstall]**.
+1. Viene visualizzata la finestra della procedura guidata di disinstallazione. Fai clic su **[!UICONTROL Uninstall]** (Usa modello di attribuzione non predefinito).
 
-   Se desideri rimuovere completamente tutti i file e le cartelle dalla directory Programmi, segui questi passaggi dopo aver disinstallato il Report Builder:
+   Se si desidera rimuovere completamente tutti i file e le cartelle dalla directory Programmi, eseguire la procedura seguente dopo la disinstallazione del Report Builder:
 1. Fai clic su **[!UICONTROL Start]** > **[!UICONTROL Computer]**.
-1. Passa a [!DNL C:\Program Files\Adobe\]oppure, se utilizzi una versione a 64 bit di Windows, [!DNL C:\Program Files (x86)\Adobe.]
-1. Se è ancora presente, elimina la cartella del Report Builder in questa directory.
+1. Passa a [!DNL C:\Program Files\Adobe\]oppure, se si utilizza una versione di Windows a 64 bit, [!DNL C:\Program Files (x86)\Adobe.]
+1. Eliminare la cartella di Report Builder in questa directory, se è ancora presente.

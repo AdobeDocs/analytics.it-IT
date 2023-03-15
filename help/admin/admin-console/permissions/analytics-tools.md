@@ -17,7 +17,7 @@ Gli elementi di autorizzazione degli strumenti di Analytics concedono l’access
 | Elemento di autorizzazione degli strumenti di Analytics | Descrizione |
 |----|----|
 | [!UICONTROL Server Call Usage] | Consente di accedere ad Admin > Server call usage (Amministrazione > Utilizzo chiamate al server). |
-| [!UICONTROL Code Manager] | Mantenuto per scopi legacy. Consente di accedere ad Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Nella maggior parte dei casi, utilizza invece le librerie incluse nell’estensione Adobe Analytics all’interno di Raccolta dati di Adobe Experience Platform. |
+| [!UICONTROL Code Manager] | Mantenuto per scopi legacy. Consente di accedere ad Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Nella maggior parte dei casi, utilizza le librerie incluse nell’estensione Adobe Analytics in Raccolta dati di Adobe Experience Platform. |
 | [!UICONTROL Code Manager - Web Services] | Consente di accedere a Gestione codici tramite l’API 1.4. |
 | [!UICONTROL Logs] | Consente di accedere ad Admin > All admin > Log (Amministrazione > Tutte le attività di amministrazione > Registri). |
 | [!UICONTROL Logs - Web Services] | Consente di accedere ai registri di pull tramite l’API 1.4. |
@@ -42,6 +42,6 @@ Gli elementi di autorizzazione degli strumenti di Analytics concedono l’access
 | [!UICONTROL Segment Creation] | Consente di creare e condividere segmenti in tutte le funzionalità di Analytics. |
 | [!UICONTROL Advertising Analytics Management] | Non utilizzato. |
 | [!UICONTROL Segment Publishing] | Consente di usare un segmento come pubblico Experience Cloud durante la creazione o la modifica di un segmento. |
-| [!UICONTROL Integrations (Create)] | Non utilizzato. Data Connectors è stato abolito. |
+| [!UICONTROL Integrations (Create)] | Non utilizzato. Data Connectors è stato terminato. |
 | [!UICONTROL Integrations (Update)] | Non utilizzato. |
 | [!UICONTROL Integrations (Delete)] | Non utilizzato. |

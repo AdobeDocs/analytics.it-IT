@@ -49,7 +49,7 @@ Il Codice valuta è un campo che si trova sotto il pannello a soffietto [!UICONT
 Il codice valuta viene passato agli SDK di Adobe Experience Platform Mobile tramite variabili di dati di contesto nell’estensione di Adobe Analytics.
 
 1. Imposta il codice valuta in una variabile di dati contestuali durante `trackState` o `trackAction`.
-1. Crea una regola di elaborazione in Strumenti di amministrazione di Adobe Analytics per la suite di rapporti. Imposta la regola per sovrascrivere la variabile Codice valuta.
+1. Crea una regola di elaborazione negli Strumenti di amministrazione di Adobe Analytics per la suite di rapporti. Imposta la regola per sovrascrivere la variabile Codice valuta.
 1. Trasferisci il codice valuta alla variabile `products` nella chiamata a `trackState` o a `trackAction`.
 
 È possibile utilizzare un codice valuta predefinito o un codice valuta personalizzato. Se utilizzi un codice valuta personalizzato, assicurati che sia valido.

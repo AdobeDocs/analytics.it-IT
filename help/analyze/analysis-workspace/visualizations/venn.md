@@ -14,7 +14,7 @@ ht-degree: 53%
 
 # Venn
 
-La [!UICONTROL Venn] la visualizzazione consente di trascinare fino a 3 segmenti (da [!UICONTROL Components]) e una metrica per creare un [!UICONTROL Venn] diagramma.
+Il [!UICONTROL Venn] visualizzazione consente di trascinare fino a 3 segmenti (da [!UICONTROL Components]) e una metrica per generare una [!UICONTROL Venn] diagramma.
 
 ![](assets/venn.png)
 
@@ -22,18 +22,18 @@ Puoi passare il mouse sui segmenti per avere più informazioni dettagliate sulle
 
 ![](assets/venn_hover.png)
 
-## Girare [!UICONTROL Venn] creare [!UICONTROL Freeform] tabella
+## Turno [!UICONTROL Venn] diagramma in [!UICONTROL Freeform] tabella
 
 Per trasformare il diagramma di Venn in una tabella a forma libera, fai clic sul punto colorato accanto all’intestazione **[!UICONTROL Venn]** (Venn) e seleziona **[!UICONTROL Manage Data Sources]** (Gestisci origini dati) > **[!UICONTROL Available Data Sources]** (Origini dati disponibili) > **[!UICONTROL Freeform Table]** (Tabella a forma libera).
 
 ## Normalizza [!UICONTROL Venn] diagramma
 
-Per normalizzare la [!UICONTROL Venn] diagramma (estrarre la dimensione), fare clic sulla relativa icona Impostazioni visualizzazione e selezionare **[!UICONTROL Normalization]**.
+Per normalizzare [!UICONTROL Venn] (estrarre la dimensione), fai clic sulla relativa icona Impostazioni visualizzazione e seleziona **[!UICONTROL Normalization]**.
 
 ![](assets/normalization.png)
 
 ## Video
 
-Ecco un video sul [!UICONTROL Venn] diagramma:
+Ecco un video sulla [!UICONTROL Venn] diagramma:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335798/?quality=12)

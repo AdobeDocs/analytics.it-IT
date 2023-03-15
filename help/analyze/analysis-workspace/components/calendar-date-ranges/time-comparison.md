@@ -15,7 +15,7 @@ ht-degree: 100%
 
 In Analysis Workspace, il confronto delle date ti consente di prendere una qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comune, come: anno su anno, trimestre su trimestre, mese su mese, ecc.
 
-Panoramica video sull’argomento:
+Video sull’argomento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
 

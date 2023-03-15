@@ -14,9 +14,9 @@ ht-degree: 5%
 
 Le variabili di pagina determinano i valori per le dimensioni e le metriche nel reporting.
 
-L’elenco seguente è costituito dalle variabili utilizzate di frequente nelle implementazioni:
+Di seguito sono elencate le variabili utilizzate di frequente nelle implementazioni:
 
-* [`pageName`](pagename.md): Nome della pagina.
-* [`campaign`](campaign.md): Imposta questa variabile su un parametro della stringa di query per il tracciamento della campagna.
-* [`events`](events/events-overview.md): Popolare le metriche da utilizzare nei rapporti.
-* [`products`](products.md): Se disponi di un sito eCommerce, imposta questa variabile quando un visitatore visualizza o acquista un prodotto.
+* [`pageName`](pagename.md): nome della pagina.
+* [`campaign`](campaign.md): imposta questa variabile su un parametro della stringa di query per il tracciamento della campagna.
+* [`events`](events/events-overview.md): popola le metriche da utilizzare nel reporting.
+* [`products`](products.md): se hai un sito eCommerce, imposta questa variabile quando un visitatore visualizza o acquista un prodotto.

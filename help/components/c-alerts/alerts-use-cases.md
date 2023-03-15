@@ -1,5 +1,5 @@
 ---
-description: Casi di utilizzo per la creazione e la gestione degli avvisi intelligenti.
+description: Casi d’uso per la creazione e la gestione di avvisi intelligenti.
 title: 'Avvisi intelligenti: casi di utilizzo'
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269

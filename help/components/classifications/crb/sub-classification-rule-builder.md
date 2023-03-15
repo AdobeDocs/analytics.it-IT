@@ -65,7 +65,7 @@ Esempi di passaggi che descrivono come caricare le sottoclassificazioni utilizza
 
    Esempio:
 
-   | Chiave | Canale | Codice Campaign ampio | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
+   | Chiave | Canale | Broad Campaign code | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Brand | Suzanne |  |
    | &#42; |  | 222 | Brand | Frank |  |

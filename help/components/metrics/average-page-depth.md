@@ -12,25 +12,25 @@ ht-degree: 1%
 
 # Profondità media della pagine
 
-La metrica &quot;Profondità media della pagina&quot; mostra a che punto in una data visita si trova l’elemento dimensione. Ad esempio, la pagina principale mostra in genere una profondità media della pagina inferiore rispetto alla pagina di conferma dell’acquisto, che in genere si trova più avanti in una visita. Questa metrica è utile quando desideri comprendere quante pagine in un dato elemento dimensione si trovano in media. Puoi utilizzare queste informazioni per ottimizzare determinate pagine verso nuovi visitatori se la pagina ha una profondità media bassa.
+La metrica &quot;Profondità media della pagina&quot; mostra fino a che punto si trova l’elemento dimensione in una determinata visita. Ad esempio, la pagina principale presenta in genere una profondità di pagina media inferiore rispetto alla pagina di conferma dell’acquisto, che in genere si trova più in là in una visita. Questa metrica è utile quando vuoi comprendere quante pagine in un dato elemento dimensione siedono in media. Puoi utilizzare queste informazioni per ottimizzare determinate pagine per i nuovi visitatori, se la pagina presenta in media una profondità bassa.
 
 >[!TIP]
 >
->Utilizza questa metrica accanto a un’altra metrica (ad esempio [Visite](visits.md)) per ottenere informazioni migliori. Se utilizzi questa metrica da solo, ottieni elementi dimensionali contenenti anomalie nella profondità della pagina, che in genere non è preziosa.
+>Utilizza questa metrica insieme a un’altra metrica (ad esempio [Visite](visits.md)) per ottenere informazioni migliori. Se utilizzi questa metrica da sola, otterrai elementi dimensionali contenenti profondità di pagina anomale, che in genere non sono preziose.
 
-## Calcolo di questa metrica
+## Modalità di calcolo di questa metrica
 
-La prima pagina di una visita ha una profondità di pagina pari a `0`. La pagina successiva ha una profondità di pagina pari a 1 e aumenta ogni visualizzazione di pagina fino alla fine della visita. Questa metrica aumenta solo con la visualizzazione di pagina ([`t()`](/help/implement/vars/functions/t-method.md)) e non il tracciamento dei collegamenti ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+La prima pagina di una visita ha una profondità di pagina pari a `0`. La pagina successiva ha una profondità di pagina pari a 1 e aumenta ogni visualizzazione di pagina fino alla fine della visita. Questa metrica aumenta solo con la visualizzazione pagina ([`t()`](/help/implement/vars/functions/t-method.md)) e non il tracciamento dei collegamenti ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
-Per un dato elemento dimensione, aggiungi tutte le profondità di pagina per tale elemento dimensione e dividetelo per visite. Il numero risultante è la profondità media della pagina, arrotondata al numero intero più vicino. elementi di Dimension con una profondità media di pagina `0` indica che si trovava frequentemente nella prima pagina della visita.
+Per un dato elemento dimensione, aggiungi tutte le profondità di pagina per tale elemento dimensione e dividilo per visite. Il numero risultante è la profondità di pagina media, arrotondata al numero intero più vicino. Elementi Dimension con profondità di pagina media di `0` significa che era spesso sulla prima pagina della visita.
 
-Ad esempio, considera l’esempio di visita seguente:
+Ad esempio, considera la visita di esempio seguente:
 
 ```text
 Page1 > Page2 > Page2 > Page3 > Page4 > Page2
 ```
 
-Se si desidera una profondità di pagina media per l’elemento dimensione `Page2`, è calcolato come segue:
+Se volessimo la profondità di pagina media per l’elemento dimensione `Page2`, viene calcolato come segue:
 
 ```text
 If 'Count repeat instances' is enabled:
@@ -42,8 +42,8 @@ If 'Count repeat instances' is disabled:
 
 >[!TIP]
 >
->Se desideri visualizzare la profondità media della pagina con un decimale, crea una metrica calcolata utilizzando questa metrica come unico elemento all’interno della formula. Aumenta le posizioni decimali della metrica calcolata al decimale desiderato.
+>Se desideri visualizzare la profondità media della pagina con una posizione decimale, crea una metrica calcolata utilizzando questa metrica come unico elemento all’interno della formula. Aumenta le posizioni decimali nella metrica calcolata fino al decimale desiderato.
 
 ## Percentuali superiori al 100%
 
-Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è la profondità media della pagina dell’intera dimensione e il numeratore è la profondità media della pagina dell’elemento dimensionale. Se la profondità media della pagina dell’intera dimensione è inferiore alla profondità media della pagina di un dato elemento dimensionale, le percentuali sono superiori al 100%. L’ordinamento dei rapporti con classifica in base a questa metrica mostra valori di profondità della pagina medi anomali, che in genere non sono preziosi. L’Adobe consiglia l’ordinamento in base a un’altra metrica, ad esempio [Visite](visits.md), in rapporti con classifica.
+Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è la profondità di pagina media dell’intera dimensione e il numeratore è la profondità di pagina media dell’elemento dimensione. Se la profondità di pagina media dell’intera dimensione è inferiore alla profondità di pagina media di un dato elemento dimensione, vedrai percentuali superiori al 100%. L’ordinamento dei rapporti classificati per questa metrica mostra le anomalie nei valori medi di profondità di pagina, che in genere non sono importanti. L’Adobe consiglia di ordinare per un’altra metrica, ad esempio [Visite](visits.md), nei rapporti classificati.

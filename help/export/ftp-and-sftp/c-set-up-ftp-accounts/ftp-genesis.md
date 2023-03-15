@@ -7,7 +7,7 @@ exl-id: 69225b84-b292-4b16-a5c2-b618c6cd3191
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
->Adobe fine del ciclo di vita della tecnologia Adobe Data Connector nel 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
+>Adobe ha terminato la tecnologia Adobe Data Connector nel 2021. [Ulteriori informazioni...](/help/import/data-connectors/data-connectors-eol.md)
 
-Quando crei un’integrazione con un partner di Adobe utilizzando [connettori dati](https://www.adobeexchange.com/experiencecloud.html), ad Adobe puoi inviare dati di remarketing o di altro tipo a un account FTP, che tu o il tuo partner potete scaricare.
+Quando crei un’integrazione con un partner Adobe utilizzando [connettori dati](https://www.adobeexchange.com/experiencecloud.html), Adobe può inviare dati di remarketing o di altro tipo a un account FTP, che può essere scaricato da te o dal tuo partner.
 
 Ci si aspetta che tu gestisca i file sull&#39;account FTP in modo da assicurarti che l&#39;integrazione disponga di spazio sufficiente sull&#39;account FTP per ricevere i dati qui inviati da Adobe. Questo tipo di account FTP ha un limite di archiviazione dati di 2 GB (o 63 file).
 

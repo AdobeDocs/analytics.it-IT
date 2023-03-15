@@ -53,7 +53,7 @@ Esempi di segmenti includono [!UICONTROL Mobile Device Visitors], [!UICONTROL Vi
 
 Gli [**intervalli di date**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=it) sono l’intervallo di date in cui esegui l’analisi. Si trovano nella barra dei componenti a sinistra (sezione viola) e vengono in genere applicati nel calendario di ciascun pannello.
 
-Puoi rendere i componenti dell’intervallo di date relativi al calendario del pannello. Per ulteriori informazioni, consulta [Informazioni sugli intervalli di date relativi al pannello](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+Puoi rendere i componenti dell’intervallo di date relativi al calendario del pannello. Per ulteriori informazioni, consulta [Informazioni sugli intervalli di date del pannello relativo](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
 
 Esempi di intervalli di date includono luglio 2019, [!UICONTROL Last 4 weeks] e [!UICONTROL This month]. Gli intervalli di date sono forniti da Adobe, possono essere applicati nel [calendario del pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) o creati mediante il [Generatore di intervalli di date](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=it).
 

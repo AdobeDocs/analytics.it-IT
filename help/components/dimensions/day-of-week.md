@@ -12,11 +12,11 @@ ht-degree: 6%
 
 # Giorno della settimana
 
-La dimensione &quot;Giorno della settimana&quot; indica il giorno della settimana in cui si è verificato l’hit. Questo rapporto è utile se desideri che un rapporto venga suddiviso per settimana, ma non vuoi che i giorni statici siano come elementi dimensionali. È particolarmente utile come dimensione nei rapporti pianificati, in quanto questa dimensione funziona con qualsiasi intervallo di date.
+La dimensione &quot;Giorno della settimana&quot; riporta il giorno della settimana in cui si è verificato l’hit. Questo rapporto è utile se desideri un rapporto suddiviso per settimana, ma non desideri giorni statici come elementi dimensionali. È particolarmente utile come dimensione nei rapporti pianificati, in quanto questa dimensione funziona con qualsiasi intervallo di date.
 
-## Popolare questa dimensione con i dati
+## Popola questa dimensione con i dati
 
-Questa dimensione funziona come standard per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
+Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
 
 ## Elementi dimensionali
 

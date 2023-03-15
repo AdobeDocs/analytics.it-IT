@@ -5,7 +5,7 @@ title: Visualizzare le regole di elaborazione attive
 feature: Processing Rules
 exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 100%
 

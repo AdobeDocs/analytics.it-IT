@@ -26,7 +26,7 @@ Puoi creare raggruppamenti in base a qualsiasi variabile di Analytics (eVar o pr
 
 ## Eseguire un rapporto con raggruppamenti {#task_F685624830E64C829C8BE6435A107F69}
 
-Per eseguire un rapporto di suddivisione:
+Per eseguire un rapporto con raggruppamenti:
 
 <!-- 
 

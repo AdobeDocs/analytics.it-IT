@@ -12,7 +12,7 @@ ht-degree: 78%
 
 # Salvare una ricerca suite di rapporti
 
-Per definire un insieme di criteri che determinano i membri di una ricerca suite di rapporti:
+Per definire un set di criteri che determinano i membri di una ricerca suite di rapporti:
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. In Gruppi di suite di rapporti, fai clic su **[!UICONTROL Add]** (accanto all’intestazione [!UICONTROL Saved Searches].

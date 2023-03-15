@@ -34,9 +34,9 @@ Nelle sezioni seguenti sono elencati i limiti applicabili a Origini dati e ai da
 * È possibile importare solo i dati con date correnti o passate. Non tentare di utilizzare date future nei dati di Origini dati.
 * È necessario specificare una data per tutte le righe per abilitare le funzionalità di grafici di rapporti. Se una riga non include una data, Origini dati genera un errore e rifiuta il file. Il formato di data/ora varia in base al tipo di origine di dati:
 
-   * **Origini dati a elaborazione completa**: Utilizzare il formato di data ISO 8601 di `YYYY-MM-DDThh:mm:ss±UTC_offset` (ad esempio, `2013-09-01T12:00:00-07:00`) o Unix Time Format (il numero di secondi trascorsi dal 1° gennaio 1970).
+   * **Origini dati a elaborazione completa**: utilizza il formato data ISO 8601 di `YYYY-MM-DDThh:mm:ss±UTC_offset` (ad esempio, `2013-09-01T12:00:00-07:00`), o Unix Time Format (il numero di secondi trascorsi dal 1° gennaio 1970).
 
-   * **Origini dati standard e di integrazione**: Utilizza il formato data seguente: `MM/DD/YYYY/HH/mm/SS` (ad esempio, `01/01/2013/06/00/00`)
+   * **Origini dati standard e di integrazione**: utilizza il seguente formato data: `MM/DD/YYYY/HH/mm/SS` (ad esempio, `01/01/2013/06/00/00`)
 
 ## Generale {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
@@ -94,7 +94,7 @@ Se invii un file UTF-8 o ISO-8859-1 e la suite di rapporti non è configurata pe
 * I rapporti più utili per visualizzare i dati Registro web sono i rapporti del traffico, come le visualizzazioni pagina.
 * I nomi delle pagine sono visualizzati come URL completo, inclusa la stringa di query.
 * Ogni richiesta di file è visualizzata come visualizzazione pagina separata, che include i fogli di stile e i file di immagine.
-* Se aggiungi informazioni all&#39;URL, i file potrebbero essere registrati come pagine separate. Ad esempio, Adobe registra i seguenti URL come due pagine separate:
+* Se aggiungi informazioni all&#39;URL, i file potrebbero essere registrati come pagine separate. Ad Adobe, registra i seguenti URL come due pagine separate:
 
 `/jokes/misc/snail_joke.html?userid=12345`
 

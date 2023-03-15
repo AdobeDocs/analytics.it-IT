@@ -13,7 +13,7 @@ ht-degree: 86%
 
 # Palette di colori di visualizzazione
 
-È possibile modificare la palette di colori di visualizzazione utilizzata in Workspace scegliendo una palette di colori diversa o specificando una propria palette corrispondente ai colori del marchio aziendale. Questa funzione influisce sulla maggior parte delle visualizzazioni in Workspace, ma lo fa **not** influenzare [!UICONTROL Summary Change], formattazione condizionale in [!UICONTROL Freeform] le tabelle e [!UICONTROL Map] visualizzazione.
+È possibile modificare la palette di colori di visualizzazione utilizzata in Workspace scegliendo una palette di colori diversa o specificando una propria palette corrispondente ai colori del marchio aziendale. Questa funzione influisce sulla maggior parte delle visualizzazioni in Workspace, ma **non** affliggere [!UICONTROL Summary Change], formattazione condizionale in [!UICONTROL Freeform] tabelle e [!UICONTROL Map] visualizzazione.
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ Nota bene:
 * Sono disponibili cinque palette di colori predefinite tra cui scegliere. La palette predefinita e quella sottostante sono state ottimizzate per garantire un contrasto ottimale e sono entrambe più accessibili in caso di daltonismo.
 * La terza e la quinta palette di colori sotto le due soprastanti sono state ottimizzate per l’armonia dei colori.
 
-## Cambia il tuo [!UICONTROL color palette]:
+## Cambia [!UICONTROL color palette]:
 
-Video sull’utilizzo di [!UICONTROL color palettes]:
+Ecco un video sull’utilizzo di [!UICONTROL color palettes]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 

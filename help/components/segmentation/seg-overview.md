@@ -12,7 +12,7 @@ ht-degree: 76%
 
 # Informazioni sui segmenti
 
-I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I segmenti sono progettati come informazioni sul pubblico che puoi creare per soddisfare le tue esigenze specifiche e quindi verificare, modificare e condividere con altri membri del team o utilizzarli in altri prodotti Adobe e funzionalità di Analytics.
+I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I segmenti sono progettati come approfondimenti sul pubblico che puoi creare in base alle tue esigenze specifiche e quindi verificare, modificare e condividere con altri membri del gruppo o utilizzare in altri prodotti Adobe e funzionalità di Analytics.
 
 I segmenti si basano su una gerarchia di livelli [!UICONTROL Visitor], [!UICONTROL Visit] e [!UICONTROL Hit] che utilizza un modello di contenitori nidificati. I contenitori nidificati ti consentono di definire gli attributi e le azioni dei visitatori in base alle regole tra e all’interno dei contenitori. I segmenti di Analytics possono essere generati, approvati, condivisi, salvati ed eseguiti tra più prodotti e funzionalità in [!DNL Adobe Experience Cloud]. I segmenti possono essere generati da un rapporto, incorporati in un rapporto dashboard o contrassegnati con segnalibro per l’accesso rapido.
 
@@ -41,19 +41,19 @@ Questo tipo di segmento filtra i set di dati in base alle caratteristiche unite 
 * Il [Gestore segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md) consente di impostare [flussi di lavoro](/help/components/segmentation/segmentation-workflow/seg-workflow.md) con funzioni di condivisione dei segmenti, assegnazione di tag, verifica e approvazione.
 * Puoi [assegnare tag ai segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md) per organizzarli ed effettuare ricerche in un secondo momento, anziché utilizzare le cartelle.
 * Puoi creare [Segmenti sequenziali](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-* La [!UICONTROL Page View] Il contenitore è ora [!UICONTROL Hit] per indicare che questo contenitore segmenta tutti i tipi di dati e non solo le visualizzazioni di pagina. Ad esempio, le chiamate di tracciamento dei collegamenti e le chiamate trackAction dagli SDK per dispositivi mobili sono tutte incluse o escluse dal contenitore Hit.
+* Il [!UICONTROL Page View] il contenitore è ora [!UICONTROL Hit] contenitore per indicare che il contenitore segmenta tutti i tipi di dati e non solo le visualizzazioni di pagina. Ad esempio, le chiamate di tracciamento dei collegamenti e le chiamate trackAction dagli SDK per dispositivi mobili sono tutte incluse o escluse dal contenitore Hit.
 
 ## Segmentazione in Analysis Workspace
 
-Analysis Workspace contiene le seguenti funzionalità aggiuntive:
+Analysis Workspace contiene le seguenti funzioni aggiuntive:
 
 * Puoi [confrontare i segmenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
 * Utilizzare i [segmenti come dimensioni](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) in un confronto.
 * Utilizzare i segmenti nell’[analisi dell’abbandono](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
-## Segmenti forniti da Adobe
+## Segmenti forniti dall’Adobe
 
-La barra dei componenti sul lato sinistro dello schermo mostra i segmenti creati da te e dalla tua azienda, nonché i segmenti di Adobe forniti come predefiniti. Quando fai clic su **[!UICONTROL Show all]**, questi segmenti vengono generalmente visualizzati in fondo all’elenco e sono identificati dal logo di Adobe a destra. Elenco parziale dei segmenti forniti da Adobe:
+La barra dei componenti a sinistra della schermata mostra i segmenti creati da te e dalla tua azienda, nonché i segmenti di Adobe forniti come predefiniti. Quando fai clic su **[!UICONTROL Show all]**, in genere questi segmenti vengono visualizzati nella parte inferiore dell’elenco e sono identificati dal logo di Adobe a destra. Questo è un elenco parziale dei segmenti forniti dagli Adobi:
 
 ![Segmenti di Adobe](assets/adobe-segs.png)
 
@@ -86,7 +86,7 @@ Questo video offre una breve panoramica dei contenitori di segmenti e del loro u
 
 Per accedere al Generatore di segmenti:
 
-* Visualizzazione di un rapporto esistente e clic sull’icona Segmenti  ![Icona Segmento](assets/segment_icon.png) nella navigazione a sinistra. Nella barra del segmento visualizzata, fai clic su **[!UICONTROL Add]**, oppure
+* Visualizzazione di un rapporto esistente e clic sull’icona Segmenti  ![Icona del segmento](assets/segment_icon.png) nel menu di navigazione a sinistra. Nella barra del segmento visualizzata, fai clic su **[!UICONTROL Add]**, oppure
 
 * Nella parte superiore del Gestore segmenti, fai clic su **[!UICONTROL + Add]**.  ![Pulsante Aggiungi](assets/add_button.png)
 
@@ -102,7 +102,7 @@ Per accedere al Gestore segmenti:
 
 * Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** nella navigazione superiore. Quindi fai clic su **[!UICONTROL Segments]**, oppure
 
-* Visualizzazione di un rapporto esistente e clic sull’icona Segmenti  ![Icona Segmento](assets/segment_icon.png) nella navigazione a sinistra. Quindi fai clic su **[!UICONTROL Manage]**, oppure
+* Visualizzazione di un rapporto esistente e clic sull’icona Segmenti  ![Icona del segmento](assets/segment_icon.png) nel menu di navigazione a sinistra. Quindi fai clic su **[!UICONTROL Manage]**, oppure
 
 * Premi il tasto barra “/” in qualsiasi punto dell’interfaccia e cerca il Gestore segmenti.
 
@@ -122,7 +122,7 @@ Gli amministratori possono modificare qualsiasi segmento e condividere i segment
 
 Sì, gli amministratori possono visualizzare tutti i segmenti all’interno delle interfacce utente [!DNL Analysis Workspace] e [!DNL Reports & Analytics].
 
-Il Report Builder visualizza i segmenti di tua proprietà e quelli condivisi con te.
+Nel Report Builder vengono visualizzati i segmenti di tua proprietà e quelli condivisi con te.
 
 +++
 
@@ -132,7 +132,7 @@ Sì, tutti i segmenti possono essere gestiti nel Gestore segmenti. Il Gestore se
 
 Gli amministratori possono visualizzare tutti i segmenti all’interno delle interfacce utente di Analysis Workspace e [!DNL Reports & Analytics].
 
-Il Report Builder visualizza solo i segmenti generati da te o quelli condivisi con te in modo specifico.
+In Report Builder vengono visualizzati solo i segmenti generati da te o quelli condivisi con te.
 
 +++
 

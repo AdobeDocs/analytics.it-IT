@@ -12,37 +12,37 @@ ht-degree: 2%
 
 # Codice di tracciamento
 
-La dimensione &quot;Tracking Code&quot; (Codice di tracciamento) elenca i nomi dei codici di tracciamento sul sito. È possibile inserire collegamenti con diversi valori dei parametri della stringa di query in diverse posizioni su Internet. Questa dimensione ti aiuta a capire quali collegamenti sono stati i più efficaci nel indirizzare il traffico verso il tuo sito.
+La dimensione &quot;Codice di tracciamento&quot; elenca i nomi dei codici di tracciamento sul sito. Puoi inserire collegamenti con valori di parametri di stringhe di query diversi in posizioni diverse su Internet. Questa dimensione ti aiuta a capire quali collegamenti sono stati più efficaci nel traffico verso il tuo sito.
 
-Le stringhe di query sul codice di tracciamento sono comuni nelle e-mail, negli annunci pubblicitari, nei post sui social media e in altre attività di marketing utilizzate dalla tua organizzazione.
+L’aggiunta di stringhe di query del codice di tracciamento è comune nelle e-mail, negli annunci pubblicitari, nei post sui social media e in altre attività di marketing utilizzate dalla tua organizzazione.
 
-## Popolare questa dimensione con i dati
+## Popola questa dimensione con i dati
 
-Questa dimensione recupera i dati dal [`v0` stringa di interrogazione](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile [`campaign`](/help/implement/vars/page-vars/campaign.md) variabile.
+Questa dimensione recupera i dati da [`v0` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando [`campaign`](/help/implement/vars/page-vars/campaign.md) variabile.
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono i nomi dei codici di tracciamento sul sito. L’organizzazione determina gli elementi dimensionali specifici da utilizzare. Vedi [Tracciamento delle campagne](/help/implement/use-cases/campaign-tracking.md) per ulteriori informazioni.
+Gli elementi di Dimension includono i nomi dei codici di tracciamento sul sito. L’organizzazione determina gli elementi dimensionali specifici che desideri utilizzare. Consulta [Tracciamento delle campagne](/help/implement/use-cases/campaign-tracking.md) per ulteriori informazioni.
 
-## Confrontare la dimensione del codice di tracciamento con i canali di marketing che raccolgono i codici di tracciamento
+## Confrontare la dimensione Codice di tracciamento con i canali di marketing che raccolgono i codici di tracciamento
 
-Alcuni utenti che impostano le regole di elaborazione dei canali di marketing configurano una regola che prende tutti i valori utilizzati nella dimensione del codice di tracciamento. Anche se è una pratica eccellente, sono diversi a causa delle intrinseche differenze di elaborazione e di architettura. L’elenco seguente spiega perché queste due dimensioni, anche se a colpo d’occhio simili, non possono essere confrontate tra loro.
+Alcuni utenti che impostano regole di elaborazione per il canale di marketing configurano una regola che accetta tutti i valori utilizzati nella dimensione Codice di tracciamento. Sebbene siano una pratica eccellente, sono diversi a causa delle differenze intrinseche di elaborazione e architettura. L’elenco seguente spiega perché queste due dimensioni, anche se simili a colpo d’occhio, non possono essere confrontate tra loro.
 
-* **Canali precedenti nelle regole di elaborazione**: Le regole di elaborazione dei canali di marketing più in alto nell’elenco possono impedire l’attribuzione degli hit al canale di marketing dei codici di tracciamento. Ad esempio:
+* **Canali precedenti nelle regole di elaborazione**: le regole di elaborazione dei canali di marketing nella parte superiore dell’elenco possono impedire che gli hit vengano attribuiti al canale di marketing dei Codici di tracciamento. Ad esempio:
 
-   1. Hai impostato &#39;Social Networks&#39; come prima regola e &#39;Tracking codes&#39; come secondo.
-   2. Un utente pubblica un collegamento al tuo sito contenente un codice di tracciamento su un sito di social media e diversi dei loro amici fanno clic su tale collegamento al tuo sito.
+   1. Hai &quot;Social Network&quot; impostato come prima regola e &quot;Codici di tracciamento&quot; come seconda.
+   2. Un utente pubblica un collegamento al sito contenente un codice di tracciamento su un sito di social media e diversi amici fanno clic su tale collegamento al sito.
 
-   Poiché &quot;Social Networks&quot; è la prima regola di elaborazione del canale di marketing, questi utenti attribuiscono al canale di marketing &quot;Social Networks&quot; e non al canale di marketing dei codici di tracciamento.
-* **Altri canali di marketing possono rubare l’attribuzione**: Quando si gestisce una dimensione standard dei codici di tracciamento, non è necessario preoccuparsi che altre parti del sito rubino l’attribuzione. Tuttavia, con i canali di marketing, un utente può corrispondere a una regola diversa, attribuendo attribuzioni diverse. Ad esempio:
-   1. Hai &quot;Codici di tracciamento&quot; come primo canale e &quot;Diretto&quot; come secondo canale.
-   2. Un utente arriva inizialmente al tuo sito tramite un codice di tracciamento, ma poi se ne va.
-   3. Il giorno successivo, digitano il tuo URL nella loro barra degli indirizzi, quindi effettuano un acquisto.
+   Poiché Social Networks è la prima regola di elaborazione del canale di marketing, questi utenti attribuiscono al canale di marketing Social Networks e non al canale di marketing dei codici di tracciamento.
+* **Altri canali di marketing possono sottrarre l’attribuzione**: quando hai a che fare con una dimensione Codici di tracciamento standard, non devi preoccuparti di altre parti del sito che rubano l’attribuzione. Tuttavia, con i canali di marketing, un utente può corrispondere a una regola diversa, dando un’attribuzione diversa. Ad esempio:
+   1. Hai &quot;Codici di tracciamento&quot; come primo canale e &quot;Diretto&quot; come secondo.
+   2. Un utente arriva inizialmente al sito tramite un codice di tracciamento, ma poi se ne va.
+   3. Il giorno successivo, digitano l’URL nella barra degli indirizzi, quindi effettuano un acquisto.
 
-   Il canale di marketing dei codici di tracciamento non riceverebbe il credito dell’ultimo contatto per quell’acquisto. Al contrario, andrebbe al canale di marketing &quot;diretto&quot;.
-* **Differenze di scadenza**: I canali di marketing hanno una scadenza continua di 30 giorni di coinvolgimento dei visitatori, che siano stati toccati o meno un canale. I codici di tracciamento hanno una scadenza basata su quando è stata impostata la variabile. Ad esempio:
-   1. Hai una scadenza di coinvolgimento del visitatore di 30 giorni e hai anche configurato la dimensione del codice di tracciamento per scadere dopo 30 giorni.
-   2. Un utente arriva al tuo sito tramite un codice di tracciamento. Sfogliano il sito, poi se ne vanno.
-   3. Tre settimane dopo, tornano senza un codice di tracciamento o un canale di marketing, poi se ne vanno di nuovo.
-   4. Altre due settimane più tardi (cinque settimane dopo la visita iniziale), tornano senza un codice di tracciamento o un canale di marketing, quindi effettuano un acquisto.
-   L’utente ha infine effettuato un acquisto oltre i 30 giorni, ma non è mai stato inattivo per più di 30 giorni. Vedrai i ricavi attribuiti al canale di marketing dei codici di tracciamento, ma non per la dimensione autonoma.
+   Il canale di marketing dei codici di tracciamento non riceverebbe il credito dell’ultimo contatto per tale acquisto. ma al canale di marketing diretto.
+* **Differenze di scadenza**: i canali di marketing hanno una scadenza continua del coinvolgimento dei visitatori di 30 giorni, indipendentemente dal fatto che un canale sia stato toccato o meno. I codici di tracciamento hanno una scadenza in base a quando è stata impostata la variabile. Ad esempio:
+   1. Hai una scadenza del coinvolgimento dei visitatori di 30 giorni e hai anche configurato la dimensione Codice di tracciamento affinché scada dopo 30 giorni.
+   2. Un utente arriva al sito tramite un codice di tracciamento. Navigano nel sito, poi se ne vanno.
+   3. Tre settimane dopo, tornano senza un codice di tracciamento o un canale di marketing, e poi se ne vanno di nuovo.
+   4. Altre due settimane dopo (cinque settimane dalla visita iniziale), tornano senza un codice di tracciamento o un canale di marketing, quindi fanno un acquisto.
+   L’utente ha alla fine effettuato un acquisto oltre i 30 giorni, ma non è mai stato inattivo per più di 30 giorni. Vedrai i ricavi attribuiti al canale di marketing dei codici di tracciamento, ma non per la dimensione autonoma.

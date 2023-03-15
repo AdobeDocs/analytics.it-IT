@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
@@ -46,9 +46,9 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
    | **[!UICONTROL Comparison date range]** | L’intervallo di date a cui si desidera confrontare l’intervallo di date principale. |
    | **[!UICONTROL Segment (optional)]** | Qualsiasi segmento a cui sei interessato in modo specifico per questo riepilogo. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Build]**.
+1. Fai clic su **[!UICONTROL Build]** (Usa modello di attribuzione non predefinito).
 
 ## Visualizza l’output
 

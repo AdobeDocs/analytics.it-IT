@@ -11,9 +11,9 @@ ht-degree: 59%
 
 ---
 
-# Note sulla versione di Adobe Analytics per il 2019 (e versioni precedenti)
+# Note sulla versione di Adobe Analytics 2019 (e precedenti)
 
-Nota che questi file .pdf delle Note sulla versione contengono note sulla versione per tutte le soluzioni Adobe Experience Cloud.
+Tieni presente che questi file .pdf delle Note sulla versione contengono note sulla versione per tutte le soluzioni Adobe Experience Cloud.
 
 * [PDF Note sulla versione 2019](2019-Adobe-Experience-Cloud-Release-Notes.pdf)
 * [PDF Note sulla versione 2018](2018-Adobe-Experience-Cloud-Release-Notes.pdf)

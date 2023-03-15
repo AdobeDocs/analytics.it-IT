@@ -50,12 +50,12 @@ Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Percorso finale </p> <p>(impostazione predefinita) </p> </td> 
-   <td colname="col2"> <p>I visitatori (o visite) vengono conteggiati quando arrivano al punto di contatto successivo nel percorso. I rilevamenti sono consentiti tra i punti di contatto. </p> </td> 
+   <td colname="col1"> <p>Percorso finale </p> <p>(Impostazione predefinita) </p> </td> 
+   <td colname="col2"> <p>I visitatori (o visite) vengono conteggiati quando arrivano al punto di contatto successivo nel percorso. Le deviazioni sono consentite tra i punti di contatto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hit successivo </p> </td> 
-   <td colname="col2"> <p>I visitatori (o visite) vengono conteggiati quando arrivano immediatamente sul punto di contatto successivo nel percorso. L’hit successivo include qualsiasi tipo di hit (visualizzazioni di pagina o collegamenti). I rilevamenti non sono consentiti tra punti di contatto. </p> </td> 
+   <td colname="col2"> <p>I visitatori (o visite) vengono conteggiati quando arrivano immediatamente al punto di contatto successivo nel percorso. L’hit successivo include qualsiasi tipo di hit (visualizzazioni di pagina o collegamenti). Non sono consentite deviazioni tra i punti di contatto. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 description: Implementa Adobe Analytics utilizzando Dynamic Tag Management.
-keywords: Implementazione di Analytics;metodo di implementazione;gestione tag dinamica;dtm
+keywords: Implementazione di Analytics;metodo di implementazione;dynamic tag management;dtm
 title: Panoramica sull’implementazione di DTM
 feature: Implementation Basics
 exl-id: 0198422b-af3a-45ce-a41c-bbc9242580bc
@@ -13,4 +13,4 @@ ht-degree: 0%
 
 # Panoramica sull’implementazione di DTM
 
-Dynamic Tag Management è stato ritirato. Utilizzare [tag in Adobe Experience Platform](/help/implement/launch/overview.md) per implementare Adobe Analytics.
+Dynamic Tag Management è stato ritirato. Utilizza [tag in Adobe Experience Platform](/help/implement/launch/overview.md) per implementare Adobe Analytics.

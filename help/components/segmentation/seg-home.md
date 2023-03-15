@@ -23,4 +23,4 @@ I data scientist e gli analisti di marketing possono utilizzare, estendere e per
 
 ## Introduzione
 
-Vedi [Informazioni sui segmenti](/help/components/segmentation/seg-overview.md) per una rapida panoramica. Quindi vai a [Impostazione di un flusso di lavoro di segmentazione](/help/components/segmentation/segmentation-workflow/seg-workflow.md) o [Creazione di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md).
+Consulta [Informazioni sui segmenti](/help/components/segmentation/seg-overview.md) per una rapida panoramica. Quindi vai a [Impostazione di un flusso di lavoro di segmentazione](/help/components/segmentation/segmentation-workflow/seg-workflow.md) o [Creazione di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md).

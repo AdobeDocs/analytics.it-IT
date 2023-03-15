@@ -7,7 +7,7 @@ exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
 source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Per rimuovere un progetto da una cartella, puoi spostarlo in un’altra posizion
 
 ## Spostare un progetto {#move-project-in-folder}
 
-È possibile spostare i progetti da una cartella all’altra creata.
+Puoi spostare i progetti da una cartella a un’altra creata.
 
 1. Dall’interno di una cartella di progetto, seleziona i puntini di sospensione **...** accanto al nome del progetto.
 

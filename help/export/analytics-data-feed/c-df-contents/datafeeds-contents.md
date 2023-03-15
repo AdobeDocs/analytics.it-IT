@@ -1,6 +1,6 @@
 ---
-description: Questa sezione descrive i file trovati in una consegna feed di dati.
-keywords: Feed di dati;processo;contenuto;manifesto;file;ricerca;dati di hit;contenuto della consegna
+description: Questa sezione descrive i file trovati in una consegna di feed dati.
+keywords: Feed dati;processo;contenuto;manifesto;file;ricerca;hit;contenuti consegna
 subtopic: data feeds
 title: 'Contenuti feed dati: panoramica'
 feature: Data Feeds
@@ -14,20 +14,20 @@ ht-degree: 1%
 
 # Contenuti feed dati: panoramica
 
-Questa sezione descrive i file trovati in una consegna feed di dati.
+Questa sezione descrive i file trovati in una consegna di feed dati.
 
 ## File manifesto {#feed-manifest}
 
-Il file manifesto contiene i seguenti dettagli su ogni file che fa parte del set di dati caricati:
+Il file manifesto contiene i seguenti dettagli su ciascun file che fa parte del set di dati caricato:
 
 * Nome file
 * Dimensione file
-* hash MD5
+* Hash MD5
 * Numero di record contenuti nel file
 
-Il file manifesto segue lo stesso formato di un file manifesto Java JAR.
+Il file manifest ha lo stesso formato di un file manifest Java JAR.
 
-Il file manifesto viene sempre consegnato per ultimo come separato `.txt` file, in modo che la sua esistenza indichi che il set di dati completo per quel periodo di richiesta è già stato consegnato. I file manifest sono denominati in base ai seguenti elementi:
+Il file manifesto viene sempre recapitato per ultimo come file separato `.txt` in modo che la sua esistenza indichi che il set di dati completo per tale periodo di richiesta è già stato consegnato. I file manifesto sono denominati in base a quanto segue:
 
 ```text
 [rsid]_[YYYY-mm-dd].txt
@@ -51,15 +51,15 @@ Datafeed-Manifest-Version: 1.0
  Record-Count: 611
 ```
 
-Ogni file manifest contiene un&#39;intestazione che indica il numero totale di file di ricerca, file di dati e il numero totale di record in tutti i file di dati. A questa intestazione seguono più sezioni contenenti informazioni per ciascun file incluso nella consegna del feed di dati.
+Ogni file manifesto contiene un&#39;intestazione che indica il numero totale di file di ricerca, file di dati e il numero totale di record in tutti i file di dati. Questa intestazione è seguita da più sezioni contenenti informazioni per ciascun file incluso nella consegna del feed di dati.
 
-Alcuni feed sono configurati per ricevere un `.fin` file anziché `.txt` manifesto. La `.fin` indica che il caricamento è completo, ma non contiene metadati sul caricamento.
+Alcuni feed sono configurati per ricevere un `.fin` anziché un file `.txt` manifesto. Il `.fin` indica che il caricamento è completo, ma non contiene metadati sul caricamento.
 
-## File di ricerca
+## Ricercare file
 
-Alcune colonne di feed dati producono un numero che corrisponde al valore effettivo. I file di ricerca vengono utilizzati per associare un numero di una colonna di feed di dati e per farlo corrispondere a un valore effettivo. Ad esempio, un valore di &quot;497&quot; nel `browser` la colonna di dati hit indica che l’hit proviene da &quot;Microsoft Internet Explorer 8&quot; se si cerca in `browser.tsv`.
+Alcune colonne di feed dati restituiscono un numero che corrisponde al valore effettivo. I file di ricerca vengono utilizzati per far corrispondere un numero di una colonna di feed dati con un valore effettivo. Ad esempio, un valore di &quot;497&quot; nel campo `browser` la colonna dei dati di hit indica che l’hit proviene da &quot;Microsoft Internet Explorer 8&quot; se si cerca in `browser.tsv`.
 
-Tieni presente che `column_headers.tsv` e `event_list.tsv` sono specifici per il feed di dati e la suite di rapporti. Altri file, ad esempio `browser.tsv`, sono generiche.
+Tieni presente che `column_headers.tsv` e `event_list.tsv` sono specifiche per il feed di dati e la suite di rapporti. Altri file, ad esempio `browser.tsv`, sono generici.
 
 I file di ricerca vengono consegnati insieme in un file ZIP compresso denominato in base ai seguenti elementi:
 
@@ -67,7 +67,7 @@ I file di ricerca vengono consegnati insieme in un file ZIP compresso denominato
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv] (personalizzato per questo feed di dati)
+* [!DNL column_headers.tsv] (personalizzato per questo feed dati)
 * [!DNL browser.tsv]
 * [!DNL browser_type.tsv]
 * [!DNL color_depth.tsv]
@@ -80,52 +80,52 @@ I file di ricerca vengono consegnati insieme in un file ZIP compresso denominato
 * [!DNL resolution.tsv]
 * [!DNL referrer_type.tsv]
 * [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv] (personalizzato per questo feed di dati)
+* [!DNL event_lookup.tsv] (personalizzato per questo feed dati)
 
 ## File di dati di hit
 
-I dati degli hit vengono forniti in un [!DNL hit_data.tsv] file. La quantità di dati in questo file è determinata dal formato di consegna (ogni ora o giorno, e da uno o più file). Questo file contiene solo dati di hit. Le intestazioni di colonna vengono distribuite separatamente con i file di ricerca. Ogni riga in questo file contiene una singola chiamata al server.
+I dati di hit vengono forniti in una [!DNL hit_data.tsv] file. La quantità di dati in questo file è determinata dal formato di consegna (orario o giornaliero e file singoli o multipli). Questo file contiene solo dati di hit. Le intestazioni di colonna vengono consegnate separatamente con i file di ricerca. Ogni riga di questo file contiene una singola chiamata al server.
 
-I file inviati da Adobe variano a seconda del tipo di feed di dati configurato. Tutti i file vengono codificati mediante lo standard ISO-8859-1.
+I file consegnati da Adobe variano in base al tipo di feed di dati configurato. Tutti i file sono codificati con ISO-8859-1.
 
 * `[rsid]` fa riferimento all’ID suite di rapporti da cui proviene il feed di dati.
 * `[index]` viene utilizzato solo in più feed di file e fa riferimento all’ordine corretto dei file impaginati.
-* `[YYYY-mm-dd]` si riferisce al giorno iniziale per il quale viene eseguito il feed di dati.
-* `[HHMMSS]` viene utilizzato solo nei feed orari e si riferisce all’ora di inizio per la quale è destinato il feed di dati.
-* `[compression_suffix]` si riferisce al tipo di compressione utilizzato. In genere i feed di dati vengono compressi in `tar.gz` o `zip` file.
+* `[YYYY-mm-dd]` si riferisce al giorno di inizio previsto per il feed di dati.
+* `[HHMMSS]` viene utilizzato solo nei feed orari e si riferisce all’ora di inizio prevista del feed di dati.
+* `[compression_suffix]` fa riferimento al tipo di compressione utilizzato. In genere, i feed di dati vengono compressi in `tar.gz` o `zip` file.
 
-### File singolo giornaliero
+### Ogni giorno, file singolo
 
-Una volta raccolti i dati per un giorno, riceverai un singolo file di dati compressi e un file manifesto. Il file di dati è denominato:
+Una volta raccolti i dati per un giorno, si riceverà un singolo file di dati compresso e un file manifesto. Il file di dati è denominato:
 
 `[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Quando viene estratto, il file di dati contiene un singolo `hit_data.tsv` file con tutti i dati per quel giorno, nonché file di ricerca per eventuali colonne richieste.
+Quando viene estratto, il file di dati contiene un singolo `hit_data.tsv` con tutti i dati per quel giorno, nonché i file di ricerca per le colonne richieste.
 
-### File giornalieri, più file
+### Giornaliero, più file
 
-Dopo la raccolta dei dati per un giorno, si ricevono uno o più file di dati compressi e un file manifesto. Il file di dati è denominato:
+Una volta raccolti i dati per un giorno, si riceveranno uno o più file di dati compressi e un file manifesto. Il file di dati è denominato:
 
 `[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Quando vengono estratti, ogni file di dati contiene un singolo `hit_data.tsv` che contiene circa 2 GB di dati non compressi, nonché file di ricerca per le colonne richieste.
+Quando estratti, ogni file di dati contiene un singolo `hit_data.tsv` che contiene circa 2 GB di dati non compressi e file di ricerca per le colonne richieste.
 
-### File singolo orario
+### Ogni ora, file singolo
 
-Dopo aver raccolto i dati per un&#39;ora, si riceve un singolo file di dati compressi e un file manifesto. Il file di dati è denominato:
+Una volta raccolti i dati per un&#39;ora, si riceverà un singolo file di dati compresso e un file manifesto. Il file di dati è denominato:
 
 `[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
-Quando viene estratto, il file di dati contiene un singolo `hit_data.tsv` file con tutti i dati per quell&#39;ora, nonché file di ricerca per le colonne richieste.
+Quando viene estratto, il file di dati contiene un singolo `hit_data.tsv` con tutti i dati per quell’ora, nonché i file di ricerca per le colonne richieste.
 
-### File multipli orari
+### Ogni ora, più file
 
-Dopo aver raccolto i dati per un&#39;ora, si ricevono uno o più file di dati compressi e un file manifesto. Il file di dati è denominato:
+Una volta raccolti i dati per un&#39;ora, si riceveranno uno o più file di dati compressi e un file manifesto. Il file di dati è denominato:
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
-Quando vengono estratti, ogni file di dati contiene un singolo `hit_data.tsv` che contiene circa 2 GB di dati non compressi, nonché file di ricerca per le colonne richieste.
+Quando estratti, ogni file di dati contiene un singolo `hit_data.tsv` che contiene circa 2 GB di dati non compressi e file di ricerca per le colonne richieste.
 
-## Dimensioni del file di dati
+## Dimensione file di dati
 
-La dimensione del file di dati di hit varia notevolmente a seconda del numero di variabili utilizzate attivamente e della quantità di traffico inviato alla suite di rapporti. Tuttavia, in media, una riga di dati è di circa 500B (compressi) o 2 KB (non compressi). La moltiplicazione per il numero di chiamate al server può fornire una stima approssimativa della dimensione di un file di feed di dati. Una volta che le organizzazioni iniziano a ricevere i file di feed di dati, puoi trovare un numero più preciso dividendo il numero di righe in `hit_data.tsv` in base alla dimensione totale del file.
+La dimensione del file di dati hit varia notevolmente a seconda del numero di variabili utilizzate attivamente e della quantità di traffico inviato alla suite di rapporti. Tuttavia, in media, una riga di dati è di circa 500B (compressi) o 2KB (non compressi). Moltiplicando questo dato per il numero di chiamate al server si può ottenere una stima approssimativa delle dimensioni di un file di feed dati. Una volta che le organizzazioni iniziano a ricevere i file di feed dati, puoi trovare un numero più preciso dividendo il numero di righe in `hit_data.tsv` in base alla dimensione totale del file.

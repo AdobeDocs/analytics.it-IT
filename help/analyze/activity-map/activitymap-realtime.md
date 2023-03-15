@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 29%
+source-wordcount: '352'
+ht-degree: 31%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 29%
 
 L’analisi delle pagine in tempo reale (modalità Live) consente di ottenere risultati con granularità al minuto in tempo reale.
 
-Activity Map ora visualizza i dati analitici in incrementi di 1 minuto-15 minuti per monitorare la popolarità dei collegamenti in base alle micro-tendenze per le pagine selezionate. Questo è particolarmente importante per le aziende editoriali nel tracciamento e nel rispondere all&#39;interesse crescente o decrescente per le storie e per monitorare il flusso di traffico in tempo reale.
+Activity Map ora visualizza i dati analitici con incrementi da 1 minuto a 15 minuti per monitorare la popolarità dei collegamenti in base alle micro-tendenze per le pagine selezionate. Questo è particolarmente importante per le aziende editoriali che devono tenere traccia delle notizie e rispondere a un interesse crescente o decrescente e monitorare il flusso di traffico in tempo reale.
 
-In qualità di proprietario dei contenuti del sito, parte del tuo lavoro consiste nel capire quando promuovere e rimuovere contenuti e mantenere la nostra esperienza costantemente rilevante. I dati in tempo reale sono la linfa vitale di questa responsabilità. Se riesci a capire quali collegamenti e contenuti sono tendenze in questo momento, puoi agire in modo rapido e deciso per mantenere i lettori e i clienti coinvolti nel tuo marchio.
+In qualità di proprietario di contenuti del sito, parte del tuo lavoro consiste nel capire quando promuovere e rimuovere contenuti e mantenere la nostra esperienza sempre pertinente. I dati in tempo reale sono la linfa vitale di questa responsabilità. Se sei in grado di capire quali collegamenti e contenuti hanno tendenza in questo momento, puoi agire in modo rapido e deciso per mantenere i lettori e i clienti coinvolti con il tuo marchio.
 
 ![](assets/live_mode.png)
 
@@ -27,21 +27,21 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
  -->
 
-Se desideri verificare quale elemento viene selezionato principalmente in modalità Live:
+Se desideri verificare quale elemento viene fatto clic principalmente in modalità Live:
 
-1. Seleziona il periodo di tempo sulla linea di tendenza della barra degli strumenti **[!UICONTROL Live Mode]** da analizzare.
-1. Fai clic sull’icona &quot;Occhio&quot; nella barra degli strumenti per accedere alla tabella dei rapporti Collegamenti .
+1. Selezionare il periodo di tempo sulla barra degli strumenti **[!UICONTROL Live Mode]** linea di tendenza da analizzare.
+1. Fai clic sull’icona &quot;Occhio&quot; nella barra degli strumenti per accedere alla tabella dei rapporti sui collegamenti.
 1. Ordina la tabella in base al collegamento.
 
-## Latenza dei dati a seguito della configurazione di A4T
+## Latenza dei dati come risultato della configurazione A4T
 
-Una volta abilitato l’ [Integrazione A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) in Adobe Target, si verifica una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento della latenza consente la memorizzazione dei dati da Analytics e Target nello stesso hit, con conseguente possibilità di suddividere i test per pagina e sezione del sito.
+Dopo il [Integrazione di A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it) è abilitato in Adobe Target, si verifica una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento della latenza consente la memorizzazione dei dati da Analytics e Target nello stesso hit, con conseguente possibilità di suddividere i test per pagina e sezione del sito.
 
 Questo aumento si riflette in tutti i servizi e gli strumenti di Adobe Analytics, compresi lo streaming live e il reporting in tempo reale e si applica nei seguenti scenari:
 
 * Per lo streaming live, i rapporti in tempo reale e le richieste API e per i dati correnti per le variabili di traffico, vengono ritardati solo gli insiemi con ID di dati supplementari.
 * Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit sono ritardati di altri 5-7 minuti.
 
-L’aumento della latenza inizia dopo l’implementazione del [servizio Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it), anche se questa integrazione non è stata completamente implementata.
+Tieni presente che l&#39;aumento della latenza inizia dopo l&#39;implementazione di [Servizio identità](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it), anche se non hai implementato completamente questa integrazione.
 
-Maggiori informazioni [qui](/help/analyze/activity-map/activitymap-standard-live.md).
+Ulteriori informazioni [qui](/help/analyze/activity-map/activitymap-standard-live.md).

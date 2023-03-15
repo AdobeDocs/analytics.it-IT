@@ -1,5 +1,5 @@
 ---
-description: Gestire gli avvisi
+description: Gestire gli avvisi.
 title: Panoramica di Gestione avvisi
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
@@ -25,7 +25,7 @@ La Gestione avvisi disponibile da ( **[!UICONTROL Analytics]** > **[!UICONTROL C
 * Approvare gli avvisi
 * Copiare gli avvisi
 * Abilitare/disabilitare gli avvisi
-* **Rinnovare** la data di scadenza di un avviso. Se sono selezionati uno o più avvisi, è possibile rinnovarli facendo clic su **[!UICONTROL Renew]**.Questa funzione sposta le rispettive date di scadenza a 1 anno dal giorno **[!UICONTROL Renew]** è stato fatto clic su , indipendentemente dalla data di scadenza originale.
+* **Rinnovare** la data di scadenza di un avviso. Quando sono selezionati uno o più avvisi, è possibile rinnovarli facendo clic su **[!UICONTROL Renew]**.Questa funzione sposta le rispettive date di scadenza a 1 anno dal giorno **[!UICONTROL Renew]** è stato cliccato, indipendentemente dalla data di scadenza originale.
 * Esportare un avviso come file .CSV
 * Modificare gli avvisi facendo doppio clic sul titolo
 * Cercare gli avvisi

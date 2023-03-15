@@ -24,7 +24,7 @@ Questo articolo è pensato per gli amministratori a livello di sistema o per gli
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Fai clic su **[!UICONTROL Create New]** > **[!UICONTROL Report Suite]**.
-1. Selezionare un modello predefinito o una suite di rapporti esistente da utilizzare come [template](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md).
+1. Seleziona un modello predefinito o una suite di rapporti esistente da utilizzare come [modello](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md).
 
    >[!NOTE]
    >

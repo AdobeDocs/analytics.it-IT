@@ -1,18 +1,20 @@
 ---
-title: Risorse per la sicurezza di Adobe Analytics
-description: Collegamenti alle risorse Adobe relative alle procedure di sicurezza e ai piani di ripristino.
-translation-type: tm+mt
-source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
+title: Risorse di sicurezza di Adobe Analytics
+description: Collegamenti alle risorse di Adobe relative alle procedure di sicurezza e ai piani di ripristino.
+exl-id: 276285f3-349b-4261-bea1-25bdc0996fbf
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 
+# Risorse di sicurezza di Adobe Analytics
 
-# Risorse per la sicurezza di Adobe Analytics
+L&#39;Adobe segue i processi di sicurezza e i controlli stabiliti per conformarsi agli standard, alle normative e alle certificazioni accettati dal settore.
 
-Adobe segue i processi e i controlli di sicurezza stabiliti per conformarsi a standard, regolamenti e certificazioni accettati dal settore.
+Le informazioni sulle pratiche di sicurezza a livello aziendale sono disponibili all’indirizzo [adobe.com/security](https://adobe.com/security.html).
 
-Informazioni sulle procedure di sicurezza a livello di società sono disponibili all&#39;indirizzo [adobe.com/security](https://adobe.com/security.html).
+Le informazioni sulle pratiche specifiche di Adobe Analytics sono disponibili nella sezione [Panoramica sulla sicurezza di Adobe Analytics](https://www.adobe.com/content/dam/acom/en/security/pdfs/ADB-AnalyticsSecurity-WP.pdf). Descrive i processi seguiti per architettura, autenticazione, centri dati, rete e personale.
 
-Informazioni sulle pratiche specifiche di Adobe Analytics sono disponibili nella panoramica sulla sicurezza di [Adobe Analytics](https://www.adobe.com/content/dam/acom/en/security/pdfs/ADB-AnalyticsSecurity-WP.pdf). Descrive i processi seguiti intorno a architettura, autenticazione, centri dati, rete e personale.
-
-Se trovi una vulnerabilità da segnalare, consulta il programma [di divulgazione delle vulnerabilità dei servizi Web di](https://hackerone.com/adobe) Adobe su HackerOne.
+Consulta [programma di divulgazione di vulnerabilità dei servizi web di Adobe](https://hackerone.com/adobe) su HackerOne se riscontri una vulnerabilità da segnalare.

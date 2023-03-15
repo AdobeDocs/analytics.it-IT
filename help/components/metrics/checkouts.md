@@ -12,8 +12,8 @@ ht-degree: 2%
 
 # Pagamenti
 
-La metrica &quot;Pagamenti&quot; mostra il numero di volte in cui un visitatore ha avviato il processo di pagamento. Questa metrica è utile quando desideri comprendere la parte del funnel di conversione in cui i clienti hanno un carrello di prodotti e sono pronti per acquistarli.
+La metrica &quot;Casse&quot; mostra quante volte un visitatore ha avviato il processo di pagamento. Questa metrica è utile quando vuoi comprendere la parte del funnel di conversione in cui i clienti hanno un carrello di prodotti e sono pronti ad acquistarli.
 
-## Calcolo di questa metrica
+## Modalità di calcolo di questa metrica
 
 Questa metrica conta il numero di hit in cui `scCheckout` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.

@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Utilizza un [!UICONTROL Combo chart] per
 
 Aspetti da considerare:
 
-* È possibile aggiungere più confronti in un unico [!UICONTROL Combo chart].
+* Aggiungere più confronti in un singolo [!UICONTROL Combo chart].
 * Se aggiungi uno o più confronti, questi devono essere dello stesso tipo, ad esempio [!UICONTROL Time comparison].
 * Puoi aggiungere fino a 5 confronti.
 * Puoi applicare fino a 3 filtri (segmenti) a una metrica.
@@ -47,9 +47,9 @@ Aspetti da considerare:
    | **[!UICONTROL Function]** | Potresti introdurre nel confronto una funzione come [!UICONTROL Average]. Di seguito trovi un elenco delle funzioni supportate.<p>![](assets/combo-functions.png) |
    | **[!UICONTROL Secondary metric]** | Per esempio, puoi confrontare [!UICONTROL Revenue] con un’altra metrica.<p>![](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Build]**.
+1. Fai clic su **[!UICONTROL Build]** (Usa modello di attribuzione non predefinito).
 
    L’output sarà simile al seguente:
 
@@ -71,7 +71,7 @@ Se scegli **[!UICONTROL Function]** come [!UICONTROL Line comparison type], verr
 | **[!UICONTROL Mean]** | Restituisce la media aritmetica di una metrica. |
 | **[!UICONTROL Column Minimum]** | Restituisce il valore più piccolo in un insieme di elementi dimensionali della colonna di una metrica. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Ecco un esempio della media cumulativa della metrica Ricavi:
 
@@ -103,4 +103,4 @@ Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico comb
 | **[!UICONTROL Show y-axis]** | Visualizzare o nascondere l’asse y. |
 | **[!UICONTROL Anchor y-axis at zero]** | Se tutti i valori rappresentati sul grafico sono uniformemente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà NON-ZERO. Attivando questa opzione, l’asse y verrà forzata sullo zero (e il grafico verrà ridisegnato). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

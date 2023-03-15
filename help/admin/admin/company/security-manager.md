@@ -5,8 +5,8 @@ feature: Company Settings
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
 source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '469'
+ht-degree: 100%
 
 ---
 

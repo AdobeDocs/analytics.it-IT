@@ -26,7 +26,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannello:
 | [Pannello Analytics for Target](a4t-panel.md) | Analizza le attività ed esperienze Target in Analysis Workspace. |
 | [Pannello Attribution](attribution.md) | Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione. |
 | [Pannello a forma libera](freeform-panel.md) | Esegui confronti illimitati e raggruppamenti, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
-| [Pannello Pubblico medio per minuto](average-minute-audience-panel.md) | Analizza nel tempo il pubblico medio dei minuti, con dettagli sulle visualizzazioni di picco e sulla possibilità di suddividerlo e confrontarlo. |
+| [Pannello Pubblico medio per minuto](average-minute-audience-panel.md) | Analizza il pubblico medio per minuto nel tempo, con dettagli sulle visualizzazioni di picco e con la possibilità di suddividerlo e confrontarlo. |
 | [Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
 | [Pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)](media-playback-timespent/media-playback-time-spent.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
 | [Pannello Segment Comparison](c-segment-comparison/segment-comparison.md) | Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti. |
@@ -50,7 +50,7 @@ L’elenco delle suite di rapporti è ordinato in base alla rilevanza, che Adobe
 Il calendario del pannello controlla l’intervallo di reporting per tabelle e visualizzazioni all’interno di un pannello.
 
 >[!NOTE]
->Se un componente Intervallo date (viola) viene utilizzato all’interno di una zona di rilascio di una tabella, una visualizzazione o un pannello, questo sostituisce il calendario del pannello.
+>Se un componente di intervallo date (viola) viene utilizzato all’interno di una tabella, di una visualizzazione o di una zona di rilascio di un pannello, questo sovrascrive il calendario del pannello.
 
 ![](assets/panel-calendar.png)
 
@@ -58,7 +58,7 @@ Puoi applicare un intervallo di date a livello di minuto nelle impostazioni avan
 
 ## Zona di rilascio {#dropzone}
 
-La zona di rilascio del pannello consente di applicare filtri a segmenti e filtri a discesa a tutte le tabelle e visualizzazioni all’interno di un pannello. Puoi applicare uno o più filtri a un pannello. Per modificare il titolo sopra ogni filtro, fai clic sull’icona della matita (Modifica); per rimuoverlo, fai clic con il pulsante destro del mouse.
+La zona di rilascio del pannello consente di applicare segmenti e filtri a discesa a tutte le tabelle e visualizzazioni di un pannello. Puoi applicare uno o più filtri a un pannello. Per modificare il titolo sopra ogni filtro, fai clic sull’icona della matita (Modifica); per rimuoverlo, fai clic con il pulsante destro del mouse.
 
 ### Filtri dei segmenti
 
@@ -68,9 +68,9 @@ Per iniziare a filtrare il pannello., trascina un segmento dalla barra a sinistr
 
 ### Filtri di segmenti ad hoc
 
-Puoi anche trascinare componenti non di segmento direttamente nella zona di rilascio per creare segmenti ad hoc, risparmiando tempo e fatica nell’andare al Generatore di segmenti. I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di hit. Puoi modificarli come di consueto facendo clic sull’icona delle informazioni (i) accanto al segmento, quindi sull’icona Modifica a forma di matita per accedere al Generatore di segmenti.
+Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di rilascio, per creare segmenti ad hoc in modo più rapido e senza dover passare al Generatore di segmenti. I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di hit. Puoi modificarli come di consueto facendo clic sull’icona delle informazioni (i) accanto al segmento, quindi sull’icona Modifica a forma di matita per accedere al Generatore di segmenti.
 
-I segmenti ad hoc sono locali per il progetto e non vengono visualizzati nella barra a sinistra a meno che tu non li renda pubblici.
+I segmenti ad hoc sono locali per il progetto e non vengono visualizzati nella barra a sinistra, a meno che non li rendi pubblici.
 
 ![](/help/admin/admin/assets/filter.png)
 

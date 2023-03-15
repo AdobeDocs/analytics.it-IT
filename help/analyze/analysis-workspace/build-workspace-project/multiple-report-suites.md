@@ -21,7 +21,7 @@ Questa funzionalità è utile, ad esempio, per:
 
 * Creare un dashboard di metriche e visualizzazioni da segnalare ad altre organizzazioni. Ora puoi estrarre dati da varie suite di rapporti nello stesso progetto.
 
-Ecco un video sull&#39;argomento:
+Video sull&#39;argomento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 

@@ -178,7 +178,7 @@ QUARTILE(metric,quart)
 | *metrica* | La metrica di cui desideri il valore del quartile. |
 | *quarto* | Indica il valore* da restituire. |
 
-*Se *quarto* = 0, QUARTILE restituisce il valore minimo. Se *quarto* = 1, QUARTILE restituisce il primo quartile (25 percentile). Se *quarto* = 2, QUARTILE restituisce il primo quartile (50 percentile). Se *quarto* = 3, QUARTILE restituisce il primo quartile (75 percentile). Se *quarto* = 4, QUARTILE restituisce il valore massimo.
+&#42;Se *quarto* = 0, QUARTILE restituisce il valore minimo. Se *quarto* = 1, QUARTILE restituisce il primo quartile (25 percentile). Se *quarto* = 2, QUARTILE restituisce il primo quartile (50 percentile). Se *quarto* = 3, QUARTILE restituisce il primo quartile (75 percentile). Se *quarto* = 4, QUARTILE restituisce il valore massimo.
 
 ## Arrotondamento {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
@@ -237,7 +237,7 @@ L’equazione per STDEV è:
 
 ![](assets/std_dev.png)
 
-Dove *x* è il valore di ciascun campione (*metrica*), *x̄* è la media della popolazione e *n* è la dimensione della popolazione.
+Dove *x* è il valore di ciascun campione (*metrica*), *x̄* è la popolazione media e *n* è la dimensione della popolazione.
 
 ```
 STDEV(metric)
@@ -255,7 +255,7 @@ L’equazione per VARIANCE è:
 
 ![](assets/variance_eq.png)
 
-Dove *x* è il valore di ciascun campione (*metrica*), *x̄* è la media della popolazione e *n* è la dimensione della popolazione.
+Dove *x* è il valore di ciascun campione (*metrica*), *x̄* è la popolazione media e *n* è la dimensione della popolazione.
 
 ```
 VARIANCE(metric)

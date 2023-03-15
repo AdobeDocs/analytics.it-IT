@@ -1,5 +1,5 @@
 ---
-description: Definisce le impostazioni comuni per un sito web che sviluppa contenuti originali e visualizza articoli e video.
+description: Definisce le impostazioni comuni per un sito Web che sviluppa contenuti originali e visualizza articoli e video.
 title: Contenuto e media
 feature: Report Suite Settings
 exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
@@ -12,7 +12,7 @@ ht-degree: 82%
 
 # Contenuto e media
 
-Definisce le impostazioni comuni per un sito web che sviluppa contenuti originali e visualizza articoli e video.
+Definisce le impostazioni comuni per un sito Web che sviluppa contenuti originali e visualizza articoli e video.
 
 | Variabili di conversione | Tipo | Sottorelazioni | Allocazione | Scadenza | variabile `s_code` |
 |---|---|---|---|---|---|
@@ -27,8 +27,8 @@ Definisce le impostazioni comuni per un sito web che sviluppa contenuti original
 | Registrazioni e-mail | Contatore (nessuna sottorelazione) | `event2` |
 | Abbonamenti | Contatore (nessuna sottorelazione) | `event3` |
 | Visualizzazioni pagina | Contatore (nessuna sottorelazione) | `event4` |
-| Impression annunci | Contatore (nessuna sottorelazione) | `event5` |
-| Clic sugli annunci | Contatore (nessuna sottorelazione) | `event6` |
+| Impression annuncio | Contatore (nessuna sottorelazione) | `event5` |
+| Clic sull’annuncio | Contatore (nessuna sottorelazione) | `event6` |
 
 | Variabili Custom Insight | variabile `s_code` |
 |---|---|

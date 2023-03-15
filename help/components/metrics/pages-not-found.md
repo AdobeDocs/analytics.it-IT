@@ -12,10 +12,10 @@ ht-degree: 2%
 
 # Pagine non trovate
 
-*Questa pagina di aiuto descrive il funzionamento di &quot;Pagine non trovate&quot; come metrica. Consulta la sezione [Pagine non trovate](../dimensions/pages-not-found.md) per ulteriori informazioni.*
+*Questa pagina della guida descrive come funziona &quot;Pagine non trovate&quot; come metrica. Consulta la [Pagine non trovate](../dimensions/pages-not-found.md) per ulteriori informazioni.*
 
-La metrica &quot;Pagine non trovate&quot; mostra il numero di hit in cui la pagina conteneva un errore. Questa metrica è utile quando desideri vedere quali pagine o URL contenevano messaggi di errore (ad esempio un 404), in modo da determinare la causa dell’errore e correggerlo.
+La metrica &quot;Pagine non trovate&quot; mostra il numero di hit in cui la pagina conteneva un errore. Questa metrica è utile quando desideri visualizzare quali pagine o URL contenevano messaggi di errore (ad esempio, un errore 404), in modo da poter determinare la causa dell’errore e correggerlo.
 
-## Calcolo di questa metrica
+## Modalità di calcolo di questa metrica
 
-Questa metrica conta tutti gli hit in cui [`pageType`](/help/implement/vars/page-vars/pagetype.md) è uguale al valore di `"errorPage"`. È l’equivalente metrico del [Pagine non trovate](../dimensions/pages-not-found.md) dimensione.
+Questa metrica conta tutti gli hit in cui [`pageType`](/help/implement/vars/page-vars/pagetype.md) variabile è uguale al valore di `"errorPage"`. È l’equivalente metrico del valore [Pagine non trovate](../dimensions/pages-not-found.md) dimensione.

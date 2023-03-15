@@ -1,5 +1,5 @@
 ---
-description: Utilizza l’ID transazione nelle origini dati per collegare insieme dati online e offline.
+description: Utilizza l’ID transazione nelle origini dati per collegare dati online e offline.
 title: ID transazione e profili visitatore
 topic-fix: Developer and implementation
 feature: Data Sources

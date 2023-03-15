@@ -1,33 +1,33 @@
 ---
-title: Compatibilità Dimension di Analytics
+title: Compatibilità dei Dimension Analytics
 description: Riferimento per dimensioni e rapporti di Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 26%
+ht-degree: 33%
 
 ---
 
-# Compatibilità Dimension di Analytics
+# Compatibilità dei Dimension Analytics
 
-Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di Analytics.
-
->[!NOTE]
->
->I nomi delle variabili personalizzate, le classificazioni e gli attributi dei visitatori vengono omessi da questo elenco. Questi elementi dimensionali sono specifici delle singole suite di rapporti.
+In questa pagina sono elencate le dimensioni supportate nelle rispettive funzionalità di Analytics.
 
 >[!NOTE]
 >
->Ci sono alcune sovrapposizioni in cui gli strumenti di Analytics utilizzano termini diversi per dimensioni simili. Ad esempio, Reports &amp; Analytics utilizza `browserwidth` mentre Analysis Workspace utilizza `browserwidthbucketed`.
+>I nomi delle variabili, le classificazioni e gli attributi dei visitatori personalizzati vengono omessi da questo elenco. Questi elementi dimensionali sono specifici per le singole suite di rapporti.
 
-## Dimension supportati sia in Reports &amp; Analytics che in Analysis Workspace
+>[!NOTE]
+>
+>In alcuni casi, gli strumenti di Analytics utilizzano termini diversi per dimensioni simili. Ad esempio, Reports &amp; Analytics utilizza `browserwidth` mentre Analysis Workspace utilizza `browserwidthbucketed`.
+
+## Dimension supportati in Reports &amp; Analytics e Analysis Workspace
 
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |---|---|
 | Analytics for Target | `targetraw` |
-| ID pubblico | `mcaudiences` |
+| ID tipi di pubblico | `mcaudiences` |
 | Browser | `browser` |
 | Tipo di browser | `browsertype` |
 | Categoria | `category` |
@@ -38,7 +38,7 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 | Paesi | `geocountry` |
 | Fedeltà cliente | `customerloyalty` |
 | Variabili di conversione personalizzate | `evar1`, `evar2`, ecc. |
-| Var Custom Insight | `prop1`, `prop2`, ecc. |
+| Variabili Custom Insight | `prop1`, `prop2`, ecc. |
 | Collegamento personalizzato | `customlink` |
 | Giorni precedenti al primo acquisto | `daysbeforefirstpurchase` |
 | Giorni dall&#39;ultimo acquisto | `dayssincelastpurchase` |
@@ -47,8 +47,8 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 | Pagina di ingresso | `entrypage` |
 | Pagina di ingresso originale | `entrypageoriginal` |
 | Collegamento di uscita. | `exitlink` |
-| Canale primo contatto | `firsttouchchannel` |
-| Dettaglio del canale di primo contatto | `firsttouchchanneldetail` |
+| Canale di primo contatto | `firsttouchchannel` |
+| Dettaglio canale di primo contatto | `firsttouchchanneldetail` |
 | Java abilitato | `javaenabled` |
 | Lingua | `language` |
 | Canale ultimo contatto | `lasttouchchannel` |
@@ -58,7 +58,7 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 | Supporto audio per dispositivi mobili | `mobileaudiosupport` |
 | Gestore di telefonia mobile | `mobilecarrier` |
 | Profondità colore mobile | `mobilecolordepth` |
-| Supporto per cookie per dispositivi mobili | `mobilecookiesupport` |
+| Supporto per cookie mobili | `mobilecookiesupport` |
 | Dispositivo mobile | `mobiledevicename` |
 | Tipo di dispositivo mobile | `mobiledevicetype` |
 | Lunghezza massima e-mail mobile | `mobileemaillength` |
@@ -69,14 +69,14 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 | Dimensioni dello schermo del dispositivo mobile | `mobilescreensize` |
 | Larghezza schermo mobile | `mobilescreenwidth` |
 | Lunghezza massima URL browser mobile | `mobileurllength` |
-| Supporto video mobile | `mobilevideosupport` |
+| Supporto video per dispositivi mobili | `mobilevideosupport` |
 | Risoluzione monitor | `monitorresolution` |
 | Sistemi operativi | `operatingsystem` |
 | Dominio di riferimento originale | `referringdomainoriginal` |
 | Pagina | `page` |
 | Pagine non trovate | `pagesnotfound` |
 | Prodotto | `product` |
-| Referrer | `referrer` |
+| Destinatario che inoltra | `referrer` |
 | Tipo di riferimento | `referrertype` |
 | Dominio di riferimento | `referringdomain` |
 | Aree geografiche | `georegion` |
@@ -85,9 +85,9 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 | Motore di ricerca | `searchengine` |
 | Parola chiave di ricerca | `searchenginekeyword` |
 | Motore di ricerca - Naturale | `searchenginenatural` |
-| Motore di ricerca - Pagato | `searchenginepaid` |
+| Motore di ricerca - A pagamento | `searchenginepaid` |
 | Parola chiave di ricerca - Naturale | `searchenginenaturalkeyword` |
-| Parola chiave di ricerca - Pagato | `searchenginepaidkeyword` |
+| Parola chiave di ricerca - A pagamento | `searchenginepaidkeyword` |
 | Classificazione di tutte le pagine di ricerca | `searchenginepagerank` |
 | Server | `server` |
 | Visite a pagina singola | `singlepagevisits` |
@@ -104,7 +104,7 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 
 ## Dimension supportati solo in Analysis Workspace
 
-| Nome del Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
 | AM/PM | `timepartampm` |
 | Altezza browser - Bucket | `browserheightbucketed` |
@@ -115,28 +115,28 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 | Giorno della settimana | `timepartdayofweek` |
 | Giorno dell’anno | `timepartdayofyear` |
 | Giorni dall&#39;ultima visita | `dayssincelastvisit` |
-| Approfondimenti personalizzati voce | `entryprops` |
+| Immissione di approfondimenti personalizzati | `entryprops` |
 | Variabili elenco voci | `entrylistvariables` |
 | Server di ingresso | `entryserver` |
 | Sezione sito di ingresso | `entrysitesections` |
-| Esci da approfondimenti personalizzati | `exitprops` |
-| Variabili elenco di uscita | `exitlistvariables` |
-| Pagina di uscita | `exitpage` |
+| Esci da Approfondimenti personalizzati | `exitprops` |
+| Esci da variabili elenco | `exitlistvariables` |
+| Esci da pagina | `exitpage` |
 | Esci dal server | `exitserver` |
 | Esci dalla sezione del sito | `exitsitesections` |
 | Profondità di hit | `hitdepth` |
 | Tipo di hit | `hittype` |
 | Ora | `daterangehour` |
 | Ora del giorno | `timeparthourofday` |
-| Dettaglio del canale di marketing | `marketingchanneldetail` |
+| Dettagli canale di marketing | `marketingchanneldetail` |
 | Minuto | `daterangeminute` |
 | Lunghezza massima segnalibro mobile | `mobilebookmarklength` |
 | Numero dispositivo mobile | `mobiledevicenumber` |
 | DRM mobile | `mobiledrm` |
 | Mobile Information Services | `mobileinformationservices` |
-| Java VM mobile | `mobilejavavm` |
+| VM Java mobile | `mobilejavavm` |
 | Decoration Mail mobile | `mobilemaildecoration` |
-| Protocolli di rete per dispositivi mobili | `mobilenetprotocols` |
+| Protocolli di rete mobile | `mobilenetprotocols` |
 | Push-to-talk per dispositivi mobili | `mobilepushtotalk` |
 | Mese | `daterangemonth` |
 | Mese dell’anno | `timepartmonthofyear` |
@@ -155,18 +155,18 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 
 ## Dimensioni in base al contenuto supportate solo in Analysis Workspace
 
-| Nome del Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
-| Activity Map XY | `clickmapxy` |
+| XY ACTIVITY MAP | `clickmapxy` |
 | ID sessione multimediale | `videosessionid` |
 | Metodo di accesso Nielsen | `nielsenaccmethod` |
 | ID app Nielsen | `nielsenappid` |
-| Risorsa canale Nielsen | `nielsenchannelasset` |
+| Risorsa di canale Nielsen | `nielsenchannelasset` |
 | Tipo di contenuto Nielsen | `nielsencontenttype` |
 
 ## Dimension supportati solo in Reports &amp; Analytics
 
-| Nome del Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
 | Altezza browser | `browserheight` |
 | Larghezza browser | `browserwidth` |
@@ -185,22 +185,22 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 
 ### Video (Media Analytics)
 
-| Nome del Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
 | Contenuto | `video` |
 | Segmento di contenuto | `videosegment` |
 | Tipo di contenuto | `videocontenttype` |
-| Nome del lettore pubblicitario | `videoadplayername` |
-| Aggiungi in posizione contenitore | `videoadinpod` |
+| Nome del lettore dell’annuncio | `videoadplayername` |
+| Annuncio in posizione pod | `videoadinpod` |
 | Frame rilasciati | `videoqoedroppedframecountevar` |
 | Errori | `videoqoeerrorcountevar` |
 | Bitrate medio | `videoqoebitrateaverageevar` |
 | Modifiche bitrate | `videoqoebitratechangecountevar` |
 | Durata totale buffer | `videoqoebuffertimeevar` |
 | Eventi buffer | `videoqoebuffercountevar` |
-| Ora di inizio | `videoqoetimetostartevar` |
-| Ad Pod | `videoadpod` |
-| Percorso multimediale | `videopath` |
+| Tempo di avvio | `videoqoetimetostartevar` |
+| Pod annuncio | `videoadpod` |
+| Percorso file multimediale | `videopath` |
 | Annuncio | `videoad` |
 | Nome del lettore di contenuti | `videoplayername` |
 | Canale del contenuto | `videochannel` |
@@ -209,14 +209,14 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 | Lunghezza del contenuto (variabile) | `videolength` |
 | Nome annuncio (variabile) | `videoadname` |
 | Lunghezza annuncio (variabile) | `videoadlength` |
-| Mostra le informazioni | `videoshow` |
+| Spettacolo | `videoshow` |
 | Stagione | `videoseason` |
 | Episodio | `videoepisode` |
-| Rete  | `videonetwork` |
-| Mostra tipo | `videoshowtype` |
+| Rete | `videonetwork` |
+| Tipo di spettacolo | `videoshowtype` |
 | Caricamenti annunci | `videoadload` |
 | MVPD | `videomvpd` |
-| Parte giorno | `videodaypart` |
+| Fascia oraria | `videodaypart` |
 | Inserzionista | `videoadadvertiser` |
 | ID campagna | `videoadcampaign` |
 | Genere | `videogenre` |
@@ -224,44 +224,44 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 | ID errore SDK del lettore | `videoqoeplayersdkerrors` |
 | ID errore esterni | `videoqoeextneralerrors` |
 | Tipo di feed multimediale | `videofeedtype` |
-| Percorso file multimediali in ingresso | `entryvideopath` |
-| Esci dal percorso multimediale | `exitvideopath` |
-| Genere di ingresso | `entryvideogenre` |
-| Tipo di uscita | `exitvideogenre` |
-| ID errore SDK del lettore di ingresso | `entryvideoqoeplayersdkerrors` |
-| Esci dagli ID errore SDK del lettore | `exitvideoqoeplayersdkerrors` |
-| ID errore esterno voce | `entryvideoqoeextneralerrors` |
-| Esci dagli ID errore esterni | `exitvideoqoeextneralerrors` |
+| Percorso file multimediale di ingresso | `entryvideopath` |
+| Esci da percorso file multimediale | `exitvideopath` |
+| Genere voce | `entryvideogenre` |
+| Genere di uscita | `exitvideogenre` |
+| ID degli errori SDK del lettore della voce | `entryvideoqoeplayersdkerrors` |
+| ID degli errori dell’SDK di uscita dal lettore | `exitvideoqoeplayersdkerrors` |
+| ID errore esterni di immissione | `entryvideoqoeextneralerrors` |
+| Esci da ID errore esterni | `exitvideoqoeextneralerrors` |
 
 ### Adobe Social
 
-| Nome del Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
 | Termini | `socialterm` |
-| Piattaforme/proprietà social | `socialcontentprovider` |
+| Piattaforme/Proprietà social | `socialcontentprovider` |
 | Autori | `socialauthor` |
 | Lingua | `sociallanguage` |
-| Latitudine/longitudine | `sociallatlong` |
-| Codici di tracciamento delle risorse | `socialassettrackingcode` |
+| Latitudine/Longitudine | `sociallatlong` |
+| Codici di tracciamento risorse | `socialassettrackingcode` |
 | Proprietà social possedute | `socialaccountandappids` |
 | ID post di proprietà | `socialownedpostids` |
-| Definizioni sociali di proprietà | `socialinteractiontype` |
-| ID proprietà posseduti | `socialownedpropertyid` |
+| Definizioni social di proprietà | `socialinteractiontype` |
+| ID proprietà possedute | `socialownedpropertyid` |
 | Proprietà di proprietà e applicazione | `socialownedpropertypropertyvsapp` |
-| Nome proprietà posseduto | `socialownedpropertyname` |
-| Proprietà definizione posseduta e post | `socialowneddefinitionpropertyvspost` |
-| Tipo di visione della definizione di proprietà | `socialowneddefinitioninsighttype` |
-| Valore di conoscenza della definizione di proprietà | `socialowneddefinitioninsightvalue` |
+| Nome proprietà di proprietà | `socialownedpropertyname` |
+| Proprietà definizione di proprietà e post | `socialowneddefinitionpropertyvspost` |
+| Tipo di informazioni sulla definizione di proprietà | `socialowneddefinitioninsighttype` |
+| Valore informazioni definizione di proprietà | `socialowneddefinitioninsightvalue` |
 | Metrica di definizione di proprietà | `socialowneddefinitionmetric` |
 | Risorsa | `socialmediaid` |
 
 ### Mobile SDK
 
-| Nome del Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
 | Data primo avvio | `mobileinstalldate` |
-| Id App | `mobileappid` |
-| Numero di avvii | `mobilelaunchnumber` |
+| ID app | `mobileappid` |
+| Numero avvii | `mobilelaunchnumber` |
 | Giorni dal primo utilizzo | `mobiledayssincefirstuse` |
 | Giorni dall’ultimo utilizzo | `mobiledayssincelastuse` |
 | Ora del giorno (SDK) | `mobilehourofday` |
@@ -269,10 +269,10 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 | Sistema operativo (SDK) | `mobileosenvironment` |
 | Giorni dall’ultimo aggiornamento | `mobiledayssincelastupgrade` |
 | Avvii dall’ultimo aggiornamento | `mobilelaunchessincelastupgrade` |
-| Nome del dispositivo (SDK) | `mobiledevice` |
-| Versione del sistema operativo (SDK) | `mobileosversion` |
+| Nome dispositivo (SDK) | `mobiledevice` |
+| Versione sistema operativo (SDK) | `mobileosversion` |
 | Beacon principale | `mobilebeaconmajor` |
-| Beacon minore | `mobilebeaconminor` |
+| Beacon secondario | `mobilebeaconminor` |
 | UUID beacon | `mobilebeaconuuid` |
 | Prossimità beacon | `mobilebeaconproximity` |
 | Posizione (fino a 10 chilometri) | `latlon1` |
@@ -281,68 +281,68 @@ Questa pagina elenca le dimensioni supportate nelle rispettive funzionalità di 
 | Nome del punto di interesse | `pointofinterest` |
 | Distanza dal centro del punto di interesse | `pointofinterestdistance` |
 | Precisione della posizione | `mobileplaceaccuracy` |
-| Categoria posto | `mobileplacecategory` |
-| ID posizione | `mobileplaceid` |
-| Beacon principale di ingresso | `entrymobilebeaconmajor` |
-| Esci dal beacon principale | `exitmobilebeaconmajor` |
+| Categoria del luogo | `mobileplacecategory` |
+| ID luogo | `mobileplaceid` |
+| Beacon di ingresso principale | `entrymobilebeaconmajor` |
+| Esci da beacon principale | `exitmobilebeaconmajor` |
 | Beacon di ingresso secondario | `entrymobilebeaconminor` |
-| Esci beacon secondario | `exitmobilebeaconminor` |
+| Esci da beacon secondario | `exitmobilebeaconminor` |
 | UUID beacon di ingresso | `entrymobilebeaconuuid` |
-| Esci da UUID beacon | `exitmobilebeaconuuid` |
+| UUID beacon di uscita | `exitmobilebeaconuuid` |
 | Prossimità beacon di ingresso | `entrymobilebeaconproximity` |
 | Esci da prossimità beacon | `exitmobilebeaconproximity` |
 
 ### Adobe Advertising Cloud (AMO)
 
-| Nome del Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
-| ID EF AMO | `amo_ef_id` |
+| ID AMO EF | `amo_ef_id` |
 | ID AMO | `amo_cid` |
 
 ### Activity Map
 
-| Nome del Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
 | Collegamento Activity Map per area geografica | `clickmaplinkbyregion` |
-| Area geografica di Activity Map | `clickmapregion` |
+| Regione Activity Map | `clickmapregion` |
 | Collegamento alla Activity Map | `clickmaplink` |
 | Pagina della Activity Map | `clickmappage` |
 
 ### Integrazione Nielsen
 
-Per ulteriori informazioni su come implementare questa integrazione, consulta la sezione [Estensione Nielsen](https://exchange.adobe.com/experiencecloud.details.101361.html).
+Per ulteriori informazioni su come implementare questa integrazione, vedi [Estensione Nielsen](https://exchange.adobe.com/experiencecloud.details.101361.html).
 
-| Nome del Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
-| Modello di annunci Nielsen | `nielsenadmodel` |
-| Segmento Nielsen C | `nielsensegmentc` |
-| Segmento Nielsen B | `nielsensegmentb` |
-| Segmento Nielsen A | `nielsensegmenta` |
+| Modello annuncio Nielsen | `nielsenadmodel` |
+| Nielsen, segmento C | `nielsensegmentc` |
+| Nielsen, segmento B | `nielsensegmentb` |
+| Nielsen, segmento A | `nielsensegmenta` |
 | ID contenuto Nielsen | `nielsencontentid` |
-| Risorsa/programma Nielsen | `nielsenasset` |
+| Risorsa/Programma Nielsen | `nielsenasset` |
 | Nielsen VCID | `nielsenvcid` |
-| Nielsen Opt Out | `nielsenoptout` |
+| Rinuncia di Nielsen | `nielsenoptout` |
 | ID client Nielsen + VCID | `nielsenclientidvcid` |
 | ID client Nielsen | `nielsenclientid` |
-| Ingresso Nielsen Opt Out | `entrynielsenoptout` |
+| Voce Nielsen - Rinuncia | `entrynielsenoptout` |
 | Esci da Nielsen Opt Out | `exitnielsenoptout` |
-| ID client Nielsen + VCID | `entrynielsenclientidvcid` |
-| Esci dall’ID client Nielsen + VCID | `exitnielsenclientidvcid` |
-| ID client Nielsen di ingresso | `entrynielsenclientid` |
-| Esci dall’ID client Nielsen | `exitnielsenclientid` |
+| ID client Nielsen entry + VCID | `entrynielsenclientidvcid` |
+| Esci da Nielsen Client ID + VCID | `exitnielsenclientidvcid` |
+| ID client Nielsen voce | `entrynielsenclientid` |
+| Esci da Nielsen Client ID | `exitnielsenclientid` |
 
 ### Adobe Experience Manager (AEM)
 
-| Nome del Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
 | ID risorsa | `aemassetid` |
 | Origine risorsa | `aemassetsource` |
-| ID risorsa selezionato | `aemclickedassetid` |
+| ID risorsa selezionata | `aemclickedassetid` |
 | ID risorsa di ingresso | `entryaemassetid` |
 | Esci da ID risorsa | `exitaemassetid` |
 
 ### Adobe Campaign
 
-| Nome del Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
 | ID consegna eseguita di Adobe Campaign | `ac_delivery_internal_name` |

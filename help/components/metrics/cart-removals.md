@@ -12,8 +12,8 @@ ht-degree: 5%
 
 # Rimozioni dal carrello
 
-La metrica &quot;Rimozioni dal carrello&quot; mostra il numero di volte in cui un visitatore ha rimosso qualcosa dal proprio carrello. Questa metrica è utile quando desideri comprendere la parte del funnel di conversione in cui i clienti non sono più interessati a un prodotto.
+La metrica &quot;Rimozioni dal carrello&quot; mostra quante volte un visitatore ha rimosso qualcosa dal carrello. Questa metrica è utile quando si desidera comprendere la parte del funnel di conversione in cui i clienti non sono più interessati a un prodotto.
 
-## Calcolo di questa metrica
+## Modalità di calcolo di questa metrica
 
 Questa metrica conta il numero di hit in cui `scRemove` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.

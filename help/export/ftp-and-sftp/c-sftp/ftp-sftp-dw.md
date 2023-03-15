@@ -5,7 +5,7 @@ title: Invio di richieste di Data Warehouse a server SFTP
 feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
 

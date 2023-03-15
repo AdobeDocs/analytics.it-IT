@@ -17,7 +17,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->Solo gli amministratori di Analytics possono aggiungere progetti alla cartella Azienda o creare un nuovo progetto e salvarlo nella cartella Azienda
+>Solo gli amministratori di Analytics possono aggiungere progetti alla cartella aziendale o creare un nuovo progetto e salvarlo nella cartella aziendale
 
 ## Dalla vista tabella {#table-view}
 
@@ -31,7 +31,7 @@ Aggiungere progetti a una cartella dalla vista tabella nella pagina Home.
 
    Viene visualizzata la finestra di dialogo Seleziona cartella.
 
-1. Nel menu a discesa, selezionate la cartella in cui desiderate spostare i progetti selezionati.
+1. Nel menu a discesa, seleziona la cartella in cui desideri spostare i progetti selezionati.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
@@ -55,7 +55,7 @@ Puoi anche aggiungere progetti dall’interno di una cartella utilizzando il col
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Seleziona la **...** icona dei puntini di sospensione in alto a destra.
+1. Seleziona la **...** icona con i puntini di sospensione in alto a destra.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
 
@@ -64,7 +64,7 @@ Puoi anche aggiungere progetti dall’interno di una cartella utilizzando il col
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
 
-1. (Facoltativo) Seleziona altri progetti dall’elenco a discesa per aggiungere più progetti.
+1. Per aggiungere più progetti, seleziona Progetti aggiuntivi dall’elenco a discesa.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 

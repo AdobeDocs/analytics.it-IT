@@ -30,9 +30,9 @@ Le nuove funzioni Generatore di avvisi e Gestione avvisi di Analysis Workspace s
 
 | Metodo | Dettagli |
 | --- | --- |
-| Passa direttamente al Generatore di avvisi | **[!UICONTROL Components]** > **[!UICONTROL Alerts]** |
-| Utilizzare le scelte rapide da tastiera in Workspace | `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac) |
-| Seleziona una o più voci di tabella a forma libera | Fai clic con il pulsante destro del mouse e seleziona **[!UICONTROL Create Alert from Selection]**. Viene aperta la [!UICONTROL Alert Builder] precompila le metriche appropriate e i filtri applicati dalla tabella. Se necessario, puoi quindi modificare l’avviso. ![Crea avviso da selezione](assets/create-alert-from-selection.png) |
+| Vai direttamente al Generatore di avvisi | **[!UICONTROL Components]** > **[!UICONTROL Alerts]** |
+| Utilizzare i tasti di scelta rapida in Workspace | `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac) |
+| Seleziona una o più voci di tabella a forma libera | Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **[!UICONTROL Create Alert from Selection]**. Verrà aperto il [!UICONTROL Alert Builder] e precompila le metriche e i filtri appropriati applicati dalla tabella. Se necessario, puoi quindi modificare l’avviso. ![Crea avviso da selezione](assets/create-alert-from-selection.png) |
 | Da un rapporto Reports &amp; Analytics | Vai a  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Verrà aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal report. Se necessario, puoi quindi modificare l’avviso. ![Aggiungi avviso](assets/add-alert.png) |
 
 Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati [modelli differenti](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99,75%).

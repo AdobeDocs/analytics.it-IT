@@ -1,5 +1,5 @@
 ---
-description: In Adobe Analytics e Adobe Audience Manager sono presenti metriche visitatore con definizioni simili, ma non allineate al 100%, per vari motivi.
+description: In Adobe Analytics e Adobe Audience Manager esistono metriche visitatore con definizioni simili, ma non allineate al 100%, per vari motivi.
 title: Differenze tra i conteggi dei visitatori
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Differenze tra i conteggi dei visitatori
 
-In Adobe Analytics e Adobe Audience Manager sono presenti metriche visitatore con definizioni simili, ma non allineate al 100%, per vari motivi.
+In Adobe Analytics e Adobe Audience Manager esistono metriche visitatore con definizioni simili, ma non allineate al 100%, per vari motivi.
 
 Le metriche del visitatore sono:
 
@@ -25,51 +25,51 @@ Le metriche del visitatore sono:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Popolazione totale del segmento</a> </p> </td> 
-   <td colname="col3"> <p>Numero di dispositivi (ID Experience Cloud) che facevano parte del segmento durante il periodo di lookback. </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: popolazione totale del segmento</a> </p> </td> 
+   <td colname="col3"> <p>Numero di dispositivi (ID Experience Cloud) che erano membri del segmento durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Popolazione di segmenti in tempo reale</a> </p> </td> 
-   <td colname="col3"> <p>Numero di dispositivi (ID Experience Cloud) che facevano parte del segmento e che hanno raggiunto le tue proprietà durante il periodo di lookback. </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: popolazione del segmento in tempo reale</a> </p> </td> 
+   <td colname="col3"> <p>Numero di dispositivi (ID Experience Cloud) membri del segmento che hanno raggiunto le proprietà durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analytics: Visitatori unici </p> </td> 
-   <td colname="col3"> <p>Mostra il numero di visitatori unici che hanno raggiunto le tue proprietà durante il periodo definito per la generazione del rapporto. </p> </td> 
+   <td colname="col2"> <p>Analytics: visitatori univoci </p> </td> 
+   <td colname="col3"> <p>Mostra il numero di visitatori univoci che hanno raggiunto le proprietà durante l’intervallo di reporting. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analytics: Visitatori con ID Experience Cloud </p> </td> 
-   <td colname="col3"> <p>Mostra il numero di visitatori unici con un ID Experience Cloud che hanno raggiunto le tue proprietà durante il periodo di reporting. </p> </td> 
+   <td colname="col2"> <p>Analytics: visitatori con ID Experience Cloud </p> </td> 
+   <td colname="col3"> <p>Mostra il numero di visitatori univoci con un ID Experience Cloud che hanno raggiunto le proprietà durante l’intervallo di reporting. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-AAM i visitatori di Real-time Segment Population e Analytics con ID Experience Cloud utilizzato nel reporting di Audience Analytics saranno i più simili. A breve termine, tuttavia, a causa di diversi fattori, vi saranno lievi discrepanze tra loro. I fattori che contribuiscono sono:
+La popolazione dei segmenti in tempo reale dell’AAM e i visitatori di Analytics con l’ID Experience Cloud utilizzato nel reporting di Audience Analytics saranno i più simili. Nel breve periodo, tuttavia, a causa di diversi fattori, vi saranno lievi discrepanze tra di essi. I fattori che contribuiscono sono:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Fattore </th> 
-   <th colname="col2" class="entry"> AAM: Popolazione di segmenti in tempo reale </th> 
-   <th colname="col3" class="entry"> Analytics: Visitatori con ID Experience Cloud </th> 
+   <th colname="col2" class="entry"> AAM: popolazione del segmento in tempo reale </th> 
+   <th colname="col3" class="entry"> Analytics: visitatori con ID Experience Cloud </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Fuso orario </p> </td> 
-   <td colname="col2"> <p>UTC (ora universale coordinata) </p> </td> 
+   <td colname="col2"> <p>UTC (Coordinated Universal Time) </p> </td> 
    <td colname="col3"> <p>Specificato per suite di rapporti </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Filtri personalizzati </p> </td> 
    <td colname="col2"> <p>No </p> </td> 
-   <td colname="col3"> <p>Sì, ad esempio filtri IP, filtri bot </p> </td> 
+   <td colname="col3"> <p>Sì, ad es. filtri IP, filtri bot </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Limite di 150 segmenti </p> </td> 
    <td colname="col2"> <p>No </p> </td> 
-   <td colname="col3"> <p>Sì: i conteggi di Analytics possono essere influenzati fino al 5% dal limite di integrazione di 150 segmenti. Se si verifica un troncamento, nella dimensione Nome pubblico verrà visualizzato "Limite pubblico raggiunto". </p> </td> 
+   <td colname="col3"> <p>Sì - I conteggi di Analytics possono essere interessati fino al 5% dal limite di integrazione del segmento 150. Se viene raggiunto il troncamento, nella dimensione Nome pubblico viene visualizzato "Limite di pubblico raggiunto". </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Vedi [Segmenti in Analytics ed Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) per ulteriori spiegazioni sulle sfumature tra i dati di Analytics e di Audience Manager e la segmentazione.
+Consulta [Segmenti in Analytics e Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) per ulteriori spiegazioni sulle sfumature tra Analytics e i dati e la segmentazione di Audience Manager.

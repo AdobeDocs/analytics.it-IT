@@ -6,7 +6,7 @@ exl-id: 5c118541-d143-4947-b693-514d7042abe6
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Denomina il set di regole di classificazione, applica la variabile e specifica l
 
 1. (Prerequisito) Definisci la struttura di classificazione in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   Consulta [Classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) nella guida degli Strumenti di amministrazione per l’aggiunta di classificazioni.
+   Consulta [Classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=it) nella guida degli Strumenti di amministrazione per l’aggiunta di classificazioni.
 
    Le variabili vengono visualizzate nel pannello [!UICONTROL New Rule Set] solo dopo che è stata definita almeno una classificazione per quella variabile.
 

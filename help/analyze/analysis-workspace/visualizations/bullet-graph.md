@@ -19,6 +19,6 @@ ht-degree: 90%
 
 Il grafico bullet presenta una singola misura primaria (ad esempio le entrate annuali correnti) e consente di inserire intervalli qualitativi di gamme di prestazioni (ad esempio rispetto a un fatturato target). È possibile specificare valori alti, medi e bassi. È possibile specificare una gamma di obiettivi in [!UICONTROL Visualization Settings] (Impostazioni visualizzazione).
 
-Ecco un video sulla visualizzazione grafico bullet:
+Ecco un video sulla visualizzazione del grafico bullet:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)

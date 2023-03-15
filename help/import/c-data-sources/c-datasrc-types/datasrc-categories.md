@@ -16,16 +16,16 @@ ht-degree: 90%
 
 Le categorie di origine dati identificano diversi tipi di origini dati che forniscono funzionalità simili.
 
-Le categorie consentono di raggruppare le origini dati dal punto di vista di un utente. Durante la creazione di un’origine dati tramite [!DNL Data Sources] Interfaccia utente, seleziona prima una categoria di origine dati, quindi un tipo di origine dati specifico. Ogni categoria contiene tipi di origini dati che supportano tipi di dati simili. [!DNL Data Sources] fornisce le seguenti categorie di origini dati:
+Le categorie consentono di raggruppare le origini dati dal punto di vista di un utente. Durante la creazione di un’origine dati tramite [!DNL Data Sources] Nell’interfaccia utente, seleziona innanzitutto una categoria di origine dati, quindi un tipo di origine dati specifico. Ogni categoria contiene tipi di origini dati che supportano tipi di dati simili. [!DNL Data Sources] fornisce le seguenti categorie di origini dati:
 
 ## Utilizzo sito web {#web-usage}
 
 | Origine dati | Tipo di elaborazione | Descrizione |
 | --- | --- | --- |
 | [!UICONTROL Web Server Log Files] | [Registro web](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md) | La maggior parte dei server web genera file di registro che registrano ogni pagina utilizzata. Tramite questa origine dati puoi elaborare i file di registro dalla maggior parte dei dati di server web e aggiungere i dati ai rapporti. |
-| [!UICONTROL Advertising Cloud Bulk Upload] | [Conversione](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Fornisce caricamenti in serie manuali ed automatizzati da Excel in [!DNL Advertising Cloud]. |
-| [!UICONTROL Site-level Traffic Data Source] | [Traffico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importa i dati del traffico per tutto il sito web. Ad esempio, [!UICONTROL Page Views]. |
-| [!UICONTROL Breakdown Traffic Data Source] | [Traffico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importa i dati Traffico suddivisi per un&#39;altra variabile del sito web. Ad esempio: [!UICONTROL Page Views] suddivisi per [!UICONTROL Product]. |
+| [!UICONTROL Advertising Cloud Bulk Upload] | [Conversione](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Caricamenti in blocco manuali e automatizzati da Excel in [!DNL Advertising Cloud]. |
+| [!UICONTROL Site-level Traffic Data Source] | [Traffico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importa i dati del traffico per tutto il sito web. Esempio: [!UICONTROL Page Views]. |
+| [!UICONTROL Breakdown Traffic Data Source] | [Traffico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importa i dati Traffico suddivisi per un&#39;altra variabile del sito web. Ad esempio: [!UICONTROL Page Views] suddiviso per [!UICONTROL Product]. |
 
 ## Campagne pubblicitarie {#ad-campaigns}
 
@@ -60,7 +60,7 @@ Le categorie consentono di raggruppare le origini dati dal punto di vista di un 
 | --- | --- | --- |
 | [!UICONTROL Generic Data Source (Summary Data Only)] | [Conversione](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Utilizza questa origine dati quando non esiste una corrispondenza migliore per il tipo di dati da importare nei reporting e analisi di marketing. |
 | [!UICONTROL Generic Data Source (Full Processing)] | Elaborazione completa | Il 31 gennaio 2022, Adobe ha dichiarato obsolete le origini dati a elaborazione completa. [Ulteriori informazioni](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). L’Adobe consiglia di utilizzare il [API di inserimento dati in blocco (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) invece. |
-| [!UICONTROL Generic Data Source (Transaction ID)] | <ul><li>ID transazione</li><li>ID visitatore</li></ul> | Consente di collegare qualsiasi evento offline a un evento online. La [!UICONTROL Transaction ID] funge da chiave tra gli eventi offline e online. |
+| [!UICONTROL Generic Data Source (Transaction ID)] | <ul><li>ID transazione</li><li>Visitor ID</li></ul> | Consente di collegare qualsiasi evento offline a un evento online. Il [!UICONTROL Transaction ID] funge da chiave tra gli eventi offline e online. |
 
 ## Acquisti online {#purchases}
 

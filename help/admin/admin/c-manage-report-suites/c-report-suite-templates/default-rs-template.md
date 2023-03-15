@@ -28,8 +28,8 @@ Configura diverse variabili comuni ed eventi di successo per un sito web tipico.
 | Registrazioni e-mail | Contatore (nessuna sottorelazione) | `event2` |
 | Abbonamenti | Contatore (nessuna sottorelazione) | `event3` |
 | Visualizzazioni pagina | Contatore (nessuna sottorelazione) | `event4` |
-| Impression annunci | Contatore (nessuna sottorelazione) | `event5` |
-| Clic sugli annunci | Contatore (nessuna sottorelazione) | `event6` |
+| Impression annuncio | Contatore (nessuna sottorelazione) | `event5` |
+| Clic sull’annuncio | Contatore (nessuna sottorelazione) | `event6` |
 
 | Variabili Custom Insight | variabile `s_code` |
 |---|---|

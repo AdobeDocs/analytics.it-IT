@@ -7,7 +7,7 @@ exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 La funzione di analisi dell’abbandono in Analysis Workspace permette di usare dimensioni e metriche diverse come punti di contatto nei funnel e flussi di lavoro e offre maggiore flessibilità nella definizione dei passaggi utente da analizzare.
 
-Ecco un video sull&#39;argomento:
+Video sull&#39;argomento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
 

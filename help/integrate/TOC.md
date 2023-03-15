@@ -40,7 +40,7 @@ ht-degree: 75%
    + [Domande frequenti](c-advertising-analytics/aa-faq.md)
 + [Adobe Analytics per Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
 + [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it)
-+ [Rapporti di Adobe Campaign in Adobe Analytics](adobe-campaign.md)
++ [Generazione di rapporti di Adobe Campaign in Adobe Analytics](adobe-campaign.md)
 + [Integrare i dati di Adobe Analytics con Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [Reportistica di AEM Assets](aem-assets-reporting.md)
 + [Reportistica di Activity Map](activitmap-reporting.md)

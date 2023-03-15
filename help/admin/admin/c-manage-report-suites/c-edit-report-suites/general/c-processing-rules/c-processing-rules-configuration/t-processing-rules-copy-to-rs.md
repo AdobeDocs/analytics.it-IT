@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # Copiare le regole di elaborazione in un’altra suite di rapporti
 
-Per copiare le regole di elaborazione da una suite di rapporti e sostituirle o aggiungerle a un&#39;altra suite di rapporti:
+Per copiare le regole di elaborazione da una suite di rapporti e sostituirle o aggiungerle a un’altra:
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.

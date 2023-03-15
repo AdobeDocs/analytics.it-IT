@@ -1,5 +1,5 @@
 ---
-description: Presupponendo che sia installato il plug-in corretto per il browser, puoi avviare Activity Map direttamente dalla pagina web.
+description: Supponendo che sia installato il plug-in del browser corretto, puoi avviare Activity Map direttamente dalla pagina web.
 title: Avviare Activity Map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
 feature: Activity Map
@@ -15,9 +15,9 @@ ht-degree: 8%
 
 # Avviare Activity Map{#launch-activity-map}
 
-Presupponendo che sia installato il plug-in corretto per il browser, puoi avviare Activity Map direttamente dalla pagina web.
+Supponendo che sia installato il plug-in del browser corretto, puoi avviare Activity Map direttamente dalla pagina web.
 
 1. Fai clic sull’icona Adobe Analytics a destra della barra degli indirizzi del browser:\
    ![](assets/an_icon.png){width="90px"}
-1. Accedi con la tua società di accesso, nome utente e password.
-1. L’applicazione dovrebbe essere avviata, con visualizzazione della barra degli strumenti e delle sovrapposizioni.
+1. Accedi con la società di accesso, il nome utente e la password.
+1. L’applicazione deve essere avviata, visualizzando la barra degli strumenti e le sovrapposizioni.

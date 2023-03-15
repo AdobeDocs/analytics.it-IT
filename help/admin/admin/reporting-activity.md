@@ -6,7 +6,7 @@ mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 93%
 
 ---
@@ -31,7 +31,7 @@ In Adobe Analytics, gli amministratori accedono a **[!UICONTROL Admin]** > **[!U
 
 ## Autorizzazioni
 
-Per gestire l’attività di reporting è necessaria l’autorizzazione amministratore prodotto di Analytics (in Adobe Admin Console).
+Per gestire l’attività di reporting è necessaria l’autorizzazione Amministratore prodotto di Analytics (in Adobe Admin Console).
 
 ![autorizzazione](/help/admin/admin/assets/rep-mgr-permission.png)
 
@@ -48,7 +48,7 @@ All’apertura della pagina di panoramica di [!UICONTROL Reporting Activity] Man
 | **[!UICONTROL Usage Capacity]** | In termini percentuali, quanta capacità di reporting della suite di rapporti viene utilizzata in tempo reale. |
 | **[!UICONTROL Status]** | Quattro possibili indicatori di stato: <ul><li>**Rosso -[!UICONTROL At Capacity]**: la suite di rapporti ha raggiunto il limite massimo in termini di capacità di reporting. (100%) </li><li>**Giallo -[!UICONTROL Nearing capacity]**: questa suite di rapporti rischia di raggiungere la capacità massima. (90% - 99%)</li><li>**Verde -[!UICONTROL All good]**: la capacità di reporting è sufficiente. (0% - 89%)</li><li>**Grigio -[!UICONTROL Status pending/Not enabled]**: la capacità del rapporto non è disponibile.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Altre azioni dell’attività di reporting
 
@@ -94,7 +94,7 @@ I numeri di riepilogo mostrano le seguenti informazioni:
 | [!UICONTROL Average Wait Time] | Tempo medio di attesa per tutte le query in esecuzione. |
 | [!UICONTROL Usage Capacity] | La capacità di utilizzo corrente per questa suite di rapporti. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Tabella
 
@@ -114,7 +114,7 @@ La tabella dettagliata seguente mostra i dettagli sulla suite di rapporti.
 | [!UICONTROL Segments] | Quanti segmenti vengono applicati a questa richiesta. Questo si aggiunge alla complessità della richiesta. |
 | [!UICONTROL Status] | Indicatori di stato: <ul><li>**In esecuzione**: richiesta in fase di elaborazione.</li><li>**In sospeso**: richiesta in attesa di elaborazione.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Annullare le richieste di reporting
 
@@ -122,7 +122,7 @@ Per annullare una richiesta
 
 1. Seleziona la casella a sinistra di uno o più **[!UICONTROL Query ID]** nella tabella e fai clic su **[!UICONTROL Cancel requests]** in basso.
 
-   Puoi anche annullare le richieste in blocco visualizzando i dettagli per [!UICONTROL User], [!UICONTROL Project] oppure [!UICONTROL Application]. Le richieste successive per un progetto, un utente o un&#39;applicazione che non erano in coda o in esecuzione al momento dell&#39;annullamento possono ancora essere visualizzate quando l&#39;attività viene aggiornata.
+   Puoi anche annullare le richieste in blocco visualizzando i dettagli per [!UICONTROL User], [!UICONTROL Project] oppure [!UICONTROL Application]. Le richieste successive per un progetto, un utente o un’applicazione che non erano in coda o in esecuzione al momento dell’annullamento possono ancora apparire quando l’attività viene aggiornata.
 
 1. Nella finestra **[!UICONTROL Cancel x query]** che viene visualizzata, puoi modificare il messaggio di cancellazione se necessario.
 1. Fai clic su **[!UICONTROL Continue]**.
@@ -139,4 +139,4 @@ Gli utenti di applicazioni in Workspace, ad esempio, vedranno il seguente avviso
 | --- | --- |
 | Posso acquistare una capacità di reporting aggiuntiva? | Questa funzionalità sarà disponibile a breve. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -33,7 +33,7 @@ Video sulle tabelle coorte in Analysis Workspace:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis] non supporta le metriche non segmentabili (comprese le metriche calcolate), le metriche non intere (come Entrate, >o Occorrenze). Solo le metriche utilizzabili nei segmenti possono essere utilizzate in [!UICONTROL Cohort Analysis]e possono essere incrementati solo di >1 alla volta.
+>[!UICONTROL Cohort Analysis] non supporta metriche non segmentabili (comprese le metriche calcolate) né metriche non intere (come Revenue, >o Occurrences. Solo le metriche utilizzabili nei segmenti possono essere utilizzate in [!UICONTROL Cohort Analysis]e possono essere incrementate solo di >1 alla volta.
 
 ## Capacità dell’analisi per coorte
 

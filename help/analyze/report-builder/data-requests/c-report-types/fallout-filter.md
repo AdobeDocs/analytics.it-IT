@@ -1,5 +1,5 @@
 ---
-description: Descrive i passaggi necessari per applicare filtri a un rapporto di abbandono.
+description: Descrive i passaggi necessari per applicare filtri a un rapporto di fallout.
 title: Filtrare un rapporto di fallout mediante la Creazione guidata richieste
 feature: Report Builder
 role: User, Admin
@@ -13,29 +13,29 @@ ht-degree: 11%
 
 # Filtrare un rapporto di fallout mediante la Creazione guidata richieste
 
-Descrive i passaggi necessari per applicare filtri a un rapporto di abbandono.
+Descrive i passaggi necessari per applicare filtri a un rapporto di fallout.
 
-Questo esempio mostra il rapporto Abbandono pagina .
+Questo esempio mostra il rapporto Fallout pagina.
 
 1. In Adobe Report Builder, fai clic su **[!UICONTROL Create]** per aprire la Creazione guidata richieste.
-1. Seleziona la suite di rapporti giusta.
-1. Nella vista ad albero a sinistra, seleziona **[!UICONTROL Paths]** > **[!UICONTROL Page]** > **[!UICONTROL Page Fallout]**.
+1. Seleziona la suite di rapporti corretta.
+1. Nella struttura a sinistra, seleziona **[!UICONTROL Paths]** > **[!UICONTROL Page]** > **[!UICONTROL Page Fallout]**.
 
    ![](assets/page_fallout.png)
 
-1. Configurare le [intervalli di date](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
-1. Fai clic su **[!UICONTROL Next]**.
-1. Nel passaggio 2 della procedura guidata, in **[!UICONTROL Row Labels]**, fai clic su **[!UICONTROL Define Checkpoints]** link. In un rapporto di abbandono, è sempre necessario definire elementi di percorso, a differenza di un rapporto di percorso, in cui un pattern viene preapplicato.
+1. Configura l’appropriato [intervalli di date](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
+1. Fai clic su **[!UICONTROL Next]** (Usa modello di attribuzione non predefinito).
+1. Nel passaggio 2 della procedura guidata, sotto **[!UICONTROL Row Labels]**, fare clic su **[!UICONTROL Define Checkpoints]** collegamento. In un rapporto di fallout, è sempre necessario definire gli elementi del percorso, a differenza di un rapporto di percorso, in cui un pattern è preapplicato.
 
    ![](assets/define_checkpoints.png)
 
 1. Seleziona l&#39;opzione **[!UICONTROL Filter]**.
 
 1. In **[!UICONTROL Define Site Section Fallout Checkpoints]** definire punti di controllo da un intervallo di celle o da un elenco. Quindi fai clic su **[!UICONTROL OK]**.
-1. Decidi se scegliere da un intervallo di celle o da un elenco.
-1. Se selezioni da un elenco, fai clic su **[!UICONTROL Add]** per selezionare i punti di controllo da aggiungere al percorso di abbandono. Puoi definire tra 3 e 8 punti di controllo. (Cerca gli elementi disponibili facendo clic su **[!UICONTROL More]**.)
+1. Decidi se effettuare una selezione da un intervallo di celle o da un elenco.
+1. Se si seleziona da un elenco, fare clic su **[!UICONTROL Add]** per selezionare i punti di controllo da aggiungere al percorso di abbandono. Puoi definire tra 3 e 8 punti di controllo. (Cerca gli elementi disponibili facendo clic su **[!UICONTROL More]**.)
 
-   Per ulteriori informazioni sulla raffinazione del filtro, consulta [Dimension filtro](/help/analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md). 1. Spostamento **[!UICONTROL Available Elements]** dalla colonna di sinistra a destra selezionandole e facendo clic sulla freccia arancione.
-1. Fai clic su **[!UICONTROL OK]** tre volte, quindi fai clic su **[!UICONTROL Finish]**.
+   Per ulteriori informazioni sul perfezionamento del filtro, consulta [Filtra Dimension](/help/analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md). 1. Spostare **[!UICONTROL Available Elements]** dalla colonna sinistra a destra selezionandoli e facendo clic sulla freccia arancione.
+1. Clic **[!UICONTROL OK]** tre volte, quindi fai clic su **[!UICONTROL Finish]**.
 
    Il rapporto dovrebbe essere aggiornato ora.

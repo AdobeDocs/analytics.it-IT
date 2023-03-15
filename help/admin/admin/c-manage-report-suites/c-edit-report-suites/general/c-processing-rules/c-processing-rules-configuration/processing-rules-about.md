@@ -5,7 +5,7 @@ title: Funzionamento delle regole di elaborazione
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 

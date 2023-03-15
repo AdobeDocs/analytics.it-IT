@@ -25,7 +25,7 @@ Per controllare lo stato dell’inoltro lato server:
 
 >[!CAUTION]
 >
->Se la risposta contiene la coppia chiave-valore `"status":"SUCCESS"` o un’immagine 2 x 2, l’inoltro lato server *non* è configurato correttamente. Assicurati che il servizio Identity sia correttamente distribuito, hai implementato il modulo App Measurement , che la suite di rapporti applicabile sia stata mappata sull’ID organizzazione corretto e che l’inoltro lato server sia stato abilitato in Strumenti di amministrazione di Analytics.
+>Se la risposta contiene la coppia chiave-valore `"status":"SUCCESS"` o un’immagine 2 x 2, l’inoltro lato server *non* è configurato correttamente. Assicurati che il servizio Identity sia correttamente implementato, che il modulo App Measurement sia stato implementato, che la suite di rapporti applicabile sia stata mappata sull’ID organizzazione corretto e che l’inoltro lato server sia stato abilitato negli Strumenti di amministrazione di Analytics.
 
 >[!MORELIKETHIS]
 >

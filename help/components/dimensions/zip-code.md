@@ -1,6 +1,6 @@
 ---
 title: Codice di avviamento postale
-description: Codice postale del visitatore.
+description: Il codice postale del visitatore.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
@@ -12,26 +12,26 @@ ht-degree: 5%
 
 # Codice di avviamento postale
 
-La dimensione &quot;Codice postale&quot; indica il codice postale o ZIP del visitatore. Puoi utilizzare questa dimensione per comprendere di più sul successo della pubblicità locale o per vedere dove nel mondo il tuo sito funziona meglio.
+La dimensione &quot;Codice di avviamento postale&quot; riporta il codice postale o postale del visitatore. Puoi utilizzare questa dimensione per saperne di più sul successo della pubblicità locale o per vedere dove nel mondo il tuo sito offre le prestazioni migliori.
 
-## Popolare questa dimensione con i dati
+## Popola questa dimensione con i dati
 
-Questa dimensione è univoca in quanto contiene diversi modi per popolarla con i dati. È possibile utilizzare uno o una combinazione di entrambi.
+Questa dimensione è univoca in quanto contiene più modi per compilarla con i dati. Puoi utilizzare una delle due opzioni o una combinazione di entrambe.
 
-* Imposta il codice postale direttamente utilizzando il `zip` variabile; o
-* Configura per estrarre dai dati di geosegmentazione.
+* Imposta il codice postale direttamente utilizzando `zip` variabile; o
+* Configuralo per estrarre i dati di geosegmentazione.
 
-La [!UICONTROL Zip option] sotto [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) controlla come desideri compilare la dimensione.
+Il [!UICONTROL Zip option] in [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) controlla come popolare questa dimensione.
 
 >[!IMPORTANT]
 >
->L’impostazione della suite di rapporti è fondamentale se desideri un controllo completo sulla modalità di compilazione di questa dimensione.
+>L’impostazione della suite di rapporti è fondamentale se desideri un controllo completo sul modo in cui si popola questa dimensione.
 
 ## Elementi dimensionali
 
-Gli articoli di Dimension includono il codice postale del visitatore.
+Gli elementi del Dimension includono il codice postale del visitatore.
 
-## Paesi del codice postale supportati
+## Paesi con codice postale supportati
 
 * Isole Aland
 * Albania
@@ -73,7 +73,7 @@ Gli articoli di Dimension includono il codice postale del visitatore.
 * Italia
 * Giappone
 * Giordania
-* Kazakhstan
+* Kazakistan
 * Kirghizistan
 * Lettonia
 * Libano
@@ -81,7 +81,7 @@ Gli articoli di Dimension includono il codice postale del visitatore.
 * Lussemburgo
 * Malesia
 * Malta
-* Maurizio
+* Mauritius
 * Messico
 * Marocco
 * Mozambico
@@ -110,7 +110,7 @@ Gli articoli di Dimension includono il codice postale del visitatore.
 * Sri Lanka
 * Svezia
 * Svizzera
-* regione di Taiwan
+* Taiwan
 * Thailandia
 * Tunisia
 * Turchia

@@ -1,5 +1,5 @@
 ---
-description: Passaggi per interrompere il tracciamento dei collegamenti in Activity Map o ClickMap legacy.
+description: Passaggi per interrompere il tracciamento dei collegamenti nelle ClickMap Activity Map o legacy.
 title: Interrompere il tracciamento dei collegamenti
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 feature: Activity Map
@@ -7,20 +7,20 @@ role: User, Admin
 exl-id: cdbec360-bff9-452c-9564-6b481e7175d3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '72'
 ht-degree: 13%
 
 ---
 
 # Interrompere il tracciamento dei collegamenti
 
-Passaggi per interrompere il tracciamento dei collegamenti in Activity Map o ClickMap legacy.
+Passaggi per interrompere il tracciamento dei collegamenti nelle ClickMap Activity Map o legacy.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Per interrompere il tracciamento dei collegamenti in... </th> 
-   <th colname="col2" class="entry"> Fai questo... </th> 
+   <th colname="col2" class="entry"> Esegui quanto segue... </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -43,7 +43,7 @@ Passaggi per interrompere il tracciamento dei collegamenti in Activity Map o Cli
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (precedentemente ClickMap visitatore) </td> 
-   <td colname="col2"> <p>Imposta la variabile <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html"  > trackInlineStats</a> su false (questa è l'impostazione predefinita). La sintassi è la seguente: 
+   <td colname="col2"> <p>Imposta il <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html"  > trackInlineStats</a> variabile su false (impostazione predefinita). La sintassi è la seguente: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 

@@ -1,6 +1,6 @@
 ---
 title: Override variabili
-description: Le sostituzioni delle variabili consentono di modificare un valore variabile per una singola chiamata di tracciamento o di tracciamento dei collegamenti.
+description: Le sostituzioni di variabili consentono di modificare un valore di variabile per una singola chiamata di tracciamento o collegamento.
 feature: Implementation Basics
 exl-id: e297ef94-c5f7-42b1-a9d0-57e073f0d1a9
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
@@ -12,17 +12,17 @@ ht-degree: 4%
 
 # Override variabili
 
-Le sostituzioni delle variabili consentono di modificare i valori di Analytics per un singolo hit senza influire sulle variabili esistenti nella pagina.
+Le sostituzioni di variabili consentono di modificare i valori di Analytics per un singolo hit senza influire sulle variabili esistenti sulla pagina.
 
 ## Flusso di lavoro
 
-1. Crea un nuovo oggetto JavaScript. Il nome dell’oggetto può essere qualsiasi cosa desideri.
+1. Crea un nuovo oggetto JavaScript. Il nome dell&#39;oggetto può essere qualsiasi cosa si desideri.
 
    ```js
    var y = new Object();
    ```
 
-2. Assegna proprietà Analytics valide all&#39;oggetto:
+2. Assegna proprietà Analytics valide a questo oggetto:
 
    ```js
    y.eVar1 = "New value";
@@ -39,4 +39,4 @@ Le sostituzioni delle variabili consentono di modificare i valori di Analytics p
    s.tl(this,'o','Example override link',y);
    ```
 
-Quando una chiamata di tracciamento riceve un oggetto nel parametro di override, tutti i valori validi nell&#39;oggetto di override sovrascrivono i valori nell&#39;oggetto Analytics standard. Le variabili già definite nell’oggetto Analytics esistente non vengono influenzate.
+Quando una chiamata di tracciamento riceve un oggetto nel parametro overrides, tutti i valori validi nell’oggetto override sovrascrivono quelli nell’oggetto Analytics standard. Le variabili già definite nell’oggetto Analytics esistente non vengono interessate.

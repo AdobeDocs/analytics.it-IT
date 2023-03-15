@@ -43,7 +43,7 @@ Configura il segmento rapido da questa lavagna vuota:
 | --- | --- |
 | Nome | Il nome predefinito di un segmento è una combinazione dei nomi delle regole nel segmento. È possibile rinominare il segmento. |
 | Includere/escludere | Puoi includere o escludere componenti nella definizione del segmento, ma non entrambi. |
-| Contenitore Hit/Visita/Visitatore | I segmenti rapidi comprendono un solo [contenitore di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) che consente di includere (o escludere) una dimensione, una metrica o un intervallo di date nel segmento. [!UICONTROL Visitor] contiene i dati generali specifici del visitatore per visite e visualizzazioni di pagina. A [!UICONTROL Visit] consente di impostare regole per suddividere i dati del visitatore in base alle visite e a [!UICONTROL Hit] Il contenitore ti consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni di pagina. Il valore predefinito è [!UICONTROL Hit]. |
+| Contenitore Hit/Visita/Visitatore | I segmenti rapidi comprendono un solo [contenitore di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) che consente di includere (o escludere) una dimensione, una metrica o un intervallo di date nel segmento. [!UICONTROL Visitor] contiene i dati generali specifici del visitatore per visite e visualizzazioni di pagina. A [!UICONTROL Visit] contenitore consente di impostare regole per suddividere i dati del visitatore in base alle visite e a [!UICONTROL Hit] Il contenitore consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni di pagina. Il valore predefinito è [!UICONTROL Hit]. |
 | Componenti (Dimensione/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo componenti (dimensioni e/o metriche e/o intervalli di date) e relativi valori. Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare; il generatore di [!UICONTROL Quick Segment] trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
 | Operatore | Utilizza il menu a discesa per trovare gli operatori standard e gli operatori [!UICONTROL Distinct Count]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=it) |
 | Segno più (+) | Aggiunge un’altra regola, |
@@ -71,7 +71,7 @@ Il segmento viene visualizzato nella parte superiore. Osserva la barra laterale 
 ## Salvare segmenti rapidi
 
 >[!IMPORTANT]
->Una volta salvato o applicato il segmento, non è più possibile modificarlo nel Generatore di segmenti rapidi ma solo nel Generatore di segmenti regolare. Solo gli amministratori dei prodotti Adobe Analytics e il creatore del segmento rapido possono salvare le modifiche a un segmento rapido esistente.
+>Una volta salvato o applicato il segmento, non è più possibile modificarlo nel Generatore di segmenti rapidi ma solo nel Generatore di segmenti regolare. Solo gli amministratori di prodotto di Adobe Analytics e il creatore del segmento rapido possono salvare le modifiche apportate a un segmento rapido esistente.
 
 1. Dopo aver applicato il segmento rapido, posiziona il puntatore su di esso e seleziona l’icona Info (“i”).
 
@@ -81,23 +81,23 @@ Il segmento viene visualizzato nella parte superiore. Osserva la barra laterale 
 1. (Facoltativo) Rinomina il segmento.
 1. Fai clic su **[!UICONTROL Save]**.
 
-La barra laterale del segmento cambia da blu striato a blu più chiaro. Viene ora visualizzato anche nell’elenco dei componenti della barra a sinistra.
+La barra laterale del segmento cambia da blu a strisce a blu più chiaro. Ora viene visualizzato anche nell’elenco dei componenti della barra a sinistra.
 
 ## Cosa sono i segmenti solo progetto?
 
-I segmenti solo progetto sono segmenti che si applicano solo al progetto corrente in cui sono stati creati. Non saranno disponibili in altri progetti e non possono essere condivisi con altri utenti. Sono progettati per un’esplorazione rapida dei dati senza dover creare e salvare un segmento nella barra a sinistra. È possibile creare segmenti solo progetto nella zona di rilascio del pannello con i segmenti Quick o [segmenti ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
+I segmenti solo progetto sono segmenti che si applicano solo al progetto corrente in cui sono stati creati. Non saranno disponibili in altri progetti e non possono essere condivisi con altri utenti. Sono intesi per esplorare rapidamente i dati senza dover creare e salvare un segmento nella barra a sinistra. I segmenti solo progetto possono essere creati nella zona di rilascio del pannello con segmenti rapidi o [segmenti ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
 
-Se viene aperto un segmento solo progetto nella variabile [!UICONTROL Segment Builder], viene visualizzata una notifica solo per il progetto. Se non selezioni &quot;Rendi questo segmento disponibile.&quot; e fai clic su **[!UICONTROL APPLY]**, il segmento rimane un segmento solo progetto. Nota: se applichi un segmento rapido dal Generatore di segmenti, non può più essere aperto nel [!UICONTROL Quick Segment Builder].
+Se in viene aperto un segmento solo progetto [!UICONTROL Segment Builder], viene visualizzata una notifica solo del progetto. Se non selezioni &quot;Rendi disponibile questo segmento.&quot; e fai clic su **[!UICONTROL APPLY]**, il segmento rimane un segmento solo progetto. Nota: se applichi un segmento rapido dal Generatore di segmenti, non può più essere aperto nel [!UICONTROL Quick Segment Builder].
 
 ![Casella Solo progetto deselezionata](assets/project-only-unchecked.png)
 
-Se selezioni &quot;Rendi disponibile questo segmento.&quot; e fai clic su **[!UICONTROL SAVE]**, il segmento diventa disponibile nell’elenco dei componenti della barra a sinistra e può essere utilizzato in altri progetti. Può essere condiviso anche con altri utenti dal Gestore segmenti.
+Se selezioni &quot;Rendi disponibile questo segmento.&quot; e fai clic su **[!UICONTROL SAVE]**, il segmento diventa disponibile nell’elenco dei componenti della barra a sinistra per l’utilizzo in altri progetti. Può anche essere condiviso con altri utenti dal Gestore segmenti.
 
 ![Casella Solo progetto selezionata](assets/project-only-checked.png)
 
 ## Problema noto
 
-1. Crea un segmento rapido con 2 voci e **[!UICONTROL Save]** come Test1.
-1. Fai clic su **[!UICONTROL Save as]** e salva questo segmento rapido come Test2.
-1. Modifica il segmento rapido Test2 e salvalo nuovamente come Test2.
+1. Creare un segmento rapido con 2 voci e **[!UICONTROL Save]** come Test1.
+1. Clic **[!UICONTROL Save as]** e salva questo segmento rapido come Test2.
+1. Modificate il segmento rapido Test2 e salvatelo nuovamente come Test2.
 Il segmento rapido Test1 viene modificato da Test2.

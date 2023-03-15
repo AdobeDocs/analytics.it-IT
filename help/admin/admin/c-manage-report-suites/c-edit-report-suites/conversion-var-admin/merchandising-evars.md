@@ -45,7 +45,7 @@ Per dimostrare come si impostano queste variabili, ecco un esempio in cui un vis
 
 Se imposti queste due variabili su questi valori specifici, sai che il visitatore, per trovare un prodotto, utilizza il termine “sandals” nella ricerca interna per parola chiave. Allo stesso tempo, sai che il visitatore non utilizza gli altri metodi di ricerca dei prodotti per trovare i prodotti (ad esempio, non sfoglia le categorie di prodotti esattamente nello stesso momento in cui esegue una ricerca per parola chiave). Per garantire la corretta allocazione per prodotto, i metodi non utilizzati non devono ricevere alcun merito per la ricerca di un prodotto trovato tramite una ricerca interna per parole chiave. Pertanto, devi inserire nel codice una logica (ad esempio con AppMeasurement, AEP Web SDK e così via) che imposta automaticamente le eVar associate agli altri metodi di ricerca su un valore di tipo &quot;non-finding method&quot;.
 
-Ad esempio, quando un utente cerca prodotti utilizzando la parola chiave &quot;sandali&quot;, la logica del codice Analytics deve impostare le variabili uguali alle seguenti nella pagina dei risultati della ricerca per parola chiave interna:
+Ad esempio, quando un utente cerca prodotti utilizzando la parola chiave &quot;sandals&quot;, la logica del codice Analytics deve impostare le variabili come segue, nella pagina dei risultati della ricerca per parola chiave interna:
 
 * eVar2=&quot;sandals&quot;: è stata utilizzata la parola chiave “sandals” nella ricerca interna per parola chiave
 * eVar1=&quot;internal keyword search&quot;: è stato utilizzato il metodo di ricerca interna per parola chiave
@@ -57,7 +57,7 @@ Ad esempio, quando un utente cerca prodotti utilizzando la parola chiave &quot;s
 
 Di seguito sono elencate le diverse impostazioni che puoi utilizzare con le eVar di merchandising. La schermata seguente proviene da Report Suite Manager. Per accedervi, passa a [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Conversion Variables] > [!UICONTROL Add new] > [!UICONTROL Enable Merchandising].
 
-![eVar Merch](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/merch-evars1.png)
+![Merch eVars](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/merch-evars1.png)
 
 Ulteriori informazioni su queste impostazioni sono disponibili nelle sezioni sotto la tabella.
 
@@ -88,7 +88,7 @@ Con **[!UICONTROL Product Syntax]**, tuttavia, l’eVar è impostata solo nella 
 
 `s.products="[category];[name];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Category] e [!UICONTROL Name] identificare il prodotto in questione.
+* [!UICONTROL Category] e [!UICONTROL Name] identifica il prodotto specificato.
 * [!UICONTROL Quantity] e [!UICONTROL Revenue] sono utili quando si tiene traccia di un acquisto di prodotto.
 * [!UICONTROL Events] è utile per registrare valori di evento incrementali o di valuta personalizzati che non devono essere conteggiati come ricavi (come spedizione, sconti, ecc.)
 
@@ -114,9 +114,9 @@ Se l’impostazione Allocazione di un’eVar standard è uguale a “Most Recent
 
 #### Impostazione dell’allocazione eVar merchandising (binding)
 
-Come accennato in precedenza, tutte le eVar di merchandising con sintassi a variabile di conversione hanno solo l’allocazione &quot;Più recente (Ultimo)&quot;. Pertanto, l’impostazione Allocazione per le eVar di merchandising non determina quali valori vengono inseriti nella colonna post_evar mentre un visitatore continua a utilizzare il sito. Questa impostazione determina piuttosto il valore di eVar associato a un prodotto e il modo in cui tali prodotti riassegnano i propri eventi di successo ai valori di eVar a cui sono associati.
+Come accennato in precedenza, per tutte le eVar di merchandising con sintassi per variabile di conversione è disponibile solo l’allocazione &quot;Most Recent (Last)&quot; (Più recente, ultimo). Pertanto, l’impostazione Allocazione per le eVar di merchandising non determina quali valori vengono inseriti nella colonna post_evar mentre un visitatore continua a utilizzare il sito. Questa impostazione determina piuttosto il valore di eVar associato a un prodotto e il modo in cui tali prodotti riassegnano i propri eventi di successo ai valori di eVar a cui sono associati.
 
-Quando un’impostazione di allocazione di eVar merchandising (ovvero binding) è impostata su &quot;Valore originale (primo), si verifica quanto segue: Tutti i prodotti impostati accanto alla colonna post_evar e che non sono stati precedentemente associati all’eVar &quot;pre-elaborato&quot; corrispondente della colonna post_evar saranno associati al valore contenuto nella colonna post_evar.  Il binding tra il valore eVar e il prodotto non viene mai modificato fino alla scadenza dell’eVar per l’impostazione &quot;Dopo la scadenza&quot; nelle impostazioni della suite di rapporti.
+Quando l’impostazione Allocazione di un eVar di merchandising (ovvero binding) è impostata su &quot;Original Value (First)&quot; (Valore originale, primo), si verifica quanto segue: tutti i prodotti impostati accanto alla colonna post_evar e che non sono stati precedentemente associati all’eVar &quot;pre-elaborato&quot; corrispondente della colonna post_evar saranno associati al valore contenuto nella colonna post_evar.  Il binding tra il valore eVar e il prodotto non cambia mai finché l’eVar non scade secondo l’impostazione &quot;Expire After&quot; (Scade dopo) nelle impostazioni della suite di rapporti.
 
 Ogni volta che una richiesta di immagine soddisfa i criteri che altrimenti vincolerebbero un prodotto già associato al valore di eVar impostato più di recente, l’impostazione “Original Value (First)” (Valore originale, primo) forza i server di raccolta dati di Adobe Analytics a ignorare eventuali ulteriori tentativi di questo tipo. L’opposto si verifica con le eVar di merchandising con l’impostazione Allocazione (binding) uguale a “Più recente (ultimo)”. Ogni volta che una richiesta di immagine soddisfa i criteri che associano un prodotto a un’eVar di merchandising, il prodotto si associa (e si riassocia) al valore più recente passato nell’eVar o al valore (sempre) contenuto nella colonna `post_evar`.
 
@@ -134,7 +134,7 @@ La scadenza di un’eVar può avvenire quando viene registrato un evento di succ
 
 Per il metodo di ricerca dei prodotti, per best practice la scadenza di un’eVar di merchandising dovebbe corrispondere a uno dei seguenti valori:
 
-* O il periodo di tempo in cui un prodotto viene tenuto nel carrello prima che il sito lo rimuove automaticamente dal carrello (ad esempio 14 giorni, 30 giorni, ecc.)
+* la quantità di tempo per cui un prodotto viene tenuto nel carrello di un sito prima che questo lo rimuova automaticamente dal carrello (ad esempio 14 giorni, 30 giorni, ecc.)
 * OPPURE il momento in cui si verifica l’evento di acquisto.
 
 Con entrambe le impostazioni, per tutti i prodotti acquistati da un visitatore, il merito per ordine/unità/ricavo viene assegnato ai valori di eVar merchandising a cui erano associati i prodotti in quel momento.
@@ -170,7 +170,7 @@ Per associare una “internal keyword search” (ricerca interna per parole chia
 
 `s.products=";12345;;;;eVar1=internal keyword search";`
 
-Eventuali eventi di successo (aggiunti al carrello, acquisti) acquisiti contemporaneamente al productID 12345 vengono accreditati sia all’ID prodotto 12345 che al valore eVar1 di &quot;ricerca di parole chiave interna&quot;. Il merito per gli eventi di successo associati all’ID prodotto 12345 potrà essere attribuito a un valore eVar1 diverso unicamente se eVar1 venisse successivamente impostato su un valore diverso all’interno della variabile prodotti (insieme all’ID prodotto 12345).
+Eventuali eventi di successo (articoli aggiunti al carrello, acquisti) acquisiti contemporaneamente al productID 12345 vengono attribuiti sia all’ID prodotto 12345 che al valore eVar1 &quot;internal keyword search&quot; (ricerca interna per parole chiave). Il merito per gli eventi di successo associati all’ID prodotto 12345 potrà essere attribuito a un valore eVar1 diverso unicamente se eVar1 venisse successivamente impostato su un valore diverso all’interno della variabile prodotti (insieme all’ID prodotto 12345).
 
 Esempio:
 
@@ -178,7 +178,7 @@ Esempio:
 s.products=";12345;;;;eVar1=internal campaign";
 ```
 
-Questa impostazione della variabile modifica il binding dell’ID prodotto 12345 dal valore eVar1 di &quot;ricerca di parole chiave interna&quot; al valore eVar1 di &quot;campagna interna&quot;. Inoltre, questa modifica di rebinding avviene quando l’eVar è configurato per utilizzare la sintassi del prodotto e l’impostazione di allocazione (binding) di &quot;Più recente (Ultimo)&quot;. Se invece l’impostazione Allocazione (binding) è stata impostata su &quot;Valore originale (primo)&quot;, l’impostazione di eVar1 uguale a &quot;campagna interna&quot; insieme all’ID prodotto 12345 non rimetterebbe l’ID prodotto 12345 al valore eVar1 di &quot;campagna interna&quot;. Il binding rimarrà invece con il valore originariamente associato, ovvero &quot;ricerca di parole chiave interna&quot;.
+Questa impostazione della variabile cambia il binding dell’ID prodotto 12345 dal valore eVar1 &quot;internal keyword search&quot; (ricerca interna per parole chiave) al valore eVar1 &quot;internal campaign&quot; (campagna interna). Inoltre, questo rebinding avviene quando l’eVar è configurato per utilizzare la sintassi prodotto e l’impostazione di allocazione (binding) &quot;Most Recent (Last)&quot; (Più recente, ultimo). Se invece l’impostazione Allocazione (binding) è impostata su &quot;Original Value (First)&quot; (Valore originale, primo), l’impostazione eVar1 uguale a &quot;internal campaign&quot; (campagna interna) insieme all’ID prodotto 12345 non riassocia l’ID prodotto 12345 al valore eVar1 &quot;internal campaign&quot; (campagna interna). Il binding rimarrà invece valido per il valore originariamente associato, ovvero &quot;internal keyword search&quot; (ricerca interna per parole chiave).
 
 ### Problemi associati all’utilizzo della sintassi prodotto
 
@@ -201,7 +201,7 @@ A tutti i seguenti valori verrebbero attribuiti 1 ordine, 1 unità e $ 79,95 di 
 * Valore eVar1 “internal keyword search”
 * Valore eVar3 “non-internal campaign”
 * Valore eVar4 “non-browse”
-* Valore eVar5 di &quot;non-cross-selling&quot;
+* Valore eVar5 &quot;non-cross-selling&quot;
 
 Questa è l’attribuzione corretta, il che non è un problema. Piuttosto, il problema principale con questo approccio sta nel determinare come e quando impostare le eVar del metodo di ricerca dei prodotti.
 
@@ -244,7 +244,7 @@ In questo caso, a entrambi i valori `eVar10` “tshirt123-m-blue” e “tshirt1
 
 ### Problemi associati all’allocazione “Più recente”
 
-Puoi riscontrare ulteriori problemi utilizzando l’impostazione di allocazione (binding) di &quot;Più recente (ultimo)&quot;. In molte esperienze di navigazione web, i visitatori &quot;ritrovano&quot; un prodotto che hanno già visto e/o aggiunto al carrello. Questo di solito avviene drante una visita successiva o appena prima di completare un acquisto. Supponiamo che durante una visita al sito, un visitatore trovi il prodotto &quot;sandal123&quot; tramite la ricerca per parola chiave di &quot;sandali&quot;. Il visitatore aggiunge subito l’articolo al carrello, dalla pagina dei risultati della ricerca per parola chiave. Il codice con cui viene acquisito questo evento di aggiunta al carrello viene impostato come segue:
+Potresti riscontrare ulteriori problemi utilizzando l’impostazione di allocazione (binding) &quot;Most Recent (Last)&quot; (Più recente, ultimo). In molte esperienze di navigazione web, i visitatori &quot;trovano di nuovo&quot; un prodotto che hanno già visualizzato e/o aggiunto al carrello. Questo di solito avviene drante una visita successiva o appena prima di completare un acquisto. Supponiamo che durante una visita al sito, un visitatore trovi il prodotto &quot;sandal123&quot; tramite la ricerca per parola chiave di &quot;sandals&quot;. Il visitatore aggiunge subito l’articolo al carrello, dalla pagina dei risultati della ricerca per parola chiave. Il codice con cui viene acquisito questo evento di aggiunta al carrello viene impostato come segue:
 
 ```js
 s.linkTrackVars="products,events";
@@ -254,7 +254,7 @@ s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-
 
 Di conseguenza, ciascuno dei valori eVar presenti in questa richiesta di immagine è associato al prodotto “sandal123”.
 
-Ora, immagina che il visitatore non acquisti il prodotto durante questa visita, ma ritorna sul sito tre giorni dopo con il prodotto &quot;sandals123&quot; ancora nel carrello. Il visitatore vuole saperne di più sul prodotto prima di effettuare l’acquisto. Invece di usare una ricerca per parola chiave per trovare il prodotto, questa volta il visitatore naviga nel sito. Finiscono nella sezione di ricerca merchandising &quot;womens > shoes > sandals&quot; poco prima di &quot;ri-trovare&quot; il prodotto. Quando finiscono per &quot;ritrovare&quot; la pagina dei dettagli del prodotto per il prodotto &quot;sandal123&quot;, le variabili vengono impostate come segue (al caricamento della pagina):
+Ora, immagina che il visitatore non acquisti il prodotto durante questa visita, ma ritorni sul sito tre giorni dopo con il prodotto &quot;sandals123&quot; ancora nel carrello. Il visitatore vuole saperne di più sul prodotto prima di effettuare l’acquisto. Invece di usare una ricerca per parola chiave per trovare il prodotto, questa volta il visitatore naviga nel sito. Arrivano alla sezione di navigazione merchandising &quot;womens > shoes > sandals&quot; poco prima di &quot;trovare di nuovo&quot; il prodotto. Quando il visitatore alla fine &quot;trova di nuovo&quot; la pagina dei dettagli del prodotto &quot;sandal123&quot;, le variabili vengono impostate come segue (al caricamento della pagina):
 
 ```js
 s.events="prodView";

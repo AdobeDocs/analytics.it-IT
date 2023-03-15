@@ -1,6 +1,6 @@
 ---
 description: Le origini dati Adobe Analytics ti consentono di importare manualmente altri dati online e offline per il reporting.
-title: Cosa sono le Origini dati e a cosa servono?
+title: Cosa sono le origini dati e quali vantaggi offrono?
 feature: Data Sources
 exl-id: 8e695f0a-06b7-4aac-8917-318ae80ce1ec
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
@@ -36,4 +36,4 @@ Puoi utilizzare Origini dati per capire meglio i dati pre-clic importando i dati
 >
 >Affinché le origini dati ID transazione possano collegare dati offline a eventi online, devi far sì che la Registrazione ID transazione sia abilitata dall’Assistenza clienti. Consulta [Registrazione ID transazione](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) per ulteriori informazioni.
 
-Dopo l’importazione, la maggior parte dei dati Origini dati è disponibile in Adobe Experience Cloud.
+Dopo l’importazione, la maggior parte dei dati Origini dati è disponibile in tutto Adobe Experience Cloud.

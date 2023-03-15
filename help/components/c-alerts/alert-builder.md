@@ -14,7 +14,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Adobe di avvisi intelligenti [!DNL Analytics] Prime e Adobi [!DNL Analytics] Solo clienti finali.
+>Adobe di avvisi intelligenti [!DNL Analytics] Prime e Adobe [!DNL Analytics] Solo per i clienti più esperti.
 
 Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
 
@@ -23,9 +23,9 @@ Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
    `ctrl (or cmd) + shift + a`
 * Da **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
 * Selezionando uno o più elementi della tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]**.
-* Da all&#39;interno di un [!UICONTROL Reports & Analytics] rapporto, **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
+* Da un [!UICONTROL Reports & Analytics] rapporto, da **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
-L’interfaccia di Generatore di avvisi è familiare per coloro che hanno generato segmenti o metriche calcolate in [!DNL Analytics]:
+L’interfaccia del Generatore di avvisi è familiare a coloro che hanno creato segmenti o metriche calcolate in [!DNL Analytics]:
 
 ![](assets/alert_builder.png)
 
@@ -43,7 +43,7 @@ Specifica quando occorre controllare la metrica: ogni ora, giorno, settimana o m
 
 **Recipients (Destinatari)**
 
-Specifica a chi deve essere inviato l’avviso. È possibile inviare un avviso a un [!DNL Analytics] utente, un [!DNL Analytics] un gruppo, un indirizzo e-mail non elaborato o un numero di telefono.
+Specifica a chi deve essere inviato l’avviso. Un avviso può essere inviato a un [!DNL Analytics] utente, un [!DNL Analytics] un gruppo, un indirizzo e-mail non elaborato o un numero di telefono.
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ Imposta la data di scadenza dell’avviso.
 
 * Trascina la metrica nell’area di lavoro per l’aggiunta degli attivatori.
 
-   Tieni presente che **&quot;componenti incompatibili&quot;** se non tutti i componenti (metriche/dimensioni/segmenti) nell’avviso sono compatibili con la suite di rapporti attualmente selezionata, viene visualizzato un messaggio.
+   Tieni presente che un **&quot;componenti incompatibili&quot;** Se non tutti i componenti (metriche, dimensioni o segmenti) nell’avviso sono compatibili con la suite di rapporti attualmente selezionata, viene visualizzato un messaggio.
 
 * Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
 

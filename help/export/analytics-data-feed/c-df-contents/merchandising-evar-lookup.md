@@ -1,6 +1,6 @@
 ---
-title: Ricerca di istanze eVar Merchandising in post_product_list
-description: Trova l’istanza Merchandising eVar per ogni valore di ricerca nella colonna post_product_list di un feed di dati.
+title: Ricerca istanze Merchandising eVar in post_product_list
+description: Trova l’istanza Merchandising eVar per ogni valore di ricerca nella colonna post_product_list in un feed di dati.
 feature: Data Feeds
 exl-id: d4b7d53b-21da-42d1-b54a-4602920bb6d4
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
@@ -10,23 +10,23 @@ ht-degree: 86%
 
 ---
 
-# Ricerca di istanze eVar Merchandising in post_product_list
+# Ricerca istanze Merchandising eVar in post_product_list
 
-Nei feed di dati, la [post_product_list](datafeeds-reference.md) La colonna può contenere le istanze di eVar merchandising. Ogni eVar è rappresentato da un numero.
+Nei feed di dati, la funzione [post_product_list](datafeeds-reference.md) può contenere le istanze merchandising eVar. Ogni eVar è rappresentato da un numero.
 
-La ricerca dell&#39;istanza Merchandising eVar per post_product_list è diversa dalla colonna di ricerca event_list nel feed di dati.
+La ricerca dell’istanza Merchandising eVar per post_product_list è diversa dalla colonna di ricerca event_list in Feed dati.
 
-| Valore ricerca | Istanza di merchandising |
+| Valore di ricerca | Istanza merchandising |
 |--- |--- |
 | 101 | eVar1 |
-| 102 | eVar 2 |
-| 103 | eVar 3 |
+| 102 | eVar2 |
+| 103 | eVar3 |
 | 104 | eVar4 |
 | 105 | eVar5 |
-| 106 | eVar 6 |
+| 106 | eVar6 |
 | 107 | eVar7 |
 | 108 | eVar8 |
-| 109 | eVar 9 |
+| 109 | eVar9 |
 | 110 | eVar10 |
 | 111 | eVar11 |
 | 112 | eVar12 |

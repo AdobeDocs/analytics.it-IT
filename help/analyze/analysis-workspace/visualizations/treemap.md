@@ -16,7 +16,7 @@ ht-degree: 78%
 
 Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati.
 
-Ecco un video sul [!UICONTROL Treemap] visualizzazione:
+Ecco un video sulla [!UICONTROL Treemap] visualizzazione:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334458/?quality=12)
 
@@ -24,4 +24,4 @@ A ogni sezione dell’albero viene assegnato un rettangolo, che racchiude al suo
 
 ![](assets/treemap.png)
 
-Quando il colore e le dimensioni sono in qualche modo legate con la struttura dell’albero, spesso si notano modelli che sarebbe difficile individuare in altri modi, ad esempio se un determinato colore è particolarmente rilevante. Un secondo vantaggio di Treemaps è che, per costruzione, fanno un uso efficiente dello spazio.
+Quando il colore e le dimensioni sono in qualche modo legate con la struttura dell’albero, spesso si notano modelli che sarebbe difficile individuare in altri modi, ad esempio se un determinato colore è particolarmente rilevante. Un secondo vantaggio delle mappe ad albero è che, per costruzione, fanno un uso efficiente dello spazio.

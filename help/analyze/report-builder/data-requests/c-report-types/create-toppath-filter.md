@@ -1,5 +1,5 @@
 ---
-description: Descrive come creare rapporti di percorso con filtri predefiniti.
+description: Descrive come creare rapporti sui percorsi con filtri predefiniti.
 title: Filtrare i rapporti di percorso aggiungendo richieste dipendenti
 feature: Report Builder
 role: User, Admin
@@ -13,28 +13,28 @@ ht-degree: 8%
 
 # Filtrare i rapporti di percorso aggiungendo richieste dipendenti
 
-Descrive come creare rapporti di percorso con filtri predefiniti.
+Descrive come creare rapporti sui percorsi con filtri predefiniti.
 
-Marketing Reports &amp; Analytics offre alcuni rapporti indipendenti che sono i migliori rapporti sui percorsi con filtri predefiniti, ad esempio [!UICONTROL Next] e [!UICONTROL Previous Site Section] rapporti, ingresso e [!UICONTROL Exit Site Section] rapporti e [!UICONTROL Single Site Section] rapporto.
+Marketing Reports &amp; Analytics offre alcuni rapporti autonomi che sono rapporti sul percorso principale con filtri preimpostati, ad esempio [!UICONTROL Next] e [!UICONTROL Previous Site Section] rapporti, entrata e [!UICONTROL Exit Site Section] rapporti, e [!UICONTROL Single Site Section] rapporto.
 
-Il Report Builder non offre questi come rapporti indipendenti, ma puoi crearli tramite **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** menu di scelta rapida. Sono disponibili i seguenti rapporti:
+Il Report Builder non offre questi rapporti come rapporti autonomi, ma puoi crearli tramite **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** menu di scelta rapida. Sono disponibili i seguenti rapporti:
 
 * Percorso > Abbandono pagina
-* Percorso > Percorso di ingresso
+* Path (Percorso) > Entry Path (Percorso di ingresso)
 * Percorso > Percorso di uscita
 * Percorso > Pagina successiva
-* Percorso > Percorso di immissione > pagina successiva
+* Path (Percorso) > Entry Path (Percorso di ingresso) > next page (Pagina successiva)
 * Percorso > Pagina precedente
-* Percorso > Percorso di uscita > Pagina precedente
-* Percorso > Percorso di immissione > Come pagina di ingresso
+* Path (Percorso) > Exit Path (Percorso di uscita) > Previous Page (Pagina precedente)
+* Percorso > Percorso di ingresso > Come pagina di ingresso
 * Percorso > Percorso di uscita > Come pagina di uscita
 
-1. Seleziona più righe da una richiesta esistente, quindi fai clic con il pulsante destro del mouse **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**.
+1. Seleziona più righe da una richiesta esistente, quindi fai clic con il pulsante destro del mouse su **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**.
 
-   Se desideri visualizzare le **[!UICONTROL Page Fallout]** voce di menu).
+   (Tieni presente che devi selezionare almeno 3 righe per visualizzare **[!UICONTROL Page Fallout]** voce di menu.)
 
    ![](assets/dependen_request.png)
 
 1. Seleziona il filtro predefinito, ad esempio **[!UICONTROL Previous Page]**.
 
-   Viene visualizzata la Creazione guidata richieste, con la metrica Pagina precedente già selezionata. 1. Continua a perfezionare la richiesta nella Richiesta guidata e genera la richiesta.
+   Viene visualizzata la Richiesta guidata, con la metrica Pagina precedente già selezionata. 1. Continuare a perfezionare la richiesta nella Creazione guidata richieste e generare la richiesta.

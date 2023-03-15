@@ -4,7 +4,7 @@ description: Assicurati che gli indicatori delle prestazioni chiave e le metrich
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 

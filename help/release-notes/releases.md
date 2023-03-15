@@ -6,7 +6,7 @@ exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 81%
+ht-degree: 91%
 
 ---
 
@@ -18,13 +18,13 @@ I rilasci di Adobe Analytics funzionano secondo un modello di distribuzione cont
 
 [!UICONTROL Analysis Workspace] utilizza i flag di funzione (noti anche come “interruttori”) per controllare la visibilità delle nuove funzioni, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
 
-* **Test limitati**: un rilascio graduale inizia con il test da parte degli utenti Adobe interni. Viene quindi reso disponibile a un piccolo gruppo di account cliente per garantire che la funzione soddisfi le esigenze e le aspettative dei clienti.
+* **Test limitati**: un rilascio graduale inizia con il test da parte di utenti Adobe interni. Viene quindi reso disponibile a un piccolo gruppo di account cliente per garantire che la funzione soddisfi le loro esigenze e aspettative.
 
-* **Inizio del rollout**: Il rollout di un rilascio graduale inizia con la fase di prova limitata. La versione viene quindi scalata dallo 0% al 100% di disponibilità ai clienti nel corso di un paio di mesi. Il rollout graduale avviene a livello di organizzazione Experience Cloud, in modo che tutti gli utenti autorizzati in un’organizzazione ricevano la stessa esperienza.
+* **Inizio del rollout**: il rollout di un rilascio graduale inizia con la fase di test limitato. La versione viene quindi scalata dallo 0% al 100% di disponibilità ai clienti nel corso di un paio di mesi. Il rollout graduale avviene a livello di organizzazione Experience Cloud, in modo che tutti gli utenti autorizzati in un’organizzazione ricevano la stessa esperienza.
 
 * **Disponibilità generale (GA, General Availability)**: la funzione è disponibile per il 100% delle organizzazioni Experience Cloud autorizzate e il rilascio è completo.
 
-Per ogni rilascio di funzioni, la timeline da Inizio rollout a GA può variare. L’obiettivo è mantenere i rilasci brevi, in modo che entro 2 mesi dall’inizio del rollout, una funzione sarà in GA.
+A ogni rilascio di funzioni, la timeline dall’inizio del rollout a GA può variare. L’obiettivo è mantenere i rilasci brevi, in modo che entro 2 mesi dall’inizio del rollout una funzione sarà GA.
 
 ## Flag di funzioni
 

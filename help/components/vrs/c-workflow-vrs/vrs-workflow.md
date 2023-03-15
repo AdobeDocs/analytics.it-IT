@@ -15,9 +15,9 @@ ht-degree: 8%
 
 Panoramica dei passaggi necessari per pianificare e implementare suite di rapporti virtuali.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Pianifica la tua strategia suite di rapporti virtuale.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Pianifica la strategia per suite di rapporti virtuali.
 
-Acquisisci familiarità con [Considerazioni sui tag globali/per più suite](/help/components/vrs/vrs-considerations.md) e le domande frequenti quando decidi la tua strategia.
+Acquisisci familiarità con [Considerazioni su tag globali/su più suite](/help/components/vrs/vrs-considerations.md) e le domande frequenti relative alla strategia scelta.
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [Creare una suite di rapporti virtuale](/help/components/vrs/c-workflow-vrs/vrs-create.md) applicando uno o più segmenti a una suite di rapporti principale.
 
@@ -25,10 +25,10 @@ Le suite di rapporti virtuali vengono create in Gestione suite di rapporti virtu
 
 Una volta creata, una suite di rapporti virtuale viene trattata come una suite di rapporti di base in tutta l’interfaccia utente ed è generalmente supportata per la maggior parte delle funzioni estese. Ad esempio, le suite di rapporti virtuali vengono visualizzate nei selettori delle suite di rapporti e possono essere selezionate singolarmente come qualsiasi altra suite di rapporti.
 
-Fai clic sull’icona Informazioni accanto al nome della suite di rapporti in [visualizza informazioni](/help/components/vrs/c-workflow-vrs/vrs-view.md).
+Fai clic sull’icona Info accanto al nome della suite di rapporti per [visualizza informazioni su di esso](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Apri un progetto o un rapporto e seleziona una suite di rapporti virtuale per fornire una visualizzazione segmentata dei dati.
 
 ![](assets/step4_icon.png) [Gestisci](/help/components/vrs/c-workflow-vrs/vrs-manage.md) la suite di rapporti virtuale.
 
-Gestione suite di rapporti virtuale consente di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. questa funzione non è visibile agli utenti non amministratori.
+Gestione suite di rapporti virtuali consente di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. questa funzione non è visibile agli utenti non amministratori.

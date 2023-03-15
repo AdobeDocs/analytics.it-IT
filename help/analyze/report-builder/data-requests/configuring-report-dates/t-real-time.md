@@ -14,16 +14,16 @@ ht-degree: 9%
 
 # Configurare una richiesta in tempo reale
 
-Per configurare le date della richiesta in tempo reale:
+Per configurare le date di richiesta in tempo reale:
 
-1. Assicurati che la generazione di rapporti in tempo reale sia abilitata nella [Strumenti di amministrazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) in reporting e analisi di marketing.
-1. Sulla [!UICONTROL Request Wizard: Step 1], fai clic su **[!UICONTROL Real-Time Report]** > **[!UICONTROL `<report type>`]**
+1. Assicurati che la generazione rapporti in tempo reale sia abilitata nella [Strumenti di amministrazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) in reporting e analisi di marketing.
+1. Il giorno [!UICONTROL Request Wizard: Step 1], fai clic su **[!UICONTROL Real-Time Report]** > **[!UICONTROL `<report type>`]**
 
-   Ad esempio, selezionare un rapporto sul traffico. Quando selezioni un tipo di rapporto in tempo reale, la [!UICONTROL Select Time Range] vengono visualizzate le opzioni .
+   Ad esempio, seleziona un rapporto sul traffico. Quando si seleziona un tipo di report in tempo reale, il [!UICONTROL Select Time Range] opzioni.
 
 1. Seleziona un intervallo di tempo in minuti o ore.
 
    ![Risultato del passaggio](assets/real_time_select_date.png)
 
-   Il reporting in tempo reale è disponibile solo per le ultime 20 ore. Per la granularità, puoi scegliere tra granularità da 1 minuto a 30 minuti.
-1. Fai clic su **[!UICONTROL Next]** e continua [configurazione del layout della richiesta](/help/analyze/report-builder/layout/layout.md).
+   Il reporting in tempo reale è disponibile solo per le ultime 20 ore. Per la granularità, puoi scegliere tra una granularità di 1 minuto e 30 minuti.
+1. Clic **[!UICONTROL Next]** e continua [configurazione del layout della richiesta](/help/analyze/report-builder/layout/layout.md).
