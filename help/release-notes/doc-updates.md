@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 04e80edd290b1b6a007e7ccec1bb1d563e98ecf8
 workflow-type: tm+mt
 source-wordcount: '3732'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -26,22 +26,22 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Marzo 2023** |  |
-| Creare storie di dati nelle scorecard per dispositivi mobili | A [storia dei dati](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) è una raccolta di punti di dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale. |
-| Metriche calcolate predefinite | Sono stati aggiunti contenuti che spiegano [metriche calcolate predefinite fornite da Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
-| Dizionario dati | <p>È stata aggiunta una nuova documentazione per il dizionario dati che include: [Panoramica](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Visualizzazione](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Modifica](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), e [Monitorare](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) il dizionario dati.</p><p>Informazioni in [Aggiunta di descrizioni dei componenti](/help/analyze/analysis-workspace/components/add-component-descriptions.md) è stato aggiornato per tenere conto della funzionalità del dizionario dati.</p> |
+| Creare storie di dati nelle scorecard per dispositivi mobili | A [storia dei dati](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) è una raccolta di punti dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale. |
+| Metriche calcolate predefinite | Sono stati aggiunti contenuti che spiegano le [metriche calcolate predefinite fornite da Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
+| Dizionario dati | <p>È stata aggiunta una nuova documentazione per il dizionario dati, tra cui un’ [Panoramica](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Visualizzazione](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Modifica](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)e [Monitoraggio](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) il dizionario dati.</p><p>Informazioni in [Aggiunta di descrizioni dei componenti](/help/analyze/analysis-workspace/components/add-component-descriptions.md) è stato aggiornato per tenere conto della funzionalità del dizionario dati.</p> |
 | Condivisione dei collegamenti per i progetti (accesso non richiesto) | <p>È stata aggiornata la documentazione esistente per spiegare come condividere un collegamento di sola lettura di un progetto con persone che non hanno accesso ad Analysis Workspace.</p> <p>La documentazione utente aggiornata include [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md) e [Creare collegamenti condivisibili](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>Le opzioni per gli amministratori sono state aggiunte a [Preferenze](/help/analyze/analysis-workspace/user-preferences.md).</p> |
 | **Febbraio 2023** |  |
 | Implementazione | Sono stati aggiornati i contenuti su come [implementare Adobe Analytics per web e dispositivi mobili](../implement/home.md). |
 | Calendario e intervalli di date in Workspace | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo delle formule e modifiche all’interfaccia utente degli elementi calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Scorecard per dispositivi mobili | Nuova sezione della documentazione per descrivere come mostrare e nascondere gli intervalli di date di confronto. Vedi [Mostrare intervalli di date di confronto](/help/analyze/mobile-app/create-scorecard.md) in CJA. |
-| API 1.4 | Il [API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) ha ricevuto una riscrittura completa e ora è pubblicato su Adobe Developer. |
-| Tracciamento tra i tipi di implementazione | È stato aggiornato il caso d’uso [Tracciare diversi tipi di implementazione](../implement/use-cases/cross-type-implementation.md) per ospitare il servizio ID Experience Cloud. |
+| 1.4 API | L’[API di Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) è stata completamente riscritta e ora è pubblicata su Adobe Developer. |
+| Tracciamento tra i tipi di implementazione | È stato aggiornato il caso d’uso [Tracciamento in diversi tipi di implementazione](../implement/use-cases/cross-type-implementation.md) per ospitare il servizio Experience Cloud ID. |
 | **Gennaio 2023** |  |
 | Filtrare e ordinare tabelle | Contenuto aggiornato (incluse l’aggiunta di procedure e la spiegazione delle opzioni disponibili) nell’articolo [Filtrare e ordinare le tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Questo articolo è stato rinominato da “Paginazione, filtri e ordinamento di tabelle in Workspace”. |
 | Cartelle | Pagine dedicate per [Gestione delle cartelle](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferenze utente | Sono ora disponibili molte preferenze utente aggiuntive in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md). |
-| Salvataggio automatico per progetti | Contenuto aggiornato per includere funzionalità di salvataggio automatico in [Salvare i progetti](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
-| Pagina di destinazione | Nuovo [aggiornamenti della pagina di destinazione](/help/analyze/landing.md) |
+| Salvataggio automatico dei progetti | Contenuto aggiornato per includere funzionalità di salvataggio automatico in [Salvare i progetti](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
+| Pagina di destinazione | Nuovi [aggiornamenti della pagina di destinazione](/help/analyze/landing.md) |
 
 ### 2022 {#22}
 
@@ -82,7 +82,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Nuova documentazione sulle annotazioni in Analysis Workspace | [Le annotazioni in Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) consentono di comunicare in modo efficace dettagli sui dati contestuali a beneficio degli utenti in tutta l’organizzazione. |
 | Aggiornamenti pagina di destinazione di Adobe Analytics | [Aggiornamenti](/help/analyze/landing.md) alla pagina di destinazione congiunta Analysis Workspace/Reports &amp; Analytics che migliora l’usabilità e la facilità di navigazione. |
 | Pannello Workspace [!UICONTROL Next item] o [!UICONTROL Previous item] | Questo pannello consente di esplorare gli elementi che seguono o precedono un elemento dimensionale scelto. |
-| Pannello Workspace [!UICONTROL Page Summary]  | Questo pannello fornisce un’analisi approfondita per una pagina a scelta. |
+| Pannello Workspace [!UICONTROL Page Summary] | Questo pannello fornisce un’analisi approfondita per una pagina a scelta. |
 | Nuovo argomento relativo alla sospensione dei report pianificati meno recenti | A partire dal **15 aprile 2022**, Adobe intende [sospendere tutti i rapporti pianificati con una data di creazione superiore ai due anni](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
 | **Febbraio 2022** |
 | Modalità anteprima dei progetti scorecard per dispositivi mobili | La [modalità anteprima](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#preview) consente di visualizzare un’anteprima dell’esperienza prima di salvare e condividere una scorecard. |

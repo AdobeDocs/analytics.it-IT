@@ -6,7 +6,7 @@ exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ I rilasci di Adobe Analytics funzionano secondo un modello di distribuzione cont
 
 * **Disponibilità generale (GA, General Availability)**: la funzione è disponibile per il 100% delle organizzazioni Experience Cloud autorizzate e il rilascio è completo.
 
-A ogni rilascio di funzioni, la timeline dall’inizio del rollout a GA può variare. L’obiettivo è mantenere i rilasci brevi, in modo che entro 2 mesi dall’inizio del rollout una funzione sarà GA.
+Con ogni rilascio di funzioni, la timeline dall’inizio del rollout a GA può variare. L’obiettivo è mantenere i rilasci brevi, in modo che una funzione sia in GA entro 2 mesi dall’inizio del rollout.
 
 ## Flag di funzioni
 
