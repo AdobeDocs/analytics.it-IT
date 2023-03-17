@@ -5,34 +5,34 @@ title: Creare collegamenti condivisibili
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 8935f71e52e2486fc1fd8562a31dbd18d69fd18d
+source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 70%
+source-wordcount: '337'
+ht-degree: 63%
 
 ---
 
 # Creare collegamenti condivisibili
 
-Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Alcuni tipi di collegamento richiedono che il destinatario acceda ad Adobe Analytics prima di accedere al progetto, altri no.
+Analysis Workspace offre diversi modi per condividere un progetto con gli utenti, inclusa la possibilità di ottenere un collegamento a un progetto o a una parte specifica di un progetto. Alcuni tipi di collegamento richiedono al destinatario di accedere ad Adobe Analytics prima di accedere al progetto, mentre altri no.
 
-## Ottieni collegamento progetto {#project-link}
+## Ottenere un collegamento al progetto da condividere con altri utenti di Workspace {#project-link}
 
-Per condividere un collegamento all’intero progetto, vai su **[!UICONTROL Share > Get project link]**. Se al destinatario del collegamento non è stato assegnato un [ruolo di progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it), gli amministratori riceveranno esperienze **[!UICONTROL Can edit]** (Può modificare) e i non amministratori **[!UICONTROL Can duplicate]** (Può duplicare).
+Per condividere un collegamento all’intero progetto, vai a [!UICONTROL **Condividi**] > [!UICONTROL **Condividi con gli utenti di Workspace**] > [!UICONTROL **Condividi tramite collegamento**]. Se al destinatario del collegamento non è stato assegnato un [ruolo di progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it), gli amministratori riceveranno esperienze **[!UICONTROL Can edit]** (Può modificare) e i non amministratori **[!UICONTROL Can duplicate]** (Può duplicare).
 
 ![](assets/get-project-link.png)
 
-## Ottieni collegamento pubblico
+## Ottieni un collegamento in sola lettura da condividere con chiunque
 
 {{release-limited-testing-section}}
 
-Puoi condividere un collegamento di sola visualizzazione ai progetti Analysis Workspace con persone che non hanno accesso ad Adobe Analytics.
+Puoi condividere un collegamento in sola lettura ai progetti Analysis Workspace con persone che non hanno accesso ad Adobe Analytics.
 
-Per ulteriori informazioni, consulta &quot;Condividere un collegamento pubblico con chiunque (accesso non richiesto)&quot; nell’articolo [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Per ulteriori informazioni, consulta &quot;Condividere un progetto con altri utenti (senza accesso richiesto)&quot; nell’articolo [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ## Ottenere un collegamento a un pannello o a una visualizzazione {#panel-link}
 
-Puoi anche condividere un collegamento a una parte specifica del progetto, ad esempio un pannello o una visualizzazione individuale. Questa pratica viene talvolta definita intralinking e Questo può essere utile per attirare l’attenzione degli utenti sulle informazioni chiave all’interno del progetto.
+Puoi anche condividere un collegamento a una parte specifica del progetto, ad esempio un pannello o una visualizzazione individuale. Questa pratica viene talvolta definita intralinking e Può essere utile per attirare l’attenzione degli utenti sulle informazioni chiave all’interno del progetto.
 
 * Dall’intestazione di qualsiasi pannello, fai clic con il pulsante destro del mouse su **[!UICONTROL Get panel link]**
 * Dall’intestazione di qualsiasi tabella o visualizzazione, fai clic con il pulsante destro del mouse su **[!UICONTROL Get visualization link]**
