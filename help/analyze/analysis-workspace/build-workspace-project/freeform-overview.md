@@ -5,10 +5,10 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+source-git-commit: 5b22de34d4c99d68609d39711a970f871c893b74
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,8 +38,6 @@ La pagina Progetti contiene le seguenti informazioni:
 | [Modifica preferenze](/help/analyze/analysis-workspace/user-preferences.md) | Gestisci le impostazioni di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. |
 | [Crea cartella](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Aggiungi una nuova cartella o sottocartella all’elenco dei progetti e delle cartelle. |
 | [Crea progetto](/help/analyze/analysis-workspace/home.md) | Avvia un nuovo progetto da zero o da un [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
-| Gestione progetti <!--I don't see this option--> | Fai clic su questo collegamento per passare al modulo di gestione dei componenti per progetti (**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), in cui vengono elencati tutti i tuoi progetti e dove puoi assegnare tag, condividere, eliminare, rinominare, approvare, copiare ed esportare i progetti come file CSV. |
-| Imposta come pagina di destinazione <!--I don't see this option--> | Consente di impostare la pagina attuale come pagina di destinazione di Workspace. |
 | Mostra altro | Mostra le opzioni per la creazione di un progetto vuoto o di una scheda di valutazione mobile, [visualizzazione dei tutorial di formazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=it)oppure [visualizzazione delle note sulla versione](/help/release-notes/latest.md). |
 | Mostra cartelle e progetti | Scegliere se visualizzare la struttura delle cartelle dei progetti. Per ulteriori informazioni, consulta la sezione [Informazioni sulle cartelle in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Personalizza tabella (icona) | Consente di personalizzare le informazioni visualizzate per ogni progetto nella pagina Progetti. |
@@ -58,8 +56,6 @@ La pagina Progetti contiene le seguenti informazioni:
 | Intervallo date più lungo | L’intervallo di date più lungo del progetto. |
 | Numero di query | Numero totale di query contenute nel progetto. |
 | Posizione | La cartella in cui si trova il progetto. |
-| Progetti preferiti <!--I don't see this option--> | Per contrassegnare un progetto come preferito, aprilo e fai clic sulla stella accanto al nome del progetto. Al successivo avvio di Workspace, verrà elencato tra i progetti preferiti. |
-| Progetti visualizzati di frequente <!--I don't see this option--> | Elenca i progetti che vengono aperti più spesso, per accedervi più facilmente. |
 
 ## Barra dei menu {#menu-bar}
 
