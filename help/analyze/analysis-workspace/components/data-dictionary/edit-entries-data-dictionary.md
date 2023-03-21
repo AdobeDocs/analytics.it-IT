@@ -3,9 +3,9 @@ description: Il dizionario dati in Analysis Workspace consente agli utenti di ca
 title: Modificare le voci nel dizionario dati
 feature: Components
 role: Admin
-source-git-commit: 8edd7b1b90e2ac3137bea734e5a0f1cb8004e743
+source-git-commit: 7e105b4cd22187411dedd663080703e6daec91f5
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,10 @@ Per modificare un componente nel dizionario dati:
    |---------|----------|
    | ![Icona Dimension](assets/dimension-icon.png) | Indica un **dimension**. I Dimension sono forniti dall&#39;Adobe. Impossibile modificare le dimensioni esistenti e creare nuove dimensioni. |
    | ![Icona della metrica](assets/default-metric-icon.png) | Indica un **metrica standard** (non calcolato). Le metriche standard vengono fornite per Adobe e non possono essere modificate. |
-   | ![Icona Adobe](assets/default-calc-metric-icon.png) | Indica un **modello di metrica calcolata**. Si tratta di metriche calcolate fornite da Adobe e che non possono essere modificate. |
-   | ![Icona Calcolatore](assets/calculated-metric-icon-created.png) | Indica un **metrica calcolata** creato da un amministratore Analytics nella tua organizzazione. <!-- Delete all the comments... Components with this icon can be modified by an Analytics administrator. New calculated metrics can be created by an Analytics administrator, as described in [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md). --> |
-   | ![Icona Segmento](assets/segment-icon.png) | Indica un **segmento**. Possono essere segmenti forniti da un Adobe o creati da un amministratore Analytics nella tua organizzazione.<!-- Segments that were created byComponents with this icon can be modified by an Analytics administrator, as described in [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md). New calculated metrics can also be created by an Analytics administrator, as described in [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md). --> |
-   | ![Icona Intervallo date](assets/date-range-icon.png) | Indica un **intervallo date**. Possono essere intervalli di date forniti da un Adobe o creati da un amministratore Analytics nella tua organizzazione. <!-- Components with this icon can be modified by an Analytics administrator. New date ranges can also be created by an Analytics administrator, as described in [Create custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). --> |
+   | ![Icona Adobe](assets/default-calc-metric-icon.png) | Indica un **modello di metrica calcolata** o **modello di segmento**. Questi componenti sono forniti da Adobe e non possono essere modificati. |
+   | ![Icona Calcolatore](assets/calculated-metric-icon-created.png) | Indica un **metrica calcolata** creato da un amministratore Analytics nella tua organizzazione. |
+   | ![Icona Segmento](assets/segment-icon.png) | Indica un **segmento**. Possono essere segmenti forniti da un Adobe o creati da un amministratore Analytics nella tua organizzazione. |
+   | ![Icona Intervallo date](assets/date-range-icon.png) | Indica un **intervallo date**. Possono essere intervalli di date forniti da un Adobe o creati da un amministratore Analytics nella tua organizzazione. |
 
 {{dd-filter-criteria}}
 
