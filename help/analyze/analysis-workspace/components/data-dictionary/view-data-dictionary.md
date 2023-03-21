@@ -3,16 +3,14 @@ description: Il dizionario dati in Analysis Workspace consente agli utenti di ca
 title: Visualizza dizionario dati
 feature: Components
 role: User, Admin
-source-git-commit: 5d83d2621ee5eee7dbbc2af3793a9e1d3de0f97b
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
 # Visualizzare le informazioni sui componenti nel dizionario dati
-
-{{release-limited-testing}}
 
 Il dizionario dati consente di visualizzare informazioni su un componente, inclusa la descrizione del componente, componenti simili, altri componenti con cui un componente viene spesso utilizzato e altro ancora.
 
@@ -32,16 +30,7 @@ Per visualizzare informazioni su un componente nel dizionario dati:
 
 1. (Facoltativo) Nel campo di ricerca, inizia a digitare il nome del componente che desideri visualizzare.
 
-   Accanto ai nomi dei componenti vengono visualizzate delle icone per indicare il tipo di componente:
-
-   | Icona | Significato |
-   |---------|----------|
-   | ![Icona Dimension](assets/dimension-icon.png) | Indica un **dimension**. I Dimension sono forniti dall&#39;Adobe. Impossibile modificare le dimensioni esistenti e creare nuove dimensioni. |
-   | ![Icona della metrica](assets/default-metric-icon.png) | Indica un **metrica standard** (non calcolato). Le metriche standard vengono fornite per Adobe e non possono essere modificate. |
-   | ![Icona Adobe](assets/default-calc-metric-icon.png) | Indica un **modello di metrica calcolata** o **modello di segmento**. Questi componenti sono forniti da Adobe e non possono essere modificati. |
-   | ![Icona Calcolatore](assets/calculated-metric-icon-created.png) | Indica un **metrica calcolata** creato da un amministratore Analytics nella tua organizzazione. |
-   | ![Icona Segmento](assets/segment-icon.png) | Indica un **segmento**. Possono essere segmenti forniti da un Adobe o creati da un amministratore Analytics nella tua organizzazione. |
-   | ![Icona Intervallo date](assets/date-range-icon.png) | Indica un **intervallo date**. Possono essere intervalli di date forniti da un Adobe o creati da un amministratore Analytics nella tua organizzazione. |
+   Il tipo di componente può essere identificato sia dal colore che dall’icona. **Dimension** ![Icona Dimension](assets/dimension-icon.png) sono arancioni, **Segmenti** ![Icona Segmento](assets/segment-icon.png) sono blu, **Intervalli di date** ![Icona Intervallo date](assets/date-range-icon.png) sono viola, e **Metriche** ![Icona della metrica](assets/default-metric-icon.png) sono verdi. Icona Adobe ![Icona Adobe](assets/default-calc-metric-icon.png) indica un modello di metrica calcolata o un modello di segmento e l’icona del calcolatore ![Icona Calcolatore](assets/calculated-metric-icon-created.png) indica una metrica calcolata creata da un amministratore di Analytics nella tua organizzazione.
 
 {{dd-filter-criteria}}
 

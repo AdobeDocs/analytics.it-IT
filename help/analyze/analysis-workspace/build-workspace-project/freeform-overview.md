@@ -5,10 +5,10 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 96%
+source-wordcount: '1630'
+ht-degree: 80%
 
 ---
 
@@ -26,22 +26,40 @@ Quando scegli **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** per la pri
 
 ![](assets/sample-project.png)
 
-La pagina dell’elenco dei progetti Workspace contiene le seguenti informazioni:
+La pagina Progetti contiene le seguenti informazioni:
+
+>[!NOTE]
+>
+>Alcune colonne non sono visualizzate per impostazione predefinita. Per personalizzare le colonne visualizzate, fai clic sul pulsante **Personalizzare la tabella** icona ![Personalizzare la tabella](assets/projects-page-customize-columns-icon.png).
+
 
 | Elemento | Descrizione |
 |---|---|
-| [Crea nuovo progetto](/help/analyze/analysis-workspace/home.md) | Fai clic su questo collegamento per avviare un nuovo progetto partendo da zero o da un [modello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace) che è stato creato per te. |
-| Gestione progetti | Fai clic su questo collegamento per passare al modulo di gestione dei componenti per progetti (**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), in cui vengono elencati tutti i tuoi progetti e dove puoi assegnare tag, condividere, eliminare, rinominare, approvare, copiare ed esportare i progetti come file CSV. |
-| Imposta come pagina di destinazione | Consente di impostare la pagina attuale come pagina di destinazione di Workspace. |
-| [Visualizza esercitazioni](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=it) | Consente di accedere ai video tutorial su Analysis Workspace. |
+| [Modifica preferenze](/help/analyze/analysis-workspace/user-preferences.md) | Gestisci le impostazioni di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. |
+| [Crea cartella](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Aggiungi una nuova cartella o sottocartella all’elenco dei progetti e delle cartelle. |
+| [Crea progetto](/help/analyze/analysis-workspace/home.md) | Avvia un nuovo progetto da zero o da un [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
+| Gestione progetti <!--I don't see this option--> | Fai clic su questo collegamento per passare al modulo di gestione dei componenti per progetti (**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), in cui vengono elencati tutti i tuoi progetti e dove puoi assegnare tag, condividere, eliminare, rinominare, approvare, copiare ed esportare i progetti come file CSV. |
+| Imposta come pagina di destinazione <!--I don't see this option--> | Consente di impostare la pagina attuale come pagina di destinazione di Workspace. |
+| Mostra altro | Mostra le opzioni per la creazione di un progetto vuoto o di una scheda di valutazione mobile, [visualizzazione dei tutorial di formazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=it)oppure [visualizzazione delle note sulla versione](/help/release-notes/latest.md). |
+| Mostra cartelle e progetti | Scegliere se visualizzare la struttura delle cartelle dei progetti. Per ulteriori informazioni, consulta la sezione [Informazioni sulle cartelle in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Personalizza tabella (icona) | Consente di personalizzare le informazioni visualizzate per ogni progetto nella pagina Progetti. |
 | Nome | Nome del progetto Workspace. |
-| Proprietario | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
-| Tipo | Indica se si tratta di un progetto Workspace o di una [scheda di valutazione mobile](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=it). |
-| [Ruolo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) | Indica il tuo ruolo per il progetto, ossia se sei il proprietario o se sei autorizzato a modificarlo, duplicarlo o visualizzarlo. |
+| Tipo | Indica se si tratta di un progetto Workspace, una cartella o un [Scorecard per dispositivi mobili](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=it). |
 | Tag | Tag che sono stati applicati al progetto. |
+| Pianificato | Indica se i progetti devono essere inviati via e-mail ai destinatari in base a una pianificazione. Vedi [Pianificare progetti](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
+| Collegamento condiviso (chiunque) | I progetti possono essere condivisi con chiunque, anche con persone che non hanno accesso ad Analysis Workspace. Questa colonna mostra se i progetti sono stati condivisi in questo modo. Vedi [Condivisione di un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md) per ulteriori informazioni. |
+| Suite di rapporti | La suite di rapporti a cui è associato il progetto. |
+| [Ruolo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) | Indica il tuo ruolo per il progetto, ossia se sei il proprietario o se sei autorizzato a modificarlo, duplicarlo o visualizzarlo. |
+| Proprietario | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
+| Condiviso con | Utenti con cui è stato condiviso il progetto. |
 | Ultima modifica | Data e ora dell’ultima volta che il progetto è stato modificato. |
-| Progetti preferiti | Per contrassegnare un progetto come preferito, aprilo e fai clic sulla stella accanto al nome del progetto. Al successivo avvio di Workspace, verrà elencato tra i progetti preferiti. |
-| Progetti visualizzati di frequente | Elenca i progetti che vengono aperti più spesso, per accedervi più facilmente. |
+| Ultima apertura | Data e ora dell’ultima apertura del progetto. |
+| ID progetto | ID del progetto. |
+| Intervallo date più lungo | L’intervallo di date più lungo del progetto. |
+| Numero di query | Numero totale di query contenute nel progetto. |
+| Posizione | La cartella in cui si trova il progetto. |
+| Progetti preferiti <!--I don't see this option--> | Per contrassegnare un progetto come preferito, aprilo e fai clic sulla stella accanto al nome del progetto. Al successivo avvio di Workspace, verrà elencato tra i progetti preferiti. |
+| Progetti visualizzati di frequente <!--I don't see this option--> | Elenca i progetti che vengono aperti più spesso, per accedervi più facilmente. |
 
 ## Barra dei menu {#menu-bar}
 
@@ -106,7 +124,7 @@ A seconda del punto iniziale scelto per i progetti, l’area di lavoro presenta 
 
 ## Project Manager {#manager}
 
-I progetti Analysis Workspace possono essere gestiti tramite **[!UICONTROL Analytics]> [!UICONTROL Components] >[!UICONTROL Projects]**. Lo strumento per la gestione dei progetti mostra gli elementi creati da uno specifico utente.
+I progetti Analysis Workspace possono essere gestiti in **[!UICONTROL Analytics]> [!UICONTROL Components] >[!UICONTROL Projects]**. Lo strumento per la gestione dei progetti mostra gli elementi creati da uno specifico utente.
 
 La proprietà del progetto può essere trasferita a un nuovo utente in [!UICONTROL Admin] > [!UICONTROL Analytics Users & Assets] > [!UICONTROL Transfer Assets].
 
@@ -119,7 +137,7 @@ Di seguito sono riportate le azioni più comuni per la gestione dei progetti, ch
 | Azione | Descrizione |
 |---|---|
 | Add | Crea un nuovo progetto da zero o inizia da un [modello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it). |
-| Tag (Assegna tag) o Approve (Approva) | Scegli Tag (Assegna tag) o Approve (Approva) per organizzare i progetti e semplificarne la ricerca. |
+| Tag (Assegna tag) o Approve (Approva) | Scegli &quot;Tag&quot; o &quot;Approva&quot; per organizzare i tuoi progetti e semplificarne la ricerca. |
 | [Condividi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) | Rendi un progetto disponibile ad altri utenti di Analysis Workspace all’interno dell’organizzazione. |
 | Elimina | Elimina il progetto. |
 | Rinomina | Modifica il nome del progetto. |
