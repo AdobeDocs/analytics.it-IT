@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 2af8c2ee2ad8f445390a0b732630af1e1304d9a5
+source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
 workflow-type: tm+mt
-source-wordcount: '3629'
-ht-degree: 90%
+source-wordcount: '3655'
+ht-degree: 89%
 
 ---
 
@@ -26,10 +26,12 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 >
 >La maggior parte delle colonne contiene una colonna simile con il prefisso `post_`. Le colonne post contengono valori dopo la logica lato server, le regole di elaborazione e le regole VISTA. Nella maggior parte dei casi, Adobe consiglia di utilizzare colonne post. Per ulteriori informazioni, consulta [Domande frequenti sui feed di dati](../df-faq.md).
 
+Gli aggiornamenti precedenti a questa tabella si trovano su questa pagina [cronologia del commit su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+
 | Nome colonna | Descrizione colonna | Tipo di dati |
 | --- | --- | --- |
 | **`accept_language`** | Elenca tutte le lingue accettate, come indicato nell’intestazione HTTP Accetta-Lingua in una richiesta di immagine. | char(20) |
-| **`adload`** | Caricamenti di annunci multimediali | varchar(255) |
+| **`adload`** | Caricamenti degli annunci multimediali | varchar(255) |
 | **`aemassetid`** | Variabile multivalore corrispondente ai GUID (ID risorsa) di un set di Adobe Experience Manager Assets. Incrementa gli eventi di impression. | testo |
 | **`aemassetsource`** | Identifica l’origine dell’evento risorsa. Utilizzato in Adobe Experience Manager. | varchar(255) |
 | **`aemclickedassetid`** | ID risorsa di una risorsa di Adobe Experience Manager. Incrementa gli eventi di clic. | varchar(255) |
@@ -42,11 +44,11 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`ch_hdr`** | Hint client raccolti tramite l’intestazione della richiesta HTTP. | testo |
 | **`ch_js`** | Hint client raccolti tramite l’API JavaScript per gli hint client dall’agente utente | testo |
 | **`channel`** | Variabile utilizzata nella dimensione [Sezioni del sito](/help/components/dimensions/site-section.md). | varchar(100) |
-| **`click_action`** | Non più utilizzato. Indirizzo del collegamento su cui è stato fatto clic nello strumento di ClickMap legacy. | varchar(100) |
-| **`click_action_type`** | Non più utilizzato. Tipo di collegamento dello strumento di ClickMap legacy.<br>0: URL HREF<br>1: ID personalizzato<br>2: Evento onClick JavaScript<br>3: Elemento modulo | tinyint unsigned |
-| **`click_context`** | Non più utilizzato. Nome della pagina in cui si è verificato il clic sul collegamento. Parte dello strumento di ClickMap legacy. | varchar(255) |
+| **`click_action`** | Non più utilizzato. Indirizzo del collegamento selezionato nello strumento ClickMap legacy. | varchar(100) |
+| **`click_action_type`** | Non più utilizzato. Tipo di collegamento dello strumento ClickMap legacy.<br>0: URL HREF<br>1: ID personalizzato<br>2: Evento onClick JavaScript<br>3: Elemento modulo | tinyint unsigned |
+| **`click_context`** | Non più utilizzato. Nome della pagina in cui si è verificato il clic sul collegamento. Parte dello strumento ClickMap legacy. | varchar(255) |
 | **`click_context_type`** | Non più utilizzato. Indica se `click_context` aveva un nome di pagina o è stato impostato come URL predefinito per la pagina.<br>0: URL della pagina<br>1: Nome pagina | tinyint unsigned |
-| **`click_sourceid`** | Non più utilizzato. ID numerico della posizione sulla pagina del collegamento in cui è stato fatto clic. Parte dello strumento di ClickMap legacy. | int senza segno |
+| **`click_sourceid`** | Non più utilizzato. ID numerico della posizione sulla pagina del collegamento in cui è stato fatto clic. Parte dello strumento ClickMap legacy. | int senza segno |
 | **`click_tag`** | Non più utilizzato. Tipo di elemento HTML su cui è stato fatto clic. | char(10) |
 | **`clickmaplink`** | Collegamento ad Activity Map | varchar(255) |
 | **`clickmaplinkbyregion`** | Collegamento ad Activity Map per area geografica | varchar(255) |
@@ -61,11 +63,11 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`curr_factor`** | Determina la posizione dei decimali della valuta e viene utilizzato per la conversione della valuta. Ad esempio, USD utilizza due posizioni decimali, quindi questo valore di colonna è 2. | Tinyint |
 | **`curr_rate`** | Il tasso di cambio al momento della transazione. Adobe si appoggia a XE per determinare il tasso di cambio del giorno corrente. | decimal(24,12) |
 | **`currency`** | Codice valuta utilizzato durante la transazione. | char(8) |
-| **`cust_hit_time_gmt`** | Solo suite di rapporti abilitate per la marca temporale. La marca temporale inviata con l’hit, in base all’ora UNIX®. | Intero |
+| **`cust_hit_time_gmt`** | Solo suite di rapporti abilitate per la marca temporale. La marca temporale inviata con l&#39;hit, basata sull&#39;ora UNIX®. | Intero |
 | **`cust_visid`** | Se è impostato un ID visitatore personalizzato, questo viene popolato in questa colonna. | varchar(255) |
 | **`daily_visitor`** | Flag per determinare se l’hit è un nuovo visitatore giornaliero. | tinyint unsigned |
-| **`dataprivacyconsentoptin`** | Variabile utilizzata in [Gestione del consenso opt-in](/help/components/dimensions/cm-opt-in.md) dimensione. È possibile che siano presenti più valori per hit, separati da una barra verticale (`\|`). I valori validi includono `DMP` e `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | Variabile utilizzata in [Rinuncia alla gestione del consenso](/help/components/dimensions/cm-opt-out.md) dimensione. È possibile che siano presenti più valori per hit, separati da una barra verticale (`\|`). I valori validi includono `SSF`, `DMP`, e `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | Variabile utilizzata nella variabile [Consent Management](/help/components/dimensions/cm-opt-in.md) dimensione. Possono essere presenti più valori per hit, separati da una tubazione (`\|`). I valori validi includono `DMP` e `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | Variabile utilizzata nella variabile [Rinuncia alla gestione del consenso](/help/components/dimensions/cm-opt-out.md) dimensione. Possono essere presenti più valori per hit, separati da una tubazione (`\|`). I valori validi includono `SSF`, `DMP`e `SELL`. | varchar(100) |
 | **`date_time`** | L’ora dell’hit in formato leggibile, in base al fuso orario della suite di rapporti. | Datetime |
 | **`domain`** | Variabile utilizzata nella dimensione [Dominio](/help/components/dimensions/domain.md). In base al punto di accesso a Internet del visitatore. | varchar(100) |
 | **`duplicate_events`** | Elenca ogni evento conteggiato come duplicato. | varchar(255) |
@@ -80,15 +82,15 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`first_hit_ref_domain`** | Variabile utilizzata nella dimensione [Dominio di riferimento originale](/help/components/dimensions/original-referring-domain.md). In base a `first_hit_referrer`. Il primo dominio di provenienza del visitatore. | varchar(100) |
 | **`first_hit_ref_type`** | ID numerico che rappresenta il tipo di referrer del primo referrer del visitatore. Usa la ricerca `referrer_type.tsv`. | tinyint unsigned |
 | **`first_hit_referrer`** | Il primo URL di provenienza del visitatore. | varchar(255) |
-| **`first_hit_time_gmt`** | Marca temporale del primo hit del visitatore in tempo UNIX®. | Intero |
+| **`first_hit_time_gmt`** | Timestamp del primo hit del visitatore in UNIX® time. | Intero |
 | **`geo_city`** | Nome della città da cui proviene l’hit, in base all’IP. Utilizzato nella dimensione [Città](/help/components/dimensions/cities.md). | char(32) |
 | **`geo_country`** | Abbreviazione del Paese da cui proviene l’hit, basata su IP. Utilizzato nella dimensione [Paesi](/help/components/dimensions/countries.md). | char(4) |
 | **`geo_dma`** | ID numerico dell’area demografica di origine dell’hit, basato su IP. Utilizzato nella dimensione [DMA USA](/help/components/dimensions/us-dma.md). | int senza segno |
 | **`geo_region`** | Nome dello stato o dell’area geografica da cui proviene l’hit, in base all’IP. Utilizzato nella dimensione [Aree geografiche](/help/components/dimensions/regions.md). | char(32) |
-| **`geo_zip`** | Il codice postale di origine dell’hit, basato su IP. Consente di popolare la dimensione [Codice postale](/help/components/dimensions/zip-code.md). Consulta anche `zip`. | varchar(16) |
+| **`geo_zip`** | Il codice postale di origine dell&#39;hit, basato su IP. Consente di popolare la dimensione [Codice postale](/help/components/dimensions/zip-code.md). Consulta anche `zip`. | varchar(16) |
 | **`hier1 - hier5`** | Utilizzato da variabili gerarchiche. Contiene un elenco delimitato di valori. Il delimitatore viene selezionato nelle impostazioni della suite di rapporti. | varchar(255) |
-| **`hit_source`** | Indica la fonte da cui proviene l’hit. Le origini di hit 1, 2 e 6 vengono fatturate. <br>1: richiesta immagine standard senza marca temporale <br>2: richiesta immagine standard con marca temporale <br>3: caricamento origine dati live con marca temporale <br>4: non utilizzato <br>5: caricamento origine dati generica <br>6: caricamento origine dati a elaborazione completa <br>7: caricamento origine dati TransactionID <br>8: non più utilizzato; versioni precedenti di origini dati di Adobe Advertising Cloud <br>9: non più utilizzato; metriche di riepilogo di Adobe Social <br>10: inoltro lato server Audience Manager utilizzato | tinyint unsigned |
-| **`hit_time_gmt`** | La marca temporale dei server di raccolta dati di Adobe degli hit ha ricevuto l’hit, in base all’ora UNIX®. | Intero |
+| **`hit_source`** | Indica l&#39;origine dell&#39;hit. Le origini di hit 1, 2 e 6 vengono fatturate. <br>1: richiesta immagine standard senza marca temporale <br>2: richiesta immagine standard con marca temporale <br>3: caricamento origine dati live con marca temporale <br>4: non utilizzato <br>5: caricamento origine dati generica <br>6: caricamento origine dati a elaborazione completa <br>7: caricamento origine dati TransactionID <br>8: non più utilizzato; versioni precedenti di origini dati di Adobe Advertising Cloud <br>9: non più utilizzato; metriche di riepilogo di Adobe Social <br>10: inoltro lato server Audience Manager utilizzato | tinyint unsigned |
+| **`hit_time_gmt`** | La marca temporale dei server di raccolta dati dell&#39;Adobe di hit ha ricevuto l&#39;hit, in base all&#39;ora UNIX®. | Intero |
 | **`hitid_high`** | Utilizzato con `hitid_low` per identificare un hit. | Bigint senza segno |
 | **`hitid_low`** | Utilizzato con `hitid_high` per identificare un hit. | Bigint senza segno |
 | **`homepage`** | Non più utilizzato. Indica se l’URL corrente è la home page del browser. | char(1) |
@@ -100,9 +102,9 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`java_enabled`** | Flag che indica se Java è abilitato. <br>Y: abilitato <br>N: disabilitato <br>U: sconosciuto | char(1) |
 | **`javascript`** | ID di ricerca della versione JavaScript, in base a `j_jscript`. Utilizza la tabella di ricerca. | tinyint unsigned |
 | **`language`** | ID numerico della lingua. Usa la tabella di ricerca `languages.tsv`. | smallint senza segno |
-| **`last_hit_time_gmt`** | Marca temporale (in ora UNIX®) dell’hit precedente. Utilizzato per calcolare la dimensione [Giorni dall’ultima visita](/help/components/dimensions/days-since-last-visit.md). | Intero |
+| **`last_hit_time_gmt`** | Timestamp (in UNIX® time) dell&#39;hit precedente. Utilizzato per calcolare la dimensione [Giorni dall’ultima visita](/help/components/dimensions/days-since-last-visit.md). | Intero |
 | **`last_purchase_num`** | Variabile utilizzata nella dimensione [Fedeltà del cliente](/help/components/dimensions/customer-loyalty.md). Il numero di acquisti precedenti effettuati dal visitatore. <br>0: nessun acquisto precedente (non è un cliente) <br>1: 1 acquisto precedente (nuovo cliente) <br>2: 2 acquisti precedenti (cliente di ritorno) <br>3: 3 o più acquisti precedenti (cliente abituale) | int senza segno |
-| **`last_purchase_time_gmt`** | Utilizzato nella dimensione [Giorni dall’ultimo acquisto](/help/components/dimensions/days-since-last-purchase.md). Marca temporale (in ora UNIX®) dell’ultimo acquisto effettuato. Per i nuovi acquisti e i visitatori che non hanno effettuato un acquisto in precedenza, questo valore è `0`. | Intero |
+| **`last_purchase_time_gmt`** | Utilizzato nella dimensione [Giorni dall’ultimo acquisto](/help/components/dimensions/days-since-last-purchase.md). Timestamp (in UNIX® time) dell&#39;ultimo acquisto effettuato. Per i nuovi acquisti e i visitatori che non hanno effettuato un acquisto in precedenza, questo valore è `0`. | Intero |
 | **`latlon1`** | Posizione (fino a 10 chilometri) | varchar(255) |
 | **`latlon23`** | Posizione (fino a 100 m) | varchar(255) |
 | **`latlon45`** | Posizione (fino a 1 m) | varchar(255) |
@@ -125,13 +127,13 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`mobilecampaignterm`** | Parole chiave a pagamento o altri termini di cui tenere traccia con questa acquisizione. Viene compilata dalla funzione Acquisizione da app mobile. | varchar(255) |
 | **`mobiledayofweek`** | Numero del giorno della settimana in cui è stata avviata l’app. | varchar(255) |
 | **`mobiledayssincefirstuse`** | Numero di giorni dalla prima esecuzione dell’app. | varchar(255) |
-| **`mobiledayssincelastupgrade`** | RITIRATO: raccolto dalla variabile di dati di contesto a.DaysSinceLastUpgrade. Il numero di giorni trascorsi dalla sessione precedente. | varchar(255) |
+| **`mobiledayssincelastupgrade`** | RETIRED - Raccolto dalla variabile di dati di contesto a.DaysSinceLastUpgrade. Il numero di giorni trascorsi dalla sessione precedente. | varchar(255) |
 | **`mobiledayssincelastuse`** | Numero di giorni dall’ultima esecuzione dell’app. | varchar(255) |
 | **`mobiledeeplinkid`** | Raccolto dalla variabile di dati di contesto `a.deeplink.id`. Utilizzato nei rapporti di acquisizione come identificatore per il collegamento di acquisizione mobile. | varchar(255) |
 | **`mobiledevice`** | Nome del dispositivo mobile. In iOS, viene memorizzato come stringa di 2 cifre separate da virgola. Il primo numero rappresenta la generazione del dispositivo e il secondo rappresenta la famiglia di dispositivi. | varchar(255) |
-| **`mobilehourofday`** | Definisce l’ora del giorno in cui è stata avviata l’app. Segue il formato numerico di 24 ore. | varchar(255) |
+| **`mobilehourofday`** | Definisce l&#39;ora del giorno in cui l&#39;app è stata avviata. Segue il formato numerico di 24 ore. | varchar(255) |
 | **`mobileinstalldate`** | Data di installazione dell’app mobile. Fornisce la data della prima apertura dell’app mobile da parte di un utente. | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | RITIRATO: raccolto dalla variabile di dati di contesto a.LaunchesSinceUpgrade. Segnala il numero di avvii dall’ultimo aggiornamento. | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | RETIRED - Raccolto dalla variabile di dati di contesto a.LaunchesSinceUpgrade. Segnala il numero di avvii dall’ultimo aggiornamento. | varchar(255) |
 | **`mobilelaunchnumber`** | Aumenta di uno ogni volta che l’app mobile viene avviata. | varchar(255) |
 | **`mobileltv`** | Non più utilizzato. Compilato dai metodi trackLifetimeValue. | varchar(255) |
 | **`mobilemessagebuttonname`** | Raccolto dalla variabile di dati di contesto `a.message.button.id`. Utilizzato per la messaggistica in-app per identificare il pulsante che ha chiuso il messaggio. | varchar(100) |
@@ -139,12 +141,12 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`mobilemessageonline`** | Messaggio in-app online | varchar(255) |
 | **`mobilemessagepushoptin`** | Raccolto dalla variabile di dati di contesto `a.push.optin`. Imposta su “true” quando l’utente acconsente ai messaggi push; altrimenti il valore è “false”. | varchar(255) |
 | **`mobilemessagepushpayloadid`** | Raccolto dalla variabile di dati di contesto `a.push.payloadid`. Utilizzato nei messaggi push come identificatore del payload. | varchar(255) |
-| **`mobileosenvironment`** | RITIRATO: raccolto dalla variabile di dati di contesto `a.OSEnvironment`. Ambiente del sistema operativo degli stati, ad esempio Android o iOS. | varchar(255) |
+| **`mobileosenvironment`** | PENSATO: raccolto dalla variabile di dati di contesto `a.OSEnvironment`. Ambiente del sistema operativo degli stati, ad esempio Android o iOS. | varchar(255) |
 | **`mobileosversion`** | Versione del sistema operativo Mobile Services | varchar(255) |
 | **`mobileplaceaccuracy`** | Raccolto dalla variabile di dati di contesto `a.loc.acc`. Indica la precisione del GPS in metri al momento della raccolta. | varchar(255) |
 | **`mobileplacecategory`** | Raccolto dalla variabile di dati di contesto `a.loc.category`. Descrive la categoria di un luogo specifico. | varchar(255) |
 | **`mobileplaceid`** | Raccolto dalla variabile di dati di contesto `a.loc.id`. Identificatore per un dato punto di interesse. | varchar(255) |
-| **`mobilepushoptin`** | Opzione push di Mobile Services | varchar(255) |
+| **`mobilepushoptin`** | Consenso push per Mobile Services | varchar(255) |
 | **`mobilepushpayloadid`** | ID payload push di Mobile Services | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Contenuto del lancio Mobile Services | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Media del lancio Mobile Services | varchar(255) |
@@ -153,8 +155,8 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`mobilerelaunchcampaigntrackingcode`** | Raccolto dalla variabile di dati di contesto `a.launch.campaign.trackingcode`. Utilizzato nell’acquisizione come codice di tracciamento per la campagna di lancio. | varchar(255) |
 | **`mobileresolution`** | Risoluzione del dispositivo mobile. `[Width] x [Height]` in pixel. | varchar(255) |
 | **`monthly_visitor`** | Flag che indica che il visitatore è univoco per il mese corrente. | tinyint unsigned |
-| **`mvvar1`** - `mvvar3` | Elenca i valori delle variabili. Contiene un elenco delimitato di valori personalizzati a seconda dell’implementazione. Nelle colonne `post_mvvar1` - `post_mvvar3` il delimitatore originale è sostituito da `--**--`. | testo |
-| **`mvvar1_instances`** - `mvvar3_instances` | I valori delle variabili di elenco impostati sull’hit corrente. Sostituisce il delimitatore originale `--**--`. Non ha un `post` colonna. | testo |
+| **`mvvar1`** - `mvvar3` | Elencare i valori delle variabili. Contiene un elenco delimitato di valori personalizzati a seconda dell’implementazione. Nelle colonne `post_mvvar1` - `post_mvvar3` il delimitatore originale è sostituito da `--**--`. | testo |
+| **`mvvar1_instances`** - `mvvar3_instances` | I valori delle variabili di elenco impostati sull’hit corrente. Sostituisce il delimitatore originale con `--**--`. Non ha un `post` colonna. | testo |
 | **`namespace`** | Non utilizzato. Parte di una funzione scartata. | varchar(50) |
 | **`new_visit`** | Flag che determina se l’hit corrente è una nuova visita. Impostato dai server di Adobe dopo 30 minuti di inattività della visita. | tinyint unsigned |
 | **`os`** | ID numerico che rappresenta il sistema operativo del visitatore. In base alla colonna `user_agent`. Usa la ricerca `os`. | int senza segno |
@@ -166,7 +168,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`page_type`** | Utilizzato per popolare la dimensione [Pagine non trovate](/help/components/dimensions/pages-not-found.md). Utilizzato esclusivamente per le pagine 404. Questa variabile deve essere vuota o contenere il valore `ErrorPage`. | char(20) |
 | **`page_url`** | URL dell’hit. Tieni presente che `post_page_url` viene rimosso per le richieste di immagini per il tracciamento dei collegamenti e utilizza un tipo di dati varchar(255). | testo |
 | **`pagename`** | Utilizzato per popolare la dimensione [Pagina](/help/components/dimensions/page.md). Se la variabile [`pagename`](/help/implement/vars/page-vars/pagename.md) è vuota, Analytics utilizza `page_url`. | varchar(100) |
-| **`pagename_no_url`** | Simile a `pagename`, tranne per il fatto che non ritorna a `page_url`. Solo il `post` è disponibile. | varchar(100) |
+| **`pagename_no_url`** | Simile a `pagename`, a meno che non ritorni a `page_url`. Solo il `post` è disponibile la colonna . | varchar(100) |
 | **`paid_search`** | Flag impostato se l’hit corrisponde al rilevamento di ricerca a pagamento. | tinyint unsigned |
 | **`partner_plugins`** | Non utilizzato. Parte di una funzione scartata. | varchar(255) |
 | **`persistent_cookie`** | Utilizzato nella dimensione [Supporto cookie persistenti](/help/components/dimensions/persistent-cookie-support.md). Indica se il visitatore supporta i cookie che non vengono eliminati dopo ogni hit. | char(1) |
@@ -187,7 +189,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`s_kwcid`** | ID parola chiave utilizzato nelle integrazioni Adobe Advertising  | varchar(255) |
 | **`s_resolution`** | Valore di risoluzione dello schermo non elaborato. Raccolto utilizzando la funzione JavaScript `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | ID numerico che rappresenta il motore di ricerca che ha indirizzato il visitatore al sito. Usa ricerca `search_engines.tsv`. | smallint senza segno |
-| **`search_page_num`** | Utilizzato dalla dimensione [Classificazione di tutte le pagine di ricerca](/help/components/dimensions/all-search-page-rank.md). Indica in quale pagina dei risultati di ricerca il sito è stato visualizzato prima che l&#39;utente avesse fatto clic sul sito. | smallint senza segno |
+| **`search_page_num`** | Utilizzato dalla dimensione [Classificazione di tutte le pagine di ricerca](/help/components/dimensions/all-search-page-rank.md). Indica la pagina dei risultati di ricerca su cui il sito è apparso prima che l’utente facesse clic sul sito. | smallint senza segno |
 | **`secondary_hit`** | Contrassegno flag che tiene traccia degli hit secondari. In genere proviene dall’assegnazione di tag a più suite e dalle regole VISTA che consentono di copiare gli hit. | tinyint unsigned |
 | **`service`** | Non utilizzato. Usa `page_event` invece. | char(2) |
 | **`socialaccountandappids`** | Non più utilizzato. Account social e ID app | varchar(255) |
@@ -208,8 +210,8 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`sourceid`** | ID sorgente | int senza segno |
 | **`state`** | Variabile di stato. | varchar(50) |
 | **`stats_server`** | Non è utile. Server interno di Adobe che ha elaborato l’hit. | char(30) |
-| **`survey`** | Non più utilizzato. Variabile Adobe Survey. Solo il `post` è disponibile. | testo |
-| **`survey_instances`** | Non più utilizzato. Variabile delle istanze di Adobe Survey. | testo |
+| **`survey`** | Non più utilizzato. Variabile Adobe Survey. Solo il `post` è disponibile la colonna . | testo |
+| **`survey_instances`** | Non più utilizzato. Variabile delle istanze Adobe Survey. | testo |
 | **`t_time_info`** | Ora locale del visitatore. Il formato è: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Utilizzato nelle integrazioni Adobe Target. Rappresenta tutti i test attualmente qualificati per. Il formato è: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | testo |
 | **`tnt_action`** | Utilizzato nelle integrazioni Adobe Target. Rappresenta tutti i test per i quali l’hit è qualificato. | testo |
@@ -260,7 +262,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`videonetwork`** | Rete video | varchar(255) |
 | **`videopath`** | Percorso video | varchar(100) |
 | **`videoplayername`** | Nome del lettore video | varchar(255) |
-| **`videotime`** | Tempo video | numero intero |
+| **`videotime`** | Ora video | numero intero |
 | **`videoqoebitrateaverageevar`** | Bit rate medio della qualità video | varchar(255) |
 | **`videoqoebitratechangecountevar`** | Conteggio dei cambiamenti nella qualità video | varchar(255) |
 | **`videoqoebuffercountevar`** | Conteggio buffer qualità video | varchar(255) |
@@ -278,8 +280,8 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`visid_high`** | Utilizzato con `visid_low` per identificare in modo univoco un visitatore. | Bigint senza segno |
 | **`visid_low`** | Utilizzato con `visid_high` per identificare in modo univoco un visitatore. | Bigint senza segno |
 | **`visid_new`** | Contrassegno flag per identificare se l&#39;hit contiene un ID visitatore appena generato. | char(1) |
-| **`visid_timestamp`** | Se l’ID visitatore è stato generato di recente, fornisce la marca temporale (in ora UNIX®) di quando è stato generato l’ID visitatore. | Intero |
-| **`visid_type`** | Non per uso esterno; utilizzato internamente da Adobe per l’elaborazione delle ottimizzazioni. ID numerico che rappresenta il metodo utilizzato per identificare il visitatore.<br>`0`: ID visitatore personalizzato o sconosciuto/non applicabile<br>`1`: fallback di IP e agente utente <br>`2`: intestazione del sottoscrittore mobile HTTP <br>`3`: valore cookie legacy (`s_vi`) <br>`4`: valore del cookie di fallback (`s_fid`) <br>`5`: servizio Identity | tinyint unsigned |
+| **`visid_timestamp`** | Se l&#39;ID visitatore è stato generato di recente, fornisce la marca temporale (in UNIX® time) di quando è stato generato l&#39;ID visitatore. | Intero |
+| **`visid_type`** | Non per uso esterno; utilizzato internamente da Adobe per l’elaborazione delle ottimizzazioni. ID numerico che rappresenta il metodo utilizzato per identificare il visitatore.<br>`0`: ID visitatore personalizzato o sconosciuto/non applicabile<br>`1`: Fallback dell’agente IP e dell’agente utente <br>`2`: Intestazione del sottoscrittore mobile HTTP <br>`3`: Valore cookie legacy (`s_vi`) <br>`4`: Valore cookie di fallback (`s_fid`) <br>`5`: Servizio identità | tinyint unsigned |
 | **`visit_keywords`** | Variabile utilizzata nella dimensione [Parola chiave di ricerca](/help/components/dimensions/search-keyword.md). Questa colonna utilizza un limite di caratteri non standard di varchar(244) per adattarsi alla logica back-end utilizzata da Adobe. | varchar(244) |
 | **`visit_num`** | Variabile utilizzata nella dimensione [Numero di visite](/help/components/dimensions/visit-number.md). Inizia a 1 e viene incrementato ogni volta che inizia una nuova visita per visitatore. | int senza segno |
 | **`visit_page_num`** | Variabile utilizzata nella dimensione [Profondità di hit](/help/components/dimensions/hit-depth.md). Aumenta di 1 per ogni hit generato dall’utente. Ripristina ogni visita. | int senza segno |
@@ -289,7 +291,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 | **`visit_search_engine`** | ID numerico del primo motore di ricerca della visita. Usa la ricerca `search_engines.tsv`. | smallint senza segno |
 | **`visit_start_page_url`** | Il primo URL della visita. | varchar(255) |
 | **`visit_start_pagename`** | Il valore Nome pagina nel primo hit della visita. | varchar(100) |
-| **`visit_start_time_gmt`** | Marca temporale (in ora UNIX®) del primo hit della visita. | Intero |
+| **`visit_start_time_gmt`** | Timestamp (in UNIX® time) del primo hit della visita. | Intero |
 | **`weekly_visitor`** | Contrassegno flag per determinare se l’hit è un nuovo visitatore settimanale. | tinyint unsigned |
 | **`yearly_visitor`** | Contrassegno flag per determinare se l’hit è un nuovo visitatore annuale. | tinyint unsigned |
 | **`zip`** | Consente di popolare la dimensione [Codice postale](/help/components/dimensions/zip-code.md). Consulta anche `geo_zip`. | varchar(50) |
