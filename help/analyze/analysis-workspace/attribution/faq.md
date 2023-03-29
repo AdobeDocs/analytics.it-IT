@@ -4,10 +4,10 @@ description: Risposte alle domande più frequenti sull’attribuzione.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 90%
 
 ---
 
@@ -79,7 +79,9 @@ Sì, le classificazioni sono completamente supportate.
 
 ## L’attribuzione funziona con origini di dati?
 
-Sì, la maggior parte delle origini di dati sono supportate. L’attribuzione non è possibile con origini di dati di livello sintetico perché non si collegano a un identificatore visitatore di Analytics. Sono supportate anche le origini di dati per ID transazione, a meno che sia utilizzata una suite di rapporti virtuali e che sia selezionata l’elaborazione dei tempi di report.
+Sì, la maggior parte delle origini di dati sono supportate. L’attribuzione non è possibile con origini di dati di livello sintetico perché non si collegano a un identificatore visitatore di Analytics.
+
+Le origini dati ID transazione sono trattate come qualsiasi altro hit; non utilizzano la lavorazione speciale normalmente utilizzata nei rapporti tradizionali.
 
 ## L’attribuzione funziona con l’integrazione Advertising Analytics?
 
@@ -87,7 +89,7 @@ Le dimensioni dei metadati, come tipo di corrispondenza e parola chiave, funzion
 
 ## Come funziona l’attribuzione con i canali di marketing?
 
-Quando i canali di marketing sono stati introdotti per la prima volta, presentavano solo le dimensioni di primo e ultimo contatto. La versione corrente dell’attribuzione non richiede più dimensioni esplicite di primo/ultimo contatto. Adobe fornisce dimensioni generiche “Marketing Channel” e “Marketing Channel Detail” per consentirti di utilizzarle con il modello di attribuzione desiderato. Queste dimensioni generiche si comportano in modo identico alle dimensioni Last Touch Channel, ma sono etichettate in modo diverso per evitare confusione quando si utilizzano canali di marketing con un modello di attribuzione diverso.
+Quando i canali di marketing sono stati introdotti per la prima volta, presentavano solo le dimensioni di primo e ultimo contatto. La versione corrente dell’attribuzione non richiede più dimensioni esplicite di primo/ultimo contatto. Adobe fornisce un [!UICONTROL Marketing Channel] e [!UICONTROL Marketing Channel Detail] le dimensioni per utilizzarle con il modello di attribuzione desiderato. Queste dimensioni generiche si comportano in modo identico a [!UICONTROL Last Touch Channel] le dimensioni, ma sono etichettate in modo diverso per evitare confusione quando si utilizzano canali di marketing con un modello di attribuzione diverso.
 
 Poiché le dimensioni del canale di marketing dipendono da una definizione di visita tradizionale (come definita dalle relative regole di elaborazione), la definizione della visita non può essere modificata utilizzando le suite di rapporti virtuali.
 
@@ -107,4 +109,4 @@ Ad esempio, se crei una suite di rapporti virtuali applicando il segmento “hit
 
 >[!NOTE]
 >
->Se un segmento sopprime gli hit contenenti la metrica, queste istanze di metrica non saranno attribuite ad alcuna dimensione. Tuttavia, un filtro per la generazione di rapporti simile si limiterebbe a nascondere alcuni elementi di dimensione senza alcun impatto sulle metriche elaborate secondo il modello di attribuzione. Di conseguenza, un segmento può restituire valori inferiori rispetto a un filtro con una definizione comparabile.
+>Se un segmento sopprime gli hit contenenti la metrica, queste istanze di metrica non vengono attribuite ad alcuna dimensione. Tuttavia, un filtro di rapporto simile nasconde semplicemente alcuni elementi dimensionali, senza alcun impatto sulle metriche elaborate in base al modello di attribuzione. Di conseguenza, un segmento può restituire valori inferiori rispetto a un filtro con una definizione comparabile.
