@@ -5,10 +5,10 @@ title: Condividere progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 33%
+source-wordcount: '1572'
+ht-degree: 31%
 
 ---
 
@@ -122,6 +122,10 @@ Puoi concedere [accesso in sola lettura](/help/analyze/analysis-workspace/curate
 >* L’amministratore di Analytics può disattivare la possibilità di condividere un progetto in questo modo, come descritto in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md). Se non riesci a condividere un progetto come descritto in questa sezione, l’amministratore di Analytics ha disabilitato questa funzionalità.
 >
 >* I progetti con più di 14 visualizzazioni espanse non possono essere condivisi con persone che non hanno accesso ad Adobe Analytics.
+>
+>* Gli utenti con cui condividi possono visualizzare tutti i filtri applicati al progetto durante [cura](curate.md).
+> 
+>* Gli utenti con cui condividi possono modificare l’intervallo di date del progetto. L’intervallo di date impostato per il progetto viene visualizzato per impostazione predefinita.
 
 
 Per condividere un progetto Analysis Workspace con persone che non hanno accesso ad Adobe Analytics:
@@ -153,6 +157,8 @@ Per condividere un progetto Analysis Workspace con persone che non hanno accesso
 1. Condividi il collegamento con le persone a cui desideri accedere al progetto. Ad esempio, puoi incollare il collegamento in un messaggio e-mail.
 
    Qualsiasi persona con cui condividi il collegamento può visualizzare il progetto Analysis Workspace.
+
+1. (Facoltativo) Puoi fare clic sul pulsante **Genera nuovo collegamento** icona ![Icona Genera collegamento](assets/regenerate-link.png) per rimuovere l’accesso dagli utenti che hanno precedentemente ricevuto un collegamento al progetto. Viene generato un nuovo collegamento che puoi condividere con gli utenti a cui desideri accedere al progetto.
 
 1. Seleziona **[!UICONTROL Close]** per chiudere la finestra di dialogo di condivisione. Le modifiche vengono salvate automaticamente.
 
