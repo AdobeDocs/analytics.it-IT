@@ -5,10 +5,10 @@ title: Creare collegamenti condivisibili
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 870252bebc55ddc5621e6d1add708cb1d9fda60d
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 63%
+source-wordcount: '370'
+ht-degree: 52%
 
 ---
 
@@ -18,15 +18,15 @@ Analysis Workspace offre diversi modi per condividere un progetto con gli utenti
 
 ## Ottenere un collegamento al progetto da condividere con altri utenti di Workspace {#project-link}
 
-Per condividere un collegamento all’intero progetto, vai a [!UICONTROL **Condividi**] > [!UICONTROL **Condividi con gli utenti di Workspace**] > [!UICONTROL **Condividi tramite collegamento**]. Se al destinatario del collegamento non è stato assegnato un [ruolo di progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it), gli amministratori riceveranno esperienze **[!UICONTROL Can edit]** (Può modificare) e i non amministratori **[!UICONTROL Can duplicate]** (Può duplicare).
+Per condividere un collegamento a un progetto, accedi al progetto che desideri condividere, quindi seleziona Vai a [!UICONTROL **Condividi**] > [!UICONTROL **Condividi con gli utenti di Workspace**] > [!UICONTROL **Condividi tramite collegamento**]. Gli utenti con cui condividi il collegamento devono effettuare l’accesso.
 
-![](assets/get-project-link.png)
+Se al destinatario del collegamento non è stato assegnato un [ruolo del progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it), gli amministratori ricevono **[!UICONTROL Can edit]** e non amministratori ricevono **[!UICONTROL Can duplicate]** esperienze.
 
 ## Ottieni un collegamento in sola lettura da condividere con chiunque
 
 {{release-limited-testing-section}}
 
-Puoi condividere un collegamento in sola lettura ai progetti Analysis Workspace con persone che non hanno accesso ad Adobe Analytics.
+Puoi condividere un collegamento in sola lettura ai progetti Analysis Workspace con persone che non hanno accesso ad Adobe Analytics. Gli utenti con cui condividi il collegamento non sono tenuti ad accedere.
 
 Per ulteriori informazioni, consulta &quot;Condividere un progetto con altri utenti (senza accesso richiesto)&quot; nell’articolo [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
