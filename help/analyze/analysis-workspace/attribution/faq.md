@@ -4,10 +4,10 @@ description: Risposte alle domande più frequenti sull’attribuzione.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
+source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 90%
+source-wordcount: '1063'
+ht-degree: 86%
 
 ---
 
@@ -81,7 +81,7 @@ Sì, le classificazioni sono completamente supportate.
 
 Sì, la maggior parte delle origini di dati sono supportate. L’attribuzione non è possibile con origini di dati di livello sintetico perché non si collegano a un identificatore visitatore di Analytics.
 
-Le origini dati ID transazione sono trattate come qualsiasi altro hit; non utilizzano la lavorazione speciale normalmente utilizzata nei rapporti tradizionali.
+Le origini dati ID transazione sono trattate come qualsiasi altro hit; non utilizzano la lavorazione speciale normalmente utilizzata nei rapporti tradizionali. In altre parole, quando si utilizza l&#39;elaborazione dei tempi di report, gli hit ID transazione avranno valori eVar propagati dagli hit che si verificano vicino al timestamp dell&#39;hit ID transazione. I valori non verranno propagati dai risultati che si sono verificati in prossimità del momento della transazione originale.
 
 ## L’attribuzione funziona con l’integrazione Advertising Analytics?
 
