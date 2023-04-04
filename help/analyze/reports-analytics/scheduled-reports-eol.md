@@ -4,16 +4,16 @@ description: Adobe intende sospendere tutti i rapporti pianificati con una data 
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Avviso di fine del ciclo di vita dei rapporti pianificati
 
-Il 21 aprile 2022 è stata annunciata la rimozione di diverse funzioni specifiche dei rapporti pianificati in preparazione dell’annunciata [fine del ciclo di vita di Reports &amp; Analytics](https://express.adobe.com/page/6WnF8JK6IRDhf/). Queste funzionalità includevano la possibilità di pianificare nuovi rapporti e nuovi estratti di dati. In risposta alle richieste dei clienti che necessitano di un’estensione e per facilitare la transizione da Reports &amp; Analytics, abbiamo deciso di estendere l’accesso a queste funzioni fino al **31 gennaio 2023**. Si prega di notare che le scadenze per i rapporti e gli estratti dei dati continueranno a essere limitate a nove mesi; la consegna del report e dell’estrazione dei dati verrà sospesa alla fine di questo periodo, a meno che la pianificazione non venga riattivata.
+Il 21 aprile 2022 è stata annunciata la rimozione di diverse funzioni specifiche dei rapporti pianificati in preparazione dell’annunciata [fine del ciclo di vita di Reports &amp; Analytics](https://www.adobe.com/go/analytics_rnaeol_en). Queste funzionalità includevano la possibilità di pianificare nuovi rapporti e nuovi estratti di dati. In risposta alle richieste dei clienti che necessitano di un’estensione e per facilitare la transizione da Reports &amp; Analytics, abbiamo deciso di estendere l’accesso a queste funzioni fino al **31 gennaio 2023**. Si prega di notare che le scadenze per i rapporti e gli estratti dei dati continueranno a essere limitate a nove mesi; la consegna del report e dell’estrazione dei dati verrà sospesa alla fine di questo periodo, a meno che la pianificazione non venga riattivata.
 
 Per ribadire il concetto, queste funzioni verranno rese obsolete il 31 gennaio 2023 e prima di questa data sarà necessario migrare i rapporti pianificati in uno degli altri meccanismi disponibili in Adobe Analytics.
 

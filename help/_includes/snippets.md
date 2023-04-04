@@ -1,8 +1,8 @@
 ---
-source-git-commit: 57772f5a2e74ec20fd7c234b996678f7e75607ea
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '974'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 # Snippet
@@ -11,7 +11,7 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->Ulteriori informazioni sull’[Annuncio sulla fine del ciclo di vita](https://express.adobe.com/page/6WnF8JK6IRDhf/) di Reports &amp; Analytics.
+>Ulteriori informazioni sull’[Annuncio sulla fine del ciclo di vita](https://www.adobe.com/go/analytics_rnaeol_en) di Reports &amp; Analytics.
 
 ## Criteri di filtro del dizionario dati {#dd-filter-criteria}
 
