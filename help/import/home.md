@@ -2,7 +2,7 @@
 title: Guida all’importazione di Analytics
 description: Questa guida spiega come inserire dati in Analytics tramite origini dati, l’API di inserimento dati e Data Connectors.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Questa guida spiega come importare dati in Analytics. Include:
 
-* **[Origini dati](c-data-sources/datasrc-home.md)**: carica un file in un sito FTP di Adobe specifico. Adobe recupera il file e ne include i dati nella tua suite di rapporti.
+* **[Origini dati](data-sources/overview.md)**: carica un file in un sito FTP di Adobe specifico. Adobe recupera il file e ne include i dati nella tua suite di rapporti.
 * **[API di inserimento dati in blocco](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** consente di caricare i dati delle chiamate al server in batch di file invece di utilizzare librerie lato client come AppMeasurement.
 * **[API di inserimento dati](c-data-insertion-api/c-data-insertion-api.md)**: invia i dati direttamente alla raccolta dati di Adobe tramite un’API.
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: trova le integrazioni correnti disponibili per arricchire la suite di rapporti Adobe Analytics.

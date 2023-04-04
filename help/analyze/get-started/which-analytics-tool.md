@@ -3,7 +3,7 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 100%
@@ -52,7 +52,7 @@ Le **[classificazioni](/help/components/classifications/c-classifications.md)**
    * Generatore di regole: utile quando si raccolgono valori formattati prevedibili per una variabile, ad esempio valori delimitati. Questo approccio consente di impostare le regole una volta e applicarle poi senza ulteriori interventi.
    * Importazione browser: utile quando non si dispone di valori prevedibili o quando si dispone di un elenco finito di valori che richiede un aggiornamento una tantum. Questo approccio richiede un monitoraggio continuo delle classificazioni per i nuovi valori.
 
-Le **[origini dati](/help/import/c-data-sources/datasrc-home.md)** sono utili nei seguenti casi:
+Le **[origini dati](/help/import/data-sources/overview.md)** sono utili nei seguenti casi:
 
 * In presenza di dati offline che devono essere scritti in modo permanente in Adobe Analytics
 * Opzioni:

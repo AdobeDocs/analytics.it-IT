@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida all’importazione di Analytics
 breadcrumb-title: Guida all’importazione
 user-guide-description: Trasferisci i dati in Adobe Analytics da sorgenti esterne, sia in massa che in tempo reale.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 8343c67a01cc04884b73cdcb934911ade81c5a20
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 97%
+source-wordcount: '76'
+ht-degree: 81%
 
 ---
 
@@ -17,29 +17,14 @@ ht-degree: 97%
 + [Guida all’importazione di Analytics](home.md)
 + [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
 + Origini dati {#data-sources}
-   + [Panoramica su Origini dati](c-data-sources/datasrc-home.md)
-   + [Funzionamento di Origini dati](c-data-sources/datasrc-how-data-sources-works.md)
-   + [Requisiti e limiti di caricamento](c-data-sources/datasrc-requirements.md)
-   + [Tempo di elaborazione Origini dati](c-data-sources/datasrc-processing-time.md)
-   + [Preparazione all&#39;utilizzo di Origini dati](c-data-sources/datasrc-preparing.md)
-   + [Gestione origini dati](c-data-sources/datasrc-manager.md)
-   + Modello Origini dati {#data-sources-template}
-      + [Panoramica modello Origini dati](c-data-sources/datasrc-template/datasrc-template-file.md)
-      + [Generare un modello di file di importazione](c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)
-      + [Riferimento file di importazione](c-data-sources/datasrc-template/datasrc-import-file-reference.md)
-   + [Caricare un file origini dati](c-data-sources/t-datasrc-uploading-data.md)
-   + Tipi di dati e categorie {#data-types-and-categories}
-      + [Panoramica dei tipi di dati e categorie](c-data-sources/c-datasrc-types/datasrc-categories.md)
-      + [Registro web](c-data-sources/c-datasrc-types/datasrc-web-log.md)
-      + [Traffico](c-data-sources/c-datasrc-types/datasrc-traffic.md)
-      + [Conversione](c-data-sources/c-datasrc-types/datasrc-conversion.md)
-      + [ID transazione](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
-      + [Visitor ID](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
-      + [Elaborazione completa](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
-      + [Fine del ciclo di vita della funzione Full Processing](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
-   + [Integrazione transazione e cliente](c-data-sources/datasrc-integrating-offline-data.md)
-   + [ID transazione e profili visitatore](c-data-sources/datasrc-tid-visitor-profile.md)
-   + [Domande frequenti su Origini dati](c-data-sources/datasrc-faq.md)
+   + [Panoramica](data-sources/overview.md)
+   + [Introduzione](data-sources/getting-started.md)
+   + [Fine del ciclo di vita dell&#39;elaborazione completa](data-sources/full-processing-eol.md)
+   + [Gestione origini dati](data-sources/manage.md)
+   + [Formato file](data-sources/file-format.md)
+   + [Caricamento file](data-sources/file-upload.md)
+   + [ID transazione](data-sources/transactionid.md)
+   + [Domande frequenti](data-sources/faq.md)
 + [API di inserimento dati in blocco](bulk-data-insertion-api/bulk-data-insert.md)
 + [API di inserimento dati](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
