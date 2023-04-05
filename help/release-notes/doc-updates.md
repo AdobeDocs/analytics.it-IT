@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b604895acfb18c566f5d282ed5781400192d3553
+source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
 workflow-type: tm+mt
-source-wordcount: '3784'
+source-wordcount: '3798'
 ht-degree: 95%
 
 ---
@@ -26,6 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Marzo 2023** |  |
+| Supporto SDK per web per Activity Map | Aggiornato [Implementare Adobe Analytics](/help/implement/home.md) e [Abilita Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | Panoramica delle variabili di traffico (prop) | Sono state aggiunte sezioni e procedure dettagliate per chiarire e migliorare il contenuto degli articoli. Contenuto unito da un articolo intitolato &quot;Abilita rapporti sulle variabili di traffico&quot; e rimosso. Vedi [Panoramica delle variabili di traffico (prop)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Filtri URL interni | Sono state aggiunte sezioni e procedure dettagliate per chiarire e migliorare il contenuto degli articoli. Vedi [Filtri URL interni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Creare storie di dati nelle scorecard per dispositivi mobili | A [storia dei dati](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) è una raccolta di punti dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale. |
