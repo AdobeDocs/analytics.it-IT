@@ -4,10 +4,10 @@ description: Approfondisci i dati relativi al pubblico e suddividili in gruppi c
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,9 @@ Video sulle tabelle coorte in Analysis Workspace:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis] non supporta metriche non segmentabili (comprese le metriche calcolate) né metriche non intere (come Revenue, >o Occurrences. Solo le metriche utilizzabili nei segmenti possono essere utilizzate in [!UICONTROL Cohort Analysis]e possono essere incrementate solo di >1 alla volta.
+>[!UICONTROL Cohort Analysis] non supporta le metriche non segmentabili (comprese le metriche calcolate), le metriche non intere (come Revenue) o Occurrences.
+>
+>Solo le metriche utilizzabili nei segmenti possono essere utilizzate in [!UICONTROL Cohort Analysis]e possono essere incrementati solo di >1 alla volta.
 
 ## Capacità dell’analisi per coorte
 
