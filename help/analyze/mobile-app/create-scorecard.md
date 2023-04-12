@@ -7,7 +7,7 @@ exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
 workflow-type: tm+mt
 source-wordcount: '2284'
-ht-degree: 74%
+ht-degree: 98%
 
 ---
 
@@ -102,13 +102,13 @@ Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne un
 
 Viene visualizzato il generatore di intervalli di date, in cui è possibile creare e salvare un nuovo componente Intervallo di date.
 
-### Mostra/Nascondi intervalli di date di confronto {#show-comparison-dates}
+### Mostrare/nascondere intervalli di date di confronto {#show-comparison-dates}
 
-Per visualizzare o nascondere gli intervalli di date del confronto, attiva/disattiva **Includi date di confronto** impostazione.
+Per mostrare o nascondere intervalli di date di confronto, attiva l’impostazione **Includi date di confronto**.
 
 ![Includi date di confronto](assets/include-comparison-dates.png)
 
-L’impostazione è *attiva* per impostazione predefinita. Deseleziona l’opzione se non desideri visualizzare le date di confronto.
+L’impostazione è *attiva* per impostazione predefinita. Se non desideri visualizzare le date di confronto, puoi deselezionarla.
 
 ![Impostazione delle date di confronto deselezionata](assets/no-comparison-dates.png)
 
@@ -216,81 +216,81 @@ Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, 
 
 ![Rimuovere_componenti](assets/new_remove.png)
 
-## Creare storie di dati {#create-data-story}
+## Creare presentazioni di dati {#create-data-story}
 
-Una cronologia dati è una raccolta di punti dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale.
+Una presentazione di dati è una raccolta di punti dati di supporto, contesto aziendale e metriche correlate basata su un tema o una metrica centrale.
 
-Ad esempio, se ti concentri sul traffico web, la metrica più importante potrebbe essere le visite, ma potresti anche essere interessato a nuovi visitatori, visitatori unici, e potresti voler vedere i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le storie di dati nei progetti delle scorecard per dispositivi mobili ti consentono di mettere le metriche più importanti al centro e davanti mentre racconti l’intera storia dietro le metriche con più diapositive di dettaglio.
+Ad esempio, se ti concentri sul traffico web, la metrica più importante potrebbe riguardare le visite, ma potresti anche essere interessato a nuovi visitatori, visitatori univoci, e potresti voler vedere i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le presentazioni di dati nei progetti di scorecard per dispositivi mobili ti consentono di mettere le metriche più importanti al centro e in primo piano presentando il significato complessivo dietro le metriche con più diapositive di dettaglio.
 
-Guarda il video per ulteriori informazioni sulla creazione di storie di dati nei progetti delle scorecard per dispositivi mobili in Analysis Workspace.
+Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti di scorecard per dispositivi mobili in Analysis Workspace, guarda questo video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
 
-**Creazione di una cronologia dati**
+**Creazione di una presentazione di dati**
 
-Crea la storia dei dati aggiungendo più diapositive di dettaglio a una tessera.
+Crea la presentazione di dati aggiungendo più diapositive di dettaglio a una sezione.
 
 1. Inizia con un progetto di scorecard per dispositivi mobili.
-1. Seleziona una tessera da cui creare una storia.
+1. Seleziona una sezione da cui desideri creare una presentazione.
 
-   ![Creare una cronologia dati](assets/data-story1.png)
+   ![Creare una presentazione di dati](assets/data-story1.png)
 
-   ![Creare icone di un brano dati](assets/create-data-story.png){width=".50%"}
+   ![Creare icone della presentazione di dati](assets/create-data-story.png){width=".50%"}
 
-1. Aggiungi le diapositive per creare la cronologia dei dati. La prima diapositiva viene generata per impostazione predefinita.
+1. Aggiungi le diapositive per creare una presentazione di dati personale. La prima diapositiva viene generata per impostazione predefinita.
 
-   Per aggiungere nuove diapositive, passate il puntatore del mouse o fate clic su una diapositiva, quindi selezionate una delle opzioni disponibili:
+   Per aggiungere nuove diapositive, passa il cursore del mouse oppure fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
 
    * Tocca [!UICONTROL +] per creare una nuova diapositiva.
 
-   * Toccate l’icona duplicata per duplicare la diapositiva esistente.
+   * Tocca l’icona Duplica per duplicare la diapositiva esistente.
 
-1. Se create una diapositiva vuota, trascinate i componenti dalla barra a sinistra o scegliete un layout per popolare automaticamente la diapositiva con i dati della tessera.
+1. Se crei una diapositiva vuota, trascina i componenti dalla barra a sinistra oppure scegli un layout per popolare automaticamente la diapositiva con i dati della sezione.
 
-   ![Creare una cronologia dati](assets/data-story2.png)
+   ![Creare una presentazione di dati](assets/data-story2.png)
 
 Per eliminare una diapositiva, tocca l’icona del cestino.
 
-### Personalizzare una cronologia dati {#customize-data-story}
+### Personalizzare una presentazione di dati {#customize-data-story}
 
-Le storie di dati ti consentono di personalizzare tutto in modo da condividere le informazioni che desideri condividere ed escludere tutto ciò di cui non hai bisogno. Puoi personalizzare le tessere e le singole diapositive per aggiungere filtri, mostrare suddivisioni, modificare il layout e modificare le visualizzazioni.
+Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. Puoi personalizzare le sezioni e le singole diapositive per aggiungere filtri, mostrare suddivisioni, modificare il layout e cambiare le visualizzazioni.
 
-**Personalizzazione delle tessere**
+**Personalizzazione delle sezioni**
 
-1. Tocca una tessera. La porzione selezionata è evidenziata in blu e il pannello a destra mostra le proprietà della porzione.
-1. Modificare il titolo, il tipo di grafico e altre opzioni del riquadro.
-1. Trascina un componente sulla tessera.
+1. Tocca una sezione. La sezione selezionata è evidenziata in blu e il pannello a destra mostra le Proprietà della sezione.
+1. Modifica il titolo, il tipo di grafico e altre opzioni della sezione.
+1. Trascina un componente sulla sezione.
 
-   ![Creare una cronologia dati](assets/data-story3.png)
+   ![Creare una presentazione di dati](assets/data-story3.png)
 
    Quando trascini e rilascia un componente, ad esempio una visualizzazione, su una tessera, il componente viene applicato a tutte le diapositive della storia dei dati.
 
-1. Per applicare una modifica solo al titolo, tenete premuto il tasto Maiusc per applicare la modifica.
+1. Per applicare una modifica solo al titolo, tieni premuto il tasto Maiusc per applicarla.
 
-   ![Creare una cronologia dati](assets/data-story4.png)
+   ![Creare di una presentazione di dati](assets/data-story4.png)
 
 >[!NOTE]
->Le diapositive ereditano i componenti dalla tessera, ma le porzioni non ereditano i componenti dalle diapositive.
+>Le diapositive ereditano i componenti dalla sezione, ma le sezioni non ereditano i componenti dalle diapositive.
 
 **Personalizzazione di singole diapositive**
 
-È possibile modificare la visualizzazione per singole diapositive di una storia dati. Ad esempio, potete modificare una barra orizzontale in un grafico ad anello per una diapositiva specifica. È inoltre possibile modificare il layout. Vedi [Personalizzare le diapositive dettagliate](#customize-detail-slide).
+È possibile modificare la visualizzazione per singole diapositive di una presentazione di dati. Ad esempio, puoi trasformare una barra orizzontale in un grafico ad anello per una diapositiva specifica. Puoi anche modificare il layout. Consulta [Personalizzare le diapositive in dettaglio](#customize-detail-slide).
 
-### Anteprima di una storia dati {#preview-data-story}
+### Anteprima di una presentazione di dati {#preview-data-story}
 
-Dopo aver creato una storia di dati, utilizza **Anteprima** per visualizzare e interagire con una storia dati come se fossi un utente dell’app. Per informazioni sull&#39;anteprima della storia dei dati, vedi [Anteprima di una scheda di valutazione](#preview)
+Dopo aver creato una presentazione di dati, utilizza il pulsante **Anteprima** per visualizzare e interagire con essa come se fossi un utente dell’app. Per informazioni sull’anteprima della presentazione di dati, consulta [Anteprima di una scorecard](#preview)
 
-### Spostarsi tra riquadri e diapositive {#navigate-tiles-slides}
+### Spostarsi tra sezioni e diapositive {#navigate-tiles-slides}
 
-Nella barra di navigazione sono visualizzate icone che rappresentano gli elementi presenti in ciascuna diapositiva. La barra di navigazione facilita la navigazione a una diapositiva specifica se sono presenti molte diapositive.
+Nella barra di navigazione sono visualizzate icone che rappresentano gli elementi presenti in ciascuna diapositiva. La barra di navigazione facilita il passaggio a una diapositiva specifica se sono presenti molte diapositive.
 
-Per spostarsi tra la tessera e le diapositive, tocca la barra di navigazione.
+Per spostarsi tra la sezione e le diapositive, tocca la barra di navigazione.
 
-![Creare una cronologia dati](assets/data-story5.png)
+![Creare una presentazione di dati](assets/data-story5.png)
 
-![Creare una cronologia dati](assets/data-story-nav.png){width="25%"}
+![Creare una presentazione di dati](assets/data-story-nav.png){width="25%"}
 
-È inoltre possibile spostarsi avanti e indietro utilizzando le frecce sulla tastiera o selezionando un componente e tenendolo a sinistra o a destra dello schermo per scorrere.
+Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera oppure selezionando un componente e tenendolo a sinistra o a destra dello schermo per scorrere.
 
 
 ## Anteprima delle scorecard {#preview}
