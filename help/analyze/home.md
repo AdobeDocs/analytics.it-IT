@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 85%
 Questa guida fornisce la documentazione del prodotto e il supporto autonomo per i seguenti strumenti di reporting e analisi di Adobe Analytics:
 
 * **[!UICONTROL Analysis Workspace]:** la funzionalità principale di Adobe Analytics. Workspace offre un’area di lavoro in cui puoi soddisfare le tue esigenze di reporting tramite il semplice trascinamento dei componenti necessari.
-* **[!UICONTROL Adobe Analytics dashboards]:** Questa app mobile consente agli utenti di accedere da dispositivi mobili per creare scorecard intuitive con metriche chiave, suddivisioni più dettagliate e rapporti con tendenze.
+* **[!UICONTROL Adobe Analytics dashboards]:** questa app mobile consente agli utenti di accedere per creare scorecard intuitive con metriche chiave, suddivisioni più dettagliate e rapporti con tendenze.
 * **[!UICONTROL Activity Map]:** questo plug-in per browser mostra gli elementi più selezionati del tuo sito tramite sovrapposizioni visive.
 * **[!UICONTROL Report Builder]:** componente aggiuntivo per Excel che consente di recuperare i dati di Analytics e inserirli direttamente in una cartella di lavoro.
 * **[!UICONTROL Reporting API]:** puoi creare query per la generazione di rapporti direttamente sui server Adobe e utilizzare le risposte nei tuoi strumenti di reporting per clienti.
-* **[!UICONTROL Reports & Analytics]:** strumento con decine di rapporti predefiniti. Per la maggior parte delle esigenze di reporting, Adobe consiglia di utilizzare Analysis Workspace. **Nota:** Reports &amp; Analytics sarà [fine vita](https://www.adobe.com/go/analytics_rnaeol_en) il 31 dicembre 2023.
+* **[!UICONTROL Reports & Analytics]:** strumento con decine di rapporti predefiniti. Per la maggior parte delle esigenze di reporting, Adobe consiglia di utilizzare Analysis Workspace. **Nota:** Reports &amp; Analytics sarà [terminato](https://www.adobe.com/go/analytics_rnaeol_it) il 31 dicembre 2023.
 
 Ecco una panoramica video di Adobe Analytics:
 
