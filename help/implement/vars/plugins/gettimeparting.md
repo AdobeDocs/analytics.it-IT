@@ -1,59 +1,76 @@
 ---
 title: getTimeParting
-description: Misura il tempo in cui viene eseguita un’azione specifica.
+description: Misura il momento in cui avviene un’azione specifica.
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 2%
+source-wordcount: '784'
+ht-degree: 7%
 
 ---
 
 # Plug-in di Adobe: getTimeParting
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
+{{plug-in}}
 
-Il `getTimeParting` Il plug-in consente di acquisire i dettagli del momento in cui si verifica un’attività misurabile sul sito. Questo plug-in è utile quando desideri suddividere le metriche in base a qualsiasi divisione di tempo ripetibile in un determinato intervallo di date. Ad esempio, puoi confrontare i tassi di conversione tra due giorni diversi della settimana, ad esempio tutte le domeniche e tutti i giovedì. Puoi anche confrontare periodi della giornata, ad esempio tutte le mattine rispetto a tutte le sere.
+La `getTimeParting` plug-in consente di acquisire i dettagli del momento in cui si verifica un’attività misurabile sul sito. Questo plug-in è utile quando desideri suddividere le metriche in base a una suddivisione ripetibile del tempo su un determinato intervallo di date. Ad esempio, puoi confrontare i tassi di conversione tra due giorni della settimana diversi, ad esempio tutti i giorni della domenica rispetto a tutti i giovedì. Puoi anche confrontare i periodi del giorno, ad esempio tutte le mattine rispetto a tutte le serate.
 
-Analysis Workspace fornisce dimensioni predefinite simili, formattate in modo leggermente diverso rispetto a questo plug-in. Consulta [dimensioni suddivise in base al tempo](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) nella guida utente Analizza per ulteriori informazioni. Alcune organizzazioni ritengono che le dimensioni predefinite di Analysis Workspace siano sufficienti.
+Analysis Workspace fornisce dimensioni predefinite simili e formattate in modo leggermente diverso rispetto a questo plug-in. Vedi [ripartizione del tempo](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) nella guida utente Analisi per ulteriori informazioni. Alcune organizzazioni ritengono sufficienti le dimensioni predefinite di Analysis Workspace.
 
 >[!IMPORTANT]
 >
->La versione 4.0+ di questo plug-in è significativamente diversa dalle versioni precedenti. L’Adobe consiglia vivamente di implementare questo plug-in &quot;da zero&quot;. Il codice che fa riferimento al plug-in precedente alla versione 4.0 non è compatibile con la versione corrente del plug-in.
+>La versione 4.0+ di questo plug-in è molto diversa dalle versioni precedenti. L&#39;Adobe consiglia vivamente di implementare questo plug-in &quot;da zero&quot;. Il codice che fa riferimento al plug-in prima della versione 4.0 non è compatibile con la versione corrente di questo plug-in.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Installare il plug-in utilizzando l’estensione Web SDK
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con l’SDK per web.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getTimeParting
-1. Save and publish the changes to the rule.-->
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Fai clic su **[!UICONTROL Tags]** a sinistra, quindi fai clic sulla proprietà tag desiderata.
+1. Fai clic su **[!UICONTROL Extensions]** a sinistra, quindi fai clic sul pulsante **[!UICONTROL Catalog]** scheda
+1. Individua e installa il **[!UICONTROL Common Web SDK Plugins]** estensione.
+1. Fai clic su **[!UICONTROL Data Elements]** a sinistra, quindi fai clic sull’elemento dati desiderato.
+1. Imposta il nome dell&#39;elemento dati desiderato con la seguente configurazione:
+   * Estensione: Plug-in SDK per web comuni
+   * Elemento dati: `getTimeParting`
+1. Imposta la `Time Zone` a destra.
+1. Salva e pubblica le modifiche apportate all’elemento dati.
+
+## Installare il plug-in manualmente durante l’implementazione dell’SDK per web
+
+Questo plug-in non è ancora supportato per l&#39;utilizzo in un&#39;implementazione manuale dell&#39;SDK web.
+
+## Installare il plug-in utilizzando l’estensione Adobe Analytics
+
+Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con Adobe Analytics.
+
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Fai clic sulla proprietà del tag desiderata.
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
+1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
+   * Condizione: nessuna
+   * Evento: Core - Libreria caricata (pagina in alto)
+1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
+   * Estensione: Plug-in comuni di Analytics
+   * Tipo azione: Inizializza getTimeParting
+1. Salva e pubblica le modifiche alla regola.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, puoi utilizzare l’editor di codice personalizzato.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
-1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche nell’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
+1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche all’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -62,26 +79,26 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizzare il plug-in
+## Usa il plug-in
 
-Il `getTimeParting` La funzione utilizza l&#39;argomento seguente:
+La `getTimeParting` La funzione utilizza l&#39;argomento seguente:
 
-**`t`** (Facoltativo ma consigliato, stringa): nome del fuso orario in cui convertire l’ora locale del visitatore.  Ora UTC/GMT predefinita. Consulta [Elenco dei fusi orari del database TZ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) su Wikipedia per un elenco completo dei valori validi.
+**`t`** (Facoltativo ma consigliato, stringa): Nome del fuso orario in cui convertire l’ora locale del visitatore.  Impostazione predefinita per l’ora UTC/GMT. Vedi [Elenco dei fusi orari del database TZ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) su Wikipedia per un elenco completo di valori validi.
 
 I valori validi comuni includono:
 
-* `"America/New_York"` per l’ora orientale
-* `"America/Chicago"` per l’ora centrale
-* `"America/Denver"` per fuso occidentale
-* `"America/Los_Angeles"` per l’ora Pacifico
+* `"America/New_York"` per l&#39;ora orientale
+* `"America/Chicago"` per l&#39;ora centrale
+* `"America/Denver"` per l&#39;ora di montagna
+* `"America/Los_Angeles"` per l&#39;ora del Pacifico
 
-Quando si richiama questa funzione, viene restituita una stringa contenente i seguenti elementi delimitati da una barra verticale (`|`):
+Una chiamata a questa funzione restituisce una stringa contenente i seguenti elementi delimitati da una tubazione (`|`):
 
-* L&#39;anno corrente
-* Il mese corrente
+* L&#39;anno in corso
+* Il mese in corso
 * Il giorno del mese
 * Il giorno della settimana
-* Ora corrente (AM/PM)
+* Ora attuale (AM/PM)
 
 ## Esempi
 
@@ -123,7 +140,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 ### 6.2 (5 novembre 2019)
 
 * Correzioni di piccoli bug
-* Dimensione totale del codice ridotta
+* Dimensione complessiva del codice ridotta
 
 ### 6.1 (26 novembre 2018)
 
@@ -131,17 +148,17 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ### 6.0 (14 agosto 2018)
 
-* Riscrittura completa per soddisfare gli standard internazionali. Ora converte in modo appropriato l&#39;ora legale e tutti i fusi orari.
+* Riscrittura completa per soddisfare gli standard internazionali. Ora converte in modo appropriato il risparmio di luce diurna e tutti i fusi orari.
 
 ### 5.0 (17 aprile 2018)
 
-* Versione punto (ricompilato, con codice di dimensioni inferiori)
-* È stata eliminata la necessità di `tpDST` , poiché le date di inizio/fine dell&#39;ora legale vengono rilevate automaticamente
+* Versione punto (ricompilato, dimensioni del codice più piccole)
+* È stata rimossa la necessità di `tpDST` , poiché le date di inizio/fine del risparmio di giorno vengono ora rilevate automaticamente
 
 >[!CAUTION]
 >
->Le versioni precedenti di questo plug-in non includevano tutti gli anni a venire. Se utilizzi una versione precedente di questo plug-in, Adobe consiglia vivamente di eseguire l’aggiornamento alla versione più recente per evitare errori JavaScript e perdite di dati. Se l&#39;aggiornamento di questo plug-in non è fattibile, verificare che `s._tpdst` nel codice del plug-in contiene gli anni appropriati per il futuro.
+>Le versioni precedenti di questo plug-in non erano compatibili per tutti gli anni futuri. Se utilizzi una versione precedente di questo plug-in, Adobe consiglia vivamente di effettuare l’aggiornamento alla versione più recente per evitare errori JavaScript e perdita di dati. Se l&#39;aggiornamento di questo plug-in non è fattibile, assicurati che il `s._tpdst` nel codice plug-in sono inclusi gli anni appropriati.
 
 ### 4.0 (22 agosto 2016)
 
-* Fornisce una nuova soluzione e ora include informazioni su anno, mese e data.
+* Offre una soluzione nuova e include ora informazioni su anno, mese e data.

@@ -1,31 +1,31 @@
 ---
-description: La connessione senza password agli account FTP è possibile solo utilizzando sia una connessione SFTP che un metodo di autenticazione alternativo. Ciò prevede un set di due file (uno che risiederà sull'account FTP e l'altro che risiederà sul tuo computer) denominato "combinazione di chiave pubblica e privata".
+description: La connessione senza password agli account FTP è possibile solo utilizzando una connessione SFTP e un metodo di autenticazione alternativo. Ciò prevede un set di due file (uno che risiederà sull'account FTP e l'altro che risiederà sul tuo computer) denominato "combinazione di chiave pubblica e privata".
 keywords: ftp;sftp
 title: Connessione ad Adobe tramite SFTP senza password
 feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 74%
+ht-degree: 72%
 
 ---
 
 # Connessione ad Adobe tramite SFTP senza password
 
-La connessione senza password agli account FTP è possibile solo utilizzando sia una connessione SFTP che un metodo di autenticazione alternativo. Ciò prevede un set di due file (uno che risiederà sull&#39;account FTP e l&#39;altro che risiederà sul tuo computer) denominato &quot;combinazione di chiave pubblica e privata&quot;.
+La connessione senza password agli account FTP è possibile solo utilizzando una connessione SFTP e un metodo di autenticazione alternativo. Ciò prevede un set di due file (uno che risiederà sull&#39;account FTP e l&#39;altro che risiederà sul tuo computer) denominato &quot;combinazione di chiave pubblica e privata&quot;.
 
 La sicurezza è la medesima garantita dall&#39;uso dell&#39;autenticazione tramite password. Si tratta di una forma di autenticazione diversa che non richiede all&#39;utente di immettere ogni volta una password. Quando utilizzati correttamente, questi file consentono l&#39;accesso a un particolare computer, senza dover specificare una password. Questa modalità deve essere configurata computer per computer. Tutte le altre connessioni che non utilizzano questi file chiave devono sempre specificare una password.
 
-Alcuni client richiedono un SFTP (Secure File Transfer Protocol) per la trasmissione di dati sensibili. Una connessione SFTP è più sicura di una normale connessione FTP perché consente la comunicazione di dati crittografati. Per impostazione predefinita, tutti gli account FTP Adobe sono pronti per SFTP. È possibile aprire una connessione SFTP con un nome utente e una password validi utilizzando un client SFTP che si connette alla porta 22 (normali connessioni FTP non protette dalla porta 21).
+Alcuni client richiedono un protocollo SFTP (Secure File Transfer Protocol) per la trasmissione di dati sensibili. Una connessione SFTP è più sicura di una normale connessione FTP perché consente la comunicazione dati crittografata. Per impostazione predefinita, tutti gli account FTP di Adobe sono pronti per l’SFTP. È possibile aprire una connessione SFTP con un nome utente e una password validi utilizzando un client SFTP che si connette sulla porta 22 (normali connessioni FTP non sicure che utilizzano la porta 21).
 
-Quando utilizzi SFTP, in determinate condizioni è possibile utilizzare chiavi private per connettersi all’account senza una password. Questo metodo consente al tuo computer di utilizzare per l&#39;autenticazione i file chiave invece della solita autenticazione tramite password. Ciò significa che solamente il computer su cui si trova la chiave privata può effettuare la connessione senza una password. Tutti gli altri computer/utenti dovranno sempre utilizzare l&#39;autenticazione tramite password (a meno che non siano state configurate chiavi private anche su questi computer).
+Quando si utilizza SFTP, è possibile, in condizioni specifiche, utilizzare chiavi private per connettersi all&#39;account senza una password. Questo metodo consente al tuo computer di utilizzare per l&#39;autenticazione i file chiave invece della solita autenticazione tramite password. Ciò significa che solamente il computer su cui si trova la chiave privata può effettuare la connessione senza una password. Tutti gli altri computer/utenti dovranno sempre utilizzare l&#39;autenticazione tramite password (a meno che non siano state configurate chiavi private anche su questi computer).
 
 **Per configurare e utilizzare le chiavi private per l&#39;autenticazione senza password**
 
 1. Account FTP creato (Adobe).
 
-   Un rappresentante Adobe può creare un account FTP, se non esiste già. Contatta il tuo Adobe Account Manager o l&#39;Assistenza clienti Adobe per richiedere la creazione di un account.
+   Un rappresentante Adobe può creare un account FTP, se non esiste già. Contatta il team dell’account Adobe o l’Assistenza clienti Adobe per creare un account.
 1. Creazione di chiave pubblica/privata (cliente).
 
    Crea una combinazione di chiave pubblica e privata. La chiave privata è un file riservato al tuo computer/server e su cui è memorizzato. Il file di chiave pubblica deve essere caricato sull&#39;account Adobe. Quando utilizzato in questo modo, puoi effettuare connessioni senza autenticazione tramite password. Il file di chiave pubblica di Adobe corrisponde al file di chiave privata sul tuo computer/server e l&#39;autenticazione avviene in questo modo.
@@ -64,7 +64,7 @@ Quando utilizzi SFTP, in determinate condizioni è possibile utilizzare chiavi p
 
 1. Carica la chiave pubblica in un account FTP (cliente).
 
-   Carica e testa la chiave pubblica. Connettiti all’account FTP Adobe e crea un [!DNL .ssh] directory, se non esiste già. Carica [!DNL authorized_keys] file in questo [!DNL .ssh] directory. Per questo passaggio puoi procedere in modi diversi (da riga di comando, da client FTP grafico, e così via). È richiesta solamente la capacità di creare una directory e di caricare un file.
+   Carica e testa la chiave pubblica. Collegati all&#39;account FTP di Adobe e crea un [!DNL .ssh] se non esiste già. Carica il [!DNL authorized_keys] file a questo [!DNL .ssh] directory. Per questo passaggio puoi procedere in modi diversi (da riga di comando, da client FTP grafico, e così via). È richiesta solamente la capacità di creare una directory e di caricare un file.
 
    Di seguito è riportato un altro esempio che prevede sempre l&#39;utilizzo della shell di UNIX.
 

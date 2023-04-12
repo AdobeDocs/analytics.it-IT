@@ -2,9 +2,9 @@
 title: Creare un set di classificazione
 description: Campi e descrizioni disponibili durante la creazione di un set di classificazione.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '147'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # Creare un set di classificazione
 
 Puoi utilizzare Gestione set di classificazione per creare un set di classificazione.
-
->[!NOTE]
->
->Questa funzione sarà disponibile per tutti i clienti che hanno eseguito la migrazione delle suite di rapporti alla nuova architettura Classificazioni. Per ulteriori informazioni, contatta l’Assistenza clienti Adobe o il tuo Account Manager.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > **[!UICONTROL Add]**
 

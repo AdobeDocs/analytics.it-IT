@@ -1,52 +1,52 @@
 ---
 title: Creare un documento di progettazione della soluzione
-description: Scopri cos’è un documento di progettazione della soluzione e come utilizzarlo nella tua organizzazione.
+description: Scopri cos’è un documento di progettazione della soluzione e come utilizzarlo nell’organizzazione.
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '697'
 ht-degree: 2%
 
 ---
 
 # Creare un documento di progettazione della soluzione
 
-Un documento di progettazione della soluzione (noto anche come Solution Design Reference o documento sui requisiti aziendali) è in sostanza il blueprint dell’implementazione di Analytics. Definisce i criteri identificati dalle parti interessate in tutta l’organizzazione e li traduce in variabili all’interno di Adobe Analytics. Senza una, le organizzazioni hanno difficoltà a coordinare le esigenze di reporting e tendono a perdere la raccolta di dati importanti.
+Un documento di progettazione della soluzione (noto anche come documento di riferimento per la progettazione della soluzione o per i requisiti aziendali) è in sostanza il modello di implementazione di Analytics. Definisce i criteri identificati dalle parti interessate in tutta l’organizzazione e li traduce in variabili in Adobe Analytics. Senza di essa, le organizzazioni hanno tempi difficili nel coordinare le esigenze di reporting e tendono a perdere la raccolta di dati importanti.
 
 ## Prerequisiti
 
-[Convalidare l’implementazione di Analytics e pubblicare in produzione](../launch/validate-publish-prod.md) - Anche se non è direttamente richiesto, Adobe consiglia di implementare un’implementazione di base che consenta la raccolta dei dati critici e l’introduzione e l’implementazione di requisiti aziendali aggiuntivi.
+[Convalidare l’implementazione di Analytics e pubblicare in produzione](../launch/validate-publish-prod.md) - Sebbene non sia direttamente richiesto, l&#39;Adobe raccomanda l&#39;implementazione di base per la raccolta di dati critici mentre vengono stabiliti e implementati ulteriori requisiti aziendali.
 
 ## Proprietà e ubicazione del documento di progettazione
 
-* **Determina chi, all’interno della tua organizzazione, sarà responsabile della gestione del documento di progettazione della soluzione.** Questo ruolo può essere un singolo utente o un team. Assicurati che la manutenzione della progettazione della soluzione sia preservata anche attraverso modifiche dei ruoli o ristrutturazioni dell’organizzazione. Si tratta di un documento vivo e deve essere mantenuto in modo adeguato.
-* **Determinare la posizione del documento della soluzione.** Non esiste un unico luogo ideale in cui risiedere per i documenti di progettazione delle soluzioni, ma in genere si trovano in una posizione interna ampiamente accessibile. Alcuni esempi includono un foglio di calcolo condiviso o un’area di lavoro collaborativa come SharePoint o un wiki interno. Non deve essere modificabile per tutti, ma è utile per coloro che possono accedere ai rapporti almeno per poterlo visualizzare.
+* **Stabilisci chi all’interno della tua organizzazione sarà responsabile della manutenzione del documento di progettazione della soluzione.** Questo ruolo può essere individuale o team. Assicurati che la manutenzione della progettazione della soluzione sia preservata anche attraverso modifiche dei ruoli o ristrutturazioni dell&#39;organizzazione. Si tratta di un documento vivo e deve essere adeguatamente conservato.
+* **Stabilisci dove risiederà il documento della soluzione.** Non esiste un unico posto ideale per la conservazione dei documenti di progettazione della soluzione, ma generalmente si trovano in una posizione interna ampiamente accessibile. Alcuni esempi includono un foglio di lavoro condiviso o un&#39;area di lavoro collaborativa come SharePoint o un wiki interno. Non è necessario che sia modificabile per tutti, ma è vantaggioso per coloro che possono accedere alla segnalazione per almeno essere in grado di visualizzarla.
 
-## Definire i requisiti aziendali
+## Definizione dei requisiti aziendali
 
-Quando si determinano i dati da raccogliere, è facile dire &quot;tutto&quot;, tuttavia ciò può diventare rapidamente difficile da gestire e può persino fornire meno valore rispetto alla raccolta di quantità più concise di dati.
+Nel determinare quali dati raccogliere, è facile dire &quot;tutto&quot;, tuttavia che può rapidamente diventare ingombrante da gestire, e può anche fornire meno valore della raccolta più concisa quantità di dati.
 
-1. **Determina gli indicatori di prestazioni chiave.** Cosa volete che facciano in definitiva i visitatori? La risposta a questa domanda varia a seconda del settore e del settore verticale, e può essere molteplici. Alcuni esempi includono acquisti, registrazioni o clic sugli annunci.
-1. **Individua i dati più importanti da raccogliere.** Poni le tue domande aziendali alle quali desideri risposte specifiche. Le risposte a queste domande fornirebbero approfondimenti su come migliorare i KPI.
-1. **Prenditi queste domande e determina cosa è necessario per il tracciamento.** Raggruppale in dimensioni e metriche.
-   * I Dimension sono variabili che contengono testo. Alcuni esempi includono il termine di ricerca interno, la categoria di prodotto o il nome di un’area su cui un visitatore ha fatto clic.
-   * Le metriche sono eventi specifici che desideri che un visitatore faccia: quando esegui un’azione desiderata, il numero aumenta di uno. Alcuni esempi includono l’invio di un ordine, l’abbonamento a una newsletter o l’invio di una risposta al sondaggio.
-1. **Mappa dimensioni e metriche in una pagina o in un foglio di calcolo.** Questa pagina o tabella diventa il documento di progettazione della soluzione. Alcune colonne o punti elenco utili da includere:
-   * Stato di implementazione: pianificato, attivo, inattivo, problemi, ecc. In questo modo gli utenti del documento verranno informati sullo stato della variabile, se è stata implementata o se si verificano problemi con la raccolta dei dati.
-   * Nome della variabile: ad esempio, &quot;Termini di ricerca interni&quot;. Questo valore corrisponderebbe a quello visualizzato dagli analisti quando lavorano in Analytics.
-   * Variabile di Analytics mappata a: la variabile di Analytics predefinita o personalizzata a cui scegli di assegnare i valori. I Dimension in genere rientrano nelle eVar, mentre le metriche rientrano negli eventi.
-   * Logica: una descrizione dell’impostazione della variabile e di ciò che ne determina il valore. Ad esempio, &quot;Imposta solo sulle pagine di ricerca interne. Accetta il valore del parametro della stringa di query q.&quot;
+1. **Determina gli indicatori prestazioni chiave.** Cosa desideri che facciano in definitiva i visitatori? La risposta a questa domanda varia a seconda dell&#39;industria e del settore verticale, e può essere molteplici. Alcuni esempi includono acquisti, registrazioni o clic su annunci.
+1. **Scopri i dati più importanti da raccogliere.** Fai domande aziendali a cui desideri risposte specifiche. Le risposte a queste domande forniscono informazioni su come migliorare i KPI.
+1. **Prendi queste domande e stabilisci quali sono le tue esigenze di tracciamento.** Raggruppali in dimensioni e metriche.
+   * I Dimension sono variabili che contengono testo. Gli esempi includono il termine di ricerca interno, la categoria di prodotto o il nome di un’area su cui un visitatore ha fatto clic.
+   * Le metriche sono eventi specifici che un visitatore deve fare: quando esegue un’azione desideri, il numero aumenta di uno. Ad esempio, l’invio di un ordine, l’abbonamento a una newsletter o l’invio di una risposta a un sondaggio.
+1. **Mappare dimensioni e metriche in una pagina o in un foglio di calcolo.** Questa pagina o tabella diventa in definitiva il documento di progettazione della soluzione. Alcune colonne o punti elenco utili includono:
+   * Stato di implementazione: Pianificato, attivo, inattivo, problemi, ecc. In questo modo si informa il visualizzatore del documento dello stato della variabile, se è stata implementata, o se si verificano problemi con la raccolta dei dati.
+   * Nome della variabile: Ad esempio, &quot;Termini di ricerca interna&quot;. Questo valore è ciò che gli analisti vedono quando lavorano in Analytics.
+   * Variabile di Analytics mappata a: A quale variabile predefinita o personalizzata di Analytics si sceglie di assegnare i valori. I Dimension in genere rientrano in eVar, mentre le metriche rientrano in eventi .
+   * Logica: Descrizione dell’impostazione della variabile e del relativo valore. Ad esempio, &quot;Impostato solo sulle pagine di ricerca interne. Prende il valore del parametro della stringa query q.&quot;
    * Qualsiasi altra nota che desideri includere relativa alla variabile
 
 ## Risorse aggiuntive
 
-La definizione di un documento di progettazione della soluzione è un progetto piuttosto complesso, soprattutto per le organizzazioni che non ne hanno mai creato uno prima. Se desideri ulteriore assistenza, Adobe fornisce consulenza specializzata per aiutarti a rendere operativa la tua organizzazione con Adobe Analytics. Contatta il tuo Account Manager per integrare i servizi professionali di Adobe. A [Questionario tecnico di pre-implementazione](assets/technical-pre-implementation-questionnaire.pdf) può essere compilato in modo che Adobe sappia esattamente come aiutarti in base alle esigenze della tua organizzazione.
+La definizione di un documento di progettazione della soluzione è un progetto piuttosto complesso, soprattutto per le organizzazioni che non ne hanno creato uno prima. Se desideri ricevere ulteriore assistenza, Adobe fornisce consulenza specializzata per aiutarti a far iniziare la tua organizzazione con Adobe Analytics. Contatta il team dell&#39;account Adobe per accedere ai servizi professionali di Adobe. A [Questionario tecnico di pre-attuazione](assets/technical-pre-implementation-questionnaire.pdf) può essere compilato in modo che l’Adobe sappia esattamente come aiutare in base alle esigenze della tua organizzazione.
 
-Ci sono anche diversi partner di Adobi specializzati nell’assistenza per la creazione di un documento di progettazione della soluzione e nell’implementazione di Adobe Analytics sul sito.
+Esistono anche diversi partner di Adobe specializzati nella creazione di un documento di progettazione della soluzione e nell’implementazione di Adobe Analytics sul sito.
 
 ## Passaggi successivi
 
 Implementa le variabili nel documento di progettazione della soluzione.
 
-[Creare un livello di dati](data-layer.md): traduci le variabili nel documento di progettazione in variabili JavaScript sul sito.
+[Creare un livello di dati](data-layer.md): Traduci le variabili nel documento di progettazione in variabili JavaScript sul sito.

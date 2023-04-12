@@ -1,53 +1,55 @@
 ---
 title: manageVars
-description: Modifica i valori di più variabili Analytics alla volta.
+description: Modifica i valori di più di una variabile Analytics alla volta.
 feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 3%
+source-wordcount: '663'
+ht-degree: 6%
 
 ---
 
 # Plug-in di Adobe: manageVars
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
+{{plug-in}}
 
-Il `manageVars` Il plug-in consente di manipolare i valori di più variabili di Analytics contemporaneamente. Puoi anche impostare i valori in minuscolo o rimuovere contemporaneamente caratteri non necessari da più valori di variabili. L’Adobe consiglia di utilizzare questo plug-in per pulire il valore di più variabili contemporaneamente.
+La `manageVars` Il plug-in ti consente di manipolare i valori di più variabili di Analytics alla volta. È inoltre possibile impostare i valori in lettere minuscole o rimuovere allo stesso tempo caratteri non necessari da più valori di variabili. Adobe consiglia di utilizzare questo plug-in per pulire il valore di più variabili contemporaneamente.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Installare il plug-in utilizzando l’SDK per web o l’estensione SDK per web
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Questo plug-in non è ancora supportato per l&#39;utilizzo all&#39;interno dell&#39;SDK per web.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize manageVars
-1. Save and publish the changes to the rule.-->
+## Installare il plug-in utilizzando l’estensione Adobe Analytics
+
+Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con Adobe Analytics.
+
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Fai clic sulla proprietà del tag desiderata.
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
+1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
+   * Condizione: nessuna
+   * Evento: Core - Libreria caricata (pagina in alto)
+1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
+   * Estensione: Plug-in comuni di Analytics
+   * Tipo azione: Inizializza manageVars
+1. Salva e pubblica le modifiche alla regola.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, puoi utilizzare l’editor di codice personalizzato.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
-1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche nell’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
+1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche all’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -56,12 +58,12 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizzare il plug-in
+## Usa il plug-in
 
-Il `manageVars` La funzione utilizza i seguenti argomenti:
+La `manageVars` La funzione utilizza i seguenti argomenti:
 
-* **`cb`** (obbligatorio, stringa): nome di una funzione di callback utilizzata dal plug-in per manipolare le variabili di Analytics. Puoi utilizzare una funzione di Adobe come `cleanStr` o una funzione personalizzata.
-* **`l`** (facoltativo, stringa): elenco delimitato da virgole di variabili di Analytics che desideri manipolare. Se non viene impostato, viene impostato automaticamente su TUTTE le variabili di Adobe Analytics, tra cui:
+* **`cb`** (obbligatorio, stringa): Nome di una funzione di callback utilizzata dal plug-in per manipolare le variabili di Analytics. È possibile utilizzare una funzione di Adobe come `cleanStr` o la tua funzione personalizzata.
+* **`l`** (facoltativo, stringa): Elenco delimitato da virgole delle variabili di Analytics da manipolare. Se non è impostato, viene impostata l’impostazione predefinita a TUTTE le variabili Adobe Analytics, che includono:
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -76,69 +78,69 @@ Il `manageVars` La funzione utilizza i seguenti argomenti:
    * Tutte le proprietà
    * Tutte le eVar
    * Tutte le variabili della gerarchia
-   * Tutte le variabili elenco
+   * Tutte le variabili dell’elenco
    * Tutte le variabili di dati di contesto
-* **`Il`** (facoltativo, booleano): impostato su `false` se si desidera *escludi* l’elenco delle variabili dichiarate nel `l` invece di includerli. Predefinito su `true`.
+* **`Il`** (facoltativo, booleano): Imposta su `false` se vuoi *escludere* l&#39;elenco delle variabili dichiarate nella `l` argomenti invece di includerli. Predefinito su `true`.
 
 La chiamata di questa funzione non restituisce alcun risultato. Cambia invece i valori delle variabili di Analytics in base alla funzione di callback desiderata.
 
-## Esempio di chiamate
+## Chiamate di esempio
 
-### Esempio di #1
+### Esempio n. 1
 
-Il seguente codice...
+Codice seguente...
 
 ```js
 manageVars("lowerCaseVars");
 ```
 
-...modifica in minuscolo i valori di tutte le variabili descritte in precedenza.  L’unica eccezione è la variabile degli eventi, in quanto alcuni degli eventi (ad esempio scAdd, scCheckout e così via) fanno distinzione tra maiuscole e minuscole e non devono essere minuscole
+...cambia i valori di tutte le variabili descritte sopra in versioni minuscole.  L&#39;unica eccezione a questo è la variabile degli eventi, come alcuni degli eventi (ad esempio scAdd, scCheckout, ecc.) sono sensibili all’uso di maiuscole e minuscole e non devono essere minuscole
 
-### Esempio di #2
+### Esempio n. 2
 
-Il seguente codice...
+Codice seguente...
 
 ```js
 manageVars("lowerCaseVars", "events", false);
 ```
 
-...essenzialmente produce lo stesso risultato del primo esempio, poiché la variabile degli eventi non è in minuscolo per impostazione predefinita.
+...essenzialmente produce lo stesso risultato esatto del primo esempio, in quanto la variabile degli eventi non viene ridotta per impostazione predefinita.
 
-### Esempio di #3
+### Esempio n. 3
 
-Il seguente codice...
+Codice seguente...
 
 ```js
 manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
-...cambierà (ad esempio, in minuscolo) solo i valori di eVar1, eVar2, eVar3 ed list2
+...cambierà (ad esempio minuscolo) solo i valori di eVar1, eVar2, eVar3 e list2
 
-### Esempio di #4
+### Esempio n. 4
 
-Il seguente codice...
+Codice seguente...
 
 ```js
 manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
-...cambierà (ad esempio in minuscolo) i valori di tutte le variabili sopra descritte ECCETTO per eVar1, eVar2, eVar3 ed list2
+...cambierà (ad esempio in minuscolo) i valori di tutte le variabili descritte in precedenza ECCETTO per eVar1, eVar2, eVar3 e list2
 
-### Esempio di #5
+### Esempio n. 5
 
-Il seguente codice...
+Codice seguente...
 
 ```js
 manageVars("cleanStr");
 ```
 
-...modifica i valori di tutte le variabili descritte in precedenza, comprese le variabili di eventi.  In particolare, la funzione di callback cleanStr esegue le seguenti operazioni sul valore di ciascuna variabile:
+...cambia i valori di tutte le variabili descritte in precedenza, comprese le variabili degli eventi.  In particolare, la funzione di callback cleanStr effettua le seguenti operazioni sul valore di ciascuna variabile:
 
 * Rimuove la codifica HTML
-* Rimuove gli spazi vuoti trovati all’inizio e alla fine del valore
-* Sostituisce le virgolette singole sinistra/destra (ad esempio, ) con una virgoletta singola diritta (&#39;)
-* Sostituisce i caratteri di tabulazione, i caratteri di nuova riga e i caratteri di ritorno a capo con spazi
-* Sostituisce tutti i doppi (o tripli, ecc.) spazi con spazi singoli
+* Rimuove gli spazi bianchi trovati all’inizio e alla fine del valore
+* Sostituisce le virgolette singole sinistre/destre con una virgoletta singola retta (`'`)
+* Sostituisce caratteri di tabulazione, caratteri di nuova riga e caratteri di ritorno a capo con spazi.
+* Sostituisce tutti i valori doppi (o triple, ecc.) spazi con spazi singoli
 
 ## Cronologia versioni
 
@@ -149,9 +151,9 @@ manageVars("cleanStr");
 ### 2.1 (14 gennaio 2019)
 
 * Correzione di bug per i browser Internet Explorer 11.
-* Modifiche per `s.cleanStr`, che ora utilizza il normale `cleanStr` funzione.
+* Modifiche per `s.cleanStr`, che ora utilizza il `cleanStr` funzione .
 
 ### 2.0 (7 maggio 2018)
 
-* Rilascio del punto (inclusa la rianalisi/riscrittura completa del plug-in)
+* Rilascio in punti (compresa la reanalisi/riscrittura completa del plug-in)
 * Aggiunto `cleanStr` funzione di callback

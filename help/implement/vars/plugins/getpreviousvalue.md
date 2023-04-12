@@ -1,53 +1,70 @@
 ---
 title: getPreviousValue
-description: Ottieni l’ultimo valore passato in una variabile.
+description: Ottieni l’ultimo valore trasmesso in una variabile.
 feature: Variables
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 3%
+source-wordcount: '731'
+ht-degree: 7%
 
 ---
 
 # Plug-in di Adobe: getPreviousValue
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
+{{plug-in}}
 
-Il `getPreviousValue` Il plug-in consente di impostare una variabile su un valore impostato su un hit precedente. Questo plug-in non è necessario se l’implementazione contiene tutti i valori desiderati nell’hit corrente.
+La `getPreviousValue` il plug-in consente di impostare una variabile su un valore impostato su un hit precedente. Questo plug-in non è necessario se l&#39;implementazione contiene tutti i valori desiderati nell&#39;hit corrente.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Installare il plug-in utilizzando l’estensione Web SDK
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con l’SDK per web.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getPreviousValue
-1. Save and publish the changes to the rule.-->
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Fai clic su **[!UICONTROL Tags]** a sinistra, quindi fai clic sulla proprietà tag desiderata.
+1. Fai clic su **[!UICONTROL Extensions]** a sinistra, quindi fai clic sul pulsante **[!UICONTROL Catalog]** scheda
+1. Individua e installa il **[!UICONTROL Common Web SDK Plugins]** estensione.
+1. Fai clic su **[!UICONTROL Data Elements]** a sinistra, quindi fai clic sull’elemento dati desiderato.
+1. Imposta il nome dell&#39;elemento dati desiderato con la seguente configurazione:
+   * Estensione: Plug-in SDK per web comuni
+   * Elemento dati: `getPreviousValue`
+1. Imposta i parametri desiderati a destra.
+1. Salva e pubblica le modifiche apportate all’elemento dati.
+
+## Installare il plug-in manualmente durante l’implementazione dell’SDK per web
+
+Questo plug-in non è ancora supportato per l&#39;utilizzo in un&#39;implementazione manuale dell&#39;SDK web.
+
+## Installare il plug-in utilizzando l’estensione Adobe Analytics
+
+Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con Adobe Analytics.
+
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Fai clic sulla proprietà del tag desiderata.
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
+1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
+   * Condizione: nessuna
+   * Evento: Core - Libreria caricata (pagina in alto)
+1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
+   * Estensione: Plug-in comuni di Analytics
+   * Tipo azione: Inizializza getPreviousValue
+1. Salva e pubblica le modifiche alla regola.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, puoi utilizzare l’editor di codice personalizzato.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
-1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche nell’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
+1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche all’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /* Adobe Consulting Plugin: getPreviousValue v3.0 */
@@ -55,14 +72,14 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizzare il plug-in
+## Usa il plug-in
 
-Il `getPreviousValue` La funzione utilizza i seguenti argomenti:
+La `getPreviousValue` La funzione utilizza i seguenti argomenti:
 
-* **`v`** (stringa, obbligatorio): variabile con il valore che desideri trasmettere alla successiva richiesta di immagine. Una variabile comune utilizzata è `s.pageName` per recuperare il valore della pagina precedente.
-* **`c`** (stringa, facoltativo): nome del cookie che memorizza il valore.  Se questo argomento non è impostato, viene utilizzato il valore predefinito `"s_gpv"`.
+* **`v`** (stringa, obbligatoria): Variabile con il valore che si desidera passare alla richiesta di immagine successiva. Una variabile comune utilizzata è `s.pageName` per recuperare il valore della pagina precedente.
+* **`c`** (stringa, facoltativo): Nome del cookie che memorizza il valore.  Se questo argomento non è impostato, viene utilizzata l&#39;impostazione predefinita `"s_gpv"`.
 
-Quando chiami questa funzione, restituisce il valore stringa contenuto nel cookie. Il plug-in reimposta la scadenza del cookie e gli assegna il valore di variabile dalla `v` argomento. Il cookie scade dopo 30 minuti di inattività.
+Quando si chiama questa funzione, restituisce il valore stringa contenuto nel cookie. Il plug-in quindi reimposta la scadenza del cookie e gli assegna il valore della variabile dal `v` argomento. Il cookie scade dopo 30 minuti di inattività.
 
 ## Esempi
 
@@ -82,10 +99,10 @@ if(s.pageName) s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.eVar10 = getPreviousValue(s.eVar1);
 ```
 
-## Quirks improbabili
+## Soste improbabili
 
-Se la variabile associata alla `v` è impostato su un nuovo valore e il `getPreviousValue` viene eseguito MA una chiamata al server Analytics NON viene inviata contemporaneamente, il nuovo `v` Il valore dell&#39;argomento viene comunque considerato il &quot;valore precedente&quot; alla successiva esecuzione del plug-in.
-Ad esempio, supponiamo che il seguente codice venga eseguito sulla prima pagina della visita:
+Se la variabile associata alla variabile `v` viene impostato su un nuovo valore e `getPreviousValue` il plug-in viene eseguito MA NON viene inviata contemporaneamente una chiamata al server di Analytics, il nuovo `v` il valore dell’argomento viene comunque considerato come &quot;valore precedente&quot; alla successiva esecuzione del plug-in.
+Ad esempio, si supponga che il seguente codice venga eseguito sulla prima pagina della visita:
 
 ```js
 s.pageName = "Home";
@@ -93,14 +110,14 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Questo codice genera una chiamata al server in cui `pageName` è &quot;Home&quot; e prop7 non è impostato.  Tuttavia, l’invito a `getPreviousValue` memorizza il valore di `pageName` nel `gpv_Page` cookie. Supponiamo che subito dopo, sulla stessa pagina, venga eseguito il seguente codice:
+Questo codice genera una chiamata al server in cui `pageName` è &quot;Home&quot; e prop7 non è impostato.  Tuttavia, la chiamata a `getPreviousValue` memorizza il valore di `pageName` in `gpv_Page` cookie. Si supponga che subito dopo, sulla stessa pagina, venga eseguito il seguente codice:
 
 ```js
 s.pageName = "New value";
 s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-Poiché il `t()` funzione non viene eseguita in questo blocco di codice, un’altra richiesta di immagine non viene inviata.  Tuttavia, quando `getPreviousValue` il codice di funzione viene eseguito in questo momento, `prop7` è impostato sul valore precedente di `pageName` (&quot;Home&quot;), quindi memorizza il nuovo valore di `pageName` (&quot;Nuovo valore&quot;) nella `gpv_Page` cookie. Quindi, supponiamo che il visitatore passi a una pagina diversa e che il seguente codice venga eseguito su questa pagina:
+Dal momento che `t()` non viene eseguita in questo blocco di codice, non viene inviata un&#39;altra richiesta di immagine.  Tuttavia, quando `getPreviousValue` il codice della funzione viene eseguito questa volta, `prop7` è impostato sul valore precedente di `pageName` (&quot;Home&quot;), quindi memorizza il nuovo valore di `pageName` (&quot;Nuovo valore&quot;) nel `gpv_Page` cookie. Quindi, si supponga che il visitatore passi a una pagina diversa ed esegua il seguente codice su questa pagina:
 
 ```js
 s.pageName = "Page 2";
@@ -108,7 +125,7 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Quando `t()` viene eseguita, crea una richiesta di immagine in cui `pageName` è &quot;Page 2&quot; e `prop7` è &quot;New value&quot;, che era il valore di `pageName` quando l’ultima chiamata a `getPreviousValue` ha avuto luogo. Il `prop7` valore di `"Home"` non è mai stato contenuto in una richiesta di immagine, anche se &quot;Home&quot; è stato il primo valore passato a `pageName`.
+Quando il `t()` viene eseguita, viene creata una richiesta di immagine in cui `pageName` è &quot;Pagina 2&quot; e `prop7` è &quot;Nuovo valore&quot;, che era il valore di `pageName` quando l’ultima chiamata a `getPreviousValue` ebbe luogo. La `prop7` valore `"Home"` non è mai stato contenuto in una richiesta di immagine, anche se &quot;Home&quot; è stato il primo valore trasmesso a `pageName`.
 
 ## Cronologia versioni
 
@@ -118,4 +135,4 @@ Quando `t()` viene eseguita, crea una richiesta di immagine in cui `pageName` è
 
 ### v2.0 (7 ottobre 2019)
 
-* Versione punto (riscrittura logica completa).
+* Rilascio del punto (riscrittura logica completa).

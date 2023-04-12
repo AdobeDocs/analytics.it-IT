@@ -2,10 +2,10 @@
 title: Panoramica sui set di classificazione
 description: Utilizza i set di classificazione per gestire i dati di classificazione.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 43%
+source-wordcount: '220'
+ht-degree: 87%
 
 ---
 
@@ -15,21 +15,17 @@ I set di classificazione forniscono un’unica interfaccia per gestire classific
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**
 
->[!NOTE]
->
->I set di classificazioni saranno disponibili per tutti i clienti che hanno eseguito la migrazione delle loro suite di rapporti alla nuova architettura Classificazioni. Per ulteriori informazioni, contatta l’Assistenza clienti Adobe o il tuo Account Manager.
-
-L’architettura back-end rilasciata con i set di classificazione contiene diversi miglioramenti degni di nota:
+L’architettura di back-end rilasciata con i set di classificazione contiene diversi miglioramenti di rilievo:
 
 * Tempo di elaborazione notevolmente ridotto (72 ore → 24 ore)
-* Possibilità di utilizzare l’interfaccia utente dei set di classificazione
-* L’opzione per utilizzare in futuro i dati di classificazione in Adobe Experience Platform tramite [Connettore di origine di Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
+* Possibilità di utilizzare l’interfaccia dei set di classificazione
+* Opzione per utilizzare in futuro i dati di classificazione in Adobe Experience Platform tramite il [Connettore di origine di Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=it)
 
-Anche l’architettura back-end rilasciata con i set di classificazione contiene diverse modifiche di rilievo:
+L’architettura di back-end rilasciata con i set di classificazione contiene anche diverse modifiche di rilievo:
 
-* Quando si utilizza il browser o l’importazione FTP, &quot;[!UICONTROL Overwrite on conflict]&#39; è sempre abilitato.
+* Quando si utilizza il browser o l’importazione FTP, “[!UICONTROL Overwrite on conflict]” è sempre abilitato.
 * Quando si utilizza il browser o l’importazione FTP, l’opzione per esportare immediatamente dopo l’importazione non è più supportata. Le esportazioni devono essere avviate separatamente.
-* API di Analytics 2.0 `GetDimensions` l’endpoint ora restituisce identificatori stringa per le classificazioni anziché identificatori numerici. È comunque possibile utilizzare gli identificatori numerici, ma Adobe consiglia di utilizzare i nuovi identificatori stringa laddove possibile. Gli identificatori numerici possono essere recuperati utilizzando `?expansion=hidden` parametro stringa query.
+* L’endpoint `GetDimensions` dell’API di Analytics 2.0 ora restituisce identificatori stringa per le classificazioni anziché identificatori numerici. È comunque possibile utilizzare gli identificatori numerici, ma Adobe consiglia di utilizzare i nuovi identificatori stringa laddove possibile. Gli identificatori numerici possono essere recuperati utilizzando il parametro `?expansion=hidden` della stringa di query.
 
 
 I set di classificazione sono costituiti da due aree principali:

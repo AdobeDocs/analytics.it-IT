@@ -3,10 +3,10 @@ title: Domande frequenti sulle classificazioni
 description: Domande frequenti sull’utilizzo delle classificazioni.
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 81%
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ I file di classificazione caricati con un valore chiave o un valore di classific
 
    *Se la [dimensione] è uguale a `0`, sovrascrivi il valore di [dimensione] con il valore personalizzato `Zero`.*
 
-* **Richiedere una regola VISTA**: un consulente di servizi tecnici imposta una regola lato server a un costo aggiuntivo. Contatta l’Account Manager della tua organizzazione per richiedere una regola VISTA.
+* **Richiedere una regola VISTA**: un consulente di servizi tecnici imposta una regola lato server a un costo aggiuntivo. Contatta il team dell’account di Adobe per richiedere una regola VISTA.
 
 ## È possibile utilizzare l’importazione di classificazioni per classificare elementi dimensionali non ancora esistenti?
 
@@ -35,9 +35,9 @@ Sì, *tuttavia in questo modo ogni elemento dimensionale viene conteggiato come 
 
 ## Come si classificano i valori che contengono caratteri speciali?
 
-L’utilizzo di spazi vuoti iniziali e finali nei dati di classificazione e nei dati hit non è supportato perché Adobe Analytics troncerà i caratteri vuoti da questi dati.
+L’utilizzo di spazi vuoti iniziali e finali nei dati di classificazione e nei dati di hit non è supportato perché Adobe Analytics troncherà i caratteri vuoti da questi dati.
 
-In genere, non è consigliabile utilizzare caratteri speciali come virgole o virgolette nei rapporti. Tuttavia, in alcuni casi è necessario utilizzarli. Se i valori dei rapporti contengono tali caratteri che si sceglie di classificare, attenersi alla procedura descritta di seguito.
+In genere non è consigliabile utilizzare caratteri speciali come virgole o virgolette nei rapporti. Tuttavia, in alcuni casi è necessario utilizzarli. Se i valori dei rapporti contengono tali caratteri che scegli di classificare, procedi come segue:
 
 1. Accedi ad Adobe Analytics e seleziona **[!UICONTROL Admin]** > **[!UICONTROL Classification importer]**.
 2. Fai clic sulla scheda **[!UICONTROL Browser export]**.

@@ -1,43 +1,24 @@
 ---
-description: La funzionalità dei segmenti ora è diversa principalmente per gli utenti amministratori e per i non amministratori.
+description: Grafico di confronto che utilizza segmenti tra amministratori e non amministratori.
 title: Diritti del segmento per ruolo
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 88%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
 # Diritti del segmento per ruolo
 
-La funzionalità dei segmenti ora è diversa principalmente per gli utenti amministratori e per i non amministratori.
+La funzionalità dei segmenti è diversa principalmente per gli utenti a livello di amministratore e per i non amministratori.
 
-<table id="table_13F72FD90C964B86BD4B51E6F51ED292"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"></th> 
-   <th colname="col2" class="entry"> Condivisione dei segmenti </th> 
-   <th colname="col3" class="entry"> Visualizzazione/gestione dei segmenti </th> 
-   <th colname="col4" class="entry"> Approvazione dei segmenti </th> 
-   <th colname="col5" class="entry"> Applicazione dei segmenti </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>Utenti amministratori</b> </td> 
-   <td colname="col2"> Possono condividere con l’azienda, con i gruppi di utenti e con i singoli utenti. </td> 
-   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span>: possono visualizzare/modificare/eliminare/ecc. i segmenti propri e di altri utenti. <p> <span class="keyword"> Report Builder </span>: può visualizzare/modificare/eliminare/ecc. i propri segmenti e quelli condivisi con esso. </p> </td> 
-   <td colname="col4"> Possono approvare i segmenti come canonici. </td> 
-   <td colname="col5"> Possono applicare qualsiasi segmento in tutta l’organizzazione. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Utenti non amministratori</b> </td> 
-   <td colname="col2"> Possono condividere solo con singoli utenti </td> 
-   <td colname="col3"> Possono visualizzare/modificare/eliminare/ecc. solo i propri segmenti. </td> 
-   <td colname="col4"> Possono utilizzare solo i segmenti approvati, non possono contrassegnare i segmenti come approvati. </td> 
-   <td colname="col5"> Possono applicare i propri segmenti e i segmenti condivisi con loro. </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | Utenti amministratori | Non amministratori |
+| --- | --- | --- |
+| Applicazione dei segmenti | Segmenti di proprietà o segmenti condivisi. Tuttavia, può condividere qualsiasi segmento da qualsiasi utente a se stesso per utilizzare | Solo segmenti di proprietà o segmenti condivisi |
+| Visualizzazione dei segmenti in Segment Manager | Tutti i segmenti dell’organizzazione | Solo segmenti di proprietà o segmenti condivisi |
+| Gestione dei segmenti | Può visualizzare, modificare, eliminare o approvare qualsiasi segmento da qualsiasi utente | Possono solo modificare o eliminare i propri segmenti. Impossibile approvare i segmenti. |
+| Condivisione di segmenti | Può condividere con un&#39;intera azienda, gruppi di utenti o singoli utenti | Può condividere solo con singoli utenti |
+
+{style="table-layout:auto"}

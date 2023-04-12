@@ -3,7 +3,7 @@ title: Eventi personalizzati
 description: Il numero di hit in cui esiste un evento personalizzato.
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -12,18 +12,18 @@ ht-degree: 1%
 
 # Eventi personalizzati
 
-*Questa pagina della guida descrive il funzionamento degli eventi personalizzati come metrica. Per informazioni sul funzionamento degli eventi personalizzati come variabile di implementazione, consulta [Panoramica degli eventi](/help/implement/vars/page-vars/events/events-overview.md) nella guida utente Implementa.*
+*Questa pagina di aiuto descrive il funzionamento degli eventi personalizzati come metriche. Per informazioni sul funzionamento degli eventi personalizzati come variabili di implementazione, vedi [Panoramica degli eventi](/help/implement/vars/page-vars/events/events-overview.md) nella guida utente Implementa .*
 
-Le metriche degli eventi personalizzati mostrano il numero di hit in cui un dato evento personalizzato è stato impostato in una richiesta di immagine. Queste metriche sono fondamentali per molte implementazioni, in quanto forniscono informazioni approfondite sugli eventi specifici di ogni organizzazione.
+Le metriche degli eventi personalizzati mostrano il numero di hit in cui è stato impostato un dato evento personalizzato in una richiesta di immagine. Queste metriche sono vitali per molte implementazioni, in quanto forniscono informazioni dettagliate sugli eventi specifici per ogni organizzazione.
 
-## Modalità di calcolo di questa metrica
+## Calcolo di questa metrica
 
-Gli eventi personalizzati vengono calcolati in modo diverso a seconda del tipo. Puoi controllare il tipo di evento in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
+Gli eventi personalizzati vengono calcolati in modo diverso a seconda del tipo. Puoi controllare il tipo di un evento in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
-* **Eventi contatore**: impostazione predefinita dell’evento. La maggior parte degli eventi sono eventi contatore. Conta il numero di hit in cui l’evento personalizzato corrispondente `event1` - `event1000` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.
-* **Eventi numerici**: somma il valore numerico assegnato all’evento nel `events` variabile.
-* **Eventi valuta**: applica la conversione della valuta al tasso di cambio di quel giorno, quindi somma il valore numerico assegnato a ogni hit nel `events` variabile.
+* **Eventi contatore**: L’impostazione predefinita dell’evento. La maggior parte degli eventi sono eventi contatore. Conta il numero di hit in cui l’evento personalizzato corrispondente è `event1` - `event1000` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.
+* **Eventi numerici**: Somma il valore numerico assegnato all&#39;evento nel `events` variabile.
+* **Eventi valuta**: Applica la conversione di valuta in base al tasso di cambio di quel giorno, quindi somma il valore numerico assegnato a ogni hit nel `events` variabile.
 
-Il numero di eventi disponibili dipende dal contratto Analytics della tua organizzazione. La maggior parte delle organizzazioni con contratti non legacy dispone di 1000 eventi personalizzati. Se non sai quanti eventi personalizzati sono disponibili, contatta l’account manager della tua organizzazione.
+Il numero di eventi disponibili dipende dal contratto Analytics della tua organizzazione. La maggior parte delle organizzazioni con contratti non legacy dispone di 1000 eventi personalizzati. Contatta il team dell’account di Adobe se non sei sicuro di quanti eventi personalizzati sono disponibili.
 
-L’Adobe consiglia vivamente di registrare in che modo utilizzi ogni evento nel [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md).
+L’Adobe consiglia vivamente di registrare il modo in cui si utilizza ogni evento nell’organizzazione [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md).

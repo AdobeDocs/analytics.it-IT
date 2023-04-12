@@ -3,55 +3,57 @@ title: Suite numeri
 description: Produrre e manipolare numeri da utilizzare in altre variabili JavaScript.
 feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 3%
+source-wordcount: '605'
+ht-degree: 6%
 
 ---
 
-# Plug-in di Adobe: suite di numeri
+# Plug-in di Adobe: Suite numeri
 
->[!IMPORTANT]
->
->Questo plug-in è fornito da Adobe Consulting per aiutarti a ottenere più valore da Adobe Analytics. Adobe L’Assistenza clienti non fornisce supporto con questo plug-in, inclusa l’installazione o la risoluzione dei problemi. Se hai bisogno di assistenza su questo plug-in, contatta l’Account Manager della tua organizzazione. Possono organizzare un incontro con un consulente per ricevere assistenza.
+{{plug-in}}
 
-La Numbers Suite dispone di una serie di funzioni JavaScript. Include i seguenti plug-in:
+I numeri Suite una serie di funzioni JavaScript. Include i seguenti plug-in:
 
-* **`zeroPad`**: aggiungi un numero specifico di zeri all’inizio di un numero. Questo plug-in è utile se una variabile richiede un determinato numero di cifre, ad esempio se si utilizzano oggetti data JavaScript e si desidera formattare il mese e il giorno di una data con due cifre anziché con una sola cifra. Ad esempio: `01/09/2020` invece di `1/9/2020`.
-* **`randomNumber`**: genera un numero casuale con un numero specifico di cifre. Questo plug-in è utile se distribuisci tag di terze parti e desideri un numero casuale di cache non funzionante.
-* **`twoDecimals`**: Arrotonda un numero al centesimo dell’armadio. Questo plug-in è utile a scopo di valuta, consentendoti di arrotondare un numero a un valore di valuta valido.
+* **`zeroPad`**: Aggiungi un numero specifico di zeri all&#39;inizio di un numero. Questo plug-in è utile se una variabile richiede un certo numero di cifre, ad esempio se si lavora con oggetti data JavaScript e si desidera formattare il mese e il giorno di una data con due cifre invece di una sola cifra. Ad esempio: `01/09/2020` anziché `1/9/2020`.
+* **`randomNumber`**: Genera un numero casuale con un numero specifico di cifre. Questo plug-in è utile se distribuisci tag di terze parti e desideri un numero casuale di cache non compatibile.
+* **`twoDecimals`**: Girare un numero fino alla centesima. Questo plug-in è utile a scopo di valuta, consentendoti di arrotondare un numero a un valore di valuta valido.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Installare il plug-in utilizzando l’SDK per web o l’estensione SDK per web
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Questo plug-in non è ancora supportato per l&#39;utilizzo all&#39;interno dell&#39;SDK per web.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize Numbers Suite
-1. Save and publish the changes to the rule.-->
+## Installare il plug-in utilizzando l’estensione Adobe Analytics
+
+Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con Adobe Analytics.
+
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Fai clic sulla proprietà del tag desiderata.
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
+1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
+1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
+   * Condizione: nessuna
+   * Evento: Core - Libreria caricata (pagina in alto)
+1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
+   * Estensione: Plug-in comuni di Analytics
+   * Tipo azione: Inizializza suite numeri
+1. Salva e pubblica le modifiche alla regola.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
-Se non desideri utilizzare l&#39;estensione del plug-in, puoi utilizzare l&#39;editor di codice personalizzato.
+Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, puoi utilizzare l’editor di codice personalizzato.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
-1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche nell’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
+1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche all’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell’istanza dell’oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -68,26 +70,26 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Utilizzare i plug-in
 
-Il `zeroPad` La funzione utilizza i seguenti argomenti:
+La `zeroPad` La funzione utilizza i seguenti argomenti:
 
-* **num** (obbligatorio, numero intero): numero da aggiungere. La funzione arrotonda il valore di questo argomento per difetto se contiene decimali.
-* **annuire** (obbligatorio, numero intero): numero di cifre nel valore restituito finale. Se il numero da aggiungere ha meno cifre del numero di cifre da aggiungere, il plug-in aggiunge zeri all&#39;inizio del `num` argomento.
+* **num** (obbligatorio, numero intero): Numero da aggiungere al pad. La funzione arrotonda il valore di questo argomento se contiene decimali.
+* **cenno** (obbligatorio, numero intero): Numero di cifre nel valore finale restituito. Se il numero da aggiungere ha meno cifre del numero di cifre a cui aggiungere il pad, il plug-in aggiunge zeri all&#39;inizio della `num` argomento.
 
-Il `randomNumber` La funzione utilizza i seguenti argomenti:
+La `randomNumber` La funzione utilizza i seguenti argomenti:
 
-* **annuire** (facoltativo, numero intero): numero di cifre nel numero casuale che si desidera generare. Il valore massimo è di 17 cifre. Il valore predefinito è 10 cifre.
+* **cenno** (facoltativo, numero intero): Il numero di cifre nel numero casuale che si desidera generare. Il valore massimo è di 17 cifre. Il valore predefinito è 10 cifre.
 
-Il `twoDecimals` La funzione utilizza i seguenti argomenti:
+La `twoDecimals` La funzione utilizza i seguenti argomenti:
 
-* **val** (obbligatorio, numero): numero (rappresentato da una stringa o da un oggetto numero) che si desidera arrotondare al centesimo più vicino.
+* **val** (obbligatorio, numero): Un numero (rappresentato da una stringa o un oggetto numerico) che si desidera arrotondare al centesimo più vicino.
 
 ## Restituisce
 
-* Il **zeroPad** funzione restituisce una stringa uguale al valore `num` ma con un numero specifico di zeri aggiunti all&#39;inizio del relativo valore, in modo che il valore restituito abbia il numero corretto di cifre.
-* Il **randomNumber** La funzione restituisce una stringa uguale a un numero casuale con il numero di cifre desiderato.
-* Il **twoDecimals** La funzione restituisce un oggetto number arrotondato al centesimo più vicino.
+* La **zeroPad** restituisce una stringa uguale a `num` argomento ma con un numero specifico di zeri aggiunti all&#39;inizio del suo valore, in modo che il valore restituito abbia il numero corretto di cifre.
+* La **randomNumber** restituisce una stringa uguale a un numero casuale con il numero desiderato di cifre.
+* La **dueDecimali** restituisce un numero di oggetto arrotondato al centesimo più vicino.
 
-## Esempio di chiamate
+## Chiamate di esempio
 
 ### esempi di zeroPad
 
@@ -99,7 +101,7 @@ s.prop1 = zeroPad(25, 1) //sets prop1 equal to "25"
 s.prop1 = zeroPad(232425235,23) //sets prop1 equal to "00000000000000232425235"
 ```
 
-### randomNumber, esempi
+### esempi randomNumber
 
 ```js
 s.eVar65 = randomNumber(15) //sets eVar65 equal to "721759731750342" or some other random 15-digit number
@@ -109,7 +111,7 @@ randomNumber() //returns a random 10-digit number but is useless since this isn'
 var j = randomNumber(35) //sets a variable named j equal to "15476068651810060" or another random 17-digit number
 ```
 
-### esempi twoDecimals
+### esempi dueDecimals
 
 ```js
 s.events = "event10=" + twoDecimals("85.4827128694") //sets s.events="event10=85.48"

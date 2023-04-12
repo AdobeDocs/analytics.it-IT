@@ -1,13 +1,13 @@
 ---
-description: Gli utenti esecutivi potrebbero aver bisogno di ulteriore assistenza per accedere e utilizzare l’app. Questa sezione offre informazioni per aiutarti a fornire tale assistenza.
+description: Gli utenti esecutivi potrebbero aver bisogno di ulteriore assistenza per accedere all’app e utilizzarla. Questa sezione offre informazioni per aiutarti a fornire tale assistenza.
 title: Impostare gli utenti esecutivi con l’app
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 98%
+source-wordcount: '731'
+ht-degree: 95%
 
 ---
 
@@ -114,4 +114,4 @@ Verifica che l’utente direzionale possa accedere all’istanza appropriata di 
 
 >[!IMPORTANT]
 >
->A partire da ottobre 2020, Adobe sta gradualmente implementando una serie di miglioramenti per ottimizzare le prestazioni dell’app “Adobe Analytics dashboards”. Questi miglioramenti sono incentrati sulla memorizzazione nella cache dei dati Analytics storici utilizzati per popolare le scorecard con le date (escluso il giorno corrente). I dati verranno memorizzati nella cache fino a 24 ore in un account di archiviazione cloud pubblico Microsoft Azure protetto. Se preferisci non utilizzare queste funzioni di miglioramento delle prestazioni, contatta il tuo Customer Success Manager.
+>A partire da ottobre 2020, Adobe sta gradualmente implementando una serie di miglioramenti per ottimizzare le prestazioni dell’app “Adobe Analytics dashboards”. Questi miglioramenti sono incentrati sulla memorizzazione nella cache dei dati Analytics storici utilizzati per popolare le scorecard con le date (escluso il giorno corrente). I dati verranno memorizzati nella cache fino a 24 ore in un account di archiviazione cloud pubblico Microsoft Azure protetto. Contatta il team dell&#39;account Adobe se desideri rinunciare a queste funzioni di miglioramento delle prestazioni.

@@ -3,10 +3,10 @@ description: Se hai copiato le impostazioni da una suite di rapporti esistente, 
 title: Impostazioni non copiate da una suite di rapporti di origine
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ Le seguenti impostazioni non vengono copiate da modelli o suite di rapporti dupl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regole VISTA </p> </td> 
-   <td colname="col2"> <p>Rivolgiti al tuo Customer Success Manager per contattare Engineering Services. </p> </td> 
+   <td colname="col2"> <p>Contatta il team dell'account Adobe per contattare i servizi tecnici. </p> </td> 
   </tr> 
  </tbody> 
 </table>
