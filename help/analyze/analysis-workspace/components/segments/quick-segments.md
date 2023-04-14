@@ -4,100 +4,142 @@ title: Segmenti rapidi
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
+source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 64%
+source-wordcount: '1145'
+ht-degree: 25%
 
 ---
 
 # Segmenti rapidi
 
-Puoi creare segmenti rapidi all’interno di un progetto, senza ricorrere al più complesso [generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md). Segmenti rapidi
+I segmenti rapidi consentono di esplorare facilmente i dati all’interno di un determinato progetto, senza la necessità di creare un segmento più complesso nell’elenco dei componenti nel [generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md).
 
-* Applica come [segmenti solo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html#what-are-project-only-segments%3F).
-* Consenti fino a 3 regole.
-* Non inserire contenitori nidificati o regole sequenziali.
+Quando crei segmenti rapidi, considera quanto segue:
 
-Per un confronto tra le funzionalità dei segmenti rapidi e quelle dei segmenti veri e propri a livello di componente, visita [questa pagina](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+* I segmenti rapidi si applicano solo al progetto in cui sono stati creati. Non sono disponibili in altri progetti e non possono essere condivisi con altri utenti.
+* È consentito un massimo di 3 regole.
+* I contenitori nidificati o le regole sequenziali non sono supportati.
 
-Ecco una panoramica video dei segmenti rapidi:
+Il video seguente illustra come utilizzare i segmenti rapidi:
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
-## Prerequisiti
+## Creare un segmento rapido
 
-Chiunque può creare un [!UICONTROL Quick Segment]. Tuttavia, per poter salvare un segmento rapido o aprirlo in [!UICONTROL Segment Builder] è necessario disporre dell&#39;autorizzazione [!UICONTROL Segment Creation] in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools).
+Qualsiasi utente in Analysis Workspace può creare un segmento rapido.
 
-## Creare segmenti rapidi
+Per creare un segmento rapido:
 
-In una tabella a forma libera, fai clic sull’icona Filtro+ nell’intestazione del pannello:
+1. Scegli uno dei metodi seguenti per iniziare a creare il segmento rapido:
 
-![](assets/quick-seg1.png)
+   * **Ad hoc (trascinamento della selezione):** Dalla barra a sinistra, trascina un componente nella zona di rilascio accanto alla **Segmento** nell’intestazione del pannello, quindi seleziona la **Modifica** per regolare il segmento.
 
-Configura il segmento rapido da questa lavagna vuota:
+      ![Modificare un segmento ad hoc](assets/filter-adhoc-edit.png)
 
-![segmento rapido vuoto](assets/qs-blank-slate.png)
+      >[!NOTE]
+      >
+      > Quando crei un segmento rapido ad hoc (trascinamento della selezione), considera quanto segue:
+      > * I seguenti tipi di componenti non sono supportati: metriche e dimensioni calcolate e metriche da cui non è possibile creare segmenti.
+      > * Per eventi e dimensioni intere, Analysis Workspace crea dei segmenti di hit di tipo “esiste”. Esempi: `Hit where eVar1 exists` o `Hit where event1 exists`.
+      > * Se nella zona di rilascio del segmento viene rilasciato &quot;Non specificato&quot; o &quot;Nessuno&quot;, questo viene automaticamente convertito in un segmento &quot;non esiste&quot; in modo che venga trattato correttamente nei segmenti.
 
-| Impostazione | Descrizione |
-| --- | --- |
-| Nome | Il nome predefinito di un segmento è una combinazione dei nomi delle regole nel segmento. È possibile rinominare il segmento. |
-| Includere/escludere | Puoi includere o escludere componenti nella definizione del segmento, ma non entrambi. |
-| Contenitore Hit/Visita/Visitatore | I segmenti rapidi comprendono un solo [contenitore di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) che consente di includere (o escludere) una dimensione, una metrica o un intervallo di date nel segmento. [!UICONTROL Visitor] contiene i dati generali specifici del visitatore per visite e visualizzazioni di pagina. A [!UICONTROL Visit] contenitore consente di impostare regole per suddividere i dati del visitatore in base alle visite e a [!UICONTROL Hit] Il contenitore consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni di pagina. Il valore predefinito è [!UICONTROL Hit]. |
-| Componenti (Dimensione/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo componenti (dimensioni e/o metriche e/o intervalli di date) e relativi valori. Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare; il generatore di [!UICONTROL Quick Segment] trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
-| Operatore | Utilizza il menu a discesa per trovare gli operatori standard e gli operatori [!UICONTROL Distinct Count]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=it) |
-| Segno più (+) | Aggiunge un’altra regola, |
-| Qualificatori AND/OR | Puoi aggiungere i qualificatori “AND” o “OR” alle regole, ma non puoi combinare “AND” e “OR” in una singola definizione di segmento. |
-| Applica | Applica questo segmento al pannello. Se il segmento non contiene dati, ti verrà chiesto se desideri continuare. |
-| Apri Generatore | Visualizza il Generatore di segmenti. Una volta salvato o applicato nel Creatore di segmenti, non viene più considerato un “Segmento rapido”. Diventa parte della libreria di segmenti dell’elenco di componenti. |
-| Annulla | Annulla questo segmento rapido, non applicarlo. |
-| Intervallo date | La convalida utilizza l’intervallo di date del pannello per la ricerca dei dati. Tuttavia, qualsiasi intervallo di date applicato a un segmento rapido sovrascrive l’intervallo di date del pannello nella sua parte superiore. |
-| Anteprima (in alto a destra) | Ti consente di verificare se disponi di un segmento valido e la sua ampiezza. Rappresenta il raggruppamento del set di dati che verranno visualizzati quando applichi questo segmento. Potresti ricevere un avviso che indica che questo segmento non contiene dati. In questo caso, puoi procedere o modificare la definizione del segmento. |
 
-Esempio di segmento che combina dimensioni e metriche:
 
-![](assets/quick-seg2.png)
+   * **Utilizzando l’icona del segmento:** In una tabella a forma libera, seleziona la **Segmento** nell’intestazione del pannello.
 
-Il segmento viene visualizzato nella parte superiore. Osserva la barra laterale a strisce blu, invece della barra laterale blu dei segmenti a livello di componente nella libreria dei segmenti a sinistra.
+      ![Filtro del segmento](assets/quick-seg1.png)
 
-![](assets/quick-seg5.png)
+1. Regola una delle seguenti impostazioni:
+
+   | Impostazione | Descrizione |
+   | --- | --- |
+   | [!UICONTROL Name] | Il nome predefinito di un segmento è una combinazione dei nomi delle regole nel segmento. Puoi rinominare il segmento in un nome più semplice. |
+   | [!UICONTROL Include/exclude] | Puoi includere o escludere componenti nella definizione del segmento, ma non entrambi. |
+   | Contenitore [!UICONTROL Hit/Visit/Visitor] | I segmenti rapidi comprendono un solo [contenitore di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) che consente di includere (o escludere) una dimensione, una metrica o un intervallo di date nel segmento. [!UICONTROL Visitor] contiene i dati generali specifici del visitatore per visite e visualizzazioni di pagina. A [!UICONTROL Visit] consente di impostare regole per suddividere i dati del visitatore in base alle visite e a [!UICONTROL Hit] Il contenitore ti consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni di pagina. Il valore predefinito è [!UICONTROL Hit]. |
+   | [!UICONTROL Components] (Dimension/metrica/intervallo di date) | Definisci fino a 3 regole aggiungendo componenti (dimensioni, metriche, intervalli di date o valori di dimensione). Ci sono 3 modi per trovare il componente giusto:<ul><li>Inizia a digitare e il generatore di segmenti rapidi trova automaticamente il componente appropriato.</li><li>Utilizza l’elenco a discesa per trovare il componente.</li><li>Trascina e rilascia i componenti dalla barra a sinistra.</li></ul> |
+   | [!UICONTROL Operator] | Utilizza il menu a discesa per trovare gli operatori standard e gli operatori [!UICONTROL Distinct Count]. Vedi [Operatori di segmenti](/help/components/segmentation/seg-reference/seg-operators.md). |
+   | Segno più (+) | Aggiunge un’altra regola, |
+   | Qualificatori AND/OR | Puoi aggiungere i qualificatori “AND” o “OR” alle regole, ma non puoi combinare “AND” e “OR” in una singola definizione di segmento. |
+   | [!UICONTROL Apply] | Applica questo segmento nel pannello . Se il segmento non contiene dati, viene richiesto se si desidera continuare. |
+   | [!UICONTROL Open builder] | Visualizza il Generatore di segmenti. Dopo aver salvato o applicato il segmento nel Generatore di segmenti, non viene più considerato un &quot;segmento rapido&quot;. Diventa parte della libreria di segmenti dell’elenco di componenti. <p>Per rendere il componente disponibile in tutti i progetti e nella barra a sinistra, seleziona l’opzione . [!UICONTROL **Rendi questo segmento disponibile per tutti i tuoi progetti e aggiungilo all’elenco dei componenti**].</p><p>Per ulteriori informazioni, consulta la sezione . [Salvare un segmento rapido come segmento dell’elenco di componenti](#save-a-quick-segment-as-a-component-list-segment) in questo articolo.</p><p>**Nota:** Solo gli utenti con l&#39;autorizzazione Creazione di segmenti nella sezione [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) può aprire il Generatore di segmenti.</p> |
+   | [!UICONTROL Cancel] | Annulla questo segmento rapido (non applicarlo). |
+   | [!UICONTROL Date range] | La convalida utilizza l’intervallo di date del pannello per la ricerca dei dati. Tuttavia, qualsiasi intervallo di date applicato a un segmento rapido sovrascrive l’intervallo di date del pannello nella sua parte superiore. |
+   | Anteprima (in alto a destra) | Ti consente di verificare se disponi di un segmento valido e la sua ampiezza. Rappresenta il raggruppamento del set di dati che verranno visualizzati quando applichi questo segmento. Potresti ricevere un avviso che indica che questo segmento non contiene dati. In questo caso, puoi procedere o modificare la definizione del segmento. |
+
+1. Seleziona [!UICONTROL **Applica**] per salvare le modifiche.
 
 ## Modificare segmenti rapidi
 
-1. Passa il puntatore sul segmento rapido e seleziona l’icona a forma di matita.
-1. Modifica la definizione e/o il nome del segmento.
-1. Fai clic su [!UICONTROL Apply].
+1. Passa il puntatore del mouse sul segmento rapido e seleziona la **Modifica** icona.
 
-## Salvare segmenti rapidi
+   ![Modifica filtro ad hoc](assets/filter-adhoc-edit.png)
+
+1. Modifica la definizione e/o il nome del segmento.
+
+1. Seleziona [!UICONTROL **Applica**].
+
+## Salvare un segmento rapido come segmento dell’elenco di componenti
 
 >[!IMPORTANT]
->Una volta salvato o applicato il segmento, non è più possibile modificarlo nel Generatore di segmenti rapidi ma solo nel Generatore di segmenti regolare. Solo gli amministratori di prodotto di Adobe Analytics e il creatore del segmento rapido possono salvare le modifiche apportate a un segmento rapido esistente.
+>
+> Quando salvi un segmento rapido, considera quanto segue:
+> 
+> * Per salvare un segmento rapido, è necessario disporre dell’autorizzazione Creazione di segmenti nella sezione [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools).
+> 
+> * Dopo aver salvato o applicato il segmento, non è più possibile modificarlo nel generatore di segmenti rapidi. Invece, devi utilizzare il Generatore di segmenti regolare.
 
-1. Dopo aver applicato il segmento rapido, posiziona il puntatore su di esso e seleziona l’icona Info (“i”).
 
-   ![](assets/quick-seg6.png)
+Puoi scegliere di salvare i segmenti rapidi come segmenti dell’elenco dei componenti. I vantaggi dei segmenti dell’elenco di componenti includono:
 
-1. Fai clic su **[!UICONTROL Make available to all projects and add to your component list]**.
+* Disponibilità in tutti i progetti Workspace
+* Supporta segmenti più complessi e segmenti sequenziali
+
+Puoi salvare i segmenti dal Generatore di segmenti rapidi o dal [!UICONTROL Filter Builder].
+
+### Salva nel generatore di segmenti rapidi {#save2}
+
+1. Dopo aver applicato il segmento rapido, posiziona il puntatore del mouse su di esso e seleziona l’icona info (&quot;i&quot;).
+1. Seleziona **[!UICONTROL Make available to all projects and add to your component list]** (Aggiungi gruppi di campi).
 1. (Facoltativo) Rinomina il segmento.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Seleziona **[!UICONTROL Save]** (Aggiungi gruppi di campi).
 
-La barra laterale del segmento cambia da blu a strisce a blu più chiaro. Ora viene visualizzato anche nell’elenco dei componenti della barra a sinistra.
+   Il segmento viene ora visualizzato nell’elenco dei componenti nella barra a sinistra. Inoltre, la barra laterale del segmento cambia da blu chiaro a blu scuro, il che indica che non può più essere modificata o aperta nel generatore di segmenti rapidi.
 
-## Cosa sono i segmenti solo progetto?
+### Salva nel Generatore di segmenti {#save3}
 
-I segmenti solo progetto sono segmenti che si applicano solo al progetto corrente in cui sono stati creati. Non saranno disponibili in altri progetti e non possono essere condivisi con altri utenti. Sono intesi per esplorare rapidamente i dati senza dover creare e salvare un segmento nella barra a sinistra. I segmenti solo progetto possono essere creati nella zona di rilascio del pannello con segmenti rapidi o [segmenti ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
+1. Dopo aver applicato il segmento rapido, posiziona il puntatore del mouse su di esso e seleziona l’icona info (&quot;i&quot;).
+1. Seleziona **[!UICONTROL Save segment]**
+1. (Facoltativo) Rinomina il segmento, quindi seleziona [!UICONTROL **Applica**].
 
-Se in viene aperto un segmento solo progetto [!UICONTROL Segment Builder], viene visualizzata una notifica solo del progetto. Se non selezioni &quot;Rendi disponibile questo segmento.&quot; e fai clic su **[!UICONTROL APPLY]**, il segmento rimane un segmento solo progetto. Nota: se applichi un segmento rapido dal Generatore di segmenti, non può più essere aperto nel [!UICONTROL Quick Segment Builder].
+   Torna a Workspace e osserva che la barra laterale del segmento cambia da blu chiaro a blu scuro, il che indica che non può più essere modificata o aperta nel generatore di segmenti rapidi. E salvandolo, diventa parte dell&#39;elenco dei componenti.
 
-![Casella Solo progetto deselezionata](assets/project-only-unchecked.png)
+Dopo aver applicato il segmento, puoi scegliere di aggiungerlo all’elenco dei componenti del segmento e renderlo disponibile per tutti i tuoi progetti.
 
-Se selezioni &quot;Rendi disponibile questo segmento.&quot; e fai clic su **[!UICONTROL SAVE]**, il segmento diventa disponibile nell’elenco dei componenti della barra a sinistra per l’utilizzo in altri progetti. Può anche essere condiviso con altri utenti dal Gestore segmenti.
+1. Passa il puntatore del mouse sul segmento salvato e seleziona l’icona a forma di matita .
 
-![Casella Solo progetto selezionata](assets/project-only-checked.png)
+1. Seleziona [!UICONTROL **Open builder**].
+
+1. Nella parte superiore del Generatore di segmenti, noterai l’ [!UICONTROL **Segmento solo progetto**] finestra di dialogo:
+
+   ![finestra di dialogo per segmenti solo progetto](assets/project-only-segment-dialog.png)
+
+1. Seleziona la casella di controllo accanto a **[!UICONTROL Make available to all your projects and add to your component list.]**
+
+1. Seleziona **[!UICONTROL Save]** (Aggiungi gruppi di campi).
+
+   Il segmento viene ora visualizzato nell’elenco dei componenti del segmento per tutti i progetti.
+È inoltre possibile [condividere il segmento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it#concept_4A9726927E7C44AFA260E2BB2721AFC6) con altre persone della tua organizzazione.
+
+## Esempio di segmento rapido
+
+L’esempio seguente di un segmento combina dimensioni e metriche:
+
+![](assets/quick-seg2.png)
 
 ## Problema noto
 
-1. Creare un segmento rapido con 2 voci e **[!UICONTROL Save]** come Test1.
-1. Clic **[!UICONTROL Save as]** e salva questo segmento rapido come Test2.
-1. Modificate il segmento rapido Test2 e salvatelo nuovamente come Test2.
+1. Crea un segmento rapido con 2 voci e **[!UICONTROL Save]** come Test1.
+1. Fai clic su **[!UICONTROL Save as]** e salva questo segmento rapido come Test2.
+1. Modifica il segmento rapido Test2 e salvalo nuovamente come Test2.
 Il segmento rapido Test1 viene modificato da Test2.

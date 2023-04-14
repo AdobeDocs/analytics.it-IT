@@ -4,10 +4,10 @@ title: Segmenti
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 90%
+source-wordcount: '489'
+ht-degree: 93%
 
 ---
 
@@ -19,11 +19,9 @@ In Workspace puoi creare diversi tipi di segmento, a seconda della complessità,
 | Tipo di segmento | Creato dove? | Applicabile dove? | Quando utilizzare |
 | --- | --- | --- | --- |
 | Segmento nell’elenco dei componenti | Fai clic su +, per passare al [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) | Tutti i progetti Workspace | Per segmenti più complessi, segmenti sequenziali |
-| Segmento rapido | [Generatore di segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [Solo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), ma può essere salvato e aggiunto all’elenco dei segmenti. | Flessibilità per aggiungere o modificare una o più regole |
-| Segmenti ad hoc: |  |  |  |
-| - Segmento di progetto Workspace ad hoc | [Trascinare nella zona di rilascio segmenti di un progetto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [Solo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), ma può essere salvato e aggiunto all’elenco dei segmenti. | Per segmenti a regola singola |
-| - Segmento basato su metriche calcolate | [Generatore di metrica calcolata](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=it) | Per singola metrica calcolata | Applicare segmenti nella definizione della metrica |
-| - Segmento basato su VRS | [Generatore suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) | Per singole suite di rapporti virtuali | Applicare segmenti nella definizione VRS |
+| Segmento rapido | [Generatore di segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo progetto, ma può essere salvato e aggiunto all’elenco dei segmenti. | Può essere utilizzato per segmenti ad hoc con regole singole (con trascinamento della selezione) o per aggiungere/modificare più regole (facendo clic sull’icona Segmento) |
+| Segmento basato su metriche calcolate | [Generatore di metrica calcolata](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=it) | Per singola metrica calcolata | Applicare segmenti nella definizione della metrica |
+| Segmento basato su VRS | [Generatore suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) | Per singole suite di rapporti virtuali | Applicare segmenti nella definizione VRS |
 
 ## Video
 
@@ -44,7 +42,6 @@ Intervalli di date continui nei segmenti:
 In Analysis Workspace puoi creare diversi tipi di segmenti:
 
 * [Segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
-* [Segmenti ad hoc](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
 * Segmenti regolari dell’elenco di componenti creati nel Generatore di segmenti e che vengono inseriti nella libreria di segmenti (vedi di seguito)
 
 ### Creare segmenti per l’elenco dei componenti {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
