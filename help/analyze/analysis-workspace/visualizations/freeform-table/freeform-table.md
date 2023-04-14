@@ -4,10 +4,10 @@ description: Le tabelle a forma libera sono alla base dell’analisi dei dati in
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8ca676a9e69195ef873981dd390bb0a6d4d465f1
+source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 69%
+source-wordcount: '607'
+ht-degree: 68%
 
 ---
 
@@ -15,11 +15,13 @@ ht-degree: 69%
 
 In Analysis Workspace, una tabella a forma libera è la base per l’analisi dei dati interattivi. Puoi trascinare una combinazione di [componenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=it) nelle righe e nelle colonne per creare una tabella personalizzata per l’analisi. Man mano che ciascun componente viene rilasciato, la tabella viene aggiornata immediatamente, in modo da poter analizzare e approfondire rapidamente.
 
-Per illustrare l’aspetto, inizia con una tabella a forma libera vuota.
+## Creare una tabella a forma libera semplice
+
+Inizia con una tabella a forma libera vuota.
 
 ![Tabella a forma libera vuota](assets/freeform-table-1.png)
 
-Se rilasci **[!UICONTROL ** Visite **]** metrica **[!UICONTROL ** Rilascia una metrica qui (o qualsiasi altro componente)**]**, la tabella a forma libera si popola automaticamente con le visite al giorno per il periodo selezionato.
+Se rilasci **[!UICONTROL ** Visite **]** metrica **[!UICONTROL ** Rilascia una metrica qui (o qualsiasi altro componente)**]**, la tabella a forma libera si popola automaticamente con le visite al giorno per il periodo di calendario selezionato.
 
 ![Visite alla tabella a forma libera](assets/freeform-table-2.png)
 
@@ -27,7 +29,7 @@ Se poi rilascia la **[!UICONTROL ** Pagina **]** per sostituire la **[!UICONTROL
 
 ![Visite per tabella a forma libera pagina](assets/freeform-table-3.png)
 
-E poi si può scomporre, per esempio, il **[!UICONTROL ** categoria:5 **]** rilasciando la pagina **[!UICONTROL ** Canale di marketing **]** della dimensione **[!UICONTROL ** categoria:5 **]** fila.
+È quindi possibile suddividere, ad esempio, il **[!UICONTROL ** categoria:5 **]** rilasciando la pagina **[!UICONTROL ** Canale di marketing **]** della dimensione **[!UICONTROL ** categoria:5 **]** fila.
 
 ![Suddivisione delle visite per tabella a forma libera pagina](assets/freeform-table-4.png)
 
