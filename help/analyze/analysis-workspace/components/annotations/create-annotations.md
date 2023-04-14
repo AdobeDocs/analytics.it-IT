@@ -4,14 +4,18 @@ description: Come creare annotazioni in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
+source-git-commit: 10fb26d425130fddf485b150f26f894b0b967735
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '578'
 ht-degree: 100%
 
 ---
 
 # Creare annotazioni
+
+Per impostazione predefinita, solo gli amministratori possono creare annotazioni. Gli utenti possono visualizzarle come avviene con altri componenti di Analytics (segmenti, metriche calcolate ecc.).
+
+Tuttavia, gli amministratori possono assegnare agli utenti l’autorizzazione [!UICONTROL Annotation Creation] (Analytics Tools) tramite [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=it).
 
 1. Per creare le annotazioni, è possibile iniziare in diversi modi:
 
