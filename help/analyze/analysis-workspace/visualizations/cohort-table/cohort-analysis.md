@@ -4,9 +4,9 @@ description: Approfondisci i dati relativi al pubblico e suddividili in gruppi c
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '458'
 ht-degree: 93%
 
 ---
@@ -23,7 +23,6 @@ Esempi di cosa è possibile fare con l’[!UICONTROL Cohort Analysis]:
 * Spostare il budget marketing nel momento giusto del ciclo di vita di un cliente.
 * Riconoscere quando interrompere una versione di prova o un’offerta in modo da massimizzare il valore.
 * Sviluppare idee per il test A/B in aree come prezzo, percorso di upgrade ecc.
-* Visualizzare un’[!UICONTROL Cohort Analysis] all’interno di un rapporto di analisi guidata.
 
 L’[!UICONTROL Cohort Analysis] è disponibile per tutti i clienti Adobe Analytics con diritti di accesso ad [!UICONTROL Analysis Workspace].
 
