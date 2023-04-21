@@ -3,16 +3,16 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
+source-git-commit: bdafc3218c29f72e97c3748967bd49bc7d0c0af8
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 98%
+source-wordcount: '1587'
+ht-degree: 96%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (aprile 2023)
 
-**Ultimo aggiornamento**: 12 aprile 2023
+**Ultimo aggiornamento**: 21 aprile 2023
 
 I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -20,6 +20,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Backfill per sandbox non di produzione** | Quando crei un flusso di dati del connettore di origine di Analytics in una sandbox non di produzione, il backfill nelle sandbox non di produzione sarà limitato a 3 mesi. Rimarrà a 13 mesi per le sandbox di produzione. | N/D | 26 aprile 2023 |
 | **Filtro riga/colonna per lo streaming del connettore di origine di Analytics** | Il connettore di origine di Analytics in Adobe Experience Platform ora consente di filtrare i dati di Analytics che vengono utilizzati per popolare i profili nel [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it). Il filtro a livello di riga consente di ridurre il numero di eventi associati ai profili. Il filtro a livello di colonna consente di ridurre la rilevanza degli eventi stessi, consentendoti in tal modo di ottimizzare l’utiizzo delle adesioni al profilo. Questo filtro si applica solo ai dati inviati al profilo cliente in tempo reale e al [servizio Identity](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it). **Il filtro non influisce sui dati inviati al Data Lake per l’utilizzo in applicazioni come Customer Journey Analytics**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it#filtering-for-profile) | N/D | 29 marzo 2023 |
 | **Supporto parziale per Activity Map con Web SDK** | A partire dalla versione 2.15.0 di Web SDK, i popolare i dati di Activity Map sono popolati quando è abilitato il tracciamento dei collegamenti. Questo consente agli utenti di Web SDK di ottenere la generazione di rapporti di Activity Map se il tracciamento dei collegamenti è abilitato con il Web SDK e Activity Map configurati in Analytics.<p>L’abilitazione del tracciamento dei collegamenti con Web SDK attualmente invia eventi di collegamento quando un cliente passa da una pagina all’altra. Questo è diverso dal funzionamento di AppMeasurement e può potenzialmente causare hit fatturabili aggiuntivi inviati ad Adobe. Ulteriori informazioni sono disponibili [qui](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=it) e [qui](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | N/D | 31 marzo 2023 |
 | **Offuscamento dell’IP per Experience Edge** | Experience Edge supporta l’offuscamento dell’IP per i dati inviati direttamente ad Adobe Experience Platform. Questo offre vantaggi ai clienti che inviano dati direttamente a Platform per l’utilizzo in CJA o in altre soluzioni Platform. L’offuscamento dell’IP è configurato a livello di flusso di dati. Supporta la rimozione dell’ultimo ottetto o dell’intero indirizzo IP.<p>**Nota**: l’offuscamento NON si applica ai dati inviati ad Adobe Analytics. Analytics continua a ricevere l’IP completo. L’elaborazione IP continua a essere eseguita in Analytics separatamente. In futuro, prevediamo di consentire l’offuscamento dei dati di Analytics su Edge. | N/D | Rilascio di AEP il 26 aprile 2023 |
