@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
 workflow-type: tm+mt
-source-wordcount: '2284'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -241,7 +241,7 @@ Crea la presentazione di dati aggiungendo più diapositive di dettaglio a una se
 
    Per aggiungere nuove diapositive, passa il cursore del mouse oppure fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
 
-   * Tocca [!UICONTROL +] per creare una nuova diapositiva.
+   * Tocca il segno [!UICONTROL +] per creare una nuova diapositiva.
 
    * Tocca l’icona Duplica per duplicare la diapositiva esistente.
 
@@ -263,7 +263,7 @@ Le presentazioni di dati sono interamente personalizzabili, per condividere le i
 
    ![Creare una presentazione di dati](assets/data-story3.png)
 
-   Quando trascini e rilascia un componente, ad esempio una visualizzazione, su una tessera, il componente viene applicato a tutte le diapositive della storia dei dati.
+   Quando trascini un componente, ad esempio una visualizzazione, su un riquadro, il componente viene applicato a tutte le diapositive della presentazione di dati.
 
 1. Per applicare una modifica solo al titolo, tieni premuto il tasto Maiusc per applicarla.
 
