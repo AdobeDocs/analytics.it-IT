@@ -14,7 +14,7 @@ ht-degree: 86%
 
 Per implementare Analytics per dispositivi mobili, consulta i seguenti repository e documenti SDK:
 
-## SDK per dispositivi mobili di Adobe Experience Platform
+## SDK di Adobe Experience Platform Mobile
 
 * [Repository SDK](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation)
 * [Documentazione](https://aep-sdks.gitbook.io/docs/)
