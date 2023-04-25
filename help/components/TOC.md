@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
+source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '697'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 95%
    + [Compatibilità delle dimensioni](dimensions/compatibility.md)
    + [Classificazione di tutte le pagine di ricerca](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
+   + [Nome bot](dimensions/bot-name.md)
    + [Altezza browser](dimensions/browser-height.md)
    + [Tipo di browser](dimensions/browser-type.md)
    + [Larghezza browser](dimensions/browser-width.md)
@@ -30,7 +31,7 @@ ht-degree: 95%
    + [Città](dimensions/cities.md)
    + [Profondità colore](dimensions/color-depth.md)
    + [Tipo di connessione](dimensions/connection-type.md)
-   + [Gestione del consenso opt-in](dimensions/cm-opt-in.md)
+   + [Consent Management](dimensions/cm-opt-in.md)
    + [Rinuncia alla gestione del consenso](dimensions/cm-opt-out.md)
    + [Supporto per cookie](dimensions/cookie-support.md)
    + [Paesi](dimensions/countries.md)
@@ -111,6 +112,8 @@ ht-degree: 95%
    + [Visualizzazioni di pagina medie per visita](metrics/average-page-views-per-visit.md)
    + [Lunghezza media della sessione](metrics/average-session-length.md)
    + [Tempo medio sul sito](metrics/average-time-on-site.md)
+   + [Occorrenze dei bot](metrics/bot-occurrences.md)
+   + [Visualizzazioni pagina in primo piano](metrics/bot-page-views.md)
    + [Percentuale non recapitate](metrics/bounce-rate.md)
    + [Rimbalzi](metrics/bounces.md)
    + [Aggiunte al carrello](metrics/cart-additions.md)
@@ -232,12 +235,12 @@ ht-degree: 95%
    + [Avvisi intelligenti: casi di utilizzo](c-alerts/alerts-use-cases.md)
 + Classificazioni {#classifications}
    + [Panoramica delle classificazioni](classifications/c-classifications.md)
-   + Set di classificazione {#sets}
+   + Set di classificazioni {#sets}
       + [Panoramica sui set di classificazione](classifications/sets/overview.md)
-      + [Gestione set di classificazione](classifications/sets/set-manager.md)
+      + [Gestione set di classificazioni](classifications/sets/set-manager.md)
       + [Gestione processi set di classificazione](classifications/sets/job-manager.md)
       + [Creare un set di classificazione](classifications/sets/create.md)
-      + [Impostazioni set di classificazione](classifications/sets/settings.md)
+      + [Impostazioni set di classificazioni](classifications/sets/settings.md)
    + Generatore regole di classificazione {#classifications-rulebuilder}
       + [Flusso di lavoro di Generatore regole di classificazione](classifications/crb/classification-rule-builder.md)
       + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)
