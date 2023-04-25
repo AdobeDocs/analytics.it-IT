@@ -4,9 +4,9 @@ keywords: evento
 title: Panoramica degli eventi di successo
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '690'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ Accedi alla pagina degli eventi di successo nelle impostazioni della suite di ra
 2. Fai clic sul pulsante della griglia a 9 celle in alto, quindi fai clic su [!UICONTROL Analytics].
 3. Passa a [!UICONTROL Admin] > [!UICONTROL Report Suites]
 4. Seleziona la suite di rapporti desiderata, quindi passa a [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Success Events].
-5. Individua l’evento desiderato e modifica l’elenco a discesa [!UICONTROL Unique Event Recording] in [!UICONTROL Record Once Per Visit] o [!UICONTROL Use Event ID].
 
 Ci sono molti tipi di eventi di successo, a seconda del tipo di sito web. Alcuni esempi:
 

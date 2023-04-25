@@ -4,16 +4,16 @@ title: Panoramica dei pannelli
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 6057262f95586c7ac63fc98d7c47c9867945f329
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 88%
+source-wordcount: '1404'
+ht-degree: 52%
 
 ---
 
 # Panoramica dei pannelli
 
-Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o da un [pannello vuoto](blank-panel.md). I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, suite di rapporti o casi di utilizzo di analisi.
+Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o in un [pannello vuoto](blank-panel.md). I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, suite di rapporti o casi di utilizzo di analisi.
 
 ## Tipi di pannello
 
@@ -64,7 +64,7 @@ La zona di rilascio del pannello consente di applicare filtri a segmenti e filtr
 
 Per iniziare a filtrare il pannello., trascina un segmento dalla barra a sinistra fino alla zona di rilascio del pannello.
 
-![](/help/admin/admin/assets/filter.png)
+![Filtro](/help/admin/admin/assets/filter.png)
 
 ### Filtri di segmenti ad hoc
 
@@ -74,36 +74,60 @@ I segmenti ad hoc sono un tipo di segmento rapido e sono locali per il progetto.
 
 Per ulteriori informazioni, consulta [Segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
-### Filtri a discesa {#dropdown-filter}
+### Filtri a discesa statici
 
-Oltre ai filtri dei segmenti, i filtri a discesa consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un filtro a discesa per i tipi di dispositivi mobili, in modo da segmentare il pannello per Tablet, Telefono o Desktop.
+I filtri a discesa consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un filtro a discesa per i tipi di dispositivi mobili, in modo da segmentare il pannello per Tablet, Telefono o Desktop.
 
 I filtri a discesa possono essere utilizzati per consolidare più progetti in un progetto unico. Ad esempio, se hai creato più versioni dello stesso progetto, assegnando a ciascuna un segmento Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un filtro a discesa Paese.
 
 ![](assets/dropdown-filter-intro.png)
 
-Per creare un filtro a discesa:
+Per creare un filtro a discesa statico:
 
-1. Per creare un filtro a discesa utilizzando [!UICONTROL Dimension items], ad esempio valori della dimensione [!UICONTROL Marketing Channel], fai clic sull’icona a forma di freccia verso destra accanto alla dimensione nella barra a sinistra. Verranno esposti tutti gli elementi disponibili. Seleziona uno o più elementi componenti nella barra a sinistra, **tieni premuto il tasto Maiusc** e trascinali nella zona di rilascio del pannello. I componenti diventano un elenco a discesa, anziché un segmento.
-1. Per creare un filtro a discesa utilizzando un altro componente, ad esempio metriche, segmenti o intervalli di date, selezionalo da un tipo di componente nella barra a sinistra, **tieni premuto il tasto Maiusc** e rilascialo nella zona di rilascio del pannello.
-1. Per cambiare i dati visualizzati nel pannello, seleziona una delle opzioni dal menu a discesa. Puoi anche scegliere di non filtrare nessuno dei dati del pannello, selezionando **[!UICONTROL No filter]**.
+* Per i filtri a discesa che utilizzano elementi dimensionali, fai clic sull’icona della freccia destra accanto alla dimensione desiderata nella barra a sinistra. Questa azione espone tutti gli elementi dimensionali disponibili. Seleziona più elementi dimensionali da questo elenco utilizzando `[Shift + Click]` o `[Ctrl + Click]`, quindi rilasciali nella zona di rilascio del pannello **in attesa`[Shift]`**.
+* Per i filtri a discesa che utilizzano altri componenti come metriche, segmenti o intervalli di date, seleziona più componenti utilizzando `[Shift + Click]` o `[Ctrl + Click]`. Rilascia la selezione nella zona di rilascio del pannello **in attesa`[Shift]`**. Tutti i tipi di componenti vengono trattati come segmenti in questo contesto.
+* Un singolo filtro a discesa può contenere un solo tipo di componente. Se nella selezione sono inclusi più tipi di componenti, viene creato un filtro a discesa separato per tipo di componente. Ad esempio, se nella selezione includi sia metriche che elementi dimensionali, vengono creati due filtri a discesa separati. Un filtro a discesa include elementi dimensionali e l’altro metriche.
+
+Seleziona una delle opzioni dall’elenco a discesa per modificare i dati nel pannello. Puoi anche scegliere di non filtrare nessuno nei dati del pannello selezionando **[!UICONTROL No filter]**.
 
 ![](assets/create-dropdown.png)
 
+Il clic con il pulsante destro del mouse su un filtro a discesa fornisce le seguenti opzioni:
+
+* **[!UICONTROL Add label]**: Quando aggiungi un filtro a discesa a un progetto, un’etichetta viene impostata automaticamente sul nome del componente. Se elimini l’etichetta, puoi aggiungerla nuovamente con questa opzione.
+* **[!UICONTROL Delete label]**: Rimuovi il testo sopra un filtro a discesa.
+* **[!UICONTROL Delete drop-down filter]**: Rimuove il filtro a discesa dal pannello.
+
 Per ulteriori informazioni su come aggiungere filtri a discesa a un progetto, [guarda questo video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=it).
+
+### Filtri a discesa dinamici
+
+I filtri a discesa dinamici ti consentono di determinare i valori disponibili in base ai dati nell’intervallo di reporting del pannello e ai valori di altri filtri a discesa. Ad esempio, puoi creare due menu a discesa dinamici utilizzando [Paesi](/help/components/dimensions/countries.md) dimensione e [Città](/help/components/dimensions/cities.md) dimensione. Quando selezioni un paese dal [!UICONTROL Countries] elenco a discesa, [!UICONTROL Cities] L’elenco a discesa si regola dinamicamente per mostrare solo le città all’interno di quel paese.
+
+Lo stesso concetto si applica a tutte le dimensioni; sono visibili solo gli elementi dimensionali visualizzati nell’intervallo di date del pannello e i filtri selezionati. Gli elementi di Dimension selezionati nei filtri a discesa statici influiscono sui valori disponibili nei filtri a discesa dinamici. Tuttavia, l&#39;inverso non è vero; Gli elementi di Dimension selezionati nei filtri a discesa dinamici non influiscono sui valori disponibili nei filtri a discesa statici.
+
+La selezione manuale degli elementi dimensionali è disponibile se si anticipa un certo elemento dimensionale da raccogliere in futuro. È inoltre possibile cancellare un filtro a discesa dinamico in modo che non contenga un valore, consentendo ad altri filtri a discesa dinamici di contenere più valori. Seleziona **[!UICONTROL Clear All]** per cancellare la selezione da tutti i filtri a discesa per quel pannello.
+
+Per creare un filtro a discesa dinamico:
+
+* Trascina una singola dimensione nella zona di rilascio del pannello **in attesa`[Shift]`**.
+* I filtri a discesa dinamici non sono disponibili per metriche, segmenti o intervalli di date.
+* Fai clic con il pulsante destro del mouse su un filtro a discesa e seleziona **[!UICONTROL Delete filter]** per eliminarlo.
+
+Facendo clic con il pulsante destro del mouse su un filtro a discesa dinamico, sono disponibili le stesse opzioni dei filtri a discesa statici.
 
 ## Menu di scelta rapida {#right-click}
 
 Ulteriori funzionalità per un pannello sono disponibili nel menu di scelta rapida che compare quando fai clic con il pulsante destro del mouse sull’intestazione del pannello.
 
-![](assets/right-click-menu.png)
+![Menu di scelta rapida](assets/right-click-menu.png)
 
 Sono disponibili le seguenti impostazioni:
 
 | Impostazione | Descrizione |
 | --- | --- |
-| Inserisci visualizzazione/pannello copiato | Consente di incollare (inserire) l’elemento copiato altrove nello stesso progetto o in un altro progetto. |
-| Copia pannello | Consente di fare clic con il pulsante destro del mouse e copiare un pannello, in modo da poterlo inserire altrove nello stesso progetto o in un altro progetto. |
+| Inserisci visualizzazione/pannello copiato | Consente di incollare (&quot;inserire&quot;) un pannello o una visualizzazione copiati in un’altra posizione all’interno del progetto o in un progetto diverso. |
+| Copia pannello | Consente di fare clic con il pulsante destro del mouse e copiare un pannello in modo da poterlo inserire in un’altra posizione all’interno del progetto o in un progetto diverso. |
 | Applica suite di rapporti a tutti i pannelli | Consente di applicare la suite di rapporti del pannello attivo a tutti i pannelli del progetto. |
 | Duplica pannello | Crea una copia del pannello corrente, che potrai quindi modificare. |
 | Comprimi/Espandi tutti i pannelli | Comprime ed espande tutti i pannelli del progetto. |

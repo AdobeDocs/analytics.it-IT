@@ -1,9 +1,10 @@
 ---
 title: Guida introduttiva alle origini dati
 description: Carica dati di esempio in una suite di rapporti per lo sviluppo.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -18,15 +19,15 @@ Puoi seguire questi passaggi per caricare facilmente dati di esempio in una suit
 
 1. Accedi ad Adobe Analytics tramite [https://experience.adobe.com](https://experience.adobe.com).
 1. Passa a **[!UICONTROL Admin]** > **[!UICONTROL All Admin]** > **[!UICONTROL Data sources]**.
-1. Seleziona una suite di rapporti per lo sviluppo utilizzando il menu a discesa in alto a destra.
+1. Seleziona una suite di rapporti per lo sviluppo utilizzando l’elenco a discesa in alto a destra.
 1. Fai clic sul pulsante **[!UICONTROL Create]** in alto a sinistra.
 1. Sotto [!UICONTROL Select Category], scegli &quot;[!UICONTROL Generic]&quot;, e [!UICONTROL Select Type], scegli &quot;[!UICONTROL Generic Data Source (Summary Data Only)]&quot;.
 1. Fai clic su **[!UICONTROL Activate]**. Viene visualizzata una finestra a comparsa che mostra il [!UICONTROL Data Source Activation Wizard].
    1. Passaggio 1: Assegna un nome all&#39;origine dati e fai clic sulla casella di controllo liberatoria.
    1. Passaggio 2: Questo passaggio è stato più utilizzato nelle versioni precedenti di Adobe Analytics. Fare clic su una casella di controllo, quindi digitare un valore nel campo di testo accanto a essa.
-   1. Passaggio 3: Scegli la metrica da includere nel file modello di origine dati. Seleziona &quot;Evento 1&quot; dal menu a discesa.
+   1. Passaggio 3: Scegli la metrica da includere nel file modello di origine dati. Selezionare &quot;Evento 1&quot; dall&#39;elenco a discesa.
    1. Passaggio 4: Questo passaggio è stato più utilizzato nelle versioni precedenti di Adobe Analytics. Fare clic su una casella di controllo, quindi digitare un valore nel campo di testo accanto a essa.
-   1. Passaggio 5: Scegli la dimensione da includere nel file modello di origine dati. Seleziona &quot;eVar1&quot; dal menu a discesa.
+   1. Passaggio 5: Scegli la dimensione da includere nel file modello di origine dati. Seleziona &quot;eVar1&quot; dall’elenco a discesa.
    1. Passaggio 6: Rivedi il riepilogo, mostrando le dimensioni e le metriche incluse nel file modello.
    1. Passaggio 7: Fai clic sul pulsante **[!UICONTROL Download]** per scaricare il file modello origini dati. Prendi anche nota delle credenziali di accesso al sito FTP, in quanto verranno utilizzate a breve.
 1. L&#39;origine dati viene ora creata; il passaggio successivo consiste nel fornirle i dati da elaborare. Apri il file scaricato nell’editor di testo desiderato.
@@ -34,8 +35,8 @@ Puoi seguire questi passaggi per caricare facilmente dati di esempio in una suit
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 2)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
+   #    eVar1    event1
+   Date    Evar 1    Event 1
    ```
 
 1. Immetti in diverse righe di dati, separando ogni voce da una scheda. Non utilizzare spazi o virgole per separare i valori.
@@ -45,10 +46,10 @@ Puoi seguire questi passaggi per caricare facilmente dati di esempio in una suit
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 5)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
-   09/07/YYYY/11/23/00	Data source example value	3
-   09/07/YYYY/15/59/00	Another data source value	18
+   #    eVar1    event1
+   Date    Evar 1    Event 1
+   09/07/YYYY/11/23/00    Data source example value    3
+   09/07/YYYY/15/59/00    Another data source value    18
    ```
 
 1. Salvate il file. Se lo desideri, puoi assegnare un nome file diverso. Una volta salvato il file, puoi chiudere l’editor di testo.

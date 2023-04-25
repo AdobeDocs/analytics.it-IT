@@ -3,10 +3,10 @@ title: Domande frequenti sulla migrazione ad Adobe Analytics
 description: Risposte alle domande frequenti riguardanti il passaggio da una piattaforma di terze parti ad Adobe.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 95%
+source-wordcount: '393'
+ht-degree: 74%
 
 ---
 
@@ -20,14 +20,14 @@ Se la tua organizzazione desidera che i dati storici vengano trasferiti ad Adobe
 
 Per trasferire i dati storici consigliamo di utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it) che può acquisire qualsiasi origine dati omni-channel.
 
-**Ho l’abitudine di usare in molti rapporti un elenco a discesa di segmentazione. Come è possibile ricrearlo in [!UICONTROL Analysis Workspace]?**
+**Sono abituato a un elenco a discesa di segmentazione in molti dei miei rapporti. Come è possibile ricrearlo in [!UICONTROL Analysis Workspace]?**
 
-I filtri a discesa sono una funzione flessibile e affidabile in [!UICONTROL Analysis Workspace] che consente di visualizzare un elenco a discesa di segmentazione. In un progetto Workspace:
+I filtri a discesa sono una funzione flessibile e affidabile in [!UICONTROL Analysis Workspace] che consente un elenco a discesa di segmentazione. In un progetto Workspace:
 
-1. Usa i comandi Ctrl-clic (Windows) o Cmd-clic (Mac) sui componenti che desideri includere nell’elenco a discesa. Oltre ai segmenti, puoi includere qualsiasi componente nei filtri a discesa.
+1. Usa Ctrl+clic (Windows) o Comando+clic (Mac) sui componenti che desideri includere nel filtro a discesa. Non sei limitato a soli segmenti; qualsiasi componente può essere incluso in un filtro a discesa.
 2. Trascina il gruppo di componenti nella sezione di Workspace con l’etichetta “Drop a segment here” (Rilascia un segmento qui). Prima di rilasciare, tieni premuto Maiusc.
 
-Gli utenti che accedono a questo progetto [!UICONTROL Workspace] ora possono utilizzare l’elenco a discesa per applicare al progetto segmenti o altri componenti. Per ulteriori informazioni, consulta la [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md) nella guida Strumenti di Adobe Analytics.
+Utenti che accedono a questo [!UICONTROL Workspace] ora puoi utilizzare questo filtro a discesa per applicare segmenti o altri componenti al progetto. Per ulteriori informazioni, consulta la [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md) nella guida Strumenti di Adobe Analytics.
 
 **Ho l’abitudine di fare clic su un elemento di dimensione per visualizzare un approfondimento. Come posso replicare questo semplice flusso di lavoro in Analysis Workspace?**
 

@@ -4,10 +4,10 @@ title: Guida alle dashboard di Adobe Analytics per utenti direzionali
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

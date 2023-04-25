@@ -5,10 +5,10 @@ title: Scopri le novità di Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f83ab75e9a3cce2dd3dc13d88be97cf97df3dc65
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '8165'
-ht-degree: 99%
+source-wordcount: '8155'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Nuove funzioni rilasciate il 18 giugno 2020.
 | Attribution IQ: attribuzione algoritmica | Il modello di attribuzione algoritmica di Analysis Workspace utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. Disponibile per i clienti Adobe Analytics Ultimate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=it) |
 | Attribution IQ: finestre di lookback personalizzate | Ora puoi configurare qualsiasi modello di attribuzione in Attribution IQ in modo da includere punti di contatto risalenti a un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione dell’attribuzione per gli eventi che si verificano all’inizio del periodo di reporting tenendo conto delle interazioni avvenute nei mesi precedenti. Disponibile per i clienti Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=it#lookback-windows) |
 | Ruoli di progetto per progetti Workspace condivisi | Ora quando condividi un progetto Workspace puoi assegnare ai destinatari uno dei tre ruoli di progetto, a seconda di come desideri che interagiscano con il progetto: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) |
-| Progetti Workspace solo visualizzazione | I progetti Workspace possono essere condivisi con gli utenti con la sola modalità di accesso &quot;Può visualizzare&quot;. Quando un destinatario con ruolo Visualizza apre il progetto condiviso, lo vedrà con alcune restrizioni, senza barra a sinistra e con interazioni limitate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=it) |
+| Progetti Workspace solo visualizzazione | I progetti Workspace possono essere condivisi con gli utenti solo come &quot;Può visualizzare&quot;. Quando un destinatario con ruolo Visualizza apre il progetto condiviso, lo vedrà con alcune restrizioni, senza barra a sinistra e con interazioni limitate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=it) |
 | Possibilità di collaborare alla modifica dei progetti Workspace | I destinatari aggiunti al ruolo “Può modificare” possono salvare in sovrascrittura un progetto condiviso con loro. Questo vale sia per gli amministratori che per i non amministratori. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) |
 | Aggiornamento del pannello vuoto | Il pannello vuoto ora include pannelli e visualizzazioni, garantendo così una maggiore facilità nella scelta del flusso di lavoro di analisi più adatto alle tue esigenze. |
 | Pannello Quick Insights (25 giugno 2020) | Quick Insights fornisce indicazioni ai non analisti e ai nuovi utenti di Analysis Workspace per scoprire come rispondere alle domande aziendali in modo rapido e semplice. [Ulteriori informazioni...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
@@ -134,7 +134,7 @@ Miglioramenti rilasciati il 10 ottobre 2019.
 | Miglioramento | Descrizione |
 |--- |--- |
 | Aggiornamento dei totali delle tabelle a forma libera | Le tabelle a forma libera ora includono due totali, **[!UICONTROL Table total]** e **[!UICONTROL Grand total]**. Il conteggio delle righe totali della tabella tiene ora conto i [filtri dei report](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=it) applicati. Precedentemente, solo la segmentazione interessava i totali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=it)<br/>Inoltre, sono state aggiunte le opzioni **[!UICONTROL Show Totals]** e **[!UICONTROL Show Grand Total]** a **[!UICONTROL Column Settings]**.<br/>Con questa modifica ai totali delle tabelle a forma libera verranno aggiornate le visualizzazioni dipendenti (ad esempio le visualizzazioni **[!UICONTROL Summary Number]** Numero di riepilogo collegate), nonché i dati CSV e PDF esportati. |
-| Opzione per rimuovere Non specificato/Nessuno | La possibilità di rimuovere facilmente &quot;Non specificato (Nessuno)&quot; è stata aggiunta come opzione dei filtri per i rapporti. |
+| Opzione per rimuovere Non specificato/Nessuno | È stata aggiunta la possibilità di rimuovere facilmente &quot;Non specificato (Nessuno)&quot; come opzione per segnalare i filtri. |
 | deprecazione dei componenti di granularità viola | I componenti tempo per granularità di colore viola (Minuto, Ora, Giorno, Settimana, Mese, Trimestre, Anno) sono stati resi obsoleti. I componenti tempo viola si sono sempre comportati esattamente come le loro controparti di colore arancione relativi alle dimensioni, pertanto questa modifica semplificherà l’esperienza. **Non è necessario eseguire alcuna azione** se in precedenza è stato utilizzato uno dei componenti tempo viola.<br/>Con questa modifica, anche la sezione viola **[!UICONTROL Time]** è stata rinominata in **[!UICONTROL Date Ranges]**. |
 
 ## Agosto 2019
@@ -143,7 +143,7 @@ Miglioramento rilasciato l&#39;8 agosto 2019.
 
 | Miglioramento | Descrizione |
 |--- |--- |
-| Limite di elementi per filtro a discesa aumentato da 50 a 200 | Il limite di elementi che possono essere inseriti in un filtro a discesa è stato aumentato da 50 a 200. Questo miglioramento è utile per una serie di casi d’uso, ad esempio per poter aggiungere a un filtro tutti i paesi (195), oppure tutti gli stati e le province degli Stati Uniti (52). |
+| Limite di elementi per i filtri a discesa statici aumentato da 50 a 200 | Il limite di elementi che possono essere inseriti in un filtro a discesa statico viene aumentato da 50 a 200. Questo miglioramento è utile per una serie di casi d’uso, ad esempio per poter aggiungere a un filtro tutti i paesi (195), oppure tutti gli stati e le province degli Stati Uniti (52). |
 
 ## Luglio 2019
 
@@ -202,29 +202,10 @@ Nuove funzionalità e miglioramenti rilasciati il 1° novembre 2018.
 
 Nuove funzionalità e ottimizzazioni rilasciate l’11 ottobre 2018.
 
-<table id="table_3DDC812B2F66416F868004416D248BF3">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Funzione </th>
-   <th colname="col2" class="entry"> Descrizione </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p><b>Gestione degli elenchi a discesa dei pannelli</b> </p> </td>
-   <td colname="col2"> <p>Sono state apportate alcune modifiche alla gestione degli elenchi a discesa dei pannelli, introdotti con la versione di settembre. Quando si fa clic con il pulsante destro del mouse nell’elenco a discesa, ora è possibile: </p>
-    <ul id="ul_4BDEC66EEB2243628FE32B43E377E5BD">
-     <li id="li_EF8277BE972540D3B2604D82BC7C0918">Eliminare un elenco a discesa (questa opzione è sempre presente) </li>
-     <li id="li_6A991208F2744274817DBE1E9D1B443F">Eliminare un’etichetta (se era visualizzata) </li>
-     <li id="li_5C1CFC465C2E41D2B35E8841EFDC82AA">Aggiungere un’etichetta (se non era visualizzata) </li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p><b>Collegamenti nelle descrizioni a comparsa per pannelli e visualizzazioni</b> </p> </td>
-   <td colname="col2"> <p>Nelle descrizioni a comparsa per pannelli e visualizzazioni sono stati aggiunti dei collegamenti per accedere a documentazione e video pertinenti. </p> </td>
-  </tr>
- </tbody>
-</table>
+| Funzione | Descrizione |
+| --- | --- |
+| Gestione a discesa dei pannelli | Sono state apportate alcune modifiche alla gestione dei menu a discesa dei pannelli. Quando fai clic con il pulsante destro del mouse su un elenco a discesa, ora puoi eliminare il menu a discesa, eliminare un’etichetta (se è visualizzata) o aggiungere un’etichetta (se non è visualizzata). |
+| Collegamenti nelle descrizioni a comparsa per pannelli e visualizzazioni | Vengono aggiunti collegamenti a video e documentazione pertinenti per visualizzare descrizioni a comparsa per pannelli e visualizzazioni. |
 
 ## Settembre 2018
 
@@ -239,7 +220,7 @@ Nuove funzionalità e ottimizzazioni rilasciate il 13 settembre 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b>Elenco a discesa nei pannelli</b> </p> </td>
+   <td colname="col1"> <p><b>Menu a discesa dei pannelli</b> </p> </td>
    <td colname="col2"> <p>La zona di rilascio dei pannelli ora dispone di funzionalità di elenco a discesa. Gli elenchi a discesa consentono agli utenti finali di interagire con i dati di un progetto in modo controllato. Esempio: se hai diverse versioni di un progetto per ottenere rapporti specifici per diversi paesi, ora puoi comprimerle in un singolo progetto e aggiungere un elenco a discesa Paese. </p> </td>
   </tr>
   <tr>

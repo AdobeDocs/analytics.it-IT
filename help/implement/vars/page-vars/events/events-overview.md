@@ -3,10 +3,10 @@ title: events
 description: Imposta la variabile degli eventi, che regola la maggior parte delle metriche sul sito.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 8%
+source-wordcount: '801'
+ht-degree: 7%
 
 ---
 
@@ -45,14 +45,14 @@ Puoi impostare gli eventi sia durante la configurazione dell’estensione Analyt
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+5. Imposta la [!UICONTROL Extension] elenco a discesa in Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL Events].
 
 Sono disponibili diverse funzioni:
 
-* Un menu a discesa consente di selezionare l’evento da includere
+* Elenco a discesa che consente di selezionare l’evento da includere
 * Campo di testo facoltativo per la serializzazione. Vedi [serializzazione degli eventi](event-serialization.md) per ulteriori informazioni.
-* Campo di testo facoltativo per un valore evento. È possibile includere la valuta per gli eventi di valuta o un numero intero per gli eventi non di valuta per incrementarla più volte. Ad esempio, selezionando `event1` nel menu a discesa e include `10` in questo campo incrementali `event1` entro 10 nei rapporti.
+* Campo di testo facoltativo per un valore evento. È possibile includere la valuta per gli eventi di valuta o un numero intero per gli eventi non di valuta per incrementarla più volte. Ad esempio, selezionando `event1` nell’elenco a discesa e include `10` in questo campo incrementali `event1` entro 10 nei rapporti.
 * Un pulsante per aggiungere un altro evento. Puoi aggiungere tutti gli eventi desiderati a una singola regola per un motivo.
 
 ## s.events in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics

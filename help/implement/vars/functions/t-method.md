@@ -1,18 +1,18 @@
 ---
 title: t
-description: Invia ad Adobe una chiamata di tracciamento per la visualizzazione della pagina.
+description: Invia ad Adobe una chiamata di tracciamento della visualizzazione della pagina.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '442'
 ht-degree: 15%
 
 ---
 
 # t()
 
-Il `t()` Il metodo è un componente core importante per Adobe Analytics. Prende tutte le variabili di Analytics definite sulla pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe.
+La `t()` è un componente di base importante per Adobe Analytics. Prende tutte le variabili Analytics definite nella pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe.
 
 Ad esempio, considera il seguente codice JavaScript:
 
@@ -28,27 +28,27 @@ s.eVar1 = "Example dimension item";
 s.t();
 ```
 
-Esecuzione di `t()` Il metodo accetta tutte le variabili di Analytics definite e formula un URL basato su tali variabili. Alcune variabili di Analytics determinano l’URL dell’immagine, mentre altre variabili determinano i valori dei parametri della stringa di query.
+Esecuzione del `t()` prende tutte le variabili di Analytics definite e formula un URL basato su tali variabili. Alcune variabili di Analytics determinano l’URL dell’immagine, mentre altre variabili determinano i valori dei parametri della stringa di query.
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 ```
 
-L’Adobe riceve la richiesta di immagine, quindi analizza l’intestazione della richiesta, l’URL e i parametri della stringa di query. I server di raccolta dati restituiscono quindi un’immagine trasparente 1x1 pixel, visualizzata in modo invisibile sul sito.
+Adobe riceve la richiesta di immagine, quindi analizza l’intestazione della richiesta, l’URL e i parametri della stringa di query. I server di raccolta dati restituiscono quindi un’immagine trasparente da 1 pixel x 1, visualizzata in modo invisibile sul sito.
 
-## Inviare eventi tramite l’estensione Web SDK
+## Invia un evento utilizzando l&#39;estensione SDK per web
 
-Utilizza un’azione per configurare l’invio di dati evento XDM all’Adobe. Lo stream di dati riceve tali dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics, se si tratta di un servizio aggiunto a tale stream di dati.
+Utilizza un’azione per configurare l’invio ad Adobe di dati evento XDM. Il Datastream riceve questi dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics se si tratta di un servizio aggiunto a tale Datastream.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
-1. Sotto [!UICONTROL Actions], fai clic sull’Azione desiderata o fai clic su **&#39;+&#39;** per aggiungere un&#39;azione.
-1. Imposta il [!UICONTROL Extension] menu a discesa per **[!UICONTROL Adobe Experience Platform Web SDK]** e [!UICONTROL Action Type] a **[!UICONTROL Send event]**.
+1. Sotto [!UICONTROL Actions], fai clic sull’azione desiderata o sul pulsante **&#39;+&#39;** per aggiungere un’azione.
+1. Imposta la [!UICONTROL Extension] elenco a discesa in **[!UICONTROL Adobe Experience Platform Web SDK]** e [!UICONTROL Action Type] a **[!UICONTROL Send event]**.
 
-## Inviare eventi manualmente implementando Web SDK
+## Invia l&#39;evento manualmente implementazione dell&#39;SDK per web
 
-Utilizza il `sendEvent` comando per inviare dati ad Adobe. Lo stream di dati riceve tali dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics, se si tratta di un servizio aggiunto a tale stream di dati.
+Utilizza la `sendEvent` per inviare dati ad Adobe. Il Datastream riceve questi dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics se si tratta di un servizio aggiunto a tale Datastream.
 
 ```js
 alloy("sendEvent", {
@@ -56,20 +56,20 @@ alloy("sendEvent", {
 });
 ```
 
-Consulta [Tracciare gli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
+Vedi [Tracciare gli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) per ulteriori informazioni, consulta la documentazione SDK per web .
 
-## Chiamata di tracciamento per la visualizzazione pagina tramite l’estensione Adobe Analytics
+## Chiamata di tracciamento della visualizzazione pagina tramite l’estensione Adobe Analytics
 
-L’estensione Adobe Analytics in Adobe Experience Platform Data Collection dispone di una posizione dedicata per impostare una chiamata di tracciamento per la visualizzazione della pagina.
+L’estensione Adobe Analytics in Adobe Experience Platform Data Collection ha una posizione dedicata impostata come chiamata di tracciamento della visualizzazione della pagina.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
-1. Sotto [!UICONTROL Actions], fai clic sull’azione desiderata o fai clic su **&#39;+&#39;** per aggiungere un&#39;azione.
-1. Imposta il [!UICONTROL Extension] menu a discesa per **[!UICONTROL Adobe Analytics]** e [!UICONTROL Action Type] a **[!UICONTROL Send Beacon]**.
-1. Fai clic su `s.t()` pulsante di opzione.
+1. Sotto [!UICONTROL Actions], fai clic sull’azione desiderata o fai clic sul pulsante **&#39;+&#39;** per aggiungere un’azione.
+1. Imposta la [!UICONTROL Extension] elenco a discesa in **[!UICONTROL Adobe Analytics]** e [!UICONTROL Action Type] a **[!UICONTROL Send Beacon]**.
+1. Fai clic sul pulsante `s.t()` pulsante di scelta.
 
-## Metodo s.t() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
+## s.t() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
 Chiama il `s.t()` quando desideri inviare una chiamata di tracciamento ad Adobe.
 
@@ -77,7 +77,7 @@ Chiama il `s.t()` quando desideri inviare una chiamata di tracciamento ad Adobe.
 s.t();
 ```
 
-Facoltativamente, è possibile utilizzare un oggetto come argomento per sostituire i valori delle variabili. Consulta [sostituzioni variabili](../../js/overrides.md) per ulteriori informazioni.
+Facoltativamente, è possibile utilizzare un oggetto come argomento per sostituire i valori delle variabili. Vedi [sostituzioni delle variabili](../../js/overrides.md) per ulteriori informazioni.
 
 ```js
 var y = new Object();
@@ -87,4 +87,4 @@ s.t(y);
 
 >[!NOTE]
 >
->Le versioni precedenti di AppMeasurement utilizzavano diverse righe di codice per chiamare questa funzione. Il codice aggiuntivo storicamente adattato soluzioni alternative per diversi browser. La standardizzazione e le best practice nei browser moderni non richiedono più questo blocco di codice. Solo la chiamata al metodo `s.t()` è necessario ora.
+>Le versioni precedenti di AppMeasurement utilizzavano diverse righe di codice per chiamare questa funzione. Il codice aggiuntivo sistemato storicamente soluzioni alternative per diversi browser. La standardizzazione e le best practice nei browser moderni non richiedono più questo blocco di codice. Solo la chiamata del metodo `s.t()` È necessario ora.

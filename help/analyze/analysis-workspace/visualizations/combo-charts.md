@@ -4,10 +4,10 @@ title: Visualizzazione con grafici combinati
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '690'
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico comb
 | Impostazione | Definizione |
 | --- | --- |
 | **[!UICONTROL Visualization type]** | Consente di passare a un altro tipo di visualizzazione. |
-| **[!UICONTROL Granularity]** | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo menu a discesa. |
+| **[!UICONTROL Granularity]** | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo elenco a discesa. |
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Percentages]** | Visualizza i valori in percentuale. |
 | **[!UICONTROL Legend visible]** | Consente di nascondere il testo della legenda dettagliata per la visualizzazione dei grafici combinati. |

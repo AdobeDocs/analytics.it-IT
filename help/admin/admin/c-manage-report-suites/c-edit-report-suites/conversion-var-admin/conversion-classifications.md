@@ -3,10 +3,10 @@ description: Le classificazioni vengono utilizzate per categorizzare i valori in
 title: Classificazioni di conversione
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 98%
+source-wordcount: '516'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Per aggiungere classificazioni di conversione in Amministratore:
    Le opzioni includono **[!UICONTROL Text]** e **[!UICONTROL Numeric]**. Per ulteriori informazioni sui tipi di classificazione, consulta [Informazioni sulle classificazioni](/help/components/classifications/c-classifications.md).
 1. Nella finestra di dialogo **[!UICONTROL Text Classifications]**, configura la classificazione come desiderato.
 
-1. Nella finestra di dialogo **[!UICONTROL Dropdown List]**, aggiungi o rimuovi opzioni.
+1. Aggiungi o rimuovi le opzioni nella finestra di dialogo dell’elenco a discesa.
 
    Aggiungi opzioni crea un elenco dei valori di classificazione disponibili per questa classificazione. Puoi utilizzare questa opzione con le variabili di Campaign per fornire agli utenti un elenco di valori supportati per la classificazione in Campaign Manager. Utilizza questa opzione per le dimensioni di classificazione in cui si dispone di un numero limitato di valori consentiti che cambiano raramente o mai. Ad esempio, puoi eseguire diverse campagne indirizzate a diversi livelli di fedeltà dei clienti: Argento, Oro e Platino. È quindi possibile utilizzare l’elenco a discesa per assicurarsi che gli unici valori accettati siano quelli corrispondenti ai tre livelli. Se qualcuno cerca di utilizzare un valore diverso, viene scartato.
 

@@ -2,10 +2,10 @@
 title: Impostazioni del set di classificazione
 description: Crea o modifica un set di classificazione.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '491'
+ht-degree: 79%
 
 ---
 
@@ -38,7 +38,7 @@ Altri campi sono disponibili a scopo informativo e non possono essere modificati
 Visualizza le dimensioni di classificazione attualmente configurate per l’abbonamento. Sono disponibili i seguenti pulsanti:
 
 * **[!UICONTROL Upload]**: carica manualmente i dati di classificazione per una o più dimensioni di classificazione. Sono supportati i file JSON, CSV, TSV e TAB. Il caricamento di un file valido mostra un’anteprima della tabella dei dati da classificare.
-   * **[!UICONTROL File encoding]**: seleziona il file encoding corretto utilizzando questo menu a discesa. Le opzioni valide includono [!UICONTROL UTF-8] e [!UICONTROL Latin1].
+   * **[!UICONTROL File encoding]**: Seleziona la codifica file corretta tramite questo menu a discesa. Le opzioni valide includono [!UICONTROL UTF-8] e [!UICONTROL Latin1].
    * **[!UICONTROL List delimiter]**: seleziona il delimitatore elenco corretto. Se utilizzi un file scaricato o un file modello, assicurati che il [!UICONTROL List delimiter] qui corrisponda al [!UICONTROL List delimiter] di quando il file è stato scaricato.
    * **[!UICONTROL Apply]**: salva i dati di classificazione caricati nel set di classificazione.
 
@@ -47,19 +47,19 @@ Visualizza le dimensioni di classificazione attualmente configurate per l’abbo
 * **[!UICONTROL Download]**: scarica i valori chiave e le relative colonne di classificazione.
    * **[!UICONTROL Rows]**: numero massimo di righe da includere nel file di download.
    * **[!UICONTROL Download rows received between]**: selettore data calendario che consente di filtrare i valori chiave in base a quando vengono visualizzati nel rapporto. Se un valore chiave non è stato compreso in questo intervallo di date, non viene visualizzato nel file scaricato.
-   * **[!UICONTROL Data returned]**: elenco a discesa che consente di filtrare i valori chiave inclusi nel file scaricato in base ai dati di classificazione associati.
+   * **[!UICONTROL Data returned]**: Elenco a discesa che consente di filtrare i valori chiave inclusi nel file scaricato in base ai dati di classificazione associati.
       * **[!UICONTROL All classified values]**: include righe in cui i dati di classificazione sono inclusi in almeno una colonna.
       * **[!UICONTROL All unclassified values]**: include righe in cui mancano i dati di classificazione in almeno una colonna.
-   * **[!UICONTROL File format]**: elenco a discesa che determina il formato del file di download. Le opzioni includono [!UICONTROL JSON], [!UICONTROL Comma separated values] e [!UICONTROL Excel tab separated values].
-   * **[!UICONTROL File encoding]**: elenco a discesa che determina la codifica del file. Le opzioni includono [!UICONTROL UTF-8] e [!UICONTROL Latin1]. Si consiglia UTF-8.
-   * **[!UICONTROL List delimiters]**: elenco a discesa che determina il delimitatore di elenco che separa le colonne di classificazione su ogni riga.
+   * **[!UICONTROL File format]**: Elenco a discesa che determina il formato del file in cui si trova il file di download. Le opzioni includono [!UICONTROL JSON], [!UICONTROL Comma separated values] e [!UICONTROL Excel tab separated values].
+   * **[!UICONTROL File encoding]**: Elenco a discesa che determina la codifica dei file. Le opzioni includono [!UICONTROL UTF-8] e [!UICONTROL Latin1]. Si consiglia UTF-8.
+   * **[!UICONTROL List delimiters]**: Elenco a discesa che determina il delimitatore dell’elenco che separa le colonne di classificazione su ogni riga.
 
    ![Download del set di classificazione](../assets/classification-set-download.png)
 
 * **[!UICONTROL Template]**: scarica un file modello. Questo file è simile al pulsante [!UICONTROL Download], ma non contiene dati di classificazione o valori chiave.
-   * **[!UICONTROL File format]**: elenco a discesa che determina il formato del file modello. Le opzioni includono [!UICONTROL Comma separated values] e [!UICONTROL Excel tab separated values].
-   * **[!UICONTROL File encoding]**: elenco a discesa che determina la codifica del file. Le opzioni includono [!UICONTROL UTF-8] e [!UICONTROL Latin1]. Si consiglia UTF-8.
-   * **[!UICONTROL List delimiters]**: elenco a discesa che determina il delimitatore di elenco che separa le colonne di classificazione su ogni riga.
+   * **[!UICONTROL File format]**: Elenco a discesa che determina il formato del file modello in cui si trova. Le opzioni includono [!UICONTROL Comma separated values] e [!UICONTROL Excel tab separated values].
+   * **[!UICONTROL File encoding]**: Elenco a discesa che determina la codifica dei file. Le opzioni includono [!UICONTROL UTF-8] e [!UICONTROL Latin1]. Si consiglia UTF-8.
+   * **[!UICONTROL List delimiters]**: Elenco a discesa che determina il delimitatore dell’elenco che separa le colonne di classificazione su ogni riga.
 * **[!UICONTROL Job history]**: collegamento per [Gestione processo](job-manager.md), che mostra i processi solo per questo set di classificazione.
 
    ![Modello del set di classificazione](../assets/classification-set-template.png)

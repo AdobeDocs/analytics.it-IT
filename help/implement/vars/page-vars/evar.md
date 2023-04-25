@@ -3,10 +3,10 @@ title: eVar (variabile)
 description: Variabili personalizzate che puoi utilizzare nell’implementazione.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '395'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Puoi impostare le eVar sia durante la configurazione dell’estensione Analytics
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+5. Imposta la [!UICONTROL Extension] elenco a discesa in Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL eVars].
 
 Puoi impostare un’eVar su un valore o su un elemento dati. Puoi anche copiare il valore da un’altra variabile di Analytics.

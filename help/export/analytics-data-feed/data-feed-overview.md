@@ -4,10 +4,10 @@ keywords: clickstream;feed dati;datafeed;feed dati
 title: Panoramica sui feed dati di Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Prima di utilizzare i feed di dati, è necessario soddisfare tutti i seguenti re
    * Username (Nome utente): immetti il nome utente per accedere al sito FTP.
    * Password/Confirm password (Password/Conferma password): immetti la password per accedere al sito FTP.
 7. Compila [!UICONTROL Data Column Definitions].
-   * Seleziona il modello “All Adobe Columns” (Tutte le colonne Adobe) più recente nel menu a discesa.
+   * Seleziona il modello &quot;All Adobe Columns&quot; più recente nell’elenco a discesa.
    * Compression format (Formato di compressione): Gzip
    * Packaging type (Tipo di pacchetto): file multipli
    * Manifest (Manifesto): nessun file

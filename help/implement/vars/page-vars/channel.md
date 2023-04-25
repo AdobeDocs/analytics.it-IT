@@ -3,43 +3,43 @@ title: channel
 description: Popolare la dimensione "Sezioni del sito".
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 39%
+source-wordcount: '188'
+ht-degree: 34%
 
 ---
 
 # channel
 
-Il `channel` La variabile in genere memorizza la sezione del sito in cui si trova una determinata pagina. È utile determinare quali gruppi del sito sono più popolari. Questa variabile popola la dimensione &quot;Sezioni del sito&quot;.
+La `channel` in genere memorizza la sezione del sito in cui si trova una determinata pagina. È utile determinare quali gruppi del sito sono più popolari. Questa variabile popola la dimensione &quot;Sezioni del sito&quot;.
 
-## Canale tramite Web SDK
+## Canale tramite l’SDK per web
 
 Il canale è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `web.webPageDetails.siteSection`.
 
 ## Canale tramite l’estensione Adobe Analytics
 
-Puoi impostare il canale sia durante la configurazione dell’estensione Analytics (variabili globali) sia nelle regole.
+Puoi impostare il canale sia durante la configurazione dell’estensione Analytics (variabili globali) che in regole.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Scegli Adobe Analytics nel menu a discesa [!UICONTROL Extension] e imposta [!UICONTROL Action Type] su [!UICONTROL Set Variables].
+5. Imposta la [!UICONTROL Extension] elenco a discesa in Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL Channel].
 
 Puoi impostare il canale su qualsiasi valore stringa o elemento dati.
 
-## s.channel in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
+## s.channel in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
-Il `s.channel` variabile è una stringa che in genere contiene la sezione del sito della pagina. Può avere un valore massimo di 100 byte; i valori più lunghi vengono troncati.
+La `s.channel` è una stringa che in genere contiene la sezione del sito della pagina. Può avere un valore massimo di 100 byte; i valori più lunghi vengono troncati.
 
 ```js
 s.channel = "Example site section";
 ```
 
-Se utilizzi il `digitalData` [livello dati](../../prepare/data-layer.md):
+Se utilizzi `digitalData` [livello dati](../../prepare/data-layer.md):
 
 ```js
 s.channel = digitalData.page.category.primaryCategory;
