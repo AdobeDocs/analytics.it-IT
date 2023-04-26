@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Scopri come utilizzare i feed di dati per esportare dati non elaborati, e Data Warehouse per recuperare un output di dati sotto forma di foglio di calcolo. Scopri come utilizzare FTP e SFTP per trasferire i file.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 96%
+source-wordcount: '295'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
       + [Calcolare metriche](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Riferimento colonna dati](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Ricerca eventi pagina](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [Ricerca attributi mobile](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [Ricerche dinamiche](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [Ricerca eVar merchandising](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Caratteri speciali](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Occorrenza in arrivo](analytics-data-feed/c-df-contents/late-arriving-hits.md)
