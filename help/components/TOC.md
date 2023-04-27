@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '692'
 ht-degree: 95%
 
 ---
@@ -208,7 +208,6 @@ ht-degree: 95%
 + Suite di rapporti virtuali {#virtual-report-suites}
    + [Panoramica delle suite di rapporti virtuali](vrs/vrs-about.md)
    + [Suite di rapporti virtuale - Cura dei componenti](vrs/vrs-components.md)
-   + [Supporto VRS in Mobile Services](vrs/vrs-mobile-services.md)
    + [Adobe Context-Aware Sessions](vrs/vrs-mobile-visit-processing.md)
    + [Elaborazione dell&#39;ora rapporto](vrs/vrs-report-time-processing.md)
    + [Considerazioni su A4T](vrs/vrs-a4t.md)
