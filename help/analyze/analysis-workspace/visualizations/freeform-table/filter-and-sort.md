@@ -4,10 +4,10 @@ title: Filtrare e ordinare tabelle
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
+source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 89%
+source-wordcount: '683'
+ht-degree: 85%
 
 ---
 
@@ -18,6 +18,10 @@ Le tabelle a forma libera in Analysis Workspace sono la base dell’analisi inte
 ## Filtrare le tabelle
 
 I filtri in Analysis Workspace ti aiutano a far emergere le informazioni più importanti.
+
+>[!NOTE]
+>
+> Solo gli elementi dimensionali dinamici possono essere filtrati come descritto in questa sezione. Gli elementi dimensionali statici non possono essere filtrati. Per ulteriori informazioni, consulta [Elementi dimensionali dinamici e statici nelle tabelle a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 Per filtrare i dati nelle tabelle a forma libera:
 
@@ -46,16 +50,16 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 ## Ordinare le tabelle
 
-Puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna in Analysis Workspace che sia una metrica.
+Puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna di Analysis Workspace che sia una metrica.
 
 Icona con freccia giù ![Colonna tabella ordinata con icona con freccia giù](assets/table-sort-arrow-icon.png) è visibile nell’intestazione della colonna in base alla quale i dati vengono ordinati.
 
-Per ordinare i dati di una tabella a forma libera in base a una colonna specifica:
+Per ordinare i dati di una tabella a forma libera in base a una particolare colonna:
 
-1. Passa il cursore del mouse sul titolo della colonna in base al quale desideri ordinare i dati.
+1. Passa il puntatore del mouse sul titolo della colonna in base al quale vuoi ordinare i dati.
 
-1. Seleziona l’icona freccia giù quando viene visualizzata.
+1. Seleziona l’icona a forma di freccia giù quando viene visualizzata.
 
-   ![Icona freccia giù per colonna tabella ordinata](assets/table-sort.png)
+   ![Icona a freccia in giù, colonna della tabella ordinata](assets/table-sort.png)
 
    I dati della tabella sono ordinati in base alla colonna selezionata.
