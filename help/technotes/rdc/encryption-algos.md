@@ -1,39 +1,38 @@
 ---
 title: Algoritmi di crittografia HTTPS supportati
-description: Il 23 giugno 2022 verrà rimosso il supporto per le crittografie TLS 1.2 che utilizzano SHA1 o CBC per i clienti con livello di sicurezza crittografato impostato su "Elevato".
+description: Impostazioni di sicurezza della crittografia TLS e tipi di certificato.
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
+source-git-commit: 299de03c05f6a8af4f6c5d98c76bae54eec4c088
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 5%
+source-wordcount: '283'
+ht-degree: 6%
 
 ---
 
 # Algoritmi di crittografia HTTPS supportati
 
-Adobe offre due livelli di protezione crittografata per soddisfare le diverse esigenze dei clienti in materia di sicurezza nella raccolta dati di prime parti. Questi livelli determinano quali algoritmi di crittografia sono supportati per le connessioni HTTPS con i nostri server. Per impostazione predefinita, i clienti utilizzano ‘Standard’, che supporta solo algoritmi di crittografia moderni. ‘Elevato’ supporta un elenco più ristretto di algoritmi di crittografia per i clienti che sono più preoccupati per queste connessioni. Per entrambi i livelli di sicurezza, Adobe aggiorna regolarmente il set di algoritmi supportati in base alle procedure di sicurezza correnti. Se desideri modificare le impostazioni di protezione crittografata, contatta l’Assistenza clienti.
+## Livelli di sicurezza dei crittografi
 
-Il 23 giugno 2022 verrà rimosso il supporto per le crittografie TLS 1.2 che utilizzano SHA1 o CBC per i clienti con livello di sicurezza crittografato impostato su &quot;Elevato&quot;.  Questa modifica influirà sulla raccolta sicura dei dati per gli utenti finali sui sistemi operativi meno recenti.
+Adobe offre due livelli di protezione crittografata per soddisfare le diverse esigenze dei clienti in materia di sicurezza nella raccolta dati di prime parti. Questi livelli determinano quali algoritmi di cifratura sono supportati per le connessioni HTTPS con i nostri server. Adobe esamina e aggiorna regolarmente il set di algoritmi supportati in base alle procedure di sicurezza correnti. Se desideri modificare le impostazioni di sicurezza della crittografia, contatta l’Assistenza clienti.
 
-Le seguenti crittografie TLS 1.2 non saranno più supportate:
+&quot;Standard&quot; richiede TLS 1.2 o successivo e almeno la crittografia a 128 bit. È progettato per fornire la massima compatibilità con il dispositivo mantenendo la crittografia sicura.
 
-* TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
-* TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
-* TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
-* TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
-* TLS_RSA_WITH_AES_128_CBC_SHA
-* TLS_RSA_WITH_AES_256_CBC_SHA
-* TLS_RSA_WITH_AES_128_GCM_SHA256
-* TLS_RSA_WITH_AES_256_GCM_SHA384
+Il livello di sicurezza cifratura &quot;alto&quot; richiede TLS 1.2 o successivo e rimuove il supporto per i crittografia più deboli. È progettato per i clienti che desiderano la crittografia più potente e non sono interessati al supporto per dispositivi meno recenti.
 
-I seguenti client sono notoriamente interessati da questa modifica perché non supportano gli standard di crittografia correnti:
+I seguenti client non sono in grado di connettersi con la protezione crittografata impostata su &quot;Alta&quot;.
 
-* Windows 8.1 e versioni precedenti (ultimo aggiornamento: 2018)
-* Windows Phone 8.1 e versioni precedenti (ultimo aggiornamento: 2016)
-* OS X 10.10 e versioni precedenti (ultimo aggiornamento: 2017)
-* iOS 8.4 e versioni precedenti (ultimo aggiornamento: 2015)
+* Windows 8.1 e versioni precedenti (ultimo aggiornamento nel 2018)
+* Windows Phone 8.1 e versioni precedenti (ultimo aggiornamento nel 2016)
+* OS X 10.10 e versioni precedenti (ultimo aggiornamento nel 2017)
+* iOS 8.4 e versioni precedenti (ultimo aggiornamento nel 2015)
 
-I dispositivi Android non sono interessati da questa modifica.
+## Tipi di certificati HTTPS supportati
 
-I clienti con il livello di sicurezza crittografato impostato su &quot;Standard&quot; non sono interessati da questa modifica.
+L’Adobe supporta sia i tipi di certificato RSA che ECC per soddisfare le diverse esigenze dei clienti. I certificati RSA sono più ampiamente supportati per i client, ma i certificati ECC utilizzano meno elaborazione sia sul lato server che su quello client. Ad Adobe, i certificati gestiti vengono forniti sia RSA che ECC. Per i certificati gestiti dai clienti, si consiglia sia RSA che ECC. I client moderni supportano sia RSA che ECC. I seguenti client supportano solo i certificati RSA:
+
+* Windows Vista e versioni precedenti (ultimo aggiornamento nel 2012)
+* Windows Phone 8.0 e versioni precedenti (ultimo aggiornamento nel 2014)
+* OS X 10.8 e versioni precedenti (ultimo aggiornamento nel 2013)
+* iOS 5.1 e versioni precedenti (ultimo aggiornamento nel 2012)
+* Android 4.3 e versioni precedenti (ultimo aggiornamento nel 2013)
