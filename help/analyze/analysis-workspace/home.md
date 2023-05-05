@@ -4,9 +4,9 @@ description: Analysis Workspace è il principale strumento di analisi per Adobe 
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f3ba2c1b63b9b7fa0da4c0d3b784036abdd9df1b
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '744'
 ht-degree: 30%
 
 ---
@@ -90,11 +90,11 @@ Un’analisi in Analysis Workspace è indicata come [progetto](/help/analyze/ana
 
 Puoi creare un progetto in Analysis Workspace come descritto in [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-### Salvare e condividere progetti
+### Salvare e condividere un progetto
 
 Quando crei un’analisi in Analysis Workspace, il tuo lavoro è [salvato automaticamente](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-Quando finisci di costruire il progetto e raccogli informazioni fruibili, è pronto per essere consumato dagli altri. Puoi condividere il progetto con utenti e gruppi all’interno della tua organizzazione o anche con persone esterne alla tua organizzazione. Per informazioni sulla condivisione di un progetto, vedi [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Quando finisci di costruire il progetto e raccogli informazioni fruibili, il progetto è pronto per essere utilizzato dagli altri. Puoi condividere il progetto con utenti e gruppi all’interno della tua organizzazione o anche con persone esterne alla tua organizzazione. Per informazioni sulla condivisione di un progetto, vedi [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ### Project Management in Analysis Workspace
 
@@ -108,6 +108,6 @@ Il video seguente fornisce una panoramica della gestione dei progetti in Analysi
 * Per aggiornamenti sulle nuove funzioni, consulta [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it#analytics).
 * Un ottimo modo per conoscere Analysis Workspace è attraverso il modello Tutorial di Analysis Workspace Training. Questo modello illustra la terminologia e i passaggi comuni per la creazione della prima analisi in Workspace. Per iniziare l&#39;esercitazione:
    1. Sulla [!UICONTROL **Area di lavoro**] in Adobe Analytics, seleziona **[!UICONTROL Learning]** a sinistra.
-   1. Seleziona **[!UICONTROL Open Tutorial]** (Aggiungi gruppi di campi).
+   1. Seleziona **[!UICONTROL Open Tutorial]** (Crea set di dati).
       ![](assets/training-tutorial.png)
 

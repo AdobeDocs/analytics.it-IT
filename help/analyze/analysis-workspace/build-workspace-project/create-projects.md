@@ -3,10 +3,10 @@ description: Scopri le nozioni di base sulla creazione di un progetto in Analysi
 title: Creare progetti
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 98cffce26edc02b74747e05c35ff6625081e0cc6
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 6%
+source-wordcount: '649'
+ht-degree: 5%
 
 ---
 
@@ -51,7 +51,7 @@ Nelle sezioni seguenti viene descritto come creare un progetto e iniziare ad agg
 
 ## Aggiungi pannelli al progetto {#panels}
 
-[Pannelli](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) sono la base di qualsiasi progetto in Analysis Workspace. Vengono utilizzati per organizzare i contenuti (visualizzazioni e componenti) di un progetto. Prima di aggiungere componenti o visualizzazioni a un progetto, devi aggiungere dei pannelli.
+[Pannelli](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) sono la base di qualsiasi progetto in Analysis Workspace. I pannelli vengono utilizzati per organizzare il contenuto (visualizzazioni e componenti) di un progetto.
 
 Molti dei pannelli forniti in Analysis Workspace generano una serie completa di analisi basate su alcuni input dell’utente.
 
@@ -71,6 +71,12 @@ Per aggiungere un pannello:
 
 [Visualizzazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it) (ad esempio una tabella a forma libera, un grafico a barre o un grafico a linee) può essere utilizzato per dare vita ai dati in modo visivo.
 
+>[!TIP]
+>
+>Le tabelle a forma libera sono il tipo di visualizzazione più comune e costituiscono la base per l’analisi interattiva dei dati. Per ulteriori dettagli su come utilizzare le tabelle a forma libera in Analysis Workspace, consulta [Tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+
+Per aggiungere una visualizzazione:
+
 1. Seleziona la **[!UICONTROL Visualizations]** nella barra a sinistra.
 
    ![](assets/build-visualizations.png)
@@ -83,13 +89,21 @@ Per aggiungere un pannello:
 
 [Componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) costituiscono i dati effettivi di qualsiasi progetto. Puoi aggiungere componenti alle visualizzazioni o ai pannelli.
 
+>[!TIP]
+>
+>Per informazioni su ciascun componente, seleziona l’icona Informazioni accanto al nome di un componente nella barra a sinistra oppure consulta la [Guida ai componenti di Analytics](/help/components/home.md).
+
+Per aggiungere un componente:
+
 1. Seleziona la **[!UICONTROL Components]** nella barra a sinistra.
 
    ![](assets/build-components.png)
 
 1. Cerca il componente da aggiungere. Quando viene visualizzata nella barra a sinistra, trascinala in un pannello o in una visualizzazione all’interno del progetto.
 
->[!TIP]
->
->   Per informazioni su ciascun componente, seleziona l’icona Informazioni accanto al nome di un componente nella barra a sinistra oppure consulta la [Guida ai componenti di Analytics](/help/components/home.md).
+### Salva e condividi il progetto
+
+Quando crei un’analisi in Analysis Workspace, il tuo lavoro è [salvato automaticamente](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
+
+Quando finisci di costruire il progetto e raccogli informazioni fruibili, il progetto è pronto per essere utilizzato dagli altri. Puoi condividere il progetto con utenti e gruppi all’interno della tua organizzazione o anche con persone esterne alla tua organizzazione. Per informazioni sulla condivisione di un progetto, vedi [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
