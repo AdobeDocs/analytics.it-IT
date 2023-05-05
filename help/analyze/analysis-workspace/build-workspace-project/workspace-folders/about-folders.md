@@ -4,14 +4,14 @@ keywords: Analysis Workspace
 title: Panoramica cartelle
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 00c52c345be15522cd8f2aa30ab214ec05dc6575
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Informazioni sulla funzione Cartelle di Analytics
+# Cartelle in Analysis Workspace
 
 La funzione Cartelle di Analytics è un sistema di gestione delle cartelle visualizzato nella pagina di destinazione di Adobe Analytics e quando si seleziona **Workspace** > **Progetti**.
 

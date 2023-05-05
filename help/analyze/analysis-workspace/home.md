@@ -1,13 +1,13 @@
 ---
-title: Cos’è Analysis Workspace e come si utilizza?
+title: Panoramica di Analysis Workspace
 description: Analysis Workspace è il principale strumento di analisi per Adobe Analytics. Consente di utilizzare pannelli, tabelle, visualizzazioni e altri componenti per dare vita ai dati, curare un set di dati, condividere e pianificare i progetti, e offre numerose funzionalità.
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 30%
+source-wordcount: '834'
+ht-degree: 33%
 
 ---
 
@@ -64,11 +64,11 @@ I componenti in Analysis Workspace sono costituiti dai seguenti elementi:
 
 * Intervalli di date
 
-Vedi [Panoramica dei componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) per ulteriori informazioni su ciascuno di questi tipi di componenti.
+Per ulteriori informazioni su ciascuno di questi tipi di componenti, consulta [Panoramica dei componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
 
 Ognuno di questi tipi di componenti può essere aggiunto a una visualizzazione (ad esempio una tabella a forma libera) per iniziare a rispondere a domande aziendali.
 
-Dopo aver compreso la terminologia dei componenti, puoi trascinarli nelle visualizzazioni (incluse le tabelle a forma libera) in [generare le analisi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=it).
+Dopo aver compreso la terminologia dei componenti, puoi trascinarli nelle visualizzazioni (incluse le tabelle a forma libera) in [generare le analisi](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 ![](assets/build-components.png)
 
@@ -90,17 +90,35 @@ Un’analisi in Analysis Workspace è indicata come [progetto](/help/analyze/ana
 
 Puoi creare un progetto in Analysis Workspace come descritto in [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
+I progetti possono essere organizzati in cartelle e sottocartelle, come descritto in [Cartelle in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+
 ### Salvare e condividere un progetto
 
 Quando crei un’analisi in Analysis Workspace, il tuo lavoro è [salvato automaticamente](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 Quando finisci di costruire il progetto e raccogli informazioni fruibili, il progetto è pronto per essere utilizzato dagli altri. Puoi condividere il progetto con utenti e gruppi all’interno della tua organizzazione o anche con persone esterne alla tua organizzazione. Per informazioni sulla condivisione di un progetto, vedi [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
-### Project Management in Analysis Workspace
+<!--
 
-Il video seguente fornisce una panoramica della gestione dei progetti in Analysis Workspace:
+Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
+
+### Project management in Analysis Workspace
+
+The following video provides an overview of project management in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
+
+-->
+
+## Utilizzare Virtual Analyst per comprendere meglio le anomalie
+
+Analista virtuale è un set di funzioni di Adobe Analytics che utilizza algoritmi predittivi e machine learning per fornire informazioni approfondite sulle anomalie che influiscono sulla tua attività. Consente di automatizzare i flussi di lavoro più comuni e onerosi basati sulla scienza dei dati per identificare l’origine di eventuali comportamenti insoliti che emergono dai dati.
+
+Analista virtuale include le seguenti funzionalità:
+
+* [Rilevamento anomalie:](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) fornisce un metodo statistico per determinare la variazione di una particolare metrica rispetto ai dati precedenti.
+* [Analisi dei contributi:](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md) consente di determinare i fattori che contribuiscono maggiormente alle anomalie nei dati.
+* [Avvisi intelligenti:](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) identifica e notifica in modo proattivo le anomalie nei dati, consentendo di ottenere informazioni più veloci.
 
 ## Risorse aggiuntive {#resources}
 

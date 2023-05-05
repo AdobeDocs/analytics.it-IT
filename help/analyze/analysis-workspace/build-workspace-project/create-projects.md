@@ -3,7 +3,7 @@ description: Scopri le nozioni di base sulla creazione di un progetto in Analysi
 title: Creare progetti
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Creare progetti
 
-[Progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace ti consente di visualizzare dati business-critical che possono essere condivisi con le parti interessate all’interno o all’esterno dell’organizzazione.
+[Progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace ti consente di visualizzare le analisi business-critical che possono essere condivise con le parti interessate all’interno o all’esterno dell’organizzazione.
 
 Per informazioni generali su come iniziare a utilizzare Analysis Workspace, vedi [Panoramica di Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 
@@ -73,7 +73,7 @@ Per aggiungere un pannello:
 
 >[!TIP]
 >
->Le tabelle a forma libera sono il tipo di visualizzazione più comune e costituiscono la base per l’analisi interattiva dei dati. Per ulteriori dettagli su come utilizzare le tabelle a forma libera in Analysis Workspace, consulta [Tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>Le tabelle a forma libera sono il tipo di visualizzazione più comune e sono alla base dell’analisi interattiva dei dati. Per ulteriori dettagli su come utilizzare le tabelle a forma libera in Analysis Workspace, consulta [Tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
 Per aggiungere una visualizzazione:
 
