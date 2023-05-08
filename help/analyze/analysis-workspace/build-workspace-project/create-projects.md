@@ -3,9 +3,9 @@ description: Scopri le nozioni di base sulla creazione di un progetto in Analysi
 title: Creare progetti
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '683'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ Nelle sezioni seguenti viene descritto come creare un progetto e iniziare ad agg
 
    +++Crea un progetto vuoto
 
-   1. Seleziona la [!UICONTROL **Progetti**] , quindi seleziona [!UICONTROL **Crea progetto**].
+   1. Sulla [!UICONTROL **Area di lavoro**] seleziona la scheda [!UICONTROL **Progetti**] sul lato sinistro della pagina, quindi seleziona [!UICONTROL **Crea progetto**].
 
    1. Scegli se creare un progetto vuoto o una scheda di valutazione mobile vuota
 
@@ -38,7 +38,7 @@ Nelle sezioni seguenti viene descritto come creare un progetto e iniziare ad agg
 
    +++Crea un progetto da un modello
 
-   1. Seleziona la [!UICONTROL **Rapporti**] scheda .
+   1. Sulla [!UICONTROL **Area di lavoro**] seleziona la scheda [!UICONTROL **Rapporti**] sul lato sinistro della pagina.
 
    1. Cerca o individua il modello da utilizzare, quindi selezionalo quando viene visualizzato.
 
