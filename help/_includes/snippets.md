@@ -1,8 +1,8 @@
 ---
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
-workflow-type: ht
-source-wordcount: '974'
-ht-degree: 100%
+source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 94%
 
 ---
 # Snippet
@@ -48,6 +48,16 @@ ht-degree: 100%
 | [!UICONTROL **Creato da**] | Mostra il nome dell’utente che ha creato il componente. |
 | [!UICONTROL **Anteprima**] | Mostra un’anteprima dell’aspetto del componente in Analysis Workspace. |
 | [!UICONTROL **Data ultima modifica**] | Mostra il giorno dell’ultima modifica apportata al componente. Questa sezione compare quando si visualizzano Segmenti, Metriche calcolate e Intervalli di date. |
+
+{style="table-layout:auto"}
+
+## Opzioni di ordinamento dei componenti {#components-sort-options}
+
+| Opzione | Funzione |
+|---------|----------|
+| [!UICONTROL **Consigliato**] | Ordina i componenti con quelli consigliati nella parte superiore dell’elenco. I componenti utilizzati più di frequente e più di recente dall’utente o da altri utenti dell’organizzazione vengono visualizzati più in alto nell’elenco. |
+| [!UICONTROL **Alfabetico**] | Ordina i componenti in ordine alfabetico. |
+| [!UICONTROL **Categoriche**] | Ordina i componenti in base al tipo di componente (dimensione, metrica, segmento, intervallo di date). |
 
 {style="table-layout:auto"}
 

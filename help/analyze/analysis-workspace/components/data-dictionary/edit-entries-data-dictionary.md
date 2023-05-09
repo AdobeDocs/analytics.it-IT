@@ -3,14 +3,15 @@ description: Il dizionario dati in Analysis Workspace consente agli utenti di ca
 title: Modificare le voci nel dizionario dati
 feature: Components
 role: Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
+source-git-commit: 631f84794203cb0a1154d68149c9d64d7247ecd3
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 0%
+source-wordcount: '313'
+ht-degree: 2%
 
 ---
 
-# Modificare le voci del componente nel dizionario dati
+# Modificare le voci dei componenti nel dizionario dati
 
 Gli amministratori di Analytics possono modificare le voci dei componenti nel dizionario dati per una determinata suite di rapporti. Tutte le modifiche apportate sono visibili a tutti gli utenti della suite di rapporti.
 
@@ -31,6 +32,10 @@ Per modificare un componente nel dizionario dati:
    Il tipo di componente può essere identificato sia dal colore che dall’icona. **Dimension** ![Icona Dimension](assets/dimension-icon.png) sono arancioni, **Segmenti** ![Icona Segmento](assets/segment-icon.png) sono blu, **Intervalli di date** ![Icona Intervallo date](assets/date-range-icon.png) sono viola, e **Metriche** ![Icona della metrica](assets/default-metric-icon.png) sono verdi. Icona Adobe ![Icona Adobe](assets/default-calc-metric-icon.png) indica un modello di metrica calcolata o un modello di segmento e l’icona del calcolatore ![Icona Calcolatore](assets/calculated-metric-icon-created.png) indica una metrica calcolata creata da un amministratore di Analytics nella tua organizzazione.
 
 {{dd-filter-criteria}}
+
+1. (Facoltativo) Seleziona la **Ordinare** icona ![Icona Ordina componenti](assets/component-sort-icon.png), quindi seleziona una delle seguenti opzioni di filtro per ordinare l’elenco dei componenti:
+
+   {{components-sort-options}}
 
 1. Dall’elenco dei componenti, seleziona il componente da modificare.
 

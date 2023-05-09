@@ -4,10 +4,10 @@ title: Panoramica dei componenti
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 6247f44aca1e6aba6cf02ed34a0e26ef5e182021
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 96%
+source-wordcount: '1073'
+ht-degree: 69%
 
 ---
 
@@ -53,25 +53,85 @@ Esempi di segmenti includono [!UICONTROL Mobile Device Visitors], [!UICONTROL Vi
 
 Gli [**intervalli di date**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=it) sono l’intervallo di date in cui esegui l’analisi. Si trovano nella barra dei componenti a sinistra (sezione viola) e vengono in genere applicati nel calendario di ciascun pannello.
 
-Puoi rendere i componenti dell’intervallo di date relativi al calendario del pannello. Per ulteriori informazioni, consulta [Informazioni sugli intervalli di date del pannello relativo](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+Puoi rendere i componenti dell’intervallo di date relativi al calendario del pannello. Per ulteriori informazioni, consulta [Informazioni sugli intervalli di date relativi al pannello](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
 
 Esempi di intervalli di date includono luglio 2019, [!UICONTROL Last 4 weeks] e [!UICONTROL This month]. Gli intervalli di date sono forniti da Adobe, possono essere applicati nel [calendario del pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) o creati mediante il [Generatore di intervalli di date](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=it).
 
 ![](assets/date-ranges.png)
 
 
-## Azioni dei componenti {#actions}
+## Gestire i componenti {#actions}
 
-Puoi gestire i componenti (singolarmente o selezionandone più d’uno) direttamente nella barra a sinistra. Fai clic con il pulsante destro del mouse su un componente oppure fai clic sull’icona delle azioni (tre punti in verticale) in alto nell’elenco dei componenti.
+Puoi gestire i componenti direttamente nella barra a sinistra.
 
-![](assets/component-actions.png)
+1. Fai clic con il pulsante destro del mouse su un componente.
 
-| Azione componente | Descrizione |
-|--- |--- |
-| Tag | Organizzare o gestire i componenti tramite l’applicazione di tag. Per eseguire la ricerca per tag nella barra a sinistra, fai clic sul filtro o digita #. I tag fungono anche da filtri nei gestori dei componenti. |
-| Preferito | Aggiungere il componente all’elenco dei preferiti. Come per i tag, puoi cercare i Preferiti nella barra a sinistra e filtrarli nei gestori dei componenti. |
-| Approva | Contrassegna i componenti come approvati per segnalare agli utenti che sono approvati dall’organizzazione. Come per i tag, puoi eseguire ricerche per compomenti approvati nella barra a sinistra e filtrarli nei gestori dei componenti. |
-| Condividi | Condividi i componenti con gli utenti della tua organizzazione. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
-| Elimina | Elimina i componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
+   Oppure
+
+   Seleziona un componente, quindi seleziona la **Azione** Icona a 3 punti nella parte superiore dell’elenco dei componenti.
+
+   >[!TIP]
+   >
+   >   Per selezionare più componenti, tenere premuto Maiusc o Comando (su Mac) o Ctrl (su Windows).
+
+
+   ![](assets/component-actions.png)
+
+   | Azione componente | Descrizione |
+   |--- |--- |
+   | [!UICONTROL **Tag**] | Organizzare o gestire i componenti tramite l’applicazione di tag. Per eseguire la ricerca per tag nella barra a sinistra, fai clic sul filtro o digita #. I tag fungono anche da filtri nei gestori dei componenti. |
+   | [!UICONTROL **Preferito**] | Aggiungere il componente all’elenco dei preferiti. Come per i tag, puoi cercare i Preferiti nella barra a sinistra e filtrarli nei gestori dei componenti. |
+   | [!UICONTROL **Approvazione**] | Contrassegna i componenti come approvati per segnalare agli utenti che sono approvati dall’organizzazione. Come per i tag, puoi eseguire ricerche per compomenti approvati nella barra a sinistra e filtrarli nei gestori dei componenti. |
+   | [!UICONTROL **Condividi**] | Condividi i componenti con gli utenti della tua organizzazione. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
+   | [!UICONTROL **Eliminazione**] | Elimina i componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
 
 I componenti personalizzati possono essere gestiti anche tramite i rispettivi gestori di componenti. Ad esempio, il [Gestore segmenti](/help/components/segmentation/segmentation-workflow/seg-manage.md).
+
+## Ricerca, filtro e ordinamento dell’elenco dei componenti
+
+Puoi cercare, filtrare e ordinare l’elenco dei componenti nella barra a sinistra di Analysis Workspace per individuare rapidamente un particolare componente.
+
+### Cerca nell’elenco dei componenti
+
+1. Seleziona la **Componenti** icona ![Icona Componenti](assets/components-icon.png) nella barra a sinistra.
+
+1. Nel campo di ricerca inizia a digitare il nome del componente che desideri utilizzare nel progetto.
+
+   Il tipo di componente può essere identificato sia dal colore che dall’icona. **Dimension** ![Icona Dimension](assets/dimension-icon.png) sono arancioni, **Segmenti** ![Icona Segmento](assets/segment-icon.png) sono blu, **Intervalli di date** ![Icona Intervallo date](assets/date-range-icon.png) sono viola, e **Metriche** ![Icona della metrica](assets/default-metric-icon.png) sono verdi. Icona Adobe ![Icona Adobe](assets/default-calc-metric-icon.png) indica un modello di metrica calcolata o un modello di segmento e l’icona del calcolatore ![Icona Calcolatore](assets/calculated-metric-icon-created.png) indica una metrica calcolata creata da un amministratore di Analytics nella tua organizzazione.
+
+1. Seleziona il componente quando viene visualizzato nell’elenco a discesa.
+
+### Filtrare l’elenco dei componenti
+
+1. Seleziona la **Componenti** icona ![Icona Componenti](assets/components-icon.png) nella barra a sinistra.
+
+1. Seleziona la **Filtro** icona ![Icona Filtro dizionario dati](assets/components-filter-icon.png).
+
+   Oppure
+
+   Digitare il simbolo cancelletto (#) nel campo di ricerca.
+
+1. Seleziona una delle seguenti opzioni di filtro per filtrare l’elenco dei componenti:
+
+   | Opzione | Funzione |
+   |---------|----------|
+   | [!UICONTROL **Approvato**] | Mostra solo i componenti contrassegnati come approvati da un amministratore. |
+   | [!UICONTROL **Preferiti**] | Mostra solo i componenti inclusi nell’elenco dei Preferiti. Per informazioni sull’aggiunta di componenti all’elenco dei preferiti, consulta [Panoramica dei componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+   | [!UICONTROL **Dimensioni**] | Mostra solo i componenti che sono Dimensioni. |
+   | [!UICONTROL **Metriche**] | Mostra solo i componenti che sono Metriche. |
+   | [!UICONTROL **Segmenti**] | Mostra solo i componenti che sono Segmenti. <!--this is Filters in CJA--> |
+   | [!UICONTROL **Intervalli di date**] | Mostra solo i componenti che sono Intervalli di date. |
+   | [!UICONTROL **Mostra tutti**] | Mostra tutti i componenti. Questa opzione è disponibile solo per gli amministratori. |
+   | [!UICONTROL **Non approvato**] | Mostra solo i componenti non ancora contrassegnati come approvati da un amministratore. In qualità di amministratore, questo è utile per identificare i componenti che richiedono la revisione e l’approvazione. Questa opzione è disponibile solo per gli amministratori. |
+
+1. (Facoltativo) Per personalizzare ulteriormente l’elenco, è possibile ordinare l’elenco dei componenti come descritto in [Ordinare l’elenco dei componenti](#sort-the-component-list).
+
+### Ordinare l’elenco dei componenti
+
+1. (Facoltativo) Applica eventuali filtri all’elenco dei componenti, come descritto in [Filtrare l’elenco dei componenti](#filter-the-component-list).
+
+1. Seleziona la **Componenti** icona ![Icona Componenti](assets/components-icon.png) nella barra a sinistra.
+
+1. Seleziona la **Ordinare** icona ![Icona Ordina componenti](assets/component-sort-icon.png), quindi seleziona una delle seguenti opzioni di filtro per ordinare l’elenco dei componenti:
+
+   {{components-sort-options}}
