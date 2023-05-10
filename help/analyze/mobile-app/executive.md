@@ -4,10 +4,10 @@ title: Guida alle dashboard di Adobe Analytics per utenti direzionali
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 98%
+source-wordcount: '1254'
+ht-degree: 92%
 
 ---
 
@@ -58,9 +58,15 @@ Per utilizzare le dashboard:
 
 1. Scegli un’azienda. Dopo aver effettuato l’accesso alle dashboard, viene visualizzata la schermata **[!UICONTROL Choose a company]**. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
 
-1. L’elenco delle scorecard mostra quindi tutte le scorecard che sono state condivise con te. Tocca la scorecard che desideri visualizzare.
+   L’elenco delle scorecard mostra tutte le scorecard condivise con te.
 
-   ![Scegliere un’azienda](assets/nextseq.png)
+1. Toccare la scheda di valutazione che si desidera visualizzare.
+
+   Se hai accesso a più organizzazioni con un solo accesso, tutte le scorecard delle organizzazioni sono disponibili nell’elenco delle scorecard.
+
+   È possibile ordinare l’elenco delle scorecard in base al titolo della scorecard, al nome dell’organizzazione o alla visualizzazione più recente. Puoi anche cercare una scheda di valutazione specifica.
+
+   ![Scegliere un’azienda](assets/mobile-home-screen.png)
 
    Se effettui l’accesso e vedi un messaggio che dice che non è stato condiviso nulla, verifica quanto segue con il tuo curatore:
 
