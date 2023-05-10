@@ -4,10 +4,10 @@ title: Filtrare e ordinare tabelle
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
+source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 85%
+source-wordcount: '809'
+ht-degree: 69%
 
 ---
 
@@ -23,19 +23,40 @@ I filtri in Analysis Workspace ti aiutano a far emergere le informazioni più im
 >
 > Solo gli elementi dimensionali dinamici possono essere filtrati come descritto in questa sezione. Gli elementi dimensionali statici non possono essere filtrati. Per ulteriori informazioni, consulta [Elementi dimensionali dinamici e statici nelle tabelle a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
+### Escludere rapidamente righe specifiche da una tabella
+
+È possibile escludere rapidamente righe specifiche dalla tabella senza dover aprire la finestra di dialogo Filtro.
+
+>[!NOTE]
+>
+>Quando escludi le righe come descritto in questa sezione, [!UICONTROL **Non uguale a**] viene applicata automaticamente nella [**[!UICONTROL Advanced filtering]**](#apply-a-simple-or-advanced-filter) finestra di dialogo.
+
+Per escludere rapidamente righe specifiche da una tabella a forma libera:
+
+1. Passa il puntatore del mouse sulla riga da escludere, quindi seleziona l’icona x .
+
+   Tenete premuto il tasto Maiusc per selezionare una riga di intervallo oppure tenete premuto il tasto Comando (su Mac) o il tasto Ctrl (su Windows) per selezionare più righe.
+
+### Applicare un filtro semplice o avanzato a una tabella
+
 Per filtrare i dati nelle tabelle a forma libera:
 
-1. Nella tabella a forma libera, passa il cursore del mouse sulla colonna contenente i dati da filtrare. <!--only some types of columns show the filter... Which? Just Dimensions?-->
+1. Passa il puntatore del mouse sulla colonna contenente i dati da filtrare. <!--only some types of columns show the filter... Which? Just Dimensions?-->
 
 1. Seleziona l’icona **Filtro** quando viene visualizzata.
 
    ![Icona del filtro in una tabella](assets/table-filter-icon.png)
 
-1. Nel campo [!UICONTROL **Cerca parola o frase**], specifica una parola o una frase in base a cui applicare il filtro. Vengono visualizzate solo le righe contenenti la parola o la frase esatta specificata.
+   Sono disponibili le seguenti opzioni:
 
-1. (Facoltativo) Per filtrare in base a criteri diversi o a più criteri, seleziona [!UICONTROL **Mostra avanzate**].
+   | Opzione | Funzione |
+   |---------|----------|
+   | [!UICONTROL **Ricerca di parole o frasi**] | Specificare una parola o una frase per la quale si desidera filtrare. Vengono visualizzate solo le righe contenenti la parola o la frase esatta specificata. |
+   | [!UICONTROL **Includi non specificato (nessuno)**] | Selezionare questa opzione per visualizzare nella tabella i dati che non rientrano in alcuna delle dimensioni disponibili. <!--what is this?--> |
 
-   Sono disponibili le seguenti opzioni
+1. (Facoltativo) Per filtrare in base a criteri diversi o a più criteri, seleziona [!UICONTROL **Filtro avanzato**].
+
+   Sono disponibili le seguenti opzioni di filtro avanzate:
 
    | Opzione | Funzione |
    |---------|----------|
