@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
 workflow-type: tm+mt
-source-wordcount: '3939'
-ht-degree: 97%
+source-wordcount: '4052'
+ht-degree: 94%
 
 ---
 
@@ -28,6 +28,9 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | **Maggio 2023** |  |
 | Panoramica di Analysis Workspace | Aggiornato [Panoramica di Analysis Workspace](/help/analyze/analysis-workspace/home.md) per includere informazioni generali sulla panoramica e collegamenti ai contenuti pertinenti. |
 | Creare progetti | È stato creato un nuovo articolo che spiega in dettaglio come [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
+| Ordinare i componenti nella barra a sinistra | Sono state aggiunte informazioni sull’ordinamento dell’elenco dei componenti nella barra a sinistra. Consulta la sezione &quot;Ricerca, filtra e ordina l’elenco dei componenti&quot; in [Panoramica dei componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| Eliminare righe contenenti dimensioni dinamiche da una tabella a forma libera | Sono state aggiunte informazioni su come eliminare rapidamente righe specifiche contenenti dimensioni dinamiche utilizzando l’icona x. Consulta la sezione &quot;Escludere rapidamente righe specifiche da una tabella&quot; in [Filtrare e ordinare tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| Pulsante per aggiungere una visualizzazione all’interno di un pannello | Sono state aggiunte informazioni su un nuovo pulsante nella parte inferiore di ciascun pannello in Analysis Workspace, che consente di aggiungere rapidamente una visualizzazione. Consulta la sezione &quot;Aggiungi visualizzazioni a un pannello&quot; in [Panoramica delle visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **Aprile 2023** |  |
 | Trasferimento delle risorse utente e impostazione della scadenza dell&#39;account | Sono state aggiunte informazioni su come [trasferire le risorse utente e impostare la scadenza dell&#39;account](/help/admin/admin/user-management2/users-assets.md). |
 | 2 nuove guide sugli endpoint per l’API Adobe Analytics 2.0 | <ul><li>[API delle dimensioni di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API delle metriche di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
