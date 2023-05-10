@@ -5,10 +5,10 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: ce3fa1ae1a4785a6ed2adfe9128f180d3eaa341a
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 99%
+source-wordcount: '1273'
+ht-degree: 88%
 
 ---
 
@@ -16,9 +16,7 @@ ht-degree: 99%
 
 Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. La maggior parte dei tipi di visualizzazione ti saranno familiari se utilizzi Adobe Analytics. Tuttavia, Analysis Workspace consente di configurare le impostazioni di visualizzazione e offre molti tipi di visualizzazioni nuovi o unici, con funzionalità interattive.
 
-Puoi accedere alle visualizzazioni dall’icona in alto a sinistra in Workspace, da un [pannello vuoto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=it) o dal menu di scelta rapida nel flusso di lavoro.
-
-![](assets/viz-rail.png)
+## Tipi di visualizzazione
 
 In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
@@ -34,6 +32,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | [Tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una tabella a forma libera non è semplicemente una tabella di dati, ma è soprattutto una visualizzazione interattiva. È la base per l’analisi dei dati in Workspace. |
 | [Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Un istogramma classifica i visitatori, le visite o gli hit in blocchi in base a un volume di metrica. |
 | [Barre orizzontali](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barre orizzontali che rappresentano diversi valori su una o più metriche. |
+| [Riepilogo delle metriche chiave](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Mostra la tendenza di una metrica in un singolo arco temporale, o ti consente di confrontare le prestazioni della metrica in due intervalli di tempo. |
 | [Linee](/help/analyze/analysis-workspace/visualizations/line.md) | Rappresenta le metriche utilizzando una linea per mostrare il cambiamento dei valori nel corso di un intervallo di tempo. In un grafico a linee, l’asse X rappresenta il tempo. |
 | [Mappa](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate). |
 | [Grafico a dispersione](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Mostra la relazione tra gli elementi dimensionali fino a tre metriche. |
@@ -42,6 +41,26 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | [Testo](/help/analyze/analysis-workspace/visualizations/text.md) | Consente di aggiungere testo definito dall’utente al progetto Workspace. Utile per aggiungere ulteriore contesto alle analisi e alle informazioni, oltre a sfruttare le descrizioni di pannelli e visualizzazioni. |
 | [Mappa ad albero](/help/analyze/analysis-workspace/visualizations/treemap.md) | Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Utilizza dei cerchi per rappresentare la sovrapposizione delle metriche fino a 3 segmenti. |
+
+## Aggiungere visualizzazioni a un pannello
+
+1. Apri il progetto Analysis Workspace in cui desideri aggiungere una visualizzazione.
+
+1. Utilizza uno dei seguenti metodi per aggiungere la visualizzazione:
+
+   * Nella barra a sinistra, seleziona la **Visualizzazioni** icona <!-- add icon -->, quindi trascina una visualizzazione nel pannello in cui desideri aggiungerla.
+
+      ![](assets/viz-rail.png)
+
+   * Nel pannello in cui desideri aggiungere la visualizzazione, seleziona la **Plus** , quindi scegli l’icona che rappresenta la visualizzazione da aggiungere. Passa il puntatore sull’icona di ciascuna visualizzazione per visualizzarne il nome.
+
+      ![Pulsante per l’aggiunta di una visualizzazione](assets/visualization-add-to-panel.png)
+
+   * Aggiungi un [pannello vuoto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=it), quindi scegli la visualizzazione da aggiungere.
+
+      ![Pannello vuoto](assets/blank_panel.png)
+
+   * Fai clic con il pulsante destro del mouse su un pannello esistente nel progetto Analysis Workspace, quindi seleziona [!UICONTROL **Visualizzazione duplicata**] o [!UICONTROL **Visualizzazione copia**].
 
 ## Personalizzare le impostazioni di visualizzazione
 
