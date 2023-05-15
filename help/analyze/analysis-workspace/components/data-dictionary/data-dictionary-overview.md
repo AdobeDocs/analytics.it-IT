@@ -1,20 +1,23 @@
 ---
 description: Il dizionario dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, compreso l’uso previsto, che sono approvati, che sono duplicati, e così via.
-title: Panoramica sul dizionario dati
+title: Panoramica del dizionario dati
 feature: Components
 role: User, Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
+source-git-commit: daa5a5ccfb6642c97e0f391eba6226d365caa06c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 0%
+source-wordcount: '533'
+ht-degree: 1%
 
 ---
 
-# Panoramica sul dizionario dati
+# Panoramica del dizionario dati
 
 Il dizionario dati in Analysis Workspace aiuta sia gli utenti che gli amministratori a tenere traccia dei componenti nel proprio ambiente Analytics e a comprenderli meglio.
 
 Gli amministratori di Analytics sono responsabili della gestione delle informazioni su ciascun componente nel dizionario dati per renderlo disponibile agli utenti.
+
+![VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
 
 ## Vantaggi per gli utenti
 
