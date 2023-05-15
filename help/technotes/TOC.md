@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Note tecniche di Analytics
 breadcrumb-title: Note tecniche
 user-guide-description: Sfoglia una knowledge base contenente articoli utili che non sono specifici per un particolare strumento o componente di Analytics.
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: d53b13e6f67c8a769f5e56ba1c2582450a16c920
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '207'
 ht-degree: 80%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 80%
    + [Confrontare i dati con prodotti di terze parti](ga-to-aa/compare-data.md)
 + Analisi dei dati interessati dagli eventi {#event}
    + [Panoramica dell’analisi dei dati interessati dagli eventi](event/overview.md)
-   + [Risolvere i problemi relativi a picchi/cadute nei dati](event/spikes-drops.md)
+   + [Risoluzione dei problemi relativi a picchi/perdite di dati](event/spikes-drops.md)
    + [Esclusione di date specifiche nell’analisi](event/segments.md)
    + [Confronto delle date con intervalli precedenti](event/compare-dates.md)
    + [Derivazione dei dati interessati dagli eventi](event/calcmetrics.md)
@@ -42,11 +42,12 @@ ht-degree: 80%
    + [Browser cookie](cookies/cookies.md)
    + [Opzioni per attenuare l’effetto delle limitazioni dei cookie del browser](cookies/cookieless.md)
 + [Conservazione dati](data-retention.md)
-+ [Escludi dati](exclude-data.md)
++ [Escludere i dati](exclude-data.md)
 + [IP e domini utilizzati da Adobe Analytics](ip-addresses.md)
++ [Mappatura IP-geolocalizzazione migliorata](ip-geo-mapping.md)
 + [Latenza](latency.md)
 + [Valore traffico ridotto](low-traffic.md)
-+ [Migrare le regole di elaborazione di Mobile Services ad Adobe Analytics](migrate-mobile.md)
++ [Migrazione delle regole di elaborazione di Mobile Services ad Adobe Analytics](migrate-mobile.md)
 + [Supporto multi-valuta](multicurrency.md)
 + [Panoramica sulla privacy](privacy-overview.md)
 + [Ordine di elaborazione](processing-order.md)
