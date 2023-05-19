@@ -4,10 +4,10 @@ title: Filtrare e ordinare tabelle
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 69%
+source-wordcount: '823'
+ht-degree: 70%
 
 ---
 
@@ -29,7 +29,7 @@ I filtri in Analysis Workspace ti aiutano a far emergere le informazioni più im
 
 >[!NOTE]
 >
->Quando escludi le righe come descritto in questa sezione, [!UICONTROL **Non uguale a**] viene applicata automaticamente nella [**[!UICONTROL Advanced filtering]**](#apply-a-simple-or-advanced-filter) finestra di dialogo.
+>Quando escludi le righe come descritto in questa sezione, [!UICONTROL **Escludere sempre gli elementi**] la regola viene applicata automaticamente nella finestra di dialogo del filtro avanzato. Per visualizzare la regola applicata, seleziona l’icona Filtro , quindi [**[!UICONTROL Show advanced]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Per escludere rapidamente righe specifiche da una tabella a forma libera:
 
@@ -54,7 +54,7 @@ Per filtrare i dati nelle tabelle a forma libera:
    | [!UICONTROL **Ricerca di parole o frasi**] | Specificare una parola o una frase per la quale si desidera filtrare. Vengono visualizzate solo le righe contenenti la parola o la frase esatta specificata. |
    | [!UICONTROL **Includi non specificato (nessuno)**] | Selezionare questa opzione per visualizzare nella tabella i dati che non rientrano in alcuna delle dimensioni disponibili. <!--what is this?--> |
 
-1. (Facoltativo) Per filtrare in base a criteri diversi o a più criteri, seleziona [!UICONTROL **Filtro avanzato**].
+1. (Facoltativo) Per filtrare in base a criteri diversi o a più criteri, seleziona [!UICONTROL **Mostra avanzate**].
 
    Sono disponibili le seguenti opzioni di filtro avanzate:
 
