@@ -1,12 +1,12 @@
 ---
-title: Come impostare le preferenze di utenti e aziende in Analysis Workspace
+title: Impostare le preferenze di utente e società in Analysis Workspace
 description: Puoi impostare le preferenze generali e di progetto per gli utenti, nonché una preferenza per un tema scuro.
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: b4ab6862de537d594bfc83abedcd06b10b007f48
+source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
 workflow-type: tm+mt
-source-wordcount: '3217'
+source-wordcount: '3218'
 ht-degree: 76%
 
 ---
@@ -15,19 +15,21 @@ ht-degree: 76%
 
 Puoi gestire le impostazioni di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. I progetti e i pannelli esistenti non sono interessati.
 
-Guarda questo video per una breve panoramica delle preferenze:
+Guarda questo video per una breve panoramica sulle preferenze:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## Aggiornare le preferenze
 
-1. In Adobe Analytics, passa alla pagina [!UICONTROL **Progetto**] pagina di destinazione, quindi seleziona [!UICONTROL **Preferenze**].
+1. In Adobe Analytics, vai al [!UICONTROL **Progetto**] pagina di destinazione, quindi seleziona [!UICONTROL **Preferenze**].
 
    ![Preferenze utente](assets/user-preferences.png)
 
 1. Per informazioni sulle preferenze disponibili in ogni scheda, continua con una delle sezioni seguenti di questo articolo:
 
    * [Preferenze generali](#general-preferences)
+
+   * [Azienda](#company-preferences)
 
    * [Preferenze per i progetti](#project-preferences)
 
@@ -44,6 +46,24 @@ Puoi personalizzare le preferenze generali per tutti i nuovi progetti creati in 
 | Pagina di destinazione | Scegli quale pagina visualizzare come pagina predefinita quando accedi ad Adobe Analytics: <ul><li>Elenco progetti (impostazione predefinita)</li><li>Progetto vuoto</li><li>Progetto specifico  selezionato da un elenco</li></ul> |
 | Mostra suggerimenti | Visualizza i suggerimenti in una casella blu nell’area in basso a destra di Analysis Workspace. <p>L’opzione è abilitata per impostazione predefinita.</p> |
 | Componenti visualizzati nei gruppi della barra a sinistra | Scegli il numero di componenti da visualizzare nel menu Components (Componenti) nella barra a sinistra. <p>Scegliendo 0, il componente non sarà più accessibile dalla barra a sinistra di Workspaces.</p><p>Per impostazione predefinita, vengono visualizzati 5 componenti per ciascuno dei seguenti elementi:</p> <ul><li>Dimensioni</li><li>Metriche</li><li>Filtri</li><li>Intervalli di date</li></ul> <p>Per ulteriori informazioni sui componenti in Analysis Workspace, consulta la sezione [Panoramica dei componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
+
+## Preferenze società
+
+>[!AVAILABILITY]
+>
+>La funzionalità Collegamenti di accesso pubblico descritta in questa sezione si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
+
+Puoi aggiornare le preferenze aziendali che si applicano a tutti gli utenti e i progetti all’interno dell’organizzazione. Per informazioni su come accedere a queste preferenze, consulta la sezione [Aggiornare le preferenze](#update-preferences).
+
+| Sezione | Preferenza | Opzioni |
+| --- | --- | --- |
+| **Scheda Rapporti** |  |  |
+|  | Nascondi scheda Rapporti | Nasconde la scheda Rapporti per tutti gli utenti dell’organizzazione. |
+| **Condivisione dei progetti** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
+|  | Consenti condivisione solo con gli utenti di Workspace | <p>Quando questa opzione è abilitata, gli utenti dell’organizzazione non possono visualizzare l’opzione &quot;Condividi con nessuno&quot; nel menu Condividi. Ciò significa che gli utenti non possono condividere i progetti con persone che non hanno un account Analysis Workspace nella tua organizzazione come descritto in [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p><p>Questa opzione è disabilitata per impostazione predefinita per tutte le organizzazioni (ovvero gli utenti possono condividere i progetti con persone esterne all’organizzazione), ad eccezione di quelle del settore sanitario. </p><p>Quando abiliti o disabiliti questa opzione, tieni presente quanto segue:</p> <ul><li><p>Quando abiliti questa opzione, gli utenti che in precedenza avevano ricevuto l’accesso a un progetto tramite l’opzione di condivisione &quot;Condividi con chiunque&quot; non possono più accedere al progetto.</p></li><li><p>Se questa opzione è abilitata (per consentire la condivisione solo con gli utenti di Workspace) e successivamente disabilitata (per consentire la condivisione con chiunque), le persone che in precedenza hanno ricevuto l’accesso a un progetto tramite l’opzione di condivisione &quot;Condividi con chiunque&quot; non riacquistano automaticamente l’accesso al progetto. In questo caso, l’utente che ha condiviso il progetto deve abilitare [!UICONTROL **Il collegamento è attivo**] opzione disponibile quando condividi un progetto con chiunque ([!UICONTROL **Condividi**] > [!UICONTROL **Condividi con chiunque**]), come descritto in [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li><li><p>**Per le organizzazioni del settore sanitario:** Questa opzione è attivata e disattivata per impostazione predefinita. Prima di poter disabilitare questa opzione in modo che gli utenti possano utilizzare l’opzione di condivisione &quot;Condividi con chiunque&quot;, devi aggiungere [!UICONTROL **Condividere collegamenti ai progetti con altri utenti**] autorizzazione (che si trova in [!UICONTROL **Strumenti di Analytics**]) in Adobe Admin Console. Dopo aver aggiunto l’autorizzazione, puoi disabilitare questa opzione, quindi accettare l’avviso legale risultante. Per informazioni su come aggiungere un’autorizzazione nell’Admin Console, consulta [Gestione delle autorizzazioni del prodotto nell’Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-permissions-and-roles.html).</p></li> |
+|  | Richiedi autenticazione Experience Cloud | <p>Quando questa opzione è abilitata, gli utenti a cui viene dato accesso a un progetto dall’opzione &quot;Condividi con chiunque&quot; in Analysis Workspace devono eseguire l’autenticazione utilizzando le credenziali di Experience Cloud.</p> <p>Quando questa opzione è abilitata, ogni volta che un utente condivide un progetto utilizzando l’opzione di condivisione &quot;Condividi con chiunque&quot;, l’opzione &quot;Richiedi autenticazione Experience Cloud&quot; è abilitata nella finestra di dialogo di condivisione e non può essere disabilitata dall’utente che condivide il progetto. (Per informazioni su come gli utenti possono condividere i progetti con chiunque, vedi [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Quando abiliti questa opzione, tieni presente quanto segue:</p><ul><li><p>Quando abiliti questa opzione, tutti i progetti precedentemente condivisi con l’opzione di condivisione &quot;Condividi con chiunque&quot; e per i quali non è abilitata l’opzione &quot;Richiedi autenticazione Experience Cloud&quot;, vengono disattivati.</p></li> <li><p>Se questa opzione è abilitata (per richiedere l’autenticazione Experience Cloud) e successivamente disabilitata (per consentire a chiunque disponga del collegamento di accedere al progetto), le persone che in precedenza hanno ricevuto l’accesso a un progetto tramite l’opzione di condivisione &quot;Condividi con chiunque&quot; non riacquistano automaticamente l’accesso al progetto. In questo caso, l’utente che ha condiviso il progetto deve abilitare l’opzione &quot;Il collegamento è attivo&quot; disponibile quando condividi un progetto con chiunque ([!UICONTROL **Condividi**] > [!UICONTROL **Condividi con chiunque**] > [!UICONTROL **Il collegamento è attivo**]), come descritto in [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>Questa opzione è disponibile solo se SSO è implementato nell’organizzazione. Per informazioni su come gli amministratori di sistema possono abilitare l&#39;SSO per l&#39;organizzazione, vedere [Configurare identità e Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Se l&#39;SSO è configurato per la tua organizzazione, controlla se nella console è implementato qualsiasi tipo di creazione di account automatico. In genere, questa configurazione viene configurata da un amministratore di sistema, come descritto in [Abilita creazione account automatica](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>Se l’organizzazione opera in un settore che richiede la conformità HIPAA, questa opzione viene abilitata automaticamente e non può essere disabilitata.</p></li></ul> |
+
+{style="table-layout:auto"}
 
 ## Preferenze per i progetti
 
@@ -159,9 +179,9 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 |  | Numero di bucket | Scegli il numero di intervalli di dati (bucket) nella visualizzazione. Il numero massimo consentito è 50. <p>Per ulteriori informazioni, consulta la sezione [Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md).</p> |
 |  | Metodo di conteggio | Scegli tra le seguenti opzioni: <ul><li>Hit</li><li>Visita</li><li>Visitatore</li></ul> <p>Ad esempio, se utilizzato insieme alle visualizzazioni di pagina, puoi scegliere le visualizzazioni di pagina per visitatore, le visualizzazioni di pagina per visita o le visualizzazioni di pagina per hit. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera.</p> |
 | **[Mappa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** |  |  |
-|  | Dimensione di plottaggio | <ul><li>Latitudine/longitudine mobile</li><li>Dimensione geografica</li></ul> |
+|  | Quota di plottaggio | <ul><li>Latitudine/longitudine mobile</li><li>Dimensione geografica</li></ul> |
 |  | Tipo di mappa | <ul><li>Bolle</li><li>Mappa di calore</li></ul> |
-|  | Tema colore | Scegli tra Coral, Rossi, Verdi, Blues, Heatmap e Positive/Negative. |
+|  | Tema colore | Scegli tra Coral, Reds, Greens, Blues, Heatmap e Positive/Negative. |
 |  | Stile mappa | Scegli tra Basic, Streets, Bright, Light, Dark e Satellite. |
 | **[Variazione di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | Valore | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Variazione percentuale</li><li>Differenza grezza</li></ul> |
@@ -182,24 +202,6 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 |  | Visualizzazione legenda | Consente di nascondere il testo della legenda dettagliata per la visualizzazione A dispersione. |
 |  | Limite massimo elementi | Riduce il numero di elementi sull’asse X nella visualizzazione A dispersione. Può essere utile se disponi di un set di dati di grandi dimensioni. |
 |  | Ancoraggio asse y su zero | Se tutti i valori rappresentati sul grafico sono uniformemente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà NON-ZERO. Attivando questa opzione, l’asse y verrà forzata sullo zero (e il grafico verrà ridisegnato). |
-
-## Preferenze aziendali
-
->[!AVAILABILITY]
->
->La funzionalità Collegamenti di accesso pubblico descritta in questa sezione si trova nella fase di prova limitata della versione e potrebbe non essere ancora disponibile nel tuo ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
-
-Puoi aggiornare le preferenze aziendali applicabili a tutti gli utenti e ai progetti all’interno della tua organizzazione. Per informazioni su come accedere a queste preferenze, consulta la sezione [Aggiornare le preferenze](#update-preferences).
-
-| Sezione | Preferenza | Opzioni |
-| --- | --- | --- |
-| **Scheda Rapporti** |  |  |
-|  | Nascondi scheda Rapporti | Nasconde la scheda Report per tutti gli utenti dell’organizzazione. |
-| **Condivisione dei progetti** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
-|  | Consenti condivisione solo con gli utenti di Workspace | <p>Quando questa opzione è abilitata, gli utenti dell’organizzazione non possono visualizzare l’opzione &quot;Condividi con altri&quot; nel menu Condividi. Ciò significa che gli utenti non possono condividere progetti con persone che non dispongono di un account Analysis Workspace nella tua organizzazione come descritto in [Condivisione di un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p><p>Questa opzione è disabilitata per impostazione predefinita per tutte le organizzazioni (ovvero gli utenti possono condividere progetti con persone esterne all’organizzazione), tranne per quelle del settore sanitario. </p><p>Quando abiliti o disattivi questa opzione, considera quanto segue:</p> <ul><li><p>Quando abiliti questa opzione, le persone che in precedenza avevano ricevuto l’accesso a un progetto tramite l’opzione di condivisione Condividi con chiunque non possono più accedere al progetto.</p></li><li><p>Se questa opzione è abilitata (per consentire la condivisione solo con gli utenti di Workspace) e successivamente disabilitata (per consentire la condivisione con chiunque), le persone che in precedenza avevano ricevuto l’accesso a un progetto tramite l’opzione di condivisione &quot;Condividi con chiunque&quot; non riacquistano automaticamente l’accesso al progetto. In questo caso, l’utente che ha condiviso il progetto deve abilitare il [!UICONTROL **Collegamento attivo**] opzione disponibile quando condividi un progetto con un utente ([!UICONTROL **Condividi**] > [!UICONTROL **Condividi con chiunque**]), come descritto in [Condivisione di un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li><li><p>**Per le organizzazioni del settore sanitario:** Questa opzione è attivata e disattivata per impostazione predefinita. Prima di poter disabilitare questa opzione in modo che gli utenti possano utilizzare l&#39;opzione di condivisione &quot;Condividi con chiunque&quot;, devi prima aggiungere la [!UICONTROL **Condividi collegamenti di progetto con altri utenti**] autorizzazione (in [!UICONTROL **Strumenti di Analytics**]) in Adobe Admin Console. Dopo aver aggiunto l’autorizzazione, puoi disabilitare questa opzione e accettare l’avviso legale risultante. Per informazioni su come aggiungere un’autorizzazione nell’Admin Console, consulta [Gestione delle autorizzazioni del prodotto nell’Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-permissions-and-roles.html).</p></li> |
-|  | Richiedi autenticazione Experience Cloud | <p>Quando è attivata, le persone a cui è stato concesso l’accesso a un progetto dall’opzione &quot;Condividi con chiunque&quot; in Analysis Workspace devono effettuare l’autenticazione utilizzando le proprie credenziali Experienci Cloud.</p> <p>Dopo aver abilitato questa opzione, ogni volta che un utente condivide un progetto utilizzando l’opzione di condivisione &quot;Condividi con chiunque&quot;, l’opzione &quot;Richiedi autenticazione Experience Cloud&quot; viene abilitata nella finestra di dialogo di condivisione e non può essere disabilitata dall’utente che condivide il progetto. (Per informazioni su come gli utenti possono condividere i progetti con chiunque, consulta [Condivisione di un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Quando abiliti questa opzione, considera quanto segue:</p><ul><li><p>Quando abiliti questa opzione, vengono disattivati tutti i progetti precedentemente condivisi con l’opzione Condividi con chiunque e l’opzione &quot;Richiedi autenticazione Experience Cloud&quot; non è abilitata.</p></li> <li><p>Se questa opzione è abilitata (per richiedere l’autenticazione Experience Cloud) e successivamente disabilitata (per consentire a chiunque disponga del collegamento di accedere al progetto), le persone che in precedenza avevano ricevuto l’accesso a un progetto tramite l’opzione di condivisione &quot;Condividi con chiunque&quot; non riacquisteranno automaticamente l’accesso al progetto. In questo caso, l’utente che ha condiviso il progetto deve abilitare l’opzione &quot;Il collegamento è attivo&quot; disponibile quando condividi un progetto con un altro utente ([!UICONTROL **Condividi**] > [!UICONTROL **Condividi con chiunque**] > [!UICONTROL **Collegamento attivo**]), come descritto in [Condivisione di un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>Questa opzione è disponibile solo se l’SSO è implementato nell’organizzazione. Per informazioni su come gli amministratori di sistema possono abilitare SSO per la tua organizzazione, vedi [Impostazione dell&#39;identità e del Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Se l’SSO è configurato per la tua organizzazione, controlla se nella console è implementato un qualsiasi tipo di creazione automatica dell’account. In genere, un amministratore di sistema lo configura, come descritto in [Attiva creazione account automatica](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>Se l’organizzazione si trova in un settore che richiede la conformità HIPAA, questa opzione viene abilitata automaticamente e non può essere disabilitata.</p></li></ul> |
-
-{style="table-layout:auto"}
 
 ## Ripristina preferenze predefinite
 
