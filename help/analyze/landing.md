@@ -4,10 +4,10 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
-workflow-type: ht
-source-wordcount: '3797'
-ht-degree: 100%
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
+workflow-type: tm+mt
+source-wordcount: '3805'
+ht-degree: 99%
 
 ---
 
@@ -195,12 +195,12 @@ Altre opzioni di apprendimento:
 
 ### Gestione dei rapporti aziendali {#manage-company-reports}
 
-Gli amministratori possono filtrare l’elenco dei progetti per visualizzare e gestire i rapporti aziendali. Gli elementi fissati rimangono tali e sono seguiti dall’elenco dei rapporti aziendali identificati dall’![icona rapporto](assets/report-icon.png). In questa vista è possibile eliminare, rinominare, assegnare tag o approvare uno o più rapporti.
+Gli amministratori possono filtrare l’elenco dei progetti per visualizzare e gestire i rapporti aziendali. Gli elementi fissati rimangono tali e sono seguiti dall’elenco dei rapporti aziendali identificati dall’![icona rapporto](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg). In questa vista è possibile eliminare, rinominare, assegnare tag o approvare uno o più rapporti.
 
 Visualizzazione e gestione dei rapporti aziendali
 
 1. Nella barra dei filtri, seleziona **ALTRI FILTRI** e quindi **Rapporti aziendali**.
-Viene visualizzato un elenco dei rapporti aziendali. Tutti i progetti regolari non vengono visualizzati, a meno che non siano fissati.
+Viene visualizzato un elenco dei rapporti aziendali. Tutti i progetti regolari, a meno che non siano bloccati, non vengono visualizzati.
 
    ![Visualizzare i filtri per i rapporti aziendali](assets/company-reports-filter.png)
 

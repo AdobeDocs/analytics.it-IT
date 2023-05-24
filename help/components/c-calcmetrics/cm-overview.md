@@ -4,7 +4,7 @@ keywords: Metriche calcolate;Metriche derivate;Metriche calcolate avanzate
 title: Metriche calcolate e metriche calcolate avanzate (derivate)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 61%
@@ -103,7 +103,7 @@ Ecco una breve panoramica della [!UICONTROL Calculated Metrics] strumenti:
   </tr> 
   <tr> 
    <td colname="col1"> Barra del selettore delle metriche </td> 
-   <td colname="col2"> <p>Sostituisce il <span class="uicontrol"> Mostra metriche</span> finestra a comparsa in <span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Consente di cercare e aggiungere/applicare metriche al rapporto. È inoltre possibile modificare <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sort</a> ordine (le opzioni sono: alfabetico, consigliato, usato di frequente, usato di recente). Inoltre, puoi filtrare in base alle suite di rapporti in modo da visualizzare solo le metriche create in una specifica suite di rapporti. </p> <p>Per accedere a questo selettore delle metriche, fai clic sull’icona Metriche <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> a sinistra di un report. Ecco come appare il selettore delle metriche: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Sostituisce il <span class="uicontrol"> Mostra metriche</span> finestra a comparsa in <span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Consente di cercare e aggiungere/applicare metriche al rapporto. È inoltre possibile modificare <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sort</a> ordine (le opzioni sono: alfabetico, consigliato, usato di frequente, usato di recente). Inoltre, puoi filtrare in base alle suite di rapporti in modo da visualizzare solo le metriche create in una specifica suite di rapporti. </p> <p>Per accedere a questo selettore delle metriche, fai clic sull’icona Metriche <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> a sinistra di un report. Ecco come appare il selettore delle metriche: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API per metriche calcolate</a> </td> 

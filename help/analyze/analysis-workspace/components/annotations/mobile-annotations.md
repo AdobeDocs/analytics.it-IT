@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: 383a38e90cacf31ae92122b9e96845e5cd2950b6
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 93%
 
 ---
 
@@ -41,9 +41,9 @@ Quando le annotazioni sono abilitate, le icone di annotazione sono visibili nel 
 
 ![](assets/view-annotations.png)
 
-Quando le icone delle annotazioni sono visibili, non è possibile visualizzare o interagire completamente con le annotazioni nell’area di lavoro del generatore. Utilizza la modalità Anteprima per visualizzare e interagire con le annotazioni così come vengono visualizzate nell’app. ![](assets/preview-icon.png)
+Quando le icone delle annotazioni sono visibili, non è possibile visualizzare o interagire completamente con le annotazioni nell’area di lavoro del generatore. Utilizza la modalità Anteprima per visualizzare e interagire con le annotazioni così come vengono visualizzate nell’app ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **Anteprima**.
 
-I colori delle annotazioni vengono selezionati quando l’annotazione viene creata in Workspace. Le annotazioni grigie indicano la presenza di più annotazioni. ![](assets/gray-annotations1.png) ![](assets/gray-annotations2.png)
+I colori delle annotazioni vengono selezionati quando l’annotazione viene creata in Workspace. Le annotazioni grigie indicano la presenza di più annotazioni.
 
 ## Visualizzare le annotazioni del grafico
 

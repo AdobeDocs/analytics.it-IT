@@ -3,9 +3,9 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Creare metriche
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '962'
 ht-degree: 10%
 
 ---
@@ -21,7 +21,7 @@ Esistono diversi modi per arrivare al Generatore di metriche calcolate:
 
 * Clic **[!UICONTROL + Add]** nella parte superiore della [Gestione metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), o
 
-* Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, apri qualsiasi rapporto e fai clic sull’icona Metriche  ![](assets/metrics_icon.png) per visualizzare la barra Metriche, fai clic su **[!UICONTROL Add]**.
+* Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, apri qualsiasi rapporto e fai clic sull’icona Metriche  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) per visualizzare la barra Metriche, fai clic su **[!UICONTROL Add]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -41,7 +41,7 @@ Esistono diversi modi per arrivare al Generatore di metriche calcolate:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Descrizione </span> </td> 
-   <td colname="col3"> <p>Fornisci una descrizione intuitiva per mostrare a cosa serve e distinguerla da altre simili. </p> <p>La descrizione viene visualizzata anche all’interno di un rapporto. È meglio NON inserire la formula nella descrizione, ma descrivere a cosa deve e non deve essere utilizzata questa metrica. La formula viene generata durante la creazione della metrica, sotto l’intestazione Riepilogo. Di conseguenza, non è necessario aggiungere la formula alla descrizione.) </p> </td> 
+   <td colname="col3"> <p>Fornisci una descrizione intuitiva per mostrare a cosa serve e distinguerla da altre simili. </p> <p>La descrizione viene visualizzata anche all’interno di un rapporto. È meglio NON inserire la formula nella descrizione, ma descrivere a cosa deve e non deve essere utilizzata questa metrica. La formula viene generata durante la creazione della metrica, sotto l’intestazione Riepilogo. Non è quindi necessario aggiungere la formula alla descrizione.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Formato </span> </td> 
@@ -67,7 +67,7 @@ Esistono diversi modi per arrivare al Generatore di metriche calcolate:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Riepilogo </span> </td> 
-   <td colname="col3"> <p>Il <span class="uicontrol"> Riepilogo </span> La formula viene aggiornata ogni volta che si apporta una modifica alla definizione della metrica. Questa formula viene visualizzata anche nella barra delle metriche a sinistra, quando passi il cursore su una metrica e fai clic su <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> icona. </p> </td> 
+   <td colname="col3"> <p>Il <span class="uicontrol"> Riepilogo </span> La formula viene aggiornata ogni volta che si apporta una modifica alla definizione della metrica. Questa formula viene visualizzata anche nella barra delle metriche a sinistra, quando passi il cursore su una metrica e fai clic su <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> icona. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Definizione </span> </td> 
@@ -79,7 +79,7 @@ Esistono diversi modi per arrivare al Generatore di metriche calcolate:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Operatore </span> </td> 
-   <td colname="col3"> <p>Diviso per ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) è l'operatore predefinito e sono presenti gli operatori +, - e x. </p> </td> 
+   <td colname="col3"> <p>Diviso per ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) è l'operatore predefinito e sono presenti gli operatori +, - e x. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Anteprima </span> </td> 

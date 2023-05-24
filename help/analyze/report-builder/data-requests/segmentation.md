@@ -4,9 +4,9 @@ title: Gestire i segmenti (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '900'
 ht-degree: 7%
 
 ---
@@ -86,18 +86,18 @@ I filtri disponibili includono:
 
 L&#39;aggiunta di un controllo segmento consente di cambiare i segmenti all&#39;interno di una cartella di lavoro anziché passare alla Richiesta guidata.
 
-1. Fai clic sull’icona Controllo ( ![](assets/control_icon.png)) accanto al menu a discesa dei segmenti.
+1. Fai clic sull’icona Controllo ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) accanto al menu a discesa segmento.
 
    ![](assets/seg_control.png)
 
-1. Selezionare tutti i segmenti che si desidera visualizzare nel controllo segmento oppure selezionare **[!UICONTROL Select All]**.
-1. Osserva l’opzione **[!UICONTROL Automatically refresh linked requests upon item selection]**.
+2. Selezionare tutti i segmenti che si desidera visualizzare nel controllo segmento oppure selezionare **[!UICONTROL Select All]**.
+3. Osserva l’opzione **[!UICONTROL Automatically refresh linked requests upon item selection]**.
 
    * Se questa opzione è selezionata, tutte le richieste che utilizzano questo controllo vengono aggiornate.
    * Se non è selezionata, i parametri di richiesta associati vengono aggiornati, ma le richieste non vengono aggiornate.
 
-1. Specificare la posizione della cella superiore sinistra del controllo segmento.
-1. Clic **[!UICONTROL OK]** e il controllo segmento viene visualizzato nella posizione specificata.
+4. Specificare la posizione della cella superiore sinistra del controllo segmento.
+5. Clic **[!UICONTROL OK]** e il controllo segmento viene visualizzato nella posizione specificata.
 
    ![](assets/seg_control2.png)
 

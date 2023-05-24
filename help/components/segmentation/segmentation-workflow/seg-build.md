@@ -3,9 +3,9 @@ description: Il Generatore di segmenti fornisce un’area di lavoro per trascina
 title: Generare segmenti
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1943'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ Esistono diversi modi per accedere al Generatore di segmenti:
 
 * **Navigazione superiore di Analytics**: fai clic **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: fai clic **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, apri un progetto e fai clic su **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Reports & Analytics]**: fai clic **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, apri un rapporto esistente e fai clic sull’icona Segmenti  ![](assets/segment_icon.png) nel menu di navigazione a sinistra, fai clic su **[!UICONTROL Add]**.
+* **[!UICONTROL Reports & Analytics]**: fai clic **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, apri un rapporto esistente e fai clic sull’icona Segmenti  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) nel menu di navigazione a sinistra, fai clic su **[!UICONTROL Add]**.
 * **[!UICONTROL Report Builder]**: [Aggiungere o modificare segmenti nel Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## Criteri del generatore {#section_F61C4268A5974C788629399ADE1E6E7C}

@@ -5,7 +5,7 @@ uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
 role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 6%
@@ -35,7 +35,7 @@ Plug-in browser Activity Map:
 1. Torna alla barra degli indirizzi di Chrome e immetti `chrome://extensions`.
 1. Seleziona la casella Modalità sviluppatore.
 1. Fai clic su Carica estensioni decompresse e seleziona la cartella decompressa dalla finestra a comparsa.
-1. Se trovi un’icona Adobe Analytics  ![](assets/an_icon.png){width="70px"} aggiunto alla barra degli strumenti, il download è stato completato correttamente. Ora puoi [Activity Map di launch](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) dalla pagina.
+1. Se sulla barra degli strumenti è stata aggiunta un&#39;icona di Adobe Analytics, il download è stato eseguito correttamente. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Ora puoi [Activity Map di launch](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) dalla pagina.
 
 ## Installare il plug-in Activity Map su Firefox {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
@@ -47,7 +47,7 @@ Plug-in browser Activity Map:
 1. Fai clic su **[!UICONTROL Install Now]** (Usa modello di attribuzione non predefinito).
 1. Fai clic su **[!UICONTROL Open Menu]** in alto a destra e seleziona **[!UICONTROL Add-Ons]**. ![](assets/firefox_install3.png){width="250px"}
 1. Activity Map deve essere elencato come uno dei componenti aggiuntivi Firefox.
-1. Se trovi un’icona Adobe Analytics  ![](assets/an_icon.png) aggiunto alla barra degli strumenti, il download è stato completato correttamente. Ora puoi [Activity Map di launch](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) dalla pagina.
+1. Se sulla barra degli strumenti è stata aggiunta un&#39;icona di Adobe Analytics, il download è stato eseguito correttamente. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Ora puoi [Activity Map di launch](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) dalla pagina.
 
 ## Installare il plug-in Activity Map in Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 

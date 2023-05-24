@@ -3,10 +3,10 @@ description: I segmenti ti consentono di identificare sottoinsiemi di visitatori
 title: Informazioni sui segmenti
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 76%
+source-wordcount: '1169'
+ht-degree: 75%
 
 ---
 
@@ -86,9 +86,9 @@ Questo video offre una breve panoramica dei contenitori di segmenti e del loro u
 
 Per accedere al Generatore di segmenti:
 
-* Visualizzazione di un rapporto esistente e clic sull’icona Segmenti  ![Icona del segmento](assets/segment_icon.png) nel menu di navigazione a sinistra. Nella barra del segmento visualizzata, fai clic su **[!UICONTROL Add]**, oppure
+* Visualizzazione di un rapporto esistente e clic sull’icona Segmenti  ![Icona del segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) nel menu di navigazione a sinistra. Nella barra del segmento visualizzata, fai clic su **[!UICONTROL Add]**, oppure
 
-* Nella parte superiore del Gestore segmenti, fai clic su **[!UICONTROL + Add]**.  ![Pulsante Aggiungi](assets/add_button.png)
+* Nella parte superiore del Gestore segmenti, fai clic su **[!UICONTROL + Add]**.  ![Pulsante Aggiungi](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
    oppure
 

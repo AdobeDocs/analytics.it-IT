@@ -3,9 +3,9 @@ description: Descrive i due modi principali per trovare l’ordinamento e il fil
 title: Trovare metriche
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '243'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ Descrive i due modi principali per trovare le metriche: ordinamento e filtro.
 
 ## Ordinamento {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-Quando apri un rapporto e fai clic sull’icona Metriche  ![](assets/metrics_icon.png) a sinistra di un rapporto per visualizzare la barra Metriche, il simbolo **[!UICONTROL Sort By]** L’elenco a discesa nel Selettore metriche mostra quattro opzioni di ordinamento:
+Quando apri un rapporto e fai clic sull’icona Metriche  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)) a sinistra di un report per visualizzare la barra Metriche, il **[!UICONTROL Sort By]** L’elenco a discesa nel Selettore metriche mostra quattro opzioni di ordinamento:
 
 ![](assets/cm_sort.png)
 

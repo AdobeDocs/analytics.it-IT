@@ -3,10 +3,10 @@ description: È possibile filtrare per tag, proprietari e altri filtri (Mostra t
 title: Filtrare segmenti
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 95%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 I filtri facilitano la ricerca di segmenti nella barra dei segmenti.
 
-1. Nel Gestore segmenti fai clic sull’icona **[!UICONTROL Filters]**:  ![](assets/filter_icon.png)
+1. Nel Gestore segmenti fai clic sull’icona **[!UICONTROL Filters]**:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 
-1. Sono disponibili i seguenti filtri:
+2. Sono disponibili i seguenti filtri:
 
    | Nome filtro | Descrizione |
    |---|---|

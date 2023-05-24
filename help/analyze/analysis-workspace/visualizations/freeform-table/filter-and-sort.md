@@ -4,10 +4,10 @@ title: Filtrare e ordinare tabelle
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 70%
+source-wordcount: '839'
+ht-degree: 68%
 
 ---
 
@@ -25,17 +25,17 @@ I filtri in Analysis Workspace ti aiutano a far emergere le informazioni più im
 
 ### Escludere rapidamente righe specifiche da una tabella
 
-È possibile escludere rapidamente righe specifiche dalla tabella senza dover aprire la finestra di dialogo Filtro.
+Puoi escludere rapidamente righe specifiche dalla tabella senza dover aprire la finestra di dialogo Filtro.
 
 >[!NOTE]
 >
->Quando escludi le righe come descritto in questa sezione, [!UICONTROL **Escludere sempre gli elementi**] la regola viene applicata automaticamente nella finestra di dialogo del filtro avanzato. Per visualizzare la regola applicata, seleziona l’icona Filtro , quindi [**[!UICONTROL Show advanced]**](#apply-a-simple-or-advanced-filter-to-a-table).)
+>Quando escludi le righe come descritto in questa sezione, viene [!UICONTROL **Escludi sempre gli elementi**] la regola viene applicata automaticamente nella finestra di dialogo del filtro avanzato. Puoi visualizzare la regola applicata selezionando l’icona Filtro, quindi [**[!UICONTROL Show advanced]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Per escludere rapidamente righe specifiche da una tabella a forma libera:
 
-1. Passa il puntatore del mouse sulla riga da escludere, quindi seleziona l’icona x .
+1. Passa il puntatore del mouse sulla riga da escludere, quindi seleziona l’icona x.
 
-   Tenete premuto il tasto Maiusc per selezionare una riga di intervallo oppure tenete premuto il tasto Comando (su Mac) o il tasto Ctrl (su Windows) per selezionare più righe.
+   Tenere premuto il tasto Maiusc per selezionare un intervallo di righe, oppure tenere premuto il tasto Comando (su Mac) o il tasto Ctrl (su Windows) per selezionare più righe.
 
 ### Applicare un filtro semplice o avanzato a una tabella
 
@@ -51,7 +51,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
    | Opzione | Funzione |
    |---------|----------|
-   | [!UICONTROL **Ricerca di parole o frasi**] | Specificare una parola o una frase per la quale si desidera filtrare. Vengono visualizzate solo le righe contenenti la parola o la frase esatta specificata. |
+   | [!UICONTROL **Parola o frase di ricerca**] | Specificare una parola o una frase in base alla quale si desidera filtrare. Vengono visualizzate solo le righe contenenti la parola o la frase esatta specificata. |
    | [!UICONTROL **Includi non specificato (nessuno)**] | Selezionare questa opzione per visualizzare nella tabella i dati che non rientrano in alcuna delle dimensioni disponibili. <!--what is this?--> |
 
 1. (Facoltativo) Per filtrare in base a criteri diversi o a più criteri, seleziona [!UICONTROL **Mostra avanzate**].
@@ -67,20 +67,20 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 1. Seleziona [!UICONTROL **Applica**] per filtrare i dati.
 
-   L’icona **Filtro** ![Tabella con icona del filtro blu](assets/table-filter-blue-icon.png) diventa blu quando un filtro viene applicato alla tabella.
+   L’icona **Filtro** ![Tabella con icona del filtro blu](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) diventa blu quando un filtro viene applicato alla tabella.
 
 ## Ordinare le tabelle
 
-Puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna di Analysis Workspace che sia una metrica.
+Puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna in Analysis Workspace che sia una metrica.
 
-Icona con freccia giù ![Colonna tabella ordinata con icona con freccia giù](assets/table-sort-arrow-icon.png) è visibile nell’intestazione della colonna in base alla quale i dati vengono ordinati.
+Icona con freccia giù ![Colonna tabella ordinata con icona con freccia giù](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) è visibile nell’intestazione della colonna in base alla quale i dati vengono ordinati.
 
-Per ordinare i dati di una tabella a forma libera in base a una particolare colonna:
+Per ordinare i dati di una tabella a forma libera in base a una colonna specifica:
 
-1. Passa il puntatore del mouse sul titolo della colonna in base al quale vuoi ordinare i dati.
+1. Passa il cursore del mouse sul titolo della colonna in base al quale desideri ordinare i dati.
 
-1. Seleziona l’icona a forma di freccia giù quando viene visualizzata.
+2. Seleziona l’icona freccia giù quando viene visualizzata.
 
-   ![Icona a freccia in giù, colonna della tabella ordinata](assets/table-sort.png)
+   ![Icona freccia giù per colonna tabella ordinata](assets/table-sort.png)
 
    I dati della tabella sono ordinati in base alla colonna selezionata.
