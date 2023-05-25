@@ -4,7 +4,7 @@ title: Panoramica dei componenti
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 65%
@@ -103,8 +103,6 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nella barra a sinist
 
 ### Filtrare l’elenco dei componenti
 
-{{release-limited-testing-section}}
-
 1. Seleziona la **Componenti** icona ![Icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nella barra a sinistra.
 
 2. Seleziona la **Filtro** icona ![Icona Filtro dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
@@ -129,6 +127,8 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nella barra a sinist
 4. (Facoltativo) Per affinare ulteriormente l’elenco, puoi ordinare l’elenco dei componenti come descritto in [Ordinare l’elenco dei componenti](#sort-the-component-list).
 
 ### Ordinare l’elenco dei componenti
+
+{{release-limited-testing-section}}
 
 1. (Facoltativo) Applica i filtri all’elenco dei componenti, come descritto in [Filtrare l’elenco dei componenti](#filter-the-component-list).
 

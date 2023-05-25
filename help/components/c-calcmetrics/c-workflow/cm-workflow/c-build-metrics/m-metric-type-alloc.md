@@ -3,42 +3,41 @@ description: Scopri
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 6%
+source-wordcount: '472'
+ht-degree: 4%
 
 ---
 
 # Tipo di metrica e attribuzione
 
-Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specificare il tipo di metrica e il modello di attribuzione.
+Quando [creazione di una metrica calcolata](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), puoi specificare il tipo di metrica e il modello di attribuzione.
 
-## Tipi di metriche
+## Tipo di metrica
 
-![](assets/cm_type_alloc.png)
+Per specificare il tipo di metrica durante la creazione di una metrica calcolata:
 
-| Tipi di metriche | Definizione |
-|---|---|
-| Standard | Queste metriche sono le stesse utilizzate in Standard [!DNL Analytics] reportistica. Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singola riga. Ad esempio: [Ordini] / [Visite] prende ordini per quella voce specifica e lo divide per il numero di visite per quella voce specifica. |
-| Totale | Utilizza il totale per il periodo di reporting in ogni voce. Se una formula è costituita da una singola metrica totale, visualizza lo stesso numero totale su ogni riga. Le metriche totali sono utili per creare metriche calcolate che si confrontano con i dati totali del sito. Ad esempio: [Ordini] / [Visite totali] mostra la proporzione di ordini rispetto a TUTTE le visite al sito, non solo le visite alla voce specifica. |
+1. Seleziona l’icona a forma di ingranaggio accanto alla metrica di cui desideri selezionare il tipo.
+
+   ![](assets/cm_type_alloc.png)
+
+1. Scegli tra le seguenti opzioni:
+
+   | Tipi di metriche | Definizione |
+   |---|---|
+   | Standard | Queste metriche sono le stesse utilizzate in Standard [!DNL Analytics] reportistica. Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singola riga. Ad esempio: [Ordini] / [Visite] prende ordini per quella voce specifica e lo divide per il numero di visite per quella voce specifica. |
+   | Totale complessivo | Utilizza il totale complessivo per il periodo di reporting in ogni voce di riga. Se una formula è costituita da una singola metrica Totale complessivo, visualizza lo stesso numero totale su ogni riga. Le metriche del totale complessivo sono utili per creare metriche calcolate che si confrontano con i dati totali del sito. Ad esempio: [Ordini] / [Visite totali] mostra la proporzione di ordini rispetto a TUTTE le visite al sito, non solo le visite alla voce specifica. |
 
 ## Modello di attribuzione colonna
 
->[!IMPORTANT]
->
->[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) è stato rivisto il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate. Come parte di questa modifica, le metriche calcolate che utilizzano un modello di allocazione non predefinito sono state migrate a nuovi modelli di attribuzione migliorati:
->
->* Per un elenco completo dei modelli di attribuzione e degli intervalli di lookback non predefiniti supportati, consulta [Modelli di attribuzione e intervalli di lookback](/help/analyze/analysis-workspace/attribution/models.md).
->* I modelli di allocazione &quot;Marketing Channel Last Touch&quot; e &quot;Marketing Channel First Touch&quot; verranno migrati ai nuovi modelli di attribuzione &quot;Last Touch&quot; e &quot;First Touch&quot; rispettivamente (Nota: &quot;Marketing Channels&quot; non verrà dichiarato obsoleto, verranno aggiornati solo i due modelli di allocazione visualizzati nelle metriche calcolate).
->* Inoltre verrà corretto il metodo con cui viene calcolata l’allocazione lineare. Per i clienti che utilizzano metriche calcolate con modelli di allocazione &quot;Lineare&quot;, i rapporti possono cambiare leggermente per riflettere il nuovo modello di attribuzione corretto. La modifica alle metriche calcolate si rifletterà in Analysis Workspace, Reports &amp; Analytics, API di reporting e Report Builder. Per ulteriori informazioni, consulta **Come funziona l’allocazione lineare (dal 19 luglio 2018)**, di seguito.
-
-
 ## Funzionamento dell’allocazione lineare (dal 19 luglio 2018)
 
-A luglio 2018, Adobe ha modificato il modo in cui viene segnalata l’allocazione lineare per le metriche calcolate. Questa modifica interessa Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map e le API di reporting. La modifica interessa principalmente le eVar e altre dimensioni con persistenza. Tieni presente che queste modifiche si applicano solo alle metriche calcolate e non influiscono su altri rapporti che utilizzano l’allocazione lineare (come il rapporto Pagine in Reports &amp; Analytics). Altre relazioni che utilizzano l&#39;allocazione lineare continueranno a utilizzare il metodo esistente.
+[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) è la modalità di valutazione dei modelli di allocazione nelle metriche calcolate.
 
-L’esempio seguente illustra il modo in cui le metriche calcolate con allocazione lineare cambieranno nel reporting:
+Per un elenco completo dei modelli di attribuzione e degli intervalli di lookback non predefiniti supportati, consulta [Modelli di attribuzione e intervalli di lookback](/help/analyze/analysis-workspace/attribution/models.md).
+
+L’esempio seguente illustra il funzionamento delle metriche calcolate con allocazioni lineari nel reporting:
 
 |  | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 | Hit 6 | Hit 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -55,27 +54,3 @@ Esistono alcune differenze nel funzionamento dell’attribuzione lineare tra que
 
 * In Reports &amp; Analytics, l’attribuzione lineare (elaborata) è sempre basata sulle visite, mentre in Workspace può essere basata sulle visite o sui visitatori.
 * In Reports &amp; Analytics, se non veniva passato alcun valore al primo hit di una visita, il valore (iniziale) persisteva dalla visita precedente. Questo NON avviene in Workspace (Attribution IQ). Se non viene passato alcun valore al primo hit di una visita, allora &quot;Nessuno&quot; è il valore iniziale.
-
-## Funzionamento dell’allocazione lineare prima di luglio 2018
-
-Prima del 19 luglio 2018, l’attribuzione lineare era calcolata dopo che si era già verificato il primo contatto o la persistenza dell’ultimo contatto. Ciò significava che per l’ultimo eVar di contatto precedente, il $ 10 sarebbe stato distribuito come segue: A = 10 &#42; (3/6) = $5, B = 10 &#42; (2/6) = $ 3,33, C = 10 &#42; (1/6) = $1,67.
-
-Per l’eVar di primo contatto qui sopra, tutti i $ 10 vengono dati ad A. Per la proprietà: A = 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $2,50, e C = 10 &#42; (1/4) = $2,50. Per riepilogare l&#39;allocazione lineare come in precedenza:
-
-| Valori | EVar ultimo contatto corrente | EVar corrente primo contatto | Proprietà corrente |
-|---|---|---|---|
-| PROMOZIONE A | $ 5,00 | $10.00 | $ 5,00 |
-| PROMOZIONE B | $3.33 | $0 | $ 2,50 |
-| PROMOZIONE C | $1.67 | $0 | $ 2,50 |
-| Totale | $10.00 | $10.00 | $10.00 |
-
-**Riepilogo del funzionamento dell&#39;allocazione lineare**
-
-Invece di utilizzare i valori persistenti in base all’ultimo contatto o al primo contatto, [!DNL Analytics] ora utilizza solo i valori passati (la prima riga della tabella superiore). Di conseguenza, le impostazioni di allocazione delle dimensioni non influiscono più sul modo in cui viene calcolata l’allocazione lineare (ovvero prop ed eVar verranno trattate allo stesso modo) e i risultati riflettono ciò che è stato originariamente trasmesso, anziché i valori di primo o ultimo contatto che possono essere persistiti. In tutti e tre i casi, A = 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $2,50, e C = 10 &#42; (1/4) = $2,50.
-
-| Valori | Nuovo eVar ultimo contatto | Nuovo eVar First Touch | Nuova proprietà |
-|---|---|---|---|
-| PROMOZIONE A | $ 5,00 | $ 5,00 | $ 5,00 |
-| PROMOZIONE B | $ 2,50 | $ 2,50 | $ 2,50 |
-| PROMOZIONE C | $ 2,50 | $ 2,50 | $ 2,50 |
-| Totale | $10.00 | $10.00 | $10.00 |

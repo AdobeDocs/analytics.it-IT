@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 95%
+source-wordcount: '695'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
    + [Città](dimensions/cities.md)
    + [Profondità colore](dimensions/color-depth.md)
    + [Tipo di connessione](dimensions/connection-type.md)
-   + [Consent Management](dimensions/cm-opt-in.md)
+   + [Gestione del consenso opt-in](dimensions/cm-opt-in.md)
    + [Rinuncia alla gestione del consenso](dimensions/cm-opt-out.md)
    + [Supporto per cookie](dimensions/cookie-support.md)
    + [Paesi](dimensions/countries.md)
@@ -112,8 +112,8 @@ ht-degree: 95%
    + [Visualizzazioni di pagina medie per visita](metrics/average-page-views-per-visit.md)
    + [Lunghezza media della sessione](metrics/average-session-length.md)
    + [Tempo medio sul sito](metrics/average-time-on-site.md)
-   + [Occorrenze dei bot](metrics/bot-occurrences.md)
-   + [Visualizzazioni pagina in primo piano](metrics/bot-page-views.md)
+   + [Occorrenze bot](metrics/bot-occurrences.md)
+   + [Visualizzazioni di pagina bot](metrics/bot-page-views.md)
    + [Percentuale non recapitate](metrics/bounce-rate.md)
    + [Rimbalzi](metrics/bounces.md)
    + [Aggiunte al carrello](metrics/cart-additions.md)
@@ -186,14 +186,14 @@ ht-degree: 95%
       + [Flusso di lavoro per le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Trovare metriche](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Creare metriche](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Creare una metrica &quot;Visualizzazioni pagina in base alle visite&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Creare una metrica &quot;Order Assist&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Creare una metrica di &quot;partecipazione&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Tipo di metrica e attribuzione](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Creare una semplice metrica &quot;Visualizzazioni pagina in base alle visite&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Metriche segmentate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Sovrapponi e sostituisci segmenti](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Metriche filtrate e ponderate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [Ordina metrica di assistenze](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Usare le funzioni](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [Metrica di partecipazione](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Assegnare tag alle metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Approvare le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Condividere le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
@@ -234,12 +234,12 @@ ht-degree: 95%
    + [Avvisi intelligenti: casi di utilizzo](c-alerts/alerts-use-cases.md)
 + Classificazioni {#classifications}
    + [Panoramica delle classificazioni](classifications/c-classifications.md)
-   + Set di classificazioni {#sets}
+   + Set di classificazione {#sets}
       + [Panoramica sui set di classificazione](classifications/sets/overview.md)
-      + [Gestione set di classificazioni](classifications/sets/set-manager.md)
+      + [Gestione set di classificazione](classifications/sets/set-manager.md)
       + [Gestione processi set di classificazione](classifications/sets/job-manager.md)
       + [Creare un set di classificazione](classifications/sets/create.md)
-      + [Impostazioni set di classificazioni](classifications/sets/settings.md)
+      + [Impostazioni set di classificazione](classifications/sets/settings.md)
    + Generatore regole di classificazione {#classifications-rulebuilder}
       + [Flusso di lavoro di Generatore regole di classificazione](classifications/crb/classification-rule-builder.md)
       + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)

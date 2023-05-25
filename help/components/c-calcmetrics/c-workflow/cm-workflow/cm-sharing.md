@@ -3,10 +3,10 @@ description: A seconda delle autorizzazioni, puoi condividere le metriche con l�
 title: Condividere le metriche calcolate
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 22%
+source-wordcount: '276'
+ht-degree: 4%
 
 ---
 
@@ -16,27 +16,35 @@ A seconda delle autorizzazioni, puoi condividere le metriche con l’intera orga
 
 | Ruolo | Autorizzazioni |
 |---|---|
-| Amministratore | Può condividere le metriche con tutti, con i gruppi e con gli utenti. I gruppi sono configurati come gruppi di autorizzazioni nell’Admin Console. |
+| Amministratore | Può condividere le metriche con tutti, con i gruppi e con gli utenti. I gruppi sono impostati come gruppi di autorizzazioni nell’Admin Console. |
 | Non amministratore | Può condividere le metriche solo con singoli utenti. |
 
-Quando condividere le metriche con l’intera azienda anziché con un solo gruppo di utenti o singoli utenti? Ecco alcune best practice che potresti seguire:
+Per condividere una metrica calcolata:
 
-* In qualità di amministratore, condividi una metrica con **[!UICONTROL All]** se è utile per l&#39;intera azienda e tutti possono usarlo con facilità. In questo caso, dovresti anche considerare la possibilità di renderlo una metrica approvata.
-* In qualità di amministratore, condividi una metrica con un **[!UICONTROL Group]** se la metrica fornisce un buon valore aziendale per quel team.
-* In qualità di amministratore o di singolo utente, condividi una metrica con altri singoli utenti per esaminarla e convalidarla. Se non risulta utile, può essere scartato. Non approvare ufficialmente questo tipo di metrica.
+1. In Gestione metriche calcolate, seleziona la casella di controllo a sinistra di qualsiasi metrica da condividere.
 
-1. In Gestione metriche calcolate, contrassegna la casella di controllo accanto alla metrica da condividere. Viene visualizzata la barra delle applicazioni:
+1. Seleziona **[!UICONTROL Share]** (Aggiungi gruppi di campi).
 
-   ![](assets/cm_task_bar.png)
-
-1. Fai clic sull’icona **[!UICONTROL Share]**.
+   Viene visualizzata la finestra di dialogo Condividi metrica calcolata.
 
    ![](assets/cm_share.png)
 
-   Se sei un amministratore, puoi selezionare **[!UICONTROL All]** o scegli tra **[!UICONTROL Groups]** e (scorri verso il basso fino a) **[!UICONTROL Users]** nella tua organizzazione. In qualità di non amministratore, puoi visualizzare solo i singoli utenti. Usa il campo **[!UICONTROL Search]** per cercare gruppi o utenti
+1. Scegli con chi vuoi condividere:
 
-1. Fai clic su **[!UICONTROL Share]** (Usa modello di attribuzione non predefinito).
+   * **[!UICONTROL All]** (solo per amministratori): condivide con tutti gli utenti dell’organizzazione.
+
+      Valuta la condivisione con tutti solo se è utile per l’intera azienda e tutti possono usarla con facilità. In questo caso, dovresti anche considerare la possibilità di renderlo un [metrica approvata](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+
+   * **[!UICONTROL Groups]** (Solo per amministratori): seleziona i gruppi con cui desideri condividere la sessione.
+
+      Valuta la condivisione con un gruppo se la metrica fornisce un buon valore aziendale per quel team.
+
+   * **[!UICONTROL Individual users]**: cerca e seleziona i singoli utenti con cui desideri condividere la pagina.
+
+      Questa è l’unica opzione di condivisione disponibile per tutti gli utenti. Gli amministratori possono utilizzare questa opzione per esaminare e convalidare una metrica prima di renderla disponibile a un gruppo o a tutti. Se la metrica non è utile, può essere eliminata. Gli amministratori non devono approvare ufficialmente questo tipo di metrica.
+
+1. Seleziona **[!UICONTROL Share]** (Aggiungi gruppi di campi).
 
    Accanto alla metrica viene visualizzata l’icona Condiviso:  ![](assets/share_icon.png)
 
-1. Puoi filtrare le metriche condivise con te da **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
+1. (Facoltativo) Per filtrare l’elenco delle metriche calcolate nel gestore delle metriche calcolate in modo da visualizzare solo le metriche condivise con te, seleziona la **Filtro** icona, espandi **[!UICONTROL Other filters]**, quindi seleziona **[!UICONTROL Shared with me]**.

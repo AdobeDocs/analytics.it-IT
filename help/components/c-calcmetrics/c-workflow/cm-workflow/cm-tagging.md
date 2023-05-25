@@ -3,34 +3,53 @@ description: In Gestione metriche calcolate, l’assegnazione di tag ai segmenti
 title: Assegnare tag alle metriche calcolate
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 47%
+source-wordcount: '275'
+ht-degree: 2%
 
 ---
 
 # Assegnare tag alle metriche calcolate
 
-In Gestione metriche calcolate, l’assegnazione di tag ai segmenti ti consente di organizzarli.
+Nel gestore delle metriche calcolate, puoi organizzare i segmenti assegnandogli tag.
 
-Tutti gli utenti possono creare tag per le metriche calcolate e applicarne uno o più a una metrica. Tuttavia, puoi visualizzare solo i tag per le metriche calcolate di tua proprietà o che sono state condivise con te. Che tipo di tag è utile creare? Di seguito sono riportati alcuni suggerimenti di tag utili:
+Tutti gli utenti possono creare tag per le metriche calcolate e applicarne uno o più a una metrica. Tuttavia, puoi visualizzare solo i tag per le metriche calcolate di tua proprietà o che sono state condivise con te.
 
-* Tag basati sui **nomi dei team**, ad esempio Social Marketing e Mobile Marketing.
-* Tag del **progetto** (tag di analisi), ad esempio Analisi per pagina di ingresso.
-* Tag di **categorie**: maschile, geografia.
-* Tag del **flusso di lavoro**: Da approvare, Curato per (una specifica unità aziendale)
+>[!TIP]
+>
+>I tipi di tag più utili sono in genere quelli basati sui criteri seguenti:
 
-1. In Gestione metriche calcolate, contrassegna la casella di controllo accanto alla metrica a cui desideri assegnare il tag. Viene visualizzata la barra degli strumenti di gestione:
-1. Fai clic su **[!UICONTROL Tag]** e
+* **Nomi team**, ad esempio Social Marketing e Mobile Marketing.
+* **Progetti** (tag di analisi), ad esempio Analisi per pagina di ingresso.
+* **Categorie**, ad esempio Donne; Geografia.
+* **Flussi di lavoro**, come Da approvare; Curato per (una specifica unità aziendale)
 
-   * seleziona da tag esistenti, oppure
-   * aggiungi un nuovo nome di tag nella finestra di dialogo Aggiungi tag/Ricerca e premi **[!UICONTROL Enter]**.
+## Applicare i tag a una metrica calcolata
 
-      ![](assets/cm_add_tags.png)
+1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**] per passare alla gestione metriche calcolate.
 
-1. Clic **[!UICONTROL Tag]** per assegnare un tag alla metrica.
+1. In Gestione metriche calcolate, seleziona la casella di controllo accanto alle metriche alle quali desideri assegnare i tag.
 
-Ora il tag dovrebbe essere visualizzato nella colonna Tag (fai clic sull’icona a forma di ingranaggio in alto a destra per gestire le colonne).
+   ![](assets/cm_add_tags.png)
 
-Puoi anche filtrare i tag andando in **[!UICONTROL Show Filters]** > **[!UICONTROL Tags]**.
+1. In **[!UICONTROL Tag Calculated metric]** finestra di dialogo:
+
+   * Aggiungi un nuovo tag. Digita il nome nella [!UICONTROL **Aggiungi tag**] , quindi premere Invio.
+   * Seleziona uno o più tag esistenti da applicare alle metriche selezionate.
+
+1. Seleziona [!UICONTROL **Salva**] per applicare i tag.
+
+## Visualizza tag applicati
+
+1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**] per passare alla gestione metriche calcolate.
+
+1. Nel gestore delle metriche calcolate, i tag vengono visualizzati nel [!UICONTROL **Tag**] colonna. Fai clic sull’icona a forma di ingranaggio in alto a destra per gestire le colonne.
+
+## Filtrare le metriche per tag
+
+1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**] per passare alla gestione metriche calcolate.
+
+1. In Gestione metriche calcolate, seleziona la **Filtro** , quindi seleziona i tag in base ai quali desideri filtrare.
+
+   Vengono visualizzate solo le metriche con il filtro selezionato.

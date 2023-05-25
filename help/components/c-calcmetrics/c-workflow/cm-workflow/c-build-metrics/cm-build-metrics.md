@@ -3,29 +3,26 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Creare metriche
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '955'
 ht-degree: 10%
 
 ---
 
 # Creare metriche
 
-Il Generatore di metriche calcolate fornisce un’area di lavoro per trascinare e rilasciare Dimension, metriche, segmenti e funzioni per creare metriche personalizzate basate sulla logica gerarchica del contenitore, sulle regole e sugli operatori. Questo strumento di sviluppo integrato consente di generare e salvare metriche calcolate semplici o metriche calcolate avanzate complesse.
+Adobe Analytics fornisce un’area di lavoro per trascinare e rilasciare dimensioni, metriche, segmenti e funzioni per creare metriche personalizzate in base alla logica gerarchica dei contenitori, alle regole e agli operatori. Questo strumento di sviluppo integrato consente di generare e salvare metriche calcolate semplici o complesse.
 
-Esistono diversi modi per arrivare al Generatore di metriche calcolate:
+Puoi iniziare a creare una metrica calcolata in uno dei seguenti modi:
 
-* In Analysis Workspace, apri un progetto e fai clic  **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
-* In entrata [!DNL Analytics], vai a **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
-
-* Clic **[!UICONTROL + Add]** nella parte superiore della [Gestione metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), o
-
-* Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, apri qualsiasi rapporto e fai clic sull’icona Metriche  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) per visualizzare la barra Metriche, fai clic su **[!UICONTROL Add]**.
+* In Analysis Workspace, apri un progetto, quindi seleziona **[!UICONTROL Components]** > **[!UICONTROL Create metric]**.
+* In Analysis Workspace, apri un progetto, quindi seleziona la **Più** accanto al simbolo [!UICONTROL **Metriche**] nella barra a sinistra.
+* In entrata [!DNL Analytics], vai a **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**, quindi seleziona **[!UICONTROL + Add]** nella parte superiore della pagina Metriche calcolate.
 
 ![](assets/cm_builder_ui.png)
 
-## Componenti interfaccia utente {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
+## Campi e aree disponibili {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
 
 <table id="table_60A82936321047D1A335331BF83B0972"> 
  <thead> 

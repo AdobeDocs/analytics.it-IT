@@ -3,10 +3,10 @@ description: La segmentazione di singole metriche consente di effettuare confron
 title: Metriche segmentate
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 2%
+source-wordcount: '469'
+ht-degree: 1%
 
 ---
 
@@ -24,20 +24,32 @@ Supponiamo che tu voglia confrontare diversi aspetti di un segmento &quot;Visita
 * Come percentuale del totale dei visitatori, quanti visitatori tedeschi navigano in determinate pagine rispetto ai visitatori internazionali?
 * Quali sono le principali differenze in termini di contenuto a cui accedono questi diversi segmenti?
 
-1. Se non hai un segmento paragonabile, crea un segmento ad hoc nel generatore di metriche calcolate denominato &quot;Visitatori tedeschi&quot;, dove &quot;Paesi&quot; è uguale a &quot;Germania&quot;. Trascina la dimensione Paesi nell’area di lavoro Definizione e seleziona Germania come valore:
+Crea e salva una metrica denominata &quot;Visitatori tedeschi&quot; e una metrica denominata &quot;Visitatori internazionali&quot;:
+
+1. Crea un segmento ad hoc nel generatore di metriche calcolate denominato &quot;Visitatori tedeschi&quot;, dove &quot;Paesi&quot; è uguale a &quot;Germania&quot;.
+
+   Trascina la dimensione Paesi nell’area di lavoro Definizione e seleziona [!UICONTROL **Germania**] come valore:
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >Puoi eseguire questa operazione anche nel [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md), ma abbiamo semplificato il flusso di lavoro rendendo le dimensioni disponibili nel Generatore di metriche calcolate. &quot;Adhoc&quot; significa che il segmento non è visibile nel **[!UICONTROL Segments]** nella barra a sinistra. Tuttavia, puoi renderlo pubblico passando il puntatore sull’icona &quot;i&quot; accanto a esso e facendo clic su **[!UICONTROL Make public]**.
+   >Puoi eseguire questa operazione anche nel [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md), ma abbiamo semplificato il flusso di lavoro rendendo le dimensioni disponibili nel generatore di metriche calcolate. &quot;Adhoc&quot; significa che il segmento non è visibile nel **[!UICONTROL Segments]** nella barra a sinistra. Tuttavia, puoi renderlo pubblico passando il puntatore sull’icona &quot;i&quot; accanto a esso e facendo clic su **[!UICONTROL Make public]**.
 
-1. Se non hai un segmento paragonabile, crea un segmento denominato &quot;Visitatori internazionali&quot; in cui &quot;Paesi&quot; non è uguale a &quot;Germania&quot;.
-1. Crea e salva una metrica denominata &quot;Visitatori tedeschi&quot; trascinando il segmento Germania nell’area di lavoro Definizione e la metrica Visitatori univoci al suo interno:
+1. Trascina il segmento Germania nell’area di lavoro Definizione e al suo interno trascina la metrica Visitatori univoci:
 
    ![](assets/german-visitors.png)
 
-1. Ripeti il passaggio 3 con il segmento Visitatori internazionali e la metrica Visitatori univoci per creare una metrica Visitatori internazionali.
+1. Seleziona [!UICONTROL **Salva**] per salvare la metrica calcolata.
+
+1. Crea un segmento ad hoc nel generatore di metriche calcolate denominato &quot;Visitatori internazionali&quot;, dove &quot;Paesi&quot; non è uguale a &quot;Germania&quot;.
+
+   Trascina la dimensione Paesi nell’area di lavoro Definizione, seleziona [!UICONTROL **Germania**] come valore, quindi seleziona [!UICONTROL **non è uguale a**] come operatore.
+
+1. Trascina la metrica Visitatori univoci al suo interno.
+
+1. Seleziona [!UICONTROL **Salva**] per salvare la metrica calcolata.
+
 1. In Analysis Workspace, trascina **[!UICONTROL Page]** Dimension in una tabella a forma libera e trascina le due nuove metriche calcolate una accanto all’altra nella parte superiore:
 
    ![](assets/workspace-pages.png)
