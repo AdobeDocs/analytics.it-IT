@@ -3,16 +3,22 @@ description: All’interno di Gestione metriche calcolate, puoi impostare un flu
 title: Approvare le metriche calcolate
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 
 ---
 
 # Approvare le metriche calcolate
 
-In Gestione metriche calcolate è possibile impostare un flusso di lavoro che includa l&#39;approvazione delle metriche per vari livelli di applicazione e per reparti o gruppi specifici.
+In Gestione metriche calcolate, gli amministratori possono impostare un flusso di lavoro che include l’approvazione delle metriche per vari livelli di applicazione e per reparti o gruppi specifici.
+
+>[!NOTE]
+>
+>Gli amministratori possono inoltre approvare le metriche calcolate (e altri componenti) dal dizionario dati, come descritto in [Modificare le voci dei componenti nel dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>Tutte le metriche calcolate approvate nel dizionario dati vengono applicate al gestore delle metriche calcolate. Analogamente, le metriche approvate nel gestore delle metriche calcolate si riflettono nel dizionario dati.
 
 Per contrassegnare le metriche calcolate come approvate:
 

@@ -4,10 +4,10 @@ keywords: Metriche calcolate;Metriche derivate;Metriche calcolate avanzate
 title: Metriche calcolate e metriche calcolate avanzate (derivate)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 61%
+ht-degree: 51%
 
 ---
 
@@ -48,7 +48,7 @@ Ecco un confronto tra le funzionalità delle metriche calcolate e delle metriche
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* Incorporare funzioni statistiche per descrivere meglio i dati (solo per metriche calcolate avanzate). Ad esempio, puoi contare il numero di elementi in un rapporto o aggiungere il numero di deviazioni standard per ogni elemento.
+* Incorpora funzioni statistiche per descrivere meglio i tuoi dati (solo per metriche calcolate avanzate). Ad esempio, puoi contare il numero di elementi in un rapporto o aggiungere il numero di deviazioni standard per ogni elemento.
 
 ## Limitazioni {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -65,7 +65,7 @@ Alcuni [!DNL Analytics] Le funzioni di consentono di utilizzare eventi ma non me
 
 ## Strumenti {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Ecco una breve panoramica della [!UICONTROL Calculated Metrics] strumenti:
+Ecco una breve panoramica della [!UICONTROL Calculated metrics] strumenti:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 

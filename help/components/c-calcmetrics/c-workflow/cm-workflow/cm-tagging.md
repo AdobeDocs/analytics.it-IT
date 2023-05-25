@@ -3,7 +3,7 @@ description: In Gestione metriche calcolate, l’assegnazione di tag ai segmenti
 title: Assegnare tag alle metriche calcolate
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 2%
@@ -19,11 +19,12 @@ Tutti gli utenti possono creare tag per le metriche calcolate e applicarne uno o
 >[!TIP]
 >
 >I tipi di tag più utili sono in genere quelli basati sui criteri seguenti:
+>
+>* **Nomi team**, ad esempio Social Marketing e Mobile Marketing.
+>* **Progetti** (tag di analisi), ad esempio Analisi per pagina di ingresso.
+>* **Categorie**, ad esempio Donne; Geografia.
+>* **Flussi di lavoro**, come Da approvare; Curato per (una specifica unità aziendale)
 
-* **Nomi team**, ad esempio Social Marketing e Mobile Marketing.
-* **Progetti** (tag di analisi), ad esempio Analisi per pagina di ingresso.
-* **Categorie**, ad esempio Donne; Geografia.
-* **Flussi di lavoro**, come Da approvare; Curato per (una specifica unità aziendale)
 
 ## Applicare i tag a una metrica calcolata
 
