@@ -4,9 +4,9 @@ title: Gestire i segmenti (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '916'
 ht-degree: 7%
 
 ---
@@ -52,7 +52,7 @@ Puoi avere combinazioni specifiche di dimensioni di rapporto che desideri trasfo
 
 ## Cercare e applicare segmenti {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Tutti i segmenti creati in Reports &amp; Analytics, Report Builder o Data Warehouse vengono visualizzati in questo elenco di segmenti. Per aggiornare l’elenco, fai clic sull’icona Aggiorna ( ![](assets/refresh_icon.png).
+Tutti i segmenti creati in Reports &amp; Analytics, Report Builder o Data Warehouse vengono visualizzati in questo elenco di segmenti. Per aggiornare l’elenco, fai clic sull’icona Aggiorna ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 Puoi applicare uno o più segmenti a una determinata richiesta. Sono inclusi i segmenti sequenziali.
 
@@ -60,7 +60,7 @@ Puoi applicare uno o più segmenti a una determinata richiesta. Sono inclusi i s
 
    ![](assets/seg_list.png)
 
-1. Seleziona i segmenti da applicare.
+2. Seleziona i segmenti da applicare.
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ L&#39;aggiunta di un controllo segmento consente di cambiare i segmenti all&#39;
 
 ## Aggiorna l’elenco dei segmenti {#section_22E4A86789444B4A998532396B476EFB}
 
-Ogni volta che aggiungi un nuovo segmento o ne modifichi uno esistente, fai clic sull’icona Aggiorna ( ![](assets/refresh_icon.png) per aggiornare l’elenco dei segmenti memorizzati nella cache.
+Quando aggiungi un nuovo segmento o ne modifichi uno esistente, fai clic sull’icona Aggiorna. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) per aggiornare l’elenco dei segmenti memorizzati nella cache.
 
 ## Gestire i segmenti in più richieste {#section_C3D63FCBE1A94369A319243313B03C93}
 

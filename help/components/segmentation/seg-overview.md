@@ -3,10 +3,10 @@ description: I segmenti ti consentono di identificare sottoinsiemi di visitatori
 title: Informazioni sui segmenti
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 75%
+source-wordcount: '1177'
+ht-degree: 74%
 
 ---
 
@@ -102,7 +102,7 @@ Per accedere al Gestore segmenti:
 
 * Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** nella navigazione superiore. Quindi fai clic su **[!UICONTROL Segments]**, oppure
 
-* Visualizzazione di un rapporto esistente e clic sull’icona Segmenti  ![Icona del segmento](assets/segment_icon.png) nel menu di navigazione a sinistra. Quindi fai clic su **[!UICONTROL Manage]**, oppure
+* Visualizzazione di un rapporto esistente e clic sull’icona Segmenti  ![Icona del segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) nel menu di navigazione a sinistra. Quindi fai clic su **[!UICONTROL Manage]**, oppure
 
 * Premi il tasto barra “/” in qualsiasi punto dell’interfaccia e cerca il Gestore segmenti.
 

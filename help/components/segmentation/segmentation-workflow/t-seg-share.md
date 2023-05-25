@@ -3,10 +3,10 @@ description: A seconda delle autorizzazioni, puoi condividere i segmenti con l�
 title: Condividere segmenti
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 94%
 
 ---
 
@@ -25,16 +25,12 @@ Quando è necessario condividere i segmenti con l’intera azienda anziché con 
 * In qualità di amministratore, condividi un segmento con un **[!UICONTROL Group]** (gruppo) specifico se il segmento fornisce un buon valore aziendale per quel team. Non approvare ufficialmente questo tipo di segmento.
 * In qualità di amministratore o di singolo utente, condividi un segmento con altri singoli utenti per esaminarlo e convalidarlo. Se non risulta utile, può essere scartato. Non approvare ufficialmente questo tipo di segmento.
 
-1. Nel Gestore segmenti, contrassegna la casella di controllo accanto al segmento che desideri condividere. Viene visualizzata la barra degli strumenti di gestione del segmento:
+1. Nel Gestore segmenti, contrassegna la casella di controllo accanto al segmento che desideri condividere. Viene visualizzata la barra degli strumenti di gestione del segmento.
 
-   ![](assets/segment_mgmt_toolbar.png)
-
-1. Fai clic su **[!UICONTROL Share]**.
-
-   ![](assets/sharing_segments.png)
+2. Fai clic su **[!UICONTROL Share]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
    Se sei un amministratore, puoi selezionare **[!UICONTROL All]** (tutti) o scegliere tra **[!UICONTROL Groups]** (gruppi) e **[!UICONTROL Users]** (utenti) dell’organizzazione. In qualità di non amministratore, puoi visualizzare solo i singoli utenti. Usa il campo **[!UICONTROL Search]** per cercare gruppi o utenti. 1. Fai clic su **[!UICONTROL Share]**.
 
-   Accanto al segmento viene visualizzata l’icona Condiviso: ![](assets/share_icon.png)
+   Accanto al segmento viene visualizzata l’icona Condiviso: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
-1. Puoi filtrare i segmenti condivisi con te scegliendo **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
+3. Puoi filtrare i segmenti condivisi con te scegliendo **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.

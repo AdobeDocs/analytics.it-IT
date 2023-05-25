@@ -3,10 +3,10 @@ description: Il Gestore segmenti offre diversi modi per curare i segmenti, ad es
 title: Gestire segmenti (Gestore segmenti)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 97%
+source-wordcount: '431'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ Il Gestore segmenti offre diversi modi per curare i segmenti, ad esempio condivi
 Il Gestore segmenti di Analytics mostra tutti i segmenti di tua proprietà e quelli che sono stati condivisi con te. Gli utenti a livello di amministratore possono visualizzare tutti i segmenti dell’organizzazione. Questa panoramica presenta l’interfaccia utente e le funzionalità del Gestore segmenti. Per accedere al Gestore segmenti
 
 * Vai su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]** nella navigazione superiore.
-* Visualizza un rapporto esistente e fai clic sull’icona Segmenti ![](assets/segment_icon.png) nella navigazione a sinistra. Quindi fai clic su **[!UICONTROL Manage]**.
+* Visualizza un rapporto esistente e fai clic sull’icona Segmenti ![ nella navigazione a sinistra. ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) Quindi fai clic su **[!UICONTROL Manage]**.
 
 ## Video introduttivo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
