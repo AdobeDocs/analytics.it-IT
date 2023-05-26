@@ -3,18 +3,16 @@ description: Mostra come creare una semplice metrica "Visualizzazioni pagina in 
 title: Creare una semplice metrica “Visualizzazioni pagina in base alle visite”
 feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 7%
+source-wordcount: '228'
+ht-degree: 3%
 
 ---
 
-# Creare una semplice metrica “Visualizzazioni pagina in base alle visite”
+# Creare una metrica &quot;Visualizzazioni pagina in base alle visite&quot;
 
 Le informazioni seguenti spiegano come creare una semplice metrica &quot;Visualizzazioni pagina in base alle visite&quot;.
-
-Per una descrizione dettagliata dei componenti dell’interfaccia utente, vedi [Creare metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 Per creare una semplice metrica &quot;Visualizzazioni pagina in base alle visite&quot;:
 

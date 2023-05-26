@@ -3,7 +3,7 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Creare metriche
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Puoi iniziare a creare una metrica calcolata in uno dei seguenti modi:
 
 ## Aree del generatore di metriche calcolate
 
-L’immagine seguente e la tabella che l’accompagna illustrano alcune delle aree e delle funzioni principali di Gestione metriche calcolate.
+L’immagine seguente e la tabella che l’accompagna illustrano alcune delle aree e delle funzioni principali del generatore di metriche calcolate.
 
 ![](assets/cm_builder_ui.png)
 
@@ -40,7 +40,7 @@ L’immagine seguente e la tabella che l’accompagna illustrano alcune delle ar
 | 8 | **Definizione:** È qui che puoi trascinare metriche/metriche calcolate, segmenti e/o funzioni per creare la metrica calcolata. <ul><li>Se trascini una metrica calcolata, la relativa definizione di metrica verrà espansa automaticamente. </li> <li>È possibile nidificare le definizioni con i contenitori. Tuttavia, a differenza dei contenitori di segmenti, questi contenitori funzionano come un’espressione matematica e determinano l’ordine delle operazioni. </li> </ul> |
 | 9 | **Operatore:** Diviso per ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) è l&#39;operatore predefinito e sono presenti gli operatori +, - e x. |
 | 10 | **Anteprima:** Fornisce una lettura rapida su eventuali errori. L’anteprima copre gli ultimi 90 giorni. Questo è un modo per valutare inizialmente se hai selezionato i componenti giusti per la metrica. Un risultato imprevisto richiederebbe una seconda occhiata alla definizione della metrica. |
-| 11 | **Compatibilità del prodotto:** <p>La compatibilità del prodotto mostra se la metrica è compatibile con <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > Dati correnti </a>, con dati completamente elaborati o solo con rapporti sul canale di marketing (allocazione di primo contatto). <p>Nota: i dati correnti non supportano tutte le metriche. Le metriche che contengono segmenti o funzioni non sono compatibili con i dati correnti. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Altro... </a> </p> </p> |
+| 11 | **Compatibilità del prodotto:** La compatibilità del prodotto mostra se la metrica è compatibile con <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > Dati correnti </a>, con dati completamente elaborati o solo con rapporti sul canale di marketing (allocazione di primo contatto). <p>Nota: i dati correnti non supportano tutte le metriche. Le metriche che contengono segmenti o funzioni non sono compatibili con i dati correnti. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Altro... </a> </p> </p> |
 | 12 | **Aggiungi:** Per tutti i tipi di metriche calcolate, puoi aggiungere contenitori e numeri statici alla definizione. Per le metriche calcolate avanzate, puoi anche aggiungere segmenti e funzioni. <ul><li>I contenitori funzionano come un’espressione matematica e determinano l’ordine delle operazioni. Pertanto, qualsiasi elemento in un contenitore verrà elaborato prima dell’operazione successiva.</li><li>Trascinare un segmento in un contenitore segmenta tutto ciò che si trova in quel contenitore. (Solo metriche calcolate avanzate)</li><li>Puoi impilare più segmenti in un contenitore.</li></ul> |
 | 13 | **Icona ingranaggio (tipo di metrica, attribuzione):** Selezionando l’icona a forma di ingranaggio accanto a una metrica puoi specificare <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > tipo di metrica e modelli di attribuzione </a>. |
 | 14 | **Nuovo:** Consente di creare un nuovo componente, ad esempio un nuovo segmento, che ti porta al <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Generatore di segmenti </a>.) |

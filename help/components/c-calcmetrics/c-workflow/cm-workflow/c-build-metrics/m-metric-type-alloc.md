@@ -3,9 +3,9 @@ description: Scopri
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '466'
 ht-degree: 4%
 
 ---
@@ -29,9 +29,7 @@ Per specificare il tipo di metrica durante la creazione di una metrica calcolata
    | Standard | Queste metriche sono le stesse utilizzate in Standard [!DNL Analytics] reportistica. Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singola riga. Ad esempio: [Ordini] / [Visite] prende ordini per quella voce specifica e lo divide per il numero di visite per quella voce specifica. |
    | Totale complessivo | Utilizza il totale complessivo per il periodo di reporting in ogni voce di riga. Se una formula è costituita da una singola metrica Totale complessivo, visualizza lo stesso numero totale su ogni riga. Le metriche del totale complessivo sono utili per creare metriche calcolate che si confrontano con i dati totali del sito. Ad esempio: [Ordini] / [Visite totali] mostra la proporzione di ordini rispetto a TUTTE le visite al sito, non solo le visite alla voce specifica. |
 
-## Modello di attribuzione colonna
-
-## Funzionamento dell’allocazione lineare (dal 19 luglio 2018)
+## Come funziona l’allocazione lineare
 
 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) è la modalità di valutazione dei modelli di allocazione nelle metriche calcolate.
 

@@ -3,9 +3,9 @@ description: Spiega come creare una metrica che mostra quali canali di marketing
 title: Ordina metrica di assistenze
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Le informazioni seguenti spiegano come creare una metrica che mostra quali canal
 
 1. Inizia a creare una metrica calcolata, come descritto in [Creare metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. Nel generatore di metriche calcolate, denomina la metrica &quot;Ordini assistiti&quot;.
+1. Nel generatore di metriche calcolate, denomina la metrica &quot;Ordini assistiti&quot; o qualcosa di simile.
 
 1. Nell’area di lavoro Definizione, trascina una metrica Ordini. Quindi, regola il modello di attribuzione tramite l’ingranaggio delle impostazioni selezionando la **[!UICONTROL Use non-default attribution models]** casella di controllo.
 
