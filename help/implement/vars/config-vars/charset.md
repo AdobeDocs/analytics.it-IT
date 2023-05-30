@@ -3,16 +3,16 @@ title: charSet
 description: La variabile charSet determina il tipo di codifica utilizzato dall’Adobe per analizzare la richiesta di immagine.
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 17%
 
 ---
 
 # charSet
 
-La variabile charSet viene utilizzata da Adobe per convertire i dati in arrivo in UTF-8 per l’archiviazione e il reporting da parte di Analytics. La maggior parte dei siti non deve impostare questa variabile.
+Il `charSet` La variabile viene utilizzata da Adobe per convertire i dati in entrata in UTF-8 per l’archiviazione e il reporting da parte di Analytics. La maggior parte dei siti non deve impostare questa variabile.
 
 Imposta questa variabile solo se vengono visualizzati valori illeggibili ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) nei rapporti. Puoi impostare questa variabile pagina per pagina, se il tuo sito utilizza codifiche diverse su pagine diverse.
 
