@@ -3,7 +3,7 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 55c7f9223328cc629a2155dfb472aeae50d6f448
+source-git-commit: 8f74d43dc5312763093a8a47e4c92b40a17d725c
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 77%
@@ -12,7 +12,7 @@ ht-degree: 77%
 
 # Note sulla versione corrente di Adobe Analytics (maggio 2023)
 
-**Ultimo aggiornamento**: 26 maggio 2023
+**Ultimo aggiornamento**: 30 maggio 2023
 
 I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -21,7 +21,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Retrocompilazione per sandbox non di produzione** | Quando crei un flusso di dati del connettore di origine di Analytics in una sandbox non di produzione, la retrocompilazione nelle sandbox non di produzione sarà limitata a 3 mesi. Per le sandbox di produzione resterà invece a 13 mesi. | N/D | 26 aprile 2023 |
-| **Condivisione dei collegamenti per i progetti (accesso non richiesto)** | Ora puoi condividere collegamenti di sola lettura per i progetti Analysis Workspace con chi non ha accesso ad Adobe Analytics. Ad esempio, puoi condividerli con persone esterne all’organizzazione o con persone all’interno dell’organizzazione che non dispongono del provisioning per Adobe Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it#share-public-link)<p>Questa funzionalità è abilitata per impostazione predefinita e può essere disabilitata dall’amministratore di sistema. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=it#company-preferences)</p> | 3 maggio 2023 | Giugno 2023 |
+| **Condivisione dei collegamenti per i progetti (accesso non richiesto)** | Ora puoi condividere collegamenti di sola lettura per i progetti Analysis Workspace con chi non ha accesso ad Adobe Analytics. Ad esempio, puoi condividerli con persone esterne all’organizzazione o con persone all’interno dell’organizzazione che non dispongono del provisioning per Adobe Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it#share-public-link)<p>Questa funzionalità è abilitata per impostazione predefinita e può essere disabilitata dall’amministratore di sistema. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=it#company-preferences)</p> | 3 maggio 2023 | 5 giugno 2023 |
 | **Schermata Home aggiornata per l’app delle dashboard di Analytics (app mobile)** | La nuova schermata Home aggiornata consente di visualizzare tutte le scorecard in un unico elenco di scorecard consolidato.  Se hai accesso a più organizzazioni con un solo login, tutte le scorecard delle organizzazioni saranno disponibili in un unico elenco. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html#use-dashboards) | N/D | 10 maggio 2023 |
 | **Ordinare i componenti in Analysis Workspace** | È ora disponibile una nuova opzione Ordina quando si visualizzano i componenti nella barra a sinistra o nel dizionario dei dati in Analysis Workspace. I componenti possono essere elencati a partire da quelli consigliati (utilizzati più spesso), in ordine alfabetico oppure per categoria (o tipo).<p>In precedenza era possibile solo cercare o filtrare i componenti. [Ulteriori informazioni](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | N/D | Da definire |
 | **Eliminare righe contenenti dimensioni dinamiche da una tabella a forma libera** | In una tabella a forma libera di Analysis Workspace, ora è possibile utilizzare l’icona X per eliminare rapidamente righe specifiche contenenti dimensioni dinamiche. In questo caso, viene applicata automaticamente una regola di filtro &quot;Escludi sempre elementi&quot;.<p>In precedenza, per eliminare le righe contenenti dimensioni dinamiche era necessario creare manualmente una regola nella finestra di dialogo Filtro. [Ulteriori informazioni](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | N/D | 17 maggio 2023 |
