@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '4122'
+source-wordcount: '4157'
 ht-degree: 95%
 
 ---
@@ -25,6 +25,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Giugno 2023** |  |
+| Aggiornamenti delle metriche calcolate | Sono stati aggiornati vari articoli relativi alle metriche calcolate, tra cui l’aggiornamento delle schermate e dei passaggi delle procedure. Queste modifiche sono state apportate per allineare la documentazione alle attuali funzionalità di Adobe Analytics. |
 | **Maggio 2023** |  |
 | Icone Spettro | Sono state sostituite, se necessario, le schermate delle icone dell’interfaccia utente nella documentazione con riferimenti alle icone equivalenti in [Adobe di progettazione dello spettro](https://spectrum.adobe.com/page/icons/). |
 | Mappatura IP-geolocalizzazione migliorata | È stato creato un argomento su [Domande frequenti](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
