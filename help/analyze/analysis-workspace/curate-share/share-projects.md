@@ -5,10 +5,10 @@ title: Condividere progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
+source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 27%
+source-wordcount: '1755'
+ht-degree: 26%
 
 ---
 
@@ -129,6 +129,10 @@ Puoi concedere [accesso in sola lettura](/help/analyze/analysis-workspace/curate
 >* Un progetto potrebbe diventare inaccessibile se molti utenti tentano di accedere contemporaneamente a un determinato collegamento. Per impostazione predefinita, più di 190 persone possono accedere a un singolo collegamento ogni 5 minuti. Se l’organizzazione raggiunge questo limite, attendi 5 minuti e prova di nuovo ad accedere al collegamento.
 
 
+La seguente dimostrazione video e la relativa documentazione descrivono le opzioni associate alla condivisione di un collegamento con chiunque:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 Per condividere un progetto Analysis Workspace con persone che non hanno accesso ad Adobe Analytics:
 
 1. Apri il progetto Analysis Workspace che desideri condividere.
@@ -149,7 +153,7 @@ Per condividere un progetto Analysis Workspace con persone che non hanno accesso
 
    * **[!UICONTROL Require Experience Cloud authentication]:**
 
-      Quando questa opzione è abilitata, solo gli utenti che possono accedere all’organizzazione Adobe Experience Cloud in cui è stato creato il progetto che stai condividendo possono accedere al progetto.
+      Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono gli utenti che possono accedere all’organizzazione Adobe Experience Cloud in cui è stato creato il progetto condiviso. Tuttavia, gli utenti con cui condividi non devono avere accesso ad Adobe Analytics.
 
       Gli amministratori di Analytics possono configurare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
 
