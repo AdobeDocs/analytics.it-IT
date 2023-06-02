@@ -4,10 +4,10 @@ keywords: segmentazione;segmenti
 title: Contenitori di segmenti
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: d9087fbb2d7aef49dab42692ba6bc189e3c32d55
+source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
 workflow-type: tm+mt
-source-wordcount: '3473'
-ht-degree: 57%
+source-wordcount: '3454'
+ht-degree: 54%
 
 ---
 
@@ -370,7 +370,7 @@ In sintesi, comprendere il funzionamento della segmentazione su vari raggruppame
 
 Ogni raggruppamento dei dati dei segmenti ha un determinato ambito a cui viene applicata. La maggior parte dei raggruppamenti si basa sulle *visualizzazioni di pagina*, tuttavia molti segmenti importanti si basano sul contenitore *Visita* e in misura minore sul contenitore *Visitatore*. È importante comprendere i rapporti in base all’ambito del contenitore.
 
-Utilizzo di *Pagina = Cappotti invernali* Esempio di segmento: di seguito sono riportati alcuni esempi di risultati di questo segmento in base a come vengono applicati i dati del contenitore e a come l’ambito dei dati corrisponde al tipo di segmento.
+Utilizzo di `Page equals Winter Coats` Esempio di segmento: di seguito sono riportati alcuni esempi di risultati di questo segmento in base a come vengono applicati i dati del contenitore e a come l’ambito dei dati corrisponde al tipo di segmento.
 
 ### Contenitore di segmenti basato sulla regola del segmento corrispondente
 
@@ -407,7 +407,7 @@ I dati del segmento possono variare in base alla persistenza di una dimensione o
 
 A differenza della dimensione pagina, il valore del dominio di riferimento è associato a ogni pagina in questa visita. Ad esempio, il visitatore di seguito arriva alla home page da un sito referrer. Pertanto, a tutte le pagine all’interno di tale visita viene assegnato lo stesso valore di dominio di riferimento.
 
-Il segmento *Dominio di riferimento è uguale a aol.com* riportato di seguito è applicato al **rapporto delle pagine**.
+Il `Referring Domain equals aol.com` il segmento seguente viene applicato al **Rapporto pagine**.
 
 <table style="table-layout:fixed; border: 0;">
 
@@ -451,9 +451,9 @@ In una nuova visita, il visitatore proviene da un altro sito referrer. Pertanto,
 
 ### Generazione di rapporti dal contenitore Hit
 
-Poiché a tutte le visualizzazioni di pagina all’interno della stessa visita viene assegnato lo stesso valore del dominio di riferimento, il reporting a livello del contenitore Hit in cui *Dominio di riferimento = “aol.com”* restituisce tutte le pagine elencate nella tabella seguente.
+Poiché a tutte le visualizzazioni di pagina all’interno della stessa visita viene assegnato lo stesso valore del dominio di riferimento, il reporting viene eseguito a livello del contenitore Hit in cui `Referring Domain equsls 'aol.com'` restituisce tutte le pagine elencate nella tabella seguente.
 
-| Dominio di riferimento = &#39;aol.com&#39; | Visualizzazioni pagina |
+| Il dominio di riferimento è uguale a &quot;aol.com&quot; | Visualizzazioni pagina |
 |----|---:|
 | Home | 1 |
 | Abbigliamento invernale | 1 |
@@ -472,9 +472,9 @@ Dai dati del contenitore Hit emerge che poco più di 92.000 visualizzazioni di p
 
 ### Generazione di rapporti dal contenitore Visita
 
-Se la stessa condizione viene filtrata nel contenitore Visita per un rapporto di pagine, tutte le pagine della visita in cui *Dominio di riferimento = “aol.com”* sono true. Poiché il valore del dominio di riferimento è impostato a livello di visita, i rapporti a livello di visualizzazione di pagina e visita sono gli stessi.
+Se la stessa condizione viene filtrata nel contenitore Visita per un rapporto di pagine, tutte le pagine della visita in cui `Referring Domain equals 'aol.com'`è vero. Poiché il valore del dominio di riferimento è impostato a livello di visita, i rapporti a livello di visualizzazione di pagina e visita sono gli stessi.
 
-| Dominio di riferimento = &#39;aol.com&#39; | Visualizzazioni pagina |
+| Il dominio di riferimento è uguale a &quot;aol.com&quot; | Visualizzazioni pagina |
 |----|---:|
 | Home | 1 |
 | Abbigliamento invernale | 1 |
@@ -493,11 +493,11 @@ Poiché tutte le pagine hanno lo stesso valore del dominio di riferimento in bas
 
 ### Generazione di rapporti dal contenitore Visitatore
 
-Dal contenitore Visitatore, il rapporto di pagina elenca tutte le pagine visualizzate da qualsiasi visitatore in cui *Dominio di riferimento è uguale a “aol.com”* è true. Pertanto, se un visitatore ha *&quot;aol.com&quot;* come dominio di riferimento in qualsiasi momento della cronologia (entro il periodo di tempo definito), vengono elencate tutte le pagine del contenitore Visitatore (comprese le visualizzazioni di pagina in altre visite). Anche le pagine che non corrispondono alla condizione principale sono elencate nel rapporto, perché sono incluse nel contenitore Visitatore. Tutte le pagine nel contenitore Visitatore sono elencate nel rapporto, anche se si sono verificate in precedenza e non soddisfano specificatamente le condizioni.
+Dal contenitore Visitatore, il rapporto di pagina elenca tutte le pagine visualizzate da qualsiasi visitatore in cui `Referring Domain equals 'aol.com'` è vero. Pertanto, se un visitatore ha *&#39;aol.com&#39;* come dominio di riferimento in qualsiasi momento della cronologia (entro il periodo di tempo definito), vengono elencate tutte le pagine del contenitore Visitatore (comprese le visualizzazioni di pagina in altre visite). Anche le pagine che non corrispondono alla condizione principale sono elencate nel rapporto, perché sono incluse nel contenitore Visitatore. Tutte le pagine nel contenitore Visitatore sono elencate nel rapporto, anche se si sono verificate in precedenza e non soddisfano specificatamente le condizioni.
 
-In un rapporto del dominio di riferimento, *Dominio di riferimento = “aol.com”* è true in quattro visualizzazioni di pagina, ma *Dominio di riferimento = “weather.com”* è true nelle altre pagine viste dal visitatore. Dal contenitore Visitatore, ottieni un elenco di Visitatori in cui &quot;aol.com&quot; è true. ma offre anche pagine in cui il dominio di riferimento è &quot;weather.com&quot; e non il valore che corrisponde alla richiesta iniziale nel segmento.
+In un rapporto del dominio di riferimento, `Referring Domain equals 'aol.com'` è true in quattro visualizzazioni di pagina, ma `Referring Domain equals "weather.com"` è true nelle altre pagine viste dal visitatore. Dal contenitore Visitatore, ottieni un elenco di Visitatori in cui &quot;aol.com&quot; è true. ma offre anche pagine in cui il dominio di riferimento è &quot;weather.com&quot; e non il valore che corrisponde alla richiesta iniziale nel segmento.
 
-| Visita 1<br/>Dominio di riferimento = &#39;aol.com&#39; | <br/>Visualizzazioni pagina |
+| Visita 1<br/>Il dominio di riferimento è uguale a &quot;aol.com&quot; | <br/>Visualizzazioni pagina |
 |----|---:|
 | Home | 1 |
 | Abbigliamento invernale | 1 |
@@ -510,15 +510,15 @@ In un rapporto del dominio di riferimento, *Dominio di riferimento = “aol.com�
 | Cappotto invernale | 1 |
 | Acquisto | 1 |
 
-| Contenitore Visitatore<br/>Dominio di riferimento = &#39;aol.com&#39; | Visualizzazioni pagina |
+| Contenitore Visitatore<br/>Il dominio di riferimento è uguale a &quot;aol.com&quot; | Visualizzazioni pagina |
 |----|---:|
-| Abbigliamento invernale<br/>Dominio di riferimento = &#39;aol.com&#39; | 1 |
-| Abbigliamento invernale<br/>Dominio di riferimento = &#39;weather.com&#39; | 1 |
-| Home <br/>Dominio di riferimento = &#39;aol.com&#39; | 1 |
-| Cappotto invernale <br/>Dominio di riferimento = &#39;aol.com&#39; | 1 |
-| Acquisto<br/>Dominio di riferimento = &#39;aol.com&#39; | 1 |
-| Stivali invernali<br/>Dominio di riferimento = &#39;weather.com&#39; | 1 |
-| Cappelli invernali<br/>Dominio di riferimento = &#39;weather.com&#39; | 1 |
+| Abbigliamento invernale<br/>Dominio di riferimento: &#39;aol.com&#39; | 1 |
+| Abbigliamento invernale<br/>Dominio di riferimento: &#39;weather.com&#39; | 1 |
+| Home <br/>Dominio di riferimento: &#39;aol.com&#39; | 1 |
+| Cappotto invernale <br/>Dominio di riferimento: &#39;aol.com&#39; | 1 |
+| Acquisto<br/>Dominio di riferimento: &#39;aol.com&#39; | 1 |
+| Stivali invernali<br/>Dominio di riferimento: &#39;weather.com&#39; | 1 |
+| Cappelli invernali<br/>Dominio di riferimento: &#39;weather.com&#39; | 1 |
 
 
 <!--![](assets/container_overview_persist_Visitor.png)-->
