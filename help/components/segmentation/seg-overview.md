@@ -3,10 +3,10 @@ description: I segmenti ti consentono di identificare sottoinsiemi di visitatori
 title: Informazioni sui segmenti
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 2b1b681039fded30578ea9f46477e68bdc5630ca
+source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 61%
+source-wordcount: '1163'
+ht-degree: 62%
 
 ---
 
@@ -237,7 +237,9 @@ Un segmento sequenziale filtra i set di dati in base alle azioni degli utenti ch
 
 ## Video sulla segmentazione {#segment-video}
 
-Questo video offre una breve panoramica dei contenitori di segmenti e del loro utilizzo: [Contenitori di segmenti in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+Questo video offre una breve panoramica dei contenitori di segmenti e del loro utilizzo:
+
+![](https://video.tv.adobe.com/v/25401)
 
 
 ## Accedere agli strumenti di segmentazione {#access}
