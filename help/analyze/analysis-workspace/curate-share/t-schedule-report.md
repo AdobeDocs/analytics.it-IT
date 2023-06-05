@@ -5,10 +5,10 @@ title: Programmare progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: 99f9a1d1fa6238918c1566f64df41418cd13fa0e
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 73%
+source-wordcount: '598'
+ht-degree: 66%
 
 ---
 
@@ -21,11 +21,13 @@ Dal **menu Share** di Workspace, puoi inviare progetti Analysis Workspace tramit
 Per inviare immediatamente un file ai destinatari tramite e-mail:
 
 1. Fai clic su **[!UICONTROL Share]>[!UICONTROL Export file]**.
-1. Specifica il tipo di file (CSV o PDF).
-1. (Facoltativo) Aggiungi una descrizione del file che verrà inclusa nell’e-mail.
+1. Specifica il tipo di file:
+   * [!UICONTROL **CSV**]: scegli questa opzione se desideri dati in formato testo normale.
+   * [!UICONTROL **PDF**]: scegli questa opzione se vuoi che il file scaricato contenga tutte le tabelle e le visualizzazioni visualizzate (visibili) nel progetto.
+1. (Facoltativo) Aggiungi una descrizione da includere nell’e-mail per spiegare il file ricevuto.
 1. Aggiungi destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
 1. Fai clic su **[!UICONTROL Send Now]** (Usa modello di attribuzione non predefinito).
-1. (Facoltativo) Fai clic su **[!UICONTROL Show scheduling options]** per specificare una pianificazione della consegna.
+1. (Facoltativo) Fai clic su **[!UICONTROL Show scheduling options]** per specificare una pianificazione di consegna.
 
 ![Invia subito file](assets/send-file-now.png)
 
@@ -53,16 +55,16 @@ In Gestione progetti programmati, puoi modificare ed eliminare pianificazioni ri
 
 | Campo | Descrizione |
 | --- | --- |
-| [!UICONTROL Favorites] | Selezionando l’icona a forma di stella, questa pianificazione diventa un’opzione preferita. |
+| [!UICONTROL Favorites] | Selezionando l’icona a forma di stella, questa pianificazione diventa la preferita. |
 | [!UICONTROL Schedule ID] | Questo ID viene utilizzato principalmente a scopo di debug. |
 | [!UICONTROL Title and Description] | Titolo e descrizione del progetto. |
-| [!UICONTROL Owner] | Utente che ha creato e proprietario del progetto. |
-| [!UICONTROL Tags] | (Facoltativo) L’assegnazione tag è un buon modo per organizzare i progetti. Tutti gli utenti possono creare tag e applicarne uno o più a un progetto. Tuttavia, puoi visualizzare solo i tag per i progetti di tua proprietà o che sono stati condivisi con te. |
+| [!UICONTROL Owner] | Persona che ha creato e gestisce il progetto. |
+| [!UICONTROL Tags] | (facoltativo) Assegnare tag è un modo efficace per organizzare i progetti. Tutti gli utenti possono creare tag e applicarne uno o più a un progetto. Tuttavia, puoi visualizzare solo i tag dei progetti di tua proprietà o che sono stati condivisi con te. |
 | [!UICONTROL Delivered To] | Destinatari del progetto pianificato. |
-| [!UICONTROL Expiration Date] | Per qualsiasi frequenza di progetto pianificata, puoi impostare la data di scadenza per un massimo di un anno in futuro. |
+| [!UICONTROL Expiration Date] | Per qualsiasi frequenza di progetto pianificata, puoi impostare la data di scadenza fino a un anno nel futuro. |
 | [!UICONTROL Frequency] | Con quale frequenza desideri che questo progetto di pianificazione venga inviato ai destinatari. |
-| [!UICONTROL Execution Time] | A che ora viene inviato il progetto pianificato. |
-| [!UICONTROL Number of Queries] | Numero di query relative al progetto. |
+| [!UICONTROL Execution Time] | A che ora del giorno viene inviato questo progetto pianificato. |
+| [!UICONTROL Number of Queries] | Numero di query per questo progetto. |
 
 ## Azioni comuni
 
@@ -74,7 +76,7 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
 | **[!UICONTROL Delete schedule]** | Seleziona il progetto programmato nell’elenco, quindi fai clic su Elimina dal menu. In questo modo verrà eliminata la pianificazione selezionata per il progetto, mentre il progetto stesso non verrà eliminato. |
 | **[!UICONTROL Add tags]** | Seleziona il progetto programmato nell’elenco, quindi scegli “Assegna tag” o “Approva” per organizzare le pianificazioni e semplificarne la ricerca. |
 | **[!UICONTROL View failed schedules]** | Passa alla barra a sinistra > Altri filtri > Non riuscite per visualizzare le pianificazioni non riuscite. |
-| **[!UICONTROL View expired schedules]** | Passa alla barra a sinistra > Altri filtri > Scadute per visualizzare le pianificazioni scadute. Fai clic sul titolo della pianificazione per impostare una nuova pianificazione della consegna. |
+| **[!UICONTROL View expired schedules]** | Passa alla barra a sinistra > Altri filtri > Scadute per visualizzare le pianificazioni scadute. Fai clic sul titolo della pianificazione per impostare una nuova pianificazione di consegna. |
 | **[!UICONTROL View schedule ID]** | Passa alle opzioni della colonna in alto a destra e aggiungi la colonna ID pianificazione alla tabella. L’ID pianificazione è spesso utile per il debug. |
 
 Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account dell’utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte. La proprietà del progetto programmato può essere **trasferita** a un nuovo utente in **Amministratore > Utenti e risorse di Analytics > Trasferisci risorse**.
