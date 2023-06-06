@@ -3,9 +3,9 @@ title: Prendere in consegna un’implementazione Adobe Analytics esistente
 description: Istruzioni per gli amministratori che non hanno mai utilizzato un’implementazione Adobe Analytics esistente.
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '158'
 ht-degree: 13%
 
 ---
@@ -18,7 +18,7 @@ Stai rilevando un’implementazione di Adobe Analytics dal proprietario tecnico 
 
 ![Playbook](assets/inherited-impl-playbook.png)
 
-Consulta questi suggerimenti dal tuo collega Proprietario tecnico, Sarah Owen. Sarah è un [Adobe Analytics Champion](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p) e condivide idee su come utilizzare l’Eredited Implementation Playbook per prendere in carico un’implementazione esistente:
+Consulta questi suggerimenti dal tuo collega Proprietario tecnico, Sarah Owen. Sarah è una sostenitrice di Adobe Analytics e condivide alcune idee su come utilizzare l’Ereditato Playbook di implementazione per prendere in carico un’implementazione esistente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 
