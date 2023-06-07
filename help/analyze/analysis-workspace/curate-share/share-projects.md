@@ -5,7 +5,7 @@ title: Condividere progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
+source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 26%
@@ -105,8 +105,6 @@ Per condividere il collegamento del progetto con gli utenti dell’organizzazion
 1. Condividi il collegamento con gli utenti della tua organizzazione. Ad esempio, puoi incollarlo in un’e-mail, in un sito web interno e così via.
 
 ## Condividere un progetto con altri utenti (accesso non richiesto) {#share-public-link}
-
-{{release-limited-testing-section}}
 
 Puoi concedere [accesso in sola lettura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) ai progetti Analysis Workspace per persone che non hanno accesso ad Adobe Analytics. Ciò può includere:
 
