@@ -4,9 +4,9 @@ title: Metriche in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: e0a10540bdfbd9fa3694ff3c7a8585eeb87eaad8
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '403'
 ht-degree: 21%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 21%
 # Metriche
 
 Le metriche consentono di quantificare i punti dati in Analysis Workspace. Sono più comunemente utilizzate come colonne in una visualizzazione e legate alle dimensioni.
+
+## Tipi di metriche
 
 Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
 
@@ -29,7 +31,17 @@ Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
 
    ![Modello di metrica calcolata](assets/calculated-metric-template.png)
 
-Le metriche sono flessibili per quanto riguarda il loro utilizzo in Analysis Workspace. Trascina una metrica in una tabella a forma libera vuota per visualizzare la tendenza della metrica nel periodo della data del progetto. Puoi anche trascinare una metrica quando è presente una dimensione per visualizzarla rispetto a ciascun elemento dimensione. Trascinare una metrica sopra un’intestazione di metrica esistente la sostituisce e trascinare una metrica accanto a un’intestazione consente di vedere entrambe le metriche una accanto all’altra.
+## Utilizzare le metriche in Analysis Workspace
+
+Le metriche possono essere utilizzate in vari modi all’interno di Analysis Workspace. È possibile:
+
+* Trascina una metrica in una tabella a forma libera vuota per visualizzare la tendenza della metrica nel periodo della data del progetto.
+
+* Trascina una metrica quando è presente una dimensione per visualizzarla rispetto a ciascun elemento dimensione.
+
+* Trascina una metrica sopra un’intestazione di metrica esistente per sostituirla.
+
+* Trascina una metrica accanto a un’intestazione per vedere entrambe le metriche una accanto all’altra.
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
