@@ -5,10 +5,10 @@ title: Condividere progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
+source-git-commit: 441484c0547439de2ab1cdc2596fb681592df012
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 26%
+source-wordcount: '1730'
+ht-degree: 24%
 
 ---
 
@@ -18,15 +18,15 @@ Puoi condividere un progetto Analysis Workspace con i seguenti tipi di persone:
 
 * Utenti e gruppi della tua organizzazione che hanno accesso ad Adobe Analytics
 
-   È possibile condividere l&#39;accesso Modifica, Duplica o Visualizza
+  È possibile condividere l&#39;accesso Modifica, Duplica o Visualizza
 
 * Utenti e gruppi della tua organizzazione che non hanno accesso ad Adobe Analytics
 
-   I destinatari dispongono di accesso in sola lettura
+  I destinatari dispongono di accesso in sola lettura
 
 * Persone esterne all’organizzazione
 
-   I destinatari dispongono di accesso in sola lettura
+  I destinatari dispongono di accesso in sola lettura
 
 Qualsiasi [cura](curate.md) L’applicazione prima della condivisione si riflette quando i destinatari aprono il progetto.
 
@@ -55,7 +55,7 @@ Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organ
 
 * Un utente che viene posizionato in più ruoli ottiene sempre l’esperienza di livello più alto. Ciò potrebbe verificarsi se un utente viene aggiunto sia come singolo utente che come parte di un gruppo. Ad esempio, se a un utente viene assegnato il **[!UICONTROL Can edit]** ruolo individuale e **[!UICONTROL Can view]** come membro di un gruppo, riceveranno un **[!UICONTROL Can edit]** esperienza di progetto.
 
-* Amministratori inseriti in **[!UICONTROL Can duplicate]** o **[!UICONTROL Can view]** ruolo ricevono tali esperienze limitate quando aprono un progetto. Se necessario, un amministratore può elevare il proprio ruolo a **[!UICONTROL Can edit]** in qualsiasi momento tramite **[!UICONTROL Components]>[!UICONTROL Projects]**.
+* Amministratori inseriti in **[!UICONTROL Can duplicate]** o **[!UICONTROL Can view]** ruolo ricevono tali esperienze limitate quando aprono un progetto. Un amministratore può modificare il proprio ruolo in **[!UICONTROL Can edit]** condividendo il progetto con se stessi e assegnando il ruolo Modifica, come descritto nella procedura seguente.
 
 Per condividere un ruolo di progetto specifico con utenti o gruppi dell’organizzazione:
 
@@ -126,7 +126,6 @@ Puoi concedere [accesso in sola lettura](/help/analyze/analysis-workspace/curate
 >
 >* Un progetto potrebbe diventare inaccessibile se molti utenti tentano di accedere contemporaneamente a un determinato collegamento. Per impostazione predefinita, più di 190 persone possono accedere a un singolo collegamento ogni 5 minuti. Se l’organizzazione raggiunge questo limite, attendi 5 minuti e prova di nuovo ad accedere al collegamento.
 
-
 La seguente dimostrazione video e la relativa documentazione descrivono le opzioni associate alla condivisione di un collegamento con chiunque:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
@@ -151,9 +150,9 @@ Per condividere un progetto Analysis Workspace con persone che non hanno accesso
 
    * **[!UICONTROL Require Experience Cloud authentication]:**
 
-      Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono gli utenti che possono accedere all’organizzazione Adobe Experience Cloud in cui è stato creato il progetto condiviso. Tuttavia, gli utenti con cui condividi non devono avere accesso ad Adobe Analytics.
+     Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono gli utenti che possono accedere all’organizzazione Adobe Experience Cloud in cui è stato creato il progetto condiviso. Tuttavia, gli utenti con cui condividi non devono avere accesso ad Adobe Analytics.
 
-      Gli amministratori di Analytics possono configurare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
+     Gli amministratori di Analytics possono configurare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
 
       * Se questa opzione non è visibile, l’amministratore di Analytics non ha abilitato questa funzione.
 
@@ -196,6 +195,5 @@ Video sull’argomento:
 | Domanda | Risposta |
 | --- | --- |
 | Cosa succede se due editor salvano un progetto contemporaneamente? | Le modifiche non vengono unite e viene mantenuta l’ultima versione del progetto salvata. Analysis Workspace non supporta attualmente la collaborazione in tempo reale. |
-| In qualità di amministratore, quale esperienza di progetto visualizzerò? | Gli amministratori inseriti in un ruolo **[!UICONTROL Can duplicate]** o **[!UICONTROL Can view]** riceveranno tali esperienze limitate quando aprono un progetto. Se necessario, un amministratore può elevare il proprio ruolo a **[!UICONTROL Can edit]** in qualsiasi momento tramite **[!UICONTROL Components]>[!UICONTROL Projects]**. |
 | Cosa succede se un destinatario viene collocato in un ruolo come singolo utente e in un altro ruolo come membro di un gruppo? | Se un destinatario viene posizionato in più ruoli, riceverà sempre l’esperienza di livello più elevato. Ad esempio, se a un destinatario viene assegnato il ruolo **[!UICONTROL Can edit]** come singolo utente e il ruolo **[!UICONTROL Can view]** come membro di un gruppo, riceverà un’esperienza di progetto **[!UICONTROL Can edit]**. |
 | Quale esperienza riceve un destinatario se apre un collegamento al progetto? | I destinatari ricevono il ruolo in cui li hai inseriti nella modalità di condivisione. Se a un destinatario non viene assegnato un ruolo e riceve un collegamento al progetto (**[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, quindi seleziona **[!UICONTROL Copy]** accanto al **[!UICONTROL Share by link]** ), per impostazione predefinita vengono inseriti in un ruolo. Gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori **[!UICONTROL Can duplicate]**. |
