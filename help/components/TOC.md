@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 90%
+source-wordcount: '715'
+ht-degree: 86%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 90%
       + [Compatibilità dei segmenti con Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Diritti del segmento per ruolo](segmentation/seg-reference/seg-rights.md)
       + [Risoluzione dei problemi](segmentation/seg-reference/c-troubleshooting.md)
-   + [Domande frequenti sulla gestione dei segmenti legacy ](segmentation/seg-transition.md)
+   + [Domande frequenti sulla gestione dei segmenti legacy](segmentation/seg-transition.md)
    + [Best practice](segmentation/best-practices.md)
 + Metriche calcolate {#calculated-metrics}
    + [Metriche calcolate e metriche calcolate avanzate (derivate)](c-calcmetrics/cm-overview.md)
@@ -236,10 +236,16 @@ ht-degree: 90%
    + [Panoramica delle classificazioni](classifications/c-classifications.md)
    + Set di classificazione {#sets}
       + [Panoramica sui set di classificazione](classifications/sets/overview.md)
-      + [Gestione set di classificazione](classifications/sets/set-manager.md)
+      + Gestire i set di classificazione {#manage}
+         + [Gestione set di classificazione](classifications/sets/manage/set-manager.md)
+         + [Creare un set di classificazione](classifications/sets/manage/create.md)
+         + [Impostazioni del set di classificazione](classifications/sets/manage/settings.md)
+         + [Schema del set di classificazione](classifications/sets/manage/schema.md)
+         + [Regole del set di classificazione](classifications/sets/manage/rules.md)
       + [Gestione processi set di classificazione](classifications/sets/job-manager.md)
-      + [Creare un set di classificazione](classifications/sets/create.md)
-      + [Impostazioni set di classificazione](classifications/sets/settings.md)
+      + Consolidamenti dei set di classificazione {#consolidations}
+         + [Gestione consolidamenti set di classificazione](classifications/sets/consolidations/manage.md)
+         + [Processo di consolidamento dei set di classificazione](classifications/sets/consolidations/process.md)
    + Generatore regole di classificazione {#classifications-rulebuilder}
       + [Flusso di lavoro di Generatore regole di classificazione](classifications/crb/classification-rule-builder.md)
       + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)
@@ -260,6 +266,7 @@ ht-degree: 90%
       + [Esportazione FTP](classifications/importer/ftp-export.md)
       + [Tempo di elaborazione](classifications/importer/processing-time.md)
       + [Risoluzione dei problemi](classifications/importer/troubleshooting.md)
+
    + [Sottoclassificazioni](classifications/c-sub-classifications.md)
    + [Domande frequenti sulle classificazioni](classifications/faq.md)
 + [Eventi calendario](t-calendar-event.md)

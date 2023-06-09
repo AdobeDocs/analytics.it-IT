@@ -1,11 +1,11 @@
 ---
-title: Gestione processo set di classificazione
-description: Visualizza i lavori di classificazione correnti e completati generati dai set di classificazione.
+title: Gestione processi set di classificazione
+description: Visualizza i processi di classificazione correnti e completati generati dai set di classificazione.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 496b4891d447ed9dd091a6498a792146a2d5aceb
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 49%
 
 ---
 
@@ -15,18 +15,18 @@ Gestione processi set di classificazione consente di visualizzare i processi di 
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Jobs]**
 
-Non è possibile creare processi da questa interfaccia. Puoi invece creare processi caricando i dati in un set di classificazione, richiedendo un file di download o un file modello.
+Impossibile creare processi da questa interfaccia. Crea processi caricando i dati in un set di classificazione (manualmente o tramite una posizione esterna configurata), richiedendo un file di download o un file modello.
 
 ## Filtrare i set di classificazione
 
-Il lato sinistro di Gestione processo set di classificazione fornisce le impostazioni del filtro per individuare il processo desiderato. Facendo clic sull’icona del filtro si attiva la visibilità delle impostazioni del filtro. Puoi filtrare i set di classificazione per **[!UICONTROL Classification Set]**, **[!UICONTROL Completion time]** oppure **[!UICONTROL Status]**.
+Il lato sinistro di Gestione processo set di classificazione fornisce le impostazioni del filtro per individuare il processo desiderato. Facendo clic sull’icona del filtro si attiva la visibilità delle impostazioni del filtro. Puoi filtrare i set di classificazione per **[!UICONTROL Classification set]**, **[!UICONTROL Completion time]**, **[!UICONTROL Status]**, **[!UICONTROL Job Type]**, o **[!UICONTROL Source]**.
 
-![Filtri di processo per set di classificazione](../assets/classification-set-job-filters.png)
+![Filtri del processo per set di classificazione](../assets/classification-set-job-filters.png)
 
-Ulteriori opzioni di filtro sono disponibili sopra le colonne di Gestione processo set di classificazione:
+Ulteriori opzioni di filtro sono disponibili sopra le colonne Gestione processo set di classificazione:
 
 * **[!UICONTROL Search by title]**: cerca i processi per nome file.
-* **[!UICONTROL Load more]**: Gestione processo set di classificazione visualizza inizialmente fino a 1000 processi. Fai clic su questo pulsante per caricare altri 1000 processi.
+* **[!UICONTROL Load more]**: Gestione processo set di classificazione visualizza inizialmente fino a 1000 processi. Se esistono più processi, fare clic su questo pulsante per caricare altri 1000 processi.
 * **Mostra/Nascondi colonne**: attiva/disattiva la visibilità delle colonne oltre a [!UICONTROL Filename] e [!UICONTROL Completion time].
 
 ## Colonne di Gestione processo set di classificazione
@@ -34,7 +34,7 @@ Ulteriori opzioni di filtro sono disponibili sopra le colonne di Gestione proces
 In Gestione processo set di classificazione sono disponibili le colonne seguenti:
 
 * **[!UICONTROL Filename]**: nome del file di caricamento o download.
-* **[!UICONTROL Classification Set]**: nome del set di classificazione a cui si applica il file. Puoi fare clic sul nome del set di classificazione per raggiungerne le [Impostazioni](settings.md).
+* **[!UICONTROL Classification set]**: nome del set di classificazione a cui si applica il file. Puoi fare clic sul nome del set di classificazione per raggiungerne [Impostazioni](manage/settings.md).
 * **[!UICONTROL Size]**: dimensione del file.
 * **[!UICONTROL Status]**: stato del processo di elaborazione del file.
    * **[!UICONTROL Created]**: lavoro inviato.
@@ -45,6 +45,9 @@ In Gestione processo set di classificazione sono disponibili le colonne seguenti
    * **[!UICONTROL Failed processing]**: elaborazione del file non riuscita.
    * **[!UICONTROL Complete]**: elaborazione completata. I dati di classificazione sono visibili nel reporting.
    * **[!UICONTROL Failed]**: errore generico non correlato alla convalida o all’elaborazione.
-* **[!UICONTROL Type]**: tipo di processo.
+* **[!UICONTROL Job type]**: tipo di processo.
+* **[!UICONTROL Source]**: origine del processo.
 * **[!UICONTROL File download]**: si applica solo ai processi di download, come il download di dati di classificazione o modelli. Quando un download è pronto, questa colonna fornisce il collegamento relativo.
+* **[!UICONTROL Modified lines]**: numero di righe modificate.
+* **[!UICONTROL Completed lines]**: numero di righe completate.
 * **[!UICONTROL Completion time]**: data e ora in cui il processo è stato completato (o non è riuscito).

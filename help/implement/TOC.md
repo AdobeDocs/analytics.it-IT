@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 9a16cd89b2d650098495902cca5c5229df48b475
+source-git-commit: fb739c9185cdc246540cfe9c78dc8660022512d4
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 98%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 98%
       + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
       + [cookieLifetime](vars/config-vars/cookielifetime.md)
       + [currencyCode](vars/config-vars/currencycode.md)
+      + [doubleEncodeLinkParameters](vars/config-vars/doubleencodelinkparameters.md)
       + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
       + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
       + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
@@ -127,7 +128,7 @@ ht-degree: 98%
    + [Integrate Module](vars/integrate.md)
 + Preparazione all’implementazione di Adobe Analytics {#prepare}
    + [Creare un livello di dati](prepare/data-layer.md)
-   + [Confronto dei metodi di implementazione](prepare/comparison.md)
+   + [Confrontare i metodi di implementazione](prepare/comparison.md)
    + [Considerazioni globali sulla suite di report](prepare/global-rs.md)
    + [Implementazione dell’assegnazione tag per più suite](prepare/multi-suite-tagging.md)
    + [Creare un documento di progettazione della soluzione](prepare/solution-design.md)
