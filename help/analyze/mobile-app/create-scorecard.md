@@ -1,19 +1,19 @@
 ---
-description: Creazione e condivisione di scorecard delle dashboard di Adobe Analytics
+description: Creare e condividere scorecard per le dashboard di Adobe Analytics
 title: Creare e condividere scorecard per dispositivi mobili
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 455b206ea145a3364d20048041976a1472c8abd7
+source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
 source-wordcount: '2441'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
 # Creare una scorecard per dispositivi mobili
 
-Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare scorecard per dispositivi mobili per gli utenti manageriali. Per iniziare, puoi visualizzare il video del generatore di scorecard delle dashboard di Adobe Analytics:
+Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare scorecard per dispositivi mobili per gli utenti manageriali. Per iniziare, puoi visualizzare il video Generatore di scorecard per le dashboard di Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -21,11 +21,11 @@ Una scorecard Adobe Analytics mostra le visualizzazioni dei dati chiave per gli 
 
 ![Esempio di scorecard](assets/intro_scorecard.png)
 
-In qualità di curatore di questa scorecard, puoi utilizzare il generatore di scorecard per configurare quali tessere visualizzare sulla scorecard per il consumatore esecutivo. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
+In qualità di curatore di questa scorecard, puoi usare il generatore di scorecard per configurare le tessere da presentare all’utente manageriale sulla scorecard. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
 
 ![Creatore di scorecard](assets/scorecard_builder.png)
 
-Per creare la scorecard, è necessario effettuare le seguenti operazioni:
+Per creare la scorecard, devi effettuare le seguenti operazioni:
 
 1. Accedi al modello [!UICONTROL Blank Mobile Scorecard].
 1. Configura la scorecard con i dati e salvala.
@@ -49,13 +49,13 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 
 ## Configurare la scorecard con i dati e salvarla {#configure}
 
-Per implementare il modello della scorecard:
+Per implementare il modello di scorecard:
 
 1. Alla voce **[!UICONTROL Properties]** (nella barra a destra), specifica la **[!UICONTROL Project report suite]** della quale desideri utilizzare i dati.
 
    ![Selezione di suite di rapporti](assets/properties_save.png)
 
-1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella scheda di valutazione **[!UICONTROL Drag and Drop Metrics Here]** zona. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
+1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella sezione **[!UICONTROL Drag and Drop Metrics Here]** zona. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
 
    ![Aggiungere sezioni](assets/build_list.png)
 
@@ -74,7 +74,7 @@ Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Chann
 
 Per applicare segmenti alle singole sezioni, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla sezione.
 
-Se desideri applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionandoli nel menu del filtro sotto gli intervalli di date. You [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) come in Adobe Analytics Workspace.
+Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionandoli nel menu del filtro sotto gli intervalli di date. Tu [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo in cui si fa in Adobe Analytics Workspace.
 
 ![Creare segmenti per il filtro](assets/segment_ui.png)
 
@@ -96,7 +96,7 @@ Per creare una data di confronto, puoi scegliere tra i pratici predefiniti per i
 
 ![Nuova scorecard4](assets/new_score_card4.png)
 
-Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona Calendario.
+Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona del calendario.
 
 ![Nuova scorecard5](assets/new_score_card5.png)
 
@@ -164,7 +164,7 @@ Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecifie
 
 ## Visualizzare e configurare le proprietà delle sezioni {#tiles}
 
-Quando fai clic su un riquadro nel generatore di scorecard, la barra a destra mostra le proprietà e le caratteristiche associate a tale riquadro e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei segmenti.
+Quando fai clic su una sezione nel generatore di scorecard, la barra di destra mostra le proprietà e le caratteristiche associate a quella sezione e alla relativa diapositiva di dettaglio. In questa barra puoi fornire un nuovo **Titolo** per il riquadro e in alternativa configurare il riquadro applicando dei segmenti.
 
 ![Proprietà di una sezione](assets/properties-tile-new.png)
 
@@ -212,7 +212,7 @@ Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mos
 
 ## Rimuovere i componenti {#remove}
 
-Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in un punto qualsiasi della scorecard al di fuori delle tessere e poi rimuovilo facendo clic sul pulsante **x** che viene visualizzato quando passi il puntatore del mouse sul componente, come illustrato di seguito per **Prime visite** segmento:
+Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere, quindi fai clic su **x** che viene visualizzato quando passi il cursore sul componente, come mostrato di seguito per **Prime visite** segmento:
 
 ![Rimuovere_componenti](assets/new_remove.png)
 
@@ -315,13 +315,13 @@ Puoi visualizzare in anteprima come si presenterà e funzionerà una scorecard u
 
 ## Assegnare un nome a una scorecard {#name}
 
-Per assegnare un nome alla scorecard, fai clic sullo spazio dei nomi in alto a sinistra nella schermata e digita il nuovo nome.
+Per assegnare un nome alla scorecard, fai clic sullo spazio dei nomi in alto a sinistra dello schermo e digita il nuovo nome.
 
 ![Assegnare_un_nome_alle_scorecard](assets/new_name.png)
 
 ## Condividere una scorecard {#share}
 
-Per condividere la scorecard con un utente esecutivo:
+Per condividere la scorecard con un utente direzionale:
 
 1. Fai clic sul menu **[!UICONTROL Share]** e seleziona **[!UICONTROL Share scorecard]**.
 
@@ -336,13 +336,13 @@ Per condividere la scorecard con un utente esecutivo:
 
 ![Condividere_scorecard](assets/new_share.png)
 
-Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti modifiche successive alla scorecard nel generatore di scorecard, queste verranno aggiornate automaticamente nella scorecard condivisa. Gli utenti esecutivi vedranno quindi le modifiche dopo aver aggiornato la scorecard sulla loro app.
+Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel generatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti direzionali vedranno quindi le modifiche dopo aver aggiornato la scorecard nella loro app.
 
 Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente (e di selezionare l’opzione **[!UICONTROL Share embedded components]**) per assicurarti che gli utenti direzionali abbiano accesso a queste modifiche.
 
-### Condividere le scorecard utilizzando un collegamento condivisibile
+### Condividere le scorecard mediante un collegamento condivisibile {#shareable-link}
 
-L’utilizzo di un collegamento condivisibile semplifica la condivisione di una scorecard in un’app e-mail, documento o messaggio di testo. Il collegamento condivisibile consente ai destinatari di aprire la scorecard sul desktop o sull’app mobile delle dashboard. I collegamenti profondi condivisibili rendono ancora più semplice la condivisione dei progetti e stimolano l&#39;impegno con le parti interessate.
+L’utilizzo di un collegamento condivisibile semplifica la condivisione di una scorecard in un’app e-mail, documento o SMS. Il collegamento condivisibile consente ai destinatari di aprire la scorecard sul desktop o sull’app mobile delle dashboard. I collegamenti profondi condivisibili consentono di condividere i progetti in modo ancora più semplice e di aumentare il coinvolgimento delle parti interessate.
 
 Per condividere una scorecard utilizzando un collegamento condivisibile
 
@@ -350,11 +350,11 @@ Per condividere una scorecard utilizzando un collegamento condivisibile
 
    ![Condividere_scorecard](assets/share-scorecard.png)
 
-1. Copia il collegamento e incollalo in un’app e-mail, documento o IM.
+1. Copia il collegamento e incollalo in un’e-mail, in un documento o in un’app di messaggistica istantanea.
 
    Quando un destinatario utilizza un’app desktop o un browser per aprire il collegamento, il progetto della scorecard per dispositivi mobili si aprirà in Workspace.
 
-   Quando un destinatario apre il collegamento su un dispositivo mobile, la scorecard si aprirà direttamente nell’app delle dashboard di Analytics.
+   Quando un destinatario apre il collegamento su un dispositivo mobile, la scorecard si apre direttamente nell’app delle dashboard di Analytics.
 
-   Se un destinatario non ha scaricato l’app mobile, verrà indirizzato all’elenco delle app in App Store o Google Play Store dove potrà scaricarla.
+   Se un destinatario non ha scaricato l’app mobile, verrà indirizzato all’inserzione dell’app nell’App Store o Google Play Store dove può scaricarla.
 
