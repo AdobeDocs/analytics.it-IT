@@ -3,10 +3,10 @@ title: Interfaccia utente feed dati
 description: Scopri come navigare nell’interfaccia del feed dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 2%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
@@ -52,7 +52,7 @@ Fai clic sulla scheda Processi per visualizzare i singoli processi creati da cia
 
 ### Add
 
-Fai clic su + accanto alle schede feed e processi [!UICONTROL Add] per creare un nuovo feed. Consulta [Aggiungere un feed](create-feed.md) per ulteriori informazioni.
+Fai clic su + accanto alle schede feed e processi [!UICONTROL Add] per creare un nuovo feed. Consulta [Creare un feed di dati](create-feed.md) per ulteriori informazioni.
 
 ### Colonne
 
@@ -66,8 +66,8 @@ Ogni feed creato mostra diverse colonne che forniscono informazioni al riguardo.
 * **ID suite di rapporti**: identificatore univoco della suite di rapporti.
 * **Colonne dati**: quali colonne di dati sono attive per il feed. Nella maggior parte dei casi, sono presenti troppe colonne da visualizzare in questo formato.
 * **Interval**: indica se il feed è orario o giornaliero.
-* **Tipo di destinazione**: tipo di destinazione per il feed. Ad esempio, FTP, Amazon S3 o Azure.
-* **Host di destinazione**: posizione in cui viene inserito il file. Esempio: `ftp.example.com`.
+* **Tipo di destinazione**: tipo di destinazione per il feed. Ad esempio, Amazon S3, GCP o Azure.
+* **Host di destinazione**: posizione in cui viene inserito il file.
 * **Proprietario**: account utente che ha creato il feed.
 * **Stato**: stato del feed.
    * Attivo: il feed è operativo.

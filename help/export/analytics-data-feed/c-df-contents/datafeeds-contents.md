@@ -5,16 +5,30 @@ subtopic: data feeds
 title: 'Contenuti feed dati: panoramica'
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 1%
+source-wordcount: '832'
+ht-degree: 5%
 
 ---
 
 # Contenuti feed dati: panoramica
 
-Questa sezione descrive i file trovati in una consegna di feed dati.
+Le sezioni seguenti descrivono come accedere e comprendere i file presenti in una consegna di feed di dati.
+
+## Accedere al contenuto del feed dati
+
+Per accedere al contenuto di un feed dati:
+
+1. Accedi al sito di destinazione del feed di dati.
+
+   Questo è il sito di destinazione configurato durante la creazione del feed di dati, ad esempio un bucket Amazon S3 o Google Cloud Platform.
+
+1. Scarica il file del feed dati compresso sul computer locale.
+
+1. Decomprimi il file compresso utilizzando un programma che supporta le estensioni di file `.tar.gz`.
+
+1. Apri il file `hit_data.tsv` nell’applicazione per fogli di calcolo o database scelta per visualizzare i dati non elaborati per quel giorno. -->
 
 ## File manifesto {#feed-manifest}
 

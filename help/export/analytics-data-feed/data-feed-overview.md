@@ -4,14 +4,18 @@ keywords: clickstream;feed dati;datafeed;feed dati
 title: Panoramica sui feed dati di Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 98%
+source-wordcount: '606'
+ht-degree: 83%
 
 ---
 
 # Panoramica sui feed dati di Analytics
+
+>[!AVAILABILITY]
+>
+>Alcuni dei tipi di destinazione descritti in questa pagina si trovano nella fase di test limitato del rilascio e potrebbero non essere ancora disponibili nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
 
 I feed di dati offrono un modo potente per estrarre dati grezzi da Adobe Analytics. Puoi utilizzare i dati non elaborati in altre piattaforme al di fuori di Adobe, in base alle esigenze della tua organizzazione. I dati vengono consegnati in batch orari alla conclusione di ogni ora oppure in batch giornalieri alla conclusione di ogni giorno.
 
@@ -19,11 +23,12 @@ I feed di dati offrono un modo potente per estrarre dati grezzi da Adobe Analyti
 
 Prima di utilizzare i feed di dati, è necessario soddisfare tutti i seguenti requisiti.
 
-* Un sito FTP e le relative credenziali. I feed di dati possono essere inviati solo a una destinazione server. In genere, l’organizzazione fornisce le credenziali FTP. Su richiesta, Adobe può fornire una posizione FTP con una quantità modesta di spazio di archiviazione. Per richiedere una destinazione FTP per i feed di dati, contatta l’Assistenza clienti.
-* Un’implementazione funzionante che invia dati ai server di raccolta dati di Adobe. Vedi [Convalidare e pubblicare un’implementazione](/help/implement/launch/validate-publish-prod.md) nella guida utente per l’implementazione.
+* Un’implementazione funzionante che invia dati ai server di raccolta dati di Adobe. Consulta [Convalidare e pubblicare un’implementazione](/help/implement/launch/validate-publish-prod.md) nella Guida all’implementazione.
 * Il tuo account deve essere quello di un amministratore di prodotto Analytics oppure deve appartenere a un profilo di prodotto con accesso ai feed di dati.
+* Un bucket configurato su Amazon S3, Google Cloud Platform, Azure RBAC o Azure SAS.
+* (Legacy: Obbligatorio solo per i tipi di destinazione FTP e SFTP legacy) Utilizza un sito FTP e le relative credenziali (credenziali FTP fornite dalla tua organizzazione).
 
-## Passaggi per iniziare
+## Risorse di feed dati consigliate
 
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
 2. Fai clic sull’icona a 9 quadrati in alto a destra, quindi fai clic sul logo a colori di Analytics.
@@ -43,7 +48,7 @@ Prima di utilizzare i feed di dati, è necessario soddisfare tutti i seguenti re
    * Username (Nome utente): immetti il nome utente per accedere al sito FTP.
    * Password/Confirm password (Password/Conferma password): immetti la password per accedere al sito FTP.
 7. Compila [!UICONTROL Data Column Definitions].
-   * Seleziona il modello &quot;All Adobe Columns&quot; più recente nell’elenco a discesa.
+   * Seleziona il modello &quot;All Adobe Columns&quot; (Tutti gli) più recente nell’elenco a discesa.
    * Compression format (Formato di compressione): Gzip
    * Packaging type (Tipo di pacchetto): file multipli
    * Manifest (Manifesto): nessun file
@@ -58,17 +63,15 @@ Prima di utilizzare i feed di dati, è necessario soddisfare tutti i seguenti re
 
 Una volta compreso il flusso di lavoro di base per l’ottenimento dei feed di dati, puoi lavorare con i team della tua organizzazione per archiviare o acquisire dati non elaborati in un database.
 
+* [Best practice per il feed dati](/help/export/analytics-data-feed/data-feeds-best-practices.md): best practice per la creazione e la gestione dei feed di dati.
 * [Creare un feed di dati](create-feed.md): dettagli tecnici per la creazione di un feed di dati, con informazioni più dettagliate sui singoli campi
 * [Gestire i feed dati](df-manage-feeds.md): ulteriori informazioni sulla navigazione nell’interfaccia del feed dati
-* [Contenuti dei feed dati](c-df-contents/datafeeds-contents.md): comprendere cosa c&#39;è all&#39;interno del file compresso
-* [Definizioni delle colonne dati](c-df-contents/datafeeds-reference.md): un elenco completo di tutte le colonne disponibili
+* [Contenuti dei feed dati](c-df-contents/datafeeds-contents.md): comprendere cosa c&#39;è all&#39;interno del file compresso <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Definizioni delle colonne dati](c-df-contents/datafeeds-reference.md): un elenco completo di tutte le colonne disponibili.
+* Video sulla navigazione nell’interfaccia del feed dati:
 
-## Risorse aggiuntive
+  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
-Video sulla navigazione nell’interfaccia del feed dati:
+* Video su come trovare l’ID del proprio feed dati:
 
->[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
-
-Video su come trovare l’ID del proprio feed dati:
-
->[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
