@@ -3,10 +3,10 @@ title: eVar di merchandising e metodi di ricerca dei prodotti
 description: Approfondisci i concetti alla base delle eVar di merchandising e come vengono elaborati e allocati i dati.
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '5258'
-ht-degree: 92%
+source-wordcount: '5266'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,7 @@ Per dimostrare come si impostano queste variabili, ecco un esempio in cui un vis
 * `eVar2` corrisponde alla parola chiave utilizzata nella ricerca (“sandals”).
 * `eVar1` corrisponde al metodo di ricerca del prodotto utilizzato (“internal keyword search”, ricerca interna per parola chiave).
 
-Se imposti queste due variabili su questi valori specifici, sai che il visitatore, per trovare un prodotto, utilizza il termine “sandals” nella ricerca interna per parola chiave. Allo stesso tempo, sai che il visitatore non utilizza gli altri metodi di ricerca dei prodotti per trovare i prodotti (ad esempio, non sfoglia le categorie di prodotti esattamente nello stesso momento in cui esegue una ricerca per parola chiave). Per garantire la corretta allocazione per prodotto, i metodi non utilizzati non devono ricevere alcun merito per la ricerca di un prodotto trovato tramite una ricerca interna per parole chiave. Pertanto, devi inserire nel codice una logica (ad esempio con AppMeasurement, AEP Web SDK e così via) che imposta automaticamente le eVar associate agli altri metodi di ricerca su un valore di tipo &quot;non-finding method&quot;.
+Se imposti queste due variabili su questi valori specifici, sai che il visitatore, per trovare un prodotto, utilizza il termine “sandals” nella ricerca interna per parola chiave. Allo stesso tempo, sai che il visitatore non utilizza gli altri metodi di ricerca dei prodotti per trovare i prodotti (ad esempio, non sfoglia le categorie di prodotti esattamente nello stesso momento in cui esegue una ricerca per parola chiave). Per garantire la corretta allocazione per prodotto, i metodi non utilizzati non devono ricevere alcun merito per la ricerca di un prodotto trovato tramite una ricerca interna per parole chiave. Pertanto, devi inserire nel codice una logica (ad AppMeasurement, Adobe Experience Platform Web SDK e così via) che imposti automaticamente le eVar associate agli altri metodi di ricerca su un valore di tipo &quot;non-finding method&quot;.
 
 Ad esempio, quando un utente cerca prodotti utilizzando la parola chiave &quot;sandals&quot;, la logica del codice Analytics deve impostare le variabili come segue, nella pagina dei risultati della ricerca per parola chiave interna:
 
@@ -80,7 +80,7 @@ Quando l’impostazione “Abilita merchandising” è abilitata, in Report Suit
 
 Questa opzione non è disponibile per le eVar standard. L’impostazione [!UICONTROL Merchandising] consente di scegliere [!UICONTROL Conversion Variable Syntax] o [!UICONTROL Product Syntax] come metodo per acquisire il valore dell’eVar merchandising.
 
-**[!UICONTROL Conversion Variable Syntax]** significa che si imposta il valore eVar nella propria variabile. Ad esempio, con la sintassi per variabile di conversione, il valore `eVar1` “internal keyword search” (ricerca interna per parole chiave) viene impostato come segue nel codice della pagina (o nel codice di AppMeasurement, di AEP Web SDK e così via):
+**[!UICONTROL Conversion Variable Syntax]** significa che si imposta il valore eVar nella propria variabile. Ad esempio, con la sintassi per variabile di conversione, `eVar1` il valore &quot;internal keyword search&quot; (ricerca interna per parole chiave) viene impostato come segue nel codice della pagina (o nel codice di AppMeasurement, nel codice Adobe Experience Platform Web SDK e così via):
 
 `s.eVar1="internal keyword search";`
 
@@ -271,11 +271,11 @@ Se il visitatore aggiunge un prodotto al carrello ma non lo acquista mai, la sca
 
 ### Utilizzo della sintassi per variabile di conversione
 
-Torniamo al confronto tra “sintassi prodotto” e “sintassi per variabile di conversione”. Adobe ha scoperto un metodo più semplice sia per raccogliere le eVar di merchandising per il metodo di ricerca dei prodotti, sia per associare i relativi valori ai prodotti trovati dai visitatori: la sintassi per variabile di conversione riduce il lavoro di implementazione di cui sono responsabili gli sviluppatori del cliente. Offre comunque le stesse informazioni, o addirittura informazioni migliori, rispetto al metodo di sintassi prodotto. Gli sviluppatori devono semplicemente seguire le istruzioni di implementazione ricevute e il resto del codice può essere inserito nel file Adobe AppMeasurement/AEP Web SDK.
+Torniamo al confronto tra “sintassi prodotto” e “sintassi per variabile di conversione”. Adobe ha scoperto un metodo più semplice sia per raccogliere le eVar di merchandising per il metodo di ricerca dei prodotti, sia per associare i relativi valori ai prodotti trovati dai visitatori: la sintassi per variabile di conversione riduce il lavoro di implementazione di cui sono responsabili gli sviluppatori del cliente. Offre comunque le stesse informazioni, o addirittura informazioni migliori, rispetto al metodo di sintassi prodotto. Gli sviluppatori devono semplicemente seguire le istruzioni di distribuzione ricevute e il resto del codice può essere inserito nel file Adobe AppMeasurement/Adobe Experience Platform Web SDK.
 
 Vediamo ad esempio la soluzione consigliata per il tracciamento delle prestazioni della ricerca interna per parola chiave. Nella pagina dei risultati della ricerca per parole chiave, il codice acquisisce la parola chiave cercata tramite un elemento prop (ad esempio, prop4) e un altro elemento prop (ad esempio, prop5). Questi elementi prop tengono traccia del numero di risultati mostrati dalla ricerca. Ogni volta che una richiesta di immagine di Adobe Analytics viene generata nella pagina dei risultati della ricerca, vengono utilizzati gli oggetti livello dati (o codice pagina) implementati dagli sviluppatori per compilare le variabili di cui sopra (prop).
 
-Il file AppMeasurement/AEP Web SDK contiene un’ulteriore logica che consente di compilare le altre variabili (eVar/dimensioni di merchandising) che devono essere impostate allo stesso tempo.\
+Un’ulteriore logica contenuta nel file AppMeasurement/Adobe Experience Platform Web SDK può compilare le altre variabili (eVar/dimensioni di merchandising) che devono essere impostate contemporaneamente.\
 Ad esempio, se un nuovo visitatore cerca la parola chiave “sandals” che restituisce 25 risultati nella pagina dei risultati di ricerca, il codice da attivare (tramite il codice della pagina OPPURE l’acquisizione del livello dati) si presenta così:
 
 ```js

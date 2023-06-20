@@ -3,9 +3,9 @@ description: Analytics e Audience Manager utilizzano entrambi i segmenti. Tuttav
 title: Comprendere i segmenti in Analytics e Audience Manager
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '739'
 ht-degree: 2%
 
 ---
@@ -35,13 +35,13 @@ Un segmento di Analytics è un meccanismo di filtro per i dati presenti nei rapp
 
 * I segmenti di Analytics funzionano su un set di dati diverso dai segmenti Audience Manager. Durante la raccolta dei dati, Analytics applica molti passaggi di post-elaborazione diversi ai dati che non sono disponibili per Audience Manager. La post-elaborazione può includere persistenza eVar, regole di elaborazione, ricerche (geolocalizzazione, dispositivo mobile), VISTA e molte altre. Audience Manager riceve dati pre-elaborati tramite inoltro lato server (o DIL).
 
-   Si verificano discrepanze di dati comuni quando si confrontano segmenti basati su dimensioni che non scadono mai in Analytics con la stessa dimensione in Audience Manager. Ad esempio, listVar o eVar di merchandising che non scadono mai.
+  Si verificano discrepanze di dati comuni quando si confrontano segmenti basati su dimensioni che non scadono mai in Analytics con la stessa dimensione in Audience Manager. Ad esempio, listVar o eVar di merchandising che non scadono mai.
 
-   Ad esempio, se eVar = blu e è impostato per non scadere mai in Analytics, qualsiasi segmento in Analytics con il criterio &quot;eVar = blu&quot; includerà sempre questo visitatore. Mentre, ad Audience Manager, quel visitatore potrebbe non rientrare in un segmento definito in modo simile dopo un determinato periodo di tempo.
+  Ad esempio, se eVar = blu e è impostato per non scadere mai in Analytics, qualsiasi segmento in Analytics con il criterio &quot;eVar = blu&quot; includerà sempre questo visitatore. Mentre, ad Audience Manager, quel visitatore potrebbe non rientrare in un segmento definito in modo simile dopo un determinato periodo di tempo.
 
-* I segmenti di Analytics hanno più funzionalità dei segmenti AAM. I segmenti di Audience Manager vengono sempre valutati a livello di visitatore. I segmenti di Analytics possono essere definiti a livello di visitatore, visita o hit (o una combinazione di questi livelli). Inoltre, Analytics supporta funzionalità di segmentazione avanzate non supportate da Audience Manager, ad esempio la segmentazione sequenziale.
+* I segmenti di Analytics hanno più funzionalità dei segmenti di Adobe Audience Manager. I segmenti di Audience Manager vengono sempre valutati a livello di visitatore. I segmenti di Analytics possono essere definiti a livello di visitatore, visita o hit (o una combinazione di questi livelli). Inoltre, Analytics supporta funzionalità di segmentazione avanzate non supportate da Audience Manager, ad esempio la segmentazione sequenziale.
 * Come accennato in precedenza, i visitatori Audienci Manager possono entrare o uscire da un segmento a seconda che siano idonei per i criteri del segmento nel momento corrente.
 
-   Al contrario, in Analytics i visitatori verranno inclusi o esclusi da un segmento in base all’intervallo di date del rapporto. Ad esempio, un singolo visitatore ha effettuato un acquisto il mese scorso. In AAM, quel visitatore sarebbe incluso in un segmento &quot;acquirente&quot;, indipendentemente dall’intervallo di date. In Analytics, un rapporto basato su questo mese non includerebbe il visitatore nel segmento. Tuttavia, un rapporto basato su questo e sull’ultimo mese includerebbe il visitatore nel segmento.
+  Al contrario, in Analytics i visitatori verranno inclusi o esclusi da un segmento in base all’intervallo di date del rapporto. Ad esempio, un singolo visitatore ha effettuato un acquisto il mese scorso. In Adobe Audience Manager, quel visitatore veniva incluso in un segmento &quot;acquirente&quot;, indipendentemente dall’intervallo di date. In Analytics, un rapporto basato su questo mese non includerebbe il visitatore nel segmento. Tuttavia, un rapporto basato su questo e sull’ultimo mese includerebbe il visitatore nel segmento.
 
 Consulta la [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) per ulteriori informazioni.

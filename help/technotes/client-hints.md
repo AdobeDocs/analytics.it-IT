@@ -2,10 +2,10 @@
 title: Hint client
 description: Scopri in che modo gli hint client sostituiranno gradualmente l’agente utente come origine delle informazioni sul dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 66%
+source-wordcount: '1295'
+ht-degree: 59%
 
 ---
 
@@ -29,7 +29,7 @@ Gli hint client verranno incorporati nel processo di ricerca del dispositivo di 
 >
 > A partire da gennaio 2023, alcune versioni dei sistemi operativi Mac e Windows non sono rappresentate correttamente nell’agente utente, ma sono correttamente rappresentate negli hint client ad alta entropia. Consulta [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=it) per ulteriori informazioni.
 
-L’AAM richiede la raccolta di hint ad alta entropia per preservare la piena funzionalità. Se utilizzi l’[inoltro lato server ad AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
+Adobe Audience Manager richiede la raccolta di hint ad alta entropia per preservare la piena funzionalità. Se sta usando [inoltro lato server a Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
 
 ## Domande frequenti
 
@@ -143,7 +143,7 @@ Consulta la documentazione per includerli tramite l’[API di inserimento dati i
 
 +++
 
-+++**Gli hint client saranno disponibili nei dati inviati ad AEP e CJA tramite il connettore di origine di Adobe?**
++++**Gli hint client saranno disponibili nei dati inviati a Adobe Experience Platform e Customer Journey Analytics tramite il connettore di origine di Adobe?**
 
 Adobe prevede di includere gli hint client nei dati tramite il connettore di origine di Adobe nella prima metà del 2023.
 
@@ -155,8 +155,8 @@ Consulta la [documentazione sugllo schema](https://github.com/adobe/xdm/blob/mas
 
 +++
 
-+++**L’inoltro lato server ad AAM supporterà gli hint client?**
++++**L’inoltro lato server a Adobe Audience Manager supporterà gli hint client?**
 
-Sì. Gli hint client verranno inclusi nei dati inoltrati ad AAM. Tieni presente che per preservare la piena funzionalità AAM richiede la raccolta di hint ad alta entropia. Se utilizzi l’[inoltro lato server ad AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
+Sì. Gli hint client verranno inclusi nei dati inoltrati a Adobe Audience Manager. Tieni presente che Adobe Audience Manager richiede la raccolta di hint ad alta entropia per preservare la piena funzionalità. Se sta usando [inoltro lato server a Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
 
 +++

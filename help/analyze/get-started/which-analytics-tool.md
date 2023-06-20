@@ -3,10 +3,10 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
-workflow-type: ht
-source-wordcount: '1159'
-ht-degree: 100%
+source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 96%
 
 ---
 
@@ -80,7 +80,7 @@ Gli **[Attributi cliente](https://experienceleague.adobe.com/docs/core-services
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** è indicato nei seguenti casi:
 
-* Se desideri incorporare in un flusso di lavoro Analytics dei dati sul pubblico da Adobe Audience Manager (AAM) come informazioni demografiche (ad esempio, genere o fascia di reddito), informazioni psicografiche (ad esempio, interessi e hobby), dati CRM o dati di impressioni di annunci.
+* Se desideri incorporare in un flusso di lavoro Analytics dati sul pubblico di Adobe Audience Manager come informazioni demografiche (ad esempio, genere o fascia di reddito), informazioni psicografiche (ad esempio, interessi e hobby), dati CRM o dati di impressioni di annunci.
 * Se vuoi che i dati CRM caricati siano basati su tempo, perché questa integrazione invia nuove informazioni ad Analytics hit per hit.
 
 ## Esportazione di dati da Adobe Analytics {#export}

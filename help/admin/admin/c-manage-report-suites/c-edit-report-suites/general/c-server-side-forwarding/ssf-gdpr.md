@@ -3,10 +3,10 @@ description: Vengono descritti i miglioramenti relativi all’inoltro lato serve
 title: Conformità a RGPD/ePrivacy e inoltro lato server
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 59%
 
 ---
 
@@ -16,11 +16,11 @@ Questa sezione specifica i miglioramenti relativi all’inoltro lato server intr
 
 L’inoltro lato server viene utilizzato per condividere in tempo reale dati da Adobe Analytics ad altre [!DNL Experience Cloud Solutions], come ad esempio Audience Manager. Se abilitato, l’inoltro lato server consente ad Analytics di trasmettere i dati ad altre soluzioni Experience Cloud e a queste di trasmetterli ad Analytics durante il processo di raccolta dei dati.
 
-In precedenza, l’inoltro lato server non disponeva di un metodo che permettesse di distinguere eventi/hit di consenso e pre-consenso. A partire dal 1° novembre 2018, in qualità di titolare del trattamento dei dati (cliente Adobe Analytics) puoi limitare i dati pre-consenso ad Adobe Analytics e impedirne l’inoltro ad AAM. Una nuova variabile di contesto dell’implementazione consente di contrassegnare ogni hit per cui non è stato ricevuto il consenso. La variabile, se impostata, impedisce che tali hit vengano inviati ad AAM finché non sia stato ricevuto il consenso.
+In precedenza, l’inoltro lato server non disponeva di un metodo che permettesse di distinguere eventi/hit di consenso e pre-consenso. A partire dal 1° novembre 2018, in qualità di titolare del trattamento dei dati (cliente Adobe Analytics) puoi limitare i dati divulgati prima del consenso ad Adobe Analytics e impedirne l’inoltro a Adobe Audience Manager. Una nuova variabile di contesto dell’implementazione consente di contrassegnare ogni hit per cui non è stato ricevuto il consenso. La variabile, se impostata, impedisce che tali hit vengano inviati a Adobe Audience Manager finché non sia stato ricevuto il consenso.
 
-Se l’hit contiene la nuova variabile di contesto `cm.ssf=1`, viene contrassegnato con un flag e non viene effettuato l’inoltro lato server ad AAM. Viceversa, se tale stringa non è presente, l’hit viene inoltrato ad AAM.
+Quando questa nuova variabile di contesto, `cm.ssf=1`, esiste in un hit, questo hit viene contrassegnato e non viene inoltrato lato server a Adobe Audience Manager. Al contrario, se questa stringa non viene visualizzata su un hit, l’hit viene inoltrato a Adobe Audience Manager.
 
-L’inoltro lato server è bidirezionale: se applicato a un hit che viene inoltrato ad AAM, Audience Analytics riceve informazioni sui segmenti per tale hit da AAM e lo restituisce ad Analytics. Di conseguenza, gli hit non inoltrati sul lato server da Analytics ad AAM non verranno integrati con l’elenco degli ID del segmento da AAM. Pertanto, sarà presente un sottoinsieme di traffico/hit che non riceve informazioni sull’ID del segmento da AAM.
+L’inoltro lato server è bidirezionale: se applicato a un hit che viene inoltrato a Adobe Audience Manager, Audience Analytics riceve informazioni sui segmenti per tale hit da Adobe Audience Manager e lo restituisce ad Analytics. Di conseguenza, gli hit non inoltrati sul lato server da Analytics a Adobe Audience Manager non verranno arricchiti con l’elenco degli ID del segmento da Adobe Audience Manager. Pertanto, sarà presente un sottoinsieme di traffico/hit che non riceve informazioni sull’ID del segmento da Adobe Audience Manager.
 
 ## Dettagli di implementazione {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
@@ -33,7 +33,7 @@ In base al metodo di implementazione adottato, segui questi passaggi.
 
 ## Reportistica (facoltativo) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-Puoi utilizzare Adobe Analytics per generare rapporti di confronto tra la quantità di traffico basata sul consenso (per cui quindi è stato effettuato l’inoltro lato server) e la quantità di traffico non basato sul consenso (per cui quindi non è stato effettuato l’inoltro ad AAM).
+Puoi utilizzare Adobe Analytics per generare rapporti sulla quantità di traffico basata sul consenso e di conseguenza inoltrata lato server rispetto al traffico non basato sul consenso e non inoltrata a Adobe Audience Manager.
 
 Per configurare questo tipo di reportistica, usa le regole di elaborazione per mappare a nuova variabile di contesto su una variabile di traffico personalizzata (prop). A questo scopo, eseguie le seguenti operazioni:
 

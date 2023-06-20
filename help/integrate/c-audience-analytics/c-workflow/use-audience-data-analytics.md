@@ -1,23 +1,23 @@
 ---
-description: Puoi utilizzare le dimensioni Pubblico dell’AAM in tutte le aree di Analytics. I segmenti integrati sono nuove dimensioni di Analytics denominate ID pubblico e Nome pubblico e possono essere utilizzati come qualsiasi altra dimensione raccolta da Analytics. Nei feed di dati, gli ID del pubblico sono memorizzati nella colonna "mc_audiences". Queste dimensioni non sono attualmente disponibili in Data Workbench o Livestream. Alcuni esempi di come è possibile sfruttare le dimensioni di Audiences includono
+description: Puoi utilizzare le dimensioni Pubblico di Adobe Audience Manager in tutte le aree di Analytics. I segmenti integrati sono nuove dimensioni di Analytics denominate ID pubblico e Nome pubblico e possono essere utilizzati come qualsiasi altra dimensione raccolta da Analytics. Nei feed di dati, gli ID del pubblico sono memorizzati nella colonna "mc_audiences". Queste dimensioni non sono attualmente disponibili in Data Workbench o Livestream. Alcuni esempi di come è possibile sfruttare le dimensioni di Audiences includono
 solution: Experience Cloud
 title: Uso dei dati di audience in Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 9%
+source-wordcount: '602'
+ht-degree: 8%
 
 ---
 
 # Uso dei dati di audience in Analytics
 
-Puoi utilizzare le dimensioni Pubblico dell’AAM in tutte le aree di Analytics. I segmenti integrati sono nuove dimensioni di Analytics denominate ID pubblico e Nome pubblico e possono essere utilizzati come qualsiasi altra dimensione raccolta da Analytics. Nei feed di dati, gli ID del pubblico sono memorizzati nella colonna &quot;mc_audiences&quot;. Queste dimensioni non sono attualmente disponibili in Data Workbench o Livestream. Alcuni esempi di come è possibile sfruttare le dimensioni di Audiences includono:
+Puoi utilizzare le dimensioni Pubblico di Adobe Audience Manager in tutte le aree di Analytics. I segmenti integrati sono nuove dimensioni di Analytics denominate ID pubblico e Nome pubblico e possono essere utilizzati come qualsiasi altra dimensione raccolta da Analytics. Nei feed di dati, gli ID del pubblico sono memorizzati nella colonna &quot;mc_audiences&quot;. Queste dimensioni non sono attualmente disponibili in Data Workbench o Livestream. Alcuni esempi di come è possibile sfruttare le dimensioni di Audiences includono:
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
-In Analysis Workspace, i segmenti AAM vengono visualizzati come due dimensioni.
+In Analysis Workspace, i segmenti di Adobe Audience Manager vengono visualizzati come due dimensioni.
 
 1. Vai a **[!UICONTROL Workspace]**.
 1. Dall’elenco di **[!UICONTROL Dimensions]**, seleziona le dimensioni **[!UICONTROL Audience ID]** o **[!UICONTROL Audience Name]**. Il nome è una classificazione dell’ID intuitiva.
@@ -43,7 +43,7 @@ In Analysis Workspace, i segmenti AAM vengono visualizzati come due dimensioni.
 
 ## Percorso di clienti (Flusso) in Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-I dati dei segmenti AAM vengono trasmessi in Analytics hit per hit, e rappresentano l’appartenenza del pubblico per un visitatore in quel momento. Ciò significa che un visitatore potrebbe rientrare in un segmento (ad esempio, &quot;Consapevolezza&quot;) e qualificarsi successivamente per un segmento più qualificato (ad esempio, &quot;Considerazione&quot;). È possibile utilizzare [Flusso](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=it) in Analysis Workspace per visualizzare il percorso che un visitatore segue tra i diversi tipi di pubblico.
+I dati dei segmenti di Adobe Audience Manager vengono trasmessi in Analytics hit per hit e rappresentano l’iscrizione del pubblico di un visitatore in quel momento. Ciò significa che un visitatore potrebbe rientrare in un segmento (ad esempio, &quot;Consapevolezza&quot;) e qualificarsi successivamente per un segmento più qualificato (ad esempio, &quot;Considerazione&quot;). È possibile utilizzare [Flusso](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=it) in Analysis Workspace per visualizzare il percorso che un visitatore segue tra i diversi tipi di pubblico.
 
 1. Vai a **[!UICONTROL Workspace]** e seleziona la **[!UICONTROL Flow]** dalla barra a sinistra.
 

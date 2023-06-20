@@ -4,10 +4,10 @@ solution: Analytics
 title: Panoramica sull’inoltro lato server
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 95%
+source-wordcount: '826'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ L’inoltro lato server migliora la raccolta dati perché:
 >Gli attuali clienti di Audience Manager che utilizzano Analytics devono eseguire la migrazione ala funzione di inoltro lato server. I nuovi clienti Adobe Analytics e Audience Manager devono implementare l’inoltro lato server (anziché DIL) come metodo predefinito per la raccolta e il trasferimento dei dati.
 
 >[!IMPORTANT]
->In base al regolamento UE sulla conformità dei cookie, i titolari del trattamento dei dati (clienti Analytics) hanno ora la possibilità di limitare i dati divulgati prima del consenso ad Adobe Analytics e di impedire che vengano inoltrati dal server ad Adobe Audience Manager (AAM). Una nuova variabile di contesto dell’implementazione consente di contrassegnare ogni hit per cui non è stato ricevuto il consenso. La variabile, se impostata, impedisce che tali hit vengano inviati ad AAM finché non sia stato ricevuto il consenso. Per ulteriori informazioni, consulta [Conformità RGPD_ePrivacy e inoltro lato server](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
+>In base al regolamento UE sulla conformità dei cookie, i titolari del trattamento dei dati (clienti Analytics) hanno ora la possibilità di limitare i dati divulgati prima del consenso ad Adobe Analytics e di impedire che vengano inoltrati dal server ad Adobe Audience Manager. Una nuova variabile di contesto dell’implementazione consente di contrassegnare ogni hit per cui non è stato ricevuto il consenso. La variabile, se impostata, impedisce che tali hit vengano inviati a Adobe Audience Manager finché non sia stato ricevuto il consenso. Per ulteriori informazioni, consulta [Conformità RGPD_ePrivacy e inoltro lato server](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Per individuare la posizione della tua organizzazione in termini di implementazione dell’inoltro lato server, segui questi passaggi di convalida:
 
@@ -49,12 +49,12 @@ Nella scheda “Response” (Risposta), verifica che la risposta contenga dati d
 * **&quot;status&quot;:&quot;SUCCESS&quot;**: hai implementato il modulo Audience Management, ma l’inoltro lato server non è stato configurato correttamente. Procedi al passaggio 3.
 * Un’**immagine 2 x 2**: l’inoltro lato server o il modulo Audience Management non è stato implementato. Per risolvere il problema:
 
-   * **Clienti AAM con DIL**: coordina le seguenti due operazione in stretta congiunzione:
+   * **Clienti Adobe Audience Manager con DIL**: coordina i seguenti 2 elementi in stretta congiunzione:
 
       1. Rimuovi il codice DIL e installa il codice della pagina del [modulo Audience Management](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it).
       1. Abilita l’inoltro lato server nell’interfaccia utente di amministrazione di Analytics, come indicato al passaggio 3. Se abiliti l’impostazione prima di rimuovere il codice DIL, i dati verranno duplicati e verranno create chiamate server fatturate aggiuntive per Audience Manager.
-   * **Nuovi clienti AAM**: installa il codice della pagina del [modulo Audience Management](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it) e procedi al passaggio 3. I dati verranno inviati ad Audience Manager solo dopo l’attivazione dell’inoltro lato server al passaggio 3.
 
+   * **Nuovi clienti Adobe Audience Manager** - installare [Modulo Gestione dell&#39;audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it) codice della pagina e continuare con il passaggio 3. I dati verranno inviati ad Audience Manager solo dopo l’attivazione dell’inoltro lato server al passaggio 3.
 
 ## ![immagine step3_icon.png](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Verificare l’implementazione lato server della suite di rapporti
 

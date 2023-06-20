@@ -3,10 +3,10 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '2315'
-ht-degree: 100%
+source-wordcount: '2319'
+ht-degree: 99%
 
 ---
 
@@ -324,7 +324,7 @@ Data di rilascio: **5 novembre 2015**
 Data di rilascio: **17 settembre 2015**
 
 * Inclusione di API Visitor 1.5.2
-* È stato aggiornato il modulo [!DNL Audience Manager] per l’utilizzo di AAM DIL 6.2 - getCustomer ID da VisitorAPI.js, per poi trasmetterli nella chiamata /event ad AAM. (AN-104978)
+* Aggiornato [!DNL Audience Manager] modulo per utilizzare Adobe Audience Manager DIL 6.2 - getCustomer ID da VisitorAPI.js e trasmetterli nella chiamata /event a Adobe Audience Manager. (AN-104978)
 
 ## Versione 1.5
 
@@ -376,24 +376,24 @@ Data di rilascio: **18 settembre 2014**
 
 * Aggiunta di una variabile `tagContainerMarker` che consente l’implementazione per specificare fino a 4 caratteri da aggiungere alla stringa della versione con un delimitatore di caratteri in forma di trattino. La variabile viene utilizzata per la gestione dinamica dei tag.
 
-   ```js
-   // JavaScript
-   s.tagContainerMarker = "D1.0";
-   
-   // Data Collection request
-   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
-   ```
+  ```js
+  // JavaScript
+  s.tagContainerMarker = "D1.0";
+  
+  // Data Collection request
+  //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
+  ```
 
-   È possibile utilizzare 4 caratteri consentiti in percorsi di file URL, ad esempio caratteri alfanumerici e punto.
+  È possibile utilizzare 4 caratteri consentiti in percorsi di file URL, ad esempio caratteri alfanumerici e punto.
 
 * Correzione di un loop che potrebbe verificarsi durante il monitoraggio automatico dei collegamenti (download e uscita) con monitoraggio forzato dei collegamenti abilitato (impostazione predefinita in browser WebKit) in pagine con doppio tag e codice H. Per evitare tali loop, è stata inoltre aggiunta una protezione automatica generale per il monitoraggio automatico dei collegamenti. Questa protezione limita il monitoraggio automatico dei collegamenti di clic ripetuti sullo *stesso* oggetto a una volta ogni 10 secondi. La protezione si applica solo al monitoraggio automatico dei collegamenti, le chiamate al monitoraggio manuale dei collegamenti (s. tl) non sono limitate. La protezione non viene applicata a clic su oggetti diversi, che vengono invece monitorati.
 * Correzione relativa alla gestione di elementi oggetti di clic in caso sia necessario applicare un ritardo.
 * Risoluzione del problema che causava un doppio conteggio pagina-vista in caso di chiamata a s.tl da una funzione di collegamento OnClick, nel caso in cui l’API Visitor non contenesse ancora i valori necessari.
 * Supporto HTTP POST.
 
-   >[!IMPORTANT]
-   >
-   >Affinché una chiamata [!DNL Analytics] possa utilizzare il metodo POST invece del metodo GET in [!DNL AppMeasurement] (un metodo per risolvere gli [URL troncati](https://helpx.adobe.com/it/analytics/kb/shortening-image-request-urls.html) in IE), devi usare l’implementazione più recente del servizio ID visitatori per Experience Cloud.
+  >[!IMPORTANT]
+  >
+  >Affinché una chiamata [!DNL Analytics] possa utilizzare il metodo POST invece del metodo GET in [!DNL AppMeasurement] (un metodo per risolvere gli [URL troncati](https://helpx.adobe.com/it/analytics/kb/shortening-image-request-urls.html) in IE), devi usare l’implementazione più recente del servizio ID visitatori per Experience Cloud.
 
 ## Versione 1.4
 
@@ -482,11 +482,11 @@ Data di rilascio:**18 luglio 2013**
 
 * L’hash/frammento ora viene ignorato dal tracciamento automatico dei collegamenti. In precedenza veniva tracciato automaticamente il seguente URL, dal momento che l’intero `href` terminava con `.pdf`:
 
-   ```js
-   <a href="index.htm#anchor.pdf">Test Link</a>
-   ```
+  ```js
+  <a href="index.htm#anchor.pdf">Test Link</a>
+  ```
 
-   Ora l’hash o il frammento viene ignorato e il collegamento viene tracciato solo quando il nome del file termina con un’estensione corrispondente.
+  Ora l’hash o il frammento viene ignorato e il collegamento viene tracciato solo quando il nome del file termina con un’estensione corrispondente.
 
 ## Versione 1.0.1
 

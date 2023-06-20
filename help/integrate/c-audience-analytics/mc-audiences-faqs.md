@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Domande frequenti per Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 15%
+source-wordcount: '1126'
+ht-degree: 14%
 
 ---
 
@@ -41,13 +41,13 @@ Risposte alle domande che potresti avere durante l’implementazione di Audience
  </tbody> 
 </table>
 
-## Domande frequenti specifiche per AAM {#section_6BDF746BA6464359A6A89A64EB025D12}
+## Domande frequenti specifiche per Adobe Audience Manager {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>D: Come si crea una destinazione Analytics in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> Consulta <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configurare una destinazione Analytics in AAM </a>. </td> 
+   <td colname="col2"> Consulta <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configurare una destinazione Analytics in Adobe Audience Manager </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Dopo aver creato e salvato una destinazione Analytics, quanto tempo ci vorrà prima che i dati vengano visualizzati nelle suite di rapporti selezionate?</b> </p> </td> 
@@ -58,7 +58,7 @@ Risposte alle domande che potresti avere durante l’implementazione di Audience
    <td colname="col2"> <p>Una destinazione Analytics scompare dalla sezione Mappature di destinazione di un segmento quando selezioni il <span class="uicontrol"> Mappa automaticamente tutti i segmenti correnti e futuri </span> opzione in <span class="uicontrol"> Mappature dei segmenti </span>. </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>Per evitare questo problema, seleziona <span class="uicontrol"> Mappare manualmente i segmenti </span> invece dell’opzione automatica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>D: Questo mi darà tutte le informazioni dall’AAM, in Analytics?</b> </p> </td> 
+   <td colname="col1"> <p> <b>D: Questo mi darà tutte le informazioni da Adobe Audience Manager, in Analytics?</b> </p> </td> 
    <td colname="col2"> <p>No, solo i dati relativi alle persone che arrivano sul tuo sito durante o dopo l’abilitazione di Audiences Audience Manager e durante/dopo la qualificazione dei segmenti. </p> </td> 
   </tr> 
   <tr> 
@@ -90,27 +90,27 @@ Risposte alle domande che potresti avere durante l’implementazione di Audience
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Perché non vedo i dati provenienti da Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>È probabile che tu disponga di controlli sulla privacy AAM in conflitto tra l’origine dati e la destinazione. </p> </td> 
+   <td colname="col2"> <p>È probabile che siano presenti controlli sulla privacy di Adobe Audience Manager in conflitto tra origine dati e destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Perché mancano alcuni dei miei segmenti in Analytics, anche se ho scelto di inviare tutti i segmenti?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">I controlli sull’esportazione dei dati AAM sulla destinazione e nelle origini dati dei segmenti potrebbero essere in conflitto, impedendo l’invio di alcuni segmenti. </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">I controlli di esportazione dei dati Adobe Audience Manager sulla destinazione e nelle origini dati dei segmenti potrebbero essere in conflitto, impedendo l’invio di alcuni segmenti. </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">Se utilizzi caratteristiche di dati di terze parti nei segmenti, tali segmenti non possono essere condivisi con destinazioni (un set di suite di rapporti) che contengono dati personali. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Perché vedo "Limite di pubblico raggiunto" nel mio rapporto Analytics? (Nota: verrà rappresentato anche come Audience ID = -1 e "::max_audiences_exceeded::" nella Data Warehouse)</b> </p> </td> 
-   <td colname="col2"> <p>Per impostazione predefinita, l’integrazione Audience Analytics per l’AAM invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all’hit. Se un visitatore appartiene a più di 150 segmenti AAM in un singolo hit, il <b>150 segmenti qualificati più di recente</b> vengono inviati ad Analytics, mentre l’elenco rimanente viene troncato. </p> <p>Ad Analytics viene inviato un flag aggiuntivo che indica che l’elenco dei segmenti è stato troncato e viene visualizzato come "Limite di pubblico raggiunto" nella dimensione Nome pubblico e "-1" nella dimensione ID pubblico. </p> <p>Anche se è improbabile che un visitatore sia idoneo per più di 150 segmenti su un particolare hit, ciò può accadere per una piccola percentuale di tempo. Se nei rapporti si verifica il "Limite di pubblico raggiunto", sono disponibili due opzioni: </p> 
+   <td colname="col2"> <p>Per impostazione predefinita, l’integrazione Audience Analytics per Adobe Audience Manager invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all’hit. Se un visitatore appartiene a più di 150 segmenti Adobe Audience Manager in un singolo hit, il <b>150 segmenti qualificati più di recente</b> vengono inviati ad Analytics, mentre l’elenco rimanente viene troncato. </p> <p>Ad Analytics viene inviato un flag aggiuntivo che indica che l’elenco dei segmenti è stato troncato e viene visualizzato come "Limite di pubblico raggiunto" nella dimensione Nome pubblico e "-1" nella dimensione ID pubblico. </p> <p>Anche se è improbabile che un visitatore sia idoneo per più di 150 segmenti su un particolare hit, ciò può accadere per una piccola percentuale di tempo. Se nei rapporti si verifica il "Limite di pubblico raggiunto", sono disponibili due opzioni: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Opzione 1</b>: continua a lasciare che l’integrazione funzioni nel suo stato predefinito, inviando gli ultimi 150 segmenti qualificati per un visitatore specifico. </li> 
-     <li id="li_CA4D5747AA4A4452929097807B604959"><b>Opzione 2</b>: in AAM, scegli i 150 segmenti più importanti per la tua azienda per l’integrazione. L’AAM controlla quindi i visitatori solo rispetto a quei 150 segmenti. Lo svantaggio di questo approccio è che ricevi solo quei 150 segmenti su tutti i visitatori. D’altro canto, l’approccio dell’opzione 1 può offrire segmenti illimitati a causa della natura specifica dell’integrazione. </li> 
+     <li id="li_CA4D5747AA4A4452929097807B604959"><b>Opzione 2</b>: in Adobe Audience Manager, scegli i 150 segmenti più importanti per la tua azienda per l’integrazione. Adobe Audience Manager quindi controlla i visitatori solo rispetto a tali 150 segmenti. Lo svantaggio di questo approccio è che ricevi solo quei 150 segmenti su tutti i visitatori. D’altro canto, l’approccio dell’opzione 1 può offrire segmenti illimitati a causa della natura specifica dell’integrazione. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: verranno fatturate chiamate server aggiuntive ad Analytics per questa integrazione?</b> </p> </td> 
-   <td colname="col2"> <p>No. I tipi di pubblico AAM sono incorporati nell’hit di Analytics lato server. Questo non comporta chiamate server aggiuntive ad Analytics (primaria o secondaria). </p> </td> 
+   <td colname="col2"> <p>No. I tipi di pubblico di Adobe Audience Manager sono incorporati nell’hit Analytics lato server. Questo non comporta chiamate server aggiuntive ad Analytics (primaria o secondaria). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Risposte alle domande che potresti avere durante l’implementazione di Audience
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>D: se hai implementato un SSF legacy, devo andare anche dall’amministratore di Analytics e attivare l’SSF della suite di rapporti?</b> </p> </td> 
-   <td colname="col2"> <p>Sì. Nell’impostazione della destinazione AAM, vedrai solo le suite di rapporti che hanno SSF attivato. </p> </td> 
+   <td colname="col2"> <p>Sì. Nella configurazione della destinazione Adobe Audience Manager, verranno visualizzate solo le suite di rapporti con SSF attivato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Perché non posso attivare alcune suite di rapporti per SSF in Analytics Admin?</b> </p> </td> 
@@ -141,12 +141,12 @@ Per ulteriori domande frequenti su questo argomento, consulta [Domande frequenti
    <td colname="col2"> <p>Consulta <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Differenze nel numero di visitatori </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>D: Qual è la differenza tra "pubblico" in AAM e "segmenti" in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Consulta <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Comprendere i segmenti in Analytics e Audience Manager </a>. </p> <p>I tipi di pubblico dell’AAM vengono inviati e condivisi come componenti "dimensionali" da utilizzare in Analytics. Ad esempio, non verranno visualizzati come segmenti nel Generatore di segmenti, ma come dimensioni con cui puoi creare i segmenti. </p> </td> 
+   <td colname="col1"> <p><b>D: Qual è la differenza tra "pubblico" in Adobe Audience Manager e "segmenti" in Analytics?</b> </p> </td> 
+   <td colname="col2"> <p>Consulta <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Comprendere i segmenti in Analytics e Audience Manager </a>. </p> <p>I tipi di pubblico di Adobe Audience Manager vengono inviati e condivisi come componenti "dimensionali" da utilizzare in Analytics. Ad esempio, non verranno visualizzati come segmenti nel Generatore di segmenti, ma come dimensioni con cui puoi creare i segmenti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>D: Qual è la differenza tra Attributi del cliente e dati del cliente integrati dall’AAM?</b> </p> </td> 
-   <td colname="col2"> <p>Gli attributi del cliente non sono basati sul tempo, ma vengono applicati retroattivamente e successivamente. I dati integrati dell’AAM sono basati solo sul tempo e possono essere utilizzati solo in futuro. Inoltre, Attributi del cliente è una tabella di ricerca per ID visitatore di Experience Cloud, mentre l’integrazione AAM è costituita dai dati uniti in ogni hit di un visitatore. </p> </td> 
+   <td colname="col1"> <p><b>D: Qual è la differenza tra Attributi del cliente e dati del cliente integrati da Adobe Audience Manager?</b> </p> </td> 
+   <td colname="col2"> <p>Gli attributi del cliente non sono basati sul tempo, ma vengono applicati retroattivamente e successivamente. I dati integrati di Adobe Audience Manager sono basati solo sul tempo e possono essere utilizzati solo successivamente. Inoltre, Attributi del cliente è una tabella di ricerca per ID visitatore di Experience Cloud, mentre l’integrazione Adobe Audience Manager è costituita dai dati uniti in ogni hit di un visitatore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: cosa succede con gli approcci legacy a questo problema, ad esempio le destinazioni dei cookie plug-in beta o Consulting precedenti?</b> </p> </td> 

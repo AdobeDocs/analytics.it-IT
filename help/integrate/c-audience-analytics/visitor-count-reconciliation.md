@@ -3,9 +3,9 @@ description: In Adobe Analytics e Adobe Audience Manager esistono metriche visit
 title: Differenze tra i conteggi dei visitatori
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '296'
 ht-degree: 3%
 
 ---
@@ -25,11 +25,11 @@ Le metriche del visitatore sono:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: popolazione totale del segmento</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: popolazione totale del segmento</a> </p> </td> 
    <td colname="col3"> <p>Numero di dispositivi (ID Experience Cloud) che erano membri del segmento durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: popolazione del segmento in tempo reale</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: popolazione dei segmenti in tempo reale</a> </p> </td> 
    <td colname="col3"> <p>Numero di dispositivi (ID Experience Cloud) membri del segmento che hanno raggiunto le proprietà durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +43,13 @@ Le metriche del visitatore sono:
  </tbody> 
 </table>
 
-La popolazione dei segmenti in tempo reale dell’AAM e i visitatori di Analytics con l’ID Experience Cloud utilizzato nel reporting di Audience Analytics saranno i più simili. Nel breve periodo, tuttavia, a causa di diversi fattori, vi saranno lievi discrepanze tra di essi. I fattori che contribuiscono sono:
+La popolazione dei segmenti in tempo reale di Adobe Audience Manager e i visitatori di Analytics con l’ID Experience Cloud utilizzato nel reporting di Audience Analytics saranno i più simili. Nel breve periodo, tuttavia, a causa di diversi fattori, vi saranno lievi discrepanze tra di essi. I fattori che contribuiscono sono:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Fattore </th> 
-   <th colname="col2" class="entry"> AAM: popolazione del segmento in tempo reale </th> 
+   <th colname="col2" class="entry"> Adobe Audience Manager: popolazione dei segmenti in tempo reale </th> 
    <th colname="col3" class="entry"> Analytics: visitatori con ID Experience Cloud </th> 
   </tr>
  </thead>

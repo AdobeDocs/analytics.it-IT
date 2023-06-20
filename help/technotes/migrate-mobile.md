@@ -3,9 +3,9 @@ description: Scopri come migrare le regole di elaborazione di Mobile Services in
 title: Migrare le regole di elaborazione di Mobile Services ad Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '658'
 ht-degree: 17%
 
 ---
@@ -77,4 +77,4 @@ Se utilizzi Mobile Services per le funzionalità a pagamento, non disponi di un 
 
 * Per i collegamenti di acquisizione, possiamo indirizzarti a partner Adobi per soddisfare le tue esigenze.
 * I messaggi push e i messaggi in-app sono disponibili in Adobe Campaign Standard e Adobe Campaign Classic (solo push). Tuttavia, il set di dati sottostante utilizzato per il targeting è diverso. Consigliamo di collaborare con il team del tuo account Adobe per determinare le opzioni di migrazione per i dati di messaggistica.
-* Per la funzionalità Posizione, ti invitiamo ad adottare il nuovo [Adobe Experience Platform Location Service](https://www.adobe.com/experience-platform/location-service.html), gratuito per tutti i clienti AEP.
+* Per la funzionalità Posizione, ti invitiamo ad adottare il nuovo [Adobe Experience Platform Location Service](https://www.adobe.com/experience-platform/location-service.html), gratuito per tutti i clienti Adobe Experience Platform.
