@@ -1,53 +1,54 @@
 ---
-description: Gli amministratori sono responsabili del monitoraggio dello stato di Data Dictionary. Ciò include il fatto che i componenti raccolgano dati, siano approvati, contengano descrizioni e siano privi di duplicati.
-title: Monitorare lo stato del dizionario dati
+description: Gli amministratori sono responsabili del monitoraggio dell’integrità del dizionario dei dati. Ciò include verificare se i componenti raccolgono dati, sono approvati, contengono descrizioni e sono privi di duplicati.
+title: Monitorare l’integrità del dizionario dei dati
 feature: Components
 role: Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
-workflow-type: tm+mt
+exl-id: 82176931-2bd9-4f4e-9ca7-4214d44151a8
+source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Monitorare lo stato del dizionario dati
+# Monitorare l’integrità del dizionario dei dati
 
-Gli amministratori di Analytics sono responsabili della manutenzione di un dizionario dati sano.
+Gli amministratori di Analytics sono responsabili della gestione di un dizionario dei dati integro.
 
-## Caratteristiche di un dizionario dati sano
+## Caratteristiche di un dizionario dei dati integro
 
-Un dizionario dati sano è quello in cui tutti i componenti:
+Un dizionario dei dati integro è un dizionario in cui tutti i componenti:
 
-* Vengono utilizzati e raccolgono dati
+* Sono in uso e stanno raccogliendo dati
 
-* Contenere descrizioni utili per consentire agli utenti di sapere come utilizzarle al meglio
+* Contengono descrizioni utili che consentono agli utenti di utilizzarle al meglio
 
-* Sono esenti da duplicati non necessari
+* Sono privi di duplicati non necessari
 
 * Sono approvati dall’amministratore
 
-## Controllare lo stato del dizionario dati
+## Verificare l’integrità del dizionario dei dati
 
-Per identificare i problemi di salute nel tuo dizionario dati:
+Per identificare i problemi di integrità nel dizionario dei dati:
 
-1. Apri un progetto Analysis Workspace.
+1. Apri un progetto di Analysis Workspace.
 
-1. Seleziona l’icona del dizionario dati sul lato sinistro di Analysis Workspace. (I modi alternativi per accedere al dizionario dati sono descritti in &quot;Accedere al dizionario dati&quot; in [Panoramica sul dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
+1. Seleziona l’icona Dizionario dei dati a sinistra di Analysis Workspace. I modi alternativi per accedere al dizionario dei dati sono descritti in “Accedere al dizionario dei dati” in [Panoramica del dizionario dei dati](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
 
-   Viene visualizzata la finestra del dizionario dati.
+   Viene visualizzata la finestra Dizionario dei dati.
 
-   ![Visualizzazione amministratore del dizionario dati](assets/data-dictionary-admin.png)
+   ![Vista amministratore del dizionario dei dati](assets/data-dictionary-admin.png)
 
 1. Assicurati che nel menu a discesa sia selezionata la suite di rapporti corretta.
 
-1. Sulla [!UICONTROL **Salute dei dizionari**] scheda , seleziona [!UICONTROL **Visualizza**] accanto a una delle seguenti opzioni:
+1. Nella scheda [!UICONTROL **Integrità del dizionario**], seleziona [!UICONTROL **Visualizza**] accanto a una delle seguenti opzioni:
 
    * [!UICONTROL **mancano descrizioni dei componenti**]
 
-   * [!UICONTROL **i componenti dispongono di duplicati**]
+   * [!UICONTROL **i componenti hanno duplicati**]
 
-   * [!UICONTROL **i componenti non dispongono di dati connessi**]
+   * [!UICONTROL **ai componenti non sono collegati dati**]
 
-   A seconda di ciò che selezioni, il filtro appropriato viene applicato al dizionario dati e vengono visualizzati solo i componenti pertinenti.
+   A seconda di ciò che selezioni, il filtro appropriato viene applicato al dizionario dei dati e vengono visualizzati solo i componenti rilevanti.
 
-1. Modifica uno dei componenti per migliorare lo stato del dizionario dati. Per informazioni su come modificare un componente nel dizionario dati, consulta [Modificare le voci del componente nel dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+1. Modifica i componenti per migliorare lo stato del dizionario dei dati. Per informazioni su come modificare un componente nel dizionario dei dati, vedi [Modificare le voci dei componenti nel dizionario dei dati](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
