@@ -3,9 +3,9 @@ title: visitorID
 description: Utilizza un ID visitatore personalizzato.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 0e4afc2532c7a6fe90085ad6f24ac859bcd3baf7
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '255'
 ht-degree: 18%
 
 ---
@@ -17,10 +17,6 @@ In Adobe vengono utilizzati diversi metodi per identificare i visitatori sul sit
 >[!IMPORTANT]
 >
 >L’Adobe consiglia di non utilizzare questa variabile. Utilizza il [Servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) invece.
-
-## Sostituzione dell’ID visitatore tramite Web SDK
-
-Disponibile a breve!
 
 ## ID visitatore tramite l’estensione Adobe Analytics
 
