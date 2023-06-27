@@ -3,9 +3,9 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 09a4f0865c0297681a05da4eae98412632931626
+source-git-commit: 8e753a4ab2f86ff1b45d3116e51c5ce03f5b038b
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1505'
 ht-degree: 87%
 
 ---
@@ -37,7 +37,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 | **Nuovo pulsante per aggiungere una visualizzazione all’interno di un pannello** | Nella parte inferiore di ciascun pannello di Analysis Workspace è ora disponibile un nuovo pulsante che consente di aggiungere rapidamente una visualizzazione. <p>In precedenza, per aggiungere una visualizzazione a un pannello eano disponibili solo i seguenti metodi: trascinare una visualizzazione dalla barra a sinistra, duplicare o copiare una visualizzazione esistente, oppure creare un pannello vuoto. [Ulteriori informazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | N/D | 17 maggio 2023 |
 | **Deep Linking (app mobile)** | Consente agli utenti di inviare collegamenti alle scorecard che li porteranno direttamente al progetto della scorecard nell’app. Questo agevola ulteriormente la condivisione dei progetti e il coinvolgimento di un pubblico meno tecnico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#share-scorecards-using-a-shareable-link) | N/D | 17 maggio 2023 |
 | **Filtri a discesa dinamici** | Stiamo introducendo un nuovo tipo di filtro a discesa che determina i valori disponibili in base ai dati all’interno dell’intervallo di reporting del pannello e ai valori in altri filtri a discesa. Puoi utilizzare filtri a discesa dinamici trascinando una dimensione nella zona di rilascio del pannello mentre tieni premuto [!UICONTROL Shift]. I filtri a discesa statici rimangono invariati trascinando un gruppo di elementi dimensionali nella zona di rilascio del pannello mentre tieni premuto [!UICONTROL Shift]. [Ulteriori informazioni](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 14 giugno 2023 |
-| **Pagina di apprendimento di Analytics aggiornata** | La scheda Apprendimento nella pagina di destinazione di Adobe Analytics ora contiene i seguenti miglioramenti:<ul><li>Design migliorato che mostra più contenuti di apprendimento in una singola pagina con una navigazione ottimizzata</li><li>Possibilità di personalizzare i contenuti di apprendimento per livello di esperienza (principiante, intermedio e avanzato)</li></ul>[Ulteriori informazioni](/help/analyze/landing.md) |  | 30 giugno 2023 |
+| **Pagina di apprendimento di Analytics aggiornata** | La scheda Apprendimento nella pagina di destinazione di Adobe Analytics ora contiene i seguenti miglioramenti:<ul><li>Design migliorato che mostra più contenuti di apprendimento in una singola pagina con una navigazione ottimizzata</li><li>Possibilità di personalizzare i contenuti di apprendimento per livello di esperienza (principiante, intermedio e avanzato)</li></ul>[Ulteriori informazioni](/help/analyze/landing.md) | 27 giugno 2023 | 30 giugno 2023 |
 | **Ordinare i componenti in Analysis Workspace** | È ora disponibile una nuova opzione Ordina quando si visualizzano i componenti nella barra a sinistra o nel dizionario dei dati in Analysis Workspace. I componenti possono essere elencati a partire da quelli consigliati (utilizzati più spesso), in ordine alfabetico oppure per categoria (o tipo).<p>In precedenza era possibile solo cercare o filtrare i componenti. [Ulteriori informazioni](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | N/D | Da definire |
 
 {style="table-layout:auto"}
