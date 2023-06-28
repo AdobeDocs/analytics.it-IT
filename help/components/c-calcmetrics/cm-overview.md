@@ -4,7 +4,7 @@ keywords: Metriche calcolate;Metriche derivate;Metriche calcolate avanzate
 title: Metriche calcolate e metriche calcolate avanzate (derivate)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 970c18834c1cc7f866b7b0ceec7dc1642c3482ad
+source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 53%
@@ -41,10 +41,14 @@ Ecco un confronto tra le funzionalità delle metriche calcolate e delle metriche
 * Creare metriche in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], e [!UICONTROL Contribution Analysis].
 * Creare metriche segmentate derivate in fase di esecuzione dei rapporti, senza dover modificare l’implementazione. Questi possono essere visualizzati storicamente perché sono basati su segmenti.
 
+  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
 * Condividere le metriche tra le suite di rapporti. Ciò significa che tutte le metriche create di recente si applicano a tutte le suite di rapporti nella stessa società di accesso.
 * (Solo per metriche calcolate avanzate) Segmento sulle metriche. Ad esempio, puoi creare una metrica per “Nuovi visitatori”, conteggiando le persone per cui questa è la prima sessione.
 
 * Incorpora funzioni statistiche per descrivere meglio i tuoi dati (solo per metriche calcolate avanzate). Ad esempio, puoi contare il numero di elementi in un rapporto o aggiungere il numero di deviazioni standard per ogni elemento.
+
+  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
 
 ## Limitazioni {#section_CB878B02451541D68A68B508D4DBD19A}
 
