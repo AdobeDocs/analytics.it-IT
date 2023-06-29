@@ -4,9 +4,9 @@ keywords: privacy
 title: Panoramica sulla privacy
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 96%
 
 ---
@@ -45,7 +45,6 @@ Adobe Analytics raccoglie i dati seguenti:
 | Articoli acquistati dal consumatore | Sì |
 | Oggetti rimasti nel carrello | Sì |
 | Informazioni tratte dai social network (incluse foto, ID utente, età, genere, posizione) | **No** |
-| Informazioni personali fornite dall’utente al di fuori dei nostri servizi | Sì |
 | Tassi di successo delle campagne pubblicitarie | Sì |
 | Informazioni sul prodotto, ad esempio colori, prezzi, stili, foto | Sì |
 
@@ -67,10 +66,10 @@ Adobe Analytics raccoglie i dati seguenti:
 | Europa | Adobe ha sviluppato una nuova impostazione “privacy by design” che ora può essere abilitata dalle versioni 14.9 e 15.4 di Adobe ClientCare per Adobe Analytics (ex SiteCatalyst). Quando questa nuova impostazione è attivata, l’ultimo ottetto (l’ultima parte) dell’indirizzo IP viene immediatamente sostituito con il valore 0 una volta che l’IP viene raccolto da Adobe. Il processo di anonimizzazione viene eseguito prima dell’elaborazione dell’indirizzo IP, anche prima della geo-lookup e dell’ISP-lookup opzionali dell’indirizzo IP. |
 | Germania | Se non disponi già di un accordo di elaborazione dati per Adobe Analytics stipulato con Adobe, devi contattare il tuo Adobe Account Manager o Customer Success Manager, che collaborerà con l’ufficio legale di Adobe per stipulare l’accordo. |
 
-## Posizione del centro dati EMEA {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## Posizione del centro dati dell’area EMEA {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
-Il seguente centro dati EMEA ospita attualmente i dati di Adobe Analytics:
+Il seguente data center EMEA ospita attualmente i dati di Adobe Analytics:
 
 | Nome Adobe | Indirizzo | Tipo di impianto (operatore) | Componenti della soluzione supportati | Certificazioni |
 |--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Hemel Hempstead per la via limite HP2 7SU UK | Struttura di localizzazione (Gyron) | Analisi multicanale, analisi digitale | SSAE 16 |
+| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Impianto Di Collocazione (Gyron) | Analisi multicanale, analisi digitale | SSAE 16 |
