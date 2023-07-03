@@ -1,7 +1,9 @@
 ---
 title: Confrontare i metodi di implementazione
 description: Scopri i vantaggi di ciascun metodo che invia dati ad Adobe Analytics.
-source-git-commit: 2e69321404237213c6929f3fb0c330575d8a90db
+exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -12,7 +14,7 @@ ht-degree: 3%
 
 Scopri i diversi metodi di implementazione di Adobe Analytics. Puoi utilizzare questa tabella per aiutare la tua organizzazione a determinare il modo più ideale per inviare dati ad Adobe.
 
-|  | AppMeasurement | Estensione Adobe Analytics | SDK per web | Estensione Web SDK |
+| | AppMeasurement | Estensione Adobe Analytics | SDK per web | Estensione Web SDK |
 | --- | --- | --- | --- | --- |
 | Requisiti di implementazione | Riferimento `AppMeasurement.js` in ogni pagina, definisci le variabili e invia i dati utilizzando `s.t()` | Per fare riferimento al caricatore di tag in ogni pagina, utilizza l’interfaccia utente di Data Collection per definire le variabili e inviare i dati agli Adobi. | Riferimento `Alloy.js` in ogni pagina, utilizza `alloy("sendEvent",{})` per inviare un oggetto JSON contenente i dati desiderati | Per fare riferimento al caricatore di tag in ogni pagina, utilizza l’interfaccia utente di Data Collection per stabilire l’oggetto JSON da inviare ai dati |
 | Destinazione dati | Inviato direttamente ad Adobe Analytics | Inviato direttamente ad Adobe Analytics | Inviato a Adobe Experience Platform Edge, che inoltra i dati ad Adobe Analytics | Inviato a Adobe Experience Platform Edge, che inoltra i dati ad Adobe Analytics |

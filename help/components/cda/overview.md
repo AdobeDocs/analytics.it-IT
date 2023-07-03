@@ -2,10 +2,11 @@
 title: Analytics tra dispositivi
 description: Unisci i dati dei dispositivi, per renderli incentrati sulla persona invece che incentrati sul dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +29,7 @@ Utilizzando CDA, potrai rispondere a domande quali:
 
 Quando si uniscono i dispositivi, la persistenza delle variabili viene riportata su tutti i dispositivi. Ad esempio, un utente visita prima il sito tramite un annuncio pubblicitario sul computer desktop. L’utente trova la tua app mobile, la installa e alla fine effettua un acquisto dal proprio dispositivo mobile. Con Analytics tra dispositivi, puoi attribuire l’acquisto dal dispositivo mobile all’annuncio su cui l’utente aveva fatto clic sul suo computer desktop.
 
-All’insegna della collaborazione e della trasparenza, i nostri clienti devono essere consapevoli che utilizziamo Microsoft Azure in associazione con Analytics tra dispositivi. Adobe utilizza Azure per memorizzare i dati del grafo di dispositivi e per eseguire l’unione tra dispositivi diversi. I dati di Adobe Analytics vengono quindi trasmessi avanti e indietro tra il centro di elaborazione dati di Adobe e le istanze di Microsoft Azure utilizzate da Adobe.
+All’insegna della collaborazione e della trasparenza, i nostri clienti devono essere consapevoli che utilizziamo Microsoft Azure in associazione con Analytics tra dispositivi. Adobe utilizza Azure per memorizzare i dati del grafo di dispositivi e per eseguire l’unione tra dispositivi diversi. Di conseguenza, i dati di Adobe Analytics vengono trasmessi avanti e indietro tra il centro di elaborazione dati di Adobe e le istanze di Adobe con provisioning di Microsoft Azure.
 
 Per ulteriori informazioni sulle funzionalità di Analytics tra dispositivi, consulta la [pagina Spark “Journey IQ: Analytics tra dispositivi”](https://adobe.ly/aacda).
 

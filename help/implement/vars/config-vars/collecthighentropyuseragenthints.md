@@ -2,7 +2,8 @@
 title: collectHighEntropyUserAgentHints
 description: Utilizza la variabile collectHighEntropyUserAgentHints per determinare se Adobe richiederà suggerimenti entropici elevati dai browser Chromium (ad esempio Google Chrome e Microsoft Edge).
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
+feature: Variables
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 80%

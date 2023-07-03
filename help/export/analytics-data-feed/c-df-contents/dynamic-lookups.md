@@ -1,49 +1,51 @@
 ---
 title: Ricerche dinamiche
-description: Scopri cosa sono le ricerche dinamiche e come attivarle. Include i vettori, gli attributi mobili e i tipi di sistemi operativi.
-source-git-commit: b6084fc34165ea602fce616e13b3adfcd7bdfdbd
+description: Scopri cosa sono le ricerche dinamiche e come abilitarle. Include gestori, attributi mobili e tipi di sistemi operativi.
+exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+feature: Data Feeds
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Ricerche dinamiche
 
-Le ricerche dinamiche consentono di ricevere ulteriori file di ricerca nel feed di dati, altrimenti non sono disponibili. Questa impostazione consente di inviare le seguenti tabelle di ricerca con ciascun file di feed dati:
+Le ricerche dinamiche consentono di ricevere file di ricerca aggiuntivi nel feed di dati, altrimenti non disponibili. Questa impostazione consente di inviare le seguenti tabelle di ricerca con ciascun file di feed dati:
 
-* **Nome del vettore**: Fornisce contesto aggiuntivo per `carrier` colonna. Il nome file incluso è `carrier.tsv`.
-* **Attributi di Mobile**: Fornisce contesto aggiuntivo per `mobile_id` , comprese tutte le funzioni tracciate per ciascun dispositivo mobile. Il nome file incluso è `mobile_attributes.tsv`.
-* **Tipo di sistema operativo**: Fornisce un contesto alternativo per `os` colonna. Entrambi `operating_systems.tsv` e `operating_system_type.tsv` utilizza `os` come chiave, ma solo `operating_system_type.tsv` è una ricerca dinamica.
+* **Nome gestore**: fornisce contesto aggiuntivo per `carrier` colonna. Il nome del file incluso è `carrier.tsv`.
+* **Attributi mobili**: fornisce contesto aggiuntivo per `mobile_id` , incluse tutte le funzioni tracciate per ciascun dispositivo mobile. Il nome del file incluso è `mobile_attributes.tsv`.
+* **Tipo di sistema operativo**: fornisce un contesto alternativo per `os` colonna. Entrambi `operating_systems.tsv` e `operating_system_type.tsv` utilizzare il `os` come chiave, ma solo `operating_system_type.tsv` è una ricerca dinamica.
 
 ## Abilita ricerche dinamiche
 
 Se desideri ricevere i file di ricerca menzionati, devi soddisfare tutti i seguenti prerequisiti:
 
 * La colonna chiave deve essere inclusa nel feed di dati.
-   * Per `carrier.tsv`, devi includere `carrier`.
-   * Per `mobile_attributes.tsv`, devi includere `mobile_id`.
-   * Per `operating_system_type.tsv`, devi includere `os`.
-* Le colonne seguenti devono essere **esclusi**. Se una di queste colonne è inclusa nel feed di dati, le tabelle di ricerca aggiuntive non sono incluse.
+   * Per `carrier.tsv`, è necessario includere `carrier`.
+   * Per `mobile_attributes.tsv`, è necessario includere `mobile_id`.
+   * Per `operating_system_type.tsv`, è necessario includere `os`.
+* Le colonne seguenti devono essere **escluso**. Se una di queste colonne è inclusa nel feed di dati, le tabelle di ricerca aggiuntive non sono incluse.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
 
 Una volta che il feed di dati soddisfa i requisiti di inclusione ed esclusione delle colonne, contatta l’Assistenza clienti con l’ID del feed di dati e richiedi per abilitare le ricerche dinamiche.
 
-## Riferimento intestazione di ricerca
+## Riferimento intestazione ricerca
 
-Le intestazioni di colonna per questi file di ricerca non cambiano nel tempo, pertanto le intestazioni non sono incluse in ogni file di feed di dati. Usa queste intestazioni di colonna come riferimento o scarica le rispettive `.tsv` file.
+Le intestazioni di colonna per questi file di ricerca non cambiano nel tempo, pertanto le intestazioni non vengono incluse in ciascun file di feed dati. Utilizza queste intestazioni di colonna come riferimento o scarica le rispettive `.tsv` file.
 
-+++**Nome del vettore**
-Scarica [carrier_headers.tsv](assets/carrier_headers.tsv) o fare riferimento alle intestazioni sottostanti.
++++**Nome gestore**
+Scarica [carrier_headers.tsv](assets/carrier_headers.tsv) o fai riferimento alle intestazioni di seguito.
 
 `carrier`
 `Carrier Name`
 +++
 
-+++**Attributi di Mobile**
-Scarica [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) o fare riferimento alle intestazioni sottostanti.
++++**Attributi mobili**
+Scarica [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) o fai riferimento alle intestazioni di seguito.
 
 `mobile_id`
 `Manufacturer`
@@ -98,7 +100,7 @@ Scarica [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) o 
 +++
 
 +++**Tipo di sistema operativo**
-Scarica [operations_system_type_headers.tsv](assets/operating_system_type_headers.tsv) o fare riferimento alle intestazioni sottostanti.
+Scarica [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) o fai riferimento alle intestazioni di seguito.
 
 `os`
 `Operating System Type`

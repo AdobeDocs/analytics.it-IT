@@ -3,7 +3,8 @@ description: L’analisi dei contributi è un potente processo di machine learni
 title: Tecniche di statistica utilizzate nell’analisi dei contributi
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
-source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 93%

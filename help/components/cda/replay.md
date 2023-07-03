@@ -2,7 +2,8 @@
 title: Funzionamento delle riproduzioni
 description: Comprendere il concetto di "ripetizione" in Analytics tra dispositivi
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
-source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 15%
@@ -41,12 +42,12 @@ Gli hit non autenticati e autenticati sui nuovi dispositivi vengono conteggiati 
 
 * **Se utilizzi il grafico dei dispositivi,** gli hit non autenticati sui dispositivi riconosciuti sono live-stitched una volta che un cluster viene pubblicato dal grafico dei dispositivi. La pubblicazione dei cluster richiede da tre ore a due settimane.
 
-   Quando viene pubblicato un cluster, viene aggiunta anche una terza persona cumulativa. Questa terza persona rappresenta il cluster stesso, oltre ai singoli dispositivi. Questa terza &quot;persona&quot; rimane finché i dati non vengono riprodotti.
+  Quando viene pubblicato un cluster, viene aggiunta anche una terza persona cumulativa. Questa terza persona rappresenta il cluster stesso, oltre ai singoli dispositivi. Questa terza &quot;persona&quot; rimane finché i dati non vengono riprodotti.
 
-   L’attribuzione funziona tra dispositivi solo dopo la pubblicazione di un cluster e, anche in questo caso, funziona solo live-stitching da quel momento in poi. Nell’esempio precedente, nessuno degli hit è ancora unito tra dispositivi. L’attribuzione tra dispositivi sugli hit esistenti funziona solo dopo la ripetizione dell’unione.
+  L’attribuzione funziona tra dispositivi solo dopo la pubblicazione di un cluster e, anche in questo caso, funziona solo live-stitching da quel momento in poi. Nell’esempio precedente, nessuno degli hit è ancora unito tra dispositivi. L’attribuzione tra dispositivi sugli hit esistenti funziona solo dopo la ripetizione dell’unione.
 * **Se utilizzi l’unione basata sui campi,** gli hit non autenticati sui dispositivi riconosciuti sono live-stitched da quel momento in poi.
 
-   L’attribuzione funziona non appena la variabile personalizzata di identificazione si collega a un dispositivo. Nell’esempio precedente, tutti gli hit ad eccezione di 1 e 3 sono live-stitched (utilizzano tutti `Bob` identificatore). L’attribuzione funziona sugli hit 1 e 3 dopo la ripetizione dell’unione.
+  L’attribuzione funziona non appena la variabile personalizzata di identificazione si collega a un dispositivo. Nell’esempio precedente, tutti gli hit ad eccezione di 1 e 3 sono live-stitched (utilizzano tutti `Bob` identificatore). L’attribuzione funziona sugli hit 1 e 3 dopo la ripetizione dell’unione.
 
 >[!NOTE]
 >

@@ -2,7 +2,8 @@
 title: Importare metriche di ricerca a pagamento
 description: Passaggi per configurare Adobe Analytics per tenere traccia delle metriche di ricerca a pagamento (ad esempio, Google AdWords, MSN, Yahoo, ecc.) utilizzo di Origini dati.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 3%

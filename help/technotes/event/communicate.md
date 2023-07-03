@@ -2,7 +2,8 @@
 title: Comunicare l’impatto agli utenti
 description: Scopri modi efficaci per comunicare l’impatto di un evento nella tua organizzazione.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+feature: Event
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 2%

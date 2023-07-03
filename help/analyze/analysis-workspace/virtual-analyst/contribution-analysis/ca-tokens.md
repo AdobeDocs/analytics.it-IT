@@ -3,7 +3,8 @@ description: Utilizza l’analisi dei contributi per identificare anomalie stati
 title: Panoramica dell’analisi dei contributi
 role: User, Admin
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 100%

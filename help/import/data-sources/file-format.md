@@ -1,7 +1,9 @@
 ---
 title: Formato del file di origine dati
 description: Genera correttamente un file da utilizzare nelle origini dati.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 6%
@@ -13,35 +15,35 @@ ht-degree: 6%
 I file di origine dati hanno le seguenti proprietà:
 
 * Il file è in `.txt` formato.
-* Le righe con commenti iniziano con &quot;`#`&quot; e sono facoltativi.
-* La prima riga senza commento contiene le intestazioni del file.
+* Le righe con commenti iniziano con &#39;`#`&quot;, e sono facoltativi.
+* La prima riga senza commenti contiene le intestazioni del file.
 * Il primo valore di ogni riga è la data, che utilizza il formato `MM/DD/YYYY` o `MM/DD/YYYY/HH/mm/SS`.
 * I valori su ogni riga, comprese le intestazioni, sono delimitati da tabulazioni.
 * Ogni riga deve avere almeno una dimensione e una metrica.
 
 ## Commenti
 
-Qualsiasi riga che inizia con &#39;`#`&quot; è un commento. Quando si scarica un file modello origine dati, le prime due righe sono commenti.
+Qualsiasi riga che inizia con &#39;`#`&#39; è un commento. Quando si scarica un file modello di origine dati, le prime due righe sono commenti.
 
-* Il primo commento indica il tipo di modello configurato per l’origine dati, l’ID utente backend che ha creato l’origine dati e l’ID dell’origine dati.
+* Il primo commento indica il tipo di modello configurato per l&#39;origine dati, l&#39;ID utente backend che ha creato l&#39;origine dati e l&#39;ID origine dati.
 * Il secondo commento fornisce nomi descrittivi per ciascuna delle intestazioni incluse nel file modello.
 
-Tutte le righe di commento vengono ignorate per Adobe quando il file viene elaborato, in modo da poter rimuovere i commenti del modello o aggiungere il proprio in tutto il file. Possono essere commentate solo le righe intere; non è possibile commentare campi singoli o righe parziali.
+Tutte le righe di commento vengono ignorate per Adobe quando il file viene elaborato, in modo da poter rimuovere i commenti del modello o aggiungerne altri in tutto il file. È possibile aggiungere commenti solo a righe intere, ma non a singoli campi o a righe parziali.
 
 ## Intestazioni
 
-Quando si caricano i file di origine dati, le intestazioni di colonna sono necessarie. Queste intestazioni di colonna non fanno distinzione tra maiuscole e minuscole, ma sono necessari spazi (ad esempio, `eVar1` è un&#39;intestazione non valida, mentre `EVAR 1` è valido). Le intestazioni di colonna si applicano a tutte le suite di rapporti. Utilizza le tabelle seguenti per assicurarti che ogni intestazione del file di origine dati sia impostata correttamente.
+Durante il caricamento di file di origine dati, sono necessarie intestazioni di colonna. Nelle intestazioni di colonna non viene fatta distinzione tra maiuscole e minuscole, ma sono necessari spazi obbligatori (ad esempio, `eVar1` è un’intestazione non valida, mentre `EVAR 1` è valido). Le intestazioni di colonna si applicano a tutte le suite di rapporti. Utilizzare le tabelle seguenti per verificare che ogni intestazione nel file di origine dati sia impostata correttamente.
 
 >[!TIP]
 >
->È possibile creare un file origini dati da zero se si includono le intestazioni corrette nel file di origine dati. Non esiste alcun limite al numero di intestazioni che è possibile includere all&#39;interno di un singolo file; tuttavia, ogni riga può avere un massimo di 4096 byte.
+>È possibile creare un file di origini dati da zero se si includono le intestazioni corrette nel file di origine dati. Non esiste alcun limite al numero di intestazioni che è possibile includere in un singolo file; tuttavia, ogni riga può avere solo un massimo di 4096 byte.
 
-| Dimensione | Intestazione dell&#39;origine dati |
+| Dimensione | Intestazione origine dati |
 | --- | --- |
 | [Categoria](/help/components/dimensions/category.md) | `Category` |
-| [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
+| [eVar 1 - eVar 250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
 | [Canale di marketing](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
-| [Dettaglio del canale di marketing](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
+| [Dettagli canale di marketing](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [Prodotto](/help/components/dimensions/product.md) | `Product` |
 | [Codice di tracciamento](/help/components/dimensions/tracking-code.md) | `Tracking Code` |
 | [ID transazione](/help/implement/vars/page-vars/transactionid.md) | `transactionID` |
@@ -49,9 +51,9 @@ Quando si caricano i file di origine dati, le intestazioni di colonna sono neces
 
 {style="table-layout:auto"}
 
-Dimension e metriche entrano nella stessa riga di intestazione.
+Dimension e metriche vanno nella stessa riga di intestazione.
 
-| Metrica | Intestazione dell&#39;origine dati |
+| Metrica | Intestazione origine dati |
 | --- | --- |
 | [Aggiunte carrello](/help/components/metrics/cart-additions.md) | `Cart Adds` |
 | [Rimozioni carrello](/help/components/metrics/cart-removals.md) | `Cart Removes` |
@@ -65,25 +67,25 @@ Dimension e metriche entrano nella stessa riga di intestazione.
 
 {style="table-layout:auto"}
 
-Adobe non supporta origini dati per altre dimensioni o metriche. Se sono necessarie variabili che vanno oltre quelle elencate nelle tabelle precedenti, considera l’utilizzo dei [API di inserimento dati in blocco](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) invece.
+Adobe non supporta origini dati per altre dimensioni o metriche. Se sono necessarie variabili oltre a quelle elencate nelle tabelle di cui sopra, è consigliabile utilizzare [API di inserimento dati in blocco](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) invece.
 
 ## Data
 
-Il primo valore in ogni riga **deve** sia la data. Il formato della data deve essere in uno dei seguenti formati:
+Il primo valore in ogni riga **deve** essere la data. Il formato della data deve essere uno dei seguenti:
 
 * **`MM/DD/YY/HH/mm/SS`**
 * **`MM/DD/YY`**
 
-Se si omette l&#39;ora/minuti/secondi, la marca temporale viene impostata automaticamente su 12 PM per quel giorno.
+Se si omettono le ore/minuti/secondi, la marca temporale viene impostata automaticamente sulle 12 di quel giorno.
 
-Un singolo file di origine dati supporta fino a 90 giorni univoci. Se desideri includere più di 90 giorni unici in un caricamento, suddividi i dati in più file.
+Un singolo file di origine dati supporta fino a 90 giorni univoci. Se vuoi includere più di 90 giorni univoci in un caricamento, suddividi i dati in più file.
 
-## Dati Dimension e metrica
+## Dati di Dimension e metriche
 
-I valori successivi dopo la data in ogni riga contengono i dati da caricare. Ogni riga corrisponde a quella rispettiva marca temporale. Assicurati che su ogni riga esista lo stesso numero di schede. Le colonne possono essere in qualsiasi ordine; assicurati che i dati di ogni riga siano allineati con le intestazioni nella parte superiore. La quantità massima di dati che una singola riga può avere è di 4096 byte.
+I valori successivi dopo la data in ogni riga contengono i dati da caricare. Ogni riga corrisponde alla rispettiva marca temporale. Assicurati che su ogni riga esista lo stesso numero di schede. Le colonne possono essere in qualsiasi ordine; assicurati che i dati in ogni riga siano allineati con le intestazioni nella parte superiore. La quantità massima di dati che una singola riga può avere è di 4096 byte.
 
-I dati del Dimension non possono contenere punti e virgola (`;`). Le righe contenenti punto e virgola vengono ignorate.
+I dati del Dimension non possono contenere punti e virgola (`;`). Le righe contenenti punti e virgola vengono ignorate.
 
 ## Passaggi successivi
 
-[Caricamento file](file-upload.md): Scopri il processo per caricare un file origini dati da acquisire per Adobe.
+[Caricamento di file](file-upload.md): scopri la procedura per caricare un file di origini dati per l’acquisizione da parte di Adobe.

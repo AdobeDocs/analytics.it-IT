@@ -3,7 +3,8 @@ description: Esegui un rapporto di analisi dei contributi in un progetto Workspa
 title: Eseguire l’analisi dei contributi
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
@@ -20,15 +21,15 @@ In un progetto, è possibile invocare l’analisi dei contributi in due modi:
 
 * In una tabella a forma libera con granularità giornaliera, fai clic con il pulsante destro del mouse su una riga e seleziona **[!UICONTROL Run Contribution Analysis]**. L’analisi può essere eseguita anche sulle righe in cui non sono visualizzate anomalie.
 
-   >[!NOTE]
-   >
-   >Al momento l’analisi dei contributi è supportata solo per la granularità giornaliera.
+  >[!NOTE]
+  >
+  >Al momento l’analisi dei contributi è supportata solo per la granularità giornaliera.
 
-   ![](assets/run_ca.png)
+  ![](assets/run_ca.png)
 
 * In un grafico a linee, fai clic con il pulsante destro del mouse su un punto dati anomalo. Fai clic sul link **[!UICONTROL Analyze]** visualizzato.
 
-   ![](assets/contribution-analysis.png)
+  ![](assets/contribution-analysis.png)
 
 1. (Facoltativo) Dopo aver fatto clic su **[!UICONTROL Run Contribution Analysis]** nel grafico a linee o in una tabella, puoi restringere l’ambito dell’analisi (e quindi velocizzarla) [escludendo alcune dimensioni](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
@@ -41,7 +42,7 @@ In un progetto, è possibile invocare l’analisi dei contributi in due modi:
 
    * La tabella dei [segmenti principali](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=it) (cluster di elementi principali) identifica le associazioni di elementi principali in base al punteggio contributo, alle occorrenze di anomalie e alla percentuale complessiva che ha contribuito alla metrica anomala. Questo viene quindi acquisito come segmento di pubblico (segmento contributo 1, segmento contributo 2, ecc...). Fai clic sul pulsante “i” (Info) per visualizzare la definizione di ciascun segmento automatico e dei principali elementi che lo compongono:
 
-      ![](assets/auto_segment.png)
+     ![](assets/auto_segment.png)
 
 1. Poiché l’analisi dei contributi è ora integrata in Analysis Workspace, puoi accedere a numerose funzioni direttamente con un clic del pulsante destro del mouse su una tabella, per un’analisi ancora più significativa, ad esempio:
 

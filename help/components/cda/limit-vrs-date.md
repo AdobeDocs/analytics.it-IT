@@ -2,7 +2,8 @@
 title: Limitare una suite di rapporti virtuali a determinate date
 description: Scopri come limitare un intervallo di date VRS per concentrarsi solo sui dati uniti.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 4%
@@ -23,7 +24,7 @@ Quando imposti la VRS, in Componenti aggiungi un intervallo di date con un inizi
 
 ## Passaggio 2: creare un segmento &quot;exclude-exclude&quot;
 
-Quindi, crea un segmento di hit che inserisce l’intervallo di date in un contenitore di esclusione all’interno di un altro contenitore di esclusione. Si tratta di un’&quot;esclusione esclusa&quot;.
+Quindi, crea un segmento di hit che inserisce l’intervallo di date in un contenitore di esclusione all’interno di un altro contenitore di esclusione. È una &quot;esclusione esclusa&quot;.
 
 Il motivo dell’&quot;esclusione&quot; è che gli intervalli di date hanno lo scopo di sostituire l’intervallo di date del rapporto. Pertanto, se includi semplicemente il 1° giugno in avanti, l’intervallo di date del rapporto sarà sempre il 1° giugno in avanti. Questo porterà a risultati indesiderati. Quando &quot;escludi escludi&quot;, questo comportamento sovrascrive e limita i dati da cui puoi trarre all’intervallo di date appropriato.
 

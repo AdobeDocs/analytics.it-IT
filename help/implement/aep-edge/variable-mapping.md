@@ -2,7 +2,8 @@
 title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 825552f176e9082fcf2a5b6103d2a5c30dd3a583
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 95%
@@ -11,9 +12,9 @@ ht-degree: 95%
 
 # Mappatura delle variabili di Analytics in Adobe Experience Edge
 
-La tabella seguente mostra le variabili mappate automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi XDM, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics. Questi campi sono inclusi nella **[!UICONTROL Adobe Analytics ExperienceEvent Template]** gruppo di campi.
+La tabella seguente mostra le variabili mappate automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi XDM, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics. Questi campi sono inclusi nel **[!UICONTROL Adobe Analytics ExperienceEvent Template]** gruppo di campi.
 
-Gli aggiornamenti precedenti a questa tabella si trovano su questa pagina [cronologia del commit su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
+Gli aggiornamenti precedenti a questa tabella si trovano nel [cronologia commit su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
 
 | Percorso campo XDM | Dimensione e descrizione di Analytics |
 | --- | --- |
@@ -66,8 +67,8 @@ Gli aggiornamenti precedenti a questa tabella si trovano su questa pagina [crono
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Matrice di stringhe contenente i rispettivi valori [Prop elenco](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena tutte le stringhe `value` in ciascuna matrice `list[]` alla rispettiva [variabile elenco](../vars/page-vars/list.md). Il delimitatore viene scelto automaticamente in base al valore impostato in [Impostazioni delle suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Imposta la rispettiva dimensione [Prop](../../components/dimensions/prop.md). |
-| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla rispettiva metrica [Eventi personalizzati. ](../../components/metrics/custom-events.md) Ogni ID evento risiede nel suo elemento padre a 100 gruppi. Ad esempio, per applicare la serializzazione a `event678`, utilizza `_experience.analytics.event601to700.event678.id`. |
-| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Incrementa la rispettiva metrica [Eventi personalizzati](../../components/metrics/custom-events.md) della quantità desiderata. Ogni evento risiede nel relativo elemento padre a 100 gruppi. Ad esempio, il campo per `event567` è `_experience.analytics.event501to600.event567.value`. |
+| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla rispettiva metrica [Eventi personalizzati. ](../../components/metrics/custom-events.md) Ogni ID evento risiede nel relativo elemento padre di 100 gruppi. Ad esempio, per applicare la serializzazione a `event678`, utilizza `_experience.analytics.event601to700.event678.id`. |
+| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Incrementa la rispettiva metrica [Eventi personalizzati](../../components/metrics/custom-events.md) della quantità desiderata. Ogni evento risiede nel relativo elemento padre di 100 gruppi. Ad esempio, il campo per `event567` è `_experience.analytics.event501to600.event567.value`. |
 | `identityMap.ECID[0].id` | L’[ID del servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). |
 | `marketing.trackingCode` | Imposta la dimensione [Codice di tracciamento](../../components/dimensions/tracking-code.md). |
 | `media.mediaTimed.completes.value` | La metrica di Media Analytics [Contenuto completato](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=it#content-complete). |
