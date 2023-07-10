@@ -3,7 +3,7 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d00ae976a7e7de2fad7f5c214c2bbf39644c9a08
+source-git-commit: 9044bb3bc8581ff3c12abd5620e81ade513b5f0f
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 85%
@@ -39,7 +39,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 | **Deep Linking (app mobile)** | Consente agli utenti di inviare collegamenti alle scorecard che li porteranno direttamente al progetto della scorecard nell’app. Questo agevola ulteriormente la condivisione dei progetti e il coinvolgimento di un pubblico meno tecnico. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#share-scorecards-using-a-shareable-link) | N/D | 17 maggio 2023 |
 | **Filtri a discesa dinamici** | Stiamo introducendo un nuovo tipo di filtro a discesa che determina i valori disponibili in base ai dati all’interno dell’intervallo di reporting del pannello e ai valori in altri filtri a discesa. Puoi utilizzare filtri a discesa dinamici trascinando una dimensione nella zona di rilascio del pannello mentre tieni premuto [!UICONTROL Shift]. I filtri a discesa statici rimangono invariati trascinando un gruppo di elementi dimensionali nella zona di rilascio del pannello mentre tieni premuto [!UICONTROL Shift]. [Ulteriori informazioni](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 14 giugno 2023 |
 | **Pagina di apprendimento di Analytics aggiornata** | La scheda Apprendimento nella pagina di destinazione di Adobe Analytics ora contiene i seguenti miglioramenti:<ul><li>Design migliorato che mostra più contenuti di apprendimento in una singola pagina con una navigazione ottimizzata</li><li>Possibilità di personalizzare i contenuti di apprendimento per livello di esperienza (principiante, intermedio e avanzato)</li></ul>[Ulteriori informazioni](/help/analyze/landing.md) | 27 giugno 2023 | 30 giugno 2023 |
-| **Ordinare i componenti in Analysis Workspace** | È ora disponibile una nuova opzione Ordina quando si visualizzano i componenti nella barra a sinistra o nel dizionario dei dati in Analysis Workspace. I componenti possono essere elencati a partire da quelli consigliati (utilizzati più spesso), in ordine alfabetico oppure per categoria (o tipo).<p>In precedenza era possibile solo cercare o filtrare i componenti. [Ulteriori informazioni](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | N/D | Da definire |
+| **Ordinare i componenti in Analysis Workspace** | È ora disponibile una nuova opzione Ordina quando si visualizzano i componenti nella barra a sinistra o nel dizionario dei dati in Analysis Workspace. I componenti possono essere elencati a partire da quelli consigliati (utilizzati più spesso), in ordine alfabetico oppure per categoria (o tipo).<p>In precedenza era possibile solo cercare o filtrare i componenti. [Ulteriori informazioni](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | N/D | 7 giugno 2023 |
 
 {style="table-layout:auto"}
 
