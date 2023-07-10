@@ -3,7 +3,7 @@ description: Configura l’account di importazione cloud e il percorso in cui è
 keywords: Analysis Workspace
 title: Configurare account di importazione cloud
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Prima di poter importare i dati di classificazione Adobe Analytics da una destinazione cloud, devi aggiungere e configurare l’account e la posizione all’interno dell’account in cui desideri raccogliere i dati di classificazione.
 
-Questo processo consiste nell’aggiungere e configurare l’account (ad esempio ARN per il ruolo di Amazon S3, Google Cloud Platform e così via) come descritto in questo articolo, quindi aggiungere e configurare la posizione all’interno dell’account (ad esempio una cartella all’interno dell’account) come descritto in [Configurare i percorsi di importazione cloud][/help/components/locations/configure-import-locations.md].
+Questo processo consiste nell’aggiungere e configurare l’account (ad esempio ARN per il ruolo di Amazon S3, Google Cloud Platform e così via) come descritto in questo articolo, quindi aggiungere e configurare la posizione all’interno dell’account (ad esempio una cartella all’interno dell’account) come descritto in [Configurare i percorsi di importazione cloud](/help/components/locations/configure-import-locations.md).
 
 Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account di destinazione cloud.
 
