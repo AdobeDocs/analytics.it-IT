@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
+source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 88%
 
 ---
@@ -262,14 +262,16 @@ ht-degree: 88%
       + [Importazione browser e FTP](classifications/importer/import-file.md)
       + [Importazione browser](classifications/importer/browser-import.md)
       + [Esportazione browser](classifications/importer/browser-export.md)
-      + [Importazione cloud](/help/components/classifications/importer/configure-import-accounts.md)
       + [Importazione FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Esportazione FTP](classifications/importer/ftp-export.md)
       + [Tempo di elaborazione](classifications/importer/processing-time.md)
       + [Risoluzione dei problemi](classifications/importer/troubleshooting.md)
-
    + [Sottoclassificazioni](classifications/c-sub-classifications.md)
    + [Domande frequenti sulle classificazioni](classifications/faq.md)
++ Posizioni {#locations}
+   + [Gestione posizioni](/help/components/locations/locations-manager.md)
+   + [Account di importazione cloud](/help/components/locations/configure-import-accounts.md)
+   + [Posizioni di importazione cloud](/help/components/locations/configure-import-locations.md)
 + [Eventi calendario](t-calendar-event.md)
 + [Coda dei report pianificati](scheduled-reports-admin.md)
 + Rapporti in tempo reale {#real-time-reporting}

@@ -3,7 +3,7 @@ title: Schema del set di classificazione
 description: Visualizza e modifica lo schema per un singolo set di classificazione.
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
+source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 41%
@@ -48,11 +48,11 @@ Sono disponibili i seguenti pulsanti:
 * **[!UICONTROL Automate]**: acquisisci automaticamente i dati dalle posizioni di archiviazione esterne.
    * **[!UICONTROL Location account]**: elenco a discesa che mostra gli account località esistenti configurati dalla tua organizzazione. Se la tua organizzazione non ha già configurato un account località, puoi configurarne uno selezionando [!UICONTROL **Crea un nuovo account**].
 
-     Per informazioni sulla configurazione dell&#39;account di posizione, vedere [Configurare i percorsi di importazione cloud](/help/components/classifications/importer/configure-import-accounts.md).
+     Per informazioni sulla configurazione dell&#39;account di posizione, vedere [Configurare account di importazione cloud](/help/components/locations/configure-import-accounts.md).
 
    * **[!UICONTROL Location]**: elenco a discesa che mostra le posizioni esistenti configurate dalla tua organizzazione. Se la tua organizzazione non ha già configurato una posizione, puoi configurarne una selezionando [!UICONTROL **Crea una nuova posizione**].
 
-     Per informazioni sulla configurazione di una posizione, consulta [Configurare i percorsi di importazione cloud](/help/components/classifications/importer/configure-import-accounts.md).
+     Per informazioni sulla configurazione di una posizione, consulta [Configurare i percorsi di importazione cloud](/help/components/locations/configure-import-locations.md).
 
    * **[!UICONTROL Delimiter]**: delimitatore di colonna per i file caricati. Le opzioni includono [!UICONTROL Comma], [!UICONTROL Semicolon], [!UICONTROL Colon], [!UICONTROL Vertical bar], [!UICONTROL Space], [!UICONTROL Forward slash], [!UICONTROL Backward slash], [!UICONTROL Dash], o [!UICONTROL Underscore].
 

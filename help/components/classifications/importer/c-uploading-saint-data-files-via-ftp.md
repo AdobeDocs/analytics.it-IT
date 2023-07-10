@@ -3,7 +3,7 @@ description: Come caricare i file di dati tramite FTP.
 title: Importazione FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: c36cc9884b2de3cddf03b505d9c4883dcac846af
+source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 >
 >L&#39;FTP non è consigliato perché è un metodo non crittografato di condivisione dei file, il che significa che chiunque può intercettare il contenuto del file, nonché il nome utente e la password utilizzati per l&#39;account.
 >
->Configura invece un account cloud come descritto in [Configurare i percorsi di importazione cloud](/help/components/classifications/importer/configure-import-accounts.md).
+>Configura invece un account cloud come descritto in [Configurare i percorsi di importazione cloud](/help/components/locations/configure-import-accounts.md).
 
 Passaggi che descrivono come caricare i file di dati tramite FTP.
 
