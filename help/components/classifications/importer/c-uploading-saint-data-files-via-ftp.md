@@ -3,14 +3,22 @@ description: Come caricare i file di dati tramite FTP.
 title: Importazione FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
+source-git-commit: c36cc9884b2de3cddf03b505d9c4883dcac846af
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 5%
+source-wordcount: '698'
+ht-degree: 4%
 
 ---
 
 # Importazione FTP
+
+>[!IMPORTANT]
+>
+>Non è più consigliabile utilizzare l’FTP per l’importazione come descritto in questa pagina.
+>
+>L&#39;FTP non è consigliato perché è un metodo non crittografato di condivisione dei file, il che significa che chiunque può intercettare il contenuto del file, nonché il nome utente e la password utilizzati per l&#39;account.
+>
+>Configura invece un account cloud come descritto in [Configurare i percorsi di importazione cloud](/help/components/classifications/importer/configure-import-accounts.md).
 
 Passaggi che descrivono come caricare i file di dati tramite FTP.
 
@@ -20,7 +28,7 @@ Per caricare i file di dati tramite FTP:
 
 1. **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
-I seguenti limiti consigliati sono importanti. Troppi
+I seguenti limiti consigliati sono importanti.
 
 >[!IMPORTANT]
 >

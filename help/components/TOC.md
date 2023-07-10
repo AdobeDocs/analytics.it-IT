@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
+source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 86%
+source-wordcount: '717'
+ht-degree: 88%
 
 ---
 
@@ -186,9 +186,9 @@ ht-degree: 86%
       + [Flusso di lavoro per le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Trovare metriche](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Creare metriche](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Creare una metrica &quot;Visualizzazioni pagina in base alle visite&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Creare una metrica “Visualizzazioni pagina in base alle visite”](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Creare una metrica &quot;Order Assist&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Creare una metrica di &quot;partecipazione&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Creare una metrica “Partecipazione”](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Tipo di metrica e attribuzione](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Metriche segmentate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Sovrapponi e sostituisci segmenti](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
@@ -262,6 +262,7 @@ ht-degree: 86%
       + [Importazione browser e FTP](classifications/importer/import-file.md)
       + [Importazione browser](classifications/importer/browser-import.md)
       + [Esportazione browser](classifications/importer/browser-export.md)
+      + [Importazione cloud](/help/components/classifications/importer/configure-import-accounts.md)
       + [Importazione FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Esportazione FTP](classifications/importer/ftp-export.md)
       + [Tempo di elaborazione](classifications/importer/processing-time.md)

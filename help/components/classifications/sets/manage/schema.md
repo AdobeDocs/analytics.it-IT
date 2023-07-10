@@ -3,10 +3,10 @@ title: Schema del set di classificazione
 description: Visualizza e modifica lo schema per un singolo set di classificazione.
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 45%
+source-wordcount: '441'
+ht-degree: 41%
 
 ---
 
@@ -46,7 +46,14 @@ Sono disponibili i seguenti pulsanti:
 
 * **[!UICONTROL Job history]**: collegamento che ti porta al [Gestione processi](../job-manager.md), mostra i processi solo per questo set di classificazione.
 * **[!UICONTROL Automate]**: acquisisci automaticamente i dati dalle posizioni di archiviazione esterne.
-   * **[!UICONTROL Location account]**: elenco a discesa che mostra gli account località esistenti configurati dalla tua organizzazione. È disponibile un pulsante per creare un account di posizione.
-   * **[!UICONTROL Location]**: elenco a discesa che mostra le posizioni esistenti configurate dalla tua organizzazione. È disponibile un pulsante per creare una posizione.
+   * **[!UICONTROL Location account]**: elenco a discesa che mostra gli account località esistenti configurati dalla tua organizzazione. Se la tua organizzazione non ha già configurato un account località, puoi configurarne uno selezionando [!UICONTROL **Crea un nuovo account**].
+
+     Per informazioni sulla configurazione dell&#39;account di posizione, vedere [Configurare i percorsi di importazione cloud](/help/components/classifications/importer/configure-import-accounts.md).
+
+   * **[!UICONTROL Location]**: elenco a discesa che mostra le posizioni esistenti configurate dalla tua organizzazione. Se la tua organizzazione non ha già configurato una posizione, puoi configurarne una selezionando [!UICONTROL **Crea una nuova posizione**].
+
+     Per informazioni sulla configurazione di una posizione, consulta [Configurare i percorsi di importazione cloud](/help/components/classifications/importer/configure-import-accounts.md).
+
    * **[!UICONTROL Delimiter]**: delimitatore di colonna per i file caricati. Le opzioni includono [!UICONTROL Comma], [!UICONTROL Semicolon], [!UICONTROL Colon], [!UICONTROL Vertical bar], [!UICONTROL Space], [!UICONTROL Forward slash], [!UICONTROL Backward slash], [!UICONTROL Dash], o [!UICONTROL Underscore].
+
    * **[!UICONTROL Encoding]**: elenco a discesa che determina la codifica del file. Le opzioni includono [!UICONTROL UTF-8] e [!UICONTROL Latin1]. Si consiglia UTF-8.
