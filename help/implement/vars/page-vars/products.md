@@ -3,9 +3,9 @@ title: products
 description: Invia dati sui prodotti visualizzati o nel carrello.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
+source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ Non esiste un campo dedicato nella raccolta dati di Adobe Experience Platform pe
 3. Vai a [!UICONTROL Extensions] , quindi fai clic su [!UICONTROL Catalog] per visualizzare tutte le estensioni disponibili.
 4. Cerca il termine &quot;prodotto&quot;, che rivela diverse estensioni disponibili per aiutare a impostare questa variabile.
 
-Puoi utilizzare una di queste estensioni oppure l’editor di codice personalizzato seguendo la sintassi AppMeasurement riportata di seguito.
+Puoi utilizzare una di queste estensioni oppure l’editor di codice personalizzato seguendo la sintassi di AppMeasurement riportata di seguito.
 
 ## s.products in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
@@ -60,7 +60,7 @@ Il `s.products` variabile è una stringa che contiene più campi delimitati per 
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Questa variabile supporta più prodotti nello stesso hit. È utile per il carrello e gli acquisti che contengono più prodotti. Lunghezza massima per l&#39;intero `products` stringa: 64 KB. Separa ogni prodotto con una virgola (`,`) nella stringa.
+Questa variabile supporta più prodotti nello stesso hit. È utile per il carrello e gli acquisti che contengono più prodotti. Lunghezza massima per l&#39;intero `products` stringa è di 64 KB. Separa ogni prodotto con una virgola (`,`) nella stringa.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
@@ -69,7 +69,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->Elimina tutti i punti e virgola, le virgole e le barre verticali dai nomi dei prodotti, dalle categorie e dai valori degli eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement lo analizza come l’inizio di un nuovo prodotto. Questa analisi errata elimina il resto della stringa di prodotto, causando dati errati nelle dimensioni e nei rapporti.
+>Elimina tutti i punti e virgola, le virgole e le barre verticali dai nomi dei prodotti, dalle categorie e dai valori degli eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement lo analizza come inizio di un nuovo prodotto. Questa analisi errata elimina il resto della stringa di prodotto, causando dati errati nelle dimensioni e nei rapporti.
 
 ## Esempi
 
