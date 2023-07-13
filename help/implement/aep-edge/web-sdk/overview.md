@@ -3,9 +3,9 @@ title: Implementare Adobe Analytics utilizzando Adobe Experience Platform Web SD
 description: Utilizza l’estensione Web SDK in Adobe Experience Platform Data Collection per inviare dati ad Adobe Analytics.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '813'
 ht-degree: 22%
 
 ---
@@ -20,7 +20,7 @@ Puoi inviare dati a Experience Edge direttamente tramite Web SDK o l’estension
 
 Panoramica ad alto livello dei compiti di implementazione:
 
-![Implementare Adobe Analytics con il flusso di lavoro Web SDK](../../assets/websdk-annotated.png)
+![Come implementare Adobe Analytics utilizzando il flusso di lavoro Web SDK, come descritto in questa sezione.](../../assets/websdk-annotated.png)
 
 <table style="width:100%">
 
@@ -86,7 +86,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 Panoramica ad alto livello dei compiti di implementazione:
 
-![Implementare Adobe Analytics con il flusso di lavoro dell’estensione Web SDK](../../assets/websdk-extension-annotated.png)
+![Come implementare Adobe Analytics utilizzando il flusso di lavoro dell’estensione Web SDK, come descritto in questa sezione.](../../assets/websdk-extension-annotated.png)
 
 <table style="width:100%">
 

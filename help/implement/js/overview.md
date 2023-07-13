@@ -2,20 +2,21 @@
 title: Implementare Adobe Analytics con AppMeasurement per JavaScript
 description: Scopri come implementare Adobe Analytics utilizzando JavaScript senza un sistema di gestione dei tag.
 feature: Implementation Basics
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
+exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '206'
 ht-degree: 9%
 
 ---
 
 # Implementare Adobe Analytics con AppMeasurement per JavaScript
 
-AppMeasurement per JavaScript è sempre stato un metodo comune per implementare Adobe Analytics. Tuttavia, con la crescente popolarità dei sistemi Tag Management, utilizzando [tag in Adobe Experience Platform](../launch/overview.md) è consigliato.
+L’AppMeasurement per JavaScript è sempre stato un metodo comune per implementare Adobe Analytics. Tuttavia, con la crescente popolarità dei sistemi Tag Management, utilizzando [tag in Adobe Experience Platform](../launch/overview.md) è consigliato.
 
 Panoramica ad alto livello dei compiti di implementazione:
 
-![Panoramica sull’implementazione di Adobe Analytics con AppMeasurement](../assets/appmeasurement-annotated.png)
+![Come implementare Adobe Analytics con AppMeasurement per JavaScript, come descritto in questa sezione.](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -28,7 +29,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 </tr>
 
 <tr>
-<td>2</td><td><b>Scarica il codice JavaScript richiesto per AppMeasurement</b> da Code Manager. Decomprimi il file.</td><td><a href="../../admin/admin/code-manager-admin.md">Gestione codici</a></td>
+<td>2</td><td><b>Scarica il codice JavaScript richiesto, ad AppMeasurement</b> da Code Manager. Decomprimi il file.</td><td><a href="../../admin/admin/code-manager-admin.md">Gestione codici</a></td>
 </tr>
 
 <tr>

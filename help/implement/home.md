@@ -3,9 +3,9 @@ title: Implementazione di Adobe Analytics
 description: Implementa Adobe Analytics sul tuo sito, proprietà o applicazione.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '923'
 ht-degree: 38%
 
 ---
@@ -35,19 +35,19 @@ Per **sito web**, sono disponibili i seguenti metodi di implementazione:
 
 * **Estensione Web SDK**: metodo standardizzato e consigliato per l’implementazione di Adobe Analytics per i nuovi clienti. Installare **Estensione Adobe Experience Platform Web SDK** nella raccolta dati di Adobe Experience Platform **Tag**, utilizza un tag loader in ogni pagina e invia dati a Adobe Experience Platform **Rete Edge** in un formato adatto alla tua organizzazione. La rete Edge inoltra i dati in arrivo ad Adobe Analytics nel formato corretto.
   ![Estensione Web SDK](./assets/websdk-extension-implementation.png)
-Consulta [Implementare Adobe Analytics utilizzando l’estensione Adobe Experience Platform Web SDK](./aep-edge/overview.md) per ulteriori informazioni.
+Consulta [Come implementare Adobe Analytics utilizzando l’estensione Adobe Experience Platform Web SDK.](./aep-edge/overview.md) per ulteriori informazioni.
 
 * **SDK per web**: se non desideri utilizzare la raccolta dati di Adobe Experience Platform, puoi caricare manualmente le librerie SDK web sul tuo sito. Fai riferimento alla libreria SDK web (`alloy.js`) su ogni pagina e invia le chiamate di tracciamento desiderate al Adobe Experience Platform **Rete Edge** in un formato adatto alla tua organizzazione. La rete Edge inoltra i dati in arrivo ad Adobe Analytics nel formato corretto.
   ![SDK per web](./assets/websdk-implementation.png)
-Consulta [Implementare Adobe Analytics utilizzando Adobe Experience Platform Web SDK](./aep-edge/overview.md) per ulteriori informazioni.
+Consulta [Come implementare Adobe Analytics utilizzando Adobe Experience Platform Web SDK](./aep-edge/overview.md) per ulteriori informazioni.
 
 
 * **Estensione Analytics**: installa **Estensione Adobe Analytics** nella raccolta dati di Adobe Experience Platform **Tag**. Inserisci un tag loader in ciascuna pagina e utilizza l’estensione Adobe Analytics per determinare come viene definita ogni variabile. Utilizza questo metodo di implementazione se desideri la comodità dei tag, ma non utilizzare l’infrastruttura di rete Edge.
   ![Estensione Adobe Analytics](./assets/analytics-extension-implementation.png)
-Consulta [Implementare Adobe Analytics utilizzando l’estensione Analytics](launch/overview.md) per ulteriori informazioni.
+Consulta [Come implementare Adobe Analytics utilizzando l’estensione Analytics](launch/overview.md) per ulteriori informazioni.
 
 * **JavaScript legacy:** metodo manuale che veniva utilizzato per implementare Adobe Analytics. Fai riferimento alla libreria di AppMeasurement (`AppMeasurement.js`) in ogni pagina e quindi delle variabili di struttura e delle impostazioni utilizzate in un’implementazione.
-  ![JavaScript legacy](./assets/appmeasurement-implementation.png)
+  ![Come implementare Adobe Analytics utilizzando JavaScript legacy](./assets/appmeasurement-implementation.png)
 Questo metodo di implementazione può essere utile per le implementazioni che utilizzano codice personalizzato ed è ancora consigliato quando utilizzi (desideri):
 
    * [dati Activity Map](../analyze/activity-map/activity-map.md),
@@ -66,7 +66,7 @@ Questo metodo di implementazione può essere utile per le implementazioni che ut
 
 Il seguente flusso di decisione può essere utile per selezionare un metodo di implementazione:
 
-![Albero decisionale](./assets/decision-tree.png)
+![Un albero decisionale per la selezione di un metodo di implementazione, come descritto in questa sezione.](./assets/decision-tree.png)
 
 
 >[!TIP]
