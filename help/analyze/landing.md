@@ -4,7 +4,7 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '3933'
 ht-degree: 85%
@@ -29,7 +29,7 @@ La pagina di destinazione di Adobe Analytics riunisce [!DNL Analysis Workspace] 
 | Nuovi collegamenti ai rapporti **[!UICONTROL Reports & Analytics]** | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bot Pages]**<li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**</li></ul> | ![Nuovi collegamenti](assets/report-links.png) |
 | Nuovi rapporti pronti all’uso | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Next page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Previous page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Page analysis]** > **[!UICONTROL Page summary]**</li></ul>Questi rapporti sono in formato [!UICONTROL Workspace] e devono essere configurati e generati. L’output è costituito da un pannello di metriche di alto livello, dati con tendenze, visualizzazione [!UICONTROL Flow] e altro ancora. Puoi modificare questi rapporti e cambiare dimensioni, elementi dimensionali, ecc. Questi rapporti sono disponibili anche come pannelli di Workspace. | ![Pagina successiva](assets/next-page.png) |
 | È tornata la finestra modale **[!UICONTROL Create Project]** | Quando fai clic su **[!UICONTROL Create Project]** in Workspace, puoi nuovamente scegliere tra [!UICONTROL Blank project] e [!UICONTROL Blank mobile scorecard]. Puoi anche scegliere tra tutti i modelli creati dalla tua azienda. | ![Crea nuovo](assets/create-new.png) |
-| Disponibile anche in Customer Journey Analytics | Questa pagina di destinazione, in forma modificata, è disponibile anche in Customer Journey Analytics. |  |
+| Disponibile anche in Customer Journey Analytics | Questa pagina di destinazione, in formato modificato, è disponibile anche in Customer Journey Analytics. |  |
 
 {style="table-layout:auto"}
 

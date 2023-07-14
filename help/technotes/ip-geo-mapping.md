@@ -3,7 +3,7 @@ title: Domande frequenti migliorate sulla mappatura IP-geolocalizzazione
 description: Risposte alle domande relative al set di dati nuovo e migliorato (NetAcuity Pulse) per la mappatura IP-geolocalizzazione.
 feature: Data Configuration and Collection
 exl-id: 9327c20c-1310-4451-a6e4-61dc0e46724d
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
