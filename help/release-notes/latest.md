@@ -3,7 +3,7 @@ title: Note sulla versione più recente di Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ce2a6c9607b252150a2f8c87befb86837869fe66
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 73%
@@ -22,7 +22,7 @@ I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione con
 | ----------- | ---------- | ------- | ---- |
 | **Configurare le posizioni di archiviazione dell’account cloud per l’acquisizione dei dati di classificazione** | Ora puoi gestire le posizioni di archiviazione dell’account cloud utilizzate per l’automazione dei set di classificazione. [Ulteriori informazioni](/help/components/locations/configure-import-accounts.md)<p> | N/D | 10 luglio 2023 |
 | **Miglioramenti al filtro Data Repair** | Sono stati aggiunti tre miglioramenti ai filtri per Data Repair:<ul><li>Filtra per una variabile per modificare una seconda variabile. Ad esempio, se `eVar2` contiene &quot;@&quot;, quindi elimina `eVar3`.</li><li>Filtro per valori numerici o non numerici</li><li>Applicare più filtri con un AND. Ad esempio, dove `eVar2="a"` E `eVar3="b"`</li></ul>[Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21 giugno 2023 | 12 luglio 2023 |
-| **Destinazioni sicure per l’esportazione di feed di dati** | I feed di dati ora possono essere inviati alle seguenti destinazioni di archiviazione cloud:<ul><li>Amazon S3</li><li>RBAC di Azure</li><li>SAS di Azure</li><li>Piattaforma Google Cloud</li></ul>Le destinazioni precedentemente disponibili (FTP, SFTP, S3 e Azure Blob) non sono più consigliate. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=it) | 12 giugno 2023 | 15 luglio 2023 |
+| **Destinazioni sicure per l’esportazione di feed di dati** | I feed di dati ora possono essere inviati alle seguenti destinazioni di archiviazione cloud:<ul><li>Amazon S3</li><li>RBAC di Azure</li><li>SAS di Azure</li><li>Piattaforma Google Cloud</li></ul>Le destinazioni precedentemente disponibili (FTP, SFTP, S3 e Azure Blob) non sono più consigliate. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=it) | 12 giugno 2023 | 13 luglio 2023 |
 | **Nuova variabile AppMeasurement** | La variabile `decodeLinkParameters` gestisce i casi edge in cui le implementazioni codificano caratteri multibyte nelle variabili di tracciamento dei collegamenti. La maggior parte delle implementazioni non ha bisogno di definire questa variabile. [Ulteriori informazioni](../implement/vars/config-vars/decodelinkparameters.md) |  | 17 luglio 2023 |
 
 {style="table-layout:auto"}

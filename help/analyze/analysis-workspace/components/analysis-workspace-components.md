@@ -4,7 +4,7 @@ title: Panoramica dei componenti
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 75%
@@ -127,8 +127,6 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nella barra a sinist
 4. (Facoltativo) Per affinare ulteriormente l’elenco, puoi ordinare l’elenco dei componenti come descritto in [Ordinare l’elenco dei componenti](#sort-the-component-list).
 
 ### Ordinare l’elenco dei componenti
-
-{{release-limited-testing-section}}
 
 1. (Facoltativo) Applica i filtri all’elenco dei componenti, come descritto in [Filtrare l’elenco dei componenti](#filter-the-component-list).
 

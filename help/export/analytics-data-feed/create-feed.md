@@ -3,18 +3,14 @@ title: Creare un feed di dati
 description: Scopri come creare un feed di dati.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 35f33c026a679526309b09b5af61fc3fd8041c39
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3156'
 ht-degree: 3%
 
 ---
 
 # Creare un feed di dati
-
->[!AVAILABILITY]
->
->Alcuni dei tipi di destinazione descritti in questa pagina si trovano nella fase di test limitato del rilascio e potrebbero non essere ancora disponibili nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
 
 Durante la creazione di un feed di dati, fornisci ad Adobe:
 
@@ -110,7 +106,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
 +++
 
-   +++Azure RBAC
+   +++RBAC di Azure
 
    Puoi inviare feed direttamente a un contenitore di Azure utilizzando l’autenticazione RBAC. Questo tipo di destinazione richiede un nome bucket, un ID applicazione, un ID tenant e una chiave segreta.
 
@@ -170,7 +166,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
 +++
 
-   SAS di +++Azure
+   +++SAS di Azure
 
    È possibile inviare feed direttamente a un contenitore di Azure utilizzando l’autenticazione SAS. Questo tipo di destinazione richiede un nome bucket, un ID applicazione, un ID tenant, un URI di insieme di credenziali delle chiavi, un nome segreto di insieme di credenziali delle chiavi e una chiave segreta.
 
@@ -231,7 +227,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
 +++
 
-   +++Piattaforma cloud Google
+   +++Piattaforma Google Cloud
 
    Puoi inviare feed direttamente ai bucket di Google Cloud Platform (GCP). Questo tipo di destinazione richiede solo il nome dell’account GCP e la posizione (bucket).
 

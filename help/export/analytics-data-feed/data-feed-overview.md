@@ -4,18 +4,14 @@ keywords: clickstream;feed dati;datafeed;feed dati
 title: Panoramica sui feed dati di Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 83%
+source-wordcount: '557'
+ht-degree: 86%
 
 ---
 
 # Panoramica sui feed dati di Analytics
-
->[!AVAILABILITY]
->
->Alcuni dei tipi di destinazione descritti in questa pagina si trovano nella fase di test limitato del rilascio e potrebbero non essere ancora disponibili nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
 
 I feed di dati offrono un modo potente per estrarre dati grezzi da Adobe Analytics. Puoi utilizzare i dati non elaborati in altre piattaforme al di fuori di Adobe, in base alle esigenze della tua organizzazione. I dati vengono consegnati in batch orari alla conclusione di ogni ora oppure in batch giornalieri alla conclusione di ogni giorno.
 
