@@ -4,106 +4,122 @@ title: Configurare una visualizzazione di flusso
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: 58f53da6076bf57d060303538814582cb5eb009c
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 95%
+source-wordcount: '1247'
+ht-degree: 59%
 
 ---
 
 # Configurare una visualizzazione di flusso
 
-Le visualizzazioni Flusso consentono di comprendere il percorso che deriva da o precede un evento di conversione specifico sul sito web o sull’app. Traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche. Le visualizzazioni di flusso consentono di configurare l’inizio o la fine del percorso desiderato o di analizzare tutti i percorsi che attraversano una dimensione o un elemento dimensionale.
+Le visualizzazioni Flusso consentono di comprendere il percorso che deriva da o precede un evento di conversione specifico sul sito web o sull’app. Traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche.
+
+Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del percorso desiderato o di analizzare tutti i percorsi che passano attraverso una dimensione o un elemento dimensionale.
 
 ![nuova interfaccia utente di Flusso](assets/new-flow.png)
 
-## Passaggi di configurazione {#configure}
+## Creare una visualizzazione di flusso {#configure}
 
-1. Per iniziare a creare un diagramma di flusso, aggiungi un pannello vuoto al progetto e fai clic sull’icona delle visualizzazioni nella barra a sinistra. Quindi trascina la visualizzazione Flusso nel pannello oppure trascina la visualizzazione [!UICONTROL Flow] in un progetto esistente.
+1. Aggiungi un pannello vuoto al progetto e fai clic sull’icona delle visualizzazioni nella barra a sinistra.
 
-1. Aggancia la visualizzazione Flusso tramite una delle tre opzioni seguenti:
+1. Trascina [!UICONTROL **Flusso**] nel pannello.
 
-   * [!UICONTROL Starts with] (metriche, dimensioni o elementi), oppure
-   * [!UICONTROL Contains] (dimensioni o elementi), oppure
-   * [!UICONTROL Ends with] (metriche, dimensioni o elementi)
+   Oppure
+
+   Trascina [!UICONTROL **Flusso**] in un progetto esistente.
+
+1. Ancorate la visualizzazione Flusso utilizzando una delle seguenti opzioni:
+
+   * [!UICONTROL **Inizia con**] (metriche, dimensioni o elementi), oppure
+   * [!UICONTROL **Contiene**] (dimensioni o elementi), oppure
+   * [!UICONTROL **Termina con**] (metriche, dimensioni o elementi)
 
    Ogni categoria è visualizzata come una “zona di rilascio”. Puoi popolare la zona di rilascio in tre modi:
 
    * Utilizza il menu a discesa per selezionare metriche o dimensioni.
-   * Trascina gli elementi dall’elenco delle dimensioni o delle metriche.
-   * Utilizza la ricerca per trovare la dimensione o la metrica che stai cercando.
-
-   Ad esempio, supponiamo che tu desideri tracciare tutto ciò che porta a un evento di pagamento. Trascinerai una dimensione o una metrica relativa al pagamento (ad esempio [!UICONTROL Order exists]) nella zona di rilascio **[!UICONTROL Ends with]**.
-
-1. Se scegli una metrica, devi anche fornire una [!UICONTROL Pathing Dimension], come mostrato qui, che utilizzerai per creare il percorso. Il valore predefinito è [!UICONTROL Page].
-
-   ![dimensione del percorso](assets/pathing-dim.png)
+   * Trascina dimensioni o metriche dalla barra a sinistra.
+   * Inizia a digitare il nome di una dimensione o metrica, quindi selezionala quando viene visualizzato nell’elenco a discesa.
 
    >[!IMPORTANT]
    >
-   >Le metriche calcolate non possono essere rilasciate nelle zone di rilascio **[!UICONTROL Starts with]** o **[!UICONTROL Ends with]**.
+   >Le metriche calcolate non possono essere utilizzate in  **[!UICONTROL Starts with]** o **[!UICONTROL Ends with]** campi.
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Show Advanced Settings]** per configurare le impostazioni avanzate:
+1. Se scegli una metrica, devi anche fornire una [!UICONTROL Pathing Dimension] da utilizzare per utilizzare come percorso che porta o proviene dal componente selezionato, come mostrato qui. Il valore predefinito è [!UICONTROL **Pagina**].
+
+   ![dimensione del percorso](assets/pathing-dim.png)
+
+1. (Facoltativo) Seleziona **[!UICONTROL Show advanced settings]** per configurare una delle opzioni seguenti:
 
    ![impostazioni avanzate](assets/adv-settings.png)
 
    | Impostazione | Descrizione |
    | --- | --- |
    | **[!UICONTROL Wrap labels]** | Di norma, le etichette degli elementi di Flusso vengono troncate per risparmiare spazio sullo schermo, ma selezionando questa casella puoi rendere visibile l’intera etichetta.  Impostazione predefinita = non selezionata. |
-   | **[!UICONTROL Include repeat instances]** | Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione offre la possibilità di includere o escludere istanze ripetute, ad esempio i ricaricamenti delle pagine. Tuttavia, le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori, come listVars, listProp, s.product, eVar di merchandising, ecc. Impostazione predefinita = non selezionata. |
-   | **[!UICONTROL Limit to first/last occurrence]** | Limita i percorsi a quelli che iniziano/terminano con la prima/ultima occorrenza di una dimensione/elemento/metrica. Per una spiegazione più dettagliata, consulta la sezione sottostante intitolata “Scenario di esempio per “limit to first/last occurrence” (limita alla prima/ultima occorrenza)”. |
-   | **[!UICONTROL Number of Columns]** | Determina il numero di colonne desiderato nel diagramma di Flusso. |
-   | **[!UICONTROL Items expanded per Column]** | Il numero di elementi che desideri inserire in ogni colonna. |
-   | **[!UICONTROL Flow Container]** | <ul><li>Visita</li><li>Visitatore</li></ul> Consente di passare da Visita a Visitatore per analizzare il percorso dei visitatori. Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello dei singoli visitatori (attraverso più visite) o di limitare l’analisi a una singola visita. |
+   | **[!UICONTROL Include repeat instances]** | Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione offre la possibilità di includere o escludere istanze ripetute, ad esempio i ricaricamenti delle pagine. Tuttavia, le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori, come listVars, listProps, s.product, eVars di merchandising, ecc. <p>Questa opzione è disabilitata per impostazione predefinita.</p> |
+   | **[!UICONTROL Limit to first/last occurrence]** | Limita i percorsi a quelli che iniziano/terminano con la prima/ultima occorrenza di una dimensione/elemento/metrica. Vedi la sezione seguente, [Scenario di esempio per &quot;limit to first/last occurrence&quot; (limita alla prima/ultima occorrenza)](#example-scenario-for-limit-to-firstlast-occurrence), per una spiegazione più dettagliata. |
+   | **[!UICONTROL Number of columns]** | Il numero di colonne desiderato nel diagramma di flusso. |
+   | **[!UICONTROL Items expanded per column]** | Il numero di elementi desiderati in ogni colonna. |
+   | **[!UICONTROL Flow container]** | <ul><li>Visita</li><li>Visitatore</li></ul> Consente di passare da Visita a Visitatore per analizzare il percorso dei visitatori. Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello dei singoli visitatori (attraverso più visite) o di limitare l’analisi a una singola visita. |
 
-1. Fai clic su **[!UICONTROL Build]**.
+1. Seleziona **[!UICONTROL Build]** (Aggiungi gruppi di campi).
+
+>[!INFO]
+>
+>**Esempio:** Supponiamo di voler tracciare il percorso seguito dagli utenti per le pagine più popolari del sito e da esse.
+>
+>Per eseguire questa operazione,
+>1. Inizia a creare una visualizzazione di flusso come descritto in precedenza.
+>1. Trascina [!UICONTROL **Pagina**] dimensione in **[!UICONTROL Contains]** , quindi seleziona [!UICONTROL **Genera**].
+>1. La visualizzazione Flusso si basa sulla pagina più visualizzata visibile nel nodo attivo al centro della visualizzazione. Vengono visualizzate anche le pagine principali che conducono a quella pagina (a sinistra del nodo attivo) e le pagine principali che precedono quella pagina (a destra del nodo attivo).
+>1. Analizzare i dati nel flusso, come descritto in [Visualizzare e modificare l’output del flusso](#view-and-change-the-flow-output).
+
 
 ## Visualizzare e modificare l’output di Flusso {#output}
 
 ![output di flusso](assets/flow-output.png)
 
-Nella parte superiore del diagramma viene visualizzato un riepilogo della configurazione di Flusso. I percorsi nel diagramma sono proporzionali. I percorsi con maggiore attività sono più spessi.
+Nella parte superiore del diagramma viene visualizzato un riepilogo della configurazione di Flusso. Lo spessore di un tracciato nel diagramma è proporzionale alla sua attività, con percorsi con più attività che appaiono più spessi di quelli con meno attività.
 
 Per approfondire ulteriormente i dati, hai a disposizione diverse opzioni:
 
 * Il diagramma di flusso è interattivo. Passa il cursore del mouse sul diagramma per cambiare i dettagli visualizzati.
 
-* Quando fai clic su un nodo nel diagramma, vengono visualizzati i dettagli per tale nodo. Fai di nuovo clic sul nodo per chiuderlo.
+* Quando selezioni un nodo nel diagramma, vengono visualizzati i dettagli per tale nodo. Seleziona di nuovo il nodo per comprimerlo.
 
-   ![dettagli-nodo](assets/node-details.png)
+  ![dettagli-nodo](assets/node-details.png)
 
-* Puoi filtrare una colonna per visualizzare solo alcuni risultati, ad esempio puoi includere ed escludere, specificare criteri, ecc.
+* È possibile filtrare una colonna per visualizzare solo determinati risultati, ad esempio l&#39;inclusione e l&#39;esclusione, la specifica di criteri e così via.
 
-* Fai clic sul segno più (+) a sinistra per espandere una colonna.
+* Selezionare il segno più (+) a sinistra per espandere una colonna.
 
 * Utilizza le opzioni di clic con il pulsante destro del mouse illustrate di seguito per personalizzare ulteriormente l’output.
 
-* Fai clic sull’icona a forma di matita accanto al riepilogo di configurazione per modificare ulteriormente il flusso o ricrearlo con opzioni diverse.
+* Seleziona l’icona a forma di matita accanto al riepilogo di configurazione per modificare ulteriormente il flusso o ricrearlo con opzioni diverse.
 
 * Puoi anche esportare e analizzare ulteriormente il diagramma di flusso come parte del file .CSV di un progetto, da **[!UICONTROL Project]** (Progetto) > **[!UICONTROL Download CSV]** (Scarica CSV).
 
 ## Filtro
 
-Sopra ogni colonna viene visualizzato un filtro al passaggio del mouse. Facendo clic sul filtro, si ottiene la stessa finestra di dialogo del filtro attualmente presente nella tabella a forma libera. Questo filtro funziona come nella tabella a forma libera.
+Sopra ogni colonna viene visualizzato un filtro al passaggio del mouse. Selezionando il filtro, si ottiene la stessa finestra di dialogo del filtro attualmente presente nella tabella a forma libera. Questo filtro funziona come nella tabella a forma libera.
 
 * Utilizza le impostazioni avanzate per includere o escludere determinati criteri con il nostro elenco di operatori.
 * Dopo aver filtrato un elemento dall’elenco, quella colonna specifica rifletterà il filtro. Il filtro riduce la colonna di modo che mostri solo l’elemento consentito nel filtro, oppure rimuove tutti gli elementi eccetto quello desiderato nel filtro.
 * Tutte le colonne upstream e downstream dovrebbero persistere, purché sia presente un flusso di dati nei nodi rimanenti.
 * Una volta applicato, l’icona del filtro viene visualizzata in blu sopra la colonna che sta filtrando.
-* Per rimuovere un filtro, fai clic sull’icona di filtro per aprire il menu dei filtri. Rimuovi i filtri applicati e fai clic su **[!UICONTROL Save]**. Il flusso dovrebbe tornare allo stato precedente non filtrato.
+* Per rimuovere un filtro, seleziona l’icona del filtro per aprire il menu dei filtri. Rimuovi i filtri applicati, quindi seleziona **[!UICONTROL Save]**. Il flusso dovrebbe tornare allo stato precedente non filtrato.
 
 ## Opzioni di clic con il pulsante destro {#right-click}
 
 | Opzione | Descrizione |
 |--- |--- |
-| [!UICONTROL Focus on this node] | Rende attivo il nodo selezionato. Il nodo attivo è visualizzato al centro del diagramma di flusso. |
-| [!UICONTROL Start Over] | Si torna al generatore di diagrammi a forma libera dove è possibile generare un nuovo diagramma di flusso. |
-| [!UICONTROL Create Segment from this point in flow] | Crea un segmento. Viene aperto il Generatore di segmenti, dove è possibile configurare il nuovo segmento. |
+| [!UICONTROL Start over] | Si torna al generatore di diagrammi a forma libera dove è possibile generare un nuovo diagramma di flusso. |
+| [!UICONTROL Create segment for this path] | Crea un segmento. Viene aperto il Generatore di segmenti, dove è possibile configurare il nuovo segmento. |
 | [!UICONTROL Breakdown] | Suddivide il nodo per dimensioni, metriche o ora. |
 | [!UICONTROL Trend] | Crea un diagramma di tendenza per il nodo. |
+| Mostra colonna successiva / Mostra colonna precedente | Mostra la colonna successiva (destra) o precedente (sinistra) della visualizzazione. |
+| Nascondi colonna | Nasconde la colonna selezionata dalla visualizzazione. |
 | [!UICONTROL Expand entire column] | Espande una colonna per mostrare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |
-| [!UICONTROL Collapse entire column] | Nasconde tutti i nodi di una colonna. |
-| [!UICONTROL Exclude Item]/[!UICONTROL Restore Excluded Items] | Rimuove un nodo specifico dalla colonna e lo crea automaticamente come filtro nella parte superiore della colonna. Per ripristinare l’elemento escluso, fai di nuovo clic con il pulsante destro del mouse e seleziona **[!UICONTROL Restore Excluded Item]**. Puoi anche aprire il filtro nella parte superiore della colonna e rimuovere la casella con l’elemento appena escluso. |
 
 ## Scenario di esempio per “limit to first/last occurrence” (limita alla prima/ultima occorrenza)
 
