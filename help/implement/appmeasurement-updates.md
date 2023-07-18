@@ -3,20 +3,28 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 5545497184d02400ce6844c0281c46e6c997e218
 workflow-type: tm+mt
-source-wordcount: '2319'
-ht-degree: 99%
+source-wordcount: '2364'
+ht-degree: 96%
 
 ---
 
 # Note sulla versione di AppMeasurement per JavaScript
 
-Note cumulative sulla versione per [!DNL AppMeasurement] per JavaScript.
+Note cumulative sulla versione di AppMeasurement per JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Puoi scaricare la versione più recente di AppMeasurement da [Code Manager](/help/admin/admin/code-manager-admin.md).
+È possibile scaricare la versione più recente dell’AppMeasurement in [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Versione 2.24.0
+
+Data di rilascio:**18 luglio 2023**
+
+* È stata aggiunta una configurazione facoltativa (decodeLinkParameters default false) che decodifica gli URL di collegamento contenenti caratteri con codifica a doppio byte.
+* È stata aggiunta una gestione aggiuntiva degli errori per i browser con API di User-Agent Client Hints ad alta entropia errate.
+* Intestazione POST Content-Type modificata da utilizzare `x-www-form-urlencoded` per impostazione predefinita.
 
 ## Versione 2.23.0
 
