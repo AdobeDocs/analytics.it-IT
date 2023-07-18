@@ -3,9 +3,9 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f996448224ffebd57023c8d8e4eeeccb4d6e2a47
+source-git-commit: 39dc3821da20ca38851c648317eca67b4f702a04
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2362'
 ht-degree: 96%
 
 ---
@@ -16,7 +16,7 @@ Note cumulative sulla versione di AppMeasurement per JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-È possibile scaricare la versione più recente dell’AppMeasurement in [GitHub](https://github.com/adobe/appmeasurement/releases).
+Scarica la versione più recente di AppMeasurement da [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## Versione 2.24.0
 
