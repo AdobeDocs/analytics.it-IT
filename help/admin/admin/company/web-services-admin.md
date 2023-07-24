@@ -3,10 +3,10 @@ description: Le API dei servizi Web forniscono accesso programmatico ai rapporti
 title: Servizi web
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: d2a644d1b655153e1ad509bf9065c390d9226cfc
+source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 84%
+source-wordcount: '285'
+ht-degree: 80%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 84%
 
 Le API dei servizi Web forniscono accesso programmatico ai rapporti di marketing e ad altri servizi della suite che consentono di duplicare e potenziare le funzionalità disponibili tramite l’interfaccia di Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Web Services]** o **Accesso API**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Web Services]** o **[!UICONTROL API Access]**
 
 
 ## API di Analytics 2.0
 
-Per accedere alle API di Analytics 2.0 è necessario l’ID società globale della società Analytics. Puoi trovare l’ID società globale a cui hai effettuato l’accesso **grassetto** in questa sezione.
+Per accedere alle API di Analytics 2.0, devi disporre dell’ID società globale della tua azienda Analytics. Puoi trovare l’ID società globale in **grassetto** nella parte superiore della [!UICONTROL API Access] sezione. Ecco un esempio: &quot;L’ID società globale per l’azienda Analytics in cui hai effettuato l’accesso è **adobe1234**.&quot;
 
 ## Gestisci servizi Web legacy (obsoleto)
 

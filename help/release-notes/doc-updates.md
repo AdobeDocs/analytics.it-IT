@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9a6728de91ac968c5ff4eb28217b5ea1d11513f8
+source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
 workflow-type: tm+mt
-source-wordcount: '4460'
+source-wordcount: '4507'
 ht-degree: 98%
 
 ---
@@ -26,9 +26,11 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Luglio 2023** | |
-| ID società globale | Documentato [come trovare l’id società globale](../admin/admin/company/web-services-admin.md) per la società Analytics a cui hai effettuato l’accesso. Questo ID è richiesto per le API di Analytics 2.0. |
+| ID società globale | Documentato [come trovare l’ID società globale](../admin/admin/company/web-services-admin.md) per la società Analytics a cui hai effettuato l’accesso. Questo ID è richiesto per le API di Analytics 2.0. |
 | Limite di dimensioni FTP aggiornato | Il [limite predefinito per l’archiviazione dei dati FTP](/help/export/ftp-and-sftp/ftp-limits.md) è stato aggiornato a 100 GB. |
 | Nuova variabile AppMeasurement | La variabile `decodeLinkParameters` gestisce i casi edge in cui le implementazioni codificano caratteri multibyte nelle variabili di tracciamento dei collegamenti. [Ulteriori informazioni](../implement/vars/config-vars/decodelinkparameters.md) |
+| Configurazione delle posizioni di archiviazione dell’account cloud per l’acquisizione dei dati di classificazione | Ora puoi gestire le posizioni di archiviazione di account cloud utilizzate per l’automazione dei set di classificazione. [Ulteriori informazioni](/help/components/locations/configure-import-accounts.md) |
+| Miglioramenti alle operazioni di filtro per Data Repair | Sono stati aggiunti tre miglioramenti alle operazioni di filtro per Data Repair. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
 | **Giugno 2023** | |
 | Nuove funzioni per i set di classificazione | I [set di classificazione](/help/components/classifications/sets/overview.md) sono stati aggiornati con diverse nuove funzioni:<ul><li>**Consolidamenti**: combina i set di classificazione in un singolo set di classificazione consolidato. Il set di classificazione consolidato può essere utilizzato come altri set di classificazione o come set di dati di ricerca nel Customer Journey Analytics. [Ulteriori informazioni](../components/classifications/sets/consolidations/manage.md)</li><li>**Regole**: classifica automaticamente i valori in base alle regole nel set di classificazione. [Ulteriori informazioni](../components/classifications/sets/manage/rules.md)</li><li>**Importazione automatica**: importa automaticamente i dati di classificazione dalle destinazioni dell’archiviazione cloud. [Ulteriori informazioni](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Aggiornamenti delle metriche calcolate | Sono stati aggiornati vari articoli relativi alle metriche calcolate, tra cui l’aggiornamento delle schermate e dei passaggi delle procedure. Queste modifiche sono state apportate per allineare la documentazione alle attuali funzionalità di Adobe Analytics. |
