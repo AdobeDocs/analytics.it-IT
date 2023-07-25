@@ -5,9 +5,9 @@ title: Panoramica sui feed dati di Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,16 +19,16 @@ I feed di dati offrono un modo potente per estrarre dati grezzi da Adobe Analyti
 
 Prima di utilizzare i feed di dati, è necessario soddisfare tutti i seguenti requisiti.
 
-* Un’implementazione funzionante che invia dati ai server di raccolta dati di Adobe. Consulta [Convalidare e pubblicare un’implementazione](/help/implement/launch/validate-publish-prod.md) nella Guida all’implementazione.
+* Un’implementazione funzionante che invia dati ai server di raccolta dati di Adobe. Consulta [Convalidare e pubblicare un’implementazione](/help/implement/launch/validate-publish-prod.md) nella Guida per l’implementazione.
 * Il tuo account deve essere quello di un amministratore di prodotto Analytics oppure deve appartenere a un profilo di prodotto con accesso ai feed di dati.
-* Un bucket configurato su Amazon S3, Google Cloud Platform, Azure RBAC o Azure SAS.
-* (Legacy: Obbligatorio solo per i tipi di destinazione FTP e SFTP legacy) Utilizza un sito FTP e le relative credenziali (credenziali FTP fornite dalla tua organizzazione).
+* Bucket configurato su Amazon S3, Google Cloud Platform, Azure RBAC o Azure SAS.
+* (Legacy: obbligatorio solo per i tipi di destinazione FTP e SFTP legacy) Tieni a portata di mano un sito FTP e le relative credenziali (credenziali FTP fornite dalla tua organizzazione).
 
 ## Passaggi successivi
 
-Le risorse seguenti sono utili per comprendere il flusso di lavoro di base per ottenere feed di dati. Dopo aver compreso il flusso di lavoro di base, puoi lavorare con i team della tua organizzazione per memorizzare o acquisire dati non elaborati in un database.
+Le risorse seguenti sono utili per comprendere il flusso di lavoro di base per ottenere dei feed di dati. Una volta compreso il flusso di lavoro di base, puoi lavorare con i team della tua organizzazione per archiviare o acquisire dati non elaborati in un database.
 
-* [Best practice per il feed dati](/help/export/analytics-data-feed/data-feeds-best-practices.md): best practice per la creazione e la gestione dei feed di dati.
+* [Best practice per il feed di dati](/help/export/analytics-data-feed/data-feeds-best-practices.md): best practice per la creazione e la gestione dei feed di dati.
 * [Creare un feed di dati](create-feed.md): dettagli tecnici per la creazione di un feed di dati, con informazioni più dettagliate sui singoli campi
 * [Gestire i feed dati](df-manage-feeds.md): ulteriori informazioni sulla navigazione nell’interfaccia del feed dati
 * [Contenuti dei feed dati](c-df-contents/datafeeds-contents.md): comprendere cosa c&#39;è all&#39;interno del file compresso <!-- Is this still the output users can download from the destination? I aske Jun. -->
