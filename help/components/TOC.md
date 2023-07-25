@@ -5,9 +5,9 @@ user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
 source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 88%
    + [Città](dimensions/cities.md)
    + [Profondità colore](dimensions/color-depth.md)
    + [Tipo di connessione](dimensions/connection-type.md)
-   + [Gestione del consenso opt-in](dimensions/cm-opt-in.md)
-   + [Rinuncia alla gestione del consenso](dimensions/cm-opt-out.md)
+   + [Gestione del consenso Opt-in](dimensions/cm-opt-in.md)
+   + [Gestione del consenso Opt-Out](dimensions/cm-opt-out.md)
    + [Supporto per cookie](dimensions/cookie-support.md)
    + [Paesi](dimensions/countries.md)
    + [Collegamento personalizzato](dimensions/custom-link.md)
@@ -113,7 +113,7 @@ ht-degree: 88%
    + [Lunghezza media della sessione](metrics/average-session-length.md)
    + [Tempo medio sul sito](metrics/average-time-on-site.md)
    + [Occorrenze bot](metrics/bot-occurrences.md)
-   + [Visualizzazioni di pagina bot](metrics/bot-page-views.md)
+   + [Visualizzazioni pagina bot](metrics/bot-page-views.md)
    + [Percentuale non recapitate](metrics/bounce-rate.md)
    + [Rimbalzi](metrics/bounces.md)
    + [Aggiunte al carrello](metrics/cart-additions.md)
@@ -180,14 +180,14 @@ ht-degree: 88%
    + [Domande frequenti sulla gestione dei segmenti legacy](segmentation/seg-transition.md)
    + [Best practice](segmentation/best-practices.md)
 + Metriche calcolate {#calculated-metrics}
-   + [Metriche calcolate e metriche calcolate avanzate (derivate)](c-calcmetrics/cm-overview.md)
+   + [Metriche calcolata e metriche calcolata avanzata (derivate)](c-calcmetrics/cm-overview.md)
    + [Video sulle procedure](c-calcmetrics/cm-videos.md)
    + Flusso di lavoro per le metriche calcolate {#calcmetric-workflow}
       + [Flusso di lavoro per le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Trovare metriche](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Creare metriche](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [Creare una metrica “Visualizzazioni pagina in base alle visite”](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Creare una metrica &quot;Order Assist&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Creare una metrica “Assistenze per l&#39;ordine”](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Creare una metrica “Partecipazione”](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Tipo di metrica e attribuzione](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Metriche segmentate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -243,9 +243,9 @@ ht-degree: 88%
          + [Schema del set di classificazione](classifications/sets/manage/schema.md)
          + [Regole del set di classificazione](classifications/sets/manage/rules.md)
       + [Gestione processi set di classificazione](classifications/sets/job-manager.md)
-      + Consolidamenti dei set di classificazione {#consolidations}
+      + Consolidamenti set di classificazione {#consolidations}
          + [Gestione consolidamenti set di classificazione](classifications/sets/consolidations/manage.md)
-         + [Processo di consolidamento dei set di classificazione](classifications/sets/consolidations/process.md)
+         + [Processo consolidamenti set di classificazione](classifications/sets/consolidations/process.md)
    + Generatore regole di classificazione {#classifications-rulebuilder}
       + [Flusso di lavoro di Generatore regole di classificazione](classifications/crb/classification-rule-builder.md)
       + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)
@@ -273,7 +273,7 @@ ht-degree: 88%
    + [Account di importazione cloud](/help/components/locations/configure-import-accounts.md)
    + [Posizioni di importazione cloud](/help/components/locations/configure-import-locations.md)
 + [Eventi calendario](t-calendar-event.md)
-+ [Coda dei report pianificati](scheduled-reports-admin.md)
++ [Coda dei rapporti pianificati](scheduled-reports-admin.md)
 + Rapporti in tempo reale {#real-time-reporting}
    + [Panoramica reportistica in tempo reale](c-real-time-reporting/realtime.md)
    + [Configurare rapporti in tempo reale](c-real-time-reporting/t-realtime-admin.md)
