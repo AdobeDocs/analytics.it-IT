@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3933'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ La pagina di destinazione di Adobe Analytics riunisce [!DNL Analysis Workspace] 
 | Nuovi collegamenti ai rapporti **[!UICONTROL Reports & Analytics]** | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bot Pages]**<li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**</li></ul> | ![Nuovi collegamenti](assets/report-links.png) |
 | Nuovi rapporti pronti all’uso | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Next page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Previous page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Page analysis]** > **[!UICONTROL Page summary]**</li></ul>Questi rapporti sono in formato [!UICONTROL Workspace] e devono essere configurati e generati. L’output è costituito da un pannello di metriche di alto livello, dati con tendenze, visualizzazione [!UICONTROL Flow] e altro ancora. Puoi modificare questi rapporti e cambiare dimensioni, elementi dimensionali, ecc. Questi rapporti sono disponibili anche come pannelli di Workspace. | ![Pagina successiva](assets/next-page.png) |
 | È tornata la finestra modale **[!UICONTROL Create Project]** | Quando fai clic su **[!UICONTROL Create Project]** in Workspace, puoi nuovamente scegliere tra [!UICONTROL Blank project] e [!UICONTROL Blank mobile scorecard]. Puoi anche scegliere tra tutti i modelli creati dalla tua azienda. | ![Crea nuovo](assets/create-new.png) |
-| Disponibile anche in Customer Journey Analytics | Questa pagina di destinazione, in formato modificato, è disponibile anche in Customer Journey Analytics. |  |
+| Disponibile anche in Customer Journey Analytics | Questa pagina di destinazione, in forma modificata, è disponibile anche in Customer Journey Analytics. |  |
 
 {style="table-layout:auto"}
 
@@ -99,30 +99,30 @@ Se ti trovi nella visualizzazione “Folders &amp; Projects” (Cartelle e proge
 
 Un altro caso d’uso per gli amministratori è la gestione dei rapporti aziendali per eliminare, rinominare, assegnare tag o approvare i rapporti. Per informazioni sulla gestione dei rapporti, consulta [Gestione dei rapporti aziendali](#manage-company-reports).
 
-## Scheda [!UICONTROL Reports] {#navigate-reports}
+## Passa alla scheda [!UICONTROL Reports] {#navigate-reports}
 
-Il [!UICONTROL Reports] La scheda consolida i seguenti set di rapporti:
+La scheda [!UICONTROL Reports] consolida i seguenti set di rapporti:
 
 * I modelli [!UICONTROL Workspace] predefiniti che si trovavano in precedenza in [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL New]. Adobe non utilizza più il termine “modello” in questo contesto.
 * La maggior parte dei rapporti predefiniti che si trovavano nel precedente menu superiore [!UICONTROL Reports] di Adobe Analytics. Questi rapporti sono ora visualizzati in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it).
 
 >[!NOTE]
 >
->Quando utilizzi i rapporti, tieni presente quanto segue:
+>Quando utilizzi i rapporti, prendi in considerazione quanto segue:
 >* In Rapporti, la cartella Preferiti viene visualizzata solo se contrassegni un nuovo rapporto come Preferito. Non vengono riportati i precedenti preferiti di Reports &amp; Analytics.
->* Sono disponibili solo i rapporti più comunemente utilizzati che in precedenza erano raggruppati in Reports &amp; Analytics. Non sono più disponibili alcuni rapporti raramente utilizzati o non più rilevanti. Consulta la [Domande frequenti sulla pagina di destinazione](#landing-page-faq) di seguito per ulteriori dettagli.
+>* Sono disponibili solo i rapporti più utilizzati tra quelli precedentemente raggruppati in Reports &amp; Analytics. Non sono più disponibili alcuni rapporti utilizzati raramente o non più rilevanti. Consulta le [Domande frequenti sulla pagina di destinazione](#landing-page-faq) di seguito per ulteriori dettagli.
 
 ![Scheda Rapporti](assets/reports-tab2.png)
 
 
-### Visualizzare i rapporti {#menus}
+### Visualizzazione dei rapporti {#menus}
 
-1. Vai a [!UICONTROL **Rapporti**] scheda.
+1. Passa alla scheda [!UICONTROL **Rapporti**].
 1. Utilizza il campo di ricerca per cercare un rapporto specifico.
 
    Oppure
 
-   Passare al report che si desidera visualizzare.
+   Passa al rapporto che desideri visualizzare.
 
    Sono disponibili i seguenti rapporti:
 
@@ -136,24 +136,24 @@ Il [!UICONTROL Reports] La scheda consolida i seguenti set di rapporti:
 
 ### Visualizzare e salvare un rapporto {#use-reports}
 
-Se si esce da un report dopo aver apportato modifiche, viene richiesto di salvare o eliminare le modifiche. Quando si salvano le modifiche apportate a un report, questo viene salvato come nuovo progetto.
+Se esci da un rapporto dopo aver effettuato modifiche, ti viene richiesto di salvare o eliminare le modifiche. Quando si salvano le modifiche a un rapporto, questo viene salvato come nuovo progetto.
 
-1. Vai a [!UICONTROL **Rapporti**] scheda.
-1. Seleziona il rapporto da visualizzare. Ad esempio, in [!UICONTROL **Più popolari**], seleziona la [!UICONTROL **Pagine**] rapporto.
+1. Vai alla scheda [!UICONTROL **Rapporti**].
+1. Seleziona il rapporto da visualizzare. Ad esempio, in [!UICONTROL **Più popolari**], seleziona il rapporto [!UICONTROL **Pagine**].
 
    ![Rapporto Pagine](assets/pages-report.png)
 
 1. in Analysis Workspace, il rapporto Pagine presenta due [visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([Grafico a barre](/help/analyze/analysis-workspace/visualizations/bar.md) e [Numero di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)) e una [tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). La metrica utilizzata è Occorrenze.
-1. Effettua una delle seguenti operazioni:
+1. Esegui una delle operazioni seguenti:
 
    * Visualizza il rapporto.
-   * Trascina uno o più segmenti nella zona di rilascio Segmento, in alto. Ad esempio, trascina il segmento [!UICONTROL **Clienti mobili**] e visualizzare i risultati.
+   * Puoi trascinare uno o più segmenti nella zona di rilascio Segmento, nella parte superiore. Ad esempio, trascina il segmento [!UICONTROL **Clienti mobile**] e visualizza i risultati.
    * Modifica l’intervallo di date andando sul calendario in alto a destra.
-   * Aggiungi suddivisioni dimensionali, trascina altre metriche e in genere personalizza il rapporto in base alle tue esigenze.
+   * Aggiungi raggruppamenti di dimensioni, trascina altre metriche e personalizza il rapporto a livello generale in base alle tue esigenze.
 
-1. (Facoltativo) Salva il report come progetto selezionando [!UICONTROL **Progetto**] > [!UICONTROL **Salva**].
+1. (Facoltativo) Salva il rapporto come progetto selezionando [!UICONTROL **Progetto**] > [!UICONTROL **Salva**].
 
-   In questo modo il rapporto viene salvato come nuovo progetto e non viene modificato il rapporto esistente. Per ulteriori informazioni sul salvataggio di un rapporto come progetto, consulta &quot;Creare un progetto da un progetto o da un rapporto vuoto&quot; in [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   In questo modo il rapporto viene salvato come nuovo progetto e non viene modificato il rapporto esistente. Per ulteriori informazioni sul salvataggio di un rapporto come progetto, consulta “Creare un progetto da un progetto vuoto o da un rapporto” in [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 ### Creare un rapporto aziendale personalizzato {#company-report}
 
@@ -166,11 +166,11 @@ Per creare un nuovo Rapporto aziendale:
 
    ![Rapporto aziendale](assets/company-report.png)
 
-1. Aggiorna il nome del rapporto, aggiungi una descrizione e aggiungi eventuali tag, quindi seleziona [!UICONTROL **Salva come rapporto aziendale**].
+1. Aggiorna il nome del rapporto, aggiungi una descrizione ed eventuali tag, quindi seleziona [!UICONTROL **Salva come rapporto aziendale**].
 
-   Il rapporto viene aggiunto all’elenco Rapporti società nella finestra modale Crea progetto ed è disponibile per gli utenti della società di accesso.
+   Il rapporto viene aggiunto all’elenco dei rapporti aziendali nella finestra modale Crea progetto ed è disponibile per gli utenti che fanno parte dell’azienda da cui accedi.
 
-   Per ulteriori informazioni su come gli utenti possono creare un progetto basato su un rapporto aziendale, consulta &quot;Creare un progetto da un progetto o da un rapporto vuoto&quot; in [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   Per ulteriori informazioni su come gli utenti possono creare un progetto basato su un rapporto aziendale, consulta “Creare un progetto da un progetto vuoto o da un rapporto” in [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 Altre opzioni di apprendimento:
 
@@ -186,7 +186,7 @@ Gli amministratori possono filtrare l’elenco dei progetti per visualizzare e g
 Visualizzazione e gestione dei rapporti aziendali
 
 1. Nella barra dei filtri, seleziona **ALTRI FILTRI** e quindi **Rapporti aziendali**.
-Viene visualizzato un elenco dei rapporti aziendali. Tutti i progetti regolari, a meno che non siano bloccati, non vengono visualizzati.
+Viene visualizzato un elenco dei rapporti aziendali. Tutti i progetti regolari non vengono visualizzati, a meno che non siano fissati.
 
    ![Visualizzare i filtri per i rapporti aziendali](assets/company-reports-filter.png)
 
@@ -238,22 +238,22 @@ Gli amministratori possono eliminare un rapporto utilizzando l’opzione di elen
 
 ## Utilizzare la scheda Apprendimento {#navigate-learning}
 
-La pagina Apprendimento contiene tour video pratici, tutorial e collegamenti alla documentazione.
+La pagina Apprendimento contiene tutorial, presentazioni video pratiche e collegamenti alla documentazione.
 
-Utilizza la pagina Apprendimento di Adobe Analytics per scoprire funzioni e casi d’uso iniziali, intermedi o avanzati in Adobe Analytics.
+Utilizza la pagina Apprendimento in Adobe Analytics per scoprire funzioni e casi d’uso in Adobe Analytics a livello principiante, intermedio e avanzato.
 
-### Accedi alla pagina di apprendimento
+### Accedere alla pagina Apprendimento
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Workspace**] > [!UICONTROL **Apprendimento**].
 
 ### Funzioni della pagina di apprendimento
 
-* **Filtra contenuto:** L’icona Filtro nella barra a sinistra consente di filtrare i contenuti di apprendimento in base al livello di esperienza (Principiante, Intermedio o Avanzato) e al tipo di contenuto (Documento, Video o Tour e tutorial).
-* **Tracciare l’avanzamento:** Dopo aver selezionato un contenuto, **[!UICONTROL Viewed]** viene visualizzato. Questo tag consente di tenere traccia dei contenuti di apprendimento già visualizzati. È possibile selezionare **[!UICONTROL Viewed]** per rimuoverlo da un contenuto.
-* **Visualizza contenuto aggiuntivo:** Quando visualizzi un video, seleziona la **[!UICONTROL Learn more]** per visualizzare il contenuto della documentazione correlata su Experience League. In alternativa, dalla pagina Apprendimento, seleziona una delle seguenti opzioni per visualizzare contenuto aggiuntivo:
-   * **[!UICONTROL Visit YouTube]:** Visualizza la playlist Analysis Workspace YouTube completa.
+* **Filtrare i contenuti:** l’icona Filtro nella barra a sinistra consente di filtrare i contenuti di apprendimento in base al livello di esperienza (principiante, intermedio o avanzato) e al tipo di contenuto (documento, video o presentazione e tutorial).
+* **Tracciare l’avanzamento:** dopo aver selezionato una parte del contenuto, viene visualizzato un tag **[!UICONTROL Viewed]**. Questo tag consente di tenere traccia dei contenuti di apprendimento già visualizzati. È possibile selezionare il tag **[!UICONTROL Viewed]** per rimuoverlo da una parte del contenuto.
+* **Visualizza contenuto aggiuntivo:** quando visualizzi un video, seleziona il pulsante **[!UICONTROL Learn more]** per visualizzare il contenuto della documentazione correlata su Experience League. In alternativa, dalla pagina Apprendimento, seleziona una delle seguenti opzioni per visualizzare contenuto aggiuntivo:
+   * **[!UICONTROL Visit YouTube]:** visualizza la playlist di YouTube completa di Analysis Workspace.
    * [!UICONTROL **Visita Experience League**]: consulta la suite completa della documentazione di Adobe Analytics su Experience League.
-* **Nozioni di base per i nuovi utenti:** Il [!UICONTROL Workspace Fundamentals] la presentazione è consigliata per i nuovi utenti. Questa presentazione consente di accedere direttamente a Workspace e di eseguire le azioni più comuni. Questa presentazione può essere riavviata in qualsiasi momento in Workspace tramite la descrizione a comparsa accessibile dall’intestazione del pannello.
+* **Nozioni di base per i nuovi utenti:** La presentazione [!UICONTROL Workspace Fundamentals] è consigliata per i nuovi utenti. Questa presentazione consente di entrare direttamente in Workspace e di scoprire le azioni più comuni. Questa presentazione può essere riavviata in qualsiasi momento direttamente in Workspace tramite la descrizione a comparsa accessibile dall’intestazione del pannello.
 
 ## Impostare la pagina di destinazione {#set-landing}
 
