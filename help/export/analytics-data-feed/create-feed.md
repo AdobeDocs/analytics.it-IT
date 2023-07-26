@@ -3,9 +3,9 @@ title: Creare un feed di dati
 description: Scopri come creare un feed di dati.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '3156'
+source-wordcount: '3118'
 ht-degree: 3%
 
 ---
@@ -262,7 +262,6 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
          | [!UICONTROL **Nome account**] | Un nome per l’account. Può essere qualsiasi nome scelto. |
          | [!UICONTROL **Descrizione account**] | Descrizione dell&#39;account. |
          | [!UICONTROL **ID Progetto**] | ID progetto Google Cloud. Consulta la [Documentazione di Google Cloud sull’ottenimento di un ID progetto](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
-         | [!UICONTROL **Entità**] | L’entità è fornita dall’Adobe. Per ricevere i feed, è necessario concedere l&#39;autorizzazione a questa entità. Consulta la [Documentazione di Google Cloud sull’aggiunta di un’entità a un criterio](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-iam). |
 
          {style="table-layout:auto"}
 
@@ -317,6 +316,7 @@ Le informazioni seguenti forniscono informazioni di configurazione per ciascuna 
 I dati del feed dati possono essere inviati a un Adobe o a una posizione FTP ospitata dal cliente. Richiede un host FTP, un nome utente e una password. Utilizza il campo percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste.
 
 Per completare i campi disponibili, utilizza le seguenti informazioni:
+
 * [!UICONTROL **Host**]: immetti l’URL di destinazione FTP desiderato. Esempio: `ftp://ftp.omniture.com`.
 * [!UICONTROL **Percorso**]: può essere lasciato vuoto
 * [!UICONTROL **Nome utente**]: immetti il nome utente per accedere al sito FTP.

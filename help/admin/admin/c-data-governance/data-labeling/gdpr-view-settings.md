@@ -3,10 +3,10 @@ description: La finestra di dialogo Etichetta privacy per governance dei dati fo
 title: Visualizzazione/gestione delle etichette sulla privacy per la governance dei dati
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 42%
+source-wordcount: '845'
+ht-degree: 39%
 
 ---
 
@@ -21,11 +21,11 @@ Il **[!UICONTROL Privacy Labeling for Data Governance]** Questa finestra di dial
 
    >[!NOTE]
    >
-   >Se questa voce di menu non viene visualizzata, è necessario aggiungerla a un [profilo di prodotto in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=it) con autorizzazioni per questa funzionalità.
+   >Se questa voce di menu non viene visualizzata, è necessario aggiungerla a una [profilo di prodotto in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=it) dispone delle autorizzazioni necessarie per utilizzare questa funzionalità o ha avuto accesso a una suite di rapporti all’interno dell’Admin Console.
 
 3. In alto a destra, seleziona una suite di rapporti di cui desideri visualizzare o gestire le etichette sulla privacy.
 
-![](assets/privacy_labeling.png)
+   ![](assets/privacy_labeling.png)
 
 | Impostazione | Descrizione |
 | --- | --- |

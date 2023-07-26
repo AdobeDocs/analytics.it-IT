@@ -3,10 +3,10 @@ title: Autorizzazioni Adobe Analytics - tabelle di riepilogo
 description: Tabelle che riepilogano le autorizzazioni Adobe Analytics disponibili in Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 95%
+source-wordcount: '1302'
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ Utilizza le tabelle di riepilogo seguenti per identificare le autorizzazioni di 
 | Suite di rapporti (scrittura) |  |  |  | x | Non utilizzato. |
 | Site Catalyst |  |  |  | x | Non utilizzato. Al suo posto, utilizza “Accesso ad Analysis Workspace”. |
 | Social |  |  |  | x | Non utilizzato. |
-| Reportlet testo |  |  |  | x | Non utilizzato. |
+| Reportlet testo |  |  |   | x | Non utilizzato. |
 | Gestione traffico |  |  |  | x | Non utilizzato. |
 | Reportlet riepilogo utilizzo |  |  |  | x | Non utilizzato. |
 | Impostazioni video |  |  |  | x | Non utilizzato. |
@@ -88,6 +88,7 @@ Utilizza le tabelle di riepilogo seguenti per identificare le autorizzazioni di 
 | Supporto | x |  |  |  | Consente di accedere ad Admin > All admin > Company settings > Support Information (Amministrazione > Tutte le attività di amministrazione > Impostazioni società > Informazioni di supporto). |
 | Gestione traffico | x |  |  |  | Consente di accedere ad Admin > All admin > Traffic management (Amministrazione > Tutte le attività di amministrazione > Gestione traffico). |
 | Servizi web | x |  |  |  | Consente di accedere ad Admin > All admin > Company settings > Web Services (Amministrazione > Tutte le attività di amministrazione > Impostazioni società > Servizi web). |
+| Condividere Collegamenti Al Progetto Con Chiunque | x |  |  |  | Consente agli utenti di condividere con chiunque nell&#39;ambito di un progetto Workspace -> Condividere -> Condividere con chiunque. |
 | Activity Map |  | x |  |  | Consente di accedere a Tools > Activity Map (Strumenti > Activity Map). Consente di utilizzare l’estensione Activity Map. |
 | Utenti con licenza Ad Hoc Analysis |  | x |  |  | Ad Hoc Analysis è stato terminato. [Ulteriori informazioni](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Accesso ad Analysis Workspace |  | x |  |  | Consente di accedere ad Analysis Workspace. Per utilizzare Adobe Analytics, gli utenti devono appartenere a questo gruppo (preferito) o al gruppo Accesso a Reports &amp; Analytics. |
