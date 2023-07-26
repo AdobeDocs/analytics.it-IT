@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: bcef7aeffa28bd8c2fa2863c4dfb6e6cde15a469
 workflow-type: tm+mt
-source-wordcount: '4546'
+source-wordcount: '4554'
 ht-degree: 98%
 
 ---
@@ -26,7 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Luglio 2023** | |
-| API server di Adobe Experience Platform Edge Network | È stata aggiunta una documentazione più completa su quando e come implementare [API server di rete Edge di Adobe Experience Platform](../implement/aep-edge/server-api/overview.md). Ad esempio, quando implementi Adobe Analytics per applicazioni desktop, dispositivi IoT, set top box. |
+| API server di Adobe Experience Platform Edge Network | È stata aggiunta una documentazione più completa su quando e come implementare la raccolta dati con Adobe Analytics utilizzando [API server di rete Edge di Adobe Experience Platform](../implement/aep-edge/server-api/overview.md). Ad esempio, implementare la raccolta dati con Adobe Analytics nelle applicazioni desktop, nei dispositivi IoT e nei set top box. |
 | ID società globale | Documentato [come trovare l’ID società globale](../admin/admin/company/web-services-admin.md) per la società Analytics a cui hai effettuato l’accesso. Questo ID è richiesto per le API di Analytics 2.0. |
 | Limite di dimensioni FTP aggiornato | Il [limite predefinito per l’archiviazione dei dati FTP](/help/export/ftp-and-sftp/ftp-limits.md) è stato aggiornato a 100 GB. |
 | Nuova variabile AppMeasurement | La variabile `decodeLinkParameters` gestisce i casi edge in cui le implementazioni codificano caratteri multibyte nelle variabili di tracciamento dei collegamenti. [Ulteriori informazioni](../implement/vars/config-vars/decodelinkparameters.md) |
