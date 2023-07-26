@@ -1,18 +1,18 @@
 ---
 description: La sincronizzazione delle visualizzazioni consente di individuare la tabella dati o l’origine dati corrispondente a una visualizzazione.
 keywords: Analysis Workspace, sincronizzazione di una visualizzazione con un’origine dati
-title: Gestione delle origini dati a visualizzazione
+title: Gestire le origini dati delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: 0a253a7e0bd2e66ca30457bb435282ef700cec0f
+source-git-commit: de1ddbed4d455b6d05059e367369eb575a747971
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 97%
+source-wordcount: '567'
+ht-degree: 81%
 
 ---
 
-# Gestione delle origini dati a visualizzazione
+# Gestire le origini dati delle visualizzazioni
 
 La sincronizzazione delle visualizzazioni consente di individuare la tabella dati o l’origine dati corrispondente a una visualizzazione.
 
@@ -36,20 +36,20 @@ Ecco un video sulle seguenti impostazioni:
 
 | Elemento | Descrizione |
 | --- | --- |
-| Visualizzazioni collegate | Se sono presenti visualizzazioni collegate a una tabella a forma libera o di coorti, con il punto in alto a sinistra si apre l’elenco delle visualizzazioni collegate e una casella “mostra” permette di mostrare o nascondere la tabella. Passando il mouse sulla visualizzazione collegata questa viene evidenziata; facendo clic, viene aperta. |
+| Visualizzazioni collegate | Se sono presenti visualizzazioni collegate a una tabella a forma libera o a coorte, il punto in alto a sinistra si apre per elencare le visualizzazioni connesse e dispone di una casella di controllo &quot;mostra&quot; per mostrare o nascondere la tabella. Passando il mouse sulla visualizzazione collegata questa viene evidenziata; facendo clic, viene aperta. |
 | Mostra origine dati | Consente di mostrare (attivando la casella di controllo) o nascondere (disattivandola) la tabella di dati corrispondente alla visualizzazione. |
-| Blocca selezione | Selezionate questa impostazione per bloccare la visualizzazione ai dati attualmente selezionati nella tabella di dati corrispondente. Dopo aver abilitato questa impostazione, puoi scegliere tra:<ul><li>**Posizioni selezionate:** scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sulle posizioni selezionate nella tabella di dati corrispondente. Queste posizioni continueranno ad essere visualizzate, anche nel caso in cui cambiassero gli elementi specifici che occupano tali posizioni. Ad esempio, scegli questa opzione se vuoi visualizzare sempre i migliori cinque nomi di campagne in questa visualizzazione, a prescindere dal nome delle campagne che occupano le prime cinque posizioni.</li><li>**Elementi selezionati**: scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sugli elementi specifici selezionati nella tabella di dati corrispondente. Questi elementi continueranno a essere visualizzati, anche nel caso in cui cambiassero posizione in graduatoria rispetto agli altri elementi della tabella. Ad esempio, scegli questa opzione se vuoi visualizzare sempre gli stessi cinque nomi di campagne specifiche in questa visualizzazione, a prescindere dalla posizione in graduatoria delle campagne.</li></ul> |
+| Blocca selezione | Selezionate questa impostazione per bloccare la visualizzazione ai dati attualmente selezionati nella tabella di dati corrispondente. Dopo aver abilitato questa impostazione, puoi scegliere tra:<ul><li>**Posizioni selezionate:** scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sulle posizioni selezionate nella tabella di dati corrispondente. Queste posizioni continuano a essere visualizzate, anche se gli elementi specifici in queste posizioni cambiano. Ad esempio, scegli questa opzione se vuoi visualizzare sempre i migliori cinque nomi di campagne in questa visualizzazione, a prescindere dal nome delle campagne che occupano le prime cinque posizioni.</li><li>**Elementi selezionati**: scegli questa opzione se vuoi che la visualizzazione rimanga bloccata sugli elementi specifici selezionati nella tabella di dati corrispondente. Questi elementi continuano a essere visualizzati, anche se modificano la classificazione tra gli elementi della tabella. Ad esempio, scegli questa opzione se vuoi visualizzare sempre gli stessi cinque nomi di campagne specifiche in questa visualizzazione, a prescindere dalla posizione in graduatoria delle campagne.</li></ul> |
 
 A differenza dell’architettura precedente, con questa architettura Analysis Workspace non crea più un livello duplicato nascosto in cui viene memorizzata la selezione bloccata. Ora, l’origine dati fa riferimento alla tabella da cui è stata creata la visualizzazione.
 
 ## Esempi di casi d’uso
 
-* Puoi creare una visualizzazione di riepilogo e bloccarla su una cella nella tabella da cui l’hai creata. Quando abiliti l’opzione Mostra origine dati, viene mostrato esattamente da dove provengono i dati nella tabella. I dati origine sono visualizzati in grigio:
+* Puoi creare una visualizzazione di riepilogo e bloccarla su una cella nella tabella da cui l’hai creata. Quando abiliti l’opzione Mostra origine dati, viene mostrato esattamente da dove provengono i dati nella tabella. I dati di origine sono disattivati:
 
-   ![](assets/data-source2.png)>
+  ![](assets/data-source2.png)>
 * Puoi aggiungere numerose visualizzazioni, da diverse celle nella stessa tabella, come indicato di seguito. La tabella è la stessa dell’esempio precedente, ma la cella (e la metrica) di origine è diversa:
 
-   ![](assets/data-source3.png)>
-* Per vedere se esistono visualizzazioni collegate a una tabella a forma libera o di coorti, fai clic sul punto in alto a sinistra (Impostazioni origine dati). Passa il mouse sulla visualizzazione collegata per evidenziarla; fai clic per aprirla.
+  ![](assets/data-source3.png)>
+* Per verificare se sono presenti visualizzazioni collegate a una tabella a forma libera o a coorte, fai clic sul punto in alto a sinistra (Impostazioni origine dati). Passando il mouse sulla visualizzazione collegata questa viene evidenziata; facendo clic, viene aperta.
 
-   ![](assets/linked-visualizations.png)>
+  ![](assets/linked-visualizations.png)>
