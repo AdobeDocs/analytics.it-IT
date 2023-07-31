@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
 workflow-type: tm+mt
 source-wordcount: '4554'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,10 +27,10 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | --- | --- |
 | **Luglio 2023** | |
 | API server di Adobe Experience Platform Edge Network | È stata aggiunta una documentazione più completa su quando e come implementare la raccolta dati con Adobe Analytics utilizzando [API server di rete Edge di Adobe Experience Platform](../implement/aep-edge/server-api/overview.md). Ad esempio, implementare la raccolta dati con Adobe Analytics nelle applicazioni desktop, nei dispositivi IoT e nei set top box. |
-| ID società globale | Documentato [come trovare l’ID società globale](../admin/admin/company/web-services-admin.md) per la società Analytics a cui hai effettuato l’accesso. Questo ID è richiesto per le API di Analytics 2.0. |
+| ID azienda globale | È stato documentato [come trovare l’ID azienda globale](../admin/admin/company/web-services-admin.md) per l’azienda Analytics per la quale hai effettuato l’accesso. Questo ID è richiesto per le API Analytics 2.0. |
 | Limite di dimensioni FTP aggiornato | Il [limite predefinito per l’archiviazione dei dati FTP](/help/export/ftp-and-sftp/ftp-limits.md) è stato aggiornato a 100 GB. |
 | Nuova variabile AppMeasurement | La variabile `decodeLinkParameters` gestisce i casi edge in cui le implementazioni codificano caratteri multibyte nelle variabili di tracciamento dei collegamenti. [Ulteriori informazioni](../implement/vars/config-vars/decodelinkparameters.md) |
-| Configurazione delle posizioni di archiviazione dell’account cloud per l’acquisizione dei dati di classificazione | Ora puoi gestire le posizioni di archiviazione di account cloud utilizzate per l’automazione dei set di classificazione. [Ulteriori informazioni](/help/components/locations/configure-import-accounts.md) |
+| Configurazione delle posizioni di archiviazione di account cloud per l’acquisizione dei dati di classificazione | Ora puoi gestire le posizioni di archiviazione di account cloud utilizzate per l’automazione dei set di classificazione. [Ulteriori informazioni](/help/components/locations/configure-import-accounts.md) |
 | Miglioramenti alle operazioni di filtro per Data Repair | Sono stati aggiunti tre miglioramenti alle operazioni di filtro per Data Repair. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
 | **Giugno 2023** | |
 | Nuove funzioni per i set di classificazione | I [set di classificazione](/help/components/classifications/sets/overview.md) sono stati aggiornati con diverse nuove funzioni:<ul><li>**Consolidamenti**: combina i set di classificazione in un singolo set di classificazione consolidato. Il set di classificazione consolidato può essere utilizzato come gli altri set di classificazione oppure come set di dati di ricerca in Customer Journey Analytics. [Ulteriori informazioni](../components/classifications/sets/consolidations/manage.md)</li><li>**Regole**: classifica automaticamente i valori in base alle regole nel set di classificazione. [Ulteriori informazioni](../components/classifications/sets/manage/rules.md)</li><li>**Importazione automatica**: importa automaticamente i dati di classificazione dalle destinazioni dell’archiviazione cloud. [Ulteriori informazioni](../components/classifications/sets/manage/schema.md)</li></ul> |
