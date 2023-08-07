@@ -5,7 +5,7 @@ title: Creare collegamenti condivisibili
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
+source-git-commit: 9349883dc827eb73ee59e852d054091ade70999c
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 52%
@@ -20,7 +20,7 @@ Analysis Workspace offre diversi modi per condividere un progetto con gli utenti
 
 Per condividere un collegamento a un progetto, passa al progetto che desideri condividere, quindi seleziona Vai a [!UICONTROL **Condividi**] > [!UICONTROL **Condividi con gli utenti di Workspace**] > [!UICONTROL **Condividi tramite collegamento**]. Gli utenti con cui condividi il collegamento devono effettuare l’accesso.
 
-Se al destinatario del collegamento non è stato assegnato un [ruolo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it), gli amministratori ricevono **[!UICONTROL Can edit]** e i non amministratori ricevono **[!UICONTROL Can duplicate]** esperienze.
+Se al destinatario del collegamento non è stato assegnato un [ruolo progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it), gli amministratori ricevono **[!UICONTROL Edit original]** e i non amministratori ricevono **[!UICONTROL Edit copy]** esperienze.
 
 ## Ottieni un collegamento di sola lettura da condividere con chiunque
 
