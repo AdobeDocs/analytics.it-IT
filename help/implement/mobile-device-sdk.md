@@ -3,10 +3,10 @@ title: Implementazione di Analytics per dispositivi mobili
 description: Stabilire quale libreria mobile AppMeasurement utilizzare.
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: cf55284ec2fd01949107f8b16e25977fd80c758f
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 32%
+source-wordcount: '85'
+ht-degree: 44%
 
 ---
 
@@ -24,5 +24,5 @@ Per implementare Analytics per dispositivi mobili, utilizza l’SDK di Adobe Exp
 
 >[!CAUTION]
 >
->Il supporto per gli SDK della versione 4 per dispositivi mobili è terminato il 30 settembre 2020.
+>Il supporto per gli SDK della versione 4 per dispositivi mobili è terminato il 31 agosto 2021. Per ulteriori informazioni, consulta le domande frequenti relative alla [versione 4 degli SDK per dispositivi mobili](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/).
 
