@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf111fc5529692283bf6b341655e80498107633b
+source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
-source-wordcount: '4838'
+source-wordcount: '4822'
 ht-degree: 94%
 
 ---
@@ -45,7 +45,6 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Documentazione di Deep Linking (app mobile) | Consente agli utenti di inviare collegamenti alle scorecard che li porteranno direttamente al progetto della scorecard nell’app. [Ulteriori informazioni](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Documentazione della schermata Home aggiornata per l’app delle dashboard di Analytics (app mobile) | La nuova schermata Home aggiornata consente di visualizzare tutte le scorecard in un unico elenco consolidato. [Ulteriori informazioni](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Icone Spectrum | Sono state sostituite, dove necessario, le schermate delle icone dell’interfaccia utente nella documentazione con riferimenti alle icone equivalenti in [Sistema di progettazione Spectrum di Adobe](https://spectrum.adobe.com/page/icons/). |
-| Mappatura IP-geolocalizzazione migliorata | È stato creato un argomento su [Domande frequenti](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=it). |
 | Reporting Activity Manager | È stata aggiornata questa documentazione Beta, in particolare la sezione su [Visualizzazione dell’attività di reporting per le singole suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=it#view-reporting-activity-for-individual-report-suites). |
 | Panoramica di Analysis Workspace | È stata aggiornata la [panoramica di Analysis Workspace](/help/analyze/analysis-workspace/home.md), che ora include informazioni generali di panoramica e collegamenti ai contenuti pertinenti. |
 | Creare progetti | È stato pubblicato un nuovo articolo che spiega in dettaglio come [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
