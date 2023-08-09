@@ -5,9 +5,9 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '444'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,7 @@ Il modulo filtro selezionato viene popolato in base all’elemento e alla metric
 
 Informazioni sui filtri in **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** pannello.
 
-![](/help/admin/admin/assets/filter.png)
+![Schermata che mostra la finestra di dialogo Definisci filtro con le opzioni di Filtro per applicazione, utente e progetto.](/help/admin/admin/assets/filter.png)
 
 Le tabelle seguenti forniscono esempi e informazioni sui filtri:
 

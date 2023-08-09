@@ -5,22 +5,22 @@ uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
 role: User, Admin
 exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '225'
 ht-degree: 6%
 
 ---
 
 # Autorizzazioni di accesso utente per dimensioni e metriche
 
-Adobe Report Builder ora dispone di impostazioni di autorizzazione simili a quelle degli Strumenti di amministrazione di Analytics.
+Adobe Report Builder offre impostazioni di autorizzazione simili a quelle degli strumenti di amministrazione di Analytics.
 
 In qualità di utente non amministratore, potresti aver creato in precedenza cartelle di lavoro con richieste che puntano a dimensioni e metriche a cui non hai accesso. Queste autorizzazioni vengono ora applicate.
 
-Ad esempio, se aggiorni una richiesta che include dimensioni o metriche a cui non hai accesso, riceverai un Errore di autorizzazione limitata:
+Ad esempio, se aggiorni una richiesta che include dimensioni o metriche a cui non hai accesso, riceverai un Errore di autorizzazione limitata. Il messaggio di errore indica che una richiesta non è disponibile per l’account utente a causa di autorizzazioni amministrative.
 
-![](assets/arb_restrc_perm.png)
+![Schermata che mostra il messaggio di errore Autorizzazione limitata.](assets/arb_restrc_perm.png)
 
 Seguire queste istruzioni per **ogni** Cartella di lavoro di Report Builder gestita:
 

@@ -4,10 +4,10 @@ title: Metriche calcolate
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 18%
+source-wordcount: '399'
+ht-degree: 16%
 
 ---
 
@@ -25,13 +25,13 @@ Nel passaggio 2 della Creazione guidata richieste, puoi filtrare e applicare le 
 
 ## Filtrare le metriche calcolate {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtro** metriche calcolate facendo clic sull’icona Filtro:  ![](/help/admin/admin/assets/filter.png)
+**Filtro** metriche calcolate facendo clic sull’icona Filtro:  ![Schermata delle opzioni del filtro che mostra i campi Applicazione, Utente e Progetto.](/help/admin/admin/assets/filter.png)
 
-. La finestra di dialogo Filtri avanzati è compilata con metriche standard e calcolate.
+La finestra di dialogo Filtri avanzati è compilata con metriche standard e calcolate.
 
 I filtri disponibili includono:
 
-![](assets/advanced_filters.png)
+![Schermata che mostra le opzioni Advanced Filters descritte nella tabella seguente.](assets/advanced_filters.png)
 
 | Nome filtro | Descrizione |
 |---|---|
@@ -47,4 +47,4 @@ I filtri disponibili includono:
 
 Dopo aver selezionato i filtri, fai clic su **[!UICONTROL Apply]** per applicarli alla tua richiesta. Le metriche selezionate vengono ora aggiunte al layout del rapporto.
 
-![](assets/filtering_for_metric.png)
+![Schermata che mostra il Passaggio 2 della Creazione guidata richieste: Totali sito che punta alla finestra Filtri avanzati e metriche di rapporto applicate.](assets/filtering_for_metric.png)

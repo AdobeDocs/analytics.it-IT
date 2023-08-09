@@ -4,10 +4,10 @@ title: Gestire i segmenti (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 7%
+source-wordcount: '986'
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ Come aggiungere, modificare, applicare e filtrare segmenti di Adobe Analytics ne
 
 Nel passaggio 1 della Creazione guidata richieste, il Report Builder dispone di un pannello di segmentazione che consente di creare e gestire i segmenti.
 
-![](assets/seg_dialog.png)
+![Schermata che mostra le opzioni Segmento per Aggiungere, Modificare o Cancellare segmenti ed evidenzia le icone Controllo, Filtro e Aggiorna.](assets/seg_dialog.png)
 
 ## Aggiungere o modificare segmenti {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -36,12 +36,12 @@ Nel passaggio 1 della Creazione guidata richieste, il Report Builder dispone di 
 
 ## Creare segmenti nel contesto {#section_6DD2C663B2854469AA1075438F907678}
 
-Puoi avere combinazioni specifiche di dimensioni di rapporto che desideri trasformare in un segmento. Puoi creare questi segmenti dall’interfaccia di Report Builder. Ad esempio, seleziona alcune pagine dall’output di una richiesta di pagina e crea un segmento basato su questi valori.
+È possibile che siano presenti combinazioni specifiche di dimensioni report da trasformare in un segmento. Puoi creare questi segmenti dall’interfaccia di Report Builder. Ad esempio, seleziona alcune pagine dall’output di una richiesta di pagina e crea un segmento basato su questi valori.
 
 1. Seleziona gli elementi di output del rapporto che desideri trasformare in un segmento.
 1. Fai clic con il pulsante destro del mouse per selezionare **[!UICONTROL Create In-Context Segment in]** e specifica il contenitore corretto (Contenitore Hit, Contenitore Visite, Contenitore Visitatore).
 
-   ![](assets/seg_in_context.png)
+   ![Schermata che mostra l’opzione Crea segmento nel contesto nelle opzioni contenitore selezionate e disponibili.](assets/seg_in_context.png)
 
    Per ulteriori informazioni sui contenitori, vedi [Guida alla segmentazione](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 
@@ -58,9 +58,9 @@ Puoi applicare uno o più segmenti a una determinata richiesta. Sono inclusi i s
 
 1. Vai a **[!UICONTROL Segment]** e fare clic sulla piccola freccia in giù nell&#39; **[!UICONTROL Choose Segment]** per visualizzare tutti i segmenti.
 
-   ![](assets/seg_list.png)
+1. Seleziona i segmenti da applicare.
 
-2. Seleziona i segmenti da applicare.
+   ![Schermata che mostra i segmenti selezionati.](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -88,18 +88,20 @@ L&#39;aggiunta di un controllo segmento consente di cambiare i segmenti all&#39;
 
 1. Fai clic sull’icona Controllo ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) accanto al menu a discesa segmento.
 
-   ![](assets/seg_control.png)
+1. Selezionare tutti i segmenti che si desidera visualizzare nel controllo segmento oppure selezionare **[!UICONTROL Select All]**.
 
-2. Selezionare tutti i segmenti che si desidera visualizzare nel controllo segmento oppure selezionare **[!UICONTROL Select All]**.
-3. Osserva l’opzione **[!UICONTROL Automatically refresh linked requests upon item selection]**.
+   ![Schermata della finestra di dialogo Impostazioni controllo con tutte le impostazioni selezionate.](assets/seg_control.png)
+
+1. Osserva l’opzione **[!UICONTROL Automatically refresh linked requests upon item selection]**.
 
    * Se questa opzione è selezionata, tutte le richieste che utilizzano questo controllo vengono aggiornate.
    * Se non è selezionata, i parametri di richiesta associati vengono aggiornati, ma le richieste non vengono aggiornate.
 
-4. Specificare la posizione della cella superiore sinistra del controllo segmento.
-5. Clic **[!UICONTROL OK]** e il controllo segmento viene visualizzato nella posizione specificata.
+1. Specificare la posizione della cella superiore sinistra del controllo segmento.
 
-   ![](assets/seg_control2.png)
+1. Clic **[!UICONTROL OK]** e il controllo segmento viene visualizzato nella posizione specificata.
+
+   ![Schermata che mostra il campo a discesa Scegli segmento.](assets/seg_control2.png)
 
 ## Aggiorna l’elenco dei segmenti {#section_22E4A86789444B4A998532396B476EFB}
 
@@ -114,7 +116,7 @@ Il Report Builder 5.4 consente di aggiungere, rimuovere e sostituire tutti i seg
 1. Selezionare più richieste in una cartella di lavoro.
 1. Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **[!UICONTROL Edit Requests]** > **[!UICONTROL By Segment]**.
 
-   ![](assets/edit_by_segment.png)
+   ![Schermata che mostra le richieste di modifica e per segmento selezionate.](assets/edit_by_segment.png)
 
 1. Nella finestra di dialogo Modifica gruppo, selezionate una delle quattro opzioni seguenti:
 

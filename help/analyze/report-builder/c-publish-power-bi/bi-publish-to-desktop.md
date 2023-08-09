@@ -4,10 +4,10 @@ title: Estrarre risorse pubblicate in Power BI Desktop
 feature: Report Builder
 role: User, Admin
 exl-id: ce6020df-caf4-4cd2-8086-4357309e5bbb
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 9%
+source-wordcount: '182'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ Spiega come estrarre in Power BI Desktop le risorse pubblicate dal Report Builde
 Nell’aggiornamento di aprile 2017 di Power BI Desktop, Microsoft ha rilasciato la possibilità di connettersi ai set di dati nel servizio Power BI. Questa funzione consente di creare nuovi rapporti di set di dati esistenti già pubblicati nel cloud. Puoi sfruttare questa funzione per collaborare meglio e ridurre le attività duplicate all’interno del team.
 
 1. In Power BI Desktop, vai a **[!UICONTROL File]** > **[!UICONTROL Options and settings]** > **[!UICONTROL Options]** > **[!UICONTROL Preview features.]**
-1. Abilita **[!UICONTROL Power BI Service Live Connection]** e fai clic su **[!UICONTROL OK]**. ![](assets/bi-preview-features.png)
+1. Abilita **[!UICONTROL Power BI Service Live Connection]** e fai clic su **[!UICONTROL OK]**. ![Fare clic su Power BI Service Live Connection e quindi su OK. ](assets/bi-preview-features.png)
 
 1. Riavviare Power BI Desktop.
 1. Dopo aver riavviato il desktop, passare a **[!UICONTROL Home]** > **[!UICONTROL Get Data]** > **[!UICONTROL More...]**.

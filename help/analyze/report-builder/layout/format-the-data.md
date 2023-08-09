@@ -1,14 +1,14 @@
 ---
-description: Oltre alle opzioni di formattazione standard delle celle disponibili tramite la funzione Formato > Celle di Excel (Ctrl+1), è possibile applicare una formattazione limitata agli intervalli di celle con Report Builder. Queste scelte di formattazione dipendono dalla metrica scelta.
-title: Formattare la data
+description: Scopri come applicare la formattazione standard e limitata agli intervalli di celle.
+title: Come formattare la data nel Report Builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 6%
+source-wordcount: '245'
+ht-degree: 5%
 
 ---
 

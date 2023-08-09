@@ -4,9 +4,9 @@ title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '363'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 Nella maschera Creazione guidata richieste: passaggio 1 selezionare la suite di rapporti, il tipo di rapporto, i segmenti e le date di configurazione.
 
-![](assets/rw1_overview.png)
+![Schermata che mostra il modulo Creazione guidata richieste: passaggio 1.](assets/rw1_overview.png)
 
 1. **[!UICONTROL Report Suite]**: elenco delle suite di rapporti disponibili in base alle credenziali di accesso. Consulta [Selezionare suite di rapporti](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 

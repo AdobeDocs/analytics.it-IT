@@ -1,14 +1,14 @@
 ---
-description: Copiare un foglio di calcolo in un altro nella stessa cartella di lavoro.
-title: Copiare dei fogli di lavoro
+description: Scopri come copiare un foglio di calcolo in un altro nella stessa cartella di lavoro.
+title: Come copiare i fogli di lavoro nel Report Builder
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder
 role: User, Admin
 exl-id: 51785d9a-fdd1-42f1-8f44-4ca135d97d99
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 3%
+source-wordcount: '131'
+ht-degree: 1%
 
 ---
 

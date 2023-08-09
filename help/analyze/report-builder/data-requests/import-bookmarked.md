@@ -4,9 +4,9 @@ title: Importare rapporti con segnalibri e minirapporti dashboard
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '350'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ Quando si seleziona un rapporto con segnalibro, la Creazione guidata richieste p
 
 Il passaggio 1 della Creazione guidata richieste mostra un dashboard e i relativi reportlet in questo modo:
 
-![](assets/import_dashboard_reportlet.png)
+![Schermata che mostra il Passaggio 1 di 2 della Creazione guidata richieste evidenziando Recupera dashboard e Recupera segnalibri.](assets/import_dashboard_reportlet.png)
 
 Quando fai clic su **[!UICONTROL Retrieve your Dashboards]** o **[!UICONTROL Retrieve your Bookmarks]**, i dati del dashboard e/o segnalibro esistenti vengono recuperati e incollati nel foglio di lavoro.
 

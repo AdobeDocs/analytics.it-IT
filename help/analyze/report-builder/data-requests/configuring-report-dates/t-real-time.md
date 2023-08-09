@@ -5,10 +5,10 @@ uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 9%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ Per configurare le date di richiesta in tempo reale:
 
 1. Seleziona un intervallo di tempo in minuti o ore.
 
-   ![Risultato del passaggio](assets/real_time_select_date.png)
+   ![Schermata che mostra le opzioni Seleziona intervallo di tempo con Ultimi 60 minuti selezionate.](assets/real_time_select_date.png)
 
    Il reporting in tempo reale è disponibile solo per le ultime 20 ore. Per la granularità, puoi scegliere tra una granularità di 1 minuto e 30 minuti.
 1. Clic **[!UICONTROL Next]** e continua [configurazione del layout della richiesta](/help/analyze/report-builder/layout/layout.md).

@@ -1,22 +1,27 @@
 ---
-description: Copiare un intero foglio di calcolo in una cartella di lavoro di origine in un foglio di calcolo in una o più cartelle di lavoro di destinazione.
-title: Copiare richieste e fogli di lavoro tra le cartelle di lavoro
+description: Scopri come copiare un foglio di calcolo da una cartella di lavoro di origine a una o più cartelle di lavoro di destinazione.
+title: Come copiare richieste e fogli di lavoro tra le cartelle di lavoro
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 3%
+source-wordcount: '369'
+ht-degree: 1%
 
 ---
 
 # Copiare richieste e fogli di lavoro tra le cartelle di lavoro
 
-Copiare un intero foglio di calcolo in una cartella di lavoro di origine in un foglio di calcolo in una o più cartelle di lavoro di destinazione.
+Copiare un intero foglio di calcolo in una cartella di lavoro di origine in un foglio di calcolo in una o più cartelle di lavoro di destinazione. A tale scopo, è necessario che nella stessa istanza di Excel siano aperte almeno due cartelle di lavoro:
+* La prima cartella di lavoro di origine contiene un foglio di calcolo (foglio di lavoro) con richieste mappate alle celle.
+* Le altre cartelle di lavoro di destinazione sono le destinazioni. Per ogni nuova cartella di lavoro di destinazione, è necessario accedere alla stessa suite di rapporti della cartella di lavoro di origine prima di poter incollare fogli di calcolo contenenti richieste.
 
-A tale scopo, è necessario che nella stessa istanza di Excel siano aperte almeno due cartelle di lavoro: la prima cartella di lavoro di origine contiene un foglio di calcolo (foglio di lavoro) con richieste mappate alle celle, mentre le altre cartelle di lavoro di destinazione sono le destinazioni. Per ogni nuova cartella di lavoro di destinazione, è necessario accedere alla stessa suite di rapporti della cartella di lavoro di origine prima di poter incollare fogli di calcolo contenenti richieste.
+>[!NOTE]
+>
+>È necessario accedere alla cartella di lavoro di destinazione utilizzando la stessa suite di rapporti della cartella di lavoro di origine. Le richieste in entrambe le cartelle di lavoro devono essere create utilizzando lo stesso accesso alla suite di rapporti.
+
 1. Fare clic con il pulsante destro del mouse sul foglio di calcolo nella cartella di lavoro di origine e selezionare **[!UICONTROL Copy Worksheet w/Requests]**.
 1. Nella cartella di lavoro di destinazione, fai clic con il pulsante destro del mouse sul foglio di calcolo e seleziona **[!UICONTROL Paste Worksheet w/Requests]**.
 

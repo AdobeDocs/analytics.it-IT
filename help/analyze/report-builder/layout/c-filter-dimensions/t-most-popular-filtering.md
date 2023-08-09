@@ -5,10 +5,10 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 2%
+source-wordcount: '544'
+ht-degree: 1%
 
 ---
 
@@ -16,15 +16,16 @@ ht-degree: 2%
 
 Classificazione e filtri condizionali configurati utilizzando logica booleana con espressioni di ricerca AND/OR.
 
-I filtri più comuni sono filtri di espressione configurati utilizzando una logica booleana con condizioni AND/OR, ad esempio [!UICONTROL Page does not contain]*`<product name>`*con condizioni o gruppi di condizioni come [!UICONTROL Includes All], [!UICONTROL Includes Any], o [!UICONTROL Excludes All]. È possibile [salva](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md) espressioni per altre richieste in questa cartella di lavoro o in altre cartelle di lavoro.
+I filtri più comuni sono filtri di espressione configurati utilizzando logica booleana con condizioni AND/OR, ad esempio [!UICONTROL Page does not contain]*`<product name>`*con condizioni o gruppi di condizioni come [!UICONTROL Includes All], [!UICONTROL Includes Any], o [!UICONTROL Excludes All]. È possibile [salva](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md) espressioni per altre richieste in questa cartella di lavoro o in altre cartelle di lavoro.
 
 **Per creare un filtro Più popolare**
 
 1. Creare o modificare una richiesta e passare alla [!UICONTROL Request Wizard: Step 2].
 
-   ![Informazioni sul passaggio](/help/admin/admin/assets/filter.png)
-
 1. Il giorno [!UICONTROL Request Wizard: Step 2], fai clic sul collegamento accanto alla dimensione nella griglia, quindi scegli **[!UICONTROL Filter]**.
+
+   ![Schermata che mostra la finestra di dialogo Definisci filtro con le opzioni di Filtro per applicazione, utente e progetto.](/help/admin/admin/assets/filter.png)
+
 1. Il giorno [!UICONTROL Choose Page] form, abilita **[!UICONTROL Most Popular]**, quindi configura le seguenti opzioni:
 
    **Classificazione iniziale:** Grado iniziale di una dimensione. Una classificazione predefinita pari a 1 indica la voce principale nell’elenco dei dati segnalati. Ad esempio, per la dimensione [!UICONTROL Page], un segno di inizio pari a 1 indica la singola pagina più richiesta del sito. È possibile specificare 10 o un altro valore come cella di rango iniziale, che produce un rapporto che inizia con 10 come cella di rango superiore. Le metriche sono disposte in ordine decrescente, in modo che gli elementi di riga con l’attività più importante vengano segnalati per primi nell’elenco. Se una richiesta richiede più di 50.000 nomi di pagina, ma sono presenti migliaia di pagine sulle quali eseguire il rapporto, puoi copiare la richiesta e modificare la classificazione iniziale per recuperare i dati appropriati in blocchi di 50.000.
@@ -39,17 +40,18 @@ I filtri più comuni sono filtri di espressione configurati utilizzando una logi
 
 1. Per creare un&#39;espressione di ricerca, fare clic su **[!UICONTROL Add]**.
 
-   ![Informazioni sul passaggio](assets/expressions_define_filter.png)
-
 1. Il giorno [!UICONTROL Define Filter] , configura le condizioni appropriate alle tue esigenze.
 
-   ![select_cell_icon.png](assets/select_cell_icon.png): consente di individuare una condizione definita nel valore di una cella.
 
-   **Aggiungi condizione:** Aggiunge una condizione all&#39;espressione. Non esiste alcun limite al numero di condizioni che è possibile aggiungere.
+   ![Schermata che mostra la finestra di dialogo Definisci filtro.](assets/expressions_define_filter.png)
+
+   L’icona di selezione della cella ti consente di individuare una condizione definita nel valore di una cella. ![Icona di selezione cella.](assets/select_cell_icon.png)
+
+   Il **Aggiungi condizione** consente di aggiungere una condizione all’espressione. Non esiste alcun limite al numero di condizioni che è possibile aggiungere.
 
 1. Fai clic su **[!UICONTROL OK]** (Usa modello di attribuzione non predefinito).
 
-   ![Informazioni sul passaggio](assets/choose_page_02.png)
+   ![Schermata della finestra di dialogo Definisci filtro con il pulsante OK in basso a destra.](assets/choose_page_02.png)
 
 1. Il giorno [!UICONTROL Choose Page] form, fai clic su **[!UICONTROL Save]** per salvare l&#39;espressione.
 1. Fai clic su **[!UICONTROL OK]** (Usa modello di attribuzione non predefinito).

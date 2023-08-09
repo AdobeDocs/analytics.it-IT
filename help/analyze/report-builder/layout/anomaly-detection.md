@@ -1,13 +1,13 @@
 ---
-description: Il rilevamento delle anomalie utilizza la modellazione statistica per trovare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un limite inferiore, un limite superiore e un intervallo di valori previsto. Quando si verifica un picco o una caduta imprevista, il sistema ti avvisa nel rapporto.
-title: Rilevamento delle anomalie
+description: Scopri Rilevamento delle anomalie e come viene calcolato.
+title: Come viene utilizzato il rilevamento delle anomalie per trovare automaticamente le tendenze
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
 role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '490'
 ht-degree: 7%
 
 ---

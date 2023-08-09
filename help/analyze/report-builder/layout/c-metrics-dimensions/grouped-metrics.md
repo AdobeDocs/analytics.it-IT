@@ -5,19 +5,17 @@ uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 feature: Report Builder
 role: User, Admin
 exl-id: 4b26df2e-22c5-435a-815b-fc3d36d5ed02
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 18%
+source-wordcount: '85'
+ht-degree: 21%
 
 ---
 
 # Combinare le metriche del traffico e del commercio nella stessa richiesta
 
-Ora puoi combinare questi due tipi di metrica in un’unica e medesima richiesta, invece di dover creare richieste separate.
+È possibile combinare i tipi di metrica del traffico e del commercio in una richiesta invece di creare richieste separate.
 
-Le metriche del traffico e del commercio vengono ora visualizzate nella stessa categoria di metriche nel passaggio 2 della Richiesta guidata. In precedenza, queste metriche erano separate in una categoria Commerce e una categoria Traffic.
+Le metriche del traffico e del commercio vengono visualizzate nella stessa categoria di metriche nella Richiesta guidata: passaggio 2. La categoria raggruppata è etichettata **[!UICONTROL Standard]**.
 
-La nuova categoria raggruppata è etichettata **[!UICONTROL Standard]**. .
-
-![](assets/standard_metrics.png)
+![Schermata della Richiesta guidata: Passaggio 2 Elenco delle metriche standard.](assets/standard_metrics.png)

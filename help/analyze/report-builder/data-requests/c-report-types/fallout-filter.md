@@ -4,10 +4,10 @@ title: Filtrare un rapporto di fallout mediante la Creazione guidata richieste
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 11%
+source-wordcount: '221'
+ht-degree: 9%
 
 ---
 
@@ -21,13 +21,13 @@ Questo esempio mostra il rapporto Fallout pagina.
 1. Seleziona la suite di rapporti corretta.
 1. Nella struttura a sinistra, seleziona **[!UICONTROL Paths]** > **[!UICONTROL Page]** > **[!UICONTROL Page Fallout]**.
 
-   ![](assets/page_fallout.png)
+   ![Schermata che mostra la struttura ad albero di Windows per la directory di Report Builder. Abbandono pagina è selezionato.](assets/page_fallout.png)
 
 1. Configura l’appropriato [intervalli di date](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
 1. Fai clic su **[!UICONTROL Next]** (Usa modello di attribuzione non predefinito).
 1. Nel passaggio 2 della procedura guidata, sotto **[!UICONTROL Row Labels]**, fare clic su **[!UICONTROL Define Checkpoints]** collegamento. In un rapporto di fallout, è sempre necessario definire gli elementi del percorso, a differenza di un rapporto di percorso, in cui un pattern è preapplicato.
 
-   ![](assets/define_checkpoints.png)
+   ![Schermata che mostra il collegamento Definisci punti di controllo.](assets/define_checkpoints.png)
 
 1. Seleziona l&#39;opzione **[!UICONTROL Filter]**.
 

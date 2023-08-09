@@ -5,10 +5,10 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 2%
+source-wordcount: '308'
+ht-degree: 1%
 
 ---
 
@@ -22,17 +22,19 @@ Puoi eseguire ricerche su elementi dimensionali specifici creando un filtro che 
 
 1. Creare o modificare una richiesta e passare alla [!UICONTROL Request Wizard: Step 2].
 
-   ![Risultato del passaggio](/help/admin/admin/assets/filter.png)
+   ![Schermata che mostra le opzioni Filtra per: Applicazione, Utente e Progetto.](/help/admin/admin/assets/filter.png)
 
 1. Il giorno [!UICONTROL Request Wizard: Step 2], fai clic sul collegamento accanto alla dimensione nella griglia, quindi scegli **[!UICONTROL Filter]**.
 
-   ![Risultato del passaggio](assets/choose_page_specific01.png)
+1. Abilita **[!UICONTROL Specific]**.
 
-1. Abilita **[!UICONTROL Specific]**, quindi attiva una delle seguenti opzioni:
+   ![Schermata della finestra di dialogo Scegli pagina con l’opzione Specifico selezionata.](assets/choose_page_specific01.png)
+
+1. Abilita una delle seguenti opzioni specifiche:
 
    * **Da intervallo di celle:** Consente di selezionare i dati dalle celle. Puoi selezionare:
-   * **Tutte le celle nell&#39;intervallo:** Consente di mappare ogni cella dell’intervallo. Il testo descrittivo spiega il numero di gruppi di celle da selezionare. Per eseguire il mapping di più gruppi di celle, premere il tasto Ctrl mentre si effettuano selezioni successive. Se l’intervallo da mappare contiene una sola cella, questa è l’unica opzione disponibile
-   * **Prima cella dell&#39;intervallo:** È sufficiente selezionare la cella superiore sinistra dell&#39;intervallo e quindi scegliere una direzione per i dati. Inoltre, se la richiesta ha più periodi, è possibile scegliere la direzione dei periodi e scegliere se si desidera saltare un numero impostato di celle tra i periodi.
+      * **Tutte le celle nell&#39;intervallo:** Consente di mappare ogni cella dell’intervallo. Il testo descrittivo spiega il numero di gruppi di celle da selezionare. Per eseguire il mapping di più gruppi di celle, premere il tasto Ctrl mentre si effettuano selezioni successive. Se l’intervallo da mappare contiene una sola cella, questa è l’unica opzione disponibile
+      * **Prima cella dell&#39;intervallo:** È sufficiente selezionare la cella superiore sinistra dell&#39;intervallo e quindi scegliere una direzione per i dati. Inoltre, se la richiesta ha più periodi, è possibile scegliere la direzione dei periodi e scegliere se si desidera saltare un numero impostato di celle tra i periodi.
    * **Dall&#39;elenco:** Consente di selezionare i dati da un elenco a cui è possibile aggiungere dati.
 1. Se si abilita **[!UICONTROL From List]**, seleziona gli elementi elencati disponibili o fai clic su **[!UICONTROL Add]**.
 

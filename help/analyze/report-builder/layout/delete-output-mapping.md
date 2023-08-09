@@ -1,14 +1,14 @@
 ---
-description: Se si modifica la cartella di lavoro e si desidera fare spazio per nuove richieste, potrebbe essere necessario eliminare le richieste.
-title: Eliminare la mappatura output
+description: Scopri come modificare una cartella di lavoro per liberare spazio per le nuove richieste eliminando le richieste.
+title: Come eliminare la mappatura di output
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
 role: User, Admin
 exl-id: 88afef3b-1559-453b-a8e2-7251ef8c82ec
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 4%
+source-wordcount: '119'
+ht-degree: 2%
 
 ---
 

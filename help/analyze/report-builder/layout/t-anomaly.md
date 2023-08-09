@@ -1,20 +1,20 @@
 ---
-description: Passaggi che descrivono come creare una richiesta di rilevamento delle anomalie in Report Builder.
-title: Configurare una richiesta di rilevamento delle anomalie
+description: Scopri come creare una richiesta di rilevamento delle anomalie in Report Builder.
+title: Come configurare una richiesta di rilevamento delle anomalie
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 9%
+source-wordcount: '169'
+ht-degree: 3%
 
 ---
 
 # Configurare una richiesta di rilevamento delle anomalie
 
-Per creare una richiesta di rilevamento delle anomalie in Report Builder:
+Per creare una richiesta di rilevamento delle anomalie nel Report Builder:
 
 1. Seleziona un rapporto con tendenze, ad esempio **[!UICONTROL Site Metrics]** > **[!UICONTROL Traffic]** rapporto.
 1. In [!UICONTROL Apply Granularity] menu, seleziona **[!UICONTROL Day]**.
@@ -25,15 +25,15 @@ Per creare una richiesta di rilevamento delle anomalie in Report Builder:
 
 1. Dopo aver configurato gli intervalli di date, fai clic su **[!UICONTROL Next]**.
 
-   Risultato passaggio 1. Nella Creazione guidata richieste: passaggio 2 di 2, aggiungi una metrica, ad esempio **[!UICONTROL Visits]**.
+   Nella Creazione guidata richieste: passaggio 2 di 2, aggiungi una metrica, ad esempio **[!UICONTROL Visits]**.
 
-   Risultato passaggio 1. Per la metrica aggiunta, fai clic su **[!UICONTROL None]** collegamento.
+   Per la metrica aggiunta, fai clic su **[!UICONTROL None]** collegamento.
 
-   ![Risultato del passaggio](assets/anomaly_select.png)
+   ![Schermata che mostra il rilevamento delle anomalie, quindi Inserisci e inserire le opzioni per Limite inferiore e superiore e previsto.](assets/anomaly_select.png)
 
 1. Seleziona **[!UICONTROL Anomaly Detection]** > **[!UICONTROL `<selection>`]**.
 
-   ![Informazioni sul passaggio](assets/anomaly_visit.png)
+   ![Schermata che mostra il Passaggio 2 della Creazione guidata richieste - Rapporto traffico.](assets/anomaly_visit.png)
 
    Quando selezionate una di queste opzioni, il sistema crea copie della metrica originale con Rilevamento anomalie. Ad esempio, per la metrica Visita, una metrica Visita con limite inferiore viene aggiunta al [!UICONTROL Metric] gruppo.
 1. Clic **[!UICONTROL Finish]** e selezionare la cella per l&#39;output in Excel.

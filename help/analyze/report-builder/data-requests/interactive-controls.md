@@ -4,9 +4,9 @@ title: Controlli interattivi
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '576'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,6 @@ I controlli interattivi sono stati creati in risposta a un flusso di lavoro comu
 >* Se si esegue Excel su Mac, la modifica del valore nel controllo causerà la visualizzazione del seguente messaggio: &quot;Impossibile trovare la macro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39;.&quot;
 >
 
-
 >[!WARNING]
 >
 >Non manomettere il nome del controllo. Per visualizzare il nome, impostare lo stato attivo sul controllo e il nome del controllo viene visualizzato a destra sopra la griglia di Excel, nell&#39;angolo superiore sinistro.
@@ -37,11 +36,11 @@ I controlli interattivi sono stati creati in risposta a un flusso di lavoro comu
 1. Nel passaggio 1 della Creazione guidata richieste selezionare, ad esempio, **[!UICONTROL Page]** rapporto.
 1. Accanto al **[!UICONTROL Commonly Used Dates]** , fai clic sul pulsante **[!UICONTROL Control Settings]** icona:
 
-   ![](assets/date_range_control.png)
+   ![Schermata del Passaggio 1 della Creazione guidata richieste che evidenzia l&#39;icona Impostazioni controllo. ](assets/date_range_control.png)
 
 1. Nella finestra di dialogo Impostazioni controllo selezionare tutti gli elementi dell&#39;intervallo di date che si desidera visualizzare nel controllo interattivo. Specificare inoltre la posizione della cella superiore sinistra del controllo.
 
-   ![](assets/control_settings.png)
+   ![Schermata che mostra gli elementi di intervallo date selezionati e la posizione della cella in alto a sinistra.](assets/control_settings.png)
 
 1. Osserva l’opzione &quot;Aggiorna automaticamente le richieste collegate alla selezione dell’elemento&quot;.
 
@@ -50,18 +49,19 @@ I controlli interattivi sono stati creati in risposta a un flusso di lavoro comu
 
 1. Fai clic su **[!UICONTROL OK]**. Il controllo viene visualizzato nella posizione della cella specificata:
 
-   ![](assets/date_range_control_interactive.png)
-
 1. Ora puoi modificare l’intervallo di date e la richiesta verrà aggiornata con tale intervallo.
+
+   ![Schermata che mostra l’intervallo di date selezionato.](assets/date_range_control_interactive.png)
+
 1. Puoi anche copiare la richiesta e fare clic con il pulsante destro del mouse per utilizzare una delle due opzioni Incolla richiesta:
 
    * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. Ciò significa che la richiesta copiata punterà allo stesso controllo dell’intervallo di date interattivo della richiesta originale.
 
    * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. Ciò significa che la richiesta copiata punterà al proprio controllo.
 
-      >[!NOTE]
-      >
-      >È possibile utilizzare la funzionalità nativa del controllo Taglia/Copia/Incolla di Microsoft Excel. Report Builder riconosce automaticamente i controlli appena aggiunti.
+     >[!NOTE]
+     >
+     >È possibile utilizzare la funzionalità nativa del controllo Taglia/Copia/Incolla di Microsoft Excel. Report Builder riconosce automaticamente i controlli appena aggiunti.
 
 ## Implementare il controllo interattivo dei segmenti {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
@@ -69,12 +69,12 @@ L’implementazione del controllo del segmento interattivo è simile all’imple
 
 1. Nel passaggio 1 della Creazione guidata richieste, accanto a **[!UICONTROL Segment]** dall&#39;elenco a discesa, seleziona l&#39;icona Impostazioni controllo segmento:
 
-   ![](assets/segment_interactive_1.png)
+   ![Schermata dell’icona Impostazioni controllo segmento.](assets/segment_interactive_1.png)
 
 1. Nella finestra di dialogo Impostazioni controllo segmento, seleziona i segmenti da includere nel menu a discesa. Specificare inoltre la posizione della cella superiore sinistra del controllo.
 
-   ![](assets/segment_drop_down_properties.png)
+   ![Schermata che mostra le impostazioni di controllo del segmento con i segmenti selezionati e la posizione della cella.](assets/segment_drop_down_properties.png)
 
 1. Il nuovo controllo interattivo verrà ora visualizzato nella cartella di lavoro:
 
-   ![](assets/segment_interactive_3.png)
+   ![Schermata che mostra il nuovo controllo interattivo selezionato.](assets/segment_interactive_3.png)

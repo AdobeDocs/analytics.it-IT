@@ -4,10 +4,10 @@ title: Attributi cliente
 feature: Report Builder
 role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 21%
+source-wordcount: '129'
+ht-degree: 20%
 
 ---
 
@@ -17,9 +17,9 @@ Gli attributi del cliente sono memorizzati in un nuovo tipo di elemento denomina
 
 Per informazioni dettagliate su come caricare gli attributi del cliente, consulta la [Guida di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it).
 
-* Se è configurato come metrica, VisAttr viene esposto sia come &quot;dimensione&quot; che come metrica.
+* Se è configurato come metrica, VisAttr viene esposto sia come metrica che come &quot;dimensione&quot;.
 
-   ![](assets/ca_metrics.png) ![](assets/ca_dimension.png)
+  ![Schermata che mostra metrica e dimensione Attributi del cliente.](assets/ca_metrics.png)  ![](assets/ca_dimension.png)
 
 * Supporta la stessa suddivisione di un eVar (tutto può essere suddiviso per qualsiasi cosa).
 * VisAttr supporta tutte le metriche eVar.
