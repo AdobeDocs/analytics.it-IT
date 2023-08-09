@@ -3,9 +3,9 @@ title: Creare un feed di dati
 description: Scopri come creare un feed di dati.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
 workflow-type: tm+mt
-source-wordcount: '3118'
+source-wordcount: '3170'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
 >[!NOTE]
 >
->Prima di creare un feed di dati, è importante avere una conoscenza di base dei feed di dati e accertarsi di soddisfare tutti i prerequisiti necessari. Per ulteriori informazioni, consulta [Panoramica sui feed dati](data-feed-overview.md).
+>Prima di creare un feed di dati, è importante avere una conoscenza di base dei feed di dati e assicurarsi di soddisfare tutti i prerequisiti necessari. Per ulteriori informazioni, consulta [Panoramica sui feed dati](data-feed-overview.md).
 
 ## Creare e configurare un feed dati
 
@@ -45,6 +45,15 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
    | [!UICONTROL **Alimentazione continua**] | Questa casella di controllo rimuove la data di fine e consente l’esecuzione indefinita di un feed. Al termine dell’elaborazione dei dati storici, un feed attende che i dati vengano raccolti per una determinata ora o giorno. Al termine dell’ora o del giorno corrente, l’elaborazione inizia dopo il ritardo specificato. |
 
 1. In [!UICONTROL **Destinazione**] , nella sezione [!UICONTROL **Tipo**] selezionare la destinazione in cui si desidera inviare i dati.
+
+   >[!NOTE]
+   >
+   >Quando configuri una destinazione di rapporto, tieni presente quanto segue:
+   >
+   >* È consigliabile utilizzare un account cloud per la destinazione del rapporto. [Account FTP e SFTP legacy](#legacy-destinations) sono disponibili, ma non sono consigliati.
+   >
+   >* Gli account cloud sono associati al tuo account utente di Adobe Analytics. Gli altri utenti non possono utilizzare o visualizzare gli account cloud configurati dall’utente.
+   >
 
    ![Menu a discesa della destinazione del feed dati](assets/datafeed-destinations-dropdown.png)
 
