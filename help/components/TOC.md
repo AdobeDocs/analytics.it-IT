@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: ht
-source-wordcount: '724'
+source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
+workflow-type: tm+mt
+source-wordcount: '726'
 ht-degree: 100%
 
 ---
@@ -273,6 +273,7 @@ ht-degree: 100%
    + [Account di importazione cloud](/help/components/locations/configure-import-accounts.md)
    + [Posizioni di importazione cloud](/help/components/locations/configure-import-locations.md)
 + [Eventi calendario](t-calendar-event.md)
++ [Progetti programmati](scheduled-projects-manager.md)
 + [Coda dei rapporti pianificati](scheduled-reports-admin.md)
 + Rapporti in tempo reale {#real-time-reporting}
    + [Panoramica reportistica in tempo reale](c-real-time-reporting/realtime.md)
