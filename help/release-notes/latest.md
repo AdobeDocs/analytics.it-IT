@@ -4,9 +4,9 @@ description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ Queste note sulla versione coprono il periodo dal 9 agosto al 13 settembre 2023.
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Set di classificazione nell’API 2.0** | Fornisce metodi API 2.0 di Adobe Analytics per salvare, eliminare, recuperare, importare ed esportare i dati dei set di classificazione. | N/D | 31 agosto 2023 |
-| **Reporting Activity Manager** | Reporting Activity Manager fornisce agli amministratori una visibilità dettagliata sul consumo di reporting per ogni suite di rapporti, consentendo agli amministratori di diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. [Ulteriori informazioni](/help/admin/admin/reporting-activity.md) | N/D | 6 settembre 2023 |
+| **Set di classificazione nell’API 2.0** | Fornisce metodi API 2.0 di Adobe Analytics per salvare, eliminare, recuperare, importare ed esportare set di dati di classificazione. | N/D | 31 agosto 2023 |
+| **Reporting Activity Manager** | Il Reporting Activity Manager offre agli amministratori una visibilità dettagliata sul consumo di reporting per ogni suite di rapporti, consentendo agli amministratori di diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. [Ulteriori informazioni](/help/admin/admin/reporting-activity.md) | N/D | 6 settembre 2023 |
 
 {style="table-layout:auto"}
 
 ## Correzioni in Adobe Analytics
 
 * È stato risolto un problema che impediva il caricamento degli eventi personalizzati. (AN-324163)
-* È stato risolto un problema che impediva la modifica delle etichette per le legende in una visualizzazione. (AN-323246)
+* È stato risolto un problema che impediva la modifica delle etichette per le legende riportate in una visualizzazione. (AN-323246)
 
-AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-320597; AN-320680; AN-320869; AN-321624; AN-321693; AN-322009; AN-322244; AN-322380; AN-322432; AN-322466; AN-322556; AN-322669; AN-322735; AN-323151; AN-323220; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-323380; AN-323492; 323595 323755 323854 323916 324044 324200 324213 324238 324347 323598 323625 323631 323638 323641 323755 323767 323777 323825 323846 323972 324113 324170 324197 324273 324275 324345 324384 324433 324511 324513 324521 324524 324531 324532 324534 324537 324569 324618 324635 324688 324704 324712 324721 324745 324792 324793 324794 324795 324824 324905 324918 324932 324934 324947 325003 325073 325143 325148 325153 325177 325187 325252 325305 325363 325401 325439 325431 325491 325495 325508 325594 325601 325660 325779 325857 325883 325885 325886; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-
+AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-320597; AN-320680; AN-320869; AN-321624; AN-321693; AN-322009; AN-322244; AN-322380; AN-322432; AN-322466; AN-322556; AN-322669; AN-322735; AN-323151; AN-323220; AN-323380; AN-323492; AN-323595; AN-323755; AN-323854; AN-323916; AN-324044; AN-324200; AN-324213; AN-324238; AN-324347; AN-323598; AN-323625; AN-323631; AN-323638; AN-323641; AN-323755; AN-323767; AN-323777; AN-323825; AN-323846; AN-323972; AN-324113; AN-324170; AN-324197; AN-324273; AN-324275; AN-324345; AN-324384; AN-324433; AN-324511; AN-324513; AN-324521; AN-324524; AN-324531; AN-324532; AN-324534; AN-324537; AN-324569; AN-324618; AN-324635; AN-324688; AN-324704; AN-324712; AN-324721; AN-324745; AN-324792; AN-324793; AN-324794; AN-324795; AN-324824; AN-324905; AN-324918; AN-324932; AN-324934; AN-324947; AN-325003; AN-325073; AN-325143; AN-325148; AN-325153; AN-325177; AN-325187; AN-325252; AN-325305; AN-325363; AN-325401; AN-325439; AN-325431; AN-325491; AN-325495; AN-325508; AN-325594; AN-325601; AN-325660; AN-325779; AN-325857; AN-325883; AN-325885; AN-325886
 
 
 ## Avvisi importanti per gli amministratori di Adobe Analytics {#admin}
