@@ -3,7 +3,7 @@ title: purchaseID
 description: Deduplica gli hit in base a un identificatore di acquisto univoco.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: befa9b1e17a07160fd29feef1676832164bec3fb
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 11%
@@ -16,7 +16,7 @@ Il `purchaseID` variabile consente di evitare che gli hit contenenti lo stesso a
 
 Quando Adobe riconosce un hit come acquisto duplicato, tutti i dati di conversione (come eVar ed eventi) non vengono visualizzati nel reporting. Nei feed di dati, la funzione `duplicate_purchase` è impostata su `1`.
 
-Gli ID acquisto si applicano a tutti i visitatori e non scadono. Se un visitatore imposta un determinato ID acquisto, un visitatore diverso imposta lo stesso ID acquisto un anno dopo, il secondo acquisto viene deduplicato.
+Gli ID acquisto si applicano a tutti i visitatori e scadono dopo 37 mesi. Se un visitatore imposta un determinato ID acquisto, un visitatore diverso imposta lo stesso ID acquisto un anno dopo, il secondo acquisto viene deduplicato.
 
 ## ID acquisto tramite Web SDK
 
