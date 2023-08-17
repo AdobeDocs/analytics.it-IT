@@ -4,10 +4,10 @@ title: Panoramica di Adobe Analytics
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d5a7dfe720cc84b67208e7d30434295caf1e2aac
+source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
 workflow-type: tm+mt
-source-wordcount: '3108'
-ht-degree: 26%
+source-wordcount: '3098'
+ht-degree: 27%
 
 ---
 
@@ -104,7 +104,7 @@ Il [!UICONTROL Components] La scheda include funzioni che consentono di perfezio
 
    ![Scheda Area di lavoro](assets/components-tab.png)
 
-2. Seleziona una delle seguenti funzioni del prodotto per configurarla: (a seconda delle autorizzazioni, tutte le funzioni potrebbero non essere visibili).
+2. Seleziona una delle seguenti funzioni del prodotto per configurarla:
 
 
    | Funzionalità del prodotto | Funzione | Ulteriori informazioni |

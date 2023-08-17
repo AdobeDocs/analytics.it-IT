@@ -3,10 +3,10 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
-workflow-type: ht
-source-wordcount: '1158'
-ht-degree: 100%
+source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
+workflow-type: tm+mt
+source-wordcount: '1222'
+ht-degree: 98%
 
 ---
 
@@ -30,17 +30,22 @@ Questo video mette a confronto diversi strumenti di Adobe Analytics:
 * Accedere ai dati in tempo reale nell’interfaccia utente
 * Impostare eventi di Calendario
 * Impostare le destinazioni
-* Visualizzare i rapporti generati da bot
 * Accesso a visualizzazioni video univoche di video Daypart e abbandono dei visualizzatori
+
+>[!IMPORTANT]
+>
+>A partire dal **31 dicembre 2023**, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni. A quel punto, Reports &amp; Analytics e tutti i suoi rapporti e programmi cesseranno di funzionare. I rapporti, le visualizzazioni e la tecnologia di base che alimentano Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. Dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=it)** è indicato per:
 
-* Usufruire dell’opzione più flessibile tra gli strumenti Analytics (analisi a livello di visitatore e di hit)
-* Creare un dataset multicanale di interazioni online e offline da CRM a POS a Web
-* Attribuzione avanzata (modelli algoritmici e basati su regole)
 * Modellazione statistica predittiva (punteggio tendenza, clustering, correlazioni, ecc.)
 * Analisi della latenza (tempo prima/dopo un evento)
 * Identificare ed esportare segmenti complessi in Adobe Experience Cloud
+
+>[!IMPORTANT]
+>
+>Ulteriori informazioni sulla Data Workbench [Annuncio sulla fine del ciclo di vita](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+
 
 ## Importazione di dati in Adobe Analytics {#import}
 
