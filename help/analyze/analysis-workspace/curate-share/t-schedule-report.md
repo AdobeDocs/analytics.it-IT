@@ -5,10 +5,10 @@ title: Programmare progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
+source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 75%
+source-wordcount: '244'
+ht-degree: 72%
 
 ---
 
@@ -49,4 +49,4 @@ Per inviare un file tramite e-mail secondo una pianificazione periodica:
 
 I progetti programmati di Analysis Workspace possono essere gestiti in **Analytics > Componenti > Progetti programmati**.
 
-Per ulteriori informazioni, vedi  
+Per ulteriori informazioni, consulta [Progetti pianificati](/help/components/scheduled-projects-manager.md)
