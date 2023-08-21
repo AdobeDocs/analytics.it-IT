@@ -4,9 +4,9 @@ title: Panoramica di Adobe Analytics
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f2f1d21989b609bf069da28b3b90785ccd14ef19
+source-git-commit: 58e5f3ca4b99e92b64e01095d61d5fe1fc97feb9
 workflow-type: tm+mt
-source-wordcount: '5045'
+source-wordcount: '5073'
 ht-degree: 35%
 
 ---
@@ -21,7 +21,7 @@ Di seguito sono riportati alcuni dei modi principali in cui Adobe Analytics aiut
 
 Per ulteriori dettagli sui vantaggi offerti da Adobe Analytics, vedi [Pagina prodotto Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html).
 
-### Analisi web
++++Analisi web
 
 Adobe Analytics fornisce la segmentazione complessa e gli strumenti predittivi seguenti per l’analisi del traffico web:
 
@@ -31,7 +31,9 @@ Adobe Analytics fornisce la segmentazione complessa e gli strumenti predittivi s
 
 * [Segmentazione avanzata](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
 
-### Analisi di marketing
++++
+
++++Analisi di marketing
 
 Adobe Analytics aiuta le organizzazioni a capire dove i clienti interagiscono con i loro marchi, quali canali preferiscono i clienti e quali esperienze trovano accoglienza.
 
@@ -43,14 +45,18 @@ Le seguenti funzioni chiave di Adobe Analytics forniscono queste funzionalità d
 
 * [Analisi ad hoc in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
-### Attribution
++++
+
++++Attribution
 
 Attribution consente alle organizzazioni di vedere in che modo le diverse interazioni all’interno del percorso di clienti influiscono sulla conversione. Oltre a fornire opzioni di attribuzione più tradizionali, come modelli Lineari o First Touch, Attribution in Adobe Analytics utilizza anche l’apprendimento automatico e modelli statistici avanzati per comprendere l’impatto preciso di ogni contatto.
 
 Per ulteriori informazioni, consulta [Modelli di attribuzione e intervalli di lookback](/help/analyze/analysis-workspace/attribution/models.md).
 
++++
 
-### Analisi predittiva
+
++++Analisi predittiva
 
 L’analisi predittiva utilizza l’apprendimento automatico e la modellazione statistica avanzata per analizzare i dati dei clienti, trovare modelli e prevedere il comportamento futuro, ad esempio l’abbandono o la probabilità di conversione. Consente agli analisti di dati di sfruttare enormi set di dati che altrimenti potrebbero andare sprecati.
 
@@ -61,6 +67,8 @@ Le seguenti funzioni chiave di Adobe Analytics forniscono queste funzionalità p
 * [Analisi contributi](#contribution-analysis)
 
 * [Avvisi intelligenti](#intelligent-alerts)
+
++++
 
 ## Prerequisiti per l’utilizzo di Adobe Analytics
 
@@ -78,9 +86,13 @@ Prima di poter utilizzare Adobe Analytics, è necessario disporre di:
 
 ## Interfaccia di Analytics
 
-L’interfaccia di Adobe Analytics è costituita dalle seguenti aree principali:
+L’interfaccia di Adobe Analytics è costituita dalle seguenti aree chiave, incluse le schede per la gestione dei progetti in Analysis Workspace e dei componenti, gli strumenti e le funzioni di amministratore.
 
-### Scheda Area di lavoro
+![Scheda Area di lavoro](assets/landing-all2.png)
+
+Espandi le seguenti sezioni per scoprire di più su ogni area di Analysis Workspace:
+
++++Scheda Area di lavoro
 
 Il [!UICONTROL Workspace] mostra la scheda [!UICONTROL Projects] per impostazione predefinita, mostra la cartella Azienda, le cartelle personali create, i progetti e le scorecard per dispositivi mobili.
 
@@ -90,13 +102,17 @@ Il [!UICONTROL Workspace] mostra la scheda [!UICONTROL Projects] per impostazion
 
 Per ulteriori informazioni sulle funzioni disponibili nella [!UICONTROL Workspace] , vedere [Pagina di destinazione di Adobe Analytics](/help/analyze/landing.md).
 
-### Scheda Rapporti
++++
+
++++Scheda Rapporti
 
 A partire dal 31 dicembre 2023, Adobe intende interrompere Reports &amp; Analytics e i relativi rapporti e funzioni.
 
 Invece, utilizza [!UICONTROL **Rapporti**] area nella barra a sinistra sulla [!UICONTROL **Workspace**] scheda. Per ulteriori informazioni, consulta *Passare alla scheda Rapporti* in [Pagina di destinazione di Adobe Analytics](/help/analyze/landing.md).
 
-### Scheda Componenti
++++
+
++++Scheda Componenti
 
 Il [!UICONTROL Components] La scheda include funzioni che consentono di perfezionare e abilitare l’analisi dei dati.
 
@@ -128,7 +144,9 @@ Il [!UICONTROL Components] La scheda include funzioni che consentono di perfezio
 
    {style="table-layout:auto"}
 
-### Scheda Strumenti
++++
+
++++Scheda Strumenti
 
 <!-- The Tools tab ... -->
 
@@ -150,7 +168,9 @@ Il [!UICONTROL Components] La scheda include funzioni che consentono di perfezio
 
    {style="table-layout:auto"}
 
-### Scheda Amministrazione
++++
+
++++Scheda Amministratore
 
 La scheda Amministratore include funzioni e opzioni di configurazione per l’amministrazione di Adobe Analytics.
 
@@ -194,7 +214,9 @@ La scheda Amministratore include funzioni e opzioni di configurazione per l’am
 
    {style="table-layout:auto"}
 
-### Analysis Workspace
++++
+
++++Analysis Workspace
 
 Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere informazioni e condividerle con altri utenti. Utilizzando l’interfaccia di trascinamento del browser, puoi creare analisi, aggiungere visualizzazioni per mettere in risalto i dati, curare un set di dati, condividere e pianificare progetti con chiunque desideri.
 
@@ -210,6 +232,8 @@ Per una panoramica più dettagliata di Analysis Workspace, vedi [Panoramica di A
 | B | **Barra a sinistra:** a seconda della scheda selezionata nella barra all’estrema sinistra, quest’area contiene singoli pannelli, visualizzazioni o componenti. |
 | C | **Area di lavoro:** questa è l’area principale in cui trascini il contenuto dalle barre a sinistra per creare il progetto. Il progetto viene aggiornato dinamicamente quando si aggiungono pannelli, visualizzazioni e componenti all’area di lavoro. |
 | D | **Menu a discesa delle suite di rapporti:** per ogni pannello in Analysis Workspace, il menu a discesa della suite di rapporti consente di scegliere la suite di rapporti da utilizzare come origine dati. |
+
++++
 
 ## Introduzione per amministratori, analisti, utenti finali e sviluppatori
 
