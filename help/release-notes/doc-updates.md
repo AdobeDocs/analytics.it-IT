@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: 1dd49a030b501ef3f291448facf08216fce0fe5e
 workflow-type: tm+mt
-source-wordcount: '4855'
+source-wordcount: '4871'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Agosto 2023** | |
+| Pannello Tempo trascorso su contenuti multimediali | Contenuto aggiornato per  [Pannello Tempo trascorso su contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) per migliorare la leggibilità. |
 | Contenuti spostati sulla gestione di progetti pianificati | È stato creato un nuovo articolo nella Guida ai componenti di Analytics denominato [Progetti pianificati](/help/components/scheduled-projects-manager.md). Questo contenuto si trovava in precedenza in [Programmare progetti](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) nella Guida agli strumenti di Analytics. |
 | Confrontare i metodi di implementazione | È stata aggiornata la documentazione che mette a confronto diversi metodi di implementazione. [Ulteriori informazioni](../implement/prepare/comparison.md) |
 | È stato chiarito che la configurazione SFTP per i feed di dati non richiede l’assistenza clienti di Adobe | In [Inviare dati di Adobe a un account FTP esterno tramite SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) è stato chiarito che i clienti non devono rivolgersi all’Assistenza clienti di Adobe per configurare SFTP per i feed di dati. <p>È stata aggiunta anche una nota relativa al fatto che SFTP non è più consigliato e che i clienti devono utilizzare una destinazione cloud durante la configurazione dei feed di dati.</p> |
