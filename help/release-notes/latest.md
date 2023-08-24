@@ -3,8 +3,8 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
-workflow-type: ht
+source-git-commit: 2232778be91502eca2ecdc2c9598b8a3375abb8b
+workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Note sulla versione corrente di Adobe Analytics (agosto 2023)
 
-**Ultimo aggiornamento**: 9 agosto 2023
+**Ultimo aggiornamento**: 24 agosto 2023
 
 Queste note sulla versione coprono il periodo dal 9 agosto al 13 settembre 2023. I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -20,8 +20,8 @@ Queste note sulla versione coprono il periodo dal 9 agosto al 13 settembre 2023.
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Set di classificazione nell’API 2.0** | Fornisce metodi API 2.0 di Adobe Analytics per salvare, eliminare, recuperare, importare ed esportare set di dati di classificazione. | N/D | 31 agosto 2023 |
-| **Reporting Activity Manager** | Il Reporting Activity Manager offre agli amministratori una visibilità dettagliata sul consumo di reporting per ogni suite di rapporti, consentendo agli amministratori di diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. [Ulteriori informazioni](/help/admin/admin/reporting-activity.md) | N/D | 6 settembre 2023 |
+| **Set di classificazione nell’API 2.0** | Fornisce metodi API 2.0 di Adobe Analytics per salvare, eliminare, recuperare, importare ed esportare set di dati di classificazione. | N/D | 30 agosto 2023 |
+| **Reporting Activity Manager** | Il Reporting Activity Manager offre agli amministratori una visibilità dettagliata sul consumo di reporting per ogni suite di rapporti, consentendo agli amministratori di diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. [Ulteriori informazioni](/help/admin/admin/reporting-activity.md) | N/D | 12 settembre 2023 |
 
 {style="table-layout:auto"}
 
