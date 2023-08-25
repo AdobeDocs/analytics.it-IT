@@ -2,20 +2,24 @@
 description: Informazioni generali su Adobe Analytics, incluse informazioni sull’interfaccia di Analytics e informazioni introduttive per amministratori, analisti, utenti e sviluppatori.
 title: Introduzione per amministratori, analisti, utenti finali e sviluppatori
 feature: Analytics Basics
-hide: true
-hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1901'
 ht-degree: 31%
 
 ---
 
 # Introduzione per amministratori, analisti, utenti finali e sviluppatori
 
-In un’organizzazione tipica sono disponibili 3 tipi di utenti Adobe Analytics: amministratori, analisti e utenti finali.
+In un’organizzazione tipica sono disponibili 4 tipi di utenti Adobe Analytics:
 
-Gli amministratori implementano e configurano Adobe Analytics; gli analisti impostano progetti e creano analisi utilizzando Analysis Workspace; gli utenti finali ottengono informazioni fruibili sui propri clienti, creando analisi proprie o lavorando con gli analisti per crearli.
+* **Amministratori:** Implementa e configura Adobe Analytics.
+
+* **Analisti:** Configurare progetti e creare analisi con Analysis Workspace
+
+* **Utenti finali:** Ottenere informazioni actionable sui propri clienti, creando le proprie analisi o lavorando con gli analisti per crearli
+
+* **Sviluppatori:** Utilizza le API di Adobe Analytics 2.0 per chiamare direttamente i server di Adobe e eseguire quasi tutte le azioni che possono essere eseguite nell’interfaccia utente, ad esempio la creazione di rapporti da esplorare, il recupero di informazioni o la risposta a domande importanti sui dati.
 
 Le informazioni seguenti spiegano come ciascuno di questi utenti può iniziare a utilizzare Adobe Analytics.
 
@@ -68,13 +72,13 @@ Prima di rendere Adobe Analytics disponibile agli utenti dell’organizzazione, 
 | Definire le autorizzazioni | Gli amministratori di Analytics devono assegnare i profili di prodotto nell’Admin Console per Adobe Analytics, Strumenti delle suite di rapporti e Strumenti di Analytics. | [Autorizzazioni di Analytics nell’Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=it) |
 | Configurare le suite di rapporti e definire le impostazioni per la società | Una suite di rapporti è un silos di dati utilizzati da Adobe Analytics per generare rapporti.<p>Gli amministratori possono anche impostare [suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it) per segmentare ulteriormente i dati.</p> | <ul><li>[Creare una suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=en)</li><li>[Panoramica delle impostazioni aziendali](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en)</li></ul> |
 | Importare dati | Le origini dati di Adobe Analytics ti consentono di importare ulteriori dati online o offline a scopo di reporting. | [Panoramica sulle origini dati](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
-| Classificare i dati con le classificazioni | Le classificazioni consentono di classificare i dati per un migliore utilizzo delle variabili, consentendo di includere più contenuto in una singola variabile. | |
+| Classificare i dati con le classificazioni | Le classificazioni consentono di classificare i dati per un migliore utilizzo delle variabili, consentendo di includere più contenuto in una singola variabile. | [Panoramica delle classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=it) |
 | Gestire i componenti | Utilizza il dizionario dati e le aree di gestione per ciascun tipo di componente per definire quali componenti sono disponibili nell’implementazione di Analytics e quali sono approvati per la tua organizzazione.<p>Questa dovrebbe essere un’attività continua per garantire che i componenti vengano utilizzati in modo efficace all’interno della tua organizzazione. </p> | <ul><li>[Panoramica del dizionario dati](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=it)</li><li>[Gestione metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[Gestire i segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=it)</li><li>[Creazione di intervalli di date personalizzati](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=it)</li></ul> |
 | Rilevamento delle anomalie | Il rilevamento anomalie fornisce un metodo statistico per determinare il cambiamento di una data metrica in relazione ai dati precedenti. | [Panoramica di Rilevamento delle anomalie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=it) |
 | Analisi contributi | L’analisi dei contributi riconosce pattern nascosti nei dati per spiegare le anomalie statistiche e identificare le correlazioni alla base di azioni inaspettate da parte del cliente, valori fuori dalla norma e improvvisi picchi o ribassi di metriche selezionate su segmenti di pubblico convergenti. | [Panoramica dell&#39;analisi dei contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=it) |
 | Segmentazione di Analytics | Consente di creare, gestire, condividere e applicare segmenti di pubblico potenti e mirati ai tuoi rapporti utilizzando le funzionalità di Analytics, Adobe Experience Cloud, Adobe Target e altri prodotti Adobe integrati. | [Segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it) |
-| Pubblicare tipi di pubblico su Audienci Manager | | |
-| Integrazioni | È possibile ottenere informazioni da altre applicazioni in Adobe Analytics. <p>Di seguito sono riportate alcune integrazioni comuni:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it">Media Analytics</a></li> | |
+| Pubblicare tipi di pubblico su Audienci Manager | Adobe Audience Manager è una potente piattaforma di gestione dei dati che consente di creare profili di pubblico univoci da integrazioni di dati di prime, seconde parti (partner) e terze parti. | [Panoramica di Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=it) |
+| Integrazioni | È possibile ottenere informazioni da altre applicazioni in Adobe Analytics. <p>Di seguito sono riportate alcune integrazioni comuni:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it">Media Analytics</a></li> | [Integrazione di Analytics](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=it) |
 
 {style="table-layout:auto"}
 

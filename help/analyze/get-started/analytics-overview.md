@@ -2,11 +2,9 @@
 description: Informazioni generali su Adobe Analytics, incluse informazioni sull’interfaccia di Analytics e informazioni introduttive per amministratori, analisti, utenti e sviluppatori.
 title: Panoramica di Adobe Analytics
 feature: Analytics Basics
-hide: true
-hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 35%
 
 ---
@@ -23,7 +21,7 @@ Utilizza le seguenti risorse per scoprire le nozioni di base di Adobe Analytics:
 | Risorsa documentazione | Funzione |
 |---------|----------|
 | [Introduzione (per ruolo)](/help/analyze/get-started/get-started-by-role.md) | Fornisce informazioni dettagliate che spiegano le funzioni e le attività chiave di cui hai bisogno, che tu sia un amministratore, un analista, un utente finale o uno sviluppatore. |
-| [Interfaccia di Analytics](/help/analyze/get-started/analytics-interface.md) | Suddivide le aree chiave dell’interfaccia di Analytics. |
+| [Interfaccia di Analytics](/help/analyze/get-started/analytics-interface.md) | Illustra le aree chiave dell’interfaccia di Analytics. |
 | [Casi di utilizzo](/help/analyze/get-started/use-cases.md) | Spiega alcuni dei modi principali in cui Adobe Analytics aiuta le organizzazioni a ottenere informazioni critiche per servire meglio i propri clienti. |
 | [Quale strumento Adobe Analytics usare?](/help/analyze/get-started/which-analytics-tool.md) | Contiene casi d’uso consigliati per ogni strumento Adobe Analytics. |
 | [Requisiti e confronto dei prodotti Analytics](/help/analyze/get-started/analytics-product-comparison.md) | Confronta i vari prodotti Adobe Analytics disponibili. |
