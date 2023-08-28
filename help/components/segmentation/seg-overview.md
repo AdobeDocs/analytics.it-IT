@@ -3,10 +3,10 @@ description: I segmenti ti consentono di identificare sottoinsiemi di visitatori
 title: Informazioni sui segmenti
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
+source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
 workflow-type: tm+mt
 source-wordcount: '1163'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
@@ -239,7 +239,7 @@ Un segmento sequenziale filtra i set di dati in base alle azioni degli utenti ch
 
 Questo video offre una breve panoramica dei contenitori di segmenti e del loro utilizzo:
 
-![](https://video.tv.adobe.com/v/25401)
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
 
 ## Accedere agli strumenti di segmentazione {#access}
@@ -252,7 +252,7 @@ Per accedere al Generatore di segmenti:
 
 - Nella parte superiore del Gestore segmenti, fai clic su **[!UICONTROL + Add]**.  ![Pulsante Aggiungi](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
-   oppure
+  oppure
 
 - Fai clic sul titolo di un segmento esistente nel Gestore segmenti per modificare il segmento nel Generatore di segmenti.
 

@@ -3,10 +3,10 @@ title: Percentuale non recapitate
 description: Il rapporto di visite con esattamente un hit per le voci.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 3%
+source-wordcount: '154'
+ht-degree: 5%
 
 ---
 
@@ -14,6 +14,8 @@ ht-degree: 3%
 
 La metrica &quot;Percentuale non recapitate&quot; mostra il rapporto tra le visite che contenevano esattamente un hit e il numero di visite su quella pagina. Puoi utilizzare questa metrica per capire quali elementi dimensionali hanno il tasso di mancato recapito più alto o per vedere un tasso di mancato recapito totale aggregato del sito nel tempo. Percentuali elevate di mancati recapiti possono far luce su problemi del sito o dell’app, ad esempio: progettazione inadeguata, tempi di caricamento lenti, contenuto irrilevante o mancata corrispondenza tra l’intento del visitatore e il contenuto della pagina.
 
-## Modalità di calcolo di questa metrica
+Ecco un esempio: Supponiamo che la homepage di un sito web riceva 500 visitatori in un mese. Tuttavia, 250 di questi visitatori lasciano il sito dopo aver visualizzato la pagina principale e non passano ad altre pagine. Di conseguenza, il tasso di mancato recapito della home page sarebbe del 50%.
+
+## Come è calcolata questa metrica
 
 Questa metrica viene calcolata utilizzando la formula [`Bounces`](bounces.md) `divided by` [`Entries`](entries.md).
