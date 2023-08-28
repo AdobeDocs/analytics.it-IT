@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0ece9b2fddcf905951bbe35ec0a3ff862baff71c
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '4885'
+source-wordcount: '4922'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Agosto 2023** | |
+| Chiarimento sui feed dati | Aggiornato [la definizione delle date di inizio e fine](/help/export/analytics-data-feed/create-feed.md) per chiarire che, durante l’elaborazione dei feed di dati per i dati storici, è possibile impostare la data di inizio su qualsiasi data nel passato in cui i dati vengono raccolti. |
 | Gestione dei dati Experience Edge | Aggiunti contenuti come Adobe Analytics [gestisce i dati da Experience Edge](../implement/aep-edge/overview.md). |
 | Pannello Tempo trascorso su contenuti multimediali | Contenuto aggiornato per  [Pannello Tempo trascorso su contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) per migliorare la leggibilità. |
 | Contenuti spostati sulla gestione di progetti pianificati | È stato creato un nuovo articolo nella Guida ai componenti di Analytics denominato [Progetti pianificati](/help/components/scheduled-projects-manager.md). Questo contenuto si trovava in precedenza in [Programmare progetti](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) nella Guida agli strumenti di Analytics. |

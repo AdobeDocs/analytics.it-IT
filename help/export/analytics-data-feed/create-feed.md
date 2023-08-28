@@ -3,9 +3,9 @@ title: Creare un feed di dati
 description: Scopri come creare un feed di dati.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '3170'
+source-wordcount: '3171'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
    | [!UICONTROL **E-mail al termine**] | L’indirizzo e-mail da notificare al termine dell’elaborazione di un feed. L’indirizzo e-mail deve essere formattato correttamente. |
    | [!UICONTROL **Intervallo feed**] | Seleziona **Giornaliero** per la retrocompilazione o la cronologia dei dati. I feed giornalieri contengono dati relativi a un’intera giornata, dalla mezzanotte alla mezzanotte nel fuso orario della suite di rapporti.  Seleziona **Ogni ora** per dati continui (giornalieri è disponibile anche per feed continui, se lo desideri). I feed orari contengono dati relativi a una sola ora. |
    | [!UICONTROL **Ritarda elaborazione**] | Attendi un determinato periodo di tempo prima di elaborare un file di feed dati. Un ritardo può essere utile per dare alle implementazioni mobili l’opportunità ai dispositivi offline di connettersi e inviare dati. Può essere utilizzato anche per adattarsi ai processi lato server della tua organizzazione nella gestione dei file elaborati in precedenza. Nella maggior parte dei casi, non è necessario attendere. Un feed può essere ritardato fino a 120 minuti. |
-   | [!UICONTROL **Date di inizio e fine**] | La data di inizio indica la prima data desiderata per un feed di dati. Imposta questa data nel passato per iniziare immediatamente a elaborare i feed di dati per i dati storici. I feed continuano l’elaborazione fino a raggiungere la data di fine. Le date di inizio e fine si basano sul fuso orario della suite di rapporti. |
+   | [!UICONTROL **Date di inizio e fine**] | La data di inizio indica la data in cui desideri che inizi il feed di dati. Per iniziare immediatamente a elaborare i feed di dati per i dati storici, imposta questa data su una data nel passato in cui vengono raccolti i dati. Le date di inizio e fine si basano sul fuso orario della suite di rapporti. |
    | [!UICONTROL **Alimentazione continua**] | Questa casella di controllo rimuove la data di fine e consente l’esecuzione indefinita di un feed. Al termine dell’elaborazione dei dati storici, un feed attende che i dati vengano raccolti per una determinata ora o giorno. Al termine dell’ora o del giorno corrente, l’elaborazione inizia dopo il ritardo specificato. |
 
 1. In [!UICONTROL **Destinazione**] , nella sezione [!UICONTROL **Tipo**] selezionare la destinazione in cui si desidera inviare i dati.
