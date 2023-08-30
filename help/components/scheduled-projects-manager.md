@@ -2,10 +2,10 @@
 description: Visualizza e gestisci i rapporti programmati in tutta l’organizzazione.
 title: Gestione progetti programmati
 feature: Admin Tools
-source-git-commit: 8d0cf795b0366b2797fa0574ae9faaffb76b005e
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 85%
 
 ---
 
@@ -13,9 +13,19 @@ ht-degree: 100%
 
 I progetti programmati di Analysis Workspace possono essere gestiti in **Analytics > Componenti > Progetti programmati**.
 
-Quando gestisci i progetti programmati, puoi modificare ed eliminare le pianificazioni di progetti ricorrenti. Cerca una pianificazione nella barra di ricerca oppure utilizzando le opzioni filtro nella barra a sinistra. Puoi filtrare per [!UICONTROL Tags], [!UICONTROL Owners], [!UICONTROL Favorites] e altro ancora.
+Quando si gestiscono progetti programmati, è possibile modificare ed eliminare pianificazioni ricorrenti di progetti:
 
-![](assets/scheduled-project-manager2.png)
+* Cambia il tipo di file (.csv o PDF)
+* Aggiornare la descrizione del progetto
+* Aggiungi o rimuovi destinatari
+* Modificare la frequenza
+
+Per modificare un progetto pianificato
+
+1. Seleziona **Analytics > Componenti > Progetti programmati**.
+1. Cerca una pianificazione nella barra di ricerca oppure utilizzando le opzioni filtro nella barra a sinistra. Puoi filtrare per [!UICONTROL Tags], [!UICONTROL Owners], [!UICONTROL Favorites] e altro ancora.
+
+![Schermata che mostra l’elenco dei progetti pianificati con la colonna con titolo, proprietario, tag, recapito a e altre colonne descritte nella sezione Colonne disponibili.](assets/scheduled-project-manager2.png)
 
 ## Colonne disponibili
 

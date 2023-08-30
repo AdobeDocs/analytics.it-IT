@@ -1,20 +1,20 @@
 ---
-description: Invia un progetto di Analysis Workspace via e-mail o programmane la consegna.
+description: Invia un progetto Analysis Workspace tramite e-mail o programmane la consegna.
 keywords: Analysis Workspace
 title: Programmare progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 72%
+source-wordcount: '300'
+ht-degree: 50%
 
 ---
 
 # Programmare progetti
 
-Dal **menu Share** di Workspace, puoi inviare progetti Analysis Workspace tramite e-mail a destinatari selezionati. I file possono essere inviati in formato CSV o PDF.
+Dall’area di lavoro **Menu Share**, puoi inviare progetti Analysis Workspace tramite e-mail a destinatari selezionati. I file possono essere inviati in formato CSV o PDF. Dopo aver condiviso i progetti programmati, è possibile modificare le impostazioni della programmazione per modificare la frequenza, l&#39;elenco dei destinatari o il tipo di file mediante Gestione progetti programmati.
 
 ## Invia subito file
 
@@ -46,6 +46,14 @@ Per inviare un file tramite e-mail secondo una pianificazione periodica:
 ![](assets/send-on-schedule.png)
 
 ## Gestisci progetti programmati
+
+Quando si gestiscono progetti programmati, è possibile modificare ed eliminare pianificazioni ricorrenti di progetti:
+
+* Cambia il tipo di file (.csv o PDF)
+* Aggiornare la descrizione del progetto
+* Aggiungi o rimuovi destinatari
+* Modificare la frequenza
+
 
 I progetti programmati di Analysis Workspace possono essere gestiti in **Analytics > Componenti > Progetti programmati**.
 
