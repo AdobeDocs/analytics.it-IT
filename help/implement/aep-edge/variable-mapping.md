@@ -3,10 +3,10 @@ title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: b6a92b8ca79422d2ba857cd98c172a824658a7a6
 workflow-type: tm+mt
 source-wordcount: '1502'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 La tabella seguente mostra le variabili mappate automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi XDM, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics. Questi campi sono inclusi nel **[!UICONTROL Adobe Analytics ExperienceEvent Template]** gruppo di campi.
 
-Gli aggiornamenti precedenti a questa tabella si trovano nel [cronologia commit su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
+Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei commit su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md) di questa pagina.
 
 | Percorso campo XDM | Dimensione e descrizione di Analytics |
 | --- | --- |
@@ -32,7 +32,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nel [cronologia commit 
 | `commerce.checkouts.value` | Incrementa la metrica [Casse](../../components/metrics/checkouts.md) della quantità desiderata. |
 | `commerce.order.currencyCode` | Imposta variabile di configurazione [currencyCode](../vars/config-vars/currencycode.md). |
 | `commerce.order.purchaseID` | Imposta la variabile di pagina [purchaseID](../vars/page-vars/purchaseid.md). |
-| `commerce.order.transactionID` | Imposta la variabile di pagina [transactionID](../vars/page-vars/transactionid.md). |
+| `commerce.order.payments[0].transactionID` | Imposta la variabile di pagina [transactionID](../vars/page-vars/transactionid.md). |
 | `commerce.productListAdds.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla metrica [Aggiunte al carrello](../../components/metrics/cart-additions.md). |
 | `commerce.productListAdds.value` | Incrementa la metrica [Aggiunte al carrello](../../components/metrics/cart-additions.md). |
 | `commerce.productListOpens.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla metrica [Carrelli](../../components/metrics/carts.md). |
