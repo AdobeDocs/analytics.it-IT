@@ -5,16 +5,16 @@ uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
 role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
 # Rilevamento delle anomalie{#anomaly-detection}
 
-Il rilevamento delle anomalie utilizza la modellazione statistica per trovare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un limite inferiore, un limite superiore e un intervallo di valori previsto. Quando si verifica un picco o una caduta imprevista, il sistema ti avvisa nel rapporto.
+Il rilevamento delle anomalie utilizza la modellazione statistica per trovare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un limite inferiore, un limite superiore e un intervallo di valori previsto. Quando si verifica un picco o un calo imprevisto, il sistema ti avvisa nel rapporto.
 
 Ecco alcuni esempi di anomalie da esaminare:
 
@@ -60,7 +60,7 @@ Report Builder applica questi valori alle metriche selezionate. Ad esempio, se s
 
 **Calcolo del rilevamento delle anomalie**
 
-Il rilevamento delle anomalie utilizza un periodo di formazione per calcolare, apprendere e riportare i dati dell’intervallo di previsione al giorno. Il periodo di formazione è il periodo storico che identifica ciò che è normale rispetto a ciò che è anomalo e applica ciò che è appreso al periodo di reporting. Nei rapporti di marketing sono disponibili periodi di formazione di 30, 60 e 90. In Report Builder, sono disponibili 30 giorni.
+Il rilevamento delle anomalie utilizza un periodo di formazione per calcolare, apprendere e riportare i dati dell’intervallo di previsione al giorno. Il periodo di formazione è il periodo storico che identifica ciò che è normale rispetto a ciò che è anomalo e applica ciò che è appreso al periodo di reporting. Nei rapporti di marketing sono disponibili periodi di formazione di 30, 60 e 90. In Report Builder sono disponibili 30 giorni.
 
 Il periodo di formazione non corrisponde necessariamente al periodo di reporting selezionato. Un grafico report visualizza il periodo di intervallo di date specificato nel calendario.
 

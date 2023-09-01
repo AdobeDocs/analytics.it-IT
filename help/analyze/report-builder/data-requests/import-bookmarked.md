@@ -1,10 +1,10 @@
 ---
-description: Tutti i rapporti con segnalibri e i rapporti del dashboard sono ora elencati come dimensioni nel passaggio 1 della Creazione guidata richieste e possono essere importati come richieste del generatore di rapporti.
+description: Tutti i rapporti con segnalibri e i rapporti del dashboard sono ora elencati come dimensioni nel passaggio 1 della Creazione guidata richieste e possono essere importati come richieste di Report Builder.
 title: Importare rapporti con segnalibri e minirapporti dashboard
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Importare rapporti con segnalibri e minirapporti dashboard
 
-Tutti i rapporti con segnalibri e i rapporti del dashboard sono ora elencati come dimensioni nel passaggio 1 della Creazione guidata richieste e possono essere importati come richieste del generatore di rapporti.
+Tutti i rapporti con segnalibri e i rapporti del dashboard sono ora elencati come dimensioni nel passaggio 1 della Creazione guidata richieste e possono essere importati come richieste di Report Builder.
 
 Quando si seleziona un rapporto con segnalibro, la Creazione guidata richieste popola tutte le dimensioni e le metriche che definiscono tale rapporto. Anche l’intervallo di date, la granularità e il segmento selezionato vengono aggiornati in base al segnalibro selezionato.
 

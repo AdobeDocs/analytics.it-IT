@@ -1,25 +1,27 @@
 ---
-title: Macro di Visual Basic nel Report Builder
-description: Espandere le funzionalità delle cartelle di lavoro di Excel e del Report Builder utilizzando VBA.
+title: Come utilizzare le macro di Visual Basic nel Report Builder
+description: Scopri come espandere le funzionalità delle cartelle di lavoro e del Report Builder di Excel utilizzando le macro VBA.
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
 # Macro di Visual Basic nel Report Builder
 
-Le macro VBA, note anche come macro di Visual Basic, consentono di manipolare le cartelle di lavoro in modi diversi da Microsoft Excel. Visual Basic dispone dell&#39;accesso alla cartella di lavoro, a Excel e persino a Windows.
+Le macro di Visual Basic (VBA) includono funzionalità che consentono di aggiornare le cartelle di lavoro di Excel. Visual Basic dispone dell&#39;accesso alla cartella di lavoro, a Excel e a Windows.
 
-Adobe supporta tre metodi API di Report Builder. Verificare che sia installata la versione più recente di Report Builder e accedere prima di eseguire qualsiasi macro.
+Prima di eseguire le macro VBA, è necessario eseguire la versione più recente del Report Builder e accedere.
 
 >[!IMPORTANT]
 >
 >Per motivi di protezione, non è possibile pianificare una cartella di lavoro contenente una macro.
+
+Adobe supporta tre metodi API di Report Builder.
 
 ## `RefreshAllReportBuilderRequests()`
 

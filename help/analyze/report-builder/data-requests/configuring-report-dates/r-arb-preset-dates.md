@@ -5,10 +5,10 @@ uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
 role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ Le date predefinite consentono di selezionare le date di uso comune o le date sa
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Date di uso comune </p> </td> 
-   <td colname="col2"> <p>Visualizza gli intervalli di date utilizzati più di frequente. Questa impostazione è attivata per impostazione predefinita quando si crea una nuova richiesta. Se nella cartella di lavoro è presente almeno una richiesta, il generatore di report utilizza come impostazione predefinita la data della richiesta esistente. </p> </td> 
+   <td colname="col2"> <p>Visualizza gli intervalli di date utilizzati più di frequente. Questa impostazione è attivata per impostazione predefinita quando si crea una nuova richiesta. Se nella cartella di lavoro è presente almeno una richiesta, Report Builder utilizza come impostazione predefinita la data della richiesta esistente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Modelli di date salvati </p> </td> 

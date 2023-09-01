@@ -1,20 +1,20 @@
 ---
-description: Dopo aver creato rapporti con richieste incorporate, puoi salvarli facendo clic su File > Salva o File > Salva con nome in Excel. Report Builder rileva se il report contiene richieste. Quando si fa clic su una di queste opzioni di salvataggio, viene visualizzato il modulo Salva cartella di lavoro con nome.
-title: Salvare una cartella di lavoro con le richieste
+description: Scopri come salvare rapporti con richieste incorporate.
+title: Informazioni sul salvataggio di una cartella di lavoro con richieste
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 3%
+source-wordcount: '265'
+ht-degree: 1%
 
 ---
 
 # Salvare una cartella di lavoro con le richieste
 
-Dopo aver creato rapporti con richieste incorporate, puoi salvarli facendo clic su File > Salva o File > Salva con nome in Excel. Report Builder rileva se il report contiene richieste. Quando si fa clic su una di queste opzioni di salvataggio, viene visualizzato il modulo Salva cartella di lavoro con nome.
+Quando crei rapporti con richieste incorporate, puoi salvarli utilizzando **File** > **Salva** o **File** > **Salva con nome** in Excel. Il Report Builder rileva se il rapporto contiene richieste. Quando selezioni una delle opzioni di salvataggio, completa il **Salva cartella di lavoro con nome** modulo.
 
 * Come best practice per l&#39;utilizzo intensivo delle applicazioni Windows, Adobe consiglia di salvare le richieste nel foglio di calcolo spesso e regolarmente per evitare una perdita imprevista di richieste nel foglio di lavoro.
 * Quando si assegna un nome alla cartella di lavoro, è consigliabile utilizzare un numero di versione nel nome del file in modo da poter conservare una cronologia di lavoro. Ad esempio, assegnare un nome alla prima cartella di lavoro [!DNL web_forecast_01_01.xlsx].

@@ -1,14 +1,14 @@
 ---
-description: Una richiesta dipendente è una richiesta dipendente da una richiesta esistente.
+description: Scopri come aggiungere richieste dipendenti.
 title: Aggiungere richieste dipendenti
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 feature: Report Builder
 role: User, Admin
 exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 5%
+source-wordcount: '97'
+ht-degree: 3%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 5%
 
 Una richiesta dipendente è una richiesta dipendente da una richiesta esistente.
 
-Per i rapporti con raggruppamenti di correlazioni abilitati nella tabella dei rapporti, puoi esaminare più da vicino un elemento facendo clic con il pulsante destro del mouse nella cella e facendo clic su **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
+Per visualizzare i rapporti con raggruppamenti di correlazioni abilitati all’interno della tabella, per esaminare più da vicino un elemento, fai clic con il pulsante destro del mouse nella cella e quindi fai clic su **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
 
 >[!NOTE]
 >
->Puoi anche aggiungere una richiesta di suddivisione durante la creazione della richiesta originale. Consulta [Creare una richiesta di dati](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
+>Puoi anche aggiungere una richiesta di suddivisione quando crei la richiesta originale. Consulta [Creare una richiesta di dati](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
 
 >[!NOTE]
 >

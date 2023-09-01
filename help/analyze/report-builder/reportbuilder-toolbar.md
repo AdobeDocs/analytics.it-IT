@@ -1,14 +1,14 @@
 ---
-description: Informazioni utili per comprendere la funzione dei pulsanti sulla barra degli strumenti del Report Builder.
-title: Barra degli strumenti di Report Builder
+description: Informazioni sulle funzioni dei pulsanti della barra degli strumenti Report Builder.
+title: Come utilizzare la barra degli strumenti Report Builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
 role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 2%
+source-wordcount: '294'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Informazioni utili per comprendere la funzione dei pulsanti sulla barra degli st
 
 Dopo aver installato Report Builder e aver avviato Excel, fare clic su **[!UICONTROL Add-Ins]**.
 
-![](assets/report_builder_toolbar.png)
+![Icone della barra degli strumenti Report Builder](assets/report_builder_toolbar.png)
 
 **Accesso:** Visualizza la [!UICONTROL Login] in modo da poter accedere con le credenziali o come utente diverso. Visualizza anche il nome dell&#39;azienda dopo l&#39;accesso. Consulta [Accesso Report Builder](/help/analyze/report-builder/setup/login.md).
 
@@ -32,7 +32,7 @@ Dopo aver installato Report Builder e aver avviato Excel, fare clic su **[!UICON
 
 **Pianificazione:** Consente di pianificare l’invio dei rapporti in base all’ora e al formato di file definiti. Consulta [Pianificare richieste di rapporti](/help/analyze/report-builder/schedule-report-requests.md).
 
-**Libreria:** Avvia il [!UICONTROL Workbook Library] in modo da poter caricare una cartella di lavoro Excel di Report Builder che si desidera condividere. È inoltre possibile scaricare e modificare cartelle di lavoro condivise. Consulta [Utilizzare la libreria delle cartelle di lavoro](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
+**Libreria:** Avvia il [!UICONTROL Workbook Library] in modo da poter caricare una cartella di lavoro di Excel di Report Builder da condividere. È inoltre possibile scaricare e modificare cartelle di lavoro condivise. Consulta [Utilizzare la libreria delle cartelle di lavoro](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
 **Opzioni:** Consente di specificare se si desidera che venga richiesto di specificare **[!UICONTROL As Of]** (Ora) data durante l’aggiornamento delle richieste e consente di abilitare la registrazione a scopo di risoluzione dei problemi. Consulta [Opzioni](/help/analyze/report-builder/options.md).
 

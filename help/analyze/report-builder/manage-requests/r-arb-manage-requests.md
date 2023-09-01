@@ -1,26 +1,26 @@
 ---
-description: Descrizioni dei campi per Gestisci richieste nel Report Builder.
-title: 'Gestire le richieste: definizioni'
+description: Scopri le descrizioni dei campi per Gestisci richieste nel Report Builder.
+title: Come gestire le richieste nel Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 3%
+source-wordcount: '552'
+ht-degree: 2%
 
 ---
 
 # Gestire le richieste: definizioni
 
-Descrizioni dei campi per Gestisci richieste nel Report Builder.
+Visualizzare i dettagli dello stato di una richiesta e utilizzare le descrizioni dei campi per gestire le richieste nel Report Builder.
 
 ## Panoramica {#section_75C288C945FA4781A4EDF806711A5660}
 
-Il [!UICONTROL Request Manager] fornisce una visualizzazione dettagliata dello stato di tutte le richieste create per tutti i fogli o solo per un foglio della cartella di lavoro attiva. È inoltre possibile aggiungere, modificare, aggiornare ed eliminare una richiesta (funzioni tipicamente associate alla [!UICONTROL Request Wizard] e [!UICONTROL Request Manager]) facendo clic con il pulsante destro del mouse su una cella disponibile nel foglio di calcolo Excel che contiene richieste precedenti.
+Il [!UICONTROL Request Manager] fornisce una visualizzazione dettagliata dello stato di tutte le richieste create per tutti i fogli o solo per un foglio della cartella di lavoro attiva. Puoi anche aggiungere, modificare, aggiornare ed eliminare una richiesta. Queste funzioni sono tipicamente associate al [!UICONTROL Request Wizard] e [!UICONTROL Request Manager] quando fai clic con il pulsante destro del mouse su una cella disponibile nel foglio di calcolo Excel che contiene richieste precedenti.
 
-Il [!UICONTROL Request Manager] viene visualizzato quando si fa clic su **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) nella barra degli strumenti del Report Builder.
+Il [!UICONTROL Request Manager] viene visualizzato quando si fa clic su **[!UICONTROL Manage]**  ![](assets/edit_request.gif) nella barra degli strumenti del Report Builder.
 
 >[!NOTE]
 >

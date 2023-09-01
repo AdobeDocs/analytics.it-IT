@@ -1,79 +1,79 @@
 ---
-description: Questa funzionalità integra ulteriormente l'utilizzo del Report Builder nel flusso di lavoro naturale di Excel, senza richiedere l'accesso all'interfaccia utente del Report Builder.
-title: Richiama delle funzionalità di Report Builder dalle funzioni di Microsoft Excel
+description: Scopri come utilizzare Microsoft Excel con le funzioni di Report Builder senza accedere all’interfaccia utente del Report Builder.
+title: Scopri come utilizzare Microsoft Excel con le funzioni di Report Builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
 role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 4%
+source-wordcount: '487'
+ht-degree: 3%
 
 ---
 
-# Richiama delle funzionalità di Report Builder dalle funzioni di Microsoft Excel
+# Utilizzare le funzioni di Report Builder con Microsoft Excel
 
-Questa funzionalità integra ulteriormente l&#39;utilizzo del Report Builder nel flusso di lavoro naturale di Excel, senza richiedere l&#39;accesso all&#39;interfaccia utente del Report Builder.
+È possibile utilizzare le funzioni di Report Builder per accedere alle funzionalità senza accedere all&#39;interfaccia utente del Report Builder.
 
-Ad esempio, potrebbe essere utile aggiornare automaticamente le richieste di Report Builder il cui filtro di input si basa sui dati estratti in Excel da altre origini. È ora possibile utilizzare la stringa RefreshRequestsInCellsRange(..) . Tutte le chiamate sono asincrone. Vengono restituiti immediatamente e non attendono la completa esecuzione di una chiamata.
+Ad esempio, per aggiornare automaticamente le richieste di Report Builder con filtri di input basati sui dati estratti in Excel da altre origini, utilizzare la stringa RefreshRequestsInCellsRange(..) . Tutte le chiamate sono asincrone e vengono restituite immediatamente senza attendere la completa esecuzione.
 
->[!NOTE]
->
->Per il funzionamento di questa funzionalità è necessario aver installato Report Builder 5.0 (o versione successiva).
+**Requisiti**
 
-Di seguito è riportata una tabella con l’elenco delle funzioni esposte:
+* È necessario specificare Report Builder 5.0 (o versione successiva).
 
-| Nome funzione | Descrizione |
-|---|---|
-| string AsyncRefreshAll() | Aggiorna tutte le richieste di Report Builder presenti in una cartella di lavoro. |
-| string AsyncRefreshRange(string rangeAddressInA1Format) | Aggiorna tutte le richieste di Report Builder presenti nell&#39;indirizzo di intervallo di celle specificato (un&#39;espressione stringa che rappresenta un intervallo di celle in formato A1, ad esempio &quot;Foglio1!A2:A10&quot;). |
-| string AsyncRefreshRangeAltTextParam() | Aggiorna tutte le richieste di Report Builder presenti nell&#39;intervallo di celle specificato passato tramite il testo alternativo del controllo Form Ms. |
-| string AsyncRefreshActiveWorksheet() | Aggiorna tutte le richieste di Report Builder presenti nel foglio di lavoro attivo. |
-| string AsyncRefreshWorksheet(string sheetName) | Aggiorna tutte le richieste di Report Builder presenti nel foglio di lavoro specificato (il nome del foglio di lavoro visualizzato nella scheda). |
-| string AsyncRefreshWorksheetAltTextParam(); | Aggiorna tutte le richieste di Report Builder presenti nel nome specifico del foglio di lavoro passato tramite il testo alternativo del controllo Ms Form |
-| string GetLastRunStatus() | Restituisce una stringa che descrive lo stato dell&#39;ultima esecuzione. |
+Nella tabella seguente sono elencate le funzioni esposte.
 
-Per accedere a queste funzioni in Report Builder, vai a [!UICONTROL Formulas] > [!UICONTROL Insert Function]. Nella parte inferiore dell’elenco delle categorie, troverai Adobe.ReportBuilder.Bridge:
+| Nome funzione | Tipo | Descrizione |
+|:---| --- | ---|
+| AsyncRefreshAll() | string | Aggiorna tutte le richieste di Report Builder presenti in una cartella di lavoro. |
+| AsyncRefreshRange(string rangeAddressInA1Format) | string | Aggiorna tutte le richieste di Report Builder presenti nell&#39;indirizzo di intervallo di celle specificato (un&#39;espressione stringa che rappresenta un intervallo di celle in formato A1, ad esempio &quot;Foglio1!A2:A10&quot;). |
+| AsyncRefreshRangeAltTextParam() | string | Aggiorna tutte le richieste di Report Builder presenti nell&#39;intervallo di celle specificato passato tramite il testo alternativo del controllo Form Ms. |
+| AsyncRefreshActiveWorksheet() | string | Aggiorna tutte le richieste di Report Builder presenti nel foglio di lavoro attivo. |
+| AsyncRefreshWorksheet(string sheetName) | string | Aggiorna tutte le richieste di Report Builder presenti nel foglio di lavoro specificato (il nome del foglio di lavoro visualizzato nella scheda). |
+| AsyncRefreshWorksheetAltTextParam(); | string | Aggiorna tutte le richieste di Report Builder presenti nel nome specifico del foglio di lavoro passato tramite il testo alternativo del controllo Ms Form |
+| stringa GetLastRunStatus() | string | Restituisce una stringa che descrive lo stato dell&#39;ultima esecuzione. |
 
-![](assets/arb_functions.png)
+Per accedere alle funzioni del Report Builder, vai a **[!UICONTROL Formulas]** > **[!UICONTROL Insert Function]**. Utilizzare il campo di ricerca per cercare una funzione o selezionare una categoria per elencare le funzioni in tale categoria.
 
-## Utilizzare queste funzioni in una formula {#section_034311081C8D4D7AA9275C1435A087CD}
+![Schermata che mostra la finestra Inserisci funzione con l&#39;elenco delle categorie espanso.](assets/arb_functions.png)
 
-Ad esempio, la formula
+## Esempio {#section_034311081C8D4D7AA9275C1435A087CD}
+
+L’esempio seguente mostra *Se il valore nella cella P5 è un testo o è vuoto, aggiornare l&#39;intervallo nella cella P9*.
 
 ```
 =IF(OR(ISTEXT(P5),ISBLANK(P5)),AsyncRefreshRange("P9"),"")
 ```
 
-dice &quot;Se il valore nella cella P5 è un testo o è vuoto, aggiornare l&#39;intervallo nella cella P9.&quot;
-
 ## Utilizzare le funzioni di Report Builder con il controllo del formato {#section_26123090B5BD49748C8D8ED7A1C5ED84}
 
-È ora possibile assegnare una macro a un controllo creato e tale controllo può essere una funzione che aggiorna una richiesta di cartella di lavoro. Ad esempio, la funzione AsyncRefreshActiveWorksheet aggiornerà tutte le richieste in un foglio di lavoro. Talvolta, tuttavia, potrebbe essere utile aggiornare solo alcune richieste, non tutte.
+È possibile assegnare una macro a un controllo creato e tale controllo può essere una funzione che aggiorna una richiesta di cartella di lavoro. Ad esempio, la funzione AsyncRefreshActiveWorksheet aggiornerà tutte le richieste in un foglio di lavoro. Talvolta, tuttavia, potrebbe essere utile aggiornare solo alcune richieste.
 
 1. Impostare il parametro della macro.
 1. Fare clic con il pulsante destro del mouse sul controllo e selezionare **[!UICONTROL Assign Macro]**.
-1. Inserire il nome della funzione di Report Builder (nessun parametro o parentesi).
+1. Immettere il nome della funzione di Report Builder (nessun parametro o parentesi).
 
-![](assets/assign_macro.png)
+![Schermata che mostra la finestra Assegna macro.](assets/assign_macro.png)
 
-## Trasmettere i parametri alle funzioni del Report Builder tramite il controllo del formato {#section_ECCA1F4990D244619DFD79138064CEF0}
+## Trasmettere i parametri alle funzioni di Report Builder mediante il controllo del formato {#section_ECCA1F4990D244619DFD79138064CEF0}
 
-Le due funzioni che accettano un parametro possono essere utilizzate con il controllo Formato, ma solo tramite il campo Testo Alt:
+Due funzioni che accettano un parametro possono essere utilizzate con Controllo formato. È necessario utilizzare il **Testo alternativo:** campo:
 
 * AsyncRefreshRange(string rangeAddressInA1Format)
 * AsyncRefreshWorksheet(string sheetName)
 
+Per passare parametri alle funzioni di Report Builder mediante il controllo del formato
+
 1. Fare clic con il pulsante destro del mouse sul controllo e selezionare **[!UICONTROL Format Control]**.
 
-   ![](assets/format_control.png)
+   ![Schermata che mostra il controllo del formato selezionato.](assets/format_control.png)
 
-1. Fai clic sulla scheda [!UICONTROL Alt Text].
+1. Fai clic sulla scheda **[!UICONTROL Alt Text]**.
 
-   ![](assets/alt_text.png)
+   ![Schermata che mostra la scheda Testo alternativo e il campo Testo alternativo:.](assets/alt_text.png)
 
-1. Sotto [!UICONTROL Alternative text], immettere l&#39;intervallo di celle da aggiornare.
-1. Apri l’elenco dei parametri di Report Builder in [!UICONTROL Formulas] > [!UICONTROL Insert Function]> [!UICONTROL Adobe.ReportBuilder.Bridge].
+1. Sotto **[!UICONTROL Alternative text]**, immettere l&#39;intervallo di celle da aggiornare.
+1. Apre l&#39;elenco dei parametri di Report Builder in **[!UICONTROL Formulas]** > **[!UICONTROL Insert Function]**> **[!UICONTROL Adobe.ReportBuilder.Bridge]**.
 
 1. Selezionate una delle due funzioni che terminano con AltTextParam e fate clic su **[!UICONTROL OK]**.

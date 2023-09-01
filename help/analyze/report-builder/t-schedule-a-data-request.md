@@ -1,13 +1,13 @@
 ---
-description: Puoi pianificare l’invio dei rapporti in base all’ora e al formato di file definiti.
-title: Pianificare una richiesta di dati
+description: Scopri come pianificare i rapporti.
+title: Come pianificare una richiesta di dati
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '975'
 ht-degree: 3%
 
 ---
@@ -34,17 +34,15 @@ Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Report 
 > * **Problemi nei servizi a valle** su cui si basa lo scheduler può influire anche sulla consegna delle cartelle di lavoro. Ad esempio, se utilizzi le API in modo indipendente per eseguire le cartelle di lavoro e riempire la coda di richieste API, le cartelle di lavoro pianificate potrebbero consegnarsi lentamente mentre competi per quella risorsa.
 > * **Latenza suite di rapporti** (un ritardo nella raccolta dei dati) può anche ritardare alcune cartelle di lavoro pianificate.
 
-
 ## Pianificare una cartella di lavoro
 
 1. Generare e salvare una cartella di lavoro.
 1. Sulla barra degli strumenti del Report Builder fare clic su **[!UICONTROL Schedule]**.
 
    Il [!UICONTROL Scheduled Reports] La scheda riepiloga tutte le attività create e il numero di attività rimanenti.
-1. Nella scheda **[!UICONTROL Scheduled Reports]** fai clic su **[!UICONTROL New]**.
-1. Viene visualizzata la Programmazione guidata di base:
+1. Nella scheda **[!UICONTROL Scheduled Reports]** fai clic su **[!UICONTROL New]**. La Programmazione guidata di base mostra le opzioni utilizzate per definire il rapporto programmato.
 
-   ![](assets/simple-schedule-wizard.png)
+   ![Schermata che mostra la Programmazione guidata di base.](assets/simple-schedule-wizard.png)
 
 1. In [!UICONTROL Basic Scheduling Wizard], configura le seguenti opzioni:
 

@@ -4,10 +4,10 @@ title: Gestire i segmenti (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '986'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -26,7 +26,7 @@ Nel passaggio 1 della Creazione guidata richieste, il Report Builder dispone di 
 >Per aggiungere o modificare segmenti, l’interfaccia dei segmenti di Report Builder avvia il Generatore di segmenti di Analytics in una finestra di Microsoft Internet Explorer. La sessione di Report Builder rimarrà attiva. I browser diversi da Internet Explorer non sono supportati per questa operazione.
 
 1. Nel pannello dei segmenti del passaggio 1 della Creazione guidata richieste, fai clic su **[!UICONTROL Add]**.
-1. Viene visualizzata una finestra di Internet Explorer che apre l’interfaccia del Generatore di segmenti di Analytics. Per informazioni su come creare i segmenti, consulta [Segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
+1. Viene visualizzata una finestra di Internet Explorer che apre l’interfaccia del Generatore di segmenti di Analytics. Per informazioni su come creare i segmenti, consulta [Segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it).
 1. Dopo aver definito e salvato il segmento, torna alla Creazione guidata richieste.
 1. Fai clic sull’icona Aggiorna per aggiornare l’elenco dei segmenti.
 
@@ -36,18 +36,18 @@ Nel passaggio 1 della Creazione guidata richieste, il Report Builder dispone di 
 
 ## Creare segmenti nel contesto {#section_6DD2C663B2854469AA1075438F907678}
 
-È possibile che siano presenti combinazioni specifiche di dimensioni report da trasformare in un segmento. Puoi creare questi segmenti dall’interfaccia di Report Builder. Ad esempio, seleziona alcune pagine dall’output di una richiesta di pagina e crea un segmento basato su questi valori.
+Puoi avere combinazioni specifiche di dimensioni di rapporto che desideri trasformare in un segmento. Puoi creare questi segmenti dall’interfaccia di Report Builder. Ad esempio, seleziona alcune pagine dall’output di una richiesta di pagina e crea un segmento basato su questi valori.
 
 1. Seleziona gli elementi di output del rapporto che desideri trasformare in un segmento.
 1. Fai clic con il pulsante destro del mouse per selezionare **[!UICONTROL Create In-Context Segment in]** e specifica il contenitore corretto (Contenitore Hit, Contenitore Visite, Contenitore Visitatore).
 
    ![Schermata che mostra l’opzione Crea segmento nel contesto nelle opzioni contenitore selezionate e disponibili.](assets/seg_in_context.png)
 
-   Per ulteriori informazioni sui contenitori, vedi [Guida alla segmentazione](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
+   Per ulteriori informazioni sui contenitori, vedi [Guida alla segmentazione](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it).
 
 1. L’interfaccia utente del Generatore di segmenti verrà ora avviata in Internet Explorer. L’interfaccia utente del Generatore di segmenti verrà inizializzata con il contenitore e il filtro specificati.
 1. Dopo aver aggiunto un nome e una descrizione al segmento, salvalo.
-1. Torna a Report Builder e fai clic sull’icona Aggiorna per aggiornare l’elenco dei segmenti.
+1. Torna al Report Builder e fai clic sull’icona Aggiorna per aggiornare l’elenco dei segmenti.
 1. Ora puoi applicare questo segmento.
 
 ## Cercare e applicare segmenti {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
@@ -76,7 +76,7 @@ I filtri disponibili includono:
 |---|---|
 | Tag | Consente di filtrare i segmenti con tag specifici. I filtri di tag utilizzano l’operatore AND. Se selezioni due tag, nel riquadro a destra vengono visualizzati i segmenti a cui sono stati assegnati tag **entrambi** tag. |
 | Proprietari | Consente di filtrare i segmenti in base al proprietario. I filtri Proprietari utilizzano l’operatore OR. Se selezioni due proprietari, nel riquadro a destra vengono visualizzati i segmenti di proprietà di **o** proprietario. |
-| Altri filtri > Solo *nome suite di rapporti* | Se si applica &quot;Solo&quot; *nome suite di rapporti* Filtro &quot; nel Generatore di segmenti in [!DNL marketing reports & analytics], quindi visualizzare il Filtro avanzato in [!DNL report builder], il filtro Avanzate visualizza il segmento solo per la suite di rapporti selezionata. |
+| Altri filtri > Solo *nome suite di rapporti* | Se si applica &quot;Solo&quot; *nome suite di rapporti* Filtro &quot; nel Generatore di segmenti in [!DNL marketing reports & analytics], quindi visualizzare il Filtro avanzato in [!DNL Report Builder], il filtro Avanzate visualizza il segmento solo per la suite di rapporti selezionata. |
 | Altri filtri > Personali | Mostra tutti i segmenti di tua proprietà. |
 | Altri filtri > Condivisi con me | Mostra tutti i segmenti che altri utenti hanno condiviso con te. |
 | Altri filtri > Preferiti | Mostra tutti i segmenti contrassegnati come Preferiti. |

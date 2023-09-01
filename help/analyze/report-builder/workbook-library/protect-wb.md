@@ -1,18 +1,18 @@
 ---
-description: È possibile proteggere tutte le richieste di una cartella di lavoro dall'aggiunta e dalla modifica di richieste bloccando la cartella di lavoro. In questo modo è possibile modificare le cartelle di lavoro in modalità offline sospendendo tutte le richieste di report per una modifica più efficiente.
-title: Bloccare/sbloccare le cartelle di lavoro
+description: Scopri come proteggere tutte le richieste in una cartella di lavoro dall’aggiunta e dalla modifica di richieste bloccando la cartella di lavoro.
+title: Come bloccare e sbloccare le cartelle di lavoro
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 1%
+source-wordcount: '464'
+ht-degree: 0%
 
 ---
 
-# Bloccare/sbloccare le cartelle di lavoro
+# Bloccare e sbloccare le cartelle di lavoro
 
 È possibile proteggere tutte le richieste di una cartella di lavoro dall&#39;aggiunta e dalla modifica di richieste bloccando la cartella di lavoro. In questo modo è possibile modificare le cartelle di lavoro in modalità offline sospendendo tutte le richieste di report per una modifica più efficiente.
 
@@ -33,20 +33,18 @@ Per rimuovere la protezione di una cartella di lavoro, fare clic su **[!UICONTRO
 
 Quando una cartella di lavoro è bloccata per impedire la modifica delle richieste,
 
-* Gli utenti non possono creare/aggiungere richieste.
+* Gli utenti non possono creare e aggiungere richieste.
 * Gli utenti non possono modificare le richieste tramite la Creazione guidata richieste.
 * Gli utenti non possono modificare le richieste tramite le funzioni Modifica più richieste.
 * Gli utenti non possono tagliare, copiare o incollare richieste. Tuttavia, gli utenti possono ancora utilizzare il menu di scelta rapida nativo di Excel Taglia/Copia/Incolla per tagliare/copiare/incollare il contenuto delle richieste.
 * Gli utenti possono aggiornare le richieste, singolarmente o come parte di un gruppo.
 * Se la richiesta utilizza valori di input dalle celle (intervallo di date, segmento, filtri), gli utenti possono modificare tali valori nelle celle e quindi modificare indirettamente le richieste aggiornandole.
 
-Se si tenta di modificare una cartella di lavoro protetta tramite il menu di scelta rapida oppure **[!UICONTROL Request Manager]**, o **[!UICONTROL Edit Multiple Requests]**), può essere consentito o meno:
+Se si tenta di modificare una cartella di lavoro protetta tramite il menu di scelta rapida oppure **[!UICONTROL Request Manager]**, o **[!UICONTROL Edit Multiple Requests]**, è possibile che tu possa o meno essere autorizzato a farlo:
 
-* Se non disponi delle autorizzazioni necessarie per sbloccare le richieste, viene visualizzato questo messaggio:
+* Se non si dispone delle autorizzazioni per sbloccare una richiesta, verrà visualizzato un messaggio che indica che non si dispone dei diritti per sbloccare e modificare la cartella di lavoro.
 
-   ![](assets/locked_workbook_error.png)
-
-* Se disponi delle autorizzazioni necessarie, non viene visualizzato alcun prompt ed è possibile modificare la richiesta.
+  ![Schermata che mostra il messaggio di errore quando non disponi delle autorizzazioni necessarie per sbloccare una richiesta.](assets/locked_workbook_error.png)
 
 ## Flusso di lavoro {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 

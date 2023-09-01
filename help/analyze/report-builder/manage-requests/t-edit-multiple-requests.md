@@ -1,14 +1,14 @@
 ---
-description: Puoi modificare diverse richieste contemporaneamente, in base alla suite di rapporti della richiesta, alla granularità e all’intervallo di date.
-title: Modificare più richieste
+description: Scopri come modificare più richieste contemporaneamente.
+title: Come modificare più richieste
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 3%
+source-wordcount: '278'
+ht-degree: 2%
 
 ---
 
@@ -35,11 +35,11 @@ Puoi modificare diverse richieste contemporaneamente, in base alla suite di rapp
    * **Per segmento**: raggruppa le richieste in base al nome del segmento.
 
       * **Scegli segmento**: mostra se non esistono segmenti per le richieste. Per aggiungere segmenti, fai clic su **[!UICONTROL Edit Group]** e seleziona un segmento dalla sezione [!UICONTROL Edit Group] pannello.
+
    * **Per metrica:** Consulta [Modificare le metriche in più richieste](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Per intervallo di date e granularità:** Raggruppa la visualizzazione delle richieste in base all’intervallo di date e alla granularità temporale.
    * **Per gruppo:** Raggruppa la visualizzazione delle richieste per set di richieste raggruppate.
-
 
 1. Il giorno [!UICONTROL Edit Multiple Requests] form, fai clic su **[!UICONTROL OK]**.
 

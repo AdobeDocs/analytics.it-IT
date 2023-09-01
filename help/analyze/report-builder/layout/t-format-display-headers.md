@@ -5,7 +5,7 @@ uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 2%
@@ -33,15 +33,15 @@ Puoi assegnare un nome al rapporto e configurare la modalità di visualizzazione
 
    **Visualizza intestazioni di riga e colonna:** Aggiunge una riga e una colonna per visualizzare questi elementi.
 
-   Nella versione 3.11, era possibile visualizzare un’intestazione per ogni elemento. Nella versione 4 vengono visualizzati tutti questi elementi o nessuno di essi. Se hai creato una richiesta nella versione 3.11 e la apri nella versione 4.x, nel passaggio 2 Report Builder ti chiede di aggiornare l’intervallo di una cella per gli elementi senza intestazione.
+   Nella versione 3.11, era possibile visualizzare un’intestazione per ogni elemento. Nella versione 4 vengono visualizzati tutti questi elementi o nessuno di essi. Se hai creato una richiesta nella versione 3.11 e la apri nella versione 4.x, nel passaggio 2 il Report Builder ti chiede di aggiornare l’intervallo di una cella per gli elementi per i quali manca un’intestazione.
 
-   **Cambia intestazioni in filtri automatici Excel:** Disponibile solo se vengono visualizzate le intestazioni di riga e di colonna. Questa impostazione crea un filtro automatico Excel e lo aggiunge ai risultati restituiti dal generatore di report di dati per questa richiesta.
+   **Cambia intestazioni in filtri automatici Excel:** Disponibile solo se vengono visualizzate le intestazioni di riga e di colonna. Questa impostazione crea un filtro automatico di Excel e lo aggiunge al Report Builder di dati restituito per questa richiesta.
 
    >[!NOTE]
    >
    >Excel supporta un solo filtro automatico per foglio di lavoro. Se si crea un nuovo filtro automatico in un foglio di lavoro in cui esiste già un filtro automatico, non verrà visualizzato alcun avviso che avvisa che il filtro automatico esistente verrà sostituito.
 
-   **Esegui struttura automatica:** Trasforma la data restituita da Report Builder da una vista a elenco a una vista a struttura.
+   **Esegui struttura automatica:** Trasforma la data restituita dal Report Builder da una vista a elenco a una vista a struttura.
 
    **Denomina questa richiesta:** Consente di digitare un nome definito dall&#39;utente per la richiesta o di utilizzare il nome predefinito selezionato al passaggio 1. Questo nome viene visualizzato come [!UICONTROL Report] nome in [!UICONTROL Request Manager]. Consulta [Assegnare un nome a una richiesta](/help/analyze/report-builder/layout/name-a-request.md).
 

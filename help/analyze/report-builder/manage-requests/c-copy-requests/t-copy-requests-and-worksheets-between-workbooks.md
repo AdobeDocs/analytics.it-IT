@@ -5,7 +5,7 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Copiare un intero foglio di calcolo in una cartella di lavoro di origine in un f
 1. Fare clic con il pulsante destro del mouse sul foglio di calcolo nella cartella di lavoro di origine e selezionare **[!UICONTROL Copy Worksheet w/Requests]**.
 1. Nella cartella di lavoro di destinazione, fai clic con il pulsante destro del mouse sul foglio di calcolo e seleziona **[!UICONTROL Paste Worksheet w/Requests]**.
 
-   La stessa istanza di Excel indica che solo un singolo processo di Excel ( [!DNL excel.exe]) è in esecuzione sul computer in un determinato momento. Se si avviano due istanze di Excel e si tenta di copiare un foglio di lavoro da una cartella di lavoro nella prima istanza di Excel a una cartella di lavoro nella seconda istanza di Excel, Report Builder non presenta l&#39;opzione di incollare un foglio di lavoro nel menu di scelta rapida della seconda istanza di Excel.
+   La stessa istanza di Excel indica che solo un singolo processo di Excel ( [!DNL excel.exe]) è in esecuzione sul computer in un determinato momento. Se si avviano due istanze di Excel e si tenta di copiare un foglio di lavoro da una cartella di lavoro nella prima istanza di Excel a una cartella di lavoro nella seconda istanza di Excel, Report Builder non presenta l&#39;opzione per incollare un foglio di lavoro nel menu di scelta rapida della seconda istanza di Excel.
 
    Se si accede alle cartelle di lavoro di origine e di destinazione utilizzando suite di rapporti diverse, gli unici risultati visualizzati dall&#39;operazione Incolla sono quelli che influiscono sulla formattazione della cartella di lavoro di destinazione. Nel Report Builder viene visualizzato un messaggio che indica che le informazioni per le richieste derivate da una suite di rapporti specificata (nella cartella di lavoro di origine) non sono disponibili nella cartella di lavoro di destinazione. Per visualizzare le richieste incollate nella cartella di lavoro di destinazione, è necessario accedere alla cartella di lavoro di destinazione utilizzando la stessa suite di rapporti della cartella di lavoro di origine.
 

@@ -4,7 +4,7 @@ title: Filtrare un rapporto di percorso mediante la Creazione guidata richieste
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 5%
@@ -48,7 +48,7 @@ In questo esempio vengono utilizzati i percorsi delle sezioni del sito.
 
    ![](assets/select_a_pattern.png)
 
-   Alcuni di questi modelli sono specifici di Report Builder: Motivo elemento successivo del percorso di immissione, Pattern elemento precedente del percorso di uscita, Pattern elemento successivo.
+   Alcuni di questi modelli sono specifici per il Report Builder: Motivo elemento successivo del percorso di immissione, Motivo elemento precedente del percorso di uscita, Motivo elemento successivo.
 
 ## Per modificare un pattern predefinito
 
