@@ -2,9 +2,9 @@
 description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare le opzioni di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '490'
 ht-degree: 6%
 
 ---
@@ -37,17 +37,17 @@ Per configurare le opzioni di report per una richiesta Data Warehouse:
 
    | Opzione | Funzione |
    |---------|----------|
-   | Nome file | Identifica il rapporto. |
-   | Aggiungi intervallo di date rapporto al nome file | Aggiunge l’intervallo di date al nome del file del rapporto. <p>Ad esempio, se richiedi dati dal 1° maggio 2024 al 7 maggio 2024, il nome del file includerà l’intervallo di date 20240501 - 20240507.</p> |
-   | CSV | Fornisce rapporti in formato CSV per la visualizzazione dei dati in un foglio di calcolo. |
-   | Tableau (TDE) | Fornisce rapporti in formato TDE (Tableau Data Extract), che può essere utilizzato per visualizzare dati e livelli in dati aggiuntivi all’interno di Tableau. |
-   | Invia rapporto come file compresso (ZIP) | Fornisce rapporti in formato file compresso (ZIP). È consigliabile abilitare questa opzione quando si utilizza l’e-mail come [destinazione del rapporto](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
-   | Numero di righe nella tabella | Il numero di righe che possono essere incluse nel rapporto. Utilizza 0 per includere tutte le righe (questa è la selezione predefinita). <!-- when would you want to limit the rows? To improve performance? Do we have recommendations? --> |
-   | Commenti | Aggiungere i commenti che si desidera includere nel report. I commenti vengono visualizzati all&#39;inizio del report. |
-   | Ordinare per metriche | Fornisce rapporti con raggruppamenti classificati in Date Warehouse, ordinati per valore di metrica decrescente. L’ordinamento per metrica semplifica l’interpretazione dei rapporti Data Warehouse e ne agevola la comparazione con altre visualizzazioni di reporting di suddivisione di Analytics.<p>Per ulteriori informazioni, consulta [Ordina per metrica](/help/export/data-warehouse/sorting-by-metric.md).</p> |
-   | Invia file manifesto | Include i metadati sui file inclusi nel rapporto.<!-- What kind of metadata is included in the manifest file? --> |
-   | Invia file di firma digitale | Consente ai destinatari dei report di verificare che il file provenga da Adobe e che non sia stato modificato. |
-   | Invia un file vuoto se il report non contiene dati | Invia un report anche quando il report non contiene dati. |
+   | [!UICONTROL **Nome file**] | Identifica il rapporto. |
+   | [!UICONTROL **Aggiungi intervallo di date rapporto al nome file**] | Aggiunge l’intervallo di date al nome del file del rapporto. <p>Ad esempio, se richiedi dati dal 1° maggio 2024 al 7 maggio 2024, il nome del file includerà l’intervallo di date 20240501 - 20240507.</p> |
+   | [!UICONTROL **CSV**] | Fornisce rapporti in formato CSV per la visualizzazione dei dati in un foglio di calcolo. |
+   | [!UICONTROL **Tableau (TDE)**] | Fornisce rapporti in formato TDE (Tableau Data Extract), che può essere utilizzato per visualizzare dati e livelli in dati aggiuntivi all’interno di Tableau. |
+   | [!UICONTROL **Invia rapporto come file compresso (ZIP)**] | Fornisce rapporti in formato file compresso (ZIP). È consigliabile abilitare questa opzione quando si utilizza l’e-mail come [destinazione del rapporto](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Restituisci tutte le righe**] | Quando questa opzione è attivata, tutte le righe vengono incluse nel rapporto. Disattiva questa opzione per specificare il numero di righe da includere. |
+   | [!UICONTROL **Inizio dei commenti del rapporto**] | Aggiungere i commenti che si desidera includere nel report. I commenti vengono visualizzati all&#39;inizio del report. |
+   | [!UICONTROL **Ordinare per metriche**] | Fornisce rapporti con raggruppamenti classificati in Date Warehouse, ordinati per valore di metrica decrescente. L’ordinamento per metrica semplifica l’interpretazione dei rapporti Data Warehouse e ne agevola la comparazione con altre visualizzazioni di reporting di suddivisione di Analytics.<p>Per ulteriori informazioni, consulta [Ordina per metrica](/help/export/data-warehouse/sorting-by-metric.md).</p> |
+   | [!UICONTROL **Inviare un file manifesto**] | Include i metadati sui file inclusi nel rapporto.<!-- What kind of metadata is included in the manifest file? --> |
+   | [!UICONTROL **Inviare un file di firma digitale**] | Consente ai destinatari dei report di verificare che il file provenga da Adobe e che non sia stato modificato. |
+   | [!UICONTROL **Invia un file vuoto se il report non contiene dati**] | Invia un report anche quando il report non contiene dati. |
 
    {style="table-layout:auto"}
 

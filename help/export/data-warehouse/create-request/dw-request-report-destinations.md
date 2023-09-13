@@ -2,9 +2,9 @@
 description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare una destinazione di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '2081'
 ht-degree: 4%
 
 ---
@@ -59,13 +59,13 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       | Campo | Funzione |
       |---------|----------|
-      | [!UICONTROL **Tipo di account**] | Seleziona il tipo di account cloud. È consigliabile disporre di un singolo account per ogni tipo di account, con più posizioni in base alle esigenze all’interno dell’account. <p>Dopo aver scelto un tipo di conto, vengono visualizzati i campi specifici per tale tipo di conto. Per istruzioni di configurazione per ogni tipo di account, espandi la sezione seguente che corrisponde al selezionato. </p> |
+      | [!UICONTROL **Tipo di account**] | Seleziona il tipo di account cloud. È consigliabile disporre di un singolo account per ogni tipo di account, con più posizioni in base alle esigenze all’interno dell’account. <p>Dopo aver scelto un tipo di conto, vengono visualizzati i campi specifici per tale tipo di conto. </p> |
       | [!UICONTROL **Nome account**] | Specifica un nome per l’account. Questo nome viene visualizzato durante la creazione di una posizione. <!-- true? --> |
       | [!UICONTROL **Descrizione account**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. |
 
       Per le istruzioni di configurazione, espandi la sezione seguente che corrisponde a [!UICONTROL **Tipo di account**] che hai selezionato.
 
-      Utilizza uno dei seguenti tipi di account durante la configurazione di una destinazione di rapporto. Per istruzioni di configurazione, espandi il tipo di account. (Destinazioni legacy aggiuntive <!-- add link --> sono disponibili, ma non sono consigliati.)
+      Utilizza uno dei seguenti tipi di account durante la configurazione di una destinazione di rapporto. Per istruzioni di configurazione, espandi il tipo di account. (aggiuntivo [destinazioni legacy](#legacy-destinations) sono disponibili, ma non sono consigliati.)
 
       +++Amazon S3
 
@@ -134,7 +134,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
    1. In [!UICONTROL **Proprietà posizione**] , specificare informazioni specifiche sul tipo di account dell&#39;account di posizione.
 
-      Per le istruzioni di configurazione, espandi la sezione seguente che corrisponde al tipo di account selezionato in precedenza.
+      Per le istruzioni di configurazione, espandi la sezione seguente che corrisponde a [!UICONTROL **Tipo di account**] selezionato in precedenza.
 
       +++Amazon S3
 
@@ -194,3 +194,67 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
       Ora puoi importare i dati nell’account e nella posizione configurati.
 
 1. Continua a configurare la richiesta Data Warehouse in [!UICONTROL **Opzioni di report**] scheda. Per ulteriori informazioni, consulta [Configurare le opzioni di rapporto per una richiesta Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+
+## Destinazioni legacy
+
+>[!IMPORTANT]
+>
+>Le destinazioni descritte in questa sezione sono legacy e non sono consigliate. Al contrario, utilizza una delle seguenti destinazioni durante la creazione di una destinazione di data warehouse: Amazon S3, Google Cloud Platform, Azure RBAC, Azure SAS o E-mail. Per informazioni dettagliate su ciascuna di queste destinazioni consigliate, consulta le informazioni precedenti.
+
+Le informazioni seguenti forniscono informazioni di configurazione per ciascuna destinazione legacy:
+
+### FTP
+
+I dati di data warehouse possono essere inviati a un Adobe o a una posizione FTP ospitata dal cliente. Richiede un host FTP, un nome utente e una password. Utilizza il campo percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste.
+
+Per completare i campi disponibili, utilizza le seguenti informazioni:
+
+* [!UICONTROL **Host**]: immetti l’URL di destinazione FTP desiderato. Esempio: `ftp://ftp.omniture.com`.
+* [!UICONTROL **Percorso**]: può essere lasciato vuoto
+* [!UICONTROL **Nome utente**]: immetti il nome utente per accedere al sito FTP.
+* [!UICONTROL **Password e conferma password**]: immetti la password per accedere al sito FTP.
+
+### SFTP
+
+È disponibile il supporto SFTP per data warehouse. Richiede un host SFTP, un nome utente e il sito di destinazione per contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica appropriata durante la creazione della destinazione del data warehouse.
+
+### S3
+
+Puoi inviare i dati di magazzino direttamente ai bucket Amazon S3. Questo tipo di destinazione richiede un nome bucket, un ID chiave di accesso e una chiave segreta. Consulta [Requisiti di denominazione del bucket Amazon S3](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) nella documentazione di Amazon S3 per ulteriori informazioni.
+
+L’utente fornito per il caricamento dei dati del data warehouse deve disporre dei seguenti [autorizzazioni](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+Sono supportate le seguenti 16 aree geografiche standard di AWS (utilizzando l’algoritmo di firma appropriato, se necessario):
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>L&#39;area cn-north-1 non è supportata.
+
+### BLOB di Azure
+
+Data warehouse supporta le destinazioni BLOB di Azure. Richiede un contenitore, un account e una chiave. Amazon crittografa automaticamente i dati inattivi. Quando scarichi i dati, questi vengono decrittografati automaticamente. Consulta [Creare un account di archiviazione](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) nei documenti di Microsoft Azure per ulteriori informazioni.
+
+>[!NOTE]
+>
+>È necessario implementare un processo personalizzato per gestire lo spazio su disco nella destinazione del data warehouse. Adobe non elimina dati dal server.

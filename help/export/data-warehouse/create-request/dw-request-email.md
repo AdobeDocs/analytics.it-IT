@@ -2,7 +2,7 @@
 description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare le opzioni di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 10%
@@ -37,8 +37,8 @@ Per configurare un messaggio e-mail di notifica per una richiesta Data Warehouse
 
    | Opzione | Funzione |
    |---------|----------|
-   | Invia e-mail di notifica a | Specifica gli indirizzi e-mail delle persone che devono ricevere notifiche e-mail quando viene inviato il rapporto. <p>Puoi specificare un singolo indirizzo e-mail o un elenco di indirizzi e-mail separati da virgole.</p> |
-   | Opzioni avanzate | Seleziona questa opzione per includere un oggetto e le note per l’e-mail quando viene inviata la notifica. |
+   | [!UICONTROL **Invia e-mail di notifica a**] | Specifica gli indirizzi e-mail delle persone che devono ricevere notifiche e-mail quando viene inviato il rapporto. <p>Puoi specificare un singolo indirizzo e-mail o un elenco di indirizzi e-mail separati da virgole.</p> |
+   | [!UICONTROL **Opzioni avanzate**] | Seleziona questa opzione per includere un oggetto e le note per l’e-mail quando viene inviata la notifica. |
 
    {style="table-layout:auto"}
 
