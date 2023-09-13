@@ -2,16 +2,22 @@
 description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare una destinazione di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
-source-git-commit: 393355cd971f264da3e3e1b8736f5752fc4bdc62
+source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 5%
+source-wordcount: '527'
+ht-degree: 9%
 
 ---
 
 # Configurare le opzioni di pianificazione per una richiesta Data Warehouse
 
-{{release-limited-testing}}
+>[!AVAILABILITY]
+>
+>Alcune delle funzioni di Data Warehouse descritte in questo articolo (e in altri articoli di Data Warehouse presenti in questa sezione) sono disponibili solo nella fase di test limitato del rilascio e potrebbero non essere ancora disponibili nel tuo ambiente.
+>
+>Per informazioni sulle funzioni non ancora disponibili per tutti i clienti e sulle tempistiche di rilascio, vedi la [note sulla versione](/help/release-notes/latest.md).
+>
+>Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
 
 Durante la creazione di una richiesta Data Warehouse sono disponibili varie opzioni di configurazione. Le informazioni seguenti descrivono come configurare le opzioni di pianificazione per la richiesta.
 
