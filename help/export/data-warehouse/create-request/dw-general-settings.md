@@ -2,9 +2,9 @@
 description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Data Warehouse impostazioni generali della richiesta
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: ea4c1ae21f2c83bad92723e6ffd2e706fac5e1e8
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '351'
 ht-degree: 9%
 
 ---
@@ -38,7 +38,7 @@ Per configurare le impostazioni generali per una richiesta Data Warehouse:
    | Opzione | Funzione |
    |---------|----------|
    | Nome richiesta | Questo nome viene visualizzato nella pagina della Data Warehouse principale durante la gestione delle richieste. |
-   | Intervalli di date | Seleziona l’intervallo di date da includere nel rapporto. <p>Puoi scegliere date personalizzate o un intervallo di date predefinito. Gli intervalli di predefiniti sono relativi alla data di invio del rapporto.</p><p>Sono disponibili le seguenti opzioni predefinite:</p><ul><li>Oggi</li><li>Ieri</li><li>Ultimi 7 giorni</li><li>Ultimi 30 giorni</li><li>Questa settimana</li><li>Ultima settimana</li><li>Ultime 2 settimane</li><li>Ultime 3 settimane</li><li>Ultime 4 settimane</li><li>Questo mese</li><li>Ultimo mese</li><li>Ultima ora</li><li>Oggi</li><li>Oggi</li></ul> |
+   | Intervalli di date | Seleziona l’intervallo di date da includere nel rapporto. <p>Puoi scegliere date personalizzate o un intervallo di date predefinito. Gli intervalli di predefiniti sono relativi alla data di invio del rapporto.</p><p>Sono disponibili le seguenti opzioni predefinite:</p><ul><li>Oggi</li><li>Ieri</li><li>Ultimi 7 giorni</li><li>Ultimi 30 giorni</li><li>Questa settimana</li><li>Ultima settimana</li><li>Ultime 2 settimane</li><li>Ultime 3 settimane</li><li>Ultime 4 settimane</li><li>Questo mese</li><li>Ultimo mese</li><li>Ultima ora</li></ul> |
    | Granularità | <!--what does this setting do? It's not the schedule/frequency... --> Granularità temporale. I valori validi sono Nessuno, Ora, Giorno, Settimana, Mese, Trimestre e Anno.<p>La granularità del reporting richiede un tempo di elaborazione aggiuntivo. Se generi rapporti con granularità mensile per un intero anno, l’elaborazione dei rapporti sarà molto più rapida se invii una richiesta di rapporto per ogni mese.</p> |
 
    {style="table-layout:auto"}
