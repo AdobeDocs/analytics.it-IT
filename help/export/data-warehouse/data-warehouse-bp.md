@@ -5,7 +5,7 @@ title: Data Warehouse Best Practices (Procedure consigliate per l’archivio dat
 feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: 2ed0627efe50c000c9fe440fccafd12739b09554
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 4%
@@ -24,3 +24,4 @@ Data Warehouse offre un’interfaccia flessibile per l’esecuzione di rapporti 
 | Rapporto sugli intervalli di dati completati | I rapporti Data Warehouse vengono generati quando l’intervallo di date richiesto è completo. Ad esempio, se richiedi un rapporto per la settimana corrente il mercoledì, il rapporto non viene generato fino alla domenica della settimana successiva. |
 | Generare rapporti sui percorsi in Data Warehouse | Metriche dei percorsi (entrate, uscite, mancati recapiti, ecc.) non sono disponibili in data warehouse. |
 | Suite di rapporti virtuali | Il reporting Data Warehouse sulle suite di rapporti virtuali supporta il fuso orario alternativo configurato nella suite di rapporti virtuale. |
+
