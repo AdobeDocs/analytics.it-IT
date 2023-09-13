@@ -3,7 +3,7 @@ title: Supporto dei componenti in Data Warehouse
 description: Scopri quali dimensioni e metriche aggiuntive sono disponibili in Data Warehouse e cosa non è supportato.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 17%
@@ -78,3 +78,4 @@ Alcune dimensioni e metriche non sono supportate in Data Warehouse.
    * Ricariche
    * Accesso singolo
    * Metriche &quot;Tempo trascorso&quot;
+
