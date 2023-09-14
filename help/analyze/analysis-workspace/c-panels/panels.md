@@ -4,10 +4,10 @@ title: Panoramica dei pannelli
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -28,7 +28,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannello:
 | [Pannello a forma libera](freeform-panel.md) | Esegui confronti illimitati e raggruppamenti, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
 | [Pannello Pubblico medio per minuto](average-minute-audience-panel.md) | Analizza il pubblico medio per minuto nel tempo, con dettagli sulle visualizzazioni di picco e con la possibilità di suddividerlo e confrontarlo. |
 | [Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
-| [Pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)](media-playback-timespent/media-playback-time-spent.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
+| [Pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
 | [Pannello Segment Comparison](c-segment-comparison/segment-comparison.md) | Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti. |
 
 ![](assets/panel-overview.png)

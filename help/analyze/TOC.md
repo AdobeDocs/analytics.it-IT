@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder e Activity Map.
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1105'
 ht-degree: 99%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 99%
 + Guida introduttiva ad Adobe Analytics {#admin-overview}
    + [Panoramica di Analytics](get-started/analytics-overview.md)
    + [Introduzione (per ruolo)](get-started/get-started-by-role.md)
-   + [Interfaccia di Analytics](get-started/analytics-interface.md)
+   + [Informazioni sull’interfaccia di Analytics](get-started/analytics-interface.md)
    + [Casi d’uso](get-started/use-cases.md)
    + [Quale strumento Adobe Analytics usare?](get-started/which-analytics-tool.md)
    + [Confronto dei prodotti Analytics e requisiti](get-started/analytics-product-comparison.md)
@@ -117,10 +117,7 @@ ht-degree: 99%
       + [Pannello a forma libera](analysis-workspace/c-panels/freeform-panel.md)
       + [Pannello Pubblico medio per minuto](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Pannello Visualizzatori simultanei di contenuti multimediali](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali) {#media-playback-timespent}
-         + [Panoramica](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [Impostazioni di ingresso e uscita](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [Domande frequenti](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [Pannello Tempo trascorso su contenuti multimediali](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Pannello elemento successivo o precedente](analysis-workspace/c-panels/next-previous.md)
       + [Pannello Riepilogo pagina](analysis-workspace/c-panels/page-summary.md)
       + [Pannello Quick Insights](analysis-workspace/c-panels/quickinsight.md)
