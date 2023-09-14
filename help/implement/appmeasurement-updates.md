@@ -3,10 +3,10 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
 workflow-type: tm+mt
-source-wordcount: '2362'
-ht-degree: 96%
+source-wordcount: '2410'
+ht-degree: 95%
 
 ---
 
@@ -17,6 +17,13 @@ Note cumulative sulla versione di AppMeasurement per JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Scarica la versione più recente di AppMeasurement da [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Versione 2.25.0
+
+Data di rilascio: **12 settembre 2023**
+
+* È stata aggiunta una configurazione opzionale (`bufferRequests`) per migliorare l’affidabilità dell’acquisizione delle richieste in scenari in cui un browser potrebbe non supportare correttamente l’API Beacon o annullare le richieste durante lo scaricamento di una pagina.
+* Sono state aggiunte delle protezioni per impedire più callback di post-tracciamento per una singola richiesta di tracciamento.
 
 ## Versione 2.24.0
 
