@@ -78,7 +78,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Piattaforma Google Cloud
 
@@ -90,7 +90,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++SAS di Azure
 
@@ -106,7 +106,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++RBAC di Azure
 
@@ -120,7 +120,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++E-mail
 
@@ -147,7 +147,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Piattaforma Google Cloud
 
@@ -160,7 +160,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++SAS di Azure
 
@@ -173,7 +173,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++RBAC di Azure
 
@@ -187,7 +187,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
    1. Seleziona [!UICONTROL **Salva**].
 
