@@ -4,7 +4,7 @@ description: Come utilizzare e interpretare il pannello Media Playback Time Spen
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
+source-git-commit: 95f28d537e6e7538133ebd04d185ebcfd28a13d4
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -32,13 +32,10 @@ Di seguito è riportata una panoramica video di questo pannello:
 ## Utilizzare il pannello Tempo trascorso su contenuti multimediali
 
 1. Vai a una suite di rapporti i cui componenti Media Analytics sono abilitati.
-
 1. Seleziona l’icona del pannello all’estrema sinistra, quindi trascina il pannello nel progetto Analysis Workspace.
-
 1. Continua con le sezioni seguenti per personalizzare il pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)
 
    * [Input del pannello](#panel-inputs)
-
    * [Output del pannello](#panel-output)
 
 ## Input del pannello {#Input}
