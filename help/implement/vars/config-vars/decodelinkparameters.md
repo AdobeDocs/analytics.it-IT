@@ -3,18 +3,18 @@ title: decodeLinkParameters
 description: Abilita o disabilita le variabili di tracciamento dei collegamenti a doppia codifica di AppMeasurement.
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
 feature: Variables
-source-git-commit: e666a2efae01bad3cc3ccc5c8bfafe009a429588
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '303'
 ht-degree: 7%
 
 ---
 
 # decodeLinkParameters
 
-Il `decodeLinkParameters` la variabile è un valore booleano che determina se le variabili di tracciamento dei collegamenti vengono codificate una volta (se impostato su `true`) o due volte (se impostato su `false`). Ha un impatto solo `linkName` (parte del [`tl()`](../functions/tl-method.md) metodo) e [`linkURL`](linkurl.md). Per utilizzare, è necessario l’AppMeasurement 2.24.0 o versione successiva. Il valore predefinito di questa variabile è `false`.
+Il `decodeLinkParameters` la variabile è un valore booleano che determina se le variabili di tracciamento dei collegamenti vengono codificate una volta (se impostato su `true`) o due volte (se impostato su `false`). Ha un impatto solo `linkName` (parte del [`tl()`](../functions/tl-method.md) metodo) e [`linkURL`](linkurl.md). Per utilizzare, è necessario disporre della versione 2.24.0 o successiva di AppMeasurement. Il valore predefinito di questa variabile è `false`.
 
-Nelle versioni precedenti di un AppMeasurement, le variabili di tracciamento dei collegamenti erano sempre codificate nell’URL due volte. Anche se non è un problema per le implementazioni che in genere si basano su caratteri a byte singolo, la doppia codifica ha creato valori codificati in modo errato per i caratteri multibyte nei rapporti. Impostazione di questa variabile su `true` codifica i valori di tracciamento dei collegamenti una volta, che in genere corrisponde al comportamento desiderato.
+Nelle versioni dell’AppMeasurement precedenti alla versione 2.24.0, le variabili di tracciamento dei collegamenti erano sempre codificate in URL due volte. Anche se non è un problema per le implementazioni che in genere si basano su caratteri a byte singolo, la doppia codifica ha creato valori codificati in modo errato per i caratteri multibyte nei rapporti. Impostazione di questa variabile su `true` codifica i valori di tracciamento dei collegamenti una volta, che in genere corrisponde al comportamento desiderato.
 
 * Se la tua implementazione utilizza caratteri multibyte e le variabili di tracciamento dei collegamenti sono decodificate in URL per compensare la doppia codifica di AppMeasurement, imposta questa variabile su `false`. Questo valore conserva la funzionalità AppMeasurement esistente.
 * Se la tua implementazione utilizza caratteri multibyte e non codifichi i valori di tracciamento dei collegamenti URL, l’Adobe consiglia di impostare questa variabile su `true`.

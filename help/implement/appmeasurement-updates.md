@@ -3,10 +3,10 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
+source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
 workflow-type: tm+mt
-source-wordcount: '2410'
-ht-degree: 95%
+source-wordcount: '2395'
+ht-degree: 92%
 
 ---
 
@@ -22,14 +22,14 @@ Scarica la versione più recente di AppMeasurement da [GitHub](https://github.co
 
 Data di rilascio: **12 settembre 2023**
 
-* È stata aggiunta una configurazione opzionale (`bufferRequests`) per migliorare l’affidabilità dell’acquisizione delle richieste in scenari in cui un browser potrebbe non supportare correttamente l’API Beacon o annullare le richieste durante lo scaricamento di una pagina.
+* È stato aggiunto il metodo opzionale [`bufferRequests()`](vars/functions/bufferrequests.md) per migliorare l’affidabilità dell’acquisizione delle richieste quando un browser non supporta l’API Beacon o annulla le richieste quando una pagina viene scaricata.
 * Sono state aggiunte delle protezioni per impedire più callback di post-tracciamento per una singola richiesta di tracciamento.
 
 ## Versione 2.24.0
 
 Data di rilascio:**18 luglio 2023**
 
-* È stata aggiunta una configurazione opzionale (`decodeLinkParameters` : default = false) che decodifica gli URL di collegamento che includono caratteri con codifica doppio byte.
+* Aggiunta variabile di configurazione opzionale [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) per decodificare gli URL di collegamento che includono caratteri con codifica a doppio byte.
 * È stata aggiunta una gestione aggiuntiva degli errori per i browser con API di hint client dell’agente utente ad alta entropia errate.
 * Intestazione POST Content-Type modificata da utilizzare `x-www-form-urlencoded` per impostazione predefinita.
 
@@ -37,25 +37,25 @@ Data di rilascio:**18 luglio 2023**
 
 Data di rilascio: **23 settembre 2022**
 
-* AppMeasurement ora supporta la raccolta di hint client ad alta entropia dall’agente utente utilizzati dai browser Chromium (Google Chrome e Microsoft Edge) per fornire informazioni sul dispositivo. Puoi configurare gli hint client tramite i tag o utilizzare il flag “collectHighEntropyUserAgentHints”. Per impostazione predefinita, la raccolta di hint al alta entropia è disattivata. Ulteriori informazioni sugli [hint client](/help/technotes/client-hints.md) dell’agente utente.
+* AppMeasurement ora supporta la raccolta di hint client ad alta entropia dall’agente utente utilizzati dai browser Chromium (Google Chrome e Microsoft Edge) per fornire informazioni sul dispositivo. È possibile configurare gli hint client tramite i tag o utilizzare [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) variabile di configurazione. La raccolta di hint ad alta entropia è disabilitata per impostazione predefinita. Ulteriori informazioni sugli [hint client](/help/technotes/client-hints.md) dell’agente utente.
 
 ## Versione 2.22.4
 
 Data di rilascio: **18 gennaio 2022**
 
-* La chiamata di tracciamento dei collegamenti `s.tl()` verifica se l’oggetto trasmesso contiene un attributo `href` di tipo `string`. Se non è di tipo `string`, l’attributo `href` verrà ignorato invece di generare un errore. Ciò può verificarsi quando si trasmettono oggetti `svg` alla chiamata di tracciamento dei collegamenti.
+* La chiamata di tracciamento dei collegamenti `s.tl()` verifica se l’oggetto trasmesso contiene un attributo `href` di tipo `string`. Se non è un `string`, quindi ignora graziosamente il `href` invece di generare un errore. Questo scenario può verificarsi quando si passa `svg` alla chiamata di tracciamento dei collegamenti.
 
 ## Versione 2.22.3
 
 Data di rilascio: **11 ottobre 2021**
 
-* Sono stati aggiornati i file a cui si fa riferimento nella documentazione per indicare le posizioni correnti nella guida.
+* Sono stati aggiornati i collegamenti nei file che facevano riferimento alla documentazione.
 
 ## Versione 2.22.2
 
 Data di rilascio: **7 settembre 2021**
 
-* Con questo aggiornamento, `opt.dmp` e `opt.sell` vengono sempre inclusi durante il tracciamento dei collegamenti. Ecco un [elenco completo delle variabili di consenso](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=it).
+* Con questo aggiornamento, `opt.dmp` e `opt.sell` vengono sempre inclusi durante il tracciamento dei collegamenti. Consulta la [Rapporti sulla privacy](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) per ulteriori informazioni, consulta la guida utente dell’amministratore.
 
 ## Versione 2.22.1
 

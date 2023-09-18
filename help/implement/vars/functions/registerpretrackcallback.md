@@ -3,10 +3,10 @@ title: registerPreTrackCallback
 description: Crea funzioni di callback prima di inviare un hit all’Adobe.
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 13%
+source-wordcount: '410'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ Il `registerPreTrackCallback` consente all’organizzazione di agganciare una fu
 
 >[!WARNING]
 >
->Non chiamare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all&#39;interno del [`registerPostTrackCallback`](registerposttrackcallback.md) variabile. Le funzioni di tracciamento in questa variabile causano un ciclo infinito di richieste di immagini.
+>Non effettuare chiamate di tracciamento come [`t()`](t-method.md) o [`tl()`](tl-method.md) all&#39;interno del `registerPreTrackCallback` variabile. L’impostazione delle chiamate di tracciamento in questa variabile causa un ciclo infinito di richieste di immagini.
 
 Ogni volta che chiami il `registerPreTrackCallback` è possibile eseguire tale funzione ogni volta che viene compilato un URL di richiesta di immagine. Evita di registrare la stessa funzione più volte nello stesso caricamento della pagina.
 
@@ -26,9 +26,9 @@ Ogni volta che chiami il `registerPreTrackCallback` è possibile eseguire tale f
 
 ## Pre-tracciare il callback utilizzando l’estensione Web SDK
 
-L’SDK per web non è in grado di agganciare una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati a Adobe. Tuttavia, puoi utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell’invio dei dati.
+L’SDK per web non può eseguire l’hook di una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati a Adobe. Tuttavia, puoi utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell’invio dei dati.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) Interfaccia utente che utilizza le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
 1. Alla voce [!UICONTROL Data Collection], fai clic sul pulsante **[!UICONTROL Edit on before event send callback code]**.
@@ -36,7 +36,7 @@ L’SDK per web non è in grado di agganciare una funzione dopo la compilazione 
 
 ## Pre-tracciare il callback manualmente implementando Web SDK
 
-L’SDK per web non è in grado di agganciare una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati a Adobe. Tuttavia, puoi utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell’invio dei dati, in modo simile a `doPlugins`. Consulta [Modifica degli eventi a livello globale](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
+L’SDK per web non può eseguire l’hook di una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati a Adobe. Tuttavia, puoi utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell’invio dei dati, in modo simile a `doPlugins`. Consulta [Modifica degli eventi a livello globale](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -51,7 +51,7 @@ alloy("configure", {
 
 Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l’editor di codice personalizzato seguendo la sintassi di AppMeasurement.
 
-## s.registerPreTrackCallback in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
+## s.registerPreTrackCallback in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
 Il `s.registerPreTrackCallback` è una funzione che utilizza una funzione come unico argomento. La funzione nidificata viene eseguita immediatamente prima dell’invio di una richiesta di immagine.
 
