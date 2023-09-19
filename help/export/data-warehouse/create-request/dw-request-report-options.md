@@ -2,10 +2,10 @@
 description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare le opzioni di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 6%
+source-wordcount: '529'
+ht-degree: 5%
 
 ---
 
@@ -37,7 +37,7 @@ Per configurare le opzioni di report per una richiesta Data Warehouse:
 
    | Opzione | Funzione |
    |---------|----------|
-   | [!UICONTROL **Nome file**] | Identifica il rapporto. |
+   | [!UICONTROL **Nome file**] | Identifica il rapporto. <p>Se nel nome del file viene utilizzato uno dei seguenti caratteri speciali, la richiesta non può essere salvata: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>Il carattere % può essere utilizzato solo se è seguito da &quot;R&quot;, &quot;rsid&quot; o &quot;id&quot;, come segue: <code>%R</code>, <code>%rsid</code>, e <code>%id</code>.</p> |
    | [!UICONTROL **Aggiungi intervallo di date rapporto al nome file**] | Aggiunge l’intervallo di date al nome del file del rapporto. <p>Ad esempio, se richiedi dati dal 1° maggio 2024 al 7 maggio 2024, il nome del file includerà l’intervallo di date 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Fornisce rapporti in formato CSV per la visualizzazione dei dati in un foglio di calcolo. |
    | [!UICONTROL **Tableau (TDE)**] | Fornisce rapporti in formato TDE (Tableau Data Extract), che può essere utilizzato per visualizzare dati e livelli in dati aggiuntivi all’interno di Tableau. |
