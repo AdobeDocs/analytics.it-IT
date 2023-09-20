@@ -3,10 +3,10 @@ description: Gestire gli avvisi.
 title: Panoramica di Gestione avvisi
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
+source-git-commit: 69b763bc5740223be54309c0c0b98f40536c4d7e
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 24%
+source-wordcount: '463'
+ht-degree: 23%
 
 ---
 
@@ -61,6 +61,6 @@ Per configurare le colonne visibili in Gestione avvisi:
    | Tag | Mostra i tag applicati all&#39;avviso, da te o da altri utenti che lo hanno condiviso con te. |
    | Condiviso con | Elenca singoli utenti o gruppi (solo amministratori) o tutti coloro (solo amministratori) con cui hai condiviso l’avviso. |
    | Data di modifica | Indica la data dell’ultima modifica apportata all’avviso. |
-   | Ultimo utilizzo | **Nota:** Questa funzionalità si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio del Customer Journey Analytics, consulta [Rilasci di funzioni del Customer Journey Analytics](/help/release-notes/releases.md).<p>Mostra la data dell’ultimo utilizzo dell’avviso.</p> <p>Queste informazioni possono essere utili per determinare se un avviso è utile per gli utenti dell’organizzazione o se deve essere eliminato.</p><p>Queste informazioni non includono l’utilizzo da API, Report Builder o Data Warehouse.</p> |
+   | Ultimo utilizzo | **Nota:** Questa funzionalità si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio del Customer Journey Analytics, consulta [Rilasci di funzioni di Adobe Analytics](/help/release-notes/releases.md).<p>Mostra la data dell’ultimo utilizzo dell’avviso.</p> <p>Queste informazioni possono essere utili per determinare se un componente è utile per gli utenti dell’organizzazione, dove viene utilizzato e se deve essere eliminato o modificato.</p><p>Queste informazioni non includono l’utilizzo da API, Report Builder o Data Warehouse.</p> |
 
    {style="table-layout:auto"}
