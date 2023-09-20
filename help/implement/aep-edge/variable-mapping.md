@@ -3,7 +3,7 @@ title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: b6a92b8ca79422d2ba857cd98c172a824658a7a6
+source-git-commit: f790407b5495d5fad679a2980c951b2247971069
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 96%
@@ -113,7 +113,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | `placeContext.localTime` | Aiuta a popolare i [Fusi orari](/help/analyze/reports-analytics/reports.md) in Report and Analytics. Viene visualizzato come `t_time_info` in [Feed dati](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Applica la [sintassi del prodotto](../vars/page-vars/products.md) merchandising alle eVar. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Applica la [sintassi del prodotto](../vars/page-vars/products.md) merchandising agli eventi. |
-| `productListItems[].lineItemId` | La dimensione [Categoria](../../components/dimensions/category.md). Vedi anche la variabile di pagina [prodotti](../vars/page-vars/products.md). |
+| `productListItems[].productCategories[].categoryID` | La dimensione [Categoria](../../components/dimensions/category.md). Vedi anche la variabile di pagina [prodotti](../vars/page-vars/products.md). |
 | `productListItems[].name` | La dimensione [Prodotto](../../components/dimensions/product.md). Vedi anche la variabile di pagina [prodotti](../vars/page-vars/products.md). Se `productListItems[].SKU` e `productListItems[].name` contengono entrambi dati, il valore in `productListItems[].SKU` viene utilizzato. |
 | `productListItems[].priceTotal` | Aiuta a determinare la metrica [Entrate](../../components/metrics/revenue.md). Vedi anche la variabile di pagina [prodotti](../vars/page-vars/products.md). |
 | `productListItems[].quantity` | Aiuta a determinare la metrica [Unità](../../components/metrics/units.md). Vedi anche la variabile di pagina [prodotti](../vars/page-vars/products.md). |
