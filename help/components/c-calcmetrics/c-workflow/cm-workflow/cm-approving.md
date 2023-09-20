@@ -3,10 +3,10 @@ description: All’interno di Gestione metriche calcolate, puoi impostare un flu
 title: Approvare le metriche calcolate
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 2%
+source-wordcount: '232'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ In Gestione metriche calcolate, gli amministratori possono impostare un flusso d
 
 Per contrassegnare le metriche calcolate come approvate:
 
-1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**] per passare alla gestione metriche calcolate.
+1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**].
 
 1. In Gestione metriche calcolate, seleziona la casella di controllo a sinistra di qualsiasi metrica che desideri contrassegnare come approvata.
 
@@ -32,7 +32,7 @@ Per contrassegnare le metriche calcolate come approvate:
 
 1. (Facoltativo) Condividi la metrica con altri utenti dell’organizzazione, come descritto in [Condividere le metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
 
-1. Seleziona **[!UICONTROL OK]** (Aggiungi gruppi di campi).
+1. Seleziona **[!UICONTROL OK]**.
 
    Osserva l’icona di approvazione accanto alla metrica calcolata nell’elenco:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
 

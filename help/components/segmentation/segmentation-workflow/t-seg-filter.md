@@ -3,10 +3,10 @@ description: È possibile filtrare per tag, proprietari e altri filtri (Mostra t
 title: Filtrare segmenti
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: dc84909f9c19681adfd28696495b667837056146
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 95%
+source-wordcount: '169'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,7 @@ I filtri facilitano la ricerca di segmenti nella barra dei segmenti.
    |---|---|
    | Tag | Consente di filtrare i segmenti con [tag](/help/components/segmentation/segmentation-workflow/seg-tag.md) specifici. La colonna Tag è visualizzata per impostazione predefinita. |
    | Proprietari | Consente di filtrare i segmenti in base al proprietario. |
+   | Suite di rapporti | Consente di filtrare per suite di rapporti. |
    | Altri filtri > Mostra tutto | **(Solo amministratori)** mostra tutti i segmenti, i relativi proprietari e la data dell’ultima modifica. |
    | Altri filtri > Personali | Mostra tutti i segmenti di tua proprietà. |
    | Altri filtri > Condivisi con me | Mostra tutti i segmenti che altri utenti hanno [condiviso](/help/components/segmentation/segmentation-workflow/t-seg-share.md) con te. |

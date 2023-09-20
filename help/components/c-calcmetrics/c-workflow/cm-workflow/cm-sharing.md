@@ -3,9 +3,9 @@ description: A seconda delle autorizzazioni, puoi condividere le metriche con l�
 title: Condividere le metriche calcolate
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,8 @@ A seconda delle autorizzazioni, puoi condividere le metriche con l’intera orga
 
 Per condividere una metrica calcolata:
 
+1. In Adobe Analytics, seleziona la **[!UICONTROL Components]** , quindi seleziona **[!UICONTROL Calculated metrics]**.
+
 1. In Gestione metriche calcolate, seleziona la casella di controllo a sinistra di qualsiasi metrica da condividere.
 
 1. Seleziona la **[!UICONTROL Share]** icona. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
@@ -29,23 +31,23 @@ Per condividere una metrica calcolata:
 
    ![](assets/cm_share.png)
 
-1. Seleziona **[!UICONTROL Share]** (Aggiungi gruppi di campi).
+1. Seleziona **[!UICONTROL Share]**.
 
 1. Scegli con chi vuoi condividere:
 
    * **[!UICONTROL All]** (solo per amministratori): condivide con tutti gli utenti dell’organizzazione.
 
-      Valuta la condivisione con tutti solo se è utile per l’intera azienda e tutti possono usarla con facilità. In questo caso, dovresti anche considerare la possibilità di renderlo un [metrica approvata](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+     Valuta la condivisione con tutti solo se è utile per l’intera azienda e tutti possono usarla con facilità. In questo caso, dovresti anche considerare la possibilità di renderlo un [metrica approvata](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
 
    * **[!UICONTROL Groups]** (Solo per amministratori): seleziona i gruppi con cui desideri condividere la sessione.
 
-      Valuta la condivisione con un gruppo se la metrica fornisce un buon valore aziendale per quel team.
+     Valuta la condivisione con un gruppo se la metrica fornisce un buon valore aziendale per quel team.
 
    * **[!UICONTROL Individual users]**: cerca e seleziona i singoli utenti con cui desideri condividere la pagina.
 
-      Questa è l’unica opzione di condivisione disponibile per tutti gli utenti. Gli amministratori possono utilizzare questa opzione per esaminare e convalidare una metrica prima di renderla disponibile a un gruppo o a tutti. Se la metrica non è utile, può essere eliminata. Gli amministratori non devono approvare ufficialmente questo tipo di metrica.
+     Questa è l’unica opzione di condivisione disponibile per tutti gli utenti. Gli amministratori possono utilizzare questa opzione per esaminare e convalidare una metrica prima di renderla disponibile a un gruppo o a tutti. Se la metrica non è utile, può essere eliminata. Gli amministratori non devono approvare ufficialmente questo tipo di metrica.
 
-1. Seleziona **[!UICONTROL Share]** (Aggiungi gruppi di campi).
+1. Seleziona **[!UICONTROL Share]**.
 
    Accanto alla metrica viene visualizzata l’icona Condiviso: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 

@@ -3,9 +3,9 @@ description: In Gestione metriche calcolate, l’assegnazione di tag ai segmenti
 title: Assegnare tag alle metriche calcolate
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -25,10 +25,9 @@ Tutti gli utenti possono creare tag per le metriche calcolate e applicarne uno o
 >* **Categorie**, ad esempio Donna o Geografia.
 >* **Flussi di lavoro**, ad esempio Da approvare o Curare per (una specifica unità aziendale)
 
-
 ## Applicare i tag a una metrica calcolata
 
-1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**] per passare alla gestione metriche calcolate.
+1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Metriche calcolate**].
 
 1. In Gestione metriche calcolate, seleziona la casella di controllo accanto alle metriche alle quali desideri assegnare i tag.
 
