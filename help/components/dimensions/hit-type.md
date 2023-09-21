@@ -3,7 +3,7 @@ title: Tipo di hit
 description: Determina se l’hit è stato un hit in primo piano o in background.
 feature: Dimensions
 exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Tipo di hit
 
-La dimensione &quot;Tipo di hit&quot; determina se un’app mobile era in primo piano o in background quando l’hit è stato inviato ai server di raccolta dati Adobe. Questa dimensione è pertinente solo per le suite di rapporti che contengono dati per le applicazioni mobili. I dati del browser raccolti tramite AppMeasurement segnalano sempre l’hit come &quot;Primo piano&quot;.
+Il &quot;tipo di hit&quot; [dimensione](overview.md) determina se un’app mobile era in primo piano o in background quando l’hit è stato inviato ai server di raccolta dati Adobe. Questa dimensione è pertinente solo per le suite di rapporti che contengono dati per le applicazioni mobili. I dati del browser raccolti tramite AppMeasurement segnalano sempre l’hit come &quot;Primo piano&quot;.
 
 ## Popola questa dimensione con i dati
 

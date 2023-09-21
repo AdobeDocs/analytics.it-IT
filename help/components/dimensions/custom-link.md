@@ -3,7 +3,7 @@ title: Collegamento personalizzato
 description: Nome del collegamento personalizzato.
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Collegamento personalizzato
 
-La dimensione &quot;Collegamento personalizzato&quot; riporta i nomi dei collegamenti personalizzati implementati sul sito. Questa dimensione è utile quando desideri comprendere i tipi di collegamenti che i visitatori fanno più clic.
+Il &quot;collegamento personalizzato&quot; [dimensione](overview.md) segnala i nomi dei collegamenti personalizzati implementati sul sito. Questa dimensione è utile quando desideri comprendere i tipi di collegamenti che i visitatori fanno più clic.
 
 ## Popola questa dimensione con i dati
 

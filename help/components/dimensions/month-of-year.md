@@ -3,7 +3,7 @@ title: Mese dell’anno
 description: Il mese numerico dell’anno, indipendentemente dall’anno.
 feature: Dimensions
 exl-id: ed2887f2-46e7-48a4-b337-f59177c7558c
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 6%
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # Mese dell’anno
 
-La dimensione &quot;Mese dell’anno&quot; riporta il mese di un dato anno come elemento dimensione. Questo rapporto è utile se desideri un rapporto suddiviso per il mese dell’anno, ma non vuoi una data statica come elementi dimensionali. È possibile aggregare i rapporti su base annua per mese, in modo che i dati di gennaio di quest’anno vengano aggregati con i dati di gennaio dell’anno precedente nello stesso elemento dimensionale.
+Il &#39;Mese dell&#39;anno&#39; [dimensione](overview.md) riporta il mese di un dato anno come elemento dimensione. Questo rapporto è utile se desideri un rapporto suddiviso per il mese dell’anno, ma non vuoi una data statica come elementi dimensionali. È possibile aggregare i rapporti su base annua per mese, in modo che i dati di gennaio di quest’anno vengano aggregati con i dati di gennaio dell’anno precedente nello stesso elemento dimensionale.
 
 ## Popola questa dimensione con i dati
 

@@ -3,7 +3,7 @@ title: Categoria
 description: La categoria di prodotto dell’hit.
 feature: Dimensions
 exl-id: 3517b417-1a44-4d3e-ac16-93fdc5f36404
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Categoria
 
-La dimensione &quot;Categoria&quot; riporta la categoria di prodotto dell’hit. È utile per le implementazioni che utilizzano `products` e desiderano visualizzare le metriche relative alla categoria di prodotto, ad esempio articoli più venduti o più visualizzati. Questa dimensione può essere intenzionalmente vuota se non hai prodotti sul sito.
+La &quot;Categoria&quot; [dimensione](overview.md) segnala la categoria di prodotto dell’hit. È utile per le implementazioni che utilizzano `products` e desiderano visualizzare le metriche relative alla categoria di prodotto, ad esempio articoli più venduti o più visualizzati. Questa dimensione può essere intenzionalmente vuota se non hai prodotti sul sito.
 
 ## Popola questa dimensione con i dati
 

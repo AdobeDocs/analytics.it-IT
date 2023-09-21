@@ -3,7 +3,7 @@ title: Tempo precedente all’evento
 description: La quantità di tempo tra la metrica e il primo hit della visita.
 feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 6%
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # Tempo precedente all’evento
 
-La dimensione &quot;Tempo precedente all’evento&quot; riporta il tempo trascorso tra il primo hit della visita e la metrica desiderata. Questa dimensione è utile per determinare il tempo necessario per raggiungere un evento di successo, ad esempio l’invio di un modulo o un acquisto.
+Il &quot;Tempo precedente all’evento&quot; [dimensione](overview.md) riporta la quantità di tempo trascorsa tra il primo hit della visita e la metrica desiderata. Questa dimensione è utile per determinare il tempo necessario per raggiungere un evento di successo, ad esempio l’invio di un modulo o un acquisto.
 
 ## Popola questa dimensione con i dati
 

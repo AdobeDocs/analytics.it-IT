@@ -3,10 +3,10 @@ title: Gerarchia
 description: Una dimensione personalizzata che puoi utilizzare nel reporting.
 feature: Dimensions
 exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Questa dimensione è stata ritirata e non è disponibile in Analysis Workspace. Al suo posto, Adobe consiglia di utilizzare le [eVar](evar.md) e le classificazioni.
+>Questa dimensione è ritirata e non è disponibile [dimensione](overview.md) in Analysis Workspace. Al suo posto, Adobe consiglia di utilizzare le [eVar](evar.md) e le classificazioni.
 
 Le gerarchie sono variabili personalizzate che puoi utilizzare come preferisci. Non persistono oltre l’hit impostato. Se il contratto con Adobe lo supporta, sono disponibili fino a 5 gerarchie.
 

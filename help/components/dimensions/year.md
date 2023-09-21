@@ -3,7 +3,7 @@ title: Anno
 description: L’anno in cui si è verificata la metrica.
 feature: Dimensions
 exl-id: 872fb659-fb19-40ac-b371-e89c5a5d0274
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 35%
@@ -12,7 +12,7 @@ ht-degree: 35%
 
 # Anno
 
-La dimensione &quot;Anno&quot; riporta l’anno in cui si è verificata una particolare metrica. Il primo elemento dimensione è il primo anno nell’intervallo di date e l’ultimo elemento dimensione è l’anno più recente nell’intervallo di date.
+L&#39;&#39;anno&#39; [dimensione](overview.md) segnala l’anno in cui si è verificata una particolare metrica. Il primo elemento dimensione è il primo anno nell’intervallo di date e l’ultimo elemento dimensione è l’anno più recente nell’intervallo di date.
 
 ## Popola questa dimensione con i dati
 

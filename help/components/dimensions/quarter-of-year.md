@@ -3,7 +3,7 @@ title: Trimestre dell’anno
 description: Trimestre numerico dell'anno, indipendentemente dall'anno.
 feature: Dimensions
 exl-id: 0de5f916-9cc1-4594-9dfc-68ef831dcc0a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 6%
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # Trimestre dell’anno
 
-La dimensione &quot;Trimestre dell’anno&quot; riporta il trimestre di un dato anno come elemento dimensione. Questo rapporto è utile se desideri un rapporto suddiviso per il trimestre dell’anno, ma non vuoi una data statica come elementi dimensionali. È possibile aggregare i rapporti su base annua per trimestre, in modo che i dati del primo trimestre di quest’anno vengano aggregati con i dati del primo trimestre dell’anno precedente nello stesso elemento dimensionale.
+Il &#39;Trimestre dell&#39;anno&#39; [dimensione](overview.md) riporta il trimestre di un dato anno come elemento dimensione. Questo rapporto è utile se desideri un rapporto suddiviso per il trimestre dell’anno, ma non vuoi una data statica come elementi dimensionali. È possibile aggregare i rapporti su base annua per trimestre, in modo che i dati del primo trimestre di quest’anno vengano aggregati con i dati del primo trimestre dell’anno precedente nello stesso elemento dimensionale.
 
 ## Popola questa dimensione con i dati
 

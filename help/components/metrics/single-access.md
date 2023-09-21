@@ -3,18 +3,18 @@ title: Accesso singolo
 description: Il numero di volte in cui un elemento dimensione non è cambiato in una visita.
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # Accesso singolo
 
-La metrica &quot;Accesso singolo&quot; mostra il numero di visite in cui l’elemento dimensione conteneva un solo valore univoco per l’intera visita. Questa metrica è utile nel contesto di qualsiasi dimensione in cui desideri vedere quali elementi dimensionali ristagnano durante una visita.
+Il &#39;Singolo accesso&#39; [metrica](overview.md) mostra il numero di visite in cui l’elemento dimensionale conteneva un solo valore univoco per l’intera visita. Questa metrica è utile nel contesto di qualsiasi dimensione in cui desideri vedere quali elementi dimensionali ristagnano durante una visita.
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
 Questa metrica conta le visite in cui l’elemento dimensionale conteneva un singolo valore univoco. Puoi impostare l’elemento dimensionale più volte oppure impostarlo in modo che persista e venga comunque conteggiato come un singolo accesso. Non appena un elemento dimensionale diventa un secondo valore univoco, la visita non si qualifica più come un singolo accesso.
 

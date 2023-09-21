@@ -3,16 +3,16 @@ title: Nome bot
 description: Il nome del bot che corrisponde alle regole bot.
 exl-id: 668c1dce-c603-477a-9df7-dacb649bbf63
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 # Nome bot
 
-La dimensione &quot;Nome bot&quot; mostra i nomi dei bot rilevati utilizzando [Regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md). Queste regole possono essere regole IAB predefinite o regole bot personalizzate configurate dalla tua organizzazione. È utile nei casi in cui desideri saperne di più sui bot che visitano il tuo sito o su quali bot generano più traffico.
+Il &#39;nome bot&#39; [dimensione](overview.md) mostra i nomi dei bot rilevati utilizzando [Regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md). Queste regole possono essere regole IAB predefinite o regole bot personalizzate configurate dalla tua organizzazione. È utile nei casi in cui desideri saperne di più sui bot che visitano il tuo sito o su quali bot generano più traffico.
 
 Hit corrispondenti [!UICONTROL Bot rules] vengono filtrati automaticamente da tutti i rapporti di Analytics, ad eccezione di questa dimensione, [Occorrenze bot](../metrics/bot-occurrences.md), e [Visualizzazioni di pagina bot](../metrics/bot-page-views.md). Puoi utilizzare questa dimensione e queste due metriche per vedere quali dati bot vengono esclusi dal resto dei rapporti.
 
@@ -21,7 +21,7 @@ Poiché il reporting dei bot è separato dal resto dei dati della suite di rappo
 * [Pagina](page.md)
 * Dimensioni basate sul tempo (ad esempio, [Giorno](day.md), [Settimana](week.md), o [Mese](month.md))
 * [Occorrenze bot](../metrics/bot-occurrences.md)
-* [Visualizzazioni di pagina bot](../metrics/bot-page-views.md)
+* [Visualizzazioni pagina bot](../metrics/bot-page-views.md)
 
 L’utilizzo di qualsiasi altra dimensione o metrica con questa dimensione non restituisce dati.
 

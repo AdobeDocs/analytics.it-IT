@@ -3,7 +3,7 @@ title: Parola chiave di ricerca
 description: Parola chiave di ricerca utilizzata dal visitatore per raggiungere il sito.
 feature: Dimensions
 exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Parola chiave di ricerca
 
-La dimensione &quot;Parola chiave di ricerca&quot; riporta le parole chiave di ricerca utilizzate dai visitatori per raggiungere il sito.
+Parola chiave di ricerca [dimensione](overview.md) segnala le parole chiave di ricerca utilizzate dai visitatori per raggiungere il sito.
 
 >[!IMPORTANT]
 >

@@ -3,7 +3,7 @@ title: Aree geografiche
 description: L’area geografica del visitatore.
 feature: Dimensions
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Aree geografiche
 
-La dimensione &quot;Aree&quot; riporta l’area geografica del visitatore. Si tratta di un&#39;area geografica più piccola di un paese ma più grande di una città. In alcuni paesi, una regione è uno stato, una provincia o una prefettura. In altre aree, è un paese costituente, un dipartimento o una regione metropolitana. L’utilizzo di questa dimensione è utile se desideri informazioni più dettagliate di [Paesi](countries.md) ma non granulare come [Città](cities.md).
+Le &quot;Regioni&quot; [dimensione](overview.md) segnala l’area geografica del visitatore. Si tratta di un&#39;area geografica più piccola di un paese ma più grande di una città. In alcuni paesi, una regione è uno stato, una provincia o una prefettura. In altre aree, è un paese costituente, un dipartimento o una regione metropolitana. L’utilizzo di questa dimensione è utile se desideri informazioni più dettagliate di [Paesi](countries.md) ma non granulare come [Città](cities.md).
 
 ## Popola questa dimensione con i dati
 

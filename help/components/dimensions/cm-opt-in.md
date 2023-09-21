@@ -3,7 +3,7 @@ title: Gestione del consenso Opt-in
 description: Scopri le impostazioni di privacy a cui ha acconsentito un visitatore.
 exl-id: b2768180-b763-41fb-8cba-665fac047e29
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Gestione del consenso Opt-in
 
-La dimensione &quot;Consent Management Opt-In&quot; mostra le impostazioni di privacy a cui un visitatore ha acconsentito. Puoi utilizzare questa dimensione per filtrare i dati in base alle impostazioni della privacy o visualizzare i motivi più comuni di consenso alla privacy.
+Il &quot;Consenso alla gestione del consenso&quot; [dimensione](overview.md) mostra le impostazioni di privacy a cui un visitatore ha acconsentito. Puoi utilizzare questa dimensione per filtrare i dati in base alle impostazioni della privacy o visualizzare i motivi più comuni di consenso alla privacy.
 
 ## Popola questa dimensione con i dati
 

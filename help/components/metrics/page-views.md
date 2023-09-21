@@ -3,8 +3,8 @@ title: Visualizzazioni pagina
 description: Il numero di volte in cui un elemento dimensione è stato impostato o reso persistente in Adobe Analytics.
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Visualizzazioni pagina
 
-La metrica **[!UICONTROL Page views]** mostra il numero di volte in cui un dato elemento dimensione (valore di dimensione) è stato definito o reso persistente (per esempio quando scade) su una pagina. È una delle metriche più comuni e di base nei rapporti.
+La metrica **[!UICONTROL Page views]** mostra il numero di volte in cui un dato elemento dimensione (valore di dimensione) è stato definito o reso persistente (per esempio quando scade) su una pagina.[](overview.md) È una delle metriche più comuni e di base nei rapporti.
 
 Ad esempio, la dimensione [!UICONTROL Days of Week] è composta dai seguenti elementi dimensionali: domenica, lunedì, martedì, mercoledì, giovedì, venerdì e sabato.
 

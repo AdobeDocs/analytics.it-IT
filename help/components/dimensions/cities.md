@@ -3,7 +3,7 @@ title: Città
 description: La città da cui ha avuto origine l’hit.
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Città
 
-La dimensione &quot;Città&quot; riporta la città da cui ha avuto origine l’hit. Questa dimensione è utile per determinare da cosa provengono i visitatori delle città più popolari quando visitano il tuo sito. Potreste usare questi dati per concentrarvi sulla pubblicità locale in queste città, come cartelloni o pubblicità.
+Le &quot;Città&quot; [dimensione](overview.md) segnala la città da cui ha avuto origine l’hit. Questa dimensione è utile per determinare da cosa provengono i visitatori delle città più popolari quando visitano il tuo sito. Potreste usare questi dati per concentrarvi sulla pubblicità locale in queste città, come cartelloni o pubblicità.
 
 ## Popola questa dimensione con i dati
 

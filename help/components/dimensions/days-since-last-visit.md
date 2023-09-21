@@ -3,7 +3,7 @@ title: Giorni dall’ultima visita
 description: Il numero di giorni tra l’hit corrente e l’ultima volta che hanno visitato.
 feature: Dimensions
 exl-id: 8063bdc6-516a-4dd0-a4ca-ded739e8d406
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 7%
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # Giorni dall’ultima visita
 
-La dimensione &quot;Giorni dall’ultima visita&quot; misura il tempo trascorso tra l’hit corrente del visitatore e la visita precedente (se presente). Questa dimensione ti aiuta a comprendere il comportamento dei visitatori dopo la visita al tuo sito. Gli esempi includono:
+I &quot;Giorni dall’ultima visita&quot; [dimensione](overview.md) misura il tempo trascorso tra l’hit corrente del visitatore e la visita precedente (se presente). Questa dimensione ti aiuta a comprendere il comportamento dei visitatori dopo la visita al tuo sito. Gli esempi includono:
 
 * Con quale frequenza gli utenti visitano nuovamente il sito?
 * In che modo la frequenza di ritorno è correlata alla conversione? Visita frequente o occasionale degli acquirenti?

@@ -3,7 +3,7 @@ title: Visite a pagina singola (dimensioni)
 description: Un flag che indica che la visita era costituita da una singola pagina.
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Visite a pagina singola
 
-*Questa pagina della guida descrive come funziona &quot;Visite a pagina singola&quot; come dimensione. Consulta la [Visite a pagina singola](../metrics/single-page-visits.md) per ulteriori informazioni.*
+*Questa pagina della guida descrive come funziona &quot;Visite a pagina singola&quot; come [dimensione](overview.md). Consulta la [Visite a pagina singola](../metrics/single-page-visits.md) per ulteriori informazioni.*
 
 La dimensione &quot;Visite a pagina singola&quot; riporta il numero di visite costituito da un singolo messaggio univoco [Pagina](page.md) elemento dimensione. È la forma dimensionale del [Visite a pagina singola](../metrics/single-page-visits.md) metrica.
 

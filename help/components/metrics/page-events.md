@@ -3,7 +3,7 @@ title: Eventi pagina
 description: Il numero di azioni di tracciamento dei collegamenti attivate.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # Eventi pagina
 
-La metrica &quot;Eventi di pagina&quot; mostra quante volte è stata effettuata una chiamata di tracciamento dei collegamenti. Questa metrica è utile quando vuoi capire quali pagine hanno il contenuto più coinvolgente. La misurazione per questa metrica è più utile quando un visitatore può eseguire un’azione sulla pagina senza passare a una nuova pagina.
+Gli &quot;eventi di pagina&quot; [metrica](overview.md) mostra il numero di volte in cui è stata effettuata una chiamata di tracciamento dei collegamenti. Questa metrica è utile quando vuoi capire quali pagine hanno il contenuto più coinvolgente. La misurazione per questa metrica è più utile quando un visitatore può eseguire un’azione sulla pagina senza passare a una nuova pagina.
 
 ## Come è calcolata questa metrica
 

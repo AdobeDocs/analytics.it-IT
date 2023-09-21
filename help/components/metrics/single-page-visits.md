@@ -3,10 +3,10 @@ title: Visite a pagina singola (metriche)
 description: Il numero di volte in cui l’elemento dimensione "Pagina" non è cambiato in una visita.
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 8%
 
 *Questa pagina della guida descrive come funziona il funzionamento di &quot;Visite a pagina singola&quot; come metrica. Consulta la [Visite a pagina singola](../dimensions/single-page-visits.md) per ulteriori informazioni.*
 
-Il [!UICONTROL Single page visits] La metrica mostra il numero di visite in cui [Pagina](../dimensions/page.md) l’elemento dimensionale conteneva un solo valore univoco per l’intera visita. Questa metrica è utile nel contesto di dimensioni in cui desideri visualizzare visite brevi, ma non ha il rigore di una regola come [[!UICONTROL Bounces]](bounces.md) sì.
+Il [!UICONTROL Single page visits] [metrica](overview.md) mostra il numero di visite in cui [Pagina](../dimensions/page.md) l’elemento dimensionale conteneva un solo valore univoco per l’intera visita. Questa metrica è utile nel contesto di dimensioni in cui desideri visualizzare visite brevi, ma non ha il rigore di una regola come [[!UICONTROL Bounces]](bounces.md) sì.
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
 Questa metrica conta il numero di visite in cui [!UICONTROL Page] l’elemento dimensionale conteneva un solo valore univoco per l’intera visita. Se un visitatore ricarica la pagina o genera chiamate di tracciamento dei collegamenti, conta ancora come una visita a pagina singola. Non appena la dimensione Pagina diventa un secondo valore univoco, la visita non si qualifica più come visita a pagina singola.
 

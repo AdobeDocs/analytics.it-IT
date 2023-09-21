@@ -3,7 +3,7 @@ title: Paesi
 description: Il paese da cui ha avuto origine l’hit.
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Paesi
 
-La dimensione &quot;Paesi&quot; riporta il paese di origine dell’hit. Questa dimensione è utile per determinare da cosa provengono i visitatori dei paesi più popolari quando visitano il tuo sito. Puoi utilizzare questi dati per concentrarti sulle attività di marketing in questi paesi, oppure assicurarti che l’esperienza del tuo sito sia ottimale in paesi che hanno diverse lingue primarie.
+I &#39;Paesi&#39; [dimensione](overview.md) segnala il paese di origine dell’hit. Questa dimensione è utile per determinare da cosa provengono i visitatori dei paesi più popolari quando visitano il tuo sito. Puoi utilizzare questi dati per concentrarti sulle attività di marketing in questi paesi, oppure assicurarti che l’esperienza del tuo sito sia ottimale in paesi che hanno diverse lingue primarie.
 
 ## Popola questa dimensione con i dati
 

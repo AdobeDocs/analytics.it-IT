@@ -3,20 +3,20 @@ title: Tempo trascorso per visitatore (secondi)
 description: La metrica "Tempo trascorso per visitatore (secondi)" mostra il tempo medio in cui i visitatori interagiscono con un dato elemento dimensionale durante l’intera vita di un visitatore.
 feature: Metrics
 exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Tempo trascorso per visitatore (secondi)
 
-Il [!UICONTROL Time spent per visitor (seconds)] La metrica mostra il tempo medio di interazione dei visitatori con un dato elemento dimensionale durante l’intera vita di un visitatore.
+Il [!UICONTROL Time spent per visitor (seconds)] [metrica](overview.md) mostra il tempo medio di interazione dei visitatori con un dato elemento dimensionale durante l’intera vita di un visitatore.
 
 Questa metrica non è disponibile in Data Warehouse a causa della diversa architettura di elaborazione.
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
 Questa metrica utilizza la formula [`Total seconds spent`](total-seconds-spent.md) `divided by` [`Unique visitors`](unique-visitors.md).
 

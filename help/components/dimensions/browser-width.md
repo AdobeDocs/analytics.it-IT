@@ -3,7 +3,7 @@ title: Larghezza browser - con bucket
 description: Larghezza in pixel della finestra del browser.
 feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Larghezza browser
 
-La dimensione &quot;Larghezza browser - con bucket&quot; mostra la larghezza della finestra del browser, classificata in gruppi di 100 pixel. Questa dimensione è utile quando desideri comprendere il modo in cui i visitatori visualizzano il contenuto. La comprensione della larghezza in cui vengono generalmente visualizzati i contenuti consente di ottimizzarli per la visualizzazione.
+La &quot;Larghezza del browser - bucket&quot; [dimensione](overview.md) mostra la larghezza della finestra del browser, classificata in gruppi di 100 pixel. Questa dimensione è utile quando desideri comprendere il modo in cui i visitatori visualizzano il contenuto. La comprensione della larghezza in cui vengono generalmente visualizzati i contenuti consente di ottimizzarli per la visualizzazione.
 
 Questa dimensione è diversa dalla larghezza dello schermo. Larghezza browser è il numero di pixel all’interno dello spazio visualizzabile del browser, mentre la larghezza dello schermo è la larghezza dell’intero monitor in pixel. Se desideri vedere la differenza tra queste due variabili sul tuo computer, apri la console del browser (F12 nella maggior parte dei browser) e copia e incolla il seguente codice nella console:
 
@@ -24,7 +24,7 @@ La larghezza del browser è sempre inferiore o uguale alla larghezza dello scher
 
 ## Popola questa dimensione con i dati
 
-Questa dimensione recupera i dati da [`bw` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `window.innerWidth` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati esterno ad AppMeasurement (ad esempio tramite l&#39;API), assicurati di includere i `bw` parametro della stringa di query sul primo hit di ogni visita.
+Questa dimensione recupera i dati da [`bw` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `window.innerWidth` nel browser. Se utilizzi una libreria di AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati che non rientra in AppMeasurement (ad esempio tramite l’API), accertati di includere i `bw` parametro della stringa di query sul primo hit di ogni visita.
 
 L’Adobe mantiene la larghezza del browser per una visita. Se la larghezza del browser viene regolata a metà visita, la regolazione non viene registrata.
 

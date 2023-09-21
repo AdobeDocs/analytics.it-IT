@@ -3,7 +3,7 @@ title: Dimensioni per dispositivi mobili
 description: Dimension basati sull'indirizzo IP del dispositivo.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 *Questa pagina fa riferimento alle proprietà dei dispositivi mobili che accedono al sito web. Se desideri tenere traccia dei dispositivi su un’app mobile, consulta [Implementazione di Analytics per dispositivi mobili](/help/implement/mobile-device-sdk.md) nella guida utente Implementa.*
 
-Le dimensioni dei dispositivi mobili forniscono informazioni approfondite sulle proprietà dei dispositivi mobili che visitano il sito. Puoi utilizzare queste dimensioni per comprendere le funzioni supportate da un dispositivo mobile.
+Dispositivi mobili [dimensioni](overview.md) fornisci informazioni sulle proprietà dei dispositivi mobili che visitano il tuo sito. Puoi utilizzare queste dimensioni per comprendere le funzioni supportate da un dispositivo mobile.
 
 ## Popola queste dimensioni con i dati
 
 Queste dimensioni fanno riferimento a regole di ricerca interne a Adobe. [!UICONTROL Mobile Carrier] Le ricerche sono determinate dall’indirizzo IP, utilizzando i dati ottenuti da NetAcuity (un prodotto Digital Elements).
-Se utilizzi una libreria AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), tutte le dimensioni dei dispositivi mobili funzionano in modo predefinito.
+Se utilizzi una libreria di AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), tutte le dimensioni dei dispositivi mobili funzionano in modo predefinito.
 
 ## Descrizioni delle dimensioni mobile
 
@@ -60,10 +60,10 @@ Se desideri raccogliere la versione del dispositivo iPhone, puoi aggirare questa
 * **Utilizzare l’SDK di iOS**: l’SDK per dispositivi mobili contiene dimensioni che espongono la versione del dispositivo per l’utilizzo nei rapporti. Questo metodo è più ideale per le app mobili che per i siti web.
 * **Usa altre variabili disponibili tramite JavaScript**: alcune variabili, come `screen.height` e `screen.width`, può essere utilizzato per dedurre la versione del dispositivo. Ad esempio, puoi utilizzare il seguente frammento di codice sul sito:
 
-   ```js
-   if (navigator.userAgent.indexOf('iPhone') > -1) {
-     s.eVarXX = screen.width + "x" + screen.height;
-     }
-   ```
+  ```js
+  if (navigator.userAgent.indexOf('iPhone') > -1) {
+    s.eVarXX = screen.width + "x" + screen.height;
+    }
+  ```
 
-   Questo blocco di codice rileva innanzitutto se il dispositivo è un iPhone. In caso affermativo, il codice utilizza JavaScript per richiamare la risoluzione dello schermo in un eVar. Questo metodo consente di rilevare approssimativamente la versione del dispositivo se le risoluzioni dello schermo sono univoche.
+  Questo blocco di codice rileva innanzitutto se il dispositivo è un iPhone. In caso affermativo, il codice utilizza JavaScript per richiamare la risoluzione dello schermo in un eVar. Questo metodo consente di rilevare approssimativamente la versione del dispositivo se le risoluzioni dello schermo sono univoche.

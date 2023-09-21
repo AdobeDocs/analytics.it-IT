@@ -3,7 +3,7 @@ title: Tempo medio sul sito
 description: Il tempo medio in cui un dato elemento della dimensione è esistito tra gli hit.
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 2%
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Tempo medio sul sito
 
-La metrica &quot;Tempo medio sul sito&quot; mostra il tempo trascorso tra gli hit per un dato elemento dimensionale. Questa metrica è utile quando desideri visualizzare il tempo medio trascorso per elementi dimensionali specifici. Puoi anche impostare la tendenza di questa metrica nel tempo per vedere come cambia il tempo trascorso. Questa metrica viene visualizzata in `HH:MM:SS` formato.
+Il &#39;tempo medio sul sito&#39; [metrica](overview.md) mostra il tempo trascorso tra gli hit per un dato elemento dimensione. Questa metrica è utile quando desideri visualizzare il tempo medio trascorso per elementi dimensionali specifici. Puoi anche impostare la tendenza di questa metrica nel tempo per vedere come cambia il tempo trascorso. Questa metrica viene visualizzata in `HH:MM:SS` formato.
 
 Questa metrica è correlata al [Tempo trascorso per visita](../dimensions/time-spent-per-visit.md) dimensione.
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
 Per un dato elemento dimensione, considera la marca temporale di ogni hit in cui esiste tale elemento dimensione. Confrontalo con la marca temporale dell’hit successivo nella visita. Se l’hit non ha un hit successivo, non includerlo in questa metrica. Del tempo trascorso per l’elemento dimensione, dividili tutti per il numero di &quot;sequenze&quot; per tale elemento dimensione. Per &quot;sequenza&quot; si intende un elemento dimensionale identico per uno o più hit consecutivi. Questo numero risultante è la metrica visualizzata nei rapporti.
 

@@ -3,7 +3,7 @@ title: Velocity contenuto
 description: Content Velocity misura l’impatto dei contenuti sui contenuti a valle.
 feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 8%
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Velocity contenuto
 
-&quot;Content Velocity&quot; è un modello di metrica calcolata che consente di misurare l’impatto di una dimensione sul contenuto a valle. Utilizza la formula `Page views (Visit participation) divided by Visits`.
+&quot;Velocità del contenuto&quot; è un valore calcolato [metrica](overview.md) modello che consente di misurare l’impatto di una dimensione sul contenuto a valle. Utilizza la formula `Page views (Visit participation) divided by Visits`.
 
 ![](assets/cont-velo-1.png)
 

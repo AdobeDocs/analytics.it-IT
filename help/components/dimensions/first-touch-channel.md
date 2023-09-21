@@ -3,7 +3,7 @@ title: Canale di primo contatto
 description: Il primo canale di marketing entro la scadenza del coinvolgimento del visitatore.
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Canale di primo contatto
 
-La dimensione &quot;Canale di primo contatto&quot; riporta il primo canale di marketing con cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita). Questa dimensione è utile per comprendere quali canali di marketing indirizzano il traffico iniziale verso il sito, consentendoti di concentrare le attività di marketing nelle aree più efficaci.
+Il &#39;canale di primo contatto&#39; [dimensione](overview.md) segnala il primo canale di marketing con cui un visitatore corrisponde durante il periodo di coinvolgimento del visitatore (30 giorni per impostazione predefinita). Questa dimensione è utile per comprendere quali canali di marketing indirizzano il traffico iniziale verso il sito, consentendoti di concentrare le attività di marketing nelle aree più efficaci.
 
 ## Popola questa dimensione con i dati
 

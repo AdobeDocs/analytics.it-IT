@@ -3,7 +3,7 @@ title: Tempo trascorso sulla pagina
 description: La quantità di tempo trascorso da un visitatore sulla pagina.
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
-source-git-commit: 8700abf6db565cf3a85fb64ee0db1a1634616f59
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Tempo trascorso sulla pagina
 
-La dimensione &quot;Tempo trascorso sulla pagina&quot; registra la quantità di tempo trascorso un visitatore sulla pagina. Per misurare il calcolo, utilizza i passaggi seguenti:
+Il &#39;Tempo trascorso sulla pagina&#39; [dimensione](overview.md) registra la quantità di tempo trascorso un visitatore sulla pagina. Per misurare il calcolo, utilizza i passaggi seguenti:
 
 1. Per un dato hit, controlla la marca temporale.
 2. Confronta questo hit con la marca temporale dell’hit successivo nella visita. Sono conteggiati sia gli hit di visualizzazione pagina che quelli di tracciamento dei collegamenti.

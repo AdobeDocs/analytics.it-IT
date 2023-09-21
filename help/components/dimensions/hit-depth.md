@@ -3,16 +3,16 @@ title: Profondità di hit
 description: Il numero di hit nella visita.
 feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
 # Profondità di hit
 
-La dimensione &quot;Profondità di hit&quot; riporta l’estensione di una visita a un determinato hit. Questa dimensione è utile per comprendere fino a che punto in una visita i visitatori eseguono azioni sul sito. La profondità degli hit conta tutti i tipi di hit, incluse le visualizzazioni di pagina ([`t()`](/help/implement/vars/functions/t-method.md)e hit di tracciamento dei collegamenti ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+La &#39;Profondità di hit&#39; [dimensione](overview.md) segnala quanto dista in una visita un determinato hit. Questa dimensione è utile per comprendere fino a che punto in una visita i visitatori eseguono azioni sul sito. La profondità degli hit conta tutti i tipi di hit, incluse le visualizzazioni di pagina ([`t()`](/help/implement/vars/functions/t-method.md)e hit di tracciamento dei collegamenti ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Popola questa dimensione con i dati
 
@@ -28,9 +28,9 @@ La profondità degli hit conta tutti i tipi di hit, inclusi gli hit di visualizz
 
 | Sequenza di pagine | Profondità di hit | Conta per la profondità di visita? | Profondità della visita |
 | --- | --- | --- | --- |
-| Home page | 1 | Sì | 4 |
+| Pagina Home | 1 | Sì | 4 |
 | Pagina prodotto | 2 | Sì | 4 |
-| Home page | 3 | Sì | 4 |
+| Pagina Home | 3 | Sì | 4 |
 | Clic collegamento personalizzato | 4 | No (collegamento personalizzato) | 4 |
 | Clic collegamento personalizzato | 5 | No (collegamento personalizzato) | 4 |
 | Pagina prodotto | 6 | Sì | 4 |

@@ -3,7 +3,7 @@ title: Browser
 description: Nome e versione del browser utilizzato.
 feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-source-git-commit: 39f1ac66fb6374c62f790f9a38a52fba3bf9bda1
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 1%
@@ -12,11 +12,11 @@ ht-degree: 1%
 
 # Browser
 
-L&#39;&#39;[!UICONTROL Browser]La dimensione &#39; riporta il nome e la versione del browser che invia l’hit. Questa dimensione è utile per comprendere i browser più comuni utilizzati dai visitatori. Quando esegui il test di nuove versioni del sito, puoi eseguirli sui browser principali in questa dimensione per massimizzare le attività di controllo della qualità.
+L&#39;&#39;[!UICONTROL Browser]&#39; [dimensione](overview.md) segnala il nome e la versione del browser che invia l’hit. Questa dimensione è utile per comprendere i browser più comuni utilizzati dai visitatori. Quando esegui il test di nuove versioni del sito, puoi eseguirli sui browser principali in questa dimensione per massimizzare le attività di controllo della qualità.
 
 ## Popola questa dimensione con i dati
 
-Questa dimensione fa riferimento a una tabella di ricerca interna a Adobe. Il valore di ricerca si basa sul `User-Agent` Intestazione HTTP nelle richieste di immagini. Se utilizzi una libreria AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito.
+Questa dimensione fa riferimento a una tabella di ricerca interna a Adobe. Il valore di ricerca si basa sul `User-Agent` Intestazione HTTP nelle richieste di immagini. Se utilizzi una libreria di AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito.
 
 ## Elementi dimensionali
 

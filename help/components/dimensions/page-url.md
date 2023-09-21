@@ -3,7 +3,7 @@ title: URL della pagina
 description: URL della pagina.
 feature: Dimensions
 exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # URL della pagina
 
-La dimensione &quot;URL della pagina&quot; elenca gli URL sul sito.
+L’&quot;URL della pagina&quot; [dimensione](overview.md) elenca gli URL sul sito.
 
 >[!IMPORTANT]
 >

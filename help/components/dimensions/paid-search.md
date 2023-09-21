@@ -3,7 +3,7 @@ title: Ricerca a pagamento
 description: Distingue le metriche da ricerca a pagamento e naturale.
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Ricerca a pagamento
 
-La dimensione &quot;Ricerca a pagamento&quot; consente di esaminare qualsiasi metrica e confrontarla tra ricerca a pagamento e ricerca naturale. Tutti gli altri risultati al di fuori dei motori di ricerca vengono omessi. Questa dimensione è utile per comprendere in che modo le attività di ricerca a pagamento si confrontano con la ricerca organica.
+La &quot;Ricerca a pagamento&quot; [dimensione](overview.md) consente di esaminare qualsiasi metrica e confrontarla tra ricerca a pagamento e ricerca naturale. Tutti gli altri risultati al di fuori dei motori di ricerca vengono omessi. Questa dimensione è utile per comprendere in che modo le attività di ricerca a pagamento si confrontano con la ricerca organica.
 
 ## Popola questa dimensione con i dati
 

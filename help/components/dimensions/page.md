@@ -3,7 +3,7 @@ title: Pagina
 description: Nome della pagina.
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Pagina
 
-La dimensione &quot;Pagina&quot; elenca i nomi delle pagine del sito. Si tratta di una delle dimensioni più comuni utilizzate in Adobe Analytics, in quanto fornisce informazioni approfondite sulle pagine del sito che offrono le prestazioni migliori.
+La &#39;Pagina&#39; [dimensione](overview.md) elenca i nomi delle pagine del sito. Si tratta di una delle dimensioni più comuni utilizzate in Adobe Analytics, in quanto fornisce informazioni approfondite sulle pagine del sito che offrono le prestazioni migliori.
 
 Questa dimensione è correlata al [Sezione del sito](site-section.md) e [Server](server.md) dimensioni. La pagina è più granulare, il server meno granulare e la sezione Sito è compresa tra le due.
 
@@ -20,7 +20,7 @@ Questa dimensione è correlata al [Sezione del sito](site-section.md) e [Server]
 
 Questa dimensione recupera i dati da [`pageName` stringa di query](/help/implement/validate/query-parameters.md) in [Chiamate di visualizzazione pagina (`t()`)](/help/implement/vars/functions/t-method.md). [Chiamate di tracciamento dei collegamenti (`tl()`)](/help/implement/vars/functions/tl-method.md) elimina sempre questa dimensione, anche se `pageName` stringa di query esistente.
 
-AppMeasurement raccoglie questi dati utilizzando [`pageName`](/help/implement/vars/page-vars/pagename.md) variabile. Se il `pageName` variabile non è definita, torna a utilizzare il [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variabile.
+L’AppMeasurement raccoglie questi dati utilizzando [`pageName`](/help/implement/vars/page-vars/pagename.md) variabile. Se il `pageName` variabile non è definita, torna a utilizzare il [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variabile.
 
 ## Elementi dimensionali
 

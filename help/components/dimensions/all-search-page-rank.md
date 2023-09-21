@@ -3,7 +3,7 @@ title: Classificazione di tutte le pagine di ricerca
 description: Determina quale pagina di un motore di ricerca un visitatore ha fatto clic sul tuo sito.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 6%
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # Classificazione di tutte le pagine di ricerca
 
-La dimensione &quot;Classificazione di tutte le pagine di ricerca&quot; fornisce informazioni approfondite sulla pagina dei risultati di ricerca in cui un visitatore ha fatto clic sul sito. Ad esempio, se il sito viene visualizzato nella seconda pagina dei risultati di ricerca di un motore di ricerca, l’elemento dimensionale per questa variabile è &quot;Pagina di ricerca 2&quot;.
+La classifica di &#39;Tutte le pagine di ricerca&#39; [dimensione](overview.md) fornisce informazioni approfondite sulla pagina dei risultati di ricerca in cui un visitatore ha fatto clic sul sito. Ad esempio, se il sito viene visualizzato nella seconda pagina dei risultati di ricerca di un motore di ricerca, l’elemento dimensionale per questa variabile è &quot;Pagina di ricerca 2&quot;.
 
 ## Popola questa dimensione con i dati
 

@@ -3,7 +3,7 @@ title: Sistema operativo
 description: Il sistema operativo del visitatore.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 3a0254e5cfdbcaf7b5d6f81bc710959063cd1735
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 1%
@@ -12,41 +12,41 @@ ht-degree: 1%
 
 # Sistema operativo
 
-La dimensione &quot;Sistema operativo&quot; mostra il sistema operativo e la versione utilizzati dal visitatore. Se disponi di funzionalità specifiche per il sistema operativo nella proprietà web, questa dimensione ti aiuta a capire quali sistemi operativi sono più comuni.
+Il &#39;sistema operativo&#39; [dimensione](overview.md) mostra il sistema operativo e la versione utilizzati dal visitatore. Se nella proprietà web sono presenti funzioni specifiche per il sistema operativo, questa dimensione ti aiuta a capire quali sistemi operativi sono più comuni.
 
-## Popolare questa dimensione con i dati
+## Popola questa dimensione con i dati
 
-Questa dimensione fa riferimento a una tabella di ricerca interna all’Adobe. Il valore di ricerca si basa sul `User-Agent` Intestazione HTTP nelle richieste di immagini. Se utilizzi una libreria AppMeasurement (ad esempio tramite tag in Adobe Experience Platform), questa dimensione funziona automaticamente.
+Questa dimensione fa riferimento a una tabella di ricerca interna a Adobe. Il valore di ricerca si basa sul `User-Agent` Intestazione HTTP nelle richieste di immagini. Se utilizzi una libreria di AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito.
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono i sistemi operativi utilizzati dai visitatori. Esempi `"Windows 10"`, `"OS X 10.15"`e `"Android 9"`.
+Gli elementi di Dimension includono i sistemi operativi utilizzati dai visitatori. Alcuni esempi includono `"Windows 10"`, `"OS X 10.15"`, e `"Android 9"`.
 
-## Modifiche all&#39;etichettatura e alla definizione
+## Modifiche dell&#39;etichettatura e della definizione
 
-Di seguito è riportato un elenco di problemi specifici relativi alla rappresentazione del sistema operativo nell&#39;agente utente e nel reporting di Adobe Analytics.
+Di seguito è riportato un elenco di problemi specifici relativi al modo in cui il sistema operativo è stato rappresentato nell’agente utente e nei rapporti di Adobe Analytics.
 
 ### Modifica della granularità del sistema operativo
 
-Il 2 marzo 2023 abbiamo aggiornato i nostri rapporti per includere ulteriori dettagli nel sistema operativo. Dopo questa data includiamo la versione della patch del sistema operativo. Ad esempio, un utente con OS X 10.15.7 sarebbe apparso come &quot;OS X 10.15&quot; prima del 2 marzo. Dopo il 2 marzo appariranno come &quot;OS X 10.15.7&quot;.
+Il 2 marzo 2023 è stato aggiornato il reporting per includere maggiori dettagli nel sistema operativo. Dopo questa data includiamo la versione patch del sistema operativo. Ad esempio, un utente con OS X 10.15.7 sarebbe apparso come &quot;OS X 10.15&quot; prima del 2 marzo. Dopo il 2 marzo appariranno come &quot;OS X 10.15.7&quot;.
 
 ### Modifica della convenzione di denominazione per il sistema operativo Apple:
 
-A partire dalla versione 11, utilizzeremo MacOS invece di OS X per fare riferimento al sistema operativo Apple.
+A partire dalla versione 11 utilizzeremo MacOS invece di OS X per fare riferimento al sistema operativo Apple.
 
 Esempi:
 
-* &quot;OS X 10.15&quot; (vedi la nota seguente sulla versione 10.15.7 sopra la rappresentazione nelle stringhe UA).
+* &quot;OS X 10.15&quot; (vedere la nota seguente sulla versione 10.15.7 sopra la rappresentazione nelle stringhe UA).
 * &quot;MacOS 11.0.0
 
-### La versione del sistema operativo Mac non è corretta nell&#39;agente utente dopo la versione 10.15.7 
+### La versione del sistema operativo Mac non è corretta nell’agente utente dopo la versione 10.15.7 
 
-L&#39;agente utente sui computer Apple mostra la versione del sistema operativo come 10.15.7 anche per le versioni più recenti. Ciò è stato fatto perché l&#39;inclusione della versione 11 nell&#39;UA avrebbe causato problemi con alcuni siti web. Questo vale per *tutti i browser* e non è correlato &quot;congelamento&quot; di Google dell&#39;agente utente sui browser Chromium.
+L’agente utente sui computer Apple mostra la versione del sistema operativo 10.15.7 anche per le versioni più recenti. Ciò è stato fatto perché l’inclusione della versione 11 negli Stati Uniti avrebbe causato problemi con alcuni siti web. Questo è vero per *tutti i browser* e non è correlato al &quot;congelamento&quot; dell’agente utente da parte di Google sui browser basati su Chromium.
 
-I suggerimenti client includono la versione corretta nel suggerimento della versione della piattaforma (&quot;Sec-CH-UA-Platform-Version&quot;). Questo è un suggerimento ad alta entropia quindi non viene raccolto automaticamente dall&#39;Adobe. Consulta la sezione [Domande frequenti sui suggerimenti di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) per informazioni dettagliate su come raccogliere suggerimenti ad alta entropia.
+Tieni presente che gli hint client includono la versione corretta nell’hint di versione della piattaforma (&quot;Sec-CH-UA-Platform-Version&quot;). Questo è un hint ad alta entropia quindi non viene raccolto automaticamente dall&#39;Adobe. Consulta la [Domande frequenti sui suggerimenti di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) per informazioni dettagliate su come raccogliere hint ad alta entropia.
 
-### La versione di Windows non è corretta nell&#39;agente utente che inizia con Windows 11
+### La versione di Windows non è corretta nell’agente utente che inizia con Windows 11
 
-A partire da gennaio 2023, l&#39;agente utente in tutti i browser mostra rappresenta Windows 11 come Windows 10.
+A partire da gennaio 2023, l’agente utente in tutti i browser mostra Windows 11 come Windows 10.
 
-I suggerimenti client includono la versione corretta nel suggerimento della versione della piattaforma (&quot;Sec-CH-UA-Platform-Version&quot;). Questo è un suggerimento ad alta entropia quindi non viene raccolto automaticamente dall&#39;Adobe. Consulta la sezione [Domande frequenti sui suggerimenti di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) per informazioni dettagliate su come raccogliere suggerimenti ad alta entropia.
+Tieni presente che gli hint client includono la versione corretta nell’hint di versione della piattaforma (&quot;Sec-CH-UA-Platform-Version&quot;). Questo è un hint ad alta entropia quindi non viene raccolto automaticamente dall&#39;Adobe. Consulta la [Domande frequenti sui suggerimenti di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) per informazioni dettagliate su come raccogliere hint ad alta entropia.

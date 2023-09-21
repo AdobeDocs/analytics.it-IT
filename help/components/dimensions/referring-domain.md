@@ -3,7 +3,7 @@ title: Dominio di riferimento
 description: Il dominio generale su cui si trovava un visitatore prima di fare clic per accedere al sito.
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Dominio di riferimento
 
-La dimensione &quot;Dominio di riferimento&quot; segnala i domini su cui i visitatori fanno clic per raggiungere il sito. Questa dimensione è utile per capire quali siti di terze parti generano più traffico verso la tua. Affinché l’elemento dimensione venga visualizzato, deve esistere un collegamento sul sito esterno e un visitatore deve fare clic su di esso.
+Il &quot;Dominio di riferimento&quot; [dimensione](overview.md) segnala i domini su cui i visitatori fanno clic per raggiungere il sito. Questa dimensione è utile per capire quali siti di terze parti generano più traffico verso la tua. Affinché l’elemento dimensione venga visualizzato, deve esistere un collegamento sul sito esterno e un visitatore deve fare clic su di esso.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ Lo stesso rapporto può mostrare risultati diversi tra Analysis Workspace e Data
 
 Questa dimensione richiede la configurazione nell’interfaccia di Analytics e i dati nelle richieste di immagini.
 
-* All&#39;interno dell&#39;implementazione, questa dimensione recupera i dati da [`r` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `document.referrer` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati esterno ad AppMeasurement (ad esempio tramite l&#39;API), assicurati di includere i `r` parametro della stringa di query nelle richieste di immagini.
+* All&#39;interno dell&#39;implementazione, questa dimensione recupera i dati da [`r` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `document.referrer` nel browser. Se utilizzi una libreria di AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati che non rientra in AppMeasurement (ad esempio tramite l’API), accertati di includere i `r` parametro della stringa di query nelle richieste di immagini.
 * Nell’interfaccia di Analytics, devi configurare i [Filtri URL interni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). La mancata configurazione dei filtri URL interni può includere domini interni o impedire la visualizzazione di domini esterni.
 
 L’Adobe persiste nel dominio di riferimento per una visita. Se un visitatore abbandona e fa clic su un collegamento su un dominio diverso all’interno di una singola visita, il nuovo valore viene aggiornato e persiste per il resto della visita. Se desideri visualizzare solo il valore originale, consulta [Dominio di riferimento originale](original-referring-domain.md).

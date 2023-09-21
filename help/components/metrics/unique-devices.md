@@ -3,18 +3,18 @@ title: Dispositivi univoci
 description: Il numero di dispositivi univoci.
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Dispositivi univoci
 
-La metrica &quot;Dispositivi univoci&quot; è una [Analisi cross-device](../cda/overview.md) metrica che conta il numero di dispositivi non identificati univoci e di dispositivi virtuali univoci. I dispositivi non identificati sono dispositivi che hanno generato hit anonimi. I dispositivi virtuali univoci sono persone distinte identificate per dispositivo.
+&quot;Dispositivi univoci&quot; [metrica](overview.md) è un [Analisi cross-device](../cda/overview.md) metrica che conta il numero di dispositivi non identificati univoci e di dispositivi virtuali univoci. I dispositivi non identificati sono dispositivi che hanno generato hit anonimi. I dispositivi virtuali univoci sono persone distinte identificate per dispositivo.
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
 Per ogni dispositivo, somma tutte le persone distinte associate a esso (incluso anonimo se il dispositivo contiene hit non uniti).
 

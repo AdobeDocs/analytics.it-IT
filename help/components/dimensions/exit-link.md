@@ -3,7 +3,7 @@ title: Collegamento di uscita
 description: Nome del collegamento di uscita.
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Collegamento di uscita
 
-La dimensione &quot;Collegamento di uscita&quot; riporta i nomi dei collegamenti di uscita implementati sul sito. Questa dimensione è utile quando desideri comprendere quali collegamenti sono più popolari e che puntano a domini esterni al sito.
+Il &quot;collegamento di uscita&quot; [dimensione](overview.md) segnala i nomi dei collegamenti di uscita implementati sul sito. Questa dimensione è utile quando desideri comprendere quali collegamenti sono più popolari e che puntano a domini esterni al sito.
 
 ## Popola questa dimensione con i dati
 

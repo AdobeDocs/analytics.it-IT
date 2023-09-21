@@ -3,7 +3,7 @@ title: Stati degli Stati Uniti
 description: Stato USA del visitatore.
 feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Stato USA
 
-La dimensione &quot;Stato USA&quot; riporta lo stato del visitatore negli Stati Uniti d’America. È simile al [Aree geografiche](regions.md) , tranne per il fatto che questa dimensione è specifica per gli Stati Uniti. L’utilizzo di questa dimensione è utile se desideri informazioni più dettagliate di [Paesi](countries.md) ma non granulare come [Città](cities.md).
+Lo &quot;stato degli Stati Uniti&quot; [dimensione](overview.md) segnala lo stato del visitatore negli Stati Uniti d’America. È simile al [Aree geografiche](regions.md) , tranne per il fatto che questa dimensione è specifica per gli Stati Uniti. L’utilizzo di questa dimensione è utile se desideri informazioni più dettagliate di [Paesi](countries.md) ma non granulare come [Città](cities.md).
 
 ## Popola questa dimensione con i dati
 

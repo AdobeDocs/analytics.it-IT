@@ -3,10 +3,10 @@ title: Tempo trascorso per visita (metriche)
 description: La quantità di tempo trascorso per visita per l’elemento dimensione.
 feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 *Questa pagina di aiuto descrive come funziona il &quot;Tempo trascorso per visita&quot; come metrica. Consulta la [Tempo trascorso per visita](../dimensions/time-spent-per-visit.md) per ulteriori informazioni.*
 
-La metrica &quot;Tempo trascorso per visita (secondi)&quot; mostra il tempo medio in cui i visitatori interagiscono con un dato elemento dimensionale durante ogni visita.
+Il &#39;Tempo trascorso per visita (secondi)&#39; [metrica](overview.md) mostra il tempo medio di interazione dei visitatori con un dato elemento dimensionale durante ogni visita.
 
 Questa metrica non è disponibile in Data Warehouse a causa della diversa architettura di elaborazione.
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
 Questa metrica utilizza la formula [`[Total seconds spent]`](total-seconds-spent.md) `divided by (`[`[Visits]`](visits.md) `minus` [`[Bounces]`](bounces.md)`)`.
 

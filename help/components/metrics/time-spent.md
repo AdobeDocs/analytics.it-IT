@@ -3,7 +3,7 @@ title: Calcolo del tempo trascorso in Adobe Analytics
 description: Una pagina aggregata di dimensioni e metriche relative al tempo trascorso.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: e2128ef18a62832a9740a4cb610685f351c7db19
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # Panoramica del tempo trascorso
 
-Varie [!UICONTROL 'time spent'] Le metriche e le dimensioni sono offerte tra i prodotti Adobe Analytics.
+Varie [!UICONTROL 'time spent'] [metriche](overview.md) Le dimensioni e sono offerte tra i prodotti Adobe Analytics.
 
 ## Metriche &quot;Tempo trascorso&quot;
 

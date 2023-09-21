@@ -3,22 +3,22 @@ title: Visualizzazioni di pagina medie per visita
 description: Il numero medio di volte in cui un dato elemento dimensione è apparso in una visita.
 feature: Metrics
 exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 # Visualizzazioni di pagina medie per visita
 
-La dimensione &quot;Visualizzazioni di pagina medie per visita&quot; mostra quante visualizzazioni di pagina si sono verificate in media rispetto alla dimensione desiderata. Per le dimensioni basate sul tempo, puoi vedere le tendenze nel tempo del numero medio di visualizzazioni di pagina all’interno di una visita. Questa metrica è utile quando vuoi comprendere con quale frequenza vengono visualizzati gli elementi dimensionali in una visita.
+La dimensione &quot;Visualizzazioni di pagina medie per visita&quot; mostra quante visualizzazioni di pagina si sono verificate in media rispetto alla dimensione desiderata. Per le dimensioni basate sul tempo, puoi vedere le tendenze nel tempo del numero medio di visualizzazioni di pagina all’interno di una visita. Questo [metrica](overview.md) è utile quando desideri comprendere con quale frequenza vengono visualizzati gli elementi dimensionali in una visita.
 
 >[!TIP]
 >
 >Utilizza questa metrica insieme a un’altra metrica (ad esempio [Visite](visits.md)) per ottenere informazioni migliori. Se utilizzi questa metrica da sola, otterrai elementi dimensionali contenenti visualizzazioni di pagina anomale per visita, che in genere non sono preziose.
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
 Questa metrica viene calcolata utilizzando la formula [`Page views`](page-views.md)` divided by `[`Visits`](visits.md).
 

@@ -3,7 +3,7 @@ title: Tipo di referrer
 description: Il tipo di referente, a seconda di dove proviene il visitatore.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 61a8aec9bbd6102dd3c0eb60362e02d553e1ebd2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Tipo di referrer
 
-La dimensione &quot;Tipo referrer&quot; indica quali canali generici i visitatori hanno fatto clic per arrivare al sito. L’Adobe mantiene le regole per ogni elemento dimensione, a differenza di [Canali di marketing](marketing-channel.md), in cui l’organizzazione mantiene le regole per ogni canale.
+Il &quot;Tipo di referrer&quot; [dimensione](overview.md) segnala quali canali generici i visitatori hanno fatto clic per arrivare al sito. L’Adobe mantiene le regole per ogni elemento dimensione, a differenza di [Canali di marketing](marketing-channel.md), in cui l’organizzazione mantiene le regole per ogni canale.
 
 ## Popola questa dimensione con i dati
 

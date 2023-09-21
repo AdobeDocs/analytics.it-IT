@@ -3,7 +3,7 @@ title: Tempo trascorso per visita (dimensioni)
 description: Quantità totale di tempo impiegata per la visita.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Tempo trascorso per visita
 
-*Questa pagina di aiuto descrive come funziona &quot;Tempo trascorso per visita&quot; come dimensioni rispettive. Consulta la [Tempo trascorso per visita](../metrics/time-spent-per-visit.md) per ulteriori informazioni.*
+*Questa pagina dell’Aiuto descrive come funziona il &quot;Tempo trascorso per visita&quot;, secondo le rispettive [dimensioni](overview.md). Consulta la [Tempo trascorso per visita](../metrics/time-spent-per-visit.md) per ulteriori informazioni.*
 
 Le dimensioni &quot;Tempo trascorso per visita&quot; registrano il tempo trascorso da un visitatore per l’intera visita. Per misurare il calcolo, utilizza i passaggi seguenti:
 

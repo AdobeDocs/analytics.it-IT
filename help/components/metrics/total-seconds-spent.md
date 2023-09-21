@@ -3,20 +3,20 @@ title: Totale secondi trascorsi
 description: Numero totale aggregato di secondi trascorsi sull’elemento dimensione.
 feature: Metrics
 exl-id: 02302982-ce8c-44e9-9967-0a4f226f5e9e
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # Totale secondi trascorsi
 
-La metrica &quot;Totale secondi trascorsi&quot; mostra il numero aggregato di secondi trascorsi da un visitatore su un dato elemento dimensione. Questa metrica è utile quando si desidera la quantità di tempo trascorso su un dato elemento dimensionale e non si desidera calcolare la media come fanno altre metriche tempo trascorso.
+&#39;Totale secondi trascorsi&#39; [metrica](overview.md) mostra il numero aggregato di secondi trascorsi da un visitatore su un dato elemento dimensione. Questa metrica è utile quando si desidera la quantità di tempo trascorso su un dato elemento dimensionale e non si desidera calcolare la media come fanno altre metriche tempo trascorso.
 
 In Report Builder, questa metrica è denominata &quot;Tempo totale trascorso&quot;.
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
 Questa metrica utilizza i seguenti passaggi per misurare il calcolo:
 

@@ -3,7 +3,7 @@ title: Pagine non trovate (dimensioni)
 description: URL che hanno restituito un errore sul sito.
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Pagine non trovate
 
-*Questa pagina della guida descrive come funziona &quot;Pagine non trovate&quot; come dimensione. Consulta la [Pagine non trovate](../metrics/pages-not-found.md) per ulteriori informazioni.*
+*Questa pagina della guida descrive come funziona &quot;Pagine non trovate&quot; come [dimensione](overview.md). Consulta la [Pagine non trovate](../metrics/pages-not-found.md) per ulteriori informazioni.*
 
 La dimensione &quot;Pagine non trovate&quot; mostra gli URL che contenevano un errore. Questa dimensione è utile quando vuoi ridurre il numero di errori che il visitatore riceve sul tuo sito.
 
@@ -21,7 +21,7 @@ La dimensione &quot;Pagine non trovate&quot; mostra gli URL che contenevano un e
 
 ## Popola questa dimensione con i dati
 
-Questa dimensione recupera i dati da [`pageType` e `g` stringhe di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. Se il `pageType` stringa di query uguale a `errorPage`, il `g` stringa di query (URL della pagina) registrata. AppMeasurement raccoglie questi dati utilizzando [`pageType`](/help/implement/vars/page-vars/pagetype.md) variabile. Se il `pageType` la variabile non è definita o impostata su un valore diverso da `errorPage`, non vengono raccolti dati per questa dimensione.
+Questa dimensione recupera i dati da [`pageType` e `g` stringhe di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. Se il `pageType` stringa di query uguale a `errorPage`, il `g` stringa di query (URL della pagina) registrata. L’AppMeasurement raccoglie questi dati utilizzando [`pageType`](/help/implement/vars/page-vars/pagetype.md) variabile. Se il `pageType` la variabile non è definita o impostata su un valore diverso da `errorPage`, non vengono raccolti dati per questa dimensione.
 
 ## Elementi dimensionali
 

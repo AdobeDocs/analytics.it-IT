@@ -3,7 +3,7 @@ title: Lingua
 description: L’impostazione della lingua preferita nel browser.
 feature: Dimensions
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Lingua
 
-La dimensione &quot;Lingua&quot; mostra le lingue principali in cui i visitatori preferiscono visualizzare il contenuto. Questa dimensione è utile quando desideri comprendere le lingue preferite più frequenti dei visitatori, per facilitare le attività di localizzazione.
+&#39;Lingua&#39; [dimensione](overview.md) mostra le lingue principali in cui i visitatori preferiscono visualizzare il contenuto. Questa dimensione è utile quando desideri comprendere le lingue preferite dei visitatori più frequenti per facilitare le attività di localizzazione.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ La dimensione &quot;Lingua&quot; mostra le lingue principali in cui i visitatori
 
 ## Popola questa dimensione con i dati
 
-Questa dimensione fa riferimento a una tabella di ricerca interna a Adobe. Il valore di ricerca si basa sul `Accept-Language` Intestazione HTTP nelle richieste di immagini. Se utilizzi una libreria AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito.
+Questa dimensione fa riferimento a una tabella di ricerca interna a Adobe. Il valore di ricerca si basa sul `Accept-Language` Intestazione HTTP nelle richieste di immagini. Se utilizzi una libreria di AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito.
 
 ## Elementi dimensionali
 

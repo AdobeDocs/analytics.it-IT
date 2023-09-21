@@ -3,10 +3,10 @@ title: Persone con ID Experience Cloud
 description: Il numero di persone in Analytics tra dispositivi che hanno un ID Experience Cloud.
 feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 10%
 
 &quot;Persone con ID Experience Cloud&quot; è un [Analisi cross-device](../cda/overview.md) metrica che mostra il numero di [Persone](people.md) che sono stati identificati dall&#39;Adobe utilizzando [Servizio ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
-Considerazione di ciascuno [Persone](people.md) (identificato o non identificato), questa metrica aumenta se l’hit contiene il `mid` stringa di query (basata sulla [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=it) cookie).
+Considerazione di ciascuno [Persone](people.md) (identificati o non identificati), questo [metrica](overview.md) aumenta se l’hit contiene il `mid` stringa di query (basata sulla [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=it) cookie).
 
 Puoi creare la metrica calcolata `[People with ECID] ÷ [People]` per ottenere la percentuale di visitatori del sito che utilizzano il servizio ID.
 

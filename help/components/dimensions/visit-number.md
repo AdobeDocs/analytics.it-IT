@@ -3,7 +3,7 @@ title: Numero di visite
 description: L’ennesima visita del visitatore.
 feature: Dimensions
 exl-id: daef34b3-c270-476d-a45c-a20be6138c6b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Numero di visite
 
-La dimensione &quot;Numero di visite&quot; segnala le visite al visitatore attualmente in corso. Quando inizia una nuova visita, questo elemento dimensionale aumenta di 1. Questa dimensione è utile quando desideri comprendere quanto sono coinvolti i visitatori quando ritornano al sito. Si tratta di una dimensione basata sulle visite, il che significa che contiene lo stesso valore per l’intera visita e non può cambiare. Si applica alla durata del visitatore, indipendentemente dall’intervallo di date del progetto.
+Il &quot;Numero di visite&quot; [dimensione](overview.md) rapporti relativi alle visite che il visitatore sta effettuando. Quando inizia una nuova visita, questo elemento dimensionale aumenta di 1. Questa dimensione è utile quando desideri comprendere quanto sono coinvolti i visitatori quando ritornano al sito. Si tratta di una dimensione basata sulle visite, il che significa che contiene lo stesso valore per l’intera visita e non può cambiare. Si applica alla durata del visitatore, indipendentemente dall’intervallo di date del progetto.
 
 ## Popola questa dimensione con i dati
 

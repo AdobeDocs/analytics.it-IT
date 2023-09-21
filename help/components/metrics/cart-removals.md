@@ -3,17 +3,17 @@ title: Rimozioni dal carrello
 description: Il numero di hit in cui un visitatore ha rimosso un prodotto dal carrello.
 feature: Metrics
 exl-id: 74b9677e-89c7-4409-8bd3-99707436def0
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
 # Rimozioni dal carrello
 
-La metrica &quot;Rimozioni dal carrello&quot; mostra quante volte un visitatore ha rimosso qualcosa dal carrello. Questa metrica è utile quando si desidera comprendere la parte del funnel di conversione in cui i clienti non sono più interessati a un prodotto.
+Le &quot;Rimozioni dal carrello&quot; [metrica](overview.md) mostra quante volte un visitatore ha rimosso qualcosa dal carrello. Questa metrica è utile quando si desidera comprendere la parte del funnel di conversione in cui i clienti non sono più interessati a un prodotto.
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
 Questa metrica conta il numero di hit in cui `scRemove` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.

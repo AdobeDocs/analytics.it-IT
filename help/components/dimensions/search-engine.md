@@ -3,7 +3,7 @@ title: Motore di ricerca
 description: Il motore di ricerca utilizzato dal visitatore per raggiungere il sito.
 feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Motore di ricerca
 
-La dimensione &quot;Motore di ricerca&quot; segnala i motori di ricerca utilizzati dai visitatori per raggiungere il sito. Un referente deve soddisfare entrambe le seguenti condizioni per essere classificato come motore di ricerca:
+Il &#39;motore di ricerca&#39; [dimensione](overview.md) segnala i motori di ricerca utilizzati dai visitatori per raggiungere il sito. Un referente deve soddisfare entrambe le seguenti condizioni per essere classificato come motore di ricerca:
 
 * Il dominio di riferimento è riconosciuto da Adobe come un motore di ricerca valido;
 * Nell&#39;URL di riferimento esiste un parametro di stringa di query per parola chiave. Il parametro della stringa di query può essere vuoto (come nel caso di diversi motori di ricerca a causa di pratiche di privacy).

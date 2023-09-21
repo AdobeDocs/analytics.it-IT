@@ -3,7 +3,7 @@ title: Settimana
 description: La settimana in cui si verifica la metrica.
 feature: Dimensions
 exl-id: 944ec843-998c-473f-b8e6-16cf126745b4
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 20%
@@ -12,7 +12,7 @@ ht-degree: 20%
 
 # Settimana
 
-La dimensione &quot;Settimana&quot; riporta la settimana in cui si è verificata una data metrica. Il primo elemento dimensione è la prima settimana nell’intervallo di date e l’ultimo elemento dimensione è l’ultima settimana nell’intervallo di date. Questa dimensione è fondamentale per i rapporti con tendenze, in quanto consente di visualizzare le metriche nel tempo.
+La &#39;Settimana&#39; [dimensione](overview.md) segnala la settimana in cui si è verificata una particolare metrica. Il primo elemento dimensione è la prima settimana nell’intervallo di date e l’ultimo elemento dimensione è l’ultima settimana nell’intervallo di date. Questa dimensione è fondamentale per i rapporti con tendenze, in quanto consente di visualizzare le metriche nel tempo.
 
 ## Popola questa dimensione con i dati
 

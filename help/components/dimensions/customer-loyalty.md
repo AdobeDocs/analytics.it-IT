@@ -3,7 +3,7 @@ title: Fedeltà del cliente
 description: Categorie in base al numero di acquisti precedenti effettuati da un visitatore.
 feature: Dimensions
 exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Fedeltà del cliente
 
-La dimensione &quot;Fedeltà del cliente&quot; riporta il numero di visitatori della sede che hanno effettuato 0 acquisti precedenti, 1 acquisto precedente, 2 acquisti precedenti o 3+ acquisti precedenti. Questa dimensione è utile per comprendere in che modo il sito influisce sul comportamento di acquisto. Puoi anche utilizzare questa dimensione in un segmento per concentrarti sui visitatori che ritornano per effettuare un acquisto, in modo da poter incoraggiare un comportamento simile per i nuovi visitatori.
+La &quot;fedeltà del cliente&quot; [dimensione](overview.md) segnala il numero di visitatori del sito che hanno effettuato 0 acquisti precedenti, 1 acquisto precedente, 2 acquisti precedenti o 3+ acquisti precedenti. Questa dimensione è utile per comprendere in che modo il sito influisce sul comportamento di acquisto. Puoi anche utilizzare questa dimensione in un segmento per concentrarti sui visitatori che ritornano per effettuare un acquisto, in modo da poter incoraggiare un comportamento simile per i nuovi visitatori.
 
 ## Popola questa dimensione con i dati
 

@@ -3,7 +3,7 @@ title: Stato identificato
 description: Flag che determina il riconoscimento dal grafico dei dispositivi.
 feature: Dimensions
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Stato identificato
 
-La dimensione &quot;Stato identificato&quot; è specifica per [Analytics tra dispositivi](../cda/overview.md) suite di rapporti virtuali. Segnala se gli hit sono identificati (uniti) o meno dal sistema al momento dell’esecuzione del rapporto. Questa dimensione è utile per comprendere il livello di unione o &quot;compressione&quot; dei dati da parte di CDA.
+&#39;Stato identificato&#39; [dimensione](overview.md) è specifico di [Analytics tra dispositivi](../cda/overview.md) suite di rapporti virtuali. Segnala se gli hit sono identificati (uniti) o meno dal sistema al momento dell’esecuzione del rapporto. Questa dimensione è utile per comprendere il livello di unione o &quot;compressione&quot; dei dati da parte di CDA.
 
 ## Popola questa dimensione con i dati
 

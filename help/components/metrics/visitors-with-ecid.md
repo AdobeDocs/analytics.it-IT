@@ -3,22 +3,22 @@ title: Visitatori con Experience Cloud ID
 description: Il numero di visitatori univoci che utilizzano il servizio Adobe Experience Cloud ID.
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 # Visitatori con Experience Cloud ID
 
-La metrica &quot;Visitatori con ID Experience Cloud&quot; mostra il numero di visitatori univoci identificati dall’Adobe utilizzando [Servizio ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Questa metrica è utile da confrontare con [Visitatori univoci](unique-visitors.md) metrica per garantire che la maggior parte dei visitatori del sito utilizzi il servizio ID. Se una grande parte dei visitatori non utilizza i cookie del servizio ID, può indicare un problema all&#39;interno dell&#39;implementazione.
+&quot;Visitatori con ID Experience Cloud&quot; [metrica](overview.md) mostra il numero di visitatori univoci identificati dall’Adobe utilizzando [Servizio ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Questa metrica è utile da confrontare con [Visitatori univoci](unique-visitors.md) metrica per garantire che la maggior parte dei visitatori del sito utilizzi il servizio ID. Se una grande parte dei visitatori non utilizza i cookie del servizio ID, può indicare un problema all&#39;interno dell&#39;implementazione.
 
 >[!NOTE]
 >
 >Questa metrica è particolarmente importante per il debug se utilizzi più servizi Experience Cloud, come Adobe Target o Adobe Audience Manager. I segmenti condivisi tra i prodotti Experience Cloud non includono i visitatori senza un ID Experience Cloud.
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
 Questa metrica è basata sulla [Visitatori univoci](unique-visitors.md) metrica, tranne per il fatto che include solo gli individui identificati utilizzando `mid` stringa di query (basata sulla [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=it) cookie).
 

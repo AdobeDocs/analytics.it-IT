@@ -3,7 +3,7 @@ title: Prodotto
 description: Il nome del prodotto.
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Prodotto
 
-La dimensione &quot;Prodotto&quot; riporta il nome del prodotto nell’hit. È utile per le implementazioni che utilizzano `products` e desiderano visualizzare metriche relative ai prodotti, ad esempio articoli più venduti o più visualizzati. Questa dimensione può essere intenzionalmente vuota se non hai prodotti sul sito.
+Il &#39;Prodotto&#39; [dimensione](overview.md) riporta il nome del prodotto nell’hit. È utile per le implementazioni che utilizzano `products` e desiderano visualizzare metriche relative ai prodotti, ad esempio articoli più venduti o più visualizzati. Questa dimensione può essere intenzionalmente vuota se non hai prodotti sul sito.
 
 ## Popola questa dimensione con i dati
 

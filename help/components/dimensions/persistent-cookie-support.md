@@ -3,7 +3,7 @@ title: Supporto dei cookie persistenti
 description: Determina se il visitatore può supportare i cookie persistenti.
 feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Supporto dei cookie persistenti
 
-La dimensione &quot;Supporto cookie persistenti&quot; mostra se l’hit ha utilizzato un identificatore visitatore proveniente da un’origine persistente. La sorgente persistente più comune proviene da un cookie, ma può anche utilizzare intestazioni mobili e altre sorgenti.
+&quot;Supporto dei cookie persistenti&quot; [dimensione](overview.md) mostra se l’hit ha utilizzato un identificatore visitatore proveniente da una sorgente persistente. La sorgente persistente più comune proviene da un cookie, ma può anche utilizzare intestazioni mobili e altre sorgenti.
 
 ## Popola questa dimensione con i dati
 

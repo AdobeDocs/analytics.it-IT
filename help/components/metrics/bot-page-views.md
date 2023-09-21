@@ -1,18 +1,18 @@
 ---
-title: Visualizzazioni di pagina bot
+title: Visualizzazioni pagina bot
 description: Il numero di visualizzazioni di pagina che corrispondono alle regole bot.
 feature: Metrics
 exl-id: 9b1efcb1-10ca-40fb-8f20-e6da105366d9
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Visualizzazioni di pagina bot
+# Visualizzazioni pagina bot
 
-La metrica &quot;Visualizzazioni pagina bot&quot; mostra il numero di hit pagina corrispondenti [Regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+Le &quot;Visualizzazioni di pagina bot&quot; [metrica](overview.md) mostra il numero di hit di pagina corrispondenti [Regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 Poiché il reporting dei bot è separato dal resto dei dati della suite di rapporti, questa metrica funziona solo con le dimensioni seguenti:
 
@@ -22,6 +22,6 @@ Poiché il reporting dei bot è separato dal resto dei dati della suite di rappo
 
 L’utilizzo di qualsiasi altra dimensione con questa metrica non restituisce dati.
 
-## Modalità di calcolo di questa metrica
+## Come è calcolata questa metrica
 
 Adobe controlla ogni hit pagina per vedere se corrisponde alle regole bot configurate dalla tua organizzazione. Se un dato hit corrisponde a una regola bot, l’hit pagina viene escluso dal reporting e questa metrica aumenta di uno. Questa metrica non include gli hit di tracciamento dei collegamenti ([`tl()`](/help/implement/vars/functions/tl-method.md)).

@@ -3,7 +3,7 @@ title: Collegamento di download
 description: Nome del collegamento per il download.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Collegamento di download
 
-La dimensione &quot;Collegamento di download&quot; riporta i nomi dei collegamenti di download implementati sul sito. Questa dimensione è utile quando desideri ulteriori informazioni sul comportamento dei visitatori in merito ai collegamenti di download, ad esempio:
+Il &quot;collegamento di download&quot; [dimensione](overview.md) segnala i nomi dei collegamenti di download implementati sul sito. Questa dimensione è utile quando desideri ulteriori informazioni sul comportamento dei visitatori in merito ai collegamenti di download, ad esempio:
 
 * Determina i file scaricati più frequentemente dal tuo sito.
 * Scopri se alcuni file vengono scaricati più spesso in determinati periodi di tempo.

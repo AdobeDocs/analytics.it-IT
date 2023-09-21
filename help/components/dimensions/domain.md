@@ -3,7 +3,7 @@ title: Dominio
 description: L’organizzazione o l’ISP utilizzato dal visitatore per accedere a Internet.
 feature: Dimensions
 exl-id: 292dc256-e9e7-47be-8586-774f1c047011
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 3%
@@ -12,11 +12,11 @@ ht-degree: 3%
 
 # Dominio
 
-La dimensione &quot;Dominio&quot; riporta i punti di accesso utilizzati dai visitatori per accedere a Internet.
+Il &#39;Dominio&#39; [dimensione](overview.md) segnala i punti di accesso utilizzati dai visitatori per accedere a internet.
 
 ## Popola questa dimensione con i dati
 
-Adobe di partner con [Elemento digitale](https://www.digitalelement.com/) per determinare il dominio del punto di accesso. Per determinare il dominio del punto di accesso vengono utilizzati diversi metodi, tra cui la ricerca DNS inversa. Non richiede alcuna configurazione e non dispone di una variabile da compilare. Funziona con tutte le implementazioni AppMeasurement pronte all’uso.
+Adobe di partner con [Elemento digitale](https://www.digitalelement.com/) per determinare il dominio del punto di accesso. Per determinare il dominio del punto di accesso vengono utilizzati diversi metodi, tra cui la ricerca DNS inversa. Non richiede alcuna configurazione e non dispone di una variabile da compilare. Funziona con tutte le implementazioni di AppMeasurement pronte all’uso.
 
 ## Elementi dimensionali
 
