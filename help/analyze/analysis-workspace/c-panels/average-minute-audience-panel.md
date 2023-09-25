@@ -4,7 +4,7 @@ description: Come utilizzare e interpretare il pannello Pubblico medio per minut
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 5dd104c3a270efe2ca5082d9599f3617ddaf4c0f
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 91%
@@ -21,10 +21,7 @@ In Analysis Workspace, il pubblico medio per minuto corrisponde al tempo impiega
 Il pannello Pubblico medio per minuto fornisce analisi medie del pubblico in base al contenuto specifico selezionato se la durata è resa disponibile utilizzando le Classificazioni.
 Il pannello Pubblico medio per minuto fornisce anche analisi per un periodo di tempo selezionato che possono essere filtrate in base al contenuto specifico, a prescindere dalla durata disponibile utilizzando le Classificazioni. Per accedere al pannello Pubblico medio per minuto passa a una suite di rapporti i cui sono abilitati i componenti Media Analytics. Fai clic sull’icona del pannello all’estrema sinistra, quindi trascina il pannello nel progetto Analysis Workspace.
 
-<!-- For more information, see the Media Average Minute Audience introduction video:
-<< replace with AMA video when available from Doug >> -->
-
-<!-- >[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12&learn=on)
 
 ## Input del pannello {#Input}
 
@@ -42,9 +39,9 @@ Puoi configurare il pannello Pubblico medio per minuto usando le seguenti impost
 |---------|------------|
 | Reporting dimensions (Dimensioni di reporting) | Quando scegli un contenuto specifico, puoi selezionare l’output del rapporto in modo da utilizzare i campi ID contenuto o nome video per mostrare il contenuto e il pubblico medio per minuto associato per il periodo di tempo selezionato. |
 | Filter content by (optional) (Filtra il contenuto per (facoltativo)) | Puoi filtrare il contenuto specifico in base alla visualizzazione desiderata o alla struttura dei dati. |
-| Show, season, episode (Spettacolo, stagione, episodio) | Selezionando &quot;Mostra, stagione, episodio&quot;, le mostre disponibili vengono visualizzate nel menu a discesa, che è possibile filtrare utilizzando una ricerca (o trascinando e rilasciando il nome della presentazione dalla colonna di sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato. |
+| Show, season, episode (Spettacolo, stagione, episodio) | Selezionando &quot;Show, season, episode&quot; (Spettacolo, stagione, episodio) gli spettacoli disponibili vengono visualizzati nel menu a discesa, che puoi filtrare utilizzando una ricerca (oppure trascinando e rilasciando il nome dello spettacolo dalla colonna sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato. |
 | Custom dimension (Dimensione personalizzata) | Se il nome dello spettacolo si trova in una dimensione personalizzata, è possibile trovarlo effettuando una ricerca nel menu a discesa della dimensione (facoltativo) o utilizzando la ricerca della colonna sinistra. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio. |
-| Nessuno | Puoi scegliere *Nessuno* per mostrare tutti i nomi dei video con dati di pubblico di minuti medi per la selezione scelta. |
+| Nessuno | Puoi scegliere *Nessuno* per mostrare tutti i nomi dei video con dati del pubblico medio per minuto per la selezione scelta. |
 
 ### Impostazioni avanzate del contenuto specifico
 
@@ -59,7 +56,7 @@ Puoi configurare il pannello Pubblico medio per minuto usando le seguenti impost
 |---------|------------|
 | Granularity (Granularità) | La granularità predefinita è di cinque minuti, ma è possibile scegliere una qualsiasi delle granularità utilizzate come denominatore per la serie temporale all’interno della selezione complessiva del periodo temporale effettuata nella selezione del calendario. Ad esempio, selezionando dalle 12:00 alle 12:30 con una granularità di cinque minuti, verrà restituito il pubblico medio per minuto nell’intera mezz’ora, così come sei righe contenenti il pubblico medio per minuto per ogni periodo di cinque minuti. Queste righe vengono utilizzate come punti dati per il grafico delle serie temporali. |
 | Filter content by (optional) (Filtra il contenuto per (facoltativo)) | Puoi filtrare il contenuto specifico in base alla visualizzazione desiderata o alla struttura dei dati. |
-| Show, season, episode (Spettacolo, stagione, episodio) | Selezione *Spettacolo, stagione, episodio* visualizza le presentazioni disponibili nell’elenco a discesa, che puoi filtrare tramite ricerca (o trascinando e rilasciando il nome della presentazione dalla colonna a sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato. |
+| Show, season, episode (Spettacolo, stagione, episodio) | Selezione *Spettacolo, stagione, episodio* mostra gli spettacoli disponibili nel menu a discesa, che puoi filtrare tramite ricerca (oppure trascinando e rilasciando il nome dello spettacolo dalla colonna sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato. |
 | Custom dimension (Dimensione personalizzata) | Se il nome dello spettacolo si trova in una dimensione personalizzata, è possibile trovarlo effettuando una ricerca nel menu a discesa della dimensione (facoltativo) o utilizzando la ricerca della colonna sinistra. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio. |
 | Nessuno | Puoi scegliere *Nessuno* per mostrare tutti i nomi dei video nel periodo di tempo scelto. |
 
