@@ -3,9 +3,9 @@ title: products
 description: Invia dati sui prodotti visualizzati o nel carrello.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+source-git-commit: 19bb3da46637bf8afc4e5723e2fa28b490e09c88
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '658'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Il `products` la variabile traccia i prodotti e le proprietà ad essi associate.
 
 I prodotti sono [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) in diversi campi XDM:
 
-* Categoria mappata a `productListItems[].lineItemId`.
+* Categoria mappata a `productListItems[].productCategories[].categoryID`. Utilizza il primo elemento nella `productCategories[]` array. `lineItemId` anche mappare correttamente, ma si consiglia di `categoryID` poiché si tratta di XDM standard. Se sono presenti entrambi i campi XDM `lineItemId` ha la precedenza.
 * Il prodotto è mappato a `productListItems[].SKU` o `productListItems[].name`. Se sono presenti entrambi i campi XDM, `productListItems[].SKU` viene utilizzato.
 * Quantità mappata a `productListItems[].quantity`.
 * Il prezzo è mappato a `productListItems[].priceTotal`.
