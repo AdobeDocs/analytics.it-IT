@@ -4,7 +4,7 @@ title: Eseguire l’analisi dei contributi
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Eseguire l’analisi dei contributi
 
-L’analisi dei contributi è un potente processo di machine learning progettato per individuare i fattori che contribuiscono a un’anomalia osservata in Adobe Analytics. Questa funzione è utile per individuare aree di interesse o opportunità per ulteriore analisi, in modo molto più rapido di quanto sarebbe altrimenti possibile.
+[L’analisi dei contributi è un potente processo di machine learning progettato per individuare i fattori che contribuiscono a un’anomalia osservata in Adobe Analytics. ](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) Questa funzione è utile per individuare aree di interesse o opportunità per ulteriore analisi, in modo molto più rapido di quanto sarebbe altrimenti possibile.
 
 ## Eseguire l’analisi dei contributi {#section_7D2C5E48A5664727941DF4C90976D9DC}
 

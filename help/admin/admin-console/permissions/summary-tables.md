@@ -3,14 +3,14 @@ title: Autorizzazioni Adobe Analytics - tabelle di riepilogo
 description: Tabelle che riepilogano le autorizzazioni Adobe Analytics disponibili in Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 94%
 
 ---
 
-# Autorizzazioni di Analytics nell’Admin Console
+# Autorizzazioni Analytics in Admin Console
 
 Utilizza le tabelle di riepilogo seguenti per identificare le autorizzazioni di Adobe Analytics in Adobe Admin Console, per raggruppamenti logici.
 
@@ -70,6 +70,8 @@ Utilizza le tabelle di riepilogo seguenti per identificare le autorizzazioni di 
 | Impostazioni video |  |  |  | x | Non utilizzato. |
 | Risorse web |  |  |  | x | Non utilizzato. |
 
+{style="table-layout:auto"}
+
 ## Strumenti di Analytics
 
 | Strumento di Analytics | Amministrazione | Controlli di accesso | Funzioni solo rapporti | Obsoleto | Descrizione |
@@ -110,3 +112,5 @@ Utilizza le tabelle di riepilogo seguenti per identificare le autorizzazioni di 
 | Autorizzazioni (scrittura) - Servizi web |  |  |  | x | Non più utilizzato. Consente di modificare le autorizzazioni legacy di Analytics utilizzando l’API di amministrazione. Al suo posto, utilizza Adobe Admin Console. |
 | Preferenze |  |  |  | x | Non utilizzato. |
 | Single Sign-On |  |  |  | x | Non più utilizzato. Consente di accedere al servizio Single Sign-On obsoleto. |
+
+{style="table-layout:auto"}
