@@ -3,9 +3,9 @@ title: Autorizzazioni del profilo di prodotto per gli strumenti Analytics
 description: Utilizza gli elementi di autorizzazione degli strumenti di Analytics per concedere l’accesso alle funzioni di Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '414'
 ht-degree: 87%
 
 ---
@@ -17,7 +17,7 @@ Gli elementi di autorizzazione degli strumenti di Analytics concedono l’access
 | Elemento di autorizzazione degli strumenti di Analytics | Descrizione |
 |----|----|
 | [!UICONTROL Activity Map] | Consente di accedere a Tools > Activity Map (Strumenti > Activity Map). Consente di utilizzare l’estensione Activity Map. |
-| [!UICONTROL Advertising Analytics Management] | Non utilizzato. |
+| [!UICONTROL Advertising Analytics Management] | Consente agli utenti di configurare, modificare e visualizzare gli account per annunci e di ricerca. |
 | [!UICONTROL Analysis Workspace Access] | Consente di accedere ad Analysis Workspace. Per utilizzare Adobe Analytics, gli utenti devono appartenere a questo gruppo (preferito) o al gruppo Accesso a Reports &amp; Analytics. |
 | [!UICONTROL Analysis Workspace: Save As Template] | Consente di accedere a Progetto > Salva come modello in Analysis Workspace. |
 | [!UICONTROL Annotation Creation] | Consente di creare annotazioni. |

@@ -3,10 +3,10 @@ title: Autorizzazioni del profilo di prodotto per gli strumenti delle suite di r
 description: Comprendere ogni elemento di autorizzazione in Strumenti delle suite di rapporti.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 96%
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Utilizzare questa pagina per comprendere ogni voce di autorizzazione in Strument
 | Elementi di autorizzazione per gli strumenti della suite di rapporti | Descrizione |
 |------|------|
 | [!UICONTROL Account Summary] | Consente di accedere a Generale > Impostazioni account generali in Report Suite Manager. |
-| [!UICONTROL Advertising Analytics Configuration] | Consente di accedere a tutti gli aspetti della configurazione di Advertising Analytics. |
+| [!UICONTROL Advertising Analytics Configuration] | Consente agli utenti di configurare suite di rapporti su cui effettuare il provisioning per Advertising Analytics. |
 | [!UICONTROL Anomaly Detection] | Consente l’accesso al rilevamento delle anomalie in Analysis Workspace. |
 | [!UICONTROL Bot Pages] | Consente di accedere al report Metriche del sito > Bots > Pagine bot in Reports &amp; Analytics. |
 | [!UICONTROL Bots] | Consente di accedere al report Metriche del sito > Bots > Bots in Reports &amp; Analytics. |
@@ -44,8 +44,8 @@ Utilizzare questa pagina per comprendere ogni voce di autorizzazione in Strument
 | [!UICONTROL RealTime Report] | Consente di accedere a Metriche del sito > In tempo reale in Reports &amp; Analytics. Utilizza l’elemento di autorizzazione “Configurazione report in tempo reale” per concedere l’accesso per impostare questo report. |
 | [!UICONTROL Real Time Report Configuration] | Consente l’accesso in tempo reale in Report Suite Manager. Utilizzare la voce di autorizzazione “Rapporto in tempo reale” per concedere l’accesso al report stesso. |
 | [!UICONTROL Return Visits] | Consente di accedere a Conservazione dei visitatori > Visite di ritorno in Reports &amp; Analytics. |
-| [!UICONTROL Reporting Activity Manager Admins] | Consente di accedere alla pagina dei dettagli e di annullare le richieste. |
-| [!UICONTROL Reporting Activity Manager Access] |  |
+| [!UICONTROL Reporting Activity Manager Admins] | Da definire |
+| [!UICONTROL Reporting Activity Manager Access] | Da definire |
 | [!UICONTROL Report Suite Mgmt] | Consente l’accesso a Report Suite Manager, ma non consente alcuna modifica. |
 | [!UICONTROL R&A Dashboard Image Reportlet] | Non utilizzato |
 | [!UICONTROL R&A Dashboard Metric Gauge Reportlet] | Non utilizzato |
