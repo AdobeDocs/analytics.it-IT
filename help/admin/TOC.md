@@ -4,10 +4,12 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+hide: true
+hidefromtoc: true
+source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 87%
+source-wordcount: '633'
+ht-degree: 88%
 
 ---
 
@@ -16,11 +18,11 @@ ht-degree: 87%
 
 + [Guida dell’amministratore di Analytics](home.md)
 + [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
-+ Admin Console di Adobe {#admin-console}
++ Admin Console per Adobe {#admin-console}
    + [Panoramica](admin-console/home.md)
    + [Prima guida dell’amministratore di Adobe Analytics](admin-console/first-admin-guide.md)
    + [Ruoli di amministratore in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-   + Riepilogo delle autorizzazioni degli strumenti di Analytics {#permissions}
+   + Riepilogo autorizzazioni strumenti di Analytics {#permissions}
       + [Autorizzazioni di Analytics in Admin Console](admin-console/permissions/summary-tables.md)
       + [Profili di prodotto per Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Autorizzazioni del profilo di prodotto per gli strumenti Report Suite](admin-console/permissions/report-suite-tools.md)
@@ -32,6 +34,7 @@ ht-degree: 87%
    + [Escludi per indirizzo IP](admin/exclude-ip.md)
    + [Registri](admin/logs.md)
    + [Reporting Activity Manager](admin/reporting-activity.md)
+   + [Migrazione dei componenti](admin/component-migration.md)
    + Report Suite Manager {#manage-report-suites}
       + Modificare le impostazioni di una suite di rapporti {#edit-report-suite}
          + Generale {#report-suite-general}
@@ -70,7 +73,7 @@ ht-degree: 87%
                + [Firme bot comuni](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Metodi di esclusione bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Impostazioni privacy](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-            + [Configurazione dei timestamp](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + [Configurazione timestamp](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
             + Inoltro lato server {#server-side-forwarding}
                + [Panoramica sull&#39;inoltro lato server](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [Conformità a RGPD/ePrivacy e inoltro lato server](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
@@ -86,7 +89,7 @@ ht-degree: 87%
             + [Variabili di conversione](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [Metodi di ricerca](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [Classificazioni di conversione](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
-            + Variabile Visitatore univoco {#unique-visitor-variable}
+            + Variabile visitatore univoco {#unique-visitor-variable}
                + [Specificare la variabile Visitatore univoco](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
                + [Caso di utilizzo: estrazione degli ID visitatore](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
             + Eventi di successo {#success-events}
@@ -103,18 +106,18 @@ ht-degree: 87%
             + [Scadenza canale di marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Gestione traffico {#traffic-management}
             + [Panoramica](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
-            + [Spiaggia programmata](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [Spike pianificazione](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Traffico permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Metriche predefinite](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [Gestione delle app](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
-         + [Gestione dei file multimediali](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
+         + [Gestione file multimediali](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
-         + [Informativa sulla privacy](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Gestione dei Document Cloud {#doc-cloud-mgt}
-            + [Configurare Document Cloud con Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
-            + [Configurare il reporting dei Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + [Rapporti sulla privacy](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + Gestione Document Cloud {#doc-cloud-mgt}
+            + [Configurare il Document Cloud con Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Configurare la generazione di rapporti di Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Configurazione di Advertising Analytics](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Tempo reale {#real-time-reports}
             + [Panoramica rapporti in tempo reale](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -151,13 +154,13 @@ ht-degree: 87%
       + [Preferenze manager](admin/company/preferences-manager.md)
       + [Azioni in sospeso](admin/company/pending-actions-admin.md)
       + [Livelli di accesso alle funzionalità](admin/company/feature-access-levels.md)
-   + Etichette Privacy per la governance dei dati {#data-governance}
+   + Etichette di privacy e governance dei dati {#data-governance}
       + [Flusso di lavoro sulla privacy dei dati di Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
       + [Domande frequenti](admin/c-data-governance/gdpr-faq.md)
       + Etichettatura dei dati {#data-labels}
          + [Etichette Privacy dei dati per i componenti di Analytics](admin/c-data-governance/data-labeling/gdpr-labels.md)
          + [Etichettare i dati della suite di rapporti](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-         + [Visualizzare/gestire le etichette di privacy della suite di rapporti](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
+         + [Visualizzare/gestire le etichette sulla privacy della suite di rapporti](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
          + [Tecniche di etichettatura consigliate](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
          + [Esempi di etichettatura](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
          + [Namespace](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
@@ -171,7 +174,7 @@ ht-degree: 87%
       + [Domande frequenti sull&#39;utilizzo delle chiamate server](admin/c-server-call-usage/overage-faq.md)
    + Gestione di utenti e prodotti (Legacy) {#user-product-management}
       + [Gestione di utenti e prodotti (Legacy)](admin/user-management2/user-management.md)
-      + [Trasferimento delle risorse utente o impostazione della scadenza dell&#39;account](admin/user-management2/users-assets.md)
+      + [Trasferimento delle risorse utente o impostazione delle scadenze dell’account](admin/user-management2/users-assets.md)
       + Migrazione utenti ad Adobe Admin Console {#migrate-users}
          + [Migrazione degli utenti di Analytics all’Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Eseguire la migrazione degli account utente di Analytics per Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
