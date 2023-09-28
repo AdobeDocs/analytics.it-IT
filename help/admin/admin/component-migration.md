@@ -2,7 +2,9 @@
 description: Spiega come migrare componenti e progetti da Adobe Analytics a Customer Journey Analytics.
 title: Migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: 8eb26f7aa3dcbb21f4d0c042b8d6958aa0a19cf6
+hide: true
+hidefromtoc: true
+source-git-commit: 94041993f624fc5253929a92475842311c125799
 workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 7%
