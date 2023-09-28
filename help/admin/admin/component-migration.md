@@ -2,10 +2,10 @@
 description: Spiega come migrare componenti e progetti da Adobe Analytics a Customer Journey Analytics.
 title: Migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
+source-git-commit: 73cbfbbad4d8e7bb3107ee08861a6342aba85e84
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 4%
+source-wordcount: '1133'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,9 @@ Il processo di migrazione include:
 
   Alcune dimensioni e metriche vengono abbinate automaticamente; altre devono corrispondere manualmente come parte del processo di migrazione.
 
-## Prerequisiti
+## Prepararsi per una migrazione
+
+### Prerequisiti
 
 Prima che i progetti e le dimensioni e metriche associate siano pronti per la migrazione, devi effettuare le seguenti operazioni:
 
@@ -37,7 +39,36 @@ Prima che i progetti e le dimensioni e metriche associate siano pronti per la mi
 
   La scheda Autorizzazioni fa parte di ciascun profilo di prodotto in Admin Console. Puoi aggiungere utenti a profili di prodotto specifici. Dopodiché dovrai assegnare i diritti a visualizzazioni di dati specifiche e specificare quali autorizzazioni hanno gli utenti in un profilo di prodotto.
 
-## Creare un piano di migrazione come organizzazione
+* Creare un piano di migrazione come descritto nella sezione seguente. [Creare un piano di migrazione come organizzazione](#create-a-migration-plan-as-an-organization).
+
+### Informazioni incluse in una migrazione
+
+La tabella seguente illustra gli elementi di un progetto e di un componente inclusi in una migrazione:
+
+
+|  | Progetti | Dimension e metriche |
+|---------|----------|---------|
+| **Intervalli di date** | Sì | N/D |
+| **Segmenti** | Sì | N/D |
+| **Segmenti rapidi** | Sì | N/D |
+| **Pannelli** | Sì | N/D |
+| **Visualizzazioni** | Sì | N/D |
+| **Proprietario** | (definito dall’utente che esegue la migrazione) | ? |
+| **Cura** | No | N/D |
+| **Condivisione (ruoli di progetto)** | No | No |
+| **Annotazioni** | No | N/D |
+| **Struttura delle cartelle** | No | N/D |
+| **Descrizioni** | Sì | ? |
+| **Tag** | ? | ? |
+| **Schedules** | ? | N/D |
+| **Attribuzione (sulle dimensioni)** | N/D | ? |
+| **Rilevamento delle anomalie** | ? | N/D |
+| **Analisi contributi** | ? | N/D |
+| **Avvisi** | ? | N/D |
+
+{style="table-layout:auto"}
+
+### Creare un piano di migrazione come organizzazione
 
 Poiché tutti i componenti associati a una determinata migrazione di progetto vengono applicati a qualsiasi migrazione di progetto futura per l’intera organizzazione, è importante che la tua organizzazione pianifichi in anticipo tutte le migrazioni di progetto.
 
@@ -49,7 +80,7 @@ Poiché tutti i componenti associati a una determinata migrazione di progetto ve
 >
 >Prima di eseguire la migrazione di progetti al Customer Journey Analytics come descritto in questa sezione, ulteriori informazioni sulla migrazione di progetti sono disponibili in [Pianificare la migrazione](#plan-the-migration) sopra.
 >
->Tutte le dimensioni o metriche corrispondenti sono permanenti, sia per questo progetto che per tutti i progetti futuri migrati in tutta l’organizzazione. Se si continua, le corrispondenze create non potranno essere modificate.
+>Tutte le dimensioni o metriche corrispondenti sono permanenti, sia per questo progetto che per tutti i progetti futuri migrati in tutta l’organizzazione. Qualsiasi corrispondenza creata non può essere modificata.
 
 
 
