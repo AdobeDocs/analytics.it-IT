@@ -4,16 +4,16 @@ title: Migrazione di componenti e progetti da Adobe Analytics a Customer Journey
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 94041993f624fc5253929a92475842311c125799
+source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 7%
+source-wordcount: '1784'
+ht-degree: 6%
 
 ---
 
 # Migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics
 
-Gli amministratori di Adobe Analytics possono eseguire la migrazione di componenti e progetti Adobe Analytics al Customer Journey Analytics.
+Gli amministratori di Adobe Analytics possono eseguire la migrazione dei progetti Adobe Analytics e dei relativi componenti al Customer Journey Analytics.
 
 Il processo di migrazione include:
 
@@ -21,15 +21,17 @@ Il processo di migrazione include:
 
 * Mappatura di dimensioni e metriche dalle suite di rapporti di Adobe Analytics alle dimensioni e alle metriche nelle visualizzazioni dati del Customer Journey Analytics.
 
-  Alcune dimensioni e metriche vengono mappate automaticamente; altre devono essere mappate manualmente come parte del processo di migrazione.
+  Alcune dimensioni e metriche vengono mappate automaticamente; altre devono essere mappate manualmente come parte del processo di migrazione. Anche i segmenti vengono migrati, ma non è necessario mapparli come parte del processo di migrazione.
+
+  Al termine della migrazione, tutti i componenti migrati vengono visualizzati nel riepilogo della migrazione.
 
 ## Prepararsi per una migrazione
 
-Prima di iniziare la migrazione dei progetti all’interno dell’organizzazione, completa i prerequisiti, scopri cosa è e cosa non viene migrato e crea un piano di migrazione per l’organizzazione.
+Prima che chiunque nell’organizzazione inizi la migrazione dei progetti, completa le sezioni seguenti.
 
 ### Prerequisiti
 
-Prima che i progetti e le dimensioni e metriche associate siano pronti per la migrazione, devi effettuare le seguenti operazioni:
+Prima che i progetti e i relativi componenti associati siano pronti per la migrazione, è necessario:
 
 * Utilizza il connettore di origine di Analytics per visualizzare i dati della suite di rapporti di Adobe Analytics nel Customer Journey Analytics. Per farlo, devi:
 
@@ -47,30 +49,72 @@ Prima che i progetti e le dimensioni e metriche associate siano pronti per la mi
 
 ### Informazioni incluse in una migrazione
 
-La tabella seguente illustra gli elementi di un progetto e di un componente inclusi in una migrazione:
+Le tabelle seguenti illustrano gli elementi di un progetto e di un componente inclusi in una migrazione:
 
+#### Elementi componenti migrati
 
-|  | Progetti | Dimension e metriche |
-|---------|----------|---------|
-| **Intervalli di date** | Sì | N/D |
-| **Segmenti** | Sì | N/D |
-| **Segmenti rapidi** | Sì | N/D |
-| **Pannelli** | Sì | N/D |
-| **Visualizzazioni** | Sì | N/D |
-| **Proprietario** | (definito dall’utente che esegue la migrazione) | ? |
-| **Cura** | No | N/D |
-| **Condivisione (ruoli di progetto)** | No | No |
-| **Annotazioni** | No | N/D |
-| **Struttura delle cartelle** | No | N/D |
-| **Descrizioni** | Sì | ? |
-| **Tag** | ? | ? |
-| **Schedules** | ? | N/D |
-| **Attribuzione (sulle dimensioni)** | N/D | ? |
-| **Rilevamento delle anomalie** | ? | N/D |
-| **Analisi contributi** | ? | N/D |
-| **Avvisi** | ? | N/D |
+|  | Migrato |
+|---------|---------|
+| **[Proprietario](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![segno di spunta](assets/Smock_Checkmark_18_N.svg) |
+| **[Condivisione](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | No |
+| **[Descrizioni](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
+| **[Tag](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | No |
+| **[Attribuzione (sulle dimensioni)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
 
 {style="table-layout:auto"}
+
+#### Elementi del progetto migrati
+
+|  | Migrato |
+|---------|----------|
+| **[Intervalli di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![segno di spunta](assets/Smock_Checkmark_18_N.svg) |
+| **[Segmenti](/help/components/segmentation/seg-overview.md)** | ![segno di spunta](assets/Smock_Checkmark_18_N.svg) |
+| **[Segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![segno di spunta](assets/Smock_Checkmark_18_N.svg) |
+| **[Dimensioni](/help/components/dimensions/overview.md)** | ![segno di spunta](assets/Smock_Checkmark_18_N.svg) Mappato automaticamente o manualmente |
+| **[Metriche](/help/components/metrics/overview.md)** | ![segno di spunta](assets/Smock_Checkmark_18_N.svg) Mappato automaticamente o manualmente |
+| **[Pannelli](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![segno di spunta](assets/Smock_Checkmark_18_N.svg) |
+| **[Visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![segno di spunta](assets/Smock_Checkmark_18_N.svg) |
+| **[Proprietario](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![segno di spunta](assets/Smock_Checkmark_18_N.svg) Definito dall’utente che esegue la migrazione |
+| **[Cura](/help/analyze/analysis-workspace/curate-share/curate.md)** | No |
+| **[Condivisione (ruoli di progetto)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | No |
+| **[Condivisione (condivisione con collegamento chiunque)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[Annotazioni](/help/analyze/analysis-workspace/components/annotations/overview.md)** | No |
+| **[Struttura delle cartelle](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | No |
+| **[Descrizioni](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![segno di spunta](assets/Smock_Checkmark_18_N.svg) |
+| **[Tag](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | No |
+| **[Schedules](/help/components/scheduled-projects-manager.md)** | No |
+| **[Rilevamento delle anomalie](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
+| **[Preferiti](/help/analyze/landing.md)** | ? |
+
+{style="table-layout:auto"}
+
+### Comprendere gli elementi non supportati che causano errori
+
+Le visualizzazioni, i pannelli e le funzionalità seguenti non sono supportati in Customer Journey Analytics. Quando questi elementi vengono inclusi in un progetto prima della migrazione, possono causare errori o errori dopo la migrazione del progetto.
+
+Rimuovi questi elementi dal progetto Adobe Analytics prima di eseguire la migrazione del progetto al Customer Journey Analytics. Se una migrazione non riesce, rimuovi questi elementi prima di riprovare.
+
+#### Visualizzazioni non supportate
+
+* [Mappa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
+
+#### Pannelli non supportati
+
+* [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+
+* [Confronto tra segmenti](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+
+* [Pubblico medio per minuto del file multimediale](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+
+* [Elemento successivo o precedente](/help/analyze/analysis-workspace/c-panels/next-previous.md)
+
+* [Riepilogo pagina](/help/analyze/analysis-workspace/c-panels/page-summary.md)
+
+#### Funzioni non supportate
+
+* [Analisi contributi](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+
+* [Avvisi](/help/components/c-alerts/intellligent-alerts.md)
 
 ### Creare un piano di migrazione come organizzazione
 
