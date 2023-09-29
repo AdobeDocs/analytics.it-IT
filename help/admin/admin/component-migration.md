@@ -4,9 +4,9 @@ title: Migrazione di componenti e progetti da Adobe Analytics a Customer Journey
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
+source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1974'
 ht-degree: 6%
 
 ---
@@ -116,11 +116,89 @@ Rimuovi questi elementi dal progetto Adobe Analytics prima di eseguire la migraz
 
 * [Avvisi](/help/components/c-alerts/intellligent-alerts.md)
 
-### Creare un piano di migrazione come organizzazione
+### Decidi come organizzazione mappare i componenti non supportati
 
-Poiché tutti i componenti mappati per una determinata migrazione di progetto vengono applicati a qualsiasi migrazione di progetto futura per l’intera organizzazione, è importante che la tua organizzazione pianifichi in anticipo tutte le migrazioni di progetto.
+>[!IMPORTANT]
+>
+>Il processo di migrazione identifica i componenti nel progetto Adobe Analytics che non possono essere mappati automaticamente ai componenti nel Customer Journey Analytics e consente di mapparli manualmente.
+>
+>**Le mappature effettuate su un progetto si applicano a tutti i progetti futuri nell’intera organizzazione, indipendentemente dall’utente che esegue la migrazione. Queste mappature possono essere modificate o annullate solo contattando l’Assistenza clienti.**
+>
+>Per questo motivo, è importante che la tua organizzazione decida come verranno mappate dimensioni e metriche prima della migrazione di qualsiasi progetto. In questo modo i singoli amministratori non possono prendere decisioni all’interno di un silo se si considera un solo progetto.
+>
+>Di seguito è riportato un elenco di dimensioni e metriche da mappare manualmente, se presenti nel progetto. È consigliabile rivedere questo elenco prima della migrazione. Se nel progetto è presente uno di questi componenti, decidi ora a quali componenti di Customer Journey Analytics mapparli.
 
-È necessario decidere come organizzazione la mappatura di dimensioni e metriche. In questo modo i singoli amministratori non possono prendere decisioni all’interno di un silo se si considera un solo progetto.
+
+#### Dimensioni non supportate
+
+* averagepagetime
+* pagetimeseconds
+* singlepagevisits
+* visitnumber
+* timeprior
+* tempo trascorso
+* categoria
+* connectiontype
+* fedeltà del cliente
+* customlink
+* download
+* exitlink
+* profondità dell&#39;hit
+* tipo di battuta
+* pathlength
+* daysbeforefirstpurchase
+* dayssincelastpurchase
+* dayssincelastvisit
+* identationstate
+* optoutreason
+* persistentcookie
+* frequenza di ritorno
+* searchenginenatural
+* searchenginenaturalkeyword
+* portalomobili
+* monitorresolution
+* base di sondaggio
+* mcaudiences
+* tntbase
+* targetraw
+
+
+#### Metriche non supportate
+
+* timespentvisit
+* timespentvisitor
+* ricaricamenti
+* mancati recapiti
+* rimbalzo
+* pageevents
+* pageviewspervisit
+* orderspervisit
+* averagepagedepth
+* averagetimespentonsite
+* exitlinkinstances
+* customlinkinstances
+* downloadlinkinstances
+* darkvisitors
+* singlepagevisits
+* singlevaluevisits
+* visitorhomepage
+* visitorsmcvisid
+* pagesnotfound
+* nuovi impegni
+* time_granularity
+* concurrent_viewers_visitors
+* concurrent_viewers_occurrrences
+* dispositivi
+* persone stimate
+* tempo_di_riproduzione trascorso_secondi
+* playback_time_espor_minutes
+* average_minute_audience_time_based
+* average_minute_audience_media_time
+* average_minute_audience_content_time
+* video_length
+* targetconversion
+* targetimpression
+
 
 ## Migrare progetti Adobe Analytics al Customer Journey Analytics
 
@@ -214,11 +292,13 @@ Poiché tutti i componenti mappati per una determinata migrazione di progetto ve
 
 Se una migrazione non riesce, puoi riprovare.
 
-È possibile ritentare una migrazione non riuscita in uno dei modi seguenti:
+Prima di ritentare una migrazione non riuscita, assicurati di rimuoverne [elementi non supportati](#understand-unsupported-elements-that-cause-errors) dal progetto.
 
 >[!NOTE]
 >
 >Se la migrazione continua a non riuscire dopo un nuovo tentativo, contatta l’Assistenza clienti con l’ID del progetto. Puoi trovare l’ID del progetto nella pagina Stato della migrazione. <!-- when does this page display? How can they get there -->
+
+Per ritentare una migrazione non riuscita:
 
 1. In Adobe Analytics, seleziona la scheda [!UICONTROL **Amministrazione**], quindi seleziona [!UICONTROL **Tutte le attività di amministrazione**].
 
