@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 98%
+source-wordcount: '750'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,8 @@ ht-degree: 98%
    + [Canale di marketing](dimensions/marketing-channel.md)
    + [Dettagli del canale Marketing](dimensions/marketing-detail.md)
    + [Minuto](dimensions/minute.md)
-   + [Dimensioni per dispositivi mobili](dimensions/mobile-dimensions.md)
+   + [Dimensioni del ciclo di vita mobile](dimensions/lifecycle-dimensions.md)
+   + [Dimensioni di ricerca mobile](dimensions/mobile-dimensions.md)
    + [Risoluzione monitor](dimensions/monitor-resolution.md)
    + [Mese dell’anno](dimensions/month-of-year.md)
    + [Mese](dimensions/month.md)
@@ -99,6 +100,7 @@ ht-degree: 98%
    + [Tracking del motivo di rinuncia](dimensions/tracking-opt-out-reason.md)
    + [DMA Stati Uniti](dimensions/us-dma.md)
    + [Stati degli Stati Uniti](dimensions/us-states.md)
+   + [Dimensioni vocali](dimensions/voice-dimensions.md)
    + [Profondità della visita](dimensions/visit-depth.md)
    + [Numero di visite](dimensions/visit-number.md)
    + [Settimana](dimensions/week.md)
@@ -127,6 +129,7 @@ ht-degree: 98%
    + [Uscite](metrics/exits.md)
    + [Persone identificate](metrics/identified-people.md)
    + [Istanze](metrics/instances.md)
+   + [Metriche del ciclo di vita mobile](metrics/lifecycle-metrics.md)
    + [Visualizzazioni di dispositivi mobili](metrics/mobile-views.md)
    + [Nuovi engagement](metrics/new-engagements.md)
    + [Occorrenze](metrics/occurrences.md)
@@ -151,6 +154,7 @@ ht-degree: 98%
    + [Dispositivi univoci](metrics/unique-devices.md)
    + [Visitatori univoci](metrics/unique-visitors.md)
    + [Unità](metrics/units.md)
+   + [Metriche vocali](metrics/voice-metrics.md)
    + [Visitatori con Experience Cloud ID](metrics/visitors-with-ecid.md)
    + [Visite](metrics/visits.md)
 + Segmentazione {#segmentation}

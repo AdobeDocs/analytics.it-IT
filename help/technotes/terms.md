@@ -3,9 +3,9 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2554'
+source-wordcount: '2549'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Società di accesso:** Una raccolta di suite di rapporti utilizzata dall’organizzazione. Alcune organizzazioni dispongono di più società di accesso che si applicano a parti diverse della loro organizzazione.
 * **Canale di marketing:** Funzione di Adobe Analytics che categorizza gli hit in base al modo in cui sono arrivati al sito. La logica utilizzata per categorizzare gli hit può essere personalizzata utilizzando le regole di elaborazione del canale di marketing. Consulta [Introduzione ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) nella guida utente Componenti.
 * **Metrica:** Tipo di componente che contiene dati quantitativi. I valori delle metriche in genere contengono numeri, come Visualizzazioni pagina, Visite e Entrate. Una dimensione è in genere la sua controparte.
-* **Mobile Services:** Riunisce le funzionalità di marketing mobile di applicazioni per dispositivi mobili da Adobe Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni. Consulta [Panoramica di Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=it).
+* **Mobile Services:** Un prodotto di Adobe ritirato che ha riunito le funzionalità di mobile marketing per applicazioni per dispositivi mobili da Adobe Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni.
 * **Assegnazione di tag multisuite:** La pratica di inviare lo stesso hit a più suite di rapporti. Con l’introduzione delle suite di rapporti virtuali, questa pratica non è più in gran parte necessaria. La maggior parte delle attività di assegnazione tag per più suite facilita l’inserimento di una suite di rapporti globale.
 * **Normalizzazione:** Un modo per organizzare una visualizzazione che prende tutte le metriche e le forza a proporzioni uguali, consentendo un confronto più semplice delle tendenze.
 * **Eventi:** Tipo di metrica che mostra quanti hit è stato impostato o persistito un elemento dimensione. Consulta la [Occorrenze](/help/components/metrics/occurrences.md) nella guida utente dei Componenti.

@@ -3,18 +3,18 @@ title: Altezza browser - con bucket
 description: Altezza della finestra del browser in pixel.
 feature: Dimensions
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 1%
 
 ---
 
 # Altezza browser
 
-&quot;Altezza browser - bucket&quot; [dimensione](overview.md) mostra l’altezza della finestra del browser, classificata in gruppi di 100 pixel. Questa dimensione è utile quando desideri capire dove si trova la &quot;piega&quot; sul sito per i visitatori. Sapere dove si trova la piega può consentirti di ottimizzare il contenuto da visualizzare.
+&quot;Altezza browser - bucket&quot; [dimensione](overview.md) mostra l&#39;altezza della finestra del browser, classificata in gruppi predefiniti. Questa dimensione è utile quando desideri capire dove si trova la &quot;piega&quot; sul sito per i visitatori. Sapere dove si trova la piega può consentirti di ottimizzare il contenuto da visualizzare.
 
-Questa dimensione è diversa dall&#39;altezza dello schermo. L&#39;altezza del browser è il numero di pixel all&#39;interno dello spazio visualizzabile del browser, mentre l&#39;altezza dello schermo è l&#39;altezza dell&#39;intero monitor in pixel. Se desideri vedere la differenza tra queste due variabili sul tuo computer, apri la console del browser (F12 nella maggior parte dei browser) e copia e incolla il seguente codice nella console:
+Questa dimensione è diversa dall’altezza dello schermo. L&#39;altezza del browser è il numero di pixel all&#39;interno dello spazio visualizzabile del browser, mentre l&#39;altezza dello schermo è l&#39;altezza dell&#39;intero monitor in pixel. Se desideri vedere la differenza tra queste due variabili sul tuo computer, apri la console del browser (F12 nella maggior parte dei browser) e copia e incolla il seguente codice nella console:
 
 ```javascript
 "Browser height: " + window.innerHeight + " pixels\nScreen height: " + screen.height + " pixels";
@@ -30,4 +30,4 @@ L’Adobe persiste nell’altezza del browser per una visita. Se l’altezza del
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono tutte le altezze del browser raccolte, classificate in gruppi di 100 pixel. Ad esempio, se l’altezza del browser di un hit è `720`, quindi viene raggruppato nell’elemento dimensione `700 to 799`.
+Gli elementi di Dimension includono tutte le altezze del browser raccolte, classificate in gruppi predefiniti. Ad esempio, se l’altezza del browser di un hit è `720`, quindi viene raggruppato nell’elemento dimensione `700 to 799`.

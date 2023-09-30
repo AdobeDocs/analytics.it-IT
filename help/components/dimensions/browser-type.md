@@ -3,10 +3,10 @@ title: Tipo di browser
 description: Organizzazione che ha creato il browser.
 feature: Dimensions
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 4%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,10 @@ Il &quot;tipo di browser&quot; [dimensione](overview.md) elenca le organizzazion
 
 ## Popola questa dimensione con i dati
 
-Questa dimensione fa riferimento a una tabella di ricerca interna a Adobe. Il valore di ricerca si basa sul `User-Agent` Intestazione HTTP nelle richieste di immagini. Se utilizzi una libreria di AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito.
+Questa dimensione fa riferimento a una tabella di ricerca interna a Adobe. Il valore di ricerca si basa sul `User-Agent` Intestazione HTTP nelle richieste di immagini. Adobe di partner con [DeviceAtlas](https://deviceatlas.com/) per mantenere le ricerche tra agente utente e browser.
+
+* Ad AppMeasurement, le implementazioni di questa dimensione sono pronte all’uso.
+* Per le implementazioni dell’SDK web, abilita [!UICONTROL Device Lookup] quando [configurazione di uno stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
 ## Elementi dimensionali
 

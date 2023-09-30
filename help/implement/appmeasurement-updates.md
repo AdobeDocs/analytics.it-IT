@@ -3,9 +3,9 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2362'
 ht-degree: 92%
 
 ---
@@ -353,8 +353,8 @@ Data di rilascio: **18 giugno 2015**
 
 Data di rilascio: **21 maggio 2015**
 
-* Con iOS SDK versione 4.5, una nuova estensione iOS consente di collegare i dati di utilizzo dalle applicazioni Apple Watch, Widget del giorno, widget per l&#39;editing di foto e tutte le applicazioni iOS. Consulta la sezione [Implementazione dell’estensione iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=it) nella guida utente di Mobile Services.
-* A partire dalla versione SDK Android 4.5, una nuova estensione Android consente di raccogliere dati dall&#39;applicazione del tuo dispositivo indossabile Android. Consulta la sezione [Android Wearables](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=it) nella guida utente di Mobile Services.
+* Con iOS SDK versione 4.5, una nuova estensione iOS consente di collegare i dati di utilizzo dalle applicazioni Apple Watch, Widget del giorno, widget per l&#39;editing di foto e tutte le applicazioni iOS.
+* A partire dalla versione SDK Android 4.5, una nuova estensione Android consente di raccogliere dati dall&#39;applicazione del tuo dispositivo indossabile Android.
 * Inclusione di API Visitor 1.4.
 * Il modulo AudienceManagement è stato aggiornato per l’utilizzo di DIL versione 6.0.
 
