@@ -6,7 +6,7 @@ uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Le metriche vengono visualizzate in uno dei tre intervalli di tempo seguenti. Fa
 
 Poiché alcuni dei dati visualizzati nella visualizzazione dati corrente non sono stati completamente elaborati, è possibile notare una differenza tra i valori riportati nella visualizzazione dati corrente e quelli nella visualizzazione finalizzata. Nei rapporti con tendenze, la differenza di dati è in genere entro l’1%.
 
-## Metriche calcolate 
+## Metriche calcolate
 
 Poiché le metriche calcolate possono essere create utilizzando metriche con latenza diversa, alcuni valori recenti potrebbero essere calcolati utilizzando dati incompleti nella visualizzazione dati corrente.
 

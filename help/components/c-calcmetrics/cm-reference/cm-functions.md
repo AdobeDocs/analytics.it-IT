@@ -3,7 +3,7 @@ description: Il Generatore di metriche calcolate consente di applicare funzioni 
 title: Funzioni di base di riferimento
 feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 95%
@@ -281,4 +281,4 @@ Ad esempio, supponiamo che sia presente una colonna con tre elementi:
 
 3
 
-La media di questa colonna è 2. La varianza della colonna sarà ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
+La media di questa colonna è 2. La varianza per la colonna sarà ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.
