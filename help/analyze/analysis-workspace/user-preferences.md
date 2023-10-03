@@ -4,10 +4,10 @@ description: Puoi impostare le preferenze generali e di progetto per gli utenti,
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
-workflow-type: ht
-source-wordcount: '3049'
-ht-degree: 100%
+source-git-commit: cca740f66783de4323b91dd722e3a108dde6b023
+workflow-type: tm+mt
+source-wordcount: '3142'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Puoi aggiornare le preferenze aziendali che si applicano a tutti gli utenti e ai
 
 {style="table-layout:auto"}
 
-## Preferenze per i progetti
+## Preferenze Progetti e Analisi
 
 Puoi personalizzare le preferenze per i progetti per tutti i nuovi progetti creati in Analysis Workspace. Per informazioni su come accedere a queste preferenze, consulta la sezione [Aggiornare le preferenze](#update-preferences).
 
@@ -73,7 +73,7 @@ Fai clic sui titoli delle preferenze collegati per ulteriori informazioni e cont
 | --- | --- | --- |
 | **Visualizzazione** | | |
 |  | [Densità di visualizzazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=it) | Scegli il contenuto da visualizzare sullo schermo riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle coorte. <ul><li>Compatta</li><li>Comoda</li><li>Espansa (impostazione predefinita)</li></ul> |
-| | [Tavolozza dei colori](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=it) | Scegli la tavolozza dei colori di visualizzazione utilizzata in Analysis Workspace. <ul><li>Tavolozze fornite da Adobe (impostazione predefinita)</li><li>Tavolozza con formattazione condizionale </li><li>Tavolozza su/giù (divergente)<li>Tavolozze personalizzate</li></ul> |
+| | [Tavolozza dei colori](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=it) | Scegli le palette di colori di visualizzazione utilizzate in Analysis Workspace.<ul><li>**Tavolozza categorica**: applicato a molte visualizzazioni in Analysis Workspace. Ogni colore rappresenta un valore categorico distinto. Scegli tra le opzioni fornite dall’Adobe o immetti una palette personalizzata definita da valori esadecimali delimitati da virgole.</li><li>**Tavolozza divergente**: applicato alla tabella coorte in Analysis Workspace. Questa tavolozza contiene un significato numerico con due estremi e una linea di base al centro.</li><li>**Tavolozza sequenziale**: applicato all’analisi guidata delle tendenze di frequenza (barre sovrapposte). Questa palette contiene un significato numerico che va dalla luce al buio.</li></ul> |
 | **Dati** | | |
 |  | [Suite di rapporti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it#report-suite) | Scegli da dove le tabelle e le visualizzazioni derivano i propri dati. <ul><li>Più recente (impostazione predefinita)</li><li>Suite di rapporti specifica selezionata da un elenco</li></ul> |
 |  | [Calendario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it#calendar) | Seleziona da un elenco di: <ul><li>Intervalli forniti da Adobe (l’impostazione predefinita è Questo mese)</li><li>Intervalli definiti personalizzati</li></ul> |
@@ -112,6 +112,7 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 | **[Riga](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | Raggruppamento per posizione | Seleziona questa opzione per far sì che il raggruppamento rimanga nella posizione dell’elemento anziché nell’elemento stesso. Per ulteriori informazioni sulle suddivisioni, consulta la sezione [Suddividere le dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md). |
 | | Calcolo percentuale | <ul><li>Colonna</li><li>Riga</li></ul> |
+| | Totali colonne (solo righe statiche) | <ul><li>Visualizza somma di righe: mostra la somma dei singoli elementi riga </li><li>Visualizza totale complessivo: mostra la somma deduplicata delle righe.</li></ul> |
 
 ## Preferenze delle visualizzazioni
 
