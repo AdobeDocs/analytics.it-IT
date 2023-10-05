@@ -3,10 +3,10 @@ description: Gestire gli avvisi.
 title: Panoramica di Gestione avvisi
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: cfae0661dfa9c61daea33c3a52204793ce3d35c1
+source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 23%
+source-wordcount: '443'
+ht-degree: 22%
 
 ---
 
@@ -61,6 +61,6 @@ Per configurare le colonne visibili in Gestione avvisi:
    | Tag | Mostra i tag applicati all&#39;avviso, da te o da altri utenti che lo hanno condiviso con te. |
    | Condiviso con | Elenca singoli utenti o gruppi (solo amministratori) o tutti coloro (solo amministratori) con cui hai condiviso l’avviso. |
    | Data di modifica | Indica la data dell’ultima modifica apportata all’avviso. |
-   | Ultimo utilizzo | Mostra la data dell’ultimo utilizzo dell’avviso. <p>Queste informazioni possono essere utili per determinare se un componente è utile per gli utenti dell’organizzazione, dove viene utilizzato e se deve essere eliminato o modificato.</p><p>Queste informazioni non includono l’utilizzo da API, Report Builder o Data Warehouse.</p> |
+   | Ultimo utilizzo | Mostra la data dell’ultimo utilizzo dell’avviso. <p>Queste informazioni possono essere utili per determinare se un componente è utile per gli utenti dell’organizzazione, dove viene utilizzato e se deve essere eliminato o modificato.</p><p>Quando visualizzi questa colonna, tieni presente quanto segue:</p><ul><li>Queste informazioni non includono l’utilizzo da API, Report Builder o Data Warehouse.</li><li>Per alcuni componenti, questa colonna potrebbe non contenere dati se il componente è stato utilizzato l’ultima volta prima di settembre 2023.</li></ul> |
 
    {style="table-layout:auto"}
