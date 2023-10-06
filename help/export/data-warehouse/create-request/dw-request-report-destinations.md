@@ -2,9 +2,10 @@
 description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare una destinazione di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
-source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
+exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
+source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
 workflow-type: tm+mt
-source-wordcount: '2081'
+source-wordcount: '2252'
 ht-degree: 4%
 
 ---
@@ -78,7 +79,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Piattaforma Google Cloud
 
@@ -90,7 +91,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++SAS di Azure
 
@@ -106,7 +107,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++RBAC di Azure
 
@@ -120,7 +121,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-mail
 
@@ -147,7 +148,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Piattaforma Google Cloud
 
@@ -160,7 +161,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++SAS di Azure
 
@@ -173,7 +174,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++RBAC di Azure
 
@@ -187,7 +188,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
    1. Seleziona [!UICONTROL **Salva**].
 
@@ -209,14 +210,59 @@ I dati di data warehouse possono essere inviati a un Adobe o a una posizione FTP
 
 Per completare i campi disponibili, utilizza le seguenti informazioni:
 
-* [!UICONTROL **Host**]: immetti l’URL di destinazione FTP desiderato. Esempio: `ftp://ftp.omniture.com`.
-* [!UICONTROL **Percorso**]: può essere lasciato vuoto
+#### Campi account
+
+* [!UICONTROL **Nome account**]: nome dell’account FTP.
+
+* [!UICONTROL **Descrizione account**]: descrizione dell’account FTP.
+
+* [!UICONTROL **Nome host**]: immetti l’URL di destinazione FTP desiderato. Esempio: `ftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  Non includere `ftp://` all’inizio dell’URL.
+
 * [!UICONTROL **Nome utente**]: immetti il nome utente per accedere al sito FTP.
+
 * [!UICONTROL **Password e conferma password**]: immetti la password per accedere al sito FTP.
+
+#### Campi posizione
+
+* [!UICONTROL **Nome posizione**]: nome del percorso sull’account FTP in cui desideri inviare i file.
+
+* [!UICONTROL **Descrizione della posizione**]: descrizione della posizione sull’account FTP.
+
+* [!UICONTROL **Percorso directory**]: percorso della posizione sull’account FTP.
 
 ### SFTP
 
 È disponibile il supporto SFTP per data warehouse. Richiede un host SFTP, un nome utente e il sito di destinazione per contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica appropriata durante la creazione della destinazione del data warehouse.
+
+Per completare i campi disponibili, utilizza le seguenti informazioni:
+
+#### Campi account
+
+* [!UICONTROL **Nome account**]: nome dell’account FTP.
+
+* [!UICONTROL **Descrizione account**]: descrizione dell’account FTP.
+
+* [!UICONTROL **Nome host**]: immetti l’URL di destinazione SFTP desiderato. Esempio: `sftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  Non includere `sftp://` all’inizio dell’URL.
+
+* [!UICONTROL **Nome utente**]: immetti il nome utente per accedere al sito SFTP.
+
+* [!UICONTROL **Chiavi pubbliche**]: scarica la chiave pubblica appropriata durante la creazione della destinazione del data warehouse.
+
+#### Campi posizione
+
+* [!UICONTROL **Nome posizione**]: nome della posizione sull’account SFTP in cui desideri inviare i file.
+
+* [!UICONTROL **Descrizione della posizione**]: descrizione della posizione sull’account SFTP.
+
+* [!UICONTROL **Percorso directory**]: percorso della posizione sull’account SFTP.
 
 ### S3
 
