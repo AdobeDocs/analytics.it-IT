@@ -3,7 +3,7 @@ description: Passaggi amministrativi per la configurazione di rapporti in tempo 
 title: Configurare rapporti in tempo reale
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Configurare rapporti in tempo reale
+
+{{ra-eol}}
 
 Passaggi amministrativi per la configurazione di rapporti in tempo reale.
 

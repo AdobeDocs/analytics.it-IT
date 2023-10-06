@@ -6,19 +6,18 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 11%
+source-wordcount: '1612'
+ht-degree: 5%
 
 ---
 
 # Pianificazione e distribuzione del rapporto
 
-Informazioni sulla pianificazione, il download e la distribuzione dei rapporti.
+{{ra-eol}}
 
->[!IMPORTANT]
->Il 21 aprile 2022 è stata annunciata la rimozione di diverse funzioni specifiche dei rapporti pianificati in preparazione della scadenza del ciclo di vita di Reports &amp; Analytics, precedentemente annunciata. Queste funzionalità includevano la possibilità di pianificare nuovi rapporti e nuovi estratti di dati. In risposta alle richieste dei clienti che necessitano di un’estensione e per facilitare la transizione da Reports &amp; Analytics, abbiamo deciso di estendere l’accesso a queste funzioni fino al 31 gennaio 2023. Si prega di notare che le scadenze per i rapporti e gli estratti dei dati continueranno a essere limitate a nove mesi; la consegna del report e dell’estrazione dei dati verrà sospesa alla fine di questo periodo, a meno che la pianificazione non venga riattivata. [Ulteriori informazioni](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+Informazioni sulla pianificazione, il download e la distribuzione dei rapporti.
 
 Quando pianifichi la consegna di un report in un&#39;applicazione di Adobe Analytics puoi utilizzare gli strumenti Scheduling (Pianificazione) e Distribution (Distribuzione) per visualizzare i file automaticamente inviati e modificati o per terminare le consegne.
 
@@ -51,7 +50,7 @@ Per scaricare e inviare i rapporti tramite e-mail in diversi formati e pianifica
 
    | Opzione | Descrizione |
    |--- |--- |
-   | Formato | Seleziona PDF o HTML. |
+   | Format | Seleziona PDF o HTML. |
    | Invia a | Specifica un indirizzo e-mail per ricevere il rapporto. |
    | Oggetto | Oggetto dell’e-mail. |
    | Pianificazione | Seleziona questa opzione per inviare il rapporto immediatamente o a un intervallo diverso. |

@@ -4,7 +4,7 @@ title: Panoramica reportistica in tempo reale
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 12%
@@ -12,6 +12,8 @@ ht-degree: 12%
 ---
 
 # Panoramica reportistica in tempo reale
+
+{{ra-eol}}
 
 Il reporting in tempo reale visualizza il traffico della pagina web e classifica le visualizzazioni di pagina in tempo reale. Fornisce dati actionable su cui basare le decisioni aziendali.
 

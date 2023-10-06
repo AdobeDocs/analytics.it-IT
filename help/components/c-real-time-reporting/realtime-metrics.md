@@ -4,7 +4,7 @@ title: Panoramica delle metriche e delle dimensioni in tempo reale supportate
 topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 28%
@@ -12,6 +12,8 @@ ht-degree: 28%
 ---
 
 # Metriche e dimensioni in tempo reale supportate
+
+{{ra-eol}}
 
 Elenca metriche e dimensioni supportate dai rapporti in tempo reale. Sono supportate anche le classificazioni, se le hai definite.
 
