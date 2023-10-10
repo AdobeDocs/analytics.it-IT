@@ -2,9 +2,9 @@
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 title: Annullare le richieste di reporting in Reporting Activity Manager
 feature: Admin Tools
-source-git-commit: dc09510ea1d97c39d00df309faf85f90003b50fa
+source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '922'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
 ## Annullare richieste specifiche
 
-Puoi scegliere le richieste specifiche da annullare.
+Puoi annullare singole richieste che consumano una grande quantità di capacità di reporting.
 
 1. In Adobe Analytics, vai a **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
@@ -41,7 +41,7 @@ Puoi scegliere le richieste specifiche da annullare.
 
 1. Seleziona [!UICONTROL **Annulla richieste**].
 
-   Il [!UICONTROL **Annullare x richieste di rapporti**] viene visualizzata.
+   Il [!UICONTROL **Annulla _x_ richieste di rapporti**] viene visualizzata.
 
 1. Il campo Messaggio di annullamento mostra il messaggio visualizzato agli utenti quando le loro richieste vengono annullate. Viene fornito un messaggio predefinito. Puoi aggiornare il messaggio predefinito per fornire ulteriori dettagli.
 
@@ -76,7 +76,7 @@ Puoi annullare tutte le richieste associate a uno o più utenti.
 
 1. Seleziona [!UICONTROL **Annulla richieste**].
 
-   Il [!UICONTROL **Annulla x richieste di rapporti da x utenti**] viene visualizzata.
+   Il [!UICONTROL **Annulla _x_ richieste di rapporti da x utenti**] viene visualizzata.
 
 1. Il campo Messaggio di annullamento mostra il messaggio visualizzato agli utenti quando le loro richieste vengono annullate. Viene fornito un messaggio predefinito. Puoi aggiornare il messaggio predefinito per fornire ulteriori dettagli.
 
@@ -111,7 +111,7 @@ Puoi annullare tutte le richieste associate a uno o più progetti.
 
 1. Seleziona [!UICONTROL **Annulla richieste**].
 
-   Il [!UICONTROL **Annulla x richieste di rapporti da x progetti**] viene visualizzata.
+   Il [!UICONTROL **Annulla _x_ richieste di rapporti da x progetti**] viene visualizzata.
 
 1. Il campo Messaggio di annullamento mostra il messaggio visualizzato agli utenti quando le loro richieste vengono annullate. Viene fornito un messaggio predefinito. Puoi aggiornare il messaggio predefinito per fornire ulteriori dettagli.
 
@@ -132,6 +132,6 @@ Puoi annullare tutte le richieste associate a uno o più progetti.
 
 ## Esperienza di accesso degli utenti a un rapporto annullato
 
-In Analysis Workspace, gli utenti che tenteranno di accedere a un rapporto annullato visualizzeranno il seguente messaggio:
+In Analysis Workspace, gli utenti visualizzano il seguente messaggio quando tentano di accedere a un rapporto annullato da un amministratore:
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)

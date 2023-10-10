@@ -4,10 +4,10 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 18%
+source-wordcount: '1587'
+ht-degree: 14%
 
 ---
 
@@ -35,7 +35,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
      Per contrassegnare una suite di rapporti come preferita, seleziona l’icona a forma di stella a sinistra del nome della suite di rapporti.
 
-<!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
+     <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
 1. Visualizza le informazioni sull’utilizzo di ogni suite di rapporti. È possibile selezionare un&#39;intestazione di colonna per ordinare la tabella in base a tale colonna.
 
@@ -44,10 +44,10 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
    | Elemento nell’interfaccia utente | Descrizione |
    | --- | --- |
    | **[!UICONTROL Report Suite]** | La suite di rapporti di base di cui si sta monitorando l’attività di reporting. |
-   | **[!UICONTROL Virtual report suites]** | Mostra tutte le suite di rapporti virtuali che confluiscono in questa suite di rapporti di base. Le suite di rapporti virtuali aggiungono complessità alle richieste di reporting a causa di ulteriori livelli di filtro e di segmentazione applicati. Tutte le richieste provenienti dalle suite di rapporti virtuali vengono combinate e ridotte alla suite di rapporti di base.<p>Ad esempio, se disponi di 10 richieste provenienti da 5 VRS, nella suite di rapporti a livello di base le richieste sono 50. In questo modo, si possono raggiungere molto rapidamente i limiti di capacità. |
-   | **[!UICONTROL Capacity utilization]** | La percentuale in tempo reale della capacità di reporting della suite di rapporti in uso. <p>**Nota** Anche una capacità di utilizzo pari al 100% non significa necessariamente che dovresti iniziare ad annullare le richieste di reporting. La capacità di utilizzo del 100% può essere integra se il tempo medio di attesa è ragionevole. Una capacità di utilizzo del 100% potrebbe indicare un problema se aumenta anche il numero di richieste in coda.</p> |
+   | **[!UICONTROL Virtual report suites]** | Mostra tutte le suite di rapporti virtuali che confluiscono in questa suite di rapporti di base. Le suite di rapporti virtuali aggiungono complessità alle richieste di reporting a causa di ulteriori livelli di filtro e di segmentazione applicati. Tutte le richieste provenienti dalle suite di rapporti virtuali vengono combinate nella suite di rapporti di base.<p>Ad esempio, se disponi di 10 richieste provenienti da 5 suite di rapporti virtuali, nella suite di rapporti a livello di base le richieste sono 50. In questo modo, si possono raggiungere molto rapidamente i limiti di capacità. |
+   | **[!UICONTROL Capacity utilization]** | La percentuale in tempo reale della capacità di reporting della suite di rapporti in uso. <p>**Nota** Una capacità di utilizzo pari al 100% non indica necessariamente che è necessario iniziare immediatamente ad annullare le richieste di reporting. La capacità di utilizzo del 100% può essere integra se il tempo medio di attesa è ragionevole. D’altra parte, una capacità di utilizzo del 100% potrebbe indicare un problema se anche il numero di richieste in coda è in crescita.</p> |
    | **[!UICONTROL Queued requests]** | Numero di richieste in attesa di elaborazione. <!-- ??? --> |
-   | **[!UICONTROL Queue wait time]** | Tempo medio di attesa per ogni richiesta da elaborare. <!-- ???? --> |
+   | **[!UICONTROL Queue wait time]** | Tempo medio di attesa prima dell’elaborazione delle richieste. <!-- ???? --> |
    | **[!UICONTROL Status]** | I possibili stati sono: <ul><li>[!UICONTROL **Attivo**] (blu): i rapporti sono stati eseguiti sulla suite di rapporti e ne viene monitorata l’attività.</li><li>[!UICONTROL **Inattivo**] (grigio): non è mai stato eseguito alcun rapporto sulla suite di rapporti. Questo stato viene visualizzato solo al momento della creazione delle suite di rapporti.</li></ul> |
 
    {style="table-layout:auto"}
@@ -66,19 +66,22 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
    * [Visualizzare grafici](#view-graphs)
 
-   * [Visualizza tabella](#view-data-in-the-table)
+   * [Visualizza tabella](#view-table)
 
 ### Visualizzare grafici
 
-Sono disponibili i seguenti grafici per comprendere meglio l’attività che si verifica nella suite di rapporti. Se i grafici non sono visibili, selezionare [!UICONTROL **Mostra grafici**] pulsante.
+Sono disponibili i seguenti grafici per comprendere meglio l’attività che si verifica nella suite di rapporti.
+
+Se i grafici non sono visibili, selezionare [!UICONTROL **Mostra grafici**] pulsante.
 
 #### Grafico Utilizzo {#utilization}
 
 Il grafico Utilizzo mostra l’utilizzo dei rapporti per la suite di rapporti selezionata nelle ultime 2 ore.
 
-* L’asse x mostra la capacità di utilizzo del reporting nelle ultime 2 ore.
-* L’asse y mostra la percentuale di capacità di utilizzo del reporting, al minuto.
-* Puoi passare il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui la percentuale di capacità di utilizzo era più alta per quel minuto.
+Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui la percentuale di capacità di utilizzo era più alta per quel minuto.
+
+* **Asse X**: capacità di utilizzo dei rapporti nelle ultime 2 ore.
+* **Asse Y**: percentuale di capacità di utilizzo dei rapporti, in minuti.
 
   ![grafico di utilizzo](assets/utilization-graph.png)
 
@@ -86,9 +89,10 @@ Il grafico Utilizzo mostra l’utilizzo dei rapporti per la suite di rapporti se
 
 Il grafico Utenti distinti mostra l’attività di reporting per la suite di rapporti selezionata nelle ultime 2 ore.
 
-* L’asse x mostra un intervallo temporale di 2 ore.
-* L’asse y mostra il numero di utenti che hanno effettuato richieste di reporting, per minuto.
-* Puoi passare il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui il numero massimo di utenti era più alto per quel minuto.
+Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui il numero massimo di utenti era più alto per quel minuto.
+
+* **Asse X**: l’attività di reporting nell’ultimo intervallo di tempo di 2 ore.
+* **Asse Y**: numero di utenti che hanno effettuato richieste di reporting per minuto.
 
   ![Grafico Utenti distinti](assets/distinct-users-graph.png)
 
@@ -98,9 +102,10 @@ Il grafico Utenti distinti mostra l’attività di reporting per la suite di rap
 
 The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
 
-* The x-axis shows a 2-hour time frame.
-* The y-axis shows the number of processed requests (in purple) and completed requests (in green), by minute.
-* You can hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+
+* **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
+* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
 
    ![Distinct Users graph](assets/requests-graph.png)
 
@@ -108,9 +113,10 @@ The Requests graph shows the number of processed and completed requests for the 
 
 The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
 
-* The x-axis shows a 2-hour time frame.
-* The y-axis shows the average wait time (in seconds).
-* You can hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+Hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+
+* **X-axis**: The average queue wait time for reporting requests over the last a 2-hour time frame.
+* **Y-axis**: The average wait time (in seconds).
 
    ![Distinct Users graph](assets/queueing-graph.png)
 
@@ -135,15 +141,15 @@ Quando selezioni il [!UICONTROL **Richiesta**] nella tabella sono disponibili le
 | [!UICONTROL **ID richiesta**] | Può essere utilizzato per la risoluzione dei problemi. |
 | [!UICONTROL **Esecuzione temporale**] | Da quanto tempo la richiesta è in esecuzione. |
 | [!UICONTROL **Ora di inizio**] | Quando la richiesta ha iniziato l’elaborazione (in base all’ora locale dell’amministratore). |
-| [!UICONTROL **Tempo di attesa**] | Tempo di attesa della richiesta prima dell’elaborazione. Generalmente a “0” quando c’è abbastanza capacità. |
+| [!UICONTROL **Tempo di attesa**] | Tempo di attesa della richiesta prima dell’elaborazione. Questo valore è generalmente a &quot;0&quot; quando la capacità è sufficiente. |
 | [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi intelligenti</li></ul> |
-| [!UICONTROL **Utente**] | Utente che ha avviato la richiesta. Se il valore di questa colonna è [!UICONTROL **Non riconosciuto**], significa che l’utente si trova in una società di accesso per la quale non disponi di autorizzazioni amministrative. |
+| [!UICONTROL **Utente**] | Utente che ha avviato la richiesta. <p>**Nota:** Se il valore di questa colonna è [!UICONTROL **Non riconosciuto**], significa che l’utente si trova in una società di accesso per la quale non disponi di autorizzazioni amministrative.</p> |
 | [!UICONTROL **Progetto**] | Nomi di progetto Workspace salvati, ID di report API e così via (I metadati possono variare tra le varie applicazioni). |
 | [!UICONTROL **Stato**] | Indicatori di stato: <ul><li>**In esecuzione**: richiesta in fase di elaborazione.</li><li>**In sospeso**: richiesta in attesa di elaborazione.</li></ul> |
-| [!UICONTROL **Complessi**] | Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle. Possibili valori: <ul><li>[!UICONTROL **Bassa**]</li><li>[!UICONTROL **Canale**]</li><li>[!UICONTROL **Alta**]</li></ul>Questo valore è influenzato dai valori delle colonne seguenti:<ul><li>[!UICONTROL **Limiti del mese**]</li><li>[!UICONTROL **Colonne**]</li><li>[!UICONTROL **Segmenti**]</li></ul> |
-| [!UICONTROL **Limiti del mese**] | Il numero di mesi inclusi in una richiesta. Questo si aggiunge alla complessità della richiesta. |
-| [!UICONTROL **Colonne**] | Il numero di metriche e raggruppamenti nella richiesta. Questo si aggiunge alla complessità della richiesta. |
-| [!UICONTROL **Segmenti**] | Il numero di segmenti applicati alla richiesta. Questo si aggiunge alla complessità della richiesta. |
+| [!UICONTROL **Complessi**] | Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle. <p>Possibili valori:</p> <ul><li>[!UICONTROL **Bassa**]</li><li>[!UICONTROL **Canale**]</li><li>[!UICONTROL **Alta**]</li></ul>Questo valore è influenzato dai valori delle colonne seguenti:<ul><li>[!UICONTROL **Limiti del mese**]</li><li>[!UICONTROL **Colonne**]</li><li>[!UICONTROL **Segmenti**]</li></ul> |
+| [!UICONTROL **Limiti del mese**] | Il numero di mesi inclusi in una richiesta. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
+| [!UICONTROL **Colonne**] | Il numero di metriche e raggruppamenti nella richiesta. Più colonne aumenta la complessità della richiesta. |
+| [!UICONTROL **Segmenti**] | Il numero di segmenti applicati alla richiesta. Altri segmenti aumentano la complessità della richiesta. |
 
 {style="table-layout:auto"}
 
@@ -158,9 +164,9 @@ Quando selezioni il [!UICONTROL **Utente**] nella tabella sono disponibili le se
 | [!UICONTROL **Numero di progetti**] | Il numero di progetti associati all’utente. <!-- ??? --> |
 | [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi intelligenti</li></ul> |
 | [!UICONTROL **Complessità media**] | La complessità media delle richieste avviate dall’utente. <p>Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p><ul><li>[!UICONTROL **Limiti medi del mese**]</li><li>[!UICONTROL **Media colonne**]</li><li>[!UICONTROL **Segmenti medi**]</li></ul> |
-| [!UICONTROL **Limiti medi del mese**] | Numero medio di mesi inclusi nelle richieste. Questo si aggiunge alla complessità media della richiesta. |
-| [!UICONTROL **Media colonne**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Questo si aggiunge alla complessità media. |
-| [!UICONTROL **Segmenti medi**] | Numero medio di segmenti applicati alle richieste incluse. Questo si aggiunge alla complessità media. |
+| [!UICONTROL **Limiti medi del mese**] | Numero medio di mesi inclusi nelle richieste. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
+| [!UICONTROL **Media colonne**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Più colonne aumenta la complessità della richiesta. |
+| [!UICONTROL **Segmenti medi**] | Numero medio di segmenti applicati alle richieste incluse. Altri segmenti aumentano la complessità della richiesta. |
 
 {style="table-layout:auto"}
 
@@ -175,9 +181,9 @@ Quando selezioni il [!UICONTROL **Progetto**] nella tabella sono disponibili le 
 | [!UICONTROL **Numero di utenti**] | Il numero di utenti associati al progetto. <!-- ??? --> |
 | [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi intelligenti</li></ul> |
 | [!UICONTROL **Complessità media**] | La complessità media delle richieste incluse nel progetto. <p>Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p><ul><li>[!UICONTROL **Limiti medi del mese**]</li><li>[!UICONTROL **Media colonne**]</li><li>[!UICONTROL **Segmenti medi**]</li></ul> |
-| [!UICONTROL **Limiti medi del mese**] | Numero medio di mesi inclusi nelle richieste. Questo si aggiunge alla complessità media della richiesta. |
-| [!UICONTROL **Media colonne**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Questo si aggiunge alla complessità media. |
-| [!UICONTROL **Segmenti medi**] | Numero medio di segmenti applicati alle richieste incluse. Questo si aggiunge alla complessità media. |
+| [!UICONTROL **Limiti medi del mese**] | Numero medio di mesi inclusi nelle richieste. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
+| [!UICONTROL **Media colonne**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Più colonne aumenta la complessità della richiesta. |
+| [!UICONTROL **Segmenti medi**] | Numero medio di segmenti applicati alle richieste incluse. Altri segmenti aumentano la complessità della richiesta. |
 
 {style="table-layout:auto"}
 
@@ -192,9 +198,9 @@ Quando selezioni il [!UICONTROL **Applicazione**] nella tabella sono disponibili
 | [!UICONTROL **Numero di utenti**] | Il numero di utenti associati all’applicazione. <!--???--> |
 | [!UICONTROL **Numero di progetti**] | Numero di progetti associati all&#39;applicazione. <!--???--> |
 | [!UICONTROL **Complessità media**] | La complessità media delle richieste associate all’applicazione. <p>Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:<ul><li>[!UICONTROL **Limiti medi del mese**]</li><li>[!UICONTROL **Media colonne**]</li><li>[!UICONTROL **Segmenti medi**]</li></ul> |
-| [!UICONTROL **Limiti medi del mese**] | Numero medio di mesi inclusi nelle richieste. Questo si aggiunge alla complessità media della richiesta. |
-| [!UICONTROL **Media colonne**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Questo si aggiunge alla complessità media. |
-| [!UICONTROL **Segmenti medi**] | Numero medio di segmenti applicati alle richieste incluse. Questo si aggiunge alla complessità media. |
+| [!UICONTROL **Limiti medi del mese**] | Numero medio di mesi inclusi nelle richieste. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
+| [!UICONTROL **Media colonne**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Più colonne aumenta la complessità della richiesta. |
+| [!UICONTROL **Segmenti medi**] | Numero medio di segmenti applicati alle richieste incluse. Altri segmenti aumentano la complessità della richiesta. |
 
 {style="table-layout:auto"}
 
