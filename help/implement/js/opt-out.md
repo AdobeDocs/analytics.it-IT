@@ -3,14 +3,16 @@ title: Collegamenti di rinuncia
 description: Scopri come creare e implementare collegamenti di rinuncia per i visitatori del tuo sito.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 7%
+source-wordcount: '624'
+ht-degree: 5%
 
 ---
 
 # Implementazione dei collegamenti di opt-out
+
+*Questa pagina di aiuto consente ai clienti di Adobe Analytics di fornire ai propri utenti collegamenti di rinuncia. Se non sei cliente di Adobe Analytics, consulta [Adobe di scelte sulla privacy](https://www.adobe.com/privacy/opt-out.html) per controllare il modo in cui Adobe utilizza le informazioni.*
 
 >[!IMPORTANT]
 >
@@ -35,10 +37,10 @@ La pagina di rinuncia per la tua organizzazione dipende dalla [`trackingServer`]
    1. Fai clic su [!UICONTROL General] Pannello a soffietto e annota [!UICONTROL Tracking Server] valore.
 
 * In un’implementazione JavaScript:
-   1. Sul server web, apri il file AppMeasurement.js utilizzato sul tuo sito in un editor di codice o di testo.
+   1. Sul server web, apri il file AppMeasurement.js utilizzato sul sito in un editor di codice o di testo.
    1. Osserva `trackingServer` valore della variabile.
 
-* Utilizzo di [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it):
+* Utilizzo di [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Passa al sito utilizzando il browser Chrome.
    1. Apri il Experience Cloud Debugger, quindi vai al [!UICONTROL Network tab].
    1. Osserva [!UICONTROL Request URL - Hostname] valore.
