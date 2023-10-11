@@ -4,10 +4,10 @@ title: Segmenti
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 93%
+source-wordcount: '493'
+ht-degree: 92%
 
 ---
 
@@ -19,9 +19,9 @@ In Workspace puoi creare diversi tipi di segmento, a seconda della complessità,
 | Tipo di segmento | Creato dove? | Applicabile dove? | Quando utilizzare |
 | --- | --- | --- | --- |
 | Segmento nell’elenco dei componenti | Fai clic su +, per passare al [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) | Tutti i progetti Workspace | Per segmenti più complessi, segmenti sequenziali |
-| Segmento rapido | [Generatore di segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo progetto, ma può essere salvato e aggiunto all’elenco dei segmenti. | Può essere utilizzato per segmenti ad hoc con regole singole (con trascinamento della selezione) o per aggiungere/modificare più regole (facendo clic sull’icona Segmento) |
+| Segmento rapido | [Generatore di segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo progetto, ma può essere salvato e aggiunto all’elenco dei segmenti. | Può essere utilizzato per segmenti ad hoc a regola singola (con trascinamento della selezione) oppure per aggiungere/modificare più regole (facendo clic sull’icona Segmento) |
 | Segmento basato su metriche calcolate | [Generatore di metrica calcolata](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=it) | Per singola metrica calcolata | Applicare segmenti nella definizione della metrica |
-| Segmento basato su VRS | [Generatore suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) | Per singole suite di rapporti virtuali | Applicare segmenti nella definizione VRS |
+| Segmento basato su suite di rapporti virtuali | [Generatore suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) | Per singole suite di rapporti virtuali | Applicare segmenti nella definizione della suite di rapporti virtuali |
 
 ## Video
 

@@ -3,16 +3,16 @@ title: Esclusione di date specifiche nell’analisi
 description: Suggerimenti per escludere date o intervalli di date se non si desidera includerli nei rapporti.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
 feature: Event, Segmentation
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '565'
 ht-degree: 2%
 
 ---
 
 # Esclusione di date specifiche nell’analisi
 
-Se si dispone di dati [interessato da un evento](overview.md), puoi utilizzare un segmento per escludere eventuali intervalli di date che non desideri includere nei rapporti. La segmentazione delle date interessate dagli eventi può aiutare a evitare che l’organizzazione prenda decisioni sui dati parziali.
+Se si dispone di dati [interessato da un evento](overview.md), puoi utilizzare un segmento per escludere eventuali intervalli di date che non desideri includere nei rapporti. La segmentazione delle date interessate dagli eventi può aiutare a evitare che l’organizzazione prenda decisioni su dati parziali.
 
 ## Isolare giorni interessati {#isolate}
 
@@ -73,7 +73,7 @@ Puoi applicare il segmento &quot;Escludi giorni interessati&quot; a un progetto 
 
 ### Utilizzare il segmento di esclusione in una suite di rapporti virtuale {#use-vrs}
 
-Puoi utilizzare il segmento in una [suite di rapporti virtuale](/help/components/vrs/vrs-about.md) per escludere i dati in modo più comodo. Questa opzione è ideale in quanto non è necessario ricordarsi di applicare il segmento per ogni rapporto che include l’intervallo di date interessato. Se utilizzi già suite di rapporti virtuali come origine di dati principale, puoi aggiungere il segmento a una VRS esistente.
+Puoi utilizzare il segmento in una [suite di rapporti virtuale](/help/components/vrs/vrs-about.md) per escludere i dati in modo più comodo. Questa opzione è ideale in quanto non è necessario ricordarsi di applicare il segmento per ogni rapporto che include l’intervallo di date interessato. Se utilizzi già suite di rapporti virtuali come origine di dati principale, puoi aggiungere il segmento a una suite di rapporti virtuale esistente.
 
 1. Passa a **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
 2. Fai clic su **[!UICONTROL Add]** (Usa modello di attribuzione non predefinito).
@@ -81,4 +81,4 @@ Puoi utilizzare il segmento in una [suite di rapporti virtuale](/help/components
 4. Trascina il segmento di esclusione nell’area etichettata **[!UICONTROL Add segment]**.
 5. Clic **[!UICONTROL Continue]** in alto a destra, quindi fai clic su **[!UICONTROL Save]**.
 
-![Segmento applicato a VRS](assets/exclude_segment_vrs.png)
+![Segmento applicato alla suite di rapporti virtuale](assets/exclude_segment_vrs.png)

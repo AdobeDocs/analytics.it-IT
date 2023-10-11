@@ -4,10 +4,10 @@ description: Risposte alle domande più frequenti sull’attribuzione.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: aeb5558c85286c069b49663919fdbb15853bf88e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 74%
+source-wordcount: '1214'
+ht-degree: 72%
 
 ---
 
@@ -146,7 +146,7 @@ Quando l’attribuzione viene applicata a hit con più valori, a tutti i valori 
 
 L’attribuzione viene sempre eseguita prima della segmentazione e la segmentazione viene eseguita prima dell’applicazione dei filtri per la generazione del rapporto. Questo concetto si applica anche alle suite di rapporti virtuali che utilizzano segmenti.
 
-Ad esempio, se crei una suite di rapporti virtuali applicando il segmento “hit di visualizzazione”, potresti vedere altri canali sotto forma di tabella utilizzando alcuni modelli di attribuzione.
+Ad esempio, se crei una suite di rapporti virtuale a cui è applicato il segmento &quot;Hit di visualizzazione&quot;, potresti vedere altri canali in una tabella utilizzando alcuni modelli di attribuzione.
 
 ![Suite di rapporti virtuali di sola visualizzazione](assets/vrs-aiq-example.png)
 

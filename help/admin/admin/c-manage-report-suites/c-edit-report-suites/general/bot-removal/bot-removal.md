@@ -3,10 +3,10 @@ title: Rimozione dei bot in Adobe Analytics
 description: Come rimuovere i bot in Adobe Analytics
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ Per ulteriori informazioni, consulta la [Guida all’implementazione di Adobe An
 
 ## Utilizzare una combinazione di strumenti Adobe
 
-Inoltre, dal momento che i bot si stanno evolvendo rapidamente, Adobe offre diverse altre potenti funzionalità che, se combinate correttamente e regolarmente, possono aiutare a dare impulso alla rimozione di questi nemici della qualità dei dati. Tali funzionalità sono: Experience Cloud ID Service, segmentazione, Data Warehouse, attributi cliente e suite di rapporti virtuali. Ecco una panoramica su come utilizzare questi strumenti.
+Inoltre, dal momento che i bot si stanno evolvendo rapidamente, Adobe offre diverse altre potenti funzionalità che, se combinate correttamente e regolarmente, possono aiutare a dare impulso alla rimozione di questi nemici della qualità dei dati. Tali funzioni sono: servizio ID di Experience Cloud, segmentazione, Data Warehouse, attributi cliente e suite di rapporti virtuali. Ecco una panoramica su come utilizzare questi strumenti.
 
 ### Passaggio 1: passa l&#39;ID Experience Cloud dei visitatori in un nuovo ID dichiarato
 
@@ -66,18 +66,18 @@ Dopo aver identificato i bot che utilizzano i segmenti, il passaggio successivo 
 
 Ricorda di utilizzare l’ID visitatore Experience Cloud come dimensione e di applicare il segmento “Bots”.
 
-### Passaggio 4: passa questo elenco ad Adobe come attributo del cliente
+### Passaggio 4: passa questo elenco all&#39;Adobe come attributo del cliente
 
 Quando arriva il rapporto Data Warehouse, hai un elenco di ECID che devono essere filtrati dai dati storici. Copia e incolla questi ECID in un file .csv vuoto con solo due colonne, ECID e flag bot.
 
 * **ECID**: assicurati che questa intestazione di colonna corrisponda al nome assegnato al nuovo ID dichiarato sopra.
-* **Flag bot**: aggiungi “Flag bot” come dimensione dello schema dell’attributo del cliente.
+* **Flag bot**: aggiungi &quot;Flag bot&quot; come dimensione dello schema dell’attributo del cliente.
 
-Usa questo file .csv come file di importazione dell’attributo cliente, quindi abbona le suite di rapporti all’attributo cliente come descritto in questo [post di blog](https://theblog.adobe.com/link-digital-behavior-customers).
+Utilizza questo file .CSV come file di importazione dell’attributo cliente, quindi abbona le suite di rapporti all’attributo cliente come descritto in questo [post di blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
-### Passaggio 5: crea un segmento che sfrutta il nuovo attributo cliente
+### Passaggio 5: creare un segmento che sfrutta il nuovo attributo cliente
 
 Una volta elaborato e integrato il set di dati in Analysis Workspace, crea un altro segmento che sfrutta la nuova dimensione dell’attributo del cliente “Bot Flag” e un contenitore [!UICONTROL Exclude]:
 
@@ -85,7 +85,7 @@ Una volta elaborato e integrato il set di dati in Analysis Workspace, crea un al
 
 ### Passaggio 6: utilizza questo segmento come filtro della suite di rapporti virtuale
 
-Infine, crea una [Suite di rapporti virtuale](/help/components/vrs/vrs-about.md) che utilizza questo segmento per filtrare i bot identificati:
+Infine, crea un’ [Suite di rapporti virtuale](/help/components/vrs/vrs-about.md) che utilizza questo segmento per filtrare i bot identificati:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

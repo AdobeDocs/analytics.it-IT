@@ -1,10 +1,10 @@
 ---
-description: Risposte alle domande che potresti avere durante l’implementazione di Audience Analytics.
+description: Risposte alle domande che potresti avere durante l’implementazione di Audienci Analytics.
 solution: Experience Cloud
 title: Domande frequenti per Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 14%
@@ -13,7 +13,7 @@ ht-degree: 14%
 
 # Domande frequenti
 
-Risposte alle domande che potresti avere durante l’implementazione di Audience Analytics.
+Risposte alle domande che potresti avere durante l’implementazione di Audienci Analytics.
 
 ## Domande frequenti legali {#section_B51CFC961C0B45A2BE5F4A4404620764}
 
@@ -46,7 +46,7 @@ Risposte alle domande che potresti avere durante l’implementazione di Audience
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>D: Come si crea una destinazione Analytics in Audience Manager?</b> </p> </td> 
+   <td colname="col1"> <p><b>D: Come si crea una destinazione Analytics in Audienci Manager?</b> </p> </td> 
    <td colname="col2"> Consulta <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configurare una destinazione Analytics in Adobe Audience Manager </a>. </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Risposte alle domande che potresti avere durante l’implementazione di Audience
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>D: Questo mi darà tutte le informazioni da Adobe Audience Manager, in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>No, solo i dati relativi alle persone che arrivano sul tuo sito durante o dopo l’abilitazione di Audiences Audience Manager e durante/dopo la qualificazione dei segmenti. </p> </td> 
+   <td colname="col2"> <p>No, solo i dati relativi alle persone che arrivano sul tuo sito durante o dopo l’abilitazione di Audiences Audienci Manager e durante/dopo la qualificazione dei segmenti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>D: Mi darà un'audience per segmento totalmente indirizzabile?</b> </p> </td> 
@@ -102,7 +102,7 @@ Risposte alle domande che potresti avere durante l’implementazione di Audience
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Perché vedo "Limite di pubblico raggiunto" nel mio rapporto Analytics? (Nota: verrà rappresentato anche come Audience ID = -1 e "::max_audiences_exceeded::" nella Data Warehouse)</b> </p> </td> 
-   <td colname="col2"> <p>Per impostazione predefinita, l’integrazione Audience Analytics per Adobe Audience Manager invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all’hit. Se un visitatore appartiene a più di 150 segmenti Adobe Audience Manager in un singolo hit, il <b>150 segmenti qualificati più di recente</b> vengono inviati ad Analytics, mentre l’elenco rimanente viene troncato. </p> <p>Ad Analytics viene inviato un flag aggiuntivo che indica che l’elenco dei segmenti è stato troncato e viene visualizzato come "Limite di pubblico raggiunto" nella dimensione Nome pubblico e "-1" nella dimensione ID pubblico. </p> <p>Anche se è improbabile che un visitatore sia idoneo per più di 150 segmenti su un particolare hit, ciò può accadere per una piccola percentuale di tempo. Se nei rapporti si verifica il "Limite di pubblico raggiunto", sono disponibili due opzioni: </p> 
+   <td colname="col2"> <p>Per impostazione predefinita, l’integrazione Audienci Analytics per Adobe Audience Manager invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all’hit. Se un visitatore appartiene a più di 150 segmenti Adobe Audience Manager in un singolo hit, il <b>150 segmenti qualificati più di recente</b> vengono inviati ad Analytics, mentre l’elenco rimanente viene troncato. </p> <p>Ad Analytics viene inviato un flag aggiuntivo che indica che l’elenco dei segmenti è stato troncato e viene visualizzato come "Limite di pubblico raggiunto" nella dimensione Nome pubblico e "-1" nella dimensione ID pubblico. </p> <p>Anche se è improbabile che un visitatore sia idoneo per più di 150 segmenti su un particolare hit, ciò può accadere per una piccola percentuale di tempo. Se nei rapporti si verifica il "Limite di pubblico raggiunto", sono disponibili due opzioni: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Opzione 1</b>: continua a lasciare che l’integrazione funzioni nel suo stato predefinito, inviando gli ultimi 150 segmenti qualificati per un visitatore specifico. </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>Opzione 2</b>: in Adobe Audience Manager, scegli i 150 segmenti più importanti per la tua azienda per l’integrazione. Adobe Audience Manager quindi controlla i visitatori solo rispetto a tali 150 segmenti. Lo svantaggio di questo approccio è che ricevi solo quei 150 segmenti su tutti i visitatori. D’altro canto, l’approccio dell’opzione 1 può offrire segmenti illimitati a causa della natura specifica dell’integrazione. </li> 
@@ -142,11 +142,11 @@ Per ulteriori domande frequenti su questo argomento, consulta [Domande frequenti
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: Qual è la differenza tra "pubblico" in Adobe Audience Manager e "segmenti" in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Consulta <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Comprendere i segmenti in Analytics e Audience Manager </a>. </p> <p>I tipi di pubblico di Adobe Audience Manager vengono inviati e condivisi come componenti "dimensionali" da utilizzare in Analytics. Ad esempio, non verranno visualizzati come segmenti nel Generatore di segmenti, ma come dimensioni con cui puoi creare i segmenti. </p> </td> 
+   <td colname="col2"> <p>Consulta <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Comprendere i segmenti in Analytics e Audienci Manager </a>. </p> <p>I tipi di pubblico di Adobe Audience Manager vengono inviati e condivisi come componenti "dimensionali" da utilizzare in Analytics. Ad esempio, non verranno visualizzati come segmenti nel Generatore di segmenti, ma come dimensioni con cui puoi creare i segmenti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>D: Qual è la differenza tra Attributi del cliente e dati del cliente integrati da Adobe Audience Manager?</b> </p> </td> 
-   <td colname="col2"> <p>Gli attributi del cliente non sono basati sul tempo, ma vengono applicati retroattivamente e successivamente. I dati integrati di Adobe Audience Manager sono basati solo sul tempo e possono essere utilizzati solo successivamente. Inoltre, Attributi del cliente è una tabella di ricerca per ID visitatore di Experience Cloud, mentre l’integrazione Adobe Audience Manager è costituita dai dati uniti in ogni hit di un visitatore. </p> </td> 
+   <td colname="col1"> <p><b>D: Qual è la differenza tra attributi del cliente e dati del cliente integrati da Adobe Audience Manager?</b> </p> </td> 
+   <td colname="col2"> <p>Gli attributi del cliente non sono basati sul tempo, ma vengono applicati retroattivamente e successivamente. I dati integrati di Adobe Audience Manager sono basati solo sul tempo e possono essere utilizzati solo successivamente. Inoltre, gli attributi del cliente sono una tabella di ricerca per ID visitatore di Experience Cloud, mentre l’integrazione Adobe Audience Manager è costituita dai dati uniti in ogni hit di un visitatore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>D: cosa succede con gli approcci legacy a questo problema, ad esempio le destinazioni dei cookie plug-in beta o Consulting precedenti?</b> </p> </td> 

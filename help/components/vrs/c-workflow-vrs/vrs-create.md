@@ -4,9 +4,9 @@ keywords: Suite di rapporti virtuali
 title: Creare suite di rapporti
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '674'
 ht-degree: 6%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 6%
 
 Prima di iniziare a creare suite di rapporti virtuali, tieni presente alcuni aspetti.
 
-* Gli utenti non amministratori non possono visualizzare Gestione suite di rapporti virtuale.
+* Gli utenti non amministratori non possono visualizzare il gestore delle suite di rapporti virtuali.
 * Non è possibile condividere le suite di rapporti virtuali. La &quot;condivisione&quot; viene eseguita tramite gruppi/autorizzazioni.
-* In Gestione suite di rapporti virtuali puoi visualizzare solo le tue suite di rapporti virtuali. È necessario fare clic su &quot;mostra tutto&quot; per visualizzare i dati di tutti gli altri.
+* Nella gestione delle suite di rapporti virtuali, puoi visualizzare solo le tue suite di rapporti virtuali. È necessario fare clic su &quot;mostra tutto&quot; per visualizzare i dati di tutti gli altri.
 
-1. Passa a **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**.
+1. Passa a **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
 1. Fai clic su **[!UICONTROL Add +]** (Usa modello di attribuzione non predefinito).
 
    ![](assets/new_vrs.png)
@@ -33,9 +33,9 @@ Il giorno [!UICONTROL Settings] , definire queste impostazioni e quindi fare cli
 | Nome | Il nome della suite di rapporti virtuale non viene ereditato dalla suite di rapporti principale e deve essere distinto. |
 | Descrizione | Aggiungi una buona descrizione a beneficio degli utenti aziendali. |
 | Tag | Puoi aggiungere tag per organizzare le suite di rapporti. |
-| Origine | La suite di rapporti da cui questa suite di rapporti virtuale eredita le impostazioni seguenti. La maggior parte dei livelli di servizio e delle funzioni (ad esempio, impostazioni eVar, Regole di elaborazione, Classificazioni e così via) vengono ereditati. Per apportare modifiche a queste impostazioni ereditate su una VRS, devi modificare la suite di rapporti principale ( Amministratore > Suite di rapporti). |
-| Fuso orario | La scelta del fuso orario è facoltativa. Se scegli un fuso orario, questo viene salvato insieme alla VRS. Se non si seleziona un fuso orario, verrà utilizzato quello della suite di rapporti padre.  Quando si modifica una VRS, il fuso orario salvato con la VRS viene visualizzato nel selettore a discesa. Se la VRS è stata creata prima dell’aggiunta del supporto per il fuso orario, il fuso orario della suite di rapporti principale viene visualizzato nel selettore a discesa. |
-| Segmenti  | Puoi aggiungere un solo segmento o sovrapporre segmenti.   Nota: quando si impilano due segmenti, questi vengono uniti da un&#39;istruzione AND. Non può essere modificata in un&#39;istruzione OR. Quando tenti di eliminare o modificare un segmento attualmente utilizzato in una suite di rapporti virtuale, viene visualizzato un avviso. |
+| Origine | La suite di rapporti da cui questa suite di rapporti virtuale eredita le impostazioni seguenti. La maggior parte dei livelli di servizio e delle funzioni (ad esempio, impostazioni eVar, Regole di elaborazione, Classificazioni e così via) vengono ereditati. Per apportare modifiche a queste impostazioni ereditate su una suite di rapporti virtuale, devi modificare la suite di rapporti principale ( Amministratore > Suite di rapporti). |
+| Fuso orario | La scelta del fuso orario è facoltativa. Se scegli un fuso orario, questo viene salvato insieme alla suite di rapporti virtuale. Se non si seleziona un fuso orario, verrà utilizzato quello della suite di rapporti padre.  Quando si modifica una suite di rapporti virtuale, il fuso orario salvato con la suite di rapporti virtuale viene visualizzato nel selettore a discesa. Se la suite di rapporti virtuale è stata creata prima dell’aggiunta del supporto per il fuso orario, il fuso orario della suite di rapporti principale viene visualizzato nel selettore a discesa. |
+| Segmenti | Puoi aggiungere un solo segmento o sovrapporre segmenti.   Nota: quando si impilano due segmenti, questi vengono uniti da un&#39;istruzione AND. Non può essere modificata in un&#39;istruzione OR. Quando tenti di eliminare o modificare un segmento attualmente utilizzato in una suite di rapporti virtuale, viene visualizzato un avviso. |
 
 ## Definire la definizione di visita
 
@@ -62,9 +62,9 @@ Ecco un video su come regolare la definizione di una visita in una suite di rapp
 ![](assets/components.png)
 
 1. Il giorno [!UICONTROL Components] , seleziona la casella di controllo per applicare la cura ai componenti da includere, escludere e rinominare per questa suite di rapporti virtuale in Analysis Workspace.
-Per ulteriori informazioni sulla cura delle VRS, consulta [Cura dei componenti di suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
+Per ulteriori informazioni sulla cura delle suite di rapporti virtuali, consulta [Cura dei componenti delle suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
 
-1. Trascina i componenti (dimensioni, metriche, segmenti o intervalli di date) che desideri includere nella VRS in [!UICONTROL Included Components] sezione.
+1. Trascina nella sezione i componenti (dimensioni, metriche, segmenti o intervalli di date) che desideri includere nella suite di rapporti virtuali [!UICONTROL Included Components] sezione.
 
 1. Al termine, fai clic su **[!UICONTROL Save]**.
 

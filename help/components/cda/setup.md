@@ -3,9 +3,9 @@ title: Configurare Analytics tra dispositivi
 description: Configura una suite di rapporti virtuale per abilitare CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '528'
 ht-degree: 7%
 
 ---
@@ -37,10 +37,10 @@ Gli amministratori con accesso per creare suite di rapporti virtuali possono cre
 
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) e accedi utilizzando le credenziali Adobe ID.
 2. Fai clic sull’icona della griglia a 9 celle in alto, quindi fai clic su Analytics.
-3. Passa il puntatore del mouse su Componenti nella parte superiore, quindi fai clic su Suite di rapporti virtuali.
+3. Passa il cursore sopra **[!UICONTROL Components]** in alto, quindi fai clic su **[!UICONTROL Virtual report suites]**.
 4. Fai clic su Aggiungi.
 5. Immetti un nome per la suite di rapporti virtuale e accertati che sia selezionata la suite di rapporti abilitata per CDA.
-6. (Facoltativo) Applica un segmento alla suite di rapporti virtuali. Ad esempio, puoi applicare un segmento che limita la suite di rapporti virtuali alle date successive all’attivazione di CDA e all’inizio dell’unione. Questo segmento consente agli utenti di visualizzare solo intervalli di date uniti all’interno della VRS.
+6. (Facoltativo) Applica un segmento alla suite di rapporti virtuali. Ad esempio, puoi applicare un segmento che limita la suite di rapporti virtuali alle date successive all’attivazione di CDA e all’inizio dell’unione. Questo segmento consente agli utenti di visualizzare solo intervalli di date uniti all’interno della suite di rapporti virtuale.
 7. Fai clic sulla casella di controllo &quot;Abilita elaborazione dei tempi di report&quot;, che abilita diverse altre opzioni, tra cui Cross-Device Analytics.
 8. Fai clic sulla casella di controllo &quot;Unisci le visite degli utenti tra i dispositivi&quot;.
 9. Fai clic su Continua, completa la configurazione della suite di rapporti virtuali, quindi fai clic su Salva.

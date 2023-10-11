@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 96%
+source-wordcount: '758'
+ht-degree: 93%
 
 ---
 
@@ -219,9 +219,9 @@ ht-degree: 96%
    + [Adobe Context-Aware Sessions](vrs/vrs-mobile-visit-processing.md)
    + [Elaborazione dell&#39;ora rapporto](vrs/vrs-report-time-processing.md)
    + [Considerazioni su A4T](vrs/vrs-a4t.md)
-   + [Domande frequenti su VRS](vrs/vrs-faq.md)
-   + [VRS e considerazioni su tag globali/su più suite](vrs/vrs-considerations.md)
-   + Flusso di lavoro VRS {#vrs-workflow}
+   + [Domande frequenti sulle suite di rapporti virtuali](vrs/vrs-faq.md)
+   + [Suite di rapporti virtuali e considerazioni su tag globali/su più suite](vrs/vrs-considerations.md)
+   + Flusso di lavoro suite di rapporti virtuali {#vrs-workflow}
       + [Flusso di lavoro suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Creare suite di rapporti](vrs/c-workflow-vrs/vrs-create.md)
       + [Gestione delle suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-manage.md)
@@ -233,7 +233,7 @@ ht-degree: 96%
    + [Configurare Analytics tra dispositivi](cda/setup.md)
    + [Funzionamento delle riproduzioni](cda/replay.md)
    + [Modello di CDA Workspace](cda/workspace-template.md)
-   + [Limitare una suite di rapporti virtuali a determinate date](cda/limit-vrs-date.md)
+   + [Limitare una suite di rapporti virtuale a determinate date](cda/limit-vrs-date.md)
    + [Domande frequenti su Analytics tra dispositivi](cda/faq.md)
 + Avvisi {#alerts}
    + [Avvisi intelligenti](c-alerts/intellligent-alerts.md)

@@ -5,10 +5,10 @@ title: Scopri le novità di Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: ht
-source-wordcount: '8155'
-ht-degree: 100%
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
+source-wordcount: '8156'
+ht-degree: 99%
 
 ---
 
@@ -41,14 +41,14 @@ Per aggiornamenti sul prodotto di base, consulta [Note sulla versione di Adobe E
 
 ## Ottobre 2020
 
-| Funzione | Descrizione |
+| Funzionalità | Descrizione |
 | --- | --- |
 | Visualizzazione Linee: [opzione media mobile della linea di tendenza](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=it) | L’opzione **[!UICONTROL Moving average]** è stata aggiunta alle impostazioni della linea di tendenza della visualizzazione [!UICONTROL Line]. Anche nota come media continua, la media mobile utilizza un numero specifico di punti di dati (determinati da una selezione di **[!UICONTROL Periods]**), ne calcola la media e utilizza tale media come punto sulla linea. |
 | [Pagina della guida sulle prestazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=it) | La pagina della guida sulle prestazioni di Analysis Workspace presenta i diversi fattori che influiscono sulle prestazioni del progetto e fornisce collegamenti con suggerimenti su come ottimizzarle. |
 
 ## Settembre 2020
 
-| Funzione | Descrizione |
+| Funzionalità | Descrizione |
 | --- | --- |
 | [Possibilità di scaricare 50.000 elementi per una singola dimensione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it#download-items) | Ora puoi scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. |
 | [Miglioramenti alla visualizzazione Linee](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=it) | <ul><li>Puoi mostrare o nascondere l’asse X e l’asse Y di qualsiasi visualizzazione [!UICONTROL Line]. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni [!UICONTROL Line] sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle linee per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle linee per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] e [!UICONTROL Quadratic].</li></ul> |
@@ -62,7 +62,7 @@ Non è stata rilasciata nessuna nuova funzione ad agosto 2020.
 
 Nuova funzione rilasciata il 16 luglio 2020.
 
-| Funzione | Descrizione |
+| Funzionalità | Descrizione |
 | --- | --- |
 | Nuovi predefiniti per intervalli di date | Sono stati aggiunti 4 nuovi intervalli di date: ([!UICONTROL This week/month/quarter/year (excluding today)]). Questo consente di scegliere tra intervalli di date che non includono dati per giorni parziali a partire da oggi. |
 
@@ -70,7 +70,7 @@ Nuova funzione rilasciata il 16 luglio 2020.
 
 Nuove funzioni rilasciate il 18 giugno 2020.
 
-| Funzione | Descrizione |
+| Funzionalità | Descrizione |
 |--- |--- |
 | Attribution IQ: attribuzione algoritmica | Il modello di attribuzione algoritmica di Analysis Workspace utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. Disponibile per i clienti Adobe Analytics Ultimate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=it) |
 | Attribution IQ: finestre di lookback personalizzate | Ora puoi configurare qualsiasi modello di attribuzione in Attribution IQ in modo da includere punti di contatto risalenti a un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione dell’attribuzione per gli eventi che si verificano all’inizio del periodo di reporting tenendo conto delle interazioni avvenute nei mesi precedenti. Disponibile per i clienti Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=it#lookback-windows) |
@@ -86,7 +86,7 @@ Nuove funzioni rilasciate il 18 giugno 2020.
 
 Nuove funzioni rilasciate il 21 maggio 2020.
 
-| Funzione | Descrizione |
+| Funzionalità | Descrizione |
 |--- |--- |
 | Creazione automatica di tabelle a mano libera da uno stato vuoto | In precedenza, non era possibile rilasciare componenti direttamente in un progetto o un pannello vuoto, ma era necessario aggiungere prima una tabella a forma libera. Ora è possibile rilasciare le componenti direttamente in un progetto o in un pannello vuoto e una tabella a mano libera viene creata automaticamente in un formato raccomandato. Inoltre sono stati apportati miglioramenti alla gestione dei tipi di componenti misti (quali dimensioni e metriche) quando vengono rilasciati insieme in una tabella a mano libera vuota. |
 | Miglioramenti all’accessibilità | Il team di Adobe Analytics ha apportato diversi miglioramenti ad Analysis Workspace in termini di accessibilità, tra cui la navigazione da tastiera, il contrasto del colore e il supporto per la lettura dello schermo. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=it) |
@@ -196,7 +196,7 @@ Nuove funzionalità e miglioramenti rilasciati il 1° novembre 2018.
 
 | Funzione | Descrizione |
 |--- |--- |
-| [Cura di progetti e VRS - Miglioramenti](/help/analyze/analysis-workspace/curate-share/curate.md) | Le presenti modifiche sono state implementate in ottobre 2018. Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. <br> In precedenza, chiunque poteva vedere i componenti non curati facendo clic sul pulsante Mostra tutti i componenti. L’esperienza di gestione aggiornata consente un controllo più dettagliato sui componenti visibili.</br> |
+| [Cura di suite di rapporti virtuali e progetti - Miglioramenti](/help/analyze/analysis-workspace/curate-share/curate.md) | Le presenti modifiche sono state implementate in ottobre 2018. Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di rapporti virtuali curate. <br> In precedenza, chiunque poteva vedere i componenti non curati facendo clic sul pulsante Mostra tutti i componenti. L’esperienza di gestione aggiornata consente un controllo più dettagliato sui componenti visibili.</br> |
 
 ## Ottobre 2018
 
@@ -537,7 +537,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
   </tr>
   <tr>
    <td colname="col1"> <p>Modifiche a event#, eVar# e prop# </p> </td>
-   <td colname="col2"> <p>Event#, eVar# e prop#, aggiunti ai nomi di dimensioni nella a barra a sinistra (nel 2017), saranno visualizzati solo quando <b>cerchi</b> il componente. </p> <p>(Applicabile anche al generatore di suite per rapporti virtuali.) </p> </td>
+   <td colname="col2"> <p>Event#, eVar# e prop#, aggiunti ai nomi di dimensioni nella a barra a sinistra (nel 2017), saranno visualizzati solo quando <b>cerchi</b> il componente. </p> <p>(Applicabile anche al generatore di suite di rapporti virtuali). </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>Modifiche a Nessuno/Non specificato </p> </td>

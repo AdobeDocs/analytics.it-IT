@@ -3,7 +3,7 @@ title: Best practice per l’implementazione dei canali di marketing Adobe Analy
 description: Sono state aggiornate le best practice per l’utilizzo dei canali di marketing con Attribution IQ e Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 6%

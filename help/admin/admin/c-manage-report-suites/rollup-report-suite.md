@@ -3,10 +3,10 @@ description: Descrizioni dei tipi di suite di rapporti e confronto tra le suite 
 title: Approcci suite di rapporti
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -26,17 +26,17 @@ Puoi fornire sottoinsiemi dei dati della suite di rapporti globale della tua azi
 
 * **Assegnazione di tag multisuite**: consente di inviare richieste di immagini non solo a una suite di rapporti globale, ma anche a specifiche suite di rapporti figlio. I dati del rapporto globale vengono deduplicati in tutte le suite di rapporti.
 
-   Ad esempio, puoi raccogliere tutti i dati in una suite di rapporti globale e impostare suite di rapporti secondarie in base al marchio, all’area geografica o a un altro differenziatore. I diversi team della tua azienda possono quindi concentrarsi sui dati delle suite di rapporti che ritengono pertinenti.
+  Ad esempio, puoi raccogliere tutti i dati in una suite di rapporti globale e impostare suite di rapporti secondarie in base al marchio, all’area geografica o a un altro differenziatore. I diversi team della tua azienda possono quindi concentrarsi sui dati delle suite di rapporti che ritengono pertinenti.
 
-   Per utilizzare l’assegnazione tag multisuite, implementa suite di rapporti figlio e una suite di rapporti globale che includa tutti i dati provenienti dagli elementi figlio. Il codice di tracciamento per le tue app e pagine Web includerà l’ID suite di rapporti (RSID) per la suite di rapporti globale e gli RSID per le suite di rapporti figlio applicabili.<!-- Wording/be more specific? And include any links? -->
+  Per utilizzare l’assegnazione tag multisuite, implementa suite di rapporti figlio e una suite di rapporti globale che includa tutti i dati provenienti dagli elementi figlio. Il codice di tracciamento per le tue app e pagine Web includerà l’ID suite di rapporti (RSID) per la suite di rapporti globale e gli RSID per le suite di rapporti figlio applicabili.<!-- Wording/be more specific? And include any links? -->
 
-   Viene effettuata una chiamata al server separata a ogni suite di rapporti nella richiesta di immagine. Le chiamate alle suite di rapporti figlio sono chiamate secondarie.
+  Viene effettuata una chiamata al server separata a ogni suite di rapporti nella richiesta di immagine. Le chiamate alle suite di rapporti figlio sono chiamate secondarie.
 
 * **Suite di rapporti virtuali**: una [suite di rapporti virtuale](/help/components/vrs/vrs-about.md) è una query su segmenti specifici raccolti in una suite di rapporti globale, disponibile per gruppi di utenti specifici. Le suite di rapporti virtuali consentono di curare gli elementi dei rapporti per utenti finali diversi senza utilizzare l’assegnazione tag multisuite, evitando in tal modo le chiamate al server secondarie.
 
-   Per utilizzare le suite di rapporti virtuali, implementa una suite di rapporti globale, quindi analizza i dati per creare suite di rapporti virtuali con segmenti specifici applicati e con autorizzazioni di gruppo specifiche. È possibile creare suite di rapporti virtuali nella gestione delle suite di rapporti virtuali ([!UICONTROL Components] > [!UICONTROL Virtual Report Suites]). Per ulteriori informazioni, consulta la sezione sul [flusso di lavoro per suite di rapporti virtuali](/help/components/vrs/c-workflow-vrs/vrs-workflow.md).
+  Per utilizzare le suite di rapporti virtuali, implementa una suite di rapporti globale, quindi analizza i dati per creare suite di rapporti virtuali con segmenti specifici applicati e con autorizzazioni di gruppo specifiche. Puoi creare suite di rapporti virtuali nella gestione delle suite di rapporti virtuali ([!UICONTROL Components] > [!UICONTROL Virtual report suites]). Per ulteriori informazioni, consulta la sezione sul [flusso di lavoro per suite di rapporti virtuali](/help/components/vrs/c-workflow-vrs/vrs-workflow.md).
 
-Invece di usare più suite di rapporti con tag, spesso è preferibile utilizzare le suite di rapporti virtuali; tuttavia queste presentano alcune limitazioni. Consulta le [considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite](/help/components/vrs/vrs-considerations.md) per capire quale approccio scegliere in base alle tue esigenze di business. Per un confronto approfondito tra suite di rapporti virtuali e la funzionalità di tag per più suite, vedi il [confronto tra suite di rapporti virtuali e tag per più suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).
+Invece di usare più suite di rapporti con tag, spesso è preferibile utilizzare le suite di rapporti virtuali; tuttavia queste presentano alcune limitazioni. Consulta le [considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite](/help/components/vrs/vrs-considerations.md) per capire quale approccio scegliere in base alle tue esigenze di business. Per un confronto approfondito tra suite di rapporti virtuali e la funzionalità di assegnazione tag per più suite, vedi &quot;[Suite di rapporti virtuali e assegnazione di tag a più suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
 ## Rapporti di aggregazione dati
 
@@ -72,7 +72,7 @@ I rapporti di aggregazione dati sono gratuiti: le suite di rapporti figlio esegu
 
 **Duplicazione**: le suite di rapporti globali deduplicano i visitatori univoci, le aggregazioni dati no. Ad esempio, se un utente visita tre dei tuoi domini nello stesso giorno, le aggregazioni dati contano tre visitatori univoci giornalieri. Le suite di rapporti globali registrano invece un solo visitatore univoco.
 
-**Intervallo temporale**: le aggregazioni dati vengono elaborate solo ogni notte a mezzanotte; le suite di rapporti globali presentano i dati con latenza standard.
+**Arco temporale**: le aggregazioni dati vengono elaborate solo ogni notte a mezzanotte; le suite di rapporti globali presentano i dati con latenza standard.
 
 **Ambito**: le aggregazioni dati non possono comunicare tra diverse suite di rapporti. Le suite di rapporti globali possono attribuire il merito alle variabili di conversione e fornire percorsi tra diverse suite di rapporti.
 

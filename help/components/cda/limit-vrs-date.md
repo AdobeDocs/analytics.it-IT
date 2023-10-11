@@ -1,24 +1,24 @@
 ---
-title: Limitare una suite di rapporti virtuali a determinate date
-description: Scopri come limitare un intervallo di date VRS per concentrarsi solo sui dati uniti.
+title: Limitare una suite di rapporti virtuale a determinate date
+description: Scopri come limitare un intervallo di date della suite di rapporti virtuali in modo che si concentri solo sui dati uniti.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 4%
+source-wordcount: '275'
+ht-degree: 0%
 
 ---
 
-# Limitare una suite di rapporti virtuali a determinate date
+# Limitare una suite di rapporti virtuale a determinate date
 
-Quando attiviamo l’unione, questa inizia in una data specifica. Supponiamo che la data sia il 1° giugno. La suite di rapporti virtuale di CDA conterrà i dati non uniti precedenti al 1° giugno. Puoi nascondere eventuali dati nella suite di rapporti virtuale precedente al 1° giugno, in modo che l’analisi possa concentrarsi sugli intervalli di date successivi all’inizio dell’unione.
+Quando attiviamo l’unione, questa inizia in una data specifica. Supponiamo che la data sia il 1° giugno. La suite di rapporti virtuale di CDA conterrà i dati non uniti precedenti al 1° giugno. Puoi nascondere eventuali dati nella suite di rapporti virtuali precedenti al 1° giugno, in modo che l’analisi possa concentrarsi sugli intervalli di date successivi all’inizio dell’unione.
 
-È possibile limitare i dati VRS a determinate date effettuando le seguenti operazioni:
+Puoi limitare i dati della suite di rapporti virtuale a determinate date effettuando le seguenti operazioni:
 
 ## Passaggio 1: creare una suite di rapporti virtuale con un intervallo di date giornaliero continuo
 
-Quando imposti la VRS, in Componenti aggiungi un intervallo di date con un inizio fisso e un intervallo di date giornaliero continuo. L’inizio fisso deve essere il giorno in cui è iniziata l’unione.
+Quando configuri la suite di rapporti virtuale, in Componenti aggiungi un intervallo di date con un inizio fisso e un intervallo di date giornaliero continuo. L’inizio fisso deve essere il giorno in cui è iniziata l’unione.
 
 ![](assets/rolling-daily.png)
 
@@ -30,7 +30,7 @@ Il motivo dell’&quot;esclusione&quot; è che gli intervalli di date hanno lo s
 
 ![](assets/exclude-exclude.png)
 
-## Passaggio 3: applicare questo segmento alla suite di rapporti virtuale di CDA
+## Passaggio 3: applicare questo segmento alla suite di rapporti virtuali di Analytics tra dispositivi
 
 ![](assets/apply-segment.png)
 

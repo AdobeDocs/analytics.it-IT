@@ -3,7 +3,7 @@ title: Rapporti sul pubblico in Adobe Analytics
 description: Scopri come creare rapporti basati sul pubblico utilizzando Analysis Workspace.
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 3%
@@ -59,9 +59,9 @@ Il rapporto User Explorer consente a un analista di visualizzare le singole visi
 
 I dati demografici e relativi agli interessi forniscono informazioni su età, genere e interessi degli utenti del sito. Tali dati vengono raccolti da Google tramite le loro funzionalità di tracciamento intersito.
 
-I dati demografici e relativi agli interessi non vengono raccolti automaticamente dagli Adobi. Tuttavia, se la tua organizzazione ottiene questi dati, puoi utilizzare Attributi del cliente, una funzione all’interno di Adobe Experience Cloud Platform. Consente il pieno controllo sull’organizzazione dei dati per attributi e non è limitato solo a dati demografici o interessi.
+I dati demografici e relativi agli interessi non vengono raccolti automaticamente dagli Adobi. Tuttavia, se l’organizzazione ottiene questi dati, puoi utilizzare gli attributi del cliente, una funzione all’interno di Adobe Experience Cloud Platform. Consente il pieno controllo sull’organizzazione dei dati per attributi e non è limitato solo a dati demografici o interessi.
 
-Per ulteriori informazioni, consulta la Guida di Attributi del cliente.
+Per ulteriori informazioni, consulta la guida Attributi del cliente.
 
 ## Geo - Language
 

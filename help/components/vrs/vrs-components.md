@@ -1,16 +1,16 @@
 ---
 description: Le suite di rapporti virtuali possono essere curate per includere ed escludere i componenti.in Analysis Workspace.
-title: Cura dei componenti di suite di rapporti virtuali
+title: Cura dei componenti delle suite di rapporti virtuali
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 12%
+source-wordcount: '391'
+ht-degree: 4%
 
 ---
 
-# Cura dei componenti di suite di rapporti virtuali
+# Cura dei componenti delle suite di rapporti virtuali
 
 Le suite di rapporti virtuali possono essere curate per includere ed escludere i componenti.in Analysis Workspace.
 
@@ -20,14 +20,14 @@ Ecco un video sulla cura dei componenti:
 
 >[!NOTE]
 >
->Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di report virtuali (VRS) curate. In precedenza, chiunque poteva vedere i componenti non curati facendo clic su **[!UICONTROL Show all Components]**. Il [esperienza di cura aggiornata](/help/analyze/analysis-workspace/curate-share/curate.md) consente un controllo più dettagliato sui componenti visibili.
+>Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di rapporti virtuali curate. In precedenza, chiunque poteva vedere i componenti non curati facendo clic su **[!UICONTROL Show all Components]**. Il [esperienza di cura aggiornata](/help/analyze/analysis-workspace/curate-share/curate.md) consente un controllo più dettagliato sui componenti visibili.
 
 Per abilitare la cura dei componenti:
 
-1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
+1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]** > **[!UICONTROL Create new virtual report suite]**.
 1. Dopo aver definito **[!UICONTROL Settings]**, fare clic su **[!UICONTROL Components]** scheda.
 
-1. Seleziona la casella di controllo **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
+1. Seleziona la casella di controllo **[!UICONTROL Enable Customization of Virtual report suite components]**:
 
    ![](assets/vrs-enable.png)
 
@@ -40,7 +40,6 @@ Per abilitare la cura dei componenti:
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
    >* API di reportistica di Analytics
-
 
    Una volta selezionata, puoi aggiungere i componenti da includere nella suite di rapporti virtuali trascinando i componenti applicabili dalla colonna &quot;componenti esclusi&quot; alla colonna &quot;componenti inclusi&quot;. I componenti che possono essere inclusi ed esclusi sono:
 

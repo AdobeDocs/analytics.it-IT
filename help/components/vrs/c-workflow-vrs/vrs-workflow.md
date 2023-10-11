@@ -4,9 +4,9 @@ keywords: Suite di rapporti virtuali
 title: Flusso di lavoro suite di rapporti virtuali
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 8%
 
 ---
@@ -21,7 +21,7 @@ Acquisisci familiarità con [Considerazioni su tag globali/su più suite](/help/
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [Creare una suite di rapporti virtuale](/help/components/vrs/c-workflow-vrs/vrs-create.md) applicando uno o più segmenti a una suite di rapporti principale.
 
-Le suite di rapporti virtuali vengono create in Gestione suite di rapporti virtuale ( Componenti > Suite di rapporti virtuali).
+Le suite di rapporti virtuali vengono create nel gestore delle suite di rapporti virtuali, disponibile tramite **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
 
 Una volta creata, una suite di rapporti virtuale viene trattata come una suite di rapporti di base in tutta l’interfaccia utente ed è generalmente supportata per la maggior parte delle funzioni estese. Ad esempio, le suite di rapporti virtuali vengono visualizzate nei selettori delle suite di rapporti e possono essere selezionate singolarmente come qualsiasi altra suite di rapporti.
 
@@ -31,4 +31,4 @@ Fai clic sull’icona Info accanto al nome della suite di rapporti per [visualiz
 
 ![](assets/step4_icon.png) [Gestisci](/help/components/vrs/c-workflow-vrs/vrs-manage.md) la suite di rapporti virtuale.
 
-Gestione suite di rapporti virtuali consente di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. questa funzione non è visibile agli utenti non amministratori.
+Il gestore delle suite di rapporti virtuali consente di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. questa funzione non è visibile agli utenti non amministratori.

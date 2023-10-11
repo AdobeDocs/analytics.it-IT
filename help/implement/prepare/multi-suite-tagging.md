@@ -3,7 +3,7 @@ description: Scopri come implementare l’assegnazione tag multisuite per inviar
 title: Implementazione dell’assegnazione tag per più suite
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 5%
@@ -36,4 +36,4 @@ L’assegnazione di tag multisuite comporta più chiamate al server per ogni ric
 
 L’utilizzo di suite di rapporti virtuali invece dell’assegnazione tag per più suite rappresenta spesso una best practice, ma le esigenze aziendali determinano l’approccio migliore per la suite di rapporti nella tua organizzazione.
 
-Per capire se le suite di rapporti virtuali sono l’approccio migliore, consulta &quot;[Considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite](/help/components/vrs/vrs-considerations.md).&quot; Vedi anche &quot;[Confronto tra suite di rapporti virtuali e assegnazione di tag multisuite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; per un confronto tra l’assegnazione di tag a più suite e le funzionalità delle suite di rapporti virtuali.
+Per capire se le suite di rapporti virtuali sono l’approccio migliore, consulta &quot;[Considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite](/help/components/vrs/vrs-considerations.md).&quot; Vedi anche &quot;[Confronto tra suite di rapporti virtuali e assegnazione di tag a più suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; per un confronto tra l’assegnazione di tag a più suite e le funzionalità delle suite di rapporti virtuali.

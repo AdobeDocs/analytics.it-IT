@@ -1,24 +1,24 @@
 ---
-description: Le suite di rapporti virtuali segmentano i dati di Adobe Analytics in modo da poter controllare l’accesso a ciascun segmento.
+description: Le suite di rapporti virtuali segmentano i dati di Adobe Analytics, in modo da poter controllare l’accesso a ciascun segmento.
 title: Panoramica delle suite di rapporti virtuali
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 3%
+source-wordcount: '798'
+ht-degree: 7%
 
 ---
 
 # Panoramica delle suite di rapporti virtuali
 
-Le suite di rapporti virtuali segmentano i dati di Adobe Analytics in modo da poter controllare l’accesso a ciascun segmento.
+Le suite di rapporti virtuali segmentano i dati di Adobe Analytics, in modo da poter controllare l’accesso a ciascun segmento.
 
 Molti clienti hanno dati che fluiscono in una suite di rapporti globale, ma anche dati che fluiscono in suite di rapporti più piccole. Impostano una variabile su più suite di rapporti e inviano i loro dati a più suite di rapporti. Questo è noto come *assegnazione di tag multisuite*, o *suite di rapporti base/padre*.
 
 Ad esempio, tutti i dati potrebbero essere raccolti in una singola suite di rapporti, ma puoi impostare suite di rapporti secondarie in modo che altre persone nella tua azienda possano accedere a parte dei dati, ma non a tutti. I dati potrebbero essere suddivisi per area geografica. Potresti avere siti web diversi per paesi diversi. Altri esempi potrebbero essere marchi specifici che appartengono a un’azienda più grande, ma che dispongono ciascuno di un proprio team di marketing.
 
-A *suite di rapporti virtuale* (VRS) consente di riprodurre questo concetto di diramazione utilizzando segmenti invece di più suite di rapporti. I dati vengono inviati a una suite di rapporti, quindi vengono suddivisi in base ai segmenti. Utilizzando l’esempio di più marchi, puoi impostare una proprietà per il marchio a cui appartiene un articolo. Utilizzando i segmenti, puoi creare rapporti sugli elementi assegnati a ciascuna proprietà. Ognuno di questi segmenti diventa la propria vista, creando in modo efficace una nuova suite di rapporti. Non si inviano dati specifici a quel segmento, ma solo alla suite di rapporti globale, ma nei rapporti funziona come se si trattasse di una suite di rapporti diversa.
+A *suite di rapporti virtuale* consente di riprodurre questo concetto di diramazione utilizzando segmenti invece di più suite di rapporti. I dati vengono inviati a una suite di rapporti, quindi vengono suddivisi in base ai segmenti. Utilizzando l’esempio di più marchi, puoi impostare una proprietà per il marchio a cui appartiene un articolo. Utilizzando i segmenti, puoi creare rapporti sugli elementi assegnati a ciascuna proprietà. Ognuno di questi segmenti diventa la propria vista, creando in modo efficace una nuova suite di rapporti. Non si inviano dati specifici a quel segmento, ma solo alla suite di rapporti globale, ma nei rapporti funziona come se si trattasse di una suite di rapporti diversa.
 
 Una suite di rapporti virtuale eredita la maggior parte dei livelli di servizio della suite di rapporti di base, come le impostazioni eVar, le regole di elaborazione, le classificazioni e così via. LE seguenti impostazioni NON vengono ereditate:
 
@@ -45,16 +45,16 @@ Le suite di rapporti virtuali presentano le seguenti limitazioni:
 
 * Eventuali limitazioni dei segmenti si applicano anche alle suite di rapporti virtuali
 
-   Una suite di rapporti virtuale non è altro che un segmento applicato a una suite di rapporti. Poiché ogni suite di rapporti ha una propria Data Warehouse e un proprio feed di dati, l’utilizzo di più suite di rapporti offre alcuni vantaggi che i segmenti non forniscono.
+  Una suite di rapporti virtuale non è altro che un segmento applicato a una suite di rapporti. Poiché ogni suite di rapporti ha una propria Data Warehouse e un proprio feed di dati, l’utilizzo di più suite di rapporti offre alcuni vantaggi che i segmenti non forniscono.
 * Rapporto in tempo reale
 * Le impostazioni e i nomi delle variabili non possono essere personalizzati come in una suite di rapporti completa
 
 ## Suite di rapporti virtuali e assegnazione di tag a più suite {#section_317E4D21CCD74BC38166D2F57D214F78}
 
-| Funzionalità | Suite di rapporti virtuali | Assegnazione di tag multisuite |
+| Funzionalità | Suite di rapporti virtuali | Assegnazione di tag a più suite |
 |--- |--- |--- |
 | Rapporti sui &quot;dati correnti&quot; in tempo reale | No | Sì |
-| Funziona in tutti gli strumenti di Analytics (Analysis Workspace, Report Builder, ecc.) | Sì. **Nota:** Puoi modificarli e identificarli come suite di rapporti virtuali solo in [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Virtual Report Suites]. Tuttavia, puoi selezionarli nei menu a discesa delle suite di rapporti negli altri strumenti.<p>**Importante**: le suite di rapporti virtuali con elaborazione al momento del rapporto e personalizzazione delle variabili non sono attualmente supportate in Adobe Report Builder. | Sì |
+| Funziona in tutti gli strumenti di Analytics (Analysis Workspace, Report Builder, ecc.) | Sì. **Nota:** Puoi modificarli e identificarli come suite di rapporti virtuali solo in [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Virtual report suites]. Tuttavia, puoi selezionarli nei menu a discesa delle suite di rapporti negli altri strumenti.<p>**Importante**: le suite di rapporti virtuali con elaborazione al momento del rapporto e personalizzazione delle variabili non sono attualmente supportate in Adobe Report Builder. | Sì |
 | Può caricare dati su di esso (tramite classificazioni, feed di dati, ecc.) | No | Sì |
 | Supporta la creazione di rapporti DL, segnalibri, dashboard, destinazioni, avvisi, segmenti, metriche calcolate... | Sì | Sì |
 | Può essere aggiunto singolarmente ai gruppi di autorizzazioni | Sì | Sì |

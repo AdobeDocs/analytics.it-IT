@@ -3,9 +3,9 @@ description: Domande frequenti su Advertising Analytics.
 title: Domande frequenti per l’analisi della pubblicità
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1419'
 ht-degree: 2%
 
 ---
@@ -94,8 +94,8 @@ ht-degree: 2%
    <td colname="col2"> <p>R: Prima di poter assegnare una suite di rapporti a un account Advertising Analytics, la suite di rapporti desiderata deve essere <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > predisposto per il reporting di Advertising Analytics </a>. </p> <p>Questa operazione viene eseguita tramite una pagina Amministratore separata accessibile da: <span class="ignoretag"> <span class="uicontrol"> Amministratore </span>  &gt; <span class="uicontrol"> Suite di rapporti </span>  &gt; <span class="uicontrol"> [seleziona suite di rapporti abilitata per gli Experienci Cloud] </span>  &gt; <span class="uicontrol"> Modifica impostazioni </span>  &gt; <span class="uicontrol"> Configurazione Advertising Analytics </span> </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>D: È possibile assegnare una <b>Suite di rapporti virtuale</b> (VRS) a un account Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Le suite di rapporti virtuali non raccolgono dati, pertanto non puoi mappare direttamente un account Advertising Analytics a una VRS. </p> <p>Tuttavia, puoi mappare l’account Advertising Analytics alla suite di rapporti principale della suite di rapporti virtuale in cui desideri visualizzare i dati. </p> <p>Le metriche del motore di ricerca (clic/costo/impression) potrebbero non essere visualizzate nella VRS, a meno che non includi una condizione "o" nella logica del segmento in base all’AMO ID (o alla relativa classificazione). Esempio: l’aggiunta di "tutti gli hit in cui esiste un AMO ID" includerebbe le metriche del motore di ricerca nel segmento. </p> </td> 
+   <td colname="col1"> <p>D: È possibile assegnare una <b>suite di rapporti virtuale</b> a un account Advertising Analytics? </p> </td> 
+   <td colname="col2"> <p>R: Le suite di rapporti virtuali non raccolgono dati, pertanto non puoi mappare direttamente un account Advertising Analytics a una suite di rapporti virtuale. </p> <p>Tuttavia, puoi mappare l’account Advertising Analytics alla suite di rapporti principale della suite di rapporti virtuale in cui desideri visualizzare i dati. </p> <p>Le metriche del motore di ricerca (clic/costo/impression) potrebbero non essere visualizzate nella suite di rapporti virtuali, a meno che non includi una condizione "o" nella logica del segmento in base all’AMO ID (o alla relativa classificazione). Esempio: l’aggiunta di "tutti gli hit in cui esiste un AMO ID" includerebbe le metriche del motore di ricerca nel segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D: Le metriche di Advertising Analytics sono segnalabili in <b>Canali di marketing</b> rapporto? </p> </td> 
