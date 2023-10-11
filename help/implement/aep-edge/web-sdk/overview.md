@@ -3,10 +3,10 @@ title: Implementare Adobe Analytics utilizzando Adobe Experience Platform Web SD
 description: Utilizza l’estensione Web SDK in Adobe Experience Platform Data Collection per inviare dati ad Adobe Analytics.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 22%
+source-wordcount: '830'
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ Puoi utilizzare [Adobe Experience Platform Web SDK](https://experienceleague.ado
 
 Puoi inviare dati a Experience Edge direttamente tramite Web SDK o l’estensione Web SDK in Tags.
 
-## SDK per web
+## Web SDK
 
 Panoramica ad alto livello dei compiti di implementazione:
 
@@ -138,8 +138,8 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>8</td>
-<td><b>Iterare, convalidare e pubblicare</b> alla produzione. Aggiungi la proprietà tag al tuo sito web. Quindi utilizza elementi dati, regole e così via, per personalizzare l’implementazione.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en">Panoramica sulla pubblicazione</a></td>
+<td><b>Iterare, convalidare e pubblicare</b> alla produzione. Incorpora il codice per includere la proprietà tag nelle pagine del sito web. Quindi utilizza elementi dati, regole e così via, per personalizzare l’implementazione.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Codice di incorporamento</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en">Panoramica sulla pubblicazione</a></td>
 </tr>
 
 </table>
