@@ -4,9 +4,9 @@ title: Gestire le richieste di Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
+source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '924'
 ht-degree: 4%
 
 ---
@@ -73,6 +73,19 @@ Puoi visualizzare la cronologia di qualsiasi rapporto eseguito.
    ![Gestire una richiesta](assets/dw-manage-request.png)
 
 1. Seleziona [!UICONTROL **Visualizza cronologia**].
+
+   Il [!UICONTROL **Visualizza richiesta Data Warehouse**] In questa pagina viene visualizzato un elenco delle singole consegne di rapporti.
+
+   ![Pagina Cronologia richieste](assets/dw-request-history.png)
+
+1. Seleziona una consegna di rapporti, quindi seleziona una delle seguenti opzioni:
+
+   | Opzione | Funzione |
+   |---------|----------|
+   | [!UICONTROL **Dettagli della destinazione**] | Mostra i dettagli dell’account e dell’ubicazione associati alla richiesta. Questo è l’account e la posizione configurati in precedenza, come descritto in [Configurare una destinazione di rapporto per una richiesta Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Annulla rapporto**] | Annulla il report. Non è possibile annullare rapporti con stato [!UICONTROL **Completato**] o [!UICONTROL **Annullato**]. |
+   | [!UICONTROL **Riesegui report**] | Esegue nuovamente il report con i dati così come erano quando è stato inviato originariamente. È possibile eseguire nuovamente un report con uno dei seguenti stati: [!UICONTROL **Annullato**], [!UICONTROL **Completato**], [!UICONTROL **Errore: elaborazione**], o [!UICONTROL **Errore - Impossibile Inviare**]. |
+   | [!UICONTROL **Invia di nuovo il rapporto**] | Invia nuovamente il file del report generato in precedenza. È possibile inviare nuovamente un report con uno dei seguenti stati: [!UICONTROL **Completato**] o [!UICONTROL **Errore - Impossibile Inviare**]. |
 
 ## Copiare le richieste
 

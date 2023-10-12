@@ -3,9 +3,9 @@ title: Creare un feed di dati
 description: Scopri come creare un feed di dati.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3159'
 ht-degree: 3%
 
 ---
@@ -117,9 +117,9 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
    +++RBAC di Azure
 
-   Puoi inviare feed direttamente a un contenitore di Azure utilizzando l’autenticazione RBAC. Questo tipo di destinazione richiede un nome bucket, un ID applicazione, un ID tenant e una chiave segreta.
+   Puoi inviare feed direttamente a un contenitore di Azure utilizzando l’autenticazione RBAC. Questo tipo di destinazione richiede un ID applicazione, un ID tenant e un segreto.
 
-   Per configurare un bucket RBAC di Azure come destinazione per un feed di dati:
+   Per configurare un account RBAC di Azure come destinazione per un feed di dati:
 
    1. Se non lo hai già fatto, crea un’applicazione Azure che Adobe Analytics può utilizzare per l’autenticazione, quindi concedi le autorizzazioni di accesso in Controllo degli accessi (IAM).
 
@@ -177,9 +177,9 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
    +++SAS di Azure
 
-   È possibile inviare feed direttamente a un contenitore di Azure utilizzando l’autenticazione SAS. Questo tipo di destinazione richiede un nome bucket, un ID applicazione, un ID tenant, un URI di insieme di credenziali delle chiavi, un nome segreto di insieme di credenziali delle chiavi e una chiave segreta.
+   È possibile inviare feed direttamente a un contenitore di Azure utilizzando l’autenticazione SAS. Questo tipo di destinazione richiede un ID applicazione, un ID tenant, un URI dell&#39;insieme di credenziali delle chiavi, un nome del segreto dell&#39;insieme di credenziali delle chiavi e un segreto.
 
-   Per configurare un bucket SAS di Azure come destinazione per un feed di dati:
+   Per configurare Azure SAS come destinazione per un feed di dati:
 
    1. Se non lo hai già fatto, crea un’applicazione Azure che Adobe Analytics può utilizzare per l’autenticazione.
 
@@ -210,7 +210,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
          | Campo | Funzione |
          |---------|----------|
          | [!UICONTROL **Nome account**] | Nome dell&#39;account SAS di Azure. Questo nome viene visualizzato nel [!UICONTROL **Seleziona account**] e può essere qualsiasi nome scelto. |
-         | [!UICONTROL **Destinazione account**] | Descrizione dell&#39;account SAS di Azure. Questa descrizione viene visualizzata nel [!UICONTROL **Seleziona account**] e può essere qualsiasi nome scelto. |
+         | [!UICONTROL **Descrizione account**] | Descrizione dell&#39;account SAS di Azure. Questa descrizione viene visualizzata nel [!UICONTROL **Seleziona account**] e può essere qualsiasi nome scelto. |
          | [!UICONTROL **ID applicazione**] | Copia questo ID dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nel **Panoramica** nell&#39;applicazione. Per ulteriori informazioni, vedere [Documentazione di Microsoft Azure su come registrare un’applicazione con la piattaforma Microsoft Identity](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **ID tenant**] | Copia questo ID dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nel **Panoramica** nell&#39;applicazione. Per ulteriori informazioni, vedere [Documentazione di Microsoft Azure su come registrare un’applicazione con la piattaforma Microsoft Identity](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **URI insieme di credenziali delle chiavi**] | <p>Percorso del token SAS nell&#39;insieme di credenziali delle chiavi di Azure.  Per configurare Azure SAS, è necessario memorizzare un token SAS come segreto utilizzando Azure Key Vault. Per informazioni, vedere [Documentazione di Microsoft Azure su come impostare e recuperare un segreto dall&#39;insieme di credenziali delle chiavi di Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Dopo la creazione dell’URI dell’insieme di credenziali delle chiavi, aggiungi un criterio di accesso nell’insieme di credenziali delle chiavi per concedere l’autorizzazione all’applicazione Azure creata. Per informazioni, vedere [Documentazione di Microsoft Azure su come assegnare un criterio di accesso all’insieme di credenziali delle chiavi](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |

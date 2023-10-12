@@ -3,9 +3,9 @@ description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare una destinazione di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2301'
 ht-degree: 4%
 
 ---
@@ -254,6 +254,8 @@ Per completare i campi disponibili, utilizza le seguenti informazioni:
 
 * [!UICONTROL **Nome utente**]: immetti il nome utente per accedere al sito SFTP.
 
+* [!UICONTROL **Utilizzare estensioni di file temporanee durante il caricamento**]: quando questa opzione è abilitata, `.part` durante il processo di caricamento viene utilizzata l’estensione file. Mantieni attiva questa opzione a meno che il server SFTP non limiti la modifica dei nomi dei file al termine del caricamento.
+
 * [!UICONTROL **Chiavi pubbliche**]: scarica la chiave pubblica appropriata durante la creazione della destinazione del data warehouse.
 
 #### Campi posizione
@@ -263,6 +265,8 @@ Per completare i campi disponibili, utilizza le seguenti informazioni:
 * [!UICONTROL **Descrizione della posizione**]: descrizione della posizione sull’account SFTP.
 
 * [!UICONTROL **Percorso directory**]: percorso della posizione sull’account SFTP.
+
+Per ulteriori informazioni sulla configurazione SFTP, vedi [Inviare richieste Data Warehouse ai server SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
 
 ### S3
 
