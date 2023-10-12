@@ -3,10 +3,10 @@ title: visitorID
 description: Utilizza un ID visitatore personalizzato.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 0e4afc2532c7a6fe90085ad6f24ac859bcd3baf7
+source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 18%
+source-wordcount: '348'
+ht-degree: 13%
 
 ---
 
@@ -44,3 +44,7 @@ s.visitorID = "abc123";
 >[!CAUTION]
 >
 >Un’implementazione non valida degli ID visitatore personalizzati può portare a dati errati e prestazioni di reporting scadenti. Se questa variabile contiene un valore predefinito (ad esempio `"0"` o `"NULL"`), Adobe tratta questi hit come se fossero lo stesso visitatore. Questa situazione genera dati errati, con un numero basso di visitatori e segmenti a livello di visitatore che non funzionano come previsto. Gli ID visitatore personalizzati implementati in modo non corretto introducono anche un carico pesante sui server di elaborazione, aumentando [latenza](/help/technotes/latency.md) e la riduzione delle prestazioni dei rapporti.
+
+## ID visitatore tramite Web SDK ed Experience Edge
+
+Experience Edge consente di fornire più identificatori utilizzando XDM [Mappa identità](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). Ogni identità in Identity Map ha uno spazio dei nomi diverso. Puoi specificare quale spazio dei nomi utilizzare per l’ID visitatore come parte di [configurazione dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#analytics). Una volta configurato, quando invii un evento con un valore specificato per questo spazio dei nomi, verrà utilizzato automaticamente come ID visitatore in Analytics.
