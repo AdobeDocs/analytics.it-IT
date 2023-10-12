@@ -4,10 +4,10 @@ title: Gestire le richieste di Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
+source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 4%
+source-wordcount: '1259'
+ht-degree: 3%
 
 ---
 
@@ -64,7 +64,7 @@ Per modificare una richiesta pianificata:
 
 ## Visualizzare la cronologia di una richiesta
 
-Puoi visualizzare la cronologia di qualsiasi rapporto eseguito.
+Puoi visualizzare la cronologia di qualsiasi richiesta Data Warehouse effettuata.
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Strumenti**] > [!UICONTROL **Data Warehouse**].
 
@@ -74,9 +74,26 @@ Puoi visualizzare la cronologia di qualsiasi rapporto eseguito.
 
 1. Seleziona [!UICONTROL **Visualizza cronologia**].
 
-   Il [!UICONTROL **Visualizza richiesta Data Warehouse**] In questa pagina viene visualizzato un elenco delle singole consegne di rapporti.
+   Il [!UICONTROL **Visualizza richiesta Data Warehouse**] In questa pagina viene visualizzato un elenco delle singole consegne di rapporti associate alla richiesta.
+
+   Seleziona la **Configura colonna** icona ![Icona Configura colonna](assets/configure-column-icon.png) per nascondere le colonne o visualizzarne altre non visualizzate per impostazione predefinita.
 
    ![Pagina Cronologia richieste](assets/dw-request-history.png)
+
+   Sono disponibili le seguenti colonne:
+
+   | Colonna | Descrizione |
+   |---------|----------|
+   | [!UICONTROL **Data di creazione**] | La data e l’ora di creazione del rapporto.<p>Viene visualizzato nel fuso orario dell’utente che ha avviato la richiesta.</p> |
+   | [!UICONTROL **Data di inizio**] | Data e ora di inizio del report.<p>Viene visualizzato nel fuso orario dell’utente che ha avviato la richiesta.</p> |
+   | [!UICONTROL **Data di completamento**] | La data e l’ora in cui è stato completato il rapporto.<p>Viene visualizzato nel fuso orario dell’utente che ha avviato la richiesta.</p> |
+   | [!UICONTROL **Data aggiornamento**] | La data e l’ora dell’ultimo aggiornamento del rapporto.<p>Viene visualizzato nel fuso orario dell’utente che ha avviato la richiesta.</p> |
+   | [!UICONTROL **Stato**] | Stato della consegna del rapporto. Gli stati possibili sono:<ul><li>[!UICONTROL **Creato**]: il rapporto è stato creato ma non ancora elaborato.</li><li>[!UICONTROL **In sospeso**]: report in attesa di elaborazione.</li><li>[!UICONTROL **Elaborazione**]: report in fase di elaborazione.</li><li>[!UICONTROL **Completato**]: il rapporto è stato completato ed è ora disponibile.</li><li>[!UICONTROL **Pianificato**]: il rapporto è pianificato ma non è ancora iniziato.</li><li>[!UICONTROL **Annullato**]: rapporto annullato dall’utente.</li><li>[!UICONTROL **Errore: elaborazione**:] Il report ha riscontrato un errore durante l&#39;elaborazione. Rieseguire il report per riprovare.</li><li>[!UICONTROL **Errore - Impossibile Inviare**]: report generato correttamente ma non consegnato. Controlla la [configurazione della destinazione](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), quindi invia nuovamente il rapporto.</li></ul>. |
+   | [!UICONTROL **Da**] | Data di inizio dell’intervallo di tempo complessivo incluso nel rapporto.<p>Viene visualizzato nel fuso orario della suite di rapporti.</p> |
+   | [!UICONTROL **Su**] | Data di fine dell’intervallo di tempo complessivo incluso nel rapporto. <p>Viene visualizzato nel fuso orario della suite di rapporti.</p> |
+   | [!UICONTROL **ID richiesta legacy**] | ID utilizzato per identificare un report nell&#39;interfaccia Data Warehouse legacy. Questo ID potrebbe essere necessario quando si contatta l’Assistenza clienti Adobe. |
+   | [!UICONTROL **ID report**] | ID utilizzato per identificare un report nell&#39;interfaccia Data Warehouse corrente. Questo ID potrebbe essere necessario quando si contatta l’Assistenza clienti Adobe. |
+
 
 1. Seleziona una consegna di rapporti, quindi seleziona una delle seguenti opzioni:
 
