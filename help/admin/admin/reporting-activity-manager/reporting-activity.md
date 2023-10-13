@@ -4,10 +4,10 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
+source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 14%
+source-wordcount: '1732'
+ht-degree: 13%
 
 ---
 
@@ -96,31 +96,27 @@ Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui
 
   ![Grafico Utenti distinti](assets/distinct-users-graph.png)
 
-<!--
+#### Grafico Richieste
 
-#### Requests graph
+Il grafico Richieste mostra il numero di richieste elaborate e completate per la suite di rapporti selezionata nelle ultime 2 ore.
 
-The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui il numero massimo di richieste era più alto per quel minuto.
 
-Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+* **Asse X**: numero di richieste elaborate e completate nell’ultimo intervallo di 2 ore.
+* **Asse Y**: numero di richieste elaborate (in viola) e completate (in verde), al minuto.
 
-* **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
-* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
+  ![Grafico Utenti distinti](assets/requests-graph.png)
 
-   ![Distinct Users graph](assets/requests-graph.png)
+#### Grafico in coda
 
-#### Queueing graph
+Il grafico di accodamento mostra il tempo medio di attesa della coda (in secondi) per le richieste di reporting per la suite di rapporti selezionata nelle ultime 2 ore.
 
-The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
+Passa il cursore del mouse sul grafico per visualizzare i punti nel tempo in cui il tempo medio di attesa massimo era più alto per quel minuto.
 
-Hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+* **Asse X**: tempo medio di attesa della coda per le richieste di reporting nell’ultimo intervallo di tempo di 2 ore.
+* **Asse Y**: tempo medio di attesa (in secondi).
 
-* **X-axis**: The average queue wait time for reporting requests over the last a 2-hour time frame.
-* **Y-axis**: The average wait time (in seconds).
-
-   ![Distinct Users graph](assets/queueing-graph.png)
-
--->
+  ![Grafico Utenti distinti](assets/queueing-graph.png)
 
 ### Visualizza tabella {#view-table}
 
