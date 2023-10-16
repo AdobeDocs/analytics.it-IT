@@ -2,9 +2,9 @@
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 title: Reporting Activity Manager panoramica
 feature: Admin Tools
-source-git-commit: fbb652c7f96197776cdb721c21b60e338a06f65d
+source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '288'
 ht-degree: 33%
 
 ---
@@ -23,7 +23,7 @@ Reporting Activity Manager offre i seguenti vantaggi:
 
 * Consente di monitorare e gestire la capacità di reporting per ogni suite di rapporti della tua organizzazione.
 * ti informa in tempo reale sulla capacità di reporting corrente nelle suite di rapporti.
-* Fornisce informazioni dettagliate sulle query relative alle richieste di reporting correnti, sia in coda che in corso.
+* Fornisce informazioni dettagliate sulle relative alle richieste di reporting correnti, sia in coda che in corso.
 * Consente di ottimizzare la coda di reporting dando priorità ad alcune richieste di reporting e annullandone altre per liberare la capacità. Risponde a domande del tipo: il report è necessario in questo momento o posso annullarlo a favore di report più urgenti?
 * Consente di limitare le richieste future per un periodo di tempo specificato. Puoi limitare richieste specifiche, oppure tutte le richieste provenienti da un utente specifico o associate a un progetto specifico.
 

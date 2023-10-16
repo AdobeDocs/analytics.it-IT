@@ -4,7 +4,7 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
+source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
 workflow-type: tm+mt
 source-wordcount: '1732'
 ht-degree: 13%
@@ -172,7 +172,7 @@ Quando selezioni il [!UICONTROL **Progetto**] nella tabella sono disponibili le 
 
 | Colonna | Descrizione |
 | --- | --- |
-| [!UICONTROL **Progetto**] | Progetto in cui sono state avviate le query. |
+| [!UICONTROL **Progetto**] | Progetto in cui sono state avviate le richieste. |
 | [!UICONTROL **Numero di richieste**] | Il numero di richieste associate al progetto. |
 | [!UICONTROL **Numero di utenti**] | Il numero di utenti associati al progetto. <!-- ??? --> |
 | [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi intelligenti</li></ul> |
@@ -189,7 +189,7 @@ Quando selezioni il [!UICONTROL **Applicazione**] nella tabella sono disponibili
 
 | Colonna | Descrizione |
 | --- | --- |
-| [!UICONTROL **Applicazione**] | L’applicazione in cui sono state avviate le query. |
+| [!UICONTROL **Applicazione**] | L’applicazione in cui sono state avviate le richieste. |
 | [!UICONTROL **Numero di richieste**] | Il numero di richieste associate all’applicazione. |
 | [!UICONTROL **Numero di utenti**] | Il numero di utenti associati all’applicazione. <!--???--> |
 | [!UICONTROL **Numero di progetti**] | Numero di progetti associati all&#39;applicazione. <!--???--> |
@@ -199,31 +199,5 @@ Quando selezioni il [!UICONTROL **Applicazione**] nella tabella sono disponibili
 | [!UICONTROL **Segmenti medi**] | Numero medio di segmenti applicati alle richieste incluse. Altri segmenti aumentano la complessità della richiesta. |
 
 {style="table-layout:auto"}
-
-<!--
-
-### Filter
-
-You can filter the table by Application (see list in the table below), by User, and by Project.
-
-![filter](/help/admin/admin/assets/filter.png)
-
-### Summary Numbers {#summary}
-
-![filter](/help/admin/admin/assets/summary_numbers.png)
-
-The Summary Numbers show the following information:
-
-| Summary Number | Description |
-| --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
-| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
-| [!UICONTROL **Queries**] | The number of queries currently running. |
-| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
-
-{style="table-layout:auto"}
-
--->
 
 
