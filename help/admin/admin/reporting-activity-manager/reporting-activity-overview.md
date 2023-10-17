@@ -2,10 +2,10 @@
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 title: Reporting Activity Manager panoramica
 feature: Admin Tools
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 33%
+source-wordcount: '268'
+ht-degree: 28%
 
 ---
 
@@ -41,10 +41,3 @@ Per informazioni sulla visualizzazione dell&#39;attività di reporting in Report
 
 Per informazioni sull’annullamento delle richieste di reporting in Reporting Activity Manager, consulta [Annullare le richieste di reporting in Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
-## Domande frequenti {#faq}
-
-| Domanda | Risposta |
-| --- | --- |
-| Posso acquistare una capacità di reporting aggiuntiva? | Questa funzionalità sarà disponibile a breve. |
-
-{style="table-layout:auto"}
