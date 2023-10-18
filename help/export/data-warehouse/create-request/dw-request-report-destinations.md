@@ -3,9 +3,9 @@ description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare una destinazione di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2339'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       | Campo | Funzione |
       |---------|----------|
-      | [!UICONTROL **ARN per ruolo**] | È necessario fornire un ARN per il ruolo (Amazon Resource Name) che l’Adobe può utilizzare per accedere all’account Amazon S3. A tale scopo, creare un criterio di autorizzazione IAM per l&#39;account di origine, associare il criterio a un utente e quindi creare un ruolo per l&#39;account di destinazione. Per informazioni specifiche, consulta [questa documentazione di AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+      | [!UICONTROL **ARN per ruolo**] | È necessario fornire un ARN per il ruolo (Amazon Resource Name) che l’Adobe può utilizzare per accedere all’account Amazon S3. A tale scopo, creare un criterio di autorizzazione IAM per l&#39;account di origine, associare il criterio a un utente e quindi creare un ruolo per l&#39;account di destinazione. Per informazioni specifiche, consulta [questa documentazione di AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/).<p>Per informazioni su come impostare l’autorizzazione del bucket, consulta l’articolo [Come posso fornire l’accesso tra account diversi per gli oggetti che si trovano nei bucket di Amazon S3?](https://repost.aws/knowledge-center/cross-account-access-s3) nel knowledge center di Amazon. |
       | [!UICONTROL **ARN utente**] | L’ARN utente (Amazon Resource Name) è fornito da Adobe. È necessario collegare questo utente al criterio creato. |
 
       {style="table-layout:auto"}

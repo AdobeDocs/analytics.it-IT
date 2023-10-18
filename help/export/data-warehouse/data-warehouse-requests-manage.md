@@ -4,9 +4,9 @@ title: Gestire le richieste di Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 02e743892d3e476a5614d9ad912523ce6315fe62
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1277'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 3%
 >Se la tua organizzazione non dispone ancora della nuova esperienza Data Warehouse, che sarà presto disponibile per tutti i clienti, utilizza le informazioni in [Gestire le richieste Data Warehouse (vecchia esperienza)](#manage-data-warehouse-requests-old-experience) in fondo alla pagina.
 
 
-Puoi gestire le richieste Data Warehouse che hai effettuato. Le sezioni seguenti descrivono le attività che è possibile eseguire durante la gestione delle richieste. <!-- just those you have made? I think you can see other people's requests (you can filter by them). What can you do with other people's requests? Just view them?-->
+Puoi visualizzare e gestire le richieste Data Warehouse che hai effettuato. Solo gli amministratori possono visualizzare e gestire le richieste effettuate da altri utenti nell’organizzazione in cui dispongono di diritti amministrativi.
+
+Le sezioni seguenti descrivono le attività che è possibile eseguire durante la gestione delle richieste.
 
 ## Visualizzare richieste
 

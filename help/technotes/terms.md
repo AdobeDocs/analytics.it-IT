@@ -3,9 +3,9 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2577'
 ht-degree: 2%
 
 ---
@@ -38,6 +38,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Feed dati clickstream:** Consulta Feed dati.
 * **Coorte:** Un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Vedi [Cos’è un’analisi per coorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) nella guida utente Analizza.
 * **Server di raccolta:** Consulta Server di raccolta dati.
+* **Componente:** I componenti in Analysis Workspace sono dimensioni, metriche, segmenti e intervalli di date da trascinare su un progetto. Consulta [Panoramica dei componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) nella guida utente Analizza.
 * **Variabili di dati di contesto:** Variabili temporanee utilizzate esclusivamente nelle regole di elaborazione. I valori delle variabili di dati contestuali vengono persi definitivamente se una regola di elaborazione non li copia in una variabile di conversione o di traffico. Consulta [Variabili di dati di contesto](../implement/vars/page-vars/contextdata.md) nella guida utente Implementa.
 * **Variabile di conversione:** Noto anche come eVar. Memorizza un valore personalizzato e mantiene il valore della variabile fino alla scadenza. Consulta la [eVar](/help/components/dimensions/evar.md) nella guida utente dei Componenti.
 * **Correlazione:** Non più utilizzato come termine; sostituito con raggruppamenti di dimensioni. Nelle versioni precedenti di Adobe Analytics, le correlazioni consentivano di suddividere le variabili di traffico. Consulta [Suddividere dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) nella guida utente Analizza.
