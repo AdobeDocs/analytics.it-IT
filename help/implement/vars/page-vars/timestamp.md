@@ -3,9 +3,9 @@ title: timestamp
 description: Imposta manualmente la marca temporale dell’hit.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
+source-git-commit: 4f9af1b3a1337b0e24b718362a502ff3f0acb5ef
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 11%
 
 ---
@@ -28,7 +28,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.timestamp in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.timestamp` variable è una stringa contenente la data e l&#39;ora dell&#39;hit. I formati di marca temporale validi includono [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) e [Ora Unix](https://en.wikipedia.org/wiki/Unix_time).
+Il `s.timestamp` variable è una stringa contenente la data e l&#39;ora dell&#39;hit. I formati di marca temporale validi includono [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) e [Ora Unix](https://en.wikipedia.org/wiki/Unix_time) in secondi.
 
 ```js
 // Timestamp using ISO 8601
