@@ -3,7 +3,7 @@ title: Mappatura delle variabili di Analytics in Adobe Experience Edge
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 82%
@@ -106,8 +106,8 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | `media.mediaTimed.thirdQuartiles.value` | La metrica di Media Analytics [Marcatore progresso 75 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=it#seventy-five-progress-marker). |
 | `media.mediaTimed.timePlayed.value` | La metrica di Media Analytics [Tempo contenuto trascorso](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=it#content-time-spent). |
 | `media.mediaTimed.totalTimePlayed.value` | La metrica di Media Analytics [Tempo trascorso per contenuti multimediali](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=it#media-time-spent). |
-| `placeContext.geo.latitude` | La dimensione Mobile Latitudine. |
-| `placeContext.geo.longitude` | La dimensione Mobile Longitudine. |
+| `placeContext.geo._schema.latitude` | La dimensione Mobile Latitudine. |
+| `placeContext.geo._schema.longitude` | La dimensione Mobile Longitudine. |
 | `placeContext.geo.postalCode` | La dimensione [Codice postale](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | La dimensione [Stati Uniti](../../components/dimensions/us-states.md). |
 | `placeContext.localTime` | Aiuta a popolare i [Fusi orari](/help/analyze/reports-analytics/reports.md) in Report and Analytics. Viene visualizzato come `t_time_info` in [Feed dati](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
