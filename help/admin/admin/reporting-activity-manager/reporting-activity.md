@@ -4,7 +4,7 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: de0d103a2b4cd1827b2c9a93aa140a9c5e44584e
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 11%
@@ -12,8 +12,6 @@ ht-degree: 11%
 ---
 
 # Visualizzare l’attività di reporting in Reporting Activity Manager
-
-{{release-limited-testing}}
 
 Il [!UICONTROL Reporting Activity Manager] consente agli amministratori di diagnosticare e risolvere rapidamente i problemi di capacità di reporting durante i periodi di picco.
 

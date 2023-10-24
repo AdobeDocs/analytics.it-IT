@@ -2,7 +2,7 @@
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 title: Reporting Activity Manager panoramica
 feature: Admin Tools
-source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 28%
@@ -10,8 +10,6 @@ ht-degree: 28%
 ---
 
 # Panoramica di Reporting Activity Manager
-
-{{release-limited-testing}}
 
 Il [!UICONTROL Reporting Activity Manager] è disponibile per gli amministratori.
 
