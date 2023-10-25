@@ -3,10 +3,11 @@ description: Informazioni generali di panoramica su Adobe Analytics, tra cui inf
 short-description: Scopri le funzioni chiave, i casi d’uso comuni e i primi passaggi per analisti, utenti finali e amministratori.
 title: Panoramica di Adobe Analytics
 feature: Analytics Basics
-source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
+exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 
@@ -51,4 +52,3 @@ Di seguito sono riportati alcuni dei vantaggi di Customer Journey Analytics risp
 * **Dati di più suite di rapporti**: su Platform è possibile combinare le implementazioni esistenti da più set di dati.
 
 Per ulteriori informazioni, consulta [Panoramica di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it).
-
