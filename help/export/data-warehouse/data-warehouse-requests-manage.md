@@ -4,9 +4,9 @@ title: Gestire le richieste di Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1290'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 >Se la tua organizzazione non dispone ancora della nuova esperienza Data Warehouse, che sarà presto disponibile per tutti i clienti, utilizza le informazioni in [Gestire le richieste Data Warehouse (vecchia esperienza)](#manage-data-warehouse-requests-old-experience) in fondo alla pagina.
 
 
-Puoi visualizzare e gestire le richieste Data Warehouse che hai effettuato. Solo gli amministratori possono visualizzare e gestire le richieste effettuate da altri utenti nell’organizzazione in cui dispongono di diritti amministrativi.
+Puoi visualizzare e gestire le richieste Data Warehouse che hai effettuato. Solo gli amministratori possono visualizzare e gestire le richieste effettuate da altri utenti dell’organizzazione.
 
 Le sezioni seguenti descrivono le attività che è possibile eseguire durante la gestione delle richieste.
 
@@ -47,6 +47,8 @@ Quando modifichi le richieste, tieni presente quanto segue:
 * È possibile modificare solo le richieste configurate per l’esecuzione in una pianificazione.
 
 * Non tutti i campi associati alla richiesta possono essere modificati. I campi che non possono essere modificati vengono oscurati.
+
+* Gli amministratori che modificano la richiesta di un altro utente devono scegliere un nuovo account e un percorso a cui possono accedere.
 
 Per modificare una richiesta pianificata:
 
