@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '5067'
-ht-degree: 96%
+source-wordcount: '5096'
+ht-degree: 95%
 
 ---
 
@@ -25,6 +25,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzionalità | Descrizione |
 | --- | --- |
+| **Ottobre 2023** | |
+| Sono state aggiunte informazioni di registro a Reporting Activity Manager | Sono state aggiunte informazioni che [annullamenti e conseguenti restrizioni dell’attività di reporting](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) nel Reporting Activity Manager vengono acquisiti nel [Registri](/help/admin/admin/logs.md). |
 | **Settembre 2023** | |
 | Struttura aggiornata degli articoli per il pannello Tempo trascorso su contenuti multimediali | È stata rimossa la cartella Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali trascorso), che è stata combinata in un unico articolo: [Pannello Tempo trascorso su contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Questa modifica è più in linea con la documentazione relativa ad altri pannelli.</p> |
 | Miglioramenti dei contenuti introduttivi | Sono state aggiunte informazioni che descrivono le principali attività e risorse introduttive per amministratori, analisti, utenti finali e sviluppatori. Sono ora disponibili i seguenti nuovi articoli: <ul><li>[Introduzione (per ruolo)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Informazioni sull’interfaccia di Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Casi di utilizzo](/help/analyze/get-started/use-cases.md)</li></ul> |

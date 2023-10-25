@@ -2,9 +2,9 @@
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 title: Annullare le richieste di reporting in Reporting Activity Manager
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1398'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,11 @@ Quando annulli le richieste di reporting, considera quanto segue:
 
 * Puoi annullare richieste specifiche, annullare tutte le richieste provenienti da un utente specifico o annullare tutte le richieste relative a un progetto specifico.
 
+  Quando si annulla una richiesta, l’azione viene registrata nella [Registri](/help/admin/admin/logs.md). Il [!UICONTROL **Tipo di evento**] la colonna viene visualizzata come [!UICONTROL **Azione di amministrazione**] e una descrizione della cancellazione è disponibile nel [!UICONTROL **Evento**] colonna.
+
 * Quando annulli le richieste, puoi anche scegliere di limitare le richieste successive per un determinato periodo di tempo.
+
+  Quando si limita una richiesta successiva, l’azione viene registrata nel [Registri](/help/admin/admin/logs.md). Il [!UICONTROL **Tipo di evento**] la colonna viene visualizzata come [!UICONTROL **Azione di amministrazione**] e una descrizione della restrizione è disponibile nella sezione [!UICONTROL **Evento**] colonna.
 
 * Impossibile annullare una richiesta se [!UICONTROL **Utente**] La colonna di una richiesta viene visualizzata come [!UICONTROL **Non riconosciuto**]. In questo caso, significa che l’utente si trova in una società di accesso per la quale non disponi di autorizzazioni amministrative.
 

@@ -3,9 +3,9 @@ description: I file di registro sono utili per capire quando gli utenti accedono
 title: Registri
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 20%
 
 ---
@@ -41,7 +41,7 @@ Il [!UICONTROL Usage and Access Log] consente di valutare l’utilizzo del rappo
 | Nessuna categoria | Potrebbe essere qualsiasi tipo di evento. |
 | Accesso non riuscito | Processo di accesso utente non riuscito. |
 | Accesso riuscito | Utente connesso correttamente. |
-| Azione di amministrazione | Si è verificata un’azione di amministrazione, come modificare una suite di rapporti, modificare le impostazioni aziendali, creare un utente e così via. |
+| Azione di amministrazione | Si è verificata un’azione di amministrazione, come modificare una suite di rapporti, modificare le impostazioni aziendali, creare un utente, annullare una richiesta di reporting, ecc. |
 | Modifica delle impostazioni di sicurezza | È stata modificata un&#39;impostazione di protezione. |
 | Rapporto visualizzato | È stato visualizzato un rapporto Reports &amp; Analytics. |
 | Report scaricato | È stato scaricato un rapporto Reports &amp; Analytics. |
