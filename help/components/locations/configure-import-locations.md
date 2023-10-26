@@ -3,10 +3,11 @@ description: Configura l’account di importazione cloud e il percorso in cui è
 keywords: Analysis Workspace
 title: Configurare i percorsi di importazione cloud
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 4%
+source-wordcount: '542'
+ht-degree: 5%
 
 ---
 
@@ -38,7 +39,7 @@ Per configurare un percorso di importazione cloud:
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. Assicurati che l’ARN utente fornito da Adobe abbia accesso al caricamento di file in questo bucket. |
+   | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. |
    | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, nome_cartella/ |
 
    {style="table-layout:auto"}

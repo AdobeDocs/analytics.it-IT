@@ -3,9 +3,10 @@ description: Configura l’account di importazione cloud e il percorso in cui è
 keywords: Analysis Workspace
 title: Configurare account di importazione cloud
 feature: Classifications
-source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
+exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '900'
 ht-degree: 2%
 
 ---
@@ -39,7 +40,6 @@ Per configurare un account di importazione cloud:
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **ARN per ruolo**] | È necessario fornire un ARN per il ruolo (Amazon Resource Name) che l’Adobe può utilizzare per accedere all’account Amazon S3. A tale scopo, creare un criterio di autorizzazione IAM per l&#39;account di origine, associare il criterio a un utente e quindi creare un ruolo per l&#39;account di destinazione. Per informazioni specifiche, consulta [questa documentazione di AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-   | [!UICONTROL **ARN utente**] | L’ARN utente (Amazon Resource Name) è fornito da Adobe. È necessario collegare questo utente al criterio creato. |
 
    {style="table-layout:auto"}
 
@@ -90,4 +90,3 @@ Per configurare un account di importazione cloud:
 1. Seleziona [!UICONTROL **Salva**].
 
 1. Continua con [Configurare i percorsi di importazione cloud](/help/components/locations/configure-import-locations.md).
-
