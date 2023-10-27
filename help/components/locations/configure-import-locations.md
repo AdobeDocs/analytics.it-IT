@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare i percorsi di importazione cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 5%
+source-wordcount: '583'
+ht-degree: 4%
 
 ---
 
@@ -88,4 +88,11 @@ Per configurare un percorso di importazione cloud:
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Ora puoi importare i dati nell’account e nella posizione configurati.
+   Ora puoi importare i dati dall’account e dalla posizione configurati.
+
+   I dati importati non vengono eliminati dalla destinazione cloud.
+
+   >[!NOTE]
+   >
+   >   Se in precedenza è stato utilizzato [FTP per importare le classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, era necessario caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
+
