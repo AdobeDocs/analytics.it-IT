@@ -5,7 +5,7 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: a0b8f61c3728c5867640ce20768614c8d79ca657
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 1%
@@ -33,7 +33,7 @@ L’identificazione del collegamento Activity Map e dell’area geografica si ve
 
 ## Cosa viene tracciato per impostazione predefinita?
 
-Se si verifica un evento clic su un elemento, l’elemento deve superare alcuni controlli per determinare se AppMeasurement lo considererà come un collegamento. Questi sono i controlli:
+Se si verifica un evento clic su un elemento, l’elemento deve passare alcuni controlli per determinare se AppMeasurement lo considererà come un collegamento. Questi sono i controlli:
 
 * È un `A` o `AREA` tag con un `href` proprietà?
 * Esiste un `onclick` attributo che imposta un `s_objectID` variabile?
@@ -45,11 +45,11 @@ Se la risposta è Sì a una delle domande precedenti, l’elemento viene trattat
 
 >[!IMPORTANT]
 >
->I tag di pulsanti con l’attributo type=&quot;button&quot; non sono considerati collegamenti da AppMeasurement. È consigliabile rimuovere type=&quot;button&quot; sui tag button e aggiungere role=&quot;button&quot; o submit=&quot;button&quot;.
+>I tag di pulsante con l’attributo type=&quot;button&quot; non sono considerati collegamenti per AppMeasurement. È consigliabile rimuovere type=&quot;button&quot; sui tag button e aggiungere role=&quot;button&quot; o submit=&quot;button&quot;.
 
 >[!IMPORTANT]
 >
->Un tag di ancoraggio con un &quot;href&quot; che inizia con &quot;#&quot; viene considerato da AppMeasurement come una posizione di destinazione interna, non come un collegamento (in quanto non si esce dalla pagina). Per impostazione predefinita, Activity Map non tiene traccia di queste posizioni di destinazione interne. Tiene traccia solo dei collegamenti che consentono di passare a una nuova pagina.
+>Un tag di ancoraggio con un &quot;href&quot; che inizia con &quot;#&quot; viene considerato per AppMeasurement una posizione di destinazione interna, non un collegamento (in quanto non si esce dalla pagina). Per impostazione predefinita, Activity Map non tiene traccia di queste posizioni di destinazione interne. Tiene traccia solo dei collegamenti che consentono di passare a una nuova pagina.
 
 ## In che modo l’Activity Map tiene traccia degli altri elementi di HTML visivi?
 
@@ -81,7 +81,7 @@ b. Tramite il `s_objectID` variabile. Esempio:
 ### Esempio 1
 
 ```
-  <a hef="/home>Home</a>
+  <a href="/home>Home</a>
 ```
 
 ### Esempio 2
