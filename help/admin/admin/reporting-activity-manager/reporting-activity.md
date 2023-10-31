@@ -4,9 +4,9 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: 5e74c47dff7f1685be9fd738f834ae317c95fad5
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1892'
 ht-degree: 11%
 
 ---
@@ -35,7 +35,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. Visualizza le informazioni sull’utilizzo di ogni suite di rapporti. È possibile selezionare un&#39;intestazione di colonna per ordinare la tabella in base a tale colonna.
+1. Visualizza le informazioni sull’utilizzo di ogni suite di rapporti. I dati mostrati nella tabella rappresentano l’attività di reporting per la suite di rapporti al momento dell’ultimo caricamento della pagina.
 
    Sono disponibili le seguenti colonne:
 
@@ -46,7 +46,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
    | **[!UICONTROL Capacity utilization]** | La percentuale in tempo reale della capacità di reporting della suite di rapporti in uso. <p>**Nota** Una capacità di utilizzo pari al 100% non indica necessariamente che è necessario iniziare immediatamente ad annullare le richieste di reporting. La capacità di utilizzo del 100% può essere integra se il tempo medio di attesa è ragionevole. D’altra parte, una capacità di utilizzo del 100% potrebbe indicare un problema se anche il numero di richieste in coda è in crescita.</p> |
    | **[!UICONTROL Queued requests]** | Numero di richieste in attesa di elaborazione. <!-- ??? --> |
    | **[!UICONTROL Queue wait time]** | Tempo medio di attesa prima dell’elaborazione delle richieste. <!-- ???? --> |
-   | **[!UICONTROL Status]** | I possibili stati sono: <ul><li>[!UICONTROL **Attivo**] (blu): i rapporti sono stati eseguiti sulla suite di rapporti e ne viene monitorata l’attività.</li><li>[!UICONTROL **Inattivo**] (grigio): non è mai stato eseguito alcun rapporto sulla suite di rapporti. Questo stato viene visualizzato solo al momento della creazione delle suite di rapporti.</li></ul> |
+   | **[!UICONTROL Status]** | I possibili stati sono: <ul><li>[!UICONTROL **Attivo**] (blu): I rapporti sono stati eseguiti sulla suite di rapporti nelle ultime 2 ore. I dati mostrati nella tabella rappresentano la capacità di reporting per la suite di rapporti al momento dell’ultimo caricamento della pagina.</li><li>[!UICONTROL **Inattivo**] (grigio): non sono stati eseguiti rapporti sulla suite di rapporti nelle ultime 2 ore, pertanto non vengono visualizzati dati per la suite di rapporti.</li></ul> |
 
    {style="table-layout:auto"}
 
