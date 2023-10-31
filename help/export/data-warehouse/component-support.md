@@ -3,10 +3,10 @@ title: Supporto dei componenti in Data Warehouse
 description: Scopri quali dimensioni e metriche aggiuntive sono disponibili in Data Warehouse e cosa non è supportato.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 17%
+source-wordcount: '402'
+ht-degree: 12%
 
 ---
 
@@ -40,17 +40,7 @@ Alcune dimensioni e metriche non sono supportate in Data Warehouse.
 
 ### Dimension non supportati
 
-* Alcune dimensioni basate sul tempo, tra cui:
-   * AM/PM
-   * Giorno del mese
-   * Giorno della settimana
-   * Giorno dell’anno
-   * Ora del giorno
-   * Minuto
-   * Mese dell’anno
-   * Trimestre dell’anno
-   * Giorno feriale/Fine settimana
-   * Anno
+* AM/PM
 * Alcune dimensioni basate su percorsi, tra cui:
    * Tutte le dimensioni di entrata, ad eccezione della pagina di entrata
    * Tutte le dimensioni di uscita, tranne Pagina di uscita e Collegamento di uscita
@@ -59,7 +49,6 @@ Alcune dimensioni e metriche non sono supportate in Data Warehouse.
    * Tempo precedente all’evento
    * Tempo trascorso sulla pagina - Bucket
    * Tempo trascorso per ciascuna visita - Bucket
-   * Profondità della visita
 * Classificazione di tutte le pagine di ricerca
 * Variabili di gerarchia
 * Tipo di hit
@@ -78,4 +67,16 @@ Alcune dimensioni e metriche non sono supportate in Data Warehouse.
    * Ricariche
    * Accesso singolo
    * Metriche &quot;Tempo trascorso&quot;
+* Metriche di partecipazione (come descritto in [Creare una metrica di &quot;partecipazione&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
+### Dimension supportati in modo diverso
+
+Sono supportate le seguenti dimensioni basate sul tempo. Tuttavia, l’output delle date non è standard quando si utilizzano queste dimensioni. In particolare, l&#39;anno viene compensato dal 1900 e i mesi sono a base zero.
+
+* Anno
+* Trimestre
+* Mese
+* Settimana
+* Giorno
+* Ora
+* Minuto

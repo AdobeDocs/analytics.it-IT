@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '5096'
-ht-degree: 95%
+source-wordcount: '5227'
+ht-degree: 93%
 
 ---
 
@@ -27,6 +27,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | --- | --- |
 | **Ottobre 2023** | |
 | Sono state aggiunte informazioni di registro a Reporting Activity Manager | Sono state aggiunte informazioni che [annullamenti e conseguenti restrizioni dell’attività di reporting](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) nel Reporting Activity Manager vengono acquisiti nel [Registri](/help/admin/admin/logs.md). |
+| Aggiornamenti al supporto dei componenti Data Warehouse | È stata aggiunta la disponibilità per alcuni componenti e rimossa la disponibilità per altri per Data Warehouse. Queste modifiche si riflettono in [Supporto dei componenti in Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>È stato aggiunto il supporto per la dimensione Profondità visita (la profondità visita è stata rimossa dall’elenco delle dimensioni non supportate)</li><li>Rimozione del supporto per le metriche di partecipazione (le metriche di partecipazione aggiunte all&#39;elenco delle metriche non sono supportate).</li><li>È stato aggiunto il supporto per le seguenti dimensioni basate sul tempo: Anno, Trimestre, Mese, Settimana, Giorno, Ora e Minuto (queste dimensioni sono state rimosse dall’elenco delle dimensioni non supportate) <p>In precedenza, Data Warehouse supportava queste dimensioni solo nella prima colonna di una tabella a forma libera quando era selezionata l’opzione Granularità. Ora queste dimensioni sono sempre supportate.</p><p>Tuttavia, l’output delle date non è standard quando si utilizzano queste dimensioni. L&#39;anno viene compensato dal 1900 e i mesi sono a base zero.</li></ul> |
 | **Settembre 2023** | |
 | Struttura aggiornata degli articoli per il pannello Tempo trascorso su contenuti multimediali | È stata rimossa la cartella Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali trascorso), che è stata combinata in un unico articolo: [Pannello Tempo trascorso su contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Questa modifica è più in linea con la documentazione relativa ad altri pannelli.</p> |
 | Miglioramenti dei contenuti introduttivi | Sono state aggiunte informazioni che descrivono le principali attività e risorse introduttive per amministratori, analisti, utenti finali e sviluppatori. Sono ora disponibili i seguenti nuovi articoli: <ul><li>[Introduzione (per ruolo)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Informazioni sull’interfaccia di Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Casi di utilizzo](/help/analyze/get-started/use-cases.md)</li></ul> |
