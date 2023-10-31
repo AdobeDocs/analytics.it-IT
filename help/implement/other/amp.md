@@ -3,9 +3,9 @@ title: Implementazione con AMP
 description: Implementa Adobe Analytics sulle pagine AMP.
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 4c75275f9abbff6b9a5a25be370eabc2801eb7fb
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '928'
 ht-degree: 1%
 
 ---
@@ -18,34 +18,34 @@ Poiché Adobe Analytics utilizza una libreria JavaScript per compilare e inviare
 
 ## Determinare quale metodo implementare Adobe Analytics sulle pagine utilizzando AMP
 
-Adobe ha creato due metodi per implementare Adobe Analytics sulle pagine utilizzando AMP. Entrambi utilizzano il `<amp-analytics>` HTML. Consulta [tag amp-analytics](https://amp.dev/documentation/components/amp-analytics) nella documentazione di AMP per ulteriori informazioni.
+Adobe ha creato due metodi per implementare Adobe Analytics sulle pagine utilizzando AMP. Entrambi utilizzano il `<amp-analytics>` HTML. Consulta [amp-analytics](https://amp.dev/documentation/components/amp-analytics) per ulteriori informazioni, consulta la documentazione di AMP.
 
-* **Utilizza il `"adobeanalytics"` modello di tracciamento**: crea la richiesta Analytics direttamente sulla pagina
-* **Utilizza il `"analytics_nativeConfig"` modello di tracciamento**: utilizza un iframe contenente lo stesso codice AppMeasurement che distribuisci sul sito normale
+* **Utilizza il `"adobeanalytics"` modello**: crea la richiesta Analytics direttamente sulla pagina
+* **Utilizza il `"analytics_nativeConfig"` modello**: utilizza un iframe contenente lo stesso codice AppMeasurement distribuito sul sito normale
 
 Nella tabella seguente vengono confrontati i due metodi seguenti:
 
-|  | **modello &quot;adobeanalytics&quot;** | **Modello &quot;adobeanalytics_nativeConfig&quot;** |
+|   | **`"adobeanalytics"`un modello** | **`"adobeanalytics_nativeConfig"`un modello** |
 |---|---|---|
 | Conteggi di visitatori e visite nella suite di rapporti esistente | Elevata inflazione | Inflazione minima |
 | Utilizzare una suite di rapporti separata | Consigliato | Non necessario |
 | Visitatori nuovi e di ritorno | Non supportati | Supportati |
 | Servizio ID visitatori | Non supportati | Supportati |
 | Tracciamento di video e collegamenti | Supporto parziale | Non ancora supportato |
-| Difficoltà di implementazione | Un po&#39; difficile | Relativamente facile |
+| Difficoltà di implementazione | Difficile | Relativamente facile |
 | Integrazioni Adobe Experience Cloud | Non supportati | Supporto parziale |
 
-Pesare i pro e i contro all’interno della tua organizzazione per determinare quale metodo desideri utilizzare. Consulta [Esempi di AMP](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) nell’archivio GitHub di Adobe per il codice di esempio.
+Valuta i pro e i contro in modo da poter scegliere il metodo di implementazione migliore per la tua organizzazione.
 
 >[!WARNING]
 >
 >Non utilizzare entrambi i `"adobeanalytics"` e `"adobeanalytics_nativeConfig"` sulla stessa pagina utilizzando AMP. Se tenti di farlo, puoi generare errori nella console del browser e contare due volte i visitatori.
 
-## Metodo 1: utilizzare il tag amp-analytics con il modello &quot;adobeanalytics&quot;
+## Metodo 1: utilizzare `<amp-analytics>` tag con `"adobeanalytics"` modello
 
 Il `"adobeanalytics"` il modello di tracciamento utilizza `<amp-analytics>` Tag HTML per creare direttamente una richiesta di tracciamento. Puoi specificare richieste di hit che si attivano su eventi di pagina specifici, come quando la pagina diventa visibile o si fa clic su di essa. È possibile personalizzare gli eventi di clic per applicarli a determinati ID o classi di elementi specificando un selettore. Puoi caricare il modello aggiungendo `type="adobeanalytics"` al tag amp-analytics.
 
-Nell’esempio di codice seguente sono definiti due trigger: `pageLoad` e `click`. Il `pageLoad` viene attivato quando il documento diventa visibile e include `pageName` come definito nella `vars` sezione. Il secondo trigger `click` si attiva quando si fa clic su un pulsante. `eVar1` è impostato per questo evento con il valore `button clicked`.
+Nell’esempio di codice seguente sono definiti due trigger: `pageLoad` e `click`. Il `pageLoad` viene attivato quando il documento diventa visibile e include `pageName` come definito nella `vars` sezione. Il secondo trigger `click` si attiva quando si fa clic su un pulsante. Il `eVar1` è impostata per questo evento con il valore `button clicked`.
 
 ```html
 <amp-analytics type="adobeanalytics">
@@ -78,25 +78,17 @@ Nell’esempio di codice seguente sono definiti due trigger: `pageLoad` e `click
 </amp-analytics>
 ```
 
-In `click` , puoi specificare un selettore in modo che, ogni volta che si fa clic sull&#39;elemento DOM specifico (in questo caso, qualsiasi pulsante), `buttonClick` La richiesta viene attivata e viene impostata automaticamente per indicare questo hit come chiamata di tracciamento dei collegamenti.
-
-Inoltre, `amp-analytics` supporta una serie di sostituzioni di variabili in modo che AMP possa fornire valori di dati di cui è a conoscenza. Consulta [variabili supportate in amp-analytics](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) su GitHub per ulteriori informazioni.
+Il `<amp-analytics>` Il tag supporta le sostituzioni di variabili in modo che AMP possa fornire valori di dati riconosciuti. Consulta [variabili supportate in `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) su GitHub per ulteriori informazioni.
 
 >[!NOTE]
 >
->Le richieste di immagini inviate all’Adobe utilizzando questo metodo non includono i dati per molti rapporti predefiniti (ad esempio, browser, dimensioni dello schermo o referrer). Se desideri includere queste informazioni negli hit, assicurati che siano incluse nella stringa di query della richiesta di immagine. Consulta [Parametri query della raccolta dati](../validate/query-parameters.md) per ulteriori informazioni.
+>Le richieste di immagini inviate ad Adobe utilizzando questo metodo non includono i dati per molti rapporti predefiniti (ad esempio, browser, dimensioni dello schermo o referrer). Se desideri includere queste informazioni negli hit, accertati che siano inclusi nella stringa di query della richiesta di immagine. Consulta [Parametri query della raccolta dati](../validate/query-parameters.md) per un elenco completo dei parametri di query delle richieste di immagini e delle relative variabili associate.
 
-Adobe identifica i visitatori utilizzando una funzione AMP integrata e imposta il cookie `adobe_amp_id`. Questo ID visitatore è univoco rispetto a qualsiasi altro ID impostato da Adobe Analytics (ad esempio, `s_vi` cookie). Il servizio Adobe Experience Cloud ID non è supportato con questo metodo di implementazione.
-
->[!NOTE]
->
->AMP utilizza le CDN per distribuire i contenuti. È strutturato per contare un visitatore univoco diverso per ogni CDN da cui un visitatore recupera il contenuto, il che può gonfiare il conteggio dei visitatori univoci.
-
-Si consiglia di utilizzare una suite di rapporti separata per le pagine AMP a causa del modo in cui AMP identifica i visitatori univoci.
+Adobe identifica i visitatori utilizzando una funzione AMP integrata e imposta il cookie `adobe_amp_id`. Questo ID visitatore è univoco rispetto a qualsiasi altro ID impostato da Adobe Analytics. Un visitatore univoco diverso viene conteggiato per ogni CDN da cui un visitatore recupera il contenuto, il che può gonfiare il conteggio dei visitatori univoci. L’utilizzo di una suite di rapporti separata per le pagine AMP è vivamente consigliato a causa del modo in cui AMP identifica i visitatori univoci. Servizio Adobe Experience Cloud ID non supportato.
 
 Questa soluzione richiede che il server di tracciamento specificato in `host` La proprietà corrisponde al server di tracciamento sul sito principale, in modo che vengano rispettati i controlli esistenti dell&#39;informativa sulla privacy. In caso contrario, crea un’informativa sulla privacy separata per le pagine che utilizzano AMP.
 
-## Metodo 2: utilizzare il tag amp-analytics con il modello &quot;adobeanalytics_nativeConfig&quot;
+## Metodo 2: utilizzare `<amp-analytics>` tag con `"adobeanalytics_nativeConfig"` modello
 
 Il `"adobeanalytics_nativeConfig"` è più semplice da implementare, in quanto utilizza la stessa metodologia di assegnazione tag utilizzata nelle normali pagine web. Aggiungi quanto segue al tuo `amp-analytics` tag:
 
@@ -154,7 +146,7 @@ Il `"adobeanalytics_nativeConfig"` è più semplice da implementare, in quanto u
 
 Questo approccio invia i dati a una pagina web di utilità tramite i parametri della stringa di query aggiunti al `iframeMessage` parametro di richiesta. Questi parametri della stringa di query possono essere denominati come desideri, purché `stats.html` pagina è configurata per raccogliere i dati da essi.
 
-Il `"adobeanalytics_nativeConfig"` Il modello aggiunge anche parametri di stringa di query basati sulle variabili elencate nella `extraUrlParams` sezione del tag amp-analytics. Nell’esempio precedente, il `pageName` e `v1` I parametri di sono inclusi.
+Il `"adobeanalytics_nativeConfig"` Il modello aggiunge anche parametri di stringa di query basati sulle variabili elencate nella `extraUrlParams` sezione del `<amp-analytics>` tag. Nell’esempio precedente, il `pageName` e `v1` I parametri di sono inclusi.
 
 >[!IMPORTANT]
 >
@@ -166,13 +158,9 @@ Non è possibile utilizzare il tracciamento dei collegamenti e il tracciamento d
 
 ## Domande frequenti
 
-**Il tracciamento video è disponibile per entrambi i metodi?**
-
-No. Lo standard AMP supporta solo attivatori per &quot;visible&quot;, &quot;click&quot; e &quot;timer&quot;. Non supporta ancora trigger espliciti per il tracciamento video che `amp-analytics` Il tag può essere ascoltato. Inoltre, il `"adobeanalytics_nativeConfig"` il modello può essere caricato una sola volta, pertanto non è possibile eseguire richieste di immagini successive dopo il caricamento di una pagina.
-
 **Come posso distinguere i visitatori AMP dagli altri nei miei dati?**
 
-Per tutte le pagine AMP, il [!UICONTROL JavaScript Version] la quota raccoglie un valore simile a `AMP vX.X`. Puoi anche impostare una dimensione personalizzata su &quot;AMP&quot; per segmentare questi visitatori.
+Per tutte le pagine AMP, il [!UICONTROL JavaScript Version] la quota raccoglie un valore simile a `AMP vX.X`. Puoi anche impostare una dimensione personalizzata su &quot;AMP&quot; in modo da poter segmentare questi visitatori.
 
 **Come si confronta questo metodo di implementazione con gli articoli istantanei di Facebook?**
 
