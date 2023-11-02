@@ -5,9 +5,9 @@ user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Scopri come utilizzare i feed di dati per esportare dati non elaborati, e Data Warehouse per recuperare un output di dati sotto forma di foglio di calcolo. Scopri come utilizzare FTP e SFTP per trasferire i file.
 source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,11 +37,11 @@ ht-degree: 96%
    + [Panoramica di Data Warehouse](data-warehouse/data-warehouse.md)
    + [Aggiungere un gruppo utenti di Data Warehouse](data-warehouse/t-dw-group.md)
    + Create a Data Warehouse Request (Creare una richiesta di archivio dati) {#dw-create-request}
-      + [Create a Data Warehouse Request (Creare una richiesta di archivio dati)](/help/export/data-warehouse/create-request/t-dw-create-request.md)
+      + [Creare una richiesta di Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [Impostazioni generali](/help/export/data-warehouse/create-request/dw-general-settings.md)
-      + [Creare il rapporto](/help/export/data-warehouse/create-request/dw-request-build-report.md)
+      + [Generare il rapporto](/help/export/data-warehouse/create-request/dw-request-build-report.md)
       + [Destinazione del rapporto](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-      + [Opzioni di report](/help/export/data-warehouse/create-request/dw-request-report-options.md)
+      + [Opzioni per il rapporto](/help/export/data-warehouse/create-request/dw-request-report-options.md)
       + [Opzioni di pianificazione](/help/export/data-warehouse/create-request/dw-request-scheduling.md)
       + [E-mail di notifica](/help/export/data-warehouse/create-request/dw-request-email.md)
    + [Tempi di consegna delle richieste](data-warehouse/delivery-time.md)
