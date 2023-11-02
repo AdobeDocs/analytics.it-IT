@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8156'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -196,7 +196,7 @@ Nuove funzionalità e miglioramenti rilasciati il 1° novembre 2018.
 
 | Funzione | Descrizione |
 |--- |--- |
-| [Cura di suite di rapporti virtuali e progetti - Miglioramenti](/help/analyze/analysis-workspace/curate-share/curate.md) | Le presenti modifiche sono state implementate in ottobre 2018. Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di rapporti virtuali curate. <br> In precedenza, chiunque poteva vedere i componenti non curati facendo clic sul pulsante Mostra tutti i componenti. L’esperienza di gestione aggiornata consente un controllo più dettagliato sui componenti visibili.</br> |
+| [Cura dei progetti e suite di rapporti virtuali: miglioramenti](/help/analyze/analysis-workspace/curate-share/curate.md) | Le presenti modifiche sono state implementate in ottobre 2018. Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di rapporti virtuali (VRS) curate. <br> In precedenza, chiunque poteva vedere i componenti non curati facendo clic sul pulsante Mostra tutti i componenti. L’esperienza di gestione aggiornata consente un controllo più dettagliato sui componenti visibili.</br> |
 
 ## Ottobre 2018
 
@@ -537,7 +537,7 @@ Nuove funzionalità e miglioramenti rilasciati il 18 gennaio 2018.
   </tr>
   <tr>
    <td colname="col1"> <p>Modifiche a event#, eVar# e prop# </p> </td>
-   <td colname="col2"> <p>Event#, eVar# e prop#, aggiunti ai nomi di dimensioni nella a barra a sinistra (nel 2017), saranno visualizzati solo quando <b>cerchi</b> il componente. </p> <p>(Applicabile anche al generatore di suite di rapporti virtuali). </p> </td>
+   <td colname="col2"> <p>Event#, eVar# e prop#, aggiunti ai nomi di dimensioni nella a barra a sinistra (nel 2017), saranno visualizzati solo quando <b>cerchi</b> il componente. </p> <p>(Applicabile anche al generatore di suite di rapporti virtuali.) </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>Modifiche a Nessuno/Non specificato </p> </td>
