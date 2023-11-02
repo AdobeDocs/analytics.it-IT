@@ -4,7 +4,7 @@ description: Il numero di volte in cui un elemento dimensione è stato impostato
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
 ht-degree: 100%
 
