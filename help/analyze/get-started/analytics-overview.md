@@ -5,9 +5,9 @@ title: Panoramica di Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ Adobe Analytics consente alle organizzazioni di raccogliere dati e ottenere appr
 
 ## Guida introduttiva ad Adobe Analytics
 
-Utilizza le seguenti risorse per scoprire le nozioni di base di Adobe Analytics:
+Ecco alcune risorse utili per acquisire le nozioni di base di Adobe Analytics:
 
 
-| Risorsa documentazione | Funzione |
+| Risorsa/Documentazione | Funzione |
 |---------|----------|
-| [Introduzione (per ruolo)](/help/analyze/get-started/get-started-by-role.md) | Fornisce informazioni dettagliate che spiegano le funzioni e le attività chiave di cui hai bisogno, che tu sia un amministratore, un analista, un utente finale o uno sviluppatore. |
+| [Introduzione (per ruolo)](/help/analyze/get-started/get-started-by-role.md) | Fornisce informazioni dettagliate che spiegano le funzioni e le attività chiave di cui hai bisogno, per amministratori, analisti, utenti finali o sviluppatori. |
 | [Informazioni sull’interfaccia di Analytics](/help/analyze/get-started/analytics-interface.md) | Illustra le aree chiave dell’interfaccia di Analytics. |
-| [Casi di utilizzo](/help/analyze/get-started/use-cases.md) | Spiega alcuni dei modi principali in cui Adobe Analytics aiuta le organizzazioni a ottenere informazioni critiche per servire meglio i propri clienti. |
-| [Quale strumento Adobe Analytics usare?](/help/analyze/get-started/which-analytics-tool.md) | Contiene casi d’uso consigliati per ogni strumento Adobe Analytics. |
-| [Requisiti e confronto dei prodotti Analytics](/help/analyze/get-started/analytics-product-comparison.md) | Confronta i vari prodotti Adobe Analytics disponibili. |
-| [Requisiti di sistema](/help/analyze/get-started/sys-reqs.md) | Spiega i prerequisiti e i requisiti di sistema per l’implementazione e l’utilizzo di Adobe Analytics. |
+| [Casi di utilizzo](/help/analyze/get-started/use-cases.md) | Di seguito sono riportati alcuni dei modi chiave in cui Adobe Analytics aiuta le organizzazioni a ottenere insight critici per servire al meglio la propria clientela. |
+| [Quale strumento Adobe Analytics usare?](/help/analyze/get-started/which-analytics-tool.md) | Contiene casi d’uso consigliati per ogni strumento di Adobe Analytics. |
+| [Confronto dei prodotti Analytics e requisiti](/help/analyze/get-started/analytics-product-comparison.md) | Confronta i vari prodotti Adobe Analytics disponibili. |
+| [Requisiti di sistema](/help/analyze/get-started/sys-reqs.md) | Spiega i prerequisiti e i requisiti di sistema da rispettare per l’implementazione e l’utilizzo di Adobe Analytics. |
 
 ## Video introduttivo
 
