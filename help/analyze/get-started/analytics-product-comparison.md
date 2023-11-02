@@ -4,9 +4,9 @@ title: Confronto dei prodotti Analytics e requisiti
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [Quale str
 | **Analisi per coorte** | [Sì](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | No | No | No | Sì | No | No |
 | **Attribuzione** | Sì, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Limitato | Limitato | No | Sì | No | Sì, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Funzioni di Virtual Analyst** <br> [Ulteriori informazioni](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | Sì | No | No | No | No | No | Sì |
-| **Cura** <br> [Ulteriori informazioni](/help/analyze/analysis-workspace/curate-share/curate.md) | Sì - Suite di rapporti virtuali e di progetto | No | No | No | No | No | Sì - Solo suite di rapporti virtuali |
+| **Cura** <br> [Ulteriori informazioni](/help/analyze/analysis-workspace/curate-share/curate.md) | Sì: progetti e suite di rapporti virtuali | No | No | No | No | No | Sì: solo suite di rapporti virtuali |
 | **Condivisione dei progetti** <br> [Ulteriori informazioni](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sì, con ruoli di progetto | Sì | Sì | No | Sì | No | No |
 | **Consegna pianificata** | Sì | Sì | Sì | Sì | No | Sì | No |
-| **Destinazioni di consegna** | E-mail | E-mail | E-mail, FTP, SFTP, [pubblicazione in Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC ed e-mail | - | Piattaforma Amazon S3, Azure RBAC, Azure SAS e Google Cloud | - |
-| **Elaborazione dei tempi di report delle suite di rapporti virtuali** <br> [Ulteriori informazioni](/help/components/vrs/vrs-report-time-processing.md) | Sì | No | No | No | No | No | Sì |
+| **Destinazioni di consegna** | E-mail | E-mail | E-mail, FTP, SFTP, [pubblicazione in Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC e E-mail | - | Amazon S3, Azure RBAC, Azure SAS e Google Cloud Platform | - |
+| **Elaborazione dei tempi di reporting della suite di rapporti virtuale** <br> [Ulteriori informazioni](/help/components/vrs/vrs-report-time-processing.md) | Sì | No | No | No | No | No | Sì |
