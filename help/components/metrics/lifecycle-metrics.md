@@ -1,21 +1,22 @@
 ---
 name: Mobile lifecycle metrics
-description: Metriche basate sui dati raccolti tramite l’SDK di Mobile.
+description: Metriche basate su dati raccolti tramite Mobile SDK.
 feature: Metrics
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
-workflow-type: tm+mt
+exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '38'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 # Metriche del ciclo di vita mobile
 
-| Nome della metrica del ciclo di vita | Descrizione | Variabile di dati contestuali |
+| Nome metrica del ciclo di vita | Descrizione | Variabile dati contestuali |
 | --- | --- | --- |
 | Primi avvii | | `a.InstallEvent` |
 | Aggiornamenti | | `a.UpgradeEvent` |
-| Lanci | | `a.LaunchEvent` |
+| Avvii | | `a.LaunchEvent` |
 | Arresti anomali | | `a.CrashEvent` |
 | Lunghezza totale della sessione | | Da definire |
 | Tempo azione totale | | `a.action.time.total` |
