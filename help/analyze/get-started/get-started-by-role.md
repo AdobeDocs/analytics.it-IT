@@ -4,9 +4,9 @@ title: Introduzione per amministratori, analisti, utenti finali e sviluppatori
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1891'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 93%
 
 In un’organizzazione tipica sono disponibili 4 tipi di utenti Adobe Analytics:
 
-* **Amministratori:** Implementa e configura Adobe Analytics.
+* **Amministratori:** implementano e configurano Adobe Analytics.
 
-* **Analisti:** Configurare progetti e creare analisi con Analysis Workspace
+* **Analisti:** impostano i progetti e creano le analisi con Analysis Workspace.
 
-* **Utenti finali:** Ottenere informazioni actionable sui propri clienti, creando le proprie analisi o lavorando con gli analisti per crearli
+* **Utenti finali:** ottengono informazioni actionable sui propri clienti, creando le proprie analisi o collaborando con gli analisti per crearle.
 
-* **Sviluppatori:** Utilizza le API di Adobe Analytics 2.0 per chiamare direttamente i server di Adobe e eseguire quasi tutte le azioni che possono essere eseguite nell’interfaccia utente, ad esempio la creazione di rapporti da esplorare, il recupero di informazioni o la risposta a domande importanti sui dati.
+* **Sviluppatori:** utilizzano le API 2.0 di Adobe Analytics per chiamare direttamente i server di Adobe ed eseguire quasi tutte le azioni passibili di esecuzione nell’interfaccia utente, ad esempio la creazione di rapporti da esplorare, il recupero di informazioni o la risposta a domande importanti sui dati.
 
-Le informazioni seguenti spiegano come ciascuno di questi utenti può iniziare a utilizzare Adobe Analytics.
+Le informazioni riportate di seguito illustrano come ciascuno di questi utenti può iniziare a utilizzare Adobe Analytics.
 
 ## Introduzione per amministratori
 
@@ -78,7 +78,7 @@ Prima di rendere Adobe Analytics disponibile agli utenti dell’organizzazione, 
 | Rilevamento delle anomalie | Il rilevamento anomalie fornisce un metodo statistico per determinare come una particolare metrica è cambiata in relazione ai dati precedenti. | [Panoramica del rilevamento anomalie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=it) |
 | Analisi dei contributi | L’analisi dei contributi riconosce pattern nascosti nei dati per spiegare le anomalie statistiche e identificare le correlazioni alla base di azioni inaspettate da parte della clientela, valori fuori dalla norma e improvvisi picchi o ribassi di metriche selezionate su segmenti di pubblico convergenti. | [Panoramica dell’analisi dei contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=it) |
 | Segmentazione di Analytics | Ti consente di creare, gestire, condividere e applicare segmenti di pubblico efficaci e mirati ai tuoi rapporti utilizzando le funzionalità di Analytics, Adobe Experience Cloud, Adobe Target e altri prodotti Adobe integrati. | [Segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it) |
-| Pubblicare tipi di pubblico su Audience Manager | Adobe Audience Manager è una potente piattaforma di gestione dei dati che consente di creare profili di pubblico univoci da integrazioni di dati di prime, seconde parti (partner) e terze parti. | [Panoramica di Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=it) |
+| Pubblicare tipi di pubblico su Audience Manager | Adobe Audience Manager è una potente piattaforma di gestione dei dati che consente di creare profili di pubblico univoci da integrazioni di dati di prime, seconde e terze parti (partner). | [Panoramica di Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=it) |
 | Integrazioni | È possibile far emergere le informazioni da altre applicazioni in Adobe Analytics. <p>Di seguito sono riportate alcune integrazioni comuni:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=it">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it">Media Analytics</a></li> | [Integrazione di Analytics](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=it) |
 
 {style="table-layout:auto"}
