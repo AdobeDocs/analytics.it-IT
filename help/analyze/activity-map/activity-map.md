@@ -4,10 +4,10 @@ title: Che cos’è l’Activity Map?
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 2d207c76ad40522adec10cde5044b43acbb7f711
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 18%
+source-wordcount: '575'
+ht-degree: 17%
 
 ---
 
@@ -35,16 +35,11 @@ Adobe Analytics Activity Map è una funzione di Adobe Analytics che fornisce una
 
 * Ottimizzazione delle app mobili: Adobe Analytics Activity Map non è limitato ai siti web ma estende la sua funzionalità anche alle applicazioni mobili. Le aziende possono ottenere informazioni approfondite sulle interazioni degli utenti all’interno delle app, consentendo loro di migliorare l’usabilità, migliorare la navigazione e perfezionare le funzioni per un’esperienza mobile fluida.
 
-## Introduzione per gli amministratori
+## Introduzione
 
-* [Abilitare Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-* [Esempio di codice di implementazione](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-* Abilitare Activity Map tramite Web SDK
-
-## Guida introduttiva per gli utenti
-
-* [Installazione dei plug-in di Activity Map nel browser](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-* [Avviare Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+* [Attivare e abilitare Activity Map](activitymap-getting-started/activitymap-enable.md)
+* [Installazione dei plug-in di Activity Map nel browser](activitymap-getting-started/activitymap-install.md)
+* [Avviare Activity Map](activitymap-getting-started/activitymap-launch.md)
 
 ## Funzioni Activity Map
 
