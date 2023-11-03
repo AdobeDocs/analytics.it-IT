@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder e Activity Map.
-source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
-workflow-type: ht
-source-wordcount: '1105'
-ht-degree: 100%
+source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
+workflow-type: tm+mt
+source-wordcount: '1096'
+ht-degree: 99%
 
 ---
 
@@ -280,12 +280,9 @@ ht-degree: 100%
 + Activity Map {#activity-map}
    + [Panoramica di Activity Map](activity-map/activity-map.md)
    + introduzione {#getting-started}
-      + Introduzione per gli amministratori {#get-started-admins}
-         + [Abilitare Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Implementare Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + Introduzione per gli utenti {#get-started-users}
-         + [Installazione dei plug-in di Activity Map nel browser](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [Avviare Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+      + [Attivare e abilitare l’Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [Installazione dei plug-in di Activity Map nel browser](activity-map/activitymap-getting-started/activitymap-install.md)
+      + [Avviare Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [Tracciamento solido dei collegamenti](activity-map/lnk-tracking-overview.md)
    + Tracciamento dei collegamenti {#link-tracking}
       + [Metodologia di tracciamento dei collegamenti](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)

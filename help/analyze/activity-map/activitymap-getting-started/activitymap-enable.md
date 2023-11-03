@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: bb9ba0400116aff3aea5307c48c6ac560603995e
+source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 14%
+source-wordcount: '407'
+ht-degree: 15%
 
 ---
 
@@ -49,8 +49,9 @@ Nei tag di Adobe Experience Platform, passa alla proprietà per la quale stai im
 
 +++AppMeasurement
 
-Scarica la libreria JavaScript più recente a seconda che sia in uso AppMeasurement o Web SDK.
-Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** e [implementarlo](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=it).
+1. Scarica la libreria JavaScript più recente, ad AppMeasurement.
+Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**.
+1. Implementalo seguendo le istruzioni [queste istruzioni](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=it).
 
 +++
 
