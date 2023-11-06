@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ab1a7736d59d082c7fabc01ffed43215b0e11339
+source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
-source-wordcount: '5257'
+source-wordcount: '5258'
 ht-degree: 96%
 
 ---
@@ -26,7 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Novembre 2023** | |
-| Aggiornamenti all’argomento sull’abilitazione Activity Map | Aggiunto [SDK per web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) (sia manuale che tramite l’estensione tag Adobe Experience Platform). |
+| Aggiornamenti all’argomento Attivazione/abilitazione di Activity Map | Aggiunto [SDK per web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) (sia manuale che tramite l’estensione tag Adobe Experience Platform). |
 | **Ottobre 2023** | |
 | Sono state aggiunte informazioni di registro a Reporting Activity Manager | Sono state aggiunte informazioni che [annullamenti e conseguenti restrizioni dell’attività di reporting](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) nel Reporting Activity Manager vengono acquisiti nel [Registri](/help/admin/admin/logs.md). |
 | Aggiornamenti al supporto dei componenti Data Warehouse | È stata aggiunta la disponibilità per alcuni componenti e rimossa la disponibilità per altri per Data Warehouse. Queste modifiche si riflettono in [Supporto dei componenti in Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>È stato aggiunto il supporto per la dimensione Profondità visita (la profondità visita è stata rimossa dall’elenco delle dimensioni non supportate)</li><li>Rimozione del supporto per le metriche di partecipazione (le metriche di partecipazione aggiunte all&#39;elenco delle metriche non sono supportate).</li><li>È stato aggiunto il supporto per le seguenti dimensioni basate sul tempo: Anno, Trimestre, Mese, Settimana, Giorno, Ora e Minuto (queste dimensioni sono state rimosse dall’elenco delle dimensioni non supportate) <p>In precedenza, Data Warehouse supportava queste dimensioni solo nella prima colonna di una tabella a forma libera quando era selezionata l’opzione Granularità. Ora queste dimensioni sono sempre supportate.</p><p>Tuttavia, l’output delle date non è standard quando si utilizzano queste dimensioni. L&#39;anno viene compensato dal 1900 e i mesi sono a base zero.</li></ul> |
