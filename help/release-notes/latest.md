@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 84f6bf068f56b9502a53ab17e71dca00356804d9
 workflow-type: tm+mt
 source-wordcount: '1122'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 89%
 
 **Ultimo aggiornamento**: 25 ottobre 2023
 
-Queste note sulla versione coprono il periodo di rilascio dal 23 ottobre 2023 alla fine di novembre 2023. I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
+Queste note sulla versione coprono il periodo di rilascio compreso tra il 23 ottobre 2023 e la fine di novembre 2023. I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
 ## Nuove funzioni o miglioramenti {#features}
 
@@ -27,17 +27,17 @@ Queste note sulla versione coprono il periodo di rilascio dal 23 ottobre 2023 al
 
 ## Correzioni in Adobe Analytics
 
-* Le modifiche al motore di elaborazione e reporting di Analytics verranno distribuite nell’ultima settimana di ottobre: verrà corretto un problema a causa del quale le etichette per le dimensioni Pagina o Collegamento non venivano visualizzate correttamente come `Unknown`. Prima della correzione, il `Unknown` Le etichette potrebbero non essere visualizzate correttamente quando un Nome pagina o un Nome collegamento non è stato trasmesso in un hit, impostazione predefinita [!UICONTROL Page URL] e [!UICONTROL Link URL], rispettivamente. Queste dimensioni sono state configurate per non fare distinzione tra maiuscole e minuscole. Con questa correzione, i rapporti in futuro saranno corretti. Tuttavia, per le segnalazioni di dati storici, alcuni risultati potrebbero ancora essere erroneamente etichettati come `Unknown`. (AN-328030)
+* Le modifiche al motore di reporting ed elaborazione di Analytics verranno distribuite nell’ultima settimana di ottobre: verrà corretto un problema a causa del quale le etichette relative alle dimensioni Pagina o Collegamento venivano visualizzate erroneamente come `Unknown`. Prima della correzione, le etichette `Unknown` potevano non essere visualizzate correttamente quando un Nome pagina o un Nome collegamento non veniva trasmesso in un hit, impostazione predefinita [!UICONTROL Page URL] e [!UICONTROL Link URL], rispettivamente. Queste dimensioni sono state configurate per non fare distinzione tra maiuscole e minuscole. Con questa correzione, i rapporti in futuro saranno corretti. Tuttavia, per i rapporti su dati storici, alcuni risultati potrebbero ancora essere erroneamente etichettati come `Unknown`. (AN-328030)
 
 ### Altre correzioni
 
--315676; AN-; AN-323398; AN-326209; AN-328178; AN-328261; AN-328395; AN-328671; AN-329282; AN-329330; AN-329355; AN-329506; AN-329516; AN-329738; AN-329769; AN-329771; AN-329816; AN-329877; AN-329928; AN-329957; AN-329962; AN-329966; AN-330023; AN-330081; AN-330083; AN-330105; AN-330138; AN-330140; AN-330165; AN-330241; AN-330359; AN-330366; AN-330427; AN-330438; AN-330442; AN-330534; AN-330616; AN-330654; AN-330783; AN-330879; AN-330881; AN-330883; AN-330887; AN-330888; AN-330955; AN-330979; AN-331031; AN-331053; AN-331068; AN-331071; AN-331074; AN-331075; AN-331076; AN-331078; AN-331085; AN-331093; AN-331167; AN-331171; AN-331181; AN-331196; AN-331226; AN-331258; AN-331260; AN-331279; AN-331286; AN-331290; AN-331365; AN-331375; AN-331376; AN-331454; AN-331519; AN-331570; AN-331590; AN-331593; AN-331603; AN-331751; AN-331816; AN-331897; AN-331900; AN-331906; AN-331926; AN-331929; AN-332031; AN-332067; AN-332101; AN-332114; AN-332156; AN-332201; AN-332225; AN-332253; AN-332277; AN-332361; AN-332370; AN-332386
+AN-315676; AN-323398; AN-326209; AN-328178; AN-328261; AN-328395; AN-328671; AN-329282; AN-329330; AN-329355; AN-329506; AN-329516; AN-329738; AN-329769; AN-329771; AN-329816; AN-329877; AN-329928; AN-329957; AN-329962; AN-329966; AN-330023; AN-330081; AN-330083; AN-330105; AN-330138; AN-330140; AN-330165; AN-330241; AN-330359; AN-330366; AN-330427; AN-330438; AN-330442; AN-330534; AN-330616; AN-330654; AN-330783; AN-330879; AN-330881; AN-330883; AN-330887; AN-330888; AN-330955; AN-330979; AN-331031; AN-331053; AN-331068; AN-331071; AN-331074; AN-331075; AN-331076; AN-331078; AN-331085; AN-331093; AN-331167; AN-331171; AN-331181; AN-331196; AN-331226; AN-331258; AN-331260; AN-331279; AN-331286; AN-331290; AN-331365; AN-331375; AN-331376; AN-331454; AN-331519; AN-331570; AN-331590; AN-331593; AN-331603; AN-331751; AN-331816; AN-331897; AN-331900; AN-331906; AN-331926; AN-331929; AN-332031; AN-332067; AN-332101; AN-332114; AN-332156; AN-332201; AN-332225; AN-332253; AN-332277; AN-332361; AN-332370; AN-332386
 
 ## Avvisi importanti per gli amministratori di Adobe Analytics {#admin}
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
-| **Offuscamento IP completo per hit da Adobe Experience Edge** | 27 settembre 2023 | L’offuscamento dell’IP per gli hit provenienti da Experience Edge verrà aggiornato più tardi nel mese di ottobre 2023. Ad aprile 2023, in Experience Edge è stata aggiunta la possibilità di offuscare gli indirizzi IP. Inizialmente, Adobe Analytics supportava solo l’offuscamento parziale degli IP, a causa del modo in cui Analytics elabora gli hit da Experience Edge. Quando si sceglieva l’offuscamento completo per Experience Edge, Analytics riceveva solo IP parzialmente offuscati. Con l’implementazione di questa modifica, Analytics riceverà l’IP completamente offuscato. |
+| **Offuscamento IP completo per hit da Adobe Experience Edge** | 27 settembre 2023 | L’offuscamento dell’IP per gli hit provenienti da Experience Edge verrà aggiornato successivamente nel mese di ottobre 2023. Ad aprile 2023, in Experience Edge è stata aggiunta la possibilità di offuscare gli indirizzi IP. Inizialmente, Adobe Analytics supportava solo l’offuscamento parziale degli IP, a causa del modo in cui Analytics elabora gli hit da Experience Edge. Quando si sceglieva l’offuscamento completo per Experience Edge, Analytics riceveva solo IP parzialmente offuscati. Con l’implementazione di questa modifica, Analytics riceverà l’IP completamente offuscato. |
 | **Adobe Analytics Livestream - API 2.0 di Analytics** | 27 settembre 2023 | I clienti ora possono accedere alla [guida sugli endpoint per Adobe Analytics Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/) nelle API 2.0 di Adobe Analytics al posto della precedente posizione, per le API 1.4. Nota: chi utilizza le credenziali JWT di Adobe I/O, deve effettuare la migrazione alle credenziali OAuth da server a server di Adobe I/O entro il 1° gennaio 2025. (Consulta i dettagli nella sezione Avvisi sulla fine del ciclo di vita, di seguito.) |
 
 {style="table-layout:auto"}
