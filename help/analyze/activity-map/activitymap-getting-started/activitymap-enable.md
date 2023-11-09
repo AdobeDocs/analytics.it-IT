@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 4c6df8bc08f326bfb54b27eb61f97b4be2320805
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 15%
+source-wordcount: '590'
+ht-degree: 10%
 
 ---
 
@@ -23,19 +23,52 @@ Il modulo Activity Map fa parte di AppMeasurement.js, dei tag Adobe Experience P
 
 +++Web SDK (estensione tag Adobe Experience Platform)
 
-Nei tag di Adobe Experience Platform, passa alla proprietà per la quale stai implementando Analytics. Sotto [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], seleziona **[!UICONTROL Enable click data collection]** come evidenziato di seguito. Quindi crea la libreria con le modifiche e pubblicala in produzione.
+1. Nei tag di Adobe Experience Platform, passa alla proprietà per la quale stai implementando Analytics. Sotto [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], seleziona **[!UICONTROL Enable click data collection]** come evidenziato di seguito.
+1. Crea la libreria con le modifiche.
+1. Pubblica la libreria in produzione.
 
 ![](assets/web_sdk.png)
+
+**Convalida**
+
+Interagisci con le chiamate tramite la scheda Rete di Developer Console:
+
+1. Carica lo script Development Launch sul sito.
+1. Al clic degli elementi, cerca &#39;/ee&#39; nella scheda Rete
+
+   ![](assets/validation1.png)
+
+Adobe Experience Platform Debugger:
+
+1. Scarica e installa [Adobe Experience Platform Debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. Vai a [!UICONTROL Logs] > [!UICONTROL Edge] > [!UICONTROL Connect to Edge].
+
+   ![](assets/validation2.jpg)
+
+**Domande frequenti**
+
+* **La chiamata di interazione non viene attivata nella scheda Rete.**
+La raccolta dati di clic in una chiamata di raccolta, è necessario filtrare con &quot;/ee&quot; o &quot;collect?&quot;
+
+* **Non esiste alcuna visualizzazione del payload per la chiamata di raccolta.**
+La chiamata di raccolta è progettata in modo tale che il tracciamento non influisca sulla navigazione verso altri siti, pertanto la funzione di scaricamento del documento è applicabile alle chiamate di raccolta. Questo non influisce sulla raccolta di dati, ma se devi convalidare su pagina, aggiungi target = &quot;_blank&quot; al rispettivo elemento. Il collegamento viene quindi aperto in una nuova scheda.
+
+* **Come posso ignorare la raccolta di dati PII?**
+Aggiungi le rispettive condizioni in&lt;&lt; su prima del collegamento, fai clic su send callback>> e restituisce false per ignorare tali valori. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it)
+
+  Codice di esempio:
+
+  ![](assets/sample-code.png)
 
 +++
 
 +++Implementazione manuale di Web SDK
 
-Consulta [Tracciare i collegamenti](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=it) per informazioni su come implementare il tracciamento dei collegamenti e come abilitare la mappatura delle attività acquisendo `region` dell’elemento HTML selezionato.
+Consulta [Tracciare i collegamenti](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=it) per informazioni su come implementare il tracciamento dei collegamenti e come abilitare l’Activity Map acquisendo `region` dell’elemento HTML selezionato.
 
 >[!NOTE]
 >
->L’abilitazione del tracciamento dei collegamenti con Web SDK attualmente invia eventi di collegamento quando un cliente passa da una pagina all’altra. Questo è diverso dal funzionamento di AppMeasurement e può potenzialmente causare hit fatturabili aggiuntivi inviati ad Adobe.
+>L’abilitazione del tracciamento dei collegamenti con l’SDK per web attualmente invia eventi di collegamento quando un cliente passa da una pagina all’altra. Questo è diverso dal funzionamento di AppMeasurement e può potenzialmente causare hit fatturabili aggiuntivi inviati ad Adobe.
 
 +++
 
