@@ -3,9 +3,9 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 84f6bf068f56b9502a53ab17e71dca00356804d9
-workflow-type: tm+mt
-source-wordcount: '1122'
+source-git-commit: dfb3750edabed3fd9aef758d2ea1625fc3fb6a96
+workflow-type: ht
+source-wordcount: '1119'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Queste note sulla versione coprono il periodo di rilascio compreso tra il 23 ott
 | Funzionalità | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Miglioramenti nel Reporting Activity Manager** | Il Reporting Activity Manager ti consente di visualizzare la capacità di reporting per ogni suite di rapporti della tua organizzazione.  Offre agli amministratori una visibilità dettagliata sul consumo di reporting al fine di diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. Di seguito sono riportati alcuni miglioramenti disponibili nel Reporting Activity Manager: <ul><li>Limita richieste successive: oltre ad annullare le richieste correnti, gli amministratori possono ora limitare le richieste per un periodo di tempo definito. Gli amministratori possono limitare le richieste per Richiesta, Progetto e Utente.</li><li>Oltre alle metriche Utilizzo e Capacità, il Reporting Activity Manager ora include più dati sull’attività di reporting: colonna Complessità, colonna Utente e colonna Connessione.</li><li>Tutte le cancellazioni e le restrizioni effettuate nel Reporting Activity Manager sono ora visibili nel Registro di controllo. Gli amministratori possono utilizzare il registro di controllo per visualizzare ciò che è attualmente annullato. Nel Reporting Activity Manager o nel Registro di controllo non è possibile annullare le cancellazioni.</li></ul><p>Per ulteriori informazioni, consulta [Panoramica sul Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 17 ottobre 2023 | 24 ottobre 2023 |
-| **Miglioramenti a Data Warehouse** | Durante la creazione di una richiesta Data Warehouse, ora puoi configurare un account cloud da utilizzare come destinazione del rapporto. Per l’invio dei dati sono disponibili i seguenti tipi di account cloud:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-mail (opzione già disponibile in precedenza)</li></ul>FTP, SFTP, Azure Blob e S3 sono ancora disponibili come destinazioni di rapporti, ma non sono più consigliati.<p>È stata migliorata anche l’esperienza utente durante la creazione e la gestione delle richieste Data Warehouse. Per ulteriori informazioni, consulta [Creare una richiesta Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) e [Gestire le richieste Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=it). | 12 settembre 2023 | Entro l’8 novembre 2023 |
+| **Miglioramenti a Data Warehouse** | Durante la creazione di una richiesta Data Warehouse, ora puoi configurare un account cloud da utilizzare come destinazione del rapporto. Per l’invio dei dati sono disponibili i seguenti tipi di account cloud:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-mail (opzione già disponibile in precedenza)</li></ul>FTP, SFTP, Azure Blob e S3 sono ancora disponibili come destinazioni di rapporti, ma non sono più consigliati.<p>È stata migliorata anche l’esperienza utente durante la creazione e la gestione delle richieste Data Warehouse. Per ulteriori informazioni, consulta [Creare una richiesta Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) e [Gestire le richieste Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=it). | 12 settembre 2023 | Da definire |
 
 {style="table-layout:auto"}
 
