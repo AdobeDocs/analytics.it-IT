@@ -4,7 +4,7 @@ description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: dfb3750edabed3fd9aef758d2ea1625fc3fb6a96
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 100%
 
