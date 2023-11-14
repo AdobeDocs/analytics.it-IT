@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '961'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,6 @@ Inoltre, dopo aver creato una pianificazione della cartella di lavoro in Report 
 | Personalizza | Consente di personalizzare il formato della data. |
 | Su | Visualizza la Rubrica di Outlook, se applicabile. |
 | Invia a: e-mail | Destinatario e-mail della cartella di lavoro. |
-| Invia a: elenco di pubblicazione | Visualizza un elenco delle liste di distribuzione disponibili per la società. |
 | Power BI | Consulta [Pubblica cartella di lavoro in Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) per ulteriori informazioni. |
 | Oggetto | Descrizione definita dall&#39;utente. |
 | Pianificazione | Consente di specificare quando inviare la cartella di lavoro. (Immediatamente, ogni ora, ogni giorno, ogni settimana, ogni mese e ogni anno). |
