@@ -4,10 +4,10 @@ title: Filtrare e ordinare tabelle a forma libera
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 64%
+source-wordcount: '915'
+ht-degree: 63%
 
 ---
 
@@ -32,7 +32,7 @@ Puoi utilizzare diversi metodi per filtrare le righe da una tabella a forma libe
 - Filtri per tabella
 - Segmentazione
 
-Assicurati di leggere l’impatto di ogni metodo [Totali nelle tabelle a forma libera](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
+Assicurati di leggere l’impatto di ogni metodo [Totali nelle tabelle a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Escludere rapidamente righe specifiche da una tabella
 
@@ -89,7 +89,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
 ### Segmentazione
 
-Visualizza la [Documentazione sulla segmentazione](https://docs.adobe.com/help/it-IT/analytics/components/segmentation/seg-home.html) per ulteriori dettagli.
+Visualizza la [Documentazione sulla segmentazione](/help/components/segmentation/seg-home.md) per ulteriori dettagli.
 
 ## Ordinare le tabelle
 
