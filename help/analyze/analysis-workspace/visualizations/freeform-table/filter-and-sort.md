@@ -1,17 +1,17 @@
 ---
 description: Documentazione che descrive come filtrare e ordinare le tabelle in Analysis Workspace.
-title: Filtrare e ordinare tabelle
+title: Filtrare e ordinare tabelle a forma libera
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 68%
+source-wordcount: '933'
+ht-degree: 64%
 
 ---
 
-# Filtrare e ordinare tabelle
+# Filtrare e ordinare tabelle a forma libera
 
 Le tabelle a forma libera in Analysis Workspace sono la base dell’analisi interattiva dei dati. In quanto tali, possono contenere migliaia di righe di informazioni. Filtrare e ordinare i dati può essere fondamentale per far emergere in modo efficace le informazioni più importanti.
 
@@ -22,6 +22,17 @@ I filtri in Analysis Workspace ti aiutano a far emergere le informazioni più im
 >[!NOTE]
 >
 > Solo gli elementi dimensionali dinamici possono essere filtrati come descritto in questa sezione. Gli elementi dimensionali statici non possono essere filtrati. Per ulteriori informazioni, consulta [Elementi dimensionali dinamici e statici nelle tabelle a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+## Filtrare le righe di tabelle a forma libera
+
+Puoi utilizzare diversi metodi per filtrare le righe da una tabella a forma libera. 
+
+- Fai clic sulla X nella riga
+- Clic con il pulsante destro del mouse > Righe selezionate eliminate
+- Filtri per tabella
+- Segmentazione
+
+Assicurati di leggere l’impatto di ogni metodo [Totali nelle tabelle a forma libera](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
 
 ### Escludere rapidamente righe specifiche da una tabella
 
@@ -36,6 +47,13 @@ Per escludere rapidamente righe specifiche da una tabella a forma libera:
 1. Passa il puntatore del mouse sulla riga da escludere, quindi seleziona l’icona x.
 
    Tenere premuto il tasto Maiusc per selezionare un intervallo di righe, oppure tenere premuto il tasto Comando (su Mac) o il tasto Ctrl (su Windows) per selezionare più righe.
+
+### Clic con il pulsante destro del mouse > Elimina righe selezionate
+
+1. Seleziona una o più righe.
+1. Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **[!UICONTROL Delete Selected Rows]**.
+
+   Questa azione rimuoverà le righe dalla tabella e applicherà un filtro tabella.
 
 ### Applicare un filtro semplice o avanzato a una tabella
 
@@ -68,6 +86,10 @@ Per filtrare i dati nelle tabelle a forma libera:
 1. Seleziona [!UICONTROL **Applica**] per filtrare i dati.
 
    L’icona **Filtro** ![Tabella con icona del filtro blu](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) diventa blu quando un filtro viene applicato alla tabella.
+
+### Segmentazione
+
+Visualizza la [Documentazione sulla segmentazione](https://docs.adobe.com/help/it-IT/analytics/components/segmentation/seg-home.html) per ulteriori dettagli.
 
 ## Ordinare le tabelle
 
