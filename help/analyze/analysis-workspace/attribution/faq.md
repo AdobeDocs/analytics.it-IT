@@ -4,9 +4,9 @@ description: Risposte alle domande più frequenti sull’attribuzione.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1212'
 ht-degree: 72%
 
 ---
@@ -108,9 +108,9 @@ Sì, la maggior parte delle origini di dati sono supportate. L’attribuzione no
 
 Le origini dati ID transazione sono trattate come qualsiasi altro hit. Le origini dati ID transazione non utilizzano l’elaborazione speciale normalmente utilizzata nei rapporti tradizionali. In altre parole, quando si utilizza l’elaborazione al momento del rapporto, gli hit per l’ID transazione avranno valori eVar propagati dagli hit che si verificano vicino alla marca temporale dell’hit per l’ID transazione. I valori non verranno propagati dagli hit che si sono verificati in prossimità della transazione originale.
 
-Quando possibile, Attribution IQ si basa sul valore della colonna MID inviato all’interno di un evento nell’origine dati, anziché su un valore persistente. Il modello di attribuzione viene applicato istantaneamente ai valori della colonna MID nell’origine dati. Ad esempio, quando utilizzi l’attribuzione &quot;Last Touch&quot; (Ultimo contatto), il modello inizia da ogni istanza di una metrica e torna indietro sequenzialmente negli hit fino a quando il modello raggiunge l’ultimo valore osservato nella colonna MID.
+Quando possibile, l’attribuzione si basa sul valore della colonna MID inviato all’interno di un evento nell’origine dati, anziché su un valore persistente. Il modello di attribuzione viene applicato istantaneamente ai valori della colonna MID nell’origine dati. Ad esempio, quando utilizzi l’attribuzione &quot;Last Touch&quot; (Ultimo contatto), il modello inizia da ogni istanza di una metrica e torna indietro sequenzialmente negli hit fino a quando il modello raggiunge l’ultimo valore osservato nella colonna MID.
 
-Quando non è possibile, Attribution IQ utilizzerà il valore MID nel &quot;record precedente&quot; nell’origine dati per la valutazione. Questo record precedente potrebbe non essere ordinato in sequenza per marca temporale, dato che AA non supporta dati fuori ordine.
+Quando non è possibile, l’attribuzione utilizzerà il valore MID nel &quot;record precedente&quot; nell’origine dati per la valutazione. Questo record precedente potrebbe non essere ordinato in sequenza per marca temporale, dato che AA non supporta dati fuori ordine.
 
 Poiché i record non vengono ordinati in sequenza, i valori previsti dall’applicazione della persistenza possono influire sul periodo di tempo che intercorre tra l’ID transazione fornito e la transazione originale.
 

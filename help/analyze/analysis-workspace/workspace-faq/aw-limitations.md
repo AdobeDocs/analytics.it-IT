@@ -4,9 +4,9 @@ title: Limitazioni note in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '366'
 ht-degree: 89%
 
 ---
@@ -36,7 +36,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 ## Componenti > Segmenti
 
 * Alcune metriche e dimensioni non sono segmentabili, come [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], ecc.
-* Segmenti ad hoc creati nel [zona di rilascio del pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) sono un tipo di filtro rapido. Non vengono visualizzate nella barra a sinistra di Workspace o nel Gestore dei componenti del segmento a meno che non siano rese pubbliche. Per ulteriori informazioni, consulta [Segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* Segmenti ad hoc creati in [zona di rilascio del pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) sono un tipo di filtro rapido. Non vengono visualizzati nella barra a sinistra di Workspace o nel Gestore dei componenti del segmento, a meno che non vengano resi pubblici. Per ulteriori informazioni, consulta [Segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## Componenti > Metriche calcolate
 
@@ -56,6 +56,6 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 * Alcune delle impostazioni sulla pagina [!UICONTROL Report Settings] non sono applicabili. Analysis Workspace utilizza solo le impostazioni [!UICONTROL Language/Currency/Encoding] in basso: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding] e [!UICONTROL CSV Separator Character].
 
-## Attribution IQ
+## Attribuzione
 
-* Un sottoinsieme di metriche non è supportato in [!UICONTROL Attribution IQ]. Per un elenco completo, vedi le [domande frequenti relative ad Attribution IQ](../attribution/faq.md).
+* Un sottoinsieme di metriche non è supportato in [!UICONTROL Attribution]. Per un elenco completo, vedi le [domande frequenti relative ad Attribution ](/help/analyze/analysis-workspace/attribution/faq.md).

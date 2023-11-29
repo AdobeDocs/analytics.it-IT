@@ -3,10 +3,10 @@ description: Scopri
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 4%
+source-wordcount: '464'
+ht-degree: 6%
 
 ---
 
@@ -31,13 +31,13 @@ Per specificare il tipo di metrica durante la creazione di una metrica calcolata
 
 ## Come funziona l’allocazione lineare
 
-[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) è la modalità di valutazione dei modelli di allocazione nelle metriche calcolate.
+[Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md) è la modalità di valutazione dei modelli di allocazione nelle metriche calcolate.
 
 Per un elenco completo dei modelli di attribuzione e degli intervalli di lookback non predefiniti supportati, consulta [Modelli di attribuzione e intervalli di lookback](/help/analyze/analysis-workspace/attribution/models.md).
 
 L’esempio seguente illustra il funzionamento delle metriche calcolate con allocazioni lineari nel reporting:
 
-|  | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 | Hit 6 | Hit 7 |
+| | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 | Hit 6 | Hit 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Dati inviati in | PROMOZIONE A | - | PROMOZIONE A | PROMOZIONE B | - | PROMOZIONE C | $10 |
 | EVar ultimo contatto | PROMOZIONE A | PROMOZIONE A | PROMOZIONE A | PROMOZIONE B | PROMOZIONE B | PROMOZIONE C | $10 |
@@ -51,4 +51,4 @@ In questo esempio, i valori A, B e C sono stati inviati in una variabile negli h
 Esistono alcune differenze nel funzionamento dell’attribuzione lineare tra questi due strumenti:
 
 * In Reports &amp; Analytics, l’attribuzione lineare (elaborata) è sempre basata sulle visite, mentre in Workspace può essere basata sulle visite o sui visitatori.
-* In Reports &amp; Analytics, se non veniva passato alcun valore al primo hit di una visita, il valore (iniziale) persisteva dalla visita precedente. Questo NON avviene in Workspace (Attribution IQ). Se non viene passato alcun valore al primo hit di una visita, allora &quot;Nessuno&quot; è il valore iniziale.
+* In Reports &amp; Analytics, se non veniva passato alcun valore al primo hit di una visita, il valore (iniziale) persisteva dalla visita precedente. Questo NON avviene in Workspace (attribuzione). Se non viene passato alcun valore al primo hit di una visita, allora &quot;Nessuno&quot; è il valore iniziale.

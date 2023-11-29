@@ -3,7 +3,7 @@ title: Regole di elaborazione per i canali di marketing
 description: Le regole di elaborazione per il canale di marketing determinano se un hit del visitatore soddisfa i criteri assegnati a un canale. Le regole elaborano ogni hit effettuato da un visitatore sul sito. Se una regola non soddisfa i criteri di un canale o se le regole non sono configurate correttamente, il sistema assegna l’hit a Nessun canale identificato.
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 3%
@@ -30,7 +30,7 @@ Note aggiuntive sull&#39;elaborazione:
 
 * Rivedi le informazioni concettuali in [Introduzione ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Crea uno o più canali in modo da poter assegnare loro regole. Consulta [Aggiungere canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* Rivedi le best practice per l’utilizzo di [!UICONTROL Marketing Channels] con [!UICONTROL Attribution IQ].
+* Rivedi le best practice per l’utilizzo di [!UICONTROL Marketing Channels] con [!UICONTROL Attribution].
 
 ## Creare regole di elaborazione per il canale di marketing
 

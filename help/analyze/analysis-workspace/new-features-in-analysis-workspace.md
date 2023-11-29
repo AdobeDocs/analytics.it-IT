@@ -5,10 +5,10 @@ title: Scopri le novità di Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '8156'
-ht-degree: 100%
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+workflow-type: tm+mt
+source-wordcount: '8149'
+ht-degree: 99%
 
 ---
 
@@ -72,8 +72,8 @@ Nuove funzioni rilasciate il 18 giugno 2020.
 
 | Funzionalità | Descrizione |
 |--- |--- |
-| Attribution IQ: attribuzione algoritmica | Il modello di attribuzione algoritmica di Analysis Workspace utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. Disponibile per i clienti Adobe Analytics Ultimate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=it) |
-| Attribution IQ: finestre di lookback personalizzate | Ora puoi configurare qualsiasi modello di attribuzione in Attribution IQ in modo da includere punti di contatto risalenti a un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione dell’attribuzione per gli eventi che si verificano all’inizio del periodo di reporting tenendo conto delle interazioni avvenute nei mesi precedenti. Disponibile per i clienti Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=it#lookback-windows) |
+| Attribuzione: attribuzione algoritmica | Il modello di attribuzione algoritmica di Analysis Workspace utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. Disponibile per i clienti Adobe Analytics Ultimate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=it) |
+| Attribuzione: intervalli di lookback personalizzati | Ora puoi configurare qualsiasi modello di attribuzione in Attribution in modo da includere punti di contatto risalenti a un massimo di 90 giorni prima del periodo di tempo di reporting. In genere, ciò aumenta la precisione dell’attribuzione per gli eventi che si verificano all’inizio del periodo di reporting tenendo conto delle interazioni avvenute nei mesi precedenti. Disponibile per i clienti Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=it#lookback-windows) |
 | Ruoli di progetto per progetti Workspace condivisi | Ora quando condividi un progetto Workspace puoi assegnare ai destinatari uno dei tre ruoli di progetto, a seconda di come desideri che interagiscano con il progetto: Modifica, Duplica e Visualizza. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) |
 | Progetti Workspace solo visualizzazione | I progetti Workspace possono essere condivisi con gli utenti solo con la modalità di accesso “Può visualizzare”. Quando un destinatario con ruolo Visualizza apre il progetto condiviso, lo vedrà con alcune restrizioni, senza barra a sinistra e con interazioni limitate. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=it) |
 | Possibilità di collaborare alla modifica dei progetti Workspace | I destinatari aggiunti al ruolo “Può modificare” possono salvare in sovrascrittura un progetto condiviso con loro. Questo vale sia per gli amministratori che per i non amministratori. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) |
@@ -187,7 +187,7 @@ Nuove funzionalità e miglioramenti rilasciati il 17 gennaio 2019.
 |--- |--- |
 | [Analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | I miglioramenti principali dell’Analisi per coorte consentono di:<ul><li>Applicare separatamente le metriche di inclusione e di restituzione di un segmento. </li><li>Visualizzare l’abbandono invece della fidelizzazione.</li><li>Visualizzare tabelle di latenza (tempo trascorso prima e dopo un evento di inclusione).</li><li>Personalizzare la dimensione delle coorti (per raggruppare i visitatori in base a una eVar, non solo al tempo).</li><li>Eseguire un calcolo continuo per coorti: calcolare fidelizzazione e abbandono in base al periodo di tempo precedente, non alla coorte originale. </li><li>Aggiungere più metriche nei campi di inclusione e di ritorno, oltre che applicare i segmenti. (Le metriche calcolate non sono supportate)</li></ul> |
 | [Densità di visualizzazione](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Questa nuova impostazione consente di visualizzare più dati in una singola schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. Accessibile da Progetto > Informazioni e impostazioni progetto. |
-| [Supporto per variabili con più valori in Attribution IQ](attribution/overview.md) | Alcune dimensioni in Analytics possono contenere più valori in un singolo hit, come ad esempio listVars, la variabile di prodotto, proprietà di elenco o eVars per merchandising. Analysis Workspace consente di applicare Attribution IQ a uno qualsiasi di questi tipi di variabili a livello di hit. |
+| [Supporto per variabili con più valori in Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Alcune dimensioni in Analytics possono contenere più valori in un singolo hit, come ad esempio listVars, la variabile di prodotto, proprietà di elenco o eVars per merchandising. Analysis Workspace consente di applicare Attribution a uno qualsiasi di questi tipi di variabili a livello di hit. |
 | Miglioramenti delle prestazioni | È stata migliorata la velocità delle visualizzazioni con suddivisioni: i progetti con molte suddivisioni vengono caricati più rapidamente. |
 
 ## Novembre 2018
@@ -270,8 +270,8 @@ Nuove funzionalità e ottimizzazioni rilasciate il 19 luglio 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > Attribution IQ </a> </b> </p> </td>
-   <td colname="col2"> <p>Attribution IQ consente di eseguire analisi più sofisticate e intelligenti sulle prestazioni di marketing. È possibile utilizzare nuovi modelli di attribuzione per le metriche in Analysis Workspace (su qualsiasi tabella o suddivisione) e le metriche calcolate. Il nuovo pannello Attribuzione facilita la visualizzazione e il raffronto. </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribuzione </a> </b> </p> </td>
+   <td colname="col2"> <p>Attribution consente di eseguire analisi più sofisticate e intelligenti sulle prestazioni di marketing. È possibile utilizzare nuovi modelli di attribuzione per le metriche in Analysis Workspace (su qualsiasi tabella o suddivisione) e le metriche calcolate. Il nuovo pannello Attribuzione facilita la visualizzazione e il raffronto. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> Miglioramenti apportati alla barra a sinistra </b> </p> </td>
@@ -348,7 +348,7 @@ Nuove funzionalità e miglioramenti rilasciati il 10 maggio 2018.
    <td colname="col2"> <p>È ora possibile scorrere verso l’alto e verso il basso mentre si trascinano i componenti per spostarli in una nuova posizione. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b>Informazioni aggiuntive sulle <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > anomalie </a></b> </p> </td>
+   <td colname="col1"> <p><b>Informazioni aggiuntive sulle <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > anomalie </a></b> </p> </td>
    <td colname="col2"> <p>Quando si passa il mouse su un’anomalia in un grafico a linee, l’informazione mostra la data e il valore non elaborato dell’anomalia. </p> </td>
   </tr>
  </tbody>
@@ -379,7 +379,7 @@ Nuove funzionalità e miglioramenti rilasciati il 12 aprile 2018.
    <td colname="col2"> <p>Una nuova impostazione per la visualizzazione dei grafici Superfici sovrapposte, Barre sovrapposte e Barre orizzontali sovrapposte converte il grafico in una visualizzazione con sovrapposizione 100%, permettendo di misurare le proporzioni relative. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> Le funzioni <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > Rilevamento anomalie e Analisi contributi </a> sono ora disponibili solo in Analysis Workspace </p> </td>
+   <td colname="col1"> <p> Le funzioni <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > Rilevamento anomalie e Analisi contributi </a> sono ora disponibili solo in Analysis Workspace </p> </td>
    <td colname="col2"> <p>Le funzioni Rilevamento delle anomalie e Analisi contributi sono state rimosse da Reports &amp; Analytics e sono ora disponibili solo in Analysis Workspace. </p> <p>I clienti Select e Foundation di Adobe Analytics possono accedere solo alla funzione Rilevamento anomalie con granularità giornaliera in Workspace. </p> </td>
   </tr>
  </tbody>
@@ -610,7 +610,7 @@ Nuove funzionalità rilasciate il 26 ottobre 2017.
     </ul> <p>Ad esempio, se la dimensione “Ora del giorno” viene rilasciata in una tabella, verrà ordinata secondo il criterio 00:00 alle 23:00. L’opzione di ordinamento per qualsiasi colonna di metrica rimane valida. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Opzione che consente all’intervallo di attendibilità di ridimensionare un grafico </a> </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > Opzione che consente all’intervallo di attendibilità di ridimensionare un grafico </a> </p> </td>
    <td colname="col2"> <p>L’intervallo di attendibilità per il rilevamento delle anomalie non ridimensiona automaticamente l’asse Y di una visualizzazione per rendere potenzialmente più leggibile il grafico. </p> <p>Ora è disponibile un’opzione che consente all’intervallo di attendibilità di ridimensionare il grafico. </p> </td>
   </tr>
   <tr>
@@ -671,7 +671,7 @@ Nuove funzionalità rilasciate il 21 settembre 2017.
    <td colname="col1"> <p> Pulsante <span class="uicontrol">Cancella tutto</span> per la configurazione di Segment Comparison (Confronto fra segmenti) e Contribution Analysis (Analisi di contributo). </p> </td>
    <td colname="col2"> <p>Invece di eliminare singolarmente ogni elemento, ora puoi usare il pulsante Clear All (Cancella tutto) per eliminare tutti gli elementi nelle seguenti aree di Workspace: </p>
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3">
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > Componenti esclusi da Contribution Analysis (Analisi contributi) </a> </li>
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > Componenti esclusi da Contribution Analysis (Analisi contributi) </a> </li>
      <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> Componenti esclusi da Segment Comparison (Confronto fra segmenti) </a> </li>
     </ul> </td>
   </tr>
@@ -754,7 +754,7 @@ Nuove funzionalità rilasciate il 20 luglio 2017.
    <td colname="col2"> <p>Abbiamo modificato il modo in cui vengono gestite le origini di dati (che stanno alla base delle visualizzazioni). Quando blocchi l’origine di dati a una tabella, non vengono più generate tabelle distinte e nascoste. </p> <p>Gli elementi visivi ora restano associati alla tabella da cui sono stati creati. Questo consente anche di risolvere un bug associato a tabelle con collegamenti dinamici, a causa del quale quando si modificava la granularità, al successivo caricamento del progetto veniva ripristinata la granularità precedente. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > Possibilità di evidenziare una specifica anomalia </a></b> </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > Possibilità di evidenziare una specifica anomalia </a></b> </p> </td>
    <td colname="col2"> <p>Un punto blu evidenzia l’anomalia nell’analisi dei contributi e nei relativi progetti di avvisi intelligenti. Questo offre un’indicazione più chiara dell’anomalia analizzata. </p> </td>
   </tr>
   <tr>
@@ -986,7 +986,7 @@ Nuove funzionalità rilasciate il 20 ottobre 2016:
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > Rilevamento delle anomalie e Analisi contributi </a></b> </td>
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > Rilevamento delle anomalie e Analisi contributi </a></b> </td>
    <td colname="col2"> <p>Consentono di verificare se le modifiche dei dati con tendenze sono significative e di conoscerne le cause. </p> <p>Rilevamento delle anomalie e Analisi del contributo sono adesso flussi di lavoro principali in Analysis Workspace. </p> <p>Importante: Analisi contributi è disponibile soltanto per i clienti Adobe Analytics Premium. </p> <p>È possibile: </p> <p> </p>
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6">
      <li id="li_787236BB5EA545B8833B311C06C24337">Rilevare automaticamente anomalie di dati statisticamente rilevanti. </li>

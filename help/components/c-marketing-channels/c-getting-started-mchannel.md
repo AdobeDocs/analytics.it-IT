@@ -3,10 +3,10 @@ title: Introduzione ai canali di marketing
 description: Scopri il flusso di lavoro Canali di marketing, la configurazione automatica e come applicare le impostazioni della suite di rapporti di modelli a più suite di rapporti.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 7%
+source-wordcount: '743'
+ht-degree: 8%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Per massimizzare l’efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Per massimizzare l’efficacia dei canali di marketing per Attribution e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Gli amministratori di Analytics possono gestire i canali di marketing per le loro organizzazioni come descritto in [Gestire i canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 

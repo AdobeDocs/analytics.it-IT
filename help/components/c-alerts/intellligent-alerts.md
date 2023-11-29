@@ -3,7 +3,7 @@ description: Il sistema intelligente di avvisi offre un controllo più granulare
 title: Avvisi intelligenti
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 67%
@@ -37,19 +37,19 @@ I componenti del sistema di avvisi includono: Generatore di avvisi, Gestione avv
 
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * Andando direttamente al Generatore di avvisi:  **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** .
 * Selezionando una o più voci di tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]**. Viene aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dalla tabella. Se necessario, puoi quindi modificare l’avviso.
 
-   ![](assets/create-alert-from-selection.png)
+  ![](assets/create-alert-from-selection.png)
 
 * Da un [!UICONTROL Reports & Analytics] rapporto, da  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Viene aperto il nuovo Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal rapporto. Se necessario, puoi quindi modificare l’avviso.
 
-   ![](assets/add-alert.png)
+  ![](assets/add-alert.png)
 
 ## Domande frequenti: Modalità di calcolo e attivazione degli avvisi {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati [modelli differenti](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99%). Sono state introdotte soglie del 99,75% e del 99,99% specificamente per la granularità oraria in modo da non attivare tutte le anomalie.
+Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati [modelli differenti](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99%). Sono state introdotte soglie del 99,75% e del 99,99% specificamente per la granularità oraria in modo da non attivare tutte le anomalie.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -61,7 +61,7 @@ Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>D: Quale intervallo di tempo passato può prendere in considerazione il processo di rilevamento delle anomalie per stabilire eventuali anomalie nei dati?</b> </p> </td> 
-   <td colname="col2"> <p>Il periodo di rilevamento varia in base al tipo di granularità selezionato. Consulta Tecniche di statistica utilizzate in <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Rilevamento delle anomalie</a> per maggiori dettagli. Segue un breve riepilogo: </p> 
+   <td colname="col2"> <p>Il periodo di rilevamento varia in base al tipo di granularità selezionato. Consulta Tecniche di statistica utilizzate in <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Rilevamento delle anomalie</a> per maggiori dettagli. Segue un breve riepilogo: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Mensile = 15 mesi + lo stesso intervallo relativo allo scorso anno </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Settimanale = 15 settimane + lo stesso intervallo relativo allo scorso anno </li> 

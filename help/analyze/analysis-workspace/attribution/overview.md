@@ -4,10 +4,10 @@ description: Il concetto di attribuire il credito di un evento di successo a pi�
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 78%
+source-wordcount: '461'
+ht-degree: 79%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 78%
 Attribution consente agli analisti di personalizzare il modo in cui i valori delle dimensioni ottengono credito per gli eventi di successo. Ad esempio:
 
 1. Un visitatore del sito fa clic su un collegamento di ricerca a pagamento a una delle pagine dei tuoi prodotti. Aggiunge il prodotto al carrello, ma non lo acquista.
-2. Il giorno successivo visualizzano un post sui social media di uno dei loro amici, cliccano sul link e completano l&#39;acquisto.
+2. Il giorno successivo, viene visualizzato un post di social media di uno dei loro amici, fai clic sul collegamento e completa l’acquisto.
 
-In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta il team dell&#39;account Adobe della tua organizzazione.
+In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta il team dell’account Adobe della tua organizzazione.
 
-## Valore di Attribution IQ
+## Valore di attribuzione
 
 Un determinato percorso del cliente non è lineare e spesso imprevedibile. Ogni cliente procede secondo il proprio ritmo: spesso si torna indietro, si ferma, inizia di nuovo o si impegna in altri comportamenti non lineari. Queste azioni organiche rendono difficile conoscere l’impatto effettivo delle attività di marketing lungo il percorso del cliente. Inoltre, ostacola gli sforzi volti a collegare più canali di dati tra loro.
 
-![Problema di Attribution IQ](assets/attribution_iq_problem.png)
+![Problema di attribuzione](assets/attribution_iq_problem.png)
 
 Adobe Analytics migliora l’attribuzione consentendo di:
 
@@ -39,7 +39,7 @@ Adobe Analytics migliora l’attribuzione consentendo di:
 
 ## Funzioni
 
-Attribution IQ include le seguenti funzionalità:
+Attribution include le seguenti funzionalità:
 
 * [Pannello Attribution](../c-panels/attribution.md): prendi qualsiasi dimensione e metrica e confrontala rapidamente con diversi modelli di attribuzione.
 * [Applica attribuzione a una metrica](../visualizations/freeform-table/column-row-settings/column-settings.md): utilizza un’attribuzione non predefinita su qualsiasi metrica in un progetto.
@@ -48,22 +48,22 @@ Attribution IQ include le seguenti funzionalità:
 
 ## Video
 
-Attribution IQ nelle tabelle a forma libera:
+Attribuzione nelle tabelle a forma libera:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-Attribution IQ nelle metriche calcolate
+Attribuzione nelle metriche calcolate
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Utilizzando il pannello Attribution IQ:
+Utilizzo del pannello Attribuzione:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Aggiunta di confronti affiancati dei modelli di Attribution IQ:
+Aggiunta di confronti affiancati di modelli di attribuzione:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Strumenti Adobe Analytics che non supportano Attribution IQ
+## Strumenti di Adobe Analytics che non supportano l’attribuzione
 
-Gli strumenti che non supportano l’API di Analytics 2.0, ad esempio Report Builder, non supportano Attribution IQ.
+Gli strumenti che non supportano l’API di Analytics 2.0, come Report Builder, non supportano l’attribuzione.

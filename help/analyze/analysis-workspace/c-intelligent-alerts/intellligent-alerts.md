@@ -4,7 +4,7 @@ title: Panoramica degli avvisi intelligenti
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 86%
@@ -35,7 +35,7 @@ Le nuove funzioni Generatore di avvisi e Gestione avvisi di Analysis Workspace s
 | Seleziona una o più voci di tabella a forma libera | Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **[!UICONTROL Create Alert from Selection]**. Verrà aperto il [!UICONTROL Alert Builder] e precompila le metriche e i filtri appropriati applicati dalla tabella. Se necessario, puoi quindi modificare l’avviso. ![Crea avviso da selezione](assets/create-alert-from-selection.png) |
 | Da un rapporto Reports &amp; Analytics | Vai a  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Verrà aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal report. Se necessario, puoi quindi modificare l’avviso. ![Aggiungi avviso](assets/add-alert.png) |
 
-Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati [modelli differenti](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99,75%).
+Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati [modelli differenti](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99,75%).
 
 >[!IMPORTANT]
 >
@@ -50,4 +50,4 @@ Se un avviso utilizza il rilevamento delle anomalie, il periodo di formazione va
 * Granularità giornaliera: 35 giorni + lo stesso intervallo relativo allo scorso anno
 * Granularità oraria: 336 ore
 
-Per ulteriori informazioni, vedi [Tecniche di statistica utilizzate nel rilevamento delle anomalie](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md).
+Per ulteriori informazioni, vedi [Tecniche di statistica utilizzate nel rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).

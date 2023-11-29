@@ -3,9 +3,9 @@ title: Domande frequenti sui canali di marketing
 description: Domande frequenti per i canali di marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Per massimizzare l’efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Per massimizzare l’efficacia dei canali di marketing per Attribution e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Gli amministratori di Analytics possono gestire i canali di marketing per le loro organizzazioni come descritto in [Gestire i canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
@@ -112,7 +112,7 @@ A volte le regole di elaborazione del canale di marketing non vengono impostate 
    3. L’utente torna dopo diversi giorni attraverso la ricerca naturale e fa un acquisto.
    4. Il canale e-mail riceve il credito di Primo contatto e la ricerca naturale riceve il credito di Ultimo contatto.
 
-   Anche diversi giorni dopo aver modificato le regole di elaborazione, i dati possono ancora essere raccolti nel canale di primo contatto errato. I dati di primo contatto vengono raccolti continuamente nel canale errato fino alla scadenza del coinvolgimento di tutti gli utenti.
+  Anche diversi giorni dopo aver modificato le regole di elaborazione, i dati possono ancora essere raccolti nel canale di primo contatto errato. I dati di primo contatto vengono raccolti continuamente nel canale errato fino alla scadenza del coinvolgimento di tutti gli utenti.
 
 Il modo migliore per ovviare a tali discrepanze consiste nell’effettuare una o entrambe le seguenti operazioni:
 

@@ -3,9 +3,9 @@ title: Modello di CDA Workspace
 description: Descrive ogni campo nel modello CDA in Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 60%
 
 ---
@@ -32,5 +32,5 @@ Viene creato un progetto Analysis Workspace che contiene diversi pannelli. Nella
    * Granularità del reporting: la compressione per giorno è generalmente inferiore della compressione per mese o per anno. Le possibilità che una sola persona utilizzi più dispositivi si riducono maggiormente in un singolo giorno che nell’arco di un mese intero. Segmentazione, filtraggio o utilizzo di dimensioni di suddivisione possono mostrare inoltre un tasso di compressione più basso.
 * **Segmenti basati sulle persone**: contiene un elenco a discesa dei segmenti che consente di visualizzare dati specifici per il dispositivo. Questo pannello incoraggia la sperimentazione con i segmenti per vedere in che modo i rapporti possono essere influenzati dall’inclusione o esclusione di tipi di dispositivi.
 * **Analisi del percorso tra dispositivi**: fornisce rapporti di flusso e di fallout in base al tipo di dispositivo.
-* **Attribuzione tra dispositivi**: combina le funzioni di Journey IQ e Attribution IQ.
+* **Attribuzione tra dispositivi**: combina le funzioni di Journey e Attribution IQ.
 * **Altri suggerimenti e trucchi**: argomenti utili che riguardano CDA e permettono di ottenere il massimo dal suo utilizzo.

@@ -3,7 +3,7 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
    * L’Admin Console di Adobe, in cui viene eseguito il provisioning dell’accesso ai prodotti e vengono gestite le autorizzazioni degli utenti. Consulta [Admin Console](/help/admin/admin-console/home.md) nella guida utente Admin.
 * **Allocazione:** Se una variabile di conversione rileva più di un valore durante una visita, l’impostazione di allocazione della variabile determina quale valore viene mantenuto. Consulta [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nella guida utente Admin.
 * **Analysis Workspace:** Soluzione browser per la creazione di solidi progetti di analisi personalizzati e la democratizzazione delle informazioni. Offre maggiore flessibilità rispetto a Reports and Analytics.
-* **Anomalia:** Rilevato utilizzando la modellazione statistica per trovare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un limite inferiore, un limite superiore e un intervallo di valori previsto. Consulta [Rilevamento delle anomalie](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) nella guida utente Analizza.
+* **Anomalia:** Rilevato utilizzando la modellazione statistica per trovare automaticamente tendenze impreviste nei dati. Il modello analizza le metriche e determina un limite inferiore, un limite superiore e un intervallo di valori previsto. Consulta [Rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) nella guida utente Analizza.
 * **AppMeasurement:** Libreria dei codici utilizzata per raccogliere i dati e inviarli a Adobe. Consulta la [Homepage](/help/implement/home.md) della guida utente Implementa.
 * **Slot ASI:** Non esiste più. Nelle versioni precedenti di Adobe Analytics, gli slot ASI fornivano un contenitore temporaneo per suite di rapporti per visualizzare i dati segmentati. Nella versione corrente di Adobe Analytics, i segmenti possono essere applicati istantaneamente a qualsiasi rapporto.
 * **Raggruppamento:** Consente di visualizzare una dimensione all&#39;interno del contesto di un&#39;altra dimensione. Consulta [Suddividere dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) nella guida utente Analizza.

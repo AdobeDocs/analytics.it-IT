@@ -4,9 +4,9 @@ subtopic: Marketing channels
 title: Scadenza canale di marketing
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
-source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '354'
 ht-degree: 10%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 10%
 >
 > Per informazioni generali sui canali di marketing, consulta [Introduzione ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Per massimizzare l’efficacia dei canali di marketing per Attribution IQ e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Per massimizzare l’efficacia dei canali di marketing per Attribution e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Expiration]**.
 
@@ -41,7 +41,7 @@ Le impostazioni di scadenza sono le seguenti:
 |--- |--- |
 | Giorni di inattività | Il numero di giorni che devono trascorrere prima della scadenza del coinvolgimento di primo contatto di un visitatore. Il valore predefinito è 30. |
 | Mai | Il periodo di coinvolgimento del visitatore non scade. |
-| Ripristino canale | Scade tutti i periodi di coinvolgimento dei visitatori.  Se devi reimpostare tutti i dati del canale di marketing puoi far scadere tutti i periodi di coinvolgimento dei visitatori. Potrebbe essere necessario reimpostare i dati se le regole di elaborazione non erano configurate in precedenza correttamente. Tutti i valori del canale di primo e ultimo contatto scadranno immediatamente e verranno reimpostati al ritorno dei visitatori. |
+| Ripristino canale | Scade tutti i periodi di coinvolgimento dei visitatori.  Se devi reimpostare tutti i dati del canale di marketing puoi far scadere tutti i periodi di coinvolgimento dei visitatori. Potrebbe essere necessario reimpostare i dati se le regole di elaborazione non erano configurate in precedenza correttamente. Tutti i valori del primo e dell’ultimo canale di contatto scadranno immediatamente e verranno reimpostati al ritorno dei visitatori. |
 
 ## Definire la scadenza del canale di marketing {#define-expiration}
 
