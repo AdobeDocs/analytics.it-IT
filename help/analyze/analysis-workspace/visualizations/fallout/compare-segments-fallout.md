@@ -5,10 +5,10 @@ title: Applicare i segmenti nell’analisi dell’abbandono
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '425'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Oppure puoi creare un punto di contatto AND trascinando il segmento degli utenti
 
 ## Confrontare i segmenti in Abbandono {#section_E0B761A69B1545908B52E05379277B56}
 
-Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandono.
+Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandono. (Il video seguente afferma che è possibile confrontare fino a 3 segmenti, il che è errato.)
 
 Video sul confronto di segmenti nella sezione Abbandono:
 
