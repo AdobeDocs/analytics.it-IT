@@ -3,32 +3,32 @@ description: Passaggi amministrativi per la configurazione di rapporti in tempo 
 title: Configurare rapporti in tempo reale
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '276'
 ht-degree: 2%
 
 ---
 
 # Configurare rapporti in tempo reale
 
-{{ra-eol}}
+Le informazioni seguenti contengono passaggi amministrativi per la configurazione di rapporti in tempo reale.
 
-Passaggi amministrativi per la configurazione di rapporti in tempo reale.
-
-Impostazione di rapporti in tempo reale in [!UICONTROL Reports & Analytics] consiste nel selezionare la suite di rapporti e configurarne fino a 3.
+Questa consiste nel selezionare la suite di rapporti e configurarne fino a 3 per essa.
 
 1. Seleziona la suite di rapporti per la quale desideri abilitare i rapporti in tempo reale.
 
-   Accedi a **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** e seleziona la suite di rapporti dal menu a discesa in alto:
+   1. In Analysis Workspace, seleziona la [!UICONTROL **Workspace**] , quindi seleziona [!UICONTROL **Rapporti**] > [!UICONTROL **Coinvolgimento**] > **[!UICONTROL Real-Time]**.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+   1. Seleziona la suite di rapporti dal menu a discesa in alto:
 
-   Se tenti di visualizzare rapporti in tempo reale per una suite di rapporti che non è stata impostata per il reporting in tempo reale, viene visualizzato un messaggio che ti consente di impostare la suite di rapporti.
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+      Se tenti di visualizzare rapporti in tempo reale per una suite di rapporti che non è stata impostata per il reporting in tempo reale, viene visualizzato un messaggio che ti consente di impostare la suite di rapporti.
 
-1. Clic **[!UICONTROL Configure]** (icona ingranaggio) per eseguire [!UICONTROL Report Suite Manager].
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+
+1. Seleziona **[!UICONTROL Configure]** per eseguire [!UICONTROL Report Suite Manager].
 
    (disponibile anche in **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**.)
 
@@ -55,7 +55,7 @@ Impostazione di rapporti in tempo reale in [!UICONTROL Reports & Analytics] cons
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Fai clic su **[!UICONTROL Save]** o **[!UICONTROL Save and View Report]**.
+1. Seleziona **[!UICONTROL Save]** (Mostra origine dati) o **[!UICONTROL Save and View Report]** (Blocca selezione).
 
    Dopo questa configurazione iniziale del rapporto, l’inizio dello streaming dei dati può richiedere fino a 20 minuti. Da quel momento in poi, i dati sono immediatamente disponibili. Per informazioni sulla visualizzazione dei rapporti in tempo reale, consulta [Eseguire un rapporto in tempo reale](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
 

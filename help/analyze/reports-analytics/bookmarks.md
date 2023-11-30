@@ -1,23 +1,21 @@
 ---
-description: I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti all’Experience Cloud e sono disponibili in funzionalità integrate come connettori dati.
+description: I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti a Experience Cloud e sono disponibili in funzionalità integrate come connettori dati.
 subtopic: Bookmarks
 title: Segnalibro Manager
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 4%
+ht-degree: 23%
 
 ---
 
 # Segnalibro Manager
 
-{{ra-eol}}
-
-I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti all’Experience Cloud e sono disponibili in funzionalità integrate come connettori dati.
+I segnalibri consentono di accedere ai rapporti più utilizzati. I segnalibri creati vengono aggiunti a Experience Cloud e sono disponibili in funzionalità integrate come connettori dati.
 
 ## Creare un segnalibro {#task_305BDB470E374026AD48F19D11A387A6}
 

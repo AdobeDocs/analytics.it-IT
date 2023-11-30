@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 2bb3cc1ce46fc8e5f7e15291401fce1c4d8cb839
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 6%
+source-wordcount: '1036'
+ht-degree: 3%
 
 ---
 
@@ -16,28 +16,38 @@ ht-degree: 6%
 
 {{ra-eol}}
 
-Passaggi per l’esecuzione dei diversi tipi di rapporto.
+In Analysis Workspace puoi eseguire molti tipi diversi di rapporti. Di seguito sono riportati alcuni esempi.
 
-## Eseguire un rapporto classificato {#task_C570BA4A213F4F2EB7B30E012934BE7D}
+Per un elenco completo dei tipi di rapporto predefiniti disponibili, consulta [Utilizzare rapporti predefiniti](/help/analyze/analysis-workspace/reports/use-reports.md)
 
-In un rapporto con classifica, la tabella mostra le classificazioni delle pagine del rapporto in relazione alla metrica, in base al numero o alla percentuale. I report Ranked possono mostrare più metriche in uno stesso report.
+<!-- How do you do a Ranked Report in Workspace?
 
-1. Genera un rapporto, ad esempio un [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**).
-1. Nell’intestazione del rapporto, fai clic su **[!UICONTROL Ranked.]**
-1. Per classificare il rapporto, fare clic su un&#39;intestazione di colonna nella tabella.
+## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-   I rapporti con classifica possono contenere fino a 200 elementi elencati nella tabella (ad esempio prodotti, categorie, pagine web e così via) e dieci metriche (ricavi, ordini, visualizzazioni e così via).
+In a ranked report, the table shows the rankings of the report pages in relation to the metric, according to number or percentage. Ranked reports can display multiple metrics in a report.
 
-## Eseguire un rapporto con tendenze {#task_F03B4E760B9E4EA29FC3F654E6316887}
+1. Generate a report, such as a [!UICONTROL Pages Report] ( [!UICONTROL **Workspace**] > **[!UICONTROL Engagement]** > **[!UICONTROL Pages]**).
+1. In the report header, click **[!UICONTROL Ranked.]**
+1. To rank the report, click a column heading in the table.
 
-I rapporti con tendenze visualizzano metriche nel tempo. Puoi utilizzare questo tipo di report quando desideri sapere quali sono le prestazioni di un segmento da un periodo di tempo al successivo.
+   Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on).
 
-La maggior parte dei rapporti Conversione e Traffico dispone di una vista con tendenze. Utilizzo di [!UICONTROL Calendar], puoi mostrare miglioramenti per qualsiasi raggruppamento per periodo di tempo, compresi giorni di un mese, settimane di un anno, settimane di un trimestre, mesi di un anno e così via. I rapporti con tendenze mostrano le tendenze per una singola metrica (ricavi, ordini, visualizzazioni e così via) per un massimo di cinque elementi (come prodotti, categorie, pagine web e così via).
+-->
 
-**Per eseguire un rapporto con tendenze**
+<!-- Can you do a Trended report? 
 
-1. Esegui una conversione o un rapporto sul traffico, ad esempio **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
-1. Alla voce **[!UICONTROL Report Type]**, fai clic su **[!UICONTROL Trended.]**
+## Run a trended report {#task_F03B4E760B9E4EA29FC3F654E6316887}
+
+Trended reports display metrics over time. You use this report type when you want to see how a segment performs from one time period to the next.
+
+Most Conversion and Traffic reports have a Trended view available. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. Trended reports show trends for a single metric (revenue, orders, views, and so on) for up to five items (such as products, categories, web pages, and so on).
+
+**To run a trended report** 
+
+1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
+1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+
+-->
 
 ## Eseguire un rapporto di fallout {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -48,20 +58,14 @@ Scopri la nuova [Analisi dell’abbandono](https://experienceleague.adobe.com/do
 1. In entrata [!UICONTROL Adobe Analytics], fai clic su **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**.
 1. Nella pagina [!UICONTROL Fallout Report] fai clic su **[!UICONTROL Launch the Fallout Report Builder]**.
 
-   ![Risultato del passaggio](assets/fallout_add_items.png)
-
 1. Il giorno [!UICONTROL Define Checkpoints] , specificare i punti di controllo che si desidera utilizzare per il report.
-1. Fai clic su **[!UICONTROL Run Report]**.
-
-   ![Risultato passaggio](assets/fallout_report.png)
+1. Fai clic su **[!UICONTROL Run Report]** (Usa modello di attribuzione non predefinito).
 
 ## Eseguire un rapporto Flusso di pagina {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 I rapporti Flusso di pagina mostrano l’ordine in cui i visitatori accedono alle pagine e navigano nel sito. Questo rapporto aiuta a rispondere
 
-Consulta la sezione [Visualizzazione del flusso](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=it) in Analysis Workspace.
-
-Ad esempio, fai clic su **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
+Ad esempio, fai clic su **[!UICONTROL Workspace]** > **[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Next and previous page flow]**.
 
 ## Eseguire un rapporto sul canale di marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -135,7 +139,7 @@ Consulta [Panoramica reportistica in tempo reale](/help/components/c-real-time-r
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Ordina per... Più Popolari/Guadagnanti/ Perdenti</strong></td> 
-   <td class="chdesc stentry"> Per ordinare, puoi passare da <span class="uicontrol"> Più popolari </span>(impostazione predefinita), <span class="uicontrol"> Guadagni </span> (dimensioni che mostrano la crescita maggiore), e <span class="uicontrol"> Perdenti </span> (quote che si trovano su una traiettoria verso il basso). <p>Questa è la formula che viene utilizzata per determinare i guadagni o i perdenti: Real-Time esamina il campione più antico e quello successivo all'ultimo ed esegue un semplice calcolo di "% change". Pertanto, se è selezionato "Ultimi 15 minuti" e n rappresenta il minuto corrente, n-1 viene confrontato con n-15. Al momento, Real-Time non effettua alcuna ponderazione. Il minuto corrente viene ignorato perché non è completo e produrrebbe probabilmente una variazione % falsa. </p> <p>Questa formula è coerente in tutte le metriche utilizzate nel rapporto in tempo reale. </p> </td> 
+   <td class="chdesc stentry"> Puoi scegliere di ordinare per <span class="uicontrol"> Più popolari </span>(impostazione predefinita), <span class="uicontrol"> Guadagni </span> (dimensioni che mostrano la crescita maggiore), e <span class="uicontrol"> Perdenti </span> (quote che si trovano su una traiettoria verso il basso). <p>Questa è la formula che viene utilizzata per determinare i guadagni o i perdenti: Real-Time esamina il campione più antico e quello successivo all'ultimo ed esegue un semplice calcolo di "% change". Pertanto, se è selezionato "Ultimi 15 minuti" e n rappresenta il minuto corrente, n-1 viene confrontato con n-15. Al momento, Real-Time non effettua alcuna ponderazione. Il minuto corrente viene ignorato perché non è completo e produrrebbe probabilmente una variazione % falsa. </p> <p>Questa formula è coerente in tutte le metriche utilizzate nel rapporto in tempo reale. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Reportlet secondario 1</strong></td> 

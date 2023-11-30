@@ -5,43 +5,16 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: cf0c15c1b81a243e35fbdcf32b43a6ef4ada9649
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 84%
+source-wordcount: '642'
+ht-degree: 82%
 
 ---
 
-# Panoramica della personalizzazione dei rapporti
-
-{{ra-eol}}
+# Personalizzare i rapporti
 
 Dopo aver eseguito un rapporto, puoi personalizzarlo per visualizzare e analizzare i dati in base alle tue esigenze. Puoi filtrare i dati dei rapporti, modificare il modo in cui i dati vengono presentati graficamente, cambiare la granularità delle date e così via.
-
-## Creare un rapporto personalizzato {#task_BA6EACA3039C40AEA5605E1D8C76E646}
-
-Puoi salvare la configurazione corrente di un rapporto come nuovo rapporto personalizzato che tutti gli utenti potranno visualizzare.
-
-<!-- 
-
-t_reports_custom.xml
-
- -->
-
-Solo gli amministratori possono creare un rapporto personalizzato. Quando crei un rapporto personalizzato, questo viene aggiunto al menu principale accanto al rapporto su cui si basa.
-
-Per creare un rapporto personalizzato:
-
-1. Esegui un rapporto e configuralo come necessario.
-1. Fai clic su **[!UICONTROL More]** > **[!UICONTROL Create Custom Report]**.
-1. Assegna un nome al rapporto, quindi fai clic su **[!UICONTROL Save.]**
-
-   Assicurati di non usare lo stesso nome di un rapporto esistente.
-
->[!MORELIKETHIS]
->
->* [Personalizzazione del menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=it)
-
 
 ## Seleziona una data o un intervallo di date {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
@@ -90,13 +63,17 @@ Non è possibile confrontare date tra rapporti con tendenze.
 >
 >Se desideri confrontare le metriche chiave di una dashboard per date diverse, puoi richiamare i dati in [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=it) utilizzando due richieste separate. In seguito, puoi utilizzare formule personalizzate in Excel per analizzare la differenza tra i due set di dati.
 
-Per confrontare i rapporti classificati per date diverse in Reports &amp; Analytics:
+<!-- delete this procedure, but what about this entire "Compare dates" section?
 
-1. Esegui un rapporto.
-1. Fai clic sull’icona del calendario in alto a destra.
-1. Fai clic su **[!UICONTROL Compare Dates]**.
-1. Seleziona le date da utilizzare.
-1. Fai clic su **[!UICONTROL Run Report]**.
+To compare dates between ranked reports in Reports & analytics: 
+
+1. Run a report.
+1. Click the calendar at the top right.
+1. Click **[!UICONTROL Compare Dates]**.
+1. Select the dates you want to use.
+1. Click **[!UICONTROL Run Report]**.
+
+-->
 
 ## Visualizzare i valori percentuali sotto forma di grafico {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -189,7 +166,7 @@ t_reports_granularity.xml
 
  -->
 
-Il periodo di tempo del rapporto determina quali opzioni di granularità sono disponibili. Ad esempio, puoi selezionare **[!UICONTROL Hourly]** solo se è stato selezionato un intervallo di tempo di uno o due giorni. Puoi selezionare solo granularità **[!UICONTROL Yearly]** se è stato selezionato più di un anno.
+Il periodo di tempo del rapporto determina quali opzioni di granularità sono disponibili. Ad esempio, puoi selezionare **[!UICONTROL Hourly]** solo se è stato selezionato un arco temporale di uno o due giorni. Puoi selezionare solo granularità **[!UICONTROL Yearly]** se è stato selezionato più di un anno.
 
 Specificare la granularità del rapporto:
 
@@ -212,19 +189,3 @@ Per eseguire un rapporto in base al giorno della settimana:
 
 1. Esegui un rapporto con tendenze su un intervallo di date specificato.
 1. Fai clic sul collegamento **[!UICONTROL Day of Week]**, quindi fai clic su un giorno.
-
-## Pulsante “Prova in Workspace” {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
-
-Facendo clic sul pulsante **[!UICONTROL Try In Workspace]** nella parte superiore di un rapporto, lo stesso rapporto verrà caricato in Analysis Workspace.
-
-<!-- 
-
-try_in_workspace.xml
-
- -->
-
-La maggior parte dei rapporti in Reports &amp; Analytics include un pulsante “Prova in Workspace”, che consente di riprodurre la vista corrente in Analysis Workspace per eseguire un’ulteriore personalizzazione.
-
-Attualmente, il pulsante è disponibile solo se il tuo nome utente dispone dei diritti completi su Analysis Workspace.
-
-Per ulteriori informazioni su come personalizzare il tuo rapporto, consulta la guida di [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it).

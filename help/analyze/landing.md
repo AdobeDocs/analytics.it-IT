@@ -4,10 +4,10 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: ht
-source-wordcount: '3933'
-ht-degree: 100%
+source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
+workflow-type: tm+mt
+source-wordcount: '2068'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ La pagina di destinazione di Adobe Analytics riunisce [!DNL Analysis Workspace] 
 
 ## Caratteristiche della nuova pagina di destinazione {#new-features}
 
-| Funzione | Descrizione | Schermata |
+| Funzionalità | Descrizione | Schermata |
 | --- | --- | --- |
 | Espandere la tabella [!UICONTROL Projects] a schermo intero | Per espandere la tabella, fai clic sull’icona del menu con le tre linee. Le schede della barra a sinistra vengono compresse. | ![Espandere la tabella](assets/landing-collapse2.png) |
 | Personalizzare la larghezza delle colonne | In precedenza, la larghezza delle colonne era fissa. Ora è possibile regolarla trascinando il separatore di colonne. | ![Larghezza delle colonne](assets/column-width.png) |
@@ -114,127 +114,9 @@ La scheda [!UICONTROL Reports] consolida i seguenti set di rapporti:
 
 ![Scheda Rapporti](assets/reports-tab2.png)
 
+Per ulteriori informazioni sulla scheda Rapporti in Analysis Workspace, inclusa la visualizzazione e il salvataggio dei rapporti, consulta [Utilizzare rapporti predefiniti](/help/analyze/analysis-workspace/reports/use-reports.md).
 
-### Visualizzazione dei rapporti {#menus}
-
-1. Passa alla scheda [!UICONTROL **Rapporti**].
-1. Utilizza il campo di ricerca per cercare un rapporto specifico.
-
-   Oppure
-
-   Passa al rapporto che desideri visualizzare.
-
-   Sono disponibili i seguenti rapporti:
-
-   | Opzione di menu | Rapporti sotto questa voce di menu |
-   | --- | --- |
-   | **[!UICONTROL Most Popular]** | <ul><li>Tutorial di formazione (modello Workspace preesistente)</li><li>Pagine (quali sono le pagine principali?)</li><li>Visualizzazioni pagina (quante visualizzazioni di pagina vengono generate?)</li><li>Visite (quante visite ricevo?)</li><li>Visitatori (quanti visitatori ricevo?)</li><li>Metriche chiave (come sono le prestazioni delle metriche più importanti?)</li><li>Sezioni del sito (quali sezioni del sito hanno generato il maggior numero di visualizzazioni di pagina?)</li><li>Pagina successiva (quali sono le pagine successive visitate dagli utenti?)</li><li>Pagina precedente (quali sono le pagine precedenti visitate dagli utenti?)</li><li>Campagne (quali campagne sono più determinanti per le metriche chiave?)</li><li>Prodotti (quali prodotti sono più determinanti per le metriche chiave?)</li><li>Canale ultimo contatto (quale canale di ultimo contatto offre le prestazioni migliori?)</li><li>Dettaglio canale ultimo contatto (quale canale di ultimo contatto specifico ha prestazioni migliori degli altri?)</li><li>Ricavi (come stanno andando i ricavi?)</li><li>Ordini (come vanno gli ordini?)</li><li>Unità (quante unità vengono vendute?)</li></ul> |
-   | **[!UICONTROL Engagement]** | <ul><li>Metriche chiave (come sono le prestazioni delle metriche più importanti?)</li><li>Visualizzazioni pagina (quante visualizzazioni di pagina vengono generate?)</li><li>Pagine (quali sono le pagine principali?)</li><li>Visite (quante visite ricevo?)</li><li>Visitatori (quanti visitatori ricevo?)</li><li>Tempo trascorso per visita (quanto tempo trascorrono gli utenti per visita?)</li><li>Tempo precedente all’evento (quanto tempo trascorrono gli utenti prima di un evento di successo?)</li><li>Sezioni del sito (quali sezioni del sito hanno generato il maggior numero di visualizzazioni di pagina?)</li><li>Consumo di contenuti web (quali contenuti vengono maggiormente consumati e coinvolgono maggiormente gli utenti?)</li><li>Consumo di contenuti multimediali (quali contenuti vengono maggiormente consumati e coinvolgono maggiormente gli utenti?)</li><li>Flusso pagine successive e precedenti (quali sono o sono stati i percorsi successivi/precedenti seguiti dai visitatori?)</li><li>Abbandono (dove si verifica l’abbandono nelle proprietà digitali?)</li><li>Analisi tra dispositivi (tramite analisi tra dispositivi in Analysis Workspace)</li><li>Fidelizzazione web (chi sono gli utenti più fedeli e cosa fanno?)</li><li>Consumo audio multimediale (quali sono le tendenze e le metriche migliori in merito al consumo audio?)</li><li>Recency, frequenza, fedeltà per contenuti multimediali (chi sono i lettori più fedeli?)</li><li>Analisi pagina > Ricaricamenti (quali pagine vengono ricaricate maggiormente?)</li><li>Analisi pagina > Tempo trascorso su pagina (quanto tempo passano gli utenti sulle pagine?)</li><li>Entrate e uscite > Pagine di ingresso (quali sono le pagine di ingresso principali?)</li><li>Entrate e uscite > Pagine di entrata originali (da quale pagina è entrato originariamente il visitatore?)</li><li>Entrate e uscite > Visite pagina singola (quali pagine hanno generato più visite a una singola pagina?)</li><li>Entrate e uscite > Pagine di uscita (quali sono le pagine di uscita principali?)</li></ul> |
-   | **[!UICONTROL Conversion]** | <ul><li>Prodotti > Prodotti (quali prodotti sono più determinanti per le metriche chiave?)</li><li>Prodotti > Prestazioni prodotto (quali prodotti hanno prestazioni migliori?)</li><li>Prodotti > Categorie (quali sono le categorie di prodotti con le migliori prestazioni?)</li><li>Carrello acquisti > Carrelli (quanti utenti hanno aggiunto un prodotto al carrello?)</li><li>Carrello acquisti > Visualizzazioni carrello (quante volte i visitatori hanno visualizzato il carrello?)</li><li>Carrello acquisti > Aggiunte al carrello (con quale frequenza gli utenti aggiungono un prodotto al carrello?)</li><li>Carrello acquisti > Rimozioni dal carrello (con quale frequenza gli utenti rimuovono un prodotto dal carrello?)</li><li>Acquisti > Ricavi (come stanno andando i ricavi?)</li><li>Acquisti > Ordini (come vanno gli ordini?)</li><li>Acquisti > Unità (quante unità sto vendendo?)</li><li>[Magento: marketing e commerce](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#commerce)</li></ul> |
-   | **[!UICONTROL Audience]** | <ul><li>Metrica persone (quante persone interagiscono con il marchio?)</li><li>Profilo visitatore > Panoramica posizioni (quali posizioni generano maggior utilizzo tra gli utenti?)</li><li>Profilo visitatore > Geosegmentazione > Geo Counties, Geo Stati Uniti, Geo Region, Geo Cities, Geo US DMA (da quali aree geografiche provengono i visitatori?)</li><li>Profilo visitatore > Lingue (quali lingue preferiscono gli utenti?)</li><li>Profilo visitatore > Fusi orari (da quali fusi orari provengono gli utenti?)</li><li>Profilo visitatore > Domini (quali ISP utilizzano i visitatori per accedere al sito?)</li><li>Profilo visitatore > Domini di primo livello (quali domini sono più determinanti per il traffico verso il sito?)</li><li>Profilo visitatore > Tecnologia > Panoramica tecnologia (quali tecnologie vengono utilizzate dalle persone per accedere al sito?)</li><li>Profilo visitatore > Tecnologia > Browser, Tipo di browser, Larghezza browser, Altezza browser (quale browser, versione del browser e relative dimensioni vengono utilizzati per accedere al sito?)</li><li>Profilo visitatore > Tecnologia > Sistema operativo, Tipi di sistema operativo (quale sistema operativo e quale versione utilizzano i visitatori?)</li><li>Profilo visitatore > Tecnologia > Operatore mobile (quali operatori mobili utilizzano i visitatori per accedere al sito?)</li><li>Fidelizzazione visitatori > Frequenza di ritorno (quanto tempo trascorre tra la visita corrente dell’utente e le visite precedenti?)</li><li>Fidelizzazione visitatori > Visite di ritorno (quante visite sono riconducibili a utenti di ritorno?)</li><li>Fidelizzazione visitatori > Numero di visite (quale numero di visite determina la maggior parte delle metriche chiave?)</li><li>Fidelizzazione visitatori > Ciclo di vendita > Fedeltà cliente (a quale segmento di fedeltà appartengono gli utenti?)</li><li>Fidelizzazione visitatori > Ciclo di vendita > Giorni prima del primo acquisto (quanti giorni sono trascorsi tra la prima visita e il primo acquisto?)</li><li>Fidelizzazione visitatori > Ciclo di vendita > Giorni dall’ultimo acquisto (quanti giorni sono passati tra la visita corrente e l’ultimo acquisto?) )</li><li>Fidelizzazione visitatori > Dispositivi mobili > Dispositivi e tipi di dispositivi (quali dispositivi e tipi di dispositivi utilizzano i visitatori?)</li><li>Fidelizzazione visitatori > Dispositivi mobili > Produttore (quale produttore di dispositivi mobili usano i visitatori?)</li><li>Fidelizzazione visitatori > Dispositivi mobili > Dimensioni schermo, Altezza schermo, Larghezza schermo (quali sono le dimensioni/altezza/larghezza dello schermo dei dispositivi mobili usati dai visitatori?)</li><li>Fidelizzazione visitatori > Dispositivi mobili > [Utilizzo app mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#mobile)</li><li>Fidelizzazione visitatori > Dispositivi mobili > [Percorsi in app mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#mobile)</li><li>Fidelizzazione visitatori > Dispositivi mobili > [Metriche app mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#mobile)</li><li>Fidelizzazione visitatori > Dispositivi mobili > [Messaggistica app mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#mobile)</li><li>Fidelizzazione visitatori > Dispositivi mobili > [Prestazioni app mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#mobile)</li><li>Fidelizzazione visitatori > Dispositivi mobili > [Fidelizzazione app mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#mobile)</li></ul> |
-   | **[!UICONTROL Acquisition]** | <ul><li>Canali marketing > Canale primo contatto, Dettaglio canale primo contatto (quale canale di primo contatto e quale canale di primo contatto specifico offre le prestazioni migliori?)</li><li>Canali marketing > Primo ultimo canale, Dettaglio primo ultimo canale (quale canale di ultimo contatto e quale canale di ultimo contatto specifico ha prestazioni migliori?)</li><li>Campagne > Campagne (quali campagne sono più determinanti per le metriche chiave?)</li><li>Campagne > Prestazione campagna (quali campagne generano maggior fatturato?)</li><li>Campagne > Codice di tracciamento (quali codici di tracciamento delle campagne hanno le migliori prestazioni?)</li><li>[Acquisizione web](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#web)</li><li>[Acquisizione mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#mobile)</li><li>[Advertising Analytics: ricerca a pagamento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it#advertising)</li><li>Parole chiave di ricerca - tutto, a pagamento, naturale (quali parole chiave di ricerca e parole chiave di ricerca a pagamento/naturale sono più determinanti per le metriche chiave?)</li><li>Motori di ricerca - tutti, a pagamento, naturali (quali motori di ricerca e motori di ricerca a pagamento/naturali sono più determinanti per le metriche chiave?)</li><li>Classificazione di tutte le pagine di ricerca (da quale pagina di ricerca arrivano gli utenti?)</li><li>Domini di riferimento (quali domini indirizzano il traffico al sito?)</li><li>Domini di riferimento originali (qual era il primo dominio in cui si trovavano gli utenti prima di visitare il sito?)</li><li>Riferimenti (su quali URL si trovavano gli utenti prima di fare clic e arrivare al mio sito?)</li><li>Tipi di riferimento (a quale categoria appartengono gli URL di riferimento?)</li></ul> |
-
-### Visualizzare e salvare un rapporto {#use-reports}
-
-Se esci da un rapporto dopo aver effettuato modifiche, ti viene richiesto di salvare o eliminare le modifiche. Quando si salvano le modifiche a un rapporto, questo viene salvato come nuovo progetto.
-
-1. Vai alla scheda [!UICONTROL **Rapporti**].
-1. Seleziona il rapporto da visualizzare. Ad esempio, in [!UICONTROL **Più popolari**], seleziona il rapporto [!UICONTROL **Pagine**].
-
-   ![Rapporto Pagine](assets/pages-report.png)
-
-1. in Analysis Workspace, il rapporto Pagine presenta due [visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([Grafico a barre](/help/analyze/analysis-workspace/visualizations/bar.md) e [Numero di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)) e una [tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). La metrica utilizzata è Occorrenze.
-1. Esegui una delle operazioni seguenti:
-
-   * Visualizza il rapporto.
-   * Puoi trascinare uno o più segmenti nella zona di rilascio Segmento, nella parte superiore. Ad esempio, trascina il segmento [!UICONTROL **Clienti mobile**] e visualizza i risultati.
-   * Modifica l’intervallo di date andando sul calendario in alto a destra.
-   * Aggiungi raggruppamenti di dimensioni, trascina altre metriche e personalizza il rapporto a livello generale in base alle tue esigenze.
-
-1. (Facoltativo) Salva il rapporto come progetto selezionando [!UICONTROL **Progetto**] > [!UICONTROL **Salva**].
-
-   In questo modo il rapporto viene salvato come nuovo progetto e non viene modificato il rapporto esistente. Per ulteriori informazioni sul salvataggio di un rapporto come progetto, consulta “Creare un progetto da un progetto vuoto o da un rapporto” in [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
-
-### Creare un rapporto aziendale personalizzato {#company-report}
-
-I rapporti personalizzati creati e salvati per l’utilizzo da parte di altri utenti dell’azienda da cui si accede sono denominati rapporti aziendali. I rapporti aziendali creati in precedenza e quelli appena creati sono elencati nella finestra modale Crea progetto, come illustrato di seguito.
-
-Per creare un nuovo Rapporto aziendale:
-
-1. Crea un progetto in Analysis Workspace con lo stato desiderato.
-1. Seleziona [!UICONTROL **Progetto**] > **[!UICONTROL Save as company report…]**.
-
-   ![Rapporto aziendale](assets/company-report.png)
-
-1. Aggiorna il nome del rapporto, aggiungi una descrizione ed eventuali tag, quindi seleziona [!UICONTROL **Salva come rapporto aziendale**].
-
-   Il rapporto viene aggiunto all’elenco dei rapporti aziendali nella finestra modale Crea progetto ed è disponibile per gli utenti che fanno parte dell’azienda da cui accedi.
-
-   Per ulteriori informazioni su come gli utenti possono creare un progetto basato su un rapporto aziendale, consulta “Creare un progetto da un progetto vuoto o da un rapporto” in [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
-
-Altre opzioni di apprendimento:
-
-* Puoi accedere a una panoramica video di 20 minuti su Analysis Workspace, in alto a sinistra su qualsiasi rapporto aperto.
-* Per i nuovi utenti, consigliamo il video [Training Tutorial](https://www.youtube.com/watch?v=lCH1Kl1q9Wk) che illustra come creare un nuovo progetto.
-* Questo è un collegamento alla [documentazione completa di Analysis Workspace](/help/analyze/analysis-workspace/home.md).
-* Ecco la [playlist YouTube completa per Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
-
-### Gestire i rapporti aziendali {#manage-company-reports}
-
-Gli amministratori possono filtrare l’elenco dei progetti per visualizzare e gestire i rapporti aziendali. Gli elementi fissati rimangono tali e sono seguiti dall’elenco dei rapporti aziendali identificati dall’![icona rapporto](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg). In questa vista è possibile eliminare, rinominare, assegnare tag o approvare uno o più rapporti.
-
-Visualizzazione e gestione dei rapporti aziendali
-
-1. Nella barra dei filtri, seleziona **ALTRI FILTRI** e quindi **Rapporti aziendali**.
-Viene visualizzato un elenco dei rapporti aziendali. Tutti i progetti regolari non vengono visualizzati, a meno che non siano fissati.
-
-   ![Visualizzare i filtri per i rapporti aziendali](assets/company-reports-filter.png)
-
-   Con la visualizzazione dei rapporti aziendali, gli amministratori possono eliminare, rinominare, aggiungere un tag o approvare il rapporto.
-
-1. Nell’elenco dei rapporti, seleziona un singolo rapporto o più rapporti.
-
-1. Fai clic sull’icona con i puntini di sospensione **...** accanto a un rapporto per visualizzare le opzioni disponibili (Elimina, Rinomina, Assegna tag e Approva).
-
-   ![Azioni sui rapporti aziendali](assets/company-reports-actions.png)
-
-1. Seleziona un’opzione (Elimina, Rinomina, Assegna tag e Approva).
-
-1. Per tornare alla visualizzazione normale al termine dell’operazione, nella barra dei filtri deseleziona nuovamente l’opzione Rapporti aziendali.
-
-### Eliminare un rapporto aziendale
-
-Gli amministratori possono eliminare un rapporto utilizzando l’opzione di elenco dei rapporti aziendali (descritta in precedenza) o dalla finestra modale Crea progetto.
-
-![Altri filtri](assets/delete-fr-create-project-modal.png)
-
-### Posizione dei modelli (ora denominati rapporti) {#templates}
-
-| Nome del rapporto (modello) | Posizione del rapporto |
-| --- | --- |
-| Tutorial di formazione | Più popolare > Tutorial di formazione |
-| Consumo di contenuti web | Coinvolgimento > Consumo di contenuti web |
-| Consumo di contenuti multimediali | Coinvolgimento > Consumo di contenuti multimediali |
-| Analisi cross-device | Coinvolgimento > Analisi cross-device |
-| Conservazione web | Coinvolgimento > Conservazione web |
-| Consumo audio di contenuti multimediali | Coinvolgimento > Consumo audio di contenuti multimediali |
-| Attualità di contenuti multimediali, Frequenza, Fedeltà | Coinvolgimento > Attualità di contenuti multimediali, Frequenza, Fedeltà |
-| Impatto ITP | Coinvolgimento > Impatto ITP |
-| Prestazioni del prodotto | Conversione > Prodotti > Prestazioni del prodotto |
-| Magento: marketing e commerce | Conversione > Magento: marketing e commerce |
-| Metrica Persone | Pubblico > Metrica Persone |
-| Panoramica sulla posizione | Pubblico > Profilo visitatore > Panoramica sulla posizione |
-| Panoramica della tecnologia | Pubblico > Profilo visitatore > Tecnologia > Panoramica della tecnologia |
-| Utilizzo app mobili | Pubblico > Mobile > Utilizzo app mobili |
-| Percorsi di app mobili | Pubblico > Mobile > Percorsi di app mobili |
-| Metriche di app mobili | Pubblico > Mobile > Messaggistica da app mobile |
-| Prestazioni app mobili | Pubblico > Mobile > Prestazioni app mobili |
-| Conservazione delle app mobili | Pubblico > Mobile > Conservazione delle app mobili |
-| Prestazione campagna | Acquisizione > Campagne > Prestazioni delle campagne |
-| Acquisizione mobile | Acquisizione > Acquisizione mobile |
-| Acquisizione web | Acquisizione > Acquisizione web |
-| Advertising Analytics: ricerca a pagamento | Acquisizione > Advertising Analytics: ricerca a pagamento |
-
+Per informazioni sulla creazione e la gestione di rapporti aziendali personalizzati, consulta [Creare e gestire i rapporti aziendali](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
 ## Utilizzare la scheda Apprendimento {#navigate-learning}
 

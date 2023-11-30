@@ -6,20 +6,18 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 14%
+source-wordcount: '833'
+ht-degree: 11%
 
 ---
 
 # Avvisi
 
-{{ra-eol}}
-
 ## Avvisi {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Il nuovo sistema di avvisi globale di Adobe Analytics, Avvisi intelligenti, consente di creare e gestire gli avvisi , , anche con l&#39;ausilio di anteprime e regole. È possibile eseguire le seguenti azioni:
+In qualità di sistema di avvisi globale di Adobe Analytics, gli avvisi intelligenti ti consentono di creare e gestire gli avvisi, fornendo allo stesso tempo funzioni per l’anteprima degli avvisi e il contributo delle regole. È possibile eseguire le seguenti azioni:
 
 * Creare avvisi basati su anomalie (soglie del 90%, 95% o 99%; modifica della percentuale; superiore/inferiore).
 * Visualizzare in anteprima la frequenza di attivazione degli avvisi.
