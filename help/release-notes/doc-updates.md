@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '5254'
-ht-degree: 99%
+source-wordcount: '5355'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,10 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzionalità | Descrizione |
 | --- | --- |
+| **Dicembre 2023** | |
+| Nuova sezione Rapporti | È stata aggiunta una nuova sezione Rapporti che include informazioni su [utilizzo di rapporti predefiniti](/help/analyze/analysis-workspace/reports/use-reports.md) e [creazione e gestione dei report aziendali](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| Aggiornamenti alla documentazione di Rilevamento delle anomalie e Analisi contributi | La documentazione relativa al rilevamento delle anomalie e all’analisi dei contributi si trovava in precedenza in una sezione relativa ad Analista virtuale. Sono state apportate le seguenti modifiche: <ul><li>Il termine Analista virtuale è stato rimosso dalla documentazione.</li><li>La sezione relativa a [Rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) è stato spostato direttamente sotto la sezione Analysis Workspace.</li><li>La documentazione Analisi contributi è stata unita alla documentazione Rilevamento anomalie.</li></ul> |
+| &quot;Attribution IQ&quot; modificata in &quot;Attribuzione&quot; | Tutte le istanze di &quot;Attribution IQ&quot; sono state modificate in &quot;[Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md)&quot; in tutta la documentazione. |
 | **Novembre 2023** | |
 | Aggiornamenti all’argomento abilitazione/attivazione di Activity Map | Aggiunto contenuto [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=it) (sia manualmente che tramite l’estensione di tag Adobe Experience Platform). |
 | **Ottobre 2023** | |

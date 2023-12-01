@@ -4,10 +4,10 @@ title: Salvare i progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: a6f49d0c66ff92eff850a330c35e4979275e3c92
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 97%
+source-wordcount: '693'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Per salvare manualmente un progetto:
    | **[!UICONTROL Save]** | Salva le modifiche apportate al progetto. Se il progetto è condiviso, i destinatari del progetto visualizzeranno anche le modifiche. Quando salvi il progetto per la prima volta, ti viene richiesto di assegnare al progetto un nome, una descrizione (facoltativa) e di aggiungere tag (facoltativi). |
    | **[!UICONTROL Save with notes]** | Prima di salvare il progetto, aggiungi note sulle modifiche apportate al progetto. Le note sono memorizzate con la versione del progetto e sono disponibili per tutti gli editor in [!UICONTROL Project] (Progetto) > [!UICONTROL Open previous version] (Apri versione precedente). |
    | **[!UICONTROL Save as]** | Crea un duplicato del progetto. Il progetto originale non subirà modifiche. |
-   | **[!UICONTROL Save as company report]** | Salva il progetto come [rapporto aziendale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it) che diventa disponibile per la tua organizzazione in **[!UICONTROL Project > New]** |
+   | **[!UICONTROL Save as company report]** | Salva il progetto come [rapporto aziendale](/help/analyze/analysis-workspace/reports/create-company-reports.md) che diventa disponibile per la tua organizzazione in **[!UICONTROL Project > New]** |
 
 ## Salvataggio automatico {#Autosave}
 
