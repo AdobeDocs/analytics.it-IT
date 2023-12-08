@@ -5,16 +5,18 @@ title: Progetti solo visualizzazione
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 79%
+source-wordcount: '238'
+ht-degree: 72%
 
 ---
 
 # Progetti solo visualizzazione
 
-Puoi condividere i progetti come “sola visualizzazione” con i destinatari tramite il [flusso di lavoro di condivisione dei progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md). I destinatari inseriti nel ruolo Can View usufruiranno di un’esperienza di progetto più limitata. Questo può essere utile se condividi un progetto con utenti che hanno meno familiarità con la struttura dati dell’organizzazione, in genere Analysis Workspace o Adobe Analytics, ma desideri comunque che utilizzino dati e informazioni in un ambiente sicuro.
+Puoi condividere i progetti come “sola visualizzazione” con i destinatari tramite il [flusso di lavoro di condivisione dei progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md). I destinatari inseriti nel ruolo Can View usufruiranno di un’esperienza di progetto più limitata. Ciò può essere utile se condividi un progetto con utenti che hanno meno familiarità con la struttura dei dati della tua organizzazione e con Analysis Workspace o Adobe Analytics in genere, ma desideri comunque che utilizzino dati e informazioni in un ambiente sicuro.
+
+Puoi modificare l’intervallo di date del calendario del pannello anche nei progetti di sola visualizzazione.
 
 ![](assets/view-only-project.png)
 
@@ -28,7 +30,6 @@ Le interazioni disattivate in un progetto di sola visualizzazione includono:
 
 * Barra a sinistra nascosta
 * Suite di rapporti
-* Intervallo date del calendario del pannello. Nota: per assegnare il controllo del calendario ai destinatari, aggiungi un [filtro a discesa con intervalli di date](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it).
 * Filtro a forma libera
 * Numero di righe a forma libera visibili
 * Impostazioni di riga, colonna o visualizzazione a forma libera
