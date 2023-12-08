@@ -3,16 +3,16 @@ title: Revisione mirata (dopo ogni rilascio del sito web)
 description: Segui questi passaggi per garantire che l’implementazione rimanga priva di errori e in linea con i KPI.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 98%
+source-wordcount: '491'
+ht-degree: 74%
 
 ---
 
 # Revisione mirata (dopo ogni rilascio del sito web)
 
-Perché dovresti rivedere la tua implementazione ogni mese? È quindi possibile risolvere qualsiasi problema relativo alla qualità dei dati mentre sono ancora contenuti. Se esegui regolarmente questa revisione incentrata dopo ogni versione del sito web, scoprirai che le tue [Revisioni complete](/help/implement/review/full-review.md) biennali saranno molto più facili. Eviterai inoltre che i problemi di piccole dimensioni si trasformino in problemi di dati più complessi che potrebbero erodere la fiducia delle parti interessate.
+Perché dovresti rivedere la tua implementazione ogni mese? È quindi possibile risolvere qualsiasi problema relativo alla qualità dei dati mentre sono ancora contenuti. Se esegui regolarmente questa revisione incentrata dopo ogni versione del sito web, scoprirai che il tuo biennale [Revisioni complete](/help/implement/review/full-review.md) sono molto più facili. Eviterai inoltre che i problemi di piccole dimensioni si trasformino in problemi di dati di grandi dimensioni che potrebbero erodere la fiducia delle parti interessate.
 
 ## 1. Inizia con i primi 5 KPI
 
@@ -20,9 +20,9 @@ Conoscere i primi 5 indicatori di prestazioni chiave (KPI, Key Performance Indic
 
 ## 2. Assicurati che le metriche e le variabili KPI continuino a funzionare bene
 
-Gli aggiornamenti del codice nel tempo possono avere ramificazioni non desiderate. Assicurati che tutte le metriche e le dimensioni associate ai tuoi [primi 5 KPI](/help/implement/review/define-kpis.md) funzionino ancora correttamente. Idealmente, questo viene fatto subito dopo il rilascio di un sito web; se non lo hai fatto negli ultimi mesi, fallo *ora*. Per eseguire questa operazione:
+Gli aggiornamenti del codice nel tempo possono avere ramificazioni non desiderate. Assicurati che tutte le metriche e le dimensioni associate ai tuoi [primi 5 KPI](/help/implement/review/define-kpis.md) funzionino ancora correttamente. Idealmente, questo viene fatto subito dopo il rilascio di un sito web; se non lo hai fatto negli ultimi mesi, fallo *now*. Per eseguire questa operazione:
 
-* Crea dashboard per vedere le visualizzazioni con tendenze orarie di queste metriche e variabili critiche (o configura [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=it#analysis-workspace) per ogni metrica). Poi monitorali per uno o due giorni per assicurarti di ottenere i dati previsti e corretti. Cerca i punti di flesso. Preparati a risolvere immediatamente eventuali problemi critici. Se riscontri delle discrepanze, cerca nel livello dati, nelle regole di gestione dei tag e nelle regole di elaborazione per scoprirne il motivo.
+* Crea dashboard per vedere le visualizzazioni con tendenze orarie di queste metriche e variabili critiche (o configura [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) per ogni metrica). Poi monitorali per uno o due giorni per assicurarti di ottenere i dati previsti e corretti. Cerca i punti di flesso. Preparati a risolvere immediatamente eventuali problemi critici. Se riscontri delle discrepanze, cerca nel livello dati, nelle regole di gestione dei tag e nelle regole di elaborazione per scoprirne il motivo.
 * Esegui nuovamente [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) per monitorare le tendenze generali delle metriche e delle variabili KPI.
 
 *Per ulteriori dettagli su come verificare che le metriche e le variabili funzionino correttamente, [leggi questi suggerimenti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) da Sarah Owen, Champion Adobe Analytics.*
