@@ -3,10 +3,10 @@ description: I segmenti sequenziali vengono creati utilizzando l’operatore THE
 title: Creare segmenti sequenziali
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
 workflow-type: tm+mt
-source-wordcount: '3658'
-ht-degree: 100%
+source-wordcount: '3710'
+ht-degree: 98%
 
 ---
 
@@ -210,7 +210,7 @@ Crea un segmento come faresti per un segmento sequenziale semplice, a livello mi
 
 Se il punto di controllo di esclusione si trova all’inizio di un segmento sequenziale, ciò assicura che una visualizzazione di pagina esclusa non sia avvenuta prima del primo hit non escluso.
 
-Ad esempio, un ristorante desidera vedere gli utenti abituali che evitano la pagina di destinazione principale e vanno direttamente alla pagina Ordina. Questo esempio può essere semplificato per un visitatore che evita di visitare la pagina A e va direttamente alla pagina B.
+Ad esempio, un ristorante vuole vedere gli utenti che tendono ad evitare la pagina di destinazione principale e vanno direttamente alla pagina Ordina. Puoi visualizzare questi dati escludendo gli hit nella pagina di destinazione e includendo gli hit nella pagina Ordina in un segmento sequenziale.
 
 **Creare il segmento**
 
