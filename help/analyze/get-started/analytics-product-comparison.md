@@ -4,9 +4,9 @@ title: Confronto dei prodotti Analytics e requisiti
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,10 +29,10 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [Quale str
 | **Più suite di rapporti** | [Sì](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sì, con limitazioni | Sì | No | Sì | No | Sì |
 | **Numero di raggruppamenti** | Senza limiti | Fino a 2 | Fino a 2 | Senza limiti | Senza limiti | Senza limiti | Senza limiti, eseguito su più query |
 | **Segmentazione** <br> [Ulteriori informazioni](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sì | Sì | Sì | Sì, con [limitazioni](/help/components/segmentation/seg-reference/seg-compatibility.md) | Sì | No | Sì |
-| **Metriche calcolate** <br> [Ulteriori informazioni](/help/components/c-calcmetrics/cm-overview.md) | Sì, con [Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md) | Sì | Sì | No | Sì | No | Sì, con [Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Metriche calcolate** <br> [Ulteriori informazioni](/help/components/c-calcmetrics/cm-overview.md) | Sì, con [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Sì | Sì | No | Sì | No | Sì, con [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canali marketing** <br> [Ulteriori informazioni](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sì | Sì | Sì | Sì | Sì | Sì - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sì |
 | **Analisi per coorte** | [Sì](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | No | No | No | Sì | No | No |
-| **Attribuzione** | Sì, con [Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md) | Limitato | Limitato | No | Sì | No | Sì, con [Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Attribuzione** | Sì, con [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Limitato | Limitato | No | Sì | No | Sì, con [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Cura** <br> [Ulteriori informazioni](/help/analyze/analysis-workspace/curate-share/curate.md) | Sì: progetti e suite di rapporti virtuali | No | No | No | No | No | Sì: solo suite di rapporti virtuali |
 | **Condivisione dei progetti** <br> [Ulteriori informazioni](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sì, con ruoli di progetto | Sì | Sì | No | Sì | No | No |
 | **Consegna pianificata** | Sì | Sì | Sì | Sì | No | Sì | No |
