@@ -5,9 +5,9 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Per visualizzare le anomalie in un grafico a linee:
 
    * Collegamento Analizza per iniziare un’Analisi contributi
 
-     (vedere [Panoramica di Rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) per ulteriori informazioni.)
+     (per ulteriori informazioni, consulta [Panoramica del rilevamento anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md).)
 
 
 
