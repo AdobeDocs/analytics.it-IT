@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 86%
+source-wordcount: '641'
+ht-degree: 81%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 86%
                + [Suggerimenti e trucchi per le regole di elaborazione](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + Regole bot {#bot-removal}
                + [Rimozione bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [Panoramica delle regole bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [Comprendere e configurare le regole bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Firme bot comuni](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Metodi di esclusione bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Impostazioni privacy](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -111,7 +111,7 @@ ht-degree: 86%
             + [Spike pianificazione](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Traffico permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Metriche predefinite](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
-         + Gestione delle app {#app-management}
+         + Gestione app {#app-management}
             + [Generazione rapporti sulle app](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
             + [Classificazioni app](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
          + [Gestione file multimediali](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
@@ -158,7 +158,7 @@ ht-degree: 86%
       + [Preferenze manager](admin/company/preferences-manager.md)
       + [Azioni in sospeso](admin/company/pending-actions-admin.md)
       + [Livelli di accesso alle funzionalità](admin/company/feature-access-levels.md)
-   + Etichette di privacy e governance dei dati {#data-governance}
+   + Etichettatura privacy governance dei dati {#data-governance}
       + [Flusso di lavoro sulla privacy dei dati di Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
       + [Domande frequenti](admin/c-data-governance/gdpr-faq.md)
       + Etichettatura dei dati {#data-labels}
@@ -177,8 +177,8 @@ ht-degree: 86%
       + [Avvisi di utilizzo delle chiamate al server](admin/c-server-call-usage/scu-alerts.md)
       + [Domande frequenti sull&#39;utilizzo delle chiamate server](admin/c-server-call-usage/overage-faq.md)
    + Gestione di utenti e prodotti (Legacy) {#user-product-management}
-      + [Gestione di utenti e prodotti (Legacy)](admin/user-management2/user-management.md)
-      + [Trasferimento delle risorse utente o impostazione delle scadenze dell’account](admin/user-management2/users-assets.md)
+      + [Gestione di utenti e prodotti (legacy)](admin/user-management2/user-management.md)
+      + [Trasferimento di risorse utente o impostazione delle scadenze dell&#39;account](admin/user-management2/users-assets.md)
       + Migrazione utenti ad Adobe Admin Console {#migrate-users}
          + [Migrazione degli utenti di Analytics all’Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Eseguire la migrazione degli account utente di Analytics per Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)

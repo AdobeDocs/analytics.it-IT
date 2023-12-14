@@ -1,35 +1,58 @@
 ---
 description: Le regole bot consentono di rimuovere dalla suite di rapporti il traffico generato da spider e bot noti. La rimozione del traffico da bot può fornire una misurazione più precisa dell’attività degli utenti sul sito web.
-title: Panoramica delle regole bot
+title: Comprendere e configurare le regole bot
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 7813900a7c104acdb9b1a3ebfadf597a5070a3e7
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 96%
+source-wordcount: '1568'
+ht-degree: 68%
 
 ---
 
-# Panoramica delle regole bot
+# Comprendere e configurare le regole bot
 
 Le regole bot consentono di rimuovere il traffico dalla suite di rapporti generato da spider e bot noti. La rimozione del traffico da bot può fornire una misurazione più precisa dell’attività degli utenti sul sito web.
 
-Ecco un video sulla configurazione delle regole bot:
+Una volta definite le regole bot, tutto il traffico in entrata viene confrontato con le regole definite. Il traffico che corrisponde a una qualsiasi di queste regole non viene inserito nella suite di rapporti e non è incluso nelle metriche di traffico.
+
+La rimozione del traffico da bot riduce in genere il volume di traffico e le metriche di conversione. Molti clienti ritengono che la rimozione del traffico da bot determini tassi di conversione più elevati e aumenti in altre metriche di usabilità.
+
+I dati sul traffico generato dai bot vengono memorizzati in un archivio separato e visualizzati nei rapporti Bots e Bot Pages.
+
+## Aggiornare o caricare le regole bot
+
+>[!IMPORTANT]
+>
+>Prima di rimuovere il traffico da bot, comunica con le parti interessate per assicurarti di poter apportare le modifiche necessarie agli indicatori di prestazioni chiave risultanti da questo cambiamento. Se possibile, consigliamo prima di tutto di rimuovere il traffico da bot da una piccola suite di rapporti in modo da stimarne il potenziale impatto.
+
+Il video seguente illustra come configurare le regole bot:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
 
-Una volta definite le regole bot, tutto il traffico in entrata viene confrontato con le regole definite. Il traffico che corrisponde a una qualsiasi di queste regole non viene inserito nella suite di rapporti e non è incluso nelle metriche di traffico.
+Per aggiornare o caricare le regole bot:
 
-Per aggiornare o caricare le regole bot, passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. Seleziona la suite di rapporti corretta, quindi vai a **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
+1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-La rimozione del traffico da bot riduce in genere il volume di traffico e le metriche di conversione. Molti clienti ritengono che la rimozione del traffico da bot determini tassi di conversione più elevati e aumenti in altre metriche di usabilità. Prima di rimuovere il traffico da bot, comunica con le parti interessate per assicurarti di poter apportare le modifiche necessarie agli indicatori di prestazioni chiave risultanti da questo cambiamento. Se possibile, consigliamo prima di tutto di rimuovere il traffico da bot da una piccola suite di rapporti in modo da stimarne il potenziale impatto.
+1. Seleziona la suite di rapporti in cui desideri aggiornare le regole bot, quindi seleziona **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
 
-I dati sul traffico generato dai bot vengono memorizzati in un archivio separato e visualizzati nei rapporti Bots e Bot Pages. Sono disponibili due opzioni per abilitare il filtro dei bot:
+1. Utilizza una delle seguenti opzioni per aggiornare o caricare le regole bot per la suite di rapporti:
 
-| Tipo di regola | Descrizione |
-|--- |--- |
-| Regole bot standard IAB | Se si seleziona [!UICONTROL Enable IAB Bot Filtering Rules], per rimuovere il traffico da bot viene utilizzata la lista internazionale Spiders e Bots di [IAB](https://www.iab.com) (International Advertising Bureau). La maggior parte dei clienti seleziona come minimo questa opzione. |
-| Regole bot personalizzate | Puoi definire e aggiungere regole bot personalizzate in base ad agenti utente, indirizzi IP o intervalli IP. |
+   * Seleziona [!UICONTROL **Abilita regole di filtro bot IAB**] rimuovere i bot dall’elenco internazionale Spiders e Bots di IAB (International Advertising Bureau) per rimuovere il traffico generato da bot.
+
+     È consigliabile selezionare almeno questa opzione.
+
+     Per ulteriori informazioni, consulta la sezione seguente, [Regole bot IAB standard](#standard-iab-bot-rules).
+
+   * Seleziona [!UICONTROL **Aggiungi regola**] definire e aggiungere regole bot personalizzate basate su agenti utente, indirizzi IP o intervalli IP.
+
+     Per ulteriori informazioni, consulta la sezione seguente, [Regole bot personalizzate](#custom-bot-rules).
+
+   * Accanto al [!UICONTROL **Selezionate il file bot CSV da importare**] area, seleziona [!UICONTROL **Scegli file**], quindi seleziona il file CSV che definisce le regole bot.
+
+     Per ulteriori informazioni, consulta la sezione seguente, [Caricare regole bot](#upload-bot-rules).
+
+1. Seleziona [!UICONTROL **Salva**].
 
 ## Regole bot standard IAB
 
@@ -39,13 +62,15 @@ Le regole IAB standard possono essere attivate selezionando la casella di contro
 
 Adobe non è in grado di fornire ai clienti l’elenco dettagliato dei bot IAB; tuttavia puoi utilizzare il rapporto Bots per ottenere un elenco dei bot che hanno effettuato l’accesso al tuo sito. Per segnalare un bot da inserire nell’elenco IAB, visita [IAB](https://www.iab.com).
 
+Per informazioni su come abilitare le regole bot IAB standard in una suite di rapporti, consulta [Aggiornare o caricare le regole bot](#update-or-upload-bot-rules).
+
 ## Regole bot personalizzate
 
 >[!NOTE]
 >
 >L’interfaccia utente consente di definire manualmente 500 regole. Al raggiungimento di tale limite, le regole devono essere gestite in gruppo usando le opzioni Importa file ed Esporta regole bot.
 
-Le regole bot personalizzate consentono di filtrare il traffico sulla base delle condizioni definite.
+Le regole bot personalizzate consentono di filtrare il traffico in base alle condizioni definite. Per iniziare il processo di abilitazione delle regole bot personalizzate in una suite di rapporti, vedi [Aggiornare o caricare le regole bot](#update-or-upload-bot-rules).
 
 Le regole bot personalizzate vengono definite utilizzando i seguenti tipi di condizioni:
 
@@ -86,37 +111,52 @@ Specifica gli intervalli iniziale e finale degli indirizzi IP da rilevare. Sosti
 
 Per importare in blocco le regole bot, puoi caricare un file CSV che le definisce.
 
-Crea un file CSV con le seguenti colonne, nell’ordine indicato:
+1. Per iniziare il processo di caricamento delle regole bot in una suite di rapporti, vedi [Aggiornare o caricare le regole bot](#update-or-upload-bot-rules).
 
-| Colonna 1 | Colonna 2 | Colonna 3 | Colonna 4 | Colonna 5 |
-|--- |--- |---|---|---|
-| Nome bot | Inizio IP | Fine IP | Regola di corrispondenza agente<br>(contiene o inizia con)</br> | Esclusione agente<br>(limite di 255 caratteri)</br> |
+1. Crea un file CSV con le seguenti colonne, nella riga 1 del foglio di calcolo e nell’ordine indicato:
 
-Puoi definire tre tipi di regole bot:
+   | Colonna 1, riga 1 | Colonna 2, riga 1 | Colonna 3, riga 1 | Colonna 4, riga 1 | Colonna 5, riga 1 | Colonna 6, riga 1 |
+   |--- |--- |---|---|---|---|
+   | Nome bot | Inizio IP | Fine IP | Regola<br>(contiene o inizia con)</br> | Agente utente - Includi | Esclusione agente utente<br>(limite di 255 caratteri)</br> |
 
-* L’agente utente contiene o inizia con
-* Corrispondenza indirizzo IP singolo o con caratteri jolly
-* Corrispondenza intervallo IP
+   Puoi definire tre tipi di regole bot:
 
-Ogni riga del file di importazione può contenere solo una delle seguenti definizioni di bot:
+   * L’agente utente contiene o inizia con
+   * Corrispondenza indirizzo IP singolo o con caratteri jolly
+   * Corrispondenza intervallo IP
 
-* **L’agente utente contiene o inizia con**: specifica una singola stringa dell’agente utente da rilevare nella colonna degli agenti da includere. Per specificare il tipo di corrispondenza da eseguire, inserisci *contains* o *starts with* nel campo Regola di corrispondenza agente. Un valore facoltativo può essere incluso nella colonna Esclusione agente che definisce una o più stringhe delimitate da barre verticali (`|`) che l’agente non contiene. La corrispondenza delle stringhe non fa distinzione tra maiuscole e minuscole. Le colonne Inizio IP e Fine IP devono essere vuote.
+   Ogni riga del file di importazione può contenere solo una delle seguenti definizioni di bot:
 
-* **Corrispondenza indirizzo IP singolo o con caratteri jolly**: per far corrispondere un singolo indirizzo IP ( `10.10.10.1`) o indirizzo IP con caratteri jolly (`10.10.*.*`), inserisci lo stesso valore nelle colonne Inizio IP e Fine IP. Regola di corrispondenza, Inclusione agente ed Esclusione agente devono essere vuoti.
+   >[!NOTE]
+   >
+   >   Per rilvare un bot utilizzando una combinazione di regole unite con un operatore OR (ad esempio, agente utente o indirizzo IP), specifica nel campo del nome del bot un nome identico per tutte le regole che desideri combinare. Le corrispondenze AND non sono supportate.
 
-* **Corrispondenza intervallo IP**: definisci un intervallo di indirizzi IP utilizzando le colonne Inizio IP e Fine IP. I caratteri jolly possono essere utilizzati per rilevare intervalli IP, ad esempio `10.10.10.*` a `10.10.20.*`. Regola di corrispondenza, Inclusione agente ed Esclusione agente devono essere vuoti.
 
-### Più regole combinate con OR
+   * **L’agente utente contiene o inizia con**: specifica una singola stringa dell’agente utente da rilevare nella colonna degli agenti da includere. Per specificare il tipo di corrispondenza da eseguire, inserisci *contains* o *starts with* nel campo Regola di corrispondenza agente. Un valore facoltativo può essere incluso nella colonna Esclusione agente che definisce una o più stringhe delimitate da barre verticali (`|`) che l’agente non contiene. La corrispondenza delle stringhe non fa distinzione tra maiuscole e minuscole. Le colonne Inizio IP e Fine IP devono essere vuote.
 
-Per rilvare un bot utilizzando una combinazione di regole unite con un operatore OR (ad esempio, agente utente o indirizzo IP), specifica nel campo del nome del bot un nome identico per tutte le regole che desideri combinare. Le corrispondenze AND non sono supportate.
+   * **Corrispondenza indirizzo IP singolo o con caratteri jolly**: per far corrispondere un singolo indirizzo IP ( `10.10.10.1`) o indirizzo IP con caratteri jolly (`10.10.*.*`), inserisci lo stesso valore nelle colonne Inizio IP e Fine IP. Regola di corrispondenza, Inclusione agente ed Esclusione agente devono essere vuoti.
 
-### Sovrascrivere tutte le regole con un file di caricamento
+   * **Corrispondenza intervallo IP**: definisci un intervallo di indirizzi IP utilizzando le colonne Inizio IP e Fine IP. I caratteri jolly possono essere utilizzati per rilevare intervalli IP, ad esempio `10.10.10.*` a `10.10.20.*`. Regola di corrispondenza, Inclusione agente ed Esclusione agente devono essere vuoti.
 
-Seleziona la casella di controllo **[!UICONTROL Overwrite existing rules]** per eliminare tutte le regole esistenti e sostituirle con le regole definite nel file caricato.
+1. Nella pagina Regole bot in Report Suite Manager, accanto a [!UICONTROL **Selezionate il file bot CSV da importare**] area, seleziona [!UICONTROL **Scegli file**], quindi seleziona il file CSV che definisce le regole bot da importare.
 
-### Esportare le regole
+1. (Facoltativo) Seleziona la **[!UICONTROL Overwrite existing rules]** per eliminare tutte le regole esistenti e sostituirle con le regole definite nel file di caricamento.
 
-Il pulsante **[!UICONTROL Export Uploaded Bot File]** esporta tutte le regole definite nell’interfaccia utente in formato CSV.
+1. Seleziona [!UICONTROL **Importa file**].
+
+1. In [!UICONTROL **Set di regole**] , rivedere le regole importate.
+
+1. Seleziona [!UICONTROL **Salva**].
+
+## Esporta regole bot
+
+Per esportare tutte le regole definite nell’interfaccia utente in formato CSV:
+
+1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+
+1. Seleziona la suite di rapporti che contiene le regole bot da esportare, quindi seleziona **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
+
+1. Seleziona **[!UICONTROL Export Bot Rules]**, quindi salva il file CSV nel file system.
 
 ## Impatto delle regole bot sulla raccolta dei dati {#section_F01A3130E7A04A9993371CF26F6586F2}
 
