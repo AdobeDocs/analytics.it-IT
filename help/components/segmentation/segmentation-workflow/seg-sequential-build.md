@@ -3,10 +3,10 @@ description: I segmenti sequenziali vengono creati utilizzando l’operatore THE
 title: Creare segmenti sequenziali
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
+source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
 workflow-type: tm+mt
-source-wordcount: '3710'
-ht-degree: 98%
+source-wordcount: '3765'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,7 @@ Ecco un video sulla segmentazione sequenziale:
 Quando crei un segmento in cui è impostata l’opzione “Includi tutti”, il segmento identifica i percorsi che corrispondono al pattern specificato nel suo insieme. Di seguito è riportato un esempio di segmento di sequenza di base alla ricerca di un hit (Pagina A) seguito da un altro (Pagina B) visitato dallo stesso visitatore. Il segmento è impostato su Includi tutti.
 
 ![](/help/admin/admin/assets/filter.png)
+![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
 
 | Se il risultato | Sequenza |
 |--- |--- |
@@ -343,6 +344,16 @@ Utilizza gli operatori [!UICONTROL Within] e [!UICONTROL After] incorporati nell
 ![](assets/then_within_operators.png)
 
 Puoi limitare la corrispondenza a una determinata durata utilizzando gli operatori [!UICONTROL Within] e [!UICONTROL After] specificando granularità e conteggio. L’operatore [!UICONTROL Within] viene utilizzato per specificare un limite massimo per il periodo di tempo tra due punti di controllo. L’operatore [!UICONTROL After] viene utilizzato per specificare un limite minimo per il periodo di tempo tra due punti di controllo.
+
+>[!NOTE]
+>
+>Esistono differenze nella valutazione tra elementi con nomi simili, come **Giorno/i** o **Giorno**. Per le definizioni basate sul tempo di Within e After, utilizzate le opzioni elencate per prime nella finestra a comparsa:
+>
+>![immagine](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>
+>Per le definizioni basate sulle dimensioni entro e dopo, utilizza le opzioni del sottomenu *Altri Dimension*:
+>
+>![immagine](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 
 ### Operatori After e Within {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
