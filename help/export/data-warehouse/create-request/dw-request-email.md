@@ -2,22 +2,15 @@
 description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare le opzioni di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 10%
+source-wordcount: '190'
+ht-degree: 3%
 
 ---
 
 # Configurare un messaggio e-mail di notifica per una richiesta Data Warehouse
-
->[!AVAILABILITY]
->
->Alcune delle funzioni di Data Warehouse descritte in questo articolo (e in altri articoli di Data Warehouse presenti in questa sezione) sono disponibili solo nella fase di test limitato del rilascio e potrebbero non essere ancora disponibili nel tuo ambiente.
->
->Per informazioni sulle funzioni non ancora disponibili per tutti i clienti e sulle tempistiche di rilascio, vedi la [note sulla versione](/help/release-notes/latest.md).
->
->Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
 
 Durante la creazione di una richiesta Data Warehouse sono disponibili varie opzioni di configurazione. Le informazioni seguenti descrivono come configurare un messaggio e-mail di notifica per la richiesta.
 

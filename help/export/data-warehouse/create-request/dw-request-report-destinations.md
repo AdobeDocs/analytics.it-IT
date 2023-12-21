@@ -3,22 +3,14 @@ description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare una destinazione di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '2339'
-ht-degree: 4%
+source-wordcount: '2163'
+ht-degree: 2%
 
 ---
 
 # Configurare una destinazione di rapporto per una richiesta Data Warehouse
-
->[!AVAILABILITY]
->
->Alcune delle funzioni di Data Warehouse descritte in questo articolo (e in altri articoli di Data Warehouse presenti in questa sezione) sono disponibili solo nella fase di test limitato del rilascio e potrebbero non essere ancora disponibili nel tuo ambiente.
->
->Per informazioni sulle funzioni non ancora disponibili per tutti i clienti e sulle tempistiche di rilascio, vedi la [note sulla versione](/help/release-notes/latest.md).
->
->Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
 
 Durante la creazione di una richiesta Data Warehouse sono disponibili varie opzioni di configurazione. Le informazioni seguenti descrivono come configurare una destinazione di rapporto per la richiesta.
 
@@ -81,7 +73,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
 +++
 
-      +++Piattaforma Google Cloud
+      +++Piattaforma cloud Google
 
       Specifica le seguenti informazioni per configurare un account di Google Cloud Platform:
 
@@ -93,7 +85,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
 +++
 
-      +++SAS di Azure
+      SAS di +++Azure
 
       Specificare le informazioni seguenti per configurare un account SAS di Azure:
 
@@ -109,7 +101,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
 +++
 
-      +++RBAC di Azure
+      +++Azure RBAC
 
       Specificare le informazioni seguenti per configurare un account RBAC di Azure:
 
@@ -143,47 +135,47 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       | Campo | Funzione |
       |---------|----------|
-      | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. Assicurati che l’ARN utente fornito da Adobe abbia accesso al caricamento di file in questo bucket. |
+      | [!UICONTROL **Nome bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. Assicurati che l’ARN utente fornito da Adobe abbia accesso al caricamento di file in questo bucket. |
       | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, nome_cartella/ |
 
       {style="table-layout:auto"}
 
 +++
 
-      +++Piattaforma Google Cloud
+      +++Piattaforma cloud Google
 
       Per configurare il percorso di una piattaforma Google Cloud, specifica le seguenti informazioni:
 
       | Campo | Funzione |
       |---------|----------|
-      | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. Assicurati di aver concesso all’entità fornita da Adobe l’autorizzazione per caricare i file in questo bucket. Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) nella documentazione di Google Cloud. |
+      | [!UICONTROL **Nome bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. Assicurati di aver concesso all’entità fornita da Adobe l’autorizzazione per caricare i file in questo bucket. Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) nella documentazione di Google Cloud. |
       | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, nome_cartella/ |
 
       {style="table-layout:auto"}
 
 +++
 
-      +++SAS di Azure
+      SAS di +++Azure
 
       Specificare le informazioni seguenti per configurare un percorso SAS di Azure:
 
       | Campo | Funzione |
       |---------|----------|
       | [!UICONTROL **Nome contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. |
-      | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, `folder_name/` |
+      | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
 
       {style="table-layout:auto"}
 
 +++
 
-      +++RBAC di Azure
+      +++Azure RBAC
 
       Specificare le informazioni seguenti per configurare un percorso RBAC di Azure:
 
       | Campo | Funzione |
       |---------|----------|
       | [!UICONTROL **Nome contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. Accertati di concedere le autorizzazioni per caricare i file nell’applicazione Azure creata in precedenza. |
-      | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, `folder_name/` |
+      | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
       | [!UICONTROL **Nome account**] | Account di archiviazione Azure. |
 
       {style="table-layout:auto"}

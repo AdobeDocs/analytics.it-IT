@@ -2,22 +2,15 @@
 description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Creare un rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 9%
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
 # Creare un rapporto per una richiesta Data Warehouse
-
->[!AVAILABILITY]
->
->Alcune delle funzioni di Data Warehouse descritte in questo articolo (e in altri articoli di Data Warehouse presenti in questa sezione) sono disponibili solo nella fase di test limitato del rilascio e potrebbero non essere ancora disponibili nel tuo ambiente.
->
->Per informazioni sulle funzioni non ancora disponibili per tutti i clienti e sulle tempistiche di rilascio, vedi la [note sulla versione](/help/release-notes/latest.md).
->
->Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
 
 Durante la creazione di una richiesta Data Warehouse sono disponibili varie opzioni di configurazione. Le informazioni seguenti descrivono come creare un rapporto per la richiesta.
 

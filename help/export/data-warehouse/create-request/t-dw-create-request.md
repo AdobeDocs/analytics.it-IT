@@ -1,24 +1,16 @@
 ---
 description: Passaggi che descrivono come creare una richiesta Data Warehouse.
-title: Create a Data Warehouse Request (Creare una richiesta di archivio dati)
+title: Creare una richiesta di Data Warehouse
 feature: Data Warehouse
 exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 16%
+source-wordcount: '124'
+ht-degree: 18%
 
 ---
 
-# Create a Data Warehouse Request (Creare una richiesta di archivio dati)
-
->[!AVAILABILITY]
->
->Alcune delle funzioni di Data Warehouse descritte in questo articolo (e in altri articoli di Data Warehouse presenti in questa sezione) sono disponibili solo nella fase di test limitato del rilascio e potrebbero non essere ancora disponibili nel tuo ambiente.
->
->Per informazioni sulle funzioni non ancora disponibili per tutti i clienti e sulle tempistiche di rilascio, vedi la [note sulla versione](/help/release-notes/latest.md).
->
->Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
+# Creare una richiesta di Data Warehouse
 
 Durante la creazione di una richiesta Data Warehouse sono disponibili varie opzioni di configurazione. Le informazioni seguenti descrivono come iniziare a creare una richiesta, quindi forniscono collegamenti a informazioni più dettagliate per completare la richiesta.
 
@@ -40,11 +32,11 @@ Sono disponibili diverse schede durante la creazione di una richiesta Data Wareh
 
 * [Impostazioni generali](/help/export/data-warehouse/create-request/dw-general-settings.md)
 
-* [Creare il rapporto](/help/export/data-warehouse/create-request/dw-request-build-report.md)
+* [Generare il rapporto](/help/export/data-warehouse/create-request/dw-request-build-report.md)
 
 * [Destinazione del rapporto](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
 
-* [Opzioni di report](/help/export/data-warehouse/create-request/dw-request-report-options.md)
+* [Opzioni per il rapporto](/help/export/data-warehouse/create-request/dw-request-report-options.md)
 
 * [Opzioni di pianificazione](/help/export/data-warehouse/create-request/dw-request-scheduling.md)
 
