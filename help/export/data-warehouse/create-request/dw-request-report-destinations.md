@@ -85,7 +85,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
 +++
 
-      SAS di +++Azure
+      +++SAS di Azure
 
       Specificare le informazioni seguenti per configurare un account SAS di Azure:
 
