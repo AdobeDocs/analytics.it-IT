@@ -1,18 +1,18 @@
 ---
 title: Gestione consolidamento set di classificazione
 description: Consolida una o più serie di classificazioni in un'unica serie.
-exl-id: 032e93f6-9c11-4522-a02e-376eb4fd98bf
+exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 7%
+source-wordcount: '245'
+ht-degree: 8%
 
 ---
 
 # Gestione consolidamenti set di classificazione
 
-Se disponi di più set di classificazione che contengono dati simili, puoi consolidarli in un unico set di classificazione. Quando consolidi due o più set di classificazione, Adobe genera un nuovo set di classificazione che contiene tutti i dati di classificazione di ogni singolo set di classificazione. I consolidamenti sono utili quando hai caricato dati in molte suite di rapporti o dimensioni che contengono gli stessi dati di classificazione e desideri unirli in un unico flusso di lavoro.
+Se disponi di più set di classificazione che contengono dati simili, puoi consolidarli in un unico set di classificazione. Quando consolidi due o più set di classificazione, Adobe genera un nuovo set di classificazione che contiene tutti i dati di classificazione di ogni singolo set di classificazione. I consolidamenti sono utili quando hai caricato dati in molte suite di rapporti o dimensioni che contengono gli stessi dati di classificazione e desideri unirli in un unico flusso di lavoro. Per visualizzare Gestione consolidamento set di classificazione, è necessario disporre dell’accesso come amministratore del prodotto per Adobe Analytics.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]**
 

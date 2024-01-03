@@ -3,10 +3,10 @@ title: Eventi pagina
 description: Il numero di azioni di tracciamento dei collegamenti attivate.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a7434f72159a575f9ad7bf29644cb17777382df7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 9%
+source-wordcount: '146'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ Gli &quot;eventi di pagina&quot; [metrica](overview.md) mostra il numero di volt
 
 ## Come è calcolata questa metrica
 
-Questa metrica conta tutti [Chiamate di tracciamento dei collegamenti (`tl()`)](/help/implement/vars/functions/tl-method.md) in una suite di rapporti. Sono inclusi tutti i tipi di collegamento (collegamenti personalizzati, collegamenti di download e collegamenti di uscita). Non include [Chiamate di tracciamento della visualizzazione pagina (`t()`)](/help/implement/vars/functions/t-method.md).
+Questa metrica conta tutti [Chiamate di tracciamento dei collegamenti (`tl()`)](/help/implement/vars/functions/tl-method.md) in una suite di rapporti. In questa metrica sono inclusi tutti i tipi di collegamento, in particolare [Collegamenti personalizzati](../dimensions/custom-link.md), [Collegamenti di download](../dimensions/download-link.md), e [Collegamenti di uscita](../dimensions/exit-link.md). Non include [Chiamate di tracciamento della visualizzazione pagina (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## Confronto con metriche simili
 

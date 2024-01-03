@@ -4,40 +4,29 @@ title: Filtri URL interni
 feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-source-git-commit: 2beb4cd38fc8b48e2b34468a4570f7168aeacb78
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 32%
+source-wordcount: '202'
+ht-degree: 34%
 
 ---
 
 
 # Filtri URL interni
 
-I filtri URL interni ti consentono di identificare i referenti che ritieni interni al sito. Agevolano la compilazione dei dati nei rapporti sulle origini del traffico e aiutano a filtrare il traffico interno.
+I filtri URL interni consentono di identificare i referenti considerati interni al sito. Agevolano la compilazione dei dati nei rapporti sulle origini del traffico e aiutano a filtrare il traffico interno.
 
-Un referente o pagina di riferimento è in genere la pagina da cui un visitatore è entrato nel sito. Per evitare alterazioni dei dati, puoi filtrare i referenti interni. I rapporti escludono i referenti filtrati dalla dimensione [Referenti](/help/components/dimensions/referrer.md), dalla dimensione [Domini di riferimento](/help/components/dimensions/referring-domain.md) e da altre dimensioni dell’origine del traffico.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Internal URL Filters]**
 
-## Visualizzare i filtri URL interni esistenti
+Un referente o pagina di riferimento è in genere la pagina da cui un visitatore è entrato nel sito. Per evitare alterazioni dei dati, puoi filtrare i referenti interni. I Dimension che si basano su filtri URL interni includono [Referrer](/help/components/dimensions/referrer.md), [Dominio di riferimento](/help/components/dimensions/referring-domain.md), [Canali di marketing](/help/components/dimensions/marketing-channel.md)e altre dimensioni dell’origine del traffico.
 
->[!NOTE]
+[Regole di elaborazione per il canale di marketing](../marketing-channels/c-rules.md) fornisci &quot;[!UICONTROL Matches internal URL filters]&quot; come possibile criterio della regola.
+
+>[!IMPORTANT]
 >
->Alcune suite di rapporti hanno un filtro URL interno di un punto (.) configurato per impostazione predefinita. Quando questo filtro esiste, tutto il traffico viene classificato come interno. I rapporti referente non funzionano fino al punto (.) il filtro viene rimosso.
+>Alcune suite di rapporti hanno un filtro URL interno di un punto (`.`) configurata per impostazione predefinita. Quando questo filtro esiste, tutto il traffico viene classificato come interno. I rapporti del referente non funzionano finché questo filtro non viene rimosso e sostituito con uno o più domini interni desiderati.
 
-Per verificare quali filtri URL interni sono configurati per una suite di rapporti: <!-- I don't see the period in my instance? Is the following information valid? "To avoid this, remove the rule listing a period (.) as a filter, and add your own site. The reason why a period is the default internal URL filter is to allow data to be collected in the Pages report. If hits do not match internal URL filters, all pages come up as Other. A period is always somewhere in the URL, which guarantees the Pages report is populated.")-->
+* Visualizza tutti i filtri esistenti sotto **[!UICONTROL Current Filters]** sezione.
+* Aggiungi un filtro utilizzando la casella di testo sotto **[!UICONTROL Add Filter]** , quindi fai clic su **[!UICONTROL Add]**.
 
-1. Seleziona **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** per accedere a Report Suite Manager.
-
-1. Seleziona la suite di rapporti in cui desideri verificare quali filtri URL interni sono configurati, quindi seleziona **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Internal URL Filters]**.
-
-   Tutti i filtri esistenti sono elencati nella [!UICONTROL **Filtri correnti**] sezione .
-
-## Aggiungere un filtro URL interno a una suite di rapporti
-
-1. Seleziona **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** per accedere a Report Suite Manager.
-
-1. Seleziona la suite di rapporti in cui desideri aggiungere un filtro URL interno, quindi seleziona **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Internal URL Filters]**.
-
-1. Nella sezione Aggiungi filtro del campo fornito inizia a digitare l’URL della pagina da filtrare, quindi seleziona [!UICONTROL **Aggiungi**].
-
-   L’URL aggiunto è ora visibile nel [!UICONTROL **Filtri correnti**] sezione .
+I filtri funzionano con **contiene** rispetto all’URL completo. L&#39;Adobe consiglia di omettere il protocollo (`https://`) e i sottodomini durante la creazione di filtri, a meno che il traffico proveniente da sottodomini separati non sia desiderato come traffico esterno.

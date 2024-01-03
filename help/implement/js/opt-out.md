@@ -3,24 +3,24 @@ title: Collegamenti di rinuncia
 description: Scopri come creare e implementare collegamenti di rinuncia per i visitatori del tuo sito.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 5%
+source-wordcount: '553'
+ht-degree: 4%
 
 ---
 
 # Implementazione dei collegamenti di opt-out
 
-*Questa pagina di aiuto consente ai clienti di Adobe Analytics di fornire ai propri utenti collegamenti di rinuncia. Se non sei cliente di Adobe Analytics, consulta [Adobe di scelte sulla privacy](https://www.adobe.com/privacy/opt-out.html) per controllare il modo in cui Adobe utilizza le informazioni.*
-
 >[!IMPORTANT]
 >
->L’Adobe consiglia di utilizzare il servizio opt-in, in particolare per le organizzazioni interessate dalle normative RGPD. Consulta [Panoramica del servizio Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it) nella guida utente di Experience Cloud Identity Service.
+> **Questa pagina di aiuto consente ai clienti di Adobe Analytics di fornire ai propri utenti collegamenti di rinuncia. Se non sei cliente di Adobe Analytics, consulta [Adobe di scelte sulla privacy](https://www.adobe.com/privacy/opt-out.html) per controllare il modo in cui Adobe utilizza le informazioni.**
 
-Alcuni visitatori del tuo sito web preferiscono non includere le informazioni di navigazione nel set di dati. Adobe offre la possibilità di fornire ai visitatori del sito web un mezzo per rinunciare alla raccolta delle loro informazioni. Sono disponibili tutti i tipi di implementazione; la tua organizzazione è responsabile della tua politica sulla privacy e del rispetto dei termini firmati.
+Alcuni visitatori del tuo sito web preferiscono non includere le informazioni di navigazione nel set di dati. Adobe offre la possibilità di fornire ai visitatori del sito web un mezzo per rinunciare alle informazioni analizzate.
 
-Quando un visitatore raggiunge un URL di rinuncia, gli viene richiesto di installare un cookie di rinuncia. Se un utente sceglie di non essere tracciato e viene impostato un cookie di rinuncia, il file JavaScript continua a inviare dati ai server Adobe. Tuttavia, tali dati non vengono elaborati o inclusi nei rapporti.
+I collegamenti di rinuncia consentono ai visitatori del sito web di omettere i propri dati dai rapporti di Analytics. Questi collegamenti sono limitati alle implementazioni AppMeasurement; Adobe consiglia di utilizzare [Servizio Opt-in di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it) invece. Il servizio Opt-in è più robusto e funziona su più prodotti Adobe Experience Cloud, inclusi Adobe Analytics e AppMeasurement.
+
+Quando un visitatore raggiunge un URL di rinuncia, gli viene richiesto di installare un cookie di rinuncia. Se un utente sceglie di non essere tracciato e viene impostato un cookie di rinuncia, AppMeasurement continua a inviare dati ad Adobe. Tuttavia, tali dati non vengono elaborati o inclusi nei rapporti.
 
 >[!TIP]
 >
@@ -58,34 +58,30 @@ Esistono impostazioni che è possibile caricare automaticamente in questa pagina
 
 Cambia automaticamente la lingua della pagina di rinuncia includendo `locale` parametro stringa query. Assegna al parametro della stringa di query uno dei seguenti valori:
 
-* en_US (inglese, impostazione predefinita)
-* bg_BG (Bulgaro)
-* zh_CN (Cinese semplificato)
-* zh_TW (Cinese tradizionale)
-* cs_CZ (Ceco)
-* da_NK (Danese)
-* nl_NL (Olandese)
-* et_EE (estone)
-* fi_FI (Finlandese)
-* fr_FR (francese)
-* de_DE (Tedesco)
-* el_GR (Greco)
-* it_IT (italiano)
-* jp_JP (Giapponese)
-* ko_KR (Coreano)
-* lv_LV (Lettone)
-* lt_LT (Lituano)
-* nb_NO (Norvegese)
-* pl_PL (Polacco)
-* pt_BR (portoghese)
-* sk_SK (Slovacco)
-* es_ES (Spagnolo)
+* `en_US` (Inglese, impostazione predefinita)
+* `bg_BG` (Bulgaro)
+* `zh_CN` (Cinese semplificato)
+* `zh_TW` (Cinese tradizionale)
+* `cs_CZ` (Ceco)
+* `da_NK` (Danese)
+* `nl_NL` (Olandese)
+* `et_EE` (estone)
+* `fi_FI` (Finlandese)
+* `fr_FR` (Francese)
+* `de_DE` (Tedesco)
+* `el_GR` (Greco)
+* `it_IT` (Italiano)
+* `jp_JP` (Giapponese)
+* `ko_KR` (Coreano)
+* `lv_LV` (Lettone)
+* `lt_LT` (Lituano)
+* `nb_NO` (Norvegese)
+* `pl_PL` (Polacco)
+* `pt_BR` (Portoghese)
+* `sk_SK` (Slovacco)
+* `es_ES` (Spagnolo)
 
 Ad esempio: `https://example.data.adobedc.net/optout.html?locale=ko_KR` carica la pagina di rinuncia in coreano.
-
->[!TIP]
->
->Il `en_US` il valore della stringa di query non è richiesto, in quanto la pagina viene caricata in inglese per impostazione predefinita.
 
 ### Popup
 
