@@ -3,25 +3,24 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 835b7b07e46de4aa5dc0ae27bc9dee9c083660ad
+source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 96%
+source-wordcount: '968'
+ht-degree: 88%
 
 ---
 
-# Note sulla versione corrente di Adobe Analytics (ottobre/novembre 2023)
+# Note sulla versione corrente di Adobe Analytics (gennaio 2024)
 
 **Ultimo aggiornamento**: martedì 8 gennaio 2024
 
-Queste note sulla versione coprono il periodo di rilascio dal 23 ottobre 2023 a metà gennaio 2024. I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
+Queste note sulla versione coprono il periodo di rilascio di gennaio 2024. I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
 ## Nuove funzioni o miglioramenti {#features}
 
 | Funzionalità | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Miglioramenti nel Reporting Activity Manager** | Il Reporting Activity Manager ti consente di visualizzare la capacità di reporting per ogni suite di rapporti della tua organizzazione.  Offre agli amministratori una visibilità dettagliata sul consumo di reporting al fine di diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. Di seguito sono riportati alcuni miglioramenti disponibili nel Reporting Activity Manager: <ul><li>Limita richieste successive: oltre ad annullare le richieste correnti, gli amministratori possono ora limitare le richieste per un periodo di tempo definito. Gli amministratori possono limitare le richieste per Richiesta, Progetto e Utente.</li><li>Oltre alle metriche Utilizzo e Capacità, il Reporting Activity Manager ora include più dati sull’attività di reporting: colonna Complessità, colonna Utente e colonna Connessione.</li><li>Tutte le cancellazioni e le restrizioni effettuate nel Reporting Activity Manager sono ora visibili nel Registro di controllo. Gli amministratori possono utilizzare il registro di controllo per visualizzare ciò che è attualmente annullato. Nel Reporting Activity Manager o nel Registro di controllo non è possibile annullare le cancellazioni.</li></ul><p>Per ulteriori informazioni, consulta [Panoramica sul Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 17 ottobre 2023 | 24 ottobre 2023 |
-| **Miglioramenti a Data Warehouse** | Durante la creazione di una richiesta Data Warehouse, ora puoi configurare un account cloud da utilizzare come destinazione del rapporto. Per l’invio dei dati sono disponibili i seguenti tipi di account cloud:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-mail (opzione già disponibile in precedenza)</li></ul>FTP, SFTP, Azure Blob e S3 sono ancora disponibili come destinazioni di rapporti, ma non sono più consigliati.<p>È stata migliorata anche l’esperienza utente durante la creazione e la gestione delle richieste Data Warehouse. Per ulteriori informazioni, consulta [Creare una richiesta Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) e [Gestire le richieste Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=it). | 12 settembre 2023 | sabato 15 dicembre 2023 |
+| **Data Warehouse aggiornamenti** | Sono ora disponibili i seguenti miglioramenti alle Date Warehouse:<ul><li>Durante la creazione di una richiesta Data Warehouse, gli utenti possono ora rendere le richieste disponibili a tutti gli utenti dell’organizzazione abilitando il nuovo interruttore denominato [!UICONTROL **Rendi disponibile agli utenti della tua organizzazione**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>Durante la creazione o la gestione delle destinazioni dei rapporti di Data Warehouse, gli amministratori di sistema possono ora visualizzare gli account e le posizioni creati dagli utenti dell’organizzazione attivando l’interruttore denominato [!UICONTROL **Mostra tutte le destinazioni**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | N/D | giovedì 10 gennaio 2024 |
 
 {style="table-layout:auto"}
 

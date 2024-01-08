@@ -3,7 +3,7 @@ description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Data Warehouse impostazioni generali della richiesta
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 3%
@@ -32,7 +32,7 @@ Per configurare le impostazioni generali per una richiesta Data Warehouse:
    |---------|----------|
    | Nome richiesta | Questo nome viene visualizzato nella pagina della Data Warehouse principale durante la gestione delle richieste. |
    | Intervalli di date | Seleziona l’intervallo di date da includere nel rapporto. <p>Puoi scegliere date personalizzate o un intervallo di date predefinito. Gli intervalli di predefiniti sono relativi alla data di invio del rapporto.</p><p>Sono disponibili le seguenti opzioni predefinite:</p><ul><li>Oggi</li><li>Ieri</li><li>Ultimi 7 giorni</li><li>Ultimi 30 giorni</li><li>Questa settimana</li><li>Ultima settimana</li><li>Ultime 2 settimane</li><li>Ultime 3 settimane</li><li>Ultime 4 settimane</li><li>Questo mese</li><li>Ultimo mese</li><li>Ultima ora</li></ul> |
-   | Granularità | <!--what does this setting do? It's not the schedule/frequency... --> Granularità temporale. I valori validi sono Nessuno, Ora, Giorno, Settimana, Mese, Trimestre e Anno.<p>La granularità del reporting richiede un tempo di elaborazione aggiuntivo. Se generi rapporti con granularità mensile per un intero anno, l’elaborazione dei rapporti sarà molto più rapida se invii una richiesta di rapporto per ogni mese.</p> |
+   | Granularità | <!--what does this setting do? It's not the schedule/frequency... --> Granularità temporale. I valori validi sono Nessuno, Ora, Giorno, Settimana, Mese, Trimestre e Anno.<p>La granularità del reporting richiede un tempo di elaborazione aggiuntivo. Se generi rapporti con granularità mensile per un intero anno, l’elaborazione dei rapporti sarà molto più rapida se invii una richiesta di rapporto per ogni mese.</p> <!-- Make this into a new row: Make available to users in your organization - All data warehouse requests are visible only to you and any system administrators. Enable this option if you want to make the request visible to everyone in your organization. <p>Enabling this option is useful if you want other users in your organization to help create or update the request.</p>--> |
 
    {style="table-layout:auto"}
 

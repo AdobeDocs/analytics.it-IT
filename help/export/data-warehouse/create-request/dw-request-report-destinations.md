@@ -3,9 +3,9 @@ description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare una destinazione di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2164'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,9 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
    ![Scheda Destinazione rapporto](assets/dw-report-destination.png)
 
-1. (Condizionale) Se in precedenza hai configurato un account (e una destinazione su tale account) che desideri utilizzare come destinazione del rapporto:
+1. (Condizionale) Se è già stato configurato un account (e una destinazione su tale account) che desideri utilizzare come destinazione del rapporto:
+
+   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
 
    1. Seleziona l’account da [!UICONTROL **Seleziona account**] menu a discesa.
 
@@ -85,7 +87,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
 +++
 
-      +++SAS di Azure
+      SAS di +++Azure
 
       Specificare le informazioni seguenti per configurare un account SAS di Azure:
 
@@ -123,7 +125,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
       |---------|----------|
       | [!UICONTROL **Recipients (Destinatari)**] | Le notifiche e-mail possono essere inviate a utenti specifici quando il rapporto viene inviato. Specifica un singolo indirizzo e-mail o un elenco di indirizzi e-mail separati da virgole. <!-- How does this differ from the Notification email tab? --> |
 
-   1. Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  | | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione del conto per distinguerlo da altri conti dello stesso tipo. | | [!UICONTROL **Account località**] | Seleziona l&#39;account località creato in [Aggiungi un account](#add-an-account). |
+   1. Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  | | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. | | [!UICONTROL **Account località**] | Selezionare il conto ubicazione creato in [Aggiungi un account](#add-an-account). |
 
    1. In [!UICONTROL **Proprietà posizione**] , specificare informazioni specifiche sul tipo di account dell&#39;account di posizione.
 
@@ -155,7 +157,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
 +++
 
-      +++SAS di Azure
+      SAS di +++Azure
 
       Specificare le informazioni seguenti per configurare un percorso SAS di Azure:
 

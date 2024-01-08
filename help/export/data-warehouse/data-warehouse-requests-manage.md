@@ -4,9 +4,9 @@ title: Gestire le richieste di Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 2%
 
 ---
@@ -153,7 +153,7 @@ Puoi configurare le informazioni visualizzate per ogni richiesta aggiungendo o r
    | Suite di rapporti | La suite di rapporti associata alla richiesta. |
    | Richiesto da | Utente che ha creato la richiesta. |
    | Data richiesta | Data in cui è stata effettuata la richiesta. |
-   | Stato | Sono disponibili i seguenti stati:<ul><li><p>**Completato**: richiesta eseguita correttamente.</p></li><li><p>**Annullato**: la richiesta è stata annullata dall’utente.</p></li><li><p>**Pianificato**: la richiesta è configurata per l’esecuzione su una pianificazione.</p></li><!-- Are there other statuses? Failed? --> |
+   | Stato | Sono disponibili i seguenti stati:<ul><li><p>**Completato**: richiesta eseguita correttamente.</p></li><li><p>**Annullato**: la richiesta è stata annullata dall’utente.</p></li><li><p>**Pianificato**: la richiesta è configurata per l’esecuzione su una pianificazione.</p></li><li><p>**Non riuscito**: richiesta non completata. Se la richiesta continua a non riuscire, contatta l’Assistenza clienti.</p></li></ul> |
 
    {style="table-layout:auto"}
 
