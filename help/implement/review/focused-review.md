@@ -3,10 +3,10 @@ title: Revisione mirata (dopo ogni rilascio del sito web)
 description: Segui questi passaggi per garantire che l’implementazione rimanga priva di errori e in linea con i KPI.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
+source-git-commit: fdb134bd75fce450ac891c2742be2045f7c5e4db
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
@@ -23,7 +23,7 @@ Conoscere i primi 5 indicatori di prestazioni chiave (KPI, Key Performance Indic
 Gli aggiornamenti del codice nel tempo possono avere ramificazioni non desiderate. Assicurati che tutte le metriche e le dimensioni associate ai tuoi [primi 5 KPI](/help/implement/review/define-kpis.md) funzionino ancora correttamente. Idealmente, questo viene fatto subito dopo il rilascio di un sito web; se non lo hai fatto negli ultimi mesi, fallo *now*. Per eseguire questa operazione:
 
 * Crea dashboard per vedere le visualizzazioni con tendenze orarie di queste metriche e variabili critiche (o configura [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) per ogni metrica). Poi monitorali per uno o due giorni per assicurarti di ottenere i dati previsti e corretti. Cerca i punti di flesso. Preparati a risolvere immediatamente eventuali problemi critici. Se riscontri delle discrepanze, cerca nel livello dati, nelle regole di gestione dei tag e nelle regole di elaborazione per scoprirne il motivo.
-* Esegui nuovamente [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) per monitorare le tendenze generali delle metriche e delle variabili KPI.
+* Esegui nuovamente [Analytics Health Dashboard](https://express.adobe.com/page/tnNQGNlfzta3b/) per monitorare le tendenze generali delle metriche e delle variabili KPI.
 
 *Per ulteriori dettagli su come verificare che le metriche e le variabili funzionino correttamente, [leggi questi suggerimenti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) da Sarah Owen, Champion Adobe Analytics.*
 
