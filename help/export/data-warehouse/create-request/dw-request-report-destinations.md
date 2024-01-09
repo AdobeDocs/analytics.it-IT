@@ -3,9 +3,9 @@ description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare una destinazione di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2201'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
 1. (Condizionale) Se è già stato configurato un account (e una destinazione su tale account) che desideri utilizzare come destinazione del rapporto:
 
-   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
+   1. (Facoltativo) Se sei un amministratore di sistema, il [!UICONTROL **Mostra tutte le destinazioni**] è disponibile. Abilita questa opzione se desideri avere accesso a tutti gli account e a tutte le posizioni creati da qualsiasi utente dell’organizzazione.
 
    1. Seleziona l’account da [!UICONTROL **Seleziona account**] menu a discesa.
 
@@ -87,7 +87,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
 +++
 
-      +++SAS di Azure
+      SAS di +++Azure
 
       Specificare le informazioni seguenti per configurare un account SAS di Azure:
 
@@ -157,7 +157,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
 +++
 
-      +++SAS di Azure
+      SAS di +++Azure
 
       Specificare le informazioni seguenti per configurare un percorso SAS di Azure:
 

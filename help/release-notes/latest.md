@@ -3,10 +3,10 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 88%
+source-wordcount: '990'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Queste note sulla versione coprono il periodo di rilascio di gennaio 2024. I ril
 
 | Funzionalità | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Data Warehouse aggiornamenti** | Sono ora disponibili i seguenti miglioramenti alle Date Warehouse:<ul><li>Durante la creazione di una richiesta Data Warehouse, gli utenti possono ora rendere le richieste disponibili a tutti gli utenti dell’organizzazione abilitando il nuovo interruttore denominato [!UICONTROL **Rendi disponibile agli utenti della tua organizzazione**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>Durante la creazione o la gestione delle destinazioni dei rapporti di Data Warehouse, gli amministratori di sistema possono ora visualizzare gli account e le posizioni creati dagli utenti dell’organizzazione attivando l’interruttore denominato [!UICONTROL **Mostra tutte le destinazioni**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | N/D | giovedì 10 gennaio 2024 |
+| **Data Warehouse aggiornamenti** | Sono ora disponibili i seguenti miglioramenti alle Date Warehouse:<ul><li>Durante la creazione di una richiesta Data Warehouse, gli utenti possono ora rendere le richieste disponibili a tutti gli utenti dell’organizzazione abilitando il nuovo interruttore denominato [!UICONTROL **Rendi disponibile agli utenti della tua organizzazione**].<p>Per ulteriori informazioni, consulta [Data Warehouse impostazioni generali della richiesta](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Durante la creazione o la gestione delle destinazioni dei rapporti di Data Warehouse, gli amministratori di sistema possono ora visualizzare gli account e le posizioni creati dagli utenti dell’organizzazione attivando l’interruttore denominato [!UICONTROL **Mostra tutte le destinazioni**].<p>Per ulteriori informazioni, consulta [Configurare una destinazione di rapporto per una richiesta Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | N/D | giovedì 10 gennaio 2024 |
 
 {style="table-layout:auto"}
 
