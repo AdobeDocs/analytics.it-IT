@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 52631b840ed04856480a2c9dae365ae46c844a97
+source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
 workflow-type: tm+mt
-source-wordcount: '4890'
-ht-degree: 97%
+source-wordcount: '4925'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,13 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 * Per informazioni su Adobe Media Analytics, consulta [Misurazione di audio e video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
 
 ## Dettagli sugli aggiornamenti principali della documentazione
+
+### 2024 {#24}
+
+| Funzionalità | Descrizione |
+| --- | --- |
+| **Gennaio 2024** | |
+| Aggiornamenti alla documentazione del pubblico medio per minuto del file multimediale | Informazioni aggiornate in [Pannello del pubblico medio per minuto del file multimediale](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) per una maggiore chiarezza.<p>I miglioramenti includono:</p> <ul><li>Migliore organizzazione delle informazioni</li><li>Sono stati aggiunti passaggi per indicare le informazioni basate sulle attività</li></ul> |
 
 ### 2023 {#23}
 
