@@ -3,9 +3,9 @@ title: Percentuale non recapitate
 description: Il rapporto di visite con esattamente un hit per le voci.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: b9073cdb6e47358c4f60922dcbed798cd955c29e
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
@@ -18,4 +18,4 @@ Ecco un esempio: Supponiamo che la homepage di un sito web riceva 500 visitatori
 
 ## Come è calcolata questa metrica
 
-Questa metrica viene calcolata utilizzando la formula [`Bounces`](bounces.md) `divided by` [`Entries`](entries.md).
+Questa metrica viene calcolata utilizzando la formula [Mancati recapiti](bounces.md) diviso per [Voci](entries.md).
