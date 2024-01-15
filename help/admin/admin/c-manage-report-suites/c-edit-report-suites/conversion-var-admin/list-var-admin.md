@@ -2,8 +2,9 @@
 title: Variabili elenco
 description: Crea e configura variabili elenco da utilizzare nei rapporti.
 feature: Admin Tools
+role: Admin
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 92%

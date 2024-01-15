@@ -3,10 +3,11 @@ description: Le regole di elaborazione consentono di apportare modifiche ai dati
 subtopic: Processing rules
 title: Funzionamento delle regole di elaborazione
 feature: Processing Rules
+role: Admin
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '696'
 ht-degree: 100%
 
 ---

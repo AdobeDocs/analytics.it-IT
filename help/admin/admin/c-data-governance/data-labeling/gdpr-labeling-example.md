@@ -2,11 +2,12 @@
 description: Mostra esempi su come etichettare i dati per i dati relativi agli hit, le richieste di accesso, le richieste di eliminazione
 title: Esempi di etichettatura
 feature: Data Governance
+role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 95%
+source-wordcount: '862'
+ht-degree: 94%
 
 ---
 
@@ -24,13 +25,13 @@ Supponi di avere i dati seguenti:
 |---|---|---|---|---|---|
 | **Nome variable** <br> **(Namespace)** | **MyProp1** <br> **(utente)** | **ID visitatore** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | Dati dei risultati | Mary | 77 | A | M | X |
-|  | Mary | 88 | B | N | Y |
-|  | Mary | 99 | C | O | Z |
-|  | John | 77 | D | P | W |
-|  | John | 88 | E | N | U |
-|  | John | 44 | F | Q | V |
-|  | John | 55 | G | R | X |
-|  | Alice | 66 | A | N | Z |
+| | Mary | 88 | B | N | Y |
+| | Mary | 99 | C | O | Z |
+| | John | 77 | D | P | W |
+| | John | 88 | E | N | U |
+| | John | 44 | F | Q | V |
+| | John | 55 | G | R | X |
+| | Alice | 66 | A | N | Z |
 
 ## Richiesta di accesso di esempio {#access}
 
@@ -147,7 +148,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">AAID=77 <br>(il valore di expandIDs non conta)</th>
+    <th colspan="5" style="text-align:center">AAID=77 <br>(il valore expandIDs non conta)</th>
   </tr>
   <tr>
     <th>MyProp1</th>

@@ -2,11 +2,11 @@
 description: La pagina Metodi di ricerca identifica il modo in cui i rapporti dei vari metodi di ricerca ricevono credito per gli eventi di successo della conversione sul sito. Ad esempio, se un motore di ricerca rimanda un visitatore al sito che effettua un acquisto, i Metodi di ricerca specificano in che modo il motore di ricerca riceve il merito per il riferimento.
 title: Metodi di ricerca
 feature: Admin Tools
-uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
+role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '310'
 ht-degree: 3%
 
 ---

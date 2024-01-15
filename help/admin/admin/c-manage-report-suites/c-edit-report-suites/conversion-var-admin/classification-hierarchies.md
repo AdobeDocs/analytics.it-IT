@@ -3,8 +3,9 @@ description: La pagina Gerarchie di classificazione consente di definire gerarch
 subtopic: Classifications
 title: Gerarchie di classificazione
 feature: Classifications
+role: Admin
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%

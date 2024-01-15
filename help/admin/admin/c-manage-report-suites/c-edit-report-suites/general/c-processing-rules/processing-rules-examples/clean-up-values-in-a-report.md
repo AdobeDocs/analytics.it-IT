@@ -3,9 +3,9 @@ description: Puoi cercare valori contenenti errori ortografici comuni e aggiorna
 subtopic: Processing rules
 title: Pulire i valori in un rapporto
 feature: Admin Tools
-uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
+role: Admin
 exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 100%

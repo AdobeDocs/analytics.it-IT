@@ -2,8 +2,9 @@
 description: Le regole bot consentono di rimuovere dalla suite di rapporti il traffico generato da spider e bot noti. La rimozione del traffico da bot può fornire una misurazione più precisa dell’attività degli utenti sul sito web.
 title: Comprendere e configurare le regole bot
 feature: Bot Removal
+role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 7813900a7c104acdb9b1a3ebfadf597a5070a3e7
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 68%

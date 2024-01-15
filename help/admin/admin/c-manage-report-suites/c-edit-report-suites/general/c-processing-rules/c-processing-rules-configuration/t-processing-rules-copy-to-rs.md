@@ -3,8 +3,9 @@ description: Passaggi che descrivono come copiare le regole di elaborazione da u
 subtopic: Processing rules
 title: Copiare le regole di elaborazione in un’altra suite di rapporti
 feature: Processing Rules
+role: Admin
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 79%

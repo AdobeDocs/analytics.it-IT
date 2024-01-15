@@ -2,11 +2,12 @@
 description: Scopri le linee guida e le raccomandazioni per il consenso degli utenti a memorizzare o leggere cookie non essenziali su dispositivi o browser.
 title: Quali sono le linee guida CNIL per il consenso degli utenti e i cookie
 feature: Data Governance
+role: Admin
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 75%
+source-wordcount: '646'
+ht-degree: 65%
 
 ---
 
@@ -21,8 +22,8 @@ Le Linee guida prevedono un’esenzione limitata dall’obbligo di consenso (&qu
 * Limite di 13 mesi per i cookie.   Puoi modificare la scadenza dei cookie di analisi utilizzando la variabile `cookieLifetime`.  I cookie di Experience Cloud, tra cui Analytics ed ECID, estendono la data di scadenza del cookie a ogni visita.  Per impostare una scadenza dei cookie statica e non continua, puoi: (1) scrivere un codice personalizzato per impostare una data in cui eliminare il cookie, oppure (2) utilizzare la tua CMP per gestire la data della reimpostazione del cookie. [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=it) e [cookie di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=it#ec-cookies)
 * Ambito limitato. L’ambito del cookie deve essere limitato a un solo sito o applicazione. [Cookie del browser](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#third-party-cookie-limitations)
 * Anonimizzazione. Anonimizza l’ultimo ottetto dell’indirizzo IP. [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
-* Nascondi l’ID visitatore dal reporting.   Per impostazione predefinita, gli ID visitatore non sono visibili in Adobe Workspace e Adobe Reports and Analytics.   Gli ID visitatore sono disponibili in Data Feeds e Data Warehouse.   L’accesso a Data Feeds e Data Warehouse può essere limitato da [Autorizzazioni di accesso in Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=it) e [Riferimento sulla colonna Feed dei dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it#columns%2C-descriptions%2C-and-data-types)
-* Parametri di geolocalizzazione. La geolocalizzazione non può essere più precisa del livello del codice postale. [Opzioni Zip](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=it) e [Impostazioni account generali](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=it)
+* Nascondi l’ID visitatore dal reporting.   Per impostazione predefinita, gli ID visitatore non sono visibili in Adobe Workspace e Adobe Reports and Analytics.   Gli ID visitatore sono disponibili in Data Feeds e Data Warehouse.   L’accesso a Data Feeds e Data Warehouse può essere limitato da [Autorizzazioni di accesso in Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=it) e [Riferimento sulla colonna Feed dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=it#columns%2C-descriptions%2C-and-data-types)
+* Parametri di geolocalizzazione. La geolocalizzazione non può essere più precisa del livello del codice postale. [Opzioni Zip](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=en) e [Impostazioni account generali](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=it)
 * Imposta le opzioni opt-in.   Il servizio opt-in consente di impostare i protocolli visitatore per determinare se è possibile impostare un cookie sul dispositivo o sul browser dell&#39;utente che visita il sito. [Servizio Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it)
 * Impedisci la condivisione dei dati.   Per impedire la condivisione dei dati su Adobe Audience Manager, utilizza la variabile di contesto `opt.dmp` per [Privacy Reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) per bloccare la condivisione degli hit.
 * Capacità di accesso ed eliminazione. Utilizza Privacy Service per le richieste di accesso ed eliminazione. [Analytics &amp; Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html?lang=it)
@@ -31,7 +32,7 @@ Le Linee guida prevedono un’esenzione limitata dall’obbligo di consenso (&qu
 
 Si applicano le seguenti considerazioni aggiuntive:
 
-* Adobe Analytics gestisce centri di elaborazione dati negli Stati Uniti, nel Regno Unito e a Singapore al fine di offrire flessibilità a tutti i clienti per raccogliere, elaborare e archiviare i propri dati a livello regionale. Durante la configurazione della configurazione iniziale di Adobe Analytics, i clienti possono selezionare la posizione desiderata del centro di elaborazione dati. I dati dei clienti vengono infine memorizzati nell’area selezionata per il prodotto Analytics di base.
+* Adobe Analytics gestisce centri di elaborazione dati negli Stati Uniti, nel Regno Unito e a Singapore al fine di fornire flessibilità a tutti i clienti per raccogliere, elaborare e archiviare i propri dati a livello regionale. Durante la configurazione della configurazione iniziale di Adobe Analytics, i clienti possono selezionare la posizione desiderata del centro di elaborazione dati. I dati dei clienti vengono infine memorizzati nell’area selezionata per il prodotto Analytics di base.
 * Prendi in considerazione la raccolta dello stato di consenso (opt-in) in una variabile Analytics al fine di separare i dati con e senza consenso per la segmentazione, per le suite di rapporti virtuali o per l’indirizzamento a end-point diversi.
 * Nessuna misurazione all’esterno del sito o dell’app senza previo consenso, ad esempio nessuna campagna off-site, campagne e-mail o iFrame.
 * La raccolta di informazioni personali in variabili non è consentita senza consenso. [Controllare le attività Experience Cloud in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html#implementing-opt-in-on-the-page)

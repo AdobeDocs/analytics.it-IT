@@ -2,10 +2,11 @@
 description: Passaggi che descrivono come configurare gli eventi di successo.
 title: Configurare eventi di successo
 feature: Event
+role: Admin
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 76%
 
 ---

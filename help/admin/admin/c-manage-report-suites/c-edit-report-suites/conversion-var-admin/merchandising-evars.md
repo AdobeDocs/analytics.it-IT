@@ -2,11 +2,12 @@
 title: eVar di merchandising e metodi di ricerca dei prodotti
 description: Approfondisci i concetti alla base delle eVar di merchandising e come vengono elaborati e allocati i dati.
 feature: Admin Tools
+role: Admin
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '5254'
-ht-degree: 89%
+source-wordcount: '5248'
+ht-degree: 88%
 
 ---
 
@@ -104,7 +105,7 @@ Il termine “Allocazione” per le eVar di merchandising è fuorviante, sopratt
 
 Comprendere cosa fa questa impostazione significa comprendere la differenza tra l’allocazione eVar e il binding eVar di merchandising. Per le eVar di merchandising, “Binding eVar di merchandising” è più appropriato per questa impostazione “Allocazione”.
 
-#### Impostazione standard di allocazione eVar
+#### Impostazione di allocazione standard eVar
 
 Ogni volta che un’eVar con sintassi standard viene raccolta da una richiesta di immagine, i server di elaborazione Adobe Analytics inseriscono dati in un’altra colonna del database, denominata `post_evar`. Poiché le eVar sono intese come persistenti (nella maggior parte dei casi scadono a un certo punto oltre l’hit corrente), i server impostano questa colonna `post_evar` su ogni richiesta di immagine successiva. È impostata come ultimo valore passato nell’eVar corrispondente. Per le eVar standard, quando si verifica un evento di successo, Adobe Analytics utilizza la colonna `post_evar` al posto della colonna eVar standard per determinare il valore eVar a cui deve essere dato il merito per l’evento.
 
@@ -112,7 +113,7 @@ Per le eVar standard, l’impostazione Allocazione determina se il primo o l’u
 
 Se l’impostazione Allocazione di un’eVar standard è uguale a “Most Recent (Last)”(Più recente, ultimo), il valore di eVar più recente raccolto dal visitatore viene inserito nella colonna `post_evar` per tutte le richieste di immagini successive. L’allocazione “Most Recent (Last)” (Più recente, ultima) implica che il valore `post_evar` cambia ogni volta che il relativo eVar corrispondente viene impostato su un nuovo valore in una richiesta di immagine. L’allocazione “Original Value (First)” (Valore originale, primo) implica che la colonna `post_evar` non cambia da un hit all’altro anche se l’eVar corrispondente potrebbe essere impostata su un valore diverso in una futura richiesta di immagine.
 
-#### Impostazione dell’allocazione eVar merchandising (binding)
+#### Impostazione di allocazione merchandising eVar (binding)
 
 Come accennato in precedenza, per tutte le eVar di merchandising con sintassi per variabile di conversione è disponibile solo l’allocazione &quot;Most Recent (Last)&quot; (Più recente, ultimo). Pertanto, l’impostazione Allocazione per le eVar di merchandising non determina quali valori vengono inseriti nella colonna post_evar mentre un visitatore continua a utilizzare il sito. Questa impostazione determina piuttosto il valore di eVar associato a un prodotto e il modo in cui tali prodotti riassegnano i propri eventi di successo ai valori di eVar a cui sono associati.
 
@@ -373,11 +374,11 @@ post_events="prodView";
 post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";
 ```
 
-Il valore presente nella colonna post_products potrebbe esserti familiare. Scorri verso l’alto in questo documento e confronta questo valore post_products con il valore s.products dell’esempio precedente.  La colonna post_products viene impostata utilizzando la sintassi per variabili di prodotto.
+Il valore presente nella colonna post_products potrebbe esserti familiare. Scorri verso l’alto in questo documento e confronta questo valore post_products con il valore s.products come mostrato nella. La colonna post_products viene impostata utilizzando la sintassi per variabili di prodotto.
 
 In pratica, il binding “copia” i valori della eVar con sintassi per variabile di conversione e li inserisce nella variabile prodotti tramite la sintassi prodotto. Questa azione di copia ha luogo solo se la variabile prodotti e un evento di binding (impostato tramite la configurazione di eVar) sono presenti nella stessa richiesta. A questo punto, i valori contenuti nelle colonne post_eVar sono associati al prodotto. Questo binding è rappresentato dalla sintassi prodotto memorizzata nella colonna post_products.
 
-## eVar per merchandising, metrica Istanze e Attribution
+## eVar di merchandising, metrica Istanze e Attribuzione
 
 Quando una eVar standard viene inviata in una chiamata al server Analytics, al valore nella colonna post_evar viene sempre attribuita un’istanza. Le istanze rappresentano il numero di volte in cui una eVar è stata impostata come valore specifico in una richiesta di immagine.
 
@@ -387,8 +388,8 @@ Le istanze per una eVar di merchandising assegnano l’attribuzione ai valori ch
 
 Ad esempio, l’impostazione `s.eVar1="Internal Keyword Search"` di per sé non attribuisce alcun merito per la metrica Istanza al valore eVar1 “Internal Keyword Search”. A quel punto viene registrata un’istanza. Tuttavia, a meno che un prodotto non sia associato al valore “Internal Keyword Search” allo stesso momento in cui `eVar1` viene impostata, l’istanza viene attribuita al bucket Non specificato. In altre parole, il valore `eVar1` “Internal Keyword Search” può ottenere un’istanza. Ma questo accade solo quando un prodotto associato al valore di “Internal Keyword Search” appare nella variabile dei prodotti nella stessa richiesta di immagine.
 
-In sintesi, senza configurazioni aggiuntive, la metrica Istanze predefinita per un eVar di merchandising non ha alcuna utilità. Fortunatamente, Adobe ha rilasciato [Attribution](/help/analyze/analysis-workspace/attribution/overview.md). Questa funzione consente di applicare più modelli di attribuzione per qualsiasi metrica personalizzata raccolta da Adobe Analytics. Le metriche che applicano questi modelli di attribuzione non utilizzano i valori presenti nelle colonne post_evar né i valori associati a uno specifico prodotto. Piuttosto, queste metriche utilizzano solo i valori trasmessi tramite le richieste di immagini stesse (o i valori acquisiti tramite le regole di elaborazione di Adobe Analytics). Puoi utilizzare le funzioni di Attribution per ottenere una metrica di istanze con attribuzione accurata per tutte le eVar di merchandising che utilizzano la sintassi per variabile di conversione.
+In sintesi, senza configurazioni aggiuntive, la metrica Istanze predefinita per un eVar di merchandising non ha alcuna utilità. Fortunatamente, rilasciato un Adobe [Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md). Questa funzione consente di applicare più modelli di attribuzione per qualsiasi metrica personalizzata raccolta da Adobe Analytics. Le metriche che applicano questi modelli di attribuzione non utilizzano i valori presenti nelle colonne post_evar né i valori associati a uno specifico prodotto. Piuttosto, queste metriche utilizzano solo i valori trasmessi tramite le richieste di immagini stesse (o i valori acquisiti tramite le regole di elaborazione di Adobe Analytics). Puoi utilizzare le funzioni di Attribution per ottenere una metrica di istanze con attribuzione accurata per tutte le eVar di merchandising che utilizzano la sintassi per variabile di conversione.
 
 ![Selezione attribuzione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 
-Quando si aggiunge a un rapporto una metrica di istanza per una eVar di merchandising, il modello di Attribution appropriato sarà il modello “Last Touch” (Ultimo contatto). In questo caso, l’impostazione della finestra di lookback per il modello non ha importanza. Infatti, un modello di attribuzione Ultimo contatto “forzato” attribuisce sempre all’istanza il merito di ogni singolo valore trasmesso tramite una richiesta. Ciò indipendentemente dal fatto che le impostazioni di attribuzione/binding effettive dell’eVar siano impostate su “Most Recent (Last)” (Più recente, ultimo) o “Original Value (First)” (Valore originale, primo).
+Quando si aggiunge a un rapporto una metrica di istanza per un eVar di merchandising, il modello di attribuzione corretto è il modello &quot;Last Touch&quot; (Ultimo contatto). In questo caso, l’impostazione della finestra di lookback per il modello non ha importanza. Infatti, un modello di attribuzione Ultimo contatto “forzato” attribuisce sempre all’istanza il merito di ogni singolo valore trasmesso tramite una richiesta. Ciò indipendentemente dal fatto che le impostazioni di attribuzione/binding effettive dell’eVar siano impostate su “Most Recent (Last)” (Più recente, ultimo) o “Original Value (First)” (Valore originale, primo).

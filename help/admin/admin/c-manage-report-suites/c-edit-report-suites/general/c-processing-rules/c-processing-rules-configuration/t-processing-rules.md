@@ -3,8 +3,9 @@ description: Le regole di elaborazione sono impostate per le suite di rapporti.
 subtopic: Processing rules
 title: Creare regole di elaborazione
 feature: Processing Rules
+role: Admin
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%

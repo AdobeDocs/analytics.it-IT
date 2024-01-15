@@ -2,10 +2,11 @@
 title: Firme bot comuni
 description: Riconoscere gli identificatori comuni dei bot.
 feature: Bot Removal
+role: Admin
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '535'
 ht-degree: 100%
 
 ---

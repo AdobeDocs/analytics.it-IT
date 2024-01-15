@@ -3,10 +3,11 @@ description: La variabile di conversione (o eVar) Custom Insight viene inserita 
 keywords: eVar
 title: Variabili di conversione (eVar)
 feature: Admin Tools
+role: Admin
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1621'
 ht-degree: 99%
 
 ---

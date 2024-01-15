@@ -3,8 +3,9 @@ description: Le classificazioni del traffico consentono di classificare le varia
 subtopic: Classifications
 title: Classificazioni traffico
 feature: Admin Tools
+role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 93%
