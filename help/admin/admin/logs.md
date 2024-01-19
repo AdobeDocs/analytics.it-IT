@@ -3,10 +3,10 @@ description: I file di registro sono utili per capire quando gli utenti accedono
 title: Registri
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 20%
+source-wordcount: '570'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ I file di registro sono utili per capire quando gli utenti accedono al sistema e
 
 ## Registro amministratore {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
-Il registro di amministrazione segnala tutte le modifiche apportate dagli amministratori negli strumenti di amministrazione. Inoltre permette di creare rapporti definiti dall’utente da uno dei tre registri disponibili. Puoi cercare gli eventi che corrispondono ai criteri selezionati in un intervallo di date specificato.
+Il registro di amministrazione segnala tutte le modifiche apportate dagli amministratori negli strumenti di amministrazione. Il registro fornisce un gateway per i rapporti definiti dall’utente da uno qualsiasi dei tre registri. Puoi cercare gli eventi che corrispondono ai criteri selezionati in un intervallo di date specificato.
 
 ## Registro di utilizzo e accesso {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
@@ -43,20 +43,18 @@ Il [!UICONTROL Usage and Access Log] consente di valutare l’utilizzo del rappo
 | Accesso riuscito | Utente connesso correttamente. |
 | Azione di amministrazione | Si è verificata un’azione di amministrazione, come modificare una suite di rapporti, modificare le impostazioni aziendali, creare un utente, annullare una richiesta di reporting, ecc. |
 | Modifica delle impostazioni di sicurezza | È stata modificata un&#39;impostazione di protezione. |
-| Rapporto visualizzato | È stato visualizzato un rapporto Reports &amp; Analytics. |
-| Report scaricato | È stato scaricato un rapporto Reports &amp; Analytics. |
 | Avviso inviato | È stato inviato un avviso. |
 | Azione utente | Informazioni utente modificate. |
 | Strumento visualizzato | È stato visualizzato uno strumento. |
 | Azione Omniture | Azione eseguita da Adobe. |
 | Recupero password | È stata recuperata una password. |
-| BookMarks | Un segnalibro è stato gestito. |
+| Segnalibri | Un segnalibro è stato gestito. |
 | Dashboard | Un dashboard è stato gestito. |
 | Avvisi | È stato gestito un avviso. |
 | Eventi calendario | Un evento calendario è stato gestito. |
 | Target | Destinazione gestita. |
 | Impostazioni dei rapporti | È stata gestita un’impostazione di report. |
-| Rapporti programmati | Un report pianificato è stato gestito. |
+| Rapporti pianificati | Un report pianificato è stato gestito. |
 | Escludi per indirizzo IP | L&#39;impostazione IP è stata modificata. |
 | Denomina pagine | Obsoleto. |
 | Classificazioni | È stata gestita una classificazione. |

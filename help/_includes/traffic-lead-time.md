@@ -3,20 +3,16 @@ description: Adobe richiede un preavviso per la configurazione di nuovi account,
 title: Lead time richiesto per aumento di traffico
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: ht
-source-wordcount: '337'
+source-git-commit: 726e5ee71be60838e48bb682d7fd48bfc1f96ec3
+workflow-type: tm+mt
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
 
 # Lead time richiesto per aumento di traffico
 
-## Lead time richiesto per aumento di traffico
-
 Adobe richiede un preavviso per la configurazione di nuovi account, per i picchi e gli aumenti di traffico. L’hardware deve essere assegnato in anticipo per ridurre al minimo la latenza e gli eventuali impatti negativi sull’intero sistema.
-
-L’assegnazione dell’hardware è basata su avvisi inviati tramite l’interfaccia utente di Reports &amp; Analytics.
 
 >[!IMPORTANT]
 >
@@ -24,7 +20,7 @@ L’assegnazione dell’hardware è basata su avvisi inviati tramite l’interfa
 
 Per determinare con quanto anticipo è necessario inviare un avviso relativo al traffico, utilizza le seguenti linee guida:
 
-### Lead time assegnazione hardware
+## Lead time assegnazione hardware
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
@@ -65,6 +61,6 @@ Altri aspetti da considerare:
 
 * Gli avvisi del client sono necessari anche quando il traffico diminuisce o una suite dei rapporti è obsoleta.
 
-### Deallocazione dell’hardware a causa di traffico non realizzato
+## Deallocazione dell’hardware a causa di traffico non realizzato
 
 L’hardware per i nuovi account, i picchi e gli aumenti di traffico verranno deallocati se il traffico previsto nell’avviso del client non si concretizza entro 4 settimane dalla “data di pubblicazione”. Se il traffico è ancora previsto, è necessario generare un nuovo avviso del client come aumento del traffico.

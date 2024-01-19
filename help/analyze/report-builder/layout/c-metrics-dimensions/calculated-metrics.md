@@ -4,10 +4,10 @@ title: Metriche calcolate
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 16%
+source-wordcount: '398'
+ht-degree: 17%
 
 ---
 
@@ -36,7 +36,7 @@ I filtri disponibili includono:
 | Nome filtro | Descrizione |
 |---|---|
 | Tag | Consente di filtrare le metriche calcolate con tag specifici. I filtri di tag utilizzano l’operatore AND. Se selezioni due tag, nel riquadro a destra vengono visualizzate le metriche a cui sono stati assegnati tag **entrambi** tag. |
-| Suite di rapporti | Se si applica &quot;Solo&quot; *nome suite di rapporti* Filtro &quot; nel generatore di metriche calcolate in [!DNL Reports & Analytics], quindi visualizzare il Filtro avanzato in [!DNL Report Builder], il filtro Avanzate visualizza le metriche calcolate solo per la suite di rapporti selezionata. |
+| Suite di rapporti | Se si applica &quot;Solo&quot; *nome suite di rapporti* Filtro &quot; nel generatore di metriche calcolate in [!DNL Adobe Analytics], quindi visualizzare il Filtro avanzato in [!DNL Report Builder], il filtro Avanzate visualizza le metriche calcolate solo per la suite di rapporti selezionata. |
 | Proprietari | Consente di filtrare le metriche in base al proprietario. I filtri Proprietari utilizzano l’operatore OR. Se selezioni due proprietari, nel riquadro a destra vengono visualizzate le metriche di proprietà di **o** proprietario. |
 | Altri filtri > Approvati | Mostra tutte le metriche approvate ufficialmente. |
 | Altri filtri > Preferiti | Mostra tutte le metriche contrassegnate come Preferite. |

@@ -4,10 +4,10 @@ title: Panoramica degli avvisi intelligenti
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 86%
+source-wordcount: '333'
+ht-degree: 68%
 
 ---
 
@@ -19,23 +19,22 @@ Questo è un tutorial video sugli [avvisi intelligenti](https://experienceleague
 
 ## Panoramica
 
-Le nuove funzioni Generatore di avvisi e Gestione avvisi di Analysis Workspace sostituiscono la funzione di avvisi di Reports &amp; Analytics. La funzione Avvisi intelligenti permette di:
+I nuovi Generatori di avvisi e Gestione avvisi di Analysis Workspace sostituiscono la funzionalità di avvisi di Reports &amp; Analytics, che è stata disattivata. La funzione Avvisi intelligenti permette di:
 
 * Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore)
 * Visualizzare in anteprima la frequenza di attivazione degli avvisi
 * Inviare avvisi tramite e-mail o SMS con collegamenti ai progetti di Analysis Workspace generati automaticamente
 * Creare avvisi “impilati” in grado di acquisire più metriche in un singolo avviso
 
-È possibile accedere al Generatore di avvisi in quattro modi:
+Esistono tre modi per accedere al generatore di avvisi:
 
 | Metodo | Dettagli |
 | --- | --- |
 | Vai direttamente al Generatore di avvisi | **[!UICONTROL Components]** > **[!UICONTROL Alerts]** |
 | Utilizzare i tasti di scelta rapida in Workspace | `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac) |
-| Seleziona una o più voci di tabella a forma libera | Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **[!UICONTROL Create Alert from Selection]**. Verrà aperto il [!UICONTROL Alert Builder] e precompila le metriche e i filtri appropriati applicati dalla tabella. Se necessario, puoi quindi modificare l’avviso. ![Crea avviso da selezione](assets/create-alert-from-selection.png) |
-| Da un rapporto Reports &amp; Analytics | Vai a  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Verrà aperto il Generatore di avvisi, precompilato con le metriche appropriate e i filtri applicati dal report. Se necessario, puoi quindi modificare l’avviso. ![Aggiungi avviso](assets/add-alert.png) |
+| Seleziona una o più voci di tabella a forma libera | Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **[!UICONTROL Create Alert from Selection]**. Verrà aperto il [!UICONTROL Alert Builder] e precompila le metriche e i filtri appropriati applicati dalla tabella. Se necessario, puoi modificare l’avviso. ![Crea avviso da selezione](assets/create-alert-from-selection.png) |
 
-Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. In funzione della granularità temporale scelta, vengono utilizzati [modelli differenti](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99,75%).
+Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. A seconda della granularità temporale scelta, [diversi modelli](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) vengono utilizzati per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99,75%).
 
 >[!IMPORTANT]
 >

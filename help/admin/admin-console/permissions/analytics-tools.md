@@ -3,10 +3,10 @@ title: Autorizzazioni del profilo di prodotto per gli strumenti Analytics
 description: Utilizza gli elementi di autorizzazione degli strumenti di Analytics per concedere l’accesso alle funzioni di Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 87%
+source-wordcount: '368'
+ht-degree: 83%
 
 ---
 
@@ -18,14 +18,13 @@ Gli elementi di autorizzazione degli strumenti di Analytics concedono l’access
 |----|----|
 | [!UICONTROL Activity Map] | Consente di accedere a Tools > Activity Map (Strumenti > Activity Map). Consente di utilizzare l’estensione Activity Map. |
 | [!UICONTROL Advertising Analytics Management] | Consente agli utenti di configurare, modificare e visualizzare gli account per annunci e di ricerca. |
-| [!UICONTROL Analysis Workspace Access] | Consente di accedere ad Analysis Workspace. Per utilizzare Adobe Analytics, gli utenti devono appartenere a questo gruppo (preferito) o al gruppo Accesso a Reports &amp; Analytics. |
+| [!UICONTROL Analysis Workspace Access] | Consente di accedere ad Analysis Workspace. |
 | [!UICONTROL Analysis Workspace: Save As Template] | Consente di accedere a Progetto > Salva come modello in Analysis Workspace. |
 | [!UICONTROL Annotation Creation] | Consente di creare annotazioni. |
 | [!UICONTROL Calculated Metric Creation] | Consente di creare metriche calcolate in tutte le funzionalità di Analytics. |
 | [!UICONTROL Co-Branding] | Non utilizzato |
 | [!UICONTROL Code Manager] | Mantenuto per scopi legacy. Consente di accedere ad Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Nella maggior parte dei casi, utilizza le librerie incluse nell’estensione Adobe Analytics in Raccolta dati di Adobe Experience Platform. |
 | [!UICONTROL Code Manager - Web Services] | Consente di accedere a Gestione codici tramite l’API 1.4. |
-| [!UICONTROL Current Data] | Abilita l’opzione per visualizzare i dati correnti nei rapporti di Reports &amp; Analytics. |
 | [!UICONTROL Excel License Users] | Non utilizzato. |
 | [!UICONTROL Hide Report Suites] | Consente di accedere ad Admin > All admin > Company settings > Hide Report Suites (Amministrazione > Tutte le attività di amministrazione > Impostazioni società > Nascondi suite di rapporti). Consente di nascondere qualsiasi suite di rapporti nell’organizzazione, indipendentemente dall’accesso alla suite di rapporti. |
 | [!UICONTROL Integrations (Create)] | Non utilizzato. Data Connectors è stato terminato. |
@@ -38,7 +37,6 @@ Gli elementi di autorizzazione degli strumenti di Analytics concedono l’access
 | [!UICONTROL Pending Actions] | Consente di accedere ad Admin > All admin > Company settings > Pending Actions (Amministrazione > Tutte le attività di amministrazione > Impostazioni società > Azioni in sospeso). |
 | [!UICONTROL Preferences] | Non utilizzato |
 | [!UICONTROL Report Builder] | Abilita il pulsante di download in Strumenti > Report Builder e consente di eseguire l’autenticazione in Microsoft Excel. |
-| [!UICONTROL Reports & Analytics Access] | Consente di accedere a Reports &amp; Analytics. Per utilizzare Adobe Analytics, gli utenti devono appartenere a questo gruppo o al gruppo Accesso ad Analysis Workspace (opzione preferita). |
 | [!UICONTROL Security] | Consente di accedere ad Admin > All admin > Company settings > Security Manager (Amministrazione > Tutte le attività di amministrazione > Impostazioni società > Gestione sicurezza). |
 | [!UICONTROL Segment Creation] | Consente di creare e condividere segmenti in tutte le funzionalità di Analytics. |
 | [!UICONTROL Segment Publishing] | Consente di usare un segmento come pubblico Experience Cloud durante la creazione o la modifica di un segmento. |

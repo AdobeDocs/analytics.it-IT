@@ -4,10 +4,10 @@ title: Pannello Analytics for Target (A4T)
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 32dfab4b10d3637aba53081f747d2650fc33a8f0
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 87%
+source-wordcount: '979'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Puoi configurare il pannello A4T usando le seguenti impostazioni di input:
 
 | Impostazione | Descrizione |
 |---|---|
-| Target Attività | Seleziona da un elenco di attività di Target oppure trascina e rilascia un’attività dalla barra a sinistra. Nota: l’elenco è composto dagli ultimi 6 mesi di attività che hanno avuto almeno 1 hit. Se nell’elenco non viene visualizzata un’attività, potrebbe essere più vecchia di 6 mesi. Può essere comunque aggiunta dalla barra a sinistra, che ha un periodo di lookback fino a 18 mesi. |
+| Attività Target | Seleziona da un elenco di attività di Target oppure trascina e rilascia un’attività dalla barra a sinistra. Nota: l’elenco è composto dagli ultimi 6 mesi di attività che hanno avuto almeno 1 hit. Se nell’elenco non viene visualizzata un’attività, potrebbe essere più vecchia di 6 mesi. Può essere comunque aggiunta dalla barra a sinistra, che ha un periodo di lookback fino a 18 mesi. |
 | Control Experience | Seleziona la tua esperienza di controllo. Se necessario, puoi modificarlo nell’elenco a discesa. |
 | Normalizing metric | Scegli tra Visitatori univoci, Visite o Impression attività. L’opzione Visitatori univoci è consigliata per la maggior parte dei casi di utilizzo dell’analisi. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità. |
 | Success metrics | Seleziona fino a 3 eventi di successo standard (non calcolati) dai menu a discesa, oppure trascina e rilascia le metriche dalla barra a sinistra. Ogni metrica avrà una tabella e una visualizzazione dedicate nel pannello di cui è stato effettuato il rendering. |
@@ -50,7 +50,7 @@ Ogni tabella a forma libera mostra le seguenti colonne di metriche:
 | Conversion rate | Metrica di successo/Metrica di Normalizzazione |
 | Incremento | Confronta il tasso di conversione per ogni esperienza rispetto all’esperienza di controllo. Nota: Incremento è una “metrica bloccata” per le esperienze Target, non può essere raggruppata o utilizzata con altre dimensioni. |
 | Lift (Lower) | Rappresenta l’incremento peggiore che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%.<br>Consulta [Calcoli statistici](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) e [Completa il calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) File Excel per ulteriori informazioni. |
-| Lift (Mid) | Rappresenta l’incremento intermedio che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%. Corrisponde a “Lift” in Reports &amp; Analytics.<br>Consulta [Calcoli statistici](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) e [Completa il calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) File Excel per ulteriori informazioni. |
+| Lift (Mid) | Rappresenta l’incremento intermedio che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%. <br>Consulta [Calcoli statistici](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) e [Completa il calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) File Excel per ulteriori informazioni. |
 | Lift (Upper) | Rappresenta l’incremento migliore che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%.<br>Consulta [Calcoli statistici](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) e [Completa il calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) File Excel per ulteriori informazioni. |
 | Confidence | Il test t di Student calcola il livello di affidabilità, che indica la probabilità che i risultati vengano duplicati se il test viene eseguito di nuovo. Alla metrica è stato applicato un intervallo di formattazione condizionale fisso del 75%/85%/95%. Questa formattazione può essere personalizzata, se necessario, in Column settings. Nota: Affidabilità è una “metrica bloccata” per le esperienze Target, non può essere raggruppata o utilizzata con altre dimensioni.<br>Consulta [Calcoli statistici](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) e [Completa il calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) File Excel per ulteriori informazioni. |
 

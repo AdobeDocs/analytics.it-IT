@@ -4,9 +4,9 @@ title: Generazione di rapporti Activity Map in Analytics
 feature: Activity Map
 role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '233'
 ht-degree: 8%
 
 ---
@@ -34,6 +34,6 @@ Prima che gli utenti possano creare rapporti sulle dimensioni Activity Map, è n
 | Collegamenti Activity Map e area geografica | Elenca tutti i collegamenti raccolti con la rispettiva area geografica nell&#39;intero sito Web. |
 | XY ACTIVITY MAP | Non utilizzato |
 
-* Queste dimensioni devono essere disponibili in Analysis Workspace, Reports &amp; Analytics e Report Builder, purché l’implementazione di Analytics sia [abilitato per l’Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
-* In Reports &amp; Analytics, vai a **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map]**.
+* Queste dimensioni devono essere disponibili in Analysis Workspace e Report Builder, purché l’implementazione di Analytics sia [abilitato per l’Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
+* In Analysis Workspace, richiama le dimensioni relative ad Activitymap in un rapporto.
 * Per cercare un collegamento e un’area geografica per una pagina specifica, è sufficiente creare un raggruppamento dalla pagina Activity Map desiderata a quella Activity Map.

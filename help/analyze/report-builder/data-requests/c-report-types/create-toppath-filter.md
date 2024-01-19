@@ -4,10 +4,10 @@ title: Filtrare i rapporti di percorso aggiungendo richieste dipendenti
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 10%
+source-wordcount: '160'
+ht-degree: 11%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 10%
 
 Descrive come creare rapporti sui percorsi con filtri predefiniti.
 
-Marketing Reports &amp; Analytics offre alcuni rapporti autonomi che sono rapporti sul percorso principale con filtri preimpostati, ad esempio [!UICONTROL Next] e [!UICONTROL Previous Site Section] rapporti, entrata e [!UICONTROL Exit Site Section] rapporti, e [!UICONTROL Single Site Section] rapporto.
-
-Il Report Builder non offre questi rapporti come rapporti autonomi, ma puoi crearli tramite **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** menu di scelta rapida. Sono disponibili i seguenti rapporti:
+Il Report Builder non offre i rapporti sui percorsi come rapporti autonomi, ma puoi crearli tramite **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** menu di scelta rapida. Sono disponibili i seguenti rapporti:
 
 * Percorso > Abbandono pagina
 * Path (Percorso) > Entry Path (Percorso di ingresso)

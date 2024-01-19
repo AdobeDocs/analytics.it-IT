@@ -4,10 +4,10 @@ keywords: Metriche calcolate;Metriche derivate;Metriche calcolate avanzate
 title: Metriche calcolate e metriche calcolate avanzate (derivate)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 53%
+source-wordcount: '543'
+ht-degree: 43%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 53%
 
 Le metriche calcolate e le metriche calcolate avanzate (o derivate) sono metriche personalizzate che puoi creare dalle metriche esistenti.
 
-I nostri strumenti di metriche calcolate offrono un modo altamente flessibile di generare, gestire e curare le metriche. Consentono ad addetti al marketing, product manager e analisti di porre domande sui dati senza dover cambiare l’implementazione [!DNL Analytics]. Le metriche personalizzate disponibili in ogni [!DNL Analytics] pacchetto:
+I nostri strumenti di metriche calcolate offrono un modo altamente flessibile di generare, gestire e curare le metriche. Consentono ad addetti al marketing, product manager e analisti di porre domande sui dati senza dover cambiare il [!DNL Analytics] implementazione. Le metriche personalizzate disponibili in ogni [!DNL Analytics] pacchetto:
 
 * Adobe [!DNL Analytics] Foundation: calcolato
 * [Selezione Adobe Analytics](https://www.adobe.com/it/data-analytics-cloud/analytics/select.html): calcolato + Avanzato calcolato
@@ -30,7 +30,7 @@ Ecco un confronto tra le metriche calcolate e le funzionalità avanzate delle me
 | [Modifiche all’attribuzione (predefinita, lineare, di partecipazione, ecc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sì | Sì |
 | [Tipi di metriche (standard, totale)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sì | Sì |
 | Operatori di base (aggiungere, sottrarre, moltiplicare, dividere) | Sì | Sì |
-| [Applicare i segmenti](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | No | Sì |
+| [Applicare segmenti](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | No | Sì |
 | [Funzioni di base (conteggio, valore assoluto, media, ecc.)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | No | Sì |
 | [Funzioni avanzate (regressione, if/then, t-score, ecc.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | No | Sì |
 
@@ -38,7 +38,7 @@ Ecco un confronto tra le metriche calcolate e le funzionalità avanzate delle me
 
 È possibile eseguire le seguenti azioni:
 
-* Creare metriche in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], e [!UICONTROL Contribution Analysis].
+* Creare metriche in [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], e [!UICONTROL Contribution Analysis].
 * Creare metriche segmentate derivate in fase di esecuzione dei rapporti, senza dover modificare l’implementazione. Questi possono essere visualizzati storicamente perché sono basati su segmenti.
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
@@ -54,7 +54,6 @@ Ecco un confronto tra le metriche calcolate e le funzionalità avanzate delle me
 
 Alcuni [!DNL Analytics] Le funzioni di consentono di utilizzare eventi ma non metriche calcolate:
 
-* [!UICONTROL Funnels] in [!UICONTROL Reports & Analytics]
 * [!UICONTROL Fallout] in [!UICONTROL Analysis Workspace]
 * [!UICONTROL Cohort Analysis] in Analysis Workspace
 * [!UICONTROL Data Warehouse]
@@ -76,7 +75,7 @@ Ecco una breve panoramica della [!UICONTROL Calculated metrics] strumenti:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md"  > Generatore di metrica calcolata</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md"  > Generatore di metriche calcolate</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
      <li id="li_A4A6E716374243A190C539A3F4A41C0C">Creare metriche calcolate e calcolate avanzate utilizzando modelli di allocazione avanzati. </li> 
@@ -91,7 +90,7 @@ Ecco una breve panoramica della [!UICONTROL Calculated metrics] strumenti:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > Metriche calcolate Manager</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > Gestione metriche calcolate</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
      <li id="li_E0B216BA1478406EB6212263DF71D85B">Condividere le metriche con altri utenti. </li> 
@@ -106,7 +105,7 @@ Ecco una breve panoramica della [!UICONTROL Calculated metrics] strumenti:
    <td colname="col2"> <p>Sostituisce il <span class="uicontrol"> Mostra metriche</span> finestra a comparsa in <span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Consente di cercare e aggiungere/applicare metriche al rapporto. È inoltre possibile modificare <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sort</a> ordine (le opzioni sono: alfabetico, consigliato, usato di frequente, usato di recente). Inoltre, puoi filtrare in base alle suite di rapporti in modo da visualizzare solo le metriche create in una specifica suite di rapporti. </p> <p>Per accedere a questo selettore delle metriche, fai clic sull’icona Metriche <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> a sinistra di un report. Ecco come appare il selettore delle metriche: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API per metriche calcolate</a> </td> 
+   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API per le metriche calcolate</a> </td> 
    <td colname="col2"> <p>Parte del set di API di Adobe Analytics 2.0. </p> </td> 
   </tr> 
  </tbody> 

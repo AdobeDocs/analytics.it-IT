@@ -4,10 +4,10 @@ title: Eseguire l’analisi dei contributi
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '562'
-ht-degree: 100%
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+workflow-type: tm+mt
+source-wordcount: '540'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ In un progetto, è possibile invocare l’analisi dei contributi in due modi:
 1. (Facoltativo) Dopo aver fatto clic su **[!UICONTROL Run Contribution Analysis]** nel grafico a linee o in una tabella, puoi restringere l’ambito dell’analisi (e quindi velocizzarla) [escludendo alcune dimensioni](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Attendi che venga caricata l’analisi dei contributi. Il tempo richiesto dipende dalla dimensione della suite per rapporti e dal numero di dimensioni, e potrebbe essere piuttosto lungo. L’analisi dei contributi viene eseguita su 50.000 elementi per dimensione.
-1. Analysis Workspace carica quindi un nuovo pannello Analisi contributi direttamente nel progetto. Se hai già avuto modo di usare la funzione di analisi contributi di Reports &amp; Analytics, i pannelli ti saranno familiari:
+1. Analysis Workspace carica quindi un nuovo pannello Analisi contributi direttamente all’interno di questo progetto.
 
    * Visualizzazione del numero di **Visite** in un dato giorno.
    * **Linea delle tendenze di visita** mensile per contesto.

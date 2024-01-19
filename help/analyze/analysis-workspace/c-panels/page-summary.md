@@ -4,16 +4,16 @@ title: Pannello Riepilogo pagina
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '405'
 ht-degree: 3%
 
 ---
 
 # Pannello Riepilogo pagina
 
-Il [!UICONTROL Page summary] Il pannello è stato avviato come rapporto in Reports &amp; Analytics, in Reports > Engagement > Page analysis > Page summary (Rapporti > Coinvolgimento > Analisi pagina > Riepilogo pagina). Ora è anche un pannello Workspace. Questo pannello consente di esplorare facilmente le statistiche chiave relative a pagine specifiche.
+Questo pannello consente di esplorare facilmente le statistiche chiave relative a pagine specifiche.
 
 ## Accedere al pannello
 

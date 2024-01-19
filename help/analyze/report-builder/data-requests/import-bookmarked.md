@@ -4,10 +4,10 @@ title: Importare rapporti con segnalibri e minirapporti dashboard
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 3%
+source-wordcount: '235'
+ht-degree: 5%
 
 ---
 
@@ -25,16 +25,7 @@ Quando fai clic su **[!UICONTROL Retrieve your Dashboards]** o **[!UICONTROL Ret
 
 >[!NOTE]
 >
->In Report Builder, l’elenco delle dashboard e dei segnalibri disponibili è limitato all’utente ma anche a quelli applicabili alla suite di rapporti selezionata al passaggio 1 della procedura guidata. Al contrario, in Reports &amp; Analytics di marketing, puoi accedere a tutti i segnalibri e le dashboard accessibili, indipendentemente dalle suite di rapporti utilizzate da dashboard e segnalibri.
-
->[!NOTE]
->
 >Vengono importati solo i dati, quindi se il segnalibro contiene un grafico o se il reportlet del dashboard è costituito solo da un grafico, vengono importati solo i dati utilizzati per compilare il grafico.
 
 Dopo aver creato una richiesta importando un reportlet del dashboard (o un segnalibro), la richiesta verrà associata alla dimensione principale del reportlet (o del segnalibro). Di conseguenza, se si modifica la richiesta, la vista albero non seleziona più il nodo di visualizzazione della struttura del reportlet del dashboard (o nodo segnalibro), ma la dimensione principale.
 
-Il bookmarklet importato imposterà correttamente la suite di rapporti, il segmento selezionato, la dimensione e le metriche selezionate sugli stessi parametri esposti nel segnalibro Reports &amp; Analytics.
-
->[!IMPORTANT]
->
->L’intervallo di date sarà impostato sullo stesso intervallo, ma come intervallo di date statico, anche se si tratta di un intervallo di date continuo nel segnalibro di Reports &amp; Analytics.

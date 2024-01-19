@@ -3,10 +3,10 @@ title: Autorizzazioni del profilo di prodotto per gli strumenti delle suite di r
 description: Comprendere ogni elemento di autorizzazione in Strumenti delle suite di rapporti.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -19,9 +19,6 @@ Utilizzare questa pagina per comprendere ogni voce di autorizzazione in Strument
 | [!UICONTROL Account Summary] | Consente di accedere a Generale > Impostazioni account generali in Report Suite Manager. |
 | [!UICONTROL Advertising Analytics Configuration] | Consente agli utenti di configurare suite di rapporti su cui effettuare il provisioning per Advertising Analytics. |
 | [!UICONTROL Anomaly Detection] | Consente l’accesso al rilevamento delle anomalie in Analysis Workspace. |
-| [!UICONTROL Bot Pages] | Consente di accedere al report Metriche del sito > Bots > Pagine bot in Reports &amp; Analytics. |
-| [!UICONTROL Bots] | Consente di accedere al report Metriche del sito > Bots > Bots in Reports &amp; Analytics. |
-| [!UICONTROL Channel Report] | Consente l’accesso a Canali di marketing > Report panoramica canale in Reports &amp; Analytics. |
 | [!UICONTROL Channels] | Consente l’accesso ai canali di marketing, inclusi Marketing Channel Manager, Marketing Channel Processing Rules e Marketing Channel Expiration nel Report Suite Manager. |
 | [!UICONTROL Classifications] | Consente di accedere a tutte le impostazioni di classificazione in Report Suite Manager. Questo elemento di autorizzazione include: <br>Traffico > Classificazioni traffico<br>Conversione > Classificazioni di conversione<br>Conversione > Gerarchie di classificazione<br>Canali di marketing > Classificazioni canale di marketing<br>Gestione app > Classificazioni app<br>Media Management > Classificazioni multimediali<br>AEM > Classificazioni AEM Assets<br>Adobe Campaign > Classificazioni Adobe |
 | [!UICONTROL Costs] | Consente l’accesso a Canali di marketing > Costi canale di marketing in Report Suite Manager. |
@@ -38,12 +35,9 @@ Utilizzare questa pagina per comprendere ogni voce di autorizzazione in Strument
 | [!UICONTROL Finding Methods] | Consente l’accesso a Conversione > Metodi di ricerca in Report Suite Manager. |
 | [!UICONTROL List Variables] | Consente l’accesso a Conversione > Elenco variabili in Report Suite Manager. |
 | [!UICONTROL Menu Customization] | Consente di accedere a Generale > Personalizza menu in Report Suite Manager. |
-| [!UICONTROL My Recommended Reports] | Consente di accedere a Metriche del sito > I miei rapporti consigliati in Reports &amp; Analytics. |
 | [!UICONTROL Paid Search] | Consente di accedere a Generale > Rilevamento ricerca a pagamento in Report Suite Manager. |
 | [!UICONTROL Processing Rules] | Consente l’accesso a Generale > Regole di elaborazione e Generale > Regole bot in Report Suite Manager. |
-| [!UICONTROL RealTime Report] | Consente di accedere a Metriche del sito > In tempo reale in Reports &amp; Analytics. Utilizza l’elemento di autorizzazione “Configurazione report in tempo reale” per concedere l’accesso per impostare questo report. |
 | [!UICONTROL Real Time Report Configuration] | Consente l’accesso in tempo reale in Report Suite Manager. Utilizzare la voce di autorizzazione “Rapporto in tempo reale” per concedere l’accesso al report stesso. |
-| [!UICONTROL Return Visits] | Consente di accedere a Conservazione dei visitatori > Visite di ritorno in Reports &amp; Analytics. |
 | [!UICONTROL Reporting Activity Manager Admins] | Non utilizzato |
 | [!UICONTROL Reporting Activity Manager Access] | Non utilizzato |
 | [!UICONTROL Report Suite Mgmt] | Consente l’accesso a Report Suite Manager, ma non consente alcuna modifica. |

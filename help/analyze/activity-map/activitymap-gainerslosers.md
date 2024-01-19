@@ -4,9 +4,9 @@ title: Sovrapposizioni personalizzabili
 feature: Activity Map
 role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Le sovrapposizioni offrono diversi modi per configurare la visualizzazione dei dati in modo da poter vedere e comprendere facilmente la popolarità dei collegamenti su una pagina.
 
-Le sovrapposizioni consentono di visualizzare i dati dei clic direttamente sulla pagina. Questo è ciò che separa uno strumento di analisi visiva come Activity Map da strumenti principalmente tabulari e grafici come Reports &amp; Analytics.
+Le sovrapposizioni consentono di visualizzare i dati dei clic direttamente sulla pagina.
 
 Activity Map offre tre tipi di sovrapposizioni:
 

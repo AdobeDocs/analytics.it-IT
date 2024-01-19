@@ -4,10 +4,10 @@ title: Gestire i segmenti (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 9%
+source-wordcount: '937'
+ht-degree: 3%
 
 ---
 
@@ -50,9 +50,9 @@ Puoi avere combinazioni specifiche di dimensioni di rapporto che desideri trasfo
 1. Torna al Report Builder e fai clic sull’icona Aggiorna per aggiornare l’elenco dei segmenti.
 1. Ora puoi applicare questo segmento.
 
-## Cercare e applicare segmenti {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## Cercare e applicare segmenti {#search}
 
-Tutti i segmenti creati in Reports &amp; Analytics, Report Builder o Data Warehouse vengono visualizzati in questo elenco di segmenti. Per aggiornare l’elenco, fai clic sull’icona Aggiorna ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Tutti i segmenti creati in Reports &amp; Analytics (ora al termine del ciclo di vita), Report Builder o Data Warehouse vengono visualizzati in questo elenco di segmenti. Per aggiornare l’elenco, fai clic sull’icona Aggiorna ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 Puoi applicare uno o più segmenti a una determinata richiesta. Sono inclusi i segmenti sequenziali.
 
@@ -64,9 +64,9 @@ Puoi applicare uno o più segmenti a una determinata richiesta. Sono inclusi i s
 
 >[!NOTE]
 >
->Che tu sia un amministratore o un non amministratore, nel Report Builder puoi visualizzare solo i segmenti che possiedi e quelli che sono stati condivisi con te. Nell’interfaccia utente di Reports &amp; Analytics per il marketing, l’amministratore può visualizzare tutti i segmenti dell’organizzazione.
+>Che tu sia un amministratore o un non amministratore, nel Report Builder puoi visualizzare solo i segmenti che possiedi e quelli che sono stati condivisi con te.
 
-## Filtrare segmenti {#section_376E986D3E684999A7CDB08E53854159}
+## Filtrare segmenti {#filter}
 
 **Filtro** segmenti facendo clic sull’icona Filtro:  ![Icona Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
@@ -76,13 +76,13 @@ I filtri disponibili includono:
 |---|---|
 | Tag | Consente di filtrare i segmenti con tag specifici. I filtri di tag utilizzano l’operatore AND. Se selezioni due tag, nel riquadro a destra vengono visualizzati i segmenti a cui sono stati assegnati tag **entrambi** tag. |
 | Proprietari | Consente di filtrare i segmenti in base al proprietario. I filtri Proprietari utilizzano l’operatore OR. Se selezioni due proprietari, nel riquadro a destra vengono visualizzati i segmenti di proprietà di **o** proprietario. |
-| Altri filtri > Solo *nome suite di rapporti* | Se si applica &quot;Solo&quot; *nome suite di rapporti* Filtro &quot; nel Generatore di segmenti in [!DNL marketing reports & analytics], quindi visualizzare il Filtro avanzato in [!DNL Report Builder], il filtro Avanzate visualizza il segmento solo per la suite di rapporti selezionata. |
+| Altri filtri > Solo *nome suite di rapporti* | Se si applica &quot;Solo&quot; *nome suite di rapporti*&quot; nel Generatore di segmenti in Adobe Analytics, quindi visualizzare il Filtro avanzato in [!DNL Report Builder], il filtro Avanzate visualizza il segmento solo per la suite di rapporti selezionata. |
 | Altri filtri > Personali | Mostra tutti i segmenti di tua proprietà. |
 | Altri filtri > Condivisi con me | Mostra tutti i segmenti che altri utenti hanno condiviso con te. |
 | Altri filtri > Preferiti | Mostra tutti i segmenti contrassegnati come Preferiti. |
 | Altri filtri > Approvati | Mostra tutti i segmenti approvati ufficialmente. |
 
-## Aggiungere un controllo segmento a una cartella di lavoro {#section_E3E5149A8464441FA5445A98DBD520AC}
+## Aggiungere un controllo segmento a una cartella di lavoro {#segment-control}
 
 L&#39;aggiunta di un controllo segmento consente di cambiare i segmenti all&#39;interno di una cartella di lavoro anziché passare alla Richiesta guidata.
 
@@ -103,11 +103,11 @@ L&#39;aggiunta di un controllo segmento consente di cambiare i segmenti all&#39;
 
    ![Schermata che mostra il campo a discesa Scegli segmento.](assets/seg_control2.png)
 
-## Aggiorna l’elenco dei segmenti {#section_22E4A86789444B4A998532396B476EFB}
+## Aggiorna l’elenco dei segmenti {#refresh}
 
 Quando aggiungi un nuovo segmento o ne modifichi uno esistente, fai clic sull’icona Aggiorna. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) per aggiornare l’elenco dei segmenti memorizzati nella cache.
 
-## Gestire i segmenti in più richieste {#section_C3D63FCBE1A94369A319243313B03C93}
+## Gestire i segmenti in più richieste {#manage}
 
 Prima della versione 5.4, Report Builder consentiva agli utenti di modificare i segmenti su più richieste. Tuttavia, questo processo ha sempre sostituito i segmenti esistenti. Gli utenti che desideravano aggiungere un nuovo segmento a ciascuna richiesta non potevano farlo, poiché l’aggiunta del segmento rimuoveva il precedente set di segmenti già assegnato a ogni richiesta.
 
@@ -122,7 +122,7 @@ Il Report Builder 5.4 consente di aggiungere, rimuovere e sostituire tutti i seg
 
    | Opzione | Descrizione |
    |---|---|
-   | Add Segmento | Consente di scegliere uno o più segmenti da aggiungere all’elenco dei segmenti correnti. |
+   | Zona di rilascio | Consente di scegliere uno o più segmenti da aggiungere all’elenco dei segmenti correnti. |
    | Sostituisci segmenti | Consente di scegliere quali segmenti sostituire con uno o più segmenti. |
    | Sostituisci tutti i segmenti con | Consente di scegliere uno o più segmenti per sostituire i segmenti correnti con. |
    | Rimuovi segmenti | Consente di rimuovere segmenti dalle richieste. |

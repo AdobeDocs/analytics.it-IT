@@ -4,10 +4,10 @@ title: Configurare eventi di successo
 feature: Event
 role: Admin
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 76%
+source-wordcount: '221'
+ht-degree: 82%
 
 ---
 
@@ -38,9 +38,9 @@ Per configurare eventi di successo:
 
    | Impostazione | Visibile in | Non visibile in |
    |---------|----------|---------|
-   | [!UICONTROL **Visibile ovunque**] | <ul><li>Reports &amp; Analytics (selettore menu e metriche)</li><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> | N/D |
-   | [!UICONTROL **Builder**] | <ul><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> | <ul><li>Reports &amp; Analytics (selettore menu e metriche)</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Nascosto ovunque**] | N/D | <ul><li>Reports &amp; Analytics (selettore menu e metriche)</li><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> |
+   | [!UICONTROL **Visibile ovunque**] | <ul><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> | N/D |
+   | [!UICONTROL **Builder**] | <ul><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Nascosto ovunque**] | N/D | <ul><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> |
 
 1. Fornisci una descrizione.
 1. Controlla se registrare sempre l’evento.

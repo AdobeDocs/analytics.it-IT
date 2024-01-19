@@ -4,9 +4,9 @@ title: Generatore di avvisi (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '445'
 ht-degree: 99%
 
 ---
@@ -23,10 +23,9 @@ Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
 
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * Da **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
 * Selezionando uno o più elementi della tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]**.
-* Da un rapporto Reports &amp; Analytics, scegliendo **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 ## Creare avvisi
 
@@ -70,7 +69,7 @@ Imposta la data di scadenza dell’avviso.
 
 * Trascina la metrica nell’area di lavoro per l’aggiunta degli attivatori.
 
-   Se non tutti i componenti (metriche, dimensioni o segmenti) nell’avviso sono compatibili con la suite di rapporti selezionati, viene visualizzato un messaggio con riferimento a **“componenti non compatibili”**.
+  Se non tutti i componenti (metriche, dimensioni o segmenti) nell’avviso sono compatibili con la suite di rapporti selezionati, viene visualizzato un messaggio con riferimento a **“componenti non compatibili”**.
 * Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
 
    * anomaly exists (l’anomalia esiste)
@@ -81,7 +80,7 @@ Imposta la data di scadenza dell’avviso.
    * changes by (cambia di)
    * Puoi impostare una soglia di 90%, 95%, 99%, 99,75% o 99,9%.
 
-   È anche possibile utilizzare metriche calcolate.
+  È anche possibile utilizzare metriche calcolate.
 
 *... With These Filters (...con questi filtri)*
 

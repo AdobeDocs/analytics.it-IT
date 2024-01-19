@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: Gestire i canali di marketing
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 5%
+source-wordcount: '702'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 >
 > Per informazioni generali sui canali di marketing, consulta [Introduzione ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Per massimizzare l’efficacia dei canali di marketing per Attribution e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Per massimizzare l’efficacia dei canali di marketing ai fini dell’attribuzione e del Customer Journey Analytics, abbiamo pubblicato alcuni [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
 
@@ -77,7 +77,6 @@ Aggiungi canali di marketing in Marketing Channel Manager.
 | Ignora canale ultimo contatto | Consente di scegliere se escludere un canale di ultimo contatto persistente esistente dal canale selezionato. Se selezioni questa casella di controllo, qualsiasi canale (incluso Direct e Internal) ignora un canale di ultimo contatto esistente. Il risultato è che la conversione viene attribuita a un canale che potrebbe non meritare credito. Ad esempio, questa opzione può garantire che il canale diretto non riceva credito per la conversione se l’utente era stato precedentemente acquisito tramite il canale di ricerca naturale. |
 | Suddivisione canale | Consente di suddividere un canale per questo valore. È possibile aggiungere possibili raggruppamenti dei canali (sottocanali) durante la creazione di [classificazioni dei canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md). |
 | Tipo | Specifica la modalità di accesso dell&#39;utente al sito. È possibile selezionare Online o Offline. Utilizza i canali online per i visitatori che accedono a un motore di ricerca o a una campagna e-mail. I canali offline si applicano ai visitatori che hanno trovato il tuo sito tramite coupon di giornale o annunci pubblicitari sulle riviste. I canali offline in genere includono dati importati tramite Origini dati di reporting. Consulta [Origini dati](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html). Consulta [Aggiungi dati offline](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| Colore | Solo Reports &amp; Analytics: colore associato a questo canale di marketing. Questo colore rappresenta il canale nel rapporto Canale di marketing. |
 
 ### Sovrascrivi best practice
 

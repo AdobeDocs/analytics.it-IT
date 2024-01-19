@@ -4,16 +4,16 @@ title: Pannello elemento successivo o precedente
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: c289f4aa1e49e428182fed9a871a1f90dd1f5c42
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 6%
+source-wordcount: '409'
+ht-degree: 5%
 
 ---
 
 # Pannello elemento successivo o precedente
 
-Il [!UICONTROL Next or previous item] pannello avviato come rapporto in Reports &amp; Analytics, in [!UICONTROL Reports] > [!UICONTROL Most popular] > [!UICONTROL Next page/Previous page]. Ora è anche un pannello Workspace. Questo pannello contiene una serie di tabelle e visualizzazioni per identificare facilmente l’elemento dimensione successivo o precedente per una dimensione specifica. Ad esempio, puoi scoprire a quali pagine i clienti accedono più spesso dopo aver visitato la home page.
+Questo pannello contiene una serie di tabelle e visualizzazioni per identificare facilmente l’elemento dimensione successivo o precedente per una dimensione specifica. Ad esempio, puoi scoprire a quali pagine i clienti accedono più spesso dopo aver visitato la home page.
 
 ## Accedere al pannello
 

@@ -3,10 +3,10 @@ description: Descrizioni dei tipi di suite di rapporti e confronto tra le suite 
 title: Approcci suite di rapporti
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 96%
+source-wordcount: '875'
+ht-degree: 93%
 
 ---
 
@@ -42,11 +42,7 @@ Invece di usare più suite di rapporti con tag, spesso è preferibile utilizzare
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] è l’unico strumento che supporta i rapporti di aggregazione dati; Adobe non consiglia più l’uso delle aggregazioni dati. Piuttosto, è consigliabile utilizzare una suite di rapporti globale con assegnazione di tag a più suite o le suite di rapporti virtuali.
-
-Un rapporto di aggregazione dati è una semplice aggregazione di dati provenienti da più suite di rapporti, senza deduplicazione né raggruppamenti di segmenti o dati. Le aggregazioni dati non richiedono alcuna implementazione di codice. Per utilizzare i rapporti di aggregazione dati, [implementa suite di rapporti figlio](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) e poi [combinale in un rapporto di aggregazione dati](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) utilizzando [!UICONTROL Admin Tools].
-
-I rapporti di aggregazione dati sono gratuiti: le suite di rapporti figlio eseguono le proprie chiamate al server, ma l’aggregazione dati non comporta chiamate aggiuntive. Le aggregazioni dati sono una funzione legacy e presentano molte limitazioni.
+>[!DNL Reports & Analytics] è l’unico strumento che supporta i rapporti di aggregazione dati. Reports &amp; Analytics è stato terminato il 17 gennaio 2024.
 
 ### Limitazioni dei rapporti di aggregazione dati {#limitations-rollups}
 
