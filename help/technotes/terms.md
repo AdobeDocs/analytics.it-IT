@@ -3,10 +3,10 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '2577'
-ht-degree: 2%
+source-wordcount: '2535'
+ht-degree: 1%
 
 ---
 
@@ -36,13 +36,12 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Classificazione:** Funzione di Adobe Analytics che consente il raggruppamento di elementi dimensionali. Consulta [Classificazioni](/help/components/classifications/c-classifications.md) nella guida utente Componenti.
 * **ClickMap:** Non più utilizzato. Plug-in browser legacy che mostra le aree del sito su cui hai fatto più clic. Questo strumento è stato ritirato a favore di Activity Map.
 * **Feed dati clickstream:** Consulta Feed dati.
-* **Coorte:** Un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Vedi [Cos’è un’analisi per coorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) nella guida utente Analizza.
+* **Coorte:** Un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Consulta [L’analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) nella guida utente Analizza.
 * **Server di raccolta:** Consulta Server di raccolta dati.
 * **Componente:** I componenti in Analysis Workspace sono dimensioni, metriche, segmenti e intervalli di date da trascinare su un progetto. Consulta [Panoramica dei componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) nella guida utente Analizza.
 * **Variabili di dati di contesto:** Variabili temporanee utilizzate esclusivamente nelle regole di elaborazione. I valori delle variabili di dati contestuali vengono persi definitivamente se una regola di elaborazione non li copia in una variabile di conversione o di traffico. Consulta [Variabili di dati di contesto](../implement/vars/page-vars/contextdata.md) nella guida utente Implementa.
 * **Variabile di conversione:** Noto anche come eVar. Memorizza un valore personalizzato e mantiene il valore della variabile fino alla scadenza. Consulta la [eVar](/help/components/dimensions/evar.md) nella guida utente dei Componenti.
 * **Correlazione:** Non più utilizzato come termine; sostituito con raggruppamenti di dimensioni. Nelle versioni precedenti di Adobe Analytics, le correlazioni consentivano di suddividere le variabili di traffico. Consulta [Suddividere dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) nella guida utente Analizza.
-* **Dati correnti:** Opzione in alcuni rapporti che consente di includere i dati raccolti di recente che non sono ancora stati completamente elaborati. Consulta [Dati correnti](/help/analyze/reports-analytics/current-data.md) nella guida utente Analizza.
 * **Collegamento personalizzato:** Tipo di hit che contiene dati non di visualizzazione pagina. Consulta la [s.tl(), funzione](../implement/vars/functions/tl-method.md) nella guida utente Implementa. Vedi anche Hit.
 * **Attributi del cliente:** Funzione di Experience Cloud che consente di caricare i dati degli attributi. Consulta [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it) nella guida utente dei servizi core.
 * **Delegato all’Assistenza clienti:** Un utente designato autorizzato ad interagire direttamente con l’Assistenza clienti Adobe. Consulta [Delegati all’Assistenza clienti](https://helpx.adobe.com/experience-cloud/supported-users.html) nella Knowledge Base Experience Cloud.
@@ -53,7 +52,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Data Warehouse:** Funzione di Adobe Analytics che consente di richiedere rapporti di dimensioni maggiori. Consulta [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) nella guida utente Esporta.
 * **Data Workbench:** Precedentemente noto come Insight. Progettato per raccogliere, elaborare, analizzare e visualizzare dati dalle interazioni dei clienti online e offline su più canali.
 * **Dimension:** Un tipo di componente che contiene valori variabili, come il testo. Alcuni esempi includono Nome pagina, Codice di tracciamento o Dominio di riferimento. Una metrica è in genere la sua controparte.
-* **Serializzazione degli eventi:** Processo di implementazione delle misure per impedire la raccolta di eventi duplicati. Vedi [Serializzazione degli evento](../implement/vars/page-vars/events/event-serialization.md) nella Guida utente di implementazione.
+* **Serializzazione degli eventi:** Processo di implementazione delle misure per impedire la raccolta di eventi duplicati. Consulta [Serializzazione degli eventi](../implement/vars/page-vars/events/event-serialization.md) nella guida utente Implementa.
 * **eVar:** Consulta Variabile di conversione.
 * **Evento:** Vedi Evento di successo.
 * **ExcelClient:** Non più utilizzato come termine. Il nome del predecessore del Report Builder.

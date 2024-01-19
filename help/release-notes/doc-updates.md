@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
 source-wordcount: '4925'
 ht-degree: 96%
@@ -142,7 +142,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Aggiornamenti pagina di destinazione di Adobe Analytics | [Aggiornamenti](/help/analyze/landing.md) alla pagina di destinazione congiunta Analysis Workspace/Reports &amp; Analytics che migliora l’usabilità e la facilità di navigazione. |
 | Pannello Workspace [!UICONTROL Next item] o [!UICONTROL Previous item] | Questo pannello consente di esplorare gli elementi che seguono o precedono un elemento dimensionale scelto. |
 | Pannello Workspace [!UICONTROL Page Summary] | Questo pannello fornisce un’analisi approfondita per una pagina a scelta. |
-| Nuovo argomento relativo alla sospensione dei report pianificati meno recenti | A partire dal **15 aprile 2022**, Adobe intende [sospendere tutti i rapporti pianificati con una data di creazione superiore ai due anni](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| Nuovo argomento relativo alla sospensione dei report pianificati meno recenti | Effettivo **15 aprile 2022**, Adobe intende sospendere tutti i rapporti pianificati con una data di creazione superiore ai due anni |
 | **Febbraio 2022** |
 | Modalità anteprima dei progetti scorecard per dispositivi mobili | La [modalità anteprima](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#preview) consente di visualizzare un’anteprima dell’esperienza prima di salvare e condividere una scorecard. |
 | Endpoint di progetti API | Aggiungi, modifica o elimina progetti di Analysis Workspace utilizzando l’API. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |

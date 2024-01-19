@@ -5,9 +5,9 @@ uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 feature: Report Builder
 role: User, Admin
 exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 3%
 
 ---
@@ -26,4 +26,3 @@ Per visualizzare i rapporti con raggruppamenti di correlazioni abilitati all’i
 >
 >Adobe Report Builder applica le dipendenze delle richieste solo all&#39;interno dello stesso foglio di lavoro, non tra fogli di lavoro diversi. La limitazione alle dipendenze all&#39;interno di un singolo foglio di lavoro garantisce la tempestività dell&#39;esecuzione.
 
-Consulta [Rapporti di suddivisione](/help/analyze/reports-analytics/reports-customize/breakdowns.md).
