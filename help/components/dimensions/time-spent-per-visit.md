@@ -3,9 +3,9 @@ title: Tempo trascorso per visita (dimensioni)
 description: Quantità totale di tempo impiegata per la visita.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,6 @@ Queste dimensioni funzionano in modo predefinito per tutte le implementazioni. S
 Esistono più dimensioni per il tempo trascorso per visita:
 
 * **Tempo trascorso per visita - a blocchi**: la quantità di tempo è inserita nel bucket. L&#39;intervallo di elementi Dimension è compreso tra `"Less than 1 minute"` a `"More than 15 hours"`. Le visite in genere non durano più di 12 ore; tuttavia, le visite possono superare le 12 ore se si utilizzano hit con marca temporale o origini dati.
-* **Tempo trascorso per visita - granulare**: ogni numero di secondi è un elemento dimensione univoco. Questa dimensione non è disponibile in Reports &amp; Analytics o Data Warehouse.
+* **Tempo trascorso per visita - granulare**: ogni numero di secondi è un elemento dimensione univoco. Questa dimensione non è disponibile nella Data Warehouse.
 
 Consulta [Panoramica sul tempo trascorso](../metrics/time-spent.md) per informazioni più generali sul tempo trascorso.

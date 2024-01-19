@@ -3,10 +3,10 @@ title: Pagina
 description: Nome della pagina.
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
+source-wordcount: '186'
+ht-degree: 2%
 
 ---
 
@@ -28,4 +28,4 @@ Gli elementi di Dimension includono i nomi delle pagine del sito. L’organizzaz
 
 >[!NOTE]
 >
->In Reports &amp; Analytics, le metriche di conversione utilizzano l’attribuzione lineare per questa dimensione. Ad esempio, i ricavi vengono suddivisi tra tutte le pagine visualizzate in una visita prima di un `purchase` evento. Analysis Workspace utilizza l’ultima attribuzione per impostazione predefinita, con l’opzione di utilizzare qualsiasi modello di attribuzione.
+>Analysis Workspace utilizza l’ultima attribuzione per impostazione predefinita, con l’opzione di utilizzare qualsiasi modello di attribuzione.

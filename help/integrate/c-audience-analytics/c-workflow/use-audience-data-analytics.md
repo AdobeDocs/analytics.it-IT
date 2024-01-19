@@ -1,17 +1,17 @@
 ---
 description: Puoi utilizzare le dimensioni Pubblico di Adobe Audience Manager in tutte le aree di Analytics. I segmenti integrati sono nuove dimensioni di Analytics denominate ID pubblico e Nome pubblico e possono essere utilizzati come qualsiasi altra dimensione raccolta da Analytics. Nei feed di dati, gli ID del pubblico sono memorizzati nella colonna "mc_audiences". Queste dimensioni non sono attualmente disponibili in Data Workbench o Livestream. Alcuni esempi di come è possibile sfruttare le dimensioni di Audiences includono
 solution: Experience Cloud
-title: Uso dei dati di audience in Analytics
+title: Utilizzare i dati sul pubblico in Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 8%
+source-wordcount: '541'
+ht-degree: 2%
 
 ---
 
-# Uso dei dati di audience in Analytics
+# Utilizzare i dati sul pubblico in Analytics
 
 Puoi utilizzare le dimensioni Pubblico di Adobe Audience Manager in tutte le aree di Analytics. I segmenti integrati sono nuove dimensioni di Analytics denominate ID pubblico e Nome pubblico e possono essere utilizzati come qualsiasi altra dimensione raccolta da Analytics. Nei feed di dati, gli ID del pubblico sono memorizzati nella colonna &quot;mc_audiences&quot;. Queste dimensioni non sono attualmente disponibili in Data Workbench o Livestream. Alcuni esempi di come è possibile sfruttare le dimensioni di Audiences includono:
 
@@ -81,9 +81,3 @@ Puoi incorporare le dimensioni Audiences in Analytics. [Generatore di segmenti](
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics e Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
-
-1. Per visualizzare il rapporto di Analytics, vai a  **[!UICONTROL Reports]** > **[!UICONTROL Visitor Profile]** > **[!UICONTROL Audience ID Reports]** .
-1. Da questa cartella, puoi accedere sia alle dimensioni ID pubblico che a quelle Nome pubblico.
-
-   ![](assets/mc-audiences.png)

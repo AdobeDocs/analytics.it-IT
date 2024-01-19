@@ -3,10 +3,10 @@ description: Domande frequenti sulla gestione dei segmenti legacy.
 title: Domande frequenti sui segmenti legacy
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 90%
+source-wordcount: '1445'
+ht-degree: 87%
 
 ---
 
@@ -44,7 +44,7 @@ I rapporti programmati non vengono aggiornati quando si modifica un segmento con
 
 +++ **Cos’è successo ai segmenti di Data Warehouse?**
 
-Tutti i segmenti esistenti di Data Warehouse continueranno a funzionare in Data Warehouse. La maggior parte dei segmenti Data Warehouse funziona anche in altri componenti come Analysis Workspace e Reports &amp; Analytics.
+Tutti i segmenti esistenti di Data Warehouse continueranno a funzionare in Data Warehouse. La maggior parte dei segmenti Data Warehouse funziona anche in altri componenti come Analysis Workspace.
 
 Puoi creare o modificare nuovi segmenti di Data Warehouse nel Generatore/Gestore segmenti. Il meccanismo di compatibilità dei prodotti nel Generatore di segmenti determina automaticamente la compatibilità di un segmento con Data Warehouse.
 
@@ -58,7 +58,7 @@ Puoi creare o modificare nuovi segmenti di Data Warehouse nel Generatore/Gestore
 * **Visite da ricerca a pagamento**
 * **Visite con il cookie ID visitatore**
 
-Verrà eseguita la migrazione di questi segmenti e diventeranno modelli di segmenti nel Generatore di segmenti. I rapporti esistenti a cui sono applicati questi segmenti continueranno a funzionare correttamente.
+Verrà effettuata la migrazione di questi segmenti e diventeranno modelli di segmenti nel Generatore di segmenti. I rapporti esistenti a cui sono applicati questi segmenti continueranno a funzionare correttamente.
 
 +++
 
@@ -117,7 +117,7 @@ Di seguito sono riportati alcuni suggerimenti per la migrazione delle dimensioni
 * Sistemi operativi: utilizza le dimensioni Tipi di sistema operativo per ottenere tutti i sistemi operativi in un tipo, ad esempio Microsoft Windows.
 * Consultare &quot;Dimension nuovi e rinominati&quot; (vedere di seguito)
 
-## Dimensioni nuove e rinominate {#renamed}
+## Dimension nuovi e rinominati {#renamed}
 
 La tabella seguente contiene un elenco di dimensioni rinominate nel Generatore di segmenti.
 
@@ -147,7 +147,7 @@ La tabella seguente contiene un elenco di dimensioni rinominate nel Generatore d
 
 {style="table-layout:auto"}
 
-## Modifiche alle dimensioni basate su stringhe con valori noti {#string-based-dims}
+## Modifiche ai Dimension basati su stringhe con valori noti {#string-based-dims}
 
 Le dimensioni basate su stringhe che hanno un set noto di valori sono state modificate in tipi enumerati. Quando crei un segmento utilizzando queste dimensioni, l’elenco viene precompilato con tutti i valori noti e l’unico operatore supportato è “uguale a”. Ciò consente di segmentare rapidamente i valori esatti desiderati senza selezionare altri valori quando utilizzi una corrispondenza meno restrittiva.
 
@@ -170,7 +170,7 @@ Le seguenti dimensioni sono state modificate in elenchi enumerati:
 | lunghezza segnalibro mobile | java abilitato | ricerca a pagamento |
 | lunghezza url mobile | lingua |  |
 
-## Modifiche alle dimensioni basate su numeri interi con valori noti {#integer-based-dims}
+## Modifiche ai Dimension basati su numeri interi con valori noti {#integer-based-dims}
 
 Le dimensioni basate su numeri interi (come la larghezza del browser) con un set di valori noto sono state suddivise in intervalli enumerati, in modo da poter definire rapidamente i segmenti per un intervallo specifico. Gli elenchi enumerati sono seguiti da “ - Bucket” dopo il nome della dimensione. La schermata seguente mostra come queste dimensioni vengono segmentate utilizzando l’interfaccia precedente del generatore di segmenti e quella nuova:
 

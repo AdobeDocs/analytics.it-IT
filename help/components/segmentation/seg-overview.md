@@ -3,10 +3,10 @@ description: I segmenti ti consentono di identificare sottoinsiemi di visitatori
 title: Informazioni sui segmenti
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 63%
+source-wordcount: '1128'
+ht-degree: 58%
 
 ---
 
@@ -112,7 +112,7 @@ Questo tipo di segmento filtra i set di dati in base alle caratteristiche unite 
 - I segmenti sono universali per tutte le suite di rapporti.
 - Il [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md) semplifica la creazione dei segmenti.
 - Il [Gestore segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md) consente di impostare [flussi di lavoro](/help/components/segmentation/segmentation-workflow/seg-workflow.md) con funzioni di condivisione dei segmenti, assegnazione di tag, verifica e approvazione.
-- Puoi [assegnare tag ai segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md) per organizzarli ed effettuare ricerche in un secondo momento, anziché utilizzare le cartelle.
+- È possibile [segmenti di tag](/help/components/segmentation/segmentation-workflow/seg-workflow.md) per organizzare ed eseguire ricerche in un secondo momento, anziché utilizzare le cartelle.
 - Puoi creare [Segmenti sequenziali](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 - Il [!UICONTROL Page View] il contenitore è ora [!UICONTROL Hit] contenitore per indicare che il contenitore segmenta tutti i tipi di dati e non solo le visualizzazioni di pagina. Ad esempio, le chiamate di tracciamento dei collegamenti e le chiamate trackAction dagli SDK per dispositivi mobili sono tutte incluse o escluse dal contenitore Hit.
 
@@ -282,7 +282,7 @@ Gli amministratori possono modificare qualsiasi segmento e condividere i segment
 
 +++ **Posso visualizzare tutti i segmenti nella mia azienda?**
 
-Sì, gli amministratori possono visualizzare tutti i segmenti all’interno delle interfacce utente [!DNL Analysis Workspace] e [!DNL Reports & Analytics].
+Sì, gli amministratori possono visualizzare tutti i segmenti all’interno di [!DNL Analysis Workspace] dell&#39;utente.
 
 Nel Report Builder vengono visualizzati i segmenti di tua proprietà e quelli condivisi con te.
 
@@ -292,7 +292,7 @@ Nel Report Builder vengono visualizzati i segmenti di tua proprietà e quelli co
 
 Sì, tutti i segmenti possono essere gestiti nel Gestore segmenti. Il Gestore segmenti mostra i segmenti che possono essere visualizzati dal proprietario (l’utente che ha creato i segmenti), dagli utenti con cui sono stati condivisi e dagli amministratori. Il selettore dei segmenti mostra i segmenti di proprietà dell’utente e quelli condivisi con l’utente.
 
-Gli amministratori possono visualizzare tutti i segmenti all’interno delle interfacce utente di Analysis Workspace e [!DNL Reports & Analytics].
+Gli amministratori possono visualizzare tutti i segmenti nell’interfaccia utente di Analysis Workspace.
 
 In Report Builder vengono visualizzati solo i segmenti generati da te o quelli condivisi con te.
 

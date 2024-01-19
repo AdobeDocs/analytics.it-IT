@@ -3,9 +3,9 @@ title: Visitatori univoci
 description: Il numero di ID visitatore univoci.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: ht
-source-wordcount: '556'
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ La [metrica](overview.md) “Visitatori univoci” mostra il numero di ID visita
 Se usi la funzione [Cross-Device Analytics](../cda/overview.md), questa metrica viene sostituita dalla metrica [Dispositivi univoci](unique-devices.md).
 
 ## Visitatori univoci orari, giornalieri, settimanali, mensili, trimestrali, annuali
-
-Reports &amp; Analytics offre opzioni per visitatori univoci giornalieri, settimanali, mensili, trimestrali e annuali. Invece di contare un singolo visitatore univoco per l’intero periodo di tempo, i visitatori univoci vengono conteggiati in base alla metrica selezionata. Supponiamo ad esempio che desideri esaminare i visitatori univoci giornalieri del tuo sito. Se un visitatore accede al tuo sito al mattino e di nuovo la sera, viene conteggiato come un singolo visitatore univoco giornaliero. Se un visitatore accede al sito lunedì e di nuovo martedì, vengono conteggiati come due visitatori univoci giornalieri.
 
 Analysis Workspace tratta i visitatori univoci in base alla granularità del rapporto. Ad esempio, se utilizzi la dimensione [Giorno](../dimensions/day.md) , vedrai visitatori univoci giornalieri per ogni elemento dimensione. Tuttavia, per il totale del rapporto, vengono deduplicati i visitatori univoci per l’intervallo di date della tabella a forma libera.
 

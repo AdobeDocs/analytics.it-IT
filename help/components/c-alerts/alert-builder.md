@@ -3,9 +3,9 @@ description: Utilizzare gli avvisi in Analysis Workspace.
 title: Panoramica di Alert Builder
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '455'
 ht-degree: 80%
 
 ---
@@ -16,14 +16,13 @@ ht-degree: 80%
 >
 >Adobe di avvisi intelligenti [!DNL Analytics] Prime e Adobe [!DNL Analytics] Solo per i clienti più esperti.
 
-Puoi accedere a Alert Builder (Generatore di avvisi) in quattro modi:
+Accedere al generatore di avvisi in uno dei tre modi seguenti:
 
 * Utilizzando la seguente scelta rapida in Analysis Workspace:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * Da **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
 * Selezionando uno o più elementi della tabella a forma libera, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Create Alert from Selection]**.
-* Da un [!UICONTROL Reports & Analytics] rapporto, da **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 L’interfaccia del Generatore di avvisi è familiare a coloro che hanno creato segmenti o metriche calcolate in [!DNL Analytics]:
 
@@ -59,7 +58,7 @@ Imposta la data di scadenza dell’avviso.
 
 * Trascina la metrica nell’area di lavoro per l’aggiunta degli attivatori.
 
-   Tieni presente che un **&quot;componenti incompatibili&quot;** Se non tutti i componenti (metriche, dimensioni o segmenti) nell’avviso sono compatibili con la suite di rapporti attualmente selezionata, viene visualizzato un messaggio.
+  Tieni presente che un **&quot;componenti incompatibili&quot;** Se non tutti i componenti (metriche, dimensioni o segmenti) nell’avviso sono compatibili con la suite di rapporti attualmente selezionata, viene visualizzato un messaggio.
 
 * Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:
 

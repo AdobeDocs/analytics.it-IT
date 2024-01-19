@@ -3,9 +3,9 @@ title: Compatibilità dei Dimension Analytics
 description: Riferimento per dimensioni e rapporti di Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '887'
 ht-degree: 33%
 
 ---
@@ -18,11 +18,7 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 >
 >I nomi delle variabili, le classificazioni e gli attributi dei visitatori personalizzati vengono omessi da questo elenco. Questi elementi dimensionali sono specifici per le singole suite di rapporti.
 
->[!NOTE]
->
->In alcuni casi, gli strumenti di Analytics utilizzano termini diversi per dimensioni simili. Ad esempio, Reports &amp; Analytics utilizza `browserwidth` mentre Analysis Workspace utilizza `browserwidthbucketed`.
-
-## Dimension supportati in Reports &amp; Analytics e Analysis Workspace
+## Dimension supportati in Analysis Workspace
 
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |---|---|
@@ -33,15 +29,15 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 | Categoria | `category` |
 | Città | `geocity` |
 | Profondità colore | `colordepth` |
-| Tipo connessione | `connectiontype` |
+| Tipo di connessione | `connectiontype` |
 | Supporto per cookie | `cookie` |
 | Paesi | `geocountry` |
-| Fedeltà cliente | `customerloyalty` |
+| Fedeltà del cliente | `customerloyalty` |
 | Variabili di conversione personalizzate | `evar1`, `evar2`, ecc. |
 | Variabili Custom Insight | `prop1`, `prop2`, ecc. |
 | Collegamento personalizzato | `customlink` |
 | Giorni precedenti al primo acquisto | `daysbeforefirstpurchase` |
-| Giorni dall&#39;ultimo acquisto | `dayssincelastpurchase` |
+| Giorni dall’ultimo acquisto | `dayssincelastpurchase` |
 | Dominio | `filtereddomain` |
 | Collegamento di download. | `downloadlink` |
 | Pagina di ingresso | `entrypage` |
@@ -56,7 +52,7 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 | Variabili elenco | `listvariables` |
 | Canale di marketing | `marketingchannel` |
 | Supporto audio per dispositivi mobili | `mobileaudiosupport` |
-| Gestore di telefonia mobile | `mobilecarrier` |
+| Operatore telefonia mobile | `mobilecarrier` |
 | Profondità colore mobile | `mobilecolordepth` |
 | Supporto per cookie mobili | `mobilecookiesupport` |
 | Dispositivo mobile | `mobiledevicename` |
@@ -77,7 +73,7 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 | Pagine non trovate | `pagesnotfound` |
 | Prodotto | `product` |
 | Destinatario che inoltra | `referrer` |
-| Tipo di riferimento | `referrertype` |
+| Tipo di referrer | `referrertype` |
 | Dominio di riferimento | `referringdomain` |
 | Aree geografiche | `georegion` |
 | Frequenza di ritorno | `returnfrequency` |
@@ -101,11 +97,6 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 | Profondità della visita | `pathlength` |
 | Numero di visite | `visitnumber` |
 | Codice postale | `zip` |
-
-## Dimension supportati solo in Analysis Workspace
-
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
-|--- |--- |
 | AM/PM | `timepartampm` |
 | Altezza browser - Bucket | `browserheightbucketed` |
 | Larghezza browser - Bucket | `browserwidthbucketed` |
@@ -114,7 +105,7 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 | Giorno della settimana | `dayofweek` |
 | Giorno della settimana | `timepartdayofweek` |
 | Giorno dell’anno | `timepartdayofyear` |
-| Giorni dall&#39;ultima visita | `dayssincelastvisit` |
+| Giorni dall’ultima visita | `dayssincelastvisit` |
 | Immissione di approfondimenti personalizzati | `entryprops` |
 | Variabili elenco voci | `entrylistvariables` |
 | Server di ingresso | `entryserver` |
@@ -164,24 +155,7 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 | Risorsa di canale Nielsen | `nielsenchannelasset` |
 | Tipo di contenuto Nielsen | `nielsencontenttype` |
 
-## Dimension supportati solo in Reports &amp; Analytics
-
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
-|--- |--- |
-| Altezza browser | `browserheight` |
-| Larghezza browser | `browserwidth` |
-| Clienti univoci giornalieri | `dailyuniquecustomers` |
-| JavaScript | `javascriptsupport` |
-| JavaScript versione | `javascriptversion` |
-| Clienti univoci mensili | `monthlyuniquecustomers` |
-| Clienti univoci trimestrali | `quarterlyuniquecustomers` |
-| Fusi orari | `timezone` |
-| Domini di livello principali | `topleveldomain` |
-| Stato visitatore | `legacystate` |
-| Clienti univoci settimanali | `weeklyuniquecustomers` |
-| Clienti univoci annuali | `yearlyuniquecustomers` |
-
-## Dimensioni in base al contenuto supportate da Reports &amp; Analytics e Analysis Workspace
+## Dimensioni in base al contenuto supportate da Analysis Workspace
 
 ### Video (Media Analytics)
 
@@ -267,8 +241,8 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 | Ora del giorno (SDK) | `mobilehourofday` |
 | Giorno della settimana (SDK) | `mobiledayofweek` |
 | Sistema operativo (SDK) | `mobileosenvironment` |
-| Giorni dall’ultimo aggiornamento | `mobiledayssincelastupgrade` |
-| Avvii dall’ultimo aggiornamento | `mobilelaunchessincelastupgrade` |
+| Giorni dall&#39;ultimo aggiornamento | `mobiledayssincelastupgrade` |
+| Avvii dall&#39;ultimo aggiornamento | `mobilelaunchessincelastupgrade` |
 | Nome dispositivo (SDK) | `mobiledevice` |
 | Versione sistema operativo (SDK) | `mobileosversion` |
 | Beacon principale | `mobilebeaconmajor` |
@@ -305,7 +279,7 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 |--- |--- |
 | Collegamento Activity Map per area geografica | `clickmaplinkbyregion` |
 | Regione Activity Map | `clickmapregion` |
-| Collegamento alla Activity Map | `clickmaplink` |
+| Collegamento Activity Map | `clickmaplink` |
 | Pagina della Activity Map | `clickmappage` |
 
 ### Integrazione Nielsen

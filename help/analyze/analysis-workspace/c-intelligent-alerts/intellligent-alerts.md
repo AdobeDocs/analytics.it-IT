@@ -4,10 +4,10 @@ title: Panoramica degli avvisi intelligenti
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 68%
+source-wordcount: '312'
+ht-degree: 73%
 
 ---
 
@@ -19,7 +19,7 @@ Questo è un tutorial video sugli [avvisi intelligenti](https://experienceleague
 
 ## Panoramica
 
-I nuovi Generatori di avvisi e Gestione avvisi di Analysis Workspace sostituiscono la funzionalità di avvisi di Reports &amp; Analytics, che è stata disattivata. La funzione Avvisi intelligenti permette di:
+La funzione Avvisi intelligenti permette di:
 
 * Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore)
 * Visualizzare in anteprima la frequenza di attivazione degli avvisi

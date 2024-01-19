@@ -1,18 +1,18 @@
 ---
-description: Dettagli sul modello Analysis Workspace e reporting in Reports & Analytics e Report Builder.
-title: Report sui dati pubblicitari in Adobe Analytics
+description: Dettagli sul modello Analysis Workspace e reporting in Report Builder.
+title: Rapporto sui dati pubblicitari in Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 6%
+source-wordcount: '356'
+ht-degree: 2%
 
 ---
 
-# Report sui dati pubblicitari in Adobe Analytics
+# Rapporto sui dati pubblicitari in Adobe Analytics
 
-Dettagli sul modello Analysis Workspace e reporting in Reports &amp; Analytics e Report Builder.
+Dettagli sul modello Analysis Workspace e reporting in Report Builder.
 
 >[!NOTE]
 >
@@ -37,18 +37,12 @@ Questo modello consente a chiunque implementi questa integrazione del motore di 
 | Totali conto | Tabella a forma libera dei principali account suddivisa per le metriche associate. |
 | Campagne | Grafico a barre del costo della campagna. |
 | Totali campagna | Tabella a forma libera delle campagne principali suddivisa per le metriche associate. |
-|  Groups (Gruppi) | Mappa ad albero del costo. |
+| Groups (Gruppi) | Mappa ad albero del costo. |
 | Totali gruppo | Tabella a forma libera dei principali gruppi pubblicitari suddivisi per le metriche associate. |
 | Annunci | Grafico a barre orizzontale con impression, clic e costi. |
 | Totali annuncio | Tabella a forma libera dei principali annunci suddivisa per le metriche associate. |
 | Parole chiave | Grafico a dispersione di impression, clic e costo per tutte le combinazioni parola chiave/tipo di corrispondenza. |
 | Totali parole chiave | Tabella a forma libera delle combinazioni principali di parole chiave/tipi di corrispondenza suddivisa per le metriche associate. |
-
-## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
-
-Non appena hai impostato un account Advertising Analytics, il rapporto di Advertising Analytics sarà disponibile.
-
-![](assets/aa_randa.png)
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 

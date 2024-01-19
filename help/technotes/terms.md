@@ -3,9 +3,9 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '2535'
+source-wordcount: '2541'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **In tempo reale:** Visualizza le variabili configurate non appena vengono raccolte con una latenza minima o nulla. Consulta [Rapporti in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) nella guida utente Admin.
 * **Report Builder:** Componente aggiuntivo per Microsoft Excel che consente di creare richieste personalizzate a partire da dati di Adobe Analytics.
 * **Suite di rapporti:** Contenitore generale a cui si inviano i dati. Tutti i rapporti in Adobe Analytics fanno riferimento a una suite di rapporti.
-* **Reports &amp; Analytics:** Precedentemente noto come SiteCatalyst. Soluzione browser per la generazione di rapporti e analisi. Strumento di avvio nel pacchetto Analytics.
+* **Reports &amp; Analytics:** Precedentemente noto come SiteCatalyst. Soluzione browser per la generazione di rapporti e analisi. Strumento di avvio nel pacchetto Analytics. Questo strumento è stato [fine vita](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=en).
 * **Intervallo date continuo:** Tipo di intervallo di date relativo che cambia con il passare del tempo. Ad esempio, un rapporto che mostra gli ultimi 7 giorni può essere considerato un intervallo di date continuo. Vedi anche intervallo di date statico.
 * **RSID:** Abbreviazione per ID suite di rapporti. Una suite di rapporti ha sia un nome descrittivo che un ID suite di rapporti.
 * **s.t():** Il nome della funzione in una libreria di AppMeasurement che invia una richiesta di immagine per la visualizzazione della pagina. Alcune librerie di AppMeasurement utilizzano `s.track()` invece. Consulta [t](../implement/vars/functions/t-method.md) nella guida utente Implementa.

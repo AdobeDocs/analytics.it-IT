@@ -3,10 +3,10 @@ description: Il Generatore di segmenti fornisce un’area di lavoro per trascina
 title: Generare segmenti
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1943'
-ht-degree: 5%
+source-wordcount: '1872'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,6 @@ Esistono diversi modi per accedere al Generatore di segmenti:
 
 * **Navigazione superiore di Analytics**: fai clic **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: fai clic **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, apri un progetto e fai clic su **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Reports & Analytics]**: fai clic **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, apri un rapporto esistente e fai clic sull’icona Segmenti  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) nel menu di navigazione a sinistra, fai clic su **[!UICONTROL Add]**.
 * **[!UICONTROL Report Builder]**: [Aggiungere o modificare segmenti nel Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## Criteri del generatore {#section_F61C4268A5974C788629399ADE1E6E7C}
@@ -61,17 +60,16 @@ Puoi aggiungere definizioni di regole e contenitori per definire i segmenti.
 1. **[!UICONTROL Value]**: il valore immesso o selezionato per la dimensione, il segmento o la metrica.
 1. **[!UICONTROL X]**: (Elimina) consente di eliminare questa parte della definizione del segmento.
 1. **[!UICONTROL Experience Cloud publishing]**: pubblicando un segmento di Adobe Analytics nell’Experience Cloud puoi utilizzare il segmento per l’attività di marketing in [!DNL Audience Manager] e in altri canali di attivazione. [Ulteriori informazioni...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: I servizi di pubblico di Adobe gestiscono la trasformazione dei dati dei visitatori in segmentazione del pubblico. La creazione e la gestione dei tipi di pubblico sono simili alla creazione e all’uso dei segmenti e in più permettono di condividere i segmenti di pubblico in Experience Cloud. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it)
+1. **[!UICONTROL Audience library]**: i servizi di pubblico di Adobe gestiscono come tradurre i dati sui visitatori in segmentazione del pubblico. La creazione e la gestione dei tipi di pubblico sono simili alla creazione e all’utilizzo dei segmenti e in più permettono di condividere i segmenti di pubblico nell’Experience Cloud. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it)
 1. **[!UICONTROL Search]**: esegue la ricerca nell’elenco di dimensioni, segmenti o metriche.
 1. **[!UICONTROL Dimensions]**: (Elenco) Fai clic sull’intestazione per espanderla.
 1. **[!UICONTROL Metrics]**: fai clic sull’intestazione per espandere.
 1. **[!UICONTROL Segments]**: fai clic sull’intestazione per espandere.
 1. **[!UICONTROL Report suite selector]**: consente di selezionare la suite di rapporti in cui verrà salvato il segmento. Puoi comunque utilizzare il segmento in tutte le suite di rapporti.
 1. **[!UICONTROL Segment Preview]**: consente di visualizzare in anteprima le metriche chiave per verificare se hai un segmento valido e quanto è ampio il segmento. Rappresenta il raggruppamento del set di dati previsto per vedere se si applica questo segmento. Mostra 3 cerchi concentrici e un elenco per mostrare il numero e la percentuale di corrispondenze per [!UICONTROL Hits], [!UICONTROL Visits], e [!UICONTROL Visitors] per un segmento eseguito su un set di dati. Questo grafico viene aggiornato subito dopo la creazione o la modifica della definizione del segmento.
-1. **[!UICONTROL Product Compatibility]**: fornisce un elenco dei prodotti Adobe Analytics (Analysis Workspace, [!UICONTROL Reports & Analytics], Data Warehouse) con cui è compatibile il segmento creato. La maggior parte dei segmenti è compatibile con tutti i prodotti. Tuttavia, non tutti gli operatori e le dimensioni sono compatibili con tutti i prodotti Analytics, in particolare [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Questo grafico viene aggiornato subito dopo aver apportato modifiche alla definizione del segmento.
+1. **[!UICONTROL Product Compatibility]**: fornisce un elenco dei prodotti Adobe Analytics (Analysis Workspace, Data Warehouse) con cui è compatibile il segmento creato. La maggior parte dei segmenti è compatibile con tutti i prodotti. Tuttavia, non tutti gli operatori e le dimensioni sono compatibili con tutti i prodotti Analytics, in particolare [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Questo grafico viene aggiornato subito dopo aver apportato modifiche alla definizione del segmento.
 1. **[!UICONTROL Save]** o **[!UICONTROL Cancel]**: salva o annulla il segmento. Dopo aver fatto clic su **[!UICONTROL Save]**, ti indirizzano al Gestore segmenti per gestire il segmento.
 
-I segmenti con intervalli di date incorporati continuano a funzionare diversamente in Analysis Workspace rispetto a [!UICONTROL Reports & Analytics]: in Workspace, un segmento con un intervallo di date integrato sostituisce l’intervallo di date del pannello. Per contro, [!UICONTROL Reports & Analytics] ti fornisce l’intersezione dell’intervallo di date del rapporto con l’intervallo di date integrato del segmento.
 
 ## Generare segmenti {#build-segments}
 
@@ -106,7 +104,7 @@ Ora sei portato al [Gestore segmenti](/help/components/segmentation/segmentation
 1. Trascina un Dimension, un segmento o un evento dal riquadro di sinistra al contenitore.
 1. Continua ad aggiungere nuovi contenitori dal livello superiore **[!UICONTROL Options]** > **[!UICONTROL Add container]** nella parte superiore della definizione, oppure aggiungi contenitori da un contenitore alla logica di nidificazione.
 
-   **O**
+   **OPPURE**
 
    Seleziona una o più regole, quindi fai clic su **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**. In questo modo la selezione diventa un contenitore separato.
 
@@ -156,7 +154,7 @@ Utilizzando lo stacking dei segmenti, puoi ridurre il numero di segmenti a 22 e 
 
 1. Salva il segmento.
 
-   Risultato del passaggio
+   Risultato passaggio
 
 ## Modelli di segmento {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 

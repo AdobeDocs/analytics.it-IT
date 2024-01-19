@@ -3,10 +3,10 @@ description: Le suite di rapporti virtuali possono essere curate per includere e
 title: Cura dei componenti delle suite di rapporti virtuali
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 4%
+source-wordcount: '384'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ Ecco un video sulla cura dei componenti:
 
 >[!NOTE]
 >
->Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di rapporti virtuali curate. In precedenza, chiunque poteva vedere i componenti non curati facendo clic su **[!UICONTROL Show all Components]**. Il [esperienza di cura aggiornata](/help/analyze/analysis-workspace/curate-share/curate.md) consente un controllo più dettagliato sui componenti visibili.
+>Sono state apportate modifiche ai componenti che amministratori e non amministratori possono visualizzare nei progetti Workspace curati e nelle suite di rapporti virtuali (VRS) curate. In precedenza, chiunque poteva vedere i componenti non curati facendo clic su **[!UICONTROL Show all Components]**. Il [esperienza di cura aggiornata](/help/analyze/analysis-workspace/curate-share/curate.md) consente un controllo più dettagliato sui componenti visibili.
 
 Per abilitare la cura dei componenti:
 
@@ -35,7 +35,6 @@ Per abilitare la cura dei componenti:
    >
    >Se è abilitata la personalizzazione dei componenti, la suite di rapporti virtuali è accessibile **solo in Analysis Workspace** e non è accessibile nei seguenti elementi:
    >
-   >* [!UICONTROL Reports & Analytics]
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]

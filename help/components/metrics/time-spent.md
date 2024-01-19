@@ -3,10 +3,10 @@ title: Calcolo del tempo trascorso in Adobe Analytics
 description: Una pagina aggregata di dimensioni e metriche relative al tempo trascorso.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 9%
+source-wordcount: '1614'
+ht-degree: 8%
 
 ---
 
@@ -18,14 +18,14 @@ Varie [!UICONTROL 'time spent'] [metriche](overview.md) Le dimensioni e sono off
 
 | Metrica | Definizione | Disponibile in |
 |---|---|---|
-| [!UICONTROL Total seconds spent] | Rappresenta il tempo totale in cui i visitatori interagiscono con un elemento dimensione specifico. Include l’istanza di un valore e la persistenza in tutti gli hit successivi. Nel caso di prop, il tempo trascorso viene conteggiato anche negli eventi di collegamento successivi. | Analysis Workspace, Reports &amp; Analytics, Report Builder (denominato &quot;tempo totale trascorso&quot;), Data Warehouse |
-| [!UICONTROL Time spent per visit] (Seconds) | Circa *Totale secondi trascorsi / (rimbalzi di visita)*<br> Rappresenta il tempo medio di interazione dei visitatori con un elemento di dimensione specifico durante ogni visita. **Nota**: questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace, Reports &amp; Analytics |
-| [!UICONTROL Time spent per visitor] (Seconds) | Circa *Totale secondi trascorsi/visitatore univoco*<br> Rappresenta il tempo medio di interazione dei visitatori con un elemento dimensione specifico nel corso della vita del visitatore (durata del cookie). **Nota**: questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL Total seconds spent] | Rappresenta il tempo totale in cui i visitatori interagiscono con un elemento dimensione specifico. Include l’istanza di un valore e la persistenza in tutti gli hit successivi. Nel caso di prop, il tempo trascorso viene conteggiato anche negli eventi di collegamento successivi. | Analysis Workspace, Report Builder (denominato &quot;tempo totale trascorso&quot;), Data Warehouse |
+| [!UICONTROL Time spent per visit] (secondi) | Circa *Totale secondi trascorsi / (rimbalzi di visita)*<br> Rappresenta il tempo medio di interazione dei visitatori con un elemento di dimensione specifico durante ogni visita. **Nota**: questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace |
+| [!UICONTROL Time spent per visitor] (secondi) | Circa *Totale secondi trascorsi/visitatore univoco*<br> Rappresenta il tempo medio di interazione dei visitatori con un elemento dimensione specifico nel corso della vita del visitatore (durata del cookie). **Nota**: questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace |
 | [!UICONTROL Time Spent/User (State)] | Circa *Totale secondi trascorsi per app mobile/visitatori univoci per app mobile*<br> Rappresenta il tempo medio di interazione dei visitatori di un’app mobile con un elemento di dimensione specifico nel corso della vita del visitatore (durata del cookie). **Nota**: questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace |
-| [!UICONTROL Average time spent on site] (Seconds) | Rappresenta il tempo totale in cui i visitatori interagiscono con un elemento dimensione specifico, per sequenza con un elemento dimensione. Non è limitato solo alle medie &quot;del sito&quot;, come suggerisce il nome. Per ulteriori informazioni sulle sequenze, consulta la sezione &quot;Modalità di calcolo del tempo trascorso&quot;.<br>**Nota**: questa metrica molto probabilmente differisce da &quot;Tempo trascorso per visita&quot; a livello di elemento dimensionale a causa delle differenze nel denominatore nel calcolo. | Analysis Workspace, Reports &amp; Analytics (in minuti), Report Builder (in minuti) |
+| [!UICONTROL Average time spent on site] (secondi) | Rappresenta il tempo totale in cui i visitatori interagiscono con un elemento dimensione specifico, per sequenza con un elemento dimensione. Non è limitato solo alle medie &quot;del sito&quot;, come suggerisce il nome. Per ulteriori informazioni sulle sequenze, consulta la sezione &quot;Modalità di calcolo del tempo trascorso&quot;.<br>**Nota**: questa metrica molto probabilmente differisce da &quot;Tempo trascorso per visita&quot; a livello di elemento dimensionale a causa delle differenze nel denominatore nel calcolo. | Analysis Workspace, Report Builder (in minuti) |
 | [!UICONTROL Average time on site] | Questa è la stessa metrica di *Tempo medio trascorso sul sito (secondi)*, tranne formattato come Ora (hh:mm:ss) | Analysis Workspace |
 | [!UICONTROL Average time spent on page] | Metrica obsoleta.<br> Consigliamo invece di utilizzare &quot;Tempo medio trascorso sul sito&quot; se è necessario il tempo medio per un elemento dimensione. | Report Builder (quando una dimensione è nella richiesta) |
-| [!UICONTROL Total session length], alias [!UICONTROL Previous session length] | Solo SDK per app mobili. <br>Determinato al successivo avvio dell’app, per la sessione precedente. Calcolata in secondi, questa metrica non conta quando l’app è in background, ma solo quando è in uso. Si tratta di una metrica a livello di sessione.<br>Esempio: installiamo l’app ABC, la avviamo e la utilizziamo per 2 minuti, quindi chiudiamo l’app. Non vengono inviati dati sull’ora di questa sessione. La prossima volta che avviamo l’app, [!UICONTROL Previous Session Length] verrà inviato con un valore di 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, interfaccia utente di Mobile Services |
+| [!UICONTROL Total session length], alias [!UICONTROL Previous session length] | Solo SDK per app mobili. <br>Determinato al successivo avvio dell’app, per la sessione precedente. Calcolata in secondi, questa metrica non conta quando l’app è in background, ma solo quando è in uso. Si tratta di una metrica a livello di sessione.<br>Esempio: installiamo l’app ABC, la avviamo e la utilizziamo per 2 minuti, quindi chiudiamo l’app. Non vengono inviati dati sull’ora di questa sessione. La prossima volta che avviamo l’app, [!UICONTROL Previous Session Length] verrà inviato con un valore di 120. | Analysis Workspace, Report Builder, interfaccia utente di Mobile Services |
 | [!UICONTROL Average session length] (dispositivi mobili) | *Lunghezza totale della sessione / (lanci - primi lanci)*<br> Solo SDK per app mobili. Si tratta di una metrica a livello di sessione. | Report Builder, interfaccia utente di Mobile Services |
 
 ## Dimensioni &quot;Tempo trascorso&quot;
@@ -33,9 +33,9 @@ Varie [!UICONTROL 'time spent'] [metriche](overview.md) Le dimensioni e sono off
 | Dimensione | Definizione | Disponibile in |
 | --- | --- | --- |
 | [!UICONTROL Time spent per visit - granular] | Il tempo totale trascorso durante la visita viene troncato al secondo più vicino e viene applicato a ogni hit che faceva parte della visita. Si tratta di una dimensione a livello di visita. | Analysis Workspace |
-| [!UICONTROL Time spent per visit - bucketed] | La dimensione granulare racchiusa in 9 intervalli diversi. Si tratta di una dimensione a livello di visita. Gli intervalli includono:<ul><li>Meno di 1 minuto</li><li>1-5 minuti</li><li>5-10 minuti</li><li>10-30 minuti</li><li>30-60 minuti</li><li>1-2 ore</li><li>2-5 ore</li><li>5-10 ore</li><li>10-15 ore</li></ul>**Nota**: non possono essere presenti contenitori più alti di questo, perché una visita scade dopo 12 ore di attività. | Analysis Workspace, Reports &amp; Analytics, Report Builder |
+| [!UICONTROL Time spent per visit - bucketed] | La dimensione granulare racchiusa in 9 intervalli diversi. Si tratta di una dimensione a livello di visita. Gli intervalli includono:<ul><li>Meno di 1 minuto</li><li>1-5 minuti</li><li>5-10 minuti</li><li>10-30 minuti</li><li>30-60 minuti</li><li>1-2 ore</li><li>2-5 ore</li><li>5-10 ore</li><li>10-15 ore</li></ul>**Nota**: non possono essere presenti contenitori più alti di questo, perché una visita scade dopo 12 ore di attività. | Analysis Workspace, Report Builder |
 | [!UICONTROL Time spent on page - granular] | Il tempo totale trascorso su ogni hit, troncato al secondo più vicino. Si tratta di una dimensione a livello di hit che include sia visualizzazioni di pagina che eventi di collegamento. Nonostante il nome, non è limitato alla dimensione &quot;pagina&quot;. | Analysis Workspace |
-| [!UICONTROL Time spent on page - bucketed] | La dimensione granulare racchiusa in 10 intervalli diversi; tuttavia, la dimensione a blocchi conta solo le visualizzazioni di pagina (ed esclude gli eventi di collegamento). Si tratta di una dimensione a livello di hit. Gli intervalli includono:<ul><li>meno di 15 secondi</li><li>Da 15 a 29 secondi</li><li>Da 30 a 59 secondi</li><li>Da 1 a 3 minuti</li><li>Da 3 a 5 minuti</li><li>Da 5 a 10 minuti</li><li>Da 10 a 15 minuti</li><li>Da 15 a 20 minuti</li><li>Da 20 a 30 minuti</li><li>più di 30 minuti</li></ul> | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL Time spent on page - bucketed] | La dimensione granulare racchiusa in 10 intervalli diversi; tuttavia, la dimensione a blocchi conta solo le visualizzazioni di pagina (ed esclude gli eventi di collegamento). Si tratta di una dimensione a livello di hit. Gli intervalli includono:<ul><li>meno di 15 secondi</li><li>Da 15 a 29 secondi</li><li>Da 30 a 59 secondi</li><li>Da 1 a 3 minuti</li><li>Da 3 a 5 minuti</li><li>Da 5 a 10 minuti</li><li>Da 10 a 15 minuti</li><li>Da 15 a 20 minuti</li><li>Da 20 a 30 minuti</li><li>più di 30 minuti</li></ul> | Analysis Workspace |
 
 ## Come viene calcolato il tempo trascorso
 
@@ -61,11 +61,11 @@ Le metriche &quot;tempo trascorso&quot; che possono essere applicate a qualsiasi
 
 * [!UICONTROL Total seconds spent]
 
-* [!UICONTROL Time spent per visit] (Seconds)
+* [!UICONTROL Time spent per visit] (secondi)
 
-* [!UICONTROL Time spent per visitor] (Seconds)
+* [!UICONTROL Time spent per visitor] (secondi)
 
-* [!UICONTROL Average time spent on site] (Seconds)
+* [!UICONTROL Average time spent on site] (secondi)
 
 +++
 
@@ -130,12 +130,12 @@ Supponiamo che il seguente set di chiamate al server sia per un singolo visitato
 | **prop1** | A (impostato) | A (diffusione in avanti) | non impostato | B (impostato) | B (impostato) | A(set) | C (set) |
 | **prop1 secondi trascorsi** | 30 | 50 | - | 10 | 40 | 60 | - |
 |  |  |  |  |  |  |  |  |
-| **eVar1** | Rosso (impostato) | Rosso (persistente) | (scaduto) | Blu (impostato) | Blu (impostato) | Blu (persistente) | Rosso (impostato) |
+| **EVAR 1** | Rosso (impostato) | Rosso (persistente) | (scaduto) | Blu (impostato) | Blu (impostato) | Blu (persistente) | Rosso (impostato) |
 | **eVar 1 secondi trascorsi** | 30 | 50 | - | 10 | 40 | 60 | - |
 
 In base alla tabella precedente, le metriche tempo trascorso vengono calcolate come segue:
 
-| prop 1 | Totale secondi trascorsi | Tempo trascorso per visita | Tempo trascorso per visitatore | Numero di sequenze | Tempo medio trascorso sul sito |
+| prop1 | Totale secondi trascorsi | Tempo trascorso per visita | Tempo trascorso per visitatore | Numero di sequenze | Tempo medio trascorso sul sito |
 |---|---|---|---|---|---|
 | A | 30+50+60=140 | 140/1=140 | 140/1=140 | 2 | 140/2=70 |
 | B | 10+40=50 | 50/1=50 | 50/1=50 | 1 | 50/1=50 |

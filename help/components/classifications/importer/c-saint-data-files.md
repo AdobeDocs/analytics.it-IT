@@ -3,9 +3,9 @@ description: L’importazione consente di caricare in massa i dati delle classif
 title: File di dati di classificazione
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1727'
 ht-degree: 98%
 
 ---
@@ -31,14 +31,14 @@ Un file di dati deve rispettare le seguenti regole di struttura:
 * I file caricati devono utilizzare la codifica dei caratteri UTF-8 senza BOM.
 * È possibile incorporare caratteri speciali come tab, caratteri di nuova riga e virgolette all’interno di una cella a condizione che sia specificato il formato di file v2.1 e che la cella sia correttamente [preceduta da caratteri di escape](/help/components/classifications/importer/t-classifications-escape-data.md). I caratteri speciali includono:
 
-   ```text
-   \t     tab character 
-   \r     form feed character 
-   \n    newline character 
-   "       double quote
-   ```
+  ```text
+  \t     tab character 
+  \r     form feed character 
+  \n    newline character 
+  "       double quote
+  ```
 
-   La virgola non è un carattere speciale.
+  La virgola non è un carattere speciale.
 
 * Le classificazioni non possono contenere un accento circonflesso (^) poiché questo carattere è utilizzato per indicare una sottoclassificazione.
 * Presta attenzione quando utilizzi i trattini. Ad esempio, se utilizzi un trattino (-) in un termine Social, Social riconosce il trattino come operatore [!DNL Not] (il segno meno). Ad esempio, se specifichi *`fragrance-free`* come termine con l’importazione, Social riconosce il termine come fragrance *`minus`* free e raccoglie i post che menzionano *`fragrance`* ma non *`free`*.
@@ -94,7 +94,6 @@ Un file di dati deve rispettare le seguenti regole di struttura:
 >
 >* [Problemi comuni relativi al caricamento](https://helpx.adobe.com/it/analytics/kb/common-saint-upload-issues.html)
 
-
 ## Formato dell’intestazione di colonna
 
 >[!NOTE]
@@ -109,11 +108,9 @@ Ogni valore deve essere univoco in tutto il sistema. Il valore in questo campo c
 
 ### Intestazione della colonna di classificazione
 
-Esempio: l’implementazione di Reports &amp; Analytics include automaticamente due classificazioni per [!UICONTROL Campaign] Variabili: [!UICONTROL Campaigns] e [!UICONTROL Creative Elements]. Per aggiungere dati alla classificazione [!UICONTROL Campaigns], l’intestazione di colonna nel file di dati di classificazione sarà [!UICONTROL Campaigns].
-
 >[!NOTE]
 >
->I valori nell’intestazione della colonna [!UICONTROL Classifications] devono corrispondere esattamente alla convenzione di denominazione della classificazione, altrimenti l’importazione non riesce. Ad esempio, se l’amministratore modifica [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] nel [!UICONTROL Campaign Set-up Manager], l’intestazione della colonna del file dev’essere modificata di conseguenza. &quot;Chiave&quot; è un valore di classificazione riservato (intestazione). Le nuove classificazioni denominate &quot;Chiave&quot; non sono supportate.
+>I valori nell’intestazione della colonna [!UICONTROL Classifications] devono corrispondere esattamente alla convenzione di denominazione della classificazione, altrimenti l’importazione non riesce. Ad esempio, se l’amministratore cambia [!UICONTROL Campaigns] a [!UICONTROL Internal Campaign Names] nel [!UICONTROL Campaign Set-up Manager], l’intestazione della colonna del file deve essere modificata di conseguenza. &quot;Chiave&quot; è un valore di classificazione riservato (intestazione). Le nuove classificazioni denominate &quot;Chiave&quot; non sono supportate.
 
 Inoltre, il file di dati supporta le seguenti convenzioni di intestazione aggiuntive per identificare sottoclassificazioni e altre colonne di dati specializzate:
 

@@ -4,9 +4,9 @@ keywords: Suite di rapporti virtuali
 title: Considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1650'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,6 @@ Per determinare se utilizzare l’assegnazione di tag multisuite o le suite di r
 La condivisione di segmenti su Adobe Experience Cloud non è supportata per le suite di rapporti virtuali. Gli utenti che desiderano condividere un segmento con l’Experience Cloud devono avere accesso alla suite di rapporti di origine.
 
 Non è ancora possibile pubblicare segmenti in Adobe Experience Cloud da una suite di rapporti virtuale per la personalizzazione e il targeting. A questo scopo, tutti gli utenti che pubblicano segmenti devono accedere alla suite di rapporti di origine. Ad esempio, se desideri che gli utenti abbiano accesso solo ai dati per le loro aree geografiche, vuoi che possano creare e condividere segmenti da Adobe Analytics a Adobe Experience Cloud per il targeting in Adobe Target. In questo caso, l’Adobe consiglia di utilizzare l’assegnazione tag per più suite. Se non ti dispiace se gli utenti hanno accesso alla suite di rapporti globale o se non devi pubblicare segmenti da utilizzare in altre soluzioni, puoi utilizzare le suite di rapporti virtuali.
-
-### Dati in tempo reale e correnti
-
-I rapporti in tempo reale non sono supportati nelle suite di rapporti virtuali, perché i dati sono segmentati. Inoltre, i dati correnti non sono supportati nelle suite di rapporti virtuali, in quanto non supportano la segmentazione. Entrambe queste funzioni sono specifiche di Reports &amp; Analytics.
-
-[Rapporti in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) e [Dati correnti](/help/technotes/latency.md) non sono disponibili nelle suite di rapporti virtuali. Questo interessa gli utenti che rispondono alle tendenze visualizzate in Reports &amp; Analytics entro pochi secondi o minuti dalla raccolta dei dati. Ad esempio, potrebbe includere editor in una newsroom che modificano i titoli in base al consumo di contenuti in tempo reale. Valuta l’utilizzo dei tag per più suite se hai esigenze di dati in tempo reale significative specifiche per le singole suite di rapporti. I dati correnti e in tempo reale possono ancora essere utilizzati nella suite di rapporti globale.
 
 ### Limiti univoci
 

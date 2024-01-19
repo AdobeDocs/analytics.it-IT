@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ Sì. Le [Colonne dati](/help/export/analytics-data-feed/c-df-contents/datafeeds-
 +++
 
 +++I segmenti funzionano in modalità Live?
-No, i segmenti non funzionano in modalità Live. La funzionalità è equivalente a quella del reporting in tempo reale in Reports &amp; Analytics, che non supporta la segmentazione.
+No, i segmenti non funzionano in modalità Live.
 +++
 
 +++Activity Map è compatibile con le suite di rapporti virtuali?
@@ -89,9 +89,9 @@ Sono disponibili tre opzioni:
 * Elimina la funzione `AppMeasurement_Module_ActivityMap` dal file JS
 * Aggiungi un codice personalizzato che riscrive la funzione precedente con un corpo vuoto, ad esempio:
 
-   ```js
-   function AppMeasurement_Module_ActivityMap() {}
-   ```
+  ```js
+  function AppMeasurement_Module_ActivityMap() {}
+  ```
 
 * Configurare AppMeasurement impostando `s.trackClickMap` e `s.trackInlineStats` a `false`
 +++

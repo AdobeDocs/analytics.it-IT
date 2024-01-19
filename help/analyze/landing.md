@@ -4,9 +4,9 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2040'
 ht-degree: 95%
 
 ---
@@ -159,7 +159,7 @@ Gli amministratori possono nascondere la scheda Rapporti per tutti gli utenti al
 | --- | --- |
 | Dove sono i modelli che trovavo in [!UICONTROL Workspace]? | Questi modelli sono raggruppati sotto la scheda [!UICONTROL Reports]. |
 | Il lavoro che eseguo nell’interfaccia utente del programma beta viene riportato all’esperienza [!UICONTROL Workspace] di produzione? | Sì, qualsiasi lavoro svolto nella versione beta viene trasferito all’esperienza precedente/corrente di [!UICONTROL Workspace]. |
-| Sono i miei precedenti [!DNL Reports & Analytics] Preferiti riportati? | No, NON sono riportati. Tuttavia, vengono riportati tutti i progetti preferiti di [!UICONTROL Workspace]. |
+| Vengono riportati i miei precedenti preferiti di Reports &amp; Analytics? | No, NON sono riportati. Tuttavia, vengono riportati tutti i progetti preferiti di [!UICONTROL Workspace]. |
 | Esiste un limite massimo al numero di progetti che è possibile fissare? | No, non esiste alcun limite al numero di progetti che è possibile fissare. |
 | Gli amministratori possono designare questa nuova pagina di destinazione per i loro utenti? | No, gli amministratori non possono designare la pagina di destinazione per conto degli utenti. I singoli utenti devono attivarla autonomamente. |
 | Sono tutti rapporti esistenti in [!DNL Reports & Analytics] ancora disponibile? | No, i seguenti rapporti sono stati gradualmente eliminati in base ai dati di utilizzo generali: <ul><li>Eventuali eVar/prop/eventi/classificazioni personalizzati<li>I miei rapporti consigliati</li><li>Visitatori univoci orari/giornalieri/settimanali/mensili/trimestrali/annuali</li><li>Clienti univoci giornalieri/settimanali/mensili/trimestrali/annuali</li><li>Profondità nome azione</li><li>Riepilogo nomi azioni</li><li>Aggiungi dashboard</li><li>Età</li><li>Supporto audio</li><li>Dati di fatturazione</li><li>Clic verso la pagina</li><li>Profondità colore</li><li>Supporto per cookie</li><li>Cookie</li><li>Tipi di connessione</li><li>Elementi creativi</li><li>Tipo di carta di credito</li><li>Cross-selling</li><li>Funnel evento personalizzato</li><li>Collegamenti personalizzati</li><li>Customer ID</li><li>Giorno della settimana</li><li>Nome azione di entrata</li><li>Nome azione di uscita</li><li>Collegamenti di uscita</li><li>Abbandono</li><li>Download di file</li><li>Trova in negozio</li><li>Percorsi completi</li><li>Genere</li><li>Regola VISTA del tipo di hit</li><li>Supporto immagini</li><li>Java</li><li>JavaScript</li><li>JavaScript versione</li><li>Gestione segnalibri</li><li>Gestione dashboard</li><li>Profondità colore del monitor</li><li>Risoluzione monitor</li><li>Registrazioni per newsletter</li><li>Nome azione successivo</li><li>Flusso nomi azioni successive</li><li>Ricerche Null</li><li>Sistema operativo</li><li>Revisione ordine</li><li>Pagina del giorno</li><li>Pagine non trovate</li><li>Pathfinder</li><li>Lunghezza percorso</li><li>Nome azione precedente</li><li>Flusso nomi azioni precedenti</li><li>Attività sul prodotto</li><li>Costo del prodotto</li><li>Reparto prodotto</li><li>Categoria inventario prodotto</li><li>Nome del prodotto</li><li>Recensioni prodotto</li><li>Stagione prodotto</li><li>Quote prodotto</li><li>Zoom sul prodotto</li><li>Ricaricamento</li><li>Ricerche</li><li>Server</li><li>Visite a pagina singola</li><li>Informazioni spedizione</li><li>Gerarchia sito</li><li>Menzioni social</li><li>Ora del giorno</li><li>Tempo trascorso su nome azione</li><li>Supporto video</li><li>Stato visitatore</li></ul> |

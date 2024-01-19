@@ -3,10 +3,10 @@ description: Scopri tutto quello che puoi fare con Advertising Analytics in ques
 title: Guida ad Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 91%
+source-wordcount: '1212'
+ht-degree: 88%
 
 ---
 
@@ -39,7 +39,7 @@ Questa integrazione è destinata ai seguenti tipi di pubblico:
 * Nel caso di Bing Ads, è necessario anche l’ID cliente Bing.
 * Se si utilizza Internet Explorer 11 (o versioni precedenti) non si riuscirà a [impostare un account per annunci](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) per nessuno dei tre motori di ricerca. Usa altri browser web.
 
-## Autorizzazioni per Advertising Analytics {#section_FCC58EB635954A32990D4E67B52B4369}
+## Autorizzazioni Advertising Analytics {#section_FCC58EB635954A32990D4E67B52B4369}
 
 Analytics dispone di due autorizzazioni che vengono concesse automaticamente agli amministratori di Analytics. Gli amministratori possono quindi scegliere di concedere queste autorizzazioni agli utenti non amministratori.
 
@@ -68,9 +68,9 @@ Analytics dispone di due autorizzazioni che vengono concesse automaticamente agl
  </tbody> 
 </table>
 
-## Metriche e dimensioni di Advertising Analytics {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
+## Dimension e metriche di Advertising Analytics {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
-Advertising Analytics aggiunge le metriche e le dimensioni seguenti ad Analysis Workspace, Reports &amp; Analytics, Report Builder e all’API Analytics Reporting.
+Advertising Analytics aggiunge le dimensioni e metriche seguenti ad Analysis Workspace, Report Builder e all’API di reporting di Analytics.
 
 **Dimensioni**
 

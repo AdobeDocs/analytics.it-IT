@@ -1,15 +1,15 @@
 ---
 description: Passaggi per aggiungere eventi di calendario e per gestire eventi condivisi.
-title: Eventi calendario panoramica
+title: Panoramica degli eventi calendario
 feature: Reports & Analytics Basics
-uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 99%
 
 ---
+
 
 # Eventi calendario
 
