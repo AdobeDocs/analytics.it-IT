@@ -1,12 +1,12 @@
 ---
 title: Creare una proprietà Analytics nei tag
 description: Crea uno spazio per personalizzare la modalità di raccolta dei dati, utilizzando i tag.
-feature: Launch Implementation
+feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 14%
+source-wordcount: '473'
+ht-degree: 11%
 
 ---
 
@@ -47,9 +47,9 @@ Gli elementi dati sono riferimenti a parti specifiche del sito per raccogliere v
    * Tipo di elemento dati: variabile JavaScript
    * Nome variabile JavaScript: `window.document.title`
 
-      >[!NOTE]
-      >
-      >Questo valore funge da esempio per iniziare. Se la tua organizzazione definisce un valore migliore per il nome della pagina, ad esempio un valore del livello dati, puoi immetterlo qui.
+     >[!NOTE]
+     >
+     >Questo valore funge da esempio per iniziare. Se la tua organizzazione definisce un valore migliore per il nome della pagina, ad esempio un valore del livello dati, puoi immetterlo qui.
    * Pulisci testo selezionato
    * Durata archiviazione: nessuna
 1. Fai clic su **[!UICONTROL Save]** (Usa modello di attribuzione non predefinito).
