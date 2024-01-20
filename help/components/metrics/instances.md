@@ -3,10 +3,10 @@ title: Istanze
 description: Il numero di hit impostati (e non mantenuti) da una variabile.
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 813d209980ad02c412970a698c282c1358921ed6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 3%
+source-wordcount: '263'
+ht-degree: 4%
 
 ---
 
@@ -20,4 +20,9 @@ Di tutti gli hit in una suite di rapporti, includi solo quelli che impostano esp
 
 Ad esempio, un visitatore arriva sul tuo sito e utilizza la ricerca interna. Puoi tenere traccia della ricerca interna in eVar1. Dopo aver utilizzato una sola volta la ricerca interna, visita altre cinque pagine prima di uscire.
 
-Se visualizzi un rapporto in Workspace, visualizzerai un’istanza eVar1 e sei occorrenze. L’istanza si è attivata nella pagina dei risultati della ricerca, mentre le occorrenze conteggiavano il valore iniziale e i valori persistenti.
+Se visualizzi un rapporto in Workspace, visualizzerai un’istanza eVar1 e sei occorrenze. Un’istanza conta nella pagina dei risultati della ricerca, mentre la metrica Occorrenze conta il valore iniziale e i successivi valori persistenti.
+
+## Confronto con metriche simili
+
+* **Istanze e [Occorrenze](occurrences.md)**: le istanze non includono gli hit in cui un elemento dimensione persiste. Occorrenze: vengono conteggiati gli hit in cui è stato impostato o mantenuto un elemento di dimensione.
+* **Istanze e [Visualizzazioni pagina](page-views.md)**: le istanze includono tutti i tipi di hit, incluse le chiamate di tracciamento della visualizzazione pagina ([`t()`](/help/implement/vars/functions/t-method.md)), chiamate di tracciamento dei collegamenti ([`tl()`](/help/implement/vars/functions/tl-method.md)) e dati del riepilogo [Origini dati](/help/import/data-sources/overview.md). La metrica delle visualizzazioni di pagina include solo le chiamate di tracciamento della visualizzazione della pagina, escluse le chiamate di tracciamento dei collegamenti e le origini dati di riepilogo.
