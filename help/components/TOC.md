@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+workflow-type: tm+mt
+source-wordcount: '749'
+ht-degree: 98%
 
 ---
 
@@ -47,8 +47,8 @@ ht-degree: 100%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar](dimensions/evar.md)
-   + [eVar  (Merchandising)](dimensions/evar-merchandising.md)
+   + [eVar ](dimensions/evar.md)
+   + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
    + [Canale di primo contatto](dimensions/first-touch-channel.md)
@@ -138,7 +138,7 @@ ht-degree: 100%
    + [Eventi pagina](metrics/page-events.md)
    + [Visualizzazioni pagina](metrics/page-views.md)
    + [Pagine non trovate](metrics/pages-not-found.md)
-   + [Persone con Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
+   + [Persone con ID Experience Cloud](metrics/people-with-exp-cloud-id.md)
    + [Persone](metrics/people.md)
    + [Visualizzazioni di prodotti](metrics/product-views.md)
    + [Ricariche](metrics/reloads.md)
@@ -258,7 +258,7 @@ ht-degree: 100%
       + [Flusso di lavoro di Generatore regole di classificazione](classifications/crb/classification-rule-builder.md)
       + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)
       + [Regole di classificazione](classifications/crb/classification-quickstart-rules.md)
-      + [Regole di classificazione - definizioni](classifications/crb/classification-rule-definitions.md)
+      + [Regole di classificazione: definizioni](classifications/crb/classification-rule-definitions.md)
       + [Sottoclassificazioni e Generatore di regole](classifications/crb/sub-classification-rule-builder.md)
    + Importazione classificazioni {#classifications-importer}
       + [Importazione classificazioni: panoramica](classifications/importer/c-working-with-saint.md)
@@ -280,7 +280,6 @@ ht-degree: 100%
    + [Gestione posizioni](/help/components/locations/locations-manager.md)
    + [Account di importazione cloud](/help/components/locations/configure-import-accounts.md)
    + [Posizioni di importazione cloud](/help/components/locations/configure-import-locations.md)
-+ [Eventi calendario](t-calendar-event.md)
 + [Progetti programmati](scheduled-projects-manager.md)
 + [Coda dei rapporti pianificati](scheduled-reports-admin.md)
 + Rapporti in tempo reale {#real-time-reporting}

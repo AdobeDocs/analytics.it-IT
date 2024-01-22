@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '633'
 ht-degree: 81%
 
 ---
@@ -46,7 +46,6 @@ ht-degree: 81%
             + Rilevamento di ricerca a pagamento {#paid-search-detection}
                + [Panoramica sul rilevamento di ricerca a pagamento](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configurare il rilevamento di ricerche a pagamento](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [Personalizzare i menu](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + Regole di elaborazione {#c-processing-rules}
                + [Panoramica sulle regole di elaborazione](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + Regole di elaborazione {#c-processing-rules-configuration}
@@ -133,7 +132,6 @@ ht-degree: 81%
       + [Scaricare le impostazioni delle suite di rapporti](admin/c-manage-report-suites/t-download-rs-settings.md)
       + New Report Suite (Nuova suite di rapporti) {#c-new-report-suite}
          + [Creare una suite di rapporti](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [Creare una suite di rapporti di aggregazione dati](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
          + [Creare un gruppo suite di rapporti](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [Nuova suite di rapporti: impostazioni](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [Impostazioni non copiate da una suite di rapporti di origine](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -153,8 +151,7 @@ ht-degree: 81%
       + [Servizi web](admin/company/web-services-admin.md)
       + [Rapporti di Report Builder](admin/company/report-builder-reports-admin.md)
       + [Single Sign-On](admin/company/single-signon-admin.md)
-      + [Co-branding](admin/company/co-branding-admin.md)
-      + [Nascondere le suite di rapporti](admin/company/c-hide-report-suites.md)
+      + [Nascondi le suite di rapporti](admin/company/c-hide-report-suites.md)
       + [Preferenze manager](admin/company/preferences-manager.md)
       + [Azioni in sospeso](admin/company/pending-actions-admin.md)
       + [Livelli di accesso alle funzionalità](admin/company/feature-access-levels.md)

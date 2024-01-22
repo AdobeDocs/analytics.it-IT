@@ -3,10 +3,10 @@ description: Descrizioni dei tipi di suite di rapporti e confronto tra le suite 
 title: Approcci suite di rapporti
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 93%
+source-wordcount: '444'
+ht-degree: 89%
 
 ---
 
@@ -44,38 +44,38 @@ Invece di usare più suite di rapporti con tag, spesso è preferibile utilizzare
 >
 >[!DNL Reports & Analytics] è l’unico strumento che supporta i rapporti di aggregazione dati. Reports &amp; Analytics è stato terminato il 17 gennaio 2024.
 
-### Limitazioni dei rapporti di aggregazione dati {#limitations-rollups}
+<!---### Limitations of Rollup Reports {#limitations-rollups}
 
-* Le aggregazioni dati forniscono dati totali, ma non includono i valori singoli nei rapporti. Ad esempio, i valori eVar1 non sono inclusi, ma può esserlo il relativo valore totale aggregato.
-* I dati non vengono deduplicati quando l’aggregazione dati combina i dati di diverse suite di rapporti.
-* Le aggregazioni dati vengono eseguite ogni notte a mezzanotte.
-* Quando aggiungi una suite di rapporti a un’aggregazione dati esistente, i dati storici non vengono inclusi nell’aggregazione.
-* Affinché l‘aggregazione dati funzioni, tutte le suite di rapporti figlio devono contenere dei dati. Se in un’aggregazione dati sono incluse nuove suite di rapporti, assicurati di inviare a ciascuna almeno una visualizzazione di pagina.
-* Le suite di rapporti di aggregazione dati possono includere fino a 40 suite di rapporti figlio.
-* Le suite di rapporti di aggregazione dati possono includere fino a 100 eventi.
-* I dati contenuti nelle suite di rapporti di aggregazione dati non supportano raggruppamenti o segmenti.
-* Il rapporto Pagine viene sostituito dal rapporto Siti più popolari, che riporta le metriche a livello di suite figlio.
+* Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
+* Data is not deduplicated when the rollup combines data across report suites.
+* Rollups run nightly at midnight.
+* When you add a report suite to an existing rollup, historical data is not included in the rollup.
+* All child report suites must have data in them for a rollup to function. If new report suites are included in a rollup, make sure to send at least one page view to each of those report suites.
+* Rollup report suites can include a maximum of 40 child report suites.
+* Rollup report suites can include a maximum of 100 events.
+* Data contained in rollup report suites does not support breakdowns or segments.
+* The Pages report is replaced with the Most Popular Sites report, which reports on metrics at the child-suite level.
 
-## Confronto tra le funzioni Suite di rapporti globale e Rapporto di aggregazione dati
+## Comparison of Global Report Suite and Rollup Report  Features
 
-**Chiamate al server secondarie**: le aggregazioni dati non generano chiamate al server aggiuntive oltre a quelle raccolte da una singola suite di rapporti. Se l’organizzazione utilizza l’assegnazione di tag a più suite, vengono effettuate chiamate al server secondarie per ogni suite di rapporti aggiuntiva inclusa in una richiesta di immagine.
+**Secondary server calls**: Rollups do not incur any additional server calls beyond what a single report suite collects. If your organization uses multi-suite tagging, secondary server calls are made for each additional report suite included in an image request.
 
 >[!TIP]
 >
->Se utilizzi solo una suite di rapporti globale con [suite di rapporti virtuali](/help/components/vrs/vrs-considerations.md), non sono necessarie chiamate al server secondarie.
+>If you use only a global report suite with [virtual report suites](/help/components/vrs/vrs-considerations.md), no secondary server calls are needed.
 
-**Modifiche all’implementazione**: le aggregazioni dati non richiedono modifiche all’implementazione; per le suite di rapporti globali è invece necessario includere nell’implementazione l’ID della suite di rapporti globale.
+**Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 
-**Duplicazione**: le suite di rapporti globali deduplicano i visitatori univoci, le aggregazioni dati no. Ad esempio, se un utente visita tre dei tuoi domini nello stesso giorno, le aggregazioni dati contano tre visitatori univoci giornalieri. Le suite di rapporti globali registrano invece un solo visitatore univoco.
+**Duplication**: Global report suites deduplicate unique visitors, while rollups do not. For example, if a user visits three of your domains in the same day, rollups would count three daily unique visitors. Global report suites would record one unique visitor.
 
-**Arco temporale**: le aggregazioni dati vengono elaborate solo ogni notte a mezzanotte; le suite di rapporti globali presentano i dati con latenza standard.
+**Time frame**: Rollups are only processed at midnight each night, while global report suites report data with standard latency.
 
-**Ambito**: le aggregazioni dati non possono comunicare tra diverse suite di rapporti. Le suite di rapporti globali possono attribuire il merito alle variabili di conversione e fornire percorsi tra diverse suite di rapporti.
+**Breadth**: Rollups have no way to communicate between report suites. Global report suites can attribute credit to conversion variables between report suites and provide pathing across report suites.
 
-**Dati storici**: le aggregazioni dati possono aggregare i dati storici; le suite di rapporti globali presentano i dati solo a partire dal momento in cui sono state implementate.
+**Historical data**: Rollups can aggregate historical data, while global report suites only report data from the point they were implemented.
 
-**Rapporti**: le suite di rapporti globali forniscono dati su tutte le dimensioni; le aggregazioni dati forniscono dati aggregati solo sui rapporti di alto livello.
+**Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**Prodotti supportati**: le aggregazioni dati possono essere utilizzate solo in Reports &amp; Analytics. Non sono supportati in Analysis Workspace o Data Warehouse. Le suite di rapporti globali possono essere utilizzate in tutti i prodotti.
+**Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Numero di suite di rapporti aggregate**: le aggregazioni dati supportano un massimo di 40 suite di rapporti figlio. Le suite di rapporti globali possono essere implementate in qualsiasi numero di domini o app di tua proprietà.
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->

@@ -3,10 +3,10 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 98%
+source-wordcount: '1146'
+ht-degree: 94%
 
 ---
 
@@ -24,9 +24,11 @@ Questo video mette a confronto diversi strumenti di Adobe Analytics:
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve essere l’interfaccia utente di riferimento per tutte le tue esigenze di reporting e analisi. Adobe continua a investire in questo prodotto e a rilasciare aggiornamenti mensili. Se non è possibile eseguire una specifica attività in Analysis Workspace, considera le altre interfacce riportate di seguito.**
 
+**[Dashboard di Adobe Analytics](/help/analyze/mobile-app/home.md)** consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a sezioni che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. L’app mobile è supportata sia su sistemi operativi iOS che Android.
+
 **[Report Builder](/help/analyze/report-builder/home.md)** è un componente aggiuntivo per Microsoft Excel. Consente di generare richieste personalizzate partendo da dati di Adobe Analytics, che puoi inserire in fogli di lavoro Excel. Le richieste possono fare riferimento in maniera dinamica a celle presenti nel tuo foglio di lavoro, inoltre hai la possibilità di aggiornare e personalizzare la presentazione dei dati da parte del Report Builder.
 
-**[Dashboard di Adobe Analytics](/help/analyze/mobile-app/home.md)** consente agli utenti di accedere a scorecard intuitive da dispositivi mobili. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a sezioni che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. L’app mobile è supportata sia su sistemi operativi iOS che Android.
+**[Activity Map](/help/analyze/activity-map/activity-map.md)** è una funzione all’interno di Adobe Analytics che fornisce una rappresentazione visiva del coinvolgimento degli utenti su pagine web e app mobili. Consente agli esperti di marketing e agli analisti di monitorare e analizzare le interazioni degli utenti, ad esempio clic, passaggi al passaggio del mouse e comportamenti di scorrimento.
 
 ## Importazione di dati in Adobe Analytics {#import}
 

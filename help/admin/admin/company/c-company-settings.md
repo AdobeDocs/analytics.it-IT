@@ -3,9 +3,9 @@ description: Pagina Panoramica per configurare le impostazioni applicabili a tut
 title: Panoramica delle impostazioni aziendali
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: 09f44ce0b89acf70499e2bcdaa31307028d2fe92
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '54'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,5 @@ La pagina [!UICONTROL Company Settings] consente di configurare le impostazioni 
 + [Rapporti di Report Builder](report-builder-reports-admin.md)
 + [Single Sign-On](single-signon-admin.md)
 + [Azioni in sospeso](pending-actions-admin.md)
-+ [Co-branding](co-branding-admin.md)
 + [Nascondere le suite di rapporti](c-hide-report-suites.md)
 + [Security Manager](security-manager.md)
