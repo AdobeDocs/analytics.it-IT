@@ -3,10 +3,10 @@ title: Implementare Adobe Analytics utilizzando l’SDK di Adobe Experience Plat
 description: Utilizzare l’estensione Mobile SDK in Adobe Experience Platform Data Collection per inviare dati ad Adobe Analytics.
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 28%
+source-wordcount: '527'
+ht-degree: 25%
 
 ---
 
@@ -38,8 +38,8 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>2</td>
-<td><b>Configurare schemi e set di dati</b>. Per standardizzare la raccolta dati da utilizzare nelle applicazioni che sfruttano Adobe Experience Platform, Adobe ha creato lo standard aperto e pubblicamente documentato Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it">Panoramica dell’interfaccia utente degli schemi</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it">Panoramica dell’interfaccia utente dei set di dati</a></td>
+<td><b>Configurare gli schemi.</b> (Autenticazione): Per standardizzare la raccolta dati da utilizzare nelle applicazioni che sfruttano Adobe Experience Platform, Adobe ha creato lo standard aperto e pubblicamente documentato Experience Data Model (XDM).</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it">Panoramica dell’interfaccia utente degli schemi</a></td>
 </tr>
 
 <tr>
@@ -106,7 +106,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>2</td>
 <td><b>Configurare schemi e set di dati</b>. Per standardizzare la raccolta dati da utilizzare nelle applicazioni che sfruttano Adobe Experience Platform, Adobe ha creato lo standard aperto e pubblicamente documentato Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it">Panoramica dell’interfaccia utente degli schemi</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it">Panoramica dell’interfaccia utente dei set di dati</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it">Panoramica dell’interfaccia utente degli schemi</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Panoramica dell’interfaccia utente dei set di dati</a></td>
 </tr>
 
 <tr>
@@ -137,6 +137,6 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 ## Risorse aggiuntive
 
-- [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it#)
+- [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#)
 
 - [Documentazione di Mobile SDK](https://developer.adobe.com/client-sdks/documentation/)

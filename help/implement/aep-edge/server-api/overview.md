@@ -3,10 +3,10 @@ title: Implementare Adobe Analytics utilizzando l’API del server di rete Edge 
 description: Utilizza l’API del server di rete Edge di Adobe Experience Platform per inviare dati ad Adobe Analytics.
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
-source-git-commit: 5a57f4d2d73f16a72fbe8b198b1609a8bffc38b6
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 12%
+source-wordcount: '260'
+ht-degree: 6%
 
 ---
 
@@ -34,14 +34,14 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>2</td>
-<td><b>Configurare schemi e set di dati</b>. Per standardizzare la raccolta dati da utilizzare nelle applicazioni che sfruttano Adobe Experience Platform, Adobe ha creato lo standard aperto e pubblicamente documentato Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it">Panoramica dell’interfaccia utente degli schemi</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it">Panoramica dell’interfaccia utente dei set di dati</a></td>
+<td><b>Configurare gli schemi</b>. Per standardizzare la raccolta dati da utilizzare nelle applicazioni che sfruttano Adobe Experience Platform, Adobe ha creato lo standard aperto e pubblicamente documentato Experience Data Model (XDM).</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it">Panoramica dell’interfaccia utente degli schemi</a></td>
 </tr>
 
 <tr>
 <td>3</td>
 <td><b>Configurare uno stream di dati</b>. Un flusso di dati rappresenta la configurazione lato server quando si utilizzano le API dall’API di Adobe Experience Platform Edge Network.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en">Configurare uno stream di dati<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it">Configurare uno stream di dati<a></td> 
 </tr>
 
 <tr>
