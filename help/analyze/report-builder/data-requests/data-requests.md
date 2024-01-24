@@ -4,9 +4,9 @@ title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: 244af34b463ea5df55eaca31f3b2df4ada552b5d
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '379'
 ht-degree: 3%
 
 ---
@@ -21,9 +21,11 @@ Nella maschera Creazione guidata richieste: passaggio 1 selezionare la suite di 
 
 1. **Selettore intervallo**: consente di selezionare un ID suite di rapporti da una cella in Excel. Consulta [Selezionare suite di rapporti](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segmento**: i segmenti sono sottoinsiemi di dati personalizzati o dati filtrati dalle regole create. I segmenti si basano su hit, visite e visitatori. Consulta la [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) per ulteriori informazioni sui segmenti.
+1. **Segmento**: i segmenti sono sottoinsiemi di dati personalizzati o dati filtrati dalle regole create. I segmenti si basano su hit, visite e visitatori. Consulta la [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it) per ulteriori informazioni sui segmenti.
 
    Ad esempio, è possibile eseguire una [!UICONTROL Pages Report], quindi applica un segmento Nuovo visitatore.
+
+1. **Consenti sostituzione elenco di pubblicazione**: gli elenchi di pubblicazione erano una funzione di Reports &amp; Analytics che ora [fine vita](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
 
 1. **Tipo di rapporto**: specifica il rapporto di base da eseguire nella richiesta di dati. Puoi eseguire un rapporto per richiesta e tale rapporto può avere dimensioni uno-a-molti e metriche uno-a-molti. Le metriche e le dimensioni di un tipo di rapporto sono visualizzate nel [!UICONTROL Request Wizard; Step 2] di rete. Consulta [Seleziona tipi di rapporto](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 
