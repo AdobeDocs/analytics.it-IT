@@ -3,9 +3,9 @@ description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare una destinazione di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
+source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2232'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Per informazioni su come iniziare a creare una richiesta, nonché collegamenti a
 >
 >* È consigliabile utilizzare un account cloud o un messaggio e-mail per la destinazione del rapporto. Gli account FTP e SFTP legacy sono disponibili ma non sono consigliati.
 >
->* Gli account cloud sono associati al tuo account utente di Adobe Analytics. Gli altri utenti non possono utilizzare o visualizzare gli account cloud configurati dall’utente.
+>* Le richieste Data Warehouse sono associate al tuo account utente Adobe Analytics. Per impostazione predefinita, gli altri utenti non possono utilizzare o visualizzare le richieste configurate. Puoi rendere le richieste Data Warehouse disponibili ad altri utenti dell’organizzazione abilitando **Mostra tutte le destinazioni** come descritto in [Data Warehouse impostazioni generali della richiesta](/help/export/data-warehouse/create-request/dw-general-settings.md).
 >
 >* Tutti gli account cloud che hai precedentemente [configurato per feed dati](/help/export/analytics-data-feed/create-feed.md) sono disponibili per l’utilizzo in Data Warehouse.
 >
