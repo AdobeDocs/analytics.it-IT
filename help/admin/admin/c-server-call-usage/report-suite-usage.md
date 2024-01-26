@@ -3,10 +3,11 @@ description: La scheda Utilizzo suite di rapporti fornisce i dati di utilizzo de
 title: Visualizzazione dell’utilizzo della suite di rapporti
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '424'
+ht-degree: 99%
 
 ---
 
@@ -30,6 +31,8 @@ Dashboard di utilizzo della suite di rapporti
 
 ![](/help/admin/admin/c-server-call-usage/assets/report-suite-usage.png)
 
+## Impostazioni dashboard {#settings}
+
 | Colonna | Definizione |
 |--- |--- |
 | Nome della suite di rapporti | Nome descrittivo della suite di rapporti |
@@ -39,8 +42,9 @@ Dashboard di utilizzo della suite di rapporti
 | Primaria da dispositivo mobile (%) | Tutte le chiamate primarie al server da dispositivo mobile (e la loro percentuale sul totale) effettuate nel periodo di utilizzo corrente. |
 | Secondaria da dispositivo mobile (%) | Tutte le chiamate secondarie al server da dispositivo mobile (e la loro percentuale del totale) effettuate nel periodo di utilizzo corrente. |
 
+{style="table-layout:auto"}
 
-## Download del rapporto di utilizzo {#section_D7345660B5E043CD8850954216509A3D}
+## Download del rapporto di utilizzo {#download}
 
 Questa opzione consente di scaricare i dati di utilizzo correnti e i dati relativi ai periodi di utilizzo precedenti a quello corrente (a partire da gennaio 2015). Il rapporto viene scaricato come file .csv.
 
@@ -55,6 +59,8 @@ Questa opzione consente di scaricare i dati di utilizzo correnti e i dati relati
 | Suite di rapporti incluse | Tutte le suite di rapporti selezionate nella pagina Rapporto di utilizzo server sono incluse in questo elenco. |
 | Tipi di chiamate inclusi | Specifica una combinazione di queste: Tutte Le Chiamate (predefinito), Primaria, Secondaria, Primaria da dispositivo mobile, Secondaria da dispositivo mobile. |
 | Intervallo di tempo | Puoi scegliere il periodo di utilizzo corrente o specificare un intervallo personalizzato.  Per un intervallo personalizzato, specifica Inizio intervallo e Fine intervallo. <br>**Nota:** non è possibile scaricare i dati di utilizzo precedenti a gennaio 2015</br>. |
+
+{style="table-layout:auto"}
 
 1. Fai clic su **[!UICONTROL Download]**.
 

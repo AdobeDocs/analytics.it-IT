@@ -3,9 +3,10 @@ description: Aggiungi o gestisci gli avvisi di utilizzo delle chiamate al server
 title: Avvisi di utilizzo delle chiamate al server
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '505'
 ht-degree: 100%
 
 ---
@@ -13,8 +14,6 @@ ht-degree: 100%
 # Avvisi di utilizzo delle chiamate al server
 
 Quando imposti un avviso, viene applicato a tutte le suite di rapporti in tutte le aziende di login di un’azienda di fatturazione.
-
-## Panoramica
 
 Una nuova categoria di avvisi denominata **[!UICONTROL Server Calls Usage Alert]** fa parte dell’interfaccia utente esistente per [Gestione avvisi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=it).
 
@@ -31,7 +30,7 @@ Una nuova categoria di avvisi denominata **[!UICONTROL Server Calls Usage Alert]
 * Fai clic su **[!UICONTROL Manage Alerts]** nell’angolo in alto a destra nella scheda Utilizzo corrente o nella scheda Utilizzo suite di rapporti, oppure
 * Passa a **[!UICONTROL Components]** > **[!UICONTROL Alerts]** in Adobe Analytics.
 
-## Creare avvisi di utilizzo delle chiamate al server {#section_2A2882C6D48D47C1944D52FB7C766BEC}
+## Creare avvisi di utilizzo delle chiamate al server {#create}
 
 Per creare avvisi aggiuntivi:
 
@@ -58,7 +57,7 @@ Specifica la soglia e la condizione (è superiore o uguale a oppure inferiore o 
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-## Gestire gli avvisi di utilizzo delle chiamate al server {#section_8FF98170763C4B5CBEC6DD43F893177A}
+## Gestire gli avvisi di utilizzo delle chiamate al server {#manage}
 
 ![](/help/admin/admin/c-server-call-usage/assets/alert_mgmt.png)
 
@@ -77,3 +76,5 @@ Per gestire gli avvisi:
    | Abilita/Disabilita | Puoi abilitare o disabilitare tutti gli avvisi, anche quelli predefiniti. |
    | Rinnova | Se sono selezionati uno o più avvisi, è possibile rinnovarli. In questo modo le rispettive date di scadenza vengono spostate a 1 anno dal giorno in cui si è fatto clic su [!UICONTROL Renew], indipendentemente dalla data di scadenza originale. |
    | Esporta in CSV | Vedi [Download del rapporto di utilizzo](/help/admin/admin/c-server-call-usage/report-suite-usage.md) |
+
+   {style="table-layout:auto"}

@@ -3,14 +3,15 @@ description: Come eseguire la migrazione degli account utente di Analytics come 
 title: Eseguire la migrazione degli account utente di Analytics per Enterprise ID e Federated ID
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 74%
+source-wordcount: '681'
+ht-degree: 69%
 
 ---
 
-# Eseguire la migrazione degli account utente di Analytics per Enterprise ID e Federated ID{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# Eseguire la migrazione degli account utente di Analytics per Enterprise ID e Federated ID
 
 Come eseguire la migrazione degli account utente di Analytics come Enterprise ID o Federated ID in Adobe Admin Console.
 
@@ -127,7 +128,7 @@ Se ti occorre trasferire gli account utente Adobe ID esistenti a un Enterprise I
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio </p> </td> 
-   <td colname="col2"> <p>Assicurati che i domini nelle colonne Le colonne <span class="term"> Dominio</span> e <span class="term"> E-mail</span> corrispondono ai domini stabiliti nei prerequisiti</a>. </p> </td> 
+   <td colname="col2"> <p>Assicurati che i domini in <span class="term"> Dominio</span> e <span class="term"> E-mail</span> corrispondono ai domini stabiliti nei prerequisiti</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Codice paese </p> </td> 

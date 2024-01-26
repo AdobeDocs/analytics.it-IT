@@ -3,9 +3,10 @@ description: Consente di controllare l’accesso ai dati di reporting. Le opzion
 title: Security Manager
 feature: Company Settings
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '463'
 ht-degree: 100%
 
 ---

@@ -3,16 +3,15 @@ description: Panoramica della funzionalità di utilizzo delle chiamate al server
 title: Panoramica sull’utilizzo delle chiamate al server
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1021'
 ht-degree: 100%
 
 ---
 
-# Panoramica sull’utilizzo delle chiamate al server
-
-## Perché monitorare l’utilizzo delle chiamate al server e inviare avvisi? {#section_060C29BF1D00444B85892AD1FCF55290}
+# Utilizzo chiamate al server
 
 L’utilizzo delle chiamate al server Adobe Analytics soddisfa le richieste di trasparenza nei dati di utilizzo delle chiamate sia al browser che al server mobile. Consente di accedere a:
 
@@ -31,7 +30,7 @@ In precedenza, benché fosse possibile accedere ai dati mensili sul consumo dell
 * **Autorizzazioni:** per accedere al dashboard sull’utilizzo delle chiamate al server e al generatore o alla gestione degli avvisi, devi essere un amministratore Adobe Analytics.
 * **Autorizzazioni:** gli amministratori possono concedere l’accesso agli utenti non amministratori: l’autorizzazione si chiama **[!UICONTROL Server Call Usage]**. Vedi [Autorizzazione per l’utilizzo delle chiamate al server](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
-## Terminologia importante {#section_CBA348A039F34563B097CD8890AB358D}
+## Terminologia importante {#terminology}
 
 Ecco una breve introduzione alla terminologia essenziale per l’utilizzo delle chiamate al server:
 
@@ -80,7 +79,7 @@ Ecco una breve introduzione alla terminologia essenziale per l’utilizzo delle 
  </tbody> 
 </table>
 
-## Autorizzazione per l’utilizzo delle chiamate al server {#section_FCC58EB635954A32990D4E67B52B4369}
+## Autorizzazione per l’utilizzo delle chiamate al server {#permission}
 
 L&#39;autorizzazione per l’utilizzo delle chiamate al server viene concessa automaticamente agli amministratori di Analytics. Consente agli utenti di visualizzare il dashboard e creare avvisi per le chiamate al server. Gli amministratori possono scegliere di concedere questa autorizzazione agli utenti non amministratori.
 

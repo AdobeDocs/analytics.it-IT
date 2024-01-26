@@ -3,10 +3,11 @@ title: Ruoli di amministratore in Adobe Analytics
 description: Scopri come iniziare a utilizzare Adobe Analytics, i tipi di ruolo generali e l’accesso all’interfaccia utente.
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 57%
+source-wordcount: '1084'
+ht-degree: 54%
 
 ---
 
@@ -41,7 +42,7 @@ Per consentire ad Adobe Analytics di accedere a te stesso o ad altri utenti:
 1. Chiama questo profilo &quot;Accesso completo come amministratore di Analytics&quot;, quindi fai clic su **[!UICONTROL Next]** > **[!UICONTROL Save]**.
 1. Nella pagina Profili di prodotto, fai clic sul nuovo profilo creato, quindi fai clic su **[!UICONTROL Permissions]** scheda.
 1. Fai clic su uno degli elementi della riga delle autorizzazioni. Se **[!UICONTROL Auto-include]** è disponibile, attivalo. Se **[!UICONTROL Auto-include]** non è disponibile, fai clic su **[!UICONTROL Add all]**. Entrambe le opzioni spostano tutti gli elementi delle autorizzazioni nella colonna a destra.
-1. Fai clic su **[!UICONTROL Save]** (Usa modello di attribuzione non predefinito).
+1. Clic **[!UICONTROL Save]**.
 Ripeti il passaggio precedente per tutte le categorie di autorizzazione.
 1. Dopo aver concesso tutte le categorie di autorizzazione al profilo, torna alla pagina Prodotti facendo clic su **[!UICONTROL Product]** in alto.
 1. Sotto il riquadro Adobe Analytics, fai clic su **[!UICONTROL Assign Users]**.
@@ -49,7 +50,7 @@ Ripeti il passaggio precedente per tutte le categorie di autorizzazione.
 
 L’utente ora dispone dell’accesso completo ad Adobe Analytics.
 
-## Concedere l’accesso come amministratore del prodotto per la raccolta dati in Experience Platform
+## Concedere l’accesso come amministratore del prodotto per la raccolta dati in Experienci Platform
 
 L’accesso come amministratore di prodotto per la raccolta dati in Experience Platform è quasi identico a quello dell’amministratore di prodotto in Analytics.
 
@@ -66,7 +67,7 @@ L’accesso come amministratore di prodotto per la raccolta dati in Experience P
 
 ## Concedere l’accesso come amministratore del prodotto per i profili di prodotto
 
-Per informazioni sull’assegnazione degli utenti come amministratori dei profili di prodotto, consulta la sezione &quot;Gestire gli amministratori dei profili di prodotto&quot; nell’articolo, [Gestire i profili di prodotto per gli utenti aziendali](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) nella guida utente Enterprise.
+Per informazioni sull’assegnazione degli utenti come amministratori dei profili di prodotto, consulta la sezione &quot;Gestire gli amministratori dei profili di prodotto&quot; nell’articolo, [Gestire i profili di prodotto per gli utenti aziendali](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) nella guida utente Enterprise.
 
 ## Passaggi successivi
 

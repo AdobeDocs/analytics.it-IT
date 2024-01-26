@@ -2,9 +2,11 @@
 description: Scopri come utilizzare il Reporting Activity Manager per diagnosticare e risolvere i problemi di capacità durante i periodi in cui si verificano picchi di reporting.
 title: Annullare le richieste di reporting in Reporting Activity Manager
 feature: Admin Tools
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1420'
 ht-degree: 5%
 
 ---

@@ -3,10 +3,11 @@ description: Collegamento all’API di amministrazione di Adobe Analytics su git
 title: Amministratore API
 feature: Admin Tools
 exl-id: 51118977-bd7c-4f36-a35f-e2930c732574
-source-git-commit: 41cd5266b2434ada040d21b6095a2417a80c0ef0
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 9%
+source-wordcount: '103'
+ht-degree: 3%
 
 ---
 

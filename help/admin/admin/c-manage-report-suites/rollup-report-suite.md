@@ -1,22 +1,17 @@
 ---
-description: Descrizioni dei tipi di suite di rapporti e confronto tra le suite di rapporti globali e le suite di rapporti di aggregazione dati.
-title: Approcci suite di rapporti
+description: Descrizioni delle suite di rapporti globali
+title: Suite di rapporti globali
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 89%
+source-wordcount: '400'
+ht-degree: 91%
 
 ---
 
-# Approcci suite di rapporti
-
-<!-- change filename since page name changed? -->
-
-Puoi configurare le suite di rapporti come *suite di rapporti globali* o *suite di rapporti di aggregazione dati*.
-
-## Suite di rapporti globali
+# Suite di rapporti globali
 
 Una suite di rapporti globale raccoglie dati da tutti i domini e le app di proprietà della tua organizzazione. Richiede l’implementazione per inviare tutte le richieste di immagini a un’unica suite di rapporti.
 
@@ -38,13 +33,13 @@ Puoi fornire sottoinsiemi dei dati della suite di rapporti globale della tua azi
 
 Invece di usare più suite di rapporti con tag, spesso è preferibile utilizzare le suite di rapporti virtuali; tuttavia queste presentano alcune limitazioni. Consulta le [considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite](/help/components/vrs/vrs-considerations.md) per capire quale approccio scegliere in base alle tue esigenze di business. Per un confronto approfondito tra suite di rapporti virtuali e la funzionalità di assegnazione tag per più suite, vedi &quot;[Suite di rapporti virtuali e assegnazione di tag a più suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
-## Rapporti di aggregazione dati
+<!---## Rollup reports
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] è l’unico strumento che supporta i rapporti di aggregazione dati. Reports &amp; Analytics è stato terminato il 17 gennaio 2024.
+>[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-<!---### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.

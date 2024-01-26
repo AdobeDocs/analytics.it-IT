@@ -3,10 +3,11 @@ description: Elenca le API interessate dalla migrazione degli utenti
 title: API interessate dalla migrazione degli utenti
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+role: Admin, Developer
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 98%
+source-wordcount: '222'
+ht-degree: 99%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 98%
 
 Adobe sta eseguendo la migrazione di tutte società di accesso ad Analytics da [!DNL my.omniture.com] all’autenticazione mediante Adobe Experience Cloud. Una volta che una società inizia questa migrazione, la creazione e la gestione programmatiche degli utenti mediante le autorizzazioni specifiche di Analytics e i metodi di `GetLoginKey` disponibili tramite le versioni v1.3 e v1.4 della API di amministrazione di Analytics non saranno più supportati. Tali operazioni ora saranno abilitate in Experience Cloud tramite [!DNL adobe.io].
 
-## Metodi API interessati {#section-d19051ac26cc49aeb124f767c4760254}
+## Metodi API interessati {#methods}
 
 I seguenti metodi API nelle versioni v1.3 e v1.4 della API di amministrazione non saranno più supportati dopo l’inizio della migrazione degli utenti:
 
@@ -33,7 +34,7 @@ I seguenti metodi API nelle versioni v1.3 e v1.4 della API di amministrazione no
 * Permissions.SaveLogin
 * Permissions.GetLoginSegment
 
-## Azioni da intraprendere {#section-8b0b89a862614f729ebdbe092ce99027}
+## Azioni da intraprendere {#actions}
 
 Se la tua società attualmente utilizza questi metodi, attendi una notifica di pre-migrazione a partire dal 31 marzo 2018. La notifica verrà inviata almeno 30 giorni prima che la tua società inizi la migrazione all’autenticazione di Experience Cloud e, in quel momento, questi metodi cesseranno di essere supportati.
 
