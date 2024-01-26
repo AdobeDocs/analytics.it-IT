@@ -3,10 +3,10 @@ description: Visualizza il traffico della pagina web e classifica le visualizzaz
 title: Rapporti in tempo reale
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 17%
+source-wordcount: '578'
+ht-degree: 16%
 
 ---
 
@@ -18,11 +18,9 @@ Visualizza il traffico della pagina web e classifica le visualizzazioni di pagin
 >
 >Il rapporto in tempo reale non richiede alcuna implementazione o assegnazione di tag aggiuntivi. Sfrutta l’implementazione esistente di Adobe Analytics. Per configurare i rapporti in tempo reale, consulta [Configurazione rapporti in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-Panoramica video:
+Per visualizzare il rapporto in tempo reale, vai a:
 
->[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
-
-**[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**.
 
 Risposte in tempo reale alle seguenti domande: Che cosa è la tendenza sul mio sito e perché? Consente a un addetto marketing di rispondere rapidamente e gestire attivamente le prestazioni dei contenuti e delle campagne di marketing. I dati in tempo reale segnalati sono meno di due minuti latenti e con aggiornamenti automatici minuto per minuto.
 
@@ -50,7 +48,7 @@ Tieni presente che le eVar (metriche di conversione) non sono supportate, in qua
 
 L&#39;impostazione e la visualizzazione di rapporti in tempo reale è riservata agli amministratori o a qualsiasi utente dei gruppi di autorizzazione &quot;Accesso a tutti i rapporti&quot; e &quot;Generazione avanzata di rapporti&quot;. Tuttavia, Real-Time rispetta le autorizzazioni. Se, ad esempio, non disponi dei diritti per visualizzare i ricavi, non potrai visualizzare un rapporto in tempo reale che includa i dati sui ricavi.
 
-## Latenza dei dati come risultato della configurazione A4T {#section_806CE36354FC4C539A0DED9266A5C704}
+## Latenza dei dati come risultato della configurazione A4T {#latency}
 
 Dopo che l’integrazione A4T è abilitata in Adobe Target, si verificherà una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento della latenza consente la memorizzazione dei dati da Analytics e Target nello stesso hit, con conseguente possibilità di suddividere i test per pagina e sezione del sito.
 

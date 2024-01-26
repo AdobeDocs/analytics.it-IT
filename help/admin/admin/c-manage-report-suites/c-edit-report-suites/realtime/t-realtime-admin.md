@@ -3,9 +3,9 @@ description: Passaggi amministrativi per la configurazione di rapporti in tempo 
 title: Configurazione rapporti in tempo reale
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '262'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Passaggi amministrativi per la configurazione di rapporti in tempo reale.
 
-La configurazione di rapporti in tempo reale in Reports &amp; Analytics consiste nel selezionare la suite di rapporti e configurarne fino a 3.
+L’impostazione di rapporti in tempo reale in Adobe Analytics consiste nel selezionare la suite di rapporti e configurarne fino a 3. Per impostazione predefinita, tutti gli utenti hanno accesso ai rapporti in tempo reale.
 
 1. Seleziona la suite di rapporti per la quale desideri abilitare i rapporti in tempo reale.
 
@@ -53,8 +53,11 @@ La configurazione di rapporti in tempo reale in Reports &amp; Analytics consiste
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Fai clic su **[!UICONTROL Save]** o **[!UICONTROL Save and View Report]**.
+1. Fai clic su **[!UICONTROL Save]** (Usa modello di attribuzione non predefinito).
 
-   Dopo questa configurazione iniziale del rapporto, l’inizio dello streaming dei dati può richiedere fino a 20 minuti. Da quel momento in poi, i dati sono immediatamente disponibili. Per informazioni sulla visualizzazione dei rapporti in tempo reale, consulta [Eseguire un rapporto in tempo reale](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Dopo questa configurazione iniziale del rapporto, l’inizio dello streaming dei dati può richiedere fino a 20 minuti. Da quel momento in poi, i dati sono immediatamente disponibili.
 
-1. Per impostazione predefinita, tutti gli utenti hanno accesso ai rapporti in tempo reale.
+1. Per visualizzare il rapporto in tempo reale, vai a:
+
+   **[!UICONTROL Workspace]** > **[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**.
+
