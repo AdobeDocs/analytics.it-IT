@@ -3,9 +3,10 @@ title: linkTrackEvents
 description: Determina quali eventi includere nelle richieste di immagini per il tracciamento dei collegamenti.
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '313'
 ht-degree: 2%
 
 ---
@@ -28,7 +29,7 @@ Se non utilizzi un codice personalizzato, Adobe Experience Platform include auto
 >
 >Se imposti gli eventi nell’editor di codice personalizzato dell’estensione Analytics, devi includere l’evento in `linkTrackEvents` utilizzando anche codice personalizzato.
 
-## s.linkTrackEvents in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
+## s.linkTrackEvents in AppMeasurement e l’editor di codice personalizzato dell’estensione Analytics
 
 Il `s.linkTrackEvents` variabile è una stringa contenente un elenco delimitato da virgole di eventi da includere nelle richieste di immagini per il tracciamento dei collegamenti (`tl()` metodo). Per includere le metriche negli hit di tracciamento dei collegamenti è necessario soddisfare i tre criteri seguenti:
 

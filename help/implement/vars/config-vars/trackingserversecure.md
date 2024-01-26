@@ -3,10 +3,11 @@ title: trackingServerSecure
 description: Determina il percorso in cui le richieste di immagini vengono inviate sulle pagine HTTPS.
 feature: Variables
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 21%
+source-wordcount: '408'
+ht-degree: 14%
 
 ---
 
@@ -24,14 +25,14 @@ L’SDK per web utilizza [!UICONTROL Edge domain] per gestire sia Tracking Serve
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** pulsante sotto [!UICONTROL Adobe Experience Platform Web SDK].
 1. Impostare il **[!UICONTROL Edge domain]** campo di testo.
 
 Consulta [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=it) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
 
 >[!TIP]
 >
->Se la tua organizzazione passa al Web SDK da un’implementazione di estensione AppMeasurement o Analytics, questo campo può utilizzare lo stesso valore contenuto in `trackingServerSecure` (o `trackingServer`).
+>Se la tua organizzazione passa al Web SDK da un’implementazione di AppMeasurement o estensione Analytics, questo campo può utilizzare lo stesso valore contenuto in `trackingServerSecure` (o `trackingServer`).
 
 ## Dominio Edge che implementa manualmente Web SDK
 

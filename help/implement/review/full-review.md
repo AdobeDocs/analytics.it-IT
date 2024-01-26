@@ -3,7 +3,8 @@ title: Revisione completa
 description: Rivedi l’implementazione ogni 6 mesi per garantire un continuo allineamento con le esigenze aziendali e i KPI.
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
-source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
+role: Admin, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 80%

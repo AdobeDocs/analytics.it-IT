@@ -3,9 +3,10 @@ title: linkInternalFilters
 description: Utilizza la variabile linkInternalFilters per facilitare il tracciamento automatico dei collegamenti di uscita.
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '412'
 ht-degree: 9%
 
 ---

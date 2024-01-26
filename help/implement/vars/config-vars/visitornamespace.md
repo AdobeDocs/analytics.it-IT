@@ -3,10 +3,11 @@ title: visitorNameSpace
 description: Variabile ritirata che ha determinato il dominio dei cookie.
 feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 19%
+source-wordcount: '211'
+ht-degree: 18%
 
 ---
 
@@ -35,7 +36,7 @@ L’Adobe consiglia di non utilizzare questo campo. Utilizzare `trackingServer` 
 
 ## s.visitorNamespace in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.visitorNamespace` variabile è una stringa che contiene un valore univoco per organizzazione. Le vecchie librerie AppMeasurement includevano automaticamente questo valore univoco quando venivano scaricate da versioni precedenti di Adobe Analytics. Le librerie AppMeasurement attuali non utilizzano questa variabile a meno che `trackingServer` e `trackingServerSecure` non sono impostati.
+Il `s.visitorNamespace` variabile è una stringa che contiene un valore univoco per organizzazione. Le vecchie librerie di AppMeasurement includevano automaticamente questo valore univoco quando venivano scaricate da versioni precedenti di Adobe Analytics. Le librerie di AppMeasurement correnti non utilizzano questa variabile a meno che `trackingServer` e `trackingServerSecure` non sono impostati.
 
 Se l’organizzazione richiede ancora questa variabile, scegli un valore che rappresenti l’organizzazione. Puoi memorizzare questo valore in una [documento di progettazione della soluzione](../../prepare/solution-design.md).
 

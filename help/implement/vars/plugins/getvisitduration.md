@@ -1,12 +1,13 @@
 ---
 title: getVisitDuration
-description: Tieni traccia di quanto tempo un visitatore è stato sul sito finora.
+description: Monitora il periodo di tempo in cui un visitatore è stato finora sul sito.
 feature: Variables
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 10%
+source-wordcount: '523'
+ht-degree: 9%
 
 ---
 
@@ -14,25 +15,25 @@ ht-degree: 10%
 
 {{plug-in}}
 
-La `getVisitDuration` Il plug-in tiene traccia della quantità di tempo in minuti che il visitatore ha visitato il sito fino a quel momento. Adobe consiglia di utilizzare questo plug-in se si desidera tenere traccia del tempo cumulativo sul sito fino a quel momento, o per tenere traccia del tempo necessario per eseguire un&#39;attività. Questo plug-in non tiene traccia del periodo di tempo tra gli eventi; se desideri utilizzare questa funzionalità, utilizza [`getTimeBetweenEvents`](gettimebetweenevents.md) plug-in.
+Il `getVisitDuration` il plug-in tiene traccia della quantità di tempo in minuti in cui il visitatore è stato sul sito fino a quel momento. L’Adobe consiglia di utilizzare questo plug-in se desideri tenere traccia del tempo cumulativo sul sito fino a quel momento o per tenere traccia del tempo necessario per eseguire un’attività. Questo plug-in non tiene traccia del periodo di tempo tra gli eventi. Se si desidera utilizzare questa funzionalità, utilizzare [`getTimeBetweenEvents`](gettimebetweenevents.md) plug-in.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
-Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con l’SDK per web.
+Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con Web SDK.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
-1. Fai clic su **[!UICONTROL Tags]** a sinistra, quindi fai clic sulla proprietà tag desiderata.
-1. Fai clic su **[!UICONTROL Extensions]** a sinistra, quindi fai clic sul pulsante **[!UICONTROL Catalog]** scheda
-1. Individua e installa il **[!UICONTROL Common Web SDK Plugins]** estensione.
-1. Fai clic su **[!UICONTROL Data Elements]** a sinistra, quindi fai clic sull’elemento dati desiderato.
-1. Imposta il nome dell&#39;elemento dati desiderato con la seguente configurazione:
-   * Estensione: Plug-in SDK per web comuni
+1. Clic **[!UICONTROL Tags]** a sinistra, fai clic sulla proprietà tag desiderata.
+1. Clic **[!UICONTROL Extensions]** a sinistra, quindi fai clic su **[!UICONTROL Catalog]** scheda
+1. Individuare e installare **[!UICONTROL Common Web SDK Plugins]** estensione.
+1. Clic **[!UICONTROL Data Elements]** a sinistra, quindi fai clic sull’elemento dati desiderato.
+1. Imposta il nome dell’elemento dati desiderato con la seguente configurazione:
+   * Estensione: Common Web SDK Plugins
    * Elemento dati: `getVisitDuration`
 1. Salva e pubblica le modifiche apportate all’elemento dati.
 
-## Installare il plug-in manualmente durante l’implementazione dell’SDK per web
+## Installare manualmente il plug-in implementando Web SDK
 
-Questo plug-in non è ancora supportato per l&#39;utilizzo in un&#39;implementazione manuale dell&#39;SDK web.
+Questo plug-in non è ancora supportato per l’utilizzo in un’implementazione manuale dell’SDK per web.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -40,15 +41,15 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
-1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
-1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
+1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
-   * Evento: Core - Libreria caricata (pagina in alto)
-1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
-   * Tipo azione: Inizializza getVisitDuration
-1. Salva e pubblica le modifiche alla regola.
+   * Evento: Core - Library Loaded (Page Top)
+1. Aggiungi un’azione alla regola precedente con la seguente configurazione:
+   * Estensione: Common Analytics Plugins
+   * Tipo azione: inizializzare getVisitDuration
+1. Salva e pubblica le modifiche apportate alla regola.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
@@ -56,14 +57,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -72,16 +73,16 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `getVisitDuration` La funzione non utilizza argomenti. Restituisce uno dei seguenti valori:
+Il `getVisitDuration` La funzione non utilizza alcun argomento. Restituisce uno dei seguenti valori:
 
 * `"first hit of visit"`
 * `"less than a minute"`
 * `"1 minute"`
-* `"[x] minutes"` (4) `[x]` è il numero di minuti trascorsi dall&#39;arrivo del visitatore sul sito)
+* `"[x] minutes"` (dove `[x]` è il numero di minuti trascorsi dall’arrivo del visitatore sul sito)
 
-Questo plug-in crea un cookie di prime parti denominato `"s_dur"`: il numero di millisecondi trascorsi dall’arrivo del visitatore sul sito. Il cookie scade dopo 30 minuti di inattività.
+Questo plug-in crea un cookie di prime parti denominato `"s_dur"`: numero di millisecondi trascorsi dall’arrivo del visitatore sul sito. Il cookie scade dopo 30 minuti di inattività.
 
 ## Esempi
 
@@ -102,4 +103,4 @@ if(inList(s.events, "purchase")) s.eVar56 = getVisitDuration();
 
 ### 2.0 (2 maggio 2018)
 
-* Rilascio a punto (completa reanalisi/riscrittura del plug-in).
+* Versione punto (rianalisi/riscrittura completa del plug-in).

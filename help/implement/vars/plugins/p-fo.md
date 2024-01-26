@@ -3,10 +3,11 @@ title: p_fo (solo pagina prima)
 description: Assicurati che alcune routine si attivino una sola volta per pagina.
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 8%
+source-wordcount: '685'
+ht-degree: 7%
 
 ---
 
@@ -14,25 +15,25 @@ ht-degree: 8%
 
 {{plug-in}}
 
-La `p_fo` Il plug-in è un&#39;utility che verifica l&#39;esistenza di un oggetto JavaScript specifico. Se l&#39;oggetto non esiste, il plug-in crea l&#39;oggetto e restituisce `true`. Se l&#39;oggetto JavaScript esiste già nella pagina, restituisce `false`. Questo plug-in è utile per eseguire il codice esattamente una volta su una pagina. Diversi altri plug-in si basano su questo codice per funzionare. Questo plug-in non è necessario se non sei preoccupato del numero di volte in cui il codice viene eseguito su una pagina o se non utilizzi plug-in dipendenti.
+Il `p_fo` Il plug-in è un&#39;utility che verifica l&#39;esistenza di un oggetto JavaScript specifico. Se l&#39;oggetto non esiste, il plug-in crea l&#39;oggetto e restituisce `true`. Se l&#39;oggetto JavaScript esiste già nella pagina, restituisce `false`. Questo plug-in è utile per eseguire il codice esattamente una volta su una pagina. Diversi altri plug-in si basano su questo codice per funzionare. Questo plug-in non è necessario se non sei preoccupato del numero di volte in cui il codice viene eseguito su una pagina o se non utilizzi plug-in dipendenti.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
-Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con l’SDK per web.
+Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con Web SDK.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
-1. Fai clic su **[!UICONTROL Tags]** a sinistra, quindi fai clic sulla proprietà tag desiderata.
-1. Fai clic su **[!UICONTROL Extensions]** a sinistra, quindi fai clic sul pulsante **[!UICONTROL Catalog]** scheda
-1. Individua e installa il **[!UICONTROL Common Web SDK Plugins]** estensione.
-1. Fai clic su **[!UICONTROL Data Elements]** a sinistra, quindi fai clic sull’elemento dati desiderato.
-1. Imposta il nome dell&#39;elemento dati desiderato con la seguente configurazione:
-   * Estensione: Plug-in SDK per web comuni
+1. Clic **[!UICONTROL Tags]** a sinistra, fai clic sulla proprietà tag desiderata.
+1. Clic **[!UICONTROL Extensions]** a sinistra, quindi fai clic su **[!UICONTROL Catalog]** scheda
+1. Individuare e installare **[!UICONTROL Common Web SDK Plugins]** estensione.
+1. Clic **[!UICONTROL Data Elements]** a sinistra, quindi fai clic sull’elemento dati desiderato.
+1. Imposta il nome dell’elemento dati desiderato con la seguente configurazione:
+   * Estensione: Common Web SDK Plugins
    * Elemento dati: `p_fo`
 1. Salva e pubblica le modifiche apportate all’elemento dati.
 
-## Installare il plug-in manualmente durante l’implementazione dell’SDK per web
+## Installare manualmente il plug-in implementando Web SDK
 
-Questo plug-in non è ancora supportato per l&#39;utilizzo in un&#39;implementazione manuale dell&#39;SDK web.
+Questo plug-in non è ancora supportato per l’utilizzo in un’implementazione manuale dell’SDK per web.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -40,15 +41,15 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
-1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
-1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
+1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
-   * Evento: Core - Libreria caricata (pagina in alto)
-1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
-   * Tipo azione: Inizializza p_fo
-1. Salva e pubblica le modifiche alla regola.
+   * Evento: Core - Library Loaded (Page Top)
+1. Aggiungi un’azione alla regola precedente con la seguente configurazione:
+   * Estensione: Common Analytics Plugins
+   * Tipo azione: inizializza p_fo
+1. Salva e pubblica le modifiche apportate alla regola.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
@@ -56,14 +57,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -72,21 +73,21 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `p_fo` La funzione utilizza i seguenti argomenti:
+Il `p_fo` La funzione utilizza i seguenti argomenti:
 
-* **su** (obbligatorio, stringa): Nome dell&#39;oggetto JavaScript creato dal plug-in se l&#39;oggetto non esiste ancora nella pagina.
+* **il** (obbligatorio, stringa): nome dell&#39;oggetto JavaScript creato dal plug-in, se l&#39;oggetto non esiste ancora nella pagina.
 
-Se l&#39;oggetto non esiste ancora, questa funzione restituisce `true` e crea l&#39;oggetto. Se l&#39;oggetto esiste già, questa funzione restituisce `false`.
+Se l’oggetto non esiste ancora, questa funzione restituisce `true` e crea l’oggetto. Se l’oggetto esiste già, questa funzione restituisce `false`.
 
-## Chiamate di esempio
+## Esempio di chiamate
 
-### Esempio n. 1
+### Esempio di #1
 
-Il codice seguente controllerà l&#39;esistenza dell&#39;oggetto &quot;myobject&quot; all&#39;interno della pagina.  Se l&#39;oggetto &quot;myobject&quot; non esiste, il codice creerà l&#39;oggetto &quot;myobject&quot; e restituirà il valore true.  Di conseguenza, viene eseguito il codice all’interno dell’istruzione condizionale (ad esempio Console.log(&#39;hello&#39;);).
+Il codice seguente verifica l&#39;esistenza dell&#39;oggetto &quot;myobject&quot; all&#39;interno della pagina.  Se l&#39;oggetto &quot;myobject&quot; non esiste, il codice creerà l&#39;oggetto &quot;myobject&quot; e restituirà il valore true.  Di conseguenza, verrà eseguito il codice all’interno dell’istruzione condizionale (ovvero Console.log(&#39;hello&#39;);).
 
-Se invece l&#39;oggetto &quot;myobject&quot; esiste già quando avviene la chiamata p_fo, la funzione p_fo restituirà il valore di false e, quindi, l&#39;istruzione condizionale verrà considerata false.  In questo caso, il codice all’interno dell’istruzione condizionale non verrà eseguito.
+D&#39;altra parte, se l&#39;oggetto &quot;myobject&quot; esiste già quando viene effettuata la chiamata p_fo, la funzione p_fo restituirà il valore false e, pertanto, l&#39;istruzione condizionale sarà considerata false.  In questo caso, il codice all’interno dell’istruzione condizionale non verrà eseguito.
 
 ```js
 if(p_fo("myobject"))
@@ -95,7 +96,7 @@ if(p_fo("myobject"))
 }
 ```
 
-**NOTA:** Ogni volta che viene caricato un nuovo oggetto pagina/DOM (o la pagina corrente viene ricaricata), l’oggetto specificato nell’argomento on non esisterà più e quindi il plug-in p_fo restituirà nuovamente true la prima volta che viene eseguito dopo il termine del caricamento della pagina.
+**NOTA:** Ogni volta che un nuovo oggetto pagina/DOM viene caricato (o la pagina corrente viene ricaricata), l&#39;oggetto specificato nell&#39;argomento on non esisterà più e pertanto il plug-in p_fo restituirà nuovamente true la prima volta che viene eseguito dopo il completamento del caricamento della pagina.
 
 ## Cronologia versioni
 
@@ -105,9 +106,9 @@ if(p_fo("myobject"))
 
 ### 2.0
 
-* Rilascio del punto (ricompilato, dimensioni del codice più piccole).
-* Tipo di valore restituito modificato da integer a booleano
+* Versione a punti (ricompilata, con codice di dimensioni inferiori).
+* Tipo di valore restituito cambiato da intero a booleano
 
-### 1.0
+### 1,0
 
 * Versione iniziale.

@@ -1,18 +1,19 @@
 ---
 title: s_gi()
-description: Crea e traccia le istanze di AppMeasurement.
+description: Crea e tieni traccia delle istanze di AppMeasurement.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 12%
+source-wordcount: '467'
+ht-degree: 10%
 
 ---
 
 # s_gi
 
-Il `s_gi()` crea un&#39;istanza o trova un&#39;istanza di AppMeasurement in base all&#39;ID suite di rapporti. AppMeasurement tiene traccia di ogni istanza creata e `s_gi()` restituisce l’istanza esistente per una suite di rapporti, se ne esiste una. Se non esiste alcuna istanza, viene creata una nuova istanza.
+Il `s_gi()` La funzione crea un’istanza o trova un’istanza di AppMeasurement in base all’ID della suite di rapporti. AppMeasurement tiene traccia di tutte le istanze create e `s_gi()` restituisce l’istanza esistente per una suite di rapporti, se ne esiste una. Se non esiste alcuna istanza, viene creata una nuova istanza.
 
 ## Creare un’istanza di un oggetto di tracciamento utilizzando l’estensione Web SDK
 
@@ -90,7 +91,7 @@ s.t();
 z.t();
 ```
 
-## Ripristina le variabili AppMeasurement dopo la sovrascrittura dell’oggetto s
+## Ripristina le variabili di AppMeasurement dopo la sovrascrittura dell’oggetto s
 
 Alcuni strumenti di terze parti potrebbero utilizzare anche JavaScript `s` oggetto. Se sovrascrivi accidentalmente il `s` sul tuo sito, puoi chiamare `s_gi` con lo stesso argomento stringa RSID per ripristinare tutte le variabili e i metodi sovrascritti.
 

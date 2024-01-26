@@ -3,10 +3,11 @@ title: Prendere in consegna un’implementazione Adobe Analytics esistente
 description: Istruzioni per gli amministratori che non hanno mai utilizzato un’implementazione Adobe Analytics esistente.
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
-source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 13%
+source-wordcount: '161'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +23,7 @@ Consulta questi suggerimenti dal tuo collega Proprietario tecnico, Sarah Owen. S
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 
-Consulta anche:
+Vedi anche:
 
 * [Elenco di controllo &quot;Revisione mirata&quot; per rivedere l’implementazione dopo ogni versione del sito web](/help/implement/review/focused-review.md)
 * [Elenco di controllo &quot;Revisione completa&quot; per rivedere l’implementazione ogni 6 mesi](/help/implement/review/full-review.md)

@@ -3,10 +3,11 @@ title: Debugger legacy di Adobe Experience Cloud
 description: Installa il debugger legacy di Adobe Experience Cloud. Questo debugger analizza i tag di Analytics, Target, Advertising Cloud, Identity Service e Data Collection.
 feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 2%
+source-wordcount: '676'
+ht-degree: 0%
 
 ---
 
@@ -84,4 +85,4 @@ Il debugger dispone di diverse opzioni disponibili, tutte che personalizzano la 
 * **Aggiornamento automatico:** Aggiorna automaticamente il pop-up ogni pochi secondi per verificare la presenza di ulteriori richieste di immagini sulla pagina. Se devi copiare/incollare il contenuto nel debugger, disattiva l’aggiornamento automatico in modo che la selezione rimanga invariata.
 * **Formato intuitivo:** Attiva o disattiva il formato di visualizzazione tra etichette utili e stringhe di query non elaborate in una richiesta di immagine. Consulta [Parametri query della raccolta dati](query-parameters.md) per ulteriori informazioni.
 
-Per salvare le opzioni di visualizzazione predefinite per il debugger, fai clic con il pulsante destro del mouse sul collegamento &quot;Debugger Adobe&quot; nell’angolo in alto a destra, quindi copia l’indirizzo del collegamento. Modifica il bookmarklet di debugger corrente e incolla lo snippet di codice aggiornato nel campo URL.
+Per salvare le opzioni di visualizzazione predefinite per il debugger, fai clic con il pulsante destro del mouse sul collegamento &#39;Adobe Debugger&#39; nell&#39;angolo in alto a destra, quindi copia l&#39;indirizzo del collegamento. Modifica il bookmarklet di debugger corrente e incolla lo snippet di codice aggiornato nel campo URL.

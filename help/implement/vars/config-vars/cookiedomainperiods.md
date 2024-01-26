@@ -1,11 +1,12 @@
 ---
 title: cookieDomainPeriods
-description: Aiuta AppMeasurement a capire quale dominio memorizzare i cookie se il tuo dominio ha un punto nel suo suffisso.
+description: AppMeasurement di aiuto per capire quale dominio memorizzare i cookie se nel dominio è presente un punto nel suffisso.
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 12%
 
 ---
@@ -15,14 +16,14 @@ ht-degree: 12%
 
 AppMeasurement determina la posizione del cookie osservando il dominio e il suffisso di dominio. Per domini come `example.com`, AppMeasurement imposta i cookie nella posizione corretta. Tuttavia, per altri domini come `example.co.uk`, AppMeasurement può erroneamente impostare i cookie su `co.uk`. La maggior parte dei browser rifiuta i cookie impostati su questo dominio non valido, causando problemi con l’identificazione dei visitatori.
 
-Il `cookieDomainPeriods` Questa variabile consente ad AppMeasurement di determinare dove vengono impostati i cookie di Analytics, richiamando l’attenzione sul fatto che il suffisso di dominio contiene un periodo aggiuntivo. Questa variabile consente ad AppMeasurement di memorizzare il periodo aggiuntivo nel suffisso di dominio e impostare i cookie nella posizione giusta.
+Il `cookieDomainPeriods` La variabile aiuta AppMeasurement a determinare dove vengono impostati i cookie di Analytics richiamando l’attenzione sul fatto che il suffisso di dominio contiene un punto aggiuntivo. Questa variabile consente ad AppMeasurement di inserire il periodo aggiuntivo nel suffisso di dominio e impostare i cookie nella posizione giusta.
 
 * Per domini come `example.com` o `www.example.com`, non è necessario impostare questa variabile. Se necessario, puoi impostare questa variabile su `"2"`.
 * Per domini come `example.co.uk` o `www.example.co.jp`, imposta questa variabile su `"3"`.
 
 >[!IMPORTANT]
 >
->Non prendere in considerazione i sottodomini per questa variabile. Ad esempio, non impostare `cookieDomainPeriods` sull’URL di esempio `store.toys.example.com`. AppMeasurement per impostazione predefinita riconosce che i cookie devono essere memorizzati su `example.com`, anche su URL con molti sottodomini.
+>Non prendere in considerazione i sottodomini per questa variabile. Ad esempio, non impostare `cookieDomainPeriods` sull’URL di esempio `store.toys.example.com`. L’AppMeasurement per impostazione predefinita riconosce che i cookie devono essere memorizzati su `example.com`, anche su URL con molti sottodomini.
 
 ## Periodi di dominio con Web SDK
 

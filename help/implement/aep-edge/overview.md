@@ -3,10 +3,11 @@ title: Implementare Adobe Analytics con Adobe Experience Platform Edge
 description: Panoramica dell’utilizzo di dati XDM da Experience Platform in Adobe Analytics
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
-source-git-commit: e0f08e6e53b6d7001bd1163a65facda8e21c91fd
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 39%
+source-wordcount: '324'
+ht-degree: 37%
 
 ---
 
@@ -30,7 +31,7 @@ XDM stesso non prescrive come definire le visualizzazioni di pagina o gli eventi
 
 Per gestire correttamente le visualizzazioni di pagina e gli eventi di collegamento, la logica seguente viene applicata ai dati inviati alla rete Adobe Experience Edge e inoltrati ad Adobe Analytics.
 
-| Il payload XDM contiene... | Adobe Analytics... |
+| Il payload XDM contiene... | Adobe Analytics: |
 |---|---|
 | `web.webPageDetails.name` o `web.webPageDetails.URL` e no `web.webInteraction.type` | considera payload a **visualizzazione pagina** |
 | `web.webInteraction.type` e (`web.webInteraction.name` o `web.webInteraction.url`) | considera payload a **evento collegamento** |

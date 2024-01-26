@@ -3,9 +3,10 @@ title: Implementazione con AMP
 description: Implementa Adobe Analytics sulle pagine AMP.
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
-source-git-commit: 4c75275f9abbff6b9a5a25be370eabc2801eb7fb
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '917'
 ht-degree: 1%
 
 ---
@@ -25,7 +26,7 @@ Adobe ha creato due metodi per implementare Adobe Analytics sulle pagine utilizz
 
 Nella tabella seguente vengono confrontati i due metodi seguenti:
 
-|   | **`"adobeanalytics"`un modello** | **`"adobeanalytics_nativeConfig"`un modello** |
+|   | **`"adobeanalytics"`modello** | **`"adobeanalytics_nativeConfig"`modello** |
 |---|---|---|
 | Conteggi di visitatori e visite nella suite di rapporti esistente | Elevata inflazione | Inflazione minima |
 | Utilizzare una suite di rapporti separata | Consigliato | Non necessario |

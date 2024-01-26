@@ -3,10 +3,11 @@ title: Implementazione di Analytics per dispositivi mobili
 description: Stabilire quale libreria mobile AppMeasurement utilizzare.
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 27%
+source-wordcount: '75'
+ht-degree: 29%
 
 ---
 

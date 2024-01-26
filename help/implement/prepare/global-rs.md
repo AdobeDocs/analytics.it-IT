@@ -3,10 +3,11 @@ title: Suite di rapporti globali in Adobe Analytics
 description: Comprendere i vantaggi e i requisiti dell’utilizzo di una suite di rapporti globale.
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 4%
+source-wordcount: '854'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +17,7 @@ Una suite di rapporti globale è una suite di rapporti che raccoglie dati da tut
 
 ## Vantaggi
 
-Nella maggior parte dei casi, Adobe consiglia di implementare una suite di rapporti globale.
+L’Adobe consiglia di implementare una suite di rapporti globale nella maggior parte dei casi.
 
 * **Dati aggregati:** Le suite di rapporti globali consentono di visualizzare i KPI e gli eventi di successo nei siti di tua proprietà. La segmentazione e le suite di rapporti virtuali possono essere utilizzate per visualizzare dati specifici per il sito.
 * **Supporto per Cross-Device Analytics:** CDA richiede una suite di rapporti che raccolga dati da più posizioni, ad esempio dal sito web e dall’app mobile. Dispositivi separati possono unire i dati se implementati correttamente. Consulta [Analytics tra dispositivi](../../components/cda/overview.md) nella guida utente Componenti per ulteriori informazioni.

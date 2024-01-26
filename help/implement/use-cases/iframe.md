@@ -1,18 +1,19 @@
 ---
-title: Utilizzare AppMeasurement con gli iframe
+title: Usa AppMeasurement con iframe
 description: Accedi alle variabili di Adobe Analytics all’interno di un iframe o di una pagina padre mentre si trova all’interno di un iframe.
 feature: Implementation Basics
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 5%
+source-wordcount: '300'
+ht-degree: 1%
 
 ---
 
-# Utilizzare AppMeasurement con gli iframe
+# Usa AppMeasurement con iframe
 
-Puoi fare riferimento alle variabili AppMeasurement sia dagli iframe figlio che da quelli padre. È necessario definire tutte le variabili nella stessa posizione in cui esiste la libreria AppMeasurement. Gli esempi seguenti spiegano come impostare variabili e metodi di base di AppMeasurement all’interno e all’esterno di un iframe.
+È possibile fare riferimento a variabili di AppMeasurement da iframe figlio e padre. È necessario definire tutte le variabili nella stessa posizione in cui esiste la libreria AppMeasurement. Negli esempi seguenti viene illustrato come impostare variabili e metodi di AppMeasurement di base all&#39;interno e all&#39;esterno di un iframe.
 
 Se utilizzi i tag in Adobe Experience Platform, accertati che l’oggetto tracker sia accessibile a livello globale. Consulta [Panoramica dell’estensione Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it).
 
@@ -20,9 +21,9 @@ Se utilizzi i tag in Adobe Experience Platform, accertati che l’oggetto tracke
 >
 >Evita di includere librerie AppMeasurement sia su una pagina padre che su un iframe. In questo modo si comportano rischi per l’invio di più richieste di immagini, si gonfiano i rapporti e si aumentano le chiamate al server fatturabili.
 
-## Accedere ad AppMeasurement che risiede in un iframe
+## AppMeasurement di accesso che risiede in un iframe
 
-Puoi accedere alle variabili AppMeasurement tramite l’oggetto iframe. Questi esempi impostano [pageName](../vars/page-vars/pagename.md) e chiama [t(), metodo](../vars/functions/t-method.md) utilizzo di due modi diversi per fare riferimento all’oggetto iframe.
+È possibile accedere alle variabili AppMeasurement tramite l’oggetto iframe. Questi esempi impostano [pageName](../vars/page-vars/pagename.md) e chiama [t(), metodo](../vars/functions/t-method.md) utilizzo di due modi diversi per fare riferimento all’oggetto iframe.
 
 ```js
 // Reference AppMeasurement code that resides within an iframe and send an image request
@@ -34,7 +35,7 @@ window.frames[0].contentWindow.s.pageName = "Page name within iframe";
 window.frames[0].contentWindow.s.t();
 ```
 
-## Accedere ad AppMeasurement da un iframe
+## Accedere all’AppMeasurement dall’interno di un iframe
 
 Puoi accedere alle variabili AppMeasurement su una pagina padre da un iframe. Questo esempio imposta [pageName](../vars/page-vars/pagename.md) e chiama [t(), metodo](../vars/functions/t-method.md) utilizzando [`parent`](https://www.w3schools.com/jsref/prop_win_parent.asp) proprietà.
 

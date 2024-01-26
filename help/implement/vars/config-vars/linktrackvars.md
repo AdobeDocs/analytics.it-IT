@@ -3,9 +3,10 @@ title: linkTrackVars
 description: Specifica le variabili da includere nelle richieste di immagini per il tracciamento dei collegamenti.
 feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '331'
 ht-degree: 2%
 
 ---
@@ -39,7 +40,7 @@ Il `s.linkTrackVars` variabile è una stringa contenente un elenco delimitato da
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
 ```
 
-Il valore predefinito per questa variabile è una stringa vuota. Tuttavia, in Code Manager l’Adobe ha fornito il codice AppMeasurement, dove questa variabile è impostata su `"None"`. I valori validi sono variabili a livello di pagina che popolano una dimensione.
+Il valore predefinito per questa variabile è una stringa vuota. Tuttavia, l’Adobe ha fornito il codice di AppMeasurement in Code Manager dove questa variabile è impostata su `"None"`. I valori validi sono variabili a livello di pagina che popolano una dimensione.
 
 * Se questa variabile non è definita o impostata su una stringa vuota, *tutto* Le variabili sono incluse nelle richieste di immagini per il tracciamento dei collegamenti.
 * Se questa variabile è impostata su `"None"`, *no* Le variabili sono incluse nelle richieste di immagini per il tracciamento dei collegamenti.

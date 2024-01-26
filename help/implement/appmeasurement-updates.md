@@ -3,10 +3,11 @@ title: Note sulla versione di AppMeasurement per JavaScript
 description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '2362'
-ht-degree: 92%
+source-wordcount: '2614'
+ht-degree: 90%
 
 ---
 
@@ -20,14 +21,14 @@ Scarica la versione più recente di AppMeasurement da [GitHub](https://github.co
 
 ## Versione 2.25.0
 
-Data di rilascio: **12 settembre 2023**
+Data di rilascio: **mercoledì 12 settembre 2023**
 
 * È stato aggiunto il metodo opzionale [`bufferRequests()`](vars/functions/bufferrequests.md) per migliorare l’affidabilità dell’acquisizione delle richieste quando un browser non supporta l’API Beacon o annulla le richieste quando una pagina viene scaricata.
 * Sono state aggiunte delle protezioni per impedire più callback di post-tracciamento per una singola richiesta di tracciamento.
 
 ## Versione 2.24.0
 
-Data di rilascio:**18 luglio 2023**
+Data di rilascio:**mercoledì 18 luglio 2023**
 
 * Aggiunta variabile di configurazione opzionale [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) per decodificare gli URL di collegamento che includono caratteri con codifica a doppio byte.
 * È stata aggiunta una gestione aggiuntiva degli errori per i browser con API di hint client dell’agente utente ad alta entropia errate.
@@ -353,8 +354,8 @@ Data di rilascio: **18 giugno 2015**
 
 Data di rilascio: **21 maggio 2015**
 
-* Con iOS SDK versione 4.5, una nuova estensione iOS consente di collegare i dati di utilizzo dalle applicazioni Apple Watch, Widget del giorno, widget per l&#39;editing di foto e tutte le applicazioni iOS.
-* A partire dalla versione SDK Android 4.5, una nuova estensione Android consente di raccogliere dati dall&#39;applicazione del tuo dispositivo indossabile Android.
+* A partire dalla versione 4.5 dell&#39;SDK per iOS, una nuova estensione iOS consente di raccogliere i dati di utilizzo dalle app Apple Watch, Widget Oggi, widget per l&#39;editing di foto e tutte le altre app di estensione iOS.
+* A partire dalla versione SDK Android 4.5, una nuova estensione Android consente di raccogliere dati dall&#39;app Android Wearable.
 * Inclusione di API Visitor 1.4.
 * Il modulo AudienceManagement è stato aggiornato per l’utilizzo di DIL versione 6.0.
 

@@ -3,10 +3,11 @@ title: abort
 description: La variabile abort è un valore booleano che impedisce l'invio di un hit ai server di raccolta dati Adobe.
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 18%
+source-wordcount: '310'
+ht-degree: 13%
 
 ---
 
@@ -20,8 +21,8 @@ Utilizza il [!UICONTROL On before event send callback] editor di codice e restit
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
-1. Alla voce [!UICONTROL Data Collection], fai clic sul pulsante **[!UICONTROL Edit on before event send callback code]**.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** pulsante sotto [!UICONTROL Adobe Experience Platform Web SDK].
+1. Sotto [!UICONTROL Data Collection], fare clic su **[!UICONTROL Edit on before event send callback code]** pulsante.
 1. Nell’editor di codice, inserisci il seguente codice in qualsiasi condizione che desideri interrompere l’invio di dati a Edge:
 
 ```js

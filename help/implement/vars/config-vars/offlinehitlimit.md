@@ -3,7 +3,8 @@ title: offlineHitLimit
 description: Determina il numero massimo di hit da mettere in coda per il tracciamento offline.
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 15%

@@ -4,14 +4,15 @@ description: Variabili personalizzate collegate a singoli prodotti.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '528'
+ht-degree: 99%
 
 ---
 
-# eVar  (Merchandising)
+# eVar (merchandising)
 
 *Questa pagina della guida descrive come implementare le eVar di merchandising. Per informazioni sul funzionamento delle eVar di merchandising come dimensione, consulta [eVar (dimensione merchandising)](/help/components/dimensions/evar-merchandising.md) nella guida utente dei Componenti.*
 

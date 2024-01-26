@@ -3,16 +3,17 @@ title: linkDownloadFileTypes
 description: Determina le estensioni di file che vengono tracciate automaticamente come collegamenti di download.
 feature: Variables
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 19%
+source-wordcount: '368'
+ht-degree: 15%
 
 ---
 
 # linkDownloadFileTypes
 
-Quando [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) è abilitato e un visitatore fa clic su un collegamento, AppMeasurement controlla l’URL del collegamento per individuare le estensioni del tipo di file. Se l’URL del collegamento contiene un tipo di file corrispondente, viene inviata automaticamente una richiesta di immagine del collegamento di download.
+Quando [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) è abilitato e un visitatore fa clic su un collegamento, un AppMeasurement controlla l’URL del collegamento per individuare le estensioni del tipo di file. Se l’URL del collegamento contiene un tipo di file corrispondente, viene inviata automaticamente una richiesta di immagine del collegamento di download.
 
 Utilizzare `linkDownloadFileTypes` per personalizzare le estensioni di file da considerare come collegamenti per il download.
 
@@ -35,7 +36,7 @@ Il [!UICONTROL Download link qualifier] il campo di testo utilizza regex per det
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** pulsante sotto [!UICONTROL Adobe Experience Platform Web SDK].
 1. Sotto [!UICONTROL Data Collection], imposta il valore desiderato in **[!UICONTROL Download link qualifier]** campo di testo.
 
 ## Scaricare il qualificatore di collegamento implementando manualmente il Web SDK
@@ -59,7 +60,7 @@ Download Extensions è un elenco di estensioni di file con un campo che consente
 
 Aggiungere estensioni di file all&#39;elenco immettendo testo nel campo e facendo clic su **[!UICONTROL Add]**. Rimuovere le estensioni di file dall&#39;elenco facendo clic sulle rispettive **&#39;X&#39;** icona.
 
-## s.linkDownloadFileTypes in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
+## s.linkDownloadFileTypes in AppMeasurement e l’editor di codice personalizzato dell’estensione Analytics
 
 Il `s.linkDownloadFileTypes` variable è una stringa di estensioni di file separate da virgola. Non utilizzare spazi.
 

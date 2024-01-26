@@ -3,7 +3,8 @@ title: useLinkTrackSessionStorage
 description: Memorizza i dati di tracciamento dei collegamenti nell’archiviazione della sessione invece di un cookie.
 feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 8%
@@ -16,8 +17,8 @@ Se la tua organizzazione utilizza il tracciamento dei collegamenti, AppMeasureme
 
 L’utilizzo dell’archiviazione della sessione di un browser per il tracciamento dei collegamenti presenta diverse limitazioni:
 
-* L&#39;archiviazione della sessione non funziona tra i protocolli. Ad esempio, una pagina viene trasmessa tramite HTTP e la pagina successiva tramite HTTPS. AppMeasurement: impossibile accedere ai dati di tracciamento dei collegamenti nell’archiviazione della sessione a causa di differenze di protocollo.
-* L’archiviazione della sessione non funziona tra i sottodomini. Ad esempio, un visitatore passa a `store.example.com`, quindi passa a `toys.example.com`. AppMeasurement: impossibile accedere ai dati di tracciamento dei collegamenti nell’archiviazione della sessione a causa di sottodomini diversi.
+* L&#39;archiviazione della sessione non funziona tra i protocolli. Ad esempio, una pagina viene trasmessa tramite HTTP e la pagina successiva tramite HTTPS. L’AppMeasurement non può accedere ai dati di tracciamento dei collegamenti nell’archiviazione della sessione a causa di differenze di protocollo.
+* L’archiviazione della sessione non funziona tra i sottodomini. Ad esempio, un visitatore passa a `store.example.com`, quindi passa a `toys.example.com`. L’AppMeasurement non può accedere ai dati di tracciamento dei collegamenti nell’archiviazione della sessione a causa di sottodomini diversi.
 
 >[!TIP]
 >
@@ -35,7 +36,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.useLinkTrackSessionStorage in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.useLinkTrackSessionStorage` è un valore booleano che determina se AppMeasurement utilizza l’archiviazione della sessione per i dati di tracciamento dei collegamenti invece del `s_sq` cookie. Il valore predefinito è `false`. Imposta questa variabile su `true` se desideri che AppMeasurement utilizzi l’archiviazione della sessione invece del `s_sq` cookie per il tracciamento dei collegamenti e Activity Map.
+Il `s.useLinkTrackSessionStorage` variabile è un valore booleano che determina se AppMeasurement utilizza l’archiviazione della sessione per i dati di tracciamento dei collegamenti invece del `s_sq` cookie. Il valore predefinito è `false`. Imposta questa variabile su `true` se desideri che AppMeasurement utilizzi l’archiviazione della sessione invece del `s_sq` cookie per il tracciamento dei collegamenti e Activity Map.
 
 ```js
 s.useLinkTrackSessionStorage = true;

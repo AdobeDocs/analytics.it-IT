@@ -3,10 +3,11 @@ title: trackDownloadLinks
 description: Abilita o disabilita il tracciamento automatico dei collegamenti per i collegamenti di download.
 feature: Variables
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 19%
+source-wordcount: '296'
+ht-degree: 16%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 19%
 
 Adobe offre la possibilità di tenere traccia dei collegamenti di download senza impostare manualmente il [`tl()`](../functions/tl-method.md) metodo per ciascun collegamento di download. Abilita questa variabile se desideri utilizzare il tracciamento automatico dei collegamenti per i collegamenti di download.
 
-Quando è abilitata, AppMeasurement confronta qualsiasi URL di collegamento su cui è stato fatto clic con i valori in [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Se viene rilevata una corrispondenza, viene automaticamente attivata una chiamata di tracciamento del collegamento di download.
+Quando è abilitato, AppMeasurement confronta qualsiasi URL di collegamento su cui è stato fatto clic con i valori in [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Se viene trovata una corrispondenza, viene automaticamente attivata una chiamata di tracciamento del collegamento di download.
 
 ## Abilitare o disabilitare la raccolta di clic con l’estensione Web SDK
 
@@ -22,7 +23,7 @@ Utilizza il [!UICONTROL Enable click data collection] durante la configurazione 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** pulsante sotto [!UICONTROL Adobe Experience Platform Web SDK].
 1. Sotto [!UICONTROL Data Collection], fare clic su **[!UICONTROL Enable click data collection]** casella di controllo.
 
 ## Abilitare o disabilitare la raccolta di clic implementando manualmente l’SDK per web

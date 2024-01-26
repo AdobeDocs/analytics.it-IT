@@ -1,17 +1,18 @@
 ---
-title: Analizzatore pacchetti
+title: Analizzatori di pacchetti
 description: Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall’implementazione ai server di raccolta dati di Adobe.
 keywords: packet sniffer, stato http, 200, 302, charles
 feature: Validation
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 2%
+source-wordcount: '632'
+ht-degree: 1%
 
 ---
 
-# Analizzatore pacchetti
+# Analizzatori di pacchetti
 
 Gli analizzatori di pacchetti consentono di visualizzare i dati inviati dall’implementazione ai server di raccolta dati di Adobe.
 
@@ -44,7 +45,7 @@ Sebbene Adobe non fornisca un monitoraggio ufficiale dei pacchetti, ce ne sono u
 
 ## Codici di stato di risposta HTTP tipici
 
-Quando AppMeasurement invia i dati ai server di raccolta dati Adobe, questi rispondono con un codice di stato di risposta.
+Quando AppMeasurement invia i dati ai server di raccolta dati di Adobe, questi rispondono con un codice di stato di risposta.
 
 * **200 OK**: la risposta più comune dai server di raccolta dati. La richiesta di immagine è stata ricevuta e restituita un&#39;immagine trasparente.
 * **302 TROVATI**: ci sono due possibili motivi per ricevere questa risposta:

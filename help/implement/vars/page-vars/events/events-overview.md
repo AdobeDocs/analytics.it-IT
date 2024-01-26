@@ -3,10 +3,11 @@ title: events
 description: Imposta la variabile degli eventi, che governa la maggior parte delle metriche sul sito.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 7%
+source-wordcount: '802'
+ht-degree: 6%
 
 ---
 
@@ -70,7 +71,7 @@ Il `s.events` variable è una stringa che contiene un elenco delimitato da virgo
 
 >[!NOTE]
 >
->Questa variabile fa distinzione tra maiuscole e minuscole. Evita di capitalizzare in modo errato i valori dell’evento per garantire una raccolta accurata dei dati.
+>Questa variabile fa distinzione tra maiuscole e minuscole. Evita di capitalizzare in modo errato i valori degli eventi per garantire una raccolta accurata dei dati.
 
 ```js
 // Set the events variable to a single value

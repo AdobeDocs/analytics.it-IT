@@ -1,9 +1,10 @@
 ---
 title: trackOffline
-description: Abilita o disabilita il tracciamento offline, che cambia il modo in cui AppMeasurement raccoglie i dati.
+description: Attiva o disattiva il tracciamento offline, che cambia il modo in cui AppMeasurement raccoglie i dati.
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 8%
@@ -20,11 +21,11 @@ Il `trackOffline` variabile determina se desideri utilizzare il tracciamento off
 >
 >Devi configurare la suite di rapporti in modo da accettare hit con marca temporale prima di abilitare questa variabile. Se una suite di rapporti non accetta hit con marca temporale e questa variabile è abilitata, tali dati andranno persi e non potranno essere recuperati.
 
-Quando è abilitato, AppMeasurement utilizza la seguente procedura per inviare dati ad Adobe:
+Quando questa opzione è abilitata, AppMeasurement utilizza la seguente procedura per inviare dati ad Adobe:
 
 * Durante la compilazione di una richiesta di immagine, è incluso un parametro della stringa di query con marca temporale.
 * Se il dispositivo non è in grado di raggiungere i server di raccolta dati Adobe, l’hit viene memorizzato localmente sul dispositivo.
-* Durante ogni hit successivo, AppMeasurement tenta di inviare una richiesta di immagine all’Adobe.
+* Durante ogni hit successivo, AppMeasurement tenta di inviare una richiesta di immagine ad Adobe.
    * Se non riesce a raggiungere i server di raccolta dati di Adobe, l’hit viene aggiunto alla coda sul dispositivo.
    * Se è in grado di raggiungere i server di raccolta dati di Adobe, l’hit e la coda di hit mentre il dispositivo era offline vengono inviati.
 

@@ -3,16 +3,17 @@ title: Implementazione con richieste di immagini codificate
 description: Implementare Adobe Analytics utilizzando un tag immagine HTML (richiesta immagine codificata)
 feature: Implementation Basics
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
 # Implementazione con richieste di immagini codificate
 
-Le librerie AppMeasurement fornite da Adobe compilano le variabili presenti nella pagina, quindi le inviano come richiesta di immagine ad Adobe. Puoi ignorare completamente le librerie AppMeasurement e inviare manualmente una richiesta di immagine ad Adobe. Questo metodo richiede la formulazione manuale della richiesta di immagine e della stringa di query.
+Le librerie di AppMeasurement fornite da variabili di compilazione Adobi presenti nella pagina, quindi inviale come richiesta di immagine ad Adobe. Puoi ignorare completamente le librerie AppMeasurement e inviare manualmente una richiesta di immagine ad Adobe. Questo metodo richiede la formulazione manuale della richiesta di immagine e della stringa di query.
 
 Questo metodo di implementazione può essere utilizzato su qualsiasi piattaforma che visualizza immagini da sorgenti esterne. Non si basa affatto su JavaScript.
 

@@ -1,12 +1,13 @@
 ---
 title: addProductEvent
-description: Aggiunge eventi personalizzati alla variabile prodotti ed eventi .
+description: Aggiunge eventi personalizzati alla variabile prodotti ed eventi.
 feature: Variables
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 8%
+source-wordcount: '477'
+ht-degree: 7%
 
 ---
 
@@ -14,11 +15,11 @@ ht-degree: 8%
 
 {{plug-in}}
 
-La `addProductEvent` il plug-in aggiunge un evento numerico o valutario alla variabile [`products`](../page-vars/products.md) variabile. Adobe consiglia di utilizzare questo plug-in se si desidera aggiungere un evento numerico o valutario al `products` senza preoccuparsi del formato della stringa del prodotto. Questo plug-in non è necessario se non utilizzi eventi numerici o valutari nella variabile `products` variabile.
+Il `addProductEvent` Il plug-in aggiunge un evento numerico o di valuta al [`products`](../page-vars/products.md) variabile. L’Adobe consiglia di utilizzare questo plug-in se desideri aggiungere un evento numerico o di valuta al `products` senza preoccuparsi del formato della stringa di prodotto. Questo plug-in non è necessario se non si utilizzano eventi numerici o di valuta nella `products` variabile.
 
-## Installare il plug-in utilizzando l’SDK per web o l’estensione SDK per web
+## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
-Questo plug-in non è ancora supportato per l&#39;utilizzo all&#39;interno dell&#39;SDK per web.
+Questo plug-in non è ancora supportato per l’utilizzo nell’SDK per web.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -26,15 +27,15 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
-1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
-1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
+1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
-   * Evento: Core - Libreria caricata (pagina in alto)
-1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
-   * Tipo azione: Inizializza addProductEvent
-1. Salva e pubblica le modifiche alla regola.
+   * Evento: Core - Library Loaded (Page Top)
+1. Aggiungi un’azione alla regola precedente con la seguente configurazione:
+   * Estensione: Common Analytics Plugins
+   * Tipo azione: inizializza addProductEvent
+1. Salva e pubblica le modifiche apportate alla regola.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
@@ -42,14 +43,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,19 +59,19 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `addProductEvent` La funzione utilizza i seguenti argomenti:
+Il `addProductEvent` La funzione utilizza i seguenti argomenti:
 
-* **`en`** (obbligatorio, stringa): L’evento da aggiungere all’ultima voce nel `products` variabile. Se la `products` variabile è vuota, quindi viene creata una voce di prodotto &quot;vuota&quot; con l’evento (e il relativo valore) associato.
-* **`ev`** (obbligatorio, stringa): Il valore assegnato all&#39;evento numerico o valutario nel `en` argomento.  Predefinito su `1` quando non è impostato. Sono validi anche i numeri non racchiusi tra virgolette stringa.
-* **`ap`** (facoltativo, booleano): Se la variabile &quot;products&quot; contiene attualmente più di una voce di prodotto, viene visualizzato il valore `true` o `1`) aggiunge l’evento a tutte le voci di prodotto.  Predefinito su `false` quando non è impostato.
+* **`en`** (obbligatorio, stringa): evento da aggiungere all’ultima voce della sezione `products` variabile. Se il `products` Se la variabile è vuota, viene creata una voce di prodotto &quot;vuota&quot; con l’evento (e il relativo valore) associato.
+* **`ev`** (obbligatorio, stringa): valore assegnato all’evento numerico o di valuta nel `en` argomento.  Impostazione predefinita `1` quando non è impostato. Sono validi anche i numeri non racchiusi tra virgolette.
+* **`ap`** (facoltativo, booleano): se la variabile prodotti contiene attualmente più di una voce di prodotto, il valore `true` (o `1`) aggiunge l&#39;evento a tutte le voci di prodotto.  Impostazione predefinita `false` quando non è impostato.
 
-La `addProductEvent` non restituisce nulla. Al contrario, aggiunge l’evento e il relativo valore al `products` variabile. Il plug-in aggiunge automaticamente anche l’evento al [`events`](../page-vars/events/events-overview.md) , in quanto è necessaria anche in questo caso.
+Il `addProductEvent` non restituisce nulla. Al contrario, aggiunge l’evento e il relativo valore al `products` variabile. Il plug-in aggiunge inoltre automaticamente l’evento al [`events`](../page-vars/events/events-overview.md) variabile, in quanto è obbligatorio anche in questo caso.
 
 ## Cookie
 
-La `addProductEvent` non crea né utilizza cookie.
+Il `addProductEvent` La funzione non crea o utilizza cookie.
 
 ## Esempi
 

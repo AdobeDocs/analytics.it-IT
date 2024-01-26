@@ -3,22 +3,23 @@ title: formatTime
 description: Converti un numero di secondi nel suo equivalente in minuti, ore, ecc.
 feature: Variables
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '568'
 ht-degree: 6%
 
 ---
 
-# Plug-in di Adobe: formatTime
+# Plug-in Adobe: formatTime
 
 {{plug-in}}
 
-La `formatTime` Il plug-in consente di prendere qualsiasi numero di secondi e presentarli in un formato a blocchi, arrotondati al valore di riferimento desiderato. Adobe consiglia di utilizzare questo plug-in se desideri acquisire un valore di tempo in secondi e convertirlo in un formato di bucket (ad esempio minuti, giorni o settimane). Questo plug-in non è necessario se non desideri eseguire il bucket di valori basati su secondi in un formato arrotondato al tempo.
+Il `formatTime` Il plug-in consente di richiedere un numero qualsiasi di secondi e di presentarli in un formato a blocchi, arrotondati al valore di riferimento desiderato. L’Adobe consiglia di utilizzare questo plug-in se desideri acquisire un valore di tempo in secondi e convertirlo in un formato bucket (ad esempio minuti, giorni o settimane). Questo plug-in non è necessario se non si desidera inserire valori basati su secondi in un formato con arrotondamento temporale.
 
-## Installare il plug-in utilizzando l’SDK per web o l’estensione SDK per web
+## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
-Questo plug-in non è ancora supportato per l&#39;utilizzo all&#39;interno dell&#39;SDK per web.
+Questo plug-in non è ancora supportato per l’utilizzo nell’SDK per web.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -26,15 +27,15 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
-1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
-1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
+1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
-   * Evento: Core - Libreria caricata (pagina in alto)
-1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
-   * Tipo azione: Inizializza formatTime
-1. Salva e pubblica le modifiche alla regola.
+   * Evento: Core - Library Loaded (Page Top)
+1. Aggiungi un’azione alla regola precedente con la seguente configurazione:
+   * Estensione: Common Analytics Plugins
+   * Tipo azione: Initialize formatTime
+1. Salva e pubblica le modifiche apportate alla regola.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
@@ -42,14 +43,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,24 +59,24 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `formatTime` La funzione utilizza i seguenti argomenti:
+Il `formatTime` La funzione utilizza i seguenti argomenti:
 
-* **`ns`** (obbligatorio, numero intero): Il numero di secondi di conversione o di formattazione
-* **`tf`** (facoltativo, stringa): il tipo di formato in cui restituire i secondi in; impostazioni predefinite in secondi
-   * Imposta su `"d"` se si desidera l’ora in giorni (arrotondata per impostazione predefinita al valore di riferimento di 1/4 giorni più vicino)
-   * Imposta su `"h"` se desideri il tempo in ore (arrotondato al valore di riferimento di 1/4 ore più vicino per impostazione predefinita)
-   * Imposta su `"m"` se desideri il tempo in minuti (arrotondato al valore di riferimento di 1/2 minuti più vicino per impostazione predefinita)
-   * Imposta su `"s"` se si desidera il tempo in secondi (arrotondato al valore di riferimento di 5 secondi più vicino per impostazione predefinita)
-* **`bml`** (facoltativo, numero): Lunghezza dei parametri di arrotondamento. Valori predefiniti dei parametri di riferimento elencati nel `tf` argomento
+* **`ns`** (obbligatorio, numero intero): numero di secondi da convertire o formattare
+* **`tf`** (facoltativo, stringa): tipo di formato in cui restituire i secondi; impostazione predefinita: secondi
+   * Imposta su `"d"` se vuoi il tempo in giorni (arrotondato al benchmark di 1/4 giorno più vicino per impostazione predefinita)
+   * Imposta su `"h"` se desideri il tempo in ore (arrotondato al benchmark di 1/4 ore più vicino per impostazione predefinita)
+   * Imposta su `"m"` se vuoi il tempo in minuti (arrotondato al benchmark di 1/2 minuti più vicino per impostazione predefinita)
+   * Imposta su `"s"` se vuoi il tempo in secondi (arrotondato al benchmark di 5 secondi più vicino per impostazione predefinita)
+* **`bml`** (facoltativo, numero): lunghezza dei parametri di riferimento di arrotondamento. Valori predefiniti per i benchmark elencati nella `tf` argomento
 
-La funzione restituisce il numero di secondi formattati utilizzando l&#39;unità specificata nel `tf` argomento. Se la `tf` argomento non impostato:
+La funzione restituisce il numero di secondi formattati utilizzando l’unità specificata nella `tf` argomento. Se il `tf` argomento non impostato:
 
-* Qualsiasi valore inferiore a un minuto viene arrotondato al valore di riferimento più vicino di 5 secondi
-* Qualsiasi valore compreso tra un minuto e un&#39;ora viene arrotondato al valore di riferimento più vicino di 1/2 minuti
-* Qualsiasi valore compreso tra un&#39;ora e un giorno viene arrotondato al valore di riferimento di trimestre più vicino
-* Qualsiasi valore maggiore di un giorno viene arrotondato al valore di riferimento del giorno più vicino
+* Qualsiasi valore inferiore a un minuto viene arrotondato al valore di riferimento di 5 secondi più vicino
+* Il tempo compreso tra un minuto e un&#39;ora viene arrotondato al valore di riferimento di 1/2 minuto più vicino
+* Qualsiasi elemento compreso tra un’ora e un giorno viene arrotondato al valore di riferimento di un quarto d’ora più vicino
+* Qualsiasi valore superiore a un giorno viene arrotondato al valore di riferimento del giorno più vicino
 
 ## Esempi
 
@@ -113,7 +114,7 @@ s.eVar55 = formatTime(145, "m", .4);
 
 ### 1.1 (21 maggio 2018)
 
-* È stato aggiunto il `bml` argomento per consentire una maggiore flessibilità nell&#39;arrotondamento
+* È stata aggiunta la `bml` argomento per consentire una maggiore flessibilità nell&#39;arrotondamento
 
 ### 1.0 (15 aprile 2018)
 

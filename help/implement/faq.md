@@ -3,9 +3,10 @@ title: Domande frequenti sull’implementazione
 description: Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni.
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '503'
 ht-degree: 100%
 
 ---
@@ -48,7 +49,6 @@ var s = new Object();
 >* NON cambiare la suite di rapporti in un valore non valido, in quanto crea un carico non necessario sui server di Adobe.
 >* NON rimuovere completamente il file `s_code.js`, a meno di non rimuovere anche tutti i riferimenti al file su ogni pagina.
 >* NON modificare la variabile `trackingServer` in modo che non punti ad Adobe. AppMeasurement invia comunque le richieste di immagini, che restituiscono errori 404.
-
 
 ## Ho eseguito AppMeasurement tramite un analizzatore di codice, e ha segnalato il suo utilizzo di `Math.random()` come potenziale rischio per la sicurezza. `Math.random()` viene utilizzato con dati sensibili?
 

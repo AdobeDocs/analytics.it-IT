@@ -3,10 +3,11 @@ title: transactionID
 description: Utilizza questa variabile per collegare dati online e offline.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: ccdeaf341cf9a603da857d9425d3a2196d0f67f4
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 14%
+source-wordcount: '406'
+ht-degree: 13%
 
 ---
 

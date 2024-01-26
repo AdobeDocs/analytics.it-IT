@@ -3,9 +3,10 @@ title: Confrontare i metodi di implementazione
 description: Scopri i vantaggi di ciascun metodo che invia dati ad Adobe Analytics.
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+role: Admin, Developer, Leader
+source-git-commit: c476a1a19ae514f75fce8bd8e6d447d85de67a84
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '489'
 ht-degree: 3%
 
 ---
@@ -22,7 +23,7 @@ Scopri i diversi metodi di implementazione di Adobe Analytics. Puoi utilizzare q
 | Destinazione dati | Inviato direttamente ad Adobe Analytics | Inviato direttamente ad Adobe Analytics | Inviato a Adobe Experience Platform Edge, che inoltra i dati ad Adobe Analytics | Inviato a Adobe Experience Platform Edge, che inoltra i dati ad Adobe Analytics |
 | Difficoltà ad apportare modifiche all’implementazione | Richiede l’accesso al codice del sito web per ogni modifica dell’implementazione | Modifica il codice del sito web una volta per installare il tag loader; tutti gli ulteriori aggiornamenti dell’implementazione possono essere effettuati nell’interfaccia utente di Data Collection | Richiede l’accesso al codice del sito web per ogni modifica dell’implementazione | Modifica il codice del sito web una volta per installare il tag loader; tutti gli ulteriori aggiornamenti dell’implementazione possono essere effettuati nell’interfaccia utente di Data Collection |
 | Come viene gestito A4T | Le chiamate A4T sono incluse negli hit inviati a Adobe | Le chiamate A4T sono incluse negli hit inviati a Adobe | Le chiamate A4T vengono inviate come hit separati | Le chiamate A4T vengono inviate come hit separati |
-| Dati contestuali | Seleziona `s.contextData`. | Utilizzare `s.contextData` nei blocchi di codice personalizzato | Tutti i campi non mappati vengono inviati automaticamente come `a.x.*` variabili di dati di contesto. | Tutti i campi non mappati vengono inviati automaticamente come `a.x.*` variabili di dati di contesto. |
+| Dati contestuali | Utilizzare `s.contextData`. | Utilizzare `s.contextData` nei blocchi di codice personalizzato | Tutti i campi non mappati vengono inviati automaticamente come `a.x.*` variabili di dati di contesto. | Tutti i campi non mappati vengono inviati automaticamente come `a.x.*` variabili di dati di contesto. |
 
 {style="table-layout:auto"}
 

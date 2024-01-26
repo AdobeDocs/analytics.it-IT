@@ -3,7 +3,8 @@ title: dynamicAccountMatch
 description: La variabile dynamicAccountMatch determina il valore da esaminare negli account dinamici.
 feature: Implementation Basics
 exl-id: 3b68f2e6-1bd9-4b16-9d03-a87c9217e1b7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 4%

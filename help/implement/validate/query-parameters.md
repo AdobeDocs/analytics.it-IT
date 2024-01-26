@@ -3,10 +3,11 @@ title: Parametri query della raccolta dati
 description: Elenca tutti i parametri della stringa di query utilizzati nelle richieste di immagini.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 7%
+source-wordcount: '722'
+ht-degree: 6%
 
 ---
 
@@ -78,7 +79,7 @@ Nella tabella seguente sono elencati tutti i parametri delle stringhe di query u
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [Codice di tracciamento](/help/components/dimensions/tracking-code.md) dimensione. |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md), o dimensioni di conversione personalizzate. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Variabile ID visitatore. |
-| `vidn` | Nessuno | Impostato da AppMeasurement per i nuovi visitatori. Contiene il valore ID memorizzato nel cookie visitatore. |
+| `vidn` | Nessuno | Impostato per AppMeasurement per i nuovi visitatori. Contiene il valore ID memorizzato nel cookie visitatore. |
 | `vmk` | `vmk` | Non più utilizzato. Chiave di migrazione del visitatore, che ha aiutato a migrare le implementazioni da cookie di terze parti a cookie di prime parti. |
 | `vvp` | `variableProvider` | Utilizzato in Data Connectors. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Utilizzato con Origini dati per collegare dati online e offline. |

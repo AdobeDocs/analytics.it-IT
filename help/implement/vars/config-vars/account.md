@@ -3,7 +3,8 @@ title: account
 description: Utilizza la variabile account per determinare la suite di rapporti a cui vengono inviati i dati.
 feature: Variables
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 1%

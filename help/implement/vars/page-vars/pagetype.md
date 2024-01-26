@@ -3,10 +3,11 @@ title: pageType
 description: Determina se la pagina corrente è un errore 404.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 15%
+source-wordcount: '205'
+ht-degree: 12%
 
 ---
 

@@ -3,9 +3,10 @@ title: Collisioni hash
 description: Descrive cosa è una collisione hash e come può manifestarsi.
 feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '462'
 ht-degree: 2%
 
 ---
@@ -18,7 +19,7 @@ Per la maggior parte dei campi, la stringa viene prima convertita in tutte le le
 
 Le collisioni hash possono manifestarsi nei rapporti come segue:
 
-* Se stai generando una tendenza per un valore e osservi un picco per un mese, è probabile che altri valori per tale variabile siano stati sottoposti a hashing sullo stesso valore del valore che stai esaminando.
+* Se stai generando una tendenza per un valore e vedi un picco per un mese, è probabile che altri valori per tale variabile siano stati sottoposti a hashing sullo stesso valore del valore che stai esaminando.
 * Lo stesso accade per i segmenti per un valore specifico.
 
 ## Esempio di collisione hash

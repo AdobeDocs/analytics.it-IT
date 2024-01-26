@@ -1,16 +1,17 @@
 ---
-title: Integrate Module
+title: Integrare il modulo
 description: Il modulo Integra consente ai partner Adobi di integrare le attività di raccolta dati con l’organizzazione.
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 5%
+source-wordcount: '878'
+ht-degree: 4%
 
 ---
 
-# Integrate Module
+# Integrare il modulo
 
 Il modulo Integra consente ai partner Adobi di integrare le attività di raccolta dati con l’organizzazione. Questa integrazione offre l’opportunità di una connessione dati bidirezionale. In genere, l’utilizzo del modulo di integrazione è gestito da un partner Adobe.
 
@@ -36,7 +37,7 @@ Per ottenere il codice del modulo è necessario avere accesso come amministrator
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
 1. Fai clic sull’icona a 9 quadrati in alto a destra, quindi fai clic sul logo a colori di Analytics.
 1. Nella navigazione in alto, fai clic su **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**.
-1. Scarica la libreria AppMeasurement JavaScript più recente.
+1. Scarica la libreria di AppMeasurement JavaScript più recente.
 1. Una volta scaricato, decomprimi il file e individua `AppMeasurement_Module_Integrate.js`.
 
 ### Posizionare il modulo Integrate nell’implementazione
@@ -77,7 +78,7 @@ In genere, l’organizzazione collabora con il partner Adobe per determinare il 
 
 Adobe sta lavorando con i team internamente per documentare questo metodo.
 
-### ottenere
+### get
 
 Il `get` consente a un client di importare variabili partner e di memorizzarle nell&#39;oggetto partner. Una volta che i dati sono nell’oggetto partner, possono essere assegnati alle variabili Analytics e inviati in una richiesta di immagine. Questo metodo chiama un URL che punta a un oggetto JSON contenente i dati desiderati.
 

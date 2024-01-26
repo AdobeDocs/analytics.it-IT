@@ -3,10 +3,11 @@ title: visitorID
 description: Utilizza un ID visitatore personalizzato.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 13%
+source-wordcount: '325'
+ht-degree: 12%
 
 ---
 

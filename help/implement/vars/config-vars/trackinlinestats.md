@@ -4,10 +4,11 @@ description: Abilita o disabilita le ClickMap nell'implementazione.
 keywords: disattiva clickmap
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
-source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 18%
+source-wordcount: '176'
+ht-degree: 17%
 
 ---
 

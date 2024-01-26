@@ -3,10 +3,11 @@ title: Implementazione con AJAX
 description: Scopri come implementare Adobe Analytics su un sito utilizzando l’AJAX.
 feature: Implementation Basics
 exl-id: 3286bf97-3a66-4f68-9053-bf84269962fd
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -37,7 +38,7 @@ I valori delle variabili persistono nelle pagine che utilizzano l’AJAX poiché
 
 >[!TIP]
 >
->Il `clearVars()` non è disponibile nel codice H. Se non hai effettuato l’aggiornamento ad AppMeasurement, imposta ogni valore della variabile di Analytics su una stringa vuota.
+>Il `clearVars()` non è disponibile nel codice H. Se non hai effettuato l’aggiornamento a AppMeasurement, imposta ogni valore della variabile Analytics su una stringa vuota.
 
 ## Esempi
 

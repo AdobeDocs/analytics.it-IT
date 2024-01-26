@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 44830c4e68c4d6f9cace620e81d7adeda1de3563
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '402'
 ht-degree: 97%
 
 ---
@@ -59,8 +59,8 @@ ht-degree: 97%
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
-      + [eVar](vars/page-vars/evar.md)
-      + [eVar  (Merchandising)](vars/page-vars/evar-merchandising.md)
+      + [eVar ](vars/page-vars/evar.md)
+      + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)
          + [Evento di acquisto](vars/page-vars/events/event-purchase.md)
@@ -171,7 +171,6 @@ ht-degree: 97%
    + [Risoluzione dei problemi relativi ad AppMeasurement](js/troubleshooting.md)
 + Implementazione di Analytics su altre piattaforme {#other}
    + [Implementazione di Analytics utilizzando richieste di immagini codificate](other/hardcoded.md)
-   + [Implementazione di Analytics utilizzando DTM](other/dtm-implementation-overview.md)
    + [Implementazione di Analytics su Ajax](other/ajax.md)
    + [Implementazione di Analytics su AMP](other/amp.md)
    + [Implementazione di Analytics per gli assistenti digitali](other/digital-assistants.md)

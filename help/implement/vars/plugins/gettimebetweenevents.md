@@ -3,10 +3,11 @@ title: getTimeBetweenEvents
 description: Misura il tempo tra due eventi.
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 5%
+source-wordcount: '772'
+ht-degree: 4%
 
 ---
 
@@ -14,11 +15,11 @@ ht-degree: 5%
 
 {{plug-in}}
 
-La `getTimeBetweenEvents` Il plug-in consente di tenere traccia del periodo di tempo tra due eventi di Analytics, inclusi carrello acquisti ed eventi personalizzati. È utile per tenere traccia del tempo necessario al completamento di un processo di pagamento o di qualsiasi altro processo che si desidera misurare. Questo plug-in non è necessario se non disponi di processi di conversione che desideri misurare quanto tempo impiegano.
+Il `getTimeBetweenEvents` Il plug-in consente di tenere traccia del periodo di tempo tra due eventi di Analytics, inclusi il carrello acquisti e gli eventi personalizzati. È utile per tenere traccia del tempo necessario al completamento di un processo di pagamento o di qualsiasi altro processo che si desidera misurare. Questo plug-in non è necessario se non disponi di processi di conversione che consentano di misurare il tempo necessario.
 
-## Installare il plug-in utilizzando l’SDK per web o l’estensione SDK per web
+## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
-Questo plug-in non è ancora supportato per l&#39;utilizzo all&#39;interno dell&#39;SDK per web.
+Questo plug-in non è ancora supportato per l’utilizzo nell’SDK per web.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -26,15 +27,15 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul [!UICONTROL Catalog] pulsante
-1. Installa e pubblica il [!UICONTROL Common Analytics Plugins] estensione
-1. Se non lo hai già fatto, crea una regola denominata &quot;Inizializza plug-in&quot; con la seguente configurazione:
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
+1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
-   * Evento: Core - Libreria caricata (pagina in alto)
-1. Aggiungi un&#39;azione alla regola precedente con la seguente configurazione:
-   * Estensione: Plug-in comuni di Analytics
-   * Tipo azione: Inizializza getTimeBetweenEvents
-1. Salva e pubblica le modifiche alla regola.
+   * Evento: Core - Library Loaded (Page Top)
+1. Aggiungi un’azione alla regola precedente con la seguente configurazione:
+   * Estensione: Common Analytics Plugins
+   * Tipo azione: inizializzare getTimeBetweenEvents
+1. Salva e pubblica le modifiche apportate alla regola.
 
 ## Installare il plug-in utilizzando l’editor di codice personalizzato
 
@@ -42,14 +43,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi la [!UICONTROL Configure tracking using custom code] fisarmonica, che rivela [!UICONTROL Open Editor] pulsante .
-1. Apri l’editor di codice personalizzato e incolla il codice plug-in fornito di seguito nella finestra di modifica.
-1. Salva e pubblica le modifiche all’estensione Analytics.
+1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
+1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). La conservazione dei commenti e dei numeri di versione del codice nell’implementazione consente ad Adobe di risolvere eventuali problemi.
+Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /* Adobe Consulting Plugin: getTimeBetweenEvents v3.0 (AppMeasurement highly recommended) */
@@ -57,36 +58,36 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Usa il plug-in
+## Utilizzare il plug-in
 
-La `getTimeBetweenEvents` La funzione utilizza i seguenti argomenti:
+Il `getTimeBetweenEvents` La funzione utilizza i seguenti argomenti:
 
-* **`ste`** (obbligatorio, stringa): Avvia gli eventi timer. Una stringa delimitata da virgole di eventi di Analytics per &quot;avviare il timer&quot;.
-* **`rt`** (obbligatorio, booleano): Riavvia l&#39;opzione del timer. Imposta su `true` se si desidera riavviare il timer ogni volta che il `events` contiene un evento timer di avvio. Imposta su `false` se non si desidera che il timer si riavvii quando viene visualizzato un evento del timer di avvio.
-* **`stp`** (obbligatorio, stringa): Arresta gli eventi timer. Una stringa delimitata da virgole di eventi di Analytics che &quot;interrompe il timer&quot;.
-* **`res`** (obbligatorio, booleano): Opzione Ripristina timer. Imposta su `true` se si desidera registrare l&#39;ora dall&#39;avvio del timer E reimpostare il timer dopo l&#39;arresto. Imposta su `false` se si desidera registrare l&#39;ora ma non arrestare il timer. Se impostato su `false`, il timer continua a essere eseguito dopo che la variabile eventi registra un evento di arresto.
+* **`ste`** (obbligatorio, stringa): eventi timer di avvio. Una stringa delimitata da virgole di eventi Analytics per &quot;avviare il timer&quot;.
+* **`rt`** (obbligatorio, booleano): opzione per riavviare il timer. Imposta su `true` per riavviare il timer ogni volta che `events` la variabile contiene un evento timer di avvio. Imposta su `false` se non si desidera riavviare il timer quando viene visualizzato un evento di avvio del timer.
+* **`stp`** (obbligatorio, stringa): arrestare gli eventi timer. Stringa delimitata da virgole di eventi Analytics che &quot;interrompono il timer&quot;.
+* **`res`** (obbligatorio, booleano): opzione Ripristina timer. Imposta su `true` se si desidera registrare l&#39;ora dall&#39;avvio del timer E reimpostare il timer dopo l&#39;arresto. Imposta su `false` se si desidera registrare l&#39;ora ma non arrestare il timer. Se impostato su `false`, il timer continua a essere eseguito dopo che la variabile degli eventi registra un evento di arresto.
 
-   >[!TIP]
-   >
-   >Se imposti questo argomento su `false`, impostando `rte` argomento di seguito è altamente consigliato.
-* **`cn`** (facoltativo, stringa): Il nome del cookie in cui viene memorizzata l&#39;ora del primo evento. Predefinito su `"s_tbe"`.
-* **`etd`** (facoltativo, numero intero): Il tempo di scadenza del cookie in giorni. Imposta su `0` di scadere alla fine della sessione del browser. Se non è impostato, viene impostato su 1 giorno.
-* **`fmt`** (facoltativo, stringa): Il formato dell&#39;ora in cui viene restituito il numero di secondi (impostazione predefinita: nulla)
+  >[!TIP]
+  >
+  >Se si imposta questo argomento su `false`, impostazione di `rte` L&#39;argomento di seguito è vivamente consigliato.
+* **`cn`** (facoltativo, stringa): nome del cookie in cui viene memorizzata l’ora del primo evento. Predefinito su `"s_tbe"`.
+* **`etd`** (facoltativo, numero intero): tempo di scadenza del cookie in giorni. Imposta su `0` alla fine della sessione del browser. Se non è impostato, il valore predefinito è 1 giorno.
+* **`fmt`** (facoltativo, stringa): formato del tempo in cui viene restituito il numero di secondi (impostazione predefinita: niente)
    * `"s"` per secondi
    * `"m"` per minuti
    * `"h"` per ore
    * `"d"` per giorni
-   * Se non è impostato, il formato del valore restituito si basa sulle regole seguenti:
-      * Qualsiasi valore inferiore a un minuto viene arrotondato al valore di riferimento più vicino di 5 secondi. Ad esempio, 10 secondi, 15 secondi
-      * Qualsiasi valore compreso tra un minuto e un&#39;ora viene arrotondato al valore di riferimento più vicino di 1/2 minuti. Ad esempio, 30,5 minuti e 31 minuti
-      * Qualsiasi valore compreso tra un’ora e un giorno viene arrotondato al valore di riferimento di trimestre più vicino. Ad esempio, 2,25 ore, 3,5 ore
-      * Qualsiasi valore maggiore di un giorno viene arrotondato al valore di riferimento del giorno più vicino. Ad esempio, 1 giorno, 3 giorni, 9 giorni
-* **`bml`** (facoltativo, numero): La lunghezza del valore di riferimento per l&#39;arrotondamento in base al formato `fmt` argomento. Ad esempio, se `fmt` argomento `"s"` e questa argomentazione è `2`, il valore restituito viene arrotondato al valore di riferimento più vicino di 2 secondi. Se `fmt` argomento `"m"` e questa argomentazione è `0.5`, il valore restituito viene arrotondato al valore di riferimento di mezzo minuto più vicino.
-* **`rte`** (facoltativo, stringa): Stringa delimitata da virgole degli eventi di Analytics che rimuovono o eliminano il timer. Non ha valore predefinito.
+   * Se non viene impostato, il formato del valore restituito si basa sulle regole seguenti:
+      * Qualsiasi valore inferiore a un minuto viene arrotondato al valore di riferimento di 5 secondi più vicino. Ad esempio, 10 secondi, 15 secondi
+      * Qualsiasi valore compreso tra un minuto e un&#39;ora viene arrotondato al valore di riferimento di 1/2 minuto più vicino. Ad esempio, 30,5 minuti, 31 minuti
+      * Qualsiasi valore compreso tra un’ora e un giorno viene arrotondato al valore di riferimento di un quarto d’ora più vicino. Ad esempio, 2,25 ore, 3,5 ore
+      * Qualsiasi valore superiore a un giorno viene arrotondato al valore di riferimento del giorno più vicino. Ad esempio, 1 giorno, 3 giorni, 9 giorni
+* **`bml`** (facoltativo, numero): lunghezza del parametro di riferimento di arrotondamento in base al formato del `fmt` argomento. Ad esempio, se `fmt` argomento è `"s"` e questo argomento è `2`, il valore restituito è arrotondato al valore di riferimento di 2 secondi più vicino. Se `fmt` argomento è `"m"` e questo argomento è `0.5`, il valore restituito è arrotondato al valore di riferimento di mezzo minuto più vicino.
+* **`rte`** (facoltativo, stringa): stringa delimitata da virgole di eventi Analytics che rimuovono o eliminano il timer. Impostazione predefinita: niente.
 
-Una chiamata a questa funzione restituisce un numero intero che rappresenta la quantità di tempo tra l&#39;evento del timer di avvio e l&#39;evento del timer di arresto nel formato desiderato.
+Quando si richiama questa funzione, viene restituito un numero intero che rappresenta il tempo che intercorre tra l&#39;evento timer di avvio e l&#39;evento timer di arresto nel formato desiderato.
 
-## Chiamate di esempio
+## Esempio di chiamate
 
 ```js
 // The timer starts or restarts when the events variable contains event1
@@ -115,7 +116,7 @@ s.eVar4 = getTimeBetweenEvents("event1", true, "event2", true);
 
 ### 2.1 (26 maggio 2018)
 
-* Riprende le modifiche apportate alla nuova versione del `formatTime` plug-in.
+* Consente di gestire le modifiche apportate alla nuova versione di `formatTime` plug-in.
 
 ### 2.0 (6 aprile 2018)
 

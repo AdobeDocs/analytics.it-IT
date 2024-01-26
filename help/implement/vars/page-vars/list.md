@@ -3,9 +3,10 @@ title: list
 description: Variabili personalizzate che contengono più valori nello stesso hit.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
@@ -30,27 +31,27 @@ Le variabili elenco sono [mappate per Adobe Analytics](https://experienceleague.
 
 ```json
 "xdm": {
-    "_experience": {
-        "analytics": {
-            "customDimensions": {
-                "lists": {
-                    "list1": {
-                        "list": [
-                            {
-                                "value": "Example value 1"
-                            },
-                            {
-                                "value": "Example value 2"
-                            },
-                            {
-                                "value": "Example value 3"
-                            }
-                        ]
-                    }
-                }
-            }
+  "_experience": {
+    "analytics": {
+      "customDimensions": {
+        "lists": {
+          "list1": {
+            "list": [
+              {
+                "value": "Example value 1"
+              },
+              {
+                "value": "Example value 2"
+              },
+              {
+                "value": "Example value 3"
+              }
+            ]
+          }
         }
+      }
     }
+  }
 }
 ```
 

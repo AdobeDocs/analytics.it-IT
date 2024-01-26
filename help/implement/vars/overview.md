@@ -4,9 +4,10 @@ description: Scopri quali variabili puoi includere nei dati inviati ad Adobe per
 keywords: appmeasurement,variabili,variabili,variabili,configurazione,pagina,implementazione
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: 1516a1353c1b0a3b7365c3e3f10ce74ae1255696
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---

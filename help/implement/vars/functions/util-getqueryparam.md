@@ -1,40 +1,41 @@
 ---
 title: Util.getQueryParam
-description: Restituisce il valore di un parametro di stringa query.
+description: Restituisce il valore di un parametro stringa query.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 8%
+source-wordcount: '258'
+ht-degree: 7%
 
 ---
 
 # Util.getQueryParam
 
-I parametri della stringa di query in un URL del browser contengono frequentemente dati importanti per Analytics. Utilizza la `Util.getQueryParam()` per recuperare i dati dalla stringa di query.
+I parametri delle stringhe di query in un URL del browser contengono spesso dati importanti per Analytics. Utilizza il `Util.getQueryParam()` per recuperare dati dalla stringa query.
 
-## Ottieni i dati dei parametri della stringa di query utilizzando l&#39;estensione Adobe Analytics e l&#39;estensione SDK per web
+## Ottenere i dati dei parametri della stringa di query tramite l’estensione Adobe Analytics e l’estensione Web SDK
 
-È possibile ottenere i dati dei parametri della stringa di query impostando i valori negli elementi dati.
+Puoi ottenere i dati dei parametri della stringa di query impostando i valori negli elementi dati.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai a [!UICONTROL Data Elements] , quindi fai clic sull’elemento dati desiderato (o crea un elemento dati).
-4. Imposta la [!UICONTROL Extension] elenco a discesa in **[!UICONTROL Core]** e [!UICONTROL Data Element Type] a **[!UICONTROL Query String Parameter]**.
-5. Immettere il parametro della stringa query nel campo di testo.
+4. Imposta il [!UICONTROL Extension] elenco a discesa per **[!UICONTROL Core]** e [!UICONTROL Data Element Type] a **[!UICONTROL Query String Parameter]**.
+5. Immetti il parametro della stringa di query nel campo di testo.
 
 Il valore del parametro della stringa di query viene memorizzato nell&#39;elemento dati. Puoi quindi fare riferimento all’elemento dati nelle regole per assegnare le variabili desiderate.
 
-## s.Util.getQueryParam() in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
+## s.Util.getQueryParam() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Chiama il `s.Util.getQueryParam()` per recuperare un valore della stringa di query dall&#39;URL del browser. L&#39;argomento stringa contenente un parametro della stringa di query è obbligatorio. Questo metodo restituisce una stringa che puoi assegnare alle variabili di Analytics:
+Chiama il `s.Util.getQueryParam()` per recuperare un valore stringa query dall&#39;URL del browser. L&#39;argomento stringa contenente un parametro stringa query è obbligatorio. Questo metodo restituisce una stringa che puoi assegnare alle variabili di Analytics:
 
 ```js
 s.eVar1 = s.Util.getQueryParam("cid");
 ```
 
-Un secondo argomento facoltativo consente di specificare la stringa da verificare per i parametri della stringa di query. Per impostazione predefinita, l&#39;utilità controlla l&#39;URL del browser.
+Un secondo argomento facoltativo consente di specificare la stringa da controllare per i parametri della stringa di query. Per impostazione predefinita, l’utility esamina l’URL del browser.
 
 ```js
 // Search a custom string for query string parameter
@@ -44,7 +45,7 @@ var customString = "https://example.com?q=search";
 s.eVar1 = s.Util.getQueryParam("q",customString);
 ```
 
-Un terzo argomento facoltativo consente di personalizzare il delimitatore di stringa query. Il valore predefinito è `&`. È possibile modificare questo valore se la stringa di query utilizza un delimitatore diverso.
+Un terzo argomento facoltativo consente di personalizzare il delimitatore della stringa di query. Il valore predefinito è `&`. È possibile modificare questo valore se la stringa di query utilizza un delimitatore diverso.
 
 ```js
 var customString = "https://example.com?q1=value1;q2=value2;q3=value3";

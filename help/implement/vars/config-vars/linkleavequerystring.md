@@ -3,16 +3,17 @@ title: linkLeaveQueryString
 description: Consente di mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 10%
 
 ---
 
 # linkLeaveQueryString
 
-Per impostazione predefinita, AppMeasurement elimina le stringhe di query dagli URL di tracciamento dei collegamenti. Utilizza il `linkLeaveQueryString` variabile per mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
+Per impostazione predefinita, l’AppMeasurement elimina le stringhe di query dagli URL di tracciamento dei collegamenti. Utilizza il `linkLeaveQueryString` variabile per mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
 
 Per alcuni collegamenti di uscita e di download, la parte importante dell’URL può trovarsi nella stringa di query. Ad esempio, un collegamento per il download come `https://example.com/download.asp?filename=myfile.exe` contiene informazioni importanti sul collegamento nella stringa query.
 
@@ -39,7 +40,7 @@ Le stringhe di query non vengono rimosse dal campo XDM `web.webInteraction.URL`.
 
 Seleziona questa casella se desideri includere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
 
-## s.linkLeaveQueryString in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
+## s.linkLeaveQueryString in AppMeasurement e l’editor di codice personalizzato dell’estensione Analytics
 
 Il `s.linkLeaveQueryString` è di tipo booleano. Il valore predefinito è `false`.
 

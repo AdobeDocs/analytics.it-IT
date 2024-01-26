@@ -1,41 +1,42 @@
 ---
 title: campaign
-description: Popolare la dimensione "Tracking Code" (Codice di tracciamento).
+description: Popolare la dimensione "Codice di tracciamento".
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 23%
+source-wordcount: '227'
+ht-degree: 20%
 
 ---
 
 # campaign
 
-La `campaign` è dedicata alla raccolta dei codici di tracciamento sul sito. Nelle versioni precedenti di Adobe Analytics, aveva un trattamento speciale in cui poteva essere utilizzato come suddivisione per la maggior parte delle dimensioni. Nella versione corrente di Adobe Analytics, agisce in modo identico a un eVar.
+Il `campaign` La variabile è dedicata alla raccolta dei codici di tracciamento sul sito. Nelle versioni precedenti di Adobe Analytics, aveva un trattamento speciale in cui poteva essere utilizzato come raggruppamento per la maggior parte delle dimensioni. Nella versione corrente di Adobe Analytics, agisce come un eVar.
 
-Questa variabile popola il [Codice di tracciamento](/help/components/dimensions/tracking-code.md) dimensione. In genere ottiene il suo valore da una stringa di query utilizzando [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) metodo di utilità. Tuttavia, l’organizzazione determina esattamente come impostare questa variabile.
+Questa variabile compila il [Codice di tracciamento](/help/components/dimensions/tracking-code.md) dimensione. In genere ottiene il suo valore da una stringa di query utilizzando [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) metodo di utilità. Tuttavia, l’organizzazione determina esattamente come impostare questa variabile.
 
-## Campaign utilizzando l’SDK per web
+## Campagna con l’SDK per web
 
-Campaign è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `marketing.trackingCode`.
+La campagna è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `marketing.trackingCode`.
 
-## Campaign utilizzando l’estensione Adobe Analytics
+## Campaign tramite l’estensione Adobe Analytics
 
-Puoi impostare campaign sia durante la configurazione dell’estensione Analytics (variabili globali) che in regole.
+Puoi impostare la campagna sia durante la configurazione dell’estensione Analytics (variabili globali) sia nelle regole.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Imposta la [!UICONTROL Extension] elenco a discesa in Adobe Analytics e [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+5. Imposta il [!UICONTROL Extension] in Adobe Analytics e nella sezione [!UICONTROL Action Type] a [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL Campaign].
 
 Puoi impostare campaign su un valore o su un parametro di stringa query.
 
 ## s.campaign in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-La `s.campaign` è una stringa che in genere contiene un codice di tracciamento utilizzato nelle attività di marketing. La sua lunghezza massima è di 255 byte; i valori superiori a 255 byte vengono troncati automaticamente quando inviati ad Adobe.
+Il `s.campaign` la variabile è una stringa che in genere contiene un codice di tracciamento utilizzato nelle attività di marketing. La lunghezza massima è di 255 byte; i valori superiori a 255 byte vengono troncati automaticamente quando vengono inviati all&#39;Adobe.
 
 ```js
 // Set the campaign variable to a static value

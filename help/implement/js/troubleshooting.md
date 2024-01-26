@@ -3,10 +3,11 @@ title: Risolvere i problemi relativi all’implementazione JavaScript
 description: Scopri i problemi comuni e le best practice per la risoluzione dei problemi relativi all’implementazione di JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 2%
+source-wordcount: '688'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +44,7 @@ Ad esempio: `s.eVar1 = 'Value'` è valido, mentre `eVar1 = 'Value'` non lo è.
 
 ## Definisci ogni variabile una volta
 
-Quando una funzione di tracciamento (`s.t()`), AppMeasurement prende tutte le variabili definite e le compila in una richiesta di immagine. Se definisci una variabile più di una volta nell’implementazione, viene utilizzato solo il valore più recente. Assicurati che tutti i valori delle variabili contengano il valore corretto quando la funzione di tracciamento viene eseguita.
+Quando una funzione di tracciamento (`s.t()`) viene eseguito, AppMeasurement prende tutte le variabili definite e le compila in una richiesta di immagine. Se definisci una variabile più di una volta nell’implementazione, viene utilizzato solo il valore più recente. Assicurati che tutti i valori delle variabili contengano il valore corretto quando la funzione di tracciamento viene eseguita.
 
 ## Correggi maiuscole/minuscole variabili
 
@@ -51,7 +52,7 @@ Alcune variabili utilizzano lettere maiuscole. Le variabili JavaScript fanno dis
 
 ## Plug-in
 
-Alcune organizzazioni utilizzano i plug-in per migliorare la propria implementazione di Adobe Analytics. Quando aggiorni le versioni di AppMeasurement, non dimenticare di includere nuovamente eventuali plug-in installati. Il codice creato in [!UICONTROL Code Manager] non contiene codice plug-in. Crea una copia del codice esistente nel caso sia necessario ripristinare una versione precedente di AppMeasurement.
+Alcune organizzazioni utilizzano i plug-in per migliorare la propria implementazione di Adobe Analytics. Durante l’aggiornamento delle versioni di AppMeasurement, non dimenticare di includere nuovamente i plug-in installati. Il codice creato in [!UICONTROL Code Manager] non contiene codice plug-in. Crea una copia del codice esistente nel caso sia necessario ripristinare una versione precedente di AppMeasurement.
 
 ## Spazio vuoto nei valori delle variabili
 
@@ -86,27 +87,27 @@ Questi due valori delle variabili sono considerati separati in Adobe Analytics. 
 
 Le implementazioni che popolano molte variabili con valori lunghi a volte possono causare richieste di immagini troncate. Alcuni browser meno recenti, come Internet Explorer, impongono un limite di 2083 caratteri per gli URL di richiesta delle immagini. Se l’organizzazione deve far fronte a richieste di immagini molto lunghe, prova quanto segue:
 
-* **Utilizzare il servizio ID Experience Cloud**: le librerie AppMeasurement 1.4.1 e versioni successive inviano automaticamente le richieste di immagini utilizzando HTTP POST se sono troppo lunghe. I dati inviati con questo metodo non vengono troncati, a prescindere dalla lunghezza. Consulta [Servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) per ulteriori informazioni.
+* **Utilizzare il servizio ID Experience Cloud**: le librerie di AppMeasurement 1.4.1 e versioni successive inviano automaticamente le richieste di immagini utilizzando HTTP POST se sono troppo lunghe. I dati inviati con questo metodo non vengono troncati, a prescindere dalla lunghezza. Consulta [Servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) per ulteriori informazioni.
 * **Utilizzare le regole di elaborazione**: [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) può copiare valori da una variabile a un’altra. Questo metodo evita di impostare lo stesso valore in più variabili. Ad esempio:
 
-   Esegui sempre:<br>
+  Esegui sempre:<br>
 Sovrascrivi il valore di prop1 con eVar1<br>
 Sovrascrivi il valore di eVar2 con eVar1<br>
 Sovrascrivi il valore di prop2 con eVar1<br>
 
-   Quindi imposta eVar1 nella tua implementazione:
+  Quindi imposta eVar1 nella tua implementazione:
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  ```
 
 * **Utilizzare le variabili dinamiche**: se la tua implementazione popola molte variabili con lo stesso valore, puoi utilizzare [variabili dinamiche](/help/implement/vars/page-vars/dynamic-variables.md) per ridurre l’URL della richiesta:
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   s.eVar2 = "D=v1";
-   s.prop1 = "D=v1";
-   s.prop2 = "D=v1";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  s.eVar2 = "D=v1";
+  s.prop1 = "D=v1";
+  s.prop2 = "D=v1";
+  ```
 
 * **Utilizzare le classificazioni**: se i nomi di prodotto o pagina sono insolitamente lunghi, puoi utilizzare un valore o un codice di identificazione, quindi utilizza [classificazioni](/help/components/classifications/c-classifications.md) per visualizzare un nome più descrittivo.

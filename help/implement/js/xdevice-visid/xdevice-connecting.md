@@ -5,10 +5,11 @@ subtopic: Visitors
 title: Connettere gli utenti tra i dispositivi
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 

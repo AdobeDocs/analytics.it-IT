@@ -3,10 +3,11 @@ title: Risoluzione dei problemi relativi alle implementazioni del codice H
 description: Scopri alcuni problemi comuni relativi alle implementazioni legacy di JavaScript.
 feature: Implementation Basics
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
