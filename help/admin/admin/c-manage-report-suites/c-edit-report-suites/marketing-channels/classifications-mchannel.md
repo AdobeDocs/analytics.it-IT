@@ -3,10 +3,11 @@ title: Classificazioni in canali di marketing
 description: Utilizza le classificazioni per categorizzare i valori in gruppi correlati e generare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come Schede video. Puoi quindi generare rapporti sul successo di tale categoria in relazione a metriche quali Istanze (o click-through).
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 12%
+ht-degree: 4%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 12%
 >
 > Per informazioni generali sui canali di marketing, consulta [Introduzione ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Per massimizzare l’efficacia dei canali di marketing per Attribution e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Per massimizzare l’efficacia dei canali di marketing ai fini dell’attribuzione e del Customer Journey Analytics, abbiamo pubblicato alcuni [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Classifications]**.
 

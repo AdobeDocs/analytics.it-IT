@@ -1,12 +1,13 @@
 ---
-description: Opzioni di calendario diverse dal modello gregoriano. Le opzioni includono i modelli di calendario 4-4-5, 4-5-4 e 5-4-4, tutti utilizzati come standard per il settore della vendita al dettaglio. Inoltre, il reporting offre un’opzione per un calendario completamente personalizzabile che puoi impostare autonomamente.
+description: Opzioni di calendario diverse dal modello gregoriano. Le opzioni includono i modelli di calendario 4-4-5, 4-5-4 e 5-4-4, tutti utilizzati come standard per il settore della vendita al dettaglio. Il reporting offre anche un calendario completamente personalizzabile che puoi impostare autonomamente.
 title: Personalizza calendario
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 97%
 
 ---
 

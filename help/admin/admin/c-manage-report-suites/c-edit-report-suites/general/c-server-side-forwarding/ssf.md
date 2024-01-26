@@ -4,10 +4,11 @@ solution: Analytics
 title: Panoramica sull’inoltro lato server
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 89%
+source-wordcount: '795'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +27,7 @@ L’inoltro lato server migliora la raccolta dati perché:
 >Gli attuali clienti di Audience Manager che utilizzano Analytics devono eseguire la migrazione ala funzione di inoltro lato server. I nuovi clienti Adobe Analytics e Audience Manager devono implementare l’inoltro lato server (anziché DIL) come metodo predefinito per la raccolta e il trasferimento dei dati.
 
 >[!IMPORTANT]
->In base al regolamento UE sulla conformità dei cookie, i titolari del trattamento dei dati (clienti Analytics) hanno ora la possibilità di limitare i dati divulgati prima del consenso ad Adobe Analytics e di impedire che vengano inoltrati dal server ad Adobe Audience Manager. Una nuova variabile di contesto dell’implementazione consente di contrassegnare ogni hit per cui non è stato ricevuto il consenso. La variabile, se impostata, impedisce che tali hit vengano inviati a Adobe Audience Manager finché non sia stato ricevuto il consenso. Per ulteriori informazioni, consulta [Conformità RGPD_ePrivacy e inoltro lato server](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
+>In base al regolamento UE sulla conformità dei cookie, i titolari del trattamento dei dati (clienti Analytics) hanno ora la possibilità di limitare i dati divulgati prima del consenso ad Adobe Analytics e di impedire che vengano inoltrati al server a Adobe Audience Manager. Una nuova variabile di contesto dell’implementazione consente di contrassegnare ogni hit per cui non è stato ricevuto il consenso. La variabile, se impostata, impedisce che tali hit vengano inviati a Adobe Audience Manager finché non sia stato ricevuto il consenso. Per ulteriori informazioni, consulta [Conformità RGPD_ePrivacy e inoltro lato server](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Per individuare la posizione della tua organizzazione in termini di implementazione dell’inoltro lato server, segui questi passaggi di convalida:
 

@@ -3,7 +3,7 @@ description: La funzione Rilevamento ricerca a pagamento differenzia le ricerche
 title: Rilevamento di ricerca a pagamento
 feature: Admin Tools
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 [!UICONTROL Paid Search Detection] si distingue dalle ricerche naturali nei rapporti [!UICONTROL Search Engines] e [!UICONTROL Search Keywords]. Puoi specificare i motori di ricerca in cui utilizzi gli annunci a pagamento e specificare una stringa di caratteri trovata nell’URL di una visita da un annuncio a pagamento.
 
-## Opzioni di configurazione {#section_0C2CFA0AF77B47098BE37CB024665D0D}
+## Opzioni di configurazione {#configuration}
 
 Nella tabella seguente sono descritti i campi e le opzioni utilizzati per [configurare il rilevamento di ricerche a pagamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md).
 

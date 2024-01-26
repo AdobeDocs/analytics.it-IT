@@ -4,10 +4,11 @@ subtopic: Marketing channels
 title: Scadenza canale di marketing
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 10%
+source-wordcount: '363'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 10%
 >
 > Per informazioni generali sui canali di marketing, consulta [Introduzione ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Per massimizzare l’efficacia dei canali di marketing per Attribution e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Per massimizzare l’efficacia dei canali di marketing ai fini dell’attribuzione e del Customer Journey Analytics, abbiamo pubblicato alcuni [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Expiration]**.
 

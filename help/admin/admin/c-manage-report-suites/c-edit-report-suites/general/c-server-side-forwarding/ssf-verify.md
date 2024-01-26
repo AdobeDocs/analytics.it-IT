@@ -1,13 +1,14 @@
 ---
-description: Per verificare che l’inoltro lato server sia abilitato correttamente, è necessario controllare la risposta HTTP dalla richiesta di tracciamento di Analytics. Questo può essere fatto utilizzando gli strumenti di sviluppo di un browser o uno strumento proxy come Charles Web Debugger. Le istruzioni seguenti illustrano gli indicatori che devono essere presenti per garantire che l’inoltro lato server sia abilitato correttamente.
+description: Per verificare che l’inoltro lato server sia abilitato correttamente, è necessario controllare la risposta HTTP dalla richiesta di tracciamento di Analytics. Queste istruzioni illustrano gli indicatori che devono essere presenti per garantire che l’inoltro lato server sia abilitato correttamente.
 solution: Analytics
 title: Verificare l’implementazione dell’inoltro lato server
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 84%
+source-wordcount: '235'
+ht-degree: 70%
 
 ---
 
@@ -30,4 +31,3 @@ Per controllare lo stato dell’inoltro lato server:
 >[!MORELIKETHIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)
-

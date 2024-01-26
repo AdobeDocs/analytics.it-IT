@@ -3,9 +3,10 @@ description: Elenco completo e descrizioni delle variabili di configurazione, in
 title: Dati inoltro lato server e codice
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---

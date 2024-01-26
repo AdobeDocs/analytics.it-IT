@@ -3,7 +3,8 @@ description: Procedura per configurare il rilevamento di ricerche a pagamento.
 title: Configurare il rilevamento di ricerche a pagamento
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 90%

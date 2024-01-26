@@ -4,9 +4,10 @@ solution: Analytics
 title: Requisiti per l’inoltro lato server
 feature: Server-Side Forwarding
 exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '295'
 ht-degree: 100%
 
 ---

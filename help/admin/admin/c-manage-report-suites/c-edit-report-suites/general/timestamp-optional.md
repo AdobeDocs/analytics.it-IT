@@ -4,9 +4,10 @@ title: Marca temporale opzionale
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -33,7 +34,7 @@ Marca temporale opzionale consente di:
 
 * Se creata da un modello, una nuova suite di rapporti utilizza per impostazione predefinita Marca temporale opzionale.
 
-   Puoi creare una nuova suite di rapporti da un modello in **Amministratore > Suite di rapporti > Crea nuovo > Suite di rapporti**.
+  Puoi creare una nuova suite di rapporti da un modello in **Amministratore > Suite di rapporti > Crea nuovo > Suite di rapporti**.
 * Se viene copiata da una suite di rapporti esistente, la nuova suite di rapporti eredita l’impostazione relativa alla marca temporale dall’originale, tra cui:
 
    * **Marca temporale non consentita** (impostazione che supporta s.visitorID)

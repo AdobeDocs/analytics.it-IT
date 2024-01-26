@@ -3,9 +3,10 @@ description: Vengono descritti i miglioramenti relativi all’inoltro lato serve
 title: Conformità a RGPD/ePrivacy e inoltro lato server
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '549'
 ht-degree: 59%
 
 ---
@@ -20,7 +21,7 @@ In precedenza, l’inoltro lato server non disponeva di un metodo che permettess
 
 Quando questa nuova variabile di contesto, `cm.ssf=1`, esiste in un hit, questo hit viene contrassegnato e non viene inoltrato lato server a Adobe Audience Manager. Al contrario, se questa stringa non viene visualizzata su un hit, l’hit viene inoltrato a Adobe Audience Manager.
 
-L’inoltro lato server è bidirezionale: se applicato a un hit che viene inoltrato a Adobe Audience Manager, Audience Analytics riceve informazioni sui segmenti per tale hit da Adobe Audience Manager e lo restituisce ad Analytics. Di conseguenza, gli hit non inoltrati sul lato server da Analytics a Adobe Audience Manager non verranno arricchiti con l’elenco degli ID del segmento da Adobe Audience Manager. Pertanto, sarà presente un sottoinsieme di traffico/hit che non riceve informazioni sull’ID del segmento da Adobe Audience Manager.
+L’inoltro lato server è bidirezionale: se applicato a un hit che viene inoltrato a Adobe Audience Manager, Audienci Analytics riceve informazioni sui segmenti per tale hit da Adobe Audience Manager e lo restituisce ad Analytics. Di conseguenza, gli hit non inoltrati sul lato server da Analytics a Adobe Audience Manager non verranno arricchiti con l’elenco degli ID del segmento da Adobe Audience Manager. Pertanto, sarà presente un sottoinsieme di traffico/hit che non riceve informazioni sull’ID del segmento da Adobe Audience Manager.
 
 ## Dettagli di implementazione {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
