@@ -4,9 +4,9 @@ keywords: Suite di rapporti virtuali
 title: Considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 6e9ea48df286b2bde6a071ab3d0f29a764382c6d
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ La condivisione di segmenti su Adobe Experience Cloud non è supportata per le s
 
 Non è ancora possibile pubblicare segmenti in Adobe Experience Cloud da una suite di rapporti virtuale per la personalizzazione e il targeting. A questo scopo, tutti gli utenti che pubblicano segmenti devono accedere alla suite di rapporti di origine. Ad esempio, se desideri che gli utenti abbiano accesso solo ai dati per le loro aree geografiche, vuoi che possano creare e condividere segmenti da Adobe Analytics a Adobe Experience Cloud per il targeting in Adobe Target. In questo caso, l’Adobe consiglia di utilizzare l’assegnazione tag per più suite. Se non ti dispiace se gli utenti hanno accesso alla suite di rapporti globale o se non devi pubblicare segmenti da utilizzare in altre soluzioni, puoi utilizzare le suite di rapporti virtuali.
 
-### Limiti univoci
+### Limiti univoci (traffico ridotto)
 
 Se disponi di una suite di rapporti globale che combina un numero elevato di siti, è possibile che si verifichi l’errore [traffico ridotto](/help/technotes/low-traffic.md) riga frequentemente. Se utilizzi l’assegnazione tag per più suite, si tratta solo di un problema per la suite di rapporti globale (le singole suite di rapporti avrebbero meno probabilità di vedere un traffico ridotto). Se utilizzi suite di rapporti virtuali, vengono condivisi limiti univoci, causando la visualizzazione di traffico ridotto anche nelle singole suite di rapporti. Per evitare di inserire dati in blocchi a traffico ridotto, utilizza l’assegnazione di tag per più suite.
 
-Ad esempio, una grande organizzazione di media possiede 100 proprietà web. Ogni proprietà pubblica qualche migliaio di articoli di notizie mensili, oltre a ospitare tutti gli articoli dei mesi precedenti. Questa organizzazione utilizza una suite di rapporti globale in cui eVar1 è &quot;Nome articolo&quot;. In questo rapporto, ci sono circa 4 milioni di nomi di articolo univoci ogni mese dalle varie proprietà combinate. Se utilizzi una suite di rapporti virtuale, i primi 500.000 valori che costituiscono la maggior parte del traffico sono inclusi nelle suite di rapporti virtuali; i rimanenti 3,5 milioni sono inclusi nella categoria traffico ridotto. Se utilizzi l’assegnazione tag per più suite, ogni singola suite di rapporti può visualizzare i propri valori superiori di 500.000. I limiti univoci della suite di rapporti globale sono gli stessi tra l’utilizzo di tag multisuite e le suite di rapporti virtuali.
+Ad esempio, una grande organizzazione di media possiede 100 proprietà web. Ogni proprietà pubblica qualche migliaio di articoli di notizie mensili, oltre a ospitare tutti gli articoli dei mesi precedenti. Questa organizzazione utilizza una suite di rapporti globale in cui eVar1 è &quot;Nome articolo&quot;. Supponiamo che in questo rapporto ci siano circa 5 milioni di nomi di articolo univoci ogni mese dalle varie proprietà combinate. Se utilizzi una suite di rapporti virtuale, solo una parte dei 5 milioni di valori sarà inclusa nella suite di rapporti virtuale. I rimanenti sono inclusi in modalità a traffico ridotto. Se utilizzi l’assegnazione tag per più suite, ogni singola suite di rapporti può visualizzare il proprio set di valori univoci.
 
-L’Assistenza clienti di Adobe può aumentare i limiti di valore univoci per un numero limitato di dimensioni, eliminando completamente questo problema. Per ulteriori informazioni, consulta il team del tuo account e l’Assistenza clienti.
+L’Assistenza clienti di Adobe a volte può aumentare i limiti di valore univoci per un numero limitato di dimensioni, eliminando completamente questo problema. Per ulteriori informazioni, consulta il team del tuo account e l’Assistenza clienti.
 
 ### Variabili condivise tra suite di rapporti
 
