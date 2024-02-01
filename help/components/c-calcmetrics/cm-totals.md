@@ -3,14 +3,14 @@ title: Totali delle metriche calcolate
 description: Scopri i totali delle metriche calcolate in Analysis Workspace
 feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '143'
 ht-degree: 2%
 
 ---
 
-# Totali delle metriche calcolate [!DNL Analysis Workspace]
+# Totali delle metriche calcolate in Analysis Workspace
 
 Nella maggior parte dei casi, quando visualizzi i dati in Analysis Workspace, vengono visualizzati i totali delle metriche calcolate. In alcuni casi non è possibile fornire un totale, ad esempio quando le righe del rapporto sono in formato misto (ad esempio decimale e valuta).
 

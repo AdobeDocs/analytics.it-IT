@@ -3,14 +3,14 @@ title: Requisiti di sistema di Adobe Analytics
 description: Requisiti di sistema per l’utilizzo di Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 90%
 
 ---
 
-# Requisiti di sistema di Adobe Analytics e prerequisiti
+# Requisiti di sistema e prerequisiti di Adobe Analytics
 
 Prima di iniziare a implementare Adobe Analytics come amministratore o di utilizzarlo come analista o utente finale, è necessario conoscere i seguenti prerequisiti e requisiti di sistema:
 
@@ -20,13 +20,11 @@ Prima di poter utilizzare Adobe Analytics, è necessario disporre di:
 
 * Una licenza di Adobe Analytics valida
 
-  Adobe Analytics richiede una licenza di sito. Per ulteriori informazioni, contatta il rappresentante del tuo account Adobe. <!--is this phrased correctly? Is this important? -->
+  Adobe Analytics richiede una licenza di sito. Per ulteriori informazioni, contatta il tuo Account Manager Adobe.
 
 * Un browser supportato
 
   Ogni utente che accede ad Adobe Analytics deve utilizzare un browser supportato. Per ulteriori informazioni, consulta [Requisiti di sistema di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=it).
-
-<!-- are there more? -->
 
 ## Requisiti di sistema
 
@@ -41,13 +39,9 @@ La maggior parte delle soluzioni Adobe Analytics, incluso Analysis Workspace, è
 * Mozilla Firefox
 * Apple Safari
 
->[!NOTE]
->
->Adobe ha terminato il supporto per Internet Explorer 11 all’interno di Adobe Analytics il 13 novembre 2018.
-
 ### Requisiti di sistema per soluzioni non basate su browser
 
 Consulta la pagina della soluzione collegata per i requisiti di sistema di quella soluzione.
 
-* [Report Builder Requisiti di sistema](/help/analyze/report-builder/setup/system-requirements.md)
-* [Requisiti di sistema di Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=it)
+* [Requisiti Report Builder di sistema](/help/analyze/report-builder/setup/system-requirements.md)
+

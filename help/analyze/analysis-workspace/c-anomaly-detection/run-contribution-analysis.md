@@ -4,7 +4,7 @@ title: Eseguire l’analisi dei contributi
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 L’[analisi dei contributi](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) è un potente processo di machine learning progettato per individuare i fattori che contribuiscono a un’anomalia osservata in Adobe Analytics. Questa funzione è utile per individuare aree di interesse o opportunità per ulteriore analisi, in modo molto più rapido di quanto sarebbe altrimenti possibile.
 
-## Eseguire l’analisi dei contributi {#section_7D2C5E48A5664727941DF4C90976D9DC}
+## Eseguire l’analisi dei contributi {#run}
 
 In un progetto, è possibile invocare l’analisi dei contributi in due modi:
 
@@ -31,7 +31,7 @@ In un progetto, è possibile invocare l’analisi dei contributi in due modi:
 
   ![](assets/contribution-analysis.png)
 
-1. (Facoltativo) Dopo aver fatto clic su **[!UICONTROL Run Contribution Analysis]** nel grafico a linee o in una tabella, puoi restringere l’ambito dell’analisi (e quindi velocizzarla) [escludendo alcune dimensioni](#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Facoltativo) Dopo aver fatto clic su **[!UICONTROL Run Contribution Analysis]** nel grafico a linee o in una tabella, puoi restringere l’ambito dell’analisi (e quindi velocizzarla) [escludendo alcune dimensioni](#exclude).
 
 1. Attendi che venga caricata l’analisi dei contributi. Il tempo richiesto dipende dalla dimensione della suite per rapporti e dal numero di dimensioni, e potrebbe essere piuttosto lungo. L’analisi dei contributi viene eseguita su 50.000 elementi per dimensione.
 1. Analysis Workspace carica quindi un nuovo pannello Analisi contributi direttamente all’interno di questo progetto.
@@ -56,7 +56,7 @@ In un progetto, è possibile invocare l’analisi dei contributi in due modi:
 >
 >Un punto blu evidenzia l’anomalia nell’analisi dei contributi e nei relativi progetti di avvisi intelligenti. Questo offre un’indicazione più chiara dell’anomalia analizzata.
 
-## Escludere alcune dimensioni dall’analisi dei contributi {#section_F6932F4BF74544B5872164E7B1E0C6FC}
+## Escludere alcune dimensioni dall’analisi dei contributi {#exclude}
 
 In alcune situazioni può essere utile escludere delle dimensioni dall’analisi dei contributi. Ad esempio, se non ti interessano le dimensioni relative a browser o hardware, puoi escluderle per velocizzare l’analisi.
 

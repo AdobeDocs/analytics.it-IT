@@ -3,10 +3,10 @@ description: Il sistema intelligente di avvisi offre un controllo più granulare
 title: Avvisi intelligenti
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 58%
+source-wordcount: '512'
+ht-degree: 41%
 
 ---
 
@@ -44,39 +44,37 @@ Esistono tre modi per accedere al generatore di avvisi:
   ![](assets/create-alert-from-selection.png)
 
 
-## Domande frequenti: Modalità di calcolo e attivazione degli avvisi {#trigger}
+## Domande frequenti: come vengono calcolati e attivati gli avvisi {#trigger}
 
 Le soglie espresse in % rappresentano le deviazioni standard. Ad esempio, 95% = 2 deviazioni standard e 99% = 3 deviazioni standard. A seconda della granularità temporale scelta, [diversi modelli](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) vengono utilizzati per calcolare lo scarto (ossia il numero di deviazioni standard) tra ciascun punto dati e il valore di norma. Impostando un valore di soglia basso (ad esempio 90%), si ottengono più anomalie rispetto a quando si imposta un valore superiore (99%). Sono state introdotte soglie del 99,75% e del 99,99% specificamente per la granularità oraria in modo da non attivare tutte le anomalie.
 
-<table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Domanda </th> 
-   <th colname="col2" class="entry"> Risposta </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>D: Quale intervallo di tempo passato può prendere in considerazione il processo di rilevamento delle anomalie per stabilire eventuali anomalie nei dati?</b> </p> </td> 
-   <td colname="col2"> <p>Il periodo di rilevamento varia in base al tipo di granularità selezionato. Consulta Tecniche di statistica utilizzate in <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Rilevamento delle anomalie</a> per maggiori dettagli. Segue un breve riepilogo: </p> 
-    <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
-     <li id="li_E246091A3F1E484C8444AF4052FCA784">Mensile = 15 mesi + lo stesso intervallo relativo allo scorso anno </li> 
-     <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Settimanale = 15 settimane + lo stesso intervallo relativo allo scorso anno </li> 
-     <li id="li_2517EE2097534324BE9C1B54CD181A62">Giornaliero = 35 giorni + lo stesso intervallo relativo allo scorso anno </li> 
-     <li id="li_710BC8B009354542AA4962A59A646099">Orario = 336 ore </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>D: Per ricevere avvisi relativi esclusivamente a cali o picchi di comportamento, si può utilizzare la funzione anomalie o è necessario usare il valore assoluto?</b> </p> </td> 
-   <td colname="col2"> <p>L’utilizzo del valore assoluto non risolve il problema, in quanto verrebbero sempre attivati gli avvisi relativi a cali e picchi. Non è possibile limitare gli avvisi ai soli cali o soli picchi. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>D: È possibile configurare gli avvisi in modo tale che si attivino solo in determinate ore del giorno (ad esempio, durante l’orario di lavoro o nelle ore non lavorative)? </b> </p> </td> 
-   <td colname="col2"> <p>Al momento non è possibile. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>D: Posso ottenere una tabella dei "valori previsti" che compongono la linea punteggiata, o una sorta di output di quali sono tali valori? </b> </p> </td> 
-   <td colname="col2"> <p>Non in Workspace, ma in Report Builder (guarda questo video su <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  > Rilevamento delle anomalie nel Report Builder </a>). </p> <p>Tieni presente che il Report Builder si avvale di metodi di rilevamento delle anomalie meno sofisticati. Utilizza un periodo di formazione fisso di 30 giorni, con un intervallo fisso del 95%. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Quanto indietro nel tempo va il rilevamento delle anomalie dell&#39;avviso per determinare le anomalie nei dati?
+
+Il periodo di rilevamento varia in base al tipo di granularità selezionato. Consulta Tecniche di statistica utilizzate in <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Rilevamento delle anomalie</a> per maggiori dettagli. Segue un breve riepilogo:
+
+* Mensile = 15 mesi + lo stesso intervallo relativo allo scorso anno
+* Settimanale = 15 settimane + lo stesso intervallo relativo allo scorso anno
+* Giornaliero = 35 giorni + lo stesso intervallo relativo allo scorso anno
+* Orario = 336 ore
+
++++
+
++++ Per essere avvisato solo di un calo del comportamento o solo di un picco nel comportamento, posso utilizzare la funzione di anomalia o devo utilizzare un valore assoluto?
+
+L’utilizzo del valore assoluto attiverebbe comunque gli avvisi sui ribassi e sui picchi. Non è possibile limitare gli avvisi ai soli cali o soli picchi.
+
++++
+
++++ È possibile configurare gli avvisi in modo che vengano attivati solo durante determinate ore della giornata (ad esempio l’orario di lavoro rispetto a quello non di ufficio)?
+
+Al momento non è possibile.
+
++++
+
++++ Posso ottenere una tabella dei &quot;valori previsti&quot; che compongono la linea punteggiata, o una sorta di output dei valori?
+
+Non in Workspace, ma in Report Builder. Consulta [questo video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html) sul rilevamento delle anomalie nel Report Builder.
+
+Tieni presente che il Report Builder si avvale di metodi di rilevamento delle anomalie meno sofisticati. Utilizza un periodo di formazione fisso di 30 giorni, con un intervallo fisso del 95%.
+
++++

@@ -3,10 +3,10 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 94%
+source-wordcount: '1155'
+ht-degree: 92%
 
 ---
 
@@ -55,7 +55,7 @@ Le **[origini dati](/help/import/data-sources/overview.md)** sono utili nei se
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** è indicato nei seguenti casi:
 
-* Quando devi caricare dei dati in Adobe Analytics e non puoi usare il codice di Adobe AppMeasurement o Mobile SDK.
+* Quando devi caricare dati in Adobe Analytics e non puoi utilizzare il codice Adobe AppMeasurement o Mobile SDK. È consigliabile utilizzare l’API di inserimento dati in blocco (vedi di seguito).
 
 **[API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 

@@ -3,10 +3,11 @@ title: Configurare Analytics tra dispositivi
 description: Configura una suite di rapporti virtuale per abilitare CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 7%
+source-wordcount: '529'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +19,7 @@ Una volta soddisfatti tutti i prerequisiti, procedi come segue per abilitare Cro
 >
 >Prima di seguire questi passaggi, è necessario soddisfare tutti i prerequisiti. Se non vengono soddisfatti tutti i prerequisiti, la funzione non è disponibile o non funzionerà. Consulta la [pagina panoramica](overview.md) e il metodo di unione desiderato ([Unione basata sui campi](field-based-stitching.md) o [Device Graph](device-graph.md), rispettivamente) per prerequisiti e limitazioni.
 
-## Apri un ticket con l’Assistenza clienti per richiedere il provisioning di CDA per la suite di rapporti tra dispositivi
+## 1. Apri un ticket con l’Assistenza clienti per richiedere il provisioning di CDA per la suite di rapporti tra dispositivi
 
 Il provisioning di CDA nella suite di rapporti per più dispositivi viene eseguito da tecnici Adobi. Per avviare questo processo, contatta l’Assistenza clienti e preparati a fornire le seguenti informazioni:
 
@@ -26,12 +27,12 @@ Il provisioning di CDA nella suite di rapporti per più dispositivi viene esegui
 * ID suite di rapporti per la suite di rapporti multi-dispositivo che desideri abilitare con CDA
 * Metodo CDA da utilizzare (unione basata sui campi o grafico dei dispositivi di Adobe)
 * Se intendi utilizzare l’unione basata sui campi, proprietà o eVar contenente l’ID utente
-* Preferenza di ripetizione frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, o una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.
+* Preferenza di ripetizione frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, oppure una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.
 L’impostazione predefinita è la riproduzione settimanale con intervallo di lookback di 7 giorni. In questo caso, i dati dell’ultima settimana sono soggetti a modifiche (in quanto vengono progressivamente uniti e aggiornati).
 
 Una volta fornite all’Assistenza clienti queste informazioni, collaboreranno con il team di progettazione Adobe per abilitare la suite di rapporti scelta per l’elaborazione CDA.
 
-## Creare una suite di rapporti virtuale per più dispositivi per visualizzare la vista cross-device
+## 2. Crea una suite di rapporti virtuali tra dispositivi per visualizzare la vista tra dispositivi
 
 Gli amministratori con accesso per creare suite di rapporti virtuali possono creare suite di rapporti virtuali CDA come segue:
 

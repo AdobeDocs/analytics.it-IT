@@ -4,9 +4,9 @@ title: Panoramica reportistica in tempo reale
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '590'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,7 @@ Il reporting in tempo reale visualizza il traffico della pagina web e classifica
 >
 >Il rapporto in tempo reale non richiede alcuna implementazione o assegnazione di tag aggiuntivi. Sfrutta l’implementazione esistente di Adobe Analytics. Per configurare i rapporti in tempo reale, consulta [Configurazione rapporti in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-## Accedere al reporting in tempo reale
+## Accedere ai rapporti in tempo reale
 
 1. In Analysis Workspace, seleziona la [!UICONTROL **Workspace**] scheda.
 
@@ -53,7 +53,7 @@ Tieni presente che le eVar (metriche di conversione) non sono supportate, in qua
 
 L&#39;impostazione e la visualizzazione di rapporti in tempo reale è riservata agli amministratori o a qualsiasi utente dei gruppi di autorizzazione &quot;Accesso a tutti i rapporti&quot; e &quot;Generazione avanzata di rapporti&quot;. Tuttavia, Real-Time rispetta le autorizzazioni. Se, ad esempio, non disponi dei diritti per visualizzare i ricavi, non potrai visualizzare un rapporto in tempo reale che includa i dati sui ricavi.
 
-## Latenza dei dati come risultato della configurazione A4T {#section_806CE36354FC4C539A0DED9266A5C704}
+## Latenza dei dati come risultato della configurazione A4T {#latency-a4t}
 
 Dopo che l’integrazione A4T è abilitata in Adobe [!DNL Target], si verifica una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento di latenza consente di ottenere dati da Analytics e [!DNL Target] per essere memorizzato sullo stesso hit, consentendo di suddividere i test per pagina e sezione del sito.
 

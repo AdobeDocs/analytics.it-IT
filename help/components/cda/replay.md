@@ -3,10 +3,11 @@ title: Funzionamento delle riproduzioni
 description: Comprendere il concetto di "ripetizione" in Analytics tra dispositivi
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 15%
+source-wordcount: '649'
+ht-degree: 16%
 
 ---
 
@@ -27,7 +28,7 @@ Non appena viene raccolto un hit, CDA tenta di unirlo ai dispositivi noti. Prend
 
 *Dati visualizzati nel giorno in cui vengono raccolti:*
 
-| Marca temporale | ECID | eVar1 o CustomerID | Spiegazione dell’hit | Metrica delle persone (cumulativa) utilizzo di Device Graph | Metrica delle persone (cumulativa) con unione basata sui campi |
+| Marca temporale | ECID | eVar1 o CustomerID | Spiegazione dell’hit | Metrica delle persone (cumulativa) con Device Graph | Metrica delle persone (cumulativa) con unione basata sui campi |
 | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sul suo computer desktop, non autenticato | `1` (246) | `1` (246) |
 | `2` | `246` | `Bob` | Bob accede al desktop | `1` (246) | `2` (246 e Bob) |
@@ -64,7 +65,7 @@ Se un dispositivo invia inizialmente i dati mentre non è autenticato e poi effe
 
 *Gli stessi dati dopo la ripetizione:*
 
-| Marca temporale | ECID | eVar1 o CustomerID | Spiegazione dell’hit | Metrica delle persone (cumulativa) utilizzo di Device Graph | Metrica delle persone (cumulativa) con unione basata sui campi |
+| Marca temporale | ECID | eVar1 o CustomerID | Spiegazione dell’hit | Metrica delle persone (cumulativa) con Device Graph | Metrica delle persone (cumulativa) con unione basata sui campi |
 | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sul suo computer desktop, non autenticato | `1` (Cluster1) | `1` (Bob) |
 | `2` | `246` | `Bob` | Bob accede al desktop | `1` (Cluster1) | `1` (Bob) |

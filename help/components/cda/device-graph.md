@@ -3,10 +3,11 @@ title: Device Graph
 description: Comprendi i prerequisiti e le limitazioni dell’unione di dati utilizzando il grafico dei dispositivi.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 7%
+source-wordcount: '296'
+ht-degree: 3%
 
 ---
 
