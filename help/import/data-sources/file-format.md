@@ -3,10 +3,11 @@ title: Formato del file di origine dati
 description: Genera correttamente un file da utilizzare nelle origini dati.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 6%
+source-wordcount: '533'
+ht-degree: 5%
 
 ---
 

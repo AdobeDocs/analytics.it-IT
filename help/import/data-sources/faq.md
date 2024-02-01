@@ -3,10 +3,11 @@ title: Domande frequenti sulle origini dati
 description: Domande frequenti sulle origini dati.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 7%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 

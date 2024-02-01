@@ -3,9 +3,10 @@ title: Carica file origini dati in Adobe
 description: Processo per caricare un file di origini dati in Adobe Analytics per l’acquisizione.
 exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---

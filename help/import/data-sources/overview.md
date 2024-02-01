@@ -3,9 +3,10 @@ title: Panoramica sulle origini dati
 description: Importa dati in Adobe Analytics utilizzando file esterni.
 exl-id: 5ec8bc51-dfd2-497c-aebc-a32d87efc97e
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---

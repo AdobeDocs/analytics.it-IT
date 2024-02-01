@@ -3,9 +3,9 @@ title: Importare metriche di ricerca a pagamento
 description: Passaggi per configurare Adobe Analytics per tenere traccia delle metriche di ricerca a pagamento (ad esempio, Google AdWords, MSN, Yahoo, ecc.) utilizzo di Origini dati.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1100'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ Per molte organizzazioni di marketing, la ricerca a pagamento è uno dei modi pi
 
 Questi passaggi mostrano come configurare un’integrazione con AdWords per importare i dati delle parole chiave, nonché metriche quali impression, clic, costo per clic e altro ancora.
 
-Nei passaggi viene illustrato come impostare un&#39;importazione unica dei dati Pay-Per-Click. Tuttavia, [!UICONTROL Data Sources] consente l’importazione continua di dati utilizzando il formato di file descritto qui. A seconda della piattaforma di ricerca a pagamento, puoi pianificare esportazioni periodiche (giornaliere, mensili ecc.), impostare processi automatizzati per trasformare tali esportazioni nel formato di file richiesto da Adobe Analytics e caricare tali file in Adobe Analytics per i rapporti sull’integrazione della ricerca a pagamento.
+I passaggi spiegano come impostare un’importazione una tantum di dati pay-per-click. Tuttavia, [!UICONTROL Data Sources] consente l’importazione continua di dati utilizzando il formato di file descritto qui. A seconda della piattaforma di ricerca a pagamento, puoi pianificare esportazioni periodiche (giornaliere, mensili ecc.), impostare processi automatizzati per trasformare tali esportazioni nel formato di file richiesto da Adobe Analytics e caricare tali file in Adobe Analytics per i rapporti sull’integrazione della ricerca a pagamento.
 
 ## Prerequisiti
 
@@ -58,7 +58,7 @@ Dovresti ricevere un messaggio che informa che i tuoi salvataggi sono stati appr
    ![Origini dati](assets/data-sources.png)
 
 1. Sotto **[!UICONTROL Select Type]**, seleziona **[!UICONTROL Generic Pay-Per-Click Service]**.
-1. Fai clic su **[!UICONTROL Activate]** (Usa modello di attribuzione non predefinito).
+1. Clic **[!UICONTROL Activate]**.
 Il [!UICONTROL Data Source Activation Wizard] visualizza:
 
    ![Attivazione guidata](assets/ds-activation-wizard.png)

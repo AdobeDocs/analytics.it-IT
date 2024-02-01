@@ -3,16 +3,17 @@ title: Gestione delle origini dati
 description: Naviga nell’interfaccia di gestione delle origini dati.
 exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
 # Gestione delle origini dati
 
-Utilizzare Gestione origini dati per creare, modificare o disattivare origini dati. È inoltre possibile utilizzare questa interfaccia per tenere traccia dello stato dei file caricati nei percorsi FTP delle origini dati.
+Utilizza Gestione origini dati per creare, modificare o disattivare le origini di dati. È possibile inoltre utilizzare questa interfaccia per tracciare lo stato dei file caricati nelle posizioni FTP di origini di dati.
 
 **[!UICONTROL Admin]** > **[!UICONTROL All Admin]** > **[!UICONTROL Data sources]**
 
@@ -24,7 +25,7 @@ A questa interfaccia sono disponibili tre schede principali: **[!UICONTROL Manag
 
 Il **[!UICONTROL Manage]** La scheda gestisce tutte le origini dati create dall’organizzazione. È possibile visualizzare le informazioni FTP, apportare modifiche alle variabili utilizzate nei file modello o disattivare completamente le origini dati.
 
-![Gestire i  ](assets/manage.png)
+![Gestisci](assets/manage.png)
 
 L’origine dati più in alto è sempre [!UICONTROL Web Beacon]. Questa origine dati è ciò che si utilizza per la tipica raccolta dati tramite AppMeasurement. Non può essere modificato o disattivato.
 
@@ -49,7 +50,7 @@ Una volta che un’origine dati riceve i dati, viene visualizzata una tabella co
 
 Il **[!UICONTROL Create]** Questa scheda ti offre un punto di partenza per la procedura guidata di creazione delle origini dati.
 
-![Creazione](assets/create.png)
+![Crea](assets/create.png)
 
 La categoria e il tipo di origine dati erano più importanti nelle versioni precedenti di Adobe Analytics. Tuttavia, hanno ancora un uso limitato:
 
@@ -73,6 +74,6 @@ Il **[!UICONTROL File Log]** Questa scheda offre una visualizzazione aggregata d
 * **[!UICONTROL Filename]**: nome del file caricato.
 * **[!UICONTROL Rows]**: numero totale di righe nel file.
 * **[!UICONTROL Errors]**: numero di righe contenenti errori.
-* **[!UICONTROL Warnings]**: Non più utilizzato. Numero di righe contenenti avvisi.
+* **[!UICONTROL Warnings]**: non più utilizzato. Numero di righe contenenti avvisi.
 * **[!UICONTROL Received]**: data e ora di inizio dell’elaborazione del file da parte dell’Adobe.
 * **[!UICONTROL Status]**: stato del file (`Success` o `Failed`).

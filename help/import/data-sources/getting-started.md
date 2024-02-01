@@ -3,16 +3,17 @@ title: Guida introduttiva alle origini dati
 description: Carica dati di esempio in una suite di rapporti per lo sviluppo.
 exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 1%
+source-wordcount: '645'
+ht-degree: 0%
 
 ---
 
 # Guida introduttiva alle origini dati
 
-Puoi seguire questi passaggi per caricare facilmente i dati di esempio in una suite di rapporti per lo sviluppo per visualizzare il flusso di lavoro in azione. Una volta compreso il processo, puoi espanderlo e personalizzarlo in base all’implementazione della tua organizzazione.
+Puoi seguire questi passaggi per caricare facilmente i dati di esempio in una suite di rapporti per lo sviluppo per visualizzare il flusso di lavoro in azione. Una volta compreso il processo, puoi espanderlo e adattarlo in modo specifico all’implementazione della tua organizzazione.
 
 >[!IMPORTANT]
 >
@@ -53,7 +54,7 @@ Puoi seguire questi passaggi per caricare facilmente i dati di esempio in una su
    09/07/YYYY/15/59/00    Another data source value    18
    ```
 
-1. Salvate il file. Facoltativamente, puoi assegnargli un nome file diverso, se lo desideri. Una volta salvato il file, puoi chiudere l’editor di testo.
+1. Salva il file. Facoltativamente, puoi assegnargli un nome file diverso, se lo desideri. Una volta salvato il file, puoi chiudere l’editor di testo.
 1. In Esplora risorse, nel Finder o nel client FTP desiderato, passare a [ftp://ftp.omniture.com](ftp://ftp.omniture.com).
 1. Quando vengono richieste le credenziali di accesso, utilizzare il nome utente e la password forniti nell&#39;ultimo passaggio della procedura guidata di creazione dell&#39;origine dati. Puoi fare nuovamente riferimento a essa navigando su [!UICONTROL Data sources] e clic **[!UICONTROL FTP Info]** accanto all&#39;origine dati creata.
 1. Dopo aver eseguito l&#39;autenticazione, trascinare il file modificato nella finestra FTP autenticata.

@@ -3,10 +3,11 @@ title: Fine del ciclo di vita delle origini dati a elaborazione completa
 description: Ulteriori informazioni sull’annuncio della fine del ciclo di vita per le origini dati a elaborazione completa.
 exl-id: 7dd6d518-156f-4bf5-86cb-04d0acc8ff0c
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 7%
+source-wordcount: '369'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +38,7 @@ Le seguenti variabili sono state introdotte nell’inserimento di dati in blocco
 * **`ipaddress`**: indirizzo IP del visitatore.
 * **`language`**: Il [Lingua](/help/components/dimensions/language.md) dimensione.
 * **`list1`** - **`list3`**: [Variabili elenco](/help/implement/vars/page-vars/list.md).
-* **`marketingCloudVisitorID`**: L’Experience Cloud ID del visitatore.
+* **`marketingCloudVisitorID`**: ID Experience Cloud del visitatore.
 * **`tnta`**: payload di dati di destinazione utilizzato in [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it) integrazioni.
 * **`trackingServer`**: Il [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variabile.
 * **`transactionID`**: Il [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variabile.
