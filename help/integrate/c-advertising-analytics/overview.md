@@ -1,16 +1,16 @@
 ---
-description: Scopri tutto quello che puoi fare con Advertising Analytics in questa guida dettagliata, comprese le autorizzazioni necessarie e le dimensioni e le metriche disponibili.
-title: Guida ad Advertising Analytics
+description: Scopri tutto quello che puoi fare con Advertising Analytics, comprese le autorizzazioni richieste e le dimensioni e le metriche disponibili.
+title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1170'
 ht-degree: 88%
 
 ---
 
-# Guida ad Advertising Analytics
+# Advertising Analytics
 
 Advertising Analytics consente di vedere affiancati i dati Paid Search di Google e di Bing in Adobe Analytics. In precedenza, qualsiasi dato di Google AdWords/DFA o Microsoft Bing Ads doveva essere visualizzato in Adobe Advertising Cloud (AMO) o su Google/Bing. Ora puoi ottenere i seguenti dati in Adobe Analytics: impression, clic, costi direttamente dai motori di ricerca e istanze AMO ID (Istanze di clic). Il punteggio di qualità e le posizioni medie non vengono più raccolti poiché Google ha dichiarato queste metriche obsolete a settembre 2019.
 
@@ -27,19 +27,16 @@ Questa integrazione è destinata ai seguenti tipi di pubblico:
 * L’**analista** incaricato di raccogliere i rapporti sulle prestazioni per l’esperto di Paid Search Marketing.
 * L’**esperto di Paid Search Marketing** che cerca le risposte alle seguenti domande: quanto traffico sto inviando al sito? I clienti si stanno convertendo? Quali sono le mie campagne pubblicitarie più redditizie?
 
-## Prerequisiti {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
+## Prerequisiti {#prerequisites}
 
 * Advertising Analytics è disponibile solo per gli SKU di Adobe Analytics [Select](https://www.adobe.com/it/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/it/data-analytics-cloud/analytics/prime.html) e [Ultimate](https://www.adobe.com/it/data-analytics-cloud/analytics/ultimate.html).
-
 * Questa funzionalità è disponibile per chi non è cliente Advertising Cloud e AMO.
-* Per accedere ad Advertising Analytics devi essere un amministratore di Adobe Analytics. Successivamente puoi [concedere autorizzazioni di accesso](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) agli utenti non amministratori.
+* Per accedere ad Advertising Analytics devi essere un amministratore di Adobe Analytics. Successivamente puoi [concedere autorizzazioni di accesso](/help/integrate/c-advertising-analytics/overview.md#permissions) agli utenti non amministratori.
 * Per ogni suite di rapporti in cui desideri visualizzare i dati di ricerca Google/Bing, devi [abilitare la/le suite di rapporti per Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
-
 * È necessario disporre di credenziali di accesso per utenti con autorizzazioni di modifica per gli account di ricerca che si desidera integrare con Adobe Analytics, ad esempio l’ID e la password di un account Google.
 * Nel caso di Bing Ads, è necessario anche l’ID cliente Bing.
-* Se si utilizza Internet Explorer 11 (o versioni precedenti) non si riuscirà a [impostare un account per annunci](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) per nessuno dei tre motori di ricerca. Usa altri browser web.
 
-## Autorizzazioni Advertising Analytics {#section_FCC58EB635954A32990D4E67B52B4369}
+## Autorizzazioni Advertising Analytics {#permissions}
 
 Analytics dispone di due autorizzazioni che vengono concesse automaticamente agli amministratori di Analytics. Gli amministratori possono quindi scegliere di concedere queste autorizzazioni agli utenti non amministratori.
 
@@ -68,11 +65,11 @@ Analytics dispone di due autorizzazioni che vengono concesse automaticamente agl
  </tbody> 
 </table>
 
-## Dimension e metriche di Advertising Analytics {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
+## Dimension e metriche di Advertising Analytics {#dimensions-metrics}
 
 Advertising Analytics aggiunge le dimensioni e metriche seguenti ad Analysis Workspace, Report Builder e all’API di reporting di Analytics.
 
-**Dimensioni**
+### Dimensioni
 
 >[!IMPORTANT]
 >
@@ -101,7 +98,7 @@ Advertising Analytics aggiunge le dimensioni e metriche seguenti ad Analysis Wor
 | Ottimizzazione (AMO ID) | Questa dimensione non viene utilizzata da Advertising Analytics, ma solo dai clienti di Advertising Cloud. |
 | Dispositivo (AMO ID) | Non è in uso al momento. È un segnaposto per un potenziale miglioramento futuro del prodotto per il tipo di dispositivo di destinazione indicato dell’annuncio (ad es. mobile, desktop), non il dispositivo effettivo del visitatore. |
 
-**Metriche**
+### Metriche
 
 >[!IMPORTANT]
 >
