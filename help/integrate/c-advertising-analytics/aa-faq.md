@@ -3,9 +3,9 @@ description: Domande frequenti su Advertising Analytics.
 title: Domande frequenti per l’analisi della pubblicità
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 591b82e271cc7474e9b413015804d4fe37d9050c
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1297'
 ht-degree: 1%
 
 ---
@@ -161,29 +161,18 @@ No, al momento non abbiamo piani per questi altri canali nella roadmap.
 
 ## Tracciamento automatico e manuale {#section_7437C4698A6D482EB7ED94A948390119}
 
-<table id="table_9738FF8459574ED2937A860A665BE739"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Domanda </th> 
-   <th colname="col2" class="entry"> Risposta </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>D: Quando configuro il mio account Advertising, indica che<b> Tracciamento automatico</b> può portare a conseguenze indesiderate. Che tipo di conseguenze possono verificarsi? </p> </td> 
-   <td colname="col2"> <p>R: 
-     <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
-      <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">La modalità automatica tenta di aggiungere i parametri URL alla fine dei modelli di tracciamento o degli URL di destinazione nel formato corretto. <b>Tuttavia, è tua responsabilità verificare che i parametri URL aggiunti persistano correttamente nella pagina di destinazione finale. </b> </li> 
-      <li id="li_1202FE1FC88342378A60E8FE65E5426B">La modalità automatica può inserire parole chiave nell’URL di destinazione e il server web potrebbe non supportare parole chiave con caratteri speciali. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>D: Se si imposta la registrazione manuale o automatica inizialmente, <b>posso cambiare</b> all’altra modalità di tracciamento in un secondo momento? Quali sono le implicazioni? </p> </td> 
-   <td colname="col2"> <p>R: Sì, puoi passare, ma prima di effettuare il passaggio dovrai rimuovere la vecchia logica di tracciamento. Ciò può comportare tempi di inattività del tracciamento nel giorno in cui viene effettuato il passaggio (specialmente se si passa da manuale a automatico). Di conseguenza, si consiglia di non cambiare se non in caso di assoluta necessità. </p> 
-    <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 
-     <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>Passaggio da manuale ad automatico</b>: rimuovi le aggiunte manuali ai modelli di tracciamento, quindi cambia l’opzione nell’interfaccia utente di Advertising Analytics da manuale a automatica e salva l’impostazione. Potrebbero essere necessarie fino a x ore affinché il sistema possa compilare i codici di tracciamento automatico. </li> 
-     <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>Passaggio da automatico a manuale</b>: aggiorna il passaggio da manuale ad automatico nell’interfaccia utente di configurazione di Advertising Analytics, quindi distribuisci i codici di tracciamento manuali il più rapidamente possibile. Durante la distribuzione dei codici di tracciamento manuali, rimuovili se nei modelli di tracciamento dei motori di ricerca trovi i codici di tracciamento automatici. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Quando si configura il mio account Advertising, viene indicato che<b> Tracciamento automatico</b> può portare a conseguenze indesiderate. Che tipo di conseguenze possono verificarsi?
+
+La modalità automatica tenta di aggiungere i parametri URL alla fine dei modelli di tracciamento o degli URL di destinazione nel formato corretto. <b>Tuttavia, è tua responsabilità verificare che i parametri URL aggiunti persistano correttamente nella pagina di destinazione finale. La modalità automatica può inserire parole chiave nell’URL di destinazione e il server web potrebbe non supportare parole chiave con caratteri speciali.
+
++++
+
++++ Se inizialmente si imposta il rilevamento manuale o automatico, è possibile passare successivamente all&#39;altra modalità di rilevamento? Quali sono le implicazioni?
+
+Sì, è possibile cambiare le modalità di tracciamento, ma è necessario rimuovere la vecchia logica di tracciamento prima di effettuare il passaggio. Ciò può comportare tempi di inattività del tracciamento nel giorno in cui viene effettuato il passaggio (specialmente se si passa da manuale a automatico). Pertanto, si consiglia di non cambiare se non in caso di assoluta necessità.
+
+* Passaggio da manuale ad automatico: rimuovi le aggiunte manuali ai modelli di tracciamento, quindi cambia l’opzione nell’interfaccia utente di Advertising Analytics da manuale ad automatico e salva l’impostazione. Potrebbero essere necessarie diverse ore affinché il sistema possa compilare i codici di tracciamento automatico.
+
+* Passaggio da automatico a manuale: aggiorna il passaggio da manuale a automatico nell’interfaccia utente di configurazione di Advertising Analytics, quindi distribuisci i codici di tracciamento manuali il più rapidamente possibile. Durante la distribuzione dei codici di tracciamento manuali, rimuovili se nei modelli di tracciamento dei motori di ricerca trovi i codici di tracciamento automatici.
+
++++

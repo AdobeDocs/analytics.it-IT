@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Utilizzare i dati sul pubblico in Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Puoi utilizzare le dimensioni Pubblico di Adobe Audience Manager in tutte le aree di Analytics. I segmenti integrati sono nuove dimensioni di Analytics denominate ID pubblico e Nome pubblico e possono essere utilizzati come qualsiasi altra dimensione raccolta da Analytics. Nei feed di dati, gli ID del pubblico sono memorizzati nella colonna &quot;mc_audiences&quot;. Queste dimensioni non sono attualmente disponibili in Data Workbench o Livestream. Alcuni esempi di come è possibile sfruttare le dimensioni di Audiences includono:
 
-## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
+## Analysis Workspace {#workspace}
 
 In Analysis Workspace, i segmenti di Adobe Audience Manager vengono visualizzati come due dimensioni.
 
@@ -24,7 +24,7 @@ In Analysis Workspace, i segmenti di Adobe Audience Manager vengono visualizzati
 
    ![](assets/aw-mcaudiences.png)
 
-## Confronto fra segmenti {#section_E72B80B6470C42D4B9B19BE90E6070A2}
+## Confronto fra segmenti {#compare}
 
 [Confronto segmenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) rileva le differenze più importanti dal punto di vista statistico tra due segmenti. I dati sui tipi di pubblico possono essere utilizzati in Segment Comparison (Confronto fra segmenti) in due modi: 1) come i 2 segmenti che vengono confrontati e 2) come elementi nella tabella &quot;Elementi principali del Dimension&quot;.
 
@@ -41,7 +41,7 @@ In Analysis Workspace, i segmenti di Adobe Audience Manager vengono visualizzati
 
    ![](assets/aud-segcompare.png)
 
-## Percorso di clienti (Flusso) in Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Percorso di clienti (Flusso) in Analysis Workspace {#flow}
 
 I dati dei segmenti di Adobe Audience Manager vengono trasmessi in Analytics hit per hit e rappresentano l’iscrizione del pubblico di un visitatore in quel momento. Ciò significa che un visitatore potrebbe rientrare in un segmento (ad esempio, &quot;Consapevolezza&quot;) e qualificarsi successivamente per un segmento più qualificato (ad esempio, &quot;Considerazione&quot;). È possibile utilizzare [Flusso](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=it) in Analysis Workspace per visualizzare il percorso che un visitatore segue tra i diversi tipi di pubblico.
 
@@ -55,7 +55,7 @@ I dati dei segmenti di Adobe Audience Manager vengono trasmessi in Analytics hit
 
 Il pubblico può essere utilizzato anche in [Visualizzazioni di abbandono](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=it).
 
-## Visualizzazione Venn in Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Visualizzazione Venn in Analysis Workspace {#venn}
 
 [Visualizzazioni di Venn](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=it) mostra la sovrapposizione tra un massimo di 3 segmenti.
 
@@ -69,7 +69,7 @@ Il pubblico può essere utilizzato anche in [Visualizzazioni di abbandono](https
 
 ![](assets/venn-viz.png)
 
-## Generatore di segmenti {#section_2AA81852A1404AB894472CA8959461B6}
+## Generatore di segmenti {#builder}
 
 Puoi incorporare le dimensioni Audiences in Analytics. [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md), insieme alle informazioni comportamentali raccolte da Analytics.
 
