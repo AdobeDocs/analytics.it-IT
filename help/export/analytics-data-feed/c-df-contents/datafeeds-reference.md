@@ -6,9 +6,9 @@ title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3897'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | **`color`** | ID di profondità colore in base al valore della colonna `c_color`. Fa riferimento alla tabella di ricerca `color_depth.tsv`. | smallint senza segno |
 | **`connection_type`** | ID numerico che rappresenta il tipo di connessione. Variabile utilizzata nella dimensione [Tipo di connessione](/help/components/dimensions/connection-type.md). Fa riferimento alla tabella di ricerca `connection_type.tsv`. | tinyint unsigned |
 | **`cookies`** | Variabile utilizzata nella dimensione [Supporto cookie](/help/components/dimensions/cookie-support.md).<br>Y: abilitato<br>N: disabilitato<br>U: sconosciuto | char(1) |
-| **`country`** | ID numerico che rappresenta i valori presenti nel `country.tsv` ricerca. | smallint senza segno |
+| **`country`** | ID numerico che rappresenta i valori presenti nella ricerca nel file `country.tsv`. | smallint senza segno |
 | **`ct_connect_type`** | Correlato alla colonna `connection_type`. I valori più comuni sono LAN/Wi-Fi, Gestore di telefonia mobile e Modem. | char(20) |
 | **`curr_factor`** | Determina la posizione dei decimali della valuta e viene utilizzato per la conversione della valuta. Ad esempio, USD utilizza due posizioni decimali, quindi questo valore di colonna è 2. | Tinyint |
 | **`curr_rate`** | Il tasso di cambio al momento della transazione. Adobe si appoggia a XE per determinare il tasso di cambio del giorno corrente. | decimal(24,12) |
