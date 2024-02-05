@@ -4,7 +4,7 @@ description: Genera correttamente un file da utilizzare nelle origini dati.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cc25fe304d9cab3db3fa2ddd306338ff3bb88a55
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 5%
@@ -74,8 +74,8 @@ Adobe non supporta origini dati per altre dimensioni o metriche. Se sono necessa
 
 Il primo valore in ogni riga **deve** essere la data. Il formato della data deve essere uno dei seguenti:
 
-* **`MM/DD/YY/HH/mm/SS`**
-* **`MM/DD/YY`**
+* **`MM/DD/YYYY/HH/mm/SS`**
+* **`MM/DD/YYYY`**
 
 Se si omettono le ore/minuti/secondi, la marca temporale viene impostata automaticamente sulle 12 di quel giorno.
 
