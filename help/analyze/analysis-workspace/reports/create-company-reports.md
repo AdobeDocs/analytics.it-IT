@@ -3,16 +3,17 @@ description: Panoramica sull’utilizzo dei rapporti predefiniti in Analysis Wor
 title: Utilizzare i rapporti
 feature: Analysis Workspace
 role: User, Admin
-source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 81%
+exl-id: d2b4edca-b8f5-4c17-b470-ae0cf5d66fb2
+source-git-commit: dcc517c2cd24a1aeeb2594094d09b9187ea7d144
+workflow-type: ht
+source-wordcount: '353'
+ht-degree: 100%
 
 ---
 
 # Creare e gestire i rapporti aziendali
 
-Puoi creare rapporti personalizzati e salvarli per l’utilizzo da parte di altri nella società di accesso. I report aziendali sono disponibili per la scelta durante la creazione di un progetto, come descritto in [Creare un progetto da un progetto o da un rapporto vuoto](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) nell’articolo, [Creare progetti in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+Puoi creare rapporti personalizzati e salvarli affinché possano essere utilizzati da altri utenti dell’azienda da cui accedi. I rapporti aziendali sono disponibili per la scelta durante la creazione di un progetto, come descritto in [Creare un progetto da un progetto vuoto o da un rapporto](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) nell’articolo [Creare progetti in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 ## Creare un rapporto aziendale personalizzato
 
