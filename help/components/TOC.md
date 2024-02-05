@@ -5,9 +5,9 @@ user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
 source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 98%
    + [Eventi pagina](metrics/page-events.md)
    + [Visualizzazioni pagina](metrics/page-views.md)
    + [Pagine non trovate](metrics/pages-not-found.md)
-   + [Persone con ID Experience Cloud](metrics/people-with-exp-cloud-id.md)
+   + [Persone con Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
    + [Persone](metrics/people.md)
    + [Visualizzazioni di prodotti](metrics/product-views.md)
    + [Ricariche](metrics/reloads.md)
