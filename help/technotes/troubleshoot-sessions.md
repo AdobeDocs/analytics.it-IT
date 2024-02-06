@@ -3,9 +3,9 @@ title: Risolvere i problemi relativi alle sessioni in Adobe Analytics
 description: Scopri come risolvere i problemi relativi alla disconnessione da Adobe Analytics.
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ Questa pagina contiene informazioni sulla risoluzione dei problemi relativi alle
 
 Quasi tutti i problemi relativi alle sessioni derivano dalla rete aziendale personalizzata di un&#39;organizzazione. Se riesci ad accedere ad Adobe Analytics ma riscontri problemi durante l’accesso, utilizza questo articolo per determinare la causa.
 
-## Determinare se il problema è dovuto alla rete dell’organizzazione
+## Determinare se il problema è dovuto alla rete dell’organizzazione {#network}
 
 Molte organizzazioni implementano funzionalità di rete aggiuntive per migliorare la sicurezza, ad esempio server proxy o firewall. A volte queste personalizzazioni possono interferire con la capacità di mantenere una sessione attiva in Adobe Analytics.
 
 Per determinare se la rete aziendale a cui sei connesso causa problemi con l’utilizzo di Adobe Analytics, utilizza le credenziali di accesso di Experience Cloud su un dispositivo esterno alla rete aziendale. Esempi di dispositivi possono essere tramite la rete domestica o il piano dati di un dispositivo mobile. Se riesci a passare da una pagina all’altra senza aver eseguito la disconnessione, è probabile che la rete della tua organizzazione sia il motivo per cui ti sei disconnesso da Adobe Analytics.
 
-## Problemi dovuti al proxy
+## Problemi dovuti al proxy {#proxy}
 
 Adobe utilizza un’intestazione di autorizzazione quando effettua richieste ad Adobe. Alcuni proxy, come Edge Secure Web Gateway (precedentemente Bluecoat), eliminano le informazioni critiche sull’intestazione di autorizzazione utilizzate da Adobe Analytics. Se l’Adobe non visualizza l’intestazione di autorizzazione, la sessione scade.
 

@@ -3,10 +3,11 @@ title: Cookie di Adobe Analytics e del browser
 description: Scopri come le misure di prevenzione del tracciamento influiscono sui cookie di terze parti e di prima parte impostati da Adobe Analytics.
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 1%
+source-wordcount: '1914'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +75,7 @@ Se queste limitazioni influiscono sui dati, vedrai:
 
 I cookie di terze parti non vengono creati dai siti web visitati dagli utenti.
 
-Anche se i browser al momento trattano tutti i cookie di terze parti nello stesso modo e li memorizzano, i cookie di terze parti possono comportarsi in modi diversi. Con l’implementazione dei cookie di terze parti di Analytics di un cliente, i browser memorizzano l’Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=it) ID come cookie di terze parti, ma il client effettua chiamate solo ad Adobi e non a domini di terze parti troppo sconosciuti o sospetti. Questo cookie fornisce identificatori permanenti tra domini diversi e consente contenuti protetti (HTTPS). Per ulteriori informazioni, consulta [Cookie e il servizio Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Anche se i browser al momento trattano tutti i cookie di terze parti nello stesso modo e li memorizzano, i cookie di terze parti possono comportarsi in modi diversi. Con l’implementazione dei cookie di terze parti di Analytics di un cliente, i browser memorizzano l’Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=it) ID come cookie di terze parti, ma il client effettua chiamate solo ad Adobi e non a domini di terze parti troppo sconosciuti o sospetti. Questo cookie fornisce identificatori permanenti tra domini diversi e consente contenuti protetti (HTTPS). Per ulteriori informazioni, consulta [Cookie e il servizio Experienci Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 All’interno delle implementazioni di Analytics, i cookie di terze parti vengono utilizzati per il tracciamento tra domini diversi e per casi di utilizzo pubblicitari, inclusi gli annunci di retargeting. I cookie di terze parti ti consentono di identificare i visitatori quando visitano diversi domini di tua proprietà o quando vengono visualizzati annunci su siti di tua proprietà.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -96,7 +97,7 @@ Con il rilascio del browser Chrome 80 a febbraio 2020, e delle versioni successi
 
 * `Lax`: consente l’invio di richieste tra siti con cookie dello stesso sito solo per la navigazione di livello superiore con *sicuro* (sola lettura, ad esempio `GET`) Metodi HTTP.
 
-* `Strict`: il cookie dello stesso sito non viene inviato per richieste di siti web di terze parti. Il cookie viene inviato solo se il sito del cookie corrisponde a quello nella barra degli URL.
+* `Strict`: il cookie dello stesso sito non viene inviato per richieste di siti web di terze parti. Il cookie viene inviato solo se il sito per il cookie corrisponde al sito nella barra degli URL.
 
 Il comportamento predefinito in queste versioni del browser consiste nel trattare i cookie che non hanno specificato `SameSite` attributo uguale a `SameSite=Lax`.
 
@@ -168,11 +169,11 @@ Se la tua azienda è interessata dalla prevenzione del tracciamento ITP, puoi pr
 
 * Crea un segmento per filtrare gli utenti ITP.
 
-   ![Segmento per visitatori non ITP](/help/technotes/assets/non-itp-visitor-segment.png)
+  ![Segmento per visitatori non ITP](/help/technotes/assets/non-itp-visitor-segment.png)
 
 * Crea una metrica calcolata per regolare l’inflazione dei visitatori noti.
 
-   ![Metrica calcolata per la rettifica in base all’inflazione dei visitatori](/help/technotes/assets/estimated-itp-visitors-metric.png)
+  ![Metrica calcolata per la rettifica in base all’inflazione dei visitatori](/help/technotes/assets/estimated-itp-visitors-metric.png)
 
 >[!MORELIKETHIS]
 >

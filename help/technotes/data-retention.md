@@ -3,10 +3,10 @@ title: Criteri di conservazione dei dati
 description: Un criterio di conservazione dei dati determina per quanto tempo Adobe memorizza i dati.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance, Privacy
-source-git-commit: 065126757513df3503a5bbb34ceafe1b569ec51a
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 14%
+source-wordcount: '617'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ I dati raccolti da Adobe Analytics vengono conservati per un periodo di tempo sp
 
 I dati conservati si basano sulla data corrente e sulla data/ora dei dati storici. La data/ora registrata negli hit può essere diversa dalla data/ora in cui gli hit sono stati ricevuti da Adobe.
 
-## Modifica del periodo di conservazione dei dati predefinito
+## Regolare il periodo di conservazione dei dati predefinito
 
 Se desideri ridurre o estendere il periodo di conservazione dei dati predefinito, contatta il team del tuo account di Adobe.
 
@@ -39,19 +39,27 @@ Finestra di dialogo Governance dei dati in [!UICONTROL Admin] Strumenti fornisce
 
 ## Domande frequenti
 
-**Come posso decidere il periodo di conservazione dei dati della mia organizzazione?**
++++ Come posso decidere il periodo di conservazione dei dati della mia organizzazione?
 
 In qualità di titolare del trattamento, la tua azienda può identificare le parti interessate (ad esempio i team di marketing, analisi e privacy) all’interno della tua organizzazione responsabili del processo decisionale per la conservazione dei dati. La tua organizzazione è nella posizione migliore per conoscere il periodo appropriato di tempo in cui Adobe Analytics conserva i dati.
 
-**Come si calcola la finestra di conservazione dei dati?**
++++
 
-I criteri di conservazione dei dati definiscono una finestra temporale dinamica per la conservazione dei dati, all’interno della quale i dati completi possono essere visualizzati e utilizzati per la generazione dei rapporti. La data di inizio della conservazione dei dati è determinata dalla data corrente meno il periodo di conservazione dei dati. La data di fine della conservazione dei dati è determinata dalla data corrente. I dati vengono inclusi nella finestra temporale di conservazione dei dati se la marca temporale dei dati è compresa tra la data iniziale e quella finale.
++++ Come si calcola la finestra di conservazione dei dati?
 
-**Posso richiedere una copia dei miei dati prima che vengano cancellati?**
+I criteri di conservazione dei dati definiscono una finestra temporale dinamica per la conservazione dei dati, all’interno della quale i dati completi possono essere visualizzati e utilizzati per la generazione dei rapporti. La data di inizio della conservazione dei dati è determinata dalla data corrente meno il periodo di conservazione dei dati. La data di fine della conservazione dei dati è determinata dalla data corrente. I dati vengono inclusi nella finestra di conservazione dei dati se la marca temporale dei dati è compresa tra la data di inizio e la data di fine.
+
++++
+
++++ Posso richiedere una copia dei miei dati prima di eliminarli?
 
 Sì. Adobe può fornire un dump di dati storici di dati grezzi a livello di hit. Consulta [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) nella guida utente Esporta per ulteriori informazioni. Se hai requisiti di esportazione dei dati che esulano dall’ambito di ciò che l’interfaccia utente può fornire, contatta il team del tuo account Adobe. Si possono effettuare sistemazioni speciali; i costi possono variare.
 
-**Quando Adobe elimina i dati?**
++++
+
++++ Quando Adobe elimina i dati?
 
 Contatta il team dell’account Adobe per l’ora specifica in cui è pianificata l’eliminazione dei dati. I dati vengono in genere eliminati su base mensile continua.
+
++++
 

@@ -4,10 +4,10 @@ keywords: Implementazione di Analytics
 title: Reindirizzamenti e alias
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 1%
+source-wordcount: '1086'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 I reindirizzamenti puntano il browser a una nuova posizione senza l’interazione dell’utente. Vengono eseguiti nel browser web (reindirizzamento lato client) o nel server web (reindirizzamento lato server).
 
-## Reindirizzamenti e alias {#concept_F4F1D53D473947FE8554897332545763}
+## Reindirizzamenti e alias {#aliases}
 
 I reindirizzamenti puntano il browser a una nuova posizione senza l’interazione dell’utente. Vengono eseguiti nel browser web (reindirizzamento lato client) o nel server web (reindirizzamento lato server).
 
@@ -23,11 +23,11 @@ Poiché i reindirizzamenti non richiedono alcuna interazione da parte dell’ute
 
 Anche se esistono solo due tipi di reindirizzamenti, possono essere implementati in numerosi modi. Ad esempio, i reindirizzamenti lato client possono verificarsi perché la pagina web a cui un utente ha puntato il browser contiene script o uno speciale codice HTML che reindirizza il browser a un altro URL. È possibile che si verifichino reindirizzamenti lato server perché la pagina contiene script lato server o perché il server web è stato configurato per indirizzare l’utente a un altro URL.
 
-## Analytics e reindirizzamenti {#concept_F9132879D0CB4AC1BE7AF45E388A47F7}
+## Analytics e reindirizzamenti {#aa-redirects}
 
 [!DNL Analytics] raccoglie alcuni dei suoi dati dal browser e si basa su determinate proprietà del browser. Due di queste proprietà, &quot;URL di riferimento&quot; (o &quot;referrer&quot;) e &quot;URL corrente&quot; possono essere modificate da un reindirizzamento lato server. Poiché il browser è a conoscenza del fatto che è stato richiesto un URL, ma è stato restituito un URL diverso, cancella l’URL di riferimento. Il risultato è che l’URL di riferimento è vuoto e [!DNL Analytics] potrebbe indicare che non esiste alcun referente per la pagina.
 
-## Esempio: esplorazione senza reindirizzamenti {#section_5C835A4D665A4625A23333C2C21F152D}
+## Esempio: esplorazione senza reindirizzamenti {#browse-without}
 
 Considera il seguente scenario ipotetico in cui l’utente non incontra un reindirizzamento:
 
@@ -36,7 +36,7 @@ Considera il seguente scenario ipotetico in cui l’utente non incontra un reind
 1. L’utente fa clic sul collegamento al tuo ipotetico sito [!DNL https://www.example.com/]. Quando l’utente fa clic su questo collegamento e arriva al [!DNL example.com] sito web, [!DNL Analytics] utilizza JavaScript per raccogliere l’URL di riferimento ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) e l&#39;URL corrente ( `https://www.example.com/`).
 1. [!DNL Analytics] segnala le informazioni raccolte durante questa interazione in vari rapporti, ad esempio [!UICONTROL Referring Domains], [!UICONTROL Search Engines], e [!DNL Search Keywords].
 
-## Esempio: Esplorazione Con Reindirizzamenti {#section_921DDD32932847848C4A901ACEF06248}
+## Esempio: Esplorazione Con Reindirizzamenti {#browse-with}
 
 I reindirizzamenti possono causare la rimozione del browser dall’URL di riferimento effettivo. Considera lo scenario seguente:
 
@@ -44,25 +44,13 @@ I reindirizzamenti possono causare la rimozione del browser dall’URL di riferi
 1. Nella barra degli indirizzi della finestra del browser vengono visualizzati i termini di ricerca digitati dall&#39;utente nel campo di ricerca `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. I termini di ricerca sono inclusi nei parametri della stringa di query URL che seguono `https://www.google.com/search?`. Nel browser viene inoltre visualizzata una pagina contenente i risultati della ricerca, con un collegamento a uno dei tuoi nomi di dominio: [!DNL https://www.flytohawaiiforfree.com/]. Questo *vanità* è configurato per reindirizzare l’utente a `https://www.example.com/`.
 1. L’utente fa clic sul collegamento `https://www.flytohawaiiforfree.com/` e viene reindirizzato dal server al sito principale, `https://www.example.com`. Quando si verifica il reindirizzamento, i dati importanti per [!DNL Analytics] La raccolta dei dati viene persa perché il browser cancella l’URL di riferimento. Pertanto, le informazioni di ricerca originali utilizzate nel [!DNL Analytics] rapporti (ad esempio, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) è persa.
 
-## Implementare reindirizzamenti {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
+## Implementare reindirizzamenti {#implement}
 
 Per acquisire [!DNL Analytics] dati dei reindirizzamenti, è necessario apportare quattro modifiche minori al codice che crea il reindirizzamento e al [!DNL AppMeasurement] per il file JavaScript.
 
-<!-- 
-
-redirects_implement.xml
-
- -->
-
 Il completamento dei seguenti passaggi conserverà le informazioni che il referente originale (ad esempio, `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` nello scenario precedente) passa al sito:
 
-## Configurare l’override del codice JavaScript del referente {#section_87BB1D47D9C345C18339078824645CC4}
-
-<!-- 
-
-redirects_js_override.xml
-
- -->
+## Configurare l’override del codice JavaScript del referente {#override}
 
 Il frammento di codice seguente mostra due variabili JavaScript: *`s_referrer`* e *`s_pageURL`*. Questo codice viene inserito nella pagina di destinazione finale del reindirizzamento.
 
@@ -82,7 +70,7 @@ s.pageURL=""
 >
 >Imposta *`s.referrer`* una sola volta sulla pagina. Impostandolo più di una volta con ogni chiamata di tracciamento o con ogni clic di collegamento tracciato si verifica un doppio conteggio del referente e delle dimensioni correlate, come motori di ricerca e parole chiave.
 
-## Reindirizzamenti tramite getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
+## Reindirizzamenti tramite getQueryParam {#getqueryparam}
 
 Mentre il [!UICONTROL getQueryParam] è un modo semplice per popolare [!DNL Analytics] variabili con valori di stringa di query, deve essere implementato in connessione a una variabile temporanea in modo che i referenti legittimi non vengano sovrascritti quando la stringa di query è vuota. Il modo migliore per utilizzare [!UICONTROL getQueryParam] è in relazione con [!UICONTROL getValue] plug-in come descritto con lo pseudo-codice seguente.
 
@@ -100,25 +88,13 @@ if(tempVar)
   s.referrer=tempVar;
 ```
 
-## Modificare il meccanismo di reindirizzamento {#section_2FF9921E8FCA4440B6FF90F15386E548}
-
-<!-- 
-
-redirects_modify_mechanism.xml
-
- -->
+## Modificare il meccanismo di reindirizzamento {#modify}
 
 Poiché il browser elimina l’URL di riferimento, devi configurare il meccanismo che gestisce il reindirizzamento (ad esempio, il server web, il codice lato server e il codice lato client) in modo che trasmetta le informazioni originali sul referente. Se desideri registrare anche l’URL del collegamento di alias, questo deve essere trasmesso anche alla pagina di destinazione finale. Utilizza il *`s_pageURL`* per sostituire l&#39;URL corrente.
 
 Poiché esistono diversi modi per implementare un reindirizzamento, è necessario rivolgersi al gruppo operativo Web o al partner pubblicitario online per identificare i meccanismi specifici che eseguono i reindirizzamenti sul sito Web.
 
-## Acquisire il referente originale {#section_7F1A77F447CF485385B456A64B174050}
-
-<!-- 
-
-redirects_referrer.xml
-
- -->
+## Acquisire il referente originale {#original}
 
 Normalmente, [!DNL Analytics] otterrà l’URL di riferimento dal [!UICONTROL document.referrer] e l&#39;URL corrente da [!UICONTROL document.location] proprietà. Trasmettendo i valori al *`referrer`* e *`pageURL`* variabili, puoi ignorare l’elaborazione predefinita. Trasmettendo un valore alla variabile referrer, stai dicendo [!DNL Analytics] per ignorare le informazioni sul referente in [!UICONTROL document.referrer] e per utilizzare un valore alternativo definito dall&#39;utente.
 
@@ -137,13 +113,7 @@ s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tick
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
-## Verificare il referente con Adobe Debugger {#section_B3E85941982E4E1698B271375AD669B9}
-
-<!-- 
-
-redirects_verify_referrer.xml
-
- -->
+## Verifica il referente con l’Adobe Debugger {#verify}
 
 Esegui un test per verificare che l’URL di origine del referente ( *`s_server`*) e le variabili della campagna vengono acquisite.
 

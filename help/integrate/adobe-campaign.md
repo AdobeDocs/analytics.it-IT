@@ -3,12 +3,14 @@ description: Scopri come abilitare il reporting di Adobe Campaign Standard in Ad
 title: Come si integra il reporting di Adobe Campaign Standard in Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 69%
+source-wordcount: '465'
+ht-degree: 66%
 
 ---
+
 
 # Reportistica di Adobe Campaign Standard
 
@@ -36,13 +38,13 @@ Per visualizzare i dati di Campaign Standard in Analytics, devi innanzitutto abi
 
    ![](assets/enable-campaign.png)
 
-## Passaggio 2: visualizzare i rapporti di Adobe Campaign {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
+## Passaggio 2: Visualizzare i rapporti di Adobe Campaign {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
 L’integrazione tra Adobe Campaign Standard e Adobe Analytics aggiunge il seguente rapporto in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**
 
-* **[!UICONTROL Adobe Campaign Executed Delivery ID]**: Mostra i dati importati da Adobe Campaign sulle e-mail inviate da Adobe Campaign. |
+* **[!UICONTROL Adobe Campaign Executed Delivery ID]**: mostra i dati importati da Adobe Campaign sulle e-mail inviate da Adobe Campaign. |
 
-## Passaggio 3. usare le classificazioni di Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
+## Passaggio 3. Utilizzare le classificazioni di Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
 

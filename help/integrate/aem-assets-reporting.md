@@ -3,10 +3,11 @@ description: Passaggi amministrativi per abilitare il reporting di AEM Assets in
 title: Come creare rapporti su AEM Assets in Adobe Analytics
 feature: AEM Assets Reporting
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
-source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
