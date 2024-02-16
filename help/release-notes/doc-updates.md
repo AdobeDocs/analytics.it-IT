@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '4978'
-ht-degree: 95%
+source-wordcount: '5026'
+ht-degree: 99%
 
 ---
 
@@ -25,20 +25,22 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzionalità | Descrizione |
 | --- | --- |
+| **Febbraio 2024** | |
+| Sono stati aggiunti i requisiti di autorizzazione per il caricamento di file nei bucket Amazon S3 e GCP in Data Warehouse e Data Feeds | Sono stati aggiunti requisiti di autorizzazioni esatti per il caricamento di file nei bucket di Amazon S3 e Google Cloud Platform quando [configurazione delle destinazioni per Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) e [durante la configurazione delle destinazioni per feed dati](/help/export/analytics-data-feed/create-feed.md). |
 | **Gennaio 2024** | |
-| La migrazione dei componenti si applica alle singole organizzazioni IMS | È stato chiarito che [migrazione dei componenti](/help/admin/admin/component-migration/component-migration.md) non supporta la migrazione tra organizzazioni IMS. |
-| È stato chiarito che alcune informazioni sono disponibili solo per gli amministratori | Sono state aggiunte informazioni che indicano che le colonne &quot;Ultimo utilizzo&quot; e &quot;Utilizzato in&quot; descritte in [Gestione metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) e [Gestore segmenti](/help/components/segmentation/segmentation-workflow/seg-manage.md) sono disponibili solo per gli amministratori di sistema. |
-| Aggiornamenti alla documentazione del pubblico medio per minuto del file multimediale | Informazioni aggiornate in [Pannello del pubblico medio per minuto del file multimediale](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) per una maggiore chiarezza.<p>I miglioramenti includono:</p> <ul><li>Migliore organizzazione delle informazioni</li><li>Sono stati aggiunti passaggi per indicare le informazioni basate sulle attività</li></ul> |
+| La migrazione dei componenti si applica alle singole organizzazioni IMS | È stato chiarito che la [migrazione dei componenti](/help/admin/admin/component-migration/component-migration.md) non supporta la migrazione tra organizzazioni IMS. |
+| È stato chiarito che alcune informazioni sono disponibili solo per gli amministratori | Sono state aggiunte informazioni che indicano che le colonne “Ultimo utilizzo” e “Utilizzato in” descritte in [Gestione metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) e [Gestore segmenti](/help/components/segmentation/segmentation-workflow/seg-manage.md) sono disponibili solo per gli amministratori di sistema. |
+| Aggiornamenti alla documentazione su Pubblico medio per minuto del file multimediale | Sono state aggiornate le informazioni nella sezione [Pannello Pubblico medio per minuto del file multimediale](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) per una maggiore chiarezza.<p>I miglioramenti includono:</p> <ul><li>una migliore organizzazione delle informazioni</li><li>Sono stati aggiunti passaggi per indicare le informazioni basate sulle attività</li></ul> |
 
 ### 2023 {#23}
 
 | Funzionalità | Descrizione |
 | --- | --- |
 | **Dicembre 2023** | |
-| Miglioramento della documentazione sulle regole bot | Informazioni aggiornate in [Comprendere e configurare le regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) per una maggiore chiarezza.<p>I miglioramenti includono:</p> <ul><li>Il titolo dell’articolo è stato aggiornato per essere più descrittivo</li><li>Migliore organizzazione delle informazioni</li><li>Sono stati aggiunti passaggi per indicare le informazioni basate sulle attività</li><li>Sono stati aggiunti ulteriori dettagli sui requisiti del file CSV durante il caricamento delle regole bot</li></ul> |
-| Nuova sezione Rapporti | È stata aggiunta una nuova sezione Rapporti che include informazioni su [utilizzo di rapporti predefiniti](/help/analyze/analysis-workspace/reports/use-reports.md) e [creazione e gestione dei report aziendali](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
-| Aggiornamenti alla documentazione di Rilevamento delle anomalie e Analisi contributi | La documentazione relativa al rilevamento delle anomalie e all’analisi dei contributi si trovava in precedenza in una sezione relativa ad Analista virtuale. Sono state apportate le seguenti modifiche: <ul><li>Il termine Analista virtuale è stato rimosso dalla documentazione.</li><li>La sezione relativa a [Rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) è stato spostato direttamente sotto la sezione Analysis Workspace.</li><li>La documentazione Analisi contributi è stata unita alla documentazione Rilevamento anomalie.</li></ul> |
-| &quot;Attribution IQ&quot; modificata in &quot;Attribuzione&quot; | Tutte le istanze di &quot;Attribution IQ&quot; sono state modificate in &quot;[Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md)&quot; in tutta la documentazione. |
+| Miglioramento della documentazione sulle regole bot | Informazioni aggiornate in [Comprendere e configurare le regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) per una maggiore chiarezza.<p>I miglioramenti includono:</p> <ul><li>Il titolo dell’articolo è stato aggiornato affinché sia più descrittivo</li><li>una migliore organizzazione delle informazioni</li><li>Sono stati aggiunti passaggi per indicare le informazioni basate sulle attività</li><li>Sono stati aggiunti ulteriori dettagli sui requisiti del file CSV durante il caricamento delle regole bot</li></ul> |
+| Nuova sezione Rapporti | È stata aggiunta una nuova sezione Rapporti che include informazioni sull’[utilizzo dei rapporti predefiniti](/help/analyze/analysis-workspace/reports/use-reports.md) e sulla [creazione e gestione dei rapporti aziendali](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| Aggiornamenti alla documentazione sul rilevamento delle anomalie e l’analisi dei contributi | La documentazione sul rilevamento delle anomalie e sull’analisi dei contributi si trovava precedentemente in una sezione relativa a Virtual Analyst. Sono state apportate le seguenti modifiche: <ul><li>Il termine Virtual Analyst è stato rimosso dalla documentazione.</li><li>La sezione relativa alla funzione [Rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) è stata spostata direttamente nella sezione Analysis Workspace.</li><li>La documentazione sulla funzione Analisi contributi è stata unita alla documentazione sulla funzione Rilevamento delle anomalie.</li></ul> |
+| “Attribution IQ” è stato cambiato in “Attribuzione” | Tutte le istanze di “Attribution IQ” sono state cambiate in “[Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md)” in tutta la documentazione. |
 | **Novembre 2023** | |
 | Aggiornamenti all’argomento abilitazione/attivazione di Activity Map | Aggiunto contenuto [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=it) (sia manualmente che tramite l’estensione di tag Adobe Experience Platform). |
 | **Ottobre 2023** | |
@@ -144,7 +146,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Aggiornamenti pagina di destinazione di Adobe Analytics | [Aggiornamenti](/help/analyze/landing.md) alla pagina di destinazione congiunta Analysis Workspace/Reports &amp; Analytics che migliora l’usabilità e la facilità di navigazione. |
 | Pannello Workspace [!UICONTROL Next item] o [!UICONTROL Previous item] | Questo pannello consente di esplorare gli elementi che seguono o precedono un elemento dimensionale scelto. |
 | Pannello Workspace [!UICONTROL Page Summary] | Questo pannello fornisce un’analisi approfondita per una pagina a scelta. |
-| Nuovo argomento relativo alla sospensione dei report pianificati meno recenti | Effettivo **15 aprile 2022**, Adobe intende sospendere tutti i rapporti pianificati con una data di creazione superiore ai due anni |
+| Nuovo argomento relativo alla sospensione dei report pianificati meno recenti | A partire dal **15 aprile 2022**, Adobe intende sospendere tutti i rapporti pianificati con data di creazione superiore a due anni. |
 | **Febbraio 2022** |
 | Modalità anteprima dei progetti scorecard per dispositivi mobili | La [modalità anteprima](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it#preview) consente di visualizzare un’anteprima dell’esperienza prima di salvare e condividere una scorecard. |
 | Endpoint di progetti API | Aggiungi, modifica o elimina progetti di Analysis Workspace utilizzando l’API. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |

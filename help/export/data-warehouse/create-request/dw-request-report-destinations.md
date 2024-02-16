@@ -3,9 +3,9 @@ description: Passaggi che descrivono come creare una richiesta Data Warehouse.
 title: Configurare una destinazione di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2305'
 ht-degree: 2%
 
 ---
@@ -136,7 +136,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       | Campo | Funzione |
       |---------|----------|
-      | [!UICONTROL **Nome bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. Assicurati che l’ARN utente fornito da Adobe abbia accesso al caricamento di file in questo bucket. |
+      | [!UICONTROL **Nome bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l&#39;ARN utente fornito da Adobe disponga del `S3:PutObject` per caricare i file in questo bucket. Questa autorizzazione consente all&#39;utente ARN di caricare i file iniziali e di sovrascrivere i file per i caricamenti successivi.</p> |
       | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, nome_cartella/ |
 
       {style="table-layout:auto"}
@@ -149,7 +149,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       | Campo | Funzione |
       |---------|----------|
-      | [!UICONTROL **Nome bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. Assicurati di aver concesso all’entità fornita da Adobe l’autorizzazione per caricare i file in questo bucket. Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) nella documentazione di Google Cloud. |
+      | [!UICONTROL **Nome bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. <p>Accertati di aver concesso una delle seguenti autorizzazioni all’entità fornita dall’Adobe:<ul><li>`roles/storage.objectCreator`: utilizza questa autorizzazione se desideri limitare l’entità alla creazione di soli file nell’account GCP. </br>**Importante:** Se utilizzi questa autorizzazione per i rapporti pianificati, devi utilizzare un nome file univoco per ogni nuova esportazione pianificata. In caso contrario, la generazione del report non riuscirà perché l&#39;entità non ha accesso alla sovrascrittura dei file esistenti.</li><li>`roles/storage.objectUser`: utilizza questa autorizzazione se desideri che l’utente/gruppo/ruolo abbia accesso alla visualizzazione, all’elenco, all’aggiornamento e all’eliminazione dei file nel tuo account GCP.</br>Questa autorizzazione consente all’entità di sovrascrivere i file esistenti per i caricamenti successivi, senza la necessità di generare automaticamente nomi di file univoci per ogni nuova esportazione pianificata.</li></ul><p>Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) nella documentazione di Google Cloud.</p> |
       | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, nome_cartella/ |
 
       {style="table-layout:auto"}

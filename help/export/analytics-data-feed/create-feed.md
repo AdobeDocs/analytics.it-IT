@@ -3,10 +3,10 @@ title: Creare un feed di dati
 description: Scopri come creare un feed di dati.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 3%
+source-wordcount: '3211'
+ht-degree: 2%
 
 ---
 
@@ -98,14 +98,14 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
          {style="table-layout:auto"}
 
-         1. Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni:
+      1. Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni:
 
          | Campo | Funzione |
          |---------|----------|
          | [!UICONTROL **Nome**] | Un nome per l’account. |
          | [!UICONTROL **Descrizione**] | Descrizione dell&#39;account. |
-         | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. Assicurati che l’ARN utente fornito da Adobe abbia accesso al caricamento di file in questo bucket. |
-         | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, `folder_name/` |
+         | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l&#39;ARN utente fornito da Adobe disponga del `S3:PutObject` per caricare i file in questo bucket. Questa autorizzazione consente all&#39;utente ARN di caricare i file iniziali e di sovrascrivere i file per i caricamenti successivi.</p> |
+         | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -115,7 +115,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
 +++
 
-   +++RBAC di Azure
+   +++Azure RBAC
 
    Puoi inviare feed direttamente a un contenitore di Azure utilizzando l’autenticazione RBAC. Questo tipo di destinazione richiede un ID applicazione, un ID tenant e un segreto.
 
@@ -165,7 +165,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
          | [!UICONTROL **Descrizione**] | Una descrizione della posizione. Questa descrizione viene visualizzata nel [!UICONTROL **Seleziona posizione**] e può essere qualsiasi nome scelto. |
          | [!UICONTROL **Account**] | Account di archiviazione Azure. |
          | [!UICONTROL **Contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. Accertati di concedere le autorizzazioni per caricare i file nell’applicazione Azure creata in precedenza. |
-         | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, `folder_name/` |
+         | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -175,7 +175,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
 +++
 
-   +++SAS di Azure
+   SAS di +++Azure
 
    È possibile inviare feed direttamente a un contenitore di Azure utilizzando l’autenticazione SAS. Questo tipo di destinazione richiede un ID applicazione, un ID tenant, un URI dell&#39;insieme di credenziali delle chiavi, un nome del segreto dell&#39;insieme di credenziali delle chiavi e un segreto.
 
@@ -226,7 +226,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
          | [!UICONTROL **Nome**] | Un nome per la posizione. Questo nome viene visualizzato nel [!UICONTROL **Seleziona posizione**] e può essere qualsiasi nome scelto. |
          | [!UICONTROL **Descrizione**] | Una descrizione della posizione. Questa descrizione viene visualizzata nel [!UICONTROL **Seleziona posizione**] e può essere qualsiasi nome scelto. |
          | [!UICONTROL **Contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. |
-         | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, `folder_name/` |
+         | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -236,7 +236,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
 +++
 
-   +++Piattaforma Google Cloud
+   +++Piattaforma cloud Google
 
    Puoi inviare feed direttamente ai bucket di Google Cloud Platform (GCP). Questo tipo di destinazione richiede solo il nome dell’account GCP e la posizione (bucket).
 
@@ -274,15 +274,15 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
          {style="table-layout:auto"}
 
-         1. Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni:
+      1. Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni:
 
          | Campo | Funzione |
          |---------|----------|
          | [!UICONTROL **Entità**] | L’entità è fornita dall’Adobe. È necessario concedere l&#39;autorizzazione per la ricezione di feed a questa entità principale. |
          | [!UICONTROL **Nome**] | Un nome per l’account. |
          | [!UICONTROL **Descrizione**] | Descrizione dell&#39;account. |
-         | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. Assicurati di aver concesso all’entità fornita da Adobe l’autorizzazione per caricare i file in questo bucket. |
-         | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, `folder_name/` |
+         | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. <p>Accertati di aver concesso una delle seguenti autorizzazioni all’entità fornita dall’Adobe:<ul><li>`roles/storage.objectCreator`: utilizza questa autorizzazione se desideri limitare l’entità alla creazione di soli file nell’account GCP. </br>**Importante:** Se utilizzi questa autorizzazione per i rapporti pianificati, devi utilizzare un nome file univoco per ogni nuova esportazione pianificata. In caso contrario, la generazione del report non riuscirà perché l&#39;entità non ha accesso alla sovrascrittura dei file esistenti.</li><li>(Consigliato) `roles/storage.objectUser`: utilizza questa autorizzazione se desideri che l’utente/gruppo/ruolo abbia accesso alla visualizzazione, all’elenco, all’aggiornamento e all’eliminazione dei file nel tuo account GCP.</br>Questa autorizzazione consente all’entità di sovrascrivere i file esistenti per i caricamenti successivi, senza la necessità di generare automaticamente nomi di file univoci per ogni nuova esportazione pianificata.</li></ul><p>Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) nella documentazione di Google Cloud.</p> |
+         | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -303,7 +303,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
    | [!UICONTROL **Modelli di colonna**] | Durante la creazione di molti feed di dati, l’Adobe consiglia di creare un modello di colonna. Quando si seleziona un modello di colonna, le colonne specificate vengono incluse automaticamente nel modello. Per impostazione predefinita, in Adobe sono inoltre disponibili diversi modelli. |
    | [!UICONTROL **Colonne disponibili**] | Tutte le colonne di dati disponibili in Adobe Analytics. Clic [!UICONTROL Add all] per includere tutte le colonne in un feed di dati. |
    | [!UICONTROL **Colonne incluse**] | Colonne da includere in un feed di dati. Clic [!UICONTROL Remove all] per rimuovere tutte le colonne da un feed di dati. |
-   | [!UICONTROL **Scarica come CSV**] | Scarica un file CSV contenente tutte le colonne incluse. |
+   | [!UICONTROL **Scarica CSV**] | Scarica un file CSV contenente tutte le colonne incluse. |
 
 1. Seleziona [!UICONTROL **Salva**] in alto a destra.
 
