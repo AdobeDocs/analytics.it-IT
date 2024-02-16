@@ -3,7 +3,7 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 55c08fd64b2fbac0e21af10896773c2530fa64a8
+source-git-commit: d52e4d41ac0fc6ce6db04e491fc33bac2284f040
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 42%
@@ -12,7 +12,7 @@ ht-degree: 42%
 
 # Note sulla versione corrente di Adobe Analytics (febbraio 2024)
 
-**Ultimo aggiornamento**: giovedì 14 febbraio 2024
+**Ultimo aggiornamento**: sabato 16 febbraio 2024
 
 Queste note sulla versione coprono il periodo dal 14 febbraio 2024 all’11 marzo 2024. I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -20,7 +20,7 @@ Queste note sulla versione coprono il periodo dal 14 febbraio 2024 all’11 marz
 
 | Funzionalità | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Activity Map per Web SDK senza costi aggiuntivi** | Attualmente, gli eventi di collegamento Activity Map vengono conteggiati come propri eventi e comportano costi aggiuntivi. Questo miglioramento raccoglie alcuni eventi di collegamento e li inserisce nell’hit successivo, in modo simile a come gli eventi vengono gestiti da AppMeasurement. |  | giovedì 14 febbraio 2024 |
+| **Activity Map per Web SDK senza costi aggiuntivi** | Attualmente, gli eventi di collegamento Activity Map vengono conteggiati come propri eventi e comportano costi aggiuntivi. Questo miglioramento raccoglie alcuni eventi di collegamento e li inserisce nell’hit successivo, in modo simile a come gli eventi vengono gestiti da AppMeasurement. |  | giovedì 6 marzo 2024 |
 | **Aumento delle soglie predefinite per traffico ridotto** | In entrata **metà aprile 2024**, ad Adobe, inizierà ad aumentare le soglie di traffico ridotto della suite di rapporti predefinita come segue: ![soglie di traffico ridotto](assets/thresholds.png) Questo incide solo sulle variabili attualmente impostate al di sotto delle nuove soglie. Queste modifiche saranno apportate in modo incrementale e ci aspettiamo che il lavoro sia completato entro il **fine maggio**. Con l’introduzione di questi aumenti, potresti notare modifiche per le variabili ad alta cardinalità:<ul><li>Per il reporting possono essere disponibili più valori di dimensione.</li><li>Segmenti e metriche calcolate possono includere più dati.</li><li>Le suite di rapporti virtuali basate sui segmenti possono includere più dati.</li></ul> | Metà aprile 2024 | Fine di maggio 2024 |
 
 {style="table-layout:auto"}
