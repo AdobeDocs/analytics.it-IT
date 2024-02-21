@@ -4,9 +4,9 @@ description: Scopri come creare e implementare collegamenti di rinuncia per i vi
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 role: Developer
-source-git-commit: e196e94e891ca7a6b4b1f50482cb342f2339ea8f
+source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '579'
 ht-degree: 4%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
-> Questo articolo fornisce **Clienti Adobe Analytics che (prevedono di) implementare Adobe Analytics** sul loro sito web con istruzioni su come fornire agli utenti dei siti web collegamenti di rinuncia. <p><p>
-> Se sei **visita di un sito web che ha implementato Adobe Analytics** e desideri rinunciare, **<span style="color:red">questo articolo NON è adatto a te</span>**. Consulta [Adobe di scelte sulla privacy](https://www.adobe.com/privacy/opt-out.html) per controllare il modo in cui Adobe utilizza le informazioni.
+> Questo articolo fornisce **Clienti Adobe Analytics che (prevedono di) implementare Adobe Analytics** sul loro sito web con istruzioni su come fornire agli utenti del sito web collegamenti di rinuncia. <p><p>
+> Se sei **visita di un sito web che ha implementato Adobe Analytics**, e desideri rinunciare, **<span style="color:red">questo articolo NON è adatto a te</span>**. Consulta [Adobe di scelte sulla privacy](https://www.adobe.com/privacy/opt-out.html) per controllare il modo in cui Adobe utilizza le informazioni.
 
 Alcuni visitatori del tuo sito web preferiscono non includere le informazioni di navigazione nel set di dati. Adobe offre la possibilità di fornire ai visitatori del sito web un mezzo per rinunciare alle informazioni analizzate.
 
