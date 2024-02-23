@@ -4,9 +4,9 @@ title: Panoramica del dizionario dati
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: ht
-source-wordcount: '532'
+source-git-commit: 48e75fc4e9cc60bfd6865f7e80060c07ecf25ad8
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
@@ -65,8 +65,6 @@ In Analysis Workspace è possibile accedere al dizionario dei dati in uno dei se
 
   ![Icona del dizionario dei dati nella finestra a comparsa delle informazioni](assets/data-dictionary-access-infopopover.png)
   <!--update screenshot; this was taken from a mock-->
-
-* Dal menu: [!UICONTROL **Aiuto**] > [!UICONTROL **Dizionario dei dati**].
 
 Per informazioni dettagliate sulle varie opzioni disponibili nel dizionario dei dati, vedi [Visualizzare le informazioni sui componenti nel dizionario dei dati](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
