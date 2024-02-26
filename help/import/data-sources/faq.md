@@ -4,10 +4,10 @@ description: Domande frequenti sulle origini dati.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: f7d07525c97f4aa145dc46198f883a37cde80158
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ I dati caricati tramite origini dati non influiscono [Visualizzazioni pagina](/h
 
 +++È possibile eliminare i dati importati utilizzando origini dati?
 
-**No.** I dati caricati nei rapporti tramite origini dati sono **permanente**. Una volta importata, non può essere rimossa, neanche per Adobe. Adobe consiglia vivamente di caricare i dati di origini dati in una suite di rapporti di prova prima di caricarli in una suite di rapporti di produzione.
+Sì. Puoi eliminare questi dati utilizzando [API Data Repair](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Inoltre, Adobe consiglia vivamente di caricare i dati di origini dati in una suite di rapporti di prova prima di caricarli in una suite di rapporti di produzione.
 +++
 
 +++Quanti dati posso importare alla volta?
