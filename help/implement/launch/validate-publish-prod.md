@@ -4,10 +4,10 @@ description: Scopri come utilizzare i tag Adobe Experience Platform per distribu
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Una volta che la libreria di tag è stata inviata in produzione, la tua organizz
 
 Experience Cloud Debugger è un’estensione che mostra tutti i tag Experience Cloud presenti in una pagina.
 
-1. Installare l’estensione per [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o Firefox.
+1. Installare l’estensione per [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o Firefox.
 2. Vai al tuo sito web di sviluppo su cui hai implementato i tag.
 3. Fai clic sull’icona di Adobe Experience Cloud Debugger nel browser.
 4. Se tutto è implementato correttamente, dovresti visualizzare il contenuto all’interno di Adobe Analytics, i tag e il servizio ID visitatore di Adobe Experience Cloud.

@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: ae1c2ff1987e2fe5d147bfe74874b53492d48b5e
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 11%
+source-wordcount: '559'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Interagisci con le chiamate tramite la scheda Rete di Developer Console:
 
 Adobe Experience Platform Debugger:
 
-1. Scarica e installa [Adobe Experience Platform Debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
+1. Scarica e installa [Adobe Experience Platform Debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. Vai a [!UICONTROL Logs] > [!UICONTROL Edge] > [!UICONTROL Connect to Edge].
 
    ![](assets/validation2.jpg)
@@ -68,7 +68,7 @@ Consulta [Tracciare i collegamenti](https://experienceleague.adobe.com/docs/expe
 
 >[!NOTE]
 >
->L’abilitazione del tracciamento dei collegamenti con l’SDK per web attualmente invia eventi di collegamento quando un cliente passa da una pagina all’altra. Questo è diverso dal funzionamento di AppMeasurement e può potenzialmente causare hit fatturabili aggiuntivi inviati ad Adobe.
+>L’abilitazione del tracciamento dei collegamenti con l’SDK per web attualmente invia eventi di collegamento quando un cliente passa da una pagina all’altra. Questo è diverso dal funzionamento di AppMeasurement e può potenzialmente causare hit fatturabili aggiuntivi inviati a Adobe.
 
 +++
 
