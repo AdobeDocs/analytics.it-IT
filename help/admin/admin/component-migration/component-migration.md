@@ -3,9 +3,9 @@ description: Spiega come migrare componenti e progetti da Adobe Analytics a Cust
 title: Migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 86e4856ec44ee0c6b676e2f145f4e63587368d4c
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1390'
 ht-degree: 2%
 
 ---
@@ -124,7 +124,7 @@ Prima di eseguire la migrazione di qualsiasi progetto al Customer Journey Analyt
 
 Se una migrazione non riesce, puoi riprovare.
 
-Prima di ritentare una migrazione non riuscita, assicurati di rimuoverne [elementi non supportati](#understand-unsupported-elements-that-cause-errors) dal progetto.
+Prima di ritentare una migrazione non riuscita, assicurati di rimuoverne [elementi non supportati](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=en#understand-unsupported-elements-that-cause-errors) dal progetto.
 
 >[!NOTE]
 >
