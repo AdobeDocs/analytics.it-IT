@@ -4,16 +4,16 @@ description: Scopri come implementare Adobe Analytics utilizzando i tag e l’es
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '365'
 ht-degree: 7%
 
 ---
 
 # Implementare Adobe Analytics utilizzando l’estensione Analytics
 
-Durante il ciclo di vita di Adobe Analytics, Adobe ha offerto diversi metodi per implementare nel sito il codice per la raccolta dati. Il metodo attualmente consigliato da Adobe è tramite i tag in Adobe Experience Platform.
+Durante il ciclo di vita di Adobe Analytics, Adobe ha offerto diversi metodi per implementare nel sito il codice per la raccolta dati. Il metodo consigliato corrente di Adobe è tramite [Tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it) in Adobe Experience Platform.
 
 I tag in Adobe Experience Platform sono una soluzione di gestione dei tag che consente di distribuire il codice Analytics insieme ad altri requisiti di assegnazione tag. Adobe offre integrazioni con altre soluzioni e prodotti e consente di distribuire codice personalizzato. Tutte queste attività possono essere eseguite senza dover ricorrere a team di sviluppo nell’organizzazione per aggiornare il codice sul sito.
 
@@ -48,7 +48,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>3</td>
 <td><b><b>Creare una proprietà tag</b>. Le proprietà sono contenitori generali utilizzati per fare riferimento ai dati di gestione dei tag.</td>
-<td><a ref="../launch/create-analytics-property.md">Creare una proprietà tag in Adobe Analytics</a></td>
+<td><a href="../launch/create-analytics-property.md">Creare una proprietà tag in Adobe Analytics</a></td>
 </tr>
 
 <tr>

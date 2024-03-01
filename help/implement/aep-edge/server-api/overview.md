@@ -4,22 +4,22 @@ description: Utilizza l’API del server di rete Edge di Adobe Experience Platfo
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '268'
 ht-degree: 6%
 
 ---
 
 # Implementare Adobe Analytics utilizzando l’API del server di rete Edge di Adobe Experience Platform
 
-In genere si utilizza l’API server di rete Edge di Experienci Platform per raccogliere dati da dispositivi come dispositivi IoT, set-top box e applicazioni desktop. Quindi invia i dati alla rete Edge e a servizi come Adobe Analytics.
+In genere, si utilizza l’API server di rete Edge di Experienci Platform per raccogliere i dati lato server anziché lato client e durante la raccolta di dati da dispositivi quali dispositivi IoT, set-top box e applicazioni desktop. Poi invii i dati alla rete Edge e a servizi come Adobe Analytics.
 
 Considera anche l’API del server di rete Edge quando richiedi che i dati sensibili vengano raccolti in modo sicuro e autenticati in tutta la rete. Consulta [Autenticazione](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) per ulteriori informazioni.
 
 Panoramica ad alto livello dei compiti di implementazione:
 
-![Adobe Analytics utilizzando il flusso di lavoro dell’estensione Analytics](../../assets/edge-network-server-api.png)
+![Adobe Analytics utilizzando il flusso di lavoro dell’estensione Analytics](../../assets/edge-network-server-api-annotated.png)
 
 <table style="width:100%">
 
