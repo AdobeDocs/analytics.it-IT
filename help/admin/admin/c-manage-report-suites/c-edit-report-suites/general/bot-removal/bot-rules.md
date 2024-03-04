@@ -4,10 +4,10 @@ title: Comprendere e configurare le regole bot
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 68%
+source-wordcount: '1624'
+ht-degree: 66%
 
 ---
 
@@ -20,6 +20,10 @@ Una volta definite le regole bot, tutto il traffico in entrata viene confrontato
 La rimozione del traffico da bot riduce in genere il volume di traffico e le metriche di conversione. Molti clienti ritengono che la rimozione del traffico da bot determini tassi di conversione più elevati e aumenti in altre metriche di usabilità.
 
 I dati sul traffico generato dai bot vengono memorizzati in un archivio separato e visualizzati nei rapporti Bots e Bot Pages.
+
+>[!NOTE]
+>
+>Adobe Experience Edge offre [servizio di rilevamento bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) che etichetta gli hit identificati come provenienti da bot. Il processo di rilevamento dei bot di Adobe Analytics è separato da questo e non fa riferimento al punteggio bot incluso nei dati in arrivo tramite Experience Edge. I due sistemi utilizzano lo stesso elenco di bot IAB, quindi dovrebbero comportarsi in modo identico a tale riguardo.
 
 ## Aggiornare o caricare le regole bot
 
