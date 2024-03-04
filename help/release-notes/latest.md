@@ -3,10 +3,10 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
+source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 41%
+source-wordcount: '897'
+ht-degree: 50%
 
 ---
 
@@ -20,6 +20,9 @@ Queste note sulla versione coprono il periodo dal 14 febbraio 2024 all’11 marz
 
 | Funzionalità | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Aggiornamento AppMeasurement** | [Versione di AppMeasurement v2.26.0](/help/implement/appmeasurement-updates.md) è disponibile. | | martedì 4 marzo 2024 |
+| **Aggiornamenti di Data Warehouse** | Sono ora disponibili i seguenti miglioramenti di Data Warehouse:<ul><li>durante la creazione di una richiesta al Data Warehouse, gli utenti possono ora rendere le richieste disponibili a tutti gli utenti dell’organizzazione abilitando il nuovo pulsante denominato [!UICONTROL **Rendi disponibile per gli utenti dell’organizzazione**].<p>Per ulteriori informazioni, consulta [Impostazioni generali delle richieste al Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Durante la creazione o la gestione delle destinazioni dei rapporti del Data Warehouse, gli amministratori di sistema possono ora visualizzare gli account e le posizioni creati dagli utenti dell’organizzazione attivando il pulsante denominato [!UICONTROL **Mostra tutte le destinazioni**].<p>Per ulteriori informazioni, consulta [Configurare una destinazione di rapporto per una richiesta al Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | N/D | 10 gennaio 2024 |
+| **Aggiornamenti alla visualizzazione del Riepilogo delle metriche chiave** | Quando si utilizza la visualizzazione del Riepilogo delle metriche chiave, l’intervallo date di confronto può essere ora aggiornato automaticamente, in base a se l’opzione di intervallo date di confronto che si sceglie sia relativa all’intervallo date principale o fisso. [Ulteriori informazioni](/help/analyze/analysis-workspace/visualizations/key-metric.md). | N/D | 17 gennaio 2024 |
 | **Data Warehouse documentazione API** | Consulta la sezione [API Data Warehouse 2.0 di Adobe Analytics](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API) per ulteriori informazioni. Vai a [!UICONTROL Select a definition] e seleziona [!UICONTROL Data Warehouse APIs]. | | martedì 19 febbraio 2024 |
 | **Activity Map per Web SDK senza costi aggiuntivi** | Attualmente, gli eventi di collegamento Activity Map vengono conteggiati come propri eventi e comportano costi aggiuntivi. Questo miglioramento raccoglie alcuni eventi di collegamento e li inserisce nell’hit successivo, in modo simile a come gli eventi vengono gestiti da AppMeasurement. |  | giovedì 6 marzo 2024 |
 | **Aumento delle soglie predefinite per traffico ridotto** | In entrata **metà aprile 2024**, ad Adobe, inizierà ad aumentare le soglie di traffico ridotto della suite di rapporti predefinita come segue: ![soglie di traffico ridotto](assets/thresholds.png) Questo incide solo sulle variabili attualmente impostate al di sotto delle nuove soglie. Queste modifiche saranno apportate in modo incrementale e ci aspettiamo che il lavoro sia completato entro il **fine maggio**. Con l’introduzione di questi aumenti, potresti notare modifiche per le variabili ad alta cardinalità:<ul><li>Per il reporting possono essere disponibili più valori di dimensione.</li><li>Segmenti e metriche calcolate possono includere più dati.</li><li>Le suite di rapporti virtuali basate sui segmenti possono includere più dati.</li><li>Le esportazioni delle classificazioni possono includere più dati.</li></ul> | Metà aprile 2024 | Fine di maggio 2024 |

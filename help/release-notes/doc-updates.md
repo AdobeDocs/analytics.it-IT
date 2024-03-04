@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
+source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
 workflow-type: tm+mt
-source-wordcount: '5117'
+source-wordcount: '5136'
 ht-degree: 97%
 
 ---
@@ -25,6 +25,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzionalità | Descrizione |
 | --- | --- |
+| **Marzo 2024** | |
+| Aggiornamento AppMeasurement | [Note sulla versione](/help/implement/appmeasurement-updates.md) sull’aggiornamento AppMeasurement v2.26.0.<br/>Include riferimento e aggiornamento a [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) documentazione sulle variabili di configurazione. |
 | **Febbraio 2024** | |
 | Aggiornamenti alle informazioni sulla gestione delle richieste Data Warehouse | È stato chiarito che, per impostazione predefinita, gli utenti possono visualizzare solo le richieste che creano quando [gestione delle richieste Data Warehouse](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | Aggiornamenti alla documentazione sulla condivisione dei progetti | Sono state aggiunte informazioni su come [visualizzare progetti condivisi](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Sono state inoltre semplificate le informazioni su [condivisione di singoli progetti o di più progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
