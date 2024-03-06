@@ -3,7 +3,7 @@ title: Collegamento di download
 description: Nome del collegamento per il download.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 33d837cfa7909bd93d5a4f675aa0d8894a403266
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 3%
@@ -22,7 +22,11 @@ Il &quot;collegamento di download&quot; [dimensione](overview.md) segnala i nomi
 
 Questa dimensione raccoglie dati da [`pev2` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini per hit che hanno anche il `pe` stringa di query con il valore di `lnk_d`. Se il `pe` la stringa di query ha un valore diverso nell’hit, questa dimensione non raccoglie dati.
 
-Se desideri inviare dati a questa dimensione utilizzando AppMeasurement, invia un [`tl()`](/help/implement/vars/functions/tl-method.md) richiesta immagine con argomento tipo collegamento `"d"`. Popolare l&#39;argomento del nome del collegamento con il valore desiderato.
+Se desideri inviare dati a questa dimensione utilizzando AppMeasurement, invia un [`tl()`](/help/implement/vars/functions/tl-method.md) richiesta immagine con argomento tipo collegamento `"d"`. Popolare l’argomento del nome del collegamento con il valore desiderato:
+
+```js
+s.tl(true,"d","Example download link");
+```
 
 ## Elementi dimensionali
 
