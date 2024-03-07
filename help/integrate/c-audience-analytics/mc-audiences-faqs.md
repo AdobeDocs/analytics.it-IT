@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Domande frequenti per Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 4%
@@ -37,7 +37,7 @@ Queste non si applicano all’invio di dati di Adobe Analytics a Adobe Audience 
 
 +++ Come si crea una destinazione Analytics in Audienci Manager?
 
-Consulta [Configurare una destinazione Analytics in Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)&quot;.
+Consulta [Configurare una destinazione Analytics in Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=it)&quot;.
 
 +++
 
@@ -105,7 +105,7 @@ Ovunque; vengono trattati come qualsiasi altra dimensione raccolta in Analytics.
 
 +++
 
-+++ Perché vedo &quot;Limite di pubblico raggiunto&quot; nel mio rapporto Analytics? (Nota: verrà rappresentato anche come Audience ID = -1 e &quot;::max_audiences_exceeded::&quot; nella Data Warehouse)
++++ Perché vedo &quot;Limite di pubblico raggiunto&quot; nel mio rapporto Analytics? (Nota: verrà rappresentato anche come ID pubblico = -1 e `::max_audiences_exceeded::` in Data Warehouse)
 
 Per impostazione predefinita, l’integrazione Audienci Analytics per Adobe Audience Manager invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all’hit. Se un visitatore appartiene a più di 150 segmenti Adobe Audience Manager in un singolo hit, il **150 segmenti qualificati più di recente** vengono inviati ad Analytics, mentre l’elenco rimanente viene troncato. Ad Analytics viene inviato un flag aggiuntivo che indica che l’elenco dei segmenti è stato troncato e viene visualizzato come &quot;Limite di pubblico raggiunto&quot; nella dimensione Nome pubblico e &quot;-1&quot; nella dimensione ID pubblico.
 

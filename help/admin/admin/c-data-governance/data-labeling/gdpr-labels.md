@@ -4,10 +4,10 @@ title: Etichette Privacy dei dati per le variabili di Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '3539'
-ht-degree: 76%
+source-wordcount: '3532'
+ht-degree: 74%
 
 ---
 
@@ -182,7 +182,7 @@ L’etichettatura Privacy dei dati riguarda quattro grandi classi di variabili d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eventi e dimensioni della soluzione </p> </td> 
-   <td colname="col2"> <p>Collegamento alla Activity Map, </p> <p>Pagina della Activity Map </p> </td> 
+   <td colname="col2"> <p>Collegamento alla Activity Map, </p> <p>Pagina di Activity Map </p> </td> 
    <td colname="col3"> <p>Nessuno/I1/I2 </p> <p>Nessuno/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Le variabili possono contenere i parametri dell’URL, che possono includere dati direttamente o indirettamente identificabili. Se l’implementazione non raccoglie dati direttamente o indirettamente identificabili in queste variabili, non sono necessarie le etichette di identità o cancellazione. </p> <p>Nota che la cancellazione elimina i parametri dell’URL, ma ne conserva la base. </p> </td> 
   </tr> 
@@ -262,4 +262,4 @@ Esistono cinque variabili standard che contengono la marca temporale:
 
 Il codice per generare i file restituiti per le richieste di accesso privacy dei dati richiede che almeno una delle prime tre variabili di marca temporale sia inclusa nella richiesta di accesso (che quindi abbia un’etichetta ACC applicabile al tipo di richiesta). Se nessuna di queste è inclusa, allora la marca Ora hit personalizzata (UTC) sarà elaborata come se avesse etichetta ACC-ALL.
 
-Il file CSV restituito per le richieste di accesso Privacy dei dati convertirà i valori in questi campi da marche temporali unix a campi data/ora in formato AAAA-MM-GG HH:MM:SS (ad esempio, 2018-05-01 13:49:22). Nel file HTML di riepilogo, questi valori di marca temporale saranno troncati per includere solo la data, in formato AAAA-MM-GG, per ridurre il numero di valori univoci che si verificano per questi campi.
+Il file CSV restituito per le richieste di accesso Privacy dei dati convertirà i valori in questi campi da marche temporali unix a campi data/ora in formato `YYYY-MM-DD HH:MM:SS` (ad esempio, `2018-05-01 13:49:22`). Nel file di riepilogo di HTML, questi valori di marca temporale verranno troncati per includere solo la data, `YYYY-MM-DD`, per ridurre il numero di valori univoci che si verificano per questi campi.

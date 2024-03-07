@@ -3,10 +3,10 @@ description: Le regole di classificazione cercano regolarmente termini non class
 title: Regole di classificazione
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 92%
+source-wordcount: '1940'
+ht-degree: 89%
 
 ---
 
@@ -63,14 +63,14 @@ about_classification_rules.xml
 
 * **Suite di rapporti**: non puoi scegliere una classificazione finché non viene selezionata almeno una suite di rapporti. Non puoi applicare la suite di rapporti finché non hai creato il set di regole e assegnato una variabile.
 
-   Quando verifichi il set di regole, utilizza le chiavi (la variabile da classificare) del rapporto per vedere in che modo verranno influenzate dal set di regole. La [chiave](/help/components/classifications/importer/c-saint-data-files.md) è la variabile da classificare, o la prima colonna nella tabella di caricamento della classificazione.
+  Quando verifichi il set di regole, utilizza le chiavi (la variabile da classificare) del rapporto per vedere in che modo verranno influenzate dal set di regole. La [chiave](/help/components/classifications/importer/c-saint-data-files.md) è la variabile da classificare, o la prima colonna nella tabella di caricamento della classificazione.
 
 * **Priorità delle regole**: se una chiave corrisponde a più regole che impostano la stessa classificazione (nella colonna [!UICONTROL Set Classification]), l’ultima regola che corrisponde alla classificazione ha la priorità. Consulta [Informazioni sulla priorità delle regole](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Limiti al numero di regole**: non vi sono limiti al numero di regole che puoi creare. Tuttavia, un numero elevato di regole può influire sulle prestazioni del browser.
 * **Elaborazione**: le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
 
-   Le regole attive vengono elaborate ogni quattro ore ed esaminano i dati di classificazione che risalgono in genere a un mese. Le regole verificano automaticamente la presenza di nuovi valori e caricano le classificazioni utilizzando l’importazione.
+  Le regole attive vengono elaborate ogni quattro ore ed esaminano i dati di classificazione che risalgono in genere a un mese. Le regole verificano automaticamente la presenza di nuovi valori e caricano le classificazioni utilizzando l’importazione.
 
 * **Sovrascrittura delle classificazioni esistenti**: consulta [In quali casi le regole non classificano le chiavi?](/help/components/classifications/crb/classification-quickstart-rules.md) Se necessario, puoi eliminare o rimuovere le classificazioni esistenti utilizzando l’importazione.
 
@@ -80,14 +80,14 @@ Quando attivi le regole, puoi sovrascrivere le classificazioni esistenti. Nelle 
 
 * La chiave è già classificata e non hai selezionato [Sovrascrivi classificazioni](/help/components/classifications/crb/classification-rule-definitions.md).
 
-   Puoi sovrascrivere le classificazioni quando [aggiungi e attivi](/help/components/classifications/crb/classification-quickstart-rules.md) una regola e quando attivi l’integrazione dei connettori dati. Per i connettori dati, le regole vengono create dai partner nel centro sviluppatori e visualizzate nel [!UICONTROL Classification Rule Builder].
+  Puoi sovrascrivere le classificazioni quando [aggiungi e attivi](/help/components/classifications/crb/classification-quickstart-rules.md) una regola e quando attivi l’integrazione dei connettori dati. Per i connettori dati, le regole vengono create dai partner nel centro sviluppatori e visualizzate nel [!UICONTROL Classification Rule Builder].
 
-* Una chiave classificata non è stata visualizzata nei dati dopo un intervallo di tempo specificato durante la sovrascrittura di una chiave, anche dopo l’attivazione di [Sovrascrivi classificazioni](/help/components/classifications/crb/classification-rule-definitions.md).
-* La chiave non è classificata e non viene mai passata in [!DNL Adobe Analytics] dopo l’intervallo di tempo iniziato circa un mese fa.
+* Una chiave classificata non è stata visualizzata nei dati dopo un arco temporale specificato durante la sovrascrittura di una chiave, anche dopo l’attivazione di [Sovrascrivi classificazioni](/help/components/classifications/crb/classification-rule-definitions.md).
+* La chiave non è classificata e non viene mai passata in [!DNL Adobe Analytics] dopo l’arco temporale iniziato circa un mese fa.
 
-   >[!NOTE]
-   >
-   >Nei rapporti, le classificazioni si applicano a qualsiasi intervallo di tempo specificato, ogni volta che esiste una chiave. L’intervallo di date di un rapporto non influisce sul reporting.
+  >[!NOTE]
+  >
+  >Nei rapporti, le classificazioni si applicano a qualsiasi arco temporale specificato, ogni volta che esiste una chiave. L’intervallo di date di un rapporto non influisce sul reporting.
 
 ![](assets/overwrite_keys.png)
 
@@ -151,7 +151,7 @@ Nel [!UICONTROL Rule Builder], configura la regola come segue:
 
 | Espressione regolare | Stringa o risultato della corrispondenza | Relativi gruppi di corrispondenza |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601`  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
 | Creazione della sintassi | `^` = avvia la riga  () = raggruppa i caratteri e consente di estrarre i caratteri corrispondenti tra parentesi.  `(.+)` = acquisisce un carattere ( . ) e ( + ) qualsiasi altro carattere \ = inizio di una stringa.  `$` = indica che il carattere precedente (o il gruppo di caratteri) è l’ultimo della riga. |
 
 Per informazioni sul significato dei caratteri in un’espressione regolare, consulta [Espressioni regolari - Tabella riferimenti](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).
@@ -198,14 +198,14 @@ Nel [!UICONTROL Rule Builder], configura la regola come segue:
 
 | Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | Su |
 |--- |--- |--- |--- |
-| Espressione regolare: per la stringa di corrispondenza a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Espressione regolare: per la stringa di corrispondenza a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Espressione regolare: per la stringa di corrispondenza a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Espressione regolare: per la stringa di corrispondenza a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Espressione regolare: per la stringa di corrispondenza a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Espressione regolare: per la stringa di corrispondenza a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Espressione regolare per stringa di corrispondenza `a:b` | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Espressione regolare per stringa di corrispondenza `a:b` | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Espressione regolare per stringa di corrispondenza `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Espressione regolare per stringa di corrispondenza `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Espressione regolare per stringa di corrispondenza `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Espressione regolare per stringa di corrispondenza `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
-## Espressioni regolari - Esempio di “non contiene”  {#section_FCA88A612A4E4B099458E3EF7B60B59C}
+## Espressioni regolari - Esempio di &quot;non contiene&quot; {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
 Questo esempio fornisce un’espressione regolare che corrisponde a qualsiasi stringa che non contiene caratteri specifici, in questo caso `13`.
 
@@ -326,11 +326,10 @@ Per aggiungere o modificare una regola di classificazione:
    >Le suite di rapporti vengono visualizzate in questa pagina *solo* quando sono soddisfatte le seguenti condizioni:
    >
    >* Le suite di rapporti hanno almeno una classificazione definita per la variabile in [!UICONTROL Admin Tools].
-      >
-      >   (vedere *Variabile* in [Set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md) per una spiegazione di questo prerequisito.)
+   >
+   >   (vedere *Variabile* in [Set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md) per una spiegazione di questo prerequisito.)
    >
    >* Hai selezionato la suite di rapporti nella pagina **[!UICONTROL Available Report Suites]**, che viene visualizzata dopo aver fatto clic su [Aggiungi set di regole](/help/components/classifications/crb/classification-rule-set.md) per creare il set di regole.
-
 
 1. Specifica se i valori esistenti devono essere sovrascritti:
 
