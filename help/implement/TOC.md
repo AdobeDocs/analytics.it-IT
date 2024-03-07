@@ -4,17 +4,17 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 97%
+source-wordcount: '407'
+ht-degree: 96%
 
 ---
 
 
 # Guida all’implementazione di Adobe Analytics {#implementation}
 
-+ [Implementazione di Adobe Analytics](home.md)
++ [Implementare Adobe Analytics](home.md)
 + [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
 + [Note sulla versione di AppMeasurement](appmeasurement-updates.md)
 + Variabili, funzioni e metodi di Analytics {#vars}
@@ -130,19 +130,19 @@ ht-degree: 97%
 + Preparazione all’implementazione di Adobe Analytics {#prepare}
    + [Creare un livello di dati](prepare/data-layer.md)
    + [Confrontare i metodi di implementazione](prepare/comparison.md)
-   + [Considerazioni globali sulla suite di report](prepare/global-rs.md)
+   + [Considerazioni globali sulla suite di rapporti](prepare/global-rs.md)
    + [Implementazione dell’assegnazione tag per più suite](prepare/multi-suite-tagging.md)
    + [Creare un documento di progettazione della soluzione](prepare/solution-design.md)
    + [Prendere in consegna un’implementazione Adobe Analytics esistente](prepare/existing-implementation.md)
-+ Implementazione di Analytics tramite Experience Platform Edge {#aep-edge}
-   + [Panoramica di Experience Edge](aep-edge/overview.md)
-   + [Mappatura variabile](aep-edge/variable-mapping.md)
++ Implementazione di Analytics tramite Adobe Experience Platform Edge Network {#aep-edge}
+   + [Panoramica di Edge Network](aep-edge/overview.md)
+   + [Mappatura variabile oggetto XDM](aep-edge/variable-mapping.md)
    + SDK per web {#web-sdk}
       + [Panoramica dell’SDK web](aep-edge/web-sdk/overview.md)
    + SDK per dispositivi mobili {#mobile-sdk}
       + [Panoramica dell’SDK per dispositivi mobili](aep-edge/mobile-sdk/overview.md)
    + API server {#server-api}
-      + [Panoramica dell’API server](aep-edge/server-api/overview.md)
+      + [Panoramica API server](aep-edge/server-api/overview.md)
 + Implementare Analytics tramite l’estensione Adobe Analytics {#launch}
    + [Panoramica sui tag](launch/overview.md)
    + [Creare una proprietà tag in Adobe Analytics](launch/create-analytics-property.md)

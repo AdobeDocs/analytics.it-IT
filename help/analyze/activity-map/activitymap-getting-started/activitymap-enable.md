@@ -5,7 +5,7 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 3%
@@ -104,7 +104,7 @@ Devi abilitare i rapporti Activity Map a livello di suite di rapporti.
 
 ## Passaggio 3. Aggiungi utenti a [!UICONTROL Activity Map Access] profilo prodotto {#add_users}
 
-1. Fai clic su **[!UICONTROL Add Users to Group]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Add Users to Group]**.
 
    Verrà visualizzata la pagina del profilo prodotto in [Adobe Admin Console](https://adminconsole.adobe.com/E2F05B3B52F54D2E0A490D44@AdobeOrg/overview).
 

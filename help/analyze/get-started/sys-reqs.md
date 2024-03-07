@@ -3,14 +3,14 @@ title: Requisiti di sistema di Adobe Analytics
 description: Requisiti di sistema per l’utilizzo di Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
-# Requisiti di sistema e prerequisiti di Adobe Analytics
+# Requisiti e prerequisiti di sistema di Adobe Analytics
 
 Prima di iniziare a implementare Adobe Analytics come amministratore o di utilizzarlo come analista o utente finale, è necessario conoscere i seguenti prerequisiti e requisiti di sistema:
 
@@ -20,11 +20,11 @@ Prima di poter utilizzare Adobe Analytics, è necessario disporre di:
 
 * Una licenza di Adobe Analytics valida
 
-  Adobe Analytics richiede una licenza di sito. Per ulteriori informazioni, contatta il tuo Account Manager Adobe.
+  Adobe Analytics richiede una licenza di sito. Per ulteriori informazioni, contatta il rappresentante del tuo account Adobe.
 
 * Un browser supportato
 
-  Ogni utente che accede ad Adobe Analytics deve utilizzare un browser supportato. Per ulteriori informazioni, consulta [Requisiti di sistema di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=it).
+  Ogni utente che accede ad Adobe Analytics deve utilizzare un browser supportato. Per ulteriori informazioni, consulta [Requisiti di sistema di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html).
 
 ## Requisiti di sistema
 
@@ -43,5 +43,5 @@ La maggior parte delle soluzioni Adobe Analytics, incluso Analysis Workspace, è
 
 Consulta la pagina della soluzione collegata per i requisiti di sistema di quella soluzione.
 
-* [Requisiti Report Builder di sistema](/help/analyze/report-builder/setup/system-requirements.md)
+* [Requisiti di sistema di Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
 

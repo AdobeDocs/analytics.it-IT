@@ -4,7 +4,7 @@ description: Utilizzare l’estensione Mobile SDK in Adobe Experience Platform D
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 25%
@@ -46,12 +46,12 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>3</td>
 <td><b>Configurare uno stream di dati</b>. Un flusso di dati rappresenta la configurazione lato server durante l’implementazione di Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en">Configurare uno stream di dati<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">Configurare uno stream di dati<a></td> 
 </tr>
 
 <td>4</td>
 <td><b>Aggiungere un servizio Adobe Analytics</b> allo stream di dati. Tale servizio controlla se e come i dati vengono inviati ad Adobe Analytics.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
 </tr>
 
 <tr>

@@ -4,18 +4,16 @@ description: Utilizza l’estensione Web SDK in Adobe Experience Platform Data C
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 18%
+source-wordcount: '670'
+ht-degree: 16%
 
 ---
 
 # Implementare Adobe Analytics utilizzando Adobe Experience Platform Web SDK
 
-Puoi utilizzare [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html) per inviare dati ad Adobe Analytics. Questo metodo di implementazione funziona traducendo il [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) in un formato utilizzato da Analytics.
-
-Puoi inviare dati a Experience Edge direttamente utilizzando [SDK per web](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en), o tramite l’estensione Web SDK in Tag.
+Puoi utilizzare [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) per inviare dati ad Adobe Analytics. Questo metodo di implementazione funziona traducendo il [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) in un formato utilizzato da Analytics. Puoi inviare dati a Adobe Experience Platform Edge Network utilizzando la libreria JavaScript di Web SDK o l’estensione tag di Web SDK.
 
 ## Web SDK
 
@@ -32,7 +30,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>1</td>
 <td>Assicurati di avere <b>definizione di una suite di rapporti</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
@@ -50,31 +48,31 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td> 4</td>
 <td><b>Installare la versione standalone predefinita</b>. Puoi fare riferimento alla libreria (<code>alloy.js</code>) sulla rete CDN direttamente sulla pagina oppure scaricala e ospitala sulla tua infrastruttura. In alternativa, è possibile utilizzare il pacchetto NPM.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en#option-2%3A-installing-the-prebuilt-standalone-version">Installazione della versione standalone pregenerata</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en#option-3%3A-using-the-npm-package">Utilizzo del pacchetto NPM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">Installazione della versione standalone pregenerata</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">Utilizzo del pacchetto NPM</a></td>
 </tr>
 
 <tr>
 <td>5</td>
 <td><b>Configurare uno stream di dati</b>. Un flusso di dati rappresenta la configurazione lato server durante l’implementazione di Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en">Configurare uno stream di dati<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">Configurare uno stream di dati<a></td> 
 </tr>
 
 <td>6</td>
 <td><b>Aggiungere un servizio Adobe Analytics</b> allo stream di dati. Tale servizio controlla se e come i dati vengono inviati ad Adobe Analytics e a quali suite di rapporti in particolare.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Configurare l’SDK per web</b>. Assicurati che la libreria installata nel passaggio 4 sia configurata correttamente con l’ID dello stream di dati (precedentemente noto come ID di configurazione edge )<code>edgeConfigId</code>)), id organizzazione (<code>orgId</code>) e altre opzioni disponibili. Assicurati che la mappatura delle variabili sia corretta. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it">Configurare l’SDK per web</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Mappatura delle variabili di Analytics</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Mappatura manuale delle variabili</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configurare l’SDK per web</a><br/><a href="../variable-mapping.md">Mappatura variabile oggetto XDM</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Esegui comandi</b> e/o <b>tracciare gli eventi</b>. Una volta implementato il codice di base nella pagina web, puoi iniziare a eseguire comandi ed eventi di tracciamento con l’SDK.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/executing-commands.html?lang=en">Esegui comandi</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=en">Tracciare gli eventi</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">Inviare eventi</a></td>
 </tr>
 
 <tr>
@@ -98,7 +96,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>1</td>
 <td>Assicurati di avere <b>definizione di una suite di rapporti</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
@@ -116,31 +114,31 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>4</td>
 <td><b>Configurare uno stream di dati</b>. Un flusso di dati rappresenta la configurazione lato server durante l’implementazione di Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en">Configurare uno stream di dati<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">Configurare uno stream di dati<a></td> 
 </tr>
 
 <tr>
 <td>5</td> 
 <td><b>Aggiungere un servizio Adobe Analytics</b> allo stream di dati. Tale servizio controlla se e come i dati vengono inviati ad Adobe Analytics e a quali suite di rapporti in particolare.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>Creare una proprietà tag</b>. Le proprietà sono contenitori generali utilizzati per fare riferimento ai dati di gestione dei tag.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en#for-web">Creare o configurare una proprietà tag per il Web</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">Creare o configurare una proprietà tag per il Web</a></td>
 </tr>
 
 <tr>
 <td>7</td> 
 <td><b>Installare e configurare l’estensione Web SDK</b> nella proprietà tag. Configura l’estensione Web SDK per inviare i dati allo stream di dati configurato nel passaggio 4.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=en">Panoramica dell’estensione Adobe Experience Platform Web SDK</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html">Panoramica dell’estensione Adobe Experience Platform Web SDK</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Iterare, convalidare e pubblicare</b> alla produzione. Incorpora il codice per includere la proprietà tag nelle pagine del sito web. Quindi utilizza elementi dati, regole e così via, per personalizzare l’implementazione.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Codice di incorporamento</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en">Panoramica sulla pubblicazione</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Codice di incorporamento</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it">Panoramica sulla pubblicazione</a></td>
 </tr>
 
 </table>

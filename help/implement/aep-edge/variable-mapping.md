@@ -1,17 +1,17 @@
 ---
-title: Mappatura delle variabili di Analytics in Adobe Experience Edge
+title: Mappatura delle variabili di Analytics tramite l’oggetto XDM dell’SDK per web
 description: Visualizza quali campi XDM mappati automaticamente da Edge alle variabili di Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bc1311171e7cec6538dcdb44ad13761b0d39851b
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 82%
+source-wordcount: '1145'
+ht-degree: 81%
 
 ---
 
-# Mappatura delle variabili di Analytics in Adobe Experience Edge
+# Mappatura delle variabili di Analytics tramite l’oggetto XDM dell’SDK per web
 
 La tabella seguente mostra le variabili mappate automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi XDM, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics. Questi campi sono inclusi nel **[!UICONTROL Adobe Analytics ExperienceEvent Template]** gruppo di campi.
 

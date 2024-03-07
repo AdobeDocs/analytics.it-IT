@@ -4,10 +4,10 @@ description: Scopri come implementare Adobe Analytics utilizzando i tag e l’es
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -53,7 +53,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>4</td><td><b>Installare l’estensione Analytics</b> nella proprietà tag. Configura l’estensione Analytics per inviare dati ad Adobe Analytics.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en">Panoramica dell’estensione Adobe Analytics</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=it">Panoramica dell’estensione Adobe Analytics</a></td>
 </tr>
 
 <tr>
@@ -65,7 +65,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>6</td> 
 <td><b>Convalida e pubblicazione in produzione</b>. Incorpora il codice per includere la proprietà tag nelle pagine del sito web. Quindi utilizza elementi dati, regole e così via, per personalizzare l’implementazione.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Codice di incorporamento</a><br/><a href="./validate-publish-prod.md">Convalidare un’implementazione di sviluppo e pubblicare in produzione</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Codice di incorporamento</a><br/><a href="./validate-publish-prod.md">Convalidare un’implementazione di sviluppo e pubblicare in produzione</a></td>
 </tr>
 
 </table>

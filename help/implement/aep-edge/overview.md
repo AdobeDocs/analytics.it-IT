@@ -4,18 +4,18 @@ description: Panoramica dell’utilizzo di dati XDM da Experience Platform in Ad
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 35%
+source-wordcount: '315'
+ht-degree: 23%
 
 ---
 
-# Implementare Adobe Analytics con Adobe Experience Platform Edge
+# Implementare Adobe Analytics con Adobe Experience Platform Edge Network
 
-Adobe Experience Platform Edge consente di inviare dati destinati a più prodotti a una posizione centralizzata. Experience Edge inoltra le informazioni appropriate ai prodotti desiderati. Questo concetto consente di consolidare le attività di implementazione, in particolare per quanto riguarda più soluzioni di dati.
+La rete Edge di Adobe Experience Platform consente di inviare dati destinati a più prodotti a una posizione centralizzata. La rete Edge inoltra le informazioni appropriate ai prodotti desiderati. Questo concetto consente di consolidare le attività di implementazione, in particolare per quanto riguarda più soluzioni di dati.
 
-Adobe offre tre modi principali per inviare dati a Experience Edge:
+L’Adobe offre tre modi principali per inviare dati alla rete Edge:
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**: utilizza l’estensione Web SDK in raccolta dati Adobe Experience Platform per inviare dati a Edge.
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**: utilizza l’estensione Mobile SDK in raccolta dati Adobe Experience Platform per inviare dati a Edge.
@@ -23,13 +23,15 @@ Adobe offre tre modi principali per inviare dati a Experience Edge:
 
 
 
-## Gestione dei dati Experience Edge in Adobe Analytics
+## Come Adobe Analytics gestisce i dati della rete Edge
 
-I dati inviati a Experience Edge devono essere conformi agli schemi basati su [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it). XDM offre flessibilità nei campi definiti come parte degli eventi. Nel momento in cui gli eventi raggiungono Adobe Analytics, vengono tradotti in dati più strutturati che Adobe Analytics può gestire: visualizzazioni di pagina o eventi di collegamento.
+I dati inviati a Adobe Experience Platform Edge Network possono essere in due formati:
 
-XDM stesso non prescrive come definire le visualizzazioni di pagina o gli eventi di collegamento, né indica ad Adobe Analytics come trattare il suo payload. Ad esempio, alcuni campi XDM predefiniti che sembrano correlati alle visualizzazioni di pagina o agli eventi di collegamento, come `eventType`, `web.webPageDetails.pageViews`, o `web.webInteraction.linkEvents` sono completamente indipendenti dall’implementazione e non hanno alcuna rilevanza per Adobe Analytics.
+* Oggetto XDM: conforme agli schemi basati su [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it). XDM offre flessibilità nei campi definiti come parte degli eventi. Quando gli eventi raggiungono Adobe Analytics, vengono tradotti in un formato che Adobe Analytics è in grado di gestire.
+* Oggetto dati: invia dati a Edge Network utilizzando campi specifici mappati ad Adobe Analytics. La rete Edge rileva la presenza di questi campi e li inoltra ad Adobe Analytics senza la necessità di conformarsi a uno schema.
 
-Per gestire correttamente le visualizzazioni di pagina e gli eventi di collegamento, la logica seguente viene applicata ai dati inviati alla rete Adobe Experience Edge e inoltrati ad Adobe Analytics.
+
+La rete Edge utilizza la seguente logica per determinare le visualizzazioni di pagina e gli eventi di collegamento di Adobe Analytics
 
 | Il payload XDM contiene... | Adobe Analytics: |
 |---|---|
@@ -40,4 +42,4 @@ Per gestire correttamente le visualizzazioni di pagina e gli eventi di collegame
 
 {style="table-layout:auto"}
 
-Consulta la [Gruppo di campi schema Estensione completa Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) per ulteriori informazioni.
+Consulta la [Gruppo di campi schema Estensione completa Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) per ulteriori informazioni.

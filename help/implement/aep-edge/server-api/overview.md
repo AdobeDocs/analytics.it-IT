@@ -4,7 +4,7 @@ description: Utilizza l’API del server di rete Edge di Adobe Experience Platfo
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 6%
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 In genere, si utilizza l’API server di rete Edge di Experienci Platform per raccogliere i dati lato server anziché lato client e durante la raccolta di dati da dispositivi quali dispositivi IoT, set-top box e applicazioni desktop. Poi invii i dati alla rete Edge e a servizi come Adobe Analytics.
 
-Considera anche l’API del server di rete Edge quando richiedi che i dati sensibili vengano raccolti in modo sicuro e autenticati in tutta la rete. Consulta [Autenticazione](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) per ulteriori informazioni.
+Considera anche l’API del server di rete Edge quando richiedi che i dati sensibili vengano raccolti in modo sicuro e autenticati in tutta la rete. Consulta [Autenticazione](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) per ulteriori informazioni.
 
 Panoramica ad alto livello dei compiti di implementazione:
 
@@ -48,12 +48,12 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>4</td>
 <td><b>Implementare e testare la raccolta dei dati</b> utilizzando le API di raccolta dati di eventi Single event e Batch.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en">Raccolta di dati per evento singolo</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=en">Raccolta dati di eventi batch</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html">Raccolta di dati per evento singolo</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Raccolta dati di eventi batch</a>
 </tr>
 
 <td>5</td>
 <td><b>Aggiungere un servizio Adobe Analytics</b> allo stream di dati. Tale servizio controlla se e come i dati vengono inviati ad Adobe Analytics.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=ens">Interazione con Adobe Analytics</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.htmls">Interazione con Adobe Analytics</a></td>
 </tr>
 
 

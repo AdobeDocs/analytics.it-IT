@@ -1,23 +1,23 @@
 ---
 description: Scopri come abilitare il reporting di Adobe Campaign Standard in Adobe Analytics
-title: Come si integra il reporting di Adobe Campaign Standard in Adobe Analytics?
+title: In che modo viene integrato il reporting di Adobe Campaign Standard in Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 66%
+ht-degree: 99%
 
 ---
 
 
-# Reportistica di Adobe Campaign Standard
+# Generazione rapporti di Adobe Campaign Standard
 
 Per ulteriori informazioni su come configurare questa integrazione, consulta la [documentazione di Adobe Campaign](https://helpx.adobe.com/it/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 >[!IMPORTANT]
->Questo articolo si applica ad Adobe Campaign **Standard** solo reporting. Consulta [qui](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) per aggiungere Adobe Campaign **Classic** reportistica.
+>Questo articolo si applica solo alla generazione rapporti di Adobe Campaign **Standard**. Consulta [qui](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html) per aggiungere il reporting di Adobe Campaign **Classic**.
 
 Questa integrazione tra Adobe Analytics e Adobe Campaign Standard:
 
@@ -27,11 +27,11 @@ Questa integrazione tra Adobe Analytics e Adobe Campaign Standard:
 * Aggiunge 5 nuove classificazioni di Adobe Campaign.
 * Aggiunge 9 nuove metriche di Adobe Campaign.
 * Aggiunge 6 nuove dimensioni di Adobe Campaign.
-* Sincronizza i dati con Analytics ogni 15 minuti tramite un’origine dati con provisioning automatico.
+* Sincronizzare i dati con Analytics ogni 15 minuti tramite un’origine dati con provisioning automatico.
 
-## Passaggio 1. Abilita reporting di Adobe Campaign Standard {#section_C685EF10505045708A6536BB13F6CD58}
+## Passaggio 1. Abilitare la generazione rapporti di Adobe Campaign Standard {#section_C685EF10505045708A6536BB13F6CD58}
 
-Per visualizzare i dati di Campaign Standard in Analytics, devi innanzitutto abilitare il reporting di Campaign in Report Suite Manager.
+Per visualizzare i dati di Campaign Standard in Analytics devi prima abilitare la generazione rapporti di Campaign in Report Suite Manager.
 
 1. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]**.
 1. Fai clic su **[!UICONTROL Enable Campaign Reporting]**.
@@ -42,9 +42,9 @@ Per visualizzare i dati di Campaign Standard in Analytics, devi innanzitutto abi
 
 L’integrazione tra Adobe Campaign Standard e Adobe Analytics aggiunge il seguente rapporto in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**
 
-* **[!UICONTROL Adobe Campaign Executed Delivery ID]**: mostra i dati importati da Adobe Campaign sulle e-mail inviate da Adobe Campaign. |
+* **[!UICONTROL Adobe Campaign Executed Delivery ID]**: mostra i dati importati da Adobe Campaign sulle e-mail inviate da Adobe Campaign.
 
-## Passaggio 3. Utilizzare le classificazioni di Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
+## Passaggio 3. Usare le classificazioni di Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
 
@@ -54,7 +54,7 @@ Una volta che la suite di rapporti è abilitata per Adobe Campaign, sono disponi
 | --- | --- |
 | [!UICONTROL Delivery ID] | Nome della consegna interna visualizzato in Campaign |
 | [!UICONTROL Delivery Label] | Consegna in Campaign: consegna individuale/ricorrente/di transazione |
-| [!UICONTROL Campaign ID] | Nome della campagna interna visualizzato in Campaign |
+| [!UICONTROL Campaign ID] | Nome della consegna interna visualizzato in Campaign |
 | [!UICONTROL Campaign Label] | Campagna in Adobe Campaign |
 | [!UICONTROL Executed Delivery Label] | Elenco delle singole consegne eseguite |
 

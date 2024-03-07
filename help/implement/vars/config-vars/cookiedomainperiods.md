@@ -4,7 +4,7 @@ description: AppMeasurement di aiuto per capire quale dominio memorizzare i cook
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: fe33da47c109adacb8162c7165ad4c63bd65c08d
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 7%
@@ -51,7 +51,7 @@ La tabella seguente illustra quattro possibili scenari.
 >
 >Durante la configurazione corretta `cookieDomainPeriods` migliorerà le funzionalità di AppMeasurement e Analytics; si consiglia di valutare se le modifiche derivanti dall’aggiornamento della libreria di AppMeasurement influiscono sulle modifiche.
 >
-> Consulta [Cookie di Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=it) per ulteriori informazioni sui cookie, l’AppMeasurement utilizza.
+> Consulta [Cookie di Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html) per ulteriori informazioni sui cookie, l’AppMeasurement utilizza.
 
 ## Periodi del dominio dei cookie tramite Web SDK
 

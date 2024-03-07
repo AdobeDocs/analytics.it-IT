@@ -3,7 +3,7 @@ description: Spiega i preparativi necessari per preparare la migrazione di compo
 title: Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 5%
@@ -27,13 +27,13 @@ Prima che i progetti e i relativi componenti siano pronti per la migrazione, dev
 
    * Per utilizzare il connettore di origine di Adobe Analytics, è necessario:
 
-      1. [Configurare le suite di rapporti per l’acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Configurare le suite di rapporti per l’acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [Inserire e utilizzare i dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=it)
 
    * Per utilizzare Web SDK, è necessario:
 
-      1. [Configurare le suite di rapporti per l’acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Configurare le suite di rapporti per l’acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [Inserire dati tramite Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
@@ -41,7 +41,7 @@ Prima che i progetti e i relativi componenti siano pronti per la migrazione, dev
 
 1. Assicurati che gli utenti nel Customer Journey Analytics siano assegnati alle visualizzazioni dati in cui vengono mappati i dati.
 
-   Per ulteriori informazioni, consulta [Autorizzazioni di Customer Journey Analytics nell’Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [Controllo dell’accesso al Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+   Per ulteriori informazioni, consulta [Autorizzazioni di Customer Journey Analytics nell’Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) in [Controllo dell’accesso al Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
    La scheda Autorizzazioni fa parte di ciascun profilo di prodotto in Admin Console. Puoi aggiungere utenti a profili di prodotto specifici. Puoi quindi assegnare i diritti a visualizzazioni dati specifiche e specificare quali autorizzazioni hanno gli utenti in un profilo di prodotto.
 

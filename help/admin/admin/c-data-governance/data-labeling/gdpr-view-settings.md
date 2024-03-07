@@ -4,7 +4,7 @@ title: Visualizzazione/gestione delle etichette sulla privacy per la governance 
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 31%
@@ -31,11 +31,11 @@ Il **[!UICONTROL Privacy Labeling for Data Governance]** Questa finestra di dial
 | Impostazione | Descrizione |
 | --- | --- |
 | **[!UICONTROL Component Name]** | In questa colonna sono elencati tutti i componenti (dimensioni, metriche) che fanno parte di questa suite di rapporti. |
-| **[!UICONTROL Identity]** | Le etichette &quot;I&quot; dei dati di identità sono utilizzate per categorizzare i dati che possono identificare o contattare una persona specifica. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-identity-labels) |
-| **[!UICONTROL Sensitivity]** | Le etichette “S” per i dati sensibili vengono usate per organizzare in categorie i dati sensibili, come i dati geografici. In futuro saranno introdotte etichette aggiuntive per i dati sensibili per identificare altri tipi di informazioni sensibili. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#sensitive-data-labels) |
-| **[!UICONTROL GDPR Access]** | Le etichette per la governance dei dati consentono agli utenti di classificare i dati che riflettono considerazioni relative alla privacy e condizioni contrattuali conformi alle normative e alle politiche aziendali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-access-labels) |
-| **[!UICONTROL GDPR Delete]** | L’etichetta Elimina è necessaria solo per i campi che contengono un valore che consentirebbe l’associazione di un hit all’interessato (ovvero che consentirebbe l’identificazione dell’interessato). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
-| **[!UICONTROL Namespace]** | Quando si applica un’etichetta ID-DEVICE o ID-PERSON a una variabile, viene richiesto di fornire un namespace. Puoi utilizzare uno spazio dei nomi definito in precedenza o definirne uno nuovo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
+| **[!UICONTROL Identity]** | Le etichette &quot;I&quot; dei dati di identità sono utilizzate per categorizzare i dati che possono identificare o contattare una persona specifica. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-identity-labels) |
+| **[!UICONTROL Sensitivity]** | Le etichette “S” per i dati sensibili vengono usate per organizzare in categorie i dati sensibili, come i dati geografici. In futuro saranno introdotte etichette aggiuntive per i dati sensibili per identificare altri tipi di informazioni sensibili. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#sensitive-data-labels) |
+| **[!UICONTROL GDPR Access]** | Le etichette per la governance dei dati consentono agli utenti di classificare i dati che riflettono considerazioni relative alla privacy e condizioni contrattuali conformi alle normative e alle politiche aziendali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-access-labels) |
+| **[!UICONTROL GDPR Delete]** | L’etichetta Elimina è necessaria solo per i campi che contengono un valore che consentirebbe l’associazione di un hit all’interessato (ovvero che consentirebbe l’identificazione dell’interessato). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-delete-labels) |
+| **[!UICONTROL Namespace]** | Quando si applica un’etichetta ID-DEVICE o ID-PERSON a una variabile, viene richiesto di fornire un namespace. Puoi utilizzare uno spazio dei nomi definito in precedenza o definirne uno nuovo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#provide-namespace) |
 | **[!UICONTROL Category]** | Riferisce il tipo di componente, ad esempio Componente standard, Variabile di conversione e così via. |
 
 {style="table-layout:auto"}
@@ -64,7 +64,7 @@ Se desideri applicare le stesse impostazioni di Privacy dei dati a più di una s
    Durante la copia delle etichette per le classificazioni definite per una variabile, le etichette verranno copiate in una classificazione nella variabile corrispondente nella suite di rapporti di destinazione (ad esempio da eVar7 a eVar7) che ha un nome identico alla classificazione da copiare. Altrimenti, la copia delle etichette della classificazione non verrà eseguita.
 
 1. Seleziona la casella accanto a una o più suite di rapporti in cui le impostazioni corrispondono.
-1. Fai clic su **[!UICONTROL Apply]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Apply]**.
 
    Dopo l&#39;applicazione di un&#39;etichetta viene visualizzato un messaggio di stato. Il messaggio di stato includerà i nomi delle variabili o delle classificazioni di destinazione e le relative suite di rapporti per cui la copia non è riuscita.
 

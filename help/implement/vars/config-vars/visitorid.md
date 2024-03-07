@@ -4,10 +4,10 @@ description: Utilizza un ID visitatore personalizzato.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 12%
+source-wordcount: '326'
+ht-degree: 11%
 
 ---
 
@@ -46,6 +46,6 @@ s.visitorID = "abc123";
 >
 >Un’implementazione non valida degli ID visitatore personalizzati può portare a dati errati e prestazioni di reporting scadenti. Se questa variabile contiene un valore predefinito (ad esempio `"0"` o `"NULL"`), Adobe tratta questi hit come se fossero lo stesso visitatore. Questa situazione genera dati errati, con un numero basso di visitatori e segmenti a livello di visitatore che non funzionano come previsto. Gli ID visitatore personalizzati implementati in modo non corretto introducono anche un carico pesante sui server di elaborazione, aumentando [latenza](/help/technotes/latency.md) e la riduzione delle prestazioni dei rapporti.
 
-## ID visitatore tramite Web SDK ed Experience Edge
+## ID visitatore tramite Web SDK
 
-Experience Edge consente di fornire più identificatori utilizzando XDM [Mappa identità](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). Ogni identità in Identity Map ha uno spazio dei nomi diverso. Puoi specificare quale spazio dei nomi utilizzare per l’ID visitatore come parte di [configurazione dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#analytics). Una volta configurato, quando invii un evento con un valore specificato per questo spazio dei nomi, verrà utilizzato automaticamente come ID visitatore in Analytics.
+La rete Edge di Adobe Experience Platform consente di fornire più identificatori utilizzando XDM [Mappa identità](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap). Ogni identità in Identity Map ha uno spazio dei nomi diverso. Puoi specificare quale spazio dei nomi utilizzare per l’ID visitatore come parte di [configurazione dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Una volta configurato, quando invii un evento con un valore specificato per questo spazio dei nomi, verrà utilizzato automaticamente come ID visitatore in Analytics.

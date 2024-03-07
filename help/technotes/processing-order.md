@@ -3,10 +3,10 @@ title: Ordine di elaborazione per dati in Adobe Analytics
 description: Scopri l’ordine dei componenti e dei servizi che elaborano i dati in Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 97%
+source-wordcount: '585'
+ht-degree: 91%
 
 ---
 
@@ -21,10 +21,10 @@ Adobe offre diversi modi per modificare o intervenire sui dati prima che vengano
 Prima dell’invio dei dati ad Adobe, in genere avviene una compilazione lato client utilizzando uno dei seguenti metodi:
 
 * **AppMeasurement**: un file JavaScript ospitato sul tuo sito e a cui si fa riferimento in ogni pagina. I dati vengono inviati direttamente ad Adobe Analytics.
-* **Adobe Experience Platform Web SDK**: un file JavaScript ospitato sul tuo sito e a cui si fa riferimento in ogni pagina. I dati vengono inviati ad Adobe Experience Edge.
+* **Adobe Experience Platform Web SDK**: un file JavaScript ospitato sul tuo sito e a cui si fa riferimento in ogni pagina. I dati vengono inviati alla rete Edge di Adobe Experience Platform.
 * **Tag nella raccolta dati di Adobe Experience Cloud**: un file JavaScript a cui si fa riferimento in ogni pagina, contenente regole create all’interno dell’interfaccia di Raccolta dati. L’estensione Adobe Analytics offre un modo più semplice per implementare AppMeasurement. L’estensione Web SDK offre un modo più semplice per implementare Web SDK.
 
-Se invii dati ad Adobe Experience Edge, puoi configurarlo per l’inoltro dei dati ad Adobe Analytics (nonché a molte altre soluzioni Adobe Experience Cloud). Indipendentemente dal metodo di implementazione, il risultato è l’invio di una richiesta di immagine con le variabili desiderate ai server di raccolta dati di Adobe.
+Se invii dati a Edge Network, puoi configurarlo per l’inoltro dei dati ad Adobe Analytics (nonché a molte altre soluzioni Adobe Experience Cloud). Indipendentemente dal metodo di implementazione, il risultato è l’invio di una richiesta di immagine con le variabili desiderate ai server di raccolta dati di Adobe.
 
 ## Dati in arrivo sui server di raccolta dati di Adobe Analytics
 

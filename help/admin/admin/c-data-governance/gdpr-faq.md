@@ -4,7 +4,7 @@ title: Domande frequenti sulla governance dei dati
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 40%
@@ -85,7 +85,7 @@ In qualità di titolare del trattamento, è tua responsabilità ottenere il cons
 
 In genere i dati personali non dovrebbero essere conservati per un periodo più lungo del tempo necessario a raggiungere lo scopo per il quale sono stati raccolti. I Termini generali di Adobe applicano un piano predefinito di conservazione dei dati di 25 mesi, a meno che non sia contrattualmente concordato un termine di conservazione dei dati diverso. I clienti devono impostare i propri criteri di conservazione dei dati prima che Adobe possa elaborare una richiesta di Privacy dei dati.
 
-I criteri di conservazione dei dati correnti di ogni suite di report vengono visualizzati nella nuova interfaccia utente Admin Governance dei dati. Se è necessario modificare i criteri di conservazione dei dati, i clienti devono contattare il proprio rappresentante di Adobe. Fare riferimento a [Domande frequenti sulla conservazione dei dati in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=en).
+I criteri di conservazione dei dati correnti di ogni suite di report vengono visualizzati nella nuova interfaccia utente Admin Governance dei dati. Se è necessario modificare i criteri di conservazione dei dati, i clienti devono contattare il proprio rappresentante di Adobe. Fare riferimento a [Domande frequenti sulla conservazione dei dati in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=it).
 
 +++
 
