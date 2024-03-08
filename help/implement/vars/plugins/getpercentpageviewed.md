@@ -4,9 +4,9 @@ description: Recupera la percentuale della pagina visualizzata dal visitatore.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '750'
 ht-degree: 4%
 
 ---
@@ -78,7 +78,11 @@ La chiamata di questa funzione non restituisce alcun risultato, ma imposta le se
 
 Assegna una o più di queste variabili alle eVar per visualizzare i dati delle dimensioni nei rapporti.
 
-Questo plug-in crea un cookie di prime parti denominato `s_ppv` che contiene i valori precedenti. Scade alla fine della sessione del browser.
+Questo plug-in crea tre cookie di prime parti che scadono al termine di una sessione del browser:
+
+* `s_ppv`: memorizza ciascuno dei valori esposti chiamando la funzione
+* `s_tp`: memorizza l’altezza totale in pixel della pagina precedente
+* `s_ips`: memorizza la percentuale di scorrimento iniziale della pagina precedente
 
 ## Esempi
 
