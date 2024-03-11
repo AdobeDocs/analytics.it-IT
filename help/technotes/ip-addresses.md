@@ -3,9 +3,9 @@ title: IP e domini utilizzati da Adobe Analytics
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 3483e209a6ae8c2b37d45903b270a2adb3b297ca
+source-git-commit: 4c5eb7c7704a31b2d43476e1db174da473cb1d4d
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '395'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,7 @@ La tabella seguente descrive tutti gli indirizzi IP di proprietà dell’Adobe u
 | `66.117.16.0/20` |
 | `66.235.128.0/19` |
 | `130.248.0.0/16` |
+| `172.82.192.0/18` |
 | `185.34.188.0/22` |
 | `192.243.240.0/22` |
 
@@ -76,6 +77,8 @@ Se la tua organizzazione preferisce consentire intervalli di indirizzi IP specif
 | Singapore | `63.140.44.0/22` |
 | Singapore | `63.140.48.0/23` |
 | Singapore | `66.117.30.0/24` |
+| Singapore | `172.82.240.8/29` |
+| Singapore | `172.82.240.88/29` |
 | Virginia | `63.140.38.0/23` |
 | Virginia | `63.140.54.0/24` |
 
