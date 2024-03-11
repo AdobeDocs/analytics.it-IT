@@ -1,18 +1,18 @@
 ---
 description: Abilita le dimensioni di gestione del consenso.
-title: Rapporti sulla privacy
+title: Rapporti sula privacy
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: 22cef24f344ac6f90059eac1e021b32c63dc4e7c
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 9%
+source-wordcount: '76'
+ht-degree: 11%
 
 ---
 
 # Rapporti sulla privacy
 
-La generazione di rapporti sulla privacy consente di abilitare [Gestione del consenso Opt-in](/help/components/dimensions/cm-opt-in.md) e [Rinuncia alla gestione del consenso](/help/components/dimensions/cm-opt-out.md) dimensioni da utilizzare nel reporting.
+La generazione di rapporti sulla privacy consente di abilitare [Gestione del consenso Opt-in](/help/components/dimensions/cm-opt-in.md), [Rinuncia alla gestione del consenso](/help/components/dimensions/cm-opt-out.md) e [Consenso annuncio](/help/components//dimensions/ad-consent.md) dimensioni da utilizzare nel reporting.
 
 Per accedere a questa pagina:
 

@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: dfec68a0ecdf691ab1005919fa3df01158a9cec9
+source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
 workflow-type: tm+mt
-source-wordcount: '3899'
-ht-degree: 99%
+source-wordcount: '3928'
+ht-degree: 98%
 
 ---
 
@@ -68,6 +68,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | **`daily_visitor`** | Flag per determinare se l’hit è un nuovo visitatore giornaliero. | tinyint unsigned |
 | **`dataprivacyconsentoptin`** | Variabile utilizzata nella dimensione [Consenso alla gestione del consenso](/help/components/dimensions/cm-opt-in.md). È possibile che siano presenti più valori per hit, separati da una barra verticale (`\|`). I valori validi includono `DMP` e `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | Variabile utilizzata nella dimensione [Rinuncia alla gestione del consenso](/help/components/dimensions/cm-opt-out.md). È possibile che siano presenti più valori per hit, separati da una barra verticale (`\|`). I valori validi includono `SSF`, `DMP` e `SELL`. | varchar(100) |
+| **`dataprivacydmaconsent`** | Valore che identifica se il consenso è acquisito per l’invio di dati da Adobe Analytics tramite Adobi Advertising a provider pubblicitari di terze parti (come Google). Consulta [Consenso annuncio](/help/components/dimensions/ad-consent.md) per ulteriori informazioni. | varchar(100) |
 | **`date_time`** | L’ora dell’hit in formato leggibile, in base al fuso orario della suite di rapporti. | Datetime |
 | **`domain`** | Variabile utilizzata nella dimensione [Dominio](/help/components/dimensions/domain.md). In base al punto di accesso a Internet del visitatore. | varchar(100) |
 | **`duplicate_events`** | Elenca ogni evento conteggiato come duplicato. | varchar(255) |
