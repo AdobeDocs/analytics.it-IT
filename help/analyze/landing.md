@@ -4,10 +4,10 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: a75c807c1f54676e359cf502781ba1de5fd6c51c
+source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
 workflow-type: tm+mt
-source-wordcount: '1745'
-ht-degree: 89%
+source-wordcount: '1760'
+ht-degree: 88%
 
 ---
 
@@ -55,7 +55,7 @@ Le colonne disponibili sono:
 | [!UICONTROL **Condiviso con**] | Mostra con chi è attualmente condiviso il progetto. |
 | [!UICONTROL **Ultima modifica**] | Data e ora dell’ultima modifica apportata al progetto. |
 | [!UICONTROL **Ultima apertura**] | Identifica la data dell&#39;ultima apertura di un progetto da parte dell&#39;utente che sta visualizzando la pagina Progetti. |
-| [!UICONTROL **Ultimo utilizzo**] | Consente di determinare se un progetto è utile per gli utenti dell’organizzazione mostrando la data e l’ora dell’ultima apertura del progetto da parte di qualsiasi utente all’interno dell’organizzazione.<p>Questa colonna è disponibile solo per gli amministratori di sistema.</p> |
+| [!UICONTROL **Ultimo utilizzo**] | Consente di determinare se un progetto è utile per gli utenti dell’organizzazione mostrando la data e l’ora dell’ultima apertura del progetto da parte di qualsiasi utente all’interno dell’organizzazione.<p>Quando visualizzi questa colonna, tieni presente quanto segue:</p><ul><li>Le informazioni sull’utilizzo sono disponibili a partire da settembre 2023.</li><li>Questa colonna è disponibile solo per gli amministratori di sistema.</li></ul> |
 | [!UICONTROL **ID Progetto**] | Può essere utilizzato per il debug di progetti. |
 | [!UICONTROL **Intervallo date più lungo**] | Intervalli di date più lunghi aumentano la complessità del progetto e possono comportare tempi di elaborazione e di caricamento più lunghi. |
 | [!UICONTROL **Numero di query**] | Numero totale di richieste effettuate ad Analytics quando il progetto viene caricato. Un numero elevato di query di progetto aumenta la complessità del progetto e può comportare tempi di elaborazione e di caricamento più lunghi. Questi dati sono disponibili solo dopo il caricamento di un progetto o l’invio di un progetto pianificato. |
