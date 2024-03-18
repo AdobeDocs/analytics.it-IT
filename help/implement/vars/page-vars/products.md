@@ -4,9 +4,9 @@ description: Invia dati sui prodotti visualizzati o nel carrello.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '686'
 ht-degree: 3%
 
 ---
@@ -21,18 +21,20 @@ Il `products` la variabile traccia i prodotti e le proprietà ad essi associate.
 
 ## Prodotti che utilizzano il Web SDK
 
-I prodotti sono [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) in diversi campi XDM:
+Se utilizzi il [**Oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), i prodotti sono mappati sulle seguenti variabili:
 
-* Categoria mappata a `productListItems[].productCategories[].categoryID`. Utilizza il primo elemento nella `productCategories[]` array. `lineItemId` anche mappare correttamente, ma si consiglia di `categoryID` poiché si tratta di XDM standard. Se sono presenti entrambi i campi XDM `lineItemId` ha la precedenza.
-* Il prodotto è mappato a `productListItems[].SKU` o `productListItems[].name`. Se sono presenti entrambi i campi XDM, `productListItems[].SKU` viene utilizzato.
-* Quantità mappata a `productListItems[].quantity`.
-* Il prezzo è mappato a `productListItems[].priceTotal`.
-* Le eVar di merchandising sono mappate su `productListItems._experience.analytics.customDimensions.eVars.eVar1` a `productListItems._experience.analytics.customDimensions.eVars.eVar250`, a seconda dell’eVar da associare a un prodotto.
-* Gli eventi di merchandising sono mappati su `productListItems[]._experience.analytics.event1to100.event1.value` a `productListItems._experience.analytics.event901to1000.event1000.value`, a seconda dell’evento che desideri associare a un prodotto. Se imposti un evento in uno di questi campi, questo viene automaticamente incluso nel [evento](events/events-overview.md) stringa inviata ad Adobe Analytics.
+* Categoria mappata a `xdm.productListItems[].productCategories[].categoryID`. Utilizza il primo elemento nella `productCategories[]` array. `lineItemId` anche mappare correttamente, ma l’Adobe consiglia `categoryID` poiché è un XDM standard. Se sono presenti entrambi i campi XDM, `lineItemId` ha la precedenza.
+* Il prodotto è mappato a `xdm.productListItems[].SKU` o `xdm.productListItems[].name`. Se sono presenti entrambi i campi XDM, `xdm.productListItems[].SKU` viene utilizzato.
+* Quantità mappata a `xdm.productListItems[].quantity`.
+* Il prezzo è mappato a `xdm.productListItems[].priceTotal`.
+* Le eVar di merchandising sono mappate su `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, a seconda dell’eVar da associare a un prodotto.
+* Gli eventi di merchandising sono mappati su `xdm.productListItems[]._experience.analytics.event1to100.event1.value` a `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, a seconda dell’evento che desideri associare a un prodotto. Se imposti un evento in uno di questi campi, questo viene automaticamente incluso nel [evento](events/events-overview.md) stringa inviata ad Adobe Analytics.
 
 >[!NOTE]
 >
 >`lineItemId` deve essere aggiunto come campo personalizzato in quanto non fa ancora parte dello schema evento standard di Analytics. Adobe prevede di aggiungere in futuro un campo &quot;Categoria&quot; dedicato.
+
+Se utilizzi il [**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), la variabile dei prodotti utilizza `data.__adobe.analytics.products` seguente AppMeasurement di sintassi. Se imposti questo campo, tutti i prodotti impostati nell’oggetto XDM vengono sovrascritti e non inviati ad Adobe Analytics.
 
 ## Prodotti tramite l’estensione Adobe Analytics
 

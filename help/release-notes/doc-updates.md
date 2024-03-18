@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
 workflow-type: tm+mt
 source-wordcount: '5174'
 ht-degree: 94%
@@ -141,7 +141,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Documentazione aggiornata sulla visualizzazione del flusso | Basata sulla [nuova interfaccia utente](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentazione sulla condivisione di annotazioni nelle scorecard per dispositivi mobili | È possibile visualizzare le [annotazioni create in Analysis Workspace nelle scorecard per dispositivi mobili](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Maggio 2022** | |
-| Popolare dimensioni e metriche del ciclo di vita tramite la rete Edge | I dati del ciclo di vita mobile inviati a Edge Network ora vengono visualizzati nei rapporti di Analytics. Consulta [Mappatura delle variabili di Analytics](/help/implement/aep-edge/variable-mapping.md) per i dettagli sui campi XDM da mappare ai rapporti sul ciclo di vita mobile esistenti. |
+| Popolare dimensioni e metriche del ciclo di vita tramite la rete Edge | I dati del ciclo di vita mobile inviati a Edge Network ora vengono visualizzati nei rapporti di Analytics. Consulta [Mappatura delle variabili di Analytics](/help/implement/aep-edge/xdm-var-mapping.md) per i dettagli sui campi XDM da mappare ai rapporti sul ciclo di vita mobile esistenti. |
 | **Aprile 2022** | |
 | Aggiornamenti pagina di destinazione di Adobe Analytics | Aggiornamenti alla [pagina di destinazione congiunta di Analysis Workspace e Reports &amp; Analytics](/help/analyze/landing.md) per migliorare l’usabilità e agevolare la navigazione. |
 | Nuovo argomento sul pannello [!UICONTROL Page Summary] | [Pannello Riepilogo pagina](/help/analyze/analysis-workspace/c-panels/page-summary.md) |

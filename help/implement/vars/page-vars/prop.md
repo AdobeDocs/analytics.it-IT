@@ -4,9 +4,9 @@ description: Variabili personalizzate che puoi utilizzare nell’implementazione
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '603'
 ht-degree: 13%
 
 ---
@@ -25,7 +25,10 @@ Se si dispone di [documento di progettazione della soluzione](/help/implement/pr
 
 ## Proprietà che utilizzano l’SDK web
 
-Le proprietà sono [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nei campi XDM `_experience.analytics.customDimensions.props.prop1` a `_experience.analytics.customDimensions.props.prop75`. Le prop elenco vengono specificate in un set separato di campi.
+Le proprietà sono mappate alle seguenti variabili:
+
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - le prop elenco sono specificate in una [set di campi separato](#list-props-web-sdk).
+* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; o `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - in questi campi sono incluse le prop elenco.
 
 ## Proprietà tramite l’estensione Adobe Analytics
 
@@ -60,9 +63,11 @@ Abilita prop elenco in [Variabili traffico](/help/admin/admin/c-manage-report-su
 >
 >I delimitatori comuni utilizzati nelle implementazioni sono una virgola (`,`), due punti (`:`), punto e virgola (`;`) o pipe (`|`). Puoi utilizzare qualsiasi delimitatore ASCII non esteso che meglio si adatta alla tua implementazione.
 
-### Impostare le prop elenco tramite Web SDK
+### Impostare le prop elenco tramite Web SDK {#list-props-web-sdk}
 
-Dopo aver configurato le prop elenco nelle impostazioni della suite di rapporti con il delimitatore desiderato, le prop elenco vengono mappate per Adobe Analytics in `_experience.analytics.customDimensions.listProps.prop1.values[]` a `_experience.analytics.customDimensions.listProps.prop75.values[]`. L’SDK per web utilizza automaticamente il delimitatore corretto elencato in Impostazioni della suite di rapporti. Se imposti il delimitatore nel campo XDM (ad esempio, `_experience.analytics.customDimensions.props.prop1.delimiter`), che sostituisce il delimitatore recuperato automaticamente dalle impostazioni della suite di rapporti e può causare un’analisi errata della stringa prop dell’elenco.
+Se utilizzi il [**Oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), le prop elenco sono mappate a `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. L’SDK per web utilizza automaticamente il delimitatore corretto elencato in Impostazioni della suite di rapporti. Se imposti il delimitatore nel campo XDM (ad esempio, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), che sostituisce il delimitatore recuperato automaticamente dalle impostazioni della suite di rapporti e può causare un’analisi errata della stringa prop dell’elenco.
+
+Se utilizzi il [**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), prop elenco utilizzano gli stessi campi delle proprietà standard e seguono la sintassi di AppMeasurement.
 
 ### Impostare le prop elenco tramite l’estensione Adobe Analytics e l’AppMeasurement
 

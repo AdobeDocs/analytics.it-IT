@@ -4,7 +4,7 @@ description: Popolare la dimensione "Server".
 feature: Variables
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 26%
@@ -17,7 +17,10 @@ Il `server` La variabile in genere memorizza il nome host del sito. Viene comune
 
 ## Server che utilizza il Web SDK
 
-Il server è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `web.webPageDetails.server`.
+Il server è mappato alle seguenti variabili:
+
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.server`
+* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.server`
 
 ## Server che utilizza l’estensione Adobe Analytics
 

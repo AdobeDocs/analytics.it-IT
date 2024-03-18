@@ -4,10 +4,10 @@ description: Invia una chiamata di tracciamento dei collegamenti ad Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 6%
+source-wordcount: '740'
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,13 @@ Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExterna
 
 ## Tracciamento dei collegamenti tramite Web SDK
 
-L’SDK per web non distingue tra chiamate di visualizzazione pagina e chiamate di tracciamento dei collegamenti; entrambe utilizzano `sendEvent` comando. Se vuoi che Adobe Analytics conti un dato evento XDM come chiamata di tracciamento dei collegamenti, assicurati che i dati XDM includano o siano mappati su `web.webInteraction.name`, `web.webInteraction.URL`, e `web.webInteraction.type`.
+L’SDK per web non distingue tra chiamate di visualizzazione pagina e chiamate di tracciamento dei collegamenti; entrambe utilizzano `sendEvent` comando.
 
-* Il nome del collegamento è associato a `web.webInteraction.name`.
-* Collega URL mappato a `web.webInteraction.URL`.
-* Il tipo di collegamento è associato a `web.webInteraction.type`. I valori validi includono `other` (Collegamenti personalizzati), `download` (Collegamenti di download) e `exit` (Collegamenti di uscita).
+Se utilizzi un oggetto XDM e vuoi che Adobe Analytics conti un dato evento come chiamata di tracciamento dei collegamenti, assicurati che i dati XDM includano:
+
+* Nome collegamento: mappato a `xdm.web.webInteraction.name`.
+* URL collegamento: mappato a `xdm.web.webInteraction.URL`.
+* Tipo di collegamento: mappato a `xdm.web.webInteraction.type`. I valori validi includono `other` (Collegamenti personalizzati), `download` (Collegamenti di download) e `exit` (Collegamenti di uscita).
 
 ```js
 alloy("sendEvent", {
@@ -33,6 +35,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+Se utilizzi un oggetto dati e desideri che Adobe Analytics conti un dato evento come chiamata di tracciamento dei collegamenti, assicurati che l’oggetto dati includa:
+
+* Nome collegamento: mappato a `data.__adobe.analytics.linkName`.
+* URL collegamento: mappato a `data.__adobe.analytics.linkURL`.
+* Tipo di collegamento: mappato a `data.__adobe.analytics.linkType`. I valori validi includono `o` (Collegamenti personalizzati), `d` (Collegamenti di download) e `e` (Collegamenti di uscita).
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }

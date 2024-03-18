@@ -4,10 +4,10 @@ description: Popolare la dimensione "Codice di tracciamento".
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 20%
+source-wordcount: '228'
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,10 @@ Questa variabile compila il [Codice di tracciamento](/help/components/dimensions
 
 ## Campagna con l’SDK per web
 
-La campagna è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `marketing.trackingCode`.
+Campaign è mappato alle seguenti variabili:
+
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` o `data.__adobe.analytics.v0`
 
 ## Campaign tramite l’estensione Adobe Analytics
 

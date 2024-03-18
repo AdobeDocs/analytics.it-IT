@@ -4,10 +4,10 @@ description: Scopri cosa è un livello dati nell’implementazione di Analytics 
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Generalmente, l’implementazione di Adobe Analytics utilizzando un livello dati
 
 1. **Convalidare il livello dati utilizzando una console del browser**: una volta creato un livello dati, puoi convalidarne il funzionamento utilizzando la console per sviluppatori di qualsiasi browser. Puoi aprire la console per gli sviluppatori nella maggior parte dei browser utilizzando il tasto `F12`. Un esempio di valore della variabile è `adobeDataLayer.page.title`.
 1. **Utilizzare la raccolta dati di Adobe Experience Platform per mappare gli oggetti del livello dati agli elementi di dati**: questo passaggio varia in base al metodo di implementazione della tua organizzazione:
-   * **Se utilizzi l’estensione Web SDK**: mappa gli oggetti di livello dati sui campi XDM desiderati in Adobe Experience Platform Edge. Consulta [Mappatura delle variabili di Analytics](../aep-edge/variable-mapping.md) per determinare la mappatura del livello dati desiderata.
+   * **Se utilizzi l’estensione Web SDK**: mappa gli oggetti di livello dati sui campi XDM desiderati in Adobe Experience Platform Edge. Consulta [Mappatura delle variabili XDM di Analytics](../aep-edge/xdm-var-mapping.md) per determinare la mappatura del livello dati desiderata.
    * **Se utilizzi l’estensione Analytics**: crea elementi dati nei Tag della Raccolta dati di Adobe Experience Platform e assegnali agli oggetti livello dati desiderati. Quindi all’interno dell’estensione Analytics, assegna ogni elemento dati alla variabile di Analytics appropriata.
 
 ## Specifiche

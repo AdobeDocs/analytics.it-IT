@@ -4,7 +4,7 @@ description: Utilizza l’estensione Web SDK in Adobe Experience Platform Data C
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
+source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 16%
@@ -65,7 +65,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>7</td>
 <td><b>Configurare l’SDK per web</b>. Assicurati che la libreria installata nel passaggio 4 sia configurata correttamente con l’ID dello stream di dati (precedentemente noto come ID di configurazione edge )<code>edgeConfigId</code>)), id organizzazione (<code>orgId</code>) e altre opzioni disponibili. Assicurati che la mappatura delle variabili sia corretta. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configurare l’SDK per web</a><br/><a href="../variable-mapping.md">Mappatura variabile oggetto XDM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configurare l’SDK per web</a><br/><a href="../xdm-var-mapping.md">Mappatura variabile oggetto XDM</a></td>
 </tr>
 
 <tr>

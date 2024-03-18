@@ -4,10 +4,10 @@ description: Per i siti di eCommerce, imposta la valuta in cui sono effettuate l
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 98%
+source-wordcount: '940'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,10 @@ Quando si implementa questa variabile, **deve** essere utilizzato un punto come 
 
 ## Codice valuta utilizzando il Web SDK
 
-Il codice della valuta è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `commerce.order.currencyCode`.
+Il codice valuta è mappato alle seguenti variabili:
+
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` o `data.__adobe.analytics.cc`
 
 ## Codice valuta utilizzando l’estensione di Adobe Analytics
 

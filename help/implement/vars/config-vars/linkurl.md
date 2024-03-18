@@ -4,10 +4,10 @@ description: Sostituisci l’AppMeasurement dell’URL di collegamento generato 
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 18%
+source-wordcount: '139'
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,10 @@ Ogni volta che una chiamata di tracciamento dei collegamenti viene inviata ad Ad
 
 ## Collega URL tramite Web SDK
 
-L’URL del collegamento è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `web.webInteraction.URL`.
+L’URL del collegamento è mappato alle seguenti variabili:
+
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` o `data.__adobe.analytics.pev1`
 
 ## Collega l’URL tramite l’estensione Adobe Analytics
 

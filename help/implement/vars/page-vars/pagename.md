@@ -4,9 +4,9 @@ description: Il nome della pagina sul sito.
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '245'
 ht-degree: 23%
 
 ---
@@ -23,9 +23,12 @@ Se questa variabile non è definita per una determinata chiamata di tracciamento
 
 ## Nome pagina utilizzando il Web SDK
 
-La pagina è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `web.webPageDetails.name`.
+Il nome della pagina è mappato alle seguenti variabili:
 
-## Nome pagina utilizzando l’estensione Adobe Analytics
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.name`
+* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageName`
+
+## Nome della pagina utilizzando l’estensione Adobe Analytics
 
 Puoi impostare il nome della pagina sia durante la configurazione dell’estensione Analytics (variabili globali) sia nelle regole.
 

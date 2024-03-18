@@ -4,10 +4,10 @@ description: Deduplica gli hit in base a un identificatore di acquisto univoco.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,10 @@ Gli ID acquisto si applicano a tutti i visitatori e scadono dopo 37 mesi. Se un 
 
 ## ID acquisto tramite Web SDK
 
-L’ID acquisto è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `commerce.order.purchaseID`.
+L’ID acquisto è mappato alle seguenti variabili:
+
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
+* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
 
 ## ID acquisto tramite l’estensione Adobe Analytics
 

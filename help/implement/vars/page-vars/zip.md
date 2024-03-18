@@ -4,10 +4,10 @@ description: Compila manualmente la dimensione "Codice postale" se le impostazio
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 19%
+source-wordcount: '252'
+ht-degree: 17%
 
 ---
 
@@ -17,11 +17,18 @@ Il `zip` variabile consente di popolare manualmente la dimensione &quot;Codice p
 
 >[!IMPORTANT]
 >
->Assicurati che le [!UICONTROL Zip Option] nelle impostazioni della suite di rapporti è impostato sul valore desiderato. Non è possibile utilizzare questa variabile se [!UICONTROL geo zip] viene sempre utilizzato. Consulta [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) per ulteriori informazioni, consulta la guida utente dell’amministratore.
+>Assicurati che le [!UICONTROL Zip Option] nelle impostazioni della suite di rapporti è impostato sul valore desiderato. Non è possibile utilizzare questa variabile se [!UICONTROL Geo zip] viene sempre utilizzato. Consulta [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) per ulteriori informazioni, consulta la guida utente dell’amministratore.
 
-## Comprimi tramite l’estensione Adobe Analytics
+## Codice postale tramite Web SDK
 
-Puoi impostare il CAP sia durante la configurazione dell’estensione Analytics (variabili globali) sia nelle regole.
+Il codice postale è mappato alle seguenti variabili:
+
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
+* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
+
+## Codice postale tramite l’estensione Adobe Analytics
+
+Puoi impostare il codice postale sia durante la configurazione dell’estensione Analytics (variabili globali) sia nelle regole.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.

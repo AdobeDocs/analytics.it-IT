@@ -4,9 +4,9 @@ description: La variabile abort è un valore booleano che impedisce l'invio di u
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '308'
 ht-degree: 13%
 
 ---
@@ -58,9 +58,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->Il `abort` la variabile viene ripristinata in `false` dopo ogni chiamata di tracciamento. Se devi interrompere le chiamate di tracciamento successive sulla stessa pagina, imposta `abort` a `true` di nuovo.
+>Il `abort` la variabile viene ripristinata in `false` dopo ogni chiamata di tracciamento. Se desideri interrompere le chiamate di tracciamento successive sulla stessa pagina, imposta `abort` a `true` di nuovo.
 
-Ad esempio, il `abort` può essere impostata in [`doPlugins()`](../functions/doplugins.md) è l’ultima funzione che viene eseguita prima di una richiesta di immagine inviata all’Adobe. Questo esempio funziona in modo simile al `onBeforeEventSend` callback tramite Web SDK.
+Il `abort` può essere impostata in [`doPlugins()`](../functions/doplugins.md) è l’ultima funzione che viene eseguita prima di una richiesta di immagine inviata all’Adobe. Questo esempio funziona in modo simile al `onBeforeEventSend` callback tramite Web SDK.
 
 ```js
 s.doPlugins = function(s) {

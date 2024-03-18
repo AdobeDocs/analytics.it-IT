@@ -4,10 +4,10 @@ description: Determina il numero massimo di hit da mettere in coda per il tracci
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 15%
+source-wordcount: '175'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,11 @@ Il tracciamento offline è un modo facoltativo per raccogliere i dati in Adobe A
 
 Il `offlineHitLimit` La variabile limita il numero di hit archiviati localmente dal dispositivo. Questa variabile funziona solo se [`trackOffline`](trackoffline.md) è abilitato.
 
-## Limite di hit offline utilizzando l’estensione Adobe Analytics
+## Limite di hit offline tramite Web SDK
+
+L’SDK per web non supporta il tracciamento offline.
+
+## Limite di hit offline tramite l’estensione Adobe Analytics
 
 Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l’editor di codice personalizzato seguendo la sintassi di AppMeasurement.
 

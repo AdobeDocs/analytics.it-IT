@@ -4,7 +4,7 @@ description: Imposta manualmente la marca temporale dell’hit.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 9%
@@ -21,7 +21,7 @@ Il `timestamp` la variabile imposta manualmente la marca temporale dell’hit pe
 
 ## Marca temporale tramite Web SDK
 
-Il timestamp è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `xdm.timestamp`. Questo campo supporta solo il tempo Unix.
+Il timestamp è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) nel campo XDM `xdm.timestamp`. Questo campo supporta solo il tempo Unix.
 
 ## Marca temporale tramite l’estensione Adobe Analytics
 
@@ -33,7 +33,7 @@ Il `s.timestamp` variable è una stringa contenente la data e l&#39;ora dell&#39
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2020-01-01T00:00:00Z";
+s.timestamp = "2024-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -52,19 +52,19 @@ Date e ore espresse in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) può a
 * È necessario fornire sia la data che l’ora, separate da `T`.
 * Sono necessari ore e minuti; i secondi sono facoltativi ma consigliati.
 * Le date settimanali e le date ordinali non sono supportate.
-* La data può essere in formato standard o esteso. Ad esempio: `2020-01-01T00:00:00Z` e `20200101T000000Z` sono entrambi validi.
+* La data può essere in formato standard o esteso. Ad esempio: `2024-01-01T00:00:00Z` e `20240101T000000Z` sono entrambi validi.
 * I minuti e i secondi frazionari sono tecnicamente validi, ma le frazioni vengono ignorate per Adobe.
 * I fusi orari sono supportati nei formati standard ed estesi.
 
 Di seguito sono riportati alcuni esempi validi di valori ISO 8601 nella `timestamp` variabile:
 
 ```text
-2020-01-01T00:00:00+00:00
-2020-01-01T00:00:00Z
-2020-01-01T00:00:00
-2020-01-01T00:00
-20200101T000000+0000
-20200101T000000Z
-20200101T000000
-20200101T0000
+2024-01-01T00:00:00+00:00
+2024-01-01T00:00:00Z
+2024-01-01T00:00:00
+2024-01-01T00:00
+20240101T000000+0000
+20240101T000000Z
+20240101T000000
+20240101T0000
 ```

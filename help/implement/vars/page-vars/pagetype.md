@@ -4,9 +4,9 @@ description: Determina se la pagina corrente è un errore 404.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '201'
 ht-degree: 12%
 
 ---
@@ -21,7 +21,10 @@ Il `pageType` variabile è un flag utilizzato per designare le pagine di errore 
 
 ## Tipo di pagina utilizzando il Web SDK
 
-Il tipo di pagina è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=it) nel campo XDM `web.webPageDetails.isErrorPage`. Questo campo XDM è booleano; impostalo su `true` per contrassegnarla come pagina di errore, oppure `false` se non è una pagina di errore. L’Adobe traduce automaticamente il valore booleano nel valore stringa `errorPage` quando viene inviato a una suite di rapporti di Analytics.
+Il canale è mappato alle seguenti variabili:
+
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` : questo campo XDM è booleano; impostalo su `true` per contrassegnarla come pagina di errore, oppure `false` se non è una pagina di errore.
+* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` : questo campo oggetto dati è una stringa; impostalo su `"errorPage"` per contrassegnarlo come tale.
 
 ## Tipo di pagina utilizzando l’estensione Adobe Analytics
 
