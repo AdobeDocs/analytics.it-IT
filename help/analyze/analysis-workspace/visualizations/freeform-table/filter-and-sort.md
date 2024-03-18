@@ -1,17 +1,17 @@
 ---
 description: Documentazione che descrive come filtrare e ordinare le tabelle in Analysis Workspace.
-title: Filtrare e ordinare tabelle a forma libera
+title: Filtra e ordina tabelle a forma libera
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
+source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 63%
+source-wordcount: '876'
+ht-degree: 66%
 
 ---
 
-# Filtrare e ordinare tabelle a forma libera
+# Filtra e ordina tabelle a forma libera
 
 Le tabelle a forma libera in Analysis Workspace sono la base dell’analisi interattiva dei dati. In quanto tali, possono contenere migliaia di righe di informazioni. Filtrare e ordinare i dati può essere fondamentale per far emergere in modo efficace le informazioni più importanti.
 
@@ -48,12 +48,14 @@ Per escludere rapidamente righe specifiche da una tabella a forma libera:
 
    Tenere premuto il tasto Maiusc per selezionare un intervallo di righe, oppure tenere premuto il tasto Comando (su Mac) o il tasto Ctrl (su Windows) per selezionare più righe.
 
-### Clic con il pulsante destro del mouse > Elimina righe selezionate
+<!--### Right-click > Delete selected rows
 
-1. Seleziona una o più righe.
-1. Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **[!UICONTROL Delete Selected Rows]**.
+Note: this option does not seem to work. AN-338422
 
-   Questa azione rimuoverà le righe dalla tabella e applicherà un filtro tabella.
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
 
 ### Applicare un filtro semplice o avanzato a una tabella
 
