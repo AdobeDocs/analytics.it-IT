@@ -6,15 +6,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
-workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '315'
+ht-degree: 100%
 
 ---
 
 # Flussi interdimensionali
 
-Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni. Ecco un video sul ritorno a capo e sul flusso multidimensionale in Analysis Workspace:
+Un flusso interdimensionale ti consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni. Il video seguente mostra il testo a capo e il flusso multidimensionale in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -34,11 +34,11 @@ Per scoprire l’interazione tra le schermate o pagine e le azioni dell’app, p
 
 * Trascinala a una delle estremità della zona di rilascio (all’interno del rettangolo con bordo nero che viene visualizzato) per **sostituire** i primi risultati di tale estremità:
 
-   ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
 * Trascinala nello spazio bianco alla fine (osserva la parentesi quadra nera) per **aggiungere** altri dati alla visualizzazione:
 
-   ![](assets/multi-dimensional-flow4.png)
+  ![](assets/multi-dimensional-flow4.png)
 
 Quando si sostituisce l’elemento ItemScaled nella colonna a destra con la Dimensione pagina, si ottiene questo risultato. Il primo risultato ora diventa il primo risultato per la Dimensione pagina:
 

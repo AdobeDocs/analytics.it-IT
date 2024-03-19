@@ -1,19 +1,19 @@
 ---
 description: Utilizza la visualizzazione di flusso in un progetto Workspace.
-title: Configurare una visualizzazione di flusso
+title: Configurare una visualizzazione del flusso
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 source-git-commit: ec466d2a503278b05d19eda09e2a2244897ce1f3
-workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 56%
+workflow-type: ht
+source-wordcount: '1313'
+ht-degree: 100%
 
 ---
 
-# Configurare una visualizzazione di flusso
+# Configurare una visualizzazione del flusso
 
-Le visualizzazioni Flusso consentono di comprendere il percorso che deriva da o precede un evento di conversione specifico sul sito web o sull’app. Traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche.
+Le visualizzazioni Flusso ti consentono di comprendere il percorso che deriva da o precede un evento di conversione specifico sul tuo sito web o sulla tua app. Questo traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche.
 
 Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del percorso desiderato o di analizzare tutti i percorsi che passano attraverso una dimensione o un elemento dimensionale.
 
@@ -25,9 +25,9 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
 
    Oppure
 
-   Aggiungi una visualizzazione con uno dei modi descritti nella sezione &quot;Aggiungere visualizzazioni a un pannello&quot; in [Panoramica delle visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+   Aggiungi una visualizzazione con uno dei modi descritti nella sezione “Aggiungere visualizzazioni a un pannello” in [Panoramica delle visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
-1. Ancorate la visualizzazione Flusso utilizzando una delle seguenti opzioni:
+1. Aggancia la visualizzazione Flusso tramite una delle tre opzioni seguenti:
 
    * [!UICONTROL **Inizia con**] (metriche, dimensioni o elementi), oppure
    * [!UICONTROL **Contiene**] (dimensioni o elementi), oppure
@@ -36,14 +36,14 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
    Ogni categoria è visualizzata come una “zona di rilascio”. Puoi popolare la zona di rilascio in tre modi:
 
    * Utilizza il menu a discesa per selezionare metriche o dimensioni.
-   * Trascina dimensioni o metriche dalla barra a sinistra.
-   * Inizia a digitare il nome di una dimensione o metrica, quindi selezionala quando viene visualizzato nell’elenco a discesa.
+   * Trascinadimensioni o metriche dalla barra a sinistra.
+   * Inizia a digitare il nome di una dimensione o metrica, quindi selezionala quando viene visualizzata nell’elenco a discesa.
 
    >[!IMPORTANT]
    >
-   >Le metriche calcolate non possono essere utilizzate in  **[!UICONTROL Starts with]** o **[!UICONTROL Ends with]** campi.
+   >Le metriche calcolate non possono essere utilizzate nei campi **[!UICONTROL Starts with]** o **[!UICONTROL Ends with]**.
 
-1. Se scegli una metrica, devi anche fornire una [!UICONTROL **Dimension di percorsi**] da utilizzare per utilizzare come percorso che porta o proviene dal componente selezionato, come mostrato qui. Il valore predefinito è [!UICONTROL **Pagina**].
+1. Se scegli una metrica, devi anche fornire una [!UICONTROL **Dimensione dei percorsi**] da utilizzare come percorso che porta a o proviene dal componente selezionato, come mostrato qui. Il valore predefinito è [!UICONTROL **Pagina**].
 
    ![dimensione del percorso](assets/pathing-dim.png)
 
@@ -55,9 +55,9 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
    | --- | --- |
    | **[!UICONTROL Wrap labels]** | Di norma, le etichette degli elementi di Flusso vengono troncate per risparmiare spazio sullo schermo, ma selezionando questa casella puoi rendere visibile l’intera etichetta.  Impostazione predefinita = non selezionata. |
    | **[!UICONTROL Include repeat instances]** | Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione offre la possibilità di includere o escludere istanze ripetute, ad esempio i ricaricamenti delle pagine. Tuttavia, le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori, come listVars, listProps, s.product, eVars di merchandising, ecc. <p>Questa opzione è disabilitata per impostazione predefinita.</p> |
-   | **[!UICONTROL Limit to first/last occurrence]** | Limita i percorsi a quelli che iniziano/terminano con la prima/ultima occorrenza di una dimensione/elemento/metrica. Vedi la sezione seguente, [Scenario di esempio per &quot;limit to first/last occurrence&quot; (limita alla prima/ultima occorrenza)](#example-scenario-for-limit-to-firstlast-occurrence), per una spiegazione più dettagliata. |
-   | **[!UICONTROL Number of columns]** | Il numero di colonne desiderato nel diagramma di flusso. È possibile specificare un massimo di 5 colonne. |
-   | **[!UICONTROL Items expanded per column]** | Il numero di elementi desiderati in ogni colonna. È possibile specificare un massimo di 10 elementi espansi per colonna. |
+   | **[!UICONTROL Limit to first/last occurrence]** | Limita i percorsi a quelli che iniziano/terminano con la prima/ultima occorrenza di una dimensione/elemento/metrica. Per una spiegazione più dettagliata, consulta la sezione sottostante intitolata [Scenario di esempio per “limita alla prima/ultima occorrenza” ](#example-scenario-for-limit-to-firstlast-occurrence). |
+   | **[!UICONTROL Number of columns]** | Determina il numero di colonne desiderato nel diagramma Flusso. Puoi indicare un massimo di 5 colonne. |
+   | **[!UICONTROL Items expanded per column]** | Il numero di elementi che desideri inserire in ogni colonna. È possibile specificare un massimo di 10 elementi espansi per colonna. |
    | **[!UICONTROL Flow container]** | <ul><li>Visita</li><li>Visitatore</li></ul> Consente di passare da Visita a Visitatore per analizzare il percorso dei visitatori. Queste impostazioni consentono di comprendere il coinvolgimento dei visitatori a livello dei singoli visitatori (attraverso più visite) o di limitare l’analisi a una singola visita. |
 
    >[!IMPORTANT]
@@ -68,33 +68,33 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
 
 >[!INFO]
 >
->**Esempio:** Supponiamo di voler tracciare il percorso seguito dagli utenti per le pagine più popolari del sito e da esse.
+>**Esempio:** supponiamo di voler tracciare il percorso seguito dagli utenti verso o dalle pagine più popolari del sito.
 >
 >Per eseguire questa operazione,
 > 
 >1. Inizia a creare una visualizzazione di flusso come descritto in precedenza.
->1. Trascina [!UICONTROL **Pagina**] dimensione in **[!UICONTROL Contains]** , quindi seleziona [!UICONTROL **Genera**].
->1. La visualizzazione Flusso si basa sulla pagina più visualizzata visibile nel nodo attivo al centro della visualizzazione. Vengono visualizzate anche le pagine principali che conducono a quella pagina (a sinistra del nodo attivo) e le pagine principali che precedono quella pagina (a destra del nodo attivo).
->1. Analizzare i dati nel flusso, come descritto in [Visualizzare e modificare l’output del flusso](#view-and-change-the-flow-output).
+>1. Trascina la dimensione [!UICONTROL **Pagina**] nel campo **[!UICONTROL Contains]**, quindi seleziona [!UICONTROL **Genera**].
+>1. La visualizzazione Flusso si basa sulla pagina più visualizzata visibile nel nodo attivo al centro della visualizzazione. Vengono visualizzate anche le pagine principali che conducono a quella pagina (a sinistra del nodo attivo) e quelle che precedono quella pagina (a destra del nodo attivo).
+>1. Analizza i dati nel flusso, come descritto in [Visualizzare e modificare l’output di Flusso](#view-and-change-the-flow-output).
 
 
 ## Visualizzare e modificare l’output di Flusso {#output}
 
 ![output di flusso](assets/flow-output.png)
 
-Nella parte superiore del diagramma viene visualizzato un riepilogo della configurazione di Flusso. Lo spessore di un tracciato nel diagramma è proporzionale alla sua attività, con percorsi con più attività che appaiono più spessi di quelli con meno attività.
+Nella parte superiore del diagramma viene visualizzato un riepilogo della configurazione di Flusso. Lo spessore di un tracciato nel diagramma è proporzionale alla relativa attività e i percorsi con più attività appaiono più spessi di quelli che ne hanno meno.
 
 Per approfondire ulteriormente i dati, hai a disposizione diverse opzioni:
 
 * Il diagramma di flusso è interattivo. Passa il cursore del mouse sul diagramma per cambiare i dettagli visualizzati.
 
-* Quando selezioni un nodo nel diagramma, vengono visualizzati i dettagli per tale nodo. Seleziona di nuovo il nodo per comprimerlo.
+* Quando selezioni un nodo nel diagramma, vengono visualizzati i dettagli per tale nodo. Seleziona di nuovo il nodo per chiuderlo.
 
   ![dettagli-nodo](assets/node-details.png)
 
-* È possibile filtrare una colonna per visualizzare solo determinati risultati, ad esempio l&#39;inclusione e l&#39;esclusione, la specifica di criteri e così via.
+* Puoi filtrare una colonna per visualizzare solo alcuni risultati, ad esempio puoi includere ed escludere, specificare criteri, e così via.
 
-* Selezionare il segno più (+) a sinistra per espandere una colonna.
+* Seleziona il segno più (+) a sinistra per espandere una colonna.
 
 * Utilizza le opzioni di clic con il pulsante destro del mouse illustrate di seguito per personalizzare ulteriormente l’output.
 
@@ -110,7 +110,7 @@ Sopra ogni colonna viene visualizzato un filtro al passaggio del mouse. Selezion
 * Dopo aver filtrato un elemento dall’elenco, quella colonna specifica rifletterà il filtro. Il filtro riduce la colonna di modo che mostri solo l’elemento consentito nel filtro, oppure rimuove tutti gli elementi eccetto quello desiderato nel filtro.
 * Tutte le colonne upstream e downstream dovrebbero persistere, purché sia presente un flusso di dati nei nodi rimanenti.
 * Una volta applicato, l’icona del filtro viene visualizzata in blu sopra la colonna che sta filtrando.
-* Per rimuovere un filtro, seleziona l’icona del filtro per aprire il menu dei filtri. Rimuovi i filtri applicati, quindi seleziona **[!UICONTROL Save]**. Il flusso dovrebbe tornare allo stato precedente non filtrato.
+* Per rimuovere un filtro, seleziona l’icona di filtro per aprire il menu dei filtri. Rimuovi i filtri applicati e seleziona **[!UICONTROL Save]**. Il flusso dovrebbe tornare allo stato precedente non filtrato.
 
 ## Opzioni di clic con il pulsante destro {#right-click}
 

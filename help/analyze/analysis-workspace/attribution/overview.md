@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 79%
+workflow-type: ht
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 79%
 Attribution consente agli analisti di personalizzare il modo in cui i valori delle dimensioni ottengono credito per gli eventi di successo. Ad esempio:
 
 1. Un visitatore del sito fa clic su un collegamento di ricerca a pagamento a una delle pagine dei tuoi prodotti. Aggiunge il prodotto al carrello, ma non lo acquista.
-2. Il giorno successivo, viene visualizzato un post di social media di uno dei loro amici, fai clic sul collegamento e completa l’acquisto.
+2. Il giorno successivo, vede un post di social media di uno dei suoi amici, fa clic sul collegamento e completa l’acquisto.
 
-In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe Analytics Ultimate, Prime, Select e Foundation. Se non sei sicuro del tipo di contratto che hai con Adobe, contatta il team dell’account Adobe della tua organizzazione.
+In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting. È disponibile per tutte le organizzazioni su Adobe Analytics Ultimate, Prime, Select e Foundation. Se vuoi avere conferma del tipo di contratto che hai con Adobe, contatta il team Adobe Account della tua organizzazione.
 
 ## Valore di attribuzione
 
@@ -39,7 +39,7 @@ Adobe Analytics migliora l’attribuzione consentendo di:
 
 ## Funzioni
 
-Attribution include le seguenti funzionalità:
+Attribution comprende le seguenti funzionalità:
 
 * [Pannello Attribution](../c-panels/attribution.md): prendi qualsiasi dimensione e metrica e confrontala rapidamente con diversi modelli di attribuzione.
 * [Applica attribuzione a una metrica](../visualizations/freeform-table/column-row-settings/column-settings.md): utilizza un’attribuzione non predefinita su qualsiasi metrica in un progetto.

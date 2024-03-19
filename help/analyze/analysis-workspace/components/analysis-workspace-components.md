@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
-workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 75%
+workflow-type: ht
+source-wordcount: '996'
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Esempi di segmenti includono [!UICONTROL Mobile Device Visitors], [!UICONTROL Vi
 
 Gli [**intervalli di date**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=it) sono l’intervallo di date in cui esegui l’analisi. Si trovano nella barra dei componenti a sinistra (sezione viola) e vengono in genere applicati nel calendario di ciascun pannello.
 
-Puoi rendere i componenti dell’intervallo di date relativi al calendario del pannello. Per ulteriori informazioni, consulta [Informazioni sugli intervalli di date del pannello relativo](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+È possibile correlare i componenti dell’intervallo di date al calendario del pannello. Per ulteriori informazioni, consulta [Informazioni sugli intervalli di date del pannello relativo](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
 
 Esempi di intervalli di date includono luglio 2019, [!UICONTROL Last 4 weeks] e [!UICONTROL This month]. Gli intervalli di date sono forniti da Adobe, possono essere applicati nel [calendario del pannello](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) o creati mediante il [Generatore di intervalli di date](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=it).
 
@@ -68,7 +68,7 @@ Puoi gestire i componenti direttamente nella barra a sinistra.
 
    Oppure
 
-   Seleziona un componente, quindi fai clic su **Azione** (3 punti) nella parte superiore dell’elenco dei componenti.
+   Seleziona un componente, quindi seleziona l’icona **Azione** (tre punti) nella parte superiore dell’elenco dei componenti.
 
    >[!TIP]
    >
@@ -77,13 +77,13 @@ Puoi gestire i componenti direttamente nella barra a sinistra.
 
    ![](assets/component-actions.png)
 
-   | Azione componente | Descrizione |
+   | Azione del componente | Descrizione |
    |--- |--- |
    | [!UICONTROL **Tag**] | Organizzare o gestire i componenti tramite l’applicazione di tag. Per eseguire la ricerca per tag nella barra a sinistra, fai clic sul filtro o digita #. I tag fungono anche da filtri nei gestori dei componenti. |
    | [!UICONTROL **Preferito**] | Aggiungere il componente all’elenco dei preferiti. Come per i tag, puoi cercare i Preferiti nella barra a sinistra e filtrarli nei gestori dei componenti. |
-   | [!UICONTROL **Approvazione**] | Contrassegna i componenti come approvati per segnalare agli utenti che sono approvati dall’organizzazione. Come per i tag, puoi eseguire ricerche per compomenti approvati nella barra a sinistra e filtrarli nei gestori dei componenti. |
+   | [!UICONTROL **Approva**] | Contrassegna i componenti come approvati per segnalare agli utenti che sono approvati dall’organizzazione. Come per i tag, puoi eseguire ricerche per compomenti approvati nella barra a sinistra e filtrarli nei gestori dei componenti. |
    | [!UICONTROL **Condividi**] | Condividi i componenti con gli utenti della tua organizzazione. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
-   | [!UICONTROL **Eliminazione**] | Elimina i componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
+   | [!UICONTROL **Elimina**] | Elimina i componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
 
 I componenti personalizzati possono essere gestiti anche tramite i rispettivi gestori di componenti. Ad esempio, il [Gestore segmenti](/help/components/segmentation/segmentation-workflow/seg-manage.md).
 
@@ -93,9 +93,9 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nella barra a sinist
 
 ### Cercare nell’elenco dei componenti
 
-1. Seleziona la **Componenti** icona ![Icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nella barra a sinistra.
+1. Seleziona l’icona **Componenti** ![icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nella barra a sinistra.
 
-2. Nel campo di ricerca, inizia a digitare il nome del componente che desideri utilizzare nel progetto.
+2. Nel campo di ricerca, inizia a digitare il nome del componente che desideri visualizzare nel progetto.
 
    Il tipo di componente può essere identificato sia dal colore che dall’icona. **Dimensioni** ![icona Dimensione](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sono arancioni, **Segmenti** ![icona Segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sono blu, **Intervalli di date** ![icona Intervallo di date](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sono viola, e **Metriche** ![icona Metrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sono verdi. L’icona Adobe indica un modello di metrica calcolata o un modello di segmento, e l’icona della calcolatrice ![icona Calcolatrice](assets/calculated-metric-icon-created.png) indica una metrica calcolata creata da un amministratore Analytics della tua organizzazione.
 
@@ -103,15 +103,15 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nella barra a sinist
 
 ### Filtrare l’elenco dei componenti
 
-1. Seleziona la **Componenti** icona ![Icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nella barra a sinistra.
+1. Seleziona l’icona **Componenti** ![icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nella barra a sinistra.
 
-2. Seleziona la **Filtro** icona ![Icona Filtro dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
+2. Seleziona l’icona **Filtro** ![icona Filtro dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
 
    Oppure
 
-   Digitare il cancelletto (#) nel campo di ricerca.
+   Digita il cancelletto (#) nel campo di ricerca.
 
-3. Seleziona una delle seguenti opzioni filtro per filtrare l’elenco dei componenti:
+3. Per filtrare l’elenco dei componenti, seleziona una delle seguenti opzioni filtro:
 
    | Opzione | Funzione |
    |---------|----------|
@@ -119,7 +119,7 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nella barra a sinist
    | [!UICONTROL **Preferiti**] | Mostra solo i componenti inclusi nell’elenco dei Preferiti. Per informazioni sull’aggiunta di componenti all’elenco dei preferiti, consulta [Panoramica dei componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensioni**] | Mostra solo i componenti che sono Dimensioni. |
    | [!UICONTROL **Metriche**] | Mostra solo i componenti che sono Metriche. |
-   | [!UICONTROL **Segmenti**] | Mostra solo i componenti che sono Segmenti. <!--this is Filters in Customer Journey Analytics--> |
+   | [!UICONTROL **Segmenti**] | Mostra solo i componenti che sono Segmenti.<!--this is Filters in Customer Journey Analytics--> |
    | [!UICONTROL **Intervalli di date**] | Mostra solo i componenti che sono Intervalli di date. |
    | [!UICONTROL **Mostra tutti**] | Mostra tutti i componenti. Questa opzione è disponibile solo per gli amministratori. |
    | [!UICONTROL **Non approvato**] | Mostra solo i componenti non ancora contrassegnati come approvati da un amministratore. In qualità di amministratore, questo è utile per identificare i componenti che richiedono la revisione e l’approvazione. Questa opzione è disponibile solo per gli amministratori. |
@@ -130,8 +130,8 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nella barra a sinist
 
 1. (Facoltativo) Applica i filtri all’elenco dei componenti, come descritto in [Filtrare l’elenco dei componenti](#filter-the-component-list).
 
-2. Seleziona la **Componenti** icona ![Icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nella barra a sinistra.
+2. Seleziona l’icona **Componenti** ![Icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nella barra a sinistra.
 
-3. Seleziona la **Ordina** icona ![Icona Ordina componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), quindi seleziona una delle seguenti opzioni di filtro per ordinare l’elenco dei componenti:
+3. (Facoltativo) Seleziona l’icona **Ordina** ![icona Ordina componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) e quindi seleziona una delle seguenti opzioni per filtrare l’elenco dei componenti:
 
    {{components-sort-options}}

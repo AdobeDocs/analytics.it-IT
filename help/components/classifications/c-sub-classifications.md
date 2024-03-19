@@ -4,8 +4,8 @@ title: Sottoclassificazioni
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
-source-wordcount: '642'
+workflow-type: ht
+source-wordcount: '648'
 ht-degree: 100%
 
 ---

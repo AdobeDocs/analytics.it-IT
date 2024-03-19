@@ -1,26 +1,26 @@
 ---
-description: I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I segmenti sono progettati come informazioni codificate sulle audience che puoi creare per soddisfare le tue esigenze specifiche e che puoi verificare, modificare e condividere con altri membri del gruppo o utilizzare in altri prodotti Adobe e funzionalità di Analytics.
+description: I segmenti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I segmenti sono progettati come informazioni codificate sulle audience che puoi creare per soddisfare le tue esigenze specifiche e che puoi verificare, modificare e condividere con altri membri del gruppo o utilizzare in altri prodotti Adobe e funzionalità di Analytics.
 title: Informazioni sui segmenti
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # Informazioni sui segmenti
 
-I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I segmenti sono progettati come approfondimenti sul pubblico che puoi creare in base alle tue esigenze specifiche e quindi verificare, modificare e condividere con altri membri del gruppo o utilizzare in altri prodotti Adobe e funzionalità di Analytics.
+I segmenti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I segmenti sono progettati come insight sul pubblico che puoi creare per esigenze specifiche e successivamente puoi verificarli, modificarli e condividerli con altri membri del team o utilizzarli in altri prodotti Adobe e in altre funzionalità di Analytics.
 
-I segmenti si basano su una [!UICONTROL Visitor], [!UICONTROL Visit], e [!UICONTROL Hit] gerarchia dei livelli utilizzando un modello di contenitore nidificato. I contenitori nidificati ti consentono di definire gli attributi e le azioni dei visitatori in base alle regole tra e all’interno dei contenitori. I segmenti di Analytics possono essere generati, approvati, condivisi, salvati ed eseguiti tra più prodotti e funzionalità in [!DNL Adobe Experience Cloud]. I segmenti possono essere generati da un rapporto, incorporati in un rapporto dashboard o contrassegnati con segnalibro per l’accesso rapido.
+I segmenti si basano su una gerarchia a livello di [!UICONTROL Visitor], [!UICONTROL Visit] e [!UICONTROL Hit] che utilizza un modello di contenitori nidificati. I contenitori nidificati ti consentono di definire gli attributi e le azioni dei visitatori in base alle regole tra e all’interno dei contenitori. I segmenti di Analytics possono essere generati, approvati, condivisi, salvati ed eseguiti tra più prodotti e funzionalità in [!DNL Adobe Experience Cloud]. I segmenti possono essere generati da un rapporto, incorporati in un rapporto dashboard o contrassegnati con segnalibro per l’accesso rapido.
 
 Puoi generare e salvare i segmenti nel Generatore di segmenti o generarli da un rapporto di fallout (in [!UICONTROL Analysis Workspace]). Puoi anche utilizzare ed estendere segmenti predefiniti basati su regole specifiche tra contenitori nidificati, per filtrare i risultati e applicarli ai rapporti. Inoltre, i segmenti possono essere utilizzati insieme come [segmenti sovrapposti](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 Identificazione dei segmenti
 
-- chi sono i visitatori (paese, genere, bar),
+- chi sono i visitatori (paese, genere, caffetteria),
 - quali dispositivi e servizi utilizzano (browser, motore di ricerca, dispositivo mobile),
 - luogo di navigazione (motore di ricerca, pagina di uscita precedente, ricerca naturale),
 - e molto di più.
@@ -55,7 +55,7 @@ Durante la creazione di segmenti di pubblico nel Generatore di segmenti, puoi de
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">AND</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">E</td></td>
 </tr>
 
 <tr>
@@ -112,11 +112,11 @@ Questo tipo di segmento filtra i set di dati in base alle caratteristiche unite 
 - I segmenti sono universali per tutte le suite di rapporti.
 - Il [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md) semplifica la creazione dei segmenti.
 - Il [Gestore segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md) consente di impostare [flussi di lavoro](/help/components/segmentation/segmentation-workflow/seg-workflow.md) con funzioni di condivisione dei segmenti, assegnazione di tag, verifica e approvazione.
-- È possibile [segmenti di tag](/help/components/segmentation/segmentation-workflow/seg-workflow.md) per organizzare ed eseguire ricerche in un secondo momento, anziché utilizzare le cartelle.
+- Puoi [assegnare tag ai segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md) per organizzarli ed effettuare ricerche in un secondo momento, anziché utilizzare le cartelle.
 - Puoi creare [Segmenti sequenziali](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-- Il [!UICONTROL Page View] il contenitore è ora [!UICONTROL Hit] contenitore per indicare che il contenitore segmenta tutti i tipi di dati e non solo le visualizzazioni di pagina. Ad esempio, le chiamate di tracciamento dei collegamenti e le chiamate trackAction dagli SDK per dispositivi mobili sono tutte incluse o escluse dal contenitore Hit.
+- Il contenitore [!UICONTROL Page View] è stato rinominato contenitore [!UICONTROL Hit] per indicare che segmenta tutti i tipi di dati e non solo le visualizzazioni di pagina. Ad esempio, le chiamate di tracciamento dei collegamenti e le chiamate trackAction dagli SDK per dispositivi mobili sono tutte incluse o escluse dal contenitore Hit.
 
-## Segmentazione in Analysis Workspace
+## Segmentazione in Analysis Workspace:
 
 Analysis Workspace contiene le seguenti funzioni aggiuntive:
 
@@ -124,9 +124,9 @@ Analysis Workspace contiene le seguenti funzioni aggiuntive:
 - Utilizzare i [segmenti come dimensioni](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) in un confronto.
 - Utilizzare i segmenti nell’[analisi dell’abbandono](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
 
-## Segmenti forniti dall’Adobe
+## Segmenti forniti da Adobe
 
-La barra Componenti sul lato sinistro della schermata mostra i segmenti creati da te e dalla tua azienda e i segmenti di Adobe forniti come predefiniti. Quando fai clic su **[!UICONTROL Show all]**, in genere questi segmenti vengono visualizzati nella parte inferiore dell’elenco e sono identificati dal logo di Adobe a destra.
+La barra Componenti sul lato sinistro della schermata mostra i segmenti creati da te e dalla tua azienda e i segmenti forniti da Adobe. Quando fai clic su **[!UICONTROL Show all]**, in genere questi segmenti vengono visualizzati nella parte inferiore dell’elenco e sono identificati dal logo di Adobe a destra.
 
 ## Segmenti sequenziali {#sequential}
 
@@ -136,12 +136,12 @@ I segmenti sequenziali ti consentono di identificare i visitatori in base alla n
 
 | Visita uno | Visita due | Visita tre |
 |---|---|---|
-| Durante la prima visita, il visitatore ha visitato la pagina di destinazione principale A, ha escluso la pagina della campagna B e ha visualizzato la pagina di prodotto C. | Durante la seconda visita, il visitatore ha nuovamente visitato la pagina di destinazione principale A, ha escluso la pagina della campagna B, ha visitato nuovamente la pagina di prodotto C e ha visitato la nuova pagina D. | Durante la terza visita, il visitatore è entrato e ha seguito lo stesso percorso della prima e seconda visita, quindi ha escluso la pagina F per passare direttamente a una pagina di prodotto mirata G. |
+| Durante la prima visita, il visitatore è passato alla pagina di destinazione principale A, ha escluso la pagina della campagna B e ha visualizzato la pagina di prodotto C. | Durante la seconda visita, ancora una volta il visitatore è passato alla pagina di destinazione principale A, ha escluso la pagina della campagna B ed è passato alla pagina di prodotto C, quindi è passato alla nuova pagina D. | Durante la terza visita, il visitatore è entrato e ha seguito lo stesso percorso della prima e della seconda visita, quindi ha escluso la pagina F per passare direttamente a una pagina di prodotto target G. |
 
 I segmenti sequenziali possono essere basati sui seguenti valori hit:
 
-- Visitatori in base alla sequenza di hit di pagina: visualizzazioni di pagina all’interno di una singola visita, visualizzazioni di pagina in visite separate, visite che escludevano le visualizzazioni di pagina.
-- Visitatori in base al tempo tra e dopo le visualizzazioni della pagina: dopo un limite di tempo, tra gli hit, dopo un evento.
+- Visitatori in base alla sequenza di hit della pagina: visualizzazioni pagina all’interno di una singola visita, visualizzazioni pagina in visite separate, visite in cui sono state escluse visualizzazioni pagina.
+- Visitatori in base al tempo tra e dopo le visualizzazioni pagina: dopo un limite di tempo, tra gli hit, dopo un evento.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -162,7 +162,7 @@ I segmenti sequenziali possono essere basati sui seguenti valori hit:
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">POI</td></td>
 </tr>
 
 <tr>
@@ -196,7 +196,7 @@ I segmenti sequenziali possono essere basati sui seguenti valori hit:
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>AND</td></td>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>E</td></td>
 </tr>
 
 <tr>
@@ -206,7 +206,7 @@ I segmenti sequenziali possono essere basati sui seguenti valori hit:
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">POI</td></td>
 </tr>
 
 <tr>
@@ -237,7 +237,7 @@ Un segmento sequenziale filtra i set di dati in base alle azioni degli utenti ch
 
 ## Video sulla segmentazione {#segment-video}
 
-Questo video offre una breve panoramica dei contenitori di segmenti e del loro utilizzo:
+Questo video offre una breve panoramica di cosa sono i contenitori dei segmenti e del loro utilizzo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
@@ -248,7 +248,7 @@ Questo video offre una breve panoramica dei contenitori di segmenti e del loro u
 
 Per accedere al Generatore di segmenti:
 
-- Visualizzazione di un rapporto esistente e clic sull’icona Segmenti  ![Icona del segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) nel menu di navigazione a sinistra. Nella barra del segmento visualizzata, fai clic su **[!UICONTROL Add]**, oppure
+- Visualizzazione di un rapporto esistente e clic sull’icona dei segmenti ![icona Segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) nella barra di navigazione a sinistra. Nella barra del segmento visualizzata, fai clic su **[!UICONTROL Add]**, oppure
 
 - Nella parte superiore del Gestore segmenti, fai clic su **[!UICONTROL + Add]**.  ![Pulsante Aggiungi](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
@@ -264,7 +264,7 @@ Per accedere al Gestore segmenti:
 
 - Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** nella navigazione superiore. Quindi fai clic su **[!UICONTROL Segments]**, oppure
 
-- Visualizzazione di un rapporto esistente e clic sull’icona Segmenti  ![Icona del segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) nel menu di navigazione a sinistra. Quindi fai clic su **[!UICONTROL Manage]**, oppure
+- Visualizza un report esistente e fai clic sull’icona Segmenti ![icona Segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) nella barra di navigazione a sinistra. Quindi fai clic su **[!UICONTROL Manage]**, oppure
 
 - Premi il tasto barra “/” in qualsiasi punto dell’interfaccia e cerca il Gestore segmenti.
 
@@ -282,9 +282,9 @@ Gli amministratori possono modificare qualsiasi segmento e condividere i segment
 
 +++ **Posso visualizzare tutti i segmenti nella mia azienda?**
 
-Sì, gli amministratori possono visualizzare tutti i segmenti all’interno di [!DNL Analysis Workspace] dell&#39;utente.
+Sì, gli amministratori possono visualizzare tutti i segmenti all’interno dell’interfaccia utente di [!DNL Analysis Workspace].
 
-Nel Report Builder vengono visualizzati i segmenti di tua proprietà e quelli condivisi con te.
+Report Builder mostra i segmenti di tua proprietà e quelli condivisi con te.
 
 +++
 
@@ -292,9 +292,9 @@ Nel Report Builder vengono visualizzati i segmenti di tua proprietà e quelli co
 
 Sì, tutti i segmenti possono essere gestiti nel Gestore segmenti. Il Gestore segmenti mostra i segmenti che possono essere visualizzati dal proprietario (l’utente che ha creato i segmenti), dagli utenti con cui sono stati condivisi e dagli amministratori. Il selettore dei segmenti mostra i segmenti di proprietà dell’utente e quelli condivisi con l’utente.
 
-Gli amministratori possono visualizzare tutti i segmenti nell’interfaccia utente di Analysis Workspace.
+Gli amministratori possono visualizzare tutti i segmenti all’interno dell’interfaccia utente di Analysis Workspace.
 
-In Report Builder vengono visualizzati solo i segmenti generati da te o quelli condivisi con te.
+Report Builder mostra solo i segmenti generati da te o quelli che sono stati condivisi con te specificamente.
 
 +++
 

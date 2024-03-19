@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei rapporti di abbandono. I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito.
 
-Ecco un video sulla visualizzazione Abbandono:
+Ecco un video sulla visualizzazione dell’abbandono, o fallout:
 
 >[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
 

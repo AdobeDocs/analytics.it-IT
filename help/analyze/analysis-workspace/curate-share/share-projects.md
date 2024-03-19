@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1844'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organ
 
 * Un destinatario posizionato in più ruoli, avrà sempre l’esperienza di livello più elevato. Ciò potrebbe verificarsi se un utente viene aggiunto sia come singolo utente che come parte di un gruppo. Ad esempio, se a un utente viene assegnato il ruolo **[!UICONTROL Edit original]** come singolo utente e il ruolo **[!UICONTROL Read only]** come membro di un gruppo, riceverà un’esperienza di progetto **[!UICONTROL Edit original]**.
 
-* Gli amministratori inseriti in un ruolo **[!UICONTROL Edit copy]** o **[!UICONTROL Read only]** riceveranno tali esperienze limitate quando aprono un progetto. Un amministratore può modificare il proprio ruolo in **[!UICONTROL Edit original]** condividendo il progetto con se stessi e concedendo **Modifica** ruolo, come descritto nella procedura seguente.
+* Gli amministratori inseriti in un ruolo **[!UICONTROL Edit copy]** o **[!UICONTROL Read only]** riceveranno tali esperienze limitate quando aprono un progetto. Un amministratore può modificare il proprio ruolo in **[!UICONTROL Edit original]** condividendo il progetto con se stesso e assegnandosi il ruolo **Modifica**, come descritto nella procedura seguente.
 
 * Se sono stati selezionati più progetti da condividere, i destinatari verranno aggiunti all’elenco esistente di destinatari per ciascun progetto.
 
@@ -65,16 +65,16 @@ Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organ
 
 Per condividere un ruolo di progetto specifico con utenti o gruppi dell’organizzazione:
 
-1. In Adobe Analytics, seleziona la [!UICONTROL **Workspace**] , quindi seleziona [!UICONTROL **Progetti**] nella barra a sinistra.
+1. In Adobe Analytics, seleziona la scheda [!UICONTROL **Workspace**], quindi scegli [!UICONTROL **Progetti**] nella barra a sinistra.
 
 1. Seleziona la casella di controllo accanto a uno o più progetti da condividere, quindi seleziona [!UICONTROL **Condividi**].
 
    Oppure
 
-   Per condividere solo un singolo progetto, puoi aprire il progetto che desideri condividere, quindi selezionare **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
+   Per condividere solo un singolo progetto, puoi aprire il progetto da condividere e poi selezionare **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
 In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il progetto.
 
-   Viene visualizzata la finestra di dialogo Condividi progetto. Il [!UICONTROL **Condividi tramite collegamento**] e [!UICONTROL **Impostazioni**] le sezioni della finestra di dialogo sono visibili solo quando si condivide un singolo progetto.
+   Viene visualizzata la finestra di dialogo Condividi progetto. Le sezioni [!UICONTROL **Condividi tramite collegamento**] e [!UICONTROL **Impostazioni**] della finestra di dialogo sono visibili solo quando si condivide un singolo progetto.
 
    ![](assets/share-proj-modal.png)
 
@@ -86,17 +86,17 @@ In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il pr
 
    **Sola lettura:** i destinatari non possono **[!UICONTROL Save]** o **[!UICONTROL Save as]** e non hanno accesso alla barra a sinistra. Anche le interazioni del progetto sono limitate. Questo ruolo è utile se desideri condividere un progetto con utenti che hanno meno familiarità con la struttura dei dati della tua organizzazione e con Analysis Workspace o Adobe Analytics in genere. Tuttavia, desideri comunque che utilizzino dati e informazioni in un ambiente sicuro. Scopri di più sull’[esperienza di progetto di Sola lettura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
 
-1. (Condizionale) Se condividi un singolo progetto, scegli se abilitare le seguenti opzioni durante la condivisione del progetto:
+1. (Condizionale) Se condividi un singolo progetto, scegli se abilitare le seguenti opzioni durante la condivisione:
 
    * **Condividi componenti di progetto incorporati:** condividi segmenti, metriche calcolate e intervalli di date con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa Componenti nell’interfaccia Workspace del destinatario. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
 
    * **Imposta come pagina di destinazione per i destinatari:** imposta questa pagina come pagina di destinazione per i destinatari. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
 
-1. Seleziona **[!UICONTROL Share]** (Crea schema). Se il progetto è già stato condiviso, seleziona [!UICONTROL **Aggiorna**].)
+1. Seleziona **[!UICONTROL Share]**. Se il progetto è già stato condiviso, seleziona [!UICONTROL **Aggiorna**].
 
    Oppure
 
-   Seleziona **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se il progetto è già stato condiviso, seleziona **[!UICONTROL Curate & Update]**.) Ulteriori informazioni sulla [cura dei progetti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
+   Fai clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se il progetto è già stato condiviso, seleziona **[!UICONTROL Curate & Update]**. Ulteriori informazioni sulla [cura dei progetti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
 
 ## Condividere un collegamento a un progetto
 
@@ -182,9 +182,9 @@ Per condividere un progetto Analysis Workspace con persone che non hanno accesso
 
 ## Visualizza progetti condivisi con te
 
-Quando qualcuno condivide un progetto con te tramite [condivisione di un ruolo di progetto specifico](#share-a-specific-project-role), puoi accedere ai progetti condivisi da [Scheda Progetti della pagina di destinazione di Analytics](/help/analyze/landing.md#navigate-the-projects-tab).
+Quando qualcuno condivide un progetto con te tramite la [condivisione di un ruolo di progetto specifico](#share-a-specific-project-role), puoi accedere ai progetti condivisi dalla [scheda Progetti della pagina di destinazione di Analytics](/help/analyze/landing.md#navigate-the-projects-tab).
 
-Quando qualcuno condivide un progetto con te condividendo un collegamento (da [Scheda Condividi progetto](#share-a-link-to-a-project) o utilizzando un [condividere con chiunque](#share-a-project-with-anyone-no-login-required) ), per accedere al progetto devi utilizzare il collegamento condiviso con te. Ad esempio, il collegamento potrebbe essere stato condiviso in un’e-mail, in un sito web interno e così via.
+Quando qualcuno condivide un progetto con te tramite un collegamento (dalla [scheda Condividi progetto](#share-a-link-to-a-project) o utilizzando un collegamento di tipo [condividi con chiunque](#share-a-project-with-anyone-no-login-required)), per accedere al progetto devi utilizzare il collegamento condiviso con te. Ad esempio, il collegamento potrebbe essere stato condiviso in un’e-mail, in un sito web interno e così via.
 
 ## Condividere componenti incorporati
 

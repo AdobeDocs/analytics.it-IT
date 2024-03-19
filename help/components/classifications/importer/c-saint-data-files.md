@@ -4,9 +4,9 @@ title: File di dati di classificazione
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1727'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Ogni valore deve essere univoco in tutto il sistema. Il valore in questo campo c
 
 >[!NOTE]
 >
->I valori nell’intestazione della colonna [!UICONTROL Classifications] devono corrispondere esattamente alla convenzione di denominazione della classificazione, altrimenti l’importazione non riesce. Ad esempio, se l’amministratore cambia [!UICONTROL Campaigns] a [!UICONTROL Internal Campaign Names] nel [!UICONTROL Campaign Set-up Manager], l’intestazione della colonna del file deve essere modificata di conseguenza. &quot;Chiave&quot; è un valore di classificazione riservato (intestazione). Le nuove classificazioni denominate &quot;Chiave&quot; non sono supportate.
+>I valori nell’intestazione della colonna [!UICONTROL Classifications] devono corrispondere esattamente alla convenzione di denominazione della classificazione, altrimenti l’importazione non riesce. Ad esempio, se l’amministratore modifica [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] nel [!UICONTROL Campaign Set-up Manager], l’intestazione della colonna del file dev’essere modificata di conseguenza. “Chiave” è un valore di classificazione riservato (intestazione). Le nuove classificazioni denominate “Chiave” non sono supportate.
 
 Inoltre, il file di dati supporta le seguenti convenzioni di intestazione aggiuntive per identificare sottoclassificazioni e altre colonne di dati specializzate:
 

@@ -1,18 +1,18 @@
 ---
 title: Impostazioni del set di classificazione
-description: Crea o modifica un set di classificazione.
+description: Creare o modificare un set di classificazione.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # Impostazioni del set di classificazione
 
-Configura le impostazioni di un set di classificazione.
+Configurare le impostazioni di un set di classificazione.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Fai clic sul nome del set di classificazione desiderato > **[!UICONTROL Settings]**
 

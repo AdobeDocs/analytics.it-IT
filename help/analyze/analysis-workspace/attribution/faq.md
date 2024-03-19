@@ -5,23 +5,23 @@ feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 72%
+workflow-type: ht
+source-wordcount: '1232'
+ht-degree: 100%
 
 ---
 
 # Domande frequenti su Attribution
 
 
-+++## Qual è l’elemento di riga “None” quando si utilizza l’attribuzione?
++++## Cos’è l’elemento di riga “None” quando si utilizza l’attribuzione?
 
 “None” è un elemento catch-all che rappresenta tutte le conversioni avvenute senza punti di contatto all’interno dell’intervallo di lookback. Per ridurre il numero di conversioni attribuite alla riga “None”, prova a utilizzare un intervallo di lookback personalizzato con un periodo di lookback più lungo.
 
 +++
 
 
-+++## Perché talvolta visualizzo date al di fuori del periodo definito per la generazione del rapporto quando utilizzo modelli di attribuzione?
++++## Perché talvolta visualizzo date al di fuori della mia finestra di reporting quando utilizzo modelli di attribuzione?
 
 Alcune metriche basate sulle visite, come [Voci](/help/components/metrics/entries.md) o [Percentuale non recapitate](/help/components/metrics/bounce-rate.md), possono attribuire i dati a un periodo prima dell’intervallo di date iniziale della finestra di generazione rapporti. Questa situazione è dovuta ai modelli di attribuzione che utilizzano una finestra di lookback, che determina il periodo di tempo precedente da considerare per l’attribuzione del credito alle metriche. Lo scenario più comune è quando le visite attraversano la mezzanotte. Ad esempio:
 
@@ -44,28 +44,28 @@ In questo esempio, Voci e Percentuale non recapitate non presenterebbero alcun d
 +++
 
 
-+++## Quando dovrei usare un lookback di attribuzione basato su visita, visitatore o personalizzato?
++++## Quando dovrei usare un lookback di attribuzione visita, visitatore o personalizzato?
 
-La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo di una singola visita, si consiglia di effettuare un lookback su visitatore o personalizzato. Per cicli di conversione più lunghi, è consigliabile utilizzare intervalli di lookback personalizzati, in quanto sono l’unico tipo in grado di estrarre i dati precedenti all’intervallo di reporting..
+La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo di una singola visita, si consiglia di effettuare un lookback su visitatore o personalizzato. Per cicli di conversione più lunghi, è consigliabile utilizzare intervalli di lookback personalizzati, in quanto sono l’unico tipo in grado di estrarre i dati precedenti all’intervallo di reporting.
 
 +++
 
 
-+++## Come si confrontano proprietà e eVar quando si utilizza l’attribuzione?
++++## Come si confrontano proprietà ed eVar quando si utilizza l’attribuzione?
 
 L’attribuzione viene ricalcolata in fase di esecuzione dei report, quindi non c’è differenza tra proprietà e eVar (o qualsiasi altra dimensione) per la modellazione dell’attribuzione. Le proprietà possono persistere utilizzando qualsiasi intervallo di lookback o modello di attribuzione e le impostazioni di allocazione/scadenza eVar vengono ignorate.
 
 +++
 
 
-+++## I modelli di attribuzione sono disponibili in altre funzionalità di Analytics, ad esempio Feed dati o Data Warehouse?
+I modelli di attribuzione sono disponibili in altre funzionalità di Analytics, ad esempio Feed dati o Data Warehouse?
 
 No. I modelli di attribuzione utilizzano l’elaborazione dei tempi di report, disponibile solo in Analysis Workspace. Per ulteriori informazioni, vedi [Elaborazione dei tempi di report](/help/components/vrs/vrs-report-time-processing.md).
 
 +++
 
 
-+++## I modelli di attribuzione sono disponibili solo se si utilizza una suite di rapporti virtuali ed è abilitata l’elaborazione dei tempi di report?
++++## I modelli di attribuzione sono disponibili solo se si utilizza una suite di rapporti virtuali con abilitata l’elaborazione nel momento del report?
 
 I modelli di attribuzione sono disponibili al di fuori delle suite di rapporti virtuali. Sebbene utilizzino l’elaborazione dei tempi di report in back-end, i modelli di attribuzione sono disponibili sia per le suite di rapporti standard che per le suite di rapporti virtuali.
 
@@ -84,7 +84,7 @@ Il pannello di attribuzione supporta tutte le dimensioni. Le metriche non suppor
 * Metriche A4T
 * Metriche Tempo trascorso
 * Rimbalzi
-* Percentuale non recapitate
+* Percentuale mancati recapiti
 * Voci
 * Uscite
 * Pagine non trovate
@@ -102,17 +102,17 @@ Sì, le classificazioni sono completamente supportate.
 +++
 
 
-+++## L’attribuzione funziona con origini di dati?
++++## L’attribuzione funziona con le origini di dati?
 
-Sì, la maggior parte delle origini di dati sono supportate. L’attribuzione non è possibile con origini dati a livello di riepilogo perché queste non si collegano a un identificatore visitatore di Analytics.
+Sì, la maggior parte delle origini di dati sono supportate. L’attribuzione non è possibile con origini di dati di livello sintetico perché non si collegano a un identificatore visitatore di Analytics.
 
-Le origini dati ID transazione sono trattate come qualsiasi altro hit. Le origini dati ID transazione non utilizzano l’elaborazione speciale normalmente utilizzata nei rapporti tradizionali. In altre parole, quando si utilizza l’elaborazione al momento del rapporto, gli hit per l’ID transazione avranno valori eVar propagati dagli hit che si verificano vicino alla marca temporale dell’hit per l’ID transazione. I valori non verranno propagati dagli hit che si sono verificati in prossimità della transazione originale.
+Le origini dati ID transazione sono trattate come qualsiasi altro hit. Le origini dati ID transazione non utilizzano l’elaborazione speciale normalmente utilizzata nei rapporti tradizionali. In altre parole, quando si utilizza l’elaborazione al momento del report, gli hit per l’ID transazione avranno valori eVar propagati dagli hit che si verificano vicino alla marca temporale dell’hit per l’ID transazione. I valori non verranno propagati dagli hit che si sono verificati in prossimità del momento della transazione originale.
 
-Quando possibile, l’attribuzione si basa sul valore della colonna MID inviato all’interno di un evento nell’origine dati, anziché su un valore persistente. Il modello di attribuzione viene applicato istantaneamente ai valori della colonna MID nell’origine dati. Ad esempio, quando utilizzi l’attribuzione &quot;Last Touch&quot; (Ultimo contatto), il modello inizia da ogni istanza di una metrica e torna indietro sequenzialmente negli hit fino a quando il modello raggiunge l’ultimo valore osservato nella colonna MID.
+Quando possibile, l’attribuzione si basa sul valore della colonna MID inviato all’interno di un evento nell’origine dati, anziché su un valore persistente. Il modello di attribuzione viene applicato durante l’elaborazione ai valori della colonna MID nell’origine dati. Ad esempio, quando utilizzi l’attribuzione “Ultimo contatto”, il modello inizia da ogni istanza di una metrica e torna indietro sequenzialmente negli hit fino a quando il modello raggiunge l’ultimo valore osservato nella colonna MID.
 
-Quando non è possibile, l’attribuzione utilizzerà il valore MID nel &quot;record precedente&quot; nell’origine dati per la valutazione. Questo record precedente potrebbe non essere ordinato in sequenza per marca temporale, dato che AA non supporta dati fuori ordine.
+Quando questo non è possibile, l’attribuzione utilizzerà il valore MID nel “record precedente” nell’origine dati per la valutazione. Tale record precedente potrebbe non essere ordinato in sequenza per marca temporale, dato che AA non supporta dati fuori ordine.
 
-Poiché i record non vengono ordinati in sequenza, i valori previsti dall’applicazione della persistenza possono influire sul periodo di tempo che intercorre tra l’ID transazione fornito e la transazione originale.
+Poiché i record non sono ordinati in sequenza, i valori previsti dall’applicazione della persistenza possono influire sul periodo di tempo che intercorre tra la marca temporale dell’ID transazione fornito e la transazione originale.
 
 +++
 
@@ -126,7 +126,7 @@ Le dimensioni dei metadati, come tipo di corrispondenza e parola chiave, funzion
 
 +++## Come funziona l’attribuzione con i canali di marketing?
 
-Quando i canali di marketing sono stati introdotti per la prima volta, presentavano solo le dimensioni di primo e ultimo contatto. La versione corrente dell’attribuzione non richiede più dimensioni esplicite di primo/ultimo contatto. L’Adobe fornisce generici [!UICONTROL Marketing Channel] e [!UICONTROL Marketing Channel Detail] per utilizzarle con il modello di attribuzione desiderato. Queste dimensioni generiche si comportano in modo identico a [!UICONTROL Last Touch Channel] ma sono etichettate in modo diverso per evitare confusione quando si utilizzano canali di marketing con un modello di attribuzione diverso.
+Quando i canali di marketing sono stati introdotti per la prima volta, presentavano solo le dimensioni di primo e ultimo contatto. La versione corrente dell’attribuzione non richiede più dimensioni esplicite di primo/ultimo contatto. Adobe fornisce dimensioni generiche [!UICONTROL Marketing Channel] e [!UICONTROL Marketing Channel Detail] per consentirti di utilizzarle con il modello di attribuzione desiderato. Queste dimensioni generiche si comportano in modo identico alle dimensioni [!UICONTROL Last Touch Channel], ma sono etichettate in modo diverso per evitare confusione quando si utilizzano canali di marketing con un modello di attribuzione diverso.
 
 Poiché le dimensioni del canale di marketing dipendono da una definizione di visita tradizionale (come definita dalle relative regole di elaborazione), la definizione della visita non può essere modificata utilizzando le suite di rapporti virtuali.
 
@@ -146,12 +146,12 @@ Quando l’attribuzione viene applicata a hit con più valori, a tutti i valori 
 
 L’attribuzione viene sempre eseguita prima della segmentazione e la segmentazione viene eseguita prima dell’applicazione dei filtri per la generazione del rapporto. Questo concetto si applica anche alle suite di rapporti virtuali che utilizzano segmenti.
 
-Ad esempio, se crei una suite di rapporti virtuale a cui è applicato il segmento &quot;Hit di visualizzazione&quot;, potresti vedere altri canali in una tabella utilizzando alcuni modelli di attribuzione.
+Ad esempio, se crei una suite di rapporti virtuali applicando il segmento “hit di visualizzazione”, potresti vedere altri canali sotto forma di tabella che utilizza alcuni modelli di attribuzione.
 
 ![Suite di rapporti virtuali di sola visualizzazione](assets/vrs-aiq-example.png)
 
 >[!NOTE]
 >
->Se un segmento sopprime gli hit contenenti la metrica, queste istanze di metrica non sono attribuite ad alcuna dimensione. Tuttavia, un filtro per la generazione di rapporti simile si limita a nascondere alcuni elementi dimensionali senza alcun impatto sulle metriche elaborate secondo il modello di attribuzione. Di conseguenza, un segmento può restituire valori inferiori rispetto a un filtro con una definizione comparabile.
+>Se un segmento sopprime gli hit contenenti la metrica, queste istanze di metrica non sono attribuite ad alcuna dimensione. Tuttavia, un filtro di questo tipo per la generazione di rapporti si limita a nascondere alcuni elementi di dimensione senza alcun impatto sulle metriche elaborate secondo il modello di attribuzione. Di conseguenza, un segmento può restituire valori inferiori rispetto a un filtro con una definizione comparabile.
 
 +++

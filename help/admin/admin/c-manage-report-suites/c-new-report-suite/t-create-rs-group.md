@@ -4,9 +4,9 @@ title: Creare un gruppo suite di rapporti
 feature: Report Suite Settings
 exl-id: ad4c3f06-72ef-4ffd-86c4-0d2a4c7a4e9d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 In [!UICONTROL Report Suite Manager], puoi organizzare le suite di rapporti in gruppi personalizzati. I gruppi consentono di accedere rapidamente a più suite di rapporti che condividono impostazioni simili o che normalmente vengono modificate insieme.
 
-Per creare un gruppo suite di rapporti:
+Per creare un gruppo di suite di rapporti:
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Nell’area [!UICONTROL Report Suite Groups] seleziona una suite di rapporti.

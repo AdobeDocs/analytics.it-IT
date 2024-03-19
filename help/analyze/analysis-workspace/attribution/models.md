@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1554'
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 * **Intervallo di lookback personalizzato:** consente di estendere la finestra di attribuzione oltre l’intervallo di date del rapporto, fino a un massimo di 90 giorni. Gli intervalli di lookback personalizzati vengono valutati per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, un intervallo di lookback di 10 giorni valuterebbe tutti i punti di contatto delle dimensioni dal 10 al 20 febbraio nel modello di attribuzione.
 
-   Ecco un video sugli intervalli di lookback personalizzati:
+  Ecco un video sulle finestre di lookback personalizzate:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
+  >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
 
 ## Esempio
 

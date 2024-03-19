@@ -4,15 +4,15 @@ title: Domande frequenti sui segmenti legacy
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Domande frequenti sui segmenti legacy
 
-Risposte alle domande frequenti sulle best practice per la gestione dei segmenti legacy: segmenti creati prima del 2014.
+Risposte alle domande frequenti sulle best practice per la gestione dei segmenti legacy - segmenti creati prima del 2014.
 
 ## Gestione dei segmenti legacy {#legacy}
 
@@ -58,7 +58,7 @@ Puoi creare o modificare nuovi segmenti di Data Warehouse nel Generatore/Gestore
 * **Visite da ricerca a pagamento**
 * **Visite con il cookie ID visitatore**
 
-Verrà effettuata la migrazione di questi segmenti e diventeranno modelli di segmenti nel Generatore di segmenti. I rapporti esistenti a cui sono applicati questi segmenti continueranno a funzionare correttamente.
+Verrà eseguita la migrazione di questi segmenti e diventeranno modelli di segmenti nel Generatore di segmenti. I rapporti esistenti a cui sono applicati questi segmenti continueranno a funzionare correttamente.
 
 +++
 
@@ -72,13 +72,13 @@ Verrà effettuata la migrazione di questi segmenti e diventeranno modelli di seg
 * Visite con oltre 5 visite precedenti*
 * Visite da Facebook*
 
-La maggior parte di questi segmenti (ad eccezione di quelli contrassegnati con un asterisco *) è stata migrata nel generatore di segmenti sotto forma di modelli. Sono stati inoltre aggiunti diversi nuovi modelli di segmenti.
+La maggior parte di questi segmenti (tranne quelli contrassegnati con un asterisco *) sono stati migrati come modelli di segmento nel Generatore di segmenti. Sono stati inoltre aggiunti diversi nuovi modelli di segmenti.
 
-I rapporti esistenti a cui sono applicati questi segmenti continuano a funzionare correttamente.
+I rapporti esistenti a cui sono applicati questi segmenti continueranno a funzionare correttamente.
 
 +++
 
-+++ **Cos’è successo ai segmenti admin (noti anche come segmenti &quot;globali&quot;)?**
++++ **Cos’è successo ai segmenti di amministrazione (noti anche come segmenti “globali”)?**
 
 I segmenti **admin** verranno migrati nella nuova interfaccia dei segmenti e visualizzati come segmenti condivisi con tutti.
 
@@ -115,9 +115,9 @@ Di seguito sono riportati alcuni suggerimenti per la migrazione delle dimensioni
 * Geo-città/area geografica/paese: cerca e seleziona città, aree geografiche o paesi specifici invece di utilizzare una corrispondenza parziale.
 * Browser: utilizza la dimensione Tipi di browser per ottenere tutti i browser in un tipo, ad esempio Google Chrome
 * Sistemi operativi: utilizza le dimensioni Tipi di sistema operativo per ottenere tutti i sistemi operativi in un tipo, ad esempio Microsoft Windows.
-* Consultare &quot;Dimension nuovi e rinominati&quot; (vedere di seguito)
+* Consulta “Dimensioni nuove e rinominate” (vedi di seguito)
 
-## Dimension nuovi e rinominati {#renamed}
+## Dimensioni nuove e rinominate {#renamed}
 
 La tabella seguente contiene un elenco di dimensioni rinominate nel Generatore di segmenti.
 
@@ -147,13 +147,13 @@ La tabella seguente contiene un elenco di dimensioni rinominate nel Generatore d
 
 {style="table-layout:auto"}
 
-## Modifiche ai Dimension basati su stringhe con valori noti {#string-based-dims}
+## Modifiche alle dimensioni basate su stringhe con valori noti {#string-based-dims}
 
 Le dimensioni basate su stringhe che hanno un set noto di valori sono state modificate in tipi enumerati. Quando crei un segmento utilizzando queste dimensioni, l’elenco viene precompilato con tutti i valori noti e l’unico operatore supportato è “uguale a”. Ciò consente di segmentare rapidamente i valori esatti desiderati senza selezionare altri valori quando utilizzi una corrispondenza meno restrittiva.
 
 Le seguenti dimensioni sono state modificate in elenchi enumerati:
 
-| Nome Dimension | Nome Dimension | Nome Dimension |
+| Nome dimensione | Nome dimensione | Nome dimensione |
 | --- | --- | --- |
 | produttore di dispositivi mobili | lunghezza e-mail mobile | profondità colore |
 | dimensioni schermo mobile | numero dispositivo mobile | risoluzione monitor |
@@ -170,9 +170,9 @@ Le seguenti dimensioni sono state modificate in elenchi enumerati:
 | lunghezza segnalibro mobile | java abilitato | ricerca a pagamento |
 | lunghezza url mobile | lingua |  |
 
-## Modifiche ai Dimension basati su numeri interi con valori noti {#integer-based-dims}
+## Modifiche alle dimensioni basate su numeri interi con valori noti {#integer-based-dims}
 
-Le dimensioni basate su numeri interi (come la larghezza del browser) con un set di valori noto sono state suddivise in intervalli enumerati, in modo da poter definire rapidamente i segmenti per un intervallo specifico. Gli elenchi enumerati sono seguiti da “ - Bucket” dopo il nome della dimensione. La schermata seguente mostra come queste dimensioni vengono segmentate utilizzando l’interfaccia precedente del generatore di segmenti e quella nuova:
+Le dimensioni basate su numeri interi (come la larghezza del browser) con un set di valori noto sono state suddivise in intervalli enumerati, in modo da poter definire rapidamente i segmenti per un intervallo specifico. Gli elenchi enumerati sono seguiti da “ - Bucket” dopo il nome della dimensione. La schermata seguente mostra il modo in cui queste dimensioni vengono segmentate utilizzando l’interfaccia precedente del Generatore di segmenti e l’interfaccia nuova:
 
 ![](assets/seg_browser_dimension.png)
 
