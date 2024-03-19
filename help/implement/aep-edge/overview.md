@@ -7,7 +7,7 @@ role: Admin, Developer, Leader
 source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 23%
+ht-degree: 46%
 
 ---
 
@@ -19,7 +19,7 @@ L’Adobe offre tre modi principali per inviare dati alla rete Edge:
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**: utilizza l’estensione Web SDK in raccolta dati Adobe Experience Platform per inviare dati a Edge.
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**: utilizza l’estensione Mobile SDK in raccolta dati Adobe Experience Platform per inviare dati a Edge.
-* **[API server di rete Edge di Adobe Experience Platform](server-api/overview.md)**: invia i dati direttamente a Edge tramite un’API.
+* **[API server della rete Edge di Adobe Experience Platform](server-api/overview.md)**: invia i dati direttamente a Edge tramite un’API.
 
 
 
@@ -33,12 +33,12 @@ I dati inviati a Adobe Experience Platform Edge Network possono essere in due fo
 
 La rete Edge utilizza la seguente logica per determinare le visualizzazioni di pagina e gli eventi di collegamento di Adobe Analytics
 
-| Il payload XDM contiene... | Adobe Analytics: |
+| Il payload XDM contiene... | Adobe Analytics... |
 |---|---|
-| `web.webPageDetails.name` o `web.webPageDetails.URL` e no `web.webInteraction.type` | considera payload a **visualizzazione pagina** |
-| `web.webInteraction.type` e (`web.webInteraction.name` o `web.webInteraction.url`) | considera payload a **evento collegamento** |
-| `web.webInteraction.type` e (`web.webPageDetails.name` o `web.webPageDetails.url`) | considera payload a **evento collegamento** <br/>`web.webPageDetails.name` e `web.webPageDetails.URL` sono impostati su `null` |
-| no `web.webInteraction.type` e (no `webPageDetails.name` e no `web.webPageDetails.URL`) | elimina il payload e ignora i dati |
+| `web.webPageDetails.name` o `web.webPageDetails.URL` e non `web.webInteraction.type` | considera il payload una **visualizzazione di pagina** |
+| `web.webInteraction.type` e (`web.webInteraction.name` o `web.webInteraction.url`) | considera il payload un **evento collegamento** |
+| `web.webInteraction.type` e (`web.webPageDetails.name` o `web.webPageDetails.url`) | considera il payload un **evento collegamento** <br/>`web.webPageDetails.name` e `web.webPageDetails.URL` impostato su `null` |
+| non `web.webInteraction.type` e (non `webPageDetails.name` e non `web.webPageDetails.URL`) | elimina il payload e ignora i dati |
 
 {style="table-layout:auto"}
 
