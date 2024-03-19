@@ -3,16 +3,16 @@ description: Abilita le dimensioni di gestione del consenso.
 title: Rapporti sula privacy
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: d7e2667bc232435881107f31d25843ef224a96b2
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 5%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
 # Rapporti sulla privacy
 
-La generazione di rapporti sulla privacy consente di abilitare [Gestione del consenso Opt-in](/help/components/dimensions/cm-opt-in.md), [Rinuncia alla gestione del consenso](/help/components/dimensions/cm-opt-out.md) e [Consenso annuncio](/help/components//dimensions/ad-consent.md) dimensioni da utilizzare nel reporting.
+La generazione di rapporti sulla privacy consente di abilitare [Gestione del consenso Opt-in](/help/components/dimensions/cm-opt-in.md), [Rinuncia alla gestione del consenso](/help/components/dimensions/cm-opt-out.md) e [Consenso per la piattaforma di annunci](/help/components//dimensions/ad-consent.md) dimensioni da utilizzare nel reporting.
 
 >[!NOTE]
 >
@@ -36,7 +36,3 @@ Per accedere a questa pagina:
 1. Una volta abilitata, viene visualizzato un messaggio di conferma. Le dimensioni sono disponibili nei rapporti.
 
    ![Rapporto](assets/consent-management.png)
-
-## Dimensione di consenso annuncio
-
-Il [Dimensione di consenso annuncio](/help/components/dimensions/ad-consent.md) mostra se il consenso viene raccolto per inviare dati a provider pubblicitari di terze parti, come Google, Meta e altri.

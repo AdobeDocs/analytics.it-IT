@@ -1,17 +1,17 @@
 ---
-title: Consenso annuncio
+title: Consenso per la piattaforma di annunci
 description: Consulta la configurazione per il consenso pubblicitario per i provider di annunci di terze parti.
 feature: Dimensions
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
 
-# Consenso annuncio
+# Consenso per la piattaforma di annunci
 
-Il &quot;Consenso dell’annuncio&quot; [dimensione](overview.md) mostra se il consenso viene raccolto per inviare dati a provider pubblicitari di terze parti, come Google, Meta e altri.
+Il &quot;Consenso per la piattaforma di annunci&quot; [dimensione](overview.md) mostra se il consenso viene raccolto per inviare dati a provider pubblicitari di terze parti, come Google, Meta e altri.
 
 Attualmente, questa dimensione viene utilizzata solo per Google. A causa delle normative europee sulla privacy, il Digital Markets Act (DMA), Google richiede che i dati inviati ai propri server e raccolti in Europa indichino se il consenso è raccolto. Alcuni clienti di Analytics inviano i dati di un evento tramite Adobi Advertising come eventi di conversione a Google.
 
@@ -52,7 +52,6 @@ Puoi utilizzare i dati raccolti sull’annuncio e sul consenso:
 
 * Feed di dati: i dati sul consenso degli annunci sono disponibili utilizzando `dataprivacydmaconsent` [colonna](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Data Warehouse rapporti: i dati sul consenso dell’annuncio sono disponibili utilizzando **[!UICONTROL Ad Platform Consent]** dimensione.
-
 
 La tua organizzazione determina la logica per implementare questa variabile di dati di contesto. Il valore non persiste oltre l’hit su cui è impostato, pertanto devi impostare la variabile di dati di contesto su ogni pagina.
 
