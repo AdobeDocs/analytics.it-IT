@@ -2,9 +2,9 @@
 title: Consenso per la piattaforma di annunci
 description: Consulta la configurazione per il consenso pubblicitario per i provider di annunci di terze parti.
 feature: Dimensions
-source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
+source-git-commit: ba892374710bc24c379e0c53e5fd00ff4c39d906
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ Il &quot;Consenso per la piattaforma di annunci&quot; [dimensione](overview.md) 
 
 Attualmente, questa dimensione viene utilizzata solo per Google. A causa delle normative europee sulla privacy, il Digital Markets Act (DMA), Google richiede che i dati inviati ai propri server e raccolti in Europa indichino se il consenso è raccolto. Alcuni clienti di Analytics inviano i dati di un evento tramite Adobi Advertising come eventi di conversione a Google.
 
-In futuro, questa dimensione può essere utilizzata per supportare la codifica di informazioni sul consenso aggiuntive per altri provider pubblicitari di terze parti.
+In futuro, questa dimensione può essere utilizzata per supportare la codifica di informazioni aggiuntive sul consenso per altri provider pubblicitari di terze parti.
 
 ## Popolare questa dimensione con i dati
 
