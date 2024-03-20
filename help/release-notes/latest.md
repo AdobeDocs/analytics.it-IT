@@ -3,10 +3,10 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9636b8e4e8596449cb37bbab9bc46d660fac4a4b
+source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 39%
+source-wordcount: '1299'
+ht-degree: 36%
 
 ---
 
@@ -50,6 +50,7 @@ AN-312198; AN-338009; AN-339549; AN-333970; AN-334790; AN-336461; AN-336572; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
+| **Scadenza di 13 mesi del salvataggio`cust_visids`** | giovedì 20 marzo 2024 | Una prossima versione del motore di elaborazione degli hit di Analytics, prevista per aprile o maggio, inizierà ad applicare una scadenza di 13 mesi di `cust_visids`. Se nella suite di rapporti è abilitato &quot;Abilita unione visitatori&quot;, questa impostazione viene utilizzata per trovare `cust_visid` per un `visid_high/visid_low value` senza `cust_visid` sull&#39;hit. Attualmente, non vi è alcuna scadenza della mappatura di un `cust_visid` per un `visid_high/visid_low`. Con questa versione, se sono trascorsi 13 mesi o più da `visid_high/visid_low` ha avuto un `cust_visid` in caso di hit, la mappatura scadrà. |
 | **Adobe di aggiunte di membri oggetto API** | 17 gennaio 2024 | Adobe può aggiungere membri di richiesta e risposta facoltativi (coppie nome/valore) agli oggetti API esistenti in qualsiasi momento e senza preavviso, né modifiche nel controllo delle versioni. Adobe consiglia di fare riferimento alla documentazione API di qualsiasi strumento di terze parti integrato con le proprie API, in modo che tali aggiunte, se non comprese, vengano ignorate durante l’elaborazione. Se implementate correttamente, tali aggiunte rappresentano modifiche che non comportato interruzioni per l’implementazione. Adobe non rimuove né aggiunge parametri richiesti senza prima fornire una notifica standard tramite le note sulla versione. |
 | **`getPageLoadTime`plug-in obsoleto** | 10 gennaio 2024 | Questo plug-in non è più supportato. Il suo codice utilizza il metodo performance.timing, che (secondo MDN) è diventato [obsoleto](https://developer.mozilla.org/it-IT/docs/Web/API/PerformanceTiming). È stato avviato il lavoro su un plug-in aggiornato. |
 
