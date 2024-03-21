@@ -3,7 +3,7 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
+source-git-commit: b5d274b6b529737b2ad1d135599fe0b0dcf4bf2a
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 36%
@@ -12,7 +12,7 @@ ht-degree: 36%
 
 # Note sulla versione corrente di Adobe Analytics (marzo 2024)
 
-**Ultimo aggiornamento**: giovedì 20 marzo 2024
+**Ultimo aggiornamento**: venerdì 21 marzo 2024
 
 Queste note sulla versione coprono il periodo dal 12 marzo 2024 ad aprile 2024. I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -26,7 +26,7 @@ Queste note sulla versione coprono il periodo dal 12 marzo 2024 ad aprile 2024. 
 | **Utilizzo del Report Builder incluso nella colonna &quot;Utilizzato in&quot; nel Gestore delle metriche calcolate e nel Gestore segmenti** | Quando si visualizza **Utilizzato in** Nella colonna Gestione metriche calcolate o Gestione segmenti, i dati di utilizzo sono ora disponibili per il Report Builder.<p>In precedenza, i dati di utilizzo nel Gestore segmenti erano disponibili solo per Avvisi, Progetti, Progetti programmati e Metriche calcolate, mentre i dati di utilizzo nel Gestore metriche calcolate erano disponibili solo per Avvisi, Progetti e Progetti programmati.</p> |  | A fine marzo o all&#39;inizio di aprile |
 | **Utilizzare gli stessi account cloud per feed di dati, Data Warehouse e set di classificazione** | Ora è possibile utilizzare gli account e le posizioni cloud creati per esportare i dati (con feed di dati e Data Warehouse) e importare i dati (con set di classificazione).<p> **Modifiche durante la configurazione degli account:** Gli utenti possono configurare gli account di importazione ed esportazione cloud e configurare le posizioni di importazione ed esportazione cloud che possono essere utilizzate per uno dei seguenti scopi:<ul><li>Importazione di dati con set di classificazione</li><li>Esportazione di dati con feed di dati</li><li>Esportazione di dati con Data Warehouse.</li></ul><p>**Modifiche durante la gestione degli account**: gli utenti possono utilizzare la pagina Posizioni (in Componenti > Posizioni) per visualizzare e gestire tutti gli account e le posizioni creati, indipendentemente da dove sono stati creati. <p>In precedenza, la pagina Posizioni si applicava solo ai conti creati per l’importazione di dati con set di classificazione.</p> | | Aprile 2024 |
 | **Gli amministratori possono gestire tutte le posizioni e gli account della propria organizzazione** | Una nuova opzione nella scheda Posizioni (nella pagina Componenti > Posizioni ) consente agli amministratori di visualizzare e gestire tutte le posizioni dell’organizzazione.<p>Una nuova opzione nella scheda Account ubicazione (nella pagina Componenti > Posizioni ) consente agli amministratori di visualizzare e gestire tutti gli account dell&#39;organizzazione.</p> <p>In precedenza, gli amministratori potevano visualizzare e gestire solo le posizioni e gli account creati.</p> |  | Aprile 2024 |
-| **L’Activity Map utilizza un numero inferiore di chiamate server per Web SDK** | Attualmente, gli eventi di collegamento Activity Map vengono conteggiati come propri eventi e comportano costi aggiuntivi. <p>Questo miglioramento raccoglie alcuni eventi di collegamento e li inserisce nell’hit successivo, in modo simile a come gli eventi vengono gestiti da AppMeasurement.</p> |  | giovedì 3 aprile 2024 |
+| **L’Activity Map utilizza un numero inferiore di chiamate server per Web SDK** | Attualmente, gli eventi di collegamento Activity Map vengono conteggiati come propri eventi e comportano costi aggiuntivi. <p>Questo miglioramento raccoglie alcuni eventi di collegamento e li inserisce nell’hit successivo, in modo simile a come gli eventi vengono gestiti da AppMeasurement.</p> |  | mercoledì 30 aprile 2024 |
 | **Aumento delle soglie predefinite per traffico ridotto** | Verso la **metà di aprile 2024**, Adobe inizierà ad aumentare le soglie di traffico ridotto della suite di rapporti predefinita come segue: ![soglie di traffico ridotto](assets/thresholds.png). Questo influisce solo sulle variabili attualmente impostate al di sotto delle nuove soglie. Queste modifiche saranno apportate in modo incrementale ed è previsto che il lavoro sia completato entro la **fine del mese di maggio**. Con l’introduzione di questi aumenti, potresti notare modifiche per le variabili ad alta cardinalità:<ul><li>Per il reporting possono essere disponibili più valori di dimensione.</li><li>Segmenti e metriche calcolate possono includere più dati.</li><li>Le suite di rapporti virtuali basate sui segmenti possono includere più dati.</li><li>Le esportazioni delle classificazioni possono includere più dati.</li></ul> | | Metà aprile 2024 |
 
 {style="table-layout:auto"}
