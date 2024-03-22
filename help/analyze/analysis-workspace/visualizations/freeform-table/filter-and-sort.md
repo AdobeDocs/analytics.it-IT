@@ -4,9 +4,9 @@ title: Filtra e ordina tabelle a forma libera
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
+source-git-commit: 398d4ae264ce108c16a03cef086ae2614b442a2b
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '872'
 ht-degree: 66%
 
 ---
@@ -28,7 +28,6 @@ I filtri in Analysis Workspace ti aiutano a far emergere le informazioni più im
 Puoi utilizzare diversi metodi per filtrare le righe da una tabella a forma libera. 
 
 - Fai clic sulla X nella riga
-- Clic con il pulsante destro del mouse > Righe selezionate eliminate
 - Filtri per tabella
 - Segmentazione
 
