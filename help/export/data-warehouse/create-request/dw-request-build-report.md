@@ -1,26 +1,26 @@
 ---
-description: Passaggi che descrivono come creare una richiesta Data Warehouse.
+description: Passaggi che descrivono come creare una richiesta di Data Warehouse.
 title: Creare un rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 0%
+source-wordcount: '169'
+ht-degree: 40%
 
 ---
 
 # Creare un rapporto per una richiesta Data Warehouse
 
-Durante la creazione di una richiesta Data Warehouse sono disponibili varie opzioni di configurazione. Le informazioni seguenti descrivono come creare un rapporto per la richiesta.
+Durante la creazione di una richiesta di Data Warehouse, sono disponibili varie opzioni di configurazione. Le informazioni seguenti descrivono come creare un rapporto per la richiesta.
 
-Per informazioni su come iniziare a creare una richiesta, nonché collegamenti ad altre importanti opzioni di configurazione, vedi [Creare una richiesta Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Per informazioni su come iniziare a creare una richiesta, nonché collegamenti ad altre importanti opzioni di configurazione, consulta [Creare una richiesta di Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 Per creare un rapporto per una richiesta Data Warehouse:
 
-1. Inizia a creare una richiesta in Adobe Analytics selezionando **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Aggiungi**].
+1. Se non lo hai già fatto, inizia a creare una richiesta in Adobe Analytics selezionando **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Aggiungi**].
 
-   Per ulteriori dettagli, vedi [Creare una richiesta Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Per ulteriori dettagli, consulta [Creare una richiesta di Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. Nella pagina Nuova richiesta Data Warehouse, seleziona la [!UICONTROL **Creare il rapporto**] scheda.
 
@@ -28,7 +28,7 @@ Per creare un rapporto per una richiesta Data Warehouse:
 
 1. Trascina nel generatore segmenti, metriche e dimensioni. Il rapporto generato determina i dati inclusi nella richiesta Data Warehouse.
 
-1. Continua a configurare la richiesta Data Warehouse in [!UICONTROL **Destinazione del rapporto**] scheda. Per ulteriori informazioni, consulta [Configurare una destinazione di rapporto per una richiesta Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. Continua a configurare la richiesta Data Warehouse in [!UICONTROL **Destinazione del rapporto**] scheda. Per ulteriori informazioni, consulta [Configurare una destinazione di rapporto per una richiesta al Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 
 <!--
 
