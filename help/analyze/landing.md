@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1760'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ La pagina di destinazione di Adobe Analytics è composta dalle seguenti schede s
 
 **[!UICONTROL Reports]** (Rapporti) fa riferimento a qualsiasi elemento predefinito e fornito da Adobe, ad esempio i modelli in Workspace.
 
-Il **[!UICONTROL Learning]** La scheda contiene presentazioni video pratiche, tutorial e collegamenti alla documentazione.
+La scheda **[!UICONTROL Learning]** contiene tutorial, presentazioni video pratiche e collegamenti alla documentazione.
 
 ## Passa alla scheda [!UICONTROL Projects] {#navigate-projects}
 
-Il [!UICONTROL Projects] funge da scheda [!UICONTROL Workspace] home page. Visualizza la cartella Azienda, tutte le cartelle personali create, i progetti e le scorecard per dispositivi mobili. In questa pagina puoi visualizzare, creare e modificare cartelle, progetti e scorecard per dispositivi mobili. Per ulteriori informazioni, consulta la sezione [Informazioni sulle cartelle in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+La scheda [!UICONTROL Projects] funge da pagina home di [!UICONTROL Workspace]. La scheda mostra la cartella Azienda, le cartelle personali create dall’utente, i progetti e le scorecard per dispositivi mobili. In questa pagina puoi visualizzare, creare e modificare cartelle, progetti e scorecard per dispositivi mobili. Per ulteriori informazioni, consulta la sezione [Informazioni sulle cartelle in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Destinazione completa](assets/landing-all2.png)
 
@@ -35,7 +35,7 @@ Il [!UICONTROL Projects] funge da scheda [!UICONTROL Workspace] home page. Visua
 >
 >Molte delle seguenti impostazioni vengono mantenute durante la sessione e tra sessioni diverse. Ad esempio, la scheda selezionata, i filtri selezionati, le colonne selezionate e la direzione di ordinamento delle colonne. I risultati della ricerca non vengono mantenuti.
 
-### Personalizzare le colonne della tabella
+### Personalizzare le colonne in tabella
 
 Per personalizzare la larghezza delle colonne, trascinare la barra verticale che separa ciascuna colonna.
 
@@ -53,11 +53,11 @@ Le colonne disponibili sono:
 | [!UICONTROL **Suite di rapporti**] | Identifica le suite di rapporti associate al progetto.<br>Le tabelle e le visualizzazioni all’interno di un pannello derivano i dati dalla suite di rapporti selezionata in alto a destra nel pannello. La suite di rapporti determina anche i componenti disponibili nella barra a sinistra. All’interno di un progetto, puoi utilizzare una o più suite di rapporti a seconda dei casi di utilizzo dell’analisi. L’elenco delle suite di rapporti è ordinato in base alla rilevanza. Adobe definisce la rilevanza in base a quanto recentemente e con quale frequenza la suite è stata utilizzata dall’utente corrente, e alla frequenza con cui viene utilizzata all’interno dell’organizzazione. |
 | [!UICONTROL **Proprietario**] | Identifica la persona che ha creato il progetto. |
 | [!UICONTROL **Condiviso con**] | Mostra con chi è attualmente condiviso il progetto. |
-| [!UICONTROL **Ultima modifica**] | Data e ora dell’ultima modifica apportata al progetto. |
-| [!UICONTROL **Ultima apertura**] | Identifica la data dell&#39;ultima apertura di un progetto da parte dell&#39;utente che sta visualizzando la pagina Progetti. |
-| [!UICONTROL **Ultimo utilizzo**] | Consente di determinare se un progetto è utile per gli utenti dell’organizzazione mostrando la data e l’ora dell’ultima apertura del progetto da parte di qualsiasi utente all’interno dell’organizzazione.<p>Quando visualizzi questa colonna, tieni presente quanto segue:</p><ul><li>Le informazioni sull’utilizzo sono disponibili a partire da settembre 2023.</li><li>Questa colonna è disponibile solo per gli amministratori di sistema.</li></ul> |
-| [!UICONTROL **ID Progetto**] | Può essere utilizzato per il debug di progetti. |
-| [!UICONTROL **Intervallo date più lungo**] | Intervalli di date più lunghi aumentano la complessità del progetto e possono comportare tempi di elaborazione e di caricamento più lunghi. |
+| [!UICONTROL **Ultima modifica**] | La data e l’ora dell’ultima volta che il progetto è stato modificato. |
+| [!UICONTROL **Ultima apertura**] | Identifica la data dell’ultima apertura di un progetto da parte dell’utente che sta visualizzando la pagina Progetti. |
+| [!UICONTROL **Ultimo utilizzo**] | Consente di determinare se un progetto è utile per gli utenti dell’organizzazione, mostrando la data e l’ora dell’ultima apertura del progetto da parte di qualsiasi utente all’interno dell’organizzazione.<p>Quando visualizzi questa colonna, prendi in considerazione quanto segue:</p><ul><li>Le informazioni sull’utilizzo sono disponibili a partire da settembre 2023.</li><li>Questa colonna è disponibile solo per gli amministratori di sistema.</li></ul> |
+| [!UICONTROL **ID Progetto**] | Può essere utilizzato per i progetti di debugging. |
+| [!UICONTROL **Intervallo di date più lungo**] | Intervalli di date più lunghi aumentano la complessità del progetto e possono comportare tempi di elaborazione e di caricamento più lunghi. |
 | [!UICONTROL **Numero di query**] | Numero totale di richieste effettuate ad Analytics quando il progetto viene caricato. Un numero elevato di query di progetto aumenta la complessità del progetto e può comportare tempi di elaborazione e di caricamento più lunghi. Questi dati sono disponibili solo dopo il caricamento di un progetto o l’invio di un progetto pianificato. |
 | [!UICONTROL **Posizione**] | Mostra la cartella in cui si trova il progetto. |
 

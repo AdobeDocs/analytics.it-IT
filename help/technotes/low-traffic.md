@@ -4,9 +4,9 @@ title: Valore Traffico ridotto in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: fe6b1a2d503bbc423d3ebcacad2ce3c29e1ebbed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Quando un report contiene molti valori univoci, Adobe fornisce funzionalità per
 * Adobe Analytics utilizza due soglie per determinare quali valori univoci vengono visualizzati nei report ogni mese: una **[!UICONTROL low threshold]** e una **[!UICONTROL high threshold]**. Adobe può modificare periodicamente queste soglie. Gli attuali limiti di soglia sono:
    * **[!UICONTROL Low threshold]**: >500.000 valori univoci nel corso del mese.
    * **[!UICONTROL High threshold]**: >1.000.000 valori univoci nel corso del mese.
-* In entrata **metà aprile 2024**, ad Adobe, inizierà ad aumentare le soglie di traffico ridotto della suite di rapporti predefinita come segue: ![soglie di traffico ridotto](assets/thresholds.png)
-Questo incide solo sulle variabili attualmente impostate al di sotto delle nuove soglie. Queste modifiche saranno apportate in modo incrementale e ci aspettiamo che il lavoro sia completato entro il **fine maggio**. Con l’introduzione di questi aumenti, potresti notare modifiche per le variabili ad alta cardinalità:<ul><li>Per il reporting possono essere disponibili più valori di dimensione.</li><li>Segmenti e metriche calcolate possono includere più dati.</li><li>Le suite di rapporti virtuali basate sui segmenti possono includere più dati.</li><li>Le esportazioni delle classificazioni possono includere più dati.</li></ul>
+* Verso la **metà aprile 2024**, Adobe inizierà ad aumentare le soglie di traffico ridotto della suite di rapporti predefinita come segue: ![soglie di traffico ridotto](assets/thresholds.png).
+Questo influisce solo sulle variabili attualmente impostate al di sotto delle nuove soglie. Queste modifiche saranno apportate in modo incrementale ed è previsto che il lavoro sia completato entro la **fine del mese di maggio**. Con l’introduzione di questi aumenti, potresti notare modifiche per le variabili ad alta cardinalità:<ul><li>Per il reporting possono essere disponibili più valori di dimensione.</li><li>Segmenti e metriche calcolate possono includere più dati.</li><li>Le suite di rapporti virtuali basate sui segmenti possono includere più dati.</li><li>Le esportazioni delle classificazioni possono includere più dati.</li></ul>
 * Se la variabile non raggiunge la soglia minima in un dato mese, il reporting non viene influenzato.
 * Quando una variabile raggiunge la soglia minima, i dati iniziano ad essere inseriti nel bucket [!UICONTROL Low-Traffic]. Ogni valore oltre questa soglia segue la seguente logica:
    * Se un valore è già presente nei report, aggiungilo come faresti di normalmente.
@@ -37,7 +37,7 @@ Tieni presente che la logica a traffico ridotto descritta sopra funziona meglio 
 
 ## Modifica delle soglie limite univoche
 
-I limiti di soglia a volte possono essere modificati in base alla variabile. Contatta l’assistenza clienti di Adobe o il team Adobe account per richiedere questa modifica. La misura in cui le soglie possono essere aumentate dipende da molteplici fattori e l&#39;Adobe potrebbe non essere in grado di tenere conto degli aumenti delle soglie in tutti i casi. Quando richiedi una modifica, includi:
+I limiti di soglia a volte possono essere modificati in base alla variabile. Contatta l’assistenza clienti di Adobe o il team Adobe account per richiedere questa modifica. La misura in cui è possibile aumentare le soglie dipende da molteplici fattori e Adobe potrebbe non essere in grado di consentire aumenti delle soglie in tutti i casi. Quando richiedi una modifica, includi:
 
 * L’ID della suite di rapporti
 * La variabile per la quale desideri aumentare la soglia
