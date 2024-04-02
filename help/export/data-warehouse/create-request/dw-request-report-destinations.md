@@ -4,9 +4,9 @@ title: Configurare una destinazione di rapporto per una richiesta di Data Wareho
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2427'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Per informazioni su come iniziare a creare una richiesta, nonché collegamenti a
 
 Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse:
 
-1. Se non lo hai già fatto, inizia a creare una richiesta in Adobe Analytics selezionando **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Aggiungi**].
+1. Se non l’hai ancora fatto, inizia a creare una richiesta in Adobe Analytics selezionando **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Aggiungi**].
 
    Per ulteriori dettagli, consulta [Creare una richiesta di Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
