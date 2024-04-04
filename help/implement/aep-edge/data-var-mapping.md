@@ -1,11 +1,12 @@
 ---
 title: Mappatura della variabile dell’oggetto dati su Adobe Analytics
-description: Visualizza i campi dell’oggetto dati mappati automaticamente da Edge alle variabili di Analytics.
+description: Visualizza i campi dell’oggetto dati Experience Platform Edge mappati automaticamente sulle variabili di Analytics.
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
+source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '559'
 ht-degree: 5%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 5%
 
 La tabella seguente mostra le variabili dell’oggetto dati mappate automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi dell’oggetto dati, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics.
 
-L’utilizzo di questi campi è consigliato se intendi utilizzare il Customer Journey Analytics in futuro. Questo metodo di implementazione consente all’organizzazione di inviare dati ad Adobe utilizzando l’SDK per web senza essere conforme a uno schema XDM. Quando la tua organizzazione è pronta per inviare dati a Adobe Experience Platform, puoi utilizzare [Mappatura dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) per puntare i campi oggetto dati ai rispettivi campi XDM.
+L’utilizzo di questi campi è consigliato se intendi utilizzare il Customer Journey Analytics in futuro. Questo metodo di implementazione consente all’organizzazione di inviare dati ad Adobe utilizzando l’SDK web senza essere conforme a uno schema XDM. Quando la tua organizzazione è pronta per inviare dati a Adobe Experience Platform, puoi utilizzare [Mappatura dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) per puntare i campi oggetto dati ai rispettivi campi XDM.
 
 ## Priorità di valore
 
