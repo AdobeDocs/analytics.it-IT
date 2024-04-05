@@ -4,9 +4,9 @@ description: Visualizza i campi dell’oggetto dati Experience Platform Edge map
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
+source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '555'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,6 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | `data.__adobe.analytics.referrer` | La dimensione [Referrer](/help/components/dimensions/referrer.md). |
 | `data.__adobe.analytics.resolution` | Il [Risoluzione monitor](../../components/dimensions/monitor-resolution.md) dimensione. Campo abbreviato `data.__adobe.analytics.s` è supportato anche. |
 | `data.__adobe.analytics.server` | La dimensione [Server](/help/components/dimensions/server.md). |
-| `data.__adobe.analytics.tnta` | Utilizzato nelle integrazioni A4T. |
 | `data.__adobe.analytics.transactionID` | Il [`transactionID`](../vars/page-vars/transactionid.md) variabile di implementazione Campo abbreviato `data.__adobe.analytics.xact` è supportato anche. |
 | `data.__adobe.analytics.zip` | Il [Codice postale](../../components/dimensions/zip-code.md) dimensione. |
 
