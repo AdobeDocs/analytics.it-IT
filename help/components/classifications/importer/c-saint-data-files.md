@@ -3,10 +3,10 @@ description: L’importazione consente di caricare in massa i dati delle classif
 title: File di dati di classificazione
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '1727'
-ht-degree: 100%
+source-git-commit: eb6703dc4079678020954984905ee210cbcbbf8f
+workflow-type: tm+mt
+source-wordcount: '1746'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Un file di dati deve rispettare le seguenti regole di struttura:
 
 * Le classificazioni non possono contenere un accento circonflesso (^) poiché questo carattere è utilizzato per indicare una sottoclassificazione.
 * Presta attenzione quando utilizzi i trattini. Ad esempio, se utilizzi un trattino (-) in un termine Social, Social riconosce il trattino come operatore [!DNL Not] (il segno meno). Ad esempio, se specifichi *`fragrance-free`* come termine con l’importazione, Social riconosce il termine come fragrance *`minus`* free e raccoglie i post che menzionano *`fragrance`* ma non *`free`*.
-* I limiti di caratteri vengono applicati per classificare i dati dei rapporti. Ad esempio, se carichi un file di testo delle classificazioni per i prodotti (*`s.products`*) con nomi di prodotto che superano i 100 caratteri (byte), i prodotti non verranno visualizzati nei rapporti. I codici di tracciamento e tutte le variabili di conversione personalizzate (eVar) consentono 255 byte.
+* I limiti di caratteri vengono applicati per classificare i dati dei rapporti. Ad esempio, se carichi un file di testo delle classificazioni per i prodotti (*`s.products`*) con nomi di prodotto che superano i 100 caratteri (byte), i prodotti non verranno visualizzati nei rapporti. I codici di tracciamento e tutte le variabili di conversione personalizzate (eVar) consentono 255 byte. Questo criterio si estende anche ai valori delle colonne di classificazione e sottoclassificazione, soggetti allo stesso limite di 255 byte.
 * File di dati delimitati da tabulazioni (crea il file modello utilizzando un’applicazione per fogli di calcolo o un editor di testo).
 * Un’estensione file [!DNL .tab] o [!DNL .txt].
 * Il cancelletto (#) identifica la riga come un commento degli utenti. Adobe ignora le righe che iniziano con #.
