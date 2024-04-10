@@ -1,18 +1,18 @@
 ---
 title: Tempo di elaborazione dell’importazione di classificazioni
-description: Comprendere l’intervallo di tempo in cui Adobe elabora i file di classificazione e come ridurre al minimo il tempo di elaborazione.
+description: Comprendere l’arco temporale in cui Adobe elabora i file di classificazione e come ridurre al minimo il tempo di elaborazione.
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a83195c7805ff1bfb854b3c2714857f437cf8955
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '423'
 ht-degree: 100%
 
 ---
 
 # Tempo di elaborazione dell’importazione di classificazioni
 
-Il tempo di elaborazione di un file di classificazione varia in base alle dimensioni del file e al numero totale di file elaborati da Adobe. Le classificazioni in genere non richiedono più di 72 ore. Tuttavia, periodi di uso intensivo delle classificazioni tra le organizzazioni che utilizzano Adobe Analytics possono causare un aumento del tempo di elaborazione dei file, che possono richiedere più di 72 ore. Adobe riporta un uso intensivo delle classificazioni nei mesi che precedono le feste.
+Il tempo di elaborazione di un file di classificazione varia in base alle dimensioni del file e al numero totale di file elaborati da Adobe. Le classificazioni in genere non richiedono più di 24 ore. Tuttavia, periodi di uso intensivo delle classificazioni tra le organizzazioni che utilizzano Adobe Analytics possono causare un aumento del tempo di elaborazione dei file, che possono richiedere più di 24 ore. Adobe riporta un uso intensivo delle classificazioni nei mesi che precedono le feste.
 
 Per verificare se un file di classificazione è stato elaborato, effettua le seguenti operazioni:
 
