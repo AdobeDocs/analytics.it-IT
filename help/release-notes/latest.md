@@ -4,15 +4,15 @@ description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1347'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (marzo 2024)
 
-**Ultimo aggiornamento**: giovedì 3 aprile 2024
+**Ultimo aggiornamento**: 3 aprile 2024
 
 Queste note sulla versione coprono il periodo di rilascio compreso tra il 12 marzo 2024 e aprile 2024. I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -20,7 +20,7 @@ Queste note sulla versione coprono il periodo di rilascio compreso tra il 12 mar
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Modifica del protocollo di eliminazione per i progetti Workspace** | In precedenza, i progetti eliminati non venivano mai eliminati dal sistema. Ora inizieremo a eliminare i progetti eliminati dopo 180 giorni. Nei 180 giorni successivi all’eliminazione, gli utenti possono comunque accedere a un progetto eliminato tramite l’interfaccia web, se dispongono di un URL per il progetto. | | venerdì 14 marzo 2024 |
+| **Cambia il protocollo di eliminazione per i progetti Workspace** | In precedenza, i progetti eliminati non venivano mai eliminati dal sistema. Ora inizieremo a eliminare i progetti eliminati dopo 180 giorni. Nei 180 giorni successivi all’eliminazione, gli utenti possono comunque accedere a un progetto eliminato tramite l’interfaccia web, se dispongono di un URL per il progetto. | | 14 marzo 2024 |
 | **Aggiornamento AppMeasurement** | È disponibile la [Versione di AppMeasurement v2.26.0](/help/implement/appmeasurement-updates.md). | | 4 marzo 2024 |
 | **Nuova colonna disponibile nella pagina di destinazione Progetti** | La colonna **[!UICONTROL Last used]** è ora disponibile quando si visualizza la scheda Progetti nella [Pagina di destinazione di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=it). <p>Queste informazioni possono essere utili per determinare se un progetto è utile per gli utenti dell’organizzazione, mostrando la data e l’ora dell’ultima apertura del progetto.</p> <p>Precedentemente, la colonna **[!UICONTROL Last used]** era disponibile solo in Gestione metriche calcolate, Gestione segmenti e Gestione avvisi.</p> |  | 13 marzo 2024 |
 | **Supporto di Analytics per i flag di consenso richiesti da Google per DMA** | A causa delle nuove normative europee sulla privacy, Google richiede che i dati raccolti in Europa che sono stati inviati a loro indichino se sono stati concessi due particolari tipi di consenso.**A partire dal 6 marzo**, Google non accetterà più i dati dell’evento che non indicano che è stato concesso il relativo consenso. Adobe Analytics ha rilasciato il supporto per l’acquisizione di questi dati tramite una nuova variabile adConsent. Puoi visualizzare la nuova variabile elencata nell’[Interfaccia utente dei rapporti sulla privacy](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md). Se desideri attivare questa impostazione e hai già abilitato la privacy per le variabili di consenso precedenti, dovrai abilitare nuovamente la privacy.<p>La [dimensione del consenso per la piattaforma di annunci](/help/components/dimensions/ad-consent.md) indica se il consenso viene raccolto per inviare dati a provider pubblicitari di terze parti come Google. |  | 13 marzo 2024 |
@@ -51,7 +51,7 @@ AN-312198; AN-338009; AN-339549; AN-333970; AN-334790; AN-336461; AN-336572; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
-| **Scadenza di 13 mesi di`cust_visids`** salvati. | 20 marzo 2024 | Una prossima versione del motore di elaborazione degli hit di Analytics, prevista per aprile o maggio, inizierà ad applicare una scadenza di 13 mesi di `cust_visids` salvati. Se nella suite di rapporti è abilitato “Abilita unione visitatori”, questa impostazione viene utilizzata per trovare `cust_visid` per un `visid_high/visid_low value` senza `cust_visid` sull’hit. Attualmente, non vi è alcuna scadenza della mappatura di un `cust_visid` per un `visid_high/visid_low`. Con questa versione, se sono trascorsi 13 mesi o più da quando `visid_high/visid_low` ha avuto un `cust_visid` su un hit, la mappatura scadrà. |
+| **Scadenza di 13 mesi di`cust_visids`** salvati | 20 marzo 2024 | Una prossima versione del motore di elaborazione degli hit di Analytics, prevista per aprile o maggio, inizierà ad applicare una scadenza di 13 mesi di `cust_visids` salvati. Se nella suite di rapporti è abilitato “Abilita unione visitatori”, questa impostazione viene utilizzata per trovare `cust_visid` per un `visid_high/visid_low value` senza `cust_visid` sull’hit. Attualmente, non vi è alcuna scadenza della mappatura di un `cust_visid` per un `visid_high/visid_low`. Con questa versione, se sono trascorsi 13 mesi o più da quando `visid_high/visid_low` ha avuto un `cust_visid` su un hit, la mappatura scadrà. |
 | **Aggiunte di membri agli oggetti API di Adobe** | 17 gennaio 2024 | Adobe può aggiungere membri di richiesta e risposta facoltativi (coppie nome/valore) agli oggetti API esistenti in qualsiasi momento e senza preavviso, né modifiche nel controllo delle versioni. Adobe consiglia di fare riferimento alla documentazione API di qualsiasi strumento di terze parti integrato con le proprie API, in modo che tali aggiunte, se non comprese, vengano ignorate durante l’elaborazione. Se implementate correttamente, tali aggiunte rappresentano modifiche che non comportato interruzioni per l’implementazione. Adobe non rimuove né aggiunge parametri richiesti senza prima fornire una notifica standard tramite le note sulla versione. |
 | Plug-in **`getPageLoadTime`obsoleto** | 10 gennaio 2024 | Questo plug-in non è più supportato. Il suo codice utilizza il metodo performance.timing, che (secondo MDN) è diventato [obsoleto](https://developer.mozilla.org/it-IT/docs/Web/API/PerformanceTiming). È stato avviato il lavoro su un plug-in aggiornato. |
 
