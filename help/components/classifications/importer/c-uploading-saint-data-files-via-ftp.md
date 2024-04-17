@@ -3,10 +3,10 @@ description: Come caricare i file di dati tramite FTP.
 title: Importazione FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
+source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 4%
+source-wordcount: '701'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 >
 >L&#39;FTP non è consigliato perché è un metodo non crittografato di condivisione dei file, il che significa che chiunque può intercettare il contenuto del file, nonché il nome utente e la password utilizzati per l&#39;account.
 >
->Configura invece un account cloud come descritto in [Configurare account di importazione cloud](/help/components/locations/configure-import-accounts.md).
+>Configura invece un account cloud come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).
 
 Passaggi che descrivono come caricare i file di dati tramite FTP.
 
@@ -62,12 +62,12 @@ Consulta [FTP e sFTP](/help/export/ftp-and-sftp/ftp-overview.md) per ulteriori d
    | **Nome** | Il nome dell’account FTP. |
    | **Set di dati da classificare** | Dall’elenco a discesa, seleziona il set di dati (variabile del rapporto di marketing) che desideri classificare. |
    | **Selezionare suite di rapporti** | Seleziona le suite di rapporti in cui desideri classificare il set di dati selezionato. Per selezionare più suite di rapporti, le classificazioni per ciascuna delle suite di rapporti selezionate devono essere identiche. |
-   | **Sovrascrivi i dati sui conflitti** | Selezionare questa opzione per sovrascrivere i dati duplicati. Questa opzione è utile se aggiorni le classificazioni esistenti. Se è attiva la [architettura di classificazione più recente](../sets/overview.md), questa impostazione è sempre abilitata. |
+   | **Sovrascrivi dati in caso di conflitti** | Selezionare questa opzione per sovrascrivere i dati duplicati. Questa opzione è utile se aggiorni le classificazioni esistenti. Se è attiva la [architettura di classificazione più recente](../sets/overview.md), questa impostazione è sempre abilitata. |
    | **Dopo il completamento dell’importazione** | Seleziona questa opzione per esportare automaticamente il set di dati aggiornato nello stesso account FTP una volta specificato l’indirizzo e-mail per ricevere notifiche su questo account FTP una volta completata l’importazione. Se è attiva la [architettura di classificazione più recente](../sets/overview.md), opzione non disponibile. |
    | **Destinatario notifica** | Specifica l&#39;indirizzo e-mail per ricevere notifiche su questo account FTP. |
    | **Autorizza** | (Obbligatorio) Autorizza l’Adobe a importare automaticamente tutti i file di dati inviati al nuovo account FTP. |
 
-1. Fai clic su **[!UICONTROL Save]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Save]**.
 
 Una volta creati, è possibile modificare o eliminare gli account FTP facendo clic sul collegamento appropriato accanto all&#39;account FTP desiderato.
 

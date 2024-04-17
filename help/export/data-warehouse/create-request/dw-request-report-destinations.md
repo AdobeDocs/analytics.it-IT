@@ -3,10 +3,10 @@ description: Passaggi che descrivono come creare una richiesta di Data Warehouse
 title: Configurare una destinazione di rapporto per una richiesta di Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
-workflow-type: ht
-source-wordcount: '2427'
-ht-degree: 100%
+source-git-commit: b960aaa60569d65cb8501cf041341a3a132929b1
+workflow-type: tm+mt
+source-wordcount: '2581'
+ht-degree: 85%
 
 ---
 
@@ -20,12 +20,19 @@ Per informazioni su come iniziare a creare una richiesta, nonché collegamenti a
 >
 >Quando configuri la destinazione di rapporto, tieni presente quanto segue:
 >
->* È consigliabile utilizzare un account cloud o un’ e-mail per la destinazione di rapporto. Gli account FTP e SFTP legacy sono disponibili ma non sono consigliati.
+>* È consigliabile utilizzare un account cloud o un’ e-mail per la destinazione di rapporto. [Account FTP e SFTP legacy](#legacy-destinations) sono disponibili ma non sono consigliati.
 >
->* Per Data Warehouse è possibile utilizzare qualsiasi account cloud configurato in precedenza per [Feed dati](/help/export/analytics-data-feed/create-feed.md) o per l’[importazione dei dati di classificazione di Adobe Analytics](/help/components/locations/locations-manager.md). Tuttavia, non è possibile utilizzare le posizioni configurate per l’importazione dei dati di classificazione.
+>* Tutti gli account cloud configurati in precedenza possono essere utilizzati per Data Warehouse. Puoi configurare gli account cloud in uno dei seguenti modi:
+>
+>   * Durante la configurazione [Feed dati](/help/export/analytics-data-feed/create-feed.md)
+>   
+>   * Quando [importazione dei dati di classificazione di Adobe Analytics](/help/components/locations/locations-manager.md) È possibile utilizzare gli account, ma non le posizioni configurate in tali account.
+>   
+>   * Dal gestore Ubicazioni, in [Componenti > Posizioni](/help/components/locations/configure-import-accounts.md).
 >
 >* Gli account cloud sono associati al tuo account utente di Adobe Analytics. Gli altri utenti non possono utilizzare o visualizzare gli account cloud che configuri.
 >
+>* È possibile modificare qualsiasi posizione creata dal gestore Ubicazioni in [Componenti > Posizioni](/help/components/locations/configure-import-accounts.md)
 
 Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse:
 
@@ -37,17 +44,27 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
    ![Scheda Destinazione rapporto](assets/dw-report-destination.png)
 
-1. (Condizionale) Se hai già configurato un account (e una relativa destinazione) che desideri utilizzare come destinazione del rapporto:
+1. (Condizionale) Se un account cloud (e una destinazione su tale account) è già stato configurato in Adobe Analytics, puoi utilizzarlo come destinazione del rapporto:
 
-   1. (Facoltativo) Se sei un amministratore di sistema, è disponibile l’opzione [!UICONTROL **Mostra tutte le destinazioni**]. Abilita questa opzione se desideri avere accesso a tutti gli account e a tutte le posizioni creati da qualsiasi utente dell’organizzazione.
+   >[!NOTE]
+   >
+   >Gli account sono disponibili solo se sono stati configurati o se sono stati condivisi con un&#39;organizzazione di cui fai parte.
+   >
+   >Se sei un amministratore di sistema, il [!UICONTROL **Mostra tutte le destinazioni**] è disponibile. Abilita questa opzione se desideri avere accesso a tutti gli account e a tutte le posizioni creati da qualsiasi utente dell’organizzazione.
 
    1. Seleziona l’account dal menu a discesa [!UICONTROL **Seleziona account**].
 
-      Qualsiasi account cloud configurato per l’[importazione dei dati di classificazione di Adobe Analytics](/help/components/locations/locations-manager.md) da una destinazione cloud viene visualizzato qui e può essere utilizzato. Tuttavia, non è possibile utilizzare le posizioni configurate per l’importazione dei dati di classificazione. Aggiungi invece una nuova destinazione come descritto di seguito.
+      È possibile utilizzare qualsiasi account cloud configurato in una delle seguenti aree di Adobe Analytics:
+
+      * Durante l’importazione dei dati di classificazione di Adobe Analytics, come descritto in [Schema](/help/components/classifications/sets/manage/schema.md).
+
+        Tuttavia, non è possibile utilizzare le posizioni configurate per l’importazione dei dati di classificazione. Aggiungi invece una nuova destinazione come descritto di seguito.
+
+      * Durante la configurazione di account e posizioni nell&#39;area Posizioni, come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
 
    1. Seleziona la destinazione associata all’account dal menu a discesa [!UICONTROL **Seleziona destinazione**].<!-- Is this correct? -->
 
-1. (Condizionale) Se non hai già configurato un account:
+1. (Condizionale) Se non hai accesso a un account cloud già configurato in Adobe Analytics, puoi configurarne uno:
 
    1. Seleziona [!UICONTROL **Aggiungi account**], quindi specifica le seguenti informazioni:
 
@@ -63,7 +80,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       +++Amazon S3
 
-      Per configurare un account Amazon S3 con ruolo ARN, specifica le seguenti informazioni:
+      Per configurare un account Amazon S3 Role ARN, specifica le seguenti informazioni:
 
       | Campo | Funzione |
       |---------|----------|
@@ -72,7 +89,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -84,11 +101,11 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
-      Specifica le informazioni seguenti per configurare un account SAS di Azure:
+      Per configurare un account SAS di Azure, specificare le informazioni seguenti:
 
       | Campo | Funzione |
       |---------|----------|
@@ -100,11 +117,11 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
-      Specifica le informazioni seguenti per configurare un account Azure RBAC:
+      Per configurare un account RBAC di Azure, specificare le informazioni seguenti:
 
       | Campo | Funzione |
       |---------|----------|
@@ -114,7 +131,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-mail
 
@@ -137,20 +154,20 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       +++Amazon S3
 
-      Per configurare una posizione Amazon S3, specifica le seguenti informazioni:
+      Per configurare un percorso Amazon S3, specifica le seguenti informazioni:
 
       | Campo | Funzione |
       |---------|----------|
-      | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l’utente ARN fornito da Adobe disponga dell’autorizzazione `S3:PutObject` per caricare i file in questo bucket. Questa autorizzazione consente all’utente ARN di caricare i file iniziali e di sovrascrivere i file per i caricamenti successivi.</p> |
+      | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l’utente ARN fornito da Adobe disponga dell’autorizzazione `S3:PutObject` per caricare i file in questo bucket. Questa autorizzazione consente all’utente ARN di caricare i file iniziali e di sovrascrivere i file per i caricamenti successivi.</p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
       | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
-      Per configurare una posizione di Google Cloud Platform, specifica le seguenti informazioni:
+      Per configurare un percorso di Google Cloud Platform, specifica le seguenti informazioni:
 
       | Campo | Funzione |
       |---------|----------|
@@ -159,11 +176,11 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
-      Per configurare una posizione SAS di Azure, specifica le seguenti informazioni:
+      Per configurare un percorso SAS di Azure, specificare le informazioni seguenti:
 
       | Campo | Funzione |
       |---------|----------|
@@ -172,11 +189,11 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
-      Per configurare una posizione RBAC di Azure, specifica le seguenti informazioni:
+      Per configurare un percorso RBAC di Azure, specificare le informazioni seguenti:
 
       | Campo | Funzione |
       |---------|----------|
@@ -186,7 +203,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Continua a configurare la richiesta del Data Warehouse nella scheda [!UICONTROL **Opzioni rapporto**]. Per ulteriori informazioni, consulta [Configurare le opzioni del rapporto per una richiesta al Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

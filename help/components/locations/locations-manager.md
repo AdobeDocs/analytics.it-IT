@@ -3,52 +3,105 @@ description: Configura l’account di importazione cloud e il percorso in cui è
 keywords: Analysis Workspace
 title: Gestione posizioni
 feature: Classifications
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
+source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 3%
+source-wordcount: '607'
+ht-degree: 1%
 
 ---
 
 # Gestione posizioni
 
-Gestione posizioni consente di creare, modificare o eliminare posizioni. Questi percorsi consentono di salvare e riutilizzare le destinazioni per i file esportati o le origini per i file importati. Il gestore della posizione è disponibile quando tutte le suite di rapporti dell’organizzazione utilizzano [Set di classificazione](../classifications/sets/overview.md) architettura.
+Gestione posizioni consente di visualizzare, creare, modificare o eliminare conti e posizioni. Possono essere utilizzati per uno dei seguenti scopi:
 
-**[!UICONTROL Components]** > **[!UICONTROL Locations]**
+* Esportazione di file tramite [Feed dati](/help/export/analytics-data-feed/create-feed.md)
+* Esportazione di rapporti tramite [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Importazione degli schemi tramite [Set di classificazione](/help/components/classifications/sets/overview.md)
 
-## Filtra posizioni
+## Visualizzare, filtrare e cercare i percorsi
 
-Il lato sinistro di Gestione posizioni fornisce le impostazioni del filtro per trovare le posizioni desiderate.
+Il gestore posizioni consente di visualizzare tutte le posizioni create. Gli amministratori di sistema possono visualizzare le posizioni create da tutti gli utenti.
 
-1. Seleziona l’icona del filtro.
+1. Per accedere al gestore delle posizioni in Adobe Analytics, seleziona **[!UICONTROL Components]** > **[!UICONTROL Locations]**.
 
-   Puoi filtrare le posizioni per **[!UICONTROL Location Type]**, **[!UICONTROL Account]**, o **[!UICONTROL Created By]**.
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza posizioni per tutti gli utenti**] per visualizzare le posizioni create da tutti gli utenti dell’organizzazione. <!-- Maybe add a screenshot? This is new functionality -->
 
-   ![Filtri posizioni](assets/locations-filters.png)
+1. Filtra o cerca nell’elenco delle posizioni:
 
-## Colonne di Gestione posizioni
+   * **Filtro:** Seleziona l’icona Filtro per filtrare l’elenco delle posizioni.
 
-In Gestione posizioni sono disponibili le seguenti colonne:
+     Puoi filtrare le posizioni per **[!UICONTROL Location Type]**, **[!UICONTROL Account]**, o **[!UICONTROL Created By]**.
+
+     ![Filtri posizioni](assets/locations-filters.png)
+
+   * **Cerca:** Nel campo di ricerca, inizia a digitare il nome della posizione che desideri visualizzare. I risultati vengono filtrati durante la digitazione. La ricerca viene eseguita nelle colonne seguenti: **Nome posizione**, **Tipo di posizione**, **Account**, e **Creato da**.
+
+1. (Facoltativo) Se disponi di più di 1.000 posizioni, vengono visualizzate solo le prime 1.000. Seleziona [!UICONTROL **Carica di più**] per caricare altre 1.000 posizioni.
+
+## Configurare le colonne nel gestore Posizioni
+
+Le colonne seguenti sono disponibili in Gestione posizioni. Per personalizzare le colonne visualizzate nella tabella, selezionare **Personalizza tabella** icona ![Icona Personalizza tabella](assets/customize-table-icon.png).
 
 * **[!UICONTROL Location name]**: nome della posizione. Seleziona il menu a 3 punti accanto al nome di una posizione per: [modifica la posizione](/help/components/locations/configure-import-locations.md) o eliminarlo.
 * **[!UICONTROL Location type]**: tipo di account associato alla posizione.
 * **[!UICONTROL Account]**: l’account specifico associato alla posizione.
+* **Applicazione**: tipo di applicazione con cui può essere utilizzata la posizione (ad esempio Feed dati, Data Warehouse o Set di classificazione).
 * **[!UICONTROL Last used]**: data dell’ultimo utilizzo della posizione.
 * **[!UICONTROL Created by]**: utente che ha creato la posizione.
 * **[!UICONTROL Date created]**: data di creazione della posizione.
 
-## Creare o modificare le opzioni
+## Creare e gestire le posizioni
 
-In Gestione posizioni sono disponibili le seguenti opzioni:
+Puoi creare, modificare ed eliminare le posizioni.
 
-* **[!UICONTROL Add location]**: crea una posizione.
+### Creare una posizione
 
-  Per ulteriori informazioni, consulta [Configurare i percorsi di importazione cloud](/help/components/locations/configure-import-locations.md).
-* **[!UICONTROL Search field]**: cerca le posizioni per nome.
-* **[!UICONTROL Load more]**: il gestore Posizioni visualizza inizialmente fino a 1.000 posizioni. Questo pulsante carica altre 1.000 posizioni.
-* **Personalizza tabella**: icona Personalizza tabella ![Icona Personalizza tabella](assets/customize-table-icon.png) consente di scegliere quali colonne visualizzare nella tabella.
+Per informazioni su come creare una posizione, consulta [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
 
-Selezionando una casella di controllo accanto a una posizione vengono visualizzate le seguenti opzioni:
+<!-- Do I need to add some steps here about how to create a location and then assign that location to be used with DF, DW, or Classifications sets? Need to hear back from Ron and team whether we are including this functionality -->
 
-* **[!UICONTROL Edit]**: consente di modificare la posizione selezionata. Per informazioni sui campi disponibili che è possibile modificare, consulta [Configurare i percorsi di importazione cloud](/help/components/locations/configure-import-accounts.md).
-* **[!UICONTROL Delete]**: elimina le posizioni selezionate. Questa opzione consente di selezionare più posizioni.
+### Modificare una posizione
+
+Per informazioni su come modificare una posizione, consulta [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
+
+### Eliminare una posizione
+
+>[!IMPORTANT]
+>
+>Se una posizione viene eliminata, eventuali file di feed dati, rapporti di Data Warehouse o schemi di set di classificazione associati alla posizione eliminata non riusciranno al successivo utilizzo.
+>
+>Se elimini una posizione, devi [modificare i feed dati](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse rapporti](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), e [Schemi dei set di classificazione](/help/components/classifications/sets/manage/schema.md) per utilizzare una posizione funzionante.
+
+Per eliminare una posizione:
+
+1. Selezionare il menu a 3 punti nella [!UICONTROL **Nome posizione**] per la posizione da eliminare.
+
+1. Seleziona [!UICONTROL **Elimina**].
+
+## Modifica account
+
+1. Per modificare gli account nel gestore Posizioni in Adobe Analytics, seleziona **[!UICONTROL Components]** > **[!UICONTROL Locations]**, quindi seleziona la [!UICONTROL **Account ubicazione**] scheda.
+
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare le posizioni create da tutti gli utenti dell’organizzazione. <!-- Maybe add a screenshot? This is new functionality -->
+
+
+1. Seleziona [!UICONTROL **Visualizza dettagli**] sull&#39;account che si desidera modificare.
+
+1. Apporta le modifiche desiderate, quindi seleziona [!UICONTROL **Salva**].
+
+## Visualizza chiavi account
+
+Dopo aver creato un account, puoi visualizzare tutte le chiavi di account associate per tale account. Potrebbe essere necessario visualizzare queste informazioni se non hai completato la configurazione dell’account con il provider cloud quando [ha configurato originariamente l’account](/help/components/locations/configure-import-accounts.md).
+
+Per visualizzare le chiavi associate a un account di esportazione:
+
+1. In Adobe Analytics, seleziona **[!UICONTROL Components]** > **[!UICONTROL Locations]**, quindi seleziona la [!UICONTROL **Account ubicazione**] scheda.
+
+1. Seleziona l’icona a tre punti sull’account da modificare, quindi seleziona [!UICONTROL **Chiavi account**].
+
+## Elimina account
+
+1. In Adobe Analytics, seleziona **[!UICONTROL Components]** > **[!UICONTROL Locations]**, quindi seleziona la [!UICONTROL **Account ubicazione**] scheda.
+
+1. Seleziona l’icona a tre punti sull’account da modificare, quindi seleziona [!UICONTROL **Elimina account**]
