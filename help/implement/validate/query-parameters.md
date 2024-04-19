@@ -4,9 +4,9 @@ description: Elenca tutti i parametri della stringa di query utilizzati nelle ri
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
-workflow-type: ht
-source-wordcount: '722'
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+workflow-type: tm+mt
+source-wordcount: '721'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ Nella tabella seguente sono elencati tutti i parametri delle stringhe di query u
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Utilizzato nella dimensione [Pagine non trovate](/help/components/dimensions/pages-not-found.md). |
 | `pccr` | Nessuno | Impostato solo per i nuovi visitatori e sempre su `true`. Consente di evitare reindirizzamenti infiniti se un visitatore rifiuta i cookie. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Determina il tipo di collegamento personalizzato. Obbligatorio per [Collegamenti personalizzati](/help/components/dimensions/custom-link.md), [Collegamenti download](/help/components/dimensions/download-link.md), e [Collegamenti di uscita](/help/components/dimensions/exit-link.md). |
-| `pev1` | Nessuno | L’URL su cui si è verificato il collegamento personalizzato. |
+| `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | L’URL su cui si è verificato il collegamento personalizzato. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nome descrittivo del collegamento personalizzato. |
 | `pev3` | Nessuno | Non più utilizzato. Attività cardine tracciate nelle versioni precedenti dei rapporti video. |
 | `pf` | Nessuno | Flag della piattaforma; solo per Adobe. Non modificare. |

@@ -1,7 +1,8 @@
 ---
 title: Migrare dall’estensione tag Adobe Analytics all’estensione tag Web SDK
 description: Aggiorna l’implementazione di Analytics sui tag di raccolta dati di Adobe Experience Platform per utilizzare l’estensione Web SDK.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 1%
@@ -46,7 +47,7 @@ Creare uno stream di dati in Raccolta dati di Adobe Experience Platform. Quando 
 1. Nel menu a discesa del servizio, seleziona **[!UICONTROL Adobe Analytics]**.
 1. Immetti lo stesso ID suite di rapporti del sito a cui invii attualmente i dati di analisi. Fai clic su **[!UICONTROL Save]**.
 
-![Aggiungi servizio Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Aggiungi servizio Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 Il flusso di dati è ora pronto per ricevere e trasmettere dati ad Adobe Analytics.
 
@@ -62,11 +63,11 @@ Questa sezione prepara il tag per la maggior parte dell’impegno di migrazione 
 1. Seleziona **[!UICONTROL Catalog]** nella parte superiore per visualizzare un elenco di tutte le estensioni disponibili.
 1. Cerca e seleziona la **[!UICONTROL Adobe Experience Platform Web SDK]** , quindi fai clic su **[!UICONTROL Install]** a destra.
 
-   ![Catalogo](assets/catalog.png) {style="border:1px solid gray"}
+   ![Catalogo](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. Vengono visualizzate le impostazioni di configurazione dell’estensione. Individuate la sezione Flussi di dati e selezionate lo stream di dati creato nel passaggio precedente.
 
-   ![Selezione dello stream di dati](assets/datastream-select.png) {style="border:1px solid gray"}
+   ![Selezione dello stream di dati](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. Seleziona **[!UICONTROL Save]**.
 
@@ -83,14 +84,14 @@ L’elemento dati dell’oggetto dati fornisce un framework intuitivo per config
 1. Attribuisci all’elemento dati le seguenti impostazioni:
    * [!UICONTROL Name]: qualsiasi cosa desideri, ad esempio &quot;Livello dati&quot; o &quot;Oggetto dati&quot;
    * [!UICONTROL Extension]: [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL Variable]: [!UICONTROL Variable]
+   * [!UICONTROL Data Element Type]: [!UICONTROL Variable]
    * Le caselle di controllo possono rimanere invariate
 1. A destra, seleziona le impostazioni seguenti:
    * Pulsante di scelta Proprietà: [!UICONTROL Data]
    * Soluzione: [!UICONTROL Adobe Analytics]
 1. Seleziona **[!UICONTROL Save]**.
 
-![Creare un elemento dati](assets/create-data-element.png) {style="border:1px solid gray"}
+![Creare un elemento dati](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 La proprietà tag ora dispone di tutto il necessario per aggiornare ogni regola.
 
@@ -103,7 +104,7 @@ Questo passaggio contiene la maggior parte dello sforzo necessario per migrare a
 1. Nel menu di navigazione a sinistra dell’interfaccia dei tag, seleziona **[!UICONTROL Rules]**.
 1. Seleziona una regola da modificare.
 1. Seleziona l’azione **[!UICONTROL Adobe Analytics - Set Variables]**
-1. Nota tutte le variabili di Analytics impostate all’interno di questa regola. Nota sia le variabili impostate nei menu a discesa che quelle impostate nel codice personalizzato.
+1. Nota tutte le variabili di Analytics impostate all’interno di questa regola. Includi sia le variabili impostate nei menu a discesa che le variabili impostate nel codice personalizzato.
 1. Modificare il [!UICONTROL Action Configuration] alle seguenti impostazioni:
    * [!UICONTROL Extension]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL Action type]: Aggiorna variabile
@@ -146,7 +147,7 @@ La pubblicazione delle regole aggiornate segue lo stesso flusso di lavoro di qua
 1. Verifica le modifiche nell’ambiente di sviluppo per assicurarti che tutte le regole vengano attivate correttamente e che l’oggetto dati venga popolato con i valori previsti.
 1. Quando è pronta, invia la libreria per l’approvazione, la build alla staging, quindi alla fine approva e pubblica in produzione.
 
-![Flusso di pubblicazione](assets/publishing-flow.png) {style="border:1px solid gray"}
+![Flusso di pubblicazione](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 

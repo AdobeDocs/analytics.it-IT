@@ -4,16 +4,18 @@ description: Sostituisci l’AppMeasurement dell’URL di collegamento generato 
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 17%
+source-wordcount: '158'
+ht-degree: 15%
 
 ---
 
 # linkURL
 
 Ogni volta che una chiamata di tracciamento dei collegamenti viene inviata ad Adobe, i server di raccolta dati rilevano automaticamente l’URL. Utilizza il `linkURL` per ignorare l&#39;URL rilevato.
+
+In Analysis Workspace non sono presenti dimensioni che generano rapporti su questa variabile. Compila il `page_event_var1` colonna in [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## Collega URL tramite Web SDK
 
