@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare i percorsi di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: de1aaf1cc4f59567582c7802117226e859e52b08
+source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 38%
+source-wordcount: '1465'
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ Puoi configurare un account cloud (e una posizione sull’account). Un’unica p
 
 Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account cloud. Questo processo consiste nell’aggiungere e configurare l’account (ad esempio ARN per il ruolo Amazon S3, Google Cloud Platform e così via) come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md), quindi aggiungendo e configurando la posizione all’interno dell’account (come descritto in questo articolo).
 
-Per configurare un nuovo percorso di importazione o esportazione cloud o per modificarne uno esistente:
+## Inizio della creazione o della modifica di un percorso di esportazione cloud
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Posizioni**].
 1. Il giorno [!UICONTROL Locations] , seleziona la [!UICONTROL **Posizioni**] scheda.
@@ -39,13 +39,15 @@ Viene visualizzata la finestra di dialogo Posizione.
 
 1. Nella sezione [!UICONTROL **Proprietà posizione**], specifica le informazioni specifiche sul tipo di account dell’account di posizione.
 
-   Per le istruzioni di configurazione, espandi la sezione seguente che corrisponde al tipo di account selezionato in [!UICONTROL **Account ubicazione**] campo. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
+   Continua con la sezione seguente che corrisponde al tipo di account selezionato in [!UICONTROL **Account ubicazione**] campo. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
 
-   **Tipi di account**
 
-   +++ARN per ruolo Amazon S3
 
-   Per configurare una posizione ARN per il ruolo Amazon S3, specifica le seguenti informazioni:
+### ARN per ruolo Amazon S3
+
+Per configurare una posizione ARN per il ruolo Amazon S3, specifica le seguenti informazioni:
+
+1. [Inizio della creazione o della modifica di un percorso di esportazione cloud](#begin-creating-or-editing-a-cloud-export-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
@@ -54,11 +56,22 @@ Viene visualizzata la finestra di dialogo Posizione.
 
    {style="table-layout:auto"}
 
-+++
+1. Seleziona [!UICONTROL **Salva**].
 
-   +++Google Cloud Platform
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizza [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizza [Set di classificazione](/help/components/classifications/sets/overview.md).
 
-   Per configurare un percorso di Google Cloud Platform, specifica le seguenti informazioni:
+   I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
+
+   >[!NOTE]
+   >
+   >   Se in precedenza è stato utilizzato [FTP per importare le classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, era necessario caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
+
+
+### Google Cloud Platform
+
+Per configurare un percorso di Google Cloud Platform, specifica le seguenti informazioni:
+
+1. [Inizio della creazione o della modifica di un percorso di esportazione cloud](#begin-creating-or-editing-a-cloud-export-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
@@ -67,11 +80,22 @@ Viene visualizzata la finestra di dialogo Posizione.
 
    {style="table-layout:auto"}
 
-+++
+1. Seleziona [!UICONTROL **Salva**].
 
-   +++Azure SAS
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizza [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizza [Set di classificazione](/help/components/classifications/sets/overview.md).
 
-   Per configurare un percorso SAS di Azure, specificare le informazioni seguenti:
+   I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
+
+   >[!NOTE]
+   >
+   >   Se in precedenza è stato utilizzato [FTP per importare le classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, era necessario caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
+
+
+### Azure SAS
+
+Per configurare un percorso SAS di Azure, specificare le informazioni seguenti:
+
+1. [Inizio della creazione o della modifica di un percorso di esportazione cloud](#begin-creating-or-editing-a-cloud-export-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
@@ -80,11 +104,22 @@ Viene visualizzata la finestra di dialogo Posizione.
 
    {style="table-layout:auto"}
 
-+++
+1. Seleziona [!UICONTROL **Salva**].
 
-   +++Azure RBAC
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizza [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizza [Set di classificazione](/help/components/classifications/sets/overview.md).
 
-   Per configurare un percorso RBAC di Azure, specificare le informazioni seguenti:
+   I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
+
+   >[!NOTE]
+   >
+   >   Se in precedenza è stato utilizzato [FTP per importare le classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, era necessario caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
+
+
+### Azure RBAC
+
+Per configurare un percorso RBAC di Azure, specificare le informazioni seguenti:
+
+1. [Inizio della creazione o della modifica di un percorso di esportazione cloud](#begin-creating-or-editing-a-cloud-export-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
@@ -94,88 +129,87 @@ Viene visualizzata la finestra di dialogo Posizione.
 
    {style="table-layout:auto"}
 
-+++
-
-   **Tipi di account legacy**
-
-   Questi tipi di account legacy sono disponibili solo quando si esportano dati con [Feed dati](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Queste opzioni non sono disponibili quando si importano dati con [Set di classificazione](/help/components/classifications/sets/manage/schema.md).
-
-   +++FTP
-
-   I dati del feed dati possono essere inviati a un Adobe o a una posizione FTP ospitata dal cliente. Specificare la directory Utilizzare il campo percorso per inserire i file di feed in una cartella.
-
-   | Campo | Funzione |
-   |---------|----------|
-   | [!UICONTROL **Percorso directory**] | Immettere il percorso della directory sul server FTP. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste. </br>Ad esempio: `/folder_name/folder_name`. |
-
-   {style="table-layout:auto"}
-
-+++
-
-   +++SFTP
-
-   I dati del feed dati possono essere consegnati a una posizione SFTP Adobe o ospitata dal cliente. Il sito di destinazione deve contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
-
-   | Campo | Funzione |
-   |---------|----------|
-   | [!UICONTROL **Percorso directory**] | Immettere il percorso della directory sul server FTP. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste. </br>Ad esempio: `/folder_name/folder_name`. |
-
-   {style="table-layout:auto"}
-
-+++
-
-   +++S3
-
-   Puoi inviare i dati di Data Warehouse direttamente ai bucket Amazon S3. Questo tipo di destinazione richiede un nome bucket, un ID chiave di accesso e una chiave segreto. Consulta [Requisiti di denominazione del bucket Amazon S3](https://docs.aws.amazon.com/it_it/AmazonS3/latest/userguide/bucketnamingrules.html) nella documentazione di Amazon S3 per ulteriori informazioni.
-
-   L’utente fornito per il caricamento dei dati di Data Warehouse deve disporre delle seguenti [autorizzazioni](https://docs.aws.amazon.com/it_it/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
-
-   * s3:GetObject
-   * s3:PutObject
-   * s3:PutObjectAcl
-
-   Sono supportate le seguenti 16 aree geografiche standard di AWS (utilizzando l’algoritmo di firma appropriato, se necessario):
-
-   * us-east-2
-   * us-east-1
-   * us-west-1
-   * us-west-2
-   * ap-south-1
-   * ap-northeast-2
-   * ap-southeast-1
-   * ap-southeast-2
-   * ap-northeast-1
-   * ca-central-1
-   * eu-central-1
-   * eu-west-1
-   * eu-west-2
-   * eu-west-3
-   * eu-north-1
-   * sa-east-1
-
-   >[!NOTE]
-   >
-   >L’area geografica cn-north-1 non è supportata.
-
-+++
-
-   +++BLOB di Azure
-
-   Data warehouse supporta le destinazioni BLOB di Azure. Richiede un contenitore, un account e una chiave. Amazon crittografa automaticamente i dati inattivi. Quando scarichi i dati, questi vengono decrittografati automaticamente. Per ulteriori informazioni, consulta [Creare un account di archiviazione](https://learn.microsoft.com/it-it/azure/storage/common/storage-account-create?tabs=azure-portal#view-and-copy-storage-access-keys) nelle documentazioni di Microsoft Azure.
-
-   >[!NOTE]
-   >
-   >È necessario implementare un processo personalizzato per gestire lo spazio su disco nella destinazione di Data Warehouse. Adobe non elimina dati dal server.
-
-+++
-
 1. Seleziona [!UICONTROL **Salva**].
 
-   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati.
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizza [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizza [Set di classificazione](/help/components/classifications/sets/overview.md).
 
    I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
 
    >[!NOTE]
    >
    >   Se in precedenza è stato utilizzato [FTP per importare le classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, era necessario caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
+
+### Tipi di account legacy
+
+Questi tipi di account legacy sono disponibili solo quando si esportano dati con [Feed dati](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Queste opzioni non sono disponibili quando si importano dati con [Set di classificazione](/help/components/classifications/sets/manage/schema.md).
+
++++FTP
+
+I dati del feed dati possono essere inviati a un Adobe o a una posizione FTP ospitata dal cliente. Specificare la directory Utilizzare il campo percorso per inserire i file di feed in una cartella.
+
+| Campo | Funzione |
+|---------|----------|
+| [!UICONTROL **Percorso directory**] | Immettere il percorso della directory sul server FTP. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste. </br>Ad esempio: `/folder_name/folder_name`. |
+
+{style="table-layout:auto"}
+
++++
+
++++SFTP
+
+I dati del feed dati possono essere consegnati a una posizione SFTP Adobe o ospitata dal cliente. Il sito di destinazione deve contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
+
+| Campo | Funzione |
+|---------|----------|
+| [!UICONTROL **Percorso directory**] | Immettere il percorso della directory sul server FTP. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste. </br>Ad esempio: `/folder_name/folder_name`. |
+
+{style="table-layout:auto"}
+
++++
+
++++S3
+
+Puoi inviare i dati di Data Warehouse direttamente ai bucket Amazon S3. Questo tipo di destinazione richiede un nome bucket, un ID chiave di accesso e una chiave segreto. Consulta [Requisiti di denominazione del bucket Amazon S3](https://docs.aws.amazon.com/it_it/AmazonS3/latest/userguide/bucketnamingrules.html) nella documentazione di Amazon S3 per ulteriori informazioni.
+
+L’utente fornito per il caricamento dei dati di Data Warehouse deve disporre delle seguenti [autorizzazioni](https://docs.aws.amazon.com/it_it/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+Sono supportate le seguenti 16 aree geografiche standard di AWS (utilizzando l’algoritmo di firma appropriato, se necessario):
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>L’area geografica cn-north-1 non è supportata.
+
++++
+
++++BLOB di Azure
+
+Data warehouse supporta le destinazioni BLOB di Azure. Richiede un contenitore, un account e una chiave. Amazon crittografa automaticamente i dati inattivi. Quando scarichi i dati, questi vengono decrittografati automaticamente. Per ulteriori informazioni, consulta [Creare un account di archiviazione](https://learn.microsoft.com/it-it/azure/storage/common/storage-account-create?tabs=azure-portal#view-and-copy-storage-access-keys) nelle documentazioni di Microsoft Azure.
+
+>[!NOTE]
+>
+>È necessario implementare un processo personalizzato per gestire lo spazio su disco nella destinazione di Data Warehouse. Adobe non elimina dati dal server.
+
++++
+
 
