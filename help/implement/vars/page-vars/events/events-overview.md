@@ -4,7 +4,7 @@ description: Imposta la variabile degli eventi, che governa la maggior parte del
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -27,7 +27,7 @@ Se utilizzi il [**Oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), g
 * Gli ordini sono mappati a `xdm.commerce.purchases.value`.
 * Le unità sono mappate alla somma di tutte `productListItems[].quantity` campi.
 * I ricavi vengono mappati sulla somma di tutti `productListItems[].priceTotal` campi.
-* Le visualizzazioni del prodotto sono mappate a `xdm.commerce.productListViews.value`.
+* Le visualizzazioni del prodotto sono mappate a `xdm.commerce.productViews.value`.
 * I carrelli sono mappati su `xdm.commerce.productListOpens.value`.
 * Le aggiunte al carrello sono mappate a `xdm.commerce.productListAdds.value`.
 * Le rimozioni dal carrello sono mappate a `xdm.commerce.productListRemovals.value`.
