@@ -4,10 +4,10 @@ description: Determina la posizione in cui vengono inviate le richieste di immag
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 12%
+source-wordcount: '683'
+ht-degree: 9%
 
 ---
 
@@ -59,9 +59,14 @@ Se questo campo viene lasciato vuoto, il valore predefinito è `[rsid].data.adob
 
 Il `s.trackingServer` variabile è una stringa che contiene la posizione in cui inviare i dati.
 
-## Determinare il valore per `trackingServer`
+## Considerazioni per la determinazione del valore per `trackingServer`
 
-Il valore di questa variabile dipende dall’utilizzo di cookie di prima parte o di cookie di terze parti. L’Adobe consiglia vivamente di utilizzare i cookie di prime parti nell’implementazione.
+Puoi scegliere di utilizzare i domini del server di tracciamento di Adobe (ad es. `adobedc.net`) oppure puoi seguire un processo speciale per configurare un server di tracciamento che corrisponda al dominio dei siti (ad es. `data.mydomain.com`), nota anche come implementazione CNAME. Disporre di un server di tracciamento che corrisponde al dominio del sito può avere alcuni vantaggi a seconda di altri aspetti dell’implementazione. Se il server di tracciamento non corrisponde al dominio della pagina corrente, i cookie impostati dall’AppMeasurement devono essere impostati come di terze parti. Se il browser non supporta i cookie di terze parti, questa mancata corrispondenza può interferire con alcune funzionalità di Analytics:
+
+- Identificatori di impostazione: se utilizzi il servizio Experience Cloud Identity, il server di tracciamento non ha alcun impatto sull’impostazione dei cookie. Tuttavia, se utilizzi gli identificatori legacy di Analytics (o `s_vi` cookie) e il server di raccolta non corrisponde al dominio corrente, quindi i cookie devono essere impostati come di terze parti. In questo caso, se i cookie di terze parti sono bloccati dal browser, Analytics imposta un ID di fallback di prime parti (`s_fid`) invece dello standard `s_vi` cookie.
+- Il tracciamento dei collegamenti non funzionerà per i collegamenti interni.
+- L’Activity Map non funzionerà per i collegamenti interni.
+- Controllo cookie.
 
 ### Cookie di prime parti
 
@@ -73,7 +78,7 @@ L’utente che configura inizialmente l’implementazione dei cookie di prime pa
 s.trackingServer = "data.example.com";
 ```
 
-### Cookie di terze parti
+### Server di tracciamento di terze parti
 
 >[!TIP]
 >
