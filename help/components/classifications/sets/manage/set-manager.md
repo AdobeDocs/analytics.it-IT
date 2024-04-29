@@ -3,10 +3,10 @@ title: Gestione set di classificazione
 description: Gestisci i set di classificazione in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 7%
+source-wordcount: '318'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ I set di classificazione sono costituiti da **Iscrizioni** (combinazioni di suit
 
 ## Filtrare i set di classificazione
 
-Il lato sinistro di Gestione set di classificazione fornisce le impostazioni del filtro per individuare il set di classificazione desiderato. Facendo clic sull’icona del filtro si attiva la visibilità delle impostazioni del filtro. Puoi filtrare i set di classificazione per **[!UICONTROL Tags]**, **[!UICONTROL Report suite]**, o **[!UICONTROL Owner]**.
+Il lato sinistro di Gestione set di classificazione fornisce le impostazioni del filtro per individuare il set di classificazione desiderato. Facendo clic sull’icona del filtro si attiva la visibilità delle impostazioni del filtro. Puoi filtrare i set di classificazione per **[!UICONTROL Tags]** o **[!UICONTROL Report suite]**.
 
 ![Filtri per set di classificazione](../../assets/classification-set-filters.png)
 
@@ -30,7 +30,6 @@ In Gestione set di classificazione sono disponibili le colonne seguenti:
 
 * **[!UICONTROL Classification set]**: nome del set di classificazione. Fare clic sul nome di un set di classificazione [modifica le impostazioni](settings.md).
 * **[!UICONTROL Subscriptions]**: numero di abbonamenti a cui si applica questo set di classificazione.
-* **[!UICONTROL Owner]**: proprietario del set di classificazione.
 * **[!UICONTROL Classifications]**: numero di dimensioni di classificazione contenute nel set di classificazione.
 * **[!UICONTROL Automated]**: determina se il set di classificazione è configurato per importare automaticamente i dati da una posizione cloud. L’automazione può essere configurata nei del set di classificazione [schema](schema.md).
 * **[!UICONTROL Last Modified]**: data e ora dell’ultima modifica del set di classificazione.
