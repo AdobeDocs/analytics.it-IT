@@ -4,9 +4,9 @@ description: Utilizza l’evento di acquisto per raccogliere i dati per le metri
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '454'
 ht-degree: 10%
 
 ---
@@ -30,10 +30,34 @@ L’impostazione di un evento di acquisto influisce sulle metriche seguenti:
 Se utilizzi il [**Oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), l’evento di acquisto utilizza i seguenti campi XDM:
 
 * Gli ordini sono mappati a `xdm.commerce.purchases.value`.
-* Le unità sono mappate alla somma di tutte `xdm.productListItems[].quantity` campi.
+* Le unità sono mappate alla somma di tutte `xdm.productListItems[].quantity` campi. Consulta [`products`](../products.md) per ulteriori informazioni.
 * I ricavi vengono mappati sulla somma di tutti `xdm.productListItems[].priceTotal` campi.
 
+```json
+{
+  "xdm": {
+    "commerce": {
+      "purchases": {
+        "value": 1
+      }
+    }
+  }
+}
+```
+
 Se utilizzi il [**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), l’evento di acquisto utilizza `data.__adobe.analytics.events`, seguendo l&#39;AppMeasurement di sintassi delle stringhe.
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "events": "purchase"
+      }
+    }
+  }
+}
+```
 
 ## Impostare l’evento di acquisto tramite l’estensione Adobe Analytics
 

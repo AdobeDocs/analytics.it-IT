@@ -4,9 +4,9 @@ description: Invia dati sui prodotti visualizzati o nel carrello.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '656'
 ht-degree: 3%
 
 ---
@@ -30,11 +30,42 @@ Se utilizzi il [**Oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), i
 * Le eVar di merchandising sono mappate su `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, a seconda dell’eVar da associare a un prodotto.
 * Gli eventi di merchandising sono mappati su `xdm.productListItems[]._experience.analytics.event1to100.event1.value` a `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, a seconda dell’evento che desideri associare a un prodotto. Se imposti un evento in uno di questi campi, questo viene automaticamente incluso nel [evento](events/events-overview.md) stringa inviata ad Adobe Analytics.
 
->[!NOTE]
->
->`lineItemId` deve essere aggiunto come campo personalizzato in quanto non fa ancora parte dello schema evento standard di Analytics. Adobe prevede di aggiungere in futuro un campo &quot;Categoria&quot; dedicato.
+```json
+{
+  "xdm": {
+    "productListItems": [{
+      "productCategories": [{
+        "categoryID": "Men's"
+      }],
+      "name": "Hiking boot",
+      "quantity": 1,
+      "priceTotal": 49.99
+    },
+    {
+      "productCategories": [{
+        "categoryID": "Camping"
+      }],
+      "name": "Hunting blind",
+      "quantity": 3,
+      "priceTotal": 699.69
+    }]
+  }
+}
+```
 
 Se utilizzi il [**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), la variabile dei prodotti utilizza `data.__adobe.analytics.products` seguente AppMeasurement di sintassi. Se imposti questo campo, tutti i prodotti impostati nell’oggetto XDM vengono sovrascritti e non inviati ad Adobe Analytics.
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "products": "Archery;Fletched arrow;12;159.99"
+      }
+    }
+  }
+}
+```
 
 ## Prodotti tramite l’estensione Adobe Analytics
 

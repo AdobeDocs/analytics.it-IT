@@ -4,10 +4,10 @@ description: Variabili personalizzate che contengono più valori nello stesso hi
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 87%
+source-wordcount: '496'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ Assicurati di registrare in che modo utilizzi ciascuna variabile elenco e la rel
 
 >[!NOTE]
 >
->Le variabili elenco memorizzano i 250 valori più recenti per visitatore. Se per un visitatore sono presenti più di 250 valori univoci, i valori meno recenti non sono attribuiti alle metriche.
+>Le variabili elenco memorizzano i valori più recenti per visitatore in base ai [!UICONTROL Max values] impostazione in [Impostazioni suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Sono supportati fino a 250 valori. Se sono presenti più valori univoci rispetto a quelli [!UICONTROL Max values] L’impostazione consente, i valori meno recenti non sono attribuiti alle metriche.
 
 ## Impostare le variabili elenco nelle impostazioni delle suite di rapporti
 
@@ -77,7 +77,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.list1 - s.list3 in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Ogni variabile elenco è una stringa che contiene valori personalizzati specifici dell’organizzazione. Non hanno un numero massimo di byte; tuttavia, ogni singolo valore ha un massimo di 255 byte. Il delimitatore utilizzato viene determinato quando si imposta la variabile nelle [Impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Non utilizzare spazi quando si delimitano più elementi.
+Ogni variabile elenco è una stringa che contiene valori personalizzati specifici dell’organizzazione. Questa variabile non ha un numero massimo di byte; tuttavia, ogni singolo valore ha un limite massimo di 255 byte. Il delimitatore utilizzato viene determinato quando si imposta la variabile nelle [Impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Non utilizzare spazi quando si delimitano più elementi.
 
 ```js
 // A list variable configured with a comma as a delimiter

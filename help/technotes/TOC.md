@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Note tecniche di Analytics
 breadcrumb-title: Note tecniche
 user-guide-description: Sfoglia una knowledge base contenente articoli utili che non sono specifici per un particolare strumento o componente di Analytics.
-source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
+source-git-commit: f9d06b8222f557e40792e1fad4714ce97b9a02c9
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 80%
+source-wordcount: '190'
+ht-degree: 38%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 80%
 
 + [Note tecniche di Analytics](home.md)
 + Adobe Analytics per gli utenti di Google Analytics {#ga-to-aa}
-   + [Aiuto per gli utenti di Adobe Analytics per Google Analytics](ga-to-aa/home.md)
+   + [Aiuto per gli utenti di Adobe Analytics for Google Analytics](ga-to-aa/home.md)
    + [Account e suite di rapporti](ga-to-aa/accounts.md)
-   + [Personalizzare le visualizzazioni di creazione di rapporti](ga-to-aa/customization.md)
+   + [Personalizzare le visualizzazioni di reporting](ga-to-aa/customization.md)
    + Rapporti di Google Analytics {#reports}
-      + [Creare un rapporto di base in Analysis Workspace per gli utenti GA](ga-to-aa/reports/create-report.md)
+      + [Creazione di un rapporto di base in Analysis Workspace per gli utenti GA](ga-to-aa/reports/create-report.md)
       + [Metriche comuni utilizzate su altre piattaforme Analytics](ga-to-aa/reports/common-metrics.md)
       + [Tempo reale](ga-to-aa/reports/realtime-reports.md)
       + [Destinatari](ga-to-aa/reports/audience-reports.md)
@@ -33,15 +33,15 @@ ht-degree: 80%
 + Analisi dei dati interessati dagli eventi {#event}
    + [Panoramica dell’analisi dei dati interessati dagli eventi](event/overview.md)
    + [Risolvere i problemi relativi a picchi/cadute nei dati](event/spikes-drops.md)
-   + [Esclusione di date specifiche nell’analisi](event/segments.md)
-   + [Confronto delle date con intervalli precedenti](event/compare-dates.md)
+   + [Escludere date specifiche nell’analisi](event/segments.md)
+   + [Confrontare le date con intervalli precedenti](event/compare-dates.md)
    + [Derivazione dei dati interessati dagli eventi](event/calcmetrics.md)
    + [Comunicazione degli eventi agli utenti](event/communicate.md)
 + [Hint client](client-hints.md)
 + Cookie {#cookies}
-   + [Browser cookie](cookies/cookies.md)
-   + [Opzioni per attenuare l’effetto delle limitazioni dei cookie del browser](cookies/cookieless.md)
-+ [Conservazione dati](data-retention.md)
+   + [Cookie del browser](cookies/cookies.md)
+   + [Opzioni per mitigare l’effetto delle limitazioni dei cookie del browser](cookies/cookieless.md)
++ [Conservazione dei dati](data-retention.md)
 + [Escludi dati](exclude-data.md)
 + [IP e domini utilizzati da Adobe Analytics](ip-addresses.md)
 + [Latenza](latency.md)
@@ -52,10 +52,6 @@ ht-degree: 80%
 + [Ordine di elaborazione](processing-order.md)
 + [App web progressive](pwa.md)
 + [Reindirizzamenti e alias](redirects.md)
-+ Raccolta di dati regionali {#rdc}
-   + [Aiuto per la raccolta dati regionali](rdc/regional-data-collection.md)
-   + [Licenza di certificazione SSL](rdc/ssl-cert-licensing.md)
-   + [Algoritmi di crittografia HTTPS supportati](rdc/encryption-algos.md)
 + [Risorse di sicurezza](security.md)
 + [Termini utilizzati (glossario)](terms.md)
 + [Marca temporale opzionale](timestamps-optional.md)
