@@ -1,41 +1,20 @@
 ---
-title: IP e domini utilizzati da Adobe Analytics
+title: Indirizzi IP utilizzati da Adobe Analytics
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: ea859717c6a40b4eeeb9eca54b95718859af9c7b
+source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '186'
 ht-degree: 1%
 
 ---
 
-# IP e domini utilizzati da Adobe Analytics
+# Indirizzi IP utilizzati da Adobe Analytics
 
-Alcune configurazioni del firewall bloccano i domini su cui Adobe Analytics si basa per l’interfaccia di prodotto. È possibile utilizzare questo elenco di domini per modificare le impostazioni di rete dell&#39;organizzazione per consentire l&#39;accesso ai prodotti dall&#39;interno dell&#39;organizzazione.
+Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server di raccolta dati di Adobe o dai server responsabili dell’accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall dell’organizzazione per consentire l’accesso e l’invio di dati dall’interno dell’organizzazione.
 
-## Consenti domini tecnologici dipendenti
-
-Adobe Analytics utilizza i seguenti host per migliorare le prestazioni e l’esperienza di utilizzo del prodotto. Adobe consiglia di consentire a questi domini di utilizzare il firewall dell’organizzazione per un’esperienza ottimale con Adobe Analytics.
-
-| Tecnologia | Dominio |
-| --- | --- |
-| Domini Adobe Analytics | `adobe.com`, `adobe.net`, `adobe.io` |
-| Dominio legacy di Adobe Analytics | `omniture.com` |
-| Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
-| Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
-| Gainsight | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |
-| LaunchDark | `app.launchdarkly.com` |
-| Archiviazione BLOB di Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
-| CDN di Microsoft Azure | `aauicdnva7.azureedge.net` |
-
-{style="table-layout:auto"}
-
-## Blocchi di indirizzi IP di Adobe Experience Cloud
-
-Oltre ai domini di cui sopra, Adobe Analytics si basa su diversi blocchi di indirizzi IP per la raccolta dei dati e l’esportazione dei rapporti.
-
-Per l’elenco completo degli intervalli IP, consulta Indirizzi IP di Adobe Experience Cloud.
+Tutti gli indirizzi IP utilizzati da Adobe Analytics fanno parte di [Indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses), ad eccezione del pacchetto aggiuntivo China Performance Optimization.
 
 ## Indirizzi IP per l’ottimizzazione delle prestazioni della Cina
 
@@ -54,3 +33,9 @@ I server di raccolta dati regionali in Cina utilizzano i seguenti indirizzi IP:
 | Cina | `54.223.199.8` |
 
 {style="table-layout:auto"}
+
+>[!MORELIKETHIS]
+>
+>[Indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>
+>[Domini utilizzati da Adobe Analytics](domains.md)
