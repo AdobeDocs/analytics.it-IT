@@ -4,9 +4,9 @@ title: Configurare una destinazione di rapporto per una richiesta di Data Wareho
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2581'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,19 +20,19 @@ Per informazioni su come iniziare a creare una richiesta, nonché collegamenti a
 >
 >Quando configuri la destinazione di rapporto, tieni presente quanto segue:
 >
->* È consigliabile utilizzare un account cloud o un’ e-mail per la destinazione di rapporto. [Account FTP e SFTP legacy](#legacy-destinations) sono disponibili ma non sono consigliati.
+>* È consigliabile utilizzare un account cloud o un’ e-mail per la destinazione di rapporto. [Gli account legacy FTP e SFTP](#legacy-destinations) sono disponibili ma non sono consigliati.
 >
 >* Tutti gli account cloud configurati in precedenza possono essere utilizzati per Data Warehouse. Puoi configurare gli account cloud in uno dei seguenti modi:
 >
->   * Durante la configurazione [Feed dati](/help/export/analytics-data-feed/create-feed.md)
+>   * Durante la configurazione dei [feed di dati](/help/export/analytics-data-feed/create-feed.md)
 >   
->   * Quando [importazione dei dati di classificazione di Adobe Analytics](/help/components/locations/locations-manager.md) È possibile utilizzare gli account, ma non le posizioni configurate in tali account.
+>   * Durante l’[importazione dei dati di classificazione di Adobe Analytics](/help/components/locations/locations-manager.md) (è possibile utilizzare gli account, ma non le posizioni configurate in tali account.)
 >   
->   * Dal gestore Ubicazioni, in [Componenti > Posizioni](/help/components/locations/configure-import-accounts.md).
+>   * Dalla gestione delle posizioni, in [Componenti > Posizioni](/help/components/locations/configure-import-accounts.md).
 >
 >* Gli account cloud sono associati al tuo account utente di Adobe Analytics. Gli altri utenti non possono utilizzare o visualizzare gli account cloud che configuri.
 >
->* È possibile modificare qualsiasi posizione creata dal gestore Ubicazioni in [Componenti > Posizioni](/help/components/locations/configure-import-accounts.md)
+>* È possibile modificare qualsiasi posizione creata dalla gestione delle posizioni in [Componenti > Posizioni](/help/components/locations/configure-import-accounts.md)
 
 Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse:
 
@@ -44,23 +44,23 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
    ![Scheda Destinazione rapporto](assets/dw-report-destination.png)
 
-1. (Condizionale) Se un account cloud (e una destinazione su tale account) è già stato configurato in Adobe Analytics, puoi utilizzarlo come destinazione del rapporto:
+1. (Condizionale) Se hai già configurato un account cloud (e una relativa destinazione) in Adobe Analytics, che desideri utilizzare come destinazione del rapporto:
 
    >[!NOTE]
    >
-   >Gli account sono disponibili solo se sono stati configurati o se sono stati condivisi con un&#39;organizzazione di cui fai parte.
+   >Gli account sono disponibili solo se sono stati configurati o se sono stati condivisi con un’organizzazione di cui fai parte.
    >
-   >Se sei un amministratore di sistema, il [!UICONTROL **Mostra tutte le destinazioni**] è disponibile. Abilita questa opzione se desideri avere accesso a tutti gli account e a tutte le posizioni creati da qualsiasi utente dell’organizzazione.
+   >Se sei un amministratore di sistema, è disponibile l’opzione [!UICONTROL **Mostra tutte le destinazioni**]. Abilita questa opzione se desideri avere accesso a tutti gli account e a tutte le posizioni creati da qualsiasi utente dell’organizzazione.
 
    1. Seleziona l’account dal menu a discesa [!UICONTROL **Seleziona account**].
 
       È possibile utilizzare qualsiasi account cloud configurato in una delle seguenti aree di Adobe Analytics:
 
-      * Durante l’importazione dei dati di classificazione di Adobe Analytics, come descritto in [Schema](/help/components/classifications/sets/manage/schema.md).
+      * Durante l’importazione dei dati di classificazione di Adobe Analytics, come descritto nello [schema](/help/components/classifications/sets/manage/schema.md).
 
         Tuttavia, non è possibile utilizzare le posizioni configurate per l’importazione dei dati di classificazione. Aggiungi invece una nuova destinazione come descritto di seguito.
 
-      * Durante la configurazione di account e posizioni nell&#39;area Posizioni, come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
+      * Durante la configurazione di account e posizioni nell’area delle posizioni, come descritto in [Configurare account cloud di importazione ed esportazione](/help/components/locations/configure-import-accounts.md) e [Configurare posizioni cloud di importazione ed esportazione](/help/components/locations/configure-import-locations.md).
 
    1. Seleziona la destinazione associata all’account dal menu a discesa [!UICONTROL **Seleziona destinazione**].<!-- Is this correct? -->
 
@@ -80,7 +80,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       +++Amazon S3
 
-      Per configurare un account Amazon S3 Role ARN, specifica le seguenti informazioni:
+      Per configurare un account Amazon S3 con ruolo ARN, specifica le seguenti informazioni:
 
       | Campo | Funzione |
       |---------|----------|
@@ -105,13 +105,13 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       +++Azure SAS
 
-      Per configurare un account SAS di Azure, specificare le informazioni seguenti:
+      Per configurare un account SAS di Azure, specifica le informazioni seguenti:
 
       | Campo | Funzione |
       |---------|----------|
       | [!UICONTROL **ID applicazione**] | Copia questo ID dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Panoramica** all’interno dell’applicazione. Per ulteriori informazioni, consulta la [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
       | [!UICONTROL **ID tenant**] | Copia questo ID dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Panoramica** all’interno dell’applicazione. Per ulteriori informazioni, consulta [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
-      | [!UICONTROL **URI di Key Vault**] | <p>Percorso dell&#39;URI SAS nell&#39;insieme di credenziali delle chiavi di Azure.  Per configurare Azure SAS, è necessario memorizzare un URI SAS come segreto utilizzando Azure Key Vault. Per informazioni, consulta [Documentazione di Microsoft Azure su come impostare e recuperare un segreto da Azure Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Dopo la creazione dell’URI di Key Vault:<ul><li>Aggiungi un criterio di accesso a Key Vault per concedere l’autorizzazione all’applicazione Azure creata.</li><li>Assicurati che all’ID applicazione sia stato assegnato il ruolo incorporato di `Key Vault Certificate User` per accedere all’URI di Key Vault</br><p>Per ulteriori informazioni, consulta [Ruoli incorporati di Azure](https://learn.microsoft.com/it-it/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Per informazioni, consulta [Documentazione di Microsoft Azure su come assegnare un criterio di accesso a Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+      | [!UICONTROL **URI di Key Vault**] | <p>Percorso per l’URI SAS in Azure Key Vault.  Per configurare Azure SAS, è necessario memorizzare un URI SAS come segreto utilizzando Azure Key Vault. Per informazioni, consulta [Documentazione di Microsoft Azure su come impostare e recuperare un segreto da Azure Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Dopo la creazione dell’URI di Key Vault:<ul><li>Aggiungi un criterio di accesso a Key Vault per concedere l’autorizzazione all’applicazione Azure creata.</li><li>Assicurati che all’ID applicazione sia stato assegnato il ruolo incorporato di `Key Vault Certificate User` per accedere all’URI di Key Vault</br><p>Per ulteriori informazioni, consulta [Ruoli incorporati di Azure](https://learn.microsoft.com/it-it/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Per informazioni, consulta [Documentazione di Microsoft Azure su come assegnare un criterio di accesso a Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
       | [!UICONTROL **Nome segreto di Key Vault**] | Nome segreto creato quando si aggiunge il segreto ad Azure Key Vault. In Microsoft Azure, queste informazioni si trovano nel Key Vault creato, nelle pagine delle impostazioni di **Key Vault**. Per informazioni, consulta [Documentazione di Microsoft Azure su come impostare e recuperare un segreto Azure Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
       | [!UICONTROL **Segreto**] | Copia il segreto dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Certificati e segreti** all’interno dell’applicazione. Per ulteriori informazioni, consulta la [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
 
@@ -121,7 +121,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       +++Azure RBAC
 
-      Per configurare un account RBAC di Azure, specificare le informazioni seguenti:
+      Per configurare un account RBAC di Azure, specifica le informazioni seguenti:
 
       | Campo | Funzione |
       |---------|----------|
@@ -135,7 +135,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       +++E-mail
 
-      Per configurare un account e-mail, specifica le seguenti informazioni:
+      Per configurare un account e-mail, specifica le informazioni seguenti:
 
       | Campo | Funzione |
       |---------|----------|
@@ -154,11 +154,11 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       +++Amazon S3
 
-      Per configurare un percorso Amazon S3, specifica le seguenti informazioni:
+      Per configurare una posizione Amazon S3, specifica le seguenti informazioni:
 
       | Campo | Funzione |
       |---------|----------|
-      | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l’utente ARN fornito da Adobe disponga dell’autorizzazione `S3:PutObject` per caricare i file in questo bucket. Questa autorizzazione consente all’utente ARN di caricare i file iniziali e di sovrascrivere i file per i caricamenti successivi.</p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+      | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l’utente ARN fornito da Adobe disponga dell’autorizzazione `S3:PutObject` per caricare i file in questo bucket. Questa autorizzazione consente all’utente ARN di caricare i file iniziali e di sovrascrivere i file per i caricamenti successivi.</p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html?lang=it). </p> |
       | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, folder_name/ |
 
       {style="table-layout:auto"}
@@ -167,7 +167,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       +++Google Cloud Platform
 
-      Per configurare un percorso di Google Cloud Platform, specifica le seguenti informazioni:
+      Per configurare una posizione di Google Cloud Platform, specifica le informazioni seguenti:
 
       | Campo | Funzione |
       |---------|----------|
@@ -180,12 +180,12 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       +++Azure SAS
 
-      Per configurare un percorso SAS di Azure, specificare le informazioni seguenti:
+      Per configurare una posizione SAS di Azure, specifica le informazioni seguenti:
 
       | Campo | Funzione |
       |---------|----------|
       | [!UICONTROL **Nome contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. |
-      | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Verificare che l&#39;archivio URI SAS specificato nel campo del nome segreto dell&#39;insieme di credenziali delle chiavi durante la configurazione dell&#39;account SAS di Azure abbia `Write` autorizzazione. Questo consente all’URI SAS di creare file nel contenitore Azure. <p>Se si desidera che anche l&#39;URI SAS sovrascriva i file, assicurarsi che l&#39;archivio URI SAS disponga del `Delete` autorizzazione.</p><p>Per ulteriori informazioni, consulta [Risorse di archiviazione BLOB](https://learn.microsoft.com/it-it/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) nella documentazione dell’archiviazione BLOB di Azure.</p> |
+      | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Accertati che l’archivio dell’URI SAS specificato nel campo nome segreto di Key Vault durante la configurazione dell’account SAS di Azure abbia l’autorizzazione `Write`. Questo consente all’URI SAS di creare file nel contenitore Azure. <p>Se desideri che l’URI SAS sovrascriva anche i file, assicurati che l’archivio dell’URI SAS disponga dell’autorizzazione `Delete`.</p><p>Per ulteriori informazioni, consulta [Risorse di archiviazione BLOB](https://learn.microsoft.com/it-it/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) nella documentazione dell’archiviazione BLOB di Azure.</p> |
 
       {style="table-layout:auto"}
 
@@ -193,7 +193,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       +++Azure RBAC
 
-      Per configurare un percorso RBAC di Azure, specificare le informazioni seguenti:
+      Per configurare una posizione RBAC di Azure, specifica le informazioni seguenti:
 
       | Campo | Funzione |
       |---------|----------|
