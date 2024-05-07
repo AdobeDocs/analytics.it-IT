@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 'Contenuti feed dati: panoramica'
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 4%
+source-wordcount: '1002'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Per accedere al contenuto di un feed dati:
 
 1. Decomprimi il file compresso utilizzando un programma che supporta le estensioni di file `.tar.gz`.
 
-1. Apri il file `hit_data.tsv` nell’applicazione per fogli di calcolo o database scelta per visualizzare i dati non elaborati per quel giorno. -->
+1. Apri `hit_data.tsv` file nell’applicazione per fogli di calcolo o database scelta per visualizzare i dati non elaborati per quel giorno. —>
 
 ## File manifesto {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 Ogni file manifesto contiene un&#39;intestazione che indica il numero totale di file di ricerca, file di dati e il numero totale di record in tutti i file di dati. Questa intestazione è seguita da più sezioni contenenti informazioni per ciascun file incluso nella consegna del feed di dati.
 
-Alcuni feed sono configurati per ricevere un `.fin` anziché un file `.txt` manifesto. Il `.fin` indica che il caricamento è completo, ma non contiene metadati sul caricamento.
+Alcuni feed sono configurati per ricevere un `.fin` anziché un file `.txt` manifesto. Il `.fin` indica che il caricamento è completo, ma i metadati in esso contenuti sono in un formato precedente.
 
 ## Ricercare file
 
@@ -107,6 +107,7 @@ I file consegnati da Adobe variano in base al tipo di feed di dati configurato. 
 * `[YYYY-mm-dd]` si riferisce al giorno di inizio previsto per il feed di dati.
 * `[HHMMSS]` viene utilizzato solo nei feed orari e si riferisce all’ora di inizio prevista del feed di dati.
 * `[compression_suffix]` fa riferimento al tipo di compressione utilizzato. In genere, i feed di dati vengono compressi in `tar.gz` o `zip` file.
+* `[format_suffix]` fa riferimento al tipo di formato di file. In genere il formato del file di feed dati è `.tsv`.
 
 ### Ogni giorno, file singolo
 
@@ -122,7 +123,7 @@ Una volta raccolti i dati per un giorno, si riceveranno uno o più file di dati 
 
 `[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Quando estratti, ogni file di dati contiene un singolo `hit_data.tsv` che contiene circa 2 GB di dati non compressi e file di ricerca per le colonne richieste.
+Quando estratti, ogni file di dati contiene un singolo `[index]-[rsid]_[YYYY-mm-dd].[format_suffix]` che contiene circa 2 GB di dati non compressi e file di ricerca per le colonne richieste.
 
 ### Ogni ora, file singolo
 
@@ -134,11 +135,11 @@ Quando viene estratto, il file di dati contiene un singolo `hit_data.tsv` con tu
 
 ### Ogni ora, più file
 
-Una volta raccolti i dati per un&#39;ora, si riceveranno uno o più file di dati compressi e un file manifesto. Il file di dati è denominato:
+Una volta raccolti i dati per un&#39;ora, si riceveranno uno o più file di dati compressi e un file manifesto. I file di dati sono denominati:
 
-`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Quando estratti, ogni file di dati contiene un singolo `hit_data.tsv` che contiene circa 2 GB di dati non compressi e file di ricerca per le colonne richieste.
+Quando estratti, ogni file di dati contiene un singolo `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` file contenente circa 2 GB di dati non compressi e file di ricerca per le colonne richieste.
 
 ## Dimensione file di dati
 

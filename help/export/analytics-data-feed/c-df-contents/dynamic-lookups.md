@@ -1,11 +1,11 @@
 ---
 title: Ricerche dinamiche
 description: Scopri cosa sono le ricerche dinamiche e come abilitarle. Include gestori, attributi mobili e tipi di sistemi operativi.
-exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Se desideri ricevere i file di ricerca menzionati, devi soddisfare tutti i segue
    * Per `carrier.tsv`, è necessario includere `carrier`.
    * Per `mobile_attributes.tsv`, è necessario includere `mobile_id`.
    * Per `operating_system_type.tsv`, è necessario includere `os`.
-* Le colonne seguenti devono essere **escluso**. Se una di queste colonne è inclusa nel feed di dati, le tabelle di ricerca aggiuntive non sono incluse.
+* Le colonne seguenti devono essere **escluso**. Se una di queste colonne è inclusa nel feed di dati, allora il `mobile_attributes.tsv` la ricerca dinamica non è inclusa.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`

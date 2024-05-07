@@ -3,9 +3,9 @@ title: Interfaccia utente feed dati
 description: Scopri come navigare nell’interfaccia del feed dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '685'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Accedi alla gestione dei feed dati seguendo questi passaggi:
 
 Quando si accede alla pagina di gestione dei feed di dati, l’interfaccia ha un aspetto simile al seguente:
 
-![Feed di dati](assets/feeds.png)
+![Feed dati](assets/feeds.png)
 
 Se non è stato configurato alcun feed, nella pagina viene visualizzato un messaggio [!UICONTROL Create New Data Feed] pulsante.
 
@@ -71,7 +71,7 @@ Ogni feed creato mostra diverse colonne che forniscono informazioni al riguardo.
    * Eliminato: il feed viene eliminato.
    * Completato: l&#39;elaborazione del feed è stata completata. Un feed completato può essere modificato, sospeso o annullato.
    * In sospeso: il feed viene creato ma non ancora attivo. I feed rimangono in questo stato per un breve periodo di transizione.
-   * Inattivo: equivalente allo stato &#39;sospeso&#39; o &#39;in attesa&#39;. Quando il feed viene riattivato, riprende la consegna dei processi da quando è stato interrotto.
+   * Inattivo: equivalente allo stato &#39;sospeso&#39; o &#39;in attesa&#39;. Se viene riattivato un feed di backfill (un feed che elabora solo dati storici), riprende a consegnare i processi da quando è stato interrotto. Se un feed live viene riattivato, riprende la consegna dei processi da quando è stato interrotto.
 * **Ultima modifica**: data dell’ultima modifica apportata al feed. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT.
 * **Data di inizio**: data del primo processo per questo feed. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT.
 * **Data di fine**: data dell’ultimo processo per questo feed. I feed di dati in corso non hanno una data di fine.
@@ -84,4 +84,4 @@ Fai clic sulla casella di controllo accanto a un feed di dati per visualizzare l
 * **Elimina**: elimina il feed di dati, impostandone lo stato su [!UICONTROL Deleted].
 * **Copia**: ti porta a [crea un nuovo feed](create-feed.md) con tutte le impostazioni del feed corrente. Non è possibile copiare un feed di dati se ne è selezionato più di uno.
 * **Pausa**: interrompe l’elaborazione del feed, impostandone lo stato su [!UICONTROL Inactive].
-* **Attiva**: disponibile solo per i feed inattivi. Raccoglie i dati di elaborazione nel punto in cui sono stati interrotti, fornendo le date precedenti, se necessario.
+* **Attiva**: disponibile solo per i feed inattivi. I feed di backfill (feed che elaborano solo dati storici) riprendono l’elaborazione dei dati dal punto in cui si sono interrotti, eseguendo la backfill di eventuali date, se necessario. I feed attivi riprendono l’elaborazione dei dati dall’ora corrente.
