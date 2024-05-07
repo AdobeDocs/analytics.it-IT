@@ -4,10 +4,10 @@ description: Determina il numero massimo di hit da mettere in coda per il tracci
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 8bc5e649c5b5852232f4baddcddad0766bc1569a
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 14%
+source-wordcount: '193'
+ht-degree: 12%
 
 ---
 
@@ -27,7 +27,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.offlineHitLimit in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.offlineHitLimit` variabile è un numero intero che rappresenta il numero massimo di hit memorizzati da un dispositivo mentre è offline. Se questa variabile non è definita, non esiste alcun limite al numero di hit archiviati da un dispositivo in modalità offline.
+Il `s.offlineHitLimit` variabile è un numero intero che rappresenta il numero massimo di hit memorizzati da un dispositivo mentre è offline. Se questa variabile non è definita, per impostazione predefinita `10`. È possibile impostarlo su qualsiasi valore intero. Quando imposti valori elevati, tieni presente i limiti di archiviazione locale nel browser di un visitatore. Questo limite è in genere di 5-10 MB.
 
 ```js
 s.offlineHitLimit = 100;
