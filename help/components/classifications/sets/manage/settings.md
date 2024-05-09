@@ -4,7 +4,7 @@ description: Creare o modificare un set di classificazione.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
 source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
 ht-degree: 100%
 

@@ -6,9 +6,9 @@ role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
 source-git-commit: 75d50a5b2cd31aa11df22fa6a271f7ab937a770c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,10 +23,10 @@ Il modulo Activity Map fa parte di AppMeasurement.js, dei tag di Adobe Experienc
 
 +++Web SDK (estensione di tag di Adobe Experience Platform)
 
-NOTA: Web SDK attualmente raccoglie informazioni sugli Activity Map registrando eventi di clic di collegamento separati. Questo è diverso dall’AppMeasurement che registra le informazioni dell’Activity Map per i collegamenti interni includendole nel caricamento della pagina successiva. Per questo motivo, la raccolta SDK web genera chiamate server aggiuntive. Una versione futura di Web SDK renderà possibile configurare Web SDK per creare pacchetti di informazioni per gli Activity Map sugli hit successivi, essenzialmente in linea con il comportamento di AppMeasurement.
+NOTA: Web SDK attualmente raccoglie informazioni su Activity Map registrando eventi di clic per collegamenti separati. Questo è diverso da AppMeasurement che registra le informazioni dell’Activity Map per i collegamenti interni includendole nel caricamento della pagina successiva. Per questo motivo, la raccolta Web SDK genera chiamate al server aggiuntive. Una versione futura di Web SDK renderà possibile configurare Web SDK per creare pacchetti di informazioni per le Activity Map sugli hit successivi, essenzialmente in linea con il comportamento di AppMeasurement.
 
 1. Nei tag di Adobe Experience Platform, passa alla proprietà per la quale stai implementando Analytics.
-1. Sotto [!UICONTROL Extensions] > [!UICONTROL Adobe Experience Platform Web SDK], seleziona **[!UICONTROL Enable click data collection]** come evidenziato di seguito.
+1. In [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], seleziona **[!UICONTROL Enable click data collection]** come evidenziato di seguito.
 1. Crea la libreria con le modifiche.
 1. Pubblica la libreria in produzione.
 

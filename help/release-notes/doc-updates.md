@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5246'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Aprile 2024** | |
-| È stata rimossa la documentazione relativa a &quot;Proprietario&quot; nei set di classificazione | Il filtro e la colonna &quot;Proprietario&quot; sono stati rimossi dal [Gestione set di classificazione](/help/components/classifications/sets/manage/set-manager.md) e il campo &quot;Proprietario&quot; è stato rimosso dal [Impostazioni del set di classificazione](/help/components/classifications/sets/manage/settings.md). <p>La documentazione è stata aggiornata per rimuovere questo filtro, colonna e campo.</p> |
+| È stata rimossa la documentazione relativa al “Proprietario” nei set di classificazione | Il filtro e la colonna “Proprietario” sono stati rimossi dalla [Gestione set di classificazione](/help/components/classifications/sets/manage/set-manager.md) e il campo “Proprietario” è stato rimosso dalle [Impostazioni del set di classificazione](/help/components/classifications/sets/manage/settings.md). <p>La documentazione è stata aggiornata per rimuovere filtro, colonna e campo.</p> |
 | Le sezioni comprimibili sono state rimosse nella documentazione sulla configurazione delle posizioni di importazione ed esportazione cloud. | Le sezioni comprimibili sono state rimosse in [Configura le posizioni di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md), per informazioni che illustrano i tipi di account cloud. |
 | **Marzo 2024** | |
 | Aggiornamento AppMeasurement | [Note sulla versione](/help/implement/appmeasurement-updates.md) sull’aggiornamento AppMeasurement v2.26.0.<br/>Include riferimento e aggiornamento della documentazione sulle variabili di configurazione [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md). |
@@ -150,7 +150,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Nuovo argomento sul pannello [!UICONTROL Page Summary] | [Pannello Riepilogo pagina](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Nuovo argomento sul pannello [!UICONTROL Next/Previous item] | [Pannello per elemento dimensione successivo/precedente](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Marzo 2022** | |
-| Nuovo argomento sugli algoritmi di crittografia HTTPS supportati | Algoritmi di crittografia HTTPS supportati per i clienti con livello di sicurezza con crittografia impostato su &quot;Elevato&quot;. |
+| Nuovo argomento sugli algoritmi di crittografia HTTPS supportati | Algoritmi di crittografia HTTPS supportati per la clientela con il livello di sicurezza crittografato impostato su “Elevato”. |
 | Nuova documentazione sulle annotazioni in Analysis Workspace | [Le annotazioni in Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) consentono di comunicare in modo efficace dettagli sui dati contestuali a beneficio degli utenti in tutta l’organizzazione. |
 | Aggiornamenti pagina di destinazione di Adobe Analytics | [Aggiornamenti](/help/analyze/landing.md) alla pagina di destinazione congiunta Analysis Workspace/Reports &amp; Analytics che migliora l’usabilità e la facilità di navigazione. |
 | Pannello Workspace [!UICONTROL Next item] o [!UICONTROL Previous item] | Questo pannello consente di esplorare gli elementi che seguono o precedono un elemento dimensionale scelto. |
@@ -296,7 +296,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 09 maggio 2019 | Una nuova impostazione è stata aggiunta alle impostazioni di visualizzazione del Flusso: Includi istanze ripetute. Consulta [Impostazioni di Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 | 11 aprile 2019 | Sono state migliorate le best practice per l’ottimizzazione di Workspace: [Ottimizzazione delle prestazioni](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11 aprile 2019 | Aggiornamento della sezione su come [ottimizzare le prestazioni di Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
-| 14 marzo 2019 | Aggiornamento importante della raccolta dati regionali. |
+| 14 marzo 2019 | Aggiornamento importante sulla raccolta dati regionali. |
 | 7 febbraio 2019 | Aggiornamento minore delle impostazioni “Replace the last octet of IP addresses with 0” (Sostituisci con 0 ultimo ottetto indirizzi IP) e “IP Obfuscation” (Offuscamento IP) nella sezione sulle [Impostazioni generali dell’account](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1 febbraio 2019 | Aggiornamento importante del plug-in di implementazione [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 gennaio 2019 | [Analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - Importanti miglioramenti apportati all’analisi per coorte consentono di:<ul><li>Applicare separatamente le metriche di inclusione e di restituzione di un segmento. </li><li>Visualizzare l’abbandono invece della fidelizzazione.</li><li>Visualizzare tabelle di latenza (tempo trascorso prima e dopo un evento di inclusione).</li><li>Personalizzare la dimensione delle coorti (per raggruppare i visitatori in base a una eVar, non solo al tempo).</li><li>Eseguire un calcolo continuo per coorti: calcolare fidelizzazione e abbandono in base al periodo di tempo precedente, non alla coorte originale. </li><li>Aggiungere più metriche nei campi di inclusione e di ritorno, oltre che applicare i segmenti. (Le metriche calcolate non sono supportate)</li></ul> |
