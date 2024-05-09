@@ -5,22 +5,43 @@ title: Creazione di intervalli di date personalizzati
 feature: Calendar
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 57%
 
 ---
 
-# Creazione di intervalli di date personalizzati
+# Creare intervalli di date personalizzati
 
-Crea intervalli di date personalizzati in Analysis Workspace e salvali come componenti Tempo.
+Puoi creare intervalli di date personalizzati in Analysis Workspace e salvarli come componenti Tempo.
 
-**[!UICONTROL Components]** (Componenti) > **[!UICONTROL New Date Range]** (Nuovo intervallo di dati)
+Per informazioni sull’aggiunta di intervalli di date esistenti a un progetto, consulta [Panoramica del calendario e degli intervalli di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
 
-Un intervallo di date si applica a livello del pannello. Per aggiungere al progetto un intervallo di date, fai clic su **Panels** (Pannelli) > *`<select panel>`* e specifica un nuovo intervallo di date.
+Per creare un intervallo di date personalizzato:
 
-## Intervallo di date per “Due mesi fa”  {#section_C4109C57CB444BB2A79CC8082BD67294}
+1. In Adobe Analytics, seleziona **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**.
+
+   ![pagina intervallo date](assets/date-ranges.png)
+
+1. Seleziona [!UICONTROL **Crea un nuovo intervallo di date**].
+
+1. Nel generatore di intervalli di date, specifica le seguenti informazioni:
+
+   | Opzione | Descrizione |
+   |---------|----------|
+   | [!UICONTROL **Titolo**] | Titolo dell’intervallo di date che verrà visualizzato quando gli utenti lo selezioneranno in Analysis Workspace. |
+   | [!UICONTROL **Descrizione**] | Descrizione dell’intervallo di date. |
+   | [!UICONTROL **Tag**] | Qualsiasi tag che desideri applicare all’intervallo di date. |
+   | [!UICONTROL **Intervallo date**] | Consente di scegliere un intervallo di date personalizzato. Per impostazione predefinita, sono selezionati gli ultimi 30 giorni. |
+   | [!UICONTROL **Predefinito**] | Scegli da un elenco di intervalli di date predefiniti, come [!UICONTROL **Ieri**], [!UICONTROL **Ultimi 7 giorni**], [!UICONTROL **Ultimi 30 giorni**] e così via. |
+   | [!UICONTROL **Ora di inizio**] | L’ora del giorno in cui inizia l’intervallo di date. |
+   | [!UICONTROL **Ora di fine**] | L’ora del giorno in cui termina l’intervallo di date. |
+   | [!UICONTROL **Utilizzare date continue**] | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto a gennaio, puoi vedere gli ordini di dicembre.<ul><li>**[!UICONTROL Date Preview]** (Anteprima data): indica il periodo di tempo coperto dal calendario continuo.</li><li>**[!UICONTROL Start]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li><li>**[!UICONTROL End]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li></ul><br>Selezionato per impostazione predefinita. |
+
+1. Seleziona [!UICONTROL **Salva**].
+
+## Esempio: intervallo di date per &quot;due mesi fa&quot; {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 Il seguente intervallo di date personalizzato mostra un intervallo per “due mesi fa”, con una visualizzazione del riepilogo delle modifiche che mostra i cambiamenti direzionali.
 
@@ -34,19 +55,15 @@ Puoi trascinare l’intervallo di date personalizzato all’interno di una colon
 
 ![](assets/date-range-two-months-table.png)
 
-## Utilizzare un intervallo di date continuo di 7 giorni {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## Esempio: utilizzare un intervallo di date continuo di 7 giorni {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-Un intervallo di date si applica a livello del pannello. Per aggiungere al progetto un intervallo di date, fai clic su **Azioni** > **Aggiungi pannello** e specifica un nuovo intervallo di date.
-
-Nel Generatore intervalli di date, puoi creare un intervallo di date personalizzato che viene visualizzato nel pannello Componenti insieme agli altri intervalli di date.
-
-Ad esempio, puoi creare un intervallo di date che specifica una finestra di 7 giorni che termina una settimana fa:
+Puoi creare un intervallo di date che specifica una finestra continua di 7 giorni che termina una settimana fa:
 
 ![](assets/create_date_range.png)
 
-Seleziona *`rolling daily`*.
+Utilizzare *`rolling daily`*.
 
-* Le impostazioni Inizio corrispondono a *`current day minus 14 days`* (data attuale meno 14 giorni).
+* Le impostazioni Inizio corrispondono a *`current day minus 6 days`* (data attuale meno 14 giorni).
 
 * Le impostazioni Fine corrispondono a *`current day minus 7 days`* (data attuale meno 7 giorni).
 

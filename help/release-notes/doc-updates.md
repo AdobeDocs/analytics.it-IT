@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: ht
-source-wordcount: '5246'
-ht-degree: 100%
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+workflow-type: tm+mt
+source-wordcount: '5379'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,9 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Maggio 2024** | |
+| Nuova documentazione per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics | Per le organizzazioni che eseguono l’aggiornamento da Adobe Analytics a Customer Journey Analytics, esistono diverse opzioni di aggiornamento e molte considerazioni da tenere a mente in base all’implementazione Adobe Analytics corrente e agli obiettivi a lungo termine di un’organizzazione.<p>Sono ora disponibili nuove risorse di documentazione per aiutarti a comprendere meglio:</p><ul><li>I vari percorsi di aggiornamento esistenti</li><li>Quali percorsi di aggiornamento sono disponibili in base all’implementazione Adobe Analytics corrente di un’organizzazione</li><li>Vantaggi e svantaggi di ciascun percorso di aggiornamento</li><li>Linee guida dettagliate per ogni percorso di aggiornamento</li><li>Considerazioni per la gestione dei dati storici</li><li>E altro ancora!</li></ul><p>[Introduzione all’aggiornamento al Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| È stata aggiornata la documentazione sugli intervalli di date personalizzati | Le schermate e le procedure aggiornate relative a [creazione di intervalli di date personalizzati](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) per adattarsi alle caratteristiche e al design attuali del prodotto. |
 | **Aprile 2024** | |
 | È stata rimossa la documentazione relativa al “Proprietario” nei set di classificazione | Il filtro e la colonna “Proprietario” sono stati rimossi dalla [Gestione set di classificazione](/help/components/classifications/sets/manage/set-manager.md) e il campo “Proprietario” è stato rimosso dalle [Impostazioni del set di classificazione](/help/components/classifications/sets/manage/settings.md). <p>La documentazione è stata aggiornata per rimuovere filtro, colonna e campo.</p> |
 | Le sezioni comprimibili sono state rimosse nella documentazione sulla configurazione delle posizioni di importazione ed esportazione cloud. | Le sezioni comprimibili sono state rimosse in [Configura le posizioni di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md), per informazioni che illustrano i tipi di account cloud. |
