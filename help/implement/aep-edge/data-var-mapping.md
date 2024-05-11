@@ -4,28 +4,28 @@ description: Visualizza i campi dell’oggetto dati Experience Platform Edge map
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
+source-git-commit: 59d9dd8055a13046d05ac4c3b5261a6c5a919b5c
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 5%
+source-wordcount: '541'
+ht-degree: 2%
 
 ---
 
 # Mappatura della variabile dell’oggetto dati su Adobe Analytics
 
-La tabella seguente mostra le variabili dell’oggetto dati mappate automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi dell’oggetto dati, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics.
+La tabella seguente mostra le variabili dell’oggetto dati mappate automaticamente dall’Edge Network di Adobe Experience Platform in Adobe Analytics. Se utilizzi questi percorsi dei campi dell’oggetto dati, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics.
 
-L’utilizzo di questi campi è consigliato se intendi utilizzare il Customer Journey Analytics in futuro. Questo metodo di implementazione consente all’organizzazione di inviare dati ad Adobe utilizzando l’SDK web senza essere conforme a uno schema XDM. Quando la tua organizzazione è pronta per inviare dati a Adobe Experience Platform, puoi utilizzare [Mappatura dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) per puntare i campi oggetto dati ai rispettivi campi XDM.
+L’utilizzo di questi campi è consigliato se intendi utilizzare il Customer Journey Analytics in futuro. Questo metodo di implementazione consente all’organizzazione di inviare dati ad Adobe utilizzando l’SDK web senza essere conforme a uno schema XDM. Quando la tua organizzazione è pronta per inviare dati a Adobe Experience Platform, puoi utilizzare [Mappatura dello stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) per puntare i campi oggetto dati ai rispettivi campi XDM.
 
 ## Priorità di valore
 
-La maggior parte dei campi oggetto dati in questa tabella coincidono con un [campo XDM mappato](xdm-var-mapping.md). Se imposti entrambi i `data` campo oggetto e il relativo campo XDM, il campo oggetto dati ha la priorità. Se utilizzi sia il campo oggetto XDM che il campo oggetto dati, l’Adobe consiglia di impostare eventi personalizzati utilizzando il campo oggetto dati. Se il campo `data.__adobe.analytics.events` sovrascrive tutti i campi oggetto XDM relativi agli eventi di e-commerce e personalizzati.
+La maggior parte dei campi oggetto dati in questa tabella coincidono con un [campo XDM mappato](xdm-var-mapping.md). Se imposti sia un determinato campo oggetto dati che il relativo campo XDM, il campo oggetto dati ha la priorità. Ad esempio, se il campo `data.__adobe.analytics.events` sovrascrive tutti i campi oggetto XDM relativi all’evento.
 
 Alcuni campi dell’oggetto dati supportano anche i rispettivi [Valore parametro query](../validate/query-parameters.md) come valori abbreviati. È possibile utilizzare campi oggetto dati standard e campi oggetto dati abbreviati in modo intercambiabile, purché ciascuno di essi sia destinato a variabili univoche. Evitare di impostare contemporaneamente un campo oggetto dati standard e il relativo campo oggetto dati a sintassi abbreviata. L&#39;Adobe non può garantire quale campo ha la priorità.
 
 ## Mappatura campo oggetto dati
 
-Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei commit su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md) di questa pagina.
+Gli aggiornamenti precedenti a questa tabella si trovano nel [cronologia commit su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Analogamente alle variabili AppMeasurement, tutti i campi degli oggetti dati fanno distinzione tra maiuscole e minuscole.
 
 | Percorso campo oggetto dati | Variabile e descrizione di Analytics |
 | --- | --- |
