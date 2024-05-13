@@ -3,9 +3,9 @@ description: Gestisci gli account in Advertising Analytics.
 title: Gestire gli account pubblicitari
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '164'
 ht-degree: 11%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 Puoi accedere all’interfaccia utente di gestione da **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 
-![](assets/manage_ad_accounts.png)
+![Account pubblicitari](assets/manage_ad_accounts.png)
 
 <table id="table_BE318026CF024E94A885EED86AA7077F"> 
  <thead> 
@@ -30,7 +30,7 @@ Puoi accedere all’interfaccia utente di gestione da **[!UICONTROL Admin]** > *
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Aggiungi </p> </td> 
-   <td colname="col2"> <p>Consente di accedere al <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > Configurare l’account Advertising</a> UI. </p> </td> 
+   <td colname="col2"> <p>Consente di accedere al <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >Configurare l’account Advertising</a> UI. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rinomina </p> </td> 
@@ -42,7 +42,7 @@ Puoi accedere all’interfaccia utente di gestione da **[!UICONTROL Admin]** > *
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pausa </p> </td> 
-   <td colname="col2"> <p>Disattiva l’account. Per riattivarla, fai clic su <span class="uicontrol"> Attiva</span>. </p> </td> 
+   <td colname="col2"> <p>Disattiva l’account. Per riattivarla, seleziona <span class="uicontrol">Attiva</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Intestazioni di colonna</b> </p> </td> 
@@ -58,7 +58,7 @@ Puoi accedere all’interfaccia utente di gestione da **[!UICONTROL Admin]** > *
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tipo </p> </td> 
-   <td colname="col2"> <p>Al momento ne è supportato un solo tipo: Ricerca. </p> </td> 
+   <td colname="col2"> <p>È supportato un solo tipo: Ricerca. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Account </p> </td> 

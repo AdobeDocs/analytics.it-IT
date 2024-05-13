@@ -3,9 +3,9 @@ description: Seguono istruzioni su come individuare gli ID account per Google e 
 title: Individuare gli ID account
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '230'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,12 @@ Seguono istruzioni su come individuare gli ID account per Google e Bing.
 
 >[!IMPORTANT]
 >
->Google AdWords utilizza due tipi di account: a) Account MCC (My Client Center) e b) Account standard. Per questa integrazione con Adobe Analytics, **devi utilizzare un accesso account standard, non un accesso account MCC**. Il motivo è che un account MCC funge da account &quot;ombrello&quot; che può accedere a più account AdWords con un singolo accesso, mentre l’accesso all’account Standard può accedere a un solo account AdWords per ogni accesso. Google supporta il collegamento di un’e-mail per gestire 5 account, ma Advertising Analytics non supporta ancora questa funzione. Un’e-mail può essere collegata a un solo account Adwords.
+>Google AdWords utilizza due tipi di account:
+>
+>- Account MCC (My Client Center) e
+>- Account standard.
+>
+>Per questa integrazione con Adobe Analytics, **devi utilizzare un account di accesso standard**, non un account MCC. Il motivo è che un account MCC funge da account &quot;ombrello&quot; che può accedere a più account AdWords con un singolo accesso, mentre l’accesso all’account Standard può accedere a un solo account AdWords per ogni accesso. Google supporta il collegamento di un’e-mail per gestire 5 account, ma Advertising Analytics non supporta ancora questa funzione. Un’e-mail può essere collegata a un solo account Adwords.
 
 Fai clic sull’icona Account in alto a destra per visualizzare il numero di account AdWords (ID cliente).
 
@@ -28,7 +33,7 @@ Fai clic sull’icona Account in alto a destra per visualizzare il numero di acc
 
 >[!NOTE]
 >
->Se il tuo account Bing utilizza la funzione di importazione di Google, assicurati di aggiornare la stringa di tracciamento corretta. La stringa di tracciamento non verrà aggiornata automaticamente dalla versione di Google alla stringa di tracciamento Bing corretta e potrebbe causare dati non specificati. Ulteriori dettagli sulla funzione sono disponibili [qui](https://help.ads.microsoft.com/apex/index/3/en/50851/).
+>Se il tuo account Bing utilizza la funzione di importazione di Google, assicurati di aggiornare la stringa di tracciamento corretta. La stringa di tracciamento non viene aggiornata automaticamente dalla versione di Google alla stringa di tracciamento Bing corretta e potrebbe causare dati non specificati. Ulteriori dettagli sulla funzione sono disponibili [qui](https://help.ads.microsoft.com/apex/index/3/en/50851/).
 
 Sono richiesti sia l’ID account che l’ID cliente. Sono elencati nella scheda Account.
 
