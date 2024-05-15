@@ -4,10 +4,10 @@ description: Utilizzare l’estensione Mobile SDK in Adobe Experience Platform D
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 25%
+source-wordcount: '487'
+ht-degree: 26%
 
 ---
 
@@ -106,30 +106,24 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>2</td>
-<td><b>Configurare gli schemi</b>. Per standardizzare la raccolta dati da utilizzare nelle applicazioni che sfruttano Adobe Experience Platform, Adobe ha creato lo standard aperto e pubblicamente documentato Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it">Panoramica dell’interfaccia utente degli schemi</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>Installare l’estensione Adobe Analytics</b> nella proprietà tag per dispositivi mobili e configura l’estensione in modo che punti alla suite di rapporti.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">Estensione Adobe Analytics per proprietà mobile</a>
 </tr>
 
 <tr>
-<td>4</td>
+<td>3</td>
 <td><b>Utilizzare il codice nell’app</b> per registrare le estensioni necessarie e caricare la configurazione di tag.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Configurare la configurazione</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>Implementare e testare la funzionalità</b> utilizzando una combinazione di elementi dati del tag, regole, estensioni aggiuntive e chiamate API SDK nell’app. Inspect, convalida ed esegui il debug della raccolta dati e delle esperienze per la tua app mobile.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Utilizzare l’applicazione di esempio</a>
 </tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>Estendere e convalidare l’implementazione dell’app mobile</b> prima di implementarlo in produzione.</td>
 <td></td> 
 </tr>
