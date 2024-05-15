@@ -4,10 +4,10 @@ description: Utilizzare l’estensione Mobile SDK in Adobe Experience Platform D
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
+source-git-commit: 8b585a1a05b5fcabd343da52a4b6f05fea8fd86f
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 26%
+source-wordcount: '454'
+ht-degree: 28%
 
 ---
 
@@ -39,46 +39,40 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>2</td>
-<td><b>Configurare gli schemi.</b> (Autenticazione): Per standardizzare la raccolta dati da utilizzare nelle applicazioni che sfruttano Adobe Experience Platform, Adobe ha creato lo standard aperto e pubblicamente documentato Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it">Panoramica dell’interfaccia utente degli schemi</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>Configurare uno stream di dati</b>. Un flusso di dati rappresenta la configurazione lato server durante l’implementazione di Adobe Experience Platform Web SDK.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">Configurare uno stream di dati<a></td> 
 </tr>
 
-<td>4</td>
+<td>3</td>
 <td><b>Aggiungere un servizio Adobe Analytics</b> allo stream di dati. Tale servizio controlla se e come i dati vengono inviati ad Adobe Analytics.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>Creare una proprietà mobile</b>. Una proprietà è un contenitore che si riempie con estensioni, regole, elementi dati e librerie.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">Configurare una proprietà mobile</a></tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>Installare l’estensione Adobe Experience Platform Edge Network</b> nella proprietà tag mobile e configura lo stream di dati nell’estensione.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Adobe Experience Platform Edge Network</a>
 </tr>
 
 <tr>
-<td>7</td>
+<td>6</td>
 <td><b>Utilizzare il codice nell’app</b> per registrare le estensioni necessarie e caricare la configurazione di tag.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Configurare la configurazione</a></td>
 </tr>
 
 <tr>
-<td>8</td>
+<td>7</td>
 <td><b>Implementare e testare la funzionalità</b> utilizzando una combinazione di elementi dati del tag, regole, estensioni aggiuntive e chiamate API SDK nell’app. Inspect, convalida ed esegui il debug della raccolta dati e delle esperienze per la tua app mobile.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Utilizzare l’applicazione di esempio</a>
 </tr>
 
 <tr>
-<td>9</td>
+<td>8</td>
 <td><b>Estendere e convalidare l’implementazione dell’app mobile</b> prima di implementarlo in produzione.</td>
 <td></td> 
 </tr>
