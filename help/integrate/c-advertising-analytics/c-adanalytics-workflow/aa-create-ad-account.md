@@ -3,7 +3,7 @@ title: Come impostare un account Advertising in Advertising Analytics
 description: Questo articolo spiega come creare nuovi account pubblicitari e mappare più account su più suite di rapporti.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 4%
@@ -23,7 +23,7 @@ Gli amministratori possono inoltre [concedere l’accesso agli utenti non ammini
 1. In Adobe Analytics, passa a **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 1. Accettare i termini del Contratto di Licenza con l&#39;utente finale (solo per il primo utilizzo).
 1. Seleziona **[!UICONTROL + Add]**.
-1. Il [!UICONTROL New search engine setting] viene visualizzata una finestra di dialogo:
+1. Il [!UICONTROL New search engine setting] viene visualizzata una finestra di dialogo.
 
    ![](assets/aa-new-se-account.png)
 
