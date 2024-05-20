@@ -4,7 +4,7 @@ description: Crea e configura variabili elenco da utilizzare nei rapporti.
 feature: Admin Tools
 role: Admin
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: cf924b337772764b33d750787a0d09b3f11203be
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 21%
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 Crea e configura variabili elenco da utilizzare nei rapporti. Imposta il delimitatore, la scadenza, l’allocazione e i valori massimi. Raccogli dati per le variabili elenco tramite [`list1` - `list3`](/help/implement/vars/page-vars/list.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL list variables]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL List Variables]**
 
 * **[!UICONTROL Name]**: nome della variabile elenco. Questo nome è l’etichetta della dimensione in Analysis Workspace.
 
