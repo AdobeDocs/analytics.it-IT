@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
+source-git-commit: 556f2131de980362094c691e8de61c6b077b5c15
 workflow-type: tm+mt
-source-wordcount: '5402'
+source-wordcount: '5419'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Maggio 2024** | |
+| È stata aggiornata la documentazione di Advertising Analytics | È stata aggiornata la documentazione in linea con gli aggiornamenti apportati alla [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) dell&#39;utente. |
 | Mappare in modo esplicito le variabili dell’oggetto XDM alle variabili dei dati di contesto | È stata documentata la funzionalità di [impostare in modo esplicito le variabili di dati di contesto utilizzando la mappatura delle variabili di oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Nuova documentazione per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics | Per le organizzazioni che eseguono l’aggiornamento da Adobe Analytics a Customer Journey Analytics, esistono diverse opzioni di aggiornamento e molte considerazioni da tenere a mente in base all’implementazione Adobe Analytics corrente e agli obiettivi a lungo termine di un’organizzazione.<p>Sono ora disponibili nuove risorse di documentazione per aiutarti a comprendere meglio:</p><ul><li>I vari percorsi di aggiornamento esistenti</li><li>Quali percorsi di aggiornamento sono disponibili in base all’implementazione Adobe Analytics corrente di un’organizzazione</li><li>Vantaggi e svantaggi di ciascun percorso di aggiornamento</li><li>Linee guida dettagliate per ogni percorso di aggiornamento</li><li>Considerazioni per la gestione dei dati storici</li><li>E altro ancora!</li></ul><p>[Introduzione all’aggiornamento al Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | È stata aggiornata la documentazione sugli intervalli di date personalizzati | Le schermate e le procedure aggiornate relative a [creazione di intervalli di date personalizzati](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) per adattarsi alle caratteristiche e al design attuali del prodotto. |
