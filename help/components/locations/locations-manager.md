@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestione posizioni
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '622'
 ht-degree: 1%
 
 ---
@@ -73,13 +73,15 @@ Per informazioni su come modificare una posizione, consulta [Configurare i perco
 >
 >Se elimini una posizione, devi [modificare i feed dati](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse rapporti](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), e [Schemi dei set di classificazione](/help/components/classifications/sets/manage/schema.md) per utilizzare una posizione funzionante.
 
-Per eliminare una posizione:
+Per eliminare una posizione nel gestore Posizioni in Adobe Analytics:
+
+1. Seleziona **[!UICONTROL Components]** > **[!UICONTROL Locations]**, quindi seleziona la [!UICONTROL **Posizioni**] scheda.
 
 1. Selezionare il menu a 3 punti nella [!UICONTROL **Nome posizione**] per la posizione da eliminare.
 
 1. Seleziona [!UICONTROL **Elimina**].
 
-## Modifica account
+## Modificare un account
 
 1. Per modificare gli account nel gestore Posizioni in Adobe Analytics, seleziona **[!UICONTROL Components]** > **[!UICONTROL Locations]**, quindi seleziona la [!UICONTROL **Account ubicazione**] scheda.
 
@@ -100,7 +102,7 @@ Per visualizzare le chiavi associate a un account di esportazione:
 
 1. Seleziona l’icona a tre punti sull’account da modificare, quindi seleziona [!UICONTROL **Chiavi account**].
 
-## Elimina account
+## Eliminare un account
 
 1. In Adobe Analytics, seleziona **[!UICONTROL Components]** > **[!UICONTROL Locations]**, quindi seleziona la [!UICONTROL **Account ubicazione**] scheda.
 

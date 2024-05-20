@@ -4,10 +4,10 @@ title: Metriche in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
+source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 21%
+source-wordcount: '356'
+ht-degree: 23%
 
 ---
 
@@ -21,27 +21,19 @@ Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
 
 * **Metriche standard**: la maggior parte delle metriche utilizzate nei progetti sono metriche standard. Alcuni esempi includono [Visualizzazioni pagina](/help/components/metrics/page-views.md), [Ricavi](/help/components/metrics/revenue.md), o [Eventi personalizzati](/help/components/metrics/custom-events.md). Consulta [Panoramica delle metriche](/help/components/metrics/overview.md) nella guida utente Componenti per ulteriori informazioni.
 
-   ![Metrica standard](assets/standard-metric.png)
+  ![Metrica standard](assets/standard-metric.png)
 
 * **Metriche calcolate**: metriche definite dall’utente basate su metriche standard, numeri statici o funzioni algoritmiche. Le metriche calcolate definite dall’utente mostrano l’icona di una calcolatrice nell’elenco dei componenti disponibili. Consulta [Panoramica sulle metriche calcolate](/help/components/c-calcmetrics/cm-overview.md) nella guida utente Componenti per ulteriori informazioni.
 
-   ![Metrica calcolata](assets/calculated-metric.png)
+  ![Metrica calcolata](assets/calculated-metric.png)
 
 * **Modelli di metriche calcolate**: metriche definite dall’Adobe che si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzarne la logica. I modelli di metriche calcolate mostrano un’icona di Adobe nell’elenco dei componenti disponibili.
 
-   ![Modello di metrica calcolata](assets/calculated-metric-template.png)
+  ![Modello di metrica calcolata](assets/calculated-metric-template.png)
 
 ## Utilizzare le metriche in Analysis Workspace
 
-Le metriche possono essere utilizzate in vari modi all’interno di Analysis Workspace. È possibile:
-
-* Trascina una metrica in una tabella a forma libera vuota per visualizzare la tendenza della metrica nel periodo della data del progetto.
-
-* Trascina una metrica quando è presente una dimensione per visualizzarla rispetto a ciascun elemento dimensione.
-
-* Trascina una metrica sopra un’intestazione di metrica esistente per sostituirla.
-
-* Trascina una metrica accanto a un’intestazione per vedere entrambe le metriche una accanto all’altra.
+Le metriche possono essere utilizzate in vari modi all’interno di Analysis Workspace. Per informazioni su come aggiungere metriche e altri tipi di componenti ad Analysis Workspace, consulta [Utilizzare i componenti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 

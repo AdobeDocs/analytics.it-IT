@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder e Activity Map.
-source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
+source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1007'
 ht-degree: 99%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 99%
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
-   + [Scopri le novità di Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Progetti {#build-workspace-project}
       + [Panoramica dei progetti](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creare progetti](analysis-workspace/build-workspace-project/create-projects.md)
@@ -49,6 +48,7 @@ ht-degree: 99%
       + [Creare e gestire i rapporti aziendali](analysis-workspace/reports/create-company-reports.md)
    + Componenti {#components}
       + [Panoramica dei componenti](analysis-workspace/components/analysis-workspace-components.md)
+      + [Utilizzare i componenti in Workspace](analysis-workspace/components/use-components-in-workspace.md)
       + [Aggiungere descrizioni dei componenti](analysis-workspace/components/add-component-descriptions.md)
       + Annotazioni {#annotations}
          + [Panoramica sulle annotazioni](analysis-workspace/components/annotations/overview.md)

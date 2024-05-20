@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 556f2131de980362094c691e8de61c6b077b5c15
+source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
 workflow-type: tm+mt
-source-wordcount: '5419'
+source-wordcount: '5442'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Maggio 2024** | |
+| Documentazione sull’aggiunta di componenti ai progetti | Sono state aggiunte informazioni generali su come [aggiungere i vari tipi di componenti ai progetti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | È stata aggiornata la documentazione di Advertising Analytics | È stata aggiornata la documentazione in linea con gli aggiornamenti apportati alla [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) dell&#39;utente. |
 | Mappare in modo esplicito le variabili dell’oggetto XDM alle variabili dei dati di contesto | È stata documentata la funzionalità di [impostare in modo esplicito le variabili di dati di contesto utilizzando la mappatura delle variabili di oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Nuova documentazione per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics | Per le organizzazioni che eseguono l’aggiornamento da Adobe Analytics a Customer Journey Analytics, esistono diverse opzioni di aggiornamento e molte considerazioni da tenere a mente in base all’implementazione Adobe Analytics corrente e agli obiettivi a lungo termine di un’organizzazione.<p>Sono ora disponibili nuove risorse di documentazione per aiutarti a comprendere meglio:</p><ul><li>I vari percorsi di aggiornamento esistenti</li><li>Quali percorsi di aggiornamento sono disponibili in base all’implementazione Adobe Analytics corrente di un’organizzazione</li><li>Vantaggi e svantaggi di ciascun percorso di aggiornamento</li><li>Linee guida dettagliate per ogni percorso di aggiornamento</li><li>Considerazioni per la gestione dei dati storici</li><li>E altro ancora!</li></ul><p>[Introduzione all’aggiornamento al Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
@@ -300,7 +301,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 4 giugno 2019 | Nuova guida su come [passare da una piattaforma di analisi di terze parti ad Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30 maggio 2019 | Revisione della [sezione sulla colonna Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | 09 maggio 2019 | Una nuova impostazione è stata aggiunta alle impostazioni di visualizzazione del Flusso: Includi istanze ripetute. Consulta [Impostazioni di Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
-| 11 aprile 2019 | Sono state migliorate le best practice per l’ottimizzazione di Workspace: [Ottimizzazione delle prestazioni](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
+| 11 aprile 2019 | Sono state migliorate le best practice per l’ottimizzazione di Workspace: Ottimizzazione delle prestazioni |
 | 11 aprile 2019 | Aggiornamento della sezione su come [ottimizzare le prestazioni di Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14 marzo 2019 | Aggiornamento importante sulla raccolta dati regionali. |
 | 7 febbraio 2019 | Aggiornamento minore delle impostazioni “Replace the last octet of IP addresses with 0” (Sostituisci con 0 ultimo ottetto indirizzi IP) e “IP Obfuscation” (Offuscamento IP) nella sezione sulle [Impostazioni generali dell’account](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
