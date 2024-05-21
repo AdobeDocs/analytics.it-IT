@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare account di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 56%
+source-wordcount: '1204'
+ht-degree: 60%
 
 ---
 
@@ -23,21 +23,15 @@ Puoi configurare un account cloud utilizzato per uno o tutti i seguenti scopi:
 
 Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account cloud. Questo processo consiste nell’aggiungere e configurare l’account (ad esempio ARN per il ruolo di Amazon S3, Google Cloud Platform e così via) come descritto in questo articolo, quindi aggiungere e configurare la posizione all’interno dell’account (ad esempio una cartella all’interno dell’account) come descritto in [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
 
+Per informazioni su come gestire gli account esistenti, incluse la visualizzazione, la modifica e l&#39;eliminazione degli account, vedere [Gestione posizioni](/help/components/locations/locations-manager.md).
+
 Per configurare un account di importazione o esportazione cloud:
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Posizioni**].
 1. Il giorno [!UICONTROL Locations] , seleziona la [!UICONTROL **Account ubicazione**] scheda.
-1. Per creare un nuovo account, seleziona [!UICONTROL **Aggiungi account**].
+1. Seleziona [!UICONTROL **Aggiungi account**].
 
    Viene visualizzata la finestra di dialogo Aggiungi account.
-
-   Oppure
-
-   Per modificare un account esistente, seleziona [!UICONTROL **Visualizza dettagli**] nella sezione in cui è elencato l’account che desideri modificare.
-Viene visualizzata la finestra di dialogo Posizione.
-
-   Viene visualizzata la finestra di dialogo Dettagli account località
-
 
 1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome account località**] | Nome dell&#39;account di posizione. Questo nome viene visualizzato durante la creazione di una posizione | | [!UICONTROL **Descrizione del conto di ubicazione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. | | [!UICONTROL **Tipo di account**] | Seleziona il tipo di account cloud. È consigliabile disporre di un singolo account per ogni tipo di account, con più posizioni in base alle esigenze all’interno dell’account. |
 1. In [!UICONTROL **Proprietà account**] , specificare informazioni specifiche per il tipo di account selezionato.
@@ -48,7 +42,7 @@ Viene visualizzata la finestra di dialogo Posizione.
 
    +++ARN per ruolo Amazon S3
 
-   Per configurare un account Amazon S3 Role ARN, specifica le seguenti informazioni:
+   Per configurare un account Amazon S3 con ruolo ARN, specifica le seguenti informazioni:
 
    | Campo | Funzione |
    |---------|----------|
@@ -72,7 +66,7 @@ Viene visualizzata la finestra di dialogo Posizione.
 
    +++Azure SAS
 
-   Per configurare un account SAS di Azure, specificare le informazioni seguenti:
+   Per configurare un account SAS di Azure, specifica le informazioni seguenti:
 
    | Campo | Funzione |
    |---------|----------|
@@ -88,7 +82,7 @@ Viene visualizzata la finestra di dialogo Posizione.
 
    +++Azure RBAC
 
-   Per configurare un account RBAC di Azure, specificare le informazioni seguenti:
+   Per configurare un account RBAC di Azure, specifica le informazioni seguenti:
 
    | Campo | Funzione |
    |---------|----------|

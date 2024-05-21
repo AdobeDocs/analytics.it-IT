@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare i percorsi di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 5bf6ed9b71a87d79fec960b6618667238019ac7f
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 31%
+source-wordcount: '1449'
+ht-degree: 37%
 
 ---
 
@@ -23,16 +23,15 @@ Puoi configurare un account cloud (e una posizione sull’account). Un’unica p
 
 Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account cloud. Questo processo consiste nell’aggiungere e configurare l’account (ad esempio ARN per il ruolo Amazon S3, Google Cloud Platform e così via) come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md), quindi aggiungendo e configurando la posizione all’interno dell’account (come descritto in questo articolo).
 
-## Inizio della creazione o della modifica di un percorso di esportazione cloud
+Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazione, la modifica e l’eliminazione, consulta [Gestione posizioni](/help/components/locations/locations-manager.md).
+
+## Inizia a creare un percorso di esportazione cloud
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Posizioni**].
 1. Il giorno [!UICONTROL Locations] , seleziona la [!UICONTROL **Posizioni**] scheda.
-1. Per creare una nuova posizione, seleziona [!UICONTROL **Aggiungi posizione**]. (Se non hai già aggiunto un account, aggiungine uno come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).)
+1. Seleziona [!UICONTROL **Aggiungi posizione**]. (Se non hai già aggiunto un account, aggiungine uno come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).)
 
-   Oppure
-
-   Per modificare una posizione esistente, selezionare il menu a 3 punti nella [!UICONTROL **Nome posizione**] per la posizione da modificare, quindi seleziona [!UICONTROL **Modifica**].
-Viene visualizzata la finestra di dialogo Posizione.
+   Viene visualizzata la finestra di dialogo Posizione.
 
 1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  |
 | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri dello stesso tipo. | | [!UICONTROL **Uso con**] | Seleziona se desideri utilizzare questa posizione con [!UICONTROL **Feed dati**], [!UICONTROL **Data Warehouse**], o [!UICONTROL **Set di classificazione**]. <p>Quando effettuate una selezione, tenete presente quanto segue:</p><ul><li>Una singola posizione non può essere utilizzata per più scopi. Ad esempio, una posizione utilizzata per i feed di dati non può essere utilizzata anche per set di Data Warehouse o di classificazione.</li><li>Per evitare conflitti di file all&#39;interno di una posizione, non modificare il valore di [!UICONTROL **Uso con**] dopo l’utilizzo della posizione.</li></ul> | | [!UICONTROL **Account località**] | Selezionare l&#39;account della posizione in cui si desidera creare la posizione. Per informazioni su come creare un account, consulta [Aggiungi un account](#add-an-account). |
@@ -51,7 +50,7 @@ Per configurare una posizione ARN per il ruolo Amazon S3, specifica le seguenti 
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l&#39;ARN utente fornito da Adobe disponga del `S3:PutObject` per caricare i file in questo bucket. </p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l&#39;ARN utente fornito da Adobe disponga del `S3:PutObject` per caricare i file in questo bucket. </p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html?lang=it). </p> |
    | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, folder_name/ |
 
    {style="table-layout:auto"}
@@ -69,7 +68,7 @@ Per configurare una posizione ARN per il ruolo Amazon S3, specifica le seguenti 
 
 ### Google Cloud Platform
 
-Per configurare un percorso di Google Cloud Platform, specifica le seguenti informazioni:
+Per configurare una posizione di Google Cloud Platform, specifica le informazioni seguenti:
 
 1. [Inizio della creazione o della modifica di un percorso di esportazione cloud](#begin-creating-or-editing-a-cloud-export-location), come descritto in precedenza.
 
@@ -93,7 +92,7 @@ Per configurare un percorso di Google Cloud Platform, specifica le seguenti info
 
 ### Azure SAS
 
-Per configurare un percorso SAS di Azure, specificare le informazioni seguenti:
+Per configurare una posizione SAS di Azure, specifica le informazioni seguenti:
 
 1. [Inizio della creazione o della modifica di un percorso di esportazione cloud](#begin-creating-or-editing-a-cloud-export-location), come descritto in precedenza.
 
@@ -117,7 +116,7 @@ Per configurare un percorso SAS di Azure, specificare le informazioni seguenti:
 
 ### Azure RBAC
 
-Per configurare un percorso RBAC di Azure, specificare le informazioni seguenti:
+Per configurare una posizione RBAC di Azure, specifica le informazioni seguenti:
 
 1. [Inizio della creazione o della modifica di un percorso di esportazione cloud](#begin-creating-or-editing-a-cloud-export-location), come descritto in precedenza.
 
