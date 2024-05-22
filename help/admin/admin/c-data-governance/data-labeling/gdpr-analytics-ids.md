@@ -4,10 +4,10 @@ title: Tecniche di etichettatura consigliate
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 0fd0fad17cf6dcaa042e53d86dfabc5792a065b6
 workflow-type: tm+mt
-source-wordcount: '2676'
-ht-degree: 80%
+source-wordcount: '2692'
+ht-degree: 77%
 
 ---
 
@@ -103,15 +103,15 @@ Sebbene pochissimi campi avranno un’etichetta diversa, in molti campi spesso s
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Solo ID dispositivo </p> </td> 
-   <td colname="col2"> <p>Se gli unici ID che usi sono ID cookie o quelli con un'etichetta ID-DEVICE, devi usare solo l'etichetta ACC-ALL. </p> <p>Riceverai una coppia di file per ogni richiesta di accesso, uno contenente una riga per ogni hit corrispondente con tutti i campi ACC-ALL specificati e l’altro contenente un riepilogo di tali dati. </p> </td> 
+   <td colname="col2"> <p>Se gli unici ID che usi sono ID cookie o quelli con un'etichetta ID-DEVICE, devi usare solo l'etichetta ACC-ALL. </p> <p>Riceverai una coppia di file per ogni richiesta di accesso: un file contenente una riga per ogni hit corrispondente con tutti i campi ACC-ALL specificati e un file di riepilogo contenente un riepilogo di questi dati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID persona senza espansione dell'ID </p> </td> 
-   <td colname="col2"> <p>Se usi solo ID personalizzati che hanno l'etichetta ID-PERSON e non eseguono l'espansione dell'ID, devi usare le etichette ACC-PERSON. Tuttavia, non devi cambiare le etichette ACC-ALL predefinite; questi campi verranno inclusi automaticamente nella richiesta di accesso. </p> <p>Otterrai una coppia di file per ogni richiesta di accesso, uno contenente una riga per ogni risultato corrispondente a tutti i campi ACC-DEVICE e ACC-PERSON specificati e l'altro contenente un riepilogo di questi dati. </p> </td> 
+   <td colname="col2"> <p>Se usi solo ID personalizzati che hanno l'etichetta ID-PERSON e non eseguono l'espansione dell'ID, devi usare le etichette ACC-PERSON. Tuttavia, non devi cambiare le etichette ACC-ALL predefinite; questi campi verranno inclusi automaticamente nella richiesta di accesso. </p> <p>Riceverai una coppia di file per ogni richiesta di accesso: un file contenente una riga per ogni hit corrispondente con tutti i campi ACC-DEVICE e ACC-PERSON specificati e un file di riepilogo contenente un riepilogo di questi dati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID misti e/o espansione dell’ID </p> </td> 
-   <td colname="col2"> <p>Se nelle richieste di Privacy dei dati includi sia gli ID persona che visitatore, o se usi gli ID personalizzati (ID visitatore personalizzato o un ID in una proprietà o in un’eVar), devi fare attenzione alle etichette ACC usate. Ogni richiesta di accesso restituirà due coppie di file di dati, una coppia contenente i dati dei risultati che contenevano un ID persona corrispondente e l’altra contenente i dati dei risultati che non corrispondevano a un ID persona, ma a un ID dispositivo. </p> <p>I file “ID persona” contengono dati su tutti i punti che corrispondono agli ID persona con tutti i campi dotati di etichetta ACC-PERSON e/o ACC-ALL (un file con tutti i punti corrispondenti e l'altro come riepilogo). </p> <p>La coppia di file “ID dispositivo” contiene solo campi che hanno un'etichetta ACC-ALL e contiene solo risultati che non contengono ID persona corrispondenti. Questi file possono contenere dati generati da altri utenti di un dispositivo condiviso, pertanto è necessario considerare attentamente l'insieme di campi che contengono l'etichetta ACC-ALL. Le etichette predefinite in Analytics applicano questa etichetta solo a campi di informazioni generiche correlati al dispositivo (tipo di dispositivo, sistema operativo, browser e così via) oltre all'ora/data di ogni risultato. </p> <p>Puoi scegliere di ricevere da Adobe sia i set di file relativi alla persona che quelli relativi al dispositivo e di condividere solo i file relativi alla persona, in modo da non condividere dati che potrebbero essere generati da altri utenti di un dispositivo condiviso. In alternativa, è possibile combinare i dati di uno o entrambi i set con altre informazioni note sull’interessato e restituirle nel proprio formato. </p> </td> 
+   <td colname="col2"> <p>Se nelle richieste di Privacy dei dati includi sia gli ID persona che visitatore, o se usi gli ID personalizzati (ID visitatore personalizzato o un ID in una proprietà o in un’eVar), devi fare attenzione alle etichette ACC usate. Ogni richiesta di accesso restituirà due coppie di file di dati. <p>Una coppia di file contenente un file con dati provenienti da hit che contenevano un ID persona corrispondente e un altro file contenente dati provenienti da hit che non corrispondevano a un ID persona, ma a un ID dispositivo. </p> <p>L’altra coppia di file ("ID persona") contiene dati su tutti gli hit che corrispondono agli ID persona con tutti i campi con etichetta ACC-PERSON o e ACC-ALL. Un file con tutti gli hit corrispondenti e un altro file di riepilogo contenente un riepilogo di questi dati. </p> <p>La coppia di file “ID dispositivo” contiene solo campi che hanno un'etichetta ACC-ALL e contiene solo risultati che non contengono ID persona corrispondenti. Questi file possono contenere dati generati da altri utenti di un dispositivo condiviso, pertanto è necessario considerare attentamente l'insieme di campi che contengono l'etichetta ACC-ALL. Le etichette predefinite in Analytics applicano questa etichetta solo a campi di informazioni generiche correlati al dispositivo (tipo di dispositivo, sistema operativo, browser e così via) oltre all'ora/data di ogni risultato. </p> <p>Puoi scegliere di ricevere da Adobe sia i set di file relativi alla persona che quelli relativi al dispositivo e di condividere solo i file relativi alla persona, in modo da non condividere dati che potrebbero essere generati da altri utenti di un dispositivo condiviso. In alternativa, è possibile combinare i dati di uno o entrambi i set con altre informazioni note sull’interessato e restituirle nel proprio formato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

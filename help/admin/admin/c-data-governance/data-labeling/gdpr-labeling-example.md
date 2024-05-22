@@ -4,10 +4,10 @@ title: Esempi di etichettatura
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 94%
+source-wordcount: '932'
+ht-degree: 74%
 
 ---
 
@@ -35,12 +35,14 @@ Supponi di avere i dati seguenti:
 
 ## Richiesta di accesso di esempio {#access}
 
-Inviando una richiesta di accesso, il file di riepilogo contiene i valori indicati nella tabella seguente. Una richiesta può restituire solo un file di dispositivo, solo un file di persona o entrambi. Due file di riepilogo vengono restituiti solo se viene usato un ID persona ed expandIDs è true.
+Inviando una richiesta di accesso, si riceveranno due file che è possibile restituire all&#39;interessato. Un file è un file CSV contenente una riga per ogni hit ricevuto per l’interessato e una colonna per ogni variabile con l’etichetta di accesso appropriata. L’altro file è un file HTML di riepilogo che elenca ciascuna variabile, seguito da tutti i valori univoci visualizzati per tale variabile per l’interessato e dal numero di volte in cui è stato visualizzato ogni valore univoco.
+
+Ad esempio, il file di riepilogo contiene i valori indicati nella tabella seguente. Una richiesta può restituire solo un file di dispositivo, solo un file di persona o entrambi. Vengono restituiti due file di riepilogo solo se viene utilizzato un ID persona e `expandIds` è vero.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valori API</th>
-    <th rowspan="2">Tipo di file restituito<br></th>
+    <th rowspan="2">Riepilogo<br/>tipo di file<br/>ha restituito</th>
     <th colspan="5" style="text-align:center">Dati in un file di accesso di riepilogo</th>
   </tr>
   <tr>
@@ -140,7 +142,7 @@ Inviando una richiesta di accesso, il file di riepilogo contiene i valori indica
   </tr>
 </table>
 
-Si noti che le impostazioni di expandIDs non cambiano nell’output quando viene usato un ID cookie.
+Si noti che l&#39;impostazione per `expandIDs` non fa alcuna differenza nell’output quando viene utilizzato un ID cookie.
 
 ## Esempio di richieste di eliminazione {#delete}
 
@@ -217,7 +219,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 >[!NOTE]
 >
->Sono interessate solo le celle nelle righe contenenti AAID = 77 e un’etichetta DEL-DEVICE.
+>Solo le colonne nelle righe contenenti `AAID=77` e un `DEL-DEVICE` sono interessati.
 
 <table>
   <tr>
@@ -290,7 +292,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 >[!NOTE]
 >
->sono interessate solo le celle nelle righe contenenti user=Mary e un’etichetta DEL-PERSON. Inoltre, in pratica, la variabile contenente A_ID probabilmente è una proprietà o un eVar. Il suo valore di sostituzione sarebbe una stringa che inizia con “Privacy-”, seguita da un numero casuale (GUID), invece della sostituzione del valore numerico con un diverso valore numerico casuale.
+>Solo colonne nelle righe contenenti `user=Mary` e un `DEL-PERSON` sono interessati. Inoltre, in pratica, la variabile contenente `A_ID` probabilmente sarebbe un prop o un eVar. Il valore sostitutivo sarà una stringa che inizia con `Privacy-`, seguito da un numero casuale (GUID), anziché sostituire il valore numerico con un diverso valore numerico casuale.
 
 <table>
   <tr>

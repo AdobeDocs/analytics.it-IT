@@ -4,10 +4,10 @@ title: Namespace
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 94%
+source-wordcount: '896'
+ht-degree: 88%
 
 ---
 
@@ -21,17 +21,17 @@ La stringa namespace viene usata per identificare i campi in cui si desidera ese
 * Un campo “type” che per la maggior parte delle richieste di Adobe Analytics contiene il valore “analytics”.
 * Un campo “value” contenente l’ID che Analytics deve cercare nelle variabili namespace associate di ciascuna suite di rapporti.
 
-Per altre informazioni fai riferimento alla [documentazione relativa all’API Privacy dei dati](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it) per Experience Cloud.
+Consulta la sezione [Experience Cloud di documentazione sull’API della Privacy dei dati](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it) per maggiori dettagli e per [elenco degli spazi dei nomi di identità standard](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consulta [Creare un processo di accesso/eliminazione](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) per una richiesta di esempio.
 
 ## ID cookie
 
 Cookie di monitoraggio Analytics Legacy, noto anche come ID Adobe Analytics (AAID):
 
-```
+```json
 {
-   namespace: "AAID",
-   type: "standard",
-   value: "2CCEEAE88503384F-1188000089CA"
+   "namespace": "AAID",
+   "type": "standard",
+   "value": "2CCEEAE88503384F-1188000089CA"
 }
 ```
 
@@ -41,25 +41,23 @@ Questo valore deve essere specificato come due numeri esadecimali separati da un
 
 ## Cookie di tracciamento legacy di Analytics: modulo obsoleto
 
-```
+```json
 {
-   "namespace": "visitorId",
-   "type": "analytics",
+   "namespace": "visitorId",
+   "type": "analytics",
    "value": "2cceeae88503384f-00001188000089ca"
 }
 ```
-
-Forma obsoleta:
 
 Questo valore deve essere specificato come due numeri esadecimali a 16 cifre oppure due numeri decimali a 19 cifre separati da un trattino. I numeri devono essere separati da un trattino, un trattino basso o due punti. Gli zeri iniziali devono essere aggiunti qualora le due serie non fossero composte da un numero di cifre sufficienti.
 
 ## Cookie del servizio Identity
 
-```
+```json
 {
-    namespace: "ECID",
-    type: "standard",
-    value: "00497781304058976192356650736267671594"
+   "namespace": "ECID",
+   "type": "standard",
+   "value": "00497781304058976192356650736267671594"
 }
 ```
 
@@ -81,11 +79,11 @@ Questo codice JavaScript compila il JSON con altre coppie chiave/valore oltre a 
 
 ## ID visitatore personalizzato
 
-```
+```json
 {
-     namespace: "customVisitorID",
-     type: "analytics",
-     value: "<ID>"
+    "namespace": "customVisitorID",
+    "type": "analytics",
+    "value": "<ID>"
 }
 ```
 
@@ -93,15 +91,16 @@ Anche il namespace è predefinito per l&#39;ID visitatore personalizzato.
 
 ## ID nelle variabili personalizzate
 
-```
+```json
 {
-    namespace: "Email Address",
-    type: "analytics", 
-    value: "john@xyz.com" }, 
+"namespace":"Email Address",
+"type": "analytics", 
+"value": "john@xyz.com" 
+}, 
 {
-    namespace: "CRM ID", 
-    type: "analytics", 
-    value: "123456-ABCD" 
+    "namespace": "CRM ID", 
+    "type": "analytics",
+    "value": "123456-ABCD" 
 }
 ```
 
@@ -115,6 +114,6 @@ Puoi anche vedere i namespace definiti in precedenza per altre variabili o suite
 
 >[!CAUTION]
 >
->I namespace “visitorId” e “customVisitorId” sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi spazi dei nomi per le variabili di traffico o conversione personalizzate.
+>Gli spazi dei nomi `visitorId` e `customVisitorId` sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi spazi dei nomi per le variabili di traffico o conversione personalizzate.
 
 Per altre informazioni vedi [Fornire un namespace quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

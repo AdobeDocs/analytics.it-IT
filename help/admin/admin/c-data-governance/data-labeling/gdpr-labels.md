@@ -4,7 +4,7 @@ title: Etichette Privacy dei dati per le variabili di Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
 source-wordcount: '3532'
 ht-degree: 74%
@@ -93,9 +93,9 @@ Quando si applica un’etichetta ID-DEVICE o ID-PERSON a una variabile, viene ri
 Se in precedenza hai assegnato un’etichetta ID ad altre variabili in una delle suite di rapporti della società di accesso, puoi selezionare uno dei namespace esistenti. È consigliabile riutilizzare lo spazio dei nomi se questa variabile contiene lo stesso tipo di ID di altre variabili già etichettate con lo spazio dei nomi e si desidera eseguire la ricerca di tutte quando si invia una richiesta.
 
 1. Fai clic su **[!UICONTROL Select Namespace]** e seleziona un namespace esistente.
+   ![](assets/namespace.png)
 1. Fai clic su **[!UICONTROL Apply]**.
 
-![](assets/namespace.png)
 
 ### Definisci un nuovo spazio dei nomi
 
