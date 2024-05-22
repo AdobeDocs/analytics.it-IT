@@ -3,16 +3,16 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9821150194e6bc89a5a2dec15a7957aaa177948e
+source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 41%
+source-wordcount: '1150'
+ht-degree: 39%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (maggio 2024)
 
-**Ultimo aggiornamento**: mercoledì 21 maggio 2024
+**Ultimo aggiornamento**: giovedì 22 maggio 2024
 
 Queste note sulla versione coprono il periodo dal 15 maggio 2024 a giugno. I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -48,8 +48,8 @@ AN-327749; AN-332949; AN-342881; AN-343171; AN-343708; AN-344034; AN-345559; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
+| **Scadenza di 13 mesi di`cust_visids`** salvati | giovedì 22 maggio 2024 | Una prossima versione del motore di elaborazione degli hit di Analytics, **previsto per luglio 2024**, inizierà ad applicare una scadenza di 13 mesi di `cust_visids`. Se nella suite di rapporti è abilitato “Abilita unione visitatori”, questa impostazione viene utilizzata per trovare `cust_visid` per un `visid_high/visid_low value` senza `cust_visid` sull’hit. Attualmente, non vi è alcuna scadenza della mappatura di un `cust_visid` per un `visid_high/visid_low`. Con questa versione, se sono trascorsi 13 mesi o più da `visid_high/visid_low` ha avuto un `cust_visid` in caso di hit, la mappatura scade. |
 | **Aggiornamenti per area geografica ISO** | sabato 10 maggio 2024 | Il sabato 7 giugno 2024 Adobe eseguirà gli aggiornamenti per l’area geografica ISO 2024. Con questa versione, sono previsti aggiornamenti minori per le informazioni geografiche (aree geografiche). |
-| **Scadenza di 13 mesi di`cust_visids`** salvati | 20 marzo 2024 | Una prossima versione del motore di elaborazione degli hit di Analytics, prevista per aprile o maggio, inizierà ad applicare una scadenza di 13 mesi di `cust_visids` salvati. Se nella suite di rapporti è abilitato “Abilita unione visitatori”, questa impostazione viene utilizzata per trovare `cust_visid` per un `visid_high/visid_low value` senza `cust_visid` sull’hit. Attualmente, non vi è alcuna scadenza della mappatura di un `cust_visid` per un `visid_high/visid_low`. Con questa versione, se sono trascorsi 13 mesi o più da `visid_high/visid_low` ha avuto un `cust_visid` in caso di hit, la mappatura scade. |
 
 {style="table-layout:auto"}
 
