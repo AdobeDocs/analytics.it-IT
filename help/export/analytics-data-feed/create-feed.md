@@ -3,10 +3,10 @@ title: Creare un feed di dati
 description: Scopri come creare un feed di dati.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
 workflow-type: tm+mt
-source-wordcount: '4039'
-ht-degree: 35%
+source-wordcount: '4070'
+ht-degree: 45%
 
 ---
 
@@ -61,7 +61,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
    >
    >* Gli account cloud sono associati al tuo account utente di Adobe Analytics. Gli altri utenti non possono utilizzare o visualizzare gli account cloud che configuri.
    >
-   >* È possibile modificare qualsiasi posizione creata dal gestore Ubicazioni in [Componenti > Posizioni](/help/components/locations/configure-import-accounts.md)
+   >* È possibile modificare qualsiasi posizione creata dalla gestione delle posizioni in [Componenti > Posizioni](/help/components/locations/configure-import-accounts.md)
 
    ![Menu a discesa della destinazione del feed dati](assets/datafeed-destinations-dropdown.png)
 
@@ -89,17 +89,17 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
       >[!NOTE]
       >
-      >Gli account sono disponibili solo se sono stati configurati o se sono stati condivisi con un&#39;organizzazione di cui fai parte.
+      >Gli account sono disponibili solo se sono stati configurati o se sono stati condivisi con un’organizzazione di cui fai parte.
 
       1. Seleziona l’account dal menu a discesa [!UICONTROL **Seleziona account**].
 
          È possibile utilizzare qualsiasi account cloud configurato in una delle seguenti aree di Adobe Analytics:
 
-         * Durante l’importazione dei dati di classificazione di Adobe Analytics, come descritto in [Schema](/help/components/classifications/sets/manage/schema.md).
+         * Durante l’importazione dei dati di classificazione di Adobe Analytics, come descritto nello [schema](/help/components/classifications/sets/manage/schema.md).
 
            Tuttavia, non è possibile utilizzare le posizioni configurate per l’importazione dei dati di classificazione. Aggiungi invece una nuova destinazione come descritto di seguito.
 
-         * Durante la configurazione di account e posizioni nell&#39;area Posizioni, come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
+         * Durante la configurazione di account e posizioni nell’area delle posizioni, come descritto in [Configurare account cloud di importazione ed esportazione](/help/components/locations/configure-import-accounts.md) e [Configurare posizioni cloud di importazione ed esportazione](/help/components/locations/configure-import-locations.md).
 
       1. Seleziona la posizione da [!UICONTROL **Seleziona posizione**] menu a discesa.
 
@@ -126,7 +126,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
          |---------|----------|
          | [!UICONTROL **Nome**] | Un nome per l’account. |
          | [!UICONTROL **Descrizione**] | Descrizione dell&#39;account. |
-         | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l’utente ARN fornito da Adobe disponga dell’autorizzazione `S3:PutObject` per caricare i file in questo bucket. Questa autorizzazione consente all’utente ARN di caricare i file iniziali e di sovrascrivere i file per i caricamenti successivi.</p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+         | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l’utente ARN fornito da Adobe disponga dell’autorizzazione `S3:PutObject` per caricare i file in questo bucket. Questa autorizzazione consente all’utente ARN di caricare i file iniziali e di sovrascrivere i file per i caricamenti successivi.</p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html?lang=it). </p> |
          | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
 
          {style="table-layout:auto"}
@@ -161,17 +161,17 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
       >[!NOTE]
       >
-      >Gli account sono disponibili solo se sono stati configurati o se sono stati condivisi con un&#39;organizzazione di cui fai parte.
+      >Gli account sono disponibili solo se sono stati configurati o se sono stati condivisi con un’organizzazione di cui fai parte.
 
       1. Seleziona l’account dal menu a discesa [!UICONTROL **Seleziona account**].
 
       È possibile utilizzare qualsiasi account cloud configurato in una delle seguenti aree di Adobe Analytics:
 
-      * Durante l’importazione dei dati di classificazione di Adobe Analytics, come descritto in [Schema](/help/components/classifications/sets/manage/schema.md).
+      * Durante l’importazione dei dati di classificazione di Adobe Analytics, come descritto nello [schema](/help/components/classifications/sets/manage/schema.md).
 
         Tuttavia, non è possibile utilizzare le posizioni configurate per l’importazione dei dati di classificazione. Aggiungi invece una nuova destinazione come descritto di seguito.
 
-      * Durante la configurazione di account e posizioni nell&#39;area Posizioni, come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
+      * Durante la configurazione di account e posizioni nell’area delle posizioni, come descritto in [Configurare account cloud di importazione ed esportazione](/help/components/locations/configure-import-accounts.md) e [Configurare posizioni cloud di importazione ed esportazione](/help/components/locations/configure-import-locations.md).
 
       1. Seleziona la posizione da [!UICONTROL **Seleziona posizione**] menu a discesa.
 
@@ -235,17 +235,17 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
       >[!NOTE]
       >
-      >Gli account sono disponibili solo se sono stati configurati o se sono stati condivisi con un&#39;organizzazione di cui fai parte.
+      >Gli account sono disponibili solo se sono stati configurati o se sono stati condivisi con un’organizzazione di cui fai parte.
 
       1. Seleziona l’account dal menu a discesa [!UICONTROL **Seleziona account**].
 
          È possibile utilizzare qualsiasi account cloud configurato in una delle seguenti aree di Adobe Analytics:
 
-         * Durante l’importazione dei dati di classificazione di Adobe Analytics, come descritto in [Schema](/help/components/classifications/sets/manage/schema.md).
+         * Durante l’importazione dei dati di classificazione di Adobe Analytics, come descritto nello [schema](/help/components/classifications/sets/manage/schema.md).
 
            Tuttavia, non è possibile utilizzare le posizioni configurate per l’importazione dei dati di classificazione. Aggiungi invece una nuova destinazione come descritto di seguito.
 
-         * Durante la configurazione di account e posizioni nell&#39;area Posizioni, come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
+         * Durante la configurazione di account e posizioni nell’area delle posizioni, come descritto in [Configurare account cloud di importazione ed esportazione](/help/components/locations/configure-import-accounts.md) e [Configurare posizioni cloud di importazione ed esportazione](/help/components/locations/configure-import-locations.md).
 
       1. Seleziona la posizione da [!UICONTROL **Seleziona posizione**] menu a discesa.
 
@@ -263,7 +263,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
          | [!UICONTROL **Descrizione account**] | Descrizione dell&#39;account SAS di Azure. Questa descrizione viene visualizzata nel [!UICONTROL **Seleziona account**] e può essere qualsiasi nome scelto. |
          | [!UICONTROL **ID applicazione**] | Copia questo ID dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Panoramica** all’interno dell’applicazione. Per ulteriori informazioni, consulta la [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
          | [!UICONTROL **ID tenant**] | Copia questo ID dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Panoramica** all’interno dell’applicazione. Per ulteriori informazioni, consulta [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
-         | [!UICONTROL **URI di Key Vault**] | <p>Percorso dell&#39;URI SAS nell&#39;insieme di credenziali delle chiavi di Azure.  Per configurare Azure SAS, è necessario memorizzare un URI SAS come segreto utilizzando Azure Key Vault. Per informazioni, consulta [Documentazione di Microsoft Azure su come impostare e recuperare un segreto da Azure Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Dopo la creazione dell’URI di Key Vault:<ul><li>Aggiungi un criterio di accesso a Key Vault per concedere l’autorizzazione all’applicazione Azure creata.</li><li>Assicurati che all’ID applicazione sia stato assegnato il ruolo incorporato di `Key Vault Certificate User` per accedere all’URI di Key Vault</br><p>Per ulteriori informazioni, consulta [Ruoli incorporati di Azure](https://learn.microsoft.com/it-it/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Per informazioni, consulta [Documentazione di Microsoft Azure su come assegnare un criterio di accesso a Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **URI di Key Vault**] | <p>Percorso per l’URI SAS in Azure Key Vault.  Per configurare Azure SAS, è necessario memorizzare un URI SAS come segreto utilizzando Azure Key Vault. Per informazioni, consulta [Documentazione di Microsoft Azure su come impostare e recuperare un segreto da Azure Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Dopo la creazione dell’URI di Key Vault:<ul><li>Aggiungi un criterio di accesso a Key Vault per concedere l’autorizzazione all’applicazione Azure creata.</li><li>Assicurati che all’ID applicazione sia stato assegnato il ruolo incorporato di `Key Vault Certificate User` per accedere all’URI di Key Vault</br><p>Per ulteriori informazioni, consulta [Ruoli incorporati di Azure](https://learn.microsoft.com/it-it/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Per informazioni, consulta [Documentazione di Microsoft Azure su come assegnare un criterio di accesso a Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
          | [!UICONTROL **Nome segreto di Key Vault**] | Nome segreto creato quando si aggiunge il segreto ad Azure Key Vault. In Microsoft Azure, queste informazioni si trovano nel Key Vault creato, nelle pagine delle impostazioni di **Key Vault**. Per informazioni, consulta [Documentazione di Microsoft Azure su come impostare e recuperare un segreto Azure Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **Segreto**] | Copia il segreto dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Certificati e segreti** all’interno dell’applicazione. Per ulteriori informazioni, consulta la [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
 
@@ -276,7 +276,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
          | [!UICONTROL **Nome**] | Un nome per la posizione. Questo nome viene visualizzato nel [!UICONTROL **Seleziona posizione**] e può essere qualsiasi nome scelto. |
          | [!UICONTROL **Descrizione**] | Una descrizione della posizione. Questa descrizione viene visualizzata nel [!UICONTROL **Seleziona posizione**] e può essere qualsiasi nome scelto. |
          | [!UICONTROL **Contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. |
-         | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Verificare che l&#39;archivio URI SAS specificato nel campo del nome segreto dell&#39;insieme di credenziali delle chiavi durante la configurazione dell&#39;account SAS di Azure abbia `Write` autorizzazione. Questo consente all’URI SAS di creare file nel contenitore Azure. <p>Se si desidera che anche l&#39;URI SAS sovrascriva i file, assicurarsi che l&#39;archivio URI SAS disponga del `Delete` autorizzazione.</p><p>Per ulteriori informazioni, consulta [Risorse di archiviazione BLOB](https://learn.microsoft.com/it-it/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) nella documentazione dell’archiviazione BLOB di Azure.</p> |
+         | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Accertati che l’archivio dell’URI SAS specificato nel campo nome segreto di Key Vault durante la configurazione dell’account SAS di Azure abbia l’autorizzazione `Write`. Questo consente all’URI SAS di creare file nel contenitore Azure. <p>Se desideri che l’URI SAS sovrascriva anche i file, assicurati che l’archivio dell’URI SAS disponga dell’autorizzazione `Delete`.</p><p>Per ulteriori informazioni, consulta [Risorse di archiviazione BLOB](https://learn.microsoft.com/it-it/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) nella documentazione dell’archiviazione BLOB di Azure.</p> |
 
          {style="table-layout:auto"}
 
@@ -308,17 +308,17 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
       >[!NOTE]
       >
-      >Gli account sono disponibili solo se sono stati configurati o se sono stati condivisi con un&#39;organizzazione di cui fai parte.
+      >Gli account sono disponibili solo se sono stati configurati o se sono stati condivisi con un’organizzazione di cui fai parte.
 
       1. Seleziona l’account dal menu a discesa [!UICONTROL **Seleziona account**].
 
          È possibile utilizzare qualsiasi account cloud configurato in una delle seguenti aree di Adobe Analytics:
 
-         * Durante l’importazione dei dati di classificazione di Adobe Analytics, come descritto in [Schema](/help/components/classifications/sets/manage/schema.md).
+         * Durante l’importazione dei dati di classificazione di Adobe Analytics, come descritto nello [schema](/help/components/classifications/sets/manage/schema.md).
 
            Tuttavia, non è possibile utilizzare le posizioni configurate per l’importazione dei dati di classificazione. Aggiungi invece una nuova destinazione come descritto di seguito.
 
-         * Durante la configurazione di account e posizioni nell&#39;area Posizioni, come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
+         * Durante la configurazione di account e posizioni nell’area delle posizioni, come descritto in [Configurare account cloud di importazione ed esportazione](/help/components/locations/configure-import-accounts.md) e [Configurare posizioni cloud di importazione ed esportazione](/help/components/locations/configure-import-locations.md).
 
       1. Seleziona la posizione da [!UICONTROL **Seleziona posizione**] menu a discesa.
 
@@ -345,7 +345,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
          | [!UICONTROL **Entità**] | L’entità è fornita dall’Adobe. È necessario concedere l&#39;autorizzazione per la ricezione di feed a questa entità principale. |
          | [!UICONTROL **Nome**] | Un nome per l’account. |
          | [!UICONTROL **Descrizione**] | Descrizione dell&#39;account. |
-         | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati di aver concesso una delle seguenti autorizzazioni all’entità principale fornita da Adobe:<ul><li>`roles/storage.objectCreator`: utilizza questa autorizzazione se desideri limitare l’entità principale alla sola creazione di file nell’account GCP. </br>**Importante:** se utilizzi questa autorizzazione per il reporting pianificato, utilizza un nome file univoco per ogni nuova esportazione pianificata. In caso contrario, la generazione dei rapporti non riuscirà perché l’entità principale non ha accesso alla sovrascrittura dei file esistenti.</li><li>(Consigliato) `roles/storage.objectUser`: utilizza questa autorizzazione se desideri che l’utente/gruppo/ruolo abbia accesso alla visualizzazione, all’elenco, all’aggiornamento e all’eliminazione dei file nel tuo account GCP.</br>Questa autorizzazione consente all’entità principale di sovrascrivere i file esistenti per i caricamenti successivi, senza la necessità di generare automaticamente nomi di file univoci per ogni nuova esportazione pianificata.</li></ul><p>Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità principale a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=it#bucket-add) nella documentazione di Google Cloud.</p> |
+         | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. <p>Accertati di aver concesso una delle seguenti autorizzazioni all’entità fornita dall’Adobe: (per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=it#bucket-add) nella documentazione di Google Cloud.)<ul><li>`roles/storage.objectCreator`: utilizza questa autorizzazione se desideri limitare l’entità principale alla sola creazione di file nell’account GCP. </br>**Importante:** se utilizzi questa autorizzazione per il reporting pianificato, utilizza un nome file univoco per ogni nuova esportazione pianificata. In caso contrario, la generazione dei rapporti non riuscirà perché l’entità principale non ha accesso alla sovrascrittura dei file esistenti.</li><li>(Consigliato) `roles/storage.objectUser`: utilizza questa autorizzazione se desideri che l’utente/gruppo/ruolo abbia accesso alla visualizzazione, all’elenco, all’aggiornamento e all’eliminazione dei file nel tuo account GCP.</br>Questa autorizzazione consente all’entità principale di sovrascrivere i file esistenti per i caricamenti successivi, senza la necessità di generare automaticamente nomi di file univoci per ogni nuova esportazione pianificata.</li></ul><p>Se l’organizzazione utilizza [Vincoli dei criteri di organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints) per consentire solo l’account Google Cloud Platform nel tuo elenco consentiti, è necessario il seguente ID organizzazione di proprietà dell’Adobe Google Cloud Platform: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
          | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
 
          {style="table-layout:auto"}

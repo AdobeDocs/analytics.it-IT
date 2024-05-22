@@ -3,10 +3,10 @@ description: Passaggi che descrivono come creare una richiesta di Data Warehouse
 title: Configurare una destinazione di rapporto per una richiesta di Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
-workflow-type: ht
-source-wordcount: '2581'
-ht-degree: 100%
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+workflow-type: tm+mt
+source-wordcount: '2612'
+ht-degree: 97%
 
 ---
 
@@ -89,7 +89,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-mail
 
@@ -163,7 +163,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -171,12 +171,12 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       | Campo | Funzione |
       |---------|----------|
-      | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati di aver concesso una delle seguenti autorizzazioni all’entità principale fornita da Adobe:<ul><li>`roles/storage.objectCreator`: utilizza questa autorizzazione se desideri limitare l’entità principale alla sola creazione di file nell’account GCP. </br>**Importante:** se utilizzi questa autorizzazione per il reporting pianificato, utilizza un nome file univoco per ogni nuova esportazione pianificata. In caso contrario, la generazione dei rapporti non riuscirà perché l’entità principale non ha accesso alla sovrascrittura dei file esistenti.</li><li>`roles/storage.objectUser`: utilizza questa autorizzazione se desideri che l’entità principale abbia accesso alla visualizzazione, all’elenco, all’aggiornamento e all’eliminazione dei file nel tuo account GCP.</br>Questa autorizzazione consente all’entità principale di sovrascrivere i file esistenti per i caricamenti successivi, senza la necessità di generare automaticamente nomi di file univoci per ogni nuova esportazione pianificata.</li></ul><p>Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità principale a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=it#bucket-add) nella documentazione di Google Cloud.</p> |
+      | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. <p>Accertati di aver concesso una delle seguenti autorizzazioni all’entità fornita dall’Adobe: (per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=it#bucket-add) nella documentazione di Google Cloud.)<ul><li>`roles/storage.objectCreator`: utilizza questa autorizzazione se desideri limitare l’entità principale alla sola creazione di file nell’account GCP. </br>**Importante:** se utilizzi questa autorizzazione per il reporting pianificato, utilizza un nome file univoco per ogni nuova esportazione pianificata. In caso contrario, la generazione dei rapporti non riuscirà perché l’entità principale non ha accesso alla sovrascrittura dei file esistenti.</li><li>`roles/storage.objectUser`: utilizza questa autorizzazione se desideri che l’entità principale abbia accesso alla visualizzazione, all’elenco, all’aggiornamento e all’eliminazione dei file nel tuo account GCP.</br>Questa autorizzazione consente all’entità principale di sovrascrivere i file esistenti per i caricamenti successivi, senza la necessità di generare automaticamente nomi di file univoci per ogni nuova esportazione pianificata.</li></ul><p>Se l’organizzazione utilizza [Vincoli dei criteri di organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints) per consentire solo l’account Google Cloud Platform nel tuo elenco consentiti, è necessario il seguente ID organizzazione di proprietà dell’Adobe Google Cloud Platform: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
       | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +189,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +203,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Continua a configurare la richiesta del Data Warehouse nella scheda [!UICONTROL **Opzioni rapporto**]. Per ulteriori informazioni, consulta [Configurare le opzioni del rapporto per una richiesta al Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
