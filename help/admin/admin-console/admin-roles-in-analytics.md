@@ -4,10 +4,10 @@ description: Scopri come iniziare a utilizzare Adobe Analytics, i tipi di ruolo 
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: a7cc0efe42ff7dc4aacc841156e25e3cab6b82f4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 54%
+source-wordcount: '1103'
+ht-degree: 51%
 
 ---
 
@@ -26,8 +26,9 @@ Quando utilizzi Adobe Analytics, considera i seguenti ruoli chiave:
 
 * **Amministratori Full Adobe Analytics:** Questi utenti hanno accesso completo a tutto ciò che si trova in Adobe Analytics, incluse le impostazioni della suite di rapporti e le autorizzazioni per gli utenti. A seconda di come è strutturata la tua organizzazione, persone o team diversi possono essere responsabili di diversi aspetti dell’amministrazione di Analytics. Ad esempio, può esserci un responsabile della designazione delle variabili da utilizzare in un’implementazione. Un’altra persona può essere responsabile di consentire agli utenti di estrarre correttamente i rapporti garantendo a tutti le autorizzazioni corrette. Identifica almeno un utente come responsabile delle impostazioni della suite di rapporti di Analytics e delle autorizzazioni utente in modo che possa invitare da lì altri amministratori di Analytics.
 * **Amministratori di Data Collection:** Questi utenti hanno accesso completo a tutto ciò che si trova in Raccolta dati di Adobe Experience Platform, incluse le autorizzazioni di pubblicazione, creazione di contenitori e autorizzazioni per gli utenti. Questi utenti non sono necessariamente programmatori, ma è utile che abbiano una conoscenza almeno da principiante di HTML, CSS e JavaScript. Essi sono responsabili dell’utilizzo dei proprietari del sito web della tua organizzazione per implementare i tag sul sito. Identifica almeno un utente responsabile dell’implementazione dell’organizzazione: si occuperà di invitare altri amministratori di raccolta dati da lì.
+* **Amministratore prodotto:** Un amministratore di prodotto gestisce un prodotto in Admin Console, nonché i diritti utente a tale prodotto.
 * **Amministratori del profilo di prodotto:** Questi utenti possono aggiungere o rimuovere utenti a un profilo di prodotto, modificare gli elementi delle autorizzazioni nel loro profilo di prodotto e assegnare o rimuovere profili di prodotto a gruppi di utenti. Gli amministratori dei profili di prodotto non hanno accesso completo ad Adobe Analytics. Tuttavia, sono ideali per i lead o i manager dei team che devono concedere e gestire l’accesso ad Adobe Analytics per il proprio team. Per ulteriori informazioni sui profili di prodotto, consulta [Profili di prodotto per Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md).
-* **Delegati di supporto**: noti anche come utenti supportati, non dispongono di privilegi aggiuntivi nell’interfaccia di Analytics. Al contrario, ricevono privilegi aggiuntivi durante la comunicazione con l’Assistenza clienti Adobe. Questi utenti sono quasi sempre amministratori di Analytics, poiché questo consente all’Assistenza clienti di collaborare per risolvere i problemi. Identifica almeno un amministratore di Analytics responsabile di facilitare le interazioni tra gli utenti finali e l’Assistenza clienti di Adobe.
+* **Amministratore supporto**: noti anche come utenti supportati, non dispongono di privilegi aggiuntivi nell’interfaccia di Analytics. Al contrario, ricevono privilegi aggiuntivi durante la comunicazione con l’Assistenza clienti Adobe. Questi utenti sono quasi sempre amministratori di Analytics, poiché questo consente all’Assistenza clienti di collaborare per risolvere i problemi. Identifica almeno un amministratore di Analytics responsabile di facilitare le interazioni tra gli utenti finali e l’Assistenza clienti di Adobe.
 * **Proprietari del sito web:** questi utenti singoli o team sono responsabili della codifica e dello sviluppo del sito web. Non hanno bisogno di account, ma devono essere pronti a collaborare con gli amministratori di raccolta dati per ottenere il codice tag e implementarlo sul sito web.
 * **Utenti finali:** in genere questi utenti visualizzano i rapporti e cercano le risposte alle domande aziendali. Gli amministratori di Analytics concedono a questi utenti le autorizzazioni per lavorare nel prodotto.
 
