@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5493'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Maggio 2024** | |
-| Informazioni necessarie quando si utilizzano i vincoli dei criteri dell’organizzazione con Google Cloud Platform in Feed dati e Data Warehouse | È stato aggiunto l’ID organizzazione di Google Cloud Platform di proprietà dell’Adobe alla [Feed dati](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) documentazione. <p>Queste informazioni sono necessarie solo per le organizzazioni che utilizzano [Vincoli dei criteri di organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints) in Google Cloud Platform.</p> |
-| Documentazione sull’aggiunta di componenti ai progetti | Sono state aggiunte informazioni generali su come [aggiungere i vari tipi di componenti ai progetti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
-| È stata aggiornata la documentazione di Advertising Analytics | È stata aggiornata la documentazione in linea con gli aggiornamenti apportati alla [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) dell&#39;utente. |
+| Informazioni necessarie quando si utilizzano i vincoli del criterio dell’organizzazione con Google Cloud Platform nei feed di dati e nel Data Warehouse | È stato aggiunto l’ID organizzazione di Google Cloud Platform di proprietà di Adobe alla documentazione sui [feed di dati](/help/export/analytics-data-feed/create-feed.md) e sul [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). <p>Queste informazioni sono necessarie solo per le organizzazioni che utilizzano i [vincoli del criterio diell’organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints?hl=it) in Google Cloud Platform.</p> |
+| Documentazione su come aggiungere componenti ai progetti | Sono state aggiunte informazioni generali su come [aggiungere i vari tipi di componenti ai progetti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
+| Documentazione di Advertising Analytics aggiornata | È stata aggiornata documentazione in base agli aggiornamenti apportati all’interfaccia utente di [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md). |
 | Mappare in modo esplicito le variabili dell’oggetto XDM alle variabili dei dati di contesto | È stata documentata la funzionalità di [impostare in modo esplicito le variabili di dati di contesto utilizzando la mappatura delle variabili di oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Nuova documentazione per l’aggiornamento da Adobe Analytics a Customer Journey Analytics | Per le organizzazioni che eseguono l’aggiornamento da Adobe Analytics a Customer Journey Analytics, esistono diverse opzioni e molte considerazioni da tenere a mente, a seconda dell’implementazione Adobe Analytics corrente e degli obiettivi a lungo termine dell’organizzazione.<p>Sono ora disponibili nuove risorse di documentazione per aiutarti a comprendere meglio:</p><ul><li>I vari percorsi di aggiornamento esistenti</li><li>Quali percorsi di aggiornamento sono disponibili in base all’implementazione Adobe Analytics corrente dell’organizzazione</li><li>Vantaggi e svantaggi di ciascun percorso di aggiornamento</li><li>Linee guida dettagliate per ogni percorso di aggiornamento</li><li>Considerazioni per la gestione dei dati storici</li><li>E altro ancora!</li></ul><p>[Introduzione all’aggiornamento a Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | È stata aggiornata la documentazione sugli intervalli di date personalizzati | Sono state aggiornate le schermate e le procedure relative alla [creazione di intervalli di date personalizzati](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) per adattarle alle caratteristiche e al design attuali del prodotto. |
@@ -302,7 +302,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 4 giugno 2019 | Nuova guida su come [passare da una piattaforma di analisi di terze parti ad Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30 maggio 2019 | Revisione della [sezione sulla colonna Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | 09 maggio 2019 | Una nuova impostazione è stata aggiunta alle impostazioni di visualizzazione del Flusso: Includi istanze ripetute. Consulta [Impostazioni di Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
-| 11 aprile 2019 | Sono state migliorate le best practice per l’ottimizzazione di Workspace: Ottimizzazione delle prestazioni |
+| 11 aprile 2019 | Sono state migliorate le best practice di ottimizzazione per Workspace: Ottimizzazione delle prestazioni |
 | 11 aprile 2019 | Aggiornamento della sezione su come [ottimizzare le prestazioni di Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14 marzo 2019 | Aggiornamento importante sulla raccolta dati regionali. |
 | 7 febbraio 2019 | Aggiornamento minore delle impostazioni “Replace the last octet of IP addresses with 0” (Sostituisci con 0 ultimo ottetto indirizzi IP) e “IP Obfuscation” (Offuscamento IP) nella sezione sulle [Impostazioni generali dell’account](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |

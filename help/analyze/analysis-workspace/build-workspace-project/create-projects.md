@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
 source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ I [componenti](/help/analyze/analysis-workspace/components/analysis-workspace-co
 >
 >Per informazioni su ciascun componente, seleziona l’icona Informazioni accanto al nome di un componente nella barra a sinistra, oppure consulta [Guida ai componenti di Analytics](/help/components/home.md).
 
-Di seguito sono riportate informazioni di base su come aggiungere un componente a un progetto in Analysis Workspace. Per informazioni più dettagliate sull’aggiunta dei vari tipi di componenti (dimensioni, metriche, segmenti e intervalli di date), consulta [Utilizzare i componenti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+Di seguito sono riportate informazioni di base su come aggiungere un componente a un progetto in Analysis Workspace. Per informazioni più dettagliate su come aggiungere i vari tipi di componenti (dimensioni, metriche, segmenti e intervalli di date), consulta [Utilizzare i componenti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 Per aggiungere un componente a un progetto in Analysis Workspace:
 
@@ -106,13 +106,13 @@ Per aggiungere un componente a un progetto in Analysis Workspace:
 
    ![](assets/build-components.png)
 
-1. Scorri fino al componente da aggiungere o cerca il componente che desideri aggiungere, quindi trascinalo su un pannello o una visualizzazione all’interno del progetto.
+1. Scorri fino al componente da aggiungere oppure cercalo, quindi trascinalo su un pannello o su una visualizzazione all’interno del progetto.
 
-   Ad esempio, puoi trascinare un segmento nella zona di rilascio del segmento nell’intestazione di un pannello.
+   Ad esempio, puoi trascinare un segmento nella zona di rilascio dedicata nell’intestazione di un pannello.
 
    ![rilascia un segmento nella zona di rilascio](assets/segment-dropzone.png)
 
-   Per ulteriori informazioni sull’aggiunta di componenti ai progetti, consulta [Utilizzare i componenti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+   Per ulteriori informazioni su come aggiungere componenti ai progetti, consulta [Utilizzare i componenti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 1. (Facoltativo) Condividi il progetto come descritto in [Salvare e condividere un progetto](#save-and-share-the-project).
 

@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
 source-git-commit: b844fb354c16a80e4044e3bae8cb47aa042a0d59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 | Messaggio di errore | Perché si verifica? | Ottimizzazione |
 | --- | --- | --- |
-| [!UICONTROL The report suite is currently exceeding its reporting capacity. Please simplify the request or try again later.] | La richiesta di reporting è troppo complessa e deve essere semplificata. | Restringi i criteri del rapporto e invia di nuovo la richiesta. |
+| [!UICONTROL The report suite is currently exceeding its reporting capacity. Please simplify the request or try again later.] | La richiesta di generazione di rapporti è troppo complessa e deve essere semplificata. | Restringi i criteri di ricerca e prova a inviare di nuovo la richiesta. |
 | [!UICONTROL A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.] | Adobe sta riscontrando un problema da risolvere. | Invia il codice di errore all’Assistenza clienti. |
 | [!UICONTROL An unexpected error has occurred; try refreshing your project again. If the problem persists, please submit this error ID to Adobe Customer Care for further diagnosis.] | Adobe sta riscontrando un problema da risolvere. | Prova ad aggiornare il progetto; se il problema persiste, invia il codice di errore all’Assistenza clienti. |
 | [!UICONTROL Error 500: Failed to load page] | I problemi relativi alla rete locale, come le [impostazioni del firewall](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=it) aziendale, contribuiscono a questo errore. Inoltre, è possibile che Adobe stia affrontando un problema che necessita di essere risolto. | Prova a eseguire di nuovo l’accesso dopo alcuni minuti. Se il problema persiste, invia il codice ID istanza EIM all’Assistenza clienti. |
