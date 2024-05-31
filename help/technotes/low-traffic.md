@@ -3,9 +3,9 @@ description: Quando un report contiene molti valori univoci, Adobe utilizza l’
 title: Valore Traffico ridotto in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: fe6b1a2d503bbc423d3ebcacad2ce3c29e1ebbed
-workflow-type: ht
-source-wordcount: '848'
+source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
+workflow-type: tm+mt
+source-wordcount: '753'
 ht-degree: 100%
 
 ---
@@ -17,10 +17,8 @@ Quando un report contiene molti valori univoci, Adobe fornisce funzionalità per
 ## Come funziona [!UICONTROL Low-Traffic]
 
 * Adobe Analytics utilizza due soglie per determinare quali valori univoci vengono visualizzati nei report ogni mese: una **[!UICONTROL low threshold]** e una **[!UICONTROL high threshold]**. Adobe può modificare periodicamente queste soglie. Gli attuali limiti di soglia sono:
-   * **[!UICONTROL Low threshold]**: >500.000 valori univoci nel corso del mese.
-   * **[!UICONTROL High threshold]**: >1.000.000 valori univoci nel corso del mese.
-* Verso la **metà aprile 2024**, Adobe inizierà ad aumentare le soglie di traffico ridotto della suite di rapporti predefinita come segue: ![soglie di traffico ridotto](assets/thresholds.png).
-Questo influisce solo sulle variabili attualmente impostate al di sotto delle nuove soglie. Queste modifiche saranno apportate in modo incrementale ed è previsto che il lavoro sia completato entro la **fine del mese di maggio**. Con l’introduzione di questi aumenti, potresti notare modifiche per le variabili ad alta cardinalità:<ul><li>Per il reporting possono essere disponibili più valori di dimensione.</li><li>Segmenti e metriche calcolate possono includere più dati.</li><li>Le suite di rapporti virtuali basate sui segmenti possono includere più dati.</li><li>Le esportazioni delle classificazioni possono includere più dati.</li></ul>
+   * **[!UICONTROL Low threshold]**: >2.000.000 valori univoci nel corso del mese.
+   * **[!UICONTROL High threshold]**: >2.100.000 valori univoci nel corso del mese.
 * Se la variabile non raggiunge la soglia minima in un dato mese, il reporting non viene influenzato.
 * Quando una variabile raggiunge la soglia minima, i dati iniziano ad essere inseriti nel bucket [!UICONTROL Low-Traffic]. Ogni valore oltre questa soglia segue la seguente logica:
    * Se un valore è già presente nei report, aggiungilo come faresti di normalmente.
