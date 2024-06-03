@@ -3,16 +3,16 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 47893ea714f0a0baaccce66578c9f9175c59511f
+source-git-commit: 258ef488f5bcf2ea2057ad3da605679f9e3438b6
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1145'
 ht-degree: 99%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (maggio 2024)
 
-**Ultimo aggiornamento**: 22 maggio 2024
+**Ultimo aggiornamento**: martedì 3 giugno 2024
 
 Queste note sulla versione coprono il periodo di rilascio dal 15 maggio 2024 fino a tutto giugno. I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -27,7 +27,7 @@ Queste note sulla versione coprono il periodo di rilascio dal 15 maggio 2024 fin
 | **Aumento delle soglie predefinite per traffico ridotto** | Verso la **metà di aprile 2024**, Adobe inizierà ad aumentare le soglie di traffico ridotto della suite di rapporti predefinita come segue: ![soglie di traffico ridotto](assets/thresholds.png). Questo influisce solo sulle variabili attualmente impostate al di sotto delle nuove soglie. Queste modifiche saranno apportate in modo incrementale ed è previsto che il lavoro sia completato entro la **fine del mese di maggio**. Con l’introduzione di questi aumenti, potresti notare modifiche per le variabili ad alta cardinalità:<ul><li>Per il reporting possono essere disponibili più valori di dimensione.</li><li>Segmenti e metriche calcolate possono includere più dati.</li><li>Le suite di rapporti virtuali basate sui segmenti possono includere più dati.</li><li>Le esportazioni delle classificazioni possono includere più dati.</li></ul> | Metà aprile 2024 | 31 maggio 2024 |
 | **Impostazioni dell’amministratore per controllare gli account e le posizioni utilizzati per l’esportazione e l’importazione** | Una nuova scheda “Impostazioni amministratore” in Gestione posizioni consente agli amministratori di controllare se gli utenti possono creare e modificare account e posizioni. Queste impostazioni si applicano quando gli utenti configurano gli account e le posizioni di importazione ed esportazione cloud. <p>Gli amministratori possono anche limitare i tipi di account (Google Cloud Platform, Azure RBAC, Amazon S3 e così via) che gli utenti possono creare e utilizzare.</p><p>In precedenza, tutti gli utenti potevano creare, modificare e utilizzare account e posizioni per qualsiasi tipo di account.</p><p>Il link alla documentazione seguirà a breve</p> | giovedì 12 giugno 2024 | lunedì 30 giugno 2024 |
 | **Condividere account e posizioni utilizzati per l’esportazione e l’importazione** | Gli utenti possono ora rendere disponibili a tutti gli utenti della propria organizzazione gli account e le posizioni creati. Solo i proprietari degli account e delle posizioni e gli amministratori di sistema possono modificarli ed eliminarli.<p>In precedenza, gli account e le posizioni potevano essere utilizzati solo dall’utente che li aveva creati.</p><p>Queste impostazioni sono disponibili quando gli utenti configurano account e posizioni di importazione ed esportazione cloud. </p> <p>Il link alla documentazione seguirà a breve</p> | giovedì 12 giugno 2024 | lunedì 30 giugno 2024 |
-| **Fare in modo che Activity Map utilizzi un numero inferiore di chiamate server per Web SDK** | Attualmente, gli eventi di collegamento Activity Map vengono conteggiati come propri eventi e comportano costi aggiuntivi. Questo miglioramento raccoglie alcuni eventi di collegamento e li inserisce nell’hit successivo, in modo simile a come gli eventi vengono gestiti da AppMeasurement. <p>Il link alla documentazione seguirà a breve</p> | La versione beta inizia il 31 maggio 2024 | Da definire |
+| **Fare in modo che Activity Map utilizzi un numero inferiore di chiamate server per Web SDK** | Attualmente, gli eventi di collegamento Activity Map vengono conteggiati come propri eventi e comportano costi aggiuntivi. Questo miglioramento raccoglie alcuni eventi di collegamento e li inserisce nell’hit successivo, in modo simile a come gli eventi vengono gestiti da AppMeasurement. <p>Il link alla documentazione seguirà a breve</p> | Open Beta inizia il 19 giugno 2024 | Da definire |
 
 {style="table-layout:auto"}
 
