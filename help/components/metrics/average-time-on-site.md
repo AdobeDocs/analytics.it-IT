@@ -3,9 +3,9 @@ title: Tempo medio sul sito
 description: Il tempo medio in cui un dato elemento della dimensione è esistito tra gli hit.
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 9e140a6be5ab151d7a4e88e317c59eafea4d6e1d
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '558'
 ht-degree: 2%
 
 ---
@@ -74,13 +74,13 @@ Calcolo del tempo medio sul sito per l’elemento dimensione `Home` utilizzerebb
 Se hai applicato un raggruppamento utilizzando [Sezioni del sito](../dimensions/site-section.md) dimensione, utilizzerebbe il seguente calcolo:
 
 ```text
-(30 + 10) / 1 = 40 seconds average time on site
+(30 + 100 + 10) / 1 = 140 seconds (2 minutes 20 seconds) average time on site
 ```
 
 Poiché nella dimensione di raggruppamento era presente una singola sequenza, essa utilizza un denominatore diverso rispetto alla dimensione principale. Queste metriche forniscono in genere risultati simili a livello di visita, ma possono essere diverse a livello di hit.
 
 ## Percentuali superiori al 100%
 
-Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo medio dell’intera dimensione sul sito e il numeratore è il tempo medio dell’elemento dimensione sul sito. Se il tempo medio dell’intera dimensione sul sito è inferiore al tempo medio sul sito di un dato elemento dimensione, vedrai percentuali superiori al 100%. L’ordinamento dei rapporti classificati in base a questa metrica mostra un’anomalia nel tempo medio sui valori del sito, che in genere non è importante. L’Adobe consiglia di ordinare per un’altra metrica, ad esempio [Visite](visits.md), nei rapporti classificati.
+Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo medio dell’intera dimensione sul sito e il numeratore è il tempo medio dell’elemento dimensione sul sito. Se il tempo medio dell’intera dimensione sul sito è inferiore al tempo medio sul sito di un dato elemento dimensione, vengono visualizzate percentuali superiori al 100%. L’ordinamento dei rapporti classificati in base a questa metrica mostra un’anomalia nel tempo medio sui valori del sito, che in genere non è importante. L’Adobe consiglia di ordinare per un’altra metrica, ad esempio [Visite](visits.md), nei rapporti classificati.
 
 Consulta [Panoramica sul tempo trascorso](time-spent.md) per informazioni più generali sul tempo trascorso.
