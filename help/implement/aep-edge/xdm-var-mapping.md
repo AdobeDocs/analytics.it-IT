@@ -4,9 +4,9 @@ description: Visualizza quali campi XDM mappati automaticamente da Edge alle var
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1406'
 ht-degree: 71%
 
 ---
@@ -29,7 +29,6 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | --- | --- |
 | `xdm.application.isClose` | Consente di definire la metrica del ciclo di vita mobile [Arresti anomali](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.isInstall` | Consente di determinare quando aumentare la metrica del ciclo di vita mobile [Primi avvii](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isLaunch` | Consente di determinare quando aumentare la metrica del ciclo di vita mobile [Primi avvii](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.closeType` | Determina se un evento di chiusura è un arresto anomalo o meno. I valori validi includono `close` (una sessione del ciclo di vita termina ed è stato ricevuto un evento di pausa per la sessione precedente) e `unknown` (una sessione del ciclo di vita termina senza un evento di pausa). Consente di impostare la metrica del ciclo di vita mobile [Arresti anomali](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.isInstall` | La metrica del ciclo di vita mobile [Installazioni](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.isLaunch` | La metrica del ciclo di vita mobile [Avvii](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |

@@ -4,10 +4,10 @@ keywords: Feed di dati; processo; metriche; pre-colonna; post-colonna; bot; filt
 title: Calcolare metriche
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -23,14 +23,18 @@ Descrive come calcolare le metriche comuni utilizzando i feed di dati.
 
 1. Conteggio del numero di righe in cui si trova un valore `post_pagename` o `post_page_url`.
 
+## Occorrenze
+
+1. Conteggio del numero totale di righe.
+
 ## Visite
 
 1. Concatena `post_visid_high`, `post_visid_low`, `visit_num`, e `visit_start_time_gmt`.
 1. Conteggio del numero univoco di valori.
 
->[!NOTE]
+>[!TIP]
 >
->Le irregolarità di Internet, quelle del sistema o l’utilizzo di ID visitatore personalizzati possono utilizzare raramente gli stessi valori `visit_num` per visite diverse. Utilizzare `visit_start_time_gmt` quando si contano le visite per assicurarsi che tali visite siano conteggiate.
+>Le irregolarità di Internet, quelle del sistema o l’utilizzo di ID visitatore personalizzati possono utilizzare raramente gli stessi valori `visit_num` per visite diverse. Mentre è facoltativo, utilizza `visit_start_time_gmt` quando si contano le visite per assicurarsi che queste visite siano conteggiate.
 
 ## Visitatori
 

@@ -4,10 +4,10 @@ description: Deduplica gli hit in base a un identificatore di acquisto univoco.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 8%
+source-wordcount: '348'
+ht-degree: 15%
 
 ---
 
@@ -28,7 +28,16 @@ L’ID acquisto è mappato alle seguenti variabili:
 
 ## ID acquisto tramite l’estensione Adobe Analytics
 
-Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l’editor di codice personalizzato seguendo la sintassi di AppMeasurement.
+Puoi impostare l’ID acquisto sia durante la configurazione dell’estensione Analytics (variabili globali) sia nelle regole.
+
+1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+2. Fai clic sulla proprietà del tag desiderata.
+3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
+4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
+5. Imposta il [!UICONTROL Extension] in Adobe Analytics e nella sezione [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+6. Individua la sezione [!UICONTROL Purchase ID].
+
+Puoi impostare l’ID acquisto su un valore o su un elemento dati. Puoi anche copiare il valore da un’altra variabile di Analytics.
 
 ## s.purchaseID in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
