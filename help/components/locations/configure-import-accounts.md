@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: Configurare account di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 60%
+source-wordcount: '1512'
+ht-degree: 52%
 
 ---
 
 # Configurare account di importazione ed esportazione cloud
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
+
+>[!NOTE]
+>
+>Quando crei e modifichi account, tieni presente quanto segue: <ul><li>Gli amministratori di sistema possono impedire agli utenti di creare account, come descritto in [Specificare se gli utenti possono creare account](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se non è possibile creare gli account come descritto in questa sezione, contattare l&#39;amministratore di sistema.</li><li>Un account può essere modificato solo dall’utente che lo ha creato o da un amministratore di sistema.</li></ul>
 
 Puoi configurare un account cloud utilizzato per uno o tutti i seguenti scopi:
 
@@ -23,17 +27,25 @@ Puoi configurare un account cloud utilizzato per uno o tutti i seguenti scopi:
 
 Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account cloud. Questo processo consiste nell’aggiungere e configurare l’account (ad esempio ARN per il ruolo di Amazon S3, Google Cloud Platform e così via) come descritto in questo articolo, quindi aggiungere e configurare la posizione all’interno dell’account (ad esempio una cartella all’interno dell’account) come descritto in [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
 
-Per informazioni su come gestire gli account esistenti, incluse la visualizzazione, la modifica e l&#39;eliminazione degli account, vedere [Gestione posizioni](/help/components/locations/locations-manager.md).
+Per informazioni su come visualizzare ed eliminare gli account esistenti, consulta [Gestione posizioni](/help/components/locations/locations-manager.md).
 
 Per configurare un account di importazione o esportazione cloud:
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Posizioni**].
 1. Il giorno [!UICONTROL Locations] , seleziona la [!UICONTROL **Account ubicazione**] scheda.
-1. Seleziona [!UICONTROL **Aggiungi account**].
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare gli account creati da tutti gli utenti dell’organizzazione.
+   ![visualizza account per tutti gli utenti](assets/accounts-all-users.png)
+1. Per creare un nuovo account, seleziona [!UICONTROL **Aggiungi account**].
 
-   Viene visualizzata la finestra di dialogo Aggiungi account.
+   Il [!UICONTROL **Dettagli dell’account località**] viene visualizzata una finestra di dialogo.
 
-1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome account località**] | Nome dell&#39;account di posizione. Questo nome viene visualizzato durante la creazione di una posizione | | [!UICONTROL **Descrizione del conto di ubicazione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. | | [!UICONTROL **Tipo di account**] | Seleziona il tipo di account cloud. È consigliabile disporre di un singolo account per ogni tipo di account, con più posizioni in base alle esigenze all’interno dell’account. |
+   Oppure
+
+   Per modificare un account esistente, individua l’account da modificare, quindi seleziona la [!UICONTROL **Modifica dettagli**] pulsante.
+
+   Il [!UICONTROL **Aggiungi account**] viene visualizzata una finestra di dialogo.
+
+1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome account località**] | Nome dell&#39;account di posizione. Questo nome viene visualizzato durante la creazione di una posizione | | [!UICONTROL **Descrizione del conto di ubicazione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. | | [!UICONTROL **Rendi l’account disponibile a tutti gli utenti dell’organizzazione**] | **Nota:** Questa funzionalità si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md). <p>Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare l’account.</p> <p>Quando condividi gli account, tieni presente quanto segue:</p><ul><li>Gli account condivisi non possono essere non condivisi.</li><li>Gli account condivisi possono essere modificati solo dal proprietario dell&#39;account.</li><li>Chiunque può creare una posizione per l&#39;account condiviso.</li></ul> | | [!UICONTROL **Tipo di account**] | Seleziona il tipo di account cloud. È consigliabile disporre di un singolo account per ogni tipo, con più posizioni secondo necessità all’interno di tale account.<p>Gli amministratori di sistema possono limitare i tipi di account che gli utenti possono creare, come descritto in [Specificare se gli utenti possono creare account](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se non è possibile creare gli account come descritto in questa sezione, contattare l&#39;amministratore di sistema.</p> |
 1. In [!UICONTROL **Proprietà account**] , specificare informazioni specifiche per il tipo di account selezionato.
 
    Per le istruzioni di configurazione, espandi la sezione seguente che corrisponde a [!UICONTROL **Tipo di account**] che hai selezionato. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
@@ -89,6 +101,22 @@ Per configurare un account di importazione o esportazione cloud:
    | [!UICONTROL **ID applicazione**] | Copia questo ID dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Panoramica** all’interno dell’applicazione. Per ulteriori informazioni, consulta la [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
    | [!UICONTROL **ID tenant**] | Copia questo ID dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Panoramica** all’interno dell’applicazione. Per ulteriori informazioni, consulta la [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
    | [!UICONTROL **Segreto account località**] | Copia il segreto dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Certificati e segreti** all’interno dell’applicazione. Per ulteriori informazioni, consulta la [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++E-mail
+
+   >[!NOTE]
+   >
+   >Gli account e-mail possono essere utilizzati solo con [Feed dati](/help/export/analytics-data-feed/create-feed.md). (Gli account e-mail non sono supportati con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Set di classificazione](/help/components/classifications/sets/overview.md)).
+
+   Per configurare un account RBAC di Azure, specifica le informazioni seguenti:
+
+   | Campo | Funzione |
+   |---------|----------|
+   | [!UICONTROL **Recipients (Destinatari)**] | Le notifiche e-mail possono essere inviate a utenti specifici una volta inviato il rapporto. Specifica un singolo indirizzo e-mail o un elenco di indirizzi e-mail separati da virgole. |
 
    {style="table-layout:auto"}
 

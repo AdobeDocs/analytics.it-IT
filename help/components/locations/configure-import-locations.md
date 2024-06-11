@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare i percorsi di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 04d05fe10e46ca99dd1bd8019161143dab47e61d
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 37%
+source-wordcount: '1729'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,11 @@ ht-degree: 37%
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-Puoi configurare un account cloud (e una posizione sull’account). Un’unica posizione può essere utilizzata per uno dei seguenti scopi (una singola posizione non può essere associata a più scopi, ad esempio Feed dati e Data Warhouse o Set di Data Warehouse e classificazione):
+>[!NOTE]
+>
+>Quando crei e modifichi posizioni, tieni presente quanto segue:<ul><li>Gli amministratori di sistema possono impedire agli utenti di creare posizioni, come descritto in [Specificare se gli utenti possono creare percorsi](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). Se non è possibile creare i percorsi come descritto in questa sezione, contattare l&#39;amministratore di sistema.</li><li>Una posizione può essere modificata solo dall’utente che l’ha creata o da un amministratore di sistema.</li></ul>
+
+Dopo di te [configurare un account cloud](/help/components/locations/configure-import-accounts.md), puoi configurare una posizione su tale account. Una singola posizione può essere utilizzata per uno dei seguenti scopi (una singola posizione non può essere associata a più scopi):
 
 * Esportazione di file tramite [Feed dati](/help/export/analytics-data-feed/create-feed.md)
 * Esportazione di rapporti tramite [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
@@ -23,35 +27,42 @@ Puoi configurare un account cloud (e una posizione sull’account). Un’unica p
 
 Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account cloud. Questo processo consiste nell’aggiungere e configurare l’account (ad esempio ARN per il ruolo Amazon S3, Google Cloud Platform e così via) come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md), quindi aggiungendo e configurando la posizione all’interno dell’account (come descritto in questo articolo).
 
-Per informazioni su come gestire le posizioni esistenti, incluse la visualizzazione, la modifica e l’eliminazione, consulta [Gestione posizioni](/help/components/locations/locations-manager.md).
+Per informazioni su come visualizzare ed eliminare le posizioni esistenti, consulta [Gestione posizioni](/help/components/locations/locations-manager.md).
 
-## Inizia a creare un percorso di esportazione cloud
+## Inizia a creare o modificare una posizione
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Posizioni**].
-1. Il giorno [!UICONTROL Locations] , seleziona la [!UICONTROL **Posizioni**] scheda.
-1. Seleziona [!UICONTROL **Aggiungi posizione**]. (Se non hai già aggiunto un account, aggiungine uno come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).)
 
-   Viene visualizzata la finestra di dialogo Posizione.
+1. Il giorno [!UICONTROL Locations] , seleziona la [!UICONTROL **Posizioni**] scheda.
+
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza posizioni per tutti gli utenti**] per visualizzare le posizioni create da tutti gli utenti dell’organizzazione.
+   ![visualizza posizioni per tutti gli utenti](assets/locations-all-users.png)
+
+1. Per aggiungere una nuova posizione, seleziona [!UICONTROL **Aggiungi posizione**]. (Se non hai già aggiunto un account, aggiungine uno come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).)
+
+   Il [!UICONTROL **Aggiungi posizione**] finestre di dialogo visualizzate
+
+   Oppure
+
+   Per modificare una posizione esistente, seleziona il menu a tre punti accanto al nome della posizione, quindi fai clic su [!UICONTROL **Modifica**].
+
+   Il [!UICONTROL **Dettagli località**] viene visualizzata una finestra di dialogo.
 
 1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  |
-| [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri dello stesso tipo. | | [!UICONTROL **Uso con**] | Seleziona se desideri utilizzare questa posizione con [!UICONTROL **Feed dati**], [!UICONTROL **Data Warehouse**], o [!UICONTROL **Set di classificazione**]. <p>Quando effettuate una selezione, tenete presente quanto segue:</p><ul><li>Una singola posizione non può essere utilizzata per più scopi. Ad esempio, una posizione utilizzata per i feed di dati non può essere utilizzata anche per set di Data Warehouse o di classificazione.</li><li>Per evitare conflitti di file all&#39;interno di una posizione, non modificare il valore di [!UICONTROL **Uso con**] dopo l’utilizzo della posizione.</li></ul> | | [!UICONTROL **Account località**] | Selezionare l&#39;account della posizione in cui si desidera creare la posizione. Per informazioni su come creare un account, consulta [Aggiungi un account](#add-an-account). |
+| [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri dello stesso tipo. | | [!UICONTROL **Uso con**] | Seleziona se desideri utilizzare questa posizione con [!UICONTROL **Feed dati**], [!UICONTROL **Data Warehouse**], o [!UICONTROL **Set di classificazione**]. <p>Quando effettuate una selezione, tenete presente quanto segue:</p><ul><li>Una singola posizione non può essere utilizzata per più scopi. Ad esempio, una posizione utilizzata per i feed di dati non può essere utilizzata anche per set di Data Warehouse o di classificazione.</li><li>Per evitare conflitti di file all&#39;interno di una posizione, non modificare il valore di [!UICONTROL **Uso con**] dopo l’utilizzo della posizione.</li><li>Se stai creando una posizione per un account e-mail, seleziona [!UICONTROL **Data Warehouse**] in questo campo. Le posizioni e-mail non sono supportate con feed di dati e set di classificazione.</li></ul> | | [!UICONTROL **Rendi la posizione disponibile a tutti gli utenti dell’organizzazione**] | **Nota:** Questa funzionalità si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md). <p>Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare la posizione.</p> <p>Quando condividi le posizioni, tieni presente quanto segue:</p><ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario della posizione.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul> | | [!UICONTROL **Account località**] | Selezionare l&#39;account della posizione in cui si desidera creare la posizione. Per informazioni su come creare un account, consulta [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md). |
 
-1. Nella sezione [!UICONTROL **Proprietà posizione**], specifica le informazioni specifiche sul tipo di account dell’account di posizione.
-
-   Continua con la sezione seguente che corrisponde al tipo di account selezionato in [!UICONTROL **Account ubicazione**] campo. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
-
-
+1. Per completare il modulo per la configurazione della posizione, continua con la sezione seguente che corrisponde al tipo di account selezionato in [!UICONTROL **Account ubicazione**] campo. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
 
 ### ARN per ruolo Amazon S3
 
 Per configurare una posizione ARN per il ruolo Amazon S3, specifica le seguenti informazioni:
 
-1. [Inizio della creazione o della modifica di un percorso di esportazione cloud](#begin-creating-or-editing-a-cloud-export-location), come descritto in precedenza.
+1. [Inizia a creare o modificare una posizione](#begin-creating-or-editing-a-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l&#39;ARN utente fornito da Adobe disponga del `S3:PutObject` per caricare i file in questo bucket. </p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html?lang=it). </p> |
-   | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, folder_name/ |
+   | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l&#39;ARN utente fornito da Adobe disponga del `S3:PutObject` per caricare i file in questo bucket. </p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html?lang=it). </p> |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -70,12 +81,12 @@ Per configurare una posizione ARN per il ruolo Amazon S3, specifica le seguenti 
 
 Per configurare una posizione di Google Cloud Platform, specifica le informazioni seguenti:
 
-1. [Inizio della creazione o della modifica di un percorso di esportazione cloud](#begin-creating-or-editing-a-cloud-export-location), come descritto in precedenza.
+1. [Inizia a creare o modificare una posizione](#begin-creating-or-editing-a-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Nome del bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. Assicurati di aver concesso all’entità fornita da Adobe l’autorizzazione per caricare i file in questo bucket. |
-   | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, folder_name/ |
+   | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. Assicurati di aver concesso all’entità fornita da Adobe l’autorizzazione per caricare i file in questo bucket. |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -94,12 +105,12 @@ Per configurare una posizione di Google Cloud Platform, specifica le informazion
 
 Per configurare una posizione SAS di Azure, specifica le informazioni seguenti:
 
-1. [Inizio della creazione o della modifica di un percorso di esportazione cloud](#begin-creating-or-editing-a-cloud-export-location), come descritto in precedenza.
+1. [Inizia a creare o modificare una posizione](#begin-creating-or-editing-a-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Nome contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. |
-   | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
+   | [!UICONTROL **Contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -118,13 +129,13 @@ Per configurare una posizione SAS di Azure, specifica le informazioni seguenti:
 
 Per configurare una posizione RBAC di Azure, specifica le informazioni seguenti:
 
-1. [Inizio della creazione o della modifica di un percorso di esportazione cloud](#begin-creating-or-editing-a-cloud-export-location), come descritto in precedenza.
+1. [Inizia a creare o modificare una posizione](#begin-creating-or-editing-a-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Nome contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. Assicurati di concedere le autorizzazioni per caricare i file nell’applicazione Azure creata in precedenza. |
-   | [!UICONTROL **Prefisso chiave**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
-   | [!UICONTROL **Nome account**] | Account di archiviazione Azure. |
+   | [!UICONTROL **Account**] | Account di archiviazione Azure. |
+   | [!UICONTROL **Contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. Assicurati di concedere le autorizzazioni per caricare i file nell’applicazione Azure creata in precedenza. |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -137,6 +148,23 @@ Per configurare una posizione RBAC di Azure, specifica le informazioni seguenti:
    >[!NOTE]
    >
    >   Se in precedenza è stato utilizzato [FTP per importare le classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, era necessario caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
+
+### E-mail
+
+Per configurare un percorso e-mail, specifica le seguenti informazioni:
+
+1. [Inizia a creare o modificare una posizione](#begin-creating-or-editing-a-location), come descritto in precedenza.
+
+   | Campo | Funzione |
+   |---------|----------|
+   | [!UICONTROL **Oggetto**] | Oggetto del messaggio e-mail. |
+   | [!UICONTROL **Note**] | Il contenuto del messaggio e-mail. |
+
+   {style="table-layout:auto"}
+
+1. Seleziona [!UICONTROL **Salva**].
+
+   Ora puoi esportare i dati nell’account e nella posizione configurati quando utilizzi [Feed dati](/help/export/analytics-data-feed/create-feed.md). Le posizioni e-mail non sono supportate con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Set di classificazione](/help/components/classifications/sets/overview.md)).
 
 ### Tipi di account legacy
 
