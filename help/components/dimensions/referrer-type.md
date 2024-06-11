@@ -3,10 +3,10 @@ title: Tipo di referrer
 description: Il tipo di referente, a seconda di dove proviene il visitatore.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 375948a8a1d638ab4331b2437462c43c73ddfd6a
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Il &quot;Tipo di referrer&quot; [dimensione](overview.md) segnala quali canali generici i visitatori hanno fatto clic per arrivare al sito. L’Adobe mantiene le regole per ogni elemento dimensione, a differenza di [Canali di marketing](marketing-channel.md), in cui l’organizzazione mantiene le regole per ogni canale.
 
-## Popola questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
 Questa dimensione fa riferimento a più tabelle di ricerca interne a Adobe. Ogni valore è basato su [referrer](referrer.md) dell’hit, che dipende da [Filtri URL interni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Assicurati che la dimensione del referente e i filtri URL interni siano configurati correttamente.
 
@@ -184,6 +184,7 @@ L’elenco seguente fa riferimento alla tabella di ricerca &quot;Social network&
 * `weourfamily.com`
 * `wer-kennt-wen.de`
 * `wordpress.com`
+* `x.com`
 * `xanga.com`
 * `xing.com`
 * `yammer.com`
