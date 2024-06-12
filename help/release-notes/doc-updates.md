@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
-workflow-type: ht
-source-wordcount: '5493'
-ht-degree: 100%
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+workflow-type: tm+mt
+source-wordcount: '5517'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Giugno 2024** | |
+| Miglioramento della documentazione degli avvisi intelligenti | È stata aggiornata e migliorata la documentazione sugli avvisi. Questi aggiornamenti includono informazioni su [creazione di avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [gestione degli avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), e [informazioni generali](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | **Maggio 2024** | |
 | Informazioni necessarie quando si utilizzano i vincoli del criterio dell’organizzazione con Google Cloud Platform nei feed di dati e nel Data Warehouse | È stato aggiunto l’ID organizzazione di Google Cloud Platform di proprietà di Adobe alla documentazione sui [feed di dati](/help/export/analytics-data-feed/create-feed.md) e sul [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). <p>Queste informazioni sono necessarie solo per le organizzazioni che utilizzano i [vincoli del criterio diell’organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints?hl=it) in Google Cloud Platform.</p> |
 | Documentazione su come aggiungere componenti ai progetti | Sono state aggiunte informazioni generali su come [aggiungere i vari tipi di componenti ai progetti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |

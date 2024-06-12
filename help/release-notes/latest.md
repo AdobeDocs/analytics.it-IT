@@ -3,10 +3,10 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6349edc65b953ce7f41d5a5990c8afd6efa20d8d
+source-git-commit: a85150e1299e0d5164c4eaa0fe9d5d6f67ef15b3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 55%
+source-wordcount: '969'
+ht-degree: 56%
 
 ---
 
@@ -20,7 +20,7 @@ Queste note sulla versione coprono il periodo dal 12 giugno 2024 a luglio. I ril
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Seleziona più filtri quando sono disponibili nel menu a discesa in una tabella a forma libera** | Quando più filtri sono stati aggiunti a una tabella a forma libera come menu a discesa, gli utenti della tabella a forma libera ora possono selezionare più di un filtro alla volta. La tabella a forma libera viene filtrata in modo da includere uno qualsiasi dei filtri selezionati. In precedenza, gli utenti potevano selezionare un solo filtro alla volta in un menu a discesa dei filtri.<p>(Link alla documentazione da seguire.) |  | giovedì 19 giugno 2024 |
+| **Selezionare più campi in un filtro a discesa** | Quando a un filtro a discesa sono stati aggiunti più campi, gli utenti possono ora selezionare più campi alla volta. Il pannello viene filtrato per includere uno qualsiasi dei campi selezionati. <p>In precedenza, gli utenti potevano selezionare un solo campo alla volta in un filtro a discesa.</p><p>(Link alla documentazione da seguire.)</p> |  | giovedì 19 giugno 2024 |
 | **Sommario per i progetti Workspace** | È ora disponibile un nuovo sommario per i progetti. Il sommario fornisce collegamenti che consentono agli utenti di passare rapidamente a pannelli e visualizzazioni all’interno del progetto. Il sommario può essere abilitato per singoli progetti o per tutti i progetti di un determinato utente.<p>(Link alla documentazione da seguire.) |  | giovedì 19 giugno 2024 |
 | **Creare collegamenti ipertestuali per gli elementi dimensionali in una tabella a forma libera** | Puoi creare collegamenti ipertestuali per uno o più elementi dimensionali per renderli cliccabili all’interno di una tabella a forma libera in Analysis Workspace. <p>Puoi creare collegamenti ipertestuali per gli elementi dimensione che hanno valori URL, oppure puoi creare URL personalizzati per gli elementi dimensione che hanno valori non URL.</p><p>Puoi creare URL dinamici personalizzati per più elementi di dimensione utilizzando le variabili. Le variabili possono fare riferimento al valore di un elemento dimensione o alla dimensione di raggruppamento.</p><p>(Link alla documentazione da seguire.)<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | giovedì 19 giugno 2024 |
 | **Impostazioni dell’amministratore per controllare gli account e le posizioni utilizzati per l’esportazione e l’importazione** | Una nuova [Scheda Impostazioni di amministrazione in Gestione posizioni](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) consente agli amministratori di controllare se gli utenti possono creare e modificare account e posizioni. Queste impostazioni vengono applicate quando gli utenti [configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). <p>Gli amministratori possono anche limitare i tipi di account (Google Cloud Platform, Azure RBAC, Amazon S3 e così via) che gli utenti possono creare e utilizzare.</p><p>In precedenza, tutti gli utenti potevano creare, modificare e utilizzare account e posizioni per qualsiasi tipo di account.</p> | 12 giugno 2024 | 30 giugno 2024 |
