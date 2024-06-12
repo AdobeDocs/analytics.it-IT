@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestione posizioni
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
+source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1446'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,8 @@ Per eliminare un account:
 {{release-limited-testing-section}}
 
 Gli amministratori di sistema possono impedire agli utenti di creare account e posizioni, oppure limitare i tipi di account che gli utenti possono creare e utilizzare.
+
+![Scheda Impostazioni amministratore](assets/locations-admin-settings.png)
 
 ### Stabilire se gli utenti possono creare e modificare gli account
 
