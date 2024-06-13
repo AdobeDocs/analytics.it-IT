@@ -4,10 +4,10 @@ title: Generatore di avvisi (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 43%
+source-wordcount: '606'
+ht-degree: 39%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 43%
 >
 >Gli Avvisi intelligenti sono disponibili solo per i clienti di Adobe Analytics Prime e Adobe Analytics Ultimate.
 
-Gli avvisi intelligenti (o semplicemente &quot;avvisi&quot;) in Adobe Analytics ti consentono di ricevere notifiche immediate quando si verificano eventi anomali nei tuoi dati.
+Gli avvisi intelligenti (o semplicemente &quot;avvisi&quot;) in Adobe Analytics ti consentono di ricevere notifiche immediate quando si verificano eventi anomali nei tuoi dati. Gli avvisi sull’utilizzo delle chiamate al server sono un tipo diverso di avvisi, disponibili solo per gli amministratori di Analytics. Questi avvisi ti segnalano il rischio o il verificarsi di un superamento nei dati relativi al consumo e all’impegno delle chiamate al server. Per ulteriori informazioni, consulta [Avvisi di utilizzo delle chiamate server](/help/admin/admin/c-server-call-usage/scu-alerts.md).)
 
 Per informazioni di panoramica più dettagliate sugli avvisi intelligenti, consulta [Panoramica degli avvisi intelligenti](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
-Per creare un avviso:
+Per creare un avviso intelligente:
 
 1. Inizia a creare un avviso accedendo al generatore di avvisi. Puoi accedere al generatore di avvisi in uno dei seguenti modi:
 
@@ -32,7 +32,7 @@ Per creare un avviso:
    * Apri un progetto in Analysis Workspace, seleziona uno o più elementi di riga in una tabella a forma libera, quindi fai clic con il pulsante destro del mouse e seleziona **[!UICONTROL Create alert from selection]**.
 
      Questo precompila immediatamente il generatore di avvisi per creare un avviso con le metriche e i filtri corretti.
-   * In Adobe Analytics, seleziona **[!UICONTROL Components]** > [!UICONTROL **Avvisi**] > **[!UICONTROL Create new alert]**.
+   * Creare un avviso [dalla gestione avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#create-alerts).
 
    Viene visualizzato il generatore di avvisi. Questa interfaccia è familiare a coloro che hanno creato segmenti o metriche calcolate in Analytics:
 

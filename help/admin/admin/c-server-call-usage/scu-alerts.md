@@ -4,10 +4,10 @@ title: Avvisi di utilizzo delle chiamate al server
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '501'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Quando imposti un avviso, viene applicato a tutte le suite di rapporti in tutte le aziende di login di un’azienda di fatturazione.
 
-Una nuova categoria di avvisi denominata **[!UICONTROL Server Calls Usage Alert]** fa parte dell’interfaccia utente esistente per [Gestione avvisi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=it).
+Gli avvisi di utilizzo delle chiamate al server fanno parte del [Avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) dell&#39;utente.
 
 È precompilata con **1 avviso predefinito** che viene visualizzato in tutte le aziende di login che hanno accesso alla funzione di utilizzo delle chiamate al server. Gli avvisi attivano una notifica indirizzata a tutti gli amministratori dell’azienda di login se uno dei seguenti criteri è soddisfatto:
 

@@ -4,10 +4,10 @@ title: Gestione avvisi (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: d6d42b079a013eb5608ad85ae311d8bf0f7a5d21
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 6%
+source-wordcount: '323'
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,22 @@ Per creare avvisi da Gestione avvisi:
 
 1. Seleziona [!UICONTROL **Aggiungi**] (o [!UICONTROL **Crea nuovo avviso**] se non si dispone di avvisi esistenti).
 
-1. Continua con [Creare avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) per ulteriori dettagli sulla creazione di avvisi.
+1. Selezionare il tipo di avviso corrispondente all&#39;avviso che si desidera creare:
+
+   * [!UICONTROL **Avviso dati di Analytics**]: avviso per avvisarti quando si verificano eventi anomali nei tuoi dati.
+
+     Se selezioni questa opzione, continua con [Creare avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) per ulteriori dettagli sulla creazione di avvisi.
+
+   * [!UICONTROL **Avviso di utilizzo delle chiamate server**]: un avviso per notificarti il rischio o il verificarsi di un superamento nei dati di utilizzo e impegno delle chiamate al server.
+
+     Se selezioni questa opzione, continua con [Avvisi di utilizzo delle chiamate server](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >Per poter accedere all’utilizzo delle chiamate al server, devi essere un amministratore di Analytics o un utente con l’autorizzazione di utilizzo delle chiamate al server.
+
+
+
 
 ## Gestire gli avvisi esistenti
 
