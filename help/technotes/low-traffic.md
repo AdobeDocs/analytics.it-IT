@@ -4,7 +4,7 @@ title: Valore Traffico ridotto in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
 ht-degree: 100%
 
