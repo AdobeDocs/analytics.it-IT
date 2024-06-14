@@ -4,7 +4,7 @@ title: Panoramica degli avvisi intelligenti
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: a012aca08740428671f216793dbd12aa15f21448
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 52%
@@ -39,7 +39,7 @@ Per ulteriori informazioni, consulta [Tecniche di statistica utilizzate nel rile
 
 ## Creare avvisi
 
-Per informazioni sulla creazione di avvisi in Adobe Analytics, consulta [Creare avvisi](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+Per informazioni sulla creazione di avvisi in Adobe Analytics, consulta [Creare avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
 
 >[!IMPORTANT]
 >
