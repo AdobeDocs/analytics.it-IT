@@ -4,9 +4,9 @@ description: (Obsoleto) AppMeasurement di aiuto per determinare dove memorizzare
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: c7e525b68898a6663f3b40e2293f959d4bd129b2
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '364'
 ht-degree: 10%
 
 ---
@@ -15,7 +15,13 @@ ht-degree: 10%
 # cookieDomainPeriods
 
 >[!IMPORTANT]
->Questa variabile è obsoleta. Se utilizzi AppMeasurement v2.26.x o versione successiva oppure l’estensione Adobe Analytics v1.9.4 o versione successiva, la libreria rileva automaticamente il dominio su cui impostare i cookie.
+>Questa variabile è obsoleta. Se usa uno dei seguenti:
+>
+>* AppMeasurement v2.26.x o successivo
+>* Estensione Adobe Analytics v1.9.4 o successiva
+>* Servizio Adobe Experience Cloud ID
+>
+>Questa variabile non esegue alcuna operazione, in quanto la libreria applicabile rileva automaticamente il dominio su cui impostare i cookie.
 
 Il `cookieDomainPeriods` La variabile ha aiutato AppMeasurement a determinare dove impostare i cookie di Analytics indicando che il dominio di primo livello conteneva un periodo aggiuntivo. Questa variabile consente all’AppMeasurement di inserire il periodo aggiuntivo nel dominio di primo livello e impostare i cookie nella posizione corretta. Se il dominio di primo livello del sito web non include un periodo aggiuntivo, questa variabile non è necessaria.
 
