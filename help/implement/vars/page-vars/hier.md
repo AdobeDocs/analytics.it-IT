@@ -1,13 +1,13 @@
 ---
 title: hier
-description: Implementa le variabili gerarchiche in Adobe Analytics.
+description: (Ritirato) Implementa le variabili gerarchiche in Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 97%
+source-wordcount: '338'
+ht-degree: 94%
 
 ---
 

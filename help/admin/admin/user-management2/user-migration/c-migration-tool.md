@@ -4,9 +4,9 @@ title: Migrazione degli utenti di Analytics all’Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '3081'
+source-wordcount: '3078'
 ht-degree: 69%
 
 ---
@@ -269,7 +269,7 @@ Informazioni importanti sul processo di migrazione e sull’impatto sulla gestio
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Accesso come </p> </td> 
-   <td colname="col2"> <p> Gli amministratori che eseguono la migrazione al Adobe Admin Console non potranno più utilizzare la funzione "Accedi come" per accedere agli account utente non amministratori che sono stati trasferiti al Adobe Admin Console. Questa funzione è obsoleta. </p> </td> 
+   <td colname="col2"> <p> Gli amministratori che eseguono la migrazione al Adobe Admin Console non potranno più utilizzare la funzione "Accedi come" per accedere agli account utente non amministratori che sono stati trasferiti al Adobe Admin Console. Questa funzione è stata ritirata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza utenti e trasferimento risorse </p> </td> 

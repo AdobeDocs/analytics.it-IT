@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
-workflow-type: ht
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+workflow-type: tm+mt
 source-wordcount: '3928'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

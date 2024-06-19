@@ -4,7 +4,7 @@ description: Recupera la percentuale della pagina visualizzata dal visitatore.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 4%
@@ -117,7 +117,7 @@ if(_ppvPreviousPage)
 
 ### 5.0.1 (22 giugno 2021)
 
-* È stato risolto un problema a causa del quale alcuni caratteri speciali causavano l’interruzione del plug-in.
+* È stato risolto un problema che causava l’interruzione del plug-in a causa di alcuni caratteri speciali.
 
 ### 5.0 (19 marzo 2021)
 

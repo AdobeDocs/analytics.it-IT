@@ -3,7 +3,7 @@ title: Calcolo del tempo trascorso in Adobe Analytics
 description: Una pagina aggregata di dimensioni e metriche relative al tempo trascorso.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '1612'
 ht-degree: 8%
@@ -24,7 +24,7 @@ Varie [!UICONTROL 'time spent'] [metriche](overview.md) Le dimensioni e sono off
 | [!UICONTROL Time Spent/User (State)] | Circa *Totale secondi trascorsi per app mobile/visitatori univoci per app mobile*<br> Rappresenta il tempo medio di interazione dei visitatori di un’app mobile con un elemento di dimensione specifico nel corso della vita del visitatore (durata del cookie). **Nota**: questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace |
 | [!UICONTROL Average time spent on site] (secondi) | Rappresenta il tempo totale in cui i visitatori interagiscono con un elemento dimensione specifico, per sequenza con un elemento dimensione. Non è limitato solo alle medie &quot;del sito&quot;, come suggerisce il nome. Per ulteriori informazioni sulle sequenze, consulta la sezione &quot;Modalità di calcolo del tempo trascorso&quot;.<br>**Nota**: questa metrica molto probabilmente differisce da &quot;Tempo trascorso per visita&quot; a livello di elemento dimensionale a causa delle differenze nel denominatore nel calcolo. | Analysis Workspace, Report Builder (in minuti) |
 | [!UICONTROL Average time on site] | Questa è la stessa metrica di *Tempo medio trascorso sul sito (secondi)*, ad eccezione del formato Ora (`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL Average time spent on page] | Metrica obsoleta.<br> Consigliamo invece di utilizzare &quot;Tempo medio trascorso sul sito&quot; se è necessario il tempo medio per un elemento dimensione. | Report Builder (quando una dimensione è nella richiesta) |
+| [!UICONTROL Average time spent on page] | Metrica obsoleta.<br> Al contrario, Adobe consiglia di utilizzare &quot;Tempo medio trascorso sul sito&quot; se è necessario il tempo medio per un elemento della dimensione. | Report Builder (quando una dimensione è nella richiesta) |
 | [!UICONTROL Total session length], alias [!UICONTROL Previous session length] | Solo SDK per app mobili. <br>Determinato al successivo avvio dell’app, per la sessione precedente. Calcolata in secondi, questa metrica non conta quando l’app è in background, ma solo quando è in uso. Si tratta di una metrica a livello di sessione.<br>Esempio: installiamo l’app ABC, la avviamo e la utilizziamo per 2 minuti, quindi chiudiamo l’app. Non vengono inviati dati sull’ora di questa sessione. La prossima volta che avviamo l’app, [!UICONTROL Previous Session Length] verrà inviato con un valore di 120. | Analysis Workspace, Report Builder, interfaccia utente di Mobile Services |
 | [!UICONTROL Average session length] (dispositivi mobili) | *Lunghezza totale della sessione / (lanci - primi lanci)*<br> Solo SDK per app mobili. Si tratta di una metrica a livello di sessione. | Report Builder, interfaccia utente di Mobile Services |
 
@@ -107,7 +107,7 @@ Ad esempio, considera la visita seguente.
 | hit# | 1 | 2 | 3 |
 |---|---|---|---|
 | **Secondi trascorsi** | 30 | 100 | 10 |
-| **Nome pagina** | Home | Prodotto | Home |
+| **Nome pagina** | Pagina Home | Prodotto | Pagina Home |
 | **data** | Gen 1 | Gen 1 | Gen 1 |
 
 Quando si calcola il tempo trascorso per la homepage, questo sarebbe (30+10)/2=20, ma suddividendo tale dato per giorno si otterrebbe (30+10)/1=40 in quanto il giorno presenta un’unica esecuzione ininterrotta il 1° gennaio.
@@ -125,7 +125,7 @@ Supponiamo che il seguente set di chiamate al server sia per un singolo visitato
 | **Tempo trascorso per la visita (in sec)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Secondi trascorsi** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo di hit** | Pagina | Collegamento | Pagina | Pagina | Pagina | Pagina | Pagina |
-| **Nome pagina** | Home | - | Prodotto | Home | Home (ricarica) | Carrello | Conferma dell’ordine |
+| **Nome pagina** | Pagina Home | - | Prodotto | Pagina Home | Home (ricarica) | Carrello | Conferma dell’ordine |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (impostato) | A (diffusione in avanti) | non impostato | B (impostato) | B (impostato) | A(set) | C (set) |
 | **prop1 secondi trascorsi** | 30 | 50 | - | 10 | 40 | 60 | - |

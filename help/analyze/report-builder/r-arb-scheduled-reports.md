@@ -4,10 +4,10 @@ title: Informazioni su Gestione attività pianificata
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 21%
+source-wordcount: '745'
+ht-degree: 11%
 
 ---
 
@@ -17,20 +17,20 @@ Il [!UICONTROL Scheduled Task Manager] consente di visualizzare un elenco dei ra
 
 ## Sospensione delle attività pianificate meno recenti
 
-Il 21 aprile 2022 sono state implementate modifiche alle attività pianificate in Report Builder nell’ambito delle attività di ottimizzazione delle prestazioni e della consegna. Tali modifiche includevano la rimozione della possibilità che le consegne pianificate avessero “termine dopo x occorrenze”. In risposta a diverse richieste dei clienti che necessitano di più tempo per esplorare e implementare alternative, abbiamo deciso di ripristinare questa opzione in modo limitato fino al **31 gennaio 2023**.
+Il 21 aprile 2022 sono state implementate modifiche alle attività pianificate in Report Builder nell’ambito delle attività di ottimizzazione delle prestazioni e della consegna. Tali modifiche includevano l&#39;eliminazione della possibilità che le consegne programmate “terminassero dopo x eventi”. In risposta a diverse richieste dei clienti che necessitano di più tempo per esplorare e implementare alternative, abbiamo deciso di ripristinare questa opzione in modo limitato fino al **31 gennaio 2023**.
 
-Continuerai a pianificare attività orarie di Report Builder e a farle terminare dopo un massimo di 99 occorrenze. Si prega di notare che il ripristino della funzione si applica solo alle attività orarie; il “termine dopo x occorrenze” rimarrà non disponibile per tutti gli altri intervalli di consegna (giornalieri, settimanali, mensili e annuali).
+Continuerai a pianificare attività orarie di Report Builder e a farle terminare dopo un massimo di 99 occorrenze. Tieni presente che il ripristino della funzione si applica solo alle attività orarie; l’opzione &quot;termina dopo x occorrenze&quot; rimarrà non disponibile per tutti gli altri intervalli di consegna (giornalieri, settimanali, mensili e annuali).
 
-Tieni presente che questa opzione diventerà obsoleta il 31 gennaio 2023.
-Per ulteriori domande o supporto, contatta l’Assistenza clienti di Adobe.
+Tieni presente che questa opzione viene ritirata dal 31 gennaio 2023.
+Per ulteriori domande o supporto, contatta l’Assistenza clienti Adobe.
 
 In particolare, questa pausa si applica a **tutte le attività create prima del 31 gennaio 2020**. Non verranno eliminate attività, cartelle di lavoro o dati. Le attività più vecchie di due anni verranno sospese e non verranno inviate altre attività pianificate.
 
 Tutte le attività che desideri riprendere l’invio possono essere riattivate. Accedi al Report Builder e avvia la [!UICONTROL Scheduled Task Manager]. Clic **[!UICONTROL Reactivate]** per l’attività pianificata che desideri riprendere l’invio. Le attività riattivate avranno una scadenza predefinita di 18 mesi, a meno che non venga scelta una data di scadenza più breve.
 
-Inoltre, qualsiasi attività con una data di creazione inferiore a due anni e senza data di scadenza corrente (o con una data di scadenza superiore a due anni) avrà una data di scadenza predefinita di 18 mesi. La nuova data di scadenza sarà il 15 ottobre 2023. Puoi modificare questa data di scadenza, purché la nuova scadenza sia inferiore a 18 mesi. Al momento della scadenza, l’attività verrà sospesa. È tuttavia possibile riattivare l&#39;attività con una nuova data di scadenza di 18 mesi. Non verranno eliminate attività, cartelle di lavoro o dati.
+Inoltre, qualsiasi attività con una data di creazione inferiore a due anni e senza data di scadenza corrente (o con una data di scadenza superiore a due anni) avrà una data di scadenza predefinita di 18 mesi. La nuova data di scadenza sarà il lunedì 15 ottobre 2023. Puoi modificare questa data di scadenza affinché sia inferiore a 18 mesi, ma non superiore. Al momento della scadenza, l’attività verrà sospesa. È tuttavia possibile riattivare l&#39;attività con una nuova data di scadenza di 18 mesi. Non verranno eliminate attività, cartelle di lavoro o dati.
 
-Lo scopo di questa pausa è gestire e gestire in modo efficace il database delle attività pianificate per garantire prestazioni e consegna ottimali per le attività e le cartelle di lavoro necessarie. D’ora in avanti, verranno applicati i seguenti nuovi criteri di governance. Dopo il 31 gennaio 2023, tutte le attività avranno una scadenza massima di 18 mesi. Dopo 18 mesi, le attività scadute verranno sospese e potranno essere riattivate in base alle esigenze.
+Lo scopo di questa pausa è gestire e gestire in modo efficace il database delle attività pianificate per garantire prestazioni e consegna ottimali per le attività e le cartelle di lavoro necessarie. Ciò servirà come evoluzione della nostra nuova politica di governance. Dopo il 31 gennaio 2023, tutte le attività avranno una scadenza massima di 18 mesi. Dopo 18 mesi, le attività scadute verranno sospese e potranno essere riattivate in base alle esigenze.
 
 ## Configurare le attività pianificate
 
