@@ -5,9 +5,9 @@ user-guide-title: Note tecniche di Analytics
 breadcrumb-title: Note tecniche
 user-guide-description: Sfoglia una knowledge base contenente articoli utili che non sono specifici per un particolare strumento o componente di Analytics.
 source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '186'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 41%
 
 + [Note tecniche di Analytics](home.md)
 + Adobe Analytics per gli utenti di Google Analytics {#ga-to-aa}
-   + [Aiuto per gli utenti di Adobe Analytics for Google Analytics](ga-to-aa/home.md)
+   + [Guida di Adobe Analytics per utenti Google Analytics](ga-to-aa/home.md)
    + [Account e suite di rapporti](ga-to-aa/accounts.md)
    + [Personalizzare le visualizzazioni di reporting](ga-to-aa/customization.md)
    + Rapporti di Google Analytics {#reports}
-      + [Creazione di un rapporto di base in Analysis Workspace per gli utenti GA](ga-to-aa/reports/create-report.md)
-      + [Metriche comuni utilizzate su altre piattaforme Analytics](ga-to-aa/reports/common-metrics.md)
+      + [Creare un rapporto di base in Analysis Workspace per gli utenti GA](ga-to-aa/reports/create-report.md)
+      + [Metriche comuni utilizzate su altre piattaforme di analisi](ga-to-aa/reports/common-metrics.md)
       + [Tempo reale](ga-to-aa/reports/realtime-reports.md)
-      + [Destinatari](ga-to-aa/reports/audience-reports.md)
+      + [Pubblico](ga-to-aa/reports/audience-reports.md)
       + [Acquisizione](ga-to-aa/reports/acquisition-reports.md)
       + [Comportamento](ga-to-aa/reports/behavior-reports.md)
       + [Conversioni](ga-to-aa/reports/conversions-reports.md)
@@ -33,17 +33,17 @@ ht-degree: 41%
 + Analisi dei dati interessati dagli eventi {#event}
    + [Panoramica dell’analisi dei dati interessati dagli eventi](event/overview.md)
    + [Risolvere i problemi relativi a picchi/cadute nei dati](event/spikes-drops.md)
-   + [Escludere date specifiche nell’analisi](event/segments.md)
-   + [Confrontare le date con intervalli precedenti](event/compare-dates.md)
-   + [Derivazione dei dati interessati dagli eventi](event/calcmetrics.md)
-   + [Comunicazione degli eventi agli utenti](event/communicate.md)
+   + [Esclusione di date specifiche nell’analisi](event/segments.md)
+   + [Confronto delle date con intervalli precedenti](event/compare-dates.md)
+   + [Derivare i dati interessati dagli eventi](event/calcmetrics.md)
+   + [Comunicare gli eventi agli utenti](event/communicate.md)
 + [Hint client](client-hints.md)
 + Cookie {#cookies}
    + [Cookie del browser](cookies/cookies.md)
    + [Opzioni per mitigare l’effetto delle limitazioni dei cookie del browser](cookies/cookieless.md)
 + [Conservazione dei dati](data-retention.md)
 + [Domini](domains.md)
-+ [Escludi dati](exclude-data.md)
++ [Escludere dati](exclude-data.md)
 + [Indirizzi IP](ip-addresses.md)
 + [Latenza](latency.md)
 + [Valore traffico ridotto](low-traffic.md)
@@ -55,7 +55,7 @@ ht-degree: 41%
 + [Reindirizzamenti e alias](redirects.md)
 + [Risorse di sicurezza](security.md)
 + [Termini utilizzati (glossario)](terms.md)
-+ [Marca temporale opzionale](timestamps-optional.md)
++ [Marche temporali opzionali](timestamps-optional.md)
 + [Risoluzione dei problemi di accesso](troubleshoot-login.md)
 + [Risoluzione dei problemi di disconnessione](troubleshoot-sessions.md)
 + [Non specificato, altro e sconosciuto](unspecified.md)
