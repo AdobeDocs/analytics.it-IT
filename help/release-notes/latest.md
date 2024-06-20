@@ -3,16 +3,16 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 54be0400a76b1f8dbbf2aab99ed8d771d67e5bc3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 96%
+source-wordcount: '1051'
+ht-degree: 91%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (giugno 2024)
 
-**Ultimo aggiornamento**: 13 giugno 2024
+**Ultimo aggiornamento**: venerdì 20 giugno 2024
 
 Queste note sulla versione coprono il periodo di rilascio dal 12 giugno fino a tutto luglio. I rilasci di Adobe Analytics funzionano secondo un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -26,6 +26,8 @@ Queste note sulla versione coprono il periodo di rilascio dal 12 giugno fino a t
 | **Impostazioni dell’amministratore per controllare gli account e le posizioni utilizzati per l’esportazione e l’importazione** | Una nuova [scheda “Impostazioni amministratore” in Gestione posizioni](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) consente agli amministratori di controllare se gli utenti possono creare e modificare account e posizioni. Queste impostazioni si applicano quando gli utenti configurano gli [account cloud di importazione ed esportazione](/help/components/locations/configure-import-accounts.md) e le [posizioni cloud di importazione ed esportazione](/help/components/locations/configure-import-locations.md). <p>Gli amministratori possono anche limitare i tipi di account (Google Cloud Platform, Azure RBAC, Amazon S3 e così via) che gli utenti possono creare e utilizzare.</p><p>In precedenza, tutti gli utenti potevano creare, modificare e utilizzare account e posizioni per qualsiasi tipo di account.</p> | 12 giugno 2024 | venerdì 20 giugno 2024 |
 | **Condividere account e posizioni utilizzati per l’esportazione e l’importazione** | Gli utenti possono ora rendere disponibili a tutti gli utenti della propria organizzazione gli account e le posizioni creati. Solo i proprietari degli account e delle posizioni e gli amministratori di sistema possono modificarli ed eliminarli.<p>In precedenza, gli account e le posizioni potevano essere utilizzati solo dall’utente che li aveva creati.</p><p>Queste impostazioni sono disponibili quando gli utenti [configurano account e posizioni di importazione ed esportazione cloud](https://experienceleague.adobe.com/it/docs/analytics/components/locations/configure-import-accounts)[](https://experienceleague.adobe.com/it/docs/analytics/components/locations/configure-import-locations). </p> | 12 giugno 2024 | venerdì 20 giugno 2024 |
 | **Fare in modo che Activity Map utilizzi un numero inferiore di chiamate server per Web SDK** | Attualmente, gli eventi di collegamento Activity Map vengono conteggiati come propri eventi e comportano costi aggiuntivi. Questo miglioramento raccoglie alcuni eventi di collegamento e li inserisce nell’hit successivo, in modo simile a come gli eventi vengono gestiti da AppMeasurement. <p>Il link alla documentazione seguirà a breve</p> | La versione beta aperta inizia il 19 giugno 2024 | Da definire |
+| **Nuova guida API per le origini dati** | Il [API origini dati di Adobe Analytics 2.0](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-sources/) Gli endpoint forniscono metodi per creare, visualizzare, eliminare e caricare negli account Origini dati. |  | Disponibile ora |
+| **Nuovi metodi nella guida dell’API per le classificazioni** | Nella guida alle classificazioni dell’API sono stati aggiunti due nuovi metodi per recuperare le partizioni di file.<ul><li>[Ottieni partizione file processo di classificazione](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-job-file-partition-list)</li><li>[Ottieni parte file processo esportazione classificazione](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-export-job-file-part)</li></ul> |  | Disponibile ora |
 
 {style="table-layout:auto"}
 
