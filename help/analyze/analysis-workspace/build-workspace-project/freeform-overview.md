@@ -5,10 +5,10 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 08f3926bfa621ce3678da6db0f0a30ac5302b757
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 77%
+source-wordcount: '1376'
+ht-degree: 68%
 
 ---
 
@@ -75,7 +75,7 @@ In un progetto, il menu fornisce le opzioni necessarie per gestirlo, aggiungervi
 
 ### Informazioni e impostazioni progetto {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** fornisce informazioni a livello di progetto sul progetto attualmente attivo.
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & settings]** fornisce informazioni a livello di progetto sul progetto attualmente attivo.
 
 ![](assets/projectinfo.png)
 
@@ -83,7 +83,7 @@ Le impostazioni includono:
 
 | Impostazione | Descrizione |
 |---|---|
-| Progetto Nome | Nome assegnato al progetto. Puoi fare doppio clic sul nome per modificarlo. |
+| Nome progetto | Nome assegnato al progetto. Puoi fare doppio clic sul nome per modificarlo. |
 | Creato da | Nome del proprietario del progetto. |
 | Ultima modifica | Data dell’ultima modifica apportata al progetto. |
 | Tag | Elenca eventuali tag applicati a un progetto per facilitarne la categorizzazione. |
@@ -94,13 +94,23 @@ Le impostazioni includono:
 
 ## Barra a sinistra {#left-rail}
 
-Nel progetto Workspace, puoi accedere a [pannelli](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it), tabelle, [visualizzazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it) e [componenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=it) dalla barra a sinistra. Si tratta degli elementi di base del progetto.
+All’interno di un progetto, nella barra a sinistra sono disponibili varie icone, ciascuna delle quali rappresenta parti importanti di un progetto:
 
-Puoi anche accedere a visualizzazioni e pannelli dal [pannello vuoto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=it).
+* [Pannelli](/help/analyze/analysis-workspace/c-panels/panels.md) ![icona pannelli](assets/panels-icon.png)
 
-I componenti (dimensioni, metriche, segmenti, intervalli di date) nella barra a sinistra si riferiscono alla suite di rapporti del pannello attivo. Il pannello attivo è evidenziato da un bordo blu e la suite di rapporti attiva è elencata nella parte superiore della barra dei componenti.
+* [Visualizzare](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![icona delle visualizzazioni](assets/visualizations-icon.png)
 
-![](assets/left-rail.png)
+* [Componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)![icona dei componenti](assets/components-icon.png)
+
+* [Dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)![icona dizionario dati](assets/data-dictionary-icon.png)
+
+* [Sommario](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![icona sommario](assets/toc-icon.png)
+
+I componenti (dimensioni, metriche, filtri, intervalli di date) nella barra a sinistra si riferiscono alla vista di dati del pannello attivo. Il pannello attivo è identificato dal bordo blu che lo circonda e la visualizzazione dati attiva è elencata nella parte superiore della barra dei componenti.
+
+![I componenti relativi alla visualizzazione dati del pannello attivo per la visualizzazione dati Demo cross-industry.](assets/left-rail.png)
+
+
 
 ## Menu di scelta rapida
 
@@ -120,7 +130,7 @@ A seconda del punto iniziale scelto per i progetti, l’area di lavoro presenta 
 
 ## Project Manager {#manager}
 
-I progetti Analysis Workspace possono essere gestiti tramite **[!UICONTROL Analytics]> [!UICONTROL Components] >[!UICONTROL Projects]**. Lo strumento per la gestione dei progetti mostra gli elementi creati da uno specifico utente.
+I progetti Analysis Workspace possono essere gestiti tramite **[!UICONTROL Analytics]> [!UICONTROL Components] >[!UICONTROL Projects]**. Il Project Manager mostra gli elementi creati da un utente specifico.
 
 La proprietà del progetto può essere trasferita a un nuovo utente in [!UICONTROL Admin] > [!UICONTROL Analytics Users & Assets] > [!UICONTROL Transfer Assets].
 

@@ -3,10 +3,11 @@ description: Scopri come aggiungere componenti a un progetto in Analysis Workspa
 title: Utilizzare i componenti in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 10%
+source-wordcount: '872'
+ht-degree: 9%
 
 ---
 
@@ -32,9 +33,13 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
    ![](assets/build-components.png)
 
-1. Scorri fino al componente da aggiungere o cerca il componente che desideri aggiungere, quindi trascinalo su un pannello o una visualizzazione all’interno del progetto.
+1. Scorri fino al componente da aggiungere oppure cercalo, quindi trascinalo su un pannello o su una visualizzazione all’interno del progetto.
 
-   Ad esempio, puoi trascinare un segmento nella zona di rilascio del segmento nell’intestazione di un pannello.
+1. (Facoltativo) Trascina un componente nella zona di rilascio del segmento nell’intestazione di un pannello.
+
+   I segmenti si applicano a tutto il contenuto del pannello.
+
+   Per informazioni su come utilizzare la zona di rilascio dei segmenti su un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md).
 
    ![rilascia un segmento nella zona di rilascio](assets/segment-dropzone.png)
 
@@ -64,6 +69,10 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
      ![rilascia un segmento nella zona di rilascio](assets/segment-dropzone.png)
 
+1. (Facoltativo) Puoi suddividere dimensioni ed elementi dimensionali in Analysis Workspace con altri componenti.
+
+   Per ulteriori informazioni, consulta [Suddividere dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+
 Per ulteriori informazioni sull’utilizzo delle dimensioni in Analysis Workspace, consulta [Anteprima dimensioni](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Suddividere dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), e [Dimensioni suddivise in base al tempo](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
 ## Aggiungere metriche a un progetto
@@ -92,31 +101,23 @@ Per ulteriori informazioni sull’utilizzo delle metriche in Analysis Workspace,
 
 [Segmenti](/help/components/segmentation/seg-overview.md) consente di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni specifiche.
 
-Per aggiungere un segmento a un progetto in Analysis Workspace:
+Puoi utilizzare i segmenti in Analysis Workspace in uno dei seguenti modi:
 
-1. Inizia ad aggiungere un segmento al progetto in Analysis Workspace, come descritto in [Inizia ad aggiungere componenti a un progetto](#begin-adding-components-to-a-project).
+### Aggiungere segmenti a un pannello
 
-1. Per iniziare a filtrare il pannello, scegli uno dei seguenti metodi:
+Quando aggiungi segmenti a un pannello, i segmenti vengono applicati a tutto il contenuto al suo interno.
 
-   * Trascina un singolo segmento dalla barra a sinistra alla zona di rilascio del segmento.
+Per informazioni su come utilizzare la zona di rilascio dei segmenti su un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-     ![rilascia un segmento nella zona di rilascio](assets/segment-dropzone.png)
+### Aggiungere segmenti a una colonna di una tabella a forma libera
 
-   * Tenete premuto il tasto Maiusc o Ctrl per selezionare più segmenti nella barra a sinistra, quindi tenete premuto il tasto Maiusc mentre li rilasciate nella zona di rilascio del segmento.
+Quando aggiungi segmenti a una colonna di una tabella a forma libera, i segmenti si applicano a tutto il contenuto della colonna della tabella.
 
-     ![rilascia più segmenti nella zona di rilascio](assets/segment-dropzoone-multiple.png)
+### Utilizzare i segmenti durante la creazione di metriche calcolate
 
-     Viene creato un menu a discesa che consente agli utenti del pannello di scegliere il filtro da applicare. Il menu a discesa contiene [!UICONTROL **Nessun filtro**] opzione che gli utenti possono selezionare, lasciando il pannello non filtrato.
+Nel generatore di metriche calcolate, puoi applicare segmenti all’interno della definizione della metrica.
 
-     Puoi selezionare (x) per rimuovere qualsiasi opzione dal menu a discesa. Se si rimuove il [!UICONTROL **Nessun filtro**] , è necessario un filtro.
-
-   * Crea segmenti ad hoc trascinando componenti diversi dai segmenti nella zona di rilascio. In questo modo puoi risparmiare tempo e fatica andando al Generatore di segmenti. I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di hit. Puoi modificarli come di consueto facendo clic sull’icona delle informazioni (i) accanto al segmento, quindi sull’icona Modifica a forma di matita per accedere al Generatore di segmenti.
-
-     I segmenti ad hoc sono un tipo di segmento rapido e sono locali per il progetto. Non vengono visualizzati nella barra a sinistra, a meno che tu non li renda pubblici.
-
-     Per ulteriori informazioni, consultare [Segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
-
-Per ulteriori informazioni su come utilizzare la zona di rilascio dei segmenti su un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md).
+Per ulteriori informazioni, consulta [Metriche segmentate](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Aggiungere intervalli di date a un progetto
 
