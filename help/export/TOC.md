@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Scopri come utilizzare i feed di dati per esportare dati non elaborati, e Data Warehouse per recuperare un output di dati sotto forma di foglio di calcolo. Scopri come utilizzare FTP e SFTP per trasferire i file.
-source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 + Data Warehouse {#data-warehouse}
    + [Panoramica di Data Warehouse](data-warehouse/data-warehouse.md)
    + [Aggiungere un gruppo utenti di Data Warehouse](data-warehouse/t-dw-group.md)
-   + Create a Data Warehouse Request (Creare una richiesta di archivio dati) {#dw-create-request}
+   + Creare una richiesta Data Warehouse {#dw-create-request}
       + [Creare una richiesta di Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [Impostazioni generali](/help/export/data-warehouse/create-request/dw-general-settings.md)
       + [Generare il rapporto](/help/export/data-warehouse/create-request/dw-request-build-report.md)
@@ -57,7 +57,6 @@ ht-degree: 100%
       + [Configurare account FTP: panoramica](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Classificazioni](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [Origini dati](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
-      + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Feed dati](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Report consegnati di Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report consegnati del Report Builder](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
