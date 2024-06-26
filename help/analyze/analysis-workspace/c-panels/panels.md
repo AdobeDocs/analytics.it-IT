@@ -4,9 +4,9 @@ title: Panoramica dei pannelli
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 77401e3e4f69c67d1010905be15bc9ccb4b73e90
+source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1551'
 ht-degree: 47%
 
 ---
@@ -107,11 +107,13 @@ Per ulteriori informazioni su come aggiungere filtri a discesa a un progetto, [g
 
 #### Utilizzare segmenti a discesa statici
 
-Per filtrare il pannello, gli utenti possono utilizzare il menu a discesa dei segmenti in uno dei seguenti modi:
+Per filtrare il pannello, utilizza il menu a discesa dei segmenti in uno dei seguenti modi:
 
 * Applica un singolo segmento al pannello selezionando il segmento dal menu a discesa.
 
 * Applica più segmenti al pannello selezionando più segmenti dal menu a discesa. Il pannello viene filtrato per includere uno qualsiasi dei segmenti selezionati.
+
+  Per rimuovere un segmento dall’elenco, selezionalo nuovamente nel menu a discesa.
 
   ![Seleziona più segmenti](assets/dropdown-filter-multiselect.png)
 
