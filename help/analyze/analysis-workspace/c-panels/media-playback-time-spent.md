@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Media Playback Time Spen
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '928'
 ht-degree: 73%
 
 ---
@@ -17,7 +17,7 @@ In Analysis Workspace, Playback Time Spent (Tempo di riproduzione trascorso) cor
 
 Il pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali) consente di analizzare le riproduzioni nel tempo, con dettagli sul picco di concorrenza e con la possibilità di suddividerli e confrontarli.
 
-I clienti Media Analytics possono analizzare il tempo di riproduzione per ottenere informazioni approfondite sulla qualità dei contenuti e sul coinvolgimento dei visualizzatori, utili per risolvere eventuali problemi o pianificare un adeguamento per volume o scala.
+I clienti che hanno acquistato il componente aggiuntivo Streaming Media Collection possono analizzare il tempo di riproduzione per ottenere informazioni approfondite sulla qualità dei contenuti e sul coinvolgimento dei visualizzatori, utili per risolvere eventuali problemi o pianificare un adeguamento per volume o scala.
 
 Playback Time Spent (Tempo di riproduzione trascorso) consente di comprendere:
 
@@ -31,7 +31,7 @@ Di seguito è riportata una panoramica video di questo pannello:
 
 ## Utilizzare il pannello Tempo trascorso su contenuti multimediali
 
-1. Vai a una suite di rapporti i cui componenti Media Analytics sono abilitati.
+1. Vai a una suite di rapporti con i componenti multimediali in streaming abilitati.
 1. Seleziona l’icona del pannello all’estrema sinistra, quindi trascina il pannello nel progetto Analysis Workspace.
 1. Continua con le sezioni seguenti per personalizzare il pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)
 

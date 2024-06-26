@@ -3,9 +3,9 @@ title: Compatibilità dei Dimension Analytics
 description: Riferimento per dimensioni e rapporti di Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '890'
 ht-degree: 33%
 
 ---
@@ -72,7 +72,7 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 | Pagina | `page` |
 | Pagine non trovate | `pagesnotfound` |
 | Prodotto | `product` |
-| Destinatario che inoltra | `referrer` |
+| Pagina di provenienza | `referrer` |
 | Tipo di referrer | `referrertype` |
 | Dominio di riferimento | `referringdomain` |
 | Aree geografiche | `georegion` |
@@ -157,7 +157,7 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 
 ## Dimensioni in base al contenuto supportate da Analysis Workspace
 
-### Video (Media Analytics)
+### Video (componente aggiuntivo Streaming Media Collection)
 
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
@@ -218,12 +218,12 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 | Latitudine/Longitudine | `sociallatlong` |
 | Codici di tracciamento risorse | `socialassettrackingcode` |
 | Proprietà social possedute | `socialaccountandappids` |
-| ID post di proprietà | `socialownedpostids` |
+| ID Post di proprietà | `socialownedpostids` |
 | Definizioni social di proprietà | `socialinteractiontype` |
 | ID proprietà possedute | `socialownedpropertyid` |
 | Proprietà di proprietà e applicazione | `socialownedpropertypropertyvsapp` |
 | Nome proprietà di proprietà | `socialownedpropertyname` |
-| Proprietà definizione di proprietà e post | `socialowneddefinitionpropertyvspost` |
+| Proprietà di definizione di proprietà e Post | `socialowneddefinitionpropertyvspost` |
 | Tipo di informazioni sulla definizione di proprietà | `socialowneddefinitioninsighttype` |
 | Valore informazioni definizione di proprietà | `socialowneddefinitioninsightvalue` |
 | Metrica di definizione di proprietà | `socialowneddefinitionmetric` |
@@ -278,9 +278,9 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
 | Collegamento Activity Map per area geografica | `clickmaplinkbyregion` |
-| Regione Activity Map | `clickmapregion` |
+| Area geografica di Activity Map | `clickmapregion` |
 | Collegamento Activity Map | `clickmaplink` |
-| Pagina della Activity Map | `clickmappage` |
+| Pagina di Activity Map | `clickmappage` |
 
 ### Integrazione Nielsen
 

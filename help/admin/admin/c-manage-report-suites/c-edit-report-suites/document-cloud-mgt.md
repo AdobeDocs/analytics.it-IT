@@ -2,15 +2,15 @@
 description: Puoi visualizzare i dati del Document Cloud in Adobe Analytics
 title: Configurare Document Cloud Analytics
 feature: Admin Tools
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
+exl-id: 4bcc5be7-cad1-4969-9d19-0db8f3f6a374
+source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 0%
+source-wordcount: '101'
+ht-degree: 5%
 
 ---
 
-
-# Configurare il Document Cloud con Adobe Analytics
+# Configurare Document Cloud con Adobe Analytics
 
 Puoi abilitare Analytics di Document Cloud per rendere disponibili dimensioni e metriche specifiche per PDF nella tua suite di rapporti.
 
@@ -20,8 +20,8 @@ Durante la modifica di una suite di rapporti, sono disponibili le seguenti opzio
 
 * [!UICONTROL **Rapporti sui Document Cloud**]
 
-   I rapporti specifici per Streaming Media sono disponibili nella pagina Media Reporting. Per ulteriori informazioni su Media Reporting, consulta [Configurare la generazione di rapporti di Document Cloud](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
+  I rapporti specifici per il componente aggiuntivo Streaming Media Collection sono disponibili nella pagina Media Reporting. Per ulteriori informazioni su Media Reporting, consulta [Configurare la generazione di rapporti di Document Cloud](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
 
 * [!UICONTROL **Classificazioni Document Cloud**]
 
-   Le classificazioni specifiche del Document Cloud sono disponibili nella pagina Classificazioni Document Cloud. Per informazioni sulle classificazioni, consulta [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Le classificazioni specifiche del Document Cloud sono disponibili nella pagina Classificazioni Document Cloud. Per informazioni sulle classificazioni, consulta [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
