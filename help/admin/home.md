@@ -4,10 +4,10 @@ description: Guida per gli amministratori di Adobe Analytics, compresa la gestio
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 91%
+source-wordcount: '310'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Questa guida non tratta molte delle funzionalità generiche offerte da Adobe Adm
 
 ## Articoli chiave
 
-* [Guida introduttiva primo amministratore di Analytics](admin-console/first-admin-guide.md): se la tua organizzazione utilizza Adobe Analytics per la prima volta, segui questa guida per iniziare a trarre valore da Adobe Analytics.
+* [Prima guida introduttiva dell’amministratore di Analytics](admin-console/first-admin-guide.md): se la tua organizzazione utilizza Adobe Analytics per la prima volta, segui questa guida per iniziare a sfruttare le possibilità offerte da Adobe Analytics.
 * [Report Suite Manager](admin/c-manage-report-suites/report-suites-admin.md): questo è lo strumento di amministrazione più utilizzato in Analytics. Report Suite Manager contiene le impostazioni per la gestione delle variabili e delle classificazioni, del fuso orario e altro ancora.
 
 ## Altre guide utente di Analytics
@@ -44,7 +44,7 @@ Questa guida non tratta molte delle funzionalità generiche offerte da Adobe Adm
 
 ## Risorse chiave per Analytics
 
-* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=it#support)
-* [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/?support-solution=Analytics?lang=it#support)
+* [Community Adobe Analytics su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://experienceleague.adobe.com/?lang=it#home)

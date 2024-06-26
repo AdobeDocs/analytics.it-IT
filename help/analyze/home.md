@@ -4,10 +4,10 @@ description: Documentazione del prodotto e supporto autonomo per Analysis Worksp
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 11ef092984f37547ed408bedb977fccb8b53dba8
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 98%
 
 ---
 
@@ -37,8 +37,8 @@ Per informazioni dettagliate sulle funzioni di Adobe Analytics e su come utilizz
 
 ## Risorse chiave per Analytics
 
-* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=it#support)
-* [Forum di Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/?support-solution=Analytics?lang=it#support)
+* [Community Adobe Analytics su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Risorse di Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://experienceleague.adobe.com/?lang=it#home)
 
