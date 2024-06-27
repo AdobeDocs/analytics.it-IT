@@ -4,10 +4,10 @@ title: Domande frequenti e risoluzione dei problemi di Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 97%
+source-wordcount: '542'
+ht-degree: 91%
 
 ---
 
@@ -31,10 +31,6 @@ Ora puoi creare progetti in Analysis Workspace con dati provenienti da più [sui
 
 +++Come si implementa Analysis Workspace?
 Non è richiesta alcuna implementazione particolare. Analysis Workspace è disponibile per tutte le società che dispongono di Analytics Standard o Premium. Tuttavia, si applicano le autorizzazioni standard per i contenuti (come suite di rapporti e componenti dei progetti) e per la cura e la condivisione di progetti. Consulta [Amministrazione e requisiti di accesso](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
-+++
-
-+++Analysis Workspace modifica i rapporti pre-configurati in Adobe Analytics?
-No. Poiché si tratta di un ambiente separato, non verrà modificato alcun rapporto esistente o pre-configurato in Adobe Analytics. Puoi comunque utilizzare i rapporti standard del Report Builder utilizzando Analysis Workspace.
 +++
 
 +++Posso utilizzare Analysis Workspace per Data Warehouse?
@@ -71,4 +67,8 @@ Se crei correttamente un report Workspace, ma non sono presenti dati, puoi contr
 * Se hai applicato un segmento nel report, i criteri del segmento potrebbero non corrispondere ad alcun dato. Prova a rimuovere il segmento o a regolare la definizione del segmento.
 * Controlla l’intervallo di date in alto a destra e accertati che sia impostato sul valore desiderato.
 * Vai al tuo sito web e utilizza il [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it) per convalidare i dati raccolti.
++++
+
++++In qualità di utente di sola lettura, quali azioni posso eseguire in Analysis Workspace?
+Quando un progetto viene condiviso in sola lettura, tutte le funzioni e le caratteristiche di modifica vengono completamente disabilitate e i destinatari possono modificare il menu a discesa solo per applicare un filtro al pannello in modo predefinito.
 +++
