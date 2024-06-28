@@ -5,9 +5,9 @@ user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Scopri come utilizzare i feed di dati per esportare dati non elaborati, e Data Warehouse per recuperare un output di dati sotto forma di foglio di calcolo. Scopri come utilizzare FTP e SFTP per trasferire i file.
 source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 + Data Warehouse {#data-warehouse}
    + [Panoramica di Data Warehouse](data-warehouse/data-warehouse.md)
    + [Aggiungere un gruppo utenti di Data Warehouse](data-warehouse/t-dw-group.md)
-   + Creare una richiesta Data Warehouse {#dw-create-request}
+   + Creare una richiesta di Data Warehouse {#dw-create-request}
       + [Creare una richiesta di Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [Impostazioni generali](/help/export/data-warehouse/create-request/dw-general-settings.md)
       + [Generare il rapporto](/help/export/data-warehouse/create-request/dw-request-build-report.md)
