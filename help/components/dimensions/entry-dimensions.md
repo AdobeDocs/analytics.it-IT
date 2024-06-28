@@ -4,9 +4,9 @@ description: Elenca le dimensioni di entrata e il relativo utilizzo.
 keywords: pagina di ingresso, sezione del sito di ingresso, server di ingresso, approfondimenti personalizzati della voce
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '289'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,9 @@ ht-degree: 2%
 *Questa pagina della guida descrive il funzionamento delle voci come [dimensione](overview.md). Per informazioni sul funzionamento delle voci come metrica, vedi [Voci](../metrics/entries.md) metrica.*
 
 Le dimensioni di entrata sono [basato su visite](../metrics/visits.md). Registrano il primo elemento dimensione e lo mantengono per l’intera durata di tale visita. Le dimensioni di entrata sono disponibili per tutte le variabili con percorso abilitato in [Variabili traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
+
+>[!TIP]
+>Se desideri visualizzare i dati in base al primo hit di una visita invece del primo valore visualizzato in una visita, puoi utilizzare un [segmento](/help/components/segmentation/seg-overview.md). Utilizza un contenitore hit in cui [Profondità di hit](hit-depth.md) è uguale a 1, quindi utilizza quel segmento con la variabile desiderata.
 
 ## Compilare dimensioni di immissione con i dati
 

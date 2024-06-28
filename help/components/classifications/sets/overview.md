@@ -3,10 +3,10 @@ title: Panoramica sui set di classificazione
 description: Utilizza i set di classificazione per gestire i dati di classificazione.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 85%
 
 ---
 
@@ -16,11 +16,15 @@ I set di classificazione forniscono un’unica interfaccia per gestire classific
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**
 
+Devi essere un amministratore di prodotto o appartenere a un profilo di prodotto contenente l’elemento di autorizzazione [!UICONTROL Report Suite Tools] > [!UICONTROL Classifications] per visualizzare questa voce di menu. Tieni presente che mentre le precedenti interfacce di gestione delle classificazioni sono sotto [!UICONTROL Admin] I set di classificazione si trovano nel menu [!UICONTROL Components] menu.
+
+## Miglioramenti
+
 L’architettura back-end rilasciata con i set di classificazione contiene diversi miglioramenti degni di nota:
 
 * Tempo di elaborazione ridotto (72 ore → 24 ore)
-* Possibilità di utilizzare l’interfaccia utente dei set di classificazione
-* Opzione per utilizzare in futuro i dati di classificazione in Adobe Experience Platform tramite il [connettore di origine di Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=it)
+* Un’interfaccia utente riprogettata per gestire le classificazioni
+* Opzione per utilizzare in futuro i dati di classificazione in Adobe Experience Platform tramite il [connettore di origine di Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)
 
 Anche l’architettura back-end rilasciata con i set di classificazione contiene diverse modifiche di rilievo:
 
