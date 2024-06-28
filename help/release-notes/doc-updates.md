@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
 workflow-type: tm+mt
 source-wordcount: '5626'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -28,8 +28,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | **Giugno 2024** | |
 | Nome di prodotto aggiornato che fa riferimento alle funzioni di streaming multimediale | Le istanze di &quot;Media Analytics&quot; e &quot;Streaming Media&quot; sono state sostituite con il nome &quot;Streaming Media Collection Add-on&quot; quando si fa riferimento all’insieme di funzioni per contenuti multimediali in streaming che raccolgono dati multimediali in streaming e li presentano in Analysis Workspace. <p>Questi aggiornamenti sono disponibili all&#39;interno della documentazione di Adobe Analytics e nella sezione [Documentazione del componente aggiuntivo Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).</p> |
 | Miglioramento della documentazione sugli avvisi intelligenti | È stata aggiornata e migliorata la documentazione sugli avvisi. Questi aggiornamenti includono informazioni su [creazione di avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [gestione degli avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) e [informazioni generali](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
-| Obsoleto `cookieDomainPeriods` | Ora che AppMeasurement rileva automaticamente il dominio corretto su cui impostare i cookie, il [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) è obsoleta. |
-| Ritira documentazione Data Connectors | Pagina fine del ciclo di vita di Data Connectors spostata in [Prodotti discontinui](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
+| `cookieDomainPeriods` obsoleta | Ora che AppMeasurement rileva automaticamente il dominio corretto su cui impostare i cookie, la variabile [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) è obsoleta. |
+| Documentazione Data Connectors ritirata | Pagina fine del ciclo di vita di Data Connectors spostata in [Prodotti obsoleti](https://experienceleague.adobe.com/it/docs/discontinued/using/data-connectors). |
 | **Maggio 2024** | |
 | Informazioni necessarie quando si utilizzano i vincoli del criterio dell’organizzazione con Google Cloud Platform nei feed di dati e nel Data Warehouse | È stato aggiunto l’ID organizzazione di Google Cloud Platform di proprietà di Adobe alla documentazione sui [feed di dati](/help/export/analytics-data-feed/create-feed.md) e sul [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). <p>Queste informazioni sono necessarie solo per le organizzazioni che utilizzano i [vincoli del criterio diell’organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints?hl=it) in Google Cloud Platform.</p> |
 | Documentazione su come aggiungere componenti ai progetti | Sono state aggiunte informazioni generali su come [aggiungere i vari tipi di componenti ai progetti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
