@@ -3,9 +3,9 @@ title: Interfaccia utente feed dati
 description: Scopri come navigare nell’interfaccia del feed dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
+source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '1087'
 ht-degree: 2%
 
 ---
@@ -14,74 +14,141 @@ ht-degree: 2%
 
 Data Feed Manager consente di creare, modificare ed eliminare feed di dati per l’organizzazione. Se disponi delle autorizzazioni per accedere al gestore dei feed dati, puoi gestire i feed dati per tutte le suite di rapporti visibili.
 
-Video sull’interfaccia utente di gestione dei feed di dati:
++++Guarda un video sulla gestione dei feed dati.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
-Accedi alla gestione dei feed dati seguendo questi passaggi:
++++
+
+## Visualizzare feed di dati
 
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
-1. Seleziona l’icona a 9 quadrati in alto a destra, quindi seleziona [!UICONTROL **Analytics**].
-1. Nella barra di navigazione superiore, vai a [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
+1. Seleziona l&#39;icona a 9 quadrati in alto a destra, quindi seleziona [!UICONTROL **Analytics**].
+1. Nella barra di navigazione superiore, passa a [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
 
-## Navigare nell’interfaccia
+   Vengono visualizzati i feed di dati per tutte le suite di rapporti a cui hai accesso. Oppure, se non è stato configurato alcun feed, la pagina mostra un pulsante [!UICONTROL Create New Data Feed].
 
-Quando si accede alla pagina di gestione dei feed di dati, l’interfaccia ha un aspetto simile al seguente:
+   ![Feed dati](assets/feeds.png)
 
-![Feed dati](assets/feeds.png)
+## Creare un feed di dati
 
-Se non è stato configurato alcun feed, nella pagina viene visualizzato un messaggio [!UICONTROL Create New Data Feed] pulsante.
+Il pulsante [!UICONTROL Add] consente di creare un nuovo feed. Per ulteriori informazioni, vedere [Creare un feed di dati](create-feed.md).
 
-### Filtri e ricerca
+## Modificare un feed dati
 
-Utilizza la ricerca o i filtri per individuare un feed specifico.
+1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
 
-* Nel campo di ricerca, inizia a digitare il nome di un feed. Solo i feed corrispondenti vengono visualizzati nell’elenco dei feed disponibili.
+1. Individua il feed di dati da modificare. Per individuare un feed di dati, puoi [filtrare e cercare nell&#39;elenco dei feed di dati](#filter-and-search-the-list-of-data-feeds).
 
-* A sinistra, fai clic sull’icona del filtro per mostrare o nascondere le opzioni di filtro. I filtri sono organizzati per categoria. È possibile comprimere o espandere le categorie di filtro. Seleziona la casella di controllo accanto a qualsiasi filtro che desideri applicare.
+1. Selezionare il feed di dati nella colonna [!UICONTROL **Nome feed**].
 
-  ![Filtro](assets/filters.png)
+1. Apporta le modifiche desiderate al feed dati.
 
-### Feed e processi
+   Quando aggiorni la sezione [!UICONTROL **Destinazione**] per un feed di dati che stai modificando, puoi scegliere un account e un percorso diversi da utilizzare per il nuovo feed di dati nei campi a discesa [!UICONTROL **Account**] e [!UICONTROL **Posizione**].
 
-Seleziona la [!UICONTROL **Processi**] per visualizzare i singoli processi creati da ciascun feed. Consulta [Gestire i processi dei feed dati](df-manage-jobs.md).
+   Se si desidera modificare l&#39;account e la posizione di tutti i feed di dati in cui vengono utilizzati, è possibile modificare direttamente gli account e le posizioni, come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare le posizioni di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). Non è possibile modificare account e posizioni non cloud.
 
-### Add
+1. Seleziona [!UICONTROL **Salva**].
 
-Il [!UICONTROL Add] consente di creare un nuovo feed. Consulta [Creare un feed di dati](create-feed.md) per ulteriori informazioni.
+## Filtrare ed eseguire ricerche nell’elenco dei feed di dati
 
-### Colonne
+1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
+
+1. Utilizza la ricerca o i filtri per individuare un feed specifico.
+
+   * Nel campo di ricerca, inizia a digitare il nome di un feed. Solo i feed corrispondenti vengono visualizzati nell’elenco dei feed disponibili.
+
+   * A sinistra, fai clic sull’icona del filtro per mostrare o nascondere le opzioni di filtro. I filtri sono organizzati per categoria. È possibile comprimere o espandere le categorie di filtro. Seleziona la casella di controllo accanto a qualsiasi filtro che desideri applicare.
+
+![Filtro](assets/filters.png)
+
+## Visualizzare i processi di feed dati
+
+1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
+
+1. Seleziona la scheda [!UICONTROL **Processi**] per visualizzare i singoli processi creati da ciascun feed.
+
+   Oppure
+
+   Per visualizzare i processi per feed di dati specifici, seleziona la casella di controllo accanto a uno o più feed di dati, quindi seleziona [!UICONTROL **Cronologia processi**].
+
+   Per ulteriori informazioni, consulta [Gestire i processi dei feed dati](df-manage-jobs.md).
+
+## Copiare un feed dati
+
+1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
+
+1. Seleziona la casella di controllo accanto al feed di dati da copiare, quindi seleziona [!UICONTROL **Copia**].
+
+   Consente di [creare un nuovo feed](create-feed.md) con tutte le impostazioni del feed corrente. Questa opzione non è visibile se è selezionato più di un feed di dati.
+
+   Quando aggiorni la sezione [!UICONTROL **Destinazione**] per un feed di dati che stai copiando, puoi scegliere un account e un percorso diversi da utilizzare per il nuovo feed di dati nei campi a discesa [!UICONTROL **Account**] e [!UICONTROL **Posizione**].
+
+   Se si desidera modificare l&#39;account e la posizione di tutti i feed di dati in cui vengono utilizzati, è possibile modificare direttamente gli account e le posizioni, come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare le posizioni di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). Non è possibile modificare account e posizioni non cloud.
+
+## Mettere in pausa un feed dati
+
+È possibile interrompere l&#39;elaborazione del feed impostandone lo stato su [!UICONTROL Inactive].
+
+1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
+
+1. Selezionare la casella di controllo accanto al feed di dati che si desidera sospendere, quindi selezionare [!UICONTROL **Pausa**].
+
+## Attivare un feed dati
+
+È possibile attivare i feed inattivi.
+
+I feed di backfill (feed che elaborano solo dati storici) riprendono l’elaborazione dei dati dal punto in cui si sono interrotti, eseguendo la backfill di eventuali date, se necessario. I feed live riprendono anche l’elaborazione dei dati da dove si sono interrotti.
+
+>[!AVAILABILITY]
+>
+>La seguente modifica al modo in cui i feed live riprendono l’elaborazione dei dati si trova nella fase di test limitato del rilascio:
+> 
+>**I feed attivi riprendono l&#39;elaborazione dei dati dall&#39;ora corrente.**
+>
+>Questa modifica potrebbe non essere ancora disponibile nel tuo ambiente.
+>
+>Questa nota verrà rimossa quando questa modifica sarà generalmente disponibile. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
+
+Per attivare un feed di dati:
+
+1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
+
+1. Selezionare la casella di controllo accanto al feed dati inattivo che si desidera attivare, quindi selezionare [!UICONTROL **Attiva**].
+
+## Eliminare un feed dati
+
+Quando si elimina un feed di dati, lo stato è impostato su [!UICONTROL Deleted].
+
+1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
+
+1. Selezionare la casella di controllo accanto al feed di dati che si desidera eliminare, quindi selezionare [!UICONTROL **Elimina**].
+
+## Configurare le colonne nel gestore dei feed dati
 
 Ogni feed creato mostra diverse colonne che forniscono informazioni al riguardo. Seleziona un’intestazione di colonna per ordinarla in ordine crescente. Seleziona di nuovo un’intestazione di colonna per ordinarla in ordine decrescente. Se non riesci a visualizzare una colonna specifica, fai clic sull’icona della colonna in alto a destra.
 
 ![Icona colonna](assets/cols.jpg)
 
+Sono disponibili le seguenti colonne:
+
 * **Nome feed**: colonna obbligatoria. Visualizza il nome del feed.
-* **ID feed**: visualizza l’ID feed, un identificatore univoco.
+* **ID feed**: visualizza l&#39;ID feed, un identificatore univoco.
 * **Suite di rapporti**: la suite di rapporti da cui il feed fa riferimento ai dati.
 * **ID suite di rapporti**: identificatore univoco della suite di rapporti.
 * **Colonne dati**: quali colonne di dati sono attive per il feed. Nella maggior parte dei casi, sono presenti troppe colonne da visualizzare in questo formato.
-* **Interval**: indica se il feed è orario o giornaliero.
-* **Tipo di destinazione**: tipo di destinazione per il feed. Ad esempio, Amazon S3, GCP o Azure.
-* **Host di destinazione**: posizione in cui viene inserito il file.
+* **Intervallo**: indica se il feed è orario o giornaliero.
+* **Tipo di destinazione**: il tipo di destinazione per il feed. Ad esempio, Amazon S3, GCP o Azure.
+* **Host di destinazione**: percorso in cui è inserito il file.
 * **Proprietario**: account utente che ha creato il feed.
-* **Stato**: stato del feed.
+* **Stato**: lo stato del feed.
    * Attivo: il feed è operativo.
    * Approvazione in sospeso: in alcune circostanze, un feed richiede l’approvazione dell’Adobe prima di poter iniziare a generare processi.
    * Eliminato: il feed viene eliminato.
    * Completato: l&#39;elaborazione del feed è stata completata. Un feed completato può essere modificato, sospeso o annullato.
    * In sospeso: il feed viene creato ma non ancora attivo. I feed rimangono in questo stato per un breve periodo di transizione.
-   * Inattivo: equivalente allo stato &#39;sospeso&#39; o &#39;in attesa&#39;. Se viene riattivato un feed di backfill (un feed che elabora solo dati storici), riprende a consegnare i processi da quando è stato interrotto. Se un feed live viene riattivato, riprende la consegna dei processi da quando è stato interrotto.
-* **Ultima modifica**: data dell’ultima modifica apportata al feed. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT.
-* **Data di inizio**: data del primo processo per questo feed. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT.
-* **Data di fine**: data dell’ultimo processo per questo feed. I feed di dati in corso non hanno una data di fine.
+   * Inattivo: equivalente allo stato &#39;sospeso&#39; o &#39;in attesa&#39;. Per informazioni su ciò che accade con i feed di backfill e i feed live quando viene riattivato un feed inattivo, consulta [Attivare un feed di dati](#activate-a-data-feed).
+* **Ultima modifica**: data dell&#39;ultima modifica del feed. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT.
+* **Data inizio**: la data del primo processo per questo feed. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT.
+* **Data di fine**: la data dell&#39;ultimo processo per questo feed. I feed di dati in corso non hanno una data di fine.
 
-## Azioni feed dati
-
-Fai clic sulla casella di controllo accanto a un feed di dati per visualizzare le azioni disponibili.
-
-* **Cronologia processi**: visualizza tutti i processi associati a questi feed di dati. Consente di accedere automaticamente al [interfaccia per la gestione dei processi](df-manage-jobs.md).
-* **Elimina**: elimina il feed di dati, impostandone lo stato su [!UICONTROL Deleted].
-* **Copia**: ti porta a [crea un nuovo feed](create-feed.md) con tutte le impostazioni del feed corrente. Non è possibile copiare un feed di dati se ne è selezionato più di uno.
-* **Pausa**: interrompe l’elaborazione del feed, impostandone lo stato su [!UICONTROL Inactive].
-* **Attiva**: disponibile solo per i feed inattivi. I feed di backfill (feed che elaborano solo dati storici) riprendono l’elaborazione dei dati dal punto in cui si sono interrotti, eseguendo la backfill di eventuali date, se necessario. I feed attivi riprendono l’elaborazione dei dati dall’ora corrente.

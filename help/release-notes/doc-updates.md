@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b60a25d7b9ff28b7b9f0488acaa4380c4093d78f
+source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
 workflow-type: tm+mt
-source-wordcount: '5640'
-ht-degree: 99%
+source-wordcount: '5702'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Luglio 2024** | |
-| Messaggi di errore comuni aggiornati | Sono stati apportati aggiornamenti minori al [messaggi di errore comuni](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
+| È stata aggiornata la documentazione per la gestione dei feed dati | Sono state aggiornate le informazioni in [Gestione dei feed di dati](/help/export/analytics-data-feed/df-manage-feeds.md) per migliorarne la chiarezza. <p>Gli aggiornamenti includono:</p><ul><li>Sono state create sezioni separate per varie attività per semplificare la scansione e l’utilizzo delle informazioni.</li><li>Sono state aggiunte informazioni sulle modifiche al comportamento dei feed live riattivati. Queste modifiche sono attualmente disponibili in modo limitato e non sono ancora disponibili per tutti i clienti.</li> |
+| Messaggi di errore comuni aggiornati | Aggiornamenti minori ai [messaggi di errore comuni](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Giugno 2024** | |
 | Nome del prodotto aggiornato che fa riferimento alle funzioni streaming media | Le istanze di “Media Analytics” e “Streaming Media” sono state sostituite con il nome “Componente aggiuntivo Streaming Media Collection” quando si fa riferimento all’insieme di funzioni streaming media che raccolgono dati per contenuti multimediali in streaming e li presentano in Analysis Workspace. <p>Questi aggiornamenti sono disponibili all&#39;interno della documentazione di Adobe Analytics e nella [Documentazione del componente aggiuntivo Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).</p> |
 | Miglioramento della documentazione sugli avvisi intelligenti | È stata aggiornata e migliorata la documentazione sugli avvisi. Questi aggiornamenti includono informazioni su [creazione di avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [gestione degli avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) e [informazioni generali](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |

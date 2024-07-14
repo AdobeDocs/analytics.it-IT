@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Scopri come utilizzare i feed di dati per esportare dati non elaborati, e Data Warehouse per recuperare un output di dati sotto forma di foglio di calcolo. Scopri come utilizzare FTP e SFTP per trasferire i file.
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
 + Feed dati di Analytics {#analytics-data-feed}
    + [Panoramica sui feed dati](analytics-data-feed/data-feed-overview.md)
-   + [Creare o modificare un feed dati](analytics-data-feed/create-feed.md)
+   + [Creare un feed di dati](analytics-data-feed/create-feed.md)
    + [Gestire i feed dati](analytics-data-feed/df-manage-feeds.md)
    + [Gestire i lavori sui feed dati](analytics-data-feed/df-manage-jobs.md)
    + Contenuti feed dati {#data-feed-contents}
