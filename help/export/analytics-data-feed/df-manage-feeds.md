@@ -3,9 +3,9 @@ title: Interfaccia utente feed dati
 description: Scopri come navigare nell’interfaccia del feed dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: 3916115169f526bb91442d251e6159496efd547f
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1135'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,9 @@ Il pulsante [!UICONTROL Add] consente di creare un nuovo feed. Per ulteriori inf
 
    Quando aggiorni la sezione [!UICONTROL **Destinazione**] per un feed di dati che stai modificando, puoi scegliere un account e un percorso diversi da utilizzare per il nuovo feed di dati nei campi a discesa [!UICONTROL **Account**] e [!UICONTROL **Posizione**].
 
-   Se si desidera modificare l&#39;account e la posizione di tutti i feed di dati in cui vengono utilizzati, è possibile modificare direttamente gli account e le posizioni, come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare le posizioni di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). Non è possibile modificare account e posizioni non cloud.
+   Gli account e i percorsi possono essere modificati come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). La modifica di un account o di una posizione ha effetto su tutti gli elementi associati a tale account o posizione.
+
+   Le versioni precedenti di Data Feeds Manager consentivano di creare destinazioni BLOB FTP, SFTP, S3 e Azure. Le destinazioni create in queste versioni precedenti di Data Feeds Manager non possono essere modificate o copiate.
 
 1. Seleziona [!UICONTROL **Salva**].
 
@@ -84,7 +86,9 @@ Il pulsante [!UICONTROL Add] consente di creare un nuovo feed. Per ulteriori inf
 
    Quando aggiorni la sezione [!UICONTROL **Destinazione**] per un feed di dati che stai copiando, puoi scegliere un account e un percorso diversi da utilizzare per il nuovo feed di dati nei campi a discesa [!UICONTROL **Account**] e [!UICONTROL **Posizione**].
 
-   Se si desidera modificare l&#39;account e la posizione di tutti i feed di dati in cui vengono utilizzati, è possibile modificare direttamente gli account e le posizioni, come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare le posizioni di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). Non è possibile modificare account e posizioni non cloud.
+   Gli account e i percorsi possono essere modificati come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). La modifica di un account o di una posizione ha effetto su tutti gli elementi associati a tale account o posizione.
+
+   Le versioni precedenti di Data Feeds Manager consentivano di creare destinazioni BLOB FTP, SFTP, S3 e Azure. Le destinazioni create in queste versioni precedenti di Data Feeds Manager non possono essere modificate o copiate.
 
 ## Mettere in pausa un feed dati
 
