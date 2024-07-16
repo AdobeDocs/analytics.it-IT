@@ -3,9 +3,9 @@ title: Interfaccia utente feed dati
 description: Scopri come navigare nell’interfaccia del feed dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 3916115169f526bb91442d251e6159496efd547f
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1153'
 ht-degree: 2%
 
 ---
@@ -122,7 +122,9 @@ Per attivare un feed di dati:
 
 ## Eliminare un feed dati
 
-Quando si elimina un feed di dati, lo stato è impostato su [!UICONTROL Deleted].
+Quando si elimina un feed di dati, lo stato è impostato su [!UICONTROL Deleted]. I feed di dati devono avere lo stato Attivo prima di poter essere eliminati.
+
+Per eliminare un feed di dati:
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
 
