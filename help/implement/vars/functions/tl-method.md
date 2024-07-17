@@ -4,22 +4,22 @@ description: Invia una chiamata di tracciamento dei collegamenti ad Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 7%
+source-wordcount: '856'
+ht-degree: 6%
 
 ---
 
 # tl
 
-Il `tl()` Il metodo è un componente core importante per Adobe Analytics. Prende tutte le variabili di Analytics definite sulla pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe. Funziona in modo simile al [`t()`](t-method.md) Tuttavia, questo metodo non incrementa le visualizzazioni di pagina. È utile per tenere traccia dei collegamenti e di altri elementi che non verrebbero considerati come caricamento di pagina completo.
+Il metodo `tl()` è un importante componente di base di Adobe Analytics. Prende tutte le variabili di Analytics definite sulla pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe. Funziona in modo simile al metodo [`t()`](t-method.md), tuttavia questo metodo non incrementa le visualizzazioni di pagina. È utile per tenere traccia dei collegamenti e di altri elementi che non verrebbero considerati come caricamento di pagina completo.
 
-Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) sono attivati, AppMeasurement chiama automaticamente `tl()` metodo per inviare i dati di tracciamento dei collegamenti di download e di uscita. Se la tua organizzazione preferisce avere un maggiore controllo sui collegamenti da tracciare e sul loro comportamento, puoi chiamare il `tl()` manuale. I collegamenti personalizzati possono essere tracciati solo manualmente.
+Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) sono abilitati, AppMeasurement chiama automaticamente il metodo `tl()` per inviare i dati di tracciamento del collegamento di download e di uscita. Se la tua organizzazione preferisce avere un maggiore controllo sui collegamenti da tracciare e sul loro comportamento, puoi chiamare manualmente il metodo `tl()`. I collegamenti personalizzati possono essere tracciati solo manualmente.
 
 ## Tracciamento dei collegamenti tramite Web SDK
 
-L’SDK per web non distingue tra chiamate di visualizzazione pagina e chiamate di tracciamento dei collegamenti; entrambe utilizzano `sendEvent` comando.
+L&#39;SDK Web non distingue tra chiamate di visualizzazione pagina e chiamate di tracciamento dei collegamenti; entrambe utilizzano il comando `sendEvent`.
 
 Se utilizzi un oggetto XDM e vuoi che Adobe Analytics conti un dato evento come chiamata di tracciamento dei collegamenti, assicurati che i dati XDM includano:
 
@@ -68,15 +68,15 @@ L&#39;estensione Adobe Analytics dispone di una posizione dedicata per impostare
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
-1. Sotto [!UICONTROL Actions], fai clic sull’azione desiderata o fai clic su **&#39;+&#39;** per aggiungere un&#39;azione.
-1. Imposta il [!UICONTROL Extension] elenco a discesa per **[!UICONTROL Adobe Analytics]** e [!UICONTROL Action Type] a **[!UICONTROL Send Beacon]**.
-1. Fai clic su `s.tl()` pulsante di opzione.
+1. In [!UICONTROL Actions], fare clic sull&#39;azione desiderata o sull&#39;icona **&#39;+&#39;** per aggiungere un&#39;azione.
+1. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su **[!UICONTROL Adobe Analytics]** e [!UICONTROL Action Type] su **[!UICONTROL Send Beacon]**.
+1. Fare clic sul pulsante di opzione `s.tl()`.
 
 Non è possibile impostare argomenti facoltativi nell’estensione Analytics.
 
 ## Metodo s.tl() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Chiama il `s.tl()` quando desideri inviare una chiamata di tracciamento ad Adobe.
+Chiamare il metodo `s.tl()` quando si desidera inviare una chiamata di tracciamento a Adobe.
 
 ```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
@@ -88,10 +88,10 @@ L&#39;argomento oggetto link determina se il browser attende fino a 500 ms prima
 
 >[!NOTE]
 >
->AppMeasurement attiva automaticamente [`useBeacon`](../config-vars/usebeacon.md) variabile per i collegamenti di uscita, rendendo questo argomento non più necessario nei browser moderni. Questo argomento è stato utilizzato più comunemente nelle versioni precedenti di AppMeasurement.
+>AppMeasurement abilita automaticamente la variabile [`useBeacon`](../config-vars/usebeacon.md) per i collegamenti di uscita, rendendo questo argomento non più necessario nei browser moderni. Questo argomento è stato utilizzato più comunemente nelle versioni precedenti di AppMeasurement.
 
-* `this`: attendi fino a 500 ms per dare all’AppMeasurement il tempo di inviare una richiesta di immagine. Valore predefinito.
-* `true`: non aspettare.
+* `this`: attendere fino a 500 ms per dare all&#39;AppMeasurement il tempo di inviare una richiesta di immagine. Valore predefinito.
+* `true`: Non attendere.
 
 ```JavaScript
 // Include a 500ms delay with an exit link
@@ -105,9 +105,9 @@ s.tl(true,"e","Example exit link");
 
 L’argomento tipo di collegamento è una stringa di un singolo carattere che determina il tipo di chiamata di tracciamento dei collegamenti. Sono disponibili tre valori validi.
 
-* `o`: il collegamento è un [Collegamento personalizzato](/help/components/dimensions/custom-link.md).
-* `d`: il collegamento è un [Collegamento di download](/help/components/dimensions/download-link.md).
-* `e`: il collegamento è un [Collegamento di uscita](/help/components/dimensions/exit-link.md).
+* `o`: il collegamento è un [collegamento personalizzato](/help/components/dimensions/custom-link.md).
+* `d`: il collegamento è un [collegamento di download](/help/components/dimensions/download-link.md).
+* `e`: il collegamento è un [collegamento di uscita](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
@@ -122,7 +122,7 @@ s.tl(true,"e","Example exit link");
 
 ### Nome collegamento (consigliato)
 
-L’argomento nome collegamento è una stringa che determina l’elemento della dimensione di tracciamento del collegamento. Quando si utilizza [Collegamento personalizzato](/help/components/dimensions/custom-link.md), [Collegamento di download](/help/components/dimensions/download-link.md), o [Collegamento di uscita](/help/components/dimensions/exit-link.md) dimensioni nel reporting, questa stringa contiene l’elemento dimensione. Se questo argomento non è impostato, il [linkURL](../config-vars/linkurl.md) viene utilizzata la variabile.
+L’argomento nome collegamento è una stringa che determina l’elemento della dimensione di tracciamento del collegamento. Quando si utilizzano le dimensioni [Collegamento personalizzato](/help/components/dimensions/custom-link.md), [Collegamento di download](/help/components/dimensions/download-link.md) o [Collegamento di uscita](/help/components/dimensions/exit-link.md) nel reporting, questa stringa contiene l&#39;elemento dimensione. Se questo argomento non è impostato, viene utilizzata la variabile [linkURL](../config-vars/linkurl.md).
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
@@ -131,7 +131,7 @@ s.tl(true,"d","Sea turtle PDF report");
 
 ### Override variabili (facoltative)
 
-Consente di modificare i valori delle variabili per una singola chiamata. Consulta [sostituzioni variabili](../../js/overrides.md) per ulteriori informazioni.
+Consente di modificare i valori delle variabili per una singola chiamata. Per ulteriori informazioni, vedere [sostituzioni variabili](../../js/overrides.md).
 
 ```js
 var y = new Object();
@@ -156,7 +156,7 @@ s.tl(true,"o","Example link");
 
 ### Effettuare chiamate di tracciamento dei collegamenti all’interno di una funzione personalizzata
 
-Puoi consolidare il codice di tracciamento dei collegamenti in una funzione JavaScript indipendente definita nella pagina o in un file JavaScript collegato. È quindi possibile effettuare chiamate nella funzione onClick di ciascun collegamento. Imposta quanto segue in un file JavaScript:
+Puoi consolidare il codice di tracciamento dei collegamenti in una funzione JavaScript autonoma. È quindi possibile effettuare chiamate nella funzione `onClick` di ciascun collegamento. Imposta quanto segue in un file JavaScript:
 
 ```JavaScript
 function trackClickInteraction(name){
@@ -174,9 +174,12 @@ Puoi quindi chiamare la funzione ogni volta che desideri tenere traccia di un de
 <a href="example.html" onClick="trackClickInteraction('Example link');">Click here</a>
 ```
 
+>[!NOTE]
+>Una chiamata indiretta al metodo `tl()` può rendere meno pratico il reporting di sovrapposizione Activity Map. È necessario fare clic su ogni collegamento per registrare la funzione con l&#39;elemento link. Tuttavia, le dimensioni Activity Map in Workspace vengono tracciate allo stesso modo.
+
 ### Evita il tracciamento dei collegamenti duplicati
 
-Se `trackDownloadLinks` o `trackExternalLinks` sono attivati, AppMeasurement effettua automaticamente una chiamata di tracciamento dei collegamenti se i filtri corretti corrispondono. Se richiami anche manualmente `s.tl()` per questi clic sui collegamenti, puoi inviare dati duplicati ad Adobe. I dati duplicati gonfiano i numeri dei rapporti e li rendono meno precisi.
+Se `trackDownloadLinks` o `trackExternalLinks` sono abilitati, AppMeasurement effettua automaticamente una chiamata di tracciamento dei collegamenti se i filtri corretti corrispondono. Se chiami anche manualmente `s.tl()` per questi clic di collegamento, puoi inviare dati duplicati ad Adobe. I dati duplicati gonfiano i numeri dei rapporti e li rendono meno precisi.
 
 Ad esempio, la seguente funzione invierebbe due chiamate di tracciamento dei collegamenti per lo stesso clic di collegamento (collegamenti di download manuali e automatici):
 
@@ -195,4 +198,25 @@ function linkCode(obj) {
     s.tl(obj,"d","Example PDF download");
   }
 }
+```
+
+### Usa il metodo `tl()` con Activity Map
+
+È possibile utilizzare il metodo `tl()` per tenere traccia degli elementi personalizzati e configurare il rendering della sovrapposizione per il contenuto dinamico. Il parametro `linkName` viene utilizzato anche per impostare la dimensione [Activity Map Link](/help/components/dimensions/activity-map-link.md).
+
+Quando il metodo `tl()` viene chiamato direttamente dall&#39;evento al clic dell&#39;elemento HTML, l&#39;Activity Map può visualizzare una sovrapposizione per tale elemento al caricamento della pagina Web. Ad esempio:
+
+```html
+<a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
+```
+
+Quando il metodo `tl()` non viene chiamato direttamente dall&#39;evento al clic dell&#39;elemento HTML, l&#39;Activity Map può visualizzare una sovrapposizione solo dopo aver fatto clic su tale elemento. Ad esempio:
+
+```html
+<a href="index.html" onclick="someFn(event);">Example link text</a>
+<script>
+  function someFn (event) {
+    s.tl(event.srcElement,'o','Example custom link');
+  }
+</script>
 ```

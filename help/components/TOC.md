@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
-workflow-type: ht
-source-wordcount: '752'
-ht-degree: 100%
+source-git-commit: 11e98d35ba52fb777a08f950725b0e8dbb99fa22
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 100%
 + Dimensioni {#dimensions}
    + [Panoramica delle dimensioni](dimensions/overview.md)
    + [Compatibilità delle dimensioni](dimensions/compatibility.md)
+   + [Collegamento Activity Map](dimensions/activity-map-link.md)
+   + [Collegamento Activity Map per area geografica](dimensions/activity-map-link-by-region.md)
+   + [Pagina di Activity Map](dimensions/activity-map-page.md)
+   + [Area geografica di Activity Map](dimensions/activity-map-region.md)
    + [Consenso per la piattaforma di annunci](dimensions/ad-consent.md)
    + [Classificazione di tutte le pagine di ricerca](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)

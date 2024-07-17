@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 8727d6167a2c161ba646ae2217b0a6e7c4656dd1
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: 65e75a1c2b39823e72abfb0e5b61122c62f1f013
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 98%
 
 ---
 
@@ -55,6 +55,9 @@ ht-degree: 100%
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Variabili di pagina {#page-vars}
       + [Panoramica delle variabili di pagina](vars/page-vars/page-variables.md)
+      + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
+      + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
+      + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
@@ -85,6 +88,8 @@ ht-degree: 100%
       + [s_gi](vars/functions/s-gi.md)
       + [t](vars/functions/t-method.md)
       + [tl](vars/functions/tl-method.md)
+      + [ActivityMap.link](vars/functions/activitymap-link.md)
+      + [ActivityMap.region](vars/functions/activitymap-region.md)
       + [bufferRequests](vars/functions/bufferrequests.md)
       + [clearVars](vars/functions/clearvars.md)
       + [doPlugins](vars/functions/doplugins.md)

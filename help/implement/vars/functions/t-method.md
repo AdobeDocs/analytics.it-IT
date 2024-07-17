@@ -4,7 +4,7 @@ description: Invia ad Adobe una chiamata di tracciamento per la visualizzazione 
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e47bee837faf9b8cf080d878da860795ced014d5
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 14%
@@ -13,7 +13,7 @@ ht-degree: 14%
 
 # t()
 
-Il `t()` Il metodo è un componente core importante per Adobe Analytics. Prende tutte le variabili di Analytics definite sulla pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe.
+Il metodo `t()` è un importante componente di base di Adobe Analytics. Prende tutte le variabili di Analytics definite sulla pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe.
 
 Ad esempio, considera il seguente codice JavaScript:
 
@@ -29,10 +29,10 @@ s.eVar1 = "Example dimension item";
 s.t();
 ```
 
-Esecuzione di `t()` Il metodo accetta tutte le variabili di Analytics definite e formula un URL basato su tali variabili. Alcune variabili di Analytics determinano l’URL dell’immagine, mentre altre variabili determinano i valori dei parametri della stringa di query.
+L&#39;esecuzione del metodo `t()` accetta tutte le variabili di Analytics definite e formula un URL basato su tali variabili. Alcune variabili di Analytics determinano l’URL dell’immagine, mentre altre variabili determinano i valori dei parametri della stringa di query.
 
 ```text
-https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
+https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 ```
 
 L’Adobe riceve la richiesta di immagine, quindi analizza l’intestazione della richiesta, l’URL e i parametri della stringa di query. I server di raccolta dati restituiscono quindi un’immagine trasparente 1x1 pixel, visualizzata in modo invisibile sul sito.
@@ -44,12 +44,12 @@ Utilizza un’azione per configurare l’invio di dati evento XDM all’Adobe. L
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
-1. Sotto [!UICONTROL Actions], fai clic sull’Azione desiderata o fai clic su **&#39;+&#39;** per aggiungere un&#39;azione.
-1. Imposta il [!UICONTROL Extension] elenco a discesa per **[!UICONTROL Adobe Experience Platform Web SDK]** e [!UICONTROL Action Type] a **[!UICONTROL Send event]**.
+1. In [!UICONTROL Actions], fare clic sull&#39;azione desiderata o sull&#39;icona **&#39;+&#39;** per aggiungere un&#39;azione.
+1. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su **[!UICONTROL Adobe Experience Platform Web SDK]** e [!UICONTROL Action Type] su **[!UICONTROL Send event]**.
 
 ## Inviare eventi manualmente implementando Web SDK
 
-Utilizza il `sendEvent` comando per inviare dati ad Adobe. Lo stream di dati riceve tali dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics, se si tratta di un servizio aggiunto a tale stream di dati.
+Utilizza il comando `sendEvent` per inviare dati ad Adobe. Lo stream di dati riceve tali dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics, se si tratta di un servizio aggiunto a tale stream di dati.
 
 ```js
 alloy("sendEvent", {
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Consulta [Tracciare gli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
+Per ulteriori informazioni, consulta [Tracciare gli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) nella documentazione di Web SDK.
 
 ## Chiamata di tracciamento per la visualizzazione pagina tramite l’estensione Adobe Analytics
 
@@ -66,19 +66,19 @@ L’estensione Adobe Analytics in Adobe Experience Platform Data Collection disp
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
-1. Sotto [!UICONTROL Actions], fai clic sull’azione desiderata o fai clic su **&#39;+&#39;** per aggiungere un&#39;azione.
-1. Imposta il [!UICONTROL Extension] elenco a discesa per **[!UICONTROL Adobe Analytics]** e [!UICONTROL Action Type] a **[!UICONTROL Send Beacon]**.
-1. Fai clic su `s.t()` pulsante di opzione.
+1. In [!UICONTROL Actions], fare clic sull&#39;azione desiderata o sull&#39;icona **&#39;+&#39;** per aggiungere un&#39;azione.
+1. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su **[!UICONTROL Adobe Analytics]** e [!UICONTROL Action Type] su **[!UICONTROL Send Beacon]**.
+1. Fare clic sul pulsante di opzione `s.t()`.
 
 ## Metodo s.t() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Chiama il `s.t()` quando desideri inviare una chiamata di tracciamento ad Adobe.
+Chiamare il metodo `s.t()` quando si desidera inviare una chiamata di tracciamento a Adobe.
 
 ```js
 s.t();
 ```
 
-Facoltativamente, è possibile utilizzare un oggetto come argomento per sostituire i valori delle variabili. Consulta [sostituzioni variabili](../../js/overrides.md) per ulteriori informazioni.
+Facoltativamente, è possibile utilizzare un oggetto come argomento per sostituire i valori delle variabili. Per ulteriori informazioni, vedere [sostituzioni variabili](../../js/overrides.md).
 
 ```js
 var y = new Object();
@@ -88,4 +88,4 @@ s.t(y);
 
 >[!NOTE]
 >
->Le versioni precedenti di AppMeasurement utilizzavano diverse righe di codice per chiamare questa funzione. Il codice aggiuntivo storicamente adattato soluzioni alternative per diversi browser. La standardizzazione e le best practice nei browser moderni non richiedono più questo blocco di codice. Solo la chiamata al metodo `s.t()` è necessario ora.
+>Le versioni precedenti di AppMeasurement utilizzavano diverse righe di codice per chiamare questa funzione. Il codice aggiuntivo storicamente adattato soluzioni alternative per diversi browser. La standardizzazione e le best practice nei browser moderni non richiedono più questo blocco di codice. Al momento è necessaria solo la chiamata al metodo `s.t()`.
