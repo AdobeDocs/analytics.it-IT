@@ -3,7 +3,7 @@ title: Tipo di referrer
 description: Il tipo di referente, a seconda di dove proviene il visitatore.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 24608d7058b8e7ddbf255c2a67dbdc2bf1bc9cca
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 2%
@@ -12,22 +12,22 @@ ht-degree: 2%
 
 # Tipo di referrer
 
-Il &quot;Tipo di referrer&quot; [dimensione](overview.md) segnala quali canali generici i visitatori hanno fatto clic per arrivare al sito. L’Adobe mantiene le regole per ogni elemento dimensione, a differenza di [Canali di marketing](marketing-channel.md), in cui l’organizzazione mantiene le regole per ogni canale.
+Il &#39;Tipo referrer&#39; [dimensione](overview.md) segnala quali canali generici i visitatori hanno fatto clic per arrivare al sito. Adobe gestisce le regole per ogni elemento dimensione, a differenza di [Canali di marketing](marketing-channel.md), in cui l&#39;organizzazione mantiene le regole per ogni canale.
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione fa riferimento a più tabelle di ricerca interne a Adobe. Ogni valore è basato su [referrer](referrer.md) dell’hit, che dipende da [Filtri URL interni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Assicurati che la dimensione del referente e i filtri URL interni siano configurati correttamente.
+Questa dimensione fa riferimento a più tabelle di ricerca interne a Adobe. Ogni valore è basato sul [referrer](referrer.md) dell&#39;hit, che dipende da [Filtri URL interni](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Assicurati che la dimensione del referente e i filtri URL interni siano configurati correttamente.
 
 ## Elementi dimensionali
 
 Gli elementi di Dimension includono il tipo di referrer dell’hit. I valori specifici includono:
 
-* **Digitato/Contrassegnato con segnalibro**: non esistono dati di riferimento per l’hit.
-* **Motori di ricerca**: il referente proviene da un motore di ricerca riconosciuto che include una stringa di query per parola chiave.
-* **Social network:**: i dati del referente appartenevano a un social network riconosciuto dall’Adobe.
-* **Altri siti web**: i dati del referente non appartengono a un motore di ricerca o a un social network riconosciuto da Adobe.
-* **Disco rigido**: il referrer proviene da una copia locale di una pagina web sul disco rigido del visitatore.
-* **E-mail**: referrer proviene da un URL con un protocollo di `imap://` o `mail://`. Non include i servizi e-mail online, in quanto in genere utilizzano `https://` protocollo.
+* **Digitato/Contrassegnato con segnalibro**: non esistono dati di riferimento per l&#39;hit.
+* **Motori di ricerca**: il referente proviene da un motore di ricerca riconosciuto che include una stringa di query per parole chiave.
+* **Social network:**: i dati del referente appartengono a un social network riconosciuto dall&#39;Adobe.
+* **Altri siti Web**: i dati del referente non appartengono a un motore di ricerca o a un social network riconosciuto da Adobe.
+* **Disco rigido**: il referrer proviene da una copia locale di una pagina Web sul disco rigido del visitatore.
+* **E-mail**: il referrer ha avuto origine da un URL con protocollo `imap://` o `mail://`. Non include i servizi di posta elettronica online, che in genere utilizzano il protocollo `https://`.
 
 ### Social network
 
@@ -35,7 +35,7 @@ L’elenco seguente fa riferimento alla tabella di ricerca &quot;Social network&
 
 >[!NOTE]
 >
->Questo elenco è diverso da quello predefinito dei social network in [Regole di elaborazione per il canale di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+>Questo elenco è diverso da quello predefinito dei social network nelle [Regole di elaborazione del canale di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`
@@ -168,6 +168,7 @@ L’elenco seguente fa riferimento alla tabella di ricerca &quot;Social network&
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `threads.net`
 * `tiktok.com`
 * `toutiao.com`
 * `tripit.com`
@@ -202,7 +203,7 @@ L’elenco seguente fa riferimento alla tabella di ricerca &quot;Social network&
 
 ### Motori di ricerca nell’elemento dimensione &quot;Altri siti web&quot;
 
-Quando visualizzi domini specifici nella dimensione &quot;Tipo referrer&quot;, ci possono essere domini che ti aspetti in &quot;Motori di ricerca&quot; elencati invece in &quot;Altri siti web&quot;. Ad esempio, potresti vedere `'google.com'` in &#39;Altri siti Web&#39;.
+Quando visualizzi domini specifici nella dimensione &quot;Tipo referrer&quot;, ci possono essere domini che ti aspetti in &quot;Motori di ricerca&quot; elencati invece in &quot;Altri siti web&quot;. Ad esempio, `'google.com'` potrebbe essere visualizzato in &#39;Altri siti Web&#39;.
 
-* **Domini dei motori di ricerca nell’elemento dimensione &quot;Motori di ricerca&quot;**: il referente ha soddisfatto tutti i criteri per essere classificato come motore di ricerca per Adobe. Il dominio di riferimento è un motore di ricerca valido, *e* l’URL di riferimento contiene un parametro di stringa di query per parola chiave.
-* **Domini del motore di ricerca nell’elemento dimensione &quot;Altri siti web&quot;**: l’URL di riferimento non soddisfa tutti i criteri per essere classificato come motore di ricerca. Esempi comuni includono i sottodomini dedicati ad altre funzioni oltre alla ricerca. Ad esempio: `mail.google.com` o `autos.yahoo.com` non sono motori di ricerca, ma risiedono in un dominio di primo livello comunemente associato alla ricerca. Questi sottodomini non includono una stringa di query con parole chiave, ed è per questo che sono inclusi in &quot;Altri siti web&quot; invece di &quot;Motori di ricerca&quot;.
+* **Domini del motore di ricerca nell&#39;elemento dimensione &#39;Motori di ricerca&#39;**: il referente ha soddisfatto tutti i criteri per essere classificato come motore di ricerca per Adobe. Il dominio di riferimento è un motore di ricerca valido, *e* l&#39;URL di riferimento contiene un parametro di stringa di query per parola chiave.
+* **Domini del motore di ricerca nell&#39;elemento dimensione &#39;Altri siti Web&#39;**: l&#39;URL di riferimento non soddisfa tutti i criteri per la classificazione come motore di ricerca. Esempi comuni includono i sottodomini dedicati ad altre funzioni oltre alla ricerca. Ad esempio, `mail.google.com` o `autos.yahoo.com` non sono motori di ricerca, ma risiedono in un dominio di primo livello comunemente associato alla ricerca. Questi sottodomini non includono una stringa di query con parole chiave, ed è per questo che sono inclusi in &quot;Altri siti web&quot; invece di &quot;Motori di ricerca&quot;.

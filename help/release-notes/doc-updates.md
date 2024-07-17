@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
-source-wordcount: '5719'
+source-wordcount: '5742'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Luglio 2024** | |
+| Aggiunto threads.net alla dimensione &quot;Tipo referrer&quot; | È stato aggiunto threads.net all&#39;elenco dei social network utilizzati nella dimensione &#39;Tipo referrer&#39; [](/help/components/dimensions/referrer-type.md). |
 | È stata aggiornata la documentazione per la gestione dei feed dati | Sono state aggiornate le informazioni in [Gestione dei feed di dati](/help/export/analytics-data-feed/df-manage-feeds.md) per migliorarne la chiarezza. <p>Gli aggiornamenti includono:</p><ul><li>Sono state create sezioni separate per varie attività per semplificare la scansione e l’utilizzo delle informazioni.</li><li>Sono state aggiunte informazioni sulle modifiche al comportamento dei feed live riattivati. Queste modifiche sono attualmente disponibili in modo limitato e non sono ancora disponibili per tutti i clienti.</li><li>Sono state aggiunte informazioni che indicano che i feed di dati devono avere lo stato Attivo prima di poter essere eliminati.</li> |
 | Messaggi di errore comuni aggiornati | Aggiornamenti minori ai [messaggi di errore comuni](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Giugno 2024** | |
