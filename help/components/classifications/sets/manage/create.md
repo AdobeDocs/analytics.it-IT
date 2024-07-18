@@ -6,7 +6,7 @@ feature: Classifications
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 26%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ Puoi utilizzare Gestione set di classificazione per creare un set di classificaz
 Quando crei un set di classificazione, sono disponibili i seguenti campi.
 
 * **[!UICONTROL Name]**: campo di testo utilizzato per identificare il set di classificazione. Questo campo non può essere modificato al momento della creazione, ma può essere rinominato in un secondo momento.
-* **[!UICONTROL Column Name]**: nome della prima dimensione di classificazione da creare. Questo campo è il nome della dimensione utilizzato in Analysis Workspace e il nome della colonna durante l’esportazione dei dati di classificazione. Puoi aggiungere altri nomi di colonna dopo la creazione del set di classificazione.
+* **[!UICONTROL Column Name]**: nome della prima dimensione di classificazione da creare. Questo campo è il nome della dimensione utilizzato in Analysis Workspace e il nome della colonna quando si esportano i dati di classificazione. Puoi aggiungere altri nomi di colonna dopo la creazione del set di classificazione.
 * **[!UICONTROL Type]**: pulsanti di scelta che indicano il tipo di classificazione. Normalmente vengono utilizzate le classificazioni principali; le classificazioni di ricerca rappresentano [Sottoclassificazioni](../../c-sub-classifications.md).
 * **[!UICONTROL Subscriptions]** Le suite di rapporti e le dimensioni a cui si applica questo set di classificazione. Puoi aggiungere più combinazioni di suite di rapporti e dimensioni a un set di classificazione.
 

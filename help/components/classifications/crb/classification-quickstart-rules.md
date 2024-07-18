@@ -20,7 +20,7 @@ Il Generatore di regole consente di creare un *set di regole di classificazione*
 
 Le regole di classificazione sono utili per:
 
-* **E-mail** e **Visualizza annunci**: crea regole di classificazione per raggruppare le singole campagne pubblicitarie per confrontare le prestazioni delle campagne display ed e-mail.
+* **E-mail** e **Annunci visualizzati**: crea regole di classificazione per raggruppare le singole campagne pubblicitarie per apprendere le prestazioni delle campagne display rispetto alle campagne e-mail.
 
 * **Codici di tracciamento**: crea regole di classificazione per classificare i valori chiave derivati dalle stringhe nei codici di tracciamento e farli corrispondere a criteri specifici definiti dall’utente.
 * **Termini di ricerca**: utilizza [espressioni regolari](/help/components/classifications/crb/classification-quickstart-rules.md) e caratteri jolly per semplificare la classificazione dei termini di ricerca. Ad esempio, se un termine di ricerca contiene *`baseball`*, puoi impostare una classificazione *`Sports League`* su *`MLB`*.
@@ -151,7 +151,7 @@ Nel [!UICONTROL Rule Builder], configura la regola come segue:
 
 | Espressione regolare | Stringa o risultato della corrispondenza | Relativi gruppi di corrispondenza |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601`  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601` `$1`: em `$2`: JuneSale `$3`: 20130601 |
 | Creazione della sintassi | `^` = avvia la riga  () = raggruppa i caratteri e consente di estrarre i caratteri corrispondenti tra parentesi.  `(.+)` = acquisisce un carattere ( . ) e ( + ) qualsiasi altro carattere \ = inizio di una stringa.  `$` = indica che il carattere precedente (o il gruppo di caratteri) è l’ultimo della riga. |
 
 Per informazioni sul significato dei caratteri in un’espressione regolare, consulta [Espressioni regolari - Tabella riferimenti](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).
@@ -198,12 +198,12 @@ Nel [!UICONTROL Rule Builder], configura la regola come segue:
 
 | Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | Su |
 |--- |--- |--- |--- |
-| Espressione regolare per stringa di corrispondenza `a:b` | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Espressione regolare per stringa di corrispondenza `a:b` | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Espressione regolare per stringa di corrispondenza `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Espressione regolare per stringa di corrispondenza `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Espressione regolare per stringa di corrispondenza `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Espressione regolare per stringa di corrispondenza `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Espressione regolare per la stringa di corrispondenza `a:b` | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Espressione regolare per la stringa di corrispondenza `a:b` | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Espressione regolare per la stringa di corrispondenza `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Espressione regolare per la stringa di corrispondenza `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Espressione regolare per la stringa di corrispondenza `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Espressione regolare per la stringa di corrispondenza `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Espressioni regolari - Esempio di &quot;non contiene&quot; {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -327,7 +327,7 @@ Per aggiungere o modificare una regola di classificazione:
    >
    >* Le suite di rapporti hanno almeno una classificazione definita per la variabile in [!UICONTROL Admin Tools].
    >
-   >   (vedere *Variabile* in [Set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md) per una spiegazione di questo prerequisito.)
+   >   Per una spiegazione di questo prerequisito, vedere *Variabile* in [Set di regole di classificazione](/help/components/classifications/crb/classification-rule-set.md).
    >
    >* Hai selezionato la suite di rapporti nella pagina **[!UICONTROL Available Report Suites]**, che viene visualizzata dopo aver fatto clic su [Aggiungi set di regole](/help/components/classifications/crb/classification-rule-set.md) per creare il set di regole.
 
@@ -403,7 +403,7 @@ Per convalidare e attivare le regole di classificazione:
 
    ![](assets/overwrite_keys.png)
 
-1. Per sovrascrivere le classificazioni, abilita (facoltativo) **[!UICONTROL Overwrite classifications for]** &lt;*selezione*>.
+1. Per sovrascrivere le classificazioni, abilita **[!UICONTROL Overwrite classifications for]** &lt;*selezione*> (facoltativo).
 
    Questa opzione consente di sovrascrivere le classificazioni esistenti per le chiavi interessate.
 

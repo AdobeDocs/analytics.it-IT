@@ -5,8 +5,8 @@ feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 8%
+source-wordcount: '406'
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->Per massimizzare l’efficacia dei canali di marketing per Attribution e Customer Journey Analytics, abbiamo pubblicato alcune [best practice](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Per massimizzare l’efficacia dei canali di marketing per la funzione Attribuzione e Customer Journey Analytics, abbiamo pubblicato alcune [best practice revisionate](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Gli amministratori di Analytics possono gestire i canali di marketing per le loro organizzazioni come descritto in [Gestire i canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
@@ -52,7 +52,7 @@ Dettagli dei canali di marketing approfondisce ogni canale per mostrarti campagn
 
 ## Applicare modelli di attribuzione
 
-È possibile utilizzare [Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md) per applicare istantaneamente diversi modelli di attribuzione:
+Puoi utilizzare [Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md) per applicare istantaneamente diversi modelli di attribuzione:
 
 ![](assets/mc-viz5.png)
 
@@ -64,4 +64,4 @@ Utilizzando il canale di primo contatto e il canale di ultimo contatto legacy, p
 
 ![](assets/mc-viz6.png)
 
-Scopri di più sull’analisi di marketing cross-tab in questo video: [Utilizzo di analisi tra schede diverse per esplorare le attribuzioni marketing di base in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=it).
+Ulteriori informazioni sull&#39;analisi di marketing tra schede in questo video: [Utilizzo di analisi tra schede diverse per esplorare le attribuzioni marketing di base in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=it).

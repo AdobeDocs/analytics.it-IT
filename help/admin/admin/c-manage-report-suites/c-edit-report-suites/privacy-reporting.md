@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # Rapporti sulla privacy
 
-La generazione di rapporti sulla privacy consente di abilitare [Gestione del consenso Opt-in](/help/components/dimensions/cm-opt-in.md), [Rinuncia alla gestione del consenso](/help/components/dimensions/cm-opt-out.md) e [Consenso per la piattaforma di annunci](/help/components//dimensions/ad-consent.md) dimensioni da utilizzare nel reporting.
+La funzionalità di reporting sulla privacy consente di abilitare le dimensioni [Consent Management Opt-In](/help/components/dimensions/cm-opt-in.md), [Consent Management Opt-Out](/help/components/dimensions/cm-opt-out.md) e [Ad Platform Consent](/help/components//dimensions/ad-consent.md) da utilizzare nei rapporti.
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ La generazione di rapporti sulla privacy consente di abilitare [Gestione del con
 Per accedere a questa pagina:
 
 1. Accedi ad Adobe Analytics e passa a **[!UICONTROL Admin]** > **[!UICONTROL Report suites]**.
-1. Seleziona una o più suite di rapporti, quindi fai clic su **[!UICONTROL Edit settings]** > **[!UICONTROL Privacy management]** > **[!UICONTROL Privacy reporting]**.
+1. Selezionare una o più suite di rapporti desiderate, quindi selezionare **[!UICONTROL Edit settings]** > **[!UICONTROL Privacy management]** > **[!UICONTROL Privacy reporting]**.
 
    ![Modifica impostazioni](assets/rsm-privacy-select.png)
 

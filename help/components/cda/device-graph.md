@@ -23,10 +23,10 @@ Se intendi implementare Cross-Device Analytics utilizzando il metodo del grafico
 >
 >Il mancato rispetto di tutti i prerequisiti può comportare l’impossibilità di abilitare Cross-Device Analytics o risultati errati durante l’unione dei dati.
 
-* Tutti i prerequisiti elencati in [pagina panoramica](overview.md).
-* La tua organizzazione deve utilizzare [Grafico privato del servizio Adobe Experience Platform Identity](https://business.adobe.com/products/experience-platform/identity-service.html). Consulta anche [Home page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it) nella guida utente del servizio Identity.
-* L&#39;implementazione deve utilizzare la versione più recente del servizio ID Experience Cloud (ECID). Consulta la [Home page](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) nella guida utente del servizio ID. La maggior parte delle implementazioni di [Tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it) in Adobe Experience Platform probabilmente il servizio ID è già stato distribuito.
-* L’implementazione deve chiamare `setCustomerIDs` (o equivalente all’SDK) ogni volta che un individuo può essere identificato, ad esempio quando un utente accede o apre un’e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Consulta [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) nella guida utente del servizio ID.
+* Tutti i prerequisiti elencati nella [pagina della panoramica](overview.md).
+* L&#39;organizzazione deve utilizzare il [grafo privato del servizio Adobe Experience Platform Identity](https://business.adobe.com/products/experience-platform/identity-service.html). Vedi anche la [home page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it) nella guida utente del servizio Identity.
+* L&#39;implementazione deve utilizzare la versione più recente del servizio ID Experience Cloud (ECID). Consulta la [home page](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) nella guida utente del servizio ID. È probabile che il servizio ID sia già stato distribuito per la maggior parte delle implementazioni che utilizzano [Tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it) in Adobe Experience Platform.
+* L&#39;implementazione deve chiamare la funzione `setCustomerIDs` (o l&#39;equivalente SDK) ogni volta che un utente può essere identificato, ad esempio quando un utente accede o apre un messaggio e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Vedi [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) nella guida utente del servizio ID.
 
 ## Limitazioni specifiche del grafico dei dispositivi
 
@@ -36,4 +36,4 @@ Se intendi implementare Cross-Device Analytics utilizzando il metodo del grafico
 
 ## Passaggi successivi
 
-Una volta soddisfatti tutti i requisiti e compresi i limiti, puoi iniziare [Configurazione di Analytics tra dispositivi](setup.md).
+Quando l&#39;organizzazione soddisfa tutti i requisiti e comprende i limiti, puoi avviare [Configurazione di Cross-Device Analytics](setup.md).

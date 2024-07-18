@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '112'
 ht-degree: 5%
 
 ---
@@ -18,9 +18,9 @@ Per disinstallare Adobe Report Builder.
 
 1. Verificare che Microsoft Excel sia chiuso.
 1. Fai clic su **[!UICONTROL Start]** > **[!UICONTROL Control Panel]**.
-1. In Windows 7 o Vista, fare clic su Disinstalla un programma. In Windows XP, fare clic su **[!UICONTROL Add/Remove Programs]**.
-1. Verrà visualizzato un elenco dei programmi installati. Fai clic con il pulsante destro del mouse su Adobe Report Builder e seleziona (Condividi) **[!UICONTROL Uninstall]**.
-1. Viene visualizzata la finestra della procedura guidata di disinstallazione. Fai clic su **[!UICONTROL Uninstall]** (Usa modello di attribuzione non predefinito).
+1. In Windows 7 o Vista, fare clic su Disinstalla un programma. In Windows XP fare clic su **[!UICONTROL Add/Remove Programs]**.
+1. Verrà visualizzato un elenco dei programmi installati. Fare clic con il pulsante destro del mouse su Adobe Report Builder e selezionare **[!UICONTROL Uninstall]**.
+1. Viene visualizzata la finestra della procedura guidata di disinstallazione. Fai clic su **[!UICONTROL Uninstall]**.
 
    Se si desidera rimuovere completamente tutti i file e le cartelle dalla directory Programmi, eseguire la procedura seguente dopo la disinstallazione del Report Builder:
 1. Fai clic su **[!UICONTROL Start]** > **[!UICONTROL Computer]**.

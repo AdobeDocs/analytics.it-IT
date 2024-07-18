@@ -13,16 +13,16 @@ ht-degree: 2%
 
 # Dimensioni di entrata
 
-*Questa pagina della guida descrive il funzionamento delle voci come [dimensione](overview.md). Per informazioni sul funzionamento delle voci come metrica, vedi [Voci](../metrics/entries.md) metrica.*
+*Questa pagina della Guida descrive il funzionamento delle voci come [dimensione](overview.md). Per informazioni sul funzionamento delle voci come metrica, vedi la metrica [Voci](../metrics/entries.md).*
 
-Le dimensioni di entrata sono [basato su visite](../metrics/visits.md). Registrano il primo elemento dimensione e lo mantengono per l’intera durata di tale visita. Le dimensioni di entrata sono disponibili per tutte le variabili con percorso abilitato in [Variabili traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
+Le dimensioni di ingresso sono [basate sulle visite](../metrics/visits.md). Registrano il primo elemento dimensione e lo mantengono per l’intera durata di tale visita. Le dimensioni di ingresso sono disponibili per tutte le variabili con percorsi abilitati in [Variabili di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
 
 >[!TIP]
->Se desideri visualizzare i dati in base al primo hit di una visita invece del primo valore visualizzato in una visita, puoi utilizzare un [segmento](/help/components/segmentation/seg-overview.md). Utilizza un contenitore hit in cui [Profondità di hit](hit-depth.md) è uguale a 1, quindi utilizza quel segmento con la variabile desiderata.
+>Se desideri visualizzare i dati in base al primo hit di una visita invece del primo valore visualizzato in una visita, puoi utilizzare un [segmento](/help/components/segmentation/seg-overview.md). Utilizza un contenitore di hit in cui [Profondità di hit](hit-depth.md) è uguale a 1, quindi utilizza quel segmento con la variabile desiderata.
 
 ## Compilare dimensioni di immissione con i dati
 
-Una data voce [dimensione](overview.md) si basa sulla variabile di traffico associata. Se la variabile non di immissione contiene dati, anche la dimensione di immissione associata contiene dati. Se le variabili di traffico contengono dati, non sono necessarie modifiche all’implementazione per le dimensioni di immissione.
+Una data voce [dimensione](overview.md) è basata sulla variabile di traffico associata. Se la variabile non di immissione contiene dati, anche la dimensione di immissione associata contiene dati. Se le variabili di traffico contengono dati, non sono necessarie modifiche all’implementazione per le dimensioni di immissione.
 
 ## Elementi dimensionali
 
@@ -30,4 +30,4 @@ Poiché le variabili di ingresso sono in genere basate su stringhe personalizzat
 
 ## Pagina di ingresso originale
 
-La dimensione &quot;Pagina di ingresso originale&quot; funziona in modo diverso rispetto alle altre dimensioni di ingresso. Invece di conservare la pagina di ingresso per una determinata visita, conserva la prima pagina di ingresso per l’intera durata del cookie del visitatore. Ad esempio, se arrivi a `https://example.com/page4` per la tua prima visita al sito, poi un anno dopo approda su `https://example.com/store`, gli elenchi delle dimensioni &quot;Pagina di ingresso originale&quot; `https://example.com/page4` come elemento dimensione.
+La dimensione &quot;Pagina di ingresso originale&quot; funziona in modo diverso rispetto alle altre dimensioni di ingresso. Invece di conservare la pagina di ingresso per una determinata visita, conserva la prima pagina di ingresso per l’intera durata del cookie del visitatore. Ad esempio, se arrivi a `https://example.com/page4` per la tua prima visita al sito e un anno dopo arrivi a `https://example.com/store`, la dimensione &quot;Pagina di ingresso originale&quot; elenca `https://example.com/page4` come elemento della dimensione.

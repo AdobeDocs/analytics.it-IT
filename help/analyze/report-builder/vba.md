@@ -25,7 +25,7 @@ Adobe supporta tre metodi API di Report Builder.
 
 ## `RefreshAllReportBuilderRequests()`
 
-Il `RefreshAllReportBuilderRequests()` la macro aggiorna tutte le richieste di Report Builder nella cartella di lavoro attiva. Inizia chiamando il componente aggiuntivo COM di Report Builder tramite il relativo ID prodotto, quindi chiama `RefreshAllRequests()` Comando API:
+La macro `RefreshAllReportBuilderRequests()` aggiorna tutte le richieste di Report Builder nella cartella di lavoro attiva. Inizia chiamando il componente aggiuntivo COM di Report Builder tramite il relativo ID prodotto, quindi chiama il comando API `RefreshAllRequests()`:
 
 ```vba
 Sub RefreshAllReportBuilderRequests()
@@ -42,7 +42,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInActiveWorksheet()`
 
-Il `RefreshAllReportBuilderRequestsInActiveWorksheet()` macro aggiorna tutte le richieste di Report Builder nel foglio di lavoro attivo. Il `RefreshWorksheetRequests()` La chiamata API accetta un oggetto del foglio di lavoro come argomento. È possibile utilizzare questa chiamata per qualsiasi foglio di lavoro contenente richieste di Report Builder:
+La macro `RefreshAllReportBuilderRequestsInActiveWorksheet()` aggiorna tutte le richieste di Report Builder nel foglio di lavoro attivo. La chiamata API `RefreshWorksheetRequests()` accetta un oggetto foglio di lavoro come argomento. È possibile utilizzare questa chiamata per qualsiasi foglio di lavoro contenente richieste di Report Builder:
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInActiveWorksheet()
@@ -59,7 +59,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInCellsRange()`
 
-Il `RefreshAllReportBuilderRequestsInCellsRange()` macro aggiorna tutte le richieste di Report Builder i cui output di cella intersecano l&#39;intervallo di celle specificato. L&#39;intervallo di celle utilizzato in questo esempio punta all&#39;intervallo `B1:B54` del foglio di lavoro &quot;Dati&quot; nella cartella di lavoro attiva. L’espressione di intervallo supporta tutte le espressioni di intervallo di Excel supportate:
+La macro `RefreshAllReportBuilderRequestsInCellsRange()` aggiorna tutte le richieste di Report Builder i cui output di cella intersecano l&#39;intervallo di celle specificato. L&#39;intervallo di celle utilizzato in questo esempio punta all&#39;intervallo `B1:B54` del foglio di lavoro &quot;Dati&quot; nella cartella di lavoro attiva. L’espressione di intervallo supporta tutte le espressioni di intervallo di Excel supportate:
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInCellsRange()

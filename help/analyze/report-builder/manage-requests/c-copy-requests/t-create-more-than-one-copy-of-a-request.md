@@ -16,7 +16,7 @@ ht-degree: 7%
 
 È possibile creare più copie di una richiesta originale riempiendo un&#39;area di celle selezionata con il numero di copie della richiesta che si adattano.
 
-1. Seleziona la richiesta, quindi fai clic su **[!UICONTROL Copy Requests]**.
-1. Seleziona il numero di celle vuote necessario, quindi fai clic su [!DNL Paste Requests].
+1. Selezionare la richiesta, quindi fare clic su **[!UICONTROL Copy Requests]**.
+1. Selezionare tutte le celle vuote necessarie, quindi fare clic su [!DNL Paste Requests].
 
    Il Report Builder riempie l’area Incolla con il numero di copie delle richieste originali che possono rientrare, purché le richieste non si sovrappongano al bordo del foglio di calcolo o non siano già presenti richieste nell’area incolla selezionata.

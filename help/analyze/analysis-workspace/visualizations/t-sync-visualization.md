@@ -8,7 +8,7 @@ exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
 source-git-commit: de1ddbed4d455b6d05059e367369eb575a747971
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 81%
+ht-degree: 80%
 
 ---
 
@@ -42,7 +42,7 @@ Ecco un video sulle seguenti impostazioni:
 
 A differenza dell’architettura precedente, con questa architettura Analysis Workspace non crea più un livello duplicato nascosto in cui viene memorizzata la selezione bloccata. Ora, l’origine dati fa riferimento alla tabella da cui è stata creata la visualizzazione.
 
-## Esempi di casi d’uso
+## Casi d’uso di esempio
 
 * Puoi creare una visualizzazione di riepilogo e bloccarla su una cella nella tabella da cui l’hai creata. Quando abiliti l’opzione Mostra origine dati, viene mostrato esattamente da dove provengono i dati nella tabella. I dati di origine sono disattivati:
 
@@ -50,6 +50,6 @@ A differenza dell’architettura precedente, con questa architettura Analysis Wo
 * Puoi aggiungere numerose visualizzazioni, da diverse celle nella stessa tabella, come indicato di seguito. La tabella è la stessa dell’esempio precedente, ma la cella (e la metrica) di origine è diversa:
 
   ![](assets/data-source3.png)>
-* Per verificare se sono presenti visualizzazioni collegate a una tabella a forma libera o a coorte, fai clic sul punto in alto a sinistra (Impostazioni origine dati). Passando il mouse sulla visualizzazione collegata questa viene evidenziata; facendo clic, viene aperta.
+* Per verificare se sono presenti visualizzazioni connesse a una tabella a forma libera o a coorte, fai clic sul punto in alto a sinistra (Impostazioni Data Source). Passando il mouse sulla visualizzazione collegata questa viene evidenziata; facendo clic, viene aperta.
 
   ![](assets/linked-visualizations.png)>

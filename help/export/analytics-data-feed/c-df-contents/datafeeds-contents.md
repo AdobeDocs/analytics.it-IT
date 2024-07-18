@@ -28,7 +28,7 @@ Per accedere al contenuto di un feed dati:
 
 1. Decomprimi il file compresso utilizzando un programma che supporta le estensioni di file `.tar.gz`.
 
-1. Apri `hit_data.tsv` file nell’applicazione per fogli di calcolo o database scelta per visualizzare i dati non elaborati per quel giorno. —>
+1. Apri il file `hit_data.tsv` nell&#39;applicazione per fogli di calcolo o database scelta per visualizzare i dati non elaborati per quel giorno. —>
 
 ## File manifesto {#feed-manifest}
 
@@ -41,7 +41,7 @@ Il file manifesto contiene i seguenti dettagli su ciascun file che fa parte del 
 
 Il file manifest ha lo stesso formato di un file manifest Java JAR.
 
-Il file manifesto viene sempre recapitato per ultimo come file separato `.txt` in modo che la sua esistenza indichi che il set di dati completo per tale periodo di richiesta è già stato consegnato. I file manifesto sono denominati in base a quanto segue:
+Il file manifesto viene sempre recapitato per ultimo come file `.txt` separato, in modo che la sua esistenza indichi che il set di dati completo per tale periodo di richiesta è già stato recapitato. I file manifesto sono denominati in base a quanto segue:
 
 ```text
 [rsid]_[YYYY-mm-dd].txt
@@ -67,13 +67,13 @@ Datafeed-Manifest-Version: 1.0
 
 Ogni file manifesto contiene un&#39;intestazione che indica il numero totale di file di ricerca, file di dati e il numero totale di record in tutti i file di dati. Questa intestazione è seguita da più sezioni contenenti informazioni per ciascun file incluso nella consegna del feed di dati.
 
-Alcuni feed sono configurati per ricevere un `.fin` anziché un file `.txt` manifesto. Il `.fin` indica che il caricamento è completo, ma i metadati in esso contenuti sono in un formato precedente.
+Alcuni feed sono configurati per ricevere un file `.fin` invece di un manifesto `.txt`. `.fin` indica che il caricamento è completo, ma i metadati in esso contenuti sono in un formato precedente.
 
 ## Ricercare file
 
-Alcune colonne di feed dati restituiscono un numero che corrisponde al valore effettivo. I file di ricerca vengono utilizzati per far corrispondere un numero di una colonna di feed dati con un valore effettivo. Ad esempio, un valore di &quot;497&quot; nel campo `browser` la colonna dei dati di hit indica che l’hit proviene da &quot;Microsoft Internet Explorer 8&quot; se si cerca in `browser.tsv`.
+Alcune colonne di feed dati restituiscono un numero che corrisponde al valore effettivo. I file di ricerca vengono utilizzati per far corrispondere un numero di una colonna di feed dati con un valore effettivo. Ad esempio, il valore &quot;497&quot; nella colonna dei dati dell&#39;hit `browser` indica che l&#39;hit proviene da &quot;Microsoft Internet Explorer 8&quot; se si cerca in `browser.tsv`.
 
-Tieni presente che `column_headers.tsv` e `event_list.tsv` sono specifiche per il feed di dati e la suite di rapporti. Altri file, ad esempio `browser.tsv`, sono generici.
+Tieni presente che `column_headers.tsv` e `event_list.tsv` sono specifici per il feed di dati e la suite di rapporti. Altri file, ad esempio `browser.tsv`, sono generici.
 
 I file di ricerca vengono consegnati insieme in un file ZIP compresso denominato in base ai seguenti elementi:
 
@@ -82,32 +82,32 @@ I file di ricerca vengono consegnati insieme in un file ZIP compresso denominato
 ```
 
 * **`column_headers.tsv`**: una singola riga contenente le intestazioni di colonna per `hit_data.tsv`.
-* **`browser.tsv`**: mappa l’ID del browser (il `browser` feed) al nome descrittivo del browser.
-* **`browser_type.tsv`**: mappa l’ID del browser (il `browser` feed) al tipo di browser.
-* **`color_depth.tsv`**: esegue la mappatura dell’ID di profondità del colore (il `color` colonna feed) alla profondità del colore.
-* **`connection_type.tsv`**: esegue il mapping dell’ID del tipo di connessione (il `connection_type` feed) al tipo di connessione.
-* **`country.tsv`**: esegue la mappatura dell’ID paese (il `country` feed) al nome del paese.
-* **`javascript_version.tsv`**: esegue il mapping dell’ID versione JavaScript (il `javascript` feed) alla versione JavaScript.
-* **`languages.tsv`**: esegue la mappatura dell’ID lingua (il `language` colonna feed) alla lingua.
-* **`operating_systems.tsv`**: esegue il mapping dell’ID del sistema operativo (il `os` feed) al nome del sistema operativo.
-* **`plugins.tsv`**: esegue la mappatura dell’ID del plug-in (il `plugin` colonna feed) a ciascun nome del rispettivo plug-in.
-* **`resolution.tsv`**: esegue la mappatura dell’ID risoluzione (il `resolution` feed) alla risoluzione del monitor.
-* **`referrer_type.tsv`**: esegue la mappatura dell’ID del tipo di referente (il `ref_type` feed) al tipo di referente.
-* **`search_engines.tsv`**: mappa l’ID del motore di ricerca (il `search_engine` feed) al nome del motore di ricerca.
-* **`event.tsv`**: esegue la mappatura di ogni ID evento (il `event_list` feed) al rispettivo nome evento.
+* **`browser.tsv`**: esegue il mapping dell&#39;ID browser (colonna del feed `browser`) al nome descrittivo del browser.
+* **`browser_type.tsv`**: esegue il mapping dell&#39;ID del browser (colonna del feed `browser`) al tipo di browser.
+* **`color_depth.tsv`**: esegue il mapping dell&#39;ID di profondità del colore (colonna di feed `color`) alla profondità del colore.
+* **`connection_type.tsv`**: esegue il mapping dell&#39;ID del tipo di connessione (colonna del feed `connection_type`) al tipo di connessione.
+* **`country.tsv`**: esegue il mapping dell&#39;ID paese (colonna del feed `country`) al nome del paese.
+* **`javascript_version.tsv`**: esegue il mapping dell&#39;ID versione di JavaScript (colonna del feed `javascript`) alla versione di JavaScript.
+* **`languages.tsv`**: mappa l&#39;ID lingua (colonna del feed `language`) sulla lingua.
+* **`operating_systems.tsv`**: esegue il mapping dell&#39;ID del sistema operativo (colonna del feed `os`) al nome del sistema operativo.
+* **`plugins.tsv`**: esegue il mapping dell&#39;ID del plug-in (la colonna del feed `plugin`) al rispettivo nome del plug-in.
+* **`resolution.tsv`**: esegue il mapping dell&#39;ID risoluzione (colonna del feed `resolution`) alla risoluzione del monitoraggio.
+* **`referrer_type.tsv`**: esegue il mapping dell&#39;ID del tipo di referente (colonna del feed `ref_type`) al tipo di referente.
+* **`search_engines.tsv`**: esegue il mapping dell&#39;ID del motore di ricerca (colonna del feed `search_engine`) al nome del motore di ricerca.
+* **`event.tsv`**: esegue il mapping di ogni ID evento (la colonna del feed `event_list`) al rispettivo nome evento.
 
 ## File di dati di hit
 
-I dati di hit vengono forniti in una `hit_data.tsv` file. La quantità di dati in questo file è determinata dal formato di consegna (orario o giornaliero e file singoli o multipli). Questo file contiene solo dati di hit. Le intestazioni di colonna vengono consegnate separatamente con i file di ricerca. Ogni riga di questo file contiene una singola chiamata al server.
+I dati di hit vengono forniti in un file `hit_data.tsv`. La quantità di dati in questo file è determinata dal formato di consegna (orario o giornaliero e file singoli o multipli). Questo file contiene solo dati di hit. Le intestazioni di colonna vengono consegnate separatamente con i file di ricerca. Ogni riga di questo file contiene una singola chiamata al server.
 
 I file consegnati da Adobe variano in base al tipo di feed di dati configurato. Tutti i file sono codificati con ISO-8859-1.
 
-* `[rsid]` fa riferimento all’ID suite di rapporti da cui proviene il feed di dati.
-* `[index]` viene utilizzato solo in più feed di file e fa riferimento all’ordine corretto dei file impaginati.
-* `[YYYY-mm-dd]` si riferisce al giorno di inizio previsto per il feed di dati.
-* `[HHMMSS]` viene utilizzato solo nei feed orari e si riferisce all’ora di inizio prevista del feed di dati.
-* `[compression_suffix]` fa riferimento al tipo di compressione utilizzato. In genere, i feed di dati vengono compressi in `tar.gz` o `zip` file.
-* `[format_suffix]` fa riferimento al tipo di formato di file. In genere il formato del file di feed dati è `.tsv`.
+* `[rsid]` fa riferimento all&#39;ID suite di rapporti da cui proviene il feed di dati.
+* `[index]` viene utilizzato solo in più feed di file e fa riferimento all&#39;ordine corretto dei file impaginati.
+* `[YYYY-mm-dd]` si riferisce al giorno iniziale per il quale il feed dati è stato creato.
+* `[HHMMSS]` viene utilizzato solo nei feed orari e si riferisce all&#39;ora di inizio del feed dati.
+* `[compression_suffix]` fa riferimento al tipo di compressione utilizzato. In genere i feed di dati sono compressi in `tar.gz` o `zip` file.
+* `[format_suffix]` fa riferimento al tipo di formato di file. In genere il formato del file del feed dati è `.tsv`.
 
 ### Ogni giorno, file singolo
 
@@ -115,7 +115,7 @@ Una volta raccolti i dati per un giorno, si riceverà un singolo file di dati co
 
 `[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Quando viene estratto, il file di dati contiene un singolo `hit_data.tsv` con tutti i dati per quel giorno, nonché i file di ricerca per le colonne richieste.
+Una volta estratto, il file di dati contiene un singolo file `hit_data.tsv` con tutti i dati per quel giorno, nonché i file di ricerca per le colonne richieste.
 
 ### Giornaliero, più file
 
@@ -123,7 +123,7 @@ Una volta raccolti i dati per un giorno, si riceveranno uno o più file di dati 
 
 `[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Quando estratti, ogni file di dati contiene un singolo `[index]-[rsid]_[YYYY-mm-dd].[format_suffix]` che contiene circa 2 GB di dati non compressi e file di ricerca per le colonne richieste.
+Quando estratti, ogni file di dati contiene un singolo `[index]-[rsid]_[YYYY-mm-dd].[format_suffix]` che contiene circa 2 GB di dati non compressi e i file di ricerca per le colonne richieste.
 
 ### Ogni ora, file singolo
 
@@ -131,7 +131,7 @@ Una volta raccolti i dati per un&#39;ora, si riceverà un singolo file di dati c
 
 `[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
-Quando viene estratto, il file di dati contiene un singolo `hit_data.tsv` con tutti i dati per quell’ora, nonché i file di ricerca per le colonne richieste.
+Una volta estratto, il file di dati contiene un singolo file `hit_data.tsv` con tutti i dati per quell&#39;ora, nonché i file di ricerca per le colonne richieste.
 
 ### Ogni ora, più file
 
@@ -139,8 +139,8 @@ Una volta raccolti i dati per un&#39;ora, si riceveranno uno o più file di dati
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Quando estratti, ogni file di dati contiene un singolo `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` file contenente circa 2 GB di dati non compressi e file di ricerca per le colonne richieste.
+Una volta estratto, ogni file di dati contiene un singolo file `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` contenente circa 2 GB di dati non compressi e i file di ricerca per le colonne richieste.
 
 ## Dimensione file di dati
 
-La dimensione del file di dati hit varia notevolmente a seconda del numero di variabili utilizzate attivamente e della quantità di traffico inviato alla suite di rapporti. Tuttavia, in media, una riga di dati è di circa 500B (compressi) o 2KB (non compressi). Moltiplicando questo dato per il numero di chiamate al server si può ottenere una stima approssimativa delle dimensioni di un file di feed dati. Una volta che le organizzazioni iniziano a ricevere i file di feed dati, puoi trovare un numero più preciso dividendo il numero di righe in `hit_data.tsv` in base alla dimensione totale del file.
+La dimensione del file di dati hit varia notevolmente a seconda del numero di variabili utilizzate attivamente e della quantità di traffico inviato alla suite di rapporti. Tuttavia, in media, una riga di dati è di circa 500B (compressi) o 2KB (non compressi). Moltiplicando questo dato per il numero di chiamate al server si può ottenere una stima approssimativa delle dimensioni di un file di feed dati. Una volta che le organizzazioni iniziano a ricevere i file di feed dati, è possibile trovare un numero più preciso dividendo il numero di righe in `hit_data.tsv` per la dimensione totale del file.

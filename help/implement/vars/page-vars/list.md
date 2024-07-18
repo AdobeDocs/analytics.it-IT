@@ -19,7 +19,7 @@ Assicurati di registrare in che modo utilizzi ciascuna variabile elenco e la rel
 
 >[!NOTE]
 >
->Le variabili elenco memorizzano i valori più recenti per visitatore in base ai [!UICONTROL Max values] impostazione in [Impostazioni suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Sono supportati fino a 250 valori. Se sono presenti più valori univoci rispetto a quelli [!UICONTROL Max values] L’impostazione consente, i valori meno recenti non sono attribuiti alle metriche.
+>Le variabili elenco memorizzano i valori più recenti per visitatore in base all&#39;impostazione [!UICONTROL Max values] in [Impostazioni suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Sono supportati fino a 250 valori. Se sono presenti più valori univoci di quelli consentiti dall&#39;impostazione [!UICONTROL Max values], i valori meno recenti non vengono attribuiti alle metriche.
 
 ## Impostare le variabili elenco nelle impostazioni delle suite di rapporti
 
@@ -27,7 +27,7 @@ Assicurati di configurare ogni variabile elenco nelle impostazioni della suite d
 
 ## Variabili elenco tramite il Web SDK
 
-Se utilizzi il [**Oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), le variabili elenco utilizzano i campi XDM `xdm._experience.analytics.customDimensions.lists.list1.list[]` a `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Ogni elemento matrice contiene un oggetto `"value"` che contiene ogni stringa. Non è necessario fornire un delimitatore; i server di raccolta dati di Adobe rilevano e includono automaticamente il delimitatore corretto impostato in [Impostazioni suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), le variabili elenco utilizzano i campi XDM da `xdm._experience.analytics.customDimensions.lists.list1.list[]` a `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Ogni elemento matrice contiene un oggetto `"value"` che contiene ogni stringa. Non è necessario fornire un delimitatore. I server di raccolta dati di Adobe rilevano e includono automaticamente il delimitatore corretto impostato nelle [impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -59,7 +59,7 @@ Se utilizzi il [**Oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), l
 >
 >Lo schema XDM di Adobe contiene oggetti `key` oltre a oggetti `value` in ogni matrice `list[]`. Adobe non utilizza questi oggetti `key` durante l’invio di dati ad Adobe Analytics.
 
-Se utilizzi il [**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), le variabili elenco utilizzano `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` seguente AppMeasurement di sintassi. Assicurati di utilizzare il delimitatore corretto impostato in [Impostazioni suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), le variabili elenco utilizzano `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` seguendo la sintassi di AppMeasurement. Assicurati di utilizzare il set di delimitatori corretto in [Impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "data": {

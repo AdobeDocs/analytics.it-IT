@@ -13,28 +13,28 @@ ht-degree: 0%
 
 # Migrazione ad AppMeasurement per JavaScript
 
-Se la tua implementazione utilizza ancora il codice H, Adobe consiglia vivamente di migrare all’ultima versione di AppMeasurement. Implementazione di Analytics tramite [tag in Adobe Experience Platform](../launch/overview.md) Tuttavia, è possibile utilizzare un’implementazione JavaScript aggiornata.
+Se la tua implementazione utilizza ancora il codice H, Adobe consiglia vivamente di migrare all’ultima versione di AppMeasurement. Si consiglia di implementare Analytics tramite [tag in Adobe Experience Platform](../launch/overview.md), tuttavia è possibile utilizzare un&#39;implementazione JavaScript aggiornata.
 
 Rispetto al codice H, in AppMeasurement sono presenti le seguenti modifiche di rilievo:
 
 * 3-7 volte più veloce del codice H.
 * Più leggero del codice H: 21 kb non compresso rispetto al codice H, che è 33 kb non compresso.
-* La libreria e il codice della pagina possono essere distribuiti all&#39;interno del `<head>` tag.
+* La libreria e il codice della pagina possono essere distribuiti all&#39;interno del tag `<head>`.
 * Il codice H a livello di pagina esistente è compatibile con AppMeasurement.
 * La libreria fornisce utility native per ottenere parametri di query, cookie di lettura e scrittura ed eseguire il tracciamento avanzato dei collegamenti.
-* La libreria non supporta le variabili di configurazione dell’account dinamico (tra cui `dynamicAccountSelection`, `dynamicAccountMatch`, e `dynamicAccountList`).
+* La libreria non supporta le variabili di configurazione dell&#39;account dinamico (inclusi `dynamicAccountSelection`, `dynamicAccountMatch` e `dynamicAccountList`).
 
 I passaggi seguenti descrivono un flusso di lavoro di migrazione tipico.
 
-1. **Scarica il nuovo file di AppMeasurement**: accedi al nuovo file accedendo ad Adobe Analytics, quindi da Amministratore > Tutti gli amministratori > Gestione codici. Il file compresso scaricato contiene un `AppMeasurement.js` insieme ai moduli Media e Integrate.
-1. **Copia il `s_code.js` personalizzazioni in`AppMeasurement.js`**: sposta tutto il codice prima del `DO NOT ALTER ANYTHING BELOW THIS LINE` sezione in `s_code.js` all&#39;inizio di `AppMeasurement.js`.
-1. **Aggiorna tutti i plug-in**: assicurati di utilizzare la versione più recente di ciascun plug-in elencato in `s_code.js` file. Questo passaggio include i moduli Media e Integrate.
-1. **Distribuire il file AppMeasurement.js**: carica il tuo `AppMeasurement.js` sul server web.
-1. **Aggiorna i riferimenti script per puntare a`AppMeasurement.js`**: assicurati che tutte le pagine facciano riferimento `AppMeasurement.js` invece di `s_code.js`.
+1. **Scarica il nuovo file di AppMeasurement**: accedi al nuovo file accedendo ad Adobe Analytics, quindi scegliendo Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Il file compresso scaricato contiene un file `AppMeasurement.js` minimizzato, insieme ai moduli Media e Integrate.
+1. **Copia le personalizzazioni di `s_code.js` in`AppMeasurement.js`**: sposta tutto il codice prima della sezione `DO NOT ALTER ANYTHING BELOW THIS LINE` in `s_code.js` all&#39;inizio di `AppMeasurement.js`.
+1. **Aggiorna tutti i plug-in**: assicurarsi di utilizzare la versione più recente di ciascun plug-in elencato nel file `s_code.js`. Questo passaggio include i moduli Media e Integrate.
+1. **Distribuisci il file AppMeasurement.js**: carica il file `AppMeasurement.js` nel server Web.
+1. **Aggiorna i riferimenti dello script per puntare a`AppMeasurement.js`**: verificare che tutte le pagine facciano riferimento a `AppMeasurement.js` anziché a `s_code.js`.
 
 ## Esempio di codice Appmeasurement
 
-Un tipico `AppMeasurement.js` file. Assicurati che le variabili di configurazione siano impostate al di sopra di `doPlugins` funzione.
+Un file `AppMeasurement.js` tipico. Verificare che le variabili di configurazione siano impostate sopra la funzione `doPlugins`.
 
 ```js
 // Initialize AppMeasurement
@@ -89,4 +89,4 @@ s.t();
 </script>
 ```
 
-Accertati di aver incluso anche un riferimento a `AppMeasurement.js` e `VisitorAPI.js` su ogni pagina. Consulta [Implementazione JavaScript](/help/implement/js/overview.md) per ulteriori informazioni.
+Assicurarsi inoltre di aver incluso un riferimento a `AppMeasurement.js` e `VisitorAPI.js` in ogni pagina. Per ulteriori informazioni, vedere [Implementazione di JavaScript](/help/implement/js/overview.md).

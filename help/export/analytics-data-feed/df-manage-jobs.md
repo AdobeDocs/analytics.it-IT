@@ -5,7 +5,7 @@ feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '493'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ Accedi alla gestione dei processi dei feed dati seguendo questi passaggi:
 
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Fai clic sul menu a 9 griglie in alto a destra, quindi fai clic su [!UICONTROL Analytics].
-3. Nel menu principale, fai clic su [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. Nel menu principale, fare clic su [!UICONTROL Admin] > [!UICONTROL Data Feeds].
 4. Fai clic sulla scheda Processi accanto alla parte superiore.
 
 ![Menu feed dati](assets/AdminMenu.png)
@@ -51,18 +51,18 @@ Ogni processo mostra diverse colonne che forniscono informazioni al riguardo. Fa
 
 ![Icona colonna](assets/job-cols.jpg)
 
-* **ID feed**: visualizza l’ID feed, un identificatore univoco. I processi creati dallo stesso feed hanno lo stesso ID feed.
-* **ID processo**: identificatore univoco del processo. Tutti i processi hanno un ID processo diverso.
+* **ID feed**: visualizza l&#39;ID feed, un identificatore univoco. I processi creati dallo stesso feed hanno lo stesso ID feed.
+* **ID processo**: un identificatore univoco per il processo. Tutti i processi hanno un ID processo diverso.
 * **Nome feed**: colonna obbligatoria. Visualizza il nome del feed. I processi creati dallo stesso feed hanno lo stesso nome di feed.
 * **Suite di rapporti**: la suite di rapporti da cui il processo fa riferimento ai dati.
 * **ID suite di rapporti**: identificatore univoco della suite di rapporti.
-* **Ora di inizio**: ora di inizio del processo. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT. I feed giornalieri in genere iniziano vicino alla mezzanotte nel fuso orario della suite di rapporti.
-* **Stato**: stato del feed.
+* **Ora inizio**: ora di inizio del processo. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT. I feed giornalieri in genere iniziano vicino alla mezzanotte nel fuso orario della suite di rapporti.
+* **Stato**: lo stato del feed.
    * In attesa di dati: il processo è operativo e i dati per l’intervallo di reporting sono in fase di raccolta.
    * Elaborazione: il processo sta creando i file di dati e si sta preparando per inviarli.
    * Completato: il processo è stato completato senza alcun problema.
-   * Non riuscito: processo non completato. Consulta [Risoluzione dei problemi dei feed dati](troubleshooting.md) per determinare la causa del guasto.
+   * Non riuscito: processo non completato. Consulta [Risoluzione dei problemi dei feed di dati](troubleshooting.md) per determinare la causa dell&#39;errore.
    * In attesa di esportazione: i dati per l’intervallo di reporting non sono ancora stati completamente elaborati.
    * Nessun dato: non sono presenti dati nella suite di rapporti per l’intervallo di reporting richiesto.
-* **Ora di completamento**: ora in cui è stato completato il processo. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT.
-* **Data richiesta**: l’intervallo di reporting del file. I feed giornalieri in genere mostrano le 00:00 - 23:59 con una differenza GMT, che indica un giorno completo in base al fuso orario della suite di rapporti. I feed orari mostrano la singola ora a cui il processo è destinato.
+* **Ora di completamento**: l&#39;ora in cui il processo è stato completato. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT.
+* **Data richiesta**: l&#39;intervallo di reporting del file. I feed giornalieri in genere mostrano le 00:00 - 23:59 con una differenza GMT, che indica un giorno completo in base al fuso orario della suite di rapporti. I feed orari mostrano la singola ora a cui il processo è destinato.

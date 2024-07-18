@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Gestire account utente, risorse e scadenze legacy
 
-Puoi gestire gli account utente legacy, il loro stato di migrazione, i dati di scadenza, il trasferimento di risorse ad altri utenti e altro ancora tramite **[!UICONTROL Admin]> [!UICONTROL All Admin] >[!UICONTROL Analytics users & admin]**.
+Puoi gestire gli account utente legacy, il loro stato di migrazione, i dati di scadenza, il trasferimento di risorse ad altri utenti e altro ancora utilizzando **[!UICONTROL Admin]> [!UICONTROL All Admin] >[!UICONTROL Analytics users & admin]**.
 
 La schermata Utenti mostra un elenco degli utenti Adobe Analytics correnti, con le seguenti colonne:
 
@@ -30,18 +30,18 @@ La schermata Utenti mostra un elenco degli utenti Adobe Analytics correnti, con 
 
 ![Utenti](assets/users.png)
 
-- Per cercare un utente specifico, utilizza ![Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *Cerca per titolo* campo.
-- Per filtrare l’elenco in base allo stato di migrazione, seleziona ![Freccia](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Migration status]**.
-- Per filtrare l’elenco in base allo stato di accesso legacy, seleziona ![Freccia](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Legacy login]**.
-- Per modificare la visualizzazione delle colonne, selezionare ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) e seleziona le colonne dalla finestra a comparsa.
+- Per cercare un utente specifico, utilizzare il campo ![Cerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *Cerca per titolo*.
+- Per filtrare l&#39;elenco in base allo stato di migrazione, selezionare ![Casuale](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Migration status]**.
+- Per filtrare l&#39;elenco in base allo stato di accesso legacy, selezionare ![Chevron](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Legacy login]**.
+- Per modificare la visualizzazione delle colonne, selezionare ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) e selezionare le colonne dal popup.
 
 Puoi applicare varie azioni quando selezioni uno o più utenti dall’elenco:
 
 | Azione | Descrizione |
 |---|---|
 | ![Migra](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg) **[!UICONTROL Migrate]** | Puoi eseguire la migrazione di uno o più utenti a Enterprise ID o Adobe ID. |
-| ![Calendario bloccato](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL Set expiration]** | Puoi impostare una data di scadenza per l’utilizzo dell’accesso legacy di Adobe Analytics per gli utenti selezionati.  Selezionare la data in cui si desidera utilizzare un popup del calendario per specificare la data. Seleziona **[!UICONTROL Done]** per confermare la scadenza. |
-| ![Trasferire le risorse](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL Transfer assets]** | Questa azione è disponibile solo quando si seleziona un utente. Se l’utente dispone di risorse che possono essere trasferite, puoi selezionare gli elementi dell’account (come segnalibri, dashboard e altro ancora). Seleziona **[!UICONTROL Transfer]** per completare il trasferimento.<br/>![Trasferisce le risorse](assets/transfer-assets.png) |
-| ![Elimina account](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Delete accounts]** | Viene visualizzata una finestra di dialogo per confermare l’eliminazione degli account selezionati. Seleziona **[!UICONTROL OK]** per eliminare gli account. Seleziona **[!UICONTROL Cancel]** per annullare. |
+| ![Calendario bloccato](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL Set expiration]** | Puoi impostare una data di scadenza per l’utilizzo dell’accesso legacy di Adobe Analytics per gli utenti selezionati.  Selezionare la data in cui si desidera utilizzare un popup del calendario per specificare la data. Selezionare **[!UICONTROL Done]** per confermare la scadenza. |
+| ![Trasferisci risorse](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL Transfer assets]** | Questa azione è disponibile solo quando si seleziona un utente. Se l’utente dispone di risorse che possono essere trasferite, puoi selezionare gli elementi dell’account (come segnalibri, dashboard e altro ancora). Selezionare **[!UICONTROL Transfer]** per completare il trasferimento.<br/>![Trasferisce risorse](assets/transfer-assets.png) |
+| ![Elimina account](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Delete accounts]** | Viene visualizzata una finestra di dialogo per confermare l’eliminazione degli account selezionati. Selezionare **[!UICONTROL OK]** per eliminare gli account. Selezionare **[!UICONTROL Cancel]** per annullare. |
 | ![Esporta in CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Export to CSV]** | Questa azione scarica immediatamente un file contenente un elenco di valori separati da virgole degli utenti selezionati con i relativi dettagli (nome, stato della migrazione, e-mail e altro). |
 

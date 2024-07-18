@@ -22,7 +22,7 @@ Quando aggiorni più richieste, il sistema le raccoglie e assegna priorità in b
 
 Per aggiornare le richieste per tutti i fogli
 
-1. Fai clic su **[!UICONTROL Manage]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Manage]**.
 1. Abilita **[!UICONTROL All Sheets]**.
-1. Fai clic su **[!UICONTROL Refresh]** (Usa modello di attribuzione non predefinito).
-1. Specifica un riferimento di data, quindi fai clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL Refresh]**.
+1. Specificare un riferimento data, quindi fare clic su **[!UICONTROL OK]**.

@@ -68,7 +68,7 @@ Gli account dei motori di ricerca includono Google AdWords e Microsoft Bing.
 
 +++ Dove posso trovare l’accesso ad Advertising Analytics?
 
-Dopo aver effettuato l’accesso ad Adobe Analytics, passa alla [!UICONTROL Admin]. Quindi seleziona [!UICONTROL Advertising Analytics] per aggiungere gli account del motore di ricerca.
+Dopo aver effettuato l&#39;accesso ad Adobe Analytics, passa a [!UICONTROL Admin]. Quindi seleziona [!UICONTROL Advertising Analytics] per aggiungere gli account del motore di ricerca.
 
 +++
 
@@ -98,14 +98,14 @@ No, i dati di ricerca non elaborati verranno inseriti come set di dati indipende
 +++ Qual è la definizione dei vari indicatori di stato per i miei account (In sospeso, Attivo, In pausa, ecc.)? Ciascuno di questi indicatori di stato identifica la fase del ciclo di vita di ciascun account del motore di ricerca.
 
 * [!UICONTROL Pending]
-* [!UICONTROL Paused] significa che l’account è stato precedentemente configurato ma è stato messo in uno stato inattivo.
-* [!UICONTROL Active] significa che l’account è stato configurato completamente e sta estraendo i dati di ricerca.
+* [!UICONTROL Paused] significa che l&#39;account è stato precedentemente configurato ma è stato messo in uno stato inattivo.
+* [!UICONTROL Active] significa che l&#39;account è stato configurato completamente e sta estraendo i dati di ricerca.
 
 +++
 
 +++ Sto tentando di mappare i miei account Advertising Analytics su una suite di rapporti specifica, ma non è disponibile nella finestra modale Suite di rapporti. Perché?
 
-Prima di poter assegnare una suite di rapporti a un account Advertising Analytics, la suite di rapporti desiderata deve essere [predisposto per il reporting di Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Prima di poter assegnare una suite di rapporti a un account Advertising Analytics, è necessario eseguire il provisioning della suite di rapporti desiderata per il reporting di Advertising Analytics [](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 Questa operazione viene eseguita tramite una pagina Amministratore separata accessibile da: Amministratore > Suite di rapporti > `[select report suite]` > Modifica impostazioni > Configurazione Advertising Analytics.
 
 +++
@@ -116,7 +116,7 @@ Le suite di rapporti virtuali non raccolgono dati, pertanto non puoi mappare dir
 
 +++
 
-+++ Le metriche di Advertising Analytics sono segnalabili in *Canali di marketing* rapporto?
++++ Le metriche di Advertising Analytics sono segnalabili nel report *Marketing Channels*?
 
 No, non sono inclusi nel rapporto Canali di marketing.
 
@@ -128,13 +128,13 @@ I dati di ricerca vengono estratti dai motori di ricerca intorno alle 6 del matt
 
 +++
 
-+++ Cosa può essere *acquisito prima del clic*? Portiamo impressioni, costi, posizione media, ecc.? anche senza clic?
++++ Cosa è possibile acquisire *prima del clic*? Portiamo impressioni, costi, posizione media, ecc.? anche senza clic?
 
 L’AMO ID acquisirà le metriche del motore di ricerca: impression, costo, clic, posizione media e punteggio di qualità medio. Se non ci sono clic ma sono presenti impression, i dati di impression/posizione/punteggio di qualità verranno comunque inviati ad Analytics. In genere, se non ci sono clic, allora non c&#39;è anche alcun costo.
 
 +++
 
-+++ A che livello vengono acquisiti questi dati? *Visitatore? Colpito?*
++++ A che livello vengono acquisiti questi dati? *Visitatore? Hit?*
 
 Le metriche del motore di ricerca vengono acquisite a livello di hit e collegate all’AMO ID (e alle relative classificazioni). Si tratta di dati a livello di riepilogo e non collegati a visite/visitatori. Di conseguenza, le metriche del motore di ricerca possono essere utilizzate solo in segmenti con ambito a livello di hit e basati sull’AMO ID (o sulle relative classificazioni).
 
@@ -142,7 +142,7 @@ L’AMO ID viene anche acquisito nella pagina di destinazione dell’hit per que
 
 +++
 
-+++ Acquisiamo solo google.com o *versioni per paese* (come google.co.uk, google.it, google.fr o google.de)?
++++ Acquisiamo solo google.com o *versioni nazionali* (come google.co.uk, google.it, google.fr o google.de)?
 
 La classificazione della piattaforma di annunci acquisisce questi valori: &quot;Google Adwords&quot; e &quot;Bing Ads&quot;. Una best practice comune consiste nell’includere il codice del paese come parte della denominazione delle campagne. Puoi quindi filtrare verso il basso o segmentare (ad esempio, se tutte le campagne iniziano con country code_, la creazione di un segmento in cui Campagne (AMO ID) inizia con &quot;UK_&quot; ti fornirebbe solo i dati per il Regno Unito).
 
@@ -154,7 +154,7 @@ Il &quot;costo AMO&quot; è solo il costo pagato ai motori di ricerca. Non sono 
 
 +++
 
-+++ Sono previsti altri canali pubblicitari, quali *Visualizzazione* o *Social*?
++++ È previsto l&#39;inclusione di altri canali pubblicitari, ad esempio *Visualizzazione* o *Social*?
 
 No, al momento non abbiamo piani per questi altri canali nella roadmap.
 
@@ -163,7 +163,7 @@ No, al momento non abbiamo piani per questi altri canali nella roadmap.
 
 ## Tracciamento automatico e manuale {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Quando si configura il mio account Advertising, viene indicato che *Tracciamento automatico* può portare a conseguenze indesiderate. Che tipo di conseguenze possono verificarsi?
++++ Durante la configurazione del mio account Advertising, viene indicato che il *tracciamento automatico* può causare conseguenze indesiderate. Che tipo di conseguenze possono verificarsi?
 
 La modalità automatica tenta di aggiungere i parametri URL alla fine dei modelli di tracciamento o degli URL di destinazione nel formato corretto. Tuttavia, è tua responsabilità verificare che i parametri URL aggiunti persistano correttamente nella pagina di destinazione finale. La modalità automatica può inserire parole chiave nell’URL di destinazione e il server web potrebbe non supportare parole chiave con caratteri speciali.
 

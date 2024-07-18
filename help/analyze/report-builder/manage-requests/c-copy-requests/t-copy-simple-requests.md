@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Copia una richiesta semplice anziché una richiesta referenziale. Una richiesta semplice è una richiesta che non contiene riferimenti a un’altra richiesta o al contenuto di una cella.
 
-A [richiesta referenziale](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) utilizza i valori delle celle come input per i parametri, ad esempio un filtro dati o un filtro relazionale. Questi filtri utilizzano corrispondenze o tendenze e si basano sui risultati di una richiesta precedente o sul contenuto immesso dall’utente di una cella, denominata cella di input.
+Una [richiesta referenziale](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) utilizza i valori delle celle come input per i parametri, ad esempio un filtro dati o un filtro relazionale. Questi filtri utilizzano corrispondenze o tendenze e si basano sui risultati di una richiesta precedente o sul contenuto immesso dall’utente di una cella, denominata cella di input.
 
 Per copiare una richiesta semplice
 
@@ -27,8 +27,8 @@ Per copiare una richiesta semplice
 1. Seleziona **[!UICONTROL Copy Request]**.
 1. In un&#39;altra parte del foglio di calcolo, fare clic con il pulsante destro del mouse su una cella vuota, ovvero una cella che non contiene alcuna richiesta.
 
-   Per evitare di perdere o danneggiare le richieste già create, non è possibile incollare celle contenenti richieste in celle attualmente mappate con richieste. Se si copiano o si tagliano celle contenenti richieste, il menu di scelta rapida non crea [!UICONTROL Paste Requests] opzione disponibile quando si fa clic con il pulsante destro del mouse sulle celle (o sul set di celle) contenenti le richieste. È necessario selezionare una cella diversa come destinazione dell’operazione Incolla in modo che le richieste non si sovrappongano. Ciò vale sia che si selezioni una singola cella con una richiesta da incollare, sia che si selezioni un’area di celle contenente richieste.
-1. Fai clic su **[!UICONTROL Paste Request]** (Usa modello di attribuzione non predefinito).
+   Per evitare di perdere o danneggiare le richieste già create, non è possibile incollare celle contenenti richieste in celle attualmente mappate con richieste. Se si copiano o si tagliano celle contenenti richieste, il menu di scelta rapida non rende disponibile l&#39;opzione [!UICONTROL Paste Requests] quando si fa clic con il pulsante destro del mouse sulle celle (o sul set di celle) contenenti richieste. È necessario selezionare una cella diversa come destinazione dell’operazione Incolla in modo che le richieste non si sovrappongano. Ciò vale sia che si selezioni una singola cella con una richiesta da incollare, sia che si selezioni un’area di celle contenente richieste.
+1. Fai clic su **[!UICONTROL Paste Request]**.
 
    Una copia della richiesta originale viene inserita nella cella o nelle celle, in una posizione o nelle posizioni relative alla richiesta originale.
 

@@ -5,8 +5,8 @@ feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 12%
+source-wordcount: '404'
+ht-degree: 15%
 
 ---
 
@@ -20,10 +20,10 @@ Alcune dimensioni e metriche utilizzabili in Data Warehouse non sono disponibili
 
 ### Dimension supportati esclusivamente
 
-* **ID EXPERIENCE CLOUD**: per le implementazioni che utilizzano il servizio ID Experience Cloud (ECID), un numero a 128 bit costituito da due numeri concatenati a 64 bit aggiunti a 19 cifre.
-* **URL della pagina**: URL della pagina in cui si è verificato l’hit.
-* **ID acquisto**: identificatore univoco di un acquisto, impostato utilizzando la variabile purchaseID.
-* **ID visitatore**: fornisce l’identificatore univoco del visitatore. Questo valore è uguale al valore concatenato di `visid_high` e `visid_low` colonne nei feed di dati. Consulta [Riferimento colonna dati](../analytics-data-feed/c-df-contents/datafeeds-reference.md) in Feed dati per ulteriori informazioni.
+* **ID Experience Cloud**: per le implementazioni che utilizzano il servizio ID Experience Cloud (ECID), un numero a 128 bit costituito da due numeri concatenati a 64 bit aggiunti a 19 cifre.
+* **URL pagina**: URL della pagina in cui si è verificato l&#39;hit.
+* **ID acquisto**: identificatore univoco per un acquisto, impostato utilizzando la variabile purchaseID.
+* **ID visitatore**: fornisce l&#39;identificatore univoco del visitatore. Questo valore è uguale al valore concatenato di `visid_high` e `visid_low` colonne nei feed di dati. Per ulteriori informazioni, vedere [Riferimento colonna dati](../analytics-data-feed/c-df-contents/datafeeds-reference.md) in Feed dati.
 
 ### Metriche supportate in modo esclusivo
 
@@ -67,7 +67,7 @@ Alcune dimensioni e metriche non sono supportate in Data Warehouse.
    * Ricariche
    * Accesso singolo
    * Metriche &quot;Tempo trascorso&quot;
-* Metriche di partecipazione (come descritto in [Creare una metrica di &quot;partecipazione&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* Metriche di partecipazione (come descritto in [Creare una metrica di partecipazione](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
 ### Dimension supportati in modo diverso
 

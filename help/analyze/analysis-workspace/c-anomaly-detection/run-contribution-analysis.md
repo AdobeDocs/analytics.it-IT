@@ -7,7 +7,7 @@ feature: Anomaly Detection
 source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ In un progetto, è possibile invocare l’analisi dei contributi in due modi:
 1. (Facoltativo) Dopo aver fatto clic su **[!UICONTROL Run Contribution Analysis]** nel grafico a linee o in una tabella, puoi restringere l’ambito dell’analisi (e quindi velocizzarla) [escludendo alcune dimensioni](#exclude).
 
 1. Attendi che venga caricata l’analisi dei contributi. Il tempo richiesto dipende dalla dimensione della suite per rapporti e dal numero di dimensioni, e potrebbe essere piuttosto lungo. L’analisi dei contributi viene eseguita su 50.000 elementi per dimensione.
-1. Analysis Workspace carica quindi un nuovo pannello Analisi contributi direttamente all’interno di questo progetto.
+1. Analysis Workspace carica quindi un nuovo pannello Analisi contributi direttamente nel progetto.
 
    * Visualizzazione del numero di **Visite** in un dato giorno.
    * **Linea delle tendenze di visita** mensile per contesto.

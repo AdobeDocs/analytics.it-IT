@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Campagne
 
-Le &quot;Campagne&quot; [dimensione](overview.md) può fare riferimento a:
+La &#39;Campagne&#39; [dimensione](overview.md) può fare riferimento a:
 
-* A [classificazione](../classifications/c-classifications.md) creato automaticamente in alcune suite di rapporti. Si basa sulla [Codice di tracciamento](tracking-code.md) dimensione.
-* Il [Codice di tracciamento](tracking-code.md) la dimensione stessa, che utilizza il [campagna](/help/implement/vars/page-vars/campaign.md) variabile di implementazione
+* Una [classificazione](../classifications/c-classifications.md) creata automaticamente in alcune suite di rapporti. È basato sulla dimensione [Codice di tracciamento](tracking-code.md).
+* La dimensione stessa del [codice di tracciamento](tracking-code.md), che utilizza la variabile di implementazione [campaign](/help/implement/vars/page-vars/campaign.md).

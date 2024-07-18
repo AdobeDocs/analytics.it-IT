@@ -16,8 +16,8 @@ ht-degree: 7%
 
 Nelle richieste di layout pivot e personalizzato, per i valori numerici o stringa, è possibile anteporre o posporre stringhe o caratteri alle celle.
 
-Questa opzione è disponibile nel [!UICONTROL Request Wizard: Step 2] finestra.
+Questa opzione è disponibile nella finestra [!UICONTROL Request Wizard: Step 2].
 
-**Anteponi testo:** Aggiunge un prefisso di valori numerici o stringa nella cella.
+**Testo di anteprima:** Aggiunge un prefisso di valori numerici o stringa nella cella.
 
-**Testo postpend:** Aggiunge alla cella un valore numerico o una stringa.
+**Testo postpend:** Aggiunge alla cella valori numerici o stringa.

@@ -16,4 +16,4 @@ ht-degree: 7%
 
 Puoi specificare un nome personalizzato per la richiesta, che verrà visualizzato in Request Manager (Gestore richieste).
 
-Per ulteriori informazioni, consulta [Formattare le intestazioni di visualizzazione](/help/analyze/report-builder/layout/t-format-display-headers.md).
+Per ulteriori informazioni, vedere [Formattare le intestazioni di visualizzazione](/help/analyze/report-builder/layout/t-format-display-headers.md).

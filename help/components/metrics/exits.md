@@ -12,14 +12,14 @@ ht-degree: 3%
 
 # Uscite
 
-*Questa pagina della guida descrive il funzionamento delle uscite come una metrica. Per informazioni sul funzionamento delle uscite come dimensioni, consulta [Dimensioni di uscita](../dimensions/exit-dimensions.md).*
+*Questa pagina della guida descrive il funzionamento delle uscite come una metrica. Per informazioni sul funzionamento delle uscite come dimensione, vedere [Dimensioni di uscita](../dimensions/exit-dimensions.md).*
 
-Le &#39;Uscite&#39; [metrica](overview.md) mostra il numero di volte in cui un dato elemento dimensione viene acquisito come ultimo valore in una visita. Questa metrica è utile quando vuoi saperne di più sull’ultima cosa che i visitatori vedono prima di lasciare il sito. Vedere gli ultimi valori di una dimensione può aiutarti a comprendere e ottimizzare l’esperienza che un visitatore ottiene prima di partire.
+La [metrica](overview.md) &quot;Uscite&quot; mostra il numero di volte in cui un dato elemento dimensione viene acquisito come ultimo valore in una visita. Questa metrica è utile quando vuoi saperne di più sull’ultima cosa che i visitatori vedono prima di lasciare il sito. Vedere gli ultimi valori di una dimensione può aiutarti a comprendere e ottimizzare l’esperienza che un visitatore ottiene prima di partire.
 
 ## Come è calcolata questa metrica
 
-Dopo un [visita](visits.md) conclude, registra l’elemento dimensione più recente come uscita. Esiste una sola uscita per dimensione per visita. Non è necessariamente l’ultimo hit della visita se la dimensione è stata impostata negli hit precedenti. È una metrica basata sulle visite; si applica retroattivamente a tutti gli hit nella visita.
+Al termine di una [visita](visits.md), registra l&#39;elemento dimensione più recente come uscita. Esiste una sola uscita per dimensione per visita. Non è necessariamente l’ultimo hit della visita se la dimensione è stata impostata negli hit precedenti. È una metrica basata sulle visite; si applica retroattivamente a tutti gli hit nella visita.
 
 >[!TIP]
 >
->Se visualizzi questa metrica rispetto a una dimensione non sempre impostata in ogni visita, puoi nascondere l’elemento dimensione &quot;Non specificato&quot; in Analysis Workspace. Fai clic sull’icona del filtro, quindi deseleziona [!UICONTROL Include unspecified (None)].
+>Se visualizzi questa metrica rispetto a una dimensione non sempre impostata in ogni visita, puoi nascondere l’elemento dimensione &quot;Non specificato&quot; in Analysis Workspace. Fare clic sull&#39;icona del filtro, quindi deselezionare [!UICONTROL Include unspecified (None)].

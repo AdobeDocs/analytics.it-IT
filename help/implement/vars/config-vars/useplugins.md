@@ -13,21 +13,21 @@ ht-degree: 1%
 
 # usePlugins
 
-Se `usePlugins` è attivato, il [`doPlugins()`](../functions/doplugins.md) la funzione viene eseguita subito prima della compilazione di AppMeasurement e invia un hit a Adobe. Abilita questa variabile se utilizzi il `doPlugins()` funzione.
+Se `usePlugins` è abilitato, la funzione [`doPlugins()`](../functions/doplugins.md) viene eseguita immediatamente prima della compilazione di AppMeasurement e invia un hit a Adobe. Abilitare questa variabile se si utilizza la funzione `doPlugins()`.
 
-## Utilizza il `onBeforeEventSend` callback tramite Web SDK
+## Utilizza il callback `onBeforeEventSend` tramite Web SDK
 
-Anche se l’SDK per web non dispone di un valore booleano per gestire l’esecuzione di una logica aggiuntiva prima che i dati vengano inviati all’Adobe, puoi registrare `onBeforeEventSend` callback per modificare i dati. Consulta [Modifica degli eventi a livello globale](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
+Sebbene l&#39;SDK Web non disponga di un valore booleano per gestire l&#39;esecuzione di una logica aggiuntiva prima che i dati vengano inviati all&#39;Adobe, è possibile registrare il callback `onBeforeEventSend` per modificare i dati. Per ulteriori informazioni, consulta [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) nella documentazione di Web SDK.
 
 ## Utilizzare i plug-in tramite l’estensione Adobe Analytics
 
-L’Adobe fornisce un’estensione denominata &quot;Common Analytics Plugins&quot; che consente di chiamare la maggior parte dei [Plug-in](../plugins/impl-plugins.md). Installa l’estensione e chiama il plug-in desiderato all’interno di una regola.
+L&#39;Adobe fornisce un&#39;estensione denominata &#39;Common Analytics Plugins&#39; che consente di chiamare la maggior parte dei [plug-in](../plugins/impl-plugins.md). Installa l’estensione e chiama il plug-in desiderato all’interno di una regola.
 
 Se il plug-in desiderato non è incluso nell’estensione Adobe, utilizza l’editor di codice personalizzato seguendo la sintassi di AppMeasurement.
 
 ## s.usePlugins in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.usePlugins` è un valore booleano che determina se AppMeasurement chiama `doPlugins()` funzione. Il valore predefinito è `false`. Imposta questa variabile su `true` se utilizza `doPlugins()` nell&#39;implementazione.
+La variabile `s.usePlugins` è un valore booleano che determina se AppMeasurement chiama la funzione `doPlugins()`. Il valore predefinito è `false`. Impostare questa variabile su `true` se si utilizza la funzione `doPlugins()` nell&#39;implementazione.
 
 ```js
 s.usePlugins = true;

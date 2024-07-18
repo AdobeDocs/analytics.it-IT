@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 99%
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Per accessibilità si intendono i prodotti utilizzabili da persone con disabilit
 
 La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il basso e da sinistra a destra. I seguenti elementi di navigazione facilitano l’accessibilità:
 
-* Il tasto `Tab` abilita scelte rapide per punti di riferimento, per spostarsi tra sezioni più grandi all’interno di Workspace. Nella barra a sinistra, `Tab` consente anche di passare da un’opzione trascinabile all’altra.
+* Il tasto `Tab` consente di utilizzare scelte rapide per punti di riferimento e di spostarsi tra sezioni più grandi all’interno di Workspace. Nella barra a sinistra, `Tab` consente anche di passare da un’opzione trascinabile all’altra.
 * I tasti `left/right arrows` consentono di spostarsi tra i singoli elementi evidenziati da `Tab`.
 * Il tasto `F6` consente di passare al primo pannello del progetto e tra le varie visualizzazioni all’interno di tale pannello. Quindi, consente di passare al pannello successivo del progetto e così via.
 * Gli indicatori di focus vengono applicati in modo che gli utenti vedenti che utilizzano la tastiera abbiano un’indicazione chiara dell’elemento dell’interfaccia attualmente attivo. L’indicatore è un bordo blu intorno all’elemento selezionato.
 
-   ![Indicatore di focus](assets/focus-indicator.png)
+  ![Indicatore di focus](assets/focus-indicator.png)
 
 ### Navigazione tramite tastiera per la barra dei menu
 
@@ -78,7 +78,7 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 | --- | --- |
 | `[Ctrl + S]` | Salva |
 | `[Ctrl + Shift + G]` | Cura |
-| `[Ctrl + G]` | Condivisione |
+| `[Ctrl + G]` | Condividi |
 | `[Alt + Shift + S]` | Pianificazione |
 | `[Alt + L]` | Ottieni collegamento al progetto |
 | `[Ctrl + Shift + B]` | Scarica PDF |

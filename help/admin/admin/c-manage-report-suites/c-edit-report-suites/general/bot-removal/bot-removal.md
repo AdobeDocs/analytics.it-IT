@@ -24,7 +24,7 @@ I metodi di filtro dei bot standard e personalizzati sono supportati in **[!UICO
 | Regole bot standard IAB | Se si seleziona **[!UICONTROL Enable IAB Bot Filtering Rules]**, per rimuovere il traffico da bot viene utilizzata la lista internazionale Spiders e Bots di [IAB](https://www.iab.com/) (International Advertising Bureau). La maggior parte dei clienti seleziona come minimo questa opzione. |
 | Regole bot personalizzate | Puoi definire e aggiungere regole bot personalizzate in base agli agenti utente, agli indirizzi IP o agli intervalli IP. |
 
-Per maggiori dettagli, consulta [Comprendere e configurare le regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+Per ulteriori dettagli, consulta [Comprendere e configurare le regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 ## Utilizza il plug-in [!UICONTROL websiteBot] per identificare i bot
 
@@ -72,9 +72,9 @@ Ricorda di utilizzare l’ID visitatore Experience Cloud come dimensione e di ap
 Quando arriva il rapporto Data Warehouse, hai un elenco di ECID che devono essere filtrati dai dati storici. Copia e incolla questi ECID in un file .csv vuoto con solo due colonne, ECID e flag bot.
 
 * **ECID**: assicurati che questa intestazione di colonna corrisponda al nome assegnato al nuovo ID dichiarato sopra.
-* **Flag bot**: aggiungi &quot;Flag bot&quot; come dimensione dello schema dell’attributo del cliente.
+* **Flag bot**: aggiungi &quot;Flag bot&quot; come dimensione dello schema dell&#39;attributo del cliente.
 
-Utilizza questo file .CSV come file di importazione dell’attributo cliente, quindi abbona le suite di rapporti all’attributo cliente come descritto in questo [post di blog](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
+Usa questo file .CSV come file di importazione dell&#39;attributo cliente, quindi abbona le suite di rapporti all&#39;attributo cliente come descritto in questo [post di blog](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
@@ -86,7 +86,7 @@ Una volta elaborato e integrato il set di dati in Analysis Workspace, crea un al
 
 ### Passaggio 6: utilizza questo segmento come filtro della suite di rapporti virtuale
 
-Infine, crea un’ [Suite di rapporti virtuale](/help/components/vrs/vrs-about.md) che utilizza questo segmento per filtrare i bot identificati:
+Infine, crea una [Suite di rapporti virtuale](/help/components/vrs/vrs-about.md) che utilizza questo segmento per filtrare i bot identificati:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

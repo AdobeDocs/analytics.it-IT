@@ -17,13 +17,13 @@ Le variabili dinamiche consentono di copiare i valori da una variabile all’alt
 
 Nelle versioni precedenti di Analytics, la lunghezza della richiesta di immagine era importante per evitare il troncamento dei dati. I miglioramenti apportati ad AppMeasurement consentono stringhe di query di richiesta immagine molto più lunghe, pertanto le variabili dinamiche generalmente non sono necessarie.
 
-Le variabili dinamiche supportano parametri di stringa di query o intestazioni HTTP in una richiesta di immagine. Consulta [parametri query della raccolta dati](../../validate/query-parameters.md) per un elenco completo dei parametri disponibili a cui fare riferimento. Consulta [Campi di richiesta standard](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields) su Wikipedia per un elenco completo dei campi di richiesta HTTP disponibili come riferimento.
+Le variabili dinamiche supportano parametri di stringa di query o intestazioni HTTP in una richiesta di immagine. Per un elenco completo dei parametri disponibili a cui fare riferimento, vedere [Parametri query raccolta dati](../../validate/query-parameters.md). Consulta [Campi di richiesta standard](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields) su Wikipedia per un elenco completo dei campi di richiesta HTTP disponibili come riferimento.
 
 Quando Adobe riconosce un prefisso di variabile dinamica, copia automaticamente la stringa di query o il valore dell’intestazione HTTP nella suite di rapporti. Questa azione si verifica prima di qualsiasi altra elaborazione, incluse le regole di elaborazione e le regole VISTA.
 
 >[!TIP]
 >
->Presta attenzione ai limiti massimi dei caratteri durante la copia delle variabili. Ad esempio, se si copia `eVar1` a `prop1`, `prop1` può avere un valore troncato poiché ha un limite di 100 byte (mentre `eVar1` ha un limite di 255 byte).
+>Presta attenzione ai limiti massimi dei caratteri durante la copia delle variabili. Ad esempio, se si copia `eVar1` in `prop1`, `prop1` può avere un valore troncato poiché ha un limite di 100 byte (mentre `eVar1` ha un limite di 255 byte).
 
 ## Variabili dinamiche tramite Web SDK
 
@@ -32,8 +32,8 @@ Utilizza la mappatura dello stream di dati per inviare dati a più variabili di 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic su **[!UICONTROL Datastreams]** nella barra a sinistra.
 1. Fai clic sullo stream di dati desiderato.
-1. Clic **[!UICONTROL Edit Mapping]** a destra.
-1. Mappa il [!UICONTROL Source Field] al valore desiderato [!UICONTROL Target Field]. Un singolo campo di origine può essere mappato su qualsiasi numero di campi di destinazione.
+1. Fai clic su **[!UICONTROL Edit Mapping]** a destra.
+1. Mappa [!UICONTROL Source Field] desiderato su [!UICONTROL Target Field] desiderato. Un singolo campo di origine può essere mappato su qualsiasi numero di campi di destinazione.
 
 ## Variabili dinamiche tramite l’estensione Adobe Analytics
 
@@ -43,7 +43,7 @@ Puoi utilizzare le variabili dinamiche in qualsiasi campo dimensione che accetta
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Imposta il [!UICONTROL Extension] in Adobe Analytics e nella sezione [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+5. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua l’elemento di dimensione desiderato.
 
 Inserisci il prefisso della variabile dinamica nel campo di testo, seguito dal parametro della stringa di query o dall’intestazione HTTP a cui desideri fare riferimento. Per impostazione predefinita, il prefisso della variabile dinamica è `D=`.

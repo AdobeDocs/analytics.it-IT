@@ -15,17 +15,17 @@ ht-degree: 7%
 
 {{plug-in}}
 
-Il `getAndPersistValue` il plug-in consente di memorizzare un valore in un cookie che può essere recuperato in un secondo momento durante una visita. Ha un ruolo simile a quello di [!UICONTROL Storage duration] nell’estensione Adobe Analytics all’interno di Adobe Experience Platform Data Collection. L’Adobe consiglia di utilizzare questo plug-in se desideri che una variabile di Analytics mantenga automaticamente lo stesso valore negli hit successivi dopo l’impostazione della variabile. Questo plug-in non è necessario se [!UICONTROL Storage duration] nell&#39;estensione Analytics è sufficiente. Inoltre, non è necessario utilizzare questo plug-in se non è necessario impostare e mantenere le variabili allo stesso valore negli hit successivi. La persistenza integrata delle eVar non richiede l’utilizzo di questo plug-in, in quanto le eVar persistono lato server dopo Adobe.
+Il plug-in `getAndPersistValue` consente di memorizzare un valore in un cookie che può essere recuperato in seguito durante una visita. Ha un ruolo simile alla funzione [!UICONTROL Storage duration] nell&#39;estensione Adobe Analytics in Raccolta dati Adobe Experience Platform. L’Adobe consiglia di utilizzare questo plug-in se desideri che una variabile di Analytics mantenga automaticamente lo stesso valore negli hit successivi dopo l’impostazione della variabile. Questo plug-in non è necessario se la funzionalità [!UICONTROL Storage duration] nell&#39;estensione Analytics è sufficiente. Inoltre, non è necessario utilizzare questo plug-in se non è necessario impostare e mantenere le variabili allo stesso valore negli hit successivi. La persistenza integrata delle eVar non richiede l’utilizzo di questo plug-in, in quanto le eVar persistono lato server dopo Adobe.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con Web SDK.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
-1. Clic **[!UICONTROL Tags]** a sinistra, fai clic sulla proprietà tag desiderata.
-1. Clic **[!UICONTROL Extensions]** a sinistra, quindi fai clic su **[!UICONTROL Catalog]** scheda
-1. Individuare e installare **[!UICONTROL Common Web SDK Plugins]** estensione.
-1. Clic **[!UICONTROL Data Elements]** a sinistra, quindi fai clic sull’elemento dati desiderato.
+1. Fare clic su **[!UICONTROL Tags]** a sinistra, quindi fare clic sulla proprietà tag desiderata.
+1. Fai clic su **[!UICONTROL Extensions]** a sinistra, quindi sulla scheda **[!UICONTROL Catalog]**
+1. Individuare e installare l&#39;estensione **[!UICONTROL Common Web SDK Plugins]**.
+1. Fai clic su **[!UICONTROL Data Elements]** a sinistra, quindi sull&#39;elemento dati desiderato.
 1. Imposta il nome dell’elemento dati desiderato con la seguente configurazione:
    * Estensione: Common Web SDK Plugins
    * Elemento dati: `getAndPersistValue`
@@ -42,8 +42,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -58,14 +58,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -76,13 +76,13 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## Utilizzare il plug-in
 
-Il `getAndPersist` La funzione utilizza i seguenti argomenti:
+La funzione `getAndPersist` utilizza i seguenti argomenti:
 
 * **`vtp`** (obbligatorio): valore da mantenere da pagina a pagina
-* **`cn`** (facoltativo): nome del cookie in cui memorizzare il valore. Se questo argomento non è impostato, il cookie viene denominato `"s_gapv"`
+* **`cn`** (facoltativo): nome del cookie in cui memorizzare il valore. Se questo argomento non è impostato, il cookie è denominato `"s_gapv"`
 * **`ex`** (facoltativo): numero di giorni prima della scadenza del cookie. Se questo argomento è `0` o non è impostato, il cookie scade alla fine della visita (30 minuti di inattività).
 
-Se la variabile in `vtp` , il plug-in imposta il cookie e restituisce il valore del cookie. Se la variabile in `vtp` non è impostato, il plug-in restituisce solo il valore del cookie.
+Se la variabile nell&#39;argomento `vtp` è impostata, il plug-in imposta il cookie e restituisce il valore del cookie. Se la variabile nell&#39;argomento `vtp` non è impostata, il plug-in restituisce solo il valore del cookie.
 
 ## Esempi
 
@@ -117,7 +117,7 @@ s.eVar30 = getAndPersistValue(s.eVar30);
 ### 2.0 (16 aprile 2018)
 
 * Versione punto (dimensioni del codice più piccole)
-* Passaggio di 0 in `ex` L’argomento ora forza la scadenza dopo 30 minuti di inattività, anziché alla scadenza alla fine della sessione del browser.
+* Se si passa 0 nell&#39;argomento `ex`, la scadenza verrà forzata dopo 30 minuti di inattività e non alla fine della sessione del browser.
 
 ### 1.0 (18 gennaio 2016)
 

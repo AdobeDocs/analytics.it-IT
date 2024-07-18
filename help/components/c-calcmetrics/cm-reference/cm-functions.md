@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
 source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1084'
 ht-degree: 95%
 
 ---
@@ -237,7 +237,7 @@ L’equazione per STDEV è:
 
 ![](assets/std_dev.png)
 
-Dove *x* è il valore di ciascun campione (*metrica*), *x̄* è la popolazione media e *n* è la dimensione della popolazione.
+Dove *x* è il valore di ciascun campione (*metrica*), *x̄* è la media della popolazione e *n* è la dimensione della popolazione.
 
 ```
 STDEV(metric)
@@ -255,7 +255,7 @@ L’equazione per VARIANCE è:
 
 ![](assets/variance_eq.png)
 
-Dove *x* è il valore di ciascun campione (*metrica*), *x̄* è la popolazione media e *n* è la dimensione della popolazione.
+Dove *x* è il valore di ciascun campione (*metrica*), *x̄* è la media della popolazione e *n* è la dimensione della popolazione.
 
 ```
 VARIANCE(metric)
@@ -281,4 +281,4 @@ Ad esempio, supponiamo che sia presente una colonna con tre elementi:
 
 3
 
-La media di questa colonna è 2. La varianza per la colonna sarà ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.
+La media di questa colonna è 2. La varianza della colonna sarà ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.

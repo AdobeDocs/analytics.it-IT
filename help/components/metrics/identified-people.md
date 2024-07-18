@@ -12,7 +12,7 @@ ht-degree: 15%
 
 # Persone identificate
 
-&quot;Persone identificate&quot; [metrica](overview.md) è un [Analisi cross-device](../cda/overview.md) metrica che conta il numero di visitatori identificati da CDA.
+La metrica [metric](overview.md) per &quot;Persone identificate&quot; è una metrica [Analisi multidispositivo](../cda/overview.md) che conta il numero di visitatori identificati da CDA.
 
 ## Come è calcolata questa metrica
 

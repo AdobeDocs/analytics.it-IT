@@ -15,7 +15,7 @@ ht-degree: 6%
 
 {{plug-in}}
 
-Il `formatTime` Il plug-in consente di richiedere un numero qualsiasi di secondi e di presentarli in un formato a blocchi, arrotondati al valore di riferimento desiderato. L’Adobe consiglia di utilizzare questo plug-in se desideri acquisire un valore di tempo in secondi e convertirlo in un formato bucket (ad esempio minuti, giorni o settimane). Questo plug-in non è necessario se non si desidera inserire valori basati su secondi in un formato con arrotondamento temporale.
+Il plug-in `formatTime` consente di richiedere un numero qualsiasi di secondi e di presentarli in un formato a blocchi, arrotondato al valore di benchmark desiderato. L’Adobe consiglia di utilizzare questo plug-in se desideri acquisire un valore di tempo in secondi e convertirlo in un formato bucket (ad esempio minuti, giorni o settimane). Questo plug-in non è necessario se non si desidera inserire valori basati su secondi in un formato con arrotondamento temporale.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
@@ -27,8 +27,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -43,14 +43,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,17 +61,17 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## Utilizzare il plug-in
 
-Il `formatTime` La funzione utilizza i seguenti argomenti:
+La funzione `formatTime` utilizza i seguenti argomenti:
 
-* **`ns`** (obbligatorio, numero intero): numero di secondi da convertire o formattare
+* **`ns`** (obbligatorio, numero intero): numero di secondi per la conversione o il formato
 * **`tf`** (facoltativo, stringa): tipo di formato in cui restituire i secondi; impostazione predefinita: secondi
    * Imposta su `"d"` se vuoi il tempo in giorni (arrotondato al benchmark di 1/4 giorno più vicino per impostazione predefinita)
    * Imposta su `"h"` se desideri il tempo in ore (arrotondato al benchmark di 1/4 ore più vicino per impostazione predefinita)
    * Imposta su `"m"` se vuoi il tempo in minuti (arrotondato al benchmark di 1/2 minuti più vicino per impostazione predefinita)
-   * Imposta su `"s"` se vuoi il tempo in secondi (arrotondato al benchmark di 5 secondi più vicino per impostazione predefinita)
-* **`bml`** (facoltativo, numero): lunghezza dei parametri di riferimento di arrotondamento. Valori predefiniti per i benchmark elencati nella `tf` argomento
+   * Imposta su `"s"` se desideri il tempo in secondi (arrotondato al benchmark di 5 secondi più vicino per impostazione predefinita)
+* **`bml`** (facoltativo, numero): lunghezza dei parametri di riferimento di arrotondamento. Impostazione predefinita dei benchmark elencati nell&#39;argomento `tf`
 
-La funzione restituisce il numero di secondi formattati utilizzando l’unità specificata nella `tf` argomento. Se il `tf` argomento non impostato:
+La funzione restituisce il numero di secondi formattati utilizzando l&#39;unità specificata nell&#39;argomento `tf`. Se l&#39;argomento `tf` non è impostato:
 
 * Qualsiasi valore inferiore a un minuto viene arrotondato al valore di riferimento di 5 secondi più vicino
 * Il tempo compreso tra un minuto e un&#39;ora viene arrotondato al valore di riferimento di 1/2 minuto più vicino
@@ -114,7 +114,7 @@ s.eVar55 = formatTime(145, "m", .4);
 
 ### 1.1 (21 maggio 2018)
 
-* È stata aggiunta la `bml` argomento per consentire una maggiore flessibilità nell&#39;arrotondamento
+* È stato aggiunto l&#39;argomento `bml` per consentire una maggiore flessibilità nell&#39;arrotondamento
 
 ### 1.0 (15 aprile 2018)
 

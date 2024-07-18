@@ -15,10 +15,10 @@ ht-degree: 45%
 
 Adobe offre un modello per visualizzare dati vitali sulle prestazioni tra dispositivi.
 
-1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) e accedi utilizzando le credenziali Adobe ID.
+1. Passa a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) e accedi con le credenziali Adobe ID.
 1. Fai clic sull’icona della griglia a 9 celle in alto, quindi fai clic su Analytics.
-1. Clic [!UICONTROL Workspace] in alto, quindi fai clic su [!UICONTROL Create New Project].
-1. Individua il modello &quot;Cross-Device Analysis&quot;, quindi fai clic su [!UICONTROL Create].
+1. Fai clic su [!UICONTROL Workspace] in alto, quindi fai clic su [!UICONTROL Create New Project].
+1. Individuare il modello &quot;Cross-Device Analysis&quot;, quindi fare clic su [!UICONTROL Create].
 1. Se richiesto, modifica la suite di rapporti impostandola su una che supporti CDA.
 
 Viene creato un progetto Analysis Workspace che contiene diversi pannelli. Nella parte superiore viene visualizzato un sommario e un’introduzione che consentono di contestualizzare il rapporto e di passare a singoli rapporti. Fai clic su un collegamento all’interno del sommario o espandi il pannello a soffietto per visualizzare tali rapporti.

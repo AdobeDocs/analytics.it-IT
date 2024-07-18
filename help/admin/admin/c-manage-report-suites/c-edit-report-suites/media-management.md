@@ -19,12 +19,12 @@ Puoi abilitare i contenuti multimediali in Analytics per riservare un set specia
 
 Durante la modifica di una suite di rapporti sono disponibili le seguenti opzioni di Media Management:
 
-* [!UICONTROL **Reporting sui contenuti multimediali**]
+* [!UICONTROL **Generazione rapporti multimediali**]
 
-  I rapporti specifici per il componente aggiuntivo Streaming Media Collection sono disponibili nella pagina Media Reporting. Per ulteriori informazioni su Media Reporting, consulta [Abilitazione di rapporti sui contenuti multimediali](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
+  I rapporti specifici per il componente aggiuntivo Streaming Media Collection sono disponibili nella pagina Media Reporting. Per ulteriori informazioni su Media Reporting, vedere [Abilitazione di Media Reports](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
 
 * [!UICONTROL **Classificazioni file multimediali**]
 
-  Le classificazioni specifiche del componente aggiuntivo Streaming Media Collection sono disponibili nella pagina Classificazioni file multimediali. Per informazioni sulle classificazioni, consulta [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Le classificazioni specifiche del componente aggiuntivo Streaming Media Collection sono disponibili nella pagina Classificazioni file multimediali. Per informazioni sulle classificazioni, vedere [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
 
-Per informazioni generali sull’incorporazione di dati multimediali in streaming in Adobe Analytics, consulta la sezione [Guida del componente aggiuntivo Streaming Media Collection](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
+Per informazioni generali sull&#39;incorporazione di dati multimediali in streaming in Adobe Analytics, vedere la [Guida del componente aggiuntivo Streaming Media Collection](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).

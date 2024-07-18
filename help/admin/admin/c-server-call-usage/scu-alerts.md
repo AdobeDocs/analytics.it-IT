@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Quando imposti un avviso, viene applicato a tutte le suite di rapporti in tutte le aziende di login di un’azienda di fatturazione.
 
-Gli avvisi di utilizzo delle chiamate al server fanno parte del [Avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) dell&#39;utente.
+Gli avvisi sull&#39;utilizzo delle chiamate al server fanno parte dell&#39;interfaccia utente [Avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
 
 È precompilata con **1 avviso predefinito** che viene visualizzato in tutte le aziende di login che hanno accesso alla funzione di utilizzo delle chiamate al server. Gli avvisi attivano una notifica indirizzata a tutti gli amministratori dell’azienda di login se uno dei seguenti criteri è soddisfatto:
 

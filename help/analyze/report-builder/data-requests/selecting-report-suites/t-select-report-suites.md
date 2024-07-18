@@ -16,6 +16,6 @@ ht-degree: 18%
 
 Passaggi per selezionare una suite di rapporti in Excel.
 
-1. In Excel, fai clic su **[!UICONTROL Add-Ins]**.
-1. Nella barra degli strumenti, fai clic su **[!UICONTROL Create]**.
-1. In [!UICONTROL Request Wizard: Step 1] , seleziona una suite di rapporti in [!UICONTROL Report Suite].
+1. In Excel, fare clic su **[!UICONTROL Add-Ins]**.
+1. Nella barra degli strumenti fare clic su **[!UICONTROL Create]**.
+1. Nella finestra [!UICONTROL Request Wizard: Step 1], seleziona una suite di rapporti in [!UICONTROL Report Suite].

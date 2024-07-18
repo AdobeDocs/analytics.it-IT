@@ -15,7 +15,7 @@ ht-degree: 1%
 
 In rare occasioni, alcuni fattori possono influire sulla qualità dei dati. Il traffico dei bot, le modifiche di implementazione o le interruzioni del servizio possono influire sull’integrità dei dati raccolti. Complicano inoltre l’analisi di come l’evento possa aver influenzato la completezza dei dati.
 
-L’uniformità intelligente dei dati è un prototipo in [Labs di Analytics](/help/analyze/labs.md) che può aiutare a completare questa visualizzazione analizzando le tendenze storiche per prevedere il valore di qualsiasi metrica entro il periodo di tempo interessato. Il prototipo applica algoritmi avanzati di apprendimento automatico per tracciare i valori previsti per le metriche nel periodo di tempo analizzato.
+L&#39;uniformità intelligente dei dati è un prototipo in [Analytics Labs](/help/analyze/labs.md) che può aiutare a completare questa visualizzazione analizzando le tendenze della cronologia per prevedere il valore di qualsiasi metrica entro il periodo di tempo interessato. Il prototipo applica algoritmi avanzati di apprendimento automatico per tracciare i valori previsti per le metriche nel periodo di tempo analizzato.
 
 ## Eseguire l’uniformità intelligente dei dati
 
@@ -29,8 +29,8 @@ L’uniformità intelligente dei dati è un prototipo in [Labs di Analytics](/he
    ![Intervallo date](assets/date-range.png)
 1. Fai clic sull’icona a forma di ingranaggio per la metrica nella tabella a forma libera.
    ![Icona ingranaggio](assets/gear-icon.png)
-1. Sotto [!UICONTROL Data Settings], seleziona la [!UICONTROL Data smoothing] opzione.
-   ![Uniformità dei dati](assets/column-setting.png)
-1. Seleziona la data/intervallo di date corrispondente all’evento e fai clic su [!UICONTROL Apply].
+1. In [!UICONTROL Data Settings], selezionare l&#39;opzione [!UICONTROL Data smoothing].
+   ![Uniformità dati](assets/column-setting.png)
+1. Selezionare la data/intervallo di date corrispondente all&#39;evento e fare clic su [!UICONTROL Apply].
 Assicurati che l’intervallo di dati per l’uniformità dei dati sia un sottoinsieme dell’intervallo di date selezionato per il pannello. La metrica nella tabella e nel grafico viene sostituita dai valori previsti.
    ![Valori previsti](assets/predictive-values.png)

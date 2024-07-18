@@ -5,8 +5,8 @@ feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 source-git-commit: dc84909f9c19681adfd28696495b667837056146
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 96%
+source-wordcount: '162'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 I filtri facilitano la ricerca di segmenti nella barra dei segmenti.
 
-1. Nel Gestore segmenti fai clic sull’icona **[!UICONTROL Filters]**:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+1. Nel Gestore segmenti fare clic sull&#39;icona **[!UICONTROL Filters]**: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 

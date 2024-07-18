@@ -13,11 +13,11 @@ ht-degree: 17%
 
 # zip
 
-Il `zip` variabile consente di popolare manualmente la dimensione &quot;Codice postale&quot; se [!UICONTROL Zip Option] nelle impostazioni della suite di rapporti. Nelle versioni precedenti di Adobe Analytics, questa variabile poteva essere impostata solo manualmente, in genere durante l’immissione di informazioni di spedizione su un sito di vendita al dettaglio. I miglioramenti apportati ad Adobe Analytics consentono di impostare automaticamente questa variabile utilizzando i dati di geolocalizzazione. Questa variabile non persiste oltre l’hit impostato.
+La variabile `zip` ti consente di popolare manualmente la dimensione &quot;Codice postale&quot; se [!UICONTROL Zip Option] nelle impostazioni della suite di rapporti lo consente. Nelle versioni precedenti di Adobe Analytics, questa variabile poteva essere impostata solo manualmente, in genere durante l’immissione di informazioni di spedizione su un sito di vendita al dettaglio. I miglioramenti apportati ad Adobe Analytics consentono di impostare automaticamente questa variabile utilizzando i dati di geolocalizzazione. Questa variabile non persiste oltre l’hit impostato.
 
 >[!IMPORTANT]
 >
->Assicurati che le [!UICONTROL Zip Option] nelle impostazioni della suite di rapporti è impostato sul valore desiderato. Non è possibile utilizzare questa variabile se [!UICONTROL Geo zip] viene sempre utilizzato. Consulta [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) per ulteriori informazioni, consulta la guida utente dell’amministratore.
+>Assicurarsi che [!UICONTROL Zip Option] nelle impostazioni della suite di rapporti sia impostato sul valore desiderato. Non è possibile utilizzare questa variabile se [!UICONTROL Geo zip] è sempre utilizzato. Per ulteriori informazioni, consulta [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) nella guida utente dell&#39;amministratore.
 
 ## Codice postale tramite Web SDK
 
@@ -34,14 +34,14 @@ Puoi impostare il codice postale sia durante la configurazione dell’estensione
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Imposta il [!UICONTROL Extension] in Adobe Analytics e nella sezione [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+5. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL Zip].
 
 Puoi impostare il CAP su qualsiasi valore stringa, inclusi gli elementi dati.
 
 ## s.zip in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.zip` variabile è una stringa che in genere contiene un CAP, ma può contenere qualsiasi valore desiderato fino a una lunghezza massima di 50 byte.
+La variabile `s.zip` è una stringa che in genere contiene un CAP, ma può contenere qualsiasi valore desiderato fino a una lunghezza massima di 50 byte.
 
 ```js
 s.zip = "84043";

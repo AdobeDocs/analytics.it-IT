@@ -16,8 +16,8 @@ ht-degree: 29%
 
 Passaggi per selezionare una suite di rapporti dalla richiesta esistente.
 
-1. In Excel, fai clic su **[!UICONTROL Add-Ins]**.
-1. Nella barra degli strumenti, fai clic su **[!UICONTROL Create]**.
-1. In [!UICONTROL Request Wizard: Step 1] , fare clic sul pulsante **[!UICONTROL Range Selector]** ( ![](assets/select_cell_icon.png).
-1. Utilizza il [!UICONTROL Range Selection] per individuare la cella.
+1. In Excel, fare clic su **[!UICONTROL Add-Ins]**.
+1. Nella barra degli strumenti fare clic su **[!UICONTROL Create]**.
+1. Nella finestra [!UICONTROL Request Wizard: Step 1], fare clic su **[!UICONTROL Range Selector]** ( ![](assets/select_cell_icon.png).
+1. Utilizzare il modulo [!UICONTROL Range Selection] per individuare la cella.
 1. Continua a creare la richiesta.

@@ -13,7 +13,7 @@ ht-degree: 24%
 
 # channel
 
-Il `channel` La variabile in genere memorizza la sezione del sito in cui si trova una determinata pagina. È utile determinare quali gruppi del sito sono più popolari. Questa variabile popola la dimensione &quot;Sezioni del sito&quot;.
+La variabile `channel` in genere memorizza la sezione del sito in cui si trova una determinata pagina. È utile determinare quali gruppi del sito sono più popolari. Questa variabile popola la dimensione &quot;Sezioni del sito&quot;.
 
 ## Canale tramite Web SDK
 
@@ -30,20 +30,20 @@ Puoi impostare il canale sia durante la configurazione dell’estensione Analyti
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Imposta il [!UICONTROL Extension] in Adobe Analytics e nella sezione [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+5. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL Channel].
 
 Puoi impostare il canale su qualsiasi valore stringa o elemento dati.
 
 ## s.channel in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.channel` variabile è una stringa che in genere contiene la sezione del sito della pagina. Ha un valore massimo di 100 byte; i valori più lunghi vengono troncati.
+La variabile `s.channel` è una stringa che in genere contiene la sezione del sito della pagina. Ha un valore massimo di 100 byte; i valori più lunghi vengono troncati.
 
 ```js
 s.channel = "Example site section";
 ```
 
-Se utilizzi il `digitalData` [livello dati](../../prepare/data-layer.md):
+Se si utilizza il `digitalData` [livello dati](../../prepare/data-layer.md):
 
 ```js
 s.channel = digitalData.page.category.primaryCategory;

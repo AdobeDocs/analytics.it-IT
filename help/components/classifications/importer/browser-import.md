@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 86%
+source-wordcount: '332'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ Puoi importare (caricare) i dati delle classificazioni utilizzando il browser. Q
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
-## Importazione di classificazioni dal browser - Descrizioni dei campi {#section_F628C47081DA4026A4D30E3D3454B1DA}
+## Importazione di classificazioni dal browser - Descrizione dei campi {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
 | Elemento | Descrizione |
 | --- | --- |
@@ -38,6 +38,6 @@ Puoi importare (caricare) i dati delle classificazioni utilizzando il browser. Q
 1. Configura i campi **[!UICONTROL Browser Import]**.
 1. Fai clic su **[!UICONTROL Import File]**.
 1. Controlla la finestra di stato per l’elaborazione dei messaggi.
-1. (Condizionale) Se hai selezionato **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specifica dove memorizzare il file risultante al termine dell’elaborazione. Questa opzione non è disponibile per le suite di rapporti abilitate per la nuova architettura di classificazione.
+1. (Condizionale) Se hai selezionato **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specifica dove memorizzare il file risultante al termine dell&#39;elaborazione. Questa opzione non è disponibile per le suite di rapporti abilitate per la nuova architettura di classificazione.
 
 >Un’importazione corretta visualizza immediatamente le modifiche appropriate in un’esportazione. Tuttavia, le modifiche ai dati nei rapporti richiedono fino a quattro ore quando si utilizza un’importazione browser e fino a 24 ore quando si utilizza un’importazione FTP.

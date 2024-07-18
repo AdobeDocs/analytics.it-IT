@@ -14,7 +14,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Questa dimensione è ritirata e non è disponibile [dimensione](overview.md) in Analysis Workspace. Al suo posto, Adobe consiglia di utilizzare le [eVar](evar.md) e le classificazioni.
+>Questa dimensione è stata ritirata e non è una [dimensione](overview.md) disponibile in Analysis Workspace. Al suo posto, Adobe consiglia di utilizzare le [eVar](evar.md) e le classificazioni.
 
 Le gerarchie sono variabili personalizzate che puoi utilizzare come preferisci. Non persistono oltre l’hit impostato. Se il contratto con Adobe lo supporta, sono disponibili fino a 5 gerarchie.
 

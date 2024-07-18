@@ -5,8 +5,8 @@ exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 49%
+source-wordcount: '371'
+ht-degree: 51%
 
 ---
 
@@ -20,9 +20,9 @@ Impossibile creare processi da questa interfaccia. Crea processi caricando i dat
 
 ## Filtrare i set di classificazione
 
-Il lato sinistro di Gestione processo set di classificazione fornisce le impostazioni del filtro per individuare il processo desiderato. Facendo clic sull’icona del filtro si attiva la visibilità delle impostazioni del filtro. Puoi filtrare i set di classificazione per **[!UICONTROL Classification set]**, **[!UICONTROL Completion time]**, **[!UICONTROL Status]**, **[!UICONTROL Job Type]**, o **[!UICONTROL Source]**.
+Il lato sinistro di Gestione processo set di classificazione fornisce le impostazioni del filtro per individuare il processo desiderato. Facendo clic sull’icona del filtro si attiva la visibilità delle impostazioni del filtro. È possibile filtrare i set di classificazione per **[!UICONTROL Classification set]**, **[!UICONTROL Completion time]**, **[!UICONTROL Status]**, **[!UICONTROL Job Type]** o **[!UICONTROL Source]**.
 
-![Filtri del processo per set di classificazione](../assets/classification-set-job-filters.png)
+![Filtri processo set di classificazione](../assets/classification-set-job-filters.png)
 
 Ulteriori opzioni di filtro sono disponibili sopra le colonne Gestione processo set di classificazione:
 
@@ -35,7 +35,7 @@ Ulteriori opzioni di filtro sono disponibili sopra le colonne Gestione processo 
 In Gestione processo set di classificazione sono disponibili le colonne seguenti:
 
 * **[!UICONTROL Filename]**: nome del file di caricamento o download.
-* **[!UICONTROL Classification set]**: nome del set di classificazione a cui si applica il file. Puoi fare clic sul nome del set di classificazione per raggiungerne [Impostazioni](manage/settings.md).
+* **[!UICONTROL Classification set]**: nome del set di classificazione a cui si applica il file. Puoi fare clic sul nome del set di classificazione per raggiungerne le [Impostazioni](manage/settings.md).
 * **[!UICONTROL Size]**: dimensione del file.
 * **[!UICONTROL Status]**: stato del processo di elaborazione del file.
    * **[!UICONTROL Created]**: lavoro inviato.

@@ -7,7 +7,7 @@ exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -33,6 +33,6 @@ Report Builder supporta le cartelle di lavoro entro i seguenti limiti:
 * **20.000 richieste all’ora per azienda**: Report Builder utilizza l’API di reporting di Analytics per recuperare i dati. Ogni singola richiesta utilizza una chiamata API ogni volta che viene creata o aggiornata. Se l’organizzazione accumula più di 20.000 chiamate API in una determinata ora, devi aspettare l’ora successiva per recuperare nuovamente i dati.
 * **Tempo di elaborazione di 4 ore**: i rapporti pianificati scadono dopo l’elaborazione per più di 4 ore. Se la cartella di lavoro contiene molte richieste complesse che utilizzano set di dati di grandi dimensioni, il rapporto pianificato potrebbe non riuscire.
 
-## Come posso sapere se ho accesso al Report Builder? {#access}
+## Come è possibile sapere se ho accesso a Report Builder? {#access}
 
-L’amministratore di Adobe Analytics deve concederti l’accesso di Report Builder. L’amministratore configura i profili di prodotto in [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). Chiedi all’amministratore di concederti l’accesso.
+L’accesso deve essere concesso dall’amministratore di Adobe Analytics. L’amministratore configura i profili di prodotto in [Adobe Admin Console](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-console/home). Chiedi al tuo amministratore di concederti l’accesso.

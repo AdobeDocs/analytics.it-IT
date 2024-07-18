@@ -4,7 +4,7 @@ description: Personalizza il raggruppamento di elementi dimensionali.
 feature: Classifications
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 source-git-commit: 496b4891d447ed9dd091a6498a792146a2d5aceb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 

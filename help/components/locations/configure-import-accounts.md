@@ -21,34 +21,40 @@ ht-degree: 52%
 
 Puoi configurare un account cloud utilizzato per uno o tutti i seguenti scopi:
 
-* Esportazione di file tramite [Feed dati](/help/export/analytics-data-feed/create-feed.md)
-* Esportazione di rapporti tramite [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Importazione degli schemi tramite [Set di classificazione](/help/components/classifications/sets/overview.md)
+* Esportazione di file tramite [feed dati](/help/export/analytics-data-feed/create-feed.md)
+* Esportazione di report tramite [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Importazione di schemi tramite [Set di classificazione](/help/components/classifications/sets/overview.md)
 
-Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account cloud. Questo processo consiste nell’aggiungere e configurare l’account (ad esempio ARN per il ruolo di Amazon S3, Google Cloud Platform e così via) come descritto in questo articolo, quindi aggiungere e configurare la posizione all’interno dell’account (ad esempio una cartella all’interno dell’account) come descritto in [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
+Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account cloud. Questo processo consiste nell&#39;aggiungere e configurare l&#39;account (ad esempio ARN per il ruolo di Amazon S3, Google Cloud Platform e così via) come descritto in questo articolo, quindi aggiungere e configurare il percorso all&#39;interno dell&#39;account (ad esempio una cartella all&#39;interno dell&#39;account) come descritto in [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
 
-Per informazioni su come visualizzare ed eliminare gli account esistenti, consulta [Gestione posizioni](/help/components/locations/locations-manager.md).
+Per informazioni su come visualizzare ed eliminare gli account esistenti, vedere [Gestione posizioni](/help/components/locations/locations-manager.md).
 
 Per configurare un account di importazione o esportazione cloud:
 
-1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Posizioni**].
-1. Il giorno [!UICONTROL Locations] , seleziona la [!UICONTROL **Account ubicazione**] scheda.
-1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare gli account creati da tutti gli utenti dell’organizzazione.
+1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Percorsi**].
+1. Nella pagina [!UICONTROL Locations], selezionare la scheda [!UICONTROL **Account località**].
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare l&#39;opzione [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare gli account creati da tutti gli utenti dell&#39;organizzazione.
    ![visualizza account per tutti gli utenti](assets/accounts-all-users.png)
-1. Per creare un nuovo account, seleziona [!UICONTROL **Aggiungi account**].
+1. Per creare un nuovo account, selezionare [!UICONTROL **Aggiungi account**].
 
-   Il [!UICONTROL **Dettagli dell’account località**] viene visualizzata una finestra di dialogo.
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Dettagli account località**].
 
    Oppure
 
-   Per modificare un account esistente, individua l’account da modificare, quindi seleziona la [!UICONTROL **Modifica dettagli**] pulsante.
+   Per modificare un account esistente, individuare l&#39;account che si desidera modificare, quindi selezionare il pulsante [!UICONTROL **Modifica dettagli**].
 
-   Il [!UICONTROL **Aggiungi account**] viene visualizzata una finestra di dialogo.
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Aggiungi account**].
 
-1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome account località**] | Nome dell&#39;account di posizione. Questo nome viene visualizzato durante la creazione di una posizione | | [!UICONTROL **Descrizione del conto di ubicazione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. | | [!UICONTROL **Rendi l’account disponibile a tutti gli utenti dell’organizzazione**] | Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare l’account.<p>Quando condividi gli account, tieni presente quanto segue:</p><ul><li>Gli account condivisi non possono essere non condivisi.</li><li>Gli account condivisi possono essere modificati solo dal proprietario dell&#39;account.</li><li>Chiunque può creare una posizione per l&#39;account condiviso.</li></ul> | | [!UICONTROL **Tipo di account**] | Seleziona il tipo di account cloud. È consigliabile disporre di un singolo account per ogni tipo, con più posizioni secondo necessità all’interno di tale account.<p>Gli amministratori di sistema possono limitare i tipi di account che gli utenti possono creare, come descritto in [Specificare se gli utenti possono creare account](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se non è possibile creare gli account come descritto in questa sezione, contattare l&#39;amministratore di sistema.</p> |
-1. In [!UICONTROL **Proprietà account**] , specificare informazioni specifiche per il tipo di account selezionato.
+1. Specifica le seguenti informazioni:
+|Campo | Funzione |
+---------- ---------
+| [!UICONTROL **Nome account località**] | Nome dell&#39;account di posizione. Questo nome viene visualizzato durante la creazione di una posizione |
+| [!UICONTROL **Descrizione account località**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. |
+| [!UICONTROL **Rendi l&#39;account disponibile a tutti gli utenti dell&#39;organizzazione**] | Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare l’account.<p>Quando condividi gli account, tieni presente quanto segue:</p><ul><li>Gli account condivisi non possono essere non condivisi.</li><li>Gli account condivisi possono essere modificati solo dal proprietario dell&#39;account.</li><li>Chiunque può creare una posizione per l&#39;account condiviso.</li></ul> |
+| [!UICONTROL **Tipo di account**] | Seleziona il tipo di account cloud. È consigliabile disporre di un singolo account per ogni tipo, con più posizioni secondo necessità all’interno di tale account.<p>Gli amministratori di sistema possono limitare i tipi di account che possono essere creati dagli utenti, come descritto in [Specificare se gli utenti possono creare account](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se non è possibile creare gli account come descritto in questa sezione, contattare l&#39;amministratore di sistema.</p> |
+1. Nella sezione [!UICONTROL **Proprietà account**], specifica informazioni specifiche sul tipo di account selezionato.
 
-   Per le istruzioni di configurazione, espandi la sezione seguente che corrisponde a [!UICONTROL **Tipo di account**] che hai selezionato. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
+   Per istruzioni di configurazione, espandere la sezione seguente che corrisponde al tipo di account [!UICONTROL **selezionato**]. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
 
    **Tipi di account**
 
@@ -85,7 +91,7 @@ Per configurare un account di importazione o esportazione cloud:
    | [!UICONTROL **ID applicazione**] | Copia questo ID dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Panoramica** all’interno dell’applicazione. Per ulteriori informazioni, consulta la [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
    | [!UICONTROL **ID tenant**] | Copia questo ID dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Panoramica** all’interno dell’applicazione. Per ulteriori informazioni, consulta [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
    | [!UICONTROL **URI di Key Vault**] | <p>Percorso per il token SAS in Azure Key Vault.  Per configurare Azure SAS, è necessario memorizzare un token SAS come segreto utilizzando Azure Key Vault. Per informazioni, consulta [Documentazione di Microsoft Azure su come impostare e recuperare un segreto da Azure Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Dopo la creazione dell’URI dell’insieme di credenziali delle chiavi, aggiungi un criterio di accesso nell’insieme di credenziali delle chiavi per concedere l’autorizzazione all’applicazione Azure creata. Per informazioni, consulta [Documentazione di Microsoft Azure su come assegnare un criterio di accesso a Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-   | [!UICONTROL **Nome segreto di Key Vault**] | Nome segreto creato quando si aggiunge il segreto all&#39;insieme di credenziali delle chiavi di Azure. In Microsoft Azure, queste informazioni si trovano nell&#39;insieme di credenziali delle chiavi creato, nel **Key Vault** impostazioni. Per informazioni, consulta [Documentazione di Microsoft Azure su come impostare e recuperare un segreto da Azure Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+   | [!UICONTROL **Nome segreto di Key Vault**] | Nome segreto creato quando si aggiunge il segreto all&#39;insieme di credenziali delle chiavi di Azure. In Microsoft Azure, queste informazioni si trovano nell&#39;insieme di credenziali delle chiavi creato, nella pagina delle impostazioni di **Insieme di credenziali delle chiavi**. Per informazioni, consulta [Documentazione di Microsoft Azure su come impostare e recuperare un segreto da Azure Key Vault](https://learn.microsoft.com/it-it/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
    | [!UICONTROL **Segreto account località**] | Copia il segreto dall’applicazione Azure creata. In Microsoft Azure, queste informazioni si trovano nella scheda **Certificati e segreti** all’interno dell’applicazione. Per ulteriori informazioni, consulta la [Documentazione di Microsoft Azure su come registrare un’applicazione con Microsoft Identity Platform](https://learn.microsoft.com/it-it/entra/identity-platform/quickstart-register-app). |
 
    {style="table-layout:auto"}
@@ -110,7 +116,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    >[!NOTE]
    >
-   >Gli account e-mail possono essere utilizzati solo con [Feed dati](/help/export/analytics-data-feed/create-feed.md). (Gli account e-mail non sono supportati con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Set di classificazione](/help/components/classifications/sets/overview.md)).
+   >Gli account di posta elettronica possono essere utilizzati solo con [Feed dati](/help/export/analytics-data-feed/create-feed.md). (Gli account di posta elettronica non sono supportati con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Set di classificazione](/help/components/classifications/sets/overview.md)).
 
    Per configurare un account RBAC di Azure, specifica le informazioni seguenti:
 
@@ -124,7 +130,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    **Tipi di account legacy**
 
-   Questi tipi di account legacy sono disponibili solo quando si esportano dati con [Feed dati](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Queste opzioni non sono disponibili quando si importano dati con [Set di classificazione](/help/components/classifications/sets/manage/schema.md).
+   Questi tipi di account legacy sono disponibili solo quando si esportano dati con [Feed dati](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Queste opzioni non sono disponibili durante l&#39;importazione di dati con [Set di classificazione](/help/components/classifications/sets/manage/schema.md).
 
    +++FTP
 
@@ -194,4 +200,4 @@ Per configurare un account di importazione o esportazione cloud:
 
 1. Seleziona [!UICONTROL **Salva**].
 
-1. Continua con [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
+1. Continua con [Configurare i percorsi di importazione ed esportazione del cloud](/help/components/locations/configure-import-locations.md).

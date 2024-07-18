@@ -18,10 +18,10 @@ Puoi abilitare Analytics di Document Cloud per rendere disponibili dimensioni e 
 
 Durante la modifica di una suite di rapporti, sono disponibili le seguenti opzioni di Gestione dei Document Cloud:
 
-* [!UICONTROL **Rapporti sui Document Cloud**]
+* [!UICONTROL **Generazione rapporti per Document Cloud**]
 
-  I rapporti specifici per il componente aggiuntivo Streaming Media Collection sono disponibili nella pagina Media Reporting. Per ulteriori informazioni su Media Reporting, consulta [Configurare la generazione di rapporti di Document Cloud](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
+  I rapporti specifici per il componente aggiuntivo Streaming Media Collection sono disponibili nella pagina Media Reporting. Per ulteriori informazioni su Media Reporting, vedere [Configurare la generazione di rapporti di Document Cloud](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
 
 * [!UICONTROL **Classificazioni Document Cloud**]
 
-  Le classificazioni specifiche del Document Cloud sono disponibili nella pagina Classificazioni Document Cloud. Per informazioni sulle classificazioni, consulta [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Le classificazioni specifiche del Document Cloud sono disponibili nella pagina Classificazioni Document Cloud. Per informazioni sulle classificazioni, vedere [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).

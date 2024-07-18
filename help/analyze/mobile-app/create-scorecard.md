@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2428'
 ht-degree: 81%
 
 ---
@@ -55,7 +55,7 @@ Per implementare il modello di scorecard:
 
    ![Selezione di suite di rapporti](assets/properties_save.png)
 
-1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella sezione **[!UICONTROL Drag and Drop Metrics Here]** zona. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
+1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella zona **[!UICONTROL Drag and Drop Metrics Here]**. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
 
    ![Aggiungere sezioni](assets/build_list.png)
 
@@ -74,7 +74,7 @@ Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Chann
 
 Per applicare segmenti alle singole sezioni, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla sezione.
 
-Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionandoli nel menu del filtro sotto gli intervalli di date. Tu [configurare e applicare filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo in cui si fa in Adobe Analytics Workspace.
+Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionandoli nel menu del filtro sotto gli intervalli di date. [configura e applica filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo che utilizzi in Adobe Analytics Workspace.
 
 ![Creare segmenti per il filtro](assets/segment_ui.png)
 
@@ -212,7 +212,7 @@ Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mos
 
 ## Rimuovere i componenti {#remove}
 
-Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic in qualsiasi punto della scorecard al di fuori delle tessere, quindi fai clic su **x** che viene visualizzato quando passi il cursore sul componente, come mostrato di seguito per **Prime visite** segmento:
+Allo stesso modo, per rimuovere un componente applicato all&#39;intera scorecard, fai clic sulla scorecard al di fuori delle tessere, quindi fai clic sul **x** che compare quando passi il cursore sul componente, come mostrato di seguito per il segmento **Nuovo visitatore**:
 
 ![Rimuovere_componenti](assets/new_remove.png)
 

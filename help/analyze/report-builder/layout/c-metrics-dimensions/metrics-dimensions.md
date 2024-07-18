@@ -7,21 +7,21 @@ role: User, Admin
 exl-id: 6c56a8e5-07c0-4dc4-b40b-94a07b783514
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 5%
+source-wordcount: '226'
+ht-degree: 3%
 
 ---
 
 # Panoramica delle metriche e delle dimensioni
 
-Aggiungere metriche e dimensioni nella Creazione guidata richieste: passaggio 2 per definire il layout Analytics dei dati nella richiesta. L’elenco delle metriche e delle dimensioni in Report Builder segue il layout del menu visualizzato in Reports and Analytics.
+Aggiungere metriche e dimensioni nella Richiesta guidata: passaggio 2 per definire il layout Analytics dei dati nella richiesta. L’elenco delle metriche e delle dimensioni in Report Builder segue il layout del menu visualizzato in Reports and Analytics.
 
-Le metriche sono valori numerici. Consistono in informazioni quantitative sull’attività sul sito web, ad esempio [!UICONTROL Page Views], [!UICONTROL Visitor Profile], [!UICONTROL Click-throughs], [!UICONTROL Reloads], [!UICONTROL Average Time Spent], [!UICONTROL Date], [!UICONTROL Units]e così via. Il Report Builder organizza le metriche in diversi gruppi, che seguono il raggruppamento standard in Analytics:
+Le metriche sono valori numerici. Sono costituiti da informazioni quantitative sulle attività nel sito Web, ad esempio [!UICONTROL Page Views], [!UICONTROL Visitor Profile], [!UICONTROL Click-throughs], [!UICONTROL Reloads], [!UICONTROL Average Time Spent], [!UICONTROL Date], [!UICONTROL Units] e così via. Il Report Builder organizza le metriche in diversi gruppi, che seguono il raggruppamento standard in Analytics:
 
 * Traffico standard: visualizza la metrica in base alla riga specificata. Ad esempio, in un rapporto Pagine, la metrica Visite visualizza il numero di visite a quella pagina specifica.
-* Commercio standard: metriche quali ricavi, ordini e pagamenti.
+* Commerce standard: metriche quali Ricavi, Ordini e Pagamenti.
 * Metriche totali: visualizza la metrica in base all’intervallo di date del rapporto, indipendentemente dalla voce di riga. Questa metrica è identica al totale nella parte inferiore del rispettivo rapporto di analisi.
 * Partecipazione
 * Calcolato
 
-I Dimension sono valori e date non numerici, ad esempio genere, mese, età, fedeltà, risoluzione del monitor e così via. I Dimension sono descrizioni o caratteristiche dei dati metrici che possono essere visualizzate e confrontate, ad esempio nei rapporti di suddivisione.
+I Dimension sono valori e date non numerici, ad esempio genere, mese, età, fedeltà, risoluzione monitor e così via. I Dimension sono descrizioni o caratteristiche dei dati metrici che possono essere visualizzate e confrontate, ad esempio nei rapporti di suddivisione.

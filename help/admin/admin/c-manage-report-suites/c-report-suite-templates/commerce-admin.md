@@ -5,7 +5,7 @@ feature: Report Suite Settings
 exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '186'
 ht-degree: 100%
 
 ---

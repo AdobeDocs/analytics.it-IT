@@ -5,32 +5,32 @@ feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 8%
+source-wordcount: '471'
+ht-degree: 5%
 
 ---
 
 # Prop
 
-*Questa pagina della guida descrive come prop funziona come un [dimensione](overview.md). Per informazioni su come implementare prop, consulta [prop](/help/implement/vars/page-vars/prop.md) nella guida utente Implementa.*
+*Questa pagina della guida descrive il funzionamento di prop come [dimensione](overview.md). Per informazioni su come implementare prop, vedi [prop](/help/implement/vars/page-vars/prop.md) nella guida utente Implementa.*
 
 Le proprietà sono variabili personalizzate che puoi utilizzare come desideri. Non persistono oltre l’hit impostato.
 
 >[!TIP]
 >
->L’Adobe consiglia di utilizzare [eVar](evar.md) nella maggior parte dei casi. Nelle versioni precedenti di Adobe Analytics, prop e eVar presentavano vantaggi e svantaggi l’uno per l’altro. Tuttavia, Adobe ha migliorato le eVar in modo da soddisfare quasi tutti i casi d’uso per prop.
+>Adobe consiglia di utilizzare [eVar](evar.md) nella maggior parte dei casi. Nelle versioni precedenti di Adobe Analytics, prop e eVar presentavano vantaggi e svantaggi l’uno per l’altro. Tuttavia, Adobe ha migliorato le eVar in modo da soddisfare quasi tutti i casi d’uso per prop.
 
-Se si dispone di [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), puoi allocare queste dimensioni personalizzate a valori specifici dell’organizzazione. Il numero di prop disponibili dipende dal contratto con Adobe. Se il contratto con Adobe lo supporta, sono disponibili fino a 75 proprietà.
+Se hai un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), puoi allocare queste dimensioni personalizzate a valori specifici della tua organizzazione. Il numero di prop disponibili dipende dal contratto con Adobe. Se il contratto con Adobe lo supporta, sono disponibili fino a 75 proprietà.
 
 ## Popolare prop con i dati
 
-Ogni prop raccoglie dati da [`c1` - `c75` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. Ad esempio, il `c1` parametro stringa query raccoglie dati per prop1, mentre il parametro `c68` il parametro della stringa di query raccoglie i dati per prop68.
+Ogni prop raccoglie dati dalla stringa di query [`c1` - `c75`](/help/implement/validate/query-parameters.md) nelle richieste di immagini. Ad esempio, il parametro della stringa di query `c1` raccoglie dati per prop1, mentre il parametro della stringa di query `c68` raccoglie dati per prop68.
 
-AppMeasurement, che compila variabili JavaScript in una richiesta di immagine per la raccolta dati, utilizza le variabili `prop1` - `prop75`. Consulta [prop](/help/implement/vars/page-vars/prop.md) nella Guida utente di implementazione per le linee guida sull’implementazione.
+AppMeasurement, che compila variabili JavaScript in una richiesta di immagine per la raccolta dati, utilizza le variabili `prop1` - `prop75`. Per le linee guida per l&#39;implementazione, consulta [prop](/help/implement/vars/page-vars/prop.md) nella Guida utente di implementazione.
 
 ## Elementi dimensionali
 
-Poiché le proprietà contengono stringhe personalizzate nell’implementazione, l’organizzazione determina gli elementi dimensionali di ciascuna proprietà. Assicurati di registrare lo scopo di ogni proprietà e degli elementi dimensionali tipici in una [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md).
+Poiché le proprietà contengono stringhe personalizzate nell’implementazione, l’organizzazione determina gli elementi dimensionali di ciascuna proprietà. Assicurati di registrare lo scopo di ogni proprietà e degli elementi dimensionali tipici in un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md).
 
 ## Distinzione tra maiuscole e minuscole
 
@@ -48,6 +48,6 @@ Nella maggior parte dei casi, l’Adobe consiglia di utilizzare le eVar. Le ecce
 
 * Puoi utilizzare prop nei rapporti in tempo reale. Le eVar richiedono almeno 30 minuti per essere visualizzate nel reporting.
 * Le proprietà possono diventare prop elenco, che accettano più valori nello stesso hit. Le variabili elenco sono una variabile separata e sono disponibili solo tre variabili elenco.
-* Quando abiliti il percorso in una prop, [Voce](entry-dimensions.md) e [Esci](exit-dimensions.md) le dimensioni diventano immediatamente disponibili. Se desideri dimensioni di entrata e di uscita per le eVar, puoi creare manualmente un segmento.
+* Quando abiliti il percorso in un prop, le dimensioni [Entry](entry-dimensions.md) e [Exit](exit-dimensions.md) diventano immediatamente disponibili. Se desideri dimensioni di entrata e di uscita per le eVar, puoi creare manualmente un segmento.
 
 Consulta [eVar](evar.md) per ulteriori confronti tra prop ed eVar.

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '246'
 ht-degree: 2%
 
 ---
@@ -29,4 +29,4 @@ Real-time rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non dis
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] non sono le stesse del [Includi dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Data Recency), una funzione rilasciata in precedenza che riduceva la latenza per i rapporti standard, visualizzando i dati prima che venissero finalizzati.
+>[!UICONTROL Real-Time Reports] non corrispondono alla funzionalità [Includi dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Recency dati) rilasciata in precedenza, che ha ridotto la latenza per il reporting standard visualizzando i dati prima che vengano finalizzati.

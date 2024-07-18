@@ -29,14 +29,14 @@ Se le richieste Data Warehouse richiedono molto tempo, puoi modificarle. La modi
 
 Per accelerare la consegna di una richiesta Data Warehouse, puoi modificarla in uno dei seguenti modi:
 
-* **Utilizza un segmento contenente un campione più piccolo di dati**: meno dati funziona una richiesta, più velocemente restituisce un rapporto.
-* **Eseguire richieste con incrementi di 14 giorni o meno**: le richieste più piccole vengono elaborate più rapidamente delle richieste più grandi.
+* **Utilizzare un segmento contenente un campione di dati più piccolo**: minore è il numero di dati utilizzati da una richiesta, più veloce sarà la restituzione di un report.
+* **Esegui richieste con incrementi di 14 giorni o meno**: le richieste più piccole vengono elaborate più rapidamente delle richieste più grandi.
 * **Usa meno raggruppamenti:** Molti raggruppamenti in una richiesta aumentano esponenzialmente il tempo necessario per elaborarla.
 
 ## Utilizzare un metodo alternativo
 
 Se hai bisogno di questi tipi di rapporti in modo più tempestivo, considera le seguenti alternative:
 
-* **Analysis Workspace**: anche se non sono disponibili elementi dimensionali illimitati, questo include quasi tutti gli altri casi d’uso forniti da Data Warehouse.
+* **Analysis Workspace**: anche se gli elementi dimensione illimitati non sono disponibili, include quasi tutti gli altri casi d&#39;uso forniti da Data Warehouse.
 * **Feed dati**: prende tutti i dati non elaborati in una suite di rapporti ogni giorno e li invia a una destinazione cloud. È quindi possibile importare i dati nel proprio database ed eseguire query per ottenere i dati necessari.
-* **Soluzione personalizzata di Engineering Services**: Adobe Engineering Services può fornire una soluzione personalizzata per la tua organizzazione a un costo aggiuntivo. Per ulteriori informazioni, contatta il team dell’account di Adobe.
+* **Soluzione di servizi tecnici personalizzati**: Adobe Engineering Services può fornire una soluzione personalizzata per la tua organizzazione a un costo aggiuntivo. Per ulteriori informazioni, contatta il team dell’account di Adobe.

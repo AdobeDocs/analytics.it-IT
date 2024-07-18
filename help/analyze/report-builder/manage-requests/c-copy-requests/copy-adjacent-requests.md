@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Copiare richieste adiacenti
 
-Allo stesso modo in cui si copiano e incollano le richieste, è possibile riposizionare le richieste in un’altra parte del foglio di calcolo selezionando [!UICONTROL Cut Request] dal menu di scelta rapida.
+Nello stesso modo in cui si copiano e si incollano le richieste, è anche possibile riposizionare le richieste in un&#39;altra parte del foglio di calcolo selezionando [!UICONTROL Cut Request] dal menu di scelta rapida.
 
 Quando si taglia una richiesta, questa viene rimossa dalla posizione originale e posizionata nella nuova posizione dopo aver selezionato [!UICONTROL Paste Request]. Se si cambia idea dopo aver tagliato una particolare richiesta e si decide di copiare o tagliare una richiesta diversa da un&#39;altra cella, Report Builder lascia la prima richiesta nella cella originale e agisce solo (copia o taglia) la seconda.
 
@@ -24,4 +24,4 @@ Quando si taglia una richiesta, questa viene rimossa dalla posizione originale e
 
 Non è possibile copiare e incollare nello stesso foglio della cartella di lavoro. È possibile copiare una richiesta in un foglio e incollarla in una posizione in un altro foglio della stessa cartella di lavoro.
 
-Non sei limitato a copiare e incollare una richiesta alla volta. Puoi selezionare più di una richiesta nel foglio di calcolo e incollarla in un’area vuota del foglio di calcolo. Come per copiare e incollare una richiesta, accertati che nell’area Incolla non siano presenti celle con richieste che verranno sostituite dall’operazione Incolla. Se il Report Builder rileva che l&#39;area Incolla di destinazione contiene già una o più richieste, non visualizza [!UICONTROL Paste Requests] per le richieste copiate o tagliate. È necessario selezionare una cella diversa come destinazione dell’operazione Incolla in modo che le richieste non si sovrappongano.
+Non sei limitato a copiare e incollare una richiesta alla volta. Puoi selezionare più di una richiesta nel foglio di calcolo e incollarla in un’area vuota del foglio di calcolo. Come per copiare e incollare una richiesta, accertati che nell’area Incolla non siano presenti celle con richieste che verranno sostituite dall’operazione Incolla. Se l&#39;area Incolla di destinazione contiene già una o più richieste, il Report Builder non visualizza il menu [!UICONTROL Paste Requests] per le richieste copiate o tagliate. È necessario selezionare una cella diversa come destinazione dell’operazione Incolla in modo che le richieste non si sovrappongano.

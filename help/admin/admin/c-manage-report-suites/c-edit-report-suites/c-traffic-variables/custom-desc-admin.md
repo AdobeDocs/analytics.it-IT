@@ -24,7 +24,7 @@ Puoi fornire descrizioni personalizzate dei rapporti per eVar, prop, classificaz
 ![](/help/admin/admin/assets/report_descriptions.png)
 
 1. Fornisci una descrizione per il rapporto. Il numero massimo di caratteri è 255.
-1. Fai clic su **[!UICONTROL Save]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Save]**.
 
 La descrizione è visibile in due posizioni:
 

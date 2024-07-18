@@ -23,7 +23,7 @@ Se intendi implementare Cross-Device Analytics utilizzando l’unione basata sui
 >
 >Il mancato rispetto di tutti i prerequisiti può comportare l’impossibilità di abilitare Cross-Device Analytics o risultati errati durante l’unione dei dati.
 
-* Tutti i prerequisiti elencati in [pagina panoramica](overview.md).
+* Tutti i prerequisiti elencati nella [pagina della panoramica](overview.md).
 * L’implementazione deve impostare una prop o un eVar che identifica in modo univoco un individuo ogni volta che è possibile, ad esempio quando un utente accede o apre un’e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Evita di assegnare un valore predefinito alla proprietà o all’eVar.
 * Comunica la variabile di identificazione desiderata al team dell’account Adobe quando viene eseguito il provisioning per l’unione basata sui campi.
 
@@ -40,4 +40,4 @@ Se intendi implementare Cross-Device Analytics utilizzando l’unione basata sui
 
 ## Passaggi successivi
 
-Una volta che la tua organizzazione soddisfa tutti i requisiti e comprende i limiti, puoi iniziare [Configurazione di Analytics tra dispositivi](setup.md).
+Una volta che la tua organizzazione soddisfa tutti i requisiti e comprende le limitazioni, puoi avviare [Configurazione di Cross-Device Analytics](setup.md).

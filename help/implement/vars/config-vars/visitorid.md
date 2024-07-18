@@ -13,15 +13,15 @@ ht-degree: 11%
 
 # visitorID
 
-In Adobe vengono utilizzati diversi metodi per identificare i visitatori sul sito. Il `visitorID` la variabile sostituisce tutti gli altri metodi di identificazione dei visitatori.
+In Adobe vengono utilizzati diversi metodi per identificare i visitatori sul sito. La variabile `visitorID` sostituisce tutti gli altri metodi di identificazione dei visitatori.
 
 >[!IMPORTANT]
 >
->L’Adobe consiglia di non utilizzare questa variabile. Utilizza il [Servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) invece.
+>L’Adobe consiglia di non utilizzare questa variabile. Utilizza invece il [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
 
 ## ID visitatore tramite l’estensione Adobe Analytics
 
-[!UICONTROL Visitor ID] è un campo sotto [!UICONTROL Cookies] Pannello a soffietto durante la configurazione dell’estensione Adobe Analytics.
+[!UICONTROL Visitor ID] è un campo nel pannello a soffietto [!UICONTROL Cookies] durante la configurazione dell&#39;estensione Adobe Analytics.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
@@ -32,11 +32,11 @@ Assegna questo campo all’elemento dati contenente l’ID visitatore personaliz
 
 ## s.visitorID in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.visitorID` variabile è una stringa che contiene un identificatore univoco personalizzato per il visitatore. I valori validi includono caratteri alfanumerici fino a 100 byte. Evita di usare trattini, spazi, trattini bassi o simboli in questa variabile.
+La variabile `s.visitorID` è una stringa che contiene un identificatore univoco personalizzato per il visitatore. I valori validi includono caratteri alfanumerici fino a 100 byte. Evita di usare trattini, spazi, trattini bassi o simboli in questa variabile.
 
 >[!WARNING]
 >
->Se si imposta `visitorID` variabile a metà percorso in una visita, i dati generano due visitatori univoci distinti.
+>Se imposti la variabile `visitorID` in una visita, i dati risulteranno in due visitatori univoci distinti.
 
 ```js
 s.visitorID = "abc123";
@@ -44,8 +44,8 @@ s.visitorID = "abc123";
 
 >[!CAUTION]
 >
->Un’implementazione non valida degli ID visitatore personalizzati può portare a dati errati e prestazioni di reporting scadenti. Se questa variabile contiene un valore predefinito (ad esempio `"0"` o `"NULL"`), Adobe tratta questi hit come se fossero lo stesso visitatore. Questa situazione genera dati errati, con un numero basso di visitatori e segmenti a livello di visitatore che non funzionano come previsto. Gli ID visitatore personalizzati implementati in modo non corretto introducono anche un carico pesante sui server di elaborazione, aumentando [latenza](/help/technotes/latency.md) e la riduzione delle prestazioni dei rapporti.
+>Un’implementazione non valida degli ID visitatore personalizzati può portare a dati errati e prestazioni di reporting scadenti. Se questa variabile contiene un valore predefinito (ad esempio `"0"` o `"NULL"`), Adobe tratta questi risultati come se fossero lo stesso visitatore. Questa situazione genera dati errati, con un numero basso di visitatori e segmenti a livello di visitatore che non funzionano come previsto. Gli ID visitatore personalizzati implementati in modo non corretto introducono anche un carico pesante sui server di elaborazione, aumentando la [latenza](/help/technotes/latency.md) e riducendo le prestazioni del rapporto.
 
 ## ID visitatore tramite Web SDK
 
-La rete Edge di Adobe Experience Platform consente di fornire più identificatori utilizzando XDM [Mappa identità](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap). Ogni identità in Identity Map ha uno spazio dei nomi diverso. Puoi specificare quale spazio dei nomi utilizzare per l’ID visitatore come parte di [configurazione dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Una volta configurato, quando invii un evento con un valore specificato per questo spazio dei nomi, verrà utilizzato automaticamente come ID visitatore in Analytics.
+L&#39;Edge Network di Adobe Experience Platform consente di fornire più identificatori utilizzando la [Identity Map](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap) di XDM. Ogni identità in Identity Map ha uno spazio dei nomi diverso. È possibile specificare quale spazio dei nomi utilizzare per l&#39;ID visitatore come parte della [configurazione dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Una volta configurato, quando invii un evento con un valore specificato per questo spazio dei nomi, verrà utilizzato automaticamente come ID visitatore in Analytics.

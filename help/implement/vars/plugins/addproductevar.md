@@ -15,7 +15,7 @@ ht-degree: 7%
 
 {{plug-in}}
 
-Il `addProductEvar` il plug-in consente di aggiungere facilmente un Adobe Analytics merchandising eVar che utilizza la sintassi prodotto per la variabile prodotti senza preoccuparsi se i contenuti già esistenti della variabile prodotti verranno modificati/spostati/eliminati. L’Adobe consiglia di utilizzare questo plug-in per aggiungere facilmente la sintassi di prodotto eVar di merchandising al [`products`](../page-vars/products.md) variabile. Non è necessario utilizzare `addProductEvar` plug-in se non utilizzi le eVar di merchandising con sintassi di prodotto.
+Il plug-in `addProductEvar` consente di aggiungere facilmente un eVar di merchandising di Adobe Analytics che utilizza la sintassi prodotto per la variabile prodotti senza preoccuparsi se il contenuto già esistente della variabile prodotti verrà modificato, spostato o eliminato. L&#39;Adobe consiglia di utilizzare questo plug-in per aggiungere facilmente la sintassi di prodotto eVar di merchandising alla variabile [`products`](../page-vars/products.md). Se non utilizzi le eVar di merchandising con sintassi di prodotto, non devi utilizzare il plug-in `addProductEvar`.
 
 >[!NOTE]
 >
@@ -31,8 +31,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -47,14 +47,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -65,13 +65,13 @@ function addProductEvar(en,ev,ap){var e=en,f=ev,d=ap;if("-v"===e)return{plugin:"
 
 ## Utilizzare il plug-in
 
-Il `addProductEvar` il plug-in utilizza i seguenti argomenti:
+Il plug-in `addProductEvar` utilizza i seguenti argomenti:
 
-* **`en`** (obbligatorio, stringa): eVar da aggiungere all’ultima voce attualmente contenuta nella variabile prodotti. Se la variabile prodotti è vuota, il plug-in crea una voce prodotto &quot;vuota&quot; con il valore eVar associato alla fine della voce.
-* **`ev`** (obbligatorio, stringa): valore assegnato all’eVar.
-* **`ap`** (facoltativo, booleano): se la variabile prodotti contiene attualmente più di una voce di prodotto, il valore true (o 1) aggiunge l’eVar a **tutto** le voci del prodotto.  Il valore predefinito è false (o 0), che aggiunge l&#39;eVar solo al **ultimo** voce contenuta nella variabile prodotti.
+* **`en`** (obbligatorio, stringa): eVar da aggiungere all&#39;ultima voce attualmente contenuta nella variabile prodotti. Se la variabile prodotti è vuota, il plug-in crea una voce prodotto &quot;vuota&quot; con il valore eVar associato alla fine della voce.
+* **`ev`** (obbligatorio, stringa): valore assegnato all&#39;eVar.
+* **`ap`** (facoltativo, booleano): se la variabile prodotti contiene attualmente più di una voce prodotto, il valore true (o 1) aggiunge l&#39;eVar a **tutte** le voci prodotto.  Il valore predefinito è false (o 0), che aggiunge l&#39;eVar solo alla voce **last** contenuta nella variabile dei prodotti.
 
-Il `addProductEvar` Il plug-in non restituisce nulla. Al contrario, aggiunge l’eVar (e il valore eVar) specificato nella `en` e `ev` argomento della `products` variabile.
+Il plug-in `addProductEvar` non restituisce alcun risultato. Aggiunge invece alla variabile `products` l&#39;eVar (e il valore dell&#39;eVar) specificati negli argomenti `en` e `ev`.
 
 ## Esempi
 

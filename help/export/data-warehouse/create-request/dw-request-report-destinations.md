@@ -4,7 +4,7 @@ title: Configurare una destinazione di rapporto per una richiesta di Data Wareho
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2612'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-mail
 
@@ -163,7 +163,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -176,7 +176,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +189,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +203,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Continua a configurare la richiesta del Data Warehouse nella scheda [!UICONTROL **Opzioni rapporto**]. Per ulteriori informazioni, consulta [Configurare le opzioni del rapporto per una richiesta al Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

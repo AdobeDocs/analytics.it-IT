@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
 
 # Tempo trascorso per visitatore (secondi)
 
-Il [!UICONTROL Time spent per visitor (seconds)] [metrica](overview.md) mostra il tempo medio di interazione dei visitatori con un dato elemento dimensionale durante l’intera vita di un visitatore.
+La [!UICONTROL Time spent per visitor (seconds)] [metrica](overview.md) mostra il tempo medio per cui i visitatori interagiscono con un dato elemento della dimensione durante l&#39;intera vita di un visitatore.
 
 Questa metrica non è disponibile in Data Warehouse a causa della diversa architettura di elaborazione.
 
@@ -22,6 +22,6 @@ Questa metrica utilizza la formula [`Total seconds spent`](total-seconds-spent.m
 
 ## Percentuali superiori al 100%
 
-Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo trascorso dall’intera dimensione per visitatore e il numeratore è il tempo trascorso dall’elemento dimensione per visitatore. Se il tempo trascorso dell’intera dimensione per visitatore è inferiore al tempo trascorso per visitatore di un dato elemento della dimensione, vedrai percentuali superiori al 100%. L’ordinamento dei rapporti classificati in base a questa metrica mostra il tempo di anomalia trascorso per i valori dei visitatori, che in genere non è prezioso. L’Adobe consiglia di ordinare per un’altra metrica, ad esempio [Visite](visits.md), nei rapporti classificati.
+Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo trascorso dall’intera dimensione per visitatore e il numeratore è il tempo trascorso dall’elemento dimensione per visitatore. Se il tempo trascorso dell’intera dimensione per visitatore è inferiore al tempo trascorso per visitatore di un dato elemento della dimensione, vedrai percentuali superiori al 100%. L’ordinamento dei rapporti classificati in base a questa metrica mostra il tempo di anomalia trascorso per i valori dei visitatori, che in genere non è prezioso. L&#39;Adobe consiglia di ordinare in base a un&#39;altra metrica, ad esempio [Visite](visits.md), nei report classificati.
 
 Consulta [Panoramica sul tempo trascorso](time-spent.md) per informazioni più generali sul tempo trascorso.

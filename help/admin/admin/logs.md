@@ -23,7 +23,7 @@ Il registro di amministrazione segnala tutte le modifiche apportate dagli ammini
 
 ## Registro di utilizzo e accesso {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
-Il [!UICONTROL Usage and Access Log] consente di valutare l’utilizzo del rapporto a livello dell’account utente. Tiene traccia ad esempio delle azioni di apertura, creazione, aggiornamento, annullamento della condivisione ed eliminazione in Analysis Workspace. Ciò consente di avere una migliore visibilità degli utenti che utilizzano l’Area di lavoro e della frequenza con cui questa viene utilizzata.
+[!UICONTROL Usage and Access Log] consente di valutare l&#39;utilizzo del report a livello dell&#39;account utente. Tiene traccia ad esempio delle azioni di apertura, creazione, aggiornamento, annullamento della condivisione ed eliminazione in Analysis Workspace. Ciò consente di avere una migliore visibilità degli utenti che utilizzano l’Area di lavoro e della frequenza con cui questa viene utilizzata.
 
 | Elemento | Descrizione |
 |---|---|
@@ -33,7 +33,7 @@ Il [!UICONTROL Usage and Access Log] consente di valutare l’utilizzo del rappo
 | Suite di rapporti | Filtra il registro in base a un ID suite di rapporti specifico. |
 | Tipo evento | Filtra il registro per tipo di evento. Seleziona un tipo di evento dall’elenco a discesa. Consulta l’elenco completo dei tipi di evento riportato di seguito. |
 | Evento | Filtra il registro in base a una parola o a una frase nella descrizione dell’evento. |
-| Scarica rapporto | Esporta il contenuto del [!UICONTROL Usage & Access Log] in un file delimitato da tabulazioni. |
+| Scarica rapporto | Esporta il contenuto di [!UICONTROL Usage & Access Log] in un file delimitato da tabulazioni. |
 
 ### Tipi di evento
 
@@ -73,7 +73,7 @@ Il [!UICONTROL Usage and Access Log] consente di valutare l’utilizzo del rappo
 
 Il registro delle modifiche delle suite di rapporti visualizza le modifiche apportate alle suite di rapporti al di fuori di Admin.
 
-Strumenti che possono modificare una suite di rapporti dall’esterno di [!UICONTROL Admin Tools] include:
+Gli strumenti che possono modificare una suite di rapporti dall&#39;esterno di [!UICONTROL Admin Tools] includono:
 
 * Classificazioni caricate in un browser web (i caricamenti di classificazioni effettuati tramite FTP non sono inclusi nel registro delle modifiche)
 * Modifiche apportate nelle versioni precedenti.
@@ -86,4 +86,4 @@ Strumenti che possono modificare una suite di rapporti dall’esterno di [!UICON
 | Login | Filtra il registro in base al nome utente. |
 | IP | Filtra il registro in base a un indirizzo IP. |
 | Evento | Filtra il registro in base a una parola o a una frase nella descrizione dell’evento. |
-| Scarica rapporto | Esporta il contenuto del [!UICONTROL Usage & Access Log] in un file delimitato da tabulazioni. |
+| Scarica rapporto | Esporta il contenuto di [!UICONTROL Usage & Access Log] in un file delimitato da tabulazioni. |

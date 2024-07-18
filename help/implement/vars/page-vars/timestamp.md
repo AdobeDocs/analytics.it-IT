@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # timestamp
 
-Il `timestamp` la variabile imposta manualmente la marca temporale dell’hit per le suite di rapporti abilitate per la marca temporale.
+La variabile `timestamp` imposta manualmente la marca temporale dell&#39;hit per le suite di rapporti abilitate per la marca temporale.
 
 >[!WARNING]
 >
@@ -21,7 +21,7 @@ Il `timestamp` la variabile imposta manualmente la marca temporale dell’hit pe
 
 ## Marca temporale tramite Web SDK
 
-Il timestamp è [mappato per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) nel campo XDM `xdm.timestamp`. Questo campo supporta solo il tempo Unix.
+La marca temporale è [mappata per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) nel campo XDM `xdm.timestamp`. Questo campo supporta solo il tempo Unix.
 
 ## Marca temporale tramite l’estensione Adobe Analytics
 
@@ -29,7 +29,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.timestamp in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.timestamp` variable è una stringa contenente la data e l&#39;ora dell&#39;hit. I formati di marca temporale validi includono [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) e [Ora Unix](https://en.wikipedia.org/wiki/Unix_time) in secondi.
+La variabile `s.timestamp` è una stringa contenente la data e l&#39;ora dell&#39;hit. I formati di marca temporale validi includono [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) e [Tempo Unix](https://en.wikipedia.org/wiki/Unix_time) in secondi.
 
 ```js
 // Timestamp using ISO 8601
@@ -47,16 +47,16 @@ s.timestamp = new Date().toISOString();
 
 ## Valori ISO 8601
 
-Date e ore espresse in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) può assumere diverse forme. Adobe non supporta tutte le funzioni di ISO 8601.
+Le date e le ore espresse in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) possono assumere diverse forme. Adobe non supporta tutte le funzioni di ISO 8601.
 
-* È necessario fornire sia la data che l’ora, separate da `T`.
+* È necessario specificare sia la data che l&#39;ora, separate da `T`.
 * Sono necessari ore e minuti; i secondi sono facoltativi ma consigliati.
 * Le date settimanali e le date ordinali non sono supportate.
-* La data può essere in formato standard o esteso. Ad esempio: `2024-01-01T00:00:00Z` e `20240101T000000Z` sono entrambi validi.
+* La data può essere in formato standard o esteso. Ad esempio, `2024-01-01T00:00:00Z` e `20240101T000000Z` sono entrambi validi.
 * I minuti e i secondi frazionari sono tecnicamente validi, ma le frazioni vengono ignorate per Adobe.
 * I fusi orari sono supportati nei formati standard ed estesi.
 
-Di seguito sono riportati alcuni esempi validi di valori ISO 8601 nella `timestamp` variabile:
+Di seguito sono riportati esempi validi di valori ISO 8601 nella variabile `timestamp`:
 
 ```text
 2024-01-01T00:00:00+00:00

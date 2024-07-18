@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1450'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Se si tenta di creare un feed quando ne esiste già un altro con lo stesso nome 
 
 ## Quando vengono elaborati i dati? {#processed}
 
-Prima di elaborare i dati su base oraria o giornaliera, i feed di dati attendono che tutti gli hit inseriti nella raccolta dati entro l‘intervallo di tempo (giorno o ora) siano stati scritti nel data warehouse. In seguito, i feed di dati raccolgono i dati con le marche temporali che rientrano nell‘arco temporale in questione, li comprime e li invia tramite FTP. Per i feed orari, in genere i file vengono scritti nel data warehouse entro 15-30 minuti successivi all‘ora, ma non esiste un periodo di tempo specifico. Se non vi sono dati con marche temporali che rientrano nell‘arco temporale, il processo viene nuovamente tentato nell‘intervallo temporale successivo. Il processo di feed dati corrente utilizza il campo `date_time` per determinare quali hit appartengono a un‘ora. Questo campo è basato sul fuso orario della suite di rapporti.
+Prima di elaborare i dati su base oraria o giornaliera, i feed di dati attendono che tutti gli hit inseriti nella raccolta dati entro l‘arco temporale (giorno o ora) siano stati scritti nel data warehouse. In seguito, i feed di dati raccolgono i dati con le marche temporali che rientrano nell‘arco temporale in questione, li comprime e li invia tramite FTP. Per i feed orari, in genere i file vengono scritti nel data warehouse entro 15-30 minuti successivi all‘ora, ma non esiste un periodo di tempo specifico. Se non vi sono dati con marche temporali che rientrano nell’arco temporale, il processo viene nuovamente tentato nell’arco temporale successivo. Il processo di feed dati corrente utilizza il campo `date_time` per determinare quali hit appartengono a un‘ora. Questo campo è basato sul fuso orario della suite di rapporti.
 
 ## Qual è la differenza tra le colonne con prefisso `post_` e le colonne senza prefisso `post_`? {#post}
 

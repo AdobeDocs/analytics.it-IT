@@ -22,9 +22,9 @@ Per eseguire l’escape dei dati di classificazione nel file di classificazione:
 
    >[!NOTE]
    >
-   >Per specificare un formato v2.1, abilita **[!UICONTROL Quoted Output]** durante l&#39;esportazione del file su [!UICONTROL Classification Importer] page ( [!UICONTROL Browser Export] o [!UICONTROL FTP Export]).
+   >Per specificare un formato v2.1, abilitare **[!UICONTROL Quoted Output]** durante l&#39;esportazione del file nella pagina [!UICONTROL Classification Importer] ( [!UICONTROL Browser Export] o [!UICONTROL FTP Export]).
 
-1. Racchiudi il campo contenente caratteri speciali tra virgolette doppie (`"`).
+1. Racchiudere il campo contenente caratteri speciali tra virgolette doppie (`"`).
 
 Un carattere virgolette doppie può essere visualizzato in una cella con escape sostituendola con due virgolette doppie (`" "`). Ad esempio:
 

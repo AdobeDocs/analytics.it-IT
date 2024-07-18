@@ -17,7 +17,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->Questo metodo di identificazione dei visitatori tra i dispositivi non è più consigliato. Consulta [Analytics tra dispositivi](/help/components/cda/overview.md) nella guida utente Componenti.
+>Questo metodo di identificazione dei visitatori tra i dispositivi non è più consigliato. Vedi [Analisi multidispositivo](/help/components/cda/overview.md) nella guida utente dei componenti.
 
 L’esempio seguente illustra il funzionamento dell’identificazione dei visitatori cross-device utilizzando un esempio di chiamate al server inviate in un’interazione con il cliente comune.
 
@@ -25,7 +25,7 @@ L’esempio seguente illustra il funzionamento dell’identificazione dei visita
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Un visitatore fa clic su un collegamento in un’e-mail di marketing e visita il sito dal computer di casa. Questo visitatore ha visitato il tuo sito altre 7 volte in passato. | 1 | - | 1 | 1 | 8 |
 | 2-8 | Visita altre 7 pagine del sito. | 1 | - | 1 | 2-8 | 8 |
-| 9 | Autentica nel computer di casa. | 1 | CID1 | CID1 | 9 <br>Questo è il primo hit di CID1 in assoluto, quindi subentra e continua sul profilo del visitatore da ID visitatore 1. | 8 |
+| 9 | Autentica nel computer di casa. | 1 | CID1 | CID1 | 9 <br>(Questo è il primo hit di CID1 in assoluto, quindi subentra e continua sul profilo del visitatore da ID visitatore 1). | 8 |
 | 10 | Visita 1 pagina aggiuntiva. | 1 | CID1 | CID1 | 10 | 8 |
 | 11 | Apre il sito dal laptop in ufficio. Il visitatore non ha visitato il tuo sito prima di utilizzare questo dispositivo. | 2 | - | 2 | 1 | 1 |
 | 12 | Autentica su notebook. | 2 | CID1 | CID1 | 1 | 9 |
@@ -51,4 +51,4 @@ Dopo l’associazione iniziale, i conteggi delle visite tornano alla normalità 
 
 ![](assets/visitors_2.png)
 
-Assicurati di essere il più coerente possibile nell’identificazione dei visitatori univoci. Ad esempio, utilizza sempre `visitorID` quando l’utente è autenticato.
+Assicurati di essere il più coerente possibile nell’identificazione dei visitatori univoci. Ad esempio, utilizza sempre la variabile `visitorID` quando l&#39;utente è autenticato.

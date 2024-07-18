@@ -12,12 +12,12 @@ ht-degree: 5%
 
 # Risoluzione dei problemi relativi ad Advertising Analytics
 
-* [Non vedo la mia suite di rapporti nella sezione Mappatura](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
+* [La suite di rapporti non viene visualizzata nella sezione Mappatura](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [Viene visualizzato un errore durante l’autenticazione nell’account Google Adwords...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## Non vedo la mia suite di rapporti nella sezione Mappatura {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-Stai cercando di [configurare un nuovo account Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e la suite di rapporti non è elencata **[!UICONTROL Mapped report suites]** elenco a discesa. Questo può essere dovuto a due motivi:
+Stai tentando di [configurare un nuovo account Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e la tua suite di rapporti non è elencata nell&#39;elenco a discesa **[!UICONTROL Mapped report suites]**. Questo può essere dovuto a due motivi:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -33,7 +33,7 @@ Stai cercando di [configurare un nuovo account Advertising](/help/integrate/c-ad
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Non è stato eseguito il provisioning della suite di rapporti per il reporting di Advertising Analytics. </p> </td> 
-   <td colname="col2"> <p>Fai riferimento a <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > Suite di rapporti di provisioning</a> per istruzioni. </p> </td> 
+   <td colname="col2"> <p>Per istruzioni, consultare <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > Provisioning Report Suite</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

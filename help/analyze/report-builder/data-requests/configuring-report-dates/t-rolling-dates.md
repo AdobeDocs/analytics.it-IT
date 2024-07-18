@@ -16,9 +16,9 @@ ht-degree: 5%
 
 Per personalizzare una data continua per la richiesta:
 
-1. Il giorno [!UICONTROL Request Wizard: Step 1], seleziona **[!UICONTROL Rolling Dates]**.
-1. Fai clic su **[!UICONTROL Rolling]** collegamento per scegliere il tipo continuo, quindi utilizzare i collegamenti alle date per configurare le date continue.
+1. In [!UICONTROL Request Wizard: Step 1], selezionare **[!UICONTROL Rolling Dates]**.
+1. Fare clic sul collegamento **[!UICONTROL Rolling]** per scegliere il tipo continuo, quindi utilizzare i collegamenti alle date per configurare le date continue.
 
-   Le impostazioni per [!UICONTROL Rolling Dates] cambia a seconda delle selezioni. Ad esempio, quando selezioni [!UICONTROL Rolling Weekly], Report Builder fornisce impostazioni specifiche per settimana che è possibile selezionare come motivo continuo.
+   Le impostazioni per [!UICONTROL Rolling Dates] variano a seconda delle selezioni. Quando ad esempio si seleziona [!UICONTROL Rolling Weekly], il Report Builder fornisce impostazioni specifiche per la settimana che è possibile selezionare come modello continuo.
 
 1. Configura le opzioni avanzate come desideri.

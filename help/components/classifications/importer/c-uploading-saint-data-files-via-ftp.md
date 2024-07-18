@@ -18,7 +18,7 @@ ht-degree: 3%
 >
 >L&#39;FTP non è consigliato perché è un metodo non crittografato di condivisione dei file, il che significa che chiunque può intercettare il contenuto del file, nonché il nome utente e la password utilizzati per l&#39;account.
 >
->Configura invece un account cloud come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).
+>Configurare invece un account cloud come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).
 
 Passaggi che descrivono come caricare i file di dati tramite FTP.
 
@@ -50,7 +50,7 @@ Se hai superato i valori univoci per il mese, nei rapporti non verranno visualiz
 
 Prima di caricare i dati tramite FTP, crea un account FTP. >
 
-Consulta [FTP e sFTP](/help/export/ftp-and-sftp/ftp-overview.md) per ulteriori dettagli sui server FTP di Adobe.
+Per ulteriori informazioni sui server FTP di Adobe, vedere [FTP e sFTP](/help/export/ftp-and-sftp/ftp-overview.md).
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Fai clic su **[!UICONTROL Import File]**, quindi su **[!UICONTROL FTP Import]**.
@@ -61,9 +61,9 @@ Consulta [FTP e sFTP](/help/export/ftp-and-sftp/ftp-overview.md) per ulteriori d
    |---|---|
    | **Nome** | Il nome dell’account FTP. |
    | **Set di dati da classificare** | Dall’elenco a discesa, seleziona il set di dati (variabile del rapporto di marketing) che desideri classificare. |
-   | **Selezionare suite di rapporti** | Seleziona le suite di rapporti in cui desideri classificare il set di dati selezionato. Per selezionare più suite di rapporti, le classificazioni per ciascuna delle suite di rapporti selezionate devono essere identiche. |
-   | **Sovrascrivi dati in caso di conflitti** | Selezionare questa opzione per sovrascrivere i dati duplicati. Questa opzione è utile se aggiorni le classificazioni esistenti. Se è attiva la [architettura di classificazione più recente](../sets/overview.md), questa impostazione è sempre abilitata. |
-   | **Dopo il completamento dell’importazione** | Seleziona questa opzione per esportare automaticamente il set di dati aggiornato nello stesso account FTP una volta specificato l’indirizzo e-mail per ricevere notifiche su questo account FTP una volta completata l’importazione. Se è attiva la [architettura di classificazione più recente](../sets/overview.md), opzione non disponibile. |
+   | **Seleziona suite di rapporti** | Seleziona le suite di rapporti in cui desideri classificare il set di dati selezionato. Per selezionare più suite di rapporti, le classificazioni per ciascuna delle suite di rapporti selezionate devono essere identiche. |
+   | **Sovrascrivi dati su conflitti** | Selezionare questa opzione per sovrascrivere i dati duplicati. Questa opzione è utile se aggiorni le classificazioni esistenti. Se ti trovi nell&#39;[architettura di classificazione più recente](../sets/overview.md), questa impostazione è sempre abilitata. |
+   | **Dopo il completamento dell&#39;importazione** | Seleziona questa opzione per esportare automaticamente il set di dati aggiornato nello stesso account FTP una volta specificato l’indirizzo e-mail per ricevere notifiche su questo account FTP una volta completata l’importazione. Se ti trovi nell&#39;[architettura di classificazione più recente](../sets/overview.md), questa opzione non è disponibile. |
    | **Destinatario notifica** | Specifica l&#39;indirizzo e-mail per ricevere notifiche su questo account FTP. |
    | **Autorizza** | (Obbligatorio) Autorizza l’Adobe a importare automaticamente tutti i file di dati inviati al nuovo account FTP. |
 
@@ -83,12 +83,12 @@ Per importare le classificazioni tramite FTP:
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Fai clic su **[!UICONTROL Import File]**, quindi su **[!UICONTROL FTP Import]**.
-1. Accanto all&#39;account FTP che si desidera utilizzare, fare clic su **[!UICONTROL View]**.
+1. Accanto all&#39;account FTP che si desidera utilizzare fare clic su **[!UICONTROL View]**.
 1. Utilizza le informazioni di accesso FTP (host, accesso, password) per accedere al server FTP utilizzando un client FTP di tua scelta.
-1. Carica il file di dati ( `.tab` o `.txt`) al server FTP.
+1. Caricare il file di dati ( `.tab` o `.txt`) sul server FTP.
 1. Dopo aver caricato il file di dati, carica un file FIN che indica che il file è pronto per l’elaborazione.
 
-   Il file FIN è un file vuoto che ha lo stesso nome del file di dati, con un `.fin` estensione del nome file. Ad esempio, se il file di dati è `classdata1.tab`, il nome del file FIN è `classdata1.fin`.
+   Il file FIN è un file vuoto con lo stesso nome del file di dati, con estensione `.fin`. Ad esempio, se il file di dati è `classdata1.tab`, il nome del file FIN è `classdata1.fin`.
 
 A intervalli regolari, Adobe recupera i file di dati caricati a cui è associato un file FIN. Adobe le importa nelle suite di rapporti e nei set di dati specificati nella configurazione dell’account FTP.
 

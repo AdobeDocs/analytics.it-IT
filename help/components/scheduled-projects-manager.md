@@ -4,7 +4,7 @@ title: Gestione progetti programmati
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
 source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 

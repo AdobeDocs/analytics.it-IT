@@ -17,16 +17,16 @@ Questo pannello consente di esplorare facilmente le statistiche chiave relative 
 
 ## Accedere al pannello
 
-Puoi accedere al pannello da [!UICONTROL Reports] o entro [!UICONTROL Workspace].
+Puoi accedere al pannello da [!UICONTROL Reports] o da [!UICONTROL Workspace].
 
 | Punto di accesso | Descrizione |
 | --- | --- |
-| [!UICONTROL Reports] | <ul><li>Il pannello è già stato rilasciato in un progetto.</li><li>La barra a sinistra è compressa.</li><li>È supportata solo la dimensione Pagina.</li><li>È già stata applicata un’impostazione predefinita, in questo caso la pagina visitata superiore per[!UICONTROL Page] dimensione. Puoi modificare questa impostazione.</li></ul> |
-| Workspace | Crea un nuovo progetto e seleziona l’icona Pannello nella barra a sinistra. Trascina [!UICONTROL Page summary] sopra la tabella a forma libera. Nota che la pagina [!UICONTROL Dimension Item] viene lasciato vuoto. Seleziona un elemento dimensione dall’elenco a discesa. |
+| [!UICONTROL Reports] | <ul><li>Il pannello è già stato rilasciato in un progetto.</li><li>La barra a sinistra è compressa.</li><li>È supportata solo la dimensione Pagina.</li><li>È già stata applicata un&#39;impostazione predefinita, in questo caso la pagina visitata più in alto per la dimensione [!UICONTROL Page]. Puoi modificare questa impostazione.</li></ul> |
+| Workspace | Crea un nuovo progetto e seleziona l’icona Pannello nella barra a sinistra. Trascina il pannello [!UICONTROL Page summary] sopra la tabella a forma libera. Il campo Pagina [!UICONTROL Dimension Item] viene lasciato vuoto. Seleziona un elemento dimensione dall’elenco a discesa. |
 
 ## Input del pannello {#Input}
 
-È possibile configurare [!UICONTROL Page summary] utilizzando le seguenti impostazioni di input:
+È possibile configurare il pannello [!UICONTROL Page summary] utilizzando le seguenti impostazioni di input:
 
 | Impostazione | Descrizione |
 | --- | --- |
@@ -35,11 +35,11 @@ Puoi accedere al pannello da [!UICONTROL Reports] o entro [!UICONTROL Workspace]
 
 {style="table-layout:auto"}
 
-Clic **[!UICONTROL Build]** per creare il pannello.
+Fare clic su **[!UICONTROL Build]** per creare il pannello.
 
 ## Output del pannello {#output}
 
-Il [!UICONTROL Page summary] Il pannello restituisce un set completo di dati e visualizzazioni di metriche che consentono di comprendere meglio le statistiche relative a pagine specifiche.
+Il pannello [!UICONTROL Page summary] restituisce un set completo di dati e visualizzazioni di metriche per consentirti di comprendere meglio le statistiche relative a pagine specifiche.
 
 | Metrica/Visualizzazione | Descrizione |
 | --- | --- |
@@ -50,10 +50,10 @@ Il [!UICONTROL Page summary] Il pannello restituisce un set completo di dati e v
 | [!UICONTROL Percentage of all page views] | Un numero di riepilogo per la percentuale di tutte le visualizzazioni di pagina che hanno visitato questa pagina. |
 | [!UICONTROL Time spent on page] | Un grafico a barre orizzontale che elenca il tempo trascorso su questa pagina. |
 | [!UICONTROL Single page visits] | Un numero di riepilogo che elenca il numero di visualizzazioni di pagina in cui questa era l’unica pagina visitata. |
-| [!UICONTROL Reloads] | Il [!UICONTROL Reloads] La metrica mostra il numero di volte in cui un elemento dimensione era presente durante un ricaricamento. Un visitatore che aggiorna il browser è il modo più comune per attivare un ricaricamento. |
-| [!UICONTROL Entries] | Il [!UICONTROL Entries] La metrica mostra il numero di volte in cui un dato elemento dimensione viene acquisito come primo valore in una visita. |
-| [!UICONTROL Exits] | Il [!UICONTROL Exits] La metrica mostra il numero di volte in cui un dato elemento dimensione viene acquisito come ultimo valore in una visita. |
-| [!UICONTROL Flow] | Un diagramma di flusso con la pagina selezionata come punto focale. Puoi approfondire i dati come in qualsiasi [Diagramma di flusso](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
+| [!UICONTROL Reloads] | La metrica [!UICONTROL Reloads] mostra il numero di volte in cui un elemento dimensione era presente durante un ricaricamento. Un visitatore che aggiorna il browser è il modo più comune per attivare un ricaricamento. |
+| [!UICONTROL Entries] | La metrica [!UICONTROL Entries] mostra il numero di volte in cui un dato elemento dimensione viene acquisito come primo valore in una visita. |
+| [!UICONTROL Exits] | La metrica [!UICONTROL Exits] mostra il numero di volte in cui un dato elemento dimensione viene acquisito come ultimo valore in una visita. |
+| [!UICONTROL Flow] | Un diagramma di flusso con la pagina selezionata come punto focale. È possibile eseguire un drill-through dei dati come in qualsiasi [diagramma di flusso](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style="table-layout:auto"}
 

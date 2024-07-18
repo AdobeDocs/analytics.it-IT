@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '686'
 ht-degree: 92%
 
 ---
@@ -50,7 +50,7 @@ Puoi eseguire percorsi con variabili eVar, comprese le eVar di merchandising e [
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Percorso finale </p> <p>(Impostazione predefinita) </p> </td> 
+   <td colname="col1"> <p>Percorso finale </p> <p>(impostazione predefinita) </p> </td> 
    <td colname="col2"> <p>I visitatori (o visite) vengono conteggiati quando arrivano al punto di contatto successivo nel percorso. Le deviazioni sono consentite tra i punti di contatto. </p> </td> 
   </tr> 
   <tr> 

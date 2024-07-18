@@ -17,7 +17,7 @@ Code Manager consente di scaricare il codice di raccolta dati per piattaforme we
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**.
 
-Dopo aver scaricato la libreria, devi configurare il codice per inviare i dati al server di tracciamento e alla suite di rapporti corretti. Ulteriori risorse sull’implementazione sono disponibili nella sezione [Implementare](/help/implement/home.md) guida utente.
+Dopo aver scaricato la libreria, devi configurare il codice per inviare i dati al server di tracciamento e alla suite di rapporti corretti. Ulteriori risorse di implementazione sono disponibili nella guida utente [Implementa](/help/implement/home.md).
 
 ## Descrizioni pagina di Code Manager {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -25,5 +25,5 @@ Dopo aver scaricato la libreria, devi configurare il codice per inviare i dati a
 |--- |--- |
 | [!UICONTROL Name] | Il nome corrisponde alla piattaforma in cui desideri abilitare la raccolta dati. In questa colonna vengono fornite librerie native per ogni piattaforma elencata. |
 | [!UICONTROL Type] | Tipo di applicazioni che possono essere misurate utilizzando ogni libreria. |
-| [!UICONTROL Version] | Elencare la versione più recente della libreria. Fai clic sul numero di versione per visualizzare [cronologia delle versioni](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=it). |
+| [!UICONTROL Version] | Elencare la versione più recente della libreria. Fai clic sul numero di versione per visualizzare la cronologia delle versioni [](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=it). |
 | [!UICONTROL Documentation] | Consulta la documentazione di riferimento della libreria. |

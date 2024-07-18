@@ -13,32 +13,32 @@ ht-degree: 5%
 
 # events
 
-I Dimension e le metriche sono componenti vitali per i rapporti. Il `events` La variabile è responsabile della raccolta dei dati di molte metriche sul sito. Gli eventi in genere incrementano [metriche](/help/components/metrics/overview.md) nei rapporti.
+I Dimension e le metriche sono componenti vitali per i rapporti. La variabile `events` è responsabile della raccolta dei dati di molte metriche sul sito. In genere, gli eventi incrementano [metriche](/help/components/metrics/overview.md) nei rapporti.
 
-Prima di implementare gli eventi, accertati di crearli e configurarli in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti. Se prevedi di utilizzare eventi personalizzati negli hit di tracciamento dei collegamenti, assicurati che [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) sono impostati correttamente.
+Prima di implementare gli eventi, assicurati di crearli e configurarli in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti. Se prevedi di utilizzare eventi personalizzati negli hit di tracciamento dei collegamenti, assicurati che [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) siano impostati correttamente.
 
 ## Eventi che utilizzano il Web SDK
 
-Se utilizzi il [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md), gli eventi personalizzati utilizzano i seguenti campi XDM:
+Se utilizzi l&#39;[oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md), gli eventi personalizzati utilizzano i campi XDM seguenti:
 
-* Gli eventi personalizzati da 1 a 100 sono mappati su `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`.
-* Gli eventi personalizzati 101-200 sono mappati su `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`.
-* Questo modello si ripete ogni 100 eventi in `xdm._experience.analytics.event901to1000.event901` - `xdm._experience.analytics.event901to1000.event1000`. `eventx.value` viene utilizzato per specificare l&#39;importo da incrementare. `eventx.id` viene utilizzato per [serializzazione](event-serialization.md).
+* Gli eventi personalizzati 1-100 sono mappati a `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`.
+* Gli eventi personalizzati 101-200 sono mappati a `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`.
+* Questo modello si ripete ogni 100 eventi in `xdm._experience.analytics.event901to1000.event901` - `xdm._experience.analytics.event901to1000.event1000`. `eventx.value` viene utilizzato per specificare l&#39;importo da incrementare. `eventx.id` è utilizzato per la [serializzazione](event-serialization.md).
 * Gli ordini sono mappati a `xdm.commerce.purchases.value`.
-* Le unità sono mappate alla somma di tutte `productListItems[].quantity` campi.
-* I ricavi vengono mappati sulla somma di tutti `productListItems[].priceTotal` campi.
-* Le visualizzazioni del prodotto sono mappate a `xdm.commerce.productViews.value`.
-* I carrelli sono mappati su `xdm.commerce.productListOpens.value`.
+* Le unità sono mappate alla somma di tutti i campi `productListItems[].quantity`.
+* Ricavi mappati alla somma di tutti i campi `productListItems[].priceTotal`.
+* Le visualizzazioni prodotto sono mappate a `xdm.commerce.productViews.value`.
+* I carrelli sono mappati a `xdm.commerce.productListOpens.value`.
 * Le aggiunte al carrello sono mappate a `xdm.commerce.productListAdds.value`.
 * Le rimozioni dal carrello sono mappate a `xdm.commerce.productListRemovals.value`.
 * Le visualizzazioni del carrello sono mappate a `xdm.commerce.productListViews.value`.
-* Pagamenti mappati a `xdm.commerce.checkouts.value`.
+* Le casse sono mappate a `xdm.commerce.checkouts.value`.
 
 >[!NOTE]
 >
 >Se un evento è impostato in `productListItems` (ad esempio, `productListItems._experience.analytics.event1.value`) e tale evento non è ancora presente in questo campo, l&#39;evento viene aggiunto automaticamente a questo campo.
 
-Se utilizzi il [**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), tutti gli eventi utilizzano `data.__adobe.analytics.events`, seguendo l&#39;AppMeasurement di sintassi delle stringhe. Se imposti questo campo, tutti gli eventi impostati nell’oggetto XDM vengono sovrascritti e non inviati ad Adobe Analytics.
+Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), tutti gli eventi utilizzano `data.__adobe.analytics.events`, seguendo la sintassi stringa di AppMeasurement. Se imposti questo campo, tutti gli eventi impostati nell’oggetto XDM vengono sovrascritti e non inviati ad Adobe Analytics.
 
 ## Eventi che utilizzano l’estensione Adobe Analytics
 
@@ -48,28 +48,28 @@ Puoi impostare gli eventi sia durante la configurazione dell’estensione Analyt
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Imposta il [!UICONTROL Extension] in Adobe Analytics e nella sezione [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+5. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL Events].
 
 Sono disponibili diverse funzioni:
 
 * Elenco a discesa che consente di selezionare l’evento da includere
-* Campo di testo facoltativo per la serializzazione. Consulta [serializzazione degli eventi](event-serialization.md) per ulteriori informazioni.
-* Campo di testo facoltativo per un valore evento. È possibile includere la valuta per gli eventi di valuta oppure un numero intero per gli eventi non di valuta per incrementarla più volte. Ad esempio, selezionando `event1` nell’elenco a discesa e includendo `10` in questo campo incrementa `event1` 10 nella generazione rapporti.
+* Campo di testo facoltativo per la serializzazione. Per ulteriori informazioni, vedere [serializzazione eventi](event-serialization.md).
+* Campo di testo facoltativo per un valore evento. È possibile includere la valuta per gli eventi di valuta oppure un numero intero per gli eventi non di valuta per incrementarla più volte. Selezionando ad esempio `event1` nell&#39;elenco a discesa e includendo `10` in questo campo, nella generazione rapporti `event1` viene incrementato di 10.
 * Un pulsante per aggiungere un altro evento. Puoi aggiungere tutti gli eventi che desideri a una singola regola entro il motivo desiderato.
 
 ## s.events in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.events` variable è una stringa che contiene un elenco delimitato da virgole di eventi da includere nell’hit. La variabile consente fino a 64.000 byte, consentendo in modo efficace il numero di eventi necessario per un hit. I valori validi includono:
+La variabile `s.events` è una stringa che contiene un elenco delimitato da virgole di eventi da includere nell&#39;hit. La variabile consente fino a 64.000 byte, consentendo in modo efficace il numero di eventi necessario per un hit. I valori validi includono:
 
-* `event1` - `event1000`: eventi personalizzati, impostati nel modo desiderato. Registra come utilizzi ogni evento nel [documento di progettazione della soluzione](../../../prepare/solution-design.md). Il numero di eventi disponibili dipende dal contratto Analytics della tua organizzazione. La maggior parte delle organizzazioni con contratti non legacy dispone di 1000 eventi personalizzati. Se non sai quanti eventi personalizzati sono disponibili, contatta il tuo account team di Adobi.
-* `purchase`: incrementa il [&#39;Ordini&#39;](/help/components/metrics/orders.md) metrica per 1 e accetta i valori impostati nella `products` variabile da calcolare [&#39;Unità&#39;](/help/components/metrics/units.md) e [&#39;Entrate&#39;](/help/components/metrics/revenue.md). Consulta [evento di acquisto](event-purchase.md) per ulteriori informazioni.
-* `prodView`: incrementa il [&#39;Visualizzazioni prodotto&#39;](/help/components/metrics/product-views.md) metrica.
-* `scOpen`: incrementa il [&#39;Carrelli&#39;](/help/components/metrics/carts.md) metrica.
-* `scAdd`: incrementa il [&quot;Aggiunte carrello&quot;](/help/components/metrics/cart-additions.md) metrica.
-* `scRemove`: incrementa il [&#39;Rimozioni carrello&#39;](/help/components/metrics/cart-removals.md) metrica.
-* `scView`: incrementa il [&#39;Visualizzazioni carrello&#39;](/help/components/metrics/cart-views.md) metrica.
-* `scCheckout`: incrementa il [&#39;Pagamenti&#39;](/help/components/metrics/checkouts.md) metrica.
+* `event1` - `event1000`: eventi personalizzati, impostati come desiderato. Registra come utilizzi ogni evento nel [documento di progettazione della soluzione](../../../prepare/solution-design.md) della tua organizzazione. Il numero di eventi disponibili dipende dal contratto Analytics della tua organizzazione. La maggior parte delle organizzazioni con contratti non legacy dispone di 1000 eventi personalizzati. Se non sai quanti eventi personalizzati sono disponibili, contatta il tuo account team di Adobi.
+* `purchase`: incrementa di 1 la metrica [&#39;Orders&#39;](/help/components/metrics/orders.md) e considera i valori impostati nella variabile `products` per calcolare [&#39;Units&#39;](/help/components/metrics/units.md) e [&#39;Revenue&#39;](/help/components/metrics/revenue.md). Per ulteriori informazioni, consulta [evento di acquisto](event-purchase.md).
+* `prodView`: incrementa la metrica [&#39;Visualizzazioni prodotto&#39;](/help/components/metrics/product-views.md).
+* `scOpen`: incrementa la metrica [&#39;Carrelli&#39;](/help/components/metrics/carts.md).
+* `scAdd`: incrementa la metrica [&#39;Aggiunte carrello&#39;](/help/components/metrics/cart-additions.md).
+* `scRemove`: incrementa la metrica [&#39;Rimozioni carrello&#39;](/help/components/metrics/cart-removals.md).
+* `scView`: incrementa la metrica [&#39;Visualizzazioni carrello&#39;](/help/components/metrics/cart-views.md).
+* `scCheckout`: incrementa la metrica [&#39;Casse&#39;](/help/components/metrics/checkouts.md).
 
 >[!NOTE]
 >
@@ -101,9 +101,9 @@ s.events = "event1=2,event2";
 
 ### Usa eventi di valuta
 
-È possibile modificare un evento personalizzato in modo che utilizzi la valuta anziché i numeri interi. Gli eventi di valuta vengono automaticamente convertiti nella valuta della suite di rapporti se quest’ultima e `currencyCode` non corrispondono. Sono utili per calcolare spese di spedizione, sconti o rimborsi. È possibile impostare gli eventi di valuta in `products` se desideri attribuire l’evento solo a tale prodotto.
+È possibile modificare un evento personalizzato in modo che utilizzi la valuta anziché i numeri interi. Gli eventi di valuta vengono convertiti automaticamente nella valuta della suite di rapporti se la valuta della suite di rapporti e la variabile `currencyCode` non corrispondono. Sono utili per calcolare spese di spedizione, sconti o rimborsi. È possibile impostare gli eventi di valuta nella variabile `products` se si desidera attribuire l&#39;evento solo a tale prodotto.
 
-Prima di implementare gli eventi di valuta, assicurati di impostare l’evento desiderato su &quot;Valuta&quot; in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
+Prima di implementare gli eventi di valuta, assicurati di impostare l&#39;evento desiderato su &quot;Valuta&quot; in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -118,13 +118,13 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 >[!NOTE]
 >
->Se si imposta un valore di valuta in entrambi i `events` variabile e `products` variabile, il valore della valuta in `events` viene utilizzato. Evita di impostare i valori di valuta in entrambi `events` e `products` variabili.
+>Se si imposta un valore di valuta sia nella variabile `events` che nella variabile `products`, verrà utilizzato il valore di valuta in `events`. Evitare di impostare valori di valuta nelle variabili `events` e `products`.
 
 ### Utilizzare eventi numerici
 
-È possibile modificare un evento personalizzato per accettare valori decimali anziché interi. Gli eventi numerici si comportano in modo simile agli eventi di valuta, tranne per il fatto che non utilizzano la conversione di valuta. È possibile impostare eventi numerici in `products` se desideri attribuire l’evento solo a tale prodotto.
+È possibile modificare un evento personalizzato per accettare valori decimali anziché interi. Gli eventi numerici si comportano in modo simile agli eventi di valuta, tranne per il fatto che non utilizzano la conversione di valuta. È possibile impostare eventi numerici nella variabile `products` se si desidera attribuire l&#39;evento solo a tale prodotto.
 
-Prima di implementare eventi numerici, assicurati di impostare l’evento desiderato su &quot;Numerico&quot; in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
+Prima di implementare eventi numerici, assicurati di impostare l&#39;evento desiderato su &quot;Numerico&quot; in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings
@@ -137,4 +137,4 @@ s.products = "Example category;Example product;1;0;event1=4.5";
 
 >[!NOTE]
 >
->Se si imposta un valore numerico in entrambi i `events` variabile e `products` variabile, il valore numerico in `events` viene utilizzato. Evita di impostare valori numerici in entrambi i `events` e `products` variabili.
+>Se si imposta un valore numerico sia nella variabile `events` che nella variabile `products`, verrà utilizzato il valore numerico in `events`. Evitare di impostare valori numerici nelle variabili `events` e `products`.

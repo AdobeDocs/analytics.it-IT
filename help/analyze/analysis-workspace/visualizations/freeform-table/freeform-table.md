@@ -6,43 +6,43 @@ role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 68%
+source-wordcount: '536'
+ht-degree: 63%
 
 ---
 
 # Tabella a forma libera
 
-In Analysis Workspace, una tabella a forma libera è la base per l’analisi dei dati interattivi. Puoi trascinare una combinazione di [componenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=it) nelle righe e nelle colonne per creare una tabella personalizzata per l’analisi. Man mano che ciascun componente viene rilasciato, la tabella viene aggiornata immediatamente, in modo da poter analizzare e approfondire rapidamente.
+In Analysis Workspace, una tabella a forma libera è la base per l’analisi dei dati interattivi. Puoi trascinare una combinazione di [componenti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=it) nelle righe e nelle colonne per creare una tabella personalizzata per l’analisi. Man mano che ciascun componente viene rilasciato, la tabella viene aggiornata immediatamente e puoi quindi analizzarla e approfondirla.
 
-## Creare una tabella a forma libera semplice
+## Creare una semplice tabella a forma libera
 
-Inizia con una tabella a forma libera vuota.
+Si inizia con una tabella a forma libera vuota.
 
 ![Tabella a forma libera vuota](assets/freeform-table-1.png)
 
-Se rilasci **[!UICONTROL ** Visite **]** metrica **[!UICONTROL ** Rilascia una metrica qui (o qualsiasi altro componente)**]**, la tabella a forma libera si popola automaticamente con le visite al giorno per il periodo di calendario selezionato.
+Se rilasci la metrica **[!UICONTROL ** Visite **]** in **[!UICONTROL ** Rilascia qui una metrica (o qualsiasi altro componente)**]**, la tabella a forma libera si popola automaticamente con visite al giorno per il periodo di calendario selezionato.
 
-![Visite alla tabella a forma libera](assets/freeform-table-2.png)
+![Visite Tabella A Forma Libera](assets/freeform-table-2.png)
 
-Se poi rilascia la **[!UICONTROL ** Pagina **]** per sostituire la **[!UICONTROL ** Giorno **]** nella colonna delle dimensioni , la tabella a forma libera riflette automaticamente le visite per ogni pagina.
+Se in seguito rilasci la dimensione **[!UICONTROL ** Pagina **]** per sostituire la colonna della dimensione **[!UICONTROL ** Giorno **]**, la tabella a forma libera riflette automaticamente le visite per ogni pagina.
 
 ![Visite per tabella a forma libera pagina](assets/freeform-table-3.png)
 
-È quindi possibile suddividere, ad esempio, il **[!UICONTROL ** categoria:5 **]** rilasciando la pagina **[!UICONTROL ** Canale di marketing **]** della dimensione **[!UICONTROL ** categoria:5 **]** fila.
+È quindi possibile suddividere, ad esempio, la pagina **[!UICONTROL ** category:5 **]** rilasciando la dimensione **[!UICONTROL ** Canale di marketing **]** nella riga **[!UICONTROL ** category:5 **]**.
 
-![Suddivisione delle visite per tabella a forma libera pagina](assets/freeform-table-4.png)
+![Suddivisione visite per tabella a forma libera della pagina](assets/freeform-table-4.png)
 
 
 ## Tabelle automatizzate
 
-Come illustrato in precedenza, il modo più rapido per creare una tabella consiste nel rilasciare i componenti direttamente in un progetto, un pannello o una tabella a forma libera vuota. Una tabella a forma libera verrà creata automaticamente in un formato consigliato. [Guarda il tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=it).
+Come illustrato in precedenza, il modo più rapido per creare una tabella consiste nel rilasciare i componenti direttamente in un progetto o pannello vuoto oppure in una tabella a forma libera vuota. Una tabella a forma libera verrà creata automaticamente in un formato consigliato. [Guarda il tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=it).
 
 ![](assets/automated-table.png)
 
 ## Generatore di tabelle a forma libera
 
-Se prima preferisci aggiungere diversi componenti alla tabella e quindi eseguire il rendering dei dati, puoi attivare il Generatore di tabelle a forma libera. Con il generatore abilitato, puoi trascinare e rilasciare più dimensioni, raggruppamenti, metriche e segmenti per creare tabelle che rispondano a domande più complesse. I dati non verranno aggiornati istantaneamente, ma solo dopo aver fatto clic su **[!UICONTROL Build]**.
+Se prima preferisci aggiungere diversi componenti alla tabella e quindi eseguire il rendering dei dati, puoi attivare il Generatore di tabelle a forma libera. Con il generatore abilitato, puoi trascinare e rilasciare più dimensioni, raggruppamenti, metriche e segmenti per creare tabelle che rispondano a esigenze più complesse. I dati non verranno aggiornati istantaneamente, ma solo dopo aver fatto clic su **[!UICONTROL Build]**.
 
 ![](assets/table-builder.png)
 
@@ -67,7 +67,7 @@ Ulteriori informazioni su tutte le [opzioni di esportazione](https://experiencel
 
 * Fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Copy data to clipboard]** per esportare i dati della tabella visualizzati. Se è selezionata una parte della tabella, questa opzione diventa **[!UICONTROL Copy selection to clipboard]**. È possibile copiare i dati selezionati anche con la scelta rapida da tastiera **Ctrl + C**.
 * Fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Download data as CSV]** per scaricare come CSV i dati della tabella visualizzata. Se è selezionata una parte della tabella, questa opzione diventa **[!UICONTROL Download selection as CSV]**.
-* Clic con il pulsante destro del mouse > **[!UICONTROL Project > Download items as CSV]** esporta fino a 50.000 elementi dimensionali per la dimensione selezionata.
+* Fare clic con il pulsante destro del mouse > **[!UICONTROL Project > Download items as CSV]** per esportare fino a 50.000 elementi dimensionali per la dimensione selezionata.
 
 Ulteriori informazioni su tutte le [opzioni di esportazione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it) dei dati per Analysis Workspace.
 

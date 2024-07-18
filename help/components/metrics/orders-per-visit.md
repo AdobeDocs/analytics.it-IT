@@ -12,7 +12,7 @@ ht-degree: 18%
 
 # Ordini per visita
 
-Il &#39;Ordini per visita&#39; [metrica](overview.md) mostra il rapporto tra gli ordini dei visitatori e il numero totale di visite al sito. Puoi utilizzare questa metrica per comprendere il tasso di conversione per il sito.
+La metrica &quot;Ordini per visita&quot; [metrica](overview.md) mostra il rapporto tra gli ordini dei visitatori e il numero totale di visite al sito. Puoi utilizzare questa metrica per comprendere il tasso di conversione per il sito.
 
 ## Come è calcolata questa metrica
 

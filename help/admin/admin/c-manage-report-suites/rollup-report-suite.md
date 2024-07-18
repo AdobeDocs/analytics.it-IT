@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Puoi fornire sottoinsiemi dei dati della suite di rapporti globale della tua azi
 
 * **Suite di rapporti virtuali**: una [suite di rapporti virtuale](/help/components/vrs/vrs-about.md) è una query su segmenti specifici raccolti in una suite di rapporti globale, disponibile per gruppi di utenti specifici. Le suite di rapporti virtuali consentono di curare gli elementi dei rapporti per utenti finali diversi senza utilizzare l’assegnazione tag multisuite, evitando in tal modo le chiamate al server secondarie.
 
-  Per utilizzare le suite di rapporti virtuali, implementa una suite di rapporti globale, quindi analizza i dati per creare suite di rapporti virtuali con segmenti specifici applicati e con autorizzazioni di gruppo specifiche. Puoi creare suite di rapporti virtuali nella gestione delle suite di rapporti virtuali ([!UICONTROL Components] > [!UICONTROL Virtual report suites]). Per ulteriori informazioni, consulta la sezione sul [flusso di lavoro per suite di rapporti virtuali](/help/components/vrs/c-workflow-vrs/vrs-workflow.md).
+  Per utilizzare le suite di rapporti virtuali, implementa una suite di rapporti globale, quindi analizza i dati per creare suite di rapporti virtuali con segmenti specifici applicati e con autorizzazioni di gruppo specifiche. È possibile creare suite di rapporti virtuali in Gestione delle suite di rapporti virtuali ([!UICONTROL Components] > [!UICONTROL Virtual report suites]). Per ulteriori informazioni, consulta la sezione sul [flusso di lavoro per suite di rapporti virtuali](/help/components/vrs/c-workflow-vrs/vrs-workflow.md).
 
-Invece di usare più suite di rapporti con tag, spesso è preferibile utilizzare le suite di rapporti virtuali; tuttavia queste presentano alcune limitazioni. Consulta le [considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite](/help/components/vrs/vrs-considerations.md) per capire quale approccio scegliere in base alle tue esigenze di business. Per un confronto approfondito tra suite di rapporti virtuali e la funzionalità di assegnazione tag per più suite, vedi &quot;[Suite di rapporti virtuali e assegnazione di tag a più suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
+Invece di usare più suite di rapporti con tag, spesso è preferibile utilizzare le suite di rapporti virtuali; tuttavia queste presentano alcune limitazioni. Consulta le [considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite](/help/components/vrs/vrs-considerations.md) per capire quale approccio scegliere in base alle tue esigenze di business. Per un confronto approfondito tra suite di rapporti virtuali e la funzionalità di tag per più suite, consulta “[Confronto tra suite di rapporti virtuali e tag per più suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)”.
 
 <!---## Rollup reports
 

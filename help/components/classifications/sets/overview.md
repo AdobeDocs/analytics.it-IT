@@ -16,7 +16,7 @@ I set di classificazione forniscono un’unica interfaccia per gestire classific
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**
 
-Devi essere un amministratore di prodotto o appartenere a un profilo di prodotto contenente l’elemento di autorizzazione [!UICONTROL Report Suite Tools] > [!UICONTROL Classifications] per visualizzare questa voce di menu. Tieni presente che mentre le precedenti interfacce di gestione delle classificazioni sono sotto [!UICONTROL Admin] I set di classificazione si trovano nel menu [!UICONTROL Components] menu.
+Per visualizzare questa voce di menu è necessario essere amministratore di prodotto o appartenere a un profilo di prodotto contenente l&#39;elemento di autorizzazione [!UICONTROL Report Suite Tools] > [!UICONTROL Classifications]. Si noti che mentre le precedenti interfacce di gestione delle classificazioni sono nel menu [!UICONTROL Admin], i set di classificazione sono nel menu [!UICONTROL Components].
 
 ## Miglioramenti
 

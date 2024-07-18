@@ -17,34 +17,34 @@ Questo pannello contiene una serie di tabelle e visualizzazioni per identificare
 
 ## Accedere al pannello
 
-Puoi accedere al pannello da [!UICONTROL Reports] o entro [!UICONTROL Workspace].
+Puoi accedere al pannello da [!UICONTROL Reports] o da [!UICONTROL Workspace].
 
 | Punto di accesso | Descrizione |
 | --- | --- |
-| [!UICONTROL Reports] | <ul><li>Il pannello è già stato rilasciato in un progetto.</li><li>La barra a sinistra è compressa.</li><li>Se hai selezionato [!UICONTROL Next page], sono già state applicate le impostazioni predefinite, ad esempio [!UICONTROL Page] per [!UICONTROL Dimension]e la pagina superiore come [!UICONTROL Dimension Item], [!UICONTROL Next] per [!UICONTROL Direction] e [!UICONTROL Visit] per [!UICONTROL Container]. Puoi modificare tutte queste impostazioni.</li></ul>![Pannello precedente/successivo](assets/next-previous.png) |
-| Workspace | Crea un nuovo progetto e seleziona l’icona Pannello nella barra a sinistra. Quindi trascina [!UICONTROL Next or previous item] sopra la tabella a forma libera. Tieni presente che [!UICONTROL Dimension] e [!UICONTROL Dimension Item] I campi vengono lasciati vuoti. Seleziona una dimensione dall’elenco a discesa. [!UICONTROL Dimension items] sono compilati in base al [!UICONTROL dimension] tu hai scelto. Viene aggiunto l’elemento della dimensione superiore, ma puoi selezionare un elemento diverso. Le impostazioni predefinite sono Successivo e Visitatore. Di nuovo, puoi modificare anche questi.<p>![Pannello precedente/successivo](assets/next-previous2.png) |
+| [!UICONTROL Reports] | <ul><li>Il pannello è già stato rilasciato in un progetto.</li><li>La barra a sinistra è compressa.</li><li>Se hai selezionato [!UICONTROL Next page], sono già state applicate le impostazioni predefinite, ad esempio [!UICONTROL Page] per [!UICONTROL Dimension], e la pagina superiore come [!UICONTROL Dimension Item], [!UICONTROL Next] per [!UICONTROL Direction] e [!UICONTROL Visit] per [!UICONTROL Container]. Puoi modificare tutte queste impostazioni.</li></ul>![Pannello precedente/successivo](assets/next-previous.png) |
+| Workspace | Crea un nuovo progetto e seleziona l’icona Pannello nella barra a sinistra. Trascinare quindi il pannello [!UICONTROL Next or previous item] sopra la tabella a forma libera. Si noti che i campi [!UICONTROL Dimension] e [!UICONTROL Dimension Item] sono vuoti. Seleziona una dimensione dall’elenco a discesa. [!UICONTROL Dimension items] sono compilati in base a [!UICONTROL dimension] scelto. Viene aggiunto l’elemento della dimensione superiore, ma puoi selezionare un elemento diverso. Le impostazioni predefinite sono Successivo e Visitatore. Di nuovo, puoi modificare anche questi.<p>![Pannello precedente/successivo](assets/next-previous2.png) |
 
 {style="table-layout:auto"}
 
 ## Input del pannello {#Input}
 
-È possibile configurare [!UICONTROL Next or previous item] pannello utilizzando le seguenti impostazioni di input:
+È possibile configurare il pannello del pannello [!UICONTROL Next or previous item] utilizzando le seguenti impostazioni di input:
 
 | Impostazione | Descrizione |
 | --- | --- |
 | Zona di rilascio del segmento (o di un altro componente) | Puoi trascinare segmenti o altri componenti per filtrare ulteriormente i risultati del pannello. |
 | Dimensione | La dimensione per la quale desideri esplorare gli elementi successivi o precedenti. |
 | Elemento Dimension | L&#39;oggetto specifico al centro della richiesta successiva/precedente. |
-| Direzione | Specifica se stai cercando [!UICONTROL Next] o [!UICONTROL Previous] elemento dimensione. |
-| Contenitore | [!UICONTROL Visit] o [!UICONTROL Visitor] (impostazione predefinita) determina l&#39;ambito della richiesta di informazioni. |
+| Direzione | Specificare se si sta cercando l&#39;elemento di dimensione [!UICONTROL Next] o [!UICONTROL Previous]. |
+| Contenitore | [!UICONTROL Visit] o [!UICONTROL Visitor] (impostazione predefinita) determinano l&#39;ambito della richiesta di informazioni. |
 
 {style="table-layout:auto"}
 
-Clic **[!UICONTROL Build]** per creare il pannello.
+Fare clic su **[!UICONTROL Build]** per creare il pannello.
 
 ## Output del pannello {#output}
 
-Il [!UICONTROL Next or previous item] Il pannello restituisce un set completo di dati e visualizzazioni per aiutarti a comprendere meglio quali occorrenze seguono o precedono specifici elementi dimensionali.
+Il pannello [!UICONTROL Next or previous item] restituisce un set completo di dati e visualizzazioni per consentirti di comprendere meglio le occorrenze che seguono o precedono specifici elementi dimensionali.
 
 ![Output pannello precedente/successivo](assets/next-previous-output.png)
 

@@ -17,7 +17,7 @@ AppMeasurement raccoglie automaticamente l’URL della pagina in ogni hit. Se de
 
 >[!NOTE]
 >
->Questa variabile non è una dimensione disponibile in Analysis Workspace. È disponibile solo in Data Warehouse e Feed dati. Inoltre, i server di raccolta dati di Adobe eliminano questa dimensione da tutti [tracciamento dei collegamenti](/help/implement/vars/functions/tl-method.md) richieste di immagini. Se desideri utilizzare l’URL della pagina come dimensione in Analysis Workspace o desideri questa dimensione negli hit di tracciamento dei collegamenti, puoi valutare la possibilità di trasmettere `pageURL` variabile in un [eVar](evar.md) su ogni hit.
+>Questa variabile non è una dimensione disponibile in Analysis Workspace. È disponibile solo in Data Warehouse e Feed dati. Inoltre, i server di raccolta dati di Adobe eliminano questa dimensione da tutte le [richieste di immagini di tracciamento dei collegamenti](/help/implement/vars/functions/tl-method.md). Se desideri utilizzare l&#39;URL della pagina come dimensione in Analysis Workspace o desideri questa dimensione negli hit di tracciamento dei collegamenti, puoi passare la variabile `pageURL` in un [eVar](evar.md) per ogni hit.
 
 ## URL della pagina utilizzando il Web SDK
 
@@ -34,14 +34,14 @@ L’estensione Analytics in Adobe Experience Platform Data Collection compila au
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda **[!UICONTROL Rules]**, quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione **[!UICONTROL Actions]**, fai clic su un’azione **[!UICONTROL Adobe Analytics - Set Variables]** esistente o fai clic sull’icona “+”.
-5. Imposta il **[!UICONTROL Extension]** in Adobe Analytics e nella sezione **[!UICONTROL Action Type]** a **[!UICONTROL Set Variables]**.
+5. Impostare l&#39;elenco a discesa **[!UICONTROL Extension]** su Adobe Analytics e **[!UICONTROL Action Type]** su **[!UICONTROL Set Variables]**.
 6. Individua la sezione **[!UICONTROL Page URL]**.
 
 Puoi impostare l’URL della pagina su qualsiasi valore stringa.
 
 ## s.pageURL in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.pageURL` variabile è una stringa che contiene l’URL della pagina. AppMeasurement raccoglie automaticamente questa variabile, tuttavia se lo desideri puoi sovrascrivere il valore.
+La variabile `s.pageURL` è una stringa che contiene l&#39;URL della pagina. AppMeasurement raccoglie automaticamente questa variabile, tuttavia se lo desideri puoi sovrascrivere il valore.
 
 ```js
 s.pageURL = "https://example.com";
@@ -54,7 +54,7 @@ Se desideri utilizzare l’URL della pagina come dimensione nei rapporti, consid
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-Se utilizzi il `digitalData` [livello dati](../../prepare/data-layer.md):
+Se si utilizza il `digitalData` [livello dati](../../prepare/data-layer.md):
 
 ```js
 s.pageURL = digitalData.page.pageInfo.destinationURL;

@@ -6,22 +6,22 @@ exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 # Pagine non trovate
 
-*Questa pagina della guida descrive come funziona &quot;Pagine non trovate&quot; come [dimensione](overview.md). Consulta la [Pagine non trovate](../metrics/pages-not-found.md) per ulteriori informazioni.*
+*Questa pagina della Guida descrive il funzionamento di &quot;Pagine non trovate&quot; come [dimensione](overview.md). Per ulteriori informazioni, vedere la metrica [Pagine non trovate](../metrics/pages-not-found.md).*
 
 La dimensione &quot;Pagine non trovate&quot; mostra gli URL che contenevano un errore. Questa dimensione è utile quando vuoi ridurre il numero di errori che il visitatore riceve sul tuo sito.
 
-* Puoi utilizzare questa dimensione in una [Visualizzazione del flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) per vedere quali pagine i visitatori fanno clic per raggiungere l’errore. Puoi quindi lavorare con i team di sviluppo della tua organizzazione per correggere il collegamento su ogni pagina.
-* Puoi utilizzare questa dimensione con [&#39;Referrer&#39;](referrer.md) per vedere dove i visitatori arrivano al sito da collegamenti esterni. Puoi quindi implementare i reindirizzamenti alla posizione desiderata o collaborare con terze parti per correggere il collegamento.
+* Puoi utilizzare questa dimensione in una [Visualizzazione del flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) per vedere quali pagine i visitatori fanno clic per raggiungere l&#39;errore. Puoi quindi lavorare con i team di sviluppo della tua organizzazione per correggere il collegamento su ogni pagina.
+* Puoi utilizzare questa dimensione con la dimensione [&#39;Referrer&#39;](referrer.md) per vedere dove i visitatori arrivano al tuo sito da collegamenti esterni. Puoi quindi implementare i reindirizzamenti alla posizione desiderata o collaborare con terze parti per correggere il collegamento.
 
-## Popola questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
-Questa dimensione recupera i dati da [`pageType` e `g` stringhe di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. Se il `pageType` stringa di query uguale a `errorPage`, il `g` stringa di query (URL della pagina) registrata. L’AppMeasurement raccoglie questi dati utilizzando [`pageType`](/help/implement/vars/page-vars/pagetype.md) variabile. Se il `pageType` la variabile non è definita o impostata su un valore diverso da `errorPage`, non vengono raccolti dati per questa dimensione.
+Questa dimensione recupera i dati dalle stringhe di query [`pageType` e `g`](/help/implement/validate/query-parameters.md) nelle richieste di immagini. Se la stringa di query `pageType` è uguale a `errorPage`, viene registrata la stringa di query `g` (URL pagina). AppMeasurement raccoglie questi dati utilizzando la variabile [`pageType`](/help/implement/vars/page-vars/pagetype.md). Se la variabile `pageType` non è definita o impostata su un valore diverso da `errorPage`, non verranno raccolti dati per questa dimensione.
 
 ## Elementi dimensionali
 

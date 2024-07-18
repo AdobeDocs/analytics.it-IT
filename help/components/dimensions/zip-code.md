@@ -5,28 +5,28 @@ feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 4%
+source-wordcount: '262'
+ht-degree: 7%
 
 ---
 
 # Codice di avviamento postale
 
-Il &#39;Codice postale&#39; [dimensione](overview.md) segnala il codice postale del visitatore. Puoi utilizzare questa dimensione per saperne di più sul successo della pubblicità locale o per vedere dove nel mondo il tuo sito offre le prestazioni migliori.
+Il codice postale [dimension](overview.md) segnala il codice postale del visitatore. Puoi utilizzare questa dimensione per saperne di più sul successo della pubblicità locale o per vedere dove nel mondo il tuo sito offre le prestazioni migliori.
 
-## Popola questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
 Questa dimensione è univoca in quanto contiene più modi per compilarla con i dati. Puoi utilizzare una delle due opzioni o una combinazione di entrambe.
 
-* Imposta il codice postale direttamente utilizzando `zip` variabile; o
+* Impostare il codice postale direttamente utilizzando la variabile `zip` oppure
 * Configuralo per estrarre i dati di geolocalizzazione.
 
-Il [!UICONTROL Zip option] in [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) controlla come popolare questa dimensione.
+[!UICONTROL Zip option] in [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) controlla come popolare questa dimensione.
 
 Se scegli di utilizzare un’opzione che coinvolge geo zip:
 
 * Ad AppMeasurement, le implementazioni di questa dimensione sono pronte all’uso.
-* Per le implementazioni dell’SDK web, abilita [!UICONTROL Geo Lookup] quando [configurazione di uno stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+* Per le implementazioni Web SDK, abilita [!UICONTROL Geo Lookup] quando [si configura uno stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it).
 
 ## Elementi dimensionali
 

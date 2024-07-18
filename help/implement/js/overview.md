@@ -13,11 +13,11 @@ ht-degree: 9%
 
 # Implementare Adobe Analytics con AppMeasurement per JavaScript
 
-L’AppMeasurement per JavaScript è sempre stato un metodo comune per implementare Adobe Analytics. Tuttavia, con la crescente popolarità dei sistemi Tag Management, utilizzando [tag in Adobe Experience Platform](../launch/overview.md) è consigliato.
+L’AppMeasurement per JavaScript è sempre stato un metodo comune per implementare Adobe Analytics. Tuttavia, con la crescente popolarità dei sistemi Tag Management, si consiglia di utilizzare [tag in Adobe Experience Platform](../launch/overview.md).
 
 Panoramica ad alto livello dei compiti di implementazione:
 
-![Come implementare Adobe Analytics con AppMeasurement per JavaScript, come descritto in questa sezione.](../assets/appmeasurement-annotated.png)
+![Come implementare Adobe Analytivs con AppMeasurement per JavaScript, come descritto in questa sezione.](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -26,15 +26,15 @@ Panoramica ad alto livello dei compiti di implementazione:
 </tr>
 
 <tr>
-<td>1</td><td>Assicurati di avere <b>definizione di una suite di rapporti</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td>1</td><td>Assicurati di aver <b>definito una suite di rapporti</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Scarica il codice JavaScript richiesto, ad AppMeasurement</b> da Code Manager. Decomprimi il file.</td><td><a href="../../admin/admin/code-manager-admin.md">Gestione codici</a></td>
+<td>2</td><td><b>Scarica il codice JavaScript richiesto per l'AppMeasurement</b> da Code Manager. Decomprimi il file.</td><td><a href="../../admin/admin/code-manager-admin.md">Gestione codici</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>Aggiungi <code>AppMeasurement.js</code> nel file modello del sito Web</b>. Il codice contiene le librerie necessarie per inviare dati ad Adobe.
+<td>3</td><td><b>Aggiungi <code>AppMeasurement.js</code> al file modello del tuo sito Web</b>. Il codice contiene le librerie necessarie per inviare dati ad Adobe.
 
 ```html
 <head>
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Definire le variabili a livello di pagina nel codice della pagina del sito</b>. Queste variabili determinano dimensioni e metriche specifiche inviate a Adobe.
+<td>5</td><td><b>Definisci le variabili a livello di pagina nel codice di pagina del sito</b>. Queste variabili determinano dimensioni e metriche specifiche inviate a Adobe.
 
 ```js
 s.pageName = "Example page";
@@ -74,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>Invia i dati all'Adobe utilizzando <code>t()</code> metodo</b>, quando sono definite tutte le variabili di pagina.
+<td>6</td><td><b>Invia i dati ad Adobe utilizzando il metodo <code>t()</code></b>, quando sono definite tutte le variabili di pagina.
 
 ```js
 s.t();
@@ -84,7 +84,7 @@ s.t();
 </tr>
 
 <tr>
-<td>7</td><td><b>Estendere e convalidare l’implementazione</b> prima di implementarlo in produzione.</b></td><td></td>
+<td>7</td><td><b>Estendi e convalida l'implementazione</b> prima di eseguirne il push in produzione.</b></td><td></td>
 </tr>
 
 </table>

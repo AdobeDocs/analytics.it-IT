@@ -19,21 +19,21 @@ Le metriche consentono di quantificare i punti dati in Analysis Workspace. Sono 
 
 Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
 
-* **Metriche standard**: la maggior parte delle metriche utilizzate nei progetti sono metriche standard. Alcuni esempi includono [Visualizzazioni pagina](/help/components/metrics/page-views.md), [Ricavi](/help/components/metrics/revenue.md), o [Eventi personalizzati](/help/components/metrics/custom-events.md). Consulta [Panoramica delle metriche](/help/components/metrics/overview.md) nella guida utente Componenti per ulteriori informazioni.
+* **Metriche standard**: la maggior parte delle metriche utilizzate nei progetti sono metriche standard. Gli esempi includono [visualizzazioni pagina](/help/components/metrics/page-views.md), [ricavi](/help/components/metrics/revenue.md) o [eventi personalizzati](/help/components/metrics/custom-events.md). Per ulteriori informazioni, consulta [Panoramica delle metriche](/help/components/metrics/overview.md) nella guida utente dei Componenti.
 
   ![Metrica standard](assets/standard-metric.png)
 
-* **Metriche calcolate**: metriche definite dall’utente basate su metriche standard, numeri statici o funzioni algoritmiche. Le metriche calcolate definite dall’utente mostrano l’icona di una calcolatrice nell’elenco dei componenti disponibili. Consulta [Panoramica sulle metriche calcolate](/help/components/c-calcmetrics/cm-overview.md) nella guida utente Componenti per ulteriori informazioni.
+* **Metriche calcolate**: metriche definite dall&#39;utente basate su metriche standard, numeri statici o funzioni algoritmiche. Le metriche calcolate definite dall’utente mostrano l’icona di una calcolatrice nell’elenco dei componenti disponibili. Per ulteriori informazioni, consulta [Panoramica sulle metriche calcolate](/help/components/c-calcmetrics/cm-overview.md) nella guida utente dei componenti.
 
   ![Metrica calcolata](assets/calculated-metric.png)
 
-* **Modelli di metriche calcolate**: metriche definite dall’Adobe che si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzarne la logica. I modelli di metriche calcolate mostrano un’icona di Adobe nell’elenco dei componenti disponibili.
+* **Modelli di metriche calcolate**: metriche definite dall&#39;Adobe che si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzarne la logica. I modelli di metriche calcolate mostrano un’icona di Adobe nell’elenco dei componenti disponibili.
 
   ![Modello di metrica calcolata](assets/calculated-metric-template.png)
 
 ## Utilizzare le metriche in Analysis Workspace
 
-Le metriche possono essere utilizzate in vari modi all’interno di Analysis Workspace. Per informazioni su come aggiungere metriche e altri tipi di componenti ad Analysis Workspace, consulta [Utilizzare i componenti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+Le metriche possono essere utilizzate in vari modi all’interno di Analysis Workspace. Per informazioni su come aggiungere metriche e altri tipi di componenti ad Analysis Workspace, vedi [Utilizzare componenti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
@@ -43,7 +43,7 @@ Le metriche calcolate consentono di vedere facilmente in che modo le metriche si
 
 * Fai clic sul pulsante più accanto all’intestazione Metriche sotto l’elenco dei componenti a sinistra.
 * Passa a **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]** > **[!UICONTROL Add]**.
-* Fai clic con il pulsante destro del mouse su un’intestazione di colonna > **[!UICONTROL Create metric from selection]** quando sono selezionate una o più celle della colonna di intestazione. Questa opzione crea automaticamente una metrica calcolata senza dover utilizzare il Generatore di regole della metrica calcolata.
+* Fare clic con il pulsante destro del mouse su un&#39;intestazione di colonna > **[!UICONTROL Create metric from selection]** quando sono selezionate una o più celle di colonna di intestazione. Questa opzione crea automaticamente una metrica calcolata senza dover utilizzare il Generatore di regole della metrica calcolata.
 
 [Metriche calcolate: metriche senza implementazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=it) (3:42)
 
@@ -55,7 +55,7 @@ Per confrontare in modo rapido e semplice un modello di attribuzione con un altr
 
 Questa scorciatoia ti consente di confrontare in maniera facile e veloce un modello di attribuzione con un altro senza trascinare una metrica e configurarla due volte.
 
-## Utilizza il [!UICONTROL cumulative average] funzione per applicare uniformità metrica
+## Utilizza la funzione [!UICONTROL cumulative average] per applicare l&#39;arrotondamento delle metriche
 
 Video sull’argomento:
 

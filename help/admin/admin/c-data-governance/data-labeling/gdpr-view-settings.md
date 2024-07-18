@@ -13,16 +13,16 @@ ht-degree: 31%
 
 # Visualizzazione/gestione delle etichette sulla privacy per la governance dei dati
 
-Il **[!UICONTROL Privacy Labeling for Data Governance]** Questa finestra di dialogo fornisce una panoramica delle etichette sulla privacy e degli spazi dei nomi di una suite di rapporti. Da qui è possibile esportare le impostazioni in un file .csv.
+La finestra di dialogo **[!UICONTROL Privacy Labeling for Data Governance]** fornisce una panoramica delle etichette per la privacy e degli spazi dei nomi di una suite di rapporti. Da qui è possibile esportare le impostazioni in un file .csv.
 
 ## Visualizza etichette privacy {#view-privacy}
 
 1. Accedi ad Adobe Experience Cloud.
-2. Accedi a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** > **[!UICONTROL Data Governance]**.
+2. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** > **[!UICONTROL Data Governance]**.
 
    >[!NOTE]
    >
-   >Se questa voce di menu non viene visualizzata, è necessario aggiungerla a una [profilo di prodotto in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=it) dispone delle autorizzazioni necessarie per utilizzare questa funzionalità o ha avuto accesso a una suite di rapporti all’interno dell’Admin Console.
+   >Se questa voce di menu non viene visualizzata, devi essere aggiunto a un profilo di prodotto [in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=it) con autorizzazioni per questa funzionalità o hai ottenuto l&#39;accesso a una suite di rapporti all&#39;interno dell&#39;Admin Console.
 
 3. In alto a destra, seleziona una suite di rapporti di cui desideri visualizzare o gestire le etichette sulla privacy.
 
@@ -45,21 +45,21 @@ Il **[!UICONTROL Privacy Labeling for Data Governance]** Questa finestra di dial
 Se desideri applicare le stesse impostazioni di Privacy dei dati a più di una suite di rapporti, effettua le seguenti operazioni:
 
 1. Seleziona la variabile da copiare. Tieni presente che puoi copiare le etichette solo per una variabile alla volta.
-1. Clic **[!UICONTROL Copy to Report Suite(s)]** nella parte inferiore della finestra di dialogo Governance dei dati.
+1. Fare clic su **[!UICONTROL Copy to Report Suite(s)]** nella parte inferiore della finestra di dialogo Governance dei dati.
 
    ![Copia nella suite di rapporti](assets/copy_to_reportsuite.png)
 
 1. La schermata risultante mostra il nome della variabile, le etichette attualmente applicate su cui stai tentando di copiare, le suite di rapporti e i relativi ID e se le impostazioni nelle suite di rapporti di destinazione corrispondono.
 
-   ![Copia dell’etichetta nella suite di rapporti](assets/copy_to_rs.png)
+   ![Copia dell&#39;etichetta nella suite di rapporti](assets/copy_to_rs.png)
 
    >[!IMPORTANT]
    >
    >Tieni presente che tutte le suite di rapporti selezionate devono essere mappate nell’organizzazione Experience Cloud.
 
-   Quando copi le etichette per una variabile o per un set di variabili in una suite di rapporti diversa, la copia passa alla variabile nella posizione corrispondente nella suite di rapporti di destinazione. Per i componenti standard, le variabili elenco e gli eventi di successo, le etichette verranno copiate nella variabile con **stesso nome** nella suite di rapporti di destinazione.
+   Quando copi le etichette per una variabile o per un set di variabili in una suite di rapporti diversa, la copia passa alla variabile nella posizione corrispondente nella suite di rapporti di destinazione. Per i componenti standard, le variabili elenco e gli eventi di successo, le etichette verranno copiate nella variabile con **lo stesso nome** nella suite di rapporti di destinazione.
 
-   Tuttavia, per le variabili di conversione (eVar) e i Dimension di traffico (prop), la copia viene inviata alla variabile con **stesso numero** nella suite di rapporti di destinazione. Ad esempio, eVar12 verrà copiata in eVar12 in tutte le suite di rapporti di destinazione. I nomi di queste variabili verranno ignorati durante la determinazione della destinazione della copia. Se la variabile corrispondente non è abilitata nella suite di rapporti di destinazione, la copia non potrà essere eseguita per tale variabile.
+   Tuttavia, per le variabili di conversione (eVar) e i Dimension di traffico (prop) la copia viene inviata alla variabile con **lo stesso numero** nella suite di rapporti di destinazione. Ad esempio, eVar12 verrà copiata in eVar12 in tutte le suite di rapporti di destinazione. I nomi di queste variabili verranno ignorati durante la determinazione della destinazione della copia. Se la variabile corrispondente non è abilitata nella suite di rapporti di destinazione, la copia non potrà essere eseguita per tale variabile.
 
    Durante la copia delle etichette per le classificazioni definite per una variabile, le etichette verranno copiate in una classificazione nella variabile corrispondente nella suite di rapporti di destinazione (ad esempio da eVar7 a eVar7) che ha un nome identico alla classificazione da copiare. Altrimenti, la copia delle etichette della classificazione non verrà eseguita.
 
@@ -76,7 +76,7 @@ Se desideri applicare le stesse impostazioni di Privacy dei dati a più di una s
 
 Puoi scaricare un file CSV contenente tutte le definizioni delle etichette correnti per tutte le variabili per le suite di rapporti selezionate. Consigliamo al team legale di esaminare le scelte di etichettatura; questa opzione facilita la revisione. Invece di dover eseguire la revisione quando sei autenticato nell’interfaccia utente della governance dei dati, puoi condividere il file .CSV.
 
-1. Clic **[!UICONTROL Export CSV]** in alto a destra e viene visualizzata questa finestra di dialogo:
+1. Fai clic su **[!UICONTROL Export CSV]** in alto a destra per visualizzare questa finestra di dialogo:
 
    ![](assets/export_csv.png)
 
@@ -84,4 +84,4 @@ Puoi scaricare un file CSV contenente tutte le definizioni delle etichette corre
 
 ## Modifica etichette privacy {#edit}
 
-Fai riferimento a [Assegnare o modificare le etichette di privacy della suite di rapporti](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).
+Consulta [Assegnare o modificare le etichette per la privacy della suite di rapporti](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).

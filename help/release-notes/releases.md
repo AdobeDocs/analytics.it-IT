@@ -4,8 +4,8 @@ title: Rilasci di funzioni di Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
-workflow-type: ht
-source-wordcount: '388'
+workflow-type: tm+mt
+source-wordcount: '392'
 ht-degree: 100%
 
 ---

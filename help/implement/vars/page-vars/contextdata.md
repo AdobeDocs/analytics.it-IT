@@ -15,13 +15,13 @@ ht-degree: 3%
 
 Le variabili di dati di contesto ti consentono di definire variabili personalizzate in ogni pagina leggibile dalle regole di elaborazione. Invece di assegnare esplicitamente i valori alle variabili di Analytics nel codice, puoi inviare dati in variabili di dati di contesto. Le regole di elaborazione accettano quindi i valori delle variabili di dati di contesto e li trasmettono alle rispettive variabili di Analytics. Consulta [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) nella Guida utente di amministrazione.
 
-Le variabili di dati contestuali sono utili ai team di sviluppo per raccogliere dati in elementi denominati anziché in variabili numerate. Ad esempio, invece di richiedere ai team di sviluppo di assegnare l’autore della pagina a `eVar10`, puoi richiederne l’assegnazione a `s.contextData["author"]` invece. Un amministratore di Analytics della tua organizzazione può quindi creare regole di elaborazione per mappare le variabili di dati di contesto in variabili di Analytics a scopo di reporting. In definitiva, i team di sviluppo si preoccuperebbero solo delle variabili di dati di contesto anziché delle numerose variabili di pagina offerte dall’Adobe.
+Le variabili di dati contestuali sono utili ai team di sviluppo per raccogliere dati in elementi denominati anziché in variabili numerate. Ad esempio, invece di richiedere ai team di sviluppo di assegnare l&#39;autore della pagina a `eVar10`, puoi richiedere loro di assegnarlo a `s.contextData["author"]`. Un amministratore di Analytics della tua organizzazione può quindi creare regole di elaborazione per mappare le variabili di dati di contesto in variabili di Analytics a scopo di reporting. In definitiva, i team di sviluppo si preoccuperebbero solo delle variabili di dati di contesto anziché delle numerose variabili di pagina offerte dall’Adobe.
 
 ## Variabili di dati di contesto tramite Web SDK
 
-Se utilizzi il [**Oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), tutti i campi che non vengono mappati su una variabile Adobe Analytics vengono inclusi automaticamente come variabile di dati di contesto. Puoi anche impostare esplicitamente i dati contestuali utilizzando l’oggetto XDM. A questo punto puoi utilizzare [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) per assegnare la variabile di dati di contesto alla variabile di Analytics desiderata.  Consulta [Mappatura di altri campi XDM su variabili Analytics](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) per ulteriori informazioni.
+Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), tutti i campi non mappati a una variabile Adobe Analytics vengono inclusi automaticamente come variabile di dati di contesto. Puoi anche impostare esplicitamente i dati contestuali utilizzando l’oggetto XDM. Puoi quindi utilizzare [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) per assegnare la variabile di dati di contesto alla variabile di Analytics desiderata.  Per ulteriori informazioni, vedi [Mappatura di altri campi XDM su variabili Analytics](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables).
 
-Se utilizzi il [**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), tutte le variabili di dati di contesto risiedono in `data.__adobe.analytics.contextData` come coppie chiave-valore:
+Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), tutte le variabili di dati di contesto si trovano all&#39;interno di `data.__adobe.analytics.contextData` come coppie chiave-valore:
 
 ```js
 alloy("sendEvent", {
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-Il [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) l’interfaccia apparirebbe `c.example_variable` e `c.second_example` nei menu a discesa applicabili.
+L&#39;interfaccia delle [regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) mostrerebbe `c.example_variable` e `c.second_example` nei menu a discesa applicabili.
 
 ## Variabili di dati di contesto tramite l’estensione Adobe Analytics
 
@@ -46,7 +46,7 @@ La raccolta dati di Adobe Experience Platform non dispone di una posizione dedic
 
 ## s.contextData in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.contextData` La variabile non accetta direttamente un valore. Imposta invece le proprietà di questa variabile su una stringa.
+La variabile `s.contextData` non accetta direttamente un valore. Imposta invece le proprietà di questa variabile su una stringa.
 
 ```js
 // Assign the example_variable property a value
@@ -55,7 +55,7 @@ s.contextData["example_variable"] = "Example value";
 
 * Le variabili di dati di contesto valide contengono solo caratteri alfanumerici, trattini bassi e punti. L’Adobe non garantisce la raccolta dei dati nelle regole di elaborazione se includi altri caratteri, ad esempio i trattini.
 * Non avviare le variabili di dati di contesto con `"a."`. Questo prefisso è riservato e utilizzato da Adobe. Ad esempio, non utilizzare `s.contextData["a.InstallEvent"]`.
-* Le variabili di dati di contesto non fanno distinzione tra maiuscole e minuscole. Le variabili `s.contextData["example"]` e `s.contextData["EXAMPLE"]` sono identici.
+* Le variabili di dati di contesto non fanno distinzione tra maiuscole e minuscole. Le variabili `s.contextData["example"]` e `s.contextData["EXAMPLE"]` sono identiche.
 
 ## Utilizzare le regole di elaborazione per popolare le variabili di analisi
 
@@ -64,7 +64,7 @@ s.contextData["example_variable"] = "Example value";
 >Le variabili di dati di contesto vengono eliminate dopo l’esecuzione delle regole di elaborazione. Se non hai regole di elaborazione attive che inseriscono valori nelle variabili, quei dati vengono persi definitivamente!
 
 1. Aggiorna l’implementazione per impostare i nomi e i valori delle variabili di dati di contesto.
-2. Accedi ad Adobe Analytics e vai su **[!UICONTROL Admin]** > **[!UICONTROL Report]** Suite.
+2. Accedi ad Adobe Analytics e vai a **[!UICONTROL Admin]** > **[!UICONTROL Report]** suite.
 3. Seleziona la suite di rapporti desiderata, quindi vai a **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]**.
 4. Crea una regola di elaborazione che imposta una variabile di Analytics sul valore della variabile di dati di contesto.
 5. Salva le modifiche.
@@ -73,7 +73,7 @@ Le regole di elaborazione diventano effettive immediatamente dopo il salvataggio
 
 ## Inviare dati contestuali in una chiamata di tracciamento dei collegamenti
 
-Includi la variabile di dati di contesto come proprietà di `contextData` in [`s.linkTrackVars`](../config-vars/linktrackvars.md):
+Includere la variabile di dati di contesto come proprietà di `contextData` in [`s.linkTrackVars`](../config-vars/linktrackvars.md):
 
 ```js
 s.contextData["example_variable"] = "Example value";

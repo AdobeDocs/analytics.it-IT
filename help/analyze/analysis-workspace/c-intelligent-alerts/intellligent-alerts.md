@@ -7,7 +7,7 @@ exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: a012aca08740428671f216793dbd12aa15f21448
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 Gli avvisi intelligenti (o semplicemente &quot;avvisi&quot;) in Adobe Analytics ti consentono di ricevere notifiche immediate quando si verificano eventi anomali nei tuoi dati.
 
-Puoi impostare l’attivazione degli avvisi in base a soglie di anomalie, percentuali di modifica o punti dati specifici. Gli avvisi forniscono controlli granulari integrati con [Rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), che si attiva quando sono più necessarie.
+Puoi impostare l’attivazione degli avvisi in base a soglie di anomalie, percentuali di modifica o punti dati specifici. Gli avvisi forniscono controlli granulari che si integrano con [Rilevamento anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), attivandosi quando sono più necessari.
 
 La funzione Avvisi intelligenti permette di:
 
@@ -35,7 +35,7 @@ Se un avviso utilizza il rilevamento delle anomalie, il periodo di formazione va
 * Granularità giornaliera: 35 giorni + lo stesso intervallo relativo allo scorso anno
 * Granularità oraria: 336 ore
 
-Per ulteriori informazioni, consulta [Tecniche di statistica utilizzate nel rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+Per ulteriori informazioni, vedere [Tecniche di statistica utilizzate nel rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
 
 ## Creare avvisi
 

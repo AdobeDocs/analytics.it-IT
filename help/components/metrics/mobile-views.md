@@ -5,7 +5,7 @@ feature: Metrics
 exl-id: 091ea02c-d67e-484c-a7cc-7f9b1358a2f7
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '47'
 ht-degree: 8%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 8%
 >
 >Questa metrica è stata disattivata a settembre 2017. Non restituisce dati.
 
-Se vuoi un [metrica](overview.md) che misura il traffico proveniente da dispositivi mobili, Adobe consiglia di utilizzare il segmento &quot;Visite da dispositivi mobili&quot; in un progetto o in una metrica calcolata.
+Se desideri una [metrica](overview.md) che misuri il traffico da dispositivi mobili, l&#39;Adobe consiglia di utilizzare il segmento &quot;Visite da dispositivi mobili&quot; in un progetto o in una metrica calcolata.

@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 95%
+source-wordcount: '552'
+ht-degree: 96%
 
 ---
 
@@ -53,4 +53,4 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 
 **Blog**: per ulteriori informazioni su questa funzione, consulta l’articolo del blog di digital marketing [Classificazioni basate sulle regole](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: visualizza [Panoramica delle classificazioni](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) video.
+**Video**: visualizza il video [Panoramica classificazioni](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).

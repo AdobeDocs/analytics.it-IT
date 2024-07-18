@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # Avvisi intelligenti: casi di utilizzo
 
-Puoi creare avvisi intelligenti come descritto in [Creare avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+Puoi creare avvisi intelligenti come descritto in [Crea avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
 
 Nelle sezioni seguenti sono illustrati alcuni esempi di casi d’uso da considerare durante la creazione di avvisi.
 

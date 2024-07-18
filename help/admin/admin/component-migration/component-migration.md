@@ -26,59 +26,59 @@ Il processo di migrazione include:
 
 ## Prepararsi per una migrazione
 
-Prima di eseguire la migrazione di qualsiasi progetto al Customer Journey Analytics, scopri di più sulla migrazione dei progetti in [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
+Prima di eseguire la migrazione di qualsiasi progetto al Customer Journey Analytics, scopri di più sulla migrazione dei progetti in [Preparare la migrazione di componenti e progetti da Adobe Analytics al Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 
 ## Migrare progetti Adobe Analytics al Customer Journey Analytics
 
 >[!IMPORTANT]
 >
->Prima di eseguire la migrazione di progetti al Customer Journey Analytics come descritto in questa sezione, ulteriori informazioni sulla migrazione di progetti sono disponibili in [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
+>Prima di eseguire la migrazione di progetti al Customer Journey Analytics come descritto in questa sezione, scopri di più sulla migrazione di progetti in [Preparare la migrazione di componenti e progetti da Adobe Analytics al Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
->**Tutte le dimensioni o metriche mappate sono permanenti, sia per questo progetto che per tutti i progetti futuri migrati nell’intera organizzazione IMS, indipendentemente dall’utente che esegue la migrazione. Queste mappature possono essere modificate o annullate solo contattando l’Assistenza clienti.**
+>**Qualsiasi dimensione o metrica mappata è permanente, sia per questo progetto che per tutti i progetti futuri migrati nell&#39;intera organizzazione IMS, indipendentemente dall&#39;utente che sta eseguendo la migrazione. Queste mappature possono essere modificate o annullate solo contattando l&#39;Assistenza clienti.**
 
 1. In Adobe Analytics, seleziona la scheda [!UICONTROL **Amministrazione**], quindi seleziona [!UICONTROL **Tutte le attività di amministrazione**].
 
-1. Sotto [!UICONTROL **Configurazione e raccolta dati**], seleziona [!UICONTROL **Migrazione dei componenti**].
+1. In [!UICONTROL **Configurazione e raccolta dati**], selezionare [!UICONTROL **Migrazione componenti**].
 
 1. Individua il progetto di cui vuoi eseguire la migrazione. Puoi filtrare, ordinare o cercare nell’elenco dei progetti.
 
-   Per impostazione predefinita, vengono visualizzati solo i progetti condivisi con te. Per visualizzare tutti i progetti dell’organizzazione, seleziona la **Filtro** , quindi espandi [!UICONTROL **Altri filtri**] e seleziona [!UICONTROL **Mostra tutto**]. Per ulteriori informazioni su come filtrare, ordinare e cercare nell’elenco dei progetti, consulta [Filtrare, ordinare ed eseguire ricerche nell’elenco dei progetti](#filter-sort-and-search-the-list-of-projects).)
+   Per impostazione predefinita, vengono visualizzati solo i progetti condivisi con te. Per visualizzare tutti i progetti della tua organizzazione, seleziona l&#39;icona **Filtro**, quindi espandi [!UICONTROL **Altri filtri**] e seleziona [!UICONTROL **Mostra tutto**]. Per ulteriori informazioni su come filtrare, ordinare e cercare nell&#39;elenco dei progetti, vedere [Filtrare, ordinare e cercare nell&#39;elenco dei progetti](#filter-sort-and-search-the-list-of-projects).
 
-1. Passa il puntatore del mouse sul progetto di cui vuoi eseguire la migrazione, quindi seleziona la **Migra** icona ![Migra progetto](assets/migrate.svg).
+1. Passa il puntatore del mouse sul progetto di cui vuoi eseguire la migrazione, quindi seleziona l&#39;icona **Esegui migrazione** ![Esegui migrazione progetto](assets/migrate.svg).
 
    Oppure
 
-   Seleziona il progetto di cui vuoi eseguire la migrazione, quindi fai clic su [!UICONTROL **Migra al Customer Journey Analytics**].
+   Seleziona il progetto di cui vuoi eseguire la migrazione, quindi seleziona [!UICONTROL **Esegui migrazione al Customer Journey Analytics**].
 
    È possibile selezionare un solo progetto alla volta per la migrazione.
 
-   Il [!UICONTROL **Migra nome_progetto a Customer Journey Analytics**] viene visualizzata.
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Migra nome_progetto al Customer Journey Analytics**].
 
    <!-- add screenshot -->
 
-1. In [!UICONTROL **Proprietario del progetto**] , inizia a digitare il nome dell’utente che desideri impostare come proprietario del progetto nel Customer Journey Analytics, quindi selezionane il nome nel menu a discesa.
+1. Nel campo [!UICONTROL **Proprietario progetto**], inizia a digitare il nome dell&#39;utente che desideri impostare come proprietario del progetto nel Customer Journey Analytics, quindi selezionane il nome nel menu a discesa.
 
    Il proprietario specificato dispone dei diritti di gestione completi per il progetto.
 
-1. In [!UICONTROL **Schema della mappa per le suite di rapporti**] , seleziona una suite di rapporti.
+1. Nella sezione [!UICONTROL **Schema mappa per suite di rapporti**], seleziona una suite di rapporti.
 
-1. In [!UICONTROL **Visualizzazione dati**] dal menu a discesa, seleziona la visualizzazione dati del Customer Journey Analytics in cui desideri eseguire la migrazione del progetto e dei componenti.
+1. Nel menu a discesa [!UICONTROL **Visualizzazione dati**], selezionare la visualizzazione dati di Customer Journey Analytics in cui si desidera eseguire la migrazione del progetto e dei componenti.
 
 1. Seleziona [!UICONTROL **Mappa schema**].
 
-1. In [!UICONTROL **Mappa schema**] , espandere la sezione [!UICONTROL **Dimension**] e [!UICONTROL **Metriche**] sezioni.
+1. Nella sezione [!UICONTROL **Mappa schema**], espandi le sezioni [!UICONTROL **Dimension**] e [!UICONTROL **Metriche**].
 
    Alcune dimensioni e metriche in Adobe Analytics vengono mappate automaticamente a una dimensione o metrica nel Customer Journey Analytics. Altri devono essere mappati manualmente.
 
-   **Mappare automaticamente dimensioni e metriche**
+   **Mappa automaticamente dimensioni e metriche**
 
    >[!NOTE]
    >
-   >   Se hai utilizzato Web SDK per acquisire dati in Adobe Experience Platform, le dimensioni e le metriche non possono essere mappate automaticamente. Per ulteriori informazioni, consulta [Prerequisiti](/help/admin/admin/component-migration/prepare-component-migration.md#prerequisites) in [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
+   >   Se hai utilizzato Web SDK per acquisire dati in Adobe Experience Platform, le dimensioni e le metriche non possono essere mappate automaticamente. Per ulteriori informazioni, vedere [Prerequisiti](/help/admin/admin/component-migration/prepare-component-migration.md#prerequisites) in [Preparare la migrazione di componenti e progetti da Adobe Analytics al Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 
    Alcune dimensioni e metriche in Adobe Analytics vengono mappate automaticamente a una dimensione o metrica nel Customer Journey Analytics. Non puoi prendere decisioni di mappatura per queste dimensioni e metriche.
 
-   Ad esempio, il **Visite** metrica in Adobe Analytics viene mappata automaticamente con **Sessioni** metrica nel Customer Journey Analytics.
+   Ad esempio, la metrica **Visite** in Adobe Analytics viene mappata automaticamente con la metrica **Sessioni** nel Customer Journey Analytics.
 
    Puoi selezionare qualsiasi dimensione o metrica per visualizzare i relativi ID associati.
 
@@ -90,41 +90,41 @@ Prima di eseguire la migrazione di qualsiasi progetto al Customer Journey Analyt
 
    Alcune dimensioni e metriche in Adobe Analytics non possono essere mappate automaticamente a una dimensione o metrica nel Customer Journey Analytics.
 
-   Quando non è possibile mappare automaticamente una dimensione o una metrica, accanto al valore viene visualizzato un contatore arancione [!UICONTROL **Dimension**] o [!UICONTROL **Metriche**] intestazione di sezione, che indica il numero di dimensioni o metriche da mappare manualmente. Nella tabella, un’icona di avvertenza ![icona di avviso](assets/schema-warning.png) viene visualizzato accanto a ciascuna dimensione o metrica da mappare manualmente.
+   Quando non è possibile mappare automaticamente una dimensione o una metrica, accanto all&#39;intestazione di sezione [!UICONTROL **Dimension**] o [!UICONTROL **Metriche**] viene visualizzato un contatore arancione che indica il numero di dimensioni o metriche da mappare manualmente. Nella tabella viene visualizzata un&#39;icona di avviso ![icona di avviso](assets/schema-warning.png) accanto a ogni dimensione o metrica da mappare manualmente.
 
-   Inoltre, la [!UICONTROL **Stato**] la colonna dice [!UICONTROL **Non mappato**].
+   Inoltre, nella colonna [!UICONTROL **Stato**] è indicato [!UICONTROL **Non mappato**].
 
    <!-- update screenshot after I can see the Status column -->
 
    ![Mappa manuale dello schema di migrazione](assets/schema-manual-map.png)
 
-1. Per mappare manualmente dimensioni e metriche, seleziona una dimensione o una metrica contenente un’icona di avviso ![icona di avviso](assets/schema-warning.png), quindi in [!UICONTROL **Metrica di Customer Journey Analytics mappata**] campo (o [!UICONTROL **Dimensione Customer Journey Analytics mappato**] se stai mappando una dimensione), seleziona la dimensione o la metrica nel Customer Journey Analytics che desideri mappare alla dimensione o alla metrica selezionata.
+1. Per mappare manualmente dimensioni e metriche, seleziona una dimensione o una metrica contenente l&#39;icona di avviso ![icona di avviso](assets/schema-warning.png), quindi nel campo [!UICONTROL **Metrica Customer Journey Analytics mappato**] (o nel campo [!UICONTROL **Dimensione Customer Journey Analytics mappato**] se stai mappando una dimensione) seleziona la dimensione o la metrica nel Customer Journey Analytics da mappare alla dimensione o alla metrica selezionata.
 
    ![mappare dimensioni e metriche](assets/schema-manual-map-drop-down.png)
 
-   Dopo aver mappato una dimensione o una metrica, l’icona di avviso scompare e il simbolo [!UICONTROL **Stato**] la colonna cambia in [!UICONTROL **Mappato**] con un punto verde. (Stato di [!UICONTROL **Mappato**] un punto grigio indica che la dimensione o la metrica è stata mappata durante una migrazione precedente; non è possibile aggiornare eventuali mappature precedenti.)
+   Dopo aver mappato una dimensione o una metrica, l&#39;icona di avviso scompare e la colonna [!UICONTROL **Stato**] diventa [!UICONTROL **Mappata**] con un punto verde. (Uno stato di [!UICONTROL **Mappato**] con un punto grigio indica che la dimensione o la metrica è stata mappata durante una migrazione precedente; le mappature precedenti non possono essere aggiornate.)
 
    Ripeti questo processo per ogni dimensione o metrica contenente l’icona di avviso.
 
-   Dopo aver mappato tutte le dimensioni e le metriche nella suite di rapporti di Adobe Analytics su una dimensione o metrica nella visualizzazione dati del Customer Journey Analytics, un segno di spunta verde ![segno di spunta](assets/report-suite-check.png) viene visualizzato accanto al nome della suite di rapporti nella [!UICONTROL **Schema della mappa per le suite di rapporti**] sezione.
+   Dopo aver mappato tutte le dimensioni e le metriche nella suite di rapporti di Adobe Analytics a una dimensione o metrica nella visualizzazione dati del Customer Journey Analytics, accanto al nome della suite di rapporti nella sezione [!UICONTROL **Schema mappa per suite di rapporti**] viene visualizzato un segno di spunta verde ![segno di spunta](assets/report-suite-check.png).
 
-1. (Condizionale) Se il progetto di cui stai eseguendo la migrazione contiene più di una suite di rapporti, seleziona un’altra suite di rapporti in [!UICONTROL **Schema della mappa per le suite di rapporti**] quindi ripetere i passaggi da 6 a 10. <!-- double-check that the step numbers are still correct -->
+1. (Condizionale) Se il progetto di cui si sta eseguendo la migrazione contiene più di una suite di rapporti, selezionare un&#39;altra suite di rapporti nella sezione [!UICONTROL **Mappa schema per suite di rapporti**], quindi ripetere i passaggi da 6 a 10. <!-- double-check that the step numbers are still correct -->
 
 1. Seleziona [!UICONTROL **Migra**].
 
    >[!WARNING]
    >
-   >   Dopo aver selezionato, viene visualizzato un messaggio di avviso sullo schermo [!UICONTROL **Migra**]. Prima di scegliere di continuare, assicurati che tutte le dimensioni o metriche mappate siano permanenti, sia per questo progetto che per tutti i progetti futuri migrati in tutta l’organizzazione. Se si continua, le mappature create non potranno essere modificate.
+   >   Dopo aver selezionato [!UICONTROL **Esegui migrazione**], viene visualizzato un messaggio di avviso sullo schermo. Prima di scegliere di continuare, assicurati che tutte le dimensioni o metriche mappate siano permanenti, sia per questo progetto che per tutti i progetti futuri migrati in tutta l’organizzazione. Se si continua, le mappature create non potranno essere modificate.
 
-   Al termine di una migrazione, il [!UICONTROL **Stato della migrazione**] fornisce un riepilogo di ciò che è stato trasferito.
+   Al termine di una migrazione, la pagina [!UICONTROL **Stato migrazione**] fornisce un riepilogo di ciò che è stato migrato.
 
-   Se la migrazione non riesce, consulta la [Ritentare una migrazione non riuscita](#retry-a-failed-migration) per ulteriori informazioni.
+   Se la migrazione non riesce, vedere la sezione [Riprova una migrazione non riuscita](#retry-a-failed-migration) di seguito per ulteriori informazioni.
 
 ## Ritentare una migrazione non riuscita
 
 Se una migrazione non riesce, puoi riprovare.
 
-Prima di ritentare una migrazione non riuscita, assicurati di rimuoverne [elementi non supportati](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) dal progetto.
+Prima di ritentare una migrazione non riuscita, assicurati di rimuovere [elementi non supportati](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) dal progetto.
 
 >[!NOTE]
 >
@@ -134,17 +134,17 @@ Per ritentare una migrazione non riuscita:
 
 1. In Adobe Analytics, seleziona la scheda [!UICONTROL **Amministrazione**], quindi seleziona [!UICONTROL **Tutte le attività di amministrazione**].
 
-1. Sotto [!UICONTROL **Configurazione e raccolta dati**], seleziona [!UICONTROL **Migrazione dei componenti**].
+1. In [!UICONTROL **Configurazione e raccolta dati**], selezionare [!UICONTROL **Migrazione componenti**].
 
-1. Seleziona [!UICONTROL **Non riuscito**] nel [!UICONTROL **Stato della migrazione**] accanto al progetto che si desidera riprovare.
+1. Selezionare [!UICONTROL **Non riuscito**] nella colonna [!UICONTROL **Stato migrazione**] accanto al progetto che si desidera riprovare.
 
    ![colonna dello stato di migrazione non riuscita](assets/migration-failed.png)
 
-   Il [!UICONTROL **Stato della migrazione**] viene visualizzata la pagina.
+   Viene visualizzata la pagina [!UICONTROL **Stato migrazione**].
 
-   Questa pagina viene visualizzata anche subito dopo aver completato i passaggi di migrazione descritti nella sezione [Migrare progetti Adobe Analytics al Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics) sopra.
+   Questa pagina viene visualizzata anche subito dopo aver completato i passaggi di migrazione descritti nella sezione [Migrare i progetti Adobe Analytics al Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics) precedente.
 
-1. Seleziona [!UICONTROL **Ritenta migrazione**].
+1. Selezionare [!UICONTROL **Ritenta migrazione**].
 
 ## Filtrare, ordinare ed eseguire ricerche nell’elenco dei progetti
 
@@ -160,7 +160,7 @@ Puoi filtrare in base ai seguenti criteri:
 | [!UICONTROL **Tag**] | Seleziona qualsiasi tag nell’elenco dei tag. Vengono visualizzati solo i progetti a cui sono applicati i tag selezionati. |
 | [!UICONTROL **Suite di rapporti**] | Seleziona una suite di rapporti nell’elenco delle suite di rapporti. Vengono visualizzati solo i progetti che utilizzano le suite di rapporti selezionate. |
 | [!UICONTROL **Proprietari**] | Selezionare un proprietario nell&#39;elenco dei proprietari. Vengono visualizzati solo i progetti di proprietà degli utenti selezionati. |
-| [!UICONTROL **Altri filtri**] | Sono disponibili i seguenti filtri aggiuntivi: <ul><li>[!UICONTROL **Il mio**]: mostra solo i progetti in cui sei impostato come proprietario.</li><li>[!UICONTROL **Condiviso con me**]: mostra solo i progetti che sono stati condivisi con te.</li><li>[!UICONTROL **Preferiti**]: mostra solo i progetti contrassegnati come preferiti. (Puoi contrassegnare un progetto come preferito dalla sezione [pagina di destinazione del progetto](/help/analyze/landing.md).)</li><li>[!UICONTROL **Mensile**]</li><li>[!UICONTROL **Annuale**]</li></ul> |
+| [!UICONTROL **Altri filtri**] | Sono disponibili i seguenti filtri aggiuntivi: <ul><li>[!UICONTROL **Personali**]: mostra solo i progetti in cui sei impostato come proprietario.</li><li>[!UICONTROL **Condivisi con me**]: mostra solo i progetti condivisi con te.</li><li>[!UICONTROL **Preferiti**]: mostra solo i progetti contrassegnati come preferiti. Puoi contrassegnare un progetto come preferito dalla [pagina di destinazione del progetto](/help/analyze/landing.md).</li><li>[!UICONTROL **Mensile**]</li><li>[!UICONTROL **Annuale**]</li></ul> |
 
 {style="table-layout:auto"}
 

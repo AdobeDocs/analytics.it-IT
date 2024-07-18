@@ -5,14 +5,14 @@ feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 22%
+source-wordcount: '431'
+ht-degree: 21%
 
 ---
 
 # Gestione avvisi
 
-La gestione degli avvisi è strutturata in modo analogo alla [Gestore segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=it) e [Gestione metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=it).
+La gestione avvisi è strutturata in modo analogo alla [gestione segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=it) e alla [gestione metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=it).
 
 ![](assets/alert-manager.png)
 
@@ -31,7 +31,7 @@ In Gestione avvisi puoi effettuare le seguenti operazioni:
 * Approvare gli avvisi
 * Copiare gli avvisi
 * Abilitare/disabilitare gli avvisi
-* **Rinnovare** la data di scadenza di un avviso. Quando sono selezionati uno o più avvisi, è possibile rinnovarli facendo clic su **[!UICONTROL Renew]**.Questa funzione sposta le rispettive date di scadenza a 1 anno dal giorno **[!UICONTROL Renew]** è stato cliccato, indipendentemente dalla data di scadenza originale.
+* **Rinnovare** la data di scadenza di un avviso. Quando sono selezionati uno o più avvisi, è possibile rinnovarli facendo clic su **[!UICONTROL Renew]**. Questa funzione sposta le rispettive date di scadenza a 1 anno dal giorno in cui **[!UICONTROL Renew]** è stato fatto clic su, indipendentemente dalla data di scadenza originale.
 * Esportare un avviso come file .CSV
 * Modificare gli avvisi facendo doppio clic sul titolo
 * Cercare gli avvisi
@@ -46,9 +46,9 @@ In Gestione avvisi puoi effettuare le seguenti operazioni:
 
 Per configurare le colonne visibili in Gestione avvisi:
 
-1. In Adobe Analytics, seleziona la **[!UICONTROL Components]** , quindi seleziona **[!UICONTROL Alerts]**.
+1. In Adobe Analytics, selezionare la scheda **[!UICONTROL Components]**, quindi selezionare **[!UICONTROL Alerts]**.
 
-1. In Gestione avvisi, seleziona la **Personalizza colonne** icona ![Icona Personalizza colonne](assets/customize-columns-icon.png), quindi selezionare le colonne che si desidera visualizzare in Gestione avvisi.
+1. In Gestione avvisi, selezionare l&#39;icona **Personalizza colonne** ![Personalizza colonne icona](assets/customize-columns-icon.png), quindi selezionare le colonne che si desidera visualizzare in Gestione avvisi.
 
    Sono disponibili le seguenti colonne:
 
@@ -61,6 +61,6 @@ Per configurare le colonne visibili in Gestione avvisi:
    | Tag | Mostra i tag applicati all&#39;avviso, da te o da altri utenti che lo hanno condiviso con te. |
    | Condiviso con | Elenca singoli utenti o gruppi (solo amministratori) o tutti coloro (solo amministratori) con cui hai condiviso l’avviso. |
    | Data di modifica | Indica la data dell’ultima modifica apportata all’avviso. |
-   | Ultimo utilizzo | Mostra la data dell’ultimo utilizzo dell’avviso. <p>Queste informazioni possono essere utili per determinare se un componente è utile per gli utenti dell’organizzazione, dove viene utilizzato e se deve essere eliminato o modificato.</p><p>Quando visualizzi questa colonna, tieni presente quanto segue:</p><ul><li>Queste informazioni non includono l’utilizzo da API, Report Builder o Data Warehouse.</li><li>Per alcuni componenti, questa colonna potrebbe non contenere dati se il componente è stato utilizzato l’ultima volta prima di settembre 2023.</li></ul> |
+   | Ultimo utilizzo | Mostra la data dell’ultimo utilizzo dell’avviso. <p>Queste informazioni possono essere utili per determinare se un componente è utile per gli utenti dell’organizzazione, dove viene utilizzato e se deve essere eliminato o modificato.</p><p>Quando visualizzi questa colonna, prendi in considerazione quanto segue:</p><ul><li>Queste informazioni non includono l’utilizzo da API, Report Builder o Data Warehouse.</li><li>Per alcuni componenti, questa colonna potrebbe non contenere dati se il componente è stato utilizzato l’ultima volta prima di settembre 2023.</li></ul> |
 
    {style="table-layout:auto"}

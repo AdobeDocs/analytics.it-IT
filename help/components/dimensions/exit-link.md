@@ -6,19 +6,19 @@ exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
 # Collegamento di uscita
 
-Il &quot;collegamento di uscita&quot; [dimensione](overview.md) segnala i nomi dei collegamenti di uscita implementati sul sito. Questa dimensione è utile quando desideri comprendere quali collegamenti sono più popolari e che puntano a domini esterni al sito.
+La [dimensione](overview.md) del &#39;collegamento di uscita&#39; riporta i nomi dei collegamenti di uscita implementati nel sito. Questa dimensione è utile quando desideri comprendere quali collegamenti sono più popolari e che puntano a domini esterni al sito.
 
-## Popola questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
-Questa dimensione raccoglie dati da [`pev2` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini per hit che hanno anche il `pe` stringa di query con il valore di `lnk_e`. Se il `pe` la stringa di query ha un valore diverso nell’hit, questa dimensione non raccoglie dati.
+Questa dimensione raccoglie dati dalla stringa di query [`pev2`](/help/implement/validate/query-parameters.md) nelle richieste di immagini per hit che hanno anche la stringa di query `pe` con il valore di `lnk_e`. Se la stringa di query `pe` ha un valore diverso nell&#39;hit, questa dimensione non raccoglie dati.
 
-Se desideri inviare dati a questa dimensione utilizzando AppMeasurement, invia un [`tl()`](/help/implement/vars/functions/tl-method.md) richiesta immagine con argomento tipo collegamento `"e"`. Popolare l&#39;argomento del nome del collegamento con il valore desiderato.
+Se si desidera inviare dati a questa dimensione utilizzando AppMeasurement, inviare una richiesta di immagine [`tl()`](/help/implement/vars/functions/tl-method.md) con un argomento tipo collegamento di `"e"`. Popolare l&#39;argomento del nome del collegamento con il valore desiderato.
 
 ## Elementi dimensionali
 

@@ -15,13 +15,13 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript legacy (codice H). Queste variabili non sono supportate nelle librerie AppMeasurement correnti o nella raccolta dati di Adobe Experience Platform.
+>Gli account dinamici sono supportati solo utilizzando le implementazioni legacy di JavaScript (codice H). Queste variabili non sono supportate nelle librerie AppMeasurement correnti o nella raccolta dati di Adobe Experience Platform.
 
-Il `dynamicAccountSelection` variable è un valore booleano che determina se viene utilizzata la selezione dinamica dell’account.
+La variabile `dynamicAccountSelection` è un valore booleano che determina se viene utilizzata la selezione dinamica dell&#39;account.
 
 Se impostato su `true`, il file JavaScript esamina `dynamicAccountMatch` e `dynamicAccountList`.
 
-Se impostato su `false`, o se questa variabile non è definita, il `dynamicAccountMatch` e `dynamicAccountList` variabili ignorate.
+Se è impostato su `false` o se questa variabile non è definita, le variabili `dynamicAccountMatch` e `dynamicAccountList` verranno ignorate.
 
 Se questa variabile non è definita, il valore predefinito è `false`.
 

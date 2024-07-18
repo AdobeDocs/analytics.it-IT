@@ -22,11 +22,11 @@ Ad esempio, se aggiorni una richiesta che include dimensioni o metriche a cui no
 
 ![Schermata che mostra il messaggio di errore Autorizzazione limitata.](assets/arb_restrc_perm.png)
 
-Seguire queste istruzioni per **ogni** Cartella di lavoro di Report Builder gestita:
+Segui queste istruzioni per **ogni** cartella di lavoro di Report Builder gestita:
 
 1. Aprire la cartella di lavoro.
 1. Aggiorna tutte le richieste.
-1. Se viene richiesto di immettere un errore di autorizzazione di accesso utente, fare clic su **[!UICONTROL Open CSV File]** per accedere all&#39;elenco di errori di autorizzazioni limitate.
+1. Se viene richiesto un errore di autorizzazione di accesso utente, fare clic su **[!UICONTROL Open CSV File]** per accedere all&#39;elenco degli errori relativi alle autorizzazioni limitate.
 1. Crea un file &quot;AllRestrictedPermissionErrors.xlsx&quot; e copia/incolla l’elenco degli errori di autorizzazione con restrizioni dal file CSV in questo file.
 1. Chiudere la cartella di lavoro del Report Builder.
 

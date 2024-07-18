@@ -8,7 +8,7 @@ exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ La variabile di conversione (o eVar) Custom Insight viene inserita nel codice di
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Variables]**
 
-## Panoramica delle variabili di conversione (eVar)
+## Panoramica sulle variabili di conversione (eVar)
 
-Di seguito è riportata una panoramica video:
+Ecco la panoramica video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
 

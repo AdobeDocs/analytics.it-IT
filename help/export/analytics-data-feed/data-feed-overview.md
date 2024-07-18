@@ -5,9 +5,9 @@ title: Panoramica sui feed dati di Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Le risorse seguenti sono utili per comprendere il flusso di lavoro di base per o
 * [Best practice per il feed di dati](/help/export/analytics-data-feed/data-feeds-best-practices.md): best practice per la creazione e la gestione dei feed di dati.
 * [Creare un feed di dati](create-feed.md): dettagli tecnici per la creazione di un feed di dati, con informazioni più dettagliate sui singoli campi
 * [Gestire i feed dati](df-manage-feeds.md): ulteriori informazioni sulla navigazione nell’interfaccia del feed dati
-* [Contenuti dei feed dati](c-df-contents/datafeeds-contents.md): comprendere cosa c&#39;è all&#39;interno del file compresso <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Contenuto feed dati](c-df-contents/datafeeds-contents.md): informazioni sul contenuto del file compresso <!-- Is this still the output users can download from the destination? I aske Jun. -->
 * [Definizioni delle colonne dati](c-df-contents/datafeeds-reference.md): un elenco completo di tutte le colonne disponibili.
 * Video sulla navigazione nell’interfaccia del feed dati:
 

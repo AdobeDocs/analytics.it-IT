@@ -12,10 +12,10 @@ ht-degree: 12%
 
 # Visualizzazioni del carrello
 
-Le &quot;Visualizzazioni carrello&quot; [metrica](overview.md) mostra quante volte un visitatore ha visualizzato il carrello. Questa metrica è utile quando desideri comprendere la parte del funnel di conversione in cui i clienti visualizzano il contenuto nel carrello.
+La [metrica](overview.md) delle &#39;Visualizzazioni carrello&#39; mostra quante volte un visitatore ha visualizzato il carrello. Questa metrica è utile quando desideri comprendere la parte del funnel di conversione in cui i clienti visualizzano il contenuto nel carrello.
 
 ## Come è calcolata questa metrica
 
-Questa metrica conta il numero di hit in cui `scView` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.
+Questa metrica conta il numero di hit in cui `scView` esiste nella variabile [`events`](/help/implement/vars/page-vars/events/events-overview.md).
 
-Consulta [Carrelli](carts.md) per un confronto tra metriche.
+Vedi [Carrelli](carts.md) per un confronto delle metriche.

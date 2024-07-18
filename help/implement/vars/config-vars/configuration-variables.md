@@ -21,10 +21,10 @@ Nelle implementazioni che utilizzano l’estensione Web SDK o l’estensione Ana
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Fai clic su [!UICONTROL Extensions] , quindi fai clic su [!UICONTROL Configure] nell’estensione.
+1. Fare clic sulla scheda [!UICONTROL Extensions], quindi su [!UICONTROL Configure] sotto l&#39;estensione.
 
-Nelle implementazioni JavaScript con `AppMeasurement.js`, le variabili di configurazione sono in genere impostate nella parte superiore del file JS.
+Nelle implementazioni di JavaScript che utilizzano `AppMeasurement.js`, le variabili di configurazione vengono in genere impostate nella parte superiore del file JS.
 
 >[!IMPORTANT]
 >
->Assicurati che tutte le variabili di configurazione siano impostate prima di chiamare un metodo di tracciamento ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)). Evita di impostare le variabili di configurazione in [`doPlugins()`](../functions/doplugins.md) funzione.
+>Assicurarsi che tutte le variabili di configurazione siano impostate prima di chiamare un metodo di tracciamento ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)). Evitare di impostare le variabili di configurazione nella funzione [`doPlugins()`](../functions/doplugins.md).

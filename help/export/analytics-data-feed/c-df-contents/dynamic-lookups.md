@@ -14,9 +14,9 @@ ht-degree: 1%
 
 Le ricerche dinamiche consentono di ricevere file di ricerca aggiuntivi nel feed di dati, altrimenti non disponibili. Questa impostazione consente di inviare le seguenti tabelle di ricerca con ciascun file di feed dati:
 
-* **Nome gestore**: fornisce contesto aggiuntivo per `carrier` colonna. Il nome del file incluso è `carrier.tsv`.
-* **Attributi mobili**: fornisce contesto aggiuntivo per `mobile_id` , incluse tutte le funzioni tracciate per ciascun dispositivo mobile. Il nome del file incluso è `mobile_attributes.tsv`.
-* **Tipo di sistema operativo**: fornisce un contesto alternativo per `os` colonna. Entrambi `operating_systems.tsv` e `operating_system_type.tsv` utilizzare il `os` come chiave, ma solo `operating_system_type.tsv` è una ricerca dinamica.
+* **Nome gestore**: fornisce contesto aggiuntivo per la colonna `carrier`. Il nome file incluso è `carrier.tsv`.
+* **Attributi mobile**: fornisce contesto aggiuntivo per la colonna `mobile_id`, incluse tutte le funzionalità monitorate per ciascun dispositivo mobile. Il nome file incluso è `mobile_attributes.tsv`.
+* **Tipo di sistema operativo**: fornisce un contesto alternativo per la colonna `os`. Sia `operating_systems.tsv` che `operating_system_type.tsv` utilizzano la colonna `os` come chiave, tuttavia solo `operating_system_type.tsv` è una ricerca dinamica.
 
 ## Abilita ricerche dinamiche
 
@@ -26,7 +26,7 @@ Se desideri ricevere i file di ricerca menzionati, devi soddisfare tutti i segue
    * Per `carrier.tsv`, è necessario includere `carrier`.
    * Per `mobile_attributes.tsv`, è necessario includere `mobile_id`.
    * Per `operating_system_type.tsv`, è necessario includere `os`.
-* Le colonne seguenti devono essere **escluso**. Se una di queste colonne è inclusa nel feed di dati, allora il `mobile_attributes.tsv` la ricerca dinamica non è inclusa.
+* Le colonne seguenti devono essere **escluse**. Se una di queste colonne è inclusa nel feed di dati, la ricerca dinamica `mobile_attributes.tsv` non è inclusa.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
@@ -35,7 +35,7 @@ Una volta che il feed di dati soddisfa i requisiti di inclusione ed esclusione d
 
 ## Riferimento intestazione ricerca
 
-Le intestazioni di colonna per questi file di ricerca non cambiano nel tempo, pertanto le intestazioni non vengono incluse in ciascun file di feed dati. Utilizza queste intestazioni di colonna come riferimento o scarica le rispettive `.tsv` file.
+Le intestazioni di colonna per questi file di ricerca non cambiano nel tempo, pertanto le intestazioni non vengono incluse in ciascun file di feed dati. Utilizzare queste intestazioni di colonna come riferimento o scaricare il rispettivo file `.tsv`.
 
 +++**Nome gestore**
 Scarica [carrier_headers.tsv](assets/carrier_headers.tsv) o fai riferimento alle intestazioni di seguito.
@@ -44,8 +44,8 @@ Scarica [carrier_headers.tsv](assets/carrier_headers.tsv) o fai riferimento alle
 `Carrier Name`
 +++
 
-+++**Attributi mobili**
-Scarica [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) o fai riferimento alle intestazioni di seguito.
++++**Attributi dispositivi mobili**
+Scarica [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) o fai riferimento alle intestazioni seguenti.
 
 `mobile_id`
 `Manufacturer`
@@ -100,7 +100,7 @@ Scarica [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) o 
 +++
 
 +++**Tipo di sistema operativo**
-Scarica [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) o fai riferimento alle intestazioni di seguito.
+Scarica [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) o fai riferimento alle intestazioni seguenti.
 
 `os`
 `Operating System Type`

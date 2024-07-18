@@ -15,11 +15,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript legacy (codice H). Queste variabili non sono supportate nelle librerie o nei tag AppMeasurement correnti in Adobe Experience Platform.
+>Gli account dinamici sono supportati solo utilizzando le implementazioni legacy di JavaScript (codice H). Queste variabili non sono supportate nelle librerie o nei tag AppMeasurement correnti in Adobe Experience Platform.
 
-Il `dynamicAccountMatch` variabile è il valore che `dynamicAccountList` esamina e confronta i relativi valori. Se `dynamicAccountSelection` non è impostato su `true`, questa variabile viene ignorata.
+La variabile `dynamicAccountMatch` è il valore che `dynamicAccountList` esamina e confronta i suoi valori. Se `dynamicAccountSelection` non è impostato su `true`, questa variabile viene ignorata.
 
-Se questa variabile non è definita, il suo valore predefinito è `window.location.host`.
+Se questa variabile non è definita, il valore predefinito è `window.location.host`.
 
 ## Sintassi
 
@@ -45,5 +45,5 @@ s.dynamicAccountMatch =  location.hostname + location.pathname + location.search
 
 ## Note aggiuntive
 
-* Le pagine salvate su un disco rigido non contengono più di `location` variabili definite (ad esempio, `location.host` è vuoto). Assicurati che `s_account` contiene una suite di rapporti predefinita.
-* Quando una pagina viene tradotta tramite un motore di traduzione basato su Web, come Google, la selezione dinamica dell’account non funziona come previsto. Per un tracciamento più preciso, compila il `s_account` variabile lato server.
+* Per le pagine salvate in un disco rigido non sono definite numerose variabili `location` (ad esempio, `location.host` è vuoto). Assicurarsi che `s_account` contenga una suite di rapporti predefinita.
+* Quando una pagina viene tradotta tramite un motore di traduzione basato su Web, come Google, la selezione dinamica dell’account non funziona come previsto. Per un tracciamento più preciso, popolare la variabile `s_account` lato server.

@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Ricerche
 
-Le &quot;Ricerche&quot; [metrica](overview.md) mostra il numero di hit che corrispondono al rilevamento di ricerche esterne di Adobe. Questa metrica è utile quando desideri esaminare gli elementi dimensionali non di ricerca e vedere come hanno contribuito al traffico del motore di ricerca.
+La [metrica](overview.md) di &#39;Ricerche&#39; mostra il numero di hit che corrispondono al rilevamento di ricerche esterne di Adobe. Questa metrica è utile quando desideri esaminare gli elementi dimensionali non di ricerca e vedere come hanno contribuito al traffico del motore di ricerca.
 
 ## Come è calcolata questa metrica
 

@@ -16,6 +16,6 @@ ht-degree: 2%
 
 Se si modifica la cartella di lavoro e si desidera fare spazio per nuove richieste, potrebbe essere necessario eliminare le richieste.
 
-L’unico modo per fare spazio è eliminare le richieste mappate alle celle. Se elimini le richieste nel foglio di calcolo rimuovendo righe o colonne, la validità della richiesta sottostante viene persa (e non riuscirà durante l’aggiornamento). Selezione del menu di Excel **[!UICONTROL Edit]** > **[!UICONTROL Clear Contents]** rimuove il valore visualizzato nella cella. Il contenuto può essere ripristinato aggiornando il contenuto della cella.
+L’unico modo per fare spazio è eliminare le richieste mappate alle celle. Se elimini le richieste nel foglio di calcolo rimuovendo righe o colonne, la validità della richiesta sottostante viene persa (e non riuscirà durante l’aggiornamento). La selezione del menu di Excel **[!UICONTROL Edit]** > **[!UICONTROL Clear Contents]** rimuove il valore visualizzato nella cella. Il contenuto può essere ripristinato aggiornando il contenuto della cella.
 
-Per rimuovere una mappatura specifica delle celle del foglio di calcolo, individua la riga, la colonna o l’elemento di metrica e fai clic su **[!UICONTROL Delete]**.
+Per rimuovere una mappatura specifica delle celle del foglio di calcolo, individuare la riga, la colonna o l&#39;elemento di metrica e fare clic su **[!UICONTROL Delete]**.

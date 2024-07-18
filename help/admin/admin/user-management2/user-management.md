@@ -8,17 +8,17 @@ role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 64%
+ht-degree: 66%
 
 ---
 
-# Gestione di utenti e prodotti (legacy)
+# Gestione di utenti e prodotti (Legacy)
 
 Gestisci utenti, gruppi e prodotti di Analytics in Adobe Admin Console.
 
 >[!IMPORTANT]
 >
->La gestione di utenti e prodotti è stata spostata in [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Per iniziare a gestire le autorizzazioni per gli utenti di Adobe Analytics, consulta [Analytics in Adobe Admin Console](/help/admin/admin-console/home.md).
+>La gestione di utenti e prodotti è stata spostata in [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Per iniziare a gestire le autorizzazioni utente per gli utenti di Adobe Analytics, vedi [Analytics in Adobe Admin Console](/help/admin/admin-console/home.md).
 
 ## Risorse di assistenza per gli amministratori di Adobe Admin Console {#help}
 

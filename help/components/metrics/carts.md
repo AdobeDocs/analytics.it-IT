@@ -12,11 +12,11 @@ ht-degree: 4%
 
 # Carrelli
 
-I &#39;Carrelli&#39; [metrica](overview.md) mostra il numero di hit in cui un visitatore ha aggiunto il primo prodotto al carrello.
+La [metrica](overview.md) &quot;Carrelli&quot; mostra il numero di hit in cui un visitatore ha aggiunto il suo primo prodotto al carrello.
 
 ## Come è calcolata questa metrica
 
-Questa metrica conta il numero di hit in cui `scOpen` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.
+Questa metrica conta il numero di hit in cui `scOpen` esiste nella variabile [`events`](/help/implement/vars/page-vars/events/events-overview.md).
 
 ## Differenza tra &quot;Carrelli&quot;, &quot;Visualizzazioni carrello&quot; e &quot;Aggiunte carrello&quot;
 

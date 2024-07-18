@@ -4,7 +4,7 @@ description: Il rapporto di visite con esattamente un hit per le voci.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
 source-git-commit: ff3e9059d41f6365b850839a1f01c5747dcb9112
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 

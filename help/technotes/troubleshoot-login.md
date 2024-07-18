@@ -5,8 +5,8 @@ feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 3%
+source-wordcount: '581'
+ht-degree: 2%
 
 ---
 
@@ -18,17 +18,17 @@ Adobe Analytics utilizza più metodi di autenticazione per accedere:
 * ID legacy di Analytics
 * Single Sign-On
 
-**Se accedi regolarmente ad Analytics e inizi a incontrare casualmente problemi di accesso, la cancellazione dei cookie e della cache del browser risolve la maggior parte dei problemi.**
+**Se accedi regolarmente ad Analytics e inizi a incontrare problemi di accesso in modo casuale, la cancellazione dei cookie e della cache del browser risolve la maggior parte dei problemi.**
 
-Talvolta, possono verificarsi problemi di disponibilità che influiscono sulla capacità di accesso. Verifica [status.adobe.com](https://status.adobe.com/it) per qualsiasi incidente in sospeso. In caso contrario, utilizza la sezione appropriata a seconda del metodo di autenticazione della tua organizzazione.
+Talvolta, possono verificarsi problemi di disponibilità che influiscono sulla capacità di accesso. Controlla [status.adobe.com](https://status.adobe.com/it) per eventuali problemi aperti. In caso contrario, utilizza la sezione appropriata a seconda del metodo di autenticazione della tua organizzazione.
 
 ## Adobe ID
 
 Risolvere i problemi relativi all’accesso ad Adobe Analytics utilizzando l’Experience Cloud.
 
-1. Accedi a [experience.adobe.com](https://experience.adobe.com). Se non è possibile accedere al sito, è possibile che l&#39;organizzazione non consenta l&#39;accesso al dominio tramite il firewall. Collabora con il team IT della tua organizzazione per consentirlo. Consulta [IP e domini utilizzati in Adobe Experience Cloud](https://helpx.adobe.com/it/analytics/kb/adobe-ip-addresses.html) per informazioni utili da fornire al team IT.
+1. Passa a [experience.adobe.com](https://experience.adobe.com). Se non è possibile accedere al sito, è possibile che l&#39;organizzazione non consenta l&#39;accesso al dominio tramite il firewall. Collabora con il team IT della tua organizzazione per consentirlo. Per informazioni utili da fornire al team IT, vedere [IP e domini utilizzati in Adobe Experience Cloud](https://helpx.adobe.com/it/analytics/kb/adobe-ip-addresses.html).
 
-2. Autenticazione tramite Adobe ID: fai clic su **[!UICONTROL Sign In with an Adobe ID]**. Se non riesci ad accedere, controlla che l&#39;indirizzo e-mail sia stato digitato correttamente. In caso contrario, fare clic su **[!UICONTROL Reset password]** e segui le istruzioni per reimpostare la password di Adobe ID.
+2. Eseguire l&#39;autenticazione tramite Adobe ID: fare clic su **[!UICONTROL Sign In with an Adobe ID]**. Se non riesci ad accedere, controlla che l&#39;indirizzo e-mail sia stato digitato correttamente. In caso contrario, fai clic su **[!UICONTROL Reset password]** e segui le istruzioni per reimpostare la password di Adobe ID.
 
 3. Accedi ad Analytics dopo l’autenticazione: fai clic sull’icona a 9 griglie in alto a destra, quindi fai clic su Analytics. Se non disponi di questa opzione o se è disattivata, rivolgiti a un amministratore di prodotto della tua organizzazione per assicurarti di disporre delle autorizzazioni corrette per accedere ad Analytics.
 
@@ -42,12 +42,12 @@ Se la cancellazione dei cookie/cache del browser non risolve il problema, rivolg
 
 >[!IMPORTANT]
 >
->I passaggi seguenti per reimpostare la password di un utente si applicano solo agli ID Analytics precedenti, non a Adobe ID. Se la tua organizzazione utilizza Adobe ID, puoi gestire gli account utente all’indirizzo [adminconsole.adobe.com](https://adminconsole.adobe.com).
+>I passaggi seguenti per reimpostare la password di un utente si applicano solo agli ID Analytics precedenti, non a Adobe ID. Se la tua organizzazione utilizza Adobe ID, puoi gestire gli account utente all&#39;indirizzo [adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Accedi ad Adobe Analytics con un account dotato di diritti di amministratore.
 2. Passa a **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]**.
-3. Fai clic su **[!UICONTROL Users]** , quindi fai clic su **[!UICONTROL Edit]** accanto all’utente desiderato.
-4. Modifica la password con qualsiasi valore e seleziona la casella **[!UICONTROL Require user to change password on next login]**.
+3. Fare clic sulla scheda **[!UICONTROL Users]** e quindi su **[!UICONTROL Edit]** accanto all&#39;utente desiderato.
+4. Modificare la password con qualsiasi valore e selezionare la casella **[!UICONTROL Require user to change password on next login]**.
 5. Informa l’utente della nuova password.
 
 ## Single Sign-On

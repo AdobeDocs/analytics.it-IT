@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Totale secondi trascorsi
 
-&#39;Totale secondi trascorsi&#39; [metrica](overview.md) mostra il numero aggregato di secondi trascorsi da un visitatore su un dato elemento dimensione. Questa metrica è utile quando si desidera la quantità di tempo trascorso su un dato elemento dimensionale e non si desidera calcolare la media come fanno altre metriche tempo trascorso.
+La [metrica](overview.md) &quot;Totale secondi trascorsi&quot; mostra il numero aggregato di secondi trascorsi da un visitatore su un dato elemento della dimensione. Questa metrica è utile quando si desidera la quantità di tempo trascorso su un dato elemento dimensionale e non si desidera calcolare la media come fanno altre metriche tempo trascorso.
 
 In Report Builder, questa metrica è denominata &quot;Tempo totale trascorso&quot;.
 
@@ -24,7 +24,7 @@ Questa metrica utilizza i seguenti passaggi per misurare il calcolo:
 2. Confronta questo hit con la marca temporale dell’hit successivo nella visita. Sono conteggiati sia gli hit di visualizzazione pagina che quelli di tracciamento dei collegamenti.
 3. La quantità di secondi trascorsi tra i due hit contribuisce all’elemento dimensionale.
 
-Variabili persistenti, come [eVar](../dimensions/evar.md), conteggio per il totale di secondi trascorsi. Variabili di traffico, come [prop](../dimensions/prop.md), include i secondi trascorsi nelle chiamate di tracciamento dei collegamenti successive.
+Le variabili persistenti, ad esempio [eVar](../dimensions/evar.md), vengono conteggiate in base al totale dei secondi trascorsi. Le variabili di traffico, ad esempio [props](../dimensions/prop.md), includono i secondi trascorsi nelle successive chiamate di tracciamento dei collegamenti.
 
 >[!TIP]
 >

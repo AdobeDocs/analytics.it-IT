@@ -30,17 +30,17 @@ Per pianificare un picco di traffico:
 
    Ad esempio, puoi ottenere la media giornaliera delle chiamate al server dell’anno scorso durante un intervallo di tempo specifico, più un aumento previsto del volume di chiamate al server per quest’anno. Puoi quindi pianificare i picchi di traffico in base a questo fattore di moltiplicazione.
 
-   1. In **[!UICONTROL Past Server Calls]** , seleziona una data di inizio e una data di fine per le suite di rapporti selezionate.
+   1. Nell&#39;area **[!UICONTROL Past Server Calls]**, seleziona una data di inizio e una data di fine per le suite di rapporti selezionate.
 
-      Importo per [!UICONTROL **Giorno di punta**], [!UICONTROL **Chiamate server di picco**], e [!UICONTROL **Media giornaliera delle chiamate server**] viene generato.
+      Viene generato l&#39;importo per [!UICONTROL **Chiamate server di picco al giorno**], [!UICONTROL **Chiamate server di picco al giorno**] e [!UICONTROL **Chiamate server medie giornaliere**].
 
    1. Immettere un valore per il fattore di moltiplicazione, quindi selezionare **[!UICONTROL Click to multiply and set]**.
 
       Il valore di ciascuna colonna viene moltiplicato per ogni suite di rapporti.
-1. In [!UICONTROL **Imposta parametri picco**] area, nel **[!UICONTROL Spike Start Date]** , specifica la data in cui prevedi che inizi il picco di traffico.
+1. Nell&#39;area [!UICONTROL **Imposta parametri picco**], nel campo **[!UICONTROL Spike Start Date]**, specifica la data in cui prevedi che inizi il picco di traffico.
 1. Nel campo **[!UICONTROL Spike End Date]**, specifica la data in cui prevedi la fine del picco di traffico.
-1. In **[!UICONTROL Peak Day Server Calls]** , specifica il numero totale previsto di visualizzazioni di picco della pagina al giorno durante il periodo di picco del traffico.
-1. In **[!UICONTROL Peak Hour Server Calls]** , specifica il numero totale previsto di visualizzazioni di picco della pagina all&#39;ora durante il periodo di picco del traffico.
+1. Nel campo **[!UICONTROL Peak Day Server Calls]**, specifica il numero totale previsto di visualizzazioni di pagina di picco al giorno durante il periodo di picco del traffico.
+1. Nel campo **[!UICONTROL Peak Hour Server Calls]**, specifica il numero totale previsto di visualizzazioni pagina di picco all&#39;ora durante il periodo di picco del traffico.
 1. Seleziona **[!UICONTROL Submit]**.
 
    Assicurati di specificare il totale delle visualizzazioni di pagina previste, non solo le visualizzazioni di pagina aggiuntive.

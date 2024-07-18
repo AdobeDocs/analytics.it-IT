@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Dopo aver impostato questa struttura, puoi utilizzare il [Generatore di regole d
 
 L’attività seguente descrive come eseguire questa operazione.
 
-## Impostare le sottoclassificazioni utilizzando il Generatore di regole {#task_2D9016D8B4E84DBDAF88555E5369546F}
+## Impostare le sottoclassificazioni utilizzando il Generatore di regole{#task_2D9016D8B4E84DBDAF88555E5369546F}
 
 Esempi di passaggi che descrivono come caricare le sottoclassificazioni utilizzando il Generatore di regole.
 
@@ -52,8 +52,8 @@ Esempi di passaggi che descrivono come caricare le sottoclassificazioni utilizza
 
    | `#` | Tipo di regola | Corrispondenza | Imposta classificazione | Su |
    |---|---|---|---|---|
-   |  | Espressione regolare | `[^\:]:([^\:]):([^\:]`) | Broad Campaign code | `$1` |
-   |  | Espressione regolare | `[^\:]:([^\:]):([^\:]`) | Codice creativo | `$2` |
+   |   | Espressione regolare | `[^\:]:([^\:]):([^\:]`) | Broad Campaign code | `$1` |
+   |   | Espressione regolare | `[^\:]:([^\:]):([^\:]`) | Codice creativo | `$2` |
 
    >[!NOTE]
    >

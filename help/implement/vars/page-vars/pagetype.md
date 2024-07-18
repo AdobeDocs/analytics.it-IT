@@ -13,7 +13,7 @@ ht-degree: 12%
 
 # pageType
 
-Il `pageType` variabile è un flag utilizzato per designare le pagine di errore sul sito, ad esempio errori 404. Se questa variabile contiene la stringa `errorPage`, popola le pagine non trovate [dimensione](/help/components/dimensions/pages-not-found.md) e [metrica](/help/components/metrics/pages-not-found.md).
+La variabile `pageType` è un flag utilizzato per designare le pagine di errore sul sito, ad esempio errori 404. Se la variabile contiene la stringa `errorPage`, verranno compilati i campi &#39;Pagine non trovate&#39; [dimensione](/help/components/dimensions/pages-not-found.md) e [metrica](/help/components/metrics/pages-not-found.md).
 
 >[!IMPORTANT]
 >
@@ -23,8 +23,8 @@ Il `pageType` variabile è un flag utilizzato per designare le pagine di errore 
 
 Il canale è mappato alle seguenti variabili:
 
-* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` : questo campo XDM è booleano; impostalo su `true` per contrassegnarla come pagina di errore, oppure `false` se non è una pagina di errore.
-* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` : questo campo oggetto dati è una stringa; impostalo su `"errorPage"` per contrassegnarlo come tale.
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - questo campo XDM è di tipo booleano; impostarlo su `true` per contrassegnarlo come pagina di errore oppure su `false` se non si tratta di una pagina di errore.
+* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` - questo campo oggetto dati è una stringa; impostarlo su `"errorPage"` per contrassegnarlo come tale.
 
 ## Tipo di pagina utilizzando l’estensione Adobe Analytics
 
@@ -32,7 +32,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.pageType in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.pageType` variabile è una stringa in cui il valore `errorPage` è il suo unico valore valido. Imposta questa variabile su questo valore in qualsiasi pagina di errore del sito, ad esempio su 404 pagine.
+La variabile `s.pageType` è una stringa in cui il valore `errorPage` è l&#39;unico valore valido. Imposta questa variabile su questo valore in qualsiasi pagina di errore del sito, ad esempio su 404 pagine.
 
 ```js
 s.pageType = "errorPage";

@@ -6,22 +6,22 @@ role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '497'
 ht-degree: 88%
 
 ---
 
 # Suite di rapporti multiple
 
-Puoi creare progetti in Analysis Workspace con dati provenienti da più suite di rapporti. Le suite di rapporti vengono selezionate a livello di pannello, per cui puoi scegliere una suite di rapporti diversa per ciascun pannello all’interno dello stesso progetto Workspace.
+Puoi creare progetti in Analysis Workspace con dati provenienti da più suite di rapporti. Le suite di rapporti vengono scelte a livello di pannello, in modo da poter scegliere una suite di rapporti diversa per ciascun pannello all’interno dello stesso progetto Workspace.
 
 Questa funzionalità è utile, ad esempio, per:
 
 * Confrontare i dati provenienti da due aree geografiche diverse: i dati risiedono in due suite di rapporti diverse. Puoi creare tabelle e visualizzazioni per eseguire confronti affiancati dei dati.
 
-* Creare un dashboard di metriche e visualizzazioni da segnalare ad altre organizzazioni. Puoi estrarre dati da varie suite di rapporti nello stesso progetto.
+* Creare un dashboard di metriche e visualizzazioni da segnalare ad altre organizzazioni. Puoi estrarre dati da varie suite di rapporti in nello stesso progetto.
 
-Ecco un video sull&#39;argomento:
+Video sull&#39;argomento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 

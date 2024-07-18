@@ -347,11 +347,11 @@ Puoi limitare la corrispondenza a una determinata durata utilizzando gli operato
 
 >[!NOTE]
 >
->Esistono differenze nella valutazione tra elementi con nomi simili, come **Giorno/i** o **Giorno**. Per le definizioni basate sul tempo di Within e After, utilizzate le opzioni elencate per prime nella finestra a comparsa:
+>Esistono differenze nella valutazione tra elementi con nomi simili, come **Giorni** o **Giorni**. Per le definizioni basate sul tempo di Within e After, utilizzate le opzioni elencate per prime nella finestra a comparsa:
 >
 >![immagine](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
 >
->Per le definizioni basate sulle dimensioni entro e dopo, utilizza le opzioni del sottomenu *Altri Dimension*:
+>Per le definizioni basate sulle dimensioni Within e After, utilizza le opzioni nel sottomenu *Altri Dimension*:
 >
 >![immagine](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 

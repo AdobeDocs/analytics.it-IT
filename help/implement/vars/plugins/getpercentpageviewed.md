@@ -15,7 +15,7 @@ ht-degree: 4%
 
 {{plug-in}}
 
-Il `getPercentPageViewed` il plug-in misura l’attività di scorrimento di un visitatore per vedere quanta pagina viene visualizzata prima di passare a un’altra pagina. Questo plug-in non è necessario se le pagine sono di piccole dimensioni o se non si desidera misurare l&#39;attività di scorrimento.
+Il plug-in `getPercentPageViewed` misura l&#39;attività di scorrimento di un visitatore per vedere quanta pagina viene visualizzata prima di passare a un&#39;altra pagina. Questo plug-in non è necessario se le pagine sono di piccole dimensioni o se non si desidera misurare l&#39;attività di scorrimento.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
@@ -27,8 +27,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -43,14 +43,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,28 +61,28 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 ## Utilizzare il plug-in
 
-Il `getPercentPageViewed` La funzione utilizza i seguenti argomenti:
+La funzione `getPercentPageViewed` utilizza i seguenti argomenti:
 
-* **`pid`** (facoltativo, stringa): variabile o valore uguale alla pagina corrente. Impostazione predefinita nell&#39;AppMeasurement di Analytics `pageName` variabile OR l&#39;URL corrente se la variabile pageName di AppMeasurement non è impostata.
-* **`ch`** (facoltativo, booleano): imposta su `false` (o `0`) se non vuoi che il plug-in prenda in considerazione le modifiche apportate alle dimensioni di una pagina dopo il suo caricamento iniziale. Se omesso, l&#39;impostazione predefinita di questo argomento sarà `true`. L&#39;Adobe consiglia di omettere questo argomento nella maggior parte dei casi.
+* **`pid`** (facoltativo, stringa): variabile o valore uguale alla pagina corrente. Impostazione predefinita della variabile `pageName` di AppMeasurement di Analytics OPPURE dell&#39;URL corrente se la variabile pageName di AppMeasurement non è impostata.
+* **`ch`** (facoltativo, booleano): impostalo su `false` (o `0`) se non vuoi che il plug-in tenga conto di eventuali modifiche apportate alle dimensioni di una pagina dopo il suo caricamento iniziale. Se omesso, l&#39;impostazione predefinita di questo argomento sarà `true`. L&#39;Adobe consiglia di omettere questo argomento nella maggior parte dei casi.
 
 La chiamata di questa funzione non restituisce alcun risultato, ma imposta le seguenti variabili:
 
 * `window._ppvPreviousPage`: nome della pagina precedente visualizzata. Le misurazioni di scorrimento finali per la pagina corrente sono disponibili solo dopo il caricamento di una nuova pagina.
-* `window._ppvInitialPercentViewed`: percentuale della pagina precedente visibile al primo caricamento della pagina precedente. Se l’intera pagina è visibile al primo caricamento, questo valore è `100`.
-* `window._ppvHighestPercentViewed`: la percentuale più alta della pagina precedente visualizzata dal visitatore (in altezza). Il punto più lontano a cui il visitatore è sceso nella pagina precedente. Se l’intera pagina è visibile al primo caricamento, questo valore è `100`.
-* `window._ppvFinalPercentViewed`: la percentuale della pagina precedente che era visibile nel punto in cui il visitatore si è spostato sulla pagina corrente. Questo valore sarà uguale o maggiore della percentuale iniziale visualizzata e sarà uguale o inferiore alla percentuale più elevata visualizzata nella pagina.
-* `window._ppvHighestPixelsSeen`: il numero più alto di pixel totali visualizzati (in altezza) mentre il visitatore scorreva la pagina precedente.
-* `window._ppvFoldsAvailable`: numero totale di &quot;pieghe di pagina&quot; disponibili per lo scorrimento verso il basso nella pagina precedente. Se l’intera pagina è visibile al primo caricamento, questo valore è `1`.
-* `window._ppvFoldsSeen`: il numero più alto di &quot;pieghe di pagina&quot; raggiunto quando il visitatore ha scorruto la pagina precedente. Questa variabile include la piega &quot;superiore della pagina&quot;. Se l’intera pagina è visibile al primo caricamento, questo valore è `1`.
+* `window._ppvInitialPercentViewed`: percentuale della pagina precedente visibile al primo caricamento della pagina precedente. Se l&#39;intera pagina è visibile al primo caricamento, il valore è `100`.
+* `window._ppvHighestPercentViewed`: la percentuale più alta della pagina precedente visualizzata dal visitatore (in altezza). Il punto più lontano a cui il visitatore è sceso nella pagina precedente. Se l&#39;intera pagina è visibile al primo caricamento, il valore è `100`.
+* `window._ppvFinalPercentViewed`: la percentuale della pagina precedente visibile nel punto in cui il visitatore si è spostato sulla pagina corrente. Questo valore sarà uguale o maggiore della percentuale iniziale visualizzata e sarà uguale o inferiore alla percentuale più elevata visualizzata nella pagina.
+* `window._ppvHighestPixelsSeen`: numero massimo di pixel totali visualizzati (in altezza) mentre il visitatore scorreva la pagina precedente.
+* `window._ppvFoldsAvailable`: numero totale di &quot;pieghe di pagina&quot; disponibili per lo scorrimento verso il basso nella pagina precedente. Se l&#39;intera pagina è visibile al primo caricamento, il valore è `1`.
+* `window._ppvFoldsSeen`: è stato raggiunto il numero massimo di &quot;pieghe di pagina&quot; con lo scorrimento verso il basso della pagina precedente. Questa variabile include la piega &quot;superiore della pagina&quot;. Se l&#39;intera pagina è visibile al primo caricamento, il valore è `1`.
 
 Assegna una o più di queste variabili alle eVar per visualizzare i dati delle dimensioni nei rapporti.
 
 Questo plug-in crea tre cookie di prime parti che scadono al termine di una sessione del browser:
 
 * `s_ppv`: memorizza ciascuno dei valori esposti chiamando la funzione
-* `s_tp`: memorizza l’altezza totale in pixel della pagina precedente
-* `s_ips`: memorizza la percentuale di scorrimento iniziale della pagina precedente
+* `s_tp`: memorizza l&#39;altezza totale in pixel della pagina precedente
+* `s_ips`: memorizza la percentuale iniziale di scorrimento della pagina precedente
 
 ## Esempi
 
@@ -113,7 +113,7 @@ if(_ppvPreviousPage)
 
 ### 5.1 (8 dicembre 2022)
 
-* È stata aggiunta la `_finalPercentViewed` soluzione
+* Aggiunta della soluzione `_finalPercentViewed` completata
 
 ### 5.0.1 (22 giugno 2021)
 
@@ -125,7 +125,7 @@ if(_ppvPreviousPage)
 
 ### v4.0 (7 ottobre 2019)
 
-* Aggiunto `s._ppvFoldsSeen` e `s._ppvFoldsAvailable` soluzioni
+* Aggiunte `s._ppvFoldsSeen` e `s._ppvFoldsAvailable` soluzioni
 
 ### v3.01 (13 agosto 2018)
 

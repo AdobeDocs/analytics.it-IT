@@ -19,19 +19,19 @@ Le sezioni seguenti descrivono le attività che è possibile eseguire durante la
 
 ## Visualizzare richieste
 
-Per impostazione predefinita, è possibile visualizzare solo le richieste create, a meno che gli utenti non abbiano scelto di renderle visibili ad altri nell’organizzazione (come descritto in [Data Warehouse impostazioni generali della richiesta](/help/export/data-warehouse/create-request/dw-general-settings.md)). Gli amministratori di sistema possono visualizzare tutte le richieste.
+Per impostazione predefinita, è possibile visualizzare solo le richieste create, a meno che gli utenti non abbiano scelto di rendere le proprie richieste visibili ad altri utenti dell&#39;organizzazione (come descritto in [Data Warehouse impostazioni generali della richiesta](/help/export/data-warehouse/create-request/dw-general-settings.md)). Gli amministratori di sistema possono visualizzare tutte le richieste.
 
 Per visualizzare le richieste Data Warehouse:
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Strumenti**] > [!UICONTROL **Data Warehouse**].
 
-   Nella pagina Data Warehouse vengono visualizzate tutte le richieste effettuate dall&#39;utente. I dati vengono visualizzati in ogni colonna. È possibile [configurare le colonne](#configure-columns) sono visibili.
+   Nella pagina Data Warehouse vengono visualizzate tutte le richieste effettuate dall&#39;utente. I dati vengono visualizzati in ogni colonna. Puoi [configurare quali colonne](#configure-columns) sono visibili.
 
    <!-- add screenshot of main page -->
 
 <!-- describe columns? -->
 
-1. (Facoltativo) Fai clic sul nome della richiesta per visualizzare una finestra di dialogo contenente le seguenti informazioni: <!-- Check this -->
+1. (Facoltativo) Fare clic sul nome della richiesta per visualizzare una finestra di dialogo contenente le seguenti informazioni: <!-- Check this -->
 
    * Quando una richiesta ha iniziato l’elaborazione
 
@@ -59,7 +59,7 @@ Per modificare una richiesta pianificata:
 
 1. Modifica la richiesta come desideri. Impossibile modificare le opzioni di configurazione disattivate.
 
-   Per informazioni su ciascuna opzione di configurazione, vedi [Creare una richiesta Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Per informazioni su ciascuna opzione di configurazione, vedere [Creare una richiesta Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. Seleziona [!UICONTROL **Salva modifiche**].
 
@@ -73,13 +73,13 @@ Puoi visualizzare la cronologia di qualsiasi richiesta Data Warehouse effettuata
 
    ![Gestire una richiesta](assets/dw-manage-request.png)
 
-1. Seleziona [!UICONTROL **Visualizza cronologia**].
+1. Selezionare [!UICONTROL **Visualizza cronologia**].
 
-   Il [!UICONTROL **Visualizza richiesta Data Warehouse**] In questa pagina viene visualizzato un elenco delle singole consegne di rapporti associate alla richiesta.
+   Nella pagina [!UICONTROL **Visualizza richiesta di Data Warehouse**] è visualizzato l&#39;elenco delle singole consegne di report associate alla richiesta.
 
-   Seleziona la **Configura colonna** icona ![Icona Configura colonna](assets/configure-column-icon.png) per nascondere le colonne o visualizzarne altre non visualizzate per impostazione predefinita.
+   Selezionare l&#39;icona **Configura colonna** ![Configura icona colonna](assets/configure-column-icon.png) per nascondere le colonne o visualizzarne altre non visualizzate per impostazione predefinita.
 
-   ![Pagina Cronologia richieste](assets/dw-request-history.png)
+   ![Pagina cronologia richieste](assets/dw-request-history.png)
 
    Sono disponibili le seguenti colonne:
 
@@ -87,9 +87,9 @@ Puoi visualizzare la cronologia di qualsiasi richiesta Data Warehouse effettuata
    |---------|----------|
    | [!UICONTROL **Data di creazione**] | La data e l’ora di creazione del rapporto.<p>Viene visualizzato nel fuso orario dell’utente che ha avviato la richiesta.</p> |
    | [!UICONTROL **Data di inizio**] | Data e ora di inizio del report.<p>Viene visualizzato nel fuso orario dell’utente che ha avviato la richiesta.</p> |
-   | [!UICONTROL **Data di completamento**] | La data e l’ora in cui è stato completato il rapporto.<p>Viene visualizzato nel fuso orario dell’utente che ha avviato la richiesta.</p> |
+   | [!UICONTROL **Data completata**] | La data e l’ora in cui è stato completato il rapporto.<p>Viene visualizzato nel fuso orario dell’utente che ha avviato la richiesta.</p> |
    | [!UICONTROL **Data aggiornamento**] | La data e l’ora dell’ultimo aggiornamento del rapporto.<p>Viene visualizzato nel fuso orario dell’utente che ha avviato la richiesta.</p> |
-   | [!UICONTROL **Stato**] | Stato della consegna del rapporto. Gli stati possibili sono:<ul><li>[!UICONTROL **Creato**]: il rapporto è stato creato ma non ancora elaborato.</li><li>[!UICONTROL **In sospeso**]: report in attesa di elaborazione.</li><li>[!UICONTROL **Elaborazione**]: report in fase di elaborazione.</li><li>[!UICONTROL **Completato**]: il rapporto è stato completato ed è ora disponibile.</li><li>[!UICONTROL **Pianificato**]: il rapporto è pianificato ma non è ancora iniziato.</li><li>[!UICONTROL **Annullato**]: rapporto annullato dall’utente.</li><li>[!UICONTROL **Errore: elaborazione**:] Il report ha riscontrato un errore e non è stato possibile elaborarlo.</li><li>[!UICONTROL **Errore - Impossibile Inviare**]: report generato correttamente ma non consegnato. Controlla la [configurazione della destinazione](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), quindi invia nuovamente il rapporto.</li></ul>. |
+   | [!UICONTROL **Stato**] | Stato della consegna del rapporto. Gli stati possibili sono:<ul><li>[!UICONTROL **Creato**]: il report è stato creato ma non è ancora stato elaborato.</li><li>[!UICONTROL **In sospeso**]: il report è in attesa di elaborazione.</li><li>[!UICONTROL **Elaborazione**]: report in corso.</li><li>[!UICONTROL **Completato**]: report completato ed ora disponibile.</li><li>[!UICONTROL **Pianificato**]: report pianificato ma non ancora avviato.</li><li>[!UICONTROL **Annullato**]: report annullato dall&#39;utente.</li><li>[!UICONTROL **Errore - Elaborazione**:] Il report ha rilevato un errore e non è stato possibile elaborarlo.</li><li>[!UICONTROL **Errore - Impossibile inviare**]: il report è stato generato correttamente ma non è stato possibile recapitare. Controlla la [configurazione della tua destinazione](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), quindi invia nuovamente il rapporto.</li></ul>. |
    | [!UICONTROL **Da**] | Data di inizio dell’intervallo di tempo complessivo incluso nel rapporto.<p>Viene visualizzato nel fuso orario della suite di rapporti.</p> |
    | [!UICONTROL **A**] | Data di fine dell’intervallo di tempo complessivo incluso nel rapporto. <p>Viene visualizzato nel fuso orario della suite di rapporti.</p> |
    | [!UICONTROL **ID richiesta legacy**] | ID utilizzato per identificare un report nell&#39;interfaccia Data Warehouse legacy. Questo ID potrebbe essere necessario quando si contatta l’Assistenza clienti Adobe. |
@@ -100,10 +100,10 @@ Puoi visualizzare la cronologia di qualsiasi richiesta Data Warehouse effettuata
 
    | Opzione | Funzione |
    |---------|----------|
-   | [!UICONTROL **Dettagli della destinazione**] | Mostra i dettagli dell’account e dell’ubicazione associati alla richiesta. Questo è l’account e la posizione configurati in precedenza, come descritto in [Configurare una destinazione di rapporto per una richiesta Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
-   | [!UICONTROL **Annulla rapporto**] | Annulla il report. Non è possibile annullare rapporti con stato [!UICONTROL **Completato**] o [!UICONTROL **Annullato**]. |
-   | [!UICONTROL **Riesegui report**] | Esegue nuovamente il report con i dati così come erano quando è stato inviato originariamente. È possibile eseguire nuovamente un report con uno dei seguenti stati: [!UICONTROL **Annullato**], [!UICONTROL **Completato**], [!UICONTROL **Errore: elaborazione**], o [!UICONTROL **Errore - Impossibile Inviare**]. |
-   | [!UICONTROL **Invia di nuovo il rapporto**] | Invia nuovamente il file del report generato in precedenza. È possibile inviare nuovamente un report con uno dei seguenti stati: [!UICONTROL **Completato**] o [!UICONTROL **Errore - Impossibile Inviare**]. |
+   | [!UICONTROL **Dettagli destinazione**] | Mostra i dettagli dell’account e dell’ubicazione associati alla richiesta. Questo è l&#39;account e il percorso configurato in precedenza, come descritto in [Configurare una destinazione di report per una richiesta Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Annulla report**] | Annulla il report. Impossibile annullare i report con stato [!UICONTROL **Completati**] o [!UICONTROL **Annullati**]. |
+   | [!UICONTROL **Esegui nuovamente il report**] | Esegue nuovamente il report con i dati così come erano quando è stato inviato originariamente. È possibile eseguire nuovamente un report con uno dei seguenti stati: [!UICONTROL **Annullato**], [!UICONTROL **Completato**], [!UICONTROL **Errore - Elaborazione**], o [!UICONTROL **Errore - Impossibile inviare**]. |
+   | [!UICONTROL **Invia di nuovo il report**] | Invia nuovamente il file del report generato in precedenza. È possibile inviare nuovamente un report con uno dei seguenti stati: [!UICONTROL **Completato**] o [!UICONTROL **Errore - Impossibile inviare**]. |
 
 ## Copiare le richieste
 
@@ -121,7 +121,7 @@ Quando copi una richiesta, tutte le opzioni di configurazione vengono copiate da
 
 1. Aggiorna le opzioni di configurazione associate alla richiesta.
 
-   Per informazioni su ciascuna opzione di configurazione, vedi [Creare una richiesta Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Per informazioni su ciascuna opzione di configurazione, vedere [Creare una richiesta Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. Seleziona [!UICONTROL **Salva modifiche**].
 
@@ -145,9 +145,9 @@ Per annullare una richiesta pianificata:
 
 Puoi configurare le informazioni visualizzate per ogni richiesta aggiungendo o rimuovendo colonne.
 
-1. Seleziona la **Configurare le colonne** in alto a destra nella pagina Data Warehouse.
+1. Seleziona l&#39;icona **Configura colonne** in alto a destra nella pagina Data Warehouse.
 
-   ![Configurare le colonne](assets/dw-configure-columns.png)
+   ![Configura colonne](assets/dw-configure-columns.png)
 
    Sono disponibili le seguenti colonne:
 
@@ -157,7 +157,7 @@ Puoi configurare le informazioni visualizzate per ogni richiesta aggiungendo o r
    | Suite di rapporti | La suite di rapporti associata alla richiesta. |
    | Richiesto da | Utente che ha creato la richiesta. |
    | Data richiesta | Data in cui è stata effettuata la richiesta. |
-   | Stato | Sono disponibili i seguenti stati:<ul><li><p>**Completato**: richiesta eseguita correttamente.</p></li><li><p>**Annullato**: la richiesta è stata annullata dall’utente.</p></li><li><p>**Pianificato**: la richiesta è configurata per l’esecuzione su una pianificazione.</p></li><li><p>**Non riuscito**: richiesta non completata. Se la richiesta continua a non riuscire, contatta l’Assistenza clienti.</p></li></ul> |
+   | Stato | Sono disponibili i seguenti stati:<ul><li><p>**Completato**: la richiesta è stata eseguita correttamente.</p></li><li><p>**Annullata**: la richiesta è stata annullata dall&#39;utente.</p></li><li><p>**Pianificato**: la richiesta è configurata per l&#39;esecuzione secondo una pianificazione.</p></li><li><p>**Non riuscito**: impossibile completare la richiesta. Se la richiesta continua a non riuscire, contatta l’Assistenza clienti.</p></li></ul> |
 
    {style="table-layout:auto"}
 
@@ -165,11 +165,11 @@ Puoi configurare le informazioni visualizzate per ogni richiesta aggiungendo o r
 
 ## Filtrare e ordinare le richieste
 
-1. Seleziona la **Filtro** nella barra a sinistra della pagina Data Warehouse.
+1. Seleziona l&#39;icona **Filtro** nella barra a sinistra della pagina Data Warehouse.
 
-   ![Filtrare richieste](assets/dw-filter.png)
+   ![Filtra richieste](assets/dw-filter.png)
 
-1. Espandi [!UICONTROL **Suite di rapporti**], [!UICONTROL **Proprietario**], o [!UICONTROL **Stato**] , quindi seleziona come filtrare le richieste.
+1. Espandi le sezioni [!UICONTROL **Suite per report**], [!UICONTROL **Proprietario**] o [!UICONTROL **Stato**], quindi seleziona come filtrare le richieste.
 
 ## Cercare le richieste
 

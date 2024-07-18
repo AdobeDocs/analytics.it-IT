@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: ef11dde4-084d-45b6-a6a3-ca7d3a1f0ff6
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '75'
 ht-degree: 4%
 
 ---
@@ -23,5 +23,5 @@ Raccomandazioni di sistema e prerequisiti.
 **Prerequisiti**
 
 * Il contratto della tua organizzazione include Report Builder for Excel.
-* Il nome utente fa parte del Report Builder utenti predefinito. Questo requisito comprende [!DNL Analytics] amministratori.
+* Il nome utente fa parte del Report Builder utenti predefinito. Questo requisito include [!DNL Analytics] amministratori.
 * L&#39;utente deve eseguire Windows e aver effettuato l&#39;accesso come amministratore.

@@ -13,7 +13,7 @@ ht-degree: 12%
 
 # cookieLifetime
 
-I cookie impostati dall’AppMeasurement hanno in genere una scadenza di 2 anni. Utilizza il `cookieLifetime` per ignorare la data di scadenza dei cookie impostata da AppMeasurement.
+I cookie impostati dall’AppMeasurement hanno in genere una scadenza di 2 anni. Utilizza la variabile `cookieLifetime` per ignorare la data di scadenza dei cookie impostata da AppMeasurement.
 
 >[!NOTE]
 >
@@ -25,26 +25,26 @@ L’SDK per web non offre ancora la personalizzazione per la durata dei cookie i
 
 ## Durata dei cookie tramite l’estensione Adobe Analytics
 
-La durata dei cookie è un elenco a discesa sotto il [!UICONTROL Cookies] Pannello a soffietto durante la configurazione dell’estensione Adobe Analytics.
+La durata dei cookie è un elenco a discesa nel pannello a soffietto [!UICONTROL Cookies] durante la configurazione dell&#39;estensione Adobe Analytics.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
-1. Espandi [!UICONTROL Cookies] Pannello a soffietto, che mostra [!UICONTROL Cookie Lifetime] elenco a discesa.
+1. Espandere il pannello a soffietto [!UICONTROL Cookies], che mostra l&#39;elenco a discesa [!UICONTROL Cookie Lifetime].
 
 Questo elenco a discesa contiene i seguenti valori:
 
 * **Predefinito**: il cookie scade dopo 2 anni.
-* **Nessuno**: l’AppMeasurement non imposta i cookie.
+* **Nessuno**: AppMeasurement non imposta i cookie.
 * **Sessione**: il cookie scade alla fine della sessione del visitatore.
-* **Secondi**: il cookie scade dopo il numero di secondi specificato. Ad esempio, impostando questo elenco a discesa su [!UICONTROL Seconds] e posizionamento `86400` nel campo personalizzato costringe i cookie a scadere esattamente dopo 24 ore.
+* **Secondi**: il cookie scade dopo il numero di secondi specificato. Ad esempio, se si imposta l&#39;elenco a discesa su [!UICONTROL Seconds] e si inserisce `86400` nel campo personalizzato, i cookie scadranno dopo esattamente 24 ore.
 
 ## s.cookieLifetime in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
-Il `s.cookieLifetime` la variabile è una stringa che determina la data di scadenza dei cookie impostati dall’AppMeasurement.
+La variabile `s.cookieLifetime` è una stringa che determina la data di scadenza dei cookie impostati dall&#39;AppMeasurement.
 
-* Se impostato su `SESSION`, i cookie impostati dall’AppMeasurement scadono al termine della sessione del browser.
-* Se impostato su `NONE`, AppMeasurement non tenta di impostare i cookie.
+* Se è impostato su `SESSION`, i cookie impostati da AppMeasurement scadono al termine della sessione del browser.
+* Se è impostato su `NONE`, AppMeasurement non tenta di impostare i cookie.
 * Se è impostata su una stringa di numeri interi, i cookie impostati dall’AppMeasurement scadono dopo il numero di secondi specificato.
 
 ```js

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 2%
+source-wordcount: '275'
+ht-degree: 1%
 
 ---
 
@@ -20,31 +20,31 @@ Puoi modificare diverse richieste contemporaneamente, in base alla suite di rapp
 
 **Per modificare più richieste**
 
-1. In Excel, fai clic su **[!UICONTROL Manage]**.
+1. In Excel, fare clic su **[!UICONTROL Manage]**.
 
    >[!NOTE]
    >
-   >Per modificare le richieste contenute nelle celle di singoli fogli di lavoro, deselezionare [!UICONTROL All Sheets] opzione sul [!UICONTROL Request Manager]. Per impostazione predefinita, questa casella è selezionata se sono presenti richieste in più fogli di lavoro.
+   >Per modificare le richieste contenute nelle celle di singoli fogli di lavoro, deselezionare l&#39;opzione [!UICONTROL All Sheets] in [!UICONTROL Request Manager]. Per impostazione predefinita, questa casella è selezionata se sono presenti richieste in più fogli di lavoro.
 
-1. Il giorno [!UICONTROL Request Manager] , seleziona due o più richieste e fai clic su **[!UICONTROL Edit Multiple]**.
+1. Nel modulo [!UICONTROL Request Manager], seleziona due o più richieste, quindi fai clic su **[!UICONTROL Edit Multiple]**.
 
-   Il [!UICONTROL Edit Multiple Requests] Il form visualizza colonne di informazioni: [!UICONTROL By Report Suite], [!UICONTROL By Segment], [!UICONTROL By Metric], [!UICONTROL By Date Range and Granularity], e [!UICONTROL By Group].
+   Il modulo [!UICONTROL Edit Multiple Requests] visualizza colonne di informazioni: [!UICONTROL By Report Suite], [!UICONTROL By Segment], [!UICONTROL By Metric], [!UICONTROL By Date Range and Granularity] e [!UICONTROL By Group].
 1. Per raggruppare la visualizzazione delle richieste, fai clic su una delle opzioni seguenti:
 
-   * **Per suite di rapporti:** Raggruppa la visualizzazione delle richieste per suite di rapporti.
+   * **Per suite di rapporti:** raggruppa la visualizzazione delle richieste in base alla suite di rapporti.
    * **Per segmento**: raggruppa le richieste in base al nome del segmento.
 
-      * **Scegli segmento**: mostra se non esistono segmenti per le richieste. Per aggiungere segmenti, fai clic su **[!UICONTROL Edit Group]** e seleziona un segmento dalla sezione [!UICONTROL Edit Group] pannello.
+      * **Scegli segmento**: mostra se non esistono segmenti per le richieste. Per aggiungere segmenti, fare clic su **[!UICONTROL Edit Group]** e selezionare un segmento dal pannello [!UICONTROL Edit Group].
 
-   * **Per metrica:** Consulta [Modificare le metriche in più richieste](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
+   * **Per Metrica:** Vedi [Modificare Le Metriche In Più Richieste](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
-   * **Per intervallo di date e granularità:** Raggruppa la visualizzazione delle richieste in base all’intervallo di date e alla granularità temporale.
-   * **Per gruppo:** Raggruppa la visualizzazione delle richieste per set di richieste raggruppate.
+   * **Per intervallo di date e granularità:** Raggruppa la visualizzazione delle richieste in base all&#39;intervallo di date e alla granularità temporale.
+   * **Per gruppo:** raggruppa la visualizzazione delle richieste in base a un set di richieste raggruppate.
 
-1. Il giorno [!UICONTROL Edit Multiple Requests] form, fai clic su **[!UICONTROL OK]**.
+1. Nel modulo [!UICONTROL Edit Multiple Requests], fare clic su **[!UICONTROL OK]**.
 
 ## Aggiungere segmenti a più richieste contemporaneamente
 
 Ecco un video che mostra il processo:
 
-https://video.tv.adobe.com/v/25445/?quality=12&amp;captions=ita
+https://video.tv.adobe.com/v/25445/?quality=12

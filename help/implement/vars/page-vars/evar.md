@@ -27,8 +27,8 @@ Prima di utilizzare le eVar nell’implementazione, accertati di configurarle ne
 
 Le eVar sono mappate alle seguenti variabili:
 
-* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` a `xdm._experience.analytics.customDimensions.eVars.eVar250`
-* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` a `data.__adobe.analytics.eVar250`; o `data.__adobe.analytics.v1` a `data.__adobe.analytics.v250`
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): da `xdm._experience.analytics.customDimensions.eVars.eVar1` a `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): da `data.__adobe.analytics.eVar1` a `data.__adobe.analytics.eVar250`; o da `data.__adobe.analytics.v1` a `data.__adobe.analytics.v250`
 
 ## eVar tramite l’estensione di Adobe Analytics
 
@@ -38,7 +38,7 @@ Puoi impostare le eVar sia durante la configurazione dell’estensione Analytics
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Imposta il [!UICONTROL Extension] in Adobe Analytics e nella sezione [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+5. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL eVars].
 
 Puoi impostare un’eVar su un valore o su un elemento dati. Puoi anche copiare il valore da un’altra variabile di Analytics.

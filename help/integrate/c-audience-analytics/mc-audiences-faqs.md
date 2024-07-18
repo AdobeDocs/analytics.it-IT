@@ -1,5 +1,5 @@
 ---
-description: Risposte alle domande che potresti avere durante l’implementazione di Audienci Analytics.
+description: Risposte alle domande che potresti avere durante l’implementazione di Audience Analytics.
 solution: Experience Cloud
 title: Domande frequenti per Audience Analytics
 feature: Audience Analytics
@@ -7,19 +7,19 @@ exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 # Domande frequenti
 
-Risposte alle domande che potresti avere durante l’implementazione di Audienci Analytics.
+Risposte alle domande che potresti avere durante l’implementazione di Audience Analytics.
 
 ## Domande frequenti legali {#legal}
 
 +++ Come posso sapere se i miei dati di Analytics contengono dati personali (PII, Personally Identifiable Information)? E se sì, cosa posso fare?
 
-Se hai e-mail/indirizzi/ecc. in una prop o in un eVar, puoi applicare l’hashing ai dati durante la raccolta. Se il tuo paese considera l’indirizzo IP come PII, [attivare l’offuscamento dell’IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html). Parla con il tuo amministratore di Analytics per vedere cosa stai raccogliendo. Parla con l&#39;Ufficio legale per capire quali sono le informazioni di cui si occupano.
+Se hai e-mail/indirizzi/ecc. in una prop o in un eVar, puoi applicare l’hashing ai dati durante la raccolta. Se il tuo paese considera l&#39;indirizzo IP come PII, [attiva l&#39;offuscamento dell&#39;IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=it). Parla con il tuo amministratore di Analytics per vedere cosa stai raccogliendo. Parla con l&#39;Ufficio legale per capire quali sono le informazioni di cui si occupano.
 
 +++
 
@@ -35,9 +35,9 @@ Queste non si applicano all’invio di dati di Adobe Analytics a Adobe Audience 
 
 ## Domande frequenti specifiche per Adobe Audience Manager {#aam-specific}
 
-+++ Come si crea una destinazione Analytics in Audienci Manager?
++++ Come si crea una destinazione Analytics in Audience Manager?
 
-Consulta [Configurare una destinazione Analytics in Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=it)&quot;.
+Vedere [Configurare una destinazione Analytics in Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=it)&quot;.
 
 +++
 
@@ -49,13 +49,13 @@ Possono essere necessarie diverse ore per popolare le suite di rapporti con nuov
 
 +++ Ho creato una nuova destinazione Analytics, ma non la vedo nella sezione Mappature di destinazione dei miei segmenti disponibili. Dove è andata la destinazione o come la trovo?
 
-Una destinazione Analytics scompare dalla sezione Mappature di destinazione di un segmento quando selezioni il **[!UICONTROL Automatically map all current and future segments]** opzione in **[!UICONTROL Segment Mappings]**. Per evitare questo problema, seleziona **[!UICONTROL Manually map segments]** invece dell’opzione automatica.
+Una destinazione Analytics scompare dalla sezione Mappature di destinazione di un segmento quando si seleziona l&#39;opzione **[!UICONTROL Automatically map all current and future segments]** in **[!UICONTROL Segment Mappings]**. Per evitare questo problema, selezionare **[!UICONTROL Manually map segments]** invece dell&#39;opzione automatica.
 
 +++
 
 Questo mi darà tutte le informazioni da Adobe Audience Manager, in Analytics?
 
-No, solo i dati relativi alle persone che arrivano sul tuo sito durante o dopo l’abilitazione di Audiences Audienci Manager e durante/dopo la qualificazione dei segmenti.
+No, solo i dati relativi alle persone che arrivano sul tuo sito durante o dopo l’abilitazione di Audiences Audience Manager e durante/dopo la qualificazione dei segmenti.
 
 +++
 
@@ -105,9 +105,9 @@ Ovunque; vengono trattati come qualsiasi altra dimensione raccolta in Analytics.
 
 +++
 
-+++ Perché vedo &quot;Limite di pubblico raggiunto&quot; nel mio rapporto Analytics? (Nota: verrà rappresentato anche come ID pubblico = -1 e `::max_audiences_exceeded::` in Data Warehouse)
++++ Perché vedo &quot;Limite di pubblico raggiunto&quot; nel mio rapporto Analytics? (Nota: verrà rappresentato anche come ID pubblico = -1 e `::max_audiences_exceeded::` nella Data Warehouse)
 
-Per impostazione predefinita, l’integrazione Audienci Analytics per Adobe Audience Manager invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all’hit. Se un visitatore appartiene a più di 150 segmenti Adobe Audience Manager in un singolo hit, il **150 segmenti qualificati più di recente** vengono inviati ad Analytics, mentre l’elenco rimanente viene troncato. Ad Analytics viene inviato un flag aggiuntivo che indica che l’elenco dei segmenti è stato troncato e viene visualizzato come &quot;Limite di pubblico raggiunto&quot; nella dimensione Nome pubblico e &quot;-1&quot; nella dimensione ID pubblico.
+Per impostazione predefinita, l’integrazione Audience Analytics per Adobe Audience Manager invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all’hit. Se un visitatore appartiene a più di 150 segmenti Adobe Audience Manager in un singolo hit, gli ultimi **150 segmenti qualificati** vengono inviati ad Analytics, mentre l&#39;elenco rimanente viene troncato. Ad Analytics viene inviato un flag aggiuntivo che indica che l’elenco dei segmenti è stato troncato e viene visualizzato come &quot;Limite di pubblico raggiunto&quot; nella dimensione Nome pubblico e &quot;-1&quot; nella dimensione ID pubblico.
 
 Anche se è improbabile che un visitatore sia idoneo per più di 150 segmenti su un particolare hit, ciò può accadere per una piccola percentuale di tempo. Se nei rapporti si verifica il &quot;Limite di pubblico raggiunto&quot;, sono disponibili due opzioni:
 
@@ -135,21 +135,21 @@ Sì. Nella configurazione della destinazione Adobe Audience Manager, verranno vi
 
 È possibile abilitare solo le suite mappate sull’organizzazione di Experienci Cloud.
 
-Per ulteriori domande frequenti su questo argomento, consulta [Domande frequenti sull&#39;inoltro lato server](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md).
+Per ulteriori domande frequenti su questo argomento, vedi [Domande frequenti sull&#39;inoltro lato server](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md).
 
 +++
 
 ## Domande frequenti generiche {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
-+++ Perché i conteggi dei visitatori dei segmenti sono diversi tra Audienci Manager e Analytics?
++++ Perché i conteggi dei visitatori dei segmenti sono diversi tra Audience Manager e Analytics?
 
-Consulta [Differenze nel numero di visitatori](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md).
+Vedi [Differenze nel numero di visitatori](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md).
 
 +++
 
 +++ Qual è la differenza tra &quot;tipi di pubblico&quot; in Adobe Audience Manager e &quot;segmenti&quot; in Analytics?
 
-Consulta [Comprendere i segmenti in Analytics e Audienci Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md). I tipi di pubblico di Adobe Audience Manager vengono inviati e condivisi come componenti &quot;dimensionali&quot; da utilizzare in Analytics. Ad esempio, non vengono visualizzati come segmenti nel Generatore di segmenti, ma come dimensioni con cui puoi creare i segmenti.
+Consulta [Comprendere i segmenti in Analytics e Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md). I tipi di pubblico di Adobe Audience Manager vengono inviati e condivisi come componenti &quot;dimensionali&quot; da utilizzare in Analytics. Ad esempio, non vengono visualizzati come segmenti nel Generatore di segmenti, ma come dimensioni con cui puoi creare i segmenti.
 
 +++
 

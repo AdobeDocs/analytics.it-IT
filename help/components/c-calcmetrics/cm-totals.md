@@ -16,7 +16,7 @@ Nella maggior parte dei casi, quando visualizzi i dati in Analysis Workspace, ve
 
 Quando vengono visualizzati i totali, questi vengono spesso calcolati lato server, il che significa che il totale deduplica metriche quali visite o visitatori. In alcune circostanze, le metriche calcolate vengono generate lato client sommando tra le righe della tabella, il che significa che il totale non deduplica metriche quali visite o visitatori. Ciò si verifica:
 
-* Quando [righe statiche](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) sono utilizzati nelle tabelle a forma libera e **[!UICONTROL Show as sum of current rows]** (impostazione predefinita) è selezionata.
-* In [Visualizzazione ad anello](/help/analyze/analysis-workspace/visualizations/donut.md), in modo che i numeri arrivino al 100%.
+* Quando si utilizzano [righe statiche](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) nelle tabelle a forma libera e si seleziona l&#39;opzione **[!UICONTROL Show as sum of current rows]** (predefinita).
+* Nella visualizzazione [Anello](/help/analyze/analysis-workspace/visualizations/donut.md), la somma dei numeri è pari al 100%.
 
-Per ulteriori informazioni sui totali in Analysis Workspace, visita [Totali in Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html#static-row-total).
+Per ulteriori informazioni sui totali in Analysis Workspace, visita [Totali Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html#static-row-total).

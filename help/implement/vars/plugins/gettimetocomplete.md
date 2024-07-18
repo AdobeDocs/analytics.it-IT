@@ -15,7 +15,7 @@ ht-degree: 7%
 
 {{plug-in}}
 
-Il `getTimeToComplete` il plug-in tiene traccia del tempo necessario a un utente per completare un processo su un sito. L&#39;&quot;orologio&quot; inizia quando `start` l&#39;azione viene chiamata e termina quando `stop` chiamata dell&#39;azione. L’Adobe consiglia di utilizzare questo plug-in se sul sito è presente un flusso di lavoro che richiede un po’ di tempo e desideri sapere quanto tempo i visitatori impiegano per completarlo. Non è necessario utilizzare questo plug-in se il flusso di lavoro sul sito richiede un breve periodo di tempo (meno di 3 secondi) perché la granularità è ridotta solo al secondo completo.
+Il plug-in `getTimeToComplete` tiene traccia del tempo impiegato da un utente per completare un processo su un sito. L&#39;orologio inizia quando viene chiamata l&#39;azione `start` e termina quando viene chiamata l&#39;azione `stop`. L’Adobe consiglia di utilizzare questo plug-in se sul sito è presente un flusso di lavoro che richiede un po’ di tempo e desideri sapere quanto tempo i visitatori impiegano per completarlo. Non è necessario utilizzare questo plug-in se il flusso di lavoro sul sito richiede un breve periodo di tempo (meno di 3 secondi) perché la granularità è ridotta solo al secondo completo.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
@@ -27,8 +27,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -43,14 +43,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,14 +61,14 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## Utilizzare il plug-in
 
-Il `getTimeToComplete` La funzione utilizza i seguenti argomenti:
+La funzione `getTimeToComplete` utilizza i seguenti argomenti:
 
-* **`sos`** (facoltativo, stringa): impostato su `"start"` quando avviare il timer. Imposta su `"stop"` quando si desidera interrompere il timer. Predefinito su `"start"`.
-* **`cn`** (facoltativo, stringa): nome del cookie in cui viene memorizzata l’ora di inizio. Predefinito su `"s_gttc"`.
-* **`exp`** (facoltativo, numero intero): il numero di secondi, ore o giorni (a seconda del `tp` argomento suddiviso in base al tempo) che il cookie (e il timer) scadono. Il valore predefinito è 30 minuti.
-* **`tp`** (facoltativo, stringa): stringa suddivisa in base al tempo per la scadenza del cookie (e del timer), utilizzata con `exp` argomento. Impostare su &quot;d&quot; per giorni, &quot;h&quot; per ore o &quot;s&quot; per secondi. Se non è impostato, la scadenza predefinita del cookie (e del timer) è di 30 minuti, indipendentemente da `exp` è stato impostato su.
+* **`sos`** (facoltativo, stringa): impostare su `"start"` quando si desidera avviare il timer. Impostare su `"stop"` quando si desidera interrompere il timer. Predefinito su `"start"`.
+* **`cn`** (facoltativo, stringa): nome del cookie per memorizzare l&#39;ora di inizio. Predefinito su `"s_gttc"`.
+* **`exp`** (facoltativo, numero intero): numero di secondi, ore o giorni (a seconda dell&#39;argomento suddivisione tempo `tp`) di scadenza del cookie (e del timer). Il valore predefinito è 30 minuti.
+* **`tp`** (facoltativo, stringa): stringa suddivisa in base al tempo in cui scadono il cookie (e il timer), utilizzata con l&#39;argomento `exp`. Impostare su &quot;d&quot; per giorni, &quot;h&quot; per ore o &quot;s&quot; per secondi. Se non è impostato, la scadenza predefinita del cookie (e del timer) è di 30 minuti, indipendentemente dall&#39;impostazione dell&#39;argomento `exp`.
 
-La chiamata di questa funzione restituisce una stringa che contiene il numero di giorni, ore, minuti e/o secondi necessari tra `"start"` e `"stop"` azione.
+La chiamata di questa funzione restituisce una stringa che contiene il numero di giorni, ore, minuti e/o secondi necessari tra l&#39;azione `"start"` e `"stop"`.
 
 ## Esempi
 
@@ -97,11 +97,11 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 ### 3.1 (30 settembre 2019)
 
 * È stata aggiunta una logica che richiede un valore &quot;start&quot; o &quot;stop&quot; nel primo argomento.  Tutti gli altri valori trasmessi interrompono l&#39;esecuzione del plug-in.
-* Aggiornato `inList 2.0` plug-in per `inList 2.1`.
+* Plug-in `inList 2.0` aggiornato a `inList 2.1`.
 
 ### 3.0 (23 agosto 2018)
 
-* È stato aggiornato il `formatTime v1.0` plug-in per `formatTime v1.1`.
+* Aggiornamento del plug-in `formatTime v1.0` a `formatTime v1.1`.
 
 ### 3.0 (17 aprile 2018)
 
@@ -110,6 +110,6 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 
 ### 2.0 21 giugno 2016)
 
-* È stata eliminata la dipendenza dal `p_fo` plug-in.
+* Eliminata la dipendenza dal plug-in `p_fo`.
 * È stata aggiunta la compatibilità con il codice H e l’AppMeasurement.
 * È stata aggiunta la registrazione della console.

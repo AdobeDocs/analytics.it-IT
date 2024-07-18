@@ -33,4 +33,4 @@ Dopo la firma di un contratto:
 
 Dopo aver eseguito il provisioning di un primo amministratore per la tua organizzazione, il primo amministratore può quindi assegnare altri ruoli chiave agli utenti dell’organizzazione.
 
-Per informazioni su come assegnare ruoli chiave ad Adobe Analytics agli utenti della tua organizzazione, consulta [Ruoli di amministratore in Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).
+Per informazioni su come assegnare ruoli chiave per Adobe Analytics agli utenti della tua organizzazione, consulta [Ruoli amministratore in Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).

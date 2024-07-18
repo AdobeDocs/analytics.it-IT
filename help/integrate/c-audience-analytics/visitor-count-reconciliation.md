@@ -5,7 +5,7 @@ feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '285'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Le metriche del visitatore sono:
    <td colname="col3"> <p>Numero di dispositivi (ID Experience Cloud) che erano membri del segmento durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: popolazione dei segmenti in tempo reale</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: Popolazione segmento in tempo reale</a> </p> </td> 
    <td colname="col3"> <p>Numero di dispositivi (ID Experience Cloud) membri del segmento che hanno raggiunto le proprietà durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
@@ -72,4 +72,4 @@ La popolazione dei segmenti in tempo reale di Adobe Audience Manager e i visitat
  </tbody> 
 </table>
 
-Consulta [Segmenti in Analytics e Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) per ulteriori spiegazioni sulle sfumature tra Analytics e i dati e la segmentazione di Audience Manager.
+Per ulteriori spiegazioni sulle sfumature tra Analytics e i dati e la segmentazione di Audience Manager, consulta [Informazioni sui segmenti in Analytics e Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).

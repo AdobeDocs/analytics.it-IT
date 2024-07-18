@@ -137,7 +137,7 @@ L’etichettatura Privacy dei dati riguarda quattro grandi classi di variabili d
 | <ul><li>Eventi di successo personalizzati</li><li>eVar di Merchandising</li><li>Variabili con più valori (mvVars)</li><li>Variabili di gerarchia</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | Classificazioni | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Variabili di traffico (prop)</li><li>Variabili commerciali (eVars non merchandising)</li></ul> | Tutte le etichette | - |
-| La maggior parte delle altre variabili (*Per le eccezioni, consulta la tabella seguente*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
+| La maggior parte delle altre variabili (*Vedere la tabella seguente per le eccezioni*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 

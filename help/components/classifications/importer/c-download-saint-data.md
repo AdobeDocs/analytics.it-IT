@@ -5,7 +5,7 @@ feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '344'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 | Set di dati da classificare | Selezionare il tipo di dati per il file di dati. Il menu include tutti i rapporti nelle suite di rapporti configurati per le classificazioni. |
 | Esporta numerico 2 | **Importante**: questa opzione non è disponibile per le suite di rapporti abilitate per la nuova architettura di classificazione. |
 | Codifica | Selezionare la codifica dei caratteri per il file di dati. Il formato di codifica predefinito è UTF-8.<br>**Importante**: questa opzione non è disponibile per le suite di rapporti abilitate per la nuova architettura di classificazione. |
-|  Download (Scarica) | Scarica il file modello. |
+| Scaricare | Scarica il file modello. |
 
 Il modello include le classificazioni attualmente definite (intestazioni di colonna) di un set di dati specifico senza includere i dati associati a ciascuna classificazione.
 
@@ -34,7 +34,7 @@ Il modello include le classificazioni attualmente definite (intestazioni di colo
 >
 >Il metodo Template limita il download dei dati di classificazione a una singola suite di rapporti.
 
-Per ulteriori informazioni sulla struttura del file di dati, consulta [Informazioni sui file di dati di classificazione](/help/components/classifications/importer/c-saint-data-files.md).
+Per ulteriori informazioni sulla struttura del file di dati, vedere [Informazioni sui file di dati di classificazione](/help/components/classifications/importer/c-saint-data-files.md).
 
 ## Scaricare un modello di dati delle classificazioni (facoltativo) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
@@ -45,8 +45,8 @@ Il modello fornisce il formato di file da seguire per le classificazioni.
 >Il metodo Template limita il download dei dati a una singola suite di rapporti.
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
-1. Il giorno **[!UICONTROL Download Template]** , specificare [configurazione modello dati](/help/components/classifications/importer/c-download-saint-data.md).
-1. Fai clic su **[!UICONTROL Download]** (Usa modello di attribuzione non predefinito).
+1. Nella scheda **[!UICONTROL Download Template]**, specifica la [configurazione del modello dati](/help/components/classifications/importer/c-download-saint-data.md).
+1. Fai clic su **[!UICONTROL Download]**.
 1. Salvare il file modello nel sistema locale.
 
-   Il file modello è un file di dati delimitato da tabulazioni ( [!DNL .tab] estensione filename) supportata dalla maggior parte delle applicazioni per fogli di calcolo.
+   Il file modello è un file di dati delimitato da tabulazioni (estensione del nome file [!DNL .tab]) supportato dalla maggior parte delle applicazioni per fogli di calcolo.

@@ -12,7 +12,7 @@ ht-degree: 33%
 
 # Compatibilità dei Dimension Analytics
 
-Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzionalità di Analytics.
+In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle rispettive funzionalità di Analytics.
 
 >[!NOTE]
 >
@@ -284,7 +284,7 @@ Questa pagina elenca [dimensioni](overview.md) supportate nelle rispettive funzi
 
 ### Integrazione Nielsen
 
-Per ulteriori informazioni su come implementare questa integrazione, vedi [Estensione Nielsen](https://exchange.adobe.com/experiencecloud.details.101361.html).
+Per ulteriori informazioni su come implementare questa integrazione, consulta l&#39;estensione [Nielsen](https://exchange.adobe.com/experiencecloud.details.101361.html).
 
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |

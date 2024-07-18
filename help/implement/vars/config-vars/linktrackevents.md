@@ -13,13 +13,13 @@ ht-degree: 2%
 
 # linkTrackEvents
 
-Alcune implementazioni non desiderano includere tutte le variabili in tutte le richieste di immagini di tracciamento dei collegamenti. Utilizza il [`linkTrackVars`](linktrackvars.md) e `linkTrackEvents` variabili per includere selettivamente dimensioni e metriche in [`tl()`](../functions/tl-method.md) chiamate.
+Alcune implementazioni non desiderano includere tutte le variabili in tutte le richieste di immagini di tracciamento dei collegamenti. Utilizzare le variabili [`linkTrackVars`](linktrackvars.md) e `linkTrackEvents` per includere selettivamente dimensioni e metriche nelle chiamate di [`tl()`](../functions/tl-method.md).
 
-Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina ([`t()`](../functions/t-method.md) metodo).
+Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina (metodo [`t()`](../functions/t-method.md)).
 
 ## Determinare quali eventi di Analytics includere in un evento XDM utilizzando l’SDK per web
 
-L’SDK per web non esclude alcuni campi per le chiamate di tracciamento dei collegamenti. Tuttavia, è possibile utilizzare `onBeforeEventSend` callback per cancellare o impostare i campi desiderati prima che i dati vengano inviati ad Adobe. Consulta [Modifica degli eventi a livello globale](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
+L’SDK per web non esclude alcuni campi per le chiamate di tracciamento dei collegamenti. Tuttavia, è possibile utilizzare il callback `onBeforeEventSend` per cancellare o impostare i campi desiderati prima che i dati vengano inviati ad Adobe. Per ulteriori informazioni, consulta [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) nella documentazione di Web SDK.
 
 ## Eventi nelle chiamate di tracciamento dei collegamenti tramite l’estensione Adobe Analytics
 
@@ -27,15 +27,15 @@ Se non utilizzi un codice personalizzato, Adobe Experience Platform include auto
 
 >[!IMPORTANT]
 >
->Se imposti gli eventi nell’editor di codice personalizzato dell’estensione Analytics, devi includere l’evento in `linkTrackEvents` utilizzando anche codice personalizzato.
+>Se si impostano gli eventi nell&#39;editor di codice personalizzato dell&#39;estensione Analytics, è necessario includere l&#39;evento anche in `linkTrackEvents` utilizzando il codice personalizzato.
 
 ## s.linkTrackEvents in AppMeasurement e l’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.linkTrackEvents` variabile è una stringa contenente un elenco delimitato da virgole di eventi da includere nelle richieste di immagini per il tracciamento dei collegamenti (`tl()` metodo). Per includere le metriche negli hit di tracciamento dei collegamenti è necessario soddisfare i tre criteri seguenti:
+La variabile `s.linkTrackEvents` è una stringa contenente un elenco delimitato da virgole di eventi da includere nelle richieste di immagini di tracciamento dei collegamenti (metodo `tl()`). Per includere le metriche negli hit di tracciamento dei collegamenti è necessario soddisfare i tre criteri seguenti:
 
-* Impostare l&#39;evento desiderato in [`events`](../page-vars/events/events-overview.md) variabile. Esempio: `s.events = "event1";`.
-* Imposta il `events` variabile in `linkTrackVars`. Esempio: `s.linkTrackVars = "events";`.
-* Impostare l&#39;evento desiderato in `linkTrackEvents` variabile. Esempio: `s.linkTrackEvents = "event1";`.
+* Impostare l&#39;evento desiderato nella variabile [`events`](../page-vars/events/events-overview.md). Esempio: `s.events = "event1";`.
+* Imposta la variabile `events` in `linkTrackVars`. Esempio: `s.linkTrackVars = "events";`.
+* Impostare l&#39;evento desiderato nella variabile `linkTrackEvents`. Esempio: `s.linkTrackEvents = "event1";`.
 
 ```js
 s.linkTrackEvents = "event1,event2,event3,purchase";
@@ -45,7 +45,7 @@ Il valore predefinito per questa variabile è una stringa vuota. Se questa varia
 
 >[!TIP]
 >
->Evita di utilizzare l’identificatore di oggetto di Analytics (`s.`) quando si specificano eventi in questa variabile. Ad esempio: `s.linkTrackEvents = "event1";` è corretto, mentre `s.linkTrackEvents = "s.event1";` non è corretto.
+>Evitare di utilizzare l&#39;identificatore di oggetto di Analytics (`s.`) quando si specificano eventi in questa variabile. `s.linkTrackEvents = "event1";`, ad esempio, è corretto, mentre `s.linkTrackEvents = "s.event1";` non è corretto.
 
 ## Esempio
 

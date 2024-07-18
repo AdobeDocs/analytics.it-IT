@@ -4,7 +4,7 @@ title: Introduzione per amministratori, analisti, utenti finali e sviluppatori
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 100%
 

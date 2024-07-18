@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1238'
 ht-degree: 92%
 
 ---
@@ -58,13 +58,13 @@ Per utilizzare le dashboard:
 
 1. Scegli un’azienda. Dopo aver effettuato l’accesso alle dashboard, viene visualizzata la schermata **[!UICONTROL Choose a company]**. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
 
-   L’elenco delle scorecard mostra tutte le scorecard condivise con te.
+   L&#39;elenco delle scorecard mostra tutte le scorecard condivise con te.
 
-1. Toccare la scheda di valutazione che si desidera visualizzare.
+1. Toccare la scorecard che si desidera visualizzare.
 
-   Se hai accesso a più organizzazioni con un solo accesso, tutte le scorecard delle organizzazioni sono disponibili nell’elenco delle scorecard.
+   Se hai accesso a più organizzazioni con un solo accesso, tutte le scorecard delle tue organizzazioni sono disponibili nell’elenco delle scorecard.
 
-   È possibile ordinare l’elenco delle scorecard in base al titolo della scorecard, al nome dell’organizzazione o alla visualizzazione più recente. Puoi anche cercare una scheda di valutazione specifica.
+   Puoi ordinare l’elenco delle scorecard in base al titolo della scorecard, al nome dell’organizzazione o all’ultima visualizzazione. Puoi anche cercare una scorecard specifica.
 
    ![Scegliere un’azienda](assets/mobile-home-screen.png)
 
@@ -86,6 +86,7 @@ Per utilizzare le dashboard:
       * Un giorno mostra una tendenza oraria
       * Più di un giorno e meno di un anno mostra una tendenza giornaliera.
       * Un anno o più mostra una tendenza settimanale.
+
    * La formula della variazione percentuale del valore è metrica totale (intervallo date attuale) – metrica totale (intervallo date di confronto)/metrica totale (intervallo date di confronto).
 
    * È possibile trascinare lo schermo verso il basso per aggiornare la scorecard.
@@ -107,7 +108,7 @@ Per utilizzare le dashboard:
 
    * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le sezioni della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
-1. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa del filtro e seleziona un segmento configurato dal tuo curatore. I [filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell’app funzionano allo stesso modo di Analytics Workspace.
+1. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa dei filtri e seleziona un segmento configurato dal tuo curatore. I [filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell’app funzionano allo stesso modo di Analytics Workspace.
 
    ![Filtro del segmento](/help/admin/admin/assets/filter.png)
 

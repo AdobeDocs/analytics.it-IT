@@ -7,13 +7,13 @@ role: Admin
 source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Origini dati ID transazione
 
-Le origini dati ID transazione sono una variante delle origini dati di riepilogo che consente di collegare dati online e offline. Richiede l&#39;utilizzo di [`transactionID`](/help/implement/vars/page-vars/transactionid.md) nell’implementazione di Analytics.
+Le origini dati ID transazione sono una variante delle origini dati di riepilogo che consente di collegare dati online e offline. Richiede l&#39;utilizzo della variabile [`transactionID`](/help/implement/vars/page-vars/transactionid.md) nell&#39;implementazione di Analytics.
 
 * Se una riga in un file di origini dati include un ID transazione che corrisponde a un ID transazione già raccolto da AppMeasurement, le dimensioni e le metriche vengono aggiunte all&#39;hit online.
 * Se una riga in un file di origini dati include un ID transazione che non contiene una corrispondenza, la riga viene trattata in modo simile alle origini dati di riepilogo.
@@ -22,7 +22,7 @@ Le origini dati ID transazione sono una variante delle origini dati di riepilogo
 >
 >Prima di utilizzare le origini dati ID transazione, devi attivarle in [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) per la suite di rapporti desiderata.
 
-Quando invii un hit online contenente un [`transactionID`](/help/implement/vars/page-vars/transactionid.md) Adobe crea un’istantanea di tutte le variabili impostate o mantenute in quel momento. Se viene trovato un ID transazione corrispondente caricato tramite origini dati, i dati offline e online vengono legati tra loro.
+Quando invii un hit online contenente un valore [`transactionID`](/help/implement/vars/page-vars/transactionid.md), Adobe crea un&#39;istantanea di tutte le variabili impostate o mantenute in quel momento. Se viene trovato un ID transazione corrispondente caricato tramite origini dati, i dati offline e online vengono legati tra loro.
 
 Le origini dati ID transazione hanno le seguenti proprietà:
 
@@ -52,4 +52,4 @@ Ad esempio:
    * `eVar3` è uguale a `bird`
    * `events` è uguale a `event2`
 
-Il valore eVar1 `blue` e `event1` Le metriche non sono presenti nel reporting, poiché l’hit della transazione ha sovrascritto i rispettivi valori.
+Il valore `blue` di eVar1 e la metrica `event1` non sono presenti nel reporting, poiché l&#39;hit della transazione ha sovrascritto i rispettivi valori.

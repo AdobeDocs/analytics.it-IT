@@ -7,7 +7,7 @@ exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
 source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -16,27 +16,27 @@ ht-degree: 4%
 
 È possibile gestire gli avvisi esistenti nella Gestione avvisi. È possibile eseguire varie attività di gestione sugli avvisi, ad esempio assegnare tag, rinominare, eliminare e altro ancora.
 
-La gestione degli avvisi è strutturata in modo analogo alla [Gestore segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=it) e [Gestione metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=it).
+La gestione avvisi è strutturata in modo analogo alla [gestione segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=it) e alla [gestione metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=it).
 
 ## Creare avvisi
 
 Per creare avvisi da Gestione avvisi:
 
-1. Seleziona **[!UICONTROL Components]** > **[!UICONTROL Alerts]** per accedere alla Gestione avvisi in Adobe Analytics.
+1. Selezionare **[!UICONTROL Components]** > **[!UICONTROL Alerts]** per accedere alla Gestione avvisi in Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
-1. Seleziona [!UICONTROL **Aggiungi**] (o [!UICONTROL **Crea nuovo avviso**] se non si dispone di avvisi esistenti).
+1. Seleziona [!UICONTROL **Aggiungi**] (o [!UICONTROL **Crea nuovo avviso**] se non hai avvisi esistenti).
 
 1. Selezionare il tipo di avviso corrispondente all&#39;avviso che si desidera creare:
 
-   * [!UICONTROL **Avviso dati di Analytics**]: avviso per avvisarti quando si verificano eventi anomali nei tuoi dati.
+   * [!UICONTROL **Avviso dati di Analytics**]: un avviso per avvisarti quando si verificano eventi anomali nei tuoi dati.
 
-     Se selezioni questa opzione, continua con [Creare avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) per ulteriori dettagli sulla creazione di avvisi.
+     Se selezioni questa opzione, continua con [Crea avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) per ulteriori dettagli sulla creazione di avvisi.
 
-   * [!UICONTROL **Avviso di utilizzo delle chiamate server**]: un avviso per notificarti il rischio o il verificarsi di un superamento nei dati di utilizzo e impegno delle chiamate al server.
+   * [!UICONTROL **Avviso sull&#39;utilizzo delle chiamate al server**]: un avviso per notificare il rischio o il verificarsi di un superamento nei dati relativi al consumo e all&#39;impegno delle chiamate al server.
 
-     Se selezioni questa opzione, continua con [Avvisi di utilizzo delle chiamate server](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+     Se si seleziona questa opzione, continuare con [Avvisi di utilizzo delle chiamate server](/help/admin/admin/c-server-call-usage/scu-alerts.md).
 
      >[!NOTE]
      >
@@ -49,7 +49,7 @@ Per creare avvisi da Gestione avvisi:
 
 Per gestire gli avvisi esistenti in Gestione avvisi:
 
-1. Seleziona **[!UICONTROL Components]** > **[!UICONTROL Alerts]** per accedere alla Gestione avvisi in Adobe Analytics.
+1. Selezionare **[!UICONTROL Components]** > **[!UICONTROL Alerts]** per accedere alla Gestione avvisi in Adobe Analytics.
 
    ![](assets/alert-manager.png)
 

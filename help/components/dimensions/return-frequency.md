@@ -5,8 +5,8 @@ feature: Dimensions
 exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 2%
+source-wordcount: '264'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ La &#39;Frequenza di ritorno&#39; [dimensione](overview.md) mostra il periodo di
 >
 >Questa dimensione non include i visitatori nuovi.
 
-## Popola questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
 Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
 

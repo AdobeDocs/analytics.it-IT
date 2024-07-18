@@ -17,7 +17,7 @@ Una volta soddisfatti tutti i prerequisiti, procedi come segue per abilitare Cro
 
 >[!IMPORTANT]
 >
->Prima di seguire questi passaggi, è necessario soddisfare tutti i prerequisiti. Se non vengono soddisfatti tutti i prerequisiti, la funzione non è disponibile o non funzionerà. Consulta la [pagina panoramica](overview.md) e il metodo di unione desiderato ([Unione basata sui campi](field-based-stitching.md) o [Device Graph](device-graph.md), rispettivamente) per prerequisiti e limitazioni.
+>Prima di seguire questi passaggi, è necessario soddisfare tutti i prerequisiti. Se non vengono soddisfatti tutti i prerequisiti, la funzione non è disponibile o non funzionerà. Consulta la [pagina della panoramica](overview.md) e il metodo di unione desiderato ([Unione basata sui campi](field-based-stitching.md) o [Grafo di dispositivi](device-graph.md), rispettivamente) per conoscere i prerequisiti e le limitazioni.
 
 ## 1. Apri un ticket con l’Assistenza clienti per richiedere il provisioning di CDA per la suite di rapporti tra dispositivi
 
@@ -36,9 +36,9 @@ Una volta fornite all’Assistenza clienti queste informazioni, collaboreranno c
 
 Gli amministratori con accesso per creare suite di rapporti virtuali possono creare suite di rapporti virtuali CDA come segue:
 
-1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) e accedi utilizzando le credenziali Adobe ID.
+1. Passa a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) e accedi con le credenziali Adobe ID.
 2. Fai clic sull’icona della griglia a 9 celle in alto, quindi fai clic su Analytics.
-3. Passa il cursore sopra **[!UICONTROL Components]** in alto, quindi fai clic su **[!UICONTROL Virtual report suites]**.
+3. Passa il puntatore del mouse su **[!UICONTROL Components]** nella parte superiore, quindi fai clic su **[!UICONTROL Virtual report suites]**.
 4. Fai clic su Aggiungi.
 5. Immetti un nome per la suite di rapporti virtuale e accertati che sia selezionata la suite di rapporti abilitata per CDA.
 6. (Facoltativo) Applica un segmento alla suite di rapporti virtuali. Ad esempio, puoi applicare un segmento che limita la suite di rapporti virtuali alle date successive all’attivazione di CDA e all’inizio dell’unione. Questo segmento consente agli utenti di visualizzare solo intervalli di date uniti all’interno della suite di rapporti virtuale.
@@ -53,7 +53,7 @@ Gli amministratori con accesso per creare suite di rapporti virtuali possono cre
 Quando Analytics tra dispositivi è abilitato in una suite di rapporti virtuale, tieni presente le seguenti modifiche:
 
 * Accanto al nome della suite di rapporti virtuali viene visualizzata una nuova icona per più dispositivi. Questa icona è esclusiva per le suite di rapporti virtuali cross-device.
-* Una nuova dimensione etichettata [Stato identificato](../dimensions/identified-state.md) è disponibile.
-* Nuove metriche etichettate [Persone](../metrics/people.md), [Dispositivi univoci](../metrics/unique-devices.md), [Persone identificate](../metrics/identified-people.md), [Persone non identificate](../metrics/unidentified-people.md), e [Persone con ID Experience Cloud](../metrics/people-with-exp-cloud-id.md) sono disponibili.
-* La metrica [Visitatori univoci](../metrics/unique-visitors.md) non è disponibile, in quanto viene sostituito con &quot;Persone&quot; e &quot;Dispositivi univoci&quot;.
+* È disponibile una nuova dimensione con etichetta [Stato identificato](../dimensions/identified-state.md).
+* Sono disponibili nuove metriche con etichetta [Persone](../metrics/people.md), [Dispositivi univoci](../metrics/unique-devices.md), [Persone identificate](../metrics/identified-people.md), [Persone non identificate](../metrics/unidentified-people.md) e [Persone con ID Experience Cloud](../metrics/people-with-exp-cloud-id.md).
+* La metrica [Visitatori univoci](../metrics/unique-visitors.md) non è disponibile in quanto è stata sostituita da &quot;Persone&quot; e &quot;Dispositivi univoci&quot;.
 * Durante la creazione di segmenti, il contenitore di segmenti &quot;Visitatore&quot; viene sostituito da un contenitore &quot;Persona&quot;.

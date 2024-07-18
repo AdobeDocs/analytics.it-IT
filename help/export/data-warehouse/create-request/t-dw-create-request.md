@@ -1,24 +1,24 @@
 ---
-description: Passaggi che descrivono come creare una richiesta Data Warehouse.
+description: Passaggi che descrivono come creare una richiesta di Data Warehouse.
 title: Creare una richiesta di Data Warehouse
 feature: Data Warehouse
 exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
 source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 18%
+ht-degree: 36%
 
 ---
 
 # Creare una richiesta di Data Warehouse
 
-Durante la creazione di una richiesta Data Warehouse sono disponibili varie opzioni di configurazione. Le informazioni seguenti descrivono come iniziare a creare una richiesta, quindi forniscono collegamenti a informazioni più dettagliate per completare la richiesta.
+Durante la creazione di una richiesta di Data Warehouse, sono disponibili varie opzioni di configurazione. Le informazioni seguenti descrivono come iniziare a creare una richiesta, quindi forniscono collegamenti a informazioni più dettagliate per completare la richiesta.
 
 ## Inizia a creare la richiesta
 
-1. In Adobe Analytics, seleziona **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
+1. In Adobe Analytics, selezionare **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 
-1. Il giorno [!UICONTROL **Data Warehouse**] pagina, seleziona [!UICONTROL **Aggiungi**].
+1. Nella pagina [!UICONTROL **Data Warehouse**], seleziona [!UICONTROL **Aggiungi**].
 
    ![Pulsante per aggiungere una richiesta](assets/dw-add-request.png)
 

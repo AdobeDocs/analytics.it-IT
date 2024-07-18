@@ -20,7 +20,7 @@ Le API dei servizi Web forniscono accesso programmatico ai rapporti di marketing
 
 ## API di Analytics 2.0
 
-Per accedere alle API di Analytics 2.0, devi disporre dell’ID società globale della tua azienda Analytics. Puoi trovare l’ID società globale in **grassetto** nella parte superiore della [!UICONTROL API Access] sezione. Ecco un esempio: &quot;L’ID società globale per l’azienda Analytics in cui hai effettuato l’accesso è **adobe1234**.&quot;
+Per accedere alle API di Analytics 2.0, devi disporre dell’ID società globale della tua azienda Analytics. Puoi trovare l&#39;ID società globale in **bold** nella parte superiore della sezione [!UICONTROL API Access]. Esempio: &quot;L&#39;ID società globale per la società Analytics in cui hai effettuato l&#39;accesso è **adobe1234**.&quot;
 
 ## Gestisci servizi Web legacy (obsoleto)
 

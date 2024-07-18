@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 10%
+source-wordcount: '509'
+ht-degree: 13%
 
 ---
 
@@ -29,7 +29,7 @@ Ecco alcuni esempi di anomalie da esaminare:
 >
 >Il rilevamento delle anomalie è disponibile solo quando si seleziona la granularità Day.
 
-<p class="head"> <b>Metriche di rilevamento delle anomalie</b> </p>
+<p class="head"> <b>Metriche rilevamento anomalie</b> </p>
 
 Il rilevamento delle anomalie aggiunge nuovi valori di metrica per ogni metrica selezionata, inclusi:
 
@@ -56,9 +56,9 @@ Il rilevamento delle anomalie aggiunge nuovi valori di metrica per ogni metrica 
  </tbody> 
 </table>
 
-Report Builder applica questi valori alle metriche selezionate. Ad esempio, se selezioni una metrica Visualizzazioni pagina e applichi il rilevamento delle anomalie, viene *`Page Views Lower Bound`* viene utilizzata la metrica.
+Report Builder applica questi valori alle metriche selezionate. Ad esempio, se selezioni una metrica Visualizzazioni pagina e applichi il rilevamento delle anomalie, viene utilizzata una metrica *`Page Views Lower Bound`*.
 
-**Calcolo del rilevamento delle anomalie**
+**Calcolo Del Rilevamento Delle Anomalie**
 
 Il rilevamento delle anomalie utilizza un periodo di formazione per calcolare, apprendere e riportare i dati dell’intervallo di previsione al giorno. Il periodo di formazione è il periodo storico che identifica ciò che è normale rispetto a ciò che è anomalo e applica ciò che è appreso al periodo di reporting. Nei rapporti di marketing sono disponibili periodi di formazione di 30, 60 e 90. In Report Builder sono disponibili 30 giorni.
 

@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # Messaggi non recapitati
 
-I &quot;rimbalzi&quot; [metrica](overview.md) mostra il numero di visite che contenevano esattamente un hit. Puoi utilizzare questa metrica per comprendere il rapporto tra il traffico non recapitato e quello non recapitato, per vedere le pagine di ingresso principali che causano i visitatori non recapitati o per vedere come il numero totale di mancati recapiti tende nel tempo.
+La metrica [metrica](overview.md) di &quot;Mancati recapiti&quot; mostra il numero di visite che contenevano esattamente un hit. Puoi utilizzare questa metrica per comprendere il rapporto tra il traffico non recapitato e quello non recapitato, per vedere le pagine di ingresso principali che causano i visitatori non recapitati o per vedere come il numero totale di mancati recapiti tende nel tempo.
 
 ## Come è calcolata questa metrica
 
@@ -20,4 +20,4 @@ Se una visita è costituita esattamente da un hit, l’hit viene considerato un 
 
 >[!NOTE]
 >
->Se un visitatore genera sia una chiamata di visualizzazione pagina che una chiamata di tracciamento dei collegamenti, la visita non viene considerata un mancato recapito. Valuta l’utilizzo di [Visite a pagina singola](single-page-visits.md) invece.
+>Se un visitatore genera sia una chiamata di visualizzazione pagina che una chiamata di tracciamento dei collegamenti, la visita non viene considerata un mancato recapito. Valuta l&#39;utilizzo di [Visite a pagina singola](single-page-visits.md).

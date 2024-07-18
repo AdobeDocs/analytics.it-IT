@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Domande frequenti sulle caratteristiche, sulle funzionalità e sui problemi corr
 | D: cosa succede se dispongo di tag con più suite e una sola suite di rapporti è mappata sulla mia organizzazione Experience Cloud e l’altra no? | Inoltreremo l’hit al server di raccolta dati corrispondente per l’organizzazione Experience Cloud nella tua suite di rapporti mappata. Tuttavia, poiché la suite di rapporti non mappata non avrà un’origine dati associata nell’Audience Manager, non verranno registrati dati per la suite di rapporti non mappata nell’Audience Manager. |
 | D: cosa succede se dispongo di una suite di rapporti mappata su più organizzazioni di Experience Cloud? | Analytics considererà questa suite di rapporti come non mappata e non consentirà l’inoltro lato server di essere abilitato per questa suite di rapporti. Contattata il servizio clienti per risolvere il problema di mappatura. |
 | D: il metodo di inoltro lato server basato su suite di rapporti sarà più lento rispetto all’inoltro lato server basato sul server di tracciamento? | No, il tempo di risposta sarà lo stesso. |
-| D: cosa succede se disponiamo di due organizzazioni di Experienci Cloud (o istanze di Adobe Audience Manager) e vogliamo condividere i dati tra entrambe le organizzazioni di Experienci Cloud? Posso inoltrare un singolo hit di Analytics lato server a più organizzazioni di Experience Cloud? | No. Se devi condividere i dati raccolti in un’organizzazione di Experience Cloud con un’altra organizzazione di Experience Cloud, ti consigliamo di inviare un pubblico adeguato da un’istanza di Audience Manager a un’altra utilizzando audience marketplace. |
+| D: cosa succede se disponiamo di due organizzazioni di Experience Cloud (o istanze Adobe Audience Manager) e vogliamo condividere i dati tra entrambe le organizzazioni di Experience Cloud? Posso inoltrare un singolo hit di Analytics lato server a più organizzazioni di Experience Cloud? | No. Se devi condividere i dati raccolti in un’organizzazione di Experience Cloud con un’altra organizzazione di Experience Cloud, ti consigliamo di inviare un pubblico adeguato da un’istanza di Audience Manager a un’altra utilizzando audience marketplace. |
 | D: l’inoltro lato server comporterà una fatturazione aggiuntiva in Audience Manager o Analytics? | In Analytics non si verificherà alcuna fatturazione aggiuntiva. In Audience Manager, gli hit inoltrati vengono trattati come qualsiasi altro hit e vengono fatturati.  Per questo motivo è importante non abilitare contemporaneamente l’inoltro lato server e DIL, il che potrebbe causare la doppia fatturazione e la duplicazione dei dati. |
 
 >[!MORELIKETHIS]

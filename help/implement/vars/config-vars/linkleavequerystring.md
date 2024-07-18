@@ -13,13 +13,13 @@ ht-degree: 10%
 
 # linkLeaveQueryString
 
-Per impostazione predefinita, l’AppMeasurement elimina le stringhe di query dagli URL di tracciamento dei collegamenti. Utilizza il `linkLeaveQueryString` variabile per mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
+Per impostazione predefinita, l’AppMeasurement elimina le stringhe di query dagli URL di tracciamento dei collegamenti. Utilizza la variabile `linkLeaveQueryString` per mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
 
-Per alcuni collegamenti di uscita e di download, la parte importante dell’URL può trovarsi nella stringa di query. Ad esempio, un collegamento per il download come `https://example.com/download.asp?filename=myfile.exe` contiene informazioni importanti sul collegamento nella stringa query.
+Per alcuni collegamenti di uscita e di download, la parte importante dell’URL può trovarsi nella stringa di query. Ad esempio, un collegamento di download come `https://example.com/download.asp?filename=myfile.exe` contiene informazioni importanti sul collegamento nella stringa di query.
 
 Se le informazioni di tracciamento dei collegamenti non sono presenti negli URL del sito, l’utilizzo di questa variabile non è necessario. La rimozione di stringhe di query dagli URL di tracciamento dei collegamenti consente di limitare il numero di valori univoci contenuti nella dimensione.
 
-Abilitazione `linkLeaveQueryString` si applica a tutte le dimensioni di tracciamento dei collegamenti (inclusi collegamenti personalizzati, di uscita e di download).
+L&#39;abilitazione di `linkLeaveQueryString` si applica a tutte le dimensioni di tracciamento dei collegamenti (inclusi collegamenti personalizzati, di uscita e di download).
 
 >[!TIP]
 >
@@ -31,21 +31,21 @@ Le stringhe di query non vengono rimosse dal campo XDM `web.webInteraction.URL`.
 
 ## Mantieni i parametri URL tramite l’estensione Adobe Analytics
 
-[!UICONTROL Keep URL Parameters] è una casella di controllo sotto [!UICONTROL Link Tracking] Pannello a soffietto durante la configurazione dell’estensione Adobe Analytics.
+[!UICONTROL Keep URL Parameters] è una casella di controllo nel pannello a soffietto [!UICONTROL Link Tracking] durante la configurazione dell&#39;estensione Adobe Analytics.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
-4. Espandi [!UICONTROL Link Tracking] Pannello a soffietto, che mostra [!UICONTROL Keep URL Parameters] casella di controllo.
+4. Espandere il pannello a soffietto [!UICONTROL Link Tracking], che mostra la casella di controllo [!UICONTROL Keep URL Parameters].
 
 Seleziona questa casella se desideri includere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
 
 ## s.linkLeaveQueryString in AppMeasurement e l’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.linkLeaveQueryString` è di tipo booleano. Il valore predefinito è `false`.
+La variabile `s.linkLeaveQueryString` è di tipo booleano. Il valore predefinito è `false`.
 
 * Se questa variabile è impostata su `true`, le stringhe di query vengono mantenute negli URL di tracciamento dei collegamenti.
-* Se questa variabile è impostata su `false` o non definito, le stringhe di query vengono rimosse dagli URL di tracciamento dei collegamenti.
+* Se questa variabile è impostata su `false` o non è definita, le stringhe di query vengono rimosse dagli URL di tracciamento dei collegamenti.
 
 ```js
 s.linkLeaveQueryString = true;
@@ -53,9 +53,9 @@ s.linkLeaveQueryString = true;
 
 ## Esempio
 
-Fai attenzione quando imposti questa variabile su true, in quanto può influire sui filtri di tracciamento dei collegamenti come [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md), e [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
+Presta attenzione quando imposti questa variabile su true, in quanto può influire sui filtri di tracciamento dei collegamenti come [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md) e [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
 
-Considera l’esempio seguente come se fosse attivo `adobe.com`:
+Considerare l&#39;esempio seguente come se fosse in `adobe.com`:
 
 ```html
 <script>

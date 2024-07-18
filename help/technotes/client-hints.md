@@ -25,13 +25,13 @@ Google divide gli hint client dall’agente utente in due categorie: hint a bass
 
 A partire da ottobre 2022, le nuove versioni dei browser basati su Chromium hanno iniziato a &quot;congelare&quot; la versione del sistema operativo rappresentata nella stringa dell’agente utente. La versione del sistema operativo è un hint ad alta entropia; per essere certi di includere nei rapporti informazioni accurate sulla versione del sistema operativo è quindi necessario configurare la libreria di raccolta per raccogliere tali hint. Nel corso del tempo, le altre informazioni relative al dispositivo dell’agente utente verranno congelate, e sarà quindi necessario ricorrere agli hint client affinché sia possibile raccogliere nei rapporti informazioni accurate sui dispositivi.
 
-Gli hint client verranno incorporati nel processo di ricerca del dispositivo di Analytics a partire dal 27 febbraio 2023 e fino al 2 marzo 2023. AppMeasurement e Web SDK supportano attualmente la raccolta di dati hint, ma non verranno utilizzati nella ricerca del dispositivo fino a metà febbraio. Come indicato di seguito, la versione del sistema operativo è stata congelata a partire da ottobre, ma a causa di un rollout graduale e del fatto che molti agenti utente forniscono già una versione del sistema operativo congelata (vedi altro [qui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)), prevediamo che questo interesserà &lt;3% dei visitatori di Chrome.
+Gli hint client verranno incorporati nel processo di ricerca del dispositivo di Analytics a partire dal 27 febbraio 2023 e fino al 2 marzo 2023. AppMeasurement e Web SDK supportano attualmente la raccolta di dati hint, ma non verranno utilizzati nella ricerca del dispositivo fino a metà febbraio. Come indicato di seguito, la versione del sistema operativo è stata congelata a partire da ottobre, ma a causa di un rollout graduale e del fatto che molti agenti utente forniscono già una versione del sistema operativo congelata (vedi ulteriori [qui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)), prevediamo che questo interesserà &lt;3% dei visitatori di Chrome.
 
 >[!NOTE]
 >
-> A partire da gennaio 2023, alcune versioni dei sistemi operativi Mac e Windows non sono rappresentate correttamente nell’agente utente, ma sono correttamente rappresentate negli hint client ad alta entropia. Consulta [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html) per ulteriori informazioni.
+> A partire da gennaio 2023, alcune versioni dei sistemi operativi Mac e Windows non sono rappresentate correttamente nell’agente utente, ma sono correttamente rappresentate negli hint client ad alta entropia. Per ulteriori informazioni, vedere [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html).
 
-Adobe Audience Manager richiede la raccolta di hint ad alta entropia per preservare la piena funzionalità. Se sta usando [inoltro lato server a Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
+Adobe Audience Manager richiede la raccolta di hint ad alta entropia per preservare la piena funzionalità. Se utilizzi [inoltro lato server a Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
 
 ## Domande frequenti
 
@@ -43,7 +43,7 @@ Questo [articolo di blog di Google](https://web.dev/user-agent-client-hints/) è
 
 +++**Come si abilita la raccolta di hint client?**
 
-Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consultare le istruzioni per [SDK per web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
+Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consulta le istruzioni per [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Per entrambe le librerie, la raccolta di hint ad alta entropia è **disattivata per impostazione predefinita**.
 
@@ -69,7 +69,7 @@ La tabella seguente descrive gli hint client da ottobre 2022.
 | Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Bassa | `true` |
 | Sec-CH-UA-Platform | Sistema operativo/piattaforma | Bassa | `"Android"` |
 | architettura | Architettura del sito | Alta | `"arm"` |
-| amarezza | Abilità dell&#39;architettura | Alta | `"64"` |
+| amarezza | Abilità dell&#39;architettura | Alto | `"64"` |
 | fullVersionList | Elenco dei marchi e versione | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
 | modello | Modello dispositivo | Alta | `"Pixel 3"` |
 | platformVersion | Versione del sistema operativo/piattaforma | Alta | `"10"` |
@@ -105,11 +105,11 @@ Consulta la [timeline pubblicata da Google](https://blog.chromium.org/2021/09/us
 
 +++
 
-+++**In che modo Analytics dipende dall’agente utente?**
++++**In che modo Analytics dipende dall&#39;agente utente?**
 
 Le informazioni sul dispositivo nel reporting sono derivate dall’agente utente. Abbiamo aggiornato i nostri processi per utilizzare sia l’agente utente che gli hint client, se disponibili.
 
-ID di fallback ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=it)) deriva dall&#39;agente utente e dall&#39;indirizzo IP. Questo ID viene utilizzato solo se non è possibile impostare un cookie in modo che non sia ampiamente utilizzato
+L&#39;ID di fallback ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=it)) deriva dall&#39;agente utente e dall&#39;indirizzo IP. Questo ID viene utilizzato solo se non è possibile impostare un cookie in modo che non sia ampiamente utilizzato
 
 +++
 
@@ -145,7 +145,7 @@ Consulta la documentazione per includerli tramite l’[API di inserimento dati i
 
 +++
 
-+++**Gli hint client saranno disponibili nei dati inviati a Adobe Experience Platform e Customer Journey Analytics tramite il connettore di origine di Adobe?**
++++**Gli hint client saranno disponibili nei dati inviati a Adobe Experience Platform e al Customer Journey Analytics tramite il connettore Source Adobe?**
 
 Adobe prevede di includere gli hint client nei dati tramite il connettore di origine di Adobe nella prima metà del 2023.
 
@@ -157,8 +157,8 @@ Consulta la [documentazione sugllo schema](https://github.com/adobe/xdm/blob/mas
 
 +++
 
-+++**L’inoltro lato server a Adobe Audience Manager supporterà gli hint client?**
++++**L&#39;inoltro lato server a Adobe Audience Manager supporterà gli hint client?**
 
-Sì. Gli hint client verranno inclusi nei dati inoltrati a Adobe Audience Manager. Tieni presente che Adobe Audience Manager richiede la raccolta di hint ad alta entropia per preservare la piena funzionalità. Se sta usando [inoltro lato server a Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
+Sì. Gli hint client verranno inclusi nei dati inoltrati a Adobe Audience Manager. Tieni presente che Adobe Audience Manager richiede la raccolta di hint ad alta entropia per preservare la piena funzionalità. Se utilizzi [inoltro lato server a Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it) allora potrebbe essere utile abilitare la raccolta di hint ad alta entropia.
 
 +++

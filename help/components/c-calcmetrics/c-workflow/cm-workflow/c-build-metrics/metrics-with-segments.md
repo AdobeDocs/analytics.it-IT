@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
@@ -28,13 +28,13 @@ Crea e salva una metrica denominata &quot;Visitatori tedeschi&quot; e una metric
 
 1. Crea un segmento ad hoc nel generatore di metriche calcolate denominato &quot;Visitatori tedeschi&quot;, dove &quot;Paesi&quot; è uguale a &quot;Germania&quot;.
 
-   Trascina la dimensione Paesi nell’area di lavoro Definizione e seleziona [!UICONTROL **Germania**] come valore:
+   Trascina la dimensione Paesi nell&#39;area di lavoro Definizione e seleziona [!UICONTROL **Germania**] come valore:
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >Puoi eseguire questa operazione anche nel [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md), ma abbiamo semplificato il flusso di lavoro rendendo le dimensioni disponibili nel generatore di metriche calcolate. &quot;Adhoc&quot; significa che il segmento non è visibile nel **[!UICONTROL Segments]** nella barra a sinistra. Tuttavia, puoi renderlo pubblico passando il puntatore sull’icona &quot;i&quot; accanto a esso e facendo clic su **[!UICONTROL Make public]**.
+   >Puoi eseguire questa operazione anche nel [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md), ma il flusso di lavoro è stato semplificato rendendo disponibili le dimensioni nel generatore di metriche calcolate. &quot;Adhoc&quot; significa che il segmento non è visibile nell&#39;elenco **[!UICONTROL Segments]** nella barra a sinistra. È tuttavia possibile renderlo pubblico passando il puntatore sull&#39;icona &quot;i&quot; accanto a esso e facendo clic su **[!UICONTROL Make public]**.
 
 1. Trascina il segmento Germania nell’area di lavoro Definizione e al suo interno trascina la metrica Visitatori univoci:
 
@@ -44,13 +44,13 @@ Crea e salva una metrica denominata &quot;Visitatori tedeschi&quot; e una metric
 
 1. Crea un segmento ad hoc nel generatore di metriche calcolate denominato &quot;Visitatori internazionali&quot;, dove &quot;Paesi&quot; non è uguale a &quot;Germania&quot;.
 
-   Trascina la dimensione Paesi nell’area di lavoro Definizione, seleziona [!UICONTROL **Germania**] come valore, quindi seleziona [!UICONTROL **non è uguale a**] come operatore.
+   Trascina la dimensione Paesi nell&#39;area di lavoro Definizione, seleziona [!UICONTROL **Germania**] come valore, quindi seleziona [!UICONTROL **è diverso**] come operatore.
 
 1. Trascina la metrica Visitatori univoci al suo interno.
 
 1. Seleziona [!UICONTROL **Salva**] per salvare la metrica calcolata.
 
-1. In Analysis Workspace, trascina **[!UICONTROL Page]** Dimension in una tabella a forma libera e trascina le due nuove metriche calcolate una accanto all’altra nella parte superiore:
+1. In Analysis Workspace, trascina il Dimension **[!UICONTROL Page]** in una tabella a forma libera e trascina le due nuove metriche calcolate una accanto all&#39;altra nella parte superiore:
 
    ![](assets/workspace-pages.png)
 

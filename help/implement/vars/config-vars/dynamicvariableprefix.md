@@ -13,13 +13,13 @@ ht-degree: 14%
 
 # dynamicVariablePrefix
 
-Le variabili dinamiche sono un concetto abbreviato che consente di copiare i valori da una variabile all’altra. Sono utili per valori di variabili lunghi, in quanto aiutano a ridurre la lunghezza dell’URL di una richiesta di immagine. Consulta [Variabili dinamiche](../page-vars/dynamic-variables.md) per ulteriori informazioni su questo concetto.
+Le variabili dinamiche sono un concetto abbreviato che consente di copiare i valori da una variabile all’altra. Sono utili per valori di variabili lunghi, in quanto aiutano a ridurre la lunghezza dell’URL di una richiesta di immagine. Per ulteriori informazioni su questo concetto, vedere [Variabili dinamiche](../page-vars/dynamic-variables.md).
 
-Per impostazione predefinita, le variabili dinamiche utilizzano il prefisso `D=`. Il `dynamicVariablePrefix` variabile consente di personalizzare la stringa che identifica le variabili dinamiche. È sensibile a maiuscole e minuscole.
+Per impostazione predefinita, le variabili dinamiche utilizzano il prefisso `D=`. La variabile `dynamicVariablePrefix` consente di personalizzare la stringa che identifica le variabili dinamiche. È sensibile a maiuscole e minuscole.
 
 ## Prefisso della variabile dinamica tramite Web SDK
 
-L’SDK per web non utilizza la formattazione dinamica delle variabili. È invece possibile utilizzare la mappatura dello stream di dati per compilare più campi di destinazione utilizzando un singolo campo di origine. Consulta [Variabili dinamiche tramite Web SDK](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) per ulteriori informazioni.
+L’SDK per web non utilizza la formattazione dinamica delle variabili. È invece possibile utilizzare la mappatura dello stream di dati per compilare più campi di destinazione utilizzando un singolo campo Source. Per ulteriori informazioni, vedere [Variabili dinamiche tramite Web SDK](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk).
 
 Se invii dati direttamente ad Adobe Analytics senza essere conforme a uno schema, utilizza la variabile seguente:
 
@@ -27,7 +27,7 @@ Se invii dati direttamente ad Adobe Analytics senza essere conforme a uno schema
 
 ## Prefisso della variabile dinamica tramite l’estensione Adobe Analytics
 
-Il prefisso della variabile dinamica è un campo sotto [!UICONTROL Global Variables] Pannello a soffietto durante la configurazione dell’estensione Adobe Analytics.
+Il prefisso della variabile dinamica è un campo nel pannello a soffietto [!UICONTROL Global Variables] durante la configurazione dell&#39;estensione Adobe Analytics.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
@@ -38,7 +38,7 @@ Questo campo contiene `D=` per impostazione predefinita. È possibile modificare
 
 ## s.dynamicVariablePrefix in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.dynamicVariablePrefix` variabile è una stringa che può contenere qualsiasi sequenza di caratteri. Se questa variabile non è definita, AppMeasurement utilizza la stringa `D=` per impostazione predefinita.
+La variabile `s.dynamicVariablePrefix` è una stringa che può contenere qualsiasi sequenza di caratteri. Se questa variabile non è definita, AppMeasurement utilizza la stringa `D=` per impostazione predefinita.
 
 ```js
 // An example that changes the dynamic variable prefix

@@ -16,14 +16,14 @@ All’interno del Gestore segmenti puoi impostare un flusso di lavoro che includ
 
 >[!NOTE]
 >
->Gli amministratori possono inoltre approvare segmenti (e altri componenti) dal dizionario dati, come descritto in [Modificare le voci dei componenti nel dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>Gli amministratori possono inoltre approvare segmenti (e altri componenti) dal dizionario dati, come descritto in [Modifica voci di componenti nel dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 >
 >Tutti i segmenti approvati nel dizionario dati vengono riflessi nel Gestore segmenti. Allo stesso modo, le metriche approvate nel Gestore segmenti si riflettono nel Dizionario dati.
 
 Ecco come contrassegnare un segmento come approvato:
 
 1. In Segment Manager (Gestore segmenti), seleziona la casella di controllo a sinistra del titolo del segmento.
-1. Clic **[!UICONTROL Approve]** nella barra delle attività di gestione dei segmenti.
+1. Fare clic su **[!UICONTROL Approve]** nella barra delle attività di gestione dei segmenti.
 1. Scegli se condividere i segmenti approvati con la tua organizzazione.
 1. Fai clic su **[!UICONTROL OK]**.
 1. Osserva l’icona di approvazione accanto al segmento nell’elenco.

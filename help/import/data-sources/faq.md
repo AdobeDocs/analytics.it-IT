@@ -16,7 +16,7 @@ ht-degree: 5%
 Domande frequenti sulle origini dati.
 
 +++Qual è il costo dell&#39;utilizzo delle origini dati?
-Le origini dati non comportano costi né vengono conteggiate per l’utilizzo delle chiamate al server. [Origini dati a elaborazione completa](full-processing-eol.md) conteggiato per le chiamate server prima del loro ritiro.
+Le origini dati non comportano costi né vengono conteggiate per l’utilizzo delle chiamate al server. [Origini dati a elaborazione completa](full-processing-eol.md) conteggiate per le chiamate al server prima del loro ritiro.
 +++
 
 +++In che modo le origini dati influiscono sull’attribuzione e sulla scadenza delle eVar?
@@ -26,12 +26,12 @@ Tutti gli altri dati caricati tramite origini dati non hanno alcun tipo di attri
 +++
 
 +++In che modo le origini dati influiscono sulle metriche predefinite, come visualizzazioni di pagina, visite o visitatori univoci?
-I dati caricati tramite origini dati non influiscono [Visualizzazioni pagina](/help/components/metrics/page-views.md), [Visite](/help/components/metrics/visits.md), o [Visitatori univoci](/help/components/metrics/unique-visitors.md) in qualsiasi modo. L’unica metrica predefinita su cui influiscono include [Occorrenze](/help/components/metrics/occurrences.md).
+I dati caricati tramite origini dati non influiscono in alcun modo sulle [visualizzazioni pagina](/help/components/metrics/page-views.md), [visite](/help/components/metrics/visits.md) o [visitatori univoci](/help/components/metrics/unique-visitors.md). L&#39;unica metrica predefinita interessata include [Occorrenze](/help/components/metrics/occurrences.md).
 +++
 
 +++È possibile eliminare i dati importati utilizzando origini dati?
 
-Sì. Puoi eliminare questi dati utilizzando [API Data Repair](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Inoltre, Adobe consiglia vivamente di caricare i dati di origini dati in una suite di rapporti di prova prima di caricarli in una suite di rapporti di produzione.
+Sì. Puoi eliminare questi dati utilizzando [Data Repair API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Inoltre, Adobe consiglia vivamente di caricare i dati di origini dati in una suite di rapporti di prova prima di caricarli in una suite di rapporti di produzione.
 +++
 
 +++Quanti dati posso importare alla volta?
@@ -45,13 +45,13 @@ Il valore diminuisce di conseguenza. Alcune organizzazioni utilizzano valori di 
 +++
 
 +++Per le estensioni dei file viene fatta distinzione tra maiuscole e minuscole?
-Sì. File con estensione di `.TXT` o `.FIN` non vengono elaborati. Assicurati che le estensioni dei file siano tutte in minuscolo.
+Sì. I file con estensione di `.TXT` o `.FIN` non vengono elaborati. Assicurati che le estensioni dei file siano tutte in minuscolo.
 +++
 
 +++Quante colonne è possibile aggiungere a un file di origine dati?
-In un file di origine dati è possibile includere tutte le colonne desiderate, purché siano tutte colonne valide. Consulta [Formato file](file-format.md) per un elenco di nomi di variabili/colonne validi.
+In un file di origine dati è possibile includere tutte le colonne desiderate, purché siano tutte colonne valide. Vedere [Formato file](file-format.md) per un elenco di nomi di variabili/colonne validi.
 +++
 
 +++È possibile utilizzare le origini dati senza utilizzare il percorso FTP fornito dall&#39;Adobe?
-È possibile utilizzare [API origini dati](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), che ti consente di inviare chiamate API direttamente a Adobe. Queste chiamate API includono `UploadData` che consente di inviare dati tramite un payload di oggetti JSON.
+È possibile utilizzare l&#39;[API origini dati](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), che consente di inviare chiamate API direttamente ad Adobe. Queste chiamate API includono un metodo `UploadData`, che consente di inviare dati tramite un payload di oggetti JSON.
 +++

@@ -24,4 +24,4 @@ Utilizzare Origini dati per:
 
 Quando Origini dati è attivato su una suite di rapporti, viene fornito un percorso FTP che ti consente di caricare i file da integrare nel reporting. Una volta caricati, i server Adobe elaborano automaticamente i dati e li integrano nella suite di rapporti.
 
-Consulta [Guida di Origini dati](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html).
+Consulta la [Guida di Origini dati](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=it).

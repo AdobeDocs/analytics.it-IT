@@ -15,9 +15,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript legacy (codice H). Queste variabili non sono supportate nelle librerie AppMeasurement correnti o nella raccolta dati di Adobe Experience Platform.
+>Gli account dinamici sono supportati solo utilizzando le implementazioni legacy di JavaScript (codice H). Queste variabili non sono supportate nelle librerie AppMeasurement correnti o nella raccolta dati di Adobe Experience Platform.
 
-Il `s.dynamicAccountList` determina dinamicamente il valore di `s_account`. Se `dynamicAccountSelection` è impostato su `true`, il `dynamicAccountMatch` variabile confrontata con `dynamicAccountList`. Se viene trovata una corrispondenza, viene utilizzato l’ID suite di rapporti corrispondente.
+La variabile `s.dynamicAccountList` determina dinamicamente il valore di `s_account`. Se `dynamicAccountSelection` è impostato su `true`, la variabile `dynamicAccountMatch` viene confrontata con `dynamicAccountList`. Se viene trovata una corrispondenza, viene utilizzato l’ID suite di rapporti corrispondente.
 
 ## Sintassi
 
@@ -37,7 +37,7 @@ Nella stringa devono essere utilizzati solo i caratteri ASCII standard. Non incl
 
 ## Esempi
 
-Per tutti gli esempi seguenti, l’URL della pagina è `https://example.com/path2/?prod_id=12345`, il `dynamicAccountSelection` variabile impostata su `true`e `s_account` variabile impostata su `examplersid`.
+Per tutti gli esempi seguenti, l&#39;URL della pagina è `https://example.com/path2/?prod_id=12345`, la variabile `dynamicAccountSelection` è impostata su `true` e la variabile `s_account` è impostata su `examplersid`.
 
 ```js
 // In this example, the report suite that receives data is examplersid1.
@@ -55,8 +55,8 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 
 ## Insidie, domande e suggerimenti
 
-* Le regole elencate in questa variabile vengono applicate da sinistra a destra. Se il `dynamicAccountMatch` corrisponde a più di una regola, la regola all’estrema sinistra viene utilizzata per determinare la suite di rapporti. Di conseguenza, posiziona le regole più generiche a destra dell’elenco.
-* Se nessuna regola corrisponde, la suite di rapporti predefinita in `s_account` viene utilizzato.
+* Le regole elencate in questa variabile vengono applicate da sinistra a destra. Se la variabile `dynamicAccountMatch` corrisponde a più di una regola, per determinare la suite di rapporti viene utilizzata la regola all&#39;estrema sinistra. Di conseguenza, posiziona le regole più generiche a destra dell’elenco.
+* Se nessuna regola corrisponde, viene utilizzata la suite di rapporti predefinita in `s_account`.
 * Se la pagina viene salvata sul disco rigido di un utente o tradotta tramite un motore di traduzione basato su Web (ad esempio le pagine tradotte di Google), la selezione dinamica dell’account probabilmente non funzionerà.
-* Il `dynamicAccountSelection` Le regole si applicano solo alla sezione dell&#39;URL specificato in `dynamicAccountMatch`.
-* Utilizza il [!DNL Adobe Experience Cloud Debugger] per testare la suite di rapporti di destinazione.
+* Le regole `dynamicAccountSelection` si applicano solo alla sezione dell&#39;URL specificato in `dynamicAccountMatch`.
+* Utilizza [!DNL Adobe Experience Cloud Debugger] per testare la suite di rapporti di destinazione.

@@ -1,28 +1,28 @@
 ---
-description: Passaggi che descrivono come creare una richiesta Data Warehouse.
+description: Passaggi che descrivono come creare una richiesta di Data Warehouse.
 title: Data Warehouse impostazioni generali della richiesta
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
 source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
 # Data Warehouse impostazioni generali della richiesta
 
-Durante la creazione di una richiesta Data Warehouse sono disponibili varie opzioni di configurazione. Le informazioni seguenti descrivono come configurare le impostazioni generali per la richiesta.
+Durante la creazione di una richiesta di Data Warehouse, sono disponibili varie opzioni di configurazione. Le informazioni seguenti descrivono come configurare le impostazioni generali per la richiesta.
 
-Per informazioni su come iniziare a creare una richiesta, nonché collegamenti ad altre importanti opzioni di configurazione, vedi [Creare una richiesta Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Per informazioni su come iniziare a creare una richiesta, nonché collegamenti ad altre importanti opzioni di configurazione, consulta [Creare una richiesta di Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 Per configurare le impostazioni generali per una richiesta Data Warehouse:
 
 1. Inizia a creare una richiesta Data Warehouse in Adobe Analytics selezionando **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Aggiungi**].
 
-   Per ulteriori dettagli, vedi [Creare una richiesta Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Per ulteriori dettagli, consulta [Creare una richiesta di Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Nella pagina Nuova richiesta Data Warehouse, seleziona la [!UICONTROL **Impostazioni generali**] scheda.
+1. Nella pagina Nuova richiesta Data Warehouse selezionare la scheda [!UICONTROL **Impostazioni generali**].
 
    ![Scheda Destinazione rapporto](assets/dw-general-settings.png)
 
@@ -37,4 +37,4 @@ Per configurare le impostazioni generali per una richiesta Data Warehouse:
 
    {style="table-layout:auto"}
 
-1. Continua a configurare la richiesta Data Warehouse in [!UICONTROL **Creare il rapporto**] scheda. Per ulteriori informazioni, consulta [Creare un rapporto per una richiesta Data Warehouse](/help/export/data-warehouse/create-request/dw-request-build-report.md).
+1. Continua a configurare la tua richiesta Data Warehouse nella scheda [!UICONTROL **Genera il tuo report**]. Per ulteriori informazioni, vedere [Generare un report per una richiesta Data Warehouse](/help/export/data-warehouse/create-request/dw-request-build-report.md).

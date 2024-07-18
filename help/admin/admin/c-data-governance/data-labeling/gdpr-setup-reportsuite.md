@@ -13,7 +13,7 @@ ht-degree: 43%
 
 # Etichettare i dati della suite di rapporti
 
-Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati innanzitutto di conoscere [etichette e relative definizioni](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md).
+Etichettare i dati della suite di rapporti significa assegnare etichette di identità, riservatezza e governance dei dati a ciascuna variabile in una determinata suite di rapporti. Assicurati innanzitutto di conoscere bene le [etichette e le relative definizioni](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
 >[!NOTE]
 >
@@ -27,18 +27,18 @@ Etichettare i dati della suite di rapporti significa assegnare etichette di iden
 
    ![Etichetta privacy](assets/privacy_rs_settings.png)
 
-1. Seleziona una suite di rapporti da **[!UICONTROL Report Suites]** selettore in alto.
+1. Seleziona una suite di rapporti dal selettore **[!UICONTROL Report Suites]** in alto.
 
 1. Nella sezione del filtro a sinistra, seleziona i gruppi di variabili che desideri etichettare. Puoi assegnare un’etichetta a un solo gruppo di variabili alla volta.
 
-   * **Componenti standard** - I componenti standard sono dimensioni e metriche predefinite di Analytics, raccolte per impostazione predefinita all’interno di un’implementazione di Analytics.
-   * **Variabili di conversione** : la variabile di conversione Custom Insight (o eVar) viene inserita nel codice dell’Adobe in specifiche pagine web del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei rapporti di marketing personalizzati. Un eVar può essere basato sulle visite e funzionare in modo simile ai cookie. I valori trasmessi nelle variabili eVar seguono l’utente per un periodo di tempo predeterminato.
-   * **Variabili elenco** - Le variabili elenco sono variabili personalizzate che puoi utilizzare come desideri. Funzionano in modo simile alle eVar, ma possono contenere più valori nello stesso hit. Le variabili elenco non hanno un limite di caratteri.
-   * **Variabili di traffico** - Le variabili di traffico di Custom Insight (o proprietà) ti consentono di correlare dati personalizzati con eventi specifici relativi al traffico. Le variabili prop sono incorporate nel codice di implementazione in ogni pagina del sito web.
+   * **Componenti standard** - I componenti standard sono dimensioni e metriche predefinite di Analytics, raccolte per impostazione predefinita all&#39;interno di un&#39;implementazione di Analytics.
+   * **Variabili di conversione** - La variabile di conversione Custom Insight (o eVar) viene inserita nel codice di Adobe nelle pagine Web selezionate del sito. Il suo scopo principale è segmentare le metriche di successo della conversione nei rapporti di marketing personalizzati. Un eVar può essere basato sulle visite e funzionare in modo simile ai cookie. I valori trasmessi nelle variabili eVar seguono l’utente per un periodo di tempo predeterminato.
+   * **Variabili elenco** - Le variabili elenco sono variabili personalizzate che puoi utilizzare come preferisci. Funzionano in modo simile alle eVar, ma possono contenere più valori nello stesso hit. Le variabili elenco non hanno un limite di caratteri.
+   * **Variabili di traffico** - Le variabili di traffico (o proprietà) di Custom Insight consentono di correlare dati personalizzati con eventi specifici relativi al traffico. Le variabili prop sono incorporate nel codice di implementazione in ogni pagina del sito web.
    * **Eventi di successo** - Gli eventi di successo (noti anche come eventi di conversione o eventi personalizzati) sono azioni che possono essere tracciate. È possibile determinare la natura dell’evento di successo. Ad esempio, se un visitatore acquista un articolo, l’evento di acquisto potrebbe essere considerato l’evento di successo.
-   * **Classificazioni** - I raggruppamenti per classificazione vengono utilizzati per mappare i dati di reporting di Analytics alle proprietà correlate. Le classificazioni possono essere utilizzate per diversi scopi, ma sono più comunemente utilizzate per classificare i codici di tracciamento delle campagne (sia interni che esterni) e gli ID prodotto.
+   * **Classificazioni** - I raggruppamenti di classificazione vengono utilizzati per mappare i dati di reporting di Analytics alle proprietà correlate. Le classificazioni possono essere utilizzate per diversi scopi, ma sono più comunemente utilizzate per classificare i codici di tracciamento delle campagne (sia interni che esterni) e gli ID prodotto.
 
-1. Seleziona una variabile facendo clic sulla relativa casella di controllo, quindi fai clic su **[!UICONTROL Edit Privacy Labels]** sulla barra blu visualizzata nella parte inferiore dello schermo.
+1. Selezionare una variabile facendo clic sulla relativa casella di controllo, quindi fare clic su **[!UICONTROL Edit Privacy Labels]** sulla barra blu visualizzata nella parte inferiore dello schermo.
 
    ![Modifica](assets/edit-label.png)
 

@@ -13,9 +13,9 @@ ht-degree: 18%
 
 # clearVars
 
-Alcune implementazioni, ad esempio nelle applicazioni a pagina singola, richiedono più hit inviati sullo stesso caricamento di pagina. Utilizza il `clearVars()` per cancellare i valori delle variabili in modo che non persistano negli hit successivi.
+Alcune implementazioni, ad esempio nelle applicazioni a pagina singola, richiedono più hit inviati sullo stesso caricamento di pagina. Utilizza il metodo `clearVars()` per cancellare i valori delle variabili in modo che non persistano negli hit successivi.
 
-Questo metodo non accetta argomenti e non restituisce alcun valore. Il suo unico scopo è cancellare i valori delle variabili dall&#39;oggetto istanza. Questo metodo imposta gli elementi seguenti su `undefined`:
+Questo metodo non accetta argomenti e non restituisce alcun valore. Il suo unico scopo è cancellare i valori delle variabili dall&#39;oggetto istanza. Questo metodo imposta i seguenti elementi su `undefined`:
 
 * `prop1` - `prop75`
 * `eVar` - `eVar250`
@@ -41,12 +41,12 @@ Imposta l’azione Cancella variabili durante la configurazione di una regola.
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
-4. Sotto [!UICONTROL Actions], fare clic sull&#39;icona &#39;+&#39;
-5. Imposta il [!UICONTROL Extension] in Adobe Analytics e nella sezione [!UICONTROL Action Type] a [!UICONTROL Clear Variables].
+4. In [!UICONTROL Actions], fare clic sull&#39;icona &#39;+&#39;
+5. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Clear Variables].
 
 ## s.clearVars() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Puoi chiamare il `s.clearVars()` in qualsiasi punto dell’implementazione, dopo aver creato un’istanza dell’istanza dell’oggetto Analytics.
+Puoi chiamare il metodo `s.clearVars()` in qualsiasi punto dell&#39;implementazione dopo aver creato un&#39;istanza dell&#39;oggetto Analytics.
 
 ```js
 s.clearVars();

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '694'
 ht-degree: 99%
 
 ---
@@ -49,7 +49,7 @@ Aspetti da considerare:
 
    {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Build]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Build]**.
 
    L’output sarà simile al seguente:
 
@@ -96,7 +96,7 @@ Fai clic sull’icona a forma di ingranaggio in alto a destra di un grafico comb
 | **[!UICONTROL Legend visible]** | Consente di nascondere il testo della legenda dettagliata per la visualizzazione dei grafici combinati. |
 | **[!UICONTROL Limit max items]** | Riduce il numero di elementi sull’asse X. Se hai un set con numerosi dati, puoi mostrare solo i primi 10 elementi (o qualsiasi valore scelto). |
 | **[!UICONTROL Overlays]** | Mostra o nasconde i punti (o “bar bell”) sulle linee. |
-| **[!UICONTROL Axis]** |  |
+| **[!UICONTROL Axis]** | |
 | **[!UICONTROL Display dual axis]** | Applicabile solo in presenza di due metriche. È possibile avere un asse Y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. Il colore del doppio asse corrisponde al colore della tabella, a meno che non siano presenti più confronti. In tal caso, il colore per tutti i confronti è il grigio. |
 | **[!UICONTROL Normalization]** | Forza le metriche ad adeguarsi alle proporzioni. Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
 | **[!UICONTROL Show x-axis]** | Visualizza o nasconde l’asse X. |

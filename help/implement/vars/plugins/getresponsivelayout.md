@@ -15,7 +15,7 @@ ht-degree: 8%
 
 {{plug-in}}
 
-Il `getResponsiveLayout` Il plug-in consente di tenere traccia della versione del sito web basato sulla progettazione reattiva che un visitatore sta visitando. L’Adobe consiglia di utilizzare questo plug-in se il sito utilizza il design responsive e se desideri tenere traccia della versione del sito visualizzata da un visitatore. Questo plug-in non è necessario se il sito non utilizza la progettazione reattiva.
+Il plug-in `getResponsiveLayout` consente di tenere traccia della versione del sito Web reattivo basato sulla progettazione che un visitatore sta attualmente guardando. L’Adobe consiglia di utilizzare questo plug-in se il sito utilizza il design responsive e se desideri tenere traccia della versione del sito visualizzata da un visitatore. Questo plug-in non è necessario se il sito non utilizza la progettazione reattiva.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
@@ -27,8 +27,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -43,14 +43,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,17 +61,17 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## Utilizzare il plug-in
 
-Il `getResponsiveLayout` La funzione utilizza i seguenti argomenti:
+La funzione `getResponsiveLayout` utilizza i seguenti argomenti:
 
 * **`ppw`** (obbligatorio, numero intero): la larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout con orientamento verticale a un layout con orientamento orizzontale nel telefono
-* **`plw`** (obbligatorio, numero intero): la larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout con orientamento telefonico a un layout basato su tablet
-* **`tw`** (obbligatorio, numero intero): la larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout tablet a uno desktop
+* **`plw`** (obbligatorio, numero intero): la larghezza massima di pixel che una finestra del browser può avere prima che la pagina passi da un layout orizzontale per telefoni a un layout basato su tablet
+* **`tw`** (obbligatorio, numero intero): la larghezza massima di pixel consentita per una finestra del browser prima che la pagina passi da un layout tablet a uno desktop
 
 La chiamata di questa funzione restituisce una stringa contenente due parti delimitate da due punti (`:`). La prima parte della stringa contiene uno dei seguenti valori, a seconda della larghezza del browser e degli argomenti sopra riportati:
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
-* `"phone layout"` (per i siti che non hanno sia layout verticale che layout orizzontale)
+* `"phone layout"` (per i siti che non dispongono di layout sia verticale che orizzontale)
 * `"tablet layout"`
 * `"desktop layout"`
 

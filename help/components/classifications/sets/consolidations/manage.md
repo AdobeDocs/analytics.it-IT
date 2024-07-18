@@ -16,17 +16,17 @@ Se disponi di più set di classificazione che contengono dati simili, puoi conso
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]**
 
-Una volta eseguito il consolidamento, i set di classificazione originali vengono rimossi e il set di classificazione consolidato viene sostituito. Clic **[!UICONTROL Add]** a [Creare un consolidamento](process.md).
+Una volta eseguito il consolidamento, i set di classificazione originali vengono rimossi e il set di classificazione consolidato viene sostituito. Fare clic su **[!UICONTROL Add]** per [creare un consolidamento](process.md).
 
 ## Filtrare i set di classificazione
 
-Il lato sinistro di Gestione consolidamento set di classificazione fornisce le impostazioni del filtro per individuare il consolidamento desiderato. Facendo clic sull’icona del filtro si attiva la visibilità delle impostazioni del filtro. È possibile filtrare i consolidamenti in base a **[!UICONTROL Status]**, **[!UICONTROL Completion time]**, o **[!UICONTROL Creation time]**.
+Il lato sinistro di Gestione consolidamento set di classificazione fornisce le impostazioni del filtro per individuare il consolidamento desiderato. Facendo clic sull’icona del filtro si attiva la visibilità delle impostazioni del filtro. È possibile filtrare i consolidamenti per **[!UICONTROL Status]**, **[!UICONTROL Completion time]** o **[!UICONTROL Creation time]**.
 
 ![Filtri di consolidamento del set di classificazione](../../assets/classification-set-consolidation-filters.png)
 
 Ulteriori opzioni di filtro sono disponibili sopra le colonne di Gestione consolidamento set di classificazione:
 
-* **[!UICONTROL Search by title]**: cerca i consolidamenti per nome.
+* **[!UICONTROL Search by title]**: cercare i consolidamenti per nome.
 * **Mostra/Nascondi colonne**: attiva/disattiva la visibilità delle colonne oltre [!UICONTROL Name].
 
 ## Colonne di Gestione consolidamento set di classificazione
@@ -34,7 +34,7 @@ Ulteriori opzioni di filtro sono disponibili sopra le colonne di Gestione consol
 In Gestione consolidamento set di classificazione sono disponibili le colonne riportate di seguito.
 
 * **[!UICONTROL Name]**: nome del consolidamento.
-* **[!UICONTROL Current job]**: il processo corrente. <!-- todo: better description -->
+* **[!UICONTROL Current job]**: processo corrente. <!-- todo: better description -->
 * **[!UICONTROL Status]**: stato del consolidamento. <!-- todo: get list of possible statuses -->
 * **[!UICONTROL Creation date]**: data e ora di creazione del consolidamento.
 * **[!UICONTROL Completion date]**: data e ora in cui il consolidamento è stato completato (o non è riuscito).

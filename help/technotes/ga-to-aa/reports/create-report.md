@@ -5,7 +5,7 @@ feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '853'
 ht-degree: 18%
 
 ---
@@ -21,12 +21,12 @@ Poiché Analysis Workspace funziona più come un’area di lavoro che come rappo
 
 ## Termini chiave utilizzati in Workspace
 
-* **Pannelli** sono gli elementi di base generali di workspace. In quasi tutti gli scenari viene utilizzato un pannello a forma libera.
-* **Visualizzare** creare tutti i pannelli a forma libera. Il loro scopo è quello di rappresentare i dati in diversi formati. Nella maggior parte dei casi il formato è una tabella, ma altre volte può essere simile a un grafico ad anello o a linee. Molti rapporti nelle Google Analytics equivalgono a due visualizzazioni: un grafico a linee e una tabella a forma libera.
-* **Componenti** vengono inseriti in una visualizzazione per restituire dati. I componenti possono essere combinati in molti modi diversi per soddisfare le esigenze di reporting.
+* **I pannelli** sono i blocchi predefiniti principali dell&#39;area di lavoro. In quasi tutti gli scenari viene utilizzato un pannello a forma libera.
+* **Le visualizzazioni** costituiscono tutti i pannelli a forma libera. Il loro scopo è quello di rappresentare i dati in diversi formati. Nella maggior parte dei casi il formato è una tabella, ma altre volte può essere simile a un grafico ad anello o a linee. Molti rapporti nelle Google Analytics equivalgono a due visualizzazioni: un grafico a linee e una tabella a forma libera.
+* **I componenti** sono inseriti in una visualizzazione per restituire dati. I componenti possono essere combinati in molti modi diversi per soddisfare le esigenze di reporting.
    * **Dimension** sono valori di variabile e in genere contengono testo. Alcuni esempi includono il nome della pagina, il referrer o il paese geografico. Nella maggior parte dei casi sono elencate come righe in una tabella.
-   * **Metriche** in genere indica un evento o una conversione di qualche tipo. Alcuni esempi includono eventi comuni come la visualizzazione di una pagina o altri eventi più significativi come un acquisto o una registrazione. Nella maggior parte dei casi sono visualizzate come colonne nelle tabelle per mostrare il numero di volte in cui si è verificato un evento per dimensione.
-   * **Segmenti** sono un sottoinsieme di dati e si comportano in modo simile ai segmenti nelle Google Analytics. Consentono di creare filtri personalizzati, che consentono di concentrarsi su una parte specifica dei dati.
+   * **Le metriche** in genere indicano un evento o una conversione di qualche tipo. Alcuni esempi includono eventi comuni come la visualizzazione di una pagina o altri eventi più significativi come un acquisto o una registrazione. Nella maggior parte dei casi sono visualizzate come colonne nelle tabelle per mostrare il numero di volte in cui si è verificato un evento per dimensione.
+   * **I segmenti** sono un sottoinsieme dei tuoi dati e si comportano in modo simile ai segmenti nelle Google Analytics. Consentono di creare filtri personalizzati, che consentono di concentrarsi su una parte specifica dei dati.
    * **Intervalli di date** consente di organizzare i dati in base a quando si è verificato un evento. Sono la spina dorsale delle tendenze di visualizzazione nel tempo e sono in genere associati a una metrica.
 
 ## Creare un rapporto di base in Workspace
@@ -39,9 +39,9 @@ Crea un rapporto Tutte le pagine (simile a quello nelle Google Analytics) trasci
 1. Fai clic sul pulsante “Crea nuovo progetto”.
 1. Nella finestra a comparsa modale, assicurati che sia selezionato “Progetto vuoto”, quindi fai clic su Crea.
 1. A sinistra viene visualizzato un elenco di dimensioni, metriche, segmenti e intervalli di date. Individua la dimensione Pages (Pagine) (di colore arancione) e trascinala sull’area di lavoro con l’etichetta &quot;Drop a Dimension Here&quot; (Rilascia qui un ).
-1. È possibile visualizzare un report che mostra le pagine principali di questo mese. Analysis Workspace compila automaticamente il rapporto con [Occorrenze](/help/components/metrics/occurrences.md) metrica.
+1. È possibile visualizzare un report che mostra le pagine principali di questo mese. Analysis Workspace compila automaticamente il report con la metrica [Occorrenze](/help/components/metrics/occurrences.md).
 1. Una tabella nelle Google Analytics contiene in genere 7-8 metriche. Individua la metrica Percentuale non recapitate (di colore verde) e trascinala accanto all’intestazione della metrica Occorrenze. Se trascini la metrica Percentuale non recapitate accanto a Occorrenze, entrambe le metriche vengono visualizzate una accanto all’altra.
-1. Molte metriche possono essere posizionate una accanto all’altra trascinando le metriche accanto alle intestazioni di metrica esistenti. Consulta [metriche di uso comune](common-metrics.md) per informazioni su come ottenere le metriche tipicamente utilizzate nelle Google Analytics.
+1. Molte metriche possono essere posizionate una accanto all’altra trascinando le metriche accanto alle intestazioni di metrica esistenti. Per informazioni su come ottenere le metriche normalmente utilizzate nelle Google Analytics, consulta [metriche di uso comune](common-metrics.md).
 
    ![Nuova metrica](/help/technotes/ga-to-aa/assets/new_metric.png)
 

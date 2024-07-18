@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 93%
+source-wordcount: '460'
+ht-degree: 86%
 
 ---
 
@@ -32,9 +32,9 @@ Video sulle tabelle coorte in Analysis Workspace:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis] non supporta le metriche non segmentabili (comprese le metriche calcolate), le metriche non intere (come Revenue) o Occurrences.
+>[!UICONTROL Cohort Analysis] non supporta metriche non segmentabili (incluse le metriche calcolate), metriche non intere (come Revenue) o Occurrences.
 >
->Solo le metriche utilizzabili nei segmenti possono essere utilizzate in [!UICONTROL Cohort Analysis]e possono essere incrementati solo di >1 alla volta.
+>Solo le metriche utilizzabili nei segmenti possono essere utilizzate in [!UICONTROL Cohort Analysis] e possono essere incrementate solo di >1 alla volta.
 
 ## Capacità dell’analisi per coorte
 
@@ -78,4 +78,4 @@ Puoi creare le coorti in base a una dimensione selezionata anziché in base al t
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Per informazioni su come impostare ed eseguire un rapporto per coorte, consulta [Configurare un rapporto di analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Per istruzioni su come impostare ed eseguire un rapporto sulla coorte, vai a [Configurare un rapporto di analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).

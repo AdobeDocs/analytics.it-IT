@@ -16,6 +16,6 @@ ht-degree: 9%
 
 Questa procedura descrive come nascondere o visualizzare le intestazioni.
 
-Clic **[!UICONTROL Hide/Show]** nel [!UICONTROL Pivot Layout] o [!UICONTROL Custom Layout] output su [!UICONTROL Request Wizard: Step 2] modulo.
+Fare clic su **[!UICONTROL Hide/Show]** nell&#39;output [!UICONTROL Pivot Layout] o [!UICONTROL Custom Layout] nel modulo [!UICONTROL Request Wizard: Step 2].
 
-![Schermata che mostra l’icona Nascondi/Mostra per le intestazioni metriche.](assets/hide_show_header.png)
+![Schermata che mostra l&#39;icona Nascondi/Mostra per le intestazioni delle metriche.](assets/hide_show_header.png)

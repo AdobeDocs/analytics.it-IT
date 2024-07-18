@@ -13,13 +13,13 @@ ht-degree: 2%
 
 # linkTrackVars
 
-Alcune implementazioni non desiderano includere tutte le variabili in tutte le richieste di immagini di tracciamento dei collegamenti. Utilizza il `linkTrackVars` e [`linkTrackEvents`](linktrackevents.md) variabili per includere selettivamente dimensioni e metriche in [`tl()`](../functions/tl-method.md) chiamate.
+Alcune implementazioni non desiderano includere tutte le variabili in tutte le richieste di immagini di tracciamento dei collegamenti. Utilizzare le variabili `linkTrackVars` e [`linkTrackEvents`](linktrackevents.md) per includere selettivamente dimensioni e metriche nelle chiamate di [`tl()`](../functions/tl-method.md).
 
-Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina ([`t()`](../functions/t-method.md) metodo).
+Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina (metodo [`t()`](../functions/t-method.md)).
 
 ## Determinare quali variabili includere in un evento XDM utilizzando l’SDK per web
 
-L’SDK per web non esclude alcuni campi per le chiamate di tracciamento dei collegamenti. Tuttavia, è possibile utilizzare `onBeforeEventSend` callback per cancellare o impostare i campi desiderati prima che i dati vengano inviati ad Adobe. Consulta [Modifica degli eventi a livello globale](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
+L’SDK per web non esclude alcuni campi per le chiamate di tracciamento dei collegamenti. Tuttavia, è possibile utilizzare il callback `onBeforeEventSend` per cancellare o impostare i campi desiderati prima che i dati vengano inviati ad Adobe. Per ulteriori informazioni, consulta [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) nella documentazione di Web SDK.
 
 ## Variabili nelle chiamate di tracciamento dei collegamenti tramite l’estensione Adobe Analytics
 
@@ -27,27 +27,27 @@ Questa variabile viene compilata automaticamente sul backend in base alle variab
 
 >[!IMPORTANT]
 >
->Se imposti le variabili utilizzando l’editor di codice personalizzato, devi includere le variabili in `linkTrackVars` utilizzando anche codice personalizzato.
+>Se si impostano le variabili utilizzando l&#39;editor di codice personalizzato, è necessario includere le variabili in `linkTrackVars` utilizzando anche il codice personalizzato.
 
 ## s.linkTrackVars in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.linkTrackVars` variabile è una stringa contenente un elenco delimitato da virgole di variabili che desideri includere nelle richieste di immagini per il tracciamento dei collegamenti (`tl()` metodo). Per includere le dimensioni negli hit di tracciamento dei collegamenti è necessario soddisfare entrambi i seguenti criteri:
+La variabile `s.linkTrackVars` è una stringa contenente un elenco delimitato da virgole di variabili da includere nelle richieste di immagini di tracciamento dei collegamenti (metodo `tl()`). Per includere le dimensioni negli hit di tracciamento dei collegamenti è necessario soddisfare entrambi i seguenti criteri:
 
 * Imposta il valore della variabile desiderato. Esempio: `s.eVar1 = "Example value";`.
-* Imposta la variabile desiderata in `linkTrackVars` variabile. Esempio: `s.linkTrackVars = "eVar1";`.
+* Impostare la variabile desiderata nella variabile `linkTrackVars`. Esempio: `s.linkTrackVars = "eVar1";`.
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
 ```
 
-Il valore predefinito per questa variabile è una stringa vuota. Tuttavia, l’Adobe ha fornito il codice di AppMeasurement in Code Manager dove questa variabile è impostata su `"None"`. I valori validi sono variabili a livello di pagina che popolano una dimensione.
+Il valore predefinito per questa variabile è una stringa vuota. Tuttavia, Adobe ha fornito il codice di AppMeasurement in Code Manager dove questa variabile è impostata su `"None"`. I valori validi sono variabili a livello di pagina che popolano una dimensione.
 
-* Se questa variabile non è definita o impostata su una stringa vuota, *tutto* Le variabili sono incluse nelle richieste di immagini per il tracciamento dei collegamenti.
-* Se questa variabile è impostata su `"None"`, *no* Le variabili sono incluse nelle richieste di immagini per il tracciamento dei collegamenti.
+* Se questa variabile non è definita o impostata su una stringa vuota, *tutte* le variabili sono incluse nelle richieste di immagini per il tracciamento dei collegamenti.
+* Se questa variabile è impostata su `"None"`, *no* variabili sono incluse nelle richieste di immagini per il tracciamento dei collegamenti.
 
 >[!TIP]
 >
->Evita di utilizzare l’identificatore di oggetto di Analytics (`s.`) quando si specificano le variabili in questa variabile. Ad esempio: `s.linkTrackVars = "eVar1";` è corretto, mentre `s.linkTrackVars = "s.eVar1";` non è corretto.
+>Evitare di utilizzare l&#39;identificatore di oggetto di Analytics (`s.`) quando si specificano variabili in questa variabile. `s.linkTrackVars = "eVar1";`, ad esempio, è corretto, mentre `s.linkTrackVars = "s.eVar1";` non è corretto.
 
 ## Esempio
 

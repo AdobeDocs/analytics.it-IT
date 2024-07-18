@@ -13,7 +13,7 @@ ht-degree: 14%
 
 # trackingServerSecure
 
-Adobe raccoglie dati sul sito ricevendo una richiesta di immagine generata dal visitatore. Il `trackingServerSecure` determina la posizione in cui viene inviata una richiesta di immagine tramite HTTPS. Inoltre, determina la posizione in cui vengono memorizzati i cookie dei visitatori. Se questa variabile non è definita correttamente, l’implementazione può causare la perdita di dati.
+Adobe raccoglie dati sul sito ricevendo una richiesta di immagine generata dal visitatore. La variabile `trackingServerSecure` determina la posizione in cui viene inviata una richiesta di immagine tramite HTTPS. Inoltre, determina la posizione in cui vengono memorizzati i cookie dei visitatori. Se questa variabile non è definita correttamente, l’implementazione può causare la perdita di dati.
 
 >[!WARNING]
 >
@@ -21,22 +21,22 @@ Adobe raccoglie dati sul sito ricevendo una richiesta di immagine generata dal v
 
 ## Dominio Edge tramite l’estensione Web SDK
 
-L’SDK per web utilizza [!UICONTROL Edge domain] per gestire sia Tracking Server che Secure Tracking Server. È possibile impostare il [!UICONTROL Edge domain] valore durante la configurazione dell&#39;estensione Web SDK.
+Web SDK utilizza [!UICONTROL Edge domain] per gestire sia il server di tracciamento che il server di tracciamento protetto. È possibile impostare il valore [!UICONTROL Edge domain] desiderato durante la configurazione dell&#39;estensione Web SDK.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** pulsante sotto [!UICONTROL Adobe Experience Platform Web SDK].
-1. Impostare il **[!UICONTROL Edge domain]** campo di testo.
+1. Passa alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
+1. Imposta il campo di testo **[!UICONTROL Edge domain]** desiderato.
 
-Consulta [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=it) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
+Per ulteriori informazioni, consulta [Configurare l&#39;estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=it) nella documentazione di Web SDK.
 
 >[!TIP]
 >
->Se la tua organizzazione passa al Web SDK da un’implementazione di AppMeasurement o estensione Analytics, questo campo può utilizzare lo stesso valore contenuto in `trackingServerSecure` (o `trackingServer`).
+>Se l&#39;organizzazione passa a Web SDK da un&#39;implementazione di AppMeasurement o estensione Analytics, questo campo può utilizzare lo stesso valore contenuto in `trackingServerSecure` (o `trackingServer`).
 
-## Dominio Edge che implementa manualmente Web SDK
+## Dominio Edge con implementazione manuale dell’SDK per web
 
-Configurare l’SDK tramite [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it). Il campo è una stringa che determina il dominio a cui inviare i dati.
+Configurare l&#39;SDK utilizzando [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it). Il campo è una stringa che determina il dominio a cui inviare i dati.
 
 ```json
 alloy("configure", {
@@ -46,20 +46,20 @@ alloy("configure", {
 
 ## Server di tracciamento SSL tramite l’estensione Adobe Analytics
 
-[!UICONTROL SSL Tracking Server] è un campo sotto [!UICONTROL General] Pannello a soffietto durante la configurazione dell’estensione Adobe Analytics.
+[!UICONTROL SSL Tracking Server] è un campo nel pannello a soffietto [!UICONTROL General] durante la configurazione dell&#39;estensione Adobe Analytics.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
 4. Espandi il pannello a soffietto [!UICONTROL General], che mostra il campo [!UICONTROL SSL Tracking Server].
 
-Se questo campo viene lasciato vuoto, per impostazione predefinita viene utilizzato il valore [`trackingServer`](trackingserver.md) variabile.
+Se questo campo viene lasciato vuoto, per impostazione predefinita viene utilizzato il valore della variabile [`trackingServer`](trackingserver.md).
 
 ## s.trackingServerSecure in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.trackingServerSecure` variabile è una stringa che contiene la posizione in cui inviare le richieste di immagini. È quasi sempre un sottodominio del sito. Le moderne pratiche di privacy nei browser rendono comunemente inaffidabili i cookie di terze parti. Se questa variabile è vuota, utilizza il valore nella `s.trackingServer` variabile.
+La variabile `s.trackingServerSecure` è una stringa che contiene la posizione in cui inviare richieste di immagini. È quasi sempre un sottodominio del sito. Le moderne pratiche di privacy nei browser rendono comunemente inaffidabili i cookie di terze parti. Se questa variabile è vuota, verrà utilizzato il valore della variabile `s.trackingServer`.
 
-Il valore di questa variabile è quasi sempre un dominio di prime parti, ad esempio `data.example.com`. Consulta [Cookie di prime parti nell’Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=it) nella guida utente dei servizi core per ulteriori informazioni sul processo dei cookie di prime parti.
+Il valore di questa variabile è quasi sempre un dominio di prime parti, ad esempio `data.example.com`. Per ulteriori informazioni sulla procedura dei cookie di prime parti, consulta [Cookie di prime parti nell&#39;Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=it) nella guida utente dei servizi core.
 
 L’utente che configura inizialmente l’implementazione dei cookie di prime parti definisce anche il dominio e il sottodominio utilizzati. Ad esempio:
 

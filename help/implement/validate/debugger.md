@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo strumento di debug non viene più mantenuto. L’Adobe consiglia invece di utilizzare il [Estensione Adobe Experience Cloud Debugger di Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it).
+>Questo strumento di debug non viene più mantenuto. L&#39;Adobe consiglia invece di utilizzare l&#39;estensione [Adobe Experience Cloud Debugger Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it).
 
-Il [!UICONTROL Legacy Debugger] controlla i tag per la maggior parte dei servizi Adobe Experience Cloud. L’utilizzo del debugger consente di visualizzare quali dati vengono inviati agli Adobi in una determinata pagina del sito. Puoi utilizzare queste informazioni per risolvere eventuali problemi o convalidare l’implementazione dell’organizzazione.
+[!UICONTROL Legacy Debugger] esamina i tag per la maggior parte dei servizi Adobe Experience Cloud. L’utilizzo del debugger consente di visualizzare quali dati vengono inviati agli Adobi in una determinata pagina del sito. Puoi utilizzare queste informazioni per risolvere eventuali problemi o convalidare l’implementazione dell’organizzazione.
 
 ## Installazione del debugger legacy
 
@@ -37,16 +37,16 @@ Ogni browser ha diversi modi per gestire i segnalibri, ma il concetto è lo stes
 
 #### Chrome
 
-Se insiste affinché non usi il [estensione chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it), è possibile utilizzare invece il bookmarklet di debugger legacy.
+Se si insiste a non utilizzare l&#39;estensione [chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it), è possibile utilizzare il bookmarklet del debugger legacy.
 
-1. Fai clic sui tre punti in alto a destra, quindi vai a Segnalibri > Gestione segnalibri. È inoltre possibile premere `Ctrl` + `Shift` + `O` (Windows) o `Cmd` + `Shift` + `O` (Mac)
+1. Fai clic sui tre punti in alto a destra, quindi vai a Segnalibri > Gestione segnalibri. È inoltre possibile premere `Ctrl` + `Shift` + `O` (Windows) o `Cmd` + `Shift` + `O` (Mac).
 2. In alto a destra in Gestione segnalibri, fai clic sui tre punti, quindi su Aggiungi nuovo segnalibro.
 3. Nel campo Nome, etichettalo come &quot;Adobe Experience Cloud Debugger&quot; e incolla lo snippet di codice nel campo URL.
 4. Usate Gestione segnalibri per posizionare il nuovo bookmarklet nella posizione desiderata.
 
 #### Firefox
 
-1. Fai clic sulle tre righe in alto a destra, quindi vai a Libreria > Segnalibri > Mostra tutti i segnalibri. È inoltre possibile premere `Ctrl` + `Shift` + `B` (Windows) o `Cmd` + `Shift` + `B` (Mac)
+1. Fai clic sulle tre righe in alto a destra, quindi vai a Libreria > Segnalibri > Mostra tutti i segnalibri. È inoltre possibile premere `Ctrl` + `Shift` + `B` (Windows) o `Cmd` + `Shift` + `B` (Mac).
 2. Fai clic su Organizza > Nuovo segnalibro.
 3. Nel campo Nome, etichettalo come &quot;Adobe Experience Cloud Debugger&quot; e incolla lo snippet di codice nel campo Posizione. I campi Tag e Parola chiave non sono obbligatori.
 4. Utilizzare la finestra della libreria per posizionare il nuovo bookmarklet nella posizione desiderata.
@@ -80,9 +80,9 @@ Passa alla pagina desiderata del sito, quindi fai clic sul bookmarklet. Viene vi
 
 Il debugger dispone di diverse opzioni disponibili, tutte che personalizzano la modalità di visualizzazione dei dati. Nessuna di queste opzioni influisce sulla raccolta dei dati.
 
-* **Prodotti di Experience Cloud visualizzati:** Mostra o nasconde le richieste di immagini per ciascun prodotto di Experience Cloud.
-* **Decodifica URL:** L’URL decodifica la richiesta di immagine in modo che corrisponda a quanto visualizzato nel reporting. L’Adobe consiglia di lasciare selezionata questa casella.
-* **Aggiornamento automatico:** Aggiorna automaticamente il pop-up ogni pochi secondi per verificare la presenza di ulteriori richieste di immagini sulla pagina. Se devi copiare/incollare il contenuto nel debugger, disattiva l’aggiornamento automatico in modo che la selezione rimanga invariata.
-* **Formato intuitivo:** Attiva o disattiva il formato di visualizzazione tra etichette utili e stringhe di query non elaborate in una richiesta di immagine. Consulta [Parametri query della raccolta dati](query-parameters.md) per ulteriori informazioni.
+* **Prodotti di Experience Cloud visualizzati:** mostra o nasconde le richieste di immagini per ciascun prodotto di Experience Cloud.
+* **Decodifica URL:** L&#39;URL decodifica la richiesta di immagine in modo che corrisponda a quanto visualizzato nel reporting. L’Adobe consiglia di lasciare selezionata questa casella.
+* **Aggiornamento automatico:** aggiorna automaticamente il popup ogni pochi secondi per verificare la presenza di altre richieste di immagini nella pagina. Se devi copiare/incollare il contenuto nel debugger, disattiva l’aggiornamento automatico in modo che la selezione rimanga invariata.
+* **Formato descrittivo:** Attiva o disattiva il formato di visualizzazione tra le etichette utili e le stringhe di query non elaborate in una richiesta di immagine. Per ulteriori informazioni, vedere [Parametri query raccolta dati](query-parameters.md).
 
 Per salvare le opzioni di visualizzazione predefinite per il debugger, fai clic con il pulsante destro del mouse sul collegamento &#39;Adobe Debugger&#39; nell&#39;angolo in alto a destra, quindi copia l&#39;indirizzo del collegamento. Modifica il bookmarklet di debugger corrente e incolla lo snippet di codice aggiornato nel campo URL.

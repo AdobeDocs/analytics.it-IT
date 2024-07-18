@@ -5,8 +5,8 @@ feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 3%
+source-wordcount: '1720'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 I rapporti sul pubblico mostrano informazioni sui tipi di persone che visitano il tuo sito.
 
-Questa pagina presuppone che l’utente abbia una conoscenza di base dell’utilizzo di Analysis Workspace. Consulta [Creazione di un rapporto di base in Analysis Workspace per gli utenti Google Analytics](create-report.md) se non hai ancora familiarità con lo strumento in Adobe Analytics.
+Questa pagina presuppone che l’utente abbia una conoscenza di base dell’utilizzo di Analysis Workspace. Se non conosci ancora lo strumento in Analysis Workspace, consulta [Creare un report di base in Adobe Analytics per gli utenti Google Analytics](create-report.md).
 
 ## Utenti attivi
 
@@ -23,10 +23,10 @@ Gli utenti attivi mostrano il numero cumulativo di utenti del sito negli ultimi 
 Per ottenere un grafico a linee di visitatori univoci:
 
 1. Fai clic sull’icona delle Visualizzazioni a sinistra, quindi trascina la visualizzazione Linee nell’area di lavoro sopra la tabella a forma libera vuota.
-2. Fai clic sull’icona Componenti a sinistra, quindi trascina il file **Visitatori univoci** metrica nello spazio più piccolo etichettato &quot;Drop a Metric here&quot; (Rilascia qui una metrica).
-3. Per ottenere una granularità diversa, trascina l’intervallo di date desiderato (ad es. **Giorno**, **Settimana**, **Mese**, ecc.) sopra l’intestazione della dimensione data esistente.
+2. Fai clic sull&#39;icona Componenti a sinistra, quindi trascina la metrica **Visitatori univoci** nello spazio più piccolo denominato &#39;Rilascia qui una metrica&#39;.
+3. Se desideri una granularità diversa, trascina l’intervallo di date desiderato (ad esempio **Giorno**, **Settimana**, **Mese**, ecc.) sopra l’intestazione della dimensione data esistente.
 
-Consulta [Visitatori univoci](/help/components/metrics/unique-visitors.md) nella guida utente dei Componenti, per informazioni su come Adobe calcola i visitatori univoci.
+Per informazioni dettagliate su come Adobe calcola i visitatori univoci, consulta [Visitatori univoci](/help/components/metrics/unique-visitors.md) nella guida utente dei Componenti.
 
 ## Valore del ciclo di vita
 
@@ -39,7 +39,7 @@ L’analisi per coorte mostra con quale frequenza gli stessi utenti ritornano al
 Per creare una tabella coorte:
 
 1. Fai clic sull’icona Visualizzazione a sinistra e trascina la visualizzazione Tabella coorte nell’area di lavoro.
-2. Fai clic sull’icona Componenti a sinistra, quindi trascina il file **Visite** metrica sia per i criteri di inclusione che per i criteri di ritorno.
+2. Fai clic sull&#39;icona Componenti a sinistra, quindi trascina la metrica **Visite** sia sui criteri di inclusione che sui criteri di ritorno.
 3. Fai clic su Genera.
 
 Consulta [Analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) nella guida utente di Analysis Workspace per informazioni dettagliate su ulteriori personalizzazioni della visualizzazione per coorte.
@@ -53,7 +53,7 @@ Il rapporto Tipi di pubblico in Google Analytics richiede la configurazione di T
 Il rapporto User Explorer consente a un analista di visualizzare le singole visite tramite identificatori anonimi. Adobe non fa emergere gli identificatori di backend al di fuori dei feed di dati, che sono esportazioni di dati non elaborate a livello di hit.
 
 * Se questi dati sono desiderati in Analysis Workspace, è possibile collaborare con un consulente per l’implementazione per trasmettere in un eVar il valore cookie dell’identificatore univoco anonimo. Tieni presente che questo funziona solo con implementazioni più piccole costituite da meno di 1 milione di visitatori univoci al mese.
-* Se questi dati sono desiderati all’interno dei feed di dati, le colonne concatenate `visid_high` e `visid_low` sono il modo più comune per identificare i visitatori univoci. Ulteriori informazioni su [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) nella guida utente Esporta.
+* Se questi dati sono desiderati all&#39;interno dei feed di dati, le colonne concatenate `visid_high` e `visid_low` sono il modo più comune per identificare i visitatori univoci. Ulteriori informazioni su [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) nella guida utente per l&#39;esportazione.
 
 ## Rapporti Demografia e interessi
 
@@ -69,10 +69,10 @@ Il rapporto di lingua geografica mostra il traffico del sito in base all’impos
 
 Per creare un rapporto lingua:
 
-1. Nel menu Componenti, individua **Lingua** e trascinarlo nella grande area della tabella a forma libera denominata &quot;Rilascia qui un Dimension&quot;.
-2. Trascina le metriche desiderate nell’area di lavoro insieme al file creato automaticamente **Occorrenze** metrica. Consulta la [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica.
+1. Nel menu Componenti, individua la dimensione **Lingua** e trascinala nella grande area della tabella a forma libera denominata &#39;Rilascia qui un Dimension&#39;.
+2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
-Consulta la [Lingua](/help/components/dimensions/language.md) nella guida utente dei Componenti per ulteriori informazioni.
+Per ulteriori informazioni, consulta la dimensione [Lingua](/help/components/dimensions/language.md) nella guida utente dei Componenti.
 
 ## Geo - Location
 
@@ -81,15 +81,15 @@ Il rapporto di geolocalizzazione fornisce una visualizzazione mappa mondiale, su
 Per creare un rapporto di geolocalizzazione:
 
 1. Fai clic sull’icona Visualizzazioni a sinistra, quindi trascina la visualizzazione Mappa nell’area di lavoro sopra la tabella a forma libera vuota.
-2. Fai clic sull’icona Componenti a sinistra, quindi trascina il file **Visitatori univoci** metrica nello spazio etichettato &quot;Aggiungi metrica&quot;.
+2. Fai clic sull&#39;icona Componenti a sinistra, quindi trascina la metrica **Visitatori univoci** nello spazio denominato &#39;Aggiungi metrica&#39;.
 3. Fai clic su Genera.
 
 Se la tabella è anche desiderata in aggiunta alla mappa:
 
-1. Nel menu Componenti, individua **Paesi** e trascinarlo nella grande area della tabella a forma libera denominata &quot;Rilascia qui un Dimension&quot;.
-2. Trascina le metriche desiderate nell’area di lavoro insieme al file creato automaticamente **Occorrenze** metrica. Consulta la [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica.
+1. Nel menu Componenti, individua la dimensione **Paesi** e trascinala nella grande area della tabella a forma libera denominata &#39;Rilascia qui un Dimension&#39;.
+2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
-Consulta la [Paesi](/help/components/dimensions/countries.md) dimensioni nella guida utente dei Componenti per ulteriori informazioni.
+Per ulteriori informazioni, consulta le dimensioni [Paesi](/help/components/dimensions/countries.md) nella guida utente dei Componenti.
 
 ## Comportamento - Novità e ritorno
 
@@ -97,9 +97,9 @@ Il rapporto Nuovo/Ritorno offre una visualizzazione semplificata delle prime ses
 
 Per creare un nuovo rapporto sulle visite e sulle visite di ritorno:
 
-1. Nel menu dei componenti, individua **Prime visite** e trascinarlo sulla grande area della tabella a forma libera denominata &quot;Rilascia qui un Dimension&quot;. Tieni presente che **Prime visite** è un segmento, mentre Workspace in genere utilizza le dimensioni per rappresentare le righe.
-2. Individua il **Visite di ritorno** e trascinarlo sopra l’intestazione di riga Segmenti. Questo aggiunge il segmento come dimensione sotto Prime visite, consentendo un facile confronto.
-3. Trascina le metriche desiderate nell’area di lavoro insieme al file creato automaticamente **Occorrenze** metrica. Consulta la [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica.
+1. Nel menu dei componenti, individua il segmento **Visite per la prima volta** e trascinalo nella grande area della tabella a forma libera con l&#39;etichetta &quot;Rilascia qui un Dimension&quot;. Tieni presente che **Visite per la prima volta** è un segmento, mentre Workspace in genere utilizza dimensioni per rappresentare le righe.
+2. Individua il segmento **Visite di ritorno** e trascinalo sopra l&#39;intestazione della riga Segmenti. Questo aggiunge il segmento come dimensione sotto Prime visite, consentendo un facile confronto.
+3. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
 Se desideri anche un grafico a linee:
 
@@ -109,34 +109,34 @@ Se desideri anche un grafico a linee:
 
 ## Comportamento - Frequenza e attualità
 
-Il rapporto di frequenza e attualità è approssimativamente uguale al **Numero di visite** in Analysis Workspace.
+Il rapporto di frequenza e aggiornamento è approssimativamente uguale alla dimensione **Numero visite** in Analysis Workspace.
 
-1. Nel menu dei componenti, individua **Numero di visite** e trascinarla nella grande area della tabella a forma libera con l’etichetta &quot;Rilasciare qui una dimensione&quot;.
-2. Trascina le metriche desiderate nell’area di lavoro insieme al file creato automaticamente **Occorrenze** metrica. Consulta la [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica.
+1. Nel menu dei componenti, individua la dimensione **Numero visita** e trascinala nella grande area della tabella a forma libera con l&#39;etichetta &#39;Rilascia qui una dimensione&#39;.
+2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
-Consulta la [Numero di visite](/help/components/dimensions/visit-number.md) nella guida utente dei Componenti per ulteriori informazioni.
+Per ulteriori informazioni, consulta la dimensione [Numero visite](/help/components/dimensions/visit-number.md) nella guida utente dei Componenti.
 
 ## Comportamento - Coinvolgimento
 
-Il rapporto di coinvolgimento è approssimativamente uguale al **Tempo trascorso per visita - Bucket** dimensione.
+Il report di coinvolgimento è approssimativamente uguale alla dimensione **Tempo trascorso per visita - Bucket**.
 
-1. Nel menu dei componenti, individua **Tempo trascorso per visita - Bucket** e trascinarla nella grande area della tabella a forma libera con l’etichetta &quot;Rilasciare qui una dimensione&quot;.
-2. Trascina le metriche desiderate nell’area di lavoro insieme al file creato automaticamente **Occorrenze** metrica. Consulta la [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica.
+1. Nel menu dei componenti, individua la dimensione **Tempo trascorso per visita - Bucket** e trascinala nella grande area della tabella a forma libera denominata &quot;Rilascia qui una dimensione&quot;.
+2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
-Consulta la [Tempo trascorso per visita](/help/components/dimensions/time-spent-per-visit.md) nella guida utente dei Componenti per ulteriori informazioni.
+Per ulteriori informazioni, consulta la dimensione [Tempo trascorso per visita](/help/components/dimensions/time-spent-per-visit.md) nella guida utente dei Componenti.
 
 ## Tecnologia - Browser e sistema operativo
 
 Nel rapporto Browser &amp; OS sono disponibili più dimensioni principali.
 
-* Il **Browser** la dimensione primaria è disponibile anche in Analysis Workspace as a dimension.
-* Il **Sistema operativo** la dimensione primaria è disponibile anche in Analysis Workspace as a dimension.
-* Il **Risoluzione dello schermo** la dimensione primaria è disponibile in Analysis Workspace come **Risoluzione monitor** dimensione.
-* Il **Colori schermo** la dimensione primaria è disponibile in Analysis Workspace come **Profondità colore** dimensione.
-* Il **Versione Flash** la dimensione primaria non è disponibile in Adobe Analytics, tuttavia questi dati possono essere raccolti da un eVar, se necessario.
+* La dimensione primaria **Browser** è disponibile anche in Analysis Workspace come dimensione.
+* La dimensione primaria **Sistema operativo** è disponibile anche in Analysis Workspace come dimensione.
+* La dimensione primaria **Risoluzione schermo** è disponibile in Analysis Workspace come dimensione **Risoluzione monitor**.
+* La dimensione principale **Colori schermo** è disponibile in Analysis Workspace come dimensione **Profondità colore**.
+* La dimensione primaria **Versione Flash** non è disponibile in Adobe Analytics, tuttavia questi dati possono essere raccolti da un eVar, se necessario.
 
 1. Nel menu dei componenti, individua la dimensione desiderata indicata sopra e trascinala sulla grande area della tabella a forma libera denominata &quot;Rilascia qui una dimensione&quot;.
-2. Trascina le metriche desiderate nell’area di lavoro insieme al file creato automaticamente **Occorrenze** metrica. Consulta la [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica.
+2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
 Per ulteriori informazioni sulle rispettive dimensioni, consulta le pagine seguenti nella guida utente dei Componenti:
 
@@ -147,34 +147,34 @@ Per ulteriori informazioni sulle rispettive dimensioni, consulta le pagine segue
 
 ## Tecnologia - Rete
 
-Il rapporto di rete è approssimativamente uguale al **Dominio** dimensione.
+Il report di rete è approssimativamente uguale alla dimensione **Dominio**.
 
-1. Nel menu dei componenti, individua **Dominio** e trascinarla nella grande area della tabella a forma libera con l’etichetta &quot;Rilasciare qui una dimensione&quot;.
-2. Trascina le metriche desiderate nell’area di lavoro insieme al file creato automaticamente **Occorrenze** metrica. Consulta la [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica.
+1. Nel menu dei componenti, individua la dimensione **Dominio** e trascinala nella grande area della tabella a forma libera denominata &#39;Rilascia qui una dimensione&#39;.
+2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
-Consulta la [Dominio](/help/components/dimensions/domain.md) nella guida utente dei Componenti per ulteriori informazioni.
+Per ulteriori informazioni, vedere la dimensione [Dominio](/help/components/dimensions/domain.md) nella guida utente dei Componenti.
 
 ## Mobile - Panoramica
 
-Il rapporto di panoramica mobile è approssimativamente uguale al **Tipo di dispositivo mobile** dimensione. Il valore &quot;Altro&quot; equivale al traffico sul desktop.
+Il report di panoramica mobile è approssimativamente uguale alla dimensione **Tipo di dispositivo mobile**. Il valore &quot;Altro&quot; equivale al traffico sul desktop.
 
-1. Nel menu dei componenti, individua **Tipo di dispositivo mobile** e trascinarla nella grande area della tabella a forma libera con l’etichetta &quot;Rilasciare qui una dimensione&quot;.
-2. Trascina le metriche desiderate nell’area di lavoro insieme al file creato automaticamente **Occorrenze** metrica. Consulta la [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica.
+1. Nel menu dei componenti, individua la dimensione **Tipo di dispositivo mobile** e trascinala nella grande area della tabella a forma libera con l&#39;etichetta &#39;Rilascia qui una dimensione&#39;.
+2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
-Consulta la [Tipo di dispositivo mobile](/help/components/dimensions/mobile-dimensions.md) nella guida utente dei Componenti per ulteriori informazioni.
+Per ulteriori informazioni, consulta la dimensione [Tipo di dispositivo mobile](/help/components/dimensions/mobile-dimensions.md) nella guida utente dei Componenti.
 
 ## Mobile - Devices
 
-Il rapporto sui dispositivi mobili è approssimativamente uguale al **Dispositivo mobile** dimensione.
+Il report dei dispositivi mobili è approssimativamente uguale alla dimensione **Dispositivo mobile**.
 
-1. Nel menu dei componenti, individua **Dispositivo mobile** e trascinarla nella grande area della tabella a forma libera con l’etichetta &quot;Rilasciare qui una dimensione&quot;.
-2. Trascina le metriche desiderate nell’area di lavoro insieme al file creato automaticamente **Occorrenze** metrica. Consulta la [Guida alla traduzione delle metriche](common-metrics.md) per informazioni dettagliate su come ottenere ciascuna metrica.
+1. Nel menu dei componenti, individua la dimensione **Dispositivo mobile** e trascinala nella grande area della tabella a forma libera con l&#39;etichetta &#39;Rilascia qui una dimensione&#39;.
+2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
-Consulta la [Dispositivo mobile](/help/components/dimensions/mobile-dimensions.md) nella guida utente dei Componenti per ulteriori informazioni.
+Per ulteriori informazioni, consulta la dimensione [Dispositivo mobile](/help/components/dimensions/mobile-dimensions.md) nella guida utente dei Componenti.
 
 ## Personalizzato
 
-I rapporti personalizzati vengono definiti in base all’implementazione. Per interpretare questi rapporti, rivolgiti all’amministratore di Analytics e/o al consulente per l’implementazione della tua organizzazione. In genere un’organizzazione gestisce un [Documento progettazione soluzione](/help/implement/prepare/solution-design.md) per tenere traccia dei valori delle variabili personalizzate e del modo in cui vengono compilati.
+I rapporti personalizzati vengono definiti in base all’implementazione. Per interpretare questi rapporti, rivolgiti all’amministratore di Analytics e/o al consulente per l’implementazione della tua organizzazione. In genere un&#39;organizzazione gestisce un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md) per tenere traccia dei valori delle variabili personalizzate e del modo in cui vengono compilati.
 
 ## Benchmarking
 
@@ -185,6 +185,6 @@ I rapporti di benchmark consentono di vedere come i facet dei dati si confrontan
 Il rapporto di flusso è disponibile su entrambe le piattaforme. Per creare un rapporto di flusso:
 
 1. Fai clic sull’icona delle visualizzazioni a sinistra, quindi trascina una visualizzazione Flusso sul workspace sopra la tabella a forma libera
-2. Individua il **Pagine** , quindi fai clic sull’icona a forma di freccia per visualizzare i valori della pagina. Gli elementi Dimension sono di colore giallo.
+2. Individua la dimensione **Pagine**, quindi fai clic sull&#39;icona a forma di freccia per visualizzare i valori della pagina. Gli elementi Dimension sono di colore giallo.
 3. Individua il valore di pagina desiderato per iniziare, quindi trascinalo nello spazio al centro con l’etichetta &quot;Dimension o elemento&quot;
 4. Questo rapporto di flusso è interattivo. Fai clic su uno dei valori per espandere i flussi alle pagine successive o precedenti. Utilizza il menu di scelta rapida per espandere o comprimere le colonne. Possono essere utilizzate anche dimensioni diverse all’interno dello stesso rapporto di flusso.

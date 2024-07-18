@@ -15,8 +15,8 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->Le seguenti informazioni sono relative ai tipi di destinazione FTP e SFTP. FTP e SFTP sono tipi di destinazione legacy. Durante la configurazione di un feed di dati, è necessario utilizzare un tipo di destinazione cloud più sicuro. Per ulteriori informazioni sulla configurazione dei tipi di destinazione cloud per un feed di dati, consulta [Creare un feed dati](/help/export/analytics-data-feed/create-feed.md).
+>Le seguenti informazioni sono relative ai tipi di destinazione FTP e SFTP. FTP e SFTP sono tipi di destinazione legacy. Durante la configurazione di un feed di dati, è necessario utilizzare un tipo di destinazione cloud più sicuro. Per ulteriori informazioni sulla configurazione dei tipi di destinazione cloud per un feed dati, vedere [Creare un feed dati](/help/export/analytics-data-feed/create-feed.md).
 
 Puoi configurare i dati di Adobe da inviare a un account FTP esterno tramite SFTP.
 
-Per ulteriori informazioni, consulta [Creare un feed dati](/help/export/analytics-data-feed/create-feed.md).
+Per ulteriori informazioni, vedere [Creare un feed di dati](/help/export/analytics-data-feed/create-feed.md).

@@ -13,10 +13,10 @@ ht-degree: 51%
 
 # [!UICONTROL Donut]
 
-Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Utilizza un [!UICONTROL Donut] grafico quando si confrontano percentuali di un totale, in genere con un numero ridotto di elementi.
+Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Utilizzare un grafico [!UICONTROL Donut] per confrontare percentuali di un totale, in genere con un numero limitato di elementi.
 
 ![](assets/donut.png)
 
-Video sull’utilizzo di [!UICONTROL Donut] visualizzazione:
+Ecco un video sull&#39;utilizzo della visualizzazione [!UICONTROL Donut]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334309/?quality=12)

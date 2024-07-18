@@ -19,12 +19,12 @@ Visualizza le dimensioni di classificazione attualmente configurate per questo s
 Sono disponibili i seguenti pulsanti:
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL Upload]**: carica manualmente i dati di classificazione per una o più dimensioni di classificazione. `JSON`, `CSV`, `TSV`, e `TAB` sono supportati. Il caricamento di un file valido mostra un’anteprima della tabella dei dati da classificare.
-   * **[!UICONTROL File encoding]**: seleziona il file encoding corretto utilizzando questo menu a discesa. Le opzioni valide includono [!UICONTROL UTF-8] e [!UICONTROL Latin1].
+* **[!UICONTROL Upload]**: carica manualmente i dati di classificazione per una o più dimensioni di classificazione. Sono supportati `JSON`, `CSV`, `TSV` e `TAB` file. Il caricamento di un file valido mostra un’anteprima della tabella dei dati da classificare.
+   * **[!UICONTROL File encoding]**: selezionare la codifica file corretta utilizzando questo elenco a discesa. Le opzioni valide includono [!UICONTROL UTF-8] e [!UICONTROL Latin1].
    * **[!UICONTROL List delimiter]**: seleziona il delimitatore elenco corretto. Se utilizzi un file scaricato o un file modello, assicurati che il [!UICONTROL List delimiter] qui corrisponda al [!UICONTROL List delimiter] di quando il file è stato scaricato.
    * **[!UICONTROL Apply]**: salva i dati di classificazione caricati nel set di classificazione.
 
-  ![Caricamento del set di classificazione](../../assets/classification-set-upload.png)
+  ![Caricamento set di classificazione](../../assets/classification-set-upload.png)
 
 * **[!UICONTROL Download]**: scarica i valori chiave e le relative colonne di classificazione.
    * **[!UICONTROL Rows]**: numero massimo di righe da includere nel file di download.
@@ -44,16 +44,16 @@ Sono disponibili i seguenti pulsanti:
 
   ![Modello per set di classificazione](../../assets/classification-set-template.png)
 
-* **[!UICONTROL Job history]**: collegamento che ti porta al [Gestione processi](../job-manager.md), mostra i processi solo per questo set di classificazione.
-* **[!UICONTROL Automate]**: acquisisci automaticamente i dati dalle posizioni di archiviazione esterne.
-   * **[!UICONTROL Location account]**: elenco a discesa che mostra gli account località esistenti configurati dalla tua organizzazione. Se la tua organizzazione non ha già configurato un account località, puoi configurarne uno selezionando [!UICONTROL **Crea un nuovo account**].
+* **[!UICONTROL Job history]**: collegamento che ti porta alla [Gestione processi](../job-manager.md), in cui sono visualizzati solo i processi per questo set di classificazione.
+* **[!UICONTROL Automate]**: acquisisci automaticamente i dati dai percorsi di archiviazione esterni.
+   * **[!UICONTROL Location account]**: elenco a discesa che mostra gli account località esistenti configurati dall&#39;organizzazione. Se la tua organizzazione non ha già configurato un account località, puoi configurarne uno selezionando [!UICONTROL **Crea un nuovo account**].
 
-     Per informazioni sulla configurazione dell&#39;account di posizione, vedere [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).
+     Per informazioni sulla configurazione dell&#39;account del percorso, vedere [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).
 
-   * **[!UICONTROL Location]**: elenco a discesa che mostra le posizioni esistenti configurate dalla tua organizzazione. Se la tua organizzazione non ha già configurato una posizione, puoi configurarne una selezionando [!UICONTROL **Crea una nuova posizione**].
+   * **[!UICONTROL Location]**: elenco a discesa che mostra le posizioni esistenti configurate dall&#39;organizzazione. Se la tua organizzazione non ha già configurato un percorso, puoi configurarne uno selezionando [!UICONTROL **Crea un nuovo percorso**].
 
-     Per informazioni sulla configurazione di una posizione, consulta [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
+     Per informazioni sulla configurazione di un percorso, vedere [Configurare i percorsi di importazione ed esportazione del cloud](/help/components/locations/configure-import-locations.md).
 
-   * **[!UICONTROL Delimiter]**: delimitatore di colonna per i file caricati. Le opzioni includono [!UICONTROL Comma], [!UICONTROL Semicolon], [!UICONTROL Colon], [!UICONTROL Vertical bar], [!UICONTROL Space], [!UICONTROL Forward slash], [!UICONTROL Backward slash], [!UICONTROL Dash], o [!UICONTROL Underscore].
+   * **[!UICONTROL Delimiter]**: delimitatore di colonna per i file caricati. Le opzioni disponibili sono [!UICONTROL Comma], [!UICONTROL Semicolon], [!UICONTROL Colon], [!UICONTROL Vertical bar], [!UICONTROL Space], [!UICONTROL Forward slash], [!UICONTROL Backward slash], [!UICONTROL Dash] o [!UICONTROL Underscore].
 
    * **[!UICONTROL Encoding]**: elenco a discesa che determina la codifica del file. Le opzioni includono [!UICONTROL UTF-8] e [!UICONTROL Latin1]. Si consiglia UTF-8.

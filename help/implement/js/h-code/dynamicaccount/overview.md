@@ -15,25 +15,25 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Gli account dinamici sono supportati solo utilizzando implementazioni JavaScript legacy (codice H). Queste variabili non sono supportate nelle librerie o nei tag AppMeasurement correnti in Adobe Experience Platform.
+>Gli account dinamici sono supportati solo utilizzando le implementazioni legacy di JavaScript (codice H). Queste variabili non sono supportate nelle librerie o nei tag AppMeasurement correnti in Adobe Experience Platform.
 
 Gli account dinamici sono una funzione di implementazione che consente di determinare quale suite di rapporti utilizzare in base ai criteri definiti. Se la tua organizzazione richiede più di una suite di rapporti ma desidera utilizzare la stessa implementazione tra i siti, gli account dinamici rappresentano una buona soluzione.
 
 >[!TIP]
 >
->L’Adobe consiglia di inviare dati a una singola suite di rapporti e, se necessario, di utilizzare suite di rapporti virtuali per separare i dati. Consulta [Considerazioni globali sulla suite di rapporti](../../../prepare/global-rs.md) per ulteriori informazioni.
+>L’Adobe consiglia di inviare dati a una singola suite di rapporti e, se necessario, di utilizzare suite di rapporti virtuali per separare i dati. Per ulteriori informazioni, consulta [Considerazioni globali sulla suite di rapporti](../../../prepare/global-rs.md).
 
 3 variabili vengono utilizzate per selezionare dinamicamente una suite di rapporti.
 
-* [`dynamicAccountSelection`](dynamicaccountselection.md): attiva o disattiva la selezione dinamica dell’account.
+* [`dynamicAccountSelection`](dynamicaccountselection.md): abilitare o disabilitare la selezione dinamica dell&#39;account.
 * [`dynamicAccountMatch`](dynamicaccountmatch.md): determina il valore da osservare. Ad esempio, l’URL o una stringa di query.
-* [`dynamicAccountList`](dynamicaccountlist.md): confronta i valori con `dynamicAccountMatch`e, se viene trovata una corrispondenza, compila il `account` variabile.
+* [`dynamicAccountList`](dynamicaccountlist.md): confronta i valori con `dynamicAccountMatch` e, se viene trovata una corrispondenza, popola la variabile `account`.
 
-Se `dynamicAccountSelection = true`, il valore entro `dynamicAccountMatch` viene confrontato con `dynamicAccountList`. Se i valori in `dynamicAccountList` corrispondenza, l’ID suite di rapporti è incluso nel `account` variabile.
+Se `dynamicAccountSelection = true`, il valore in `dynamicAccountMatch` viene confrontato con `dynamicAccountList`. Se i valori in `dynamicAccountList` corrispondono, l&#39;ID suite di rapporti viene incluso nella variabile `account`.
 
 ## Suite di rapporti predefinita
 
-Il `account` La variabile può essere impostata per prima e funge da valore predefinito nel caso in cui non sia possibile trovare una delle stringhe specificate. Ad esempio:
+La variabile `account` può essere impostata per prima e funge da valore predefinito nel caso in cui non sia possibile trovare una delle stringhe specificate. Ad esempio:
 
 ```javascript
 s_account = "examplersiddefault";
@@ -42,7 +42,7 @@ s.dynamicAccountMatch = location.hostname;
 s.dynamicAccountList="examplersiddev=dev.example.com;examplersidprod=example.com";
 ```
 
-Se `location.hostname` non era `dev.example.com` o `example.com`, l’hit viene inviato a `examplersiddefault`.
+Se `location.hostname` non fosse né `dev.example.com` né `example.com`, l&#39;hit verrebbe inviato a `examplersiddefault`.
 
 ## Assegnazione di tag a più suite
 
@@ -54,4 +54,4 @@ s.dynamicAccountMatch = location.hostname;
 s.dynamicAccountList="examplersid1,examplersid2=example.com";
 ```
 
-Se `location.hostname` contiene `example.com`, l’hit viene inviato a entrambi `examplersid1` e `examplersid2`.
+Se `location.hostname` contiene `example.com`, l&#39;hit viene inviato a `examplersid1` e `examplersid2`.

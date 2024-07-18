@@ -12,14 +12,14 @@ ht-degree: 4%
 
 # Unità
 
-Le &#39;Unità&#39; [metrica](overview.md) mostra il numero totale di prodotti acquistati in tutti gli ordini. Questa metrica è fondamentale per i siti di eCommerce nella misurazione della conversione. Puoi combinare questa metrica con qualsiasi dimensione per vedere quali elementi dimensionali hanno contribuito al numero di prodotti acquistati. Ad esempio, puoi visualizzare le campagne principali (utilizzando [Codice di tracciamento](../dimensions/tracking-code.md) ) o i termini di ricerca interni principali (utilizzando una [eVar](../dimensions/evar.md)) che hanno contribuito ai prodotti acquistati.
+La metrica [unità](overview.md) mostra il numero totale di prodotti acquistati in tutti gli ordini. Questa metrica è fondamentale per i siti di eCommerce nella misurazione della conversione. Puoi combinare questa metrica con qualsiasi dimensione per vedere quali elementi dimensionali hanno contribuito al numero di prodotti acquistati. Ad esempio, puoi visualizzare le campagne principali (utilizzando la dimensione [Codice di tracciamento](../dimensions/tracking-code.md)) o i termini di ricerca interni principali (utilizzando un [eVar](../dimensions/evar.md)) che hanno contribuito ai prodotti acquistati.
 
 ## Come è calcolata questa metrica
 
-Per ogni hit in cui `purchase` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) , somma il campo &quot;Quantity&quot; all&#39;interno del [`products`](/help/implement/vars/page-vars/products.md) variabile.
+Per ogni hit in cui esiste `purchase` nella variabile [`events`](/help/implement/vars/page-vars/events/events-overview.md), somma il campo &quot;Quantity&quot; all&#39;interno della variabile [`products`](/help/implement/vars/page-vars/products.md).
 
 ## Confrontare ordini e unità
 
-Il [Ordini](orders.md) La metrica registra solo il numero di eventi di acquisto. La metrica &quot;Unità&quot; è generalmente superiore a &quot;Ordini&quot; perché i clienti possono acquistare più di un prodotto. In questi casi, esiste un singolo ordine con più unità.
+La metrica [Ordini](orders.md) registra solo il numero di eventi di acquisto. La metrica &quot;Unità&quot; è generalmente superiore a &quot;Ordini&quot; perché i clienti possono acquistare più di un prodotto. In questi casi, esiste un singolo ordine con più unità.
 
-Se gli ordini sono superiori alle unità, Adobe consiglia di verificare l’integrità dell’implementazione. È probabile che il tuo `products` la variabile non è impostata correttamente sugli acquisti, il che è in genere un comportamento indesiderato.
+Se gli ordini sono superiori alle unità, Adobe consiglia di verificare l’integrità dell’implementazione. È probabile che la variabile `products` non sia impostata correttamente sugli acquisti, il che è in genere un comportamento indesiderato.

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Considerazioni globali sulla suite di report
+# Considerazioni globali sulla suite di rapporti
 
 Una suite di rapporti globale è una suite di rapporti che raccoglie dati da tutti i domini e le app di proprietà della tua organizzazione. Questa tecnica di raccolta dei dati richiede preparazione e può richiedere il coordinamento tra i team all’interno della tua organizzazione.
 
@@ -19,13 +19,13 @@ Una suite di rapporti globale è una suite di rapporti che raccoglie dati da tut
 
 L’Adobe consiglia di implementare una suite di rapporti globale nella maggior parte dei casi.
 
-* **Dati aggregati:** Le suite di rapporti globali consentono di visualizzare i KPI e gli eventi di successo nei siti di tua proprietà. La segmentazione e le suite di rapporti virtuali possono essere utilizzate per visualizzare dati specifici per il sito.
-* **Supporto per Cross-Device Analytics:** CDA richiede una suite di rapporti che raccolga dati da più posizioni, ad esempio dal sito web e dall’app mobile. Dispositivi separati possono unire i dati se implementati correttamente. Consulta [Analytics tra dispositivi](../../components/cda/overview.md) nella guida utente Componenti per ulteriori informazioni.
+* **Dati aggregati:** le suite di rapporti globali ti consentono di visualizzare i KPI e gli eventi di successo nei tuoi siti di proprietà. La segmentazione e le suite di rapporti virtuali possono essere utilizzate per visualizzare dati specifici per il sito.
+* **Supporto per Cross-Device Analytics:** CDA richiede una suite di rapporti che raccolga dati da più posizioni, ad esempio dal sito Web e dall&#39;app mobile. Dispositivi separati possono unire i dati se implementati correttamente. Per ulteriori informazioni, consulta [Analisi multidispositivo](../../components/cda/overview.md) nella guida utente dei componenti.
 * **Non è necessaria più di una suite di rapporti:** Tutti i dati possono essere raccolti in una singola suite di rapporti, pertanto è meno probabile che uno sviluppatore invii erroneamente i dati alla suite di rapporti sbagliata.
-* **Non è necessario eseguire rollup:** Le aggregazioni dati sono una funzione abbastanza datata che aggrega i dati di singole suite di rapporti su base giornaliera. Le aggregazioni dati non deduplicano i dati relativi a visite o visitatori, il che può portare a numeri gonfiati. Consulta [Rollup](../../admin/admin/c-manage-report-suites/rollup-report-suite.md) per ulteriori informazioni, consulta la guida utente dell’amministratore.
-* **Risparmio di tempo:** I progetti Workspace, le classificazioni, i segmenti e le metriche calcolate sono legati alla stessa suite di rapporti globale. Gli amministratori dedicano meno tempo alla gestione di questi componenti e alla governance dei dati.
-* **Attribuzione cross-brand più precisa:** Se una visita inizia su un sito e poi fa clic su un altro sito prima di attivare un evento di successo, l’attribuzione viene raccolta in modo accurato. Ad esempio, un visitatore fa clic su un collegamento di ricerca a pagamento e arriva al sito A. Quindi fanno clic su un collegamento al sito B, quindi effettuano un acquisto. Una suite di rapporti globale attribuisce correttamente gli attributi che si riacquistano in ricerca a pagamento.
-* **Implementazione semplificata:** Poiché tutti i marchi/siti inviano dati alla stessa suite di rapporti, le implementazioni in ciascun sito sono allineate. Questa governance applicata assicura che una dimensione o metrica specifica venga salvata nello stesso eVar o evento. Amministratori, tester, proprietari della gestione dei tag e analisti traggono vantaggio da questa semplificazione.
+* **Non è necessario eseguire rollup:** le rollup sono una funzione abbastanza datata che aggrega i dati di singole suite di rapporti su base giornaliera. Le aggregazioni dati non deduplicano i dati relativi a visite o visitatori, il che può portare a numeri gonfiati. Per ulteriori informazioni, consulta [Rollup](../../admin/admin/c-manage-report-suites/rollup-report-suite.md) nella guida utente dell&#39;amministratore.
+* **Risparmio di tempo:** i progetti, le classificazioni, i segmenti e le metriche calcolate di Workspace sono associati alla stessa suite di rapporti globale. Gli amministratori dedicano meno tempo alla gestione di questi componenti e alla governance dei dati.
+* **Attribuzione cross-brand più precisa:** se una visita inizia su un sito e poi fa clic su un altro sito prima di attivare un evento di successo, l&#39;attribuzione viene raccolta in modo accurato. Ad esempio, un visitatore fa clic su un collegamento di ricerca a pagamento e arriva al sito A. Quindi fanno clic su un collegamento al sito B, quindi effettuano un acquisto. Una suite di rapporti globale attribuisce correttamente gli attributi che si riacquistano in ricerca a pagamento.
+* **Implementazione semplificata:** poiché tutti i marchi/siti inviano dati alla stessa suite di rapporti, le implementazioni in ogni sito sono allineate. Questa governance applicata assicura che una dimensione o metrica specifica venga salvata nello stesso eVar o evento. Amministratori, tester, proprietari della gestione dei tag e analisti traggono vantaggio da questa semplificazione.
 
 >[!NOTE]
 >
@@ -35,16 +35,16 @@ L’Adobe consiglia di implementare una suite di rapporti globale nella maggior 
 
 Utilizza le seguenti linee guida generali per comprendere il processo di implementazione di una suite di rapporti globale.
 
-1. Crea la suite di rapporti globale in Adobe Analytics. Consulta [Creare una suite di rapporti](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) per ulteriori informazioni, consulta la guida utente dell’amministratore.
+1. Crea la suite di rapporti globale in Adobe Analytics. Per ulteriori informazioni, consulta [Creare una suite di rapporti](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) nella guida utente dell&#39;amministratore.
 1. Lavora con i team della tua organizzazione responsabili di ciascun dominio. Molti team hanno requisiti di reporting specifici per la propria area di business.
-1. Registra e aggrega tutti questi requisiti in un [Documento di progettazione della soluzione](solution-design.md). Se i team hanno requisiti simili per una dimensione, possono utilizzare la stessa variabile personalizzata. Ad esempio, se il sito A e il sito B richiedono entrambi una dimensione di breadcrumb, le implementazioni per entrambi i siti possono inviare tali dati tramite eVar1.
+1. Registra e aggrega tutti questi requisiti in un [documento di progettazione della soluzione](solution-design.md). Se i team hanno requisiti simili per una dimensione, possono utilizzare la stessa variabile personalizzata. Ad esempio, se il sito A e il sito B richiedono entrambi una dimensione di breadcrumb, le implementazioni per entrambi i siti possono inviare tali dati tramite eVar1.
 
    >[!IMPORTANT]
    >
    >Assicurati che qualsiasi variabile personalizzata venga utilizzata in modo simile tra i domini. Non utilizzare lo stesso eVar o evento per scopi diversi nei siti.
 1. Assicurati che ogni dominio abbia un livello di dati per semplificare la raccolta dati. I dati possono comunque essere raccolti senza un livello di dati, ma l’affidabilità e la longevità dell’implementazione diminuiscono, soprattutto in seguito a riprogettazioni del sito.
-1. Utilizza i tag in Adobe Experience Platform per implementare Analytics. Siti diversi richiederanno probabilmente elementi di dati diversi. Utilizza le regole specifiche per ciascun dominio per assicurarti che ogni elemento dati sia compilato correttamente, quindi assegna tali elementi dati alle rispettive eVar ed eventi. Consulta la sezione [panoramica sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
-1. Includi [Servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) e utilizza [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=it) funzione. Questa funzione unisce i dati dei visitatori quando gli utenti fanno clic da un dominio all’altro.
+1. Utilizza i tag in Adobe Experience Platform per implementare Analytics. Siti diversi richiederanno probabilmente elementi di dati diversi. Utilizza le regole specifiche per ciascun dominio per assicurarti che ogni elemento dati sia compilato correttamente, quindi assegna tali elementi dati alle rispettive eVar ed eventi. Consulta la [panoramica dei tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
+1. Includi il [servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) e utilizza la funzione [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=it). Questa funzione unisce i dati dei visitatori quando gli utenti fanno clic da un dominio all’altro.
 
 ## Modifica di un’implementazione esistente con una suite di rapporti globale
 
@@ -57,5 +57,5 @@ Il processo di spostamento di un’implementazione esistente su più siti in un�
 
 ## Pagine correlate
 
-[Passaggio dall’assegnazione di tag a più suite a una suite di rapporti globale e a suite di rapporti virtuali](../../components/vrs/vrs-considerations.md)
+[Passaggio dall&#39;assegnazione di tag a più suite a suite di rapporti globali e suite di rapporti virtuali](../../components/vrs/vrs-considerations.md)
 [Confronto delle aggregazioni dati e delle suite di rapporti globali](../../admin/admin/c-manage-report-suites/rollup-report-suite.md)

@@ -12,8 +12,8 @@ ht-degree: 11%
 
 # Ricariche
 
-&quot;Ricarica&quot; [metrica](overview.md) mostra il numero di volte in cui un elemento dimensione era presente durante un ricaricamento. Un visitatore che aggiorna il browser è il modo più comune per attivare un ricaricamento.
+Il parametro &#39;Ricarica&#39; [metrica](overview.md) mostra il numero di volte in cui un elemento dimensione è stato presente durante un ricaricamento. Un visitatore che aggiorna il browser è il modo più comune per attivare un ricaricamento.
 
 ## Come è calcolata questa metrica
 
-Questa metrica conta il numero di hit in cui il [`Page`](../dimensions/page.md) La dimensione contiene lo stesso valore dell’hit precedente.
+Questa metrica conta il numero di hit in cui la dimensione [`Page`](../dimensions/page.md) contiene lo stesso valore dell&#39;hit precedente.

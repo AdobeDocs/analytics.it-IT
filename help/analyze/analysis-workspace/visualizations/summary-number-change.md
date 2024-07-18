@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '364'
 ht-degree: 84%
 
 ---
@@ -20,7 +20,7 @@ Ecco un video sulle due visualizzazioni:
 
 ## Visualizzazione [!UICONTROL Summary Number] {#summary-number}
 
-Utilizza il [!UICONTROL Summary Number] per evidenziare un numero elevato importante in un progetto. Questa visualizzazione si comporta come segue:
+Utilizza la visualizzazione [!UICONTROL Summary Number] per evidenziare un numero elevato importante in un progetto. Questa visualizzazione si comporta come segue:
 
 * Se non è selezionata alcuna cella, viene selezionato il totale della colonna.
 * Se è selezionata una cella, viene visualizzato il riepilogo per tale cella.
@@ -38,7 +38,7 @@ Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a 
 
 ## Visualizzazione [!UICONTROL Summary Change] {#summary-change}
 
-Utilizza il [!UICONTROL Summary Change] visualizzazione per mostrare il delta (variazione) tra due numeri. Il colore verde e rosso del [!UICONTROL Summary Change] può essere controllato tramite [polarità degli eventi personalizzata](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=it) o di una metrica calcolata [Mostra tendenza verso l&#39;alto come](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=it) opzione.
+Utilizza la visualizzazione [!UICONTROL Summary Change] per mostrare il delta (modifica) tra due numeri. Il colore verde e rosso di [!UICONTROL Summary Change] può essere controllato tramite [polarità evento personalizzata](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=it) o l&#39;opzione [Mostra tendenza verso l&#39;alto come](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=it) di una metrica calcolata.
 
 Questa visualizzazione si comporta come segue:
 

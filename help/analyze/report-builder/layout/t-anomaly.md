@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 3%
+source-wordcount: '173'
+ht-degree: 2%
 
 ---
 
@@ -16,26 +16,26 @@ ht-degree: 3%
 
 Per creare una richiesta di rilevamento delle anomalie nel Report Builder:
 
-1. Seleziona un rapporto con tendenze, ad esempio **[!UICONTROL Site Metrics]** > **[!UICONTROL Traffic]** rapporto.
-1. In [!UICONTROL Apply Granularity] menu, seleziona **[!UICONTROL Day]**.
+1. Selezionare un report con tendenze, ad esempio **[!UICONTROL Site Metrics]** > **[!UICONTROL Traffic]**.
+1. Nel menu [!UICONTROL Apply Granularity], selezionare **[!UICONTROL Day]**.
 
    >[!NOTE]
    >
-   >Il [!UICONTROL Anomaly Detection] è disponibile solo quando selezioni Granularità giorno. I dati dei 30 giorni precedenti vengono utilizzati come periodo di formazione dei dati statistici, indipendentemente dall’intervallo di date selezionato.
+   >Il menu [!UICONTROL Anomaly Detection] è disponibile solo quando si seleziona Granularità giorno. I dati dei 30 giorni precedenti vengono utilizzati come periodo di formazione dei dati statistici, indipendentemente dall’intervallo di date selezionato.
 
-1. Dopo aver configurato gli intervalli di date, fai clic su **[!UICONTROL Next]**.
+1. Dopo aver configurato gli intervalli di date, fare clic su **[!UICONTROL Next]**.
 
-   Nella Creazione guidata richieste: passaggio 2 di 2, aggiungi una metrica, ad esempio **[!UICONTROL Visits]**.
+   Nella Creazione guidata richieste: passaggio 2 di 2, aggiungere una metrica, ad esempio **[!UICONTROL Visits]**.
 
-   Per la metrica aggiunta, fai clic su **[!UICONTROL None]** collegamento.
+   Per la metrica aggiunta, fare clic sul collegamento **[!UICONTROL None]**.
 
-   ![Schermata che mostra il rilevamento delle anomalie, quindi Inserisci e inserire le opzioni per Limite inferiore e superiore e previsto.](assets/anomaly_select.png)
+   ![Schermata che mostra il rilevamento delle anomalie, quindi Inserisci e inserisci le opzioni per Limite inferiore e superiore e previsto.](assets/anomaly_select.png)
 
-1. Seleziona **[!UICONTROL Anomaly Detection]** > **[!UICONTROL `<selection>`]**.
+1. Selezionare **[!UICONTROL Anomaly Detection]** > **[!UICONTROL `<selection>`]**.
 
-   ![Schermata che mostra il Passaggio 2 della Creazione guidata richieste - Rapporto traffico.](assets/anomaly_visit.png)
+   ![Schermata che mostra il passaggio 2 della Creazione guidata richieste - Rapporto traffico.](assets/anomaly_visit.png)
 
-   Quando selezionate una di queste opzioni, il sistema crea copie della metrica originale con Rilevamento anomalie. Ad esempio, per la metrica Visita, una metrica Visita con limite inferiore viene aggiunta al [!UICONTROL Metric] gruppo.
-1. Clic **[!UICONTROL Finish]** e selezionare la cella per l&#39;output in Excel.
+   Quando selezionate una di queste opzioni, il sistema crea copie della metrica originale con Rilevamento anomalie. Ad esempio, per la metrica Visita, al gruppo [!UICONTROL Metric] viene aggiunta una metrica Visita con limite inferiore.
+1. Fare clic su **[!UICONTROL Finish]** e selezionare la cella per l&#39;output in Excel.
 
-   Consulta [Rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) definizioni.
+   Per le definizioni, vedere [Rilevamento anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md).

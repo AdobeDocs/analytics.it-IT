@@ -13,22 +13,22 @@ ht-degree: 3%
 
 # products
 
-Il `products` la variabile traccia i prodotti e le proprietà ad essi associate. Questa variabile viene generalmente impostata su pagine di singoli prodotti, pagine del carrello acquisti e pagine di conferma degli acquisti. È una variabile con più valori, il che significa che puoi inviare più prodotti nello stesso hit e che l’Adobe analizza il valore in elementi dimensionali separati.
+La variabile `products` tiene traccia dei prodotti e delle proprietà ad essi associate. Questa variabile viene generalmente impostata su pagine di singoli prodotti, pagine del carrello acquisti e pagine di conferma degli acquisti. È una variabile con più valori, il che significa che puoi inviare più prodotti nello stesso hit e che l’Adobe analizza il valore in elementi dimensionali separati.
 
 >[!NOTE]
 >
->Se questa variabile è impostata in un hit senza il [`events`](events/events-overview.md) variabile, [Visualizzazioni prodotto](/help/components/metrics/product-views.md) incrementa di 1 la metrica. Assicurati di impostare gli eventi appropriati per ogni hit con il `products` variabile.
+>Se questa variabile è impostata in un hit senza la variabile [`events`](events/events-overview.md), la metrica [Visualizzazioni prodotto](/help/components/metrics/product-views.md) viene incrementata di 1. Assicurarsi di impostare gli eventi appropriati per ogni hit con la variabile `products`.
 
 ## Prodotti che utilizzano il Web SDK
 
-Se utilizzi il [**Oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), i prodotti sono mappati sulle seguenti variabili:
+Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), i prodotti sono mappati alle seguenti variabili:
 
-* Categoria mappata a `xdm.productListItems[].productCategories[].categoryID`. Utilizza il primo elemento nella `productCategories[]` array. `lineItemId` anche mappare correttamente, ma l’Adobe consiglia `categoryID` poiché è un XDM standard. Se sono presenti entrambi i campi XDM, `lineItemId` ha la precedenza.
-* Il prodotto è mappato a `xdm.productListItems[].SKU` o `xdm.productListItems[].name`. Se sono presenti entrambi i campi XDM, `xdm.productListItems[].SKU` viene utilizzato.
+* Categoria mappata a `xdm.productListItems[].productCategories[].categoryID`. Utilizza il primo elemento nell&#39;array `productCategories[]`. Anche `lineItemId` è mappato correttamente, ma l&#39;Adobe consiglia `categoryID` poiché è un XDM standard. Se sono presenti entrambi i campi XDM, `lineItemId` ha la precedenza.
+* Prodotto mappato a `xdm.productListItems[].SKU` o `xdm.productListItems[].name`. Se sono presenti entrambi i campi XDM, viene utilizzato `xdm.productListItems[].SKU`.
 * Quantità mappata a `xdm.productListItems[].quantity`.
-* Il prezzo è mappato a `xdm.productListItems[].priceTotal`.
-* Le eVar di merchandising sono mappate su `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, a seconda dell’eVar da associare a un prodotto.
-* Gli eventi di merchandising sono mappati su `xdm.productListItems[]._experience.analytics.event1to100.event1.value` a `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, a seconda dell’evento che desideri associare a un prodotto. Se imposti un evento in uno di questi campi, questo viene automaticamente incluso nel [evento](events/events-overview.md) stringa inviata ad Adobe Analytics.
+* Prezzo mappato a `xdm.productListItems[].priceTotal`.
+* Le eVar di merchandising sono mappate su `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, a seconda dell&#39;eVar che desideri associare a un prodotto.
+* Gli eventi di merchandising sono mappati su `xdm.productListItems[]._experience.analytics.event1to100.event1.value` a `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, a seconda dell&#39;evento che si desidera associare a un prodotto. Se imposti un evento in uno di questi campi, questo viene automaticamente incluso nella stringa [event](events/events-overview.md) inviata ad Adobe Analytics.
 
 ```json
 {
@@ -53,7 +53,7 @@ Se utilizzi il [**Oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), i
 }
 ```
 
-Se utilizzi il [**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), la variabile dei prodotti utilizza `data.__adobe.analytics.products` seguente AppMeasurement di sintassi. Se imposti questo campo, tutti i prodotti impostati nell’oggetto XDM vengono sovrascritti e non inviati ad Adobe Analytics.
+Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), la variabile prodotti utilizza `data.__adobe.analytics.products` seguendo la sintassi di AppMeasurement. Se imposti questo campo, tutti i prodotti impostati nell’oggetto XDM vengono sovrascritti e non inviati ad Adobe Analytics.
 
 ```json
 {
@@ -73,28 +73,28 @@ Non esiste un campo dedicato nella raccolta dati di Adobe Experience Platform pe
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
-3. Vai a [!UICONTROL Extensions] , quindi fai clic su [!UICONTROL Catalog] per visualizzare tutte le estensioni disponibili.
+3. Vai alla scheda [!UICONTROL Extensions], quindi fai clic su [!UICONTROL Catalog] per visualizzare tutte le estensioni disponibili.
 4. Cerca il termine &quot;prodotto&quot;, che rivela diverse estensioni disponibili per aiutare a impostare questa variabile.
 
 Puoi utilizzare una di queste estensioni oppure l’editor di codice personalizzato seguendo la sintassi di AppMeasurement riportata di seguito.
 
 ## s.products in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.products` variabile è una stringa che contiene più campi delimitati per prodotto. Delimitare ogni campo con un punto e virgola (`;`) nella stringa.
+La variabile `s.products` è una stringa che contiene più campi delimitati per prodotto. Delimitare ogni campo con un punto e virgola (`;`) nella stringa.
 
-* **Categoria** (facoltativo): categoria di prodotto. La lunghezza massima per questo campo è 100 byte.
-* **Nome del prodotto** (obbligatorio): nome del prodotto. La lunghezza massima per questo campo è 100 byte.
+* **Categoria** (facoltativo): la categoria del prodotto. La lunghezza massima per questo campo è 100 byte.
+* **Nome prodotto** (obbligatorio): nome del prodotto. La lunghezza massima per questo campo è 100 byte.
 * **Quantità** (facoltativo): quanti di questi prodotti sono nel carrello. Questo campo si applica solo agli hit con l’evento di acquisto.
-* **Prezzo** (facoltativo): il prezzo totale del prodotto espresso in cifre decimali. Se la quantità è più di uno, impostare il prezzo sul totale e non sul singolo prezzo del prodotto. Allinea la valuta di questo valore in modo che corrisponda al [`currencyCode`](../config-vars/currencycode.md) variabile. Non includere il simbolo di valuta in questo campo. Questo campo si applica solo agli hit con l’evento di acquisto.
-* **Eventi** (facoltativo): eventi associati al prodotto. Delimitare più eventi con una barra verticale (`|`). Consulta [Eventi](events/events-overview.md) per ulteriori informazioni.
-* **eVar** (facoltativo): eVar di merchandising associate al prodotto. Delimitare più eVar di merchandising con una barra verticale (`|`). Consulta [eVar di merchandising](evar-merchandising.md) per ulteriori informazioni.
+* **Prezzo** (facoltativo): il prezzo totale del prodotto espresso in decimali. Se la quantità è più di uno, impostare il prezzo sul totale e non sul singolo prezzo del prodotto. Allineare la valuta di questo valore in modo che corrisponda alla variabile [`currencyCode`](../config-vars/currencycode.md). Non includere il simbolo di valuta in questo campo. Questo campo si applica solo agli hit con l’evento di acquisto.
+* **Eventi** (facoltativo): eventi associati al prodotto. Delimitare più eventi con una barra verticale (`|`). Vedi [eventi](events/events-overview.md) per ulteriori informazioni.
+* **eVar** (facoltativo): eVar di merchandising associate al prodotto. Delimitare più eVar di merchandising con una barra verticale (`|`). Per ulteriori informazioni, consulta [eVar per merchandising](evar-merchandising.md).
 
 ```js
 // Set a single product using all available fields
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Questa variabile supporta più prodotti nello stesso hit. È utile per il carrello e gli acquisti che contengono più prodotti. Lunghezza massima per l&#39;intero `products` stringa è di 64 KB. Separa ogni prodotto con una virgola (`,`) nella stringa.
+Questa variabile supporta più prodotti nello stesso hit. È utile per il carrello e gli acquisti che contengono più prodotti. La lunghezza massima per l&#39;intera stringa `products` è di 64 KB. Separa ogni prodotto con una virgola (`,`) nella stringa.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
@@ -107,7 +107,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 ## Esempi
 
-Il `products` è flessibile quando si omettono i campi e si includono più prodotti. Questa flessibilità può semplificare la perdita di un delimitatore, causando l’invio di dati errati all’Adobe da parte dell’implementazione.
+La variabile `products` è flessibile quando si omettono campi e si includono più prodotti. Questa flessibilità può semplificare la perdita di un delimitatore, causando l’invio di dati errati all’Adobe da parte dell’implementazione.
 
 ```js
 // Include only product and category. Common on individual product pages
@@ -146,7 +146,7 @@ s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
-Se utilizzi il `digitalData` [livello dati](../../prepare/data-layer.md), è possibile eseguire iterazioni attraverso `digitalData.product` array di oggetti:
+Se utilizzi il `digitalData` [livello dati](../../prepare/data-layer.md), puoi eseguire un&#39;iterazione attraverso l&#39;array di oggetti `digitalData.product`:
 
 ```js
 for(var i = 0; i < digitalData.product.length; i++) {

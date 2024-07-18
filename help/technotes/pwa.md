@@ -7,7 +7,7 @@ exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 68%
+ht-degree: 62%
 
 ---
 
@@ -23,11 +23,11 @@ Adobe Analytics funziona perfettamente con i PWA come con i siti web tradizional
 
 ## Ottenere i dati PWA Analytics
 
-Per raccogliere e analizzare i dati PWA con [!UICONTROL Analytics], non è necessario apportare alcuna modifica alla configurazione. [!UICONTROL Analytics] presenta automaticamente le stesse funzionalità e caratteristiche di un sito web tradizionale.
+Per raccogliere e analizzare i dati PWA con [!UICONTROL Analytics], non è necessario apportare modifiche alla configurazione. [!UICONTROL Analytics] fornisce automaticamente tutte le funzionalità e le caratteristiche che offre un sito Web tradizionale.
 
 ## Aggiungere il tracciamento offline per aumentare l’efficacia della PWA
 
-Puoi aumentare l’efficacia delle tue PWA utilizzando Adobe Analytics [funzionalità di tracciamento offline](/help/implement/vars/config-vars/trackoffline.md) con esso. Per impostazione predefinita, questa funzione è disattivata, ma puoi aggiungere la seguente proprietà al file AppMeasurement.js per attivarla: `s.trackOffline=true;`.
+Puoi aumentare l&#39;efficacia del tuo PWA utilizzando le [funzionalità di tracciamento offline](/help/implement/vars/config-vars/trackoffline.md) di Adobe Analytics. Per impostazione predefinita, questa funzione è disattivata, ma puoi aggiungere la seguente proprietà al file AppMeasurement.js per attivarla: `s.trackOffline=true;`.
 
 Ad esempio, nel seguente file AppMeasurement.js, la proprietà viene aggiunta alla fine della `CONFIG SECTION`:
 
@@ -47,6 +47,6 @@ s.trackOffline=true
 *** 
 ```
 
-Per ulteriori informazioni sulla configurazione del file AppMeasurement.js, vedi [Panoramica delle variabili di configurazione](/help/implement/vars/config-vars/configuration-variables.md) e le singole pagine specifiche per le variabili nello stesso sottocapitolo.
+Per ulteriori informazioni sulla configurazione del file AppMeasurement.js, vedere [Panoramica delle variabili di configurazione](/help/implement/vars/config-vars/configuration-variables.md) e le singole pagine specifiche delle variabili nello stesso sottocapitolo.
 
-Per ulteriori informazioni sulle caratteristiche del file AppMeasurement.js, vedi [Panoramica sull’implementazione di JavaScript](/help/implement/js/overview.md).
+Per ulteriori informazioni sulle caratteristiche del file AppMeasurement.js, consulta la [Panoramica sull&#39;implementazione di JavaScript](/help/implement/js/overview.md).

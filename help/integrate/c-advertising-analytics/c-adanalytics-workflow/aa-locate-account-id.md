@@ -23,7 +23,7 @@ Seguono istruzioni su come individuare gli ID account per Google e Bing.
 >- Account MCC (My Client Center) e
 >- Account standard.
 >
->Per questa integrazione con Adobe Analytics, **devi utilizzare un account di accesso standard**, non un account MCC. Il motivo è che un account MCC funge da account &quot;ombrello&quot; che può accedere a più account AdWords con un singolo accesso, mentre l’accesso all’account Standard può accedere a un solo account AdWords per ogni accesso. Google supporta il collegamento di un’e-mail per gestire 5 account, ma Advertising Analytics non supporta ancora questa funzione. Un’e-mail può essere collegata a un solo account Adwords.
+>Per questa integrazione con Adobe Analytics, **devi utilizzare un account di accesso standard**, non un account di accesso MCC. Il motivo è che un account MCC funge da account &quot;ombrello&quot; che può accedere a più account AdWords con un singolo accesso, mentre l’accesso all’account Standard può accedere a un solo account AdWords per ogni accesso. Google supporta il collegamento di un’e-mail per gestire 5 account, ma Advertising Analytics non supporta ancora questa funzione. Un’e-mail può essere collegata a un solo account Adwords.
 
 Fai clic sull’icona Account in alto a destra per visualizzare il numero di account AdWords (ID cliente).
 

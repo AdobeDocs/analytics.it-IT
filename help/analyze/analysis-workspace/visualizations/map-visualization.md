@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 96%
+source-wordcount: '624'
+ht-degree: 93%
 
 ---
 
@@ -39,8 +39,8 @@ Panoramica video:
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL Mobile Lat/Long] | Questa opzione rappresenta i dati provenienti dall’app mobile. Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (seleziona suite di rapporti) > [!UICONTROL Edit Settings] >  [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking]. Impostazione predefinita (se è abilitato il tracciamento della posizione). |
-| [!UICONTROL Geographic Dimension] | Questa opzione rappresenta i dati per segmentazione geografica sulla posizione del visitatore, in base al suo indirizzo IP. Questi dati vengono trasformati in [!UICONTROL Country], [!UICONTROL Region], e [!UICONTROL City]. Tieni presente che non arriva invece al livello del codice postale. Questa dimensione è abilitata per quasi tutte le suite di rapporti. Se non lo è, contatta l’Assistenza clienti Adobe e richiedi che vengano abilitati i rapporti geografici. |
+| [!UICONTROL Mobile Lat/Long] | Questa opzione rappresenta i dati delle app mobili. Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (seleziona una suite di rapporti) > [!UICONTROL Edit Settings] > [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking]. Impostazione predefinita (se è abilitato il tracciamento della posizione). |
+| [!UICONTROL Geographic Dimension] | Questa opzione rappresenta i dati per segmentazione geografica sulla posizione del visitatore, in base al suo indirizzo IP. Questi dati vengono trasformati in [!UICONTROL Country], [!UICONTROL Region] e [!UICONTROL City]. Si noti che non passa al livello DMA o Codice postale. Questa dimensione è abilitata per quasi tutte le suite di rapporti. Se non lo è, contatta l’Assistenza clienti Adobe e richiedi che vengano abilitati i rapporti geografici. |
 
 1. Fai clic su **[!UICONTROL Build]** (Crea).
 
@@ -57,10 +57,10 @@ Panoramica video:
       * Mostra numeri negativi: ad esempio, per una metrica su base annua, la mappa può visualizzare -33% su New York.
       * Con metriche di tipo percentuale, la funzione cluster calcola le medie delle percentuali.
       * Schema di colori verde/rosso: positivo/negativo
+
    * **Ruota** la mappa in 2D o 3D tenendo premuto il tasto [!UICONTROL Ctrl] mentre sposti la mappa.
 
    * **Passa** a un’altra vista, ad esempio una mappa di calore, utilizzando le [impostazioni](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritte di seguito. La vista predefinita è la mappa a bolle.
-
 
 1. **Salva** il progetto per salvare tutte le impostazioni della mappa (coordinate, zoom, rotazione).
 1. Per compilare la tabella a forma libera, sotto alla visualizzazione, trascina in essa le dimensioni e metriche di posizione dalla barra a sinistra:

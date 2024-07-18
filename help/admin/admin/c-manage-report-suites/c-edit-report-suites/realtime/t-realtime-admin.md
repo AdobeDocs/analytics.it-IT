@@ -26,7 +26,7 @@ L’impostazione di rapporti in tempo reale in Adobe Analytics consiste nel sele
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
-   Per informazioni sulle metriche e sulle dimensioni in tempo reale supportate, consulta [Metriche e Dimension supportati](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
+   Per informazioni sulle metriche e dimensioni in tempo reale supportate, vedere [Metriche e Dimension supportati](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Se hai creato delle classificazioni, queste vengono visualizzate rientrate sotto la dimensione per la quale sono definite:
 
@@ -36,7 +36,7 @@ L’impostazione di rapporti in tempo reale in Adobe Analytics consiste nel sele
    >
    >Per un singolo rapporto in tempo reale, al momento non è supportata l’abilitazione di dimensioni duplicate, anche se per ogni dimensione è selezionata una classificazione diversa.
 
-   Per ulteriori informazioni sulle classificazioni, consulta [Informazioni sulle classificazioni](/help/components/classifications/c-classifications.md).
+   Per ulteriori informazioni sulle classificazioni, vedere [Informazioni sulle classificazioni](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ L’impostazione di rapporti in tempo reale in Adobe Analytics consiste nel sele
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Fai clic su **[!UICONTROL Save]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Save]**.
 
    Dopo questa configurazione iniziale del rapporto, l’inizio dello streaming dei dati può richiedere fino a 20 minuti. Da quel momento in poi, i dati sono immediatamente disponibili.
 

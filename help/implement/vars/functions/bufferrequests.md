@@ -13,22 +13,22 @@ ht-degree: 5%
 
 # bufferRequests
 
-Il `bufferRequests()` consente di memorizzare nella cache le richieste di immagini sulla pagina corrente invece di inviarle ad Adobe. L’attivazione di questo metodo è utile negli scenari in cui un browser non supporta [`navigator.sendBeacon()`](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon) o in caso contrario annulla le richieste di immagini quando viene scaricata una pagina. Molte versioni dei browser WebKit, come Safari, mostrano in genere il comportamento di interruzione di una richiesta di immagine quando si fa clic su un collegamento. Il `bufferRequests()` Il metodo è disponibile in tutte le versioni di AppMeasurement v2.25.0 o successive.
+Il metodo `bufferRequests()` consente di memorizzare nella cache le richieste di immagini nella pagina corrente invece di inviarle a Adobe. L&#39;attivazione di questo metodo è utile negli scenari in cui un browser non supporta [`navigator.sendBeacon()`](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon) o in cui le richieste di immagini vengono annullate in altro modo al momento del download di una pagina. Molte versioni dei browser WebKit, come Safari, mostrano in genere il comportamento di interruzione di una richiesta di immagine quando si fa clic su un collegamento. Il metodo `bufferRequests()` è disponibile in tutte le versioni di AppMeasurement v2.25.0 o versioni successive.
 
-Quando chiami [`t()`](t-method.md) o [`tl()`](tl-method.md) in una pagina successiva nella stessa sessione del browser e `bufferRequests()` non è ancora stato chiamato su quella pagina, tutte le richieste nel buffer vengono inviate in aggiunta alla richiesta di immagine della pagina. Le richieste con buffer vengono inviate nell’ordine corretto, dove la richiesta di immagine della pagina corrente viene inviata per ultima.
+Quando chiami [`t()`](t-method.md) o [`tl()`](tl-method.md) in una pagina successiva nella stessa sessione del browser e `bufferRequests()` non è stato ancora chiamato in quella pagina, tutte le richieste nel buffer vengono inviate in aggiunta alla richiesta di immagine della pagina. Le richieste con buffer vengono inviate nell’ordine corretto, dove la richiesta di immagine della pagina corrente viene inviata per ultima.
 
 >[!TIP]
 >
->La marca temporale delle richieste nel buffer viene condivisa con la pagina a cui vengono inviati i dati. Se desideri maggiore precisione nel secondo esatto in cui viene registrata una richiesta inserita nel buffer, puoi impostare [`timestamp`](../page-vars/timestamp.md) variabile di pagina prima del buffering della richiesta. Se utilizzi questa variabile, assicurati che [Marca temporale opzionale](/help/technotes/timestamps-optional.md) è abilitato - in caso contrario, tutti gli hit con marca temporale andranno persi definitivamente!
+>La marca temporale delle richieste nel buffer viene condivisa con la pagina a cui vengono inviati i dati. Se desideri maggiore precisione nel secondo esatto in cui viene registrata una richiesta nel buffer, puoi impostare la variabile di pagina [`timestamp`](../page-vars/timestamp.md) prima di inserire la richiesta nel buffer. Se utilizzi questa variabile, assicurati che [Marca temporale opzionale](/help/technotes/timestamps-optional.md) sia abilitato. In caso contrario, tutti gli hit con marca temporale andranno persi definitivamente.
 
 ## Limitazioni
 
-Quando si chiama `bufferRequests()` tenete presenti le seguenti limitazioni. Poiché questo metodo utilizza [`Window.sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API), si applicano molte delle stesse limitazioni:
+Quando si chiama il metodo `bufferRequests()`, tenere presenti le seguenti limitazioni. Poiché questo metodo utilizza [`Window.sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API), si applicano molte delle stesse limitazioni:
 
 * Il collegamento di destinazione deve trovarsi nello stesso dominio e sottodominio. Le richieste con buffer non funzionano tra domini o sottodomini, anche se entrambi hanno la stessa implementazione di Adobe Analytics. Questa limitazione significa anche che non è possibile utilizzare richieste nel buffer per tenere traccia dei collegamenti di uscita.
 * Il collegamento di destinazione deve utilizzare lo stesso protocollo della pagina corrente. Non è possibile inviare richieste nel buffer tra HTTP e HTTPS.
-* Le richieste nel buffer vengono memorizzate fino alla chiamata `t()` o `tl()` senza chiamare `bufferRequests()` oppure fino alla chiusura del browser o della scheda. Se una sessione del browser termina prima che tu possa inviare tali dati ad Adobe, le richieste buffered non inviate vengono perse definitivamente.
-* Se un browser non supporta [API di archiviazione web](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) o [API JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON), un avviso viene inviato alla console del browser e un AppMeasurement tenta di inviare immediatamente la richiesta di immagine utilizzando `t()` metodo.
+* Le richieste con buffer vengono archiviate fino a quando non si chiama `t()` o `tl()` senza prima chiamare `bufferRequests()` o fino alla chiusura del browser o della scheda. Se una sessione del browser termina prima che tu possa inviare tali dati ad Adobe, le richieste buffered non inviate vengono perse definitivamente.
+* Se un browser non supporta l&#39;[API di archiviazione Web](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) o l&#39;[API JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON), viene inviato un avviso alla console del browser e AppMeasurement tenta di inviare immediatamente la richiesta di immagine utilizzando il metodo `t()`.
 
 ## Richieste nel buffer nell’SDK per web
 
@@ -40,7 +40,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.bufferRequests() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Chiama il `bufferRequests()` metodo prima della chiamata `t()` o `tl()`. Quando `bufferRequests()` viene chiamato, le chiamate di tracciamento successive vengono scritte nell’archiviazione della sessione invece di essere inviate ai server di raccolta dati Adobe.
+Chiamare il metodo `bufferRequests()` prima di chiamare `t()` o `tl()`. Quando si chiama `bufferRequests()`, le chiamate di tracciamento successive vengono scritte nell&#39;archivio delle sessioni anziché inviate ai server di raccolta dati Adobe.
 
 ```js
 // Instantiate the tracking object

@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 4%
+source-wordcount: '287'
+ht-degree: 13%
 
 ---
 
 # Tempo trascorso sulla pagina
 
-Il &#39;Tempo trascorso sulla pagina&#39; [dimensione](overview.md) registra la quantità di tempo trascorso un visitatore sulla pagina. Per misurare il calcolo, utilizza i passaggi seguenti:
+La dimensione &#39;Tempo trascorso sulla pagina&#39; [dimension](overview.md) registra il tempo trascorso da un visitatore sulla pagina. Per misurare il calcolo, utilizza i passaggi seguenti:
 
 1. Per un dato hit, controlla la marca temporale.
 2. Confronta questo hit con la marca temporale dell’hit successivo nella visita. Sono conteggiati sia gli hit di visualizzazione pagina che quelli di tracciamento dei collegamenti.
@@ -28,7 +28,7 @@ Questa dimensione è basata sugli hit, il che significa che il valore è diverso
 
 ![Tempo trascorso sulla pagina](../metrics/assets/time-spent2.png)
 
-## Popola questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
 Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
 
@@ -36,7 +36,7 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 Esistono più dimensioni per il tempo trascorso sulla pagina:
 
-* **Tempo trascorso sulla pagina - a blocchi**: la quantità di tempo è inserita nel bucket. L&#39;intervallo di elementi Dimension è compreso tra `"Less than 15 seconds"` a `"More than 30 minutes"`. Il tempo tra gli hit in genere non dura più di 30 minuti; tuttavia, il tempo tra gli hit può superare i 30 minuti se si utilizzano hit con marca temporale o origini dati.
+* **Tempo trascorso sulla pagina - a blocchi**: la quantità di tempo è a blocchi. Gli elementi Dimension sono compresi tra `"Less than 15 seconds"` e `"More than 30 minutes"`. Il tempo tra gli hit in genere non dura più di 30 minuti; tuttavia, il tempo tra gli hit può superare i 30 minuti se si utilizzano hit con marca temporale o origini dati.
 * **Tempo trascorso sulla pagina - granulare**: ogni numero di secondi è un elemento dimensione univoco.
 
 Consulta [Panoramica sul tempo trascorso](../metrics/time-spent.md) per informazioni più generali sul tempo trascorso.

@@ -13,13 +13,13 @@ ht-degree: 23%
 
 # pageName
 
-Il `pageName` La variabile in genere memorizza il nome di una determinata pagina. È utile determinare quali pagine sono più popolari. Questa variabile compila il [Pagina](/help/components/dimensions/page.md) dimensione.
+La variabile `pageName` in genere memorizza il nome di una determinata pagina. È utile determinare quali pagine sono più popolari. Questa variabile popola la dimensione [Pagina](/help/components/dimensions/page.md).
 
-Se questa variabile non è definita per una determinata chiamata di tracciamento della pagina, il [`pageURL`](pageurl.md) viene invece utilizzata la variabile.
+Se questa variabile non è definita in una determinata chiamata di tracciamento della pagina, viene utilizzata la variabile [`pageURL`](pageurl.md).
 
 >[!NOTE]
 >
->I server di raccolta dati di Adobe eliminano questa dimensione da tutti [tracciamento dei collegamenti](/help/implement/vars/functions/tl-method.md) richieste di immagini. Se desideri che questa dimensione venga visualizzata negli hit di tracciamento dei collegamenti, prova a copiarla in un [eVar](evar.md).
+>Adobe di server di raccolta dati che eliminano questa dimensione da tutte le [richieste di immagini di tracciamento dei collegamenti](/help/implement/vars/functions/tl-method.md). Se desideri che questa dimensione venga visualizzata negli hit di tracciamento dei collegamenti, prova a copiarla in un [eVar](evar.md).
 
 ## Nome pagina utilizzando il Web SDK
 
@@ -36,14 +36,14 @@ Puoi impostare il nome della pagina sia durante la configurazione dell’estensi
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Imposta il [!UICONTROL Extension] in Adobe Analytics e nella sezione [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+5. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL Page name].
 
 Puoi impostare il nome della pagina su qualsiasi valore stringa, inclusi gli elementi dati.
 
 ## s.pageName in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.pageName` variabile è una stringa che in genere contiene il nome della pagina. Può avere un valore massimo di 100 byte; i valori più lunghi vengono troncati. Questo troncamento include le istanze in cui viene eseguito il fallback su `pageURL` se questa variabile è vuota.
+La variabile `s.pageName` è una stringa che in genere contiene il nome della pagina. Può avere un valore massimo di 100 byte; i valori più lunghi vengono troncati. Questo troncamento include le istanze in cui torna a `pageURL` se questa variabile è vuota.
 
 ```js
 // Set page name to a static value
@@ -53,7 +53,7 @@ s.pageName = "Example page name";
 s.pageName = window.document.title;
 ```
 
-Se utilizzi il `digitalData` [livello dati](../../prepare/data-layer.md):
+Se si utilizza il `digitalData` [livello dati](../../prepare/data-layer.md):
 
 ```js
 s.pageName = digitalData.page.pageInfo.pageName;

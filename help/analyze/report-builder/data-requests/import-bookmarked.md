@@ -19,9 +19,9 @@ Quando si seleziona un rapporto con segnalibro, la Creazione guidata richieste p
 
 Il passaggio 1 della Creazione guidata richieste mostra un dashboard e i relativi reportlet in questo modo:
 
-![Schermata che mostra il Passaggio 1 di 2 della Creazione guidata richieste evidenziando Recupera dashboard e Recupera segnalibri.](assets/import_dashboard_reportlet.png)
+![Schermata che mostra il passaggio 1 di 2 della Creazione guidata richieste evidenziando Recupera dashboard e recupera segnalibri.](assets/import_dashboard_reportlet.png)
 
-Quando fai clic su **[!UICONTROL Retrieve your Dashboards]** o **[!UICONTROL Retrieve your Bookmarks]**, i dati del dashboard e/o segnalibro esistenti vengono recuperati e incollati nel foglio di lavoro.
+Quando si fa clic su **[!UICONTROL Retrieve your Dashboards]** o **[!UICONTROL Retrieve your Bookmarks]**, i dati del dashboard e/o segnalibro esistenti vengono recuperati e incollati nel foglio di lavoro.
 
 >[!NOTE]
 >

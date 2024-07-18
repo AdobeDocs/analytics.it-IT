@@ -12,8 +12,8 @@ ht-degree: 7%
 
 # Ordini
 
-&#39;Ordini&#39; [metrica](overview.md) mostra il numero totale di eventi di acquisto effettuati sul sito. Questa metrica è fondamentale per i siti di eCommerce nella misurazione della conversione. Puoi combinare questa metrica con qualsiasi dimensione per vedere quali elementi dimensionali hanno contribuito a un ordine. Ad esempio, puoi visualizzare le campagne principali (utilizzando [Codice di tracciamento](../dimensions/tracking-code.md) ) o i termini di ricerca interni principali (utilizzando una [eVar](../dimensions/evar.md)) che hanno contribuito agli acquisti.
+La [metrica](overview.md) di &#39;Ordini&#39; mostra il numero totale di eventi di acquisto effettuati sul sito. Questa metrica è fondamentale per i siti di eCommerce nella misurazione della conversione. Puoi combinare questa metrica con qualsiasi dimensione per vedere quali elementi dimensionali hanno contribuito a un ordine. Ad esempio, puoi visualizzare le campagne principali (utilizzando la dimensione [Codice di tracciamento](../dimensions/tracking-code.md)) o i termini di ricerca interni principali (utilizzando un [eVar](../dimensions/evar.md)) che hanno contribuito agli acquisti.
 
 ## Come è calcolata questa metrica
 
-Questa metrica conta il numero di hit in cui `purchase` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.
+Questa metrica conta il numero di hit in cui `purchase` esiste nella variabile [`events`](/help/implement/vars/page-vars/events/events-overview.md).

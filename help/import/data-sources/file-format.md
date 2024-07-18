@@ -15,10 +15,10 @@ ht-degree: 5%
 
 I file di origine dati hanno le seguenti proprietà:
 
-* Il file è in `.txt` formato.
-* Le righe con commenti iniziano con &#39;`#`&quot;, e sono facoltativi.
+* Il file è in formato `.txt`.
+* Le righe con commenti iniziano con &#39;`#`&#39; e sono facoltative.
 * La prima riga senza commenti contiene le intestazioni del file.
-* Il primo valore di ogni riga è la data, che utilizza il formato `MM/DD/YYYY` o `MM/DD/YYYY/HH/mm/SS`.
+* Il primo valore di ogni riga è la data, con formato `MM/DD/YYYY` o `MM/DD/YYYY/HH/mm/SS`.
 * I valori su ogni riga, comprese le intestazioni, sono delimitati da tabulazioni.
 * Ogni riga deve avere almeno una dimensione e una metrica.
 
@@ -33,7 +33,7 @@ Tutte le righe di commento vengono ignorate per Adobe quando il file viene elabo
 
 ## Intestazioni
 
-Durante il caricamento di file di origine dati, sono necessarie intestazioni di colonna. Nelle intestazioni di colonna non viene fatta distinzione tra maiuscole e minuscole, ma sono necessari spazi obbligatori (ad esempio, `eVar1` è un’intestazione non valida, mentre `EVAR 1` è valido). Le intestazioni di colonna si applicano a tutte le suite di rapporti. Utilizzare le tabelle seguenti per verificare che ogni intestazione nel file di origine dati sia impostata correttamente.
+Durante il caricamento di file di origine dati, sono necessarie intestazioni di colonna. Nelle intestazioni di colonna non viene fatta distinzione tra maiuscole e minuscole, ma sono necessari spazi obbligatori (ad esempio, `eVar1` è un&#39;intestazione non valida, mentre `EVAR 1` è valido). Le intestazioni di colonna si applicano a tutte le suite di rapporti. Utilizzare le tabelle seguenti per verificare che ogni intestazione nel file di origine dati sia impostata correttamente.
 
 >[!TIP]
 >
@@ -68,7 +68,7 @@ Dimension e metriche vanno nella stessa riga di intestazione.
 
 {style="table-layout:auto"}
 
-Adobe non supporta origini dati per altre dimensioni o metriche. Se sono necessarie variabili oltre a quelle elencate nelle tabelle di cui sopra, è consigliabile utilizzare [API di inserimento dati in blocco](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) invece.
+Adobe non supporta origini dati per altre dimensioni o metriche. Se sono necessarie variabili oltre a quelle elencate nelle tabelle precedenti, provare a utilizzare l&#39;[API di inserimento dati in blocco](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/).
 
 ## Data
 
@@ -89,4 +89,4 @@ I dati del Dimension non possono contenere punti e virgola (`;`). Le righe conte
 
 ## Passaggi successivi
 
-[Caricamento di file](file-upload.md): scopri la procedura per caricare un file di origini dati per l’acquisizione da parte di Adobe.
+[Caricamento file](file-upload.md): scopri come caricare un file di origini dati per l&#39;acquisizione da parte di Adobe.

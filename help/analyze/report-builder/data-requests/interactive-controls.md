@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '579'
 ht-degree: 1%
 
 ---
@@ -33,14 +33,14 @@ I controlli interattivi sono stati creati in risposta a un flusso di lavoro comu
 
 ## Implementare il controllo interattivo dell’intervallo di date {#section_39B228F2D2C44985863D31424C953280}
 
-1. Nel passaggio 1 della Creazione guidata richieste selezionare, ad esempio, **[!UICONTROL Page]** rapporto.
-1. Accanto al **[!UICONTROL Commonly Used Dates]** , fai clic sul pulsante **[!UICONTROL Control Settings]** icona:
+1. Nel passaggio 1 della Creazione guidata richieste selezionare, ad esempio, il report **[!UICONTROL Page]**.
+1. Accanto all&#39;elenco a discesa **[!UICONTROL Commonly Used Dates]**, fare clic sull&#39;icona **[!UICONTROL Control Settings]**:
 
-   ![Schermata del Passaggio 1 della Creazione guidata richieste che evidenzia l&#39;icona Impostazioni controllo. ](assets/date_range_control.png)
+   ![Schermata del passaggio 1 della Creazione guidata richieste che evidenzia l&#39;icona Impostazioni controllo. ](assets/date_range_control.png)
 
 1. Nella finestra di dialogo Impostazioni controllo selezionare tutti gli elementi dell&#39;intervallo di date che si desidera visualizzare nel controllo interattivo. Specificare inoltre la posizione della cella superiore sinistra del controllo.
 
-   ![Schermata che mostra gli elementi di intervallo date selezionati e la posizione della cella in alto a sinistra.](assets/control_settings.png)
+   ![Schermata che mostra gli elementi dell&#39;intervallo di date selezionati e la posizione della cella superiore sinistra.](assets/control_settings.png)
 
 1. Osserva l’opzione &quot;Aggiorna automaticamente le richieste collegate alla selezione dell’elemento&quot;.
 
@@ -51,7 +51,7 @@ I controlli interattivi sono stati creati in risposta a un flusso di lavoro comu
 
 1. Ora puoi modificare l’intervallo di date e la richiesta verrà aggiornata con tale intervallo.
 
-   ![Schermata che mostra l’intervallo di date selezionato.](assets/date_range_control_interactive.png)
+   ![Schermata che mostra l&#39;intervallo di date selezionato.](assets/date_range_control_interactive.png)
 
 1. Puoi anche copiare la richiesta e fare clic con il pulsante destro del mouse per utilizzare una delle due opzioni Incolla richiesta:
 
@@ -67,9 +67,9 @@ I controlli interattivi sono stati creati in risposta a un flusso di lavoro comu
 
 L’implementazione del controllo del segmento interattivo è simile all’implementazione del controllo dell’intervallo di date.
 
-1. Nel passaggio 1 della Creazione guidata richieste, accanto a **[!UICONTROL Segment]** dall&#39;elenco a discesa, seleziona l&#39;icona Impostazioni controllo segmento:
+1. Nel passaggio 1 della Creazione guidata richieste, accanto all&#39;elenco a discesa **[!UICONTROL Segment]**, selezionare l&#39;icona Impostazioni controllo segmento:
 
-   ![Schermata dell’icona Impostazioni controllo segmento.](assets/segment_interactive_1.png)
+   ![Schermata dell&#39;icona Impostazioni controllo segmento.](assets/segment_interactive_1.png)
 
 1. Nella finestra di dialogo Impostazioni controllo segmento, seleziona i segmenti da includere nel menu a discesa. Specificare inoltre la posizione della cella superiore sinistra del controllo.
 

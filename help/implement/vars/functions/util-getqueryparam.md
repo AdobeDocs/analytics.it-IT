@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # Util.getQueryParam
 
-I parametri delle stringhe di query in un URL del browser contengono spesso dati importanti per Analytics. Utilizza il `Util.getQueryParam()` per recuperare dati dalla stringa query.
+I parametri delle stringhe di query in un URL del browser contengono spesso dati importanti per Analytics. Utilizzare il metodo `Util.getQueryParam()` per recuperare i dati dalla stringa di query.
 
 ## Ottenere i dati dei parametri della stringa di query tramite l’estensione Adobe Analytics e l’estensione Web SDK
 
@@ -21,15 +21,15 @@ Puoi ottenere i dati dei parametri della stringa di query impostando i valori ne
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
-3. Vai a [!UICONTROL Data Elements] , quindi fai clic sull’elemento dati desiderato (o crea un elemento dati).
-4. Imposta il [!UICONTROL Extension] elenco a discesa per **[!UICONTROL Core]** e [!UICONTROL Data Element Type] a **[!UICONTROL Query String Parameter]**.
+3. Vai alla scheda [!UICONTROL Data Elements], quindi fai clic sull&#39;elemento dati desiderato (o crea un elemento dati).
+4. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su **[!UICONTROL Core]** e [!UICONTROL Data Element Type] su **[!UICONTROL Query String Parameter]**.
 5. Immetti il parametro della stringa di query nel campo di testo.
 
 Il valore del parametro della stringa di query viene memorizzato nell&#39;elemento dati. Puoi quindi fare riferimento all’elemento dati nelle regole per assegnare le variabili desiderate.
 
 ## s.Util.getQueryParam() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Chiama il `s.Util.getQueryParam()` per recuperare un valore stringa query dall&#39;URL del browser. L&#39;argomento stringa contenente un parametro stringa query è obbligatorio. Questo metodo restituisce una stringa che puoi assegnare alle variabili di Analytics:
+Chiamare il metodo `s.Util.getQueryParam()` per recuperare un valore stringa query dall&#39;URL del browser. L&#39;argomento stringa contenente un parametro stringa query è obbligatorio. Questo metodo restituisce una stringa che puoi assegnare alle variabili di Analytics:
 
 ```js
 s.eVar1 = s.Util.getQueryParam("cid");
@@ -56,4 +56,4 @@ s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 
 >[!TIP]
 >
->Un plug-in simile denominato [`s.getQueryParam`](../plugins/getqueryparam.md) è disponibile. Questo plug-in contiene funzioni più avanzate, ma è anche più complesso e non è incluso in AppMeasurement per impostazione predefinita.
+>È disponibile un plug-in simile denominato [`s.getQueryParam`](../plugins/getqueryparam.md). Questo plug-in contiene funzioni più avanzate, ma è anche più complesso e non è incluso in AppMeasurement per impostazione predefinita.

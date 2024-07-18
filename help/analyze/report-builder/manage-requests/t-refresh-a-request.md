@@ -19,13 +19,13 @@ Aggiorna le richieste dopo averle aggiornate con modifiche, filtri o per visuali
 Se si aumenta l’intervallo di date di una richiesta e quindi si aggiorna la richiesta, Report Builder aggiunge celle per accogliere il numero aggiunto di periodi di tempo.
 
 1. Creare ed eseguire una richiesta.
-1. Dopo aver modificato la richiesta, fai clic con il pulsante destro del mouse sulla richiesta, quindi scegli **[!UICONTROL Refresh Request]** dal menu di scelta rapida. In alternativa, fai clic su nella richiesta, quindi fai clic su **[!UICONTROL Refresh]** nella barra degli strumenti.)
+1. Dopo aver modificato la richiesta, fare clic con il pulsante destro del mouse sulla richiesta, quindi scegliere **[!UICONTROL Refresh Request]** dal menu di scelta rapida. In alternativa, fare clic nella richiesta, quindi fare clic su **[!UICONTROL Refresh]** nella barra degli strumenti.
 
-   Il sistema visualizza [!UICONTROL Refresh Requests] forma:
+   Il sistema visualizza il modulo [!UICONTROL Refresh Requests]:
 
-   **Data adesso:** La data su cui desideri basare l’aggiornamento. Noto anche come [!UICONTROL As Of] data.
+   **Data corrente:** la data su cui si desidera basare l&#39;aggiornamento. Nota anche come data [!UICONTROL As Of].
 
-   **Imposta su Data corrente per le azioni di aggiornamento future:** L&#39;attivazione di questa opzione indica al Report Builder di utilizzare sempre la data corrente come [!UICONTROL Now] (o [!UICONTROL As Of]) data. Per ripristinare questa impostazione, fai clic su [!UICONTROL Options] nella barra degli strumenti.
-1. Fai clic su **[!UICONTROL OK]** (Usa modello di attribuzione non predefinito).
+   **Imposta la data corrente per le azioni di aggiornamento future:** L&#39;attivazione di questa opzione indica al Report Builder di utilizzare sempre la data corrente come [!UICONTROL Now] (o [!UICONTROL As Of]) data. È possibile ripristinare questa impostazione facendo clic su [!UICONTROL Options] nella barra degli strumenti.
+1. Fai clic su **[!UICONTROL OK]**.
 
-   Quando un aggiornamento ha esito positivo, il sistema lo segnala con un’icona verde sul [!UICONTROL Request Manager].
+   Quando un aggiornamento ha esito positivo, il sistema lo segnala con un&#39;icona verde su [!UICONTROL Request Manager].

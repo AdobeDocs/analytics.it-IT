@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Data Warehouse fornisce una funzione che consente di estrarre un elenco di ID visitatore. Questi ID non sono ID cookie, ma ID acquisiti in una delle variabili di conversione. Anche se esistono altri modi per ottenere queste informazioni, l’esempio seguente è un collegamento per generare una richiesta Data Warehouse.
 
-Ad esempio, supponiamo che la tua azienda invii e-mail di marketing a clienti e potenziali clienti. Ognuno di questi destinatari di posta elettronica dispone di un ID univoco nel sistema di posta elettronica (ad esempio *`EMAIL Contact ID`*). I messaggi di posta elettronica vengono configurati in modo che, quando i contatti ricevono un messaggio di posta elettronica e fanno clic su uno dei collegamenti, il visitatore arrivi al sito Web con un ID campagna e un ID contatto e-mail univoco. Ad esempio, il collegamento di posta elettronica potrebbe risolvere i seguenti problemi:
+Ad esempio, supponiamo che la tua azienda invii e-mail di marketing a clienti e potenziali clienti. Ognuno di questi destinatari di posta elettronica dispone di un ID univoco nel sistema di posta elettronica, ad esempio *`EMAIL Contact ID`*. I messaggi di posta elettronica vengono configurati in modo che, quando i contatti ricevono un messaggio di posta elettronica e fanno clic su uno dei collegamenti, il visitatore arrivi al sito Web con un ID campagna e un ID contatto e-mail univoco. Ad esempio, il collegamento di posta elettronica potrebbe risolvere i seguenti problemi:
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158

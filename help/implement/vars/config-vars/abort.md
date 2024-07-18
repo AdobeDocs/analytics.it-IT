@@ -13,17 +13,17 @@ ht-degree: 13%
 
 # abort
 
-Il `abort` la variabile è un valore booleano che può impedire l’invio all’Adobe della chiamata di tracciamento successiva. Funzionalità simili sono presenti nell’SDK per web, che consente di restituire `false` prima dell’invio di un evento XDM.
+La variabile `abort` è un valore booleano che può impedire l&#39;invio all&#39;Adobe della successiva chiamata di tracciamento. Funzionalità simili esistono nell&#39;SDK Web che consentono di restituire `false` prima dell&#39;invio di un evento XDM.
 
 ## Annullare l’invio di un evento tramite l’estensione Web SDK
 
-Utilizza il [!UICONTROL On before event send callback] editor di codice e restituzione `false`.
+Utilizza l&#39;editor di codice [!UICONTROL On before event send callback] e restituisce `false`.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** pulsante sotto [!UICONTROL Adobe Experience Platform Web SDK].
-1. Sotto [!UICONTROL Data Collection], fare clic su **[!UICONTROL Edit on before event send callback code]** pulsante.
-1. Nell’editor di codice, inserisci il seguente codice in qualsiasi condizione che desideri interrompere l’invio di dati a Edge:
+1. Passa alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
+1. In [!UICONTROL Data Collection] fare clic sul pulsante **[!UICONTROL Edit on before event send callback code]**.
+1. Nell’editor di codice, inserisci il seguente codice in qualsiasi condizione che desideri interrompere l’invio di dati ad Edge:
 
 ```js
 return false;
@@ -31,7 +31,7 @@ return false;
 
 ## Annullare l’invio di un evento implementando manualmente l’SDK web
 
-Utilizza il `onBeforeEventSend` callback e ritorno `false`. Consulta [Modifica degli eventi a livello globale](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
+Utilizza il callback `onBeforeEventSend` e restituisce `false`. Per ulteriori informazioni, consulta [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) nella documentazione di Web SDK.
 
 ```js
 alloy("configure"), {
@@ -47,10 +47,10 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.abort in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
-Il `s.abort` è di tipo booleano. Il valore predefinito è `false`.
+La variabile `s.abort` è di tipo booleano. Il valore predefinito è `false`.
 
-* Se impostato su `true`, la chiamata di tracciamento successiva ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)) non invia alcun dato ad Adobe.
-* Se impostato su `false` o non definita, questa variabile non esegue alcuna operazione.
+* Se è impostato su `true`, la successiva chiamata di tracciamento ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)) non invia dati ad Adobe.
+* Se è impostata su `false` o non è definita, questa variabile non esegue alcuna operazione.
 
 ```js
 s.abort = true;
@@ -58,9 +58,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->Il `abort` la variabile viene ripristinata in `false` dopo ogni chiamata di tracciamento. Se desideri interrompere le chiamate di tracciamento successive sulla stessa pagina, imposta `abort` a `true` di nuovo.
+>La variabile `abort` viene reimpostata su `false` dopo ogni chiamata di tracciamento. Se si desidera interrompere le chiamate di tracciamento successive sulla stessa pagina, impostare di nuovo `abort` su `true`.
 
-Il `abort` può essere impostata in [`doPlugins()`](../functions/doplugins.md) è l’ultima funzione che viene eseguita prima di una richiesta di immagine inviata all’Adobe. Questo esempio funziona in modo simile al `onBeforeEventSend` callback tramite Web SDK.
+La variabile `abort` può essere impostata nella funzione [`doPlugins()`](../functions/doplugins.md), che è l&#39;ultima funzione eseguita prima che venga inviata una richiesta di immagine all&#39;Adobe. Questo esempio funziona in modo simile al callback `onBeforeEventSend` utilizzando Web SDK.
 
 ```js
 s.doPlugins = function(s) {

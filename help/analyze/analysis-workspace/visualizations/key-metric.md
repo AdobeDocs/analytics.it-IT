@@ -6,14 +6,14 @@ role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 100%
 
 ---
 
 # Riepilogo delle metriche chiave
 
-La visualizzazione [!UICONTROL Key metric summary] ti consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due intervalli di tempo. Fornisce i vantaggi di più visualizzazioni combinate in un’unica visualizzazione:
+La visualizzazione [!UICONTROL Key metric summary] ti consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due archi temporali. Fornisce i vantaggi di più visualizzazioni combinate in un’unica visualizzazione:
 
 * **[!UICONTROL Line]** visualizzazioni che mostrano la tendenza della metrica per gli intervalli di date principali e di confronto
 
@@ -48,7 +48,7 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
    {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Build]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Build]**.
 
 ## Visualizza l’output
 

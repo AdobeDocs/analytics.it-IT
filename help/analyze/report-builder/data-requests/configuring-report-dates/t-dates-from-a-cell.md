@@ -18,12 +18,12 @@ ht-degree: 4%
 
 **Per configurare le date da una cella**
 
-1. Il giorno [!UICONTROL Request Wizard: Step 1], seleziona **[!UICONTROL Dates From Cell]**.
-1. Immettete i riferimenti di cella nel **[!UICONTROL From]** e **[!UICONTROL To]** oppure fai clic sul selettore e seleziona le celle contenenti le richieste con le date di inizio e fine.
+1. In [!UICONTROL Request Wizard: Step 1], selezionare **[!UICONTROL Dates From Cell]**.
+1. Immettere i riferimenti di cella nei campi **[!UICONTROL From]** e **[!UICONTROL To]** oppure fare clic sul selettore e selezionare le celle contenenti le richieste con le date di inizio e di fine.
 
    Ad esempio, crea una richiesta di Report Builder con l’intervallo di date impostato su &quot;ieri&quot; e genera la data della richiesta nella stessa cella di &quot;oggi()-1&quot;.
 
 Elenco dei formati di data supportati:
 
-![Schermata che mostra i formati di data supportati.](assets/date-formats.png)
+![Schermata con i formati di data supportati.](assets/date-formats.png)
 

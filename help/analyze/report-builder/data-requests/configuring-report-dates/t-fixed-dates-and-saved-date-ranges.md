@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: b850197e-b3bd-4318-a827-61faa41b2db3
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '156'
 ht-degree: 7%
 
 ---
@@ -19,5 +19,5 @@ Quando si specifica una data fissa o un intervallo di date, in Report Builder vi
 1. Nella Creazione guidata richieste: passaggio 1, scegliere **[!UICONTROL Fixed Dates]**.
 1. Fai clic sul collegamento della data.
 1. Seleziona una data, quindi fai clic su **OK**.
-1. Per salvare un intervallo di date, fai clic su **[!UICONTROL Save Date]**.
-1. Configurare le opzioni su [!UICONTROL Save Date Range] forma:
+1. Per salvare un intervallo di date, scegliere **[!UICONTROL Save Date]**.
+1. Configura le opzioni nel modulo [!UICONTROL Save Date Range]:

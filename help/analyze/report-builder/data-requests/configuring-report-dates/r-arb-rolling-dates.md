@@ -26,7 +26,7 @@ Definizioni dei campi per date continue nel Report Builder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Personalizza espressione </p> </td> 
-   <td colname="col2"> <p>Consulta <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > Espressioni data personalizzate</a>. </p> </td> 
+   <td colname="col2"> <p>Vedi <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > espressioni di data personalizzate</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> In data </p> </td> 

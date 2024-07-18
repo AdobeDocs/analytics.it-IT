@@ -5,8 +5,8 @@ feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
 source-git-commit: 42c95198a4d4389308c78c312b5bb37572350cc1
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 14%
+source-wordcount: '328'
+ht-degree: 13%
 
 ---
 
@@ -20,14 +20,14 @@ Di seguito viene illustrato come l’abilitazione dell’opzione &quot;Ordinamen
 
 Esistono quattro possibili modi per organizzare i rapporti Date Warehouse con &quot;Ordinamento metriche&quot;, in base alla configurazione della granularità delle date, delle dimensioni di reporting o delle metriche e all’impostazione di &quot;Righe massime&quot;:
 
-* **Layout 1**: gli elementi riga vengono ordinati in ordine di dizionario (impostazione predefinita). Se è impostato &quot;Max rows&quot; (Max righe), nel rapporto vengono fornite solo le prime N righe.
-* **Layout 2**: Data Warehouse applica un ordinamento metrico su tutte le righe del rapporto. I legami nel primo valore della metrica vengono interrotti dalla seconda metrica, quindi dalla terza e così via. Quando tutte le metriche sono legate, viene applicato l’ordinamento standard del dizionario per gli elementi suddivisi.
-* **Layout 3**: come Layout 2, con solo le N righe superiori (ovvero il numero impostato in &quot;max rows&quot;) generate nel rapporto.
-* **Layout 4**: come Layout 2, con l’eccezione che gli elementi riga per ogni periodo di granularità della data sono raggruppati e ordinati all’interno del rispettivo intervallo di tempo.
+* **Layout 1**: gli elementi riga vengono ordinati in base all&#39;ordine del dizionario (impostazione predefinita). Se è impostato &quot;Max rows&quot; (Max righe), nel rapporto vengono fornite solo le prime N righe.
+* **Layout 2**: Data Warehouse applica un ordinamento metrico a tutte le righe del report. I legami nel primo valore della metrica vengono interrotti dalla seconda metrica, quindi dalla terza e così via. Quando tutte le metriche sono legate, viene applicato l’ordinamento standard del dizionario per gli elementi suddivisi.
+* **Layout 3**: come Layout 2, con solo le N righe superiori (ovvero il numero impostato in &quot;righe massime&quot;) restituite nel report.
+* **Layout 4**: come Layout 2, con l&#39;eccezione che gli elementi riga per ogni periodo di granularità della data sono raggruppati e ordinati all&#39;interno del rispettivo intervallo di tempo.
 
 Fai riferimento alla colonna &quot;Layout rapporto&quot; in questa tabella per determinare come &quot;Ordinamento metriche&quot; interagisce con altre opzioni di reporting per Date Warehouse.
 
-| Ordina per metrica? | Ha delle metriche? | Sono presenti raggruppamenti? | Granularità data? | Numero massimo di righe impostate? | Layout rapporto |
+| Ordinare per metrica? | Ha delle metriche? | Sono presenti raggruppamenti? | Granularità data? | Numero massimo di righe impostate? | Layout rapporto |
 |---|---|---|---|---|---|
 | No | Sì o No | Sì o No | Sì o No | Sì o No | 1 |
 | Sì | No | Sì o No | Sì o No | Sì o No | 1 |

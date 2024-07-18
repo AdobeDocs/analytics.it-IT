@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 82%
+source-wordcount: '335'
+ht-degree: 80%
 
 ---
 
@@ -39,7 +39,7 @@ Questo è il comportamento previsto quando si applicano modelli di attribuzione 
 
 * Se applichi un’attribuzione quando non esistono altre attribuzioni, questa si applica all’intera struttura ad albero della colonna.
 
-* Se aggiungi un raggruppamento dopo l’applicazione di un’attribuzione, per il raggruppamento aggiunto verrà utilizzato il valore predefinito, se tale dimensione ha un valore predefinito. In caso contrario, utilizzerà il raggruppamento dalla colonna padre. Alcune dimensioni hanno un’allocazione predefinita.  Ad esempio: [!UICONTROL Time] dimensioni e [!UICONTROL Referrer] utilizzare [!UICONTROL Same Touch]. Il [!UICONTROL Product] utilizzi delle dimensioni [!UICONTROL Last Touch]. Altre dimensioni non hanno un valore predefinito e utilizzeranno l’allocazione della colonna padre.
+* Se aggiungi un raggruppamento dopo l’applicazione di un’attribuzione, per il raggruppamento aggiunto verrà utilizzato il valore predefinito, se tale dimensione ha un valore predefinito. In caso contrario, utilizzerà il raggruppamento dalla colonna padre. Alcune dimensioni hanno un’allocazione predefinita.  Ad esempio, [!UICONTROL Time] dimensioni e [!UICONTROL Referrer] utilizzano [!UICONTROL Same Touch]. La dimensione [!UICONTROL Product] utilizza [!UICONTROL Last Touch]. Altre dimensioni non hanno un valore predefinito e utilizzeranno l’allocazione della colonna padre.
 
 * Se la struttura ad albero della colonna contiene già delle attribuzioni, la modifica dell’attribuzione ha effetto solo su quella che si sta modificando.
 

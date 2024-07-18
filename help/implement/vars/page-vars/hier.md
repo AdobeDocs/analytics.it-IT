@@ -35,7 +35,7 @@ Puoi impostare le gerarchie sia durante la configurazione dell’estensione Anal
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Imposta il [!UICONTROL Extension] in Adobe Analytics e nella sezione [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+5. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL Hierarchy].
 
 È possibile impostare un valore gerarchico come stringa statica o fare riferimento a un elemento dati. Puoi anche impostare il delimitatore desiderato. Assicurati che il delimitatore impostato qui corrisponda al delimitatore impostato nelle impostazioni della suite di rapporti.

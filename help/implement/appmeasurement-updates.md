@@ -17,41 +17,41 @@ Note cumulative sulla versione di AppMeasurement per JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Scarica la versione più recente di AppMeasurement da [GitHub](https://github.com/adobe/appmeasurement/releases).
+Puoi scaricare la versione più recente di AppMeasurement da [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## Versione 2.26.0
 
 Data di rilascio: **martedì 4 marzo 2024**
 
-* AppMeasurement riconosce e utilizza automaticamente il dominio radice per i domini di livello principale del codice paese, che in precedenza richiedeva configurazioni specifiche del dominio dei cookie. L&#39;aggiornamento può avere implicazioni a causa di questo riconoscimento automatico. Consulta [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) per ulteriori informazioni.
+* AppMeasurement riconosce e utilizza automaticamente il dominio radice per i domini di livello principale del codice paese, che in precedenza richiedeva configurazioni specifiche del dominio dei cookie. L&#39;aggiornamento può avere implicazioni a causa di questo riconoscimento automatico. Per ulteriori informazioni, vedere [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md).
 * La distribuzione include Identity Service Library 5.5.0 e Data Integration Library 9.6.
 
 ## Versione 2.25.0
 
 Data di rilascio: **mercoledì 12 settembre 2023**
 
-* È stato aggiunto il metodo opzionale [`bufferRequests()`](vars/functions/bufferrequests.md) per migliorare l’affidabilità dell’acquisizione delle richieste quando un browser non supporta l’API Beacon o annulla le richieste quando una pagina viene scaricata.
+* È stato aggiunto il metodo opzionale [`bufferRequests()`](vars/functions/bufferrequests.md) per migliorare l&#39;affidabilità dell&#39;acquisizione delle richieste quando un browser non supporta l&#39;API Beacon o annulla le richieste quando una pagina viene scaricata.
 * Sono state aggiunte delle protezioni per impedire più callback di post-tracciamento per una singola richiesta di tracciamento.
 
 ## Versione 2.24.0
 
 Data di rilascio:**mercoledì 18 luglio 2023**
 
-* Aggiunta variabile di configurazione opzionale [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) per decodificare gli URL di collegamento che includono caratteri con codifica a doppio byte.
+* È stata aggiunta la variabile di configurazione facoltativa [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) per decodificare gli URL di collegamento che includono caratteri con codifica doppio byte.
 * È stata aggiunta una gestione aggiuntiva degli errori per i browser con API di hint client dell’agente utente ad alta entropia errate.
-* Intestazione POST Content-Type modificata da utilizzare `x-www-form-urlencoded` per impostazione predefinita.
+* L&#39;intestazione Content-Type di POST è stata modificata per utilizzare `x-www-form-urlencoded` per impostazione predefinita.
 
 ## Versione 2.23.0
 
 Data di rilascio: **23 settembre 2022**
 
-* AppMeasurement ora supporta la raccolta di hint client ad alta entropia dall’agente utente utilizzati dai browser Chromium (Google Chrome e Microsoft Edge) per fornire informazioni sul dispositivo. È possibile configurare gli hint client tramite i tag o utilizzare [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) variabile di configurazione. La raccolta di hint ad alta entropia è disabilitata per impostazione predefinita. Ulteriori informazioni sugli [hint client](/help/technotes/client-hints.md) dell’agente utente.
+* AppMeasurement ora supporta la raccolta di hint client ad alta entropia dall’agente utente utilizzati dai browser Chromium (Google Chrome e Microsoft Edge) per fornire informazioni sul dispositivo. È possibile configurare gli hint client tramite Tag o utilizzare la variabile di configurazione [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md). La raccolta di hint ad alta entropia è disabilitata per impostazione predefinita. Ulteriori informazioni sugli [hint client](/help/technotes/client-hints.md) dell’agente utente.
 
 ## Versione 2.22.4
 
 Data di rilascio: **18 gennaio 2022**
 
-* La chiamata di tracciamento dei collegamenti `s.tl()` verifica se l’oggetto trasmesso contiene un attributo `href` di tipo `string`. Se non è un `string`, quindi ignora graziosamente il `href` invece di generare un errore. Questo scenario può verificarsi quando si passa `svg` alla chiamata di tracciamento dei collegamenti.
+* La chiamata di tracciamento dei collegamenti `s.tl()` verifica se l’oggetto trasmesso contiene un attributo `href` di tipo `string`. Se non è un `string`, l&#39;attributo `href` verrà ignorato invece di generare un errore. Questo scenario può verificarsi quando trasmetti `svg` oggetti alla chiamata di tracciamento dei collegamenti.
 
 ## Versione 2.22.3
 
@@ -63,7 +63,7 @@ Data di rilascio: **11 ottobre 2021**
 
 Data di rilascio: **7 settembre 2021**
 
-* Con questo aggiornamento, `opt.dmp` e `opt.sell` vengono sempre inclusi durante il tracciamento dei collegamenti. Consulta la [Rapporti sulla privacy](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) per ulteriori informazioni, consulta la guida utente dell’amministratore.
+* Con questo aggiornamento, `opt.dmp` e `opt.sell` vengono sempre inclusi durante il tracciamento dei collegamenti. Per ulteriori informazioni, consulta la [segnalazione della privacy](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) nella guida utente dell&#39;amministratore.
 
 ## Versione 2.22.1
 
@@ -347,7 +347,7 @@ Data di rilascio: **5 novembre 2015**
 Data di rilascio: **17 settembre 2015**
 
 * Inclusione di API Visitor 1.5.2
-* Aggiornato [!DNL Audience Manager] modulo per utilizzare Adobe Audience Manager DIL 6.2 - getCustomer ID da VisitorAPI.js e trasmetterli nella chiamata /event a Adobe Audience Manager. (AN-104978)
+* Il modulo [!DNL Audience Manager] è stato aggiornato per utilizzare Adobe Audience Manager DIL 6.2 - getCustomer ID da VisitorAPI.js e trasmetterli nella chiamata /event a Adobe Audience Manager. (AN-104978)
 
 ## Versione 1.5
 
@@ -362,7 +362,7 @@ Data di rilascio: **18 giugno 2015**
 Data di rilascio: **21 maggio 2015**
 
 * A partire dalla versione 4.5 dell&#39;SDK per iOS, una nuova estensione iOS consente di raccogliere i dati di utilizzo dalle app Apple Watch, Widget Oggi, widget per l&#39;editing di foto e tutte le altre app di estensione iOS.
-* A partire dalla versione SDK Android 4.5, una nuova estensione Android consente di raccogliere dati dall&#39;app Android Wearable.
+* A partire dalla versione SDK 4.5 per Android, una nuova estensione Android consente di raccogliere dati dall&#39;app Android Wearable.
 * Inclusione di API Visitor 1.4.
 * Il modulo AudienceManagement è stato aggiornato per l’utilizzo di DIL versione 6.0.
 
@@ -383,7 +383,7 @@ Data di rilascio: **16 aprile 2015**
 Data di rilascio: **19 febbraio 2015**
 
 * Tutta la gestione delle chiamate di monitoraggio ritardate è stata resa coerente. In tal modo vengono corretti i problemi con le variabili sottoposte a backup durante il ritardo, come l’oggetto selezionato con un clic.
-* È stato modificato per non effettuare in maniera automatica il tracciamento del referente dopo la prima chiamata di tracciamento affinché la seconda, terza ecc. chiamata di tracciamento (solitamente tracciamento collegamenti) non conti due volte il referente quando *`s.referrer`* è stato impostato manualmente prima della prima chiamata di tracciamento.
+* È stato modificato per non effettuare in modo automatico il tracciamento del referente dopo la prima chiamata di tracciamento affinché la seconda, terza ecc. chiamata di tracciamento (solitamente tracciamento collegamenti) non conti due volte il referente quando *`s.referrer`* è stato impostato manualmente prima della prima chiamata di tracciamento.
 * Lo zip di distribuzione è stato aggiornato per includere API Visitor 1.3.5.
 
 ## Versione 1.4.2

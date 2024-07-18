@@ -16,7 +16,7 @@ ht-degree: 14%
 
 Il layout personalizzato fornisce la maggior parte delle funzionalità del layout pivot, ma consente di scegliere dove collocare ogni elemento della griglia nel foglio di calcolo. Questo layout offre la flessibilità disponibile nelle versioni precedenti, inclusa l’aggiunta di suddivisioni e micrografici.
 
-I seguenti argomenti sono specifici per [!UICONTROL Custom Layout]:
+Gli argomenti seguenti sono univoci per [!UICONTROL Custom Layout]:
 
 * [Mappare metriche e dimensioni alle celle](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md)
 * [Creare un micrografico](/help/analyze/report-builder/layout/t-create-a-microchart.md)

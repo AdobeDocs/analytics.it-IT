@@ -12,7 +12,7 @@ ht-degree: 16%
 
 # Dimensioni del ciclo di vita mobile
 
-*Questi dati di riferimento di pagina sono comunemente tracciati tramite l’SDK di Adobe Experience Platform Mobile. Per informazioni sui dispositivi mobili tramite l’agente utente, consulta [Dimensioni di ricerca mobile](mobile-dimensions.md). Per le metriche tracciate con l’SDK di Mobile, vedi [Metriche del ciclo di vita mobile](../metrics/lifecycle-metrics.md).*
+*Dati di riferimento di questa pagina tracciati comunemente tramite l&#39;SDK di Adobe Experience Platform Mobile. Per informazioni sul dispositivo mobile tramite l&#39;agente utente, vedere [Dimensioni di ricerca mobile](mobile-dimensions.md). Per le metriche monitorate tramite l&#39;SDK di Mobile, vedi [Metriche del ciclo di vita mobile](../metrics/lifecycle-metrics.md).*
 
 | Nome dimensione ciclo di vita | Descrizione | Variabile dati contestuali |
 | --- | --- | --- |
@@ -26,9 +26,9 @@ ht-degree: 16%
 | [!UICONTROL Acquisition Term] | | `a.referrer.campaign.term` |
 | [!UICONTROL Acquisition Content] | | `a.refferer.campaign.content` |
 | [!UICONTROL Acquisition Name] | | `a.referrer.campaign.name` |
-| [!UICONTROL Location (down to 10 km)] | La latitudine e la longitudine del visitatore, precise al primo decimale. Ad esempio: `040.9` `-111.9`. | `a.loc.lat.a` + `a.loc.lon.a` |
-| [!UICONTROL Location (down to 100 m)] | La latitudine e la longitudine del visitatore, con precisione alla terza cifra decimale. Ad esempio: `040.932` `-111.931`. | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lon.a` + `a.loc.lon.b` |
-| [!UICONTROL Location (down to 1 m)] | La latitudine e la longitudine del visitatore, con precisione al quinto decimale. Ad esempio: `040.93231` `-111.93152`. | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lat.c` + `a.loc.lon.a` + `a.loc.lon.b` + `a.loc.lon.c` |
+| [!UICONTROL Location (down to 10 km)] | La latitudine e la longitudine del visitatore, precise al primo decimale. Ad esempio, `040.9` `-111.9`. | `a.loc.lat.a` + `a.loc.lon.a` |
+| [!UICONTROL Location (down to 100 m)] | La latitudine e la longitudine del visitatore, con precisione alla terza cifra decimale. Ad esempio, `040.932` `-111.931`. | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lon.a` + `a.loc.lon.b` |
+| [!UICONTROL Location (down to 1 m)] | La latitudine e la longitudine del visitatore, con precisione al quinto decimale. Ad esempio, `040.93231` `-111.93152`. | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lat.c` + `a.loc.lon.a` + `a.loc.lon.b` + `a.loc.lon.c` |
 | [!UICONTROL Point of Interest Name] | | `a.loc.poi` |
 | [!UICONTROL Distance to Point of Interest Center] | | `a.loc.dist` |
 | [!UICONTROL Launch Number] | | `a.Launches` |

@@ -12,16 +12,16 @@ ht-degree: 11%
 
 # Visite a pagina singola
 
-*Questa pagina della guida descrive come funziona il funzionamento di &quot;Visite a pagina singola&quot; come metrica. Consulta la [Visite a pagina singola](../dimensions/single-page-visits.md) per ulteriori informazioni.*
+*Questa pagina della guida descrive il funzionamento di &quot;Visite a pagina singola&quot; come metrica. Per ulteriori informazioni, consulta la dimensione [Visite a pagina singola](../dimensions/single-page-visits.md).*
 
-Il [!UICONTROL Single page visits] [metrica](overview.md) mostra il numero di visite in cui [Pagina](../dimensions/page.md) l’elemento dimensionale conteneva un solo valore univoco per l’intera visita. Questa metrica è utile nel contesto di dimensioni in cui desideri visualizzare visite brevi, ma non ha il rigore di una regola come [[!UICONTROL Bounces]](bounces.md) sì.
+La [!UICONTROL Single page visits] [metrica](overview.md) mostra il numero di visite in cui l&#39;elemento dimensione [Pagina](../dimensions/page.md) conteneva un solo valore univoco per l&#39;intera visita. Questa metrica è utile nel contesto di dimensioni in cui desideri visualizzare visite brevi, ma non ha la stessa severità di una regola di [[!UICONTROL Bounces]](bounces.md).
 
 ## Come è calcolata questa metrica
 
-Questa metrica conta il numero di visite in cui [!UICONTROL Page] l’elemento dimensionale conteneva un solo valore univoco per l’intera visita. Se un visitatore ricarica la pagina o genera chiamate di tracciamento dei collegamenti, conta ancora come una visita a pagina singola. Non appena la dimensione Pagina diventa un secondo valore univoco, la visita non si qualifica più come visita a pagina singola.
+Questa metrica conta il numero di visite in cui l&#39;elemento dimensione [!UICONTROL Page] conteneva un solo valore univoco per l&#39;intera visita. Se un visitatore ricarica la pagina o genera chiamate di tracciamento dei collegamenti, conta ancora come una visita a pagina singola. Non appena la dimensione Pagina diventa un secondo valore univoco, la visita non si qualifica più come visita a pagina singola.
 
-Consulta [Accesso singolo](single-access.md) per un confronto tra metriche.
+Vedi [Accesso singolo](single-access.md) per un confronto tra metriche.
 
 ## Conta istanze ripetute
 
-Questa impostazione consente di specificare se le istanze ripetute vengono conteggiate nei rapporti. Per ulteriori informazioni, consulta [Conta istanze ripetute](/help/components/metrics/count-repeat-instances.md).
+Questa impostazione consente di specificare se le istanze ripetute vengono conteggiate nei rapporti. Per ulteriori informazioni, vedere [Conteggio istanze ripetute](/help/components/metrics/count-repeat-instances.md).

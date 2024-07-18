@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Queste restrizioni si applicano solo all’opzione &quot;Pubblica richieste di Report Builder come tabelle di set di dati di Power BI&quot;.
+>Queste restrizioni si applicano solo all’opzione &quot;Publish Report Builder Requests as Power BI Dataset Tables&quot; (Richieste di  di come tabelle di set di dati di ).
 
 * È possibile esportare fino a 100 richieste di Report Builder in Power BI per cartella di lavoro.
 * Il processo di pianificazione interrompe l’esportazione delle richieste quando viene raggiunta la 101a richiesta.
@@ -27,13 +27,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Questa specifica si applica alle opzioni &quot;Pubblica tutte le richieste di Report Builder come tabelle di set di dati di Power BI&quot; e &quot;Pubblica tutte le tabelle formattate nella cartella di lavoro come tabelle di set di dati di Power BI&quot;.
+>Questa specifica si applica alle opzioni &quot;Publish All Report Builder Requests as Power BI Dataset Tables&quot; e &quot;Publish All Formatted Tables in Workbook as Power BI Dataset Tables&quot;.
 
 La modifica di una richiesta di Report Builder dopo la pubblicazione nel Power BI può causare problemi.
 
-* **Caso 1**: pubblichi una cartella di lavoro in Power BI e crei una visualizzazione basata sui relativi dati. Successivamente, si apportano modifiche alla cartella di lavoro, causando la scomparsa di una delle colonne del set di dati a cui fa riferimento. Poi ripubblichi. La visualizzazione verrà interrotta in Power BI.
+* **Caso 1**: una cartella di lavoro viene pubblicata in Power BI e viene creata una visualizzazione basata sui dati. Successivamente, si apportano modifiche alla cartella di lavoro, causando la scomparsa di una delle colonne del set di dati a cui fa riferimento. Poi ripubblichi. La visualizzazione verrà interrotta in Power BI.
 
-   **Ecco un esempio di come la visualizzazione si interromperà:**
+  **Ecco un esempio di interruzione della visualizzazione:**
 
    1. In Report Builder, crea una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
    2. Pianifica la pubblicazione di questa richiesta in Power BI.
@@ -46,7 +46,7 @@ La modifica di una richiesta di Report Builder dopo la pubblicazione nel Power B
       2. Verifica che la tabella page_1 sia aggiornata correttamente con le colonne Pagina e Visite.
       3. Verifica che la visualizzazione sia interrotta, poiché fa riferimento alla colonna Visualizzazioni pagina che non è più presente nella tabella page_1.
 
-   **Ecco un esempio di come la visualizzazione NON si interrompe:**
+  **Ecco un esempio di come la visualizzazione NON si interrompe:**
 
    1. In Report Builder, crea una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
    2. Pianifica la pubblicazione di questa richiesta in Power BI.
@@ -59,8 +59,7 @@ La modifica di una richiesta di Report Builder dopo la pubblicazione nel Power B
       2. Verifica che la tabella page_1 sia aggiornata correttamente con le colonne Pagina, Visualizzazioni pagina e Visite.
       3. Verifica che la visualizzazione continui a funzionare correttamente, poiché fa riferimento a due colonne ancora presenti nella tabella page_1.
 
-
-* **Caso 2**: quando si fissa una sezione della cartella di lavoro a un dashboard in Power BI, la sezione bloccata (ad esempio un grafico o una tabella) viene rimossa dalla cartella di lavoro. La visualizzazione verrà interrotta.
+* **Caso 2**: è possibile fissare una sezione della cartella di lavoro a un dashboard in Power BI e in seguito rimuovere tale sezione bloccata, ad esempio un grafico o una tabella, dalla cartella di lavoro. La visualizzazione verrà interrotta.
 
 ## Modificare il nome di un report di Power BI {#section_2E7893A78B914EBFACB2B08CBD9E472E}
 
@@ -69,5 +68,5 @@ Per impostazione predefinita, il nome viene popolato dal nome del file della car
 Nota bene
 
 * L&#39;etichetta non può essere una combinazione di lettere e numeri che potrebbe essere scambiata per un indirizzo di riga e colonna. Ad esempio, A100 non può essere un&#39;etichetta perché è l&#39;indirizzo di una cella in un foglio di lavoro.
-* I seguenti caratteri non sono caratteri di etichetta validi: `'#', '@', '!', '$', '^', '&', '&#42;', '`&quot;, e `'~', ' '` . Vengono sostituiti da un carattere di sottolineatura.
+* I caratteri seguenti non sono caratteri di etichetta validi: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; e `'~', ' '`. Vengono sostituiti da un carattere di sottolineatura.
 * Quando immetti un nome non valido, viene visualizzato un messaggio di avviso che suggerisce un nome generato automaticamente. Se si fa clic su **[!UICONTROL Yes]**, verrà utilizzato questo nome. Se si fa clic su **[!UICONTROL No]**, l&#39;interfaccia utente della procedura guidata avanzata consente di immettere il nuovo nome.

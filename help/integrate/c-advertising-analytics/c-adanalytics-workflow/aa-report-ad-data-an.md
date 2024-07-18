@@ -24,13 +24,13 @@ Questo rapporto consente a chiunque implementi l’integrazione del motore di ri
 
 >[!NOTE]
 >
->Il rapporto Ricerca a pagamento è visibile a tutti i clienti, anche se non hai implementato alcun account Advertising. Se tenti di aprire il rapporto Ricerca a pagamento per una società per la quale non è stato eseguito il provisioning, viene visualizzato un messaggio di errore per informare che non hai configurato alcun account del motore di ricerca. Seleziona **[!UICONTROL Configure Now]**, che ti porta al [Impostazione account Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) schermo.
+>Il rapporto Ricerca a pagamento è visibile a tutti i clienti, anche se non hai implementato alcun account Advertising. Se tenti di aprire il rapporto Ricerca a pagamento per una società per la quale non è stato eseguito il provisioning, viene visualizzato un messaggio di errore per informare che non hai configurato alcun account del motore di ricerca. Selezionare **[!UICONTROL Configure Now]**, per visualizzare la schermata [Configurazione account Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
 | Tabella/Visualizzazione | Descrizione |
 |--- |--- |
-| Tendenze pubblicitarie | Panoramica con tendenze giornaliere per impressioni AMO, clic AMO e costo AMO. |
+| Tendenze di Advertising | Panoramica con tendenze giornaliere per impressioni AMO, clic AMO e costo AMO. |
 | Piattaforme annuncio | Grafico ad anello per il costo delle prime 2 piattaforme (Google, Bing). |
 | Totali in Ad Platform | Tabella a forma libera delle piattaforme principali suddivisa per impressioni AMO, clic AMO, costi AMO, media AMO. Posizione, media AMO punteggio di qualità. |
 | Account | Superfici di costo in pila. |

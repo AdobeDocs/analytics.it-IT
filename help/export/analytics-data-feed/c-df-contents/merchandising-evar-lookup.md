@@ -5,266 +5,266 @@ feature: Data Feeds
 exl-id: d4b7d53b-21da-42d1-b54a-4602920bb6d4
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 86%
+source-wordcount: '568'
+ht-degree: 44%
 
 ---
 
 # Ricerca istanze Merchandising eVar in post_product_list
 
-Nei feed di dati, la funzione [post_product_list](datafeeds-reference.md) può contenere le istanze merchandising eVar. Ogni eVar è rappresentato da un numero.
+Nei feed di dati, la colonna [post_product_list](datafeeds-reference.md) può contenere le istanze di merchandising eVar. Ogni eVar è rappresentato da un numero.
 
 La ricerca dell’istanza Merchandising eVar per post_product_list è diversa dalla colonna di ricerca event_list in Feed dati.
 
 | Valore di ricerca | Istanza merchandising |
 |--- |--- |
 | 101 | eVar1 |
-| 102 | eVar2 |
-| 103 | eVar3 |
-| 104 | eVar4 |
-| 105 | eVar5 |
-| 106 | eVar6 |
-| 107 | eVar7 |
+| 102 | EVAR 2 |
+| 103 | EVAR 3 |
+| 104 | EVAR 4 |
+| 105 | EVAR 5 |
+| 106 | EVAR 6 |
+| 107 | EVAR 7 |
 | 108 | eVar8 |
-| 109 | eVar9 |
-| 110 | eVar10 |
-| 111 | eVar11 |
-| 112 | eVar12 |
-| 113 | eVar13 |
-| 114 | eVar14 |
-| 115 | eVar15 |
-| 116 | eVar16 |
-| 117 | eVar17 |
-| 118 | eVar18 |
-| 119 | eVar19 |
-| 120 | eVar20 |
-| 121 | eVar21 |
-| 122 | eVar22 |
-| 123 | eVar23 |
-| 124 | eVar24 |
-| 125 | eVar25 |
-| 126 | eVar26 |
-| 127 | eVar27 |
-| 128 | eVar28 |
-| 129 | eVar29 |
-| 130 | eVar30 |
-| 131 | eVar31 |
-| 132 | eVar32 |
-| 133 | eVar33 |
-| 134 | eVar34 |
-| 135 | eVar35 |
-| 136 | eVar36 |
-| 137 | eVar37 |
-| 138 | eVar38 |
-| 139 | eVar39 |
-| 140 | eVar40 |
-| 141 | eVar41 |
-| 142 | eVar42 |
-| 143 | eVar43 |
-| 144 | eVar44 |
-| 145 | eVar45 |
-| 146 | eVar46 |
-| 147 | eVar47 |
-| 148 | eVar48 |
-| 149 | eVar49 |
-| 150 | eVar50 |
-| 151 | eVar51 |
-| 152 | eVar52 |
-| 153 | eVar53 |
-| 154 | eVar54 |
-| 155 | eVar55 |
-| 156 | eVar56 |
-| 157 | eVar57 |
-| 158 | eVar58 |
-| 159 | eVar59 |
-| 160 | eVar60 |
-| 161 | eVar61 |
-| 162 | eVar62 |
-| 163 | eVar63 |
-| 164 | eVar64 |
-| 165 | eVar65 |
-| 166 | eVar66 |
-| 167 | eVar67 |
-| 168 | eVar68 |
-| 169 | eVar69 |
-| 170 | eVar70 |
-| 171 | eVar71 |
-| 172 | eVar72 |
-| 173 | eVar73 |
-| 174 | eVar74 |
+| 109 | EVAR 9 |
+| 110 | eVar 10 |
+| 111 | eVar 11 |
+| 112 | eVar 12 |
+| 113 | eVar 13 |
+| 114 | eVar 14 |
+| 115 | eVar 15 |
+| 116 | eVar 16 |
+| 117 | eVar 17 |
+| 118 | eVar 18 |
+| 119 | eVar 19 |
+| 120 | eVar 20 |
+| 121 | eVar 21 |
+| 122 | eVar 22 |
+| 123 | eVar 23 |
+| 124 | eVar 24 |
+| 125 | eVar 25 |
+| 126 | eVar 26 |
+| 127 | eVar 27 |
+| 128 | eVar 28 |
+| 129 | eVar 29 |
+| 130 | eVar 30 |
+| 131 | eVar 31 |
+| 132 | eVar 32 |
+| 133 | eVar 33 |
+| 134 | eVar 34 |
+| 135 | eVar 35 |
+| 136 | eVar 36 |
+| 137 | eVar 37 |
+| 138 | eVar 38 |
+| 139 | eVar 39 |
+| 140 | eVar 40 |
+| 141 | eVar 41 |
+| 142 | eVar 42 |
+| 143 | eVar 43 |
+| 144 | eVar 44 |
+| 145 | eVar 45 |
+| 146 | eVar 46 |
+| 147 | eVar 47 |
+| 148 | eVar 48 |
+| 149 | eVar 49 |
+| 150 | eVar 50 |
+| 151 | eVar 51 |
+| 152 | eVar 52 |
+| 153 | eVar 53 |
+| 154 | eVar 54 |
+| 155 | eVar 55 |
+| 156 | eVar 56 |
+| 157 | eVar 57 |
+| 158 | eVar 58 |
+| 159 | eVar 59 |
+| 160 | eVar 60 |
+| 161 | eVar 61 |
+| 162 | eVar 62 |
+| 163 | eVar 63 |
+| 164 | eVar 64 |
+| 165 | eVar 65 |
+| 166 | eVar 66 |
+| 167 | eVar 67 |
+| 168 | eVar 68 |
+| 169 | eVar 69 |
+| 170 | eVar 70 |
+| 171 | eVar 71 |
+| 172 | eVar 72 |
+| 173 | eVar 73 |
+| 174 | eVar 74 |
 | 175 | eVar75 |
-| 275 | eVar76 |
-| 276 | eVar77 |
-| 277 | eVar78 |
-| 278 | eVar79 |
-| 279 | eVar80 |
-| 280 | eVar81 |
-| 281 | eVar82 |
-| 282 | eVar83 |
-| 283 | eVar84 |
-| 284 | eVar85 |
-| 285 | eVar86 |
-| 286 | eVar87 |
-| 287 | eVar88 |
-| 288 | eVar89 |
-| 289 | eVar90 |
-| 290 | eVar91 |
-| 291 | eVar92 |
-| 292 | eVar93 |
-| 293 | eVar94 |
-| 294 | eVar95 |
-| 295 | eVar96 |
-| 296 | eVar97 |
-| 297 | eVar98 |
-| 298 | eVar99 |
-| 299 | eVar100 |
-| 1200 | eVar101 |
-| 1201 | eVar102 |
-| 1202 | eVar103 |
-| 1203 | eVar104 |
-| 1204 | eVar105 |
-| 1205 | eVar106 |
-| 1206 | eVar107 |
-| 1207 | eVar108 |
-| 1208 | eVar109 |
-| 1209 | eVar110 |
-| 1210 | eVar111 |
-| 1211 | eVar112 |
-| 1212 | eVar113 |
-| 1213 | eVar114 |
-| 1214 | eVar115 |
-| 1215 | eVar116 |
-| 1216 | eVar117 |
-| 1217 | eVar118 |
-| 1218 | eVar119 |
-| 1219 | eVar120 |
-| 1220 | eVar121 |
-| 1221 | eVar122 |
-| 1222 | eVar123 |
-| 1223 | eVar124 |
-| 1224 | eVar125 |
-| 1225 | eVar126 |
-| 1226 | eVar127 |
-| 1227 | eVar128 |
-| 1228 | eVar129 |
-| 1229 | eVar130 |
-| 1230 | eVar131 |
-| 1231 | eVar132 |
-| 1232 | eVar133 |
-| 1233 | eVar134 |
-| 1234 | eVar135 |
-| 1235 | eVar136 |
-| 1236 | eVar137 |
-| 1237 | eVar138 |
-| 1238 | eVar139 |
-| 1239 | eVar140 |
-| 1240 | eVar141 |
-| 1241 | eVar142 |
-| 1242 | eVar143 |
-| 1243 | eVar144 |
-| 1244 | eVar145 |
-| 1245 | eVar146 |
-| 1246 | eVar147 |
-| 1247 | eVar148 |
-| 1248 | eVar149 |
-| 1249 | eVar150 |
-| 1250 | eVar151 |
-| 1251 | eVar152 |
-| 1252 | eVar153 |
-| 1253 | eVar154 |
-| 1254 | eVar155 |
-| 1255 | eVar156 |
-| 1256 | eVar157 |
-| 1257 | eVar158 |
-| 1258 | eVar159 |
-| 1259 | eVar160 |
-| 1260 | eVar161 |
-| 1261 | eVar162 |
-| 1262 | eVar163 |
-| 1263 | eVar164 |
-| 1264 | eVar165 |
-| 1265 | eVar166 |
-| 1266 | eVar167 |
-| 1267 | eVar168 |
-| 1268 | eVar169 |
-| 1269 | eVar170 |
-| 1270 | eVar171 |
-| 1271 | eVar172 |
-| 1272 | eVar173 |
-| 1273 | eVar174 |
-| 1274 | eVar175 |
-| 1275 | eVar176 |
-| 1276 | eVar177 |
-| 1277 | eVar178 |
-| 1278 | eVar179 |
-| 1279 | eVar180 |
-| 1280 | eVar181 |
-| 1281 | eVar182 |
-| 1282 | eVar183 |
-| 1283 | eVar184 |
-| 1284 | eVar185 |
-| 1285 | eVar186 |
-| 1286 | eVar187 |
-| 1287 | eVar188 |
-| 1288 | eVar189 |
-| 1289 | eVar190 |
-| 1290 | eVar191 |
-| 1291 | eVar192 |
-| 1292 | eVar193 |
-| 1293 | eVar194 |
-| 1294 | eVar195 |
-| 1295 | eVar196 |
-| 1296 | eVar197 |
-| 1297 | eVar198 |
-| 1298 | eVar199 |
-| 1299 | eVar200 |
-| 1300 | eVar201 |
-| 1301 | eVar202 |
-| 1302 | eVar203 |
-| 1303 | eVar204 |
-| 1304 | eVar205 |
-| 1305 | eVar206 |
-| 1306 | eVar207 |
-| 1307 | eVar208 |
-| 1308 | eVar209 |
-| 1309 | eVar210 |
-| 1310 | eVar211 |
-| 1311 | eVar212 |
-| 1312 | eVar213 |
-| 1313 | eVar214 |
-| 1314 | eVar215 |
-| 1315 | eVar216 |
-| 1316 | eVar217 |
-| 1317 | eVar218 |
-| 1318 | eVar219 |
-| 1319 | eVar220 |
-| 1320 | eVar221 |
-| 1321 | eVar222 |
-| 1322 | eVar223 |
-| 1323 | eVar224 |
-| 1324 | eVar225 |
-| 1325 | eVar226 |
-| 1326 | eVar227 |
-| 1327 | eVar228 |
-| 1328 | eVar229 |
-| 1329 | eVar230 |
-| 1330 | eVar231 |
-| 1331 | eVar232 |
-| 1332 | eVar233 |
-| 1333 | eVar234 |
-| 1334 | eVar235 |
-| 1335 | eVar236 |
-| 1336 | eVar237 |
-| 1337 | eVar238 |
-| 1338 | eVar239 |
-| 1339 | eVar240 |
-| 1340 | eVar241 |
-| 1341 | eVar242 |
-| 1342 | eVar243 |
-| 1343 | eVar244 |
-| 1344 | eVar245 |
-| 1345 | eVar246 |
-| 1346 | eVar247 |
-| 1347 | eVar248 |
-| 1348 | eVar249 |
-| 1349 | eVar250 |
+| 275 | eVar 76 |
+| 276 | eVar 77 |
+| 277 | eVar 78 |
+| 278 | eVar 79 |
+| 279 | eVar 80 |
+| 280 | eVar 81 |
+| 281 | eVar 82 |
+| 282 | eVar 83 |
+| 283 | eVar 84 |
+| 284 | eVar 85 |
+| 285 | eVar 86 |
+| 286 | eVar 87 |
+| 287 | eVar 88 |
+| 288 | eVar 89 |
+| 289 | eVar 90 |
+| 290 | eVar 91 |
+| 291 | eVar 92 |
+| 292 | eVar 93 |
+| 293 | eVar 94 |
+| 294 | eVar 95 |
+| 295 | eVar 96 |
+| 296 | eVar 97 |
+| 297 | eVar 98 |
+| 298 | eVar 99 |
+| 299 | eVar 100 |
+| 1200 | eVar 101 |
+| 1201 | eVar 102 |
+| 1202 | eVar 103 |
+| 1203 | eVar 104 |
+| 1204 | eVar 105 |
+| 1205 | eVar 106 |
+| 1206 | eVar 107 |
+| 1207 | eVar 108 |
+| 1208 | eVar 109 |
+| 1209 | eVar 110 |
+| 1210 | eVar 111 |
+| 1211 | eVar 112 |
+| 1212 | eVar 113 |
+| 1213 | eVar 114 |
+| 1214 | eVar 115 |
+| 1215 | eVar 116 |
+| 1216 | eVar 117 |
+| 1217 | eVar 118 |
+| 1218 | eVar 119 |
+| 1219 | eVar 120 |
+| 1220 | eVar 121 |
+| 1221 | eVar 122 |
+| 1222 | eVar 123 |
+| 1223 | eVar 124 |
+| 1224 | eVar 125 |
+| 1225 | eVar 126 |
+| 1226 | eVar 127 |
+| 1227 | eVar 128 |
+| 1228 | eVar 129 |
+| 1229 | eVar 130 |
+| 1230 | eVar 131 |
+| 1231 | eVar 132 |
+| 1232 | eVar 133 |
+| 1233 | eVar 134 |
+| 1234 | eVar 135 |
+| 1235 | eVar 136 |
+| 1236 | eVar 137 |
+| 1237 | eVar 138 |
+| 1238 | eVar 139 |
+| 1239 | eVar 140 |
+| 1240 | eVar 141 |
+| 1241 | eVar 142 |
+| 1242 | eVar 143 |
+| 1243 | eVar 144 |
+| 1244 | eVar 145 |
+| 1245 | eVar 146 |
+| 1246 | eVar 147 |
+| 1247 | eVar 148 |
+| 1248 | eVar 149 |
+| 1249 | eVar 150 |
+| 1250 | eVar 151 |
+| 1251 | eVar 152 |
+| 1252 | eVar 153 |
+| 1253 | eVar 154 |
+| 1254 | eVar 155 |
+| 1255 | eVar 156 |
+| 1256 | eVar 157 |
+| 1257 | eVar 158 |
+| 1258 | eVar 159 |
+| 1259 | eVar 160 |
+| 1260 | eVar 161 |
+| 1261 | eVar 162 |
+| 1262 | eVar 163 |
+| 1263 | eVar 164 |
+| 1264 | eVar 165 |
+| 1265 | eVar 166 |
+| 1266 | eVar 167 |
+| 1267 | eVar 168 |
+| 1268 | eVar 169 |
+| 1269 | eVar 170 |
+| 1270 | eVar 171 |
+| 1271 | eVar 172 |
+| 1272 | eVar 173 |
+| 1273 | eVar 174 |
+| 1274 | eVar 175 |
+| 1275 | eVar 176 |
+| 1276 | eVar 177 |
+| 1277 | eVar 178 |
+| 1278 | eVar 179 |
+| 1279 | eVar 180 |
+| 1280 | eVar 181 |
+| 1281 | eVar 182 |
+| 1282 | eVar 183 |
+| 1283 | eVar 184 |
+| 1284 | eVar 185 |
+| 1285 | eVar 186 |
+| 1286 | eVar 187 |
+| 1287 | eVar 188 |
+| 1288 | eVar 189 |
+| 1289 | eVar 190 |
+| 1290 | eVar 191 |
+| 1291 | eVar 192 |
+| 1292 | eVar 193 |
+| 1293 | eVar 194 |
+| 1294 | eVar 195 |
+| 1295 | eVar 196 |
+| 1296 | eVar 197 |
+| 1297 | eVar 198 |
+| 1298 | eVar 199 |
+| 1299 | eVar 200 |
+| 1300 | eVar 201 |
+| 1301 | eVar 202 |
+| 1302 | eVar 203 |
+| 1303 | eVar 204 |
+| 1304 | eVar 205 |
+| 1305 | eVar 206 |
+| 1306 | eVar 207 |
+| 1307 | eVar 208 |
+| 1308 | eVar 209 |
+| 1309 | eVar 210 |
+| 1310 | eVar 211 |
+| 1311 | eVar 212 |
+| 1312 | eVar 213 |
+| 1313 | eVar 214 |
+| 1314 | eVar 215 |
+| 1315 | eVar 216 |
+| 1316 | eVar 217 |
+| 1317 | eVar 218 |
+| 1318 | eVar 219 |
+| 1319 | eVar 220 |
+| 1320 | eVar 221 |
+| 1321 | eVar 222 |
+| 1322 | eVar 223 |
+| 1323 | eVar 224 |
+| 1324 | eVar 225 |
+| 1325 | eVar 226 |
+| 1326 | eVar 227 |
+| 1327 | eVar 228 |
+| 1328 | eVar 229 |
+| 1329 | eVar 230 |
+| 1330 | eVar 231 |
+| 1331 | eVar 232 |
+| 1332 | eVar 233 |
+| 1333 | eVar 234 |
+| 1334 | eVar 235 |
+| 1335 | eVar 236 |
+| 1336 | eVar 237 |
+| 1337 | eVar 238 |
+| 1338 | eVar 239 |
+| 1339 | eVar 240 |
+| 1340 | eVar 241 |
+| 1341 | eVar 242 |
+| 1342 | eVar 243 |
+| 1343 | eVar 244 |
+| 1344 | eVar 245 |
+| 1345 | eVar 246 |
+| 1346 | eVar 247 |
+| 1347 | eVar 248 |
+| 1348 | eVar 249 |
+| 1349 | eVar 250 |

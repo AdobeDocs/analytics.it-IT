@@ -7,7 +7,7 @@ exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
 source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -19,13 +19,13 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
 >[!TIP]
 >
->Per informazioni su ciascun componente, seleziona l’icona Informazioni accanto al nome di un componente nella barra a sinistra di Analysis Workspace, oppure vedi [Guida ai componenti di Analytics](/help/components/home.md).
+>Per informazioni su ciascun componente, seleziona l&#39;icona Info accanto al nome di un componente nella barra a sinistra di Analysis Workspace oppure fai riferimento alla [Guida ai componenti di Analytics](/help/components/home.md).
 
 ## Inizia ad aggiungere componenti a un progetto
 
-1. [Creare un progetto in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) se non lo hai già fatto.
+1. [Crea un progetto in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md), se non lo hai già fatto.
 
-1. [Aggiungi un pannello](/help/analyze/analysis-workspace/c-panels/panels.md) o [aggiungere una visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) al progetto in Analysis Workspace.
+1. [Aggiungi un pannello](/help/analyze/analysis-workspace/c-panels/panels.md) o [aggiungi una visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) al progetto in Analysis Workspace.
 
    Se aggiungi un componente a un progetto vuoto, viene automaticamente creata una visualizzazione a forma libera.
 
@@ -39,7 +39,7 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
    I segmenti si applicano a tutto il contenuto del pannello.
 
-   Per informazioni su come utilizzare la zona di rilascio dei segmenti su un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md).
+   Per informazioni su come utilizzare la zona di rilascio dei segmenti su un pannello per filtrare il pannello, vedi [Zona di rilascio](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md).
 
    ![rilascia un segmento nella zona di rilascio](assets/segment-dropzone.png)
 
@@ -65,19 +65,19 @@ Per informazioni generali sui tipi di componenti che è possibile aggiungere, ve
 
      ![Aggiungere dimensioni a un progetto](assets/add-dimensions.png)
 
-   * Trascina una o più dimensioni dalla barra a sinistra alla zona di rilascio del segmento per creare un segmento ad hoc, come descritto in [Aggiungere segmenti a un progetto](#add-segments-to-a-project).
+   * Trascina una o più dimensioni dalla barra a sinistra alla zona di rilascio dei segmenti per creare un segmento ad hoc, come descritto in [Aggiungi segmenti a un progetto](#add-segments-to-a-project).
 
      ![rilascia un segmento nella zona di rilascio](assets/segment-dropzone.png)
 
 1. (Facoltativo) Puoi suddividere dimensioni ed elementi dimensionali in Analysis Workspace con altri componenti.
 
-   Per ulteriori informazioni, consulta [Suddividere dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+   Per ulteriori informazioni, vedere [Suddividere dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-Per ulteriori informazioni sull’utilizzo delle dimensioni in Analysis Workspace, consulta [Anteprima dimensioni](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Suddividere dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), e [Dimensioni suddivise in base al tempo](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
+Per ulteriori informazioni sull&#39;utilizzo delle dimensioni in Analysis Workspace, vedere [Anteprima dimensioni](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Suddivisione dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) e [Dimensioni suddivise in base al tempo](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
 ## Aggiungere metriche a un progetto
 
-[Metriche](/help/analyze/analysis-workspace/components/apply-create-metrics.md) consente di quantificare i punti dati in Analysis Workspace. Sono più comunemente utilizzate come colonne in una visualizzazione e legate alle dimensioni.
+[Le metriche](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ti consentono di quantificare i punti dati in Analysis Workspace. Sono più comunemente utilizzate come colonne in una visualizzazione e legate alle dimensioni.
 
 Per aggiungere una metrica a un progetto in Analysis Workspace:
 
@@ -95,11 +95,11 @@ Per aggiungere una metrica a un progetto in Analysis Workspace:
 
    * Trascina una metrica accanto a un’intestazione per vedere entrambe le metriche una accanto all’altra.
 
-Per ulteriori informazioni sull’utilizzo delle metriche in Analysis Workspace, consulta [Metriche](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Per ulteriori informazioni sull&#39;utilizzo delle metriche in Analysis Workspace, vedere [Metriche](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
 ## Aggiungere segmenti a un progetto
 
-[Segmenti](/help/components/segmentation/seg-overview.md) consente di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni specifiche.
+[I segmenti](/help/components/segmentation/seg-overview.md) ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni specifiche.
 
 Puoi utilizzare i segmenti in Analysis Workspace in uno dei seguenti modi:
 
@@ -107,7 +107,7 @@ Puoi utilizzare i segmenti in Analysis Workspace in uno dei seguenti modi:
 
 Quando aggiungi segmenti a un pannello, i segmenti vengono applicati a tutto il contenuto al suo interno.
 
-Per informazioni su come utilizzare la zona di rilascio dei segmenti su un pannello per filtrare il pannello, consulta [Zona di rilascio](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md).
+Per informazioni su come utilizzare la zona di rilascio dei segmenti su un pannello per filtrare il pannello, vedi [Zona di rilascio](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 ### Aggiungere segmenti a una colonna di una tabella a forma libera
 
@@ -117,11 +117,11 @@ Quando aggiungi segmenti a una colonna di una tabella a forma libera, i segmenti
 
 Nel generatore di metriche calcolate, puoi applicare segmenti all’interno della definizione della metrica.
 
-Per ulteriori informazioni, consulta [Metriche segmentate](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+Per ulteriori informazioni, vedere [Metriche segmentate](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Aggiungere intervalli di date a un progetto
 
-[Intervalli di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) determina l’intervallo di tempo di reporting in Analysis Workspace e può essere applicato a uno o più pannelli all’interno di un progetto.
+[Gli intervalli di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) determinano l&#39;intervallo di tempo di reporting in Analysis Workspace e possono essere applicati a uno o più pannelli all&#39;interno di un progetto.
 
 Per impostazione predefinita, ogni pannello include un intervallo di date. Esistono diversi modi per aggiornare un intervallo di date per un pannello. Un modo per aggiornare un intervallo di date per un pannello in Analysis Workspace consiste nel trascinare un componente intervallo di date dalla barra a sinistra:
 
@@ -131,4 +131,4 @@ Per impostazione predefinita, ogni pannello include un intervallo di date. Esist
 
    ![rilascia un intervallo di date](assets/daterange-drop.png)
 
-Per ulteriori informazioni sull’utilizzo di calendari e intervalli di date in Analysis Workspace, consulta [Panoramica del calendario e degli intervalli di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
+Per ulteriori informazioni sull&#39;utilizzo dei calendari e degli intervalli di date in Analysis Workspace, vedere [Panoramica del calendario e degli intervalli di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).

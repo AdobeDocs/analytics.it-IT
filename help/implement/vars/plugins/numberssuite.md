@@ -15,11 +15,11 @@ ht-degree: 5%
 
 {{plug-in}}
 
-La Numbers Suite dispone di una serie di funzioni JavaScript. Include i seguenti plug-in:
+La suite Numbers offre una serie di funzioni JavaScript. Include i seguenti plug-in:
 
-* **`zeroPad`**: aggiungi un numero specifico di zeri all’inizio di un numero. Questo plug-in è utile se una variabile richiede un determinato numero di cifre, ad esempio se si utilizzano oggetti data JavaScript e si desidera formattare il mese e il giorno di una data con due cifre anziché con una sola cifra. Ad esempio: `01/09/2020` invece di `1/9/2020`.
+* **`zeroPad`**: aggiungere un numero specifico di zeri all&#39;inizio di un numero. Questo plug-in è utile se una variabile richiede un determinato numero di cifre, ad esempio se si utilizzano oggetti data di JavaScript e si desidera formattare il mese e il giorno di una data con due cifre anziché con una sola cifra. Ad esempio, `01/09/2020` invece di `1/9/2020`.
 * **`randomNumber`**: genera un numero casuale con un numero specifico di cifre. Questo plug-in è utile se distribuisci tag di terze parti e desideri un numero casuale di cache non funzionante.
-* **`twoDecimals`**: Arrotonda un numero al centesimo dell’armadio. Questo plug-in è utile a scopo di valuta, consentendoti di arrotondare un numero a un valore di valuta valido.
+* **`twoDecimals`**: Arrotondare un numero al centesimo dell&#39;armadio. Questo plug-in è utile a scopo di valuta, consentendoti di arrotondare un numero a un valore di valuta valido.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
@@ -31,8 +31,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -47,14 +47,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -71,24 +71,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Utilizzare i plug-in
 
-Il `zeroPad` La funzione utilizza i seguenti argomenti:
+La funzione `zeroPad` utilizza i seguenti argomenti:
 
 * **num** (obbligatorio, numero intero): numero da aggiungere. La funzione arrotonda il valore di questo argomento per difetto se contiene decimali.
-* **annuire** (obbligatorio, numero intero): numero di cifre nel valore restituito finale. Se il numero da aggiungere ha meno cifre del numero di cifre da aggiungere, il plug-in aggiunge zeri all&#39;inizio del `num` argomento.
+* **nod** (obbligatorio, numero intero): numero di cifre nel valore restituito finale. Se il numero da aggiungere ha meno cifre del numero di cifre da aggiungere, il plug-in aggiunge zeri all&#39;inizio dell&#39;argomento `num`.
 
-Il `randomNumber` La funzione utilizza i seguenti argomenti:
+La funzione `randomNumber` utilizza i seguenti argomenti:
 
-* **annuire** (facoltativo, numero intero): numero di cifre nel numero casuale che si desidera generare. Il valore massimo è di 17 cifre. Il valore predefinito è 10 cifre.
+* **nod** (facoltativo, numero intero): numero di cifre nel numero casuale che si desidera generare. Il valore massimo è di 17 cifre. Il valore predefinito è 10 cifre.
 
-Il `twoDecimals` La funzione utilizza i seguenti argomenti:
+La funzione `twoDecimals` utilizza i seguenti argomenti:
 
 * **val** (obbligatorio, numero): numero (rappresentato da una stringa o da un oggetto numero) che si desidera arrotondare al centesimo più vicino.
 
 ## Restituisce
 
-* Il **zeroPad** funzione restituisce una stringa uguale al valore `num` ma con un numero specifico di zeri aggiunti all&#39;inizio del relativo valore, in modo che il valore restituito abbia il numero corretto di cifre.
-* Il **randomNumber** La funzione restituisce una stringa uguale a un numero casuale con il numero di cifre desiderato.
-* Il **twoDecimals** La funzione restituisce un oggetto number arrotondato al centesimo più vicino.
+* La funzione **zeroPad** restituisce una stringa uguale all&#39;argomento `num`, ma con un numero specifico di zeri aggiunti all&#39;inizio del relativo valore, in modo che il valore restituito abbia il numero corretto di cifre.
+* La funzione **randomNumber** restituisce una stringa uguale a un numero casuale con il numero di cifre desiderato.
+* La funzione **twoDecimals** restituisce un oggetto numero arrotondato al centesimo più vicino.
 
 ## Esempio di chiamate
 

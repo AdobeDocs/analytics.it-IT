@@ -15,7 +15,7 @@ ht-degree: 14%
 
 Stai rilevando un’implementazione di Adobe Analytics dal proprietario tecnico precedente? Il nostro Playbook di implementazione ereditata ti aiuterà a prendere in carico come nuovo Proprietario tecnico di un’implementazione esistente. Nel foglio di calcolo scaricabile, ti guideremo attraverso le attività di individuazione, controllo e documentazione da svolgere nelle prime 10 settimane di lavoro, man mano che sostituisci un’implementazione esistente.
 
-**Scarica il file [Playbook di implementazione ereditato](assets/adobe_analytics_inherited_implementation_playbook.xlsx).**
+**Scarica il [Playbook di implementazione ereditato](assets/adobe_analytics_inherited_implementation_playbook.xlsx).**
 
 ![Playbook](assets/inherited-impl-playbook.png)
 

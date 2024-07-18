@@ -22,5 +22,5 @@ Per indicare quale eVar contiene l’identificatore del visitatore:
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Seleziona una suite di rapporti.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Unique Visitor Variable]**.
-1. Seleziona la **[!UICONTROL Available eVars]** per abilitare l’elenco a discesa.
-1. Seleziona un eVar dall’elenco a discesa, quindi fai clic su **[!UICONTROL Save]**.
+1. Selezionare la casella di controllo **[!UICONTROL Available eVars]** per abilitare l&#39;elenco a discesa.
+1. Selezionare un eVar dall&#39;elenco a discesa, quindi fare clic su **[!UICONTROL Save]**.

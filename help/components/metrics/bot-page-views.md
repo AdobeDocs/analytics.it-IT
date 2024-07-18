@@ -2,8 +2,8 @@
 title: Visualizzazioni pagina bot
 description: Il numero di visualizzazioni di pagina che corrispondono alle regole bot.
 feature: Metrics
-exl-id: 9b1efcb1-10ca-40fb-8f20-e6da105366d9
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+exl-id: d6699880-3faa-4df9-ad49-c7998f6ce45b
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 11%
@@ -12,13 +12,13 @@ ht-degree: 11%
 
 # Visualizzazioni pagina bot
 
-Le &quot;Visualizzazioni di pagina bot&quot; [metrica](overview.md) mostra il numero di hit di pagina corrispondenti [Regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+La metrica [metric](overview.md) delle visualizzazioni di pagina bot mostra il numero di hit di pagina corrispondenti alle [regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 Poiché il reporting dei bot è separato dal resto dei dati della suite di rapporti, questa metrica funziona solo con le dimensioni seguenti:
 
 * [Nome bot](../dimensions/bot-name.md)
 * [Pagina](../dimensions/page.md)
-* Dimensioni basate sul tempo (ad esempio, [Giorno](../dimensions/day.md), [Settimana](../dimensions/week.md), o [Mese](../dimensions/month.md))
+* Dimensioni basate sul tempo (ad esempio, [Giorno](../dimensions/day.md), [Settimana](../dimensions/week.md) o [Mese](../dimensions/month.md))
 
 L’utilizzo di qualsiasi altra dimensione con questa metrica non restituisce dati.
 

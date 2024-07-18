@@ -13,9 +13,9 @@ ht-degree: 19%
 
 # campaign
 
-Il `campaign` La variabile è dedicata alla raccolta dei codici di tracciamento sul sito. Nelle versioni precedenti di Adobe Analytics, aveva un trattamento speciale in cui poteva essere utilizzato come raggruppamento per la maggior parte delle dimensioni. Nella versione corrente di Adobe Analytics, agisce come un eVar.
+La variabile `campaign` è dedicata alla raccolta dei codici di tracciamento sul sito. Nelle versioni precedenti di Adobe Analytics, aveva un trattamento speciale in cui poteva essere utilizzato come raggruppamento per la maggior parte delle dimensioni. Nella versione corrente di Adobe Analytics, agisce come un eVar.
 
-Questa variabile compila il [Codice di tracciamento](/help/components/dimensions/tracking-code.md) dimensione. In genere ottiene il suo valore da una stringa di query utilizzando [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) metodo di utilità. Tuttavia, l’organizzazione determina esattamente come impostare questa variabile.
+Questa variabile popola la dimensione [Codice di tracciamento](/help/components/dimensions/tracking-code.md). In genere ottiene il valore da una stringa di query utilizzando il metodo di utilità [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md). Tuttavia, l’organizzazione determina esattamente come impostare questa variabile.
 
 ## Campagna con l’SDK per web
 
@@ -32,14 +32,14 @@ Puoi impostare la campagna sia durante la configurazione dell’estensione Analy
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.
-5. Imposta il [!UICONTROL Extension] in Adobe Analytics e nella sezione [!UICONTROL Action Type] a [!UICONTROL Set Variables].
+5. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su Adobe Analytics e [!UICONTROL Action Type] su [!UICONTROL Set Variables].
 6. Individua la sezione [!UICONTROL Campaign].
 
 Puoi impostare campaign su un valore o su un parametro di stringa query.
 
 ## s.campaign in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.campaign` la variabile è una stringa che in genere contiene un codice di tracciamento utilizzato nelle attività di marketing. La lunghezza massima è di 255 byte; i valori superiori a 255 byte vengono troncati automaticamente quando vengono inviati all&#39;Adobe.
+La variabile `s.campaign` è una stringa che in genere contiene un codice di tracciamento utilizzato nelle attività di marketing. La lunghezza massima è di 255 byte; i valori superiori a 255 byte vengono troncati automaticamente quando vengono inviati all&#39;Adobe.
 
 ```js
 // Set the campaign variable to a static value

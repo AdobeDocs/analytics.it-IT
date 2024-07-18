@@ -16,6 +16,6 @@ ht-degree: 1%
 >
 >La metrica Persone che si riferisce a Device Co-op è stata rimossa a partire dall’8 marzo 2023. La metrica Persone relativa a CDA descritta in questa pagina è ancora attiva.
 
-Il &#39;Popolo&#39; [metrica](overview.md) è specifico di [Analytics tra dispositivi](../cda/overview.md) suite di rapporti virtuali. Rappresenta la somma delle persone identificate nel rapporto, più il numero di dispositivi che non sono identificati come appartenenti a una persona.
+La [metrica](overview.md) di &#39;Persone&#39; è specifica delle [suite di rapporti virtuali di Analytics](../cda/overview.md) cross-device. Rappresenta la somma delle persone identificate nel rapporto, più il numero di dispositivi che non sono identificati come appartenenti a una persona.
 
-Se un visitatore viene identificato a metà visita, può contare su 2 persone (1 persona non identificata e 1 persona identificata). [Riproduci](/help/components/cda/replay.md) attenua questo doppio conteggio a seconda dell’intervallo di reporting, della frequenza di ripetizione e del tasso di successo. Consulta [Dispositivi univoci](unique-devices.md) per ulteriori informazioni.
+Se un visitatore viene identificato a metà visita, può contare su 2 persone (1 persona non identificata e 1 persona identificata). [Ripetizione](/help/components/cda/replay.md) attenua questo doppio conteggio a seconda dell&#39;intervallo di reporting, della frequenza di ripetizione e del tasso di successo. Per ulteriori informazioni, vedere [Dispositivi univoci](unique-devices.md).

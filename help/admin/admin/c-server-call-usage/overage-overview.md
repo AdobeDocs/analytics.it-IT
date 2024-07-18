@@ -15,8 +15,8 @@ ht-degree: 81%
 
 L’utilizzo delle chiamate al server Adobe Analytics soddisfa le richieste di trasparenza nei dati di utilizzo delle chiamate sia al browser che al server mobile. Consente di accedere a:
 
-* Un dashboard dell’utilizzo delle chiamate al server che tiene traccia dei dati di consumo delle chiamate al server e li confronta con il limite contrattuale. In Adobe Analytics, seleziona > [!UICONTROL **Amministratore**] > [!UICONTROL **Utilizzo delle chiamate server**])
-* Tipo di avviso per l’utilizzo delle chiamate al server nel generatore di avvisi che consente di impostare avvisi per evitare interruzioni (in Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Avvisi**])
+* Un dashboard dell’utilizzo delle chiamate al server che tiene traccia dei dati di consumo delle chiamate al server e li confronta con il limite contrattuale. In Adobe Analytics, seleziona > [!UICONTROL **Amministratore**] > [!UICONTROL **Utilizzo chiamate server**]
+* Tipo di avviso per l&#39;utilizzo delle chiamate al server nel generatore di avvisi che consente di impostare avvisi per evitare interruzioni (in Adobe Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Avvisi**])
 
 I principali vantaggi dell’utilizzo delle chiamate al server includono:
 
@@ -25,8 +25,8 @@ I principali vantaggi dell’utilizzo delle chiamate al server includono:
 
 ## Prerequisiti {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Autorizzazioni:** Per accedere al dashboard sull’utilizzo delle chiamate al server e al generatore di avvisi o alla gestione degli avvisi, devi essere un amministratore Adobe Analytics.
-* **Autorizzazioni:** gli amministratori possono concedere l’accesso agli utenti non amministratori: l’autorizzazione si chiama **[!UICONTROL Server call usage]**. Consulta [Autorizzazione di utilizzo delle chiamate server](#server-call-usage-permission).
+* **Autorizzazioni:** Per accedere al dashboard di utilizzo delle chiamate al server e al generatore di avvisi o alla gestione degli avvisi, è necessario essere un amministratore Adobe Analytics.
+* **Autorizzazioni:** gli amministratori possono concedere l’accesso agli utenti non amministratori: l’autorizzazione si chiama **[!UICONTROL Server call usage]**. Vedi [Autorizzazione per l&#39;utilizzo delle chiamate server](#server-call-usage-permission).
 
 ## Terminologia importante {#terminology}
 
@@ -99,13 +99,13 @@ L’autorizzazione per l’utilizzo delle chiamate al server viene concessa auto
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Accedi ad Analytics tramite sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Accedi a <span class="ignoretag"> <span class="uicontrol"> Amministratore </span>  &gt; <span class="uicontrol"> Tutti gli amministratori </span>  &gt; <span class="uicontrol"> Gestione utente </span>  &gt; <span class="uicontrol"> Gruppi </span>  &gt; <span class="uicontrol"> Modifica accesso a tutti i rapporti </span>  &gt; <span class="uicontrol"> Strumenti di Analytics </span>  &gt; <span class="uicontrol"> Personalizza </span>  &gt; <span class="uicontrol"> utilizzo delle chiamate al server </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Passa a <span class="ignoretag"> <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Tutti gli amministratori </span> &gt; <span class="uicontrol"> Gestione utenti </span> &gt; <span class="uicontrol"> Gruppi </span> &gt; <span class="uicontrol"> Modifica accesso a tutti i rapporti </span> &gt; <span class="uicontrol"> Strumenti di Analytics </span> &gt; <span class="uicontrol"> Personalizza </span> &gt; <span class="uicontrol"> utilizzo chiamate al server </span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Accedi a login.experiencecloud.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Fai clic su <span class="uicontrol"> Analytics </span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Accedi a <span class="ignoretag"> <span class="uicontrol"> Prodotti </span>  &gt; <span class="uicontrol"> Profilo prodotto </span>  &gt; <span class="uicontrol"> Autorizzazioni </span>  &gt; <span class="uicontrol"> Strumenti di Analytics </span>  &gt; <span class="uicontrol"> utilizzo delle chiamate al server </span> </span> </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Passa a <span class="ignoretag"> <span class="uicontrol"> Prodotti </span> &gt; <span class="uicontrol"> Profilo prodotto </span> &gt; <span class="uicontrol"> Autorizzazioni </span> &gt; <span class="uicontrol"> Strumenti di Analytics </span> &gt; <span class="uicontrol"> Utilizzo chiamate al server </span> </span> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 

@@ -5,8 +5,8 @@ feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 94%
+source-wordcount: '265'
+ht-degree: 93%
 
 ---
 
@@ -27,10 +27,10 @@ Quando è necessario condividere i segmenti con l’intera azienda anziché con 
 
 1. Nel Gestore segmenti, contrassegna la casella di controllo accanto al segmento che desideri condividere. Viene visualizzata la barra degli strumenti di gestione del segmento.
 
-2. Fai clic su **[!UICONTROL Share]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+2. Fare clic su **[!UICONTROL Share]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
    Se sei un amministratore, puoi selezionare **[!UICONTROL All]** (tutti) o scegliere tra **[!UICONTROL Groups]** (gruppi) e **[!UICONTROL Users]** (utenti) dell’organizzazione. In qualità di non amministratore, puoi visualizzare solo i singoli utenti. Usa il campo **[!UICONTROL Search]** per cercare gruppi o utenti. 1. Fai clic su **[!UICONTROL Share]**.
 
-   Accanto al segmento viene visualizzata l’icona Condiviso: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+   Accanto al segmento viene visualizzata l&#39;icona Condiviso: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
 3. Puoi filtrare i segmenti condivisi con te scegliendo **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.

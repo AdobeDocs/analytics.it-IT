@@ -16,7 +16,7 @@ ht-degree: 78%
 
 Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati.
 
-Ecco un video sulla [!UICONTROL Treemap] visualizzazione:
+Ecco un video sulla visualizzazione [!UICONTROL Treemap]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334458/?quality=12)
 

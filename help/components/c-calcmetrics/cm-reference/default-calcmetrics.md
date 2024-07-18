@@ -21,8 +21,8 @@ Di seguito è riportato un elenco di ogni metrica calcolata fornita da Adobe, co
 >Oltre alle metriche calcolate predefinite descritte in questa pagina, puoi anche aggiungere ulteriori metriche calcolate a una suite di rapporti.
 >
 >È possibile:
-> * Aggiungere metriche calcolate predefinite per il componente aggiuntivo Streaming Media Collection, come descritto in [Metriche calcolate](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
-> * Creare metriche calcolate personalizzate dalle metriche esistenti, come descritto in [Metriche calcolate e metriche calcolate avanzate (derivate)](/help/components/c-calcmetrics/cm-overview.md).
+> * Aggiungere le metriche calcolate predefinite per il componente aggiuntivo Streaming Media Collection, come descritto in [Metriche calcolate](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
+> * Creare metriche calcolate personalizzate da metriche esistenti, come descritto in [Metriche calcolate e metriche calcolate avanzate (derivate)](/help/components/c-calcmetrics/cm-overview.md).
 
 
 | Nome metrica calcolata | Funzione | Formula |
@@ -37,7 +37,7 @@ Di seguito è riportato un elenco di ogni metrica calcolata fornita da Adobe, co
 | Velocità dei contenuti | La velocità con cui i nuovi contenuti vengono creati e pubblicati sul sito e la velocità con cui generano coinvolgimento degli utenti. | `[Page Views] / [Visits]` |
 | Tasso di conversione | Percentuale di visitatori che hanno intrapreso un’azione desiderata, ad esempio un acquisto. | `[Orders] / [Visits]` |
 | Tasso di ingresso | La percentuale di visitatori che sono entrati nel sito in una determinata pagina rispetto al numero totale di sessioni sul sito. | `[Entries] / [Visits]` |
-| Visitatori univoci stimati (ITP 2.1) | Per i visitatori ITP (utenti nei browser Safari), dividi Visitatori univoci per 2 o meno. Questa metrica calcolata presuppone che tu sia impostato su cookie utilizzando JavaScript lato client (non utilizzando un’implementazione CNAME). Le implementazioni che impostavano i cookie utilizzando JavaScript lato client erano interessate a partire da ITP 2.1. Consulta [Prevenzione intelligente del tracciamento](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) per i dettagli. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| Visitatori univoci stimati (ITP 2.1) | Per i visitatori ITP (utenti nei browser Safari), dividi Visitatori univoci per 2 o meno. Questa metrica calcolata presuppone che tu sia impostato su cookie utilizzando JavaScript lato client (non utilizzando un’implementazione CNAME). Le implementazioni che impostavano i cookie utilizzando JavaScript lato client erano interessate a partire da ITP 2.1. Per ulteriori informazioni, consulta [Intelligent tracking prevent](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/). | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Copertura ID Experience Cloud | La percentuale di visitatori che hanno un ID Experience Cloud. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Frequenza di uscita | La percentuale di visitatori che abbandonano il sito dopo aver visualizzato una pagina particolare. | `[Exits] / [Visits]` |
 | ITP 2.1 Visitatori univoci / Visitatori univoci | La percentuale di visitatori univoci che utilizzano un browser soggetta alle limitazioni dei cookie ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |

@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # s_gi
 
-Il `s_gi()` La funzione crea un’istanza o trova un’istanza di AppMeasurement in base all’ID della suite di rapporti. AppMeasurement tiene traccia di tutte le istanze create e `s_gi()` restituisce l’istanza esistente per una suite di rapporti, se ne esiste una. Se non esiste alcuna istanza, viene creata una nuova istanza.
+La funzione `s_gi()` crea un&#39;istanza o trova un&#39;istanza di AppMeasurement in base all&#39;ID suite di rapporti. AppMeasurement tiene traccia di ogni istanza creata e `s_gi()` restituisce l&#39;istanza esistente per una suite di rapporti, se ne esiste una. Se non esiste alcuna istanza, viene creata una nuova istanza.
 
 ## Creare un’istanza di un oggetto di tracciamento utilizzando l’estensione Web SDK
 
@@ -21,12 +21,12 @@ L&#39;estensione Web SDK crea un&#39;istanza e gestisce l&#39;oggetto di traccia
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** in Adobe Experience Platform Web SDK.
-1. Modificare il [!UICONTROL Name] al valore desiderato. Il valore predefinito è `alloy`.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Experience Platform Web SDK.
+1. Modificare il campo [!UICONTROL Name] nel valore desiderato. Il valore predefinito è `alloy`.
 
 ## Creare un’istanza di un oggetto di tracciamento implementando manualmente l’SDK per web
 
-Il codice seguente carica l&#39;SDK Web e crea un&#39;istanza di un oggetto di tracciamento. È possibile personalizzare il nome dell&#39;oggetto di tracciamento modificando la stringa `"alloy"` alla fine dello script in linea al valore desiderato.
+Il codice seguente carica l&#39;SDK Web e crea un&#39;istanza di un oggetto di tracciamento. È possibile personalizzare il nome dell&#39;oggetto di tracciamento modificando la stringa `"alloy"` alla fine dello script in linea con il valore desiderato.
 
 ```js
 <script>
@@ -38,26 +38,26 @@ Il codice seguente carica l&#39;SDK Web e crea un&#39;istanza di un oggetto di t
 <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
 ```
 
-Consulta [Installare l’SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it) per ulteriori informazioni, consulta la documentazione dell’SDK per web.
+Per ulteriori informazioni, consulta [Installare l&#39;SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it) nella documentazione dell&#39;SDK Web.
 
 ## Creare un’istanza di un oggetto di tracciamento utilizzando l’estensione Adobe Analytics
 
-L&#39;estensione Analytics crea e gestisce automaticamente l&#39;oggetto di tracciamento. Tuttavia, è anche possibile impostare un oggetto di tracciamento globale nel [!UICONTROL Library Management] Pannello a soffietto durante la configurazione dell’estensione Adobe Analytics.
+L&#39;estensione Analytics crea e gestisce automaticamente l&#39;oggetto di tracciamento. Tuttavia, è anche possibile impostare un oggetto di tracciamento globale nel pannello a soffietto [!UICONTROL Library Management] durante la configurazione dell&#39;estensione Adobe Analytics.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
-1. Espandi [!UICONTROL Library Management] Pannello a soffietto e selezionare un pulsante di opzione diverso da [!UICONTROL Manage the library for me].
+1. Espandere il pannello a soffietto [!UICONTROL Library Management] e selezionare un pulsante di opzione diverso da [!UICONTROL Manage the library for me].
 
 Il campo di testo variabile globale consente di impostare un oggetto di tracciamento personalizzato. Il valore predefinito è `s`.
 
 ## s_gi() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Chiama il `s_gi()` per creare un&#39;istanza di un oggetto di tracciamento. Il suo unico argomento contiene una stringa delimitata da virgole di ID suite di rapporti. L’argomento ID suite di rapporti è obbligatorio.
+Chiamare la funzione `s_gi()` per creare un&#39;istanza di un oggetto di tracciamento. Il suo unico argomento contiene una stringa delimitata da virgole di ID suite di rapporti. L’argomento ID suite di rapporti è obbligatorio.
 
 >[!TIP]
 >
->L’Adobe consiglia di utilizzare `s` come oggetto di tracciamento. utilizzi Adobi `s` nella documentazione, negli esempi di implementazione e nei plug-in. Tuttavia, puoi utilizzare qualsiasi variabile purché sia coerente all’interno del sito.
+>Adobe consiglia di utilizzare la variabile `s` come oggetto di tracciamento. Adobe utilizza `s` nella documentazione, negli esempi di implementazione e nei plug-in. Tuttavia, puoi utilizzare qualsiasi variabile purché sia coerente all’interno del sito.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -69,7 +69,7 @@ var s = s_gi("examplersid1,examplersid2");
 
 >[!CAUTION]
 >
->Le sezioni e gli esempi seguenti contengono argomenti di implementazione complessi. Testare accuratamente l’implementazione e tenere traccia delle personalizzazioni importanti nei [documento di progettazione della soluzione](../../prepare/solution-design.md).
+>Le sezioni e gli esempi seguenti contengono argomenti di implementazione complessi. Verifica accuratamente l&#39;implementazione e tieni traccia delle personalizzazioni importanti nel [documento di progettazione della soluzione](../../prepare/solution-design.md) della tua organizzazione.
 
 ## Gestire più implementazioni utilizzando diversi oggetti di tracciamento
 
@@ -93,7 +93,7 @@ z.t();
 
 ## Ripristina le variabili di AppMeasurement dopo la sovrascrittura dell’oggetto s
 
-Alcuni strumenti di terze parti potrebbero utilizzare anche JavaScript `s` oggetto. Se sovrascrivi accidentalmente il `s` sul tuo sito, puoi chiamare `s_gi` con lo stesso argomento stringa RSID per ripristinare tutte le variabili e i metodi sovrascritti.
+Alcuni strumenti di terze parti potrebbero inoltre utilizzare l&#39;oggetto JavaScript `s`. Se si sovrascrive accidentalmente l&#39;oggetto `s` sul sito, è possibile chiamare `s_gi` con lo stesso argomento stringa RSID per ripristinare tutte le variabili e i metodi sovrascritti.
 
 ```js
 // Step 1: Instantiate the tracking object
@@ -114,7 +114,7 @@ s.t();
 
 ## Fare riferimento allo stesso oggetto di tracciamento con più variabili
 
-Se due variabili fanno riferimento allo stesso `s_gi()` con la stessa suite di rapporti, puoi utilizzare le variabili in modo intercambiabile.
+Se due variabili fanno riferimento alla stessa funzione `s_gi()` con la stessa suite di rapporti, è possibile utilizzare le variabili in modo intercambiabile.
 
 ```js
 // If the RSID is the same, any variables set in the 's' tracking object also get set in 'z' tracking object

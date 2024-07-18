@@ -27,7 +27,7 @@ Quando si scaricano i progetti, considera quanto segue:
    * L’esportazione dei download può richiedere alcuni minuti, perché il progetto viene rieseguito su server Adobe prima del rendering in formato PDF. È consigliabile non uscire dal progetto fino al completamento del download del PDF nel browser. Tuttavia, puoi continuare ad apportare modifiche al progetto mentre attendi. Se la generazione di un PDF richiede più di 5 minuti, ti verrà chiesto di usare l’e-mail.
    * I download vengono riprodotti come una singola pagina senza impaginazione.
    * I rendering PDF contengono ciò che si trova sulla pagina in Workspace. Se un progetto contiene pannelli e visualizzazioni di dimensione personalizzata, dovrai impostarne ridimensionamento automatico (con il pulsante in alto a destra) in modo da evitare che alcuni contenuti vengano troncati.
-   * Qualsiasi [collegamenti ipertestuali](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) che esistono nelle tabelle a forma libera non funzionano nel PDF scaricato.
+   * Tutti i [collegamenti ipertestuali](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) presenti nelle tabelle a forma libera non funzionano in PDF scaricato.
 
 Per scaricare un progetto come file CSV o PDF:
 

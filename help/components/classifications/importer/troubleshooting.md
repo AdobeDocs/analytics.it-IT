@@ -5,7 +5,7 @@ feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '861'
 ht-degree: 86%
 
 ---
@@ -18,7 +18,7 @@ I problemi più comuni durante il caricamento dei dati di classificazione in Ado
 
 Le classificazioni richiedono un tipo e un formato di file specifici affinché il caricamento vada a buon fine. Se vengono salvate in modo scorretto, si genera un errore e le righe non vengono elaborate. L’errore restituito è spesso *“La prima colonna deve essere occupata dalla chiave”*, ma possono verificarsi anche errori diversi. Verifica quanto segue:
 
-* **Caricamento di un foglio di calcolo (.xlsx) invece di un file .tab o .txt**: puoi visualizzare il messaggio di errore *&quot;La prima colonna deve essere la chiave&quot;* quando carichi i file di classificazione in un formato non corretto. L’importazione di classificazioni non è in grado di gestire i file .xls o .xlsx. Imposta il tipo di file corretto nella finestra di dialogo “Salva con nome” in Excel:
+* **Caricamento di un foglio di calcolo (.xlsx) invece di un file .tab o .txt**: è possibile ricevere il messaggio di errore *&quot;La prima colonna deve essere la chiave&quot;* quando si caricano file di classificazione in un formato non corretto. L’importazione di classificazioni non è in grado di gestire i file .xls o .xlsx. Imposta il tipo di file corretto nella finestra di dialogo “Salva con nome” in Excel:
    * In Windows, utilizza il formato file `Text (Tab delimited) (*.txt)`
    * In Mac, utilizza il formato file `Windows Formatted Text`.
 * **Modifica dell’estensione del nome file dopo averlo salvato come cartella di lavoro**: se provi a rinominare direttamente un’estensione di file, viene generata una cartella di lavoro non valida. Utilizza solo la funzione Salva con nome di Excel o modifica le classificazioni in un editor di testo come Notepad++.
@@ -38,7 +38,7 @@ Se il file di caricamento è formattato correttamente, il caricatore tenta di im
 * **Sono presenti sottoclassificazioni non configurate correttamente**. Se sono presenti sottoclassificazioni, verifica che:
    * Tutti i valori delle sottoclassificazioni abbiano un valore di classificazione padre
    * Due sottoclassificazioni non facciano riferimento allo stesso valore di classificazione padre
-* **Colonna non corrispondente**: puoi visualizzare il messaggio di errore *&quot;La chiave in linea contiene troppe colonne&quot;* se un numero di colonne su una riga non è valido. Ad esempio, nel caricamento della classificazione sono presenti 3 colonne e la variabile ha una sola classificazione. Convalida il file di caricamento per assicurarti che il numero di colonne non sia maggiore del numero di classificazioni configurate per tale variabile.
+* **Mancata corrispondenza colonne**: è possibile ricevere il messaggio di errore *&quot;La chiave in linea contiene troppe colonne&quot;* se in una riga è presente un numero di colonne non valido. Ad esempio, nel caricamento della classificazione sono presenti 3 colonne e la variabile ha una sola classificazione. Convalida il file di caricamento per assicurarti che il numero di colonne non sia maggiore del numero di classificazioni configurate per tale variabile.
 
 ## Risoluzione dei problemi relativi alle importazioni FTP
 

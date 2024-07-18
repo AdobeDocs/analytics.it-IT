@@ -5,24 +5,24 @@ feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 2%
+source-wordcount: '559'
+ht-degree: 3%
 
 ---
 
 # Codice di tracciamento
 
-Il &#39;Codice di tracciamento&#39; [dimensione](overview.md) elenca i nomi dei codici di tracciamento sul sito. Puoi inserire collegamenti con valori di parametri di stringhe di query diversi in posizioni diverse su Internet. Questa dimensione ti aiuta a capire quali collegamenti sono stati più efficaci nel traffico verso il tuo sito.
+Nel &#39;Codice di tracciamento&#39; [dimension](overview.md) sono elencati i nomi dei codici di tracciamento sul sito. Puoi inserire collegamenti con valori di parametri di stringhe di query diversi in posizioni diverse su Internet. Questa dimensione ti aiuta a capire quali collegamenti sono stati più efficaci nel traffico verso il tuo sito.
 
 L’aggiunta di stringhe di query del codice di tracciamento è comune nelle e-mail, negli annunci pubblicitari, nei post sui social media e in altre attività di marketing utilizzate dalla tua organizzazione.
 
-## Popola questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
-Questa dimensione recupera i dati da [`v0` stringa di query](/help/implement/validate/query-parameters.md) nelle richieste di immagini. L’AppMeasurement raccoglie questi dati utilizzando [`campaign`](/help/implement/vars/page-vars/campaign.md) variabile.
+Questa dimensione recupera i dati dalla stringa di query [`v0`](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile [`campaign`](/help/implement/vars/page-vars/campaign.md).
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono i nomi dei codici di tracciamento sul sito. L’organizzazione determina gli elementi dimensionali specifici che desideri utilizzare. Consulta [Tracciamento delle campagne](/help/implement/use-cases/campaign-tracking.md) per ulteriori informazioni.
+Gli elementi di Dimension includono i nomi dei codici di tracciamento sul sito. L’organizzazione determina gli elementi dimensionali specifici che desideri utilizzare. Per ulteriori informazioni, consulta [Tracciamento campagna](/help/implement/use-cases/campaign-tracking.md).
 
 ## Confrontare la dimensione Codice di tracciamento con i canali di marketing che raccolgono i codici di tracciamento
 

@@ -41,7 +41,7 @@ Poiché Adobe riconosce che l’utente ha più familiarità con i dati personali
 
 A tal fine, Adobe Analytics fornisce un’interfaccia utente per la governance dei dati che ti consente, in qualità di titolare del trattamento dei dati, di impostare le [etichette sulla privacy](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels), oltre a tutte le dimensioni e le metriche, nelle suite di rapporti di Analytics. Puoi identificare le colonne nel set di dati che contengono i dati direttamente o indirettamente identificabili in modo da poter inviare le richieste di accesso e cancellazione per il trattamento di tali dati. Per ogni richiesta, le etichette definite nell&#39;interfaccia utente per la governance dei dati di Analytics verranno rispettate per l&#39;identificatore specifico che corrisponde a tale richiesta.
 
-Consulta [Etichettare i dati della suite di rapporti](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) per ulteriori informazioni su come impostare le etichette.
+Per ulteriori informazioni su come impostare le etichette, vedere [Etichettare i dati della suite di rapporti](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).
 
 ## Prerequisiti {#section_3C766371CE0641C0821FE8E750E5AE0C}
 

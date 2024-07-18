@@ -18,15 +18,15 @@ I filtri URL interni consentono di identificare i referenti considerati interni 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Internal URL Filters]**
 
-Un referente o pagina di riferimento è in genere la pagina da cui un visitatore è entrato nel sito. Per evitare alterazioni dei dati, puoi filtrare i referenti interni. I Dimension che si basano su filtri URL interni includono [Referrer](/help/components/dimensions/referrer.md), [Dominio di riferimento](/help/components/dimensions/referring-domain.md), [Canali di marketing](/help/components/dimensions/marketing-channel.md)e altre dimensioni dell’origine del traffico.
+Un referente o pagina di riferimento è in genere la pagina da cui un visitatore è entrato nel sito. Per evitare alterazioni dei dati, puoi filtrare i referenti interni. I Dimension che si basano su filtri URL interni includono [Referrer](/help/components/dimensions/referrer.md), [Dominio di riferimento](/help/components/dimensions/referring-domain.md), [Canali di marketing](/help/components/dimensions/marketing-channel.md) e altre dimensioni dell&#39;origine del traffico.
 
-[Regole di elaborazione per il canale di marketing](../marketing-channels/c-rules.md) fornisci &quot;[!UICONTROL Matches internal URL filters]&quot; come possibile criterio della regola.
+[Le regole di elaborazione del canale di marketing](../marketing-channels/c-rules.md) forniscono &quot;[!UICONTROL Matches internal URL filters]&quot; come criteri di regola possibili.
 
 >[!IMPORTANT]
 >
->Alcune suite di rapporti hanno un filtro URL interno di un punto (`.`) configurata per impostazione predefinita. Quando questo filtro esiste, tutto il traffico viene classificato come interno. I rapporti del referente non funzionano finché questo filtro non viene rimosso e sostituito con uno o più domini interni desiderati.
+>Alcune suite di rapporti hanno un filtro URL interno di un punto (`.`) configurato per impostazione predefinita. Quando questo filtro esiste, tutto il traffico viene classificato come interno. I rapporti del referente non funzionano finché questo filtro non viene rimosso e sostituito con uno o più domini interni desiderati.
 
-* Visualizza tutti i filtri esistenti sotto **[!UICONTROL Current Filters]** sezione.
-* Aggiungi un filtro utilizzando la casella di testo sotto **[!UICONTROL Add Filter]** , quindi fai clic su **[!UICONTROL Add]**.
+* Visualizza tutti i filtri esistenti nella sezione **[!UICONTROL Current Filters]**.
+* Aggiungere un filtro utilizzando la casella di testo nella sezione **[!UICONTROL Add Filter]**, quindi fare clic su **[!UICONTROL Add]**.
 
-I filtri funzionano con **contiene** rispetto all’URL completo. L&#39;Adobe consiglia di omettere il protocollo (`https://`) e i sottodomini durante la creazione di filtri, a meno che il traffico proveniente da sottodomini separati non sia desiderato come traffico esterno.
+I filtri operano utilizzando la logica **contains** rispetto all&#39;URL completo. L&#39;Adobe consiglia di omettere il protocollo (`https://`) e i sottodomini durante la creazione dei filtri, a meno che il traffico da sottodomini separati non sia desiderato come traffico esterno.

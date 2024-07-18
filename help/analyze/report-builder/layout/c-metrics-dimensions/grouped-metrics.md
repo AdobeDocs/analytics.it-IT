@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 4b26df2e-22c5-435a-815b-fc3d36d5ed02
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 21%
+source-wordcount: '87'
+ht-degree: 20%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 21%
 
 Le metriche del traffico e del commercio vengono visualizzate nella stessa categoria di metriche nella Richiesta guidata: passaggio 2. La categoria raggruppata è etichettata **[!UICONTROL Standard]**.
 
-![Schermata della Richiesta guidata: Passaggio 2 Elenco delle metriche standard.](assets/standard_metrics.png)
+![Schermata della Richiesta guidata: passaggio 2 Elenco delle metriche standard.](assets/standard_metrics.png)

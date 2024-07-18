@@ -16,8 +16,8 @@ ht-degree: 2%
 
 In Layout personalizzato è possibile trasformare una colonna di metriche in un grafico a barre con un valore percentuale corrispondente o in un valore percentuale con un grafico a barre corrispondente. Il valore percentuale è il valore della metrica o il totale della richiesta complessiva non filtrata per il periodo.
 
-1. Creare una richiesta in Excel utilizzando [Layout personalizzato](/help/analyze/report-builder/layout/configure-the-custom-layout.md).
+1. Crea una richiesta in Excel utilizzando il [Layout personalizzato](/help/analyze/report-builder/layout/configure-the-custom-layout.md).
 1. Fai clic con il pulsante destro del mouse sulla colonna del valore della metrica.
-1. Seleziona **[!UICONTROL Change Output Display]**, quindi il tipo di micrografico e di visualizzazione della percentuale che si desidera visualizzare.
+1. Selezionare **[!UICONTROL Change Output Display]**, quindi il tipo di micrografico e la visualizzazione della percentuale che si desidera visualizzare.
 
    Report Builder modifica la visualizzazione nella colonna in modo che corrisponda alla selezione.

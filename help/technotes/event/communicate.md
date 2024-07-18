@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Comunicazione dell’impatto dell’evento agli utenti
 
-Se si dispone di dati [interessato da un evento](overview.md), è importante comunicare tale evento agli utenti dell’organizzazione.
+Se si dispone di dati [interessati da un evento](overview.md), è importante comunicare tale evento agli utenti dell&#39;organizzazione.
 
 * Sviluppa una liberatoria comune che puoi utilizzare nelle comunicazioni per coerenza
 * Fornisci comunicazioni continue agli utenti di Analytics e alle principali parti interessate durante e dopo l’evento
@@ -22,13 +22,13 @@ In Adobe Analytics, le sezioni seguenti mostrano diversi modi di comunicare con 
 
 ## Comunicazione attraverso descrizioni di pannelli o visualizzazioni
 
-Se un progetto Workspace è condiviso tra gli utenti dell’organizzazione, puoi comunicare l’impatto di un evento tramite descrizioni di pannelli o visualizzazioni. Fai clic con il pulsante destro del mouse su un pannello o su un’intestazione di visualizzazione, quindi seleziona **[!UICONTROL Edit description]**.
+Se un progetto Workspace è condiviso tra gli utenti dell’organizzazione, puoi comunicare l’impatto di un evento tramite descrizioni di pannelli o visualizzazioni. Fai clic con il pulsante destro del mouse su un pannello o su un&#39;intestazione di visualizzazione, quindi seleziona **[!UICONTROL Edit description]**.
 
 ![Descrizione pannello](assets/panel_description.png)
 
 ## Comunicazione tramite visualizzazioni di testo
 
-Puoi anche comunicare l’impatto di un evento tramite visualizzazioni di testo dedicate. Consulta [Visualizzazioni testo](/help/analyze/analysis-workspace/visualizations/text.md) nella guida utente Analizza.
+Puoi anche comunicare l’impatto di un evento tramite visualizzazioni di testo dedicate. Vedi [Visualizzazioni di testo](/help/analyze/analysis-workspace/visualizations/text.md) nella guida utente Analizza.
 
 ![Visualizzazione testo](assets/text_visualization.png)
 
@@ -36,7 +36,7 @@ Puoi anche comunicare l’impatto di un evento tramite visualizzazioni di testo 
 
 Per qualsiasi visualizzazione con tendenze in Workspace, puoi aggiungere una serie che rappresenta l’intervallo di date interessato.
 
-1. Crea una metrica calcolata con il segmento &quot;Giorni interessati&quot; seguendo questa procedura [Escludere date specifiche nell’analisi](segments.md).
+1. Creare una metrica calcolata con il segmento &#39;Giorni interessati&#39; seguendo [Escludi date specifiche nell&#39;analisi](segments.md).
 1. Aggiungi la metrica desiderata all’area di lavoro della metrica calcolata.
 
    ![Metrica](assets/calcmetric_event.png)
@@ -49,11 +49,11 @@ Per qualsiasi visualizzazione con tendenze in Workspace, puoi aggiungere una ser
 
    ![Tabella a forma libera](assets/calcmetric_freeform.png)
 
-1. Fai clic sull’icona a forma di ingranaggio delle impostazioni di colonna per la metrica calcolata e abilita **[!UICONTROL Interpret zero as no value]**.
+1. Fare clic sull&#39;icona a forma di ingranaggio delle impostazioni di colonna per la metrica calcolata e abilitare **[!UICONTROL Interpret zero as no value]**.
 
-   ![Impostazioni delle metriche calcolate](assets/calcmetric_zero_no_value.png)
+   ![Impostazioni metriche calcolate](assets/calcmetric_zero_no_value.png)
 
 1. Aggiungi una visualizzazione Linee. I giorni interessati sono rappresentati con un colore diverso. Per ulteriori informazioni, gli utenti possono anche fare clic sull’icona &quot;Info&quot; nella metrica calcolata.
 
-   ![Icona Info](assets/calcmetric_infoicon.png)
+   ![Icona informazioni](assets/calcmetric_infoicon.png)
 

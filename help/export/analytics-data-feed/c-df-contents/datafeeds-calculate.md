@@ -34,7 +34,7 @@ Descrive come calcolare le metriche comuni utilizzando i feed di dati.
 
 >[!TIP]
 >
->Le irregolarità di Internet, quelle del sistema o l’utilizzo di ID visitatore personalizzati possono utilizzare raramente gli stessi valori `visit_num` per visite diverse. Mentre è facoltativo, utilizza `visit_start_time_gmt` quando si contano le visite per assicurarsi che queste visite siano conteggiate.
+>Le irregolarità di Internet, quelle del sistema o l’utilizzo di ID visitatore personalizzati possono utilizzare raramente gli stessi valori `visit_num` per visite diverse. Anche se facoltativo, utilizza `visit_start_time_gmt` durante il conteggio delle visite per assicurarti che queste visite siano conteggiate.
 
 ## Visitatori
 

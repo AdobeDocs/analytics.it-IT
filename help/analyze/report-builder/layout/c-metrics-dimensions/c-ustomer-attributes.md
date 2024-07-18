@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 20%
+source-wordcount: '127'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ Per informazioni dettagliate su come caricare gli attributi del cliente, consult
 
 * Se è configurato come metrica, VisAttr viene esposto sia come metrica che come &quot;dimensione&quot;.
 
-  ![Schermata che mostra metrica e dimensione Attributi del cliente.](assets/ca_metrics.png)  ![](assets/ca_dimension.png)
+  ![Schermata che mostra la metrica e la dimensione Attributi del cliente.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
 
 * Supporta la stessa suddivisione di un eVar (tutto può essere suddiviso per qualsiasi cosa).
 * VisAttr supporta tutte le metriche eVar.

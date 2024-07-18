@@ -6,15 +6,15 @@ exl-id: 77f7aa91-ea2e-482f-9a29-35912efb967a
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
 # Mese
 
-Il &#39;Mese&#39; [dimensione](overview.md) segnala il mese in cui si è verificata una particolare metrica. Il primo elemento dimensione è il primo mese nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo mese nell’intervallo di date. Questa dimensione è fondamentale per i rapporti con tendenze, in quanto consente di visualizzare le metriche nel tempo.
+La [dimensione](overview.md) di &#39;Mese&#39; riporta il mese in cui si è verificata una determinata metrica. Il primo elemento dimensione è il primo mese nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo mese nell’intervallo di date. Questa dimensione è fondamentale per i rapporti con tendenze, in quanto consente di visualizzare le metriche nel tempo.
 
-## Popola questa dimensione con i dati
+## Popolare questa dimensione con i dati
 
 Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se una suite di rapporti contiene dati, questa dimensione funziona.
 

@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Una richiesta dipendente è una richiesta dipendente da una richiesta esistente.
 
-Per visualizzare i rapporti con raggruppamenti di correlazioni abilitati all’interno della tabella, per esaminare più da vicino un elemento, fai clic con il pulsante destro del mouse nella cella e quindi fai clic su **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
+Per visualizzare i report con raggruppamenti di correlazioni abilitati all&#39;interno della tabella di report, fare clic con il pulsante destro del mouse nella cella e quindi scegliere **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
 
 >[!NOTE]
 >

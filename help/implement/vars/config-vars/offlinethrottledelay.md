@@ -15,7 +15,7 @@ ht-degree: 12%
 
 Il tracciamento offline è un modo facoltativo per raccogliere i dati in Adobe Analytics. Se un visitatore si disconnette da Internet ma continua a navigare nel sito, gli hit vengono memorizzati in una coda offline fino a quando il dispositivo non si riconnette a Internet. Il tracciamento offline viene utilizzato principalmente per le app mobili.
 
-Quando un dispositivo torna online, tutti gli hit memorizzati sul dispositivo vengono inviati ai server di raccolta dati di Adobe. Un numero elevato di hit in coda può potenzialmente influire sulle prestazioni dei dispositivi meno recenti. Utilizza il `offlineThrottleDelay` per stabilire la frequenza con cui gli hit in coda vengono inviati all’Adobe.
+Quando un dispositivo torna online, tutti gli hit memorizzati sul dispositivo vengono inviati ai server di raccolta dati di Adobe. Un numero elevato di hit in coda può potenzialmente influire sulle prestazioni dei dispositivi meno recenti. Utilizza la variabile `offlineThrottleDelay` per stabilire la frequenza con cui gli hit in coda vengono inviati a Adobe.
 
 ## Ritardo della velocità offline tramite Web SDK
 
@@ -27,7 +27,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.offlineThrottleDelay in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.offlineThrottleDelay` la variabile è un numero intero che rappresenta il numero di millisecondi di attesa di AppMeasurement tra l’invio degli hit in coda. Il valore predefinito è `0`, il che significa che tutti gli hit in coda vengono inviati contemporaneamente. Se `trackOffline` è `false`, questa variabile non esegue alcuna operazione.
+La variabile `s.offlineThrottleDelay` è un numero intero che rappresenta il numero di millisecondi di attesa di AppMeasurement tra l&#39;invio degli hit in coda. Il valore predefinito è `0`, il che significa che tutti gli hit in coda vengono inviati contemporaneamente. Se `trackOffline` è `false`, questa variabile non esegue alcuna operazione.
 
 ```js
 s.offlineThrottleDelay = 500;

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Risolvere i problemi relativi alle sessioni in Adobe Analytics
 
-Questa pagina contiene informazioni sulla risoluzione dei problemi relativi alle sessioni, ovvero è possibile accedere correttamente ma si sono verificati problemi durante l&#39;accesso. In caso di problemi di accesso ad Adobe Analytics, consulta [Risoluzione dei problemi di accesso ad Adobe Analytics](troubleshoot-login.md).
+Questa pagina contiene informazioni sulla risoluzione dei problemi relativi alle sessioni, ovvero è possibile accedere correttamente ma si sono verificati problemi durante l&#39;accesso. In caso di problemi durante l&#39;accesso ad Adobe Analytics, vedi [Risoluzione dei problemi di accesso ad Adobe Analytics](troubleshoot-login.md).
 
 Quasi tutti i problemi relativi alle sessioni derivano dalla rete aziendale personalizzata di un&#39;organizzazione. Se riesci ad accedere ad Adobe Analytics ma riscontri problemi durante l’accesso, utilizza questo articolo per determinare la causa.
 
@@ -24,7 +24,7 @@ Per determinare se la rete aziendale a cui sei connesso causa problemi con l’u
 
 ## Problemi dovuti al proxy {#proxy}
 
-Adobe utilizza un’intestazione di autorizzazione quando effettua richieste ad Adobe. Alcuni proxy, come Edge Secure Web Gateway (precedentemente Bluecoat), eliminano le informazioni critiche sull’intestazione di autorizzazione utilizzate da Adobe Analytics. Se l’Adobe non visualizza l’intestazione di autorizzazione, la sessione scade.
+Adobe utilizza un’intestazione di autorizzazione quando effettua richieste ad Adobe. Alcuni proxy, come Edge Secure Web Gateway (precedentemente Bluecoat), eliminano le informazioni critiche sull’intestazione delle autorizzazioni utilizzate da Adobe Analytics. Se l’Adobe non visualizza l’intestazione di autorizzazione, la sessione scade.
 
 Per risolvere questo problema, l’Adobe consiglia di collaborare con il team IT della tua organizzazione per consentire l’intestazione di autorizzazione tramite il proxy dell’organizzazione.
 

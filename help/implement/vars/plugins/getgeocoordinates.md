@@ -15,17 +15,17 @@ ht-degree: 9%
 
 {{plug-in}}
 
-Il `getGeoCoordinates` Il plug-in consente di acquisire la latitudine e la longitudine dei dispositivi dei visitatori. L’Adobe consiglia di utilizzare questo plug-in se desideri acquisire dati di geolocalizzazione nelle variabili di Analytics.
+Il plug-in `getGeoCoordinates` consente di acquisire la latitudine e la longitudine dei dispositivi dei visitatori. L’Adobe consiglia di utilizzare questo plug-in se desideri acquisire dati di geolocalizzazione nelle variabili di Analytics.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con Web SDK.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
-1. Clic **[!UICONTROL Tags]** a sinistra, fai clic sulla proprietà tag desiderata.
-1. Clic **[!UICONTROL Extensions]** a sinistra, quindi fai clic su **[!UICONTROL Catalog]** scheda
-1. Individuare e installare **[!UICONTROL Common Web SDK Plugins]** estensione.
-1. Clic **[!UICONTROL Data Elements]** a sinistra, quindi fai clic sull’elemento dati desiderato.
+1. Fare clic su **[!UICONTROL Tags]** a sinistra, quindi fare clic sulla proprietà tag desiderata.
+1. Fai clic su **[!UICONTROL Extensions]** a sinistra, quindi sulla scheda **[!UICONTROL Catalog]**
+1. Individuare e installare l&#39;estensione **[!UICONTROL Common Web SDK Plugins]**.
+1. Fai clic su **[!UICONTROL Data Elements]** a sinistra, quindi sull&#39;elemento dati desiderato.
 1. Imposta il nome dell’elemento dati desiderato con la seguente configurazione:
    * Estensione: Common Web SDK Plugins
    * Elemento dati: `getGeoCoordinates`
@@ -41,8 +41,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -57,14 +57,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -75,15 +75,15 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## Utilizzare il plug-in
 
-Il `getGeoCoordinates` La funzione non utilizza alcun argomento. Restituisce uno dei seguenti valori:
+La funzione `getGeoCoordinates` non utilizza argomenti. Restituisce uno dei seguenti valori:
 
-* `"geo coordinates not available"`: per dispositivi per i quali non sono disponibili dati di geolocalizzazione al momento dell’esecuzione del plug-in. Questo valore è comune al primo hit della visita, soprattutto quando i visitatori devono fornire il consenso per il tracciamento della loro posizione.
+* `"geo coordinates not available"`: per dispositivi per i quali non sono disponibili dati di geolocalizzazione al momento dell&#39;esecuzione del plug-in. Questo valore è comune al primo hit della visita, soprattutto quando i visitatori devono fornire il consenso per il tracciamento della loro posizione.
 * `"error retrieving geo coordinates"`: quando il plug-in rileva errori durante il tentativo di recupero del percorso del dispositivo
-* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Dove [LATITUDINE]/[LONGITUDINE] sono rispettivamente latitudine e longitudine
+* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: dove [LATITUDINE]/[LONGITUDINE] sono rispettivamente latitudine e longitudine
 
 >[!NOTE]
 >
->I valori delle coordinate vengono arrotondati al quarto decimale più vicino. Ad esempio, il valore `"40.438635333"` è arrotondato a `"40.4386"` per limitare il numero di valori univoci da acquisire. I valori sono abbastanza vicini da individuare la posizione esatta del dispositivo entro circa 20 piedi.
+>I valori delle coordinate vengono arrotondati al quarto decimale più vicino. Ad esempio, il valore di `"40.438635333"` viene arrotondato a `"40.4386"` per limitare il numero di valori univoci da acquisire. I valori sono abbastanza vicini da individuare la posizione esatta del dispositivo entro circa 20 piedi.
 
 Questo plug-in utilizza un cookie denominato `"s_ggc"` per memorizzare le coordinate tra gli hit, se necessario.
 

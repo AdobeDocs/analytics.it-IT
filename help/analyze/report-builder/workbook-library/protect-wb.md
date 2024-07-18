@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 In qualità di analista, il blocco di una cartella di lavoro consente di proteggere le richieste della cartella di lavoro da manomissioni da parte di altri utenti dell&#39;organizzazione. Allo stesso tempo, tali utenti possono comunque aggiornare le richieste nella cartella di lavoro.
 
-Per proteggere una cartella di lavoro dalla modifica, fare clic su **[!UICONTROL Locked]** sulla barra degli strumenti del Report Builder ( ![](assets/locked_icon.png)).
+Per impedire la modifica di una cartella di lavoro, fare clic su **[!UICONTROL Locked]** sulla barra degli strumenti del Report Builder ( ![](assets/locked_icon.png)).
 
 Per rimuovere la protezione di una cartella di lavoro, fare clic su **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)).
 
@@ -40,7 +40,7 @@ Quando una cartella di lavoro è bloccata per impedire la modifica delle richies
 * Gli utenti possono aggiornare le richieste, singolarmente o come parte di un gruppo.
 * Se la richiesta utilizza valori di input dalle celle (intervallo di date, segmento, filtri), gli utenti possono modificare tali valori nelle celle e quindi modificare indirettamente le richieste aggiornandole.
 
-Se si tenta di modificare una cartella di lavoro protetta tramite il menu di scelta rapida oppure **[!UICONTROL Request Manager]**, o **[!UICONTROL Edit Multiple Requests]**, è possibile che tu possa o meno essere autorizzato a farlo:
+Se si tenta di modificare una cartella di lavoro protetta tramite il menu di scelta rapida, oppure **[!UICONTROL Request Manager]** o **[!UICONTROL Edit Multiple Requests]**, è possibile che non sia consentito:
 
 * Se non si dispone delle autorizzazioni per sbloccare una richiesta, verrà visualizzato un messaggio che indica che non si dispone dei diritti per sbloccare e modificare la cartella di lavoro.
 

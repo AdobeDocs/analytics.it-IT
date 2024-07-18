@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 5%
 
 ---
@@ -30,11 +30,11 @@ Le date predefinite consentono di selezionare le date di uso comune o le date sa
   </tr> 
   <tr> 
    <td colname="col1"> <p> Modelli di date salvati </p> </td> 
-   <td colname="col2"> <p>Visualizza i modelli di intervallo di date creati dall'utente corrente. È possibile salvare le date in <span class="wintitle"> Date Fisse</span> modulo. Se hai salvato un modello di data da utilizzare con tutte le suite di rapporti, devi abilitare <span class="wintitle"> Mostra modelli di date salvati per tutte le suite di rapporti</span> per selezionarlo. </p> <p>Consulta <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Date fisse e intervalli di date salvati</a>. </p> </td> 
+   <td colname="col2"> <p>Visualizza i modelli di intervallo di date creati dall'utente corrente. È possibile salvare le date nel modulo <span class="wintitle"> Date fisse</span>. Se hai salvato un modello di data da utilizzare con tutte le suite di rapporti, devi abilitare <span class="wintitle"> Mostra modelli di data salvati per tutte le suite di rapporti</span> per selezionarlo. </p> <p>Vedi <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > date fisse e intervalli di date salvati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostra intervallo date salvate per tutte le suite di rapporti </p> </td> 
-   <td colname="col2"> <p> Visualizza i modelli che sono stati resi disponibili per tutte le suite di rapporti. Clic <span class="wintitle"> Modifica</span> per gestire gli intervalli di date salvati o per rinominare l’intervallo di date attualmente selezionato. </p> <p>Consulta <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Date fisse e intervalli di date salvati</a> per ulteriori informazioni. </p> </td> 
+   <td colname="col2"> <p> Visualizza i modelli che sono stati resi disponibili per tutte le suite di rapporti. Fare clic su <span class="wintitle"> Modifica</span> per gestire gli intervalli di date salvati o per rinominare l'intervallo di date attualmente selezionato. </p> <p>Per ulteriori informazioni, vedere <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > date fisse e intervalli di date salvati</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

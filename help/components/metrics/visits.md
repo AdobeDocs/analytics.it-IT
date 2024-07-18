@@ -4,8 +4,8 @@ description: Una sequenza di pagine visualizzate in una sessione.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: ht
-source-wordcount: '657'
+workflow-type: tm+mt
+source-wordcount: '672'
 ht-degree: 100%
 
 ---

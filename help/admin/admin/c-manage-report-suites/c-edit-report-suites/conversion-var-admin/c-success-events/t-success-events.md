@@ -39,7 +39,7 @@ Per configurare eventi di successo:
    | Impostazione | Visibile in | Non visibile in |
    |---------|----------|---------|
    | [!UICONTROL **Visibile ovunque**] | <ul><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> | N/D |
-   | [!UICONTROL **Builder**] | <ul><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Generatori**] | <ul><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li><li>Analysis Workspace</li></ul> |
    | [!UICONTROL **Nascosto ovunque**] | N/D | <ul><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> |
 
 1. Fornisci una descrizione.

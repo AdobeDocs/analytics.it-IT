@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '999'
 ht-degree: 100%
 
 ---
@@ -72,7 +72,6 @@ Di seguito sono riportati alcuni dei termini di base con cui è necessario tu ab
 
    * Una visualizzazione associata, in questo caso un [grafico a barre](/help/analyze/analysis-workspace/visualizations/bar.md). La visualizzazione generata si basa sul tipo di dati che hai aggiunto alla tabella. Per impostazione predefinita, qualsiasi dato basato sul tempo (ad esempio [!UICONTROL Visits] al giorno/mese) viene visualizzato in un grafico a [!UICONTROL Line]. Per impostazione predefinita, qualsiasi dato non basato sul tempo (ad esempio [!UICONTROL Visits] per [!UICONTROL Device]) viene visualizzato in un grafico a [!UICONTROL Bar]. Puoi modificare il tipo di visualizzazione facendo clic sulla freccia dell’elenco a discesa accanto al tipo di visualizzazione.
 
-
 1. Per eseguire un drill-down delle dimensioni e vedere gli elementi dimensionali, fai clic sulla freccia rivolta a destra > accanto alla dimensione (facoltativo).
 
 1. Prova ad aggiungere altri miglioramenti come descritto di seguito in “Ulteriori suggerimenti”.
@@ -85,19 +84,19 @@ Altri utili suggerimenti compariranno nel pannello [!UICONTROL Quick Insights Bu
 
 * Innanzitutto, completa il tutorial **[!UICONTROL More tips]**: puoi accedervi tramite l’icona di aiuto (?) accanto al titolo [!UICONTROL Quick Insights]. Questo tutorial viene visualizzato 24 ore dopo la creazione di un progetto con almeno una dimensione e una metrica.
 
-   ![](assets/qibuilder4.png)
+  ![](assets/qibuilder4.png)
 
 * **Raggruppamento per**: puoi utilizzare fino a 3 livelli di raggruppamenti sulle dimensioni per eseguire un drill-down dei dati effettivamente necessari.
 
-   ![](assets/qibuilder5.png)
+  ![](assets/qibuilder5.png)
 
 * **Aggiungi altre metriche**: puoi aggiungere fino a 2 ulteriori metriche utilizzando l’operatore AND per aggiungerle alla tabella.
 
-   ![](assets/qibuilder6.png)
+  ![](assets/qibuilder6.png)
 
 * **Aggiungi altri segmenti**: puoi aggiungere fino a 2 ulteriori segmenti utilizzando gli operatori AND o OR per aggiungerli alla tabella. Osserva cosa succede alla tabella quando aggiungi Mobile Users OR Loyal Visitors. Si trovano l’uno accanto all’altro, sopra le metriche. Se hai aggiunto Mobile Users AND Loyal Visitors, vedrai i risultati di entrambi i segmenti insieme e saranno l’uno sopra l’altro nella tabella.
 
-   ![](assets/qibuilder7.png)
+  ![](assets/qibuilder7.png)
 
 ## Limitazioni note
 

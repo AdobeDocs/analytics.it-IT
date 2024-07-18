@@ -24,10 +24,10 @@ Per informazioni sull&#39;utilizzo della sintassi corretta, vedere [Note sulla s
 * cq = trimestre corrente (primo giorno del trimestre corrente)
 * cy = anno corrente (primo giorno dell&#39;anno corrente)
 
-Nell&#39;elenco seguente: *[UNITÀ]* indica qualsiasi moltiplicatore intero.
+Nell&#39;elenco seguente, *[UNIT]* indica qualsiasi moltiplicatore intero.
 
 * [UNITÀ] d = giorno
 * [UNITÀ] w = settimana
 * [UNITÀ] m = mese
 * [UNITÀ] q = trimestre
-* [UNITÀ] y = anno
+* [UNITÀ] anno = anno

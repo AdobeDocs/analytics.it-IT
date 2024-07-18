@@ -1,36 +1,36 @@
 ---
-title: Velocity contenuto
+title: Velocità dei contenuti
 description: Content Velocity misura l’impatto dei contenuti sui contenuti a valle.
 feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
 source-git-commit: 26e166e065df90cb327fe1106542e17831069141
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 2%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
-# Velocity contenuto
+# Velocità dei contenuti
 
-La metrica calcolata &quot;Content Velocity&quot; (Velocità del contenuto) consente di misurare il modo in cui una dimensione (in genere [[!UICONTROL Page]](/help/components/dimensions/page.md)) contribuisce a far sì che gli utenti trascorrano del tempo sul sito web o sull’app.
+La metrica calcolata &quot;Content Velocity&quot; (Velocità del contenuto) consente di misurare in che modo una dimensione (in genere [[!UICONTROL Page]](/help/components/dimensions/page.md)) contribuisce a far sì che gli utenti dedichino tempo al sito web o all’app.
 
-Questa metrica utilizza [Attribuzione della partecipazione](/help/analyze/analysis-workspace/attribution/models.md) il [Visualizzazioni pagina](page-views.md) metrica come parte del suo calcolo. Con la partecipazione Visita, ogni volta che viene visualizzata una pagina, anche tutte le pagine che sono state precedentemente visitate durante la stessa visita ricevono il merito per la visualizzazione della pagina. Questa formula in genere significa che più una pagina viene visitata durante una visita, maggiore è il credito ricevuto. (vedere [Visualizzazioni pagina (partecipazione) | Visita) o &quot;Partecipazione alla visita&quot;](#page-views-participation--visit-or-visit-participation) per ulteriori informazioni.)
+Questa metrica utilizza [Attribuzione di partecipazione](/help/analyze/analysis-workspace/attribution/models.md) nella metrica [Visualizzazioni pagina](page-views.md) come parte del calcolo. Con la partecipazione Visita, ogni volta che viene visualizzata una pagina, anche tutte le pagine che sono state precedentemente visitate durante la stessa visita ricevono il merito per la visualizzazione della pagina. Questa formula in genere significa che più una pagina viene visitata durante una visita, maggiore è il credito ricevuto. (Vedi [Visualizzazioni pagina (partecipazione) | Visita ) o &#39;Partecipazione alla visita&#39;](#page-views-participation--visit-or-visit-participation) per ulteriori informazioni.)
 
 ## Calcolo
 
-&quot;Velocità del contenuto&quot; è un valore predefinito calcolato [metrica](overview.md) e utilizza la formula `Page views (Visit participation)` diviso per `Visits`.
+&#39;Content Velocity&#39; è una [metrica](overview.md) calcolata predefinita e utilizza la formula `Page views (Visit participation)` divisa per `Visits`.
 
 ![](assets/cont-velo-1.png)
 
 ## Utilizzi comuni
 
-[!UICONTROL Content Velocity] viene comunemente utilizzato nell’analisi dei contenuti insieme ad altre metriche chiave come [!UICONTROL Page Views], [!UICONTROL Visits], e [!UICONTROL Bounce Rate].
+[!UICONTROL Content Velocity] viene comunemente utilizzato nell&#39;analisi dei contenuti insieme ad altre metriche chiave come [!UICONTROL Page Views], [!UICONTROL Visits] e [!UICONTROL Bounce Rate].
 
 ![](assets/cont-velo-3.png)
 
 ## Esempio
 
-L’esempio seguente suddivide le 2 parti di Content Velocity (Velocità del contenuto): &quot;Page Views (Participation | Visita)&quot; e &quot;Visite&quot;.
+L’esempio seguente suddivide le 2 parti di Content Velocity (Velocità del contenuto): &quot;Page Views (Participation | Visit)&quot; e &quot;Visite&quot;.
 
 ### Visualizzazioni pagina (partecipazione) | Visita) o &quot;Partecipazione alla visita&quot;
 

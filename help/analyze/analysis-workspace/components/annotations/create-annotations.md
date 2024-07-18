@@ -46,4 +46,4 @@ Tuttavia, gli amministratori possono assegnare agli utenti l’autorizzazione [!
 
    {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Save]** (Usa modello di attribuzione non predefinito).
+1. Fai clic su **[!UICONTROL Save]**.

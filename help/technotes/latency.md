@@ -6,7 +6,7 @@ feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ La latenza è un ritardo più lungo delle tipiche 2 ore necessarie ai server di 
 
 La latenza è causata da una delle seguenti categorie generali:
 
-* **Picco di traffico imprevisto:** Questo tipo di latenza si verifica quando a una suite di rapporti vengono inviati più dati di quelli impegnati contrattualmente o previsti. È la causa più comune di latenza.
-* **Problemi hardware normali:** Adobe utilizza strategie all&#39;avanguardia per la gestione e il monitoraggio del centro dati, la ridondanza dei dati e l&#39;affidabilità dell&#39;hardware. L&#39;hardware viene aggiornato regolarmente e insieme alle finestre di manutenzione pubblicate. La manutenzione di emergenza dell&#39;hardware guasto può richiedere un arresto necessario e temporaneo dell&#39;elaborazione dei dati (non nella raccolta dati) quando l&#39;hardware sostitutivo viene portato online. Questa interruzione temporanea dell’elaborazione può causare una latenza notevole.
-* **Dati anomali:** I pattern di dati non naturali, come visite insolitamente lunghe causate da un bot o da un crawler, possono aumentare temporaneamente alcuni carichi di elaborazione che determinano latenza.
+* **Picco di traffico imprevisto:** Questo tipo di latenza si verifica quando vengono inviati a una suite di rapporti più dati di quelli impegnati contrattualmente o previsti. È la causa più comune di latenza.
+* **Problemi hardware normali:** Adobe utilizza strategie all&#39;avanguardia per la gestione e il monitoraggio del centro dati, la ridondanza dei dati e l&#39;affidabilità hardware. L&#39;hardware viene aggiornato regolarmente e insieme alle finestre di manutenzione pubblicate. La manutenzione di emergenza dell&#39;hardware guasto può richiedere un arresto necessario e temporaneo dell&#39;elaborazione dei dati (non nella raccolta dati) quando l&#39;hardware sostitutivo viene portato online. Questa interruzione temporanea dell’elaborazione può causare una latenza notevole.
+* **Dati anormali:** I pattern di dati non naturali, ad esempio visite insolitamente lunghe causate da un bot o da un crawler, possono aumentare temporaneamente alcuni carichi di elaborazione che determinano latenza.
 
 ## Funzioni che dipendono dalla latenza
 
@@ -42,15 +42,15 @@ Alcune funzionalità di Adobe Experience Cloud offrono una latenza innata oltre 
 
 Esistono diverse strategie per evitare la latenza o ridurre il tempo di ripristino quando si verifica:
 
-* **Notifica Adobe di picchi di traffico previsti:** Anche se è impossibile prevedere ogni picco di traffico verso il sito, ci possono essere casi in cui prevedi di ricevere un aumento significativo del traffico. Alcuni esempi includono un periodo di vacanza particolarmente riuscito o poco dopo un invio di una campagna di grandi dimensioni. In questi casi, Adobe consente alla tua organizzazione di ricevere informazioni sugli aumenti di traffico previsti, in modo da poter allocare risorse di elaborazione aggiuntive alla suite di rapporti. Consulta [Pianificare un picco di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) nella guida utente Admin per scoprire come segnalare all’Adobe un aumento del traffico.
-* **Durante l&#39;attivazione di nuove funzionalità, è consigliabile considerare l&#39;elaborazione del carico:** Alcune funzioni richiedono una maggiore elaborazione rispetto ad altre. Più funzioni sono abilitate in una suite di rapporti, più è difficile ripristinarle dalla latenza. Quando abiliti le funzioni in una suite di rapporti, tieni presente le seguenti funzioni che aumentano la quantità di dati da elaborare:
+* **Notifica Adobi di picchi di traffico previsti:** Anche se è impossibile prevedere ogni picco di traffico sul sito, in alcuni casi potrebbe verificarsi un aumento significativo del traffico. Alcuni esempi includono un periodo di vacanza particolarmente riuscito o poco dopo un invio di una campagna di grandi dimensioni. In questi casi, Adobe consente alla tua organizzazione di ricevere informazioni sugli aumenti di traffico previsti, in modo da poter allocare risorse di elaborazione aggiuntive alla suite di rapporti. Consulta [Pianificare un picco di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) nella guida utente dell&#39;amministratore per scoprire come segnalare all&#39;Adobe un aumento del traffico.
+* **Durante l&#39;attivazione di nuove funzionalità, prendere in considerazione l&#39;elaborazione del carico:** Alcune funzionalità richiedono una maggiore elaborazione rispetto ad altre. Più funzioni sono abilitate in una suite di rapporti, più è difficile ripristinarle dalla latenza. Quando abiliti le funzioni in una suite di rapporti, tieni presente le seguenti funzioni che aumentano la quantità di dati da elaborare:
 
    * Implementazione di più di 20 eventi sulla stessa pagina
    * Regole VISTA complesse
    * Più di 20 valori nella variabile prodotti
    * Serializzazione degli eventi
 
-* Abilita filtro bot IAB: [Filtro bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) può ridurre notevolmente la latenza se la suite di rapporti è frequentata da bot o crawler. Si consiglia di utilizzare l’elenco di bot IAB, in quanto è aggiornato e gestito da [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un utente può personalizzare le proprie regole bot per integrare quelle di IAB.
+* Abilita filtro bot IAB: [Il filtro bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) può ridurre notevolmente la latenza se la suite di rapporti è frequentata da bot o crawler. Si consiglia di utilizzare l&#39;elenco di bot IAB, in quanto è aggiornato e gestito da [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un utente può personalizzare le proprie regole bot per integrare quelle di IAB.
 
 ## Come comportarsi con la latenza
 

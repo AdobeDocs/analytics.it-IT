@@ -17,16 +17,16 @@ Le variabili di traffico di Custom Insight (o proprietà) consentono di correlar
 
 >[!TIP]
 >
->L’Adobe consiglia di utilizzare [eVar](/help/implement/vars/page-vars/evar.md) nella maggior parte dei casi. Nelle versioni precedenti di Adobe Analytics, prop e eVar presentavano vantaggi e svantaggi l’uno per l’altro. Tuttavia, Adobe ha migliorato le eVar al punto che ora soddisfano quasi tutti i casi d’uso per prop.
+>Adobe consiglia di utilizzare [eVar](/help/implement/vars/page-vars/evar.md) nella maggior parte dei casi. Nelle versioni precedenti di Adobe Analytics, prop e eVar presentavano vantaggi e svantaggi l’uno per l’altro. Tuttavia, Adobe ha migliorato le eVar al punto che ora soddisfano quasi tutti i casi d’uso per prop.
 
 Puoi aggiungere e abilitare i rapporti sulle variabili di traffico. Puoi anche disabilitare o rinominare i rapporti sulle variabili di traffico esistenti.
 
 ## Aggiungere e abilitare i rapporti sulle variabili di traffico
 
 1. Seleziona **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, quindi seleziona una suite di rapporti.
-1. Seleziona **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Variables]**.
-1. Seleziona **[!UICONTROL Add New]**, quindi denomina il rapporto.
-1. In [!UICONTROL **Abilitato**] colonna, seleziona [!UICONTROL **Abilitato**] dal menu a discesa.1. Seleziona **[!UICONTROL Save]**.
+1. Selezionare **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Variables]**.
+1. Selezionare **[!UICONTROL Add New]**, quindi assegnare un nome al report.
+1. Nella colonna [!UICONTROL **Enabled**] selezionare [!UICONTROL **Enabled**] dal menu a discesa.1. Seleziona **[!UICONTROL Save]**.
 
 ## Disattiva i rapporti sulle variabili di traffico
 
@@ -35,17 +35,17 @@ Quando un rapporto sulle variabili di traffico è disattivato, non viene visuali
 Per disabilitare un rapporto sulle variabili traffico:
 
 1. Seleziona **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, quindi seleziona una suite di rapporti.
-1. Seleziona **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Variables]**.
+1. Selezionare **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Variables]**.
 1. Seleziona il rapporto della variabile traffico da disabilitare.
-1. In [!UICONTROL **Abilitato**] colonna, seleziona [!UICONTROL **Disabilitato**] dal menu a discesa.
+1. Nella colonna [!UICONTROL **Enabled**] selezionare [!UICONTROL **Disabled**] dal menu a discesa.
 1. Seleziona [!UICONTROL **Salva**].
 
 ## Rinominare i rapporti sulle variabili di traffico
 
 1. Seleziona **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, quindi seleziona una suite di rapporti.
-1. Seleziona **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Variables]**.
+1. Selezionare **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Variables]**.
 1. Seleziona il rapporto della variabile traffico da rinominare.
-1. In [!UICONTROL **Nome**] , specificare un nuovo nome per il report.
+1. Nella colonna [!UICONTROL **Nome**] specificare un nuovo nome per il report.
 1. Seleziona [!UICONTROL **Salva**].
 
 Vedi anche [prop](/help/implement/vars/page-vars/prop.md) nella guida utente Implementa.

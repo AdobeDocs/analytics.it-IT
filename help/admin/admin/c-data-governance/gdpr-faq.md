@@ -17,7 +17,7 @@ ht-degree: 40%
 
 Quando entreranno in vigore diverse normative per la Privacy dei dati (RGPD, CCPA), Adobe Analytics Experience Cloud supporterà l’elaborazione delle richieste verificate inviate dai titolari del trattamento all’API della Privacy dei dati per consentire un processo più automatizzato. L’API della Privacy dei dati per Adobe è stata pensata per favorire l’elaborazione delle richieste di diritti emesse dagli individui (ad esempio, richieste di accesso e di cancellazione) per i dati dei clienti archiviati nelle soluzioni Adobe Experience Cloud. È flessibile e scalabile in base al numero di richieste di accesso e cancellazione dei dati che la tua azienda riceve dagli interessati.
 
-Inoltre, l’API Privacy Service consente al cliente di controllare lo stato del processo tramite il quale le richieste di accesso e di cancellazione dei dati vengono soddisfatte. Per ulteriori dettagli vedi [API PRIVACY SERVICE](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) documentazione.
+Inoltre, l’API Privacy Service consente al cliente di controllare lo stato del processo tramite il quale le richieste di accesso e di cancellazione dei dati vengono soddisfatte. Per ulteriori dettagli, consulta la documentazione dell&#39;[API Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 +++
 
@@ -33,7 +33,7 @@ In qualità di Incaricato del trattamento dei dati, l’Adobe deve fornire al ti
 
 I titolari del trattamento dei dati determinano come risolvere le identità per le richieste degli interessati. Prendi in considerazione la distribuzione del tag di recupero degli ID Privacy dei dati di Adobe. I team di sviluppo risparmiano tempo utilizzando il tag di recupero degli ID Privacy dei dati per acquisire gli ID degli utenti (ID cookie). Possono quindi utilizzare la nostra API Privacy dei dati per inviare tali ID utente alle soluzioni pertinenti in Adobe Experience Cloud per l’elaborazione della richiesta di Privacy dei dati. L’API Privacy dei dati può supportare una vasta gamma di ID cliente su più soluzioni di Adobe.
 
-Se un interessato invia una richiesta insieme a un identificatore (variabile personalizzata: prop o eVar), Adobe Analytics esegue la scansione dell’intera cronologia dei dati raccolti per l’identificatore specificato. Per ulteriori informazioni su come configurare gli ID personalizzati memorizzati nelle proprietà o eVar di Analytics, consulta [Documentazione di Analytics sugli spazi dei nomi](/help/admin/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
+Se un interessato invia una richiesta insieme a un identificatore (variabile personalizzata: prop o eVar), Adobe Analytics esegue la scansione dell’intera cronologia dei dati raccolti per l’identificatore specificato. Per ulteriori dettagli su come configurare gli ID personalizzati memorizzati nelle proprietà o eVar di Analytics, consulta la [documentazione di Analytics sugli spazi dei nomi](/help/admin/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
 
 +++
 
@@ -43,13 +43,13 @@ La governance dei dati è un nuovo strumento all’interno di Adobe Analytics ch
 
 Lo strumento per la governance dei dati contiene le seguenti etichette per i dati:
 
-* **Etichette per i dati di identità**: utilizzato per classificare i dati che possono identificare un individuo direttamente o indirettamente in combinazione con altri dati. (Nessuno, I1, I2)
+* **Etichette per i dati di identità**: usate per classificare i dati che possono identificare un individuo direttamente o indirettamente in combinazione con altri dati. (Nessuno, I1, I2)
 
-* **Etichette per i dati sensibili**: utilizzato per classificare i dati come dati che potrebbero essere definiti sensibili in base alle leggi applicabili. (Nessuno, S1, S2). Al momento l’uso dei dati sensibili in Adobe Analytics è generalmente vietato, ad eccezione dei dati di geolocalizzazione ottenuti in modo adeguato in base alle leggi applicabili e che alcune giurisdizioni potrebbero considerare dati sensibili.
+* **Etichette per i dati sensibili**: usate per classificare i dati come dati che potrebbero essere definiti sensibili in base alle leggi applicabili. (Nessuno, S1, S2). Al momento l’uso dei dati sensibili in Adobe Analytics è generalmente vietato, ad eccezione dei dati di geolocalizzazione ottenuti in modo adeguato in base alle leggi applicabili e che alcune giurisdizioni potrebbero considerare dati sensibili.
 
-* **Etichette per i dati Privacy dei dati**: utilizzato per definire i campi che possono contenere gli identificatori personali da utilizzare nelle richieste di Privacy dei dati o che possono essere rimossi come parte di una richiesta di cancellazione nell’ambito della Privacy dei dati. In alcuni casi queste etichette possono sovrapporsi alle etichette per l’identità e per i dati sensibili.
+* **Etichette per i dati Privacy dei dati**: usate per definire i campi che possono contenere gli identificatori personali da usare nelle richieste di Privacy dei dati o che possono essere rimosse come parte di una richiesta di cancellazione della Privacy dei dati. In alcuni casi queste etichette possono sovrapporsi alle etichette per l’identità e per i dati sensibili.
 
-Per ulteriori informazioni sulle etichette per la governance dei dati, consulta [Etichette Privacy dei dati per le variabili di Analytics](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md).
+Per ulteriori informazioni sulle etichette per la governance dei dati, vedi [Etichette Privacy dei dati per le variabili di Analytics](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
 +++
 
@@ -63,7 +63,7 @@ Tuttavia, esistono alcuni modi per verificare l’elaborazione Privacy dei dati 
 
 * Un’opzione consiste nell’impostare un’organizzazione Experience Cloud diversa che contiene solo suite di rapporti di prova. Quindi si utilizza questa organizzazione Experience Cloud per il test Privacy dei dati e la normale organizzazione Experience Cloud per l’elaborazione effettiva Privacy dei dati.
 
-* Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione. Ad esempio, puoi usare il prefisso “qa-” per ogni namespace nelle suite di rapporti di prova. Quando si inviano richieste di Privacy dei dati con solo namespace con il prefisso qa, queste richieste verranno eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l’approccio consigliato, a meno che non utilizzi gli spazi dei nomi visitorId, AAID, ECID o customVisitorId. Questi spazi dei nomi sono codificati e non è possibile specificarne nomi alternativi nelle suite di rapporti di prova.**
+* Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione. Ad esempio, puoi usare il prefisso “qa-” per ogni namespace nelle suite di rapporti di prova. Quando si inviano richieste di Privacy dei dati con solo namespace con il prefisso qa, queste richieste verranno eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l&#39;approccio consigliato, a meno che non si utilizzino gli spazi dei nomi visitorId, AAID, ECID o customVisitorId. Questi spazi dei nomi sono codificati e non è possibile specificarne nomi alternativi nelle suite di rapporti di prova.**
 
 +++
 
@@ -73,11 +73,11 @@ Per informazioni dettagliate su come prepararsi alle normative sulla Privacy dei
 
 +++
 
-+++ **In che modo i titolari del trattamento devono considerare il consenso quando si tratta di coinvolgere l’utente?**
++++ **In che modo i titolari del trattamento devono considerare il consenso quando si tratta di coinvolgere l&#39;utente?**
 
 Il RGPD e il CCPA rappresentano una buona opportunità per riconsiderare la strategia e le pratiche di gestione dei consensi. Ciò include la determinazione della necessità del consenso e la considerazione della proposta di valore per l’utente. Considera la proposta di valore per la privacy dei consumatori, che può aiutare a promuovere la conversione e la fedeltà. Lo spazio di gestione del consenso (ad esempio, strumenti, standard, pratiche consigliate) si evolve rapidamente e deve essere sempre controllato. Per ridurre al minimo l’impatto sul coinvolgimento degli utenti, i Titolari del trattamento devono collaborare con i fornitori in questo spazio e con il proprio consulente legale, per assicurarsi di rispettare le leggi e le linee guida emergenti sul consenso e sui cookie. Una buona strategia è considerare la “privacy sperimentale” usando un’esperienza sul marchio pertinente a livello contestuale che definisca la proposta di valore delle attività di raccolta dei dati.
 
-In qualità di titolare del trattamento, è tua responsabilità ottenere il consenso esplicito delle persone interessate prima di raccogliere i dati personali (che potrebbero includere i dati di Adobe Analytics) e implementare un’ [meccanismo di rinuncia](https://www.adobe.com/it/privacy/opt-out.html#customeruse) sul sito web. Questo consente agli interessati di rinunciare alla raccolta di dati Adobe Experience Cloud futuri.
+In qualità di titolare del trattamento, è tua responsabilità ottenere il consenso esplicito degli interessati prima di raccogliere i dati personali (che potrebbero includere i dati di Adobe Analytics) e implementare un [meccanismo di rinuncia](https://www.adobe.com/it/privacy/opt-out.html#customeruse) sul sito Web. Questo consente agli interessati di rinunciare alla raccolta di dati Adobe Experience Cloud futuri.
 
 +++
 
@@ -85,7 +85,7 @@ In qualità di titolare del trattamento, è tua responsabilità ottenere il cons
 
 In genere i dati personali non dovrebbero essere conservati per un periodo più lungo del tempo necessario a raggiungere lo scopo per il quale sono stati raccolti. I Termini generali di Adobe applicano un piano predefinito di conservazione dei dati di 25 mesi, a meno che non sia contrattualmente concordato un termine di conservazione dei dati diverso. I clienti devono impostare i propri criteri di conservazione dei dati prima che Adobe possa elaborare una richiesta di Privacy dei dati.
 
-I criteri di conservazione dei dati correnti di ogni suite di report vengono visualizzati nella nuova interfaccia utente Admin Governance dei dati. Se è necessario modificare i criteri di conservazione dei dati, i clienti devono contattare il proprio rappresentante di Adobe. Fare riferimento a [Domande frequenti sulla conservazione dei dati in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=it).
+I criteri di conservazione dei dati correnti di ogni suite di report vengono visualizzati nella nuova interfaccia utente Admin Governance dei dati. Se è necessario modificare i criteri di conservazione dei dati, i clienti devono contattare il proprio rappresentante di Adobe. Consulta [Domande frequenti sulla conservazione dei dati in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=it).
 
 +++
 
@@ -95,7 +95,7 @@ I clienti possono richiedere che i propri dati vengano eliminati prima di 25 mes
 
 +++
 
-+++ **Quali considerazioni sulla privacy devono tenere in considerazione un titolare del trattamento quando i dati personali vengono esportati da Adobe Analytics?**
++++ **Quali considerazioni sulla privacy deve avere un titolare del trattamento quando i dati personali vengono esportati da Adobe Analytics?**
 
 Se un cliente usa i feed dei dati di Adobe Analytics per esportare i dati da Analytics nel data warehouse aziendale o in altri sistemi esterni ad Adobe, è responsabilità del cliente (titolare del trattamento) assicurarsi che le richieste di cancellazione vengano applicate ai dati. Questo si applica anche alle implementazioni on-premise di Adobe Data Workbench, in cui un feed di dati continuo di Adobe Analytics popola i dati di Data Workbench. Adobe può fornire gli strumenti di supporto nell’individuazione e nella cancellazione dei record di determinati tipi di feed di dati, inclusi quelli usati per Data Workbench, ma è ancora responsabilità del cliente (titolare del trattamento) assicurarsi che i dati vengano cancellati coerentemente con i propri criteri interni di conservazione e cancellazione dei dati.
 
@@ -103,9 +103,9 @@ Considera anche i casi in cui i dipendenti hanno scaricato rapporti di Adobe Ana
 
 +++
 
-+++ **Alcuni dati che non dovevamo raccogliere sono stati accidentalmente inviati ad Adobe Analytics. È possibile usare l’API Privacy dei dati per pulire questi dati?**
++++ **Alcuni dati che non dovevamo raccogliere sono stati accidentalmente inviati ad Adobe Analytics. È possibile usare l&#39;API Privacy dei dati per pulire questi dati?**
 
-Il [API di Data Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) è stato fornito per aiutarti a soddisfare le richieste relative alla Privacy dei dati, soggette a scadenza. L’utilizzo di questa API per altri scopi non è supportato da Adobe e potrebbe influire sulla capacità di Adobe di fornire tempestivamente richieste di Privacy dei dati avviate dall’utente ad alta priorità per altri clienti Adobe.
+L&#39;API di [Data Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) è stata fornita per aiutarti a soddisfare le richieste relative alla Privacy dei dati, soggette a scadenza. L’utilizzo di questa API per altri scopi non è supportato da Adobe e potrebbe influire sulla capacità di Adobe di fornire tempestivamente richieste di Privacy dei dati avviate dall’utente ad alta priorità per altri clienti Adobe.
 
 Chiediamo all’utente di non utilizzare l’API Privacy dei dati per altri scopi, come la cancellazione dei dati che sono stati accidentalmente inviati in grandi gruppi di visitatori. È inoltre necessario tenere presente che ogni visitatore con un hit eliminato (aggiornato o anonimizzato) a seguito di una richiesta di cancellazione di Privacy dei dati avrà le informazioni sullo stato reimpostate. La prossima volta che il visitatore ritorna sul tuo sito web, sarà un nuovo visitatore. Tutte le attribuzioni eVar ricominceranno, così come informazioni quali numeri di visita, referrer, prima pagina visitata, ecc. Questo effetto collaterale non è opportuno nelle situazioni in cui si desidera cancellare i campi di dati ed evidenzia un motivo per cui l’API Privacy dei dati è inappropriata per questo utilizzo.
 
@@ -115,7 +115,7 @@ Contatta il tuo Account Team di Adobi per coordinarti con il nostro team di cons
 
 +++ **Il nostro team legale ha stabilito che i valori che raccogliamo in una variabile da anni non sono più conformi alla nostra politica sulla privacy aggiornata. È possibile usare l’API Privacy dei dati per cancellare tutti i valori da questa variabile?**
 
-Il [API di Data Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) è stato fornito per aiutarti a soddisfare le richieste relative alla Privacy dei dati, soggette a scadenza. L’utilizzo di questa API per altri scopi non è supportato da Adobe e potrebbe influire sulla capacità di Adobe di fornire tempestivamente richieste di Privacy dei dati avviate dall’utente ad alta priorità per altri clienti Adobe. Chiediamo all’utente di non utilizzare l’API Privacy dei dati per altri scopi, come la cancellazione dei dati che sono stati accidentalmente inviati in grandi gruppi di visitatori.
+L&#39;API di [Data Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) è stata fornita per aiutarti a soddisfare le richieste relative alla Privacy dei dati, soggette a scadenza. L’utilizzo di questa API per altri scopi non è supportato da Adobe e potrebbe influire sulla capacità di Adobe di fornire tempestivamente richieste di Privacy dei dati avviate dall’utente ad alta priorità per altri clienti Adobe. Chiediamo all’utente di non utilizzare l’API Privacy dei dati per altri scopi, come la cancellazione dei dati che sono stati accidentalmente inviati in grandi gruppi di visitatori.
 
 È inoltre necessario tenere presente che ogni visitatore con un hit eliminato (aggiornato o anonimizzato) a seguito di una richiesta di cancellazione di Privacy dei dati avrà le informazioni sullo stato reimpostate. La prossima volta che il visitatore ritorna sul tuo sito web, sarà un nuovo visitatore. Tutte le attribuzioni eVar ricominceranno, così come informazioni quali numeri di visita, referrer, prima pagina visitata, ecc. Questo effetto collaterale non è opportuno nelle situazioni in cui si desidera cancellare i campi di dati ed evidenzia un motivo per cui l’API Privacy dei dati è inappropriata per questo utilizzo.
 

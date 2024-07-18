@@ -12,7 +12,7 @@ ht-degree: 13%
 
 # Persone non identificate
 
-Le &quot;Persone non identificate&quot; [metrica](overview.md) è un [Analisi cross-device](../cda/overview.md) metrica che conta il numero di visitatori che CDA non è riuscito a identificare.
+La metrica [metric](overview.md) per &quot;Persone non identificate&quot; è una metrica [Analisi multidispositivo](../cda/overview.md) che conta il numero di visitatori che CDA non è riuscito a identificare.
 
 ## Come è calcolata questa metrica
 

@@ -12,11 +12,11 @@ ht-degree: 10%
 
 # Aggiunte al carrello
 
-Le &quot;Aggiunte al carrello&quot; [metrica](overview.md) mostra quante volte un visitatore ha aggiunto qualcosa al carrello. Questa metrica è utile quando desideri comprendere la parte del funnel di conversione in cui i clienti sono sufficientemente interessati a un prodotto da aggiungerlo al carrello.
+La [metrica](overview.md) &quot;Aggiunte al carrello&quot; mostra quante volte un visitatore ha aggiunto qualcosa al carrello. Questa metrica è utile quando desideri comprendere la parte del funnel di conversione in cui i clienti sono sufficientemente interessati a un prodotto da aggiungerlo al carrello.
 
 ## Come è calcolata questa metrica
 
-Questa metrica conta il numero di hit in cui `scAdd` esiste in [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabile.
+Questa metrica conta il numero di hit in cui `scAdd` esiste nella variabile [`events`](/help/implement/vars/page-vars/events/events-overview.md).
 
-Consulta [Carrelli](carts.md) per un confronto tra metriche.
+Vedi [Carrelli](carts.md) per un confronto delle metriche.
 

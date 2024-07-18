@@ -15,7 +15,7 @@ ht-degree: 5%
 
 {{plug-in}}
 
-Il `apl` Il plug-in consente di aggiungere in modo sicuro nuovi valori alle variabili delimitate da elenchi, come [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md), e altri.
+Il plug-in `apl` consente di aggiungere in modo sicuro nuovi valori alle variabili delimitate da elenco, come [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md) e altri.
 
 * Se il valore che desideri aggiungere non esiste nella variabile, il codice aggiunge il valore alla fine della stringa.
 * Se il valore da aggiungere esiste già nella variabile, questo plug-in non modifica il valore. Queste funzioni consentono all’implementazione di evitare valori duplicati.
@@ -33,8 +33,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -49,14 +49,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -67,15 +67,15 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## Utilizzare il plug-in
 
-Il `apl` La funzione utilizza i seguenti argomenti:
+La funzione `apl` utilizza i seguenti argomenti:
 
-* **`lv`** (obbligatorio, stringa): variabile che contiene un elenco delimitato di elementi a cui aggiungere un nuovo valore
-* **`vta`** (obbligatorio, stringa): elenco delimitato da virgole dei nuovi valori da aggiungere al `lv` valore dell&#39;argomento.
-* **`d1`** (facoltativo, stringa): delimitatore utilizzato per separare i singoli valori già contenuti nel `lv` argomento.  Impostazione predefinita: virgola (`,`) quando non è impostato.
-* **`d2`** (facoltativo, stringa): delimitatore di output. Impostazione predefinita: `d1` quando non è impostato.
-* **`cc`** (facoltativo, booleano): flag che indica se viene utilizzato un controllo con distinzione tra maiuscole e minuscole. Se `true`, il controllo della duplicazione distingue tra maiuscole e minuscole. Se `false` o non impostato, il controllo della duplicazione non distingue tra maiuscole e minuscole. Predefinito su `false`.
+* **`lv`** (obbligatorio, stringa): variabile contenente un elenco delimitato di elementi a cui aggiungere un nuovo valore
+* **`vta`** (obbligatorio, stringa): elenco delimitato da virgole dei nuovi valori da aggiungere al valore dell&#39;argomento `lv`.
+* **`d1`** (facoltativo, stringa): delimitatore utilizzato per separare i singoli valori già contenuti nell&#39;argomento `lv`.  Impostazione predefinita: virgola (`,`) se non impostata.
+* **`d2`** (facoltativo, stringa): delimitatore di output. Valore predefinito uguale a `d1` se non impostato.
+* **`cc`** (facoltativo, booleano): flag che indica se viene utilizzato un controllo con distinzione tra maiuscole e minuscole. Se `true`, la verifica della duplicazione fa distinzione tra maiuscole e minuscole. Se `false` o non è impostato, il controllo della duplicazione non fa distinzione tra maiuscole e minuscole. Predefinito su `false`.
 
-Il `apl` restituisce il valore del `lv` più eventuali valori non duplicati nel `vta` argomento.
+La funzione `apl` restituisce il valore dell&#39;argomento `lv` più eventuali valori non duplicati nell&#39;argomento `vta`.
 
 ## Esempi
 
@@ -137,28 +137,28 @@ s.list3 = apl(s.list3,"value1");
 
 ### 3.2 (25 settembre 2019)
 
-* Sono stati risolti i problemi di compatibilità con `apl` chiamate che utilizzavano versioni precedenti del plug-in
+* Sono stati risolti i problemi di compatibilità con `apl` chiamate che utilizzavano versioni precedenti del plug-in.
 * Avvisi della console rimossi per ridurre le dimensioni
 * Aggiunto `inList 2.1`
 
 ### 3.1 (22 aprile 2018)
 
-* `d2` ora viene impostato automaticamente sul valore della proprietà `d1` argomento quando non è impostato
+* L&#39;argomento `d2` ora viene impostato automaticamente sul valore dell&#39;argomento `d1` quando non è impostato
 
 ### 3.0 (16 aprile 2018)
 
 * Rianalisi/riscrittura completa del plug-in
 * È stato aggiunto il controllo avanzato degli errori
-* Il `vta` l&#39;argomento ora accetta più valori contemporaneamente
-* È stata aggiunta la `d2` per formattare il valore restituito
-* È stato modificato il `cc` argomento di tipo booleano
+* L&#39;argomento `vta` ora accetta più valori contemporaneamente
+* Argomento `d2` aggiunto per formattare il valore restituito
+* L&#39;argomento `cc` è stato modificato in booleano
 
 ### 2.5 (18 febbraio 2016)
 
-* Ora utilizza `inList` funzione per elaborazione confronto
+* Ora utilizza la funzione `inList` per l&#39;elaborazione del confronto
 
 ### 2.0 (26 gennaio 2016)
 
-* `d` (Delimitatore) argomento ora facoltativo (impostazione predefinita: virgola)
-* `u` (Flag per la distinzione tra maiuscole e minuscole) ora è facoltativo (per impostazione predefinita non viene fatta distinzione tra maiuscole e minuscole)
-* Indipendentemente dalle `u` (Flag per distinzione tra maiuscole e minuscole), il plug-in non aggiunge più un valore a un elenco se questo esiste già nell&#39;elenco
+* L&#39;argomento `d` (delimitatore) è ora facoltativo (il valore predefinito è una virgola)
+* L&#39;argomento `u` (flag per la distinzione tra maiuscole e minuscole) è ora facoltativo (per impostazione predefinita non viene fatta distinzione tra maiuscole e minuscole)
+* Indipendentemente dall&#39;argomento `u` (flag per la distinzione tra maiuscole e minuscole), il plug-in non aggiunge più un valore a un elenco se il valore esiste già nell&#39;elenco

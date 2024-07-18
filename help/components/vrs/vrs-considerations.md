@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Le suite di rapporti virtuali ti consentono di visualizzare i dati di una suite di rapporti che raccoglie dati dalle proprietà digitali, ma con un segmento applicato in modo permanente.
 
-In molti casi, puoi utilizzare suite di rapporti virtuali per sostituire l’assegnazione di tag a più suite. Il passaggio alle suite di rapporti virtuali può eliminare efficacemente la necessità di [chiamate server secondarie](/help/admin/admin/c-server-call-usage/overage-overview.md). Ad esempio, la tua organizzazione dispone di 6 siti web diversi, ciascuno dei quali invia dati alla propria suite di rapporti e a una suite di rapporti globale combinata. Ogni sito riceve una chiamata al server secondaria, una alla singola suite di rapporti sul brand e una seconda alla suite di rapporti globale. Al contrario, puoi inviare dati da tutti i siti solo alla suite di rapporti globale, quindi utilizzare più suite di rapporti virtuali per separare ogni marchio.
+In molti casi, puoi utilizzare suite di rapporti virtuali per sostituire l’assegnazione di tag a più suite. Il passaggio alle suite di rapporti virtuali può effettivamente rimuovere la necessità di [chiamate al server secondarie](/help/admin/admin/c-server-call-usage/overage-overview.md). Ad esempio, la tua organizzazione dispone di 6 siti web diversi, ciascuno dei quali invia dati alla propria suite di rapporti e a una suite di rapporti globale combinata. Ogni sito riceve una chiamata al server secondaria, una alla singola suite di rapporti sul brand e una seconda alla suite di rapporti globale. Al contrario, puoi inviare dati da tutti i siti solo alla suite di rapporti globale, quindi utilizzare più suite di rapporti virtuali per separare ogni marchio.
 
 La sostituzione dell’assegnazione tag per più suite con una suite di rapporti globale e una suite di rapporti virtuale consente di semplificare l’implementazione di Adobe Analytics e ridurre il consumo di chiamate al server; questa procedura è consigliata come best practice. Tuttavia, le suite di rapporti virtuali presentano alcune limitazioni importanti da considerare. Le linee guida seguenti sono utili per decidere se implementare suite di rapporti virtuali basate su una suite di rapporti globale sia l’approccio giusto.
 
@@ -33,7 +33,7 @@ Non è ancora possibile pubblicare segmenti in Adobe Experience Cloud da una sui
 
 ### Limiti univoci (traffico ridotto)
 
-Se disponi di una suite di rapporti globale che combina un numero elevato di siti, è possibile che si verifichi l’errore [traffico ridotto](/help/technotes/low-traffic.md) riga frequentemente. Se utilizzi l’assegnazione tag per più suite, si tratta solo di un problema per la suite di rapporti globale (le singole suite di rapporti avrebbero meno probabilità di vedere un traffico ridotto). Se utilizzi suite di rapporti virtuali, vengono condivisi limiti univoci, causando la visualizzazione di traffico ridotto anche nelle singole suite di rapporti. Per evitare di inserire dati in blocchi a traffico ridotto, utilizza l’assegnazione di tag per più suite.
+Se disponi di una suite di rapporti globale che combina un numero elevato di siti, è possibile che ti imbatta spesso nella riga [traffico ridotto](/help/technotes/low-traffic.md). Se utilizzi l’assegnazione tag per più suite, si tratta solo di un problema per la suite di rapporti globale (le singole suite di rapporti avrebbero meno probabilità di vedere un traffico ridotto). Se utilizzi suite di rapporti virtuali, vengono condivisi limiti univoci, causando la visualizzazione di traffico ridotto anche nelle singole suite di rapporti. Per evitare di inserire dati in blocchi a traffico ridotto, utilizza l’assegnazione di tag per più suite.
 
 Ad esempio, una grande organizzazione di media possiede 100 proprietà web. Ogni proprietà pubblica qualche migliaio di articoli di notizie mensili, oltre a ospitare tutti gli articoli dei mesi precedenti. Questa organizzazione utilizza una suite di rapporti globale in cui eVar1 è &quot;Nome articolo&quot;. Supponiamo che in questo rapporto ci siano circa 5 milioni di nomi di articolo univoci ogni mese dalle varie proprietà combinate. Se utilizzi una suite di rapporti virtuale, solo una parte dei 5 milioni di valori sarà inclusa nella suite di rapporti virtuale. I rimanenti sono inclusi in modalità a traffico ridotto. Se utilizzi l’assegnazione tag per più suite, ogni singola suite di rapporti può visualizzare il proprio set di valori univoci.
 
@@ -45,11 +45,11 @@ Le suite di rapporti virtuali non hanno set propri di dimensioni e metriche, ma 
 
 Diversi siti hanno esigenze di implementazione diverse. Alcune dimensioni e alcuni eventi possono essere condivisi tra due siti. Ad esempio, una registrazione e-mail può utilizzare lo stesso evento su più siti web, attivando lo stesso evento personalizzato. Altre dimensioni possono essere specifiche di un sito. Ad esempio, solo uno dei siti consente all’utente di modificare l’immagine del profilo. Questo evento personalizzato verrebbe implementato solo sul sito Web che lo supporta.
 
-Assicurati che il numero di dimensioni e metriche univoche possa rientrare in una singola suite di rapporti globale. Se riscontri che sono presenti troppe dimensioni o metriche univoche, esamina ogni dimensione all’interno di ogni implementazione. È probabile che vi siano sovrapposizioni e dimensioni che non sono fondamentali per il successo aziendale. Valuta l’utilizzo di [classificazioni](/help/components/classifications/c-classifications.md) anche. Ad esempio, invece di acquisire &quot;Nome prodotto&quot; in eVar5, crea una classificazione &quot;Nome prodotto&quot; basata sulla dimensione &quot;Prodotto&quot;. Le classificazioni in una suite di rapporti di origine sono automaticamente disponibili per tutte le suite di rapporti virtuali dipendenti.
+Assicurati che il numero di dimensioni e metriche univoche possa rientrare in una singola suite di rapporti globale. Se riscontri che sono presenti troppe dimensioni o metriche univoche, esamina ogni dimensione all’interno di ogni implementazione. È probabile che vi siano sovrapposizioni e dimensioni che non sono fondamentali per il successo aziendale. Valuta di utilizzare anche [classificazioni](/help/components/classifications/c-classifications.md). Ad esempio, invece di acquisire &quot;Nome prodotto&quot; in eVar5, crea una classificazione &quot;Nome prodotto&quot; basata sulla dimensione &quot;Prodotto&quot;. Le classificazioni in una suite di rapporti di origine sono automaticamente disponibili per tutte le suite di rapporti virtuali dipendenti.
 
 >[!TIP]
 >
->Con l&#39;introduzione di [cura](/help/analyze/analysis-workspace/curate-share/curate.md), puoi modificare il nome di una dimensione o metrica specifica in base alla suite di rapporti virtuale.
+>Con l&#39;introduzione di [cura](/help/analyze/analysis-workspace/curate-share/curate.md), puoi modificare il nome di una dimensione o metrica specificata in base alla suite di rapporti virtuale.
 
 ### Sfumature di segmentazione
 
@@ -77,7 +77,7 @@ Ad esempio, è consentito un solo DCM Google per suite di rapporti. Molte aziend
 
 ### Origini dati di riepilogo
 
-Le origini dati di riepilogo consentono di importare metriche aggregate in Adobe Analytics a livello di suite di rapporti. Perché i caricamenti dell’origine dati di riepilogo contengono metriche aggregate *senza un ID visitatore*, non possono essere segmentati in [!UICONTROL Visit] e [!UICONTROL Visitor] contenitori. Poiché la suite di rapporti virtuali funziona utilizzando la segmentazione, i dati importati utilizzando origini dati di riepilogo non saranno disponibili nelle suite di rapporti virtuali se il segmento viene creato utilizzando un contenitore Visita o Visitatore.
+Le origini dati di riepilogo consentono di importare metriche aggregate in Adobe Analytics a livello di suite di rapporti. Poiché i caricamenti dell&#39;origine dati di riepilogo contengono metriche aggregate *senza un ID visitatore*, non possono essere segmentati nei contenitori [!UICONTROL Visit] e [!UICONTROL Visitor]. Poiché la suite di rapporti virtuali funziona utilizzando la segmentazione, i dati importati utilizzando origini dati di riepilogo non saranno disponibili nelle suite di rapporti virtuali se il segmento viene creato utilizzando un contenitore Visita o Visitatore.
 
 Le origini dati di riepilogo vengono visualizzate nella suite di rapporti virtuali se viene utilizzato un contenitore Hit e se tale contenitore dispone di regole condizionate per includere le informazioni sull’origine dati.
 
@@ -91,10 +91,10 @@ Se scegli di rimuovere le chiamate al server secondarie a favore delle suite di 
 
 1. Crea suite di rapporti virtuali per far corrispondere i dati nelle suite di rapporti figlio. Segmento su una dimensione personalizzata che distingue i siti tra loro.
    * Se esegui la migrazione da un’implementazione con tag multisuite esistente, confronta i segmenti della suite di rapporti virtuale con le suite di rapporti figlio esistenti. Assicurati che i dati siano comparabili prima di spostare gli utenti alla suite di rapporti virtuale.
-   * Come best practice, considera l’utilizzo di [stacking dei segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) in modo da poter modificare un segmento in un’unica posizione e applicarlo a tutte le suite di rapporti virtuali dipendenti.
+   * Come best practice, è consigliabile utilizzare [stacking dei segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) in modo da poter modificare un segmento in un&#39;unica posizione e applicarlo a tutte le suite di rapporti virtuali dipendenti.
    * Utilizza i contenitori Hit per mantenere le suite di rapporti virtuali più esclusive tra loro.
 2. Dopo aver confermato che le suite di rapporti virtuali sono configurate correttamente, rimuovi gli ID suite di rapporti secondari dall’implementazione. Per rimuovere le suite di rapporti secondarie:
    * Nell’estensione Adobe Analytics di Adobe Experience Platform Data Collection, fai clic sulla &quot;x&quot; accanto alle suite di rapporti che non desideri più utilizzare.
-   * Nelle implementazioni JavaScript legacy, individua `s.account` e rimuovi eventuali ID suite di rapporti che non desideri più utilizzare.
+   * Nelle implementazioni legacy di JavaScript, individua la variabile `s.account` e rimuovi tutti gli ID suite di rapporti che non desideri più utilizzare.
    * In tutti i casi, lascia solo l’ID suite di rapporti globale/principale per raccogliere i dati per i siti e le app.
    * Passa a Amministrazione > Suite di rapporti e nascondi le eventuali suite di rapporti secondarie non più utilizzate.

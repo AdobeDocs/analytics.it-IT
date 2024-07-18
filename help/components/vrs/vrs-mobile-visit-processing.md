@@ -5,7 +5,7 @@ feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Se l’hit di background si verifica più di 30 minuti prima di qualsiasi hit di
 
 ![](assets/nogood2.jpg)
 
-**Se è abilitato &quot;Impedisci agli hit in background di avviare una nuova visita&quot;:**
+**Se &quot;Impedisci agli hit in background di avviare una nuova visita&quot; è abilitato:**
 
 Gli esempi seguenti illustrano il comportamento degli hit di sfondo quando questa funzione è abilitata.
 
@@ -51,11 +51,11 @@ Esempio 1: un hit di background si verifica in un periodo di tempo (t) precedent
 
 ![](assets/nogoodexample1.jpg)
 
-In questo esempio, se *t* è maggiore del timeout di visita configurato per la suite di rapporti virtuali, quindi l’hit di background viene escluso dalla visita formata dagli hit di primo piano. Ad esempio, se il timeout per la visita alla suite di rapporti virtuali è stato impostato su 15 minuti e *t* era di 20 minuti, la visita formata da questa serie di hit (mostrati dal contorno verde) avrebbe escluso l’hit di background. Ciò significa che qualsiasi eVar impostata con scadenza &quot;visita&quot; sull’hit di background **non** persistono nella visita successiva e un contenitore di segmenti visita includerebbe solo gli hit in primo piano all’interno del profilo verde.
+In questo esempio, se *t* è maggiore del timeout della visita configurato della suite di rapporti virtuali, l&#39;hit in background viene escluso dalla visita formata dagli hit in primo piano. Ad esempio, se il timeout per la visita della suite di rapporti virtuali era impostato su 15 minuti e *t* era di 20 minuti, la visita formata da questa serie di hit (mostrati dal profilo verde) escluderebbe l&#39;hit in background. Ciò significa che eventuali eVar impostate con una scadenza &quot;visita&quot; sull&#39;hit di background persisterebbero **not** nella visita successiva e un contenitore di segmenti di visita includerebbe solo gli hit di primo piano all&#39;interno del profilo verde.
 
 ![](assets/nogoodexample1-2.jpg)
 
-Viceversa, se *t* è minore del timeout di visita configurato per la suite di rapporti virtuali, l’hit in background viene incluso come parte della visita come se fosse un hit in primo piano (mostrato dal profilo verde):
+Al contrario, se *t* è inferiore al timeout della visita configurato della suite di rapporti virtuali, l&#39;hit in background viene incluso nella visita come se fosse un hit in primo piano (mostrato dal contorno verde):
 
 ![](assets/nogoodexample1-3.jpg)
 
@@ -74,7 +74,7 @@ Se l&#39;hit in background si verifica dopo il timeout configurato della suite d
 
 ![](assets/nogoodexample2-1.jpg)
 
-Analogamente, se il periodo di tempo *t* è stato inferiore al timeout configurato per la suite di rapporti virtuali, l’hit di background viene incluso nella visita formata dagli hit di primo piano precedenti:
+Allo stesso modo, se il periodo di tempo *t* è stato inferiore al timeout configurato della suite di rapporti virtuali, l&#39;hit in background viene incluso nella visita formata dagli hit in primo piano precedenti:
 
 ![](assets/nogoodexample2-2.jpg)
 
@@ -89,19 +89,19 @@ Esempio 3: in alcune circostanze, un hit di background può causare la combinazi
 
 ![](assets/nogoodexample3.jpg)
 
-Se, in questo esempio, *t1* e *t2* sono entrambi inferiori al timeout della visita configurato dalla suite di rapporti virtuali, tutti questi hit verranno combinati in una singola visita, anche se *t1* e *t2* insieme sono maggiori del timeout della visita:
+Se, in questo esempio, *t1* e *t2* sono entrambi inferiori al timeout di visita configurato dalla suite di rapporti virtuali, tutti questi hit verranno combinati in una singola visita, anche se *t1* e *t2* insieme sono superiori al timeout della visita:
 
 ![](assets/nogoodexample3-1.jpg)
 
-Se, tuttavia, *t1* e *t2* sono maggiori del timeout configurato per la suite di rapporti virtuali, tali hit verrebbero separati in due visite distinte:
+Tuttavia, se *t1* e *t2* sono maggiori del timeout configurato per la suite di rapporti virtuali, questi hit verranno separati in due visite distinte:
 
 ![](assets/nogoodexample3-2.jpg)
 
-Analogamente (come negli esempi precedenti), se *t1* è minore del timeout e *t2* è minore del timeout in cui l’hit di background verrebbe incluso nella prima visita:
+Analogamente (come negli esempi precedenti), se *t1* è minore del timeout e *t2* è minore del timeout, l&#39;hit di background verrà incluso nella prima visita:
 
 ![](assets/nogoodexample3-3.jpg)
 
-Se *t1* è maggiore del timeout e *t2* è minore del timeout, quindi l’hit di background viene incluso nella seconda visita:
+Se *t1* è maggiore del timeout e *t2* è minore del timeout, l&#39;hit di background verrà incluso nella seconda visita:
 
 ![](assets/nogoodexample3-4.jpg)
 
@@ -111,7 +111,7 @@ Esempio 4: negli scenari in cui si verifica una serie di hit di background entro
 
 Anche se questa non è considerata una visita, qualsiasi eVar impostata con scadenza visita persiste i suoi valori rispetto agli altri hit di background in questa &quot;visita di background&quot;.
 
-Esempio 5: per gli scenari in cui si verificano più hit di background in successione dopo una serie di hit in primo piano, è possibile (a seconda dell’impostazione di timeout) che gli hit di background mantengano in vita una visita più a lungo del periodo di timeout della visita. Ad esempio, se *t1* e *t2* insieme erano superiori al timeout di visita della suite di rapporti virtuale, ma singolarmente inferiori al timeout, la visita si estendeva comunque per includere entrambi gli hit in background:
+Esempio 5: per gli scenari in cui si verificano più hit di background in successione dopo una serie di hit in primo piano, è possibile (a seconda dell’impostazione di timeout) che gli hit di background mantengano in vita una visita più a lungo del periodo di timeout della visita. Ad esempio, se *t1* e *t2* insieme fossero maggiori del timeout di visita della suite di rapporti virtuale ma singolarmente inferiori al timeout, la visita si estenderebbe comunque per includere entrambi gli hit in background:
 
 ![](assets/nogoodexample5.jpg)
 

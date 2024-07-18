@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Tipo di metrica e attribuzione
 
-Quando [creazione di una metrica calcolata](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), puoi specificare il tipo di metrica e il modello di attribuzione.
+Quando [si crea una metrica calcolata](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), è possibile specificare il tipo di metrica e il modello di attribuzione.
 
 ## Tipo di metrica
 
@@ -26,12 +26,12 @@ Per specificare il tipo di metrica durante la creazione di una metrica calcolata
 
    | Tipi di metriche | Definizione |
    |---|---|
-   | Standard | Queste metriche sono le stesse utilizzate in Standard [!DNL Analytics] reportistica. Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singola riga. Ad esempio: [Ordini] / [Visite] prende ordini per quella voce specifica e lo divide per il numero di visite per quella voce specifica. |
-   | Totale complessivo | Utilizza il totale complessivo per il periodo di reporting in ogni voce di riga. Se una formula è costituita da una singola metrica Totale complessivo, visualizza lo stesso numero totale su ogni riga. Le metriche del totale complessivo sono utili per creare metriche calcolate che si confrontano con i dati totali del sito. Ad esempio: [Ordini] / [Visite totali] mostra la proporzione di ordini rispetto a TUTTE le visite al sito, non solo le visite alla voce specifica. |
+   | Standard | Queste metriche sono le stesse utilizzate nel reporting standard di [!DNL Analytics]. Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singola riga. Ad esempio, [Ordini] / [Visite] prende ordini per quella riga specifica e lo divide per il numero di visite per quella riga specifica. |
+   | Totale complessivo | Utilizza il totale complessivo per il periodo di reporting in ogni voce di riga. Se una formula è costituita da una singola metrica Totale complessivo, visualizza lo stesso numero totale su ogni riga. Le metriche del totale complessivo sono utili per creare metriche calcolate che si confrontano con i dati totali del sito. Ad esempio, [Ordini] / [Visite totali] mostra la proporzione di ordini rispetto a TUTTE le visite al sito, non solo le visite all&#39;elemento di riga specifico. |
 
 ## Come funziona l’allocazione lineare
 
-[Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md) è la modalità di valutazione dei modelli di allocazione nelle metriche calcolate.
+[Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md) è il modo in cui vengono valutati i modelli di allocazione nelle metriche calcolate.
 
 Per un elenco completo dei modelli di attribuzione e degli intervalli di lookback non predefiniti supportati, consulta [Modelli di attribuzione e intervalli di lookback](/help/analyze/analysis-workspace/attribution/models.md).
 

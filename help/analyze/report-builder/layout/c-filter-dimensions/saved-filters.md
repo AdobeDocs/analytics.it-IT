@@ -16,6 +16,6 @@ ht-degree: 3%
 
 È possibile salvare filtri o altri parametri nel Report Builder e utilizzarli in altri fogli di lavoro o cartelle di lavoro. Questi parametri vengono salvati in Analytics per essere certi di essere disponibili per altri utenti del Report Builder su altri computer.
 
-I filtri vengono salvati in [!UICONTROL Choose Page] durante la creazione di un filtro. Per un esempio di questa procedura, vedi [Filtri specifici](/help/analyze/report-builder/layout/c-filter-dimensions/t-specific-filters.md).
+Salvare i filtri nel modulo [!UICONTROL Choose Page] durante la creazione di un filtro. Per un esempio di questa procedura, vedere [Filtri specifici](/help/analyze/report-builder/layout/c-filter-dimensions/t-specific-filters.md).
 
 ![Schermata del modulo Scegli pagina e opzioni per le pagine Filtri più popolari, specifici e salvati.](assets/choose_page_saved.png)

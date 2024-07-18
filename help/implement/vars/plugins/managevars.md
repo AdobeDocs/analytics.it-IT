@@ -15,7 +15,7 @@ ht-degree: 5%
 
 {{plug-in}}
 
-Il `manageVars` Il plug-in consente di manipolare i valori di più variabili di Analytics contemporaneamente. Puoi anche impostare i valori in minuscolo o rimuovere contemporaneamente caratteri non necessari da più valori di variabili. L’Adobe consiglia di utilizzare questo plug-in per pulire il valore di più variabili contemporaneamente.
+Il plug-in `manageVars` consente di manipolare i valori di più variabili di Analytics contemporaneamente. Puoi anche impostare i valori in minuscolo o rimuovere contemporaneamente caratteri non necessari da più valori di variabili. L’Adobe consiglia di utilizzare questo plug-in per pulire il valore di più variabili contemporaneamente.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
@@ -27,8 +27,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -43,14 +43,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,10 +61,10 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## Utilizzare il plug-in
 
-Il `manageVars` La funzione utilizza i seguenti argomenti:
+La funzione `manageVars` utilizza i seguenti argomenti:
 
-* **`cb`** (obbligatorio, stringa): nome di una funzione di callback utilizzata dal plug-in per manipolare le variabili di Analytics. Puoi utilizzare una funzione di Adobe come `cleanStr` o una funzione personalizzata.
-* **`l`** (facoltativo, stringa): elenco delimitato da virgole di variabili di Analytics che desideri manipolare. Se non viene impostato, viene impostato automaticamente su TUTTE le variabili di Adobe Analytics, tra cui:
+* **`cb`** (obbligatorio, stringa): nome di una funzione di callback utilizzata dal plug-in per manipolare le variabili di Analytics. È possibile utilizzare una funzione di Adobe come `cleanStr` o una funzione personalizzata.
+* **`l`** (facoltativo, stringa): elenco delimitato da virgole di variabili di Analytics che si desidera modificare. Se non viene impostato, viene impostato automaticamente su TUTTE le variabili di Adobe Analytics, tra cui:
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -81,7 +81,7 @@ Il `manageVars` La funzione utilizza i seguenti argomenti:
    * Tutte le variabili della gerarchia
    * Tutte le variabili elenco
    * Tutte le variabili di dati di contesto
-* **`Il`** (facoltativo, booleano): impostato su `false` se si desidera *escludi* l’elenco delle variabili dichiarate nel `l` invece di includerli. Predefinito su `true`.
+* **`Il`** (facoltativo, booleano): impostare su `false` se si desidera *escludere* l&#39;elenco di variabili dichiarate nell&#39;argomento `l` anziché includerle. Predefinito su `true`.
 
 La chiamata di questa funzione non restituisce alcun risultato. Cambia invece i valori delle variabili di Analytics in base alla funzione di callback desiderata.
 
@@ -139,7 +139,7 @@ manageVars("cleanStr");
 
 * Rimuove la codifica HTML
 * Rimuove gli spazi vuoti trovati all’inizio e alla fine del valore
-* Sostituisce le virgolette singole a sinistra/destra con una virgoletta singola diritta (`'`)
+* Sostituisce le virgolette singole sinistra/destra con una virgoletta singola diritta (`'`)
 * Sostituisce i caratteri di tabulazione, i caratteri di nuova riga e i caratteri di ritorno a capo con spazi
 * Sostituisce tutti i doppi (o tripli, ecc.) spazi con spazi singoli
 
@@ -152,9 +152,9 @@ manageVars("cleanStr");
 ### 2.1 (14 gennaio 2019)
 
 * Correzione di bug per i browser Internet Explorer 11.
-* Modifiche per `s.cleanStr`, che ora utilizza il normale `cleanStr` funzione.
+* Modifiche per `s.cleanStr`, che ora utilizza la funzione regolare `cleanStr`.
 
 ### 2.0 (7 maggio 2018)
 
 * Rilascio del punto (inclusa la rianalisi/riscrittura completa del plug-in)
-* Aggiunto `cleanStr` funzione di callback
+* Aggiunta funzione di callback `cleanStr`

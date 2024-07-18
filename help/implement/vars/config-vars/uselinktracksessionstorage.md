@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # useLinkTrackSessionStorage
 
-Se la tua organizzazione utilizza il tracciamento dei collegamenti, AppMeasurement utilizza `s_sq` cookie per trasmettere informazioni tra gli hit. Alcune configurazioni del sito web sono in conflitto con questo cookie. Abilita questa variabile se desideri utilizzare l’archiviazione della sessione del browser per il tracciamento dei collegamenti e i dati Activity Map invece di un cookie.
+Se la tua organizzazione utilizza il tracciamento dei collegamenti, AppMeasurement utilizza il cookie `s_sq` per trasmettere informazioni tra gli hit. Alcune configurazioni del sito web sono in conflitto con questo cookie. Abilita questa variabile se desideri utilizzare l’archiviazione della sessione del browser per il tracciamento dei collegamenti e i dati Activity Map invece di un cookie.
 
 L’utilizzo dell’archiviazione della sessione di un browser per il tracciamento dei collegamenti presenta diverse limitazioni:
 
@@ -36,7 +36,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.useLinkTrackSessionStorage in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.useLinkTrackSessionStorage` variabile è un valore booleano che determina se AppMeasurement utilizza l’archiviazione della sessione per i dati di tracciamento dei collegamenti invece del `s_sq` cookie. Il valore predefinito è `false`. Imposta questa variabile su `true` se desideri che AppMeasurement utilizzi l’archiviazione della sessione invece del `s_sq` cookie per il tracciamento dei collegamenti e Activity Map.
+La variabile `s.useLinkTrackSessionStorage` è un valore booleano che determina se AppMeasurement utilizza l&#39;archiviazione della sessione per i dati di tracciamento dei collegamenti invece del cookie `s_sq`. Il valore predefinito è `false`. Impostare questa variabile su `true` se si desidera che AppMeasurement utilizzi l&#39;archiviazione della sessione invece del cookie `s_sq` per il tracciamento dei collegamenti e l&#39;Activity Map.
 
 ```js
 s.useLinkTrackSessionStorage = true;

@@ -17,71 +17,77 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->Quando crei e modifichi posizioni, tieni presente quanto segue:<ul><li>Gli amministratori di sistema possono impedire agli utenti di creare posizioni, come descritto in [Specificare se gli utenti possono creare percorsi](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). Se non è possibile creare i percorsi come descritto in questa sezione, contattare l&#39;amministratore di sistema.</li><li>Una posizione può essere modificata solo dall’utente che l’ha creata o da un amministratore di sistema.</li></ul>
+>Quando crei e modifichi posizioni, tieni presente quanto segue:<ul><li>Gli amministratori di sistema possono impedire agli utenti di creare percorsi, come descritto in [Specificare se gli utenti possono creare percorsi](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). Se non è possibile creare i percorsi come descritto in questa sezione, contattare l&#39;amministratore di sistema.</li><li>Una posizione può essere modificata solo dall’utente che l’ha creata o da un amministratore di sistema.</li></ul>
 
-Dopo di te [configurare un account cloud](/help/components/locations/configure-import-accounts.md), puoi configurare una posizione su tale account. Una singola posizione può essere utilizzata per uno dei seguenti scopi (una singola posizione non può essere associata a più scopi):
+Dopo aver [configurato un account cloud](/help/components/locations/configure-import-accounts.md), puoi configurare una posizione su tale account. Una singola posizione può essere utilizzata per uno dei seguenti scopi (una singola posizione non può essere associata a più scopi):
 
-* Esportazione di file tramite [Feed dati](/help/export/analytics-data-feed/create-feed.md)
-* Esportazione di rapporti tramite [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Importazione degli schemi tramite [Set di classificazione](/help/components/classifications/sets/overview.md)
+* Esportazione di file tramite [feed dati](/help/export/analytics-data-feed/create-feed.md)
+* Esportazione di report tramite [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Importazione di schemi tramite [Set di classificazione](/help/components/classifications/sets/overview.md)
 
-Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account cloud. Questo processo consiste nell’aggiungere e configurare l’account (ad esempio ARN per il ruolo Amazon S3, Google Cloud Platform e così via) come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md), quindi aggiungendo e configurando la posizione all’interno dell’account (come descritto in questo articolo).
+Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account cloud. Questo processo consiste nell&#39;aggiungere e configurare l&#39;account (ad esempio ARN per il ruolo Amazon S3, Google Cloud Platform e così via) come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md), quindi aggiungere e configurare la posizione all&#39;interno dell&#39;account (come descritto in questo articolo).
 
-Per informazioni su come visualizzare ed eliminare le posizioni esistenti, consulta [Gestione posizioni](/help/components/locations/locations-manager.md).
+Per informazioni su come visualizzare ed eliminare i percorsi esistenti, vedere [Gestione percorsi](/help/components/locations/locations-manager.md).
 
 ## Inizia a creare o modificare una posizione
 
-1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Posizioni**].
+1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Percorsi**].
 
-1. Il giorno [!UICONTROL Locations] , seleziona la [!UICONTROL **Posizioni**] scheda.
+1. Nella pagina [!UICONTROL Locations], seleziona la scheda [!UICONTROL **Percorsi**].
 
-1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare [!UICONTROL **Visualizza posizioni per tutti gli utenti**] per visualizzare le posizioni create da tutti gli utenti dell’organizzazione.
-   ![visualizza posizioni per tutti gli utenti](assets/locations-all-users.png)
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare l&#39;opzione [!UICONTROL **Visualizza percorsi per tutti gli utenti**] per visualizzare i percorsi creati da tutti gli utenti dell&#39;organizzazione.
+   ![visualizza percorsi per tutti gli utenti](assets/locations-all-users.png)
 
-1. Per aggiungere una nuova posizione, seleziona [!UICONTROL **Aggiungi posizione**]. (Se non hai già aggiunto un account, aggiungine uno come descritto in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).)
+1. Per aggiungere una nuova posizione, selezionare [!UICONTROL **Aggiungi posizione**]. (Se non hai già aggiunto un account, aggiungine uno come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).)
 
-   Il [!UICONTROL **Aggiungi posizione**] finestre di dialogo visualizzate
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Aggiungi percorso**]
 
    Oppure
 
-   Per modificare una posizione esistente, seleziona il menu a tre punti accanto al nome della posizione, quindi fai clic su [!UICONTROL **Modifica**].
+   Per modificare una posizione esistente, seleziona il menu a tre punti accanto al nome della posizione, quindi seleziona [!UICONTROL **Modifica**].
 
-   Il [!UICONTROL **Dettagli località**] viene visualizzata una finestra di dialogo.
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Dettagli località**].
 
-1. Specifica le seguenti informazioni: |Campo | Funzione | ---------- --------- | [!UICONTROL **Nome**] | Nome della posizione.  |
-| [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri dello stesso tipo. | | [!UICONTROL **Uso con**] | Seleziona se desideri utilizzare questa posizione con [!UICONTROL **Feed dati**], [!UICONTROL **Data Warehouse**], o [!UICONTROL **Set di classificazione**]. <p>Quando effettuate una selezione, tenete presente quanto segue:</p><ul><li>Una singola posizione non può essere utilizzata per più scopi. Ad esempio, una posizione utilizzata per i feed di dati non può essere utilizzata anche per set di Data Warehouse o di classificazione.</li><li>Per evitare conflitti di file all&#39;interno di una posizione, non modificare il valore di [!UICONTROL **Uso con**] dopo l’utilizzo della posizione.</li><li>Se stai creando una posizione per un account e-mail, seleziona [!UICONTROL **Data Warehouse**] in questo campo. Le posizioni e-mail non sono supportate con feed di dati e set di classificazione.</li></ul> | | [!UICONTROL **Rendi la posizione disponibile a tutti gli utenti dell’organizzazione**] | Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare la posizione.<p>Quando condividi le posizioni, tieni presente quanto segue:</p><ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario della posizione.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul> | | [!UICONTROL **Account località**] | Selezionare l&#39;account della posizione in cui si desidera creare la posizione. Per informazioni su come creare un account, consulta [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md). |
+1. Specifica le seguenti informazioni:
+|Campo | Funzione |
+---------- ---------
+| [!UICONTROL **Nome**] | Nome della posizione.  |
+| [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri dello stesso tipo. |
+| [!UICONTROL **Usa con**] | Seleziona se desideri utilizzare questa posizione con [!UICONTROL **feed di dati**], [!UICONTROL **Data Warehouse**] o [!UICONTROL **set di classificazione**]. <p>Quando effettuate una selezione, tenete presente quanto segue:</p><ul><li>Una singola posizione non può essere utilizzata per più scopi. Ad esempio, una posizione utilizzata per i feed di dati non può essere utilizzata anche per set di Data Warehouse o di classificazione.</li><li>Per evitare conflitti di file all&#39;interno di un percorso, non modificare il valore del campo [!UICONTROL **Usa con**] dopo l&#39;utilizzo del percorso.</li><li>Se stai creando un percorso per un account di posta elettronica, seleziona [!UICONTROL **Data Warehouse**] in questo campo. Le posizioni e-mail non sono supportate con feed di dati e set di classificazione.</li></ul> |
+| [!UICONTROL **Rendi la posizione disponibile a tutti gli utenti dell&#39;organizzazione**] | Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare la posizione.<p>Quando condividi le posizioni, tieni presente quanto segue:</p><ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario della posizione.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul> |
+| [!UICONTROL **Account località**] | Selezionare l&#39;account della posizione in cui si desidera creare la posizione. Per informazioni su come creare un account, vedere [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md). |
 
-1. Per completare il modulo per la configurazione della posizione, continua con la sezione seguente che corrisponde al tipo di account selezionato in [!UICONTROL **Account ubicazione**] campo. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
+1. Per completare il modulo per la configurazione del percorso, continuare con la sezione seguente che corrisponde al tipo di account selezionato nel campo [!UICONTROL **Account percorso**]. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
 
-### ARN per ruolo Amazon S3
+### Amazon S3 con ruolo ARN
 
 Per configurare una posizione ARN per il ruolo Amazon S3, specifica le seguenti informazioni:
 
-1. [Inizia a creare o modificare una posizione](#begin-creating-or-editing-a-location), come descritto in precedenza.
+1. [Inizia a creare o modificare un percorso](#begin-creating-or-editing-a-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l&#39;ARN utente fornito da Adobe disponga del `S3:PutObject` per caricare i file in questo bucket. </p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html?lang=it). </p> |
+   | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Adobe Analytics. <p>Assicurati che l&#39;ARN utente fornito da Adobe disponga dell&#39;autorizzazione `S3:PutObject` per caricare i file in questo bucket. </p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html?lang=it). </p> |
    | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio, folder_name/ |
 
    {style="table-layout:auto"}
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizza [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizza [Set di classificazione](/help/components/classifications/sets/overview.md).
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
 
    I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
 
    >[!NOTE]
    >
-   >   Se in precedenza è stato utilizzato [FTP per importare le classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, era necessario caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
+   >   Se in precedenza hai utilizzato [FTP per importare classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, devi caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
 
 
 ### Google Cloud Platform
 
 Per configurare una posizione di Google Cloud Platform, specifica le informazioni seguenti:
 
-1. [Inizia a creare o modificare una posizione](#begin-creating-or-editing-a-location), come descritto in precedenza.
+1. [Inizia a creare o modificare un percorso](#begin-creating-or-editing-a-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
@@ -92,20 +98,20 @@ Per configurare una posizione di Google Cloud Platform, specifica le informazion
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizza [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizza [Set di classificazione](/help/components/classifications/sets/overview.md).
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
 
    I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
 
    >[!NOTE]
    >
-   >   Se in precedenza è stato utilizzato [FTP per importare le classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, era necessario caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
+   >   Se in precedenza hai utilizzato [FTP per importare classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, devi caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
 
 
 ### Azure SAS
 
 Per configurare una posizione SAS di Azure, specifica le informazioni seguenti:
 
-1. [Inizia a creare o modificare una posizione](#begin-creating-or-editing-a-location), come descritto in precedenza.
+1. [Inizia a creare o modificare un percorso](#begin-creating-or-editing-a-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
@@ -116,20 +122,20 @@ Per configurare una posizione SAS di Azure, specifica le informazioni seguenti:
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizza [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizza [Set di classificazione](/help/components/classifications/sets/overview.md).
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
 
    I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
 
    >[!NOTE]
    >
-   >   Se in precedenza è stato utilizzato [FTP per importare le classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, era necessario caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
+   >   Se in precedenza hai utilizzato [FTP per importare classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, devi caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
 
 
 ### Azure RBAC
 
 Per configurare una posizione RBAC di Azure, specifica le informazioni seguenti:
 
-1. [Inizia a creare o modificare una posizione](#begin-creating-or-editing-a-location), come descritto in precedenza.
+1. [Inizia a creare o modificare un percorso](#begin-creating-or-editing-a-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
@@ -141,19 +147,19 @@ Per configurare una posizione RBAC di Azure, specifica le informazioni seguenti:
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizza [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizza [Set di classificazione](/help/components/classifications/sets/overview.md).
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
 
    I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
 
    >[!NOTE]
    >
-   >   Se in precedenza è stato utilizzato [FTP per importare le classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, era necessario caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
+   >   Se in precedenza hai utilizzato [FTP per importare classificazioni](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics, devi caricare un file FIN. Questo file FIN non è necessario per l’importazione da account cloud.
 
 ### E-mail
 
 Per configurare un percorso e-mail, specifica le seguenti informazioni:
 
-1. [Inizia a creare o modificare una posizione](#begin-creating-or-editing-a-location), come descritto in precedenza.
+1. [Inizia a creare o modificare un percorso](#begin-creating-or-editing-a-location), come descritto in precedenza.
 
    | Campo | Funzione |
    |---------|----------|
@@ -164,11 +170,11 @@ Per configurare un percorso e-mail, specifica le seguenti informazioni:
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Ora puoi esportare i dati nell’account e nella posizione configurati quando utilizzi [Feed dati](/help/export/analytics-data-feed/create-feed.md). Le posizioni e-mail non sono supportate con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Set di classificazione](/help/components/classifications/sets/overview.md)).
+   È ora possibile esportare i dati nell&#39;account e nel percorso configurati durante l&#39;utilizzo di [Feed dati](/help/export/analytics-data-feed/create-feed.md). (I percorsi e-mail non sono supportati con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Set di classificazione](/help/components/classifications/sets/overview.md)).
 
 ### Tipi di account legacy
 
-Questi tipi di account legacy sono disponibili solo quando si esportano dati con [Feed dati](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Queste opzioni non sono disponibili quando si importano dati con [Set di classificazione](/help/components/classifications/sets/manage/schema.md).
+Questi tipi di account legacy sono disponibili solo quando si esportano dati con [Feed dati](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Queste opzioni non sono disponibili durante l&#39;importazione di dati con [Set di classificazione](/help/components/classifications/sets/manage/schema.md).
 
 +++FTP
 
@@ -176,7 +182,7 @@ I dati del feed dati possono essere inviati a un Adobe o a una posizione FTP osp
 
 | Campo | Funzione |
 |---------|----------|
-| [!UICONTROL **Percorso directory**] | Immettere il percorso della directory sul server FTP. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste. </br>Ad esempio: `/folder_name/folder_name`. |
+| [!UICONTROL **Percorso directory**] | Immettere il percorso della directory sul server FTP. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste. </br>Ad esempio, `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 
@@ -188,7 +194,7 @@ I dati del feed dati possono essere consegnati a una posizione SFTP Adobe o ospi
 
 | Campo | Funzione |
 |---------|----------|
-| [!UICONTROL **Percorso directory**] | Immettere il percorso della directory sul server FTP. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste. </br>Ad esempio: `/folder_name/folder_name`. |
+| [!UICONTROL **Percorso directory**] | Immettere il percorso della directory sul server FTP. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste. </br>Ad esempio, `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 

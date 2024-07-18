@@ -15,17 +15,17 @@ ht-degree: 7%
 
 {{plug-in}}
 
-Il `getPageName` Il plug-in crea una versione dell’URL corrente in formato semplice e leggibile. L’Adobe consiglia di utilizzare questo plug-in se si desidera [`pageName`](../page-vars/pagename.md) valore facile da impostare e da comprendere nei rapporti. Questo plug-in non è necessario se si dispone già di una struttura di denominazione per `pageName` variabile, ad esempio tramite un livello dati. Viene utilizzato al meglio quando non si dispone di un&#39;altra soluzione per impostare `pageName` variabile.
+Il plug-in `getPageName` crea una versione dell&#39;URL corrente in formato semplice e intuitivo. L&#39;Adobe consiglia di utilizzare questo plug-in se si desidera un valore [`pageName`](../page-vars/pagename.md) facile da impostare e da comprendere nei rapporti. Questo plug-in non è necessario se si dispone già di una struttura di denominazione per la variabile `pageName`, ad esempio tramite un livello dati. È consigliabile utilizzarlo quando non si dispone di un&#39;altra soluzione per impostare la variabile `pageName`.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con Web SDK.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
-1. Clic **[!UICONTROL Tags]** a sinistra, fai clic sulla proprietà tag desiderata.
-1. Clic **[!UICONTROL Extensions]** a sinistra, quindi fai clic su **[!UICONTROL Catalog]** scheda
-1. Individuare e installare **[!UICONTROL Common Web SDK Plugins]** estensione.
-1. Clic **[!UICONTROL Data Elements]** a sinistra, quindi fai clic sull’elemento dati desiderato.
+1. Fare clic su **[!UICONTROL Tags]** a sinistra, quindi fare clic sulla proprietà tag desiderata.
+1. Fai clic su **[!UICONTROL Extensions]** a sinistra, quindi sulla scheda **[!UICONTROL Catalog]**
+1. Individuare e installare l&#39;estensione **[!UICONTROL Common Web SDK Plugins]**.
+1. Fai clic su **[!UICONTROL Data Elements]** a sinistra, quindi sull&#39;elemento dati desiderato.
 1. Imposta il nome dell’elemento dati desiderato con la seguente configurazione:
    * Estensione: Common Web SDK Plugins
    * Elemento dati: `getPageName`
@@ -42,8 +42,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -58,14 +58,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -76,14 +76,14 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## Utilizzare il plug-in
 
-Il `getPageName` La funzione utilizza i seguenti argomenti:
+La funzione `getPageName` utilizza i seguenti argomenti:
 
-* **`si`** (facoltativo, stringa): ID inserito all’inizio della stringa che rappresenta l’ID del sito. Questo valore può essere un ID numerico o un nome descrittivo. Se non viene impostato, per impostazione predefinita viene utilizzato il dominio corrente.
-* **`qv`** (facoltativo, stringa): elenco delimitato da virgole di parametri della stringa di query che, se presenti nell’URL, vengono aggiunti alla stringa
-* **`hv`** (facoltativo, stringa): elenco delimitato da virgole di parametri presenti nell’hash dell’URL che, se presenti nell’URL, vengono aggiunti alla stringa
-* **`de`** (facoltativo, stringa): delimitatore per suddividere singole parti della stringa. Valore predefinito per una pipe (`|`).
+* **`si`** (facoltativo, stringa): ID inserito all&#39;inizio della stringa che rappresenta l&#39;ID del sito. Questo valore può essere un ID numerico o un nome descrittivo. Se non viene impostato, per impostazione predefinita viene utilizzato il dominio corrente.
+* **`qv`** (facoltativo, stringa): elenco delimitato da virgole di parametri della stringa di query che, se presenti nell&#39;URL, vengono aggiunti alla stringa
+* **`hv`** (facoltativo, stringa): elenco delimitato da virgole di parametri presenti nell&#39;hash URL che, se presenti nell&#39;URL, verranno aggiunti alla stringa
+* **`de`** (facoltativo, stringa): delimitatore per suddividere singole parti della stringa. Impostazione predefinita: una pipe (`|`).
 
-La funzione restituisce una stringa contenente una versione dell’URL in formato descrittivo. Questa stringa viene in genere assegnata al `pageName` , ma può essere utilizzato anche in altre variabili.
+La funzione restituisce una stringa contenente una versione dell’URL in formato descrittivo. Questa stringa viene in genere assegnata alla variabile `pageName`, ma può essere utilizzata anche in altre variabili.
 
 ## Esempi
 
@@ -112,7 +112,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## Aggiornamento da versioni precedenti
 
-Versione 4.0+ di `getPageName` plug-in non dipende dall&#39;esistenza dell&#39;oggetto AppMeasurement di Adobe Analytics (ovvero `s` oggetto ). Se esegui l’aggiornamento a questa versione, modifica il codice che chiama il plug-in rimuovendo eventuali istanze del `s` oggetto dalla chiamata. Ad esempio, modifica `s.getPageName();` a `getPageName();`.
+La versione 4.0+ del plug-in `getPageName` non dipende dall&#39;esistenza dell&#39;oggetto AppMeasurement di Adobe Analytics, ovvero l&#39;oggetto `s`. Se si esegue l&#39;aggiornamento a questa versione, modificare il codice che chiama il plug-in rimuovendo eventuali istanze dell&#39;oggetto `s` dalla chiamata. Modificare ad esempio `s.getPageName();` in `getPageName();`.
 
 ## Cronologia versioni
 

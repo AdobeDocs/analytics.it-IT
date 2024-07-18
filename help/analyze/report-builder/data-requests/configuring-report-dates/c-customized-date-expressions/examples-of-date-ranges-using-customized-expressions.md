@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '421'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ La tabella presuppone che la data odierna sia lunedì 10 novembre 2011, utilizza
 
 | Esempio | Intervallo date | Personalizza espressione | Intervallo date del rapporto |
 |---|---|---|---|
-|  |  | **Da** | **Su** |  |
+|  | | **Da** | **A** | |
 | 1 | Due settimane fa | cw-2w | cw-1w-1d | 26 ottobre - 1 novembre |
 | 2 | Primi 3 giorni del quinto mese dello scorso anno | cy-1y+4m | cy-1y+4m+2d | maggio-3 maggio 2010 |
 | 3 | Una settimana intera, a partire da 4 settimane fa | cw-4w | cw-3w-1d | dal 12 ottobre al 18 ottobre |

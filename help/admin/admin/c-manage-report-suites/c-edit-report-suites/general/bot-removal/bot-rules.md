@@ -23,7 +23,7 @@ I dati sul traffico generato dai bot vengono memorizzati in un archivio separato
 
 >[!NOTE]
 >
->La rete Edge di Adobe Experience Platform offre [servizio di rilevamento bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) che etichetta gli hit identificati come provenienti da bot. Il processo di rilevamento dei bot utilizzato in Adobe Analytics è separato e non fa riferimento al punteggio dei bot incluso nei dati in arrivo tramite la rete Edge. Tuttavia, i due sistemi utilizzano lo stesso elenco di bot IAB.
+>L&#39;Edge Network di Adobe Experience Platform fornisce un [servizio di rilevamento bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=it) che etichetta gli hit identificati come provenienti da bot. Il processo di rilevamento dei bot utilizzato in Adobe Analytics è separato e non fa riferimento al punteggio bot incluso nei dati in arrivo tramite l’Edge Network. Tuttavia, i due sistemi utilizzano lo stesso elenco di bot IAB.
 
 ## Aggiornare o caricare le regole bot
 
@@ -37,23 +37,23 @@ Il video seguente illustra come configurare le regole bot:
 
 Per aggiornare o caricare le regole bot:
 
-1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
 1. Seleziona la suite di rapporti in cui desideri aggiornare le regole bot, quindi seleziona **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
 
 1. Utilizza una delle seguenti opzioni per aggiornare o caricare le regole bot per la suite di rapporti:
 
-   * Seleziona [!UICONTROL **Abilita regole di filtro bot IAB**] rimuovere i bot dall’elenco internazionale Spiders e Bots di IAB (International Advertising Bureau) per rimuovere il traffico generato da bot.
+   * Seleziona [!UICONTROL **Abilita regole di filtro bot IAB**] per rimuovere i bot dall&#39;elenco internazionale Spiders e Bots di IAB (International Advertising Bureau) per rimuovere il traffico da bot.
 
      È consigliabile selezionare almeno questa opzione.
 
-     Per ulteriori informazioni, consulta la sezione seguente, [Regole bot IAB standard](#standard-iab-bot-rules).
+     Per ulteriori informazioni, consulta la sezione seguente, [Regole IAB standard](#standard-iab-bot-rules).
 
-   * Seleziona [!UICONTROL **Aggiungi regola**] definire e aggiungere regole bot personalizzate basate su agenti utente, indirizzi IP o intervalli IP.
+   * Seleziona [!UICONTROL **Aggiungi regola**] per definire e aggiungere regole bot personalizzate basate su agenti utente, indirizzi IP o intervalli IP.
 
      Per ulteriori informazioni, consulta la sezione seguente, [Regole bot personalizzate](#custom-bot-rules).
 
-   * Accanto al [!UICONTROL **Selezionate il file bot CSV da importare**] area, seleziona [!UICONTROL **Scegli file**], quindi seleziona il file CSV che definisce le regole bot.
+   * Accanto all&#39;area [!UICONTROL **Seleziona file bot CSV da importare**], selezionare [!UICONTROL **Scegli file**], quindi selezionare il file CSV che definisce le regole bot.
 
      Per ulteriori informazioni, consulta la sezione seguente, [Caricare regole bot](#upload-bot-rules).
 
@@ -67,7 +67,7 @@ Le regole IAB standard possono essere attivate selezionando la casella di contro
 
 Adobe non è in grado di fornire ai clienti l’elenco dettagliato dei bot IAB; tuttavia puoi utilizzare il rapporto Bots per ottenere un elenco dei bot che hanno effettuato l’accesso al tuo sito. Per segnalare un bot da inserire nell’elenco IAB, visita [IAB](https://www.iab.com).
 
-Per informazioni su come abilitare le regole bot IAB standard in una suite di rapporti, consulta [Aggiornare o caricare le regole bot](#update-or-upload-bot-rules).
+Per informazioni su come abilitare le regole bot IAB standard in una suite di rapporti, vedi [Aggiornare o caricare le regole bot](#update-or-upload-bot-rules).
 
 ## Regole bot personalizzate
 
@@ -95,7 +95,7 @@ Il campo **[!UICONTROL contains]** è limitato a 100 caratteri. L’elenco “do
 
 ### Indirizzo IP (comprese le corrispondenze con caratteri jolly)
 
-Trova uno o più indirizzi IP nello stesso blocco utilizzando caratteri jolly (&#42;). Specifica i valori numerici dell’indirizzo IP da trovare. Sostituisci &#42; per tutti i valori che si desidera trovare utilizzando un carattere jolly. Il seguente elenco contiene esempi di stringa di corrispondenza dell’indirizzo IP:
+Trova uno o più indirizzi IP nello stesso blocco utilizzando caratteri jolly (&#42;). Specifica i valori numerici dell’indirizzo IP da trovare. Sostituire &#42; per i valori che si desidera associare utilizzando un carattere jolly. Il seguente elenco contiene esempi di stringa di corrispondenza dell’indirizzo IP:
 
 ```
 10.10.10.1
@@ -104,7 +104,7 @@ Trova uno o più indirizzi IP nello stesso blocco utilizzando caratteri jolly (&
 
 ### Intervallo indirizzi IP
 
-Specifica gli intervalli iniziale e finale degli indirizzi IP da rilevare. Sostituisci &#42; per tutti i valori che si desidera trovare utilizzando un carattere jolly.
+Specifica gli intervalli iniziale e finale degli indirizzi IP da rilevare. Sostituire &#42; per i valori che si desidera associare utilizzando un carattere jolly.
 
 ### Definire una regola bot personalizzata
 
@@ -143,13 +143,13 @@ Per importare in blocco le regole bot, puoi caricare un file CSV che le definisc
 
    * **Corrispondenza intervallo IP**: definisci un intervallo di indirizzi IP utilizzando le colonne Inizio IP e Fine IP. I caratteri jolly possono essere utilizzati per rilevare intervalli IP, ad esempio `10.10.10.*` a `10.10.20.*`. Regola di corrispondenza, Inclusione agente ed Esclusione agente devono essere vuoti.
 
-1. Nella pagina Regole bot in Report Suite Manager, accanto a [!UICONTROL **Selezionate il file bot CSV da importare**] area, seleziona [!UICONTROL **Scegli file**], quindi seleziona il file CSV che definisce le regole bot da importare.
+1. Nella pagina Regole bot di Report Suite Manager, accanto all&#39;area [!UICONTROL **Seleziona file bot CSV da importare**], seleziona [!UICONTROL **Scegli file**], quindi seleziona il file CSV che definisce le regole bot da importare.
 
-1. (Facoltativo) Seleziona la **[!UICONTROL Overwrite existing rules]** per eliminare tutte le regole esistenti e sostituirle con le regole definite nel file di caricamento.
+1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Overwrite existing rules]** per eliminare tutte le regole esistenti e sostituirle con le regole definite nel file di caricamento.
 
-1. Seleziona [!UICONTROL **Importa file**].
+1. Selezionare [!UICONTROL **Importa file**].
 
-1. In [!UICONTROL **Set di regole**] , rivedere le regole importate.
+1. Nell&#39;area [!UICONTROL **Set di regole**], controlla le regole importate.
 
 1. Seleziona [!UICONTROL **Salva**].
 
@@ -157,7 +157,7 @@ Per importare in blocco le regole bot, puoi caricare un file CSV che le definisc
 
 Per esportare tutte le regole definite nell’interfaccia utente in formato CSV:
 
-1. Vai a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
 1. Seleziona la suite di rapporti che contiene le regole bot da esportare, quindi seleziona **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
 
@@ -167,7 +167,7 @@ Per esportare tutte le regole definite nell’interfaccia utente in formato CSV:
 
 Le regole bot vengono applicate a tutti i dati di analisi. I dati rimossi dalle regole bot sono visibili solo nei rapporti su bot e pagine bot.
 
-Le regole VISTA vengono applicate dopo le regole bot. Consulta [Ordine di elaborazione](/help/technotes/processing-order.md) nella guida utente delle note tecniche.
+Le regole VISTA vengono applicate dopo le regole bot. Vedi [Ordine di elaborazione](/help/technotes/processing-order.md) nella guida utente delle note tecniche.
 
 **Elaborazione di visite con numero elevato di hit:** se in una visita si verificano più di 100 hit, il reporting determina se la durata della visita in secondi è inferiore o uguale al numero di hit nella visita. In questa situazione, a causa dei costi di elaborazione di visite lunghe e intense, il reporting inizia da capo con una nuova visita. Le visite con molti hit sono solitamente causate da attacchi di bot e non sono considerate come normale attività di navigazione dei visitatori.
 
@@ -181,4 +181,4 @@ L’elenco dei bot IAB si basa esclusivamente sull’agente utente, pertanto i f
 
 Se l’offuscamento dell’IP è abilitato, l’esclusione di tale IP si verifica prima che l’indirizzo IP sia offuscato, pertanto i clienti non devono apportare alcuna modifica quando abilitano l’offuscamento dell’IP.
 
-Se l’ultimo ottetto viene rimosso, questa operazione viene eseguita prima del filtro dell’IP. Di conseguenza, l’ultimo ottetto viene sostituito da 0 e le regole di esclusione IP devono essere aggiornate in modo che corrispondano agli indirizzi IP con uno zero alla fine. Corrispondenza &#42; deve corrispondere a 0.
+Se l’ultimo ottetto viene rimosso, questa operazione viene eseguita prima del filtro dell’IP. Di conseguenza, l’ultimo ottetto viene sostituito da 0 e le regole di esclusione IP devono essere aggiornate in modo che corrispondano agli indirizzi IP con uno zero alla fine. La corrispondenza &#42; deve corrispondere a 0.

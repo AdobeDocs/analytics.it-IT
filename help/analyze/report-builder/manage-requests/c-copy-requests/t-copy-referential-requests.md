@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,10 @@ Per propagare o copiare e incollare richieste referenziali nel foglio di calcolo
 >
 >Non è possibile generare una singola richiesta in più fogli di lavoro. Inoltre, il sistema non può incollare alcune delle richieste copiate in nuove cartelle di lavoro perché le richieste contengono filtri di input da altri fogli di lavoro. I filtri di input includono suite di rapporti da celle, intervalli di date da celle, filtri da celle e altri parametri correlati.
 
-**Per copiare richieste referenziali**
+**Per copiare le richieste referenziali**
 
 1. Seleziona le celle contenenti le richieste da copiare, inclusa la cella di input o a cui si fa riferimento.
-1. Fare clic con il pulsante destro del mouse all&#39;interno delle celle evidenziate e selezionare **[!UICONTROL Copy Requests]** dal menu di scelta rapida.
+1. Fare clic con il pulsante destro del mouse nelle celle evidenziate e selezionare **[!UICONTROL Copy Requests]** dal menu di scelta rapida.
 
    Dopo aver selezionato l’area in cui si trovano le richieste e le celle di input, il sistema evidenzia le celle con questi elementi.
 1. Seleziona una cella o un intervallo di celle contigue da riempire con le richieste incollate.
@@ -37,8 +37,8 @@ Per propagare o copiare e incollare richieste referenziali nel foglio di calcolo
    Verificare che la cella o l&#39;intervallo di celle selezionato non contenga altri dati o richieste.
 1. Fare clic con il pulsante destro del mouse sulla singola cella o sulla cella superiore sinistra nell&#39;intervallo di celle e selezionare **[!UICONTROL Paste Requests]**.
 
-   Quando si incollano richieste che includono una cella di input, le opzioni in [!UICONTROL Paste Requests] include:
+   Quando si incollano richieste che includono una cella di input, le opzioni in [!UICONTROL Paste Requests] includono:
 
-   **Usa cella di input assoluto:** Incolla una copia delle richieste e della formattazione associate alle celle selezionate nell&#39;area di incollamento evidenziata. La cella di input (la cella a cui fa riferimento una delle richieste originali) non viene incollata. Al contrario, la cella di input rimane nella stessa posizione di prima.
+   **Usa cella di input assoluta:** Incolla una copia delle richieste e della formattazione associate alle celle selezionate nell&#39;area di incollamento evidenziata. La cella di input (la cella a cui fa riferimento una delle richieste originali) non viene incollata. Al contrario, la cella di input rimane nella stessa posizione di prima.
 
    **Usa cella di input relativa:** Incolla una copia delle richieste e della formattazione associate alle celle selezionate nell&#39;area di incollamento evidenziata, inclusa una copia della cella di input. La relazione spaziale della richiesta o delle richieste con la cella di input è la stessa della richiesta o delle richieste originali. Tuttavia, anche se le celle appena incollate ora dispongono di una copia delle richieste, inizialmente non hanno contenuto. Ciò si verifica perché quando la cella di input viene ricreata nell&#39;operazione Incolla, nessun dato viene associato alla cella di input. Per visualizzare i dati per le richieste appena incollate, è necessario immettere un valore nella cella di input e quindi aggiornare le richieste.

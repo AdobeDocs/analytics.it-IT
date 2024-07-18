@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '511'
 ht-degree: 90%
 
 ---
@@ -23,7 +23,7 @@ Quando rilasci una dimensione in una tabella a forma libera, vengono restituite 
 
 Ad esempio, quando si trascina la dimensione Tipo di browser nella tabella, gli elementi principali della dimensione (ad esempio Microsoft, Apple, Google, ecc.) sono restituiti nelle righe della tabella in modo dinamico. Se viene rilasciata in una colonna, sono restituiti in modo dinamico i primi cinque elementi della dimensione Tipo di browser.
 
-Gli elementi dimensionali dinamici dispongono dell’opzione filtro righe e delle icone X e eseguono le operazioni seguenti **not** sono presenti le icone a forma di lucchetto. <!--do they have the lock icon? --> Quando fai clic sulla x accanto a un elemento dimensione dinamico, viene applicato automaticamente un filtro. Per ulteriori informazioni sull’applicazione dei filtri alle tabelle, consulta [Filtrare e ordinare tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Gli elementi dimensionali dinamici dispongono dell&#39;opzione filtro righe e delle icone X e **non** dispongono dell&#39;icona di blocco. <!--do they have the lock icon? --> Quando fai clic sulla x accanto a un elemento di dimensione dinamico, viene applicato automaticamente un filtro. Per ulteriori informazioni sull&#39;applicazione di filtri alle tabelle, vedere [Filtrare e ordinare le tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ![](assets/dynamic-items.png)
 

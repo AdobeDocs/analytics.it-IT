@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 4%
 >
 > Per informazioni generali sui canali di marketing, consulta [Introduzione ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Per massimizzare l’efficacia dei canali di marketing ai fini dell’attribuzione e del Customer Journey Analytics, abbiamo pubblicato alcuni [best practice riviste](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Per ottimizzare l’efficacia dei canali di marketing per la funzione Attribuzione e Customer Journey Analytics, abbiamo pubblicato alcune [best practice revisionate](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Classifications]**.
 
 Utilizza le classificazioni per categorizzare i valori in gruppi correlati e generare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come Schede video. Puoi quindi generare rapporti sul successo di tale categoria in relazione a metriche quali Istanze (o click-through).
 
-Le classificazioni aggiunte in questa procedura vengono visualizzate nel [!UICONTROL Marketing Channel Overview] segnala come [!UICONTROL Channel Values]. I valori del canale sono valori non classificati nel dettaglio del canale.
+Le classificazioni aggiunte in questa procedura vengono visualizzate nel rapporto [!UICONTROL Marketing Channel Overview] come [!UICONTROL Channel Values]. I valori del canale sono valori non classificati nel dettaglio del canale.
 
 >[!NOTE]
 >
@@ -31,15 +31,15 @@ Le classificazioni aggiunte in questa procedura vengono visualizzate nel [!UICON
 
 >[!IMPORTANT]
 >
->I rapporti di classificazione dei canali di marketing si comportano in modo leggermente diverso rispetto alle classificazioni standard: quando crei delle classificazioni per i rapporti di primo o ultimo contatto, vengono applicati automaticamente a entrambi. Non è possibile classificare una senza classificare l’altra.
+>I rapporti di classificazione dei canali di marketing si comportano in modo leggermente diverso rispetto alle classificazioni standard: quando crei delle classificazioni per i rapporti di primo o ultimo contatto, vengono applicate automaticamente a entrambi. Non è possibile classificare una senza classificare l’altra.
 
-## Classificazioni canale di marketing - Definizioni {#mktg-channel-classifications}
+## Classificazioni del canale di marketing: definizioni {#mktg-channel-classifications}
 
 | Termine | Definizione |
 |--- |--- |
-| Classificazioni testo | Specifica il tipo di categoria di classificazione che consente di raggruppare i dati delle variabili a scopo di reporting. |
-| Nome | Nome della classificazione. La classificazione aggiunta viene visualizzata come opzione Analisi stratificata canale in Marketing Channel Manager. |
-| Opzioni | Nome della classificazione. La classificazione aggiunta viene visualizzata come opzione Analisi stratificata canale in Marketing Channel Manager. |
+| Classificazioni di testo | Specificano il tipo di categoria di classificazioni che consente di raggruppare i dati delle variabili a fini di reporting. |
+| Nome | Nome della classificazione. La classificazione che hai aggiunto viene visualizzata come opzione Analisi stratificata canale in Gestione canale di marketing. |
+| Opzioni | Nome della classificazione. La classificazione che hai aggiunto viene visualizzata come opzione Analisi stratificata canale in Gestione canale di marketing. |
 
 ## Creare classificazioni dei canali di marketing {#create-mktg-channel-classifications}
 

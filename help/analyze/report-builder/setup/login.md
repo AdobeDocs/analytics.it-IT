@@ -8,7 +8,7 @@ exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 4%
 
 Per accedere al Report Builder, usa il tuo account di accesso Experience Cloud.
 
-## Accedi ad Adobe Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+## Accedi a Adobe Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
 L’accesso di Experience Cloud consente di utilizzare l’Enterprise ID (e-mail e password) per accedere a Adobe Experience Cloud.
 
-Clic **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzato alla pagina single sign-on della tua azienda. Per ulteriori informazioni sull’Enterprise ID, consulta [Accedi all’account aziendale o dell’istituto di istruzione](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
+Fare clic su **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzati alla pagina Single Sign-On della società. Per ulteriori informazioni sull&#39;Enterprise ID, consulta [Accedi all&#39;account aziendale o dell&#39;istituto di istruzione](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
 
-![Schermata che mostra la finestra di accesso di Adobe Experience Cloud e le opzioni di accesso con o senza il tuo Adobe ID](assets/adobe_id_login.png)
+![Schermata che mostra la finestra di accesso di Adobe Experience Cloud con le opzioni di accesso con o senza il tuo Adobe ID](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
@@ -36,11 +36,11 @@ Clic **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** p
 
 Per accedere al Report Builder
 
-1. In Excel, fai clic su **[!UICONTROL Add-Ins]**.
+1. In Excel, fare clic su **[!UICONTROL Add-Ins]**.
 1. Fai clic su **[!UICONTROL Sign In]**. È inoltre possibile firmare utilizzando i metodi seguenti:
 
-   * Fai clic su **[!UICONTROL Create]** (Usa modello di attribuzione non predefinito).
-   * Seleziona una richiesta in Request Manager (Gestore richieste), quindi fai clic su **[!UICONTROL Add]** o **[!UICONTROL Manage]**. Per ulteriori informazioni, consulta [Selezionare una richiesta nel Gestore richieste](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)
+   * Fai clic su **[!UICONTROL Create]**.
+   * Selezionare una richiesta in Gestione richieste, quindi fare clic su **[!UICONTROL Add]** o **[!UICONTROL Manage]**. Per ulteriori informazioni, vedere [Selezionare una richiesta in Gestione richieste](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)
    * Fai doppio clic su una richiesta in Excel.
 
-1. Compila i campi nella [!UICONTROL Login] , quindi fai clic su **[!UICONTROL OK]**.
+1. Completare i campi nella pagina [!UICONTROL Login], quindi fare clic su **[!UICONTROL OK]**.

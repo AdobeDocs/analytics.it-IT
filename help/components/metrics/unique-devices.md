@@ -5,20 +5,20 @@ feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '264'
 ht-degree: 3%
 
 ---
 
 # Dispositivi univoci
 
-&quot;Dispositivi univoci&quot; [metrica](overview.md) è un [Analisi cross-device](../cda/overview.md) metrica che conta il numero di dispositivi non identificati univoci e di dispositivi virtuali univoci. I dispositivi non identificati sono dispositivi che hanno generato hit anonimi. I dispositivi virtuali univoci sono persone distinte identificate per dispositivo.
+La metrica [metric](overview.md) relativa ai &#39;dispositivi univoci&#39; è una metrica di analisi tra dispositivi](../cda/overview.md) che conta il numero di dispositivi univoci non identificati e di dispositivi virtuali univoci. [ I dispositivi non identificati sono dispositivi che hanno generato hit anonimi. I dispositivi virtuali univoci sono persone distinte identificate per dispositivo.
 
 ## Come è calcolata questa metrica
 
 Per ogni dispositivo, somma tutte le persone distinte associate a esso (incluso anonimo se il dispositivo contiene hit non uniti).
 
-Tieni presente che questa metrica non è uguale a [Visitatori univoci](unique-visitors.md) nelle suite di rapporti non CDA. Ad esempio, un dispositivo è condiviso da 3 account diversi. Se tutti e 3 gli account visitano il sito in un intervallo di reporting, il rapporto risultante mostrerà 3 dispositivi univoci in CDA. Gli stessi dati al di fuori di CDA mostrerebbero 1 Visitatore univoco.
+Questa metrica non è uguale a [Visitatori univoci](unique-visitors.md) nelle suite di rapporti non CDA. Ad esempio, un dispositivo è condiviso da 3 account diversi. Se tutti e 3 gli account visitano il sito in un intervallo di reporting, il rapporto risultante mostrerà 3 dispositivi univoci in CDA. Gli stessi dati al di fuori di CDA mostrerebbero 1 Visitatore univoco.
 
 ## Esempio
 
@@ -28,9 +28,9 @@ Tieni presente che questa metrica non è uguale a [Visitatori univoci](unique-vi
 1. La moglie di Bob, Alice, naviga nel tuo sito mentre ha effettuato l&#39;accesso al suo account sul computer di famiglia.
 1. Anche il fratello di Bob, Charles, naviga nel tuo sito mentre è connesso al suo account sul computer di famiglia.
 
-![Numero di dispositivi univoci](/help/components/metrics/assets/Unique_Devices_Count.png)
+![Numero dispositivi univoci](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-Visualizzazione di questi dati in una suite di rapporti virtuali CDA prima [Riproduci](/help/components/cda/replay.md) potenzialmente gli hit non autenticati possono mostrare:
+La visualizzazione di questi dati in una suite di rapporti virtuale di CDA prima di [Ripetizione](/help/components/cda/replay.md) potenziali unioni di hit non autenticati mostrerebbe:
 
-* **5 dispositivi univoci**: 1 per Bob + 2 non autenticato per Bob + 1 per Alice + 1 per Charles
+* **5 dispositivi univoci**: 1 per Bob non autenticato + 2 per Bob + 1 per Alice + 1 per Charles
 * **4 [Persone](people.md)**: 1 [Persone non identificate](unidentified-people.md) + 3 [Persone identificate](identified-people.md).

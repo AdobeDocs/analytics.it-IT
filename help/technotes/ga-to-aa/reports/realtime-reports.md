@@ -20,20 +20,20 @@ I rapporti in tempo reale sono una delle poche funzioni non ancora introdotte in
 
 Per accedere alla pagina di configurazione del rapporto in tempo reale (sono necessarie le autorizzazioni di amministratore):
 
-1. Clic **[!UICONTROL Workspace]** nella barra di navigazione superiore di Adobe Analytics.
+1. Fare clic su **[!UICONTROL Workspace]** nella barra di navigazione superiore di Adobe Analytics.
 1. Seleziona **[!UICONTROL Reports]** dalla barra di navigazione a sinistra.
-1. Seleziona **[!UICONTROL Enagement]** ![Freccia](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Real-Time]**. È inoltre possibile ![Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) cerca in tempo reale.
+1. Selezionare **[!UICONTROL Enagement]** ![Casuale](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Real-Time]**. Puoi anche ![cercare](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) in tempo reale.
 1. Se per la suite di rapporti non è ancora abilitato il tempo reale, viene visualizzato un messaggio con un collegamento per configurare la suite di rapporti.
 
 Adobe consente di raccogliere dati in contemporanea fino a tre rapporti in tempo reale. Ciascuno deve essere configurato prima che inizi a raccogliere dati in tempo reale.
 
-![Configurazione rapporti in tempo reale](/help/technotes/ga-to-aa/assets/realtime_config.png)
+![Configurazione report in tempo reale](/help/technotes/ga-to-aa/assets/realtime_config.png)
 
 ## Posizioni in tempo reale
 
 Le posizioni in tempo reale indicano dove si trovano i visitatori mentre visitano il sito al momento. Per configurare uno dei tre rapporti in tempo reale per visualizzare i dati sulla posizione:
 
-1. Clic [!UICONTROL Configure] vicino al titolo del rapporto in tempo reale.
+1. Fare clic su [!UICONTROL Configure] accanto al titolo del report in tempo reale.
 2. In uno degli slot di rapporti in tempo reale:
    * Denomina il rapporto in tempo reale, ad esempio &quot;Posizioni&quot;.
    * Istanze viene in genere utilizzato come metrica. Utenti/Visitatori univoci non è al momento disponibile nei rapporti in tempo reale.
@@ -57,7 +57,7 @@ Le origini del traffico in tempo reale indicano da dove provengono i visitatori 
 
 Il contenuto in tempo reale indica le pagine attualmente visualizzate dai visitatori. Per configurare uno dei tre rapporti in tempo reale per visualizzare i dati del contenuto:
 
-1. Clic [!UICONTROL Configure] vicino al titolo del rapporto in tempo reale.
+1. Fare clic su [!UICONTROL Configure] accanto al titolo del report in tempo reale.
 2. In uno degli slot di rapporti in tempo reale:
    * Denomina il rapporto in tempo reale, ad esempio &quot;Contenuto&quot;.
    * Istanze viene in genere utilizzato come metrica. Utenti/Visitatori univoci non è al momento disponibile nei rapporti in tempo reale.
@@ -77,7 +77,7 @@ Eventi in tempo reale indica gli eventi che si verificano maggiormente sul sito.
 
 Le conversioni in tempo reale presentano i dati in modo diverso tra le piattaforme. Gli obiettivi nelle Google Analytics sono simili alle metriche e agli eventi di successo in Adobe Analytics. Puoi utilizzare la maggior parte delle metriche in Adobe Analytics (metriche personalizzate come eventi di successo e metriche standard come ricavi) nei Rapporti in tempo reale. Analogamente alle Google Analytics, puoi anche applicare dimensioni come nome del prodotto, codice di tracciamento e prestazioni della campagna nei rapporti in tempo reale.
 
-1. Clic [!UICONTROL Configure] vicino al titolo del rapporto in tempo reale.
+1. Fare clic su [!UICONTROL Configure] accanto al titolo del report in tempo reale.
 2. In uno degli slot di rapporti in tempo reale:
    * Denomina il rapporto in tempo reale, ad esempio &quot;Conversioni&quot;.
    * Istanze viene in genere utilizzato come metrica. Utenti/Visitatori univoci non è al momento disponibile nei rapporti in tempo reale.

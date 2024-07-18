@@ -7,7 +7,7 @@ exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
 source-git-commit: fb8be11fabefc0206af7868228f85353f15eb20c
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 **Linee guida**
 
 * L’eliminazione di una cartella non comporta l’eliminazione del suo contenuto. Il contenuto di una cartella eliminata (progetti o sottocartelle) viene spostato nella cartella immediatamente precedente nella gerarchia delle cartelle.
-* Gli amministratori possono eliminare una cartella all’interno della cartella aziendale creata da un altro amministratore. Gli amministratori possono doversi coordinare con altri amministratori per mantenere la coerenza tra le cartelle e l’accesso ai progetti. Consulta [Informazioni sulle cartelle in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+* Gli amministratori possono eliminare una cartella all’interno della cartella aziendale creata da un altro amministratore. Gli amministratori possono doversi coordinare con altri amministratori per mantenere la coerenza tra le cartelle e l’accesso ai progetti. Consulta [Informazioni sulla funzione Cartelle di Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
 
 Per eliminare una cartella
 

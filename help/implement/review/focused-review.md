@@ -7,13 +7,13 @@ role: Admin, Leader
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
 # Revisione mirata (dopo ogni rilascio del sito web)
 
-Perché dovresti rivedere la tua implementazione ogni mese? È quindi possibile risolvere qualsiasi problema relativo alla qualità dei dati mentre sono ancora contenuti. Se esegui regolarmente questa revisione incentrata dopo ogni versione del sito web, scoprirai che il tuo biennale [Revisioni complete](/help/implement/review/full-review.md) sono molto più facili. Eviterai inoltre che i problemi di piccole dimensioni si trasformino in problemi di dati di grandi dimensioni che potrebbero erodere la fiducia delle parti interessate.
+Perché dovresti rivedere la tua implementazione ogni mese? È quindi possibile risolvere qualsiasi problema relativo alla qualità dei dati mentre sono ancora contenuti. Se esegui regolarmente questa revisione incentrata dopo ogni versione del sito web, scoprirai che le tue [revisioni complete](/help/implement/review/full-review.md) semestrali saranno molto più facili. Eviterai inoltre che i problemi di piccole dimensioni si trasformino in problemi di dati di grandi dimensioni che potrebbero erodere la fiducia delle parti interessate.
 
 ## 1. Inizia con i primi 5 KPI
 
@@ -21,9 +21,9 @@ Conoscere i primi 5 indicatori di prestazioni chiave (KPI, Key Performance Indic
 
 ## 2. Assicurati che le metriche e le variabili KPI continuino a funzionare bene
 
-Gli aggiornamenti del codice nel tempo possono avere ramificazioni non desiderate. Assicurati che tutte le metriche e le dimensioni associate ai tuoi [primi 5 KPI](/help/implement/review/define-kpis.md) funzionino ancora correttamente. Idealmente, questo viene fatto subito dopo il rilascio di un sito web; se non lo hai fatto negli ultimi mesi, fallo *now*. Per eseguire questa operazione:
+Gli aggiornamenti del codice nel tempo possono avere ramificazioni non desiderate. Assicurati che tutte le metriche e le dimensioni associate ai tuoi [primi 5 KPI](/help/implement/review/define-kpis.md) funzionino ancora correttamente. Idealmente, questo viene fatto subito dopo il rilascio di un sito Web; se non lo hai fatto negli ultimi mesi, fallo *ora*. Per eseguire questa operazione:
 
-* Crea dashboard per vedere le visualizzazioni con tendenze orarie di queste metriche e variabili critiche (o configura [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) per ogni metrica). Poi monitorali per uno o due giorni per assicurarti di ottenere i dati previsti e corretti. Cerca i punti di flesso. Preparati a risolvere immediatamente eventuali problemi critici. Se riscontri delle discrepanze, cerca nel livello dati, nelle regole di gestione dei tag e nelle regole di elaborazione per scoprirne il motivo.
+* Crea dashboard per vedere le visualizzazioni con tendenze orarie di queste metriche e variabili critiche (o configura [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=it) per ogni metrica). Poi monitorali per uno o due giorni per assicurarti di ottenere i dati previsti e corretti. Cerca i punti di flesso. Preparati a risolvere immediatamente eventuali problemi critici. Se riscontri delle discrepanze, cerca nel livello dati, nelle regole di gestione dei tag e nelle regole di elaborazione per scoprirne il motivo.
 * Esegui nuovamente [Analytics Health Dashboard](https://express.adobe.com/page/tnNQGNlfzta3b/) per monitorare le tendenze generali delle metriche e delle variabili KPI.
 
 *Per ulteriori dettagli su come verificare che le metriche e le variabili funzionino correttamente, [leggi questi suggerimenti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) da Sarah Owen, Champion Adobe Analytics.*
@@ -36,7 +36,7 @@ Assicurati che la versione più recente del sito non abbia avuto un impatto nega
 
 Se hai aggiunto o modificato metriche o variabili di recente, devi aggiornare il tuo documento sui requisiti aziendali (BRD) e Solution Design Reference (SDR).
 
-Se non disponi di documentazione sull’implementazione, esporta un elenco di variabili e crea il tuo BRD o SDR utilizzando [questo modello](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
+Se non disponi di documentazione sull&#39;implementazione, esporta un elenco di variabili e crea il tuo BRD o SDR utilizzando [questo modello](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 5. Risolvi immediatamente eventuali lacune nella qualità dei dati
 

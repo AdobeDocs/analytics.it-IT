@@ -18,9 +18,9 @@ Visualizzare i dettagli dello stato di una richiesta e utilizzare le descrizioni
 
 ## Panoramica {#section_75C288C945FA4781A4EDF806711A5660}
 
-Il [!UICONTROL Request Manager] fornisce una visualizzazione dettagliata dello stato di tutte le richieste create per tutti i fogli o solo per un foglio della cartella di lavoro attiva. Puoi anche aggiungere, modificare, aggiornare ed eliminare una richiesta. Queste funzioni sono tipicamente associate al [!UICONTROL Request Wizard] e [!UICONTROL Request Manager] quando fai clic con il pulsante destro del mouse su una cella disponibile nel foglio di calcolo Excel che contiene richieste precedenti.
+[!UICONTROL Request Manager] fornisce una visualizzazione dettagliata dello stato di tutte le richieste create per tutti i fogli o un solo foglio della cartella di lavoro attiva. Puoi anche aggiungere, modificare, aggiornare ed eliminare una richiesta. Queste funzioni sono in genere associate a [!UICONTROL Request Wizard] e a [!UICONTROL Request Manager] quando si fa clic con il pulsante destro del mouse su una cella disponibile nel foglio di calcolo di Excel contenente richieste precedenti.
 
-Il [!UICONTROL Request Manager] viene visualizzato quando si fa clic su **[!UICONTROL Manage]**  ![](assets/edit_request.gif) nella barra degli strumenti del Report Builder.
+[!UICONTROL Request Manager] viene visualizzato quando si fa clic su **[!UICONTROL Manage]** ![](assets/edit_request.gif) nella barra degli strumenti Report Builder.
 
 >[!NOTE]
 >
@@ -58,15 +58,15 @@ Il [!UICONTROL Request Manager] viene visualizzato quando si fa clic su **[!UICO
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ultima esecuzione </p> </td> 
-   <td colname="col2"> <p>Specifica la data dell'ultima elaborazione della richiesta per Report Builder. In questa tabella viene inoltre visualizzato un messaggio di diagnostica nel <span class="wintitle"> Ultima esecuzione</span> colonna, se applicabile. </p> </td> 
+   <td colname="col2"> <p>Specifica la data dell'ultima elaborazione della richiesta per Report Builder. In questa tabella viene visualizzato anche un messaggio di diagnostica nella colonna <span class="wintitle"> Ultima esecuzione</span>, se applicabile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Add </p> </td> 
-   <td colname="col2"> <p>Visualizza la finestra di dialogo Creazione guidata richieste. Consulta <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Creare una richiesta di dati</a>. </p> </td> 
+   <td colname="col2"> <p>Visualizza la finestra di dialogo Creazione guidata richieste. Vedere <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Creare una richiesta di dati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modifica </p> </td> 
-   <td colname="col2"> <p> (O Modifica più volte) Modifica una richiesta selezionata. Il sistema visualizza <span class="wintitle"> Creazione guidata richieste</span> . Consulta <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Modifica più richieste</a>. </p> </td> 
+   <td colname="col2"> <p> (O Modifica più volte) Modifica una richiesta selezionata. Verrà visualizzata la finestra di dialogo <span class="wintitle"> Richiesta guidata</span>. Vedi <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Modifica più richieste</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eliminazione </p> </td> 
@@ -74,7 +74,7 @@ Il [!UICONTROL Request Manager] viene visualizzato quando si fa clic su **[!UICO
   </tr> 
   <tr> 
    <td colname="col1"> <p> Seleziona tutto </p> </td> 
-   <td colname="col2"> <p>Seleziona tutte le richieste. Il <span class="wintitle"> Request Manager</span> visualizza il numero di richieste selezionate nella parte inferiore dell’elenco delle richieste. </p> </td> 
+   <td colname="col2"> <p>Seleziona tutte le richieste. Gestione richieste <span class="wintitle"></span> visualizza il numero di richieste selezionate nella parte inferiore dell'elenco delle richieste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Da cella </p> </td> 
@@ -82,11 +82,11 @@ Il [!UICONTROL Request Manager] viene visualizzato quando si fa clic su **[!UICO
   </tr> 
   <tr> 
    <td colname="col1"> <p> Aggiornamento </p> </td> 
-   <td colname="col2"> <p>Aggiorna una singola richiesta o una selezione di richieste. (vedere <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Aggiornare una richiesta</a>.) </p> </td> 
+   <td colname="col2"> <p>Aggiorna una singola richiesta o una selezione di richieste. (Vedi <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Aggiornare una richiesta</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aggiorna elenco </p> </td> 
-   <td colname="col2"> <p>Aggiorna tutte le richieste visualizzate. Quando si aggiornano tutte le richieste, il tempo necessario per aggiornare le informazioni dal server al report è direttamente proporzionale alla complessità delle richieste nel report. Per i rapporti molto grandi, l’aggiornamento di tutte le richieste potrebbe richiedere alcuni minuti. Per questo motivo, potrebbe essere utile aggiornare singolarmente le richieste più urgenti e selezionare <span class="wintitle"> Aggiorna tutto</span> in un altro momento meno cruciale. </p> <p> <p>Nota: si consiglia di controllare i risultati spesso in <span class="wintitle"> Request Manager</span> se si aggiorna un foglio di lavoro contenente più richieste. Se la richiesta non riesce, il messaggio di errore nella colonna diagnostica consente di individuare l’origine dell’errore. Sebbene nella maggior parte dei casi venga visualizzato un messaggio di errore quando una richiesta non riesce, talvolta non viene generato alcun messaggio di errore. È possibile che un aggiornamento non aggiorni i dati in una cella contenente un riferimento o che un aggiornamento rimuova i dati dalla cella. </p> </p> </td> 
+   <td colname="col2"> <p>Aggiorna tutte le richieste visualizzate. Quando si aggiornano tutte le richieste, il tempo necessario per aggiornare le informazioni dal server al report è direttamente proporzionale alla complessità delle richieste nel report. Per i rapporti molto grandi, l’aggiornamento di tutte le richieste potrebbe richiedere alcuni minuti. Per questo motivo, è possibile aggiornare singolarmente le richieste più urgenti e selezionare <span class="wintitle"> Aggiorna tutto</span> in un altro momento meno importante. </p> <p> <p>Nota: se si aggiorna un foglio di lavoro contenente più richieste, è consigliabile controllare spesso i risultati in Gestione richieste <span class="wintitle"></span>. Se la richiesta non riesce, il messaggio di errore nella colonna diagnostica consente di individuare l’origine dell’errore. Sebbene nella maggior parte dei casi venga visualizzato un messaggio di errore quando una richiesta non riesce, talvolta non viene generato alcun messaggio di errore. È possibile che un aggiornamento non aggiorni i dati in una cella contenente un riferimento o che un aggiornamento rimuova i dati dalla cella. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

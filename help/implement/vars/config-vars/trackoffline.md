@@ -15,7 +15,7 @@ ht-degree: 8%
 
 Il tracciamento offline è un modo facoltativo per raccogliere i dati in Adobe Analytics. Se un visitatore si disconnette da Internet ma continua a navigare nel sito, gli hit vengono memorizzati in una coda offline fino a quando il dispositivo non si riconnette a Internet. Il tracciamento offline viene utilizzato principalmente per le app mobili.
 
-Il `trackOffline` variabile determina se desideri utilizzare il tracciamento offline nell’implementazione.
+La variabile `trackOffline` determina se utilizzare il tracciamento offline nell&#39;implementazione.
 
 >[!WARNING]
 >
@@ -39,7 +39,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.trackOffline in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Il `s.trackOffline` variable è un valore booleano che abilita o disabilita il tracciamento offline. Il valore predefinito è `false`. Imposta questo valore su `true` se desideri abilitare il tracciamento offline.
+La variabile `s.trackOffline` è un valore booleano che abilita o disabilita il tracciamento offline. Il valore predefinito è `false`. Impostare questo valore su `true` se si desidera abilitare il tracciamento offline.
 
 ```js
 s.trackOffline = true;

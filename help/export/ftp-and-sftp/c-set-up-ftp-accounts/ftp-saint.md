@@ -6,8 +6,8 @@ feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 40%
+source-wordcount: '467'
+ht-degree: 33%
 
 ---
 
@@ -21,16 +21,16 @@ Il tempo necessario al sistema per l&#39;importazione dei file varia in base a d
 
 Un import corretto visualizza immediatamente le modifiche corrette in un&#39;esportazione, mentre le modifiche ai dati in Analytics possono richiedere fino a 4 ore nel caso di un&#39;importazione tramite browser e fino a 24 ore del caso di un&#39;importazione tramite FTP.
 
-Per informazioni sulla conservazione dei dati e sui limiti dell&#39;FTP, consulta [Conservazione dei dati e limitazioni dell&#39;FTP](/help/export/ftp-and-sftp/ftp-limits.md).
+Per informazioni sui limiti FTP e sulla conservazione dei dati, vedere [Limiti FTP e conservazione dei dati](/help/export/ftp-and-sftp/ftp-limits.md).
 
-## Informazioni su `.fin` file per caricamenti di classificazioni e origini dati {#section_1484719F8A134EAE91212DBD8F15174F}
+## Informazioni sul file `.fin` per i caricamenti di classificazioni e origini dati {#section_1484719F8A134EAE91212DBD8F15174F}
 
-Quando carichi un file di classificazione o di origine dati (`.tab` o `.txt`), richiede anche di caricare un file vuoto con lo stesso nome del file di dati che si sta importando, ma con un .`.fin` Estensione. Questo `.fin` file è un file finale. Lo scopo del file è quello di comunicare al sistema che il file di dati è stato completamente caricato sull&#39;account FTP. Il `.fin` file consente ad Adobe di riconoscere che l’importazione è stata completata.
+Quando carichi un file di classificazione o di Data Source (`.tab` o `.txt`), è necessario caricare anche un file vuoto con lo stesso nome del file di dati da importare, ma con un .Estensione `.fin`. Questo file `.fin` è un file completo. Lo scopo del file è quello di comunicare al sistema che il file di dati è stato completamente caricato sull&#39;account FTP. Il file `.fin` consente ad Adobe di riconoscere che l&#39;importazione è stata completata.
 
-Dopo aver inviato sia il file di origine che `.fin` è importante disconnettersi dal sito FTP. Il motivo è che Adobe Analytics utilizza gli eventi di disconnessione come attivatore per rendere i file pronti per l’elaborazione. Al termine dell&#39;importazione, Adobe rimuove entrambi i file dal percorso FTP.
+Dopo aver inviato sia il file di origine che il file `.fin`, è importante disconnettersi dal sito FTP. Il motivo è che Adobe Analytics utilizza gli eventi di disconnessione come attivatore per rendere i file pronti per l’elaborazione. Al termine dell&#39;importazione, Adobe rimuove entrambi i file dal percorso FTP.
 
-File di fine: [!DNL Classifications.fin]
+Fine file: [!DNL Classifications.fin]
 
-Se carichi il file Origini dati o di Classificazione senza un `.fin` file, Adobe non lo aggiunge alla coda per l&#39;elaborazione. I file resteranno sull&#39;FTP e non verranno applicati ai tuoi dati in [!UICONTROL Experience Cloud]. Questo messaggio viene notificato solo se hai inserito il tuo indirizzo e-mail come [!UICONTROL Notification Recipient] nel [!UICONTROL Create FTP Account] finestra di Analytics. Se non hai inserito nessun indirizzo e-mail, non verrà inviata alcuna notifica.
+Se carichi il file Origini dati o di Classificazione senza un file `.fin` associato, Adobe non lo aggiunge alla coda per l&#39;elaborazione. Il file rimane sull&#39;FTP e non viene applicato ai tuoi dati in [!UICONTROL Experience Cloud]. Questo messaggio viene notificato solo se hai inserito il tuo indirizzo e-mail come [!UICONTROL Notification Recipient] nella finestra [!UICONTROL Create FTP Account] di Analytics. Se non hai inserito nessun indirizzo e-mail, non verrà inviata alcuna notifica.
 
-Se carichi il file con un `.fin` ma nel file è presente un errore, viene inviato per l’elaborazione, ma l’errore causa la cessazione dell’elaborazione e l’invio del file a una cartella di errori. In questo caso, viene inviata una notifica all’indirizzo e-mail elencato nella [!UICONTROL Notification Recipient] campo in [!UICONTROL Create FTP Account] finestra. Se non è stato immesso alcun indirizzo e-mail, non viene inviata alcuna notifica.
+Se si carica il file con un file `.fin` ma nel file è presente un errore, il file viene inviato per l&#39;elaborazione, ma l&#39;errore causa la cessazione dell&#39;elaborazione e l&#39;invio del file a una cartella di errori. In questo caso, viene inviata una notifica all&#39;indirizzo di posta elettronica elencato nel campo [!UICONTROL Notification Recipient] nella finestra [!UICONTROL Create FTP Account]. Se non è stato immesso alcun indirizzo e-mail, non viene inviata alcuna notifica.

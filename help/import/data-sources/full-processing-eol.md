@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Fine del ciclo di vita delle origini dati a elaborazione completa
 
-Le origini dati a elaborazione completa hanno sempre consentito alle organizzazioni di inviare dati a livello di hit ad Adobe Analytics. Questi dati sono stati trattati allo stesso modo dei dati raccolti attraverso i mezzi di raccolta tradizionali, come ad AppMeasurement. Nel 2020, Adobe ha rilasciato il [API di inserimento dati in blocco](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), che esegue le stesse funzioni delle origini dati a elaborazione completa, ma con funzionalità aggiuntive. Questa pagina fornisce dettagli sulle funzionalità aggiuntive fornite dall’API di inserimento dati in blocco e illustra le differenze nei formati di file.
+Le origini dati a elaborazione completa hanno sempre consentito alle organizzazioni di inviare dati a livello di hit ad Adobe Analytics. Questi dati sono stati trattati allo stesso modo dei dati raccolti attraverso i mezzi di raccolta tradizionali, come ad AppMeasurement. Nel 2020, Adobe ha rilasciato l&#39;API di inserimento dati in blocco [Bulk](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), che esegue le stesse funzioni delle origini dati a elaborazione completa, ma con funzionalità aggiuntive. Questa pagina fornisce dettagli sulle funzionalità aggiuntive fornite dall’API di inserimento dati in blocco e illustra le differenze nei formati di file.
 
 Il 25 marzo 2021 Adobe ha impedito la creazione di nuove connessioni di origini dati a elaborazione completa. Il 31 gennaio 2022 sono stati disattivati tutti i servizi di elaborazione dati completa.
 
@@ -22,8 +22,8 @@ Il 25 marzo 2021 Adobe ha impedito la creazione di nuove connessioni di origini 
 * L’inserimento di dati in blocco consente di inviare più file per l’elaborazione parallela. I gruppi di visitatori garantiscono la continuità dei visitatori e l’attribuzione eVar.
 * L’inserimento di dati in blocco dispone di funzionalità di convalida dei dati e gestione degli errori, che consentono di rimuovere parte del lavoro amministrativo necessario per l’invio dei dati hit.
 * L’inserimento di dati in blocco supporta più metodi di identificazione degli ID visitatore.
-* L’inserimento di dati in blocco presenta alcuni campi obbligatori aggiuntivi: una colonna di identificazione del visitatore, una `pageName` (o equivalente collegamento), `reportSuiteID`, `timestamp`, e `userAgent`.
-* Per garantire la continuità e l’attribuzione del visitatore, l’inserimento di dati in blocco richiede che le righe all’interno dei file siano ordinate in ordine cronologico. Consulta [Gruppi di visitatori](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/visitor-groups/) per informazioni sull’ordine in cui l’attività Visitatore viene ordinata tra i file.
+* L&#39;inserimento di dati in blocco include alcuni campi obbligatori aggiuntivi: una colonna di identificazione del visitatore, un `pageName` (o equivalente al collegamento), `reportSuiteID`, `timestamp` e `userAgent`.
+* Per garantire la continuità e l’attribuzione del visitatore, l’inserimento di dati in blocco richiede che le righe all’interno dei file siano ordinate in ordine cronologico. Consulta [Gruppi di visitatori](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/visitor-groups/) per informazioni sull&#39;ordinamento dell&#39;attività dei visitatori in più file.
 * L&#39;inserimento di dati in blocco richiede che i file siano compressi con estensione csv in formato .gzip.
 * BDIA utilizza `timestamp` invece di `date`.
 
@@ -34,18 +34,18 @@ Le seguenti variabili sono state introdotte nell’inserimento di dati in blocco
 * **`aamlh`**: hint di posizione Adobe Audience Manager.
 * **`contextData.key`**: [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: Experience Cloud di variabili del servizio ID. Include `id`, `authState` e `isMCSeed`.
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variabili. Include `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion`, e `wow64`.
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variabili. Include `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
 * **`ipaddress`**: indirizzo IP del visitatore.
-* **`language`**: Il [Lingua](/help/components/dimensions/language.md) dimensione.
+* **`language`**: dimensione [Lingua](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`**: [Variabili elenco](/help/implement/vars/page-vars/list.md).
 * **`marketingCloudVisitorID`**: ID Experience Cloud del visitatore.
-* **`tnta`**: payload di dati di destinazione utilizzato in [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it) integrazioni.
-* **`trackingServer`**: Il [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variabile.
-* **`transactionID`**: Il [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variabile.
+* **`tnta`**: payload di dati di destinazione utilizzato nelle integrazioni [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it).
+* **`trackingServer`**: la variabile [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
+* **`transactionID`**: la variabile [`transactionID`](/help/implement/vars/page-vars/transactionid.md).
 * **`userAgent`**: stringa agente utente del dispositivo.
 
 Le seguenti variabili non sono supportate tramite l’inserimento di dati in blocco:
 
-* **`charSet`**: Il [`charSet`](/help/implement/vars/config-vars/charset.md) variabile. L&#39;inserimento di dati in blocco supporta solo UTF-8.
+* **`charSet`**: la variabile [`charSet`](/help/implement/vars/config-vars/charset.md). L&#39;inserimento di dati in blocco supporta solo UTF-8.
 * **`timezone`**: scostamento del fuso orario del visitatore da GMT in ore.
 * **`clickAction`**, **`clickActionType`**, **`clickContext`**, **`clickContextType`**, **`clickSourceID`**, **`clickTag`**: variabili utilizzate nella raccolta dati Activity Map.

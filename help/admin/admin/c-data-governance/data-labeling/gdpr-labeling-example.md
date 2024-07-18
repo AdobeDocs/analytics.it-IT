@@ -37,12 +37,12 @@ Supponi di avere i dati seguenti:
 
 Inviando una richiesta di accesso, si riceveranno due file che è possibile restituire all&#39;interessato. Un file è un file CSV contenente una riga per ogni hit ricevuto per l’interessato e una colonna per ogni variabile con l’etichetta di accesso appropriata. L’altro file è un file HTML di riepilogo che elenca ciascuna variabile, seguito da tutti i valori univoci visualizzati per tale variabile per l’interessato e dal numero di volte in cui è stato visualizzato ogni valore univoco.
 
-Ad esempio, il file di riepilogo contiene i valori indicati nella tabella seguente. Una richiesta può restituire solo un file di dispositivo, solo un file di persona o entrambi. Vengono restituiti due file di riepilogo solo se viene utilizzato un ID persona e `expandIds` è vero.
+Ad esempio, il file di riepilogo contiene i valori indicati nella tabella seguente. Una richiesta può restituire solo un file di dispositivo, solo un file di persona o entrambi. Due file di riepilogo vengono restituiti solo se viene utilizzato un ID persona e `expandIds` è true.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valori API</th>
-    <th rowspan="2">Riepilogo<br/>tipo di file<br/>ha restituito</th>
+    <th rowspan="2">Riepilogo<br/>tipo di file<br/>restituito</th>
     <th colspan="5" style="text-align:center">Dati in un file di accesso di riepilogo</th>
   </tr>
   <tr>
@@ -142,7 +142,7 @@ Ad esempio, il file di riepilogo contiene i valori indicati nella tabella seguen
   </tr>
 </table>
 
-Si noti che l&#39;impostazione per `expandIDs` non fa alcuna differenza nell’output quando viene utilizzato un ID cookie.
+Si noti che l&#39;impostazione per `expandIDs` non fa alcuna differenza nell&#39;output quando viene utilizzato un ID cookie.
 
 ## Esempio di richieste di eliminazione {#delete}
 
@@ -219,7 +219,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 >[!NOTE]
 >
->Solo le colonne nelle righe contenenti `AAID=77` e un `DEL-DEVICE` sono interessati.
+>Sono interessate solo le colonne nelle righe contenenti `AAID=77` e un&#39;etichetta `DEL-DEVICE`.
 
 <table>
   <tr>
@@ -292,7 +292,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
 
 >[!NOTE]
 >
->Solo colonne nelle righe contenenti `user=Mary` e un `DEL-PERSON` sono interessati. Inoltre, in pratica, la variabile contenente `A_ID` probabilmente sarebbe un prop o un eVar. Il valore sostitutivo sarà una stringa che inizia con `Privacy-`, seguito da un numero casuale (GUID), anziché sostituire il valore numerico con un diverso valore numerico casuale.
+>Sono interessati solo i celcolumnsl nelle righe contenenti `user=Mary` e un&#39;etichetta `DEL-PERSON`. Inoltre, in pratica, la variabile contenente `A_ID` probabilmente è una prop o un eVar. Il valore sostitutivo sarà una stringa che inizia con `Privacy-`, seguita da un numero casuale (GUID), anziché sostituire il valore numerico con un diverso valore numerico casuale.
 
 <table>
   <tr>
@@ -368,6 +368,6 @@ Tieni presente quanto segue:
 * Sono interessate solo le celle nelle righe contenenti `user=Mary` e un’etichetta `DEL-PERSON`.
 * A causa dell’espansione dell’ID, sono interessate le celle nelle righe contenenti `AAID=77`, `AAID=88` o `AAID=99` (valori AAID nelle righe contenenti `user=Mary`) e un’etichetta `DEL-DEVICE`. Questo include le celle con un’etichetta `DEL-DEVICE` nelle righe in cui `user=Mary`. Questo causa l’oscuramento delle celle nelle righe 4 e 5 (nonché nelle righe 1-3) con le etichette `DEL-DEVICE` (AAID, MyEvar2 e MyEvar3).
 * L’impostazione expandIDs non si estende alla chiamata per includere i valori presenti in MyEvar3 (`X`, `Y` e `Z`), che ha un’etichetta ID-DEVICE, quando `user=Mary`. ExpandIDs si estende solo per includere l’ID visitatore (AAID in questo esempio, ma anche ECID) nelle righe in cui `user=Mary`. Così le ultime due righe, che contengono i valori MyEvar3 `X` e `Z`, non sono interessate.
-* `MyEvar2` nella quarta e nella quinta riga vengono aggiornate perché queste righe contengono gli stessi valori ID visitatore (`77` e `88`) come quelle sulla prima e sulla seconda riga. Di conseguenza, l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
+* `MyEvar2` nella quarta e nella quinta riga vengono aggiornate perché queste righe contengono gli stessi valori ID visitatore (`77` e `88`) di quelli nella prima e nella seconda riga. Di conseguenza, l’espansione dell’ID li include per le cancellazioni a livello di dispositivo.
 * I valori di `MyEvar2` nella seconda e nella quinta riga corrispondono prima e dopo l’eliminazione. Tuttavia, dopo l’eliminazione non corrispondono più al valore `N` che si trova nell’ultima riga, perché tale riga non è stata aggiornata come parte della richiesta di eliminazione.
 * `MyEvar3` si comporta in modo molto diverso rispetto alla versione senza l’espansione dell’ID, in quanto senza l’espansione dell’ID, nessun corrisponde `ID-DEVICES`. Ora `AAID` corrisponde alle prime cinque righe.

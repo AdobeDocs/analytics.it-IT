@@ -14,7 +14,7 @@ ht-degree: 6%
 
 [!UICONTROL Count repeat instances] specifica se le istanze ripetute vengono conteggiate nei report o nei progetti. Quando è attivata, questa impostazione tratta più visualizzazioni di pagina consecutive sulla stessa pagina come più visualizzazioni di pagina. Quando l’impostazione è su &quot;Off&quot;, le visualizzazioni di pagina vengono conteggiate come una singola visualizzazione di pagina. Questa impostazione influisce solo su determinate metriche, ad esempio [!UICONTROL Single Page Visit].
 
-In Workspace, puoi scegliere di: [includi/escludi istanze ripetute](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in **[!UICONTROL Project]** > **[!UICONTROL Project info and settings]**. Sono inclusi per impostazione predefinita.
+In Workspace, puoi scegliere di [includere/escludere istanze ripetute](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in **[!UICONTROL Project]** > **[!UICONTROL Project info and settings]**. Sono inclusi per impostazione predefinita.
 
 >[!NOTE]
->Questa impostazione non si applica a [!UICONTROL Flow] o [!UICONTROL Fallout] visualizzazioni. In Workspace, [!UICONTROL Flow] ha un proprio [impostazione](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) per rimuovere le ripetizioni.
+>Questa impostazione non si applica a [!UICONTROL Flow] o [!UICONTROL Fallout] visualizzazioni. In Workspace, [!UICONTROL Flow] ha una propria [impostazione](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) per la rimozione delle ripetizioni.

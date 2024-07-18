@@ -1,6 +1,6 @@
 ---
-title: Risolvere i problemi relativi all’implementazione JavaScript
-description: Scopri i problemi comuni e le best practice per la risoluzione dei problemi relativi all’implementazione di JavaScript.
+title: Risoluzione dei problemi relativi all’implementazione di JavaScript
+description: Scopri i problemi comuni e le best practice per la risoluzione dei problemi di implementazione di JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# Risolvere i problemi relativi all’implementazione JavaScript
+# Risoluzione dei problemi relativi all’implementazione di JavaScript
 
 Di seguito sono riportati diversi motivi per cui la tua organizzazione potrebbe riscontrare problemi nel recupero corretto dei dati in Adobe Analytics.
 
@@ -23,32 +23,32 @@ La maggior parte delle variabili inviate ad Adobe sono stringhe. In JavaScript �
 
 Come best practice, accertati di essere coerente con i tipi di virgolette utilizzati. Se una virgoletta singola indica l&#39;inizio di una stringa, è necessario utilizzare una virgoletta singola per chiuderla.
 
-Ad esempio, entrambi `s.eVar1 = 'Value'` e `s.eVar1 = "Value"` sono entrambi validi. `s.eVar1 = 'Value"` non è valido.
+Ad esempio, sia `s.eVar1 = 'Value'` che `s.eVar1 = "Value"` sono entrambi validi. `s.eVar1 = 'Value"` non è valido.
 
 ### Inclusione di virgolette singole o doppie in una stringa
 
-A volte è consigliabile includere una virgoletta singola o doppia in una stringa. Ad esempio, desideri includere il valore `Alex's sale` o `John the "Hunter"` nei rapporti. Esistono due metodi per includere questi valori:
+A volte è consigliabile includere una virgoletta singola o doppia in una stringa. Ad esempio, si desidera includere il valore `Alex's sale` o `John the "Hunter"` nei report. Esistono due metodi per includere questi valori:
 
-* **Usa l&#39;altro tipo di preventivo**: ad esempio, `s.eVar1 = "Alex's sale"` e `s.eVar1 = 'John the "Hunter"'` sono entrambi validi.
-* **Virgolette di escape**: utilizza una barra rovesciata per eliminare le virgolette. Ad esempio: `s.eVar1 = 'Alex\'s sale'` e `s.eVar1 = "John the \"Hunter\""` sono entrambi validi.
+* **Utilizzare l&#39;altro tipo di virgolette**: ad esempio, `s.eVar1 = "Alex's sale"` e `s.eVar1 = 'John the "Hunter"'` sono entrambi validi.
+* **Virgolette di escape**: utilizza una barra rovesciata per eliminare le virgolette. Ad esempio, `s.eVar1 = 'Alex\'s sale'` e `s.eVar1 = "John the \"Hunter\""` sono entrambi validi.
 
 ### Evita l&#39;uso di virgolette
 
-Alcuni programmi convertono automaticamente le virgolette neutre (`"..."` e `'...'`) in virgolette (`"..."` e `'...'`). Evitare di utilizzare editor di documenti (come Microsoft Word) o di trasmettere frammenti di codice tramite e-mail. Impossibile utilizzare le virgolette curve in JavaScript.
+Alcuni programmi convertono automaticamente le virgolette neutre (`"..."` e `'...'`) in virgolette (`"..."` e `'...'`). Evitare di utilizzare editor di documenti (come Microsoft Word) o di trasmettere frammenti di codice tramite e-mail. Non è possibile utilizzare le virgolette curve in JavaScript.
 
 ## Fare riferimento all&#39;oggetto Analytics
 
-Tutte le variabili inviate ad Adobe utilizzano l’oggetto Analytics. La maggior parte delle implementazioni utilizza `s` oggetto. Assicurati che quando fai riferimento a variabili includi l’oggetto Analytics nel tuo riferimento.
+Tutte le variabili inviate ad Adobe utilizzano l’oggetto Analytics. La maggior parte delle implementazioni utilizza l&#39;oggetto `s`. Assicurati che quando fai riferimento a variabili includi l’oggetto Analytics nel tuo riferimento.
 
-Ad esempio: `s.eVar1 = 'Value'` è valido, mentre `eVar1 = 'Value'` non lo è.
+`s.eVar1 = 'Value'` ad esempio è valido, mentre `eVar1 = 'Value'` non lo è.
 
 ## Definisci ogni variabile una volta
 
-Quando una funzione di tracciamento (`s.t()`) viene eseguito, AppMeasurement prende tutte le variabili definite e le compila in una richiesta di immagine. Se definisci una variabile più di una volta nell’implementazione, viene utilizzato solo il valore più recente. Assicurati che tutti i valori delle variabili contengano il valore corretto quando la funzione di tracciamento viene eseguita.
+Quando viene eseguita una funzione di traccia (`s.t()`), AppMeasurement prende tutte le variabili definite e le compila in una richiesta di immagine. Se definisci una variabile più di una volta nell’implementazione, viene utilizzato solo il valore più recente. Assicurati che tutti i valori delle variabili contengano il valore corretto quando la funzione di tracciamento viene eseguita.
 
 ## Correggi maiuscole/minuscole variabili
 
-Alcune variabili utilizzano lettere maiuscole. Le variabili JavaScript fanno distinzione tra maiuscole e minuscole. Assicurati di usare le maiuscole/minuscole corrette quando definisci le variabili. Ad esempio: `s.eVar1 = 'Value'` è valido, mentre `s.evar1 = 'Value'` non lo è.
+Alcune variabili utilizzano lettere maiuscole. Le variabili di JavaScript fanno distinzione tra maiuscole e minuscole. Assicurati di usare le maiuscole/minuscole corrette quando definisci le variabili. `s.eVar1 = 'Value'` ad esempio è valido, mentre `s.evar1 = 'Value'` non lo è.
 
 ## Plug-in
 
@@ -87,8 +87,8 @@ Questi due valori delle variabili sono considerati separati in Adobe Analytics. 
 
 Le implementazioni che popolano molte variabili con valori lunghi a volte possono causare richieste di immagini troncate. Alcuni browser meno recenti, come Internet Explorer, impongono un limite di 2083 caratteri per gli URL di richiesta delle immagini. Se l’organizzazione deve far fronte a richieste di immagini molto lunghe, prova quanto segue:
 
-* **Utilizzare il servizio ID Experience Cloud**: le librerie di AppMeasurement 1.4.1 e versioni successive inviano automaticamente le richieste di immagini utilizzando HTTP POST se sono troppo lunghe. I dati inviati con questo metodo non vengono troncati, a prescindere dalla lunghezza. Consulta [Servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) per ulteriori informazioni.
-* **Utilizzare le regole di elaborazione**: [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) può copiare valori da una variabile a un’altra. Questo metodo evita di impostare lo stesso valore in più variabili. Ad esempio:
+* **Utilizza il servizio ID Experience Cloud**: le librerie AppMeasurement 1.4.1 e versioni successive inviano automaticamente le richieste di immagini tramite HTTP POST se sono troppo lunghe. I dati inviati con questo metodo non vengono troncati, a prescindere dalla lunghezza. Per ulteriori informazioni, consulta [Servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
+* **Usa regole di elaborazione**: [Le regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) possono copiare i valori da una variabile a un&#39;altra. Questo metodo evita di impostare lo stesso valore in più variabili. Ad esempio:
 
   Esegui sempre:<br>
 Sovrascrivi il valore di prop1 con eVar1<br>
@@ -101,7 +101,7 @@ Sovrascrivi il valore di prop2 con eVar1<br>
   s.eVar1 = "The quick brown fox jumps over the lazy dog";
   ```
 
-* **Utilizzare le variabili dinamiche**: se la tua implementazione popola molte variabili con lo stesso valore, puoi utilizzare [variabili dinamiche](/help/implement/vars/page-vars/dynamic-variables.md) per ridurre l’URL della richiesta:
+* **Utilizza variabili dinamiche**: se l&#39;implementazione popola molte variabili con lo stesso valore, puoi utilizzare [variabili dinamiche](/help/implement/vars/page-vars/dynamic-variables.md) per ridurre l&#39;URL della richiesta:
 
   ```js
   s.eVar1 = "The quick brown fox jumps over the lazy dog";
@@ -110,4 +110,4 @@ Sovrascrivi il valore di prop2 con eVar1<br>
   s.prop2 = "D=v1";
   ```
 
-* **Utilizzare le classificazioni**: se i nomi di prodotto o pagina sono insolitamente lunghi, puoi utilizzare un valore o un codice di identificazione, quindi utilizza [classificazioni](/help/components/classifications/c-classifications.md) per visualizzare un nome più descrittivo.
+* **Usa classificazioni**: se i nomi di prodotti o pagine sono insolitamente lunghi, puoi utilizzare un valore o un codice identificativo, quindi utilizzare [classificazioni](/help/components/classifications/c-classifications.md) per visualizzare un nome più descrittivo.

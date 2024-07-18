@@ -23,7 +23,7 @@ L’Adobe Experience Platform Mobile SDK aiuta ad alimentare soluzioni e servizi
 
 Panoramica ad alto livello dei compiti di implementazione:
 
-![Adobe Analytics utilizzando il flusso di lavoro dell’estensione Analytics](../../assets/mobilesdk-annotated.png)
+![Adobe Analytics utilizzando il flusso di lavoro dell&#39;estensione Analytics](../../assets/mobilesdk-annotated.png)
 
 <table style="width:100%">
 
@@ -33,47 +33,47 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>1</td>
-<td>Assicurati di avere <b>definizione di una suite di rapporti</b>.</td>
+<td>Assicurati di aver <b>definito una suite di rapporti</b>.</td>
 <td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
 <td>2</td>
-<td><b>Configurare uno stream di dati</b>. Un flusso di dati rappresenta la configurazione lato server durante l’implementazione di Adobe Experience Platform Web SDK.</td>
+<td><b>Configura uno stream di dati</b>. Un flusso di dati rappresenta la configurazione lato server durante l’implementazione di Adobe Experience Platform Web SDK.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">Configurare uno stream di dati<a></td> 
 </tr>
 
 <td>3</td>
-<td><b>Aggiungere un servizio Adobe Analytics</b> allo stream di dati. Tale servizio controlla se e come i dati vengono inviati ad Adobe Analytics.</td>
+<td><b>Aggiungi un servizio Adobe Analytics</b> allo stream di dati. Tale servizio controlla se e come i dati vengono inviati ad Adobe Analytics.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
 </tr>
 
 <tr>
 <td>4</td>
-<td><b>Creare una proprietà mobile</b>. Una proprietà è un contenitore che si riempie con estensioni, regole, elementi dati e librerie.</td>
+<td><b>Crea una proprietà mobile</b>. Una proprietà è un contenitore che si riempie con estensioni, regole, elementi dati e librerie.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">Configurare una proprietà mobile</a></tr>
 
 <tr>
 <td>5</td>
-<td><b>Installare l’estensione Adobe Experience Platform Edge Network</b> nella proprietà tag mobile e configura lo stream di dati nell’estensione.</td>
-<td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Adobe Experience Platform Edge Network</a>
+<td><b>Installa l'estensione dell'Edge Network Adobe Experience Platform</b> nella proprietà del tag per dispositivi mobili e configura lo stream di dati nell'estensione.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Edge Network Adobe Experience Platform</a>
 </tr>
 
 <tr>
 <td>6</td>
-<td><b>Utilizzare il codice nell’app</b> per registrare le estensioni necessarie e caricare la configurazione di tag.</td>
+<td><b>Utilizza il codice nella tua app</b> per registrare le estensioni necessarie e caricare la configurazione di tag.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Configurare la configurazione</a></td>
 </tr>
 
 <tr>
 <td>7</td>
-<td><b>Implementare e testare la funzionalità</b> utilizzando una combinazione di elementi dati del tag, regole, estensioni aggiuntive e chiamate API SDK nell’app. Inspect, convalida ed esegui il debug della raccolta dati e delle esperienze per la tua app mobile.</td>
-<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Utilizzare l’applicazione di esempio</a>
+<td><b>Implementa e verifica la funzionalità</b> utilizzando una combinazione di elementi dati del tag, regole, estensioni aggiuntive e chiamate API SDK nell'app. Inspect, convalida ed esegui il debug della raccolta dati e delle esperienze per la tua app mobile.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Utilizza l'applicazione di esempio</a>
 </tr>
 
 <tr>
 <td>8</td>
-<td><b>Estendere e convalidare l’implementazione dell’app mobile</b> prima di implementarlo in produzione.</td>
+<td><b>Estendi e convalida l'implementazione dell'app mobile</b> prima di inviarla alla produzione.</td>
 <td></td> 
 </tr>
 
@@ -84,7 +84,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 Panoramica ad alto livello dei compiti di implementazione:
 
-![Adobe Analytics utilizzando il flusso di lavoro dell’estensione Analytics](../../assets/mobilesdk-analytics-annotated.png)
+![Adobe Analytics utilizzando il flusso di lavoro dell&#39;estensione Analytics](../../assets/mobilesdk-analytics-annotated.png)
 
 <table style="width:100%">
 
@@ -94,31 +94,31 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>1</td>
-<td>Assicurati di avere <b>definizione di una suite di rapporti</b>.</td>
+<td>Assicurati di aver <b>definito una suite di rapporti</b>.</td>
 <td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
 <td>2</td>
-<td><b>Installare l’estensione Adobe Analytics</b> nella proprietà tag per dispositivi mobili e configura l’estensione in modo che punti alla suite di rapporti.</td>
-<td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">Estensione Adobe Analytics per proprietà mobile</a>
+<td><b>Installa l'estensione Adobe Analytics</b> nella proprietà dei tag per dispositivi mobili e configura l'estensione in modo che punti alla suite di rapporti.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">Estensione Adobe Analytics per la proprietà mobile</a>
 </tr>
 
 <tr>
 <td>3</td>
-<td><b>Utilizzare il codice nell’app</b> per registrare le estensioni necessarie e caricare la configurazione di tag.</td>
+<td><b>Utilizza il codice nella tua app</b> per registrare le estensioni necessarie e caricare la configurazione di tag.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Configurare la configurazione</a></td>
 </tr>
 
 <tr>
 <td>4</td>
-<td><b>Implementare e testare la funzionalità</b> utilizzando una combinazione di elementi dati del tag, regole, estensioni aggiuntive e chiamate API SDK nell’app. Inspect, convalida ed esegui il debug della raccolta dati e delle esperienze per la tua app mobile.</td>
-<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Utilizzare l’applicazione di esempio</a>
+<td><b>Implementa e verifica la funzionalità</b> utilizzando una combinazione di elementi dati del tag, regole, estensioni aggiuntive e chiamate API SDK nell'app. Inspect, convalida ed esegui il debug della raccolta dati e delle esperienze per la tua app mobile.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Utilizza l'applicazione di esempio</a>
 </tr>
 
 <tr>
 <td>5</td>
-<td><b>Estendere e convalidare l’implementazione dell’app mobile</b> prima di implementarlo in produzione.</td>
+<td><b>Estendi e convalida l'implementazione dell'app mobile</b> prima di inviarla alla produzione.</td>
 <td></td> 
 </tr>
 

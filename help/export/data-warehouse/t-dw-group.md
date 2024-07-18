@@ -13,5 +13,5 @@ ht-degree: 0%
 
 # Gestire le autorizzazioni Data Warehouse
 
-Consulta la sezione [Adobe Admin Console](/help/admin/admin-console/home.md) documentazione su come impostare le autorizzazioni per gli utenti Data Warehouse. L’autorizzazione è elencata [qui](/help/admin/admin-console/permissions/report-suite-tools.md).
+Consulta la documentazione di [Adobe Admin Console](/help/admin/admin-console/home.md) su come impostare le autorizzazioni per gli utenti Data Warehouse. Le autorizzazioni sono elencate [qui](/help/admin/admin-console/permissions/report-suite-tools.md).
 

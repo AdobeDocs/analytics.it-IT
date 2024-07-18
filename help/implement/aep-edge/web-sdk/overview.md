@@ -15,17 +15,17 @@ ht-degree: 18%
 
 Puoi utilizzare [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) per inviare dati ad Adobe Analytics. Esistono due metodi principali per implementare l’SDK per web e ogni metodo ha due tipi di implementazione:
 
-| | **Migra da AppMeasurement** | **Implementazione pulita dell’SDK web** |
+| | **Migra da AppMeasurement** | **Implementazione pulita di Web SDK** |
 | --- | --- | --- |
-| **Utilizzare i tag** | [Migrare dall’estensione Analytics all’estensione Web SDK](analytics-extension-to-web-sdk.md) | [Inviare dati ad Adobe Analytics tramite l’estensione Web SDK](web-sdk-tag-extension.md) |
-| **Usa JavaScript** | [Migrare da AppMeasurement alla libreria JavaScript dell’SDK per web](appmeasurement-to-web-sdk.md) | [Inviare dati ad Adobe Analytics utilizzando la libreria JavaScript dell’SDK per web](web-sdk-javascript-library.md) |
+| **Usa tag** | [Migrare dall&#39;estensione Analytics all&#39;estensione Web SDK](analytics-extension-to-web-sdk.md) | [Invia dati ad Adobe Analytics tramite l&#39;estensione Web SDK](web-sdk-tag-extension.md) |
+| **Usa JavaScript** | [Migrare da AppMeasurement alla libreria JavaScript dell&#39;SDK Web](appmeasurement-to-web-sdk.md) | [Invia dati ad Adobe Analytics utilizzando la libreria JavaScript dell&#39;SDK Web](web-sdk-javascript-library.md) |
 
-Se la tua organizzazione richiede una nuova implementazione dell’SDK web e prevede di utilizzare il Customer Journey Analytics in futuro, l’Adobe consiglia un’implementazione dell’SDK web pulita utilizzando il tuo schema. Consulta [Inserire dati tramite Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) nella guida utente del Customer Journey Analytics.
+Se la tua organizzazione richiede una nuova implementazione dell’SDK web e prevede di utilizzare il Customer Journey Analytics in futuro, l’Adobe consiglia un’implementazione dell’SDK web pulita utilizzando il tuo schema. Consulta [Inserire dati tramite Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) nella guida utente del Customer Journey Analytics.
 
 ## Risorse aggiuntive
 
 I tag possono essere altamente personalizzati. Scopri come ottenere il massimo da Adobe Analytics includendo i dati corretti nella tua implementazione.
 
-- [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): scopri come funziona l’interfaccia e quali estensioni sono disponibili.
+- [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): scopri come funziona l&#39;interfaccia e quali estensioni sono disponibili.
 
 - [Documentazione di Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=it)

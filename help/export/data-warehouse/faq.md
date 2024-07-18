@@ -5,8 +5,8 @@ feature: Data Warehouse
 exl-id: 51c3ba17-a8b2-4030-9521-355ebbbfcd0d
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 14%
+source-wordcount: '136'
+ht-degree: 11%
 
 ---
 
@@ -14,22 +14,22 @@ ht-degree: 14%
 
 Domande frequenti per la Data Warehouse.
 
-## Quando uso l’elenco a discesa granularità durante la creazione di una richiesta, in quale formato è possibile prevedere le date?
+## Quando utilizzo l’elenco a discesa granularità durante la creazione di una richiesta, in quale formato posso prevedere che si trovino le date?
 
-Quando applichi la granularità in una richiesta di Data Warehouse, la colonna &quot;Data&quot; viene aggiunta al rapporto. A seconda della granularità selezionata, il formato della data cambia.
+Quando si applica la granularità in una richiesta Data Warehouse, la colonna &quot;Data&quot; viene aggiunta al rapporto. A seconda della granularità selezionata, il formato della data cambia.
 
-| Granularità | Formato | Esempio |
+| Granularità | Format | Esempio |
 | --- | --- | --- |
-| Oraria | `mmmm d, yyyy` Ora `H` | 1 gennaio, 20XX, ora 0 |
-| Giornaliero | `mmmm d, yyyy` | 1 gennaio 2020 |
+| Oraria | `mmmm d, yyyy` ora `H` | 1 gennaio, 20XX, Ora 0 |
+| Giornaliero | `mmmm d, yyyy` | 1 gennaio 20XX |
 | Settimanale | Settimana `w, yyyy` | Settimana 1, 20XX |
-| Mensile | `mmmm yyyy` | 20 gennaio |
+| Mensile | `mmmm yyyy` | Gennaio 20XX |
 | Trimestrale | `q` Trimestre `yyyy` | 1° trimestre 20XX |
 | Annuale | `yyyy` | 20XX |
 
-## Come funzionano i segmenti come dimensioni nella Data Warehouse?
+## Come funzionano i segmenti come dimensioni in Data Warehouse?
 
-Quando utilizzi un segmento come dimensione nella Data Warehouse, il rapporto restituisce una colonna contenente `"0"` o `"1"`:
+Quando utilizzi un segmento come dimensione in Data Warehouse, il rapporto restituisce una colonna contenente `"0"` o `"1"`:
 
-* **`"0"`**: L’elemento dimensionale non soddisfaceva i criteri del segmento.
-* **`"1"`**: L’elemento dimensionale soddisfa i criteri del segmento.
+* **`"0"`**: l&#39;elemento dimensione non soddisfa i criteri del segmento.
+* **`"1"`**: l&#39;elemento dimensione ha soddisfatto i criteri del segmento.

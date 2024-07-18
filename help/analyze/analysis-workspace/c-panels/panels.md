@@ -7,7 +7,7 @@ exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
 source-wordcount: '1551'
-ht-degree: 47%
+ht-degree: 50%
 
 ---
 
@@ -26,7 +26,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannello:
 | [Pannello Analytics for Target](a4t-panel.md) | Analizza le attività ed esperienze Target in Analysis Workspace. |
 | [Pannello Attribution](attribution.md) | Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione. |
 | [Pannello a forma libera](freeform-panel.md) | Esegui confronti illimitati e raggruppamenti, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
-| [Pannello Pubblico medio per minuto del file multimediale](average-minute-audience-panel.md) | Analizza il pubblico medio per minuto nel tempo, con dettagli sulle visualizzazioni di picco e con la possibilità di suddividerlo e confrontarlo. |
+| [Pannello Pubblico medio per minuto](average-minute-audience-panel.md) | Analizza il pubblico medio per minuto nel tempo, con dettagli sulle visualizzazioni di picco e con la possibilità di suddividerlo e confrontarlo. |
 | [Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
 | [Pannello Media Playback Time Spent (Tempo di riproduzione dei contenuti multimediali)](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
 | [Pannello Segment Comparison](c-segment-comparison/segment-comparison.md) | Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti. |
@@ -84,23 +84,23 @@ I segmenti a discesa statici possono essere utilizzati anche per consolidare pi�
 
 #### Creare segmenti a discesa statici
 
-* Per i segmenti a discesa che utilizzano elementi dimensionali, seleziona una singola dimensione dalla barra a sinistra e rilasciala nella zona di rilascio del pannello **durante la tenuta`[Shift]`**. In questo modo viene creato un segmento a discesa con tutti gli elementi dimensionali associati a tale dimensione.
+* Per i segmenti a discesa che utilizzano elementi dimensionali, seleziona una singola dimensione dalla barra a sinistra e rilasciala nella zona di rilascio del pannello **tenendo premuto`[Shift]`**. In questo modo viene creato un segmento a discesa con tutti gli elementi dimensionali associati a tale dimensione.
 
-  Oppure, se desideri che il segmento a discesa includa solo elementi dimensionali specifici associati a una dimensione, fai clic sull’icona a forma di freccia verso destra accanto alla dimensione desiderata nella barra a sinistra. Questa azione espone tutti gli elementi dimensionali disponibili. Seleziona più elementi dimensione da questo elenco tramite `[Shift + Click]` o `[Ctrl + Click]`, quindi rilasciale nella zona di rilascio del pannello **durante la tenuta** `[Shift]`.
+  Oppure, se desideri che il segmento a discesa includa solo elementi dimensionali specifici associati a una dimensione, fai clic sull’icona a forma di freccia verso destra accanto alla dimensione desiderata nella barra a sinistra. Questa azione espone tutti gli elementi dimensionali disponibili. Seleziona più elementi dimensionali da questo elenco utilizzando `[Shift + Click]` o `[Ctrl + Click]`, quindi rilasciali nella zona di rilascio del pannello **mentre tieni premuto** `[Shift]`.
 
-* Per i segmenti a discesa che utilizzano un singolo tipo di componente (ad esempio, solo dimensioni, solo segmenti o solo metriche), seleziona più elementi dello stesso tipo nella barra a sinistra utilizzando `[Shift + Click]` o `[Ctrl + Click]`, quindi rilasciale nella zona di rilascio del pannello **durante la tenuta`[Shift]`**.
+* Per i segmenti a discesa che utilizzano un singolo tipo di componente (ad esempio, solo dimensioni, segmenti o solo metriche), seleziona più elementi dello stesso tipo nella barra a sinistra utilizzando `[Shift + Click]` o `[Ctrl + Click]`, quindi rilasciali nella zona di rilascio del pannello **mantenendo`[Shift]`**.
 
   Viene creato un singolo segmento a discesa con i componenti selezionati.
 
-* Per i segmenti a discesa che utilizzano una combinazione di tipi di componenti (ad esempio 2 metriche e 3 filtri), seleziona più componenti utilizzando `[Shift + Click]` o `[Ctrl + Click]`. Rilascia la selezione nella zona di rilascio del pannello **mentre tieni premuto`[Shift]`**. In questo contesto, tutti i tipi di componenti vengono trattati come segmenti a discesa separati. Ad esempio, se nella selezione includi sia metriche che elementi dimensionali, vengono creati due segmenti a discesa separati: uno include gli elementi dimensionali e l’altro include le metriche.
+* Per i segmenti a discesa che utilizzano una combinazione di tipi di componenti (ad esempio 2 metriche e 3 filtri), selezionare più componenti utilizzando `[Shift + Click]` o `[Ctrl + Click]`. Rilascia la selezione nella zona di rilascio del pannello **mentre tieni premuto`[Shift]`**. In questo contesto, tutti i tipi di componenti vengono trattati come segmenti a discesa separati. Ad esempio, se nella selezione includi sia metriche che elementi dimensionali, vengono creati due segmenti a discesa separati: uno include gli elementi dimensionali e l’altro include le metriche.
 
   ![La finestra del pannello con il campo del segmento del cliente mobile è disponibile per rilasciare un segmento a discesa statico. ](assets/create-dropdown.png)
 
 Facendo clic con il pulsante destro del mouse su un segmento a discesa, sono disponibili le seguenti opzioni:
 
 * **[!UICONTROL Delete drop-down]**: rimuove il segmento a discesa dal pannello.
-* **[!UICONTROL Delete label]**: rimuovi il testo sopra un segmento a discesa. Per modificare l’etichetta, seleziona l’icona della matita.
-* **[!UICONTROL Add label]**: quando aggiungi un segmento a discesa a un progetto, un’etichetta viene impostata automaticamente sul nome del componente. Se elimini l’etichetta, puoi aggiungerla nuovamente con questa opzione.
+* **[!UICONTROL Delete label]**: rimuovere il testo sopra un segmento a discesa. Per modificare l’etichetta, seleziona l’icona della matita.
+* **[!UICONTROL Add label]**: quando si aggiunge un segmento a discesa a un progetto, l&#39;etichetta viene impostata automaticamente sul nome del componente. Se elimini l’etichetta, puoi aggiungerla nuovamente con questa opzione.
 * **[!UICONTROL Require selection]**: richiede che nel pannello sia impostato un segmento.
 
 Per ulteriori informazioni su come aggiungere filtri a discesa a un progetto, [guarda questo video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=it).
@@ -119,17 +119,17 @@ Per filtrare il pannello, utilizza il menu a discesa dei segmenti in uno dei seg
 
 ### Segmenti a discesa dinamici
 
-I segmenti a discesa dinamici consentono di determinare i valori disponibili in base ai dati all’interno dell’intervallo di reporting del pannello e ai valori in altri segmenti a discesa. Ad esempio, puoi creare due elenchi a discesa dinamici utilizzando [Paesi](/help/components/dimensions/countries.md) dimensione e [Città](/help/components/dimensions/cities.md) dimensione. Quando selezioni un paese da [!UICONTROL Countries] elenco a discesa, la [!UICONTROL Cities] L’elenco a discesa si adatta in modo dinamico per mostrare solo le città all’interno di quel paese.
+I segmenti a discesa dinamici consentono di determinare i valori disponibili in base ai dati all’interno dell’intervallo di reporting del pannello e ai valori in altri segmenti a discesa. Ad esempio, puoi creare due elenchi a discesa dinamici utilizzando la dimensione [Paesi](/help/components/dimensions/countries.md) e la dimensione [Città](/help/components/dimensions/cities.md). Quando si seleziona un paese dall&#39;elenco a discesa [!UICONTROL Countries], l&#39;elenco a discesa [!UICONTROL Cities] viene modificato in modo dinamico in modo da visualizzare solo le città del paese.
 
 Lo stesso concetto si applica a tutte le dimensioni; sono visibili solo gli elementi dimensionali che compaiono nell’intervallo di date del pannello e nei segmenti selezionati. Gli elementi di Dimension selezionati nei segmenti a discesa statici influiscono sui valori disponibili nei segmenti a discesa dinamici. Tuttavia, l’inverso non è vero; gli elementi di Dimension selezionati nei segmenti a discesa dinamici non influiscono sui valori disponibili nei segmenti a discesa statici.
 
-La selezione manuale degli elementi dimensionali è disponibile se prevedi che un certo elemento dimensionale verrà raccolto in futuro. Puoi anche cancellare un segmento a discesa dinamico in modo che non contenga un valore, consentendo ad altri segmenti a discesa dinamici di contenere più valori. Seleziona **[!UICONTROL Reset all]** per cancellare la selezione da tutti i segmenti del menu a discesa per quel pannello.
+La selezione manuale degli elementi dimensionali è disponibile se prevedi che un certo elemento dimensionale verrà raccolto in futuro. Puoi anche cancellare un segmento a discesa dinamico in modo che non contenga un valore, consentendo ad altri segmenti a discesa dinamici di contenere più valori. Selezionare **[!UICONTROL Reset all]** per cancellare la selezione da tutti i segmenti del menu a discesa per quel pannello.
 
 Per creare un segmento a discesa dinamico:
 
 * trascina una singola dimensione nella zona di rilascio del pannello **mentre tieni premuto`[Shift]`**.
 * I segmenti a discesa dinamici non sono disponibili per metriche, segmenti o intervalli di date.
-* Fai clic con il pulsante destro del mouse su un segmento a discesa e seleziona (Segmento a discesa) **[!UICONTROL Delete dropdown]** per eliminarlo.
+* Fare clic con il pulsante destro del mouse su un segmento a discesa e selezionare **[!UICONTROL Delete dropdown]** per eliminarlo.
 
 Facendo clic con il pulsante destro del mouse su un filtro a discesa dinamico, è possibile visualizzare le stesse opzioni disponibili per i filtri a discesa statici.
 

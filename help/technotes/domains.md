@@ -2,7 +2,8 @@
 title: Domini utilizzati da Adobe Analytics
 description: Consenti a questi domini di utilizzare il firewall dell’organizzazione per un’esperienza ottimale con l’utilizzo di Adobe Analytics.
 feature: Data Configuration and Collection
-source-git-commit: 3653a4e71d96ae636205840e1b8b456162521401
+exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
+source-git-commit: c1d1693bef617e3ebd6bf4f007c2235b2098a016
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 4%
@@ -28,7 +29,7 @@ Alcune configurazioni del firewall bloccano i domini su cui Adobe Analytics si b
 
 ## Domini di Adobe Experience Cloud
 
-Oltre ai domini di cui sopra, Adobe Experience Cloud si basa su diversi domini per la raccolta dei dati e l’esportazione dei rapporti. Consulta [Domini utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) per questo elenco di domini.
+Oltre ai domini di cui sopra, Adobe Experience Cloud si basa su diversi domini per la raccolta dei dati e l’esportazione dei rapporti. Vedere [Domini utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) per questo elenco di domini.
 
 >[!MORELIKETHIS]
 >

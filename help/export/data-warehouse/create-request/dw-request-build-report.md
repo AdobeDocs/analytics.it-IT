@@ -6,7 +6,7 @@ exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 40%
+ht-degree: 48%
 
 ---
 
@@ -18,17 +18,17 @@ Per informazioni su come iniziare a creare una richiesta, nonché collegamenti a
 
 Per creare un rapporto per una richiesta Data Warehouse:
 
-1. Se non lo hai già fatto, inizia a creare una richiesta in Adobe Analytics selezionando **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Aggiungi**].
+1. Se non l’hai ancora fatto, inizia a creare una richiesta in Adobe Analytics selezionando **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Aggiungi**].
 
    Per ulteriori dettagli, consulta [Creare una richiesta di Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Nella pagina Nuova richiesta Data Warehouse, seleziona la [!UICONTROL **Creare il rapporto**] scheda.
+1. Nella pagina Nuova richiesta Data Warehouse selezionare la scheda [!UICONTROL **Genera report**].
 
-   ![Scheda Genera rapporto](assets/build-report.png)
+   ![Scheda Genera report](assets/build-report.png)
 
 1. Trascina nel generatore segmenti, metriche e dimensioni. Il rapporto generato determina i dati inclusi nella richiesta Data Warehouse.
 
-1. Continua a configurare la richiesta Data Warehouse in [!UICONTROL **Destinazione del rapporto**] scheda. Per ulteriori informazioni, consulta [Configurare una destinazione di rapporto per una richiesta al Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. Continua a configurare la richiesta Data Warehouse nella scheda [!UICONTROL **Destinazione report**]. Per ulteriori informazioni, consulta [Configurare una destinazione di rapporto per una richiesta al Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 
 <!--
 

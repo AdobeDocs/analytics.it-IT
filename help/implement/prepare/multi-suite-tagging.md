@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Per implementare l’assegnazione tag multisuite, devi includere l’ID suite di rapporti (RSID) per la suite di rapporti globale e gli RSID per le suite di rapporti figlio applicabili nel codice di tracciamento per le pagine web e le app.
 
-* Per le implementazioni di tag Adobe Experience Platform, specifica ciascuna suite di rapporti per [[!DNL Analytics] estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it).
+* Per le implementazioni di tag Adobe Experience Platform, specifica ciascuna suite di rapporti per l&#39;[[!DNL Analytics] estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it).
 
 * Per le implementazioni legacy di JavaScript e Mobile SDK, separa gli RSID con virgole e senza spazi (`rsid1,rsid2,rsid3` e così via).
 
@@ -31,10 +31,10 @@ L’assegnazione di tag multisuite comporta più chiamate al server per ogni ric
 
 >[!NOTE]
 >
-> [Suite di rapporti virtuali](/help/components/vrs/vrs-about.md), che consente anche di fornire sottoinsiemi dei dati della suite di rapporti globale della tua azienda a utenti finali diversi, non subiscono chiamate al server secondarie.
+> [Le suite di rapporti virtuali](/help/components/vrs/vrs-about.md), che consentono anche di fornire sottoinsiemi dei dati della suite di rapporti globale della tua azienda a utenti finali diversi, non generano chiamate al server secondarie.
 
 ## Devo implementare l’assegnazione di tag a più suite o suite di rapporti virtuali?
 
 L’utilizzo di suite di rapporti virtuali invece dell’assegnazione tag per più suite rappresenta spesso una best practice, ma le esigenze aziendali determinano l’approccio migliore per la suite di rapporti nella tua organizzazione.
 
-Per capire se le suite di rapporti virtuali sono l’approccio migliore, consulta &quot;[Considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite](/help/components/vrs/vrs-considerations.md).&quot; Vedi anche &quot;[Confronto tra suite di rapporti virtuali e assegnazione di tag a più suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; per un confronto tra l’assegnazione di tag a più suite e le funzionalità delle suite di rapporti virtuali.
+Per capire se le suite di rapporti virtuali sono l&#39;approccio migliore, consulta &quot;[Considerazioni sulle suite di rapporti virtuali e sull&#39;assegnazione di tag a più suite](/help/components/vrs/vrs-considerations.md).&quot; Vedi anche &quot;[Suite di rapporti virtuali e assegnazione di tag a più suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; per un confronto tra l&#39;assegnazione di tag a più suite e le funzionalità delle suite di rapporti virtuali.

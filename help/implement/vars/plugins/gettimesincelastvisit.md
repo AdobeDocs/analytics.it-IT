@@ -15,17 +15,17 @@ ht-degree: 8%
 
 {{plug-in}}
 
-Il `getTimeSinceLastVisit` Il plug-in consente di tenere traccia di quanto tempo un visitatore ha impiegato per tornare al sito dopo l’ultima visita.
+Il plug-in `getTimeSinceLastVisit` consente di tenere traccia di quanto tempo un visitatore ha impiegato per tornare al sito dopo l&#39;ultima visita.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con Web SDK.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
-1. Clic **[!UICONTROL Tags]** a sinistra, fai clic sulla proprietà tag desiderata.
-1. Clic **[!UICONTROL Extensions]** a sinistra, quindi fai clic su **[!UICONTROL Catalog]** scheda
-1. Individuare e installare **[!UICONTROL Common Web SDK Plugins]** estensione.
-1. Clic **[!UICONTROL Data Elements]** a sinistra, quindi fai clic sull’elemento dati desiderato.
+1. Fare clic su **[!UICONTROL Tags]** a sinistra, quindi fare clic sulla proprietà tag desiderata.
+1. Fai clic su **[!UICONTROL Extensions]** a sinistra, quindi sulla scheda **[!UICONTROL Catalog]**
+1. Individuare e installare l&#39;estensione **[!UICONTROL Common Web SDK Plugins]**.
+1. Fai clic su **[!UICONTROL Data Elements]** a sinistra, quindi sull&#39;elemento dati desiderato.
 1. Imposta il nome dell’elemento dati desiderato con la seguente configurazione:
    * Estensione: Common Web SDK Plugins
    * Elemento dati: `getTimeSinceLastVisit`
@@ -41,8 +41,8 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sul pulsante [!UICONTROL Catalog] pulsante
-1. Installare e pubblicare [!UICONTROL Common Analytics Plugins] estensione
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
+1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
 1. Se non lo hai già fatto, crea una regola denominata &quot;Initialize Plug-ins&quot; (Inizializza plug-in) con la seguente configurazione:
    * Condizione: nessuna
    * Evento: Core - Library Loaded (Page Top)
@@ -57,14 +57,14 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà desiderata.
-1. Vai a [!UICONTROL Extensions] , quindi fare clic sulla scheda **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
-1. Espandi [!UICONTROL Configure tracking using custom code] Pannello a soffietto, che mostra [!UICONTROL Open Editor] pulsante.
+1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** sotto l&#39;estensione Adobe Analytics.
+1. Espandere il pannello a soffietto [!UICONTROL Configure tracking using custom code], che mostra il pulsante [!UICONTROL Open Editor].
 1. Apri l’editor di codice personalizzato e incolla il codice del plug-in fornito di seguito nella finestra di modifica.
 1. Salva e pubblica le modifiche nell’estensione Analytics.
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copia e incolla il seguente codice in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -75,18 +75,18 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## Utilizzare il plug-in
 
-Il `getTimeSinceLastVisit` La funzione non utilizza alcun argomento. Restituisce il tempo trascorso dall’ultima volta che il visitatore è arrivato al sito, bucket nel seguente formato:
+La funzione `getTimeSinceLastVisit` non utilizza argomenti. Restituisce il tempo trascorso dall’ultima volta che il visitatore è arrivato al sito, bucket nel seguente formato:
 
-* Il tempo compreso tra 30 minuti e un’ora dall’ultima visita viene impostato sul valore di riferimento di mezzo minuto più vicino. Ad esempio: `"30.5 minutes"`, `"53 minutes"`
-* Il tempo compreso tra un’ora e un giorno viene arrotondato al valore di riferimento di un quarto d’ora più vicino. Ad esempio: `"2.25 hours"`, `"7.5 hours"`
-* Il tempo maggiore di un giorno viene arrotondato al valore di riferimento del giorno più vicino. Ad esempio: `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
-* Se un visitatore non ha visitato in precedenza o il tempo trascorso è superiore a due anni, il valore viene impostato su `"New Visitor"`.
+* Il tempo compreso tra 30 minuti e un’ora dall’ultima visita viene impostato sul valore di riferimento di mezzo minuto più vicino. Ad esempio, `"30.5 minutes"`, `"53 minutes"`
+* Il tempo compreso tra un’ora e un giorno viene arrotondato al valore di riferimento di un quarto d’ora più vicino. Ad esempio, `"2.25 hours"`, `"7.5 hours"`
+* Il tempo maggiore di un giorno viene arrotondato al valore di riferimento del giorno più vicino. Ad esempio, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
+* Se un visitatore non ha visitato in precedenza o il tempo trascorso è superiore a due anni, il valore è impostato su `"New Visitor"`.
 
 >[!NOTE]
 >
 >Questo plug-in restituisce un valore solo al primo hit di una visita.
 
-Questo plug-in crea un cookie di prime parti denominato `"s_tslv"` impostata su una marca temporale Unix dell’ora corrente. Il cookie scade dopo due anni di inattività.
+Questo plug-in crea un cookie di prime parti denominato `"s_tslv"` impostato su un timestamp Unix dell&#39;ora corrente. Il cookie scade dopo due anni di inattività.
 
 ## Esempi
 
@@ -113,5 +113,5 @@ s.prop1 = getTimeSinceLastVisit();
 ### 1.0 (16 aprile 2018)
 
 * Versione a punti (codice ricompilato e dimensioni inferiori).
-* Codice derivato dal `getDaysSinceLastVisit` (ora obsoleto e rinominato).
-* Ora utilizza `formatTime` e `inList` plug-in per il valore restituito.
+* Codice derivato dal plug-in `getDaysSinceLastVisit` (ora obsoleto e rinominato).
+* Ora utilizza i plug-in `formatTime` e `inList` per il valore restituito.
