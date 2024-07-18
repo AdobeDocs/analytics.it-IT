@@ -3,9 +3,9 @@ description: Collegamento all’API di amministrazione di Adobe Analytics su git
 title: Domande frequenti sulla fine del ciclo di vita delle API di Adobe Analytics 1.4
 feature: Admin Tools
 role: Admin
-source-git-commit: 0aaeb60528f8ff1b1067f059710c9d9fa8e1886f
+source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '801'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,11 @@ La guida [Migrazione alle API di Adobe Analytics 2.0](https://developer.adobe.co
 
 D: **Questo influisce sulla raccolta dei dati?**
 
-R: la fine del ciclo di vita di Adobe Analytics 1.4 non influisce sulle soluzioni di tag, come Tags (precedentemente Adobe Launch), Web SDK o AppMeasurement.js. Tuttavia, se utilizzi le API di Origini dati, Inserimento dati o Classificazioni 1.4 per raccogliere o migliorare i dati, devi migrare tali flussi di lavoro alle API di Adobe Analytics 2.0. Per ulteriori informazioni, consultare la [2.0 API Endpoints guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/).
+R: la fine del ciclo di vita di Adobe Analytics 1.4 non influisce sulle soluzioni di tag, come Tags (precedentemente Adobe Launch), Web SDK o AppMeasurement.js. Tuttavia, se utilizzi le API di origini dati o classificazioni 1.4 per raccogliere o migliorare i dati, devi migrare tali flussi di lavoro alle API di Adobe Analytics 2.0. Per ulteriori informazioni, consultare la [2.0 API Endpoints guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/).
+
+D: **L&#39;API di inserimento dati è interessata?**
+
+R: No, l’API di inserimento dati non è interessata dalla fine del ciclo di vita di Adobe Analytics 1.4.
 
 D: **Cosa posso fare se la mia domanda non ha ricevuto risposta in queste domande frequenti?**
 
