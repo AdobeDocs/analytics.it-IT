@@ -4,10 +4,10 @@ title: Confronto delle date
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 99%
+source-wordcount: '635'
+ht-degree: 73%
 
 ---
 
@@ -24,10 +24,10 @@ Video sull’argomento:
 >[!NOTE]
 >[!UICONTROL Compare Time Periods] sfrutta le metriche calcolate avanzate. Di conseguenza, è disponibile solo per i clienti con SKU di Analytics Select, Prime e Ultimate.
 
-L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo di tempo precedente. Ad esempio, la domanda “Rispetto allo stesso periodo dello scorso anno, quanto stiamo andando meglio/peggio?” è fondamentale per comprendere la propria attività. Il confronto delle date include automaticamente una colonna “differenza” che mostra il cambiamento percentuale, confrontato a un periodo di tempo specificato.
+L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo di tempo precedente. Ad esempio, la domanda &quot;Quanto stiamo andando meglio o peggio di questo periodo dell&#39;anno scorso?&quot; è fondamentale per comprendere la propria attività. Il confronto delle date include automaticamente una colonna “differenza” che mostra il cambiamento percentuale, confrontato a un periodo di tempo specificato.
 
 1. Crea una tabella a forma libera, con qualsiasi dimensione e metrica desideri confrontare in un periodo di tempo.
-1. Fai clic con il pulsante destro del mouse su una riga di tabella e seleziona **[!UICONTROL Compare Time Periods]** (Confronta periodi di tempo).
+1. Fai clic con il pulsante destro del mouse su una riga di tabella e seleziona **[!UICONTROL Compare time periods]** (Confronta periodi di tempo).
 
    ![](assets/compare-time.png)
 
@@ -40,12 +40,12 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
    | Opzione | Descrizione |
    |---|---|
    | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Effettua il confronto con la settimana/il mese, ecc... subito precedente a questo intervallo di date. |
-   | **[!UICONTROL This week/month/quarter/year last year]** | Effettua il confronto con il medesimo intervallo di date di un anno fa. |
-   | **[!UICONTROL Select range]** | Ti consente di selezionare un intervallo di date personalizzato. |
+   | **[!UICONTROL This week/month/quarter/year last year to this date range]** | Effettua il confronto con il medesimo intervallo di date di un anno fa. |
+   | **[!UICONTROL Custom date range to this date range]** | Ti consente di selezionare un intervallo di date personalizzato. |
 
    >[!NOTE]
    >
-   >Quando selezioni un numero di giorni personalizzato, ad esempio 7 ottobre - 20 ottobre (un intervallo di 14 giorni) avrai a disposizione solo 2 opzioni: **[!UICONTROL Prior 14 days before this date range]** (14 giorni precedenti a questo intervallo di dati) e **[!UICONTROL Select range]** (Seleziona intervallo).
+   >Quando selezioni un numero di giorni personalizzato, ad esempio 7 ottobre - 20 ottobre (un intervallo di 14 giorni) avrai a disposizione solo 2 opzioni: **[!UICONTROL Prior 14 days before this date range]** (14 giorni precedenti a questo intervallo di dati) e **[!UICONTROL Custom date range to this date range]** (Seleziona intervallo).
 
 1. Il confronto risultante è simile a questo:
 
@@ -63,19 +63,21 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo diverso da quello impostato nel calendario corrente. Questa funzione offre un altro metodo per confrontare le date.
 
-1. Fai clic con il pulsante destro del mouse su una colonna della tabella e seleziona **[!UICONTROL Add Time Period Column]** (Aggiungi una colonna periodo di tempo) ![](assets/add-time-period-column.png)
+1. Fare clic con il pulsante destro del mouse su una colonna della tabella e selezionare **[!UICONTROL Add time period column]**.
+
+   ![](assets/add-time-period-column.png)
 
 1. A seconda di come hai impostato l’intervallo di date della tabella, hai a disposizione queste opzioni per il confronto:
 
    | Opzione | Descrizione |
    |---|---|
    | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Aggiunge una colonna con settimana/mese/ecc... subito precedente a questo intervallo di date. |
-   | **[!UICONTROL This week/month/quarter/year last year]** | Aggiunge lo stesso intervallo di date, un anno fa. |
-   | **[!UICONTROL Select range]** | Ti consente di selezionare un intervallo di date personalizzato. |
+   | **[!UICONTROL This week/month/quarter/year last year to this date range]** | Aggiunge lo stesso intervallo di date, un anno fa. |
+   | **[!UICONTROL Custom date range to this date range]** | Ti consente di selezionare un intervallo di date personalizzato. |
 
    >[!NOTE]
    >
-   >Quando selezioni un numero di giorni personalizzato, ad esempio 7 ottobre - 20 ottobre (un intervallo di 14 giorni) avrai a disposizione solo 2 opzioni: **[!UICONTROL Prior 14 days before this date range]** (14 giorni precedenti a questo intervallo di dati) e **[!UICONTROL Select range]** (Seleziona intervallo).
+   >Quando selezioni un numero di giorni personalizzato, ad esempio 7 ottobre - 20 ottobre (un intervallo di 14 giorni) avrai a disposizione solo 2 opzioni: **[!UICONTROL Prior 14 days before this date range]** (14 giorni precedenti a questo intervallo di dati) e **[!UICONTROL Custom date range to this date range]** (Seleziona intervallo).
 
 1. Il periodo di tempo verrà inserito nella parte superiore della colonna selezionata:
 
@@ -89,20 +91,27 @@ Ora puoi aggiungere a ciascuna colonna di una tabella un periodo di tempo divers
 
 ## Allineare le date della colonna affinché inizino sulla stessa riga {#section_5085E200082048CB899C3F355062A733}
 
-Una nuova impostazione per tutte le tabelle consente di **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]** (Allineare le date della colonna affinché inizino sulla stessa riga; si applica all’intera tabella). “Si applica all’intera tabella” significa che se effettui, ad esempio, una suddivisione nella tabella, e se cambi questa impostazione per la suddivisione, questa modificherà l’impostazione per tutta la tabella.
+Puoi allineare le date di ogni colonna affinché inizino tutte sulla stessa riga.
 
-![](assets/date-comparison-setting.png)
-
->[!NOTE]
->
->Questa impostazione è **disabilitata** (non selezionata) per tutti i progetti esistenti ed **abilitata** (selezionata) per tutti i nuovi progetti.
-
-Ad esempio: Quando scegli di allineare le date, se effettui un confronto mese-su-mese tra ottobre e settembre 2016, la colonna a sinistra inizierà con il 1 ottobre e la colonna a destra inizierà con il 1 settembre:
+Ad esempio, quando scegli di allineare le date, se effettui un confronto mese-su-mese tra ottobre e settembre 2016, la colonna a sinistra inizierà con il 1 ottobre e la colonna a destra inizierà con il 1 settembre:
 
 ![](assets/add-time-period-column3.png)
 
-<!-- 
+>[!NOTE]
+>
+>Quando utilizzi questa opzione, tieni presente quanto segue:
+>
+>* Questa impostazione è attivata per impostazione predefinita per tutti i nuovi progetti.
+>
+>* Questa impostazione si applica all&#39;intera tabella. Ad esempio, se modifichi questa impostazione per un raggruppamento all’interno della tabella, verrà modificata l’impostazione per l’intera tabella.
+>
 
-<p>See Jonny Moon's email from November 3. </p>
+Per abilitare questa impostazione, se non è già abilitata:
 
- -->
+1. Nella tabella in cui si desidera allineare le date delle colonne, selezionare l&#39;icona **Impostazioni** nell&#39;intestazione della tabella.
+
+1. Nella scheda [!UICONTROL **Impostazioni**], selezionare **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**.
+
+![](assets/date-comparison-setting.png)
+
+

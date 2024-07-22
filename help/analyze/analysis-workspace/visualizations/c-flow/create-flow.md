@@ -4,10 +4,10 @@ title: Configurare una visualizzazione del flusso
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: ec466d2a503278b05d19eda09e2a2244897ce1f3
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 100%
+source-wordcount: '1310'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
    >
    >Le metriche calcolate non possono essere utilizzate nei campi **[!UICONTROL Starts with]** o **[!UICONTROL Ends with]**.
 
-1. Se scegli una metrica, devi anche fornire una [!UICONTROL **Dimensione dei percorsi**] da utilizzare come percorso che porta a o proviene dal componente selezionato, come mostrato qui. Il valore predefinito è [!UICONTROL **Pagina**].
+1. Se scegli una metrica, devi anche fornire un [!UICONTROL **Dimension di percorsi**] da utilizzare come percorso che porta o proviene dal componente selezionato, come mostrato di seguito. Il valore predefinito è [!UICONTROL **Pagina**].
 
    ![dimensione del percorso](assets/pathing-dim.png)
 
@@ -74,7 +74,7 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
 > 
 >1. Inizia a creare una visualizzazione di flusso come descritto in precedenza.
 >1. Trascina la dimensione [!UICONTROL **Pagina**] nel campo **[!UICONTROL Contains]**, quindi seleziona [!UICONTROL **Genera**].
->1. La visualizzazione Flusso si basa sulla pagina più visualizzata visibile nel nodo attivo al centro della visualizzazione. Vengono visualizzate anche le pagine principali che conducono a quella pagina (a sinistra del nodo attivo) e quelle che precedono quella pagina (a destra del nodo attivo).
+>1. La visualizzazione Flusso si basa sulla pagina più visualizzata visibile nel nodo attivo al centro della visualizzazione. Vengono visualizzate anche le pagine principali che conducono a quella pagina (a sinistra del nodo attivo) e le pagine principali che precedono quella pagina (a destra del nodo attivo).
 >1. Analizza i dati nel flusso, come descritto in [Visualizzare e modificare l’output di Flusso](#view-and-change-the-flow-output).
 
 

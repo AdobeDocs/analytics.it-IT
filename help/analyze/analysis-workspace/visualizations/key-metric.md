@@ -4,10 +4,10 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 100%
+source-wordcount: '550'
+ht-degree: 98%
 
 ---
 
@@ -51,6 +51,8 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 1. Fai clic su **[!UICONTROL Build]**.
 
 ## Visualizza l’output
+
+La visualizzazione della rinuncia dovrebbe essere simile alla seguente:
 
 ![](assets/key-metric-output.png)
 
