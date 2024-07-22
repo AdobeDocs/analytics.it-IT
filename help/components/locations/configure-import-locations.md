@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare i percorsi di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
 workflow-type: tm+mt
 source-wordcount: '1686'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -49,13 +49,14 @@ Per informazioni su come visualizzare ed eliminare i percorsi esistenti, vedere 
    Viene visualizzata la finestra di dialogo [!UICONTROL **Dettagli località**].
 
 1. Specifica le seguenti informazioni:
-|Campo | Funzione |
----------- ---------
-| [!UICONTROL **Nome**] | Nome della posizione.  |
-| [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri dello stesso tipo. |
-| [!UICONTROL **Usa con**] | Seleziona se desideri utilizzare questa posizione con [!UICONTROL **feed di dati**], [!UICONTROL **Data Warehouse**] o [!UICONTROL **set di classificazione**]. <p>Quando effettuate una selezione, tenete presente quanto segue:</p><ul><li>Una singola posizione non può essere utilizzata per più scopi. Ad esempio, una posizione utilizzata per i feed di dati non può essere utilizzata anche per set di Data Warehouse o di classificazione.</li><li>Per evitare conflitti di file all&#39;interno di un percorso, non modificare il valore del campo [!UICONTROL **Usa con**] dopo l&#39;utilizzo del percorso.</li><li>Se stai creando un percorso per un account di posta elettronica, seleziona [!UICONTROL **Data Warehouse**] in questo campo. Le posizioni e-mail non sono supportate con feed di dati e set di classificazione.</li></ul> |
-| [!UICONTROL **Rendi la posizione disponibile a tutti gli utenti dell&#39;organizzazione**] | Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare la posizione.<p>Quando condividi le posizioni, tieni presente quanto segue:</p><ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario della posizione.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul> |
-| [!UICONTROL **Account località**] | Selezionare l&#39;account della posizione in cui si desidera creare la posizione. Per informazioni su come creare un account, vedere [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md). |
+
+   | Campo | Funzione |
+   |---------|----------|
+   | [!UICONTROL **Nome**] | Nome della posizione. |
+   | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. |
+   | [!UICONTROL **Usa con**] | Seleziona se desideri utilizzare questa posizione con [!UICONTROL **feed di dati**], [!UICONTROL **Data Warehouse**] o [!UICONTROL **set di classificazione**]. <p>Quando effettuate una selezione, tenete presente quanto segue:</p><ul><li>Una singola posizione non può essere utilizzata per più scopi. Ad esempio, una posizione utilizzata per i feed di dati non può essere utilizzata anche per set di Data Warehouse o di classificazione.</li><li>Per evitare conflitti di file all&#39;interno di un percorso, non modificare il valore del campo [!UICONTROL **Usa con**] dopo l&#39;utilizzo del percorso.</li><li>Se stai creando un percorso per un account di posta elettronica, seleziona [!UICONTROL **Data Warehouse**] in questo campo. Le posizioni e-mail non sono supportate con feed di dati e set di classificazione.</li></ul> |
+   | [!UICONTROL **Rendi la posizione disponibile a tutti gli utenti dell&#39;organizzazione**] | Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare la posizione.<p>Quando condividi le posizioni, tieni presente quanto segue:</p><ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario della posizione.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul> |
+   | [!UICONTROL **Account località**] | Selezionare l&#39;account della posizione in cui si desidera creare la posizione. Per informazioni su come creare un account, vedere [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md). |
 
 1. Per completare il modulo per la configurazione del percorso, continuare con la sezione seguente che corrisponde al tipo di account selezionato nel campo [!UICONTROL **Account percorso**]. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
 

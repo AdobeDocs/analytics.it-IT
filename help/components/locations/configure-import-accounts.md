@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare account di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 6cf277667230a56da9793deb550df1980f1d33b0
 workflow-type: tm+mt
 source-wordcount: '1469'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -46,12 +46,14 @@ Per configurare un account di importazione o esportazione cloud:
    Viene visualizzata la finestra di dialogo [!UICONTROL **Aggiungi account**].
 
 1. Specifica le seguenti informazioni:
-|Campo | Funzione |
----------- ---------
-| [!UICONTROL **Nome account località**] | Nome dell&#39;account di posizione. Questo nome viene visualizzato durante la creazione di una posizione |
-| [!UICONTROL **Descrizione account località**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. |
-| [!UICONTROL **Rendi l&#39;account disponibile a tutti gli utenti dell&#39;organizzazione**] | Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare l’account.<p>Quando condividi gli account, tieni presente quanto segue:</p><ul><li>Gli account condivisi non possono essere non condivisi.</li><li>Gli account condivisi possono essere modificati solo dal proprietario dell&#39;account.</li><li>Chiunque può creare una posizione per l&#39;account condiviso.</li></ul> |
-| [!UICONTROL **Tipo di account**] | Seleziona il tipo di account cloud. È consigliabile disporre di un singolo account per ogni tipo, con più posizioni secondo necessità all’interno di tale account.<p>Gli amministratori di sistema possono limitare i tipi di account che possono essere creati dagli utenti, come descritto in [Specificare se gli utenti possono creare account](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se non è possibile creare gli account come descritto in questa sezione, contattare l&#39;amministratore di sistema.</p> |
+
+   | Campo | Funzione |
+   |---------|----------|
+   | [!UICONTROL **Nome account località**] | Nome dell&#39;account di posizione. Questo nome viene visualizzato durante la creazione di una posizione |
+   | [!UICONTROL **Descrizione account località**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. |
+   | [!UICONTROL **Rendi l&#39;account disponibile a tutti gli utenti dell&#39;organizzazione**] | Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare l’account.<p>Quando condividi gli account, tieni presente quanto segue:</p><ul><li>Gli account condivisi non possono essere non condivisi.</li><li>Gli account condivisi possono essere modificati solo dal proprietario dell&#39;account.</li><li>Chiunque può creare una posizione per l&#39;account condiviso.</li></ul> |
+   | [!UICONTROL **Tipo di account**] | Seleziona il tuo tipo di account cloud. È consigliabile disporre di un singolo account per ogni tipo, con più posizioni secondo necessità all’interno di tale account.<p>Gli amministratori di sistema possono limitare i tipi di account che possono essere creati dagli utenti, come descritto in [Specificare se gli utenti possono creare account](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se non è possibile creare gli account come descritto in questa sezione, contattare l&#39;amministratore di sistema.</p> |
+
 1. Nella sezione [!UICONTROL **Proprietà account**], specifica informazioni specifiche sul tipo di account selezionato.
 
    Per istruzioni di configurazione, espandere la sezione seguente che corrisponde al tipo di account [!UICONTROL **selezionato**]. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
