@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
 workflow-type: tm+mt
 source-wordcount: '5737'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | --- | --- |
 | **Luglio 2024** | |
 | Aggiunto threads.net alla dimensione &quot;Tipo referrer&quot; | È stato aggiunto threads.net all&#39;elenco dei social network utilizzati nella dimensione &#39;Tipo referrer&#39; [](/help/components/dimensions/referrer-type.md). |
-| È stata aggiornata la documentazione per la gestione dei feed dati | Sono state aggiornate le informazioni in [Gestione dei feed di dati](/help/export/analytics-data-feed/df-manage-feeds.md) per migliorarne la chiarezza. <p>Gli aggiornamenti includono:</p><ul><li>Sono state create sezioni separate per varie attività per semplificare la scansione e l’utilizzo delle informazioni.</li><li>Sono state aggiunte informazioni sulle modifiche al comportamento dei feed live riattivati. Queste modifiche sono attualmente disponibili in modo limitato e non sono ancora disponibili per tutti i clienti.</li><li>Sono state aggiunte informazioni che indicano che i feed di dati devono avere lo stato Attivo prima di poter essere eliminati.</li> |
-| Messaggi di errore comuni aggiornati | Aggiornamenti minori ai [messaggi di errore comuni](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
+| Documentazione aggiornata per la gestione dei feed di dati | Informazioni aggiornate in [Gestione dei feed di dati](/help/export/analytics-data-feed/df-manage-feeds.md) per migliorarne la chiarezza. <p>Gli aggiornamenti includono:</p><ul><li>Sono state create sezioni separate per varie attività per semplificare la scansione e l’utilizzo delle informazioni.</li><li>Informazioni aggiornate sulle modifiche al comportamento dei feed live riattivati. Queste modifiche sono attualmente disponibili in modo limitato e non sono ancora disponibili per tutti i clienti.</li><li>Sono state aggiunte informazioni che indicano che i feed di dati devono avere lo stato Attivo prima di poter essere eliminati.</li> |
+| Messaggi di errore comuni aggiornati | Effettuati aggiornamenti minori ai [messaggi di errore comuni](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Giugno 2024** | |
 | Nome del prodotto aggiornato che fa riferimento alle funzioni streaming media | Le istanze di “Media Analytics” e “Streaming Media” sono state sostituite con il nome “Componente aggiuntivo Streaming Media Collection” quando si fa riferimento all’insieme di funzioni streaming media che raccolgono dati per contenuti multimediali in streaming e li presentano in Analysis Workspace. <p>Questi aggiornamenti sono disponibili all&#39;interno della documentazione di Adobe Analytics e nella [Documentazione del componente aggiuntivo Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).</p> |
 | Miglioramento della documentazione sugli avvisi intelligenti | È stata aggiornata e migliorata la documentazione sugli avvisi. Questi aggiornamenti includono informazioni su [creazione di avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [gestione degli avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) e [informazioni generali](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
