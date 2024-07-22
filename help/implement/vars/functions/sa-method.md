@@ -4,7 +4,7 @@ description: Modifica la suite di rapporti in qualsiasi momento nell’implement
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 8%
@@ -38,11 +38,12 @@ L’estensione Web SDK fornisce un elenco a discesa Flusso di dati per ogni ambi
 
 ## Impostare lo stream di dati desiderato implementando manualmente il Web SDK
 
-Impostare la variabile di configurazione `edgeConfigId` sull&#39;ID dello stream di dati. L’ID dello stream di dati si trova a destra quando si visualizza uno stream di dati in Raccolta dati di Adobe Experience Platform.
+Impostare la variabile di configurazione `datastreamId` sull&#39;ID dello stream di dati. L’ID dello stream di dati si trova a destra quando si visualizza uno stream di dati in Raccolta dati di Adobe Experience Platform.
 
 ```js
 alloy("configure", {
-  "edgeConfigId": "example-a01f-4458-8cec-ef61de241c93",
+  datastreamId: "example-a01f-4458-8cec-ef61de241c93",
+  orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 

@@ -2,7 +2,7 @@
 title: Inviare dati ad Adobe Analytics utilizzando la libreria JavaScript dell’SDK per web
 description: Inizia con un’implementazione pulita di Web SDK per inviare dati ad Adobe Analytics utilizzando la libreria JavaScript.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 2%
@@ -82,7 +82,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>7</td>
-<td><b>Configura Web SDK</b>. Verificare che la libreria installata nel passaggio 4 sia configurata correttamente con l'ID dello stream di dati (precedentemente noto come ID configurazione edge (<code>edgeConfigId</code>)), l'ID organizzazione (<code>orgId</code>) e altre opzioni disponibili. Assicurati che la mappatura delle variabili sia corretta. </td>
+<td><b>Configura Web SDK</b>. Verificare che la libreria installata nel passaggio 4 sia configurata correttamente con l'ID dello stream di dati (precedentemente noto come ID configurazione edge (<code>datastreamId</code>)), l'ID organizzazione (<code>orgId</code>) e altre opzioni disponibili. Assicurati che la mappatura delle variabili sia corretta. </td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configura Web SDK</a><br/><a href="../xdm-var-mapping.md">Mappatura variabile oggetto XDM</a></td>
 </tr>
 
