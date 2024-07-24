@@ -4,10 +4,10 @@ title: Metriche in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 23%
+source-wordcount: '496'
+ht-degree: 16%
 
 ---
 
@@ -37,13 +37,41 @@ Le metriche possono essere utilizzate in vari modi all’interno di Analysis Wor
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## Metriche calcolate
+## Creare metriche calcolate
 
-Le metriche calcolate consentono di vedere facilmente in che modo le metriche si relazionano tra loro utilizzando semplici operatori o funzioni statistiche. Esistono diversi modi per creare metriche calcolate:
+Le metriche calcolate consentono di vedere facilmente in che modo le metriche si relazionano tra loro utilizzando semplici operatori o funzioni statistiche.
 
-* Fai clic sul pulsante più accanto all’intestazione Metriche sotto l’elenco dei componenti a sinistra.
-* Passa a **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]** > **[!UICONTROL Add]**.
-* Fare clic con il pulsante destro del mouse su un&#39;intestazione di colonna > **[!UICONTROL Create metric from selection]** quando sono selezionate una o più celle di colonna di intestazione. Questa opzione crea automaticamente una metrica calcolata senza dover utilizzare il Generatore di regole della metrica calcolata.
+Esistono diversi modi per creare metriche calcolate. Il metodo scelto determina se la metrica calcolata è disponibile nell’elenco dei componenti in tutti i progetti o solo nel progetto in cui è stata creata.
+
+### Creare metriche calcolate per tutti i progetti
+
+Puoi utilizzare il generatore di metriche calcolate per creare metriche calcolate. Quando vengono create in questo modo, le metriche calcolate sono disponibili nell’elenco dei componenti e possono quindi essere utilizzate nei progetti di tutta l’organizzazione.
+
+Per informazioni su come accedere al generatore di metriche calcolate, vedere [Genera metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+
+### Creare metriche calcolate per un singolo progetto
+
+Puoi creare metriche calcolate rapide disponibili solo per il progetto in cui sono state create.
+
+Per creare una metrica calcolata per un singolo progetto:
+
+1. In Analysis Workspace, apri il progetto in cui desideri creare la metrica calcolata.
+
+1. In una tabella a forma libera, fare clic con il pulsante destro del mouse su una o più celle di colonna di intestazione, quindi selezionare **[!UICONTROL Create metric from selection]**
+
+   ![Evidenziazione del pannello Workspace Crea da selezione](assets/create-metric-from-selection.png)
+
+1. Per creare una metrica calcolata solo per questo progetto, scegli una delle seguenti opzioni:
+
+   * [!UICONTROL **Dividi**]
+
+   * [!UICONTROL **Sottrai**]
+
+   * [!UICONTROL **Aggiungi**]
+
+   * [!UICONTROL **Moltiplica**]
+
+   In alternativa, per aprire il generatore di metriche calcolate e creare la metrica calcolata per tutti i progetti, selezionare [!UICONTROL **Apri nel generatore di metriche calcolate**], quindi continuare con [Genera metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 [Metriche calcolate: metriche senza implementazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=it) (3:42)
 
