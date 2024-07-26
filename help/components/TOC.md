@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 11e98d35ba52fb777a08f950725b0e8dbb99fa22
+source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 98%
+source-wordcount: '809'
+ht-degree: 93%
 
 ---
 
@@ -98,6 +98,12 @@ ht-degree: 98%
    + [Server](dimensions/server.md)
    + [Visite a pagina singola](dimensions/single-page-visits.md)
    + [Sezione del sito](dimensions/site-section.md)
+   + [Dimensioni principali dei contenuti multimediali in streaming](dimensions/sm-core.md)
+   + [Annunci multimediali in streaming](dimensions/sm-ads.md)
+   + [Capitoli multimediali in streaming](dimensions/sm-chapters.md)
+   + [Qualità dei contenuti multimediali in streaming](dimensions/sm-quality.md)
+   + [Metadati audio per contenuti multimediali in streaming](dimensions/sm-audio-metadata.md)
+   + [Metadati video multimediali in streaming](dimensions/sm-video-metadata.md)
    + [Tempo precedente all’evento](dimensions/time-prior-to-event.md)
    + [Tempo trascorso sulla pagina](dimensions/time-spent-on-page.md)
    + [Tempo trascorso per visita](dimensions/time-spent-per-visit.md)
@@ -151,6 +157,12 @@ ht-degree: 98%
    + [Ricerche](metrics/searches.md)
    + [Accesso singolo](metrics/single-access.md)
    + [Visite a pagina singola](metrics/single-page-visits.md)
+   + [Metriche di base per contenuti multimediali in streaming](metrics/sm-core.md)
+   + [Annunci multimediali in streaming](metrics/sm-ads.md)
+   + [Capitoli multimediali in streaming](metrics/sm-chapters.md)
+   + [Tracciamento dello stato del lettore multimediale in streaming](metrics/sm-player-state.md)
+   + [Qualità dei contenuti multimediali in streaming](metrics/sm-quality.md)
+   + [Metadati video multimediali in streaming](metrics/sm-video-metadata.md)
    + [Tempo trascorso per visita](metrics/time-spent-per-visit.md)
    + [Tempo trascorso per visitatore](metrics/time-spent-per-visitor.md)
    + [Panoramica del tempo trascorso](metrics/time-spent.md)

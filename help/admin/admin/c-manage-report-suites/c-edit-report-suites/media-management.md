@@ -4,16 +4,16 @@ title: Gestione dei contenuti multimediali
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
 # Gestione dei contenuti multimediali
 
-Puoi abilitare i contenuti multimediali in Analytics per riservare un set speciale di variabili di soluzioni multimediali da utilizzare nelle attività di misurazione e reporting. Queste variabili si comportano come Evar personalizzate, Eventi e Prop, ma non vengono conteggiate in base ai limiti delle variabili. Una volta abilitati, gli utenti visualizzeranno un nuovo set di rapporti multimediali nei menu di Analytics.
+Puoi utilizzare questa interfaccia per riservare le variabili da utilizzare nella misurazione e nel reporting dei contenuti multimediali. Quando queste variabili si comportano in modo simile a eVar, prop ed eventi, ma non vengono conteggiate rispetto ad alcun limite di variabili. Una volta abilitati, gli utenti visualizzeranno un nuovo set di rapporti multimediali nei menu di Analytics.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Media Management]**.
 
@@ -21,10 +21,23 @@ Durante la modifica di una suite di rapporti sono disponibili le seguenti opzion
 
 * [!UICONTROL **Generazione rapporti multimediali**]
 
-  I rapporti specifici per il componente aggiuntivo Streaming Media Collection sono disponibili nella pagina Media Reporting. Per ulteriori informazioni su Media Reporting, vedere [Abilitazione di Media Reports](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
+  Utilizza queste caselle di controllo per abilitare dimensioni e metriche specifiche del componente aggiuntivo Streaming Media Collection.
+
+   * [Dimensioni principali dei contenuti multimediali](/help/components/dimensions/sm-core.md)
+   * [Metriche di base per contenuti multimediali](/help/components/metrics/sm-core.md)
+   * [Dimensioni degli annunci multimediali](/help/components/dimensions/sm-ads.md)
+   * [Metriche degli annunci multimediali](/help/components/metrics/sm-ads.md)
+   * [Dimensioni del capitolo multimediale](/help/components/dimensions/sm-chapters.md)
+   * [Metriche dei capitoli multimediali](/help/components/metrics/sm-chapters.md)
+   * [Dimensioni per la qualità dei contenuti multimediali](/help/components/dimensions/sm-quality.md)
+   * [Metriche di qualità dei contenuti multimediali](/help/components/metrics/sm-quality.md)
+   * [Dimensioni metadati video](/help/components/dimensions/sm-video-metadata.md)
+   * [Metriche metadati video](/help/components/metrics/sm-video-metadata.md)
+   * [Dimensioni metadati audio](/help/components/dimensions/sm-audio-metadata.md)
+   * [Metriche di tracciamento dello stato del lettore](/help/components/metrics/sm-player-state.md)
 
 * [!UICONTROL **Classificazioni file multimediali**]
 
-  Le classificazioni specifiche del componente aggiuntivo Streaming Media Collection sono disponibili nella pagina Classificazioni file multimediali. Per informazioni sulle classificazioni, vedere [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Le classificazioni specifiche delle dimensioni del componente aggiuntivo Streaming Media Collection sono disponibili nella pagina [!UICONTROL Media Classifications]. Funzionano in modo simile a [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) disponibili per le variabili di conversione. L&#39;abilitazione di alcuni componenti in [!UICONTROL Media Reporting] crea automaticamente le dimensioni di classificazione. Puoi utilizzare questa interfaccia per creare dimensioni di classificazione personalizzate o caricare dati di classificazione.
 
-Per informazioni generali sull&#39;incorporazione di dati multimediali in streaming in Adobe Analytics, vedere la [Guida del componente aggiuntivo Streaming Media Collection](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
+Per informazioni generali sull&#39;incorporazione di dati multimediali in streaming in Adobe Analytics, vedere la [Guida del componente aggiuntivo Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).
