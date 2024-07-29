@@ -7,7 +7,7 @@ user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, M
 source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 93%
 + Dimensioni {#dimensions}
    + [Panoramica delle dimensioni](dimensions/overview.md)
    + [Compatibilità delle dimensioni](dimensions/compatibility.md)
-   + [Collegamento Activity Map](dimensions/activity-map-link.md)
-   + [Collegamento Activity Map per area geografica](dimensions/activity-map-link-by-region.md)
+   + [Collegamento ad Activity Map](dimensions/activity-map-link.md)
+   + [Collegamento ad Activity Map per area geografica](dimensions/activity-map-link-by-region.md)
    + [Pagina di Activity Map](dimensions/activity-map-page.md)
    + [Area geografica di Activity Map](dimensions/activity-map-region.md)
    + [Consenso per la piattaforma di annunci](dimensions/ad-consent.md)
