@@ -5,9 +5,9 @@ user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder e Activity Map.
 source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '930'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -283,7 +283,7 @@ ht-degree: 99%
    + Sovrapposizione {#overlay}
       + [Panoramica dell’estensione](activity-map/overlay/overview.md)
       + [Estensione Launch](activity-map/overlay/launch.md)
-      + [Impostazioni delle estensioni](activity-map/overlay/settings.md)
+      + [Impostazioni dell’estensione](activity-map/overlay/settings.md)
    + [Risoluzione dei problemi](activity-map/troubleshooting.md)
    + [Domande frequenti](activity-map/faq.md)
 + Dashboard di Adobe Analytics {#mobapp}
