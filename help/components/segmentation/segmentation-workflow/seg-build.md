@@ -3,7 +3,7 @@ description: Il Generatore di segmenti fornisce un’area di lavoro per trascina
 title: Generare segmenti
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '1872'
 ht-degree: 3%
@@ -54,6 +54,7 @@ Puoi aggiungere definizioni di regole e contenitori per definire i segmenti.
    | Ripetizione | X | X | X | - | X | - |
    | Istanza | X | X | - | - | X | - |
    | Istanza non ripetuta | X | - | - | - | X | - |
+
 1. **[!UICONTROL And/Or/Then]**: assegna gli operatori [!UICONTROL AND/OR/THEN] tra contenitori o regole. L&#39;operatore THEN ti consente di [definire segmenti sequenziali](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Metric]**: (barra laterale verde) metrica trascinata dall&#39;elenco delle metriche.
 1. Operatore **[!UICONTROL Comparison]**: è possibile confrontare e vincolare i valori utilizzando gli operatori selezionati.

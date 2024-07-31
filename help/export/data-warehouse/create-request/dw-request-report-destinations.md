@@ -3,10 +3,10 @@ description: Passaggi che descrivono come creare una richiesta di Data Warehouse
 title: Configurare una destinazione di rapporto per una richiesta di Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '2612'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-mail
 
@@ -141,12 +141,13 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
       |---------|----------|
       | [!UICONTROL **Recipients (Destinatari)**] | Le notifiche e-mail possono essere inviate a utenti specifici una volta inviato il rapporto. Specifica un singolo indirizzo e-mail o un elenco di indirizzi e-mail separati da virgole.<!-- How does this differ from the Notification email tab? --> |
 
-   1. Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni: 
-|Campo | Funzione |
-|---------|----------|
-| [!UICONTROL **Nome**] | Il nome della posizione.   |
-| [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri dello stesso tipo. |
-| [!UICONTROL **Account posizione**] | Seleziona l’account della posizione che hai creato in [Aggiungi un account](#add-an-account). |
+   1. Seleziona [!UICONTROL **Aggiungi percorso**], quindi specifica le seguenti informazioni:
+
+      | Campo | Funzione |
+      |---------|----------|
+      | [!UICONTROL **Nome**] | Nome della posizione. |
+      | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. |
+      | [!UICONTROL **Account località**] | Selezionare l&#39;account del percorso creato in [Aggiungere un account](#add-an-account). |
 
    1. Nella sezione [!UICONTROL **Proprietà posizione**], specifica le informazioni specifiche sul tipo di account dell’account di posizione.
 
@@ -163,7 +164,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -176,7 +177,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +190,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +204,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Continua a configurare la richiesta del Data Warehouse nella scheda [!UICONTROL **Opzioni rapporto**]. Per ulteriori informazioni, consulta [Configurare le opzioni del rapporto per una richiesta al Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
