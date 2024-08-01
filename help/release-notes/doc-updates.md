@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5841'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Luglio 2024** | |
-| Sono state aggiunte informazioni sulle metriche calcolate rapide | Sono state aggiornate le informazioni in [Metriche](/help/analyze/analysis-workspace/components/apply-create-metrics.md) per chiarire la differenza tra [metriche calcolate create nel generatore di metriche calcolate](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) e [quelle create come metriche calcolate rapide all&#39;interno di un singolo progetto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Sono stati aggiunti anche ulteriori dettagli su per creare metriche calcolate rapide.<p>Le metriche calcolate create nel generatore di metriche calcolate sono disponibili nell’elenco dei componenti e possono essere applicate ai progetti in tutta l’organizzazione, mentre le metriche calcolate create come metriche calcolate rapide sono disponibili solo all’interno del progetto in cui sono state create.</p><p>Sono state aggiornate anche le informazioni in [Metriche di compilazione](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) per fornire chiarimenti simili.</p> |
+| Sono state aggiunte informazioni sulle metriche calcolate rapide | Sono state aggiornate le informazioni in [Metriche](/help/analyze/analysis-workspace/components/apply-create-metrics.md) per chiarire la differenza tra [metriche calcolate create nel generatore di metriche calcolate](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) e [quelle create come metriche calcolate rapide all’interno di un singolo progetto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Sono stati aggiunti anche ulteriori dettagli su come creare metriche calcolate rapide.<p>Le metriche calcolate create nel generatore di metriche calcolate sono disponibili nell’elenco dei componenti e possono essere applicate ai progetti in tutta l’organizzazione, mentre le metriche calcolate create come metriche calcolate rapide sono disponibili solo all’interno del progetto in cui sono state create.</p><p>Sono state aggiornate anche le informazioni in [Crea metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) per fornire chiarimenti simili.</p> |
 | Aggiunto threads.net alla dimensione “Tipo di referrer” | È stato aggiunto threads.net all’elenco dei social network utilizzati nella [dimensione “Tipo di referrer”](/help/components/dimensions/referrer-type.md). |
 | Documentazione aggiornata per la gestione dei feed di dati | Informazioni aggiornate in [Gestione dei feed di dati](/help/export/analytics-data-feed/df-manage-feeds.md) per migliorarne la chiarezza. <p>Gli aggiornamenti includono:</p><ul><li>Sono state create sezioni separate per varie attività per semplificare la scansione e l’utilizzo delle informazioni.</li><li>Informazioni aggiornate sulle modifiche al comportamento dei feed live riattivati. Queste modifiche sono attualmente disponibili in modo limitato e non sono ancora disponibili per tutti i clienti.</li><li>Sono state aggiunte informazioni che indicano che i feed di dati devono avere lo stato Attivo prima di poter essere eliminati.</li> |
 | Messaggi di errore comuni aggiornati | Effettuati aggiornamenti minori ai [messaggi di errore comuni](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |

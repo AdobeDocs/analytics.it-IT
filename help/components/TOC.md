@@ -5,9 +5,9 @@ user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
 source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -99,8 +99,8 @@ ht-degree: 94%
    + [Visite a pagina singola](dimensions/single-page-visits.md)
    + [Sezione del sito](dimensions/site-section.md)
    + [Dimensioni principali dei contenuti multimediali in streaming](dimensions/sm-core.md)
-   + [Annunci multimediali in streaming](dimensions/sm-ads.md)
-   + [Capitoli multimediali in streaming](dimensions/sm-chapters.md)
+   + [Annunci dei contenuti multimediali in streaming](dimensions/sm-ads.md)
+   + [Capitoli dei contenuti multimediali in streaming](dimensions/sm-chapters.md)
    + [Qualità dei contenuti multimediali in streaming](dimensions/sm-quality.md)
    + [Metadati audio per contenuti multimediali in streaming](dimensions/sm-audio-metadata.md)
    + [Metadati video multimediali in streaming](dimensions/sm-video-metadata.md)
@@ -157,9 +157,9 @@ ht-degree: 94%
    + [Ricerche](metrics/searches.md)
    + [Accesso singolo](metrics/single-access.md)
    + [Visite a pagina singola](metrics/single-page-visits.md)
-   + [Metriche di base per contenuti multimediali in streaming](metrics/sm-core.md)
-   + [Annunci multimediali in streaming](metrics/sm-ads.md)
-   + [Capitoli multimediali in streaming](metrics/sm-chapters.md)
+   + [Metriche principali per contenuti multimediali in streaming](metrics/sm-core.md)
+   + [Annunci dei contenuti multimediali in streaming](metrics/sm-ads.md)
+   + [Capitoli dei contenuti multimediali in streaming](metrics/sm-chapters.md)
    + [Tracciamento dello stato del lettore multimediale in streaming](metrics/sm-player-state.md)
    + [Qualità dei contenuti multimediali in streaming](metrics/sm-quality.md)
    + [Metadati video multimediali in streaming](metrics/sm-video-metadata.md)
