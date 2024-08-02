@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestione posizioni
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1454'
 ht-degree: 1%
 
 ---
@@ -202,6 +202,8 @@ Per limitare i tipi di account disponibili per gli utenti durante la creazione e
 1. Individua la sezione [!UICONTROL **Tipi di account consentiti**].
 
    I seguenti tipi di account sono disponibili per impostazione predefinita per gli utenti. Deseleziona uno di questi tipi di account che desideri impedire agli utenti di utilizzare.
+
+   È necessario selezionare almeno un tipo di account.
 
    * [!UICONTROL **ARN per ruolo Amazon S3**]
 
