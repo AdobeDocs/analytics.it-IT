@@ -3,9 +3,9 @@ title: Importare metriche di ricerca a pagamento
 description: Passaggi per configurare Adobe Analytics per tenere traccia delle metriche di ricerca a pagamento (ad esempio, Google AdWords, MSN, Yahoo, ecc.) utilizzo di Origini dati.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1099'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Dovresti ricevere un messaggio che informa che i tuoi salvataggi sono stati appr
 1. Fare clic su **[!UICONTROL Next]** e assegnare un nome all&#39;origine dati. Questo nome viene visualizzato in Data Source Manager.
 1. Accettare il contratto di assistenza e fare clic su **[!UICONTROL Next]**.
 1. Selezionare le tre metriche standard [!UICONTROL Impressions], [!UICONTROL Clicks] e [!UICONTROL Total Cost] e fare clic su **[!UICONTROL Next]**.
-1. Ora &quot;mappare&quot; questa nuova origine dati agli eventi personalizzati creati in [Configurare eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
+1. Ora &quot;mappare&quot; questa nuova origine dati agli eventi personalizzati creati in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
 
    ![Mappatura](assets/data-source-mapping.png)
 
