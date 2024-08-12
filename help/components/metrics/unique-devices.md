@@ -3,9 +3,9 @@ title: Dispositivi univoci
 description: Il numero di dispositivi univoci.
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 16a9c9a2b6692b9b1944cfdb9b5b0411d48db666
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,9 @@ Questa metrica non è uguale a [Visitatori univoci](unique-visitors.md) nelle su
 
 ## Esempio
 
-1. Sally arriva al tuo sito sul suo telefono tramite un annuncio, ma non ha effettuato l’accesso.
+1. Sally arriva al tuo sito telefonicamente tramite un annuncio, ma non ha effettuato l’accesso.
 1. Sally vuole fare un acquisto, ma preferirebbe farlo sul computer di famiglia perché ha già effettuato l’accesso. Nel computer di famiglia, fa un acquisto.
-1. Il giorno dopo, controlla l&#39;ordine al suo telefono e si autentica lì.
+1. Il giorno dopo, controlla l&#39;ordine al telefono e si autentica lì.
 1. La moglie di Bob, Alice, naviga nel tuo sito mentre ha effettuato l&#39;accesso al suo account sul computer di famiglia.
 1. Anche il fratello di Bob, Charles, naviga nel tuo sito mentre è connesso al suo account sul computer di famiglia.
 

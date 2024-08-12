@@ -5,10 +5,10 @@ title: Panoramica degli eventi di successo
 feature: Event
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 62%
+source-wordcount: '925'
+ht-degree: 48%
 
 ---
 
@@ -16,11 +16,9 @@ ht-degree: 62%
 
 Gli eventi di successo (noti anche come eventi di conversione o eventi personalizzati) sono azioni che possono essere tracciate. È possibile determinare la natura dell’evento di successo. Ad esempio, se un visitatore acquista un articolo, l’evento di acquisto potrebbe essere considerato l’evento di successo.
 
-Panoramica video:
+Per una panoramica video degli eventi di successo, consulta [Introduzione agli eventi di conversione](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) nella guida delle esercitazioni di Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
-
-## Comprendere gli eventi di successo
+## Esempi di eventi di successo
 
 Ci sono molti tipi di eventi di successo, a seconda del tipo di sito web. Alcuni esempi:
 
@@ -54,9 +52,9 @@ Per configurare eventi di successo:
 
 1. Nella colonna **[!UICONTROL Type]** selezionare la casella di controllo accanto all&#39;elemento per abilitare l&#39;elenco a discesa, quindi selezionare il tipo desiderato.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >È possibile modificare un evento da contatore, numerico o valuta in un altro tipo senza perdere l’accesso ai dati acquisiti in precedenza.
+   >Quando modifichi il tipo di evento, tieni presente quanto segue:<ul><li>È possibile modificare il tipo di evento tra contatore e numerico senza perdere l’accesso ai dati acquisiti in precedenza.</li><li>Quando si modificano i tipi di evento in o da un evento di valuta, viene visualizzato un messaggio che informa che i dati storici non sono disponibili nel reporting. I tipi di evento diversi utilizzano tabelle di dati separate e non possono essere utilizzati contemporaneamente. Alcuni dati storici possono essere ripristinati se l’utente ripristina il tipo di evento. Tuttavia, i dati raccolti dopo la modifica iniziale non sono disponibili.</li></ul>
 
    Il tipo selezionato determina se l&#39;evento è un evento contatore (standard), numerico o di valuta. <p>Gli eventi contatore vengono utilizzati per registrare un evento nel tempo.</p><p>Gli eventi numerici vengono utilizzati per generare rapporti sui numeri non in valuta, ad esempio il numero di coupon utilizzati in un ordine.</p> <p>Gli eventi di valuta registrano un numero decimale, ad esempio imposta o spedizione. Il valore passato negli eventi di valuta viene convertito dalla valuta della pagina alla valuta di base della suite di rapporti al momento della ricezione. Gli eventi di valuta vengono utilizzati per tenere traccia delle imposte e delle spese di spedizione. Per informazioni sull’utilizzo degli eventi relativi alla valuta, contatta un rappresentante di Adobi.<p>Gli eventi numerici e di valuta consentono di incrementare le metriche di più di uno.</p><p>Gli eventi utilizzati nel tipo Standard di Origini dati devono essere eventi numerici o di valuta.</p>
 
@@ -81,11 +79,10 @@ Per configurare eventi di successo:
 
    Sono disponibili le seguenti opzioni:
 
-
-| Opzione | Funzione |
-|---------|----------|
-| [!UICONTROL **Registra una volta per visita**] | Associa l’evento specificato alla sessione del visitatore. I conteggi successivi per un dato evento durante la stessa visita vengono ignorati. Questo tipo di serializzazione dell’evento non richiede alcuna modifica dell’implementazione. |
-| [!UICONTROL **Usa ID evento**] | Associa l’evento specificato a un ID personalizzato. I conteggi successivi per un dato evento con lo stesso ID evento vengono ignorati. Questo tipo di serializzazione degli eventi richiede un ID personalizzato nei risultati per deduplicare i valori. Vedi [Serializzazione degli ID evento](/help/implement/vars/page-vars/events/event-serialization.md) nella Guida utente di implementazione. |
+   | Opzione | Funzione |
+   |---------|----------|
+   | [!UICONTROL **Registra una volta per visita**] | Associa l’evento specificato alla sessione del visitatore. I conteggi successivi per un dato evento durante la stessa visita vengono ignorati. Questo tipo di serializzazione dell’evento non richiede alcuna modifica dell’implementazione. |
+   | [!UICONTROL **Usa ID evento**] | Associa l’evento specificato a un ID personalizzato. I conteggi successivi per un dato evento con lo stesso ID evento vengono ignorati. Questo tipo di serializzazione degli eventi richiede un ID personalizzato nei risultati per deduplicare i valori. Vedi [Serializzazione degli ID evento](/help/implement/vars/page-vars/events/event-serialization.md) nella Guida utente di implementazione. |
 
 1. Nella colonna [!UICONTROL **Partecipazione**] selezionare la casella di controllo, quindi scegliere se attivare o disattivare la partecipazione. Quando è abilitato, attribuisce il merito di attribuzione completo a tutti gli elementi dimensionali nella visita.
 
@@ -94,20 +91,3 @@ Per configurare eventi di successo:
    >Puoi abilitare la partecipazione per un massimo di 100 eventi personalizzati. Inoltre, puoi creare metriche di partecipazione nel generatore [Metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md).
 
 1. Seleziona **[!UICONTROL Save]**.
-
-## Pagina Eventi di successo - Descrizioni {#section_681ECEC981694CABBDBF00E18165B447}
-
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
-
-La pagina Eventi di successo consente di configurare le variabili evento utilizzate nel sito. Puoi aggiungere fino a 1.000 eventi di successo. Gli eventi da 81 a 1.000 funzionano solo con codice H22 o superiore.
-
-| Elemento | Descrizione |
-|--- |--- |
-| Evento | Nome originale dell’evento. |
-| Nome | Assegna nomi significativi agli eventi di successo utilizzati nel sito. Ad esempio, se event1 viene utilizzato per tenere traccia delle registrazioni, cambia il nome in modo che event1 venga rappresentato come metrica “Registrazioni” in tutti i rapporti di conversione. |
-| Tipo | Il Tipo selezionato determina se l’evento è un evento contatore (standard), numerico o di valuta. <p>Gli eventi contatore vengono utilizzati per registrare un evento nel tempo.</p><p>Gli eventi numerici vengono utilizzati per generare rapporti sui numeri non in valuta, ad esempio il numero di coupon utilizzati in un ordine.</p> <p>Gli eventi di valuta registrano un numero decimale, ad esempio imposta o spedizione. Il valore passato negli eventi di valuta viene convertito dalla valuta della pagina alla valuta di base della suite di rapporti al momento della ricezione. Gli eventi di valuta vengono utilizzati per tenere traccia delle imposte e delle spese di spedizione. Per informazioni sull’utilizzo degli eventi relativi alla valuta, contatta un rappresentante di Adobi.<p>Gli eventi numerici e di valuta consentono di incrementare le metriche di più di uno.</p><p>Gli eventi utilizzati nel tipo Standard di Origini dati devono essere eventi numerici o di valuta.</p> |
-| Polarità | La polarità delle metriche consente di indicare se Adobe Analytics debba considerare positivo o negativo l’aumento di un determinato evento personalizzato (metrica). Consentirà ad Adobe Analytics di visualizzare indicatori direzionali (frecce) per diverse metriche per aggiungere contesto (ad esempio, confronti settimana per settimana).  Esempi: se “Bug inviati” aumenta settimana dopo settimana, Adobe Analytics deve considerarlo positivo o negativo? Un aumento delle registrazioni e-mail è probabilmente positivo. Tuttavia, un aumento degli errori di invio del modulo è probabilmente negativo.  In Analysis Workspace, la polarità viene applicata a: Formattazione condizionale della tabella a forma libera, visualizzazioni Variazione di riepilogo e schema di colori positivo/negativo della visualizzazione Mappa. |
-| Descrizione | Breve descrizione dello scopo e dell’utilizzo dell’evento. |
-| Registrazione di eventi univoci | **Registra una volta per visita**: associa l’evento specificato alla sessione del visitatore. I conteggi successivi per un dato evento durante la stessa visita vengono ignorati. Questo tipo di serializzazione dell’evento non richiede alcuna modifica dell’implementazione.<br>**Usa ID evento**: lega l’evento specificato a un ID personalizzato. I conteggi successivi per un dato evento con lo stesso ID evento vengono ignorati. Questo tipo di serializzazione degli eventi richiede un ID personalizzato nei risultati per deduplicare i valori. Vedi [Serializzazione degli ID evento](/help/implement/vars/page-vars/events/event-serialization.md) nella Guida utente di implementazione. |
-| Partecipazione | Attribuisce il merito di attribuzione completo a tutti gli elementi dimensionali nella visita. |
-| Avviso (evento di valuta) | Quando si modificano i tipi di evento in o da un evento di valuta, un messaggio indica che i dati storici non sono disponibili nella reportistica.  I tipi di evento diversi utilizzano tabelle di dati separate e non possono essere utilizzati contemporaneamente. Alcuni dati storici possono essere ripristinati se l’utente ripristina il tipo di evento. Tuttavia, i dati raccolti dopo la modifica iniziale non sono disponibili. Presta attenzione quando modifichi un tipo di evento. |

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
-workflow-type: ht
-source-wordcount: '5876'
-ht-degree: 100%
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+workflow-type: tm+mt
+source-wordcount: '5888'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Luglio 2024** | |
+| Eventi di successo | Documentazione semplificata su [eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md). Aggiornato per chiarezza e precisione. |
 | È necessario selezionare almeno un tipo di account durante la gestione delle posizioni | È stato chiarito che quando gli amministratori [limitano i tipi di account utilizzati per l’esportazione e l’importazione](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users), è necessario selezionare almeno un tipo di account. |
 | Sono state aggiunte informazioni sulle metriche calcolate rapide | Sono state aggiornate le informazioni in [Metriche](/help/analyze/analysis-workspace/components/apply-create-metrics.md) per chiarire la differenza tra [metriche calcolate create nel generatore di metriche calcolate](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) e [quelle create come metriche calcolate rapide all’interno di un singolo progetto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Sono stati aggiunti anche ulteriori dettagli su come creare metriche calcolate rapide.<p>Le metriche calcolate create nel generatore di metriche calcolate sono disponibili nell’elenco dei componenti e possono essere applicate ai progetti in tutta l’organizzazione, mentre le metriche calcolate create come metriche calcolate rapide sono disponibili solo all’interno del progetto in cui sono state create.</p><p>Sono state aggiornate anche le informazioni in [Crea metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) per fornire chiarimenti simili.</p> |
 | Aggiunto threads.net alla dimensione “Tipo di referrer” | È stato aggiunto threads.net all’elenco dei social network utilizzati nella [dimensione “Tipo di referrer”](/help/components/dimensions/referrer-type.md). |
