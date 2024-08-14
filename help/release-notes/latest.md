@@ -3,7 +3,7 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ff5067a1f7d500c11737ddae507b431b875a44d9
+source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 77%
@@ -20,7 +20,7 @@ Queste note sulla versione coprono il periodo compreso tra il 14 agosto 2024 e s
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Miglioramenti del Web SDK per il tracciamento dei collegamenti** | Nell’ultima versione di Web SDK sono disponibili diversi miglioramenti di rilievo relativi al tracciamento dei collegamenti, a diretto vantaggio di Activity Map. Queste nuove funzioni sono disponibili sia nella libreria JavaScript di Web SDK che nell’estensione tag di Web SDK.<ul><li>Raggruppamento di eventi: quando un visitatore fa clic su un collegamento interno, puoi scegliere di raggruppare i dati dell’evento nella pagina successiva invece di attivare una chiamata dell’evento separata per il tracciamento dei collegamenti. Questo miglioramento riduce il numero di eventi utilizzati dal Web SDK rispetto al limite contrattuale.</li><li>Filtra le proprietà del clic: un nuovo callback che sostituisce `OnBeforeLinkClickSend`. Puoi utilizzare questo callback per filtrare o offuscare i dati relativi ai collegamenti prima di inviarli ad Adobe.</li></ul><p>Per ulteriori informazioni, consulta [clickCollection](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollection) nella guida utente del Web SDK.</p> | La versione beta aperta è iniziata il 10 luglio 2024 | Da definire |
+| **Miglioramenti del Web SDK per il tracciamento dei collegamenti** | Nell’ultima versione di Web SDK sono disponibili diversi miglioramenti di rilievo relativi al tracciamento dei collegamenti, a diretto vantaggio di Activity Map. Queste nuove funzioni sono disponibili sia nella libreria JavaScript di Web SDK che nell’estensione tag di Web SDK.<ul><li>Raggruppamento di eventi: quando un visitatore fa clic su un collegamento interno, puoi scegliere di raggruppare i dati dell’evento nella pagina successiva invece di attivare una chiamata dell’evento separata per il tracciamento dei collegamenti. Questo miglioramento riduce il numero di eventi utilizzati dal Web SDK rispetto al limite contrattuale.</li><li>Filtra le proprietà del clic: un nuovo callback che sostituisce `OnBeforeLinkClickSend`. Puoi utilizzare questo callback per filtrare o offuscare i dati relativi ai collegamenti prima di inviarli ad Adobe.</li></ul><p>Per ulteriori informazioni, consulta [clickCollection](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollection) nella guida utente del Web SDK.</p> | La versione beta aperta è iniziata il 10 luglio 2024 | venerdì 18 luglio 2024 |
 
 {style="table-layout:auto"}
 
