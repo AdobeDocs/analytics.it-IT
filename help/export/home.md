@@ -4,9 +4,9 @@ description: Questa guida descrive come estrarre i dati da Adobe Analytics utili
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
 source-git-commit: 62cb13c7eaa61153783ff4323180b549f727e68e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 69%
 
 Questa guida descrive diversi modi di estrarre dati da Adobe Analytics. Include:
 
-* **Feed di dati:** puoi ricevere un’esportazione dei dati non elaborati a cadenza oraria o giornaliera. Ogni riga rappresenta un singolo hit e ogni colonna corrisponde a una variabile. I feed di dati vengono in genere inviati a [destinazioni cloud](/help/export/analytics-data-feed/create-feed.md).
-* **Data Warehouse:** utilizzando una procedura di richiesta guidata puoi generare un output di dati sotto forma di foglio di calcolo. Data Warehouse utilizza un’architettura di elaborazione diversa per consentire un numero qualsiasi di righe e valori univoci. Le richieste di data warehouse vengono in genere inviate a [destinazioni cloud](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* **FTP e SFTP:** FTP e SFTP sono supportati, ma non sono più consigliati. Esporta invece i dati nelle destinazioni cloud.
+* **Feed di dati:** puoi ricevere un’esportazione dei dati non elaborati a cadenza oraria o giornaliera. Ogni riga rappresenta un singolo hit e ogni colonna corrisponde a una variabile. I feed di dati vengono generalmente inviati alle [destinazioni cloud](/help/export/analytics-data-feed/create-feed.md).
+* **Data Warehouse:** utilizzando una procedura di richiesta guidata puoi recuperare un output di dati sotto forma di foglio di calcolo. Data Warehouse usa un’architettura di elaborazione diversa che consente qualsiasi numero di righe e di valori univoci. Le richieste di data warehouse vengono in genere inviate alle [destinazioni cloud](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* **FTP e SFTP:** FTP e SFTP sono supportati, ma non sono più consigliati. Piuttosto, esporta i dati nelle destinazioni cloud.
 
 Ecco una panoramica video di Adobe Analytics:
 
