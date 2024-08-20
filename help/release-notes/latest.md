@@ -3,10 +3,10 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
-workflow-type: ht
-source-wordcount: '725'
-ht-degree: 100%
+source-git-commit: f7d36ac8de37633ccbe725865dbaeecee532f47e
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
-| **Scadenza di 13 mesi di`cust_visids`** salvati | 22 maggio 2024 | Una prossima versione del motore di elaborazione degli hit di Analytics, **prevista per luglio 2024**, inizierà ad applicare una scadenza di 13 mesi di `cust_visids` salvati. Se nella suite di rapporti è abilitato “Abilita unione visitatori”, questa impostazione viene utilizzata per trovare `cust_visid` per un `visid_high/visid_low value` senza `cust_visid` sull’hit. Attualmente, non vi è alcuna scadenza della mappatura di un `cust_visid` per un `visid_high/visid_low`. Con questa versione, se sono trascorsi 13 mesi o più da quando `visid_high/visid_low` ha avuto un `cust_visid` su un hit, la mappatura scadrà. |
+| **Scadenza di 13 mesi di`cust_visids`** salvati | mercoledì 20 agosto 2024 | Il rilascio **20 agosto 2024** del motore di elaborazione degli hit di Analytics impone una scadenza di 13 mesi di `cust_visids` salvato. Se nella suite di rapporti è abilitato “Abilita unione visitatori”, questa impostazione viene utilizzata per trovare `cust_visid` per un `visid_high/visid_low value` senza `cust_visid` sull’hit. In precedenza, non vi era alcuna scadenza della mappatura di un `cust_visid` per un `visid_high/visid_low`. Con questa versione, se sono trascorsi 13 mesi o più da quando `visid_high/visid_low` ha avuto un `cust_visid` su un hit, la mappatura scadrà. |
 
 {style="table-layout:auto"}
 
