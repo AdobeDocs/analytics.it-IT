@@ -4,34 +4,34 @@ description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '725'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (agosto 2024)
 
-**Ultimo aggiornamento**: giovedì 14 agosto 2024
+**Ultimo aggiornamento**: 14 agosto 2024
 
-Queste note sulla versione coprono il periodo compreso tra il 14 agosto 2024 e settembre 2024. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
+Queste note sulla versione coprono il periodo di rilascio compreso tra il 14 agosto 2024 e settembre 2024. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
 ## Nuove funzioni o miglioramenti {#features}
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Miglioramenti del Web SDK per il tracciamento dei collegamenti** | Nell’ultima versione di Web SDK sono disponibili diversi miglioramenti di rilievo relativi al tracciamento dei collegamenti, a diretto vantaggio di Activity Map. Queste nuove funzioni sono disponibili sia nella libreria JavaScript di Web SDK che nell’estensione tag di Web SDK.<ul><li>Raggruppamento di eventi: quando un visitatore fa clic su un collegamento interno, puoi scegliere di raggruppare i dati dell’evento nella pagina successiva invece di attivare una chiamata dell’evento separata per il tracciamento dei collegamenti. Questo miglioramento riduce il numero di eventi utilizzati dal Web SDK rispetto al limite contrattuale.</li><li>Filtra le proprietà del clic: un nuovo callback che sostituisce `OnBeforeLinkClickSend`. Puoi utilizzare questo callback per filtrare o offuscare i dati relativi ai collegamenti prima di inviarli ad Adobe.</li></ul><p>Per ulteriori informazioni, consulta [clickCollection](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollection) nella guida utente del Web SDK.</p> | La versione beta aperta è iniziata il 10 luglio 2024 | venerdì 18 luglio 2024 |
+| **Miglioramenti del Web SDK per il tracciamento dei collegamenti** | Nell’ultima versione di Web SDK sono disponibili diversi miglioramenti di rilievo relativi al tracciamento dei collegamenti, a diretto vantaggio di Activity Map. Queste nuove funzioni sono disponibili sia nella libreria JavaScript di Web SDK che nell’estensione tag di Web SDK.<ul><li>Raggruppamento di eventi: quando un visitatore fa clic su un collegamento interno, puoi scegliere di raggruppare i dati dell’evento nella pagina successiva invece di attivare una chiamata dell’evento separata per il tracciamento dei collegamenti. Questo miglioramento riduce il numero di eventi utilizzati dal Web SDK rispetto al limite contrattuale.</li><li>Filtra le proprietà del clic: un nuovo callback che sostituisce `OnBeforeLinkClickSend`. Puoi utilizzare questo callback per filtrare o offuscare i dati relativi ai collegamenti prima di inviarli ad Adobe.</li></ul><p>Per ulteriori informazioni, consulta [clickCollection](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollection) nella guida utente del Web SDK.</p> | La versione beta aperta è iniziata il 10 luglio 2024 | 18 luglio 2024 |
 
 {style="table-layout:auto"}
 
 ## Correzioni in Adobe Analytics
 
-* È stato risolto un problema che causava la visualizzazione di più valori sconosciuti in Workspace (AN-353632)
-* È stato risolto un problema a causa del quale l’e-mail di notifica non veniva inviata dopo l’aggiunta di nuovi clienti o nuovi profili di prodotto di Analytics in Admin Console (AN-350930)
+* È stato risolto un problema a causa del quale più valori sconosciuti venivano visualizzati in Workspace (AN-353632)
+* È stato risolto un problema a causa del quale l’e-mail di notifica non veniva inviata dopo l’aggiunta di clienti o profili di prodotto nuovi di Analytics in Admin Console (AN-350930)
 
 ### Altre correzioni apportate ad Analytics
 
-AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-353777; AN-354092; AN-354064; AN-354202; AN-354006; AN-354097; AN-352548; AN-353819; AN-353818; AN-353628; AN-353747; AN-353527; AN-353490; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-352647; AN-352656; 351274 352135 351519 344906 353697 354499 354402 354062 353905 353932 354142 354194 354182 353758 353039 353612 350799 354414 354636 354249 353637 350949 349402 355103 354174 353823 354819 354215 354219 354040 354763 354597 354478 354528 354335; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-; AN-
+AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-353777; AN-354092; AN-354064; AN-354202; AN-354006; AN-354097; AN-352548; AN-353819; AN-353818; AN-353628; AN-353747; AN-353527; AN-353490; AN-352647; AN-352656; AN-351274; AN-352135; AN-351519; AN-344906; AN-353697; AN-354499; AN-354402; AN-354062; AN-353905; AN-353932; AN-354142; AN-354194; AN-354182; AN-353758; AN-353039; AN-353612; AN-350799; AN-354414; AN-354636; AN-354249; AN-353637; AN-350949; AN-349402; AN-355103; AN-354174; AN-353823; AN-354819; AN-354215; AN-354219; AN-354040; AN-354763; AN-354597; AN-354478; AN-354528; AN-354335
 
 ## Avvisi importanti per gli amministratori di Adobe Analytics {#admin}
 
