@@ -4,7 +4,7 @@ title: Avvisi di utilizzo delle chiamate al server
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 96%
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Quando imposti un avviso, viene applicato a tutte le suite di rapporti in tutte le aziende di login di un’azienda di fatturazione.
 
-Gli avvisi sull&#39;utilizzo delle chiamate al server fanno parte dell&#39;interfaccia utente [Avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
+Gli avvisi sull&#39;utilizzo delle chiamate al server fanno parte dell&#39;interfaccia utente [Avvisi](/help/components/c-alerts/alert-manager.md).
 
 È precompilata con **1 avviso predefinito** che viene visualizzato in tutte le aziende di login che hanno accesso alla funzione di utilizzo delle chiamate al server. Gli avvisi attivano una notifica indirizzata a tutti gli amministratori dell’azienda di login se uno dei seguenti criteri è soddisfatto:
 

@@ -3,42 +3,93 @@ description: Gestire gli avvisi.
 title: Panoramica di Gestione avvisi
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 49324ef7fd45adeef2c31167d0444a7e67041d6d
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 23%
+source-wordcount: '623'
+ht-degree: 3%
 
 ---
 
 # Gestione avvisi
 
+È possibile gestire gli avvisi esistenti nella Gestione avvisi. È possibile eseguire varie attività di gestione sugli avvisi, ad esempio assegnare tag, rinominare, eliminare e altro ancora.
+
 La gestione avvisi è strutturata in modo analogo alla [gestione segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=it) e alla [gestione metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=it).
 
 ![](assets/alert-manager.png)
 
-## Accedere alla gestione degli avvisi
+## Creare avvisi
 
-1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Avvisi**].
+Per creare avvisi da Gestione avvisi:
 
-## Azioni disponibili in Gestione avvisi
+1. Selezionare **[!UICONTROL Components]** > **[!UICONTROL Alerts]** per accedere alla Gestione avvisi in Adobe Analytics.
 
-In Gestione avvisi puoi effettuare le seguenti operazioni:
+   ![](assets/alert-manager.png)
 
-* Accedere al generatore di avvisi facendo clic su **[!UICONTROL + Add]** (Crea nuovo avviso).
-* Assegnare tag agli avvisi per agevolarne l’organizzazione
-* Eliminare gli avvisi
-* Rinominare gli avvisi
-* Approvare gli avvisi
-* Copiare gli avvisi
-* Abilitare/disabilitare gli avvisi
-* **Rinnovare** la data di scadenza di un avviso. Quando sono selezionati uno o più avvisi, è possibile rinnovarli facendo clic su **[!UICONTROL Renew]**. Questa funzione sposta le rispettive date di scadenza a 1 anno dal giorno in cui **[!UICONTROL Renew]** è stato fatto clic su, indipendentemente dalla data di scadenza originale.
-* Esportare un avviso come file .CSV
-* Modificare gli avvisi facendo doppio clic sul titolo
-* Cercare gli avvisi
-* Aggiungere degli avvisi ad altre suite per rapporti
-* Specificare o cambiare il proprietario di un avviso
-* Aggiungere altri filtri
-* Definire la **data di scadenza** di un avviso
+1. Seleziona [!UICONTROL **Aggiungi**] (o [!UICONTROL **Crea nuovo avviso**] se non hai avvisi esistenti).
+
+1. Selezionare il tipo di avviso corrispondente all&#39;avviso che si desidera creare:
+
+   * [!UICONTROL **Avviso dati di Analytics**]: un avviso per avvisarti quando si verificano eventi anomali nei tuoi dati.
+
+     Se selezioni questa opzione, continua con [Crea avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) per ulteriori dettagli sulla creazione di avvisi.
+
+   * [!UICONTROL **Avviso sull&#39;utilizzo delle chiamate al server**]: un avviso per notificare il rischio o il verificarsi di un superamento nei dati relativi al consumo e all&#39;impegno delle chiamate al server.
+
+     Se si seleziona questa opzione, continuare con [Avvisi di utilizzo delle chiamate server](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >Per poter accedere all’utilizzo delle chiamate al server, devi essere un amministratore di Analytics o un utente con l’autorizzazione di utilizzo delle chiamate al server.
+
+## Gestire gli avvisi esistenti
+
+Puoi eseguire varie azioni sugli avvisi esistenti, ad esempio assegnare tag, rinominare, eliminare e così via.
+
+Per gestire gli avvisi esistenti in Gestione avvisi:
+
+1. Selezionare **[!UICONTROL Components]** > **[!UICONTROL Alerts]** per accedere alla Gestione avvisi in Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Seleziona uno o più avvisi da gestire.
+
+   ![](assets/alert-manager-tasks.png)
+
+1. Nella barra delle azioni, seleziona una delle opzioni seguenti:
+
+   | Azione | Funzione |
+   |---------|----------|
+   | [!UICONTROL **Tag**] | Applicare un tag a un avviso. In questo modo è possibile organizzare gli avvisi in modo semplice e intuitivo. |
+   | [!UICONTROL **Elimina**] | Elimina l’avviso. |
+   | [!UICONTROL **Rinomina**] | Rinomina l&#39;avviso. |
+   | [!UICONTROL **Approva**] | Contrassegna l&#39;avviso come Approvato. |
+   | [!UICONTROL **Copia**] | Crea una copia (duplicata) dell&#39;avviso. |
+   | [!UICONTROL **Disattiva**] | Disattiva un avviso attualmente abilitato. |
+   | [!UICONTROL **Abilita**] | Abilita un avviso attualmente disabilitato. |
+   | [!UICONTROL **Rinnova**] | Rinnova la data di scadenza dell’avviso. Questa funzione sposta la data di scadenza a 1 anno dal giorno in cui hai selezionato questa opzione, indipendentemente dalla data di scadenza originale. |
+   | [!UICONTROL **Esporta in CSV**] | Esporta l&#39;avviso in un file CSV. |
+
+## Modificare un avviso
+
+Per modificare un avviso esistente:
+
+1. Selezionare **[!UICONTROL Components]** > **[!UICONTROL Alerts]** per accedere alla Gestione avvisi in Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Selezionare il nome dell&#39;avviso nella colonna [!UICONTROL **Titolo e descrizione**].
+
+1. Modificare l&#39;avviso come desiderato.
+
+   Di seguito sono riportate alcune delle operazioni che è possibile eseguire durante la modifica di un avviso:
+
+   * Aggiungere avvisi ad altre suite di rapporti
+   * Cambia il proprietario
+   * Aggiornare i filtri
+   * Aggiornare la data di scadenza
+
+1. Modifica l&#39;avviso, quindi seleziona [!UICONTROL **Salva**].
 
 ## Configurare le colonne
 
