@@ -3,10 +3,10 @@ description: Gestire gli avvisi.
 title: Panoramica di Gestione avvisi
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
+source-git-commit: 49324ef7fd45adeef2c31167d0444a7e67041d6d
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 21%
+source-wordcount: '373'
+ht-degree: 23%
 
 ---
 
@@ -54,13 +54,18 @@ Per configurare le colonne visibili in Gestione avvisi:
 
    | Titolo colonna | Descrizione |
    |---|---|
-   | Preferiti | Visualizza icone a forma di stella accanto a ogni avviso, che consentono di contrassegnare gli avvisi come preferiti. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
    | Titolo e descrizione | Questi valori vengono forniti nel generatore di avvisi. Per modificare il titolo e la descrizione, seleziona il collegamento del titolo per aprire il generatore di avvisi. |
+   | Preferiti | Visualizza icone a forma di stella accanto a ogni avviso, che consentono di contrassegnare gli avvisi come preferiti. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
+   | Tipo | Mostra se l’avviso è un avviso di dati di Analytics o un avviso di utilizzo di chiamate al server. |
+   | Abilitata | Indica se l&#39;avviso è attualmente abilitato o disabilitato. |
    | Suite di rapporti | Indica in quale suite di rapporti è stato salvato l’ultimo avviso. |
    | Proprietario | Indica il proprietario dell&#39;avviso. In qualità di non amministratore, puoi visualizzare solo gli avvisi di tua proprietà o quelli che sono stati condivisi con te. |
    | Tag | Mostra i tag applicati all&#39;avviso, da te o da altri utenti che lo hanno condiviso con te. |
-   | Condiviso con | Elenca singoli utenti o gruppi (solo amministratori) o tutti coloro (solo amministratori) con cui hai condiviso l’avviso. |
+   | Data di scadenza | Mostra la data e l’ora in cui l’avviso è impostato per scadere. |
    | Data di modifica | Indica la data dell’ultima modifica apportata all’avviso. |
-   | Ultimo utilizzo | Mostra la data dell’ultimo utilizzo dell’avviso. <p>Queste informazioni possono essere utili per determinare se un componente è utile per gli utenti dell’organizzazione, dove viene utilizzato e se deve essere eliminato o modificato.</p><p>Quando visualizzi questa colonna, prendi in considerazione quanto segue:</p><ul><li>Queste informazioni non includono l’utilizzo da API, Report Builder o Data Warehouse.</li><li>Per alcuni componenti, questa colonna potrebbe non contenere dati se il componente è stato utilizzato l’ultima volta prima di settembre 2023.</li></ul> |
 
    {style="table-layout:auto"}
+
+   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
+
+
