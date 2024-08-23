@@ -4,7 +4,7 @@ description: Comprendi i prerequisiti e le limitazioni dell’unione di dati uti
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 ---
 
 # Unione basata sui campi
+
+{{available-existing-customers}}
 
 Analytics tra dispositivi fornisce due metodi distinti per unire i dati. Questo metodo si basa su una variabile di Analytics, ad esempio [prop](/help/implement/vars/page-vars/prop.md) o [eVar](/help/implement/vars/page-vars/evar.md), per contenere un identificatore di persona. Utilizza tale variabile come base per collegare i dispositivi. L’Adobe consiglia questa opzione di unione per maggiore trasparenza e prevedibilità nel tracciamento dei visitatori.
 

@@ -4,7 +4,7 @@ description: Configura una suite di rapporti virtuale per abilitare CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 ---
 
 # Configurare Analytics tra dispositivi
+
+{{available-existing-customers}}
 
 Una volta soddisfatti tutti i prerequisiti, procedi come segue per abilitare Cross-Device Analytics. Per seguire la procedura riportata di seguito, devi appartenere a un gruppo di amministrazione del profilo di prodotto o disporre dei privilegi di amministratore in Adobe Analytics.
 

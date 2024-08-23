@@ -4,7 +4,7 @@ description: Scopri come limitare un intervallo di date della suite di rapporti 
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 5%
@@ -12,6 +12,8 @@ ht-degree: 5%
 ---
 
 # Limitare una suite di rapporti virtuale a determinate date
+
+{{available-existing-customers}}
 
 Quando attiviamo l’unione, questa inizia in una data specifica. Supponiamo che la data sia il 1° giugno. La suite di rapporti virtuale di CDA conterrà i dati non uniti precedenti al 1° giugno. Puoi nascondere eventuali dati nella suite di rapporti virtuali precedenti al 1° giugno, in modo che l’analisi possa concentrarsi sugli intervalli di date successivi all’inizio dell’unione.
 

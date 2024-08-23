@@ -4,14 +4,17 @@ description: Comprendi i prerequisiti e le limitazioni dell’unione di dati uti
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 3%
 
 ---
 
+
 # Device Graph
+
+{{available-existing-customers}}
 
 Analytics tra dispositivi può utilizzare Private Graph per unire i dati. Private Graph è un archivio di ID dispositivo con hash specifico per la tua organizzazione. CDA comunica regolarmente con il grafico dei dispositivi per collegare i dispositivi.
 
@@ -22,6 +25,7 @@ Se intendi implementare Cross-Device Analytics utilizzando il metodo del grafico
 >[!WARNING]
 >
 >Il mancato rispetto di tutti i prerequisiti può comportare l’impossibilità di abilitare Cross-Device Analytics o risultati errati durante l’unione dei dati.
+>
 
 * Tutti i prerequisiti elencati nella [pagina della panoramica](overview.md).
 * L&#39;organizzazione deve utilizzare il [grafo privato del servizio Adobe Experience Platform Identity](https://business.adobe.com/products/experience-platform/identity-service.html). Vedi anche la [home page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it) nella guida utente del servizio Identity.
