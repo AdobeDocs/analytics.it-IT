@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5903'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Agosto 2024** | |
-| Gestione avvisi | Documentazione semplificata su [Gestione avvisi](/help/components/c-alerts/alert-manager.md). Aggiornata per chiarezza e precisione. |
+| Gestione avvisi | Documentazione semplificata sulla [Gestione avvisi](/help/components/c-alerts/alert-manager.md). Aggiornata per chiarezza e precisione. |
 | **Luglio 2024** | |
 | Eventi di successo | Documentazione semplificata relativa agli [eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md). Aggiornata per chiarezza e precisione. |
 | È necessario selezionare almeno un tipo di account durante la gestione delle posizioni | È stato chiarito che quando gli amministratori [limitano i tipi di account utilizzati per l’esportazione e l’importazione](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users), è necessario selezionare almeno un tipo di account. |

@@ -4,15 +4,15 @@ description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (agosto 2024)
 
-**Ultimo aggiornamento**: mercoledì 20 agosto 2024
+**Ultimo aggiornamento**: 20 agosto 2024
 
 Queste note sulla versione coprono il periodo di rilascio compreso tra il 14 agosto 2024 e settembre 2024. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -37,7 +37,7 @@ AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
-| **Scadenza di 13 mesi di`cust_visids`** salvati | 20 agosto 2024 | La versione del **20 agosto 2024** del motore di elaborazione degli hit di Analytics impone una scadenza di 13 mesi per i `cust_visids` salvati. Se nella suite di rapporti è abilitato “Abilita unione visitatori”, questa impostazione viene utilizzata per trovare `cust_visid` per un `visid_high/visid_low value` senza `cust_visid` sull’hit. In precedenza, non vi era alcuna scadenza della mappatura di un `cust_visid` per un `visid_high/visid_low`. Con questa versione, se sono trascorsi 13 mesi o più da quando `visid_high/visid_low` ha avuto un `cust_visid` su un hit, la mappatura scadrà. |
+| **Scadenza di 13 mesi di`cust_visids`** salvati | 20 agosto 2024 | La versione del **20 agosto 2024** del motore di elaborazione degli hit di Analytics impone una scadenza di 13 mesi per i `cust_visids` salvati. Se nella suite di rapporti è abilitato “Abilita unione visitatori”, questa impostazione viene utilizzata per trovare `cust_visid` per un `visid_high/visid_low value` senza `cust_visid` sull’hit. Precedentemente, non vi era alcuna scadenza della mappatura di un `cust_visid` per un `visid_high/visid_low`. Con questa versione, se sono trascorsi 13 mesi o più da quando `visid_high/visid_low` ha avuto un `cust_visid` su un hit, la mappatura scadrà. |
 
 {style="table-layout:auto"}
 
