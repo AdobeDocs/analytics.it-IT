@@ -4,24 +4,26 @@ title: Etichette Privacy dei dati per le variabili di Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '3532'
-ht-degree: 74%
+source-wordcount: '3753'
+ht-degree: 70%
 
 ---
 
 # Etichette Privacy dei dati per le variabili di Analytics
 
-## Perché etichettare i dati? {#why-label}
-
-I clienti di Adobe, in qualità di titolari del trattamento dei dati, sono responsabili del rispetto delle leggi sulla Privacy dei dati applicabili, come GDPR e CCPA. I clienti devono consultare il proprio team legale per determinare come devono essere gestiti i propri dati in conformità con le leggi sulla Privacy dei dati. Adobe Adobe è consapevole del fatto che ciascuno dei suoi clienti ha esigenze specifiche in materia di privacy, ed è per questo che consente ai suoi clienti di personalizzare le impostazioni desiderate per l’elaborazione dei dati in questo ambito. Questo consente a ogni singolo cliente di elaborare le richieste di Privacy dei dati nella maniera più adatta al proprio marchio e al proprio specifico set di dati.
+I clienti di Adobe, in qualità di titolari del trattamento dei dati, sono responsabili del rispetto delle leggi sulla privacy dei dati applicabili, come il Regolamento generale sulla protezione dei dati (RGPD) e il California Consumer Privacy Act (CCPA). I clienti devono consultare il proprio team legale per determinare come devono essere gestiti i propri dati in conformità con le leggi sulla Privacy dei dati. Adobe Adobe è consapevole del fatto che ciascuno dei suoi clienti ha esigenze specifiche in materia di privacy, ed è per questo che consente ai suoi clienti di personalizzare le impostazioni desiderate per l’elaborazione dei dati in questo ambito. Questo consente a ogni singolo cliente di elaborare le richieste di Privacy dei dati nella maniera più adatta al proprio marchio e al proprio specifico set di dati.
 
 Adobe Analytics offre gli strumenti necessari per etichettare i dati in base al loro stato di riservatezza e a vincoli contrattuali. Le etichette sono un passaggio importante per: (1) identificare gli interessati, (2) determinare quali dati restituire come parte di una richiesta di accesso e (3) identificare i campi di dati che devono essere eliminati come parte di una richiesta di eliminazione.
 
 Prima di capire quali etichette applicare a determinate variabili o campi, è necessario [conoscere gli ID](/help/admin/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md) che vengono acquisiti nei dati di Analytics e decidere quali usare per le richieste di Privacy dei dati.
 
 L’implementazione Privacy dei dati in Adobe Analytics supporta le seguenti etichette per i dati di identità, i dati sensibili e la governance dei dati.
+
+>[!NOTE]
+>
+>Le etichette I1, I2, S1 e S2 hanno lo stesso significato delle corrispondenti etichette DULE in Adobe Experience Platform. Tuttavia, sono utilizzati per scopi molto diversi. In Adobe Analytics, queste etichette vengono utilizzate per identificare i campi che devono essere resi anonimi come risultato di una richiesta Privacy Service. In Adobe Experience Platform vengono utilizzati per il controllo degli accessi, la gestione del consenso e l’applicazione di restrizioni di marketing ai campi etichettati. Adobe Experience Platform supporta molte etichette aggiuntive non utilizzate da Adobe Analytics. Inoltre, le etichette in Adobe Experience Platform vengono applicate agli schemi. Se utilizzi il connettore dati di Analytics per importare i dati di Adobe Analytics in Adobe Experience Platform, dovrai verificare che in Adobe Experience Platform siano configurate le etichette DULE appropriate per gli schemi utilizzati da ciascuna suite di rapporti. Le etichette assegnate in Adobe Analytics non vengono applicate automaticamente a questi schemi in Adobe Experience Platform, poiché rappresentano solo un sottoinsieme delle etichette DULE che potrebbero essere necessarie per l’applicazione. Inoltre, suite di rapporti diverse possono condividere uno schema, ma hanno etichette diverse assegnate a prop ed evar con lo stesso numero e lo schema può essere condiviso da set di dati di altre origini dati, il che potrebbe causare confusione sul motivo per cui alcuni campi hanno ricevuto queste etichette.
 
 ## Etichette per i dati di identità {#identity-data-labels}
 
@@ -49,7 +51,7 @@ Le etichette “S” per i dati sensibili vengono usate per organizzare in categ
 
 Le etichette per la governance dei dati consentono agli utenti di classificare i dati che riflettono considerazioni relative alla privacy e condizioni contrattuali che consentono ai clienti di Adobe di rimanere conformi alle normative e alle politiche aziendali.
 
-### Etichette di accesso alla privacy dei dati
+### Etichette di accesso alla privacy dei dati {#access}
 
 | Etichetta | Definizione | Altri requisiti |
 | --- | --- | --- |
@@ -61,7 +63,7 @@ Le etichette per la governance dei dati consentono agli utenti di classificare i
 
 Si prevede che per molte variabili verranno applicate le etichette di accesso, mentre alcune variabili riceveranno altre etichette. Tuttavia, spetta a te, in consultazione con il tuo team legale, decidere quali dati hai raccolto devono essere condivisi con gli interessati.
 
-### Etichette di cancellazione Privacy dei dati
+### Etichette di cancellazione Privacy dei dati {#delete}
 
 Diversamente dalle altre etichette, le etichette di cancellazione non si escludono a vicenda. Puoi selezionarne una, entrambe o nessuna. Non è necessaria un’etichetta [!UICONTROL None] distinta, perché [!UICONTROL None] viene indicata automaticamente non selezionando alcuna delle opzioni di cancellazione.
 
@@ -74,7 +76,7 @@ L’etichetta Elimina è necessaria solo per i campi che contengono un valore ch
 
 {style="table-layout:auto"}
 
-### Etichette di identità Privacy dei dati
+### Etichette di identità Privacy dei dati {#identity}
 
 | Etichetta | Definizione | Altri requisiti |
 | --- | --- | --- |
@@ -88,7 +90,7 @@ L’etichetta Elimina è necessaria solo per i campi che contengono un valore ch
 
 Quando si applica un’etichetta ID-DEVICE o ID-PERSON a una variabile, viene richiesto di fornire un namespace. Puoi usare il namespace definito in precedenza o puoi definirne uno nuovo.
 
-### Utilizza uno spazio dei nomi definito in precedenza
+### Utilizza uno spazio dei nomi definito in precedenza {#previously-defined}
 
 Se in precedenza hai assegnato un’etichetta ID ad altre variabili in una delle suite di rapporti della società di accesso, puoi selezionare uno dei namespace esistenti. È consigliabile riutilizzare lo spazio dei nomi se questa variabile contiene lo stesso tipo di ID di altre variabili già etichettate con lo spazio dei nomi e si desidera eseguire la ricerca di tutte quando si invia una richiesta.
 
@@ -97,7 +99,7 @@ Se in precedenza hai assegnato un’etichetta ID ad altre variabili in una delle
 1. Fai clic su **[!UICONTROL Apply]**.
 
 
-### Definisci un nuovo spazio dei nomi
+### Definisci un nuovo spazio dei nomi {#define}
 
 Puoi anche definire un nuovo namespace. Nelle stringhe del namespace consigliamo di usare solo caratteri alfanumerici oltre ai caratteri trattino basso, trattino e spazio. Tutti i caratteri verranno convertiti in lettere minuscole.
 

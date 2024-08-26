@@ -4,18 +4,18 @@ title: Tecniche di etichettatura consigliate
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 0fd0fad17cf6dcaa042e53d86dfabc5792a065b6
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 77%
+source-wordcount: '2830'
+ht-degree: 73%
 
 ---
 
 # Tecniche di etichettatura consigliate
 
->[!NOTE]
->
->Ricorda che l’etichettatura deve essere rivista ogni volta che viene creata una nuova suite di rapporti o quando viene abilitata una nuova variabile all’interno di una suite di rapporti. Potrebbe essere necessario rivedere l&#39;etichettatura anche quando vengono abilitate nuove integrazioni della soluzione, perché queste potrebbero esporre nuove variabili che potrebbero richiedere le etichette. Una nuova implementazione delle app mobili o dei siti web potrebbe cambiare il modo in cui vengono usate le variabili esistenti. Anche per queste potrebbe essere necessario aggiornare le etichette.
+L’etichettatura deve essere rivista ogni volta che viene creata una nuova suite di rapporti o quando viene abilitata una nuova variabile all’interno di una suite di rapporti. Potrebbe essere necessario rivedere l&#39;etichettatura anche quando vengono abilitate nuove integrazioni della soluzione, perché queste potrebbero esporre nuove variabili che potrebbero richiedere le etichette. Una nuova implementazione delle app mobili o dei siti web potrebbe cambiare il modo in cui vengono usate le variabili esistenti. Anche per queste potrebbe essere necessario aggiornare le etichette.
+
+Le etichette I1, I2, S1 e S2 hanno lo stesso significato delle corrispondenti etichette DULE in Adobe Experience Platform. Tuttavia, sono utilizzati per scopi molto diversi. In Adobe Analytics, queste etichette vengono utilizzate per identificare i campi che devono essere resi anonimi come risultato di una richiesta Privacy Service. In Adobe Experience Platform vengono utilizzati per il controllo degli accessi, la gestione del consenso e l’applicazione di restrizioni di marketing ai campi etichettati. Adobe Experience Platform supporta molte etichette aggiuntive non utilizzate da Adobe Analytics. Se utilizzi il connettore dati di Analytics per importare i dati di Adobe Analytics in Adobe Experience Platform, accertati che tutte le etichette I1, I2, S1 e S2 applicate in Adobe Analytics vengano applicate anche agli schemi in Adobe Experience Platform utilizzati dalle suite di rapporti importate.
 
 ## ID direttamente e indirettamente identificabili {#direct-vs-indirect}
 
@@ -24,7 +24,7 @@ Prima di capire quali etichette applicare a determinate variabili o campi, è ne
 * **ID direttamente identificabile (I1)**: indica il nome di una persona o ne fornisce il metodo di contatto diretto. Tra gli esempi abbiamo il nome di una persona (persino un nome comune come Mario Rossi che potrebbe essere associato a centinaia di persone), indirizzi e-mail o numeri di telefono e così via. Un indirizzo postale senza un nome potrebbe essere considerato direttamente identificabile, sebbene possa identificare soltanto una famiglia o un&#39;azienda anziché una persona specifica all&#39;interno di quella famiglia o di quell&#39;azienda.
 * **ID indirettamente identificabile (I2)**: da solo non consente l&#39;identificazione di una persona, ma può essere combinato con altre informazioni (che potrebbero essere o meno in tuo possesso) per identificare un individuo. Esempi di ID indirettamente identificabili includono un numero di fedeltà di un cliente o un ID utilizzato dal sistema di gestione delle relazioni con i clienti di un’azienda che è univoco per ciascuno dei suoi clienti. In base alla Privacy dei dati, gli ID anonimi memorizzati nei cookie di monitoraggio usati da Analytics possono essere considerati identificativi indiretti, sebbene possano individuare solo un dispositivo invece di una persona; su un dispositivo condiviso, questi cookie non distinguono i diversi utenti del sistema. Ad esempio, anche se il cookie non può essere utilizzato per trovare un computer che contiene il cookie, se qualcuno ha accesso al computer e individua il cookie, può ricollegare i dati del cookie Analytics al computer.
 
-  Un indirizzo IP è anche considerato indirettamente identificabile, perché in un dato momento potrebbe essere assegnato a un solo dispositivo. Tuttavia, gli ISP possono cambiare gli indirizzi IP, come spesso avviene, per la maggior parte degli utenti, pertanto con il passare del tempo un indirizzo IP potrebbe essere usato da uno qualsiasi dei loro utenti. Inoltre, non è insolito per molti clienti di un ISP o per più dipendenti di un&#39;azienda nella stessa Intranet condividere lo stesso indirizzo IP esterno. Per questo motivo, Adobe non supporta l’utilizzo di un indirizzo IP come ID per una richiesta di Privacy dei dati. Tuttavia, quando un ID accettato viene usato come parte di una richiesta di cancellazione, verranno cancellati anche gli indirizzi IP in cui era presente quell&#39;ID. Devi decidere se esistono altri ID raccolti che possono rientrare in questa categoria, I1 o I2, ma che non sono idonei a essere utilizzati come ID distintivi per le richieste di Privacy dei dati.
+Un indirizzo IP è anche considerato indirettamente identificabile, perché in un dato momento potrebbe essere assegnato a un solo dispositivo. Tuttavia, gli ISP possono cambiare gli indirizzi IP, come spesso avviene, per la maggior parte degli utenti, pertanto con il passare del tempo un indirizzo IP potrebbe essere usato da uno qualsiasi dei loro utenti. Inoltre, non è insolito per molti clienti di un ISP o per più dipendenti di un&#39;azienda nella stessa Intranet condividere lo stesso indirizzo IP esterno. Per questo motivo, Adobe non supporta l’utilizzo di un indirizzo IP come ID per una richiesta di Privacy dei dati. Tuttavia, quando un ID accettato viene usato come parte di una richiesta di cancellazione, verranno cancellati anche gli indirizzi IP in cui era presente quell&#39;ID. Devi decidere se esistono altri ID raccolti che possono rientrare in questa categoria, I1 o I2, ma che non sono idonei a essere utilizzati come ID distintivi per le richieste di Privacy dei dati.
 
 Anche se l’azienda raccoglie molti ID diversi nei dati di Analytics, puoi scegliere di usare solo un sottoinsieme di questi ID per le richieste di Privacy dei dati. Ecco delle possibili ragioni per questa scelta:
 
