@@ -3,10 +3,10 @@ description: Informazioni generali di panoramica su Adobe Analytics, tra cui inf
 title: Informazioni sull’interfaccia di Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '2062'
-ht-degree: 100%
+source-wordcount: '2061'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ La scheda [!UICONTROL Components] include funzioni che consentono di ottimizzare
    | Funzionalità del prodotto | Funzione | Ulteriori informazioni |
    |---------|----------|----------|
    | Segmenti | Adobe Analytics ti consente di creare, gestire, condividere e applicare segmenti di pubblico efficaci e mirati ai tuoi rapporti utilizzando le funzionalità di Analytics, Adobe Experience Cloud, Adobe Target e altri prodotti Adobe integrati. | [Segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it) |
-   | Metriche calcolate | Le metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che puoi creare da metriche esistenti.  Consentono ai marketer, product manager e analisti di porre domande sui dati senza dover cambiare l’implementazione di Analytics. | [Metriche calcolata e metriche calcolate avanzate (derivate)](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=it) |
+   | Metriche calcolate | Le metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che puoi creare da metriche esistenti.  Consentono ai marketer, product manager e analisti di porre domande sui dati senza dover cambiare l’implementazione di Analytics. | [Metriche calcolate e metriche calcolate avanzate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=it) |
    | Intervalli di date | Analysis Workspace include un elenco di intervalli di date predefiniti che gli utenti possono utilizzare durante la creazione di analisi. Inoltre, è possibile creare intervalli di date personalizzati e renderli disponibili agli utenti in Analysis Workspace. | [Creare intervalli di date personalizzati](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=it) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Suite di rapporti virtuali | Le suite di rapporti virtuali segmentano i dati di Adobe Analytics, in modo da poter controllare l’accesso a ciascun segmento. | [Panoramica delle suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it) |
    | Avvisi | Il sistema intelligente di avvisi offre un controllo più granulare sugli avvisi e integra il rilevamento delle anomalie con il sistema di avvisi. | [Avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=it) |
@@ -120,7 +120,7 @@ La scheda Amministrazione include funzioni e opzioni di configurazione per l’a
    | Servizi web | Le API dei servizi Web forniscono accesso programmatico ai rapporti di marketing e ad altri servizi della suite che consentono di duplicare e potenziare le funzionalità disponibili tramite l’interfaccia di Analytics. | [Servizi web](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=it) |
    | Rapporti di Report Builder | Gestire la licenza assegnata agli utenti di Report Builder. | [Report del Report Builder](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=it) |
    | Servizio Single Sign-on | Il Single sign-on in Adobe Experience Cloud viene implementato tramite Admin Console. | [Analytics in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=it) |
-   | Nascondi le suite di rapporti | Consente di nascondere le suite di rapporti nell’interfaccia utente di Adobe Analytics se non desideri più rendere disponibile una suite di rapporti per te e per i tuoi utenti. | [Nascondi le suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=it) |  |
+   | Nascondi le suite di rapporti | Consente di nascondere le suite di rapporti nell’interfaccia utente di Adobe Analytics se non desideri più rendere disponibile una suite di rapporti per te e per i tuoi utenti. | [Nascondi le suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=it) |
 
    {style="table-layout:auto"}
 

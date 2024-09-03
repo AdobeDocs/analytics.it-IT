@@ -1,19 +1,19 @@
 ---
-description: Le metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che puoi creare dalle metriche esistenti.
-keywords: Metriche calcolate;Metriche derivate;Metriche calcolate avanzate
-title: Metriche calcolate e metriche calcolate avanzate (derivate)
+description: Le metriche calcolate e le metriche calcolate avanzate sono metriche personalizzate che puoi creare dalle metriche esistenti.
+keywords: Metriche calcolate;Metriche calcolate avanzate
+title: Metriche calcolate e metriche calcolate avanzate
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '515'
 ht-degree: 33%
 
 ---
 
-# Metriche calcolate e metriche calcolate avanzate (derivate)
+# Metriche calcolate e metriche calcolate avanzate
 
-Le metriche calcolate e le metriche calcolate avanzate (o derivate) sono metriche personalizzate che puoi creare dalle metriche esistenti.
+Le metriche calcolate e le metriche calcolate avanzate sono metriche personalizzate che puoi creare dalle metriche esistenti.
 
 I nostri strumenti di metriche calcolate offrono un modo altamente flessibile di generare, gestire e curare le metriche. Consentono ad addetti al marketing, product manager e analisti di porre domande sui dati senza dover modificare l&#39;implementazione di [!DNL Analytics]. Le metriche personalizzate disponibili in ciascun pacchetto [!DNL Analytics] sono:
 
@@ -24,7 +24,7 @@ I nostri strumenti di metriche calcolate offrono un modo altamente flessibile di
 
 Ecco un confronto tra le metriche calcolate e le funzionalità avanzate delle metriche calcolate:
 
-| Opzioni di generazione | Metriche calcolate | Metriche calcolate avanzate (derivate) |
+| Opzioni di generazione | Metriche calcolate | Metriche calcolate avanzate |
 |---|---|---|
 | [Tipi di formato (decimale, ora, percentuale, valuta)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Sì | Sì |
 | [Modifiche all&#39;attribuzione (predefinita, lineare, partecipazione, ecc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sì | Sì |

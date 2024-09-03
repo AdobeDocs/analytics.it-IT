@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 99%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 100%
    + [Domande frequenti sulla gestione dei segmenti legacy](segmentation/seg-transition.md)
    + [Best practice](segmentation/best-practices.md)
 + Metriche calcolate {#calculated-metrics}
-   + [Metriche calcolata e metriche calcolata avanzata (derivate)](c-calcmetrics/cm-overview.md)
+   + [Metriche calcolate e metriche calcolate avanzate](c-calcmetrics/cm-overview.md)
    + [Video sulle procedure](c-calcmetrics/cm-videos.md)
    + Flusso di lavoro per le metriche calcolate {#calcmetric-workflow}
       + [Flusso di lavoro per le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
