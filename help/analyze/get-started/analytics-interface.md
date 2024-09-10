@@ -4,9 +4,9 @@ title: Informazioni sull’interfaccia di Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2061'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

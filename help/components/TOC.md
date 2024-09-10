@@ -5,9 +5,9 @@ user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
 source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
