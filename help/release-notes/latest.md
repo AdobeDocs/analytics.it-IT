@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
 workflow-type: tm+mt
 source-wordcount: '747'
-ht-degree: 56%
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,7 @@ Queste note sulla versione coprono il periodo di rilascio dall’11 settembre 20
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 |--- | --- | --- | --- |
-| **Informazioni aggiuntive nella colonna &quot;Usato in&quot; nel gestore delle metriche calcolate e nel gestore dei segmenti** | La colonna &quot;Usato in&quot; nel gestore delle metriche calcolate e nel gestore dei segmenti contiene le seguenti nuove aree di reporting:<ul><li>**Report Builder**: mostra il numero di metriche calcolate o di segmenti utilizzati nel Report Builder.</li><li>**Componenti ad hoc**: mostra il numero di metriche calcolate ad hoc o di segmenti ad hoc utilizzati nei progetti. Queste metriche e segmenti calcolati ad hoc (altrimenti noti come &quot;metriche calcolate rapide&quot; e &quot;segmenti rapidi&quot;) possono essere utilizzati solo nel progetto in cui sono stati creati, pertanto vengono segnalati separatamente dall’area di reporting &quot;Progetto&quot; nella colonna &quot;Utilizzato in&quot;.</li></ul>Per ulteriori informazioni, vedere [Gestione metriche calcolate](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) e [Gestione segmenti](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage). |  | 11 settembre 2024 |
+| **Informazioni aggiuntive nella colonna “Utilizzato in” nel Gestore metriche calcolate e nel Gestore di segmenti** | La colonna “Utilizzato in” nel Gestore metriche calcolate e nel Gestore di segmenti contiene le seguenti nuove aree di reporting:<ul><li>**Report Builder**: mostra il numero di metriche calcolate o di segmenti utilizzati nel Report Builder.</li><li>**Componenti ad hoc**: mostra il numero di metriche calcolate ad hoc o di segmenti ad hoc utilizzati nei progetti. Queste metriche e segmenti calcolati ad hoc (altrimenti noti come “metriche calcolate rapide” e “segmenti rapidi”) possono essere utilizzati solo nel progetto in cui sono stati creati, pertanto vengono segnalati separatamente dall’area di reporting “Progetto” nella colonna “Utilizzato in”.</li></ul>Per ulteriori informazioni, vedere [Gestione metriche calcolate](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) e [Gestione segmenti](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage). |  | 11 settembre 2024 |
 | **Estensione Activity Map v3** | L’estensione Activity Map v3 è ora disponibile. Se hai installato l’estensione v2, disinstallala prima di installare l’estensione v3. Passa a **[!UICONTROL Tools]** > **[!UICONTROL Activity Map]** per ottenere la versione più recente dell&#39;estensione. |  | 3 settembre 2024 |
 
 
