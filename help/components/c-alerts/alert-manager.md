@@ -3,10 +3,10 @@ description: Gestire gli avvisi.
 title: Panoramica di Gestione avvisi
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Per creare avvisi da Gestione avvisi:
 
    * [!UICONTROL **Avviso dati di Analytics**]: un avviso per avvisarti quando si verificano eventi anomali nei tuoi dati.
 
-     Se selezioni questa opzione, continua con [Crea avvisi](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) per ulteriori dettagli sulla creazione di avvisi.
+     Se selezioni questa opzione, continua con [Crea avvisi](/help/components/c-alerts/alert-builder.md) per ulteriori dettagli sulla creazione di avvisi.
 
    * [!UICONTROL **Avviso sull&#39;utilizzo delle chiamate al server**]: un avviso per notificare il rischio o il verificarsi di un superamento nei dati relativi al consumo e all&#39;impegno delle chiamate al server.
 

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder e Activity Map.
-source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
-workflow-type: ht
-source-wordcount: '930'
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
+source-wordcount: '919'
 ht-degree: 100%
 
 ---
@@ -152,11 +152,6 @@ ht-degree: 100%
       + [Disattivare il rilevamento delle anomalie](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [Eseguire l’analisi dei contributi](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [Tecniche di statistica utilizzate nel rilevamento delle anomalie](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
-      + Avvisi intelligenti {#intelligent-alerts}
-         + [Panoramica degli avvisi intelligenti](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-         + [Creare avvisi](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-         + [Gestire gli avvisi](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-         + [Casi d’uso](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Preferenze utente](analysis-workspace/user-preferences.md)
    + Domande frequenti su Workspace {#workspace-faq}
       + [Domande frequenti](analysis-workspace/workspace-faq/faq.md)
