@@ -5,10 +5,10 @@ title: Dimensioni disponibili per le regole di elaborazione
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
+source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
@@ -22,8 +22,6 @@ Dimensioni e metriche disponibili che è possibile leggere e scrivere utilizzand
 | --- | --- | --- |
 | Valore personalizzato | Sola lettura | Testo o valori personalizzati digitati direttamente nell’azione di una regola di elaborazione. |
 | Valore concatenato | Sola lettura | Valori creati combinando due valori. Ad esempio, è possibile combinare il nome del canale e della pagina per creare una sottocategoria. |
-
-{style="table-layout:auto"}
 
 ## Attributi di hit
 
@@ -47,11 +45,9 @@ Dimensioni e metriche disponibili che è possibile leggere e scrivere utilizzand
 | Dominio principale della pagina | Sola lettura | Il dominio della pagina dell’URL corrente, esclusi i sottodomini. |
 | Prospettiva del cliente | Lettura e scrittura | Flag che determina se l’hit è un hit di sfondo per dispositivi mobili. |
 
-{style="table-layout:auto"}
-
 ## Variabili di conversione
 
-| Variabile | Descrizione stato lettura/scrittura |
+| Variabile | Stato lettura/scrittura | Descrizione |
 | --- | --- | --- |
 | eVar 1-250 | Lettura e scrittura | [Dimensioni eVar](/help/components/dimensions/evar.md). |
 | Campaign | Lettura e scrittura | La dimensione [Codice di tracciamento](/help/components/dimensions/tracking-code.md). |
@@ -60,8 +56,6 @@ Dimensioni e metriche disponibili che è possibile leggere e scrivere utilizzand
 | ZIP | Lettura e scrittura | La dimensione [Codice postale](/help/components/dimensions/zip-code.md). |
 | Codice valuta | Lettura e scrittura | La variabile di implementazione [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANTE: se imposti questa variabile su un valore non valido, l’hit viene scartato. |
 | ID transazione | Lettura e scrittura | La variabile di implementazione [`transactionID`](/help/import/data-sources/transactionid.md). |
-
-{style="table-layout:auto"}
 
 >[!NOTE]
 >Adobe non supporta l&#39;impostazione della variabile di implementazione [`products`](/help/implement/vars/page-vars/products.md) tramite le regole di elaborazione.
@@ -74,8 +68,6 @@ Dimensioni e metriche disponibili che è possibile leggere e scrivere utilizzand
 | Gerarchia 1-5 | Lettura e scrittura | [Gerarchia](/help/components/dimensions/hierarchy.md) dimensioni. |
 | Server | Lettura e scrittura | La dimensione [Server](/help/components/dimensions/server.md). |
 | Canale | Lettura e scrittura | La dimensione [Sezione del sito](/help/components/dimensions/site-section.md). |
-
-{style="table-layout:auto"}
 
 ## Variabili di contesto
 
@@ -96,4 +88,3 @@ Le regole di elaborazione possono impostare gli eventi ma non possono leggerli c
 | Evento 1-1000 | Solo scrittura | [Eventi personalizzati](/help/components/metrics/custom-events.md). |
 | Visualizzazioni di prodotti | Solo scrittura | La metrica [Visualizzazioni prodotto](/help/components/metrics/product-views.md). |
 
-{style="table-layout:auto"}
