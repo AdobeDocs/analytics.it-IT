@@ -4,9 +4,9 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 5e74c47dff7f1685be9fd738f834ae317c95fad5
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1909'
+source-wordcount: '1906'
 ht-degree: 10%
 
 ---
@@ -144,7 +144,7 @@ Quando si seleziona la scheda [!UICONTROL **Richiesta**], nella tabella sono dis
 | [!UICONTROL **Esecuzione**] | Da quanto tempo la richiesta è in esecuzione. |
 | [!UICONTROL **Ora di inizio**] | Quando la richiesta ha iniziato l’elaborazione (in base all’ora locale dell’amministratore). |
 | [!UICONTROL **Tempo di attesa**] | Tempo di attesa della richiesta prima dell’elaborazione. Questo valore è generalmente a &quot;0&quot; quando la capacità è sufficiente. |
-| [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi intelligenti</li><li>Condividi con qualsiasi collegamento</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></ul> |
+| [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi</li><li>Condividi con qualsiasi collegamento</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></ul> |
 | [!UICONTROL **Utente**] | Utente che ha avviato la richiesta. <p>**Nota:** se il valore di questa colonna è [!UICONTROL **Non riconosciuto**], significa che l&#39;utente si trova in una società di accesso per la quale non si dispone di autorizzazioni amministrative.</p> |
 | [!UICONTROL **Progetto**] | Nomi di progetto Workspace salvati, ID di report API e così via (I metadati possono variare tra le varie applicazioni). |
 | [!UICONTROL **Stato**] | Indicatori di stato: <ul><li>**In esecuzione**: richiesta in fase di elaborazione.</li><li>**In sospeso**: richiesta in attesa di elaborazione.</li></ul> |
@@ -164,7 +164,7 @@ Quando si seleziona la scheda [!UICONTROL **Utente**], nella tabella sono dispon
 | [!UICONTROL **Utente**] | Utente che ha avviato la richiesta. Se il valore di questa colonna è [!UICONTROL **Non riconosciuto**], significa che l&#39;utente si trova in una società di accesso per la quale non si dispone di autorizzazioni amministrative. |
 | [!UICONTROL **Numero di richieste**] | Numero di richieste avviate dall&#39;utente. |
 | [!UICONTROL **Numero di progetti**] | Il numero di progetti associati all’utente. <!-- ??? --> |
-| [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi intelligenti</li><li>Condividi con qualsiasi collegamento</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></ul> |
+| [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi</li><li>Condividi con qualsiasi collegamento</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></ul> |
 | [!UICONTROL **Complessità media**] | La complessità media delle richieste avviate dall’utente. <p>Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p><ul><li>[!UICONTROL **Limiti medi mese**]</li><li>[!UICONTROL **Colonne medie**]</li><li>[!UICONTROL **Segmenti medi**]</li></ul> |
 | [!UICONTROL **Limiti medi mese**] | Numero medio di mesi inclusi nelle richieste. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
 | [!UICONTROL **Colonne medie**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Più colonne aumenta la complessità della richiesta. |
@@ -181,7 +181,7 @@ Quando si seleziona la scheda [!UICONTROL **Progetto**], nella tabella sono disp
 | [!UICONTROL **Progetto**] | Progetto in cui sono state avviate le richieste. |
 | [!UICONTROL **Numero di richieste**] | Il numero di richieste associate al progetto. |
 | [!UICONTROL **Numero di utenti**] | Il numero di utenti associati al progetto. <!-- ??? --> |
-| [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi intelligenti</li><li>Condividi con qualsiasi collegamento</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></ul> |
+| [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi</li><li>Condividi con qualsiasi collegamento</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></ul> |
 | [!UICONTROL **Complessità media**] | La complessità media delle richieste incluse nel progetto. <p>Non tutte le richieste richiedono la stessa quantità di tempo per essere elaborate. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p><ul><li>[!UICONTROL **Limiti medi mese**]</li><li>[!UICONTROL **Colonne medie**]</li><li>[!UICONTROL **Segmenti medi**]</li></ul> |
 | [!UICONTROL **Limiti medi mese**] | Numero medio di mesi inclusi nelle richieste. L’aumento dei limiti di mese aggiunge complessità alla richiesta. |
 | [!UICONTROL **Colonne medie**] | Il numero medio di metriche e raggruppamenti nelle richieste incluse. Più colonne aumenta la complessità della richiesta. |

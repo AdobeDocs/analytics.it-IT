@@ -3,7 +3,7 @@ title: Personalizzazione dei rapporti in Adobe Analytics
 description: Scopri come personalizzare i rapporti in Adobe Analytics
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
@@ -72,4 +72,4 @@ Per creare una metrica calcolata:
 
 ## Avvisi personalizzati
 
-Gli avvisi sono disponibili su entrambe le piattaforme. In Adobe Analytics, usa il menu di navigazione dell&#39;intestazione e vai a *[!UICONTROL Components]* > *[!UICONTROL Alerts]*. Per ulteriori informazioni, vedere [Avvisi intelligenti](/help/components/c-alerts/intellligent-alerts.md) nella Guida utente dei componenti.
+Gli avvisi sono disponibili su entrambe le piattaforme. In Adobe Analytics, usa il menu di navigazione dell&#39;intestazione e vai a *[!UICONTROL Components]* > *[!UICONTROL Alerts]*. Per ulteriori informazioni, vedere [Panoramica degli avvisi](/help/components/c-alerts/intellligent-alerts.md) nella Guida utente dei componenti.

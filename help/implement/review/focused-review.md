@@ -4,10 +4,10 @@ description: Segui questi passaggi per garantire che l’implementazione rimanga
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 74%
+source-wordcount: '490'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +23,7 @@ Conoscere i primi 5 indicatori di prestazioni chiave (KPI, Key Performance Indic
 
 Gli aggiornamenti del codice nel tempo possono avere ramificazioni non desiderate. Assicurati che tutte le metriche e le dimensioni associate ai tuoi [primi 5 KPI](/help/implement/review/define-kpis.md) funzionino ancora correttamente. Idealmente, questo viene fatto subito dopo il rilascio di un sito Web; se non lo hai fatto negli ultimi mesi, fallo *ora*. Per eseguire questa operazione:
 
-* Crea dashboard per vedere le visualizzazioni con tendenze orarie di queste metriche e variabili critiche (o configura [avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=it) per ogni metrica). Poi monitorali per uno o due giorni per assicurarti di ottenere i dati previsti e corretti. Cerca i punti di flesso. Preparati a risolvere immediatamente eventuali problemi critici. Se riscontri delle discrepanze, cerca nel livello dati, nelle regole di gestione dei tag e nelle regole di elaborazione per scoprirne il motivo.
+* Crea dashboard per visualizzare le visualizzazioni con tendenze orarie di queste metriche e variabili critiche (o configura [avvisi](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=it) per ogni metrica). Poi monitorali per uno o due giorni per assicurarti di ottenere i dati previsti e corretti. Cerca i punti di flesso. Preparati a risolvere immediatamente eventuali problemi critici. Se riscontri delle discrepanze, cerca nel livello dati, nelle regole di gestione dei tag e nelle regole di elaborazione per scoprirne il motivo.
 * Esegui nuovamente [Analytics Health Dashboard](https://express.adobe.com/page/tnNQGNlfzta3b/) per monitorare le tendenze generali delle metriche e delle variabili KPI.
 
 *Per ulteriori dettagli su come verificare che le metriche e le variabili funzionino correttamente, [leggi questi suggerimenti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) da Sarah Owen, Champion Adobe Analytics.*

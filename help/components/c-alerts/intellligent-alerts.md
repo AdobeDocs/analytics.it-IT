@@ -1,31 +1,35 @@
 ---
-description: Il sistema intelligente di avvisi offre un controllo più granulare sugli avvisi e integra il rilevamento delle anomalie con il sistema di avvisi.
-title: Avvisi intelligenti
+description: Gli avvisi consentono un controllo granulare sulle notifiche e un’integrazione con il rilevamento delle anomalie.
+title: Panoramica degli avvisi
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 53%
+source-wordcount: '306'
+ht-degree: 32%
 
 ---
 
-# Panoramica degli avvisi intelligenti
+# Panoramica degli avvisi
 
-Gli avvisi intelligenti (o semplicemente &quot;avvisi&quot;) in Adobe Analytics ti consentono di ricevere notifiche immediate quando si verificano eventi anomali nei tuoi dati.
+Gli avvisi in Adobe Analytics ti consentono di ricevere notifiche in base alle percentuali modificate o a punti dati specifici.
 
-Puoi impostare l’attivazione degli avvisi in base a soglie di anomalie, percentuali di modifica o punti dati specifici. Gli avvisi forniscono controlli granulari che si integrano con [Rilevamento anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), attivandosi quando sono più necessari.
+A seconda del pacchetto Adobe Analytics, puoi anche utilizzare gli avvisi da attivare in base alle soglie delle anomalie. Questi avvisi (noti anche come &quot;Avvisi intelligenti&quot;) forniscono controlli granulari che si integrano con [Rilevamento anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), attivandosi quando sono più necessari.
 
-La funzione Avvisi intelligenti permette di:
+Gli avvisi consentono di:
 
-* Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore)
 * Visualizzare in anteprima la frequenza di attivazione degli avvisi
 * Inviare avvisi tramite e-mail o SMS con collegamenti ai progetti di Analysis Workspace generati automaticamente
 * Creare avvisi “impilati” in grado di acquisire più metriche in un singolo avviso
+* Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore) (Disponibile solo per i clienti Adobe Analytics con un pacchetto Select, Prime o Ultimate)
 
-Il seguente tutorial video fornisce una panoramica di base degli avvisi: [Avvisi intelligenti](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=it) (5:34)
+Il seguente tutorial video fornisce una panoramica di base degli avvisi: [Avvisi](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=it) (5:34)
 
 ## Ricerca delle anomalie per gli avvisi
+
+>[!NOTE]
+>
+>L&#39;utilizzo degli avvisi con rilevamento delle anomalie (noti anche come _avvisi intelligenti_) è disponibile solo per le organizzazioni con un pacchetto Adobe Analytics Select, Prime o Ultimate.
 
 Se un avviso utilizza il rilevamento delle anomalie, il periodo di formazione varia in base alla granularità selezionata per l’avviso.
 
@@ -42,7 +46,7 @@ Per informazioni sulla creazione di avvisi in Adobe Analytics, consulta [Creare 
 
 >[!IMPORTANT]
 >
->L’utilizzo di dati con marcatura temporale per la creazione di avvisi potrebbe causarne l’attivazione in modo errato. Per gli avvisi intelligenti, Adobe consiglia di utilizzare dati privi di marcatura temporale.
+>L’utilizzo di dati con marcatura temporale per la creazione di avvisi potrebbe causarne l’attivazione in modo errato. L’Adobe consiglia di utilizzare dati senza marca temporale per gli avvisi.
 
 ## Gestire gli avvisi
 

@@ -4,9 +4,9 @@ title: Annullare le richieste di reporting in Reporting Activity Manager
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1419'
 ht-degree: 5%
 
 ---
@@ -163,7 +163,7 @@ Le applicazioni includono:
 * Report Builder
 * Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.
 * Chiamate API da 1.4 o 2.0 API
-* Avvisi intelligenti
+* Avvisi
 * Condividi con qualsiasi collegamento
 * Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics
 
