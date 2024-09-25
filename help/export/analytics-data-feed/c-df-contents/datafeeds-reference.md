@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6a534c13e1a3a54eba62733cf4802acc40f77f46
+source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3570'
 ht-degree: 67%
 
 ---
@@ -144,7 +144,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | **`mobileresolution`** | Risoluzione del dispositivo mobile. `[Width] x [Height]` in pixel. | varchar(255) |
 | **`monthly_visitor`** | Flag che determina se il visitatore è univoco per il mese corrente. | tinyint unsigned |
 | **`mvvar1`** - `mvvar3` | [Elenca i valori della variabile](/help/implement/vars/page-vars/list.md). Contiene un elenco delimitato di valori personalizzati a seconda dell’implementazione. Nelle colonne `post_mvvar1` - `post_mvvar3` il delimitatore originale è sostituito da `--**--`. | testo |
-| **`mvvar1_instances`** - `mvvar3_instances` | I valori delle variabili di elenco impostati sull’hit corrente. Sostituisce il delimitatore originale con `--**--`. Non ha una colonna `post`. | testo |
+| **`mvvar1_instances`** - `mvvar3_instances` | I valori delle variabili di elenco impostati sull’hit corrente. Sostituisce il delimitatore originale con `--**--`. Le colonne `post` in genere non contengono dati. | testo |
 | **`new_visit`** | Flag che determina se l’hit corrente è una nuova visita. Impostato dall’Adobe dopo 30 minuti di inattività della visita. | tinyint unsigned |
 | **`os`** | Un ID numerico che rappresenta il sistema operativo del visitatore. In base alla colonna `user_agent`. Il valore chiave per `operating_system.tsv` ricerca standard e `operating_system_type.tsv` [Ricerca dinamica](dynamic-lookups.md). | int senza segno |
 | **`page_event`** | Tipo di hit inviato nella richiesta di immagine (hit standard, collegamento per il download, collegamento personalizzato, collegamento di uscita). Consulta [Ricerca degli eventi di pagina](datafeeds-page-event.md). | tinyint unsigned |
