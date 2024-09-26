@@ -4,10 +4,10 @@ description: Le regole di elaborazione per il canale di marketing determinano se
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 100%
+source-wordcount: '1816'
+ht-degree: 91%
 
 ---
 
@@ -72,8 +72,8 @@ Questa tabella di riferimento definisce i campi, le opzioni e gli attributi hit 
 |--- |--- |
 | Tutto | Attiva questo canale solo quando tutti i criteri nella regola sono true. |
 | Qualsiasi | Attiva questo canale quando uno qualsiasi dei criteri della regola è true. Questa opzione è disponibile solo se nella regola sono presenti più criteri. |
-| ID AMO | Si tratta dei codici di tracciamento primari e secondari utilizzati dalle integrazioni Advertising Cloud e Advertising Analytics. Quando una di queste integrazioni è abilitata, è possibile utilizzare il prefisso del codice di tracciamento per identificare i canali specifici di Advertising Cloud. L’utilizzo di “ID AMO” inizia con “AL” per la ricerca, “AC” per la visualizzazione o “AO” per Social. Quando l’ID AMO viene utilizzato nei canali di marketing, le metriche di clic/costo/impression possono essere attribuite al canale corretto (se non configurate, vengono indirizzate a Diretto o Nessuno). |
-| ID AMO ED | Il codice di tracciamento secondario utilizzato da Advertising Cloud. Lo scopo principale di questo codice di tracciamento è quello di fungere da chiave per inviare nuovamente i dati ad Ad Cloud. Tuttavia, può essere utilizzato anche per identificare la visualizzazione di ClickThrough rispetto a quella dei ViewThroughs, se si desidera visualizzare questi canali come due canali di marketing separati. Questo può essere fatto impostando la logica del canale di marketing per “ID AMO EF” che termina con `:d` per la visualizzazione dei ClickThrough o “ID AMO EF” che termina con `:i` per la visualizzazione dei ViewThrough. Se non desideri dividere la visualizzazione in due canali, utilizza la dimensione ID AMO. |
+| ID AMO | Il codice di tracciamento principale utilizzato dalle integrazioni Adobe Advertising e Advertising Analytics. Quando una di queste integrazioni è abilitata, è possibile utilizzare il prefisso del codice di tracciamento per identificare i canali specifici di Advertising. Utilizza un &quot;AMO ID&quot; che inizia con &quot;AL&quot; per Search and Social (Ricerca e Social) o &quot;AC&quot; per Display (Visualizzazione). Quando l’AMO ID viene utilizzato nei canali di marketing, le metriche clic/costo/impression possono essere attribuite al canale corretto. Quando l’AMO ID non è configurato, queste metriche vengono spostate su Direct (Diretto) o None (Nessuno). |
+| ID AMO EF | Il codice di tracciamento secondario utilizzato da Adobe Advertising. Lo scopo principale di questo codice di tracciamento è quello di fungere da chiave per inviare nuovamente i dati ad Advertising. Può, tuttavia, essere utilizzato anche per identificare i ClickThrough di visualizzazione e i ViewThrough di visualizzazione come due canali di marketing separati. A questo scopo, imposta la logica del canale di marketing per &quot;AMO EF ID&quot; termina con `:d` per i clickthrough di visualizzazione o &quot;AMO EF ID&quot; termina con `:i` per Display ViewThroughs. Se non desideri dividere la visualizzazione in due canali, utilizza la dimensione ID AMO. |
 | Variabili di conversione | Sono costituite da eVar abilitate per questa suite di rapporti e si applicano solo quando queste variabili sono impostate tramite il codice di Adobe sulla pagina. |
 | Esiste | Sono disponibili diverse opzioni, tra cui:<ul><li>**Non esiste**: specifica che l’attributo hit non esiste nella richiesta. Ad esempio, in un dominio di riferimento, se l’utente digita un URL o fa clic su un segnalibro, l’attributo del dominio di riferimento non esiste.</li><li>**È vuoto**: specifica l’esistenza di un attributo hit, in genere un parametro di eVar o una stringa di query, senza che sia presente un valore associato all’attributo hit.</li><li>**Non contiene**: consente di specificare, ad esempio, che un dominio di riferimento non contiene un valore specifico (anziché utilizzare la selezione “Contiene”).</li></ul> |
 | Identifica il canale come | Associa la regola a un canale di marketing aggiunto alla pagina Gestione canale di marketing. |
