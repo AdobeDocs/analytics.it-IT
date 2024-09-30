@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5902'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 ### 2023 {#year2023}
 
-| Funzionalità | Descrizione |
+| Funzione | Descrizione |
 | --- | --- |
 | **Dicembre 2023** | |
 | Miglioramento della documentazione sulle regole bot | Informazioni aggiornate in [Comprendere e configurare le regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) per una maggiore chiarezza.<p>I miglioramenti includono:</p> <ul><li>Il titolo dell’articolo è stato aggiornato affinché sia più descrittivo</li><li>una migliore organizzazione delle informazioni</li><li>Sono stati aggiunti passaggi per indicare le informazioni basate sulle attività</li><li>Sono stati aggiunti ulteriori dettagli sui requisiti del file CSV durante il caricamento delle regole bot</li></ul> |
@@ -138,7 +138,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 ### 2022 {#year22}
 
-| Funzionalità | Descrizione |
+| Funzione | Descrizione |
 | --- | --- |
 | **Novembre 2022** | |
 | Variabili di gestione del consenso | Pagine dedicate al [Consenso alla gestione del consenso](/help/components/dimensions/cm-opt-in.md) e alla [Rinuncia alla gestione del consenso](/help/components/dimensions/cm-opt-out.md). |
@@ -148,7 +148,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Hint client | Nuova [panoramica e domande frequenti](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=it). |
 | Riepilogo delle metriche chiave | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Set di classificazione | La nuova esperienza utente [Set di classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=it) fornisce un’unica interfaccia per gestire classificazioni e regole e migliorare la visibilità dei dati di classificazione di proprietà del cliente. |
-| App per dispositivo mobile: visualizzazioni dettagli personalizzate | Nuovo argomento sulle [visualizzazioni dettagli personalizzate](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it) |
+| App per dispositivo mobile: visualizzazioni dettagli personalizzate | Nuovo argomento sulle [visualizzazioni dettagli personalizzate](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=it). |
 | VISTA | Nuova pagina che illustra le nozioni di base delle [Regole VISTA](/help/technotes/vista.md). |
 | **Settembre 2022** | |
 | Grafici combinati | Nuovo argomento sulla visualizzazione con [grafici combinati](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
@@ -184,7 +184,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 ### 2021 {#year2021}
 
-| Funzionalità | Descrizione |
+| Funzione | Descrizione |
 | --- | --- |
 | **Ottobre 2021** |  |
 | 21 ottobre 2021 | Nuova documentazione su [Segmenti rapidi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=it) in Analysis Workspace |
@@ -220,7 +220,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 ### 2020 {#year2020}
 
-| Funzionalità | Descrizione |
+| Funzione | Descrizione |
 | --- | --- |
 | **Dicembre 2020** | |
 | 7 dicembre 2020 | Sono state modificate tutte le pagine rilevanti per includere o sostituire l’endpoint “adobedc.net”. |
@@ -287,7 +287,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 ### 2019 {#year2019}
 
-| Funzionalità | Descrizione |
+| Funzione | Descrizione |
 | --- | --- |
 | 19 dicembre 2020 | Il [limite predefinito per l’archiviazione dei dati FTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=it) è stato aggiornato a 10 GB. |
 | 29 novembre 2019 | Revisione della [Documentazione del feed dati](/help/export/analytics-data-feed/data-feed-overview.md). |

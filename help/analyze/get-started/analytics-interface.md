@@ -4,9 +4,9 @@ title: Informazioni sull’interfaccia di Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2060'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ La scheda [!UICONTROL Components] include funzioni che consentono di ottimizzare
    | Metriche calcolate | Le metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che puoi creare da metriche esistenti.  Consentono ai marketer, product manager e analisti di porre domande sui dati senza dover cambiare l’implementazione di Analytics. | [Metriche calcolate e metriche calcolate avanzate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=it) |
    | Intervalli di date | Analysis Workspace include un elenco di intervalli di date predefiniti che gli utenti possono utilizzare durante la creazione di analisi. Inoltre, è possibile creare intervalli di date personalizzati e renderli disponibili agli utenti in Analysis Workspace. | [Creare intervalli di date personalizzati](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=it) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Suite di rapporti virtuali | Le suite di rapporti virtuali segmentano i dati di Adobe Analytics, in modo da poter controllare l’accesso a ciascun segmento. | [Panoramica delle suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it) |
-   | Avvisi | Gli avvisi consentono un controllo più granulare sugli avvisi e integrano il rilevamento delle anomalie con il sistema di avvisi. | [Panoramica avvisi](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=it) |
+   | Avvisi | Gli avvisi consentono un controllo più granulare sugli stessi e integrano il rilevamento delle anomalie con il sistema di avvisi. | [Panoramica avvisi](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=it) |
    | Annotazioni | Le annotazioni in Workspace consentono di comunicare in modo efficace dettagli sui dati contestuali a beneficio degli utenti in tutta l’organizzazione. Consentono di collegare gli eventi calendario a dimensioni o metriche specifiche. | [Gestire le annotazioni](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=it) |
    | Set di classificazione | I set di classificazione forniscono un’unica interfaccia per gestire classificazioni e regole. <p>Una classificazione è un modo per classificare i dati delle variabili di Analytics e visualizzarli in modi diversi quando si generano i rapporti. È possibile stabilire una relazione tra un valore di variabile e i metadati correlati a tale valore. Le classificazioni possono essere utilizzate sulla maggior parte delle dimensioni personalizzate, come codice di tracciamento, prop ed eVar.</p> | [Panoramica dei set di classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=it) |
    | Posizioni | Per importare i dati di classificazione di Adobe Analytics da una destinazione cloud, innanzitutto è necessario aggiungere e configurare la posizione in cui si desidera raccoglierli. È possibile creare, modificare o eliminare le posizioni. | [Gestione posizioni](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=it) |

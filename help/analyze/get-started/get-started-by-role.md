@@ -4,9 +4,9 @@ title: Introduzione per amministratori, analisti, utenti finali e sviluppatori
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -103,13 +103,13 @@ Anche se chiunque all’interno di un’organizzazione può utilizzare Adobe Ana
 
 Di seguito sono riportate le attività e le funzioni chiave che gli analisti devono conoscere per sfruttare appieno le potenzialità di Adobe Analytics e Analysis Workspace.
 
-| Funzionalità | Uso previsto | Ulteriori informazioni |
+| Funzione | Uso previsto | Ulteriori informazioni |
 |---------|----------|---------|
 | Creare e condividere progetti in Analysis Workspace | Analysis Workspace è uno strumento basato su browser flessibile che consente di creare rapidamente le analisi e condividere i dati rilevati. Tramite un’interfaccia in cui è possibile eseguire semplici operazioni di trascinamento, puoi definire le analisi, aggiungere visualizzazioni per riprodurre i dati in modo facilmente comprensibili, curare un set di dati, condividere e pianificare progetti con chiunque all’interno della tua organizzazione.<p>Gli analisti di dati sono spesso responsabili della creazione di progetti in Analysis Workspace per gli utenti all’interno della loro organizzazione.</p><p>Una volta creati i progetti, gli analisti li condividono con gli [utenti finali](#end-users) (non analisti) nelle loro organizzazioni che hanno richiesto i dati e li aiutano a capire come interpretarli.</p> | <ul><li>[Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)</li><li>[Condividere progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md)</li></ul> |
 | Attribuzione | Gli analisti possono personalizzare il modo in cui agli elementi dimensionali deve essere attribuito il merito per gli eventi di successo utilizzando vari modelli di attribuzione e intervalli di lookback in Analysis Workspace.<p>I modelli di attribuzione lineare attribuiscono lo stesso credito a ogni punto di contatto che porta a una conversione, mentre quelli di primo contatto attribuiscono tutto il merito al primo punto di contatto. Sono disponibili molti altri modelli di attribuzione, tra cui il modello algoritmico che utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito. </p> | [Modelli di attribuzione e intervalli di lookback](/help/analyze/analysis-workspace/attribution/models.md) |
 | Rilevamento delle anomalie | La modellazione statistica in Analysis Workspace trova automaticamente tendenze impreviste nei dati analizzando le metriche e determinando un limite inferiore, un limite superiore e un intervallo di valori previsto. Quando si verifica un picco o un calo imprevisto, il sistema ti avvisa nel rapporto. | [Panoramica del rilevamento anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Analisi dei contributi | Utilizza Anaysis Workspace per scoprire pattern nascosti nei dati, spiegare anomalie statistiche e individuare correlazioni alla base di azioni inaspettate da parte della clientela, valori fuori dalla norma e improvvisi picchi o cali delle metriche sui segmenti di pubblico. | [Analisi contributi](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) in [Panoramica del rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
-| Avvisi | Crea e gestisci gli avvisi in base ad anomalie nei dati e ad avvisi “impilati” che raccolgono più metriche in un singolo avviso. | [Panoramica avvisi](/help/components/c-alerts/intellligent-alerts.md) |
+| Avvisi | Crea e gestisci gli avvisi in base ad anomalie nei dati e ad avvisi “impilati” che raccolgono più metriche in un singolo avviso. | [Panoramica sugli avvisi](/help/components/c-alerts/intellligent-alerts.md) |
 | Esportazione dei dati | Le funzioni Feed di dati e Data warehouse consentono di esportare dati in varie destinazioni cloud, ad esempio Google Cloud Platform, Azure RBAC, Azure SAS e Amazon S3. | [Guida all’esportazione di Analytics](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=it) |
 | Activity Map | Activity Map è un’applicazione di Adobe Analytics progettata per classificare l’attività dei collegamenti utilizzando sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico nelle pagine web.<p>Activity Map ti permette di configurare varie viste per identificare visivamente l’accelerazione dell’attività dei clienti, quantificare le iniziative di marketing e intervenire sulle esigenze e i comportamenti del tuo pubblico.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=it) |
 | Report Builder | Report Builder è un componente aggiuntivo per Microsoft Excel. Il Report Builder ti consente di generare richieste personalizzate a partire da dati di Adobe Analytics inseriti nei tuoi fogli di lavoro Excel. Le richieste possono fare riferimento in maniera dinamica a celle presenti nel tuo foglio di lavoro, inoltre hai la possibilità di aggiornare e personalizzare la presentazione dei dati da parte del Report Builder. | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=it) |
