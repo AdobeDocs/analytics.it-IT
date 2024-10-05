@@ -4,9 +4,9 @@ description: Le variabili di dati di contesto ti consentono di definire variabil
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 831df50a9c73522493ed60ce5df51192b6933480
+source-git-commit: 983b5073cf17a6aa0c038516c1d1ec3a40ca9eed
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '569'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 Le variabili di dati di contesto ti consentono di definire variabili personalizzate in ogni pagina leggibile dalle regole di elaborazione. Invece di assegnare esplicitamente i valori alle variabili di Analytics nel codice, puoi inviare dati in variabili di dati di contesto. Le regole di elaborazione accettano quindi i valori delle variabili di dati di contesto e li trasmettono alle rispettive variabili di Analytics. Consulta [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) nella Guida utente di amministrazione.
 
-Le variabili di dati contestuali sono utili ai team di sviluppo per raccogliere dati in elementi denominati anziché in variabili numerate. Ad esempio, invece di richiedere ai team di sviluppo di assegnare l&#39;autore della pagina a `eVar10`, puoi richiedere loro di assegnarlo a `s.contextData["author"]`. Un amministratore di Analytics della tua organizzazione può quindi creare regole di elaborazione per mappare le variabili di dati di contesto in variabili di Analytics a scopo di reporting. In definitiva, i team di sviluppo si preoccuperebbero solo delle variabili di dati di contesto anziché delle numerose variabili di pagina offerte dall’Adobe.
+Le variabili di dati contestuali sono utili ai team di sviluppo per raccogliere dati in elementi denominati anziché in variabili numerate. Ad esempio, invece di richiedere ai team di sviluppo di assegnare l&#39;autore della pagina a `eVar10`, puoi richiedere loro di assegnarlo a `s.contextData["author"]`. Un amministratore di Analytics della tua organizzazione può quindi creare regole di elaborazione per mappare le variabili di dati di contesto in variabili di Analytics a scopo di reporting. In definitiva, i team di sviluppo si preoccuperebbero solo delle variabili di dati di contesto anziché delle numerose variabili di pagina offerte da Adobe.
 
 ## Variabili di dati di contesto tramite Web SDK
 
@@ -56,6 +56,7 @@ s.contextData["example_variable"] = "Example value";
 * Le variabili di dati di contesto valide contengono solo caratteri alfanumerici, trattini bassi e punti. L’Adobe non garantisce la raccolta dei dati nelle regole di elaborazione se includi altri caratteri, ad esempio i trattini.
 * Non avviare le variabili di dati di contesto con `"a."`. Questo prefisso è riservato e utilizzato da Adobe. Ad esempio, non utilizzare `s.contextData["a.InstallEvent"]`.
 * Le variabili di dati di contesto non fanno distinzione tra maiuscole e minuscole. Le variabili `s.contextData["example"]` e `s.contextData["EXAMPLE"]` sono identiche.
+* Una singola chiave non può contenere più di un valore. Se si desidera utilizzare variabili di dati di contesto per variabili multivalore, concatenare tutti i valori utilizzando un delimitatore (in genere una virgola) e trasmetterli a una [prop elenco](prop.md#list-props) o a una [variabile elenco](list.md) utilizzando le regole di elaborazione.
 
 ## Utilizzare le regole di elaborazione per popolare le variabili di analisi
 
