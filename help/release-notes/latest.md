@@ -4,17 +4,17 @@ description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d9dd297a510b2f5056429f5938154c59f0a53cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (ottobre 2024)
 
-**Ultimo aggiornamento**: giovedì 2 ottobre 2024
+**Ultimo aggiornamento**: 2 ottobre 2024
 
-Queste note sulla versione coprono il periodo dal 2 ottobre 2024 al 22 ottobre 2024. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
+Queste note sulla versione coprono il periodo di rilascio dal 2 al 22 ottobre 2024. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
 ## Nuove funzioni o miglioramenti {#features}
 
@@ -27,9 +27,9 @@ Queste note sulla versione coprono il periodo dal 2 ottobre 2024 al 22 ottobre 2
 ## Correzioni in Adobe Analytics
 
 Analysis Workspace: AN-343611; AN-355870; AN-357100; AN-358364; AN-358756; AN-359269
-App mobile di Analytics: AN-354085
+App mobile di analisi: AN-354085
 Classificazioni: AN-353074; AN-357533; AN-358308; AN-358350; AN-358732; AN-358925; AN-359249
-Analytics tra dispositivi: AN-357968
+Cross-Device Analytics: AN-357968
 Feed dati: AN-358489; AN-358542
 Data Warehouse: AN-352181; AN-356701; AN-356802; AN-356804; AN-359162
 
@@ -60,4 +60,4 @@ Per gli ultimi aggiornamenti sulle versioni di AppMeasurement (versione 2.26.0),
 * [Note sulle versioni precedenti 2024](/help/release-notes/2024.md)
 * [Note sulla versione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it)
 * [Note sulla versione del componente aggiuntivo Streaming Media Collection](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=it)
-* Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cloud](https://business.adobe.com/it/products/adobe-experience-cloud-products.html)
+* Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cloud](https://business.adobe.com/products/adobe-experience-cloud-products.html)
