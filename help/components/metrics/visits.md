@@ -3,10 +3,10 @@ title: Visite
 description: Una sequenza di pagine visualizzate in una sessione.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Una visita non coincide necessariamente con una sessione del browser a causa dei
 
 Se un visitatore esegue una di queste azioni, inizia una nuova visita:
 
-* cancella la cache a metà sessione e continua a navigare nel sito;
+* Elimina i cookie a metà sessione e continua a navigare nel sito
 * lascia il sito aperto in una scheda per più di 30 minuti, quindi continua la navigazione;
 * apre un browser diverso e passa al sito sullo stesso computer;
 * naviga sul sito da dispositivi diversi
