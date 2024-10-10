@@ -5,7 +5,7 @@ user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Scopri come utilizzare i feed di dati per esportare dati non elaborati, e Data Warehouse per recuperare un output di dati sotto forma di foglio di calcolo. Scopri come utilizzare FTP e SFTP per trasferire i file.
 source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
 ht-degree: 100%
 
