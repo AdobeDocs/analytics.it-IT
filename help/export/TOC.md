@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Scopri come utilizzare i feed di dati per esportare dati non elaborati, e Data Warehouse per recuperare un output di dati sotto forma di foglio di calcolo. Scopri come utilizzare FTP e SFTP per trasferire i file.
-source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
-workflow-type: ht
-source-wordcount: '282'
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+workflow-type: tm+mt
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,6 @@ ht-degree: 100%
    + [Ordina per metrica](data-warehouse/sorting-by-metric.md)
    + [Gestire le richieste di Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
    + [Componenti supportati in Data Warehouse](data-warehouse/component-support.md)
-   + [Domande frequenti su Data Warehouse](data-warehouse/faq.md)
    + [Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)](data-warehouse/data-warehouse-bp.md)
 + FTP e SFTP {#ftp-and-sftp}
    + [Utilizzare FTP e SFTP con Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)

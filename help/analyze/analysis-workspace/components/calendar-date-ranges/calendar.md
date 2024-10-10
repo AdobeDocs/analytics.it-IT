@@ -4,10 +4,10 @@ title: Panoramica del calendario e degli intervalli di date
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Il primo clic su un calendario avvia una selezione di intervalli di date. Il sec
 | Impostazione | Descrizione |
 |--- |--- |
 | Giorni selezionati | Giorni/settimane/mesi/anni selezionati. |
-| Rendi i componenti di intervallo di date relativi al calendario del pannello | Mantieni coerenti le date in base all’intervallo di date del pannello. |
+| Rendi i componenti di intervallo di date relativi al calendario del pannello | Se è disattivato, qualsiasi componente di intervallo di date utilizzato all’interno di una tabella, di una visualizzazione o di una zona di rilascio di un pannello sovrascrive il calendario del pannello. <p>Se abilitati, tutti i componenti dell’intervallo di date utilizzati all’interno di una tabella, di una visualizzazione o di una zona di rilascio di un pannello sono correlati all’intervallo di date del pannello. Ad esempio, se l’intervallo di date del pannello è impostato su 1 novembre fino al 30 novembre e in una tabella a forma libera viene utilizzato un componente Intervallo ultime settimane, le informazioni nella tabella a forma libera si riferiscono all’ultima settimana di ottobre. |
 | Utilizzo delle date continue | Le date continue consentono di generare un rapporto dinamico per un determinato periodo di tempo precedente o successivo all’esecuzione del rapporto. Ad esempio, per un rapporto su tutti gli ordini inseriti il “Mese scorso” (in base al campo Data creazione) eseguito in dicembre, vengono presentati gli ordini di novembre. Se esegui di nuovo lo stesso rapporto a gennaio, puoi vedere gli ordini di dicembre.<ul><li>**[!UICONTROL Date Preview]** (Anteprima data): indica il periodo di tempo coperto dal calendario continuo.</li><li>**[!UICONTROL Start]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li><li>**[!UICONTROL End]**: puoi scegliere il giorno, la settimana, il mese, il trimestre o l’anno corrente.</li></ul>Per visualizzare un esempio, consulta [Intervalli di date personalizzati](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Selezionato per impostazione predefinita. |
 | Intervallo date | Consente di scegliere un intervallo di date predefinito. Il valore predefinito è Ultimi 30 giorni. **[!UICONTROL This week/month/quarter/year (excluding today)]** consente di scegliere tra intervalli di date che non includono dati per giorni parziali a partire da oggi. |
 | Applica a tutti i pannelli | Consente di selezionare l’intervallo di date per il pannello corrente e per tutti gli altri pannelli del progetto. |
