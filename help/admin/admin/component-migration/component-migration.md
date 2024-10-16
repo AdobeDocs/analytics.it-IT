@@ -3,7 +3,7 @@ description: Spiega come migrare componenti e progetti da Adobe Analytics a Cust
 title: Migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
+source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 5%
@@ -106,7 +106,7 @@ Prima di eseguire la migrazione di qualsiasi progetto al Customer Journey Analyt
 
    Ripeti questo processo per ogni dimensione o metrica contenente l’icona di avviso.
 
-   Dopo aver mappato tutte le dimensioni e le metriche nella suite di rapporti di Adobe Analytics a una dimensione o metrica nella visualizzazione dati del Customer Journey Analytics, accanto al nome della suite di rapporti nella sezione [!UICONTROL **Schema mappa per suite di rapporti**] viene visualizzato un segno di spunta verde ![segno di spunta](assets/report-suite-check.png).
+   Dopo che tutte le dimensioni e le metriche nella suite di rapporti di Adobe Analytics sono state mappate a una dimensione o metrica nella suite di rapporti di Customer Journey Analytics, nella sezione [!UICONTROL **Mappa schema per suite di rapporti**] viene visualizzato un segno di spunta verde ![segno di spunta](assets/report-suite-check.png) accanto al nome della suite di rapporti.
 
 1. (Condizionale) Se il progetto di cui si sta eseguendo la migrazione contiene più di una suite di rapporti, selezionare un&#39;altra suite di rapporti nella sezione [!UICONTROL **Mappa schema per suite di rapporti**], quindi ripetere i passaggi da 6 a 10. <!-- double-check that the step numbers are still correct -->
 
