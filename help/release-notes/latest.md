@@ -3,16 +3,16 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d9dd297a510b2f5056429f5938154c59f0a53cfa
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 29b799eb778dda4d5c529249f1898e92607e51aa
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 91%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (ottobre 2024)
 
-**Ultimo aggiornamento**: 2 ottobre 2024
+**Ultimo aggiornamento**: giovedì 16 ottobre 2024
 
 Queste note sulla versione coprono il periodo di rilascio dal 2 al 22 ottobre 2024. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -20,9 +20,7 @@ Queste note sulla versione coprono il periodo di rilascio dal 2 al 22 ottobre 20
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| N/D | N/D | N/D | N/D |
-
-
+| Nuovo Report Builder per Adobe Analytics | La nuova applicazione di Report Builder include funzionalità aggiornate per Adobe Analytics, quali prestazioni migliorate, interfaccia utente semplificata, supporto API 2.0 e supporto per Microsoft Excel su Mac, Windows e browser Web. [Link alla documentazione] |  | giovedì 16 ottobre 2024 |
 
 ## Correzioni in Adobe Analytics
 
