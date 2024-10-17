@@ -4,7 +4,7 @@ title: Create a Data Request (Creare una richiesta di archivio dati)
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 3%
@@ -12,6 +12,8 @@ ht-degree: 3%
 ---
 
 # Creazione di una richiesta di dati di Report Builder
+
+{{legacy-arb}}
 
 Passaggi per creare una richiesta di dati di base.
 

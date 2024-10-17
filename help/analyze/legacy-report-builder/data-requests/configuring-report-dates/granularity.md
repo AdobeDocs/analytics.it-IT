@@ -5,7 +5,7 @@ uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 feature: Report Builder
 role: User, Admin
 exl-id: 96c3b93a-9adf-4993-b6fc-9146ee5be4bd
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%
@@ -13,6 +13,8 @@ ht-degree: 1%
 ---
 
 # Granularità
+
+{{legacy-arb}}
 
 Nel passaggio 1 della Creazione guidata richieste è possibile applicare un livello di granularità alla richiesta di dati. Granularità specifica il livello di dettaglio basato sul tempo incluso nel rapporto.
 

@@ -5,7 +5,7 @@ uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 feature: Report Builder
 role: User, Admin
 exl-id: 79a90e33-00ef-435e-8304-be0cf59ced78
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 7%
@@ -13,6 +13,8 @@ ht-degree: 7%
 ---
 
 # Anteporre e posporre testo alle celle
+
+{{legacy-arb}}
 
 Nelle richieste di layout pivot e personalizzato, per i valori numerici o stringa, è possibile anteporre o posporre stringhe o caratteri alle celle.
 

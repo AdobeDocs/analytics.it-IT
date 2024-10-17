@@ -4,7 +4,7 @@ title: Importare rapporti con segnalibri e minirapporti dashboard
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 5%
@@ -12,6 +12,8 @@ ht-degree: 5%
 ---
 
 # Importare rapporti con segnalibri e minirapporti dashboard
+
+{{legacy-arb}}
 
 Tutti i rapporti con segnalibri e i rapporti del dashboard sono ora elencati come dimensioni nel passaggio 1 della Creazione guidata richieste e possono essere importati come richieste di Report Builder.
 

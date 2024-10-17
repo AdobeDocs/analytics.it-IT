@@ -5,7 +5,7 @@ uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
 role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 5%
@@ -13,6 +13,8 @@ ht-degree: 5%
 ---
 
 # Definizioni di Creazione guidata richieste: date preimpostate
+
+{{legacy-arb}}
 
 Le date predefinite consentono di selezionare le date di uso comune o le date salvate. Nel Passaggio 1 della Creazione guidata richieste scegliere Date preimpostate. Di seguito sono riportate le definizioni dei campi per le date preimpostate in Report Builder.
 

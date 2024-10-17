@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 32%
+source-wordcount: '561'
+ht-degree: 28%
 
 ---
 
@@ -16,10 +16,14 @@ ht-degree: 32%
 
 Il nuovo componente aggiuntivo per Report Builder JavaScript, inizialmente disponibile solo nel Customer Journey Analytics, ora è stato introdotto anche in Adobe Analytics. Questa nuova versione offre diversi vantaggi:
 
-- Supporto per Microsoft Excel su Mac, Microsoft Windows e browser Web
-- Esperienza utente migliorata
+- Trova informazioni in Excel in modo più semplice e veloce con flussi di lavoro migliorati per la creazione e la gestione dei blocchi di dati, inclusa una maggiore flessibilità
+- Multipiattaforma: non è più possibile accedere alla macchina virtuale per utilizzare il Report Builder, in quanto sono ora supportati PC, Mac ed Excel Online
+- Meno tempo di attesa per il ritorno dei blocchi di dati, grazie all’aggiornamento API 2.0
 - Velocità ottimizzata.
-- Supporto per l’API di Analytics 2.0
+
+>[!NOTE]
+>
+>La pianificazione della cartella di lavoro per questa versione del Report Builder su Adobe Analytics non è ancora stata rilasciata, ma sarà disponibile all’inizio del 2025. È ora possibile iniziare a utilizzare le cartelle di lavoro che non richiedono la pianificazione.
 
 Gli utenti dello strumento Report Builder legacy possono [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nel nuovo Report Builder.
 

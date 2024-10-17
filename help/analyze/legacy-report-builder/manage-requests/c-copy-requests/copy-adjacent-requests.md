@@ -5,7 +5,7 @@ uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 feature: Report Builder
 role: User, Admin
 exl-id: 99476ec5-f1f0-49f5-a2d8-354cec63c6b1
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -13,6 +13,8 @@ ht-degree: 1%
 ---
 
 # Copiare richieste adiacenti
+
+{{legacy-arb}}
 
 Nello stesso modo in cui si copiano e si incollano le richieste, è anche possibile riposizionare le richieste in un&#39;altra parte del foglio di calcolo selezionando [!UICONTROL Cut Request] dal menu di scelta rapida.
 

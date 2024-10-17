@@ -4,16 +4,18 @@ title: Metriche calcolate
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 17%
+source-wordcount: '396'
+ht-degree: 12%
 
 ---
 
 # Metriche calcolate
 
-Report Builder 5.2 supporta le metriche calcolate unificate di Adobe Analytics. Tra le altre innovazioni, tutte le metriche calcolate ora dispongono di un ID globale, quindi non sono più limitate a una suite di rapporti.
+{{legacy-arb}}
+
+Report Builder 5.2 e versioni successive supportano le metriche calcolate di Adobe Analytics. Tutte le metriche calcolate ora dispongono di un ID globale; non sono più limitate a una singola suite di rapporti.
 
 >[!NOTE]
 >

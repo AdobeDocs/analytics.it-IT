@@ -5,7 +5,7 @@ uuid: f00218c0-07f3-4505-98b0-de05187401fd
 feature: Report Builder
 role: User, Admin
 exl-id: b850197e-b3bd-4318-a827-61faa41b2db3
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 7%
@@ -13,6 +13,8 @@ ht-degree: 7%
 ---
 
 # Date corrette e intervalli di date salvati
+
+{{legacy-arb}}
 
 Quando si specifica una data fissa o un intervallo di date, in Report Builder viene visualizzato il calendario di reporting, che consente di selezionare una data, un intervallo di date o una data predefinita. Puoi anche salvare una data fissa da utilizzare come modello e specificare se le date salvate sono disponibili per la suite di rapporti corrente o per tutte le suite di rapporti.
 

@@ -5,7 +5,7 @@ uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 2%
@@ -13,6 +13,8 @@ ht-degree: 2%
 ---
 
 # Rapporti in tempo reale
+
+{{legacy-arb}}
 
 Visualizza il traffico della pagina web e classifica le visualizzazioni di pagina in tempo reale, in modo da comprendere più rapidamente le tendenze sul sito.
 

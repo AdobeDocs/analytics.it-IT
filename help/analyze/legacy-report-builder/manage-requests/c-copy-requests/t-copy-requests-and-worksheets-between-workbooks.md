@@ -5,7 +5,7 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 1%
@@ -14,8 +14,12 @@ ht-degree: 1%
 
 # Copiare richieste e fogli di lavoro tra le cartelle di lavoro
 
+{{legacy-arb}}
+
 Copiare un intero foglio di calcolo in una cartella di lavoro di origine in un foglio di calcolo in una o più cartelle di lavoro di destinazione. A tale scopo, è necessario che nella stessa istanza di Excel siano aperte almeno due cartelle di lavoro:
+
 * La prima cartella di lavoro di origine contiene un foglio di calcolo (foglio di lavoro) con richieste mappate alle celle.
+
 * Le altre cartelle di lavoro di destinazione sono le destinazioni. Per ogni nuova cartella di lavoro di destinazione, è necessario accedere alla stessa suite di rapporti della cartella di lavoro di origine prima di poter incollare fogli di calcolo contenenti richieste.
 
 >[!NOTE]

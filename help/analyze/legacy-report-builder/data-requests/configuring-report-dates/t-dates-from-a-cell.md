@@ -5,7 +5,7 @@ uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
 role: User, Admin
 exl-id: e10573cc-984e-4202-a797-c2c9bec2af96
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 4%
@@ -13,6 +13,8 @@ ht-degree: 4%
 ---
 
 # Date da una cella
+
+{{legacy-arb}}
 
 È possibile specificare un intervallo di date selezionando le celle da un foglio di lavoro che contiene una richiesta. Report Builder utilizza le informazioni specifiche sull’intervallo di date in tali richieste. Se selezioni la data odierna, verranno visualizzati dati parziali in base all’ora del giorno in cui viene eseguita la richiesta.
 

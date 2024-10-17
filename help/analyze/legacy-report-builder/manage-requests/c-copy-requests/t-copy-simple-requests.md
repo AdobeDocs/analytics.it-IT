@@ -5,7 +5,7 @@ uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 feature: Report Builder
 role: User, Admin
 exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Copiare richieste semplici
+
+{{legacy-arb}}
 
 Copia una richiesta semplice anziché una richiesta referenziale. Una richiesta semplice è una richiesta che non contiene riferimenti a un’altra richiesta o al contenuto di una cella.
 

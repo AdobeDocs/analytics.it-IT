@@ -4,7 +4,7 @@ title: Calendario personalizzato
 feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 55%
@@ -12,6 +12,8 @@ ht-degree: 55%
 ---
 
 # Calendario personalizzato
+
+{{legacy-arb}}
 
 Report Builder utilizza il calendario personalizzato di Analytics. Puoi utilizzare il calendario per definire il primo giorno della settimana e dell’anno oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati del calendario vengono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l’analisi dei costi del ciclo paghe o la regolamentazione del conteggio dell’inventario fisico.
 

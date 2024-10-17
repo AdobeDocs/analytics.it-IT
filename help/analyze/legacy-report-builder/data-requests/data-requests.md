@@ -4,7 +4,7 @@ title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 3%
@@ -12,6 +12,8 @@ ht-degree: 3%
 ---
 
 # Richieste di dati: Creazione guidata richieste passaggio 1
+
+{{legacy-arb}}
 
 Nella maschera Creazione guidata richieste: passaggio 1 selezionare la suite di rapporti, il tipo di rapporto, i segmenti e le date di configurazione.
 

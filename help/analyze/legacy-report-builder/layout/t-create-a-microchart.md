@@ -5,7 +5,7 @@ uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 feature: Report Builder
 role: User, Admin
 exl-id: a53f0d22-9edf-4040-a40b-bdd920a670f5
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 2%
@@ -13,6 +13,8 @@ ht-degree: 2%
 ---
 
 # Creare un micrografico
+
+{{legacy-arb}}
 
 In Layout personalizzato è possibile trasformare una colonna di metriche in un grafico a barre con un valore percentuale corrispondente o in un valore percentuale con un grafico a barre corrispondente. Il valore percentuale è il valore della metrica o il totale della richiesta complessiva non filtrata per il periodo.
 

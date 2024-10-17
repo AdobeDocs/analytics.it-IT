@@ -5,7 +5,7 @@ uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
 role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 2%
@@ -13,6 +13,8 @@ ht-degree: 2%
 ---
 
 # Mappare metriche e dimensioni alle celle
+
+{{legacy-arb}}
 
 Prima di iniziare a mappare gli elementi al foglio di calcolo, verificare che il foglio di calcolo non sia protetto. Se lo schema di protezione del foglio di lavoro impedisce qualsiasi azione da parte dell&#39;utente, non sarà possibile selezionare celle nel foglio di calcolo. Per prima cosa, rimuovere la protezione del foglio, quindi aggiungere mappature di celle.
 

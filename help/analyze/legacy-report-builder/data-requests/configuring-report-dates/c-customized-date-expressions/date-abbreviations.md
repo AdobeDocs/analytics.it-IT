@@ -5,7 +5,7 @@ uuid: 829d613e-5900-4586-a9fc-239988492d8b
 feature: Report Builder
 role: User, Admin
 exl-id: f2d19f3f-c663-4fa4-b6c1-fe0dcdfffe63
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 2%
@@ -13,6 +13,8 @@ ht-degree: 2%
 ---
 
 # Abbreviazioni data
+
+{{legacy-arb}}
 
 Le abbreviazioni temporali si riferiscono a una data particolare in cui inizia un periodo, non a un intervallo di giorni. Un intervallo di giorni viene espresso specificando una data di inizio e una data di fine per due abbreviazioni di tempo o termini.
 

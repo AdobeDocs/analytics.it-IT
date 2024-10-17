@@ -4,7 +4,7 @@ title: Configurare una richiesta in tempo reale
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 7%
@@ -12,6 +12,8 @@ ht-degree: 7%
 ---
 
 # Configurare una richiesta in tempo reale
+
+{{legacy-arb}}
 
 Per configurare le date di richiesta in tempo reale:
 

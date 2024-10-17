@@ -4,7 +4,7 @@ title: Risoluzione dei problemi di integrazione di Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 2%
@@ -12,6 +12,8 @@ ht-degree: 2%
 ---
 
 # Risoluzione dei problemi di integrazione di Power BI
+
+{{legacy-arb}}
 
 Ricercare e risolvere i problemi comuni quando si utilizza il Report Builder con il Power BI.
 

@@ -4,7 +4,7 @@ description: Scopri come espandere le funzionalità delle cartelle di lavoro e d
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Macro di Visual Basic nel Report Builder
+
+{{legacy-arb}}
 
 Le macro di Visual Basic (VBA) includono funzionalità che consentono di aggiornare le cartelle di lavoro di Excel. Visual Basic dispone dell&#39;accesso alla cartella di lavoro, a Excel e a Windows.
 

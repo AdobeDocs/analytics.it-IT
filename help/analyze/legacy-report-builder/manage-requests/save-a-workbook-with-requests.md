@@ -5,7 +5,7 @@ uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -13,6 +13,8 @@ ht-degree: 1%
 ---
 
 # Salvare una cartella di lavoro con le richieste
+
+{{legacy-arb}}
 
 Quando crei report con richieste incorporate, puoi salvarli utilizzando **File** > **Salva** o **File** > **Salva con nome** in Excel. Il Report Builder rileva se il rapporto contiene richieste. Quando selezioni una delle opzioni di salvataggio, completa il modulo **Salva cartella di lavoro come**.
 

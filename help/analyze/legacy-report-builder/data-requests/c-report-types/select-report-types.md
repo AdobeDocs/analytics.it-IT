@@ -4,7 +4,7 @@ title: Panoramica sui tipi di rapporto
 feature: Report Builder
 role: User, Admin
 exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 5%
@@ -12,6 +12,8 @@ ht-degree: 5%
 ---
 
 # Panoramica sui tipi di rapporto
+
+{{legacy-arb}}
 
 Puoi selezionare il tipo di rapporto di base per la richiesta di dati, ad esempio Metriche del sito, Contenuto del sito e Video.
 
