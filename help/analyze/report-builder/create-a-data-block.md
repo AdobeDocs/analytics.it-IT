@@ -5,9 +5,9 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -20,25 +20,25 @@ Un *blocco di dati* è la tabella di dati creata da una singola richiesta di dat
 
 Configura i parametri iniziali dei blocchi di dati per la posizione del blocco di dati, le suite di rapporti e un intervallo di date.
 
-1. Fai clic su **Crea blocco di dati**.
+1. Fare clic su **[!UICONTROL Create data block]**.
 
    ![Schermata che mostra l&#39;opzione Crea blocco di dati.](./assets/create_db.png)
 
-1. Imposta il **percorso blocco dati**.
+1. Imposta **[!UICONTROL Data block location]**.
 
    L&#39;opzione Posizione blocco dati definisce la posizione del foglio di lavoro in cui Report Builder aggiunge i dati al foglio di lavoro.
 
    Per specificare la posizione del blocco di dati, selezionare una singola cella nel foglio di lavoro oppure immettere un indirizzo di cella come a3, \\\$a3, a\\\$3 o sheet1!a2. La cella specificata sarà l’angolo superiore sinistro del blocco di dati quando i dati vengono recuperati.
 
-1. Scegli le **suite di rapporti**.
+1. Scegli una **suite di rapporti**.
 
    L’opzione Suite di rapporti consente di scegliere una suite di rapporti da un menu a discesa o di fare riferimento a una suite di rapporti da una posizione di cella.
 
-1. Imposta l&#39;**intervallo di date**.
+1. Imposta **[!UICONTROL Date range]**.
 
    L’opzione Intervallo date ti consente di scegliere un intervallo di date. Gli intervalli di date possono essere fissi o continui. Per informazioni sulle opzioni dell&#39;intervallo di dati, vedere [Selezionare un intervallo di date](select-date-range.md).
 
-1. Fai clic su **Avanti**.
+1. Fare clic su **[!UICONTROL Next]**.
 
    ![Schermata che mostra l&#39;opzione Intervallo date e il pulsante Avanti attivo.](./assets/choose_date_data_view3.png)
 
