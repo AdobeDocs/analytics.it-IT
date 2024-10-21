@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: ae03f0d9e5f22c8e8ff6550a33a6f9d18432f46f
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Queste note sulla versione coprono il periodo di rilascio dal 2 al 22 ottobre 20
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Nuovo Report Builder per Adobe Analytics | La nuova applicazione di Report Builder include funzionalità aggiornate per Adobe Analytics, quali prestazioni migliorate, interfaccia utente semplificata, supporto API 2.0 e supporto per Microsoft Excel su Mac, Windows e browser Web. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | giovedì 16 ottobre 2024 |
+| Nuovo Report Builder per Adobe Analytics | La nuova applicazione Report Builder introduce funzionalità aggiornate in Adobe Analytics, tra cui prestazioni migliorate, interfaccia utente semplificata, supporto per API 2.0 e supporto per Microsoft Excel su Mac, Windows e browser Web. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16 ottobre 2024 |
 
 ## Correzioni in Adobe Analytics
 
