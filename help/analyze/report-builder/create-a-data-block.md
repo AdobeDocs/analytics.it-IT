@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
+source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 0%
+source-wordcount: '629'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Un *blocco di dati* è la tabella di dati creata da una singola richiesta di dat
 
 Configura i parametri iniziali dei blocchi di dati per la posizione del blocco di dati, la suite di rapporti e un intervallo di date.
 
-1. Fai clic su **[!UICONTROL Create data block]**.
+1. Fai clic su **[!UICONTROL Create]**.
 
    ![Schermata che mostra l&#39;opzione Crea blocco di dati.](./assets/create_db.png)
 
@@ -28,7 +28,7 @@ Configura i parametri iniziali dei blocchi di dati per la posizione del blocco d
 
    L&#39;opzione Posizione blocco dati definisce la posizione del foglio di lavoro in cui Report Builder aggiunge i dati al foglio di lavoro.
 
-   Per specificare la posizione del blocco di dati, selezionare una singola cella nel foglio di lavoro oppure immettere un indirizzo di cella come a3, \\\$a3, a\\\$3 o sheet1!a2. La cella specificata sarà l’angolo superiore sinistro del blocco di dati quando i dati vengono recuperati.
+   Per specificare la posizione del blocco di dati, selezionare una singola cella nel foglio di lavoro oppure immettere un indirizzo di cella come a3, \\\$a3, a\\\$3 o sheet1!a2. La cella specificata contrassegna l’angolo superiore sinistro del blocco di dati quando questi vengono recuperati.
 
 1. Scegli una **suite di rapporti**.
 
@@ -50,7 +50,7 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
 1. Aggiungere Dimension, metriche e filtri.
 
-   Scorrere gli elenchi dei componenti o utilizzare il campo **ricerca** per individuare i componenti. Trascina i componenti nel riquadro Tabella oppure fai doppio clic sul nome di un componente nell’elenco per aggiungerlo automaticamente al riquadro Tabella.
+   Scorrere gli elenchi dei componenti o utilizzare il campo **[!UICONTROL Search]** per individuare i componenti. Trascina i componenti nel riquadro Tabella oppure fai doppio clic sul nome di un componente nell’elenco per aggiungerlo automaticamente al riquadro Tabella.
 
    Fai doppio clic su un componente per aggiungerlo a una sezione predefinita della tabella.
 
@@ -60,7 +60,7 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
    **Data di inizio come Dimension**
 
-   Imposta la data di inizio come dimensione per identificare chiaramente la data di inizio del blocco di dati. Questa funzione è utile se disponi di un rapporto pianificato regolarmente con un intervallo di date continuo o se disponi di un intervallo di date non convenzionale e devi essere libero dalla data di inizio.
+   Imposta **[!UICONTROL Start date]** come dimensione per identificare chiaramente la data di inizio del blocco di dati. È utile se disponi di un rapporto pianificato regolarmente con un intervallo di date continuo o se disponi di un intervallo di date non convenzionale e devi essere chiaro sulla data di inizio.
 
    ![Schermata che mostra la data di inizio nell&#39;elenco delle dimensioni.](./assets/start-date-dimension.png){width="30%"}
 
@@ -74,7 +74,7 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
    **Visualizzare o nascondere le intestazioni di riga e di colonna**
 
-1. Fare clic sull&#39;icona delle impostazioni della **Tabella**.
+1. Fai clic sull’icona **[!UICONTROL Table settings]**.
 
    ![Schermata che mostra l&#39;opzione Impostazioni tabella.](./assets/table-settings.png){width="35%"}
 
@@ -88,7 +88,7 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
 1. Fate clic su Nascondi (Hide) o Mostra (Show) per attivare/disattivare le etichette di quota o le intestazioni di colonna. Tutte le etichette sono visualizzate per impostazione predefinita.
 
-1. Fare clic su **Fine**.
+1. Fai clic su **[!UICONTROL Finish]**.
 
    Durante il recupero dei dati di analisi viene visualizzato un messaggio di elaborazione.
 
