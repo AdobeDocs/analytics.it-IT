@@ -3,15 +3,14 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
+source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 51%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (versione del 23 ottobre 2024)
-
 
 **Ultimo aggiornamento**: giovedì 23 ottobre 2024
 
@@ -38,12 +37,11 @@ Origini dati: AN-359290
 Data Warehouse: AN-359820
 Avvisi eccedenza: AN-358132
 
-
 ## Avvisi importanti per gli amministratori di Adobe Analytics {#admin}
 
 | Avviso | Data di aggiunta o aggiornamento | Descrizione |
 | ----------- | ---------- | ---------- |
-| **I clienti non appartenenti a Campaign perderanno l&#39;accesso a Triggers** | 16 ottobre 2024 | Il 30 gennaio 2025, i clienti Adobe Analytics che non dispongono di una licenza Adobe Campaign perderanno l&#39;accesso alla possibilità di configurare e utilizzare [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers). I clienti devono acquistare Campaign, pianificare l’interruzione dell’utilizzo di Triggers o esaminare altri strumenti di Adobe che offrono funzionalità di Triggers. |
+| **I clienti non appartenenti a Campaign perderanno l&#39;accesso a Triggers** | 16 ottobre 2023 | Il 30 gennaio 2025, i clienti di Adobe Analytics che non dispongono di una licenza Adobe Campaign perderanno l’accesso alla possibilità di configurare e utilizzare Triggers. I clienti devono acquistare Campaign, pianificare l’interruzione dell’utilizzo di Triggers o esaminare altri strumenti di Adobe che offrono funzionalità di Triggers. |
 | **Campi XDM aggiuntivi dei dettagli di implementazione mappati automaticamente** | 11 settembre 2024 | Quando si utilizza Adobe Experience Platform Edge Network per inviare dati ad Adobe Analytics, i campi XDM `xdm.implementationdetails.name` e `xdm.implementationdetails.environment` ora vengono sempre mappati alle variabili di dati di contesto `c.a.x.implementationdetails.name` e `c.a.x.implementationdetails.environment`. In precedenza, alcuni scenari impedivano il popolamento di questi valori. Adeguare le regole di elaborazione pertinenti in base alla disponibilità di questi valori. |
 
 ## Avvisi sulla fine del ciclo di vita (EOL) {#eol}
