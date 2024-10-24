@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
-user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, dashboard di Analytics, Report Builder di Report Builder e legacy e Activity Map.
+user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -176,7 +176,7 @@ ht-degree: 95%
    + [Impostazioni Report Builder](report-builder/report-builder-settings.md)
 + Report Builder legacy {#legacy-report-builder}
    + [Guida di Adobe Report Builder legacy](legacy-report-builder/home.md)
-   + Configurazione Report Builder legacy {#legacy-report-builder-setup}
+   + Configurazione di Report Builder legacy {#legacy-report-builder-setup}
       + [Requisiti di sistema](legacy-report-builder/setup/system-requirements.md)
       + [Installare Report Builder](legacy-report-builder/setup/t-install-arb.md)
       + [Aggiornare Report Builder](legacy-report-builder/setup/upgrade-arb.md)
