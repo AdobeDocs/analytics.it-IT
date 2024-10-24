@@ -4,9 +4,9 @@ title: Quale strumento Adobe Analytics usare?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1215'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Questo video mette a confronto diversi strumenti di Adobe Analytics:
 
 Le **[dashboard di Adobe Analytics](/help/analyze/mobile-app/home.md)** consentono agli utenti di accedere tramite dispositivi mobili a scorecard intuitive. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a sezioni che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. L’app mobile è supportata sia su sistemi operativi iOS che Android.
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** è un componente aggiuntivo per Microsoft Excel che viene eseguito su Mac, Windows e browser Web. Consente di generare richieste personalizzate partendo da dati di Adobe Analytics, che puoi inserire in fogli di lavoro Excel. Le richieste possono fare riferimento in maniera dinamica a celle presenti nel tuo foglio di lavoro, inoltre hai la possibilità di aggiornare e personalizzare la presentazione dei dati da parte del Report Builder.
+**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** è un componente aggiuntivo per Microsoft Excel che viene eseguito su Mac, Windows e browser web. Consente di generare richieste personalizzate partendo da dati di Adobe Analytics, che puoi inserire in fogli di lavoro Excel. Le richieste possono fare riferimento in maniera dinamica a celle presenti nel tuo foglio di lavoro, inoltre hai la possibilità di aggiornare e personalizzare la presentazione dei dati da parte del Report Builder.
 
 **[Report Builder legacy](/help/analyze/legacy-report-builder/home.md)** è un componente aggiuntivo per Microsoft Excel che viene eseguito solo su Windows. Consente di generare richieste personalizzate partendo da dati di Adobe Analytics, che puoi inserire in fogli di lavoro Excel. Le richieste possono fare riferimento in maniera dinamica a celle presenti nel tuo foglio di lavoro, inoltre hai la possibilità di aggiornare e personalizzare la presentazione dei dati da parte del Report Builder.
 

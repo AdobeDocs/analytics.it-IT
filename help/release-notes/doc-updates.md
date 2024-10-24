@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: bae719223ffa642434ab9559c1e48ebd76d003a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5959'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Ottobre 2024** |  |
-| Nuove informazioni sui fattori di richiesta nelle prestazioni di Analysis Workspace | Una nuova sezione [Fattori di richiesta](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) nell&#39;articolo [Ottimizzare le prestazioni di Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) spiega come vengono elaborate le richieste e i vari fattori che influenzano i tempi di elaborazione. |
-| Nuovo Report Builder | [Nuova documentazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) per il componente aggiuntivo di Report Builder semplificato supportato in Mac, Windows e browser Web. |
+| Nuove informazioni sui fattori di richiesta nelle prestazioni di Analysis Workspace | Una nuova sezione [Fattori di richiesta](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) nell’articolo [Ottimizzare le prestazioni di Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) spiega come vengono elaborate le richieste e i vari fattori che influenzano i tempi di elaborazione. |
+| Nuovo Report Builder | [Nuova documentazione](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/report-buider-overview) per il componente aggiuntivo di Report Builder semplificato supportato in Mac, Windows e browser web. |
 | **Agosto 2024** | |
 | Gestione avvisi | Documentazione semplificata sulla [Gestione avvisi](/help/components/c-alerts/alert-manager.md). Aggiornata per chiarezza e precisione. |
 | **Luglio 2024** | |
