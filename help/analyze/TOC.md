@@ -5,9 +5,9 @@ user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 99%
    + [Convertire richieste legacy](report-builder/convert-workbooks.md)
    + [Creare un blocco di dati](report-builder/create-a-data-block.md)
    + [Hub Report Builder](report-builder/report-builder-hub.md)
-   + [Seleziona una suite di rapporti](report-builder/select-report-suite.md)
+   + [Selezionare una suite di rapporti.](report-builder/select-report-suite.md)
    + [Selezionare un intervallo di date](report-builder/select-date-range.md)
    + [Utilizzare i segmenti](report-builder/work-with-segments.md)
    + [Dimensioni filtro](report-builder/filter-dimensions.md)
