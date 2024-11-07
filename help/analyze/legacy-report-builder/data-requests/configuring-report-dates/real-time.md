@@ -5,7 +5,7 @@ uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Visualizza il traffico della pagina web e classifica le visualizzazioni di pagin
 
 Per la generazione di rapporti in tempo reale, Analytics utilizza metriche ad alta frequenza e analisi del sito per segnalare visivamente il traffico e visualizzare le tendenze delle notizie dinamiche e dei siti web di vendita al dettaglio. In tempo reale puoi comprendere le tendenze nei tuoi dati di minuto in minuto, entro pochi secondi dalla raccolta. Raccoglie e invia i dati all’interfaccia, utilizzando la correlazione e il tracciamento in tempo reale dei contenuti e alcune conversioni.
 
-È possibile:
+Puoi:
 
 * Crea fino a tre rapporti in tempo reale per suite di rapporti, utilizzando metriche, dimensioni e classificazioni esistenti. Utilizza le dimensioni secondarie per correlare (o suddividere) quella principale.
 * Aggiungi tre dimensioni (o classificazioni) per rapporto (una primaria e due secondarie), oltre a metriche a livello di sito.
@@ -31,4 +31,4 @@ Real-time rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non dis
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] non corrispondono alla funzionalità [Includi dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Recency dati) rilasciata in precedenza, che ha ridotto la latenza per il reporting standard visualizzando i dati prima che vengano finalizzati.
+>[!UICONTROL Real-Time Reports] non corrispondono alla funzionalità [Includi dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html) (Recency dati) rilasciata in precedenza, che ha ridotto la latenza per il reporting standard visualizzando i dati prima che vengano finalizzati.

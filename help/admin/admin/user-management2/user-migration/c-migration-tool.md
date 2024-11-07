@@ -4,10 +4,10 @@ title: Migrazione degli utenti di Analytics all’Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '3078'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -76,7 +76,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aggiornare Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Importante: è necessario aggiornare l’installazione di <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html?lang=it"> Report Builder</a> all’ultima versione. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Importante: è necessario aggiornare l’installazione di <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup"> Report Builder</a> all’ultima versione. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quando inizia la migrazione? </p> </td> 
@@ -96,7 +96,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
    <td colname="col2"> <p>Alle 10:00 UTC della data di inizio della migrazione: </p> 
     <ul id="ul_25D1DBDF5C804D048E741F31550FF5F3"> 
      <li id="li_418476105FE341229CE146E730AAB33D">I gruppi di autorizzazioni esistenti in Analytics verranno replicati automaticamente in Adobe Admin Console come profili di prodotto, incluse la descrizione e le autorizzazioni granulari per le suite di rapporti, le metriche, le dimensioni, Analytics e gli strumenti delle suite di rapporti. </li> 
-     <li id="li_412F88C454B0455A8F3BC8016226855C">Se uno dei tuoi utenti attuali di Analytics è stato creato in Adobe Admin Console (ovvero ha un Adobe/Enterprise ID collegato), verrà aggiunto ai profili di prodotto appropriati in Adobe Admin Console. </li> 
+     <li id="li_412F88C454B0455A8F3BC8016226855C">Se uno dei tuoi utenti attuali di Analytics è stato creato in Adobe Admin Console (ovvero ha un’Adobe/Enterprise ID collegata), verrà aggiunto ai profili di prodotto appropriati in Adobe Admin Console. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">La sezione Gestione utente nella scheda Amministratore in Analytics verrà impostata su <span class="term"> di sola lettura</span>. Non potrai più creare nuovi utenti o gruppi di autorizzazioni qui e dovrai eseguire entrambe queste funzioni in Adobe Admin Console. Per ulteriori informazioni, vedere <a href="/help/admin/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56"> funzionalità di Analytics non supportate in Adobe Admin Console</a>. </li> 
      <li id="li_2742DE69E9B547198A58E1F33E908361">In quanto amministratore, avrai accesso allo <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html?lang=it">strumento di Migrazione degli ID utente</a>. Inoltre, all’interno del prodotto verrà visualizzata una notifica con la data di fine della migrazione (che generalmente corrisponde al sessantesimo giorno dall’inizio del processo) e con i collegamenti al contenuto della guida e alle domande frequenti. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">In Adobe Admin Console potrai accedere a una scheda Autorizzazioni che ti consente di creare profili di prodotto con tutte le opzioni granulari che conosci. </li> 
@@ -138,7 +138,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
   </tr> 
   <tr> 
    <td colname="col1"> <p> Quando posso implementare il Single Sign-On utilizzando i Federated ID? </p> </td> 
-   <td colname="col2"> <p> Presto in Adobe Admin Console sarà disponibile uno strumento che consentirà di modificare i tipi di ID dagli ID Adobi ai Federated ID. Durante la migrazione non puoi trasferire gli utenti come Federated ID. </p> </td> 
+   <td colname="col2"> <p> Presto in Adobe Admin Console sarà disponibile uno strumento che consentirà di cambiare i tipi di ID da Adobe ID a Federated ID. Durante la migrazione non puoi trasferire gli utenti come Federated ID. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -248,7 +248,7 @@ Informazioni importanti sul processo di migrazione e sull’impatto sulla gestio
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenze account </p> </td> 
-   <td colname="col2"> <p> Puoi impostare manualmente una data di scadenza dell’account in Analytics mediante gli Strumenti di amministrazione. Una volta raggiunta la data di scadenza, l’utente non sarà in grado di accedere ad Analytics, ma il suo effettivo account utente Experience Cloud (ad esempio, Adobe ID, Enterprise ID, Federated ID, ecc.) non scade. L’utente potrà comunque accedere a Experience Cloud, ma non potrà più fare clic su Analytics. </p> </td> 
+   <td colname="col2"> <p> Puoi impostare manualmente una data di scadenza dell’account in Analytics mediante gli Strumenti di amministrazione. Una volta raggiunta la data di scadenza, l’utente non potrà accedere ad Analytics, ma il suo account utente Experience Cloud effettivo (ad esempio Adobe ID, Enterprise ID, Federated ID, ecc.) non scade. L’utente potrà comunque accedere a Experience Cloud, ma non potrà più fare clic su Analytics. </p> </td> 
   </tr> 
  </tbody> 
 </table>

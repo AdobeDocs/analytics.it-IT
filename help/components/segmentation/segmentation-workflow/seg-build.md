@@ -3,7 +3,7 @@ description: Il Generatore di segmenti fornisce un’area di lavoro per trascina
 title: Generare segmenti
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '1872'
 ht-degree: 3%
@@ -18,7 +18,7 @@ Esistono diversi modi per accedere al Generatore di segmenti:
 
 * **Navigazione superiore di Analytics**: fare clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: fare clic su **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, aprire un progetto e fare clic su **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Aggiungi o modifica segmenti nel Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
+* **[!UICONTROL Report Builder]**: [Aggiungi o modifica segmenti nel Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Criteri del generatore {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -30,7 +30,7 @@ Puoi aggiungere definizioni di regole e contenitori per definire i segmenti.
 1. **[!UICONTROL Description]**: fornire una descrizione per il segmento.
 1. **[!UICONTROL Tags]**: [Assegna tag al segmento](/help/components/segmentation/segmentation-workflow/seg-workflow.md) che stai creando scegliendo da un elenco di tag esistenti o creando un nuovo tag.
 1. **[!UICONTROL Definitions]**: [genera e configura segmenti](/help/components/segmentation/segmentation-workflow/seg-workflow.md), aggiungi regole e nidifica contenitori e sequenze.
-1. **[!UICONTROL Show]**: (selettore contenitore superiore). Consente di selezionare il contenitore [principale](/help/components/segmentation/seg-overview.md) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). Il contenitore principale predefinito è il contenitore Hit.
+1. **[!UICONTROL Show]**: (selettore contenitore superiore). Consente di selezionare il [contenitore](/help/components/segmentation/seg-overview.md) di primo livello ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). Il contenitore principale predefinito è il contenitore Hit.
 1. **[!UICONTROL Options]**: icona (ingranaggio)
 
    * **[!UICONTROL + Add container]**: consente di aggiungere un nuovo contenitore (sotto il contenitore principale) alla definizione del segmento.
@@ -53,7 +53,7 @@ Puoi aggiungere definizioni di regole e contenitori per definire i segmenti.
    |---|---|---|---|---|---|---|
    | Ripetizione | X | X | X | - | X | - |
    | Istanza | X | X | - | - | X | - |
-   | Istanza non ripetuta | X | - | - | - | X | - |
+   | Istanza di non ripetizione | X | - | - | - | X | - |
 
 1. **[!UICONTROL And/Or/Then]**: assegna gli operatori [!UICONTROL AND/OR/THEN] tra contenitori o regole. L&#39;operatore THEN ti consente di [definire segmenti sequenziali](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Metric]**: (barra laterale verde) metrica trascinata dall&#39;elenco delle metriche.
