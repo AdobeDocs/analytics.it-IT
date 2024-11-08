@@ -3,10 +3,10 @@ title: Visite
 description: Una sequenza di pagine visualizzate in una sessione.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
+source-git-commit: 59582c9fa910c789b44798eae21566aa6fd99124
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 98%
+source-wordcount: '692'
+ht-degree: 88%
 
 ---
 
@@ -45,8 +45,8 @@ Se un visitatore esegue una di queste azioni, una nuova visita **non** inizierà
 
 Puoi modificare la definizione di visita in un periodo diverso da 30 minuti.
 
-* Per le [Suite di rapporti virtuali](../vrs/vrs-about.md), è possibile modificare il timeout della visita utilizzando l&#39;elenco a discesa [!UICONTROL Visit timeout]. Puoi impostare un timeout della visita su qualsiasi valore ragionevole.
-* Per le suite di rapporti standard, contatta l’Assistenza clienti e richiedi che la durata della visita venga ridotta per una determinata suite di rapporti. La durata della visita per suite di rapporti standard non può superare i 30 minuti, quindi puoi solo ridurla.
+* Per [suite di rapporti virtuali](../vrs/vrs-about.md), puoi modificare il timeout della visita (tempo tra gli hit che causa l&#39;inizio di una nuova visita) utilizzando l&#39;elenco a discesa [!UICONTROL Visit timeout]. Puoi impostare un timeout della visita su qualsiasi valore ragionevole.
+* Per le suite di rapporti standard, contatta l’Assistenza clienti per richiedere che il timeout della visita (tempo tra gli hit che determina l’inizio di una nuova visita) sia ridotto per una determinata suite di rapporti. Il timeout della visita per le suite di rapporti standard non può superare i 30 minuti, quindi puoi solo ridurlo.
 
 ## Visite che si estendono su un limite di date
 
