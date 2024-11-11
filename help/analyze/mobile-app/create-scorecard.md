@@ -4,7 +4,7 @@ title: Creare e condividere scorecard per dispositivi mobili
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
+source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
 workflow-type: tm+mt
 source-wordcount: '2428'
 ht-degree: 81%
@@ -291,7 +291,6 @@ Per spostarsi tra la sezione e le diapositive, tocca la barra di navigazione.
 ![Creare una presentazione di dati](assets/data-story-nav.png){width="25%"}
 
 Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera oppure selezionando un componente e tenendolo a sinistra o a destra dello schermo per scorrere.
-
 
 ## Anteprima delle scorecard {#preview}
 

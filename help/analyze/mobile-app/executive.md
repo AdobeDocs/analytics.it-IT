@@ -4,9 +4,9 @@ title: Guida alle dashboard di Adobe Analytics per utenti direzionali
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
+source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1240'
 ht-degree: 92%
 
 ---
@@ -62,7 +62,7 @@ Per utilizzare le dashboard:
 
 1. Toccare la scorecard che si desidera visualizzare.
 
-   Se hai accesso a più organizzazioni con un solo accesso, tutte le scorecard delle tue organizzazioni sono disponibili nell’elenco delle scorecard.
+   Se hai accesso a più organizzazioni con un solo login, la schermata iniziale mostra tutte le scorecard di tutte le aziende disponibili in un’unica posizione.
 
    Puoi ordinare l’elenco delle scorecard in base al titolo della scorecard, al nome dell’organizzazione o all’ultima visualizzazione. Puoi anche cercare una scorecard specifica.
 
