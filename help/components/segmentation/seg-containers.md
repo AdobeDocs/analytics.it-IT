@@ -4,10 +4,10 @@ keywords: segmentazione;segmenti
 title: Contenitori di segmenti
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
+source-git-commit: 6a36155dcd1fd06ea052783a8fd5714cd10e16ec
 workflow-type: tm+mt
-source-wordcount: '3514'
-ht-degree: 100%
+source-wordcount: '3551'
+ht-degree: 98%
 
 ---
 
@@ -96,6 +96,10 @@ Quando crei contenitori di segmenti all’interno di altri contenitori, stai cre
 1. Determina i dati inclusi utilizzando il contenitore più esterno. Eventuali dati che non corrispondono a questa regola esterna vengono scartati nel rapporto segmentato.
 1. Applica la regola nidificata ai dati rimanenti. La regola nidificata NON si applica agli hit espulsi dalla prima regola.
 1. Ripeti l’operazione fino al completamento del calcolo di tutte le regole del contenitore nidificato. I dati rimanenti vengono quindi inclusi nel rapporto risultante.
+
+>[!NOTE]
+>
+>Quando nidificate un segmento all’interno di un segmento (ad esempio, trascinate un segmento dal pannello Componenti nella definizione del segmento), viene creato un contenitore con una copia (non un riferimento) della regola del segmento trascinato.
 
 Puoi utilizzare la nidificazione tra contenitori e tra regole all’interno di un contenitore. In ciascun contenitore è possibile nidificare:
 
