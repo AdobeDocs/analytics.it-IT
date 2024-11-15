@@ -3,9 +3,9 @@ description: Utilizzare gli avvisi in Analysis Workspace.
 title: Panoramica di Alert Builder
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: a71c3c6911ed2c2eb9202c8f149a44d6364017b8
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 35%
 
 ---
@@ -43,7 +43,7 @@ Per creare un avviso:
    |---------|----------|
    | [!UICONTROL **Titolo**] | Inserisci un nome per l’avviso. Il nome può contenere il nome del rapporto o la soglia di metrica. |
    | [!UICONTROL **Descrizione (facoltativo)**] | Specificare una descrizione per l&#39;avviso. |
-   | [!UICONTROL **Granularità temporale**] | Seleziona la frequenza con cui vuoi che la metrica venga controllata: Giornaliero, Settimanale o Mensile.<p><b>Nota:</b>Nelle visualizzazioni dati con un calendario personalizzato non è supportata la granularità mensile nel generatore di avvisi.<!--true?--></p> |
+   | [!UICONTROL **Granularità temporale**] | Seleziona la frequenza con cui vuoi che la metrica venga controllata: Oraria, Giornaliera, Settimanale o Mensile.<p><b>Nota:</b>Nelle visualizzazioni dati con un calendario personalizzato non è supportata la granularità mensile nel generatore di avvisi.<!--true?--></p> |
    | [!UICONTROL **Recipients (Destinatari)**] | Specifica a chi deve essere inviato l’avviso. Può essere inviato a un utente o un gruppo di Analytics, a un indirizzo e-mail o a un numero telefonico.<p><b>Importante:</b>Il numero di telefono deve essere preceduto dal segno &quot;+&quot; e dal [codice paese](https://countrycode.org/).</p><p>Il messaggio e-mail che un utente riceve dopo l’attivazione di un avviso è simile al seguente:</p><p>![](assets/alerts-email.PNG)</p> |
    | [!UICONTROL **Data di scadenza**] | Impostare la data e l&#39;ora di scadenza dell&#39;avviso. |
    | [!UICONTROL **Invia un avviso quando**] | [!UICONTROL **Uno di questi trigger di metriche**]: trascinare le metriche (comprese le metriche calcolate) qui per creare trigger per l&#39;avviso.<p>Se non tutte le metriche, le dimensioni o i segmenti nell&#39;avviso sono compatibili con la visualizzazione dati attualmente selezionata, viene visualizzato il messaggio **&quot;components incompatibili&quot;**.</p><p>Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:</p><ul><li>anomaly exists (l’anomalia esiste)</li><li>anomaly is above expected (l’anomalia supera il valore previsto)</li><li>anomaly is below expected (l’anomalia è inferiore al valore previsto)</li><li>is above or equals (è superiore o uguale a)</li><li>is below or equals (è inferiore o uguale a)</li><li>changes by (cambia di)</li><li>Puoi impostare una soglia di 90%, 95%, 99%, 99,75% o 99,9%.</li></ul><p>[!UICONTROL **Con tutti questi filtri**]: trascina segmenti o dimensioni per aggiungere filtri. Ad esempio, l’aggiunta di un segmento &quot;Solo dispositivi mobili&quot; significherebbe che la regola si attiva solo per i dispositivi mobili. Puoi aggiungere altri filtri utilizzando un’istruzione AND. Per aggiungere una regola AND o OR, fai clic sull’icona a forma di ingranaggio.</p><p>Vedi [Avvisi - casi d&#39;uso](/help/components/c-alerts/alerts-use-cases.md) per esempio, casi d&#39;uso.</p> |
