@@ -3,9 +3,9 @@ description: Gli avvisi consentono un controllo granulare sulle notifiche e un�
 title: Panoramica degli avvisi
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ Il seguente tutorial video fornisce una panoramica di base degli avvisi: [Avvisi
 
 >[!NOTE]
 >
->L&#39;utilizzo degli avvisi con rilevamento delle anomalie (noti anche come _avvisi intelligenti_) è disponibile solo per le organizzazioni con un pacchetto Adobe Analytics Select, Prime o Ultimate.
+>L&#39;utilizzo degli avvisi con rilevamento delle anomalie (noti anche come _avvisi intelligenti_) è disponibile solo per le organizzazioni con un pacchetto Adobe Analytics Prime o Ultimate.
 
 Se un avviso utilizza il rilevamento delle anomalie, il periodo di formazione varia in base alla granularità selezionata per l’avviso.
 
@@ -46,7 +46,7 @@ Per informazioni sulla creazione di avvisi in Adobe Analytics, consulta [Creare 
 
 >[!IMPORTANT]
 >
->L’utilizzo di dati con marcatura temporale per la creazione di avvisi potrebbe causarne l’attivazione in modo errato. L’Adobe consiglia di utilizzare dati senza marca temporale per gli avvisi.
+>L’utilizzo di dati con marcatura temporale per la creazione di avvisi potrebbe causarne l’attivazione in modo errato. Adobe consiglia di utilizzare dati senza marca temporale per gli avvisi.
 
 ## Gestire gli avvisi
 
