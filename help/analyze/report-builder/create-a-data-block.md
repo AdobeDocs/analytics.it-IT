@@ -5,9 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
+exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
+source-git-commit: c35d5bdc29ce80f0c9357339b04fd2d656cfbe52
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '634'
 ht-degree: 1%
 
 ---
@@ -28,7 +29,9 @@ Configura i parametri iniziali dei blocchi di dati per la posizione del blocco d
 
    L&#39;opzione Posizione blocco dati definisce la posizione del foglio di lavoro in cui Report Builder aggiunge i dati al foglio di lavoro.
 
-   Per specificare la posizione del blocco di dati, selezionare una singola cella nel foglio di lavoro oppure immettere un indirizzo di cella come a3, \\\$a3, a\\\$3 o sheet1!a2. La cella specificata contrassegna l’angolo superiore sinistro del blocco di dati quando questi vengono recuperati.
+   Per specificare il percorso del blocco di dati, selezionare una singola cella nel foglio di lavoro e fare clic sull&#39;icona accanto a **[!UICONTROL Data block location]**:
+
+   È inoltre possibile immettere un indirizzo di cella come a3, \\\$a3, a\\\$3 o sheet1!a2. La cella specificata contrassegna l’angolo superiore sinistro del blocco di dati quando questi vengono recuperati.
 
 1. Scegli una **suite di rapporti**.
 
@@ -40,7 +43,7 @@ Configura i parametri iniziali dei blocchi di dati per la posizione del blocco d
 
 1. Fai clic su **[!UICONTROL Next]**.
 
-   ![Schermata che mostra l&#39;opzione Intervallo date e il pulsante Avanti attivo.](./assets/choose_date_data_view3.png)
+   ![Schermata che mostra l&#39;opzione Intervallo date e il pulsante Avanti attivo.](./assets/choose_date_report_suite.png)
 
    Dopo aver configurato il blocco di dati, puoi selezionare dimensioni, metriche e segmenti per crearlo. Le schede Dimension, Metriche e Filtri vengono visualizzate sopra il riquadro Generatore tabella.
 
@@ -48,7 +51,7 @@ Configura i parametri iniziali dei blocchi di dati per la posizione del blocco d
 
 Per creare il blocco di dati, seleziona i componenti del rapporto, quindi personalizza il layout.
 
-1. Aggiungere Dimension, metriche e filtri.
+1. Aggiungere Dimension, metriche e segmenti.
 
    Scorrere gli elenchi dei componenti o utilizzare il campo **[!UICONTROL Search]** per individuare i componenti. Trascina i componenti nel riquadro Tabella oppure fai doppio clic sul nome di un componente nell’elenco per aggiungerlo automaticamente al riquadro Tabella.
 
@@ -56,7 +59,7 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
    - I componenti Dimension vengono aggiunti alla sezione Riga o alla sezione Colonna se una dimensione è già presente nelle colonne.
    - I componenti data vengono aggiunti alla sezione Colonna.
-   - I componenti Filtro vengono aggiunti alla sezione Filtri.
+   - I componenti del segmento vengono aggiunti alla sezione Segmenti.
 
    **Data di inizio come Dimension**
 
@@ -91,8 +94,6 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 1. Fai clic su **[!UICONTROL Finish]**.
 
    Durante il recupero dei dati di analisi viene visualizzato un messaggio di elaborazione.
-
-   ![Elaborazione del messaggio.](./assets/image11.png)
 
    Il Report Builder recupera i dati e visualizza il blocco di dati completato nel foglio di lavoro.
 

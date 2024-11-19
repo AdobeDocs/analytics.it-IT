@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
+source-git-commit: 0e275dafb9d6562bf10fba1e0ecd9930e0e97f48
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 58%
+source-wordcount: '627'
+ht-degree: 59%
 
 ---
 
@@ -26,8 +27,6 @@ Fai clic su **Gestisci** per visualizzare un elenco di tutti i blocchi di dati p
 ![Opzione Gestisci per visualizzare un elenco di tutti i blocchi di dati.](./assets/image53.png)
 
 Nel Data Block Manager (Gestore dei blocchi di dati) sono elencati tutti i blocchi di dati presenti in una cartella di lavoro. 
-
-![Elenco di tutti i blocchi di dati presenti in una cartella di lavoro.](./assets/image52.png)
 
 ## Ordinare l’elenco di blocchi di dati
 
