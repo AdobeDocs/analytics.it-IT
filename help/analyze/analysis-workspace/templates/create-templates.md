@@ -5,58 +5,101 @@ feature: Analysis Workspace
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 6da9326feec005489e06bb7124b1ff3722830308
+exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
+source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 32%
+source-wordcount: '540'
+ht-degree: 6%
 
 ---
 
-# Creare e gestire modelli aziendali
+# Creare e gestire i modelli
 
-Puoi creare rapporti personalizzati e salvarli affinché possano essere utilizzati da altri utenti dell’azienda da cui accedi. È possibile scegliere i modelli aziendali durante la creazione di un progetto, come descritto in [Creare un progetto da un progetto vuoto o da un report](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) nell&#39;articolo [Creare progetti in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+Gli amministratori possono creare modelli e salvarli per l’utilizzo da parte di altri nella società di accesso.
 
-## Creare un modello aziendale personalizzato
+Gli utenti della società di accesso possono utilizzare questi modelli aziendali come descritto in [Utilizzare i modelli](/help/analyze/analysis-workspace/templates/use-templates.md.
 
-Per creare un nuovo modello aziendale:
+## Creare un modello
 
-1. Crea un progetto in Analysis Workspace con lo stato desiderato.
-1. Seleziona [!UICONTROL **Progetto**] > **[!UICONTROL Save as company template...]**.
+Per creare un nuovo modello utilizzabile dalle persone della società di accesso:
 
-   ![Rapporto aziendale](assets/company-report.png)
+1. In Analysis Workspace, crea un progetto con lo stato desiderato.
 
-1. Aggiorna il nome del report, aggiungi una descrizione e aggiungi eventuali tag, quindi seleziona [!UICONTROL **Salva come modello aziendale**].
+1. Seleziona [!UICONTROL **Progetto**] > **[!UICONTROL Save as template…]**.
 
-   Il modello viene aggiunto all’elenco dei modelli aziendali nel modale Crea progetto ed è disponibile per gli utenti della società di accesso.
+   ![Modello aziendale](assets/company-template-save.png)
 
-   Per ulteriori informazioni su come gli utenti possono creare un progetto basato su un modello aziendale, vedere &quot;Creare un progetto da un progetto o da un report vuoto&quot; in [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+1. Specificare le informazioni seguenti nella finestra di dialogo [!UICONTROL Save as template]:
 
-## Gestire i modelli aziendali
+   | Campo | Descrizione |
+   |---------|----------|
+   | **[!UICONTROL Name]** | Fornisci un nome descrittivo per il modello. |
+   | **[!UICONTROL Description]** | Fornire una breve descrizione del modello che ne descriva gli usi previsti. |
+   | **[!UICONTROL Why use this template]** | Fornisci una breve spiegazione per informare le persone dell’organizzazione su come potrebbe essere utilizzato questo modello. |
+   | **[!UICONTROL Channels]** | Scegli tutti i canali applicabili a questo modello. È possibile selezionare più canali: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]** e **[!UICONTROL In-store]**.<p>Le selezioni selezionate determinano la posizione di visualizzazione del modello e i filtri applicabili agli utenti che vi accedono dalla pagina Modelli organizzazione.</p> |
+   | **[!UICONTROL Use cases]** | Scegli eventuali casi d’uso applicabili a questo modello. È possibile selezionare più casi d&#39;uso: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]** e **[!UICONTROL Acquisition]**. <p>Le selezioni selezionate determinano la posizione di visualizzazione del modello e i filtri applicabili agli utenti che vi accedono dalla pagina Modelli organizzazione.</p> |
+   | **[!UICONTROL Tags]** | Specifica i tag da applicare al modello. Gli utenti possono filtrare l’elenco dei modelli in base ai tag aggiunti. |
 
-Gli amministratori possono filtrare l’elenco dei progetti per visualizzare e gestire i modelli aziendali. Gli elementi bloccati rimangono bloccati, seguiti dall&#39;elenco dei modelli aziendali identificati dall&#39;icona del report ![icona del report](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg). In questa vista è possibile eliminare, rinominare, assegnare tag o approvare uno o più rapporti.
+1. Seleziona [!UICONTROL **Salva come modello**].
 
-Per visualizzare e gestire i modelli aziendali:
+Per informazioni su come gli utenti possono creare un progetto basato su un modello, vedere [Creare un progetto basato su un modello](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) in [Utilizzare i modelli](/help/analyze/analysis-workspace/templates/use-templates.md).
+
+## Modificare o eliminare i modelli
+
+Gli amministratori possono modificare o eliminare i modelli aziendali.
+
+1. In Analysis Workspace, seleziona la scheda [!UICONTROL **Workspace**], quindi seleziona **[!UICONTROL _login_company_name _modelli]**.
+
+1. Se visualizzi i modelli in una vista a colonne ![icona vista a colonne](assets/column-view-icon.png):
+
+   1. Vai al modello da modificare o eliminare, seleziona l’icona delle informazioni accanto al nome del modello.
+
+      ![Informazioni modello società](assets/company-template-info.png)
+
+   1. Seleziona **[!UICONTROL Preview]**.
+
+   1. Selezionare l&#39;icona Altro, quindi selezionare **[!UICONTROL Edit]** o **[!UICONTROL Delete]**.
+
+      ![Modifica o elimina modello](assets/company-template-edit-delete.png)
+
+1. Se visualizzi i modelli in una vista a schede ![icona di vista a schede](assets/card-view-icon.png):
+
+   1. Individuare il modello che si desidera modificare o eliminare.
+
+      ![Visualizzazione scheda modello società](assets/company-template-cards.png)
+
+   1. Selezionare l&#39;icona Altro, quindi selezionare **[!UICONTROL Edit]** o **[!UICONTROL Delete]**.
+
+      ![Modifica o eliminazione scheda modello aziendale](assets/company-template-card-edit-delete.png)
+
+## Rinominare, assegnare tag o approvare i modelli
+
+Gli amministratori possono rinominare, assegnare tag e approvare i modelli aziendali.
+
+1. In Analysis Workspace, seleziona la scheda [!UICONTROL **Workspace**], quindi seleziona **[!UICONTROL Projects tab]** nella barra a sinistra.
+
+1. Seleziona l’icona del filtro per filtrare l’elenco dei progetti.
 
 1. Nella barra dei filtri, seleziona **ALTRI FILTRI**, quindi seleziona **Modelli società**.
 
    Viene visualizzato un elenco dei modelli aziendali. Tutti i progetti regolari non vengono visualizzati, a meno che non siano fissati.
 
-   ![Visualizzare i filtri per i rapporti aziendali](assets/company-reports-filter.png)
+   I modelli aziendali possono essere identificati dall&#39;icona ![modelli](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) che precede il nome del modello.
 
-   Quando sono visualizzati i modelli aziendali, gli amministratori possono eliminare, rinominare, aggiungere un tag o approvare il rapporto.
+   ![Visualizza filtri modelli società](assets/company-templates-filter.png)
 
-1. Nell’elenco dei rapporti, seleziona un singolo rapporto o più rapporti.
+1. Fare clic sull&#39;icona con i puntini di sospensione **...** accanto a un modello per visualizzare le opzioni disponibili.
 
-1. Fai clic sull’icona con i puntini di sospensione **...** accanto a un rapporto per visualizzare le opzioni disponibili (Elimina, Rinomina, Assegna tag e Approva).
+   ![Azioni modello società](assets/company-templates-actions.png)
 
-   ![Azioni sui rapporti aziendali](assets/company-reports-actions.png)
+1. Seleziona **[!UICONTROL Rename]**, **[!UICONTROL Tag]**, or **[!UICONTROL Approve]**.
 
-1. Seleziona un’opzione (Elimina, Rinomina, Assegna tag e Approva).
+   È inoltre possibile eliminare un modello oppure eliminare un modello come descritto in [Modifica o elimina modelli](#edit-or-delete-templates).
 
-1. Per tornare alla visualizzazione regolare al termine dell’operazione, nella barra dei filtri, deseleziona nuovamente l’opzione Modelli aziendali.
+1. (Facoltativo) Per tornare alla visualizzazione normale, nella barra dei filtri, deselezionare **[!UICONTROL Company templates]**.
 
-### Eliminare un modello di società
+## Accedere a un modello aziendale
 
-Gli amministratori possono eliminare un rapporto utilizzando l’opzione di elenco Modelli società (descritta in precedenza) oppure eliminare un rapporto dalla finestra modale Crea progetto.
+Come per i modelli forniti da Adobe, gli utenti dell’organizzazione possono accedere ai modelli creati dagli amministratori.
 
-![Altri filtri](assets/delete-fr-create-project-modal.png)
+Per informazioni su come accedere a un modello aziendale, vedere [Accedere ed eseguire un modello](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [Utilizzare i modelli](/help/analyze/analysis-workspace/templates/use-templates.md).

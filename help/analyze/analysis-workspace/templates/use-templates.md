@@ -5,9 +5,10 @@ feature: Analysis Workspace
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e98458a96e9950ffab40876b80a9e799a9182e6a
+exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
+source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
 workflow-type: tm+mt
-source-wordcount: '18028'
+source-wordcount: '18027'
 ht-degree: 7%
 
 ---
@@ -34,13 +35,13 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
 
    <!--update screenshot -->
 
-   ![Scheda Rapporti](assets/view-prebuilt-reports.png)
+   ![Scheda Rapporti](assets/view-prebuilt-templates.png)
 
 1. Nella sezione [!UICONTROL **Modelli**] selezionare una delle schede seguenti:
 
    * **[!UICONTROL Adobe templates]**: mostra tutti i modelli forniti da Adobe.
 
-   * **[!UICONTROL _login_company_name _modelli]**: mostra tutti i modelli aziendali creati per nell&#39;organizzazione.
+   * **[!UICONTROL _login_company_name _modelli]**: mostra tutti i modelli aziendali creati per la tua organizzazione.
 
      I modelli aziendali possono essere creati solo da un amministratore. Per ulteriori informazioni sulla creazione di un modello aziendale, vedere [Creare e gestire modelli](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
