@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '18027'
+source-wordcount: '18021'
 ht-degree: 7%
 
 ---
@@ -45,7 +45,11 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
 
      I modelli aziendali possono essere creati solo da un amministratore. Per ulteriori informazioni sulla creazione di un modello aziendale, vedere [Creare e gestire modelli](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
-1. Scegli se visualizzare i modelli in una vista a colonne o in una vista a schede selezionando l&#39;icona della vista a colonne ![icona della vista a colonne](assets/column-view-icon.png) o l&#39;icona della vista a schede ![icona della vista a schede](assets/card-view-icon.png).
+1. Per modificare la modalità di visualizzazione dei modelli disponibili, utilizzare una delle opzioni seguenti:
+
+   * Scegli se visualizzare i modelli in una vista a colonne o in una vista a schede selezionando l&#39;icona della vista a colonne ![icona della vista a colonne](assets/column-view-icon.png) o l&#39;icona della vista a schede ![icona della vista a schede](assets/card-view-icon.png).
+
+   * Quando si utilizza la vista a schede ![icona vista a schede](assets/card-view-icon.png), scegliere uno dei seguenti criteri di ordinamento: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
 
 1. Nel campo di ricerca, iniziare a digitare il nome del modello che si desidera trovare, quindi selezionarlo dall&#39;elenco dei modelli. Puoi anche effettuare ricerche nell’elenco dei modelli per proprietà, eVar e numero evento. <!-- still true? -->
 
@@ -58,8 +62,6 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
    >Per spostarti nel menu utilizzando i tasti freccia, premi il tasto Barra obliqua (/), quindi premi il tasto Freccia giù. Premi Invio per caricare il modello selezionato.
 
    Per un elenco dei modelli disponibili, vedere la sezione [Modelli disponibili](#available-reports) di seguito.
-
-1. (Facoltativo) Visualizza e utilizza modelli che contengono componenti non disponibili nella suite di rapporti. Per impostazione predefinita, gli unici modelli visualizzati sono quelli che utilizzano componenti disponibili nella suite di rapporti. <!--does this apply to AA? -->
 
 ## Creare un progetto basato su un modello {#use-reports}
 
