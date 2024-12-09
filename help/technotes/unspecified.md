@@ -3,10 +3,10 @@ description: Vari rapporti in Adobe Analytics possono mostrare Non specificato, 
 title: Non specificato, Nessuno, Altro e Sconosciuto nella generazione rapporti
 feature: Analytics Basics
 exl-id: 35451239-91f3-400a-981e-8c3fbc0e4185
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Vari rapporti in Adobe Analytics possono mostrare “Non specificato”, “Altr
 “Non specificato” è un elemento di riga abbastanza comune nei rapporti. Viene spesso indicato anche come “Nessuno”.
 
 * **Un evento si attiva senza una variabile di conversione:** ad esempio, un utente arriva sul tuo sito ed effettua un acquisto senza alcun valore eVar1. Se visualizzi gli ordini utilizzando la dimensione eVar1, non esiste alcun valore a cui attribuire questo ordine. Pertanto viene automaticamente attribuito a “Non specificato”.
-* **Dati non classificati nei rapporti di classificazione:** quando si visualizzano i dati di classificazione, qualsiasi valore a cui non sono associati dati con quella particolare classificazione restituisce “Non specificato”. Per risolvere questo problema, classifica il valore della variabile principale.
+* **Dati non classificati nei rapporti di classificazione:** quando si visualizzano i dati di classificazione, qualsiasi valore a cui non sono associati dati con quella particolare classificazione restituisce “Non specificato”. Per risolvere questo problema, assicurati che a ogni elemento della dimensione principale sia associato un valore di classificazione.
 * **Rapporti con raggruppamenti in cui è stata attivata solo una variabile:** quando si applica un raggruppamento a una variabile, è necessario tenere conto di ogni istanza di tale variabile. Se la seconda variabile non è stata vista o se persiste da un hit precedente, l’elemento dimensione è “Non specificato”.
 * **Hit non mobili nei rapporti mobili:** qualsiasi hit non mobile nei rapporti mobili viene elencato come “Non specificato” (“Non mobile” in rapporti e analisi).
 

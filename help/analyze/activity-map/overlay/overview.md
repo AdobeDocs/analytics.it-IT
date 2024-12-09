@@ -1,20 +1,20 @@
 ---
-description: L’interfaccia utente Activity Map è composta da due parti
-title: Interfaccia utente di Activity Map
+description: Scopri l’estensione Activity Map e come navigare nella relativa interfaccia.
+title: Interfaccia dell’estensione Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 65e75a1c2b39823e72abfb0e5b61122c62f1f013
+source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 4%
+source-wordcount: '177'
+ht-degree: 0%
 
 ---
 
-# Interfaccia utente di Activity Map
+# Interfaccia dell’estensione Activity Map
 
-L’interfaccia utente Activity Map è composta da due parti:
+L’interfaccia dell’estensione Activity Map è composta da due parti:
 
 * La finestra superiore con la pagina web, le sovrapposizioni e la barra degli strumenti inserite.
 * Pannello inferiore per i rapporti.
