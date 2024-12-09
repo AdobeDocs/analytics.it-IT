@@ -1,12 +1,12 @@
 ---
 title: Visite
-description: Una sequenza di pagine visualizzate in una sessione.
+description: Scopri la metrica Visite in Analytics. Scopri come viene calcolato, i comportamenti che lo influenzano, come modificarne la definizione e altro ancora.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: fb25807a0f34409bb3a27f344ff7508a9dd414a4
+source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 88%
+source-wordcount: '708'
+ht-degree: 85%
 
 ---
 

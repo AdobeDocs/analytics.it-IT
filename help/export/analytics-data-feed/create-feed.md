@@ -1,11 +1,11 @@
 ---
-title: Creare un feed di dati
-description: Scopri come creare un feed di dati.
+title: Creare un feed dati
+description: Scopri come creare un feed di dati e le informazioni sui file da fornire ad Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 8e8f59f747ddacc5462cbc177d199a5e0e91908a
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '4115'
+source-wordcount: '4124'
 ht-degree: 46%
 
 ---
@@ -342,7 +342,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
          | Campo | Funzione |
          |---------|----------|
-         | [!UICONTROL **Entità**] | L’entità è fornita dall’Adobe. È necessario concedere l&#39;autorizzazione per la ricezione di feed a questa entità principale. |
+         | [!UICONTROL **Entità**] | L’entità è fornita da Adobe. È necessario concedere l&#39;autorizzazione per la ricezione di feed a questa entità principale. |
          | [!UICONTROL **Nome**] | Un nome per l’account. |
          | [!UICONTROL **Descrizione**] | Descrizione dell&#39;account. |
          | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Adobe Analytics. <p>Accertati di aver concesso una delle seguenti autorizzazioni all’entità principale fornita da Adobe. Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità principale a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=it#bucket-add) nella documentazione di Google Cloud.<ul><li>`roles/storage.objectCreator`: utilizza questa autorizzazione se desideri limitare l’entità principale alla sola creazione di file nell’account GCP. </br>**Importante:** se utilizzi questa autorizzazione per il reporting pianificato, utilizza un nome file univoco per ogni nuova esportazione pianificata. In caso contrario, la generazione dei rapporti non riuscirà perché l’entità principale non ha accesso alla sovrascrittura dei file esistenti.</li><li>(scelta consigliata) `roles/storage.objectUser`: utilizzare questa autorizzazione se si desidera che l&#39;entità abbia accesso alla visualizzazione, all&#39;elenco, all&#39;aggiornamento e all&#39;eliminazione dei file nell&#39;account GCP.</br>Questa autorizzazione consente all’entità principale di sovrascrivere i file esistenti per i caricamenti successivi, senza la necessità di generare automaticamente nomi di file univoci per ogni nuova esportazione pianificata.</li></ul><p>Se l’organizzazione utilizza [Vincoli dei criteri dell&#39;organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints?hl=it) per accettare solo l’account Google Cloud Platform nel tuo elenco consentiti, è necessario il seguente ID organizzazione di Google Cloud Platform di proprietà di Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
@@ -366,7 +366,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
    | [!UICONTROL **Formato di compressione**] | Tipo di compressione utilizzata. **Gzip** restituisce i file in formato `.tar.gz`. **Zip** restituisce i file in formato `.zip`. |
    | [!UICONTROL **Tipo di pacchetto**] | Selezionare [!UICONTROL **Più file**] per la maggior parte dei feed di dati. Questa opzione impagina i dati in blocchi non compressi da 2 GB. Se l&#39;opzione [!UICONTROL **Più file**] è selezionata e i dati non compressi per la finestra di reporting sono inferiori a 2 GB, viene inviato un file. Se si seleziona **File singolo**, il file `hit_data.tsv` verrà restituito in un unico file, potenzialmente di grandi dimensioni. |
    | [!UICONTROL **Manifesto**] | Determina se Adobe deve consegnare un [file manifesto](c-df-contents/datafeeds-contents.md#feed-manifest) alla destinazione quando non vengono raccolti dati per un intervallo di feed. Se si seleziona **File manifesto**, verrà visualizzato un file manifesto simile al seguente quando non vengono raccolti dati:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
-   | [!UICONTROL **Modelli di colonna**] | Durante la creazione di molti feed di dati, l’Adobe consiglia di creare un modello di colonna. Quando si seleziona un modello di colonna, le colonne specificate vengono incluse automaticamente nel modello. Per impostazione predefinita, in Adobe sono inoltre disponibili diversi modelli. |
+   | [!UICONTROL **Modelli di colonna**] | Durante la creazione di molti feed di dati, Adobe consiglia di creare un modello di colonna. Quando si seleziona un modello di colonna, le colonne specificate vengono incluse automaticamente nel modello. Per impostazione predefinita, Adobe fornisce anche diversi modelli. |
    | [!UICONTROL **Colonne disponibili**] | Tutte le colonne di dati disponibili in Adobe Analytics. Fare clic su [!UICONTROL Add all] per includere tutte le colonne in un feed di dati. |
    | [!UICONTROL **Colonne incluse**] | Colonne da includere in un feed di dati. Fare clic su [!UICONTROL Remove all] per rimuovere tutte le colonne da un feed di dati. |
    | [!UICONTROL **Scarica CSV**] | Scarica un file CSV contenente tutte le colonne incluse. |
@@ -388,11 +388,11 @@ Le informazioni seguenti forniscono informazioni di configurazione per ciascuna 
 
 ### FTP
 
-I dati del feed dati possono essere inviati a un Adobe o a una posizione FTP ospitata dal cliente. Richiede un host FTP, un nome utente e una password. Utilizza il campo del percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste.
+I dati del feed di dati possono essere inviati a una posizione FTP ospitata dal cliente o da un Adobe. Richiede un host FTP, un nome utente e una password. Utilizza il campo del percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste.
 
 Per completare i campi disponibili, utilizza le seguenti informazioni:
 
-* [!UICONTROL **Host**]: immetti l&#39;URL di destinazione FTP desiderato. Esempio: `ftp://ftp.omniture.com`.
+* [!UICONTROL **Host**]: immetti l&#39;URL di destinazione FTP desiderato. Ad esempio: `ftp://ftp.omniture.com`.
 * [!UICONTROL **Percorso**]: può essere lasciato vuoto
 * [!UICONTROL **Nome utente**]: immetti il nome utente per accedere al sito FTP.
 * [!UICONTROL **Password e conferma password**]: immetti la password per accedere al sito FTP.

@@ -1,13 +1,13 @@
 ---
-description: La gestione richieste consente di visualizzare, duplicare e ridefinire le priorità delle richieste.
+description: Scopri come visualizzare, duplicare e ridefinire le priorità delle richieste Data Warehouse.
 title: Gestire le richieste di Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -92,8 +92,8 @@ Puoi visualizzare la cronologia di qualsiasi richiesta Data Warehouse effettuata
    | [!UICONTROL **Stato**] | Stato della consegna del rapporto. Gli stati possibili sono:<ul><li>[!UICONTROL **Creato**]: il report è stato creato ma non è ancora stato elaborato.</li><li>[!UICONTROL **In sospeso**]: il report è in attesa di elaborazione.</li><li>[!UICONTROL **Elaborazione**]: report in corso.</li><li>[!UICONTROL **Completato**]: report completato ed ora disponibile.</li><li>[!UICONTROL **Pianificato**]: report pianificato ma non ancora avviato.</li><li>[!UICONTROL **Annullato**]: report annullato dall&#39;utente.</li><li>[!UICONTROL **Errore - Elaborazione**:] Il report ha rilevato un errore e non è stato possibile elaborarlo.</li><li>[!UICONTROL **Errore - Impossibile inviare**]: il report è stato generato correttamente ma non è stato possibile recapitare. Controlla la [configurazione della tua destinazione](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), quindi invia nuovamente il rapporto.</li></ul>. |
    | [!UICONTROL **Da**] | Data di inizio dell’intervallo di tempo complessivo incluso nel rapporto.<p>Viene visualizzato nel fuso orario della suite di rapporti.</p> |
    | [!UICONTROL **A**] | Data di fine dell’intervallo di tempo complessivo incluso nel rapporto. <p>Viene visualizzato nel fuso orario della suite di rapporti.</p> |
-   | [!UICONTROL **ID richiesta legacy**] | ID utilizzato per identificare un report nell&#39;interfaccia Data Warehouse legacy. Questo ID potrebbe essere necessario quando si contatta l’Assistenza clienti Adobe. |
-   | [!UICONTROL **ID report**] | ID utilizzato per identificare un report nell&#39;interfaccia Data Warehouse corrente. Questo ID potrebbe essere necessario quando si contatta l’Assistenza clienti Adobe. |
+   | [!UICONTROL **ID richiesta legacy**] | ID utilizzato per identificare un report nell&#39;interfaccia Data Warehouse legacy. Questo ID potrebbe essere necessario quando si contatta l’Assistenza clienti di Adobe. |
+   | [!UICONTROL **ID report**] | ID utilizzato per identificare un report nell&#39;interfaccia Data Warehouse corrente. Questo ID potrebbe essere necessario quando si contatta l’Assistenza clienti di Adobe. |
 
 
 1. Seleziona una consegna di rapporti, quindi seleziona una delle seguenti opzioni:

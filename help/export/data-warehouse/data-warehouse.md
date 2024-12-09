@@ -1,13 +1,13 @@
 ---
-description: Data warehouse rimanda alla copia dei dati di Analytics per l’archiviazione e i rapporti personalizzati, che puoi eseguire filtrando i dati. È possibile richiedere rapporti per visualizzare relazioni avanzate tra i dati, da dati non elaborati in base a domande specifiche. I rapporti data warehouse vengono inviati tramite e-mail o a un provider di archiviazione cloud e la loro elaborazione può richiedere fino a 72 ore. Il tempo di elaborazione dipende dalla complessità della query e dalla quantità di dati richiesti.
+description: Data Warehouse Scopri come filtrare i dati, e come creare ed eseguire rapporti personalizzati.
 title: Panoramica di Data Warehouse
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 79%
 
 ---
 
@@ -35,7 +35,7 @@ Data warehouse comprime automaticamente qualsiasi file di dimensioni superiori a
 
 ## Accesso
 
-Adobe abilita Data Warehouse solo per gli utenti a livello di amministratore, per suite di rapporti specifiche. (Può essere abilitato per le suite di rapporti globali e secondarie, ma non per le suite di rapporti di aggregazione dati.) L’amministratore può creare un gruppo con accesso a Data Warehouse e quindi associare al gruppo utenti non amministratori.
+Adobe abilita Data Warehouse solo per gli utenti a livello di amministratore, per suite di rapporti specifiche. Può essere abilitata per le suite di rapporti globali e secondarie, ma non per le suite di rapporti di aggregazione dati. L&#39;amministratore può creare un gruppo con accesso a Data Warehouse e quindi associare al gruppo utenti non amministratori.
 
 Consulta [Gestire le autorizzazioni di Data Warehouse](/help/export/data-warehouse/t-dw-group.md).
 

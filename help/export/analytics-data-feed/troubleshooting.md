@@ -1,12 +1,11 @@
 ---
 title: Risoluzione dei problemi dei feed dati
-description: Scopri come determinare e risolvere i problemi con i feed di dati.
-keywords: processo;risoluzione problemi;errore;ftp;chdir;connessione;login;put
+description: Scopri i motivi per cui un processo di feed dati potrebbe non riuscire a elaborare o consegnare i dati. Risolvere i potenziali problemi relativi ai feed di dati.
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -39,7 +38,7 @@ Se un nuovo feed di dati genera un errore, risolvi il problema caricando manualm
 
    ![Esplora file](assets/file_explorer.png)
 
-2. Viene visualizzata una finestra a comparsa che richiede un nome utente e una password. Immetti le credenziali di autenticazione. Se le credenziali vengono accettate, la finestra mostra il contenuto corrente sul sito FTP. Se le credenziali non vengono accettate, rivolgiti al proprietario FTP per assicurarti che il nome utente e la password siano corretti. Se utilizzi SFTP, assicurati di seguire ogni passaggio nella [guida SFTP](../ftp-and-sftp/c-sftp/ftp-sftp.md). L’Adobe non supporta tutti i casi di utilizzo di SFTP.
+2. Viene visualizzata una finestra a comparsa che richiede un nome utente e una password. Immetti le credenziali di autenticazione. Se le credenziali vengono accettate, la finestra mostra il contenuto corrente sul sito FTP. Se le credenziali non vengono accettate, rivolgiti al proprietario FTP per assicurarti che il nome utente e la password siano corretti. Se utilizzi SFTP, assicurati di seguire ogni passaggio nella [guida SFTP](../ftp-and-sftp/c-sftp/ftp-sftp.md). Tieni presente che Adobe non supporta tutti i casi di utilizzo di SFTP.
 3. Carica un file sul sito FTP trascinandolo nella finestra autenticata. Qualsiasi immagine o documento di testo è adeguato. Se ricevi un errore durante il tentativo di inserire un file nel sito FTP, rivolgiti al proprietario FTP per verificare che lo spazio su disco sia sufficiente e che il nome utente disponga delle autorizzazioni di scrittura per il sito FTP.
 4. Dopo aver confermato che il file si trova sul sito FTP, puoi eliminare il file caricato nel passaggio precedente.
 

@@ -1,12 +1,12 @@
 ---
-description: Fornisce rapporti con raggruppamenti classificati in Date Warehouse, ordinati per valore di metrica decrescente.
+description: Scopri come l’ordinamento per metrica semplifica l’interpretazione e il confronto dei rapporti Data Warehouse con altre visualizzazioni di reporting di suddivisione di Analytics.
 title: Ordina per metrica
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
-source-git-commit: 42c95198a4d4389308c78c312b5bb37572350cc1
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 13%
+source-wordcount: '337'
+ht-degree: 12%
 
 ---
 

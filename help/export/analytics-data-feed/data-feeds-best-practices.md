@@ -1,12 +1,12 @@
 ---
-description: Di seguito sono riportate alcune best practice per l’elaborazione e la distribuzione di feed di dati.
+description: Scopri le best practice per l’elaborazione e la consegna di feed di dati in Analytics.
 keywords: Feed dati;best practice;picco di traffico;ogni ora;ftp
 title: Best practice e informazioni generali
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---

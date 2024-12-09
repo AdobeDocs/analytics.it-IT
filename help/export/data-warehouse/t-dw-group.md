@@ -1,12 +1,12 @@
 ---
-description: Passaggi che descrivono come gli amministratori possono abilitare l’accesso ai rapporti Data Warehouse per gli utenti.
-title: Gestire le autorizzazioni Data Warehouse
+description: Scopri i passaggi che descrivono come gli amministratori possono abilitare l’accesso ai rapporti Data Warehouse per gli utenti.
+title: Gestisci autorizzazioni Data Warehouse
 feature: Data Warehouse
 solution: Analytics
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---

@@ -1,12 +1,12 @@
 ---
-description: Data Warehouse può fornire rapporti in formato TDE (Tableau Data Extract), che consentono di visualizzare dati e livelli in dati aggiuntivi dall’esterno di Adobe Analytics. È possibile inviare queste informazioni tramite e-mail o inviare queste informazioni a un sito FTP.
+description: Scopri come Data Warehouse può fornire rapporti in formato TDE (Tableau Data Extract). È possibile inviare queste informazioni tramite e-mail o tramite FTP per inviarle a un sito FTP.
 title: File di dati Tableau
 feature: Data Warehouse
 exl-id: c9973eb6-9ca2-4a8d-94b0-4c7c9c70ab26
-source-git-commit: 4243f10376e5e33c1d9bd439042b396bd4747f1f
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 3%
+source-wordcount: '88'
+ht-degree: 0%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: Interfaccia utente feed dati
-description: Scopri come navigare nell’interfaccia del feed dati.
+title: Gestire i feed dati
+description: Scopri come navigare nell’interfaccia del feed dati. Scopri come creare, modificare e visualizzare un feed di dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 2%
+source-wordcount: '1164'
+ht-degree: 3%
 
 ---
 
