@@ -2,7 +2,8 @@
 title: Metriche di qualità dei contenuti multimediali in streaming
 description: Metriche disponibili quando abiliti [!UICONTROL Media Quality] per una suite di rapporti.
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 *In questa pagina sono descritte le metriche disponibili quando si abilita [!UICONTROL Media Quality] per una suite di rapporti. Vedi [Dimensioni di qualità Streaming Media](../dimensions/sm-quality.md) per le dimensioni disponibili.*
 
-Le metriche di qualità dei contenuti multimediali in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di raccolta di contenuti multimediali in streaming. L&#39;utilizzo di queste metriche richiede **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Per informazioni, contatta il team dell’account Adobe.
+Le metriche di qualità dei contenuti multimediali in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di raccolta di contenuti multimediali in streaming. L&#39;utilizzo di queste metriche richiede **[!UICONTROL Adobe Streaming Media Collection]**. Per informazioni, contatta il team dell’account Adobe.
 
 Quando abiliti **[!UICONTROL Media Quality]** in [Report multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le metriche seguenti:
 

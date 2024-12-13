@@ -2,7 +2,8 @@
 title: Dimensioni di qualità dei contenuti multimediali in streaming
 description: Dimensioni disponibili quando si abilita [!UICONTROL Media Quality] per una suite di rapporti.
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: e3794d8c-3c03-425d-850c-a735b579324b
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 *In questa pagina sono descritte le dimensioni disponibili quando si abilita [!UICONTROL Media Quality] per una suite di rapporti. Vedi [Metriche di qualità dei contenuti multimediali in streaming](../metrics/sm-quality.md) per le metriche disponibili.*
 
-Le dimensioni di qualità dei contenuti multimediali in streaming forniscono rapporti relativi alla qualità dei contenuti utilizzati dal visitatore. L&#39;utilizzo di queste dimensioni richiede [!UICONTROL Adobe Streaming Media Collection add-on]. Per informazioni, contatta il team dell’account Adobe.
+Le dimensioni di qualità dei contenuti multimediali in streaming forniscono rapporti relativi alla qualità dei contenuti utilizzati dal visitatore. L&#39;utilizzo di queste dimensioni richiede [!UICONTROL Adobe Streaming Media Collection]. Per informazioni, contatta il team dell’account Adobe.
 
 Quando abiliti **[!UICONTROL Media Quality]** in [Generazione rapporti multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le seguenti dimensioni:
 
@@ -26,7 +27,7 @@ Quando abiliti **[!UICONTROL Media Quality]** in [Generazione rapporti multimedi
 | Fotogrammi persi | Numero totale di fotogrammi saltati durante una sessione di riproduzione. | Chiusura file multimediale | `a.media.qoe.droppedFrameCount` |
 | Errori | Numero totale di errori che si sono verificati durante una sessione di riproduzione. | Chiusura file multimediale | `a.media.qoe.errorCount` |
 | ID errore esterni | Tutti gli ID di errore univoci da qualsiasi origine esterna, ad esempio errori CDN. Devi fornire i codici di errore o gli ID desiderati. Sono consentiti più ID di errore. | Chiusura file multimediale | `a.media.qoe.externalErrors` |
-| ID errore SDK del lettore | Tutti gli ID di errore univoci generati dall’SDK del lettore di contenuti. Devi fornire i codici di errore o gli ID desiderati. Sono consentiti più ID di errore. | Chiusura file multimediale | `a.media.qoe.playerSdkErrors` |
+| ID errore SDK del lettore | Tutti gli ID di errore univoci generati dal lettore di contenuti SDK. Devi fornire i codici di errore o gli ID desiderati. Sono consentiti più ID di errore. | Chiusura file multimediale | `a.media.qoe.playerSdkErrors` |
 | Tempo di avvio | Il valore predefinito è `0` se non è impostato tramite QoSObject. Imposta il valore in millisecondi. Analysis Workspace segnala questa dimensione in secondi. | Avvio file multimediale, Chiusura file multimediale | `a.media.qoe.timeToStart` |
 
 {style="table-layout:auto"}

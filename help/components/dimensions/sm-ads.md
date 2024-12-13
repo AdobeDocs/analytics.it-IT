@@ -2,7 +2,8 @@
 title: Dimensioni degli annunci di contenuti multimediali in streaming
 description: Dimensioni disponibili quando si abilita [!UICONTROL Media Ads] per una suite di rapporti.
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 8%
@@ -13,7 +14,7 @@ ht-degree: 8%
 
 *In questa pagina sono descritte le dimensioni disponibili quando si abilita [!UICONTROL Media Ads] per una suite di rapporti. Vedi [Metriche degli annunci multimediali in streaming](../metrics/sm-ads.md) per le metriche disponibili.*
 
-Le dimensioni degli annunci per contenuti multimediali in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di raccolta di contenuti multimediali in streaming. L&#39;utilizzo di queste dimensioni richiede **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Per informazioni, contatta il team dell’account Adobe.
+Le dimensioni degli annunci per contenuti multimediali in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di raccolta di contenuti multimediali in streaming. L&#39;utilizzo di queste dimensioni richiede **[!UICONTROL Adobe Streaming Media Collection]**. Per informazioni, contatta il team dell’account Adobe.
 
 Quando abiliti **[!UICONTROL Media Ads]** in [Generazione rapporti multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le seguenti dimensioni:
 
@@ -36,8 +37,8 @@ Oltre alle quote di cui sopra, Adobe crea automaticamente le seguenti quote di c
 | --- | --- | --- |
 | ID risorsa | [Contenuto](sm-core.md) | Identificatore univoco del contenuto della risorsa multimediale. Alcuni esempi includono l’identificatore di un episodio di una serie TV, di una risorsa di un film o di un evento live. Questi ID sono in genere derivati da autorità di metadati come EIDR, TMS/Gracenote, Rovi o da altri sistemi proprietari o interni. |
 | Valutazione dei contenuti | [Contenuto](sm-core.md) | La classificazione è definita dalle linee guida TV per genitori. |
-| Data della prima messa in onda | [Contenuto](sm-core.md) | La data in cui il contenuto è andato in onda per la prima volta in televisione. Poiché questa dimensione di classificazione è una stringa, è consentito qualsiasi formato di data. L&#39;Adobe consiglia di utilizzare un formato data coerente, ad esempio `YYYY-MM-DD`. |
-| Data prima versione digitale | [Contenuto](sm-core.md) | La data in cui il contenuto è andato in onda per la prima volta su qualsiasi canale o piattaforma digitale. Poiché questa dimensione di classificazione è una stringa, è consentito qualsiasi formato di data. L&#39;Adobe consiglia di utilizzare un formato data coerente, ad esempio `YYYY-MM-DD`. |
+| Data della prima messa in onda | [Contenuto](sm-core.md) | La data in cui il contenuto è andato in onda per la prima volta in televisione. Poiché questa dimensione di classificazione è una stringa, è consentito qualsiasi formato di data. Adobe consiglia di utilizzare un formato data coerente, ad esempio `YYYY-MM-DD`. |
+| Data prima versione digitale | [Contenuto](sm-core.md) | La data in cui il contenuto è andato in onda per la prima volta su qualsiasi canale o piattaforma digitale. Poiché questa dimensione di classificazione è una stringa, è consentito qualsiasi formato di data. Adobe consiglia di utilizzare un formato data coerente, ad esempio `YYYY-MM-DD`. |
 | Lunghezza annuncio | Annuncio | La lunghezza dell’annuncio video, in secondi. |
 | Nome annuncio | Annuncio | Il nome descrittivo dell’annuncio. È l’equivalente di classificazione di &quot;Nome annuncio (variabile)&quot;. |
 | ID creatività | Annuncio | ID della creatività dell’annuncio. |

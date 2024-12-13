@@ -3,10 +3,10 @@ title: Compatibilità dei Dimension Analytics
 description: Riferimento per dimensioni e rapporti di Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 33%
+source-wordcount: '889'
+ht-degree: 34%
 
 ---
 
@@ -157,7 +157,7 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 
 ## Dimensioni in base al contenuto supportate da Analysis Workspace
 
-### Video (componente aggiuntivo Streaming Media Collection)
+### Video (la raccolta di contenuti multimediali in streaming)
 
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
@@ -202,8 +202,8 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | Esci da percorso file multimediale | `exitvideopath` |
 | Genere voce | `entryvideogenre` |
 | Genere di uscita | `exitvideogenre` |
-| ID degli errori SDK del lettore della voce | `entryvideoqoeplayersdkerrors` |
-| ID degli errori dell’SDK di uscita dal lettore | `exitvideoqoeplayersdkerrors` |
+| ID errore SDK del lettore della voce | `entryvideoqoeplayersdkerrors` |
+| ID errore di uscita dal SDK del lettore | `exitvideoqoeplayersdkerrors` |
 | ID errore esterni di immissione | `entryvideoqoeextneralerrors` |
 | Esci da ID errore esterni | `exitvideoqoeextneralerrors` |
 
@@ -218,12 +218,12 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | Latitudine/Longitudine | `sociallatlong` |
 | Codici di tracciamento risorse | `socialassettrackingcode` |
 | Proprietà social possedute | `socialaccountandappids` |
-| ID Post di proprietà | `socialownedpostids` |
+| ID post di proprietà | `socialownedpostids` |
 | Definizioni social di proprietà | `socialinteractiontype` |
 | ID proprietà possedute | `socialownedpropertyid` |
 | Proprietà di proprietà e applicazione | `socialownedpropertypropertyvsapp` |
 | Nome proprietà di proprietà | `socialownedpropertyname` |
-| Proprietà di definizione di proprietà e Post | `socialowneddefinitionpropertyvspost` |
+| Proprietà definizione di proprietà e post | `socialowneddefinitionpropertyvspost` |
 | Tipo di informazioni sulla definizione di proprietà | `socialowneddefinitioninsighttype` |
 | Valore informazioni definizione di proprietà | `socialowneddefinitioninsightvalue` |
 | Metrica di definizione di proprietà | `socialowneddefinitionmetric` |
@@ -277,9 +277,9 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
 |--- |--- |
-| Collegamento Activity Map per area geografica | `clickmaplinkbyregion` |
+| Collegamento ad Activity Map per area geografica | `clickmaplinkbyregion` |
 | Area geografica di Activity Map | `clickmapregion` |
-| Collegamento Activity Map | `clickmaplink` |
+| Collegamento ad Activity Map | `clickmaplink` |
 | Pagina di Activity Map | `clickmappage` |
 
 ### Integrazione Nielsen
