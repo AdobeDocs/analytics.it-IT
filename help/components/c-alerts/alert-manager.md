@@ -3,9 +3,9 @@ description: Gestire gli avvisi.
 title: Panoramica di Gestione avvisi
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '630'
 ht-degree: 4%
 
 ---
@@ -85,11 +85,13 @@ Per modificare un avviso esistente:
    Di seguito sono riportate alcune delle operazioni che è possibile eseguire durante la modifica di un avviso:
 
    * Aggiungere avvisi ad altre suite di rapporti
-   * Cambia il proprietario
-   * Aggiornare i filtri
-   * Aggiornare la data di scadenza
+   * Aggiungere o modificare la descrizione
+   * Modificare la granularità temporale
+   * Modificare i destinatari
+   * Modificare la data di scadenza
+   * Modificare metriche e filtri
 
-1. Modifica l&#39;avviso, quindi seleziona [!UICONTROL **Salva**].
+1. Seleziona [!UICONTROL **Salva**].
 
 ## Configurare le colonne
 
