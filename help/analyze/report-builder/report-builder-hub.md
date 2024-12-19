@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: c6b753b887b369fbbae2f9bb5d45cef92bffb3d0
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '519'
 ht-degree: 48%
 
 ---
@@ -66,8 +66,8 @@ Per modificare la suite di rapporti, seleziona una nuova suite di rapporti dal m
 
 ### Intervallo date
 
-**[!UICONTROL Date range]** mostra l&#39;intervallo di date per i blocchi di dati selezionati. Se sono selezionati più blocchi di dati con più intervalli di date, il collegamento **[!UICONTROL Date range]** visualizza *Multiple*.
+**[!UICONTROL Date range]** mostra l&#39;intervallo di date per i blocchi di dati selezionati. Se sono selezionati più blocchi di dati con più intervalli di date, il collegamento **[!UICONTROL Date range]** visualizza *Multiple*. [Ulteriori informazioni](/help/analyze/report-builder/select-date-range.md)
 
 ### Segmenti
 
-Il collegamento **Segmenti** visualizza un elenco di riepilogo dei segmenti utilizzati dai blocchi di dati selezionati. Se sono selezionati più blocchi di dati con più segmenti applicati, il collegamento **Segmenti** visualizza *Multipli*.
+Il collegamento **Segmenti** visualizza un elenco di riepilogo dei segmenti utilizzati dai blocchi di dati selezionati. Se sono selezionati più blocchi di dati con più segmenti applicati, il collegamento **Segmenti** visualizza *Multipli*. [Ulteriori informazioni](/help/analyze/report-builder/work-with-segments.md)

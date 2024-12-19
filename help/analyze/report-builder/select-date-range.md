@@ -5,9 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -31,7 +32,7 @@ Il calendario consente di creare date statiche o continue utilizzando le seguent
 
 **Dalla cella**
 
-L&#39;opzione Da cella consente di fare riferimento alle date immesse nelle celle del foglio di lavoro.
+L&#39;opzione **[!UICONTROL From cell]** consente di fare riferimento alle date immesse nelle celle del foglio di lavoro.
 
 Hai la possibilità di escludere oggi in qualsiasi intervallo di date selezionato.
 
