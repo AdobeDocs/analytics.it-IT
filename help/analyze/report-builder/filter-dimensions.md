@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 73%
+source-wordcount: '962'
+ht-degree: 64%
 
 ---
 
@@ -95,7 +96,7 @@ Per impostare i criteri da filtrare:
 
 1. Immetti un valore nel campo di ricerca.
 
-1. Fai clic su Add row (Aggiungi riga) per confermare la selezione e aggiungere un altro elemento di criteri.
+1. Fare clic su **[!UICONTROL Add row]** per confermare la selezione e aggiungere un altro elemento di criteri.
 
 1. Fai clic sull’icona Elimina per rimuovere un elemento di criteri.
 
@@ -118,15 +119,15 @@ Per cambiare la metrica utilizzata per filtrare e ordinare il blocco di dati:
 
 ## Filtri specifici
 
-L’opzione Specific (Specifici) consente di creare un elenco di elementi dimensione per ogni dimensione. Utilizza il tipo di filtro **Specific** (Specifici) per specificare gli elementi dimensione esatti da includere nel filtro. Puoi selezionare gli elementi da un elenco o da un intervallo di celle.
+L’opzione Specific (Specifici) consente di creare un elenco di elementi dimensione per ogni dimensione. Utilizza il tipo di filtro **[!UICONTROL Specific]** per specificare gli elementi dimensionali esatti da includere nel filtro. Puoi selezionare gli elementi da un elenco o da un intervallo di celle.
 
 ![Opzioni specifiche ed elementi selezionati.](./assets/image32.png)
 
 ### From list (Da elenco)
 
-1. Seleziona l’opzione **From list** (Da un elenco) per cercare e selezionare gli elementi dimensione.
+1. Selezionare l&#39;opzione **[!UICONTROL From list]** per cercare e selezionare gli elementi dimensione.
 
-   Quando selezioni l’opzione **From List** (Da elenco), l’elenco viene compilato con gli elementi dimensione che hanno il maggior numero di eventi.
+   Quando selezioni l&#39;opzione **[!UICONTROL From list]**, l&#39;elenco viene compilato con gli elementi dimensione che hanno il maggior numero di eventi.
 
    ![Opzione From List ed elementi disponibili.](./assets/image33.png)
 
@@ -142,7 +143,7 @@ L’opzione Specific (Specifici) consente di creare un elenco di elementi dimens
 
 1. Seleziona un elemento dimensione.
 
-   Gli elementi dimensione selezionati vengono aggiunti automaticamente all’elenco **Selected items** (Elementi selezionati).
+   Gli elementi dimensione selezionati vengono aggiunti automaticamente all&#39;elenco **[!UICONTROL Selected items]**.
 
    ![](./assets/image35.png)
 
@@ -176,4 +177,4 @@ Dalla scheda **[!UICONTROL Dimensions]**, fare clic sulla freccia accanto al nom
 
 ![Scheda Dimension e elenco delle dimensioni.](./assets/dimensions_chevron.png)
 
-Puoi trascinare gli elementi sulla **tabella**, oppure puoi fare doppio clic sul nome di un elemento per aggiungerlo al generatore di **tabelle**.
+È possibile trascinare gli elementi su **[!UICONTROL Table]** oppure fare doppio clic sul nome di un elemento per aggiungerlo al generatore **[!UICONTROL Table]**.

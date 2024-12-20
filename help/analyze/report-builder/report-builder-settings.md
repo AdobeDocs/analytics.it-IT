@@ -5,10 +5,11 @@ role: Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: d158ad45-d467-4355-b091-f015bde7a243
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 3%
+source-wordcount: '255'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +25,7 @@ Per modificare le impostazioni del Report Builder
 
 1. Fai clic su **Applica**.
 
-   ![Riquadro Report Builder intervallo date con il pulsante Annulla e applica.](./assets/image38.png)
+   ![Impostazioni Report Builder.](./assets/image38.png)
 
 ## Modalità offline
 
@@ -32,13 +33,13 @@ Durante la creazione e la modifica di un blocco di dati in modalità offline, i 
 
 Per attivare la modalità offline
 
-1. Fai clic sull&#39;icona **Impostazioni**.
+1. Fai clic sull’icona **[!UICONTROL Settings]**.
 
-1. Selezionare **Attiva modalità offline**.
+1. Seleziona **[!UICONTROL Enable off-line mod]e**.
 
-1. Immettere un numero intero positivo nel campo **Visualizza dati metrica come**.
+1. Immettere un numero intero positivo nel campo **[!UICONTROL Display metric data as]**.
 
-1. Fai clic su **Applica**.
+1. Fai clic su **[!UICONTROL Apply]**.
 
 ## Lingua
 
@@ -48,14 +49,14 @@ Per selezionare la lingua utilizzata nell’interfaccia utente del Report Builde
 
 1. Fai clic su Impostazioni.
 
-1. Selezionare una lingua dal menu a discesa **Lingua**.
+1. Selezionare una lingua dal menu a discesa **[!UICONTROL Language]**.
 
    ![Riquadro Report Builder intervallo date che mostra l&#39;elenco delle lingue con l&#39;inglese selezionato.](./assets/image39.png)
 
-1. Fare clic su **Applica.**
+1. Fai clic su **[!UICONTROL Apply].**
 
 ## Risoluzione dei problemi
 
 Utilizzare l&#39;impostazione Risoluzione dei problemi per registrare tutti i dati client/server in un file locale. Utilizza questa opzione per risolvere i ticket di supporto.
 
-Per abilitare l&#39;opzione Risoluzione dei problemi, selezionare **Registra la richiesta di Report Builder nel file locale**.
+Per abilitare l&#39;opzione Risoluzione dei problemi, selezionare **[!UICONTROL Log report builder data block to web console]**.
