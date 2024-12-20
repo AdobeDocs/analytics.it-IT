@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 2cb8f72a37699aa45135c9d26686f93ee20f20d7
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,6 @@ Puoi sostituire un segmento esistente con un altro segmento per modificare la mo
 
    Selezionando un filtro, viene aggiunto all&#39;elenco **[!UICONTROL Replace with]**....
 
-   ![La scheda Sostituisci con il blocco di dati Persone nell&#39;app selezionato e l&#39;elenco Sostituisci con aggiornato mostrano Persone nell&#39;app rivista.](./assets/replace_screen_new.png)
-
 1. Fai clic su **[!UICONTROL Apply]**.
 
    Report Builder aggiorna l’elenco dei segmenti in base alla sostituzione.
@@ -103,7 +101,7 @@ Per applicare segmenti da una cella
 
 1. Seleziona la cella da cui desideri che i blocchi di dati facciano riferimento a un segmento.
 
-1. Aggiungi alla cella la scelta di segmento che desideri aggiungere facendo doppio clic sul segmento o trascinandolo nella sezione Segmenti inclusi.
+1. Aggiungere alla cella la scelta di segmento che si desidera aggiungere facendo doppio clic sul segmento o trascinandolo nella sezione **[!UICONTROL Segments Included]**.
 
    Nota: è possibile selezionare una sola scelta per la cella specificata alla volta.
 
