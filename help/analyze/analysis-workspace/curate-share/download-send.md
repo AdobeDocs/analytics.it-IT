@@ -4,10 +4,10 @@ title: Scaricare file PDF o CSV
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 830d9cd13db1a0767cce4e3d2574a120d00a9ac8
+source-git-commit: 04c588cbe8cd4cc9b8d6fe162e3623c2be076325
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 90%
+source-wordcount: '1014'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ Quando si scaricano i progetti, considera quanto segue:
 * Quando si scaricano i progetti come file CSV o PDF, il progetto può essere salvato o non salvato quando si richiede il download di un progetto. Tuttavia, solo i progetti salvati possono essere [pianificati](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md).
 
 * Quando si scaricano progetti come PDF:
-   * L’esportazione dei download può richiedere alcuni minuti, perché il progetto viene rieseguito su server Adobe prima del rendering in formato PDF. È consigliabile non uscire dal progetto fino al completamento del download del PDF nel browser. Tuttavia, puoi continuare ad apportare modifiche al progetto mentre attendi. Se la generazione di un PDF richiede più di 5 minuti, ti verrà chiesto di usare l’e-mail.
+   * L’esportazione dei download può richiedere alcuni minuti, perché il progetto viene rieseguito sui server Adobe prima del rendering in formato PDF. È consigliabile non uscire dal progetto fino al completamento del download del PDF nel browser. Tuttavia, puoi continuare ad apportare modifiche al progetto mentre attendi. Se la generazione di un PDF richiede più di 5 minuti, ti verrà chiesto di usare l’e-mail.
    * I download vengono riprodotti come una singola pagina senza impaginazione.
    * I rendering PDF contengono ciò che si trova sulla pagina in Workspace. Se un progetto contiene pannelli e visualizzazioni di dimensione personalizzata, dovrai impostarne ridimensionamento automatico (con il pulsante in alto a destra) in modo da evitare che alcuni contenuti vengano troncati.
    * Tutti i [collegamenti ipertestuali](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) presenti nelle tabelle a forma libera non funzionano in PDF scaricato.
@@ -44,6 +44,7 @@ Per scaricare un progetto come file CSV o PDF:
    ![](assets/download-project.png)
 
 1. (Condizionale) Se hai scelto di scaricare un file PDF, dopo che il progetto è pronto per essere scaricato, viene visualizzato un messaggio. Fai clic su [!UICONTROL **Scarica**].
+1. Fai clic sull&#39;icona **[!UICONTROL Download this file]** e salva il file in una cartella a tua scelta.
 
 ## Copiare i dati negli Appunti (scelta rapida: Ctrl + C) {#copy-data}
 
