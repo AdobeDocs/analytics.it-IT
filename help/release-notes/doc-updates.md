@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5957'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da gennaio 2019.
 
 * Per informazioni su [!UICONTROL Customer Journey Analytics] vedi [qui](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=it).
-* Per informazioni sulla raccolta di file multimediali in streaming, vedere [Misurazione di audio e video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
+* Per informazioni su Streaming Media Collection, consulta [Misurazione di audio e video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
 
 ## Dettagli sugli aggiornamenti principali della documentazione
 
@@ -38,7 +38,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Documentazione aggiornata per la gestione dei feed di dati | Informazioni aggiornate in [Gestione dei feed di dati](/help/export/analytics-data-feed/df-manage-feeds.md) per migliorarne la chiarezza. <p>Gli aggiornamenti includono:</p><ul><li>Sono state create sezioni separate per varie attività per semplificare la scansione e l’utilizzo delle informazioni.</li><li>Informazioni aggiornate sulle modifiche al comportamento dei feed live riattivati. Queste modifiche sono attualmente disponibili in modo limitato e non sono ancora disponibili per tutti i clienti.</li><li>Sono state aggiunte informazioni che indicano che i feed di dati devono avere lo stato Attivo prima di poter essere eliminati.</li> |
 | Messaggi di errore comuni aggiornati | Effettuati aggiornamenti minori ai [messaggi di errore comuni](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Giugno 2024** | |
-| Nome del prodotto aggiornato che fa riferimento alle funzioni streaming media | Le istanze di &quot;Media Analytics&quot; e &quot;Streaming Media&quot; sono state sostituite con i nomi &quot;Streaming Media Collection Add-on&quot; e &quot;Streaming Media Collection&quot; quando si fa riferimento all’insieme di funzioni per contenuti multimediali in streaming che raccolgono dati multimediali in streaming e li presentano in Analysis Workspace. <p>Questi aggiornamenti sono disponibili nella documentazione di Adobe Analytics e nella [documentazione di Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).</p> |
+| Nome del prodotto aggiornato che fa riferimento alle funzioni streaming media | Le istanze di “Media Analytics” e “Streaming Media” sono state sostituite con il nome “Componente aggiuntivo Streaming Media Collection” quando si fa riferimento all’insieme di funzioni streaming media che raccolgono dati per contenuti multimediali in streaming e li presentano in Analysis Workspace. <p>Questi aggiornamenti sono disponibili all’interno della documentazione di Adobe Analytics e anche nella [Documentazione di Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).</p> |
 | Miglioramento della documentazione sugli avvisi | È stata aggiornata e migliorata la documentazione sugli avvisi. Questi aggiornamenti includono informazioni su [creazione di avvisi](/help/components/c-alerts/alert-builder.md), [gestione degli avvisi](/help/components/c-alerts/alert-manager.md) e [informazioni generali](/help/components/c-alerts/intellligent-alerts.md). |
 | `cookieDomainPeriods` obsoleta | Ora che AppMeasurement rileva automaticamente il dominio corretto su cui impostare i cookie, la variabile [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) è obsoleta. |
 | Documentazione Data Connectors ritirata | Pagina fine del ciclo di vita di Data Connectors spostata in [Prodotti obsoleti](https://experienceleague.adobe.com/it/docs/discontinued/using/data-connectors). |
@@ -82,7 +82,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | **Settembre 2023** | |
 | Struttura di articoli aggiornata per il pannello Tempo trascorso su contenuti multimediali | È stata rimossa la cartella Tempo trascorso su contenuti multimediali, che è stata combinata in un unico articolo: [Pannello Tempo trascorso su contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Questa modifica è più in linea con la documentazione relativa ad altri pannelli.</p> |
 | Miglioramenti del contenuto introduttivo | Sono state aggiunte informazioni che descrivono le principali attività e risorse introduttive per amministratori, analisti, utenti finali e sviluppatori. Sono disponibili i seguenti nuovi articoli: <ul><li>[Introduzione (per ruolo)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Informazioni sull’interfaccia di Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Casi di utilizzo](/help/analyze/get-started/use-cases.md)</li></ul> |
-| Miglioramenti alla documentazione di Reporting per Streaming Media Collection | È stato riorganizzato parte del contenuto della sezione Reporting della guida Streaming Media Collection, incluso il consolidamento della documentazione API nella propria sezione e la regolazione dell’ordine di alcuni articoli. <p>L’articolo sui modelli di Workspace per contenuti multimediali è stato rinominato [Rapporti multimediali in Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=it), in linea con i termini utilizzati nel prodotto. </p> |
+| Miglioramenti alla documentazione del reporting per Streaming Media Collection | È stata riorganizzata una parte dei contenuti nella sezione di reporting della guida su Streaming Media Collection, incluso il consolidamento della documentazione API in una propria sezione e la modifica dell’ordine di alcuni articoli. <p>L’articolo sui modelli di Workspace per contenuti multimediali è stato rinominato [Rapporti multimediali in Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=it), in linea con i termini utilizzati nel prodotto. </p> |
 | **Agosto 2023** | |
 | Chiarimento sui feed di dati | La [definizione di date di inizio e fine](/help/export/analytics-data-feed/create-feed.md) è stata aggiornata per chiarire che, durante l’elaborazione dei feed di dati per i dati storici, è possibile impostare la data di inizio su qualsiasi data nel passato in cui i dati vengono raccolti. |
 | Gestione dei dati della rete Edge di Adobe Experience Platform | Sono stati aggiunti dei contenuti su come Adobe Analytics [gestisce i dati dalla rete Edge](../implement/aep-edge/overview.md). |
