@@ -4,9 +4,9 @@ description: Domande frequenti sull’Activity Map.
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 64964972410911c2bea1460039def39b7c6dfa38
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1054'
 ht-degree: 16%
 
 ---
@@ -35,7 +35,7 @@ Per ulteriori informazioni, consulta [Autorizzazioni del profilo di prodotto per
 
 +++Tutti i clienti Analytics hanno accesso all’Activity Map?
 
-Le organizzazioni con un contratto per Adobe Analytics Standard, Premium e Ultimate hanno accesso all’Activity Map. Questi tipi di contratto rappresentano la maggior parte dei clienti Adobe Analytics.
+Le organizzazioni con un contratto per Adobe Analytics Standard, Premium e Ultimate hanno accesso ad Activity Map. Questi tipi di contratto rappresentano la maggior parte dei clienti Adobe Analytics.
 
 +++
 
@@ -63,7 +63,7 @@ Activity Map supporta la versione più recente della maggior parte dei browser m
 
 +++L’Activity Map aumenta le chiamate server?
 
-Activity Map non invia chiamate server da sola. Al contrario, le variabili di dati di contesto Activity Map sono incluse nelle chiamate di visualizzazione della pagina di Analytics nella pagina successiva. Tuttavia, alcune versioni precedenti di Activity Map nell’SDK per web inviano una chiamata separata per i dati Activity Map. Se utilizzi la versione più recente di Web SDK, i dati Activity Map vengono uniti all’evento seguente.
+Activity Map non invia chiamate server da sola. Al contrario, le variabili di dati di contesto Activity Map sono incluse nelle chiamate di visualizzazione della pagina di Analytics nella pagina successiva. Tuttavia, alcune versioni precedenti di Activity Map sul Web SDK inviano una chiamata separata per i dati Activity Map. Se utilizzi la versione più recente del Web SDK, i dati Activity Map vengono uniti all’evento seguente.
 
 +++
 
@@ -203,7 +203,11 @@ Di seguito sono riportati alcuni esempi in cui Activity Map dispone di tutte le 
 
 +++Quali sono alcuni esempi di collegamenti che Activity Map NON tiene traccia automaticamente?
 
-Di seguito sono riportati alcuni esempi in cui Activity Map non tiene traccia dei clic.
+* Il tag di ancoraggio non ha un `href` valido
+* Metodo [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md) o [`tl()`](/help/implement/vars/functions/tl-method.md) non presente
+* Proprietà `src` mancante in un elemento di input del modulo
+
+Di seguito sono riportati alcuni esempi in cui Activity Map non tiene traccia dei clic:
 
 ```html
 <!-- Anchor tag does not have a valid href -->

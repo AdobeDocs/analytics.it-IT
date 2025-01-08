@@ -3,10 +3,10 @@ description: Quando un report contiene molti valori univoci, Adobe utilizza l’
 title: Valore Traffico ridotto in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
@@ -16,14 +16,14 @@ Quando un report contiene molti valori univoci, Adobe fornisce funzionalità per
 
 ## Come funziona [!UICONTROL Low-Traffic]
 
-* Adobe Analytics utilizza due soglie per determinare quali valori univoci vengono visualizzati nei report ogni mese: una **[!UICONTROL low threshold]** e una **[!UICONTROL high threshold]**. Adobe può modificare periodicamente queste soglie. Gli attuali limiti di soglia sono:
-   * **[!UICONTROL Low threshold]**: >2.000.000 valori univoci nel corso del mese.
-   * **[!UICONTROL High threshold]**: >2.100.000 valori univoci nel corso del mese.
-* Se la variabile non raggiunge la soglia minima in un dato mese, il reporting non viene influenzato.
-* Quando una variabile raggiunge la soglia minima, i dati iniziano ad essere inseriti nel bucket [!UICONTROL Low-Traffic]. Ogni valore oltre questa soglia segue la seguente logica:
+* Adobe Analytics utilizza due soglie per determinare quali valori univoci vengono visualizzati nei report ogni mese: una **[!UICONTROL low threshold]** e una **[!UICONTROL high threshold]**. Tali soglie possono essere modificate di volta in volta per Adobe. Gli attuali limiti di soglia sono:
+   * **[!UICONTROL Low threshold]**: 2.000.000 valori univoci durante il mese.
+   * **[!UICONTROL High threshold]**: 2.100.000 valori univoci durante il mese.
+* Il reporting non viene influenzato se una variabile non raggiunge la soglia bassa in un dato mese.
+* Quando una variabile raggiunge la soglia bassa, i dati iniziano a essere inseriti in un bucket sotto un elemento dimensione etichettato [!UICONTROL Low-Traffic]. Ogni valore oltre questa soglia segue la seguente logica:
    * Se un valore è già presente nei report, aggiungilo come faresti di normalmente.
-   * Se un valore non è ancora visualizzato nei report, inizialmente viene inserito nel bucket dell’elemento dimensione [!UICONTROL Low-Traffic].
-   * Se un valore inserito nel bucket [!UICONTROL Low-Traffic] riceve un afflusso di traffico (generalmente istanze a doppia cifra in un solo giorno), inizia a essere riconosciuto come elemento con dimensione propria. Le istanze raccolte prima di raggiungere la soglia rimangono al di sotto [!UICONTROL Low-Traffic]. Il punto esatto in cui l’elemento dimensione inizia ad apparire nei report possiede molte dipendenze, ad esempio il numero di server che elaborano i dati per la suite di report e la quantità di tempo che intercorre tra ciascuna istanza dell’elemento dimensione.
+   * Se un valore non è ancora visualizzato nei rapporti, aggiungerlo inizialmente all&#39;elemento dimensione [!UICONTROL Low-Traffic].
+   * Se un valore inserito nel bucket in [!UICONTROL Low-Traffic] riceve un afflusso di traffico (in genere le istanze a due cifre in un singolo giorno), riconoscerlo come proprio elemento dimensione. Le istanze raccolte prima dell&#39;afflusso di traffico rimangono in [!UICONTROL Low-Traffic]. Il punto esatto in cui l’elemento dimensione inizia ad apparire nei report possiede molte dipendenze, ad esempio il numero di server che elaborano i dati per la suite di report e la quantità di tempo che intercorre tra ciascuna istanza dell’elemento dimensione.
 * Se una variabile raggiunge la soglia alta, viene applicato un filtro più aggressivo. I valori univoci richiedono istanze a tre cifre in un solo giorno prima di essere riconosciuti come elemento dimensione proprio.
 
 Questa logica consente ad Adobe di ottimizzare le funzionalità di generazione rapporti consentendo comunque alla tua organizzazione di riportare elementi dimensione cruciali raccolti più avanti nel corso del mese. Ad esempio, se la tua organizzazione gestisce un sito con milioni di articoli e un nuovo articolo diventa popolare verso la fine del mese (dopo aver superato entrambe le soglie univoche), puoi comunque analizzare la prestazione di quell’articolo senza che venga inserito nel bucket [!UICONTROL Low-Traffic]. Questa logica non ha lo scopo di eliminare dal bucket tutto ciò che ottiene un certo numero di visualizzazioni di pagina al giorno o al mese.
@@ -31,7 +31,7 @@ Questa logica consente ad Adobe di ottimizzare le funzionalità di generazione r
 >[!NOTE]
 >La dimensione [Pagina](../components/dimensions/page.md) utilizza diverse colonne di back-end che vengono tutte conteggiate ai fini delle soglie univoche, incluse `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url` e `click_context`. Queste colonne di back-end possono causare un [!UICONTROL Low-Traffic] logico da applicare molto prima che il numero di elementi dimensione Pagina univoci in Workspace raggiunga la soglia minima.
 
-Tieni presente che la logica a traffico ridotto descritta sopra funziona meglio con variabili che hanno elementi dimensione che ricorrono più volte durante il mese. Se gli elementi dimensione di una variabile sono quasi o interamente univoci a ogni hit, la variabile raggiungerà rapidamente la soglia minima e tutti i nuovi elementi dimensione per il mese finiranno nella classificazione a traffico ridotto.
+La logica di traffico ridotto funziona al meglio con le variabili che hanno elementi dimensionali che si ripresentano più volte durante il mese. Se gli elementi dimensionali di una variabile sono quasi o completamente univoci su ogni hit, il numero di valori univoci della variabile raggiunge rapidamente entrambe le soglie e tutti gli elementi dimensionali successivi per il mese terminano nel bucket di traffico ridotto.
 
 ## Modifica delle soglie limite univoche
 

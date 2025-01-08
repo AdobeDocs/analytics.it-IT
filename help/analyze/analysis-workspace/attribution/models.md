@@ -4,10 +4,10 @@ description: Modalità di divisione del credito tra i vari elementi dimensionali
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: e18fde22f4ec60b292f47112e51fad8a0d78acb2
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 100%
+source-wordcount: '1602'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 * **Intervallo di lookback su visitatore:** considera fino alla prima visita registrata nel mese indicato nell’intervallo di date corrente. Gli intervalli di lookback su visitatore sono ampie in quanto possono coinvolgere molte visite. Il lookback su visitatore considera tutti i valori dall’inizio del mese dell’intervallo di date del rapporto. Ad esempio, se l’intervallo di date del rapporto è dal 15 settembre al 30 settembre, l’intervallo di date del lookback su visitatore considererà il periodo dal 1° al 30 settembre.
 
-* **Intervallo di lookback personalizzato:** consente di estendere la finestra di attribuzione oltre l’intervallo di date del rapporto, fino a un massimo di 90 giorni. Gli intervalli di lookback personalizzati vengono valutati per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, un intervallo di lookback di 10 giorni valuterebbe tutti i punti di contatto delle dimensioni dal 10 al 20 febbraio nel modello di attribuzione.
+* **Intervallo di lookback personalizzato:** consente di estendere la finestra di attribuzione oltre l’intervallo di date del rapporto, fino a un massimo di 90 giorni. Gli intervalli di lookback personalizzati vengono valutati per ogni conversione nel periodo di reporting. Ad esempio, per una conversione che si verifica il 20 febbraio, un intervallo di lookback di 10 giorni valuterebbe tutti i punti di contatto delle dimensioni dal 10 febbraio al 20 febbraio nel modello di attribuzione.
 
   Ecco un video sulle finestre di lookback personalizzate:
 
@@ -76,6 +76,7 @@ A seconda dell’intervallo di lookback e del modello di attribuzione definiti, 
       * E-mail: 33,8% ovvero 16,88 $
       * Social: 18,6%, ovvero 9,32 $
       * Ricerca a pagamento: 13,8%, ovvero 6,92 $
+* Utilizzando **Partecipazione** e un **intervallo di lookback su visitatore**, l&#39;intero importo di $ 50 viene attribuito a ricerca a pagamento, social, e-mail e visualizzazione. Se visualizzi i ricavi come rapporto con tendenze invece di un rapporto classifica, visualizzerai i $ 50 per ogni giorno in cui il visitatore ha toccato un determinato canale di marketing.
 
 >[!TIP]
 >

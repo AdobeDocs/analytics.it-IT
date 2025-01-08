@@ -3,10 +3,10 @@ title: eVar (dimensione)
 description: Una dimensione personalizzata che puoi utilizzare nel reporting.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: ec077b3404c6bff1198fae30a2d25321de8a58cd
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 100%
+source-wordcount: '850'
+ht-degree: 80%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 100%
 
 *Questa pagina della guida descrive il funzionamento delle eVar come [dimensione](overview.md). Per informazioni su come implementare le eVar, consulta [eVar](/help/implement/vars/page-vars/evar.md) nella Guida utente per l’implementazione.*
 
-Le eVar sono variabili personalizzate che puoi utilizzare come desideri. Se si dispone di un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), la maggior parte delle dimensioni specifiche per l’organizzazione finiscono per essere [!UICONTROL eVars], oltre alla dimensione predefinita disponibile con Adobe Analytics, come “Nome pagina”, “Dominio di riferimento”, “Canale”. Per ulteriori informazioni, consulta [Panoramica delle dimensioni](overview.md).
+Le eVar sono variabili personalizzate che puoi utilizzare come desideri. Se hai un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), la maggior parte delle dimensioni specifiche dell&#39;organizzazione saranno [!UICONTROL eVars]. Per ulteriori informazioni, consulta [Panoramica dei Dimension](overview.md).
 
-Per impostazione predefinita, le eVar persistono oltre l’hit su cui sono impostate. Puoi personalizzarne la scadenza e l’allocazione in [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nelle [!UICONTROL Report suite settings]. Consulta il seguente esempio di definizioni eVar nell’interfaccia delle variabili di conversione.
+Per impostazione predefinita, le eVar persistono oltre l’hit su cui sono impostate. Consulta le sezioni [Funzionamento delle eVar](#how-evars-work) e [Collegamento delle eVar alle metriche](#how-evars-tie-to-metrics) di seguito per informazioni dettagliate sul funzionamento della persistenza eVar nell&#39;architettura di Adobe. Puoi personalizzarne la scadenza e l’allocazione in [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nelle [!UICONTROL Report suite settings]. L’immagine seguente mostra un esempio di definizioni in eVar nell’interfaccia delle variabili di conversione:
 
 ![Esempi di eVar](assets/evars-sample.png)
 
 Il numero di eVar disponibili dipende dal contratto con Adobe. Se il contratto con Adobe lo supporta, sono disponibili fino a 250 eVar.
 
-La lettera (maiuscola o la minuscola) utilizzata nei rapporti si basa sul primo valore registrato dal sistema backend. Questo valore potrebbe essere la prima istanza mai vista o variare su base temporale (ad esempio, mensilmente), a seconda della varietà e della quantità di dati associati alla suite di rapporti.
+La maiuscola o la minuscola utilizzata nei rapporti si basa sul primo valore inviato in un dato mese di calendario. Il caso può cambiare a seconda dell’intervallo di reporting e del caso di un valore eVar raccolto per primo durante tale periodo.
 
 ## Popolare le eVar con i dati
 
@@ -45,7 +45,7 @@ In quasi tutte le circostanze, viene usata la colonna `post_evar` nei rapporti.
 
 ### Come collegare le eVar alle metriche
 
-Gli eventi di successo e le eVar sono definiti spesso in diverse richieste di immagini. La colonna `post_evar` consente ai valori eVar di collegarsi agli eventi, mostrando i dati nel reporting. Considera per esempio la seguente visita:
+Gli eventi di successo e le eVar vengono spesso definiti in momenti diversi. La colonna `post_evar` consente ai valori eVar di collegarsi agli eventi, mostrando i dati nel reporting. Considera per esempio la seguente visita:
 
 1. Un visitatore arriva sulla pagina Home del tuo sito.
 2. Cerca “gatti” usando la ricerca interna del tuo sito. L’implementazione utilizza eVar1 per la ricerca interna.
@@ -78,8 +78,10 @@ Gli strumenti di Adobe Analytics, come Analysis Workspace, smaltiscono questi da
 
 Analysis Workspace estrae questo report utilizzando la seguente logica:
 
-* Cerca in tutti i valori `event_list` e preleva tutti gli hit con `purchase` in essi.
-* Di questi hit, visualizza il valore `post_evar1`.
+* Esaminare tutti i valori `event_list` e scegliere tutte le righe contenenti `purchase`.
+* Di queste righe, visualizza il valore `post_evar1`.
+
+Il report risultante mostra ogni valore diverso contenuto in `post_evar1` a sinistra e quanti ordini sono stati attribuiti a tale valore a destra.
 
 ### Importanza dell’allocazione e della scadenza
 
