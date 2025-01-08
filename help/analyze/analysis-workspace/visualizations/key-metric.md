@@ -4,10 +4,10 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 0bf1b06af8a89c47e74807d14c31075f181cb946
+source-git-commit: 00276353ef5555955d9dc178c692da0dbfb7eac2
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 98%
+source-wordcount: '714'
+ht-degree: 55%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 La visualizzazione [!UICONTROL Key metric summary] ti consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due archi temporali. Fornisce i vantaggi di più visualizzazioni combinate in un’unica visualizzazione:
 
-* **[!UICONTROL Line]** visualizzazioni che mostrano la tendenza della metrica per gli intervalli di date principali e di confronto
+* Visualizzazioni di **[!UICONTROL Line]** che mostrano la tendenza della metrica per gli intervalli di date principali e di confronto
 
 * **[!UICONTROL Summary percent change]** che mostra l’aumento o la diminuzione della metrica tra gli intervalli di date principali e di confronto
 
@@ -35,20 +35,27 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
 1. Trascina visualizzazione **[!UICONTROL Key metric summary]** dal menu **[!UICONTROL Visualizations]** nella barra a sinistra in un pannello.
 
-1. Configura la visualizzazione selezionando una metrica, un intervallo di date principale, un intervallo di date di confronto e un segmento (se desiderato):
-
    ![](assets/key-metric-config.png)
+
+1. Configura la visualizzazione con le seguenti opzioni:
 
    | Impostazione di configurazione | Definizione |
    | --- | --- |
    | **[!UICONTROL Metric]** | Seleziona la metrica da esaminare. Sono supportate tutte le metriche. |
-   | **[!UICONTROL Primary date range]** | L’intervallo di date corrente per la tabella a forma libera. |
-   | **[!UICONTROL Comparison date range]** | L’intervallo di date a cui si desidera confrontare l’intervallo di date principale. |
-   | **[!UICONTROL Segment (optional)]** | Qualsiasi segmento a cui sei interessato in modo specifico per questo riepilogo. |
+   | **[!UICONTROL Primary date range]** | L’intervallo di date corrente per la tabella a forma libera.<p>Scegli uno degli intervalli di date disponibili nella suite di rapporti.</p> <p>Scegli [!UICONTROL **Intervallo date pannello**] se desideri utilizzare lo stesso intervallo di date utilizzato nel pannello in cui si trova la visualizzazione.</p> |
+   | **[!UICONTROL Comparison date range]** | L’intervallo di date che desideri confrontare con l’intervallo di date principale. |
+   | **[!UICONTROL Segment (optional)]** | Qualsiasi segmento al quale sei interessato per questo riepilogo. |
 
    {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Build]**.
+   >[!NOTE]
+   >
+   >Quando il campo [!UICONTROL **Intervallo date primario**] è impostato su [!UICONTROL **Intervallo date pannello**], **[!UICONTROL Comparison date range]** può essere aggiornato automaticamente, a seconda che l&#39;opzione **[!UICONTROL Comparison date range]** scelta sia relativa all&#39;intervallo date primario o fissa.
+   >
+   >* **Relativo:** Se il campo **[!UICONTROL Comparison date range]** è impostato su un&#39;opzione relativa all&#39;intervallo di date primario (ad esempio [!UICONTROL **Giorno precedente**], [!UICONTROL **Stesso giorno della settimana scorsa**], [!UICONTROL **Stesso giorno 4 settimane prima**] e così via), eventuali aggiornamenti al campo [!UICONTROL **Intervallo di date primario**] fanno sì che **[!UICONTROL Comparison date range]** venga aggiornato automaticamente al periodo immediatamente successivo all&#39;intervallo di date del pannello.
+   >* **Fisso:** se il campo [!UICONTROL **Intervallo date di confronto**] è impostato su un intervallo di date fisso (ad esempio **3 febbraio 2023**), le modifiche apportate al campo [!UICONTROL **Intervallo date principale**] o all&#39;intervallo date del pannello non hanno alcun effetto sull&#39;[!UICONTROL **Intervallo date di confronto**]. Tuttavia, eventuali aggiornamenti all&#39;intervallo di date del pannello causano l&#39;aggiornamento automatico dell&#39;[!UICONTROL **Intervallo di date principale**].
+
+1. Seleziona **[!UICONTROL Build]**.
 
 ## Visualizza l’output
 
@@ -56,11 +63,11 @@ L’output deve essere simile al seguente:
 
 ![](assets/key-metric-output.png)
 
-Nota:
+Quando visualizzi l’output, tieni presente quanto segue:
 
-* Il grafico a linee **[!UICONTROL Previous period]** (sempre visualizzato in grigio) corrisponde al **[!UICONTROL Comparison date range]** nel passaggio di configurazione.
+* Il grafico a linee **[!UICONTROL Previous period]** (sempre visualizzato in grigio) corrisponde a **[!UICONTROL Comparison date range]** nel passaggio di configurazione.
 
-* Se durante la configurazione non viene specificato un intervallo di date di confronto o se questo è nascosto nelle impostazioni di visualizzazione, viene visualizzato solo il grafico a linee per l’intervallo di date principale. La modifica di riepilogo sarà nascosta.
+* Se durante la configurazione non viene specificato un intervallo di date di confronto o se questo è nascosto nelle impostazioni di visualizzazione, viene visualizzato solo il grafico a linee per l’intervallo di date principale. La modifica di riepilogo è nascosta.
 
 * Da qui, puoi passare il cursore del mouse sui grafici a linee per vedere le statistiche dei singoli giorni:
 
@@ -80,10 +87,10 @@ Il riepilogo delle metriche chiave offre diverse impostazioni flessibili per con
 | **[!UICONTROL Show annotations]** | Mostrare o nascondere le annotazioni aggiunte da un amministratore |
 | **[!UICONTROL Show sparklines]** | Mostra o nascondi i grafici a linee nella parte inferiore del grafico. Quando è nascosta, la legenda non fa più riferimento visivamente alle linee |
 | **[!UICONTROL Show min and max on sparklines]** | Mostrare o nascondere valori minimi e massimi nei grafici a linee principali e a linee di confronto |
-| **[!UICONTROL Show comparison]** | Mostra o nascondi i dati di confronto. Se nascosti, gli oggetti grafico a linee di confronto e di riepilogo delle modifiche saranno nascosti dalla visualizzazione. |
+| **[!UICONTROL Show comparison]** | Mostra o nascondi i dati di confronto. Quando sono nascosti, gli oggetti grafico a linee di confronto e di riepilogo delle modifiche sono nascosti. |
 | **[!UICONTROL Show total number]** | Mostrare o nascondere il numero di riepilogo |
 | **[!UICONTROL Show raw difference]** | Mostra o nascondi la differenza non elaborata tra il valore totale della metrica nell’intervallo di date principale e l’intervallo di date secondario. |
-| **[!UICONTROL Abbreviate value]** | Abbrevia i valori numerici per semplificare le informazioni comunicate (ad esempio 20.000 -> 20K) |
+| **[!UICONTROL Abbreviate value]** | Abbrevia i valori numerici per semplificare le informazioni comunicate (ad esempio, 20.000 -> 20K) |
 
 ## Visualizzazione Modifica
 
