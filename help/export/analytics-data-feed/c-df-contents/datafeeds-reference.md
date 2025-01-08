@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
-source-wordcount: '3570'
-ht-degree: 67%
+source-wordcount: '3607'
+ht-degree: 66%
 
 ---
 
@@ -145,7 +145,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | **`monthly_visitor`** | Flag che determina se il visitatore è univoco per il mese corrente. | tinyint unsigned |
 | **`mvvar1`** - `mvvar3` | [Elenca i valori della variabile](/help/implement/vars/page-vars/list.md). Contiene un elenco delimitato di valori personalizzati a seconda dell’implementazione. Nelle colonne `post_mvvar1` - `post_mvvar3` il delimitatore originale è sostituito da `--**--`. | testo |
 | **`mvvar1_instances`** - `mvvar3_instances` | I valori delle variabili di elenco impostati sull’hit corrente. Sostituisce il delimitatore originale con `--**--`. Le colonne `post` in genere non contengono dati. | testo |
-| **`new_visit`** | Flag che determina se l’hit corrente è una nuova visita. Impostato dall’Adobe dopo 30 minuti di inattività della visita. | tinyint unsigned |
+| **`new_visit`** | Flag che determina se l’hit corrente è una nuova visita. Impostato da Adobe dopo 30 minuti di inattività della visita. | tinyint unsigned |
 | **`os`** | Un ID numerico che rappresenta il sistema operativo del visitatore. In base alla colonna `user_agent`. Il valore chiave per `operating_system.tsv` ricerca standard e `operating_system_type.tsv` [Ricerca dinamica](dynamic-lookups.md). | int senza segno |
 | **`page_event`** | Tipo di hit inviato nella richiesta di immagine (hit standard, collegamento per il download, collegamento personalizzato, collegamento di uscita). Consulta [Ricerca degli eventi di pagina](datafeeds-page-event.md). | tinyint unsigned |
 | **`page_event_var1`** | Utilizzato solo nelle richieste di immagine per il tracciamento dei collegamenti. L’URL del collegamento di download, del collegamento di uscita o del collegamento personalizzato in cui è stato fatto clic. | testo |
@@ -216,7 +216,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | **`videofeedtype`** | Tipo [di feed](/help/components/dimensions/sm-video-metadata.md) Media Dimensione Streaming multimediale. | varchar(255) |
 | **`videogenre`** | La [dimensione Genere](/help/components/dimensions/sm-video-metadata.md) Streaming Media. Questa dimensione consente più valori nello stesso hit, delimitati da una virgola. | testo |
 | **`videolength`** | La dimensione [Lunghezza del contenuto (variabile)](/help/components/dimensions/sm-core.md) dei contenuti multimediali in streaming. | numero intero |
-| **`videomvpd`** | La dimensione [MVPD](/help/components/dimensions/sm-video-metadata.md) dei file multimediali in streaming. | varchar(255) |
+| **`videomvpd`** | La dimensione [MVPD](/help/components/dimensions/sm-video-metadata.md) Streaming Media. | varchar(255) |
 | **`videoname`** | La dimensione [Nome contenuto (variabile)](/help/components/dimensions/sm-core.md) elemento multimediale in streaming. | varchar(255) |
 | **`videonetwork`** | La dimensione [Network](/help/components/dimensions/sm-video-metadata.md) Streaming Media. | varchar(255) |
 | **`videopath`** | La dimensione [Percorso file multimediali](/help/components/dimensions/sm-core.md) in streaming. | varchar(100) |
@@ -259,7 +259,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 
 ## Colonne inutilizzate o ritirate
 
-Il seguente elenco di colonne non è utilizzato e in genere non contiene dati. Le colonne che contengono dati non sono supportate dalle librerie di raccolta dati correnti e non sono dimensioni disponibili in Analysis Workspace.
+Il seguente elenco di colonne non è utilizzato, è stato ritirato o non contiene alcun valore nei rapporti. Alcune di queste colonne sono legate a funzioni che sono state ritirate, mentre altre non sono più necessarie a causa di funzioni nuove e più solide. La maggior parte di queste colonne non contiene dati; le colonne che potrebbero contenere ancora dati non sono supportate dalle librerie di raccolta dati correnti e non sono dimensioni disponibili in Analysis Workspace.
 
 * `adclassificationcreative`
 * `click_action`
@@ -338,6 +338,7 @@ Il seguente elenco di colonne non è utilizzato e in genere non contiene dati. L
 * `plugins`
 * `prev_page`
 * `product_merchandising`
+* `sampled_hit`
 * `service`
 * `socialaccountandappids`
 * `socialassettrackingcode`
