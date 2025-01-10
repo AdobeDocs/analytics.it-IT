@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
+source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 6%
+source-wordcount: '641'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,6 @@ Per creare un nuovo modello utilizzabile dalle persone della società di accesso
    | **[!UICONTROL Name]** | Fornisci un nome descrittivo per il modello. |
    | **[!UICONTROL Description]** | Fornire una breve descrizione del modello che ne descriva gli usi previsti. |
    | **[!UICONTROL Why use this template]** | Fornisci una breve spiegazione per informare le persone dell’organizzazione su come potrebbe essere utilizzato questo modello. Questa spiegazione viene visualizzata nella pagina Anteprima del modello. |
-   | **[!UICONTROL Channels]** | Scegli tutti i canali applicabili a questo modello. È possibile selezionare più canali: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]** e **[!UICONTROL In-store]**.<p>Le selezioni selezionate determinano la posizione di visualizzazione del modello e i filtri applicabili agli utenti che vi accedono dalla pagina Modelli organizzazione.</p> |
    | **[!UICONTROL Use cases]** | Scegli eventuali casi d’uso applicabili a questo modello. È possibile selezionare più casi d&#39;uso: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]** e **[!UICONTROL Acquisition]**. <p>Le selezioni selezionate determinano la posizione di visualizzazione del modello e i filtri applicabili agli utenti che vi accedono dalla pagina Modelli organizzazione.</p> |
    | **[!UICONTROL Tags]** | Specifica i tag da applicare al modello. Gli utenti possono filtrare l’elenco dei modelli in base ai tag aggiunti. |
 
@@ -44,7 +43,7 @@ Per creare un nuovo modello utilizzabile dalle persone della società di accesso
 
 Per informazioni su come gli utenti possono creare un progetto basato su un modello, vedere [Creare un progetto basato su un modello](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) in [Utilizzare i modelli](/help/analyze/analysis-workspace/templates/use-templates.md).
 
-## Modificare o eliminare i modelli
+## Modificare o eliminare un modello
 
 Gli amministratori possono modificare o eliminare i modelli aziendali.
 
@@ -71,6 +70,22 @@ Gli amministratori possono modificare o eliminare i modelli aziendali.
    1. Selezionare l&#39;icona Altro, quindi selezionare **[!UICONTROL Edit]** o **[!UICONTROL Delete]**.
 
       ![Modifica o eliminazione scheda modello aziendale](assets/company-template-card-edit-delete.png)
+
+1. Se stai modificando un modello, apporta le modifiche desiderate, quindi seleziona [!UICONTROL **Progetto**] > **[!UICONTROL Save as template…]**.
+
+   ![Modello aziendale](assets/company-template-save.png)
+
+1. Specificare le informazioni seguenti nella finestra di dialogo [!UICONTROL Save as template]:
+
+   | Campo | Descrizione |
+   |---------|----------|
+   | **[!UICONTROL Name]** | Fornisci un nome descrittivo per il modello. |
+   | **[!UICONTROL Description]** | Fornire una breve descrizione del modello che ne descriva gli usi previsti. |
+   | **[!UICONTROL Why use this template]** | Fornisci una breve spiegazione per informare le persone dell’organizzazione su come potrebbe essere utilizzato questo modello. Questa spiegazione viene visualizzata nella pagina Anteprima del modello. |
+   | **[!UICONTROL Use cases]** | Scegli eventuali casi d’uso applicabili a questo modello. È possibile selezionare più casi d&#39;uso: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]** e **[!UICONTROL Acquisition]**. <p>Le selezioni selezionate determinano la posizione di visualizzazione del modello e i filtri applicabili agli utenti che vi accedono dalla pagina Modelli organizzazione.</p> |
+   | **[!UICONTROL Tags]** | Specifica i tag da applicare al modello. Gli utenti possono filtrare l’elenco dei modelli in base ai tag aggiunti. |
+
+1. Seleziona [!UICONTROL **Salva come modello**].
 
 ## Rinominare, assegnare tag o approvare i modelli
 
