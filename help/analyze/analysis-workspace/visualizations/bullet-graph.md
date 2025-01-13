@@ -4,14 +4,32 @@ title: Grafico bullet
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 4e230320dbda7bc626a04a9f9ec9cac438c8dba7
+source-git-commit: 7f84679a0d1c9cf1609bf8e01e0209936215d7ff
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 90%
+source-wordcount: '148'
+ht-degree: 76%
 
 ---
 
-# Grafico bullet
+# Grafico bullet {#bullet-graph}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_goalvalue"
+>title="Valore obiettivo"
+>abstract="**[!UICONTROL High goal]** è l&#39;obiettivo principale a cui stai mirando. **[!UICONTROL Low goal]** e **[!UICONTROL Mid goal]** creano intervalli sotto [!UICONTROL High goal]. Nota: quando l&#39;opzione **[!UICONTROL Percentages]** è selezionata, immettere gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_button"
+>title="Bullet"
+>abstract="Crea una visualizzazione con grafico puntato per mostrare come una metrica si confronta con, o si misura rispetto a, intervalli di prestazioni (obiettivi)."
+
+<!-- markdownlint-enable MD034 -->
 
 È possibile vedere come un valore al quale sei interessato si confronta con altre gamme di prestazioni (obiettivi).
 
