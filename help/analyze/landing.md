@@ -4,24 +4,24 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 100%
+source-wordcount: '1608'
+ht-degree: 95%
 
 ---
 
 # Pagina di destinazione di Adobe Analytics
 
-Nella pagina di destinazione di Adobe Analytics, [!DNL Analysis Workspace] e [!DNL Reports & Analytics] (ciclo di vita terminato) sono riuniti in un’unica interfaccia e in un unico punto di accesso sotto l’ombrello di [!DNL Workspace]. Sono disponibili una pagina Home per project manager, un menu aggiornato per i rapporti, che hanno ora un design più attuale, nonché una sezione di apprendimento per aiutarti a iniziare in modo più efficace. Panoramica video:
+Nella pagina di destinazione di Adobe Analytics, [!DNL Analysis Workspace] e [!DNL Reports & Analytics] (ciclo di vita terminato) sono riuniti in un’unica interfaccia e in un unico punto di accesso sotto l’ombrello di [!DNL Workspace]. Sono disponibili una pagina Home per project manager, una sezione modelli e una sezione di apprendimento per aiutarti a iniziare in modo più efficace. Panoramica video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-La pagina di destinazione di Adobe Analytics è composta dalle seguenti schede secondarie: Progetti, Rapporti e Apprendimento.
+La pagina di destinazione di Adobe Analytics è composta dalle seguenti schede secondarie: Progetti, Modelli e Apprendimento.
 
 **[!UICONTROL Projects]** (Progetti) contiene progetti personalizzati che combinano componenti dati, tabelle e visualizzazioni creati dall’utente o che altri utenti hanno creato e condiviso con te. [!UICONTROL Projects] fa riferimento anche a progetti vuoti e scorecard per dispositivi mobili vuote.
 
-**[!UICONTROL Reports]** (Rapporti) fa riferimento a qualsiasi elemento predefinito e fornito da Adobe, ad esempio i modelli in Workspace.
+**[!UICONTROL Templates]** include i modelli forniti da Adobe ed eventuali modelli specifici per la tua organizzazione.
 
 La scheda **[!UICONTROL Learning]** contiene tutorial, presentazioni video pratiche e collegamenti alla documentazione.
 
@@ -83,24 +83,13 @@ Le colonne disponibili sono:
 | MOSTRA: Cartelle e Progetti o Tutti i progetti | Modifica le impostazioni di visualizzazione nella tabella per mostrare cartelle e progetti in base all’organizzazione delle cartelle **oppure** mostra tutti i progetti in un elenco non organizzato. |
 | &lt; (pulsante Indietro) | Consente di tornare alla configurazione della pagina di destinazione più recente in un progetto Workspace o in un rapporto. Quando torni alla pagina di destinazione, ritrovi la stessa configurazione che era attiva al momento in cui hai lasciato la pagina. |
 
-## Passa alla scheda [!UICONTROL Reports] {#navigate-reports}
+## Passa alla scheda [!UICONTROL Templates] {#navigate-reports}
 
-La scheda [!UICONTROL Reports] consolida i seguenti set di rapporti:
+Per informazioni sull’utilizzo dei modelli in Adobe Analytics, consulta le risorse seguenti:
 
-* I modelli [!UICONTROL Workspace] predefiniti che si trovavano in precedenza in [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL New]. Adobe non utilizza più il termine “modello” in questo contesto.
-* La maggior parte dei rapporti predefiniti che si trovavano nel precedente menu superiore [!UICONTROL Reports] di Adobe Analytics. Questi rapporti sono ora visualizzati in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it).
+* [Utilizzare i modelli](/help/analyze/analysis-workspace/templates/use-templates.md)
 
->[!NOTE]
->
->Quando utilizzi i rapporti, prendi in considerazione quanto segue:
->* In Rapporti, la cartella Preferiti viene visualizzata solo se contrassegni un nuovo rapporto come Preferito. Non vengono riportati i precedenti preferiti di Reports &amp; Analytics.
->* Sono disponibili solo i rapporti più utilizzati tra quelli precedentemente raggruppati in Reports &amp; Analytics. Non sono più disponibili alcuni rapporti utilizzati raramente o non più rilevanti. Consulta le [Domande frequenti sulla pagina di destinazione](#landing-page-faq) di seguito per ulteriori dettagli.
-
-![Scheda Rapporti](assets/reports-tab2.png)
-
-Per ulteriori informazioni sulla scheda Rapporti in Analysis Workspace, inclusa la visualizzazione e il salvataggio dei rapporti, consulta [Utilizzare i rapporti predefiniti](/help/analyze/analysis-workspace/reports/use-reports.md).
-
-Per informazioni come creare e gestire i rapporti aziendali personalizzati, consulta [Creare e gestire i rapporti aziendali](/help/analyze/analysis-workspace/reports/create-company-reports.md).
+* [Creare e gestire i modelli](/help/analyze/analysis-workspace/templates/create-templates.md)
 
 ## Utilizzare la scheda Apprendimento {#navigate-learning}
 
@@ -130,20 +119,13 @@ Gli utenti possono impostare la pagina di destinazione preferita.
 
    ![Impostare la pagina di destinazione](assets/landing-pref.png)
 
-## Nascondere la scheda Rapporto {#hide-reports}
-
-Gli amministratori possono nascondere la scheda Rapporti per tutti gli utenti all’interno della propria organizzazione.
-
-1. Vai a [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Preferences] > [!UICONTROL Company].
-1. Seleziona **[!UICONTROL Hide Reports Tab]**.
-
 ## Domande frequenti sulla pagina di destinazione {#landing-faq}
 
 | Domanda | Risposta |
 | --- | --- |
-| Dove sono i modelli che trovavo in [!UICONTROL Workspace]? | Questi modelli sono raggruppati sotto la scheda [!UICONTROL Reports]. |
+| Dove sono i modelli che trovavo in [!UICONTROL Workspace]? | Questi modelli sono raggruppati sotto la scheda [!UICONTROL Templates]. |
 | Il lavoro che eseguo nell’interfaccia utente del programma beta viene riportato all’esperienza [!UICONTROL Workspace] di produzione? | Sì, qualsiasi lavoro svolto nella versione beta viene trasferito all’esperienza precedente/corrente di [!UICONTROL Workspace]. |
 | I miei preferiti precedenti in Reports &amp; Analytics sono stati riportati? | No, NON sono riportati. Tuttavia, vengono riportati tutti i progetti preferiti di [!UICONTROL Workspace]. |
 | Esiste un limite massimo al numero di progetti che è possibile fissare? | No, non esiste alcun limite al numero di progetti che è possibile fissare. |
 | Gli amministratori possono designare questa nuova pagina di destinazione per i loro utenti? | No, gli amministratori non possono designare la pagina di destinazione per conto degli utenti. I singoli utenti devono attivarla autonomamente. |
-| Sono ancora disponibili tutti i rapporti che si trovavano in [!DNL Reports & Analytics]? | No, i seguenti rapporti sono stati gradualmente eliminati in base ai dati di utilizzo generali: <ul><li>Eventuali eVar/prop/eventi/classificazioni personalizzati<li>I miei rapporti consigliati</li><li>Visitatori univoci orari/giornalieri/settimanali/mensili/trimestrali/annuali</li><li>Clienti univoci giornalieri/settimanali/mensili/trimestrali/annuali</li><li>Profondità nome azione</li><li>Riepilogo nomi azioni</li><li>Aggiungi dashboard</li><li>Età</li><li>Supporto audio</li><li>Dati di fatturazione</li><li>Clic verso la pagina</li><li>Profondità colore</li><li>Supporto per cookie</li><li>Cookie</li><li>Tipi di connessione</li><li>Elementi creativi</li><li>Tipo di carta di credito</li><li>Cross-selling</li><li>Funnel evento personalizzato</li><li>Collegamenti personalizzati</li><li>Customer ID</li><li>Giorno della settimana</li><li>Nome azione di entrata</li><li>Nome azione di uscita</li><li>Collegamenti di uscita</li><li>Abbandono</li><li>Download di file</li><li>Trova in negozio</li><li>Percorsi completi</li><li>Genere</li><li>Regola VISTA di tipo Hit</li><li>Supporto immagini</li><li>Java</li><li>JavaScript</li><li>JavaScript versione</li><li>Gestione segnalibri</li><li>Gestione dashboard</li><li>Profondità colore del monitor</li><li>Risoluzione monitor</li><li>Registrazioni per newsletter</li><li>Nome azione successivo</li><li>Flusso nomi azioni successive</li><li>Ricerche Null</li><li>Sistema operativo</li><li>Revisione ordine</li><li>Pagina del giorno</li><li>Pagine non trovate</li><li>Pathfinder</li><li>Lunghezza percorso</li><li>Nome azione precedente</li><li>Flusso nomi azioni precedenti</li><li>Attività sul prodotto</li><li>Costo del prodotto</li><li>Reparto prodotto</li><li>Categoria inventario prodotto</li><li>Nome del prodotto</li><li>Recensioni prodotto</li><li>Stagione prodotto</li><li>Quote prodotto</li><li>Zoom sul prodotto</li><li>Ricaricamento</li><li>Ricerche</li><li>Server</li><li>Visite a pagina singola</li><li>Informazioni spedizione</li><li>Gerarchia sito</li><li>Menzioni social</li><li>Ora del giorno</li><li>Tempo trascorso su nome azione</li><li>Supporto video</li><li>Stato visitatore</li></ul> |
+| Tutti i report esistenti in [!DNL Reports & Analytics] sono ancora disponibili come modelli? | No, i seguenti rapporti sono stati gradualmente eliminati in base ai dati di utilizzo generali: <ul><li>Eventuali eVar/prop/eventi/classificazioni personalizzati<li>I miei rapporti consigliati</li><li>Visitatori univoci orari/giornalieri/settimanali/mensili/trimestrali/annuali</li><li>Clienti univoci giornalieri/settimanali/mensili/trimestrali/annuali</li><li>Profondità nome azione</li><li>Riepilogo nomi azioni</li><li>Aggiungi dashboard</li><li>Età</li><li>Supporto audio</li><li>Dati di fatturazione</li><li>Clic verso la pagina</li><li>Profondità colore</li><li>Supporto per cookie</li><li>Cookie</li><li>Tipi di connessione</li><li>Elementi creativi</li><li>Tipo di carta di credito</li><li>Cross-selling</li><li>Funnel evento personalizzato</li><li>Collegamenti personalizzati</li><li>Customer ID</li><li>Giorno della settimana</li><li>Nome azione di entrata</li><li>Nome azione di uscita</li><li>Collegamenti di uscita</li><li>Abbandono</li><li>Download di file</li><li>Trova in negozio</li><li>Percorsi completi</li><li>Genere</li><li>Regola VISTA di tipo Hit</li><li>Supporto immagini</li><li>Java</li><li>JavaScript</li><li>JavaScript versione</li><li>Gestione segnalibri</li><li>Gestione dashboard</li><li>Profondità colore del monitor</li><li>Risoluzione monitor</li><li>Registrazioni per newsletter</li><li>Nome azione successivo</li><li>Flusso nomi azioni successive</li><li>Ricerche Null</li><li>Sistema operativo</li><li>Revisione ordine</li><li>Pagina del giorno</li><li>Pagine non trovate</li><li>Pathfinder</li><li>Lunghezza percorso</li><li>Nome azione precedente</li><li>Flusso nomi azioni precedenti</li><li>Attività sul prodotto</li><li>Costo del prodotto</li><li>Reparto prodotto</li><li>Categoria inventario prodotto</li><li>Nome del prodotto</li><li>Recensioni prodotto</li><li>Stagione prodotto</li><li>Quote prodotto</li><li>Zoom sul prodotto</li><li>Ricaricamento</li><li>Ricerche</li><li>Server</li><li>Visite a pagina singola</li><li>Informazioni spedizione</li><li>Gerarchia sito</li><li>Menzioni social</li><li>Ora del giorno</li><li>Tempo trascorso su nome azione</li><li>Supporto video</li><li>Stato visitatore</li></ul> |

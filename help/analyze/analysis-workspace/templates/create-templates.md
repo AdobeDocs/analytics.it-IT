@@ -3,12 +3,10 @@ description: Panoramica sull’utilizzo dei rapporti predefiniti in Analysis Wor
 title: Utilizzare i rapporti
 feature: Analysis Workspace
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -118,3 +116,10 @@ Gli amministratori possono rinominare, assegnare tag e approvare i modelli azien
 Come per i modelli forniti da Adobe, gli utenti dell’organizzazione possono accedere ai modelli creati dagli amministratori.
 
 Per informazioni su come accedere a un modello aziendale, vedere [Accedere ed eseguire un modello](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [Utilizzare i modelli](/help/analyze/analysis-workspace/templates/use-templates.md).
+
+## Nascondi la scheda Modelli {#hide-reports}
+
+Gli amministratori possono nascondere la scheda Modelli per tutti gli utenti all’interno della propria organizzazione.
+
+1. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Preferences]** > **[!UICONTROL Company]**.
+1. Selezionare l&#39;opzione per **[!UICONTROL Hide Templates Tab]**.
