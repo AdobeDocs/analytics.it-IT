@@ -3,9 +3,9 @@ description: Scopri tutto quello che puoi fare con Advertising Analytics, compre
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
+source-git-commit: 76b665b8c4fe41d40b8c4fa0e2a3ac2d014d2b51
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1171'
 ht-degree: 88%
 
 ---
@@ -26,6 +26,11 @@ Questa integrazione è destinata ai seguenti tipi di pubblico:
 
 * L’**analista** incaricato di raccogliere i rapporti sulle prestazioni per l’esperto di Paid Search Marketing.
 * L’**esperto di Paid Search Marketing** che cerca le risposte alle seguenti domande: quanto traffico sto inviando al sito? I clienti si stanno convertendo? Quali sono le mie campagne pubblicitarie più redditizie?
+
+## Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/23119?quality=12&learn=on)
+
 
 ## Prerequisiti {#prerequisites}
 
