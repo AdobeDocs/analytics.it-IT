@@ -4,9 +4,9 @@ title: Pannello elemento successivo o precedente
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '431'
 ht-degree: 38%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 38%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta il pannello Elemento successivo o precedente in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Per la ![versione di CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**di questo articolo, vedere [Pannello elemento successivo o precedente](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous).*
+*Questo articolo documenta il pannello Elemento successivo o precedente in **Adobe Analytics**.<br/>Vedere [Pannello elemento successivo o precedente](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) per la versione **Customer Journey Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 

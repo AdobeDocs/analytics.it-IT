@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Pubblico medio per minut
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1772'
 ht-degree: 31%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta il pannello del pubblico medio per minuto in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Consulta [Pannello del pubblico medio per minuto](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) per la ![versione di Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**di questo articolo.*
+*Questo articolo documenta il pannello del pubblico medio per minuto del file multimediale in **Customer Journey Analytics**.<br/>Consulta [Pannello del pubblico medio per minuto](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) per la versione **Adobe Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 

@@ -4,14 +4,33 @@ title: Pannello Riepilogo pagina
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 33fdd685de21736964d0cbfbc479794a9154e8a3
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '508'
 ht-degree: 3%
 
 ---
 
-# Pannello Riepilogo pagina
+# Pannello Riepilogo pagina {#page-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_button"
+>title="Riepilogo pagina"
+>abstract="Rivedi rapidamente alcune delle metriche di alto livello e il movimento da e verso una pagina specifica."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_panel"
+>title="Pannello Riepilogo pagina"
+>abstract="Rivedi rapidamente alcune delle metriche di alto livello e il movimento da e verso una pagina specifica.<br/><br/>**Parametri **<br/>**Aggiungi un elemento dimensione pagina**: apri la barra dei componenti, individua la dimensione Pagina ed espandila facendo clic sulla carota per visualizzare gli elementi dimensione. Quindi, trascina e rilascia nel generatore la pagina specifica di cui desideri conoscere il funzionamento. Dopo aver trascinato e rilasciato l’elemento dimensione, il rapporto si popolerà automaticamente con le informazioni chiave sulla pagina."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Questo pannello consente di esplorare facilmente le statistiche chiave relative a pagine specifiche.
 

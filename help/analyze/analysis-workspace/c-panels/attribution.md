@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Attribution in Analysis 
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: e3d9a7f7adc71582f5f6b7ca8a7874ef3cbb4777
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '678'
 ht-degree: 48%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta il pannello Attribuzione in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Consulta [Pannello di attribuzione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) per la versione ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**di questo articolo.*
+*Questo articolo documenta il pannello Attribuzione in **Adobe Analytics**.<br/>Vedere [Pannello di attribuzione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) per la versione **Customer Journey Analytics**di questo articolo.*
 
 >[!ENDSHADEBOX]
 
