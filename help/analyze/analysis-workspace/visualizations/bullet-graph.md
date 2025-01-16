@@ -4,15 +4,14 @@ title: Grafico bullet
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 80e748c3e6e6610b5b34d64080db3b206feda92c
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 76%
+source-wordcount: '169'
+ht-degree: 66%
 
 ---
 
 # Grafico bullet {#bullet-graph}
-
 
 <!-- markdownlint-disable MD034 -->
 
@@ -31,6 +30,12 @@ ht-degree: 76%
 >abstract="Crea una visualizzazione con grafico puntato per mostrare come una metrica si confronta con, o si misura rispetto a, intervalli di prestazioni (obiettivi)."
 
 <!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione Punto elenco in **Adobe Analytics**.<br/>Vedere [Punto elenco](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) per la versione **Customer Journey Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 È possibile vedere come un valore al quale sei interessato si confronta con altre gamme di prestazioni (obiettivi).
 
