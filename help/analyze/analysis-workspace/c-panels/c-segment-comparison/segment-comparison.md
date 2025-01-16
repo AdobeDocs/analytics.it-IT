@@ -5,31 +5,61 @@ keywords: Analysis Workspace, segmento IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 99%
+source-wordcount: '1212'
+ht-degree: 90%
 
 ---
 
-# Panoramica del pannello di confronto dei segmenti
+# Panoramica del pannello di confronto dei segmenti {#segment-comparison-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_segmentcomparison_button"
+>title="Confronto dei segmenti"
+>abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_segmentcomparison_panel"
+>title="Pannello Confronto segmenti"
+>abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri **<br/>**Aggiungi un segmento**: primo segmento da analizzare.<br/>**Confronta con**: il secondo segmento su cui si desidera eseguire il confronto. Verrà automaticamente popolato con *Tutti gli altri*, che è l&#39;inverso del primo segmento. Se necessario, puoi sostituirlo con un segmento diverso.<br/>**Impostazioni avanzate**: possibilità di escludere i componenti dall&#39;analisi nel confronto dei segmenti."
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta il pannello di confronto dei segmenti in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Nessun pannello equivalente in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.*
+
+>[!ENDSHADEBOX]
 
 Il pannello di confronto dei segmenti è una funzione del [Segmento IQ](../../segment-iq.md) che rileva le differenze più importanti dal punto di vista statistico tra un numero illimitato di segmenti. La funzione esegue un’analisi automatizzata di tutte le dimensioni e metriche a cui hai accesso. Rileva automaticamente le caratteristiche chiave dei segmenti di pubblico che guidano i KPI della tua azienda e ti consente di conoscere il livello di sovrapposizione dei segmenti.
 
-Ecco un video sul confronto dei segmenti:
++++ Ecco un video sul confronto dei segmenti:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
-## Creazione di un pannello di confronto dei segmenti
++++
 
-1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
-1. Fai clic sull’icona a 9 quadrati in alto a destra, quindi fai clic sul logo a colori di Analytics.
-1. Nella barra di navigazione superiore, fai clic su Workspace.
-1. Fai clic sul pulsante “Crea nuovo progetto”.
-1. Nella finestra a comparsa modale, assicurati che sia selezionato “Progetto vuoto”, quindi fai clic su Crea.
-1. Fai clic sul pulsante Pannelli a sinistra, quindi trascina il pannello Confronto segmenti sopra o sotto il pannello della tabella a forma libera creato automaticamente.
+## Utilizzo
 
-   ![Pannello di confronto](assets/seg-compare-panel.png)
+Per utilizzare un pannello **[!UICONTROL Attribution]**:
+
+1. Crea un pannello **[!UICONTROL Attribution]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](../panels.md#create-a-panel).
+
+1. Specifica l’[input](#panel-input) per il pannello.
+
+1. Osserva l’[output](#panel-output) per il pannello.
+
+
+
+### Input del pannello
+
+![Pannello di confronto](assets/seg-compare-panel.png)
 
 1. Seleziona i segmenti da confrontare e trascinali nel pannello.
 
@@ -56,7 +86,7 @@ Fai clic su [!UICONTROL 'Set as default'] per escludere automaticamente i compon
 
 ![Dimensioni escluse](assets/excluded-dimensions.png)
 
-## Visualizzazione di un rapporto di confronto dei segmenti
+### Output del pannello
 
 Al termine dell’analisi dei due segmenti desiderati, Adobe mostra i risultati ottenuti tramite diverse visualizzazioni:
 
@@ -64,19 +94,19 @@ Al termine dell’analisi dei due segmenti desiderati, Adobe mostra i risultati 
 
 ![Visualizzazioni 2](assets/new-viz2.png)
 
-### Dimensione e sovrapposizione
+#### Dimensione e sovrapposizione
 
 Illustra le dimensioni comparative di ciascun segmento selezionato e il livello di sovrapposizione tra di essi mediante un diagramma di Venn. Puoi passare il mouse sull’elemento visivo per vedere quanti visitatori si trovavano in ciascuna sezione di sovrapposizione o non sovrapposizione. Puoi fare clic con il pulsante destro del mouse sulla sovrapposizione per creare un nuovo segmento per un’ulteriore analisi. Se i due segmenti si escludono a vicenda, non viene visualizzata alcuna sovrapposizione tra i due cerchi (generalmente visualizzata con i segmenti che utilizzano un contenitore di hit).
 
 ![Dimensione e sovrapposizione](assets/size-overlap.png)
 
-### Riepiloghi sulla popolazione
+#### Riepiloghi sulla popolazione
 
 A destra della visualizzazione Dimensione e sovrapposizione viene visualizzato il numero totale di visitatori univoci in ciascun segmento e nella sovrapposizione.
 
 ![Riepiloghi sulla popolazione](assets/population_summaries.png)
 
-### Metriche principali
+#### Metriche principali
 
 Visualizza le metriche più importanti dal punto di vista statistico tra i due segmenti. Ogni riga in questa tabella rappresenta una metrica differenziata, valutata in base al modo in cui si differenzia tra i vari segmenti. Un punteggio di differenza pari a 1 indica che è statisticamente significativo, mentre un punteggio di differenza pari a 0 indica che non esiste alcuna rilevanza statistica.
 
@@ -88,13 +118,13 @@ Questa visualizzazione è simile alle tabelle a forma libera in Analysis Workspa
 
 ![Metriche principali](assets/top-metrics.png)
 
-### Metrica nel tempo per segmento
+#### Metrica nel tempo per segmento
 
 Sulla destra della tabella delle metriche si trova una visualizzazione collegata. Facendo clic su un elemento nella tabella a sinistra, questa visualizzazione viene aggiornata per mostrare la tendenza della metrica nel tempo.
 
 ![Linea metriche principali](assets/linked-viz.png)
 
-### Dimensioni principali
+#### Dimensioni principali
 
 Mostra gli elementi dimensionali più significativi dal punto di vista statistico in tutte le dimensioni. Ciascuna riga mostra la percentuale di ciascun segmento che possiede questo elemento della dimensione. Ad esempio, questa tabella potrebbe mostrare che il 100% dei visitatori nel “Segmento A” rientrava nella dimensione “Tipo browser: Google”, mentre solo il 19,6% del “Segmento B” rientrava in questa dimensione. Un punteggio di differenza pari a 1 indica che è statisticamente significativo, mentre un punteggio di differenza pari a 0 indica che non esiste alcuna rilevanza statistica.
 
@@ -106,13 +136,13 @@ Questa visualizzazione è simile alle tabelle a forma libera in Analysis Workspa
 
 ![Dimensioni principali](assets/top-dimension-item1.png)
 
-### Elementi dimensione per segmento
+#### Elementi dimensione per segmento
 
 Sulla destra della tabella delle dimensioni si trova una visualizzazione grafico a barre collegata. Mostra tutti i gli elementi dimensionali sotto forma di grafico a barre. Facendo clic su un elemento nella tabella a sinistra, la visualizzazione a destra viene aggiornata.
 
 ![Grafico a barre delle dimensioni principali](assets/top-dimension-item.png)
 
-### Segmenti principali
+#### Segmenti principali
 
 Mostra quali altri segmenti (diversi dai due segmenti selezionati per il confronto) presentano una sovrapposizione statisticamente significativa. Ad esempio, questa tabella può mostrare che un terzo segmento, “Visitatori ripetuti”, si sovrappone notevolmente con il “Segmento A” ma non con il “Segmento B”. Un punteggio di differenza pari a 1 indica che è statisticamente significativo, mentre un punteggio di differenza pari a 0 indica che non esiste alcuna rilevanza statistica.
 
@@ -124,7 +154,7 @@ Questa visualizzazione è simile alle tabelle a forma libera in Analysis Workspa
 
 ![Segmenti principali](assets/top-segments.png)
 
-### Sovrapposizione segmento
+#### Sovrapposizione segmento
 
 Sulla destra della tabella dei segmenti si trova una visualizzazione a diagramma di Venn collegata. Mostra il segmento più significativo dal punto di vista statistico applicato ai segmenti confrontati. Ad esempio, “Segmento A” + “Segmento statisticamente significativo” rispetto a “Segmento B” + “Segmento statisticamente significativo”. Facendo clic su una riga segmento nella tabella a sinistra, la visualizzazione a destra viene aggiornata.
 

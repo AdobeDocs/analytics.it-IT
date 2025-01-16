@@ -4,14 +4,32 @@ description: Come creare annotazioni in Workspace.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '646'
 ht-degree: 100%
 
 ---
 
-# Creare annotazioni
+# Creare annotazioni {#create-annotations}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_annotations_details"
+>title="Dettagli annotazione"
+>abstract="Le annotazioni consentono di comunicare in modo efficace dettagli sui dati contestuali a beneficio degli utenti in tutta l’organizzazione. Consentono di collegare eventi calendario a dimensioni o metriche specifiche."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_annotations_scope"
+>title="Ambito"
+>abstract="L’ambito consente di personalizzare i dati ai quali aggiungere annotazioni. Le metriche calcolate e i segmenti non ereditano automaticamente le annotazioni applicate ai componenti utilizzati nelle loro definizioni. Puoi aggiungere nuove metriche calcolate alla sezione dell’ambito di un’annotazione esistente. I segmenti nuovi richiedono un’annotazione nuova."
+
+<!-- markdownlint-enable MD034 -->
 
 Per impostazione predefinita, solo gli amministratori possono creare annotazioni. Gli utenti possono visualizzarle come avviene con altri componenti di Analytics (segmenti, metriche calcolate ecc.).
 

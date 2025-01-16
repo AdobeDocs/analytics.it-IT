@@ -5,20 +5,31 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: a4c976269456770f507bd4621bc704913358f8ff
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 84%
+source-wordcount: '415'
+ht-degree: 76%
 
 ---
 
 # [!UICONTROL Summary Number] e [!UICONTROL Summary Change]
+
+*Questo articolo documenta la visualizzazione Numero riepilogo e Modifica riepilogo in **Adobe Analytics**.<br/>Vedere [Numero riepilogo e Modifica riepilogo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) per la versione **Customer Journey Analytics**di questo articolo.*
 
 Ecco un video sulle due visualizzazioni:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
 ## Visualizzazione [!UICONTROL Summary Number] {#summary-number}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarynumber_button"
+>title="Numero di riepilogo"
+>abstract="Crea una visualizzazione che mostra i totali e i subtotali."
+
+<!-- markdownlint-enable MD034 -->
 
 Utilizza la visualizzazione [!UICONTROL Summary Number] per evidenziare un numero elevato importante in un progetto. Questa visualizzazione si comporta come segue:
 
@@ -37,6 +48,15 @@ Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a 
 | [!UICONTROL Summarize value by] | Scegli di visualizzare il massimo, il minimo, la media, la mediana o la somma per una selezione di dati. |
 
 ## Visualizzazione [!UICONTROL Summary Change] {#summary-change}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarychange_button"
+>title="Variazione di riepilogo"
+>abstract="Creare una visualizzazione che mostri il delta (variazione) tra due numeri"
+
+<!-- markdownlint-enable MD034 -->
 
 Utilizza la visualizzazione [!UICONTROL Summary Change] per mostrare il delta (modifica) tra due numeri. Il colore verde e rosso di [!UICONTROL Summary Change] può essere controllato tramite [polarità evento personalizzata](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) o l&#39;opzione [Mostra tendenza verso l&#39;alto come](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=it) di una metrica calcolata.
 

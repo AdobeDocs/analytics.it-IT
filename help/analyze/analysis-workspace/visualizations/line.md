@@ -5,14 +5,30 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '552'
+ht-degree: 96%
 
 ---
 
-# Linee
+# Linee {#line}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_line_button"
+>title="Linee"
+>abstract="Crea una visualizzazione a linee che mostra come cambiano i valori in un periodo di tempo. Una visualizzazione a linee può essere utilizzata solo quando si usa la dimensione tempo."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione Linee in **Adobe Analytics**.<br/>Vedere [Riga](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/line) per la versione **Customer Journey Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 La visualizzazione [!UICONTROL Line] rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico [!UICONTROL Line] può essere usato solo con una dimensione temporale.
 

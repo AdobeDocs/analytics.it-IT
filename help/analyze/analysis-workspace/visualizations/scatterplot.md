@@ -4,14 +4,30 @@ description: Visualizzazione che mostra la relazione tra un massimo di tre metri
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 94%
+source-wordcount: '156'
+ht-degree: 82%
 
 ---
 
-# Grafico a dispersione
+# Grafico a dispersione {#scatter}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_scatter_button"
+>title="A dispersione"
+>abstract="Crea una visualizzazione a dispersione che mostra la relazione tra gli elementi dimensionali fino a un massimo di tre metriche."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione a dispersione in **Adobe Analytics**.<br/>Consulta [Dispersione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) per la versione **Customer Journey Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 La visualizzazione del grafico a dispersione mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. Richiede tre componenti e supporta la visualizzazione di un massimo di quattro componenti.
 

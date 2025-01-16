@@ -5,14 +5,35 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 93%
 
 ---
 
-# Panoramica del flusso
+# Panoramica del flusso {#flow}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_button"
+>title="Flusso"
+>abstract="Crea una visualizzazione per visualizzare il flusso di persone da un punto di controllo a quello successivo."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_panel"
+>title="Flusso"
+>abstract="Analizza il flusso di visite o visitatori da un punto di contatto a quello successivo.<br/><br/>**Parametri **<br/>**Inizia con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano dopo l’occorrenza del componente selezionato.<br/>**Contiene**: aggiungi una dimensione o un elemento dimensionale per visualizzare i punti di contatto principali che si verificano prima e dopo l’occorrenza del componente selezionato.<br/>**Termina con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano prima dell’occorrenza del componente selezionato.<br/>**Dimensione percorso**: aggiungi una dimensione da utilizzare come percorso che porta o proviene dal componente selezionato."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione Flusso in **Adobe Analytics**.<br/>Consulta [Flusso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) per la versione **Customer Journey Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 La funzione Flusso mostra i percorsi seguiti dai clienti nei tuoi siti Web e nelle tue app.
 

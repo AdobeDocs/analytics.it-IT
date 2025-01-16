@@ -3,14 +3,140 @@ description: Scopri
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 8%
+source-wordcount: '576'
+ht-degree: 39%
 
 ---
 
-# Tipo di metrica e attribuzione
+# Tipo di metrica e attribuzione {#metric-type-attribution}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_nondefaultattributionmodel"
+>title="Usa modello di attribuzione non predefinito"
+>abstract="Abilita un modello di attribuzione non predefinito per la metrica selezionata."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attributionmodel"
+>title="Modello"
+>abstract="Seleziona un modello di attribuzione per la metrica."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_lasttouch"
+>title="Ultimo contatto"
+>abstract="Il 100% del credito va all’ultimo valore di dimensione visualizzato da un visitatore."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_firsttouch"
+>title="Primo contatto"
+>abstract="Il 100% del credito va al primo valore di dimensione visualizzato da un visitatore."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_linear"
+>title="Lineare"
+>abstract="Il credito è distribuito in modo uniforme tra tutti i valori di dimensione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_participation"
+>title="Partecipazione"
+>abstract="Il 100% del credito va a ogni valore di dimensione visualizzato da un visitatore.<br/>I totali delle colonne sono sovrastimati."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_sametouch"
+>title="Stesso contatto"
+>abstract="Il credito viene assegnato solo ai valori di dimensione che si verificano nello stesso evento come la conversione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_ushaped"
+>title="A forma di U"
+>abstract="Il 40% del credito va al primo valore di dimensione, il 40% all’ultimo, il 20% condiviso dal centro."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jcurve"
+>title="Curva J"
+>abstract="Il 60% del credito va all’ultimo valore di dimensione, il 20% al primo, il 20% condiviso dal centro."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_inversej"
+>title="J inversa"
+>abstract="Il 60% del credito va al primo valore di dimensione, il 20% all’ultimo, il 20% condiviso dal centro."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_timedecay"
+>title="Decadimento nel tempo"
+>abstract="Il merito maggiore viene attribuito ai valori di dimensione più vicini nel tempo a una conversione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_custom"
+>title="Personalizzato"
+>abstract="Definisci una ponderazione di attribuzione basata sulla posizione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_algorithmic"
+>title="Algoritmico"
+>abstract="Il credito è determinato dinamicamente su un algoritmo statistico."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_lookbackwindow"
+>title="Intervallo di lookback"
+>abstract="Questa impostazione determina la finestra di attribuzione dei dati che verrà applicata a per ogni conversione."
+
+<!-- markdownlint-enable MD034 -->
 
 Quando [si crea una metrica calcolata](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), è possibile specificare il tipo di metrica e il modello di attribuzione.
 

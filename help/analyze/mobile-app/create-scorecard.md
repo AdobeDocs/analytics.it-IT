@@ -4,14 +4,21 @@ title: Creare e condividere scorecard per dispositivi mobili
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2443'
 ht-degree: 81%
 
 ---
 
-# Creare una scorecard per dispositivi mobili
+# Creare una scorecard per dispositivi mobili {#create-a-mobile-scorecard}
+
+>[!CONTEXTUALHELP]
+>id="mobilescorecard_annotations"
+>title="Annotazioni"
+>abstract="Le annotazioni possono essere create nella gestione componenti all’interno di un progetto Workspace."
+
+<!-- markdownlint-enable MD034 -->
 
 Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare scorecard per dispositivi mobili per gli utenti manageriali. Per iniziare, puoi visualizzare il video Generatore di scorecard per le dashboard di Adobe Analytics:
 

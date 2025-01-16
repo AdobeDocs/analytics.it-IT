@@ -4,14 +4,24 @@ title: Panoramica del calendario e degli intervalli di date
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '933'
 ht-degree: 91%
 
 ---
 
-# Panoramica del calendario e degli intervalli di date
+# Panoramica del calendario e degli intervalli di date {#date-range}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_dateranges_endtime"
+>title="Ora di fine"
+>abstract="Gli orari di fine includono sempre 59 secondi."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
 

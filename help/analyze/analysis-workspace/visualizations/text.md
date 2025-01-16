@@ -5,14 +5,27 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '190'
+ht-degree: 88%
 
 ---
 
-# Testo
+# Testo {#text-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_text_button"
+>title="Testo"
+>abstract="Aggiungi al progetto una visualizzazione di testo formattato definito dall’utente."
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione Testo in **Adobe Analytics**.<br/>Vedere [Testo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text) per la versione **Customer Journey Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 Puoi aggiungere testo definito dall’utente al progetto Workspace, utilizzando una visualizzazione di testo o una descrizione del pannello o della visualizzazione (fai clic con il pulsante destro del mouse sull’intestazione e scegli **[!UICONTROL Edit description]**). È inoltre possibile modificare la formattazione del testo, e aggiungere collegamenti ipertestuali e immagini.
 

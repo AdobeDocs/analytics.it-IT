@@ -3,14 +3,23 @@ description: Utilizzare gli avvisi in Analysis Workspace.
 title: Panoramica di Alert Builder
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 23bf2d449fe69437e528c382953c9bcc6def4d7b
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 29%
+source-wordcount: '641'
+ht-degree: 31%
 
 ---
 
-# Creare avvisi
+# Creare avvisi {#create-alerts}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_alerts_timegranularity"
+>title="Granularità temporale"
+>abstract="La granularità temporale si riferisce sia alla frequenza con cui verrà controllato l’avviso sia a cosa verrà incluso"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >

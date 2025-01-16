@@ -4,14 +4,30 @@ title: Panoramica dell’abbandono
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
-# Panoramica dell’abbandono
+# Panoramica dell’abbandono {#fallout-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_button"
+>title="Fallout (abbandono)"
+>abstract="Crea una visualizzazione per vedere come le persone procedono correttamente fino ai punti di controllo desiderati."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione Abbandono in **Adobe Analytics**.<br/>Vedere [Abbandono](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) per la versione **Customer Journey Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei rapporti di abbandono. I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito.
 

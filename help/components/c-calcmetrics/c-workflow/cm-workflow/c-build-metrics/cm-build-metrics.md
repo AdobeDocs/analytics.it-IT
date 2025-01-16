@@ -3,14 +3,33 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Creare metriche
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 7%
+source-wordcount: '1130'
+ht-degree: 12%
 
 ---
 
-# Creare metriche
+# Creare metriche {#build-metrics}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_productcompatibility"
+>title="Compatibilità prodotto"
+>abstract="Indica dove in Customer Journey Analytics può essere utilizzata la metrica calcolata, ad esempio in Analysis Workspace, Report Builder e così via. Alcune metriche calcolate non possono essere utilizzate con la sperimentazione."
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Utilizzare le metriche calcolate nella sperimentazione"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_externalid"
+>title="ID esterno"
+>abstract="La modifica dell’ID esterno potrebbe influire sul modo in cui la metrica calcolata appare nelle origini esterne, come gli strumenti di business intelligence"
+
+<!-- markdownlint-enable MD034 -->
 
 Adobe Analytics fornisce un’area di lavoro per trascinare e rilasciare dimensioni, metriche, segmenti e funzioni per creare metriche personalizzate in base alla logica gerarchica dei contenitori, alle regole e agli operatori. Questo strumento di sviluppo integrato consente di generare e salvare metriche calcolate semplici o complesse.
 
@@ -52,7 +71,7 @@ L’immagine seguente e la tabella che l’accompagna illustrano alcune delle ar
 | 14 | **Nuovo:** consente di creare un nuovo componente, ad esempio un nuovo segmento (che porta al Generatore di segmenti <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > </a>). |
 | 15 | **Componenti di ricerca:** Questa barra di ricerca consente di cercare dimensioni, metriche, segmenti (solo metriche calcolate avanzate) e funzioni (solo metriche calcolate avanzate). |
 | 16 | **Elenco Dimension:** Anziché uscire dal Generatore di metriche calcolate per creare un segmento semplice (nel Generatore di segmenti), ad esempio &quot;Pagina = Home page&quot;, è possibile trascinare la pagina e selezionare la home page direttamente dal Generatore di metriche calcolate.<p>Questo semplifica il flusso di lavoro per la creazione di metriche calcolate segmentate.</p> |
-| 17 | **Elenco delle metriche:** Le metriche sono disponibili in 3 categorie: <ul> <li>Metriche standard (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Metriche calcolate ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Modelli di metriche ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - in fondo all&#39;elenco. </li> </ul> <p>Quando passi il cursore su una metrica, puoi vedere l’icona Info a destra di essa: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" /> (Autenticazione): Facendo clic su questa icona si ottengono le seguenti informazioni: </p><ul> <li>La formula di calcolo. </li><li>Tendenza di anteprima della metrica. </li><li>Icona di modifica (matita) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> in alto a destra che ti porterà al Generatore di metriche calcolate dove puoi modificare questa metrica calcolata. </li></ul> |
+| 17 | **Elenco delle metriche:** Le metriche sono disponibili in 3 categorie: <ul> <li>Metriche standard (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Metriche calcolate ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Modelli di metriche ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - in fondo all&#39;elenco. </li> </ul> <p>Quando passi il cursore su una metrica, puoi vedere l’icona Info a destra di essa: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Facendo clic su questa icona si ottengono le seguenti informazioni: </p><ul> <li>La formula di calcolo. </li><li>Tendenza di anteprima della metrica. </li><li>Icona di modifica (matita) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> in alto a destra che ti porterà al Generatore di metriche calcolate dove puoi modificare questa metrica calcolata. </li></ul> |
 | 18 | **Elenco segmenti:** (solo metriche calcolate avanzate) In qualità di amministratore, questo elenco mostra tutti i segmenti creati nella società di accesso. Se non sei un utente amministratore, questo elenco mostra i segmenti che possiedi e quelli condivisi con te. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > Altro... </a> |
 | 19 | **Elenco funzioni:** (solo metriche calcolate avanzate) Le funzioni sono suddivise in due elenchi: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Base </a> (utilizzata più spesso) e <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Avanzata </a>. |
 | 20 | **Selettore suite di rapporti:** consente di passare a una suite di rapporti diversa. |

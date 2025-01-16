@@ -5,14 +5,30 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 53%
+source-wordcount: '145'
+ht-degree: 51%
 
 ---
 
-# Venn
+# Venn {#venn}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_venn_button"
+>title="Venn"
+>abstract="Crea una visualizzazione con diagramma di Venn per confrontare visivamente in modo rapido due elementi e la dimensione della relativa sovrapposizione."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Questo articolo documenta la visualizzazione Venn in **Adobe Analytics**.<br/>Vedere [Venn](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn) per la versione **Customer Journey Analytics**di questo articolo.*
+
+>[!ENDSHADEBOX]
 
 La visualizzazione [!UICONTROL Venn] consente di trascinare fino a 3 segmenti (da [!UICONTROL Components]) e una metrica per creare un diagramma [!UICONTROL Venn].
 

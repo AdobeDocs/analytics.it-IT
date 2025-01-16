@@ -3,14 +3,62 @@ description: Il Generatore di segmenti fornisce un’area di lavoro per trascina
 title: Generare segmenti
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1872'
-ht-degree: 3%
+source-wordcount: '1961'
+ht-degree: 6%
 
 ---
 
-# Generatore di segmenti
+# Generatore di segmenti {#segment-builder}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_createaudience"
+>title="Crea un pubblico"
+>abstract="I tipi di pubblico possono essere creati da un filtro e condivisi con Adobe Experience Platform per l’attivazione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_datapreview"
+>title="Anteprima dati"
+>abstract="Confronta i dati di questo filtro con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale nella visualizzazione dati degli ultimi **90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_repeating"
+>title="Ripetizione"
+>abstract="Include le istanze e i valori persistenti per la dimensione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_instance"
+>title="Istanza"
+>abstract="Include le istanze e i valori persistenti per la dimensione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_nonrepeatinginstance"
+>title="Istanza di non ripetizione"
+>abstract="Include istanze univoche (non ripetute) per la dimensione."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
 
 [!UICONTROL Segment Builder] consente di creare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori in visite e hit pagina. Fornisce un’area di lavoro per trascinare e rilasciare dimensioni di metrica, eventi o altri segmenti al fine di segmentare i visitatori in base a logica gerarchica, regole e operatori.
 
