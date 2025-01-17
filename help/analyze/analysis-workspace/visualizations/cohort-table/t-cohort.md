@@ -5,10 +5,10 @@ title: Esecuzione di un rapporto di analisi per coorte
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -33,8 +33,10 @@ Creare una coorte ed eseguire un rapporto di [!UICONTROL Cohort Analysis] in Ana
 1. (Facoltativo) Regolare **[!UICONTROL Cohort Table Settings]** facendo clic sull&#39;icona a forma di ingranaggio.
 
    | Impostazione | Descrizione |
-| Only show percent (Mostra solo percentuale) | Rimuove il valore del numero e visualizza solo la percentuale. || Round percent to nearest whole (Arrotonda al valore percentuale più vicino) | Arrotonda il valore percentuale al numero intero più vicino invece di mostrare il valore decimale. |
-| Show Average Percent Row (Mostra riga percentuale media) | Inserisce una nuova riga nella parte superiore della tabella, quindi aggiunge la media dei valori all’interno di ogni colonna. |
+   |--- |--- |
+   | Mostra solo percentuale | Rimuove il valore numerico e visualizza solo la percentuale. |
+   | Arrotonda percentuale a intero più prossimo | Arrotonda il valore percentuale al numero intero più vicino invece di mostrare il valore decimale. |
+   | Mostra riga percentuale media | Inserisce una nuova riga nella parte superiore della tabella, quindi aggiunge la media dei valori all’interno di ogni colonna. |
 
 ## Creare il rapporto di [!UICONTROL Cohort Analysis]
 

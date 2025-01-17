@@ -4,10 +4,10 @@ description: Approfondisci i dati relativi al pubblico e suddividili in gruppi c
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 84%
+source-wordcount: '550'
+ht-degree: 81%
 
 ---
 
@@ -64,7 +64,9 @@ Video sulle tabelle coorte in Analysis Workspace:
 
 ## Capacità dell’analisi per coorte
 
-Le seguenti funzionalità consentono un controllo accurato delle coorti che crei:
+Le sezioni seguenti descrivono le funzioni di analisi per coorte che consentono un controllo accurato delle coorti che stai creando.
+
+Per informazioni più dettagliate sulla creazione di una coorte e sull&#39;esecuzione di un report [!UICONTROL Cohort Analysis], vedere [Configurare un report di analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
 ### [!UICONTROL Retention] Tabella
 
@@ -103,5 +105,3 @@ Misura il tempo trascorso prima e dopo il verificarsi dell’evento di inclusion
 Puoi creare le coorti in base a una dimensione selezionata anziché in base al tempo, che è l’impostazione predefinita. Puoi usare dimensioni quali [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region] o qualsiasi altra dimensione in Adobe Analytics per mostrare in che modo la fidelizzazione cambia in base a valori diversi di tali dimensioni.
 
 ![](assets/cohort-customizable-cohort-row.png)
-
-Per istruzioni su come impostare ed eseguire un rapporto sulla coorte, vai a [Configurare un rapporto di analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
