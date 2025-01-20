@@ -5,9 +5,9 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '429'
 ht-degree: 88%
 
 ---
@@ -26,7 +26,7 @@ arkdownlint-disable MD034 —>
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione Istogramma in **Adobe Analytics**.<br/>Vedere [Istogramma](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram) per la versione **Customer Journey Analytics**di questo articolo.*
+_Questo articolo documenta la visualizzazione Istogramma in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Visualizza [Istogramma](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Versione del Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

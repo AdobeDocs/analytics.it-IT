@@ -4,9 +4,9 @@ title: Pannello Analytics for Target (A4T)
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1129'
 ht-degree: 72%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 72%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta il pannello Analytics for Target in **Adobe Analytics**.<br/>Consulta [Pannello Sperimentazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) per informazioni su come confrontare diverse esperienze utente, varianti di marketing o di messaggistica nel **Customer Journey Analytics**.*
+_Questo articolo documenta il pannello Analytics for Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Pannello Sperimentazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) per informazioni su come confrontare diverse esperienze utente, varianti di marketing o di messaggistica in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 

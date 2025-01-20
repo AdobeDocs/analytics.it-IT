@@ -4,9 +4,9 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '775'
 ht-degree: 55%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 55%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione del riepilogo delle metriche chiave in **Adobe Analytics**.<br/>Vedere [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) per la versione **Customer Journey Analytics**di questo articolo.*
+_Questo articolo documenta la visualizzazione del riepilogo delle metriche chiave in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versione del Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

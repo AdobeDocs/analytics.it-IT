@@ -5,9 +5,9 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '192'
 ht-degree: 88%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione Testo in **Adobe Analytics**.<br/>Vedere [Testo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text) per la versione **Customer Journey Analytics**di questo articolo.*
+_Questo articolo documenta la visualizzazione Testo in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Testo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versione del Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

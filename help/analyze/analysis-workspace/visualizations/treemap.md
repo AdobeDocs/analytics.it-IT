@@ -5,10 +5,10 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 67%
+source-wordcount: '136'
+ht-degree: 66%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 67%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione Mappa ad albero in **Adobe Analytics**.<br/>Visualizza [Mappa ad albero](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap) per la versione **Customer Journey Analytics**di questo articolo.*
+_Questo articolo documenta la visualizzazione Mappa ad albero in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Visualizza [Mappa ad albero](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versione del Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

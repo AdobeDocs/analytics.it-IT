@@ -5,9 +5,9 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 93%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione Flusso in **Adobe Analytics**.<br/>Consulta [Flusso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) per la versione **Customer Journey Analytics**di questo articolo.*
+_Questo articolo documenta la visualizzazione Flusso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versione del Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

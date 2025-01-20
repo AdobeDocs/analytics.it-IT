@@ -3,9 +3,10 @@ title: Intestazione sezione
 description: Visualizzazione che inserisce un’intestazione di sezione nel progetto Workspace.
 feature: Visualizations
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
+exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '91'
 ht-degree: 14%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 14%
 >[!BEGINSHADEBOX]
 
 
-*Questo articolo documenta la visualizzazione dell&#39;intestazione di sezione in **Adobe Analytics**.<br/>Vedere [Intestazione sezione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header) per la versione **Customer Journey Analytics**di questo articolo.*
+_Questo articolo documenta la visualizzazione dell&#39;intestazione di sezione in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Intestazione sezione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versione Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

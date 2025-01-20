@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Attribution in Analysis 
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '680'
 ht-degree: 48%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_button"
 >title="Attribuzione"
->abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione."
+>abstract="Confronta e visualizza rapidamente un numero qualsiasi di modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 >[!CONTEXTUALHELP]
@@ -31,7 +31,7 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta il pannello Attribuzione in **Adobe Analytics**.<br/>Vedere [Pannello di attribuzione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) per la versione **Customer Journey Analytics**di questo articolo.*
+_Questo articolo documenta il pannello Attribuzione in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Pannello di attribuzione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versione del Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

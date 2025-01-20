@@ -4,10 +4,10 @@ title: Anello
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 48%
+source-wordcount: '90'
+ht-degree: 47%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione Anello in **Adobe Analytics**.<br/>Consulta [Anello](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/donut) per la versione **Customer Journey Analytics**di questo articolo.*
+_Questo articolo documenta la visualizzazione Anello in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Anello](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/donut) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versione del Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

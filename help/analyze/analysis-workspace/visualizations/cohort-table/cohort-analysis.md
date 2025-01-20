@@ -4,10 +4,10 @@ description: Approfondisci i dati relativi al pubblico e suddividili in gruppi c
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 81%
+source-wordcount: '552'
+ht-degree: 80%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 81%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la tabella coorte in **Adobe Analytics**.<br/>Consulta la [tabella coorte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) per la versione **Customer Journey Analytics**di questo articolo.*
+_Questo articolo documenta la tabella coorte in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta la [tabella coorte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) per la_ ![versione di CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

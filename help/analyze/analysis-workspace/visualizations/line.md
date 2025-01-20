@@ -5,10 +5,10 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 96%
+source-wordcount: '554'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-*Questo articolo documenta la visualizzazione Linee in **Adobe Analytics**.<br/>Vedere [Riga](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/line) per la versione **Customer Journey Analytics**di questo articolo.*
+_Questo articolo documenta la visualizzazione Linee in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta la [riga](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/line) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versione del Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
