@@ -4,7 +4,7 @@ title: Pannello elemento successivo o precedente
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 38%
@@ -69,7 +69,6 @@ Seleziona **[!UICONTROL Build]** per creare il pannello.
 ### Output del pannello
 
 Il pannello [!UICONTROL Next or previous item] restituisce un set completo di dati e visualizzazioni per consentirti di comprendere meglio le occorrenze che seguono o precedono specifici elementi dimensionali.
-
 
 ![Output pannello precedente/successivo](assets/next-or-previous-item-output.png)
 
