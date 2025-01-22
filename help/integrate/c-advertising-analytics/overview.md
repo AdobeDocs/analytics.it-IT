@@ -3,20 +3,16 @@ description: Scopri tutto quello che puoi fare con Advertising Analytics, compre
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 76b665b8c4fe41d40b8c4fa0e2a3ac2d014d2b51
+source-git-commit: 2244dbb3376c78b9d4a8b476b667ccef59db84f4
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 88%
+source-wordcount: '1132'
+ht-degree: 90%
 
 ---
 
 # Advertising Analytics
 
-Advertising Analytics consente di vedere affiancati i dati Paid Search di Google e di Bing in Adobe Analytics. In precedenza, qualsiasi dato di Google AdWords/DFA o Microsoft Bing Ads doveva essere visualizzato in Adobe Advertising Cloud (AMO) o su Google/Bing. Ora puoi ottenere i seguenti dati in Adobe Analytics: impression, clic, costi direttamente dai motori di ricerca e istanze AMO ID (Istanze di clic). Il punteggio di qualità e le posizioni medie non vengono più raccolti poiché Google ha dichiarato queste metriche obsolete a settembre 2019.
-
->[!NOTE]
->
->Il 31 marzo 2019 Yahoo Gemini è stata assorbita da Microsoft Bing. Di conseguenza, l’opzione per l’account per annunci Yahoo Gemini non è più disponibile.
+Advertising Analytics consente di vedere affiancati i dati Paid Search di Google e di Bing in Adobe Analytics. In precedenza, qualsiasi dato di Google AdWords/DFA o Microsoft Bing Ads doveva essere visualizzato in Adobe Advertising Cloud (AMO) o su Google/Bing. Ora puoi ottenere i seguenti dati in Adobe Analytics: impression, clic, costi direttamente dai motori di ricerca e istanze AMO ID (Istanze di clic).
 
 Riunendo i dati di questi motori di ricerca in Adobe Analytics è possibile analizzarli servendosi della potenza di Analysis Workspace. L’analisi è facilitata da un nuovo modello di [Prestazioni di Paid Search](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) in Workspace.
 
