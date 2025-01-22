@@ -4,24 +4,24 @@ description: Utilizza questa variabile per collegare dati online e offline.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 12%
+source-wordcount: '387'
+ht-degree: 17%
 
 ---
 
 # transactionID
 
-La variabile `transactionID` identifica in modo univoco una transazione in modo che l&#39;hit possa collegarsi ai dati caricati tramite Origini dati. Questa variabile è utile nei casi in cui desideri utilizzare dati provenienti da altri canali e collegarla a dati raccolti con AppMeasurement.
+La variabile `transactionID` identifica in modo univoco una transazione in modo che l’hit possa collegarsi ai dati caricati tramite le origini dati. Questa variabile è utile nei casi in cui desideri utilizzare dati provenienti da altri canali e collegarla a dati raccolti con AppMeasurement.
 
 >[!NOTE]
 >
 >Prima di utilizzare questa variabile, assicurati che [!UICONTROL Transaction ID Storage] sia abilitato in una suite di rapporti. Per ulteriori informazioni, consulta [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) nella guida utente dell&#39;amministratore.
 
-Quando imposti `transactionID` su un hit, Adobe crea un&#39;istantanea di tutte le variabili di Analytics impostate o mantenute in quel momento. I dati caricati tramite Origini dati con un ID transazione corrispondente sono legati in modo permanente a tali valori di variabile.
+Quando imposti `transactionID` su un hit, Adobe crea un&#39;istantanea di tutte le variabili Analytics impostate o mantenute in quel momento. I dati caricati tramite Origini dati con un ID transazione corrispondente sono legati in modo permanente a tali valori di variabile.
 
-Per impostazione predefinita, Adobe ricorda tutti i valori ID transazione (collegati e non collegati) per un massimo di 90 . Se il processo di interazione offline dura più di 90 giorni, contatta l’Assistenza clienti per richiedere l’estensione di questo limite.
+Adobe ricorda tutti i valori ID transazione (collegati e non collegati) per un massimo di 25 mesi.
 
 ## ID transazione tramite Web SDK
 

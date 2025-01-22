@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
+exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 27%
+source-wordcount: '527'
+ht-degree: 29%
 
 ---
 
@@ -20,10 +21,6 @@ Il nuovo componente aggiuntivo per Report Builder JavaScript, inizialmente dispo
 - Multipiattaforma: non è più possibile accedere alla macchina virtuale per utilizzare il Report Builder, in quanto sono ora supportati PC, Mac ed Excel Online
 - Meno tempo di attesa per il ritorno dei blocchi di dati, grazie all’aggiornamento API 2.0
 - Velocità ottimizzata.
-
->[!NOTE]
->
->La pianificazione della cartella di lavoro per questa versione del Report Builder su Adobe Analytics non è ancora stata rilasciata, ma sarà disponibile all’inizio del 2025. È ora possibile iniziare a utilizzare le cartelle di lavoro che non richiedono la pianificazione.
 
 Gli utenti dello strumento Report Builder legacy possono [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nel nuovo Report Builder.
 

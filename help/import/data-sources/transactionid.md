@@ -4,9 +4,9 @@ description: Scopri il flusso di lavoro generale dell’utilizzo delle origini d
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '413'
 ht-degree: 2%
 
 ---
@@ -22,12 +22,12 @@ Le origini dati ID transazione sono una variante delle origini dati di riepilogo
 >
 >Prima di utilizzare le origini dati ID transazione, devi attivarle in [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) per la suite di rapporti desiderata.
 
-Quando invii un hit online contenente un valore [`transactionID`](/help/implement/vars/page-vars/transactionid.md), Adobe crea un&#39;istantanea di tutte le variabili impostate o mantenute in quel momento. Se viene trovato un ID transazione corrispondente caricato tramite origini dati, i dati offline e online vengono legati tra loro.
+Quando invii un hit online contenente un valore [`transactionID`](/help/implement/vars/page-vars/transactionid.md), Adobe crea un&#39;&quot;istantanea&quot; di tutte le variabili impostate o mantenute in quel momento. Se viene trovato un ID transazione corrispondente caricato tramite origini dati, i dati offline e online vengono legati tra loro.
 
 Le origini dati ID transazione hanno le seguenti proprietà:
 
 * I dati online devono essere raccolti ed elaborati per primi. Se un’origine dati ID transazione viene caricata prima che una suite di rapporti elabori un hit corrispondente a tale ID transazione, i dati non vengono collegati.
-* Gli ID transazione raccolti tramite AppMeasurement scadono dopo circa 90 giorni. Se l’organizzazione richiede una finestra ID transazione più lunga, contatta l’Assistenza clienti di Adobe.
+* L&#39;ID transazione raccolto tramite AppMeasurement scade dopo 25 mesi.
 * Le origini dati caricate con un ID transazione scaduto vengono trattate in modo simile ai dati caricati senza un ID transazione.
 * Se la stessa variabile è inclusa sia nell’hit online che nell’origine dati ID transazione, viene utilizzato il valore dell’origine dati ID transazione.
 * Se una variabile è inclusa in un hit online ma non in un hit origine dati ID transazione corrispondente, la variabile hit online viene mantenuta.
