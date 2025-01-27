@@ -5,13 +5,13 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
-
 
 # Conversione di cartelle di lavoro di Report Builder legacy in blocchi di dati
 
@@ -19,7 +19,7 @@ Con il passaggio a una nuova tecnologia di Report Builder, è possibile converti
 
 >[!IMPORTANT]
 >
->Duplicare ogni cartella di lavoro e rinominare una versione prima di convertirla. In questo modo, se necessario, si disporrà comunque di una copia della cartella di lavoro originale.
+>Duplicare ogni cartella di lavoro e rinominare una versione prima di convertirla. In questo modo, si disporrà comunque di una copia della cartella di lavoro originale, se necessario.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
 
@@ -55,7 +55,7 @@ Con il passaggio a una nuova tecnologia di Report Builder, è possibile converti
 Ora puoi [gestire il blocco di dati](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Funzioni di Report Builder legacy non supportate nel nuovo Report Builder
+## Funzioni di Report Builder legacy non supportate nel nuovo Report Builder {#unsupported}
 
 Quando si confrontano le funzionalità del Report Builder legacy con il nuovo componente aggiuntivo di Report Builder, alcune funzionalità legacy non sono più disponibili:
 
@@ -66,3 +66,7 @@ Quando si confrontano le funzionalità del Report Builder legacy con il nuovo co
 - Opzione FTP per i rapporti pianificati
 
 - Metriche dei visitatori. Le metriche seguenti verranno tutte convertite in &quot;visitatori univoci&quot;, anche se il risultato del reporting potrebbe non corrispondere esattamente: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` e `visitorsyearly`. Questo vale anche per `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` e `mobilevisitorsyearly`.
+
+## Pianificare una cartella di lavoro convertita {#schedule}
+
+Vedere [Pianificare una cartella di lavoro convertita](/help/analyze/report-builder/schedule-reportbuilder.md) nell&#39;articolo di pianificazione.

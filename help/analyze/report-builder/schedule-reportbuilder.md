@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 81%
+source-wordcount: '1237'
+ht-degree: 76%
 
 ---
 
@@ -75,6 +75,19 @@ Utilizzare il pulsante Pianifica nell&#39;hub di Report Builder per creare rapid
 
    ![Avviso di conferma](./assets/confirmation-toast.png){width="55%"}
 
+## Pianificare una cartella di lavoro convertita {#converted}
+
+1. Pianifica una cartella di lavoro legacy [convertita](/help/analyze/report-builder/convert-workbooks.md).
+
+   Viene visualizzato un pop-up in cui viene richiesto se si desidera utilizzare la metada di pianificazione della cartella di lavoro precedente per creare una nuova attività pianificata.
+
+1. Se si seleziona **[!UICONTROL Use]**, il Report Builder inserisce automaticamente le informazioni di pianificazione legacy.
+
+1. Verifica che queste informazioni siano corrette e pianificate.
+
+1. Se si desidera inviare la cartella di lavoro in base a una pianificazione diversa, pianificare un&#39;attività pianificata completamente aggiornata.
+
+
 ## Inviare la cartella di lavoro una sola volta
 
 Puoi anche inviare la cartella di lavoro una sola volta.
@@ -85,7 +98,7 @@ Puoi anche inviare la cartella di lavoro una sola volta.
 
 1. Fai clic su **Send Now** (Invia subito).
 
-## Visualizzare e modificare le cartelle di lavoro pianificate
+## Visualizzare e modificare le cartelle di lavoro pianificate {#view-edit}
 
 Puoi visualizzare e gestire tutte le cartelle di lavoro pianificate in un’unica posizione nella scheda Workbooks (Cartelle di lavoro).
 
@@ -107,7 +120,7 @@ Puoi visualizzare e gestire tutte le cartelle di lavoro pianificate in un’unic
 
   ![Schermata che mostra l&#39;elenco delle attività di pianificazione.](./assets/selected-workbook.png){width="40%"}
 
-## Rivedere lo stato delle attività programmate
+## Rivedere lo stato delle attività programmate {#status}
 
 La visualizzazione della cronologia consente di controllare lo stato di ogni attività pianificata. È disponibile una riga separata che documenta il cambiamento stato per ogni attività pianificata. Nell’esempio riportato di seguito, la pianificazione *New Hourly Schedule* (Nuova pianificazione oraria) è stata avviata il 5 gennaio alle 15.04. Entro le 15:05 è stata aggiornata correttamente ed è stata inviata ai destinatari. La cartella di lavoro successiva, *Bad workbook* (Cartella di lavoro non valida), ha riscontrato un errore durante il processo di aggiornamento. Se una cartella di lavoro non è stata inviata, la scheda della cronologia consente di risolvere i problemi mostrando in quale punto del processo si è verificato l’errore. In questo caso, è probabile che sia dovuto ad alcuni errori del blocco dati, ad esempio un componente mancante, che hanno impedito l’aggiornamento della cartella di lavoro.
 
