@@ -3,9 +3,9 @@ description: I segmenti sequenziali vengono creati utilizzando l’operatore THE
 title: Creare segmenti sequenziali
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
+source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
 workflow-type: tm+mt
-source-wordcount: '3765'
+source-wordcount: '3762'
 ht-degree: 97%
 
 ---
@@ -27,7 +27,7 @@ Ecco un video sulla segmentazione sequenziale:
 Quando crei un segmento in cui è impostata l’opzione “Includi tutti”, il segmento identifica i percorsi che corrispondono al pattern specificato nel suo insieme. Di seguito è riportato un esempio di segmento di sequenza di base alla ricerca di un hit (Pagina A) seguito da un altro (Pagina B) visitato dallo stesso visitatore. Il segmento è impostato su Includi tutti.
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/terrible-link-1.png)
 
 | Se il risultato | Sequenza |
 |--- |--- |
@@ -349,11 +349,11 @@ Puoi limitare la corrispondenza a una determinata durata utilizzando gli operato
 >
 >Esistono differenze nella valutazione tra elementi con nomi simili, come **Giorni** o **Giorni**. Per le definizioni basate sul tempo di Within e After, utilizzate le opzioni elencate per prime nella finestra a comparsa:
 >
->![immagine](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>![immagine](assets/terrible-link-2.png)
 >
 >Per le definizioni basate sulle dimensioni Within e After, utilizza le opzioni nel sottomenu *Altri Dimension*:
 >
->![immagine](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
+>![immagine](assets/terrible-link-3.png)
 
 ### Operatori After e Within {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
