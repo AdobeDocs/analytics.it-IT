@@ -3,10 +3,10 @@ description: I segmenti sequenziali vengono creati utilizzando l’operatore THE
 title: Creare segmenti sequenziali
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
+source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
 workflow-type: tm+mt
 source-wordcount: '3762'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Ecco un video sulla segmentazione sequenziale:
 Quando crei un segmento in cui è impostata l’opzione “Includi tutti”, il segmento identifica i percorsi che corrispondono al pattern specificato nel suo insieme. Di seguito è riportato un esempio di segmento di sequenza di base alla ricerca di un hit (Pagina A) seguito da un altro (Pagina B) visitato dallo stesso visitatore. Il segmento è impostato su Includi tutti.
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](assets/terrible-link-1.png)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/copied-link-1.png)
 
 | Se il risultato | Sequenza |
 |--- |--- |
@@ -293,7 +293,7 @@ Le pagine B e C sono nidificate in un contenitore [!UICONTROL Logic Group] all�
 
 ![](assets/logic_group_any_order3.png)
 
-Il segmento deve corrispondere ad almeno uno dei punti di controllo del gruppo logico (B o C). Inoltre, le condizioni del gruppo logico possono essere soddisfatte nello stesso hit o tra più hit&#x200B;.
+Il segmento deve corrispondere ad almeno uno dei punti di controllo del gruppo logico (B o C). Inoltre, le condizioni del gruppo logico possono essere soddisfatte nello stesso hit o tra più hit.
 
 ### Prima corrispondenza del Gruppo logico
 
@@ -349,11 +349,11 @@ Puoi limitare la corrispondenza a una determinata durata utilizzando gli operato
 >
 >Esistono differenze nella valutazione tra elementi con nomi simili, come **Giorni** o **Giorni**. Per le definizioni basate sul tempo di Within e After, utilizzate le opzioni elencate per prime nella finestra a comparsa:
 >
->![immagine](assets/terrible-link-2.png)
+>![immagine](assets/copied-link-2.png)
 >
 >Per le definizioni basate sulle dimensioni Within e After, utilizza le opzioni nel sottomenu *Altri Dimension*:
 >
->![immagine](assets/terrible-link-3.png)
+>![immagine](assets/copied-link-3.png)
 
 ### Operatori After e Within {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
