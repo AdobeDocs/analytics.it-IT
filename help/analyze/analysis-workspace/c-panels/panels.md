@@ -4,7 +4,7 @@ title: Panoramica dei pannelli
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
+source-git-commit: 515517eb708b8c8e1210f82a325e46cbf308c5e6
 workflow-type: tm+mt
 source-wordcount: '2030'
 ht-degree: 54%
@@ -17,7 +17,7 @@ Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi acceder
 
 ## Tipi di pannello
 
-In Analysis Workspace sono disponibili i seguenti tipi di pannello per [!UICONTROL Customer Journey Analytics]:
+In Analysis Workspace sono disponibili i seguenti tipi di pannello per [!UICONTROL Adobe Analytics]:
 
 | Nome pannello | Descrizione |
 | --- | --- |
