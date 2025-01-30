@@ -8,7 +8,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="Mappa"
->abstract="Questa visualizzazione rappresenta le metriche sovrapponendole su una mappa. Ciò è utile per identificare i dati tra diverse aree geografiche."
+>abstract="Questa visualizzazione rappresenta le metriche sovrapponendole su una mappa. Questo è utile per identificare i dati tra diverse aree geografiche."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="workspace_map_bubbles"
 >title="Bolle"
->abstract="Tracciare gli eventi utilizzando le bolle."
+>abstract="Traccia gli eventi utilizzando le bolle."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,8 +38,8 @@ ht-degree: 86%
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
->title="Mappa di calore"
->abstract="Tracciare gli eventi utilizzando una mappa di calore."
+>title="Heatmap"
+>abstract="Traccia gli eventi utilizzando una mappa termica."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -116,7 +116,7 @@ L’**icona ingranaggio** presenta invece queste impostazioni:
 | Impostazione | Descrizione |
 |--- |--- |
 | Bolle | Traccia gli eventi tramite una rappresentazione a bolle. Un grafico a bolle è un grafico con più variabili, un incrocio tra un grafico a dispersione e un grafico a superfici proporzionali. Questa è la vista predefinita. |
-| Mappa di calore | Traccia gli eventi tramite una mappa di calore. Si tratta di una rappresentazione grafica in cui i singoli valori di una matrice sono rappresentati da colori. |
+| Heatmap | Traccia gli eventi tramite una mappa di calore. Si tratta di una rappresentazione grafica in cui i singoli valori di una matrice sono rappresentati da colori. |
 | Stili: Tema colore | Mostra lo schema di colori utilizzato per la mappa di calore e le bolle. Puoi scegliere tra Corallo, Rossi, Verdi e Blu. Il valore predefinito è Corallo. |
 | Stili: Stile mappa | Puoi scegliere tra Base, Strade, Vivace, Chiaro, Scuro e Satellite. |
 | Raggio cluster | Raggruppa i dati che si trovano entro un certo numero di pixel. Il valore predefinito è 50. |

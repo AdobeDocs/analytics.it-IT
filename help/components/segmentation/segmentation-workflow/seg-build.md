@@ -6,7 +6,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
 source-wordcount: '1961'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Anteprima dati"
->abstract="Confronta i dati di questo filtro con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale nella visualizzazione dati degli ultimi **90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
+>abstract="Confronta i dati di questo filtro con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale della visualizzazione dati a partire dagli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 44%
+ht-degree: 48%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Pannello Analytics for Target"
->abstract="Analizza le attività ed esperienze Target in Analysis Workspace.<br/><br>**Parametri **<br/>**Attività Target**: attività Target analizzata.<br/>**Esperienza di controllo**: esperienza di controllo per l&#39;attività Target selezionata.<br/>**Normalizzazione della metrica**: visitatori, visite o impression. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità.<br/>**Metriche di successo**: fino a 3 metriche di successo standard (non calcolate) su cui analizzare l&#39;attività Target."
+>abstract="Analizza le attività ed esperienze Target in Analysis Workspace.<br/><br>**Parametri **<br/>**Attività Target**: attività Target analizzata.<br/>**Esperienza di controllo**: esperienza di controllo per l’attività Target selezionata.<br/>**Metrica di normalizzazione**: visitatori, visite o impression. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità.<br/>**Metriche di successo**: fino a 3 metriche di successo standard (non calcolate) per analizzare l’attività Target."
 
 <!-- markdownlint-enable MD034 -->
 

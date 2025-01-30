@@ -8,7 +8,7 @@ exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 76%
+ht-degree: 79%
 
 ---
 
@@ -54,7 +54,7 @@ Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a 
 >[!CONTEXTUALHELP]
 >id="workspace_summarychange_button"
 >title="Variazione di riepilogo"
->abstract="Creare una visualizzazione che mostri il delta (variazione) tra due numeri"
+>abstract="Crea una visualizzazione che mostra il delta (variazione) tra due numeri"
 
 <!-- markdownlint-enable MD034 -->
 

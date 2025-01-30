@@ -7,7 +7,7 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 9%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_button"
 >title="Riepilogo pagina"
->abstract="Rivedi rapidamente alcune delle metriche di alto livello e il movimento da e verso una pagina specifica."
+>abstract="Rivedi rapidamente alcune delle metriche di alto livello e lo spostamento da e verso una pagina specifica."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Pannello Riepilogo pagina"
->abstract="Rivedi rapidamente alcune delle metriche di alto livello e il movimento da e verso una pagina specifica.<br/><br/>**Parametri **<br/>**Aggiungi un elemento dimensione pagina**: apri la barra dei componenti, individua la dimensione Pagina ed espandila facendo clic sulla carota per visualizzare gli elementi dimensione. Quindi, trascina e rilascia nel generatore la pagina specifica di cui desideri conoscere il funzionamento. Dopo aver trascinato e rilasciato l’elemento dimensione, il rapporto si popola automaticamente con le informazioni chiave sulla pagina."
+>abstract="Rivedi rapidamente alcune delle metriche di alto livello e lo spostamento da e verso una pagina specifica.<br/><br/>**Parametri **<br/>**Aggiungi un elemento dimensione pagina**: apri la barra dei componenti, individua la dimensione della pagina ed espandila facendo clic sulla freccia per visualizzare gli elementi della dimensione. Quindi, trascina nel generatore la pagina specifica di cui desideri ottenere informazioni. Dopo aver trascinato e rilasciato l’elemento dimensione, il rapporto si popola automaticamente con le informazioni chiave sulla pagina."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -89,7 +89,7 @@ Il pannello [!UICONTROL Page summary] restituisce un set completo di dati e visu
 | **[!UICONTROL Percentage of all page views]** | Un numero di riepilogo per la percentuale di tutte le visualizzazioni di pagina che hanno visitato questa pagina. |
 | **[!UICONTROL Time spent on page]** | Visualizzazione [Barra orizzontale](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) che mostra il tempo trascorso su questa pagina. |
 | **[!UICONTROL Single page visits]** | [Numero di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) che mostra il numero di visualizzazioni di pagina in cui questa pagina è stata l&#39;unica visitata. |
-| **[!UICONTROL Reloads]** | [Numero di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) che indica il numero di volte in cui un elemento dimensione è stato presente durante un ricaricamento. Un visitatore che aggiorna il browser è il modo più comune per attivare un ricaricamento. |
+| **[!UICONTROL Reloads]** | [Numero di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) che indica il numero di volte in cui un elemento dimensione è stato presente durante un ricaricamento. In genere un ricaricamento si verifica quando un visitatore aggiorna la finestra del browser. |
 | **[!UICONTROL Entries]** | Un [Numero di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) che mostra il numero di volte in cui un dato elemento dimensione viene acquisito come primo valore in una visita. |
 | **[!UICONTROL Exits]** | Un [Numero di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) che mostra il numero di volte in cui un dato elemento dimensione viene acquisito come ultimo valore in una visita. |
 | **[!UICONTROL Flow]** | Visualizzazione [Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) con la pagina selezionata come punto focale. Puoi approfondire i dati come in qualsiasi visualizzazione di [Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
