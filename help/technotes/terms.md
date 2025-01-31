@@ -3,7 +3,7 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
 source-wordcount: '2504'
 ht-degree: 98%
@@ -44,9 +44,6 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Correlazione:** termine non più utilizzato; sostituito con raggruppamenti di dimensioni. Nelle versioni precedenti di Adobe Analytics, le correlazioni consentivano di suddividere le variabili di traffico. Consulta [Suddividere le dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) nella Guida utente per l’analisi.
 * **Collegamento personalizzato:** tipo di hit che contiene dati non di visualizzazione pagina. Consulta la [funzione s.tl()](../implement/vars/functions/tl-method.md) nella Guida utente per l’implementazione. Consulta anche gli hit.
 * **Attributi del cliente:** funzione di Experience Cloud che consente di caricare i dati degli attributi. Consulta gli [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it) nella Guida utente per i servizi core.
-<!-- Cannot find a link to documentation on this role 
-* **Customer support delegate:** A designated user authorized to interact directly with Adobe Customer Care. See [Customer support delegates](https://helpx.adobe.com/experience-cloud/supported-users.html) in the Experience Cloud Knowledgebase.
--->
 * **Server di raccolta dati:** server di proprietà di Adobe che ricevono ed elaborano dati. Le richieste di immagini vengono inviate ai server di raccolta dati di Adobe per l’utilizzo nei rapporti.
 * **Connettori dati:** una soluzione di sviluppo ritirata che consente a terzi di automatizzare il caricamento di dati in Adobe Analytics. I clienti di tali terze parti possono utilizzare un connettore dati per arricchire i propri dati in Adobe Analytics. Sostituito con Adobe Exchange Marketplace.
 * **Feed di dati:** un’esportazione di dati non elaborati che elenca ogni hit come riga e le variabili come colonne separate. Utilizzato più comunemente per esportare dati di Adobe Analytics in un database di terze parti. Consulta i [Feed di dati](/help/export/analytics-data-feed/data-feed-overview.md) nella Guida utente per l’esportazione.
