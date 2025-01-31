@@ -5,9 +5,9 @@ title: Gestire le origini dati delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: de1ddbed4d455b6d05059e367369eb575a747971
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '569'
 ht-degree: 80%
 
 ---
@@ -30,9 +30,13 @@ La gestione di un’origine dati consente di mostrare l’origine dati o di bloc
 
 ## Impostazioni dell’origine dati
 
-Ecco un video sulle seguenti impostazioni:
 
->[!VIDEO](https://video.tv.adobe.com/v/23729/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni origine dati](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 | Elemento | Descrizione |
 | --- | --- |

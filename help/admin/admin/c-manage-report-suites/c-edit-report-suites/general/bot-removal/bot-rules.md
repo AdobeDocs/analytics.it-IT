@@ -4,10 +4,10 @@ title: Comprendere e configurare le regole bot
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
@@ -31,9 +31,13 @@ I dati sul traffico generato dai bot vengono memorizzati in un archivio separato
 >
 >Prima di rimuovere il traffico da bot, comunica con le parti interessate per assicurarti di poter apportare le modifiche necessarie agli indicatori di prestazioni chiave risultanti da questo cambiamento. Se possibile, consigliamo prima di tutto di rimuovere il traffico da bot da una piccola suite di rapporti in modo da stimarne il potenziale impatto.
 
-Il video seguente illustra come configurare le regole bot:
 
->[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurare le regole bot](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
 
 Per aggiornare o caricare le regole bot:
 
@@ -91,7 +95,7 @@ Una condizione Agente utente controlla il valore dell’agente utente per verifi
 
 Eventuali valori possono essere inclusi nell’elenco **[!UICONTROL does not contain]** per rilevare gli agenti utenti che non contengono tali valori. È possibile specificare più valori includendo un valore per riga. Se l’agente utente soddisfa i criteri specificati nella stringa di corrispondenza, ma contiene anche una stringa dell’elenco “does not contain”, non viene considerata una corrispondenza.
 
-Il campo **[!UICONTROL contains]** è limitato a 100 caratteri. L’elenco “does not contain” è limitato a 255 caratteri meno un carattere separatore per ogni nuova riga. Il numero di caratteri separatori è uguale al numero di stringhe - 1. Se si specificano 4 stringhe *does not contain*, sono necessari 3 caratteri separatori. La corrispondenza delle stringhe fa distinzione tra maiuscole e minuscole.
+Il campo **[!UICONTROL contains]** è limitato a 100 caratteri. L’elenco “does not contain” è limitato a 255 caratteri meno un carattere separatore per ogni nuova riga. Il numero di caratteri separatori è uguale al numero di stringhe - 1. Se si specificano 4 *stringhe does not contain*, sono necessari 3 caratteri separatori. Tutte le corrispondenze delle stringhe non fanno distinzione tra maiuscole e minuscole.
 
 ### Indirizzo IP (comprese le corrispondenze con caratteri jolly)
 

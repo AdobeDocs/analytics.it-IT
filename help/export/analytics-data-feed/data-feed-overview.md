@@ -4,10 +4,10 @@ keywords: clickstream;feed dati;datafeed;feed dati
 title: Panoramica sui feed dati di Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 86%
+source-wordcount: '306'
+ht-degree: 79%
 
 ---
 
@@ -33,10 +33,17 @@ Le risorse seguenti sono utili per comprendere il flusso di lavoro di base per o
 * [Gestire i feed dati](df-manage-feeds.md): ulteriori informazioni sulla navigazione nell’interfaccia del feed dati
 * [Contenuto feed dati](c-df-contents/datafeeds-contents.md): informazioni sul contenuto del file compresso <!-- Is this still the output users can download from the destination? I aske Jun. -->
 * [Definizioni delle colonne dati](c-df-contents/datafeeds-reference.md): un elenco completo di tutte le colonne disponibili.
-* Video sulla navigazione nell’interfaccia del feed dati:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-* Video su come trovare l’ID del proprio feed dati:
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell&#39;interfaccia feed dati](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+>[!ENDSHADEBOX]
+
+
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trova il tuo ID feed dati](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
+
+>[!ENDSHADEBOX]

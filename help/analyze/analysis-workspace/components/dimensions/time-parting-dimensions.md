@@ -4,9 +4,9 @@ title: Suddividere le dimensioni in base al tempo
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '235'
 ht-degree: 96%
 
 ---
@@ -15,9 +15,13 @@ ht-degree: 96%
 
 Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che viene quindi suddiviso in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
 
-Ecco un video sulle dimensioni suddivise in base al tempo:
 
->[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo=dimensioni di [PROD143]e](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 Le dimensioni suddivise in base al tempo sono relative al fuso orario della suite di rapporti o della suite di rapporti virtuale. Sono disponibili in Analysis Workspace e sono utili per rispondere a domande di tipo:
 

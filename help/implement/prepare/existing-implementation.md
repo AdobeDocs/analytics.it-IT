@@ -4,10 +4,10 @@ description: Istruzioni per gli amministratori che non hanno mai utilizzato un�
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 14%
+source-wordcount: '172'
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,13 @@ Stai rilevando un’implementazione di Adobe Analytics dal proprietario tecnico 
 
 Consulta questi suggerimenti dal tuo collega Proprietario tecnico, Sarah Owen. Sarah è una sostenitrice di Adobe Analytics e condivide alcune idee su come utilizzare l’Ereditato Playbook di implementazione per prendere in carico un’implementazione esistente:
 
->[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza il playbook di implementazione ereditato](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
+
 
 Vedi anche:
 

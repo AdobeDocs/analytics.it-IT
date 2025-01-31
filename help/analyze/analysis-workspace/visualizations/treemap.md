@@ -5,10 +5,10 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 66%
+source-wordcount: '162'
+ht-degree: 25%
 
 ---
 
@@ -29,14 +29,25 @@ _Questo articolo documenta la visualizzazione Mappa ad albero in_ ![AdobeAnalyti
 
 >[!ENDSHADEBOX]
 
-Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati.
-
-Ecco un video sulla visualizzazione [!UICONTROL Treemap]:
-
->[!VIDEO](https://video.tv.adobe.com/v/334458/?quality=12)
+Utilizza una visualizzazione ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL Treemap]** per visualizzare dati gerarchici (con struttura ad albero) come set di rettangoli nidificati.
 
 A ogni sezione dell’albero viene assegnato un rettangolo, che racchiude al suo interno rettangoli più piccoli che rappresentano le sottosezioni.
 
-![](assets/treemap.png)
+![Esempio di mappa ad albero che mostra riquadri di rettangoli più piccoli che rappresentano rami secondari.](assets/treemap.png)
 
-Quando il colore e le dimensioni sono in qualche modo legate con la struttura dell’albero, spesso si notano modelli che sarebbe difficile individuare in altri modi, ad esempio se un determinato colore è particolarmente rilevante. Un secondo vantaggio delle mappe ad albero è che, per costruzione, fanno un uso efficiente dello spazio.
+Con una mappa ad albero, potete vedere dei pattern che sarebbero difficili da individuare in altri modi. Utilizzando il colore e le dimensioni delle quote potete scoprire come le quote sono correlate e se una determinata quota è particolarmente rilevante. Un secondo vantaggio delle mappe ad albero è che, per costruzione, le mappe ad albero fanno un uso efficiente dello spazio.
+
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa ad albero](https://video.tv.adobe.com/v/334458/?quality=12){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

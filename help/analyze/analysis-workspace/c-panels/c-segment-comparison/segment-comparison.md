@@ -5,9 +5,9 @@ keywords: Analysis Workspace, segmento IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 41%
 
 ---
@@ -39,11 +39,14 @@ _Questo articolo documenta il pannello di confronto dei segmenti in_ ![AdobeAnal
 
 Il pannello di confronto dei segmenti è una funzione del [Segmento IQ](../../segment-iq.md) che rileva le differenze più importanti dal punto di vista statistico tra un numero illimitato di segmenti. La funzione esegue un’analisi automatizzata di tutte le dimensioni e metriche a cui hai accesso. Rileva automaticamente le caratteristiche chiave dei segmenti di pubblico che guidano i KPI della tua azienda e ti consente di conoscere il livello di sovrapposizione dei segmenti.
 
-+++ Ecco un video sul confronto dei segmenti:
 
->[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Utilizzo
 

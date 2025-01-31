@@ -3,9 +3,9 @@ title: Note tecniche di Analytics
 description: Questa guida fornisce informazioni utili su argomenti che non appartengono a uno strumento o componente di analisi specifico.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
@@ -34,9 +34,6 @@ Alcune delle caratteristiche principali di Adobe Analytics includono:
 
 In sintesi, Adobe Analytics è una potente soluzione di analisi web che fornisce alle aziende gli strumenti necessari per misurare, analizzare e ottimizzare le attività di marketing digitale. Grazie ai dati in tempo reale, alle analisi avanzate e alla modellazione dell’attribuzione, le aziende possono prendere decisioni basate sui dati che incentivano la trasformazione digitale e migliorano il ROI.
 
-Ecco una panoramica video di Adobe Analytics:
-
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## Articoli principali sulle note tecniche
 

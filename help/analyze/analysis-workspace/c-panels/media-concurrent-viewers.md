@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Media Concurrent Viewers
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1193'
 ht-degree: 49%
 
 ---
@@ -54,11 +54,13 @@ Puoi analizzare i visualizzatori simultanei per capire dove si è verificato il 
 In Analysis Workspace, la metrica Visualizzatori simultanei è il numero di persone univoche che visualizzano i flussi multimediali in un momento specifico, indipendentemente dal numero di sessioni.
 
 
-+++ Guarda una dimostrazione video di questa funzionalità.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello visualizzatori simultanei di contenuti multimediali](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}.
 
-+++
+>[!ENDSHADEBOX]
+
+
 
 ## Utilizzo
 

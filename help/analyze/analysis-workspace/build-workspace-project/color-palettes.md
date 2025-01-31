@@ -4,10 +4,10 @@ title: Cosa sono le palette di colori di visualizzazione e come funzionano?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 80%
+source-wordcount: '211'
+ht-degree: 78%
 
 ---
 
@@ -28,9 +28,14 @@ Nota bene:
 
 ## Cambia [!UICONTROL color palette]:
 
-Ecco un video sull&#39;utilizzo di [!UICONTROL color palettes] personalizzato:
 
->[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di una tavolozza di colori personalizzata](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
+
 
 1. Passa a **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
 1. Dall&#39;elenco a discesa **[!UICONTROL Project Color Palette]** è possibile scegliere una delle cinque combinazioni di colori predefinite.

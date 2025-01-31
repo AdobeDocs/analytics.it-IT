@@ -4,10 +4,10 @@ keywords: Metriche calcolate;Metriche calcolate avanzate
 title: Metriche calcolate e metriche calcolate avanzate
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 33%
+source-wordcount: '534'
+ht-degree: 31%
 
 ---
 
@@ -41,14 +41,25 @@ Ecco un confronto tra le metriche calcolate e le funzionalità avanzate delle me
 * Creare metriche in [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection] e [!UICONTROL Contribution Analysis].
 * Creare metriche segmentate derivate in fase di esecuzione dei rapporti, senza dover modificare l’implementazione. Questi possono essere visualizzati storicamente perché sono basati su segmenti.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Metriche calcolate](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 * Condividere le metriche tra le suite di rapporti. Ciò significa che tutte le metriche create di recente si applicano a tutte le suite di rapporti nella stessa società di accesso.
 * (Solo per metriche calcolate avanzate) Segmento sulle metriche. Ad esempio, puoi creare una metrica per “Nuovi visitatori”, conteggiando le persone per cui questa è la prima sessione.
 
 * Incorpora funzioni statistiche per descrivere meglio i tuoi dati (solo per metriche calcolate avanzate). Ad esempio, puoi contare il numero di elementi in un rapporto o aggiungere il numero di deviazioni standard per ogni elemento.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione delle metriche calcolate nei segmenti](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 ## Limitazioni {#section_CB878B02451541D68A68B508D4DBD19A}
 

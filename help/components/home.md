@@ -3,10 +3,10 @@ title: Guida ai componenti di Analytics
 description: Scopri i diversi componenti di Adobe Analytics.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 95%
 
 ---
 
@@ -27,9 +27,13 @@ I componenti di Analytics consentono di perfezionare e potenziare le capacità d
 * **Rapporti in tempo reale:** puoi ottenere rapporti e tendenze nel momento in cui diventano disponibili.
 * **Canali di marketing:** scopri in che modo i visitatori arrivano al tuo sito e individua i canali più efficaci.
 
-Ecco una panoramica video di Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 ## Articoli chiave sui componenti di Analytics
 

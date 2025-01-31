@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,14 @@ Con il passaggio a una nuova tecnologia di Report Builder, è possibile converti
 >
 >Duplicare ogni cartella di lavoro e rinominare una versione prima di convertirla. In questo modo, si disporrà comunque di una copia della cartella di lavoro originale, se necessario.
 
->[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converti cartelle di lavoro](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
+
 
 1. Configura il nuovo Report Builder [seguendo queste istruzioni](/help/analyze/report-builder/report-builder-setup.md).
 

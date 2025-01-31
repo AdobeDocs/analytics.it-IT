@@ -3,9 +3,9 @@ description: Invece di mantenere e caricare le classificazioni ogni volta che i 
 title: Flusso di lavoro di Generatore regole di classificazione
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '551'
 ht-degree: 96%
 
 ---
@@ -14,9 +14,13 @@ ht-degree: 96%
 
 Invece di mantenere e caricare le classificazioni ogni volta che i codici di tracciamento cambiano, puoi creare classificazioni automatiche basate su regole e applicarle su più suite di rapporti. Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
 
-Ecco una panoramica video del Generatore di regole di classificazione:
 
->[!VIDEO](https://video.tv.adobe.com/v/25884/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generatore regole di classificazione](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 ## Avviso importante prima di iniziare
 

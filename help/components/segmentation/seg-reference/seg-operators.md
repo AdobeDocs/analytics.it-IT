@@ -3,9 +3,9 @@ description: Il Generatore di segmenti consente di confrontare e vincolare i val
 title: Operatori di confronto per i segmenti
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1104'
 ht-degree: 85%
 
 ---
@@ -63,6 +63,9 @@ Puoi creare segmenti in base a un numero specifico di elementi all’interno di 
 | è maggiore o uguale a | Restituisce elementi dimensionali il cui conteggio univoco è maggiore o uguale al valore inserito. |
 | è minore o uguale a | Restituisce elementi dimensionali il cui conteggio univoco è minore o uguale al valore inserito. |
 
-Ecco un video sulla segmentazione su conteggi di dimensioni distinti:
 
->[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteggi dimensioni distinti](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]

@@ -4,9 +4,9 @@ description: Come utilizzare e interpretare il pannello Media Playback Time Spen
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1148'
 ht-degree: 57%
 
 ---
@@ -57,11 +57,11 @@ Il tempo di riproduzione trascorso può aiutarti a comprendere:
 
 * Dove si è verificato il calo.
 
-+++ Guarda una dimostrazione video di questa funzionalità.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/338699)
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}.
 
-+++
+>[!ENDSHADEBOX]
 
 ## Utilizzo
 

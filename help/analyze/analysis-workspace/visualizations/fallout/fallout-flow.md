@@ -4,10 +4,10 @@ title: Panoramica dell’abbandono
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -31,9 +31,13 @@ _Questo articolo documenta la visualizzazione Abbandono in_ ![AdobeAnalytics](/h
 
 Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei rapporti di abbandono. I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito.
 
-Ecco un video sulla visualizzazione dell’abbandono, o fallout:
 
->[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione fallout](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 Le visualizzazioni Abbandono consentono di:
 

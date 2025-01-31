@@ -4,10 +4,10 @@ title: Creare e condividere scorecard per dispositivi mobili
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '2443'
-ht-degree: 81%
+source-wordcount: '2452'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,13 @@ ht-degree: 81%
 
 Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analytics come configurare e presentare scorecard per dispositivi mobili per gli utenti manageriali. Per iniziare, puoi visualizzare il video Generatore di scorecard per le dashboard di Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generatore di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 Una scorecard Adobe Analytics mostra le visualizzazioni dei dati chiave per gli utenti direzionali in un layout a sezioni affiancate, come mostrato di seguito:
 
@@ -121,9 +127,13 @@ L’impostazione è *attiva* per impostazione predefinita. Se non desideri visua
 
 ## Applicare le visualizzazioni {#viz}
 
-Guarda un video sulle visualizzazioni delle scorecard per dispositivi mobili:
 
->[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
 
 Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Applica una visualizzazione diversa modificando l’area [!UICONTROL chart type] delle [!UICONTROL Properties] di una sezione. Seleziona la sezione destra e modifica il tipo di grafico.
 
@@ -193,7 +203,13 @@ Ogni dimensione aggiunta alla diapositiva di dettaglio viene visualizzata in un 
 
 Le diapositive di dettaglio personalizzate consentono di essere ancora più mirati sulle informazioni condivise con il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dettagli personalizzate](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 È possibile modificare il layout di ogni diapositiva di dettaglio e aggiungere un testo per spiegare meglio ciò che l’utente finale può visualizzare nei dati. È inoltre possibile modificare il tipo di grafico utilizzando il menu a discesa.
 
@@ -229,9 +245,12 @@ Una presentazione di dati è una raccolta di punti dati di supporto, contesto az
 
 Ad esempio, se ti concentri sul traffico web, la metrica più importante potrebbe riguardare le visite, ma potresti anche essere interessato a nuovi visitatori, visitatori univoci, e potresti voler vedere i dati suddivisi per pagina web o per tipo di dispositivo da cui proviene il traffico. Le presentazioni di dati nei progetti di scorecard per dispositivi mobili ti consentono di mettere le metriche più importanti al centro e in primo piano presentando il significato complessivo dietro le metriche con più diapositive di dettaglio.
 
-Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti di scorecard per dispositivi mobili in Analysis Workspace, guarda questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare storie di dati](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
 
 **Creazione di una presentazione di dati**
 

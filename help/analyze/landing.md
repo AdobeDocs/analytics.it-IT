@@ -4,18 +4,24 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1608'
-ht-degree: 95%
+source-wordcount: '1613'
+ht-degree: 94%
 
 ---
 
 # Pagina di destinazione di Adobe Analytics
 
-Nella pagina di destinazione di Adobe Analytics, [!DNL Analysis Workspace] e [!DNL Reports & Analytics] (ciclo di vita terminato) sono riuniti in un’unica interfaccia e in un unico punto di accesso sotto l’ombrello di [!DNL Workspace]. Sono disponibili una pagina Home per project manager, una sezione modelli e una sezione di apprendimento per aiutarti a iniziare in modo più efficace. Panoramica video:
+Nella pagina di destinazione di Adobe Analytics, [!DNL Analysis Workspace] e [!DNL Reports & Analytics] (ciclo di vita terminato) sono riuniti in un’unica interfaccia e in un unico punto di accesso sotto l’ombrello di [!DNL Workspace]. Sono disponibili una pagina Home per project manager, una sezione modelli e una sezione di apprendimento per aiutarti a iniziare in modo più efficace.
 
->[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta la ![pagina di destinazione di Adobe Analytics](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} [VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
+
+>[!ENDSHADEBOX]
+
+
 
 La pagina di destinazione di Adobe Analytics è composta dalle seguenti schede secondarie: Progetti, Modelli e Apprendimento.
 

@@ -5,10 +5,10 @@ title: Panoramica sulle regole di elaborazione
 feature: Processing Rules
 role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 88%
+source-wordcount: '385'
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,14 @@ Utilizza le regole di elaborazione per semplificare la raccolta dati e gestire i
 * Pulire delle sezioni del sito errate
 * Estrarre i termini di ricerca interni o un ID campagna dalla stringa di query in un eVar
 
->[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
+
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica sulle regole di elaborazione](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 ## Autorizzazioni delle regole di elaborazione {#section_8A4846688050453784DAE4D89355169A}
 

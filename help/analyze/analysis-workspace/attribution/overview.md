@@ -4,10 +4,10 @@ description: Il concetto di attribuire il credito di un evento di successo a pi�
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 91%
 
 ---
 
@@ -48,21 +48,34 @@ Attribution comprende le seguenti funzionalità:
 
 ## Video
 
-Attribuzione nelle tabelle a forma libera:
 
->[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
+>[!BEGINSHADEBOX]
 
-Attribuzione nelle metriche calcolate
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribuzione nelle tabelle a forma libera](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"}.
 
->[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
+>[!ENDSHADEBOX]
 
-Utilizzo del pannello Attribuzione:
 
->[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+>[!BEGINSHADEBOX]
 
-Aggiunta di confronti affiancati di modelli di attribuzione:
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribuzione nelle metriche calcolate](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}.
 
->[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo del pannello Attribuzione](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di confronti affiancati di modelli di attribuzione](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 ## Strumenti di Adobe Analytics che non supportano l’attribuzione
 

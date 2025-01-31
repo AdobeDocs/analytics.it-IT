@@ -4,10 +4,10 @@ description: Scopri come e perché creare progetti in Workspace con più suite d
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 88%
+source-wordcount: '499'
+ht-degree: 87%
 
 ---
 
@@ -21,9 +21,13 @@ Questa funzionalità è utile, ad esempio, per:
 
 * Creare un dashboard di metriche e visualizzazioni da segnalare ad altre organizzazioni. Puoi estrarre dati da varie suite di rapporti in nello stesso progetto.
 
-Video sull&#39;argomento:
 
->[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Più suite di rapporti](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 ## Applica suite di rapporti a tutti i pannelli
 

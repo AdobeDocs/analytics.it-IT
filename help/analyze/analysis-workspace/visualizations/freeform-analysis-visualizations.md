@@ -5,10 +5,10 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: e51eff7729f94e60239f34c43f77a533fa53910a
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 85%
+source-wordcount: '1377'
+ht-degree: 37%
 
 ---
 
@@ -48,96 +48,161 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
 1. Per aggiungere la visualizzazione, utilizza uno dei seguenti metodi:
 
-   * Nella barra a sinistra, seleziona l&#39;icona **Visualizzazioni** <!-- add icon -->, quindi trascina una visualizzazione sul pannello in cui desideri aggiungerla.
+   ![Aggiungi visualizzazione](assets/add-visualization.png)
 
-     ![](assets/viz-rail.png)
+   * Nel pannello a sinistra, seleziona ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **Visualizzazioni**, quindi trascina una visualizzazione nel pannello in cui desideri aggiungere la visualizzazione.
 
-   * Nel pannello in cui desideri aggiungere la visualizzazione, seleziona l&#39;icona **Più**, quindi scegli l&#39;icona che rappresenta la visualizzazione da aggiungere. Passa il cursore del mouse sull’icona di ciascuna visualizzazione per visualizzarne il nome.
+   * Nel pannello in cui desideri aggiungere la visualizzazione, seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg), quindi scegli l&#39;icona che rappresenta la visualizzazione da aggiungere. Passa il cursore del mouse sull’icona di ciascuna visualizzazione per visualizzarne il nome.
 
-     ![Pulsante per aggiungere una visualizzazione](assets/visualization-add-to-panel.png)
+   * Aggiungi un [pannello vuoto](/help/analyze/analysis-workspace/c-panels/blank-panel.md), quindi seleziona la visualizzazione da aggiungere.
 
-   * Aggiungi un [pannello vuoto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=it), quindi scegli la visualizzazione da aggiungere.
+   * Dal menu di scelta rapida di una visualizzazione esistente nel progetto Analysis Workspace, seleziona **[!UICONTROL Duplicate visualization]** o **[!UICONTROL Copy visualization]**.
 
-     ![Pannello vuoto](assets/blank_panel.png)
+   * Utilizza il menu Workspace **[!UICONTROL Insert]** per inserire una visualizzazione.
 
-   * Fai clic con il pulsante destro del mouse su un pannello esistente nel progetto Analysis Workspace, quindi seleziona [!UICONTROL **Duplica visualizzazione**] o [!UICONTROL **Copia visualizzazione**].
+   * Dal menu di scelta rapida di una tabella a forma libera, selezionare **[!UICONTROL Visualize]**. Seleziona quindi la visualizzazione dal sottomenu. In base alla selezione corrente nella tabella, Workspace determina la visualizzazione da offrire e interpreta i dati per generare la visualizzazione richiesta.
 
-## Personalizzare le impostazioni di visualizzazione
+## Legend (Legenda)
 
-Puoi personalizzare le impostazioni di visualizzazione per una singola visualizzazione o per tutte le visualizzazioni create.
-
-### Personalizzare le impostazioni di visualizzazione per una singola visualizzazione
-
-Per accedere a [!UICONTROL Visualization Settings] (Impostazioni di visualizzazione) per una singola visualizzazione:
-
-1. In Analysis Workspace, passa il cursore sulla visualizzazione di cui desideri personalizzare le impostazioni.
-
-1. Fai clic sull’icona dell’ingranaggio.
-
-   Ogni tipo di visualizzazione dispone di impostazioni univoche che puoi personalizzare. Per informazioni sulle impostazioni disponibili, consulta la sezione [Impostazioni](#settings).
-
-### Personalizzare le impostazioni di visualizzazione per tutte le visualizzazioni create
-
-Puoi personalizzare le impostazioni per tutte le visualizzazioni create. Per ulteriori informazioni, consulta la sezione [Preferenze utente](/help/analyze/analysis-workspace/user-preferences.md).
-
-## Impostazioni {#settings}
-
-![](assets/settings.png)
-
-| Impostazione | Descrizione |
-| --- | --- |
-| Tipo di visualizzazione | Modifica il tipo di elemento visivo utilizzato per rappresentare i dati. |
-| Granularità | Per le visualizzazioni con tendenze, puoi modificare la granularità temporale (giorno, settimana, mese, ecc.) da questo elenco a discesa. Questa modifica si applica anche alla tabella dell’origine dati. |
-| Percentuali | Visualizza i valori in percentuale. |
-| Sovrapposizione 100% | Applicata alle visualizzazioni Superfici sovrapposte, Barre sovrapposte o Barre orizzontali sovrapposte, questa impostazione converte il grafico in una visualizzazione con sovrapposizione 100%. Esempio: ![Sovrapposizione 100%](assets/stacked_100_percent.png) |
-| Visualizzazione legenda | Consente di nascondere il testo di dettagli per la visualizzazione Numero di riepilogo/Variazione di riepilogo. |
-| Limite massimo elementi | Consente di limitare il numero di elementi presentati in una visualizzazione. |
-| Ancoraggio asse Y su zero | Se tutti i valori rappresentati sul grafico sono uniformemente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà NON-ZERO. Attivando questa opzione, l’asse y verrà forzata sullo zero (e il grafico verrà ridisegnato). |
-| Normalizzazione | Forza le metriche ad adeguarsi alle proporzioni. Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
-| Visualizza asse doppia | Applicabile solo in presenza di due metriche. È possibile avere un asse y a sinistra (per una metrica) e un altro a destra (per l’altra metrica). Questa funzione è utile quando le metriche tracciate hanno dimensioni molto diverse. |
-| Mostra anomalie | Completa i grafici a linee e le tabelle a forma libera con la visualizzazione del rilevamento delle anomalie. Il rilevamento delle anomalie nelle visualizzazioni a linee include un valore previsto (linea tratteggiata) e un intervallo previsto (banda ombreggiata). |
-
-## Legend (Legenda) {#legend}
-
-Una legenda consente di correlare la data in una tabella di origine alle serie tracciate nella visualizzazione. La legenda è interattiva: puoi fare clic su un elemento della legenda per mostrare o nascondere una serie nella visualizzazione. È utile se desideri semplificare i dati visualizzati.
+Una legenda consente di correlare la data in una tabella di origine alle serie tracciate nella visualizzazione. La legenda è interattiva: puoi selezionare un elemento della legenda per mostrare o nascondere una serie nella visualizzazione, operazione utile se desideri semplificare i dati visualizzati.
 
 Inoltre, puoi rinominare le etichette delle legende per facilitare la lettura dei grafici. Nota: la modifica della legenda **non** è disponibile per le visualizzazioni Mappa ad albero, Bullet, Variazione di riepilogo o Numero di riepilogo, Testo, Forma libera, Istogramma, Coorte o Flusso.
 
 Per modificare un’etichetta di legenda:
 
 1. Fai clic su una delle etichette della legenda.
-1. Fai clic su **[!UICONTROL Edit Label]** (Modifica etichetta).
+1. Fai clic su **[!UICONTROL Edit Label]**.
 
-   ![](assets/edit-label.png)
+   ![Un&#39;etichetta di legenda e l&#39;opzione Modifica etichetta.](assets/edit-label.png)
 
 1. Inserisci il nuovo testo dell’etichetta.
 1. Fai clic su **[!UICONTROL Enter]** per salvare.
 
+
+
+### Impostazioni
+
+Le impostazioni di visualizzazione disponibili dipendono dalla visualizzazione. Nella tabella seguente sono riepilogate le impostazioni più comuni. Alcune visualizzazioni presentano impostazioni specifiche. Per ulteriori informazioni, consulta la documentazione sulle singole visualizzazioni.
+
+| Opzione | Descrizione |
+| --- | --- |
+| **[!UICONTROL Visualization type]** | Modifica il tipo di visualizzazione utilizzato per visualizzare i dati. |
+| **[!UICONTROL Granularity]** | Modifica la granularità temporale per le visualizzazioni con tendenze. Questa modifica si applica anche alla tabella dell’origine dati. |
+| **[!UICONTROL Percentages]** | Visualizza i valori in percentuale. |
+| **[!UICONTROL 100% stacked]** | Converti il grafico in una visualizzazione con sovrapposizione 100%.  Applicabile solo a una visualizzazione ad area, barre e barre orizzontali sovrapposte. |
+| **[!UICONTROL Legend visible]** | Mostra il testo della legenda. |
+| **[!UICONTROL Limit max items]** | Limita il numero di elementi visualizzati in una visualizzazione. Se questa opzione è selezionata, definisci il numero massimo di elementi. |
+| **[!UICONTROL Show annotations]** | Mostra le annotazioni effettuate per questa visualizzazione. |
+| **[!UICONTROL Hide title]** | Nascondi il titolo della visualizzazione. |
+| **[!UICONTROL Anchor y-axis at zero]** | Forza la parte inferiore dell&#39;asse y a zero. Se tutti i valori tracciati nel grafico sono notevolmente al di sopra di zero, il valore predefinito del grafico rende la parte inferiore dell&#39;asse y diversa da zero. Se si attiva questa opzione, l&#39;asse y viene forzato a zero e il grafico viene ridisegnato. |
+| **[!UICONTROL Display dual axis]** | Visualizzare gli assi y sinistro e destro per due metriche diverse. Questa opzione è applicabile solo se si dispone di due metriche. I due assi sono utili quando le metriche tracciate hanno dimensioni diverse. |
+| **[!UICONTROL Show x-axis]** | Mostra l’asse x nella visualizzazione. |
+| **[!UICONTROL Show y-axis]** | Mostra l’asse y nella visualizzazione. |
+| **[!UICONTROL Show barbells on lines]** | Mostra i punti a barre sulla visualizzazione delle linee in una visualizzazione con grafico combinato. |
+| **[!UICONTROL Normalization]** | Forza le metriche ad uguali proporzioni. Le stesse proporzioni sono utili quando le metriche tracciate hanno dimensioni diverse. |
+| **[!UICONTROL Show anomalies]** | Migliora i grafici a linee e le tabelle a forma libera visualizzando il rilevamento delle anomalie. Il rilevamento delle anomalie nelle visualizzazioni a linee include un valore previsto (linea tratteggiata) e un intervallo previsto (banda ombreggiata). |
+| **[!UICONTROL Show forecast]** | Migliora i grafici a linee e le tabelle a forma libera visualizzando i valori di previsione. |
+| **[!UICONTROL Show min]** | Mostra il valore minimo nella visualizzazione. |
+| **[!UICONTROL Show max]** | Mostra il valore massimo nella visualizzazione. |
+| **[!UICONTROL Show trendline]** | Mostra una linea di tendenza nella visualizzazione. Se questa opzione è selezionata, è possibile selezionare il tipo di linea di tendenza dal menu a discesa. |
+
+Puoi personalizzare le impostazioni per tutte le visualizzazioni create. Per ulteriori informazioni, consulta la sezione [Preferenze utente](/help/analyze/analysis-workspace/user-preferences.md).
+
+
 ## Menu di scelta rapida {#right-click}
 
-Ulteriori funzionalità per una visualizzazione sono disponibili facendo clic con il pulsante destro del mouse sull’intestazione della visualizzazione. Le impostazioni variano a seconda della visualizzazione. Alcune delle impostazioni disponibili sono:
+Utilizza il menu di scelta rapida (disponibile tramite selezione alternativa, ad esempio, facendo clic con il pulsante destro del mouse) su un’intestazione di visualizzazione per accedere a funzionalità aggiuntive per una visualizzazione. Non tutte le opzioni sono disponibili per tutte le visualizzazioni.
+
+![Impostazioni di visualizzazione aggiuntive con le opzioni visualizzate nel menu di scelta rapida. Le opzioni sono descritte nella sezione successiva.](assets/right-click.png)
+
+| Opzione | Descrizione |
+| --- | --- |
+| **[!UICONTROL Insert copied visualization]** | Incolla (inserisci) una visualizzazione copiata in un’altra posizione all’interno del progetto o in un progetto completamente diverso. |
+| **[!UICONTROL Copy data to clipboard]** | Copia i dati dalla visualizzazione negli Appunti. |
+| **[!UICONTROL Copy selection to clipboard]** | Copia la selezione dalla visualizzazione negli Appunti. |
+| **[!UICONTROL Download items as CSV (*nome dimensione *)]** | Scarica gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Massimo 50.000 elementi dimensionali per la dimensione selezionata. |
+| **[!UICONTROL Copy visualization]** | Copia la visualizzazione in modo da poterla inserire in un’altra posizione all’interno del progetto o in un progetto completamente diverso. |
+| **[!UICONTROL Download data CSV]** | Scarica i dati visualizzati della visualizzazione sul dispositivo locale. |
+| **[!UICONTROL Duplicate visualization]** | Crea un duplicato esatto della visualizzazione. |
+| **[!UICONTROL Edit description]** | Aggiungi (o modifica) un testo descrittivo per la visualizzazione. Vedi [Testo](text.md). |
+| **[!UICONTROL Get visualization link]** | Copia e condividi un collegamento direttamente alla visualizzazione. La finestra di dialogo Condividi collegamento consente di visualizzare il collegamento. Seleziona Copia per copiare il collegamento negli Appunti. |
+| **[!UICONTROL Start over]** | Elimina la configurazione per la visualizzazione corrente in modo da poterla riconfigurare da zero. |
+
+
+## Configurazione
+
+Alcune visualizzazioni (come Tabella coorte, Abbandono, Flusso e altre) dispongono di una finestra di dialogo di configurazione che ti aiuta a creare la visualizzazione. Utilizza ![Modifica](/help/assets/icons/Edit.svg) nella parte superiore della visualizzazione per accedere e modificare la configurazione.
+
+![Riquadro di configurazione](assets/configuration.png)
+
+## Visualizza
+
+Se non sai quale visualizzazione scegliere, seleziona ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL Visualize]** in una riga di tabella a forma libera (disponibile al passaggio del mouse). Questa selezione è il modo più veloce per aggiungere una visualizzazione. Analysis Workspace fa una stima ragionata per individuare la visualizzazione più adatta ai tuoi dati. Ad esempio, se hai selezionato una riga, crea un [grafico a linee](line.md) con tendenze. Se sono state selezionate tre righe di filtro, verrà creato un diagramma [venn](venn.md).
+
+![Visualizzazione rapida](assets/quick-viz.png)
+
+
+<!--
+## Settings {#settings}
+
+![](assets/settings.png)
+
+| Setting | Description |
+| --- | --- |
+| Visualization Type | Change the type of visual used to depict the data. |
+| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this drop-down list. This change also applies to the data source table. |
+| Percentages | Displays values in percentages. |
+| 100% Stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![Stacked 100%](assets/stacked_100_percent.png) |
+| Legend Visible | Lets you hide the detailed legend text for the Summary Number/Summary Change visualization. |
+| Limit Max Items | Lets you limit the number of items that a visualization displays. |
+| Anchor Y Axis at Zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
+| Normalization | Forces metrics to equal proportions. This is helpful when plotted metrics are of very different magnitudes. |
+| Display Dual Axis | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. |
+| Show Anomalies | Enhances line graphs and freeform tables by displaying anomaly detection. Anomaly detection in line visualizations includes an expected value (dashed line) and an expected range (shaded band). |
+
+## Legend {#legend}
+
+A visualization legend helps you to relate date in a source table to plotted series in the visualization. The legend is interactive - you can click a legend item to show/hide a series in the visualization. This is helpful if you want to simplify the data being visualized. 
+
+Additionally, you can rename legend labels to help you make visuals more consumable. Note: legend editing does **not** apply to: Treemap, Bullet, Summary Change/Number, Text, Freeform, Histogram, Cohort or Flow visualizations.
+
+To edit a legend label:
+
+1. Right-click one of the legend labels.
+1. Click **[!UICONTROL Edit Label]**.
+
+   ![](assets/edit-label.png)
+
+1. Enter the new label text.
+1. Press **[!UICONTROL Enter]** to save.
+
+## Right-click menu {#right-click}
+
+Additional functionality for a visualziation is available by right-clicking on the visualization header. Settings will vary by visualization. Some of the settings available are:
 
 ![](assets/right-click.png)
 
-| Impostazione | Descrizione |
+| Setting | Description |
 | --- | --- |
-| Inserisci visualizzazione/pannello copiato | Consente di incollare (inserire) l’elemento copiato altrove nello stesso progetto o in un altro progetto. |
-| Copia visualizzazione | Consente di fare clic con il pulsante destro del mouse e copiare una visualizzazione in modo da poterla inserire in un’altra posizione all’interno del progetto o in un progetto completamente diverso. |
-| [Scarica elementi come CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it#download-items) | Scarica come CSV fino a 50.000 elementi dimensionali per la dimensione selezionata. |
-| [Scarica dati come CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it#download-data) | Scarica come CSV l’origine dati della visualizzazione. |
-| Duplica visualizzazione | Crea una copia della visualizzazione corrente, che potrai quindi modificare. |
-| Modifica descrizione | Aggiungi (o modifica) un testo descrittivo per la visualizzazione. |
-| Ottieni collegamento visualizzazione | Consente di indirizzare un utente a una specifica visualizzazione in un progetto. Quando si fa clic sul collegamento, al destinatario verrà richiesto di effettuare l’accesso prima di essere indirizzato all’esatta visualizzazione collegata. |
-| Ricomincia | (Per Flusso, Venn, Istogramma) Elimina la configurazione della visualizzazione corrente in modo da poterla riconfigurare da zero. |
+| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
+| Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
+| Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
+| Edit Description | Add (or edit) a text description for the visualization. |
+| Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
+| Start Over | (Works for Flow, Venn, Histogram) Deletes the configuration for the current visualization so you can re-configure it from scratch. |
 
-## Icona “Crea elemento visivo” {#quick-viz}
+## Create Visual icon {#quick-viz}
 
-Se non sai quale visualizzazione scegliere, fai clic sull’icona **[!UICONTROL Create Visual]** in una delle righe della tabella (che appare quando vi si scorre sopra). Questo è il modo più veloce per aggiungere una visualizzazione. Facendo clic su di essa, Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea ai tuoi dati. Ad esempio, se hai selezionato 1 riga, verrà creato un grafico a linee con tendenze. Se sono state selezionate 3 righe di segmenti, verrà creato un diagramma di Venn.
+If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). This the the fastest way to add a visualization. Clicking it prompts Analysis Workspace to take an educated guess at which visualization would best fit your data. For example, if you have 1 row selected, it will create a trended line graph. If you have 3 segment rows selected, it will create a Venn diagram. 
 
 ![](assets/quick-viz.png)
 
-## Modificare scala/asse nelle visualizzazioni
+## Change the scale axis on visualizations
 
-Panoramica video:
+Here is a video overview:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
+
+-->

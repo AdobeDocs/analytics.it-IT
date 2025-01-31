@@ -4,10 +4,10 @@ title: Grafico bullet
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 66%
+source-wordcount: '238'
+ht-degree: 38%
 
 ---
 
@@ -37,12 +37,31 @@ _Questo articolo documenta la visualizzazione Punto elenco in_ ![AdobeAnalytics]
 
 >[!ENDSHADEBOX]
 
-È possibile vedere come un valore al quale sei interessato si confronta con altre gamme di prestazioni (obiettivi).
+La visualizzazione ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** mostra il confronto tra una metrica e gli intervalli di prestazioni (obiettivi) o le relative misurazioni.
 
-![](assets/bullet-image.png)
+![Visualizzazione grafico bullet](assets/bullet.png)
 
-Il grafico bullet presenta una singola misura primaria (ad esempio le entrate annuali correnti) e consente di inserire intervalli qualitativi di gamme di prestazioni (ad esempio rispetto a un fatturato target). È possibile specificare valori alti, medi e bassi. È possibile specificare una gamma di obiettivi in [!UICONTROL Visualization Settings] (Impostazioni visualizzazione).
+Il grafico bullet presenta una singola misura primaria (ad esempio le entrate annuali correnti) e consente di inserire intervalli qualitativi di gamme di prestazioni (ad esempio rispetto a un fatturato target). È possibile specificare intervalli di obiettivi alti, medi e bassi. È possibile specificare intervalli di obiettivi in ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]**.
 
-Ecco un video sulla visualizzazione del grafico bullet:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico bullet](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
+
+## Impostazioni
+
+È possibile definire impostazioni specifiche per una visualizzazione [!UICONTROL Bullet].
+
+| Impostazione | Descrizione |
+|---|---|
+| **[!UICONTROL Bullet options]** | Specificare i valori per **[!UICONTROL High goal]**, **[!UICONTROL Mid goal]** e **[!UICONTROL Low goal]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL High goal]**è l&#39;obiettivo principale a cui stai mirando.**[!UICONTROL Low goal]**e **[!UICONTROL Mid goal]**creano intervalli al di sotto dell&#39;obiettivo High. Nota: quando l&#39;opzione **[!UICONTROL Percentages]**è selezionata, immettere gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
+
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

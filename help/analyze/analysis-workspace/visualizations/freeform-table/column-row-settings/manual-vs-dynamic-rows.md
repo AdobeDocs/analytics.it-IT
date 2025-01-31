@@ -4,10 +4,10 @@ description: Interagire con elementi dimensionali dinamici e statici nelle tabel
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 90%
+source-wordcount: '513'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ Gli elementi dimensionali dinamici cambiano con il tempo e dipendono dalla metri
 
 Quando rilasci una dimensione in una tabella a forma libera, vengono restituite righe dinamiche. Esse rappresentano gli elementi principali che corrispondono alla dimensione per una metrica e un periodo di tempo specifici. È inoltre possibile rilasciare una dimensione nelle colonne di una tabella a forma libera. Così facendo la dimensione si espande automaticamente nei primi 5 elementi dimensionali.
 
-Ad esempio, quando si trascina la dimensione Tipo di browser nella tabella, gli elementi principali della dimensione (ad esempio Microsoft, Apple, Google, ecc.) sono restituiti nelle righe della tabella in modo dinamico. Se viene rilasciata in una colonna, sono restituiti in modo dinamico i primi cinque elementi della dimensione Tipo di browser.
+Ad esempio, quando trascini la dimensione Tipo di browser nella tabella, gli elementi principali della dimensione Tipo di browser (ad esempio, Microsoft, Apple, Google, ecc.) tornano dinamicamente alle righe della tabella. Se viene rilasciata in una colonna, sono restituiti in modo dinamico i primi cinque elementi della dimensione Tipo di browser.
 
 Gli elementi dimensionali dinamici dispongono dell&#39;opzione filtro righe e delle icone X e **non** dispongono dell&#39;icona di blocco. <!--do they have the lock icon? --> Quando fai clic sulla x accanto a un elemento di dimensione dinamico, viene applicato automaticamente un filtro. Per ulteriori informazioni sull&#39;applicazione di filtri alle tabelle, vedere [Filtrare e ordinare le tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
@@ -57,6 +57,11 @@ Le righe dinamiche e statiche si comportano in modo diverso nella riga del total
 
 ## Riordinare righe statiche
 
-Video sull’argomento:
 
->[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Riordinare le righe statiche](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
+
+

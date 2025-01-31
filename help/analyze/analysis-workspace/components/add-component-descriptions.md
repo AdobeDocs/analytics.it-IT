@@ -4,9 +4,9 @@ title: Aggiungere descrizioni dei componenti
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '161'
 ht-degree: 3%
 
 ---
@@ -19,9 +19,14 @@ Gli amministratori di Analytics possono aggiungere descrizioni per i componenti 
 
 ## Aggiungere descrizioni ai componenti di una suite di rapporti
 
-Il video seguente descrive come aggiungere descrizioni di dimensioni e metriche in una suite di rapporti:
 
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere descrizioni di componenti](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Aggiungere descrizioni ai componenti in Analysis Workspace (utilizzando il dizionario dati) {#add-descriptions}
 

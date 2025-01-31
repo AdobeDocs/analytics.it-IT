@@ -3,9 +3,9 @@ description: Ti consente di utilizzare il segmento per l’attività di marketin
 title: Segmenti Publish da Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 605d99581a1d17aa716163308958a61b51f97d46
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1240'
 ht-degree: 67%
 
 ---
@@ -16,9 +16,13 @@ La pubblicazione di un segmento di Adobe Analytics in Experience Cloud consente 
 
 Puoi pubblicare i segmenti di Analytics in Experience Cloud in meno di 8 ore. Utilizza questi segmenti per attivare il pubblico in Audience Manager per tutte le destinazioni a valle.
 
-Per ulteriori informazioni, guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti Publish](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >

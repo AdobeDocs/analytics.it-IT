@@ -3,10 +3,10 @@ description: I segmenti consentono di identificare sottoinsiemi di visitatori in
 title: Informazioni sui segmenti
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 100%
+source-wordcount: '1134'
+ht-degree: 97%
 
 ---
 
@@ -237,9 +237,14 @@ Un segmento sequenziale filtra i set di dati in base alle azioni degli utenti ch
 
 ## Video sulla segmentazione {#segment-video}
 
-Questo video offre una breve panoramica di cosa sono i contenitori dei segmenti e del loro utilizzo:
+Questo video offre una breve panoramica sui contenitori di segmenti e su come utilizzarli.
 
->[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://video.tv.adobe.com/v/ident25401ifier?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 
 ## Accedere agli strumenti di segmentazione {#access}

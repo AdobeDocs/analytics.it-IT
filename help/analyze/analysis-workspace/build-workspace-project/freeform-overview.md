@@ -5,9 +5,9 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: f6bfded8b3a8346b912f34cf2f3ba9a4958eefa7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1450'
 ht-degree: 41%
 
 ---
@@ -18,7 +18,13 @@ Utilizzando i progetti Workspace, puoi combinare componenti dati, tabelle e visu
 
 Ecco un video su come creare un progetto Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un progetto Workspace](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
 
 ## Elenco dei progetti {#project-list}
 
@@ -79,7 +85,7 @@ Dalla barra delle azioni blu, puoi selezionare le azioni seguenti:
 
 ## Barra dei menu {#menu-bar}
 
-In un progetto, il menu fornisce le opzioni necessarie per gestirlo, aggiungervi dei componenti, cercare assistenza e altro ancora. È inoltre possibile accedere a ogni opzione di menu tramite la tastiera [scelte rapide](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys).
+In un progetto, il menu fornisce le opzioni necessarie per gestirlo, aggiungervi dei componenti, cercare assistenza e altro ancora. È inoltre possibile accedere a ogni opzione di menu tramite la tastiera [scelte rapide](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys).
 
 
 | Opzione di menu | Descrizione |
@@ -89,7 +95,7 @@ In un progetto, il menu fornisce le opzioni necessarie per gestirlo, aggiungervi
 | Inserisci | Con questo menu puoi inserire nuovi pannelli o visualizzazioni. Puoi anche inserire nuovi pannelli e visualizzazioni dalla barra a sinistra. |
 | [Componenti](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) | Crea dal progetto nuovi segmenti, metriche calcolate, intervalli di date o componenti di avviso. Puoi anche creare nuovi componenti dalla barra a sinistra. Se le definizioni dei componenti sono state recentemente modificate, Aggiorna componenti recupera le definizioni più recenti. |
 | [Condividi](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files) | Curare, condividere e pianificare progetti PDF/CSV per i destinatari all’interno della tua organizzazione. |
-| Aiuto | Accedi alla documentazione dell’Aiuto, ai video e alla [community di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community) per Analytics. Gestisci la visibilità dei suggerimenti di Workspace e il [debugger](https://developer.adobe.com/analytics-apis/docs/2.0/). Trova dettagli su Workspace e sui fattori che influiscono sulle [prestazioni](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance) del progetto. |
+| Aiuto | Accedi alla documentazione dell’Aiuto, ai video e alla [community di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community) per Analytics. Gestisci la visibilità dei suggerimenti di Workspace e il [debugger](https://developer.adobe.com/analytics-apis/docs/2.0/). Trova dettagli su Workspace e sui fattori che influiscono sulle [prestazioni](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance) del progetto. |
 | Pulsante Condividi o Proprietario | Se stai utilizzando il progetto in modalità Own (Proprietario) o Edit (Modifica), il pulsante Share (Condividi) in alto a destra consente di accedere con un solo clic ai destinatari del progetto e di gestirli. Se per il progetto hai il ruolo Duplica o Visualizza, viene visualizzato il nome del proprietario del progetto. |
 
 ### Informazioni e impostazioni progetto {#info-settings}
@@ -109,7 +115,7 @@ Le impostazioni includono:
 | Descrizione | La descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. |
 | Conta istanze ripetute | Consente di specificare se conteggiare o meno, per i rapporti, le istanze ripetute. Ad esempio, questa impostazione (se attivata) tratta più visualizzazioni consecutive della stessa pagina come molteplici visualizzazioni di pagina. Se questa opzione è disattivata, vengono conteggiate come una singola visualizzazione di pagina (questa impostazione influisce solo su determinate metriche, come le visite a pagina singola). **Nota**: questa impostazione non si applica alle visualizzazioni Flusso o Abbandono. |
 | [Mostra annotazioni](/help/analyze/analysis-workspace/components/annotations/overview.md) | Specifica se mostrare o meno le annotazioni nel progetto. |
-| [Palette dei colori del progetto](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes) | Per cambiare la palette di colori utilizzata per le categorie in Workspace, puoi scegliere una delle palette predefinite ottimizzate per il daltonismo o specificarne una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |
+| [Palette dei colori del progetto](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palette) | Per cambiare la palette di colori utilizzata per le categorie in Workspace, puoi scegliere una delle palette predefinite ottimizzate per il daltonismo o specificarne una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |
 | [Densità di visualizzazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Consente di visualizzare più dati nella schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. |
 
 ## Barra a sinistra {#left-rail}
@@ -131,7 +137,12 @@ I componenti (dimensioni, metriche, segmenti, intervalli di date) nella barra a 
 
 Video sull’utilizzo del menu di scelta rapida in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo del menu di scelta rapida](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
 
 ## Area di lavoro del progetto {#canvas}
 
@@ -139,6 +150,6 @@ Nell’area di lavoro del progetto puoi raccogliere i pannelli, le tabelle, le v
 
 I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, suite di rapporti o casi di utilizzo di analisi. Il pannello attivo è evidenziato da un bordo colorato e determina quali componenti sono disponibili nella barra a sinistra.
 
-A seconda del punto iniziale scelto per i progetti, l&#39;area di lavoro include una [tabella a forma libera](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) o un [pannello vuoto](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel). Il modo più rapido per iniziare l’analisi consiste nel selezionare uno o più componenti e semplicemente trascinarli nell’area di lavoro del progetto. Viene creata automaticamente una tabella di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) sulle diverse opzioni per la creazione di una tabella oppure utilizza il [tutorial di formazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) disponibile per ulteriori informazioni sulla creazione del primo progetto.
+A seconda del punto iniziale scelto per i progetti, l&#39;area di lavoro include una [tabella a forma libera](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) o un [pannello vuoto](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/blank-panel). Il modo più rapido per iniziare l’analisi consiste nel selezionare uno o più componenti e semplicemente trascinarli nell’area di lavoro del progetto. Viene creata automaticamente una tabella di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) sulle diverse opzioni per la creazione di una tabella oppure utilizza il [tutorial di formazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) disponibile per ulteriori informazioni sulla creazione del primo progetto.
 
 ![](assets/canvas.png)

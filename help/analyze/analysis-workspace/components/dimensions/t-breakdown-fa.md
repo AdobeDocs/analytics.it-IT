@@ -5,10 +5,10 @@ title: Suddividere dimensioni
 feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 80%
+source-wordcount: '348'
+ht-degree: 72%
 
 ---
 
@@ -45,14 +45,25 @@ Questo è il comportamento previsto quando si applicano modelli di attribuzione 
 
 ## Video
 
-Aggiungere dimensioni e metriche al progetto in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
+>[!BEGINSHADEBOX]
 
-Utilizzo delle dimensioni nelle tabelle a forma libera:
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche al progetto in Analysis Workspace](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"}.
 
->[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
+>[!ENDSHADEBOX]
 
-Ecco un video sulle suddivisioni delle dimensioni per posizione:
 
->[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [raggruppamenti delle dimensioni per posizione](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+

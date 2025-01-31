@@ -4,10 +4,10 @@ title: Domande frequenti e risoluzione dei problemi di Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 91%
+source-wordcount: '547'
+ht-degree: 81%
 
 ---
 
@@ -37,36 +37,52 @@ Non è richiesta alcuna implementazione particolare. Analysis Workspace è dispo
 Analysis Workspace non è consigliato per l’esportazione di dati in massa. Si tratta di un’area di lavoro di visualizzazione per la creazione di progetti di analisi con layout simile a una dashboard.
 +++
 
-+++Come si ottimizzano le prestazioni di Analysis Workspace?
++++Come posso ottimizzare le prestazioni di Analysis Workspace?
+
 Consulta [Ottimizzazione delle prestazioni](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
+
 +++
 
 +++Come entrano i dati nel progetto Analysis Workspace?
-Guarda questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dati in Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
-+++ Come si tiene traccia dell’utilizzo di Workspace?
++++Come si tiene traccia dell&#39;utilizzo di Workspace?
 
-Guarda questo video sul tracciamento dell’utilizzo tramite i registri di Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tracciamento del registro](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
 +++Quando trascino una metrica, un messaggio indica “Dati non validi”. Come posso risolvere questo problema?
+
 Il messaggio indicante che i dati non sono validi significa che Adobe non può restituire dati utilizzando la combinazione di dimensioni e metriche utilizzate nel report. Ad esempio, due metriche posizionate una sopra all’altra non possono essere restituite come dati, in quanto non è possibile visualizzare due metriche in questo modo. Posiziona invece le metriche una accanto all’altra.
+
 +++
 
-+++Quando trascino una metrica, non visualizzo dati effettivi, ma solo zeri. Come posso trovare una risoluzione a questo problema?
++++Quando trascino una metrica, non visualizzo dati effettivi, ma solo zeri. Come posso risolvere questo problema?
+
 Se crei correttamente un report Workspace, ma non sono presenti dati, puoi controllare alcuni elementi:
 
 * Controlla la suite di rapporti e assicurati che includa dati.
 * Se hai applicato un segmento nel report, i criteri del segmento potrebbero non corrispondere ad alcun dato. Prova a rimuovere il segmento o a regolare la definizione del segmento.
 * Controlla l’intervallo di date in alto a destra e accertati che sia impostato sul valore desiderato.
 * Vai al tuo sito web e utilizza il [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it) per convalidare i dati raccolti.
+
+
 +++
 
 +++In qualità di utente di sola lettura, quali azioni posso eseguire in Analysis Workspace?

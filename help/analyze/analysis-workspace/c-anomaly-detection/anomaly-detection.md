@@ -4,10 +4,10 @@ title: Panoramica di Rilevamento delle anomalie
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1276'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,12 @@ ht-degree: 100%
 
 In Analysis Workspace puoi visualizzare e analizzare le anomalie nei dati in modo contestuale. L’analisi dei contributi funziona in combinazione con il rilevamento delle anomalie per aiutare a identificare cosa ha contribuito all’anomalia.
 
->[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rilevamento anomalie](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -45,9 +50,15 @@ L’algoritmo di rilevazione delle anomalie di Analysis Workspace include:
 
 ## Analisi contributi
 
-L’analisi dei contributi riconosce pattern nascosti nei dati per spiegare le anomalie statistiche e identificare le correlazioni alla base di azioni inaspettate da parte del cliente, valori fuori dalla norma e improvvisi picchi o ribassi di metriche selezionate su segmenti di pubblico convergenti.
+L’analisi dei contributi riconosce pattern nascosti nei dati per spiegare le anomalie statistiche e identificare le correlazioni alla base di azioni inaspettate da parte della clientela, valori fuori dalla norma e improvvisi picchi o ribassi di metriche selezionate su segmenti di pubblico convergenti.
 
->[!VIDEO](https://video.tv.adobe.com/v/25443/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi contributi](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 Si è verificata un’anomalia. Perché? Il report della funzionalità di rilevamento delle anomalie mostra un picco insolito negli ordini e vuoi scoprirne il motivo. Cos’è successo di straordinario? Chi risponde a una determinata campagna o riferimento? Un contenuto è diventato virale? Quali sono i fattori specifici che hanno contribuito a questa anomalia? Forse l’informazione più importante: come posso acquisire informazioni critiche sul mio cliente e ripetere queste prestazioni? (Oppure, se si è verificato un calo in una metrica o un aumento in una metrica negativa, come posso evitarlo in futuro?)
 

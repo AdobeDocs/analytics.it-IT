@@ -5,9 +5,9 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '830'
 ht-degree: 79%
 
 ---
@@ -86,6 +86,10 @@ Analysis Workspace supporta l’[attribuzione](/help/analyze/analysis-workspace/
 
 ## Colonne dinamiche
 
-Ecco un video su come utilizzare le colonne dinamiche in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colonne dinamiche](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+

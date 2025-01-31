@@ -4,10 +4,10 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 55%
+source-wordcount: '874'
+ht-degree: 36%
 
 ---
 
@@ -29,11 +29,12 @@ _Questo articolo documenta la visualizzazione del riepilogo delle metriche chiav
 
 >[!ENDSHADEBOX]
 
-La visualizzazione [!UICONTROL Key metric summary] ti consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due archi temporali. Fornisce i vantaggi di più visualizzazioni combinate in un’unica visualizzazione:
 
-* Visualizzazioni di **[!UICONTROL Line]** che mostrano la tendenza della metrica per gli intervalli di date principali e di confronto
+La visualizzazione ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric summary]** ti consente di vedere come si presenta una metrica importante in un singolo arco temporale. Consente inoltre di confrontare le prestazioni delle metriche in due archi temporali. Fornisce i vantaggi di più visualizzazioni combinate in un’unica visualizzazione:
 
-* **[!UICONTROL Summary percent change]** che mostra l’aumento o la diminuzione della metrica tra gli intervalli di date principali e di confronto
+* La visualizzazione **[!UICONTROL Line]** mostra la tendenza della metrica per gli intervalli di date principali e di confronto
+
+* **[!UICONTROL Summary percent change]** mostra l&#39;aumento o la diminuzione della metrica tra gli intervalli di date principali e di confronto
 
 * Valore totale corrente ([!UICONTROL **numero di riepilogo**]) per la metrica
 
@@ -47,20 +48,20 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
 * Un dirigente che vuole capire come sono cambiate le prenotazioni da questo trimestre all’ultimo trimestre.
 
-## Configurare il riepilogo delle metriche chiave
+## Utilizzo
 
-1. Trascina visualizzazione **[!UICONTROL Key metric summary]** dal menu **[!UICONTROL Visualizations]** nella barra a sinistra in un pannello.
+1. Aggiungi una visualizzazione ![Metriche chiave](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric summary]**. Vedi [Aggiungere una visualizzazione a un pannello](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
-   ![](assets/key-metric-config.png)
+1. Configura la visualizzazione selezionando un **[!UICONTROL Metric]**, un **[!UICONTROL Primary date range]**, un **[!UICONTROL Comparison date range]** (facoltativo) e un **[!UICONTROL Filter]** (facoltativo):
 
-1. Configura la visualizzazione con le seguenti opzioni:
+   ![Configurazione delle metriche chiave che mostra le opzioni per metrica, intervallo di date primario, intervallo di date di confronto e segmento.](assets/key-metrics-config.png)
 
-   | Impostazione di configurazione | Definizione |
+   | Opzione | Descrizione |
    | --- | --- |
    | **[!UICONTROL Metric]** | Seleziona la metrica da esaminare. Sono supportate tutte le metriche. |
-   | **[!UICONTROL Primary date range]** | L’intervallo di date corrente per la tabella a forma libera.<p>Scegli uno degli intervalli di date disponibili nella suite di rapporti.</p> <p>Scegli [!UICONTROL **Intervallo date pannello**] se desideri utilizzare lo stesso intervallo di date utilizzato nel pannello in cui si trova la visualizzazione.</p> |
+   | **[!UICONTROL Primary date range]** | L’intervallo di date corrente per la tabella a forma libera.<p>Scegli uno degli intervalli di date disponibili nella visualizzazione dati.</p> <p>Scegli [!UICONTROL **Intervallo date pannello**] se desideri utilizzare lo stesso intervallo di date utilizzato nel pannello in cui si trova la visualizzazione.</p> |
    | **[!UICONTROL Comparison date range]** | L’intervallo di date che desideri confrontare con l’intervallo di date principale. |
-   | **[!UICONTROL Segment (optional)]** | Qualsiasi segmento al quale sei interessato per questo riepilogo. |
+   | **[!UICONTROL Filter (optional)]** | Qualsiasi filtro a cui sei interessato per questo riepilogo. |
 
    {style="table-layout:auto"}
 
@@ -73,11 +74,9 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
 
 1. Seleziona **[!UICONTROL Build]**.
 
-## Visualizza l’output
+L’output del riepilogo delle metriche chiave è simile al seguente:
 
-L’output deve essere simile al seguente:
-
-![](assets/key-metric-output.png)
+![Output delle metriche chiave che mostra i grafici metrica, modifica di riepilogo, numero di riepilogo e linea.](assets/key-metrics.png)
 
 Quando visualizzi l’output, tieni presente quanto segue:
 
@@ -87,13 +86,20 @@ Quando visualizzi l’output, tieni presente quanto segue:
 
 * Da qui, puoi passare il cursore del mouse sui grafici a linee per vedere le statistiche dei singoli giorni:
 
-![](assets/key-metric-output2.png)
 
-## Impostazioni di visualizzazione
+## Configurare
 
-Il riepilogo delle metriche chiave offre diverse impostazioni flessibili per consentire una migliore generazione di rapporti e comunicazioni di metriche importanti. È possibile accedere alle impostazioni tramite l’icona a forma di ingranaggio nell’angolo in alto a destra della visualizzazione.
+Dopo aver creato la visualizzazione, puoi modificare la configurazione originale.
 
-![](assets/key-metric-settings.png)
+1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Configure visualization]** nella parte superiore della visualizzazione.
+
+   Viene visualizzata di nuovo la finestra di dialogo di configurazione originale.
+
+1. Modifica le impostazioni come preferisci. Selezionare **[!UICONTROL Reset]** per ripristinare le impostazioni correnti. Seleziona **[!UICONTROL Build]** per ricreare la visualizzazione.
+
+## Impostazioni
+
+Come parte delle impostazioni di visualizzazione, sono disponibili impostazioni specifiche di riepilogo delle metriche chiave.
 
 | Impostazione | Descrizione |
 | --- | --- |
@@ -101,12 +107,14 @@ Il riepilogo delle metriche chiave offre diverse impostazioni flessibili per con
 | **[!UICONTROL Emphasize number value]** | Visualizzare il numero di riepilogo in grassetto prominente al centro della visualizzazione |
 | **[!UICONTROL Legend visible]** | Mostrare o nascondere la legenda nella parte inferiore della visualizzazione |
 | **[!UICONTROL Show annotations]** | Mostrare o nascondere le annotazioni aggiunte da un amministratore |
-| **[!UICONTROL Show sparklines]** | Mostra o nascondi i grafici a linee nella parte inferiore del grafico. Quando è nascosta, la legenda non fa più riferimento visivamente alle linee |
-| **[!UICONTROL Show min and max on sparklines]** | Mostrare o nascondere valori minimi e massimi nei grafici a linee principali e a linee di confronto |
-| **[!UICONTROL Show comparison]** | Mostra o nascondi i dati di confronto. Quando sono nascosti, gli oggetti grafico a linee di confronto e di riepilogo delle modifiche sono nascosti. |
+| **[!UICONTROL Hide title]** | Nasconde il titolo della visualizzazione. |
+| **[!UICONTROL Percentages]** | Visualizza la visualizzazione in percentuale anziché in numero. |
+| **[!UICONTROL Show trendlines]** | Mostra le linee di tendenza nella visualizzazione. |
+| **[!UICONTROL Show max and min on trendlines]** | Mostrare o nascondere valori minimi e massimi nei grafici a linee principali e a linee di confronto |
+| **[!UICONTROL Show comparison percentage and trendline]** | Mostra o nascondi i dati di confronto. Quando sono nascosti, gli oggetti grafico a linee di confronto e di riepilogo delle modifiche sono nascosti. |
 | **[!UICONTROL Show total number]** | Mostrare o nascondere il numero di riepilogo |
 | **[!UICONTROL Show raw difference]** | Mostra o nascondi la differenza non elaborata tra il valore totale della metrica nell’intervallo di date principale e l’intervallo di date secondario. |
-| **[!UICONTROL Abbreviate value]** | Abbrevia i valori numerici per semplificare le informazioni comunicate (ad esempio, 20.000 -> 20K) |
+| **[!UICONTROL Abbreviate value]** | Selezionare **[!UICONTROL Abbreviate value]** per abbreviare in modo intelligente il valore numerico. Se questa opzione è selezionata, immettere un numero per definire la quantità di abbreviazione. Esempio:<br/><table><tr><td>**Valore originale**</td><td>**Abbreviazione**</td><td>**Risultato**</td></tr><tr><td>12.011.141,25 $</td><td>Non selezionato</td><td align="right">12.011.141,25 $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su 1</td><td align="right">$ 12 milioni</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su 2</td><td align="right">$ 12,0 milioni</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su 2</td><td align="right">$ 12,011 milioni</td></tr><tr><td>12.011.141,25 $</td><td>Seleziona, imposta su 3</td><td align="right">$ 12,011 milioni</td></tr></table> |
 
 ## Visualizzazione Modifica
 
@@ -114,8 +122,15 @@ Dopo aver creato la visualizzazione, puoi comunque modificare la configurazione 
 
 1. Fai clic sull’icona a forma di matita nell’angolo in alto a destra della visualizzazione (accanto all’icona a forma di ingranaggio delle impostazioni).
 
-   ![](assets/edit-icon.png)
+   ![Icona modifica visualizzazione](assets/edit-icon.png)
 
    Ora ritorni alla visualizzazione di configurazione originale.
 
-1. Modifica la metrica, l’intervallo di date primario, l’intervallo di date del confronto o il segmento come preferisci.
+1. Modifica la metrica, l’intervallo di date primario, l’intervallo di date del confronto o il filtro come preferisci.
+
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+

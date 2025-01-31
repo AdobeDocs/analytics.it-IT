@@ -4,10 +4,10 @@ title: Densità di visualizzazione
 feature: Workspace Basics
 role: User, Admin
 exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 69%
+source-wordcount: '101'
+ht-degree: 68%
 
 ---
 
@@ -27,6 +27,10 @@ Per impostare la densità di visualizzazione:
 
 1. Scegli una delle tre opzioni descritte qui sopra e fai clic su **[!UICONTROL Save]** (Salva).
 
-Ecco un video sull&#39;utilizzo di [!UICONTROL View Density]:
 
->[!VIDEO](https://video.tv.adobe.com/v/25963/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Densità di visualizzazione](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+

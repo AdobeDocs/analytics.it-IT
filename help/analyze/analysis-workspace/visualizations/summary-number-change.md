@@ -5,20 +5,24 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 79%
+source-wordcount: '306'
+ht-degree: 51%
 
 ---
 
-# [!UICONTROL Summary Number] e [!UICONTROL Summary Change]
+# [!UICONTROL Summary number] e [!UICONTROL Summary change]
 
 _Questo articolo documenta le visualizzazioni Numero riepilogo e Modifica riepilogo in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Numero di riepilogo e Variazione di riepilogo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Versione del Customer Journey Analytics** di questo articolo._
 
-Ecco un video sulle due visualizzazioni:
 
->[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione numero riepilogo e Visualizzazione modifica riepilogo](https://video.tv.adobe.com/v/335564/?quality=12){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 ## Visualizzazione [!UICONTROL Summary Number] {#summary-number}
 
@@ -31,34 +35,12 @@ Ecco un video sulle due visualizzazioni:
 
 <!-- markdownlint-enable MD034 -->
 
-Utilizza la visualizzazione [!UICONTROL Summary Number] per evidenziare un numero elevato importante in un progetto. Questa visualizzazione si comporta come segue:
 
-* Se non è selezionata alcuna cella, viene selezionato il totale della colonna.
-* Se è selezionata una cella, viene visualizzato il riepilogo per tale cella.
-* Se sono selezionate più celle, viene visualizzata la prima cella selezionata.
-* Se è selezionata la colonna, viene preso il valore della prima cella della colonna.
+Utilizza la visualizzazione ![SpostaSuGiù](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL Summary Change]** per mostrare il delta (modifica) tra due numeri. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
 
-Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a destra per configurare le impostazioni del Numero di riepilogo:
-
-| Impostazione | Definizione |
-|--- |--- |
-| [!UICONTROL Percentages] | Visualizza le percentuali invece dei numeri. |
-| [!UICONTROL Legend visible] | Mostra informazioni sulla metrica visualizzata. |
-| [!UICONTROL Abbreviate value] | Scegli di abbreviare i valori e visualizzare fino a 3 posizioni decimali. |
-| [!UICONTROL Summarize value by] | Scegli di visualizzare il massimo, il minimo, la media, la mediana o la somma per una selezione di dati. |
-
-## Visualizzazione [!UICONTROL Summary Change] {#summary-change}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_summarychange_button"
->title="Variazione di riepilogo"
->abstract="Crea una visualizzazione che mostra il delta (variazione) tra due numeri"
-
-<!-- markdownlint-enable MD034 -->
-
-Utilizza la visualizzazione [!UICONTROL Summary Change] per mostrare il delta (modifica) tra due numeri. Il colore verde e rosso di [!UICONTROL Summary Change] può essere controllato tramite [polarità evento personalizzata](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) o l&#39;opzione [Mostra tendenza verso l&#39;alto come](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=it) di una metrica calcolata.
+<!--
+The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
+-->
 
 Questa visualizzazione si comporta come segue:
 
@@ -70,14 +52,20 @@ Questa visualizzazione si comporta come segue:
 * Se è selezionata la colonna, il primo valore viene confrontato con se stesso, e la variazione risulta quindi pari a 0.
 
 
-![](assets/summary-change.png)
+![Visualizzazione delle modifiche di riepilogo che mostra il delta tra due numeri.s](assets/summary-change.png)
 
 
-Fai clic sull’ingranaggio delle **impostazioni di visualizzazione** in alto a destra per configurare le impostazioni della Variazione di riepilogo:
+Come parte delle impostazioni di visualizzazione, sono disponibili **[!UICONTROL Summary change options]** specifici.
 
-| Impostazione | Definizione |
-| --- | --- |
-| [!UICONTROL Percentages] | Visualizza le percentuali invece dei numeri. |
-| [!UICONTROL Legend visible] | Mostra informazioni sulla metrica visualizzata. |
-| [!UICONTROL Show Percent Change] | Mostra la variazione percentuale tra i 2 numeri. |
-| [!UICONTROL Show Raw Difference] | Mostra la differenza grezza tra i 2 numeri. Con questa opzione è inoltre possibile abbreviare i valori e visualizzare fino a 3 posizioni decimali. |
+| Opzione | Definizione |
+|--- |--- |
+| **[!UICONTROL Show percent change]** | Mostra la variazione percentuale tra i 2 numeri. |
+| **[!UICONTROL Show raw difference]** | Mostra la differenza grezza tra i 2 numeri. Con questa opzione è inoltre possibile abbreviare i valori e visualizzare fino a 3 posizioni decimali. |
+| **[!UICONTROL Abbreviate value]** | Selezionare **[!UICONTROL Abbreviate value]** per abbreviare in modo intelligente il valore modificato. Se questa opzione è selezionata, immettere un numero per definire la quantità di abbreviazione. Esempio:<br/><table><tr><td>**Valore originale**</td><td>**Valore abbreviazione**</td><td>**Risultato**</td></tr><tr><td>12.011.141,25 $</td><td>Non selezionato</td><td  align="right">12.011.141,25 $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `0`</td><td align="right">$ 12 milioni</td></tr><tr><td>12.011.141,25 $</td><td> Selezionato, impostato su `1`</td><td  align="right">$ 12,0 milioni</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `2`</td><td align="right">$ 12,01 milioni</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `3`</td><td align="right">$ 12,011 milioni</td></tr></table> |
+
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

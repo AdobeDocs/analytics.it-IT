@@ -4,10 +4,10 @@ title: Segmenti rapidi
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 0610cb263f2c5e7cc337b9a8f8df5766736f4fb8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 100%
+source-wordcount: '1101'
+ht-degree: 99%
 
 ---
 
@@ -21,9 +21,13 @@ Quando crei segmenti rapidi, tieni presente quanto segue:
 * Sono consentite fino a 3 regole.
 * I contenitori nidificati o le regole sequenziali non sono supportati.
 
-Il video seguente illustra come utilizzare i segmenti rapidi:
 
->[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
 
 ## Creare un segmento rapido
 

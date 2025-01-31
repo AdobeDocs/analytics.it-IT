@@ -5,10 +5,10 @@ title: Applicare i segmenti nell’analisi dell’abbandono
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 93%
+source-wordcount: '431'
+ht-degree: 90%
 
 ---
 
@@ -50,9 +50,13 @@ Oppure puoi creare un punto di contatto AND trascinando il segmento degli utenti
 
 Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandono. (Il video seguente afferma che è possibile confrontare fino a 3 segmenti, il che è errato.)
 
-Video sul confronto di segmenti nella sezione Abbandono:
 
->[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confrontare i segmenti in una visualizzazione di fallout](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
 
 1. Seleziona i segmenti che desideri confrontare dalla barra [!UICONTROL Segments] a sinistra. Nel nostro esempio, abbiamo selezionato 2 segmenti: Utenti USA e Utenti non USA.
 1. Trascinali nella zona di rilascio Segmento, in alto.

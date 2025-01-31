@@ -1,24 +1,28 @@
 ---
-description: Le sessioni in base al contesto nelle suite di rapporti virtuali cambiano il modo in cui Adobe Analytics calcola le visite mobili. Questo articolo descrive le implicazioni di elaborazione degli hit in background e degli eventi di avvio dell’app (entrambi impostati dall’SDK per dispositivi mobili) per la definizione delle visite al cellulare.
+description: Le sessioni in base al contesto nelle suite di rapporti virtuali cambiano il modo in cui Adobe Analytics calcola le visite mobili. Questo articolo descrive le implicazioni di elaborazione degli hit in background e degli eventi di avvio dell’app (entrambi impostati dal SDK mobile) per la definizione delle visite al cellulare.
 title: Adobe Context-Aware Sessions
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1577'
 ht-degree: 0%
 
 ---
 
 # Adobe Context-Aware Sessions
 
-Le sessioni in base al contesto nelle suite di rapporti virtuali modificano il modo in cui Adobe Analytics calcola le visite da qualsiasi dispositivo. Questo articolo descrive anche le implicazioni di elaborazione degli hit in background e degli eventi di avvio dell’app (entrambi impostati dall’SDK mobile) per la definizione delle visite al cellulare.
+Le sessioni in base al contesto nelle suite di rapporti virtuali modificano il modo in cui Adobe Analytics calcola le visite da qualsiasi dispositivo. Questo articolo descrive anche le implicazioni di elaborazione degli hit in background e degli eventi di avvio dell’app (entrambi impostati dal SDK mobile) per la definizione delle visite al cellulare.
 
 Puoi definire una visita in qualsiasi modo senza alterare i dati sottostanti, in modo che corrisponda al modo in cui i visitatori interagiscono con le esperienze digitali.
 
-Ecco un video sulle sessioni in base al contesto:
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessioni in base al contesto](https://video.tv.adobe.com/v/iden23545tifier?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
+
 
 ## Parametro URL prospettiva cliente
 
@@ -26,7 +30,7 @@ Il processo di raccolta dati di Adobe Analytics ti consente di impostare un para
 
 ## Elaborazione hit in background
 
-Un hit in background è un tipo di hit inviato ad Analytics dalla versione 4.13.6 e successive dell’SDK di Adobe Mobile quando l’app effettua una richiesta di tracciamento mentre è in background. Di seguito sono riportati alcuni esempi tipici:
+Un hit in background è un tipo di hit inviato ad Analytics dalla versione 4.13.6 e successive di Adobe Mobile SDK quando l’app effettua una richiesta di tracciamento mentre è in background. Di seguito sono riportati alcuni esempi tipici:
 
 * Dati inviati durante un attraversamento di recinzione geografica
 * Un’interazione di notifica push
@@ -142,4 +146,4 @@ In entrambi i casi, gli hit in background vengono fatturati allo stesso costo di
 
 ## Avvio Di Nuove Visite A Ogni Avvio Dell’App
 
-Oltre all’elaborazione degli hit in background, le suite di rapporti virtuali possono forzare l’avvio di una nuova visita ogni volta che l’SDK mobile invia un evento di avvio dell’app. Con questa impostazione abilitata, ogni volta che un evento di avvio app viene inviato dall’SDK, viene forzato l’avvio di una nuova visita indipendentemente dal raggiungimento del timeout di una visita aperta. L’hit contenente l’evento di avvio dell’app viene incluso come primo hit nella visita successiva, incrementa il conteggio delle visite e crea un contenitore di visite distinto per la segmentazione.
+Oltre all’elaborazione degli hit in background, le suite di rapporti virtuali possono forzare l’avvio di una nuova visita ogni volta che il SDK mobile invia un evento di avvio dell’app. Con questa impostazione abilitata, ogni volta che un evento di avvio app viene inviato da SDK, viene forzato l’avvio di una nuova visita indipendentemente dal raggiungimento del timeout di una visita aperta. L’hit contenente l’evento di avvio dell’app viene incluso come primo hit nella visita successiva, incrementa il conteggio delle visite e crea un contenitore di visite distinto per la segmentazione.

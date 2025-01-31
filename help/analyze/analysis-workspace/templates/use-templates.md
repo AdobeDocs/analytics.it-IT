@@ -4,9 +4,9 @@ title: Utilizzare i modelli
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
+source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
 workflow-type: tm+mt
-source-wordcount: '18648'
+source-wordcount: '18642'
 ht-degree: 83%
 
 ---
@@ -33,7 +33,7 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
 
    <!--update screenshot -->
 
-   ![Scheda Rapporti](assets/view-prebuilt-templates.png)
+   ![Scheda Rapporti](assets/view-prebuilt-templates-full.png)
 
 1. Nella sezione [!UICONTROL **Modelli**] selezionare una delle schede seguenti:
 
@@ -45,9 +45,9 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla s
 
 1. Per modificare la modalità di visualizzazione dei modelli disponibili, utilizzare una delle opzioni seguenti:
 
-   * Scegli se visualizzare i modelli in una vista a colonne o in una vista a schede selezionando l&#39;icona della vista a colonne ![icona della vista a colonne](assets/column-view-icon.png) o l&#39;icona della vista a schede ![icona della vista a schede](assets/card-view-icon.png).
+   * Scegli se visualizzare i modelli in una vista a colonne o in una vista a schede selezionando la vista a colonne ![VisualizzaColonna](/help/assets/icons/ViewColumn.svg) o l&#39;icona della vista a schede ![Scheda](/help/assets/icons/Card.svg).
 
-   * Quando si utilizza la vista a schede ![icona vista a schede](assets/card-view-icon.png), scegliere uno dei seguenti criteri di ordinamento: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
+   * Quando si utilizza la vista a schede ![Scheda](/help/assets/icons/Card.svg), scegliere uno dei seguenti criteri di ordinamento: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
 
 1. Nel campo di ricerca, iniziare a digitare il nome del modello che si desidera trovare, quindi selezionarlo dall&#39;elenco dei modelli. Puoi anche effettuare ricerche nell’elenco dei modelli per proprietà, eVar e numero evento. <!-- still true? -->
 
@@ -1272,3 +1272,5 @@ Sono disponibili i seguenti modelli:
 | **Dispositivi** | Visualizza la marca e il modello dei dispositivi mobili utilizzati dalle persone per accedere al sito.<p>**Questo può aiutarti** a comprendere meglio quali siano i dispositivi mobili più popolari nella tua base di utenti.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio ottimizzare il rendering del sito per i dispositivi mobili più comuni.</p><p>Questo modello utilizza la dimensione Nome dispositivo mobile.</p> |
 | **Tipo di dispositivo** | Visualizza i tipi di dispositivi mobili utilizzati dalle persone per accedere al sito, ad esempio telefoni e tablet.<p>**Questo può aiutarti** a comprendere meglio i vari tipi di dispositivi mobili che vengono utilizzati per accedere al tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare il tuo sito per i tipi di dispositivi mobili più utilizzati.</p><p>Questo modello utilizza la dimensione Tipo di dispositivo mobile.</p> |
 | **Produttore** | Visualizza i produttori dei dispositivi mobili utilizzati per accedere al sito, ad esempio Apple e Samsung.<p>**Questo può aiutarti** a comprendere meglio quali produttori sono più popolari nella tua base di utenti.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio personalizzare la consegna dei contenuti in base alle capacità dei diversi produttori, in modo da garantire un’esperienza utente fluida.</p><p>Questo modello utilizza la dimensione Produttore di dispositivi mobili.</p> |
+
+

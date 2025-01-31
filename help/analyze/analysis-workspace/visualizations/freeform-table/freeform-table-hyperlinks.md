@@ -4,9 +4,9 @@ description: Scopri come creare collegamenti ipertestuali per gli elementi dimen
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: b440fd6a0cd04b411489e6b7346be6b1b0a9f4f8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1739'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,16 @@ Questa funzionalità è particolarmente utile quando si creano collegamenti iper
 
 * Elementi o raggruppamenti di Dimension con valori che fanno parte di un URL a cui desideri creare il collegamento (ad esempio, una dimensione Nome pagina che fa parte di un URL)
 
-+++ Visualizza una dimostrazione video di questa funzione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+>[!BEGINSHADEBOX]
 
-+++
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Collegamenti ipertestuali per la dimensione](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
+
+
+
+
 
 ## Creare collegamenti ipertestuali per uno o più elementi dimensionali
 

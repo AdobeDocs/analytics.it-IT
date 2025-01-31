@@ -4,10 +4,10 @@ description: Visualizzazione che mostra la relazione tra un massimo di tre metri
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 81%
+source-wordcount: '176'
+ht-degree: 57%
 
 ---
 
@@ -29,7 +29,8 @@ _Questo articolo documenta la visualizzazione a dispersione in_ ![AdobeAnalytics
 
 >[!ENDSHADEBOX]
 
-La visualizzazione del grafico a dispersione mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. Richiede tre componenti e supporta la visualizzazione di un massimo di quattro componenti.
+
+La visualizzazione ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. La visualizzazione richiede tre componenti e supporta la visualizzazione di un massimo di quattro componenti.
 
 * Il componente riga (in genere una dimensione) rappresenta ogni punto del grafico. Righe diverse vengono mostrate come punti colorati diversi.
 * La colonna più a sinistra (in genere una metrica) traccia la posizione del punto sull’asse Y (verticale).
@@ -37,8 +38,19 @@ La visualizzazione del grafico a dispersione mostra la relazione tra gli element
 * La terza colonna determina il raggio del punto.
 * Tutte le colonne successive di una tabella a forma libera vengono ignorate dalla visualizzazione grafico a dispersione.
 
-![Grafico a dispersione](assets/scatter.png)
+![Esempio di grafico a dispersione che mostra più elementi dimensionali ](assets/scatter.png)
 
-Ecco un video sulle visualizzazioni grafico a dispersione:
 
->[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico a dispersione](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

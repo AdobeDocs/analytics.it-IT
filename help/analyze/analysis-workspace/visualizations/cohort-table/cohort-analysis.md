@@ -4,10 +4,10 @@ description: Approfondisci i dati relativi al pubblico e suddividili in gruppi c
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 80%
+source-wordcount: '558'
+ht-degree: 77%
 
 ---
 
@@ -52,9 +52,12 @@ Esempi di cosa è possibile fare con l’[!UICONTROL Cohort Analysis]:
 
 L’[!UICONTROL Cohort Analysis] è disponibile per tutti i clienti Adobe Analytics con diritti di accesso ad [!UICONTROL Analysis Workspace].
 
-Video sulle tabelle coorte in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi per coorte in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -74,9 +77,14 @@ Un report della coorte [!UICONTROL Retention] restituisce i visitatori: ogni cel
 
 ![](assets/retention-report.png)
 
-Video sul calcolo della conservazione continua:
 
->[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calcolare la conservazione continua](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
+
+
 
 ### [!UICONTROL Churn] Tabella
 
@@ -84,9 +92,12 @@ Una coorte [!UICONTROL Churn] è l’inverso di una tabella Retention e mostra i
 
 ![](assets/churn-report.png)
 
-Video sull’analisi dell’abbandono:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi abbandono](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 ### [!UICONTROL Rolling Calculation]
 

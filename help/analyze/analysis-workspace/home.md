@@ -4,10 +4,10 @@ description: Analysis Workspace è il principale strumento di analisi per Adobe 
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 100%
+source-wordcount: '737'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,12 @@ Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere
 
 Il video seguente fornisce una breve panoramica con esempi di ciò che è possibile fare.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 ## Aree di Analysis Workspace
 

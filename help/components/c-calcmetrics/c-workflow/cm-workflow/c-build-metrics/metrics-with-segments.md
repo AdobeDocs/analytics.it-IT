@@ -3,10 +3,10 @@ description: La segmentazione di singole metriche consente di effettuare confron
 title: Metriche segmentate
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 1%
+source-wordcount: '473'
+ht-degree: 0%
 
 ---
 
@@ -54,9 +54,13 @@ Crea e salva una metrica denominata &quot;Visitatori tedeschi&quot; e una metric
 
    ![](assets/workspace-pages.png)
 
-Panoramica video:
 
->[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Metriche segmentate](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 ## Percentuale delle metriche totali {#percent-total}
 

@@ -3,9 +3,9 @@ title: Analizzare i dati interessati dagli eventi
 description: Scopri in che modo i dati interessati da un evento contribuiscono alla qualità complessiva dei dati.
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,15 @@ Una volta preparati a gestire un evento, puoi [comunicare con gli utenti della t
 
 ## Video
 
-Questo video illustra ciascuno dei passaggi precedenti.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analizzare e comunicare le varianti dei tuoi dati](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
 
 * **0:27**: escludi dati tramite segmentazione
 * **2:55**: confrontare un evento con intervalli precedenti
 * **8:42**: derivare dati utilizzando metriche calcolate
 * **11:46**: comunicare l&#39;impatto agli utenti
+
+>[!ENDSHADEBOX]
+
+

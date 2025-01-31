@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Panoramica di Audience Analytics
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '478'
 ht-degree: 18%
 
 ---
@@ -17,13 +17,19 @@ Adobe Audience Manager (Adobe Audience Manager) è una potente piattaforma di ge
 
 Con l’integrazione di Audience Analytics, puoi incorporare in un flusso di lavoro Analytics dati sul pubblico di Adobe Audience Manager come informazioni demografiche (ad esempio, genere o fascia di reddito), informazioni psicografiche (ad esempio, interessi e hobby), dati CRM e dati di impressioni di annunci.
 
->[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/25450?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 ## Vantaggi chiave {#benefits}
 
 L’integrazione di Audience Analytics offre i seguenti vantaggi chiave:
 
-* È la prima integrazione prodotta tra una piattaforma di gestione dati (DMP, Data Management Platform) e un motore di analisi sul mercato.
+* È la prima integrazione prodotta tra una piattaforma di gestione dati (DMP) e un motore di analisi sul mercato.
 * I segmenti vengono condivisi da Adobe Audience Manager ad Analytics in tempo reale, per informare l’individuazione, la segmentazione e l’ottimizzazione del pubblico.
 * Tutti i segmenti di Adobe Audience Manager sono condivisi per impostazione predefinita, arricchendo completamente i profili dei clienti in Analytics.
 * Gli amministratori della soluzione possono abilitare l’integrazione tramite l’interfaccia utente, con la minima richiesta di modifiche al codice.

@@ -4,10 +4,10 @@ description: Puoi impostare le preferenze generali e di progetto per gli utenti,
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '3109'
-ht-degree: 100%
+source-wordcount: '3108'
+ht-degree: 99%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 Puoi gestire le impostazioni di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. I progetti e i pannelli esistenti non sono interessati.
 
-Guarda questo video per una breve panoramica sulle preferenze:
 
->[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire le preferenze](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
 
 ## Aggiornare le preferenze
 

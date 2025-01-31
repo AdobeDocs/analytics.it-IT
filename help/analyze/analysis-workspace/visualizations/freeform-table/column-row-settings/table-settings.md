@@ -5,10 +5,10 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 3903387ac6cba1ceb45e1de35fbceb259151f4f8
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,9 @@ Per modificare il numero di righe visualizzate:
 
 ## Video
 
-Ecco un breve video su “Percentuale per riga”:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23134/?quality=12)
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Percentuale per riga](https://video.tv.adobe.com/v/23134?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
+

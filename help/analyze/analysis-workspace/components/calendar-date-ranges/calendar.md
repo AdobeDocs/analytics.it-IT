@@ -4,10 +4,10 @@ title: Panoramica del calendario e degli intervalli di date
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 91%
+source-wordcount: '931'
+ht-degree: 89%
 
 ---
 
@@ -25,9 +25,13 @@ ht-degree: 91%
 
 Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
 
-Video sull’utilizzo degli intervalli di date e dei calendari in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
+>[!BEGINSHADEBOX]
+
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica sul calendario e sugli intervalli di date](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 Le selezioni di calendario sono applicabili a livello del singolo pannello, ma è possibile applicarle a tutti i pannelli. Quando fai clic su un intervallo di date in Workspace, l’interfaccia mostra il mese del calendario corrente e il mese del calendario precedente. È possibile regolare questi due calendari facendo clic sulle frecce destra e sinistra nei rispettivi angoli superiori.
 

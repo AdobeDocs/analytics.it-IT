@@ -5,10 +5,10 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,13 @@ ht-degree: 100%
 
 Un flusso interdimensionale ti consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni. Il video seguente mostra il testo a capo e il flusso multidimensionale in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussi interdimensionali](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 
 Un’etichetta di dimensione all’inizio di ogni colonna Flusso facilita l’utilizzo di più dimensioni in una visualizzazione di flusso.
 

@@ -4,10 +4,10 @@ description: Le tabelle a forma libera sono alla base dell’analisi dei dati in
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 62%
+source-wordcount: '615'
+ht-degree: 60%
 
 ---
 
@@ -93,13 +93,23 @@ Ulteriori informazioni su tutte le [opzioni di esportazione](https://experiencel
 ## Video
 
 Panoramica del generatore di tabelle a forma libera:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica del generatore di tabelle a forma libera](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"}.
 
-Filtri per tabelle a forma libera:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+>[!BEGINSHADEBOX]
 
-Totali nelle tabelle a forma libera:
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtri per tabelle a forma libera](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"}.
 
->[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totali tabelle a forma libera](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
+
+

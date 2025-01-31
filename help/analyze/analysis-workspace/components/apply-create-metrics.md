@@ -4,9 +4,9 @@ title: Metriche in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '512'
 ht-degree: 16%
 
 ---
@@ -27,7 +27,7 @@ Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
 
   ![Metrica calcolata](assets/calculated-metric.png)
 
-* **Modelli di metriche calcolate**: metriche definite dall&#39;Adobe che si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzarne la logica. I modelli di metriche calcolate mostrano un’icona di Adobe nell’elenco dei componenti disponibili.
+* **Modelli di metriche calcolate**: metriche definite da Adobe che si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzarne la logica. I modelli di metriche calcolate mostrano un’icona di Adobe nell’elenco dei componenti disponibili.
 
   ![Modello di metrica calcolata](assets/calculated-metric-template.png)
 
@@ -35,7 +35,14 @@ Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
 
 Le metriche possono essere utilizzate in vari modi all’interno di Analysis Workspace. Per informazioni su come aggiungere metriche e altri tipi di componenti ad Analysis Workspace, vedi [Utilizzare componenti in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usa metriche](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Creare metriche calcolate
 
@@ -87,4 +94,10 @@ Questa scorciatoia ti consente di confrontare in maniera facile e veloce un mode
 
 Video sull’argomento:
 
->[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Media cumulativa](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} per un video demo.
+
+>[!ENDSHADEBOX]
+

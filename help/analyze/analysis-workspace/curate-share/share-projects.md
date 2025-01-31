@@ -5,10 +5,10 @@ title: Condividere progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1844'
-ht-degree: 100%
+source-wordcount: '1852'
+ht-degree: 97%
 
 ---
 
@@ -30,9 +30,13 @@ Puoi condividere un progetto di Analysis Workspace con i seguenti tipi di person
 
 Qualsiasi [cura](curate.md) applichi prima della condivisione, viene visualizzata all’apertura del progetto da parte dei destinatari.
 
-Ecco una panoramica video della condivisione dei progetti:
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi progetti](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
 
 
 ## Condividere con utenti e gruppi di Analysis Workspace nella tua organizzazione {#Add}
@@ -96,7 +100,7 @@ In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il pr
 
    Oppure
 
-   Fai clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se il progetto è già stato condiviso, seleziona **[!UICONTROL Curate & Update]**. Ulteriori informazioni sulla [cura dei progetti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
+   Fai clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se il progetto è già stato condiviso, seleziona **[!UICONTROL Curate & Update]**. Ulteriori informazioni su [cura del progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
 
 ## Condividere un collegamento a un progetto
 
@@ -138,9 +142,13 @@ Puoi consentire l’[accesso di sola lettura](/help/analyze/analysis-workspace/c
 >
 >* Un progetto potrebbe diventare inaccessibile se molti utenti tentano di accedere contemporaneamente a un determinato collegamento. Per impostazione predefinita, più di 190 persone possono accedere a un singolo collegamento ogni 5 minuti. Se l’organizzazione raggiunge questo limite, attendi 5 minuti e prova di nuovo ad accedere al collegamento.
 
-La seguente dimostrazione video e la relativa documentazione descrivono le opzioni associate alla condivisione di un collegamento con chiunque:
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi un collegamento con qualcuno](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} per vedere un video demo.
+
+>[!ENDSHADEBOX]
+
 
 Per condividere un progetto Analysis Workspace con persone che non hanno accesso ad Adobe Analytics:
 
@@ -188,9 +196,14 @@ Quando qualcuno condivide un progetto con te tramite un collegamento (dalla [sch
 
 ## Condividere componenti incorporati
 
-Video sull’argomento:
+Puoi condividere i componenti incorporati che fanno parte del progetto.
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi componenti incorporati](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
 
 ## Domande frequenti {#FAQs}
 

@@ -4,10 +4,10 @@ title: Anello
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 47%
+source-wordcount: '117'
+ht-degree: 23%
 
 ---
 
@@ -29,10 +29,23 @@ _Questo articolo documenta la visualizzazione Anello in_ ![AdobeAnalytics](/help
 
 >[!ENDSHADEBOX]
 
-Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Utilizzare un grafico [!UICONTROL Donut] per confrontare percentuali di un totale, in genere con un numero limitato di elementi.
 
-![](assets/donut.png)
+Simile a un grafico a torta, la visualizzazione ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** mostra i dati come parti o filtri di un intero. Utilizza una visualizzazione ad anello per confrontare percentuali di un totale, in genere con un numero ridotto di elementi.
 
-Ecco un video sull&#39;utilizzo della visualizzazione [!UICONTROL Donut]:
+![Grafico ad anello che mostra i dati come parti o filtri di un intero.](assets/donut.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/334309/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere una visualizzazione ad anello](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+
