@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 06d762614969f3557c8ccf310af266742cde9738
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '970'
 ht-degree: 64%
 
 ---
@@ -19,7 +19,11 @@ Per impostazione predefinita, ogni elemento dimensione nella tabella restituisce
 
 Per modificare gli elementi dimensione restituiti per ogni dimensione:
 
-1. Selezionare un blocco di dati e fare clic su **[!UICONTROL Edit data block]** nel pannello COMANDI.
+1. Fare clic su **[!UICONTROL Manage]** e selezionare un blocco di dati dall&#39;elenco.
+
+   ![Gestisci > Modifica blocco dati](./assets/manage-edit.png)
+
+1. Fare clic su **[!UICONTROL Edit data block]** nel pannello COMANDI.
 
 1. Fare clic su **[!UICONTROL Next]** per visualizzare la scheda Dimension.
 
