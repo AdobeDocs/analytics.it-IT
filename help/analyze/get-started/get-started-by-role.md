@@ -3,9 +3,9 @@ description: Informazioni generali di panoramica su Adobe Analytics, tra cui inf
 title: Introduzione per amministratori, analisti, utenti finali e sviluppatori
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '1691'
+source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+workflow-type: tm+mt
+source-wordcount: '1696'
 ht-degree: 100%
 
 ---
@@ -149,3 +149,8 @@ Per informazioni su come creare analisi in Analysis Workspace, consulta [Panoram
 [Le API di Analytics consentono di chiamare direttamente i server di Adobe per eseguire quasi tutte le azioni possibili nell’interfaccia utente.](https://developer.adobe.com/analytics-apis/docs/2.0/)
 
 Puoi creare rapporti da esplorare, ottenere informazioni o rispondere a domande importanti sui tuoi dati. Puoi anche gestire i componenti di Adobe Analytics, ad esempio la creazione di segmenti o di metriche calcolate.
+
+>[!MORELIKETHIS]
+>
+>[Creare un documento di progettazione della soluzione](/help/implement/prepare/solution-design.md)
+>

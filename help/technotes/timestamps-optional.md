@@ -5,10 +5,10 @@ title: Marche temporali opzionali
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 9%
+source-wordcount: '600'
+ht-degree: 10%
 
 ---
 
@@ -16,12 +16,14 @@ ht-degree: 9%
 
 Scopri i vantaggi e i vincoli dell’impostazione opzionale Marca temporale.
 
+<!-- Hide video as it is not adding a lot according to feedback from customer in feedback report January 2025.
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Marca temporale opzionale](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} per un video demo.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
+-->
 
 
 Marca temporale opzionale è l’impostazione predefinita per tutte le nuove suite di rapporti.
