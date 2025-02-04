@@ -5,17 +5,16 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 97%
+source-wordcount: '319'
+ht-degree: 8%
 
 ---
 
 # Flussi interdimensionali
 
-Un flusso interdimensionale ti consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni. Il video seguente mostra il testo a capo e il flusso multidimensionale in Analysis Workspace:
-
+Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni.
 
 >[!BEGINSHADEBOX]
 
@@ -23,51 +22,38 @@ Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.sv
 
 >[!ENDSHADEBOX]
 
+Questo articolo mostra come utilizzare questo flusso per due casi d’uso: interazioni ed eventi delle app mobili e come le campagne guidano le visite web.
 
-Un’etichetta di dimensione all’inizio di ogni colonna Flusso facilita l’utilizzo di più dimensioni in una visualizzazione di flusso.
+## Interazioni ed eventi delle app mobili
 
-![](assets/flow.png)
+La dimensione [!UICONTROL Screen Name] viene utilizzata in questo flusso di esempio per vedere come gli utenti utilizzano le varie schermate (scene) nell&#39;app. La schermata superiore restituita è **[!UICONTROL luma: content: ios: en: home]**, che è la home page dell&#39;app:
 
-Verranno esaminati due casi di utilizzo: per un’app e per un sito Web.
+![Un flusso che mostra l&#39;elemento aggiunto.](assets/flowapp.png)
 
-## Caso di utilizzo 1: app {#app}
+Per esplorare l&#39;interazione tra schermate e tipi di evento (come aggiungi al carrello, acquisti e altri) in questa app, trascina e rilascia la dimensione **[!UICONTROL Event Types]**:
 
-La dimensione [!UICONTROL Action Name] (Nome azione) è stata aggiunta al flusso, e il primo elemento restituito è [!UICONTROL ItemAdded]:
+* Per sostituire la dimensione, esegui le operazioni riportate di seguito.
 
-![](assets/multi-dimensional-flow.png)
+  ![Flusso che mostra la dimensione Pagina trascinata in più aree.](assets/flowapp-replace.png)
 
-Per scoprire l’interazione tra le schermate o pagine e le azioni dell’app, puoi trascinare la Dimensione pagina in più luoghi, a seconda di cosa ti interessa:
+* Al di fuori della visualizzazione del flusso corrente, per aggiungere la dimensione:
 
-* Trascinala a una delle estremità della zona di rilascio (all’interno del rettangolo con bordo nero che viene visualizzato) per **sostituire** i primi risultati di tale estremità:
+  ![Flusso che mostra la dimensione Pagina trascinata nello spazio vuoto alla fine.](assets/flowapp-add.png)
 
-  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+La visualizzazione di flusso seguente mostra il risultato dell&#39;aggiunta della dimensione **[!UICONTROL Event Types]**. La visualizzazione fornisce informazioni su come gli utenti dell’app mobile si spostano attraverso le varie schermate dell’app prima di aggiungere prodotti al carrello, chiudere l’applicazione, visualizzare un’offerta e altro ancora.
 
-* Trascinala nello spazio bianco alla fine (osserva la parentesi quadra nera) per **aggiungere** altri dati alla visualizzazione:
+![Un fLow che mostra i risultati della dimensione Pagina nella parte superiore dell&#39;elenco.](assets/flowapp-result.png)
 
-  ![](assets/multi-dimensional-flow4.png)
+## Come le campagne guidano le visite web
 
-Quando si sostituisce l’elemento ItemScaled nella colonna a destra con la Dimensione pagina, si ottiene questo risultato. Il primo risultato ora diventa il primo risultato per la Dimensione pagina:
+Desideri analizzare quali campagne sono all’origine delle visite al sito web. Si crea una visualizzazione di flusso con **[!UICONTROL Campaign Name]** come dimensione
 
-![](assets/multi-dimensional-flow5.png)
+![Dimensione nome campagna Web flusso](assets/flowweb.png)
 
-Ora puoi vedere quanti clienti si stanno spostando tra le varie azioni e pagine. Per esplorare ulteriormente il flusso, fai clic sui vari nodi:
+L&#39;ultima dimensione **[!UICONTROL Campaign Name]** viene sostituita con la dimensione **[!UICONTROL Formatted Page Name]** e viene aggiunta un&#39;altra dimensione **[!UICONTROL Formatted Page Name]** alla fine della visualizzazione del flusso.
 
-![](assets/multi-dimensional-flow6.png)
+![Nome campagna Web di flusso e dimensione pagina Web](assets/flowweb-replace.png)
 
-Quando si aggiunge un’altra dimensione Nome azione alla fine della visualizzazione, si ottiene questo risultato:
+Puoi passare il cursore del mouse su uno dei flussi per visualizzare ulteriori dettagli. Ad esempio, quali campagne hanno generato un’estrazione dal carrello.
 
-![](assets/multi-dimensional-flow7.png)
-
-Questo ti permette di ottenere informazioni approfondite e di apportare eventuali modifiche all’app che stai analizzando.
-
-## Caso di utilizzo 2: web {#web}
-
-Questo caso di utilizzo mostra come individuare le campagne che generano il maggior numero di accessi al sito Web.
-
-Trascina la dimensione Nome campagna in un nuovo flusso:
-
-![](assets/multi-dimensional-flow8.png)
-
-Per vedere le pagine per le quali queste campagne generano traffico, trascina la dimensione Pagina a destra dei risultati del flusso per aggiungere altri dati alla visualizzazione:
-
-![](assets/multi-dimensional-flow9.png)
+![Passaggio del mouse sul nome della campagna Web e sulla dimensione della pagina Web](assets/flowweb-hover.png)
