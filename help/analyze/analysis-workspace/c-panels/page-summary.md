@@ -7,7 +7,7 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 25%
+ht-degree: 29%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Pannello Riepilogo pagina"
->abstract="Rivedi rapidamente alcune delle metriche di alto livello e lo spostamento da e verso una pagina specifica.<br/><br/>**Parametri **<br/>**Aggiungi un elemento dimensione pagina**: apri la barra dei componenti, individua la dimensione della pagina ed espandila facendo clic sulla freccia per visualizzare gli elementi della dimensione. Quindi, trascina nel generatore la pagina specifica di cui desideri ottenere informazioni. Dopo aver trascinato e rilasciato l’elemento dimensione, il rapporto si popola automaticamente con le informazioni chiave sulla pagina."
+>abstract="Rivedi rapidamente alcune delle metriche di alto livello e lo spostamento da e verso una pagina specifica.<br/><br/>**Parametri **<br/>**Aggiungi un elemento dimensione pagina**: apri la barra dei componenti, individua la dimensione della pagina ed espandila facendo clic sulla freccia per visualizzare gli elementi della dimensione. Quindi, trascina nel generatore la pagina specifica di cui desideri ottenere informazioni. Dopo aver trascinato l’elemento della dimensione, il rapporto verrà compilato automaticamente con le informazioni chiave sulla pagina."
 
 <!-- markdownlint-enable MD034 -->
 
