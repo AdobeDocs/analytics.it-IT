@@ -3,10 +3,10 @@ description: Utilizzare gli avvisi in Analysis Workspace.
 title: Panoramica di Alert Builder
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 966bd9a05e6c344a62ce3f0b12df8a99ff3d7ece
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 31%
+source-wordcount: '688'
+ht-degree: 24%
 
 ---
 
@@ -52,6 +52,6 @@ Per creare un avviso:
    | [!UICONTROL **Recipients (Destinatari)**] | Specifica a chi deve essere inviato l’avviso. Può essere inviato a un utente o un gruppo di Analytics, a un indirizzo e-mail o a un numero telefonico.<p><b>Importante:</b> il numero di telefono deve essere preceduto da `+` e da un [codice paese](https://countrycode.org/).</p><p>Il messaggio di posta elettronica che un utente riceverebbe dopo l’attivazione di un avviso è simile al seguente:</p><p>![](assets/alerts-email.PNG)</p> |
    | [!UICONTROL **Data di scadenza**] | Impostare la data e l&#39;ora di scadenza dell&#39;avviso. |
    | [!UICONTROL **Invia un avviso quando**] | [!UICONTROL **Uno di questi trigger di metriche**]: trascinare le metriche (comprese le metriche calcolate) qui per creare trigger per l&#39;avviso.<p>Se non tutte le metriche, le dimensioni o i segmenti nell&#39;avviso sono compatibili con la visualizzazione dati attualmente selezionata, viene visualizzato il messaggio **&quot;components incompatibili&quot;**.</p><p>Determina la soglia che dovrà essere superata affinché venga attivato l’avviso. Puoi impostare questo valore su una soglia e quindi su una delle seguenti condizioni:</p><ul><li>anomaly exists (l’anomalia esiste)</li><li>anomaly is above expected (l’anomalia supera il valore previsto)</li><li>anomaly is below expected (l’anomalia è inferiore al valore previsto)</li><li>is above or equals (è superiore o uguale a)</li><li>is below or equals (è inferiore o uguale a)</li><li>changes by (cambia di)</li><li>Puoi impostare una soglia di 90%, 95%, 99%, 99,75% o 99,9%.</li></ul><p>[!UICONTROL **Con tutti questi filtri**]: trascina segmenti o dimensioni per aggiungere filtri. Ad esempio, l’aggiunta di un segmento &quot;Solo dispositivi mobili&quot; significherebbe che la regola si attiva solo per i dispositivi mobili. Puoi aggiungere altri filtri utilizzando un’istruzione AND. Per aggiungere una regola AND o OR, fai clic sull’icona a forma di ingranaggio.</p><p>Vedi [Avvisi - casi d&#39;uso](/help/components/c-alerts/alerts-use-cases.md) per esempio.</p> |
-   | [!UICONTROL **Anteprima**] | L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso sulla base dell’esperienza passata.<p>Ad esempio, se imposti la granularità su Ogni giorno, l’anteprima indicherà che l’avviso è stato attivato x volte per una specifica metrica negli ultimi 30 o 31 giorni.</p><p>Se vengono attivati troppi avvisi, è possibile regolare la soglia in [Gestione avvisi](/help/components/c-alerts/alert-manager.md).</p><p>![](assets/alert_preview.png)</p> |
+   | [!UICONTROL **Anteprima**] | L’anteprima interattiva degli avvisi mostra la frequenza approssimativa di un avviso sulla base dell’esperienza passata.<p>Ad esempio, se imposti la granularità temporale su giornaliera, l’anteprima può indicare che l’avviso sarebbe stato attivato per una determinata metrica x volte negli ultimi 30 o 31 giorni. La finestra di approssimazione dell&#39;anteprima viene impostata in base all&#39;impostazione della frequenza di avviso. Per le frequenze degli avvisi giornaliere, la finestra di anteprima si avvicina ai 30 giorni precedenti. Per le frequenze degli avvisi settimanali, la finestra di anteprima si avvicina alle ultime 12 settimane. Per le frequenze degli avvisi mensili, la finestra di anteprima si avvicina ai 12 mesi precedenti.</p><p>Se vengono attivati troppi avvisi, è possibile regolare la soglia in [Gestione avvisi](/help/components/c-alerts/alert-manager.md).</p><p>![](assets/alert_preview.png)</p> |
 
 1. Seleziona [!UICONTROL **Salva**].
