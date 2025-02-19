@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '5957'
-ht-degree: 100%
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+workflow-type: tm+mt
+source-wordcount: '6002'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 * Per informazioni su Streaming Media Collection, consulta [Misurazione di audio e video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
 
 ## Dettagli sugli aggiornamenti principali della documentazione
+
+### 2025 {#year2025}
+
+| Funzione | Descrizione |
+| --- | --- |
+| **Febbraio 2025** |  |
+| Sono state aggiornate le informazioni sulla sospensione e la riattivazione di un feed di dati | Durante la [sospensione e riattivazione di un feed di dati](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), è stato chiarito il comportamento dei feed live. L’elaborazione dei dati non viene eseguita dal momento in cui il feed viene messo in pausa al momento in cui viene riattivato. |
 
 ### 2024 {#year2024}
 

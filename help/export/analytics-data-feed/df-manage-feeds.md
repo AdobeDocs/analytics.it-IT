@@ -3,10 +3,10 @@ title: Gestire i feed dati
 description: Scopri come navigare nell’interfaccia del feed dati. Scopri come creare, modificare e visualizzare un feed di dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 3%
+source-wordcount: '1222'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ Il pulsante [!UICONTROL Add] consente di creare un nuovo feed. Per ulteriori inf
 
    Quando aggiorni la sezione [!UICONTROL **Destinazione**] per un feed di dati che stai modificando, puoi scegliere un account e un percorso diversi da utilizzare per il nuovo feed di dati nei campi a discesa [!UICONTROL **Account**] e [!UICONTROL **Posizione**].
 
-   Gli account e i percorsi possono essere modificati come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). La modifica di un account o di una posizione ha effetto su tutti gli elementi associati a tale account o posizione.
+   Gli account e i percorsi possono essere modificati come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). La modifica di un conto o di un&#39;ubicazione influisce su tutti gli elementi associati a tale conto o ubicazione.
 
    Le versioni precedenti di Data Feeds Manager consentivano di creare destinazioni BLOB FTP, SFTP, S3 e Azure. Le destinazioni create in queste versioni precedenti di Data Feeds Manager non possono essere modificate o copiate.
 
@@ -88,13 +88,17 @@ Il pulsante [!UICONTROL Add] consente di creare un nuovo feed. Per ulteriori inf
 
    Quando aggiorni la sezione [!UICONTROL **Destinazione**] per un feed di dati che stai copiando, puoi scegliere un account e un percorso diversi da utilizzare per il nuovo feed di dati nei campi a discesa [!UICONTROL **Account**] e [!UICONTROL **Posizione**].
 
-   Gli account e i percorsi possono essere modificati come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). La modifica di un account o di una posizione ha effetto su tutti gli elementi associati a tale account o posizione.
+   Gli account e i percorsi possono essere modificati come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md) e [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). La modifica di un conto o di un&#39;ubicazione influisce su tutti gli elementi associati a tale conto o ubicazione.
 
    Le versioni precedenti di Data Feeds Manager consentivano di creare destinazioni BLOB FTP, SFTP, S3 e Azure. Le destinazioni create in queste versioni precedenti di Data Feeds Manager non possono essere modificate o copiate.
 
 ## Mettere in pausa un feed dati
 
-È possibile interrompere l&#39;elaborazione del feed impostandone lo stato su [!UICONTROL Inactive].
+Quando si mette in pausa un feed di dati, questo smette di elaborare il feed, impostandone lo stato su [!UICONTROL Inactive].
+
+Quando riattivi il feed dopo averlo messo in pausa, i dati nel periodo di tempo in cui il feed è stato messo in pausa vengono elaborati per i feed di backfill ma non per i feed live. Per ulteriori informazioni, vedere [Attivare un feed di dati](#activate-a-data-feed).
+
+Per mettere in pausa un feed dati:
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
 
@@ -104,17 +108,11 @@ Il pulsante [!UICONTROL Add] consente di creare un nuovo feed. Per ulteriori inf
 
 È possibile attivare i feed inattivi.
 
-I feed di backfill (feed che elaborano solo dati storici) riprendono l’elaborazione dei dati dal punto in cui si sono interrotti, eseguendo la backfill di eventuali date, se necessario. I feed live riprendono anche l’elaborazione dei dati da dove si sono interrotti.
+Quando un feed viene riattivato, i dati potrebbero non essere elaborati automaticamente per il tempo in cui il feed era inattivo. L’elaborazione dei dati dipende dal fatto che si tratti di un feed di backfill o di un feed live:
 
->[!AVAILABILITY]
->
->La seguente modifica al modo in cui i feed live riprendono l’elaborazione dei dati si trova nella fase di test limitato del rilascio:
-> 
->**I feed attivi riprendono l&#39;elaborazione dei dati dall&#39;ora corrente.**
->
->Questa modifica potrebbe non essere ancora disponibile nel tuo ambiente.
->
->Questa nota verrà rimossa quando questa modifica sarà generalmente disponibile. Per informazioni sul processo di rilascio di Analytics, consulta [Rilascio delle funzioni di Adobe Analytics](/help/release-notes/releases.md).
+* **I feed di backfill** (feed che elaborano solo dati storici) riprendono l&#39;elaborazione dei dati dal punto in cui erano stati interrotti, eseguendo la backfill di eventuali date, se necessario.
+
+* **I feed attivi** riprendono l&#39;elaborazione dei dati dal momento dell&#39;attivazione. Ciò significa che i dati non vengono elaborati durante il periodo di pausa del feed fino al momento in cui è stato attivato. Se hai bisogno dei dati durante questo periodo di tempo, devi impostare una retrocompilazione.
 
 Per attivare un feed di dati:
 
@@ -151,7 +149,7 @@ Sono disponibili le seguenti colonne:
 * **Proprietario**: account utente che ha creato il feed.
 * **Stato**: lo stato del feed.
    * Attivo: il feed è operativo.
-   * Approvazione in sospeso: in alcune circostanze, un feed richiede l’approvazione dell’Adobe prima di poter iniziare a generare processi.
+   * Approvazione in sospeso: in alcune circostanze, un feed richiede l’approvazione di Adobe prima di poter iniziare a generare processi.
    * Eliminato: il feed viene eliminato.
    * Completato: l&#39;elaborazione del feed è stata completata. Un feed completato può essere modificato, sospeso o annullato.
    * In sospeso: il feed viene creato ma non ancora attivo. I feed rimangono in questo stato per un breve periodo di transizione.
