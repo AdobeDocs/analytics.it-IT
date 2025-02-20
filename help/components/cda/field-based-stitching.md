@@ -4,7 +4,7 @@ description: Comprendi i prerequisiti e le limitazioni dell’unione di dati uti
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: de8977e7ed7bf6bf93f75f608db34a7a3520ada7
+source-git-commit: 5faf1631a52594591a74a93868198da8bc0f9cff
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 1%
@@ -43,3 +43,4 @@ Se intendi implementare Cross-Device Analytics utilizzando l’unione basata sui
 ## Passaggi successivi
 
 Una volta che la tua organizzazione soddisfa tutti i requisiti e comprende le limitazioni, puoi avviare [Configurazione di Cross-Device Analytics](setup.md).
+
