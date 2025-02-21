@@ -4,10 +4,10 @@ title: Metriche in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 16%
+source-wordcount: '719'
+ht-degree: 11%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
 
   ![Metrica calcolata](assets/calculated-metric.png)
 
-* **Modelli di metriche calcolate**: metriche definite da Adobe che si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzarne la logica. I modelli di metriche calcolate mostrano un’icona di Adobe nell’elenco dei componenti disponibili.
+* **Modelli di metriche calcolate**: le metriche definite da Adobe si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzarne la logica. I modelli di metriche calcolate mostrano un’icona Adobe nell’elenco dei componenti disponibili.
 
   ![Modello di metrica calcolata](assets/calculated-metric-template.png)
 
@@ -42,11 +42,9 @@ Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usa metriche](h
 
 >[!ENDSHADEBOX]
 
-
-
 ## Creare metriche calcolate
 
-Le metriche calcolate consentono di vedere facilmente in che modo le metriche si relazionano tra loro utilizzando semplici operatori o funzioni statistiche.
+Le metriche calcolate consentono di vedere facilmente in che modo si relazionano tra loro, utilizzando semplici operatori o funzioni statistiche.
 
 Esistono diversi modi per creare metriche calcolate. Il metodo scelto determina se la metrica calcolata è disponibile nell’elenco dei componenti in tutti i progetti o solo nel progetto in cui è stata creata.
 
@@ -64,21 +62,41 @@ Per creare una metrica calcolata per un singolo progetto:
 
 1. In Analysis Workspace, apri il progetto in cui desideri creare la metrica calcolata.
 
-1. In una tabella a forma libera, fare clic con il pulsante destro del mouse su una o più celle di colonna di intestazione, quindi selezionare **[!UICONTROL Create metric from selection]**
+1. In una tabella a forma libera, fai clic con il pulsante destro del mouse sull’intestazione di colonna di una singola colonna.
+
+   Oppure
+
+   Selezionare due colonne tenendo premuto il tasto Maiusc, quindi fare clic con il pulsante destro del mouse su una delle colonne selezionate.
+
+1. Seleziona **[!UICONTROL Create metric from selection]**
 
    ![Evidenziazione del pannello Workspace Crea da selezione](assets/create-metric-from-selection.png)
 
-1. Per creare una metrica calcolata solo per questo progetto, scegli una delle seguenti opzioni:
+1. Per creare una metrica calcolata solo per questo progetto, scegli tra le opzioni disponibili.
 
-   * [!UICONTROL **Dividi**]
+   Quando è selezionata una singola colonna, sono disponibili le seguenti opzioni:
 
-   * [!UICONTROL **Sottrai**]
+   * [!UICONTROL **Media**]: crea una nuova colonna che mostra il valore medio nel set di elementi dimensionali della colonna. Questa opzione utilizza la funzione [Media](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean).
 
-   * [!UICONTROL **Aggiungi**]
+   * [!UICONTROL **Mediana**]: crea una nuova colonna che mostra il valore mediano nel set di elementi dimensionali della colonna. Questa opzione utilizza la funzione [Mediana](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median).
 
-   * [!UICONTROL **Moltiplica**]
+   * [!UICONTROL **Colonna max**]: crea una nuova colonna che mostra il valore più grande nel set di elementi dimensionali della colonna. Questa opzione utilizza la funzione [Column Maximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum).
 
-   In alternativa, per aprire il generatore di metriche calcolate e creare la metrica calcolata per tutti i progetti, selezionare [!UICONTROL **Apri nel generatore di metriche calcolate**], quindi continuare con [Genera metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+   * [!UICONTROL **Colonna min**]: crea una nuova colonna che mostra il valore più piccolo nel set di elementi dimensionali della colonna. Questa opzione utilizza la funzione [Column Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
+
+   * [!UICONTROL **Somma colonna**]:crea una nuova colonna che aggiunge tutti i valori numerici per una metrica all&#39;interno di una colonna (negli elementi di una dimensione). Questa opzione utilizza la funzione [Somma colonne](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum).
+
+   Quando sono selezionate due colonne, sono disponibili le seguenti opzioni:
+
+   * [!UICONTROL **Dividi**]: crea una nuova colonna che divide i valori delle due colonne selezionate.
+
+   * [!UICONTROL **Sottrai**]: crea una nuova colonna che sottrae i valori delle due colonne selezionate.
+
+   * [!UICONTROL **Aggiungi**]: crea una nuova colonna che aggiunge i valori delle due colonne selezionate.
+
+   * [!UICONTROL **Moltiplica**]: crea una nuova colonna che moltiplica i valori delle due colonne selezionate.
+
+   * [!UICONTROL **Modifica percentuale**]: crea una nuova colonna che mostra la modifica percentuale delle due colonne selezionate.
 
 [Metriche calcolate: metriche senza implementazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=it) (3:42)
 
