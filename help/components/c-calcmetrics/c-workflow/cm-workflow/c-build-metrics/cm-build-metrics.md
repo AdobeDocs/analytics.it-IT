@@ -1,11 +1,11 @@
 ---
-description: Il Generatore di metriche calcolate fornisce un’area di lavoro per trascinare e rilasciare Dimension, metriche, segmenti e funzioni per creare metriche personalizzate basate sulla logica gerarchica del contenitore, sulle regole e sugli operatori. Questo strumento di sviluppo integrato consente di generare e salvare metriche calcolate semplici o metriche calcolate avanzate complesse.
+description: Il Generatore di metriche calcolate fornisce un’area di lavoro per trascinare dimensioni, metriche, segmenti e funzioni e creare metriche personalizzate in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato consente di generare e salvare metriche calcolate semplici o metriche calcolate avanzate complesse.
 title: Creare metriche
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1132'
 ht-degree: 12%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analytics fornisce un’area di lavoro per trascinare e rilasciare dimensi
 
 ## Inizio della creazione di una metrica calcolata
 
-Puoi utilizzare il generatore di metriche calcolate per creare metriche calcolate. Quando vengono create in questo modo, le metriche calcolate sono disponibili nell’elenco dei componenti e possono quindi essere utilizzate nei progetti di tutta l’organizzazione. In alternativa, puoi creare una metrica calcolata rapida, come descritto in [Creare metriche calcolate per un singolo progetto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [Metriche](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Puoi utilizzare il generatore di metriche calcolate per creare o modificare le metriche calcolate. Quando vengono create in questo modo, le metriche calcolate sono disponibili nell’elenco dei componenti e possono quindi essere utilizzate nei progetti di tutta l’organizzazione. In alternativa, puoi creare una metrica calcolata rapida, come descritto in [Creare metriche calcolate per un singolo progetto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [Metriche](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
 Accedi al generatore di metriche calcolate per iniziare a creare una metrica calcolata disponibile nell’elenco dei componenti.
 
@@ -43,7 +43,7 @@ Accedi al generatore di metriche calcolate per iniziare a creare una metrica cal
 
    * In Analysis Workspace, apri un progetto, quindi seleziona **[!UICONTROL Components]** > **[!UICONTROL Create metric]**.
    * In Analysis Workspace, apri un progetto, quindi seleziona l&#39;icona **Plus** accanto alla sezione [!UICONTROL **Metriche**] nella barra a sinistra.
-   * In [!DNL Customer Journey Analytics], vai a **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**, quindi seleziona **[!UICONTROL + Add]** nella parte superiore della pagina Metriche calcolate.
+   * In [!DNL Adobe Analytics], vai a **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**, quindi seleziona **[!UICONTROL + Add]** nella parte superiore della pagina Metriche calcolate.
 
 1. Continua con [Aree del generatore di metriche calcolate](#areas-of-the-calculated-metrics-builder).
 
@@ -70,7 +70,7 @@ L’immagine seguente e la tabella che l’accompagna illustrano alcune delle ar
 | 13 | **Icona ingranaggio (tipo di metrica, attribuzione):** La selezione dell&#39;icona ingranaggio accanto a una metrica consente di specificare il tipo di metrica <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > e i modelli di attribuzione </a>. |
 | 14 | **Nuovo:** consente di creare un nuovo componente, ad esempio un nuovo segmento (che porta al Generatore di segmenti <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > </a>). |
 | 15 | **Componenti di ricerca:** Questa barra di ricerca consente di cercare dimensioni, metriche, segmenti (solo metriche calcolate avanzate) e funzioni (solo metriche calcolate avanzate). |
-| 16 | **Elenco Dimension:** Anziché uscire dal Generatore di metriche calcolate per creare un segmento semplice (nel Generatore di segmenti), ad esempio &quot;Pagina = Home page&quot;, è possibile trascinare la pagina e selezionare la home page direttamente dal Generatore di metriche calcolate.<p>Questo semplifica il flusso di lavoro per la creazione di metriche calcolate segmentate.</p> |
+| 16 | **Elenco dimensioni:** Anziché uscire dal Generatore di metriche calcolate per creare un segmento semplice (nel Generatore di segmenti), ad esempio &quot;Pagina = Home page&quot;, è possibile trascinare la pagina e selezionare la home page direttamente dal Generatore di metriche calcolate.<p>Questo semplifica il flusso di lavoro per la creazione di metriche calcolate segmentate.</p> |
 | 17 | **Elenco delle metriche:** Le metriche sono disponibili in 3 categorie: <ul> <li>Metriche standard (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Metriche calcolate ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Modelli di metriche ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - in fondo all&#39;elenco. </li> </ul> <p>Quando passi il cursore su una metrica, puoi vedere l’icona Info a destra di essa: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Facendo clic su questa icona si ottengono le seguenti informazioni: </p><ul> <li>La formula di calcolo. </li><li>Tendenza di anteprima della metrica. </li><li>Icona di modifica (matita) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> in alto a destra che ti porterà al Generatore di metriche calcolate dove puoi modificare questa metrica calcolata. </li></ul> |
 | 18 | **Elenco segmenti:** (solo metriche calcolate avanzate) In qualità di amministratore, questo elenco mostra tutti i segmenti creati nella società di accesso. Se non sei un utente amministratore, questo elenco mostra i segmenti che possiedi e quelli condivisi con te. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > Altro... </a> |
 | 19 | **Elenco funzioni:** (solo metriche calcolate avanzate) Le funzioni sono suddivise in due elenchi: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Base </a> (utilizzata più spesso) e <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Avanzata </a>. |

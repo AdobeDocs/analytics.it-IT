@@ -4,9 +4,9 @@ title: Metriche in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 3bc8988346f894aedb30988f2d386afe65584537
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '713'
 ht-degree: 6%
 
 ---
@@ -56,7 +56,7 @@ Per informazioni su come accedere al generatore di metriche calcolate, vedere [G
 
 ### Creare metriche calcolate per un singolo progetto
 
-Puoi creare metriche calcolate rapide disponibili solo per il progetto in cui sono state create.
+Puoi creare rapidamente una metrica calcolata disponibile solo per il progetto in cui è stata creata.
 
 Per creare una metrica calcolata per un singolo progetto:
 
