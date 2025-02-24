@@ -3,10 +3,10 @@ description: Il Generatore di metriche calcolate fornisce un’area di lavoro pe
 title: Creare metriche
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
+source-git-commit: a1567366c9fad42b3836f43c681d5380e97b09f3
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 12%
+source-wordcount: '1143'
+ht-degree: 11%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics fornisce un’area di lavoro per trascinare e rilasciare dimensi
 
 ## Inizio della creazione di una metrica calcolata
 
-Puoi utilizzare il generatore di metriche calcolate per creare o modificare le metriche calcolate. Quando vengono create in questo modo, le metriche calcolate sono disponibili nell’elenco dei componenti e possono quindi essere utilizzate nei progetti di tutta l’organizzazione. In alternativa, puoi creare una metrica calcolata rapida, come descritto in [Creare metriche calcolate per un singolo progetto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [Metriche](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Puoi utilizzare il generatore di metriche calcolate per creare o modificare le metriche calcolate. Quando vengono create in questo modo, le metriche calcolate sono disponibili nell’elenco dei componenti e possono quindi essere utilizzate nei progetti di tutta l’organizzazione. In alternativa, è possibile creare rapidamente una metrica calcolata disponibile solo per il progetto in cui è stata creata, come descritto in [Creare metriche calcolate per un singolo progetto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [Metriche](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
 Accedi al generatore di metriche calcolate per iniziare a creare una metrica calcolata disponibile nell’elenco dei componenti.
 
