@@ -3,10 +3,10 @@ title: Impostare un account Advertising in Advertising Analytics
 description: Questo articolo spiega come creare nuovi account pubblicitari e mappare più account su più suite di rapporti.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
+source-git-commit: cf0f528f1ccb0346786c017b4d0d48dd5ab6dfc2
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 4%
+source-wordcount: '616'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ Gli amministratori possono anche [concedere l&#39;accesso agli utenti non ammini
    | --- | --- |
    | **[!UICONTROL Type]** | Sono disponibili 2 opzioni: **[!UICONTROL Google Adwords]** e **[!UICONTROL Bing Ads]**.  Nota: Yahoo Gemini è stata assorbita da Microsoft Bing il 31 marzo 2019. Di conseguenza, l’opzione per l’account per annunci Yahoo Gemini non è più disponibile. |
    | Nome account | Puoi scegliere di impostare questo nome account su un nome che ti soddisfi.  Nome account è il nome descrittivo dell’account visualizzato nell’interfaccia utente. |
-   | Token OAuth | **Nota**: OAuth è uno standard aperto per la delega degli accessi, comunemente utilizzato per consentire l&#39;accesso a siti Web o applicazioni alle informazioni sui siti Web ma senza fornire password. Noti che vieni indirizzato a un URL di terze parti (efrontier.com). Adobe utilizza Adobe Media Optimizer per attivare la procedura di autenticazione OAuth per tutti e tre i motori di ricerca. Se si utilizza Internet Explorer 11 (o versioni precedenti), non è possibile recuperare il token Oauth per nessuno dei tre motori di ricerca. Usa altri browser web.<p>Selezionare **[!UICONTROL Retrieve Token]** per avviare il processo di autenticazione OAuth2. Viene richiesto di accedere all&#39;account di ricerca Google/Bing utilizzando le credenziali. A seconda della scelta effettuata, il processo è leggermente diverso: <ul><li>Google Adwords: specifica l&#39;ID account Google</li><li>Microsoft Bing: fornisci l’ID account Bing e l’ID cliente Bing.</li></ul>Per informazioni su questi ID, consulta [Individua l&#39;ID account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md). Dopo aver effettuato l&#39;accesso, nel campo **[!UICONTROL OAuth Token]** viene visualizzato **[!UICONTROL Retrieved]**. |
+   | Token OAuth | **Nota**: OAuth è uno standard aperto per la delega degli accessi, comunemente utilizzato per consentire l&#39;accesso a siti Web o applicazioni alle informazioni sui siti Web ma senza fornire password. Noti che vieni indirizzato a un URL di terze parti (efrontier.com). Adobe utilizza Adobe Media Optimizer per potenziare il processo di autenticazione OAuth per tutti e tre i motori di ricerca. Se si utilizza Internet Explorer 11 (o versioni precedenti), non è possibile recuperare il token Oauth per nessuno dei tre motori di ricerca. Usa altri browser web.<p>Selezionare **[!UICONTROL Retrieve Token]** per avviare il processo di autenticazione OAuth2. Viene richiesto di accedere all&#39;account di ricerca Google/Bing utilizzando le credenziali. A seconda della scelta effettuata, il processo è leggermente diverso: <ul><li>Google Adwords: specifica l&#39;ID account Google</li><li>Microsoft Bing: fornisci l’ID account Bing e l’ID cliente Bing.</li></ul>Per informazioni su questi ID, consulta [Individua l&#39;ID account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md). Dopo aver effettuato l&#39;accesso, nel campo **[!UICONTROL OAuth Token]** viene visualizzato **[!UICONTROL Retrieved]**. |
 
 1. Nella sezione **[!UICONTROL Tracking]**, fornisci informazioni su come tracciare i dati utilizzando l&#39;implementazione di Adobe Analytics. Il tracciamento è un passaggio necessario per integrare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
 Compila **[!UICONTROL Tracking Settings]** seguendo queste linee guida:
@@ -41,19 +41,6 @@ Compila **[!UICONTROL Tracking Settings]** seguendo queste linee guida:
    | Impostazione | Descrizione |
    | --- | --- |
    | Tipo | <ul><li>**Automatico**: consente al motore di Advertising Cloud di decidere in che modo i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/URL di destinazione di. [!UICONTROL Auto Type Tracking] è l&#39;approccio più semplice, ma potrebbe non produrre il set di dati meglio integrato.<br>**Importante:** Per configurare un account del motore di ricerca con [!UICONTROL Auto Type Tracking], è necessario eseguire le azioni seguenti:<ul><li>Il parametro e il valore `s_kwcid` vengono aggiunti ai modelli di tracciamento dell&#39;account o agli URL della pagina di destinazione nell&#39;account aggiunto. Il parametro e il valore vengono inseriti alla fine dell’URL. Se il server Web richiede una coppia di `key=value` alla fine dell&#39;URL, potrebbe essere necessaria un&#39;azione aggiuntiva. Oppure è necessario un aggiornamento per supportare qualsiasi nuova coppia `key=value` nell&#39;URL. **Nota**: ulteriori informazioni sull&#39;aggiunta di questo parametro ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).</li><li>Inoltre, è possibile inserire parole chiave nell&#39;URL di destinazione come parte del valore `s_kwcid`. Se le parole chiave contengono caratteri o simboli speciali, verificare che il server Web in uso supporti tali caratteri. Un esempio di caratteri speciali comuni è `+`, utilizzato nelle parole chiave &quot;Broad Match Modified&quot;.</li></ul></li><li>**Manuale**: consente di gestire come i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/URL di destinazione del motore di ricerca. [Per ogni motore di ricerca](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md), fare riferimento a questi esempi di rilevamento manuali.</li></ul> |
-
-1. Nella sezione **[!UICONTROL Mapping]**, seleziona una o più suite di rapporti da collegare a questo account del motore di ricerca. Devi fornire almeno una suite di rapporti prima di poter salvare l’account Advertising. Puoi mappare più account su più suite di rapporti (1 : 1, 1 : Many, Many : Many). I dati estratti da Adobe Media Optimizer dal motore di ricerca vengono semplicemente copiati in qualsiasi suite di rapporti mappata, pertanto non vi è alcuna suddivisione dei dati.
-
-   >[!IMPORTANT]
-   >
-   >Sono disponibili per la selezione solo le suite di rapporti mappate su un’organizzazione di Experienci Cloud. Se la tua suite di rapporti non viene visualizzata nell&#39;elenco, consulta [Risoluzione dei problemi di Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
-
-   Per **[!UICONTROL Mapping Settings]** seguire queste linee guida:
-
-   | Impostazione | Descrizione |
-   | --- | --- |
-   | Mappatura suite di rapporti | La mappatura suite di rapporti determina la suite di rapporti che viene collegata a questo account del motore di ricerca. In altre parole, determina in quali suite di rapporti vengono inviati i dati del motore di ricerca. |
-
 
 1. Seleziona **[!UICONTROL Save]**.
 1. Una liberatoria visualizza un elenco di avvertenze. Conferma di aver letto e compreso il presente contratto. Selezionare la casella di controllo, quindi selezionare **[!UICONTROL OK]**.

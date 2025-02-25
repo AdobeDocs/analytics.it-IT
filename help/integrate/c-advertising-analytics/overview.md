@@ -3,9 +3,9 @@ description: Scopri tutto quello che puoi fare con Advertising Analytics, compre
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: cf0f528f1ccb0346786c017b4d0d48dd5ab6dfc2
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1131'
 ht-degree: 90%
 
 ---
@@ -22,14 +22,6 @@ Questa integrazione è destinata ai seguenti tipi di pubblico:
 
 * L’**analista** incaricato di raccogliere i rapporti sulle prestazioni per l’esperto di Paid Search Marketing.
 * L’**esperto di Paid Search Marketing** che cerca le risposte alle seguenti domande: quanto traffico sto inviando al sito? I clienti si stanno convertendo? Quali sono le mie campagne pubblicitarie più redditizie?
-
-
-
->[!BEGINSHADEBOX]
-
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Analytics](https://video.tv.adobe.com/v/23119?quality=12&learn=on){target="_blank"}.
-
->[!ENDSHADEBOX]
 
 
 ## Prerequisiti {#prerequisites}
@@ -70,9 +62,9 @@ Analytics dispone di due autorizzazioni che vengono concesse automaticamente agl
  </tbody> 
 </table>
 
-## Dimension e metriche di Advertising Analytics {#dimensions-metrics}
+## Dimensioni e metriche di Advertising Analytics {#dimensions-metrics}
 
-Advertising Analytics aggiunge le dimensioni e metriche seguenti ad Analysis Workspace, Report Builder e all’API di reporting di Analytics.
+Advertising Analytics aggiunge le dimensioni e le metriche seguenti ad Analysis Workspace, Report Builder e all’API di reporting di Analytics.
 
 ### Dimensioni
 
