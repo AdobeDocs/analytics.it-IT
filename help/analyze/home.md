@@ -1,13 +1,13 @@
 ---
 title: Guida agli strumenti di Analytics
-description: Documentazione del prodotto e supporto autonomo per Analysis Workspace, dashboard di Analytics (app per dispositivi mobili), Activity Map, Report Builder, API di reporting e Reports & Analytics.
+description: Documentazione del prodotto e supporto autonomo per Analysis Workspace, dashboard di Analytics (app mobile), Activity Map e Report Builder.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 97%
+source-wordcount: '531'
+ht-degree: 94%
 
 ---
 

@@ -3,9 +3,9 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 9f7fe19c4d9dd9f3940a64c1e20e897ac6febe52
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '2588'
+source-wordcount: '2579'
 ht-degree: 89%
 
 ---
@@ -34,7 +34,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
    * La variabile Canale, che popola la dimensione Sezioni del sito. Consulta [Variabili della pagina](/help/implement/vars/page-vars/page-variables.md) nella Guida utente per l’implementazione.
    * Canali di marketing, un componente che consente di comprendere il modo in cui gli utenti arrivano al sito. Consulta [Canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) nella Guida utente sui componenti.
 * **Classificazione:** una funzione di Adobe Analytics che consente il raggruppamento di elementi dimensionali. Consulta [Classificazioni](/help/components/classifications/c-classifications.md) nella Guida utente sui componenti.
-* **ClickMap:** non più utilizzato. Plug-in del browser precedente che mostra le aree del sito su cui sono stati fatti più clic. Questo strumento è stato ritirato a favore dell&#39;Activity Map.
+* **ClickMap:** non più utilizzato. Plug-in del browser precedente che mostra le aree del sito su cui sono stati fatti più clic. Questo strumento è stato ritirato a favore di Activity Map.
 * **Feed di dati Clickstream:** consulta i feed di dati
 * **Coorte:** un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Consulta [Cos’è un’analisi per coorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) nella Guida agli strumenti di Analytics.
 * **Server di raccolta:** consulta il server di raccolta dati.
@@ -51,8 +51,8 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Origini dati:** consentono a un utente di caricare dati da un file in Adobe Analytics. Il file viene in genere estratto da un sito FTP. Consulta le [Origini dati](/help/import/data-sources/overview.md) nella Guida utente per l’importazione.
 * **Data Warehouse:** funzione di Adobe Analytics che consente di richiedere rapporti di dimensioni maggiori. Consulta [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) nella Guida utente per l’esportazione.
 * **Data Workbench:** strumento di analisi [ritirato](https://experienceleague.adobe.com/it/docs/discontinued/using/data-workbench) progettato per raccogliere, elaborare, analizzare e visualizzare dati dalle interazioni dei clienti online e offline su più canali.
-* **Dimension:** Dimension sono valori e date non numerici, ad esempio genere, mese, età, fedeltà, risoluzione monitor e così via. Altri esempi includono Nome pagina, Codice di tracciamento o Dominio di riferimento. Una metrica è in genere la sua controparte.
-* **Raggruppamento Dimension:** Ogni dimensione può essere suddivisa in livelli di dettaglio più sottili. Ad esempio, la dimensione &quot;mese&quot; può essere suddivisa in gennaio, febbraio, marzo, ecc.
+* **Dimension:** le dimensioni non sono valori numerici e date, ad esempio genere, mese, età, fedeltà, risoluzione monitor e così via. Altri esempi includono Nome pagina, Codice di tracciamento o Dominio di riferimento. Una metrica è in genere la sua controparte.
+* **Suddivisione Dimension:** Ogni dimensione può essere suddivisa in livelli di dettaglio più precisi. Ad esempio, la dimensione &quot;mese&quot; può essere suddivisa in gennaio, febbraio, marzo, ecc.
 * **Serializzazione degli eventi:** processo di implementazione delle misure per impedire la raccolta di eventi duplicati. Consulta la [Serializzazione degli eventi](../implement/vars/page-vars/events/event-serialization.md) nella Guida utente per l’implementazione.
 * **eVar:** consulta la variabile di conversione.
 * **Evento:** consulta l’evento di successo.
@@ -91,7 +91,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Tempo reale:** visualizza le variabili configurate non appena vengono raccolte con una latenza minima o nulla. Consulta [Rapporti in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) nella Guida utente di amministrazione.
 * **Report Builder:** Il componente aggiuntivo Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) consente di generare richieste personalizzate dai dati di Adobe Analytics.
 * **Suite di rapporti:** contenitore generale a cui si inviano i dati. Tutti i rapporti in Adobe Analytics fanno riferimento a una suite di rapporti.
-* **Reports &amp; Analytics:** una soluzione browser ora ritirata per la generazione di rapporti e analisi. Questo strumento ha raggiunto il [termine del ciclo di vita](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=it).
+* **Reports &amp; Analytics:** Questo strumento è stato [terminato](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=it).
 * **Intervallo date continuo:** tipo di intervallo di date relativo che cambia con il passare del tempo. Ad esempio, un rapporto che mostra gli ultimi 7 giorni può essere considerato un intervallo di date continuo. Consulta anche Intervallo di date statico.
 * **RSID:** abbreviazione di ID suite di rapporti. Una suite di rapporti ha sia un nome descrittivo che un ID suite di rapporti.
 * **s.t():** il nome della funzione in una libreria di AppMeasurement che invia una richiesta di immagine per la visualizzazione della pagina. Al contrario, alcune librerie di AppMeasurement utilizzano `s.track()`. Consulta [t](../implement/vars/functions/t-method.md) nella Guida utente per l’implementazione.

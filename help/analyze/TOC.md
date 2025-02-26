@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
-source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -197,7 +197,6 @@ ht-degree: 100%
       + [Gestire segmenti](legacy-report-builder/data-requests/segmentation.md)
       + Tipi di rapporto {#report-types}
          + [Panoramica sui tipi di rapporto](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Rapporti di percorso e fallout percorso in Report Builder](legacy-report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [Filtrare un rapporto di percorso mediante la Creazione guidata richieste](legacy-report-builder/data-requests/c-report-types/path-filter.md)
          + [Filtrare un rapporto di fallout mediante la Creazione guidata richieste](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [Filtrare i rapporti di percorso aggiungendo richieste dipendenti](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)

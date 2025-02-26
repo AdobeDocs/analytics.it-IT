@@ -4,10 +4,10 @@ title: Personalizza calendario
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 97%
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
@@ -33,4 +33,4 @@ Puoi utilizzare il calendario per definire il primo giorno della settimana e del
 | Calendario personalizzato | Offre tre formati in base al numero di settimane in ogni mese. Il numero di settimane in ogni mese dipende dal primo giorno dell’anno selezionato.  Un anno ha 52 settimane. Dividilo in 4 trimestri e ottieni 13 settimane al trimestre. Ma ci sono 3 mesi in un trimestre. 13 non è divisibile per tre quindi la settimana extra viene inserita in uno dei mesi in modo da mantenere la coerenza.<ul><li>5-4-4 significa che il primo mese del trimestre contiene una settimana supplementare. 4-5-4 significa che il secondo mese contiene la settimana supplementare e così via. Nel calendario 5-4-4, la 53a settimana viene aggiunta all’ultimo trimestre dell’anno.</li><li>4-5-4:gennaio ha quattro settimane, febbraio ha cinque settimane, marzo ha quattro settimane e così via.</li><li>4-4-5: Gennaio ha quattro settimane, Febbraio ha quattro settimane, Marzo ha cinque settimane, e così via.</li><li>5-4-4: gennaio ha cinque settimane, febbraio ha quattro settimane, marzo ha quattro settimane e così via.</li></ul> |
 
 >[!NOTE]
->Queste opzioni del calendario sono supportate in tutti gli strumenti di Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map) eccetto Data Warehouse. Data Warehouse supporta completamente solo il calendario gregoriano. Quando si sceglie un calendario non gregoriano, Data Warehouse utilizza l’intervallo di date previsto del calendario non gregoriano, tuttavia è possibile che i raggruppamenti di giorni/settimane/mesi all’interno delle righe del rapporto non siano quelli previsti da un calendario non gregoriano.
+>Queste opzioni del calendario sono supportate in tutti gli strumenti di Adobe Analytics (Analysis Workspace, Report Builder, Activity Map) eccetto Data Warehouse. Data Warehouse supporta completamente solo il calendario gregoriano. Quando si sceglie un calendario non gregoriano, Data Warehouse utilizza l’intervallo di date previsto del calendario non gregoriano, tuttavia è possibile che i raggruppamenti di giorni/settimane/mesi all’interno delle righe del rapporto non siano quelli previsti da un calendario non gregoriano.

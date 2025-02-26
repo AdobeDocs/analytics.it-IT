@@ -4,9 +4,9 @@ description: Comprendere ogni elemento di autorizzazione in Strumenti delle suit
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '428'
 ht-degree: 96%
 
 ---
@@ -27,7 +27,6 @@ Utilizzare questa pagina per comprendere ogni voce di autorizzazione in Strument
 | [!UICONTROL Conversion Variables] | Consente l’accesso a Conversione > Variabili di conversione in Report Suite Manager. |
 | [!UICONTROL Custom Calendar] | Consente di accedere a Generale > Personalizza calendario in Report Suite Manager. |
 | [!UICONTROL Custom Data Warehouse Report] | Consente di accedere a Strumenti > Data Warehouse nella navigazione superiore di Analytics. |
-| [!UICONTROL Daily Return Visits] | Consente di accedere a Conservazione dei visitatori > Visite giornaliere di ritorno in Reports &amp; Analytics. |
 | [!UICONTROL Data Feeds Manager] | Consente di accedere ad Admin > Data feeds (Amministrazione > Feed dati) nell’area di navigazione superiore di Analytics. |
 | [!UICONTROL Data Sources Manager] | Consente di accedere ad Admin > All admin > Data Sources (Amministrazione > Tutte le attività di amministrazione > Origini dati nella navigazione superiore di Analytics). Richiede l’elemento di autorizzazione “Gestione suite di rapporti”. |
 | [!UICONTROL Data Repair API] | Consente l’accesso all’API Data Repair |
