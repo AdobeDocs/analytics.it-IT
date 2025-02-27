@@ -3,9 +3,9 @@ description: I segmenti sequenziali vengono creati utilizzando l’operatore THE
 title: Creare segmenti sequenziali
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
+source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
 workflow-type: tm+mt
-source-wordcount: '2297'
+source-wordcount: '2307'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ Identifica tutte le visite in cui un visitatore visita una pagina prima di un’
 
 ## [!UICONTROL After] e [!UICONTROL Within]
 
-È possibile utilizzare ![Orologio](/help/assets/icons/Clock.svg) **[!UICONTROL After]** e ![Orologio](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** operatore **[!UICONTROL Then]** per definire ulteriori [vincoli di tempo](#time-constraints) o [vincoli per Hit, Visite o Dimension](#event-session-and-dimension-constraints).
+È possibile utilizzare ![Orologio](/help/assets/icons/Clock.svg) **[!UICONTROL After]** e ![Orologio](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** operatore **[!UICONTROL Then]** per definire ulteriori [vincoli di tempo](#time-constraints) o [vincoli per Hit, Visite o Dimensioni](#event-session-and-dimension-constraints).
 
 ### Vincoli temporali
 
@@ -299,3 +299,7 @@ Come ultimo esempio, vuoi identificare i visitatori che hanno imparato a conosce
 
 
 ![Esempio di segmento sequenziale complesso](assets/sequential-complex.png)
+
+>[!MORELIKETHIS]
+>
+> * [Masterizzazione della logica sequenziale in AA e CJA: introduzione a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
