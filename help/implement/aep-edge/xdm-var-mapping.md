@@ -4,18 +4,18 @@ description: Visualizza quali campi XDM mappati automaticamente da Edge alle var
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 5e97c9a4a3c7368cefb3cc6a7bc89a450e6e3f4a
+source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1410'
 ht-degree: 56%
 
 ---
 
 # Mappatura della variabile oggetto XDM su Adobe Analytics
 
-La tabella seguente mostra le variabili XDM mappate automaticamente dall’Edge Network di Adobe Experience Platform in Adobe Analytics. Se utilizzi questi percorsi di campo XDM, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics. Questi campi sono inclusi nel gruppo di campi **[!UICONTROL Adobe Analytics ExperienceEvent Template]**. L’utilizzo di questi campi è consigliato se intendi inviare dati sia ad Adobe Analytics che a Adobe Experience Platform.
+La tabella seguente mostra le variabili XDM mappate automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi di campo XDM, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics. Questi campi sono inclusi nel gruppo di campi **[!UICONTROL Adobe Analytics ExperienceEvent Template]**. L’utilizzo di questi campi è consigliato se intendi inviare dati sia ad Adobe Analytics che a Adobe Experience Platform.
 
-Se la tua organizzazione prevede di passare al Customer Journey Analytics, Adobe consiglia invece di utilizzare l&#39;oggetto `data` per inviare dati direttamente ad Adobe Analytics senza essere conforme a uno schema. Questa strategia consente all&#39;organizzazione di utilizzare il proprio schema anziché [!UICONTROL Adobe Analytics ExperienceEvent Template] (meno applicabile al Customer Journey Analytics). Per una tabella di mapping simile, vedere [Mappatura variabile oggetto dati su Adobe Analytics](data-var-mapping.md).
+Se la tua organizzazione prevede di passare a Customer Journey Analytics, Adobe consiglia invece di utilizzare l&#39;oggetto `data` per inviare dati direttamente ad Adobe Analytics senza essere conforme a uno schema. Questa strategia consente all&#39;organizzazione di utilizzare il proprio schema anziché [!UICONTROL Adobe Analytics ExperienceEvent Template] (meno applicabile a Customer Journey Analytics). Per una tabella di mapping simile, vedere [Mappatura variabile oggetto dati su Adobe Analytics](data-var-mapping.md).
 
 ## Priorità di valore
 
@@ -66,14 +66,15 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | `xdm.environment.carrier` | La dimensione del ciclo di vita mobile [Nome del gestore](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Aiuta a impostare la dimensione [Tipo di connessione](../../components/dimensions/connection-type.md). |
 | `xdm.environment.ipV4` | Utilizzato come metodo di identificazione di riserva per [visitatore univoco](../../components/metrics/unique-visitors.md). Generalmente popolato utilizzando `X-Forwarded-For` Intestazione HTTP. |
+| `xdm.environment._dc.language` | La dimensione mobile Locale. |
 | `xdm.environment.language` | La dimensione mobile Locale. |
 | `xdm.environment.operatingSystem` | La dimensione del ciclo di vita mobile [Sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.operatingSystemVersion` | Aiuta a impostare la dimensione del ciclo di vita mobile [Versione sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Imposta la dimensione delle rispettive [eVar](../../components/dimensions/evar.md). |
 | `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Imposta la rispettiva dimensione [Gerarchia](/help/components/dimensions/hierarchy.md). |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Sovrascrittura delimitatore Prop elenco. L’utilizzo di questo campo non è consigliato, in quanto il delimitatore viene recuperato automaticamente dall’[Amministratore variabile di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti. L’utilizzo di questo campo può creare una mancata corrispondenza tra il delimitatore utilizzato e quello previsto da Analytics. |
-| `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Matrice di stringhe contenente i rispettivi valori [Prop elenco](../vars/page-vars/prop.md#list-props). |
-| `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena tutte le stringhe `value` in ciascuna matrice `list[]` alla rispettiva [variabile elenco](../vars/page-vars/list.md). Il delimitatore viene scelto automaticamente in base al valore impostato in [Impostazioni delle suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
+| `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Array di stringhe contenente i rispettivi valori [Prop elenco](../vars/page-vars/prop.md#list-props). |
+| `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena tutte le stringhe `value` in ciascun array `list[]` alla rispettiva [variabile elenco](../vars/page-vars/list.md). Il delimitatore viene scelto automaticamente in base al valore impostato in [Impostazioni delle suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | Imposta la rispettiva dimensione [Prop](../../components/dimensions/prop.md). |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla rispettiva metrica [Eventi personalizzati](../../components/metrics/custom-events.md). Ogni ID evento risiede nel relativo elemento principale di 100 gruppi. Ad esempio, per applicare la serializzazione a `event678`, utilizza `xdm._experience.analytics.event601to700.event678.id`. |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Incrementa la rispettiva metrica [Eventi personalizzati](../../components/metrics/custom-events.md) della quantità desiderata. Ogni evento risiede nel relativo elemento principale di 100 gruppi. Ad esempio, il campo per `event567` è `xdm._experience.analytics.event501to600.event567.value`. |
