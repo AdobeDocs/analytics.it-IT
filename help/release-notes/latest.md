@@ -3,10 +3,10 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d8a715444a3f6876c4ed9e08e3dcbd6a02d96d9d
+source-git-commit: ace906a4b5acf1ab667529af33dd5be1618863f2
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 53%
+ht-degree: 51%
 
 ---
 
@@ -24,7 +24,7 @@ Queste note sulla versione coprono il periodo dall’11 febbraio a metà marzo 2
 | **Riferimento API feed dati** | Il [riferimento](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) per l&#39;API Feed dati è ora disponibile. |  | 30 gennaio 2025 |
 | **API Livestream - Implementazione client** | Utilizza l’implementazione client Livestream per utilizzare i dati Livestream. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | mercoledì 18 febbraio 2025 |
 | **Aggiornamento all&#39;API delle classificazioni** | Ora puoi rimuovere singoli campi o chiavi di classificazione dal server. Questo fornisce un’alternativa all’eliminazione di un intero set di dati di classificazione con il metodo DELETE. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | mercoledì 18 febbraio 2025 |
-| **Aggiornamento al campo dati contestuali di Analytics`a.locale`** | Un aggiornamento pianificato modificherà il modo in cui viene impostato il campo di dati contestuali di Analytics `a.locale` durante la raccolta di dati tramite Experience Edge. Quando i dati vengono inviati ad Adobe Analytics utilizzando Experience Edge, i campi Analytics vengono compilati in base a una mappatura dei campi XDM. Il mapping per `c.a.locale` fa riferimento a un campo XDM non standard, `xdm.environment.language`. Questo campo verrà aggiornato per fare riferimento al campo corretto, `xdm.environment._dc.language`.<p>Il mapping continuerà a fare riferimento a `xdm.environment.language` per compatibilità con le versioni precedenti. Per la continuità, se sono impostati entrambi i campi, `xdm.environment.language` avrà la precedenza. Puoi visualizzare l&#39;elenco completo delle mappature da XDM ai campi Analytics standard [qui](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | giovedì 5 marzo 2025 |
+| **Aggiornamento al campo dati contestuali di Analytics`a.locale`** | Un aggiornamento pianificato modificherà il modo in cui viene impostato il campo di dati contestuali di Analytics `a.locale` durante la raccolta di dati tramite Experience Edge. Quando i dati vengono inviati ad Adobe Analytics utilizzando Experience Edge, i campi Analytics vengono compilati in base a una mappatura dei campi XDM. Il mapping per `c.a.locale` fa riferimento a un campo XDM non standard, `xdm.environment.language`. Questo campo verrà aggiornato per fare riferimento al campo corretto, `xdm.environment._dc.language`.<p>Il mapping continuerà a fare riferimento a `xdm.environment.language` per compatibilità con le versioni precedenti. Per la continuità, se sono impostati entrambi i campi, `xdm.environment.language` avrà la precedenza. Puoi visualizzare l&#39;elenco completo delle mappature da XDM ai campi Analytics standard [qui](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | giovedì 5 marzo 2025 |
 
 
 ## Correzioni in Adobe Analytics
@@ -56,7 +56,7 @@ Queste note sulla versione coprono il periodo dall’11 febbraio a metà marzo 2
 
 ## AppMeasurement
 
-Per gli ultimi aggiornamenti sulle versioni di AppMeasurement (versione 2.26.0), fare riferimento alle [note sulla versione di AppMeasurement per JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=it).
+Per gli ultimi aggiornamenti sulle versioni di AppMeasurement (versione 2.27.0), fai riferimento alle [note sulla versione di AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=it).
 
 
 ## Risorse correlate
