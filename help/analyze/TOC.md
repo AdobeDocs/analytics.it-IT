@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '956'
 ht-degree: 100%
 
 ---
@@ -43,9 +43,6 @@ ht-degree: 100%
       + [Tasti di scelta rapida](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Palette di colori](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Densità di visualizzazione](analysis-workspace/build-workspace-project/view-density.md)
-   + Rapporti {#reports}
-      + [Utilizzare rapporti predefiniti](analysis-workspace/reports/use-reports.md)
-      + [Creare e gestire i rapporti aziendali](analysis-workspace/reports/create-company-reports.md)
    + Modelli {#templates}
       + [Utilizzare i modelli](analysis-workspace/templates/use-templates.md)
       + [Creare modelli](analysis-workspace/templates/create-templates.md)

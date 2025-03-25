@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
+source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
 workflow-type: tm+mt
-source-wordcount: '6168'
+source-wordcount: '6165'
 ht-degree: 96%
 
 ---
@@ -86,7 +86,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | --- | --- |
 | **Dicembre 2023** | |
 | Miglioramento della documentazione sulle regole bot | Informazioni aggiornate in [Comprendere e configurare le regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) per una maggiore chiarezza.<p>I miglioramenti includono:</p> <ul><li>Il titolo dell’articolo è stato aggiornato affinché sia più descrittivo</li><li>una migliore organizzazione delle informazioni</li><li>Sono stati aggiunti passaggi per indicare le informazioni basate sulle attività</li><li>Sono stati aggiunti ulteriori dettagli sui requisiti del file CSV durante il caricamento delle regole bot</li></ul> |
-| Nuova sezione Rapporti | È stata aggiunta una nuova sezione Rapporti che include informazioni sull’[utilizzo dei rapporti predefiniti](/help/analyze/analysis-workspace/reports/use-reports.md) e sulla [creazione e gestione dei rapporti aziendali](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| Nuova sezione Rapporti | È stata aggiunta una nuova sezione Rapporti che include informazioni su [Utilizzare i modelli](/help/analyze/analysis-workspace/templates/use-templates.md) e [creare i modelli aziendali](/help/analyze/analysis-workspace/templates/create-templates.md). |
 | Aggiornamenti alla documentazione sul rilevamento delle anomalie e l’analisi dei contributi | La documentazione sul rilevamento delle anomalie e sull’analisi dei contributi si trovava precedentemente in una sezione relativa a Virtual Analyst. Sono state apportate le seguenti modifiche: <ul><li>Il termine Virtual Analyst è stato rimosso dalla documentazione.</li><li>La sezione relativa alla funzione [Rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) è stata spostata direttamente nella sezione Analysis Workspace.</li><li>La documentazione sulla funzione Analisi contributi è stata unita alla documentazione sulla funzione Rilevamento delle anomalie.</li></ul> |
 | “Attribution IQ” è stato cambiato in “Attribuzione” | Tutte le istanze di “Attribution IQ” sono state cambiate in “[Attribuzione](/help/analyze/analysis-workspace/attribution/overview.md)” in tutta la documentazione. |
 | **Novembre 2023** | |

@@ -4,9 +4,9 @@ title: Panoramica reportistica in tempo reale
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '600'
 ht-degree: 9%
 
 ---
@@ -23,7 +23,9 @@ Il reporting in tempo reale visualizza il traffico della pagina web e classifica
 
 1. In Analysis Workspace, seleziona la scheda [!UICONTROL **Workspace**].
 
-1. Selezionare [!UICONTROL **Report**] > [!UICONTROL **Coinvolgimento**] > **[!UICONTROL Real-Time]**.
+1. Nella parte sinistra della pagina, in **[!UICONTROL Templates]**, selezionare [!UICONTROL **Modelli Adobe**].
+
+1. Selezionare [!UICONTROL **Coinvolgimento**] > **[!UICONTROL Real-Time]**.
 
 ## Informazioni sul reporting in tempo reale
 
@@ -55,7 +57,7 @@ L&#39;impostazione e la visualizzazione di rapporti in tempo reale è riservata 
 
 ## Latenza dei dati come risultato della configurazione A4T {#latency-a4t}
 
-Dopo l&#39;abilitazione dell&#39;integrazione A4T nell&#39;Adobe [!DNL Target], si verificherà una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento di latenza consente di memorizzare i dati da Analytics e [!DNL Target] sullo stesso hit, consentendo di suddividere i test per pagina e sezione del sito.
+Dopo l&#39;abilitazione dell&#39;integrazione A4T in Adobe [!DNL Target], si verificherà una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento di latenza consente di memorizzare i dati da Analytics e [!DNL Target] sullo stesso hit, consentendo di suddividere i test per pagina e sezione del sito.
 
 Questo aumento si riflette in tutti i servizi e gli strumenti di Adobe Analytics, compresi lo streaming live e il reporting in tempo reale e si applica nei seguenti scenari:
 
