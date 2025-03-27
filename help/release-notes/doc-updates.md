@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '6165'
-ht-degree: 96%
+source-wordcount: '6262'
+ht-degree: 94%
 
 ---
 
@@ -25,6 +25,9 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Marzo 2025** |  |
+| Formattazione data più chiara nelle esportazioni Data Warehouse | I valori delle dimensioni basati sul tempo nelle esportazioni Data Warehouse hanno una formattazione della data non standard. Sono state aggiunte informazioni che spiegano come interpretare i valori delle date dalle esportazioni Data Warehouse. <p>Vedi [Dimensioni supportate in modo diverso (formattazione della data non standard)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) in [Supporto dei componenti in Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
+| Sono state aggiornate le informazioni sulle esclusioni IP | Sono state aggiunte informazioni che spiegano che [le esclusioni IP](/help/admin/admin/exclude-ip.md) possono richiedere fino a 5 minuti prima di diventare effettive e che le modifiche si applicano solo ai nuovi hit (i dati acquisiti prima dell&#39;impostazione dell&#39;esclusione non sono interessati). <p>È stato aggiornato anche il layout dei contenuti per migliorarne la leggibilità.</p> |
 | **Febbraio 2025** |  |
 | Sono state aggiornate le informazioni sulla sospensione e la riattivazione di un feed di dati | Durante la [sospensione e riattivazione di un feed di dati](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), è stato chiarito il comportamento dei feed live. L’elaborazione dei dati non viene eseguita dal momento in cui il feed viene messo in pausa al momento in cui viene riattivato. |
 | Periodo di conservazione ID transazione modificato | Il periodo di conservazione dell’ID transazione di 90 giorni è stato esteso a 25 mesi. La variabile transactionID identifica in modo univoco una transazione in modo che l’hit possa essere collegato ai dati caricati tramite Origini dati. Ulteriori informazioni [qui](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) e [qui](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en). |
