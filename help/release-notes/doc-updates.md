@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 80dc39ebf0a9b7122b346e2045498ad21eedc0fe
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6283'
 ht-degree: 94%
 
 ---
@@ -26,6 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Marzo 2025** |  |
+| Guida all’aggiornamento di Customer Journey Analytics | Consente di generare una [guida dettagliata](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. |
 | Formattazione data più chiara nelle esportazioni Data Warehouse | I valori delle dimensioni basati sul tempo nelle esportazioni Data Warehouse hanno una formattazione della data non standard. Sono state aggiunte informazioni che spiegano come interpretare i valori delle date dalle esportazioni Data Warehouse. <p>Vedi [Dimensioni supportate in modo diverso (formattazione della data non standard)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) in [Supporto dei componenti in Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Sono state aggiornate le informazioni sulle esclusioni IP | Sono state aggiunte informazioni che spiegano che [le esclusioni IP](/help/admin/admin/exclude-ip.md) possono richiedere fino a 5 minuti prima di diventare effettive e che le modifiche si applicano solo ai nuovi hit (i dati acquisiti prima dell&#39;impostazione dell&#39;esclusione non sono interessati). <p>È stato aggiornato anche il layout dei contenuti per migliorarne la leggibilità.</p> |
 | **Febbraio 2025** |  |
