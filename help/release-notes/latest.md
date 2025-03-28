@@ -3,10 +3,10 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a7a80fc9845382eaa5b15dc6c325015de0a0cd9e
+source-git-commit: e0f6b7b5b2933add7f67873a945b78e4200116eb
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 53%
+source-wordcount: '719'
+ht-degree: 51%
 
 ---
 
@@ -54,7 +54,7 @@ Queste note sulla versione coprono il periodo compreso tra il 5 marzo e maggio 2
 
 ## AppMeasurement
 
-Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, fai riferimento alle [note sulla versione di AppMeasurement per JavaScript](https://github.com/adobe/appmeasurement/releases).
+Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, fai riferimento alle [note sulla versione di AppMeasurement](https://github.com/adobe/appmeasurement/releases).
 
 
 ## Risorse correlate
