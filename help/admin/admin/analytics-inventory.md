@@ -5,10 +5,11 @@ feature: Admin Tools
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5ceb21e8d3ed711fd3d789aef0b6ae589ee2dd1e
+exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
+source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 3%
+source-wordcount: '276'
+ht-degree: 2%
 
 ---
 
@@ -24,6 +25,27 @@ ht-degree: 3%
 <!-- markdownlint-enable MD034 -->
 
 L’inventario di Analytics fornisce una panoramica completa dell’ambiente Adobe Analytics, compreso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora. Queste informazioni sono particolarmente utili quando si inizia a preparare l&#39;aggiornamento a Customer Journey Analytics.
+
+L&#39;obiettivo di questa applicazione è quello di aiutarti a rispondere alle seguenti domande:
+
+* Per la tua organizzazione, quali risorse (ad esempio suite di rapporti, segmenti, utenti, progetti Workspace, feed di dati e così via) devi aggiornare e quali risorse puoi lasciare indietro?
+
+* Una volta determinata la risorsa di cui eseguire la migrazione:
+
+   * È necessario eseguire una pulizia delle risorse prima di questo aggiornamento?
+
+   * È necessario eseguire il consolidamento delle risorse come parte del processo?
+
+   * Quale dovrebbe essere la sequenza di aggiornamento per le risorse?
+
+   * Quale gruppo di suite di rapporti devi aggiornare per primo? ultimo?
+
+## Accedere a Inventario analisi
+
+L&#39;inventario di Analytics è disponibile dal menu **[!UICONTROL Admin]** e dalla voce di menu **[!UICONTROL All admin]**.
+
+    .[Menu Inventario di Analytics](assets/an-inventory-menu.png)
+
 
 ## Componenti {#components}
 
@@ -59,5 +81,3 @@ L’inventario di Analytics fornisce una panoramica completa dell’ambiente Ado
 >abstract="Questa sezione mostra il numero di utenti nell’ambiente Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
-
-
