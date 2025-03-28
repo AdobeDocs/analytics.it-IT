@@ -4,20 +4,19 @@ description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: e403ed5ff1a1b6aa56d4f4112bbd7a7c072cc844
+source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
 workflow-type: tm+mt
-source-wordcount: '2717'
-ht-degree: 87%
+source-wordcount: '2726'
+ht-degree: 86%
 
 ---
 
 # Note sulla versione di AppMeasurement per JavaScript
 
-Note cumulative sulla versione di AppMeasurement per JavaScript.
+>[!IMPORTANT]
+>
+>A partire da marzo 2025, questo articolo non sarà più aggiornato. Puoi visualizzare le note sulla versione di e scaricare la versione più recente di AppMeasurement da [GitHub](https://github.com/adobe/appmeasurement/releases).
 
-<!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
-
-Puoi scaricare la versione più recente di AppMeasurement da [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## Versione 2.27.0
 
@@ -32,7 +31,7 @@ Data di rilascio: **martedì 12 agosto 2024**
 
 Data di rilascio: **martedì 4 marzo 2024**
 
-* AppMeasurement riconosce e utilizza automaticamente il dominio radice per i domini di livello principale del codice paese, che in precedenza richiedeva configurazioni specifiche del dominio dei cookie. L&#39;aggiornamento può avere implicazioni a causa di questo riconoscimento automatico. Per ulteriori informazioni, vedere [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md).
+* AppMeasurement riconosce e utilizza automaticamente il dominio radice per i domini di livello principale del codice del paese, che in precedenza richiedeva configurazioni specifiche del dominio dei cookie. L&#39;aggiornamento può avere implicazioni a causa di questo riconoscimento automatico. Per ulteriori informazioni, vedere [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md).
 * La distribuzione include Identity Service Library 5.5.0 e Data Integration Library 9.6.
 
 ## Versione 2.25.0
@@ -48,7 +47,7 @@ Data di rilascio:**mercoledì 18 luglio 2023**
 
 * È stata aggiunta la variabile di configurazione facoltativa [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) per decodificare gli URL di collegamento che includono caratteri con codifica doppio byte.
 * È stata aggiunta una gestione aggiuntiva degli errori per i browser con API di hint client dell’agente utente ad alta entropia errate.
-* L&#39;intestazione Content-Type di POST è stata modificata per utilizzare `x-www-form-urlencoded` per impostazione predefinita.
+* Intestazione POST Content-Type modificata per utilizzare `x-www-form-urlencoded` per impostazione predefinita.
 
 ## Versione 2.23.0
 
@@ -370,8 +369,8 @@ Data di rilascio: **18 giugno 2015**
 
 Data di rilascio: **21 maggio 2015**
 
-* A partire dalla versione 4.5 dell&#39;SDK per iOS, una nuova estensione iOS consente di raccogliere i dati di utilizzo dalle app Apple Watch, Widget Oggi, widget per l&#39;editing di foto e tutte le altre app di estensione iOS.
-* A partire dalla versione SDK 4.5 per Android, una nuova estensione Android consente di raccogliere dati dall&#39;app Android Wearable.
+* A partire dalla versione 4.5 di iOS SDK, una nuova estensione iOS consente di raccogliere i dati di utilizzo dalle app Apple Watch, dai widget Oggi, dai widget per l’editing di foto e da tutte le altre app di estensione iOS.
+* A partire dalla versione 4.5 di Android SDK, una nuova estensione Android consente di raccogliere dati dall&#39;app Android Wearable.
 * Inclusione di API Visitor 1.4.
 * Il modulo AudienceManagement è stato aggiornato per l’utilizzo di DIL versione 6.0.
 
