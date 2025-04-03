@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fceb28b7af480e6d87abf09c26f45a7afb2d3270
+source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 9%
+source-wordcount: '719'
+ht-degree: 6%
 
 ---
 
@@ -54,9 +54,13 @@ L&#39;inventario di Analytics è disponibile per gli utenti con privilegi di amm
 
    ![Schermata inventario principale](assets/an_inventory.png)
 
->[!IMPORTANT]
->
->   In questa versione iniziale puoi visualizzare i numeri di riepilogo per progetti Workspace, segmenti, metriche calcolate, dati avanzati (Media Analytics) e utenti. Attualmente, gli unici elementi utilizzabili sono le suite di rapporti.
+   Nello specifico, questa schermata viene visualizzata
+
+   * Il numero totale di progetti di scorecard per dispositivi mobili e Analysis Workspace attivi in questa organizzazione per tutti gli utenti.
+   * Il numero totale di segmenti e metriche calcolate attivi in questa organizzazione per tutti gli utenti.
+   * Numero totale di suite di rapporti di base definite (non sono incluse le suite di rapporti virtuali).
+   * Se la funzione Media Analytics è attiva e, in caso affermativo, in quale modalità.
+   * Il numero totale di utenti definiti in tale organizzazione.
 
 
 ## Componenti {#components}
@@ -83,9 +87,18 @@ In questa versione iniziale è possibile visualizzare i numeri di inventario di 
 
 <!-- markdownlint-enable MD034 -->
 
-### Analizzare le suite di rapporti
+### di Report Suite Manager
 
-1. Per analizzare le suite di rapporti e decidere quali migrare, passa a **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Report suites]** e fai clic su **[!UICONTROL Analyze]**.
+La vista Suite di rapporti mostra tutte le suite di rapporti definite in un’organizzazione. Ti consente di rispondere alle seguenti domande:
+
+* Quali suite di rapporti hanno ricevuto il maggior numero di hit negli ultimi 90 giorni?
+* Quali suite di rapporti non hanno ricevuto hit negli ultimi 90 giorni?
+* Quali suite di rapporti hanno il maggior numero di dimensioni definito?
+* Quali suite di rapporti hanno il maggior numero di metriche definite?
+
+Le risposte a queste domande ti daranno una buona idea su quali suite di rapporti sono i candidati migliori per la migrazione.
+
+1. Per analizzare le suite di rapporti, passa a **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Report suites]** e fai clic su **[!UICONTROL Analyze]**.
 
    ![Elenco delle suite di rapporti](assets/an_inv_rs.png)
 
@@ -93,12 +106,12 @@ In questa versione iniziale è possibile visualizzare i numeri di inventario di 
    | --- | --- |
    | Nome | Nome della suite di rapporti |
    | ID | ID suite di rapporti (rsid). Specifica un ID univoco; può contenere solo caratteri alfanumerici. Una volta creato, non è possibile modificare questo ID. Adobe imposta il prefisso ID richiesto, che non può essere modificato. |
-   | Occorrenze (ultimi 90 giorni) |  |
-   | Metriche | How |
-   | Dimensioni |  |
-   | Analytics for Target (A4T) abilitato |  |
-   | Canali marketing abilitati |  |
-   | Connettore Source abilitato | Da seguire |
+   | Occorrenze (ultimi 90 giorni) | Quanti hit ha ricevuto questa suite di rapporti negli ultimi 90 giorni? |
+   | Metriche | Quante metriche sono definite in questa suite di rapporti? |
+   | Dimensioni | Quante dimensioni sono definite in questa suite di rapporti? |
+   | Analytics for Target (A4T) abilitato | Questa suite di rapporti è abilitata per [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+   | Canali marketing abilitati | Questa suite di rapporti è abilitata per [Canali di marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+   | Connettore Source abilitato | [In fase di sviluppo] questa suite di rapporti è abilitata per il [connettore Source di Adobe Analytics per i dati della suite di rapporti](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa suite di rapporti a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
    | Tipo di calendario | Per ulteriori informazioni, vedere [Calendari personalizzati](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 1. Nota che...
