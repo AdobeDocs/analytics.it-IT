@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fe1074403992c1dd28778f279cafe4e557dfe4fd
+source-git-commit: fceb28b7af480e6d87abf09c26f45a7afb2d3270
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 2%
+source-wordcount: '499'
+ht-degree: 9%
 
 ---
 
@@ -40,11 +40,23 @@ L&#39;obiettivo di questa applicazione è quello di aiutarti a rispondere alle s
 
    * Quale gruppo di suite di rapporti devi aggiornare per primo? ultimo?
 
+## Autorizzazioni
+
+L&#39;inventario di Analytics è disponibile per gli utenti con privilegi di amministratore di prodotto Adobe Analytics in [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics).
+
 ## Accedere a Inventario analisi
 
-[!UICONTROL Analytics Inventory] è disponibile dal menu **[!UICONTROL Admin]** e dalla voce di menu **[!UICONTROL All admin]**.
+1. Scegliere **[!UICONTROL Analytics Inventory]** nel menu **[!UICONTROL Admin]**. Oppure vai a **[!UICONTROL All admin]** > **[!UICONTROL Analytics Inventory]**.
 
 ![Analytics-Inventory-menu](assets/an-inventory-menu.png)
+
+1. La schermata principale presenta un inventario completo dell’ambiente Adobe Analytics:
+
+   ![Schermata inventario principale](assets/an_inventory.png)
+
+>[!IMPORTANT]
+>
+>   In questa versione iniziale puoi visualizzare i numeri di riepilogo per progetti Workspace, segmenti, metriche calcolate, dati avanzati (Media Analytics) e utenti. Attualmente, gli unici elementi utilizzabili sono le suite di rapporti.
 
 
 ## Componenti {#components}
@@ -58,6 +70,7 @@ L&#39;obiettivo di questa applicazione è quello di aiutarti a rispondere alle s
 
 <!-- markdownlint-enable MD034 -->
 
+In questa versione iniziale è possibile visualizzare i numeri di inventario di riepilogo per progetti Workspace, segmenti e metriche calcolate. Le versioni successive consentono di analizzare questi componenti.
 
 ## Configurazione e raccolta dati {#data-config}
 
@@ -70,6 +83,34 @@ L&#39;obiettivo di questa applicazione è quello di aiutarti a rispondere alle s
 
 <!-- markdownlint-enable MD034 -->
 
+### Analizzare le suite di rapporti
+
+1. Per analizzare le suite di rapporti e decidere quali migrare, passa a **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Report suites]** e fai clic su **[!UICONTROL Analyze]**.
+
+   ![Elenco delle suite di rapporti](assets/an_inv_rs.png)
+
+   | Elemento | Descrizione |
+   | --- | --- |
+   | Nome | Nome della suite di rapporti |
+   | ID | ID suite di rapporti (rsid). Specifica un ID univoco; può contenere solo caratteri alfanumerici. Una volta creato, non è possibile modificare questo ID. Adobe imposta il prefisso ID richiesto, che non può essere modificato. |
+   | Occorrenze (ultimi 90 giorni) |  |
+   | Metriche | How |
+   | Dimensioni |  |
+   | Analytics for Target (A4T) abilitato |  |
+   | Canali marketing abilitati |  |
+   | Connettore Source abilitato | Da seguire |
+   | Tipo di calendario | Per ulteriori informazioni, vedere [Calendari personalizzati](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+
+1. Nota che...
+
+### Export to CSV (Esporta in CSV)
+
+1. Per esportare l&#39;elenco delle suite di rapporti in un file .csv, fare clic su **[!UICONTROL Export to CSV]**.
+
+1. Il file .csv verrà visualizzato nella cartella Download.
+
+1. Apri e salva con un’applicazione per fogli di calcolo sul dispositivo.
+
 
 ## Gestione utente {#user-management}
 
@@ -81,3 +122,5 @@ L&#39;obiettivo di questa applicazione è quello di aiutarti a rispondere alle s
 >abstract="Questa sezione mostra il numero di utenti nell’ambiente Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
+
+La gestione degli utenti sarà disponibile in una versione successiva dell’inventario di Analytics.
