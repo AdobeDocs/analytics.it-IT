@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
+source-git-commit: f3fdc81da50fffcc6dc581b07b384836d24c444a
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 6%
+source-wordcount: '829'
+ht-degree: 5%
 
 ---
 
@@ -98,6 +98,11 @@ La vista Suite di rapporti mostra tutte le suite di rapporti definite in un’or
 
 Le risposte a queste domande ti daranno una buona idea su quali suite di rapporti sono i candidati migliori per la migrazione.
 
+>[!NOTE]
+>
+>Questa tabella viene compilata lentamente, un valore di cella alla volta.
+
+
 1. Per analizzare le suite di rapporti, passa a **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Report suites]** e fai clic su **[!UICONTROL Analyze]**.
 
    ![Elenco delle suite di rapporti](assets/an_inv_rs.png)
@@ -114,9 +119,28 @@ Le risposte a queste domande ti daranno una buona idea su quali suite di rapport
    | Connettore Source abilitato | [In fase di sviluppo] questa suite di rapporti è abilitata per il [connettore Source di Adobe Analytics per i dati della suite di rapporti](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa suite di rapporti a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
    | Tipo di calendario | Per ulteriori informazioni, vedere [Calendari personalizzati](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
-1. Nota che...
+#### Analizzare le dimensioni
 
-### Export to CSV (Esporta in CSV)
+Questa schermata fornisce una visualizzazione dettagliata di tutte le dimensioni definite per una specifica suite di rapporti. Da questa vista puoi rispondere alle seguenti domande:
+
+* What dimensions are enabled for this report suite?
+* What are the top ten dimension items for the last 90 days for this dimension?
+
+1. Click the dimension link on the Report suite page.
+
+
+
+
+#### Analizzare le metriche
+
+Questa schermata fornisce una visualizzazione dettagliata di tutte le metriche definite per una specifica suite di rapporti. Da questa vista puoi rispondere alle seguenti domande:
+
+* Quali metriche sono abilitate per questa suite di rapporti?
+* What are the top ten metrics for the last 90 days?
+
+
+
+#### Export to CSV (Esporta in CSV)
 
 1. Per esportare l&#39;elenco delle suite di rapporti in un file .csv, fare clic su **[!UICONTROL Export to CSV]**.
 
