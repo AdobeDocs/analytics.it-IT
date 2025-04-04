@@ -6,9 +6,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: f3fdc81da50fffcc6dc581b07b384836d24c444a
+source-git-commit: ba96acbae989b653e4e63f2266511abed6b25b62
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '1111'
 ht-degree: 5%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 5%
 
 L’inventario di Analytics fornisce una panoramica completa dell’ambiente Adobe Analytics, compreso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora. Queste informazioni sono particolarmente utili quando si inizia a preparare l&#39;aggiornamento a Customer Journey Analytics.
 
-L&#39;obiettivo di questa applicazione è quello di aiutarti a rispondere alle seguenti domande:
+L’obiettivo dell’inventario di Analytics è di aiutarti a rispondere alle seguenti domande:
 
-* Per la tua organizzazione, quali risorse (ad esempio suite di rapporti, segmenti, utenti, progetti Workspace, feed di dati e così via) devi aggiornare e quali risorse puoi lasciare indietro?
+* Per la tua organizzazione, quali risorse (ad esempio suite di rapporti, segmenti, utenti, progetti Workspace e così via) devi migrare e quali risorse puoi lasciarti dietro?
 
 * Una volta determinata la risorsa di cui eseguire la migrazione:
 
@@ -38,7 +38,7 @@ L&#39;obiettivo di questa applicazione è quello di aiutarti a rispondere alle s
 
    * Quale dovrebbe essere la sequenza di aggiornamento per le risorse?
 
-   * Quale gruppo di suite di rapporti devi aggiornare per primo? ultimo?
+   * Quali suite di rapporti devi aggiornare per prime o per ultime?
 
 ## Autorizzazioni
 
@@ -54,13 +54,13 @@ L&#39;inventario di Analytics è disponibile per gli utenti con privilegi di amm
 
    ![Schermata inventario principale](assets/an_inventory.png)
 
-   Nello specifico, questa schermata viene visualizzata
+   In particolare, questa schermata mostra:
 
-   * Il numero totale di progetti di scorecard per dispositivi mobili e Analysis Workspace attivi in questa organizzazione per tutti gli utenti.
-   * Il numero totale di segmenti e metriche calcolate attivi in questa organizzazione per tutti gli utenti.
-   * Numero totale di suite di rapporti di base definite (non sono incluse le suite di rapporti virtuali).
+   * Il numero totale di progetti di scorecard per dispositivi mobili e Analysis Workspace attivi in questa organizzazione, per tutti gli utenti.
+   * Il numero totale di segmenti e metriche calcolate attivi in questa organizzazione, su tutti gli utenti.
+   * Numero totale di suite di rapporti di base definite. Le suite di rapporti virtuali non sono incluse.
    * Se la funzione Media Analytics è attiva e, in caso affermativo, in quale modalità.
-   * Il numero totale di utenti definiti in tale organizzazione.
+   * Numero totale di utenti definiti in questa organizzazione.
 
 
 ## Componenti {#components}
@@ -111,24 +111,32 @@ Le risposte a queste domande ti daranno una buona idea su quali suite di rapport
    | --- | --- |
    | Nome | Nome della suite di rapporti |
    | ID | ID suite di rapporti (rsid). Specifica un ID univoco; può contenere solo caratteri alfanumerici. Una volta creato, non è possibile modificare questo ID. Adobe imposta il prefisso ID richiesto, che non può essere modificato. |
-   | Occorrenze (ultimi 90 giorni) | Quanti hit ha ricevuto questa suite di rapporti negli ultimi 90 giorni? |
+   | Occorrenze (ultimi 90 giorni) | La metrica &quot;Occorrenze&quot; mostra il numero di hit in cui una determinata dimensione è stata impostata o persistita. Quanti hit ha ricevuto questa suite di rapporti negli ultimi 90 giorni? |
    | Metriche | Quante metriche sono definite in questa suite di rapporti? |
    | Dimensioni | Quante dimensioni sono definite in questa suite di rapporti? |
-   | Analytics for Target (A4T) abilitato | Questa suite di rapporti è abilitata per [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
-   | Canali marketing abilitati | Questa suite di rapporti è abilitata per [Canali di marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
-   | Connettore Source abilitato | [In fase di sviluppo] questa suite di rapporti è abilitata per il [connettore Source di Adobe Analytics per i dati della suite di rapporti](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa suite di rapporti a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
-   | Tipo di calendario | Per ulteriori informazioni, vedere [Calendari personalizzati](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Analytics for Target (A4T) abilitato | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+   | Canali marketing abilitati | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Canali di marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+   | Connettore Source abilitato | Questa suite di rapporti è abilitata per [Adobe Analytics Source Connector per i dati della suite di rapporti](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa suite di rapporti a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
+   | Tipo di calendario | [Nascosto per impostazione predefinita] Per ulteriori informazioni, fare riferimento a [Calendari personalizzati](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### Analizzare le dimensioni
 
 Questa schermata fornisce una visualizzazione dettagliata di tutte le dimensioni definite per una specifica suite di rapporti. Da questa vista puoi rispondere alle seguenti domande:
 
-* What dimensions are enabled for this report suite?
-* What are the top ten dimension items for the last 90 days for this dimension?
+* Quali dimensioni sono abilitate per questa suite di rapporti?
+* Quali sono i dieci elementi dimensionali principali degli ultimi 90 giorni per questa dimensione?
 
-1. Click the dimension link on the Report suite page.
+1. Fai clic sul collegamento **[!UICONTROL Dimensions]** nella pagina Suite di rapporti.
 
+   | Elemento | Descrizione |
+   | --- | --- |
+   | Nome | Nome della dimensione |
+   | ID | ID dimensione. |
+   | Tipo | Tipo di dimensione. I valori possibili includono Conversione, Traffico, Navigazione, Origini del traffico, Clienti, Data o dimensioni specifiche per il prodotto Adobe come AEM, Audience, Adobe Campaign, App mobile, ecc. |
+   | Descrizione | Non tutte le dimensioni hanno descrizioni. |
+   | Connettore Source abilitato | Questa dimensione è abilitata per [Adobe Analytics Source Connector per i dati della suite di rapporti](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa dimensione a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
 
+1. Determina quali dimensioni hanno senso migrare a CJA.
 
 
 #### Analizzare le metriche
@@ -136,18 +144,40 @@ Questa schermata fornisce una visualizzazione dettagliata di tutte le dimensioni
 Questa schermata fornisce una visualizzazione dettagliata di tutte le metriche definite per una specifica suite di rapporti. Da questa vista puoi rispondere alle seguenti domande:
 
 * Quali metriche sono abilitate per questa suite di rapporti?
-* What are the top ten metrics for the last 90 days?
+* Quali sono le dieci metriche principali per gli ultimi 90 giorni?
+
+1. Fai clic sul collegamento **[!UICONTROL Metrics]** nella pagina Suite di rapporti.
 
 
+   | Elemento | Descrizione |
+   | --- | --- |
+   | Nome | Nome della metrica |
+   | ID | ID della metrica. |
+   | Tipo | Il tipo di metrica. I valori possibili includono Conversione, Traffico, Navigazione, Origini del traffico, Clienti, Data o dimensioni specifiche per il prodotto Adobe come AEM, Audience, Adobe Campaign, App mobile, ecc. |
+   | Descrizione | Non tutte le dimensioni hanno descrizioni. |
+   | Connettore Source abilitato | Questa metrica è abilitata per [Adobe Analytics Source Connector per i dati della suite di rapporti](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa metrica a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
+
+1. Determinare quali metriche hanno senso migrare a CJA.
 
 #### Export to CSV (Esporta in CSV)
 
-1. Per esportare l&#39;elenco delle suite di rapporti in un file .csv, fare clic su **[!UICONTROL Export to CSV]**.
+1. Per esportare l&#39;elenco delle suite di rapporti, delle dimensioni o delle metriche in un file .csv, fare clic su **[!UICONTROL Export to CSV]**.
 
 1. Il file .csv verrà visualizzato nella cartella Download.
 
 1. Apri e salva con un’applicazione per fogli di calcolo sul dispositivo.
 
+>[!NOTE]
+>
+>Gli elementi e le colonne esclusi non vengono esportati nel file .csv.
+
+
+#### Filtrare, cercare, ordinare e navigare
+
+* Puoi cercare nella tabella.
+* Nella barra a sinistra, fai clic sull’icona Filtro per filtrare in base a &quot;Tipo&quot;. Oppure fai clic su **[!UICONTROL Hide Filter]**.
+* Puoi ordinare tutte le colonne in ordine crescente/decrescente (solo ordinamento a colonna singola).
+* Puoi fare clic sugli elementi nella breadcrumb per passare a un’altra schermata.
 
 ## Gestione utente {#user-management}
 
