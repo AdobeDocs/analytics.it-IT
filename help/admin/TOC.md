@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
+source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '615'
 ht-degree: 99%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 99%
                   + [Compilare un ID campagna da un parametro di stringa di query](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
                   + [Impostare l&#39;evento di visualizzazione prodotto dalla pagina di panoramica prodotto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
                   + [Aggiungere una sottocategoria concatenando la categoria e il nome della pagina](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-                  + [Determinare un percorso copiando un valore eVar in un prop](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
                   + [Pulire i valori in un rapporto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
                   + [Compilare termini di ricerca interni utilizzando un parametro di stringa di query](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
                   + [Copiare una variabile di dati di contesto in una eVar](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
