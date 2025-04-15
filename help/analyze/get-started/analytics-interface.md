@@ -3,10 +3,10 @@ description: Informazioni generali di panoramica su Adobe Analytics, tra cui inf
 title: Informazioni sull’interfaccia di Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '2060'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -79,7 +79,7 @@ La scheda [!UICONTROL Components] include funzioni che consentono di ottimizzare
    | Search&amp;Promote | Questa funzione non è più supportata. |  |
    | Mobile Services | Questa funzione non è più supportata. |  |
    | Dashboard di Analytics (app mobili) | L’app per dashboard di Adobe Analytics fornisce ovunque e in qualsiasi momento approfondimenti relativi ad Adobe Analytics. Attraverso l’app, gli utenti possono visualizzare scorecard intuitive create utilizzando l’interfaccia utente desktop di Adobe Analytics. | L’app per dashboard di Adobe Analytics è disponibile nell’App Store iOS o nel Google Play Store |
-   | Report Builder | Adobe Report Builder è un componente aggiuntivo per Microsoft Excel. Consente di generare richieste personalizzate partendo da dati di Adobe Analytics, che puoi inserire in fogli di lavoro Excel. Le richieste possono fare riferimento in maniera dinamica a celle presenti nel tuo foglio di lavoro, inoltre hai la possibilità di aggiornare e personalizzare la presentazione dei dati da parte del Report Builder. | [Che cos’è Report Builder?](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/report-buider-overview) |
+   | Report Builder | Adobe Report Builder è un componente aggiuntivo per Microsoft Excel. Consente di generare richieste personalizzate partendo da dati di Adobe Analytics, che puoi inserire in fogli di lavoro Excel. Le richieste possono fare riferimento in maniera dinamica a celle presenti nel tuo foglio di lavoro, inoltre hai la possibilità di aggiornare e personalizzare la presentazione dei dati da parte del Report Builder. | [Che cos’è Report Builder?](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
    {style="table-layout:auto"}
 

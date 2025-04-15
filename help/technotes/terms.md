@@ -3,7 +3,7 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
 workflow-type: tm+mt
 source-wordcount: '2579'
 ht-degree: 89%
@@ -89,7 +89,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Proprietà:** consulta Variabile di traffico.
 * **Rapporto con classifica:** un formato di rapporto che segue in genere una dimensione con una metrica. Questo tipo di rapporto consente di visualizzare gli elementi principali, ad esempio le pagine più visualizzate sul sito. Consulta anche Rapporti con tendenze.
 * **Tempo reale:** visualizza le variabili configurate non appena vengono raccolte con una latenza minima o nulla. Consulta [Rapporti in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) nella Guida utente di amministrazione.
-* **Report Builder:** Il componente aggiuntivo Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) consente di generare richieste personalizzate dai dati di Adobe Analytics.
+* **Report Builder:** Il componente aggiuntivo Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md) consente di generare richieste personalizzate dai dati di Adobe Analytics.
 * **Suite di rapporti:** contenitore generale a cui si inviano i dati. Tutti i rapporti in Adobe Analytics fanno riferimento a una suite di rapporti.
 * **Reports &amp; Analytics:** Questo strumento è stato [terminato](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=it).
 * **Intervallo date continuo:** tipo di intervallo di date relativo che cambia con il passare del tempo. Ad esempio, un rapporto che mostra gli ultimi 7 giorni può essere considerato un intervallo di date continuo. Consulta anche Intervallo di date statico.

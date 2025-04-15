@@ -4,8 +4,8 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 65e75a1c2b39823e72abfb0e5b61122c62f1f013
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -23,6 +23,9 @@ ht-degree: 100%
       + [Panoramica delle variabili di configurazione](vars/config-vars/configuration-variables.md)
       + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
+      + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
+      + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
+      + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
       + [charSet](vars/config-vars/charset.md)
       + [collectHighEntropyUserAgentHints](vars/config-vars/collecthighentropyuseragenthints.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
@@ -55,9 +58,6 @@ ht-degree: 100%
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Variabili di pagina {#page-vars}
       + [Panoramica delle variabili di pagina](vars/page-vars/page-variables.md)
-      + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
-      + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
-      + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
@@ -133,7 +133,7 @@ ht-degree: 100%
       + [websiteBot](vars/plugins/websitebot.md)
    + [Integrate Module](vars/integrate.md)
 + Preparazione all’implementazione di Adobe Analytics {#prepare}
-   + [Creare un livello di dati](prepare/data-layer.md)
+   + [Creare un livello dati](prepare/data-layer.md)
    + [Confrontare i metodi di implementazione](prepare/comparison.md)
    + [Considerazioni globali sulla suite di rapporti](prepare/global-rs.md)
    + [Implementazione dell’assegnazione tag per più suite](prepare/multi-suite-tagging.md)
@@ -158,7 +158,7 @@ ht-degree: 100%
    + [Creare una proprietà tag in Adobe Analytics](launch/create-analytics-property.md)
    + [Implementare in un ambiente di sviluppo](launch/deploy-dev.md)
    + [Convalidare e pubblicare nell’ambiente di produzione](launch/validate-publish-prod.md)
-   + [Mappatura di oggetti del livello di dati su elementi di dati](launch/layer-to-elements.md)
+   + [Mappatura di oggetti del livello dati su elementi di dati](launch/layer-to-elements.md)
    + [Mappare gli elementi dati dei tag alle variabili Analytics](launch/elements-to-variable.md)
 + Implementazione di Analytics tramite JavaScript {#js}
    + [Panoramica di JavaScript](js/overview.md)

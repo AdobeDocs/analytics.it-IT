@@ -3,8 +3,8 @@ description: Requisiti di sistema e confronto tra Analysis Workspace, Report Bui
 title: Confronto dei prodotti Analytics e requisiti
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Questa pagina contiene un confronto tra vari prodotti di Adobe Analytics: Analys
 
 Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [Quale strumento Adobe Analytics devo utilizzare?](/help/analyze/get-started/which-analytics-tool.md).
 
-| Nome prodotto e collegamento all’Aiuto | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/report-buider-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) | [API 2.0 di Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Nome prodotto e collegamento all’Aiuto | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/rb-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) | [API 2.0 di Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
 | **Metodo di accesso** | [Browser](/help/analyze/get-started/sys-reqs.md) | [MS Excel per Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Configurazione tramite il browser. [Ulteriori informazioni](/help/analyze/get-started/sys-reqs.md) | Configurazione tramite il browser. [Ulteriori informazioni](/help/export/analytics-data-feed/data-feed-overview.md) | Strumenti API RESTful. Accedi con le credenziali Adobe Developer. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Granularità dei dati** | Aggregata | Aggregata | Aggregata | Hit | Aggregata |
