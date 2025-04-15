@@ -7,7 +7,7 @@ exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 source-git-commit: 1a6f086105c76cbfcf361ddc54d71a7e7c4921d5
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 7%
+ht-degree: 18%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="analytics-inventory"
 >title="Inventario di Analytics"
->abstract="Questa pagina fornisce una panoramica completa dell’ambiente Adobe Analytics, compreso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora. Queste informazioni sono particolarmente utili quando si inizia a preparare l&#39;aggiornamento a Customer Journey Analytics."
+>abstract="Questa pagina fornisce una panoramica completa dell’ambiente Adobe Analytics, compreso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora. Queste informazioni sono particolarmente utili quando inizi a preparare l’aggiornamento a Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
-L’inventario di Analytics fornisce una panoramica completa dell’ambiente Adobe Analytics, compreso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora. Queste informazioni sono particolarmente utili quando si inizia a preparare l&#39;aggiornamento a Customer Journey Analytics.
+L’inventario di Analytics fornisce una panoramica completa dell’ambiente Adobe Analytics, compreso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora. Queste informazioni sono particolarmente utili quando inizi a preparare l’aggiornamento a Customer Journey Analytics.
 
 L’obiettivo dell’inventario di Analytics è di aiutarti a rispondere alle seguenti domande:
 
@@ -81,7 +81,7 @@ In questa versione iniziale è possibile visualizzare i numeri di inventario di 
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-data-config"
 >title="Configurazione e raccolta dati"
->abstract="Questa sezione mostra il numero di suite di rapporti nell’ambiente Adobe Analytics e l’accesso a Streaming Media. "
+>abstract="Questa sezione mostra il numero di suite di rapporti nell’ambiente Adobe Analytics e il livello di accesso per contenuti in streaming. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -177,13 +177,13 @@ Questa schermata fornisce una visualizzazione dettagliata di tutte le metriche d
 * Puoi ordinare tutte le colonne in ordine crescente/decrescente (solo ordinamento a colonna singola).
 * Puoi fare clic sugli elementi nella breadcrumb per passare a un’altra schermata.
 
-## Gestione utente {#user-management}
+## Gestione degli utenti {#user-management}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-user-management"
->title="Gestione utente"
+>title="Gestione degli utenti"
 >abstract="Questa sezione mostra il numero di utenti nell’ambiente Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
