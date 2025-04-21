@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '6311'
 ht-degree: 94%
@@ -227,12 +227,12 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 15 giugno 2021 | Sono state aggiornate le [best practice per i canali di marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=it). |
 | 3 giugno 2021 | La documentazione è stata aggiornata per spiegare meglio l’[implementazione di feed dati](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=it) e in [questa sezione](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=it#BucketOwnerFullControl). |
 | 25 maggio 2021 | È stata aggiornata la documentazione sulla [sensibilità alle maiuscole/minuscole nelle eVar nei rapporti](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=it). |
-| 13 maggio 2021 | È stata aggiornata la sezione sulle [richieste API Data Warehouse](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Ora supportano “Ore”. |
+| 13 maggio 2021 | È stata aggiornata la sezione sulle [richieste API Data Warehouse](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/). Ora supportano “Ore”. |
 | **Marzo 2021** | |
 | Marzo, aprile 2021 | Sono state aggiornate la [guida per i dirigenti](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=it) e la [guida per i curatori](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=it) dei dashboard di Adobe Analytics. |
 | 25 marzo 2021 | È stata aggiunta la documentazione sulla pagina [!UICONTROL Components] > [!UICONTROL User preferences]. Consente di gestire le impostazioni di [!UICONTROL Analysis Workspace] e dei relativi componenti per l’utente. Le impostazioni di [!UICONTROL User preferences] sono applicabili a tutti i nuovi progetti e pannelli. <br>**Nota:** le seguenti impostazioni sono state spostate nella pagina [!UICONTROL User preferences]:<ul><li>Impostazioni dei rapporti: Separatore delle migliaia (ora denominato _Formato numero_)</li><li>Impostazioni dei rapporti: Separatore CSV</li><li>Progetti Workspace: Aiuto > Abilita suggerimenti</li><li>Progetti Workspace: opzione _Avvia nuovi progetti con questo pannello_ per pannello vuoto</li></ul> |
 | 25 marzo 2021 | [!UICONTROL Histogram Smart Bucket Prediction] facilita l’uso di istogrammi con metriche di elevata cardinalità, individuando in automatico la larghezza e il numero giusto di bucket in base alla distribuzione dei dati. Per le metriche a bassa cardinalità, la visualizzazione si comporta come in precedenza. |
-| 25 marzo 2021 | È stata aggiornata la sezione sull’[API Data Repair](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) (filtraggio per URL, stringhe di query, simboli chiocciola e altro) |
+| 25 marzo 2021 | È stata aggiornata la sezione sull’[API Data Repair](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) (filtraggio per URL, stringhe di query, simboli chiocciola e altro) |
 | 25 marzo 2021 | È stata aggiunta la documentazione sull’[API del registro di utilizzo](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md). |
 | **Febbraio 2021** | |
 | 4 febbraio 2021 | Scelta del componente: il componente per la zona di rilascio o a discesa disponibile in [!UICONTROL Quick Insights] è stato aggiunto a tutte le zone di rilascio in [!UICONTROL Workspace]. Questo miglioramento consente di scegliere da un elenco a discesa di componenti compatibili o continuare a utilizzare lo spazio come zona di rilascio. |

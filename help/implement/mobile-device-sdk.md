@@ -4,22 +4,19 @@ description: Stabilire quale libreria mobile AppMeasurement utilizzare.
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 41%
+source-wordcount: '82'
+ht-degree: 37%
 
 ---
 
 # Implementazione di Analytics per dispositivi mobili
 
-Per implementare Analytics per dispositivi mobili, utilizza l’SDK di Adobe Experience Platform Mobile. Per ulteriori informazioni, consulta [Panoramica dell&#39;SDK di Mobile](aep-edge/mobile-sdk/overview.md).
+Per implementare Analytics per dispositivi mobili, utilizza Adobe Experience Platform Mobile SDK.
 
-## SDK per dispositivi mobili di Adobe Experience Platform
-
-* [Archivio iOS SDK](https://github.com/adobe/aepsdk-analytics-ios)
-* [Archivio Android SDK](https://github.com/adobe/aepsdk-analytics-android)
-* [Documentazione](https://sdkdocs.com/)
+* Consulta [Implementare Adobe Analytics utilizzando Adobe Experience Platform Mobile SDK](aep-edge/mobile-sdk/overview.md) per ulteriori informazioni specifiche su Adobe Analytics.
+* Consulta la [documentazione di Mobile SDK](https://developer.adobe.com/client-sdks/home/) per scaricare e installare gli SDK.
 
 ## SDK per dispositivi mobili versione 4
 

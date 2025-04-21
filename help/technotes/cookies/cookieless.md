@@ -4,10 +4,10 @@ description: Scopri come mitigare l’effetto delle limitazioni dei cookie del b
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Queste limitazioni del browser riflettono un più ampio allontanamento dal tracc
 
 La raccolta lato server offre la flessibilità di fornire il proprio identificatore anziché fare affidamento sui meccanismi del browser per l’impostazione dei cookie.
 
-Puoi inviare dati al lato server di Analytics utilizzando l’[API di inserimento dati](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o l’[API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). L’API di inserimento dati in blocco è consigliata per le nuove implementazioni lato server. Per un confronto tra le due API, consulta “[Quale strumento di Adobe Analytics dovrei utilizzare](/help/analyze/get-started/which-analytics-tool.md).”
+Puoi inviare dati al lato server di Analytics utilizzando l’[API di inserimento dati](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) o l’[API di inserimento dati in blocco](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/). L’API di inserimento dati in blocco è consigliata per le nuove implementazioni lato server. Per un confronto tra le due API, consulta “[Quale strumento di Adobe Analytics dovrei utilizzare](/help/analyze/get-started/which-analytics-tool.md).”
 
 ## ID dispositivo di prime parti (FPID) con Web SDK
 
