@@ -3,9 +3,9 @@ title: Gestione set di classificazione
 description: Gestisci i set di classificazione in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '344'
 ht-degree: 9%
 
 ---
@@ -23,6 +23,8 @@ I set di classificazione sono costituiti da **Sottoscrizioni** (suite di rapport
 Il lato sinistro di Gestione set di classificazione fornisce le impostazioni del filtro per individuare il set di classificazione desiderato. Facendo clic sull’icona del filtro si attiva la visibilità delle impostazioni del filtro. È possibile filtrare i set di classificazione per **[!UICONTROL Tags]** o **[!UICONTROL Report suite]**.
 
 ![Filtri per set di classificazione](../../assets/classification-set-filters.png)
+
+Tieni presente che vengono precaricati 1.000 set di classificazione alla volta. I filtri mostrati nella barra a sinistra riflettono le opzioni per i set precaricati.
 
 ## Colonne di Gestione set di classificazione
 

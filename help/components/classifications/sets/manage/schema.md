@@ -3,10 +3,10 @@ title: Schema del set di classificazione
 description: Visualizza e modifica lo schema per un singolo set di classificazione.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 42%
+source-wordcount: '528'
+ht-degree: 34%
 
 ---
 
@@ -21,7 +21,7 @@ Visualizza le dimensioni di classificazione attualmente configurate per questo s
 Sono disponibili i seguenti pulsanti:
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL Upload]**: carica manualmente i dati di classificazione per una o più dimensioni di classificazione. Sono supportati `JSON`, `CSV`, `TSV` e `TAB` file. Il caricamento di un file valido mostra un’anteprima della tabella dei dati da classificare.
+* **[!UICONTROL Upload]**: carica manualmente i dati di classificazione per una dimensione di classificazione. Sono supportati `JSON`, `CSV`, `TSV` e `TAB` file. Il caricamento di un file valido mostra un’anteprima della tabella dei dati da classificare.
    * **[!UICONTROL File encoding]**: selezionare la codifica file corretta utilizzando questo elenco a discesa. Le opzioni valide includono [!UICONTROL UTF-8] e [!UICONTROL Latin1].
    * **[!UICONTROL List delimiter]**: seleziona il delimitatore elenco corretto. Se utilizzi un file scaricato o un file modello, assicurati che il [!UICONTROL List delimiter] qui corrisponda al [!UICONTROL List delimiter] di quando il file è stato scaricato.
    * **[!UICONTROL Apply]**: salva i dati di classificazione caricati nel set di classificazione.
@@ -59,3 +59,13 @@ Sono disponibili i seguenti pulsanti:
    * **[!UICONTROL Delimiter]**: delimitatore di colonna per i file caricati. Le opzioni disponibili sono [!UICONTROL Comma], [!UICONTROL Semicolon], [!UICONTROL Colon], [!UICONTROL Vertical bar], [!UICONTROL Space], [!UICONTROL Forward slash], [!UICONTROL Backward slash], [!UICONTROL Dash] o [!UICONTROL Underscore].
 
    * **[!UICONTROL Encoding]**: elenco a discesa che determina la codifica del file. Le opzioni includono [!UICONTROL UTF-8] e [!UICONTROL Latin1]. Si consiglia UTF-8.
+
+Le azioni seguenti sono disponibili solo dopo aver selezionato una classificazione.
+
+* **Aggiungi ricerca**: una tabella di ricerca è una classificazione di una classificazione. Si tratta di metadati relativi a un valore di classificazione, anziché alla variabile stessa. Ad esempio, la variabile di prodotto potrebbe avere una classificazione &quot;codice colore&quot;. Una tabella di ricerca di &quot;nome colore&quot; può essere associata a &quot;codice colore&quot; per spiegare quali sono i colori.
+
+  ![Allega tabella di ricerca](../../assets/lookup.png)
+
+* **Rinomina**: consente di rinominare la classificazione.
+
+* **Elimina**: consente di eliminare la classificazione.
