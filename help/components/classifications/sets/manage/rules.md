@@ -3,9 +3,9 @@ title: Regole del set di classificazione
 description: Visualizzare e modificare le regole per un singolo set di classificazione.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '428'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 3%
 Le regole del set di classificazione consentono di classificare automaticamente i valori in base al valore su cui è impostata la variabile. Queste regole si applicano a tutti i valori delle variabili in entrata per tutte le sottoscrizioni del set di classificazione.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Fai clic sul nome del set di classificazione desiderato > **[!UICONTROL Rules]**
+
+![interfaccia utente regole set di classificazione](../../assets/csets-rules.png)
 
 ## Impostazioni delle regole
 

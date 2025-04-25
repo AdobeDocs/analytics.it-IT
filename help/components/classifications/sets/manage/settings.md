@@ -3,10 +3,10 @@ title: Impostazioni del set di classificazione
 description: Creare o modificare un set di classificazione.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 100%
+source-wordcount: '123'
+ht-degree: 97%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 Configurare le impostazioni di un set di classificazione.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Fai clic sul nome del set di classificazione desiderato > **[!UICONTROL Settings]**
+
+![impostazioni set di classificazione](../../assets/classification-set-settings.png)
 
 In questa scheda sono disponibili i campi seguenti:
 

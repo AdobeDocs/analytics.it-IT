@@ -3,10 +3,10 @@ title: Schema del set di classificazione
 description: Visualizza e modifica lo schema per un singolo set di classificazione.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 43%
+source-wordcount: '452'
+ht-degree: 42%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 43%
 Visualizza le dimensioni di classificazione attualmente configurate per questo set di classificazione.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Fai clic sul nome del set di classificazione desiderato > **[!UICONTROL Schema]**
+
+![interfaccia utente schema set di classificazione](../../assets/classification-set-schema.png)
 
 Sono disponibili i seguenti pulsanti:
 
