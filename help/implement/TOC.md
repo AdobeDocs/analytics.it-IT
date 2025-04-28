@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 87%
 
 ---
 
@@ -130,30 +130,29 @@ ht-degree: 100%
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
-      + [websiteBot](vars/plugins/websitebot.md)
    + [Integrate Module](vars/integrate.md)
-+ Preparazione all’implementazione di Adobe Analytics {#prepare}
++ Preparare l’implementazione di Adobe Analytics {#prepare}
    + [Creare un livello dati](prepare/data-layer.md)
    + [Confrontare i metodi di implementazione](prepare/comparison.md)
    + [Considerazioni globali sulla suite di rapporti](prepare/global-rs.md)
    + [Implementazione dell’assegnazione tag per più suite](prepare/multi-suite-tagging.md)
    + [Creare un documento di progettazione della soluzione](prepare/solution-design.md)
    + [Prendere in consegna un’implementazione Adobe Analytics esistente](prepare/existing-implementation.md)
-+ Implementazione di Analytics tramite Experience Platform Edge {#aep-edge}
++ Implementazione di Analytics con Experience Platform Edge {#aep-edge}
    + [Panoramica di Experience Edge](aep-edge/overview.md)
    + [Mappatura variabile oggetto dati](aep-edge/data-var-mapping.md)
    + [Mappatura variabile oggetto XDM](aep-edge/xdm-var-mapping.md)
-   + SDK per web {#web-sdk}
+   + Web SDK {#web-sdk}
       + [Panoramica dell’SDK web](aep-edge/web-sdk/overview.md)
       + [Migrare a Web SDK utilizzando i tag](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
       + [Migrare a Web SDK utilizzando JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
       + [Nuova implementazione tramite tag](aep-edge/web-sdk/web-sdk-tag-extension.md)
       + [Nuova implementazione tramite JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
-   + SDK per dispositivi mobili {#mobile-sdk}
+   + Mobile SDK {#mobile-sdk}
       + [Panoramica dell’SDK per dispositivi mobili](aep-edge/mobile-sdk/overview.md)
    + API server {#server-api}
       + [Panoramica API server](aep-edge/server-api/overview.md)
-+ Implementare Analytics tramite l’estensione Adobe Analytics {#launch}
++ Implementazione di Analytics tramite l’estensione Adobe Analytics {#launch}
    + [Panoramica sui tag](launch/overview.md)
    + [Creare una proprietà tag in Adobe Analytics](launch/create-analytics-property.md)
    + [Implementare in un ambiente di sviluppo](launch/deploy-dev.md)
@@ -190,13 +189,13 @@ ht-degree: 100%
    + [Utilizzare AppMeasurement con iFrame](use-cases/iframe.md)
    + [Tracciare diversi tipi di implementazione](use-cases/cross-type-implementation.md)
    + [Flusso di lavoro di tracciamento delle campagne](use-cases/campaign-tracking.md)
-+ Convalida dell’implementazione {#validate}
++ Convalidare l’implementazione {#validate}
    + [Debugger legacy di Adobe Experience Cloud](validate/debugger.md)
    + [Parametri query della raccolta dati](validate/query-parameters.md)
    + [Monitor per pacchetti](validate/packet-monitor.md)
    + [Collisioni hash](validate/hash-collisions.md)
 + [Domande frequenti](faq.md)
-+ Verificare l’implementazione {#review}
++ Verifica l’implementazione {#review}
    + [Revisione mirata (dopo ogni rilascio del sito web)](review/focused-review.md)
    + [Revisione completa (ogni 6 mesi)](review/full-review.md)
    + [Definire i primi 5 KPI](review/define-kpis.md)
