@@ -3,16 +3,16 @@ title: Processo di consolidamento del set di classificazione
 description: Processo completo di consolidamento dei set di classificazione.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: 828f41bf45c1954c3b68ad71a7746e24626b9eed
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
 # Processo di consolidamento del set di classificazione
 
-Utilizzare questa interfaccia per creare un consolidamento del set di classificazione dall&#39;inizio alla fine.
+I consolidamenti delle classificazioni consentono di prendere classificazioni da più set di dati e combinarle in un unico set. Utilizzare questa interfaccia per creare un consolidamento del set di classificazione dall&#39;inizio alla fine. Questa interfaccia è particolarmente utile per le organizzazioni che passano da un’architettura di classificazione legacy a un’architettura del set di classificazione. La maggior parte delle organizzazioni che si trovano già nell’architettura del set di classificazione in genere non deve utilizzare questo flusso di lavoro di consolidamento.
 
 ## Creazione
 
@@ -45,6 +45,6 @@ Una volta convalidato, il consolidamento può essere eseguito. L&#39;esecuzione 
 
 ## Approvazione
 
-Agisce come ultima chiamata prima di rimuovere i singoli set di classificazione e creare un set di classificazione consolidato. Verificare che tutto sia corretto, quindi fare clic su **[!UICONTROL Approve]**.
+L’ultima chiamata prima di rimuovere singoli set di classificazione e sostituirli con un set di classificazione consolidato. Verificare che tutto sia corretto, quindi selezionare **[!UICONTROL Approve]**.
 
 Una volta approvato, viene creato il set di classificazione consolidato. Lo stato è impostato su [!UICONTROL Complete] e non sono necessarie ulteriori azioni per il consolidamento.

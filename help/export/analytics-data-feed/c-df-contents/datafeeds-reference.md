@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '3607'
+source-wordcount: '3615'
 ht-degree: 66%
 
 ---
@@ -405,3 +405,8 @@ Il seguente elenco di colonne non è utilizzato, è stato ritirato o non contien
 * `videoresume`
 * `videototaltime`
 * `videouniquetimeplayed`
+
+>[!MORELIKETHIS]
+>
+>[Mappatura variabile oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md)
+>[Mappatura variabile oggetto dati](/help/implement/aep-edge/data-var-mapping.md)
