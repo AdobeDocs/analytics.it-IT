@@ -4,9 +4,9 @@ title: Domande frequenti e risoluzione dei problemi di Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 49dd8080f74811b7618a8bd4ad278b35e8c02641
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 81%
 
 ---
@@ -74,5 +74,5 @@ Se crei correttamente un report Workspace, ma non sono presenti dati, puoi contr
 +++
 
 +++In qualità di utente di sola lettura, quali azioni posso eseguire in Analysis Workspace?
-Quando un progetto viene condiviso in sola lettura, tutte le funzioni e le caratteristiche di modifica vengono completamente disabilitate e i destinatari possono modificare il menu a discesa solo per applicare un filtro al pannello in modo predefinito.
+Quando un progetto viene condiviso in sola lettura, tutte le funzioni e le caratteristiche di modifica vengono completamente disabilitate e i destinatari possono solo modificare il menu a discesa per applicare un filtro al pannello in modo predefinito.
 +++

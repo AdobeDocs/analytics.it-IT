@@ -4,7 +4,7 @@ title: Panoramica dei pannelli
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '2032'
 ht-degree: 54%
@@ -205,7 +205,7 @@ Per segmentare il pannello, gli utenti possono utilizzare il menu a discesa dei 
 
 I segmenti a discesa dinamici consentono di determinare i valori disponibili in base ai dati all’interno dell’intervallo di reporting del pannello e ai valori in altri segmenti a discesa. Ad esempio, puoi creare due menu a discesa dinamici utilizzando una dimensione Paesi e una dimensione Città. Quando selezioni un paese dall’elenco a discesa **[!UICONTROL Countries]**, l’elenco a discesa **[!UICONTROL Cities]** si adatta in modo dinamico per mostrare solo le città all’interno di quel paese.
 
-Lo stesso concetto si applica a tutte le dimensioni; sono visibili solo gli elementi dimensionali che compaiono nell’intervallo di date del pannello e nei segmenti selezionati. Gli elementi di Dimension selezionati nei segmenti a discesa statici influiscono sui valori disponibili nei segmenti a discesa dinamici. Tuttavia, l’inverso non è vero; gli elementi di Dimension selezionati nei segmenti a discesa dinamici non influiscono sui valori disponibili nei segmenti a discesa statici.
+Lo stesso concetto si applica a tutte le dimensioni; sono visibili solo gli elementi dimensionali che compaiono nell’intervallo di date del pannello e nei segmenti selezionati. Gli elementi Dimension selezionati nei segmenti a discesa statici influiscono sui valori disponibili nei segmenti a discesa dinamici. Tuttavia, l’inverso non è vero; gli elementi Dimension selezionati nei segmenti a discesa dinamici non influiscono sui valori disponibili nei segmenti a discesa statici.
 
 La selezione manuale degli elementi dimensionali è disponibile se prevedi che un certo elemento dimensionale verrà raccolto in futuro. Puoi anche cancellare un segmento a discesa dinamico in modo che non contenga un valore, consentendo ad altri segmenti a discesa dinamici di contenere più valori. Selezionare **[!UICONTROL Reset all]** per cancellare la selezione da tutti i segmenti del menu a discesa per quel pannello.
 

@@ -5,14 +5,14 @@ title: Dimensioni disponibili per le regole di elaborazione
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 13%
 
 ---
 
-# Dimension e metriche disponibili per le regole di elaborazione
+# Dimensioni e metriche disponibili per le regole di elaborazione
 
 Dimensioni e metriche disponibili che è possibile leggere e scrivere utilizzando le regole di elaborazione.
 
@@ -27,10 +27,10 @@ Dimensioni e metriche disponibili che è possibile leggere e scrivere utilizzand
 
 | Attributo | Stato lettura/scrittura | Descrizione |
 | --- | --- | --- |
-| URL della pagina | Lettura e scrittura | La dimensione [URL pagina](/help/components/dimensions/page-url.md). Gli hit di tracciamento dei collegamenti eliminano questa dimensione prima di raggiungere le regole di elaborazione. Se inserisci nuovamente un valore URL della pagina utilizzando le regole di elaborazione, l&#39;hit viene considerato come [Visualizzazione pagina](/help/components/metrics/page-views.md) invece di [Evento pagina](/help/components/metrics/page-events.md). L’Adobe consiglia di verificare la presenza di un valore nella dimensione pagina prima di modificarlo. |
-| Nome pagina | Lettura e scrittura | La dimensione [Pagina](/help/components/dimensions/page.md). Gli hit di tracciamento dei collegamenti eliminano questa dimensione prima di raggiungere le regole di elaborazione. Se inserisci nuovamente un valore di pagina utilizzando le regole di elaborazione, l&#39;hit viene considerato come [Visualizzazione pagina](/help/components/metrics/page-views.md) invece di [Evento pagina](/help/components/metrics/page-events.md). L’Adobe consiglia di verificare la presenza di un valore nella dimensione pagina prima di modificarlo. |
+| URL della pagina | Lettura e scrittura | La dimensione [URL pagina](/help/components/dimensions/page-url.md). Gli hit di tracciamento dei collegamenti eliminano questa dimensione prima di raggiungere le regole di elaborazione. Se inserisci nuovamente un valore URL della pagina utilizzando le regole di elaborazione, l&#39;hit viene considerato come [Visualizzazione pagina](/help/components/metrics/page-views.md) invece di [Evento pagina](/help/components/metrics/page-events.md). Adobe consiglia di verificare la presenza di un valore nella dimensione pagina prima di modificarlo. |
+| Nome pagina | Lettura e scrittura | La dimensione [Pagina](/help/components/dimensions/page.md). Gli hit di tracciamento dei collegamenti eliminano questa dimensione prima di raggiungere le regole di elaborazione. Se inserisci nuovamente un valore di pagina utilizzando le regole di elaborazione, l&#39;hit viene considerato come [Visualizzazione pagina](/help/components/metrics/page-views.md) invece di [Evento pagina](/help/components/metrics/page-events.md). Adobe consiglia di verificare la presenza di un valore nella dimensione pagina prima di modificarlo. |
 | ID suite di rapporti | Sola lettura | La suite di rapporti su cui viene eseguita la regola di elaborazione. Questa suite di rapporti può essere diversa dalla suite di rapporti inviata originariamente tramite AppMeasurement, ad esempio quando si utilizzano le regole VISTA. |
-| Versione codice AppMeasurement | Sola lettura | Versione della libreria di AppMeasurement utilizzata per generare la richiesta di immagine. |
+| Versione codice AppMeasurement | Sola lettura | Versione della libreria AppMeasurement utilizzata per generare la richiesta di immagine. |
 | Indirizzo IP | Sola lettura | L’indirizzo IP del visitatore. |
 | Agente utente | Sola lettura | Agente utente del visitatore. |
 | Pagina di provenienza | Sola lettura | La dimensione [Referrer](/help/components/dimensions/referrer.md). |
@@ -49,7 +49,7 @@ Dimensioni e metriche disponibili che è possibile leggere e scrivere utilizzand
 
 | Variabile | Stato lettura/scrittura | Descrizione |
 | --- | --- | --- |
-| eVar 1-250 | Lettura e scrittura | [Dimensioni eVar](/help/components/dimensions/evar.md). |
+| eVar 1-250 | Lettura e scrittura | [dimensioni eVar](/help/components/dimensions/evar.md). |
 | Campaign | Lettura e scrittura | La dimensione [Codice di tracciamento](/help/components/dimensions/tracking-code.md). |
 | ID acquisto | Lettura e scrittura | La variabile di implementazione [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
 | Stato | Lettura e scrittura | La variabile di implementazione [`state`](/help/implement/vars/page-vars/state.md) è stata ritirata. |
@@ -75,7 +75,7 @@ Tutte le [Variabili di dati di contesto](/help/implement/vars/page-vars/contextd
 
 ## Eventi di successo
 
-Le regole di elaborazione possono impostare gli eventi ma non possono leggerli come condizioni. Imposta il menu a discesa delle azioni della regola su **[!UICONTROL Set event]** per visualizzare le metriche disponibili da incrementare.
+Le regole di elaborazione possono impostare gli eventi ma non possono leggerli come condizioni. Impostare l&#39;elenco a discesa dell&#39;azione regola su **[!UICONTROL Set event]** per visualizzare le metriche disponibili da incrementare.
 
 | Variabile | Stato lettura/scrittura | Descrizione |
 | --- | --- | --- |

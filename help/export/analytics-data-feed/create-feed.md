@@ -3,10 +3,10 @@ title: Creare un feed dati
 description: Scopri come creare un feed di dati e le informazioni sui file da fornire ad Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '4124'
-ht-degree: 46%
+source-wordcount: '4125'
+ht-degree: 47%
 
 ---
 
@@ -117,7 +117,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
          {style="table-layout:auto"}
 
-      1. Seleziona [!UICONTROL **Aggiungi percorso**], quindi specifica le seguenti informazioni:
+      1. Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni:
 
          | Campo | Funzione |
          |---------|----------|
@@ -190,7 +190,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
          {style="table-layout:auto"}
 
-      1. Seleziona [!UICONTROL **Aggiungi percorso**], quindi specifica le seguenti informazioni:
+      1. Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni:
 
          | Campo | Funzione |
          |---------|----------|
@@ -266,7 +266,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
          {style="table-layout:auto"}
 
-      1. Seleziona [!UICONTROL **Aggiungi percorso**], quindi specifica le seguenti informazioni:
+      1. Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni:
 
          | Campo | Funzione |
          |---------|----------|
@@ -335,7 +335,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
          {style="table-layout:auto"}
 
-      1. Seleziona [!UICONTROL **Aggiungi percorso**], quindi specifica le seguenti informazioni:
+      1. Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni:
 
          | Campo | Funzione |
          |---------|----------|
@@ -355,7 +355,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
 +++
 
-1. Nella sezione [!UICONTROL **Definizioni colonne dati**], seleziona il modello [!UICONTROL **All Adobe Columns**] più recente nel menu a discesa, quindi completa i campi seguenti:
+1. Nella sezione [!UICONTROL **Definizioni colonne dati**], seleziona il modello [!UICONTROL **Tutte le colonne Adobe**] più recente nel menu a discesa, quindi completa i campi seguenti:
 
    | Campo | Funzione |
    |---------|----------|
@@ -385,7 +385,7 @@ Le informazioni seguenti forniscono informazioni di configurazione per ciascuna 
 
 ### FTP
 
-I dati del feed di dati possono essere inviati a una posizione FTP ospitata dal cliente o da un Adobe. Richiede un host FTP, un nome utente e una password. Utilizza il campo del percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste.
+I dati del feed dati possono essere inviati a una posizione FTP di Adobe o ospitata dal cliente. Richiede un host FTP, un nome utente e una password. Utilizza il campo del percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste.
 
 Per completare i campi disponibili, utilizza le seguenti informazioni:
 

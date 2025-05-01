@@ -4,10 +4,10 @@ title: Configurare una visualizzazione dell’abbandono
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 36%
+ht-degree: 39%
 
 ---
 
@@ -23,7 +23,7 @@ Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e segmenti. Ad
 
 ## Utilizzo
 
-1. Aggiungi una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]**. Vedi [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Aggiungi una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]**. Consulta [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 1. Trascina una pagina, ad esempio Home, dalla dimensione Pagina al menu a discesa *Aggiungi punto di contatto*.
 
    ![La home page dalla dimensione Home page è stata trascinata nel campo Aggiungi punto di contatto.](assets/fallout-drag.png)
@@ -58,7 +58,7 @@ Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e segmenti. Ad
 
 Come parte della visualizzazione, sono disponibili impostazioni specifiche.
 
-| Contenitore Abbandono | Descrizione |
+| Contenitore Fallout | Descrizione |
 |--- |--- |
 | **[!UICONTROL Session]** o **[!UICONTROL Person]** | Passa da [!UICONTROL Session] a [!UICONTROL Person] per analizzare il percorso della persona. Il valore predefinito è [!UICONTROL Person]. Queste impostazioni consentono di comprendere il coinvolgimento di persone a livello di persona singola (attraverso più sessioni) o di limitare l’analisi a una singola sessione. |
 
@@ -80,8 +80,8 @@ Come parte della visualizzazione, sono disponibili opzioni di menu di scelta rap
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
