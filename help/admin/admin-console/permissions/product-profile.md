@@ -4,10 +4,10 @@ description: Scopri come i profili di prodotto possono essere utilizzati come pr
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: ed7b25491de5c1238e846997ec903df4fd4ee18c
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 80%
+source-wordcount: '669'
+ht-degree: 59%
 
 ---
 
@@ -30,7 +30,7 @@ Per informazioni su come assegnare gli amministratori dei profili di prodotto, c
 
 ## Autorizzazioni Adobe Analytics
 
-Le autorizzazioni minime necessarie in un profilo di prodotto per accedere ad Adobe Analytics sono le seguenti:
+Le autorizzazioni minime necessarie in un singolo profilo di prodotto per accedere ad Adobe Analytics sono le seguenti:
 
 * Il profilo di prodotto deve avere accesso ad almeno una suite di rapporti
 * Il profilo di prodotto deve appartenere all&#39;elemento di autorizzazione Strumenti di Analytics **Accesso ad Analysis Workspace**.
@@ -47,7 +47,7 @@ Le metriche personalizzate sono etichettate “Evento personalizzato 1-1000” p
 
 ### Dimensioni
 
-Consente di accedere alle dimensioni nella suite di rapporti. I Dimension sono elencati come rispettivi componenti in Analysis Workspace.
+Consente di accedere alle dimensioni nella suite di rapporti. Le dimensioni sono elencate come rispettivi componenti in Analysis Workspace.
 
 Le variabili personalizzate, come le eVar, sono etichettate “Conversione personalizzata 1-250” per mantenerle indipendenti dalle suite di rapporti. Se “Conversione personalizzata 1” è un elemento di autorizzazione abilitato, l’utente ha accesso a eVar1 in tutte le suite di rapporti nel profilo di prodotto.
 
@@ -61,6 +61,6 @@ Gli elementi di autorizzazione degli strumenti di Analytics concedono l’access
 
 ## Sviluppatori di profili di prodotto
 
-Gli sviluppatori sono simili agli utenti, tranne per il fatto che possono utilizzare l’API Experience Cloud per gli sviluppatori Adobe. Per ulteriori informazioni, consulta [Gestione sviluppatori](https://helpx.adobe.com/it/enterprise/using/manage-developers.html) nella guida utente Enterprise. Se a un utente viene concesso l’accesso per sviluppatori per qualsiasi profilo, può accedere alla Console per sviluppatori (console.adobe.io) e modificare le integrazioni Adobe Analytics. Le chiamate e le risposte API di Analytics autorizzate per l’utente dipenderanno dalle autorizzazioni nette di tutti i profili in cui l’utente dispone di Accesso per sviluppatori.
+Gli sviluppatori sono simili agli utenti, tranne per il fatto che possono utilizzare l’API Experience Cloud su Adobe Developer. Per ulteriori informazioni, consulta [Gestione sviluppatori](https://helpx.adobe.com/it/enterprise/using/manage-developers.html) nella guida utente Enterprise. Se a un utente viene concesso l’accesso come sviluppatore per qualsiasi profilo, può accedere alla Console per sviluppatori (console.adobe.io) e modificare le integrazioni Adobe Analytics. Le chiamate e le risposte API di Analytics autorizzate per l’utente dipendono dalle autorizzazioni nette di tutti i profili a cui l’utente ha accesso come sviluppatore.
 
-Ad esempio, con le autorizzazioni di profilo che includono tutte le metriche, tutte le dimensioni e una suite di rapporti, un membro di Developer Access del profilo potrebbe effettuare chiamate API rilevanti per qualsiasi componente della suite pertinente. Aggiungendo la funzione Rilevamento anomalie, i rapporti potrebbero includere risposte più complete, che verranno aggiunte nei dati delle anomalie. Di regola, se un profilo concede l’accesso a uno scenario all’interno dell’interfaccia di Adobe Analytics, Accesso per sviluppatori su un profilo definito in modo simile attiverebbe le chiamate e le risposte API corrispondenti.
+Ad esempio, con autorizzazioni di profilo che includono tutte le metriche, tutte le dimensioni e una suite di rapporti, uno sviluppatore può effettuare chiamate API rilevanti per qualsiasi componente all’interno di tale suite di rapporti. Se viene aggiunto l’elemento di autorizzazione per il rilevamento delle anomalie, le risposte API possono includere dati sulle anomalie. Di regola, se un profilo concede l’accesso a uno scenario all’interno dell’interfaccia di Adobe Analytics, l’accesso degli sviluppatori a un profilo definito in modo simile abiliterebbe le chiamate e le risposte API corrispondenti.
