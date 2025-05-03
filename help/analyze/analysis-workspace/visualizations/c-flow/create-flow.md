@@ -4,14 +4,66 @@ title: Configurare una visualizzazione del flusso
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
+source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 42%
+source-wordcount: '1516'
+ht-degree: 39%
 
 ---
 
-# Configurare una visualizzazione del flusso
+# Configurare una visualizzazione del flusso {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="Inizia con"
+>abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="Contiene"
+>abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="Termina con"
+>abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="Dimensione percorso"
+>abstract="Seleziona una dimensione da utilizzare come percorso per passare dal componente selezionato a quello precedente."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="Contenitore Flusso"
+>abstract="Seleziona il contenitore da utilizzare per visualizzare (i numeri per) il percorso."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="Includi ripetizioni (disattivato)"
+>abstract="Le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="Includi ripetizioni"
+>abstract="Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione consente di includere o escludere istanze ripetute, ad esempio: ricaricamenti della pagina."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="Limita alla prima/ultima occorrenza"
+>abstract="I risultati sono limitati ai percorsi quando il primo/ultimo punto di contatto è un punto di ingresso/uscita."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="Numero di colonne"
+>abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="Elementi espansi per colonna"
+>abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
+
+
 
 Le visualizzazioni Flusso ti consentono di comprendere il percorso che deriva da o precede un evento di conversione specifico sul tuo sito web o sulla tua app. Questo traccia un percorso attraverso le dimensioni (e gli elementi dimensionali) o le metriche.
 
@@ -21,7 +73,7 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
 
 ## Utilizzo
 
-1. Aggiungi una visualizzazione ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]**. Vedi [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Aggiungi una visualizzazione ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]**. Consulta [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 1. Aggancia la visualizzazione Flusso tramite una delle tre opzioni seguenti:
 
@@ -39,7 +91,7 @@ Le visualizzazioni Flusso consentono di configurare l’inizio o la fine del per
    >
    >Impossibile utilizzare le metriche calcolate nei campi **[!UICONTROL Starts with]** o **[!UICONTROL Ends with]**.
 
-1. Se scegli una metrica, devi anche fornire un [!UICONTROL **Dimension di percorsi**] da utilizzare come percorso che porta o proviene dal componente selezionato, come mostrato di seguito. Il valore predefinito è [!UICONTROL **Pagina**].
+1. Se scegli una metrica, devi anche fornire un [!UICONTROL **percorso Dimension**] da utilizzare come percorso che porta o proviene dal componente selezionato, come mostrato di seguito. Il valore predefinito è [!UICONTROL **Pagina**].
 
    ![Configurazione del flusso](assets/flow-configure.png)
 
@@ -146,9 +198,9 @@ Nell&#39;esempio seguente sono incluse **tutte** le occorrenze di *categoria pri
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 
