@@ -4,9 +4,9 @@ title: Configurare una visualizzazione del flusso
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
+source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1540'
 ht-degree: 39%
 
 ---
@@ -61,6 +61,11 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="Elementi espansi per colonna"
+>abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_resettoupdate"
+>title="Reimposta per aggiornare"
 >abstract="Questo campo può essere impostato solo sulla build iniziale. Per aggiornare questo campo, selezionare **[!UICONTROL Reset]** per creare una nuova visualizzazione Flusso."
 
 
