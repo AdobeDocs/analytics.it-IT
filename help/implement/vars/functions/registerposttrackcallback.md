@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-Per ulteriori informazioni, consulta [Gestione delle risposte dagli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) nella documentazione di Web SDK.
+Per ulteriori informazioni, consulta [Gestione delle risposte dagli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it#handling-responses-from-events) nella documentazione di Web SDK.
 
 ## Registrare il callback di tracciamento di Post utilizzando l’estensione Adobe Analytics
 

@@ -118,7 +118,7 @@ Torna alla procedura guidata Source dati per istruzioni e carica il file tramite
 
 L’aggiunta di metriche calcolate sarà utile quando si prendono decisioni pay-per-click.
 
-Ad esempio, puoi aggiungere queste [metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics):
+Ad esempio, puoi aggiungere queste [metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=it#calculated-metrics):
 
 | Nome | Formula | Tipi di metriche | Descrizione |
 | --- | --- | --- | --- |

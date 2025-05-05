@@ -26,7 +26,7 @@ Per accedere al Report Builder, usa il tuo account di accesso Experience Cloud.
 
 L’accesso di Experience Cloud consente di utilizzare l’Enterprise ID (e-mail e password) per accedere a Adobe Experience Cloud.
 
-Fare clic su **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzati alla pagina Single Sign-On della società. Per ulteriori informazioni sull&#39;Enterprise ID, consulta [Accedi all&#39;account aziendale o dell&#39;istituto di istruzione](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
+Fare clic su **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzati alla pagina Single Sign-On della società. Per ulteriori informazioni sull&#39;Enterprise ID, consulta [Accedi all&#39;account aziendale o dell&#39;istituto di istruzione](https://helpx.adobe.com/it/enterprise/kb/enterprise-id-faq.html#whatis).
 
 ![Schermata che mostra la finestra di accesso di Adobe Experience Cloud con le opzioni di accesso con o senza il tuo Adobe ID](assets/adobe_id_login.png)
 

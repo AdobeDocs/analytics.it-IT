@@ -74,6 +74,6 @@ Per configurare le colonne visibili nel Gestore segmenti:
 
 ## Video tutorial {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-Questo video di [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) offre una breve panoramica sull&#39;utilizzo del Gestore segmenti.
+Questo video di [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=it) offre una breve panoramica sull&#39;utilizzo del Gestore segmenti.
 
 

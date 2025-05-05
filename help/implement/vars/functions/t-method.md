@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Per ulteriori informazioni, consulta [Tracciare gli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) nella documentazione di Web SDK.
+Per ulteriori informazioni, consulta [Tracciare gli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it) nella documentazione di Web SDK.
 
 ## Chiamata di tracciamento per la visualizzazione pagina tramite l’estensione Adobe Analytics
 

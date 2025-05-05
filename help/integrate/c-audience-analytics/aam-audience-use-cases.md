@@ -26,7 +26,7 @@ In qualità di editore multimediale, puoi confrontare i tipi di pubblico di terz
 
 ## Analisi dei potenziali clienti {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-In qualità di rivenditore B2B, ora puoi analizzare in modo approfondito il comportamento del pubblico potenziale immediatamente prima dell&#39;acquisto utilizzando [segmentazione sequenziale](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html), che ti aiuta a capire quali azioni determinano la conversione.
+In qualità di rivenditore B2B, ora puoi analizzare in modo approfondito il comportamento del pubblico potenziale immediatamente prima dell&#39;acquisto utilizzando [segmentazione sequenziale](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=it), che ti aiuta a capire quali azioni determinano la conversione.
 
 ## Targeting demografico {#section_F034DB721A06419283DBD29D4A1B444B}
 

@@ -135,7 +135,7 @@ Eseguire inoltre un [inventario Adobe Analytics](/help/admin/admin/analytics-inv
 
 Se una migrazione non riesce, puoi riprovare.
 
-Prima di ritentare una migrazione non riuscita, assicurati di rimuovere [elementi non supportati](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) dal progetto.
+Prima di ritentare una migrazione non riuscita, assicurati di rimuovere [elementi non supportati](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=it#understand-unsupported-elements-that-cause-errors) dal progetto.
 
 >[!NOTE]
 >

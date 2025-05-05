@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server di raccolta dati di Adobe o dai server responsabili dell’accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall dell’organizzazione per consentire l’accesso e l’invio di dati dall’interno dell’organizzazione.
 
-Tutti gli indirizzi IP utilizzati da Adobe Analytics fanno parte di [indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses), ad eccezione del pacchetto aggiuntivo di ottimizzazione delle prestazioni per la Cina.
+Tutti gli indirizzi IP utilizzati da Adobe Analytics fanno parte di [indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/ip-addresses), ad eccezione del pacchetto aggiuntivo di ottimizzazione delle prestazioni per la Cina.
 
 ## Indirizzi IP per l’ottimizzazione delle prestazioni della Cina
 
@@ -36,6 +36,6 @@ I server di raccolta dati regionali in Cina utilizzano i seguenti indirizzi IP:
 
 >[!MORELIKETHIS]
 >
->[Indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>[Indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/ip-addresses)
 >
 >[Domini utilizzati da Adobe Analytics](domains.md)

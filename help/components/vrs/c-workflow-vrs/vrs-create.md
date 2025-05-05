@@ -65,7 +65,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Regolare la
 ![](assets/components.png)
 
 1. Nella scheda [!UICONTROL Components], seleziona la casella di controllo per applicare la cura in modo da includere, escludere e rinominare i componenti per questa suite di rapporti virtuale in Analysis Workspace.
-Per ulteriori informazioni sulla cura delle suite di rapporti virtuali, consulta [Cura dei componenti delle suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
+Per ulteriori informazioni sulla cura delle suite di rapporti virtuali, consulta [Cura dei componenti delle suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=it#virtual-report-suites).
 
 1. Trascina i componenti (dimensioni, metriche, segmenti o intervalli di date) che vuoi includere nella suite di rapporti virtuali nella sezione [!UICONTROL Included Components].
 

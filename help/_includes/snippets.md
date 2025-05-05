@@ -11,8 +11,8 @@ ht-degree: 35%
 
 >[!IMPORTANT]
 >
->Una nuova e semplificata [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) è stata rilasciata il 16 ottobre 2024. È supportato su Mac, Windows e browser web.
->Questa versione del componente aggiuntivo Legacy Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) legacy al nuovo Report Builder.
+>Una nuova e semplificata [Report Builder](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/rb-overview) è stata rilasciata il 16 ottobre 2024. È supportato su Mac, Windows e browser web.
+>Questa versione del componente aggiuntivo Legacy Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/convert-workbooks) legacy al nuovo Report Builder.
 
 ## Annuncio sulla fine del ciclo di vita di Reports & Analytics {#ra-eol}
 

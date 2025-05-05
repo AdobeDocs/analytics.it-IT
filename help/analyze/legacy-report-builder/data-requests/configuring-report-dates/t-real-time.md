@@ -17,7 +17,7 @@ ht-degree: 7%
 
 Per configurare le date di richiesta in tempo reale:
 
-1. Assicurati che il reporting in tempo reale sia abilitato in [Strumenti di amministrazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+1. Assicurati che il reporting in tempo reale sia abilitato in [Strumenti di amministrazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=it).
 1. In [!UICONTROL Request Wizard: Step 1], fare clic su **[!UICONTROL Real-Time Report]** > **[!UICONTROL `<report type>`]**
 
    Ad esempio, seleziona un rapporto sul traffico. Quando si seleziona un tipo di report in tempo reale, vengono visualizzate le opzioni [!UICONTROL Select Time Range].

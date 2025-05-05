@@ -66,31 +66,31 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td> 4</td>
 <td><b>Installare la versione standalone predefinita</b>. Puoi fare riferimento alla libreria (<code>alloy.js</code>) nel CDN direttamente nella tua pagina oppure scaricarla e ospitarla nella tua infrastruttura. In alternativa, è possibile utilizzare il pacchetto NPM.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">Installazione della versione standalone predefinita</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">Utilizzo del pacchetto NPM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=it">Installazione della versione standalone predefinita</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=it">Utilizzo del pacchetto NPM</a></td>
 </tr>
 
 <tr>
 <td>5</td>
 <td><b>Configura uno stream di dati</b>. Un flusso di dati rappresenta la configurazione lato server durante l’implementazione di Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">Configurare uno stream di dati<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=it">Configurare uno stream di dati<a></td> 
 </tr>
 
 <td>6</td>
 <td><b>Aggiungi un servizio Adobe Analytics</b> allo stream di dati. Tale servizio controlla se e come i dati vengono inviati ad Adobe Analytics e a quali suite di rapporti in particolare.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=it#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Configura Web SDK</b>. Verificare che la libreria installata nel passaggio 4 sia configurata correttamente con l'ID dello stream di dati (precedentemente noto come ID configurazione edge (<code>datastreamId</code>)), l'ID organizzazione (<code>orgId</code>) e altre opzioni disponibili. Assicurati che la mappatura delle variabili sia corretta. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configura Web SDK</a><br/><a href="../xdm-var-mapping.md">Mappatura variabile oggetto XDM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=it">Configura Web SDK</a><br/><a href="../xdm-var-mapping.md">Mappatura variabile oggetto XDM</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Esegui comandi</b> e/o <b>traccia eventi</b>. Una volta implementato il codice di base nella pagina web, puoi iniziare a eseguire comandi ed eventi di tracciamento con l’SDK.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">Inviare eventi</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=it">Inviare eventi</a></td>
 </tr>
 
 <tr>

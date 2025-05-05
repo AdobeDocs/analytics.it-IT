@@ -49,7 +49,7 @@ I dati dei segmenti di Adobe Audience Manager vengono trasmessi in Analytics hit
 
 1. Trascina la dimensione [!UICONTROL Audience Name] nel Generatore di flussi.
 1. Fai clic su **[!UICONTROL Build]**.
-1. (Facoltativo): trascina un&#39;altra dimensione nella visualizzazione Flusso per creare un [flusso interdimensionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html).
+1. (Facoltativo): trascina un&#39;altra dimensione nella visualizzazione Flusso per creare un [flusso interdimensionale](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html?lang=it).
 
 ![](assets/flow-aamaudiences.png)
 

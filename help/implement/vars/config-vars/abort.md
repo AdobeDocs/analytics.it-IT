@@ -31,7 +31,7 @@ return false;
 
 ## Annullare l’invio di un evento implementando manualmente l’SDK web
 
-Utilizza il callback `onBeforeEventSend` e restituisce `false`. Per ulteriori informazioni, consulta [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) nella documentazione di Web SDK.
+Utilizza il callback `onBeforeEventSend` e restituisce `false`. Per ulteriori informazioni, consulta [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it#modifying-events-globally) nella documentazione di Web SDK.
 
 ```js
 alloy("configure"), {

@@ -27,8 +27,8 @@ Puoi:
 * Utilizza qualsiasi evento personalizzato, evento del carrello acquisti o istanza.
 * Visualizzare fino a 20 ore di dati cronologici in tempo reale.
 
-Real-time rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non disponi dei diritti per visualizzare i ricavi, non puoi visualizzare un rapporto in tempo reale che includa i dati sui ricavi. Le eVar (metriche di conversione) non sono supportate. Le autorizzazioni in tempo reale sono abilitate in [Strumenti di amministrazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+Real-time rispetta le autorizzazioni per utenti e gruppi. Ad esempio, se non disponi dei diritti per visualizzare i ricavi, non puoi visualizzare un rapporto in tempo reale che includa i dati sui ricavi. Le eVar (metriche di conversione) non sono supportate. Le autorizzazioni in tempo reale sono abilitate in [Strumenti di amministrazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=it).
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] non corrispondono alla funzionalità [Includi dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html) (Recency dati) rilasciata in precedenza, che ha ridotto la latenza per il reporting standard visualizzando i dati prima che vengano finalizzati.
+>[!UICONTROL Real-Time Reports] non corrispondono alla funzionalità [Includi dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=it) (Recency dati) rilasciata in precedenza, che ha ridotto la latenza per il reporting standard visualizzando i dati prima che vengano finalizzati.

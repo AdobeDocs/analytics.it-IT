@@ -40,7 +40,7 @@ L’obiettivo dell’inventario di Analytics è di aiutarti a rispondere alle se
 
 ## Autorizzazioni
 
-L&#39;inventario di Analytics è disponibile per gli utenti con privilegi di amministratore di prodotto Adobe Analytics in [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics).
+L&#39;inventario di Analytics è disponibile per gli utenti con privilegi di amministratore di prodotto Adobe Analytics in [Adobe Admin Console](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-console/admin-roles-in-analytics).
 
 ## Accedere a Inventario analisi
 
@@ -112,10 +112,10 @@ Le risposte a queste domande ti daranno una buona idea su quali suite di rapport
    | Occorrenze (ultimi 90 giorni) | La metrica &quot;Occorrenze&quot; mostra il numero di hit in cui una determinata dimensione è stata impostata o persistita. Quanti hit ha ricevuto questa suite di rapporti negli ultimi 90 giorni? |
    | Metriche | Quante metriche sono definite in questa suite di rapporti? |
    | Dimensioni | Quante dimensioni sono definite in questa suite di rapporti? |
-   | Analytics for Target (A4T) abilitato | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
-   | Canali marketing abilitati | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Canali di marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
-   | Connettore Source abilitato | Questa suite di rapporti è abilitata per [Adobe Analytics Source Connector per i dati della suite di rapporti](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa suite di rapporti a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
-   | Tipo di calendario | [Nascosto per impostazione predefinita] Per ulteriori informazioni, fare riferimento a [Calendari personalizzati](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Analytics for Target (A4T) abilitato | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Analytics for Target](https://experienceleague.adobe.com/it/docs/target/using/integrate/a4t/a4t)? |
+   | Canali marketing abilitati | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Canali di marketing](https://experienceleague.adobe.com/it/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+   | Connettore Source abilitato | Questa suite di rapporti è abilitata per [Adobe Analytics Source Connector per i dati della suite di rapporti](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa suite di rapporti a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
+   | Tipo di calendario | [Nascosto per impostazione predefinita] Per ulteriori informazioni, fare riferimento a [Calendari personalizzati](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### Analizzare le dimensioni
 
@@ -132,7 +132,7 @@ Questa schermata fornisce una visualizzazione dettagliata di tutte le dimensioni
    | ID | ID dimensione. |
    | Tipo | Tipo di dimensione. I valori possibili includono Conversione, Traffico, Navigazione, Origini del traffico, Clienti, Data o dimensioni specifiche per il prodotto Adobe come AEM, Audience, Adobe Campaign, App mobile, ecc. |
    | Descrizione | Non tutte le dimensioni hanno descrizioni. |
-   | Connettore Source abilitato | Questa dimensione è abilitata per [Adobe Analytics Source Connector per i dati della suite di rapporti](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa dimensione a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
+   | Connettore Source abilitato | Questa dimensione è abilitata per [Adobe Analytics Source Connector per i dati della suite di rapporti](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa dimensione a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
 
 1. Determina quali dimensioni hanno senso migrare a CJA.
 
@@ -153,7 +153,7 @@ Questa schermata fornisce una visualizzazione dettagliata di tutte le metriche d
    | ID | ID della metrica. |
    | Tipo | Il tipo di metrica. I valori possibili includono Conversione, Traffico, Navigazione, Origini del traffico, Clienti, Data o dimensioni specifiche per il prodotto Adobe come AEM, Audience, Adobe Campaign, App mobile, ecc. |
    | Descrizione | Non tutte le dimensioni hanno descrizioni. |
-   | Connettore Source abilitato | Questa metrica è abilitata per [Adobe Analytics Source Connector per i dati della suite di rapporti](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa metrica a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
+   | Connettore Source abilitato | Questa metrica è abilitata per [Adobe Analytics Source Connector per i dati della suite di rapporti](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa metrica a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
 
 1. Determinare quali metriche hanno senso migrare a CJA.
 

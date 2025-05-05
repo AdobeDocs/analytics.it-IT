@@ -26,7 +26,7 @@ Per creare una semplice metrica &quot;Visualizzazioni pagina in base alle visite
 1. Per questa metrica, trascina Visualizzazioni pagina nella sezione [!UICONTROL **Definizione**] dell&#39;area di lavoro, quindi trascina Visite sotto di essa (attendi che la linea blu venga visualizzata prima di rilasciarla).
 1. Selezionare l&#39;operatore Dividi. (Dividi è l&#39;operatore predefinito).
 1. È ora possibile visualizzare **[!UICONTROL Preview]** di tale metrica mentre la si sta creando, in alto a destra.
-1. La compatibilità del prodotto indica se la metrica è compatibile con [Dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) o solo con Dati completamente elaborati.
+1. La compatibilità del prodotto indica se la metrica è compatibile con [Dati correnti](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=it) o solo con Dati completamente elaborati.
 1. Seleziona **[!UICONTROL Save]**.
 
    La formula **[!UICONTROL Summary]** viene aggiornata ogni volta che si apporta una modifica alla definizione della metrica.
