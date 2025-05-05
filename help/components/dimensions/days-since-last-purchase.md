@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Giorni dall’ultimo acquisto
 
-La dimensione &#39;Giorni dall&#39;ultimo acquisto&#39; [1} misura il tempo trascorso tra l&#39;hit corrente del visitatore e il suo acquisto più recente in quel momento. ](overview.md) Questa dimensione ti aiuta a comprendere il comportamento dei visitatori dopo l’acquisto di qualcosa sul sito.
+La dimensione &#39;Giorni dall&#39;ultimo acquisto&#39; [1&rbrace; misura il tempo trascorso tra l&#39;hit corrente del visitatore e il suo acquisto più recente in quel momento. ](overview.md) Questa dimensione ti aiuta a comprendere il comportamento dei visitatori dopo l’acquisto di qualcosa sul sito.
 
 I visitatori che non hanno mai acquistato qualcosa non sono inclusi in questa dimensione. Inoltre, non sono inclusi neanche gli hit generati prima del primo acquisto di un visitatore. Sono inclusi solo gli hit successivi al primo acquisto del visitatore.
 

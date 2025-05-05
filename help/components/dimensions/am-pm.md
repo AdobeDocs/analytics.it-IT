@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # AM/PM
 
-La [dimensione](overview.md) di &#39;AM/PM&#39; fornisce informazioni approfondite su se l&#39;hit si è verificato nelle ore AM o PM. L&#39;ora dell&#39;hit è basata sul fuso orario della suite di rapporti [](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+La [dimensione](overview.md) di &#39;AM/PM&#39; fornisce informazioni approfondite su se l&#39;hit si è verificato nelle ore AM o PM. L&#39;ora dell&#39;hit è basata sul fuso orario della suite di rapporti [&#128279;](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
 ## Popolare questa dimensione con i dati
 

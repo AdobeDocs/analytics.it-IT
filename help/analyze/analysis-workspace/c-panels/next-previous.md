@@ -33,7 +33,7 @@ ht-degree: 38%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Elemento successivo o precedente in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Pannello elemento successivo o precedente](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous)) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) versione _**Customer Journey Analytics** di questo articolo._
+_Questo articolo documenta il pannello Elemento successivo o precedente in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Pannello elemento successivo o precedente](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous)) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) versione _&#x200B;**Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

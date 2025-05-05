@@ -12,7 +12,7 @@ ht-degree: 24%
 
 # Mese dell’anno
 
-La dimensione &#39;Mese dell&#39;anno&#39; [1} riporta il mese di un dato anno come elemento dimensione. ](overview.md) Questo rapporto è utile se desideri un rapporto suddiviso per il mese dell’anno, ma non vuoi una data statica come elementi dimensionali. È possibile aggregare i rapporti su base annua per mese, in modo che i dati di gennaio di quest’anno vengano aggregati con i dati di gennaio dell’anno precedente nello stesso elemento dimensionale.
+La dimensione &#39;Mese dell&#39;anno&#39; [1&rbrace; riporta il mese di un dato anno come elemento dimensione. ](overview.md) Questo rapporto è utile se desideri un rapporto suddiviso per il mese dell’anno, ma non vuoi una data statica come elementi dimensionali. È possibile aggregare i rapporti su base annua per mese, in modo che i dati di gennaio di quest’anno vengano aggregati con i dati di gennaio dell’anno precedente nello stesso elemento dimensionale.
 
 ## Popolare questa dimensione con i dati
 

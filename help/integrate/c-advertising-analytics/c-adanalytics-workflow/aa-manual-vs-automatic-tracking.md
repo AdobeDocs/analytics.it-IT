@@ -98,7 +98,7 @@ La stringa da aggiungere al tuo account Bing è mostrata di seguito. Devi aggiun
 
 >[!IMPORTANT]
 >
->Il valore _`<Advertising Analytics ID>`_(in **bold**di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa del tuo ID account specifico dalla schermata dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
+>Il valore _`<Advertising Analytics ID>`_(in **bold**&#x200B;di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa del tuo ID account specifico dalla schermata dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
 
 **Stringa di tracciamento per le campagne:**
 

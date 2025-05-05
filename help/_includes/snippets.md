@@ -14,7 +14,7 @@ ht-degree: 35%
 >Una nuova e semplificata [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) è stata rilasciata il 16 ottobre 2024. È supportato su Mac, Windows e browser web.
 >Questa versione del componente aggiuntivo Legacy Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) legacy al nuovo Report Builder.
 
-## Annuncio sulla fine del ciclo di vita di Reports &amp; Analytics {#ra-eol}
+## Annuncio sulla fine del ciclo di vita di Reports & Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -83,7 +83,7 @@ Un modello attribuzione determina quali elementi di dimensione ottengono il cred
 
 {style="table-layout:auto"}
 
-## Intervallo di lookback per l&#39;attribuzione {#attribution-lookback-window}
+## Intervallo di lookback per l'attribuzione {#attribution-lookback-window}
 
 Per intervallo di lookback si intende la quantità di tempo che una conversione deve recuperare nel passato per includere i punti di contatto. Se un elemento dimensione è impostato all’esterno dell’intervallo di lookback, il valore non viene incluso in alcun calcolo di attribuzione.
 

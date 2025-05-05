@@ -114,5 +114,6 @@ Una volta completato il progetto e questo sta raccogliendo approfondimenti utili
 * Un ottimo modo per acquisire familiarità con Analysis Workspace è consultare il modello di tutorial di formazione su Analysis Workspace. Questo modello spiega la terminologia e i passaggi comuni per la realizzazione della prima analisi in Workspace. Per iniziare l’esercitazione:
    1. Nella scheda [!UICONTROL **Workspace**] in Adobe Analytics, seleziona **[!UICONTROL Learning]** a sinistra.
    1. Seleziona **[!UICONTROL Open Tutorial]**.
+
       ![](assets/training-tutorial.png)
 

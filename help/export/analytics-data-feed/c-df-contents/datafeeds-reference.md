@@ -200,7 +200,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | **`videoadname`** | La dimensione [Nome annuncio (variabile)](/help/components/dimensions/sm-ads.md) elemento multimediale in streaming. | varchar(255) |
 | **`videoadplayername`** | La dimensione [Nome lettore annuncio](/help/components/dimensions/sm-ads.md) elemento multimediale in streaming. | varchar(255) |
 | **`videoadpod`** | La dimensione [Annuncio pod](/help/components/dimensions/sm-ads.md) di Streaming Media. | varchar(255) |
-| **`videoadvertiser`** | La dimensione Streaming Media dell&#39;inserzionista[](/help/components/dimensions/sm-ads.md). | varchar(255) |
+| **`videoadvertiser`** | La dimensione Streaming Media dell&#39;inserzionista[&#128279;](/help/components/dimensions/sm-ads.md). | varchar(255) |
 | **`videoaudioalbum`** | La [dimensione Album](/help/components/dimensions/sm-audio-metadata.md) Streaming Media. | varchar(255) |
 | **`videoaudioartist`** | La dimensione [Artista](/help/components/dimensions/sm-audio-metadata.md) elemento multimediale in streaming. | varchar(255) |
 | **`videoaudioauthor`** | La dimensione [Autore](/help/components/dimensions/sm-audio-metadata.md) elemento multimediale in streaming. | varchar(255) |

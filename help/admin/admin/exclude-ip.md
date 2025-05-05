@@ -26,8 +26,8 @@ Per escludere i dati per indirizzo IP, puoi configurare le esclusioni come descr
 >* Gli hit esclusi dall&#39;indirizzo IP vengono fatturati come [chiamate al server](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=it).
 >* Non è necessario escludere gli indirizzi IP privati. Solo gli indirizzi IP esterni raggiungono i server di raccolta dati di Adobe. Gli indirizzi privati includono `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` e `169.254.*.*`.
 >* È possibile utilizzare gli indicatori dei caratteri jolly (&#42;) per escludere un intervallo di indirizzi. Ad esempio, `[!DNL 0.0.*.0]` escluderebbe tutti gli indirizzi IP compresi tra `[!DNL 0.0.0.0]` e `[!DNL 0.0.255.0]`. Puoi escludere fino a 50 indirizzi IP diversi.
-* I dati provenienti da un indirizzo IP escluso vengono esclusi per qualsiasi nuovo hit introdotto nel sistema entro 5 minuti dall’impostazione dell’esclusione.
-* I dati per gli hit acquisiti prima del momento in cui sono state apportate le modifiche all’indirizzo IP non sono interessati.
+>* I dati provenienti da un indirizzo IP escluso vengono esclusi per qualsiasi nuovo hit introdotto nel sistema entro 5 minuti dall’impostazione dell’esclusione.
+>* I dati per gli hit acquisiti prima del momento in cui sono state apportate le modifiche all’indirizzo IP non sono interessati.
 >
 
 Per configurare le esclusioni per indirizzo IP:

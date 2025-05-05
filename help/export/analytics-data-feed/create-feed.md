@@ -134,7 +134,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
       1. (Condizionale) Se devi gestire la destinazione (account e percorso) appena creata, questa è disponibile nel [Gestione posizioni](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -208,7 +208,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
       1. (Condizionale) Se devi gestire la destinazione (account e percorso) appena creata, questa è disponibile nel [Gestione posizioni](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -283,7 +283,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
       1. (Condizionale) Se devi gestire la destinazione (account e percorso) appena creata, questa è disponibile nel [Gestione posizioni](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -353,7 +353,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
       1. (Condizionale) Se devi gestire la destinazione (account e percorso) appena creata, questa è disponibile nel [Gestione posizioni](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
 1. Nella sezione [!UICONTROL **Definizioni colonne dati**], seleziona il modello [!UICONTROL **Tutte le colonne Adobe**] più recente nel menu a discesa, quindi completa i campi seguenti:
 

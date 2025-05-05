@@ -32,7 +32,7 @@ L’abilitazione dei rapporti Activity Map crea diverse variabili riservate di b
 
 L’implementazione deve essere configurata correttamente per inviare dati Activity Map ad Adobe.
 
-Estensione tag +++Web SDK
++++Estensione tag Web SDK
 
 La raccolta dati di Activity Map richiede l&#39;estensione **[!UICONTROL Adobe Experience Platform Web SDK]** v2.23 o successiva. Le versioni di estensione fino alla versione v2.16 dispongono di supporto limitato. Le versioni precedenti di queste estensioni inviano i dati Activity Map in un evento separato dagli altri dati. Questo evento aggiuntivo aumenta il numero di hit inviati ad Adobe Analytics o Adobe Experience Platform.
 
@@ -68,7 +68,7 @@ alloy("configure", {
 
 +++
 
-Estensione tag +++Adobe Analytics
++++Estensione tag Adobe Analytics
 
 L&#39;impostazione di configurazione **[!UICONTROL Use Activity Map]** gestisce la raccolta dati Activity Map ed è in genere abilitata per impostazione predefinita. È disponibile per tutte le estensioni tag versione 1.9.0 o successiva. Puoi verificare che sia abilitato nelle impostazioni di configurazione dell&#39;estensione:
 

@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Dispositivi univoci
 
-La metrica [metric](overview.md) relativa ai &#39;dispositivi univoci&#39; è una metrica di analisi tra dispositivi](../cda/overview.md) che conta il numero di dispositivi univoci non identificati e di dispositivi virtuali univoci. [ I dispositivi non identificati sono dispositivi che hanno generato hit anonimi. I dispositivi virtuali univoci sono persone distinte identificate per dispositivo.
+La metrica [metric](overview.md) relativa ai &#39;dispositivi univoci&#39; è una metrica di analisi tra dispositivi[&#128279;](../cda/overview.md) che conta il numero di dispositivi univoci non identificati e di dispositivi virtuali univoci.  I dispositivi non identificati sono dispositivi che hanno generato hit anonimi. I dispositivi virtuali univoci sono persone distinte identificate per dispositivo.
 
 ## Come è calcolata questa metrica
 

@@ -33,7 +33,7 @@ ht-degree: 38%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Punto elenco in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Bullet](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versione del Customer Journey Analytics** di questo articolo._
+_Questo articolo documenta la visualizzazione Punto elenco in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Bullet](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versione del Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOu
 
 | Impostazione | Descrizione |
 |---|---|
-| **[!UICONTROL Bullet options]** | Specificare i valori per **[!UICONTROL High goal]**, **[!UICONTROL Mid goal]** e **[!UICONTROL Low goal]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL High goal]**è l&#39;obiettivo principale a cui stai mirando.**[!UICONTROL Low goal]**e **[!UICONTROL Mid goal]**creano intervalli al di sotto dell&#39;obiettivo High. Nota: quando l&#39;opzione **[!UICONTROL Percentages]**è selezionata, immettere gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
+| **[!UICONTROL Bullet options]** | Specificare i valori per **[!UICONTROL High goal]**, **[!UICONTROL Mid goal]** e **[!UICONTROL Low goal]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL High goal]**&#x200B;è l&#39;obiettivo principale a cui stai mirando.**[!UICONTROL Low goal]**&#x200B;e **[!UICONTROL Mid goal]**&#x200B;creano intervalli al di sotto dell&#39;obiettivo High. Nota: quando l&#39;opzione **[!UICONTROL Percentages]**&#x200B;è selezionata, immettere gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
 
 >[!MORELIKETHIS]
 >
