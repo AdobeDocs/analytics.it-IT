@@ -18,7 +18,7 @@ All’interno di ogni progetto in Analysis Workspace, puoi visualizzare un somma
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sommario](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sommario](https://video.tv.adobe.com/v/328248?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

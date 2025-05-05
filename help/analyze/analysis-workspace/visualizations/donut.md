@@ -37,7 +37,7 @@ Simile a un grafico a torta, la visualizzazione ![GraphDonut](/help/assets/icons
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere una visualizzazione ad anello](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere una visualizzazione ad anello](https://video.tv.adobe.com/v/3416625/?quality=12&captions=ita){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

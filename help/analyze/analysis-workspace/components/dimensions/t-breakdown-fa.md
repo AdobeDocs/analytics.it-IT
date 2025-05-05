@@ -48,7 +48,7 @@ Questo è il comportamento previsto quando si applicano modelli di attribuzione 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche al progetto in Analysis Workspace](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche al progetto in Analysis Workspace](https://video.tv.adobe.com/v/35905?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://video.tv.adobe.com/v/328588?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

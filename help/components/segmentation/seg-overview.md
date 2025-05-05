@@ -242,7 +242,7 @@ Questo video offre una breve panoramica sui contenitori di segmenti e su come ut
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://video.tv.adobe.com/v/3429107?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

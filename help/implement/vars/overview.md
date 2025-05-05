@@ -27,7 +27,7 @@ Adobe offre diversi modi per implementare Adobe Analytics. Ogni pagina offre una
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurazione delle variabili](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurazione delle variabili](https://video.tv.adobe.com/v/37363?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

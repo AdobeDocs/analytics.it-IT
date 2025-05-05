@@ -115,19 +115,19 @@ Le seguenti opzioni del [menu di scelta rapida](../freeform-analysis-visualizati
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica del generatore di tabelle a forma libera](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica del generatore di tabelle a forma libera](https://video.tv.adobe.com/v/35891?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtri per tabelle a forma libera](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtri per tabelle a forma libera](https://video.tv.adobe.com/v/329390?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totali tabelle a forma libera](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totali tabelle a forma libera](https://video.tv.adobe.com/v/39247?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

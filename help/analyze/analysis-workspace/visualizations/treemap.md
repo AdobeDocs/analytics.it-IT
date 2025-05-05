@@ -40,7 +40,7 @@ Con una mappa ad albero, potete vedere dei pattern che sarebbero difficili da in
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa ad albero](https://video.tv.adobe.com/v/334458/?quality=12){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa ad albero](https://video.tv.adobe.com/v/3416855/?quality=12&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

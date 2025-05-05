@@ -47,7 +47,7 @@ Valuta la situazione ed elabora un piano per correggere i dati. Quindi apporta l
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verifica dell&#39;implementazione](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verifica dell&#39;implementazione](https://video.tv.adobe.com/v/3440177?quality=12&learn=on&captions=ita){target="_blank"} per vedere un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

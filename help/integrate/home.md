@@ -21,7 +21,7 @@ Questa guida si concentra sull’integrazione di più soluzioni Adobe Experience
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/328585?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

@@ -45,7 +45,7 @@ Il grafico bullet presenta una singola misura primaria (ad esempio le entrate an
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico bullet](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico bullet](https://video.tv.adobe.com/v/329424/?quality=12/?quality=12&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

@@ -21,7 +21,7 @@ Ecco un video su come creare un progetto Workspace:
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un progetto Workspace](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un progetto Workspace](https://video.tv.adobe.com/v/3415639?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -140,7 +140,7 @@ Video sull’utilizzo del menu di scelta rapida in Analysis Workspace:
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo del menu di scelta rapida](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo del menu di scelta rapida](https://video.tv.adobe.com/v/329404?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

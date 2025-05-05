@@ -43,7 +43,7 @@ La visualizzazione ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICO
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico a dispersione](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico a dispersione](https://video.tv.adobe.com/v/3416861/?quality=12&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

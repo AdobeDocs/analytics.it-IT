@@ -28,7 +28,7 @@ Nel calendario, puoi specificare date e intervalli di date o selezionare un pred
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica sul calendario e sugli intervalli di date](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica sul calendario e sugli intervalli di date](https://video.tv.adobe.com/v/329875?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

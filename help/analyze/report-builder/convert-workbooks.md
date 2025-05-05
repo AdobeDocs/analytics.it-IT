@@ -24,7 +24,7 @@ Con il passaggio a una nuova tecnologia di Report Builder, è possibile converti
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converti cartelle di lavoro](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converti cartelle di lavoro](https://video.tv.adobe.com/v/3446190?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

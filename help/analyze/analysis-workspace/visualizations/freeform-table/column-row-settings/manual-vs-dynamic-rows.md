@@ -58,7 +58,7 @@ Le righe dinamiche e statiche si comportano in modo diverso nella riga del total
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Riordinare le righe statiche](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Riordinare le righe statiche](https://video.tv.adobe.com/v/35890?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

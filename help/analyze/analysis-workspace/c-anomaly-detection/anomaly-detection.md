@@ -18,7 +18,7 @@ In Analysis Workspace puoi visualizzare e analizzare le anomalie nei dati in mod
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rilevamento anomalie](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rilevamento anomalie](https://video.tv.adobe.com/v/327894?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ L’analisi dei contributi riconosce pattern nascosti nei dati per spiegare le a
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi contributi](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi contributi](https://video.tv.adobe.com/v/327901?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

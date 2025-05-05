@@ -30,7 +30,7 @@ Per impostare la densità di visualizzazione:
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Densità di visualizzazione](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Densità di visualizzazione](https://video.tv.adobe.com/v/327938?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

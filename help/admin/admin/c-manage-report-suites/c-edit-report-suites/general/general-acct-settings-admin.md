@@ -22,7 +22,7 @@ Queste impostazioni contengono opzioni di modifica per le funzionalità di base 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurazione delle impostazioni account generali](https://video.tv.adobe.com/v/332330/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurazione delle impostazioni account generali](https://video.tv.adobe.com/v/3411507/?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

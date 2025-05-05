@@ -17,7 +17,7 @@ Invece di mantenere e caricare le classificazioni ogni volta che i codici di tra
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generatore regole di classificazione](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generatore regole di classificazione](https://video.tv.adobe.com/v/3434384?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

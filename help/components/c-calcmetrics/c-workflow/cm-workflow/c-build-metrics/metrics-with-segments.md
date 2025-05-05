@@ -57,7 +57,7 @@ Crea e salva una metrica denominata &quot;Visitatori tedeschi&quot; e una metric
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Metriche segmentate](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Metriche segmentate](https://video.tv.adobe.com/v/41661?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

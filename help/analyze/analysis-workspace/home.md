@@ -20,7 +20,7 @@ Il video seguente fornisce una breve panoramica con esempi di ciò che è possib
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/328627/?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

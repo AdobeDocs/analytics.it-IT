@@ -46,7 +46,7 @@ Per intervallo di lookback si intende la quantità di tempo che una conversione 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervallo di lookback personalizzato](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervallo di lookback personalizzato](https://video.tv.adobe.com/v/40045?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

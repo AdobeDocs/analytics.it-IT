@@ -19,7 +19,7 @@ Per ulteriori informazioni sul confronto tra i prodotti Adobe Analytics, consult
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto degli strumenti](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto degli strumenti](https://video.tv.adobe.com/v/329303?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

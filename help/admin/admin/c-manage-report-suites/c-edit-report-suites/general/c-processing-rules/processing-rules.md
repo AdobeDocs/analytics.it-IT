@@ -27,7 +27,7 @@ Utilizza le regole di elaborazione per semplificare la raccolta dati e gestire i
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica sulle regole di elaborazione](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica sulle regole di elaborazione](https://video.tv.adobe.com/v/328582/?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

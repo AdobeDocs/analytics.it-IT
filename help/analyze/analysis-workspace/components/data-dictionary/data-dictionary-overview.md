@@ -20,7 +20,7 @@ Gli amministratori di Analytics sono responsabili della cura delle informazioni 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dati](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dati](https://video.tv.adobe.com/v/3422283?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

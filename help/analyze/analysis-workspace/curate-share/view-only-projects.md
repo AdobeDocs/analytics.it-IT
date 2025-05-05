@@ -23,7 +23,7 @@ Puoi modificare l’intervallo di date del calendario del pannello anche nei pro
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Progetti solo visualizzazione](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Progetti solo visualizzazione](https://video.tv.adobe.com/v/40061?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

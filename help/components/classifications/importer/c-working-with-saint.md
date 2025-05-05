@@ -19,7 +19,7 @@ Utilizza l’importazione per caricare le classificazioni in Adobe Analytics. È
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Importazione classificazioni](https://video.tv.adobe.com/v/16853?quality=12&learn=on){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Importazione classificazioni](https://video.tv.adobe.com/v/327923?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
