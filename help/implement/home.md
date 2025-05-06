@@ -4,10 +4,10 @@ description: Implementa Adobe Analytics sul tuo sito, proprietà o applicazione.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 94%
 
 ---
 
@@ -52,9 +52,9 @@ Il seguente flusso decisionale può essere utile per selezionare un metodo di im
 
 Per implementare Adobe Analytics lato server, sono disponibili le seguenti opzioni:
 
-* **API server Edge**: per implementare il codice sul server che utilizza l’API del server Edge di Adobe Experience Platform per comunicare con Adobe Analytics tramite uno stream di dati.
+* **API Edge Network**: implementi il codice nel server che utilizza l&#39;API Adobe Experience Platform Edge Network per comunicare con Adobe Analytics tramite uno stream di dati.
   ![Implementazione lato server](assets/edge-network-server-api.svg)
-Consulta [Implementare Adobe Analytics utilizzando l’API del server di rete Edge di Adobe Experience Platform](/help/implement/aep-edge/server-api/overview.md) per ulteriori informazioni.
+Per ulteriori informazioni, vedere [Implementare Adobe Analytics utilizzando l&#39;API Edge Network di Adobe Experience Platform](/help/implement/aep-edge/api/overview.md).
 
 * **API di inserimento dati (in blocco)**: si utilizza l’API di inserimento dati (in blocco) di Adobe Analytics per raccogliere i dati lato server direttamente in Adobe Analytics.
   ![API di inserimento dati](assets/analytics-apis.png)
@@ -91,7 +91,7 @@ Per la tua **app mobile**, sono disponibili i seguenti metodi di implementazione
 
 ## Risorse chiave per Analytics
 
-* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/it?support-solution=Analytics?lang=it#support)
+* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/?support-solution=Analytics?lang=it#support)
 * [Adobe Analytics Community su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Note sulla versione più recente](../release-notes/latest.md)
