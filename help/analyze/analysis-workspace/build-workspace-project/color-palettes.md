@@ -37,7 +37,7 @@ Nota bene:
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di una tavolozza di colori personalizzata](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di una tavolozza di colori personalizzata](https://video.tv.adobe.com/v/329885?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

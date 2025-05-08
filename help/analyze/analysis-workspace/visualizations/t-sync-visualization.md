@@ -51,7 +51,7 @@ La gestione di un’origine dati consente di mostrare l’origine dati o di bloc
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni origine dati](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni origine dati](https://video.tv.adobe.com/v/329878?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
