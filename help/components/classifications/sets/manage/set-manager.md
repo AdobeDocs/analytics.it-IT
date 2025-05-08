@@ -3,7 +3,7 @@ title: Gestione set di classificazione
 description: Gestisci i set di classificazione in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 9%
@@ -30,7 +30,7 @@ Tieni presente che vengono precaricati 1.000 set di classificazione alla volta. 
 
 In Gestione set di classificazione sono disponibili le colonne seguenti:
 
-* **[!UICONTROL Classification set]**: nome del set di classificazione. Facendo clic sul nome di un set di classificazione [vengono modificate le relative impostazioni](settings.md).
+* **[!UICONTROL Classification set]**: nome del set di classificazione. Facendo clic sul nome di un set di classificazione, vengono modificate le [impostazioni](settings.md).
 * **[!UICONTROL Subscriptions]**: numero di sottoscrizioni a cui si applica questo set di classificazione.
 * **[!UICONTROL Classifications]**: numero di dimensioni di classificazione contenute nel set di classificazione.
 * **[!UICONTROL Automated]**: determina se il set di classificazione è configurato per importare automaticamente i dati da una posizione cloud. L&#39;automazione può essere configurata nello [schema](schema.md) del set di classificazione.

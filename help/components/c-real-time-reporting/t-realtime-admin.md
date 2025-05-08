@@ -3,10 +3,10 @@ description: Passaggi amministrativi per la configurazione di rapporti in tempo 
 title: Configurare rapporti in tempo reale
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 2%
+source-wordcount: '264'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Questa consiste nel selezionare la suite di rapporti e configurarne fino a 3 per
 
    ![](assets/real_time_admin.png)
 
-   Per informazioni sulle metriche e dimensioni in tempo reale supportate, vedere [Metriche e Dimension supportati](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
+   Per informazioni sulle metriche e dimensioni in tempo reale supportate, vedere [Metriche e dimensioni supportate](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Se hai creato delle classificazioni, queste vengono visualizzate rientrate sotto la dimensione per la quale sono definite:
 
@@ -47,8 +47,6 @@ Questa consiste nel selezionare la suite di rapporti e configurarne fino a 3 per
    >
    >Per un singolo rapporto in tempo reale, al momento non è supportata l’abilitazione di dimensioni duplicate, anche se per ogni dimensione è selezionata una classificazione diversa.
 
-   Per ulteriori informazioni sulle classificazioni, vedere [Informazioni sulle classificazioni](/help/components/classifications/c-classifications.md).
-
    >[!NOTE]
    >
    >Alcune dimensioni, come &quot;Parola chiave di ricerca&quot; o &quot;Prodotto&quot;, non persistono in tempo reale come altrove in Adobe Analytics. Quando selezioni una metrica non persistente, viene visualizzato questo avviso:
@@ -57,6 +55,6 @@ Questa consiste nel selezionare la suite di rapporti e configurarne fino a 3 per
 
 1. Seleziona **[!UICONTROL Save]** (Mostra origine dati) o **[!UICONTROL Save and View Report]** (Blocca selezione).
 
-   Dopo questa configurazione iniziale del rapporto, l’inizio dello streaming dei dati può richiedere fino a 20 minuti. Da quel momento in poi, i dati sono immediatamente disponibili. Per informazioni sulla visualizzazione dei report in tempo reale, vedere [Eseguire un report in tempo reale](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=it).
+   Dopo questa configurazione iniziale del rapporto, l’inizio dello streaming dei dati può richiedere fino a 20 minuti. Da quel momento in poi, i dati sono immediatamente disponibili. Per informazioni sulla visualizzazione dei report in tempo reale, vedere [Eseguire un report in tempo reale](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. Per impostazione predefinita, tutti gli utenti hanno accesso ai rapporti in tempo reale.

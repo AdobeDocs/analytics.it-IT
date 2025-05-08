@@ -3,18 +3,18 @@ description: Come caricare i file di dati tramite FTP.
 title: Importazione FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 3%
+source-wordcount: '702'
+ht-degree: 2%
 
 ---
 
-# Importazione FTP
+# Importazione FTP (legacy)
 
 >[!IMPORTANT]
 >
->Non è più consigliabile utilizzare l’FTP per l’importazione come descritto in questa pagina.
+>Adobe non consiglia più di utilizzare l’FTP per l’importazione come descritto in questa pagina.
 >
 >L&#39;FTP non è consigliato perché è un metodo non crittografato di condivisione dei file, il che significa che chiunque può intercettare il contenuto del file, nonché il nome utente e la password utilizzati per l&#39;account.
 >
@@ -32,25 +32,25 @@ I seguenti limiti consigliati sono importanti.
 
 >[!IMPORTANT]
 >
->La presenza di troppi file di piccole dimensioni o di singoli file di grandi dimensioni può creare un carico di elaborazione non necessario sui server di elaborazione. L’Adobe consiglia di suddividere i file di grandi dimensioni in blocchi da 50 MB e di combinare file di piccole dimensioni.
+>La presenza di troppi file di piccole dimensioni o di singoli file di grandi dimensioni può creare un carico di elaborazione non necessario sui server di elaborazione. Adobe consiglia di suddividere i file di grandi dimensioni in blocchi da 50 MB e di combinare file di piccole dimensioni.
 
 La configurazione iniziale popola il database delle classificazioni con un ampio set di dati originali o ristruttura le classificazioni, anziché riclassificare alcune righe o aggiungere righe.
 
-In seguito a un caricamento iniziale in una suite di rapporti (per una determinata variabile o rapporto), l’Adobe consiglia di caricare solo le righe nuove e aggiornate nelle importazioni successive. Le righe che non vengono modificate devono essere omesse dai caricamenti futuri.
+Dopo un caricamento iniziale in una suite di rapporti (per una determinata variabile o rapporto), Adobe consiglia di caricare solo le righe nuove e aggiornate nelle importazioni successive. Le righe che non vengono modificate devono essere omesse dai caricamenti futuri.
 
 Ogni nuovo valore chiave caricato viene conteggiato rispetto ai valori univoci per tale variabile per il mese.
 
-Se hai superato i valori univoci per il mese, nei rapporti non verranno visualizzati i dati di classificazione corrispondenti per i valori univoci superati. Puoi vedere queste classificazioni in Data Warehouse.
+Se hai superato i valori univoci per il mese, nei rapporti non verranno visualizzati i dati di classificazione corrispondenti per i valori univoci superati. Puoi vedere le classificazioni in Data Warehouse.
 
 >[!NOTE]
 >
->Il tempo necessario per elaborare un file di dati di classificazione varia in base alle dimensioni del file e al numero corrente di file già elaborati dai server Adobe. L’elaborazione dei file di dati in genere non richiede più di 72 ore.
+>Il tempo necessario per elaborare un file di dati di classificazione varia in base alle dimensioni del file e al numero corrente di file già elaborati dai server di Adobe. L’elaborazione dei file di dati in genere non richiede più di 72 ore.
 
 ## Creare un account FTP
 
 Prima di caricare i dati tramite FTP, crea un account FTP. >
 
-Per ulteriori informazioni sui server FTP di Adobe, vedere [FTP e sFTP](/help/export/ftp-and-sftp/ftp-overview.md).
+Consulta [FTP e sFTP](/help/export/ftp-and-sftp/ftp-overview.md) per ulteriori dettagli sui server FTP di Adobe.
 
 1. Fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Fai clic su **[!UICONTROL Import File]**, quindi su **[!UICONTROL FTP Import]**.
@@ -65,7 +65,7 @@ Per ulteriori informazioni sui server FTP di Adobe, vedere [FTP e sFTP](/help/ex
    | **Sovrascrivi dati su conflitti** | Selezionare questa opzione per sovrascrivere i dati duplicati. Questa opzione è utile se aggiorni le classificazioni esistenti. Se ti trovi nell&#39;[architettura di classificazione più recente](../sets/overview.md), questa impostazione è sempre abilitata. |
    | **Dopo il completamento dell&#39;importazione** | Seleziona questa opzione per esportare automaticamente il set di dati aggiornato nello stesso account FTP una volta specificato l’indirizzo e-mail per ricevere notifiche su questo account FTP una volta completata l’importazione. Se ti trovi nell&#39;[architettura di classificazione più recente](../sets/overview.md), questa opzione non è disponibile. |
    | **Destinatario notifica** | Specifica l&#39;indirizzo e-mail per ricevere notifiche su questo account FTP. |
-   | **Autorizza** | (Obbligatorio) Autorizza l’Adobe a importare automaticamente tutti i file di dati inviati al nuovo account FTP. |
+   | **Autorizza** | (Obbligatorio) Autorizza Adobe a importare automaticamente tutti i file di dati inviati al nuovo account FTP. |
 
 1. Fai clic su **[!UICONTROL Save]**.
 

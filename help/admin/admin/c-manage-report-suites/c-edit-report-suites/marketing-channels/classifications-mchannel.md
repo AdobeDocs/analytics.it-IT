@@ -4,9 +4,9 @@ description: Utilizza le classificazioni per categorizzare i valori in gruppi co
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 100%
 Utilizza le classificazioni per categorizzare i valori in gruppi correlati e generare rapporti a livello di gruppo. Ad esempio, puoi classificare tutte le campagne di ricerca a pagamento in una categoria come Schede video. Puoi quindi generare rapporti sul successo di tale categoria in relazione a metriche quali Istanze (o click-through).
 
 Le classificazioni aggiunte in questa procedura vengono visualizzate nel rapporto [!UICONTROL Marketing Channel Overview] come [!UICONTROL Channel Values]. I valori del canale sono valori non classificati nel dettaglio del canale.
-
->[!NOTE]
->
->Assicurati di avere familiarità con la creazione di classificazioni in [Classificazioni](/help/components/classifications/c-classifications.md).
 
 >[!IMPORTANT]
 >

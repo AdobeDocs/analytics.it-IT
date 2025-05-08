@@ -5,9 +5,9 @@ title: Classificazioni traffico
 feature: Admin Tools
 role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '152'
 ht-degree: 93%
 
 ---
@@ -16,21 +16,13 @@ ht-degree: 93%
 
 Le classificazioni del traffico consentono di classificare le variabili di traffico (prop). Le classificazioni del traffico possono utilizzare solo classificazioni di testo.
 
-## Classificazioni traffico {#concept_028079B29A9C412AA68910A87E11176F}
+## Classificazioni traffico
 
 Le classificazioni del traffico consentono di classificare le variabili di traffico (prop). Le classificazioni del traffico possono utilizzare solo classificazioni di testo.
 
 La pagina delle classificazioni traffico consente di creare classificazioni per le suite di rapporti selezionate. Una volta effettuata la classificazione, qualsiasi rapporto che puoi generare utilizzando i dati chiave può essere generato anche utilizzando gli attributi associati.
 
-Dopo aver abilitato le classificazioni, utilizza [Classifications Importer](/help/components/classifications/importer/c-working-with-saint.md) (Importazione classificazioni) per assegnare valori specifici alla classificazione appropriata.
-
-## Aggiungere una classificazione del traffico {#task_4DB49CCB1D764483907BC33A5CEB7315}
-
-<!-- 
-
-t_classification_add_traffic.xml
-
- -->
+## Aggiungere una classificazione del traffico
 
 Per aggiungere o modificare le classificazioni per le suite di rapporti selezionate:
 

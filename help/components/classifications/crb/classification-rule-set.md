@@ -3,14 +3,16 @@ description: Un set di regole è un gruppo di regole di classificazione per una 
 title: Set di regole di classificazione
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 97%
+source-wordcount: '365'
+ht-degree: 89%
 
 ---
 
-# Set di regole di classificazione
+# Set di regole di classificazione (legacy)
+
+*In questa pagina vengono illustrati i set di regole di classificazione come parte del [Generatore di regole di classificazione](classification-rule-builder.md). Vedi [Set di classificazione](../sets/overview.md) per il metodo corrente di classificazione dei dati in Adobe Analytics.*
 
 Un set di regole è un gruppo di regole di classificazione per una variabile specifica. Al set di regole viene applicata una variabile. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti.
 
@@ -56,8 +58,6 @@ I campi e le opzioni seguenti sono disponibili nel [!UICONTROL Classifications R
 Denomina il set di regole di classificazione, applica la variabile e specifica le impostazioni di sovrascrittura.
 
 1. (Prerequisito) Definisci la struttura di classificazione in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-
-   Consulta [Classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=it) nella guida degli Strumenti di amministrazione per l’aggiunta di classificazioni.
 
    Le variabili vengono visualizzate nel pannello [!UICONTROL New Rule Set] solo dopo che è stata definita almeno una classificazione per quella variabile.
 

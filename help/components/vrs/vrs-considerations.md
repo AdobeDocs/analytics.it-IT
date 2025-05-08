@@ -4,7 +4,7 @@ keywords: Suite di rapporti virtuali
 title: Considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 6e9ea48df286b2bde6a071ab3d0f29a764382c6d
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '1634'
 ht-degree: 0%
@@ -21,15 +21,15 @@ La sostituzione dell’assegnazione tag per più suite con una suite di rapporti
 
 ## Linee guida
 
-Se non sei sicuro se i casi d’uso descritti si applicano a te e alla tua organizzazione, consulta gli altri amministratori di Adobe Analytics o il tuo account team di Adobi. Possono essere utili per valutare le esigenze aziendali e formulare raccomandazioni.
+Se non sei sicuro se i casi d’uso descritti si applicano a te e alla tua organizzazione, consulta gli altri amministratori di Adobe Analytics o il tuo account team di Adobe. Possono essere utili per valutare le esigenze aziendali e formulare raccomandazioni.
 
 Per determinare se utilizzare l’assegnazione di tag multisuite o le suite di rapporti virtuali, tieni presenti le seguenti considerazioni:
 
 ### Pubblicazione di segmenti in Adobe Experience Cloud
 
-La condivisione di segmenti su Adobe Experience Cloud non è supportata per le suite di rapporti virtuali. Gli utenti che desiderano condividere un segmento con l’Experience Cloud devono avere accesso alla suite di rapporti di origine.
+La condivisione di segmenti su Adobe Experience Cloud non è supportata per le suite di rapporti virtuali. Gli utenti che desiderano condividere un segmento in Experience Cloud devono avere accesso alla suite di rapporti di origine.
 
-Non è ancora possibile pubblicare segmenti in Adobe Experience Cloud da una suite di rapporti virtuale per la personalizzazione e il targeting. A questo scopo, tutti gli utenti che pubblicano segmenti devono accedere alla suite di rapporti di origine. Ad esempio, se desideri che gli utenti abbiano accesso solo ai dati per le loro aree geografiche, vuoi che possano creare e condividere segmenti da Adobe Analytics a Adobe Experience Cloud per il targeting in Adobe Target. In questo caso, l’Adobe consiglia di utilizzare l’assegnazione tag per più suite. Se non ti dispiace se gli utenti hanno accesso alla suite di rapporti globale o se non devi pubblicare segmenti da utilizzare in altre soluzioni, puoi utilizzare le suite di rapporti virtuali.
+Non è ancora possibile pubblicare segmenti in Adobe Experience Cloud da una suite di rapporti virtuale per la personalizzazione e il targeting. A questo scopo, tutti gli utenti che pubblicano segmenti devono accedere alla suite di rapporti di origine. Ad esempio, se desideri che gli utenti abbiano accesso solo ai dati per le loro aree geografiche, vuoi che possano creare e condividere segmenti da Adobe Analytics a Adobe Experience Cloud per il targeting in Adobe Target. In questo caso, Adobe consiglia di utilizzare l’assegnazione tag per più suite. Se non ti dispiace se gli utenti hanno accesso alla suite di rapporti globale o se non devi pubblicare segmenti da utilizzare in altre soluzioni, puoi utilizzare le suite di rapporti virtuali.
 
 ### Limiti univoci (traffico ridotto)
 
@@ -45,7 +45,7 @@ Le suite di rapporti virtuali non hanno set propri di dimensioni e metriche, ma 
 
 Diversi siti hanno esigenze di implementazione diverse. Alcune dimensioni e alcuni eventi possono essere condivisi tra due siti. Ad esempio, una registrazione e-mail può utilizzare lo stesso evento su più siti web, attivando lo stesso evento personalizzato. Altre dimensioni possono essere specifiche di un sito. Ad esempio, solo uno dei siti consente all’utente di modificare l’immagine del profilo. Questo evento personalizzato verrebbe implementato solo sul sito Web che lo supporta.
 
-Assicurati che il numero di dimensioni e metriche univoche possa rientrare in una singola suite di rapporti globale. Se riscontri che sono presenti troppe dimensioni o metriche univoche, esamina ogni dimensione all’interno di ogni implementazione. È probabile che vi siano sovrapposizioni e dimensioni che non sono fondamentali per il successo aziendale. Valuta di utilizzare anche [classificazioni](/help/components/classifications/c-classifications.md). Ad esempio, invece di acquisire &quot;Nome prodotto&quot; in eVar5, crea una classificazione &quot;Nome prodotto&quot; basata sulla dimensione &quot;Prodotto&quot;. Le classificazioni in una suite di rapporti di origine sono automaticamente disponibili per tutte le suite di rapporti virtuali dipendenti.
+Assicurati che il numero di dimensioni e metriche univoche possa rientrare in una singola suite di rapporti globale. Se riscontri che sono presenti troppe dimensioni o metriche univoche, esamina ogni dimensione all’interno di ogni implementazione. È probabile che vi siano sovrapposizioni e dimensioni che non sono fondamentali per il successo aziendale. Valuta di utilizzare anche [classificazioni](/help/components/classifications/classifications-overview.md). Ad esempio, invece di acquisire &quot;Nome prodotto&quot; in eVar5, crea una classificazione &quot;Nome prodotto&quot; basata sulla dimensione &quot;Prodotto&quot;. Le classificazioni in una suite di rapporti di origine sono automaticamente disponibili per tutte le suite di rapporti virtuali dipendenti.
 
 >[!TIP]
 >
@@ -71,7 +71,7 @@ I feed di dati ti consentono di ricevere un’esportazione giornaliera o oraria 
 
 ### Connettori dati con account partner
 
-Alcune integrazioni di Adobi partner in Adobe Analytics sono limitate a un account partner per suite di rapporti. Alcune organizzazioni potrebbero richiedere più account partner per la stessa integrazione.
+Alcune integrazioni di partner Adobe in Adobe Analytics sono limitate a un account partner per suite di rapporti. Alcune organizzazioni potrebbero richiedere più account partner per la stessa integrazione.
 
 Ad esempio, è consentito un solo DCM Google per suite di rapporti. Molte aziende hanno più account DCM, il che consente a diversi marchi, business unit e aree geografiche di gestire i propri annunci display separatamente l&#39;uno dall&#39;altro. Non è possibile configurare le integrazioni nelle suite di rapporti virtuali. Se disponi di connettori dati dipendenti con più account, puoi utilizzare l’assegnazione tag per più suite.
 

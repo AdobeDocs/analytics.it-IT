@@ -3,9 +3,9 @@ description: Informazioni generali di panoramica su Adobe Analytics, tra cui inf
 title: Informazioni sull’interfaccia di Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2059'
 ht-degree: 99%
 
 ---
@@ -79,7 +79,7 @@ La scheda [!UICONTROL Components] include funzioni che consentono di ottimizzare
    | Search&amp;Promote | Questa funzione non è più supportata. |  |
    | Mobile Services | Questa funzione non è più supportata. |  |
    | Dashboard di Analytics (app mobili) | L’app per dashboard di Adobe Analytics fornisce ovunque e in qualsiasi momento approfondimenti relativi ad Adobe Analytics. Attraverso l’app, gli utenti possono visualizzare scorecard intuitive create utilizzando l’interfaccia utente desktop di Adobe Analytics. | L’app per dashboard di Adobe Analytics è disponibile nell’App Store iOS o nel Google Play Store |
-   | Report Builder | Adobe Report Builder è un componente aggiuntivo per Microsoft Excel. Consente di generare richieste personalizzate partendo da dati di Adobe Analytics, che puoi inserire in fogli di lavoro Excel. Le richieste possono fare riferimento in maniera dinamica a celle presenti nel tuo foglio di lavoro, inoltre hai la possibilità di aggiornare e personalizzare la presentazione dei dati da parte del Report Builder. | [Che cos’è Report Builder?](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/rb-overview) |
+   | Report Builder | Adobe Report Builder è un componente aggiuntivo per Microsoft Excel. Consente di generare richieste personalizzate partendo da dati di Adobe Analytics, che puoi inserire in fogli di lavoro Excel. Le richieste possono fare riferimento in maniera dinamica a celle presenti nel tuo foglio di lavoro, inoltre hai la possibilità di aggiornare e personalizzare la presentazione dei dati da parte del Report Builder. | [Che cos’è Report Builder?](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
    {style="table-layout:auto"}
 
@@ -103,7 +103,7 @@ La scheda Amministrazione include funzioni e opzioni di configurazione per l’a
    | Pagina home | L’area Strumenti di amministrazione di Analytics è l’area principale in cui gestire l’istanza di Adobe Analytics e in cui è possibile eseguire la maggior parte delle attività amministrative. | [Panoramica sugli strumenti di amministrazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html?lang=it) |
    | di Report Suite Manager | Consente di definire le regole che disciplinano il modo in cui i dati vengono elaborati in una suite di rapporti. | [Report Suite Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=it) |
    | Utenti e risorse di Analytics | La gestione di utenti e risorse è stata spostata in Adobe Admin Console. Utilizza Adobe Admin Console per iniziare a gestire le autorizzazioni per gli utenti di Adobe Analytics. | [Analytics in Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=it) |
-   | Importazione classificazioni | Utilizza l’importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione. | [Panoramica dell’importazione classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=it) |
+   | Importazione classificazioni | Utilizza l’importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione. | [Panoramica dell’importazione classificazioni](/help/components/classifications/importer/c-working-with-saint.md) |
    | Generatore regole di classificazione | Invece di mantenere e caricare le classificazioni ogni volta che i codici di tracciamento cambiano, puoi creare classificazioni automatiche basate su regole e applicarle su più suite di rapporti. | [Flusso di lavoro del Generatore regole di classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html?lang=it) |
    | Origini dati | Utilizza Gestione origini dati per creare, modificare o disattivare le origini di dati. È possibile inoltre utilizzare questa interfaccia per tracciare lo stato dei file caricati nelle posizioni FTP di origini di dati. | [Gestione delle origini dati](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html?lang=it) |
    | Gestione codici | La gestione di codici consente di scaricare il codice di raccolta dati per piattaforme web e mobili | [Gestione codici](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=it) |

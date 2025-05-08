@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 95%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 100%
    + [Informazioni sui segmenti](segmentation/seg-overview.md)
    + [Informazioni sui contenitori di segmenti](segmentation/seg-containers.md)
    + [Funzionalità di segmentazione di Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + Segmentazione del flusso di lavoro {#segmentation-workflow}
+   + Segmentation workflow {#segmentation-workflow}
       + [Panoramica sulla segmentazione del flusso di lavoro](segmentation/segmentation-workflow/seg-workflow.md)
       + [Pianificare segmenti](segmentation/segmentation-workflow/seg-plan.md)
       + [Generare segmenti](segmentation/segmentation-workflow/seg-build.md)
@@ -194,7 +194,7 @@ ht-degree: 100%
       + [Eliminare segmenti](segmentation/segmentation-workflow/seg-delete.md)
       + [Copiare segmenti](segmentation/segmentation-workflow/seg-copy.md)
       + [Gestire segmenti](segmentation/segmentation-workflow/seg-manage.md)
-   + Riferimento al segmento {#segment-reference}
+   + Riferimento segmento {#segment-reference}
       + [Operatori di confronto per i segmenti](segmentation/seg-reference/seg-operators.md)
       + [Compatibilità dei segmenti con Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Diritti del segmento per ruolo](segmentation/seg-reference/seg-rights.md)
@@ -238,12 +238,12 @@ ht-degree: 100%
    + [Considerazioni su A4T](vrs/vrs-a4t.md)
    + [Domande frequenti sulle suite di rapporti virtuali](vrs/vrs-faq.md)
    + [Suite di rapporti virtuali e considerazioni su tag globali o per più suite](vrs/vrs-considerations.md)
-   + Flusso di lavoro per suite di rapporti virtuali {#vrs-workflow}
+   + Flusso di lavoro suite di rapporti virtuali {#vrs-workflow}
       + [Flusso di lavoro suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Creare suite di rapporti](vrs/c-workflow-vrs/vrs-create.md)
       + [Gestione delle suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-manage.md)
       + [Visualizzazione delle informazioni sulle suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-view.md)
-+ Analytics tra dispositivi {#cda}
++ Cross-Device Analytics {#cda}
    + [Panoramica di Analytics tra dispositivi](cda/overview.md)
    + [Unione basata sui campi](cda/field-based-stitching.md)
    + [Device Graph](cda/device-graph.md)
@@ -258,9 +258,9 @@ ht-degree: 100%
    + [Gestire i](c-alerts/alert-manager.md)
    + [Casi d’uso](c-alerts/alerts-use-cases.md)
 + Classificazioni {#classifications}
-   + [Panoramica delle classificazioni](classifications/c-classifications.md)
+   + [Panoramica delle classificazioni](classifications/classifications-overview.md)
    + Set di classificazione {#sets}
-      + [Panoramica sui set di classificazione](classifications/sets/overview.md)
+      + [Panoramica](classifications/sets/overview.md)
       + Gestire i set di classificazione {#manage}
          + [Gestione set di classificazione](classifications/sets/manage/set-manager.md)
          + [Creare un set di classificazione](classifications/sets/manage/create.md)
@@ -268,38 +268,35 @@ ht-degree: 100%
          + [Schema del set di classificazione](classifications/sets/manage/schema.md)
          + [Regole del set di classificazione](classifications/sets/manage/rules.md)
       + [Gestione processi set di classificazione](classifications/sets/job-manager.md)
-      + Consolidamenti set di classificazione {#consolidations}
-         + [Gestione consolidamenti set di classificazione](classifications/sets/consolidations/manage.md)
-         + [Processo consolidamenti set di classificazione](classifications/sets/consolidations/process.md)
-   + Generatore regole di classificazione {#classifications-rulebuilder}
-      + [Flusso di lavoro di Generatore regole di classificazione](classifications/crb/classification-rule-builder.md)
+      + Consolidamenti dei set di classificazione {#consolidations}
+         + [Gestione consolidamenti](classifications/sets/consolidations/manage.md)
+         + [Processo di consolidamento](classifications/sets/consolidations/process.md)
+   + Generatore di regole di classificazione (legacy){#classifications-rulebuilder}
+      + [Panoramica](classifications/crb/classification-rule-builder.md)
       + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)
       + [Regole di classificazione](classifications/crb/classification-quickstart-rules.md)
-      + [Regole di classificazione: definizioni](classifications/crb/classification-rule-definitions.md)
-      + [Sottoclassificazioni e Generatore di regole](classifications/crb/sub-classification-rule-builder.md)
-   + Importazione classificazioni {#classifications-importer}
-      + [Importazione classificazioni: panoramica](classifications/importer/c-working-with-saint.md)
+      + [Definizioni delle regole di classificazione](classifications/crb/classification-rule-definitions.md)
+      + [Sottoclassificazioni e generatore di regole](classifications/crb/subclassification-rule-builder.md)
+   + Importazione classificazioni (legacy){#classifications-importer}
+      + [Panoramica sull’importazione di classificazioni](classifications/importer/c-working-with-saint.md)
       + [File di dati di classificazione](classifications/importer/c-saint-data-files.md)
       + [Eliminare i dati di classificazione](classifications/importer/t-delete-classification-data.md)
-      + [Esci dai dati di classificazione](classifications/importer/t-classifications-escape-data.md)
-      + [Tasti non classificati](classifications/importer/nonclassified-keys.md)
       + [Modello di classificazione](classifications/importer/c-download-saint-data.md)
-      + [Importazione browser e FTP](classifications/importer/import-file.md)
       + [Importazione browser](classifications/importer/browser-import.md)
       + [Esportazione browser](classifications/importer/browser-export.md)
       + [Importazione FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Esportazione FTP](classifications/importer/ftp-export.md)
       + [Tempo di elaborazione](classifications/importer/processing-time.md)
+      + [Sottoclassificazioni](classifications/importer/subclassifications.md)
       + [Risoluzione dei problemi](classifications/importer/troubleshooting.md)
-   + [Sottoclassificazioni](classifications/c-sub-classifications.md)
-   + [Domande frequenti sulle classificazioni](classifications/faq.md)
+      + [Domande frequenti](classifications/importer/importer-faq.md)
 + Posizioni {#locations}
    + [Gestione posizioni](/help/components/locations/locations-manager.md)
    + [Account di importazione cloud](/help/components/locations/configure-import-accounts.md)
    + [Posizioni di importazione cloud](/help/components/locations/configure-import-locations.md)
 + [Progetti programmati](scheduled-projects-manager.md)
 + [Coda dei rapporti pianificati](scheduled-reports-admin.md)
-+ Rapporti in tempo reale {#real-time-reporting}
++ Reporting in tempo reale {#real-time-reporting}
    + [Panoramica reportistica in tempo reale](c-real-time-reporting/realtime.md)
    + [Configurare rapporti in tempo reale](c-real-time-reporting/t-realtime-admin.md)
    + [Metriche e dimensioni in tempo reale supportate](c-real-time-reporting/realtime-metrics.md)

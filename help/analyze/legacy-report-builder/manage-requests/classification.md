@@ -5,7 +5,7 @@ uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -22,4 +22,4 @@ Ad esempio, un report [!UICONTROL Campaign] potrebbe avere una classificazione [
 
 Accedi alle classificazioni nello stesso modo in cui accedi agli altri rapporti di una suite di rapporti e le dimensioni vengono visualizzate come rapporto di livello superiore all’interno del gruppo. Se un rapporto ha delle classificazioni, viene creato un sottogruppo di menu per raccogliere il rapporto e tutte le relative classificazioni nella stessa posizione. Il rapporto viene visualizzato come ultima voce dell’elenco tra le classificazioni.
 
-Vedi [Classificazioni](/help/components/classifications/c-classifications.md).
+Vedi [Classificazioni](/help/components/classifications/classifications-overview.md).

@@ -3,31 +3,28 @@ description: Invece di mantenere e caricare le classificazioni ogni volta che i 
 title: Flusso di lavoro di Generatore regole di classificazione
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 96%
+source-wordcount: '533'
+ht-degree: 85%
 
 ---
 
-# Flusso di lavoro di Generatore regole di classificazione
+# Panoramica del generatore di regole di classificazione (legacy)
 
 Invece di mantenere e caricare le classificazioni ogni volta che i codici di tracciamento cambiano, puoi creare classificazioni automatiche basate su regole e applicarle su più suite di rapporti. Le regole vengono elaborate a intervalli frequenti, a seconda del volume di traffico correlato alla classificazione.
 
-
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generatore regole di classificazione](https://video.tv.adobe.com/v/3434384?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generatore regole di classificazione](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
-
 ## Avviso importante prima di iniziare
 
-Tieni presente i punti seguenti prima di iniziare a utilizzare le regole di classificazione:
+Tieni presente questi punti quando utilizzi le regole di classificazione:
 
-* Le sottoclassificazioni non sono supportate nel Generatore di regole di classificazione (CRB).
-* Il nostro sistema di classificazione attuale può esportare solo fino a 10 milioni di righe alla volta.
+* Puoi esportare fino a 10 milioni di righe alla volta.
 * Quando il CRB richiede un’esportazione, richiama sia valori classificati che non classificati e i valori non classificati arrivano alla fine dell’esportazione. Ciò significa che, nel tempo, potresti riempire 10 milioni di righe con i valori classificati senza mai arrivare ai valori non classificati.
 * Poiché l’architettura è impostata in modo che il CRB possa richiamare i valori da un numero “n” di server, ciò può portare a incongruenze su quali server vengono scelti e in quale ordine. Per questo motivo, è molto difficile arrivare ai valori non classificati.
 
@@ -41,20 +38,20 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 
 | Passaggio | Dove viene eseguito | Descrizione |
 |--- |--- |--- |
-| Passaggio 1 (prerequisito): [configurare lo schema di classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=it). | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > &lt;Classificazioni di traffico o conversione> | Scegli una variabile e definisci le classificazioni da utilizzare per tale variabile. <br>Prima di poter essere utilizzate nelle regole, le variabili devono avere almeno una colonna di classificazione.<br>Una volta abilitate le classificazioni, puoi utilizzare l’importazione e il generatore di regole per classificare valori specifici. |
-| Passaggio 2: [creare un set di regole](/help/components/classifications/crb/classification-rule-set.md). | [!UICONTROL Admin] >  [!UICONTROL Classification Rule Builder] > [!UICONTROL Add Rule Set] | Un set di regole è un gruppo di regole di classificazione per una variabile specifica. |
+| Passaggio 1 (prerequisito): configurare lo schema di classificazione. | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > [!UICONTROL Traffic Classifications] o [!UICONTROL Conversion Classifications] | Scegli una variabile e definisci le classificazioni da utilizzare per tale variabile. <br>Prima di poter essere utilizzate nelle regole, le variabili devono avere almeno una colonna di classificazione.<br>Una volta abilitate le classificazioni, puoi utilizzare l’importazione e il generatore di regole per classificare valori specifici. |
+| Passaggio 2: [creare un set di regole](classification-rule-set.md). | [!UICONTROL Admin] >  [!UICONTROL Classification Rule Builder] > [!UICONTROL Add Rule Set] | Un set di regole è un gruppo di regole di classificazione per una variabile specifica. |
 | Passaggio 3: configurare suite di rapporti e variabili. | [!UICONTROL Classification Rule Builder] > &lt;set di regole> | Applica il set di regole alle suite di rapporti e alle variabili. |
-| Passaggio 4: [aggiungere le regole di classificazione al set](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] > &lt;set di regole> | Associa una condizione a una classificazione, quindi specifica l’azione da intraprendere per la regola.  Fai riferimento alle informazioni in [Modalità di elaborazione delle regole](/help/components/classifications/crb/classification-quickstart-rules.md). |
-| Passaggio 5: [testare un set di regole di classificazione](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | È necessario testare la convalida delle regole modificandole in modalità Bozza. Non è possibile eseguire le regole in modalità Bozza.<br>Questo passaggio è importante quando si utilizzano [espressioni regolari](/help/components/classifications/crb/classification-quickstart-rules.md). |
-| Passaggio 6: [attivare le regole valide](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Quando le regole sono state rese valide, attiva il set di regole.  Puoi sovrascrivere le chiavi esistenti se necessario. Consulta [Modalità di elaborazione delle regole](/help/components/classifications/crb/classification-quickstart-rules.md). |
-| Passaggio 7 (facoltativo): [eliminare le regole indesiderate](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Elimina le regole indesiderate da un set.<br>Nota: l’eliminazione delle regole non comporta l’eliminazione dei dati classificati caricati.  Se hai necessità di eliminare i dati classificati, consulta [Eliminare i dati di classificazione](/help/components/classifications/importer/t-delete-classification-data.md). |
+| Passaggio 4: [aggiungere le regole di classificazione al set](classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] > &lt;set di regole> | Associa una condizione a una classificazione, quindi specifica l’azione da intraprendere per la regola.  Fai riferimento alle informazioni in [Modalità di elaborazione delle regole](classification-quickstart-rules.md). |
+| Passaggio 5: [testare un set di regole di classificazione](classification-quickstart-rules.md) | [!DNL Testing Page] | È necessario testare la convalida delle regole modificandole in modalità Bozza. Non è possibile eseguire le regole in modalità Bozza.<br>Questo passaggio è importante quando si utilizzano [espressioni regolari](classification-quickstart-rules.md). |
+| Passaggio 6: [attivare le regole valide](classification-rule-definitions.md). | [!DNL Rules Page] | Quando le regole sono state rese valide, attiva il set di regole.  Puoi sovrascrivere le chiavi esistenti se necessario. Consulta [Modalità di elaborazione delle regole](classification-quickstart-rules.md). |
+| Passaggio 7 (facoltativo): [eliminare le regole indesiderate](classification-rule-definitions.md). | [!DNL Rules Page] | Elimina le regole indesiderate da un set.<br>Nota: l&#39;eliminazione delle regole non comporta l&#39;eliminazione dei dati classificati caricati. Se devi eliminare i dati classificati, consulta [Elimina dati di classificazione](/help/components/classifications/importer/t-delete-classification-data.md). |
 
 >[!NOTE]
 >
->I gruppi con autorizzazioni per utilizzare lo strumento di importazione delle classificazioni possono utilizzare le regole di classificazione. Per informazioni importanti sull’elaborazione, vedi [Modalità di elaborazione delle regole](/help/components/classifications/crb/classification-quickstart-rules.md).
+>I gruppi con autorizzazioni per utilizzare lo strumento di importazione delle classificazioni possono utilizzare le regole di classificazione. Per informazioni importanti sull’elaborazione, vedi [Modalità di elaborazione delle regole](classification-quickstart-rules.md).
 
 **Risorse aggiuntive**
 
 **Blog**: per ulteriori informazioni su questa funzione, consulta l’articolo del blog di digital marketing [Classificazioni basate sulle regole](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: visualizza il video [Panoramica classificazioni](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html?lang=it).
+**Video**: visualizza il video [Panoramica classificazioni](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).

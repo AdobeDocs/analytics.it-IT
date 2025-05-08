@@ -4,7 +4,7 @@ description: Scopri i problemi comuni e le best practice per la risoluzione dei 
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Alcune organizzazioni utilizzano i plug-in per migliorare la propria implementaz
 
 ## Spazio vuoto nei valori delle variabili
 
-In HTML ci sono diversi caratteri che creano spazi. Questi includono uno spazio, una tabulazione e un ritorno a capo (o avanzamento riga). Prendi in considerazione l’esempio seguente:
+In HTML sono disponibili diversi caratteri che creano spazi vuoti. Questi includono uno spazio, una tabulazione e un ritorno a capo (o avanzamento riga). Prendi in considerazione l’esempio seguente:
 
 ```html
 <head>
@@ -87,7 +87,7 @@ Questi due valori delle variabili sono considerati separati in Adobe Analytics. 
 
 Le implementazioni che popolano molte variabili con valori lunghi a volte possono causare richieste di immagini troncate. Alcuni browser meno recenti, come Internet Explorer, impongono un limite di 2083 caratteri per gli URL di richiesta delle immagini. Se l’organizzazione deve far fronte a richieste di immagini molto lunghe, prova quanto segue:
 
-* **Utilizza il servizio ID Experience Cloud**: le librerie AppMeasurement 1.4.1 e versioni successive inviano automaticamente le richieste di immagini tramite HTTP POST se sono troppo lunghe. I dati inviati con questo metodo non vengono troncati, a prescindere dalla lunghezza. Per ulteriori informazioni, consulta [Servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
+* **Utilizza il servizio Experience Cloud ID**: le librerie AppMeasurement 1.4.1 e versioni successive inviano automaticamente le richieste di immagini tramite HTTP POST se sono troppo lunghe. I dati inviati con questo metodo non vengono troncati, a prescindere dalla lunghezza. Per ulteriori informazioni, consulta [Servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
 * **Usa regole di elaborazione**: [Le regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) possono copiare i valori da una variabile a un&#39;altra. Questo metodo evita di impostare lo stesso valore in più variabili. Ad esempio:
 
   Esegui sempre:<br>
@@ -110,4 +110,4 @@ Sovrascrivi il valore di prop2 con eVar1<br>
   s.prop2 = "D=v1";
   ```
 
-* **Usa classificazioni**: se i nomi di prodotti o pagine sono insolitamente lunghi, puoi utilizzare un valore o un codice identificativo, quindi utilizzare [classificazioni](/help/components/classifications/c-classifications.md) per visualizzare un nome più descrittivo.
+* **Usa classificazioni**: se i nomi di prodotti o pagine sono insolitamente lunghi, puoi utilizzare un valore o un codice identificativo, quindi utilizzare [classificazioni](/help/components/classifications/classifications-overview.md) per visualizzare un nome più descrittivo.

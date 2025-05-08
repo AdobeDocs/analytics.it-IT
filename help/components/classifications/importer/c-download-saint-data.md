@@ -3,14 +3,14 @@ description: (Facoltativo) Prima di importare le classificazioni nei rapporti di
 title: Modello di classificazione
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '345'
 ht-degree: 5%
 
 ---
 
-# Modello di classificazione
+# Modello di classificazione (legacy)
 
 (Facoltativo) Prima di importare le classificazioni in rapporti e progetti, puoi scaricare un modello che ti aiuti a creare un file di dati delle classificazioni. Il file di dati utilizza le classificazioni desiderate come intestazioni di colonna, quindi organizza il set di dati di reporting sotto le intestazioni di classificazione appropriate.
 

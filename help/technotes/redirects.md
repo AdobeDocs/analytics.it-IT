@@ -4,7 +4,7 @@ keywords: Implementazione di Analytics
 title: Reindirizzamenti e alias
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 1%
@@ -21,7 +21,7 @@ I reindirizzamenti puntano il browser a una nuova posizione senza l’interazion
 
 Poiché i reindirizzamenti non richiedono alcuna interazione da parte dell’utente, spesso vengono eseguiti senza che l’utente se ne accorga. L’unica cosa che indica che si è verificato un reindirizzamento è la barra degli indirizzi del browser. Nella barra degli indirizzi viene visualizzato un URL diverso dal collegamento richiesto inizialmente dal browser.
 
-Anche se esistono solo due tipi di reindirizzamenti, possono essere implementati in numerosi modi. Ad esempio, i reindirizzamenti lato client possono verificarsi perché la pagina web a cui un utente ha puntato il browser contiene script o uno speciale codice HTML che reindirizza il browser a un altro URL. È possibile che si verifichino reindirizzamenti lato server perché la pagina contiene script lato server o perché il server web è stato configurato per indirizzare l’utente a un altro URL.
+Anche se esistono solo due tipi di reindirizzamenti, possono essere implementati in numerosi modi. Ad esempio, i reindirizzamenti lato client possono verificarsi perché la pagina web a cui un utente ha puntato il browser contiene script o codice HTML speciale che reindirizza il browser a un altro URL. È possibile che si verifichino reindirizzamenti lato server perché la pagina contiene script lato server o perché il server web è stato configurato per indirizzare l’utente a un altro URL.
 
 ## Analytics e reindirizzamenti {#aa-redirects}
 
@@ -113,7 +113,7 @@ s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tick
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
-## Verifica il referente con l’Adobe Debugger {#verify}
+## Verificare il referente con Adobe Debugger {#verify}
 
 Eseguire un test per verificare che il referente, l&#39;URL di origine ( *`s_server`*) e le variabili della campagna vengano acquisiti.
 
@@ -139,7 +139,7 @@ Queste variabili saranno rappresentate come i seguenti parametri nel [Experience
    <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>Questo valore verrà visualizzato nel debugger di DigitalPulse se si utilizza la variabile <span class="varname"> pageURL </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>URL della pagina di destinazione finale </p> </td> 
+   <td> <p>URL della pagina di destinazione di Ultimate </p> </td> 
    <td> <p> <span class="filepath"> https://www.example.com </span> </p> </td> 
    <td> <p>Questo valore NON verrà visualizzato nel debugger DigitalPulse se si utilizza la variabile </span> pageURL <span class="varname">. </p> </td> 
   </tr> 
@@ -153,7 +153,7 @@ Image
  
 https://examplecom.112.2o7.net/b/ss/examplecom/1/JS-1.4/s61944015791667?[AQB] 
 ndh=1 
-t=4/8/2014 13:34:28 4 360 
+t=4/8/20XX 13:34:28 4 360 
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
@@ -170,4 +170,4 @@ hp=N
 [AQE]
 ```
 
-Dopo aver verificato che l&#39;Adobe [!UICONTROL Debugger] visualizzi queste variabili, è sempre utile verificare che i termini di ricerca e il dominio di riferimento originale (prima del reindirizzamento) registrino il traffico nei report.
+Dopo aver verificato che Adobe [!UICONTROL Debugger] visualizzi queste variabili, è sempre utile verificare che i termini di ricerca e il dominio di riferimento originale (prima del reindirizzamento) registrino il traffico nei rapporti.

@@ -4,9 +4,9 @@ title: Classificazioni di conversione
 feature: Classifications
 role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '475'
 ht-degree: 96%
 
 ---
@@ -18,8 +18,6 @@ Le classificazioni vengono utilizzate per categorizzare i valori in gruppi e gen
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**
 
 Le classificazioni di conversione ti consentono di classificare le variabili di conversione. Una volta effettuata la classificazione, qualsiasi rapporto che puoi generare utilizzando la variabile chiave può essere generato anche utilizzando le proprietà dati.
-
-Dopo aver abilitato le classificazioni, utilizza l’[Importatore di classificazione](/help/components/classifications/importer/c-working-with-saint.md) per assegnare valori specifici alla classificazione appropriata.
 
 >[!WARNING]
 >
@@ -46,9 +44,6 @@ Per aggiungere classificazioni di conversione in Amministratore:
    ![Informazioni sul passaggio](/help/admin/admin/assets/sub_class_create.png)
 
 1. Passa il puntatore del mouse sopra l’icona **[!UICONTROL Edit Classification]**, quindi seleziona **[!UICONTROL Add Classification]**.
-1. Nel campo **[!UICONTROL Select Type]**, seleziona il tipo di classificazione da aggiungere alla variabile.
-
-   Le opzioni includono **[!UICONTROL Text]** e **[!UICONTROL Numeric]**. Per ulteriori informazioni sui tipi di classificazione, consulta [Informazioni sulle classificazioni](/help/components/classifications/c-classifications.md).
 1. Nella finestra di dialogo **[!UICONTROL Text Classifications]**, configura la classificazione come desiderato.
 
 1. Aggiungere o rimuovere opzioni nella finestra di dialogo dell&#39;elenco a discesa.

@@ -3,14 +3,14 @@ description: Le regole di classificazione cercano regolarmente termini non class
 title: Regole di classificazione
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 89%
+source-wordcount: '1920'
+ht-degree: 86%
 
 ---
 
-# Regole di classificazione
+# Regole di classificazione (legacy)
 
 Le regole di classificazione cercano regolarmente termini non classificati. Se viene trovata una corrispondenza alla regola, le regole aggiungono automaticamente i termini alle tabelle di dati di classificazione. Puoi inoltre utilizzare le regole di classificazione per sovrascrivere le chiavi esistenti.
 
@@ -27,7 +27,7 @@ Le regole di classificazione sono utili per:
 
 Ad esempio, supponiamo che un codice di tracciamento per un ID di campagna e-mail sia:
 
-`em:Summer:2013:Sale`.
+`em:Summer:20XX:Sale`.
 
 È possibile impostare tre regole in un set di regole che identificano le parti della stringa e classificano i valori:
 
@@ -35,7 +35,7 @@ Ad esempio, supponiamo che un codice di tracciamento per un ID di campagna e-mai
 |---|---|---|---|
 | Inizia con | em: | Canale | E-mail |
 | Termina con | Vendita | Tipo | Vendita |
-| Contiene | 2013 | Anno | 2013 |
+| Contiene | 20XX | Anno | 20XX |
 
 ## Elaborazione delle regole {#how-rules-are-processed}
 
@@ -95,18 +95,6 @@ Quando attivi le regole, puoi sovrascrivere le classificazioni esistenti. Nelle 
 
 Utilizza espressioni regolari per far corrispondere valori stringa formattati in modo uniforme con una classificazione. Ad esempio, puoi creare una classificazione da caratteri specifici in un codice di tracciamento. È possibile far corrispondere caratteri, parole o pattern di caratteri specifici.
 
-<!-- 
-
-regex_classification_rules.xml
-
- -->
-
-* [Espressione regolare - Esempio di codice di tracciamento](/help/components/classifications/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669)
-* [Espressione regolare - Classificazione di un carattere specifico](/help/components/classifications/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF)
-* [Espressioni regolari - Corrispondenza di codici di tracciamento di lunghezza variabile](/help/components/classifications/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
-* [Espressioni regolari - Esempio di “non contiene”](/help/components/classifications/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
-* [Espressioni regolari - Tabella riferimenti](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
-
 >[!NOTE]
 >
 >Secondo le best practice, le espressioni regolari sono particolarmente indicate per i codici di tracciamento che utilizzano delimitatori.
@@ -119,25 +107,25 @@ regex_classification_rules.xml
 
 In questo esempio, supponiamo tu voglia classificare il seguente ID campagna:
 
-[!UICONTROL Sample Key]: `em:JuneSale:20130601`
+Chiave di esempio: `em:JuneSale:20XX0601`
 
 Le parti del codice di tracciamento che desideri classificare sono:
 
 * `em` = e-mail
 * `JuneSale` = nome della campagna
-* `20130601` = data
+* `20XX0601` = data
 
-[!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
+Espressione regolare: `^(.+)\:(.+)\:(.+)$`
 
 Correlazione tra l’espressione regolare e l’ID campagna:
 
 ![](assets/regex.png)
 
-[!UICONTROL Match Groups]: mostra in che modo l’espressione regolare corrisponde ai caratteri dell’ID campagna, in modo da poter classificare una posizione nell’ID campagna.
+Corrispondenza gruppi: mostra in che modo l’espressione regolare corrisponde ai caratteri dell’ID campagna, in modo da poter classificare una posizione nell’ID campagna.
 
 ![](assets/regex_tracking_code.png)
 
-In questo esempio comunica alla regola che la data della campagna `20140601` si trova nel terzo gruppo `(.+)`, identificato da `$3`.
+In questo esempio comunica alla regola che la data della campagna `20XX0601` si trova nel terzo gruppo `(.+)`, identificato da `$3`.
 
 **[!UICONTROL Rule Builder]**
 
@@ -145,22 +133,22 @@ Nel [!UICONTROL Rule Builder], configura la regola come segue:
 
 | Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | Su |
 |---|---|---|---|
-| Espressione regolare | &Hat;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
+| Espressione regolare | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
 
 **Sintassi**
 
 | Espressione regolare | Stringa o risultato della corrispondenza | Relativi gruppi di corrispondenza |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601` `$1`: em `$2`: JuneSale `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1`: em `$2`: JuneSale `$3`: 20XX0601 |
 | Creazione della sintassi | `^` = avvia la riga  () = raggruppa i caratteri e consente di estrarre i caratteri corrispondenti tra parentesi.  `(.+)` = acquisisce un carattere ( . ) e ( + ) qualsiasi altro carattere \ = inizio di una stringa.  `$` = indica che il carattere precedente (o il gruppo di caratteri) è l’ultimo della riga. |
 
-Per informazioni sul significato dei caratteri in un’espressione regolare, consulta [Espressioni regolari - Tabella riferimenti](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).
+Per informazioni sul significato dei caratteri in un’espressione regolare, consulta [Espressioni regolari - Tabella riferimenti](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 ## Espressione regolare - Classificazione di un carattere specifico {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 Un modo per utilizzare un’espressione regolare è classificare un carattere specifico in una stringa di caratteri. Ad esempio, supponiamo che il seguente codice di tracciamento contenga due caratteri importanti:
 
-[!UICONTROL Sample Key]: `4s3234`
+Chiave di esempio: `4s3234`
 
 * `4` = nome del marchio
 * `s` = identifica un motore di ricerca, ad esempio Google
@@ -308,7 +296,7 @@ Per aggiungere nuove regole, fai corrispondere una condizione a una classificazi
 
 >[!NOTE]
 >
->In questa procedura, devi applicare le regole a una o più suite di rapporti. Il numero di regole consigliato per set di regole è compreso tra 500 e 1000, anche se non esistono limiti. Se disponi di più di 100 regole, prova a semplificare il set di regole utilizzando le [sottoclassificazioni](/help/components/classifications/c-sub-classifications.md).
+>In questa procedura, devi applicare le regole a una o più suite di rapporti. Il numero di regole consigliato per set di regole è compreso tra 500 e 1000, anche se non esistono limiti. Se disponi di più di 100 regole, prova a semplificare il set di regole utilizzando [sottoclassificazioni](/help/components/classifications/importer/subclassifications.md).
 
 Per aggiungere o modificare una regola di classificazione:
 

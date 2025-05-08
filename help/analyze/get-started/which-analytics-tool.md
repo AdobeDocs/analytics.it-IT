@@ -3,10 +3,10 @@ description: Questa pagina dell’Aiuto contiene casi d’uso consigliati per og
 title: Quale strumento Adobe Analytics usare?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 99%
+source-wordcount: '1117'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ Per ulteriori informazioni sul confronto tra i prodotti Adobe Analytics, consult
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto degli strumenti](https://video.tv.adobe.com/v/329303?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto degli strumenti](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -38,34 +38,28 @@ Le **[dashboard di Adobe Analytics](/help/analyze/mobile-app/home.md)** consento
 
 ## Importazione di dati in Adobe Analytics {#import}
 
-Le **[classificazioni](/help/components/classifications/c-classifications.md)** sono indicate nei seguenti casi:
+Le **[classificazioni](/help/components/classifications/classifications-overview.md)** sono indicate nei seguenti casi:
 
-* In presenza di metadati da associare a un valore di raccolta (eVar, prop, canale di marketing)
-* Opzioni:
-
-   * Generatore di regole: utile quando si raccolgono valori formattati prevedibili per una variabile, ad esempio valori delimitati. Questo approccio consente di impostare le regole una volta e applicarle poi senza ulteriori interventi.
-   * Importazione browser: utile quando non si dispone di valori prevedibili o quando si dispone di un elenco finito di valori che richiede un aggiornamento una tantum. Questo approccio richiede un monitoraggio continuo delle classificazioni per i nuovi valori.
+* In presenza di metadati che desideri associare a un valore di raccolta (eVar, prop, canale di marketing). Adobe consiglia di utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md). Il generatore di regole di classificazione e l’importazione di classificazioni sono metodi legacy per inserire i dati di classificazione in Adobe Analytics.
 
 Le **[origini dati](/help/import/data-sources/overview.md)** sono utili nei seguenti casi:
 
 * In presenza di dati offline che devono essere scritti in modo permanente in Adobe Analytics
 * Opzioni:
-
    * Riepilogo: caricamenti di dati semplici, per giorno o di dimensioni limitate
    * ID transazione: caricamenti di dati che collegano un endpoint online a dati offline e associano completamente i dati importati a uno snapshot visitatore acquisito online (ad esempio, ordini completati online e restituiti offline)
-   * Elaborazione completa: origini dati con marca temporale, elaborate come gli hit raccolti dai server Adobe. Ad esempio, i dati vengono inseriti direttamente nel percorso del visitatore.
 
 **[Le integrazioni Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** devono essere utilizzate:
 
 * Quando interagisci con un provider di terze parti che ha creato una connessione supportata con Adobe Analytics. In genere, le app di integrazione incorporano dati di riepilogo in Adobe Analytics in modo permanente e automatico, su base periodica.
 
-L’**[API di inserimento dati](/help/import/c-data-insertion-api/c-data-insertion-api.md)** è indicata nei seguenti casi:
-
-* Quando devi caricare dei dati in Adobe Analytics e non puoi usare il codice di Adobe AppMeasurement o Mobile SDK. Consigliamo di utilizzare l’API di inserimento dati in blocco (vedi di seguito).
-
 **[API di inserimento dati in blocco](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* L’API di inserimento dati e l’API di inserimento dati in blocco sono entrambi metodi per inviare i dati di raccolta lato server ad Adobe Analytics. Le chiamate API di inserimento dati vengono effettuate un evento alla volta. L’API di inserimento dati in blocco accetta file in formato CSV contenenti dati evento, un evento per riga. Se stai lavorando a una nuova implementazione della raccolta lato server, ti consigliamo di utilizzare l’API di inserimento dati in blocco.
+* L’API di inserimento dati in blocco accetta file in formato CSV contenenti dati evento, un evento per riga. Adobe consiglia di utilizzare l’API di inserimento in blocco per qualsiasi implementazione che richieda codice lato server o che non possa altrimenti utilizzare AppMeasurement o Web SDK per la raccolta dei dati.
+
+**[Data Insertion API (Legacy)](/help/import/c-data-insertion-api/c-data-insertion-api.md)** è indicato nei seguenti casi:
+
+* Quando devi inserire dati in Adobe Analytics e non puoi utilizzare AppMeasurement, Web SDK o l’API di inserimento dati in blocco.
 
 Gli **[Attributi cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it)** sono indicati per i seguenti casi:
 

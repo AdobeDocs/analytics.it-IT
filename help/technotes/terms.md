@@ -3,7 +3,7 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '2579'
 ht-degree: 89%
@@ -33,7 +33,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Canale:** può fare riferimento a:
    * La variabile Canale, che popola la dimensione Sezioni del sito. Consulta [Variabili della pagina](/help/implement/vars/page-vars/page-variables.md) nella Guida utente per l’implementazione.
    * Canali di marketing, un componente che consente di comprendere il modo in cui gli utenti arrivano al sito. Consulta [Canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) nella Guida utente sui componenti.
-* **Classificazione:** una funzione di Adobe Analytics che consente il raggruppamento di elementi dimensionali. Consulta [Classificazioni](/help/components/classifications/c-classifications.md) nella Guida utente sui componenti.
+* **Classificazione:** una funzione di Adobe Analytics che consente il raggruppamento di elementi dimensionali. Consulta [Classificazioni](/help/components/classifications/classifications-overview.md) nella Guida utente sui componenti.
 * **ClickMap:** non più utilizzato. Plug-in del browser precedente che mostra le aree del sito su cui sono stati fatti più clic. Questo strumento è stato ritirato a favore di Activity Map.
 * **Feed di dati Clickstream:** consulta i feed di dati
 * **Coorte:** un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Consulta [Cos’è un’analisi per coorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) nella Guida agli strumenti di Analytics.

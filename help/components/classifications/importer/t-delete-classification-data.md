@@ -3,9 +3,9 @@ description: Passaggi che descrivono come eliminare o rimuovere i dati di classi
 title: Eliminare i dati di classificazione
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '354'
 ht-degree: 5%
 
 ---

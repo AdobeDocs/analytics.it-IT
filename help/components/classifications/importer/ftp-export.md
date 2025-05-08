@@ -3,14 +3,14 @@ title: Esportazione dei dati di classificazione tramite FTP
 description: L’esportazione FTP offre maggiore flessibilità con i download dei set di dati, tra cui il download di dati da più suite di rapporti e il download di file di set di dati di dimensioni superiori a 50.000 righe di dati
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '590'
 ht-degree: 1%
 
 ---
 
-# Esportazione dei dati di classificazione tramite FTP
+# Esportazione FTP (legacy)
 
 L’opzione FTP offre maggiore flessibilità nel download dei set di dati, inclusa la possibilità di scaricare dati da più suite di rapporti e file di set di dati con dimensioni superiori a 50.000 righe di dati. Prima di scaricare i dati di classificazione tramite FTP, crea un account FTP.
 
@@ -45,6 +45,6 @@ Questi passaggi descrivono come esportare (scaricare) le classificazioni da Adob
 | [!UICONTROL Apply Data Filter] | (Facoltativo) Filtra il set di dati in base a criteri di dati. Puoi filtrare il download per includere righe di dati che includono un valore specifico o righe di dati con valori di colonna (classificazione) non assegnati. |
 | [!UICONTROL Date Filter] | (Facoltativo) Filtra i dati in base ai dati della campagna.Puoi scaricare i dati solo dalle campagne attive o selezionare le campagne che iniziano (o terminano) in un intervallo di date specifico. |
 | [!UICONTROL Export Numeric 2] | Puoi importare le classificazioni numeriche 2 nel sistema utilizzando l’importazione. Le classificazioni numeriche 2 sono utili per le variabili che cambiano nel tempo per elementi diversi, come i valori di costo e budget per il rapporto Canale di marketing. |
-| [!UICONTROL FTP Account] | Specifica le informazioni sul server FTP in cui vuoi che Adobe scarichi il file di dati, tra cui nome host e porta, percorso della directory di destinazione, nome utente e password. |
+| [!UICONTROL FTP Account] | Specifica le informazioni sul server FTP da cui vuoi che Adobe scarichi il file di dati, tra cui nome host e porta, percorso della directory di destinazione, nome utente e password. |
 | [!UICONTROL Notification] | Specifica l&#39;indirizzo e-mail per ricevere notifiche sul download FTP. |
 | [!UICONTROL Encoding] | Selezionare la codifica dei caratteri per il file di dati. Il formato di codifica predefinito è UTF-8 o ISO-8859-1, in base alla codifica caricata per la classificazione. Da UTF-8 a UTF-16 converte le classificazioni con codifica UTF-8 in codifica UTF-16. Le classificazioni codificate ISO-8859-1 in UTF-16 convertono le classificazioni codificate ISO-8859-1 nella codifica UTF-16.<br>**Nota:** se si sceglie di convertire in UTF-16, la codifica di origine deve corrispondere alla codifica del caricamento originale oppure è possibile ottenere risultati imprevisti. È consigliabile codificare tutti i file caricati in UTF-8 senza DBA. |

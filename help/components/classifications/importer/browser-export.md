@@ -3,14 +3,14 @@ title: Esportazione browser
 description: L’esportazione del browser consente di esportare i dati di classificazione in un file delimitato da tabulazioni.
 feature: Classifications
 exl-id: f4c709b2-f707-4e3c-82ba-6b43def3e698
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 2%
 
 ---
 
-# Esportazione browser
+# Esportazione browser (legacy)
 
 L’esportazione del browser consente di esportare i dati di classificazione in un file delimitato da tabulazioni.
 
@@ -33,7 +33,7 @@ Il file del set di dati è un file di dati delimitato da tabulazioni (estensione
 | Filtro dati | (Facoltativo) Filtra i dati per dati della campagna. Puoi scaricare i dati solo dalle campagne attive, oppure selezionare le campagne che sono iniziate (o terminate) in un intervallo di date specifico.<br>**Importante**: questa opzione non è disponibile per le suite di rapporti abilitate per la nuova architettura di classificazione. |
 | Esporta numerico 2 | Puoi importare le classificazioni numeriche 2 nel sistema utilizzando l’importazione. Le classificazioni numeriche 2 sono utili per le variabili che cambiano nel tempo per elementi diversi, come i valori di costo e budget per il rapporto Canale di marketing. Per informazioni sul caricamento di dati utilizzando classificazioni numeriche 2, consulta Classificazioni numeriche 2. |
 | Codifica | Selezionare la codifica dei caratteri per il file di dati. Il formato di codifica predefinito è UTF-8 o ISO-8859-1, in base alla codifica caricata per la classificazione. Da UTF-8 a UTF-16 converte le classificazioni con codifica UTF-8 in codifica UTF-16. Le classificazioni codificate ISO-8859-1 in UTF-16 convertono le classificazioni codificate ISO-8859-1 nella codifica UTF-16.<br>**Nota:** se si sceglie di convertire in UTF-16, la codifica di origine deve corrispondere alla codifica del caricamento originale oppure è possibile ottenere risultati imprevisti. È consigliabile codificare tutti i file caricati in UTF-8 senza DBA. |
-| Output preventivo | Specifica la versione 2.1 per il file di classificazione. Questa impostazione racchiude tra virgolette i caratteri speciali per garantire che le esportazioni funzionino in Excel quando è presente un&#39;interruzione di riga nei valori eVar. Per identificare se un file di classificazione è nella versione 2.1, apri il file scaricato. Vedrai la versione 2.1 nell’intestazione. Ad esempio: `## SC SiteCatalyst SAINT Import File v:2.1` |
+| Output preventivo | Specifica la versione 2.1 per il file di classificazione. Questa impostazione racchiude tra virgolette i caratteri speciali per garantire che le esportazioni funzionino in Excel quando è presente un’interruzione di riga nei valori di eVar. Per identificare se un file di classificazione è nella versione 2.1, apri il file scaricato. Vedrai la versione 2.1 nell’intestazione. Ad esempio: `## SC SiteCatalyst SAINT Import File v:2.1` |
 
 ## Esportare i dati di classificazione utilizzando il browser
 

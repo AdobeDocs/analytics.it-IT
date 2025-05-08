@@ -3,10 +3,10 @@ title: Risoluzione di problemi dell’importazione di classificazioni
 description: Problemi di caricamento comuni quando si utilizza l’importazione classificazioni.
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 86%
+source-wordcount: '875'
+ht-degree: 83%
 
 ---
 
@@ -31,8 +31,8 @@ Se il file di caricamento è formattato correttamente, il caricatore tenta di im
 
 * **Righe già classificate**: quando tenti di caricare righe già classificate con lo stesso valore, l’importazione restituisce righe che non hanno avuto alcun effetto. Questo risultato è previsto, in quanto le classificazioni non riclassificano un valore chiave con la stessa classificazione. È una notifica più che un errore. Non preoccuparti se non modifichi tutte le righe all’interno di un file di esportazione. Adobe consiglia di caricare solo le righe modificate.
 * **L’intestazione non corrisponde alla variabile caricata**: se scarichi un modello di classificazione per la dimensione del codice di tracciamento e provi a caricarlo in una classificazione eVar, questo non riesce. Utilizza solo i file di esportazione per le variabili specifiche da cui sono stati esportati.
-* **Una chiave o un valore di classificazione contiene il valore 0**: le classificazioni non sono in grado di distinguere il valore 0 da una cella vuota, pertanto non possono classificare tale valore. Consulta [Domande frequenti sulle classificazioni](../faq.md).
-* **Il file di classificazione contiene virgole o caratteri speciali**: consulta [Domande frequenti sulle classificazioni](../faq.md).
+* **Una chiave o un valore di classificazione contiene il valore 0**: le classificazioni non sono in grado di distinguere il valore 0 da una cella vuota, pertanto non possono classificare tale valore. Per ulteriori informazioni, consulta le [Domande frequenti sull&#39;importazione delle classificazioni](importer-faq.md).
+* **Il file di classificazione contiene virgole o caratteri speciali**: per informazioni su come eliminare i valori, vedere le [Domande frequenti sull&#39;importazione delle classificazioni](importer-faq.md).
 * **Schede supplementari nel file caricato**: talvolta, quando si modificano i file di classificazione, può capitare di inserire accidentalmente una scheda in più. Ogni riga richiede un numero identico di schede per essere elaborata correttamente. Per verificare la presenza di schede supplementari all’interno del file, evidenzia tutto il testo in un editor di testo normale e accertati che non vi siano righe con spazio aggiuntivo alla fine.
 * **Nel file sono presenti valori chiave duplicati**: ogni valore chiave può avere una sola classificazione per colonna. Se provi a classificare lo stesso valore più volte, l’importazione genera un errore.
 * **Sono presenti sottoclassificazioni non configurate correttamente**. Se sono presenti sottoclassificazioni, verifica che:

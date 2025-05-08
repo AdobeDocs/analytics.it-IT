@@ -3,7 +3,7 @@ title: Prodotto
 description: Il nome del prodotto.
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 6%
@@ -20,4 +20,4 @@ Questa dimensione fa riferimento alla seconda parte della stringa nella variabil
 
 ## Elementi dimensionali
 
-Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina quali sono gli elementi dimensionali. L’Adobe consiglia di stabilire una convenzione di denominazione coerente per i prodotti. [Le classificazioni](../classifications/c-classifications.md) sono disponibili se desideri raggruppare i prodotti in modo diverso o fornire un nome più descrittivo. L’Adobe consiglia di utilizzare entrambe le dimensioni &quot;Prodotto&quot; e &quot;Categoria&quot;.
+Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina quali sono gli elementi dimensionali. Adobe consiglia di stabilire una convenzione di denominazione coerente per i prodotti. [Le classificazioni](../classifications/classifications-overview.md) sono disponibili se desideri raggruppare i prodotti in modo diverso o fornire un nome più descrittivo. Adobe consiglia di utilizzare entrambe le dimensioni &quot;Prodotto&quot; e &quot;Categoria&quot;.
