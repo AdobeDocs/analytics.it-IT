@@ -6,22 +6,22 @@ exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
 source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 60%
+source-wordcount: '4751'
+ht-degree: 91%
 
 ---
 
 # Funzioni avanzate
 
-Il [Generatore di metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) consente di applicare funzioni statistiche e matematiche. Questo articolo documenta l’elenco alfabetico delle funzioni avanzate e delle relative definizioni.
+Il [Generatore di metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) consente di applicare funzioni statistiche e matematiche. Questo articolo riporta un elenco alfabetico delle funzioni avanzate e delle relative definizioni.
 
-Accedi a queste funzioni selezionando **[!UICONTROL Show all]** sotto l&#39;elenco ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** nel pannello Componenti. Scorrere verso il basso per visualizzare l&#39;elenco di **[!UICONTROL Advanced functions]**.
+Accedi a queste funzioni selezionando **[!UICONTROL Show all]** sotto l’elenco ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** nel pannello Componenti. Scorri verso il basso per visualizzare l’elenco di **[!UICONTROL Advanced functions]**.
 
 ## Funzioni tabella e funzioni riga
 
 Una funzione tabella è una funzione in cui l’output è lo stesso per ogni riga della tabella. Una funzione riga è una funzione in cui l’output è diverso per ogni riga della tabella.
 
-Se applicabile e pertinente, una funzione viene annotata con il tipo di funzione: [!BADGE Tabella]{type="Neutral"}[!BADGE Riga]{type="Neutral"}
+Se applicabile e pertinente, una funzione viene annotata con il tipo di funzione: [!BADGE Tabella]{type="Neutral"} o [!BADGE Riga]{type="Neutral"}
 
 ## Che cosa significa il parametro include-zeros?
 
@@ -29,7 +29,7 @@ Il parametro indica se includere gli zeri all’interno del calcolo. Talvolta lo
 
 Ad esempio, se hai una metrica Revenue (Entrate) e ne aggiungi al report una del tipo Page Views (Visualizzazioni pagina), improvvisamente saranno presenti più righe per le entrate che sono pari a zero. Probabilmente non vorrai che questa metrica aggiuntiva influisca su **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** e altri calcoli presenti nella colonna dei ricavi. In questo caso, dovrai controllare il parametro `include-zeros`.
 
-In alternativa, puoi avere due metriche di interesse e una con una media o un minimo più elevati, perché alcune righe sono pari a zero.  In tal caso, puoi scegliere di non selezionare il parametro per includervi degli zeri.
+In alternativa, puoi avere due metriche di interesse e una con una media o un minimo più elevati, perché alcune righe sono pari a zero.  In tal caso, puoi scegliere di non selezionare il parametro per includere gli zeri
 
 
 ## E {#and}
@@ -49,7 +49,7 @@ Congiunzione. Diverso da zero è considerato vero e uguale a zero è considerato
 
 | Argomento | Descrizione |
 |---|---|
-| logical_test | Richiede almeno un parametro, ma può richiedere un numero qualsiasi di parametri. Qualsiasi valore o espressione che può essere valutato come TRUE o FALSE |
+| logical_test | Richiede almeno un parametro, ma può accettare un numero qualsiasi di parametri. Qualsiasi valore o espressione che può avere valore TRUE o FALSE. |
 
 
 ## Conteggio distinto approssimativo {#approximate_count_distinct}
@@ -59,23 +59,23 @@ Congiunzione. Diverso da zero è considerato vero e uguale a zero è considerato
 >[!CONTEXTUALHELP]
 >id="functions-count-distinct-metric"
 >title="Conteggio distinto approssimativo"
->abstract="Restituisce il conteggio distinto approssimativo degli elementi della dimensione per la dimensione selezionata."
+>abstract="Restituisce il conteggio distinto approssimativo degli elementi dimensionali per la dimensione selezionata."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL APPROXIMATE COUNT DISTINCT(dimension)]**
 
 
-Restituisce il conteggio distinto approssimativo degli elementi della dimensione per la dimensione selezionata.
+Restituisce il conteggio distinto approssimativo degli elementi dimensionali per la dimensione selezionata.
 
 
 | Argomento | Descrizione |
 |---|---|
-| dimensione | Dimensione per la quale si desidera calcolare il conteggio degli elementi distinti approssimato |
+| dimensione | La dimensione per la quale vuoi ottenere il conteggio distinto approssimativo degli elementi. |
 
 ### Esempio
 
-Un caso d’uso comune per questa funzione si verifica quando si desidera ottenere un numero approssimativo di clienti.
+Un caso d’uso comune per questa funzione si verifica quando desideri ottenere un numero approssimativo di clienti.
 
 
 
@@ -93,12 +93,12 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce l&#39;arcocoseno, o inverso del coseno, di una metrica. L’arcocoseno è l’angolo di cui è numero il coseno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra 0 (zero) e pi. Per convertire il risultato da radianti a gradi, moltiplicalo per 180/PI( ).
 
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | Il coseno dell’angolo desiderato da -1 a 1 |
+| metrica | Il coseno dell’angolo desiderato da -1 a 1. |
 
 
 
@@ -109,19 +109,19 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 >[!CONTEXTUALHELP]
 >id="functions-asin"
 >title="Arcoseno"
->abstract="Restituisce l’arcoseno, o seno inverso, di un numero. L’arcoseno è l’angolo di cui è numero il seno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcoseno in gradi, moltiplica il risultato per 180/PI( )."
+>abstract="Restituisce l’arcoseno, o seno inverso, di un numero. L’arcoseno è l’angolo di cui è numero il seno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcoseno in gradi, moltiplica il risultato per 180/PI( )"
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce l&#39;arcoseno, o seno inverso, di un numero. L’arcoseno è l’angolo di cui è numero il seno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l&#39;arcoseno in gradi, moltiplicate il risultato per 180/PI().
 
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | Seno dell&#39;angolo desiderato da -1 a 1 |
+| metrica | Il seno dell’angolo desiderato da -1 a 1. |
 
 
 
@@ -139,12 +139,12 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce l&#39;arcotangente, o tangente inversa, di un numero. L’arcotangente è l’angolo di cui è numero la tangente. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcotangente in gradi, moltiplica il risultato per 180/PI( ).
 
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | Tangente dell&#39;angolo desiderato da -1 a 1 |
+| metrica | La tangente dell’angolo desiderato da -1 a 1. |
 
 
 
@@ -155,18 +155,18 @@ Un caso d’uso comune per questa funzione si verifica quando si desidera ottene
 >[!CONTEXTUALHELP]
 >id="functions-cdf-t"
 >title="Cdf-T"
->abstract="Restituisce la probabilità che una variabile casuale con distribuzione t di Student con n gradi di libertà abbia un punteggio z inferiore a col."
+>abstract="Restituisce la probabilità che una variabile casuale con distribuzione t di studente con n gradi di libertà abbia un punteggio z inferiore a col."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(metric, number)]**
 
-Restituisce la probabilità che una variabile casuale con distribuzione t di Student con n gradi di libertà abbia un punteggio z inferiore a col.
+Restituisce la probabilità che una variabile casuale con distribuzione t di studente con n gradi di libertà abbia un punteggio z inferiore a col.
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica per la quale desideri la funzione di distribuzione cumulativa della distribuzione t di Student |
-| number | I gradi di libertà per la funzione di distribuzione cumulativa della distribuzione t dello studente |
+| metrica | La metrica per la quale desideri la funzione Distribuzione cumulativa della distribuzione t di studente |
+| numero | I gradi di libertà della funzione Distribuzione cumulativa della distribuzione t dello studente |
 
 ### Esempio
 
@@ -196,7 +196,7 @@ Restituisce la probabilità che una variabile casuale con una distribuzione norm
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica per la quale si desidera la funzione di distribuzione cumulativa della distribuzione normale standard |
+| metrica | Metrica per la quale si desidera la funzione di distribuzione cumulativa della distribuzione normale standard |
 
 ### Esempi
 
@@ -221,20 +221,20 @@ CDF-Z(-3) ? 0.0013499
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il numero intero più piccolo, non inferiore a un valore specificato. 70 esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e un prodotto è pari a 569,93 $, utilizza la formula CEILING (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 570 $.
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica da arrotondare |
+| metrica | Metrica da arrotondare |
 
 
-## Confidence {#confidence}
+## Affidabilità {#confidence}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
->title="Confidence"
+>title="Affidabilità"
 >abstract="Calcola il valore di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476)."
 
 <!-- markdownlint-enable MD034 -->
@@ -243,14 +243,14 @@ CDF-Z(-3) ? 0.0013499
 
 Calcola il valore di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
 
-L’affidabilità è una misura probabilistica della quantità di prove che dimostrano che una determinata variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
+Affidabilità è una misura probabilistica della quantità di prove che dimostrano che una specifica variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
 
 | Argomento | Descrizione |
 | --- | --- |
-| normalizing-container | La base (Persone, Sessioni o Eventi) su cui viene eseguito un test. |
+| normalizing-container | La base (persone, sessioni o eventi) su cui verrà eseguito un test. |
 | success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
 | controllo | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
-| soglia di significatività | La soglia in questa funzione è impostata su un valore predefinito di 95%. |
+| significance-threshold | La soglia in questa funzione è impostata su un valore predefinito di 95%. |
 
 
 ## Affidabilità (inferiore) {#confidence-lower}
@@ -268,14 +268,14 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 
 Calcola il valore **inferiore** di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
 
-L’affidabilità è una misura probabilistica della quantità di prove che dimostrano che una determinata variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
+Affidabilità è una misura probabilistica della quantità di prove che dimostrano che una specifica variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
 
 | Argomento | Descrizione |
 | --- | --- |
-| normalizing-container | La base (Persone, Sessioni o Eventi) su cui viene eseguito un test. |
+| normalizing-container | La base (persone, sessioni o eventi) su cui verrà eseguito un test. |
 | success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
 | controllo | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
-| soglia di significatività | La soglia in questa funzione è impostata su un valore predefinito di 95%. |
+| significance-threshold | La soglia in questa funzione è impostata su un valore predefinito di 95%. |
 
 ## Affidabilità (superiore) {#confidence-upper}
 
@@ -292,14 +292,14 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 
 Calcola il valore **superiore** di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
 
-L’affidabilità è una misura probabilistica della quantità di prove che dimostrano che una determinata variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
+Affidabilità è una misura probabilistica della quantità di prove che dimostrano che una specifica variante è uguale alla variante di controllo. Una maggiore affidabilità indica meno prove dell’ipotesi che le varianti di controllo e non di controllo abbiano prestazioni uguali.
 
 | Argomento | Descrizione |
 | --- | --- |
-| normalizing-container | La base (Persone, Sessioni o Eventi) su cui viene eseguito un test. |
+| normalizing-container | La base (persone, sessioni o eventi) su cui verrà eseguito un test. |
 | success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
 | controllo | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
-| soglia di significatività | La soglia in questa funzione è impostata su un valore predefinito di 95%. |
+| significance-threshold | La soglia in questa funzione è impostata su un valore predefinito di 95%. |
 
 
 ## Coseno {#cosine}
@@ -315,11 +315,11 @@ L’affidabilità è una misura probabilistica della quantità di prove che dimo
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il coseno dell&#39;angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | L’angolo in radianti di cui vuoi ottenere il coseno |
+| metrica | L’angolo in radianti di cui vuoi ottenere il coseno. |
 
 
 ## Radice cubica {#cube-root}
@@ -341,17 +341,17 @@ Restituisce la radice cubica positiva di un numero. La radice cubica di un numer
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica per la quale si desidera calcolare la radice cubica |
+| metrica | Metrica per la quale desideri calcolare la radice quadrata. |
 
 
 
-## Cumulativo {#cumulative}
+## Cumulativa {#cumulative}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-cumul"
->title="Cumulativo"
+>title="Cumulativa"
 >abstract="Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, somma gli elementi precedenti."
 
 <!-- markdownlint-enable MD034 -->
@@ -362,7 +362,7 @@ Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gl
 
 | Argomento | Descrizione |
 | --- | --- |
-| number | L’ultimo numero N di righe per cui restituire la somma. Se N &lt;= 0 utilizzare tutte le righe precedenti. |
+| numero | L’ultimo numero N di righe per cui restituire la somma. Se N &lt;= 0 usa tutte le righe precedenti. |
 | metrica | La metrica di cui desideri la Somma cumulativa. |
 
 ### Esempi
@@ -391,12 +391,12 @@ Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gl
 
 | Argomento | Descrizione |
 | --- | --- |
-| number | L’ultimo numero N di righe per cui restituire la media. Se N &lt;= 0 utilizzare tutte le righe precedenti. |
+| numero | L’ultimo numero N di righe per cui restituire la media. Se N &lt;= 0 usa tutte le righe precedenti. |
 | metrica | La metrica di cui desideri la Media cumulativa. |
 
 >[!NOTE]
 >
->Questa funzione non funziona con metriche di tasso come ricavi per persona. La funzione calcola la media dei tassi, anziché sommare le entrate rispetto all’ultima N, quindi sommare le persone rispetto all’ultima N e infine dividerle. <br/>Utilizzare invece [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![Dividi](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
+>Questa funzione non funziona con metriche di percentuale come ricavi per persona. La funzione calcola la media delle percentuali anziché sommare le entrate rispetto all’ultima N, sommare le persone rispetto all’ultima N e infine dividerle. <br/>Utilizza invece [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![Dividi](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
 >
 
 
@@ -440,14 +440,14 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce il coefficiente di correlazione.
 
 
 | Argomento | Descrizione |
 |---|---|
 | metric_X | Metrica da correlare con metric_Y |
 | metric_Y | Metrica da correlare con metric_X |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 ## Regressione esponenziale: Y previsto {#exponential-regression-predicted-y}
 
@@ -463,14 +463,14 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce Y.
 
 
 | Argomento | Descrizione |
 |---|---|
 | metric_X | Una metrica da designare come dati indipendenti. |
 | metric_Y | Una metrica da designare come dati dipendenti. |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Regressione esponenziale: intercetta {#exponential-regression-intercept}
@@ -487,13 +487,13 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Regressione esponenziale: pendenza {#exponential-regression-slope}
@@ -510,14 +510,14 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce a.
 
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Floor {#floor}
@@ -533,7 +533,7 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce l&#39;intero più grande non maggiore di un valore specificato. Ad esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e un prodotto è pari a 569,34 $, utilizza la formula FLOOR (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 569 $.
 
 | Argomento | Descrizione |
 |---|---|
@@ -605,7 +605,7 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il coseno iperbolico di un numero.
 
 
 | Argomento | Descrizione |
@@ -627,7 +627,7 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(metric)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il seno iperbolico di un numero.
 
 | Argomento | Descrizione |
 |---|---|
@@ -647,11 +647,11 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(metric)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce la tangente iperbolica di un numero.
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | Angolo in radianti di cui trovare la tangente iperbolica |
+| metrica | L’angolo in radianti di cui vuoi ottenere la tangente iperbolica |
 
 
 ## Se {#if}
@@ -668,14 +668,14 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Se il valore del parametro di condizione è diverso da zero (true), il risultato sarà il valore del parametro value_if_true. In caso contrario, è il valore del parametro value_if_false.
 
 
 | Argomento | Descrizione |
 |---|---|
-| logical_test | Obbligatorio. Qualsiasi valore o espressione che può essere valutato come TRUE o FALSE |
-| value_if_true | Il valore che vuoi ottenere se l’argomento logical_test restituisce TRUE. Se non è incluso, questo argomento sarà pari a 0 per impostazione predefinita. |
-| value_if_false | Il valore che vuoi ottenere se l’argomento logical_test restituisce FALSE. Se non è incluso, questo argomento sarà pari a 0 per impostazione predefinita. |
+| logical_test | Obbligatorio. Qualsiasi valore o espressione che può avere valore TRUE o FALSE. |
+| value_if_true | Valore che vuoi ottenere se l’argomento logical_test restituisce TRUE. (Se non è incluso, questo argomento sarà pari a 0 per impostazione predefinita.) |
+| value_if_false | Valore che vuoi ottenere se l’argomento logical_test restituisce FALSE. (Se non è incluso, questo argomento sarà pari a 0 per impostazione predefinita.) |
 
 
 ## Minore di {#less-than}
@@ -703,13 +703,13 @@ L’output è 0 (falso) o 1 (vero).
 `Metric 1 < Metric 2`
 
 
-## Minore o uguale a {#less-than-or-equal}
+## Minore di o uguale a {#less-than-or-equal}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-le"
->title="Minore o uguale a"
+>title="Minore di o uguale a"
 >abstract="Minore di o uguale a. L’output è 0 (falso) o 1 (vero)."
 
 <!-- markdownlint-enable MD034 -->
@@ -742,7 +742,7 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 | --- | --- |
-| normalizing-container | La base (Persone, Sessioni o Eventi) su cui viene eseguito un test. |
+| normalizing-container | La base (persone, sessioni o eventi) su cui verrà eseguito un test. |
 | success-metric | La metrica o le metriche con cui un utente confronta le varianti. |
 | controllo | La variante con cui vengono confrontate tutte le altre varianti dell’esperimento. Immetti il nome dell’elemento della dimensione della variante di controllo. |
 
@@ -755,21 +755,21 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-linear"
 >title="Regressione lineare: coefficiente di correlazione"
->abstract="Regressione lineare: Y = a X + b. Restituisce il coefficiente di correlazione."
+>abstract="Regressione lineare: Y = a X + b.  Restituisce il coefficiente di correlazione."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce il coefficiente di correlazione.
 
 
 | Argomento | Descrizione |
 |---|---|
 | metric_X | Metrica da correlare con metric_Y |
 | metric_Y | Metrica da correlare con metric_X |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 
@@ -787,14 +787,14 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce b.
 
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 
@@ -812,14 +812,14 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce Y.
 
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 
@@ -836,13 +836,13 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Log in base 10 {#log-base-ten}
@@ -859,7 +859,7 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il logaritmo base 10 di un numero.
 
 
 | Argomento | Descrizione |
@@ -880,13 +880,13 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
 | metric_X | Metrica da correlare con metric_Y |
 | metric_Y | Metrica da correlare con metric_X |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Regressione logaritmica: intercetta {#log-regression-intercept}
@@ -902,13 +902,13 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 
@@ -925,13 +925,13 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 
@@ -948,13 +948,13 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 
@@ -996,7 +996,7 @@ Negazione come booleano. L’output è 0 (falso) o 1 (vero).
 
 | Argomento | Descrizione |
 |---|---|
-| logical | Obbligatorio. Valore o espressione che può essere valutato come TRUE o FALSE |
+| logical | Obbligatorio. Valore o espressione che possono essere valutati come TRUE o FALSE. |
 
 
 
@@ -1041,12 +1041,12 @@ Non uguale. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+Disgiunzione [!BADGE Riga]{type="Neutral"}. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (falso) o 1 (vero).
 
 
 | Argomento | Descrizione |
 |---|---|
-| logical_test | Richiede almeno un parametro, ma può accettare un numero qualsiasi di parametri. Qualsiasi valore o espressione che può essere valutato come TRUE o FALSE |
+| logical_test | Richiede almeno un parametro, ma può accettare un numero qualsiasi di parametri. Qualsiasi valore o espressione che può avere valore TRUE o FALSE. |
 
 
 >[!NOTE]
@@ -1083,13 +1083,13 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
 | metric_X | Metrica da correlare con metric_Y |
 | metric_Y | Metrica da correlare con metric_X |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 
@@ -1107,14 +1107,14 @@ Restituisce Pi: 3,14159...
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce b.
 
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Regressione di potenza: Y previsto {#power-regression-predicted-y}
@@ -1130,13 +1130,13 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 
@@ -1153,13 +1153,13 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 
@@ -1176,13 +1176,13 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
 | metric_X | Metrica da correlare con metric_Y |
 | metric_Y | Metrica da correlare con metric_X |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 ## Regressione quadratica: intercetta {#quadratic-regression-intercept}
 
@@ -1197,13 +1197,13 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Regressione quadratica: Y previsto {#quadratic-regression-predicted-y}
@@ -1219,13 +1219,13 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Regressione quadratica: pendenza {#quadratic-regression-slope}
@@ -1241,13 +1241,13 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 
@@ -1264,13 +1264,13 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
 | metric_X | Metrica da correlare con metric_Y |
 | metric_Y | Metrica da correlare con metric_X |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Regressione reciproca: intercetta {#reciprocal-regression-intercept}
@@ -1286,13 +1286,13 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Regressione reciproca: Y previsto {#reciprocal-regression-predicted-y}
@@ -1308,13 +1308,13 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Regressione reciproca: pendenza {#reciprocal-regression-slope}
@@ -1330,13 +1330,13 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"}
+[!BADGE Tabella]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
-| metric_X | Una metrica da designare come dati dipendenti |
-| metric_Y | Una metrica da designare come dati indipendenti |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metric_X | Metrica da designare come dati dipendenti |
+| metric_Y | Metrica da designare come dati indipendenti |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 
@@ -1355,7 +1355,7 @@ Restituisce Pi: 3,14159...
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} Restituisce il seno dell&#39;angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
 
 
 | Argomento | Descrizione |
@@ -1382,8 +1382,8 @@ La deviazione dalla [MEDIA](cm-functions.md#mean), divisa per la deviazione stan
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica per la quale desideri il punteggio T |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metrica | Metrica per la quale desideri il punteggio T |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
 
 ## Test T {#t-test}
@@ -1403,29 +1403,29 @@ Esegue un test t con coda m con un punteggio t di x e n gradi di libertà.
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica sulla quale desideri eseguire un test T |
-| gradi | I gradi di libertà |
-| code | Lunghezza della coda da utilizzare per eseguire la prova T |
+| metrica | Metrica sulla quale desideri eseguire un test T |
+| gradi | Gradi di libertà |
+| code | Lunghezza della coda da utilizzare per eseguire il test T |
 
 ### Dettagli
 
-La firma è T-TEST (metrica, gradi, code). Sotto, effettua semplicemente la chiamata a ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**. Questa funzione è simile alla funzione **[Z-TEST](#z-test)**, che esegue ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)**.
+La firma è T-TEST (metrica, gradi, code). Sotto, effettua semplicemente la chiamata a ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**. Questa funzione è simile alla funzione **[TEST Z](#z-test)**, che esegue ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)**.
 
 - ***m*** è il numero di code.
-- ***n*** è il grado di libertà e deve essere un numero costante per l&#39;intero report, ovvero non deve cambiare riga per riga.
-- ***x*** è la statistica del test T e spesso è una formula (ad esempio, **[Z-SCORE](#z-score)**) basata su una metrica e viene valutata su ogni riga.
+- ***n*** è il grado di libertà e deve essere un numero costante per l’intero rapporto, ovvero non deve cambiare riga per riga.
+- ***x*** è la statistica del test T e spesso è una formula (ad esempio **[Z-SCORE](#z-score)**) basata su una metrica che sarà valutata su ogni riga.
 
 Il valore restituito è la probabilità di visualizzare la statistica x del test in base ai gradi di libertà e al numero di code.
 
 ### Esempi
 
-1. Utilizza la funzione per trovare i valori erratici:
+1. Utilizza questa funzione per individuare le anomalie:
 
    ```
    T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2)
    ```
 
-1. Combina la funzione con **[IF](#if)** per ignorare tassi non raggiunti molto elevati o bassi e contare le sessioni su tutto il resto:
+1. Combinala con **[IF](#if)** per ignorare percentuali non recapitate molto elevate o basse e per contare le sessioni su tutto il resto:
 
    ```
    IF(T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2) < 0.01, 0, sessions )
@@ -1450,7 +1450,7 @@ Restituisce la tangente dell’angolo specificato. Se l’angolo è in gradi, mo
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | L’angolo in radianti di cui vuoi ottenere la tangente |
+| metrica | Angolo in radianti di cui vuoi ottenere la tangente |
 
 
 
@@ -1467,20 +1467,20 @@ Restituisce la tangente dell’angolo specificato. Se l’angolo è in gradi, mo
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"}
+[!BADGE Riga]{type="Neutral"} la deviazione dalla media divisa per la deviazione standard.
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica per la quale desideri il punteggio Z |
-| include_zeros | Se includere o meno i valori zero nei calcoli |
+| metrica | Metrica per la quale desideri il punteggio Z |
+| include_zeros | Specifica se includere o meno valori zero nei calcoli |
 
-Un punteggio Z pari a 0 (zero) implica che il punteggio è uguale alla media. Un punteggio Z può essere positivo o negativo, il che significa se è superiore o inferiore alla media, oltre al numero di deviazioni standard.
+Un punteggio Z pari a 0 (zero) indica che il punteggio è uguale alla media. Un punteggio Z può essere positivo o negativo, il che significa se è superiore o inferiore alla media, oltre al numero di deviazioni standard.
 
 L’equazione per il punteggio Z è:
 
 ![](assets/z_score.png)
 
-Dove ***[!DNL x]*** è il punteggio non elaborato, ***[!DNL μ]*** è la media della popolazione e ***[!DNL σ]*** è la deviazione standard della popolazione.
+dove ***[!DNL x]*** è il punteggio non elaborato, ***[!DNL μ]*** corrisponde alla media della popolazione e ***[!DNL σ]*** indica la deviazione standard della popolazione.
 
 >[!NOTE]
 >
@@ -1505,7 +1505,7 @@ Effettua un test z con coda n con punteggio z di x.
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | La metrica su cui desideri eseguire un test Z |
+| metrica | Metrica su cui desideri eseguire un test Z |
 | code | Lunghezza della coda da utilizzare per eseguire il test Z |
 
 >[!NOTE]

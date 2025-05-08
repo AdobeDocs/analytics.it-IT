@@ -5,14 +5,21 @@ title: Condividere progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8ce8d6fefdd2e3d4b11d527cc31f8a2fdf768e79
 workflow-type: tm+mt
-source-wordcount: '1852'
-ht-degree: 97%
+source-wordcount: '1868'
+ht-degree: 98%
 
 ---
 
-# Condividere progetti
+# Condividere progetti {#share-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_shareprojects"
+>title="Condividere progetti"
+>abstract="Puoi condividere uno di questi ruoli di progetto con altri utenti dell’organizzazione."
+
+
 
 Puoi condividere un progetto di Analysis Workspace con i seguenti tipi di persone:
 
@@ -34,7 +41,7 @@ Qualsiasi [cura](curate.md) applichi prima della condivisione, viene visualizzat
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi progetti](https://video.tv.adobe.com/v/40037?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi progetti](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -100,7 +107,7 @@ In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il pr
 
    Oppure
 
-   Fai clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se il progetto è già stato condiviso, seleziona **[!UICONTROL Curate & Update]**. Ulteriori informazioni su [cura del progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
+   Fai clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. (Se il progetto è già stato condiviso, seleziona **[!UICONTROL Curate & Update]**). Ulteriori informazioni su [cura del progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
 
 ## Condividere un collegamento a un progetto
 
@@ -145,7 +152,7 @@ Puoi consentire l’[accesso di sola lettura](/help/analyze/analysis-workspace/c
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi un collegamento con qualcuno](https://video.tv.adobe.com/v/3452466?quality=12&learn=on&captions=ita){target="_blank"} per vedere un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi un collegamento con qualcuno](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} per vedere un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -200,7 +207,7 @@ Puoi condividere i componenti incorporati che fanno parte del progetto.
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi componenti incorporati](https://video.tv.adobe.com/v/329425?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi componenti incorporati](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

@@ -1,9 +1,9 @@
 ---
-description: Il Generatore di segmenti fornisce un’area di lavoro per trascinare e rilasciare Dimension di metriche, segmenti ed eventi per segmentare i visitatori in base alla logica gerarchica dei contenitori, alle regole e agli operatori. Questo strumento di sviluppo integrato consente di creare e salvare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori in visite e hit pagina.
+description: Il Generatore di segmenti fornisce un’area di lavoro per trascinare e rilasciare dimensioni di metrica, segmenti ed eventi per segmentare i visitatori in base alla logica gerarchica dei contenitori, alle regole e agli operatori. Questo strumento di sviluppo integrato consente di creare e salvare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori in visite e hit pagina.
 title: Generare segmenti
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 8%
@@ -16,8 +16,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
->title="Crea un pubblico"
->abstract="I tipi di pubblico possono essere creati da un filtro e condivisi con Adobe Experience Platform per l’attivazione."
+>title="Creare un pubblico"
+>abstract="I tipi di pubblico possono essere creati da un segmento e condivisi con Adobe Experience Platform per l’attivazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,7 +26,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Anteprima dati"
->abstract="Confronta i dati di questo filtro con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale della visualizzazione dati a partire dagli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
+>abstract="Confronta i dati di questo segmento con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale della visualizzazione dati a partire dagli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ Esistono diversi modi per accedere al Generatore di segmenti:
 
 * **Navigazione superiore di Analytics**: fare clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: fare clic su **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, aprire un progetto e fare clic su **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Aggiungi o modifica segmenti nel Report Builder](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Aggiungi o modifica segmenti in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Criteri del generatore {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -84,10 +84,10 @@ Puoi aggiungere definizioni di regole e contenitori per definire i segmenti.
    * **[!UICONTROL + Add container]**: consente di aggiungere un nuovo contenitore (sotto il contenitore principale) alla definizione del segmento.
    * **[!UICONTROL Exclude]**: consente di definire il segmento escludendo una o più dimensioni, segmenti o metriche.
 
-1. **[!UICONTROL Dimensions]**: i componenti vengono trascinati e rilasciati dall&#39;elenco Dimension (barra laterale arancione).
+1. **[!UICONTROL Dimensions]**: i componenti vengono trascinati e rilasciati dall&#39;elenco Dimensioni (barra laterale arancione).
 1. **[!UICONTROL Operator]**: è possibile confrontare e vincolare i valori utilizzando gli operatori selezionati.
 1. **[!UICONTROL Value]**: valore immesso o selezionato per la dimensione, il segmento o la metrica.
-1. **[!UICONTROL Attribution Models]**: disponibile solo per le dimensioni, questi modelli determinano per quali valori in una dimensione segmentare. I modelli di Dimension sono particolarmente utili nella segmentazione sequenziale.
+1. **[!UICONTROL Attribution Models]**: disponibile solo per le dimensioni, questi modelli determinano per quali valori in una dimensione segmentare. I modelli Dimension sono particolarmente utili nella segmentazione sequenziale.
 
    * **[!UICONTROL Repeating]** (impostazione predefinita): include istanze e valori persistenti per la dimensione.
    * **[!UICONTROL Instance]**: include istanze per la dimensione.
@@ -108,8 +108,8 @@ Puoi aggiungere definizioni di regole e contenitori per definire i segmenti.
 1. Operatore **[!UICONTROL Comparison]**: è possibile confrontare e vincolare i valori utilizzando gli operatori selezionati.
 1. **[!UICONTROL Value]**: valore immesso o selezionato per la dimensione, il segmento o la metrica.
 1. **[!UICONTROL X]**: (Elimina) consente di eliminare questa parte della definizione del segmento.
-1. **[!UICONTROL Experience Cloud publishing]**: la pubblicazione di un segmento di Adobe Analytics nell&#39;Experience Cloud consente di utilizzare il segmento per l&#39;attività di marketing in [!DNL Audience Manager] e in altri canali di attivazione. [Ulteriori informazioni...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: i servizi di pubblico di Adobe gestiscono la conversione dei dati dei visitatori in segmentazione del pubblico. La creazione e la gestione dei tipi di pubblico sono simili alla creazione e all’utilizzo dei segmenti e in più permettono di condividere i segmenti di pubblico nell’Experience Cloud. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it)
+1. **[!UICONTROL Experience Cloud publishing]**: la pubblicazione di un segmento di Adobe Analytics in Experience Cloud consente di utilizzare il segmento per l&#39;attività di marketing in [!DNL Audience Manager] e in altri canali di attivazione. [Ulteriori informazioni...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL Audience library]**: i servizi di pubblico di Adobe gestiscono la conversione dei dati dei visitatori in segmentazione del pubblico. La creazione e la gestione dei tipi di pubblico sono simili alla creazione e all’utilizzo dei segmenti e in più permettono di condividere i segmenti di pubblico in Experience Cloud. [Ulteriori informazioni...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it)
 1. **[!UICONTROL Search]**: cerca l&#39;elenco di dimensioni, segmenti o metriche.
 1. **[!UICONTROL Dimensions]**: (Elenco) Fai clic sull&#39;intestazione per espanderla.
 1. **[!UICONTROL Metrics]**: fare clic sull&#39;intestazione per espandere.
@@ -122,7 +122,7 @@ Puoi aggiungere definizioni di regole e contenitori per definire i segmenti.
 
 ## Generare segmenti {#build-segments}
 
-1. È sufficiente trascinare un evento di Dimension, segmento o metrica dal riquadro di sinistra al campo [!UICONTROL Definitions].
+1. È sufficiente trascinare un evento Dimension, segmento o metrica dal riquadro di sinistra al campo [!UICONTROL Definitions].
 
    ![](assets/drag_n_drop_dimension.png)
 
@@ -170,7 +170,7 @@ Crea un contenitore Visita e al suo interno aggiungi l&#39;intervallo di tempo [
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalli di date continui nei segmenti](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalli di date continui nei segmenti](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -213,7 +213,7 @@ Utilizzando lo stacking dei segmenti, puoi ridurre il numero di segmenti a 22 e 
 
 Sono forniti modelli di segmenti per casi di utilizzo di segmentazione comuni, ad esempio &quot;Prime visite&quot; o &quot;Visite da dispositivi mobili&quot;. Sono disponibili nei progetti Workspace e nel generatore di segmenti come blocchi predefiniti per i nuovi segmenti.
 
-I modelli sono identificati dal logo &quot;A&quot; dell&#39;Adobe. Di seguito è riportato un esempio di modelli:
+I modelli sono identificati dal logo Adobe &quot;A&quot;. Di seguito è riportato un esempio di modelli:
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 

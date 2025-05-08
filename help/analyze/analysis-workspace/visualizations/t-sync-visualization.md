@@ -5,21 +5,32 @@ title: Gestire le origini dati delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+source-git-commit: 41ac4a97019e8192c96f3cdb141dad3d5db18d12
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 80%
+source-wordcount: '608'
+ht-degree: 84%
 
 ---
 
 # Gestire le origini dati delle visualizzazioni {#manage-visualization-data-sources}
 
 >[!CONTEXTUALHELP]
->id="workspace_datasource_lock_selection"
+>id="workspace_freeformtable_lockselection"
 >title="Blocca selezione"
->abstract="Abilita questa impostazione per bloccare la visualizzazione in base alle posizioni della tabella o agli elementi esatti selezionati nell’origine dati."
+>abstract="Abilita questa impostazione per bloccare la visualizzazione nelle posizioni o gli elementi selezionati nell’origine dati."
 
-La sincronizzazione delle visualizzazioni consente di individuare la tabella dati o l’origine dati corrispondente a una visualizzazione.
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_lockselection_showtable"
+>title="Mostra tabella"
+>abstract="Selezionando **[!UICONTROL Show table]** verrà generata una nuova origine dati per la visualizzazione corrente, separata dall’origine dati originale."
+
+<!-- markdownlint-enable MD034 -->
+
+La sincronizzazione delle visualizzazioni consente di controllare la tabella dati o l’origine dati corrispondente a una visualizzazione.
 
 **Suggerimento:** puoi individuare le visualizzazioni correlate dal colore del punto accanto al titolo. Colori uguali indicano che le visualizzazioni si basano sulla stessa origine dati.
 
@@ -40,7 +51,7 @@ La gestione di un’origine dati consente di mostrare l’origine dati o di bloc
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni origine dati](https://video.tv.adobe.com/v/329878?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni origine dati](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
