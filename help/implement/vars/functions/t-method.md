@@ -4,16 +4,16 @@ description: Invia ad Adobe una chiamata di tracciamento per la visualizzazione 
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e47bee837faf9b8cf080d878da860795ced014d5
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '430'
 ht-degree: 14%
 
 ---
 
 # t()
 
-Il metodo `t()` è un importante componente di base di Adobe Analytics. Prende tutte le variabili di Analytics definite sulla pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe.
+Il metodo `t()` è un importante componente di base di Adobe Analytics. Prende tutte le variabili Analytics definite sulla pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe.
 
 Ad esempio, considera il seguente codice JavaScript:
 
@@ -35,11 +35,11 @@ L&#39;esecuzione del metodo `t()` accetta tutte le variabili di Analytics defini
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 ```
 
-L’Adobe riceve la richiesta di immagine, quindi analizza l’intestazione della richiesta, l’URL e i parametri della stringa di query. I server di raccolta dati restituiscono quindi un’immagine trasparente 1x1 pixel, visualizzata in modo invisibile sul sito.
+Adobe riceve la richiesta di immagine, quindi analizza l’intestazione della richiesta, l’URL e i parametri della stringa di query. I server di raccolta dati restituiscono quindi un’immagine trasparente 1x1 pixel, visualizzata in modo invisibile sul sito.
 
-## Inviare eventi tramite l’estensione Web SDK
+## Inviare un evento tramite l’estensione Web SDK
 
-Utilizza un’azione per configurare l’invio di dati evento XDM all’Adobe. Lo stream di dati riceve tali dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics, se si tratta di un servizio aggiunto a tale stream di dati.
+Utilizza un’azione per configurare l’invio di dati evento XDM ad Adobe. Lo stream di dati riceve tali dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics, se si tratta di un servizio aggiunto a tale stream di dati.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
@@ -47,7 +47,7 @@ Utilizza un’azione per configurare l’invio di dati evento XDM all’Adobe. L
 1. In [!UICONTROL Actions], fare clic sull&#39;azione desiderata o sull&#39;icona **&#39;+&#39;** per aggiungere un&#39;azione.
 1. Impostare l&#39;elenco a discesa [!UICONTROL Extension] su **[!UICONTROL Adobe Experience Platform Web SDK]** e [!UICONTROL Action Type] su **[!UICONTROL Send event]**.
 
-## Inviare eventi manualmente implementando Web SDK
+## Inviare un evento manualmente implementando il Web SDK
 
 Utilizza il comando `sendEvent` per inviare dati ad Adobe. Lo stream di dati riceve tali dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics, se si tratta di un servizio aggiunto a tale stream di dati.
 
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Per ulteriori informazioni, consulta [Tracciare gli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it) nella documentazione di Web SDK.
+Per ulteriori informazioni, vedere [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) nella documentazione di Web SDK.
 
 ## Chiamata di tracciamento per la visualizzazione pagina tramite l’estensione Adobe Analytics
 
@@ -72,7 +72,7 @@ L’estensione Adobe Analytics in Adobe Experience Platform Data Collection disp
 
 ## Metodo s.t() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Chiamare il metodo `s.t()` quando si desidera inviare una chiamata di tracciamento a Adobe.
+Chiamare il metodo `s.t()` quando si desidera inviare una chiamata di tracciamento ad Adobe.
 
 ```js
 s.t();

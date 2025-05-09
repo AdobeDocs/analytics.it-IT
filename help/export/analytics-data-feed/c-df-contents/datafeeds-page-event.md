@@ -1,25 +1,46 @@
 ---
-description: Tabella di ricerca per determinare il tipo di hit in base al valore page_event.
-keywords: Feed dati;pagina;evento;page_event;post_page_event
+description: Tabella di ricerca per determinare il tipo di hit in base all’evento della pagina.
+keywords: page;event;page_event;post_page_event
 title: Ricerca eventi pagina
 feature: Data Feeds
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '226'
+ht-degree: 4%
 
 ---
 
 # Ricerca eventi pagina
 
-Tabella di ricerca per determinare il tipo di hit in base al valore page_event.
+Tabella di ricerca per determinare il tipo di un hit in base al valore `page_event`. Come indicato nel [Riferimento colonna dati](datafeeds-reference.md), le colonne `page_event` e `post_page_event` sono tinyint unsigned.
 
-| Tipo di hit | Valore `page_event` | Valore `post_page_event` |
+* Consulta [`t()`](/help/implement/vars/functions/t-method.md) per informazioni sull&#39;implementazione delle chiamate di visualizzazione pagina per AppMeasurement e Web SDK.
+* Consulta [`tl()`](/help/implement/vars/functions/tl-method.md) per informazioni sull&#39;implementazione delle chiamate di tracciamento dei collegamenti per AppMeasurement e Web SDK.
+* Consulta [Implementare Adobe Analytics con Adobe Experience Platform Edge Network](/help/implement/aep-edge/overview.md) per capire come Adobe Analytics traduce i payload XDM in tipi di eventi di pagina.
+
+| Valore `page_event` | Valore `post_page_event` | Descrizione |
 | --- | --- | --- |
-| Visualizzazioni pagina | 0: tutte le chiamate di visualizzazione pagina e `trackState` chiamate dall&#39;SDK per dispositivi mobili | Stesso valore di `page_event` |
-| Tracciamento dei collegamenti | 10: Collegamenti personalizzati e `trackAction` chiamate nell&#39;SDK per dispositivi mobili<br>11: Collegamenti di download<br>12: Collegamenti di uscita | 100: collegamenti personalizzati e chiamate `trackAction` nell&#39;SDK per dispositivi mobili<br>101: Collegamenti di download<br>102: collegamenti di uscita |
-| Video su Milestone | 31: Inizio elemento multimediale<br>32: aggiornamenti elemento multimediale (nessuna altra elaborazione variabile)<br>33: aggiornamenti elemento multimediale (con altre variabili) | 76: Avvio file multimediale<br>77: aggiornamenti file multimediali (nessuna altra elaborazione variabile)<br>78: aggiornamenti file multimediali (con altre variabili) |
-| Video Heartbeat | 50: Avvio del flusso multimediale (non Primetime)<br>51: Chiusura del flusso multimediale (non Primetime)<br>52: Scrubbing del flusso multimediale (non Primetime)<br>53: Mantenimento del flusso multimediale (non Primetime)<br>54: Avvio dell&#39;annuncio del flusso multimediale (non Primetime)<br>55: Chiusura dell&#39;annuncio del flusso multimediale (non Primetime)<br>56: Scrubbing dell&#39;annuncio del flusso multimediale (non Primetime)<br>60: Avvio del flusso multimediale Primetime<br>61: Chiusura del flusso multimediale di Primetime<br>62: scrubbing del flusso multimediale Primetime<br>63: il flusso multimediale Primetime resta attivo<br>64: inizio annuncio flusso multimediale Primetime<br>65: chiusura annuncio flusso multimediale Primetime<br>66: scrubbing annuncio flusso multimediale Primetime | Stesso valore di `page_event` |
-| Sondaggio | 40: qualsiasi chiamata generata dal sondaggio | 80: qualsiasi chiamata generata dal sondaggio |
-| Analytics for Target | 70: hit include i dati dell’attività di Target | Stesso valore di `page_event` |
+| `0` | `0` | Tutte le chiamate standard di visualizzazione pagina. È il valore predefinito per la maggior parte degli hit. |
+| `10` | `100` | Collegamenti personalizzati. Imposta il tipo di collegamento su `o` (AppMeasurement) o `xdm.web.webInteraction.type` su `other` (Web SDK o Mobile SDK). |
+| `11` | `101` | Collegamenti di download. Imposta il tipo di collegamento su `d` (AppMeasurement) o `xdm.web.webInteraction.type` su `download` (Web SDK o Mobile SDK). |
+| `12` | `102` | Collegamenti di uscita. Imposta il tipo di collegamento su `e` (AppMeasurement) o `xdm.web.webInteraction.type` su `exit` (Web SDK o Mobile SDK). |
+| `31` | `76` | Avvio file multimediale |
+| `32` | `77` | Aggiornamenti dei contenuti multimediali (senza altra elaborazione variabile) |
+| `33` | `78` | Aggiornamenti multimediali (con altra elaborazione variabile) |
+| `40` | `80` | Sondaggio |
+| `50` | `50` | Avvio contenuti multimediali in streaming |
+| `51` | `51` | Chiusura di contenuti multimediali in streaming |
+| `52` | `52` | Scrubbing di contenuti multimediali in streaming |
+| `53` | `53` | I contenuti multimediali in streaming mantengono |
+| `54` | `54` | Inizio annuncio contenuti multimediali in streaming |
+| `55` | `55` | Chiusura annuncio multimediale in streaming |
+| `56` | `56` | Scrubbing di annunci multimediali in streaming |
+| `60` | `60` | Avvio file multimediale Primetime |
+| `61` | `61` | Chiusura file multimediali Primetime |
+| `62` | `62` | Scrubbing dei contenuti multimediali di Primetime |
+| `63` | `63` | File multimediali Primetime keep alive |
+| `64` | `64` | Avvio annuncio multimediale Primetime |
+| `65` | `65` | Chiusura annuncio multimediale Primetime |
+| `66` | `66` | Scrubbing di annunci multimediali di Primetime |
+| `70` | `70` | Include i dati delle attività di Target |
