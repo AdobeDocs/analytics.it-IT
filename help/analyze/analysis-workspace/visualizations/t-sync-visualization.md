@@ -1,18 +1,18 @@
 ---
 description: La sincronizzazione delle visualizzazioni consente di controllare la tabella dati o l’origine dati corrispondente a una visualizzazione.
 keywords: Analysis Workspace, sincronizzazione di una visualizzazione con un’origine dati
-title: Gestire le origini dati delle visualizzazioni
+title: Gestisci le origini dati delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
 source-git-commit: 41ac4a97019e8192c96f3cdb141dad3d5db18d12
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
-# Gestire le origini dati delle visualizzazioni {#manage-visualization-data-sources}
+# Gestisci le origini dati delle visualizzazioni {#manage-visualization-data-sources}
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection"
@@ -51,7 +51,7 @@ La gestione di un’origine dati consente di mostrare l’origine dati o di bloc
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni origine dati](https://video.tv.adobe.com/v/329878?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni origine dati](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
