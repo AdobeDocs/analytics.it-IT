@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Per ulteriori informazioni, vedere [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) nella documentazione di Web SDK.
+Per ulteriori informazioni, vedere [`sendEvent`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/sendevent/overview) nella documentazione di Web SDK.
 
 ## Chiamata di tracciamento per la visualizzazione pagina tramite l’estensione Adobe Analytics
 
