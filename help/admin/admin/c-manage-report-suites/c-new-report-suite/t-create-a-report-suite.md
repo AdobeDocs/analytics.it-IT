@@ -3,7 +3,7 @@ description: Creare un contenitore di base per la raccolta di dati in Adobe Anal
 title: Creare una suite di rapporti
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 8c0e88a22928d79599ab0a0ad3efc8159712d739
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Questo articolo è pensato per gli amministratori a livello di sistema o per gli
 ## Creare una suite di rapporti {#create-report-suite}
 
 1. Fai clic su **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Fai clic su **[!UICONTROL Create New]** > **[!UICONTROL Report Suite]**.
+1. Fai clic su **[!UICONTROL Add Report Suite]**.
 1. Seleziona un modello predefinito o una suite di rapporti esistente da utilizzare come [modello](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md).
 
    >[!NOTE]
