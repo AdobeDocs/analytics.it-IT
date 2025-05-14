@@ -4,9 +4,9 @@ description: Utilizza questa variabile per collegare dati online e offline.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: 43035967e8ccbb35700b7ad3e893282ade310acd
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 17%
 
 ---
@@ -27,7 +27,7 @@ Adobe ricorda tutti i valori ID transazione (collegati e non collegati) per un m
 
 L’ID transazione è mappato alle seguenti variabili:
 
-* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[0].transactionID`
+* [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[3].transactionID` o `xdm.commerce.order.payments.transactionID`
 * [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` o `data.__adobe.analytics.xact`
 
 ## ID transazione tramite l’estensione Adobe Analytics
@@ -59,4 +59,4 @@ s.transactionID = "ABC123,XYZ456";
 
 >[!TIP]
 >
->Se integri più canali offline utilizzando questa variabile, assicurati che i diversi canali non si sovrappongano agli ID transazione. Ad esempio, se si dispone di un ID transazione call center di `1234` e di un ID transazione lead di vendita di `1234`, è possibile che si verifichino conflitti e si verifichino risultati imprevisti. Assicurati che gli ID transazione contengano formati univoci per canale offline e, se necessario, differenziali. Impostare ad esempio l&#39;ID transazione del call center su `call_1234` e l&#39;ID transazione del lead di vendita `lead_1234` sia in Origini dati che in AppMeasurement.
+>Se integri più canali offline utilizzando questa variabile, assicurati che i diversi canali non si sovrappongano agli ID transazione. Ad esempio, se si dispone di un ID transazione call center di `1234` e di un ID transazione lead di vendita di `1234`, è possibile che si verifichino conflitti e si verifichino risultati imprevisti. Assicurati che gli ID transazione contengano formati univoci per canale offline e, se necessario, differenziali. Ad esempio, imposta l&#39;ID transazione del call center su `call_1234` e l&#39;ID transazione del lead di vendita `lead_1234` sia in Origini dati che in AppMeasurement.
