@@ -8,7 +8,7 @@ exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Flusso"
->abstract="Analizza il flusso di visite o visitatori da un punto di contatto a quello successivo.<br/><br/>**Parametri &#x200B;**<br/>**Inizia con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano dopo l’occorrenza del componente selezionato.<br/>**Contiene**: aggiungi una dimensione o un elemento dimensionale per visualizzare i punti di contatto principali che si verificano prima e dopo l’occorrenza del componente selezionato.<br/>**Termina con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano prima dell’occorrenza del componente selezionato.<br/>**Dimensione percorso**: aggiungi una dimensione da utilizzare come percorso che porta o proviene dal componente selezionato."
+>abstract="Analizza il flusso di visite o visitatori da un punto di contatto a quello successivo.<br/><br/>**Parametri **<br/>**Inizia con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano dopo l’occorrenza del componente selezionato.<br/>**Contiene**: aggiungi una dimensione o un elemento dimensionale per visualizzare i punti di contatto principali che si verificano prima e dopo l’occorrenza del componente selezionato.<br/>**Termina con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano prima dell’occorrenza del componente selezionato.<br/>**Dimensione percorso**: aggiungi una dimensione da utilizzare come percorso che porta o proviene dal componente selezionato."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Flusso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versione del Customer Journey Analytics** di questo articolo._
+_Questo articolo documenta la visualizzazione Flusso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ Consente di:
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione flusso](https://video.tv.adobe.com/v/3410742?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione flusso](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione
 
 >[!MORELIKETHIS]
 >
->[Configurare una visualizzazione di flusso](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[Configurare una visualizzazione del flusso](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
 
@@ -67,7 +67,7 @@ Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funzionalità aggiuntive nella visualizzazione Flusso](https://video.tv.adobe.com/v/329884?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funzionalità aggiuntive nella visualizzazione Flusso](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

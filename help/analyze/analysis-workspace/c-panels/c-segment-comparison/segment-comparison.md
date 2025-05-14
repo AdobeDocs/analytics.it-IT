@@ -8,7 +8,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 41%
+ht-degree: 46%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Pannello Confronto dei segmenti"
->abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri &#x200B;**<br/>**Aggiungi un segmento**: il primo segmento da analizzare.<br/>**Confronta con**: il secondo segmento con cui fare il confronto. Questo verrà popolato automaticamente con *Qualsiasi altro*, che è l’inverso del primo segmento. Se lo desideri, puoi sostituirlo con un segmento diverso.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
+>abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri **<br/>**Aggiungi un segmento**: il primo segmento da analizzare.<br/>**Confronta con**: il secondo segmento con cui fare il confronto. Questo verrà popolato automaticamente con *Qualsiasi altro*, che è l’inverso del primo segmento. Se lo desideri, puoi sostituirlo con un segmento diverso.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello di confronto dei segmenti in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Questo articolo documenta il pannello di confronto dei segmenti in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ Il pannello di confronto dei segmenti è una funzione del [Segmento IQ](../../se
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/41729?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segme
 
 ## Utilizzo
 
-Per utilizzare un pannello **[!UICONTROL Attribution]**:
+Per usare un pannello **[!UICONTROL Attribution]**:
 
 1. Crea un pannello **[!UICONTROL Attribution]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](../panels.md#create-a-panel).
 
@@ -62,7 +62,7 @@ Per utilizzare un pannello **[!UICONTROL Attribution]**:
 
 ### Input del pannello
 
-È possibile configurare il pannello [!UICONTROL Segment comparison] utilizzando le seguenti impostazioni di input:
+Puoi configurare il pannello [!UICONTROL Segment comparison] usando le seguenti impostazioni di input:
 
 ![Pannello input penna per confronto segmenti](assets/segment-comparison-input.png)
 
