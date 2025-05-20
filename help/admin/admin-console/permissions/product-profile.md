@@ -4,7 +4,7 @@ description: Scopri come i profili di prodotto possono essere utilizzati come pr
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: ed7b25491de5c1238e846997ec903df4fd4ee18c
+source-git-commit: 8f1a17d2b07d5b37ef6d3d3f426234b29be61319
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 59%
@@ -33,7 +33,7 @@ Per informazioni su come assegnare gli amministratori dei profili di prodotto, c
 Le autorizzazioni minime necessarie in un singolo profilo di prodotto per accedere ad Adobe Analytics sono le seguenti:
 
 * Il profilo di prodotto deve avere accesso ad almeno una suite di rapporti
-* Il profilo di prodotto deve appartenere all&#39;elemento di autorizzazione Strumenti di Analytics **Accesso ad Analysis Workspace**.
+* Il profilo di prodotto deve appartenere all&#39;elemento di autorizzazione degli strumenti di Analytics **Workspace Project Access**.
 
 ### Suite di rapporti
 
