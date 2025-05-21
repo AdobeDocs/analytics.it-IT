@@ -8,7 +8,7 @@ exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 440cc4c977aae97e3fc3c97f3998c5d542cd88c3
 workflow-type: tm+mt
 source-wordcount: '1889'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Qualsiasi [cura](curate.md) applichi prima della condivisione, viene visualizzat
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi progetti](https://video.tv.adobe.com/v/40037?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi progetti](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ Per condividere il collegamento del progetto con gli utenti dell’organizzazion
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
 >title="Richiedere l’autenticazione Experience Cloud"
->abstract="La tua organizzazione richiede agli utenti di accedere ad Experience Cloud per utilizzare questo collegamento."
+>abstract="La tua organizzazione richiede che gli utenti abbiano effettuato l’accesso ad Experience Cloud per utilizzare questo collegamento."
 
 Puoi consentire l’[accesso di sola lettura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) ai progetti di Analysis Workspace a coloro che non hanno accesso ad Adobe Analytics. Questo può includere:
 
@@ -157,7 +157,7 @@ Puoi consentire l’[accesso di sola lettura](/help/analyze/analysis-workspace/c
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi un collegamento con qualcuno](https://video.tv.adobe.com/v/3452466?quality=12&learn=on&captions=ita){target="_blank"} per vedere un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi un collegamento con qualcuno](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} per vedere un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,7 @@ Puoi condividere i componenti incorporati che fanno parte del progetto.
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi componenti incorporati](https://video.tv.adobe.com/v/329425?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi componenti incorporati](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
