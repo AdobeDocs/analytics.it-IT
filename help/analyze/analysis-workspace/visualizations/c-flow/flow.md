@@ -24,14 +24,14 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Flusso"
->abstract="Analizza il flusso di visite o visitatori da un punto di contatto a quello successivo.<br/><br/>**Parametri **<br/>**Inizia con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano dopo l’occorrenza del componente selezionato.<br/>**Contiene**: aggiungi una dimensione o un elemento dimensionale per visualizzare i punti di contatto principali che si verificano prima e dopo l’occorrenza del componente selezionato.<br/>**Termina con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano prima dell’occorrenza del componente selezionato.<br/>**Dimensione percorso**: aggiungi una dimensione da utilizzare come percorso che porta o proviene dal componente selezionato."
+>abstract="Analizza il flusso di visite o visitatori da un punto di contatto a quello successivo.<br/><br/>**Parametri &#x200B;**<br/>**Inizia con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano dopo l’occorrenza del componente selezionato.<br/>**Contiene**: aggiungi una dimensione o un elemento dimensionale per visualizzare i punti di contatto principali che si verificano prima e dopo l’occorrenza del componente selezionato.<br/>**Termina con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano prima dell’occorrenza del componente selezionato.<br/>**Dimensione percorso**: aggiungi una dimensione da utilizzare come percorso che porta o proviene dal componente selezionato."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Flusso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Flusso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
