@@ -3,140 +3,106 @@ description: Scopri
 title: Tipo di metrica e attribuzione
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 21c4d1b591daf7229bd36845e42e2dec473e792f
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 39%
+source-wordcount: '635'
+ht-degree: 43%
 
 ---
 
 # Tipo di metrica e attribuzione {#metric-type-attribution}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_nondefaultattributionmodel"
->title="Usa modello di attribuzione non predefinito"
->abstract="Abilita un modello di attribuzione non predefinito per la metrica selezionata."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="Modello"
 >abstract="Seleziona un modello di attribuzione per la metrica."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="Ultimo contatto"
 >abstract="Il 100% del credito va all’ultimo valore di dimensione visualizzato da un visitatore."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="Primo contatto"
 >abstract="Il 100% del credito va al primo valore di dimensione visualizzato da un visitatore."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="Lineare"
 >abstract="Il credito è distribuito in modo uniforme tra tutti i valori di dimensione."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="Partecipazione"
 >abstract="Il 100% del credito va a ogni valore di dimensione visualizzato da un visitatore.<br/>I totali delle colonne sono sovrastimati."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
 >title="Stesso contatto"
 >abstract="Il credito viene assegnato solo ai valori di dimensione che si verificano nello stesso evento come la conversione."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_instance"
+>title="Stesso contatto"
+>abstract="Il credito viene assegnato solo ai valori di dimensione che si verificano nello stesso evento come la conversione."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_ushaped"
 >title="A forma di U"
 >abstract="Il 40% del credito va al primo valore di dimensione, il 40% all’ultimo, il 20% condiviso dal centro."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
 >title="Curva J"
 >abstract="Il 60% del credito va all’ultimo valore di dimensione, il 20% al primo, il 20% condiviso dal centro."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jshaped"
+>title="Curva J"
+>abstract="Il 60% del credito va all’ultimo valore di dimensione, il 20% al primo, il 20% condiviso dal centro."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
 >title="J inversa"
 >abstract="Il 60% del credito va al primo valore di dimensione, il 20% all’ultimo, il 20% condiviso dal centro."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_reversejshaped"
+>title="J inversa"
+>abstract="Il 60% del credito va al primo valore di dimensione, il 20% all’ultimo, il 20% condiviso dal centro."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="Decadimento nel tempo"
 >abstract="Il merito maggiore viene attribuito ai valori di dimensione più vicini nel tempo a una conversione."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="Personalizzato"
 >abstract="Definisci una ponderazione di attribuzione basata sulla posizione."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_positionbased"
+>title="Personalizzato"
+>abstract="Definisci una ponderazione di attribuzione basata sulla posizione."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="Algoritmico"
 >abstract="Il credito è determinato dinamicamente su un algoritmo statistico."
 
-<!-- markdownlint-enable MD034 -->
 
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_container"
+>title="Contenitore"
+>abstract="Seleziona un contenitore per impostare l’ambito desiderato per l’attribuzione."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Intervallo di lookback"
 >abstract="Questa impostazione determina la finestra di attribuzione dei dati che verrà applicata a per ogni conversione."
-
-<!-- markdownlint-enable MD034 -->
 
 Quando [si crea una metrica calcolata](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), è possibile specificare il tipo di metrica e il modello di attribuzione.
 
@@ -167,7 +133,7 @@ L’esempio seguente illustra il funzionamento delle metriche calcolate con allo
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Dati inviati in | PROMOZIONE A | - | PROMOZIONE A | PROMOZIONE B | - | PROMOZIONE C | $ 10 |
 | EVar ultimo contatto | PROMOZIONE A | PROMOZIONE A | PROMOZIONE A | PROMOZIONE B | PROMOZIONE B | PROMOZIONE C | $ 10 |
-| EVar primo contatto | PROMOZIONE A | PROMOZIONE A | PROMOZIONE A | PROMOZIONE A | PROMOZIONE A | PROMOZIONE A | $ 10 |
+| EVar di primo contatto | PROMOZIONE A | PROMOZIONE A | PROMOZIONE A | PROMOZIONE A | PROMOZIONE A | PROMOZIONE A | $ 10 |
 | Esempio di prop | PROMOZIONE A | - | PROMOZIONE A | PROMOZIONE B | - | PROMOZIONE C | $ 10 |
 
 In questo esempio, i valori A, B e C sono stati inviati in una variabile negli hit 1, 3, 4 e 6 prima che fosse effettuato un acquisto da 10 $ nell’hit 7. Nella seconda riga, tali valori persistono tra gli hit in base alla visita di ultimo contatto. La terza riga illustra la persistenza di una visita di primo contatto. Infine, l’ultima riga illustra come verranno registrati i dati per una proprietà che non ha persistenza.
