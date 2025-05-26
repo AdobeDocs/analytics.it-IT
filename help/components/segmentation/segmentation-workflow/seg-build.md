@@ -3,14 +3,19 @@ description: Il Generatore di segmenti fornisce un’area di lavoro per trascina
 title: Generare segmenti
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
+source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '2000'
 ht-degree: 8%
 
 ---
 
 # Generatore di segmenti {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_productcompatibility"
+>title="Compatibilità prodotto"
+>abstract="Un numero limitato di criteri di segmento disponibili non è compatibile con tutti gli strumenti di Adobe Analytics. In questo elenco sono indicati gli strumenti compatibili con il segmento. Per rendere un segmento compatibile con tutti gli strumenti di Adobe Analytics, modifica i criteri."
 
 <!-- markdownlint-disable MD034 -->
 
@@ -44,7 +49,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Istanza"
->abstract="Include le istanze e i valori persistenti per la dimensione."
+>abstract="Include le varianti per la quota."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -52,7 +57,7 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
->title="Istanza di non ripetizione"
+>title="Istanza non ripetuta"
 >abstract="Include istanze univoche (non ripetute) per la dimensione."
 
 <!-- markdownlint-enable MD034 -->
@@ -66,7 +71,7 @@ Esistono diversi modi per accedere al Generatore di segmenti:
 
 * **Navigazione superiore di Analytics**: fare clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: fare clic su **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, aprire un progetto e fare clic su **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Aggiungi o modifica segmenti in Report Builder](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Aggiungi o modifica segmenti in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Criteri del generatore {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -101,7 +106,7 @@ Puoi aggiungere definizioni di regole e contenitori per definire i segmenti.
    |---|---|---|---|---|---|---|
    | Ripetizione | X | X | X | - | X | - |
    | Istanza | X | X | - | - | X | - |
-   | Istanza di non ripetizione | X | - | - | - | X | - |
+   | Istanza non ripetuta | X | - | - | - | X | - |
 
 1. **[!UICONTROL And/Or/Then]**: assegna gli operatori [!UICONTROL AND/OR/THEN] tra contenitori o regole. L&#39;operatore THEN ti consente di [definire segmenti sequenziali](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Metric]**: (barra laterale verde) metrica trascinata dall&#39;elenco delle metriche.
