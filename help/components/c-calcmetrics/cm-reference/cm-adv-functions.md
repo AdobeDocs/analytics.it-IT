@@ -4,10 +4,10 @@ description: Per accedere a queste funzioni, seleziona Show Advanced (Mostra ava
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
+source-git-commit: 73b54193f1c0f2548ef31bac0f36ff890494c24e
 workflow-type: tm+mt
 source-wordcount: '4751'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Un caso d’uso comune per questa funzione si verifica quando desideri ottenere 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"} Restituisce l&#39;arcocoseno, o inverso del coseno, di una metrica. L’arcocoseno è l’angolo di cui è numero il coseno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra 0 (zero) e pi. Per convertire il risultato da radianti a gradi, moltiplicalo per 180/PI( ).
+[!BADGE Riga]{type="Neutral"} restituisce l’arcocoseno, o l’inverso del coseno, di una metrica. L’arcocoseno è l’angolo di cui è numero il coseno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra 0 (zero) e pi. Per convertire il risultato da radianti a gradi, moltiplicalo per 180/PI( ).
 
 
 | Argomento | Descrizione |
@@ -116,7 +116,7 @@ Un caso d’uso comune per questa funzione si verifica quando desideri ottenere 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"} Restituisce l&#39;arcoseno, o seno inverso, di un numero. L’arcoseno è l’angolo di cui è numero il seno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l&#39;arcoseno in gradi, moltiplicate il risultato per 180/PI().
+[!BADGE Riga]{type="Neutral"} restituisce l’arcoseno, o il seno inverso, di un numero. L’arcoseno è l’angolo di cui è numero il seno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcoseno in gradi, moltiplica il risultato per 180/PI().
 
 
 | Argomento | Descrizione |
@@ -139,7 +139,7 @@ Un caso d’uso comune per questa funzione si verifica quando desideri ottenere 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"} Restituisce l&#39;arcotangente, o tangente inversa, di un numero. L’arcotangente è l’angolo di cui è numero la tangente. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcotangente in gradi, moltiplica il risultato per 180/PI( ).
+[!BADGE Riga]{type="Neutral"} restituisce l’arcotangente, o la tangente inversa, di un numero. L’arcotangente è l’angolo di cui è numero la tangente. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcotangente in gradi, moltiplica il risultato per 180/PI( ).
 
 
 | Argomento | Descrizione |
@@ -215,13 +215,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="Ceiling"
->abstract="Restituisce l’integer più piccolo, non inferiore a un valore specificato. 70 esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e un prodotto è pari a 569,93 $, utilizza la formula CEILING (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 570 $."
+>abstract="Restituisce l’integer più piccolo, non inferiore a un valore specificato. Ad esempio, se desideri evitare di riportare i decimali della valuta per i ricavi e un prodotto è pari a 569,34 $, utilizza la formula CEILING (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 570 $."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
 
-[!BADGE Riga]{type="Neutral"} Restituisce il numero intero più piccolo, non inferiore a un valore specificato. 70 esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e un prodotto è pari a 569,93 $, utilizza la formula CEILING (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 570 $.
+[!BADGE Riga]{type="Neutral"} restituisce il numero intero più piccolo, non inferiore a un valore specificato. Ad esempio, se desideri evitare di riportare i decimali della valuta per i ricavi e un prodotto è pari a 569,34 $, utilizza la formula CEILING (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 570 $.
 
 | Argomento | Descrizione |
 |---|---|
@@ -258,7 +258,7 @@ Affidabilità è una misura probabilistica della quantità di prove che dimostra
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-lower"
+>id="functions-waskr-lower-individual-confidence-sequence"
 >title="Affidabilità (inferiore)"
 >abstract="Calcola il valore **inferiore** di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476)."
 
@@ -282,7 +282,7 @@ Affidabilità è una misura probabilistica della quantità di prove che dimostra
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-upper"
+>id="functions-waskr-upper-individual-confidence-sequence"
 >title="Affidabilità (superiore)"
 >abstract="Calcola il valore **superiore** di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476)."
 
@@ -309,13 +309,13 @@ Affidabilità è una misura probabilistica della quantità di prove che dimostra
 >[!CONTEXTUALHELP]
 >id="functions-cos"
 >title="Coseno"
->abstract="Restituisce il coseno dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180."
+>abstract="Restituisce il coseno dell’angolo specificato. Se l’angolo è espresso in gradi, moltiplicalo per PI()/180."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
 
-[!BADGE Riga]{type="Neutral"} Restituisce il coseno dell&#39;angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
+[!BADGE Riga]{type="Neutral"} Restituisce il coseno dell’angolo specificato. Se l’angolo è espresso in gradi, moltiplicalo per PI()/180.
 
 | Argomento | Descrizione |
 |---|---|
@@ -527,13 +527,13 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 >[!CONTEXTUALHELP]
 >id="functions-floor"
 >title="Floor"
->abstract="Restituisce l’integer più grande, non superiore a un valore specificato. Ad esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e un prodotto è pari a 569,34 $, utilizza la formula FLOOR (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 569 $."
+>abstract="Restituisce l’integer più grande, non superiore a un valore specificato. Ad esempio, se vuoi evitare di riportare i decimali della valuta per i ricavi e un prodotto è pari a 569,34 $, utilizza la formula FLOOR (ricavi) per arrotondare i ricavi per difetto al dollaro più vicino, in questo caso 569 $."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"} Restituisce l&#39;intero più grande non maggiore di un valore specificato. Ad esempio, se vuoi evitare di riportare i decimali della valuta per le entrate e un prodotto è pari a 569,34 $, utilizza la formula FLOOR (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 569 $.
+[!BADGE Riga]{type="Neutral"} Restituisce il numero intero più grande, non superiore a un valore specificato. Ad esempio, se vuoi evitare di riportare i decimali della valuta per i ricavi e un prodotto è pari a 569,34 $, utilizza la formula FLOOR (ricavi) per arrotondare i ricavi per difetto al dollaro più vicino, in questo caso 569 $.
 
 | Argomento | Descrizione |
 |---|---|
@@ -668,7 +668,7 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
 
-[!BADGE Riga]{type="Neutral"} Se il valore del parametro di condizione è diverso da zero (true), il risultato sarà il valore del parametro value_if_true. In caso contrario, è il valore del parametro value_if_false.
+[!BADGE Riga]{type="Neutral"} Se il valore del parametro di condizione è diverso da zero (vero), il risultato è il valore del parametro value_if_true. In caso contrario, è il valore del parametro value_if_false.
 
 
 | Argomento | Descrizione |
@@ -736,7 +736,7 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
 >title="Lift"
->abstract="L’incremento del rapporto rispetto al valore di controllo."
+>abstract="Incremento del rapporto rispetto al valore di controllo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -859,7 +859,7 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"} Restituisce il logaritmo base 10 di un numero.
+[!BADGE Riga]{type="Neutral"} Restituisce il logaritmo in base 10 di un numero.
 
 
 | Argomento | Descrizione |
@@ -880,7 +880,7 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce il coefficiente di correlazione.
+[!BADGE Tabella]{type="Neutral"} Regressione logaritmica: Y = a In(X) + b. Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
@@ -902,7 +902,7 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce b.
+[!BADGE Tabella]{type="Neutral"} Regressione logaritmica: Y = a ln(X) + b. Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
@@ -925,7 +925,7 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce Y.
+[!BADGE Riga]{type="Neutral"} Regressione logaritmica: Y = a ln(X) + b. Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
@@ -948,7 +948,7 @@ Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce a.
+[!BADGE Tabella]{type="Neutral"} Regressione logaritmo: Y = a ln(X) + b. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1041,7 +1041,7 @@ Non uguale. L’output è 0 (falso) o 1 (vero).
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-Disgiunzione [!BADGE Riga]{type="Neutral"}. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (falso) o 1 (vero).
+[!BADGE Riga]{type="Neutral"} Disgiunzione. Diverso da zero è considerato vero e uguale a zero è considerato falso. L’output è 0 (falso) o 1 (vero).
 
 
 | Argomento | Descrizione |
@@ -1176,7 +1176,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce il coefficiente di correlazione.
+[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2. Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1197,7 +1197,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce a.
+[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1219,7 +1219,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce Y.
+[!BADGE Riga]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2. Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1241,7 +1241,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, Restituisce b.
+[!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1264,7 +1264,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce il coefficiente di correlazione.
+[!BADGE Tabella]{type="Neutral"} regressione reciproca: Y = a + b X ^ -1. Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1348,14 +1348,14 @@ Restituisce Pi: 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-sin"
 >title="Seno"
->abstract="Restituisce il seno dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180."
+>abstract="Restituisce il seno dell’angolo specificato. Se l’angolo è espresso in gradi, moltiplicalo per PI()/180."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
 
 
-[!BADGE Riga]{type="Neutral"} Restituisce il seno dell&#39;angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
+[!BADGE Riga]{type="Neutral"} Restituisce il seno dell’angolo specificato. Se l’angolo è espresso in gradi, moltiplicalo per PI()/180.
 
 
 | Argomento | Descrizione |
@@ -1440,13 +1440,13 @@ Il valore restituito è la probabilità di visualizzare la statistica x del test
 >[!CONTEXTUALHELP]
 >id="functions-tan"
 >title="Tangente"
->abstract="Restituisce la tangente dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180."
+>abstract="Restituisce la tangente dell’angolo specificato. Se l’angolo è espresso in gradi, moltiplicalo per PI()/180."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(metric)]**
 
-Restituisce la tangente dell’angolo specificato. Se l’angolo è in gradi, moltiplicalo per PI( )/180.
+Restituisce la tangente dell’angolo specificato. Se l’angolo è espresso in gradi, moltiplicalo per PI()/180.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1467,7 +1467,7 @@ Restituisce la tangente dell’angolo specificato. Se l’angolo è in gradi, mo
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"} la deviazione dalla media divisa per la deviazione standard.
+[!BADGE Riga]{type="Neutral"} La deviazione dalla media divisa per la deviazione standard.
 
 | Argomento | Descrizione |
 |---|---|
