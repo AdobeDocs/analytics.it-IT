@@ -6,7 +6,7 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
 source-wordcount: '1288'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 64%
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="Pubblicazione Experience Cloud"
->abstract="Puoi pubblicare il pubblico derivato da questo segmento nella Libreria tipi di pubblico, dove può essere utilizzato per attività di marketing in Target e altre soluzioni Experience Cloud."
+>title="Pubblicazione in Experience Cloud"
+>abstract="Puoi pubblicare il pubblico derivato da questo segmento nella Libreria pubblico, dove può essere utilizzato per attività di marketing in Target e altre soluzioni Experience Cloud."
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audienclibrary"
 >title="Libreria pubblico"
->abstract="I segmenti creati nella Libreria tipi di pubblico sono disponibili immediatamente e non dipendono dagli aggiornamenti di Analytics."
+>abstract="I segmenti creati nella Libreria pubblico sono disponibili immediatamente e non dipendono dagli aggiornamenti di Analytics."
 
 
 La pubblicazione di un segmento di Adobe Analytics in Experience Cloud consente di utilizzare il segmento per l&#39;attività di marketing in [!DNL Audience Manager] e in altri canali di attivazione, inclusi [!DNL Advertising Cloud], [!DNL Target] e [!DNL Campaign] di Adobe.
@@ -30,7 +30,7 @@ Puoi pubblicare i segmenti di Analytics in Experience Cloud in meno di 8 ore. Ut
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica segmenti](https://video.tv.adobe.com/v/36961?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica segmenti](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

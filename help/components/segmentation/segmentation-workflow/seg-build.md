@@ -6,7 +6,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
 workflow-type: tm+mt
 source-wordcount: '2000'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Compatibilità prodotto"
->abstract="Un numero limitato di criteri di segmento disponibili non è compatibile con tutti gli strumenti di Adobe Analytics. In questo elenco sono indicati gli strumenti compatibili con il segmento. Per rendere un segmento compatibile con tutti gli strumenti di Adobe Analytics, modifica i criteri."
+>abstract="Un numero ridotto di criteri di segmento disponibili non è compatibile con tutti gli strumenti di Adobe Analytics. In questo elenco sono indicati gli strumenti compatibili con il segmento. Per rendere un segmento compatibile con tutti gli strumenti di Adobe Analytics, modifica i criteri."
 
 <!-- markdownlint-disable MD034 -->
 
@@ -49,7 +49,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Istanza"
->abstract="Include le varianti per la quota."
+>abstract="Include le istanze per la dimensione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -71,7 +71,7 @@ Esistono diversi modi per accedere al Generatore di segmenti:
 
 * **Navigazione superiore di Analytics**: fare clic su **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: fare clic su **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, aprire un progetto e fare clic su **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Aggiungi o modifica segmenti in Report Builder](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Aggiungi o modifica segmenti in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Criteri del generatore {#section_F61C4268A5974C788629399ADE1E6E7C}
 
