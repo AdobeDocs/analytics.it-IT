@@ -3,9 +3,9 @@ description: Informazioni generali di panoramica su Adobe Analytics, tra cui inf
 title: Informazioni sull’interfaccia di Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2061'
 ht-degree: 99%
 
 ---
@@ -79,7 +79,7 @@ La scheda [!UICONTROL Components] include funzioni che consentono di ottimizzare
    | Search&amp;Promote | Questa funzione non è più supportata. |  |
    | Mobile Services | Questa funzione non è più supportata. |  |
    | Dashboard di Analytics (app mobili) | L’app per dashboard di Adobe Analytics fornisce ovunque e in qualsiasi momento approfondimenti relativi ad Adobe Analytics. Attraverso l’app, gli utenti possono visualizzare scorecard intuitive create utilizzando l’interfaccia utente desktop di Adobe Analytics. | L’app per dashboard di Adobe Analytics è disponibile nell’App Store iOS o nel Google Play Store |
-   | Report Builder | Adobe Report Builder è un componente aggiuntivo per Microsoft Excel. Consente di generare richieste personalizzate partendo da dati di Adobe Analytics, che puoi inserire in fogli di lavoro Excel. Le richieste possono fare riferimento in maniera dinamica a celle presenti nel tuo foglio di lavoro, inoltre hai la possibilità di aggiornare e personalizzare la presentazione dei dati da parte del Report Builder. | [Che cos’è Report Builder?](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/rb-overview) |
+   | Report Builder | Adobe Report Builder è un componente aggiuntivo per Microsoft Excel. Consente di generare richieste personalizzate partendo da dati di Adobe Analytics, che puoi inserire in fogli di lavoro Excel. Le richieste possono fare riferimento in maniera dinamica a celle presenti nel tuo foglio di lavoro, inoltre hai la possibilità di aggiornare e personalizzare la presentazione dei dati da parte del Report Builder. | [Che cos’è Report Builder?](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
    {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ La scheda Amministrazione include funzioni e opzioni di configurazione per l’a
    | Gestione traffico | La pagina Gestione del traffico consente di specificare le modifiche previste per il volume di traffico. Queste impostazioni consentono ad Adobe di allocare le risorse appropriate per garantire che il traffico possa essere monitorato ed elaborato in modo tempestivo. | [Panoramica della gestione traffico](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html?lang=it) |
    | Utilizzo chiamate al server | Una chiamata al server, nota anche come “hit” o “richiesta di immagine”, è un’istanza in cui i dati vengono inviati ai server di Adobe per essere elaborati. È disponibile una dashboard dell’utilizzo delle chiamate al server che tiene traccia dei dati di consumo delle chiamate al server e li confronta con il limite contrattuale. È possibile impostare avvisi per evitare le eccedenze. | [Panoramica sull’utilizzo delle chiamate al server](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=it) |
    | Registri | I file di registro sono utili per capire quando gli utenti accedono al sistema e per monitorarne l’accesso e l’utilizzo, le suite di rapporti e le modifiche dell’amministratore. | [Registri](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=it) |
-   | Advertising Analytics | Configura Adobe Analytics per mostrare affiancati tutti i dati di ricerca a pagamento di Google e di Bing. | [Configurare Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=it) |
+   | Advertising Analytics | Configura Adobe Analytics per mostrare affiancati tutti i dati di ricerca a pagamento Google Ads e Microsoft Advertising. | [Configurare Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=it) |
    | Feed di dati | I feed di dati offrono un modo potente per estrarre dati non elaborati da Adobe Analytics. Puoi utilizzare i dati non elaborati in altre piattaforme al di fuori di Adobe, in base alle esigenze della tua organizzazione. | [Panoramica sui feed dati di Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=it) |
    | Escludi per indirizzo IP | Puoi escludere dai rapporti i dati provenienti da indirizzi IP specifici, ad esempio attività interne al sito web, test del sito e utilizzo dei dipendenti. L’esclusione dei dati migliora la precisione dei rapporti, escludendo i dati dell’indirizzo IP. Inoltre, puoi rimuovere i dati da attacchi di negazione del servizio o altri eventi dannosi che possono alterare i dati dei rapporti. Puoi configurare l’esclusione oppure utilizzare il firewall. | [Escludi per indirizzo IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=it) |
    | Reporting Activity Manager | Il Reporting Activity Manager ti consente di visualizzare la capacità di reporting per ogni suite di rapporti della tua organizzazione. Offre una visibilità dettagliata sul consumo di reporting e ti aiuta a diagnosticare e risolvere facilmente i problemi di capacità durante i periodi in cui si verificano picchi di reporting. | [Reporting Activity Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=it) |

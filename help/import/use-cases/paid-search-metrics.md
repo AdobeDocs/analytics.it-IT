@@ -1,9 +1,9 @@
 ---
 title: Importare metriche di ricerca a pagamento
-description: Passaggi per configurare Adobe Analytics per tenere traccia delle metriche di ricerca a pagamento (ad esempio, Google AdWords, MSN, Yahoo, ecc.) utilizzo di Origini dati.
+description: Passaggi per configurare Adobe Analytics per tenere traccia delle metriche di ricerca a pagamento (ad esempio, Google Ads, Microsoft Advertising, ecc.) tramite Origini dati.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 3%
@@ -12,9 +12,9 @@ ht-degree: 3%
 
 # Importa metriche [!UICONTROL Paid Search] tramite [!UICONTROL Data Sources]
 
-Per molte organizzazioni di marketing, la ricerca a pagamento è uno dei modi più importanti e affidabili&#x200B; sia per raggiungere nuovi clienti che per mantenere quelli esistenti. La funzionalità [!UICONTROL Data Sources] di Adobe Analytics semplifica l&#39;importazione di dati di ricerca avanzata a pagamento da piattaforme di pubblicità digitale come Google AdWords. Puoi integrarli con gli altri dati di marketing, insieme ai dati comportamentali e agli attributi cliente sul sito, per consentirti di ottenere informazioni migliori sulle attività di ricerca a pagamento della tua organizzazione.
+Per molte organizzazioni di marketing, la ricerca a pagamento è uno dei modi più importanti e affidabili&#x200B; sia per raggiungere nuovi clienti che per mantenere quelli esistenti. La funzionalità [!UICONTROL Data Sources] di Adobe Analytics semplifica l&#39;importazione di dati di ricerca avanzata a pagamento da piattaforme di pubblicità digitale come Google Ads. Puoi integrarli con gli altri dati di marketing, insieme ai dati comportamentali e agli attributi cliente sul sito, per consentirti di ottenere informazioni migliori sulle attività di ricerca a pagamento della tua organizzazione.
 
-Questi passaggi mostrano come configurare un’integrazione con AdWords per importare i dati delle parole chiave, nonché metriche quali impression, clic, costo per clic e altro ancora.
+Questi passaggi mostrano come configurare un’integrazione con Ads per importare dati da parole chiave, nonché metriche quali impression, clic, costo per clic e altro ancora.
 
 I passaggi spiegano come impostare un’importazione una tantum di dati pay-per-click. Tuttavia, [!UICONTROL Data Sources] consente l&#39;importazione continua dei dati utilizzando il formato di file descritto qui. A seconda della piattaforma di ricerca a pagamento, puoi pianificare esportazioni periodiche (giornaliere, mensili ecc.), impostare processi automatizzati per trasformare tali esportazioni nel formato di file richiesto da Adobe Analytics e caricare tali file in Adobe Analytics per i rapporti sull’integrazione della ricerca a pagamento.
 
@@ -72,8 +72,8 @@ Dovresti ricevere un messaggio che informa che i tuoi salvataggi sono stati appr
 
 1. Scegli dimensioni dati
 Selezionare la casella accanto a Codici di tracciamento e fare clic su **[!UICONTROL Next]**.
-1. Mappare Dimension di dati.
-Mappa la dimensione dati importata (attributo) sull’attributo Adobe Analytics in cui desideri memorizzarla. Può trattarsi di una quota standard o di un eVar. Dopo aver fatto clic su **[!UICONTROL Next]**, le mappature risultanti vengono visualizzate nel riepilogo:
+1. Mappa dimensioni dati.
+Mappa la dimensione dati importata (attributo) sull’attributo Adobe Analytics in cui desideri memorizzarla. Può trattarsi di una dimensione standard o di un’eVar. Dopo aver fatto clic su **[!UICONTROL Next]**, le mappature risultanti vengono visualizzate nel riepilogo:
 
    ![Riepilogo](assets/data-source-summary.png)
 
@@ -85,7 +85,7 @@ Il file è già compilato con le metriche, le dimensioni e le relative mappature
 
 ## Esportare i dati PPC e caricarli in Analytics
 
-Passaggi simili a questi funzionano per Google Adwords, MSN, Yahoo e altri account PPC.
+Passaggi simili a questi funzionano per Google Ads, Microsoft Advertising e altri account PPC.
 
 ### Esporta dati
 
@@ -118,14 +118,14 @@ Torna alla procedura guidata Source dati per istruzioni e carica il file tramite
 
 L’aggiunta di metriche calcolate sarà utile quando si prendono decisioni pay-per-click.
 
-Ad esempio, puoi aggiungere queste [metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=it#calculated-metrics):
+Ad esempio, puoi aggiungere queste [metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics):
 
 | Nome | Formula | Tipi di metriche | Descrizione |
 | --- | --- | --- | --- |
-| Visualizzazioni pagina per visita | Visualizzazioni/visite pagina | Numeriche | Se applicato a livello di sito: mostra il numero medio di pagine per visita. Quando applicato nel rapporto Pagine più popolari: mostra il numero medio di volte in cui una pagina specifica è stata visualizzata per visita. |
+| Visualizzazioni pagina per visita | Visualizzazioni/visite pagina | Numerici | Se applicato a livello di sito: mostra il numero medio di pagine per visita. Quando applicato nel rapporto Pagine più popolari: mostra il numero medio di volte in cui una pagina specifica è stata visualizzata per visita. |
 | Valore ordine medio | Ricavi/Ordini | Valuta | Mostra i ricavi medi per ordine. |
 | Ricavo per visita | Ricavo/visita | Valuta | Mostra il reddito medio per visita. |
-| Percentuale di click-through (CTR) | Clic/impressioni | Numeriche | Misura il rapporto tra clic e impression di un annuncio online o di una campagna di marketing via e-mail. |
+| Percentuale di click-through (CTR) | Clic/impressioni | Numerici | Misura il rapporto tra clic e impression di un annuncio online o di una campagna di marketing via e-mail. |
 | Profitto | Ricavi - Costo | Valuta | Mostra i ricavi di una campagna meno il costo. |
 | Profitto per impression (PPI) | (Ricavi - Costo)/Impression | Valuta | Mostra l’importo dei ricavi generati ogni volta che un annuncio veniva visualizzato, bilanciato con il costo. |
 | ROAS (Return on Ad Spend) | Importo vendite/spesa pubblicitaria | Valuta | (ROI) Rappresenta i dollari guadagnati per ogni dollaro speso per la corrispondente pubblicità. |

@@ -3,9 +3,9 @@ description: Dettagli sul modello Analysis Workspace e reporting in Report Build
 title: Rapporto sui dati pubblicitari in Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '349'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Questo rapporto consente a chiunque implementi l’integrazione del motore di ri
 | Tabella/Visualizzazione | Descrizione |
 |--- |--- |
 | Tendenze di Advertising | Panoramica con tendenze giornaliere per impressioni AMO, clic AMO e costo AMO. |
-| Piattaforme annuncio | Grafico ad anello per il costo delle prime 2 piattaforme (Google, Bing). |
+| Piattaforme annuncio | Grafico ad anello per il costo delle prime 2 piattaforme (Google Ads, Microsoft Advertising). |
 | Totali in Ad Platform | Tabella a forma libera delle piattaforme principali suddivisa per impressioni AMO, clic AMO, costi AMO, media AMO. Posizione, media AMO punteggio di qualità. |
 | Account | Superfici di costo in pila. |
 | Totali conto | Tabella a forma libera dei principali account suddivisa per le metriche associate. |

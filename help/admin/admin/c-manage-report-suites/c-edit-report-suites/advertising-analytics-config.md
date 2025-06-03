@@ -3,22 +3,22 @@ description: Puoi visualizzare i dati di Advertising Analytics in Adobe Analytic
 title: Configurare Advertising Analytics
 feature: Admin Tools
 exl-id: 2b107f7a-fd24-458a-a1cb-af42f9d9bfd6
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '67'
+ht-degree: 2%
 
 ---
 
 # Configurare Advertising Analytics
 
-Puoi configurare Adobe Analytics per mostrare affiancati tutti i dati di Google e di Bing Paid Search.
+Puoi configurare Adobe Analytics per mostrare affiancati tutti i dati di ricerca a pagamento Google Ads e Microsoft Advertising.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**
 
 In Adobe Analytics puoi ottenere i seguenti dati:
 
-* Impressioni
+* Impression
 
 * Clic
 

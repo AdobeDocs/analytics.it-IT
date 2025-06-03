@@ -3,9 +3,9 @@ description: Il tipo di tracciamento determina il modo in cui l’implementazion
 title: Tipo di tracciamento
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Il tipo di tracciamento determina il modo in cui l’implementazione di Adobe An
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/41424/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
@@ -37,7 +37,7 @@ Per configurare un account del motore di ricerca con tipo **[!UICONTROL Auto]**,
 
 >[!IMPORTANT]
 >
->Ulteriori informazioni sull&#39;aggiunta del parametro `s_kwcid` ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/it/docs/id-service/using/reference/csp).
+>Ulteriori informazioni sull&#39;aggiunta del parametro `s_kwcid` ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
 ## Tracciamento manuale {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -92,13 +92,13 @@ Per garantire che la stringa persista attraverso il reindirizzamento all’URL d
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-### Aggiungi tracciamento manuale all&#39;account Bing {#section_094F8ACA493C4D65B1F54A695558EBF2}
+### Aggiungere il tracciamento manuale all’account Microsoft Advertising {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-La stringa da aggiungere al tuo account Bing è mostrata di seguito. Devi aggiungere la stringa a tutti i suffissi URL finali utilizzati in tutto l’account.
+La stringa da aggiungere al tuo account Microsoft Advertising è mostrata di seguito. Devi aggiungere la stringa a tutti i suffissi URL finali utilizzati in tutto l’account.
 
 >[!IMPORTANT]
 >
->Il valore _`<Advertising Analytics ID>`_(in **bold**&#x200B;di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa del tuo ID account specifico dalla schermata dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
+>Il valore _`<Advertising Analytics ID>`_(in **bold**di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa del tuo ID account specifico dalla schermata dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
 
 **Stringa di tracciamento per le campagne:**
 
@@ -106,7 +106,7 @@ La stringa da aggiungere al tuo account Bing è mostrata di seguito. Devi aggiun
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![Aggiungi parametri del codice di tracciamento](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 Esempi di codici di tracciamento in vari formati di suffisso URL finale:
 

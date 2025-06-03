@@ -3,9 +3,9 @@ description: Risolvere i problemi relativi ad Advertising Analytics e risolverli
 title: Risoluzione dei problemi relativi ad Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '172'
 ht-degree: 5%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 5%
 # Risoluzione dei problemi relativi ad Advertising Analytics
 
 * [La suite di rapporti non viene visualizzata nella sezione Mappatura](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [Viene visualizzato un errore durante l’autenticazione nell’account Google Adwords...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [Viene visualizzato un errore durante l’autenticazione nell’account Google Ads...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## Non vedo la mia suite di rapporti nella sezione Mappatura {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
@@ -38,7 +38,7 @@ Stai tentando di [configurare un nuovo account Advertising](/help/integrate/c-ad
  </tbody> 
 </table>
 
-## Viene visualizzato un errore durante l’autenticazione all’account Google AdWords {#section_C99EA9A1946E4908B36778A331142B84}
+## Viene visualizzato un errore durante l’autenticazione nell’account Google Ads {#section_C99EA9A1946E4908B36778A331142B84}
 
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
@@ -49,8 +49,8 @@ Stai tentando di [configurare un nuovo account Advertising](/help/integrate/c-ad
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>L'autenticazione in Google AdWords con un account di posta elettronica collegato anche a un account AdWords Manager non funzionerà. </p> </td> 
-   <td colname="col2"> <p>Utilizzare un messaggio di posta elettronica diverso collegato allo stesso account AdWords per l'autenticazione. </p> </td> 
+   <td colname="col1"> <p>L'autenticazione in Google Ads con un account di posta elettronica anch'esso collegato a un account di Google Ads Manager non funziona. </p> </td> 
+   <td colname="col2"> <p>Utilizza un messaggio di posta elettronica diverso collegato allo stesso account Google Ads per l'autenticazione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
