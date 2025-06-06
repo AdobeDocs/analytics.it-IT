@@ -4,10 +4,10 @@ keywords: Feed di dati; processo; metriche; pre-colonna; post-colonna; bot; filt
 title: Calcolare metriche
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 95%
+source-wordcount: '499'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,11 @@ Descrive come calcolare le metriche comuni utilizzando i feed di dati.
 
 >[!NOTE]
 >
->Gli hit normalmente esclusi da Adobe Analytics sono inclusi nei feed di dati. Utilizza `exclude_hit = 0` per rimuovere gli hit esclusi dalle query su dati non elaborati. Anche i dati provenienti da origini dati sono inclusi nei feed di dati. Se desideri escludere le origini dati, escludi tutte le righe con `hit_source = 5,7,8,9`.
+>Gli hit normalmente esclusi da Analysis Workspace sono inclusi nei feed di dati. Considera l’aggiunta delle seguenti condizioni alle query, se pertinenti:
+>
+>* **`exclude_hit`**: Analysis Workspace include solo dati in cui `exclude_hit = 0`.
+>* **`customer_perspective`**: Analysis Workspace include solo dati in cui `customer_perspective = 0`, a meno che non si utilizzi una suite di rapporti virtuale che include hit in background per dispositivi mobili.
+>* **`hit_source`**: i dati provenienti da origini dati potrebbero contenere differenze tra i dati non elaborati e Analysis Workspace. Se desideri escludere gli hit dalle origini dati, escludi tutte le righe in cui `hit_source = 5,7,8,9`.
 
 ## Visualizzazioni pagina
 
@@ -38,7 +42,7 @@ Descrive come calcolare le metriche comuni utilizzando i feed di dati.
 
 ## Visitatori
 
-Tutti i metodi utilizzati da Adobe per identificare visitatori univoci (ID visitatore personalizzato, servizio ID Experience Cloud, ecc.) sono tutti calcolati in definitiva come valore in `post_visid_high` e `post_visid_low`. La concatenazione di queste due colonne può essere utilizzata come standard per identificare i visitatori univoci indipendentemente da come sono stati identificati come visitatori univoci. Se desideri comprendere quale metodo utilizza Adobe per identificare un visitatore univoco, utilizza la colonna `post_visid_type`.
+Tutti i metodi utilizzati da Adobe per identificare visitatori univoci (ID visitatore personalizzato, servizio Experience Cloud ID, ecc.) vengono tutti calcolati come valore in `post_visid_high` e `post_visid_low`. La concatenazione di queste due colonne può essere utilizzata come standard per identificare i visitatori univoci indipendentemente da come sono stati identificati come visitatori univoci. Se desideri comprendere quale metodo utilizza Adobe per identificare un visitatore univoco, utilizza la colonna `post_visid_type`.
 
 1. Concatena `post_visid_high` e `post_visid_low`.
 2. Conteggio del numero univoco di valori.
