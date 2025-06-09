@@ -6,7 +6,7 @@ exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
@@ -45,9 +45,9 @@ Fai clic sull’icona Account in alto a destra per visualizzare il numero di acc
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="ID account"
->abstract="L’ID account è un valore numerico che si trova nell’interfaccia Advertising di Microsoft. Per individuarlo, vai a Impostazioni > Impostazioni account > ID account."
+>abstract="L’“ID account” è un valore numerico che si trova nell’interfaccia di Microsoft Advertising. Puoi individuarlo passando a Impostazioni > Impostazioni account > ID account."
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
 >title="ID account manager"
->abstract="L’ID account Manager è un valore numerico che si trova nell’interfaccia Advertising di Microsoft. Per individuarlo, vai a Impostazioni > Impostazioni account Manager > ID account Manager."
+>abstract="L’“ID account manager” è un valore numerico che si trova nell’interfaccia di Microsoft Advertising. Puoi individuarlo passando a Impostazioni > Impostazioni account manager > ID account manager."
