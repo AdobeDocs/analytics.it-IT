@@ -4,10 +4,10 @@ description: Le regole di elaborazione per il canale di marketing determinano se
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
+source-git-commit: fc8882a33227b1f1ed22cab95b5df3ea51e62d43
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -82,7 +82,7 @@ Questa tabella di riferimento definisce i campi, le opzioni e gli attributi hit 
 | La pagina di provenienza (referrer) corrisponde ai filtri URL interni | Una visita in cui l’URL della pagina corrisponde a un filtro URL interno, come definito per la suite di rapporti in Strumenti di amministrazione. |
 | La pagina di provenienza (referrer) non corrisponde ai filtri URL interni | L’URL di riferimento non corrisponde a un filtro URL interno, come definito per la suite di rapporti in Strumenti di amministrazione. Puoi utilizzare questa impostazione con URL della pagina ed Esiste per impostare una regola onnicomprensiva, in modo che non arrivino visite nella sezione Nessun canale identificato del rapporto. |
 | Ignorare gli hit che corrispondono ai filtri URL interni | (Per le pagine di provenienza) Tiene traccia solo degli hit provenienti da siti con riferimenti esterni. In genere, lascia attiva questa impostazione a meno che non desideri includere il traffico interno. |
-| È la prima pagina della visita | La prima pagina di una visita rilevata dal reporting di Adobe. |
+| È il primo hit della visita | Il primo hit di una visita rilevato dal reporting di Adobe. |
 | Pagina | La dimensione [Pagina](/help/components/dimensions/page.md). |
 | Dominio pagina | Il dominio della pagina in cui il visitatore arriva, ad esempio `products.example.com`. |
 | Dominio e percorso della pagina | Il dominio e il percorso, ad esempio `products.example.com/mens/pants/overview.html` . |
