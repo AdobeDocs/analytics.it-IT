@@ -1,37 +1,67 @@
 ---
 description: Puoi filtrare per tag, suite di rapporti, proprietari e altri filtri (Mostra tutto, Personali, Condivisi con me, Preferiti e Approvati).
-title: Filtrare le metriche calcolate
+title: Filtrare l’elenco delle metriche calcolate
 feature: Calculated Metrics
 exl-id: ea5becb5-dcfc-4787-8d74-cfbc8a9387f3
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 29%
+source-wordcount: '145'
+ht-degree: 26%
 
 ---
 
-# Filtrare le metriche calcolate
+# Filtrare l’elenco delle metriche calcolate
 
-È possibile filtrare per tag, proprietari e altri filtri (Mostra tutto, Personali, Condivisi con me, Preferiti e Approvati).
+Puoi filtrare l’elenco delle metriche calcolate. L&#39;utilizzo di un filtro sulle metriche calcolate semplifica la ricerca delle metriche calcolate disponibili e la gestione delle metriche calcolate da [Gestione metriche calcolate](cm-manager.md).
 
-I filtri semplificano la ricerca di metriche calcolate nella barra dei segmenti.
 
-1. In Adobe Analytics, selezionare la scheda **[!UICONTROL Components]**, quindi selezionare **[!UICONTROL Calculated metrics]**.
+Per filtrare l’elenco delle metriche calcolate:
 
-1. Nel gestore delle metriche calcolate fare clic sull&#39;icona **[!UICONTROL Filters]**: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+1. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per aprire il pannello dei Filtri. Se hai bisogno di più spazio per l’elenco dei Filtri, puoi selezionare di nuovo ![Filtro](/help/assets/icons/Filter.svg) per chiudere il pannello.
+1. Selezionare i filtri da una delle [sezioni filtro](#filter-sections) disponibili.
+
+   >[!INFO]
+   >
+   >*Elementi* si riferiscono agli elementi del filtro visualizzati nell&#39;[elenco delle metriche calcolate](cm-manager.md#filters-list).
+   > 
+
+## Sezioni filtro
+
+{{tagfiltersection}}
+{{reportsuitefiltersection}}
+{{ownerfiltersection}}
+{{otherfiltersfiltersection}}
+
+
+L&#39;[elenco delle metriche calcolate](cm-manager.md#filters-list) viene aggiornato automaticamente in base alla configurazione del filtro. Puoi visualizzare i filtri configurati nella [barra dei filtri attivi](cm-manager.md#active-filter-bar).
+
+
+
+<!--
+# Filter calculated metrics
+
+Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
+
+Filtering makes it easier to search for calculated metrics in the segment rail.
+
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Calculated metrics]**. 
+
+1. In the Calculated metrics manager, click the **[!UICONTROL Filters]** icon:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 
-1. Sono disponibili i seguenti filtri:
+1. The following filters are available:
 
-   | Nome filtro | Descrizione |
+   |  Filter Name  | Description  |
    |---|---|
-   | Tag | Consente di filtrare le metriche calcolate con [tag](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md) specifici. La colonna Tag è visualizzata per impostazione predefinita. |
-   | Proprietari | Consente di filtrare le metriche calcolate in base al proprietario. |
-   | Suite di rapporti | Consente di filtrare le metriche calcolate per suite di rapporti. |
-   | Altri filtri > Mostra tutto | **(Solo amministratori)** mostra tutte le metriche calcolate, il relativo proprietario e la data dell&#39;ultima modifica. |
-   | Altri filtri > Personali | Mostra tutte le metriche calcolate di tua proprietà. |
-   | Altri filtri > Condivisi con me | Mostra tutte le metriche calcolate che altri utenti [hanno condiviso](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) con te. |
-   | Altri filtri > Preferiti | Mostra tutte le metriche calcolate contrassegnate come [Preferiti](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
-   | Altri filtri > Approvati | Mostra tutte le [metriche calcolate approvate](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md) ufficialmente. |
-   | Cercare metriche calcolate | Consente di cercare le metriche calcolate per nome. |
+   |  Tags  |Lets you filter on calculated metrics with specific [tags](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md). The Tags column is shown by default.  |
+   |  Owners  | Lets you filter calculated metrics by owner.  |
+   | Report suite | Lets you filter calculated metrics by report suite. |
+   |  Other Filters > Show All  | **(Admin only)** Shows all calculated metrics, their owner, and the last date they were modified.  |
+   |  Other Filters > Mine  | Shows all calculated metrics that you own.  |
+   |  Other Filters > Shared with me  |Shows all calculated metrics that others [shared](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) with you.  |
+   |  Other Filters > Favorites  |Shows all calculated metrics you marked as [Favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md).  |
+   |  Other Filters > Approved  |Shows all officially [approved](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md) calculated metrics.  |
+   |  Search calculated metrics  | Lets you search for calculated metrics by name.  |
+
+   -->

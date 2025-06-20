@@ -3,55 +3,85 @@ description: A seconda delle autorizzazioni, puoi condividere le metriche con l�
 title: Condividere le metriche calcolate
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 4%
+source-wordcount: '314'
+ht-degree: 7%
 
 ---
 
 # Condividere le metriche calcolate
 
-A seconda delle autorizzazioni, puoi condividere le metriche con l’intera organizzazione, i gruppi o i singoli utenti.
+In [Gestione metriche calcolate](cm-manager.md) è possibile condividere le metriche calcolate. A seconda delle autorizzazioni, puoi condividere le metriche calcolate con l’intera organizzazione, i gruppi o i singoli utenti:
 
-| Ruolo | Autorizzazioni |
+* **Amministratori**: gli amministratori possono condividere le metriche calcolate con l&#39;intera organizzazione, con i gruppi all&#39;interno di un&#39;organizzazione e con i singoli utenti. Consulta la [documentazione di Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-products.html) per maggiori informazioni.
+* **Non amministratori**: i non amministratori possono condividere solo la metrica calcolata creata e solo con singoli utenti.
+
+Per condividere una o più metriche calcolate:
+
+1. In [Gestione metriche calcolate](cm-manager.md), selezionare una o più delle metriche calcolate che si desidera condividere.
+1. Dalla barra delle azioni, seleziona ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]**.
+1. Nella finestra di dialogo **[!UICONTROL Share Calculated metric]** (Crea elemento dati):
+
+   ![Finestra di dialogo Condividi metriche calcolate](assets/share-calculated-metrics-dialog.png)
+
+   1. (facoltativamente) utilizzare ![Cerca](/help/assets/icons/Search.svg) per *Cerca singoli utenti o gruppi* e limita l&#39;elenco di gruppi o singoli utenti con cui si desidera condividere le metriche calcolate.
+
+   1. Selezionare una o più opzioni dalla sezione **[!UICONTROL Organization]** o **[!UICONTROL Groups]** oppure cercare e selezionare uno o più utenti. Le opzioni disponibili dipendono dal ruolo.
+
+   1. Selezionare **[!UICONTROL Save]** per condividere le metriche calcolate. Seleziona **[!UICONTROL Cancel]** per annullare.
+
+## Best practice
+
+Di seguito sono riportate alcune best practice per condividere le metriche calcolate e con chi condividerle.
+
+* In qualità di amministratore, condividi una metrica calcolata con tutti solo se sei certo che gli utenti dell’organizzazione abbiano familiarità con l’utilizzo di tale metrica. Puoi anche valutare la possibilità di favorire queste metriche calcolate. Per ulteriori informazioni, vedere [Contrassegnare una metrica calcolata come preferita](cm-favorite.md).
+
+* In qualità di amministratore, condividi una metrica calcolata con un gruppo specifico se tale metrica fornisce valore aziendale per la parte utenti di tale gruppo.
+
+* In qualità di amministratore o di singolo utente, condividi una metrica calcolata con uno o più utenti singoli per convalidarne una. Se i segmenti non si rivelano utili, puoi eliminare la metrica calcolata.
+
+<!--
+Depending on your permissions, you can share metrics with your whole organization, groups, or individual users.
+
+|  Role | Permissions |
 |---|---|
-| Amministratore | Può condividere le metriche con tutti, con i gruppi e con gli utenti. I gruppi sono impostati come gruppi di autorizzazioni nell’Admin Console. |
-| Non amministratore | Può condividere le metriche solo con singoli utenti. |
+|  Administrator  | Can share metrics with All, with Groups, and with Users. Groups are set up as permission groups in the Admin Console. |
+|  Non-Administrator  | Can share metrics only with individual users.  |
 
-Per condividere una metrica calcolata:
+To share a calculated metric:
 
-1. In Adobe Analytics, selezionare la scheda **[!UICONTROL Components]**, quindi selezionare **[!UICONTROL Calculated metrics]**.
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Calculated metrics]**. 
 
-1. In Gestione metriche calcolate, seleziona la casella di controllo a sinistra di qualsiasi metrica da condividere.
+1. In the Calculated metrics manager, select the checkbox to the left of any metrics that you want to share. 
 
-1. Selezionare l&#39;icona **[!UICONTROL Share]**. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
-
-   Viene visualizzata la finestra di dialogo Condividi metrica calcolata.
+1. Select the **[!UICONTROL Share]** icon. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+   
+   The Share Calculated metric dialog box displays.
 
    ![](assets/cm_share.png)
 
-1. Seleziona **[!UICONTROL Share]**.
+1. Select **[!UICONTROL Share]**.
 
-1. Scegli con chi vuoi condividere:
+1. Choose who you want to share with:
 
-   * **[!UICONTROL All]** (solo amministratori): condivisioni con tutti gli utenti dell&#39;organizzazione.
+   * **[!UICONTROL All]** (Administrators only): Shares with all users in the organization.
 
-     Valuta la condivisione con tutti solo se è utile per l’intera azienda e tutti possono usarla con facilità. In questo caso, dovresti anche considerare la possibilità di renderlo una [metrica approvata](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+     Consider sharing with all only if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [approved metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+   
+   * **[!UICONTROL Groups]** (Administrators only): Select any groups you want to share with.
 
-   * **[!UICONTROL Groups]** (solo per amministratori): selezionare i gruppi con cui si desidera condividere le informazioni.
+     Consider sharing with a group if the metric provides good business value for that team.
+   
+   * **[!UICONTROL Individual users]**: Search for and select the individual users you want to share with.
 
-     Valuta la condivisione con un gruppo se la metrica fornisce un buon valore aziendale per quel team.
+      This is the only share option available to all users. Administrators might want to use this option to vet and validate a metric prior to making it available to a group or to everyone. If the metric isn't useful, it can be discarded. Administrators should not officially approve this type of metric.
 
-   * **[!UICONTROL Individual users]**: Cercare e selezionare i singoli utenti con cui si desidera condividere il contenuto.
+1. Select **[!UICONTROL Share]**.
 
-     Questa è l’unica opzione di condivisione disponibile per tutti gli utenti. Gli amministratori possono utilizzare questa opzione per esaminare e convalidare una metrica prima di renderla disponibile a un gruppo o a tutti. Se la metrica non è utile, può essere eliminata. Gli amministratori non devono approvare ufficialmente questo tipo di metrica.
+   The Shared icon appears next to the metric: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
-1. Seleziona **[!UICONTROL Share]**.
+1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
 
-   Accanto alla metrica viene visualizzata l&#39;icona Condiviso: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
-
-1. Puoi filtrare le metriche condivise con te scegliendo **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
-
-1. (Facoltativo) Per filtrare l&#39;elenco delle metriche calcolate nel gestore delle metriche calcolate in modo da visualizzare solo le metriche condivise con te, seleziona l&#39;icona **Filtro**, espandi **[!UICONTROL Other filters]**, quindi seleziona **[!UICONTROL Shared with me]**.
-
+1. (Optional) To filter the list of calculated metrics in the Calculated metrics manager to show only metrics that are shared with you, select the **Filter** icon, expand **[!UICONTROL Other filters]**, then select **[!UICONTROL Shared with me]**.
+-->

@@ -3,35 +3,42 @@ description: Spiega come creare una metrica che mostra quali canali di marketing
 title: Ordina metrica di assistenze
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 2%
+source-wordcount: '213'
+ht-degree: 0%
 
 ---
 
-# Creare una metrica “Assistenze per l&#39;ordine”
+# Creare una metrica calcolata più complessa
 
-Le informazioni seguenti spiegano come creare una metrica che mostra quali canali di marketing supportano gli ordini. Può essere adattato a qualsiasi dimensione o evento di successo di interesse.
+Questo articolo spiega un esempio più complesso di metrica calcolata. Queste metriche calcolate mostrano quali canali di marketing forniscono assistenza per la gestione degli ordini. Questo tipo di metrica calcolata può essere adattata a qualsiasi dimensione o evento di successo.
 
-1. Inizia a creare una metrica calcolata, come descritto in [Metriche di compilazione](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Inizia a generare una metrica calcolata, come descritto in [Metriche di compilazione](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. Nel generatore di metriche calcolate, denomina la metrica &quot;Ordini assistiti&quot; o qualcosa di simile.
+1. Nel generatore di metriche calcolate, assegnare un nome alla metrica `Assisted Orders` o a un nome simile.
 
-1. Nell’area di lavoro Definizione, trascina una metrica Ordini. Quindi, regolare il modello di attribuzione tramite l&#39;ingranaggio delle impostazioni selezionando la casella di controllo **[!UICONTROL Use non-default attribution models]**.
+1. Selezionare la metrica **[!UICONTROL Online Orders]** dai componenti **[!UICONTROL Metrics]** e trascinarla nell&#39;area **[!UICONTROL Definition]**.
 
-   ![](assets/attr-model.png)
+   1. Selezionare ![Impostazione](/help/assets/icons/Setting.svg) per la metrica.
+   1. Seleziona **[!UICONTROL Use non-default attribution model]**.
+   1. Regola il modello di attribuzione in **[!UICONTROL Column attribution model]**.
+      1. Selezionare **[!UICONTROL Custom]** per **[!UICONTROL Model]**. Impostare **[!UICONTROL Starter]** su `0`, **[!UICONTROL Player]** su `100` e **[!UICONTROL Closer]** su `0`.
+      1. Selezionare **[!UICONTROL Visitor]** per **[!UICONTROL Container]**.
+      1. Selezionare **[!UICONTROL 30 Days]** per **[!UICONTROL Lookback window]**.
 
-1. Seleziona **[!UICONTROL Custom]** come modello di attribuzione. Cambia i pesi in 0 (starter), 100 (player) e 0 (closer).
+      1. Seleziona **[!UICONTROL Apply]**.
 
-   ![](assets/custom-attr-model.png)
+      ![Modello di attribuzione colonna](assets/complex-calculated-metric.png)
 
-1. Seleziona [!UICONTROL **Applica**] > [!UICONTROL **Salva**].
+1. Selezionare **[!UICONTROL Save]** per salvare la metrica calcolata.
 
-1. In Analysis Workspace, crea una tabella a forma libera con la dimensione Canale di marketing Ordini e la nuova metrica Ordini assistiti.
+Per utilizzare la metrica calcolata:
 
-   ![](assets/mktg-channel-assists.png)
+1. In Analysis Workspace, crea una tabella a forma libera con la dimensione **[!UICONTROL Marketing Channel]**, **[!UICONTROL Online Orders]**, e la nuova metrica **[!UICONTROL Assisted Online Orders]**.
 
-   Questo è un modo semplice per capire quali canali di marketing hanno assistito negli ordini. In alternativa, da una tabella a forma libera, puoi fare clic con il pulsante destro del mouse su una metrica e regolare il modello di attribuzione direttamente dalla tabella.
+   ![Ordini online con assistenza per il canale di marketing](assets/marketing-channel-assists.png)
 
 1. (Facoltativo) Condividi la metrica con altri utenti dell&#39;organizzazione, come descritto in [Condividi metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+
+Questo è un modo semplice per capire quali canali di marketing hanno assistito negli ordini. In alternativa, da una tabella a forma libera, puoi fare clic con il pulsante destro del mouse su una metrica e regolare il modello di attribuzione direttamente dalla tabella.

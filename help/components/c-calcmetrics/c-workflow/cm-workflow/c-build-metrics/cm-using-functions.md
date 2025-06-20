@@ -3,10 +3,10 @@ description: Le funzioni ti consentono di filtrare/ordinare i dati ed eseguire a
 title: Usare le funzioni
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 5%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -20,4 +20,6 @@ Per un elenco di tutte le funzioni, consultare [Funzioni di base](/help/componen
 >
 >Quando includi funzioni in una formula di metriche calcolate, applica sempre la funzione prima di trascinare metriche o segmenti.
 
-Guarda questo [video](https://youtu.be/SSyWvomnewI) per comprendere l&#39;utilizzo delle funzioni.
+<!-- OUTDATED VIDEO 
+Watch this [video](https://youtu.be/SSyWvomnewI) to understand the use of functions.
+-->

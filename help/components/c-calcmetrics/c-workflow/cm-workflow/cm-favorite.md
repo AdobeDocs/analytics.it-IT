@@ -3,21 +3,19 @@ description: Contrassegnare le metriche calcolate come preferite è un altro mod
 title: Contrassegnare le metriche calcolate come preferite
 feature: Calculated Metrics
 exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 29%
+source-wordcount: '104'
+ht-degree: 9%
 
 ---
 
 # Contrassegnare le metriche calcolate come preferite
 
-Contrassegnare le metriche calcolate come preferite è un altro modo per organizzarle in modo semplice.
+Puoi contrassegnare una metrica calcolata come preferita. Contrassegnare le metriche calcolate come preferite ti consente di organizzare le metriche calcolate. Tutti gli utenti possono favorire le metriche calcolate.
 
-1. In Adobe Analytics, selezionare la scheda **[!UICONTROL Components]**, quindi selezionare **[!UICONTROL Calculated metrics]**.
+Per favorire o sfavorire una metrica calcolata, in [Gestione metriche calcolate](cm-manager.md):
 
-1. In Gestione metriche calcolate, seleziona la stella accanto a qualsiasi metrica calcolata che desideri contrassegnare come preferita. La stella diventerà gialla:
+* Seleziona ![StarOutline](/help/assets/icons/StarOutline.svg) per preferire, oppure seleziona ![Star](/help/assets/icons/Star.svg) per non preferire una metrica calcolata.
 
-   ![](assets/favorites.png)
-
-1. Puoi anche filtrare i preferiti in **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Favorites]**.
+Puoi filtrare l’elenco delle metriche calcolate per preferiti. Selezionare **[!UICONTROL Other filters]** dal pannello ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** e selezionare **[!UICONTROL Favorites]**. Per ulteriori informazioni, vedere [Filtrare l&#39;elenco delle metriche calcolate](cm-filter.md).

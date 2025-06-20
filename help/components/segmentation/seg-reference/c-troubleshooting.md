@@ -3,7 +3,7 @@ description: Risolvere i problemi relativi ai segmenti.
 title: Risoluzione dei problemi di segmentazione
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Errore: &quot;Elementi non compatibili in questo segmento&quot; {#incompatible}
 
-Questo errore si verifica quando si tenta di salvare un segmento nella cartella Date Warehouse in cui il segmento contiene elementi non compatibili con Data Warehouse. Per risolvere l&#39;errore, eseguire una delle operazioni seguenti:
+Questo errore si verifica quando si tenta di salvare un segmento nella cartella Data Warehouse in cui il segmento contiene elementi non compatibili con Data Warehouse. Per risolvere l&#39;errore, eseguire una delle operazioni seguenti:
 
 * Salva il segmento in un’altra cartella
 * Rimuovi o modifica le parti non compatibili del segmento.
@@ -31,7 +31,7 @@ Possibili motivi:
 
 Possibili motivi:
 
-* Alcune dimensioni sono disponibili solo nella Data Warehouse e non nel Gestore segmenti.
+* Alcune dimensioni sono disponibili solo in Data Warehouse e non nel Gestore segmenti.
 * Il segmento viene controllato solo per una suite di rapporti specifica.
 * Un segmento condiviso potrebbe essere stato eliminato da un altro utente.
 * Impossibile caricare i segmenti a causa di un problema del centro dati o della cache del browser.

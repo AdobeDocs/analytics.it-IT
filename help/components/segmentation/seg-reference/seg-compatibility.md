@@ -3,14 +3,14 @@ description: Non tutti i segmenti creati nel Generatore di segmenti sono compati
 title: Compatibilità dei segmenti con Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
-# Compatibilità dei segmenti con Data Warehouse
+# Compatibilità del segmento Data Warehouse
 
 Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DNL Data Warehouse]. In questa tabella sono elencate le funzioni supportate.
 
@@ -92,11 +92,11 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
    <td> Supportato </td> 
   </tr>
   <tr>
-    <td><b>Operatori “Equals any of” (equivale a uno di) e “Does not equal any of” (non equivale a nessuno di)</b></td>
+    <td><b>Operatori “È uguale a qualsiasi di” e “Non è uguale a nessuno di”</b></td>
     <td>Supportati</td>
     <td>Non supportati</td>
   </tr>
  </tbody> 
 </table>
 
-*Nota: Data Warehouse non supporta tutti i casi di utilizzo di un contenitore `exclusion` o `without` quando si utilizza `AND/OR`. Quando si utilizza questa combinazione, solo i segmenti che possono essere riscritti come `A AND NOT B` (o **includi questa caratteristica**&#x200B;ed **escludi questa caratteristica**) sono supportati in Data Warehouse.*
+*Nota: Data Warehouse non supporta tutti i casi di utilizzo di un contenitore `exclusion` o `without` quando si utilizza `AND/OR`. Quando si utilizza questa combinazione, solo i segmenti che possono essere riscritti come `A AND NOT B` (o **includi questa caratteristica**ed **escludi questa caratteristica**) sono supportati in Data Warehouse.*

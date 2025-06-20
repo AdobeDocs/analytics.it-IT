@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 24%
+source-wordcount: '798'
+ht-degree: 32%
 
 ---
 
@@ -20,7 +20,7 @@ Le [!UICONTROL Column settings] consentono di configurare la formattazione delle
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/328590/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 
 | Opzioni di formattazione condizionale | Descrizione |
 | --- | --- |
-| **[!UICONTROL &#x200B; Use percent limits]** | Modifica l’intervallo di limiti in modo che sia basato su percentuali anziché su valori assoluti. L’intervallo dei limiti di percentuale funziona per metriche basate esclusivamente sulle percentuali (come Bounce Rate, o Percentuale non recapitate) e per metriche basate su conteggio e percentuale (come Visualizzazioni di pagina). |
+| **[!UICONTROL  Use percent limits]** | Modifica l’intervallo di limiti in modo che sia basato su percentuali anziché su valori assoluti. L’intervallo dei limiti di percentuale funziona per metriche basate esclusivamente sulle percentuali (come Bounce Rate, o Percentuale non recapitate) e per metriche basate su conteggio e percentuale (come Visualizzazioni di pagina). |
 | **[!UICONTROL Auto-generated]** | Calcola automaticamente i limiti superiori/medi/inferiori in base ai dati. Il limite superiore corrisponde al valore massimo nella colonna. Il limite inferiore corrisponde a quello minimo e il punto intermedio è la media fra il limite superiore e quello inferiore. |
 | **[!UICONTROL Custom]** | Assegna manualmente **[!UICONTROL Upper limit]**, **[!UICONTROL Midpoint]** e **[!UICONTROL Lower limit]**. I limiti forniscono la flessibilità necessaria per determinare quando un valore di colonna diventa buono, medio o scarso. |
 | **[!UICONTROL Conditional formatting palette]** | Applica un set di colori preconfigurato alle celle. A seconda delle quattro combinazioni di colori selezionate, a valori alti, intermedi e bassi vengono assegnati colori diversi. <br> La sostituzione di una dimensione nella tabella ridefinisce i limiti della formattazione condizionale. La sostituzione di un dato ricalcola i limiti per la colonna (dove il dato si trova sull’asse X e la dimensione sull’asse Y). |
@@ -87,9 +87,9 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 >
 >Quando aggiorni l’attribuzione di un componente a un modello di attribuzione non predefinito, tieni presente quanto segue:
 >
->* **Quando si utilizza il componente in un report con *una singola dimensione*:** L&#39;attribuzione del componente ignora il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
+>* **Quando utilizzi il componente in un report con *una singola dimensione*:** l’attribuzione del componente ignora il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
 >
->* **Quando si utilizza il componente in un report con *più dimensioni*:** L&#39;attribuzione del componente mantiene il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
+>* **Quando utilizzi il componente in un report con *più dimensioni*:** l’attribuzione del componente mantiene il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
 >
 >
 
@@ -108,10 +108,20 @@ Per utilizzare un modello di attribuzione non predefinito per una metrica in Ana
 
 {{attribution-models-details}}
 
+
+### Contenitore
+
+{{attribution-container}}
+
+
 ### Intervallo di lookback
 
 {{attribution-lookback-window}}
 
+
+### Esempio
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >
@@ -120,7 +130,7 @@ Per utilizzare un modello di attribuzione non predefinito per una metrica in Ana
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colonne dinamiche](https://video.tv.adobe.com/v/41431?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colonne dinamiche](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

@@ -4,10 +4,10 @@ title: Metriche in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
+source-git-commit: 69e67ca6bdd074a982b70e040b37b26434d216af
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 6%
+source-wordcount: '730'
+ht-degree: 5%
 
 ---
 
@@ -21,15 +21,12 @@ Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
 
 * **Metriche standard**: la maggior parte delle metriche utilizzate nei progetti sono metriche standard. Gli esempi includono [visualizzazioni pagina](/help/components/metrics/page-views.md), [ricavi](/help/components/metrics/revenue.md) o [eventi personalizzati](/help/components/metrics/custom-events.md). Per ulteriori informazioni, consulta [Panoramica delle metriche](/help/components/metrics/overview.md) nella guida utente dei Componenti.
 
-  ![Metrica standard](assets/standard-metric.png)
+* **Metriche calcolate** ![Calcolatore](/help/assets/icons/Calculator.svg): metriche definite dall&#39;utente basate su metriche standard, numeri statici o funzioni algoritmiche. Le metriche calcolate definite dall’utente mostrano l’icona di una calcolatrice nell’elenco dei componenti disponibili. Per ulteriori informazioni, consulta [Panoramica sulle metriche calcolate](/help/components/c-calcmetrics/cm-overview.md) nella guida utente dei componenti.
 
-* **Metriche calcolate**: metriche definite dall&#39;utente basate su metriche standard, numeri statici o funzioni algoritmiche. Le metriche calcolate definite dall’utente mostrano l’icona di una calcolatrice nell’elenco dei componenti disponibili. Per ulteriori informazioni, consulta [Panoramica sulle metriche calcolate](/help/components/c-calcmetrics/cm-overview.md) nella guida utente dei componenti.
+* **Modelli di metriche calcolate** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg): le metriche definite da Adobe si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzarne la logica. I modelli di metriche calcolate mostrano un’icona Adobe nell’elenco dei componenti disponibili.
 
-  ![Metrica calcolata](assets/calculated-metric.png)
+Puoi vedere se una metrica è approvata ![Icona Approvata](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) o meno. Per ulteriori dettagli su una metrica, passa il cursore del mouse sulla metrica e seleziona ![Icona informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Per ulteriori informazioni, vedere [Informazioni sul componente](use-components-in-workspace.md#component-info).
 
-* **Modelli di metriche calcolate**: le metriche definite da Adobe si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzarne la logica. I modelli di metriche calcolate mostrano un’icona Adobe nell’elenco dei componenti disponibili.
-
-  ![Modello di metrica calcolata](assets/calculated-metric-template.png)
 
 ## Utilizzare le metriche in Analysis Workspace
 
@@ -38,7 +35,7 @@ Le metriche possono essere utilizzate in vari modi all’interno di Analysis Wor
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usa metriche](https://video.tv.adobe.com/v/328589?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usa metriche](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +43,13 @@ Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usa metriche](h
 
 Le metriche calcolate consentono di vedere facilmente in che modo si relazionano tra loro, utilizzando semplici operatori o funzioni statistiche.
 
+
 Esistono diversi modi per creare metriche calcolate. Il metodo scelto determina se la metrica calcolata è disponibile nell’elenco dei componenti in tutti i progetti o solo nel progetto in cui è stata creata.
 
 ### Creare metriche calcolate per tutti i progetti
 
-Puoi utilizzare il generatore di metriche calcolate per creare metriche calcolate. Quando vengono create in questo modo, le metriche calcolate sono disponibili nell’elenco dei componenti e possono quindi essere utilizzate nei progetti di tutta l’organizzazione.
+È possibile utilizzare il [generatore di metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) per [creare metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md). Quando vengono create in questo modo, le metriche calcolate sono disponibili nell’elenco dei componenti e possono essere utilizzate nei progetti di tutta l’organizzazione.
 
-Per informazioni su come accedere al generatore di metriche calcolate, vedere [Genera metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 ### Creare metriche calcolate per un singolo progetto
 
@@ -100,6 +97,7 @@ Per creare una metrica calcolata per un singolo progetto:
 
 [Metriche calcolate: metriche senza implementazione](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=it) (3:42)
 
+
 ## Confrontare metriche con diversi modelli di attribuzione
 
 Per confrontare rapidamente un modello di attribuzione con un altro, fare clic con il pulsante destro del mouse su una metrica e selezionare **[!UICONTROL Compare Attribution Models]**:
@@ -115,7 +113,7 @@ Video sull’argomento:
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Media cumulativa](https://video.tv.adobe.com/v/328252?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Media cumulativa](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
