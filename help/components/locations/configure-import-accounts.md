@@ -71,7 +71,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -83,7 +83,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -99,7 +99,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -113,7 +113,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++E-mail
 
@@ -129,7 +129,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    **Tipi di account legacy**
 
@@ -148,13 +148,13 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++SFTP
 
    È disponibile il supporto SFTP per i feed di dati. Richiede un host SFTP, un nome utente e il sito di destinazione per contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
 
-+++
+   +++
 
    +++S3
 
@@ -189,7 +189,7 @@ Per configurare un account di importazione o esportazione cloud:
    >
    >L’area geografica cn-north-1 non è supportata.
 
-+++
+   +++
 
    +++BLOB di Azure
 
@@ -199,7 +199,7 @@ Per configurare un account di importazione o esportazione cloud:
    >
    >È necessario implementare un processo personalizzato per gestire lo spazio su disco nella destinazione di Data Warehouse. Adobe non elimina dati dal server.
 
-+++
+   +++
 
 1. Seleziona [!UICONTROL **Salva**].
 
