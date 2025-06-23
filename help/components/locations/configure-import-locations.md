@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configurare i percorsi di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
+source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1694'
 ht-degree: 31%
 
 ---
@@ -23,6 +23,7 @@ Dopo aver [configurato un account cloud](/help/components/locations/configure-im
 
 * Esportazione di file tramite [feed dati](/help/export/analytics-data-feed/create-feed.md)
 * Esportazione di report tramite [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Esportazione di file con [Report Builder](/help/analyze/report-builder/report-builder-export.md)
 * Importazione di schemi tramite [Set di classificazione](/help/components/classifications/sets/overview.md)
 
 Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account cloud. Questo processo consiste nell&#39;aggiungere e configurare l&#39;account (ad esempio ARN per il ruolo Amazon S3, Google Cloud Platform e così via) come descritto in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md), quindi aggiungere e configurare la posizione all&#39;interno dell&#39;account (come descritto in questo articolo).
@@ -54,7 +55,7 @@ Per informazioni su come visualizzare ed eliminare i percorsi esistenti, vedere 
    |---------|----------|
    | [!UICONTROL **Nome**] | Nome della posizione. |
    | [!UICONTROL **Descrizione**] | Fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo. |
-   | [!UICONTROL **Usa con**] | Seleziona se desideri utilizzare questa posizione con [!UICONTROL **feed di dati**], [!UICONTROL **Data Warehouse**] o [!UICONTROL **set di classificazione**]. <p>Quando effettuate una selezione, tenete presente quanto segue:</p><ul><li>Una singola posizione non può essere utilizzata per più scopi. Ad esempio, una posizione utilizzata per i feed di dati non può essere utilizzata anche per set di Data Warehouse o di classificazione.</li><li>Per evitare conflitti di file all&#39;interno di un percorso, non modificare il valore del campo [!UICONTROL **Usa con**] dopo l&#39;utilizzo del percorso.</li><li>Se stai creando un percorso per un account di posta elettronica, seleziona [!UICONTROL **Data Warehouse**] in questo campo. Le posizioni e-mail non sono supportate con feed di dati e set di classificazione.</li></ul> |
+   | [!UICONTROL **Usa con**] | Seleziona se desideri utilizzare questa posizione con [!UICONTROL **Feed dati**], [!UICONTROL **Data Warehouse**], [!UICONTROL **Set di classificazione**] o **[!UICONTROL Report Builder]**. <p>Quando effettuate una selezione, tenete presente quanto segue:</p><ul><li>Una singola posizione non può essere utilizzata per più scopi. Ad esempio, una posizione utilizzata per i feed di dati non può essere utilizzata anche per Data Warehouse o per i set di classificazione.</li><li>Per evitare conflitti di file all&#39;interno di un percorso, non modificare il valore del campo [!UICONTROL **Usa con**] dopo l&#39;utilizzo del percorso.</li><li>Se stai creando un percorso per un account di posta elettronica, seleziona [!UICONTROL **Data Warehouse**] in questo campo. Le posizioni e-mail non sono supportate con feed di dati e set di classificazione.</li></ul> |
    | [!UICONTROL **Rendi la posizione disponibile a tutti gli utenti dell&#39;organizzazione**] | Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare la posizione.<p>Quando condividi le posizioni, tieni presente quanto segue:</p><ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario della posizione.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul> |
    | [!UICONTROL **Account località**] | Selezionare l&#39;account della posizione in cui si desidera creare la posizione. Per informazioni su come creare un account, vedere [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md). |
 
@@ -171,7 +172,7 @@ Per configurare un percorso e-mail, specifica le seguenti informazioni:
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   È ora possibile esportare i dati nell&#39;account e nel percorso configurati durante l&#39;utilizzo di [Feed dati](/help/export/analytics-data-feed/create-feed.md). (I percorsi e-mail non sono supportati con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Set di classificazione](/help/components/classifications/sets/overview.md)).
+   È ora possibile esportare i dati nell&#39;account e nel percorso configurati durante l&#39;utilizzo di [Feed dati](/help/export/analytics-data-feed/create-feed.md). I percorsi di posta elettronica non sono supportati con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md) o [Set di classificazione](/help/components/classifications/sets/overview.md).
 
 ### Tipi di account legacy
 
@@ -179,7 +180,7 @@ Questi tipi di account legacy sono disponibili solo quando si esportano dati con
 
 +++FTP
 
-I dati del feed dati possono essere inviati a un Adobe o a una posizione FTP ospitata dal cliente. Specificare la directory Utilizzare il campo percorso per inserire i file di feed in una cartella.
+I dati del feed dati possono essere inviati a una posizione FTP di Adobe o ospitata dal cliente. Specificare la directory Utilizzare il campo percorso per inserire i file di feed in una cartella.
 
 | Campo | Funzione |
 |---------|----------|
@@ -191,7 +192,7 @@ I dati del feed dati possono essere inviati a un Adobe o a una posizione FTP osp
 
 +++SFTP
 
-I dati del feed dati possono essere consegnati a una posizione SFTP Adobe o ospitata dal cliente. Il sito di destinazione deve contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
+I dati del feed dati possono essere consegnati a una posizione Adobe o SFTP ospitata dal cliente. Il sito di destinazione deve contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
 
 | Campo | Funzione |
 |---------|----------|

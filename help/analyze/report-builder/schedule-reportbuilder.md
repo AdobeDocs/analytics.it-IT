@@ -1,19 +1,23 @@
 ---
-title: Come pianificare le cartelle di lavoro utilizzando il Report Builder in Adobe Analytics
+title: Pianificazione delle cartelle di lavoro con Report Builder in Adobe Analytics
 description: Scopri come utilizzare la funzione di pianificazione in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 76%
+source-wordcount: '857'
+ht-degree: 69%
 
 ---
 
-# Pianificare le cartelle di lavoro
+# Pianificare le cartelle di lavoro condividendo tramite e-mail
+
+>[!NOTE]
+>
+>Oltre a pianificare le cartelle di lavoro per la condivisione tramite e-mail, come descritto in questa sezione, è possibile pianificare le cartelle di lavoro da esportare nelle destinazioni cloud, come descritto in [Pianificare le cartelle di lavoro per l&#39;esportazione nelle destinazioni cloud](/help/analyze/report-builder/report-builder-export.md).
 
 Dopo aver salvato la cartella di lavoro e completato l’analisi, è possibile condividere facilmente la cartella di lavoro con altri membri del team utilizzando la funzione di pianificazione. La funzione Schedule (Pianifica) consente di creare una pianificazione che aggiorna automaticamente i dati nella cartella di lavoro e invia tramite e-mail il file .xlsx della cartella di lavoro di Excel come allegato al pubblico specificato alla data e all’ora indicate. L’impostazione di una pianificazione fornisce automaticamente ai destinatari aggiornamenti regolari. Puoi anche utilizzare la funzione di pianificazione per inviare la cartella di lavoro una volta senza pianificare gli aggiornamenti automatici.
 
@@ -24,7 +28,7 @@ La funzione Schedule (Pianifica) consente inoltre di impostare la protezione tra
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://video.tv.adobe.com/v/3417505?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -77,7 +81,7 @@ Utilizzare il pulsante Pianifica nell&#39;hub di Report Builder per creare rapid
 
    ![Fai clic su Invia secondo programma.](./assets/send-on-schedule.png){width="55%"}
 
-   Nella parte inferiore dell’hub di Report Builder viene visualizzato un avviso di conferma e la cartella di lavoro pianificata viene elencata nella scheda Workbooks (Cartelle di lavoro).
+   Nella parte inferiore dell&#39;hub Report Builder viene visualizzato un avviso popup di conferma e la cartella di lavoro pianificata è elencata nella scheda Cartelle di lavoro.
 
    ![Avviso di conferma](./assets/confirmation-toast.png){width="55%"}
 
@@ -87,7 +91,7 @@ Utilizzare il pulsante Pianifica nell&#39;hub di Report Builder per creare rapid
 
    Viene visualizzato un pop-up in cui viene richiesto se si desidera utilizzare la metada di pianificazione della cartella di lavoro precedente per creare una nuova attività pianificata.
 
-1. Se si seleziona **[!UICONTROL Use]**, il Report Builder inserisce automaticamente le informazioni di pianificazione legacy.
+1. Se si seleziona **[!UICONTROL Use]**, Report Builder inserisce automaticamente le informazioni di pianificazione legacy.
 
 1. Verifica che queste informazioni siano corrette e pianificate.
 
@@ -104,44 +108,6 @@ Puoi anche inviare la cartella di lavoro una sola volta.
 
 1. Fai clic su **Send Now** (Invia subito).
 
-## Visualizzare e modificare le cartelle di lavoro pianificate {#view-edit}
+## Gestire le cartelle di lavoro pianificate
 
-Puoi visualizzare e gestire tutte le cartelle di lavoro pianificate in un’unica posizione nella scheda Workbooks (Cartelle di lavoro).
-
-1. Nella sezione Schedule (Pianifica) dell’hub di Report Builder, fai clic sulla scheda Workbooks (Cartelle di lavoro). Usa questa visualizzazione per visualizzare un elenco di tutte le cartelle di lavoro pianificate.
-
-1. Seleziona una cartella di lavoro. Vengono visualizzati diversi strumenti che consentono di modificare la cartella di lavoro, modificare l&#39;attività di pianificazione, mettere in pausa e riavviare l&#39;attività di pianificazione, scaricare un rapporto attività pianificata o eliminare l&#39;attività di pianificazione.
-
-   ![Schermata che mostra le icone di pianificazione della cartella di lavoro.](./assets/schedule-icons.png){width="20%"}
-
-* (Facoltativo) Fai clic sull’icona della matita per modificare l’attività di pianificazione della cartella di lavoro.
-
-* (Facoltativo) Fai clic sull’icona dell’orologio per visualizzare la cronologia di ciascuna attività pianificata.
-
-* (Facoltativo) Fai clic sull’icona Pausa per sospendere e riavviare l’attività di pianificazione della distribuzione. Questa opzione è utile se è necessario modificare la cartella di lavoro prima di inviarla. Fai nuovamente clic sull’icona di pausa per riavviare la distribuzione.
-
-* (Facoltativo) Fare clic sull&#39;icona di download per scaricare una copia dell&#39;attività di pianificazione della cartella di lavoro.
-
-* (Facoltativo) Fai clic sul cestino per eliminare l’attività di pianificazione.
-
-  ![Schermata che mostra l&#39;elenco delle attività di pianificazione.](./assets/selected-workbook.png){width="40%"}
-
-## Rivedere lo stato delle attività programmate {#status}
-
-La visualizzazione della cronologia consente di controllare lo stato di ogni attività pianificata. È disponibile una riga separata che documenta il cambiamento stato per ogni attività pianificata. Nell’esempio riportato di seguito, la pianificazione *New Hourly Schedule* (Nuova pianificazione oraria) è stata avviata il 5 gennaio alle 15.04. Entro le 15:05 è stata aggiornata correttamente ed è stata inviata ai destinatari. La cartella di lavoro successiva, *Bad workbook* (Cartella di lavoro non valida), ha riscontrato un errore durante il processo di aggiornamento. Se una cartella di lavoro non è stata inviata, la scheda della cronologia consente di risolvere i problemi mostrando in quale punto del processo si è verificato l’errore. In questo caso, è probabile che sia dovuto ad alcuni errori del blocco dati, ad esempio un componente mancante, che hanno impedito l’aggiornamento della cartella di lavoro.
-
-Un segno di spunta verde indica che la cartella di lavoro è stata inviata correttamente. Un punto esclamativo all’interno di un triangolo rosso indica che si è verificato un errore.
-
-Per scegliere le colonne da visualizzare nella scheda della cronologia, fai clic sull’icona delle impostazioni delle colonne a destra della barra di ricerca.
-
-![Fare clic sull&#39;icona della colonna per visualizzare o nascondere colonne specifiche.](./assets/history.png){width="55%"}
-
-Puoi filtrare la cronologia per visualizzare solo quella di una singola cartella di lavoro pianificata andando alla scheda delle cartelle di lavoro, selezionando la cartella di lavoro e facendo clic sull’icona della cronologia.
-
-Puoi anche visualizzare la cronologia di una cartella di lavoro specifica dalla scheda Workbooks (Cartelle di lavoro). Nella scheda Workbooks (Cartelle di lavoro) seleziona la cartella di lavoro, quindi fai clic sull’icona della cronologia.
-
-![Icona cronologia cartelle di lavoro](./assets/history2.png){width="55%"}
-
-Il filtro della cartella di lavoro verrà quindi visualizzato nella parte superiore della cronologia. Per visualizzare nuovamente la cronologia di tutte le attività pianificate, fai clic sulla x accanto al filtro.
-
-![Filtro cartella di lavoro.](./assets/history3.png){width="55%"}
+Per informazioni sulla gestione delle cartelle di lavoro già pianificate, vedere [Gestione delle cartelle di lavoro pianificate](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

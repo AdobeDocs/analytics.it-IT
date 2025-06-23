@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare account di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 54%
+source-wordcount: '1475'
+ht-degree: 55%
 
 ---
 
@@ -23,6 +23,7 @@ Puoi configurare un account cloud utilizzato per uno o tutti i seguenti scopi:
 
 * Esportazione di file tramite [feed dati](/help/export/analytics-data-feed/create-feed.md)
 * Esportazione di report tramite [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Esportazione di file con [Report Builder](/help/analyze/report-builder/report-builder-export.md)
 * Importazione di schemi tramite [Set di classificazione](/help/components/classifications/sets/overview.md)
 
 Devi configurare Adobe Analytics con le informazioni necessarie per accedere al tuo account cloud. Questo processo consiste nell&#39;aggiungere e configurare l&#39;account (ad esempio ARN per il ruolo di Amazon S3, Google Cloud Platform e così via) come descritto in questo articolo, quindi aggiungere e configurare il percorso all&#39;interno dell&#39;account (ad esempio una cartella all&#39;interno dell&#39;account) come descritto in [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).
@@ -70,7 +71,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Google Cloud Platform
 
@@ -82,7 +83,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure SAS
 
@@ -98,7 +99,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure RBAC
 
@@ -112,7 +113,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++E-mail
 
@@ -128,7 +129,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    **Tipi di account legacy**
 
@@ -136,24 +137,24 @@ Per configurare un account di importazione o esportazione cloud:
 
    +++FTP
 
-   I dati del feed dati possono essere inviati a un Adobe o a una posizione FTP ospitata dal cliente. Richiede un host FTP, un nome utente e una password. Utilizza il campo del percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste.
+   I dati del feed dati possono essere inviati a una posizione FTP di Adobe o ospitata dal cliente. Richiede un host FTP, un nome utente e una password. Utilizza il campo del percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste.
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Host**] | Immetti l&#39;URL di destinazione FTP desiderato. Esempio: `ftp.adobe.com`. |
+   | [!UICONTROL **Host**] | Immetti l&#39;URL di destinazione FTP desiderato. Ad esempio: `ftp.adobe.com`. |
    | [!UICONTROL **Percorso**] | Può essere lasciato vuoto. |
    | [!UICONTROL **Nome utente**] | Immetti il nome utente per accedere al sito FTP. |
    | [!UICONTROL **Password e conferma password**] | Immettere la password per accedere al sito FTP. |
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++SFTP
 
    È disponibile il supporto SFTP per i feed di dati. Richiede un host SFTP, un nome utente e il sito di destinazione per contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
 
-   +++
++++
 
    +++S3
 
@@ -188,7 +189,7 @@ Per configurare un account di importazione o esportazione cloud:
    >
    >L’area geografica cn-north-1 non è supportata.
 
-   +++
++++
 
    +++BLOB di Azure
 
@@ -198,7 +199,7 @@ Per configurare un account di importazione o esportazione cloud:
    >
    >È necessario implementare un processo personalizzato per gestire lo spazio su disco nella destinazione di Data Warehouse. Adobe non elimina dati dal server.
 
-   +++
++++
 
 1. Seleziona [!UICONTROL **Salva**].
 

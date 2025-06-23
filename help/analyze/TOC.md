@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
    + [Quale strumento Adobe Analytics usare?](get-started/which-analytics-tool.md)
    + [Confronto dei prodotti Analytics e requisiti](get-started/analytics-product-comparison.md)
    + [Requisiti di sistema](get-started/sys-reqs.md)
-+ [Landing page](landing.md)
++ [Pagina di destinazione](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + Progetti {#build-workspace-project}
@@ -109,7 +109,7 @@ ht-degree: 100%
       + [A linee](analysis-workspace/visualizations/line.md)
       + [Mappa](analysis-workspace/visualizations/map-visualization.md)
       + [Grafico a dispersione](analysis-workspace/visualizations/scatterplot.md)
-      + [Intestazione sezione](/help/analyze/analysis-workspace/visualizations/section-header.md)
+      + [Intestazione di sezione](/help/analyze/analysis-workspace/visualizations/section-header.md)
       + [Numero di riepilogo e Variazione di riepilogo](analysis-workspace/visualizations/summary-number-change.md)
       + [Testo](analysis-workspace/visualizations/text.md)
       + [Mappa ad albero](analysis-workspace/visualizations/treemap.md)
@@ -126,7 +126,7 @@ ht-degree: 100%
       + [Pannello elemento successivo o precedente](analysis-workspace/c-panels/next-previous.md)
       + [Pannello Riepilogo pagina](analysis-workspace/c-panels/page-summary.md)
       + [Pannello Quick Insights](analysis-workspace/c-panels/quickinsight.md)
-      + Pannello Segment comparison {#segment-comparison}
+      + Pannello Confronto dei segmenti {#segment-comparison}
          + [Panoramica sul confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casi di utilizzo del confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Test statistici utilizzati nel confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -171,12 +171,14 @@ ht-degree: 100%
    + [Utilizzare i segmenti](report-builder/work-with-segments.md)
    + [Dimensioni filtro](report-builder/filter-dimensions.md)
    + [Gestire i blocchi di dati](report-builder/manage-reportbuilder.md)
-   + [Pianificare le cartelle di lavoro](report-builder/schedule-reportbuilder.md)
+   + [Pianificazione delle cartelle di lavoro per l&#39;e-mail](report-builder/schedule-reportbuilder.md)
+   + [Pianificare le cartelle di lavoro per le esportazioni cloud](/help/analyze/report-builder/report-builder-export.md)
+   + [Gestire le cartelle di lavoro pianificate](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Etichette per limitazioni](report-builder/restricted-labels.md)
    + [Impostazioni Report Builder](report-builder/report-builder-settings.md)
 + Report Builder legacy {#legacy-report-builder}
    + [Guida di Adobe Report Builder legacy](legacy-report-builder/home.md)
-   + Configurazione di Report Builder legacy {#legacy-report-builder-setup}
+   + Configurazione legacy di Report Builder {#legacy-report-builder-setup}
       + [Requisiti di sistema](legacy-report-builder/setup/system-requirements.md)
       + [Installare Report Builder](legacy-report-builder/setup/t-install-arb.md)
       + [Aggiornare Report Builder](legacy-report-builder/setup/upgrade-arb.md)
@@ -187,7 +189,7 @@ ht-degree: 100%
    + Richieste di dati {#data-requests}
       + [Richieste di dati: Creazione guidata richieste passaggio 1](legacy-report-builder/data-requests/data-requests.md)
       + [Create a Data Request (Creare una richiesta di archivio dati)](legacy-report-builder/data-requests/t-create-a-data-request.md)
-      + Suite di rapporti {#report-suites}
+      + di Report Suite Manager {#report-suites}
          + [Seleziona una suite di rapporti](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
          + [Selezionare una suite di rapporti da una richiesta esistente in Excel](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Usare Excel per individuare un ID suite di rapporti](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
@@ -238,7 +240,7 @@ ht-degree: 100%
       + [Configurare il layout personalizzato](legacy-report-builder/layout/configure-the-custom-layout.md)
       + [Mappare metriche e dimensioni alle celle](legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [Creare un micrografico](legacy-report-builder/layout/t-create-a-microchart.md)
-      + Filtro delle dimensioni {#filter-dimenson}
+      + Filtra dimensioni {#filter-dimenson}
          + [Panoramica del filtro delle dimensioni](legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)
          + [Filtraggio più comune](legacy-report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [Filtri specifici](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)

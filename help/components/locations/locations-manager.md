@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestione posizioni
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1460'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,7 @@ Gestione posizioni consente di visualizzare, creare, modificare o eliminare cont
 
 * Esportazione di file tramite [feed dati](/help/export/analytics-data-feed/create-feed.md)
 * Esportazione di report tramite [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Esportazione di file con [Report Builder](/help/analyze/report-builder/report-builder-export.md)
 * Importazione di schemi tramite [Set di classificazione](/help/components/classifications/sets/overview.md)
 
 ## Visualizzare, filtrare e cercare i percorsi
@@ -46,7 +47,7 @@ Le colonne seguenti sono disponibili in Gestione posizioni. Per personalizzare l
 * **[!UICONTROL Location name]**: nome della posizione. Selezionare il menu a tre punti accanto al nome di una posizione per [modificare la posizione](/help/components/locations/configure-import-locations.md) o eliminarla.
 * **[!UICONTROL Location type]**: tipo di account associato alla posizione.
 * **[!UICONTROL Account]**: l&#39;account specifico associato alla posizione.
-* **Applicazione**: il tipo di applicazione con cui è possibile utilizzare il percorso (ad esempio feed di dati, Data Warehouse o set di classificazione).
+* **Applicazione**: tipo di applicazione con cui è possibile utilizzare il percorso (ad esempio feed di dati, Data Warehouse o set di classificazione).
 * **[!UICONTROL Last used]**: data dell&#39;ultimo utilizzo del percorso.
 * **[!UICONTROL Created by]**: l&#39;utente che ha creato il percorso.
 * **[!UICONTROL Date created]**: la data di creazione del percorso.
@@ -71,9 +72,9 @@ Per informazioni su come modificare un percorso, vedere [Configurare i percorsi 
 
 >[!IMPORTANT]
 >
->Se una posizione viene eliminata, eventuali file di feed dati, rapporti di Data Warehouse o schemi di set di classificazione associati alla posizione eliminata non riusciranno al successivo utilizzo.
+>Se una posizione viene eliminata, al successivo utilizzo i file di feed dati, i rapporti di Data Warehouse o gli schemi di set di classificazione associati alla posizione eliminata avranno esito negativo.
 >
->Se elimini una posizione, devi [modificare i feed di dati](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse rapporti](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) e [schemi di set di classificazione](/help/components/classifications/sets/manage/schema.md) per utilizzare una posizione funzionante.
+>Se elimini una posizione, devi [modificare i feed di dati](/help/export/analytics-data-feed/create-feed.md), [rapporti di Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) e [schemi di set di classificazione](/help/components/classifications/sets/manage/schema.md) per utilizzare una posizione funzionante.
 
 Una posizione può essere eliminata solo dall’utente che l’ha creata o da un amministratore di sistema.
 
@@ -171,9 +172,9 @@ Puoi limitare i tipi di account visualizzati dagli utenti nelle seguenti circost
 
 * Durante la [creazione di nuovi account](/help/components/locations/configure-import-accounts.md).
 
-* Quando si sceglie quali account utilizzare per l&#39;esportazione di file tramite [Feed dati](/help/export/analytics-data-feed/create-feed.md), quando si esportano report tramite [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o quando si importano schemi tramite [Set di classificazione](/help/components/classifications/sets/overview.md).
+* Quando si sceglie quali account utilizzare per l&#39;esportazione di file tramite [Feed dati](/help/export/analytics-data-feed/create-feed.md), l&#39;esportazione di report tramite [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o l&#39;importazione di schemi tramite [Set di classificazione](/help/components/classifications/sets/overview.md).
 
-Quando si limitano i tipi di account come descritto in questa sezione, tutti gli account del tipo limitato non sono più visibili agli utenti. Ciò significa che non è possibile creare nuovi account di quel tipo e che non è possibile utilizzare account esistenti di quel tipo durante la creazione di feed di dati, Date Warehouse o set di classificazione.
+Quando si limitano i tipi di account come descritto in questa sezione, tutti gli account del tipo limitato non sono più visibili agli utenti. Ciò significa che non è possibile creare nuovi account di quel tipo e che non è possibile utilizzare account esistenti di quel tipo durante la creazione di feed di dati, Data Warehouse o set di classificazione.
 
 Tuttavia, gli account esistenti configurati per le esportazioni pianificate devono essere eliminati se si desidera impedirne l&#39;utilizzo.
 
@@ -205,13 +206,13 @@ Per limitare i tipi di account disponibili per gli utenti durante la creazione e
 
    È necessario selezionare almeno un tipo di account.
 
-   * [!UICONTROL **ARN per ruolo Amazon S3**]
+   * [!UICONTROL **Amazon S3 Role ARN**]
 
-   * [!UICONTROL **Piattaforma cloud Google**]
+   * [!UICONTROL **Google Cloud Platform**]
 
-   * [!UICONTROL **SAS di Azure**]
+   * [!UICONTROL **Azure SAS**]
 
-   * [!UICONTROL **RBAC di Azure**]
+   * [!UICONTROL **Azure RBAC**]
 
    * [!UICONTROL **E-mail**]
 
