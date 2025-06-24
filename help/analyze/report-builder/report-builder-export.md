@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
+exl-id: 5829482b-3a5e-416b-9c82-404face30b29
+source-git-commit: ecb08c3d9dfe7394ecff5415c08be7a38b0cba6a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 30%
 
 ---
-
 
 # Pianificare le cartelle di lavoro esportandole in destinazioni cloud
 
@@ -33,15 +33,7 @@ Per esportare le cartelle di lavoro da Report Builder nel cloud, attenersi alla 
 
 1. [Esportare un rapporto da Report Builder](#export-a-report-from-report-builder)
 
-<!--
-
-1. Access data in your cloud account and [Manage exports in Adobe](/help/components/exports/manage-exports.md)
-
-![The export process described in steps 1 through 4.](assets/report-builder-export-process.png)
-
--->
-
-## Esportare un rapporto da Report Builder {#export-from-report-builder}
+## Esportare un rapporto da Report Builder
 
 >[!NOTE]
 >
@@ -92,7 +84,7 @@ Per esportare rapporti da Report Builder:
 
    Nella parte inferiore dell&#39;hub Report Builder viene visualizzato un avviso popup di conferma e la cartella di lavoro pianificata è elencata nella scheda Cartelle di lavoro.
 
-## Vantaggi dell’esportazione nel cloud {#advantages}
+## Vantaggi dell’esportazione nel cloud
 
 L’esportazione dei dati di Adobe Analytics nel cloud consente di:
 
@@ -133,4 +125,3 @@ After data is exported from Analysis Workspace, you can edit, re-export, duplica
 ## Gestire le cartelle di lavoro pianificate
 
 Per informazioni sulla gestione delle cartelle di lavoro già pianificate, vedere [Gestione delle cartelle di lavoro pianificate](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
-
