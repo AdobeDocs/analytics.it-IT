@@ -18,7 +18,7 @@ In Analysis Workspace, il confronto delle date ti consente di prendere una quals
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto date](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto date](https://video.tv.adobe.com/v/35904?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
