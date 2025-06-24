@@ -1,10 +1,10 @@
 ---
 title: Util.getQueryParam
 description: Restituisce il valore di un parametro stringa query.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 I parametri delle stringhe di query in un URL del browser contengono spesso dati importanti per Analytics. Utilizzare il metodo `Util.getQueryParam()` per recuperare i dati dalla stringa di query.
 
-## Ottenere i dati dei parametri della stringa di query tramite l’estensione Adobe Analytics e l’estensione Web SDK
+## Ottieni i dati dei parametri della stringa di query utilizzando l’estensione Adobe Analytics e l’estensione Web SDK
 
 Puoi ottenere i dati dei parametri della stringa di query impostando i valori negli elementi dati.
 

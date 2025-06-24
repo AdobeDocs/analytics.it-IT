@@ -2,18 +2,18 @@
 description: Panoramica dei dati raccolti da Adobe Analytics e altre considerazioni sulla privacy.
 keywords: privacy
 title: Panoramica sulla privacy
-feature: Privacy
+feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Panoramica sulla privacy
 
-Adobe desidera abilitare l’organizzazione in modo che possa conformarsi alle leggi e alle normative applicabili. Per ulteriori informazioni, consulta la sezione [Privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html){target=_blank}. Tra Adobe Analytics e l’organizzazione, Adobe agisce come “responsabile del trattamento dei dati” e l’organizzazione è il “titolare del trattamento” (o equivalente in base alle leggi sulla privacy e la protezione dei dati applicabili). È compito dell’organizzazione divulgare in che modo utilizza i prodotti e i servizi Adobe, in quanto l’organizzazione controlla esclusivamente l’implementazione delle soluzioni di Adobe. Durante l’utilizzo di Adobe Analytics, l’organizzazione è responsabile del rispetto della propria informativa sulla privacy, del contratto sui servizi con Adobe e di tutte le leggi applicabili.
+Adobe desidera abilitare l’organizzazione in modo che possa conformarsi alle leggi e alle normative applicabili. Per ulteriori informazioni, consulta [Privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html){target=_blank}. Tra Adobe Analytics e l’organizzazione, Adobe agisce come “responsabile del trattamento dei dati” e l’organizzazione è il “titolare del trattamento” (o equivalente in base alle leggi sulla privacy e la protezione dei dati applicabili). È compito dell’organizzazione divulgare in che modo utilizza i prodotti e i servizi Adobe, in quanto l’organizzazione controlla esclusivamente l’implementazione delle soluzioni di Adobe. Durante l’utilizzo di Adobe Analytics, l’organizzazione è responsabile del rispetto della propria informativa sulla privacy, del contratto sui servizi con Adobe e di tutte le leggi applicabili.
 
 Adobe consiglia vivamente di attenersi ai seguenti concetti generali:
 
@@ -53,4 +53,4 @@ Consulta il menu di navigazione in [Panoramica delle dimensioni](../components/d
 
 ## Posizioni di elaborazione dati
 
-Adobe gestisce tre posizioni di elaborazione dati per Adobe Analytics. Questi siti ricevono dati non elaborati e li elaborano in una suite di rapporti ottimizzata per l’archiviazione dei dati e il recupero del reporting. Queste posizioni di elaborazione dati risiedono attualmente negli Stati Uniti (Oregon), nel Regno Unito (Londra) e a Singapore. Per ulteriori informazioni, consulta la [Panoramica sulla sicurezza di Adobe Analytics](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank}.
+Adobe gestisce tre posizioni di elaborazione dati per Adobe Analytics. Questi siti ricevono dati non elaborati e li elaborano in una suite di rapporti ottimizzata per l’archiviazione dei dati e il recupero del reporting. Queste posizioni di elaborazione dati risiedono attualmente negli Stati Uniti (Oregon), nel Regno Unito (Londra) e a Singapore. Per ulteriori informazioni, consulta [Panoramica sulla sicurezza di Adobe Analytics](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank}.

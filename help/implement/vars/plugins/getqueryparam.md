@@ -1,17 +1,17 @@
 ---
 title: getQueryParam
 description: Estrai il valore del parametro della stringa di query di un URL.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 7%
 
 ---
 
-# Plug-in di Adobe: getQueryParam
+# Plug-in Adobe: getQueryParam
 
 {{plug-in}}
 
@@ -36,7 +36,7 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 ## Installare manualmente il plug-in implementando Web SDK
 
-Questo plug-in non è ancora supportato per l’utilizzo in un’implementazione manuale dell’SDK per web.
+Questo plug-in non è ancora supportato per l&#39;utilizzo in un&#39;implementazione manuale del Web SDK.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -158,7 +158,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 2.5 (8 gennaio 2016)
 
-* Compatibile sia con codice H che con AppMeasurement (richiede `s.pt` con AppMeasurement).
+* Compatibile sia con il codice H che con AppMeasurement (richiede `s.pt` con AppMeasurement).
 
 ### 2,4
 

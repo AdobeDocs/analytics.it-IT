@@ -1,10 +1,10 @@
 ---
 title: channel
 description: Popolare la dimensione "Sezioni del sito".
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 24%

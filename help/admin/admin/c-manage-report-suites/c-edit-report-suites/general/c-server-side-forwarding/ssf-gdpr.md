@@ -1,17 +1,17 @@
 ---
 description: Vengono descritti i miglioramenti relativi all’inoltro lato server necessari in base al regolamento UE sulla conformità dei cookie.
-title: Conformità a RGPD/ePrivacy e inoltro lato server
-feature: Server-Side Forwarding
+title: Conformità a GDPR/ePrivacy e inoltro lato server
+feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 59%
 
 ---
 
-# Conformità a RGPD/ePrivacy e inoltro lato server
+# Conformità a GDPR/ePrivacy e inoltro lato server
 
 Questa sezione specifica i miglioramenti relativi all’inoltro lato server introdotti in base al [regolamento UE sulla conformità dei cookie](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies), entrato in vigore il 30 settembre 2017.
 

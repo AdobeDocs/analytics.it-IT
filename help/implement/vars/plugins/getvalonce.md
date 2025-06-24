@@ -1,10 +1,10 @@
 ---
 title: getValOnce
 description: Impedisci che una variabile Analytics venga impostata sullo stesso valore due volte di fila.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 {{plug-in}}
 
-Il plug-in `getValOnce` impedisce che una variabile venga impostata come uguale allo stesso valore più di una volta. L’Adobe consiglia di utilizzare questo plug-in quando desideri deduplicare le occorrenze in cui un visitatore aggiorna una pagina o visita in altro modo una determinata pagina più volte. Questo plug-in non è necessario se non sei preoccupato per la metrica &quot;Occorrenze&quot; in Analysis Workspace.
+Il plug-in `getValOnce` impedisce che una variabile venga impostata come uguale allo stesso valore più di una volta. Adobe consiglia di utilizzare questo plug-in quando desideri deduplicare le occorrenze in cui un visitatore aggiorna una pagina o visita in altro modo una determinata pagina più volte. Questo plug-in non è necessario se non sei preoccupato per la metrica &quot;Occorrenze&quot; in Analysis Workspace.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
@@ -34,7 +34,7 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 ## Installare manualmente il plug-in implementando Web SDK
 
-Questo plug-in non è ancora supportato per l’utilizzo in un’implementazione manuale dell’SDK per web.
+Questo plug-in non è ancora supportato per l&#39;utilizzo in un&#39;implementazione manuale del Web SDK.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -65,7 +65,7 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta Adobe a risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

@@ -2,21 +2,21 @@
 description: Creare una coorte ed eseguire un rapporto di analisi per coorte in Analysis Workspace.
 keywords: Analysis Workspace
 title: Esecuzione di un rapporto di analisi per coorte
-feature: Cohort Analysis
+feature: Visualizations
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 39%
+ht-degree: 42%
 
 ---
 
 # Configurare una tabella coorte
 
-Per creare e configurare [!UICONTROL Cohort table]:
+Per creare e configurare una [!UICONTROL Cohort table]:
 
-1. Aggiungi una visualizzazione ![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL Cohort table]**. Vedi [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Aggiungi una visualizzazione ![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL Cohort table]**. Consulta [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 1. Definisci **[!UICONTROL Inclusion Criteria]**, **[!UICONTROL Return Criteria]**, **[!UICONTROL Cohort Type]** e **[!UICONTROL Settings]** come definito nella tabella seguente.
 
@@ -57,8 +57,8 @@ Per creare e configurare [!UICONTROL Cohort table]:
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

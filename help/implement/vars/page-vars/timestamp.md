@@ -1,10 +1,10 @@
 ---
 title: timestamp
 description: Imposta manualmente la marca temporale dell’hit.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 9%
@@ -21,7 +21,7 @@ La variabile `timestamp` imposta manualmente la marca temporale dell&#39;hit per
 
 ## Marca temporale tramite Web SDK
 
-La marca temporale è [mappata per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=it) nel campo XDM `xdm.timestamp`. Questo campo supporta solo il tempo Unix.
+La marca temporale è [mappata per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) nel campo XDM `xdm.timestamp`. Questo campo supporta solo il tempo Unix.
 
 ## Marca temporale tramite l’estensione Adobe Analytics
 
@@ -53,7 +53,7 @@ Le date e le ore espresse in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 
 * Sono necessari ore e minuti; i secondi sono facoltativi ma consigliati.
 * Le date settimanali e le date ordinali non sono supportate.
 * La data può essere in formato standard o esteso. Ad esempio, `2024-01-01T00:00:00Z` e `20240101T000000Z` sono entrambi validi.
-* I minuti e i secondi frazionari sono tecnicamente validi, ma le frazioni vengono ignorate per Adobe.
+* I minuti e i secondi frazionari sono tecnicamente validi, ma le frazioni vengono ignorate da Adobe.
 * I fusi orari sono supportati nei formati standard ed estesi.
 
 Di seguito sono riportati esempi validi di valori ISO 8601 nella variabile `timestamp`:

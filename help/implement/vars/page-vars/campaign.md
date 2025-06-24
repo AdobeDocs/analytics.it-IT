@@ -1,10 +1,10 @@
 ---
 title: campaign
 description: Popolare la dimensione "Codice di tracciamento".
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 19%
@@ -13,11 +13,11 @@ ht-degree: 19%
 
 # campaign
 
-La variabile `campaign` è dedicata alla raccolta dei codici di tracciamento sul sito. Nelle versioni precedenti di Adobe Analytics, aveva un trattamento speciale in cui poteva essere utilizzato come raggruppamento per la maggior parte delle dimensioni. Nella versione corrente di Adobe Analytics, agisce come un eVar.
+La variabile `campaign` è dedicata alla raccolta dei codici di tracciamento sul sito. Nelle versioni precedenti di Adobe Analytics, aveva un trattamento speciale in cui poteva essere utilizzato come raggruppamento per la maggior parte delle dimensioni. Nella versione corrente di Adobe Analytics, agisce in modo identico a un eVar.
 
 Questa variabile popola la dimensione [Codice di tracciamento](/help/components/dimensions/tracking-code.md). In genere ottiene il valore da una stringa di query utilizzando il metodo di utilità [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md). Tuttavia, l’organizzazione determina esattamente come impostare questa variabile.
 
-## Campagna con l’SDK per web
+## Campagna tramite Web SDK
 
 Campaign è mappato alle seguenti variabili:
 
@@ -39,7 +39,7 @@ Puoi impostare campaign su un valore o su un parametro di stringa query.
 
 ## s.campaign in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-La variabile `s.campaign` è una stringa che in genere contiene un codice di tracciamento utilizzato nelle attività di marketing. La lunghezza massima è di 255 byte; i valori superiori a 255 byte vengono troncati automaticamente quando vengono inviati all&#39;Adobe.
+La variabile `s.campaign` è una stringa che in genere contiene un codice di tracciamento utilizzato nelle attività di marketing. La lunghezza massima è di 255 byte; i valori superiori a 255 byte vengono troncati automaticamente quando vengono inviati ad Adobe.
 
 ```js
 // Set the campaign variable to a static value

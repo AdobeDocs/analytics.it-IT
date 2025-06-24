@@ -1,10 +1,10 @@
 ---
 description: Nel calendario, puoi specificare date e intervalli di date o selezionare un predefinito.
 title: Panoramica del calendario e degli intervalli di date
-feature: Calendar
+feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 89%
@@ -28,7 +28,7 @@ Nel calendario, puoi specificare date e intervalli di date o selezionare un pred
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica sul calendario e sugli intervalli di date](https://video.tv.adobe.com/v/329875?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica sul calendario e sugli intervalli di date](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

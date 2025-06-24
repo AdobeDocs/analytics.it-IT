@@ -2,8 +2,8 @@
 title: Analizzare i dati interessati dagli eventi
 description: Scopri in che modo i dati interessati da un evento contribuiscono alla qualità complessiva dei dati.
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
-feature: Event
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+feature: Curate and Share
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%

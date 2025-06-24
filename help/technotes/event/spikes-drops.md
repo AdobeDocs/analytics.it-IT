@@ -2,8 +2,8 @@
 title: Risolvere i problemi relativi a picchi e cadute nei dati
 description: Scopri possibili motivi per cui puoi vedere aumenti o diminuzioni drastiche nei rapporti con tendenze.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-feature: Event, Data Configuration and Collection
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+feature: Curate and Share, Data Configuration and Collection
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -46,7 +46,7 @@ I picchi di traffico sono suddivisi in due sezioni: dati doppi e altre cause.
 
 ### Altre possibili cause di aumento del traffico
 
-* **Ragni o bot**: se vedi un forte aumento improvviso del traffico, la prima cosa da cercare è la possibilità di un ragno o di un bot. L’identificazione dei bot può a volte essere complessa, in quanto ciascuno di essi ha il proprio modo di eseguire il codice sul sito. Crea un rapporto di Data Warehouse utilizzando IP come dimensione per vedere quali indirizzi generano più traffico. Puoi quindi utilizzare [Regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) o una regola VISTA per eliminare il traffico da bot da rapporti futuri.
+* **Ragni o bot**: se vedi un forte aumento improvviso del traffico, la prima cosa da cercare è la possibilità di un ragno o di un bot. L’identificazione dei bot può a volte essere complessa, in quanto ciascuno di essi ha il proprio modo di eseguire il codice sul sito. Crea un rapporto Data Warehouse utilizzando IP come dimensione per vedere quali indirizzi generano più traffico. Puoi quindi utilizzare [Regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) o una regola VISTA per eliminare il traffico da bot da rapporti futuri.
 * **Campagne avviate**: le attività di marketing, come le campagne e-mail o l&#39;ottimizzazione dei motori di ricerca, possono causare un picco di traffico sul sito. Tendenza della dimensione [Codice di tracciamento](/help/components/dimensions/tracking-code.md) per ulteriori ricerche. Può anche essere utile contattare il team di marketing per verificare che il picco sia stato intenzionale.
 * **Cause ambientali o circostanziali**: se si è verificato un evento di vacanza o circostanziale (un evento significativo in cui il sito è una risorsa nota o le attività di marketing residue di altre organizzazioni), il traffico sul sito può aumentare. La risoluzione dei problemi relativi alla causa esatta è difficile, in quanto vi è un numero quasi illimitato di motivi circostanziali per cui il traffico può aumentare. Queste cause sono tuttavia tra le più importanti da determinare in modo che la tua organizzazione possa sfruttarle e prendere le decisioni aziendali di conseguenza. La tendenza della dimensione [Pagina](/help/components/dimensions/page.md) o [Referrer](/help/components/dimensions/referrer.md) è probabilmente il punto migliore da cui iniziare a determinare l&#39;origine del traffico.
 

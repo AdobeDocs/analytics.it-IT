@@ -1,10 +1,10 @@
 ---
 title: getTimeSinceLastVisit
 description: Misura il tempo trascorso tra due visite.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 role: Admin, Developer
-source-git-commit: 2b48ea372a5e0d8589f09d2209373bd4c47be578
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 8%
@@ -64,7 +64,7 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta Adobe a risolvere eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta Adobe a risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

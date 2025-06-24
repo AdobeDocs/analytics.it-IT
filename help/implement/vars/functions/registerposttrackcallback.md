@@ -1,10 +1,10 @@
 ---
 title: registerPostTrackCallback
-description: Crea funzioni di callback dopo aver inviato un hit all’Adobe.
-feature: Variables
+description: Crea funzioni di callback dopo aver inviato un hit ad Adobe.
+feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # registerPostTrackCallback
 
-La variabile `registerPostTrackCallback` consente all&#39;organizzazione di eseguire l&#39;hook di una funzione JavaScript immediatamente dopo l&#39;invio di un hit a Adobe. Se una chiamata di tracciamento non riesce, questa funzione non viene eseguita. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un partner o a un’infrastruttura interna, oppure per pulire i valori delle variabili nelle applicazioni a pagina singola.
+La variabile `registerPostTrackCallback` consente all&#39;organizzazione di eseguire l&#39;hook di una funzione JavaScript immediatamente dopo l&#39;invio di un hit ad Adobe. Se una chiamata di tracciamento non riesce, questa funzione non viene eseguita. Puoi utilizzare questa variabile per inviare i dati raccolti da AppMeasurement a un partner o a un’infrastruttura interna, oppure per pulire i valori delle variabili nelle applicazioni a pagina singola.
 
 >[!WARNING]
 >
@@ -25,13 +25,13 @@ Ogni volta che si chiama la variabile `registerPostTrackCallback`, la funzione v
 >
 >La tempistica e l&#39;ordine delle funzioni attivate tra [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` non sono garantiti. Evita le dipendenze tra queste due funzioni.
 
-## Tracciamento del callback con Post tramite l&#39;estensione Web SDK
+## Tracciare il callback utilizzando l&#39;estensione Web SDK
 
 In arrivo!
 
-## Post-track Callback implementando manualmente il Web SDK
+## Posttracciare il callback manualmente implementando il Web SDK
 
-Puoi utilizzare una promessa JavaScript quando invii un evento per registrare una funzione dopo che i dati sono stati inviati correttamente all’Adobe.
+Puoi utilizzare una promessa JavaScript quando invii un evento per registrare una funzione dopo che i dati sono stati inviati correttamente ad Adobe.
 
 ```js
 alloy("sendEvent",{
@@ -41,9 +41,9 @@ alloy("sendEvent",{
 });
 ```
 
-Per ulteriori informazioni, consulta [Gestione delle risposte dagli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it#handling-responses-from-events) nella documentazione di Web SDK.
+Per ulteriori informazioni, vedere [Gestione delle risposte dagli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) nella documentazione di Web SDK.
 
-## Registrare il callback di tracciamento di Post utilizzando l’estensione Adobe Analytics
+## Registrare il callback di post-tracciamento utilizzando l’estensione Adobe Analytics
 
 Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l’editor di codice personalizzato seguendo la sintassi di AppMeasurement.
 
@@ -76,7 +76,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## Caso d’uso
 
-La registrazione della funzione [`clearVars()`](clearvars.md) nel callback di post-tracciamento può essere utile per le applicazioni a pagina singola. Ogni volta che si invia un hit all&#39;Adobe, viene eseguita la funzione `clearVars()`. L’implementazione può quindi definire nuovamente le variabili senza preoccuparsi di valori persistenti in modo errato.
+La registrazione della funzione [`clearVars()`](clearvars.md) nel callback di post-tracciamento può essere utile per le applicazioni a pagina singola. Ogni volta che si invia correttamente un hit ad Adobe, viene eseguita la funzione `clearVars()`. L’implementazione può quindi definire nuovamente le variabili senza preoccuparsi di valori persistenti in modo errato.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});

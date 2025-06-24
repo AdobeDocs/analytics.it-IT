@@ -1,10 +1,10 @@
 ---
 title: registerPreTrackCallback
-description: Crea funzioni di callback prima di inviare un hit all’Adobe.
-feature: Variables
+description: Crea funzioni di callback prima di inviare un hit ad Adobe.
+feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 7%
@@ -25,9 +25,9 @@ Ogni volta che si chiama la variabile `registerPreTrackCallback`, la funzione vi
 >
 >La tempistica e l&#39;ordine delle funzioni attivate tra `registerPreTrackCallback` e `registerPostTrackCallback` non sono garantiti. Evita le dipendenze tra queste due funzioni.
 
-## Pre-tracciare il callback utilizzando l’estensione Web SDK
+## Pre-tracciare il callback utilizzando l&#39;estensione Web SDK
 
-L’SDK per web non può eseguire l’hook di una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati a Adobe. Tuttavia, è possibile utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell&#39;invio dei dati.
+Il Web SDK non può eseguire l&#39;hook di una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati ad Adobe. Tuttavia, è possibile utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell&#39;invio dei dati.
 
 1. Accedi all&#39;interfaccia utente di [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
@@ -37,7 +37,7 @@ L’SDK per web non può eseguire l’hook di una funzione dopo la compilazione 
 
 ## Pre-tracciare il callback manualmente implementando Web SDK
 
-L’SDK per web non può eseguire l’hook di una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati a Adobe. Tuttavia, è possibile utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell&#39;invio dei dati, in modo analogo a `doPlugins`. Per ulteriori informazioni, consulta [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it#modifying-events-globally) nella documentazione di Web SDK.
+Il Web SDK non può eseguire l&#39;hook di una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati ad Adobe. Tuttavia, è possibile utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell&#39;invio dei dati, in modo analogo a `doPlugins`. Per ulteriori informazioni, vedere [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) nella documentazione di Web SDK.
 
 ```js
 // Set the trackingCode XDM field to "New value"

@@ -1,10 +1,10 @@
 ---
 title: products
 description: Invia dati sui prodotti visualizzati o nel carrello.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # products
 
-La variabile `products` tiene traccia dei prodotti e delle proprietà ad essi associate. Questa variabile viene generalmente impostata su pagine di singoli prodotti, pagine del carrello acquisti e pagine di conferma degli acquisti. È una variabile con più valori, il che significa che puoi inviare più prodotti nello stesso hit e che l’Adobe analizza il valore in elementi dimensionali separati.
+La variabile `products` tiene traccia dei prodotti e delle proprietà ad essi associate. Questa variabile viene generalmente impostata su pagine di singoli prodotti, pagine del carrello acquisti e pagine di conferma degli acquisti. È una variabile con più valori, il che significa che puoi inviare più prodotti nello stesso hit e Adobe analizza il valore in elementi dimensionali separati.
 
 >[!NOTE]
 >
@@ -23,11 +23,11 @@ La variabile `products` tiene traccia dei prodotti e delle proprietà ad essi as
 
 Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), i prodotti sono mappati alle seguenti variabili:
 
-* Categoria mappata a `xdm.productListItems[].productCategories[].categoryID`. Utilizza il primo elemento nell&#39;array `productCategories[]`. Anche `lineItemId` è mappato correttamente, ma l&#39;Adobe consiglia `categoryID` poiché è un XDM standard. Se sono presenti entrambi i campi XDM, `lineItemId` ha la precedenza.
+* Categoria mappata a `xdm.productListItems[].productCategories[].categoryID`. Utilizza il primo elemento nell&#39;array `productCategories[]`. Anche `lineItemId` è mappato correttamente, ma Adobe consiglia `categoryID` poiché è un XDM standard. Se sono presenti entrambi i campi XDM, `lineItemId` ha la precedenza.
 * Prodotto mappato a `xdm.productListItems[].SKU` o `xdm.productListItems[].name`. Se sono presenti entrambi i campi XDM, viene utilizzato `xdm.productListItems[].SKU`.
 * Quantità mappata a `xdm.productListItems[].quantity`.
 * Prezzo mappato a `xdm.productListItems[].priceTotal`.
-* Le eVar di merchandising sono mappate su `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, a seconda dell&#39;eVar che desideri associare a un prodotto.
+* Le eVar di merchandising sono mappate su `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, a seconda di quale eVar desideri associare a un prodotto.
 * Gli eventi di merchandising sono mappati su `xdm.productListItems[]._experience.analytics.event1to100.event1.value` a `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, a seconda dell&#39;evento che si desidera associare a un prodotto. Se imposti un evento in uno di questi campi, questo viene automaticamente incluso nella stringa [event](events/events-overview.md) inviata ad Adobe Analytics.
 
 ```json
@@ -103,11 +103,11 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->Elimina tutti i punti e virgola, le virgole e le barre verticali dai nomi dei prodotti, dalle categorie e dai valori degli eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement lo analizza come inizio di un nuovo prodotto. Questa analisi errata elimina il resto della stringa di prodotto, causando dati errati nelle dimensioni e nei rapporti.
+>Elimina tutti i punti e virgola, le virgole e le barre verticali dai nomi dei prodotti, dalle categorie e dai valori eVar di merchandising. Se il nome di un prodotto include una virgola, AppMeasurement lo analizza come inizio di un nuovo prodotto. Questa analisi errata elimina il resto della stringa di prodotto, causando dati errati nelle dimensioni e nei rapporti.
 
 ## Esempi
 
-La variabile `products` è flessibile quando si omettono campi e si includono più prodotti. Questa flessibilità può semplificare la perdita di un delimitatore, causando l’invio di dati errati all’Adobe da parte dell’implementazione.
+La variabile `products` è flessibile quando si omettono campi e si includono più prodotti. Questa flessibilità può semplificare la perdita di un delimitatore, causando l’invio di dati errati ad Adobe da parte dell’implementazione.
 
 ```js
 // Include only product and category. Common on individual product pages

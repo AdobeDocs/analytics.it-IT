@@ -1,10 +1,10 @@
 ---
 title: linkLeaveQueryString
 description: Consente di mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # linkLeaveQueryString
 
-Per impostazione predefinita, l’AppMeasurement elimina le stringhe di query dagli URL di tracciamento dei collegamenti. Utilizza la variabile `linkLeaveQueryString` per mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
+Per impostazione predefinita, AppMeasurement elimina le stringhe di query dagli URL di tracciamento dei collegamenti. Utilizza la variabile `linkLeaveQueryString` per mantenere le stringhe di query nelle dimensioni di tracciamento dei collegamenti.
 
 Per alcuni collegamenti di uscita e di download, la parte importante dell’URL può trovarsi nella stringa di query. Ad esempio, un collegamento di download come `https://example.com/download.asp?filename=myfile.exe` contiene informazioni importanti sul collegamento nella stringa di query.
 

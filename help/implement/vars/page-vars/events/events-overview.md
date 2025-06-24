@@ -1,10 +1,10 @@
 ---
 title: events
 description: Imposta la variabile degli eventi, che governa la maggior parte delle metriche sul sito.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 # events
 
-I Dimension e le metriche sono componenti vitali per i rapporti. La variabile `events` è responsabile della raccolta dei dati di molte metriche sul sito. In genere, gli eventi incrementano [metriche](/help/components/metrics/overview.md) nei rapporti.
+Dimensioni e metriche sono componenti vitali per i rapporti. La variabile `events` è responsabile della raccolta dei dati di molte metriche sul sito. In genere, gli eventi incrementano [metriche](/help/components/metrics/overview.md) nei rapporti.
 
 Prima di implementare gli eventi, assicurati di crearli e configurarli in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti. Se prevedi di utilizzare eventi personalizzati negli hit di tracciamento dei collegamenti, assicurati che [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) siano impostati correttamente.
 
@@ -62,7 +62,7 @@ Sono disponibili diverse funzioni:
 
 La variabile `s.events` è una stringa che contiene un elenco delimitato da virgole di eventi da includere nell&#39;hit. La variabile consente fino a 64.000 byte, consentendo in modo efficace il numero di eventi necessario per un hit. I valori validi includono:
 
-* `event1` - `event1000`: eventi personalizzati, impostati come desiderato. Registra come utilizzi ogni evento nel [documento di progettazione della soluzione](../../../prepare/solution-design.md) della tua organizzazione. Il numero di eventi disponibili dipende dal contratto Analytics della tua organizzazione. La maggior parte delle organizzazioni con contratti non legacy dispone di 1000 eventi personalizzati. Se non sai quanti eventi personalizzati sono disponibili, contatta il tuo account team di Adobi.
+* `event1` - `event1000`: eventi personalizzati, impostati come desiderato. Registra come utilizzi ogni evento nel [documento di progettazione della soluzione](../../../prepare/solution-design.md) della tua organizzazione. Il numero di eventi disponibili dipende dal contratto Analytics della tua organizzazione. La maggior parte delle organizzazioni con contratti non legacy dispone di 1000 eventi personalizzati. Se non sai quanti eventi personalizzati sono disponibili, contatta il tuo Adobe Account Team.
 * `purchase`: incrementa di 1 la metrica [&#39;Orders&#39;](/help/components/metrics/orders.md) e considera i valori impostati nella variabile `products` per calcolare [&#39;Units&#39;](/help/components/metrics/units.md) e [&#39;Revenue&#39;](/help/components/metrics/revenue.md). Per ulteriori informazioni, consulta [evento di acquisto](event-purchase.md).
 * `prodView`: incrementa la metrica [&#39;Visualizzazioni prodotto&#39;](/help/components/metrics/product-views.md).
 * `scOpen`: incrementa la metrica [&#39;Carrelli&#39;](/help/components/metrics/carts.md).

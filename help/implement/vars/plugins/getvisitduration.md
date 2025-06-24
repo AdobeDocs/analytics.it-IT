@@ -1,21 +1,21 @@
 ---
 title: getVisitDuration
 description: Monitora il periodo di tempo in cui un visitatore è stato finora sul sito.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 9%
 
 ---
 
-# Plug-in di Adobe: getVisitDuration
+# Plug-in Adobe: getVisitDuration
 
 {{plug-in}}
 
-Il plug-in `getVisitDuration` tiene traccia del tempo in minuti in cui il visitatore è stato sul sito fino a quel momento. L’Adobe consiglia di utilizzare questo plug-in se desideri tenere traccia del tempo cumulativo sul sito fino a quel momento o per tenere traccia del tempo necessario per eseguire un’attività. Questo plug-in non tiene traccia del tempo tra gli eventi. Se si desidera utilizzare questa funzionalità, utilizzare il plug-in [`getTimeBetweenEvents`](gettimebetweenevents.md).
+Il plug-in `getVisitDuration` tiene traccia del tempo in minuti in cui il visitatore è stato sul sito fino a quel momento. Adobe consiglia di utilizzare questo plug-in se desideri tenere traccia del tempo cumulativo sul sito fino a quel momento o per tenere traccia del tempo necessario per eseguire un’attività. Questo plug-in non tiene traccia del tempo tra gli eventi. Se si desidera utilizzare questa funzionalità, utilizzare il plug-in [`getTimeBetweenEvents`](gettimebetweenevents.md).
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
@@ -33,7 +33,7 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 ## Installare manualmente il plug-in implementando Web SDK
 
-Questo plug-in non è ancora supportato per l’utilizzo in un’implementazione manuale dell’SDK per web.
+Questo plug-in non è ancora supportato per l&#39;utilizzo in un&#39;implementazione manuale del Web SDK.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -64,7 +64,7 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta Adobe a risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

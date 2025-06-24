@@ -1,10 +1,10 @@
 ---
 title: tl
 description: Invia una chiamata di tracciamento dei collegamenti ad Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 6%
@@ -13,13 +13,13 @@ ht-degree: 6%
 
 # tl
 
-Il metodo `tl()` è un importante componente di base di Adobe Analytics. Prende tutte le variabili di Analytics definite sulla pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe. Funziona in modo simile al metodo [`t()`](t-method.md), tuttavia questo metodo non incrementa le visualizzazioni di pagina. È utile per tenere traccia dei collegamenti e di altri elementi che non verrebbero considerati come caricamento di pagina completo.
+Il metodo `tl()` è un importante componente di base di Adobe Analytics. Prende tutte le variabili Analytics definite sulla pagina, le compila in una richiesta di immagine e invia tali dati ai server di raccolta dati di Adobe. Funziona in modo simile al metodo [`t()`](t-method.md), tuttavia questo metodo non incrementa le visualizzazioni di pagina. È utile per tenere traccia dei collegamenti e di altri elementi che non verrebbero considerati come caricamento di pagina completo.
 
 Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) sono abilitati, AppMeasurement chiama automaticamente il metodo `tl()` per inviare i dati di tracciamento del collegamento di download e di uscita. Se la tua organizzazione preferisce avere un maggiore controllo sui collegamenti da tracciare e sul loro comportamento, puoi chiamare manualmente il metodo `tl()`. I collegamenti personalizzati possono essere tracciati solo manualmente.
 
 ## Tracciamento dei collegamenti tramite Web SDK
 
-L&#39;SDK Web non distingue tra chiamate di visualizzazione pagina e chiamate di tracciamento dei collegamenti; entrambe utilizzano il comando `sendEvent`.
+Il Web SDK non distingue tra chiamate di visualizzazione pagina e chiamate di tracciamento dei collegamenti; entrambe utilizzano il comando `sendEvent`.
 
 Se utilizzi un oggetto XDM e vuoi che Adobe Analytics conti un dato evento come chiamata di tracciamento dei collegamenti, assicurati che i dati XDM includano:
 
@@ -76,7 +76,7 @@ Non è possibile impostare argomenti facoltativi nell’estensione Analytics.
 
 ## Metodo s.tl() in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Chiamare il metodo `s.tl()` quando si desidera inviare una chiamata di tracciamento a Adobe.
+Chiamare il metodo `s.tl()` quando si desidera inviare una chiamata di tracciamento ad Adobe.
 
 ```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
@@ -90,7 +90,7 @@ L&#39;argomento oggetto link determina se il browser attende fino a 500 ms prima
 >
 >AppMeasurement abilita automaticamente la variabile [`useBeacon`](../config-vars/usebeacon.md) per i collegamenti di uscita, rendendo questo argomento non più necessario nei browser moderni. Questo argomento è stato utilizzato più comunemente nelle versioni precedenti di AppMeasurement.
 
-* `this`: attendere fino a 500 ms per dare all&#39;AppMeasurement il tempo di inviare una richiesta di immagine. Valore predefinito.
+* `this`: attendi fino a 500 ms per consentire ad AppMeasurement di inviare una richiesta di immagine. Valore predefinito.
 * `true`: Non attendere.
 
 ```JavaScript
@@ -175,7 +175,7 @@ Puoi quindi chiamare la funzione ogni volta che desideri tenere traccia di un de
 ```
 
 >[!NOTE]
->Una chiamata indiretta al metodo `tl()` può rendere meno pratico il reporting di sovrapposizione Activity Map. È necessario fare clic su ogni collegamento per registrare la funzione con l&#39;elemento link. Tuttavia, le dimensioni Activity Map in Workspace vengono tracciate allo stesso modo.
+>Una chiamata indiretta al metodo `tl()` può rendere meno pratico il reporting di sovrapposizione di Activity Map. È necessario fare clic su ogni collegamento per registrare la funzione con l&#39;elemento link. Tuttavia, le dimensioni di Activity Map in Workspace vengono tracciate allo stesso modo.
 
 ### Evita il tracciamento dei collegamenti duplicati
 
@@ -200,17 +200,17 @@ function linkCode(obj) {
 }
 ```
 
-### Usa il metodo `tl()` con Activity Map
+### Utilizzare il metodo `tl()` con Activity Map
 
 È possibile utilizzare il metodo `tl()` per tenere traccia degli elementi personalizzati e configurare il rendering della sovrapposizione per il contenuto dinamico. Il parametro `linkName` viene utilizzato anche per impostare la dimensione [Activity Map Link](/help/components/dimensions/activity-map-link.md).
 
-Quando il metodo `tl()` viene chiamato direttamente dall&#39;evento al clic dell&#39;elemento HTML, l&#39;Activity Map può visualizzare una sovrapposizione per tale elemento al caricamento della pagina Web. Ad esempio:
+Quando il metodo `tl()` viene chiamato direttamente dall&#39;evento al clic dell&#39;elemento HTML, Activity Map può visualizzare una sovrapposizione per tale elemento al caricamento della pagina Web. Ad esempio:
 
 ```html
 <a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
 ```
 
-Quando il metodo `tl()` non viene chiamato direttamente dall&#39;evento al clic dell&#39;elemento HTML, l&#39;Activity Map può visualizzare una sovrapposizione solo dopo aver fatto clic su tale elemento. Ad esempio:
+Quando il metodo `tl()` non viene chiamato direttamente dall&#39;evento al clic dell&#39;elemento HTML, Activity Map può visualizzare una sovrapposizione solo dopo aver fatto clic su tale elemento. Ad esempio:
 
 ```html
 <a href="index.html" onclick="someFn(event);">Example link text</a>

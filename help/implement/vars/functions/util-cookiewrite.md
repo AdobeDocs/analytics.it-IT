@@ -1,10 +1,10 @@
 ---
 title: Util.cookieWrite
 description: Scrive un valore per un cookie.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%

@@ -1,10 +1,10 @@
 ---
 title: doPlugins
-description: Configura la logica immediatamente prima che un hit venga compilato e inviato all’Adobe.
-feature: Variables
+description: Configura la logica immediatamente prima che un hit venga compilato e inviato ad Adobe.
+feature: Appmeasurement Implementation
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 15%
@@ -13,16 +13,16 @@ ht-degree: 15%
 
 # doPlugins
 
-La variabile `doPlugins` funge da &quot;ultima chiamata&quot; per impostare i valori nell&#39;implementazione. È il luogo ideale per effettuare chiamate ai [metodi plug-in](../plugins/impl-plugins.md) e impostare le variabili desiderate prima di inviare una richiesta di immagine. Se [`usePlugins`](../config-vars/useplugins.md) è abilitato, viene eseguito automaticamente immediatamente prima che qualsiasi tipo di richiesta di immagine venga compilata e inviata all&#39;Adobe, inclusi:
+La variabile `doPlugins` funge da &quot;ultima chiamata&quot; per impostare i valori nell&#39;implementazione. È il luogo ideale per effettuare chiamate ai [metodi plug-in](../plugins/impl-plugins.md) e impostare le variabili desiderate prima di inviare una richiesta di immagine. Se [`usePlugins`](../config-vars/useplugins.md) è abilitato, viene eseguito automaticamente immediatamente prima che qualsiasi tipo di richiesta di immagine venga compilata e inviata ad Adobe, inclusi:
 
 * Tutte le chiamate di visualizzazione pagina ([`t()`](t-method.md))
 * Tutte le chiamate di tracciamento dei collegamenti ([`tl()`](tl-method.md)), inclusi i collegamenti di download automatici e di uscita
 
-Utilizza la variabile `doPlugins` per richiamare il codice del plug-in e impostare i valori finali della variabile subito prima che una richiesta di immagine venga compilata e inviata all&#39;Adobe.
+Utilizza la variabile `doPlugins` per richiamare il codice del plug-in e impostare i valori finali della variabile subito prima che una richiesta di immagine venga compilata e inviata ad Adobe.
 
-## Utilizzare il codice di callback On Before Event Send utilizzando l&#39;estensione Web SDK
+## Utilizzare il codice di callback On Before Event Send tramite l&#39;estensione Web SDK
 
-Anziché `doPlugins`, Web SDK utilizza `onBeforeEventSend` con funzionalità simili.
+Anziché `doPlugins`, il Web SDK utilizza `onBeforeEventSend` con funzionalità simili.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
@@ -30,9 +30,9 @@ Anziché `doPlugins`, Web SDK utilizza `onBeforeEventSend` con funzionalità sim
 1. In [!UICONTROL Data Collection] fare clic sul pulsante **[!UICONTROL Edit on before event send callback code]**.
 1. Inserisci il codice desiderato nell’editor.
 
-## Utilizza `onBeforeEventSend` implementando manualmente Web SDK
+## Utilizza `onBeforeEventSend` implementando manualmente il Web SDK
 
-Anziché `doPlugins`, Web SDK utilizza `onBeforeEventSend` con funzionalità simili. Per ulteriori informazioni, consulta [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it#modifying-events-globally) nella documentazione di Web SDK.
+Anziché `doPlugins`, il Web SDK utilizza `onBeforeEventSend` con funzionalità simili. Per ulteriori informazioni, vedere [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) nella documentazione di Web SDK.
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -47,7 +47,7 @@ alloy("configure", {
 
 Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizzare questa variabile. Utilizza l’editor di codice personalizzato seguendo la sintassi di AppMeasurement.
 
-## s.doPlugins nell’AppMeasurement e nel codice personalizzato
+## s.doPlugins in AppMeasurement e codice personalizzato
 
 Impostare la variabile `s.doPlugins` su una funzione contenente il codice desiderato. La funzione viene eseguita automaticamente quando si effettua una chiamata di tracciamento.
 
@@ -75,4 +75,4 @@ s.doPlugins = function() {
 
 >[!NOTE]
 >
->Le versioni precedenti dell&#39;AppMeasurement avevano un codice `doPlugins()` leggermente diverso. L’Adobe consiglia di utilizzare il formato di cui sopra come best practice.
+>Le versioni precedenti di AppMeasurement avevano un codice `doPlugins()` leggermente diverso. Adobe consiglia di utilizzare il formato di cui sopra come best practice.

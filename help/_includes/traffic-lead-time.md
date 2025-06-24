@@ -1,9 +1,9 @@
 ---
 description: Adobe richiede un preavviso per la configurazione di nuovi account, per i picchi e gli aumenti di traffico. L’hardware deve essere assegnato in anticipo per ridurre al minimo la latenza e gli eventuali impatti negativi sull’intero sistema.
 title: Lead time richiesto per aumento di traffico
-feature: Traffic Management
+feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 726e5ee71be60838e48bb682d7fd48bfc1f96ec3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%

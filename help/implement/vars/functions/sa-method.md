@@ -1,10 +1,10 @@
 ---
 title: sa
 description: Modifica la suite di rapporti in qualsiasi momento nell’implementazione.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 8%
@@ -17,7 +17,7 @@ Il metodo `sa()` consente di modificare dinamicamente una suite di rapporti in q
 
 ## Gestione delle suite di rapporti tramite Web SDK
 
-L’SDK per web funziona inviando dati a uno stream di dati specifico, che inoltra i dati alle suite di rapporti di Analytics desiderate. Un singolo stream di dati può inoltrare i dati a più suite di rapporti. Questa sezione si applica sia all’estensione Web SDK che all’implementazione manuale di Web SDK.
+Il Web SDK funziona inviando dati a uno specifico stream di dati, che inoltra i dati alle suite di rapporti di Analytics desiderate. Un singolo stream di dati può inoltrare i dati a più suite di rapporti. Questa sezione si applica sia all’estensione Web SDK che all’implementazione manuale di Web SDK.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fare clic su **[!UICONTROL Datastreams]** a sinistra.
@@ -28,7 +28,7 @@ L’SDK per web funziona inviando dati a uno stream di dati specifico, che inolt
 
 ## Impostare lo stream di dati desiderato utilizzando l’estensione Web SDK
 
-L’estensione Web SDK fornisce un elenco a discesa Flusso di dati per ogni ambiente. In alternativa, è possibile immettere manualmente l’ID dello stream di dati.
+L’estensione Web SDK fornisce un elenco a discesa Datastream per ogni ambiente. In alternativa, è possibile immettere manualmente l’ID dello stream di dati.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
@@ -47,7 +47,7 @@ alloy("configure", {
 });
 ```
 
-Per ulteriori informazioni, consulta [Configurare Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it) nella documentazione di Web SDK.
+Per ulteriori informazioni, vedere [Configurare Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it) nella documentazione di Web SDK.
 
 ## Modificare la suite di rapporti tramite l’estensione Adobe Analytics
 

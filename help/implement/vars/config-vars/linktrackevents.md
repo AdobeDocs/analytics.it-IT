@@ -1,10 +1,10 @@
 ---
 title: linkTrackEvents
 description: Determina quali eventi includere nelle richieste di immagini per il tracciamento dei collegamenti.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 2%
@@ -17,9 +17,9 @@ Alcune implementazioni non desiderano includere tutte le variabili in tutte le r
 
 Questa variabile non viene utilizzata per le chiamate di visualizzazione pagina (metodo [`t()`](../functions/t-method.md)).
 
-## Determinare quali eventi di Analytics includere in un evento XDM utilizzando l’SDK per web
+## Determinare quali eventi di Analytics includere in un evento XDM utilizzando il Web SDK
 
-L’SDK per web non esclude alcuni campi per le chiamate di tracciamento dei collegamenti. Tuttavia, è possibile utilizzare il callback `onBeforeEventSend` per cancellare o impostare i campi desiderati prima che i dati vengano inviati ad Adobe. Per ulteriori informazioni, consulta [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it#modifying-events-globally) nella documentazione di Web SDK.
+Il Web SDK non esclude alcuni campi per le chiamate di tracciamento dei collegamenti. Tuttavia, è possibile utilizzare il callback `onBeforeEventSend` per cancellare o impostare i campi desiderati prima che i dati vengano inviati ad Adobe. Per ulteriori informazioni, vedere [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) nella documentazione di Web SDK.
 
 ## Eventi nelle chiamate di tracciamento dei collegamenti tramite l’estensione Adobe Analytics
 
@@ -29,13 +29,13 @@ Se non utilizzi un codice personalizzato, Adobe Experience Platform include auto
 >
 >Se si impostano gli eventi nell&#39;editor di codice personalizzato dell&#39;estensione Analytics, è necessario includere l&#39;evento anche in `linkTrackEvents` utilizzando il codice personalizzato.
 
-## s.linkTrackEvents in AppMeasurement e l’editor di codice personalizzato dell’estensione Analytics
+## s.linkTrackEvents in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
 La variabile `s.linkTrackEvents` è una stringa contenente un elenco delimitato da virgole di eventi da includere nelle richieste di immagini di tracciamento dei collegamenti (metodo `tl()`). Per includere le metriche negli hit di tracciamento dei collegamenti è necessario soddisfare i tre criteri seguenti:
 
-* Impostare l&#39;evento desiderato nella variabile [`events`](../page-vars/events/events-overview.md). Esempio: `s.events = "event1";`.
-* Imposta la variabile `events` in `linkTrackVars`. Esempio: `s.linkTrackVars = "events";`.
-* Impostare l&#39;evento desiderato nella variabile `linkTrackEvents`. Esempio: `s.linkTrackEvents = "event1";`.
+* Impostare l&#39;evento desiderato nella variabile [`events`](../page-vars/events/events-overview.md). Ad esempio: `s.events = "event1";`.
+* Imposta la variabile `events` in `linkTrackVars`. Ad esempio: `s.linkTrackVars = "events";`.
+* Impostare l&#39;evento desiderato nella variabile `linkTrackEvents`. Ad esempio: `s.linkTrackEvents = "event1";`.
 
 ```js
 s.linkTrackEvents = "event1,event2,event3,purchase";
@@ -49,7 +49,7 @@ Il valore predefinito per questa variabile è una stringa vuota. Se questa varia
 
 ## Esempio
 
-La funzione di tracciamento dei collegamenti seguente include solo `event1` (non `event2`) nella richiesta di immagine inviata all&#39;Adobe:
+La funzione di tracciamento dei collegamenti seguente include solo `event1` (non `event2`) nella richiesta di immagine inviata ad Adobe:
 
 ```js
 s.events = "event1,event2";

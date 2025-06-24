@@ -1,10 +1,10 @@
 ---
 title: pageName
 description: Il nome della pagina sul sito.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 23%
@@ -19,9 +19,9 @@ Se questa variabile non è definita in una determinata chiamata di tracciamento 
 
 >[!NOTE]
 >
->Adobe di server di raccolta dati che eliminano questa dimensione da tutte le [richieste di immagini di tracciamento dei collegamenti](/help/implement/vars/functions/tl-method.md). Se desideri che questa dimensione venga visualizzata negli hit di tracciamento dei collegamenti, prova a copiarla in un [eVar](evar.md).
+>I server di raccolta dati di Adobe eliminano questa dimensione da tutte le [richieste di immagini di tracciamento dei collegamenti](/help/implement/vars/functions/tl-method.md). Se desideri che questa dimensione venga visualizzata negli hit di tracciamento dei collegamenti, prova a copiarla in un [eVar](evar.md).
 
-## Nome pagina utilizzando il Web SDK
+## Nome della pagina utilizzando il Web SDK
 
 Il nome della pagina è mappato alle seguenti variabili:
 

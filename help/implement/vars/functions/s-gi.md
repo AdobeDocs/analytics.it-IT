@@ -1,10 +1,10 @@
 ---
 title: s_gi()
 description: Crea e tieni traccia delle istanze di AppMeasurement.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 10%
@@ -13,20 +13,20 @@ ht-degree: 10%
 
 # s_gi
 
-La funzione `s_gi()` crea un&#39;istanza o trova un&#39;istanza di AppMeasurement in base all&#39;ID suite di rapporti. AppMeasurement tiene traccia di ogni istanza creata e `s_gi()` restituisce l&#39;istanza esistente per una suite di rapporti, se ne esiste una. Se non esiste alcuna istanza, viene creata una nuova istanza.
+La funzione `s_gi()` crea un&#39;istanza di AppMeasurement o la trova in base all&#39;ID suite di rapporti. AppMeasurement tiene traccia di ogni istanza creata e `s_gi()` restituisce l&#39;istanza esistente per una suite di rapporti, se ne esiste una. Se non esiste alcuna istanza, viene creata una nuova istanza.
 
-## Creare un’istanza di un oggetto di tracciamento utilizzando l’estensione Web SDK
+## Creare un&#39;istanza di un oggetto di tracciamento utilizzando l&#39;estensione Web SDK
 
-L&#39;estensione Web SDK crea un&#39;istanza e gestisce l&#39;oggetto di tracciamento automaticamente. Tuttavia, puoi personalizzare il nome dell’oggetto di tracciamento nelle impostazioni dell’estensione:
+L&#39;estensione Web SDK crea e gestisce automaticamente l&#39;oggetto di tracciamento. Tuttavia, puoi personalizzare il nome dell’oggetto di tracciamento nelle impostazioni dell’estensione:
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
-1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Experience Platform Web SDK.
+1. Passare alla scheda [!UICONTROL Extensions], quindi fare clic sul pulsante **[!UICONTROL Configure]** in Adobe Experience Platform Web SDK.
 1. Modificare il campo [!UICONTROL Name] nel valore desiderato. Il valore predefinito è `alloy`.
 
-## Creare un’istanza di un oggetto di tracciamento implementando manualmente l’SDK per web
+## Creare un&#39;istanza di un oggetto di tracciamento implementando manualmente il Web SDK
 
-Il codice seguente carica l&#39;SDK Web e crea un&#39;istanza di un oggetto di tracciamento. È possibile personalizzare il nome dell&#39;oggetto di tracciamento modificando la stringa `"alloy"` alla fine dello script in linea con il valore desiderato.
+Il codice seguente carica il Web SDK e crea un&#39;istanza di un oggetto di tracciamento. È possibile personalizzare il nome dell&#39;oggetto di tracciamento modificando la stringa `"alloy"` alla fine dello script in linea con il valore desiderato.
 
 ```js
 <script>
@@ -38,7 +38,7 @@ Il codice seguente carica l&#39;SDK Web e crea un&#39;istanza di un oggetto di t
 <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
 ```
 
-Per ulteriori informazioni, consulta [Installare l&#39;SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it) nella documentazione dell&#39;SDK Web.
+Per ulteriori informazioni, vedere [Installare SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it) nella documentazione di Web SDK.
 
 ## Creare un’istanza di un oggetto di tracciamento utilizzando l’estensione Adobe Analytics
 

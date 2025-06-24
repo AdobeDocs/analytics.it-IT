@@ -1,10 +1,10 @@
 ---
 title: Debugger legacy di Adobe Experience Cloud
-description: Installa il debugger legacy di Adobe Experience Cloud. Questo debugger analizza i tag di Analytics, Target, Advertising Cloud, Identity Service e Data Collection.
-feature: Validation
+description: Installa il debugger legacy di Adobe Experience Cloud. Questo debugger esamina i tag per Analytics, Target, Advertising Cloud, Identity Service e Data Collection.
+feature: Implementation Basics
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo strumento di debug non viene più mantenuto. L&#39;Adobe consiglia invece di utilizzare l&#39;estensione [Adobe Experience Cloud Debugger Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it).
+>Questo strumento di debug non viene più mantenuto. Adobe consiglia invece di utilizzare l&#39;estensione [Adobe Experience Cloud Debugger Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it).
 
-[!UICONTROL Legacy Debugger] esamina i tag per la maggior parte dei servizi Adobe Experience Cloud. L’utilizzo del debugger consente di visualizzare quali dati vengono inviati agli Adobi in una determinata pagina del sito. Puoi utilizzare queste informazioni per risolvere eventuali problemi o convalidare l’implementazione dell’organizzazione.
+[!UICONTROL Legacy Debugger] esamina i tag per la maggior parte dei servizi Adobe Experience Cloud. L’utilizzo del debugger consente di visualizzare quali dati vengono inviati ad Adobe in una determinata pagina del sito. Puoi utilizzare queste informazioni per risolvere eventuali problemi o convalidare l’implementazione dell’organizzazione.
 
 ## Installazione del debugger legacy
 
@@ -72,7 +72,7 @@ Safari non può creare manualmente un bookmarklet, ma un URL di segnalibro può 
 
 ## Utilizzo del debugger legacy
 
-Passa alla pagina desiderata del sito, quindi fai clic sul bookmarklet. Viene visualizzata una finestra pop-up con i dati inviati all&#39;Adobe.
+Passa alla pagina desiderata del sito, quindi fai clic sul bookmarklet. Viene visualizzata una finestra pop-up che mostra i dati inviati ad Adobe.
 
 >[!NOTE]
 >
@@ -80,9 +80,9 @@ Passa alla pagina desiderata del sito, quindi fai clic sul bookmarklet. Viene vi
 
 Il debugger dispone di diverse opzioni disponibili, tutte che personalizzano la modalità di visualizzazione dei dati. Nessuna di queste opzioni influisce sulla raccolta dei dati.
 
-* **Prodotti di Experience Cloud visualizzati:** mostra o nasconde le richieste di immagini per ciascun prodotto di Experience Cloud.
-* **Decodifica URL:** L&#39;URL decodifica la richiesta di immagine in modo che corrisponda a quanto visualizzato nel reporting. L’Adobe consiglia di lasciare selezionata questa casella.
+* **Prodotti Experience Cloud visualizzati:** mostra o nasconde le richieste di immagini per ciascun prodotto Experience Cloud.
+* **Decodifica URL:** L&#39;URL decodifica la richiesta di immagine in modo che corrisponda a quanto visualizzato nel reporting. Adobe consiglia di lasciare selezionata questa casella.
 * **Aggiornamento automatico:** aggiorna automaticamente il popup ogni pochi secondi per verificare la presenza di altre richieste di immagini nella pagina. Se devi copiare/incollare il contenuto nel debugger, disattiva l’aggiornamento automatico in modo che la selezione rimanga invariata.
 * **Formato descrittivo:** Attiva o disattiva il formato di visualizzazione tra le etichette utili e le stringhe di query non elaborate in una richiesta di immagine. Per ulteriori informazioni, vedere [Parametri query raccolta dati](query-parameters.md).
 
-Per salvare le opzioni di visualizzazione predefinite per il debugger, fai clic con il pulsante destro del mouse sul collegamento &#39;Adobe Debugger&#39; nell&#39;angolo in alto a destra, quindi copia l&#39;indirizzo del collegamento. Modifica il bookmarklet di debugger corrente e incolla lo snippet di codice aggiornato nel campo URL.
+Per salvare le opzioni di visualizzazione predefinite per il debugger, fai clic con il pulsante destro del mouse sul collegamento &quot;Adobe Debugger&quot; nell’angolo in alto a destra, quindi copia l’indirizzo del collegamento. Modifica il bookmarklet di debugger corrente e incolla lo snippet di codice aggiornato nel campo URL.

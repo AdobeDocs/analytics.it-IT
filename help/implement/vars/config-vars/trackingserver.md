@@ -1,10 +1,10 @@
 ---
 title: trackingServer
 description: Determina la posizione in cui vengono inviate le richieste di immagini.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 9%
@@ -28,15 +28,15 @@ Web SDK utilizza [!UICONTROL Edge domain] per gestire sia il server di tracciame
 1. Passa alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
 1. Imposta il campo di testo **[!UICONTROL Edge domain]** desiderato.
 
-Per ulteriori informazioni, consulta [Configurare l&#39;estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=it) nella documentazione di Web SDK.
+Per ulteriori informazioni, vedere [Configurare l&#39;estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=it) nella documentazione di Web SDK.
 
 >[!TIP]
 >
->Se l&#39;organizzazione passa a Web SDK da un&#39;implementazione di AppMeasurement o estensione Analytics, questo campo può utilizzare lo stesso valore contenuto in `trackingServerSecure` (o `trackingServer`).
+>Se l&#39;organizzazione passa al Web SDK da un&#39;implementazione di AppMeasurement o Analytics, questo campo può utilizzare lo stesso valore contenuto in `trackingServerSecure` (o `trackingServer`).
 
-## Dominio Edge con implementazione manuale dell’SDK per web
+## Dominio Edge con implementazione manuale del Web SDK
 
-Configurare l&#39;SDK utilizzando [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it). Il campo è una stringa che determina il dominio a cui inviare i dati.
+Configurare SDK utilizzando [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it). Il campo è una stringa che determina il dominio a cui inviare i dati.
 
 ```json
 alloy("configure", {
@@ -61,16 +61,16 @@ La variabile `s.trackingServer` è una stringa che contiene la posizione in cui 
 
 ## Considerazioni per la determinazione del valore per `trackingServer`
 
-È possibile scegliere di utilizzare i domini del server di tracciamento di Adobe (ad esempio `adobedc.net`) oppure eseguire un processo speciale per configurare un server di tracciamento che corrisponda al dominio dei siti (ad esempio `data.mydomain.com`), noto anche come implementazione CNAME. Disporre di un server di tracciamento che corrisponde al dominio del sito può avere alcuni vantaggi a seconda di altri aspetti dell’implementazione. Se il server di tracciamento non corrisponde al dominio della pagina corrente, i cookie impostati dall’AppMeasurement devono essere impostati come di terze parti. Se il browser non supporta i cookie di terze parti, questa mancata corrispondenza può interferire con alcune funzionalità di Analytics:
+È possibile scegliere di utilizzare i domini del server di tracciamento di Adobe (ad esempio `adobedc.net`) oppure eseguire un processo speciale per configurare un server di tracciamento che corrisponda al dominio dei siti (ad esempio `data.mydomain.com`), noto anche come implementazione CNAME. Disporre di un server di tracciamento che corrisponde al dominio del sito può avere alcuni vantaggi a seconda di altri aspetti dell’implementazione. Se il server di tracciamento non corrisponde al dominio della pagina corrente, i cookie impostati da AppMeasurement devono essere impostati come di terze parti. Se il browser non supporta i cookie di terze parti, questa mancata corrispondenza può interferire con alcune funzionalità di Analytics:
 
-- Identificatori di impostazione: se utilizzi il servizio Experience Cloud Identity, il server di tracciamento non ha alcun impatto sull’impostazione dei cookie. Tuttavia, se utilizzi gli identificatori legacy di Analytics (ovvero il cookie `s_vi`) e il server di raccolta non corrisponde al dominio corrente, i cookie devono essere impostati come di terze parti. In questo caso, se i cookie di terze parti sono bloccati dal browser, Analytics imposta un ID di fallback (`s_fid`) di prime parti invece del cookie standard `s_vi`.
+- Identificatori di impostazione: se utilizzi il servizio Experience Cloud Identity, il server di tracciamento non influisce sul modo in cui vengono impostati i cookie. Tuttavia, se utilizzi gli identificatori legacy di Analytics (ovvero il cookie `s_vi`) e il server di raccolta non corrisponde al dominio corrente, i cookie devono essere impostati come di terze parti. In questo caso, se i cookie di terze parti sono bloccati dal browser, Analytics imposta un ID di fallback (`s_fid`) di prime parti invece del cookie standard `s_vi`.
 - Il tracciamento dei collegamenti non funzionerà per i collegamenti interni.
-- L’Activity Map non funzionerà per i collegamenti interni.
+- Activity Map non funzionerà per i collegamenti interni.
 - Controllo cookie.
 
 ### Cookie di prime parti
 
-Se utilizzi un’implementazione di cookie di prima parte, è probabile che qualcuno nella tua organizzazione abbia già completato il processo di cookie di prima parte. Per ulteriori informazioni sulla procedura dei cookie di prime parti, consulta [Cookie di prime parti nell&#39;Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=it) nella guida utente dei servizi core.
+Se utilizzi un’implementazione di cookie di prima parte, è probabile che qualcuno nella tua organizzazione abbia già completato il processo di cookie di prima parte. Per ulteriori informazioni sul processo dei cookie di prime parti, consulta [Cookie di prime parti in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=it) nella guida utente dei servizi core.
 
 L’utente che configura inizialmente l’implementazione dei cookie di prime parti definisce anche il dominio e il sottodominio utilizzati. Ad esempio:
 
@@ -82,7 +82,7 @@ s.trackingServer = "data.example.com";
 
 >[!TIP]
 >
->L’aumento delle pratiche di privacy nei browser moderni rende i cookie di terze parti meno affidabili. L’Adobe consiglia di seguire il flusso di lavoro dei cookie di prime parti.
+>L’aumento delle pratiche di privacy nei browser moderni rende i cookie di terze parti meno affidabili. Adobe consiglia di seguire il flusso di lavoro dei cookie di prime parti.
 
 Se utilizzi un&#39;implementazione di cookie di terze parti, il valore per `trackingServer` è un sottodominio di `data.adobedc.net`. Ad esempio:
 

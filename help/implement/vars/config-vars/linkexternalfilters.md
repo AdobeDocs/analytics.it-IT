@@ -1,10 +1,10 @@
 ---
 title: linkExternalFilters
 description: Utilizza la variabile linkExternalFilters per facilitare il tracciamento automatico dei collegamenti di uscita.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # linkExternalFilters
 
-AppMeasurement offre la possibilità di tenere traccia automaticamente dei collegamenti che puntano all’esterno del sito. Se [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackexternallinks.md) (Web SDK) è abilitato, viene inviata una richiesta di immagine all&#39;Adobe destro quando un visitatore fa clic su un collegamento per uscire dal sito. Le variabili `linkExternalFilters` e [`linkInternalFilters`](linkinternalfilters.md) determinano i collegamenti considerati interni/esterni.
+AppMeasurement offre la possibilità di tenere traccia automaticamente dei collegamenti che puntano all’esterno del sito. Se [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackexternallinks.md) (Web SDK) è abilitato, viene inviata una richiesta di immagine a destra di Adobe quando un visitatore fa clic su un collegamento per uscire dal sito. Le variabili `linkExternalFilters` e [`linkInternalFilters`](linkinternalfilters.md) determinano i collegamenti considerati interni/esterni.
 
 Se questa variabile contiene un valore, il tracciamento automatico dei collegamenti di uscita si comporta come un elenco consentiti. Se un clic di collegamento non corrisponde a nessun valore `linkExternalFilters`, non viene considerato un collegamento di uscita. L’intero URL viene esaminato a fronte di questa variabile. Se [`linkLeaveQueryString`](linkleavequerystring.md) è abilitato, viene esaminata anche la stringa di query.
 
@@ -25,9 +25,9 @@ Se si utilizzano contemporaneamente `linkInternalFilters` e `linkExternalFilters
 
 ## Collegamenti di uscita nel Web SDK
 
-I collegamenti vengono qualificati automaticamente come collegamento di uscita se il dominio di destinazione del collegamento è diverso dall&#39;attuale `window.location.hostname`. L’SDK per web non offre variabili di configurazione per modificare il rilevamento automatico dei collegamenti di uscita. Se è necessario personalizzare i domini qualificati come collegamento di uscita, è possibile utilizzare la logica personalizzata nel callback `onBeforeEventSend`.
+I collegamenti vengono qualificati automaticamente come collegamento di uscita se il dominio di destinazione del collegamento è diverso dall&#39;attuale `window.location.hostname`. Il Web SDK non offre variabili di configurazione per modificare il rilevamento automatico dei collegamenti di uscita. Se è necessario personalizzare i domini qualificati come collegamento di uscita, è possibile utilizzare la logica personalizzata nel callback `onBeforeEventSend`.
 
-Per ulteriori informazioni, consulta [Tracciamento automatico dei collegamenti](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=it#automaticLinkTracking) nella documentazione di Web SDK.
+Per ulteriori informazioni, vedere [Tracciamento automatico dei collegamenti](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) nella documentazione di Web SDK.
 
 ## Collegamenti in uscita: tieni traccia dell’utilizzo dell’estensione Adobe Analytics
 

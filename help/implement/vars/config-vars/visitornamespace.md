@@ -1,10 +1,10 @@
 ---
 title: visitorNameSpace
 description: (Ritirato) Ha contribuito a determinare il dominio dei cookie di terze parti.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 18%
@@ -21,7 +21,7 @@ Nelle versioni precedenti di Adobe Analytics, AppMeasurement ha utilizzato la va
 
 >[!TIP]
 >
->L’Adobe consiglia di utilizzare cookie di prime parti sul sito. I cookie di prime parti non utilizzano questa variabile.
+>Adobe consiglia di utilizzare i cookie di prime parti sul sito. I cookie di prime parti non utilizzano questa variabile.
 
 ## Spazio dei nomi del visitatore che utilizza l’estensione Adobe Analytics
 
@@ -32,11 +32,11 @@ Nelle versioni precedenti di Adobe Analytics, AppMeasurement ha utilizzato la va
 3. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
 4. Espandi il pannello a soffietto [!UICONTROL Cookies], che mostra il campo [!UICONTROL Visitor Namespace].
 
-L’Adobe consiglia di non utilizzare questo campo. Utilizza invece `trackingServer` e `trackingServerSecure`.
+Adobe consiglia di non utilizzare questo campo. Utilizza invece `trackingServer` e `trackingServerSecure`.
 
 ## s.visitorNamespace in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-La variabile `s.visitorNamespace` è una stringa che contiene un valore univoco per organizzazione. Le vecchie librerie di AppMeasurement includevano automaticamente questo valore univoco quando venivano scaricate da versioni precedenti di Adobe Analytics. Le librerie AppMeasurement correnti non utilizzano questa variabile a meno che `trackingServer` e `trackingServerSecure` non siano impostati.
+La variabile `s.visitorNamespace` è una stringa che contiene un valore univoco per organizzazione. Le vecchie librerie AppMeasurement includevano automaticamente questo valore univoco quando venivano scaricate da versioni precedenti di Adobe Analytics. Le librerie AppMeasurement correnti non utilizzano questa variabile a meno che `trackingServer` e `trackingServerSecure` non siano impostati.
 
 Se l’organizzazione richiede ancora questa variabile, scegli un valore che rappresenti l’organizzazione. È possibile memorizzare questo valore in un [documento di progettazione della soluzione](../../prepare/solution-design.md).
 

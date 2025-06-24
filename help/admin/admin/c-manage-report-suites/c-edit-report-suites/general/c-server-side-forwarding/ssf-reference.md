@@ -1,10 +1,10 @@
 ---
 description: Elenco completo e descrizioni delle variabili di configurazione, intestazioni HTTP e segnali di dati nelle chiamate di inoltro lato server.
 title: Dati inoltro lato server e codice
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 100%

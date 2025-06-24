@@ -1,10 +1,10 @@
 ---
 title: linkDownloadFileTypes
 description: Determina le estensioni di file che vengono tracciate automaticamente come collegamenti di download.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 15%
@@ -13,7 +13,7 @@ ht-degree: 15%
 
 # linkDownloadFileTypes
 
-Quando [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) è abilitato e un visitatore fa clic su un collegamento, AppMeasurement controlla nell&#39;URL del collegamento se sono presenti estensioni di tipo file. Se l’URL del collegamento contiene un tipo di file corrispondente, viene inviata automaticamente una richiesta di immagine del collegamento di download.
+Quando [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) è abilitato e un visitatore fa clic su un collegamento, AppMeasurement controlla che nell&#39;URL del collegamento siano presenti estensioni di tipo file. Se l’URL del collegamento contiene un tipo di file corrispondente, viene inviata automaticamente una richiesta di immagine del collegamento di download.
 
 Utilizzare `linkDownloadFileTypes` per personalizzare le estensioni di file da considerare come collegamenti di download.
 
@@ -30,7 +30,7 @@ Utilizzare `linkDownloadFileTypes` per personalizzare le estensioni di file da c
 
 Se un collegamento cliccato corrisponde ai criteri del collegamento di uscita e di download, il tipo di collegamento di download ha la priorità.
 
-## Scaricare il qualificatore dei collegamenti tramite l’estensione Web SDK
+## Scaricare il qualificatore di collegamento tramite l’estensione Web SDK
 
 Il campo di testo [!UICONTROL Download link qualifier] utilizza regex per determinare se un collegamento su cui è stato fatto clic può essere considerato un collegamento di download.
 
@@ -39,9 +39,9 @@ Il campo di testo [!UICONTROL Download link qualifier] utilizza regex per determ
 1. Passa alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
 1. In [!UICONTROL Data Collection], impostare il valore desiderato nel campo di testo **[!UICONTROL Download link qualifier]**.
 
-## Scaricare il qualificatore di collegamento implementando manualmente il Web SDK
+## Download manuale del qualificatore del collegamento con il Web SDK
 
-[Configura](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it) l&#39;SDK utilizzando [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=it#automaticLinkTracking). Il campo utilizza regex sull’URL su cui è stato fatto clic per determinare se si tratta di un collegamento di download valido. Se `downloadLinkQualifier` non è definito, il valore predefinito è `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
+[Configura](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it) il SDK utilizzando [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking). Il campo utilizza regex sull’URL su cui è stato fatto clic per determinare se si tratta di un collegamento di download valido. Se `downloadLinkQualifier` non è definito, il valore predefinito è `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
 
 ```json
 alloy("configure", {

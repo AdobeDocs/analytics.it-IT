@@ -1,10 +1,10 @@
 ---
 title: Pianificare un picco di traffico
 description: Collabora con Adobe per assicurarti che gli eventi a traffico elevato non subiscano latenza.
-feature: Traffic Management
+feature: Report Suite Settings
 role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 66%
@@ -13,7 +13,7 @@ ht-degree: 66%
 
 # Pianificare un picco di traffico
 
-Adobe tenta di collaborare con i client per garantire il successo di un evento con traffico elevato. La pianificazione dei picchi di traffico è il punto di partenza del processo di collaborazione. La sezione di pianificazione di un picco consente di avvisare un Adobe di picchi di traffico temporanei, in modo da allocare le risorse appropriate per gestirli. Puoi stimare chiamate server passate per avere un’idea migliore delle dimensioni del picco di traffico da pianificare.
+Adobe tenta di collaborare con i client per garantire il successo di un evento con traffico elevato. La pianificazione dei picchi di traffico è il punto di partenza del processo di collaborazione. La sezione di pianificazione di un picco consente di avvisare Adobe di picchi di traffico temporanei, in modo da allocare le risorse appropriate per gestirli. Puoi stimare chiamate server passate per avere un’idea migliore delle dimensioni del picco di traffico da pianificare.
 
 Il bilanciamento avanzato dei dati lato server con più personale dedicato viene utilizzato per garantire che tutti i clienti dispongano di rapporti il più possibile aggiornati. Quando la tua organizzazione notifica ad Adobe i picchi di traffico, Adobe può verificare se l’aumento improvviso del traffico è un’esperienza positiva. La mancata notifica ad Adobe degli aumenti del traffico può aumentare la latenza durante i periodi critici di reporting.
 

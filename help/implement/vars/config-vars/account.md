@@ -1,10 +1,10 @@
 ---
 title: account
 description: (Ritirato) Determina la suite di rapporti a cui vengono inviati i dati.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 1%

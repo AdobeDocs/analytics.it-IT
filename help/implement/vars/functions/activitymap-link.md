@@ -1,25 +1,26 @@
 ---
 title: ActivityMap.link
-description: Personalizza il modo in cui Activity Map raccoglie il collegamento su cui è stato fatto clic.
-feature: Variables
+description: Personalizza in che modo Activity Map raccoglie il collegamento su cui è stato fatto clic.
+feature: Appmeasurement Implementation
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+exl-id: 3a31f80b-dbee-4a45-ac3c-0b8ca198c95a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # ActivityMap.link
 
-La variabile `ActivityMap.link` consente di ignorare la logica utilizzata da Activity Map per impostare i valori di collegamento. Questa variabile è utile nelle aree in cui si desidera avere un controllo maggiore di quello fornito da [`ActivityMap.linkExclusions`](../config-vars/activitymap-linkexclusions.md).
+La variabile `ActivityMap.link` consente di ignorare la logica utilizzata da Activity Map per impostare i valori dei collegamenti. Questa variabile è utile nelle aree in cui si desidera avere un controllo maggiore di quello fornito da [`ActivityMap.linkExclusions`](../config-vars/activitymap-linkexclusions.md).
 
 >[!CAUTION]
->Questa variabile sostituisce completamente la logica Activity Map. Impostando qui una funzione di sostituzione che restituisce valori errati si possono verificare problemi di raccolta dati con le dimensioni Activity Map e la sovrapposizione Activity Map.
+>Questa variabile sostituisce completamente la logica di Activity Map. Impostando qui una funzione di sostituzione che restituisce valori errati si possono verificare problemi di raccolta dei dati con le dimensioni di Activity Map e la sovrapposizione di Activity Map.
 
 ## Sovrascrittura dei valori dei collegamenti tramite Web SDK
 
-È possibile utilizzare il callback [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) per modificare il payload dell&#39;SDK Web o interrompere l&#39;invio dei dati.
+È possibile utilizzare il callback [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) per modificare il payload di Web SDK o interrompere l&#39;invio dei dati.
 
 ## Sostituzione dei collegamenti tramite l’estensione Adobe Analytics
 
@@ -30,9 +31,9 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 Assegna a questa variabile una funzione che:
 
 * Riceve l’elemento HTML su cui è stato fatto clic; e
-* Restituisce un valore stringa. Questo valore stringa è il valore finale utilizzato per la dimensione [Collegamento Activity Map](/help/components/dimensions/activity-map-link.md).
+* Restituisce un valore stringa. Questo valore stringa è il valore finale utilizzato per la dimensione [Activity Map Link](/help/components/dimensions/activity-map-link.md).
 
-Se il valore restituito è [falsy](https://developer.mozilla.org/it-IT/docs/Glossary/Falsy), tutte le variabili di dati di contesto Activity Map vengono cancellate e non vengono tracciati dati di collegamento.
+Se il valore restituito è [falsy](https://developer.mozilla.org/it-IT/docs/Glossary/Falsy), tutte le variabili di dati di contesto di Activity Map vengono cancellate e non vengono tracciati dati di collegamento.
 
 ## Esempi
 
@@ -78,5 +79,5 @@ Invece di sostituire completamente la logica di collegamento predefinita, puoi m
 ```
 
 1. Se `linkName` viene passato, il metodo è stato chiamato da `tl()`. Restituisce ciò che `tl()` ha passato come `linkName`.
-2. Quando viene chiamato dall&#39;Activity Map, un `linkName` non viene mai passato, quindi chiama `customFunction()` con l&#39;elemento link. Puoi utilizzare qualsiasi funzione personalizzata che desideri restituisca un valore.
+2. Quando viene chiamato da Activity Map, un `linkName` non viene mai passato, quindi chiama `customFunction()` con l&#39;elemento link. Puoi utilizzare qualsiasi funzione personalizzata che desideri restituisca un valore.
 3. Se nessuno dei valori restituiti sopra, utilizza il nome del collegamento normalmente raccolto come fallback.

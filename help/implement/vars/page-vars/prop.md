@@ -1,10 +1,10 @@
 ---
 title: prop
 description: Variabili personalizzate che puoi utilizzare nell’implementazione.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 13%
@@ -23,7 +23,7 @@ Le proprietà sono variabili personalizzate che puoi utilizzare come desideri. N
 
 Se hai un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), puoi allocare queste dimensioni personalizzate a valori specifici della tua organizzazione. Il numero di prop disponibili dipende dal contratto con Adobe. Se il contratto con Adobe lo supporta, sono disponibili fino a 75 proprietà.
 
-## Proprietà che utilizzano l’SDK web
+## Proprietà che utilizzano il Web SDK
 
 Le proprietà sono mappate alle seguenti variabili:
 
@@ -57,7 +57,7 @@ Le prop elenco sono un’impostazione applicata alle prop che consente alla vari
 
 ### Configurare le prop elenco
 
-Abilita le prop elenco in [Variabili traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti. Assicurati che il delimitatore desiderato sia configurato correttamente. L&#39;Adobe non fornisce un delimitatore predefinito.
+Abilita le prop elenco in [Variabili traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti. Assicurati che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
 
 >[!TIP]
 >
@@ -65,11 +65,11 @@ Abilita le prop elenco in [Variabili traffico](/help/admin/admin/c-manage-report
 
 ### Impostare le prop elenco tramite Web SDK {#list-props-web-sdk}
 
-Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), le prop elenco sono mappate a `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. L’SDK per web utilizza automaticamente il delimitatore corretto elencato in Impostazioni della suite di rapporti. Se imposti il delimitatore nel campo XDM (ad esempio, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), questo sovrascrive il delimitatore recuperato automaticamente dalle impostazioni della suite di rapporti e può causare un&#39;analisi errata della stringa prop dell&#39;elenco.
+Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), le prop elenco sono mappate a `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Il Web SDK utilizza automaticamente il delimitatore corretto elencato nelle impostazioni della suite di rapporti. Se imposti il delimitatore nel campo XDM (ad esempio, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), questo sovrascrive il delimitatore recuperato automaticamente dalle impostazioni della suite di rapporti e può causare un&#39;analisi errata della stringa prop dell&#39;elenco.
 
-Se utilizzi l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), le prop elenco utilizzano gli stessi campi delle prop standard e seguono la sintassi di AppMeasurement.
+Se utilizzi l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), le prop elenco utilizzano gli stessi campi delle prop standard e seguono la sintassi AppMeasurement.
 
-### Impostare le prop elenco tramite l’estensione Adobe Analytics e l’AppMeasurement
+### Impostare le prop elenco tramite l’estensione Adobe Analytics e AppMeasurement
 
 Una volta configurate le prop elenco nelle impostazioni della suite di rapporti con il delimitatore desiderato, non ci sono differenze di implementazione se non utilizzando il delimitatore.
 

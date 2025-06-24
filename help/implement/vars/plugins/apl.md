@@ -1,17 +1,17 @@
 ---
 title: apl (appendToList)
 description: Aggiungi valori alle variabili che supportano più valori.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 5%
 
 ---
 
-# Plug-in di Adobe: apl (appendToList)
+# Plug-in Adobe: apl (appendToList)
 
 {{plug-in}}
 
@@ -21,11 +21,11 @@ Il plug-in `apl` consente di aggiungere in modo sicuro nuovi valori alle variabi
 * Se il valore da aggiungere esiste già nella variabile, questo plug-in non modifica il valore. Queste funzioni consentono all’implementazione di evitare valori duplicati.
 * Se la variabile che desideri aggiungere è vuota, il plug-in imposta la variabile sul nuovo valore.
 
-L’Adobe consiglia di utilizzare questo plug-in se desideri aggiungere nuovi valori alle variabili esistenti che contengono una stringa di valori delimitati. Questo plug-in non è necessario se preferisci concatenare le stringhe per le variabili contenenti valori delimitati.
+Adobe consiglia di utilizzare questo plug-in se desideri aggiungere nuovi valori alle variabili esistenti che contengono una stringa di valori delimitati. Questo plug-in non è necessario se preferisci concatenare le stringhe per le variabili contenenti valori delimitati.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
-Questo plug-in non è ancora supportato per l’utilizzo nell’SDK per web.
+Questo plug-in non è ancora supportato per l&#39;utilizzo in Web SDK.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -56,7 +56,7 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta Adobe a risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

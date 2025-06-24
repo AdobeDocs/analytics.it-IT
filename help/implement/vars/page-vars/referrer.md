@@ -1,10 +1,10 @@
 ---
 title: referrer
 description: Sostituisci il referente raccolto automaticamente per un hit.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 16%
@@ -15,14 +15,14 @@ ht-degree: 16%
 
 La variabile `referrer` sostituisce il referente raccolto automaticamente nei rapporti. Questa variabile è utile nelle situazioni in cui il referente potrebbe andare perso, ad esempio durante i reindirizzamenti o l’inoltro temporaneo del visitatore a un elaboratore dei pagamenti. Questa variabile consente di popolare le dimensioni &quot;Referrer&quot; e &quot;Dominio di riferimento&quot;.
 
-## Referente che utilizza l’SDK web
+## Referrer che utilizza il Web SDK
 
 Il referrer è mappato alle seguenti variabili:
 
 * [Oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
 * [Oggetto dati](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
 
-L&#39;SDK Web include automaticamente `web.webReferrer.URL` su ogni evento inviato, se disponibile.
+Il Web SDK include automaticamente `web.webReferrer.URL` in ogni evento inviato, se disponibile.
 
 ## Referente che utilizza l’estensione Adobe Analytics
 

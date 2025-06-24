@@ -1,10 +1,10 @@
 ---
 title: offlineThrottleDelay
 description: Stabilisce la frequenza degli hit quando un dispositivo torna online.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 12%
@@ -15,11 +15,11 @@ ht-degree: 12%
 
 Il tracciamento offline è un modo facoltativo per raccogliere i dati in Adobe Analytics. Se un visitatore si disconnette da Internet ma continua a navigare nel sito, gli hit vengono memorizzati in una coda offline fino a quando il dispositivo non si riconnette a Internet. Il tracciamento offline viene utilizzato principalmente per le app mobili.
 
-Quando un dispositivo torna online, tutti gli hit memorizzati sul dispositivo vengono inviati ai server di raccolta dati di Adobe. Un numero elevato di hit in coda può potenzialmente influire sulle prestazioni dei dispositivi meno recenti. Utilizza la variabile `offlineThrottleDelay` per stabilire la frequenza con cui gli hit in coda vengono inviati a Adobe.
+Quando un dispositivo torna online, tutti gli hit memorizzati sul dispositivo vengono inviati ai server di raccolta dati di Adobe. Un numero elevato di hit in coda può potenzialmente influire sulle prestazioni dei dispositivi meno recenti. Utilizza la variabile `offlineThrottleDelay` per stabilire la frequenza con cui gli hit in coda vengono inviati ad Adobe.
 
 ## Ritardo della velocità offline tramite Web SDK
 
-L’SDK per web non supporta il tracciamento offline.
+Il Web SDK non supporta il tracciamento offline.
 
 ## Ritardo della limitazione offline tramite l’estensione Adobe Analytics
 

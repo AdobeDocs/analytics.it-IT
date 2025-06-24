@@ -2,13 +2,13 @@
 description: Esempi di utilizzo di analisi per coorte.
 keywords: Analysis Workspace
 title: Casi di utilizzo dell’analisi per coorte
-feature: Cohort Analysis
+feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Puoi creare una [!UICONTROL Cohort Analysis] di sei mesi:
 
 **Metrica di ritorno**: sessioni o avvii
 
-I visitatori non contano come *`engaged`* nei mesi successivi a meno che non abbiano sessioni attive o abbiano almeno avviato l&#39;app. [!UICONTROL Cohort Analysis] mostrerebbe quindi i pattern di utilizzo in cui *`App Install`* si verifica sempre nel mese 0. Potresti notare dei cali di utilizzo dell’app nel mese 2, indipendentemente da quando gli utenti l’hanno installata. (Per coloro che hanno installato l’app a gennaio 2015, il mese 2 è marzo 2015. Per coloro che hanno installato l’app a febbraio 2015, il mese 2 è aprile 2015, e così via). A seguito di questa analisi, potresti ad esempio inviare un’e-mail o un messaggio push a tutti gli utenti nel corso del mese due per ricordare loro di utilizzare l’app.
+I visitatori non contano come *`engaged`* nei mesi successivi a meno che non abbiano sessioni attive o abbiano almeno avviato l&#39;app. [!UICONTROL Cohort Analysis] mostrerebbe quindi i pattern di utilizzo in cui *`App Install`* si verifica sempre nel mese 0. Potresti notare dei cali di utilizzo dell’app nel mese 2, indipendentemente da quando gli utenti l’hanno installata. (Per coloro che hanno installato l’app a gennaio 2015, il mese 2 è marzo 2015. Per coloro che hanno installato l’app a febbraio 2015, il mese 2 è aprile 2015 e così via.) Questa analisi ti consente di inviare un messaggio e-mail o push a tutti gli utenti durante il secondo mese successivo all’installazione dell’app, per ricordargli di utilizzarla.
 
 ## Caso di utilizzo: abbonamento {#section_FDECB16766CF415BB84AE46BA491FB5F}
 

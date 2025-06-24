@@ -1,10 +1,10 @@
 ---
 title: trackDownloadLinks
 description: Abilita o disabilita il tracciamento automatico dei collegamenti per i collegamenti di download.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 16%
@@ -15,20 +15,20 @@ ht-degree: 16%
 
 Adobe offre la possibilità di tenere traccia dei collegamenti di download senza impostare manualmente il metodo [`tl()`](../functions/tl-method.md) per ogni collegamento di download. Abilita questa variabile se desideri utilizzare il tracciamento automatico dei collegamenti per i collegamenti di download.
 
-Quando questa opzione è abilitata, AppMeasurement confronta qualsiasi URL di collegamento su cui è stato fatto clic con i valori in [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Se viene trovata una corrispondenza, viene automaticamente attivata una chiamata di tracciamento del collegamento di download.
+Quando è abilitata, AppMeasurement confronta qualsiasi URL di collegamento su cui è stato fatto clic con i valori in [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Se viene trovata una corrispondenza, viene automaticamente attivata una chiamata di tracciamento del collegamento di download.
 
-## Abilitare o disabilitare la raccolta di clic con l’estensione Web SDK
+## Abilitare o disabilitare la raccolta di clic tramite l&#39;estensione Web SDK
 
-Utilizza la casella di controllo [!UICONTROL Enable click data collection] durante la configurazione dell&#39;SDK Web. Questa casella di controllo gestisce sia i collegamenti di uscita che quelli di download.
+Utilizzare la casella di controllo [!UICONTROL Enable click data collection] durante la configurazione del Web SDK. Questa casella di controllo gestisce sia i collegamenti di uscita che quelli di download.
 
 1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Passa alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
 1. In [!UICONTROL Data Collection], fare clic sulla casella di controllo **[!UICONTROL Enable click data collection]**.
 
-## Abilitare o disabilitare la raccolta di clic implementando manualmente l’SDK per web
+## Attivare o disattivare la raccolta di clic implementando manualmente il Web SDK
 
-Configurare l&#39;SDK utilizzando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it#clickCollectionEnabled). Il campo è di tipo booleano e determina se i dati associati ai clic sui collegamenti vengono raccolti automaticamente. Il valore predefinito è `true`. Impostare questo valore su `false` se si desidera disabilitare il tracciamento automatico dei collegamenti. Questa impostazione gestisce il tracciamento automatico dei collegamenti sia per i collegamenti di download che per quelli di uscita.
+Configurare SDK utilizzando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). Il campo è di tipo booleano e determina se i dati associati ai clic sui collegamenti vengono raccolti automaticamente. Il valore predefinito è `true`. Impostare questo valore su `false` se si desidera disabilitare il tracciamento automatico dei collegamenti. Questa impostazione gestisce il tracciamento automatico dei collegamenti sia per i collegamenti di download che per quelli di uscita.
 
 ```json
 alloy("configure", {

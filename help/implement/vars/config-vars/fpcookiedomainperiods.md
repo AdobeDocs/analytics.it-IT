@@ -1,10 +1,10 @@
 ---
 title: fpcookieDomainPeriods
-description: AppMeasurement di aiuto per capire quale dominio memorizzare i cookie se nel dominio è presente un punto nel suffisso.
-feature: Variables
+description: Aiuta AppMeasurement a capire quale dominio memorizzare i cookie se il tuo dominio ha un punto nel suo suffisso.
+feature: Appmeasurement Implementation
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 13%
@@ -20,11 +20,11 @@ La variabile `fpCookieDomainPeriods` consente ad AppMeasurement di determinare d
 
 >[!IMPORTANT]
 >
->Non prendere in considerazione i sottodomini per questa variabile. Ad esempio, non impostare `fpCookieDomainPeriods` sull&#39;URL di esempio `store.toys.example.com`. AppMeasurement per impostazione predefinita riconosce che i cookie devono essere memorizzati in `example.com`, anche su URL con molti sottodomini.
+>Non prendere in considerazione i sottodomini per questa variabile. Ad esempio, non impostare `fpCookieDomainPeriods` sull&#39;URL di esempio `store.toys.example.com`. Per impostazione predefinita, AppMeasurement riconosce che i cookie devono essere memorizzati in `example.com`, anche su URL con molti sottodomini.
 
-## Periodi del dominio di prime parti tramite Web SDK
+## Periodi di dominio di prime parti tramite Web SDK
 
-L’SDK per web può determinare il dominio di archiviazione dei cookie corretto senza questa variabile.
+Il Web SDK può determinare il dominio di archiviazione dei cookie corretto senza questa variabile.
 
 ## Periodi di dominio di prime parti tramite l’estensione Adobe Analytics
 

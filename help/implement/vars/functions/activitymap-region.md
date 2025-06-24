@@ -1,12 +1,13 @@
 ---
 title: ActivityMap.region
 description: Personalizza il modo in cui Activity Map raccoglie l’area su cui è stato fatto clic.
-feature: Variables
+feature: Appmeasurement Implementation
 role: Admin, Developer
-source-git-commit: 1fb57590714ad2412323416289dee967eef07fad
+exl-id: 9bbdb124-b865-4431-8a98-9814c3f2e65c
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -15,11 +16,11 @@ ht-degree: 12%
 La variabile `ActivityMap.region` consente di ignorare la logica utilizzata da Activity Map per impostare i valori dell&#39;area. Questa variabile è utile nelle aree in cui si desidera avere un controllo maggiore di quello fornito da [`ActivityMap.regionExclusions`](../config-vars/activitymap-regionexclusions.md).
 
 >[!CAUTION]
->Questa variabile sostituisce completamente la logica Activity Map. Impostando qui una funzione di sostituzione che restituisce valori errati si possono verificare problemi di raccolta dati con le dimensioni Activity Map e la sovrapposizione Activity Map.
+>Questa variabile sostituisce completamente la logica di Activity Map. Impostando qui una funzione di sostituzione che restituisce valori errati si possono verificare problemi di raccolta dei dati con le dimensioni di Activity Map e la sovrapposizione di Activity Map.
 
-## Ignorare i valori dell’area geografica tramite Web SDK
+## Sovrascrittura dei valori dell’area geografica tramite Web SDK
 
-È possibile utilizzare il callback [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) per modificare il payload dell&#39;SDK Web o interrompere l&#39;invio dei dati.
+È possibile utilizzare il callback [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) per modificare il payload di Web SDK o interrompere l&#39;invio dei dati.
 
 ## Sostituzione dell’area geografica tramite l’estensione Adobe Analytics
 
@@ -30,9 +31,9 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 Assegna a questa variabile una funzione che:
 
 * Riceve l’elemento HTML su cui è stato fatto clic; e
-* Restituisce un valore stringa. Questo valore stringa è il valore finale utilizzato per la dimensione [Area Activity Map](/help/components/dimensions/activity-map-region.md).
+* Restituisce un valore stringa. Questo valore stringa è il valore finale utilizzato per la dimensione [Area geografica Activity Map](/help/components/dimensions/activity-map-region.md).
 
-Se il valore restituito è [falsy](https://developer.mozilla.org/it-IT/docs/Glossary/Falsy), tutte le variabili di dati di contesto Activity Map vengono cancellate e non vengono tracciati dati di collegamento.
+Se il valore restituito è [falsy](https://developer.mozilla.org/it-IT/docs/Glossary/Falsy), tutte le variabili di dati di contesto di Activity Map vengono cancellate e non vengono tracciati dati di collegamento.
 
 ## Esempi
 

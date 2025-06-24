@@ -1,25 +1,25 @@
 ---
 title: getTimeToComplete
 description: Misura il tempo necessario per completare un'attività.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 7%
 
 ---
 
-# Plug-in di Adobe: getTimeToComplete
+# Plug-in Adobe: getTimeToComplete
 
 {{plug-in}}
 
-Il plug-in `getTimeToComplete` tiene traccia del tempo impiegato da un utente per completare un processo su un sito. L&#39;orologio inizia quando viene chiamata l&#39;azione `start` e termina quando viene chiamata l&#39;azione `stop`. L’Adobe consiglia di utilizzare questo plug-in se sul sito è presente un flusso di lavoro che richiede un po’ di tempo e desideri sapere quanto tempo i visitatori impiegano per completarlo. Non è necessario utilizzare questo plug-in se il flusso di lavoro sul sito richiede un breve periodo di tempo (meno di 3 secondi) perché la granularità è ridotta solo al secondo completo.
+Il plug-in `getTimeToComplete` tiene traccia del tempo impiegato da un utente per completare un processo su un sito. L&#39;orologio inizia quando viene chiamata l&#39;azione `start` e termina quando viene chiamata l&#39;azione `stop`. Adobe consiglia di utilizzare questo plug-in se sul sito è presente un flusso di lavoro che richiede un po’ di tempo e desideri sapere quanto tempo i visitatori impiegano per completarlo. Non è necessario utilizzare questo plug-in se il flusso di lavoro sul sito richiede un breve periodo di tempo (meno di 3 secondi) perché la granularità è ridotta solo al secondo completo.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
-Questo plug-in non è ancora supportato per l’utilizzo nell’SDK per web.
+Questo plug-in non è ancora supportato per l&#39;utilizzo in Web SDK.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -50,7 +50,7 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta Adobe a risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -111,5 +111,5 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 ### 2.0 21 giugno 2016)
 
 * Eliminata la dipendenza dal plug-in `p_fo`.
-* È stata aggiunta la compatibilità con il codice H e l’AppMeasurement.
+* È stata aggiunta la compatibilità con il codice H e AppMeasurement.
 * È stata aggiunta la registrazione della console.

@@ -1,10 +1,10 @@
 ---
 description: Illustra i passaggi necessari per abilitare l’implementazione di Adobe Analytics per supportare l’accesso ai dati personali e i diritti di eliminazione degli interessati.
 title: Flusso di lavoro per la privacy
-feature: Privacy
+feature: Data Governance
 role: Admin
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
-source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 79%

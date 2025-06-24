@@ -1,10 +1,10 @@
 ---
 title: cookieDomainPeriods
-description: (Obsoleto) AppMeasurement di aiuto per determinare dove memorizzare i cookie quando il dominio di primo livello di un sito web contiene un punto.
-feature: Variables
+description: (Obsoleto) Aiuta AppMeasurement a determinare dove memorizzare i cookie quando il dominio di primo livello di un sito web contiene un punto.
+feature: Appmeasurement Implementation
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 10%
@@ -16,13 +16,13 @@ ht-degree: 10%
 >[!IMPORTANT]
 >Questa variabile è obsoleta. Se usa uno dei seguenti:
 >
->* AppMeasurement v2.26.x o successivo
+>* AppMeasurement v2.26.x o versione successiva
 >* Estensione Adobe Analytics v1.9.4 o successiva
 >* Servizio Adobe Experience Cloud ID
 >
 >Questa variabile non esegue alcuna operazione, in quanto la libreria applicabile rileva automaticamente il dominio su cui impostare i cookie.
 
-La variabile `cookieDomainPeriods` ha aiutato AppMeasurement a determinare dove impostare i cookie di Analytics indicando che il dominio di primo livello conteneva un periodo aggiuntivo. Questa variabile consente all’AppMeasurement di inserire il periodo aggiuntivo nel dominio di primo livello e impostare i cookie nella posizione corretta. Se il dominio di primo livello del sito web non include un periodo aggiuntivo, questa variabile non è necessaria.
+La variabile `cookieDomainPeriods` ha aiutato AppMeasurement a determinare dove impostare i cookie di Analytics indicando che il dominio di primo livello conteneva un periodo aggiuntivo. Questa variabile consentiva ad AppMeasurement di inserire il periodo aggiuntivo nel dominio di primo livello e impostare i cookie nella posizione corretta. Se il dominio di primo livello del sito web non include un periodo aggiuntivo, questa variabile non è necessaria.
 
 * Per domini come `example.co.uk` o `www.example.co.jp`, impostare questa variabile su `"3"`.
 * Per domini come `example.nsw.gov.au`, impostare questa variabile su `"4"`.
@@ -32,11 +32,11 @@ La variabile `cookieDomainPeriods` ha aiutato AppMeasurement a determinare dove 
 >
 >Non prendere in considerazione i sottodomini per questa variabile. Ad esempio, non impostare `cookieDomainPeriods` sull&#39;URL di esempio `store.toys.example.com`. AppMeasurement riconosce che i cookie sono memorizzati in `example.com`, anche su URL con molti sottodomini.
 
-Per le implementazioni in AppMeasurement v2.26.x o versione successiva, il cookie [`s_ac`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) viene utilizzato per determinare automaticamente il dominio del cookie corretto. La libreria tenta prima di scrivere un cookie che include due periodi di dominio. Se l’impostazione di questo cookie non riesce, viene eseguito un nuovo tentativo, includendo più periodi di dominio fino a quando non riesce. Questo cookie viene eliminato immediatamente una volta impostato.
+Per le implementazioni in AppMeasurement v2.26.x o versione successiva, il cookie [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) viene utilizzato per determinare automaticamente il dominio del cookie corretto. La libreria tenta prima di scrivere un cookie che include due periodi di dominio. Se l’impostazione di questo cookie non riesce, viene eseguito un nuovo tentativo, includendo più periodi di dominio fino a quando non riesce. Questo cookie viene eliminato immediatamente una volta impostato.
 
-## Periodi del dominio dei cookie tramite Web SDK
+## Periodi di dominio dei cookie tramite Web SDK
 
-L’SDK per web determina automaticamente il dominio corretto per impostare i cookie.
+Il Web SDK determina automaticamente il dominio corretto per impostare i cookie.
 
 ## Periodi del dominio dei cookie tramite l’estensione Adobe Analytics
 
@@ -49,7 +49,7 @@ L’SDK per web determina automaticamente il dominio corretto per impostare i co
 
 Impostare questo campo su `3` solo per i domini di primo livello contenenti un punto. In caso contrario, questo campo può essere lasciato vuoto.
 
-## Periodi di dominio dei cookie in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
+## Periodi del dominio dei cookie in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
 La variabile `cookieDomainPeriods` è una stringa in genere impostata su `"3"` solo nei domini di primo livello che contengono un punto. Il valore predefinito è `"2"`, che ospita la maggior parte dei domini di primo livello come `.com` e `.org`.
 

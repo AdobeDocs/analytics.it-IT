@@ -1,10 +1,10 @@
 ---
 title: purchaseID
 description: Deduplica gli hit in base a un identificatore di acquisto univoco.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 15%
@@ -13,7 +13,7 @@ ht-degree: 15%
 
 # purchaseID
 
-La variabile `purchaseID` consente di evitare che gli hit contenenti lo stesso acquisto gonfiino i rapporti. Ad esempio, se un visitatore raggiunge la pagina di conferma dell’acquisto, in genere invii ad Adobe i dati relativi ai ricavi generati dalla transazione. Se l’utente aggiorna la pagina più volte o la inserisce nei segnalibri per visitarla in un secondo momento, tali hit possono gonfiare i rapporti. La variabile `purchaseID` deduplica le metriche quando più hit hanno lo stesso ID acquisto.
+La variabile `purchaseID` consente di evitare che gli hit contenenti lo stesso acquisto gonfiino i rapporti. Ad esempio, se un visitatore raggiunge la pagina di conferma dell’acquisto, in genere invii ad Adobe dati sui ricavi generati dalla transazione. Se l’utente aggiorna la pagina più volte o la inserisce nei segnalibri per visitarla in un secondo momento, tali hit possono gonfiare i rapporti. La variabile `purchaseID` deduplica le metriche quando più hit hanno lo stesso ID acquisto.
 
 Quando Adobe riconosce un hit come acquisto duplicato, tutti i dati di conversione (come eVar ed eventi) non vengono visualizzati nel reporting. Nei feed di dati, la colonna `duplicate_purchase` è impostata su `1`.
 

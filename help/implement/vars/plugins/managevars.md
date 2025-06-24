@@ -1,25 +1,25 @@
 ---
 title: manageVars
 description: Modifica i valori di più variabili Analytics alla volta.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 5%
 
 ---
 
-# Plug-in di Adobe: manageVars
+# Plug-in Adobe: manageVars
 
 {{plug-in}}
 
-Il plug-in `manageVars` consente di manipolare i valori di più variabili di Analytics contemporaneamente. Puoi anche impostare i valori in minuscolo o rimuovere contemporaneamente caratteri non necessari da più valori di variabili. L’Adobe consiglia di utilizzare questo plug-in per pulire il valore di più variabili contemporaneamente.
+Il plug-in `manageVars` consente di manipolare i valori di più variabili di Analytics contemporaneamente. Puoi anche impostare i valori in minuscolo o rimuovere contemporaneamente caratteri non necessari da più valori di variabili. Adobe consiglia di utilizzare questo plug-in per pulire il valore di più variabili contemporaneamente.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
-Questo plug-in non è ancora supportato per l’utilizzo nell’SDK per web.
+Questo plug-in non è ancora supportato per l&#39;utilizzo in Web SDK.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -50,7 +50,7 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta Adobe a risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -95,7 +95,7 @@ Il seguente codice...
 manageVars("lowerCaseVars");
 ```
 
-...modifica in minuscolo i valori di tutte le variabili descritte in precedenza.  L’unica eccezione è la variabile degli eventi, in quanto alcuni degli eventi (ad esempio scAdd, scCheckout e così via) fanno distinzione tra maiuscole e minuscole e non devono essere minuscole
+...modifica in minuscolo i valori di tutte le variabili descritte in precedenza.  L’unica eccezione è rappresentata dalla variabile degli eventi, in quanto alcuni degli eventi (ad esempio, scAdd, scCheckout e così via) sono sensibili all’uso di maiuscole e minuscole e non devono essere convertiti in minuscole
 
 ### Esempio di #2
 
@@ -125,7 +125,7 @@ Il seguente codice...
 manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
-...cambierà (ad esempio in minuscolo) i valori di tutte le variabili sopra descritte ECCETTO per eVar1, eVar2, eVar3 ed list2
+...cambierà (ad es. in minuscolo) i valori di tutte le variabili descritte in precedenza ECCETTO eVar1, eVar2, eVar3 ed list2
 
 ### Esempio di #5
 
@@ -141,7 +141,7 @@ manageVars("cleanStr");
 * Rimuove gli spazi vuoti trovati all’inizio e alla fine del valore
 * Sostituisce le virgolette singole sinistra/destra con una virgoletta singola diritta (`'`)
 * Sostituisce i caratteri di tabulazione, i caratteri di nuova riga e i caratteri di ritorno a capo con spazi
-* Sostituisce tutti i doppi (o tripli, ecc.) spazi con spazi singoli
+* Sostituisce tutti gli spazi doppi (o tripli, ecc.) con spazi singoli
 
 ## Cronologia versioni
 

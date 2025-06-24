@@ -1,26 +1,27 @@
 ---
 title: ActivityMap.linkExclusions
-description: Filtra i dati Activity Map per nome collegamento.
+description: Filtra i dati di Activity Map per nome del collegamento.
 role: Admin, Developer
-feature: Variables
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+feature: Appmeasurement Implementation
+exl-id: 9fc95016-362d-4c21-806e-e23adce9b6f7
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # ActivityMap.linkExclusions
 
-La variabile `ActivityMap.linkExclusions` consente di filtrare o escludere in modo selettivo i dati Activity Map in base al testo nella dimensione [Collegamento Activity Map](/help/components/dimensions/activity-map-link.md).
+La variabile `ActivityMap.linkExclusions` consente di filtrare o escludere in modo selettivo i dati di Activity Map in base al testo nella dimensione [Activity Map Link](/help/components/dimensions/activity-map-link.md).
 
 ## Esclusioni di collegamenti nell’estensione Web SDK
 
 Quando **[!UICONTROL Enable click data collection]** è abilitato, utilizzare il blocco del codice di callback **[!UICONTROL Filter click properties]**. All&#39;interno di questo blocco di codice, è possibile controllare il valore di `content.linkName` e modificare il valore o abbandonare la raccolta di dati di tracciamento dei collegamenti.
 
-## Esclusioni di collegamenti nella libreria JavaScript dell’SDK Web
+## Esclusioni di collegamenti nella libreria JavaScript di Web SDK
 
-Quando [`clickCollectionEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) è abilitato, utilizzare il callback `filterClickDetails` nell&#39;oggetto `clickCollection`. All&#39;interno di questo callback, è possibile controllare il valore di `linkName` e modificare il valore o abbandonare la raccolta di dati di tracciamento dei collegamenti.
+Quando [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) è abilitato, utilizzare il callback `filterClickDetails` nell&#39;oggetto `clickCollection`. All&#39;interno di questo callback, è possibile controllare il valore di `linkName` e modificare il valore o abbandonare la raccolta di dati di tracciamento dei collegamenti.
 
 ```js
 alloy("configure", {
@@ -46,7 +47,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.ActivityMap.linkExclusions tramite AppMeasurement
 
-La variabile `s.ActivityMap.linkExclusions` è una stringa contenente valori delimitati da virgole di frasi da escludere dal tracciamento Activity Map. Se una delle frasi corrisponde al valore raccolto nella dimensione [Collegamento Activity Map](/help/components/dimensions/activity-map-link.md), tutti i dati Activity Map vengono rimossi dall&#39;hit. Questa variabile considera `linkName`, non `linkUrl`.
+La variabile `s.ActivityMap.linkExclusions` è una stringa contenente valori delimitati da virgole di frasi da escludere dal tracciamento di Activity Map. Se una delle frasi corrisponde al valore raccolto nella dimensione [Activity Map Link](/help/components/dimensions/activity-map-link.md), tutti i dati di Activity Map vengono rimossi dall&#39;hit. Questa variabile considera `linkName`, non `linkUrl`.
 
 ```html
 <script>

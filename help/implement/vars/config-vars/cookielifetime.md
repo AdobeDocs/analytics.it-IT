@@ -1,10 +1,10 @@
 ---
 title: cookieLifetime
 description: Ignora la scadenza per i cookie creati da AppMeasurement.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 12%
@@ -13,7 +13,7 @@ ht-degree: 12%
 
 # cookieLifetime
 
-I cookie impostati dall’AppMeasurement hanno in genere una scadenza di 2 anni. Utilizza la variabile `cookieLifetime` per ignorare la data di scadenza dei cookie impostata da AppMeasurement.
+I cookie impostati da AppMeasurement in genere hanno una scadenza di 2 anni. Utilizza la variabile `cookieLifetime` per ignorare la data di scadenza dei cookie impostata da AppMeasurement.
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ I cookie impostati dall’AppMeasurement hanno in genere una scadenza di 2 anni.
 
 ## Durata dei cookie tramite Web SDK
 
-L’SDK per web non offre ancora la personalizzazione per la durata dei cookie impostata.
+Il Web SDK non offre ancora la personalizzazione per la durata dei cookie impostati.
 
 ## Durata dei cookie tramite l’estensione Adobe Analytics
 
@@ -41,11 +41,11 @@ Questo elenco a discesa contiene i seguenti valori:
 
 ## s.cookieLifetime in AppMeasurement e nell&#39;editor di codice personalizzato dell&#39;estensione Analytics
 
-La variabile `s.cookieLifetime` è una stringa che determina la data di scadenza dei cookie impostati dall&#39;AppMeasurement.
+La variabile `s.cookieLifetime` è una stringa che determina la data di scadenza dei cookie impostati da AppMeasurement.
 
 * Se è impostato su `SESSION`, i cookie impostati da AppMeasurement scadono al termine della sessione del browser.
 * Se è impostato su `NONE`, AppMeasurement non tenta di impostare i cookie.
-* Se è impostata su una stringa di numeri interi, i cookie impostati dall’AppMeasurement scadono dopo il numero di secondi specificato.
+* Se è impostata su una stringa di numeri interi, i cookie impostati da AppMeasurement scadono dopo il numero di secondi specificato.
 
 ```js
 // Expire cookies after each session

@@ -1,10 +1,10 @@
 ---
 title: abort
-description: La variabile abort è un valore booleano che impedisce l'invio di un hit ai server di raccolta dati Adobe.
-feature: Variables
+description: La variabile abort è booleana e impedisce l'invio di un hit ai server di raccolta dati di Adobe.
+feature: Appmeasurement Implementation
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 13%
@@ -13,7 +13,7 @@ ht-degree: 13%
 
 # abort
 
-La variabile `abort` è un valore booleano che può impedire l&#39;invio all&#39;Adobe della successiva chiamata di tracciamento. Funzionalità simili esistono nell&#39;SDK Web che consentono di restituire `false` prima dell&#39;invio di un evento XDM.
+La variabile `abort` è un valore booleano che può impedire l&#39;invio ad Adobe della chiamata di tracciamento successiva. Funzionalità simili esistono nel Web SDK che consentono di restituire `false` prima dell&#39;invio di un evento XDM.
 
 ## Annullare l’invio di un evento tramite l’estensione Web SDK
 
@@ -29,9 +29,9 @@ Utilizza l&#39;editor di codice [!UICONTROL On before event send callback] e res
 return false;
 ```
 
-## Annullare l’invio di un evento implementando manualmente l’SDK web
+## Annullare l’invio di un evento implementando manualmente il Web SDK
 
-Utilizza il callback `onBeforeEventSend` e restituisce `false`. Per ulteriori informazioni, consulta [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it#modifying-events-globally) nella documentazione di Web SDK.
+Utilizza il callback `onBeforeEventSend` e restituisce `false`. Per ulteriori informazioni, vedere [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) nella documentazione di Web SDK.
 
 ```js
 alloy("configure"), {
@@ -49,7 +49,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 La variabile `s.abort` è di tipo booleano. Il valore predefinito è `false`.
 
-* Se è impostato su `true`, la successiva chiamata di tracciamento ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)) non invia dati ad Adobe.
+* Se è impostato su `true`, la chiamata di tracciamento successiva ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)) non invia dati ad Adobe.
 * Se è impostata su `false` o non è definita, questa variabile non esegue alcuna operazione.
 
 ```js
@@ -60,7 +60,7 @@ s.abort = true;
 >
 >La variabile `abort` viene reimpostata su `false` dopo ogni chiamata di tracciamento. Se si desidera interrompere le chiamate di tracciamento successive sulla stessa pagina, impostare di nuovo `abort` su `true`.
 
-La variabile `abort` può essere impostata nella funzione [`doPlugins()`](../functions/doplugins.md), che è l&#39;ultima funzione eseguita prima che venga inviata una richiesta di immagine all&#39;Adobe. Questo esempio funziona in modo simile al callback `onBeforeEventSend` utilizzando Web SDK.
+La variabile `abort` può essere impostata nella funzione [`doPlugins()`](../functions/doplugins.md), che è l&#39;ultima funzione eseguita prima che venga inviata una richiesta di immagine ad Adobe. Questo esempio funziona in modo simile al callback `onBeforeEventSend` utilizzando Web SDK.
 
 ```js
 s.doPlugins = function(s) {

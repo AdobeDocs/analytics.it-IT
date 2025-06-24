@@ -2,10 +2,10 @@
 description: Per verificare che l’inoltro lato server sia abilitato correttamente, è necessario controllare la risposta HTTP dalla richiesta di tracciamento di Analytics. Queste istruzioni illustrano gli indicatori che devono essere presenti per garantire che l’inoltro lato server sia abilitato correttamente.
 solution: Analytics
 title: Verificare l’implementazione dell’inoltro lato server
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 70%

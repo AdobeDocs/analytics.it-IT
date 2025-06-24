@@ -1,10 +1,10 @@
 ---
 description: Le sezioni Traffico permanente consentono di modificare i livelli di traffico previsti in modo che Adobe possa riassegnare le risorse per gestire il nuovo livello di traffico.
 title: Specificare aumento traffico permanente
-feature: Traffic Management
+feature: Report Suite Settings
 role: Admin
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 18%
@@ -29,4 +29,4 @@ Puoi modificare i livelli di traffico previsti in modo che Adobe possa riassegna
 
    >[!NOTE]
    >
-   >Per pianificare un aumento permanente del traffico, includi un numero di telefono nelle informazioni di contatto dell’utente in modo che l’Adobe possa contattarti, se necessario, per eventuali domande.
+   >Per pianificare un aumento permanente del traffico, includi un numero di telefono nelle informazioni di contatto dell’utente in modo che Adobe possa contattarti, se necessario, per eventuali domande.

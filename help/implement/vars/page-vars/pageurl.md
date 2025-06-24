@@ -1,10 +1,10 @@
 ---
 title: pageURL
 description: Sostituisci l’URL della pagina raccolto automaticamente sul tuo sito.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 15%

@@ -1,10 +1,10 @@
 ---
 title: useBeacon
-description: useBeacon consente di forzare l’AppMeasurement a utilizzare l’API sendBeacon dei browser
-feature: Variables
+description: useBeacon consente di forzare AppMeasurement a utilizzare l’API sendBeacon dei browser
+feature: Appmeasurement Implementation
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 12%
@@ -13,15 +13,15 @@ ht-degree: 12%
 
 # useBeacon
 
-La maggior parte dei browser moderni include il metodo nativo `navigator.sendBeacon()`. Invia in modo asincrono una piccola quantità di dati tramite HTTP a un server web. L&#39;AppMeasurement può utilizzare il metodo `navigator.sendBeacon()` se la variabile `useBeacon` è abilitata. È utile per i collegamenti di uscita e in altre situazioni in cui desideri inviare informazioni prima che la pagina venga scaricata.
+La maggior parte dei browser moderni include il metodo nativo `navigator.sendBeacon()`. Invia in modo asincrono una piccola quantità di dati tramite HTTP a un server web. AppMeasurement può utilizzare il metodo `navigator.sendBeacon()` se la variabile `useBeacon` è abilitata. È utile per i collegamenti di uscita e in altre situazioni in cui desideri inviare informazioni prima che la pagina venga scaricata.
 
-Se `useBeacon` è abilitato, l&#39;hit successivo inviato ad Adobe utilizza il metodo `navigator.sendBeacon()` del browser invece di una richiesta immagine `GET` standard. Questa variabile si applica sia alle richieste di immagini [`s.t()`](../functions/t-method.md) che a quelle [`s.tl()`](../functions/tl-method.md). Richiede l&#39;AppMeasurement 2.17.0 o versione successiva.
+Se `useBeacon` è abilitato, l&#39;hit successivo inviato ad Adobe utilizza il metodo `navigator.sendBeacon()` del browser invece di una richiesta di immagine `GET` standard. Questa variabile si applica sia alle richieste di immagini [`s.t()`](../functions/t-method.md) che a quelle [`s.tl()`](../functions/tl-method.md). Richiede AppMeasurement 2.17.0 o versione successiva.
 
 >[!TIP]
 >
 >AppMeasurement abilita automaticamente `useBeacon` per le richieste di immagini di collegamento di uscita.
 
-La variabile `useBeacon` viene ignorata quando il visitatore utilizza un browser che non supporta `navigator.sendBeacon()`. L’utilizzo di questa variabile richiede l’AppMeasurement 2.16.0 o versione successiva.
+La variabile `useBeacon` viene ignorata quando il visitatore utilizza un browser che non supporta `navigator.sendBeacon()`. L’utilizzo di questa variabile richiede AppMeasurement 2.16.0 o versione successiva.
 
 ## Utilizzare l’API sendBeacon tramite l’estensione Web SDK
 
@@ -36,7 +36,7 @@ La casella di controllo **[!UICONTROL Document will unload]** all&#39;interno di
 
 Se questa casella è selezionata, i dati vengono inviati ad Adobe utilizzando l’API sendBeacon. Per impostazione predefinita, questa impostazione è deselezionata.
 
-## Utilizzare l’API sendBeacon implementando manualmente l’SDK per web
+## Utilizzare l’API sendBeacon per implementare manualmente il Web SDK
 
 Imposta `documentUnloading` su `true` quando si invia un evento. Se non è impostato, il valore predefinito è `false`.
 
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-Per ulteriori informazioni, consulta [Utilizzo dell&#39;API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it#using-the-sendbeacon-api) nella documentazione di Web SDK.
+Per ulteriori informazioni, vedere [Utilizzo dell&#39;API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) nella documentazione di Web SDK.
 
 ## Utilizzare Beacon con l’estensione Adobe Analytics
 

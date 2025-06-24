@@ -1,10 +1,10 @@
 ---
 title: visitorID
 description: Utilizza un ID visitatore personalizzato.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 11%
@@ -13,11 +13,11 @@ ht-degree: 11%
 
 # visitorID
 
-In Adobe vengono utilizzati diversi metodi per identificare i visitatori sul sito. La variabile `visitorID` sostituisce tutti gli altri metodi di identificazione dei visitatori.
+Adobe utilizza diversi metodi per identificare i visitatori sul sito. La variabile `visitorID` sostituisce tutti gli altri metodi di identificazione dei visitatori.
 
 >[!IMPORTANT]
 >
->L’Adobe consiglia di non utilizzare questa variabile. Utilizza invece il [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
+>Adobe consiglia di non utilizzare questa variabile. Utilizza invece il [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
 
 ## ID visitatore tramite l’estensione Adobe Analytics
 
@@ -44,8 +44,8 @@ s.visitorID = "abc123";
 
 >[!CAUTION]
 >
->Un’implementazione non valida degli ID visitatore personalizzati può portare a dati errati e prestazioni di reporting scadenti. Se questa variabile contiene un valore predefinito (ad esempio `"0"` o `"NULL"`), Adobe tratta questi risultati come se fossero lo stesso visitatore. Questa situazione genera dati errati, con un numero basso di visitatori e segmenti a livello di visitatore che non funzionano come previsto. Gli ID visitatore personalizzati implementati in modo non corretto introducono anche un carico pesante sui server di elaborazione, aumentando la [latenza](/help/technotes/latency.md) e riducendo le prestazioni del rapporto.
+>Un’implementazione non valida degli ID visitatore personalizzati può portare a dati errati e prestazioni di reporting scadenti. Se questa variabile contiene un valore predefinito (ad esempio `"0"` o `"NULL"`), Adobe considera questi risultati come se fossero lo stesso visitatore. Questa situazione genera dati errati, con un numero basso di visitatori e segmenti a livello di visitatore che non funzionano come previsto. Gli ID visitatore personalizzati implementati in modo non corretto introducono anche un carico pesante sui server di elaborazione, aumentando la [latenza](/help/technotes/latency.md) e riducendo le prestazioni del rapporto.
 
-## ID visitatore tramite Web SDK
+## ID visitatore che utilizza il Web SDK
 
-L&#39;Edge Network di Adobe Experience Platform consente di fornire più identificatori utilizzando la [Identity Map](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=it#using-identitymap) di XDM. Ogni identità in Identity Map ha uno spazio dei nomi diverso. È possibile specificare quale spazio dei nomi utilizzare per l&#39;ID visitatore come parte della [configurazione dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it#analytics). Una volta configurato, quando invii un evento con un valore specificato per questo spazio dei nomi, verrà utilizzato automaticamente come ID visitatore in Analytics.
+Adobe Experience Platform Edge Network consente di fornire più identificatori utilizzando la [Identity Map](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap) di XDM. Ogni identità in Identity Map ha uno spazio dei nomi diverso. È possibile specificare quale spazio dei nomi utilizzare per l&#39;ID visitatore come parte della [configurazione dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Una volta configurato, quando invii un evento con un valore specificato per questo spazio dei nomi, verrà utilizzato automaticamente come ID visitatore in Analytics.

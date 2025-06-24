@@ -1,10 +1,10 @@
 ---
 title: Evento di acquisto
 description: Utilizza l’evento di acquisto per raccogliere i dati per le metriche "Ordini", "Unità" e "Entrate".
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 10%
@@ -23,7 +23,7 @@ L’impostazione di un evento di acquisto influisce sulle metriche seguenti:
 
 >[!NOTE]
 >
->I ricavi non vengono moltiplicati per il campo della quantità. Ad esempio, `s.products="Womens;Socks;5;4.50"` non trasferisce 22,50 $ in ricavi; ne trasmette 4,50 $. Assicurati che l’implementazione superi i ricavi totali per la quantità indicata. Esempio: `s.products="Womens;Socks;5;22.50"`.
+>I ricavi non vengono moltiplicati per il campo della quantità. Ad esempio, `s.products="Womens;Socks;5;4.50"` non trasferisce 22,50 $ in ricavi; ne trasmette 4,50 $. Assicurati che l’implementazione superi i ricavi totali per la quantità indicata. Ad esempio: `s.products="Womens;Socks;5;22.50"`.
 
 ## Impostare l’evento di acquisto tramite Web SDK
 
@@ -70,7 +70,7 @@ Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mappin
 
 Altre variabili dipendenti come `products` e `purchaseID` non dispongono di campi dedicati nell&#39;estensione Analytics all&#39;interno di Adobe Experience Platform Data Collection. Utilizza l’editor di codice personalizzato seguendo la sintassi di AppMeasurement per queste variabili.
 
-## Imposta l’evento di acquisto in AppMeasurement e l’editor di codice personalizzato dell’estensione Analytics
+## Impostare l’evento di acquisto in AppMeasurement e l’editor di codice personalizzato dell’estensione Analytics
 
 L’evento di acquisto è una stringa impostata come parte della variabile degli eventi.
 

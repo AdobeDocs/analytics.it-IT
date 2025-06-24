@@ -2,10 +2,10 @@
 description: L’inoltro lato server è progettato per i clienti che vogliono condividere in tempo reale dati da Analytics ad altre soluzioni Experience Cloud. Se abilitato, l’inoltro lato server consente ad Analytics di trasmettere i dati ad altre soluzioni Experience Cloud e a queste di trasmetterli ad Analytics durante il processo di raccolta dei dati.
 solution: Analytics
 title: Panoramica sull’inoltro lato server
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 100%
@@ -27,7 +27,7 @@ L’inoltro lato server migliora la raccolta dati perché:
 >Gli attuali clienti di Audience Manager che utilizzano Analytics devono eseguire la migrazione ala funzione di inoltro lato server. I nuovi clienti Adobe Analytics e Audience Manager devono implementare l’inoltro lato server (anziché DIL) come metodo predefinito per la raccolta e il trasferimento dei dati.
 
 >[!IMPORTANT]
->In base al regolamento UE sulla conformità dei cookie, i titolari del trattamento dei dati (clienti Analytics) hanno ora la possibilità di limitare i dati divulgati prima del consenso ad Adobe Analytics e di impedire che vengano inoltrati dal server ad Adobe Audience Manager. Una nuova variabile di contesto dell’implementazione consente di contrassegnare ogni hit per cui non è stato ricevuto il consenso. La variabile, se impostata, impedisce che tali hit vengano inviati ad Adobe Audience Manager finché non sia stato ricevuto il consenso. Per ulteriori informazioni, consulta [Conformità RGPD_ePrivacy e inoltro lato server](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
+>In base al regolamento UE sulla conformità dei cookie, i titolari del trattamento dei dati (clienti Analytics) hanno ora la possibilità di limitare i dati divulgati prima del consenso ad Adobe Analytics e di impedire che vengano inoltrati dal server ad Adobe Audience Manager. Una nuova variabile di contesto dell’implementazione consente di contrassegnare ogni hit per cui non è stato ricevuto il consenso. La variabile, se impostata, impedisce che tali hit vengano inviati ad Adobe Audience Manager finché non sia stato ricevuto il consenso. Per ulteriori informazioni, consulta [Conformità GDPR_ePrivacy e inoltro lato server](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Per individuare la posizione della tua organizzazione in termini di implementazione dell’inoltro lato server, segui questi passaggi di convalida:
 

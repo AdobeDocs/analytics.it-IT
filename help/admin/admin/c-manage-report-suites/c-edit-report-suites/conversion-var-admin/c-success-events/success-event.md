@@ -2,10 +2,10 @@
 description: Gli eventi di successo sono azioni che possono essere tracciate. È possibile determinare la natura dell’evento di successo. Ad esempio, se un visitatore acquista un articolo, l’evento di acquisto potrebbe essere considerato l’evento di successo.
 keywords: evento
 title: Panoramica degli eventi di successo
-feature: Event
+feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 48%
@@ -16,7 +16,7 @@ ht-degree: 48%
 
 Gli eventi di successo (noti anche come eventi di conversione o eventi personalizzati) sono azioni che possono essere tracciate. È possibile determinare la natura dell’evento di successo. Ad esempio, se un visitatore acquista un articolo, l’evento di acquisto potrebbe essere considerato l’evento di successo.
 
-Per una panoramica video degli eventi di successo, consulta [Introduzione agli eventi di conversione](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) nella guida delle esercitazioni di Analytics.
+Per una panoramica video degli eventi di successo, consulta [Introduzione agli eventi di conversione](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) nella guida delle esercitazioni di Analytics.
 
 ## Esempi di eventi di successo
 
@@ -56,7 +56,7 @@ Per configurare eventi di successo:
    >
    >Quando modifichi il tipo di evento, tieni presente quanto segue:<ul><li>È possibile modificare il tipo di evento tra contatore e numerico senza perdere l’accesso ai dati acquisiti in precedenza.</li><li>Quando si modificano i tipi di evento in o da un evento di valuta, viene visualizzato un messaggio che informa che i dati storici non sono disponibili nel reporting. I tipi di evento diversi utilizzano tabelle di dati separate e non possono essere utilizzati contemporaneamente. Alcuni dati storici possono essere ripristinati se l’utente ripristina il tipo di evento. Tuttavia, i dati raccolti dopo la modifica iniziale non sono disponibili.</li></ul>
 
-   Il tipo selezionato determina se l&#39;evento è un evento contatore (standard), numerico o di valuta. <p>Gli eventi contatore vengono utilizzati per registrare un evento nel tempo.</p><p>Gli eventi numerici vengono utilizzati per generare rapporti sui numeri non in valuta, ad esempio il numero di coupon utilizzati in un ordine.</p> <p>Gli eventi di valuta registrano un numero decimale, ad esempio imposta o spedizione. Il valore passato negli eventi di valuta viene convertito dalla valuta della pagina alla valuta di base della suite di rapporti al momento della ricezione. Gli eventi di valuta vengono utilizzati per tenere traccia delle imposte e delle spese di spedizione. Per informazioni sull’utilizzo degli eventi relativi alla valuta, contatta un rappresentante di Adobi.<p>Gli eventi numerici e di valuta consentono di incrementare le metriche di più di uno.</p><p>Gli eventi utilizzati nel tipo Standard di Origini dati devono essere eventi numerici o di valuta.</p>
+   Il tipo selezionato determina se l&#39;evento è un evento contatore (standard), numerico o di valuta. <p>Gli eventi contatore vengono utilizzati per registrare un evento nel tempo.</p><p>Gli eventi numerici vengono utilizzati per generare rapporti sui numeri non in valuta, ad esempio il numero di coupon utilizzati in un ordine.</p> <p>Gli eventi di valuta registrano un numero decimale, ad esempio imposta o spedizione. Il valore passato negli eventi di valuta viene convertito dalla valuta della pagina alla valuta di base della suite di rapporti al momento della ricezione. Gli eventi di valuta vengono utilizzati per tenere traccia delle imposte e delle spese di spedizione. Per informazioni sull’utilizzo degli eventi relativi alla valuta, contatta un rappresentante di Adobe.<p>Gli eventi numerici e di valuta consentono di incrementare le metriche di più di uno.</p><p>Gli eventi utilizzati nel tipo Standard di Origini dati devono essere eventi numerici o di valuta.</p>
 
 1. Nella colonna **[!UICONTROL Polarity]**, seleziona la casella di controllo, quindi scegli dal menu a discesa se una tendenza verso l’alto per questa metrica è buona o cattiva.
 

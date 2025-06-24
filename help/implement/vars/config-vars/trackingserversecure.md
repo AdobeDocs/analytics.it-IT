@@ -1,10 +1,10 @@
 ---
 title: trackingServerSecure
 description: Determina il percorso in cui le richieste di immagini vengono inviate sulle pagine HTTPS.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 14%
@@ -28,15 +28,15 @@ Web SDK utilizza [!UICONTROL Edge domain] per gestire sia il server di tracciame
 1. Passa alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
 1. Imposta il campo di testo **[!UICONTROL Edge domain]** desiderato.
 
-Per ulteriori informazioni, consulta [Configurare l&#39;estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=it) nella documentazione di Web SDK.
+Per ulteriori informazioni, vedere [Configurare l&#39;estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=it) nella documentazione di Web SDK.
 
 >[!TIP]
 >
->Se l&#39;organizzazione passa a Web SDK da un&#39;implementazione di AppMeasurement o estensione Analytics, questo campo può utilizzare lo stesso valore contenuto in `trackingServerSecure` (o `trackingServer`).
+>Se l&#39;organizzazione passa al Web SDK da un&#39;implementazione di AppMeasurement o Analytics, questo campo può utilizzare lo stesso valore contenuto in `trackingServerSecure` (o `trackingServer`).
 
-## Dominio Edge con implementazione manuale dell’SDK per web
+## Dominio Edge con implementazione manuale del Web SDK
 
-Configurare l&#39;SDK utilizzando [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it). Il campo è una stringa che determina il dominio a cui inviare i dati.
+Configurare SDK utilizzando [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it). Il campo è una stringa che determina il dominio a cui inviare i dati.
 
 ```json
 alloy("configure", {
@@ -59,7 +59,7 @@ Se questo campo viene lasciato vuoto, per impostazione predefinita viene utilizz
 
 La variabile `s.trackingServerSecure` è una stringa che contiene la posizione in cui inviare richieste di immagini. È quasi sempre un sottodominio del sito. Le moderne pratiche di privacy nei browser rendono comunemente inaffidabili i cookie di terze parti. Se questa variabile è vuota, verrà utilizzato il valore della variabile `s.trackingServer`.
 
-Il valore di questa variabile è quasi sempre un dominio di prime parti, ad esempio `data.example.com`. Per ulteriori informazioni sulla procedura dei cookie di prime parti, consulta [Cookie di prime parti nell&#39;Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=it) nella guida utente dei servizi core.
+Il valore di questa variabile è quasi sempre un dominio di prime parti, ad esempio `data.example.com`. Per ulteriori informazioni sul processo dei cookie di prime parti, consulta [Cookie di prime parti in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=it) nella guida utente dei servizi core.
 
 L’utente che configura inizialmente l’implementazione dei cookie di prime parti definisce anche il dominio e il sottodominio utilizzati. Ad esempio:
 

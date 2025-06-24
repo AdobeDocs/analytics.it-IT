@@ -1,10 +1,10 @@
 ---
 title: dynamicVariablePrefix
 description: Consente di personalizzare la stringa che identifica le variabili dinamiche.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 14%
@@ -19,7 +19,7 @@ Per impostazione predefinita, le variabili dinamiche utilizzano il prefisso `D=`
 
 ## Prefisso della variabile dinamica tramite Web SDK
 
-L’SDK per web non utilizza la formattazione dinamica delle variabili. È invece possibile utilizzare la mappatura dello stream di dati per compilare più campi di destinazione utilizzando un singolo campo Source. Per ulteriori informazioni, vedere [Variabili dinamiche tramite Web SDK](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk).
+Il Web SDK non utilizza la formattazione dinamica delle variabili. È invece possibile utilizzare la mappatura dello stream di dati per compilare più campi di destinazione utilizzando un singolo campo Source. Per ulteriori informazioni, vedere [Variabili dinamiche tramite Web SDK](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk).
 
 Se invii dati direttamente ad Adobe Analytics senza essere conforme a uno schema, utilizza la variabile seguente:
 

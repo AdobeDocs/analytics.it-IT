@@ -2,8 +2,8 @@
 title: Esclusione di date specifiche nell’analisi
 description: Suggerimenti per escludere date o intervalli di date se non si desidera includerli nei rapporti.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
-feature: Event, Segmentation
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+feature: Curate and Share, Segmentation
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Crea un segmento che isola il giorno o l’intervallo di date interessato. Quest
 >
 >Per modificare l&#39;istruzione OR in un&#39;istruzione AND, fare clic sulla freccia in giù accanto a OR e selezionare AND.
 
-L’Adobe consiglia di utilizzare i componenti dimensione arancione e non i componenti intervallo date viola. Se utilizzi componenti di intervallo date viola, questi sovrascrivono l’intervallo di calendario del progetto:
+Adobe consiglia di utilizzare i componenti dimensione arancione e non i componenti intervallo di date viola. Se utilizzi componenti di intervallo date viola, questi sovrascrivono l’intervallo di calendario del progetto:
 
 ![Escludi tipo di giorno segmento](assets/exclude_segment_day_type.jpg)
 

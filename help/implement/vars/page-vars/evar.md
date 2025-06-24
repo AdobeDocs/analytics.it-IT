@@ -1,10 +1,10 @@
 ---
 title: eVar (variabile)
 description: Variabili personalizzate che puoi utilizzare nell’implementazione.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 93%

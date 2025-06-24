@@ -1,21 +1,21 @@
 ---
 title: getAndPersistValue
 description: Memorizza un valore che può essere recuperato in un secondo momento in qualsiasi momento.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 7%
 
 ---
 
-# Plug-in di Adobe: getAndPersistValue
+# Plug-in Adobe: getAndPersistValue
 
 {{plug-in}}
 
-Il plug-in `getAndPersistValue` consente di memorizzare un valore in un cookie che può essere recuperato in seguito durante una visita. Ha un ruolo simile alla funzione [!UICONTROL Storage duration] nell&#39;estensione Adobe Analytics in Raccolta dati Adobe Experience Platform. L’Adobe consiglia di utilizzare questo plug-in se desideri che una variabile di Analytics mantenga automaticamente lo stesso valore negli hit successivi dopo l’impostazione della variabile. Questo plug-in non è necessario se la funzionalità [!UICONTROL Storage duration] nell&#39;estensione Analytics è sufficiente. Inoltre, non è necessario utilizzare questo plug-in se non è necessario impostare e mantenere le variabili allo stesso valore negli hit successivi. La persistenza integrata delle eVar non richiede l’utilizzo di questo plug-in, in quanto le eVar persistono lato server dopo Adobe.
+Il plug-in `getAndPersistValue` consente di memorizzare un valore in un cookie che può essere recuperato in seguito durante una visita. Ha un ruolo simile alla funzione [!UICONTROL Storage duration] nell&#39;estensione Adobe Analytics in Raccolta dati Adobe Experience Platform. Adobe consiglia di utilizzare questo plug-in se desideri che una variabile di Analytics mantenga automaticamente lo stesso valore negli hit successivi dopo l’impostazione della variabile. Questo plug-in non è necessario se la funzionalità [!UICONTROL Storage duration] nell&#39;estensione Analytics è sufficiente. Inoltre, non è necessario utilizzare questo plug-in se non è necessario impostare e mantenere le variabili allo stesso valore negli hit successivi. La persistenza incorporata delle eVar non richiede l’utilizzo di questo plug-in, in quanto le eVar persistono lato server tramite Adobe.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
@@ -34,7 +34,7 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 ## Installare manualmente il plug-in implementando Web SDK
 
-Questo plug-in non è ancora supportato per l’utilizzo in un’implementazione manuale dell’SDK per web.
+Questo plug-in non è ancora supportato per l&#39;utilizzo in un&#39;implementazione manuale del Web SDK.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -65,7 +65,7 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta Adobe a risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

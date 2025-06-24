@@ -1,10 +1,10 @@
 ---
 title: Collisioni hash
 description: Descrive cosa è una collisione hash e come può manifestarsi.
-feature: Validation
+feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 06f61fa7b39faacea89149650e378c8b8863ac4f
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Collisioni hash
 
-I Dimension in Adobe Analytics raccolgono valori stringa. A volte queste stringhe sono lunghe centinaia di caratteri, mentre altre volte sono brevi. Per migliorare le prestazioni, questi valori stringa non vengono utilizzati direttamente nell’elaborazione. Viene invece calcolato un hash per ogni valore per rendere tutti i valori di una dimensione uniforme. Tutti i rapporti vengono eseguiti su questi valori con hash, che ne aumentano notevolmente le prestazioni.
+Le dimensioni in Adobe Analytics raccolgono valori stringa. A volte queste stringhe sono lunghe centinaia di caratteri, mentre altre volte sono brevi. Per migliorare le prestazioni, questi valori stringa non vengono utilizzati direttamente nell’elaborazione. Viene invece calcolato un hash per ogni valore per rendere tutti i valori di una dimensione uniforme. Tutti i rapporti vengono eseguiti su questi valori con hash, che ne aumentano notevolmente le prestazioni.
 
 Per la maggior parte dei campi, la stringa viene prima convertita in tutte le lettere minuscole. La conversione in minuscolo riduce il numero di valori univoci. I valori vengono sottoposti a hashing su base mensile; nel caso di un determinato valore viene utilizzato il primo valore visualizzato ogni mese. Mese per mese, esiste una piccola possibilità che due valori di variabile univoci vengano hash allo stesso valore. Questo concetto è noto come *conflitto hash*.
 
@@ -39,7 +39,7 @@ Simile al paradosso del [compleanno](https://en.wikipedia.org/wiki/Birthday_prob
 
 ## Mitigazione delle collisioni hash
 
-La maggior parte delle collisioni hash si verifica con due valori non comuni, che non hanno alcun impatto significativo sui rapporti. Anche se un hash si scontra con un valore comune e non comune, il risultato è trascurabile. Tuttavia, in rari casi in cui due valori popolari sperimentano una collisione hash, è possibile vedere chiaramente il suo effetto. L’Adobe consiglia di ridurre l’effetto nei rapporti come segue:
+La maggior parte delle collisioni hash si verifica con due valori non comuni, che non hanno alcun impatto significativo sui rapporti. Anche se un hash si scontra con un valore comune e non comune, il risultato è trascurabile. Tuttavia, in rari casi in cui due valori popolari sperimentano una collisione hash, è possibile vedere chiaramente il suo effetto. Per ridurre l’effetto nei rapporti, Adobe consiglia di effettuare le seguenti operazioni:
 
 * **Modifica l&#39;intervallo di date**: le tabelle hash cambiano ogni mese. Se si modifica l’intervallo di date in modo che si estenda su un altro mese, a ogni valore possono essere assegnati hash diversi che non si scontrano.
 * **Riduci il numero di valori univoci**: puoi regolare l&#39;implementazione o utilizzare [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) per ridurre il numero di valori univoci raccolti da una dimensione. Ad esempio, se la dimensione raccoglie un URL, puoi rimuovere stringhe di query o protocollo.

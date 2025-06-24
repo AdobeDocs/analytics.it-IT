@@ -1,10 +1,10 @@
 ---
 title: t
 description: Invia ad Adobe una chiamata di tracciamento per la visualizzazione della pagina.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 14%
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Per ulteriori informazioni, vedere [`sendEvent`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/sendevent/overview) nella documentazione di Web SDK.
+Per ulteriori informazioni, vedere [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) nella documentazione di Web SDK.
 
 ## Chiamata di tracciamento per la visualizzazione pagina tramite l’estensione Adobe Analytics
 

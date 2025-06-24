@@ -1,10 +1,10 @@
 ---
 title: Serializzazione degli eventi
 description: Aiuta a deduplicare le metriche sul tuo sito.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 10%
@@ -26,14 +26,14 @@ Devi prima impostare [!UICONTROL Unique Event Recording] di un evento su [!UICON
 Quando si utilizzano gli ID evento, la deduplicazione si verifica sui seguenti livelli:
 
 * Ogni variabile utilizza una propria tabella per la deduplicazione. Ad esempio, `event1:ABC` e `event2:ABC` sono entrambi conteggiati nel reporting.
-* La deduplicazione avviene a livello globale per tutti i visitatori. Se il visitatore A invia `event1:ABC` e poi il visitatore B invia anche `event1:ABC`, l&#39;Adobe ignora la seconda istanza dal visitatore B.
-* La deduplicazione non scade. Se un visitatore invia `event1:ABC` e poi ritorna 2 anni dopo, inviando nuovamente `event1:ABC`, l&#39;Adobe ignora la seconda istanza.
+* La deduplicazione avviene a livello globale per tutti i visitatori. Se il visitatore A invia `event1:ABC` e poi il visitatore B invia anche `event1:ABC`, Adobe ignora la seconda istanza dal visitatore B.
+* La deduplicazione non scade. Se un visitatore invia `event1:ABC` e poi ritorna 2 anni dopo, inviando nuovamente `event1:ABC`, Adobe ignora la seconda istanza.
 
 >[!TIP]
 >
 >Per deduplicare l&#39;evento [`purchase`](event-purchase.md), utilizzare la variabile [`purchaseID`](../purchaseid.md).
 
-## Utilizzare gli ID evento con Web SDK
+## Utilizzare gli ID evento tramite Web SDK
 
 Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), la serializzazione degli eventi utilizza il campo XDM dell&#39;evento desiderato `id`. Il percorso XDM completo dipende dall’evento da serializzare.
 

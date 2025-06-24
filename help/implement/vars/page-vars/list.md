@@ -1,10 +1,10 @@
 ---
 title: list
 description: Variabili personalizzate che contengono più valori nello stesso hit.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 75%
@@ -27,7 +27,7 @@ Assicurati di configurare ogni variabile elenco nelle impostazioni della suite d
 
 ## Variabili elenco tramite il Web SDK
 
-Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), le variabili elenco utilizzano i campi XDM da `xdm._experience.analytics.customDimensions.lists.list1.list[]` a `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Ogni elemento matrice contiene un oggetto `"value"` che contiene ogni stringa. Non è necessario fornire un delimitatore. I server di raccolta dati di Adobe rilevano e includono automaticamente il delimitatore corretto impostato nelle [impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), le variabili elenco utilizzano i campi XDM da `xdm._experience.analytics.customDimensions.lists.list1.list[]` a `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Ogni elemento array contiene un oggetto `"value"` che contiene ogni stringa. Non è necessario fornire un delimitatore. I server di raccolta dati di Adobe rilevano e includono automaticamente il delimitatore corretto impostato nelle [impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -57,7 +57,7 @@ Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.
 
 >[!NOTE]
 >
->Lo schema XDM di Adobe contiene oggetti `key` oltre a oggetti `value` in ogni matrice `list[]`. Adobe non utilizza questi oggetti `key` durante l’invio di dati ad Adobe Analytics.
+>Lo schema XDM di Adobe contiene oggetti `key` oltre a oggetti `value` in ogni array `list[]`. Adobe non utilizza questi oggetti `key` durante l’invio di dati ad Adobe Analytics.
 
 Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), le variabili elenco utilizzano `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` seguendo la sintassi di AppMeasurement. Assicurati di utilizzare il set di delimitatori corretto in [Impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 

@@ -1,17 +1,17 @@
 ---
 title: getPercentPageViewed
 description: Recupera la percentuale della pagina visualizzata dal visitatore.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 4%
 
 ---
 
-# Plug-in di Adobe: getPercentPageViewed
+# Plug-in Adobe: getPercentPageViewed
 
 {{plug-in}}
 
@@ -19,7 +19,7 @@ Il plug-in `getPercentPageViewed` misura l&#39;attività di scorrimento di un vi
 
 ## Installare il plug-in utilizzando l’estensione Web SDK o Web SDK
 
-Questo plug-in non è ancora supportato per l’utilizzo nell’SDK per web.
+Questo plug-in non è ancora supportato per l&#39;utilizzo in Web SDK.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -50,7 +50,7 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta Adobe a risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,8 +63,8 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 La funzione `getPercentPageViewed` utilizza i seguenti argomenti:
 
-* **`pid`** (facoltativo, stringa): variabile o valore uguale alla pagina corrente. Impostazione predefinita della variabile `pageName` di AppMeasurement di Analytics OPPURE dell&#39;URL corrente se la variabile pageName di AppMeasurement non è impostata.
-* **`ch`** (facoltativo, booleano): impostalo su `false` (o `0`) se non vuoi che il plug-in tenga conto di eventuali modifiche apportate alle dimensioni di una pagina dopo il suo caricamento iniziale. Se omesso, l&#39;impostazione predefinita di questo argomento sarà `true`. L&#39;Adobe consiglia di omettere questo argomento nella maggior parte dei casi.
+* **`pid`** (facoltativo, stringa): variabile o valore uguale alla pagina corrente. Impostazione predefinita della variabile Analytics AppMeasurement `pageName` OPPURE dell&#39;URL corrente se la variabile pageName di AppMeasurement non è impostata.
+* **`ch`** (facoltativo, booleano): impostalo su `false` (o `0`) se non vuoi che il plug-in tenga conto di eventuali modifiche apportate alle dimensioni di una pagina dopo il suo caricamento iniziale. Se omesso, l&#39;impostazione predefinita di questo argomento sarà `true`. Nella maggior parte dei casi, Adobe consiglia di omettere questo argomento.
 
 La chiamata di questa funzione non restituisce alcun risultato, ma imposta le seguenti variabili:
 

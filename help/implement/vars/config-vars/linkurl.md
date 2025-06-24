@@ -1,10 +1,10 @@
 ---
 title: linkURL
-description: Sostituisci l’AppMeasurement dell’URL di collegamento generato automaticamente utilizzato nelle chiamate di tracciamento dei collegamenti.
-feature: Variables
+description: Sostituisci l’URL di collegamento generato automaticamente utilizzato da AppMeasurement nelle chiamate di tracciamento dei collegamenti.
+feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 15%

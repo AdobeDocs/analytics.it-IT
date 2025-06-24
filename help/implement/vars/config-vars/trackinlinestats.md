@@ -1,11 +1,11 @@
 ---
 title: trackInlineStats
-description: (Ritirato) Abilita o disabilita la ClickMap nell’implementazione.
+description: (Ritirato) Abilita o disabilita ClickMap nell’implementazione.
 keywords: disattiva clickmap
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 role: Admin, Developer
-source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 17%
@@ -20,7 +20,7 @@ ht-degree: 17%
 
 ClickMap è una funzione ritirata di Adobe Analytics che raccoglie dati su dove i visitatori fanno clic e su ciò che fanno clic. La funzionalità è stata sostituita con [Activity Map](/help/analyze/activity-map/overview.md).
 
-Quando è abilitato, AppMeasurement raccoglie informazioni sul collegamento e invia tali dati nella richiesta di immagine successiva. Le informazioni di ogni clic vengono memorizzate in un cookie con etichetta `s_sq`.
+Quando è abilitata, AppMeasurement raccoglie informazioni sul collegamento e invia tali dati nella richiesta di immagine successiva. Le informazioni di ogni clic vengono memorizzate in un cookie con etichetta `s_sq`.
 
 ## Abilitare ClickMap tramite l’estensione Adobe Analytics
 
@@ -37,7 +37,7 @@ Quando è abilitato, AppMeasurement raccoglie informazioni sul collegamento e in
 
 ## s.trackInlineStats in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-`s.trackInlineStats` è un valore booleano che abilita o disabilita il tracciamento delle ClickMap. Poiché la funzione è stata ritirata, Adobe sconsiglia di impostare questa variabile. Il valore predefinito è `false`.
+`s.trackInlineStats` è un valore booleano che abilita o disabilita il tracciamento di ClickMap. Poiché la funzione è stata ritirata, Adobe sconsiglia di impostare questa variabile. Il valore predefinito è `false`.
 
 ```js
 s.trackInlineStats = false;

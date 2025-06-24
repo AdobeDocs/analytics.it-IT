@@ -1,26 +1,27 @@
 ---
 title: ActivityMap.regionExclusions
-description: Filtra i dati Activity Map per area geografica.
+description: Filtra i dati di Activity Map per area geografica.
 role: Admin, Developer
-feature: Variables
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+feature: Appmeasurement Implementation
+exl-id: 353282aa-860c-45dc-a6b0-8d9f1fa09f13
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # ActivityMap.regionExclusions
 
-La variabile `ActivityMap.regionExclusions` consente di filtrare o escludere in modo selettivo i dati Activity Map in base agli elementi dimensione raccolti nella dimensione [Area geografica Activity Map](/help/components/dimensions/activity-map-region.md).
+La variabile `ActivityMap.regionExclusions` consente di filtrare o escludere in modo selettivo i dati di Activity Map in base agli elementi dimensione raccolti nella dimensione [Area geografica Activity Map](/help/components/dimensions/activity-map-region.md).
 
 ## Esclusioni di area nell’estensione Web SDK
 
 Quando **[!UICONTROL Enable click data collection]** è abilitato, utilizzare il blocco del codice di callback **[!UICONTROL Filter click properties]**. All&#39;interno di questo blocco di codice, è possibile controllare il valore di `content.linkRegion` e modificare il valore o abbandonare la raccolta di dati di tracciamento dei collegamenti.
 
-## Esclusioni di area nella libreria JavaScript dell’SDK Web
+## Esclusioni di area nella libreria JavaScript di Web SDK
 
-Quando [`clickCollectionEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) è abilitato, utilizzare il callback `filterClickDetails` nell&#39;oggetto `clickCollection`. All&#39;interno di questo callback, è possibile controllare il valore di `linkRegion` e modificare il valore o abbandonare la raccolta di dati di tracciamento dei collegamenti.
+Quando [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) è abilitato, utilizzare il callback `filterClickDetails` nell&#39;oggetto `clickCollection`. All&#39;interno di questo callback, è possibile controllare il valore di `linkRegion` e modificare il valore o abbandonare la raccolta di dati di tracciamento dei collegamenti.
 
 ```js
 alloy("configure", {
@@ -42,7 +43,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.ActivityMap.regionExclusions tramite AppMeasurement
 
-La variabile `s.ActivityMap.regionExclusions` è una stringa contenente frasi delimitate da virgole da escludere dal tracciamento Activity Map. Se una delle frasi corrisponde al valore raccolto nella dimensione [Area Activity Map](/help/components/dimensions/activity-map-region.md), tutti i dati Activity Map vengono rimossi dall&#39;hit.
+La variabile `s.ActivityMap.regionExclusions` è una stringa contenente frasi delimitate da virgole da escludere dal tracciamento di Activity Map. Se una delle frasi corrisponde al valore raccolto nella dimensione [Area geografica Activity Map](/help/components/dimensions/activity-map-region.md), tutti i dati di Activity Map vengono rimossi dall&#39;hit.
 
 ```html
 <script>

@@ -1,10 +1,10 @@
 ---
 title: Integrare il modulo
-description: Il modulo Integra consente ai partner Adobi di integrare le attività di raccolta dati con l’organizzazione.
-feature: Variables
+description: Il modulo Integra consente ai partner Adobe di integrare le attività di raccolta dati con l’organizzazione.
+feature: Appmeasurement Implementation
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # Integrare il modulo
 
-Il modulo Integra consente ai partner Adobi di integrare le attività di raccolta dati con l’organizzazione. Questa integrazione offre l’opportunità di una connessione dati bidirezionale. In genere, l’utilizzo del modulo di integrazione è gestito da un partner Adobe.
+Il modulo Integra consente ai partner Adobe di integrare le attività di raccolta dati con l’organizzazione. Questa integrazione offre l’opportunità di una connessione dati bidirezionale. In genere, l’utilizzo del modulo di integrazione è gestito da un partner Adobe.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Il modulo Integra consente ai partner Adobi di integrare le attività di raccolt
 1. Un visitatore del sito carica una pagina che avvia una richiesta `get` per dati partner.
 2. Il partner Adobe riceve la richiesta `get` e crea un pacchetto delle variabili appropriate in un oggetto JSON. Viene restituito l’oggetto JSON.
 3. Il sito riceve l&#39;oggetto JSON e chiama `setVars` per assegnare le informazioni contenute nell&#39;oggetto JSON alle variabili di Adobe Analytics
-4. Viene inviata una richiesta di immagine ai server di raccolta dati Adobe.
+4. Viene inviata una richiesta di immagine ai server di raccolta dati di Adobe.
 
 ## Implementazione del modulo di integrazione
 
@@ -37,7 +37,7 @@ Per ottenere il codice del modulo è necessario avere accesso come amministrator
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
 1. Fai clic sull’icona a 9 quadrati in alto a destra, quindi fai clic sul logo a colori di Analytics.
 1. Nella navigazione in alto, fai clic su **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**.
-1. Scarica la libreria di AppMeasurement più recente di JavaScript.
+1. Scarica la libreria AppMeasurement di JavaScript più recente.
 1. Una volta scaricato, decomprimere il file e individuare `AppMeasurement_Module_Integrate.js`.
 
 ### Posizionare il modulo Integrate nell’implementazione
@@ -52,7 +52,7 @@ L’implementazione del modulo di integrazione sul sito richiede l’accesso a R
 
 ## Integrare i metodi del modulo
 
-Una volta implementato il modulo Integrate, puoi configurarlo per inviare e ricevere dati dal partner Adobe desiderato.
+Una volta implementato il modulo Integrate, puoi utilizzarlo per configurarlo e inviare e ricevere dati dal partner Adobe desiderato.
 
 ### aggiungi
 
@@ -62,21 +62,21 @@ Il metodo `add` crea un&#39;istanza di un oggetto partner, che funge da archivio
 s.Integrate.add("<partner_name>");
 ```
 
-In genere, l’organizzazione collabora con un partner Adobe per determinare il valore del nome del partner.
+In genere, la tua organizzazione collabora con un partner Adobe per determinare il valore del nome del partner.
 
 ### beacon
 
-Il metodo `beacon` crea una richiesta di immagine e la punta all&#39;URL specificato. Queste richieste di immagini sono diverse dalle richieste di immagini standard. In genere, il metodo beacon invia i dati al partner Adobe anziché ai server di raccolta dati Adobe.
+Il metodo `beacon` crea una richiesta di immagine e la punta all&#39;URL specificato. Queste richieste di immagini sono diverse dalle richieste di immagini standard. Il metodo beacon in genere invia i dati al partner Adobe anziché ai server di raccolta dati di Adobe.
 
 ```JavaScript
 p.beacon("<partner_url>/track?qs1=value1&qs2=value2");
 ```
 
-In genere, l’organizzazione collabora con il partner Adobe per determinare il valore del nome del partner. Le stringhe di query incluse nell’URL sono facoltative e dipendenti dal partner. Il modulo di integrazione include automaticamente una stringa di query contenente un numero casuale per impedire la memorizzazione nella cache del browser.
+In genere, la tua organizzazione collabora con il partner Adobe per determinare il valore del nome del partner. Le stringhe di query incluse nell’URL sono facoltative e dipendenti dal partner. Il modulo di integrazione include automaticamente una stringa di query contenente un numero casuale per impedire la memorizzazione nella cache del browser.
 
 ### ritardo
 
-Adobe sta lavorando con i team internamente per documentare questo metodo.
+Adobe sta collaborando con i team internamente per documentare questo metodo.
 
 ### get
 
@@ -86,7 +86,7 @@ Il metodo `get` consente a un client di importare variabili partner e di memoriz
 s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 ```
 
-* **Nome partner:** In genere l&#39;organizzazione collabora con il partner Adobe per determinare il valore per il nome del partner.
+* **Nome partner:** In genere l&#39;organizzazione collabora con il partner Adobe per determinare il valore del nome del partner.
 * **URL dell&#39;oggetto JSON:** URL di un oggetto JSON contenente le variabili partner da incorporare in una richiesta di immagine.
 * **Parametri stringa di query:** Informazioni sull&#39;account partner che identificano l&#39;organizzazione nel sistema del partner. Il partner Adobe utilizza queste informazioni per identificare il set di dati.
 
@@ -94,7 +94,7 @@ Il modulo Integra aggiunge automaticamente più stringhe di query all’URL. Una
 
 ### pronto
 
-Adobe sta lavorando con i team internamente per documentare questo metodo.
+Adobe sta collaborando con i team internamente per documentare questo metodo.
 
 ### useVars
 
@@ -107,7 +107,7 @@ s.Integrate.<partner_name>.useVars = function (s,p) {
 }
 ```
 
-In genere, l’organizzazione collabora con un partner Adobe per determinare i valori per il nome del partner e le variabili utilizzate dal partner.
+In genere, la tua organizzazione collabora con un partner Adobe per determinare i valori per il nome del partner e le variabili utilizzate dal partner.
 
 ### setVars
 
@@ -120,7 +120,7 @@ s.Integrate.<partner_name>.setVars = function (s,p) {
 }
 ```
 
-In genere, l’organizzazione collabora con un partner Adobe per determinare i valori per il nome del partner e le variabili utilizzate dal partner.
+In genere, la tua organizzazione collabora con un partner Adobe per determinare i valori per il nome del partner e le variabili utilizzate dal partner.
 
 ### script
 
@@ -130,4 +130,4 @@ Il metodo `script` consente a un partner Adobe di chiamare JavaScript aggiuntivo
 p.script("<partner_url>/script?qs1=value1&qs2=value2");
 ```
 
-In genere, l’organizzazione collabora con il partner Adobe per determinare il valore del nome del partner. Le stringhe di query incluse nell’URL sono facoltative e dipendenti dal partner. Il modulo di integrazione include automaticamente una stringa di query contenente un numero casuale per impedire la memorizzazione nella cache del browser.
+In genere, la tua organizzazione collabora con il partner Adobe per determinare il valore del nome del partner. Le stringhe di query incluse nell’URL sono facoltative e dipendenti dal partner. Il modulo di integrazione include automaticamente una stringa di query contenente un numero casuale per impedire la memorizzazione nella cache del browser.

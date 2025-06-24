@@ -1,21 +1,21 @@
 ---
 title: getNewRepeat
 description: Tracciare l’attività dei visitatori nuovi rispetto a quelli ripetuti.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 7%
 
 ---
 
-# Plug-in di Adobe: getNewRepeat
+# Plug-in Adobe: getNewRepeat
 
 {{plug-in}}
 
-Il plug-in `getNewRepeat` consente di determinare se un visitatore del sito è un nuovo visitatore o un visitatore ripetuto entro un numero desiderato di giorni. L’Adobe consiglia di utilizzare questo plug-in se desideri identificare i visitatori come &quot;nuovi&quot; utilizzando un numero di giorni personalizzato. Questo plug-in non è necessario se le dimensioni Visitatore nuovo/ripetuto in Analysis Workspace soddisfano le esigenze della tua organizzazione.
+Il plug-in `getNewRepeat` consente di determinare se un visitatore del sito è un nuovo visitatore o un visitatore ripetuto entro un numero desiderato di giorni. Adobe consiglia di utilizzare questo plug-in se si desidera identificare i visitatori come &quot;nuovi&quot; utilizzando un numero di giorni personalizzato. Questo plug-in non è necessario se le dimensioni Visitatore nuovo/ripetuto in Analysis Workspace soddisfano le esigenze della tua organizzazione.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
@@ -34,7 +34,7 @@ Adobe offre un’estensione che consente di utilizzare i plug-in più comunement
 
 ## Installare manualmente il plug-in implementando Web SDK
 
-Questo plug-in non è ancora supportato per l’utilizzo in un’implementazione manuale dell’SDK per web.
+Questo plug-in non è ancora supportato per l&#39;utilizzo in un&#39;implementazione manuale del Web SDK.
 
 ## Installare il plug-in utilizzando l’estensione Adobe Analytics
 
@@ -65,7 +65,7 @@ Se non desideri utilizzare l’estensione del plug-in Common Analytics Plugins, 
 
 ## Installare il plug-in utilizzando AppMeasurement
 
-Copiare e incollare il codice seguente in qualsiasi punto del file di AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento di Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta ad Adobe nella risoluzione di eventuali problemi.
+Copiare e incollare il codice seguente in qualsiasi punto del file AppMeasurement dopo la creazione dell&#39;istanza dell&#39;oggetto di tracciamento Analytics (utilizzando [`s_gi`](../functions/s-gi.md)). Mantenere i commenti e i numeri di versione del codice nella tua implementazione aiuta Adobe a risolvere eventuali problemi.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

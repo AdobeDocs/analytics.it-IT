@@ -1,10 +1,10 @@
 ---
 title: linkInternalFilters
 description: Utilizza la variabile linkInternalFilters per facilitare il tracciamento automatico dei collegamenti di uscita.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 9%
@@ -13,13 +13,13 @@ ht-degree: 9%
 
 # linkInternalFilters
 
-AppMeasurement offre la possibilità di tenere traccia automaticamente dei collegamenti che puntano all’esterno del sito. Se [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) è abilitato, viene inviata una richiesta di immagine all&#39;Adobe destro quando un visitatore fa clic su un collegamento per uscire dal sito. Le variabili [`linkExternalFilters`](linkexternalfilters.md) e `linkInternalFilters` determinano i collegamenti considerati interni/esterni.
+AppMeasurement offre la possibilità di tenere traccia automaticamente dei collegamenti che puntano all’esterno del sito. Se [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) è abilitato, viene inviata una richiesta di immagine a destra di Adobe quando un visitatore fa clic su un collegamento per uscire dal sito. Le variabili [`linkExternalFilters`](linkexternalfilters.md) e `linkInternalFilters` determinano i collegamenti considerati interni/esterni.
 
 Se questa variabile contiene un valore, il tracciamento automatico dei collegamenti di uscita si comporta come un elenco Bloccati. Se un clic di collegamento non corrisponde a nessun valore `linkInternalFilters`, viene considerato un collegamento di uscita. L’intero URL viene esaminato a fronte di questa variabile. Se [`linkLeaveQueryString`](linkleavequerystring.md) è abilitato, viene esaminata anche la stringa di query.
 
 Se si utilizzano contemporaneamente `linkInternalFilters` e `linkExternalFilters`, il collegamento su cui è stato fatto clic deve corrispondere a `linkExternalFilters` **e** e non corrispondere a `linkInternalFilters` per essere considerato un collegamento di uscita. Se un collegamento cliccato corrisponde ai criteri del collegamento di uscita e di download, il tipo di collegamento di download ha la priorità.
 
-Activity Map utilizza questa variabile per determinare quali collegamenti sono interni al sito. L’Adobe consiglia di impostare questa variabile per le implementazioni che utilizzano Activity Map.
+Activity Map utilizza questa variabile per determinare quali collegamenti sono interni al sito. Adobe consiglia di impostare questa variabile per le implementazioni che utilizzano Activity Map.
 
 >[!NOTE]
 >
@@ -27,9 +27,9 @@ Activity Map utilizza questa variabile per determinare quali collegamenti sono i
 
 ## Collegamenti di uscita nel Web SDK
 
-I collegamenti vengono qualificati automaticamente come collegamento di uscita se il dominio di destinazione del collegamento è diverso dall&#39;attuale `window.location.hostname`. L’SDK per web non offre variabili di configurazione per modificare il rilevamento automatico dei collegamenti di uscita. Se è necessario personalizzare i domini qualificati come collegamento di uscita, è possibile utilizzare la logica personalizzata nel callback `onBeforeEventSend`.
+I collegamenti vengono qualificati automaticamente come collegamento di uscita se il dominio di destinazione del collegamento è diverso dall&#39;attuale `window.location.hostname`. Il Web SDK non offre variabili di configurazione per modificare il rilevamento automatico dei collegamenti di uscita. Se è necessario personalizzare i domini qualificati come collegamento di uscita, è possibile utilizzare la logica personalizzata nel callback `onBeforeEventSend`.
 
-Per ulteriori informazioni, consulta [Tracciamento automatico dei collegamenti](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=it#automaticLinkTracking) nella documentazione di Web SDK.
+Per ulteriori informazioni, vedere [Tracciamento automatico dei collegamenti](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) nella documentazione di Web SDK.
 
 ## Collegamenti in uscita: non tenere mai traccia di utilizzando l’estensione Adobe Analytics
 
