@@ -21,7 +21,7 @@ La variabile `timestamp` imposta manualmente la marca temporale dell&#39;hit per
 
 ## Marca temporale tramite Web SDK
 
-La marca temporale è [mappata per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) nel campo XDM `xdm.timestamp`. Questo campo supporta solo il tempo Unix.
+La marca temporale è [mappata per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=it) nel campo XDM `xdm.timestamp`. Questo campo supporta solo il tempo Unix.
 
 ## Marca temporale tramite l’estensione Adobe Analytics
 
