@@ -22,7 +22,7 @@ Gli amministratori di Analytics possono aggiungere descrizioni per i componenti 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere descrizioni di componenti](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere descrizioni di componenti](https://video.tv.adobe.com/v/327236?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
