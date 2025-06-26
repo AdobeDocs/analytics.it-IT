@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
-source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '960'
 ht-degree: 93%
 
 ---
@@ -27,17 +27,16 @@ ht-degree: 93%
 + Analysis Workspace {#analysis-workspace}
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + Progetti {#build-workspace-project}
-      + [Panoramica dei progetti](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Panoramica](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creare progetti](analysis-workspace/build-workspace-project/create-projects.md)
-      + [Salvare progetti](analysis-workspace/build-workspace-project/save-projects.md)
+      + [Aprire i progetti](analysis-workspace/build-workspace-project/open-projects.md)
+      + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + [Sommario di un progetto](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Cartelle in Workspace {#workspace-folders}
-         + [Informazioni sulle cartelle in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Panoramica cartelle](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creare cartelle e sottocartelle](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Eliminare le cartelle](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-         + [Aggiungere progetti](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [Rimuovere un progetto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [Salvare un nuovo progetto](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [Gestire le cartelle](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [Aggiungere o spostare progetti nelle cartelle](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Suite di rapporti multiple](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Tasti di scelta rapida](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
@@ -65,9 +64,11 @@ ht-degree: 93%
          + [Creare un segmento](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Segmenti rapidi](analysis-workspace/components/segments/quick-segments.md)
       + Calendario e intervalli di date {#calendar-date-ranges}
-         + [Panoramica del calendario e degli intervalli di date](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [Creazione di intervalli di date personalizzati](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [Panoramica](analysis-workspace/components/calendar-date-ranges/calendar.md)
+         + [Creare intervalli di date](analysis-workspace/components/calendar-date-ranges/create.md)
+         + [Gestire gli intervalli di dati](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [Confronto delle date](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [Esempi](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + Dizionario dati {#data-dictionary}
          + [Panoramica del dizionario dati](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [Visualizzare le informazioni sui componenti nel dizionario dati](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
@@ -89,7 +90,7 @@ ht-degree: 93%
          + [L’analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurare un rapporto di analisi per coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Casi di utilizzo dell’analisi per coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
-      + Abbandono {#fallout}
+      + Fallout {#fallout}
          + [Panoramica dell’abbandono](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurare una visualizzazione dell’abbandono](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Abbandono multidimensionale](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
@@ -131,11 +132,11 @@ ht-degree: 93%
          + [Casi di utilizzo del confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Test statistici utilizzati nel confronto dei segmenti](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Curare, condividere e pianificare i progetti {#curate-share}
-      + [Menu Share](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Panoramica](analysis-workspace/curate-share/send-schedule-files.md)
       + [Curare progetti](analysis-workspace/curate-share/curate.md)
       + [Condividere progetti](analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](analysis-workspace/curate-share/shareable-links.md)
-      + [Progetti solo visualizzazione](analysis-workspace/curate-share/view-only-projects.md)
+      + [Progetti di sola lettura](analysis-workspace/curate-share/view-only-projects.md)
       + [Scaricare file PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Programmare progetti](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution {#attribution}
@@ -240,7 +241,7 @@ ht-degree: 93%
       + [Configurare il layout personalizzato](legacy-report-builder/layout/configure-the-custom-layout.md)
       + [Mappare metriche e dimensioni alle celle](legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [Creare un micrografico](legacy-report-builder/layout/t-create-a-microchart.md)
-      + Filtra dimensioni {#filter-dimenson}
+      + Filtrare le dimensioni {#filter-dimenson}
          + [Panoramica del filtro delle dimensioni](legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)
          + [Filtraggio più comune](legacy-report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [Filtri specifici](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)

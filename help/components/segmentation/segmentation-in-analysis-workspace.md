@@ -3,17 +3,21 @@ description: Scopri le funzionalità di segmentazione di Analysis Workspace.
 title: Funzionalità di segmentazione di Analysis Workspace
 feature: Segmentation
 exl-id: d8bf7d36-32d7-4652-b744-7cc915d94b79
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 100%
+source-wordcount: '41'
+ht-degree: 48%
 
 ---
 
 # Funzionalità di segmentazione di Analysis Workspace
 
-Scopri le funzionalità di segmentazione di Analysis Workspace.
+Oltre all&#39;[utilizzo standard dei segmenti](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) in Analysis Workspace, sono disponibili le seguenti funzionalità:
 
-[Confronto dei segmenti (Segment IQ)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=it)
+* [Confronto dei segmenti](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-[Applicare i segmenti nell’analisi dell’abbandono](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=it)
+* [Applicare segmenti in Analisi di fallout](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=it)
+
+>[!MORELIKETHIS]
+>
+>[Usa segmenti](segmentation-workflow/t-seg-apply.md)

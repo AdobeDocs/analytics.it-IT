@@ -3,7 +3,7 @@ title: FAQ sui canali di marketing
 description: Domande frequenti su canali di marketing
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 100%
@@ -118,7 +118,7 @@ Il modo migliore per ovviare a tali discrepanze consiste nell’effettuare una o
 
 * **Far scadere manualmente tutti i periodi di coinvolgimento dei visitatori**: questa impostazione fa scadere immediatamente tutti i canali di primo e ultimo contatto per tutti i visitatori:
    1. Passa a Strumenti di amministrazione > Suite di rapporti.
-   2. Passa il puntatore del mouse su Impostazioni modifica immagine > Canali di marketing > Scadenza coinvolgimento visitatore
+   2. Passa il puntatore su Impostazioni modifica immagine > Canali di marketing > Scadenza coinvolgimento visitatore
    3. Fai clic su Tutti scaduti.
    4. Fai clic su OK per passare alla finestra a comparsa di avviso, riconoscendo che sei in grado di capire l’operazione che verrà eseguita.
 

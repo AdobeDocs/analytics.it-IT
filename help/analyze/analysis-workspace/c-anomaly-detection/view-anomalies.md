@@ -4,10 +4,10 @@ title: Visualizzare le anomalie in Analysis Workspace
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 58%
 
 ---
 
@@ -19,57 +19,52 @@ ht-degree: 100%
 
 È possibile visualizzare le anomalie in una tabella a forma libera della serie temporale.
 
-1. Seleziona l’icona delle impostazioni della colonna nell’intestazione della colonna, quindi assicurati che l’opzione [!UICONTROL **Anomalies**] (Anomalie) sia selezionata nell’elenco delle opzioni. Per ulteriori informazioni, consulta la sezione [Impostazioni delle colonne](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
-
-1. Fai clic lontano dal menu impostazioni per visualizzare la tabella aggiornata.
-
-   ![](assets/anomaly_detected.png)
+1. Seleziona ![Impostazione](/help/assets/icons/Setting.svg)nell&#39;intestazione della colonna, quindi accertati che l&#39;opzione **[!UICONTROL Anomalies]** sia selezionata nell&#39;elenco delle opzioni. Per ulteriori informazioni, consulta la sezione [Impostazioni delle colonne](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
 1. Le anomalie sono mostrate nella tabella come segue:
 
-   Compare un **triangolo grigio scuro** nell’angolo in alto a destra di ogni riga in cui viene rilevata un’anomalia nei dati.
+   ![Anomalie rilevate](assets/anomaly-detected.png)
 
-   La **linea verticale** colorata in ogni riga indica il valore previsto. L’**area ombreggiata** in ogni riga indica il valore effettivo. Il modo in cui la linea (valore previsto) viene confrontata con l’area ombreggiata (valore effettivo) determina se vi è un’anomalia. (Un’osservazione è considerata anomala in base alle tecniche statistiche avanzate descritte in [Tecniche di statistica utilizzate nel rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)).
+   ◥ viene visualizzato nell&#39;angolo superiore destro di ogni riga in cui viene rilevata un&#39;anomalia di dati.
 
-1. Seleziona il triangolo grigio nell’angolo in alto a destra di una riga per visualizzare i dettagli dell’anomalia. Mostra la misura (in percentuale) in cui il valore effettivo si discosta al di sopra o al di sotto del valore previsto.
+   La **linea verticale colorata** in ogni riga ➋ indica il valore previsto. L&#39;**area ombreggiata colorata** in ogni riga ➊ indica il valore effettivo. Il modo in cui la linea (valore previsto) viene confrontata con l’area ombreggiata (valore effettivo) determina se vi è un’anomalia. Un&#39;osservazione è considerata anomala in base alle tecniche statistiche avanzate descritte in [Tecniche statistiche utilizzate nel rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
 
-## Visualizzare le anomalie in un grafico a linee {#section_7C1192AFDB4345A8A2CCFB3AE0C47D82}
+1. Selezionare ◥ nell&#39;angolo superiore destro di una riga per visualizzare i dettagli sull&#39;anomalia. Mostra la misura (in percentuale) in cui il valore effettivo si discosta al di sopra o al di sotto del valore previsto.
+
+## Visualizzare le anomalie in un grafico a linee
 
 I grafici a linee sono l’unica visualizzazione che consente di visualizzare le anomalie.
 
 Per visualizzare le anomalie in un grafico a linee:
 
-1. Seleziona l’icona delle impostazioni nell’intestazione della visualizzazione, quindi assicurati che l’opzione [!UICONTROL **Show anomalies**] (Mostra anomalie) sia selezionata nell’elenco delle opzioni. Per ulteriori informazioni, consulta la sezione [Linea](/help/analyze/analysis-workspace/visualizations/line.md).
+1. Seleziona ![Impostazione](/help/assets/icons/Setting.svg) nell&#39;intestazione della visualizzazione, quindi accertati che l&#39;opzione [!UICONTROL **Mostra anomalie**] sia selezionata nell&#39;elenco delle opzioni. Per ulteriori informazioni, consulta la sezione [Linea](/help/analyze/analysis-workspace/visualizations/line.md).
 
-1. (Facoltativo) Per consentire all’intervallo di confidenza di dimensionare il grafico, seleziona l’icona delle impostazioni nell’intestazione della visualizzazione, quindi seleziona l’opzione **[!UICONTROL Allow anomalies to Scale Y-axis]**.
+1. (Facoltativo) Per consentire all&#39;intervallo di attendibilità di ridimensionare il grafico, seleziona ![Impostazione](/help/assets/icons/Setting.svg) nell&#39;intestazione della visualizzazione, quindi seleziona l&#39;opzione, **[!UICONTROL Allow anomalies to Scale Y-axis]**.
 
    Questa opzione non è selezionata per impostazione predefinita perché a volte può rendere il grafico meno leggibile.
 
-1. Fai clic lontano dal menu impostazioni per visualizzare il grafico a linee aggiornato.
-
-   ![](assets/anomaly_linechart.png)
-
    Le anomalie vengono mostrate nel grafico a linee come segue:
 
-   Sulla riga compare un **punto bianco** ogni volta che viene rilevata un’anomalia nei dati. (Un’osservazione è considerata anomala in base alle tecniche statistiche avanzate descritte in [Tecniche di statistica utilizzate nel rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)).
+   ![Visualizzazione riga rilevata anomalia](assets/anomaly-detected-line.gif)
+
+   Sulla riga compare un **punto bianco** ogni volta che viene rilevata un’anomalia nei dati. Un&#39;osservazione è considerata anomala in base alle tecniche statistiche avanzate descritte in [Tecniche statistiche utilizzate nel rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
 
    L’**area ombreggiata chiara** è la banda di confidenza, o l’intervallo previsto, in cui devono trovarsi i valori. Qualsiasi valore che non rientra nell’intervallo previsto è un’anomalia.
 
-   Nei grafici a linee per più metriche, sono mostrate solo le anomalie; quando si passa il mouse su un valore anomalo viene visualizzata la relativa banda di valori affidabili.
+   Nei grafici a linee per più metriche, sono mostrate solo le anomalie; quando si passa il puntatore su un valore anomalo viene visualizzata la relativa banda di valori affidabili.
 
    La **linea tratteggiata** è il valore previsto esatto.
 
-1. Fai clic su un’anomalia (punto bianco) per visualizzare le seguenti informazioni:
+1. Seleziona un’anomalia (punto bianco) per visualizzare le seguenti informazioni:
 
-   * la data in cui si è verificata l’anomalia
+   * La data in cui si è verificata l’anomalia.
 
-   * il valore non elaborato dell’anomalia
+   * Il valore non elaborato dell’anomalia.
 
    * la percentuale superiore o inferiore al valore previsto rappresentata dalla linea verde continua.
 
-   * Collegamento Analizza per iniziare un’Analisi contributi
+   * Il collegamento **[!UICONTROL Analyze]** per avviare Analisi contributi
 
-     (per ulteriori informazioni, consulta [Panoramica del rilevamento anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md).)
 
 
 

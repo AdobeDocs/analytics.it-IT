@@ -2,8 +2,8 @@
 title: Integrazione di Analytics
 description: Scopri come integrare in Adobe Analytics i dati derivanti da altre posizioni.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
-source-git-commit: 0eccf49810786aea385600d2ab21331f30da227c
+feature: Audience Analytics, Advertising Analytics, Activity Map
+source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 76%
@@ -16,12 +16,12 @@ Questa guida si concentra sull’integrazione di più soluzioni Adobe Experience
 
 * **Audience Analytics:** integra Adobe Audience Manager in Adobe Analytics.
 * **Advertising Analytics:** puoi visualizzare i dati da sistemi di ricerca a pagamento insieme ai dati di Adobe Analytics.
-* **Analytics per Advertising Cloud DSP:** integra Adobe Analytics e Adobe Advertising Cloud per estendere e migliorare le funzionalità di ogni prodotto.
+* **Analytics for Advertising Cloud DSP:** integra Adobe Analytics e Adobe Advertising Cloud per estendere e migliorare le funzionalità di ciascun prodotto.
 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/328585?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 ## Risorse chiave per Analytics
 
-* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/it?support-solution=Analytics?lang=it#support)
+* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/?support-solution=Analytics?lang=it#support)
 * [Adobe Analytics Community su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

@@ -4,23 +4,23 @@ keywords: segmentazione;segmenti
 title: Contenitori di segmenti
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '3551'
-ht-degree: 98%
+source-wordcount: '3548'
+ht-degree: 96%
 
 ---
 
 
 # Contenitori di segmenti
 
-Un segmento imposta le condizioni per filtrare un visitatore in base agli attributi del visitatore o alle sue interazioni con il sito. Per impostare le condizioni in un segmento, imposta le regole per filtrare i visitatori in base alle loro caratteristiche e/o quelle di navigazione. Per suddividere ulteriormente i dati dei visitatori, puoi filtrare in base a visite e/o hit di visualizzazione pagina specifiche per ciascun visitatore. Il Generatore di segmento fornisce un’architettura semplice per generare questi sottoinsiemi e applicare le regole come contenitori Visitatore, Visita o Hit nidificati e gerarchici.
+Un segmento imposta le condizioni per filtrare un visitatore in base agli attributi del visitatore o alle sue interazioni con il sito. Per impostare le condizioni in un segmento, imposta le regole per filtrare i visitatori in base alle loro caratteristiche e/o quelle di navigazione. Per suddividere ulteriormente i dati dei visitatori, puoi filtrare in base a visite e/o hit di visualizzazione pagina specifiche per ciascun visitatore. Il Generatore di segmenti fornisce un’architettura semplice per generare questi sottoinsiemi e applicare le regole come contenitori Visitatore, Visita o Hit nidificati e gerarchici.
 
-L’architettura dei contenitori utilizzata nel Generatore di segmenti definisce
+L&#39;architettura del contenitore utilizzata nel [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) definisce:
 
-- Il ![visitatore](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) **[!UICONTROL Visitor]** come contenitore più esterno, contenente i dati generali specifici del visitatore nelle visite e visualizzazioni pagina.
-- La ![visita](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg) come contenitore **[!UICONTROL Visit]** nidificato, che consente di impostare regole per suddividere i dati del visitatore in base alle visite, e
-- l’![evento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) come contenitore **[!UICONTROL Hit]** nidificato, che ti consente di suddividere le informazioni sul visitatore in base alle singole visualizzazioni pagina.
+- ![Utente](/help/assets/icons/User.svg) **[!UICONTROL Visitor]** come contenitore più esterno, contenente i dati generali specifici del visitatore per visite e visualizzazioni di pagina.
+- La ![visita](/help/assets/icons/Visit.svg) come contenitore **[!UICONTROL Visit]** nidificato, che consente di impostare regole per suddividere i dati del visitatore in base alle visite, e
+- ![WebPage](/help/assets/icons/WebPage.svg) un contenitore **[!UICONTROL Hit]** nidificato consente di suddividere le informazioni sui visitatori in base alle singole visualizzazioni di pagina.
 
 Ogni contenitore consente di generare rapporti sulla cronologia di un visitatore e sulle sue interazioni suddivise per visite o di suddividere i singoli hit.
 
@@ -38,7 +38,7 @@ Ogni contenitore consente di generare rapporti sulla cronologia di un visitatore
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
 </tr>
 </table>
 
@@ -47,7 +47,7 @@ Ogni contenitore consente di generare rapporti sulla cronologia di un visitatore
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://video.tv.adobe.com/v/3429107?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -148,7 +148,7 @@ La segmentazione sequenziale utilizza gli stessi contenitori di base, inclusi [!
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
 </tr>
 </table>
 
@@ -173,7 +173,7 @@ La segmentazione sequenziale utilizza gli stessi contenitori di base, inclusi [!
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
 </tr>
 
 <tr>
@@ -188,7 +188,7 @@ La segmentazione sequenziale utilizza gli stessi contenitori di base, inclusi [!
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
 </tr>
 </table>
 
@@ -210,7 +210,7 @@ L’unica eccezione a questa gerarchia di contenitori si verifica quando si util
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
 </tr>
 
 <tr>
@@ -225,7 +225,7 @@ L’unica eccezione a questa gerarchia di contenitori si verifica quando si util
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
 </tr>
 
 <tr>

@@ -4,10 +4,10 @@ description: Scopri come e perché creare progetti in Workspace con più suite d
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 87%
+source-wordcount: '434'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 Puoi creare progetti in Analysis Workspace con dati provenienti da più suite di rapporti. Le suite di rapporti vengono scelte a livello di pannello, in modo da poter scegliere una suite di rapporti diversa per ciascun pannello all’interno dello stesso progetto Workspace.
 
-Questa funzionalità è utile, ad esempio, per:
+Questa funzionalità è utile per:
 
 * Confrontare i dati provenienti da due aree geografiche diverse: i dati risiedono in due suite di rapporti diverse. Puoi creare tabelle e visualizzazioni per eseguire confronti affiancati dei dati.
 
@@ -24,7 +24,7 @@ Questa funzionalità è utile, ad esempio, per:
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Più suite di rapporti](https://video.tv.adobe.com/v/36964?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Più suite di rapporti](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -37,16 +37,12 @@ Per applicare una suite di rapporti a tutti i pannelli contemporaneamente, fai c
 
 ## Pannello attivo
 
-Con questa funzione viene introdotto il concetto di “pannello attivo” e “pannello inattivo”. Il pannello attivo è riconoscibile dal bordo blu chiaro intorno ad esso. È sufficiente fare clic all’interno del pannello per renderlo attivo.
+Il pannello attivo è riconoscibile dal bordo blu chiaro intorno ad esso. È sufficiente selezionare all’interno di un pannello per renderlo attivo.
 
 >[!TIP]
+>
 >Puoi trascinare e rilasciare contenuti in qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. Trascinare un contenuto in un pannello inattivo della stessa suite di rapporti rende il pannello attivo.
-
-| Attività | Pannello attivo | Pannello inattivo |
-| --- | --- | --- |
-| Modificare la suite di rapporti | Sì | No |
-| Trascinare i componenti | Sì | Sì, per qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. |
-| Trascinare le visualizzazioni | Sì | Sì, per qualsiasi pannello presente nella stessa suite di rapporti del pannello attivo. |
+>
 
 ## Utilizzare le suite multi-rapporto
 
@@ -58,7 +54,9 @@ Con questa funzione viene introdotto il concetto di “pannello attivo” e “p
 
 
    >[!NOTE]
+   >
    >Talvolta durante il caricamento di un progetto (o il passaggio a una suite di rapporti) compare un banner se non tutti i componenti inclusi nel progetto compaiono anche nella suite di rapporti. Verranno elencati i componenti mancanti. Segui [queste istruzioni](/help/admin/admin-console/permissions/product-profile.md) per impostare le autorizzazioni per le metriche/dimensioni richieste.
+   >
 
    ![](assets/incompat-rs.png)
 

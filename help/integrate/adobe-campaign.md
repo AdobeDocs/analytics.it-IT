@@ -1,10 +1,10 @@
 ---
 description: Scopri come abilitare il reporting di Adobe Campaign Standard in Adobe Analytics
 title: In che modo viene integrato il reporting di Adobe Campaign Standard in Adobe Analytics?
-feature: Campaign Integration
+feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
@@ -78,7 +78,7 @@ Le seguenti **dimensioni** sono disponibili da Campaign nelle suite di rapporti 
 | --- | --- |
 | ID campagna | ID di tutte le campagne per le quali sono stati inviati KPI mentre erano in corso. |
 | Etichetta della campagna | Etichette degli ID campagna |
-| ID consegna | ID di tutte le consegne per le quali sono stati inviati KPI mentre erano in corso. Sono inclusi inoltre gli ID delle consegne principali di consegna periodica e di transazione. Esempio: è stata pianificata una consegna ricorrente DM1 e DM2, DM3, DM4 e DM5 erano consegne figlie della consegna ricorrente.  L’ID consegna visualizza i risultati per tutte le consegne, da DM1 a DM5. |
+| ID consegna | ID di tutte le consegne per le quali sono stati inviati KPI mentre erano in corso. Sono inclusi inoltre gli ID delle consegne principali di consegna periodica e di transazione. Esempio: è stata pianificata una consegna ricorrente DM1 e DM2, DM3, DM4 e DM5 erano consegne secondarie della consegna ricorrente. L’ID consegna visualizza i risultati per tutte le consegne, da DM1 a DM5. |
 | Etichetta della consegna | Etichette degli ID consegna |
-| ID consegna eseguita | ID solo delle consegne eseguite. Nessun ID della consegna principale ricorrente/transazionale. Esempio: è stata pianificata una consegna ricorrente DM1 e DM2, DM3, DM4 e DM5 erano consegne figlie della consegna ricorrente. L’ID consegna eseguita visualizza i risultati per tutte le consegne da DM2 a DM5, ovvero le consegne effettivamente eseguite. |
+| ID consegna eseguita | ID solo delle consegne eseguite. Nessun ID della consegna principale ricorrente/transazionale. Esempio: è stata pianificata una consegna ricorrente DM1 e DM2, DM3, DM4 e DM5 erano consegne secondarie della consegna ricorrente. L’ID consegna eseguita visualizza i risultati per tutte le consegne da DM2 a DM5, ovvero le consegne effettivamente eseguite. |
 | Etichetta della consegna eseguita | Etichette degli ID consegna eseguita |

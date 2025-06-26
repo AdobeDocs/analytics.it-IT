@@ -4,70 +4,120 @@ keywords: Analysis Workspace
 title: Aggiungere cartelle in Workspace
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
+source-git-commit: 83345d6fa51253e7c316cd1b2ebee2f4f82e9d00
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 57%
+source-wordcount: '249'
+ht-degree: 93%
 
 ---
 
-# Aggiungere progetti alle cartelle
 
-È possibile aggiungere progetti a una cartella nella vista tabella o dall’interno di una cartella.
+# Aggiungere o spostare progetti nelle cartelle
+
+Puoi aggiungere o spostare i progetti in una cartella direttamente dall’[Elenco progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
+
+## Spostare i progetti in una cartella
 
 >[!NOTE]
 >
->Solo gli amministratori di Analytics possono aggiungere progetti alla cartella aziendale o creare un nuovo progetto e salvarlo nella cartella aziendale
+>Quando un amministratore sposta un progetto nella cartella dell’azienda, la cartella viene condivisa con tutti, anche se i privilegi di condivisione esistenti sono limitati. Quando un amministratore sposta un progetto al di fuori dalla cartella dell’azienda, sono applicati nuovamente i privilegi di condivisione esistenti.
+>
 
-## Dalla vista tabella {#table-view}
+Per spostare i progetti in una cartella dall’[Elenco progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list):
 
-Aggiungere progetti a una cartella dalla vista tabella nella pagina Home.
+1. Seleziona ![SelectBox](/help/assets/icons/SelectBox.svg) uno o più progetti da spostare in una cartella.
 
-1. Seleziona uno o più progetti che desideri aggiungere a una cartella.
+1. Seleziona ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) **Sposta in** dall’elenco delle [azioni](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) possibili. Viene visualizzata la finestra di dialogo **[!UICONTROL Select Folder]**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
+1. Seleziona il nome di una cartella dal menu a discesa **[!UICONTROL Folder]**. Il menu a discesa consente di esplorare la gerarchia delle cartelle per selezionare una sottocartella a qualsiasi livello.
 
-1. Seleziona **Sposta in**.
+   ![Vista Seleziona cartella che mostra il menu a discesa e le sottocartelle disponibili.](../assets/add-projects.png)
 
-   Viene visualizzata la finestra di dialogo Seleziona cartella.
+1. Seleziona **[!UICONTROL Move]**.
 
-1. Nel menu a discesa, seleziona la cartella in cui desideri spostare i progetti selezionati.
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
-
-1. Seleziona **Sposta**.
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
    I progetti selezionati vengono aggiunti alla cartella.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
 
-   Nella pagina di destinazione di Workspace ora è visualizzata la cartella contenente (3) progetti.
+## Aggiungere progetti a una cartella
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+Per aggiungere progetti a una cartella dall’[Elenco progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list):
 
-## Dall’interno di una cartella {#inside-folder}
+1. Seleziona ![SelectBox](/help/assets/icons/SelectBox.svg) la cartella a cui desideri aggiungere i progetti.
 
-Puoi anche aggiungere progetti dall’interno di una cartella utilizzando il collegamento con i puntini di sospensione.
+1. Seleziona ![ProjectAdd](/help/assets/icons/ProjectAdd.svg) **Aggiungi progetti** dall’elenco delle [azioni](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) possibili. Viene visualizzata la finestra di dialogo **[!UICONTROL Select Folder]**.
 
-1. Seleziona e apri una cartella dalla vista tabella.
+1. Seleziona uno o più progetti da [!UICONTROL *Seleziona i progetti da aggiungere alla cartella*].
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
+   ![Vista Seleziona cartella che mostra il menu a discesa e le sottocartelle disponibili.](../assets/add-projects-folder.png)
 
-1. Seleziona l&#39;icona con i puntini di sospensione **...** in alto a destra.
+1. Seleziona **[!UICONTROL Add]**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-1. Selezionare **Aggiungi progetti** e selezionare il progetto che si desidera aggiungere dall&#39;elenco a discesa.
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
+>[!NOTE]
+>
+>Solo gli amministratori possono aggiungere progetti alla cartella aziendale o creare un nuovo progetto e salvarlo nella cartella aziendale
 
 
-1. Per aggiungere più progetti, seleziona Progetti aggiuntivi dall’elenco a discesa.
+<!--
+# Add Projects to Folders
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
+You can add projects to a folder in the table view or from within a folder.
 
-1. Seleziona **Aggiungi** per aggiungere i progetti alla cartella.
+>[!NOTE]
+>
+>Only Analytics administrators can add projects to the Company Folder or create a new project and save it to the Company Folder
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
+## From the table view {#table-view}
+
+Add projects to a folder from the table view on the home page.
+
+1.  Select one or more projects that you want to add to a folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
+
+1.  Select **Move to**. 
+
+    The Select Folder dialogue is displayed.
+
+1.  In the drop-down menu, select the folder where you want to move the selected projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
+
+1.  Select **Move**.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
+
+    The selected projects are added to the folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
+
+    The Workspace landing page now shows the folder contains (3) projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+
+## From inside a folder {#inside-folder}
+
+You can also add projects from inside a folder using the ellipses link.
+
+1.  Select and open a folder from the table view.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
+
+1.  Select the **...** ellipsis icon in the upper-right.
+   
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
+
+1.  Select **Add projects** and select the project that you want to add from the drop-down list.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
+
+    
+1.  (Optional) Select additional projects from the drop-down list to add multiple projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
+
+1.  Select **Add** to add the projects to the folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
+
+-->

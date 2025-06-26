@@ -4,10 +4,10 @@ description: Risposte alle domande più frequenti sull’attribuzione.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 100%
+source-wordcount: '1230'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 +++## Cos’è l’elemento di riga “None” quando si utilizza l’attribuzione?
 
-“None” è un elemento catch-all che rappresenta tutte le conversioni avvenute senza punti di contatto all’interno dell’intervallo di lookback. Per ridurre il numero di conversioni attribuite alla riga “None”, prova a utilizzare un intervallo di lookback personalizzato con un periodo di lookback più lungo.
+“None” è un elemento catch-all che rappresenta tutte le conversioni avvenute senza punti di contatto all’interno dell’intervallo di lookback. Per ridurre il numero di conversioni attribuite alla riga &quot;None&quot;, prova a utilizzare un intervallo di lookback personalizzato con un periodo di lookback più lungo.
 
 +++
 
@@ -106,11 +106,11 @@ Sì, le classificazioni sono completamente supportate.
 
 Sì, la maggior parte delle origini di dati sono supportate. L’attribuzione non è possibile con origini di dati di livello sintetico perché non si collegano a un identificatore visitatore di Analytics.
 
-Le origini dati ID transazione sono trattate come qualsiasi altro hit. Le origini dati ID transazione non utilizzano l’elaborazione speciale normalmente utilizzata nei rapporti tradizionali. In altre parole, quando si utilizza l’elaborazione al momento del report, gli hit per l’ID transazione avranno valori eVar propagati dagli hit che si verificano vicino alla marca temporale dell’hit per l’ID transazione. I valori non verranno propagati dagli hit che si sono verificati in prossimità del momento della transazione originale.
+Le origini dati ID transazione sono trattate come qualsiasi altro hit. Le origini dati ID transazione non utilizzano l’elaborazione speciale normalmente utilizzata nei rapporti tradizionali. In altre parole, quando si utilizza l’elaborazione al momento del rapporto, gli hit per l’ID transazione presentano valori eVar propagati da hit che si verificano vicino alla marca temporale dell’hit per l’ID transazione. I valori non vengono propagati dagli hit che si sono verificati in prossimità della transazione originale.
 
-Quando possibile, l’attribuzione si basa sul valore della colonna MID inviato all’interno di un evento nell’origine dati, anziché su un valore persistente. Il modello di attribuzione viene applicato durante l’elaborazione ai valori della colonna MID nell’origine dati. Ad esempio, quando utilizzi l’attribuzione “Ultimo contatto”, il modello inizia da ogni istanza di una metrica e torna indietro sequenzialmente negli hit fino a quando il modello raggiunge l’ultimo valore osservato nella colonna MID.
+Quando possibile, l’attribuzione si basa sul valore della colonna MID inviato all’interno di un evento nell’origine dati, anziché su un valore persistente. Il modello di attribuzione viene applicato durante l’elaborazione ai valori della colonna MID nell’origine dati. Ad esempio, quando utilizzi l&#39;[attribuzione Ultimo contatto](models.md) il modello inizia da ogni istanza di una metrica. E torna indietro sequenzialmente negli hit fino a quando il modello raggiunge l’ultimo valore osservato nella colonna MID.
 
-Quando questo non è possibile, l’attribuzione utilizzerà il valore MID nel “record precedente” nell’origine dati per la valutazione. Tale record precedente potrebbe non essere ordinato in sequenza per marca temporale, dato che AA non supporta dati fuori ordine.
+Quando non è possibile, l&#39;attribuzione utilizza il valore MID nel *record precedente* nell&#39;origine dati per la valutazione. Tale record precedente potrebbe non essere ordinato in sequenza per marca temporale, dato che AA non supporta dati fuori ordine.
 
 Poiché i record non sono ordinati in sequenza, i valori previsti dall’applicazione della persistenza possono influire sul periodo di tempo che intercorre tra la marca temporale dell’ID transazione fornito e la transazione originale.
 

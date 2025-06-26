@@ -3,26 +3,26 @@ description: Domande frequenti sulla gestione dei segmenti legacy.
 title: Domande frequenti sui segmenti legacy
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 100%
+source-wordcount: '1441'
+ht-degree: 91%
 
 ---
 
 # Domande frequenti sui segmenti legacy
 
-Risposte alle domande frequenti sulle best practice per la gestione dei segmenti legacy - segmenti creati prima del 2014.
+Questo articolo risponde alle domande frequenti sulle best practice per la gestione dei segmenti legacy (segmenti creati prima del 2014).
 
 ## Gestione dei segmenti legacy {#legacy}
 
 +++ **Cos’è successo ai segmenti esistenti?**
 
-I segmenti esistenti continueranno a funzionare come prima. Tutti i rapporti a cui sono applicati questi segmenti continueranno a funzionare correttamente. [Altro...](/help/components/segmentation/seg-transition.md)
+I segmenti esistenti continueranno a funzionare come prima. Tutti i rapporti a cui sono applicati questi segmenti continueranno a funzionare correttamente.
 
 La maggior parte dei segmenti predefiniti e dei segmenti delle suite precedenti migreranno e diventeranno modelli nel Generatore di segmenti. I modelli di segmenti sono utilizzati per creare rapidamente segmenti personalizzati con audience comuni. I modelli di segmenti non possono essere applicati direttamente a un rapporto, ma possono essere salvati con facilità in un segmento personalizzato.
 
-I modelli di segmenti sono contrassegnati da un’icona specifica nel Generatore di segmenti:
+I modelli di segmenti sono contrassegnati da un’icona speciale nel Generatore di segmenti:
 
 ![](assets/seg_templates.png)
 
@@ -46,7 +46,7 @@ I rapporti programmati non vengono aggiornati quando si modifica un segmento con
 
 Tutti i segmenti esistenti di Data Warehouse continueranno a funzionare in Data Warehouse. La maggior parte dei segmenti Data Warehouse funziona anche in altri componenti come Analysis Workspace.
 
-Puoi creare o modificare nuovi segmenti di Data Warehouse nel Generatore/Gestore segmenti. Il meccanismo di compatibilità dei prodotti nel Generatore di segmenti determina automaticamente la compatibilità di un segmento con Data Warehouse.
+Puoi creare o modificare nuovi segmenti di Data Warehouse in Gestione/Generatore di segmenti. Il meccanismo di compatibilità dei prodotti nel Generatore di segmenti determina automaticamente se un segmento è compatibile con Data Warehouse.
 
 +++
 
@@ -58,7 +58,7 @@ Puoi creare o modificare nuovi segmenti di Data Warehouse nel Generatore/Gestore
 * **Visite da ricerca a pagamento**
 * **Visite con il cookie ID visitatore**
 
-Verrà eseguita la migrazione di questi segmenti e diventeranno modelli di segmenti nel Generatore di segmenti. I rapporti esistenti a cui sono applicati questi segmenti continueranno a funzionare correttamente.
+Verrà effettuata la migrazione di questi segmenti e diventeranno modelli di segmenti nel Generatore di segmenti. I rapporti esistenti a cui sono applicati questi segmenti continueranno a funzionare correttamente.
 
 +++
 

@@ -5,169 +5,322 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: c368ff6c4ac1636a4d1d910b9f1738ff8208fe0a
+source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 47%
+source-wordcount: '1479'
+ht-degree: 91%
 
 ---
 
 # Panoramica dei progetti
 
-Utilizzando i progetti Workspace, puoi combinare componenti dati, tabelle e visualizzazioni per sviluppare delle analisi da condividere con altri nella tua organizzazione. Prima di iniziare il primo progetto, scopri come accedere, navigare e gestire i progetti.
+Con i progetti Workspace puoi combinare pannelli, visualizzazioni e componenti per preparare analisi da condividere con altri utenti nella tua organizzazione. Prima di iniziare il tuo primo progetto, scopri come poter accedere ai progetti, gestirli e sportarti al loro interno.
 
-Ecco un video su come creare un progetto Workspace:
+Per accedere ai progetti in Adobe Analytics, selezionare **[!UICONTROL Workspace]**.  Gestione **[!UICONTROL Projects]** elenca tutti i progetti di tua proprietà o che sono stati condivisi con te. Il Project manager con l’elenco Progetto è anche la pagina di destinazione predefinita per Adobe Analytics, a meno che tu non abbia configurato diversamente in Preferenze.
+
+![Pagina di destinazione Progetti con l’elenco dei progetti.](assets/projects.png)
+
+
+## Area del titolo
+
+Dall’area del titolo ➊ puoi creare un progetto o una cartella, modificare le preferenze e mostrare o nascondere un pannello con sezioni aggiuntive.
+
+* Per mostrare o nascondere un pannello a sinistra che consente di selezionare tra **[!UICONTROL Projects]** e **[!UICONTROL Learning]**, seleziona ![Barra](/help/assets/icons/Rail.svg).
+* Il titolo mostra Progetti, a cui può essere aggiunto un percorso alla cartella selezionata. Ad esempio: [!UICONTROL Projects] > **[!UICONTROL Company Folder]**. Selezionando una singola sottocartella, puoi passare direttamente alla cartella desiderata.
+* Per visualizzare i riquadri per [**[!UICONTROL Blank project]**](create-projects.md), [**[!UICONTROL Blank mobile scorecard]**](/help/analyze/mobile-app/create-scorecard.md), **[!UICONTROL Open the documentation]** e **[!UICONTROL Open release notes]**, selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]**. Per nascondere l’area con i riquadri, seleziona ![ChevronDown](/help/assets/icons/ChevronDown.svg)**[!UICONTROL Show less]**.
+* In base a quello che hai scelto di visualizzare, utilizzando il selettore [Mostra](#show-selector) puoi modificare le preferenze ed eseguire azioni sulla cartella corrente visibile in **[!UICONTROL Projects]**:
+
+  | Azione | Descrizione |
+  |---|---|
+  | **[!UICONTROL Create project]** | Seleziona per [creare un nuovo progetto](create-projects.md). |
+  | **[!UICONTROL Create folder]** | Seleziona per [creare una nuova cartella](workspace-folders/create-folders.md). |
+  | ![UserAdmin](/help/assets/icons/UserAdmin.svg) **[!UICONTROL Edit preferences]** | [Modifica le preferenze](/help/analyze/analysis-workspace/user-preferences.md) per tutti i tuoi progetti. Quando la breadcrumb restituisce uno spazio limitato, questa azione fa parte del sottomenu ![Altro](/help/assets/icons/More.svg). |
+  | **[!UICONTROL Add projects]** | Seleziona per [aggiungere progetti](workspace-folders/add-projects.md) alla cartella corrente. Quando la breadcrumb restituisce uno spazio limitato, questa azione fa parte del sottomenu ![Altro](/help/assets/icons/More.svg). |
+  | **[!UICONTROL Rename folder]** | [Rinomina](workspace-folders/manage-folders.md#rename-folders) la cartella corrente. |
+  | **[!UICONTROL Move folder]** | [Sposta](workspace-folders/manage-folders.md#move-folders) la cartella corrente. |
+  | **[!UICONTROL Delete folder]** | [Elimina](workspace-folders/manage-folders.md#delete-folders) la cartella corrente. |
+
+
+
+
+## Elenco dei progetti
+
+
+L’elenco progetti ➋ mostra tutti i progetti di tua proprietà e che sono stati condivisi con te. L’elenco dispone delle seguenti colonne:
+
+| Colonna | Descrizione |
+| --- | --- | 
+| ![SelectBox](/help/assets/icons/SelectBox.svg) | Se sono selezionati uno o più progetti, nella parte bassa dell’interfaccia Progetti viene visualizzata una barra blu delle azioni. Per ulteriori dettagli, consulta [Azioni](#actions). |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleziona per contrassegnare come preferito ![Star](/help/assets/icons/Star.svg) o non preferito ![StarOutline](/help/assets/icons/StarOutline.svg) un progetto. |
+| **[!UICONTROL Title and description]** | Per modificare il progetto, seleziona il collegamento del titolo, che apre il [progetto Workspace](/help/analyze/analysis-workspace/home.md). I progetti condivisi con te sono contrassegnati con l’icona ![Condividi](/help/assets/icons/ShareAlt.svg). Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per visualizzare un menu popup con ulteriori dettagli sul progetto. Seleziona ![Altro](/help/assets/icons/More.svg) per aprire un menu di scelta rapida con alcune azioni. Per ulteriori dettagli, consulta [Azioni](#actions). |
+| **[!UICONTROL Type]** | Un progetto Workspace, una cartella ![FolderUser](/help/assets/icons/FolderUser.svg) o una [scorecard per dispositivi mobili](/help/analyze/mobile-app/home.md). |
+| **[!UICONTROL Tags]** | I tag applicati al progetto. |
+| **[!UICONTROL Scheduled]** | Indica se un progetto è programmato per essere inviato tramite e-mail ai destinatari. Le opzioni sono ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** o ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Consulta [Inviare dati di progetto ad altri](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
+| **[!UICONTROL Shared link (anyone)]** | Se un progetto è condiviso con altri, anche con persone che non hanno accesso ad Analysis Workspace. Le opzioni sono ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Active]** o ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Inactive]**. Consulta [Condividere un progetto con qualcuno (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) in [Condividere i progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md) per ulteriori informazioni. |
+| **[!UICONTROL Project Role]** | Il tuo ruolo nel progetto. Le opzioni sono: Modifica, Duplica, Visualizza. Consulta [Ruoli di progetto](/help/analyze/analysis-workspace/curate-share/curate.md) per ulteriori informazioni. |
+| **[!UICONTROL Report Suite]** | La suite di rapporti a cui è associato il progetto. |
+| **[!UICONTROL Owner]** | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
+| **[!UICONTROL Shared with]** | Utenti con cui il progetto è stato condiviso. |
+| **[!UICONTROL Last Modified]** | Data e ora dell’ultima volta che il progetto è stato modificato. |
+| **[!UICONTROL Last Opened]** | Data e ora dell’ultima apertura del progetto. |
+| **[!UICONTROL Component ID]** | ID del componente. |
+| **[!UICONTROL Longest Date Range]** | L’intervallo di date più lungo tra i pannelli o le visualizzazioni del progetto. |
+| **[!UICONTROL Number of Queries]** | Il numero totale di query contenute nel progetto. |
+| **[!UICONTROL Location]** | La cartella in cui risiede il progetto. |
+
+Passa il puntatore su un’intestazione di colonna per visualizzare ![ChevronDown](/help/assets/icons/ChevronDown.svg) e seleziona dal menu di scelta rapida:
+
+* **[!UICONTROL Sort Ascending]**
+* **[!UICONTROL Sort Descending]**
+* **[!UICONTROL Resize column]**. Viene visualizzata una linea blu che ti aiuta a ridimensionare la colonna.
+
+### Azioni
+
+Puoi eseguire azioni su uno o più progetti utilizzando il menu di scelta rapida ![Altro](/help/assets/icons/More.svg) o la barra delle azioni blu.
+
+| Icona | Azione | Descrizione |
+|:---:| ---|---|
+| ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *selezionato]** | Deseleziona i progetti e le cartelle selezionati e rimuovi la barra blu delle azioni. |
+| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina uno o più progetti o cartelle. Viene richiesta una conferma. |
+| ![Condividi](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Condividi un progetto. Per ulteriori informazioni, consulta [Condividere un progetto](/help/analyze/analysis-workspace/curate-share/share-projects.md). |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinomina un progetto. Si apre una finestra di dialogo **[!UICONTROL Rename: *del nome del progetto *]**. Immetti un nuovo nome e seleziona **[!UICONTROL Save]**. |
+| ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copia uno o più progetti. Al progetto vengono assegnati lo stesso nome e suffisso `(Copy)`. |
+| ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL Pin]** o **[!UICONTROL Unpin]** | Fissa o sposta uno o più progetti o cartelle. I progetti e le cartelle fissati vengono visualizzati nella parte superiore dell’elenco e ignorano l’ordinamento specificato. |
+| ![ArrowUp](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL Move up]** | Sposta un progetto o una cartella fissati verso l’alto nell’elenco dei progetti. |
+| ![ArrowDown](/help/assets/icons/ArrowDown.svg) | **[!UICONTROL Move down]** | Sposta un progetto o una cartella fissati verso il basso nell’elenco dei progetti. |
+| ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Consente di assegnare tag a uno o più progetti o cartelle. Viene visualizzata la finestra di dialogo **[!UICONTROL Tag Components]** in cui è possibile selezionare uno o più tag. Seleziona **[!UICONTROL Save]** per salvare i tag per i progetti o le cartelle selezionate. |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** o **[!UICONTROL Unapprove]** | Consente di approvare o annullare l’approvazione di un progetto. Solo gli amministratori possono approvare i progetti. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export CSV]** | Consente di esportare i progetti selezionati in un file CSV denominato `Project List.csv`. |
+| ![ProjectAdd](/help/assets/icons/ProjectAdd.svg) | **[!UICONTROL Add Projects]** | Consente di aggiungere uno o più progetti a una cartella selezionata. In **[!UICONTROL Add Projects]** è possibile selezionare uno o più progetti. Seleziona **[!UICONTROL Add]** per aggiungere i progetti alla cartella. Per ulteriori informazioni, consulta [Aggiungere progetti alle cartelle](workspace-folders/add-projects.md#from-inside-a-folder). |
+| ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) | **[!UICONTROL Move to]** | Consente di spostare in una cartella uno o più progetti selezionati. In **[!UICONTROL Select Folder]** seleziona la cartella in cui spostare il progetto selezionato e seleziona **[!UICONTROL Move]**. Per ulteriori informazioni, consulta [Aggiungere progetti alle cartelle](workspace-folders/add-projects.md#from-the-project-list). |
+
+
+
+## Mostra selettore
+
+Puoi cambiare il look and feel dell’interfaccia Progetti utilizzando i selettori **[!UICONTROL Show]** ➌. Il selettore **[!UICONTROL Show]** consente di definire le opzioni disponibili nell’[area del titolo](#title-area) e le colonne visualizzate nell’[elenco dei progetti](#project-list).
+
+* Per modificare le opzioni disponibili per l’[area del titolo](#title-area), seleziona **[!UICONTROL Show]** **[!UICONTROL All projects]** o **[!UICONTROL Show]** **[!UICONTROL Folders & Projects]**.
+
+* Per definire le colonne da visualizzare nell’[elenco dei progetti](#project-list), seleziona ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) e nella finestra di dialogo **[!UICONTROL Customize table]** seleziona o deseleziona le colonne desiderate. Seleziona **[!UICONTROL Apply]** per applicare la personalizzazione. Per ulteriori dettagli sulle colonne, consulta [Elenco dei progetti](#project-list).
+
+## Pannello dei filtri
+
+Puoi filtrare i progetti e le cartelle presenti nell’[elenco dei progetti](#project-list) utilizzando il pannello dei filtri ➍. Per mostrare o nascondere il pannello dei filtri, utilizza l’icona ![Filtro](/help/assets/icons/Filter.svg).
+
+Il pannello dei filtri è costituito dalle sezioni seguenti.
+
+### Tag
+
+| Tag | Descrizione |
+|---|---|
+| ![Tag](assets/projects-filters-tags.png){width="300"} | La sezione **[!UICONTROL Tags]** consente di filtrare in base ai tag. <ul><li>Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca tag* per cercare i tag in base ai quali applicare il filtro.</li><li>Puoi selezionare più di un tag. I tag disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**2︎⃣**: numero di tag disponibili per i progetti, risultanti dal filtro corrente.</li><li>7︎⃣: numero di progetti associati al tag specifico.</li></ul></li></ul> |
+
+
+### Suite di rapporti
+
+| Suite di rapporti | Descrizione |
+|---|---|
+| ![Suite di rapporti](assets/projects-filters-reportsuites.png){width="300"} | La sezione **[!UICONTROL Report Suites]** ti consente di filtrare in base alle suite di rapporti. <ul><li>Puoi utilizzare ![Cerca](/help/assets/icons/Search.svg) *Cerca suite di rapporti* per cercare le suite di rapporti che desideri utilizzare per filtrare.</li><li>Puoi selezionare più di una suite di rapporti. Le suite di rapporti disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**3︎⃣**: numero di suite di rapporti disponibili per i progetti risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati alla suite di rapporti specifica.</li></ul></li></ul> |
+
+
+### Proprietari
+
+| Proprietario | Descrizione |
+|---|---|
+| ![Proprietari](assets/projects-filters-owners.png){width="300"} | La sezione **[!UICONTROL Owner]** consente di filtrare in base ai proprietari. <ul><li>Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca proprietari* per cercare i proprietari da utilizzare per filtrare.</li><li>Puoi selezionare più di un proprietario. I proprietari disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**3︎⃣**: numero di proprietari disponibili per i progetti, risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati al proprietario specifico.</li></ul></li></ul> |
+
+
+### Tipo
+
+| Tipo | Descrizione |
+|---|---|
+| ![Tipo](assets/projects-filters-type.png){width="300"} | La sezione **[!UICONTROL Type]** consente di filtrare in base al tipo di progetti o cartelle.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL folder]**</li><li>**[!UICONTROL Workspace project]**</li><li>**[!UICONTROL Mobile scorecard]**</li></ul> <li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**5︎⃣**: numero di altri filtri disponibili per i progetti risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati all’altro filtro specifico.</li></ul></li></ul> |
+
+
+### Altri filtri
+
+| Altri filtri | Descrizione |
+|---|---|
+| ![Altri filtri](assets/projects-filters-others.png){width="300"} | La sezione **[!UICONTROL Other filters]** ti consente di filtrare in base ad un altro filtro predefinito.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Show all]**</li><li>**[!UICONTROL Shared with me]**</li><li>**[!UICONTROL Mine]**</li><li>**[!UICONTROL Approved]**</li><li>**[!UICONTROL Favorites]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**5︎⃣**: numero di altri filtri disponibili per i progetti risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati all’altro filtro specifico.</li></ul></li></ul> |
+
+## Ricerca
+
+Utilizza l’area di ricerca ➎ per cercare progetti e cartelle utilizzando il campo ![Ricerca](/help/assets/icons/Search.svg). Inizia a digitare e l’[elenco progetti](#project-list) filtra automaticamente l’input della ricerca.
+
+L’area Ricerca mostra anche i filtri applicati dal pannello Filtro.
+
+* Per rimuovere un filtro, seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) nel filtro.
+* Per rimuovere tutti i filtri, seleziona Cancella tutto.
+
+Se lo spazio è limitato alla visualizzazione dei singoli filtri, visualizzerai **[!UICONTROL Segmenting by *x *filtri]**.
+
+* Per rimuovere un filtro:
+
+   1. Utilizza **[!UICONTROL *x *filtri]**![ChevronDown](/help/assets/icons/ChevronDown.svg) per aprire un menu di scelta rapida in cui sono elencati i tipi di filtri e i singoli filtri.
+   1. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un filtro.
+
+
+<!--
+
+# Projects overview
+
+Workspace projects allow you to combine data components, tables and visualizations to craft your analysis and share with anyone in your organization. Before starting your first project, learn about how to access, navigate and manage your projects. 
+
+Here is a video on how to build a Workspace project:
 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un progetto Workspace](https://video.tv.adobe.com/v/3415639?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Build a Workspace project](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
-## Elenco dei progetti {#project-list}
+## Project list {#project-list}
 
-Quando scegli **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** per la prima volta, vengono elencati tutti i progetti di cui sei proprietario o a cui puoi accedere. Questa pagina è anche la pagina di destinazione di Adobe Analytics, a meno che tu non abbia precedentemente impostato una pagina di destinazione personalizzata.
+When you first go to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, the page lists all the projects you own or have been shared to you. This page is also the landing page for Adobe Analytics, unless you have previously set a custom landing page. 
 
-La pagina Progetti contiene le informazioni riportate di seguito.
+The Projects page contains the following information: 
 
-| Elemento | Descrizione |
+|  Element  | Description  |
 |---|---|
-| [Modifica preferenze](/help/analyze/analysis-workspace/user-preferences.md) | Gestisci le impostazioni di Analysis Workspace e dei relativi componenti per tutti i nuovi progetti o pannelli creati. |
-| [Crea cartella](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Aggiungi una nuova cartella o sottocartella all’elenco dei progetti e delle cartelle. |
-| [Crea progetto](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | Avvia un nuovo progetto da zero o da un rapporto. |
-| Mostra altro | Questa selezione rivela le opzioni per la creazione di un progetto o di una scorecard per dispositivi mobili vuota, [per visualizzare esercitazioni di formazione](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction) o [per visualizzare le note sulla versione](/help/release-notes/latest.md). |
-| ![Mostra filtri](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | Per mostrare o nascondere i filtri. Puoi filtrare in base a tag, suite di rapporti, proprietari, tipo (progetto, cartella, scorecard per dispositivi mobili) e altri filtri. |
-| ![Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Utilizza il campo di ricerca per cercare cartelle, progetti Workspace o scorecard per dispositivi mobili. |
-| Mostra cartelle e progetti | Scegli se visualizzare la struttura di cartelle dei progetti. Per ulteriori informazioni, consulta la sezione [Informazioni sulle cartelle in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| ![Personalizza tabella](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) | Questa icona ti consente di personalizzare le colonne visualizzate per ciascun progetto nell’elenco dei progetti. |
+| [Edit preferences](/help/analyze/analysis-workspace/user-preferences.md) | Manage settings for Analysis Workspace and its related components for all new projects or panels that you create.  |
+| [Create folder](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)  | Add a new folder or subfolder to the list of projects and folders. |
+| [Create project](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)  | Start a new project from scratch or from a report.  |
+|  Show more  | This selection reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction), or [viewing release notes](/help/release-notes/latest.md).  |
+| ![Show filters](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | To show or hide filters. You can filter on tags, report suite, owners, type (project, folder, mobile scorecard), and other filters. | 
+| ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Use the search field to search for folders, Workspace projects or mobile scorecards. |
+| Show Folders & Projects| Choose whether to show the folder structure of projects. For more information, see [About Folders in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+|  ![Customize table](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) | This icon allows you to customize the columns you see for each project in the projects list.  |
 
-L’elenco dei progetti può visualizzare le seguenti colonne:
+The list of projects can display the following columns:
 
-| Colonna | Descrizione |
+|  Column  | Description  |
 |---|---|
-| [!UICONTROL Name] | Nome del progetto Workspace. Seleziona ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) per visualizzare un popup con ulteriori dettagli su un progetto o una cartella. Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) per visualizzare le azioni disponibili. Per ulteriori dettagli, consulta [Gestisci progetti](#manage-projects). |
-| [!UICONTROL Type] | Indica se questa voce è un progetto Workspace, una cartella o una [scorecard per dispositivi mobili](https://experienceleague.adobe.com/it/docs/analytics/analyze/mobapp/home). |
-| [!UICONTROL Tags] | Tag che sono stati applicati al progetto. |
-| [!UICONTROL Scheduled] | Indica se i progetti sono programmati per essere inviati tramite e-mail ai destinatari. Vedi [Progetti pianificati](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
-| Collegamento condiviso (chiunque) | I progetti possono essere condivisi con chiunque, anche con persone che non hanno accesso ad Analysis Workspace. Questa colonna mostra se i progetti sono stati condivisi in questo modo. Consulta [Condividere un progetto con qualcuno (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere i progetti](/help/analyze/analysis-workspace/curate-share/share-projects.md) per ulteriori informazioni. |
-| [Ruolo progetto](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/curate-share/share-projects) | Indica il tuo ruolo per il progetto, ossia se sei il proprietario o se sei autorizzato a modificarlo, duplicarlo o visualizzarlo. |
-| [!UICONTROL Report suite] | La suite di rapporti a cui è associato il progetto. |
-| [!UICONTROL Owner] | Autore del progetto (tu o l’utente che ha condiviso con te il progetto). |
-| [!UICONTROL Shared with] | Utenti con cui il progetto è stato condiviso. |
-| [!UICONTROL Last Modified] | Data e ora dell’ultima volta che il progetto è stato modificato. |
-| [!UICONTROL Last Opened] | Data e ora dell’ultima apertura del progetto. |
-| [!UICONTROL Last Used] | Data e ora dell’ultimo utilizzo del progetto. |
-| [!UICONTROL Project ID] | L’ID del progetto. |
-| [!UICONTROL Longest Date Range] | L’intervallo di date più lungo del progetto. |
-| [!UICONTROL Number of Queries] | Il numero totale di query contenute nel progetto. |
-| [!UICONTROL Location] | La cartella in cui risiede il progetto. |
+| [!UICONTROL Name]  | Name of the Workspace project. Select ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) to show a popup with more details on a project or folder. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) to show actions available. See [Manage projects](#manage-projects) for more details.  | 
+| [!UICONTROL Type] | Indicates whether this entry is a Workspace project, a folder, or a [Mobile scorecard](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home). |
+| [!UICONTROL Tags]  |Tags that were applied to the project.  |
+| [!UICONTROL Scheduled] | Indicates whether projects are scheduled to be emailed to recipients. See [Schedule projects](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
+| Shared link (anyone) | Projects can be shared with anyone, even with people who don't have access to Analysis Workspace. This column shows whether projects have been shared in this way. See [Share a project with anyone (no login required)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md) for more information. |
+| [Project Role](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/share-projects) | Indicates your role for the project - owners, edit, duplicate, view. |
+| [!UICONTROL Report suite] | The report suite that the project is associated with. |
+| [!UICONTROL Owner]  | The person who created this project (either you or someone who shared the project with you.)  |
+| [!UICONTROL Shared with]  | Users that the project has been shared with.  |
+| [!UICONTROL Last Modified]  | Date and time when the project was last modified.  |
+| [!UICONTROL Last Opened]  | Date and time when the project was last opened.  |
+| [!UICONTROL Last Used] | Date and time when the project was last used. | 
+| [!UICONTROL Project ID]  | The ID of the project.  |
+| [!UICONTROL Longest Date Range]  | The longest date range of the project.  |
+| [!UICONTROL Number of Queries]  | The total number of queries contained in the project.  |
+| [!UICONTROL Location]  | The folder where the project resides.  |
 
-### Gestione progetti
+### Manage projects
 
-Per gestire i progetti, seleziona uno o più progetti dall’elenco.
+To manage projects, select one or more projects from the project list. 
 
-Dalla barra delle azioni blu, puoi selezionare le azioni seguenti:
+From the blue action bar, you can select the following actions:
 
-| Azione | Descrizione |
+| Action | Description | 
 |---|---|
-| ![Elimina](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) Elimina | Quando è selezionata, viene visualizzata una finestra di dialogo di conferma che richiede di confermare l’eliminazione di un progetto Workspace o di una scorecard per dispositivi mobili. Selezionare **[!UICONTROL OK]** per confermare. |
-| Condivisione ![Condividi](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) | Questa azione ti consente di condividere il progetto. Vedi [Condividi progetti](../curate-share/share-projects.md). |
-| ![Rinomina](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) Rinomina | Apre una finestra di dialogo **[!UICONTROL Rename: *name *]**&#x200B;per rinominare il progetto. Selezionare **[!UICONTROL Save]**&#x200B;per salvare il nuovo nome per il progetto. |
-| Copia ![Copia](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) | Copia immediatamente il progetto selezionato in un nuovo progetto denominato *nome originale* (copia). |
-| ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) Pin | Aggiunge immediatamente il progetto all&#39;inizio dell&#39;elenco. Aggiunge l&#39;indicatore ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg). |
-| Tag ![Tag](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) | Apre la finestra di dialogo **[!UICONTROL Tag Project]**. Puoi selezionare un tag esistente o aggiungerne di nuovi. Selezionare **[!UICONTROL Save]** per salvare i tag per il progetto. |
-| ![(Un-)Approva](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg) Approva o Annulla approvazione | Approva o non approva il progetto. |
-| ![Esporta CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) Esporta CSV | Scarica immediatamente un file contenente un elenco di valori dei progetti separati da virgole. |
-| ![Sposta in](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) Sposta in | Questa azione ti consente di spostare il progetto in una cartella. Nella finestra di dialogo **[!UICONTROL Select Folder]**, selezionare una cartella dall&#39;elenco **[!UICONTROL Folder]**, quindi selezionare **[!UICONTROL Move]**. |
+| ![Delete](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) Delete | When selected, a confirmation dialog prompts you to confirm the deletion of a Workspace project or Mobile scorecard. Select **[!UICONTROL OK]** to confirm. |
+| ![Share](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) Share | This action allows you to share your project. See [Share projects](../curate-share/share-projects.md).|
+| ![Rename](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) Rename | Opens up a **[!UICONTROL Rename: *name*]** dialog to rename your project. Select **[!UICONTROL Save]** to save the new name for the project. |
+| ![Copy](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) Copy | Immediately copies the selected project to a new project with name *original name* (Copy).  |
+| ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) Pin | Immediately pins the project to the top of the list. Adds the ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) indicator. |
+| ![Tag](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) Tag | Opens up the **[!UICONTROL Tag Project]** dialog. You can select an existing tag or add new tags. Select **[!UICONTROL Save]** to save the tags for the project. |
+| ![(Un-)Approve](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg) Approve or Unapprove |  Approves or unapproves the project.  |
+| ![Export CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) Export CSV | Immediately downloads a file containing a comma-separated value list of the projects. |
+| ![Move to](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) Move to | This action allows you to move the project to a folder. In the **[!UICONTROL Select Folder]** dialog, select a folder from the **[!UICONTROL Folder]** list, and select **[!UICONTROL Move]**. | 
 
 
-## Barra dei menu {#menu-bar}
+## Menu bar {#menu-bar}
 
-In un progetto, il menu fornisce le opzioni necessarie per gestirlo, aggiungervi dei componenti, cercare assistenza e altro ancora. È inoltre possibile accedere a ogni opzione di menu tramite la tastiera [scelte rapide](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys).
+Within a project, the menu provides options for managing your project, adding components, finding help, and more. You can also access each menu option by keyboard [shortcuts](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys).
 
 
-| Opzione di menu | Descrizione |
+|  Menu item  | Description  |
 |---|---|
-| Progetto | Questo menu include azioni comuni per la gestione dei progetti, tra cui Nuovo, Apri, Salva, Salva con nome e [Salva come report aziendale](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). Puoi anche aggiornare l’intero progetto per recuperare i dati e le definizioni più recenti facendo clic su Refresh Project (Aggiorna progetto). Le opzioni [Download CSV and PDF](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/curate-share/download-send) (Scarica CSV e PDF) consentono di esportare i dati da Workspace. [Project Info &amp; Settings](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) (Informazioni e impostazioni progetto) offre molte opzioni per la gestione del progetto. |
-| Modificare | Annulla o ripristina l’ultima azione. Cancella tutto reimposta il progetto su un punto di partenza vuoto. |
-| Inserisci | Con questo menu puoi inserire nuovi pannelli o visualizzazioni. Puoi anche inserire nuovi pannelli e visualizzazioni dalla barra a sinistra. |
-| [Componenti](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) | Crea dal progetto nuovi segmenti, metriche calcolate, intervalli di date o componenti di avviso. Puoi anche creare nuovi componenti dalla barra a sinistra. Se le definizioni dei componenti sono state recentemente modificate, Aggiorna componenti recupera le definizioni più recenti. |
-| [Condividi](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files) | Curare, condividere e pianificare progetti PDF/CSV per i destinatari all’interno della tua organizzazione. |
-| Aiuto | Accedi alla documentazione dell’Aiuto, ai video e alla [community di Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community) per Analytics. Gestisci la visibilità dei suggerimenti di Workspace e il [debugger](https://developer.adobe.com/analytics-apis/docs/2.0/). Trova dettagli su Workspace e sui fattori che influiscono sulle [prestazioni](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance) del progetto. |
-| Pulsante Condividi o Proprietario | Se stai utilizzando il progetto in modalità Own (Proprietario) o Edit (Modifica), il pulsante Share (Condividi) in alto a destra consente di accedere con un solo clic ai destinatari del progetto e di gestirli. Se per il progetto hai il ruolo Duplica o Visualizza, viene visualizzato il nome del proprietario del progetto. |
+|  Project  | This menu includes common actions for project management, including New, Open, Save, Save as, and [Save as company report](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). You can also refresh the entire project to retrieve the most recent data and definitions by clicking Refresh Project. [Download CSV and PDF](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/download-send) options enable you to export data from Workspace. [Project Info & Settings](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) offers many options for managing your project.  |
+|  Edit  | Undo or redo your last action. Clear All resets your project to a blank starting point. |
+|  Insert  | Insert new panels or visualizations from this menu. You can also insert new panels and visualizations from the left rail.  |
+|  [Components](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components)  | Create new segment, calculated metric, date range, or alert components from your project. You can also create new components from the left rail. If your component definitions have recently changed, Refresh Components retrieves the latest definitions. |
+|  [Share](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files)  | Curate, share and schedule PDF/CSV projects to recipients in your organization.  |
+|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). Manage the visibility of Workspace tips as well as the [debugger](https://developer.adobe.com/analytics-apis/docs/2.0/). Find details about Workspace and factors that impact project [performance](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance).  |
+|  Share button or Owner  | If you are in an Own or Edit for the project, the Share button in the top-right gives you one-click access to manage your project recipients. If you are in a Duplicate or View role for the project, you see the project owner's name. |
 
-### Informazioni e impostazioni progetto {#info-settings}
+### Project Info & Settings {#info-settings}
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_countrepeatinstances"
->title="Conta istanze ripetute"
->abstract="Specifica se le istanze ripetute vengono conteggiate o meno nei rapporti.<br/><br/>Nota: questa impostazione non si applica alle visualizzazioni Flusso o Fallout."
+>title="Count repeat instances"
+>abstract="Specifies whether repeat instances are counted in reports.<br/><br/>Note: this setting does not apply to Flow or Fallout visualizations."
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
->title="Conta istanze ripetute"
->abstract="Specifica se le istanze ripetute vengono conteggiate o meno nei rapporti.<br/>Nota: questa impostazione non si applica alle visualizzazioni Flusso o Fallout."
+>title="Count repeat instances"
+>abstract="Specifies whether repeat instances are counted in reports.<br/>Note: this setting does not apply to Flow or Fallout visualizations."
 
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_commenting"
->title="Consenti commenti"
->abstract="Quando questa opzione è abilitata, nella barra a destra del progetto in Analysis Workspace è disponibile un’area commenti."
+>title="Allow commenting"
+>abstract="When enabled, a comments area is available in the right rail of the project in Analysis Workspace."
 
 
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & settings]** fornisce informazioni a livello di progetto sul progetto attualmente attivo.
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & settings]** provides project-level information on the currently active project.
 
-![Informazioni progetto](assets/projectinfo.png)
+![Project Info](assets/projectinfo.png)
 
-Le impostazioni includono:
+Settings include:
 
-| Impostazione | Descrizione |
+|  Setting  | Description  |
 |---|---|
-| Nome progetto | Nome assegnato al progetto. Puoi fare doppio clic sul nome per modificarlo. |
-| Proprietario | Nome del proprietario del progetto. |
-| Ultima modifica | Data dell’ultima modifica apportata al progetto. |
-| Tag | Elenca eventuali tag applicati a un progetto per facilitarne la categorizzazione. |
-| Descrizione | La descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. |
-| Conta istanze ripetute | Consente di specificare se conteggiare o meno, per i rapporti, le istanze ripetute. Ad esempio, questa impostazione (se attivata) tratta più visualizzazioni consecutive della stessa pagina come molteplici visualizzazioni di pagina. Se questa opzione è disattivata, vengono conteggiate come una singola visualizzazione di pagina (questa impostazione influisce solo su determinate metriche, come le visite a pagina singola). **Nota**: questa impostazione non si applica alle visualizzazioni Flusso o Abbandono. |
-| [Mostra annotazioni](/help/analyze/analysis-workspace/components/annotations/overview.md) | Specifica se mostrare o meno le annotazioni nel progetto. |
-| [Palette dei colori del progetto](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palette) | Per cambiare la palette di colori utilizzata per le categorie in Workspace, puoi scegliere una delle palette predefinite ottimizzate per il daltonismo o specificarne una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |
-| [Densità di visualizzazione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Consente di visualizzare più dati nella schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. |
+|  Project Name  | The name given to the project. You can double-click the name to edit it.  |
+|  Owner  | Project owner name  |
+|  Last Modified  | Date of last modification to the project.  |
+|  Tags  |Lists any tags applied to a project for easier categorization.  |
+|  Description  | A description is useful for clarifying the purpose of a project. You can double-click the description to edit it.  |
+|  Count repeat instances  | Specifies whether repeat instances are counted in reports. For example, this setting (when activated) treats multiple consecutive pages views to the same page as multiple page views. With it off, they count as a single page view (this setting only affects certain metrics, such as Single Page Visits). **Note**: This setting does not apply to Flow or Fallout visualizations.  |
+| [Show annotations](/help/analyze/analysis-workspace/components/annotations/overview.md) | Specify whether to show annotations in the project or not. |
+|  [Project color palette](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes)  | You can change the categorical color palette used in Workspace, by choosing from out-of-the-box palettes that have been optimized for color blindness, or by specifying your custom palette. This feature affects many things in Workspace, including most visualizations.  |
+| [View Density](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Lets you see more data on the screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. |
 
-## Barra a sinistra {#left-rail}
+## Left rail {#left-rail}
 
-All’interno di un progetto, nella barra a sinistra sono disponibili varie icone, ciascuna delle quali rappresenta uno strumento importante per la creazione del progetto:
+Within a project, various icons are available in the left rail, and each represents important tools to build your project:
 
-| Icona | Funzionalità |
+| Icon | Functionality |
 |---|---|
-| ![icona pannelli](https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg) | [Pannelli](/help/analyze/analysis-workspace/c-panels/panels.md) |
-| ![icona visualizzazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphBarVertical_18_N.svg) | [Visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| ![icona componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) | [Componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
-| ![icona dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Bookmark_18_N.svg) | [Dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) |
-| ![icona sommario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ViewList_18_N.svg) | [Sommario](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) |
+| ![panels icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg) | [Panels](/help/analyze/analysis-workspace/c-panels/panels.md) |
+| ![visualizations icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphBarVertical_18_N.svg) |[Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
+| ![components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) | [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
+| ![data dictionary icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Bookmark_18_N.svg) | [Data dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) |
+| ![toc icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ViewList_18_N.svg) | [Table of contents](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) |
 
-I componenti (dimensioni, metriche, segmenti, intervalli di date) nella barra a sinistra si riferiscono alla visualizzazione dati del pannello attivo. Il pannello attivo è identificato da un bordo blu e la suite di rapporti attiva è elencata nella parte superiore della barra dei componenti.
+Components (dimensions, metrics, segments, date ranges) in the left rail relate to the active panel data view. A blue border identifies the active panel, and the active report suite is listed at the top of the component rail.
 
 
-## Menu di scelta rapida
+## Right-click menu
 
-Video sull’utilizzo del menu di scelta rapida in Analysis Workspace:
+Here is a video on using the right-click menu in Analysis Workspace:
 
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo del menu di scelta rapida](https://video.tv.adobe.com/v/329404?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using the context menu](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
-## Area di lavoro del progetto {#canvas}
+## Project canvas {#canvas}
 
-Nell’area di lavoro del progetto puoi raccogliere i pannelli, le tabelle, le visualizzazioni e i componenti con cui intendi generare le analisi. Un progetto può contenere diversi pannelli, e ciascun pannello può contenere più tabelle e visualizzazioni.
+The project canvas is where you bring together panels, tables, visualizations, and components to build your analysis. A project can contain many panels, and each panel can contain many tables and visualizations.
 
-I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, suite di rapporti o casi di utilizzo di analisi. Il pannello attivo è evidenziato da un bordo colorato e determina quali componenti sono disponibili nella barra a sinistra.
+Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case. The active panel has a colored border around it, and determines what components are available in the left rail.
 
-A seconda del punto iniziale scelto per i progetti, l&#39;area di lavoro include una [tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) o un [pannello vuoto](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/blank-panel). Il modo più rapido per iniziare l’analisi consiste nel selezionare uno o più componenti e semplicemente trascinarli nell’area di lavoro del progetto. Viene creata automaticamente una tabella di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) sulle diverse opzioni per la creazione di una tabella oppure utilizza il [tutorial di formazione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/home) disponibile per ulteriori informazioni sulla creazione del primo progetto.
+Depending on the starting point you chose for your projects, you either have a [freeform table](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) or a [blank panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) in the canvas to begin with. The quickest way to start analyzing is to select one or many components and simply drag & drop them into the project canvas. A table of data is rendered automatically for you. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) about the different options for building a table, or leverage the available [training tutorial](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) for more guidance on building your first project.
 
 ![](assets/canvas.png)
+
+-->

@@ -3,10 +3,10 @@ description: Il Generatore di segmenti consente di confrontare e vincolare i val
 title: Operatori di confronto per i segmenti
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '1056'
-ht-degree: 44%
+ht-degree: 41%
 
 ---
 
@@ -67,7 +67,7 @@ Ad esempio, hai un nome di pagina denominato *My cool product*.
 
 ## Operatori di conteggio distinti
 
-Puoi creare segmenti in base a un numero specifico di elementi all’interno di una dimensione. Esempio: “Visitatori che hanno visualizzato più di 5 prodotti distinti” o “Visite in cui sono state visualizzate più di 5 pagine distinte”.
+Puoi creare segmenti in base a un numero specifico di elementi all’interno di una dimensione. Esempi: *Visitatori che hanno visualizzato più di 5 prodotti distinti* o *Visite in cui sono state visualizzate più di 5 pagine distinte*.
 
 | Operatore | L’evento di dimensione, segmento o metrica selezionato... |
 | --- | --- |

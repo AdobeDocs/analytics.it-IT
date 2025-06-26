@@ -3,7 +3,7 @@ description: A seconda delle autorizzazioni, puoi condividere i segmenti con l�
 title: Condividere segmenti
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 59%
@@ -25,7 +25,7 @@ Quando è necessario condividere i segmenti con l’intera azienda anziché con 
 * In qualità di amministratore, condividi un segmento con un **[!UICONTROL Group]** (gruppo) specifico se il segmento fornisce un buon valore aziendale per quel team. Non approvare ufficialmente questo tipo di segmento.
 * In qualità di amministratore o di singolo utente, condividi un segmento con altri singoli utenti per esaminarlo e convalidarlo. Se non risulta utile, può essere scartato. Non approvare ufficialmente questo tipo di segmento.
 
-1. Nel Gestore segmenti, seleziona ![SelezionaCasella](/help/assets/icons/SelectBox.svg) la casella di controllo accanto al segmento da condividere.
+1. Nel Gestore segmenti, seleziona ![SelezionaCasella](/help/assets/icons/SelectBox.svg) accanto al segmento che desideri condividere.
 1. Seleziona ![Condividi](/help/assets/icons/Share.svg) Condividi.
 1. Nella finestra di dialogo **[!UICONTROL Share Segments]** (Crea elemento dati):
 

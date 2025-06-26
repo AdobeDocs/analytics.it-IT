@@ -1,16 +1,16 @@
 ---
 description: All’interno del Gestore segmenti puoi impostare un flusso di lavoro che includa l’approvazione dei segmenti per vari livelli di applicazione, per reparti o gruppi specifici e in linea con le policy di reporting.
-title: Approvare segmenti
+title: Approvare i segmenti
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 3%
 
 ---
 
-# Approvare segmenti
+# Approvare i segmenti
 
 Nel [Gestore segmenti](seg-manage.md), puoi approvare e annullare l&#39;approvazione dei segmenti. Solo gli amministratori possono approvare i segmenti.
 

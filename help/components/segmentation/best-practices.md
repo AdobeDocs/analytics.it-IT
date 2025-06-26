@@ -3,10 +3,10 @@ title: Best practice di segmentazione
 description: Crea segmenti ottimali in grado di restituire i dati in modo efficiente.
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '289'
+ht-degree: 66%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 100%
 
 I segmenti complessi sono spesso necessari per ottenere i dati desiderati. Se i segmenti complessi sono inefficienti e vengono utilizzati in una suite di rapporti di grandi dimensioni, l’esecuzione dei rapporti richiederà molto più tempo. Quando crei o modifichi un segmento, prendi in considerazione le seguenti risorse per minimizzare la complessità.
 
-## Utilizzare l’operatore “Contains” solo come ultima risorsa
+## Utilizza l&#39;operatore `Contains` solo come ultima risorsa
 
-L’operatore “Contains” (contiene) è una delle funzioni di elaborazione più complesse nella segmentazione, in quanto deve analizzare l’intero contenuto di ogni valore. Considera l’utilizzo di altri operatori, ad esempio “Starts with” o “Ends with”, se i valori desiderati si trovano all’inizio o alla fine di una stringa.
+L&#39;operatore [**[!UICONTROL Contains]**](/help/components/segmentation/seg-reference/seg-operators.md) è una delle funzionalità di elaborazione più complesse della segmentazione, in quanto l&#39;operatore deve analizzare l&#39;intero contenuto di ogni valore. Prendere in considerazione l&#39;utilizzo di altri operatori come **[!UICONTROL Starts with]**o **[!UICONTROL Ends with]**se i valori desiderati si trovano all&#39;inizio o alla fine di una stringa.
 
-Se l’operatore “Contains” in un segmento restituisce un gran numero di risultati, in genere si verifica un timeout del rapporto. Ad esempio, se hai creato un segmento in cui `Referrer equals "."`, il segmento esegue ricerche nel contenuto di ogni valore. Valuta la possibilità di utilizzare l’operatore “Exists” al posto di “Contains”.
+Se un operatore **[!UICONTROL Contains]** in un segmento restituisce un numero elevato di risultati, in genere si verifica un timeout del rapporto. Ad esempio, se hai creato un segmento in cui **[!UICONTROL Referrer]** **[!UICONTROL equals]** `"."`, il segmento esegue ricerche nel contenuto di ogni valore. Valuta l&#39;utilizzo dell&#39;operatore **[!UICONTROL Exists]**.
 
 ## Utilizzare le classificazioni per raggruppare gli elementi dimensionali
 
-Se un segmento ha molte condizioni, queste possono rapidamente degradare le prestazioni del segmento. Ad esempio, `Page equals X or Page equals Y or Page equals Z` ripetuto con centinaia di valori diversi. Invece di scrivere queste centinaia di condizioni, classifica tutti i valori desiderati in un segmento, quindi usa il valore classificato in un segmento.
+Se un segmento ha molte condizioni, queste possono rapidamente degradare le prestazioni del segmento. Ad esempio, **[!UICONTROL Page]** **[!UICONTROL equals]** `X` **[!UICONTROL OR]** **[!UICONTROL Page]** **[!UICONTROL equals]** `Y` **[!UICONTROL OR]** **[!UICONTROL Page]** **[!UICONTROL equals]** `Z` ripetuto con centinaia di valori diversi. Invece di scrivere queste centinaia di condizioni, classifica tutti i valori desiderati in un segmento, quindi usa il valore classificato in un segmento.
 
 1. Crea una classificazione per la variabile con cui stai lavorando.
 2. Scarica il modello di classificazione e aprilo nel foglio di calcolo o nell’editor di testo desiderato.
