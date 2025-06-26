@@ -4,10 +4,10 @@ description: Approfondisci i dati relativi al pubblico e suddividili in gruppi c
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 96%
+source-wordcount: '672'
+ht-degree: 94%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="Tabella coorte"
->abstract="Raggruppa gli utenti in base al completamento di un evento, quindi analizza il coinvolgimento continuo e l’abbandono nel tempo.<br/><br/>**Parametri &#x200B;**<br/>**Criteri di inclusione**: i componenti utilizzati per definire le coorti di visitatori iniziali.<br/>**Criteri di ritorno**: i componenti utilizzati per determinare se un visitatore è tornato."
+>abstract="Raggruppa gli utenti in base al completamento di un evento, quindi analizza il coinvolgimento continuo e l’abbandono nel tempo.<br/><br/>**Parametri **<br/>**Criteri di inclusione**: i componenti utilizzati per definire le coorti di visitatori iniziali.<br/>**Criteri di ritorno**: i componenti utilizzati per determinare se un visitatore è tornato."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la tabella coorte in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta la [tabella coorte](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la tabella coorte in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta la [tabella coorte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -52,12 +52,12 @@ Esempi di cosa è possibile fare con una [!UICONTROL Cohort table]:
 * Riconoscere quando interrompere una versione di prova o un’offerta per massimizzare il valore.
 * Sviluppare idee per il test A/B in aree come prezzo, percorso di upgrade ecc.
 
-[!UICONTROL Cohort table] è disponibile per tutti i clienti Customer Journey Analytics con diritti di accesso ad [!UICONTROL Analysis Workspace].
+L’[!UICONTROL Cohort table] è disponibile per tutti i clienti Adobe Analytics con diritti di accesso ad [!UICONTROL Analysis Workspace].
 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi per coorte in Analysis Workspace](https://video.tv.adobe.com/v/3430074/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi per coorte in Analysis Workspace](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoChe
 >
 >[!UICONTROL Cohort Analysis] non supporta le metriche non filtrabili (comprese le metriche calcolate), le metriche non intere (come Entrate) o le occorrenze. Solo le metriche utilizzabili nei filtri possono essere utilizzate in [!UICONTROL Cohort Analysis] e possono essere incrementate solo di 1 alla volta.
 
-Le tabelle coorte in Customer Journey Analytics supportano metriche basate sul doppio sistema (o su qualsiasi altro sistema numerico). Ad esempio, Purchase.Value (doppio) può essere utilizzato come metrica di inclusione/ritorno. Inoltre, anche tutte le metriche passate in Adobe Experience Platform tramite il connettore di origine di Analytics sono doppie.
+Le tabelle coorte in Adobe Analytics supportano metriche basate sul doppio sistema (o su qualsiasi altro sistema numerico). Ad esempio, Purchase.Value (doppio) può essere utilizzato come metrica di inclusione/ritorno. Inoltre, anche tutte le metriche passate in Adobe Experience Platform tramite il connettore di origine di Analytics sono doppie.
 
 ## Funzionalità delle tabelle coorte
 
@@ -128,7 +128,7 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/3430090?quality=12&learn=on&captions=ita){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -153,7 +153,7 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/3430174?quality=12&learn=on&captions=ita){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +167,7 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/3430164?quality=12&learn=on&captions=ita){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

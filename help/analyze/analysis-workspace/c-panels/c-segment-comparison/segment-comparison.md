@@ -28,12 +28,12 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Pannello Confronto dei segmenti"
->abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri &#x200B;**<br/>**Aggiungi un segmento**: il primo segmento da analizzare.<br/>**Confronta con**: il secondo segmento con cui fare il confronto. Questo verrà popolato automaticamente con *Qualsiasi altro*, che è l’inverso del primo segmento. Se lo desideri, puoi sostituirlo con un segmento diverso.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
+>abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri **<br/>**Aggiungi un segmento**: il primo segmento da analizzare.<br/>**Confronta con**: il secondo segmento con cui fare il confronto. Questo verrà popolato automaticamente con *Qualsiasi altro*, che è l’inverso del primo segmento. Se lo desideri, puoi sostituirlo con un segmento diverso.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello di confronto dei segmenti in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Questo articolo documenta il pannello di confronto dei segmenti in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ Il pannello di confronto dei segmenti è una funzione del [Segmento IQ](../../se
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/41729?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

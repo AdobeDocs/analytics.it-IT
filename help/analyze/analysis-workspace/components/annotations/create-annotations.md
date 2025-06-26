@@ -4,64 +4,81 @@ description: Come creare annotazioni in Workspace.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 100%
+source-wordcount: '782'
+ht-degree: 95%
 
 ---
 
-# Creare annotazioni {#create-annotations}
+# Creare annotazioni
 
-<!-- markdownlint-disable MD034 -->
+Per impostazione predefinita, solo gli amministratori possono creare annotazioni. Per visualizzare le annotazioni, gli utenti dispongono del diritto analogo a quello per visualizzare altri componenti (come segmenti, metriche calcolate ecc.).
+
+
+Tuttavia, gli amministratori possono assegnare agli utenti l’autorizzazione [!UICONTROL Annotation Creation] (Analytics Tools) tramite [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=it).
+
+Puoi creare un’annotazione nei modi seguenti:
+
+![Creare un’annotazione](assets/create-annotation.png)
+
+* **A**. Nell’interfaccia principale, seleziona **[!UICONTROL Components]** e quindi **[!UICONTROL Annotations]**. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] dal gestore [[!UICONTROL Annotations]](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md).
+* **B**. In un progetto Workspace, dal menu di scelta rapida in una visualizzazione, seleziona **[!UICONTROL Create annotation from selection]**.
+* **C**. In un progetto Workspace, dal menu di scelta rapida in un grafico a linee, seleziona **[!UICONTROL Annotate Selection]**.
+* **D**. In un progetto Workspace, seleziona **[!UICONTROL Components]** dal menu e quindi **[!UICONTROL Create annotation]**.
+* **E**.  In un progetto Workspace, utilizza la scelta rapida da tastiera **[!UICONTROL ctrl+shift+o]** (Windows) o **[!UICONTROL shift+command+o]** (macOS)
+
+Per definire l&#39;annotazione, utilizzare [[!UICONTROL Annotation builder]](#annotation-builder).
+
+
+
+## Generatore di annotazioni {#annotation-builder}
 
 >[!CONTEXTUALHELP]
 >id="components_annotations_details"
 >title="Dettagli annotazione"
 >abstract="Le annotazioni consentono di comunicare in modo efficace dettagli sui dati contestuali a beneficio degli utenti in tutta l’organizzazione. Consentono di collegare eventi calendario a dimensioni o metriche specifiche."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_annotations_scope"
 >title="Ambito"
 >abstract="L’ambito consente di personalizzare i dati ai quali aggiungere annotazioni. Le metriche calcolate e i segmenti non ereditano automaticamente le annotazioni applicate ai componenti utilizzati nelle loro definizioni. Puoi aggiungere nuove metriche calcolate alla sezione dell’ambito di un’annotazione esistente. I segmenti nuovi richiedono un’annotazione nuova."
 
-<!-- markdownlint-enable MD034 -->
 
-Per impostazione predefinita, solo gli amministratori possono creare annotazioni. Gli utenti possono visualizzarle come avviene con altri componenti di Analytics (segmenti, metriche calcolate ecc.).
 
-Tuttavia, gli amministratori possono assegnare agli utenti l’autorizzazione [!UICONTROL Annotation Creation] (Analytics Tools) tramite [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=it).
+La finestra di dialogo **[!UICONTROL Annotations builder]** viene utilizzata per creare nuove annotazioni o modificare quelle esistenti. La finestra di dialogo si chiama **[!UICONTROL New annotation]** o **[!UICONTROL Edit annotation]** per le annotazioni create o gestite dal gestore [[!UICONTROL Annotations]](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md).
 
-1. Per creare le annotazioni, è possibile iniziare in diversi modi:
 
-| Metodo di creazione | Dettagli |
-| --- | --- |
-| **Vai a [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Annotation].** | Viene visualizzata la pagina di gestione Annotazioni. Fai clic su [!UICONTROL Create New Annotation]; viene aperto [!UICONTROL Annotation builder]. |
-| **Fai clic con il pulsante destro del mouse su un punto di una tabella.** | Viene aperto [!UICONTROL The Annotation builder]. Per impostazione predefinita, le annotazioni create in questo modo sono visibili solo nel progetto in cui sono state create. Ma puoi renderle disponibili in tutti i progetti. Inoltre, le date, le metriche e così via sono già state compilate.<p>![](assets/annotate-table.png) |
-| **Fai clic con il pulsante destro del mouse su un punto in un grafico [!UICONTROL Line].** | Viene aperto [!UICONTROL Annotation builder]. Per impostazione predefinita, le annotazioni create in questo modo sono visibili solo nel progetto in cui sono state create. Ma puoi renderle disponibili in tutti i progetti. Inoltre, le date, le metriche e così via sono già state compilate.<p>![](assets/annotate-line.png) |
-| **In Workspace, vai a [!UICONTROL Components] > [!UICONTROL Create annotation].** | Viene aperto [!UICONTROL Annotation builder]. |
-| **Usa questa scelta rapida da tastiera** per aprire il generatore di annotazioni: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Tieni presente che, se utilizzi la scelta rapida da tastiera, puoi creare un’annotazione per un singolo giorno alla data corrente, e non viene preselezionato alcun ambito (metriche o dimensioni). |
+>[!BEGINTABS]
 
-{style="table-layout:auto"}
+>[!TAB Generatore di annotazioni]
 
-1. Compila gli elementi di [!UICONTROL Annotation builder].
+![Finestra dei dettagli dell’annotazione con i campi e le opzioni descritti nella sezione successiva.](assets/annotation-builder.png)
 
-   ![](assets/ann-builder.png)
+>[!TAB Creare o modificare un’annotazione]
+
+![Finestra dei dettagli dell’annotazione con i campi e le opzioni descritti nella sezione successiva.](assets/create-edit-annotation.png)
+
+>[!ENDTABS]
+
+1. Specifica i dettagli seguenti (![Obbligatorio](/help/assets/icons/Required.svg) indica i dati obbligatori):
 
    | Elemento | Descrizione |
    | --- | --- |
-   | [!UICONTROL Project-only Annotation] | Per impostazione predefinita, l’annotazione si applica al progetto corrente. Selezionando questa casella, puoi rendere l’annotazione disponibile per tutti i progetti di tua proprietà.<p> ![](assets/project-only.png) |
-   | [!UICONTROL Title] | Assegna un nome all’annotazione, ad esempio “giorno della memoria” |
-   | [!UICONTROL Description] | (Facoltativo) Specifica una descrizione dell’annotazione, ad esempio “Festività negli Stati Uniti”. |
-   | [!UICONTROL Tags] | (Facoltativo) Organizza le annotazioni creando o applicando un tag. |
-   | [!UICONTROL Applied date] | Seleziona la data o l’intervallo di date in cui l’annotazione sarà visibile. |
-   | [!UICONTROL Color] | Applica un colore all’annotazione. L’annotazione viene visualizzata nel progetto con il colore selezionato. Puoi scegliere colori diversi per diverse categorie di annotazioni, ad esempio festività, eventi esterni, problemi di tracciamento, ecc. |
-   | [!UICONTROL Scope] | (Facoltativo) Trascina le metriche che determinano l’attivazione dell’annotazione. Trascina quindi eventuali dimensioni o segmenti che fungano da filtri, per determinare quando l’annotazione sarà visibile. Se non specifichi un ambito, l’annotazione verrà applicata a tutti i dati.<ul><li>**[!UICONTROL Any of these metrics are present]**: trascina fino a 10 metriche per attivare la visualizzazione dell’annotazione.</li><li>**[!UICONTROL With all of these filters]**: trascina fino a 10 dimensioni o segmenti da usare come filtri, per determinare quando viene visualizzata l’annotazione.</li></ul><p>Casi d’uso: un eVar ha interrotto la raccolta dei dati per un particolare intervallo di date. Trascina l’eVar nella finestra di dialogo **[!UICONTROL Any of these metrics are present]**. Oppure: la metrica [!UICONTROL Visits] non riporta alcun dato; segui la stessa procedura.<p>**Nota:** un’annotazione applicata a un componente e quindi utilizzata come parte di una metrica calcolata o di una definizione di segmento NON eredita automaticamente l’annotazione. Per visualizzare l’annotazione, è necessario aggiungere alla sezione dell’ambito anche la metrica calcolata desiderata. Tuttavia, è necessario creare una nuova annotazione per ogni segmento a cui si desidera aggiungere le stesse informazioni.<p>Esempio: hai applicato un’annotazione a [!UICONTROL Orders] in un giorno specifico. Quindi utilizzi [!UICONTROL Orders] in una metrica calcolata per lo stesso intervallo di date. La nuova metrica calcolata non visualizza automaticamente l’annotazione per gli ordini; affinché venga visualizzata l’annotazione, la metrica calcolata deve essere aggiunta anche alla sezione ambito. |
-   | [!UICONTROL Apply to all report suites] | Per impostazione predefinita, l’annotazione è applicabile alla suite di rapporti di origine. Selezionando questa casella, l’annotazione viene applicata a tutte le suite di rapporti dell’azienda. |
+   | **[!UICONTROL Report suite]** | Puoi selezionare la suite di rapporti per l’annotazione. L’annotazione definita è disponibile come annotazione nei progetti Workspace in base alla suite di rapporti selezionata. Questa selezione viene annullata se hai abilitato [!UICONTROL Apply to all report suites]. |
+   | **[!UICONTROL Project-only Annotation]** | Una casella di informazioni per spiegare che l’annotazione creata è visibile solo nel progetto Workspace su cui stai lavorando. Abilita **[!UICONTROL Make this Annotation available to all your projects]** per rendere l’annotazione visibile a tutti i tuoi progetti. Questa casella di informazioni è visibile solo quando crei un’annotazione dall’interno di un progetto Workspace. |
+   | **[!UICONTROL Title]** ![Obbligatorio](/help/assets/icons/Required.svg) | Assegna un nome all’annotazione, ad esempio `Needs further investigation`. |
+   | **[!UICONTROL Description]** | Fornisci una descrizione per l’annotazione, ad esempio `We never expected such a fluctuation in numbers.`. |
+   | **[!UICONTROL Tags]** | Organizza l’annotazione creando o applicando uno o più tag. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL Enter]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
+   | **[!UICONTROL Applied date]** ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona la data o l’intervallo di date che è necessario riportare per rendere visibile l’annotazione. Quando crei un’annotazione utilizzando la scelta rapida da tastiera, per impostazione predefinita l’annotazione viene impostata su un intervallo di date limitato al solo giorno. Quando crei un’annotazione utilizzando una selezione in una visualizzazione, per impostazione predefinita l’annotazione si basa sull’intervallo di date del pannello a cui appartiene la visualizzazione. |
+   | **[!UICONTROL Color]** | Applica un colore all’annotazione. L’annotazione viene visualizzata nel progetto con il colore selezionato. Puoi scegliere colori diversi per diverse categorie di annotazioni, ad esempio festività, eventi esterni, problemi di tracciamento, ecc. |
+   | **[!UICONTROL Scope]** | Trascina e rilascia le metriche dal pannello dei componenti che attivano l’annotazione. Ad esempio persone, sessioni ed eventi. Quindi, trascina dal pannello dei componenti, i segmenti o le dimensioni che fungono da segmenti per determinare se visualizzare o meno l’annotazione. Se non specifichi un ambito, l’annotazione verrà applicata a tutti i dati. <br/>Puoi scegliere tra due opzioni:<ul><li>**[!UICONTROL Any of these metrics are present]**: trascina fino a 10 metriche per attivare la visualizzazione dell’annotazione.<br/>Ad esempio, se la metrica Entrate non ha raccolto dati per un intervallo di date specifico, trascina la metrica Entrate in questa casella.</li><li>**[!UICONTROL With all of these segments]**: trascina fino a 10 dimensioni o segmenti che determinano se l’annotazione viene visualizzata.</li></ul><p><p>**Nota:** un’annotazione applicata a un componente e quindi utilizzata come parte di una metrica calcolata o di una definizione di segmento NON eredita automaticamente l’annotazione. Per visualizzare l’annotazione, è necessario aggiungere alla sezione dell’ambito anche la metrica calcolata desiderata. Tuttavia, è necessario creare una nuova annotazione per ogni segmento che si desidera annotare con le stesse informazioni. Ad esempio: hai applicato un’annotazione a [!UICONTROL Orders] in un giorno specifico. Quindi utilizzi [!UICONTROL Orders] in una metrica calcolata per lo stesso intervallo di date. La nuova metrica calcolata non visualizza automaticamente l’annotazione per gli ordini. Aggiungi anche la metrica calcolata alla sezione dell’ambito per l’annotazione da visualizzare. |
+   | **[!UICONTROL Apply to all data views]** | Per impostazione predefinita, l’annotazione è applicabile alla suite di rapporti di origine. Selezionando questa casella, l’annotazione viene applicata a tutte le suite di rapporti dell’azienda. |
 
    {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Seleziona
+   * **[!UICONTROL Save]** per salvare l’annotazione;
+   * **[!UICONTROL Save As]** per salvare una copia dell’annotazione;
+   * **[!UICONTROL Delete]** per eliminare un’annotazione;
+   * **[!UICONTROL Cancel]** per annullare le modifiche apportate a un’annotazione o per annullare la creazione di una nuova annotazione.

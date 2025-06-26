@@ -4,48 +4,83 @@ title: Cosa sono le palette di colori di visualizzazione e come funzionano?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 434b296825806616288127bb2d3e73e1f9531f95
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 79%
+source-wordcount: '207'
+ht-degree: 93%
 
 ---
 
-# Palette di colori di visualizzazione {#visualization-color-palettes}
+# Visualizzazione palette di colori {#visualization-color-palette}
+
+<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_colorpalette"
 >title="Palette dei colori del progetto"
 >abstract="Modifica la palette di colori utilizzata in questo progetto."
 
-È possibile modificare la palette di colori di visualizzazione utilizzata in Workspace scegliendo una palette di colori diversa o specificando una propria palette corrispondente ai colori del marchio aziendale. Questa funzione influisce sulla maggior parte delle visualizzazioni in Workspace, ma **non** interessa [!UICONTROL Summary Change], la formattazione condizionale in [!UICONTROL Freeform] tabelle e la visualizzazione [!UICONTROL Map].
+<!-- markdownlint-enable MD034 -->
+
+
+Puoi modificare la palette di colori di visualizzazione utilizzata in Workspace. Puoi selezionare una palette di colori predefinita o specificare una tua propria palette che corrisponda ai colori di branding della tua azienda. Questa funzione interessa gran parte delle visualizzazioni in Workspace, ma **non** influisce sulle modifiche di riepilogo, sulla formattazione condizionale nelle tabelle a forma libera e sulla vista Mappa.
 
 >[!NOTE]
 >
 >Il supporto per la palette di colori non è attivato per Internet Explorer 11.
 
-![](assets/color_palettes.png)
+![Finestra Informazioni e impostazioni progetto.](assets/color-palette.png)
 
 Nota bene:
 
-* Sono disponibili cinque palette di colori predefinite tra cui scegliere. La palette predefinita e quella sottostante sono state ottimizzate per garantire un contrasto ottimale e sono entrambe più accessibili in caso di daltonismo.
-* La terza e la quinta palette di colori sotto le due soprastanti sono state ottimizzate per l’armonia dei colori.
+* Sono disponibili sei palette di colori predefinite tra cui scegliere. La palette predefinita e la seconda dell’elenco sono state ottimizzate per garantire un contrasto ottimale e sono entrambe più accessibili agli utenti daltonici.
+* Le altre palette sono state ottimizzate per l’armonia dei colori.
 
-## Cambia [!UICONTROL color palette]:
+## Per modificare la palette di colori:
+
+1. Passa a **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project info & settings]**.
+1. Dal menu a discesa **[!UICONTROL Project color palette]** è possibile scegliere una delle combinazioni di colori predefinite.
+1. Per specificare una tua palette, seleziona **[!UICONTROL Custom palette]** sotto le opzioni predefinite.
+1. Specifica fino a 16 valori esadecimali delimitati da virgole (ad esempio, `#00a4e4`) per creare una tua palette di colori. Se ad esempio specifichi solo quattro valori, i colori vengono ripetuti automaticamente nelle visualizzazioni che contengono più colori.
+
+
+<!--
+# Visualization Color Palettes {#visualization-color-palettes}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_colorpalette"
+>title="Project color palette"
+>abstract="Change the color palette used in this project."
+
+You can change the visualization color palette used in Workspace by choosing a different color palette or by specifying your own palette that could match your company's branding colors. This feature affects most visualizations in Workspace, but it does **not** affect [!UICONTROL Summary Change], conditional formatting in [!UICONTROL Freeform] tables, and the [!UICONTROL Map] visualization.
+
+>[!NOTE]
+>
+>Color palette support is not enabled for Internet Explorer 11.
+
+![](assets/color_palettes.png)
+
+Keep in mind:
+
+* There are five pre-set color palettes to choose from. The default palette and the one below have been optimized for optimal contrast and are both more accessible for those who are color blind.
+* The third to the fifth color palettes below the top two have been optimized for color harmony.
+
+## Change your [!UICONTROL color palette]:
 
 
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di una tavolozza di colori personalizzata](https://video.tv.adobe.com/v/329885?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
-1. Passa a **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
-1. Dall&#39;elenco a discesa **[!UICONTROL Project Color Palette]** è possibile scegliere una delle cinque combinazioni di colori predefinite.
+1. Navigate to **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
+1. From the **[!UICONTROL Project Color Palette]** drop-down list, you can pick one of five pre-set color schemes.
 
    ![](assets/custom_palette.png)
 
-1. Per specificare una tua palette, seleziona **[!UICONTROL Custom Palette]** sotto le opzioni predefinite.
-1. Specifica fino a 16 valori esadecimali separati da virgole (ad esempio #00a4e4) per i colori che intendi utilizzare. Se, ad esempio, desideri utilizzare solo quattro valori, questi colori verranno automaticamente ripetuti in visualizzazioni contenenti più colori.
+1. To specify your own palette, select **[!UICONTROL Custom Palette]** below the pre-set options.
+1. Specify up to 16 comma-separated hexadecimal values (for example, #00a4e4) for the colors you intend to use. If, for example, you want to use only four values, these colors will automatically be repeated in visualizations that contain more colors.
+-->
