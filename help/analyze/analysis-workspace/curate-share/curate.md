@@ -52,7 +52,7 @@ Per rimuovere la cura del progetto e ripristinare l’intero set di componenti n
 
 ## Cura delle suite di rapporti virtuali
 
-Per applicare la cura a livello di suite di rapporti in modo che venga applicata a più progetti contemporaneamente, puoi [curare i componenti in una suite di rapporti virtuale](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components).
+Per applicare la cura a livello di suite di rapporti in modo che venga applicata a più progetti contemporaneamente, puoi [curare i componenti in una suite di rapporti virtuale](https://experienceleague.adobe.com/it/docs/analytics/components/virtual-report-suites/vrs-components).
 
 >[!NOTE]
 >
