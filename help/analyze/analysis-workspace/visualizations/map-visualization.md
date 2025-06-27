@@ -46,7 +46,7 @@ ht-degree: 54%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Nessuna visualizzazione Mappa attualmente disponibile in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Nessuna visualizzazione Mappa attualmente disponibile in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
