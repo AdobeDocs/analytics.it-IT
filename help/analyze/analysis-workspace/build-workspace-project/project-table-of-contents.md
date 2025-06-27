@@ -1,14 +1,14 @@
 ---
-description: Informazioni sul sommario del progetto disponibili nei progetti
+description: Scopri come utilizzare il sommario in un progetto in Analysis Workspace per accedere rapidamente a pannelli e visualizzazioni.
 keywords: Analysis Workspace
-title: Sommario di un progetto
+title: Sommario
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 93%
+source-wordcount: '200'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ In Analysis Workspace puoi visualizzare il sommario di un progetto, per spostart
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un sommario](https://video.tv.adobe.com/v/328248/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un sommario](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ You can view a table of contents within each project in Analysis Workspace, allo
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/328248?quality=12&learn=on&captions=ita){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

@@ -1,26 +1,26 @@
 ---
-description: Le impostazioni colonna consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
+description: Scopri come modificare le impostazioni delle colonne per configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 title: Impostazioni colonna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 32%
+source-wordcount: '803'
+ht-degree: 30%
 
 ---
 
 
-# [!UICONTROL Column Settings]
+# Impostazioni colonna
 
 Le [!UICONTROL Column settings] consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/328590/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 
 | Opzioni di formattazione condizionale | Descrizione |
 | --- | --- |
-| **[!UICONTROL &#x200B; Use percent limits]** | Modifica l’intervallo di limiti in modo che sia basato su percentuali anziché su valori assoluti. L’intervallo dei limiti di percentuale funziona per metriche basate esclusivamente sulle percentuali (come Bounce Rate, o Percentuale non recapitate) e per metriche basate su conteggio e percentuale (come Visualizzazioni di pagina). |
+| **[!UICONTROL  Use percent limits]** | Modifica l’intervallo di limiti in modo che sia basato su percentuali anziché su valori assoluti. L’intervallo dei limiti di percentuale funziona per metriche basate esclusivamente sulle percentuali (come Bounce Rate, o Percentuale non recapitate) e per metriche basate su conteggio e percentuale (come Visualizzazioni di pagina). |
 | **[!UICONTROL Auto-generated]** | Calcola automaticamente i limiti superiori/medi/inferiori in base ai dati. Il limite superiore corrisponde al valore massimo nella colonna. Il limite inferiore corrisponde a quello minimo e il punto intermedio è la media fra il limite superiore e quello inferiore. |
 | **[!UICONTROL Custom]** | Assegna manualmente **[!UICONTROL Upper limit]**, **[!UICONTROL Midpoint]** e **[!UICONTROL Lower limit]**. I limiti forniscono la flessibilità necessaria per determinare quando un valore di colonna diventa buono, medio o scarso. |
 | **[!UICONTROL Conditional formatting palette]** | Applica un set di colori preconfigurato alle celle. A seconda delle quattro combinazioni di colori selezionate, a valori alti, intermedi e bassi vengono assegnati colori diversi. <br> La sostituzione di una dimensione nella tabella ridefinisce i limiti della formattazione condizionale. La sostituzione di un dato ricalcola i limiti per la colonna (dove il dato si trova sull’asse X e la dimensione sull’asse Y). |
@@ -130,7 +130,7 @@ Per utilizzare un modello di attribuzione non predefinito per una metrica in Ana
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colonne dinamiche](https://video.tv.adobe.com/v/41431?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colonne dinamiche](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

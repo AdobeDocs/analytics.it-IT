@@ -1,28 +1,34 @@
 ---
-description: Scopri come salvare i progetti nelle cartelle in Workspace
+description: Scopri come salvare un nuovo progetto in una cartella in Analysis Workspace.
 keywords: Analysis Workspace
-title: Salvataggio dei progetti nelle cartelle
+title: Salvare Un Nuovo Progetto In Una Cartella
 feature: Workspace Basics
 exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 100%
+source-wordcount: '35'
+ht-degree: 5%
 
 ---
 
 # Salvare un nuovo progetto in una cartella
 
-Per salvare un nuovo progetto in una cartella specifica, seleziona il nome della cartella nella finestra di dialogo Salva progetto.
+Consulta [Salva progetti](../save-projects.md#save) per ulteriori informazioni.
 
-1. In Workspace, crea un nuovo progetto.
+<!-- Not in TOC anymore; irrelevant article
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
+To save a new project to a specific folder, select the folder name in the Save project dialogue window.
 
-1. Nella finestra di dialogo **Progetto** > **Salva**, seleziona un nome della cartella utilizzando il menu a discesa Cartella.
+1. In Workspace, create a new project.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
-1. Fai clic su **Salva**.
+1. In the **Project** > **Save** dialogue, select a folder name from the Folder drop-down menu.
 
-   Il progetto viene salvato nella cartella selezionata.
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+
+1. Click **Save**.
+
+    The project is saved in the selected folder.
+
+-->

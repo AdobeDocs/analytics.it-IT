@@ -1,21 +1,21 @@
 ---
-description: Scopri le cartelle in Workspace
+description: Scopri come organizzare i progetti in cartelle in Analysis Workspace.
 keywords: Analysis Workspace
-title: Panoramica cartelle
+title: Panoramica delle cartelle
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
 # Panoramica cartelle
 
-Le cartelle in Adobe Analytics sono disponibili nella pagina di destinazione di Workspace se hai selezionato [Mostra cartelle e progetti](../freeform-overview.md#show-selector).
-
 Le cartelle in Workspace ti aiutano a organizzare e classificare i progetti. Con la funzionalità delle cartelle, puoi creare cartelle e sottocartelle per gestire i progetti.
+
+Le cartelle in Adobe Analytics sono disponibili nella pagina di destinazione di Workspace se hai selezionato [Mostra cartelle e progetti](../freeform-overview.md#show-selector).
 
 In Workspace sono disponibili due tipi di cartelle: la cartella aziendale e le cartelle personali. Inoltre, una cartella aziendale condivisa consente agli amministratori di creare e condividere i contenuti con tutti gli utenti di Workspace.
 

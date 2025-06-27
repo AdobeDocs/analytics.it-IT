@@ -1,13 +1,13 @@
 ---
-description: La funzione di analisi dell’abbandono in Analysis Workspace permette di usare dimensioni e metriche diverse come punti di contatto nei funnel e flussi di lavoro e offre maggiore flessibilità nella definizione dei passaggi utente da analizzare.
-title: Abbandono multidimensionale
+description: Scopri come la visualizzazione dell’abbandono in Analysis Workspace consente di combinare dimensioni e metriche come punti di contatto in funnel e flussi di lavoro. Scopri in che modo questo offre maggiore flessibilità nella definizione dei passaggi utente che desideri esaminare.
+title: Abbandono interdimensionale
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 21%
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 21%
 
 Il fallout in Analysis Workspace consente di combinare dimensioni e metriche come punti di contatto in funnel e flussi di lavoro. I fallout offrono maggiore flessibilità nella definizione dei passaggi utente che si desidera esaminare.
 
+Ad esempio, oltre a una dimensione Pagina, puoi aggiungere a una visualizzazione Abbandono altri elementi dimensionali (come un nome di dispositivo specifico dalla dimensione Nome dispositivo). La combinazione di dimensioni consente di visualizzare il modo in cui le pagine e alcune azioni si interagiscono nei percorsi dei clienti.
+
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abbandono multidimensionale](https://video.tv.adobe.com/v/329408?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abbandono multidimensionale](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

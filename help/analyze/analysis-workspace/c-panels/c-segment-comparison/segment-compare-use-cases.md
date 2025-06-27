@@ -5,14 +5,14 @@ keywords: Segmento IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
-# Casi d’utilizzo del segmento IQ
+# Casi di utilizzo del confronto dei segmenti
 
 Il pannello di confronto dei segmenti è una funzione ampiamente utilizzata in Analysis Workspace. I clienti scoprono costantemente nuovi modi per ottenere informazioni approfondite. Di seguito sono riportati diversi casi di utilizzo riusciti.
 
@@ -60,7 +60,7 @@ Una grande azienda di servizi B2B desiderava capire il tipo di traffico che le p
 
 > *“Abbiamo scoperto che le persone che acquistavano Fitbit avevano una probabilità 6 volte maggiore di ricevere il messaggio “non disponibile” rispetto agli altri, per questo abbiamo deciso di aumentare gli ordini di Fitbit evitando di esaurire le scorte disponibili!”*
 
-**Scenario:** un grande rivenditore online era interessato alle vendite di Fitbit, uno dei prodotti più ricercati del periodo delle feste, e agli aspetti che rendevano unici i suoi acquirenti rispetto agli altri. Con un semplice clic con il pulsante destro del mouse sull’elemento di riga “Fitbit” nei rapporti sui prodotti, il team marketing ha potuto eseguire rapidamente un’analisi IQ segmento. Ciò che hanno scoperto è che gli acquirenti Fitbit avevano una probabilità di 6 volte superiore di ricevere il messaggio “esaurito” rispetto a qualsiasi altro cliente. Dopo ulteriori analisi, il team marketing è stato in grado di dirigere i visitatori ai negozi fisici mentre attendevano che il reparto acquisti ordinasse ulteriori Fitbit da spedire. Come risultato, il rivenditore ha evitato ulteriori messaggi di “esaurimento” ed è stato in grado di soddisfare la maggiore domanda del periodo festivo.
+**Scenario:** un grande rivenditore online era interessato alle vendite di Fitbit, uno dei prodotti più ricercati del periodo delle feste, e agli aspetti che rendevano unici i suoi acquirenti rispetto agli altri. Il team marketing è stato in grado di fare clic con il pulsante destro del mouse sull’elemento di riga &quot;Fitbit&quot; nel rapporto sui prodotti ed eseguire rapidamente un’analisi IQ segmento. Ciò che hanno scoperto è che gli acquirenti Fitbit avevano una probabilità 6 volte superiore di ricevere il messaggio &quot;esaurito&quot; rispetto a qualsiasi altro cliente. Dopo ulteriori analisi, il team marketing è stato in grado di dirigere i visitatori ai negozi fisici mentre attendevano che il reparto acquisti ordinasse ulteriori Fitbit da spedire. Come risultato, il rivenditore ha evitato ulteriori messaggi di “esaurimento” ed è stato in grado di soddisfare la maggiore domanda del periodo festivo.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |

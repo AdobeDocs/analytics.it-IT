@@ -1,26 +1,26 @@
 ---
-description: Esempi di utilizzo di analisi per coorte.
+description: Scopri alcuni esempi di casi d’uso per l’analisi per coorte.
 keywords: Analysis Workspace
 title: Casi di utilizzo dell’analisi per coorte
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 92%
+source-wordcount: '934'
+ht-degree: 91%
 
 ---
 
-# Casi di utilizzo dell’[!UICONTROL Cohort Analysis]
+# Casi di utilizzo dell’analisi per coorte
 
 Esempi di utilizzo di [!UICONTROL Cohort Analysis].
 
-## Caso di utilizzo per il livello di engagement generato da un’app {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
+## Caso di utilizzo per il livello di engagement generato da un’app
 
 Immagina di voler analizzare in che modo gli utenti che installano la tua app si comportano nel tempo. La installano ma poi non la usano? La usano solo per un po’? O la usano con continuità nel tempo?
 
-Puoi creare una [!UICONTROL Cohort Analysis] di sei mesi:
+Puoi creare un’analisi per coorte di sei mesi.
 
 **Unità**: mensile, da gennaio 2015 a giugno 2015
 
@@ -30,7 +30,7 @@ Puoi creare una [!UICONTROL Cohort Analysis] di sei mesi:
 
 I visitatori non contano come *`engaged`* nei mesi successivi a meno che non abbiano sessioni attive o abbiano almeno avviato l&#39;app. [!UICONTROL Cohort Analysis] mostrerebbe quindi i pattern di utilizzo in cui *`App Install`* si verifica sempre nel mese 0. Potresti notare dei cali di utilizzo dell’app nel mese 2, indipendentemente da quando gli utenti l’hanno installata. (Per coloro che hanno installato l’app a gennaio 2015, il mese 2 è marzo 2015. Per coloro che hanno installato l’app a febbraio 2015, il mese 2 è aprile 2015 e così via.) Questa analisi ti consente di inviare un messaggio e-mail o push a tutti gli utenti durante il secondo mese successivo all’installazione dell’app, per ricordargli di utilizzarla.
 
-## Caso di utilizzo: abbonamento {#section_FDECB16766CF415BB84AE46BA491FB5F}
+## Caso di utilizzo: abbonamento
 
 Supponiamo che lavori in Adobe.com e che offri un’iscrizione gratuita a Creative Cloud. L’obiettivo è quello di spingere gli utenti ad effettuare l’aggiornamento dalla versione gratuita alla versione di prova di 30 giorni o, meglio ancora, alla versione a pagamento.
 

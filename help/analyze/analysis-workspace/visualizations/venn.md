@@ -1,14 +1,14 @@
 ---
-description: La visualizzazione di Venn consente di trascinare fino a 3 segmenti (da Componenti) e una metrica per creare un diagramma di Venn.
+description: Utilizza la visualizzazione di Venn per trascinare fino a 3 segmenti e una metrica per creare un diagramma di Venn.
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 26%
+source-wordcount: '153'
+ht-degree: 73%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Venn in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/venn) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versione del Customer Journey Analytics** di questo articolo._
+_Questo articolo documenta la visualizzazione Venn in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +34,9 @@ La visualizzazione ![Tipo](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]**
 
 ![Visualizzazione Venn che include tre filtri.](assets/venn.png)
 
-Puoi passare il cursore del mouse sui filtri per ottenere maggiori informazioni sulle percentuali e altro ancora.
+Puoi passare il puntatore sui filtri per ottenere più informazioni approfondite sulle percentuali e altro ancora.
 
-Per generare un [!UICONTROL Freeform table] dalla visualizzazione [!UICONTROL Venn], selezionare il colore ![StatusOrange](/help/assets/icons/StatusOrange.svg) accanto all&#39;intestazione **[!UICONTROL Venn]** e selezionare **[!UICONTROL Show data source]**. Verrà visualizzata una tabella a forma libera **[!UICONTROL Venn Data]** con i dati utilizzati per creare la visualizzazione [!UICONTROL Venn].
+Per generare un [!UICONTROL Freeform table] dalla visualizzazione [!UICONTROL Venn], seleziona lo ![StatusOrange](/help/assets/icons/StatusOrange.svg) colorato accanto all’intestazione **[!UICONTROL Venn]**, quindi seleziona **[!UICONTROL Show data source]**. Verrà visualizzata una tabella a forma libera di **[!UICONTROL Venn Data]** con i dati utilizzati per creare la visualizzazione [!UICONTROL Venn].
 
 <!--
 To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
@@ -48,15 +48,15 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione Venn](https://video.tv.adobe.com/v/3416883/?quality=12&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta [visualizzazione di Venn](https://video.tv.adobe.com/v/335798/?quality=12){target=&#34;_blank&#34;} ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

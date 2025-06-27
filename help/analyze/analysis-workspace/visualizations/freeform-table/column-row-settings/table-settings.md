@@ -1,14 +1,14 @@
 ---
-description: Le Impostazioni riga variano a seconda del componente che hai trascinato all’interno della tabella.
+description: Scopri come utilizzare le impostazioni di riga e come variano a seconda del componente trascinato in una tabella a forma libera in Analysis Workspace.
 title: Impostazioni riga
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 15%
+source-wordcount: '906'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/328590/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -49,8 +49,8 @@ Quando si seleziona l’intestazione della dimensione, sono disponibili le segue
 
 | Opzione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Copy selection to clipboard]** | Copia la selezione dalla visualizzazione negli Appunti. |
-| **[!UICONTROL Download items as CSV (*nome dimensione *)]** | Scarica immediatamente gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Massimo 50.000 elementi dimensionali per la dimensione selezionata. |
+| **[!UICONTROL Copy selection to clipboard]** | Copia la selezione dalla visualizzazione negli appunti. |
+| **[!UICONTROL Download items as CSV (*nome dimensione *)]** | Scarica immediatamente gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Un massimo di 50.000 elementi dimensionali per la dimensione selezionata. |
 | **[!UICONTROL Download selection as CSV]** | Scarica immediatamente gli elementi dimensionali della visualizzazione sul dispositivo locale. |
 | **[!UICONTROL Create hyperlink for all dimension items]** | Crea collegamenti ipertestuali per tutti gli elementi dimensionali. Vedi [Collegamenti ipertestuali per le dimensioni in una tabella a forma libera](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Edit hyperlink for all dimension items]** | Modifica i collegamenti ipertestuali per tutti gli elementi dimensionali. Vedi [Collegamenti ipertestuali per le dimensioni in una tabella a forma libera](../freeform-table-hyperlinks.md) |
@@ -92,4 +92,4 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 
 ## Modificare l&#39;altezza delle righe
 
-È possibile impostare la densità di visualizzazione di un progetto su **[!UICONTROL Compact]**, **[!UICONTROL Comfortable]** e **[!UICONTROL Expanded]**. [Ulteriori informazioni](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).
+È possibile impostare la densità di visualizzazione [1 di un progetto su **[!UICONTROL Compact]**, **[!UICONTROL Comfortable]** e **[!UICONTROL Expanded]**.](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)

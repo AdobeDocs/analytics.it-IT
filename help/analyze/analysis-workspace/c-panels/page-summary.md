@@ -1,12 +1,12 @@
 ---
-description: Il pannello di riepilogo mostra le informazioni di riepilogo per una pagina a scelta.
+description: Scopri come utilizzare il pannello di riepilogo pagina per visualizzare le informazioni di riepilogo per una pagina selezionata.
 title: Pannello Riepilogo pagina
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '571'
 ht-degree: 31%
 
 ---
@@ -27,14 +27,14 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Pannello Riepilogo pagina"
->abstract="Rivedi rapidamente alcune delle metriche di alto livello e lo spostamento da e verso una pagina specifica.<br/><br/>**Parametri &#x200B;**<br/>**Aggiungi un elemento dimensione pagina**: apri la barra dei componenti, individua la dimensione della pagina ed espandila facendo clic sulla freccia per visualizzare gli elementi della dimensione. Quindi, trascina nel generatore la pagina specifica di cui desideri ottenere informazioni. Dopo aver trascinato l’elemento della dimensione, il rapporto verrà compilato automaticamente con le informazioni chiave sulla pagina."
+>abstract="Rivedi rapidamente alcune delle metriche di alto livello e lo spostamento da e verso una pagina specifica.<br/><br/>**Parametri **<br/>**Aggiungi un elemento dimensione pagina**: apri la barra dei componenti, individua la dimensione della pagina ed espandila facendo clic sulla freccia per visualizzare gli elementi della dimensione. Quindi, trascina nel generatore la pagina specifica di cui desideri ottenere informazioni. Dopo aver trascinato l’elemento della dimensione, il rapporto verrà compilato automaticamente con le informazioni chiave sulla pagina."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello di riepilogo delle pagine in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Questo articolo documenta il pannello di riepilogo delle pagine in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 

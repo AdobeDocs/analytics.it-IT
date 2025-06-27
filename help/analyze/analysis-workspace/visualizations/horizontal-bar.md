@@ -1,14 +1,14 @@
 ---
-description: Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche.
-title: Barre orizzontali e Barre orizzontali sovrapposte
+description: Scopri come utilizzare le barre orizzontali per rappresentare vari valori in una o più metriche.
+title: Barre Orizzontali E Barre Orizzontali Sovrapposte
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 33%
+source-wordcount: '185'
+ht-degree: 70%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta le visualizzazioni Barra orizzontale e Barra orizzontale sovrapposte in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Visualizzare [Barre orizzontali e barre orizzontali sovrapposte](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Versione del Customer Journey Analytics** di questo articolo._
+_Questo articolo documenta le visualizzazioni Barra orizzontale e Barra orizzontale sovrapposte in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Visualizzare [Barre orizzontali e barre orizzontali sovrapposte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -28,14 +28,14 @@ La visualizzazione a barre orizzontali ha un’opzione standard e sovrapposta.
 
 >[!CONTEXTUALHELP]
 >id="workspace_horizontalbar_button"
->title="Barre orizzontali"
+>title="A barre orizzontali"
 >abstract="Crea una visualizzazione a barre orizzontali per rappresentare diversi valori per una o più metriche."
 
 <!-- markdownlint-enable MD034 -->
 
-La visualizzazione ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontal bar]** mostra barre orizzontali che rappresentano diversi valori in una o più metriche.
+Questa visualizzazione a **[!UICONTROL Horizontal bar]** ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) mostra barre orizzontali che rappresentano diversi valori per una o più metriche.
 
-![Barra orizzontale che mostra le metriche tra cui visualizzazioni di pagina, velocità di pagina, visite, entrate ed uscite.](assets/horizontal-bar.png)
+![Barre orizzontali che mostrano le metriche tra cui visualizzazioni di pagina, velocità di pagina, visite, entrate e uscite.](assets/horizontal-bar.png)
 
 
 ## Barre orizzontali sovrapposte {#horizontal-bar-stacked}
@@ -50,19 +50,19 @@ La visualizzazione ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.s
 <!-- markdownlint-enable MD034 -->
 
 
-La visualizzazione ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL Horizontal bar stacked]** è simile a [!UICONTROL Horizontal bar], ma le barre della serie sono sovrapposte.
+La visualizzazione a **[!UICONTROL Horizontal bar stacked]** ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) è simile a quella a [!UICONTROL Horizontal bar], ma le barre delle serie sono sovrapposte.
 
-![Barra orizzontale sovrapposta che mostra visualizzazioni pagina, visite, entrate ed uscite.](assets/horizontal-bar-stacked.png)
+![Barre orizzontali sovrapposte che mostrano visualizzazioni di pagina, visite, entrate e uscite.](assets/horizontal-bar-stacked.png)
 
-Utilizza l&#39;opzione **[!UICONTROL 100% stacked]** in ![Impostazioni](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** per trasformare il grafico in una visualizzazione con sovrapposizione 100%.
+Utilizza l’opzione **[!UICONTROL 100% stacked]** in **[!UICONTROL Settings]** ![Setting](/help/assets/icons/Setting.svg) per trasformare il grafico in una visualizzazione a barre sovrapposte al 100%.
 
 ![Barre orizzontali sovrapposte al 100%](assets/horizontal-bar-stacked100.png)
 
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

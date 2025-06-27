@@ -1,46 +1,77 @@
 ---
-description: Rappresenta visivamente i dati con le visualizzazioni.
+description: Scopri come rappresentare visivamente i dati con le visualizzazioni disponibili in Analysis Workspace.
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 93%
+source-wordcount: '1430'
+ht-degree: 96%
 
 ---
 
 # Panoramica delle visualizzazioni
 
-Workspace offre diverse visualizzazioni che consentono di generare rappresentazioni visive dei dati, ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici a dispersione e altri. La maggior parte dei tipi di visualizzazione ti saranno familiari se utilizzi Adobe Analytics. Tuttavia, Analysis Workspace consente di configurare le impostazioni di visualizzazione e offre molti tipi di visualizzazioni nuovi o unici, con funzionalità interattive.
+Workspace offre diverse visualizzazioni per creare rappresentazioni visive dei dati. Ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici di dispersione e altri.
 
-## Tipi di visualizzazione
+## Tipi
 
 In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
-| Nome della visualizzazione | Descrizione |
-| --- | --- |
-| [Superfici](/help/analyze/analysis-workspace/visualizations/area.md)<p>![Icona area](assets/Smock_GraphArea_18_N.svg)</p> | È simile a un grafico a linee ma presenta una superficie colorata al di sotto della linea. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche. |
-| [Barre](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![Icona barra](assets/Smock_GraphBarVertical_18_N.svg)</p> | Mostra barre verticali che rappresentano diversi valori su una o più metriche. |
-| [Grafico bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)<p>![Icona punto elenco](assets/Smock_GraphBullet_18_N.svg)</p> | Mostra come un valore desiderato si confronta con altre gamme di prestazioni (obiettivi). |
-| [Tabella coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![Icona tabella coorte](assets/Smock_TextNumbered_18_N.svg)</p> | Una *`cohort`* è un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Cohort Analysis è utile per le analisi di fidelizzazione, abbandono o latenza. |
-| [Anello](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![Icona Anello](assets/Smock_GraphDonut_18_N.svg)</p> | Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. |
-| [Abbandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Icona Abbandono](assets/Smock_ConversionFunnel_18_N.svg)</p> | I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito. Può essere impostato su sequenze finali o esatte. |
-| [Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![Icona Flusso](assets/flow-icon.png)</p> | Mostra gli esatti percorsi dei clienti attraverso i siti web e le app. |
-| [Tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![Icona tabella a forma libera](assets/Smock_ViewTable_18_N.svg)</p> | Una tabella a forma libera non è semplicemente una tabella di dati, ma è soprattutto una visualizzazione interattiva. È la base per l’analisi dei dati in Workspace. |
-| [Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![Icona istogramma](assets/Smock_GraphHistogram_18_N.svg)</p> | Un istogramma classifica i visitatori, le visite o gli hit in blocchi in base a un volume di metrica. |
-| [Barre orizzontali](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![Icona barra orizzontale](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | Mostra barre orizzontali che rappresentano diversi valori su una o più metriche. |
-| [Riepilogo delle metriche chiave](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![Icona metrica chiave](assets/key-metric-icon.png)</p> | Mostra la tendenza di una metrica in un singolo arco temporale o consente di confrontare le prestazioni della metrica in due intervalli temporali. |
-| [Linee](/help/analyze/analysis-workspace/visualizations/line.md)<p>![Icona riga](assets/Smock_GraphTrend_18_N.svg)</p> | Rappresenta le metriche utilizzando una linea per mostrare il cambiamento dei valori nel corso di un intervallo di tempo. In un grafico a linee, l’asse X rappresenta il tempo. |
-| [Mappa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![Icona mappa](assets/map-icon.png)</p> | Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate). |
-| [Grafico a dispersione](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![Icona grafico a dispersione](assets/Smock_GraphScatter_18_N.svg)</p> | Mostra la relazione tra gli elementi dimensionali fino a tre metriche. |
-| [Numero di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![Icona Numero riepilogo](assets/summary-number-icon.png)</p> | Mostra la cella selezionata come un numero grande. |
-| [Variazione di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![Icona Variazione di riepilogo](assets/summary-change-icon.png)</p> | Mostra la variazione tra le celle selezionate come un numero o una percentuale grande. |
-| [Testo](/help/analyze/analysis-workspace/visualizations/text.md)<p>![Icona testo](assets/Smock_Text_18_N.svg)</p> | Consente di aggiungere testo definito dall’utente al progetto Workspace. Utile per aggiungere ulteriore contesto alle analisi e alle informazioni, oltre a sfruttare le descrizioni di pannelli e visualizzazioni. |
-| [Mappa ad albero](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![Icona Mappa ad albero](assets/Smock_GraphTree_18_N.svg)</p> | Visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati. |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![Icona Venn](assets/venn-icon.png)</p> | Utilizza dei cerchi per rappresentare la sovrapposizione delle metriche fino a 3 segmenti. |
+
+| Icona | Nome | Descrizione |
+| :---: | --- | ---| 
+| ![GraphArea](/help/assets/icons/GraphArea.svg) | [Superfici](/help/analyze/analysis-workspace/visualizations/area.md) | Visualizzazione con grafico a superficie. È simile a un grafico a linee ma presenta una superficie colorata al di sotto della linea. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche. |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barre](/help/analyze/analysis-workspace/visualizations/bar.md) | La visualizzazione di un grafico a barre con barre verticali che rappresentano diversi valori per una o più metriche. |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barre sovrapposte](/help/analyze/analysis-workspace/visualizations/bar.md) | La visualizzazione di un grafico a barre sovrapposte con barre verticali che rappresentano diversi valori per una o più metriche. |
+| ![Grafico bullet](/help/assets/icons/GraphBullet.svg)</p> | [Bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | La visualizzazione di un grafico bullet, che mostra come un valore desiderato si confronta o misura con altre gamme di prestazioni (obiettivi). |
+| ![Testo numerato](/help/assets/icons/TextNumbered.svg) | [Tabella coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una visualizzazione coorte è un gruppo di persone che condividono caratteristiche comuni per un determinato periodo. Una tabella coorte è utile per le analisi di fidelizzazione, abbandono o latenza. |
+| ![Combinato](/help/assets/icons/ComboChart.svg) | [Combinato](combo-charts.md) | Un grafico combinato consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. |
+| ![Grafico ad anello](/help/assets/icons/GraphDonut.svg) | [Anello](/help/analyze/analysis-workspace/visualizations/donut.md) | Simile a un grafico a torta, questa visualizzazione ad anello mostra i dati come parti o segmenti di un insieme. |
+| ![Funnel di conversione](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | La visualizzazione Abbandono mostra dove l’utenza ha lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite. |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Una visualizzazione del flusso mostra i percorsi seguiti dal cliente nei tuoi siti Web e nelle tue app. |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [Tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una visualizzazione tabella a forma libera è una visualizzazione interattiva. La visualizzazione tabella a forma libera è la base per l’analisi dei dati in Workspace. |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Una visualizzazione a istogramma classifica l’utenza, le visite o gli hit in blocchi in base a un volume di metrica. |
+| ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [Barre orizzontali](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Una visualizzazione a barre orizzontali mostra barre orizzontali che rappresentano diversi valori per una o più metriche. |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barra orizzontale sovrapposta](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Una visualizzazione a barre orizzontali sovrapposte mostra barre orizzontali che rappresentano diversi valori per una o più metriche. |
+| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [Riepilogo delle metriche chiave](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Una visualizzazione di riepilogo delle metriche chiave combina le visualizzazioni di linee, modifiche di riepilogo e numeri di riepilogo. |
+| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Linee](/help/analyze/analysis-workspace/visualizations/line.md) | La visualizzazione a linee rappresenta le metriche utilizzando linee che mostrano come cambiano i valori nel tempo. In un grafico a linee, l’asse X rappresenta il tempo. |
+| ![Globo](/help/assets/icons/Globe.svg) | [Mappa](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate) |
+| ![Grafico a dispersione](/help/assets/icons/GraphScatter.svg) | [A dispersione](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | La visualizzazione grafico a dispersione mostra la relazione tra gli elementi dimensionali e un massimo di tre metriche. |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [Intestazione sezione](section-header.md) | Per identificare e articolare sezioni all’interno di un pannello. |
+| ![Sposta verso l’alto o il basso](/help/assets/icons/MoveUpDown.svg) | [Variazione di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Una visualizzazione delle modifiche di riepilogo mostra la modifica tra le celle selezionate come un numero o una percentuale grande. |
+| ![123](/help/assets/icons/123.svg)</p> | [Numero di riepilogo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Una visualizzazione a numero di riepilogo mostra la cella selezionata come un numero grande. |
+| ![Testo](/help/assets/icons/Text.svg) | [Testo](/help/analyze/analysis-workspace/visualizations/text.md) | Una visualizzazione a testo consente di aggiungere testo definito dall’utente al progetto Workspace. Utile per aggiungere ulteriore contesto alle analisi e alle informazioni, oltre a sfruttare le descrizioni di pannelli e visualizzazioni. |
+| ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [Mappa ad albero](/help/analyze/analysis-workspace/visualizations/treemap.md)<p> | Una visualizzazione mappa ad albero visualizza i dati gerarchici (con struttura ad albero) come un insieme di rettangoli nidificati. |
+| ![Tipo](/help/assets/icons/TwoDots.svg) | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Una visualizzazione Venn utilizza dei cerchi per rappresentare la sovrapposizione delle metriche fino a 3 segmenti. |
+
+<!--
+
+| Name| Icon | Description |
+| --- |:---: | ---|
+| [Area](/help/analyze/analysis-workspace/visualizations/area.md)|![Area icon](assets/Smock_GraphArea_18_N.svg)</p> | Like a line graph, but with a colored area below the line. Use an area graph when you have multiple metrics and want to visualize the area expressed by the intersection of two or more metrics. |
+| [Bar](/help/analyze/analysis-workspace/visualizations/bar.md)|![Bar icon](assets/Smock_GraphBarVertical_18_N.svg)</p> | Shows vertical bars representing various values across one or more metrics. |
+| [Bullet graph](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)|![Bullet icon](assets/Smock_GraphBullet_18_N.svg)</p> | Shows how a value you are interested in compares to or measures against other performance ranges (goals). |
+| [Cohort table](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)|![Cohort table icon](assets/Smock_TextNumbered_18_N.svg)</p> | A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort Analysis is useful for retention, churn or latency analysis. |
+| [Donut](/help/analyze/analysis-workspace/visualizations/donut.md) | ![Donut icon](assets/Smock_GraphDonut_18_N.svg)</p> | Similar to a pie chart, this visualization shows data as parts or segments of a whole. |
+| [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | ![Fallout icon](assets/Smock_ConversionFunnel_18_N.svg)</p> | Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages. Can be set to eventual or exact sequences |
+| [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | ![Flow icon](assets/flow-icon.png)</p> | Shows exact customer paths through your websites and apps. |
+| [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | ![Freeform table icon](assets/Smock_ViewTable_18_N.svg)</p> | A Freeform table is not merely a data table, but also an interactive visualization. It is the foundation for data analysis in Workspace.|
+| [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) | ![Histogram icon](assets/Smock_GraphHistogram_18_N.svg)</p> | A histogram buckets visitors, visits or hits into buckets based on a metric volume. |
+| [Horizontal bar](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | ![Horizontal bar icon](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | Shows horizontal bars representing various values across one or more metrics. |
+| [Key metric summary](/help/analyze/analysis-workspace/visualizations/key-metric.md) | ![Key metric icon](assets/key-metric-icon.png)</p> | Shows how a metric is trending within a single timeframe, or lets you compare metric performance across two timeframes. |
+| [Line](/help/analyze/analysis-workspace/visualizations/line.md) | ![Line icon](assets/Smock_GraphTrend_18_N.svg)</p> | Represents metrics using a line in order to show how values change over a period of time. A line chart uses time along the x-axis. |
+| [Map](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | ![Map icon](assets/map-icon.png)</p> | Lets you build a visual map of any metric (including calculated metrics). |
+| [Scatterplot](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ![Scatterplot icon](assets/Smock_GraphScatter_18_N.svg)</p> | Shows the relationship between dimension items and up to three metrics. |
+| [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | ![Summary number icon](assets/summary-number-icon.png)</p> | Shows the selected cell as 1 large number. |
+| [Summary change](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | ![Summary change icon](assets/summary-change-icon.png)</p> | Shows the change between the selected cells as 1 large number/percent. |
+| [Text](/help/analyze/analysis-workspace/visualizations/text.md) | ![Text icon](assets/Smock_Text_18_N.svg)</p> | Lets you add user-defined text to your Workspace. Helpful for adding additional context to your analysis and insights, in addition to leveraging panel/visualization descriptions |
+| [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | ![Treemap icon](assets/Smock_GraphTree_18_N.svg)</p> | Displays hierarchical (tree-structured) data as a set of nested rectangles. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | ![Venn icon](assets/venn-icon.png)</p> | Uses circles to depict the metric overlap of up to 3 segments. |
+
+-->
 
 ## Aggiungere visualizzazioni a un pannello
 
@@ -186,8 +217,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
@@ -203,6 +234,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/329405/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->

@@ -1,26 +1,28 @@
 ---
-description: Interazioni con la tastiera, tasti di scelta rapida e comportamenti point-and-click di Analysis Workspace.
+description: Scopri come utilizzare le interazioni da tastiera, i tasti di scelta rapida e i comportamenti point-and-click di Analysis Workspace.
 keywords: Analysis Workspace
 title: Tasti di scelta rapida
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 92%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
 # Tasti di scelta rapida
 
+I tasti di scelta rapida sono disponibili in Analysis Workspace per favorire la fluidità della navigazione, dell’analisi e della democratizzazione.
+
 Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
 
-- **⇧** per **[!UICONTROL **&#x200B; Maiusc &#x200B;**]**.
-- **⌘** per **[!UICONTROL **&#x200B; Comando &#x200B;**]** (comando).
-- **⌃** per **[!UICONTROL **&#x200B; Ctrl &#x200B;**]** (controllo).
-- **⌥** per **[!UICONTROL **&#x200B; Opzione &#x200B;**]** (opzione).
-- **⎇** per **[!UICONTROL **&#x200B; Alt &#x200B;**]** (alternativo).
+- **⇧** per **[!UICONTROL ** Maiusc **]**.
+- **⌘** per **[!UICONTROL ** Comando **]** (comando).
+- **⌃** per **[!UICONTROL ** Ctrl **]** (controllo).
+- **⌥** per **[!UICONTROL ** Opzione **]** (opzione).
+- **⎇** per **[!UICONTROL ** Alt **]** (alternativo).
 
 ## Azioni di navigazione
 

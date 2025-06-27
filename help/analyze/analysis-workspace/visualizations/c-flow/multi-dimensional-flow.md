@@ -1,14 +1,14 @@
 ---
-description: Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni.
+description: Scopri in che modo un flusso interdimensionale consente di esaminare i percorsi seguiti dagli utenti attraverso varie dimensioni.
 title: Flussi interdimensionali
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 8%
+source-wordcount: '321'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussi interdimensionali](https://video.tv.adobe.com/v/329409?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussi interdimensionali](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

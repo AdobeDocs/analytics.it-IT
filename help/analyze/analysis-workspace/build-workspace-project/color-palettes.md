@@ -1,13 +1,13 @@
 ---
-description: Come utilizzare la palette dei colori di visualizzazione in Analysis Workspace
-title: Cosa sono le palette di colori di visualizzazione e come funzionano?
+description: Scopri come utilizzare la palette di colori di visualizzazione in Analysis Workspace.
+title: Palette di colori di visualizzazione
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 93%
+source-wordcount: '201'
+ht-degree: 88%
 
 ---
 
@@ -71,7 +71,7 @@ Keep in mind:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/329885?quality=12&learn=on&captions=ita){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

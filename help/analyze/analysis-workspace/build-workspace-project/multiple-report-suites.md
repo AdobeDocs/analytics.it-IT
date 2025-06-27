@@ -1,13 +1,13 @@
 ---
-title: Suite di rapporti multiple
-description: Scopri come e perché creare progetti in Workspace con più suite di rapporti
+title: Più suite di rapporti
+description: Scopri come utilizzare più suite di rapporti in un unico progetto Analysis Workspace.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 75%
+ht-degree: 71%
 
 ---
 
@@ -24,7 +24,7 @@ Questa funzionalità è utile per:
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Più suite di rapporti](https://video.tv.adobe.com/v/36964?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Più suite di rapporti](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

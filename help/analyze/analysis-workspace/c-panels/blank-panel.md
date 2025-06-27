@@ -1,13 +1,13 @@
 ---
-description: Crea un pannello vuoto come punto di partenza per qualsiasi visualizzazione.
+description: Scopri come creare un pannello vuoto come punto di partenza per qualsiasi visualizzazione.
 title: Pannello vuoto
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 90%
+source-wordcount: '244'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello vuoto in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vedere [Pannello vuoto](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/blank-panel)) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versione del Customer Journey Analytics** di questo articolo._
+_Questo articolo documenta il pannello vuoto in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vedere [Pannello vuoto](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/blank-panel)) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versione Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

@@ -1,14 +1,14 @@
 ---
-description: Utilizza la visualizzazione mappa in un progetto Workspace.
+description: Utilizza la visualizzazione mappa per tracciare i dati su una visualizzazione mappa geografica
 title: Mappa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 53%
+source-wordcount: '659'
+ht-degree: 54%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 53%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Nessuna visualizzazione Mappa attualmente disponibile in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Nessuna visualizzazione Mappa attualmente disponibile in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -57,13 +57,13 @@ Visualizzazione ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** in A
 * consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate),
 * è utile per identificare e confrontare dati metrici tra diverse aree geografiche,
 * può supportare 2 origini di dati: latitudine/longitudine per utilizzo mobile o dimensione geografica per utilizzo web,
-* supporta l’esportazione PDF e
+* supporta l’esportazione in PDF e
 * utilizza WebGL per la visualizzazione grafica. se il driver della scheda grafica non supporta il rendering WebGL, può essere necessario aggiornare i driver.
 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa in Analysis Workspace](https://video.tv.adobe.com/v/329423/?quality=12&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa in Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;}.
 
 >[!ENDSHADEBOX]
 
@@ -119,8 +119,8 @@ Per definire le impostazioni per la visualizzazione, seleziona ![Impostazione](/
 | Impostazione | Descrizione |
 |--- |--- |
 | **[!UICONTROL Map type]** | |
-| [!UICONTROL Bubbles] | Traccia gli eventi tramite una rappresentazione a bolle. Un grafico a bolle è un grafico con più variabili, un incrocio tra un grafico a dispersione e un grafico a superfici proporzionali. Questa è l&#39;impostazione predefinita. |
-| Heatmap | Traccia gli eventi tramite una mappa di calore. Si tratta di una rappresentazione grafica in cui i singoli valori di una matrice sono rappresentati da colori. |
+| **[!UICONTROL Bubbles] | Traccia gli eventi tramite una rappresentazione a bolle. Un grafico a bolle è un grafico con più variabili, un incrocio tra un grafico a dispersione e un grafico a superfici proporzionali. Questa è l&#39;impostazione predefinita. |
+| [!UICONTROL Heatmap] | Traccia gli eventi tramite una mappa di calore. Si tratta di una rappresentazione grafica in cui i singoli valori di una matrice sono rappresentati da colori. |
 | **[!UICONTROL Styles]** | |
 | [!UICONTROL Color theme] | Mostra lo schema di colori utilizzato per la mappa di calore e le bolle. Puoi scegliere tra Corallo, Rossi, Verdi e Blu. L&#39;impostazione predefinita è Coral. |
 | [!UICONTROL Map style] | È possibile scegliere tra Basic, Streets, Bright, Light, Dark e Satellite. |
@@ -132,7 +132,7 @@ Per definire le impostazioni per la visualizzazione, seleziona ![Impostazione](/
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/328243/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 

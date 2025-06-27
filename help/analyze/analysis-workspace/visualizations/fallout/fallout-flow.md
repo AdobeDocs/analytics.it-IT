@@ -1,13 +1,13 @@
 ---
-description: Utilizza la visualizzazione Abbandono in un progetto Workspace.
-title: Panoramica dell’abbandono
+description: Scopri come utilizzare la visualizzazione Abbandono in Analysis Workspace.
+title: Panoramica sull’abbandono
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 88%
+source-wordcount: '258'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_button"
->title="Fallout (abbandono)"
+>title="Abbandono"
 >abstract="Crea una visualizzazione per vedere come le persone procedono correttamente fino ai punti di controllo desiderati."
 
 <!-- markdownlint-enable MD034 -->
@@ -25,11 +25,11 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Abbandono in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Abbandono](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versione del Customer Journey Analytics** di questo articolo._
+_Questo articolo documenta la visualizzazione Abbandono in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Abbandono](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
-Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei rapporti di abbandono. I rapporti di abbandono mostrano dove i visitatori hanno lasciato (abbandonato) una sequenza di pagine predefinite e dove hanno proseguito.
+Una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** mostra dove i visitatori hanno lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite.
 
 
 >[!BEGINSHADEBOX]
@@ -37,6 +37,8 @@ Le visualizzazioni Abbandono offrono opzioni aggiuntive per la generazione dei r
 Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione fallout](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
+
+
 
 
 Le visualizzazioni Abbandono consentono di:

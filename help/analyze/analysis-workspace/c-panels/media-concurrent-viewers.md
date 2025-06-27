@@ -1,13 +1,13 @@
 ---
 title: Pannello Visualizzatori simultanei di contenuti multimediali
-description: Come utilizzare e interpretare il pannello Media Concurrent Viewers (Visualizzatori simultanei di contenuti) in Analysis Workspace.
+description: Scopri come utilizzare e interpretare il pannello Visualizzatori simultanei di contenuti multimediali in Analysis Workspace.
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 95%
+source-wordcount: '1194'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Visualizzatori simultanei di contenuti multimediali in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**._<br/>_Consulta [Pannello Visualizzatori simultanei di contenuti multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta il pannello Visualizzatori simultanei di contenuti multimediali in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_Consulta [Pannello Visualizzatori simultanei di contenuti multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ In Analysis Workspace, la metrica Visualizzatori simultanei rappresenta il numer
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://video.tv.adobe.com/v/342837?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -131,8 +131,8 @@ In questa visualizzazione non è disponibile una tabella a forma libera.  Per vi
 >[!MORELIKETHIS]
 >
 >[Creare un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
->[Pannello Pubblico medio per minuto del file multimediale](average-minute-audience-panel.md)
+>>[Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
+>>[Pannello Pubblico medio per minuto del file multimediale](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342837/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

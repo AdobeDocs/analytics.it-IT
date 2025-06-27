@@ -1,19 +1,19 @@
 ---
-title: Elementi dimensionali dinamici e statici nelle tabelle a forma libera
-description: Interagire con elementi dimensionali dinamici e statici nelle tabelle.
+title: Elementi Dimension Dinamici E Statici
+description: Scopri come utilizzare gli elementi dimensionali dinamici e statici nelle tabelle a forma libera in Analysis Workspace.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 45%
+source-wordcount: '547'
+ht-degree: 39%
 
 ---
 
 # Elementi dimensionali dinamici e statici
 
-Le righe e le colonne nelle tabelle a forma libera possono contenere diversi valori dei componenti. Questi valori possono essere dinamici (cambiare nel tempo) o statici (non cambiare nel tempo), a seconda dell’analisi che desideri generare.
+Nelle tabelle a forma libera, le righe e le colonne possono contenere vari valori dei componenti. Questi valori possono essere dinamici (cambiare nel tempo) o statici (non cambiare nel tempo), a seconda dell’analisi che desideri generare.
 
 ## Elementi dimensionali dinamici
 
@@ -46,7 +46,7 @@ Gli elementi dimensionali statici **non** dispongono dell’opzione filtro righe
 
 È possibile aggiungere alla stessa tabella elementi dimensionali di dimensioni diverse. In questi casi, l&#39;intestazione di riga indica **[!UICONTROL Mixed Dimensions]**. Questi elementi dimensionali sono statici. Ad esempio, è possibile aggiungere elementi dimensionali specifici dalla dimensione Gruppo di browser e altri elementi dimensionali dalla dimensione Nome browser.
 
-![Tabella a forma libera che evidenzia la colonna Dimension misti.](assets/mixed-dimensions.png)
+![Tabella a forma libera che evidenzia la colonna Dimensioni miste.](assets/mixed-dimensions.png)
 
 ## Righe del totale a forma libera
 
@@ -58,7 +58,7 @@ Le righe dinamiche e statiche si comportano in modo diverso nella riga del total
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Riordinare le righe statiche](https://video.tv.adobe.com/v/35890?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Riordinare le righe statiche](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

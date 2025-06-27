@@ -1,13 +1,13 @@
 ---
-description: I pannelli sono raccolte di tabelle e visualizzazioni.
+description: Comprendere i pannelli e come utilizzarli in Analysis Workspace.
 title: Panoramica dei pannelli
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 54%
+source-wordcount: '2033'
+ht-degree: 89%
 
 ---
 
@@ -78,7 +78,7 @@ Puoi:
 
 ## Suite di rapporti
 
-Ogni pannello è associato a una [suite di rapporti](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**&#x200B;nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [suite di rapporti](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**nel menu a discesa in alto a destra del pannello.
 
 Quando crei un nuovo pannello, la suite di rapporti predefinita si basa sulla suite di rapporti dell’ultimo pannello su cui hai lavorato nel progetto Analysis Workspace.
 
@@ -105,14 +105,14 @@ Il calendario del pannello controlla l’intervallo della date di reporting per 
 
 >[!NOTE]
 >
->Se un componente ![Calendario](/help/assets/icons/Calendar.svg) intervallo di date viene utilizzato all&#39;interno di una visualizzazione o di un pannello (ad esempio, come segmento), il componente intervallo di date sostituisce il calendario del pannello.
+>Se un componente Intervallo di date del ![Calendario](/help/assets/icons/Calendar.svg) viene utilizzato all’interno di una visualizzazione o di un pannello (ad esempio, come segmento), tale componente sostituisce il calendario del pannello.
 >
 
 
 ![Finestra del calendario che mostra l’intervallo di date selezionato.](assets/panel-calendar.png)
 
 1. Seleziona un intervallo di date selezionando prima la data di inizio e quindi la data di fine.
-In alternativa, è possibile selezionare **[!UICONTROL Preset]** dal menu a discesa [!UICONTROL *Seleziona un predefinito*].
+In alternativa, puoi selezionare **[!UICONTROL Preset]** dal menu a discesa [!UICONTROL *Seleziona un predefinito*].
 
 1. Facoltativamente, seleziona **[!UICONTROL Show advanced settings]** per:
 
@@ -139,17 +139,17 @@ Seleziona **[!UICONTROL Apply to all panels]** per applicare l’intervallo di d
 
 ## Zona di rilascio {#dropzone}
 
-La zona di rilascio del pannello consente di applicare segmenti e segmenti a discesa a tutte le tabelle e visualizzazioni di un pannello. Puoi applicare uno o più segmenti a un pannello.
+La zona di rilascio del pannello consente di applicare segmenti e segmenti a discesa a tutte le tabelle e visualizzazioni all’interno di un pannello. Puoi applicare uno o più segmenti a un pannello.
 
 ### Segmenti
 
-Per iniziare a segmentare il pannello, trascina un segmento dal pannello di sinistra fino alla zona di rilascio del pannello. Ripeti questo processo per aggiungere altri segmenti al pannello. I segmenti vengono visualizzati uno accanto all’altro nella parte superiore del pannello.
+Per iniziare a segmentare il pannello, trascina un segmento dal pannello a sinistra fino alla zona di rilascio del pannello. Ripeti questa procedura per aggiungere altri segmenti al pannello. I segmenti vengono visualizzati uno accanto all’altro nella parte superiore del pannello.
 
 ![Il pannello di sinistra mostra le metriche disponibili e la metrica del cliente mobile trascinata nella zona di rilascio del pannello.](assets/segment-filter.png)
 
 #### Segmenti rapidi
 
-Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di rilascio, per creare segmenti rapidi, risparmiando tempo e fatica nel [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md). I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di evento. È possibile modificare rapidamente questa definizione selezionando ![Modifica](/help/assets/icons/Edit.svg) accanto al nome del segmento.
+Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di rilascio, per creare segmenti rapidi in modo più rapido e senza dover passare al [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md). I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di evento. È possibile modificare rapidamente questa definizione selezionando ![Modifica](/help/assets/icons/Edit.svg) accanto al nome del segmento.
 
 <!-- For more information, see [Quick segments](/help/components/segmentation/). -->
 
@@ -160,60 +160,60 @@ Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/329414?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 
 #### Segmenti a discesa statici
 
-I segmenti a discesa statici consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un segmento a discesa per i tipi di dispositivi mobili, in modo da segmentare il pannello per Tablet, Telefono cellulare o Desktop.
+I segmenti a discesa statici consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un segmento a discesa per i tipi di dispositivi mobili, in modo da segmentare il pannello per tablet, telefono cellulare o desktop.
 
-I segmenti a discesa statici possono essere utilizzati anche per consolidare più progetti in un unico progetto. Ad esempio, se hai creato più versioni dello stesso progetto, assegnando a ciascuna un segmento Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un segmento a discesa Paese.
+I segmenti a discesa statici possono essere utilizzati anche per consolidare più progetti in un unico progetto. Ad esempio, se hai creato più versioni dello stesso progetto assegnando a ciascuna un segmento Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un segmento a discesa Paese.
 
 ![Segmenti a discesa statici che mostrano il filtro &quot;Direct&quot; (Diretto) del canale di mercato evidenziato. ](assets/dropdown-filter-intro.png)
 
 ##### Creare segmenti a discesa statici
 
-* Per i segmenti a discesa che utilizzano elementi dimensionali, seleziona una singola dimensione dal pannello di sinistra e rilasciala nella zona di rilascio del pannello mantenendo ⇧ (*shift*). Questa azione crea un segmento a discesa con tutti gli elementi dimensionali associati a quella dimensione.
+* Per i segmenti a discesa che utilizzano elementi dimensionali, seleziona una singola dimensione dal pannello a sinistra e rilasciala nella zona di rilascio del pannello tenendo premuto ⇧ (*Maiusc*). Questa azione crea un segmento a discesa con tutti gli elementi dimensionali associati a tale dimensione.
 
-  Oppure, se desideri che il segmento a discesa includa solo elementi dimensionali specifici associati a una dimensione, seleziona l’icona a forma di freccia destra accanto alla dimensione desiderata nel pannello a sinistra. Questa azione espone tutti gli elementi dimensionali disponibili. Seleziona più elementi dimensionali da questo elenco utilizzando ⇧ + ![Seleziona](/help/assets/icons/Select.svg) (*Maiusc* + *Seleziona*) o ^ + ![seleziona](/help/assets/icons/Select.svg) (*controllo* + *Seleziona*), quindi rilasciali nell’area di rilascio del pannello **mentre tieni premuto** ⇧.
+  Oppure, se desideri che il segmento a discesa includa solo elementi dimensionali specifici associati a una dimensione, seleziona l’icona a forma di freccia verso destra accanto alla dimensione desiderata nel pannello di sinistra. Questa azione espone tutti gli elementi dimensionali disponibili. Seleziona più elementi dimensionali da questo elenco utilizzando ⇧ + ![Seleziona](/help/assets/icons/Select.svg) (*Maiusc* + *Seleziona*) o ^ + ![seleziona](/help/assets/icons/Select.svg) (*controllo* + *Seleziona*), quindi rilasciali nell’area di rilascio del pannello **mentre tieni premuto** ⇧.
 
-* Per i segmenti a discesa che utilizzano un singolo tipo di componente (ad esempio, solo dimensioni, solo segmenti o solo metriche), seleziona più elementi dello stesso tipo nel pannello a sinistra utilizzando ⇧+![Seleziona](/help/assets/icons/Select.svg) o ^+![Seleziona](/help/assets/icons/Select.svg). Quindi rilascia gli elementi nella zona di rilascio del pannello **mentre tieni premuto** ⇧.
+* Per i segmenti a discesa che utilizzano un singolo tipo di componente (ad esempio, solo dimensioni, solo segmenti o solo metriche), seleziona più elementi dello stesso tipo nel pannello a sinistra utilizzando ⇧ + ![Seleziona](/help/assets/icons/Select.svg) o ^ + ![Seleziona](/help/assets/icons/Select.svg). Quindi rilascia gli elementi nella zona di rilascio del pannello **mentre tieni premuto** ⇧.
 
-  Viene creato un singolo segmento a discesa con i componenti selezionati.
+  Viene creato un segmento a discesa singolo con i componenti selezionati.
 
-* Per i segmenti a discesa che utilizzano una combinazione di tipi di componenti (ad esempio 2 metriche e 3 segmenti), seleziona più componenti utilizzando ⇧+![Seleziona](/help/assets/icons/Select.svg) o ^+![Seleziona](/help/assets/icons/Select.svg). Rilascia la selezione nella zona di rilascio del pannello **mentre tieni premuto** ⇧. In questo contesto, tutti i tipi di componenti vengono trattati come segmenti a discesa separati. Ad esempio, se nella selezione includi sia metriche che elementi dimensionali, vengono creati due segmenti a discesa separati: un segmento a discesa include gli elementi dimensionali e l’altro include le metriche.
+* Per i segmenti a discesa che utilizzano un mix di componenti (ad esempio 2 metriche e 3 segmenti), seleziona più componenti utilizzando ⇧ + ![Seleziona](/help/assets/icons/Select.svg) o ^ + ![Seleziona](/help/assets/icons/Select.svg). Rilascia la selezione nella zona di rilascio del pannello **mentre tieni premuto** ⇧. In questo contesto, tutti i tipi di componente vengono trattati come segmenti a discesa separati. Ad esempio, se nella selezione includi sia metriche che elementi dimensionali, vengono creati due segmenti a discesa separati: uno include gli elementi dimensionali e l’altro include le metriche.
 
 Un segmento a discesa fornisce le seguenti opzioni del menu di scelta rapida:
 
 * **[!UICONTROL Delete drop-down]**: rimuove il segmento a discesa dal pannello.
-* **[!UICONTROL Delete label]**: rimuovere il testo visualizzato sopra un segmento a discesa. Per modificare l&#39;etichetta, passa il puntatore sull&#39;etichetta e seleziona ![Modifica etichetta del segmento a discesa](/help/assets/icons/Edit.svg).
-* **[!UICONTROL Add label]**: quando si aggiunge un segmento a discesa a un progetto, l&#39;etichetta viene impostata automaticamente sul nome del componente. Se elimini l’etichetta, puoi aggiungerla nuovamente con questa opzione.
+* **[!UICONTROL Delete label]**: rimuove il testo mostrato sopra un segmento a discesa. Per modificare l’etichetta, passaci sopra il puntatore e seleziona ![Modifica etichetta del segmento a discesa](/help/assets/icons/Edit.svg).
+* **[!UICONTROL Add label]**: quando aggiungi un segmento a discesa a un progetto, un’etichetta viene impostata automaticamente sul nome del componente. Se elimini l’etichetta, puoi aggiungerla nuovamente con questa opzione.
 * **[!UICONTROL Require selection]**: richiede che nel pannello sia impostato un segmento.
 
 ##### Utilizzare segmenti a discesa statici
 
-Per segmentare il pannello, gli utenti possono utilizzare il menu a discesa dei segmenti in uno dei seguenti modi:
+Per segmentare il pannello, gli utenti possono utilizzare il menu dei segmenti a discesa in uno dei seguenti modi:
 
-* Applica un singolo segmento al pannello selezionando il segmento dal segmento a discesa.
+* Applicare un singolo segmento al pannello selezionandolo dal segmento a discesa.
 
-* Applica più segmenti al pannello selezionando più segmenti dal segmento a discesa. Il pannello viene segmentato per includere uno qualsiasi dei segmenti selezionati.
+* Applicare più segmenti al pannello selezionandone più di uno dal segmento a discesa. Il pannello viene segmentato per includere uno qualsiasi dei segmenti selezionato.
 
 
 #### Segmenti a discesa dinamici
 
 I segmenti a discesa dinamici consentono di determinare i valori disponibili in base ai dati all’interno dell’intervallo di reporting del pannello e ai valori in altri segmenti a discesa. Ad esempio, puoi creare due menu a discesa dinamici utilizzando una dimensione Paesi e una dimensione Città. Quando selezioni un paese dall’elenco a discesa **[!UICONTROL Countries]**, l’elenco a discesa **[!UICONTROL Cities]** si adatta in modo dinamico per mostrare solo le città all’interno di quel paese.
 
-Lo stesso concetto si applica a tutte le dimensioni; sono visibili solo gli elementi dimensionali che compaiono nell’intervallo di date del pannello e nei segmenti selezionati. Gli elementi Dimension selezionati nei segmenti a discesa statici influiscono sui valori disponibili nei segmenti a discesa dinamici. Tuttavia, l’inverso non è vero; gli elementi Dimension selezionati nei segmenti a discesa dinamici non influiscono sui valori disponibili nei segmenti a discesa statici.
+Lo stesso concetto si applica a tutte le dimensioni: sono visibili solo gli elementi dimensionali che compaiono nell’intervallo di date del pannello e i segmenti selezionati. Gli elementi dimensionali selezionati nei segmenti a discesa statici influiscono sui valori disponibili nei segmenti a discesa dinamici. Tuttavia, ciò non vale per il contrario: gli elementi dimensionali selezionati nei segmenti a discesa dinamici non influiscono sui valori disponibili nei segmenti a discesa statici.
 
-La selezione manuale degli elementi dimensionali è disponibile se prevedi che un certo elemento dimensionale verrà raccolto in futuro. Puoi anche cancellare un segmento a discesa dinamico in modo che non contenga un valore, consentendo ad altri segmenti a discesa dinamici di contenere più valori. Selezionare **[!UICONTROL Reset all]** per cancellare la selezione da tutti i segmenti del menu a discesa per quel pannello.
+La selezione manuale degli elementi dimensionali è disponibile se prevedi che un certo elemento dimensionale verrà raccolto in futuro. È inoltre possibile cancellare un segmento a discesa dinamico in modo che non contenga un valore, consentendo ad altri segmenti a discesa dinamici di contenere più valori. Seleziona **[!UICONTROL Reset all]** per cancellare la selezione da tutti i segmenti a discesa di quel pannello.
 
 Per creare un segmento a discesa dinamico:
 
 * Trascina una singola dimensione nella zona di rilascio del pannello **mentre tieni premuto** ⇧.
 
-I segmenti a discesa dinamici non sono disponibili per metriche, segmenti o intervalli di date.
+Tieni presente che i segmenti a discesa dinamici non sono disponibili per metriche, segmenti o intervalli di date.
 
 Un segmento a discesa dinamico fornisce le stesse opzioni del menu di scelta rapida dei segmenti a discesa statici.
 
@@ -271,7 +271,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## Report suite {#report-suite}
 
-Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=it) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
 
@@ -335,7 +335,7 @@ Right-clicking a drop-down segment provides the following options:
 * **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=it) to learn more about how to add drop-down filters to your project.
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
 #### Use static drop-down segments
 
