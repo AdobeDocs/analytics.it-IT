@@ -16,7 +16,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta le visualizzazioni Barra orizzontale e Barra orizzontale sovrapposte in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Visualizzare [Barre orizzontali e barre orizzontali sovrapposte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta le visualizzazioni Barra orizzontale e Barra orizzontale sovrapposte in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Visualizzare [Barre orizzontali e barre orizzontali sovrapposte](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
