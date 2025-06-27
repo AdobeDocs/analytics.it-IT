@@ -59,7 +59,7 @@ Il Tempo di riproduzione trascorso può aiutarti a comprendere:
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/3446708?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -146,7 +146,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/338699)
+>[!VIDEO](https://video.tv.adobe.com/v/3446708?captions=ita)
 
 ## Use the Media Playback Time Spent panel
 

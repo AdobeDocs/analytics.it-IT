@@ -42,7 +42,7 @@ Il pannello di confronto dei segmenti è una funzione del [Segmento IQ](../../se
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/41729?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

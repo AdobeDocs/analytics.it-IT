@@ -47,7 +47,7 @@ Con la visualizzazione puoi:
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione flusso](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione flusso](https://video.tv.adobe.com/v/3410742?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funzionalità aggiuntive nella visualizzazione Flusso](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funzionalità aggiuntive nella visualizzazione Flusso](https://video.tv.adobe.com/v/329884?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

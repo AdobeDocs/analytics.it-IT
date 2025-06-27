@@ -20,7 +20,7 @@ Ad esempio, oltre a una dimensione Pagina, puoi aggiungere a una visualizzazione
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abbandono multidimensionale](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abbandono multidimensionale](https://video.tv.adobe.com/v/329408?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

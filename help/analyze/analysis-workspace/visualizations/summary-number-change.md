@@ -19,7 +19,7 @@ _Questo articolo documenta le visualizzazioni Numero riepilogo e Modifica riepil
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione numero riepilogo e modifica riepilogo](https://video.tv.adobe.com/v/335564/?quality=12){target=&#34;_blank&#34;}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione numero riepilogo e modifica riepilogo](https://video.tv.adobe.com/v/3416889/?quality=12&captions=ita){target=&#34;_blank&#34;}.
 
 >[!ENDSHADEBOX]
 
