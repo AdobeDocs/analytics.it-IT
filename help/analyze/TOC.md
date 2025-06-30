@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
-source-git-commit: 1c5eed6d9a70bca6835d68c83dc0523449401a62
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 92%
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + Progetti {#build-workspace-project}
       + [Panoramica](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Avvia rapidamente i progetti](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Creare progetti](analysis-workspace/build-workspace-project/create-projects.md)
       + [Aprire i progetti](analysis-workspace/build-workspace-project/open-projects.md)
       + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
@@ -37,7 +38,6 @@ ht-degree: 92%
          + [Creare cartelle](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Gestire le cartelle](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [Aggiungere o spostare progetti](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [Modelli](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Suite di rapporti multiple](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Tasti di scelta rapida](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Palette di colori](analysis-workspace/build-workspace-project/color-palettes.md)
@@ -131,14 +131,14 @@ ht-degree: 92%
          + [Panoramica](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casi d’uso](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Test statistici utilizzati](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Curare, condividere e pianificare i progetti {#curate-share}
+   + Curare e condividere i progetti {#curate-share}
       + [Panoramica](analysis-workspace/curate-share/send-schedule-files.md)
       + [Curare progetti](analysis-workspace/curate-share/curate.md)
       + [Condividere progetti](analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](analysis-workspace/curate-share/shareable-links.md)
       + [Progetti di sola lettura](analysis-workspace/curate-share/view-only-projects.md)
-      + [Scaricare file PDF o CSV](analysis-workspace/curate-share/download-send.md)
-      + [Programmare progetti](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Scarica progetti](analysis-workspace/curate-share/download-send.md)
+      + [Inviare e pianificare progetti](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution {#attribution}
       + [Panoramica di Attribution](analysis-workspace/attribution/overview.md)
       + [Modelli di attribuzione e intervalli di lookback](analysis-workspace/attribution/models.md)

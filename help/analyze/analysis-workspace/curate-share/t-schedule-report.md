@@ -1,20 +1,20 @@
 ---
-description: Inviare un progetto di Analysis Workspace via e-mail o programmarne la consegna.
+description: Scopri come inviare un progetto Analysis Workspace direttamente o secondo una pianificazione per la consegna e-mail.
 keywords: Analysis Workspace
-title: Programmare progetti
+title: Inviare E Programmare Progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 44%
+source-wordcount: '367'
+ht-degree: 39%
 
 ---
 
-# Inviare file ad altri
+# Invio e pianificazione
 
-Puoi inviare i rapporti di Adobe Analytics come file agli utenti selezionati tramite e-mail. Puoi inviare file ad hoc oppure configurare i file da inviare secondo una pianificazione. I file possono essere inviati in formato CSV o PDF.
+Puoi inviare progetti Adobe Analytics come file a utenti selezionati tramite e-mail. Puoi inviare file ad hoc oppure configurare i file da inviare secondo una pianificazione. I file possono essere inviati in formato CSV o PDF.
 
 Tutti i tag applicati al progetto vengono applicati automaticamente all’esportazione.
 
@@ -24,7 +24,7 @@ Sono disponibili anche altri metodi di esportazione dei dati di Adobe Analytics,
 
 ## Invia file
 
-Per inviare un file ai destinatari tramite e-mail:
+Per inviare un file ad hoc ai destinatari tramite e-mail:
 
 1. Seleziona **[!UICONTROL Share]>[!UICONTROL Send file]**.
 1. Specifica il tipo di file:
