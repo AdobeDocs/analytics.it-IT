@@ -5,14 +5,14 @@ title: Inviare E Programmare Progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 39%
 
 ---
 
-# Invio e pianificazione
+# Inviare e pianificare progetti
 
 Puoi inviare progetti Adobe Analytics come file a utenti selezionati tramite e-mail. Puoi inviare file ad hoc oppure configurare i file da inviare secondo una pianificazione. I file possono essere inviati in formato CSV o PDF.
 
