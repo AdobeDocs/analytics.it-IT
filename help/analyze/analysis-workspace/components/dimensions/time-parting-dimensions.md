@@ -18,7 +18,7 @@ Con la suddivisione in base al tempo, viene considerato il timestamp degli hit r
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo=dimensioni di [PROD143]e](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo=dimensioni di [PROD143]e](https://video.tv.adobe.com/v/329410?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
