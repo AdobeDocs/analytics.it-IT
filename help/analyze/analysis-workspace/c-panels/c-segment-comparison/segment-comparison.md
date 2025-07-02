@@ -28,12 +28,12 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Pannello Confronto dei segmenti"
->abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri **<br/>**Aggiungi un segmento**: il primo segmento che desideri analizzare.<br/>**Confronta con**: il secondo segmento di cui vuoi eseguire il confronto, popolato automaticamente con *Tutti gli altri* (l&#39;inverso del primo segmento). Puoi sostituire *Tutti gli altri* con un segmento diverso, se lo desideri.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
+>abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri &#x200B;**<br/>**Aggiungi un segmento**: il primo segmento che desideri analizzare.<br/>**Confronta con**: il secondo segmento di cui vuoi eseguire il confronto, popolato automaticamente con *Tutti gli altri* (l&#39;inverso del primo segmento). Puoi sostituire *Tutti gli altri* con un segmento diverso, se lo desideri.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello di confronto dei segmenti in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_Questo articolo documenta il pannello di confronto dei segmenti in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
