@@ -7,7 +7,7 @@ exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 68%
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="Dizionario dei dati"
->abstract="Il dizionario dati consente sia agli utenti che agli amministratori di tenere traccia dei componenti del proprio ambiente Analytics e di comprenderli meglio. <br/>Gli amministratori di Analytics sono responsabili della cura delle informazioni su ciascun componente nel dizionario dati."
+>abstract="Il dizionario dei dati consente sia agli utenti che agli amministratori di tenere traccia e comprendere meglio i componenti nel rispettivo ambiente Analytics. <br/>Gli amministratori di Analytics sono responsabili della cura delle informazioni su ciascun componente nel dizionario dei dati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ Gli amministratori di Analytics sono responsabili della cura delle informazioni 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dati per Analysis Workspace](https://video.tv.adobe.com/v/3422283/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dati per Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -121,7 +121,7 @@ Analytics administrators are responsible for curating information about each com
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3422283?quality=12&learn=on&captions=ita){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
