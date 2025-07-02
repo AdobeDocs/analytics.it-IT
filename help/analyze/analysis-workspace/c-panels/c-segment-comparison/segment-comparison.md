@@ -5,10 +5,10 @@ keywords: Analysis Workspace, segmento IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 42%
+source-wordcount: '506'
+ht-degree: 19%
 
 ---
 
@@ -28,21 +28,21 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Pannello Confronto dei segmenti"
->abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri &#x200B;**<br/>**Aggiungi un segmento**: il primo segmento da analizzare.<br/>**Confronta con**: il secondo segmento con cui fare il confronto. Questo verrà popolato automaticamente con *Qualsiasi altro*, che è l’inverso del primo segmento. Se lo desideri, puoi sostituirlo con un segmento diverso.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
+>abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri **<br/>**Aggiungi un segmento**: il primo segmento che desideri analizzare.<br/>**Confronta con**: il secondo segmento di cui vuoi eseguire il confronto, popolato automaticamente con *Tutti gli altri* (l&#39;inverso del primo segmento). Puoi sostituire *Tutti gli altri* con un segmento diverso, se lo desideri.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello di confronto dei segmenti in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Questo articolo documenta il pannello di confronto dei segmenti in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
-Il pannello di confronto dei segmenti è una funzione del [Segmento IQ](../../segment-iq.md) che rileva le differenze più importanti dal punto di vista statistico tra un numero illimitato di segmenti. La funzione esegue un’analisi automatizzata di tutte le dimensioni e metriche a cui hai accesso. Rileva automaticamente le caratteristiche chiave dei segmenti di pubblico che guidano i KPI della tua azienda e ti consente di conoscere il livello di sovrapposizione dei segmenti.
+Il pannello Confronto segmenti rileva le differenze più importanti dal punto di vista statistico tra un numero illimitato di segmenti. La funzione esegue un’analisi automatizzata di tutte le dimensioni e metriche a cui hai accesso. Rileva automaticamente le caratteristiche chiave dei segmenti di pubblico che guidano i KPI della tua azienda e ti consente di vedere quanto segmenti si sovrappongono.
 
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/41729?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -77,7 +77,7 @@ Seleziona **[!UICONTROL Build]** per creare il pannello.
 
 ### Output del pannello
 
-Adobe Analytics Al termine dell’analisi dei due segmenti desiderati, i pannelli di output mostrano i risultati attraverso diverse visualizzazioni:
+Adobe Analytics Al termine dell’analisi dei due segmenti desiderati, i pannelli di output mostrano i risultati tramite diverse visualizzazioni:
 
 ![Confronto segmenti output pannello](assets/segment-comparison-output.png)
 
@@ -86,7 +86,7 @@ Adobe Analytics Al termine dell’analisi dei due segmenti desiderati, i pannell
 | **[!UICONTROL Size and overlap]** | Illustra con una visualizzazione [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) le dimensioni comparative di ciascun segmento selezionato e il livello di sovrapposizione tra di essi. |
 | **[!UICONTROL Unique visitors for 1st segment]** | Una visualizzazione [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) che mostra i visitatori univoci per il primo segmento (nell&#39;esempio Visite a pagina singola) |
 | **[!UICONTROL Unique visitors for 2nd segment]** | Una visualizzazione [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) che mostra i visitatori univoci per il secondo segmento (nell&#39;esempio First Time Visits) |
-| **[!UICONTROL Top metrics agains Segments]** | Una [tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) che mostra le metriche principali per i segmenti selezionati. |
+| **[!UICONTROL Top metrics against Segments]** | Una [tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) che mostra le metriche principali per i segmenti selezionati. |
 | **[!UICONTROL Metric over time by Segment]** | Una visualizzazione [Line](/help/analyze/analysis-workspace/visualizations/line.md) che mostra le metriche nel tempo per i segmenti selezionati. |
 | **[!UICONTROL Top dimension items against Segments]** | Una [tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) che mostra gli elementi dimensionali misti per i segmenti selezionati. |
 | **[!UICONTROL Dimension items by Segments]** | Una visualizzazione [Barra orizzontale](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) che mostra gli elementi dimensionali per segmento. |
