@@ -47,5 +47,5 @@ Per informazioni generali sul dizionario dati, vedere [Panoramica del dizionario
 >[!MORELIKETHIS]
 >
 >[Impostazioni del componente del report](/help/components/vrs/vrs-components.md)
->>[Voci del componente del dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>&#x200B;>[Voci del componente del dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >
