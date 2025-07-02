@@ -1,124 +1,246 @@
 ---
-description: Gestire gli avvisi.
-title: Panoramica di Gestione avvisi
+description: Scopri come gestire gli avvisi.
+title: Gestire gli avvisi
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 4%
+source-wordcount: '562'
+ht-degree: 19%
 
 ---
 
-# Gestione avvisi
 
-È possibile gestire gli avvisi esistenti nella Gestione avvisi. È possibile eseguire varie attività di gestione sugli avvisi, ad esempio assegnare tag, rinominare, eliminare e altro ancora.
+# Gestire gli avvisi
 
-La gestione avvisi è strutturata in modo analogo alla [gestione segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=it) e alla [gestione metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=it).
 
-![](assets/alert-manager.png)
+È possibile filtrare, assegnare tag, eliminare, rinominare, copiare, abilitare, disabilitare, rinnovare ed esportare gli avvisi da un&#39;interfaccia di gestione centrale di [!UICONTROL Alerts]. Per gestire gli avvisi:
 
-## Creare avvisi
+* Seleziona **[!UICONTROL Components]** nell’interfaccia principale, quindi seleziona **[!UICONTROL Alerts]**.
 
-Per creare avvisi da Gestione avvisi:
+La gestione avvisi è strutturata come la [gestione segmenti](/help/components/segmentation/segmentation-workflow/seg-manage.md) e la [gestione metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md).
 
-1. Selezionare **[!UICONTROL Components]** > **[!UICONTROL Alerts]** per accedere alla Gestione avvisi in Adobe Analytics.
+
+## Gestione avvisi
+
+Gestione avvisi dispone dei seguenti elementi dell’interfaccia:
+
+![Interfaccia filtri](assets/alerts-manager.png)
+
+### Elenco avvisi
+
+Nell&#39;elenco degli avvisi ➊ vengono visualizzati tutti gli avvisi di cui sei proprietario, quelli con ambito di tutti i tuoi progetti e quelli condivisi con te. L’elenco dispone delle seguenti colonne:
+
+| Colonna | Descrizione |
+|---|---|
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o per non favorire ![StarOutline](/help/assets/icons/StarOutline.svg) un avviso. |
+| **[!UICONTROL Title and description]** | Per modificare l&#39;avviso, selezionare il collegamento del titolo, che apre il generatore di [avvisi](alert-builder.md#alert-builder). |
+| **[!UICONTROL Type]** | Il tipo di avviso: un avviso di dati di Adobe Analytics o un avviso di utilizzo di una chiamata al server. |
+| **[!UICONTROL Enabled]** | L&#39;avviso è attivato o disattivato. |
+| **[!UICONTROL Report suite]** | Le suite di rapporti a cui si applica questo avviso. |
+| **[!UICONTROL Owner]** | Proprietario dell&#39;avviso. In qualità di non amministratore, puoi visualizzare solo gli avvisi di tua proprietà o quelli condivisi con te. |
+| **[!UICONTROL Tags]** | Tag per l&#39;avviso. |
+| **[!UICONTROL Expiration Date]** | La data e l’ora in cui l’avviso è impostato per scadere. |
+| **[!UICONTROL Date modified]** | Data e ora dell’ultima modifica apportata all’avviso. |
+
+<!-- 
+
+When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul>
+
+-->
+
+Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare quali colonne vuoi visualizzare.
+
+### Barra delle azioni
+
+È possibile eseguire azioni sugli avvisi utilizzando la barra delle azioni ➋. La barra delle azioni contiene le azioni seguenti:
+
+| Icona | Azione | Descrizione |
+|:---:|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Aggiungere un altro avviso utilizzando [Generatore di avvisi](alert-builder.md#alert-builder). |
+| ![Ricerca](/help/assets/icons/Search.svg) | [!UICONTROL *Ricerca per titolo*] | Se nell&#39;elenco non è selezionato alcun avviso, cercare gli avvisi utilizzando questo campo di ricerca. |
+| ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag agli avvisi selezionati. Nella finestra di dialogo **[!UICONTROL Tag Alert]**, seleziona o deseleziona i tag per gli avvisi selezionati. Selezionare **[!UICONTROL Save]** per salvare i tag per gli avvisi selezionati. |
+| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina gli avvisi selezionati. Viene richiesta una conferma. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinominare un singolo avviso selezionato. Se questa opzione è selezionata, è possibile rinominare l&#39;avviso in linea. |
+| ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copia l’avviso selezionato. Vengono creati nuovi avvisi con lo stesso nome e suffisso `(Copy)`. |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Enable]** o **[!UICONTROL Disable]** | Attiva o disattiva gli avvisi selezionati. |
+| ![Aggiorna](/help/assets/icons/Refresh.svg) | **[!UICONTROL Renew]** | Rinnova la data di scadenza dell’avviso. La data di scadenza si estende per 1 anno dal giorno in cui è stata selezionata questa opzione, indipendentemente dalla data di scadenza originale. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Esporta gli avvisi in un file `Alerts List.csv`. |
+
+
+### Barra dei filtri attivi
+
+La barra dei filtri ➌ mostra i filtri attivi applicati dal pannello dei filtri all&#39;elenco degli avvisi (se presenti). Puoi rimuovere rapidamente un filtro utilizzando ![CrossSize75](/help/assets/icons/CrossSize75.svg). Se sono specificati più filtri, puoi rimuoverli tutti utilizzando **[!UICONTROL Remove all]**.
+
+
+### Pannello dei filtri
+
+Puoi filtrare l&#39;elenco degli avvisi utilizzando il ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** pannello sinistro ➍. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di avvisi che rispettano il filtro specifico.
+
+
+1. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per aprire il pannello dei Filtri. Se hai bisogno di più spazio per l&#39;elenco Avvisi, puoi selezionare ancora ![Filtro](/help/assets/icons/Filter.svg) per chiudere il pannello.
+1. Seleziona i filtri da una qualsiasi delle sezioni disponibili.
+
+
+#### Sezione filtro tag
+
+{{tagfiltersection}}
+
+
+#### Sezione filtro suite di rapporti
+
+{{reportsuitefiltersection}}
+
+
+#### Sezione filtro Proprietari
+
+{{ownerfiltersection}}
+
+
+#### Sezione filtro di stato abilitato
+
+{{enabledstatusfiltersection}}
+
+
+#### Sezione tipo di filtro
+
+{{typefiltersection}}
+
+
+#### Sezione filtro Altri filtri
+
+{{otherfiltersfiltersection}}
+
+
+
+## Modifica avvisi
+
+È possibile modificare un avviso
+
+* Nell&#39;elenco [[!UICONTROL Alert]](#alerts-list), selezionare il titolo dell&#39;avviso.
+
+Per modificare l&#39;avviso, utilizzare [Generatore di avvisi](alert-builder.md#alert-builder).
+
+## Risolvere i problemi relativi a un avviso
+
+Durante la risoluzione di un problema relativo a un avviso, fornisci il numero JID (Job Instance ID) al supporto Adobe. Il numero JID si trova nella parte inferiore della notifica e-mail di avviso ricevuta.
+
+![E-mail avviso](assets/alerts-email.PNG)
+
+
+<!--
+
+# Manage alerts
+
+You can manage existing alerts in the Alerts manager. You can perform various management tasks on alerts, such as tagging, renaming, deleting, and more.
+
+The Alerts manager is structured very much like the [Segment Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html).
+
+ ![](assets/alert-manager.png)
+
+## Create alerts
+
+To create alerts from the Alerts manager:
+
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
-1. Seleziona [!UICONTROL **Aggiungi**] (o [!UICONTROL **Crea nuovo avviso**] se non hai avvisi esistenti).
+1. Select [!UICONTROL **Add**] (or [!UICONTROL **Create new alert**] if you don't have any existing alerts).
 
-1. Selezionare il tipo di avviso corrispondente all&#39;avviso che si desidera creare:
+1. Select the alert type that corresponds to the alert that you want to create:
 
-   * [!UICONTROL **Avviso dati di Analytics**]: un avviso per avvisarti quando si verificano eventi anomali nei tuoi dati.
+   * [!UICONTROL **Analytics data alert**]: An alert to notify you when abnormal events occur in your data. 
 
-     Se selezioni questa opzione, continua con [Crea avvisi](/help/components/c-alerts/alert-builder.md) per ulteriori dettagli sulla creazione di avvisi.
+     If you select this option, continue with [Create alerts](/help/components/c-alerts/alert-builder.md) for more details about creating alerts.
 
-   * [!UICONTROL **Avviso sull&#39;utilizzo delle chiamate al server**]: un avviso per notificare il rischio o il verificarsi di un superamento nei dati relativi al consumo e all&#39;impegno delle chiamate al server.
+   * [!UICONTROL **Server call usage alert**]: An alert to notify you of the risk or occurrence of an overage in your server call consumption and commitment data. 
 
-     Se si seleziona questa opzione, continuare con [Avvisi di utilizzo delle chiamate server](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+     If you select this option, continue with [Server call usage alerts](/help/admin/admin/c-server-call-usage/scu-alerts.md).
 
      >[!NOTE]
      >
-     >Per poter accedere all’utilizzo delle chiamate al server, devi essere un amministratore di Analytics o un utente con l’autorizzazione di utilizzo delle chiamate al server.
+     >You must be an Analytics administrator or a user with the Server call usage permission in order to have access to server call usage. 
 
-## Gestire gli avvisi esistenti
+## Manage existing alerts
 
-Puoi eseguire varie azioni sugli avvisi esistenti, ad esempio assegnare tag, rinominare, eliminare e così via.
+You can perform various actions on existing alerts, such as tagging, renaming, deleting, and so forth.
 
-Per gestire gli avvisi esistenti in Gestione avvisi:
+To manage existing alerts in the Alerts manager:
 
-1. Selezionare **[!UICONTROL Components]** > **[!UICONTROL Alerts]** per accedere alla Gestione avvisi in Adobe Analytics.
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
-1. Seleziona uno o più avvisi da gestire.
+1. Select one or more alerts that you want to manage.
 
    ![](assets/alert-manager-tasks.png)
 
-1. Nella barra delle azioni, seleziona una delle opzioni seguenti:
+1. In the action bar, select any of the following options:
 
-   | Azione | Funzione |
+   | Action | Function | 
    |---------|----------|
-   | [!UICONTROL **Tag**] | Applicare un tag a un avviso. In questo modo è possibile organizzare gli avvisi in modo semplice e intuitivo. |
-   | [!UICONTROL **Elimina**] | Elimina l’avviso. |
-   | [!UICONTROL **Rinomina**] | Rinomina l&#39;avviso. |
-   | [!UICONTROL **Approva**] | Contrassegna l&#39;avviso come Approvato. |
-   | [!UICONTROL **Copia**] | Crea una copia (duplicata) dell&#39;avviso. |
-   | [!UICONTROL **Disattiva**] | Disattiva un avviso attualmente abilitato. |
-   | [!UICONTROL **Abilita**] | Abilita un avviso attualmente disabilitato. |
-   | [!UICONTROL **Rinnova**] | Rinnova la data di scadenza dell’avviso. Questa funzione sposta la data di scadenza a 1 anno dal giorno in cui hai selezionato questa opzione, indipendentemente dalla data di scadenza originale. |
-   | [!UICONTROL **Esporta in CSV**] | Esporta l&#39;avviso in un file CSV. |
+   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. | 
+   | [!UICONTROL **Delete**] | Deletes the alert. | 
+   | [!UICONTROL **Rename**] | Renames the alert. |
+   | [!UICONTROL **Approve**] | Mark the alert as Approved. |
+   | [!UICONTROL **Copy**] | Creates a copy (duplicate) of the alert. |
+   | [!UICONTROL **Disable**] | Disables an alert that is currently enabled. |
+   | [!UICONTROL **Enable**] | Enables an alert that is currently disabled. |
+   | [!UICONTROL **Renew**] | Renews the alert expiration date. This extends the  expiration date to be 1 year from the day you selected this option, regardless of the original expiration date. |
+   | [!UICONTROL **Export to CSV**] | Exports the alert to a .CSV file. |
 
-## Modificare un avviso
+## Edit an alert
 
-Per modificare un avviso esistente:
+To edit an existing alert:
 
-1. Selezionare **[!UICONTROL Components]** > **[!UICONTROL Alerts]** per accedere alla Gestione avvisi in Adobe Analytics.
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
-1. Selezionare il nome dell&#39;avviso nella colonna [!UICONTROL **Titolo e descrizione**].
+1. Select the alert name in the [!UICONTROL **Title and description**] column.
 
-1. Modificare l&#39;avviso come desiderato.
+1. Edit the alert as desired. 
 
-   Di seguito sono riportate alcune delle operazioni che è possibile eseguire durante la modifica di un avviso:
+   Following are some of the things you can do when editing an alert:
 
-   * Aggiungere avvisi ad altre suite di rapporti
-   * Aggiungere o modificare la descrizione
-   * Modificare la granularità temporale
-   * Modificare i destinatari
-   * Modificare la data di scadenza
-   * Modificare metriche e filtri
+   * Add alerts to other report suites
+   * Add or modify the description
+   * Modify the time granularity
+   * Modify the recipients 
+   * Modify the expiration date
+   * Modify the metrics and filters
 
-1. Seleziona [!UICONTROL **Salva**].
+1. Select [!UICONTROL **Save**].
 
-## Configurare le colonne
+## Configure columns 
 
-È possibile configurare le informazioni visualizzate per ogni avviso in Gestione avvisi configurando le colonne visualizzate.
+You can configure the information displayed for each alert in the Alerts manager by configuring the columns that are displayed.
 
-Per configurare le colonne visibili in Gestione avvisi:
+To configure the visible columns in the Alerts manager:
 
-1. In Adobe Analytics, selezionare la scheda **[!UICONTROL Components]**, quindi selezionare **[!UICONTROL Alerts]**.
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Alerts]**. 
 
-1. In Gestione avvisi, selezionare l&#39;icona **Personalizza colonne** ![Personalizza colonne icona](assets/customize-columns-icon.png), quindi selezionare le colonne che si desidera visualizzare in Gestione avvisi.
+1. In the Alert manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Alerts manager.
 
-   Sono disponibili le seguenti colonne:
+   The following columns are available:
 
-   | Titolo colonna | Descrizione |
+   | Column title  | Description |
    |---|---|
-   | Titolo e descrizione | Questi valori vengono forniti nel generatore di avvisi. Per modificare il titolo e la descrizione, seleziona il collegamento del titolo per aprire il generatore di avvisi. |
-   | Preferiti | Visualizza icone a forma di stella accanto a ogni avviso, che consentono di contrassegnare gli avvisi come preferiti. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
-   | Tipo | Mostra se l’avviso è un avviso di dati di Analytics o un avviso di utilizzo di chiamate al server. |
-   | Abilitata | Indica se l&#39;avviso è attualmente abilitato o disabilitato. |
-   | Suite di rapporti | Indica in quale suite di rapporti è stato salvato l’ultimo avviso. |
-   | Proprietario | Indica il proprietario dell&#39;avviso. In qualità di non amministratore, puoi visualizzare solo gli avvisi di tua proprietà o quelli che sono stati condivisi con te. |
-   | Tag | Mostra i tag applicati all&#39;avviso, da te o da altri utenti che lo hanno condiviso con te. |
-   | Data di scadenza | Mostra la data e l’ora in cui l’avviso è impostato per scadere. |
-   | Data di modifica | Indica la data dell’ultima modifica apportata all’avviso. |
+   | Title and description | These values are provided in the Alert builder. To edit the title and description, select the title link to open the Alert builder.  |
+   | Favorites  | Displays star icons next to each alert, allowing you to mark alerts as favorites. |
+   | Type | Shows whether the alert is an Analytics data alert or a Server call usage alert. |
+   | Enabled | Shows whether the alert is currently enabled or disabled. | 
+   | Report suite | Indicates in which report suite the alert was last saved.  |
+   | Owner | Indicates who owns the alert. As a non-admin, you can see only alerts you own or those that were shared with you.  |
+   | Tags | Shows tags that were applied to the alert, either by you or by people who shared the alert with you.  |
+   | Expiration date | Shows the date and time when the alert is set to expire. |
+   | Date modified | Indicates the date when the alert was last modified.  |
 
    {style="table-layout:auto"}
-
-   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
-
+   
+   
+    When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> 
+   
+-->
 

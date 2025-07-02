@@ -1,13 +1,13 @@
 ---
 title: Creare annotazioni
-description: Come creare annotazioni in Workspace.
+description: Come creare annotazioni in Analysis Workspace.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 95%
+source-wordcount: '783'
+ht-degree: 94%
 
 ---
 

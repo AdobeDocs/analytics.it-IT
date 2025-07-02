@@ -1,13 +1,13 @@
 ---
-description: Scopri come aggiungere componenti a un progetto in Analysis Workspace
-title: Utilizzare i componenti in Analysis Workspace
+description: Scopri come utilizzare i componenti di un progetto in Analysis Workspace
+title: Utilizzare I Componenti In Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 97%
+source-wordcount: '950'
+ht-degree: 80%
 
 ---
 
@@ -32,7 +32,7 @@ Per informazioni sui tipi di componenti che è possibile aggiungere, consulta [P
 1. Scorri fino al componente che desideri aggiungere oppure cercalo, quindi trascinalo su un pannello o su una visualizzazione all’interno del progetto.
 
 1. Facoltativamente, puoi trascinare un componente nella zona di rilascio nell’intestazione di un pannello. Questo trascinamento definisce il componente come un segmento e lo applica a tutto il contenuto all’interno del pannello.
-Per informazioni su come utilizzare la zona di rilascio dei segmenti in un pannello al fine di segmentarlo, consulta [Zona di rilascio](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md).
+Per informazioni su come utilizzare la zona di rilascio dei segmenti in un pannello per segmentare il pannello, vedi [Zona di rilascio](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 1. Per informazioni dettagliate, consulta le sezioni seguenti:
 
@@ -68,7 +68,7 @@ Le metriche consentono di quantificare i punti di dati in Analysis Workspace. So
 
 Per aggiungere una metrica a un progetto in Analysis Workspace:
 
-1. Inizia aggiungendo una metrica al progetto in Analysis Workspace, come descritto in [Aggiungere componenti a un progetto](#add-components-to-a-project).
+1. Inizia ad aggiungere una metrica al progetto in Analysis Workspace, come descritto in [Aggiungere componenti a un progetto](#add-components-to-a-project).
 
 
 
@@ -97,7 +97,7 @@ Puoi utilizzare i segmenti in Analysis Workspace in uno dei seguenti modi:
 
 * Aggiungere segmenti a un pannello
 Quando aggiungi segmenti a un pannello, questi vengono applicati a tutto il contenuto al suo interno.
-Per informazioni su come utilizzare la zona di rilascio dei segmenti in un pannello per segmentare il pannello, consulta [Zona di rilascio](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md).
+Per informazioni su come utilizzare la zona di rilascio dei segmenti in un pannello per segmentare il pannello, vedi [Zona di rilascio](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 * Aggiungere segmenti a una visualizzazione
 Quando aggiungi segmenti a una colonna in una tabella a forma libera, i segmenti si applicano a tutto il contenuto della colonna. Puoi anche aggiungere segmenti come parte di una visualizzazione del fallout.
@@ -108,13 +108,13 @@ Quando definisci componenti come [metriche calcolate](/help/components/c-calcmet
 
 ### Aggiungere intervalli di date a un progetto
 
-Gli [intervalli di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) determinano l’intervallo temporale del reporting in Analysis Workspace e possono essere applicati a uno o più pannelli all’interno di un progetto e anche ad alcune visualizzazioni (come la tabella a forma libera).
+[Gli intervalli di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) determinano l&#39;intervallo di tempo di reporting in Analysis Workspace. Inoltre, un intervallo di dati può essere applicato ai pannelli all’interno di un progetto e anche ad alcune visualizzazioni (come la tabella a forma libera).
 
 Per impostazione predefinita, ogni pannello include un intervallo di date. Esistono diversi modi per aggiornare un intervallo di date per un pannello. Un modo per aggiornare l’intervallo di date di un pannello in Analysis Workspace consiste nel trascinare un componente intervallo di date dal pannello a sinistra:
 
 1. Facoltativamente, aggiungi un intervallo di date al progetto in Analysis Workspace, come descritto in [Aggiungere componenti al progetto](#add-components-to-a-project).
 
-1. Trascina un intervallo di date dal pannello a sinistra su:
+1. Trascina e rilascia un intervallo di date dal pannello a sinistra in:
 
    * l’intervallo di date corrente, per modificare quello del pannello.
 
@@ -126,7 +126,7 @@ Per ulteriori informazioni su come utilizzare e gestire gli intervalli di date i
 
 ## Informazioni componente
 
-Puoi passare il puntatore su qualunque componente per visualizzare ![Ulteriori informazioni](/help/assets/icons/InfoOutline.svg). Se questa opzione è selezionata, le informazioni aggiuntive sul componente vengono visualizzate in un pop-up.
+Puoi passare il puntatore su qualunque componente per visualizzare ![Ulteriori informazioni](/help/assets/icons/InfoOutline.svg). Quando si seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg), viene visualizzato un popup con informazioni aggiuntive sul componente.
 
 ![Informazioni componente](assets/component-info.png)
 

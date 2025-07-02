@@ -4,16 +4,16 @@ title: Visualizzare le anomalie in Analysis Workspace
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 58%
+source-wordcount: '440'
+ht-degree: 53%
 
 ---
 
-# Visualizzare le anomalie in Analysis Workspace
+# Visualizzare le anomalie
 
-È possibile visualizzare le anomalie sotto forma di tabella o grafico a linee.
+In Analysis Workspace puoi visualizzare le anomalie in una tabella o in un grafico a linee.
 
 ## Visualizzazione delle anomalie in una tabella {#section_869A87B92B574A38B017A980ED8A29C5}
 
@@ -30,6 +30,7 @@ ht-degree: 58%
    La **linea verticale colorata** in ogni riga ➋ indica il valore previsto. L&#39;**area ombreggiata colorata** in ogni riga ➊ indica il valore effettivo. Il modo in cui la linea (valore previsto) viene confrontata con l’area ombreggiata (valore effettivo) determina se vi è un’anomalia. Un&#39;osservazione è considerata anomala in base alle tecniche statistiche avanzate descritte in [Tecniche statistiche utilizzate nel rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
 
 1. Selezionare ◥ nell&#39;angolo superiore destro di una riga per visualizzare i dettagli sull&#39;anomalia. Mostra la misura (in percentuale) in cui il valore effettivo si discosta al di sopra o al di sotto del valore previsto.
+1. Seleziona [Apri analisi contributi](run-contribution-analysis.md) per avviare l&#39;analisi dei contributi.
 
 ## Visualizzare le anomalie in un grafico a linee
 

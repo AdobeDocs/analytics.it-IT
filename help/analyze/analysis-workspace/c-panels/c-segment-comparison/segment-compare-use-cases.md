@@ -5,10 +5,10 @@ keywords: Segmento IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 93%
+source-wordcount: '850'
+ht-degree: 18%
 
 ---
 
@@ -18,19 +18,19 @@ Il pannello di confronto dei segmenti è una funzione ampiamente utilizzata in A
 
 ## Caso d’utilizzo 1: confronto tra implementazioni per dispositivi mobili e desktop
 
-> *“Abbiamo confrontato le hit da un sito all’altro e abbiamo rapidamente riscontrato diverse incongruenze a livello di assegnazione tag. In questo modo abbiamo evitato problemi ai dati prima del rilascio del prodotto”.*
+> *&quot;Hai confrontato gli hit da un sito all&#39;altro e hai rapidamente riscontrato diverse incongruenze a livello di tag. In questo modo, hai evitato problemi di dati prima del rilascio del prodotto.&quot;*
 
-Un responsabile prodotto, a cui è affidata la gestione di un sito web per dispositivi mobili e desktop, ha ricevuto l’incarico di accertarsi che i tag fossero coerenti per entrambi i siti. Per accertarsi di non aver tralasciato nulla di importante ha utilizzato il confronto fra segmenti per confrontare le hit derivanti dal sito per dispositivi mobili con le hit derivanti dal sito desktop. Ha notato l’assenza di eventi di check-out sul sito web mobile e ha ottenuto i tag corretti presenti prima che il sito mobile fosse reso pubblico. In questo modo, il responsabile prodotto ha evitato un data disaster causato dalla mancata registrazione delle conversioni da parte del sito web mobile.
+Hai il compito di gestire un sito web per dispositivi mobili e un sito web per desktop e di verificare che i tag siano coerenti tra i vari dispositivi mobili e desktop. Per non perdere nulla di importante, utilizza il pannello di confronto dei segmenti per confrontare gli hit provenienti dal sito mobile con quelli provenienti dal sito desktop. Noti che non ci sono eventi di pagamento sul sito web mobile e ottieni i tag corretti prima che il sito mobile venga rilasciato. Di conseguenza, eviti che si verifichi un guasto dei dati a causa del fatto che il sito mobile non registra alcuna conversione.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
 | Contenitore di hit in cui il tipo di dispositivo mobile equivale a telefono cellulare o tablet | Tutti gli altri |
 
-## Caso d’utilizzo 2: confronto tra clienti che utilizzano una specifica funzione e clienti che non la utilizzano
+## Caso d’uso 2: confronto tra clienti che utilizzano una determinata funzione e clienti che non la utilizzano
 
-> *“Abbiamo scoperto che i clienti che utilizzavano la funzionalità di confronto del nostro prodotto avevano il 10% di possibilità di decidere per l’acquisto. L’abbiamo spostata nella parte superiore della pagina, e gli ordini sono cresciuti del 4%!”*
+> *&quot;Hai scoperto che i clienti che utilizzavano la funzionalità di confronto dei prodotti avevano il 10% di possibilità di decidere per l&#39;acquisto. Hai spostato il confronto dei prodotti nella parte superiore della pagina e hai aumentato gli ordini del 4%!&quot;*
 
-Il team dedicato all’ottimizzazione del sito di commercio al dettaglio desiderava capire meglio gli utenti che interagivano con una funzionalità di confronto dei prodotti che avevano recentemente pubblicato. Ha utilizzato il pannello di confronto dei segmenti per confrontare gli utenti che hanno utilizzato la funzione di confronto dei prodotti con tutti gli altri utenti del sito. Ha identificato rapidamente diverse e importanti differenze, tra le quali il fatto che tali utenti avevano il 10% di possibilità in più di effettuare l’acquisto di un prodotto. Il team di ottimizzazione del sito ha deciso di testare la funzionalità di confronto del prodotto collocandola in maniera più evidente nella parte superiore della pagina.
+Il team dedicato all’ottimizzazione del sito di vendita al dettaglio vuole comprendere meglio gli utenti che interagiscono con una funzione di confronto dei prodotti che hanno rilasciato di recente. Utilizzano il pannello di confronto dei segmenti per confrontare gli utenti che utilizzano la funzione di confronto dei prodotti con tutti gli altri utenti del sito. Identifica rapidamente diverse differenze importanti, tra cui il fatto che questi utenti hanno il 10% di probabilità in più di acquistare un prodotto. Il team di ottimizzazione del sito decide di testare la funzionalità di confronto del prodotto posizionandola in modo più evidente nella parte superiore della pagina.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
@@ -38,9 +38,9 @@ Il team dedicato all’ottimizzazione del sito di commercio al dettaglio desider
 
 ## Caso d’utilizzo 3: confronto tra i visitatori della sezione news del sito e i visitatori di altre sezioni del sito
 
-> *“Abbiamo scoperto che i visitatori della nostra sezione news avevano una probabilità di due volte superiore di guardare video pubblicitari, per questo abbiamo aggiunto più opzioni video a quella sezione. I video pubblicitari visualizzati sono aumentati del 7%!”*
+> *&quot;Hai scoperto che i visitatori della tua sezione news avevano una probabilità di due volte superiore di guardare video pubblicitari, quindi hai aggiunto più opzioni video a quella sezione. Hai registrato un aumento del 7% degli annunci video visualizzati!&quot;*
 
-Un’importante casa editrice ha cercato un modo per migliorare l’interesse verso i contenuti da parte del pubblico nella propria sezione news. Ha creato un segmento di visitatori che hanno visitato la sezione news del sito per capire meglio il pubblico interessato a tale sezione. Ha immediatamente scoperto che questi utenti avevano una probabilità due volte superiore di guardare video pubblicitari rispetto ai visitatori di qualsiasi altra sezione del sito. Il team video ha realizzato una sezione video consigliati sulla barra di scorrimento laterale delle news ed è riuscito a ottenere un aumento del 7% dei video pubblicitari guardati.
+Un’importante casa editrice cerca modi per migliorare il coinvolgimento dei contenuti per i tipi di pubblico nella propria sezione news. Creano un segmento di visitatori che visitano la sezione news del sito per comprendere meglio il pubblico delle notizie. Scoprono immediatamente che questi utenti hanno una probabilità due volte superiore di guardare video pubblicitari rispetto ai visitatori di qualsiasi altra sezione del sito. Il team video ha realizzato una sezione video consigliata sulla barra laterale delle news e ha raggiunto un aumento del 7% negli annunci video visualizzati.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
@@ -48,9 +48,9 @@ Un’importante casa editrice ha cercato un modo per migliorare l’interesse ve
 
 ## Caso d’utilizzo 4: confronto tra i visitatori derivanti da ricerche a pagamento e gli altri
 
-> *“I visitatori che accedevano al nostro sito tramite motori di ricerca erano tre volte più propensi all’up-sell rispetto a qualsiasi altro utente. Abbiamo aumentato l’investimento nelle parole chiave specifiche e come risultato abbiamo raggiunto un aumento del 56% negli up-sell”.*
+> *&quot;I visitatori che accedevano al tuo sito tramite motori di ricerca erano tre volte più propensi all&#39;up-sell rispetto a qualsiasi altro utente. Di conseguenza, hai aumentato la spesa per parole chiave specifiche e hai raggiunto un aumento del 56% negli up-sell.&quot;*
 
-Una grande azienda di servizi B2B desiderava capire il tipo di traffico che le parole chiave di ricerca a pagamento portavano al loro sito. La ricerca a pagamento non aveva prodotto direttamente molte conversioni e i responsabili del marketing hanno pensato di diminuire il budget a questa dedicato. Il team marketing ha creato un segmento di visitatori che accedevano al sito tramite la ricerca a pagamento e lo ha confrontato a tutti gli altri visitatori che utilizzavano il pannello di confronto dei segmenti. Ha scoperto che, anche se questi visitatori non avevano la stessa probabilità di una conversione diretta, erano 3 volte più propensi all’up-sell per un servizio precedentemente acquistato. Il team marketing ha quindi concentrato il proprio budget sulle parole chiave correlate all’up-sell, registrando un aumento del 56% degli up-sell.
+Una grande azienda di servizi B2B vuole capire il tipo di traffico che le parole chiave di ricerca a pagamento stanno portando al loro sito. La ricerca a pagamento non ha prodotto direttamente numerose conversioni e il responsabile marketing considera di diminuirne il budget. Il team marketing crea un segmento di visitatori che accedono al sito tramite la ricerca a pagamento e lo confronta con tutti gli altri visitatori che utilizzano il pannello di confronto dei segmenti. Scoprono che, anche se questi visitatori non hanno la stessa probabilità di una conversione diretta, hanno una probabilità 3 volte superiore di acquistare un servizio in eccesso rispetto a un servizio acquistato in precedenza. Il team marketing concentra il proprio budget solo sulle parole chiave correlate all’up-sell e vede un aumento del 56% degli up-sell.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
@@ -58,9 +58,9 @@ Una grande azienda di servizi B2B desiderava capire il tipo di traffico che le p
 
 ## Caso d’utilizzo 5: confronto tra gli acquirenti Fitbit e gli altri
 
-> *“Abbiamo scoperto che le persone che acquistavano Fitbit avevano una probabilità 6 volte maggiore di ricevere il messaggio “non disponibile” rispetto agli altri, per questo abbiamo deciso di aumentare gli ordini di Fitbit evitando di esaurire le scorte disponibili!”*
+> *&quot;Hai scoperto che le persone che acquistavano Fitbit avevano una probabilità 6 volte superiore di ricevere il messaggio &quot;esaurito&quot; rispetto agli altri. Per questo motivo hai rapidamente ordinato altri Fitbit evitando di esaurire le scorte disponibili!&quot;*
 
-**Scenario:** un grande rivenditore online era interessato alle vendite di Fitbit, uno dei prodotti più ricercati del periodo delle feste, e agli aspetti che rendevano unici i suoi acquirenti rispetto agli altri. Il team marketing è stato in grado di fare clic con il pulsante destro del mouse sull’elemento di riga &quot;Fitbit&quot; nel rapporto sui prodotti ed eseguire rapidamente un’analisi IQ segmento. Ciò che hanno scoperto è che gli acquirenti Fitbit avevano una probabilità 6 volte superiore di ricevere il messaggio &quot;esaurito&quot; rispetto a qualsiasi altro cliente. Dopo ulteriori analisi, il team marketing è stato in grado di dirigere i visitatori ai negozi fisici mentre attendevano che il reparto acquisti ordinasse ulteriori Fitbit da spedire. Come risultato, il rivenditore ha evitato ulteriori messaggi di “esaurimento” ed è stato in grado di soddisfare la maggiore domanda del periodo festivo.
+**Scenario:** un importante retailer online è interessato alle vendite di Fitbit, uno dei prodotti più ricercati del periodo delle feste, e agli aspetti che rendono unici i suoi acquirenti rispetto agli altri. Il team marketing è in grado di selezionare la voce Fitbit nel rapporto prodotti ed eseguire rapidamente un’analisi di confronto dei segmenti dal menu di scelta rapida. Quello che scoprono è che gli acquirenti Fitbit hanno una probabilità 6 volte superiore di ricevere il messaggio &quot;esaurito&quot; rispetto a qualsiasi altro cliente. Dopo ulteriori analisi, il team marketing può dirigere i visitatori ai negozi fisici mentre attendono che il reparto acquisti ordini ulteriori Fitbit da spedire. Di conseguenza, retailer evita ulteriori messaggi &quot;esauriti&quot; ed è in grado di soddisfare una maggiore domanda durante le feste.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |

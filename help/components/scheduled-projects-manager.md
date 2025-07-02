@@ -1,16 +1,16 @@
 ---
-description: Visualizza e gestisci i rapporti programmati in tutta l’organizzazione.
-title: Gestione progetti programmati
+description: Scopri come gestire i progetti pianificati.
+title: 'Gestione '
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 39%
+source-wordcount: '731'
+ht-degree: 38%
 
 ---
 
-# Progetti programmati
+# Progetti pianificati
 
 I progetti Analysis Workspace pianificati possono essere gestiti in Adobe Analytics utilizzando **[!UICONTROL Components]** > **[!UICONTROL Scheduled projects]**.
 

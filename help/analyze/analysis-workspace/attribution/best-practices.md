@@ -1,12 +1,12 @@
 ---
 title: Best practice di attribuzione
-description: Quali sono le best practice per decidere un modello di attribuzione?
+description: Scopri le best practice per decidere quale modello di attribuzione utilizzare.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 74%
+source-wordcount: '422'
+ht-degree: 73%
 
 ---
 
@@ -53,7 +53,7 @@ In questo caso, per testare questa ipotesi si utilizza il modello di attribuzion
 
 Supponiamo che l&#39;ipotesi sia: *&quot;In un settore specifico (ad esempio, il settore dei viaggi), la finestra di attribuzione è di 60 o 90 giorni, non di 30 giorni, perché i clienti effettuano molte ricerche prima di acquistare un prodotto.*&quot;
 
-In questo caso, è necessario cambiare l’[intervallo di lookback](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/attribution/models) impostandolo su 90 giorni.
+In questo caso, è necessario cambiare l’[intervallo di lookback](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) impostandolo su 90 giorni.
 
 ## Utilizzare l’attribuzione algoritmica
 
@@ -63,4 +63,4 @@ Se non disponi ancora di un modello di attribuzione che fornisca risposte soddis
 
 * Potrebbe essere necessario avvalersi anche di un data scientist, invece di affidarsi solo ad Analysis Workspace.
 * Puoi fare affidamento sui dati non elaborati, come nei feed di dati di Adobe.
-* [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) potrebbe essere utile, ad esempio, se desideri considerare i dati relativi alle impression.
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) potrebbe essere utile, ad esempio, se desideri considerare i dati relativi alle impression.

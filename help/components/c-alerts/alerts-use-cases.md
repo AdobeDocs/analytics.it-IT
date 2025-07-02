@@ -1,35 +1,32 @@
 ---
-description: Casi di utilizzo per la creazione e la gestione degli avvisi.
-title: 'Avvisi: casi di utilizzo'
+description: Esamina alcuni casi d’uso per la creazione e la gestione degli avvisi.
+title: Casi di utilizzo degli avvisi
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 46%
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
-# Avvisi: casi di utilizzo
+# Casi di utilizzo degli avvisi
 
-È possibile creare avvisi come descritto in [Creare avvisi](/help/components/c-alerts/alert-builder.md).
+È possibile creare avvisi come descritto in [Creare avvisi](alert-builder.md).
 
 Nelle sezioni seguenti sono illustrati alcuni esempi di casi d’uso da considerare durante la creazione di avvisi.
 
-## Creare un semplice avviso filtrato da due segmenti {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## Filtra avvisi
 
-<!-- 
+Puoi creare semplici avvisi utilizzando i segmenti. Ad esempio, definisci un avviso relativo al numero di sessioni per le persone che visitano la home page tramite una sessione dell’app mobile.
 
-Update screenshots for better readability.
 
- -->
-
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## Consolidare (raggruppare) gli avvisi invece di creare più avvisi {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Stack di avvisi
 
-Gli avvisi possono essere combinati in modo da evitare di ricevere troppi avvisi distinti.
+È possibile consolidare (raggruppare) gli avvisi invece di creare più avvisi. Gli avvisi possono essere combinati in modo da evitare di ricevere diversi avvisi. Nell’esempio seguente viene inviato un avviso quando viene attivata una delle soglie delle metriche.
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

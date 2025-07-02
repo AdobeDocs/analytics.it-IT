@@ -1,13 +1,13 @@
 ---
-title: Attribuzione algoritmica
-description: Dettagli sul modello di attribuzione algoritmica.
+title: Algorithmic Attribution
+description: Comprendere i dettagli del modello di attribuzione algoritmica.
 feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 45%
+source-wordcount: '278'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ Il [modello di attribuzione](models.md) algoritmica in Analysis Workspace è div
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribuzione algoritmica](https://video.tv.adobe.com/v/40053?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribuzione algoritmica](https://video.tv.adobe.com/v/36205?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

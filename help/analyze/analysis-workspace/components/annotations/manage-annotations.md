@@ -1,13 +1,13 @@
 ---
 title: Gestire le annotazioni
-description: Come gestire le annotazioni in Workspace.
+description: Come gestire le annotazioni in Analysis Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 89%
+source-wordcount: '720'
+ht-degree: 87%
 
 ---
 
@@ -69,7 +69,7 @@ La barra dei filtri ➌ mostra i filtri attivi (se presenti). Puoi rimuovere rap
 
 ### Pannello dei filtri
 
-È possibile filtrare le annotazioni utilizzando il pannello sinistro ➍ di **[!UICONTROL Filter]**. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di annotazioni che lo rispettano. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per attivare/disattivare la visualizzazione del pannello dei filtri.
+È possibile filtrare le annotazioni utilizzando il pannello sinistro **[!UICONTROL Filter]** di ➍. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di annotazioni che lo rispettano. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per attivare/disattivare la visualizzazione del pannello dei filtri.
 
 Per filtrare l’elenco dei filtri:
 

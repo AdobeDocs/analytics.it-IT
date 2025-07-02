@@ -1,13 +1,13 @@
 ---
-description: Con la suddivisione in base al tempo, viene considerato il timestamp degli hit raccolti che viene quindi suddiviso in dimensioni più significative, quali “Ora del giorno” o “Giorno della settimana”.
+description: Scopri come le dimensioni suddivise in base al tempo prendono il timestamp degli eventi raccolti e lo suddividono in dimensioni più significative, come Ora del giorno o Giorno della settimana.
 title: Suddividere le dimensioni in base al tempo
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '238'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ Con la suddivisione in base al tempo, viene considerato il timestamp degli hit r
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo=dimensioni di [PROD143]e](https://video.tv.adobe.com/v/329410?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo=dimensioni di [PROD143]e](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

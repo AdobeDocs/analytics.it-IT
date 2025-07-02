@@ -3,10 +3,10 @@ title: Panoramica delle metriche
 description: Visualizzare una quantità di elementi dimensionali o dati nel tempo.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '217'
+ht-degree: 90%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 100%
 
 Le metriche consentono di quantificare gli elementi dimensionali, ad esempio per vedere quali pagine del sito hanno il maggior numero di visualizzazioni di pagina. È possibile anche generare tendenze sulle metriche nel tempo, ad esempio per vedere quanti ordini giornalieri i visitatori fanno sul sito. Un rapporto di base mostra righe di valori stringa (dimensione) rispetto a una colonna di valori numerici (metrica).
 
-Ad esempio, la combinazione della dimensione ‘Pagina’ con la metrica ‘Visite’, genererà un rapporto con classifica che mostra le pagine più visitate:
+Ad esempio, se hai combinato la dimensione **[!UICONTROL Page]** con la metrica **[!UICONTROL Visits]**, otterrai un rapporto con classifica che mostra le pagine più visitate:
 
-| `Page` | `Visits` |
-| --- | --- |
-| `Home page` | `800` |
-| `Product page` | `500` |
-| `Purchase page` | `100` |
+| Pagina | Visite |
+| --- | ---: |
+| Pagina Home | 800 |
+| Pagina di prodotto | 500 |
+| Pagina di acquisto | 100 |
+
+{style="table-layout:fixed"}
 
 Se non riesci a trovare la pagina della guida per una data metrica, è probabile che si tratti di un [evento personalizzato](custom-events.md) o una [metrica calcolata](../c-calcmetrics/cm-overview.md).
 

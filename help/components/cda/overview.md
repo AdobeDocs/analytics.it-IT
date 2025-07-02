@@ -1,26 +1,26 @@
 ---
-title: Analytics tra dispositivi
-description: Unisci i dati dei dispositivi, per renderli incentrati sulla persona invece che incentrati sul dispositivo.
+title: Cross-Device Analytics
+description: Scopri come trasformare i dati incentrati sul dispositivo in incentrati sulla persona unendo i dati del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 89%
+source-wordcount: '826'
+ht-degree: 58%
 
 ---
 
-# Analytics tra dispositivi
+# Cross-Device Analytics
 
 {{available-existing-customers}}
 
 Cross-Device Analytics (CDA) è una funzione che trasforma Analytics da una visione incentrata sul dispositivo a una incentrata sulla persona. Di conseguenza, gli analisti possono comprendere il comportamento dell’utente su app, browser o dispositivi diversi. Adobe supporta due flussi di lavoro generali per collegare i dati dei dispositivi:
 
 * [**Unione basata sui campi**](field-based-stitching.md): opzione di unione consigliata che utilizza solo la corrispondenza deterministica per collegare i dispositivi.
-Consente di scegliere una variabile di Analytics come base per l’unione tra dispositivi diversi in una suite di rapporti virtuali.
+L’unione basata sui campi consente di scegliere una variabile di Analytics come base per l’unione tra dispositivi diversi in una suite di rapporti virtuale.
 
-* [**Grafo di dispositivi**](device-graph.md): CDA comunica con un grafo privato per unire i dispositivi.
+* [**Grafico dispositivo**](device-graph.md): Analytics tra dispositivi comunica con un grafico privato per unire i dispositivi.
 
 Utilizzando CDA, potrai rispondere a domande quali:
 
@@ -32,31 +32,31 @@ Utilizzando CDA, potrai rispondere a domande quali:
 
 Quando si uniscono i dispositivi, la persistenza delle variabili viene riportata su tutti i dispositivi. Ad esempio, un utente visita prima il sito tramite un annuncio pubblicitario sul computer desktop. L’utente trova la tua app mobile, la installa e alla fine effettua un acquisto dal proprio dispositivo mobile. Con Analytics tra dispositivi, puoi attribuire l’acquisto dal dispositivo mobile all’annuncio su cui l’utente aveva fatto clic sul suo computer desktop.
 
-All’insegna della collaborazione e della trasparenza, i nostri clienti devono essere consapevoli che utilizziamo Microsoft Azure in associazione con Analytics tra dispositivi. Adobe utilizza Azure per memorizzare i dati del grafo di dispositivi e per eseguire l’unione tra dispositivi diversi. Di conseguenza, i dati di Adobe Analytics vengono trasmessi avanti e indietro tra il centro di elaborazione dati di Adobe e le istanze di Adobe con provisioning di Microsoft Azure.
+Microsoft Azure viene utilizzato per l’analisi tra dispositivi. Adobe utilizza Azure per memorizzare i dati del grafo di dispositivi e per eseguire l’unione tra dispositivi diversi. Di conseguenza, i dati di Adobe Analytics vengono trasmessi avanti e indietro tra il centro di elaborazione dati di Adobe e le istanze di Adobe con provisioning di Microsoft Azure.
 
-Per ulteriori informazioni sulle funzionalità di Analytics tra dispositivi, consulta la [pagina Spark “Journey IQ: Analytics tra dispositivi”](https://adobe.ly/aacda).
+Per ulteriori informazioni sulle funzionalità di Analytics tra dispositivi, consulta la [pagina Spark per Analytics tra dispositivi](https://express.adobe.com/page/8ZpjsX6Lp5XTM/).
 
-## Prerequisiti 
+## Prerequisiti
 
-L’utilizzo di CDA richiede tutti i seguenti elementi. Inoltre, i metodi con [unione basata sui campi](field-based-stitching.md) e [grafo di dispositivi](device-graph.md) presentano prerequisiti specifici.
+L&#39;utilizzo di Analytics tra dispositivi richiede i metodi [unione basata sui campi](field-based-stitching.md) e [grafo di dispositivi](device-graph.md) ed entrambi dispongono di prerequisiti specifici.
 
 * È necessario firmare un contratto con Adobe che includa Adobe Analytics Ultimate.
-* La tua organizzazione sceglie in quali suite di rapporti abilitare CDA. Adobe consiglia suite di rapporti che contengano dati cross-device, ovvero dati provenienti da più tipi di dispositivi/browser/app. Alcune organizzazioni fanno riferimento a questo concetto come a una suite di rapporti “globale”, anche se CDA non deve necessariamente essere globale da un punto di vista geografico.
+* La tua organizzazione sceglie in quali suite di rapporti abilitare CDA. Adobe consiglia suite di rapporti che contengano dati cross-device, ovvero dati provenienti da più tipi di dispositivi/browser/app. Alcune organizzazioni fanno riferimento a questo concetto come a una suite di rapporti &quot;globale&quot;, anche se Cross-Device Analytics non deve necessariamente essere globale da una prospettiva geografica.
 
 ## Limitazioni
 
 Analytics tra dispositivi è una funzione innovativa e affidabile, ma presenta limitazioni sul modo in cui può essere utilizzata. Inoltre, i metodi con [unione basata sui campi](field-based-stitching.md) e [grafo di dispositivi](device-graph.md) presentano limitazioni specifiche.
 
-* CDA è disponibile solo tramite Analysis Workspace.
+* Analytics tra dispositivi è disponibile solo tramite Analysis Workspace.
 * Analytics tra dispositivi non funziona tra diverse suite di rapporti e non combina dati provenienti da più suite di rapporti.
-* Le suite di rapporti di Adobe Analytics non possono essere mappate su più di un ID organizzazione. Poiché CDA unisce i dispositivi all’interno di una determinata suite di rapporti, non può essere utilizzato per unire dati da più ID organizzazione.
-* CDA utilizza una pipeline di elaborazione complessa, con più componenti dipendenti. Questo viene eseguito in parallelo con il flusso di lavoro di base di Analytics per la reportistica. Pertanto, è previsto uno scostamento di circa 1% per il numero totale di hit tra la suite di rapporti originale e la suite di rapporti virtuale di CDA.
-* Analytics tra dispositivi utilizza una suite di rapporti virtuale e l’elaborazione al momento del rapporto, con proprie limitazioni. Ad esempio, al momento non supportano le variabili dei canali di marketing. Per ulteriori informazioni su queste limitazioni, consulta [Suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=it) ed [Elaborazione al momento del rapporto](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=it#report-time-processing-limitations).
-* Private Graph sfrutta le stesse sincronizzazioni ID utilizzate dalla funzionalità [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it#customer-attributes) disponibile in Experience Cloud e Adobe Analytics. Tuttavia, le suite di rapporti virtuali di CDA (basate su Private Graph o unione basata sui campi) non sono compatibili con il resto della funzionalità Attributi del cliente. In altre parole, le dimensioni basate sugli attributi del cliente non sono disponibili per l’utilizzo con le suite di rapporti virtuali di CDA.
-* CDA non è attualmente compatibile con A4T.
+* Le suite di rapporti di Adobe Analytics non possono essere mappate su più di un ID organizzazione. Poiché Cross-Device Analytics unisce i dispositivi all’interno di una determinata suite di rapporti, non è possibile utilizzare Cross-Device Analytics per unire i dati di più ID organizzazione.
+* Analytics tra dispositivi utilizza una pipeline di elaborazione complessa, con più componenti dipendenti. Questa pipeline viene eseguita in parallelo con il flusso di lavoro di base di Analytics per la generazione di rapporti. Per il numero totale di hit tra la suite di rapporti originale e la suite di rapporti virtuale di Analytics tra dispositivi diversi, si può verificare una mancata corrispondenza dei dati di circa l’1%.
+* Analytics tra dispositivi utilizza una suite di rapporti virtuale e l’elaborazione al momento del rapporto, con proprie limitazioni. Ad esempio, al momento non supportano le variabili dei canali di marketing. Per ulteriori informazioni su queste limitazioni, consulta [Suite di rapporti virtuali](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-about) ed [Elaborazione al momento del rapporto](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-report-time-processing).
+* Private Graph sfrutta le stesse sincronizzazioni ID delle sincronizzazioni ID utilizzate dalla funzionalità [Attributi del cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) disponibile in Experience Cloud e Adobe Analytics. Tuttavia, le suite di rapporti virtuali di Analytics tra dispositivi (basate su Private Graph o unione basata sui campi) non sono compatibili con il resto della funzionalità Attributi del cliente. In altre parole, le dimensioni basate sugli attributi del cliente non sono disponibili per l’utilizzo con le suite di rapporti virtuali di Analytics tra dispositivi.
+* Analytics tra dispositivi non è attualmente compatibile con A4T.
 * L’API 1.4 non è supportato. Report Builder e i connettori Power BI si basano sull’API 1.4 e non sono quindi compatibili con CDA.
-* Il monitoraggio attivo del processo di unione di CDA da parte di Adobe è limitato solo alle suite di rapporti di produzione.
-* CDA non è attualmente compatibile con l’[API Data Repair](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) di Adobe Analytics.
+* Il monitoraggio attivo del processo di unione di Analytics tra dispositivi da parte di Adobe è limitato solo alle suite di rapporti di produzione.
+* Analytics tra dispositivi non è attualmente compatibile con l&#39;API [Data Repair](https://developer.adobe.com/analytics-apis/docs/2.0/) di Adobe Analytics
 * I dati storici nella suite di rapporti virtuali cambiano in base al riconoscimento e all’unione dei dispositivi da parte di Adobe. I dati nella suite dei rapporti di origine non cambiano.
 * I dati uniti seguono una latenza di 8-12 ore.
 * I dati della cronologia di mappatura per un determinato dispositivo vengono memorizzati per un massimo di 1 anno.

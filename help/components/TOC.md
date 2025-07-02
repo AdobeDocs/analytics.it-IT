@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 92%
+source-wordcount: '767'
+ht-degree: 93%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 92%
    + [Informazioni sui segmenti](segmentation/seg-overview.md)
    + [Informazioni sui contenitori di segmenti](segmentation/seg-containers.md)
    + [Funzionalità di segmentazione di Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + Segmentation workflow {#segmentation-workflow}
+   + Flusso di lavoro {#segmentation-workflow}
       + [Panoramica](segmentation/segmentation-workflow/seg-workflow.md)
       + [Pianificare i segmenti](segmentation/segmentation-workflow/seg-plan.md)
       + [Creare i segnenti](segmentation/segmentation-workflow/seg-create.md)
@@ -196,7 +196,7 @@ ht-degree: 92%
       + [Gestire i segmenti](segmentation/segmentation-workflow/seg-manage.md)
       + [Pubblicare segmenti in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Utilizzare i segmenti](segmentation/segmentation-workflow/t-seg-apply.md)
-   + Riferimento segmento {#segment-reference}
+   + Riferimenti {#segment-reference}
       + [Operatori](segmentation/seg-reference/seg-operators.md)
       + [Compatibilità del segmento Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Diritti del segmento per ruolo](segmentation/seg-reference/seg-rights.md)
@@ -206,7 +206,7 @@ ht-degree: 92%
 + Metriche calcolate {#calculated-metrics}
    + [Panoramica](c-calcmetrics/cm-overview.md)
    + [Video sulle procedure](c-calcmetrics/cm-videos.md)
-   + Flusso di lavoro per le metriche calcolate {#calcmetric-workflow}
+   + Flusso di lavoro {#calcmetric-workflow}
       + [Creare metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Trovare metriche](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Generare metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
@@ -225,7 +225,7 @@ ht-degree: 92%
       + [Condividere le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Copiare le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [Gestire le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + Riferimento metriche {#calcmetrics-reference}
+   + Riferimenti {#calcmetrics-reference}
       + [Funzioni di base](c-calcmetrics/cm-reference/cm-functions.md)
       + [Funzioni avanzate](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Compatibilità delle metriche](c-calcmetrics/cm-compatibility.md)
@@ -240,7 +240,7 @@ ht-degree: 92%
    + [Considerazioni su A4T](vrs/vrs-a4t.md)
    + [Domande frequenti sulle suite di rapporti virtuali](vrs/vrs-faq.md)
    + [Suite di rapporti virtuali e considerazioni su tag globali o per più suite](vrs/vrs-considerations.md)
-   + Flusso di lavoro suite di rapporti virtuali {#vrs-workflow}
+   + Flusso di lavoro {#vrs-workflow}
       + [Flusso di lavoro suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Creare suite di rapporti](vrs/c-workflow-vrs/vrs-create.md)
       + [Gestione delle suite di rapporti virtuali](vrs/c-workflow-vrs/vrs-manage.md)
@@ -256,8 +256,8 @@ ht-degree: 92%
    + [Domande frequenti su Analytics tra dispositivi](cda/faq.md)
 + Avvisi {#alerts}
    + [Panoramica](c-alerts/intellligent-alerts.md)
-   + [Creazione](c-alerts/alert-builder.md)
-   + [Gestire i](c-alerts/alert-manager.md)
+   + [Creare avvisi](c-alerts/alert-builder.md)
+   + [Gestire gli avvisi](c-alerts/alert-manager.md)
    + [Casi d’uso](c-alerts/alerts-use-cases.md)
 + Classificazioni {#classifications}
    + [Panoramica delle classificazioni](classifications/classifications-overview.md)

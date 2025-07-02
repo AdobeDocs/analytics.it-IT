@@ -1,17 +1,17 @@
 ---
-description: Visualizza i valori principali di una dimensione prima di utilizzarla in un progetto.
+description: Scopri come visualizzare i dettagli e i valori principali di una dimensione in Analysis Workspace.
 title: Anteprima dimensioni
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: a629b2be66d9458bf10872a95aaec739aed9d791
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 24%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
-# Anteprima delle dimensioni in Analysis Workspace
+# Anteprima dimensioni
 
 È possibile utilizzare le [informazioni sul componente](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) per un componente per visualizzare gli elementi principali di una dimensione.
 
