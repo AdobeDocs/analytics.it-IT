@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: Debugger progetto
 role: User
-source-git-commit: e7aaafc95f60c71744cfeb3c59310d8ba2ea2576
+exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
+source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -54,7 +55,7 @@ Per utilizzare il debugger per una visualizzazione specifica:
 
    * **[!UICONTROL Request timestamp]**
    * **[!UICONTROL Response timestamp]**
-   * **[!UICONTROL &#x200B; Request time]**
+   * **[!UICONTROL Request time]**
    * **[!UICONTROL Queue time]**
    * **[!UICONTROL Server processing time]**
    * **[!UICONTROL Lookup time]**
@@ -74,7 +75,7 @@ Per utilizzare il debugger per una visualizzazione specifica:
    * JSON (risposta)
    * Richiesta curl
 
-1. Utilizza ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]**&#x200B;d sotto **[!UICONTROL cURL Request]** per copiare la richiesta negli Appunti.
+1. Utilizza ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** sotto **[!UICONTROL cURL Request]** per copiare la richiesta negli Appunti.
 1. Passa il puntatore del mouse su una delle **[!UICONTROL Request]** o **[!UICONTROL Response]** aree di testo per visualizzare e selezionare ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** per copiare il contenuto di tale area di testo (XML o JSON) negli Appunti.
 
 1. Scambia le informazioni copiate e richieste dal supporto Adobe per la risoluzione dei problemi relativi alle visualizzazioni nel progetto Analysis Workspace.
@@ -95,6 +96,3 @@ Per disattivare il debugger:
 1. Selezionare **[!UICONTROL Help]** > **[!UICONTROL Disable debugger]** dal menu del progetto Analysis Workspace.
 1. Selezionare **[!UICONTROL OK]** nella finestra di dialogo **[!UICONTROL Disable debugger]**.
 1. Conferma quando il browser richiede di ricaricare la pagina o il sito.
-
-
-
