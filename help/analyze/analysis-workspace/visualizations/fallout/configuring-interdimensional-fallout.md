@@ -1,12 +1,12 @@
 ---
-description: Scopri come la visualizzazione dell’abbandono in Analysis Workspace consente di combinare dimensioni e metriche come punti di contatto in funnel e flussi di lavoro. Scopri in che modo questo offre maggiore flessibilità nella definizione dei passaggi utente che desideri esaminare.
+description: Scopri in che modo la visualizzazione dell’abbandono in Analysis Workspace consente di combinare dimensioni e metriche come punti di contatto in funnel e flussi di lavoro. Scopri in che modo questo offre maggiore flessibilità nella definizione dei passaggi utente che desideri esaminare.
 title: Abbandono interdimensionale
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ Ad esempio, oltre a una dimensione Pagina, puoi aggiungere a una visualizzazione
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abbandono multidimensionale](https://video.tv.adobe.com/v/329408?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abbandono multidimensionale](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

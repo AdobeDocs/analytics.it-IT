@@ -4,10 +4,10 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 96%
+source-wordcount: '863'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione del riepilogo delle metriche chiave in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione del riepilogo delle metriche chiave in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
    | **[!UICONTROL Metric]** | Seleziona la metrica da esaminare. Sono supportate tutte le metriche. |
    | **[!UICONTROL Primary date range]** | L’intervallo di date corrente per la tabella a forma libera.<p>Scegli uno degli intervalli di date disponibili nella visualizzazione dati.</p> <p>Scegli [!UICONTROL **Intervallo date del pannello**] se desideri utilizzare lo stesso intervallo di date utilizzato nel pannello in cui si trova la visualizzazione.</p> |
    | **[!UICONTROL Comparison date range]** | L’intervallo di date che desideri confrontare con l’intervallo di date principale. |
-   | **[!UICONTROL Filter (optional)]** | Qualsiasi segmento a cui sei interessato per questo riepilogo. |
+   | **[!UICONTROL Segment (optional)]** | Eventuale segmento che ti interessa per questo riepilogo. |
 
    {style="table-layout:auto"}
 
@@ -114,19 +114,18 @@ Come parte delle impostazioni di visualizzazione, sono disponibili impostazioni 
 
 ## Visualizzazione Modifica
 
-Dopo aver creato la visualizzazione, puoi comunque modificare la configurazione originale.
+Dopo aver generato la visualizzazione, puoi modificare la configurazione originale.
 
-1. Fai clic sull’icona a forma di matita nell’angolo in alto a destra della visualizzazione (accanto all’icona a forma di ingranaggio delle impostazioni).
+1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) nell&#39;angolo superiore destro della visualizzazione.
 
-   ![Icona modifica visualizzazione](assets/edit-icon.png)
 
-   Ora ritorni alla visualizzazione di configurazione originale.
+   Ora ritorni alla [visualizzazione di configurazione](#configure) originale.
 
-1. Modifica la metrica, l’intervallo di date principale, l’intervallo di date del confronto o il filtro, come preferisci.
+1. Modifica la metrica, l’intervallo di date primario, l’intervallo di date del confronto o il segmento come preferisci.
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 

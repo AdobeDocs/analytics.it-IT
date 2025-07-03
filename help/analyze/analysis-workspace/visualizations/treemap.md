@@ -5,7 +5,7 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 78%
@@ -25,7 +25,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa ad albero in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Mappa ad albero](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/treemap) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa ad albero in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Mappa ad albero](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Con una mappa ad albero, puoi vedere dei pattern che sarebbero difficili da indi
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione di mappa ad albero](https://video.tv.adobe.com/v/3416855/?quality=12&captions=ita){target=&#34;_blank&#34;}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione di mappa ad albero](https://video.tv.adobe.com/v/334458/?quality=12){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -48,6 +48,6 @@ Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoChe
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

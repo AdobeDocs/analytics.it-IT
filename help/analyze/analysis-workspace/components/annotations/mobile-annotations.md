@@ -1,21 +1,21 @@
 ---
-title: Annotazioni per dispositivi mobili
+title: Annotazioni nelle scorecard per dispositivi mobili
 description: Scopri come far emergere le annotazioni nelle scorecard per dispositivi mobili.
 role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 92%
+source-wordcount: '297'
+ht-degree: 86%
 
 ---
 
 
 # Annotazioni delle scorecard per dispositivi mobili
 
-Puoi visualizzare le annotazioni create in Workspace nelle scorecard per dispositivi mobili. Le annotazioni nelle scorecard per dispositivi mobili consentono di condividere dettagli sui dati contestuali e informazioni approfondite sull’organizzazione e sulle campagne.
+Puoi visualizzare le annotazioni create in Analysis Workspace nelle scorecard per dispositivi mobili. Le annotazioni nelle scorecard per dispositivi mobili consentono di condividere dettagli sui dati contestuali e informazioni approfondite sull’organizzazione e sulle campagne.
 
 
 ## Visualizzare le annotazioni nelle scorecard per dispositivi mobili

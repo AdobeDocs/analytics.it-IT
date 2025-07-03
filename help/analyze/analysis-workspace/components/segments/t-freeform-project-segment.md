@@ -1,12 +1,12 @@
 ---
-description: Scopri come creare e utilizzare i segmenti in Analysis Workspace.
+description: Scopri come creare e utilizzare i segmenti in Analysis Workspace e Adobe Analytics.
 title: Panoramica dei segmenti
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '306'
 ht-degree: 34%
 
 ---
@@ -27,14 +27,14 @@ Puoi creare e utilizzare i segmenti in Analysis Workspace e Customer Journey Ana
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di segmenti in Analysis Workspace](https://video.tv.adobe.com/v/329400?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di segmenti in Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ricerca e creazione di segmenti](https://video.tv.adobe.com/v/3415644?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ricerca e creazione di segmenti](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ In Analysis Workspace puoi creare diversi tipi di segmenti:
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Altri metodi per applicare segmenti](https://video.tv.adobe.com/v/35903?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Altri metodi per applicare segmenti](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

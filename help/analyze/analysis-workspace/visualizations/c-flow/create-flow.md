@@ -4,7 +4,7 @@ title: Configurare Una Visualizzazione Di Flusso
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 44%
@@ -108,7 +108,7 @@ Puoi configurare l’inizio o la fine del percorso che ti interessa. Oppure anal
    | **[!UICONTROL Limit to first/last occurrence]** | Limita i percorsi ai percorsi che iniziano o terminano con la prima o l’ultima occorrenza di una dimensione, elemento o metrica. Per una spiegazione più dettagliata, vedi [Limita alla prima/ultima occorrenza](#example-scenario-for-limit-to-firstlast-occurrence). |
    | **[!UICONTROL Number of columns]** | Determina il numero di colonne desiderato nel diagramma Flusso. Puoi indicare un massimo di 5 colonne. |
    | **[!UICONTROL Items expanded per column]** | Il numero di elementi che desideri inserire in ogni colonna. È possibile specificare un massimo di 10 elementi espansi per colonna. |
-   | **[!UICONTROL Flow container]** | È possibile passare da **[!UICONTROL Sessions]** a **[!UICONTROL Person]** per analizzare i percorsi. Queste impostazioni consentono di comprendere il coinvolgimento di una persona a livello personale (tra sessioni) o di vincolare l’analisi a una singola sessione. |
+   | **[!UICONTROL Flow container]** | È possibile passare da **[!UICONTROL Visit]** a **[!UICONTROL Visitor]** per analizzare i percorsi. Queste impostazioni consentono di comprendere il coinvolgimento di un visitatore a livello del visitatore stesso (attraverso più visite) o di limitare l’analisi a una singola visita. |
 
    >[!IMPORTANT]
    >
@@ -173,7 +173,7 @@ Utilizza un menu contestuale su qualsiasi nodo della visualizzazione del flusso 
 | **[!UICONTROL Exclude item]** o **[!UICONTROL Restore excluded items]** | Rimuove un nodo specifico dalla colonna e lo crea automaticamente come filtro nella parte superiore della colonna. Per ripristinare l&#39;elemento escluso, dal menu di scelta rapida selezionare **[!UICONTROL Restore Excluded Item]**. Puoi anche aprire il filtro nella parte superiore della colonna e rimuovere la casella con l’elemento appena escluso. |
 | **[!UICONTROL Trend]** | Crea un diagramma di tendenza per il nodo. |
 | **[!UICONTROL Show next column]** / **[!UICONTROL Show previous column]** | Mostra la colonna successiva (destra) o precedente (sinistra) della visualizzazione. |
-| **[!UICONTROL Hide colum]**&#x200B;n | Nasconde la colonna selezionata dalla visualizzazione. |
+| **[!UICONTROL Hide colum]**n | Nasconde la colonna selezionata dalla visualizzazione. |
 | **[!UICONTROL Expand entire column]** | Espande una colonna per mostrare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |
 | **[!UICONTROL Create audience from selection]** | Crea un pubblico in base alla colonna selezionata. |
 | **[!UICONTROL Collapse entire column]** | Nasconde tutti i nodi di una colonna. |
@@ -195,15 +195,15 @@ Nell&#39;esempio seguente sono incluse **tutte** le occorrenze di *categoria pri
 
   Nell&#39;esempio seguente, sono incluse solo le **ultime** occorrenze di *Categoria principale prodotto* e *Aggiungi al carrello* in ogni passaggio del flusso.
   ![Lint, inizio](assets/limitonlast.png)
-* La serie utilizzata varia in base al contenitore. Se si utilizza il contenitore **[!UICONTROL Person]**, la serie di eventi corrisponde alla sessione. Se utilizzi il contenitore **[!UICONTROL Session]**, la serie di eventi sono tutti gli eventi per un determinato utente nell&#39;intervallo di date specificato.
+* La serie utilizzata varia in base al contenitore. Se utilizzi il contenitore **[!UICONTROL Visitor]**, la serie di eventi sono le visite. Se utilizzi il contenitore **[!UICONTROL Visitor]**, la serie di eventi sono tutti gli hit per un determinato utente nell&#39;intervallo di date specificato.
 * L&#39;opzione **[!UICONTROL Limit to first/last occurrence]** può essere configurata nelle impostazioni avanzate quando si utilizza una metrica o un elemento di Dimension nei campi **[!UICONTROL Starts with]** o **[!UICONTROL Ends with]**.
 
 
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

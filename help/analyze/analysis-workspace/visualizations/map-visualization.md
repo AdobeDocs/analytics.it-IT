@@ -1,11 +1,11 @@
 ---
-description: Utilizza la visualizzazione mappa per tracciare i dati su una visualizzazione mappa geografica
+description: Utilizza la visualizzazione mappa per tracciare i dati su una visualizzazione mappa geografica.
 title: Mappa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 54%
@@ -46,7 +46,7 @@ ht-degree: 54%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Nessuna visualizzazione Mappa attualmente disponibile in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Nessuna visualizzazione Mappa attualmente disponibile in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Visualizzazione ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** in A
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa in Analysis Workspace](https://video.tv.adobe.com/v/329423/?quality=12&captions=ita){target=&#34;_blank&#34;}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa in Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ Per definire le impostazioni per la visualizzazione, seleziona ![Impostazione](/
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/328243/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 

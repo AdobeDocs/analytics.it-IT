@@ -1,13 +1,13 @@
 ---
-description: Scopri come creare una tabella coorte ed eseguire un rapporto di analisi per coorte in Analysis Workspace.
+description: Scopri come creare e configurare una tabella coorte ed eseguire un rapporto di analisi per coorte in Analysis Workspace.
 keywords: Analysis Workspace
 title: Configurare Una Tabella Coorte
 feature: Visualizations
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '815'
 ht-degree: 39%
 
 ---
@@ -58,7 +58,7 @@ Per creare e configurare una [!UICONTROL Cohort table]:
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
