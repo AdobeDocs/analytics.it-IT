@@ -27,14 +27,14 @@ Puoi creare e utilizzare i segmenti in Analysis Workspace e Customer Journey Ana
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di segmenti in Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di segmenti in Analysis Workspace](https://video.tv.adobe.com/v/329400?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ricerca e creazione di segmenti](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ricerca e creazione di segmenti](https://video.tv.adobe.com/v/3415644?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ In Analysis Workspace puoi creare diversi tipi di segmenti:
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Altri metodi per applicare segmenti](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Altri metodi per applicare segmenti](https://video.tv.adobe.com/v/35903?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
