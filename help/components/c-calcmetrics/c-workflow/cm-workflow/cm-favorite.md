@@ -1,12 +1,12 @@
 ---
-description: Contrassegnare le metriche calcolate come preferite è un altro modo per organizzarle in modo semplice.
-title: Contrassegnare le metriche calcolate come preferite
+description: Organizzare le metriche calcolate contrassegnandole come preferite.
+title: Contrassegnare Le Metriche Calcolate Come Preferite
 feature: Calculated Metrics
 exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 9%
+source-wordcount: '98'
+ht-degree: 0%
 
 ---
 

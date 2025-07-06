@@ -2,14 +2,15 @@
 description: Interfaccia utente per la creazione di segmenti.
 title: Creare un segmento
 feature: Segmentation
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+exl-id: 0cec43bd-c2cc-4c8a-ae16-e8b5ad61f281
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 20%
 
 ---
 
-# Creare un segmento
+# Creare i segmenti
 
 In Adobe Analytics puoi creare diversi tipi di segmenti.  Il tipo selezionato dipende dalla complessità dei segmenti e dall’applicabilità dei segmenti solo al progetto Workspace corrente o a tutti i progetti. Puoi creare segmenti direttamente nell’interfaccia principale di Adobe Analytics o quando lavori in un progetto Workspace.
 

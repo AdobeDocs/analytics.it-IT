@@ -1,21 +1,21 @@
 ---
-description: Le metriche calcolate e le metriche calcolate avanzate sono metriche personalizzate che puoi creare dalle metriche esistenti.
-keywords: Metriche calcolate;Metriche calcolate avanzate
-title: Metriche calcolate e metriche calcolate avanzate
+description: Scopri le metriche calcolate che puoi creare dalle metriche esistenti.
+keywords: 'Metriche calcolate '
+title: Panoramica delle metriche calcolate
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 19%
+source-wordcount: '267'
+ht-degree: 34%
 
 ---
 
 # Panoramica delle metriche calcolate
 
-Metriche calcolate e personalizzate che puoi creare dalle metriche esistenti.
+I calcoli sono metriche personalizzate che puoi creare dalle metriche esistenti.
 
-Le metriche calcolate offrono un modo altamente flessibile di creare, gestire e curare le metriche. La metrica calcolata consente ad addetti al marketing, product manager e analisti di porre domande sui dati senza dover modificare l&#39;implementazione di [!DNL Analytics].
+Le metriche calcolate sono metriche personalizzate che puoi creare dalle metriche esistenti. Le metriche calcolate offrono un modo flessibile di generare, gestire e curare metriche personalizzate che consentono di analizzare i dati senza dover modificare l’implementazione.
 
 Le metriche calcolate sono disponibili in ciascun pacchetto [!DNL Analytics], tuttavia Adobe Analytics Foundation Pack per Experience Cloud è limitato alle metriche calcolate di base che includono [tipi di formato (decimale, ora, percentuale, valuta)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), [modifiche di allocazione (predefinita, lineare, partecipazione, ecc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [tipi di metrica (standard, totale)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) e [operatori di base](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (aggiungere, sottrarre, moltiplicare e dividere).
 
@@ -59,13 +59,13 @@ Alcune funzionalità di [!DNL Analytics] non consentono l&#39;utilizzo di metric
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Metriche calcolate](https://video.tv.adobe.com/v/41662?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Metriche calcolate](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione delle metriche calcolate nei segmenti](https://video.tv.adobe.com/v/41661?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione delle metriche calcolate nei segmenti](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[Crea metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
->&#x200B;>[Genera metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
->&#x200B;>[Usa funzioni](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>>[Genera metriche](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[Usa funzioni](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
 >

@@ -4,7 +4,7 @@ keywords: segmentazione;segmenti
 title: Contenitori di segmenti
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '3548'
 ht-degree: 96%
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 # Contenitori di segmenti
 
-Un segmento imposta le condizioni per filtrare un visitatore in base agli attributi del visitatore o alle sue interazioni con il sito. Per impostare le condizioni in un segmento, imposta le regole per filtrare i visitatori in base alle loro caratteristiche e/o quelle di navigazione. Per suddividere ulteriormente i dati dei visitatori, puoi filtrare in base a visite e/o hit di visualizzazione pagina specifiche per ciascun visitatore. Il Generatore di segmenti fornisce un’architettura semplice per generare questi sottoinsiemi e applicare le regole come contenitori Visitatore, Visita o Hit nidificati e gerarchici.
+Un segmento imposta le condizioni per filtrare un visitatore in base agli attributi o alle interazioni del visitatore con il sito. Per impostare le condizioni in un segmento, imposta le regole per filtrare i visitatori in base alle loro caratteristiche e/o quelle di navigazione. Per suddividere ulteriormente i dati dei visitatori, puoi filtrare in base a visite e/o hit di visualizzazione pagina specifiche per ciascun visitatore. Il Generatore di segmenti fornisce un’architettura semplice per generare questi sottoinsiemi e applicare le regole come contenitori Visitatore, Visita o Hit nidificati e gerarchici.
 
 L&#39;architettura del contenitore utilizzata nel [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) definisce:
 
@@ -47,7 +47,7 @@ Ogni contenitore consente di generare rapporti sulla cronologia di un visitatore
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://video.tv.adobe.com/v/3429107?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

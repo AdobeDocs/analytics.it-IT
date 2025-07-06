@@ -5,26 +5,29 @@ keywords: Segmento IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 18%
+source-wordcount: '853'
+ht-degree: 15%
 
 ---
 
 # Casi di utilizzo del confronto dei segmenti
 
-Il pannello di confronto dei segmenti è una funzione ampiamente utilizzata in Analysis Workspace. I clienti scoprono costantemente nuovi modi per ottenere informazioni approfondite. Di seguito sono riportati diversi casi di utilizzo riusciti.
+Il pannello di confronto dei segmenti è una funzione ampiamente utilizzata in Analysis Workspace. I clienti scoprono spesso nuovi modi con cui ottenere informazioni approfondite durante l’utilizzo del pannello. Di seguito sono riportati alcuni casi d’uso tipici
 
-## Caso d’utilizzo 1: confronto tra implementazioni per dispositivi mobili e desktop
+## Caso d’uso 1: confronto tra implementazioni per dispositivi mobili e desktop
 
 > *&quot;Hai confrontato gli hit da un sito all&#39;altro e hai rapidamente riscontrato diverse incongruenze a livello di tag. In questo modo, hai evitato problemi di dati prima del rilascio del prodotto.&quot;*
 
-Hai il compito di gestire un sito web per dispositivi mobili e un sito web per desktop e di verificare che i tag siano coerenti tra i vari dispositivi mobili e desktop. Per non perdere nulla di importante, utilizza il pannello di confronto dei segmenti per confrontare gli hit provenienti dal sito mobile con quelli provenienti dal sito desktop. Noti che non ci sono eventi di pagamento sul sito web mobile e ottieni i tag corretti prima che il sito mobile venga rilasciato. Di conseguenza, eviti che si verifichi un guasto dei dati a causa del fatto che il sito mobile non registra alcuna conversione.
+Sei responsabile di un sito web per dispositivi mobili e di un sito web per desktop e hai il compito di verificare che i tag siano coerenti tra i vari dispositivi mobili e desktop. Per non perdere nulla di importante, utilizza il pannello di confronto dei segmenti per confrontare gli hit provenienti dal sito mobile con quelli provenienti dal sito desktop. Noti che non ci sono eventi di pagamento sul sito web mobile e ottieni i tag corretti prima che il sito mobile venga rilasciato. Di conseguenza, eviti che si verifichi un guasto dei dati a causa del fatto che il sito mobile non registra alcuna conversione.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
 | Contenitore di hit in cui il tipo di dispositivo mobile equivale a telefono cellulare o tablet | Tutti gli altri |
+
+{style="table-layout:fixed"}
+
 
 ## Caso d’uso 2: confronto tra clienti che utilizzano una determinata funzione e clienti che non la utilizzano
 
@@ -36,6 +39,9 @@ Il team dedicato all’ottimizzazione del sito di vendita al dettaglio vuole com
 |--- |--- |
 | Contenitore di visitatori in cui esiste un evento personalizzato (strumento di confronto dei prezzi) | Tutti gli altri |
 
+{style="table-layout:fixed"}
+
+
 ## Caso d’utilizzo 3: confronto tra i visitatori della sezione news del sito e i visitatori di altre sezioni del sito
 
 > *&quot;Hai scoperto che i visitatori della tua sezione news avevano una probabilità di due volte superiore di guardare video pubblicitari, quindi hai aggiunto più opzioni video a quella sezione. Hai registrato un aumento del 7% degli annunci video visualizzati!&quot;*
@@ -45,6 +51,9 @@ Un’importante casa editrice cerca modi per migliorare il coinvolgimento dei co
 | Segmento 1 | Segmento 2 |
 |--- |--- |
 | Contenitore di visitatori per cui Sezione sito è uguale a “News” | Tutti gli altri |
+
+{style="table-layout:fixed"}
+
 
 ## Caso d’utilizzo 4: confronto tra i visitatori derivanti da ricerche a pagamento e gli altri
 
@@ -56,12 +65,17 @@ Una grande azienda di servizi B2B vuole capire il tipo di traffico che le parole
 |--- |--- |
 | Contenitore di visitatori in cui Tipo referente è uguale a Ricerca a pagamento | Tutti gli altri |
 
+{style="table-layout:fixed"}
+
+
 ## Caso d’utilizzo 5: confronto tra gli acquirenti Fitbit e gli altri
 
-> *&quot;Hai scoperto che le persone che acquistavano Fitbit avevano una probabilità 6 volte superiore di ricevere il messaggio &quot;esaurito&quot; rispetto agli altri. Per questo motivo hai rapidamente ordinato altri Fitbit evitando di esaurire le scorte disponibili!&quot;*
+> *&quot;Hai scoperto che le persone che acquistavano Fitbit avevano una probabilità 6 volte superiore di ricevere il messaggio &quot;esaurito&quot; rispetto agli altri. Quindi hai rapidamente ordinato altri Fitbit ed evitato di esaurire le scorte.&quot;*
 
 **Scenario:** un importante retailer online è interessato alle vendite di Fitbit, uno dei prodotti più ricercati del periodo delle feste, e agli aspetti che rendono unici i suoi acquirenti rispetto agli altri. Il team marketing è in grado di selezionare la voce Fitbit nel rapporto prodotti ed eseguire rapidamente un’analisi di confronto dei segmenti dal menu di scelta rapida. Quello che scoprono è che gli acquirenti Fitbit hanno una probabilità 6 volte superiore di ricevere il messaggio &quot;esaurito&quot; rispetto a qualsiasi altro cliente. Dopo ulteriori analisi, il team marketing può dirigere i visitatori ai negozi fisici mentre attendono che il reparto acquisti ordini ulteriori Fitbit da spedire. Di conseguenza, retailer evita ulteriori messaggi &quot;esauriti&quot; ed è in grado di soddisfare una maggiore domanda durante le feste.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
 | Contenitore di visitatori in cui esistono Ordini e la dimensione personalizzata del Brand è uguale a FitBit | Tutti gli altri |
+
+{style="table-layout:fixed"}

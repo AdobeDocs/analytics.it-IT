@@ -1,12 +1,12 @@
 ---
-description: I segmenti sequenziali vengono creati utilizzando l’operatore THEN, anziché AND o OR. THEN implica che si verifica un criterio di segmento, seguito da un altro. Per impostazione predefinita, un segmento sequenziale identifica tutti i dati corrispondenti, mostrando il filtro “Includi tutti”. I segmenti sequenziali possono essere ulteriormente filtrati in un sottoinsieme di hit corrispondenti utilizzando le opzioni “Solo prima della sequenza” e “Solo dopo la sequenza”.
-title: Creare segmenti sequenziali
+description: Scopri i segmenti sequenziali che utilizzano l’operatore THEN per definire una sequenza di condizioni di segmento.
+title: SequentialSsegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
+source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
 workflow-type: tm+mt
-source-wordcount: '2307'
-ht-degree: 6%
+source-wordcount: '2262'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Inoltre, è possibile vincolare i segmenti sequenziali a una durata di tempo, a 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://video.tv.adobe.com/v/41653?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ Per applicare vincoli di tempo all&#39;operatore **[!UICONTROL Then]**:
 1. Seleziona ![Orologio](/help/assets/icons/Clock.svg).
 1. Selezionare **[!UICONTROL Within]** o **[!UICONTROL After]** dal menu di scelta rapida.
 1. Specificare un periodo di tempo (**[!UICONTROL Minute]**, **[!UICONTROL Hour]**, fino a **[!UICONTROL Years]**).
-1. Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;per aprire un popup che consente di digitare o specificare un numero utilizzando **[!UICONTROL -]**&#x200B;o **[!UICONTROL +]**.
+1. Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**per aprire un popup che consente di digitare o specificare un numero utilizzando **[!UICONTROL -]**o **[!UICONTROL +]**.
 
 Per rimuovere un vincolo di tempo, utilizzare ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -134,7 +134,7 @@ Le sequenze di esempio seguenti corrispondono o non corrispondono:
 
 | Sequenza | ![ApprovaRifiuta](/help/assets/icons/ApproveReject.svg) |
 |--- | :---: |
-| Pagina `Women \| Shoes` seguita dalla pagina `Checkout \| Thank You` | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) |
+| Pagina `Women \| Shoes` seguita dalla pagina `Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | Pagina `Women \| Shoes` seguita dalla pagina `Women \| Tops` seguita dalla pagina `Checkout \| Thank You` | ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) |
 
 ## [!UICONTROL Include]
@@ -153,8 +153,8 @@ Le sequenze di esempio seguenti corrispondono o non corrispondono:
 
 | | Sequenza | ![ApprovaRifiuta](/help/assets/icons/ApproveReject.svg) |
 |---:|--- | --- |
-| 1 | `Women \| Shoes` quindi `Checkout \| Thank You` nella stessa visita | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) |
-| 2 | `Women \| Shoes` quindi `Men \| Shoes` e `Checkout \| Thank You` (per visite diverse) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) |
+| 1 | `Women \| Shoes` quindi `Checkout \| Thank You` nella stessa visita | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 2 | `Women \| Shoes` quindi `Men \| Shoes` e `Checkout \| Thank You` (per visite diverse) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 3 | `Checkout \| Thank You` quindi `Women \| Shoes` | ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) |
 
 ### [!UICONTROL Only Before Sequence] e [!UICONTROL Only After Sequence]
@@ -169,17 +169,17 @@ Si consideri una definizione che specifica una sequenza di un componente con cri
 
 | B Then D | A | B | C | D | E | F |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Includi tutti | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) |
-| Solo prima della sequenza | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
-| Solo dopo la sequenza |  |  |  | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) |
+| Includi tutti | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| Solo prima della sequenza | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| Solo dopo la sequenza |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 
 
 | B Then D (si verifica più volte) | A | B | C | D | B | C | D | E |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Includi tutti | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) |
-| Solo prima della sequenza | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
-| Solo dopo la sequenza |  |  |  | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) | ![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) |
+| Includi tutti | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| Solo prima della sequenza | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| Solo dopo la sequenza |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 #### Esempio
 
@@ -213,7 +213,7 @@ Di seguito sono riportati alcuni esempi di utilizzo di [!UICONTROL Exclude].
 
 #### [!UICONTROL Exclude] entro
 
-Identifica i visitatori che hanno visitato una pagina, non un’altra pagina e poi un’altra pagina. Escludi il contenitore utilizzando ![Impostazione](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Un contenitore escluso è identificato da una sottile barra rossa a sinistra.
+Identifica i visitatori che hanno visitato una pagina, non un’altra pagina e poi un’altra pagina. Escludi il contenitore utilizzando ![Impostazione](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Una sottile barra rossa a sinistra identifica un contenitore escluso.
 
 ![Escludi sequenza](assets/sequence-exclude.png)
 
@@ -238,7 +238,7 @@ Identifica i visitatori che hanno visitato una pagina ma non altre pagine. Ad es
 >
 >Un [!UICONTROL Logic Group] può essere definito solo in un segmento sequenziale, il che significa che l&#39;operatore [!UICONTROL Then] è utilizzato all&#39;interno del contenitore.
 
-Gruppo logico consente di raggruppare le condizioni in un singolo punto di controllo del segmento sequenziale. Come parte della sequenza, la logica definita nel contenitore identificato come Gruppo logico viene valutata dopo qualsiasi punto di controllo sequenziale precedente e prima di qualsiasi punto di controllo sequenziale successivo.
+Il Gruppo logico consente di raggruppare le condizioni in un singolo punto di controllo del segmento sequenziale. Come parte della sequenza, la logica definita nel contenitore identificato come Gruppo logico viene valutata dopo qualsiasi punto di controllo sequenziale precedente e prima di qualsiasi punto di controllo sequenziale successivo.
 
 Le condizioni all’interno del Gruppo logico stesso possono essere soddisfatte in qualsiasi ordine. Al contrario, i contenitori non sequenziali (hit, visita, visitatore) non richiedono che le loro condizioni siano soddisfatte all&#39;interno della sequenza complessiva, generando possibili risultati non intuitivi se utilizzati con un operatore **[!UICONTROL Then]**.
 
@@ -273,13 +273,13 @@ Identifica i visitatori che hanno visitato una pagina o un’altra pagina e poi 
 
 #### [!UICONTROL Exclude] [!UICONTROL And]
 
-Identifica i visitatori che hanno visitato una pagina e poi esplicitamente non hanno visitato un set di altre pagine, ma un’altra pagina. Ad esempio, i visitatori che hanno visitato la home page, non hanno visitato la pagina Uomini o donne, ma hanno visitato la pagina Bambini.
+Identifica i visitatori che hanno visitato una pagina e poi esplicitamente non hanno visitato un set di altre pagine, ma un’altra pagina. Ad esempio, i visitatori che hanno visitato la home page e non la pagina Uomini o donne, ma la pagina Bambini.
 
 ![Gruppo logico escludere e](assets/logicgroup-exclude-and.png)
 
 #### [!UICONTROL Exclude] [!UICONTROL Or]
 
-Identifica i visitatori che hanno visitato una pagina e poi esplicitamente non hanno visitato alcuna pagina di un set di pagine, ma hanno visitato un’altra pagina. Ad esempio, i visitatori che hanno visitato la home page, non hanno visitato la pagina Uomini e donne, ma hanno visitato la pagina Bambini.
+Identifica i visitatori che hanno visitato una pagina e poi esplicitamente non hanno visitato alcuna pagina di un set di pagine, ma hanno visitato un’altra pagina. Ad esempio, i visitatori che hanno visitato la home page e non la pagina Uomini e donne, ma la pagina Bambini.
 
 ![Gruppo logico escludere e](assets/logicgroup-exclude-or.png)
 
@@ -302,4 +302,4 @@ Come ultimo esempio, vuoi identificare i visitatori che hanno imparato a conosce
 
 >[!MORELIKETHIS]
 >
-> * [Masterizzazione della logica sequenziale in AA e CJA: introduzione a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
+> * [Masterizzazione logica sequenziale in AA e CJA: introduzione a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

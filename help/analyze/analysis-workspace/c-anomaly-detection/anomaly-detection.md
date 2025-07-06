@@ -1,13 +1,13 @@
 ---
-description: Scopri come visualizzare e analizzare le anomalie nei dati in modo contestuale, in Analysis Workspace.
+description: Scopri il rilevamento delle anomalie nei dati in Analysis Workspace.
 title: Panoramica di Rilevamento delle anomalie
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 68%
+source-wordcount: '1280'
+ht-degree: 69%
 
 ---
 
@@ -18,7 +18,7 @@ In Analysis Workspace puoi visualizzare e analizzare le anomalie nei dati in mod
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rilevamento anomalie](https://video.tv.adobe.com/v/327894?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rilevamento anomalie](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Ecco alcuni esempi di anomalie da esaminare:
 * Picchi negli eventi di buffering video
 * Picchi nei valori più bassi di bitrate video
 
-[Rilevamento delle anomalie](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection) e Analisi contributi sono flussi di lavoro principali in Analysis Workspace. Puoi eseguire Analisi contributi rispetto a qualsiasi anomalia giornaliera e incorporare il risultato nel progetto Analysis Workspace.
+[Rilevamento delle anomalie](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection) e Analisi contributi sono flussi di lavoro principali in Analysis Workspace. Puoi eseguire Analisi contributi rispetto a qualsiasi anomalia giornaliera e incorporare il risultato nel progetto Analysis Workspace.
 
 L’algoritmo di rilevazione delle anomalie di Analysis Workspace include:
 
@@ -61,7 +61,7 @@ per le metriche selezionate tra segmenti di pubblico convergenti.
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi contributi](https://video.tv.adobe.com/v/327901?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi contributi](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +97,7 @@ Il numero di esecuzioni per azienda dipende dal numero di token mensili assegnat
 | Perché Adobe ha introdotto i token? | La funzione Analisi contributi ha riscosso un grande successo in Adobe Analytics. La possibilità di disporre di un numero limitato di esecuzioni complete al mese (anziché 3 sole dimensioni per alcuni prodotti Analytics) consente di comprendere le funzionalità dell’analisi completa e illimitata dei contributi. |
 | Come funzionano i token in Analisi contributi? È necessario spendere un token per caricare un progetto con un’analisi dei contributi esistente oppure è richiesto solo se si esegue una nuova analisi? | Ad ogni azienda per la quale si esegue l’accesso (non a ciascun utente) viene assegnato un determinato numero di token al mese, che consente di eseguire analisi dei contributi “complete” in Analysis Workspace.  Ogni volta che si genera una nuova analisi dei contributi si paga un token. Quando si caricano progetti con analisi dei contributi preesistenti non viene richiesto alcun token. |
 | Cosa devo fare se la mia azienda ha esaurito i token e desidera eseguire ulteriori analisi dei contributi? | Si può eseguire l’aggiornamento a un altro prodotto Adobe Analytics, ad esempio da Standard (2 token al mese) a Ultimate (20 token al mese). Non è possibile acquistare altri token. È necessario eseguire l’aggiornamento all’interno del framework di creazione pacchetti esistente. |
-| Come si limita l’accesso all’analisi dei contributi? | Per impostazione predefinita, solo gli amministratori hanno accesso all’esecuzione di Analisi contributi. Tuttavia, gli amministratori possono concedere l’accesso ad altri utenti creando un gruppo di autorizzazioni in [Adobe Admin Console](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-console/home). Concedi l’autorizzazione per utilizzare Analisi contributi solo agli utenti che hanno un motivo legittimo per utilizzarla e che sono certi di non abusare del loro accesso. L’autorizzazione si chiama [!UICONTROL Contribution Analysis] (Analisi contributi) e si trova in [!UICONTROL Report Suite Tools] (Strumenti suite di rapporti). [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
+| Come si limita l’accesso all’analisi dei contributi? | Per impostazione predefinita, solo gli amministratori hanno accesso all’esecuzione di Analisi contributi. Tuttavia, gli amministratori possono concedere l’accesso ad altri utenti creando un gruppo di autorizzazioni in [Adobe Admin Console](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-console/home). Concedi l’autorizzazione per utilizzare Analisi contributi solo agli utenti che hanno un motivo legittimo per utilizzarla e che sono certi di non abusare del loro accesso. L’autorizzazione si chiama [!UICONTROL Contribution Analysis] (Analisi contributi) e si trova in [!UICONTROL Report Suite Tools] (Strumenti suite di rapporti). [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
 | Come faccio a conoscere il numero di token mensili a disposizione della mia azienda e quanti token sono stati utilizzati dalla mia azienda nel mese in corso? | Vai a  [!UICONTROL Admin] > [!UICONTROL All admin] >[!UICONTROL Company settings Home] >[!UICONTROL View Feature Access Levels]. Cerca in<ul><li>Analisi contributi: numero di token di utilizzo mensili</li><li>Analisi contributi: numero di token di utilizzo consumati in questo mese</li></ul> |
 
 ## Adesioni a Rilevamento delle anomalie e Analisi contributi

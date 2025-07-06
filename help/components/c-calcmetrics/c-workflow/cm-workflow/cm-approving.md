@@ -1,12 +1,12 @@
 ---
-description: All’interno di Gestione metriche calcolate, puoi impostare un flusso di lavoro che includa l’approvazione delle metriche per vari livelli di applicazione e per reparti o gruppi specifici.
+description: Scopri come approvare le metriche calcolate.
 title: Approvare le metriche calcolate
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 4%
+source-wordcount: '121'
+ht-degree: 2%
 
 ---
 

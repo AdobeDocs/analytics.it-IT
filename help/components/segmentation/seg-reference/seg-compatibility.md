@@ -1,12 +1,12 @@
 ---
-description: Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con Data Warehouse. In questa tabella sono elencate le funzioni supportate.
+description: Scopri perché non tutti i segmenti creati nel Generatore di segmenti sono compatibili con Data Warehouse. Scopri quali funzioni sono supportate.
 title: Compatibilità dei segmenti con Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 76%
+source-wordcount: '343'
+ht-degree: 74%
 
 ---
 
@@ -99,4 +99,4 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
  </tbody> 
 </table>
 
-*Nota: Data Warehouse non supporta tutti i casi di utilizzo di un contenitore `exclusion` o `without` quando si utilizza `AND/OR`. Quando si utilizza questa combinazione, solo i segmenti che possono essere riscritti come `A AND NOT B` (o **includi questa caratteristica**&#x200B;ed **escludi questa caratteristica**) sono supportati in Data Warehouse.*
+*Nota: Data Warehouse non supporta tutti i casi di utilizzo di un contenitore `exclusion` o `without` quando si utilizza `AND/OR`. Quando si utilizza questa combinazione, solo i segmenti che possono essere riscritti come `A AND NOT B` (o **includi questa caratteristica**ed **escludi questa caratteristica**) sono supportati in Data Warehouse.*

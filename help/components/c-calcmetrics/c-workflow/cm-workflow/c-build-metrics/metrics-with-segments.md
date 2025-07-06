@@ -1,11 +1,11 @@
 ---
-description: La segmentazione di singole metriche consente di effettuare confronti di metriche all’interno dello stesso rapporto.
+description: Scopri come segmentare singole metriche per effettuare confronti di metriche all’interno della stessa visualizzazione.
 title: Metriche segmentate
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---

@@ -1,20 +1,21 @@
 ---
-title: Domande frequenti su Attribution
+title: Domande Frequenti Sull’Attribuzione
 description: Risposte alle domande più frequenti sull’attribuzione.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 87%
+source-wordcount: '1179'
+ht-degree: 85%
 
 ---
 
-# Domande frequenti su Attribution
+# Domande frequenti
 
+Di seguito sono riportate le risposte alle domande più frequenti sull’attribuzione.
 
-+++## Cos’è l’elemento di riga “None” quando si utilizza l’attribuzione?
++++## Qual è l&#39;elemento riga **[!UICONTROL None]** quando si utilizza l&#39;attribuzione?
 
 “None” è un elemento catch-all che rappresenta tutte le conversioni avvenute senza punti di contatto all’interno dell’intervallo di lookback. Per ridurre il numero di conversioni attribuite alla riga &quot;None&quot;, prova a utilizzare un intervallo di lookback personalizzato con un periodo di lookback più lungo.
 
@@ -23,7 +24,7 @@ ht-degree: 87%
 
 +++## Perché talvolta visualizzo date al di fuori della mia finestra di reporting quando utilizzo modelli di attribuzione?
 
-Alcune metriche basate sulle visite, come [Voci](/help/components/metrics/entries.md) o [Percentuale non recapitate](/help/components/metrics/bounce-rate.md), possono attribuire i dati a un periodo prima dell’intervallo di date iniziale della finestra di generazione rapporti. Questa situazione è dovuta ai modelli di attribuzione che utilizzano una finestra di lookback, che determina il periodo di tempo precedente da considerare per l’attribuzione del credito alle metriche. Lo scenario più comune è quando le visite attraversano la mezzanotte. Ad esempio:
+Alcune metriche basate sulle visite, come [Voci](/help/components/metrics/entries.md) o [Percentuale non recapitate](/help/components/metrics/bounce-rate.md), possono attribuire i dati a un periodo prima dell’intervallo di date di inizio della finestra di generazione rapporti. Questa situazione è dovuta ai modelli di attribuzione che utilizzano una finestra di lookback, che determina il periodo di tempo precedente da considerare per l’attribuzione del credito alle metriche. Lo scenario più comune è quando le visite attraversano la mezzanotte. Ad esempio:
 
 1. Un utente visita la pagina principale alle 23:55 del 7 settembre.
 1. Poi visita diverse pagine, l’ultima delle quali alle 00:05 dell’8 settembre.
@@ -44,12 +45,13 @@ In questo esempio, Voci e Percentuale non recapitate non presenterebbero alcun d
 +++
 
 
-+++## Quando dovrei usare un lookback di attribuzione visita, visitatore o personalizzato?
+<!-- not relevant anymore due to introduction of separation of container and lookback window 
++++## When should I use a visit, visitor, or custom attribution lookback?
 
-La scelta del lookback di attribuzione dipende dal caso di utilizzo. Se le conversioni in genere richiedono più tempo di una singola visita, si consiglia di effettuare un lookback su visitatore o personalizzato. Per cicli di conversione più lunghi, è consigliabile utilizzare intervalli di lookback personalizzati, in quanto sono l’unico tipo in grado di estrarre i dati precedenti all’intervallo di reporting.
+The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
 
 +++
-
+-->
 
 +++## Come si confrontano proprietà ed eVar quando si utilizza l’attribuzione?
 

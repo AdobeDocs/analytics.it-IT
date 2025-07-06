@@ -1,12 +1,12 @@
 ---
-description: In Gestione metriche calcolate, l’assegnazione di tag ai segmenti ti consente di organizzarli.
+description: Scopri come assegnare tag alle metriche calcolate per organizzarle.
 title: Assegnare tag alle metriche calcolate
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 5%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-description: È possibile visualizzare le anomalie sotto forma di tabella o grafico a linee.
-title: Visualizzare le anomalie in Analysis Workspace
+description: Scopri come visualizzare e analizzare le anomalie nei dati in Analysis Workspace.
+title: Visualizza anomalie
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 53%
+source-wordcount: '437'
+ht-degree: 49%
 
 ---
 
@@ -19,7 +19,7 @@ In Analysis Workspace puoi visualizzare le anomalie in una tabella o in un grafi
 
 È possibile visualizzare le anomalie in una tabella a forma libera della serie temporale.
 
-1. Seleziona ![Impostazione](/help/assets/icons/Setting.svg)nell&#39;intestazione della colonna, quindi accertati che l&#39;opzione **[!UICONTROL Anomalies]** sia selezionata nell&#39;elenco delle opzioni. Per ulteriori informazioni, consulta la sezione [Impostazioni delle colonne](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
+1. Seleziona ![Impostazione](/help/assets/icons/Setting.svg) nell&#39;intestazione della colonna, quindi accertati che l&#39;opzione **[!UICONTROL Anomalies]** sia selezionata nell&#39;elenco delle opzioni. Per ulteriori informazioni, consulta la sezione [Impostazioni delle colonne](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
 1. Le anomalie sono mostrate nella tabella come segue:
 

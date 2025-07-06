@@ -1,12 +1,12 @@
 ---
-description: Puoi filtrare per tag, suite di rapporti, proprietari e altri filtri (Mostra tutto, Personali, Condivisi con me, Preferiti e Approvati).
-title: Filtrare l’elenco delle metriche calcolate
+description: Scopri come filtrare le metriche calcolate per tag, suite di rapporti, proprietari e altri filtri.
+title: Filtrare L’Elenco Delle Metriche Calcolate
 feature: Calculated Metrics
 exl-id: ea5becb5-dcfc-4787-8d74-cfbc8a9387f3
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 26%
+source-wordcount: '141'
+ht-degree: 27%
 
 ---
 

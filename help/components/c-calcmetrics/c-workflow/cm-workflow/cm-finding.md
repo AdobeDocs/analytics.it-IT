@@ -1,12 +1,12 @@
 ---
-description: Descrive i due modi principali per trovare l’ordinamento e il filtro delle metriche.
+description: Scopri come trovare le metriche.
 title: Trovare metriche
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 7%
+source-wordcount: '46'
+ht-degree: 4%
 
 ---
 

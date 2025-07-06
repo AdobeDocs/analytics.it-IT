@@ -1,12 +1,12 @@
 ---
-description: Scopri come utilizzare il pannello Elemento successivo o precedente che mostra gli elementi dimensionali successivi o precedenti per una dimensione specifica.
+description: Scopri come utilizzare il pannello Elemento successivo o precedente che mostra gli elementi successivi o precedenti per una dimensione specifica.
 title: Pannello Elemento Successivo O Precedente
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 87%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Elemento successivo o precedente in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Pannello elemento successivo o precedente](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/next-previous)) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versione di Customer Journey Analytics** di questo articolo._
+_Questo articolo documenta il pannello Elemento successivo o precedente in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Pannello elemento successivo o precedente](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/next-previous)) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versione di Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ Puoi configurare il pannello [!UICONTROL Next or previous item] usando le seguen
 | **[!UICONTROL Dimension]** | Seleziona la dimensione per la quale desideri scoprire gli elementi successivi o precedenti. |
 | **[!UICONTROL Dimension item]** | Seleziona l’elemento dimensionale specifico al centro della richiesta successiva/precedente. |
 | **[!UICONTROL Direction]** | Specifica se stai cercando l’elemento dimensionale [!UICONTROL Next] o [!UICONTROL Previous]. |
-| **[!UICONTROL Container]** | Seleziona il contenitore [!UICONTROL Session] o [!UICONTROL Person] (impostazione predefinita) per determinare l’ambito della richiesta. |
+| **[!UICONTROL Container]** | Seleziona il contenitore **[!UICONTROL Visit]** o **[!UICONTROL Visitor]** (impostazione predefinita) per determinare l’ambito della richiesta. |
 
 {style="table-layout:auto"}
 

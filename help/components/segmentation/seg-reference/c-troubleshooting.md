@@ -1,16 +1,18 @@
 ---
-description: Risolvere i problemi relativi ai segmenti.
-title: Risoluzione dei problemi di segmentazione
+description: Scopri come risolvere i problemi relativi ai segmenti.
+title: Risoluzione dei problemi
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 0%
+source-wordcount: '179'
+ht-degree: 1%
 
 ---
 
-# Risoluzione dei problemi di segmentazione
+# Risoluzione dei problemi
+
+In questo articolo sono elencati alcuni problemi comuni relativi ai segmenti e come risolverli.
 
 <!-- Looks like this is not part anymore of the current UI.
 

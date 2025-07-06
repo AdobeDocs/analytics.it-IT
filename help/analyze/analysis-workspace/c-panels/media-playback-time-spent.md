@@ -4,7 +4,7 @@ description: Scopri come utilizzare e interpretare il pannello Tempo di riproduz
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 93%
@@ -34,7 +34,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Tempo di riproduzione trascorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta il [pannello Tempo di riproduzione dei contenuti multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta il pannello Tempo di riproduzione trascorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta il [pannello Tempo di riproduzione dei contenuti multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _Questo articolo documenta il pannello Tempo di riproduzione trascorso in_ ![Ado
 >[!NOTE]
 >
 >Il pannello Pubblico medio per minuto è disponibile solo per i clienti che hanno acquistato il componente aggiuntivo Streaming Media Collection per Adobe Analytics.
->&#x200B;>Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
+>>Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
 >
 
 Il pannello **[!UICONTROL Media playback time spent]** consente di analizzare le riproduzioni nel tempo, con dettagli sul picco di concorrenza e la possibilità di suddividere e confrontare i dati.
@@ -59,7 +59,7 @@ Il Tempo di riproduzione trascorso può aiutarti a comprendere:
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/3446708?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -125,8 +125,8 @@ L’unica metrica che può essere utilizzata in questo pannello è Playback Time
 >[!MORELIKETHIS]
 >
 >[Creare un pannello](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Pannello Pubblico medio per minuto di contenuti multimediale](average-minute-audience-panel.md)
->&#x200B;>[Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md)
+>>[Pannello Pubblico medio per minuto di contenuti multimediale](average-minute-audience-panel.md)
+>>[Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md)
 >
 
 <!--
@@ -146,7 +146,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446708?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)
 
 ## Use the Media Playback Time Spent panel
 

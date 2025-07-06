@@ -1,11 +1,11 @@
 ---
-description: Spiega come creare una metrica che mostra quali canali di marketing supportano gli ordini. Può essere adattato a qualsiasi dimensione o evento di successo di interesse.
-title: Ordina metrica di assistenze
+description: Spiega come creare una metrica che mostra quali canali di marketing supportano gli ordini.
+title: Creare Una Metrica Calcolata Più Complessa
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Questo articolo spiega un esempio più complesso di metrica calcolata. Queste me
 
 1. Inizia a generare una metrica calcolata, come descritto in [Metriche di compilazione](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. Nel generatore di metriche calcolate, assegnare un nome alla metrica `Assisted Orders` o a un nome simile.
+1. Nel generatore di metriche calcolate, assegnare un nome alla metrica `Assisted Online Orders` o a un nome simile.
 
 1. Selezionare la metrica **[!UICONTROL Online Orders]** dai componenti **[!UICONTROL Metrics]** e trascinarla nell&#39;area **[!UICONTROL Definition]**.
 
@@ -41,4 +41,4 @@ Per utilizzare la metrica calcolata:
 
 1. (Facoltativo) Condividi la metrica con altri utenti dell&#39;organizzazione, come descritto in [Condividi metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
 
-Questo è un modo semplice per capire quali canali di marketing hanno assistito negli ordini. In alternativa, da una tabella a forma libera, puoi fare clic con il pulsante destro del mouse su una metrica e regolare il modello di attribuzione direttamente dalla tabella.
+Questo è un modo semplice per capire quali canali di marketing hanno assistito negli ordini. In alternativa, da una tabella a forma libera, puoi selezionare qualsiasi metrica e dal menu di scelta rapida regolare il modello di attribuzione direttamente dalla tabella.

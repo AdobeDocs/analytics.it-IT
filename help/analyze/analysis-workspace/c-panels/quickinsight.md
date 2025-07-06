@@ -1,13 +1,13 @@
 ---
-description: Scopri come utilizzare il pannello Quick Insights per guidarti nella creazione di tabelle e visualizzazioni di dati in Analysis Workspace.
+description: Scopri come utilizzare il pannello Quick Insights per guidarti nella creazione di tabelle e visualizzazioni a forma libera in Analysis Workspace.
 title: Pannello Quick Insights
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Quick Insights in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Pannello Quick Insights](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/quickinsight)) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta il pannello Quick Insights in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Pannello Quick Insights](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/quickinsight)) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Quando inizi a utilizzare [!UICONTROL Analysis Workspace], potresti chiederti:
 * dove creare un filtro,
 * e altro ancora.
 
-Per rispondere queste domande, [!UICONTROL Quick insights] sfrutta un algoritmo che ti presenta le dimensioni, le metriche, i segmenti e gli intervalli di date più popolari utilizzati dalla tua azienda. Questo algoritmo si basa sull’utilizzo dei componenti dei dati in [!UICONTROL Analysis Workspace] da parte della tua azienda. Vedrai infatti dimensioni, metriche e segmenti con tag [!UICONTROL POPULAR] nell&#39;elenco a discesa, come mostrato di seguito:
+Per risolvere queste domande, [!UICONTROL Quick insights] utilizza un algoritmo che ti presenta le dimensioni, le metriche, i segmenti e gli intervalli di date più comuni utilizzati dalla tua azienda. Questo algoritmo si basa sull’utilizzo dei componenti dei dati in [!UICONTROL Analysis Workspace] da parte della tua azienda. Vedrai infatti dimensioni, metriche e segmenti con tag [!UICONTROL POPULAR] nell&#39;elenco a discesa, come mostrato di seguito:
 
 ![Pannello Quick Insights.](assets/popular-tag.png)
 
@@ -59,10 +59,10 @@ Di seguito sono riportati alcuni dei termini di base con cui è necessario che t
 |---|---|
 | **[!UICONTROL Dimension]** | Le dimensioni sono descrizioni o caratteristiche dei dati di metriche che possono essere visualizzate, raggruppate e confrontate in un progetto. Sono valori non numerici e date raggruppati in elementi dimensionali. Ad esempio, un *browser* o una *pagina* è una dimensione. |
 | **[!UICONTROL Dimension item]** | Gli elementi dimensionali sono valori singoli per una dimensione. Ad esempio, gli elementi dimensionali per la dimensione del browser sarebbero *Chrome*, *Firefox*, *Edge* oppure altri. |
-| **[!UICONTROL Metric]** | Le metriche corrispondono a informazioni quantitative sull’attività della persona come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via. |
+| **[!UICONTROL Metric]** | Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via. |
 | **[!UICONTROL Visualization]** | Workspace offre [diverse visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) per creare rappresentazioni visive dei dati. Ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici di dispersione e altri. |
 | **[!UICONTROL Dimension Breakdown]** | Un raggruppamento di dimensioni è un modo per raggruppare una dimensione secondo altre dimensioni. Ad esempio, puoi raggruppare gli Stati Uniti per dispositivi mobili per ottenere le visite da parte di dispositivi mobili per stato. Oppure puoi raggruppare i dispositivi mobili per tipo di dispositivo mobile, per aree geografiche, per campagne interne e altro ancora. |
-| **[!UICONTROL Segments]** | I segmenti ti consentono di identificare sottoinsiemi di persone in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare segmenti [!UICONTROL Visitor] in base a <li>attributi: tipo di browser, dispositivo, numero di visite, paese, genere o</li><li>interazioni: campagne, ricerca di parole chiave, motore di ricerca o</li><li>uscite ed entrate: visitatori da Facebook, da una pagina di destinazione definita, da un dominio di riferimento o</li><li> variabili personalizzate: campo modulo, categorie definite, ID cliente. |
+| **[!UICONTROL Segments]** | I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare segmenti [!UICONTROL Visitor] in base a <li>attributi: tipo di browser, dispositivo, numero di visite, paese, genere o</li><li>interazioni: campagne, ricerca di parole chiave, motore di ricerca o</li><li>uscite ed entrate: visitatori da Facebook, da una pagina di destinazione definita, da un dominio di riferimento o</li><li> variabili personalizzate: campo modulo, categorie definite, ID cliente. |
 
 ## Utilizzo
 
@@ -94,7 +94,7 @@ Puoi specificare i blocchi in tre modi:
 
 * Trascina i componenti dal pannello a sinistra.
 * Inizia a digitare in uno dei campi del blocco. Quando viene trovato un input, il campo del blocco viene compilato automaticamente con i valori possibili.
-* Specifica un elenco a discesa del blocco (ad esempio `Country` in **[!UICONTROL Analyze]**) e cerca nell’elenco dei valori possibili (utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg)) il valore da utilizzare (ad esempio **[!UICONTROL Country code]**).
+* Specifica un elenco a discesa del blocco (ad esempio **[!UICONTROL Country]** in **[!UICONTROL Analyze]**) e cerca nell’elenco dei valori possibili (utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg)) il valore da utilizzare (ad esempio **[!UICONTROL Country code]**).
 
 Seleziona **[!UICONTROL Clear]** per cancellare tutti i campi di input.
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326704/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

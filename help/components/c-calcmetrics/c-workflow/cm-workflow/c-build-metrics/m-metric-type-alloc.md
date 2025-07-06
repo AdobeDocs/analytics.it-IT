@@ -1,12 +1,12 @@
 ---
-description: Scopri
-title: Tipo di metrica e attribuzione
+description: Scopri il tipo di metrica e l’attribuzione.
+title: Tipo Di Metrica E Attribuzione
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 83%
+source-wordcount: '566'
+ht-degree: 81%
 
 ---
 

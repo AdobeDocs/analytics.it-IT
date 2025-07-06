@@ -1,11 +1,11 @@
 ---
 description: Scopri come creare metriche calcolate.
-title: Flusso di lavoro per le metriche calcolate
+title: Creare metriche calcolate
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
-source-git-commit: 183f6e39fb1d14b7b29817e76da0302ba23cd5d6
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '342'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,7 @@ Puoi creare una metrica calcolata nei seguenti modi:
 * **D**. In un progetto Workspace, seleziona **[!UICONTROL Components]** dal menu e quindi **[!UICONTROL Create metric]**.
 * **E**. In un progetto Workspace, utilizzare il collegamento **[!UICONTROL shift+cmd+c]** (macOS) o **[!UICONTROL shift+ctrl+c]** (Windows).
 
-Per definire la nuova metrica calcolata, utilizzare il generatore di metriche calcolate [&#128279;](c-build-metrics/cm-build-metrics.md).
+Per definire la nuova metrica calcolata, utilizzare il generatore di metriche calcolate [](c-build-metrics/cm-build-metrics.md).
 
 
 ## Flusso di lavoro
@@ -33,7 +33,7 @@ Prima di creare le metriche calcolate, considera attentamente il seguente flusso
 
 | Attività flusso di lavoro | Descrizione |
 | --- | --- |
-| Pianificare le metriche calcolate | Soprattutto per le metriche che verranno ufficialmente &quot;approvate&quot;, ha senso delineare quali metriche calcolate saranno ampiamente utilizzate e come saranno definite. |
+| Pianificare le metriche calcolate | Soprattutto per le metriche che verranno approvate ufficialmente, la pianificazione ha senso delineare quali metriche calcolate verranno ampiamente utilizzate e come verranno definite. |
 | [Genera](c-build-metrics/cm-build-metrics.md) metriche calcolate | Genera e modifica metriche calcolate e calcolate avanzate da utilizzare nei componenti [!DNL Analytics].  Consulta [esempi](c-build-metrics/cm-build-metrics.md) su come generare metriche calcolate. |
 | [Tag](cm-tagging.md) metriche calcolate | Assegna tag alle metriche calcolate per semplificarne l’organizzazione e la condivisione. Scopri come pianificare e assegnare tag per ricerche e organizzazioni semplici e avanzate. |
 | [Approva](cm-approving.md) metriche calcolate | Approva le metriche calcolate per renderle canoniche. |

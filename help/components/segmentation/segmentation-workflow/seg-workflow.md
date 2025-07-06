@@ -1,12 +1,12 @@
 ---
-description: Descrive un flusso di lavoro consigliato per i segmenti creati con il Generatore di segmenti e gestiti tramite il Gestore segmenti.
+description: Scopri un flusso di lavoro consigliato per creare segmenti con il Generatore di segmenti e gestito tramite il Gestore segmenti.
 title: Panoramica sulla segmentazione del flusso di lavoro
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 48%
+source-wordcount: '266'
+ht-degree: 47%
 
 ---
 

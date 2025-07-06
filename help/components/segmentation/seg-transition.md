@@ -1,30 +1,30 @@
 ---
-description: Domande frequenti sulla gestione dei segmenti legacy.
+description: Scopri come gestire i segmenti legacy.
 title: Domande frequenti sui segmenti legacy
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 91%
+source-wordcount: '1424'
+ht-degree: 57%
 
 ---
 
-# Domande frequenti sui segmenti legacy
+# Segmenti legacy
 
-Questo articolo risponde alle domande frequenti sulle best practice per la gestione dei segmenti legacy (segmenti creati prima del 2014).
+Questo articolo risponde alle domande frequenti sulle best practice per la gestione dei segmenti legacy. I segmenti precedenti sono segmenti creati prima del 2014.
 
 ## Gestione dei segmenti legacy {#legacy}
 
 +++ **Cos’è successo ai segmenti esistenti?**
 
-I segmenti esistenti continueranno a funzionare come prima. Tutti i rapporti a cui sono applicati questi segmenti continueranno a funzionare correttamente.
+I segmenti esistenti continuano a funzionare come prima. Tutti i rapporti a cui sono applicati questi segmenti continuano a funzionare correttamente.
 
-La maggior parte dei segmenti predefiniti e dei segmenti delle suite precedenti migreranno e diventeranno modelli nel Generatore di segmenti. I modelli di segmenti sono utilizzati per creare rapidamente segmenti personalizzati con audience comuni. I modelli di segmenti non possono essere applicati direttamente a un rapporto, ma possono essere salvati con facilità in un segmento personalizzato.
+La maggior parte dei segmenti predefiniti e dei segmenti delle suite precedenti viene migrata e convertita in modelli di segmenti nel Generatore di segmenti. I modelli di segmenti vengono utilizzati per creare rapidamente segmenti personalizzati con tipi di pubblico comuni. I modelli di segmenti non possono essere applicati direttamente a un rapporto, ma possono essere salvati con facilità in un segmento personalizzato.
 
-I modelli di segmenti sono contrassegnati da un’icona speciale nel Generatore di segmenti:
+I modelli di segmenti sono contrassegnati da un&#39;icona speciale ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) nel Generatore di segmenti.
 
-![](assets/seg_templates.png)
+
 
 +++
 
@@ -38,13 +38,13 @@ I rapporti programmati non vengono aggiornati quando si modifica un segmento con
 
 ![](assets/duplicate_seg_names.png)
 
-È presente un segnalibro che fa riferimento al segmento per la suite di rapporti principale. Quel segmento viene quindi eliminato in quanto si tratta di un duplicato. Il segnalibro continuerà a essere eseguito e farà riferimento alla definizione del segmento eliminato. Se modifichi la definizione del segmento per il segmento maindev in modo da includere Isola di Catalina e Tijuana Messico, il segmento applicato al segnalibro non subirà modifiche e utilizzerà la vecchia definizione. Per risolvere il problema, aggiorna il segnalibro in modo che faccia riferimento alla nuova definizione. Se hai dubbi sul fatto che un segnalibro, una dashboard o un rapporto programmato utilizzino un segmento eliminato, modifica il nome del segmento rimanente in modo che risulti più chiaro se il segnalibro lo sta utilizzando.
+Si dispone di una visualizzazione che fa riferimento al segmento per la suite di rapporti **[!UICONTROL mainprod]**. Quel segmento viene quindi eliminato in quanto si tratta di un duplicato. La visualizzazione continua a essere eseguita, facendo riferimento alla definizione del segmento eliminato. Se modifichi la definizione del segmento per il segmento maindev in modo da includere Isola di Catalina e Tijuana, Messico, il segmento applicato alla visualizzazione non cambia e utilizza la vecchia definizione. Per utilizzare la nuova definizione, aggiorna la visualizzazione in modo che faccia riferimento alla nuova definizione. Se non sei sicuro se una visualizzazione, un progetto o un rapporto programmato utilizzano un segmento eliminato, modifica il nome del segmento rimanente per mostrare se la visualizzazione utilizza il segmento rimanente.
 
 +++
 
 +++ **Cos’è successo ai segmenti di Data Warehouse?**
 
-Tutti i segmenti esistenti di Data Warehouse continueranno a funzionare in Data Warehouse. La maggior parte dei segmenti Data Warehouse funziona anche in altri componenti come Analysis Workspace.
+Tutti i segmenti esistenti di Data Warehouse continueranno a funzionare in Data Warehouse. La maggior parte dei segmenti di Data Warehouse funziona anche in altri componenti come Analysis Workspace.
 
 Puoi creare o modificare nuovi segmenti di Data Warehouse in Gestione/Generatore di segmenti. Il meccanismo di compatibilità dei prodotti nel Generatore di segmenti determina automaticamente se un segmento è compatibile con Data Warehouse.
 
@@ -80,18 +80,18 @@ I rapporti esistenti a cui sono applicati questi segmenti continueranno a funzio
 
 +++ **Cos’è successo ai segmenti di amministrazione (noti anche come segmenti “globali”)?**
 
-I segmenti **admin** verranno migrati nella nuova interfaccia dei segmenti e visualizzati come segmenti condivisi con tutti.
+I segmenti **Admin** sono stati migrati nella nuova interfaccia e visualizzati come segmenti condivisi con tutti.
 
-Il proprietario di questi segmenti è impostato sull’amministratore con l’account più vecchio nell’elenco degli utenti amministratori dell’azienda di accesso. Tuttavia, tutti gli amministratori possono eliminare, modificare e condividere questi segmenti.
+Il proprietario di questi segmenti è impostato sull’amministratore con l’account più vecchio degli utenti amministratori. Tuttavia, tutti gli amministratori possono eliminare, modificare e condividere questi segmenti.
 
 L’interfaccia di gestione dei segmenti in Admin Console, in cui gli amministratori potevano creare e gestire i segmenti globali, non è più disponibile. Ora gli amministratori devono usare il nuovo Generatore di segmenti per creare segmenti e condividerli con gruppi o singoli utenti specifici o con tutti.
 
-I segmenti esistenti che utilizzano una logica che ha subito modifiche nel modo descritto in questo documento continueranno a funzionare correttamente, ma dovranno essere aggiornati prima di poter essere salvati di nuovo. Ad esempio, se hai un segmento esistente in cui Stati degli Stati Uniti contiene “New York”, esso continuerà a funzionare correttamente, ma la prossima volta che modifichi il segmento dovrai aggiornarlo per utilizzare il tipo enumerato con una condizione “è uguale a”.
+I segmenti esistenti che utilizzano una logica che è stata modificata come descritto in questo documento continuano a funzionare correttamente, anche se i segmenti devono essere aggiornati prima di poter essere salvati nuovamente. Ad esempio, se hai un segmento esistente in cui **[!UICONTROL US States]** **[!UICONTROL contains]** `New York`, tale segmento continua a funzionare correttamente. La prossima volta che modifichi il segmento, dovrai aggiornare il segmento per utilizzare il tipo enumerato con una condizione **[!UICONTROL equals]**.
 
 +++
 
 +++ **Cosa conviene fare con i segmenti duplicati che hanno lo stesso nome ma definizioni diverse?**
-Ora che i segmenti funzionano in più suite di rapporti, potresti avere più segmenti con lo stesso nome. Consigliamo di svolgere una delle seguenti azioni:
+Ora che i segmenti funzionano in più suite di rapporti, potresti avere più segmenti con lo stesso nome. Devi:
 
 * Rinominare i segmenti che hanno lo stesso nome ma definizioni diverse, oppure
 * Eliminare i segmenti non più necessari.
@@ -110,7 +110,7 @@ Ora che i segmenti funzionano in più suite di rapporti, potresti avere più seg
 
 ### Suggerimenti per la migrazione
 
-Di seguito sono riportati alcuni suggerimenti per la migrazione delle dimensioni comuni:
+I seguenti suggerimenti consentono di migrare dimensioni comuni:
 
 * Geo-città/area geografica/paese: cerca e seleziona città, aree geografiche o paesi specifici invece di utilizzare una corrispondenza parziale.
 * Browser: utilizza la dimensione Tipi di browser per ottenere tutti i browser in un tipo, ad esempio Google Chrome
@@ -124,8 +124,8 @@ La tabella seguente contiene un elenco di dimensioni rinominate nel Generatore d
 | Nuovo nome della dimensione | Nome precedente | Note |
 |--- |--- |--- |
 | Tipi di sistemi operativi | Nuovo | Aggiunto nella primavera 2015. |
-| Larghezza browser - Bucket | Larghezza browser | Questa dimensione è compatibile con tutte le interfacce ed è suddivisa in un elenco enumerato di intervalli invece di valori interi specifici. Per segmentare valori specifici, utilizza la versione granulare di questa dimensione in un segmento di Data Warehouse. |
-| Altezza browser - Bucket | Altezza browser | Questa dimensione è compatibile con tutte le interfacce ed è suddivisa in un elenco enumerato di intervalli invece di valori interi specifici. Per segmentare valori specifici, utilizza la versione granulare di questa dimensione in un segmento di Data Warehouse. |
+| Larghezza browser - Bucket | Larghezza browser | Questa dimensione è compatibile con tutte le interfacce ed è suddivisa in un elenco enumerato di intervalli invece di valori interi specifici. Se devi segmentare valori specifici, utilizza la versione granulare di questa dimensione in un segmento Data Warehouse. |
+| Altezza browser - Bucket | Altezza browser | Questa dimensione è compatibile con tutte le interfacce ed è suddivisa in un elenco enumerato di intervalli invece di valori interi specifici. Se devi segmentare valori specifici, utilizza la versione granulare di questa dimensione in un segmento Data Warehouse. |
 | Larghezza browser - Granulare | Larghezza browser | Questa dimensione è stata rinominata ed è ora compatibile solo con Data Warehouse. Quando definisci i segmenti compatibili con tutte le interfacce, utilizza il tipo enumerato, Larghezza browser - Bucket. |
 | Altezza browser - Granulare | Altezza browser | Questa dimensione è stata rinominata ed è ora compatibile solo con Data Warehouse. Quando definisci i segmenti compatibili con tutte le interfacce, utilizza il tipo enumerato, Altezza browser - Bucket. |
 | Supporto per cookie | Cookie | - |
@@ -149,7 +149,7 @@ La tabella seguente contiene un elenco di dimensioni rinominate nel Generatore d
 
 ## Modifiche alle dimensioni basate su stringhe con valori noti {#string-based-dims}
 
-Le dimensioni basate su stringhe che hanno un set noto di valori sono state modificate in tipi enumerati. Quando crei un segmento utilizzando queste dimensioni, l’elenco viene precompilato con tutti i valori noti e l’unico operatore supportato è “uguale a”. Ciò consente di segmentare rapidamente i valori esatti desiderati senza selezionare altri valori quando utilizzi una corrispondenza meno restrittiva.
+Le dimensioni basate su stringhe che hanno un set noto di valori sono state modificate in tipi enumerati. Quando crei un segmento utilizzando queste dimensioni, l&#39;elenco viene precompilato con tutti i valori noti e l&#39;unico operatore supportato è **[!UICONTROL equals]**. Questa popolazione di valori consente di segmentare rapidamente i valori esatti desiderati senza selezionare valori non desiderati quando si utilizza una corrispondenza meno restrittiva.
 
 Le seguenti dimensioni sono state modificate in elenchi enumerati:
 
@@ -172,8 +172,8 @@ Le seguenti dimensioni sono state modificate in elenchi enumerati:
 
 ## Modifiche alle dimensioni basate su numeri interi con valori noti {#integer-based-dims}
 
-Le dimensioni basate su numeri interi (come la larghezza del browser) con un set di valori noto sono state suddivise in intervalli enumerati, in modo da poter definire rapidamente i segmenti per un intervallo specifico. Gli elenchi enumerati sono seguiti da “ - Bucket” dopo il nome della dimensione. La schermata seguente mostra il modo in cui queste dimensioni vengono segmentate utilizzando l’interfaccia precedente del Generatore di segmenti e l’interfaccia nuova:
+Le dimensioni basate su numeri interi (come la larghezza del browser) con un set di valori noto vengono suddivise in intervalli enumerati, in modo da poter definire rapidamente i segmenti per un intervallo specifico. Gli elenchi enumerati sono seguiti da “ - Bucket” dopo il nome della dimensione. La schermata seguente mostra il modo in cui queste dimensioni vengono segmentate utilizzando l’interfaccia precedente del Generatore di segmenti e l’interfaccia nuova:
 
 ![](assets/seg_browser_dimension.png)
 
-Gli operatori “minore di”, “maggiore di” e simili ora sono compatibili solo con i segmenti di Data Warehouse. I segmenti destinati ad essere compatibili con tutte le interfacce di reporting devono utilizzare la versione “Bucket” della metrica con l’operatore “uguale a”.
+Gli operatori “minore di”, “maggiore di” e simili ora sono compatibili solo con i segmenti di Data Warehouse. I segmenti destinati a essere compatibili con tutte le interfacce di reporting devono utilizzare la versione &quot;Bucket&quot; della metrica con l&#39;operatore **[!UICONTROL equals]**.

@@ -1,9 +1,9 @@
 ---
-description: Nel Gestore segmenti, assegnare tag ai segmenti ti consente di organizzarli.
-title: Assegnare tag ai segmenti
+description: Scopri come assegnare tag ai segmenti per organizzarli.
+title: Assegna tag a segmenti
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 5%

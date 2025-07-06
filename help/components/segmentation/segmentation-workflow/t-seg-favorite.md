@@ -1,12 +1,12 @@
 ---
-description: Contrassegnare i segmenti come preferiti è un altro modo per organizzarli in modo semplice e intuitivo.
-title: Contrassegnare i segmenti come preferiti
+description: Scopri come contrassegnare i segmenti come preferiti, per facilitarne l’utilizzo.
+title: Contrassegnare I Segmenti Come Preferiti
 feature: Segmentation
 exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 23%
+source-wordcount: '95'
+ht-degree: 0%
 
 ---
 

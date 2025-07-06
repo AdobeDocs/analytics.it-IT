@@ -1,12 +1,12 @@
 ---
-description: Scopri come identificare le anomalie statistiche con le tecniche di rilevamento delle anomalie.
+description: Scopri quali tecniche statistiche vengono utilizzate per identificare le anomalie.
 title: Tecniche Di Statistica Utilizzate Nel Rilevamento Delle Anomalie
 feature: Anomaly Detection
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1079'
 ht-degree: 70%
 
 ---

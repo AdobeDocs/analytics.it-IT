@@ -1,13 +1,13 @@
 ---
-description: Domande frequenti su Workspace
+description: Trova le risposte alle domande più frequenti su Analysis Workspace.
 title: Domande frequenti
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 81%
+source-wordcount: '551'
+ht-degree: 80%
 
 ---
 
@@ -45,7 +45,7 @@ Consulta [Ottimizzazione delle prestazioni](/help/analyze/analysis-workspace/wor
 
 +++Come entrano i dati nel progetto Analysis Workspace?
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dati in Analysis Workspace](https://video.tv.adobe.com/v/35894?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dati in Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 +++
 

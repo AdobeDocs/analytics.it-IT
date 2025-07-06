@@ -1,12 +1,12 @@
 ---
-description: All’interno del Gestore segmenti puoi impostare un flusso di lavoro che includa l’approvazione dei segmenti per vari livelli di applicazione, per reparti o gruppi specifici e in linea con le policy di reporting.
-title: Approvare i segmenti
+description: Scopri come puoi approvare i segmenti come amministratore.
+title: Approvare segmenti
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 3%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
@@ -25,4 +25,4 @@ Per annullare l’approvazione dei segmenti:
 1. Dalla barra delle azioni, selezionare ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Unapprove]**.
 
 
-Puoi segmentare l’elenco dei segmenti per segmenti approvati. Selezionare **[!UICONTROL Other segments]** dal pannello ![Segmento](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** e selezionare **[!UICONTROL Approved]**. Per ulteriori informazioni, consulta [Segmentare l&#39;elenco dei segmenti](t-seg-filter.md).
+Puoi segmentare l’elenco dei segmenti per segmenti approvati. Selezionare **[!UICONTROL Other segments]** dal pannello ![Segmento](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** e selezionare **[!UICONTROL Approved]**. Vedi [Filtra l&#39;elenco dei segmenti](t-seg-filter.md) per ulteriori informazioni.

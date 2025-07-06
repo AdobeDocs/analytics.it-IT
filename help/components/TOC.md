@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 93%
+source-wordcount: '759'
+ht-degree: 91%
 
 ---
 
@@ -194,7 +194,7 @@ ht-degree: 93%
       + [Eliminare segmenti](segmentation/segmentation-workflow/seg-delete.md)
       + [Copiare segmenti](segmentation/segmentation-workflow/seg-copy.md)
       + [Gestire i segmenti](segmentation/segmentation-workflow/seg-manage.md)
-      + [Pubblicare segmenti in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Pubblicare segmenti](segmentation/segmentation-workflow/seg-publish.md)
       + [Utilizzare i segmenti](segmentation/segmentation-workflow/t-seg-apply.md)
    + Riferimenti {#segment-reference}
       + [Operatori](segmentation/seg-reference/seg-operators.md)
@@ -210,10 +210,10 @@ ht-degree: 93%
       + [Creare metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Trovare metriche](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Generare metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Una metrica calcolata semplice](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Una metrica calcolata più complessa](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Creare una metrica di partecipazione](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Un semplice esempio](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Un esempio più complesso](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Tipo di metrica e attribuzione](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [Metriche di partecipazione](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Metriche segmentate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Sovrapponi e sostituisci segmenti](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Metriche filtrate e ponderate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)

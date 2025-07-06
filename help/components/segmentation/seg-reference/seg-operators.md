@@ -1,22 +1,22 @@
 ---
-description: Il Generatore di segmenti consente di confrontare e vincolare i valori utilizzando gli operatori selezionati.
-title: Operatori di confronto per i segmenti
+description: Scopri come utilizzare gli operatori nel generatore di segmenti per confrontare e vincolare i valori.
+title: Operatori
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 41%
+source-wordcount: '1054'
+ht-degree: 40%
 
 ---
 
 # Operatori di confronto per i segmenti
 
-Il Generatore di segmenti consente di confrontare e vincolare i valori utilizzando gli operatori selezionati. Esistono tre categorie di operatori: Standard, Data Warehouse e Conteggio valori univoci.
+Il Generatore di segmenti consente di confrontare e vincolare i valori utilizzando gli operatori selezionati. Sono disponibili tre categorie di operatori: [Standard](#standard-operators), [Data Warehouse](#data-warehouse-operators) e [Conteggio valori univoci](#distinct-count-operators).
 
 A seconda dell’operatore selezionato:
 
-* È possibile immettere un valore
+* È possibile immettere un valore.
 * È possibile immettere parte di un valore e selezionare da un menu a discesa (se disponibile).
 * Seleziona immediatamente un valore dal menu a discesa (se disponibile).
 
@@ -46,7 +46,7 @@ Ad esempio, hai un nome di pagina denominato *My cool product*.
 | **[!UICONTROL contains all of]** | Restituisce gli elementi confrontati con le sottostringhe, compresi più valori uniti tra loro. Ad esempio, l&#39;immissione di `Search Results` con questo operatore per la dimensione **[!UICONTROL Page Name]** corrisponde a *Risultati ricerca* e *Risultati ricerca*, ma non a *Ricerca* o *Risultati* singolarmente. La regola corrisponderebbe a *Ricerca* E *Risultati* trovati insieme. Il campo di input per questo operatore è delimitato da spazi (100 parole). |
 | **[!UICONTROL does not contain all of]** | Identifica gli elementi confrontati con le sottostringhe, compresi più valori uniti tra loro, e restituisce solo gli elementi senza questi valori. Ad esempio, l&#39;immissione di `Search Results` con questo operatore per la dimensione **[!UICONTROL Page Name]** identificherebbe *Risultati ricerca* e *Risultati ricerca* (ma non *Ricerca* o *Risultati* singolarmente) e quindi escluderebbe questi elementi. Il campo di input per questo operatore è delimitato da spazi (100 parole). |
 | **[!UICONTROL contains any of]** | Restituisce gli elementi confrontati con le sottostringhe, compresi più valori uniti o identificati in modo indipendente. Ad esempio, l&#39;immissione di `Search Results` con questo operatore corrisponde a *Risultati ricerca*, *Risultati ricerca*, *Ricerca* e *Risultati*. Corrisponderebbe a *Ricerca* O *Risultati* trovati insieme o in modo indipendente. Il campo di input per questo operatore è delimitato da spazi (100 parole). |
-| **[!UICONTROL does not contain any of]** | Identifica gli elementi in base alle sottostringhe e restituisce valori che non contengono tali sottostringhe. Può avere più valori uniti o valori identificati in modo indipendente. Ad esempio, l&#39;immissione di `Search Results` per la dimensione **[!UICONTROL Page Name]** corrisponderebbe a *Risultati ricerca* s, *Risultati ricerca* h*, *Ricerca* e *Risultati* in cui *Ricerca* o *Risultato* vengono trovati insieme o in modo indipendente. Gli elementi che contengono tali sottostringhe vengono poi esclusi. Il campo di input per questo operatore è delimitato da spazi (100 parole). |
+| **[!UICONTROL does not contain any of]** | Identifica gli elementi in base alle sottostringhe e restituisce valori che non contengono tali sottostringhe. Può avere più valori uniti o valori identificati in modo indipendente. Ad esempio, l&#39;immissione di `Search Results` per la dimensione **[!UICONTROL Page Name]** corrisponderebbe a *Risultati ricerca* s, *Risultati ricerca*, *Ricerca* e *Risultati* in cui *Ricerca* o *Risultato* vengono trovati insieme o in modo indipendente. Gli elementi che contengono tali sottostringhe vengono poi esclusi. Il campo di input per questo operatore è delimitato da spazi (100 parole). |
 | **[!UICONTROL starts with]** | Restituisce elementi che iniziano con il valore stringa inserito. |
 | **[!UICONTROL does not start with]** | Restituisce tutti gli elementi che non iniziano con il valore stringa inserito. Si tratta dell&#39;inverso dell&#39;operatore **[!UICONTROL starts with]**. |
 | **[!UICONTROL ends with]** | Restituisce elementi che terminano con il valore stringa immesso. |

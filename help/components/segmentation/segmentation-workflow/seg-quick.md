@@ -1,10 +1,10 @@
 ---
-description: Utilizzare i segmenti rapidi in Analysis Workspace for Adobe Analytics
+description: Scopri come utilizzare i segmenti rapidi in Analysis Workspace.
 title: Segmenti rapidi
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 21%
@@ -20,7 +20,7 @@ I segmenti rapidi consentono di esplorare rapidamente i dati all&#39;interno di 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://video.tv.adobe.com/v/345338/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
