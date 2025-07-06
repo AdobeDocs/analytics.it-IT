@@ -1,16 +1,16 @@
 ---
-description: Il Generatore di segmenti fornisce un’area di lavoro per trascinare e rilasciare dimensioni di metrica, segmenti ed eventi per segmentare i visitatori in base alla logica gerarchica dei contenitori, alle regole e agli operatori. Questo strumento di sviluppo integrato consente di creare e salvare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori in visite e hit pagina.
-title: Generare i segmenti
+description: Scopri come creare segmenti utilizzando il trascinamento della selezione di metriche, dimensioni, segmenti ed eventi. Scopri come creare e salvare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori in visite e hit pagina.
+title: Creare segmenti
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 38%
+source-wordcount: '1743'
+ht-degree: 41%
 
 ---
 
-# Generatore di segmenti {#segment-builder}
+# Generare i segmenti {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
@@ -25,7 +25,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Anteprima dati"
->abstract="Confronta i dati di questo segmento con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale della visualizzazione dati a partire dagli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
+>abstract="Confronta i dati di questo segmento con i dati della suite di rapporti. La percentuale di anteprima è basata sul numero totale degli ultimi **90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
 
 
 La finestra di dialogo **[!UICONTROL Segment builder]** viene utilizzata per creare nuovi segmenti o modificare quelli esistenti. La finestra di dialogo si chiama **[!UICONTROL New segment]** o **[!UICONTROL Edit segment]** per i segmenti creati o gestiti dal gestore [[!UICONTROL Segment]](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -47,7 +47,7 @@ La finestra di dialogo **[!UICONTROL Segment builder]** viene utilizzata per cre
    | Elemento | Descrizione |
    | --- | --- |
    | **[!UICONTROL Report suite]** | Puoi selezionare la suite di rapporti per il segmento. |
-   | **[!UICONTROL Project-only segment]** | Una casella di informazioni per spiegare che il segmento è visibile solo nel progetto in cui viene creato e che non verrà aggiunto all’elenco dei componenti. Consenti a **[!UICONTROL Make this segment available to all your projects and add it to your component list]** di modificare tale impostazione. Questa casella di informazioni è visibile solo quando si crea un [segmento rapido](seg-quick.md) e si trasforma le informazioni del segmento rapido in un segmento normale utilizzando **[!UICONTROL Open builder]** dall&#39;interfaccia [!UICONTROL Quick segment]. |
+   | **[!UICONTROL Project-only segment]** | Una casella di informazioni per spiegare che il segmento è visibile solo nel progetto in cui viene creato. e che il segmento non viene aggiunto all&#39;elenco dei componenti. Consenti a **[!UICONTROL Make this segment available to all your projects and add it to your component list]** di modificare tale impostazione. Questa casella di informazioni è visibile solo quando si crea un [segmento rapido](seg-quick.md) e si trasforma le informazioni del segmento rapido in un segmento normale utilizzando **[!UICONTROL Open builder]** dall&#39;interfaccia [!UICONTROL Quick segment]. |
    | **[!UICONTROL Title]** ![Obbligatorio](/help/assets/icons/Required.svg) | Denomina il segmento, ad esempio `Last month mobile visitors`. |
    | **[!UICONTROL Description]** | Fornire una descrizione per il segmento, ad esempio `Segment to define the mobile customers for the last month`. |
    | **[!UICONTROL Tags]** | Organizza il segmento creando o applicando uno o più tag. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL ENTER]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -362,9 +362,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## Modelli di segmento {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Sono forniti modelli di segmenti per casi di utilizzo di segmentazione comuni, ad esempio &quot;Prime visite&quot; o &quot;Visite da dispositivi mobili&quot;. Sono disponibili nei progetti Workspace e nel generatore di segmenti come blocchi predefiniti per i nuovi segmenti.
+I modelli di segmento vengono forniti per i casi d&#39;uso comuni di segmentazione, ad esempio **[!UICONTROL First-time Visits]** o **[!UICONTROL Visits from Mobile Devices]**. Sono disponibili nei progetti Workspace e nel generatore di segmenti come blocchi predefiniti per i nuovi segmenti.
 
-I modelli sono identificati dal logo Adobe &quot;A&quot;. Di seguito è riportato un esempio di modelli:
+Un logo Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifica i modelli. Di seguito è riportato un esempio dei modelli disponibili:
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -376,75 +376,79 @@ I modelli sono identificati dal logo Adobe &quot;A&quot;. Di seguito è riportat
  <tbody> 
   <tr> 
    <td colname="col1"> Abbandona carrello </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che hanno aggiunto elementi ai loro carrelli ma non hanno ordinato nulla. Nella definizione del segmento, il contenitore è Visita. La regola per questo segmento sequenziale è <p> Aggiunte carrello non è nullo </p> <p>Then </p> <p>Ordini è uguale a 0. </p> </td> 
+   <td colname="col2">Visualizza i dati per i visitatori che hanno aggiunto elementi ai loro carrelli ma non hanno ordinato nulla. Nella definizione del segmento, il contenitore è Visita. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Prime visite </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che hanno visitato un massimo di una [1] volte. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Il numero di visite è uguale a 1. </p> </td> 
+   <td colname="col2">Visualizza i dati per i visitatori che hanno visitato un massimo di una [1] volte. Nella definizione del segmento, il contenitore è Visita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Non acquirenti </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che non hanno partecipato a un evento di ordine. Nella definizione del segmento, il contenitore è Visitatore. Questo segmento utilizza la logica Exclude. La regola è <p>Ordini non nulli. </p> </td> 
+   <td colname="col2">Visualizza i dati per i visitatori che non hanno partecipato a un evento di ordine. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visita non a pagina singola (non rimbalzate) </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che hanno visitato più di una volta. Nella definizione del segmento, il contenitore è Visitatore. Questo segmento utilizza la logica Exclude. La regola è <p>L'accesso singolo non è nullo. </p> </td> 
+   <td colname="col1"> Visite non a pagina singola (non rimbalzate) </td> 
+   <td colname="col2">Visualizza i dati per i visitatori che hanno visitato più di una volta.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ricerca a pagamento </td> 
-   <td colname="col2">Visualizzare i dati dei visitatori provenienti da una ricerca a pagamento. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Ricerca a pagamento è uguale a 1. </p> </td> 
+   <td colname="col2">Visualizzare i dati dei visitatori provenienti da una ricerca a pagamento.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Acquirenti </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che hanno partecipato a un evento di ordine. Nella definizione del segmento, il contenitore è Visitatore. La regola è <p>Ordini non nulli. </p> </td> 
+   <td colname="col2">Visualizza i dati per i visitatori che hanno partecipato a un evento di ordine.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite di ritorno </td> 
-   <td colname="col2">Visualizza i dati dei visitatori che hanno visitato almeno una volta. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Il numero di visite è maggiore di 1. </p> </td> 
+   <td colname="col2">Visualizza i dati dei visitatori che hanno visitato almeno una volta.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite a pagina singola </td> 
-   <td colname="col2"> Visualizzare i dati delle visite in cui viene visualizzato il valore di una singola pagina, anche se durante tale visita è possibile inviare più visualizzazioni di pagina. Le visite a pagina singola con eventi di collegamento di uscita sono incluse nel segmento. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Visite a pagina singola è uguale a 1. </p> </td> 
+   <td colname="col2"> Visualizzare i dati delle visite in cui viene visualizzato il valore di una singola pagina, anche se durante tale visita è possibile inviare più visualizzazioni di pagina. Le visite a pagina singola con eventi di collegamento di uscita sono incluse nel segmento.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Il prodotto visualizzato non è stato aggiunto al carrello </td> 
-   <td colname="col2">Visualizza i dati per i visitatori che hanno visualizzato i prodotti ma senza aggiunte al carrello. Nella definizione del segmento, il contenitore è Visita. La regola per questo segmento sequenziale è <p>Visualizzazioni prodotto non nulle </p> <p>Then </p> <p> Aggiunte al carrello è uguale a 0. </p> </td> 
+   <td colname="col2">Visualizza i dati per i visitatori che hanno visualizzato i prodotti ma senza aggiunte al carrello.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite da Campaign </td> 
-   <td colname="col2">Visualizza i dati dei visitatori a cui fanno riferimento le campagne. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Il codice di tracciamento non è nullo. </p> </td> 
+   <td colname="col2">Visualizza i dati dei visitatori a cui fanno riferimento le campagne. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite da dispositivi mobili </td> 
-   <td colname="col2">Visualizza i dati dei visitatori tramite dispositivi mobili. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Il dispositivo mobile non è nullo. </p> </td> 
+   <td colname="col2">Visualizza i dati dei visitatori tramite dispositivi mobili. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite da ricerca naturale </td> 
-   <td colname="col2">Visualizzare i dati dei visitatori che non provengono da una ricerca a pagamento. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Ricerca a pagamento è uguale a 0. </p> </td> 
+   <td colname="col2">Visualizzare i dati dei visitatori che non provengono da una ricerca a pagamento.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite da dispositivi non mobili </td> 
-   <td colname="col2">Visualizza i dati dei visitatori che non utilizzano dispositivi mobili. Nella definizione del segmento, il contenitore è Visita. Questo segmento utilizza la logica Exclude. La regola è <p>Tipo di dispositivo mobile è uguale a Telefono cellulare </p> <p>Oppure </p> <p>Tipo di dispositivo mobile è uguale a Tablet. </p> </td> 
+   <td colname="col2">Visualizza i dati dei visitatori che non utilizzano dispositivi mobili. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite dai telefoni </td> 
-   <td colname="col2">Visualizza i dati dei visitatori tramite telefono. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Tipo di dispositivo è uguale a Telefono cellulare. </p> </td> 
+   <td colname="col2">Visualizza i dati dei visitatori tramite telefono.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite dai motori di ricerca </td> 
-   <td colname="col2">Visualizza i dati dei visitatori a cui fanno riferimento i motori di ricerca. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Tipo referrer è uguale a Motori di ricerca. </p> </td> 
+   <td colname="col2">Visualizza i dati dei visitatori a cui fanno riferimento i motori di ricerca.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite dai siti social </td> 
-   <td colname="col2">Visualizza i dati dei visitatori a cui fanno riferimento i siti di social networking. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Tipo di referrer è uguale a Social network. </p> </td> 
+   <td colname="col2">Visualizza i dati dei visitatori a cui fanno riferimento i siti di social networking.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite da tablet </td> 
-   <td colname="col2">Visualizza i dati dei visitatori utilizzando le tavolette. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Tipo di dispositivo è uguale a Tablet. </p> </td> 
+   <td colname="col2">Visualizza i dati dei visitatori utilizzando le tavolette.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visite con il cookie ID visitatore </td> 
-   <td colname="col2">Visualizza i dati dai visitatori al tuo sito, dove è richiesto un cookie persistente. Nella definizione del segmento, il contenitore è Visita. La regola è <p>Il cookie persistente è uguale a 1. </p> </td> 
+   <td colname="col2">Visualizza i dati dai visitatori al tuo sito, dove è richiesto un cookie persistente.</td> 
   </tr> 
  </tbody> 
 </table>
+
+Per visualizzare la definizione di ciascun segmento, utilizzare ![InfoOutline](/help/assets/icons/InfoOutline.svg). Ad esempio, per il modello **[!UICONTROL iOS]**:
+
+![Definizione per il segmento del modello Adobe](assets/adobe-template-definition.png)
