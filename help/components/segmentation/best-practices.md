@@ -16,7 +16,7 @@ I segmenti complessi sono spesso necessari per ottenere i dati desiderati. Se i 
 
 ## Utilizza l&#39;operatore `Contains` solo come ultima risorsa
 
-L&#39;operatore [**[!UICONTROL Contains]**](/help/components/segmentation/seg-reference/seg-operators.md) è una delle funzionalità di elaborazione più complesse della segmentazione, in quanto l&#39;operatore deve analizzare l&#39;intero contenuto di ogni valore. Prendere in considerazione l&#39;utilizzo di altri operatori come **[!UICONTROL Starts with]**o **[!UICONTROL Ends with]**se i valori desiderati si trovano all&#39;inizio o alla fine di una stringa.
+L&#39;operatore [**[!UICONTROL Contains]**](/help/components/segmentation/seg-reference/seg-operators.md) è una delle funzionalità di elaborazione più complesse della segmentazione, in quanto l&#39;operatore deve analizzare l&#39;intero contenuto di ogni valore. Prendere in considerazione l&#39;utilizzo di altri operatori come **[!UICONTROL Starts with]**&#x200B;o **[!UICONTROL Ends with]**&#x200B;se i valori desiderati si trovano all&#39;inizio o alla fine di una stringa.
 
 Se un operatore **[!UICONTROL Contains]** in un segmento restituisce un numero elevato di risultati, in genere si verifica un timeout del rapporto. Ad esempio, se hai creato un segmento in cui **[!UICONTROL Referrer]** **[!UICONTROL equals]** `"."`, il segmento esegue ricerche nel contenuto di ogni valore. Valuta l&#39;utilizzo dell&#39;operatore **[!UICONTROL Exists]**.
 
