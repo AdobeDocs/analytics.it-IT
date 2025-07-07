@@ -3,7 +3,7 @@ description: Scopri come creare avvisi in Analysis Workspace.
 title: Creare avvisi
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: 7945499ab49b488985ff70956c0ee0cd521b1421
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 55%
@@ -31,7 +31,7 @@ Per informazioni più dettagliate sugli avvisi, vedere [Panoramica avvisi](intel
 
 Per creare un avviso:
 
-1. Per creare un avviso, utilizza uno dei modi seguenti.:
+1. Per creare un avviso, utilizza uno dei modi seguenti:
 
    * Apri un progetto in Analysis Workspace, quindi seleziona **[!UICONTROL Components]** > **[!UICONTROL Create alert]**.
    * Apri un progetto in Analysis Workspace, quindi utilizza la seguente scelta rapida: ***cmd + maiusc + a*** (macOS) o ***ctrl + maiusc + a*** (Windows).
