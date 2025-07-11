@@ -6,7 +6,7 @@ exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 source-git-commit: 7945499ab49b488985ff70956c0ee0cd521b1421
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="components_alerts_timegranularity"
 >title="Granularità temporale"
->abstract="Per granularità temporale si intende la frequenza con cui viene controllato l’avviso."
+>abstract="La granularità temporale si riferisce alla frequenza con cui viene controllato l’avviso."
 
 <!-- markdownlint-enable MD034 -->
 

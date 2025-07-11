@@ -18,7 +18,7 @@ Puoi gestire le impostazioni di Analysis Workspace e dei relativi componenti per
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire le preferenze](https://video.tv.adobe.com/v/3429995/?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire le preferenze](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -101,12 +101,12 @@ Fai clic sui titoli delle preferenze collegati per ulteriori informazioni e cont
 | Sezione | Preferenza | Opzioni |
 | --- | --- | --- |
 | **Visualizzazione** | | |
-|  | [Densità di visualizzazione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Scegli il contenuto da visualizzare sullo schermo riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle coorte. <ul><li>Compatta</li><li>Comoda</li><li>Espansa (impostazione predefinita)</li></ul> |
+|  | [Densità di visualizzazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Scegli il contenuto da visualizzare sullo schermo riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle coorte. <ul><li>Compatta</li><li>Comoda</li><li>Espansa (impostazione predefinita)</li></ul> |
 | | [Tavolozza dei colori](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palette) | Scegli le palette di colori di visualizzazione utilizzate in Analysis Workspace.<ul><li>**Palette per categorie**: applicata a molte visualizzazioni in Analysis Workspace. Ogni colore rappresenta un valore di categoria distinto. Scegli tra le opzioni fornite da Adobe o immetti una palette personalizzata definita da valori esadecimali delimitati da virgole.</li><li>**Palette divergente**: applicata alla tabella coorte in Analysis Workspace. Questa palette contiene un significato numerico con due estremi e una linea di base al centro.</li><li>**Palette sequenziale**: applicata all’analisi guidata delle tendenze di frequenza (barre sovrapposte). Questa palette contiene un significato numerico che va dal chiaro allo scuro.</li></ul> |
 | **Dati** | | |
-|  | [Suite di rapporti](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/panels) | Scegli da dove le tabelle e le visualizzazioni derivano i propri dati. <ul><li>Più recente (impostazione predefinita)</li><li>Suite di rapporti specifica selezionata da un elenco</li></ul> |
-|  | [Calendario](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/panels) | Seleziona da un elenco di: <ul><li>Intervalli forniti da Adobe (l’impostazione predefinita è Questo mese)</li><li>Intervalli definiti personalizzati</li></ul> |
-|  | [Tipo di pannello](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/panels) | <ul><li>A forma libera (impostazione predefinita)</li><li>Vuoto</li><li>Quick Insights</li></ul> |
+|  | [Suite di rapporti](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | Scegli da dove le tabelle e le visualizzazioni derivano i propri dati. <ul><li>Più recente (impostazione predefinita)</li><li>Suite di rapporti specifica selezionata da un elenco</li></ul> |
+|  | [Calendario](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | Seleziona da un elenco di: <ul><li>Intervalli forniti da Adobe (l’impostazione predefinita è Questo mese)</li><li>Intervalli definiti personalizzati</li></ul> |
+|  | [Tipo di pannello](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | <ul><li>A forma libera (impostazione predefinita)</li><li>Vuoto</li><li>Quick Insights</li></ul> |
 |  | Conta istanze ripetute | Consente di specificare se conteggiare o meno, per i rapporti, le istanze ripetute. Ad esempio, questa impostazione (se attivata) tratta più visualizzazioni consecutive della stessa pagina come molteplici visualizzazioni di pagina. Con questa opzione, vengono conteggiate come singole visualizzazioni di pagina. <p>**Nota:** questa impostazione ha effetto solo su determinate metriche (ad esempio Visite per pagina singola) e non sulle visualizzazioni Flusso o Fallout.</p> |
 |  | Formato dei numeri | <ul><li>1.000,00 (impsotazione predefinita)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Carattere separatore CSV | <ul><li>Virgola (impostazione predefinita)</li><li>Punto e virgola</li><li>Due punti</li><li>Barra verticale</li><li>Punto</li><li>Spazio</li><li>Scheda</li></ul> |

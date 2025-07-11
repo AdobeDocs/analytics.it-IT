@@ -6,7 +6,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
 workflow-type: tm+mt
 source-wordcount: '1743'
-ht-degree: 41%
+ht-degree: 43%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Anteprima dati"
->abstract="Confronta i dati di questo segmento con i dati della suite di rapporti. La percentuale di anteprima è basata sul numero totale degli ultimi **90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
+>abstract="Confronta i dati di questo segmento con i dati della suite di rapporti. La percentuale di anteprima è basata sul numero totale a partire dagli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
 
 
 La finestra di dialogo **[!UICONTROL Segment builder]** viene utilizzata per creare nuovi segmenti o modificare quelli esistenti. La finestra di dialogo si chiama **[!UICONTROL New segment]** o **[!UICONTROL Edit segment]** per i segmenti creati o gestiti dal gestore [[!UICONTROL Segment]](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
