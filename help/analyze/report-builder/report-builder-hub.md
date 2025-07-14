@@ -1,15 +1,15 @@
 ---
-title: Cos’è l’hub di Report Builder in Adobe Analytics
+title: Cos’è l’hub Report Builder in Adobe Analytics
 description: Descrive i componenti dell’hub Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: d3d74042f6c282db490483393f4b58cddd6b1525
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 48%
+source-wordcount: '485'
+ht-degree: 51%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 48%
 
 Utilizza l’hub Report Builder per creare, aggiornare, eliminare e gestire i blocchi di dati.
 
-L&#39;hub di Report Builder contiene i pulsanti Crea, Gestisci e Pianifica, il pannello COMANDI e il pannello QUICK EDIT (MODIFICA RAPIDA).
+L&#39;hub Report Builder contiene i pulsanti Crea, Gestisci e Pianifica, il pannello COMANDI e il pannello QUICK EDIT (MODIFICA RAPIDA).
 
 <img src="./assets/hub51.png" alt="Hub Report Builder"/>
 
@@ -25,10 +25,6 @@ L&#39;hub di Report Builder contiene i pulsanti Crea, Gestisci e Pianifica, il p
 ## Pulsanti Crea, Gestisci e Pianifica
 
 Utilizza i pulsanti Crea, Gestisci e Pianifica per creare nuovi blocchi di dati, gestire quelli esistenti o pianificare blocchi di dati.
-
->[!NOTE]
->
->La pianificazione della cartella di lavoro per questa versione del Report Builder su Adobe Analytics non è ancora stata rilasciata, ma sarà disponibile all’inizio del 2025. È ora possibile iniziare a utilizzare le cartelle di lavoro che non richiedono la pianificazione.
 
 ## Pannello COMANDI
 
@@ -50,7 +46,7 @@ Utilizza il pannello COMANDI per accedere ai comandi compatibili con le celle se
 
 Quando selezioni uno o più blocchi di dati in un foglio di calcolo, in Report Builder viene visualizzato il pannello QUICK EDIT (MODIFICA RAPIDA). Puoi utilizzarlo per modificare i parametri in un singolo blocco di dati o per modificare i parametri in più blocchi di dati contemporaneamente.
 
-![Pannello Quick Edit (Modifica rapida) nel Report Builder](./assets/hub2.png)
+![Pannello Modifica rapida in Report Builder](./assets/hub2.png)
 
 Le modifiche apportate utilizzando le sezioni di Quick Edit (Modifica rapida) si applicano a tutti i blocchi di dati selezionati.
 
@@ -62,7 +58,7 @@ Quando modifichi la suite di rapporti, tutti i blocchi di dati nella selezione a
 
 Per modificare la suite di rapporti, seleziona una nuova suite di rapporti dal menu a discesa.
 
-![Hub di Report Builder che mostra il menu a discesa della suite di rapporti.](./assets/image16.png)
+![L&#39;hub Report Builder visualizza il menu a discesa della suite di rapporti.](./assets/image16.png)
 
 ### Intervallo date
 
