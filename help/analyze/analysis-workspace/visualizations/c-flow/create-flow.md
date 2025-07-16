@@ -4,10 +4,10 @@ title: Configurare Una Visualizzazione Di Flusso
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 44%
+source-wordcount: '1572'
+ht-degree: 42%
 
 ---
 
@@ -140,6 +140,8 @@ Per approfondire ulteriormente i dati, hai a disposizione diverse opzioni:
 
 * Quando selezioni un nodo nel diagramma, vengono visualizzati i dettagli per tale nodo. Seleziona nuovamente il nodo per comprimerlo.
 
+  Lasciare più nodi espansi in una visualizzazione di flusso può influire sul tempo di reporting. Come linea guida generale, non più di 10 nodi devono rimanere espansi in un dato momento.
+
   ![Esempio di diagramma di flusso interattivo che mostra i dettagli del nodo.](assets/node-details.png)
 
 * Puoi filtrare una colonna per visualizzare solo alcuni risultati, ad esempio puoi includere ed escludere, specificare criteri, ecc.
@@ -173,7 +175,7 @@ Utilizza un menu contestuale su qualsiasi nodo della visualizzazione del flusso 
 | **[!UICONTROL Exclude item]** o **[!UICONTROL Restore excluded items]** | Rimuove un nodo specifico dalla colonna e lo crea automaticamente come filtro nella parte superiore della colonna. Per ripristinare l&#39;elemento escluso, dal menu di scelta rapida selezionare **[!UICONTROL Restore Excluded Item]**. Puoi anche aprire il filtro nella parte superiore della colonna e rimuovere la casella con l’elemento appena escluso. |
 | **[!UICONTROL Trend]** | Crea un diagramma di tendenza per il nodo. |
 | **[!UICONTROL Show next column]** / **[!UICONTROL Show previous column]** | Mostra la colonna successiva (destra) o precedente (sinistra) della visualizzazione. |
-| **[!UICONTROL Hide colum]**&#x200B;n | Nasconde la colonna selezionata dalla visualizzazione. |
+| **[!UICONTROL Hide colum]**n | Nasconde la colonna selezionata dalla visualizzazione. |
 | **[!UICONTROL Expand entire column]** | Espande una colonna per mostrare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |
 | **[!UICONTROL Create audience from selection]** | Crea un pubblico in base alla colonna selezionata. |
 | **[!UICONTROL Collapse entire column]** | Nasconde tutti i nodi di una colonna. |
@@ -202,8 +204,8 @@ Nell&#39;esempio seguente sono incluse **tutte** le occorrenze di *categoria pri
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 
