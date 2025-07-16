@@ -67,4 +67,4 @@ Quando crei o modifichi regole di elaborazione, prendi in considerazione quanto 
 
 >[!MORELIKETHIS]
 >
->![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mappa le variabili di dati di contesto in prop ed eVar con regole di elaborazione](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
+>![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mappa le variabili di dati di contesto in prop ed eVar con regole di elaborazione](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
