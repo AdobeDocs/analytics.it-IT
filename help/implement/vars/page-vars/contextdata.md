@@ -4,7 +4,7 @@ description: Le variabili di dati di contesto ti consentono di definire variabil
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 3%
@@ -13,13 +13,13 @@ ht-degree: 3%
 
 # contextData
 
-Le variabili di dati di contesto ti consentono di definire variabili personalizzate in ogni pagina leggibile dalle regole di elaborazione. Invece di assegnare esplicitamente i valori alle variabili di Analytics nel codice, puoi inviare dati in variabili di dati di contesto. Le regole di elaborazione accettano quindi i valori delle variabili di dati di contesto e li trasmettono alle rispettive variabili di Analytics. Consulta [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) nella Guida utente di amministrazione.
+Le variabili di dati di contesto ti consentono di definire variabili personalizzate in ogni pagina leggibile dalle regole di elaborazione. Invece di assegnare esplicitamente i valori alle variabili di Analytics nel codice, puoi inviare dati in variabili di dati di contesto. Le regole di elaborazione accettano quindi i valori delle variabili di dati di contesto e li trasmettono alle rispettive variabili di Analytics. Consulta [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) nella Guida utente di amministrazione.
 
 Le variabili di dati contestuali sono utili ai team di sviluppo per raccogliere dati in elementi denominati anziché in variabili numerate. Ad esempio, invece di richiedere ai team di sviluppo di assegnare l&#39;autore della pagina a `eVar10`, puoi richiedere loro di assegnarlo a `s.contextData["author"]`. Un amministratore di Analytics della tua organizzazione può quindi creare regole di elaborazione per mappare le variabili di dati di contesto in variabili di Analytics a scopo di reporting. In ultima analisi, i team di sviluppo si preoccuperebbero solo delle variabili di dati di contesto anziché delle numerose variabili di pagina offerte da Adobe.
 
 ## Variabili di dati di contesto tramite Web SDK
 
-Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), tutti i campi non mappati a una variabile Adobe Analytics vengono inclusi automaticamente come variabile di dati di contesto. Puoi anche impostare esplicitamente i dati contestuali utilizzando l’oggetto XDM. Puoi quindi utilizzare [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) per assegnare la variabile di dati di contesto alla variabile di Analytics desiderata.  Per ulteriori informazioni, vedi [Mappatura di altri campi XDM su variabili Analytics](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables).
+Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), tutti i campi non mappati a una variabile Adobe Analytics vengono inclusi automaticamente come variabile di dati di contesto. Puoi anche impostare esplicitamente i dati contestuali utilizzando l’oggetto XDM. Puoi quindi utilizzare [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) per assegnare la variabile di dati di contesto alla variabile di Analytics desiderata.  Per ulteriori informazioni, vedi [Mappatura di altri campi XDM su variabili Analytics](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables).
 
 Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), tutte le variabili di dati di contesto si trovano all&#39;interno di `data.__adobe.analytics.contextData` come coppie chiave-valore:
 
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-L&#39;interfaccia delle [regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) mostrerebbe `example_variable` e `second_example` nei menu a discesa applicabili.
+L&#39;interfaccia delle [regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) mostrerebbe `example_variable` e `second_example` nei menu a discesa applicabili.
 
 ## Variabili di dati di contesto tramite l’estensione Adobe Analytics
 

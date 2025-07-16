@@ -3,7 +3,7 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '2579'
 ht-degree: 89%
@@ -45,7 +45,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Collegamento personalizzato:** tipo di hit che contiene dati non di visualizzazione pagina. Consulta la [funzione s.tl()](../implement/vars/functions/tl-method.md) nella Guida utente per l’implementazione. Consulta anche gli hit.
 * **Attributi del cliente:** funzione di Experience Cloud che consente di caricare i dati degli attributi. Consulta gli [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it) nella Guida utente per i servizi core.
 * **Server di raccolta dati:** server di proprietà di Adobe che ricevono ed elaborano dati. Le richieste di immagini vengono inviate ai server di raccolta dati di Adobe per l’utilizzo nei rapporti.
-* **Connettori dati:** una soluzione di sviluppo ritirata che consente a terzi di automatizzare il caricamento di dati in Adobe Analytics. I clienti di tali terze parti possono utilizzare un connettore dati per arricchire i propri dati in Adobe Analytics. Sostituzione con [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE).
+* **Connettori dati:** una soluzione di sviluppo ritirata che consente a terzi di automatizzare il caricamento di dati in Adobe Analytics. I clienti di tali terze parti possono utilizzare un connettore dati per arricchire i propri dati in Adobe Analytics. Sostituzione con [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
 * **Feed di dati:** un’esportazione di dati non elaborati che elenca ogni hit come riga e le variabili come colonne separate. Utilizzato più comunemente per esportare dati di Adobe Analytics in un database di terze parti. Consulta i [Feed di dati](/help/export/analytics-data-feed/data-feed-overview.md) nella Guida utente per l’esportazione.
 * **Livello dati:** Un [livello dati](/help/implement/prepare/data-layer.md) è un framework di oggetti JavaScript sul sito che contiene i valori delle variabili utilizzati nell&#39;implementazione di Analytics. Consente un controllo maggiore e una manutenzione più semplice quando si assegnano valori alle variabili di Analytics.
 * **Origini dati:** consentono a un utente di caricare dati da un file in Adobe Analytics. Il file viene in genere estratto da un sito FTP. Consulta le [Origini dati](/help/import/data-sources/overview.md) nella Guida utente per l’importazione.
@@ -84,7 +84,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Persistenza:** concetto astratto per le variabili di conversione che consente il collegamento tra un valore di variabile e un evento che si verifica su hit separati. Consulta anche Scadenza.
 * **Chiamata al server principale:** nome alternativo della richiesta di immagine o hit, utilizzato principalmente nel contesto dell’assegnazione di tag per più suite e della fatturazione. Quando lo stesso hit viene inviato a più suite di rapporti, la prima è una chiamata al server principale, mentre le altre sono chiamate al server secondarie. Questa regola si applica a tutti i tipi di hit, inclusi la visualizzazione pagina e il tracciamento dei collegamenti. Consulta anche Chiamate al server secondarie.
 * **Regole di elaborazione:** può fare riferimento a:
-   * Regole di elaborazione, un modo per modificare la raccolta dei dati utilizzando determinate regole in Admin Console. Consulta [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) nella Guida utente di amministrazione.
+   * Regole di elaborazione, un modo per modificare la raccolta dei dati utilizzando determinate regole in Admin Console. Consulta [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) nella Guida utente di amministrazione.
    * Regole di elaborazione per il canale di marketing, un set di regole che determina il canale di marketing a cui appartiene un hit. Consulta [Regole di elaborazione per il canale di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) nella Guida utente di amministrazione.
 * **Proprietà:** consulta Variabile di traffico.
 * **Rapporto con classifica:** un formato di rapporto che segue in genere una dimensione con una metrica. Questo tipo di rapporto consente di visualizzare gli elementi principali, ad esempio le pagine più visualizzate sul sito. Consulta anche Rapporti con tendenze.
