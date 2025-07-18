@@ -3,10 +3,10 @@ description: Adobe fornisce varie metriche calcolate che puoi utilizzare. In que
 title: Metriche calcolate predefinite
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 2%
+source-wordcount: '759'
+ht-degree: 4%
 
 ---
 
@@ -22,11 +22,18 @@ Di seguito è riportato un elenco di ogni metrica calcolata fornita da Adobe, co
 >
 >Puoi:
 >
-> * Aggiungere metriche calcolate predefinite per Streaming Media Collection, come descritto in [Metriche calcolate](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html?lang=it)
+> * Aggiungere metriche calcolate predefinite per Streaming Media Collection, come descritto in [Metriche calcolate](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
 > * Creare metriche calcolate personalizzate da metriche esistenti, come descritto in [Metriche calcolate e metriche calcolate avanzate](/help/components/c-calcmetrics/cm-overview.md).
+>
+
+>[!TIP]
+>
+>Utilizza il [Dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) per esaminare in modo più approfondito la definizione di una metrica calcolata predefinita e i singoli componenti che la compongono.
+>
 
 
-| Nome metrica calcolata | Funzione | Formula |
+
+| Nome della metrica calcolata | Funzione | Formula |
 | --- | --- | --- |
 | Clic sui collegamenti di acquisizione | Il numero di volte in cui le persone fanno clic su un collegamento progettato per indirizzare il traffico verso il sito. | `[Campaign Click-throughs]` |
 | Azioni | Numero totale di azioni eseguite nell&#39;app | `[Has an Action] (segment)`<br>`[Custom Link Instances] (metric)` |
@@ -39,7 +46,7 @@ Di seguito è riportato un elenco di ogni metrica calcolata fornita da Adobe, co
 | Tasso di conversione | Percentuale di visitatori che hanno intrapreso un’azione desiderata, ad esempio un acquisto. | `[Orders] / [Visits]` |
 | Tasso di ingresso | La percentuale di visitatori che sono entrati nel sito in una determinata pagina rispetto al numero totale di sessioni sul sito. | `[Entries] / [Visits]` |
 | Visitatori univoci stimati (ITP 2.1) | Per i visitatori ITP (utenti nei browser Safari), dividi Visitatori univoci per 2 o meno. Questa metrica calcolata presuppone che tu sia impostato su cookie utilizzando JavaScript lato client (non utilizzando un’implementazione CNAME). Le implementazioni che impostavano i cookie utilizzando JavaScript lato client erano interessate a partire da ITP 2.1. Per ulteriori informazioni, consulta [Intelligent tracking prevent](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/). | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Copertura ID Experience Cloud | La percentuale di visitatori che hanno un ID Experience Cloud. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
+| Copertura di Experience Cloud ID | La percentuale di visitatori che hanno un Experience Cloud ID. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Frequenza di uscita | La percentuale di visitatori che abbandonano il sito dopo aver visualizzato una pagina particolare. | `[Exits] / [Visits]` |
 | ITP 2.1 Visitatori univoci / Visitatori univoci | La percentuale di visitatori univoci che utilizzano un browser soggetta alle limitazioni dei cookie ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | Ordina assistenze | Il numero di volte in cui un canale o un’origine ha contribuito al percorso di un cliente per effettuare un acquisto, ma non ha prodotto l’acquisto finale. | `[Orders (Visit Participation)] - [Orders]` |
