@@ -1,13 +1,13 @@
 ---
-description: Scopri l’estensione Activity Map e come navigare nella relativa interfaccia.
+description: Scopri l’estensione Activity Map e come navigare nell’interfaccia.
 title: Interfaccia dell’estensione Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '575'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Offre le seguenti impostazioni:
 
 * **Visualizzazione Standard/Live**: consente di passare dalla visualizzazione Standard alla visualizzazione Live.
    * Visualizzazione standard: mostra la sovrapposizione in base ai dati storici.
-   * Vista live: mostra la sovrapposizione basata sui dati live. Il selettore data viene modificato in un elenco a discesa che consente di modificare la granularità dei dati live.
+   * Vista live: mostra la sovrapposizione basata sui dati live. Il selettore di date diventa un menu a discesa che consente di modificare la granularità dei dati live.
 * **Selettore metrica**: consente di modificare la metrica segnalata dalla sovrapposizione. Se hai selezionato Live View, sono disponibili solo [!UICONTROL Link Clicks].
 * **Selettore segmento**: consente di selezionare un [segmento](/help/components/segmentation/seg-overview.md), visualizzando un sottoinsieme di dati all&#39;interno della sovrapposizione. I segmenti non sono disponibili nella visualizzazione Live.
 * **Tipo di visualizzazione sovrapposizione**: consente di modificare il modo in cui la sovrapposizione visualizza la classificazione dei collegamenti.
@@ -72,7 +72,7 @@ Il pannello inferiore mostra una vista aggregata dei collegamenti visualizzati s
 
 Il report **[!UICONTROL Links on page]** mostra un report di base dell&#39;area di lavoro con le seguenti impostazioni:
 
-* Dimensione [collegamento Activity Map](/help/components/dimensions/activity-map-link.md)
+* La dimensione [Collegamento Activity Map](/help/components/dimensions/activity-map-link.md)
 * La metrica [Occorrenze](/help/components/metrics/occurrences.md) (etichettata come **[!UICONTROL Link clicks]**)
 * Il valore [Pagina](/help/components/dimensions/page.md) corrente applicato come segmento
 
