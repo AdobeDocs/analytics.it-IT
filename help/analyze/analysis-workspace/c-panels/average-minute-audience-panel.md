@@ -4,10 +4,10 @@ description: Scopri come utilizzare e interpretare il pannello Pubblico medio pe
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: c9299befa63868ce0450af9c63132738474e2371
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 96%
+source-wordcount: '1777'
+ht-degree: 94%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="Pubblico medio per minuto del file multimediale"
->abstract="Mostra le prestazioni di contenuti multimediali specifici o in un periodo di tempo personalizzato.<br/><br/>**Parametri generali &#x200B;**<br/>**Calcola metrica per**: seleziona la metrica da utilizzare per il pannello. Seleziona **Contenuto specifico** per analizzare il pubblico medio per minuto di un contenuto o evento specifico in base alla sua lunghezza. **Seleziona Periodo di tempo personalizzato** per analizzare il cambiamento del pubblico medio per minuto in un periodo di tempo personalizzato selezionato.<br/>**Dimensione di reporting**: seleziona questa opzione per creare rapporti in base a **Nome video** della dimensione **ID contenuto**. Disponibile solo quando hai selezionato Contenuto specifico come metrica.<br/>**Granularità**: seleziona la granularità per il reporting. Disponibile solo se hai selezionato Periodo di tempo personalizzato come metrica.<br/>**Filtra il contenuto per (facoltativo)**: seleziona uno spettacolo, una stagione, un episodio specifico oppure seleziona una dimensione personalizzata per filtrare il contenuto.<br/><br/>**Impostazioni avanzate &#x200B;**<br/>**Impostazioni tabella**: seleziona se visualizzare i valori di calcolo nella tabella.<br/>**Metrica tempo trascorso**: seleziona quale metrica del tempo trascorso desideri utilizzare per il calcolo del contenuto specifico. Disponibile solo quando hai selezionato Contenuto specifico come metrica."
+>abstract="Mostra le prestazioni di contenuti multimediali specifici o in un periodo di tempo personalizzato.<br/><br/>**Parametri generali **<br/>**Calcola metrica per**: seleziona la metrica da utilizzare per il pannello. Seleziona **Contenuto specifico** per analizzare il pubblico medio per minuto di un contenuto o evento specifico in base alla sua lunghezza. **Seleziona Periodo di tempo personalizzato** per analizzare il cambiamento del pubblico medio per minuto in un periodo di tempo personalizzato selezionato.<br/>**Dimensione di reporting**: seleziona questa opzione per creare rapporti in base a **Nome video** della dimensione **ID contenuto**. Disponibile solo quando hai selezionato Contenuto specifico come metrica.<br/>**Granularità**: seleziona la granularità per il reporting. Disponibile solo se hai selezionato Periodo di tempo personalizzato come metrica.<br/>**Filtra il contenuto per (facoltativo)**: seleziona uno spettacolo, una stagione, un episodio specifico oppure seleziona una dimensione personalizzata per filtrare il contenuto.<br/><br/>**Impostazioni avanzate **<br/>**Impostazioni tabella**: seleziona se visualizzare i valori di calcolo nella tabella.<br/>**Metrica tempo trascorso**: seleziona quale metrica del tempo trascorso desideri utilizzare per il calcolo del contenuto specifico. Disponibile solo quando hai selezionato Contenuto specifico come metrica."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello del pubblico medio per minuto in **Customer Journey Analytics**.<br/>Consulta [Pannello del pubblico medio per minuto](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) per la versione **Adobe Analytics** di questo articolo.*
+_Questo articolo documenta il pannello del pubblico medio per minuto in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_.<br/>_Consulta il [Pannello del pubblico medio per minuto](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ Utilizza le impostazioni di input descritte in questa sezione per configurare il
 
    | Opzioni | Descrizione |
    |---------|------------|
-   | **[!UICONTROL Granularity]** | La granularità predefinita è [!UICONTROL **5 minuti**], ma è possibile scegliere una qualsiasi delle granularità utilizzate come denominatore per la serie temporale all’interno del periodo di tempo selezionato. Ad esempio, selezionando dalle 12:00 alle 12:30 con una granularità di cinque minuti, verrà restituito il pubblico medio per minuto nell’intera mezz’ora, così come sei righe contenenti il pubblico medio per minuto per ogni periodo di cinque minuti. Queste righe vengono utilizzate come punti dati per il grafico delle serie temporali. |
+   | **[!UICONTROL Granularity]** | La granularità predefinita è [!UICONTROL **5 minuti**], ma è possibile scegliere una qualsiasi delle granularità utilizzate come denominatore per la serie temporale all’interno del periodo di tempo selezionato. Ad esempio, selezionando dalle 12:00 alle 12:30 con una granularità di 5 minuti, viene restituito il pubblico medio per minuto nell&#39;intera mezz&#39;ora, nonché sei righe contenenti il pubblico medio per minuto per ogni periodo di 5 minuti. Queste righe vengono utilizzate come punti dati per il grafico delle serie temporali. |
    | [!UICONTROL **Filtra il contenuto per (facoltativo)**] | Puoi filtrare il contenuto specifico in base alla visualizzazione desiderata o alla struttura dei dati. <ul>[!UICONTROL **Spettacolo, stagione, episodio**]: visualizza gli spettacoli disponibili nel menu a discesa, che puoi filtrare utilizzando una ricerca (oppure trascinando e rilasciando il nome dello spettacolo dalla colonna di sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato.</li><li>[!UICONTROL **Dimensione personalizzata**]: se il nome dello spettacolo si trova in una dimensione personalizzata, è possibile trovarlo effettuando una ricerca nel menu a discesa della dimensione (facoltativo) o utilizzando la ricerca della colonna di sinistra. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio.</li><li>[!UICONTROL **Nessuno**]: mostra tutti i nomi dei video con dati del pubblico medio per minuto per la selezione scelta. (Questa opzione è selezionata per impostazione predefinita.)</li></ul> |
 
 1. Continua con [Impostazioni avanzate del periodo di tempo personalizzato](#custom-time-period-advanced-settings) per configurare le impostazioni avanzate.
@@ -187,8 +187,8 @@ Il pannello Pubblico medio per minuto del file multimediale utilizza solo la met
 >[!MORELIKETHIS]
 >
 > [Creare un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [Pannello Visualizzatori simultanei di file multimediali](media-concurrent-viewers.md)
-> &#x200B;> [Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
+> > [Pannello Visualizzatori simultanei di file multimediali](media-concurrent-viewers.md)
+> > [Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
 >
 
 
