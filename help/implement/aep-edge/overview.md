@@ -21,13 +21,13 @@ I dati inviati all&#39;Edge Network di Adobe Experience Platform possono seguire
 
 ## `xdm` oggetto
 
-Conformarsi agli schemi creati in base a [XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home.html?lang=it) (Experience Data Model). XDM offre flessibilità nei campi definiti come parte degli eventi. Se desideri utilizzare uno schema predefinito specifico per Adobe Analytics, puoi aggiungere il [gruppo di campi dello schema Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) allo schema. Una volta aggiunto, è possibile popolare questo schema utilizzando l&#39;oggetto `xdm` nel Web SDK per inviare dati a una suite di rapporti. Quando i dati arrivano all’Edge Network, traducono l’oggetto XDM in un formato comprensibile da Adobe Analytics.
+Conformarsi agli schemi creati in base a [XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home.html?lang=it) (Experience Data Model). XDM offre flessibilità nei campi definiti come parte degli eventi. Se desideri utilizzare uno schema predefinito specifico per Adobe Analytics, puoi aggiungere il [gruppo di campi dello schema Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) allo schema. Una volta aggiunto, è possibile popolare questo schema utilizzando l&#39;oggetto `xdm` nel Web SDK per inviare dati a una suite di rapporti. Quando i dati arrivano all’Edge Network, traducono l’oggetto XDM in un formato comprensibile da Adobe Analytics.
 
 Per un riferimento completo ai campi XDM e al modo in cui vengono mappati alle variabili Analytics, vedi [Mappatura delle variabili oggetto XDM su Adobe Analytics](xdm-var-mapping.md).
 
 >[!TIP]
 >
->Se prevedi di passare in futuro a [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing), Adobe consiglia di non utilizzare il gruppo di campi dello schema di Adobe Analytics. Al contrario, Adobe consiglia di [creare uno schema personalizzato](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) e utilizzare la mappatura dello stream di dati per popolare le variabili Analytics desiderate. Questa strategia non ti blocca in uno schema di proprietà ed eVar quando sei pronto per passare a Customer Journey Analytics.
+>Se prevedi di passare in futuro a [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-landing), Adobe consiglia di non utilizzare il gruppo di campi dello schema di Adobe Analytics. Al contrario, Adobe consiglia di [creare uno schema personalizzato](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) e utilizzare la mappatura dello stream di dati per popolare le variabili Analytics desiderate. Questa strategia non ti blocca in uno schema di proprietà ed eVar quando sei pronto per passare a Customer Journey Analytics.
 
 ## `data` oggetto
 
