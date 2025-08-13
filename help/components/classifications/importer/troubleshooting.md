@@ -3,7 +3,7 @@ title: Risoluzione di problemi dell’importazione di classificazioni
 description: Problemi di caricamento comuni quando si utilizza l’importazione classificazioni.
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 83%
@@ -11,6 +11,8 @@ ht-degree: 83%
 ---
 
 # Risoluzione di problemi dell’importazione di classificazioni
+
+{{classification-importer-deprecation}}
 
 I problemi più comuni durante il caricamento dei dati di classificazione in Adobe.
 

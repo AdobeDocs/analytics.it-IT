@@ -3,7 +3,7 @@ description: L’importazione consente di caricare in massa i dati delle classif
 title: File di dati di classificazione
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 91%
@@ -11,6 +11,8 @@ ht-degree: 91%
 ---
 
 # File di dati di classificazione (legacy)
+
+{{classification-importer-deprecation}}
 
 L’importazione consente di caricare in massa i dati delle classificazioni nei rapporti di Analytics in un file. L’importazione richiede un formato di file specifico per il caricamento dei dati.
 
@@ -20,7 +22,7 @@ Per ulteriori informazioni sui limiti dei caratteri nelle classificazioni, consu
 
 ## Struttura generale dei file
 
-L’illustrazione seguente è un esempio di file di dati:
+L’illustrazione seguente è un file di dati di esempio:
 
 ![](assets/completed-saint-file.png)
 

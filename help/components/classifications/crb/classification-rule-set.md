@@ -3,7 +3,7 @@ description: Un set di regole è un gruppo di regole di classificazione per una 
 title: Set di regole di classificazione
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 89%
@@ -11,6 +11,8 @@ ht-degree: 89%
 ---
 
 # Set di regole di classificazione (legacy)
+
+{{classification-rulebuilder-deprecation}}
 
 *In questa pagina vengono illustrati i set di regole di classificazione come parte del [Generatore di regole di classificazione](classification-rule-builder.md). Vedi [Set di classificazione](../sets/overview.md) per il metodo corrente di classificazione dei dati in Adobe Analytics.*
 

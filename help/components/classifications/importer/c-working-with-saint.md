@@ -3,7 +3,7 @@ description: Utilizza l’importazione per caricare le classificazioni in Adobe 
 title: 'Importazione classificazioni: panoramica'
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 96%
@@ -11,6 +11,8 @@ ht-degree: 96%
 ---
 
 # Panoramica sull’importazione di classificazioni (legacy)
+
+{{classification-importer-deprecation}}
 
 Utilizza l’importazione per caricare le classificazioni in Adobe Analytics. È inoltre possibile esportare i dati per l’aggiornamento prima di un’importazione.
 

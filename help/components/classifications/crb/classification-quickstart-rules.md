@@ -3,7 +3,7 @@ description: Le regole di classificazione cercano regolarmente termini non class
 title: Regole di classificazione
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1920'
 ht-degree: 86%
@@ -11,6 +11,8 @@ ht-degree: 86%
 ---
 
 # Regole di classificazione (legacy)
+
+{{classification-rulebuilder-deprecation}}
 
 Le regole di classificazione cercano regolarmente termini non classificati. Se viene trovata una corrispondenza alla regola, le regole aggiungono automaticamente i termini alle tabelle di dati di classificazione. Puoi inoltre utilizzare le regole di classificazione per sovrascrivere le chiavi esistenti.
 
@@ -133,7 +135,7 @@ Nel [!UICONTROL Rule Builder], configura la regola come segue:
 
 | Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | Su |
 |---|---|---|---|
-| Espressione regolare | &Hat;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
+| Espressione regolare | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
 
 **Sintassi**
 

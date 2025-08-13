@@ -3,7 +3,7 @@ description: Utilizza le sottoclassificazioni con il generatore di regole di cla
 title: Sottoclassificazioni e Generatore di regole
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 84%
@@ -11,6 +11,8 @@ ht-degree: 84%
 ---
 
 # Sottoclassificazioni e generatore di regole (legacy)
+
+{{classification-rulebuilder-deprecation}}
 
 Puoi combinare il Generatore regole di classificazione con le sottoclassificazioni se garantisci che ogni sottoclassificazione abbia un valore padre.
 
@@ -61,7 +63,7 @@ Esempi di passaggi che descrivono come caricare le sottoclassificazioni utilizza
 
    Esempio:
 
-   | Chiave | Canale | Broad Campaign code | Broad Campaign code&Hat;Campaign type | Broad Campaign code&Hat;Campaign Director | ... |
+   | Chiave | Canale | Broad Campaign code | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Brand | Suzanne |  |
    | &#42; |  | 222 | Brand | Frank |  |

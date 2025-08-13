@@ -3,7 +3,7 @@ description: Puoi importare (caricare) i dati delle classificazioni utilizzando 
 title: Importazione browser
 feature: Classifications
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 73%
@@ -11,6 +11,8 @@ ht-degree: 73%
 ---
 
 # Importazione browser (legacy)
+
+{{classification-importer-deprecation}}
 
 Puoi importare (caricare) i dati delle classificazioni utilizzando il browser. Questo metodo limita il caricamento dei dati di classificazione a una singola suite di rapporti
 
