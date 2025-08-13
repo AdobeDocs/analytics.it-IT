@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: aad8c1ba3c76cd35aa37a155102b5fd6b4b7ca27
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 54%
+source-wordcount: '660'
+ht-degree: 53%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 54%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Nessuna visualizzazione Mappa attualmente disponibile in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta la [Mappa](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Visualizzazione ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** in A
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa in Analysis Workspace](https://video.tv.adobe.com/v/329423/?quality=12&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa in Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ Per definire le impostazioni per la visualizzazione, seleziona ![Impostazione](/
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/328243/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 
