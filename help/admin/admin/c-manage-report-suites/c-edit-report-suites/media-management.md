@@ -4,7 +4,7 @@ title: Gestione dei contenuti multimediali
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Durante la modifica di una suite di rapporti sono disponibili le seguenti opzion
 
 * [!UICONTROL **Generazione rapporti multimediali**]
 
-  Utilizzare queste caselle di controllo per abilitare dimensioni e metriche specifiche per Streaming Media Collection.
+  Utilizza queste caselle di controllo per abilitare dimensioni e metriche specifiche per i servizi di streaming multimediale.
 
    * [Dimensioni principali dei contenuti multimediali](/help/components/dimensions/sm-core.md)
    * [Metriche di base per contenuti multimediali](/help/components/metrics/sm-core.md)
@@ -38,6 +38,6 @@ Durante la modifica di una suite di rapporti sono disponibili le seguenti opzion
 
 * [!UICONTROL **Classificazioni file multimediali**]
 
-  Le classificazioni specifiche per le dimensioni di Streaming Media Collection sono disponibili nella pagina [!UICONTROL Media Classifications]. Funzionano in modo simile a [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) disponibili per le variabili di conversione. L&#39;abilitazione di alcuni componenti in [!UICONTROL Media Reporting] crea automaticamente le dimensioni di classificazione. Puoi utilizzare questa interfaccia per creare dimensioni di classificazione personalizzate o caricare dati di classificazione.
+  Le classificazioni specifiche per le dimensioni dei servizi multimediali in streaming sono disponibili nella pagina [!UICONTROL Media Classifications]. Funzionano in modo simile a [Classificazioni di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) disponibili per le variabili di conversione. L&#39;abilitazione di alcuni componenti in [!UICONTROL Media Reporting] crea automaticamente le dimensioni di classificazione. Puoi utilizzare questa interfaccia per creare dimensioni di classificazione personalizzate o caricare dati di classificazione.
 
-Per informazioni generali sull&#39;incorporazione di dati multimediali in streaming in Adobe Analytics, vedere la [Guida alla raccolta di file multimediali in streaming](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).
+Per informazioni generali sull&#39;incorporazione di dati multimediali in streaming in Adobe Analytics, consulta [Panoramica di Adobe Streaming Media Services](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).

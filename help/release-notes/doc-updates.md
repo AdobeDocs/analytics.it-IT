@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '6436'
+source-wordcount: '6437'
 ht-degree: 92%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 92%
 Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da gennaio 2019.
 
 * Per informazioni su [!UICONTROL Customer Journey Analytics] vedi [qui](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=it).
-* Per informazioni su Streaming Media Collection, consulta [Misurazione di audio e video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
+* Per informazioni sui servizi multimediali in streaming di Adobe, consulta [Misurazione di audio e video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
 
 ## Dettagli sugli aggiornamenti principali della documentazione
 
@@ -36,18 +36,18 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Nuove azioni di scelta rapida da tastiera | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [spostare i pannelli di Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) in alto e in basso in un progetto. |
 | **Marzo 2025** |  |
 | Inventario di Analytics | [L&#39;inventario di Analytics](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/analytics-inventory) fornisce una panoramica completa dell&#39;ambiente Adobe Analytics, incluso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora. |
-| Guida per l’aggiornamento di Customer Journey Analytics | Consente di generare una [guida dettagliata](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. |
+| Guida per l’aggiornamento di Customer Journey Analytics | Consente di generare una [guida dettagliata](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. |
 | Formattazione data più chiara nelle esportazioni Data Warehouse | I valori delle dimensioni basati sul tempo nelle esportazioni Data Warehouse hanno una formattazione della data non standard. Sono state aggiunte informazioni che spiegano come interpretare i valori delle date dalle esportazioni Data Warehouse. <p>Vedi [Dimensioni supportate in modo diverso (formattazione della data non standard)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) in [Supporto dei componenti in Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Sono state aggiornate le informazioni sulle esclusioni IP | Sono state aggiunte informazioni che spiegano che [le esclusioni IP](/help/admin/admin/exclude-ip.md) possono richiedere fino a 5 minuti prima di diventare effettive e che le modifiche si applicano solo ai nuovi hit (i dati acquisiti prima dell&#39;impostazione dell&#39;esclusione non sono interessati). <p>È stato aggiornato anche il layout dei contenuti per migliorarne la leggibilità.</p> |
 | **Febbraio 2025** |  |
 | Sono state aggiornate le informazioni sulla sospensione e la riattivazione di un feed di dati | Durante la [sospensione e riattivazione di un feed di dati](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), è stato chiarito il comportamento dei feed live. L’elaborazione dei dati non viene eseguita dal momento in cui il feed viene messo in pausa al momento in cui viene riattivato. |
-| Periodo di conservazione ID transazione modificato | Il periodo di conservazione dell’ID transazione di 90 giorni è stato esteso a 25 mesi. La variabile transactionID identifica in modo univoco una transazione in modo che l’hit possa essere collegato ai dati caricati tramite Origini dati. Ulteriori informazioni [qui](https://experienceleague.adobe.com/it/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) e [qui](https://experienceleague.adobe.com/it/docs/analytics/import/data-sources/transactionid?lang=en). |
+| Periodo di conservazione ID transazione modificato | Il periodo di conservazione dell’ID transazione di 90 giorni è stato esteso a 25 mesi. La variabile transactionID identifica in modo univoco una transazione in modo che l’hit possa essere collegato ai dati caricati tramite Origini dati. Ulteriori informazioni [qui](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) e [qui](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en). |
 | API Livestream - Implementazione client | Utilizza l&#39;implementazione del client [Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) per utilizzare i dati Livestream. |
 | Aggiornamento dell’API delle classificazioni | È ora possibile [rimuovere singoli campi o chiavi di classificazione dal server](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/). Questo fornisce un’alternativa all’eliminazione di un intero set di dati di classificazione con il metodo DELETE. |
 | **Gennaio 2025** |  |
 | Riferimento API feed dati | Il riferimento [per l&#39;API dei feed di dati](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) è ora disponibile. |
-| Nuova documentazione sulla pianificazione nel nuovo Report Builder | [La pianificazione](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/schedule-reportbuilder) non solo consente di pianificare le nuove cartelle di lavoro di Report Builder. Inoltre, consente di recuperare i metadati delle vecchie attività pianificate quando si convertono cartelle di lavoro legacy. |
-| Miglioramenti ai rapporti (noti anche come modelli) in Analysis Workspace | Sono ora disponibili vari miglioramenti per i report (noti anche come [Modelli](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en)) |
+| Nuova documentazione sulla pianificazione nel nuovo Report Builder | [La pianificazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder) non solo consente di pianificare le nuove cartelle di lavoro di Report Builder. Inoltre, consente di recuperare i metadati delle vecchie attività pianificate quando si convertono cartelle di lavoro legacy. |
+| Miglioramenti ai rapporti (noti anche come modelli) in Analysis Workspace | Sono ora disponibili vari miglioramenti per i report (noti anche come [Modelli](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en)) |
 
 
 ### 2024 {#year2024}
@@ -56,7 +56,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | --- | --- |
 | **Ottobre 2024** |  |
 | Nuove informazioni sui fattori di richiesta nelle prestazioni di Analysis Workspace | Una nuova sezione [Fattori di richiesta](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) nell’articolo [Ottimizzare le prestazioni di Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) spiega come vengono elaborate le richieste e i vari fattori che influenzano i tempi di elaborazione. |
-| Nuovo Report Builder | [Nuova documentazione](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/rb-overview) per il componente aggiuntivo di Report Builder semplificato supportato in Mac, Windows e browser web. |
+| Nuovo Report Builder | [Nuova documentazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) per il componente aggiuntivo di Report Builder semplificato supportato in Mac, Windows e browser web. |
 | **Agosto 2024** | |
 | Gestione avvisi | Documentazione semplificata sulla [Gestione avvisi](/help/components/c-alerts/alert-manager.md). Aggiornata per chiarezza e precisione. |
 | **Luglio 2024** | |
@@ -67,7 +67,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Documentazione aggiornata per la gestione dei feed di dati | Informazioni aggiornate in [Gestione dei feed di dati](/help/export/analytics-data-feed/df-manage-feeds.md) per migliorarne la chiarezza. <p>Gli aggiornamenti includono:</p><ul><li>Sono state create sezioni separate per varie attività per semplificare la scansione e l’utilizzo delle informazioni.</li><li>Informazioni aggiornate sulle modifiche al comportamento dei feed live riattivati. Queste modifiche sono attualmente disponibili in modo limitato e non sono ancora disponibili per tutti i clienti.</li><li>Sono state aggiunte informazioni che indicano che i feed di dati devono avere lo stato Attivo prima di poter essere eliminati.</li> |
 | Messaggi di errore comuni aggiornati | Effettuati aggiornamenti minori ai [messaggi di errore comuni](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Giugno 2024** | |
-| Nome del prodotto aggiornato che fa riferimento alle funzioni streaming media | Le istanze di “Media Analytics” e “Streaming Media” sono state sostituite con il nome “Componente aggiuntivo Streaming Media Collection” quando si fa riferimento all’insieme di funzioni streaming media che raccolgono dati per contenuti multimediali in streaming e li presentano in Analysis Workspace. <p>Questi aggiornamenti sono disponibili all’interno della documentazione di Adobe Analytics e anche nella [Documentazione di Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).</p> |
+| Nome di prodotto aggiornato che fa riferimento alle funzioni di Streaming Media Services | Le istanze di “Media Analytics” e “Streaming Media” sono state sostituite con il nome “Componente aggiuntivo Streaming Media Collection” quando si fa riferimento all’insieme di funzioni streaming media che raccolgono dati per contenuti multimediali in streaming e li presentano in Analysis Workspace. <p>Questi aggiornamenti sono disponibili all’interno della documentazione di Adobe Analytics e anche nella [Documentazione di Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).</p> |
 | Miglioramento della documentazione sugli avvisi | È stata aggiornata e migliorata la documentazione sugli avvisi. Questi aggiornamenti includono informazioni su [creazione di avvisi](/help/components/c-alerts/alert-builder.md), [gestione degli avvisi](/help/components/c-alerts/alert-manager.md) e [informazioni generali](/help/components/c-alerts/intellligent-alerts.md). |
 | `cookieDomainPeriods` obsoleta | Ora che AppMeasurement rileva automaticamente il dominio corretto su cui impostare i cookie, la variabile [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) è obsoleta. |
 | Documentazione Data Connectors ritirata | Pagina fine del ciclo di vita di Data Connectors spostata in [Prodotti obsoleti](https://experienceleague.adobe.com/it/docs/discontinued/using/data-connectors). |

@@ -1,20 +1,20 @@
 ---
-title: Metriche degli annunci multimediali in streaming
+title: Metriche e servizi multimediali in streaming
 description: Metriche disponibili quando abiliti [!UICONTROL Media Ads] per una suite di rapporti.
 feature: Metrics
 exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '146'
 ht-degree: 5%
 
 ---
 
-# Metriche degli annunci multimediali in streaming
+# Metriche e servizi multimediali in streaming
 
-*In questa pagina sono descritte le metriche disponibili quando si abilita [!UICONTROL Media Ads] per una suite di rapporti. Per informazioni sulle dimensioni disponibili, vedere [Dimensioni annuncio file multimediali in streaming](../dimensions/sm-ads.md).*
+*In questa pagina sono descritte le metriche disponibili quando si abilita [!UICONTROL Media Ads] per una suite di rapporti. Vedere [Dimensioni annuncio servizi multimediali in streaming](../dimensions/sm-ads.md) per le dimensioni disponibili.*
 
-Le metriche degli annunci per contenuti multimediali in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di raccolta di contenuti multimediali in streaming. L&#39;utilizzo di queste metriche richiede **[!UICONTROL Adobe Streaming Media Collection]**. Per informazioni, contatta il team dell’account Adobe.
+I servizi e le metriche di Streaming Media forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di servizi multimediali in streaming. L&#39;utilizzo di queste metriche richiede **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
 Quando abiliti **[!UICONTROL Media Ads]** in [Report multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le metriche seguenti:
 

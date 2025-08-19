@@ -1,20 +1,20 @@
 ---
-title: Metriche di qualità dei contenuti multimediali in streaming
+title: Metriche di qualità dei servizi di contenuti multimediali in streaming
 description: Metriche disponibili quando abiliti [!UICONTROL Media Quality] per una suite di rapporti.
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '319'
 ht-degree: 1%
 
 ---
 
-# Metriche di qualità dei contenuti multimediali in streaming
+# Metriche di qualità dei servizi di contenuti multimediali in streaming
 
-*In questa pagina sono descritte le metriche disponibili quando si abilita [!UICONTROL Media Quality] per una suite di rapporti. Vedi [Dimensioni di qualità Streaming Media](../dimensions/sm-quality.md) per le dimensioni disponibili.*
+*In questa pagina sono descritte le metriche disponibili quando si abilita [!UICONTROL Media Quality] per una suite di rapporti. Vedere [Dimensioni di qualità dei servizi multimediali in streaming](../dimensions/sm-quality.md) per le dimensioni disponibili.*
 
-Le metriche di qualità dei contenuti multimediali in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di raccolta di contenuti multimediali in streaming. L&#39;utilizzo di queste metriche richiede **[!UICONTROL Adobe Streaming Media Collection]**. Per informazioni, contatta il team dell’account Adobe.
+Le metriche di qualità dei servizi di contenuti multimediali in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie dei servizi di contenuti multimediali in streaming. L&#39;utilizzo di queste metriche richiede **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
 Quando abiliti **[!UICONTROL Media Quality]** in [Report multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le metriche seguenti:
 

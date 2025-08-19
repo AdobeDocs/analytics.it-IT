@@ -4,10 +4,10 @@ description: Scopri come utilizzare e interpretare il pannello Tempo di riproduz
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 93%
+source-wordcount: '1155'
+ht-degree: 86%
 
 ---
 
@@ -34,22 +34,23 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Tempo di riproduzione trascorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta il [pannello Tempo di riproduzione dei contenuti multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta il pannello Tempo di riproduzione trascorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta il [pannello Tempo di riproduzione dei contenuti multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->Il pannello Pubblico medio per minuto è disponibile solo per i clienti che hanno acquistato il componente aggiuntivo Streaming Media Collection per Adobe Analytics.
->&#x200B;>Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
+>Il pannello Pubblico medio per minuto di Media è disponibile solo per i clienti che hanno acquistato il componente aggiuntivo Adobe Analytics for Streaming Media.
+>
+>Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
 >
 
 Il pannello **[!UICONTROL Media playback time spent]** consente di analizzare le riproduzioni nel tempo, con dettagli sul picco di concorrenza e la possibilità di suddividere e confrontare i dati.
 
 In Analysis Workspace il Tempo di riproduzione trascorso corrisponde alla quantità di tempo utilizzato per visualizzare i flussi multimediali in un determinato momento. Include pausa, buffer e tempo di avvio.
 
-I clienti che hanno acquistato il componente aggiuntivo Streaming Media Collection possono analizzare il tempo di riproduzione trascorso per ottenere informazioni approfondite sulla qualità dei contenuti e sul coinvolgimento dei visualizzatori. E per contribuire a risolvere problemi o pianificare volumi o scala.
+I clienti che hanno acquistato Adobe Analytics for Streaming Media Add-on possono analizzare il tempo di riproduzione impiegato per acquisire valore insight nella qualità dei contenuti e nel coinvolgimento degli utenti. E per contribuire a risolvere problemi o pianificare volumi o scala.
 
 Il Tempo di riproduzione trascorso può aiutarti a comprendere:
 
@@ -59,7 +60,7 @@ Il Tempo di riproduzione trascorso può aiutarti a comprendere:
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/3446708?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -69,7 +70,7 @@ Per usare un pannello **[!UICONTROL Media playback time spent]**:
 
 1. Crea un pannello **[!UICONTROL Media playback time spent]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
-1. Accertati di selezionare una visualizzazione dati per il pannello i cui componenti sono configurati da Streaming Media Collection.
+1. Accertati di selezionare una visualizzazione dati per il pannello i cui componenti sono configurati dal componente aggiuntivo Adobe Analytics for Streaming Media.
 
 1. Specifica l’[input](#panel-input) per il pannello.
 
@@ -87,7 +88,7 @@ Puoi configurare il pannello Media Playback Time Spent (Tempo di riproduzione de
 | Panel summary numbers (Numeri di riepilogo del pannello) | Per visualizzare i dettagli di data o ora per il tempo di riproduzione trascorso, è disponibile un numero di riepilogo. Il valore Maximum (Massimo) mostra i dettagli del picco di concorrenza. Il valore Minimum (Minimo) mostra i dettagli del valore più basso. Somma effettua la somma del tempo totale di riproduzione trascorso per la selezione. Per impostazione predefinita, il pannello mostra solo il valore Maximum (Massimo), ma puoi impostarlo su Minimum (Minimo), Sum (Somma) o qualsiasi combinazione dei tre.<br>Se utilizzi i raggruppamenti, per ciascuno viene visualizzato un numero di riepilogo. |
 | Raggruppamento per serie | Facoltativamente, puoi suddividere la visualizzazione per filtri, dimensioni, elementi dimensionali o intervalli di date.<p>- È possibile visualizzare fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.</p><p>- Quando viene trascinata una dimensione, gli elementi dimensionali principali vengono selezionati automaticamente in base all’intervallo di date del pannello selezionato.</p>- Per confrontare intervalli di date, trascina 2 o più intervalli di date nel filtro di raggruppamento per serie. |
 | Formato ora | È possibile visualizzare il tempo di riproduzione trascorso in `Hours:Minutes:Seconds` (impostazione predefinita) o in `Minutes` (visualizzati in numeri interi, arrotondati a 0,5). |
-| Visualizzazione della sequenza di date | Se hai inserito almeno due filtri di intervallo di date come raggruppamenti di serie, vedrai l’opzione per selezionare tra sovrapposizione, (predefinita) o sequenziale. La sovrapposizione visualizza le linee con un inizio comune dell’asse X, in parallelo, mentre la sequenziale visualizza le linee con il proprio inizio specifico dell’asse X. Se i dati sono allineati (ad esempio, il filtro 1 termina alle 20:44 e il filtro 2 inizia alle 20:45), le linee vengono visualizzate in sequenza. |
+| Visualizzazione della sequenza di date | Se hai inserito almeno due filtri di intervallo di date come raggruppamenti di serie, vedrai l’opzione per selezionare tra sovrapposizione, (predefinita) o sequenziale. La sovrapposizione visualizza le linee con un inizio comune dell’asse X, in parallelo, mentre la sequenziale visualizza le linee con il proprio inizio specifico dell’asse X. Se i dati sono allineati (ad esempio, il filtro 1 termina alle 20:44 e il filtro 2 inizia alle 20:45), le righe vengono visualizzate in sequenza. |
 
 
 ![Visualizzazione predefinita del tempo trascorso sul playbook dei contenuti multimediali.](assets/mpts_default_view.png)
@@ -125,8 +126,8 @@ L’unica metrica che può essere utilizzata in questo pannello è Playback Time
 >[!MORELIKETHIS]
 >
 >[Creare un pannello](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Pannello Pubblico medio per minuto di contenuti multimediale](average-minute-audience-panel.md)
->&#x200B;>[Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md)
+>>[Pannello Pubblico medio per minuto di contenuti multimediale](average-minute-audience-panel.md)
+>>[Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md)
 >
 
 <!--
@@ -146,7 +147,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446708?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)
 
 ## Use the Media Playback Time Spent panel
 

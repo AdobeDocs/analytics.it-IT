@@ -1,16 +1,16 @@
 ---
-title: Compatibilità dei Dimension Analytics
+title: Compatibilità delle dimensioni di Analytics
 description: Riferimento per dimensioni e rapporti di Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '896'
 ht-degree: 17%
 
 ---
 
-# Compatibilità dei Dimension Analytics
+# Compatibilità delle dimensioni di Analytics
 
 In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle rispettive funzionalità di Analytics.
 
@@ -18,9 +18,9 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 >
 >I nomi delle variabili, le classificazioni e gli attributi dei visitatori personalizzati vengono omessi da questo elenco. Questi elementi dimensionali sono specifici per le singole suite di rapporti.
 
-## Dimension supportati in Analysis Workspace
+## Dimensioni supportate in Analysis Workspace
 
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |---|---|
 | Analytics for Target | `targetraw` |
 | ID tipi di pubblico | `mcaudiences` |
@@ -146,9 +146,9 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 
 ## Dimensioni in base al contenuto supportate solo in Analysis Workspace
 
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
-| XY ACTIVITY MAP | `clickmapxy` |
+| ACTIVITY MAP XY | `clickmapxy` |
 | ID sessione multimediale | `videosessionid` |
 | Metodo di accesso Nielsen | `nielsenaccmethod` |
 | ID app Nielsen | `nielsenappid` |
@@ -157,9 +157,9 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 
 ## Dimensioni in base al contenuto supportate da Analysis Workspace
 
-### Video (la raccolta di contenuti multimediali in streaming)
+### Video (servizi multimediali in streaming)
 
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
 | [Contenuto](sm-core.md) | `video` |
 | [Segmento di contenuto](sm-core.md) | `videosegment` |
@@ -211,7 +211,7 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 
 Adobe Social è ritirato.
 
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
 | Termini | `socialterm` |
 | Piattaforme/Proprietà social | `socialcontentprovider` |
@@ -226,14 +226,14 @@ Adobe Social è ritirato.
 | Proprietà di proprietà e applicazione | `socialownedpropertypropertyvsapp` |
 | Nome proprietà di proprietà | `socialownedpropertyname` |
 | Proprietà definizione di proprietà e post | `socialowneddefinitionpropertyvspost` |
-| Tipo di informazioni sulla definizione di proprietà | `socialowneddefinitioninsighttype` |
-| Valore informazioni definizione di proprietà | `socialowneddefinitioninsightvalue` |
+| Tipo Insight di definizione di proprietà | `socialowneddefinitioninsighttype` |
+| Valore Insight della definizione di proprietà | `socialowneddefinitioninsightvalue` |
 | Metrica di definizione di proprietà | `socialowneddefinitionmetric` |
 | Risorsa | `socialmediaid` |
 
 ### Mobile SDK
 
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
 | [Data primo avvio](lifecycle-dimensions.md) | `mobileinstalldate` |
 | [ID app](lifecycle-dimensions.md) | `mobileappid` |
@@ -270,25 +270,25 @@ Adobe Social è ritirato.
 
 ### Adobe Advertising Cloud (AMO)
 
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
 | ID AMO EF | `amo_ef_id` |
 | ID AMO | `amo_cid` |
 
 ### Activity Map
 
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
 | [Collegamento Activity Map Per Regione](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
-| [Regione Activity Map](activity-map-region.md) | `clickmapregion` |
+| [Area geografica Activity Map](activity-map-region.md) | `clickmapregion` |
 | [Collegamento Activity Map](activity-map-link.md) | `clickmaplink` |
 | [Pagina Activity Map](activity-map-page.md) | `clickmappage` |
 
 ### Integrazione Nielsen
 
-Per ulteriori informazioni su come implementare questa integrazione, vedi l&#39;estensione [Nielsen](https://exchange.adobe.com/apps/ec/101361) nell&#39;Adobe Exchange.
+Per ulteriori informazioni su come implementare questa integrazione, consulta l&#39;estensione [Nielsen](https://exchange.adobe.com/apps/ec/101361) su Adobe Exchange.
 
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
 | Modello annuncio Nielsen | `nielsenadmodel` |
 | Nielsen, segmento C | `nielsensegmentc` |
@@ -309,7 +309,7 @@ Per ulteriori informazioni su come implementare questa integrazione, vedi l&#39;
 
 ### Adobe Experience Manager (AEM)
 
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
 | ID risorsa | `aemassetid` |
 | Origine risorsa | `aemassetsource` |
@@ -319,6 +319,6 @@ Per ulteriori informazioni su come implementare questa integrazione, vedi l&#39;
 
 ### Adobe Campaign
 
-| Nome Dimension (visibile nell’interfaccia utente di Analytics) | ID Dimension (utilizzato nelle richieste API) |
+| Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
 | ID consegna eseguita di Adobe Campaign | `ac_delivery_internal_name` |

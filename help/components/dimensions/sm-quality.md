@@ -1,24 +1,24 @@
 ---
-title: Dimensioni di qualità dei contenuti multimediali in streaming
+title: Dimensioni di qualità dei servizi di contenuti multimediali in streaming
 description: Dimensioni disponibili quando si abilita [!UICONTROL Media Quality] per una suite di rapporti.
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
 
-# Dimensioni di qualità dei contenuti multimediali in streaming
+# Dimensioni di qualità dei servizi di contenuti multimediali in streaming
 
-*In questa pagina sono descritte le dimensioni disponibili quando si abilita [!UICONTROL Media Quality] per una suite di rapporti. Vedi [Metriche di qualità dei contenuti multimediali in streaming](../metrics/sm-quality.md) per le metriche disponibili.*
+*In questa pagina sono descritte le dimensioni disponibili quando si abilita [!UICONTROL Media Quality] per una suite di rapporti. Per informazioni sulle metriche disponibili, vedere [Metriche di qualità dei servizi multimediali in streaming](../metrics/sm-quality.md).*
 
-Le dimensioni di qualità dei contenuti multimediali in streaming forniscono rapporti relativi alla qualità dei contenuti utilizzati dal visitatore. L&#39;utilizzo di queste dimensioni richiede [!UICONTROL Adobe Streaming Media Collection]. Per informazioni, contatta il team dell’account Adobe.
+Le dimensioni di qualità dei servizi di contenuti multimediali in streaming forniscono rapporti relativi alla qualità dei contenuti utilizzati dal visitatore. L&#39;utilizzo di queste dimensioni richiede [!UICONTROL Adobe Analytics for Streaming Media Ad-on]. Per informazioni, contatta il team del tuo account di Adobe.
 
 Quando abiliti **[!UICONTROL Media Quality]** in [Generazione rapporti multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le seguenti dimensioni:
 
-| Nome Dimension | Descrizione | Inviato con | Variabile dati contestuali |
+| Nome dimensioni | Descrizione | Inviato con | Variabile dati contestuali |
 | --- | --- | --- | --- |
 | Bitrate medio | Il bitrate medio, in intervalli di bucket di 100 KBPS. Viene calcolata come media ponderata di tutti i valori di bitrate in relazione alla durata di riproduzione per una determinata sessione di riproduzione. | Chiusura file multimediale | `a.media.qoe.bitrateAverageBucket` |
 | Modifiche al bitrate | Il numero di modifiche del bitrate che si sono verificate durante una sessione di riproduzione. | Chiusura file multimediale | `a.media.qoe.bitrateChangeCount` |

@@ -1,18 +1,18 @@
 ---
-title: Metriche di tracciamento dello stato del lettore multimediale in streaming
+title: Metriche di tracciamento dello stato del lettore di servizi multimediali in streaming
 description: Metriche disponibili quando abiliti [!UICONTROL Player State Tracking] per una suite di rapporti.
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
 
-# Metriche di tracciamento dello stato del lettore multimediale in streaming
+# Metriche di tracciamento dello stato del lettore di servizi multimediali in streaming
 
-Le metriche di tracciamento dello stato del lettore multimediale in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di raccolta multimediale in streaming. L&#39;utilizzo di queste metriche richiede **[!UICONTROL Adobe Streaming Media Collection]**. Per informazioni, contatta il team dell’account Adobe.
+Le metriche di tracciamento dello stato del lettore di servizi multimediali in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di servizi multimediali in streaming. L&#39;utilizzo di queste metriche richiede **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
 Quando abiliti **[!UICONTROL Player State Tracking]** in [Report multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le metriche seguenti:
 

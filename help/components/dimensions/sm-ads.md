@@ -1,20 +1,20 @@
 ---
-title: Dimensioni degli annunci di contenuti multimediali in streaming
+title: Servizi e dimensioni per contenuti multimediali in streaming
 description: Dimensioni disponibili quando si abilita [!UICONTROL Media Ads] per una suite di rapporti.
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 8%
+source-wordcount: '452'
+ht-degree: 7%
 
 ---
 
-# Dimensioni degli annunci di contenuti multimediali in streaming
+# Servizi e dimensioni per contenuti multimediali in streaming
 
 *In questa pagina sono descritte le dimensioni disponibili quando si abilita [!UICONTROL Media Ads] per una suite di rapporti. Vedi [Metriche degli annunci multimediali in streaming](../metrics/sm-ads.md) per le metriche disponibili.*
 
-Le dimensioni degli annunci per contenuti multimediali in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di raccolta di contenuti multimediali in streaming. L&#39;utilizzo di queste dimensioni richiede **[!UICONTROL Adobe Streaming Media Collection]**. Per informazioni, contatta il team dell’account Adobe.
+I servizi e le dimensioni di Streaming Media forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di Streaming Media Services. L&#39;utilizzo di queste dimensioni richiede **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
 Quando abiliti **[!UICONTROL Media Ads]** in [Generazione rapporti multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le seguenti dimensioni:
 
@@ -31,7 +31,7 @@ Quando abiliti **[!UICONTROL Media Ads]** in [Generazione rapporti multimediali]
 
 {style="table-layout:auto"}
 
-Oltre alle quote di cui sopra, Adobe crea automaticamente le seguenti quote di classificazione. Per visualizzare i rapporti che utilizzano queste dimensioni, devi caricare i dati di classificazione.
+Oltre alle dimensioni di cui sopra, Adobe crea automaticamente le seguenti dimensioni di classificazione. Per visualizzare i rapporti che utilizzano queste dimensioni, devi caricare i dati di classificazione.
 
 | Nome classificazione | Dimensione principale | Descrizione |
 | --- | --- | --- |

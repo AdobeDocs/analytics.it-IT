@@ -1,20 +1,20 @@
 ---
-title: Dimensioni principali di Streaming Media
+title: Dimensioni principali dei servizi di contenuti multimediali in streaming
 description: Dimensioni disponibili quando si abilita [!UICONTROL Media Core] per una suite di rapporti.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '404'
 ht-degree: 9%
 
 ---
 
-# Dimensioni principali di Streaming Media
+# Dimensioni principali dei servizi di contenuti multimediali in streaming
 
-*In questa pagina sono descritte le dimensioni disponibili quando si abilita [!UICONTROL Media Core] per una suite di rapporti. Vedi [Metriche di base per Streaming Media](../metrics/sm-core.md) per le metriche disponibili.*
+*In questa pagina sono descritte le dimensioni disponibili quando si abilita [!UICONTROL Media Core] per una suite di rapporti. Per informazioni sulle metriche disponibili, vedere [Metriche di base di Streaming Media Services](../metrics/sm-core.md).*
 
-Le dimensioni principali di Streaming Media forniscono funzionalità di reporting di base ai dati raccolti tramite le librerie di raccolta di contenuti multimediali in streaming. L&#39;utilizzo di queste dimensioni richiede **[!UICONTROL Adobe Streaming Media Collection]**. Per informazioni, contatta il team dell’account Adobe.
+Le dimensioni principali dei servizi di contenuti multimediali in streaming forniscono funzionalità di reporting di base ai dati raccolti tramite le librerie dei servizi di contenuti multimediali in streaming. L&#39;utilizzo di queste dimensioni richiede **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
 Quando abiliti **[!UICONTROL Media Core]** in [Generazione rapporti multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le seguenti dimensioni:
 
@@ -32,7 +32,7 @@ Quando abiliti **[!UICONTROL Media Core]** in [Generazione rapporti multimediali
 
 {style="table-layout:auto"}
 
-Oltre alle quote di cui sopra, Adobe crea automaticamente le seguenti quote di classificazione. Per visualizzare i rapporti che utilizzano queste dimensioni, devi caricare i dati di classificazione.
+Oltre alle dimensioni di cui sopra, Adobe crea automaticamente le seguenti dimensioni di classificazione. Per visualizzare i rapporti che utilizzano queste dimensioni, devi caricare i dati di classificazione.
 
 | Nome classificazione | Dimensione principale | Descrizione |
 | --- | --- | --- |

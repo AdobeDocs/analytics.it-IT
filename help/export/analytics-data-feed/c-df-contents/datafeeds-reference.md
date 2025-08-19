@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '3632'
-ht-degree: 66%
+source-wordcount: '3676'
+ht-degree: 65%
 
 ---
 
@@ -193,50 +193,50 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | **`va_finder_id`** | ID numerico che identifica la dimensione [Canale di primo contatto](/help/components/dimensions/first-touch-channel.md). La ricerca per questo ID si trova in Marketing Channel Manager. | tinyint unsigned |
 | **`va_instance_event`** | Un flag che identifica il canale di marketing [Istanze](/help/components/metrics/instances.md). | tinyint unsigned |
 | **`va_new_engagement`** | Un flag che identifica il canale di marketing [Nuovi impegni](/help/components/metrics/new-engagements.md). | tinyint unsigned |
-| **`video`** | La dimensione [Contenuto](/help/components/dimensions/sm-core.md) elemento multimediale in streaming. | varchar(255) |
-| **`videoad`** | La dimensione [Ad](/help/components/dimensions/sm-ads.md) dei file multimediali in streaming. | varchar(255) |
-| **`videoadinpod`** | La dimensione [Annuncio in posizione pod](/help/components/dimensions/sm-ads.md) elemento multimediale in streaming. | varchar(255) |
-| **`videoadlength`** | La dimensione [Lunghezza annuncio (variabile)](/help/components/dimensions/sm-ads.md) dei file multimediali in streaming. | numero intero |
-| **`videoadload`** | La dimensione [Ad carica](/help/components/dimensions/sm-ads.md) Streaming Media. | varchar(255) |
-| **`videoadname`** | La dimensione [Nome annuncio (variabile)](/help/components/dimensions/sm-ads.md) elemento multimediale in streaming. | varchar(255) |
-| **`videoadplayername`** | La dimensione [Nome lettore annuncio](/help/components/dimensions/sm-ads.md) elemento multimediale in streaming. | varchar(255) |
-| **`videoadpod`** | La dimensione [Annuncio pod](/help/components/dimensions/sm-ads.md) di Streaming Media. | varchar(255) |
-| **`videoadvertiser`** | La dimensione [Inserzionista](/help/components/dimensions/sm-ads.md) Elemento multimediale in streaming. | varchar(255) |
-| **`videoaudioalbum`** | La dimensione [Album](/help/components/dimensions/sm-audio-metadata.md) dei file multimediali in streaming. | varchar(255) |
-| **`videoaudioartist`** | La dimensione [Artista](/help/components/dimensions/sm-audio-metadata.md) elemento multimediale in streaming. | varchar(255) |
-| **`videoaudioauthor`** | La dimensione [Autore](/help/components/dimensions/sm-audio-metadata.md) elemento multimediale in streaming. | varchar(255) |
-| **`videoaudiolabel`** | La dimensione [Etichetta](/help/components/dimensions/sm-audio-metadata.md) dei file multimediali in streaming. | varchar(255) |
-| **`videoaudiopublisher`** | La dimensione [Editore](/help/components/dimensions/sm-audio-metadata.md) dei file multimediali in streaming. | varchar(255) |
-| **`videoaudiostation`** | La dimensione [Stazione](/help/components/dimensions/sm-audio-metadata.md) di Streaming Media. | varchar(255) |
-| **`videocampaign`** | La dimensione [ID campagna](/help/components/dimensions/sm-ads.md) elemento multimediale in streaming. | varchar(255) |
-| **`videochannel`** | La dimensione [Canale contenuto](/help/components/dimensions/sm-core.md) File multimediali in streaming. | varchar(255) |
-| **`videochapter`** | La dimensione [Capitolo](/help/components/dimensions/sm-chapters.md) elemento multimediale in streaming. | varchar(255) |
-| **`videocontenttype`** | La dimensione [Tipo di contenuto](/help/components/dimensions/sm-core.md) elemento multimediale in streaming. | varchar(255) |
-| **`videodaypart`** | La dimensione [Fascia oraria](/help/components/dimensions/sm-video-metadata.md) di Streaming Media. | varchar(255) |
-| **`videoepisode`** | La dimensione [Episodio](/help/components/dimensions/sm-video-metadata.md) Elemento multimediale in streaming. | varchar(255) |
-| **`videofeedtype`** | La dimensione [Tipo di feed multimediale](/help/components/dimensions/sm-video-metadata.md) di Streaming Media. | varchar(255) |
-| **`videogenre`** | La dimensione [Genere](/help/components/dimensions/sm-video-metadata.md) dei file multimediali in streaming. Questa dimensione consente di inserire più valori nello stesso hit, delimitati da una virgola. | testo |
-| **`videolength`** | La dimensione [Lunghezza del contenuto (variabile)](/help/components/dimensions/sm-core.md) dei contenuti multimediali in streaming. | numero intero |
-| **`videomvpd`** | La dimensione [MVPD](/help/components/dimensions/sm-video-metadata.md) Streaming Media. | varchar(255) |
-| **`videoname`** | La dimensione [Nome contenuto (variabile)](/help/components/dimensions/sm-core.md) elemento multimediale in streaming. | varchar(255) |
-| **`videonetwork`** | La dimensione [Network](/help/components/dimensions/sm-video-metadata.md) Streaming Media. | varchar(255) |
-| **`videopath`** | La dimensione [Percorso file multimediali](/help/components/dimensions/sm-core.md) in streaming. | varchar(100) |
-| **`videoplayername`** | La dimensione [Nome del lettore di contenuti](/help/components/dimensions/sm-core.md) di contenuti multimediali in streaming. | varchar(255) |
-| **`videotime`** | La metrica [Tempo contenuto trascorso](/help/components/metrics/sm-core.md) per Streaming Media. | numero intero |
-| **`videoqoebitrateaverageevar`** | La dimensione [Velocità in bit media](/help/components/dimensions/sm-quality.md) dei file multimediali in streaming. | varchar(255) |
-| **`videoqoebitratechangecountevar`** | [Modifiche al bitrate](/help/components/dimensions/sm-quality.md) dimensione Contenuti multimediali in streaming. | varchar(255) |
-| **`videoqoebuffercountevar`** | La dimensione [Eventi buffer](/help/components/dimensions/sm-quality.md) File multimediali in streaming. | varchar(255) |
-| **`videoqoebuffertimeevar`** | La dimensione [Durata totale del buffer](/help/components/dimensions/sm-quality.md) dei file multimediali in streaming. | varchar(255) |
-| **`videoqoedroppedframecountevar`** | La dimensione [Frame rilasciati](/help/components/dimensions/sm-quality.md) dei file multimediali in streaming. | varchar(255) |
-| **`videoqoeerrorcountevar`** | La dimensione [Errori](/help/components/dimensions/sm-quality.md) dei file multimediali in streaming. | varchar(255) |
-| **`videoqoeextneralerrors`** | La dimensione [ID errore esterni](/help/components/dimensions/sm-quality.md) dei file multimediali in streaming. Questa dimensione consente più valori nello stesso hit. | testo |
-| **`videoqoeplayersdkerrors`** | La dimensione [ID errore SDK del lettore](/help/components/dimensions/sm-quality.md) di Streaming Media. Questa dimensione consente più valori nello stesso hit. | testo |
-| **`videoqoetimetostartevar`** | La dimensione [Tempo di avvio](/help/components/dimensions/sm-quality.md) di Streaming Media. | varchar(255) |
-| **`videoseason`** | La dimensione [Stagione](/help/components/dimensions/sm-video-metadata.md) dei file multimediali in streaming. | varchar(255) |
-| **`videosegment`** | La dimensione [Segmento di contenuto](/help/components/dimensions/sm-core.md) elemento multimediale in streaming. | varchar(255) |
-| **`videoshow`** | La dimensione [Mostra](/help/components/dimensions/sm-video-metadata.md) file multimediali in streaming. | varchar(255) |
-| **`videoshowtype`** | La dimensione [Mostra tipo](/help/components/dimensions/sm-video-metadata.md) di Streaming Media. | varchar(255) |
-| **`videostreamtype`** | La dimensione [Tipo di flusso](/help/components/dimensions/sm-core.md) elemento multimediale in streaming. | varchar(255) |
+| **`video`** | La dimensione [Contenuto](/help/components/dimensions/sm-core.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoad`** | La dimensione [Ad](/help/components/dimensions/sm-ads.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoadinpod`** | La dimensione [Annuncio in posizione pod](/help/components/dimensions/sm-ads.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoadlength`** | La dimensione [Lunghezza annuncio (variabile)](/help/components/dimensions/sm-ads.md) dei servizi multimediali in streaming. | numero intero |
+| **`videoadload`** | La dimensione [Ad carica](/help/components/dimensions/sm-ads.md) servizi multimediali in streaming. | varchar(255) |
+| **`videoadname`** | La dimensione [Nome annuncio (variabile)](/help/components/dimensions/sm-ads.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoadplayername`** | La dimensione [Nome lettore annuncio](/help/components/dimensions/sm-ads.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoadpod`** | La dimensione [Ad pod](/help/components/dimensions/sm-ads.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoadvertiser`** | La dimensione [Inserzionista](/help/components/dimensions/sm-ads.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoaudioalbum`** | La dimensione [Album](/help/components/dimensions/sm-audio-metadata.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoaudioartist`** | La dimensione [Artista](/help/components/dimensions/sm-audio-metadata.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoaudioauthor`** | La dimensione [Autore](/help/components/dimensions/sm-audio-metadata.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoaudiolabel`** | La dimensione [Label](/help/components/dimensions/sm-audio-metadata.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoaudiopublisher`** | La dimensione di [Publisher](/help/components/dimensions/sm-audio-metadata.md) servizi multimediali in streaming. | varchar(255) |
+| **`videoaudiostation`** | La dimensione [Stazione](/help/components/dimensions/sm-audio-metadata.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videocampaign`** | La dimensione [ID campagna](/help/components/dimensions/sm-ads.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videochannel`** | La dimensione [Canale contenuto](/help/components/dimensions/sm-core.md) servizi multimediali in streaming. | varchar(255) |
+| **`videochapter`** | La dimensione [Capitolo](/help/components/dimensions/sm-chapters.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videocontenttype`** | La dimensione [Tipo di contenuto](/help/components/dimensions/sm-core.md) servizi multimediali in streaming. | varchar(255) |
+| **`videodaypart`** | La dimensione [Fascia oraria](/help/components/dimensions/sm-video-metadata.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoepisode`** | La dimensione [Episodio](/help/components/dimensions/sm-video-metadata.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videofeedtype`** | La dimensione [Tipo di feed multimediale](/help/components/dimensions/sm-video-metadata.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videogenre`** | La dimensione [Genere](/help/components/dimensions/sm-video-metadata.md) dei servizi multimediali in streaming. Questa dimensione consente di inserire più valori nello stesso hit, delimitati da una virgola. | testo |
+| **`videolength`** | La dimensione [Lunghezza del contenuto (variabile)](/help/components/dimensions/sm-core.md) dei servizi multimediali in streaming. | numero intero |
+| **`videomvpd`** | La dimensione [MVPD](/help/components/dimensions/sm-video-metadata.md) servizi multimediali in streaming. | varchar(255) |
+| **`videoname`** | La dimensione [Nome contenuto (variabile)](/help/components/dimensions/sm-core.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videonetwork`** | La dimensione [Rete](/help/components/dimensions/sm-video-metadata.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videopath`** | La dimensione [Percorso file multimediali](/help/components/dimensions/sm-core.md) dei servizi multimediali in streaming. | varchar(100) |
+| **`videoplayername`** | La dimensione [Nome del lettore di contenuti](/help/components/dimensions/sm-core.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videotime`** | La metrica [Tempo di contenuto trascorso](/help/components/metrics/sm-core.md) dei servizi multimediali in streaming. | numero intero |
+| **`videoqoebitrateaverageevar`** | La dimensione [Velocità in bit media](/help/components/dimensions/sm-quality.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoqoebitratechangecountevar`** | La dimensione [Modifiche bitrate](/help/components/dimensions/sm-quality.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoqoebuffercountevar`** | La dimensione [Eventi buffer](/help/components/dimensions/sm-quality.md) servizi multimediali in streaming. | varchar(255) |
+| **`videoqoebuffertimeevar`** | La dimensione [Durata totale del buffer](/help/components/dimensions/sm-quality.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoqoedroppedframecountevar`** | La dimensione [Frame rilasciati](/help/components/dimensions/sm-quality.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoqoeerrorcountevar`** | La dimensione [Errori](/help/components/dimensions/sm-quality.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoqoeextneralerrors`** | La dimensione [ID errore esterni](/help/components/dimensions/sm-quality.md) dei servizi multimediali in streaming. Questa dimensione consente più valori nello stesso hit. | testo |
+| **`videoqoeplayersdkerrors`** | La dimensione [ID errore SDK del lettore](/help/components/dimensions/sm-quality.md) dei servizi multimediali in streaming. Questa dimensione consente più valori nello stesso hit. | testo |
+| **`videoqoetimetostartevar`** | La dimensione [Tempo di avvio](/help/components/dimensions/sm-quality.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoseason`** | La dimensione [Stagione](/help/components/dimensions/sm-video-metadata.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videosegment`** | La dimensione [Segmento di contenuto](/help/components/dimensions/sm-core.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videoshow`** | La dimensione [Mostra](/help/components/dimensions/sm-video-metadata.md) servizi multimediali in streaming. | varchar(255) |
+| **`videoshowtype`** | La dimensione [Mostra tipo](/help/components/dimensions/sm-video-metadata.md) dei servizi multimediali in streaming. | varchar(255) |
+| **`videostreamtype`** | La dimensione [Tipo di flusso](/help/components/dimensions/sm-core.md) servizi multimediali in streaming. | varchar(255) |
 | **`visid_high`** | Utilizzato con `visid_low` per identificare in modo univoco un visitatore. | Bigint senza segno |
 | **`visid_low`** | Utilizzato con `visid_high` per identificare in modo univoco un visitatore. | Bigint senza segno |
 | **`visid_new`** | Flag che determina se l’hit contiene un ID visitatore appena generato. | char(1) |
@@ -410,4 +410,4 @@ Il seguente elenco di colonne non è utilizzato, è stato ritirato o non contien
 >[!MORELIKETHIS]
 >
 >[Mappatura variabile oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[Mappatura variabile oggetto dati](/help/implement/aep-edge/data-var-mapping.md)
+>>[Mappatura variabile oggetto dati](/help/implement/aep-edge/data-var-mapping.md)
