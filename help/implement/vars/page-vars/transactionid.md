@@ -4,24 +4,22 @@ description: Utilizza questa variabile per collegare dati online e offline.
 feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fc52bfaa13f7fc93ef53aa49746d432676b3d55f
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 17%
+source-wordcount: '389'
+ht-degree: 13%
 
 ---
 
 # transactionID
 
-La variabile `transactionID` identifica in modo univoco una transazione in modo che l’hit possa collegarsi ai dati caricati tramite le origini dati. Questa variabile è utile nei casi in cui desideri utilizzare dati provenienti da altri canali e collegarla a dati raccolti con AppMeasurement.
+La variabile `transactionID` identifica in modo univoco una transazione in modo che l&#39;hit possa fornire valori di dimensione ai dati caricati tramite [Origini dati ID transazione](/help/import/data-sources/transactionid.md). Questa variabile è utile nei casi in cui desideri compilare i dati del canale offline con i valori raccolti dai dati del canale online.
 
 >[!NOTE]
 >
 >Prima di utilizzare questa variabile, assicurati che [!UICONTROL Transaction ID Storage] sia abilitato in una suite di rapporti. Per ulteriori informazioni, consulta [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) nella guida utente dell&#39;amministratore.
 
-Quando imposti `transactionID` su un hit, Adobe crea un&#39;istantanea di tutte le variabili Analytics impostate o mantenute in quel momento. I dati caricati tramite Origini dati con un ID transazione corrispondente sono legati in modo permanente a tali valori di variabile.
-
-Adobe ricorda tutti i valori ID transazione (collegati e non collegati) per un massimo di 25 mesi.
+Quando imposti `transactionID` su un hit, Adobe crea un&#39;istantanea di tutte le variabili Analytics impostate o mantenute in quel momento. Per l&#39;elenco delle dimensioni incluse nello snapshot, vedere [Origini dati ID transazione](/help/import/data-sources/transactionid.md). Adobe ricorda tutti i valori ID transazione (collegati e non collegati) per un massimo di 25 mesi.
 
 ## ID transazione tramite Web SDK
 
