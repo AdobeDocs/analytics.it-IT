@@ -5,10 +5,10 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 599fbea7cb22e9cd0193b56fc2fb3c506bc62949
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 93%
+source-wordcount: '1621'
+ht-degree: 86%
 
 ---
 
@@ -93,6 +93,21 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
    * Dal menu di scelta rapida di una tabella a forma libera, seleziona **[!UICONTROL Visualize]**. Seleziona quindi la visualizzazione dal sottomenu. In base alla selezione corrente nella tabella, Workspace determina la visualizzazione da offrire e interpreta i dati per generare la visualizzazione richiesta.
 
+Quando aggiungi una visualizzazione semplice, ad esempio una [Linea](line.md) di [Barra](bar.md), la visualizzazione utilizza la tabella a forma libera più vicina come origine di dati. Puoi sempre modificare l&#39;[origine dati](#data-source) delle tue visualizzazioni.
+
+## Gestire le visualizzazioni
+
+Puoi gestire una visualizzazione quando passi il cursore del mouse su di essa o selezionala.
+
+![Gestisci visualizzazione](assets/manage-visualization.png)
+
+* Per comprimere una visualizzazione, selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg).
+* Per visualizzare una visualizzazione compressa, selezionare ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
+* Per eliminare una visualizzazione, selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg). Per annullare, selezionare **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Per ripristinare l&#39;altezza predefinita di una visualizzazione, selezionare ![Ridimensiona immagine](/help/assets/icons/Resize.svg).
+* Per spostare una visualizzazione all&#39;interno di un pannello, trascina e rilascia la visualizzazione ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg) (in genere quando passi il cursore del mouse sull&#39;intestazione).
+
+
 ## Legend (Legenda)
 
 Una legenda consente di correlare la data in una tabella di origine alle serie tracciate nella visualizzazione. La legenda è interattiva: puoi selezionare un elemento della legenda per mostrare o nascondere una serie nella visualizzazione, operazione utile se desideri semplificare i dati visualizzati.
@@ -110,6 +125,20 @@ Per modificare un’etichetta di legenda:
 1. Fai clic su **[!UICONTROL Enter]** per salvare.
 
 
+## Impostazioni
+
+Ogni visualizzazione dispone di impostazioni specifiche. Per accedere alle impostazioni di visualizzazione, seleziona ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** nell’intestazione della visualizzazione per visualizzare un popup.
+
+A seconda della visualizzazione, puoi configurare
+
+* dettagli per l’origine di dati della visualizzazione tramite la scheda [**[!UICONTROL Data source]**](#data-source) e
+* impostazioni per la visualizzazione tramite la scheda [**[!UICONTROL Settings]**](#settings-1).
+
+![Impostazioni visualizzazione](assets/visualization-settings.png)
+
+### Origine dati
+
+Puoi controllare quale origine dati e quali elementi o posizioni all’interno di tale origine dati corrispondono a una visualizzazione. Per ulteriori informazioni, consulta [Gestione delle origini dati](t-sync-visualization.md).
 
 ### Impostazioni
 
@@ -217,8 +246,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
@@ -234,6 +263,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/329405/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->

@@ -4,10 +4,10 @@ title: Totali
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 84%
+source-wordcount: '443'
+ht-degree: 81%
 
 ---
 
@@ -33,7 +33,7 @@ Nelle tabelle a forma libera viene visualizzata una riga del totale a ogni livel
 In ![Impostazioni](/help/assets/icons/Setting.svg) **[!UICONTROL Column settings]** sono disponibili le opzioni **[!UICONTROL Show totals]** and **[!UICONTROL Show grand total]**. Se queste impostazioni non sono selezionate, i totali vengono rimossi dalla tabella, il che può essere utile nei casi in cui i totali non abbiano senso.
 
 
-I totali della [riga statica](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) si comportano in modo diverso e sono controllati in ![Impostazioni](/help/assets/icons/Setting.svg) **[!UICONTROL Row Settings]**.
+In una tabella a forma libera che contiene [righe statiche](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md), i totali si comportano in modo diverso. E sono controllati con ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Row Settings]**.
 
 | Opzione | Descrizione |
 |---|---|
