@@ -3,10 +3,10 @@ description: Scopri come gestire i progetti pianificati.
 title: 'Gestione '
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 38%
+source-wordcount: '740'
+ht-degree: 37%
 
 ---
 
@@ -59,7 +59,7 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati: Puo
 | Icona | Azione | Descrizione |
 |:---:|---|---|
 | ![Chiudi](/help/assets/icons/Close.svg) | **[!UICONTROL *x *selezionato]** | Seleziona per deselezionare i progetti pianificati selezionati. |
-| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina i progetti pianificati selezionati per il progetto; i progetti non vengono eliminati. |
+| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina i progetti pianificati selezionati per il progetto; i progetti non vengono eliminati. <p>Per informazioni sull&#39;eliminazione di un progetto, vedere [Panoramica progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).</p> |
 | ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai progetti pianificati selezionati. In **[!UICONTROL Tag Scheduled projects]** selezionare i tag e selezionare **[!UICONTROL Save]** da salvare. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** | Approva i progetti programmati selezionati. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Esporta i progetti pianificati selezionati in un file denominato `Export Scheduled Projects List.csv`. |
