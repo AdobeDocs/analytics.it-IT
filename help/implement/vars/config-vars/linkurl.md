@@ -4,18 +4,18 @@ description: Sostituisci l’URL di collegamento generato automaticamente utiliz
 feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 15%
+source-wordcount: '190'
+ht-degree: 13%
 
 ---
 
 # linkURL
 
-Ogni volta che una chiamata di tracciamento dei collegamenti viene inviata ad Adobe, i server di raccolta dati rilevano automaticamente l’URL. Utilizzare la variabile `linkURL` per ignorare l&#39;URL rilevato.
+Ogni volta che una chiamata di tracciamento dei collegamenti viene inviata ad Adobe, AppMeasurement rileva l’URL su cui hai fatto clic. Questo URL consente di determinare il tipo di collegamento, ad esempio i collegamenti di download e di uscita. Utilizzare la variabile `linkURL` per ignorare l&#39;URL rilevato.
 
-In Analysis Workspace non sono presenti dimensioni che generano rapporti su questa variabile. Popola la colonna `page_event_var1` in [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md).
+In Analysis Workspace non sono presenti dimensioni che generano rapporti su questa variabile. Popola la colonna `page_event_var1` in [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md). Se desideri tenere traccia dell&#39;URL di un collegamento su cui è stato fatto clic, Adobe consiglia di utilizzare una variabile personalizzata, ad esempio [Prop](../page-vars/prop.md).
 
 ## Collega URL tramite Web SDK
 
@@ -30,7 +30,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.linkURL in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-La variabile `s.linkURL` è una stringa contenente l&#39;URL del browser in cui è stato fatto clic sul collegamento. Questa variabile non popola le dimensioni disponibili nel reporting.
+La variabile `s.linkURL` è una stringa contenente l&#39;URL completo del collegamento su cui è stato fatto clic. Questa variabile non popola le dimensioni disponibili nel reporting.
 
 ```js
 s.linkURL = "https://example.com";

@@ -4,14 +4,14 @@ description: Abilita o disabilita il tracciamento automatico dei collegamenti pe
 feature: Appmeasurement Implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 16%
+source-wordcount: '310'
+ht-degree: 15%
 
 ---
 
-# trackDownLoadLinks
+# trackDownloadLinks
 
 Adobe offre la possibilità di tenere traccia dei collegamenti di download senza impostare manualmente il metodo [`tl()`](../functions/tl-method.md) per ogni collegamento di download. Abilita questa variabile se desideri utilizzare il tracciamento automatico dei collegamenti per i collegamenti di download.
 
@@ -28,7 +28,7 @@ Utilizzare la casella di controllo [!UICONTROL Enable click data collection] dur
 
 ## Attivare o disattivare la raccolta di clic implementando manualmente il Web SDK
 
-Configurare SDK utilizzando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it#clickCollectionEnabled). Il campo è di tipo booleano e determina se i dati associati ai clic sui collegamenti vengono raccolti automaticamente. Il valore predefinito è `true`. Impostare questo valore su `false` se si desidera disabilitare il tracciamento automatico dei collegamenti. Questa impostazione gestisce il tracciamento automatico dei collegamenti sia per i collegamenti di download che per quelli di uscita.
+Configurare SDK utilizzando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). Il campo è di tipo booleano e determina se i dati associati ai clic sui collegamenti vengono raccolti automaticamente. Il valore predefinito è `true`. Impostare questo valore su `false` se si desidera disabilitare il tracciamento automatico dei collegamenti. Questa impostazione gestisce il tracciamento automatico dei collegamenti sia per i collegamenti di download che per quelli di uscita.
 
 ```json
 alloy("configure", {
@@ -49,7 +49,7 @@ Fai clic sulla casella di controllo per abilitare il tracciamento automatico dei
 
 ## s.trackDownloadLinks in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-`s.trackDownloadLinks` è un valore booleano che abilita o disabilita il tracciamento automatico dei collegamenti di download. Se non si desidera tenere traccia dei collegamenti di download o si preferisce chiamare manualmente il metodo `tl()` per tenere traccia dei download, impostare questa variabile su `false`.
+`s.trackDownloadLinks` è un valore booleano che abilita o disabilita il tracciamento automatico dei collegamenti di download. Se non si desidera tenere traccia dei collegamenti di download o si preferisce chiamare manualmente il metodo `tl()` per tenere traccia dei download, impostare questa variabile su `false`. La variabile [linkDownloadFileTypes](linkdownloadfiletypes.md) deve essere impostata anche per il funzionamento del tracciamento automatico dei collegamenti di download.
 
 ```js
 s.trackDownloadLinks = true;
