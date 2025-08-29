@@ -4,10 +4,10 @@ keywords: Feed di dati;processo;colonna pre;colonna post;sensibilità maiuscole/
 title: Domande frequenti sui feed dati
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 98%
+source-wordcount: '1463'
+ht-degree: 84%
 
 ---
 
@@ -17,9 +17,19 @@ Domande frequenti sui feed di dati.
 
 ## I nomi dei feed devono essere univoci? {#unique}
 
-I nomi dei file di feed dati sono costituiti dall‘ID della suite di rapporti (RSID) e dalla data. Due feed configurati per lo stesso RSID e la stessa data hanno lo stesso nome file. Se tali feed vengono inviati alla stessa posizione, un file sovrascrive l‘altro. Per evitare la sovrascrittura di un file, non è possibile creare un feed che possa sovrascrivere un feed esistente nella stessa posizione.
+Adobe Analytics non impedisce la sovrascrittura dei file di feed dati.
 
-Se si tenta di creare un feed quando ne esiste già un altro con lo stesso nome di file, viene visualizzato un messaggio di errore. Prendi in considerazione le seguenti soluzioni:
+Per evitare che i file di feed dati vengano sovrascritti, si consiglia di assegnare nomi univoci a tutti i file di feed dati inviati alla stessa posizione.
+
+I nomi dei file di feed dati sono costituiti dalle seguenti caratteristiche:
+
+* ID suite di rapporti (RSID)
+
+* Data di esportazione
+
+Due feed configurati per lo stesso RSID e date hanno lo stesso nome file. Se tali feed vengono consegnati nella stessa posizione, un file sovrascrive l’altro.
+
+Per evitare la sovrascrittura di un file, prendere in considerazione le seguenti soluzioni:
 
 * Modifica il percorso di consegna.
 * Se possibile, modifica le date.
@@ -67,11 +77,11 @@ Esempio: il 9 marzo 2021 è stato creato un nuovo feed di dati e i dati dal 1° 
 
 ## Qual è l’impatto dell’ora legale sui feed di dati orari? {#dst}
 
-In alcuni fusi orari, l’ora cambia due volte all&#39;anno a causa dell’introduzione dell’ora legale. I feed di dati rispettano il fuso orario per il quale è configurata la suite di rapporti. Se il fuso orario della suite di rapporti non utilizza l’ora legale, la consegna dei file continua normalmente come qualsiasi altro giorno. Se il fuso orario della suite di rapporti è quello che utilizza l’ora legale, la consegna dei file viene modificata per l’ora in cui si verifica il passaggio all’ora legale o solare (di solito alle 2:00).
+In alcuni fusi orari, l’ora cambia due volte all&#39;anno a causa dell’introduzione dell’ora legale. I feed di dati rispettano il fuso orario per il quale è configurata la suite di rapporti. Se il fuso orario della suite di rapporti non utilizza l’ora legale, la consegna dei file continua normalmente come qualsiasi altro giorno. Se il fuso orario della suite di rapporti è quello che utilizza l’ora legale, la consegna dei file viene modificata per l’ora in cui si verifica il cambiamento (in genere alle 2:00).
 
-Quando si passa dall’ora solare all’ora legale (un’ora in avanti), il cliente riceve solo 23 file. L’ora saltata nel passaggio all’ora legale viene omessa. Ad esempio, se il passaggio si verifica alle 2 del mattino, si ottiene un file per l’ora 01:00 e un file per l’ora 03:00. Non c&#39;è alcun file relativo alle 02:00 perché, le 02:00 ora solare diventano le 03:00 ora legale.
+Quando si passa dall’ora solare all’ora legale (un’ora in avanti), il cliente riceve solo 23 file. L’ora saltata nel passaggio all’ora legale viene omessa. Ad esempio, se la transizione si verifica alle 2 del mattino, si ottiene un file per l’ora 1:00 e un file per l’ora 3:00. Nessun file 2:00 perché in 2:00 DST diventa 3:00 DST.
 
-Quando si passa dall’ora legale all’ora solare (un’ora indietro), il cliente ottiene 24 file. Tuttavia, l’ora in cui avviene il passaggio all’ora solare include in realtà due ore di dati. Ad esempio, se il passaggio si verifica alle 02:00, il file dell’ora 01:00 viene ritardato di un’ora, ma contiene i dati relativi a due ore. Contiene dati da 01:00 ora legale a 02:00 ora solare (che corrisponde alle 03:00 ora legale). Il file successivo inizia alle 02:00 ora solare.
+Quando si passa dall’ora legale all’ora solare (un’ora indietro), il cliente ottiene 24 file. Tuttavia, l’ora in cui avviene il passaggio all’ora solare include in realtà due ore di dati. Ad esempio, se la transizione si verifica alle 2:00 del mattino, il file per 1:00 viene ritardato di un&#39;ora, ma contiene dati per due ore. Contiene dati da 1:00 DST a 2:00 STD (che sarebbe stato 3:00 DST). Il file successivo inizia da 2:00 STD.
 
 ## In che modo Analytics gestisce gli errori di trasferimento FTP? {#ftp-failure}
 

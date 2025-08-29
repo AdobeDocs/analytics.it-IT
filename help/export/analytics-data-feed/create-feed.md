@@ -3,9 +3,9 @@ title: Creare un feed dati
 description: Scopri come creare un feed di dati e le informazioni sui file da fornire ad Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '4125'
+source-wordcount: '4124'
 ht-degree: 47%
 
 ---
@@ -33,7 +33,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Nome**] | Nome del feed dati. Deve essere univoco all’interno della suite di rapporti selezionata e può contenere fino a 255 caratteri. |
+   | [!UICONTROL **Nome**] | Nome del feed dati. Deve essere univoco all’interno della suite di rapporti selezionata e può contenere fino a 255 caratteri. [Ulteriori informazioni](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
    | [!UICONTROL **Suite di rapporti**] | La suite di rapporti su cui si basa il feed di dati. Se vengono creati più feed di dati per la stessa suite di rapporti, devono avere definizioni di colonne diverse. Solo le suite di rapporti di origine supportano i feed di dati; le suite di rapporti virtuali non sono supportate. |
    | [!UICONTROL **Invia e-mail al termine**] | L’indirizzo e-mail da notificare al termine dell’elaborazione di un feed. L’indirizzo e-mail deve essere formattato correttamente. |
    | [!UICONTROL **Intervallo feed**] | Seleziona **Giornaliero** per la retrocompilazione o i dati cronologici. I feed giornalieri contengono dati relativi a un’intera giornata, dalla mezzanotte alla mezzanotte nel fuso orario della suite di rapporti. Seleziona **Oraria** per continuare i dati (se preferisci, è disponibile anche la funzione Giornaliera per continuare i feed). I feed orari contengono dati relativi a una sola ora. |
