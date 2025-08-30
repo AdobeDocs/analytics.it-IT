@@ -4,10 +4,10 @@ description: Sostituisci l’URL di collegamento generato automaticamente utiliz
 feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 13%
+source-wordcount: '204'
+ht-degree: 12%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 Ogni volta che una chiamata di tracciamento dei collegamenti viene inviata ad Adobe, AppMeasurement rileva l’URL su cui hai fatto clic. Questo URL consente di determinare il tipo di collegamento, ad esempio i collegamenti di download e di uscita. Utilizzare la variabile `linkURL` per ignorare l&#39;URL rilevato.
 
-In Analysis Workspace non sono presenti dimensioni che generano rapporti su questa variabile. Popola la colonna `page_event_var1` in [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md). Se desideri tenere traccia dell&#39;URL di un collegamento su cui è stato fatto clic, Adobe consiglia di utilizzare una variabile personalizzata, ad esempio [Prop](../page-vars/prop.md).
+In Analysis Workspace non sono presenti dimensioni che generano rapporti su questa variabile. Popola la colonna `page_event_var1` in [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md). Se desideri tenere traccia dell&#39;URL di un collegamento su cui è stato fatto clic, Adobe consiglia di utilizzare una variabile personalizzata, ad esempio [Prop](../page-vars/prop.md). L&#39;utilizzo di [Activity Map](/help/analyze/activity-map/overview.md) può semplificare la raccolta dati per i collegamenti selezionati.
 
 ## Collega URL tramite Web SDK
 

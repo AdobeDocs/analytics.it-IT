@@ -1,33 +1,32 @@
 ---
-description: Puoi visualizzare i dati di Activity Map in Adobe Analytics
-title: Visualizzare i dati Activity Map in Adobe Analytics
+description: Abilita le dimensioni in modo che Activity Map possa raccogliere dati.
+title: Rapporti di Activity Map
 feature: Admin Tools
 exl-id: 9300c12e-3ade-4850-8a22-cba61b35ca67
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 84%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
-# Visualizzare i dati Activity Map in Adobe Analytics
+# Rapporti di Activity Map
 
-Passaggi amministrativi per abilitare la generazione rapporti di Activity Map in Analytics.
+Consente di abilitare le dimensioni da utilizzare con [Activity Map](/help/analyze/activity-map/overview.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
+**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Seleziona suite di rapporti > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
 
-Consente ad Analytics di raccogliere l’attività dell’utente fornita da Activity Map (in precedenza ClickMap). Questa integrazione
+Questa sezione della documentazione si concentra sull’abilitazione delle dimensioni utilizzate da Activity Map. Per ulteriori informazioni sulla sovrapposizione, sulle variabili di implementazione e sulle dimensioni, consulta [Panoramica di Activity Map](/help/analyze/activity-map/overview.md).
 
-* abilita la generazione rapporti in Analytics.
-* Aggiunge nuovi rapporti in **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map:]**
+Quando si seleziona il pulsante **[!UICONTROL Enable Activity Map Reports]**, vengono create le dimensioni seguenti:
 
-  | Rapporto | Descrizione |
-  |---|---|
-  | Pagina di Activity Map | Elenca le pagine in cui è stato fatto clic su un collegamento. |
-  | Area geografica di Activity Map | Elenca tutte le aree geografiche di collegamento raccolte in tutto il sito Web. Tieni presente che se un’area geografica viene visualizzata su più pagine, la metrica verrà aggregata su tutte le sue pagine. |
-  | Collegamenti di Activity Map | Elenca tutti i collegamenti raccolti nell’intero sito Web. |
-  | Collegamenti e aree geografiche di Activity Map | Elenca tutti i collegamenti raccolti con la rispettiva area geografica nell’intero sito Web. |
+* [[!UICONTROL Activity Map Link]](/help/components/dimensions/activity-map-link.md): nome del collegamento su cui è stato fatto clic.
+* [[!UICONTROL Activity Map Region]](/help/components/dimensions/activity-map-region.md): nome dell&#39;area su cui è stato fatto clic.
+* [[!UICONTROL Activity Map Page]](/help/components/dimensions/activity-map-page.md): nome della pagina al momento del clic sul collegamento.
+* [[!UICONTROL Activity Map Link By Region]](/help/components/dimensions/activity-map-link-by-region.md): valore concatenato di Activity Map Link e Activity Map Region.
 
-Per i dati da compilare, fai riferimento alla [documentazione di Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=it) per istruzioni di implementazione complete.
+Una volta abilitata, la tua implementazione può iniziare a inviare dati a queste dimensioni per l&#39;utilizzo in [Analysis Workspace](/help/analyze/analysis-workspace/home.md) e nella [sovrapposizione estensione browser](/help/analyze/activity-map/overlay/overview.md).
 
-<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->
+>[!NOTE]
+>
+>Quando abiliti Activity Map per una suite di rapporti, questa viene abilitata in modo permanente senza alcun modo per essere disabilitata in futuro.
