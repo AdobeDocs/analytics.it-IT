@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
-user-guide-description: Scopri come utilizzare i feed di dati per esportare dati non elaborati, e Data Warehouse per recuperare un output di dati sotto forma di foglio di calcolo. Scopri come utilizzare FTP e SFTP per trasferire i file.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+user-guide-description: Scopri come utilizzare i feed di dati e Data Warehouse per recuperare l’output di dati.
+source-git-commit: 9131c9ffbcf409620a67b36637367af22733b909
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 99%
+source-wordcount: '262'
+ht-degree: 90%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 + Data Warehouse {#data-warehouse}
    + [Panoramica di Data Warehouse](data-warehouse/data-warehouse.md)
    + [Aggiungere un gruppo utenti di Data Warehouse](data-warehouse/t-dw-group.md)
-   + Creare una richiesta di Data Warehouse {#dw-create-request}
+   + Create a Data Warehouse Request (Creare una richiesta di archivio dati) {#dw-create-request}
       + [Creare una richiesta di Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [Impostazioni generali](/help/export/data-warehouse/create-request/dw-general-settings.md)
       + [Generare il rapporto](/help/export/data-warehouse/create-request/dw-request-build-report.md)
@@ -52,7 +52,7 @@ ht-degree: 99%
    + [Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)](data-warehouse/data-warehouse-bp.md)
 + FTP e SFTP {#ftp-and-sftp}
    + [Utilizzare FTP e SFTP con Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
-   + Configurazione di account FTP ospitati da Adobe {#set-up-ftp-accounts}
+   + Configurare account FTP ospitati da Adobe {#set-up-ftp-accounts}
       + [Configurare account FTP: panoramica](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Classificazioni](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [Origini dati](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
@@ -75,4 +75,4 @@ ht-degree: 99%
       + [Connessione ad Adobe tramite SFTP senza password](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Download di Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it)
 + [API Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/rb-overview)
++ [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)
