@@ -72,25 +72,25 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>5</td> 
 <td><b>Aggiungi un servizio Adobe Analytics</b> allo stream di dati. Tale servizio controlla se e come i dati vengono inviati ad Adobe Analytics e a quali suite di rapporti in particolare.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=it#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>Crea una proprietà tag</b>. Le proprietà sono contenitori generali utilizzati per fare riferimento ai dati di gestione dei tag.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">Creare o configurare una proprietà tag per il Web</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=it#for-web">Creare o configurare una proprietà tag per il Web</a></td>
 </tr>
 
 <tr>
 <td>7</td> 
 <td><b>Installa e configura l'estensione Web SDK</b> nella proprietà tag. Configura l’estensione Web SDK per inviare i dati allo stream di dati configurato nel passaggio 4.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html">Panoramica dell’estensione Adobe Experience Platform Web SDK</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=it">Panoramica dell’estensione Adobe Experience Platform Web SDK</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Iterare, convalidare e pubblicare</b> in produzione. Incorpora il codice per includere la proprietà tag nelle pagine del sito web. Quindi utilizza elementi dati, regole e così via, per personalizzare l’implementazione.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Codice di incorporamento</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it">Panoramica sulla pubblicazione</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=it#embed-code">Codice di incorporamento</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it">Panoramica sulla pubblicazione</a></td>
 </tr>
 
 </table>

@@ -44,7 +44,7 @@ La pagina di rinuncia per l&#39;organizzazione dipende dal valore della variabil
    1. Sul server web, apri il file AppMeasurement.js utilizzato sul sito in un editor di codice o di testo.
    1. Nota il valore della variabile `trackingServer`.
 
-* Utilizzo di [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
+* Utilizzo di [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=it):
    1. Passa al sito utilizzando il browser Chrome.
    1. Apri Experience Cloud Debugger, quindi passa a [!UICONTROL Network tab].
    1. Nota il valore [!UICONTROL Request URL - Hostname].
