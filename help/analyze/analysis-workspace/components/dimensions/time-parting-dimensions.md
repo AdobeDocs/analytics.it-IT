@@ -18,7 +18,7 @@ Con la suddivisione in base al tempo, il timestamp degli hit raccolti viene sudd
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni suddivise in base al tempo](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni suddivise in base al tempo](https://video.tv.adobe.com/v/329410?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

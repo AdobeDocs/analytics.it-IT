@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326704/?quality=12&captions=ita)
 
 ## Basic key terminology
 

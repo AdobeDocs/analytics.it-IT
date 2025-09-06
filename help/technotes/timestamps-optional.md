@@ -20,7 +20,7 @@ Scopri i vantaggi e i vincoli dell’impostazione opzionale Marca temporale.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/3418614?quality=12&learn=on&captions=ita){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 -->

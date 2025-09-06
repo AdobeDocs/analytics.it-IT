@@ -42,7 +42,7 @@ Il pannello Analytics for Target consente di analizzare le attività e le esperi
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Analytics for Target](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Analytics for Target](https://video.tv.adobe.com/v/326715?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
