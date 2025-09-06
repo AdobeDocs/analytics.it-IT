@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 91%
+source-wordcount: '761'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 # [!DNL Adobe Analytics] Guida ai componenti {#components}
 
 + [Guida ai componenti di Analytics](home.md)
-+ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/it/docs/analytics/release-notes/latest)
 + Dimensioni {#dimensions}
    + [Panoramica delle dimensioni](dimensions/overview.md)
    + [Compatibilità delle dimensioni](dimensions/compatibility.md)
@@ -204,34 +204,34 @@ ht-degree: 91%
    + [Domande frequenti sui segmenti legacy](segmentation/seg-transition.md)
    + [Best practice](segmentation/best-practices.md)
 + Metriche calcolate {#calculated-metrics}
-   + [Panoramica](c-calcmetrics/cm-overview.md)
-   + [Video sulle procedure](c-calcmetrics/cm-videos.md)
+   + [Panoramica](calculated-metrics/cm-overview.md)
+   + [Video sulle procedure](calculated-metrics/cm-videos.md)
    + Flusso di lavoro {#calcmetric-workflow}
-      + [Creare metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [Trovare metriche](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Generare metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Un semplice esempio](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Un esempio più complesso](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Tipo di metrica e attribuzione](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Metriche di partecipazione](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [Metriche segmentate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
-      + [Sovrapponi e sostituisci segmenti](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
-      + [Metriche filtrate e ponderate](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [Usare le funzioni](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [Assegnare tag alle metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [Filtrare le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [Contrassegnare le metriche calcolate come preferite](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
-      + [Approvare le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
-      + [Condividere le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [Copiare le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [Gestire le metriche calcolate](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Creare metriche calcolate](calculated-metrics/workflow/cm-workflow.md)
+      + [Trovare metriche](calculated-metrics/workflow/cm-finding.md)
+      + [Generare metriche calcolate](calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+      + [Un esempio semplice](calculated-metrics/workflow/c-build-metrics/cm-pvv.md)
+      + [Un esempio più complesso](calculated-metrics/workflow/c-build-metrics/cm-orders-participation.md)
+      + [Tipo di metrica e attribuzione](calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [Metriche di partecipazione.](calculated-metrics/workflow/c-build-metrics/participation-metric.md)
+      + [Metriche segmentate](calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)
+      + [Sovrapponi e sostituisci segmenti](calculated-metrics/workflow/c-build-metrics/cm-stack-seg.md)
+      + [Metriche filtrate e ponderate](calculated-metrics/workflow/c-build-metrics/cm-weighted-metric.md)
+      + [Usare le funzioni](calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+      + [Assegnare tag alle metriche calcolate](calculated-metrics/workflow/cm-tagging.md)
+      + [Filtrare le metriche calcolate](calculated-metrics/workflow/cm-filter.md)
+      + [Contrassegnare le metriche calcolate come preferite](calculated-metrics/workflow/cm-favorite.md)
+      + [Approvare le metriche calcolate](calculated-metrics/workflow/cm-approving.md)
+      + [Condividere le metriche calcolate](calculated-metrics/workflow/cm-sharing.md)
+      + [Copiare le metriche calcolate](calculated-metrics/workflow/cm-copy.md)
+      + [Gestire le metriche calcolate](calculated-metrics/workflow/cm-manager.md)
    + Riferimenti {#calcmetrics-reference}
-      + [Funzioni di base](c-calcmetrics/cm-reference/cm-functions.md)
-      + [Funzioni avanzate](c-calcmetrics/cm-reference/cm-adv-functions.md)
-      + [Compatibilità delle metriche](c-calcmetrics/cm-compatibility.md)
-      + [Diritti basati sul ruolo](c-calcmetrics/cm-role-based-rights.md)
-      + [Totali delle metriche calcolate](c-calcmetrics/cm-totals.md)
-      + [Metriche calcolate predefinite](c-calcmetrics/cm-reference/default-calcmetrics.md)
+      + [Funzioni di base](calculated-metrics/cm-reference/cm-functions.md)
+      + [Funzioni avanzate](calculated-metrics/cm-reference/cm-adv-functions.md)
+      + [Compatibilità delle metriche](calculated-metrics/cm-compatibility.md)
+      + [Diritti basati sul ruolo](calculated-metrics/cm-role-based-rights.md)
+      + [Totali delle metriche calcolate](calculated-metrics/cm-totals.md)
+      + [Metriche calcolate predefinite](calculated-metrics/cm-reference/default-calcmetrics.md)
 + Suite di rapporti virtuali {#virtual-report-suites}
    + [Panoramica delle suite di rapporti virtuali](vrs/vrs-about.md)
    + [Suite di rapporti virtuale - Cura dei componenti](vrs/vrs-components.md)
@@ -255,14 +255,15 @@ ht-degree: 91%
    + [Limitare una suite di rapporti virtuale a determinate date](cda/limit-vrs-date.md)
    + [Domande frequenti su Analytics tra dispositivi](cda/faq.md)
 + Avvisi {#alerts}
-   + [Panoramica](c-alerts/intellligent-alerts.md)
-   + [Creare avvisi](c-alerts/alert-builder.md)
-   + [Gestire gli avvisi](c-alerts/alert-manager.md)
-   + [Casi d’uso](c-alerts/alerts-use-cases.md)
+   + [Panoramica](alerts/alerts-overview.md)
+   + [Creare avvisi](alerts/alert-builder.md)
+   + [Gestire gli avvisi](alerts/alert-manager.md)
+   + [Casi d’uso](alerts/alerts-use-cases.md)
 + Classificazioni {#classifications}
    + [Panoramica delle classificazioni](classifications/classifications-overview.md)
    + Set di classificazione {#sets}
       + [Panoramica](classifications/sets/overview.md)
+      + [File di dati](classifications/sets/data-files.md)
       + Gestire i set di classificazione {#manage}
          + [Gestione set di classificazione](classifications/sets/manage/set-manager.md)
          + [Creare un set di classificazione](classifications/sets/manage/create.md)
