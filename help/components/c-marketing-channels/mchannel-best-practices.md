@@ -3,10 +3,10 @@ title: Best practice per l’implementazione dei canali di marketing Adobe Analy
 description: Le best practice per l’utilizzo dei canali di marketing sono state aggiornate con informazioni sulla funzione Attribuzione e su Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 97%
+source-wordcount: '653'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ I [canali di marketing](/help/components/c-marketing-channels/c-getting-started-
 
 Al fine di garantire l’implementazione corretta per il futuro dei canali di marketing e la coerenza dei rapporti con la funzione Attribuzione e con Customer Journey Analytics, stiamo pubblicando una serie di best practice aggiornate. Se utilizzi già i canali di marketing, puoi scegliere le opzioni migliori tra queste nuove linee guida. Se non hai familiarità con i canali di marketing, ti consigliamo di attenerti a tutte le nuove best practice.
 
-Al momento della loro introduzione, i canali di marketing erano dotati solo delle dimensioni primo contatto e ultimo contatto. La versione corrente dell’attribuzione non richiede più dimensioni esplicite di primo/ultimo contatto. Adobe fornisce dimensioni generiche “Marketing Channel” e “Marketing Channel Detail” per consentirti di utilizzarle con il modello di attribuzione desiderato. Queste dimensioni generiche si comportano esattamente come le dimensioni di canale di primo contatto, ma hanno etichette diverse per evitare confusione quando si usano i canali di marketing con un modello di attribuzione diverso.
+Al momento della loro introduzione, i canali di marketing erano dotati solo delle dimensioni primo contatto e ultimo contatto. La versione corrente dell’attribuzione non richiede più dimensioni esplicite di primo/ultimo contatto. Adobe fornisce dimensioni generiche “Canale marketing” e “Dettagli canale marketing” per consentirti di utilizzarle con il modello di attribuzione desiderato. Queste dimensioni generiche si comportano esattamente come le dimensioni di canale di primo contatto, ma hanno etichette diverse per evitare confusione quando si usano i canali di marketing con un modello di attribuzione diverso.
 
 Poiché le dimensioni del canale di marketing dipendono da una definizione di visita tradizionale (come definita dalle relative regole di elaborazione), la definizione della visita non può essere modificata utilizzando le suite di rapporti virtuali. Queste procedure riviste consentono intervalli di lookback chiari e controllati con Attribution e con Adobe Analytics.
 
@@ -28,15 +28,19 @@ Per ottimizzare l’analisi del canale di marketing, è preferibile utilizzare l
 
 * La configurazione delle dimensioni Canale di marketing e Dettagli canale di marketing stabilisce i punti di contatto da valutare, corrispondenti a ogni istanza del canale di marketing.
 * Per l’analisi delle metriche, la tua organizzazione deve allinearsi a uno o più modelli di attribuzione. Salva le metriche personalizzate con questo modello per riutilizzarle facilmente.
-* Per impostazione predefinita, i dati vengono assegnati utilizzando Ultimo contatto e l’impostazione Periodo di coinvolgimento del visitatore. I modelli di metriche di attribuzione offrono un maggiore controllo sulle finestre di lookback e una maggiore varietà, tra cui l’[attribuzione algoritmica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=it#analysis-workspace).
+* Per impostazione predefinita, i dati vengono assegnati utilizzando Ultimo contatto e l’impostazione Periodo di coinvolgimento del visitatore. I modelli di metriche di attribuzione offrono un maggiore controllo sulle finestre di lookback e una maggiore varietà, tra cui l’[attribuzione algoritmica](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
 
 ## Best practice n. 2: nessuna definizione dei canali Diretto e Aggiornamento sessione
 
 Si consiglia di non utilizzare i canali Diretto e Interno/Aggiornamento sessione con modelli di attribuzione personalizzati.
 
-Cosa succede se nella tua organizzazione sono già stati configurati i canali Diretto e Aggiornamento sessione? In questo caso, si consiglia di: [creare una classificazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) per Primo contatto/Ultimo contatto e lasciare i canali Diretto e Aggiornamento sessione non classificati. La dimensione classificata produrrà gli stessi risultati di attribuzione come se tali canali non fossero mai stati configurati.
+Cosa succede se nella tua organizzazione sono già stati configurati i canali Diretto e Aggiornamento sessione? In questo caso, Adobe consiglia di [creare una classificazione](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) per First Touch/Last Touch e lasciare i canali Direct e Session Refresh non classificati. La dimensione classificata produce risultati di attribuzione simili al caso in cui tali canali non sono mai stati configurati.
 
 ![](assets/direct-session-refresh.png)
+
+Se disattivi questi canali e rimuovi le relative regole di elaborazione del canale di marketing, i risultati sono leggermente diversi dall’approccio di classificazione. Il valore `None` rappresenta le visite che non corrispondono ad alcuna regola di elaborazione del canale di marketing. Possono apparire differenze quando una visita che corrisponde a nessun canale segue una visita che corrisponde a un canale.
+
+Puoi comunque utilizzare modelli di attribuzione personalizzati per applicare intervalli di lookback e modelli di attribuzione in entrambi i casi.
 
 ## Best practice n. 3: abilitare l’esclusione del canale di ultimo contatto per tutti i canali
 
