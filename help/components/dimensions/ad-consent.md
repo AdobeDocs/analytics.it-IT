@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Consenso per la piattaforma di annunci
 
-La &#39;Dimensione del consenso della piattaforma dell&#39;annuncio&#39; [1} indica se viene raccolto il consenso per inviare dati a provider pubblicitari di terze parti, come Google, Meta e altri.](overview.md)
+La &#39;Dimensione del consenso della piattaforma dell&#39;annuncio&#39; [1&rbrace; indica se viene raccolto il consenso per inviare dati a provider pubblicitari di terze parti, come Google, Meta e altri.](overview.md)
 
 Attualmente, questa dimensione viene utilizzata solo per Google. A causa delle normative europee sulla privacy, il Digital Markets Act (DMA), Google richiede che i dati inviati ai propri server e raccolti in Europa indichino se il consenso è raccolto. Alcuni clienti di Analytics inviano i dati di un evento tramite Adobe Advertising come eventi di conversione a Google.
 

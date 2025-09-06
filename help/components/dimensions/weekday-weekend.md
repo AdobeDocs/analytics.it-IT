@@ -12,7 +12,7 @@ ht-degree: 28%
 
 # Giorno feriale/Fine settimana
 
-La [dimensione](overview.md) di &#39;Giorno feriale/Fine settimana&#39; fornisce ad insight informazioni se l&#39;hit si è verificato durante un giorno feriale (lunedì-venerdì) o un weekend (sabato-domenica). L&#39;ora dell&#39;hit è basata sul fuso orario della suite di rapporti [](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).
+La [dimensione](overview.md) di &#39;Giorno feriale/Fine settimana&#39; fornisce ad insight informazioni se l&#39;hit si è verificato durante un giorno feriale (lunedì-venerdì) o un weekend (sabato-domenica). L&#39;ora dell&#39;hit è basata sul fuso orario della suite di rapporti [&#128279;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).
 
 ## Popolare questa dimensione con i dati
 

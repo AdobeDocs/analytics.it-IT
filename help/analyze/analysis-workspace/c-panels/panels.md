@@ -91,7 +91,7 @@ Puoi gestire un pannello nei modi seguenti:
 
 ## Suite di rapporti
 
-Ogni pannello è associato a una [suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**&#x200B;nel menu a discesa in alto a destra del pannello.
 
 Quando crei un nuovo pannello, la suite di rapporti predefinita si basa sulla suite di rapporti dell’ultimo pannello su cui hai lavorato nel progetto Analysis Workspace.
 

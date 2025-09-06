@@ -18,7 +18,7 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 > Questo articolo fornisce a **clienti Adobe Analytics che (prevedono di) implementare Adobe Analytics** sul proprio sito Web istruzioni su come fornire agli utenti del sito Web collegamenti di rinuncia. <p><p>
-<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Se **stai visitando un sito Web che ha implementato Adobe Analytics** e desideri rinunciare, **<span style="color:red">questo articolo NON è adatto a te</span>**. Consulta [Opzioni sulla privacy di Adobe](https://www.adobe.com/privacy/opt-out.html) per controllare come Adobe utilizza le tue informazioni.
+><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Se **stai visitando un sito Web che ha implementato Adobe Analytics** e desideri rinunciare, **<span style="color:red">questo articolo NON è adatto a te</span>**. Consulta [Opzioni sulla privacy di Adobe](https://www.adobe.com/privacy/opt-out.html) per controllare come Adobe utilizza le tue informazioni.
 
 Alcuni visitatori del tuo sito web preferiscono non includere le informazioni di navigazione nel set di dati. Adobe offre la possibilità di fornire ai visitatori del sito web un mezzo per rinunciare alle informazioni analizzate.
 
