@@ -4,9 +4,9 @@ keywords: Feed di dati;processo;colonna pre;colonna post;sensibilità maiuscole/
 title: Domande frequenti sui feed dati
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 84%
 
 ---
@@ -53,7 +53,7 @@ Se vedi diverse varianti di maiuscole e minuscole dello stesso valore tra colonn
 
 ## I bot vengono filtrati dalle regole bot di Admin Console incluse nei feed di dati? {#bots}
 
-I feed di dati non includono bot filtrati dalle [regole bot di Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=it).
+I feed di dati non includono bot filtrati dalle [regole bot di Admin Console](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md).
 
 ## Perché trovo più valori `000` nella colonna `event_list` o `post_event_list` dei feed dati? {#values}
 

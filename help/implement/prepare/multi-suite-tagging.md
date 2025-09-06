@@ -4,7 +4,7 @@ title: Implementazione dell’assegnazione tag per più suite
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -13,13 +13,13 @@ ht-degree: 2%
 
 # Implementazione dell’assegnazione tag per più suite
 
-[Assegnazione di tag multisuite](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) consente di inviare richieste di immagini non solo a una suite di rapporti globale, ma anche a suite di rapporti figlio singole, in modo da poter fornire sottoinsiemi dei dati della suite di rapporti globale della tua azienda a utenti finali diversi.
+[Assegnazione di tag multisuite](/help/admin/tools/manage-rs/rollup-report-suite.md) consente di inviare richieste di immagini non solo a una suite di rapporti globale, ma anche a suite di rapporti figlio singole, in modo da poter fornire sottoinsiemi dei dati della suite di rapporti globale della tua azienda a utenti finali diversi.
 
 Per implementare l’assegnazione tag multisuite, devi includere l’ID suite di rapporti (RSID) per la suite di rapporti globale e gli RSID per le suite di rapporti figlio applicabili nel codice di tracciamento per le pagine web e le app.
 
 * Per le implementazioni di tag Adobe Experience Platform, specifica ciascuna suite di rapporti per l&#39;[[!DNL Analytics] estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it).
 
-* Per le implementazioni legacy di JavaScript e Mobile SDK, separa gli RSID con virgole e senza spazi (`rsid1,rsid2,rsid3` e così via).
+* Per le implementazioni legacy di JavaScript e SDK mobile, separa gli RSID con virgole e senza spazi (`rsid1,rsid2,rsid3` e così via).
 
 * Per altri tipi di implementazione, utilizzare la sintassi richiesta per elencare più RSID.
 

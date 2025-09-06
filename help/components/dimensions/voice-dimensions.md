@@ -3,7 +3,7 @@ title: Dimensioni di analisi vocale
 description: Dimensioni di analisi vocale
 feature: Dimensions
 exl-id: 6e1275c4-3b17-4c65-a308-d420ea1acdf6
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Dimensioni di analisi vocale
 
-Quando abiliti [!UICONTROL Voice and Chatbots] su [[!UICONTROL Application reporting]](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md), vengono create le seguenti dimensioni (e [metriche](../metrics/voice-metrics.md)). È possibile utilizzare [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md) per impostarle sul valore di stringa desiderato. Se abilitate nelle impostazioni della suite di rapporti, vengono create automaticamente [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) che mappano le dimensioni di analisi vocale alla variabile di dati di contesto associata.
+Quando abiliti [!UICONTROL Voice and Chatbots] su [[!UICONTROL Application reporting]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md), vengono create le seguenti dimensioni (e [metriche](../metrics/voice-metrics.md)). È possibile utilizzare [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md) per impostarle sul valore di stringa desiderato. Se abilitate nelle impostazioni della suite di rapporti, vengono create automaticamente [Regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) che mappano le dimensioni di analisi vocale alla variabile di dati di contesto associata.
 
 | Nome dimensione | Descrizione | Variabile dati contestuali |
 | --- | --- | --- |

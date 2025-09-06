@@ -3,9 +3,9 @@ title: Best practice di attribuzione
 description: Scopri le best practice per decidere quale modello di attribuzione utilizzare.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '420'
 ht-degree: 65%
 
 ---
@@ -23,7 +23,7 @@ La scelta del modello di attribuzione corretto per l’organizzazione dipende da
 >[!NOTE]
 >Questa analisi deve essere eseguita prima di scegliere un modello di attribuzione.
 
-Questa fase consiste inizialmente nel comprendere il comportamento del cliente e definire le metriche di conversione. In base alle metriche di conversione, strumenti come [Feed dati](https://experienceleague.adobe.com/it/docs/analytics/export/analytics-data-feed/data-feed-overview) (per dati non elaborati) o Analysis Workspace facilitano la comprensione di
+Questa fase consiste inizialmente nel comprendere il comportamento del cliente e definire le metriche di conversione. In base alle metriche di conversione, strumenti come [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) (per dati non elaborati) o Analysis Workspace facilitano la comprensione di
 
 * Quanti clienti toccano diversi canali di marketing prima della conversione
 * La proporzione/distribuzione di questi comportamenti
@@ -53,7 +53,7 @@ In questo caso, per testare questa ipotesi si utilizza il [modello di attribuzio
 
 Supponiamo che l&#39;ipotesi sia: *&quot;In un settore specifico (ad esempio, il settore dei viaggi), la finestra di attribuzione è di 60 o 90 giorni, non di 30 giorni, perché i clienti effettuano molte ricerche prima di acquistare un prodotto.*&quot;
 
-In questo caso, è necessario cambiare l’[intervallo di lookback](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/attribution/models) impostandolo su 90 giorni.
+In questo caso, è necessario cambiare l’[intervallo di lookback](/help/analyze/analysis-workspace/attribution/models.md) impostandolo su 90 giorni.
 
 ## Utilizzare l’attribuzione algoritmica
 
@@ -63,4 +63,4 @@ Se non disponi ancora di un modello di attribuzione che fornisca risposte soddis
 
 * Potrebbe essere necessario avvalersi anche di un data scientist, invece di affidarsi solo ad Analysis Workspace.
 * Puoi fare affidamento sui dati non elaborati, come nei feed di dati di Adobe.
-* È consigliabile utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), ad esempio, se si desidera considerare i dati relativi alle impression.
+* È consigliabile utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), ad esempio, se si desidera considerare i dati relativi alle impression.

@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 11%
@@ -18,13 +18,13 @@ ht-degree: 11%
 
 Puoi filtrare in base alle dimensioni aggiunte alla griglia Etichette di riga. I filtri restringono i dati restituiti dalle richieste e possono essere applicati dai layout pivot o personalizzati. Quando si configura il filtro delle dimensioni dal layout pivot, è possibile specificare anche il numero di voci dalla cella.
 
-Il modulo di filtro selezionato viene popolato in base all’elemento e alla metrica selezionati nella richiesta di Report Builder.
+Il modulo di filtro selezionato viene popolato in base all’elemento e alla metrica selezionati nella richiesta Report Builder.
 
 ## Definisci filtro: valori e caratteri speciali {#section_15840216A4044C40974945FAA435AD93}
 
 Informazioni sui filtri nel pannello **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]**.
 
-![Schermata che mostra la finestra di dialogo Definisci filtro con le opzioni di filtro per applicazione, utente e progetto.](/help/admin/admin/assets/filter.png)
+![Schermata che mostra la finestra di dialogo Definisci filtro con le opzioni di filtro per applicazione, utente e progetto.](/help/admin/tools/assets/filter.png)
 
 Le tabelle seguenti forniscono esempi e informazioni sui filtri:
 
@@ -75,7 +75,7 @@ Le tabelle seguenti forniscono esempi e informazioni sui filtri:
    <td colname="col3"> <p> <span class="term"> abc</span> è stato restituito e nient'altro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>È diverso da </p> </td> 
+   <td colname="col1"> <p>Non è uguale a </p> </td> 
    <td colname="col02"> <p>Restituisce qualsiasi elemento che non corrisponde esattamente alla voce inserita. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
    <td colname="col3"> <p>Non corrisponde a <span class="term"> a</span>. </p> <p>Corrisponde a <span class="term"> a b c</span>. </p> <p>Corrisponde a <span class="term"> abc</span>. </p> </td> 
@@ -140,7 +140,7 @@ Le tabelle seguenti forniscono esempi e informazioni sui filtri:
   </tr> 
   <tr> 
    <td colname="col1"> - </td> 
-   <td colname="col2"> Not </td> 
+   <td colname="col2"> Non </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 

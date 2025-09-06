@@ -3,7 +3,7 @@ title: Servizi e dimensioni per contenuti multimediali in streaming
 description: Dimensioni disponibili quando si abilita [!UICONTROL Media Ads] per una suite di rapporti.
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 7%
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 I servizi e le dimensioni di Streaming Media forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di Streaming Media Services. L&#39;utilizzo di queste dimensioni richiede **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
-Quando abiliti **[!UICONTROL Media Ads]** in [Generazione rapporti multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le seguenti dimensioni:
+Quando abiliti **[!UICONTROL Media Ads]** in [Generazione rapporti multimediali](/help/admin/tools/manage-rs/edit-settings/media-management.md), sono disponibili le seguenti dimensioni:
 
 | Nome dimensione | Descrizione | Inviato con | Variabile dati contestuali |
 | --- | --- | --- | --- |

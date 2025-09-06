@@ -3,7 +3,7 @@ title: Visualizzazioni pagina bot
 description: Il numero di visualizzazioni di pagina che corrispondono alle regole bot.
 feature: Metrics
 exl-id: d6699880-3faa-4df9-ad49-c7998f6ce45b
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Visualizzazioni pagina bot
 
-La metrica [metric](overview.md) delle visualizzazioni di pagina bot mostra il numero di hit di pagina corrispondenti alle [regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+La metrica [metric](overview.md) delle visualizzazioni di pagina bot mostra il numero di hit di pagina corrispondenti alle [regole bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md).
 
 Poiché il reporting dei bot è separato dal resto dei dati della suite di rapporti, questa metrica funziona solo con le dimensioni seguenti:
 

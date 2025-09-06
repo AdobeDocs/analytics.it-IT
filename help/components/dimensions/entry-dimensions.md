@@ -1,10 +1,10 @@
 ---
 title: Dimensioni di entrata
 description: Elenca le dimensioni di entrata e il relativo utilizzo.
-keywords: pagina di ingresso, sezione del sito di ingresso, server di ingresso, approfondimenti personalizzati della voce
+keywords: pagina di ingresso, sezione del sito di ingresso, server di ingresso, insight personalizzato di ingresso
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 *Questa pagina della Guida descrive il funzionamento delle voci come [dimensione](overview.md). Per informazioni sul funzionamento delle voci come metrica, vedi la metrica [Voci](../metrics/entries.md).*
 
-Le dimensioni di ingresso sono [basate sulle visite](../metrics/visits.md). Registrano il primo elemento dimensione e lo mantengono per l’intera durata di tale visita. Le dimensioni di ingresso sono disponibili per tutte le variabili con percorsi abilitati in [Variabili di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
+Le dimensioni di ingresso sono [basate sulle visite](../metrics/visits.md). Registrano il primo elemento dimensione e lo mantengono per l’intera durata di tale visita. Le dimensioni di ingresso sono disponibili per tutte le variabili con percorsi abilitati in [Variabili di traffico](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
 
 >[!TIP]
 >Se desideri visualizzare i dati in base al primo hit di una visita invece del primo valore visualizzato in una visita, puoi utilizzare un [segmento](/help/components/segmentation/seg-overview.md). Utilizza un contenitore di hit in cui [Profondità di hit](hit-depth.md) è uguale a 1, quindi utilizza quel segmento con la variabile desiderata.

@@ -4,7 +4,7 @@ title: Panoramica di Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 4%
@@ -17,7 +17,7 @@ Adobe Analytics Activity Map è una funzione di Adobe Analytics che fornisce una
 
 Activity Map as a concept è costituito da diversi componenti importanti:
 
-* **Impostazione suite di rapporti**: per poter iniziare a utilizzare una suite di rapporti, è necessario che Activity Map sia abilitato. Consulta [Rapporti di Activity Map](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md) nelle impostazioni della suite di rapporti.
+* **Impostazione suite di rapporti**: per poter iniziare a utilizzare una suite di rapporti, è necessario che Activity Map sia abilitato. Consulta [Rapporti di Activity Map](/help/admin/tools/manage-rs/edit-settings/activity-map.md) nelle impostazioni della suite di rapporti.
 * **Implementazione**: la maggior parte dei rapporti di Activity Map è disponibile come standard. Tuttavia, alcuni siti web potrebbero richiedere un’implementazione aggiuntiva per ottenere il massimo dal tracciamento dei collegamenti. Sono disponibili le seguenti variabili di implementazione:
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): Filtra i dati di clic in base al nome del collegamento.
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): Filtra i dati di clic per nome di area.

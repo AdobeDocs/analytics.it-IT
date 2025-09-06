@@ -3,7 +3,7 @@ title: Gestione del consenso Opt-Out
 description: Scopri quali impostazioni di privacy hanno rinunciato un visitatore.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 5%
@@ -26,8 +26,8 @@ La tua organizzazione determina la logica per implementare queste variabili di d
 
 ## Elementi dimensionali
 
-Gli elementi Dimension includono i tre valori seguenti:
+Gli elementi di Dimension includono i tre valori seguenti:
 
-* **`SSF`**: il visitatore ha rinunciato a [Inoltro lato server](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md). Questo elemento dimensione è presente quando la variabile di dati di contesto `cm.ssf` è uguale a `1`. Per ulteriori informazioni, consulta [Panoramica sulla privacy dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=it) nella guida utente di Audience Manager. L’hit non viene inoltrato a Adobe Audience Manager.
+* **`SSF`**: il visitatore ha rinunciato a [Inoltro lato server](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md). Questo elemento dimensione è presente quando la variabile di dati di contesto `cm.ssf` è uguale a `1`. Per ulteriori informazioni, consulta la [Panoramica sulla privacy dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) nella guida utente di Audience Manager. L’hit non viene inoltrato a Adobe Audience Manager.
 * **`DMP`**: il visitatore ha rinunciato alla condivisione sulle piattaforme di gestione dati. Questo elemento dimensione è presente quando la variabile di dati di contesto `opt.dmp` è uguale a `N`. Simile a `SSF`, l&#39;hit non viene inoltrato a Adobe Audience Manager.
 * **`SELL`**: il visitatore ha rinunciato alla condivisione o alla vendita dei dati a terzi. Questa dimensione è presente quando la variabile di dati di contesto `opt.sell` è uguale a `N`.

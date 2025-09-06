@@ -3,7 +3,7 @@ title: Metriche di analisi vocale
 description: Metriche di analisi vocale
 feature: Metrics
 exl-id: 3c1b4e4e-d8d2-446f-9582-a2ce5580a8d3
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 22%
@@ -12,7 +12,7 @@ ht-degree: 22%
 
 # Metriche di analisi vocale
 
-Quando abiliti [!UICONTROL Voice and Chatbots] su [[!UICONTROL Application reporting]](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md), vengono create le metriche seguenti (e [dimensioni](../dimensions/voice-dimensions.md)). È possibile utilizzare [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md) per impostarle su un valore di `1` (o più se applicabile). Se abilitate nelle impostazioni della suite di rapporti, vengono create automaticamente [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) che mappano le metriche di analisi vocale alla variabile di dati di contesto associata.
+Quando abiliti [!UICONTROL Voice and Chatbots] su [[!UICONTROL Application reporting]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md), vengono create le metriche seguenti (e [dimensioni](../dimensions/voice-dimensions.md)). È possibile utilizzare [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md) per impostarle su un valore di `1` (o più se applicabile). Se abilitate nelle impostazioni della suite di rapporti, vengono create automaticamente [Regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) che mappano le metriche di analisi vocale alla variabile di dati di contesto associata.
 
 | Nome della metrica | Descrizione | Variabile dati contestuali |
 | --- | --- | --- |

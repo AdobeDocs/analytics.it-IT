@@ -4,7 +4,7 @@ description: Variabili personalizzate che puoi utilizzare nell’implementazione
 feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 13%
@@ -57,7 +57,7 @@ Le prop elenco sono un’impostazione applicata alle prop che consente alla vari
 
 ### Configurare le prop elenco
 
-Abilita le prop elenco in [Variabili traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti. Assicurati che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
+Abilita le prop elenco in [Variabili traffico](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti. Assicurati che il delimitatore desiderato sia configurato correttamente. Adobe non fornisce un delimitatore predefinito.
 
 >[!TIP]
 >

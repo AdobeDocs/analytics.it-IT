@@ -3,9 +3,9 @@ description: Le regole di classificazione cercano regolarmente termini non class
 title: Regole di classificazione
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1913'
 ht-degree: 86%
 
 ---
@@ -59,8 +59,6 @@ about_classification_rules.xml
 
 ## Informazioni importanti sulle regole
 
-* Specifica le [autorizzazioni del gruppo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=it) per le classificazioni in [!UICONTROL Admin Tools].
-
 * **Espressioni regolari**: la guida è disponibile in [Espressioni regolari nelle regole di classificazione](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Suite di rapporti**: non puoi scegliere una classificazione finché non viene selezionata almeno una suite di rapporti. Non puoi applicare la suite di rapporti finché non hai creato il set di regole e assegnato una variabile.
@@ -84,7 +82,7 @@ Quando attivi le regole, puoi sovrascrivere le classificazioni esistenti. Nelle 
 
   Puoi sovrascrivere le classificazioni quando [aggiungi e attivi](/help/components/classifications/crb/classification-quickstart-rules.md) una regola e quando attivi l’integrazione dei connettori dati. Per i connettori dati, le regole vengono create dai partner nel centro sviluppatori e visualizzate nel [!UICONTROL Classification Rule Builder].
 
-* Una chiave classificata non è stata visualizzata nei dati dopo un arco temporale specificato durante la sovrascrittura di una chiave, anche dopo l’attivazione di [Sovrascrivi classificazioni](/help/components/classifications/crb/classification-rule-definitions.md).
+* Una chiave classificata non è stata visualizzata nei dati dopo un arco temporale specificato durante la sovrascrittura di una chiave, anche dopo l’abilitazione di [Sovrascrivi classificazioni](/help/components/classifications/crb/classification-rule-definitions.md).
 * La chiave non è classificata e non viene mai passata in [!DNL Adobe Analytics] dopo l’arco temporale iniziato circa un mese fa.
 
   >[!NOTE]
@@ -135,7 +133,7 @@ Nel [!UICONTROL Rule Builder], configura la regola come segue:
 
 | Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | Su |
 |---|---|---|---|
-| Espressione regolare | &Hat;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
+| Espressione regolare | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
 
 **Sintassi**
 

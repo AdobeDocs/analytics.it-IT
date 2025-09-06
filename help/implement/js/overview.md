@@ -4,7 +4,7 @@ description: Scopri come implementare Adobe Analytics utilizzando JavaScript sen
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 9%
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # Implementare Adobe Analytics con AppMeasurement per JavaScript
 
-L’AppMeasurement per JavaScript è sempre stato un metodo comune per implementare Adobe Analytics. Tuttavia, con la crescente popolarità dei sistemi Tag Management, si consiglia di utilizzare [tag in Adobe Experience Platform](../launch/overview.md).
+AppMeasurement per JavaScript è sempre stato un metodo comune per implementare Adobe Analytics. Tuttavia, con la crescente popolarità dei sistemi Tag Management, si consiglia di utilizzare [tag in Adobe Experience Platform](../launch/overview.md).
 
 Panoramica ad alto livello dei compiti di implementazione:
 
@@ -26,11 +26,11 @@ Panoramica ad alto livello dei compiti di implementazione:
 </tr>
 
 <tr>
-<td>1</td><td>Assicurati di aver <b>definito una suite di rapporti</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td>1</td><td>Assicurati di aver <b>definito una suite di rapporti</b></td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Scarica il codice JavaScript richiesto per l'AppMeasurement</b> da Code Manager. Decomprimi il file.</td><td><a href="../../admin/admin/code-manager-admin.md">Gestione codici</a></td>
+<td>2</td><td><b>Scarica il codice JavaScript richiesto per AppMeasurement</b> da Code Manager. Decomprimi il file.</td><td><a href="../../admin/tools/code-manager-admin.md">Gestione codici</a></td>
 </tr>
 
 <tr>
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Definisci le variabili a livello di pagina nel codice di pagina del sito</b>. Queste variabili determinano dimensioni e metriche specifiche inviate a Adobe.
+<td>5</td><td><b>Definisci le variabili a livello di pagina nel codice di pagina del sito</b>. Queste variabili determinano dimensioni e metriche specifiche inviate ad Adobe.
 
 ```js
 s.pageName = "Example page";

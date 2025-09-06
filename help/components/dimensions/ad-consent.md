@@ -3,7 +3,7 @@ title: Consenso per la piattaforma di annunci
 description: Consulta la configurazione per il consenso pubblicitario per i provider di annunci di terze parti.
 feature: Dimensions
 exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
-source-git-commit: 5df5cffbb6abf712cb36fd807ef54b8ebaae1c73
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Consenso per la piattaforma di annunci
 
-La &#39;Dimensione del consenso della piattaforma dell&#39;annuncio&#39; [1&rbrace; indica se viene raccolto il consenso per inviare dati a provider pubblicitari di terze parti, come Google, Meta e altri.](overview.md)
+La &#39;Dimensione del consenso della piattaforma dell&#39;annuncio&#39; [1} indica se viene raccolto il consenso per inviare dati a provider pubblicitari di terze parti, come Google, Meta e altri.](overview.md)
 
 Attualmente, questa dimensione viene utilizzata solo per Google. A causa delle normative europee sulla privacy, il Digital Markets Act (DMA), Google richiede che i dati inviati ai propri server e raccolti in Europa indichino se il consenso è raccolto. Alcuni clienti di Analytics inviano i dati di un evento tramite Adobe Advertising come eventi di conversione a Google.
 
@@ -52,10 +52,10 @@ I caratteri oltre il primo e il secondo carattere vengono attualmente ignorati.
 Puoi utilizzare i dati raccolti sull’annuncio e sul consenso:
 
 * Feed di dati: i dati del consenso dell&#39;annuncio sono disponibili utilizzando la `dataprivacydmaconsent` [colonna](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
-* Data Warehouse rapporti: i dati sul consenso dell&#39;annuncio sono disponibili utilizzando la dimensione **[!UICONTROL Ad Platform Consent]**.
+* Rapporti di Data Warehouse: i dati sul consenso degli annunci sono disponibili utilizzando la dimensione **[!UICONTROL Ad Platform Consent]**.
 
 La tua organizzazione determina la logica per implementare questa variabile di dati di contesto. Il valore non persiste oltre l’hit su cui è impostato, pertanto devi impostare la variabile di dati di contesto su ogni pagina.
 
-Quando invii dati pubblicitari da Adobe Analytics tramite Adobe Advertising come eventi di conversione a Google, consulta il team di Adobi Advertising per assistenza nell’integrazione.
+Quando invii dati pubblicitari da Adobe Analytics tramite Adobe Advertising come eventi di conversione a Google, consulta il team di Adobe Advertising per assistenza sull’integrazione.
 
-Per ulteriori informazioni, consulta [Informativa sulla privacy](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).
+Per ulteriori informazioni, consulta [Informativa sulla privacy](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md).

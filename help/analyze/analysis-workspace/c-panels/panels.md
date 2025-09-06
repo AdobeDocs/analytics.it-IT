@@ -4,10 +4,10 @@ title: Panoramica dei pannelli
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 87%
+source-wordcount: '2101'
+ht-degree: 89%
 
 ---
 
@@ -79,23 +79,23 @@ Puoi:
 
 ## Gestire un pannello
 
-Puoi gestire un pannello nei seguenti modi:
+Puoi gestire un pannello nei modi seguenti:
 
-![Gestisci pannello](assets/manage-panel.png)
+![Gestire un pannello](assets/manage-panel.png)
 
-* Per comprimere un pannello, selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg).
-* Per visualizzare un pannello compresso, selezionare ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
-* Per eliminare un pannello, selezionare ![CrossSize400](/help/assets/icons/CrossSize200.svg). Per annullare, selezionare **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
-* Per spostare un pannello, trascina e rilascia il pannello ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg) (in genere quando passi il cursore del mouse sull&#39;intestazione).
+* Per comprimere un pannello, seleziona ![ChevronDown](/help/assets/icons/ChevronDown.svg).
+* Per visualizzare un pannello compresso, seleziona ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
+* Per eliminare un pannello, seleziona ![CrossSize400](/help/assets/icons/CrossSize200.svg). Per annullare, seleziona **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *Comando+Z *]**|**[!UICONTROL * CTRL+Z *]**).
+* Per spostare un pannello, trascinalo ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg). In genere quando passi il puntatore sull’intestazione.
 
 
 ## Suite di rapporti
 
-Ogni pannello è associato a una [suite di rapporti](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**&#x200B;nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**nel menu a discesa in alto a destra del pannello.
 
 Quando crei un nuovo pannello, la suite di rapporti predefinita si basa sulla suite di rapporti dell’ultimo pannello su cui hai lavorato nel progetto Analysis Workspace.
 
-All&#39;interno di un progetto, puoi utilizzare una o [molte suite di rapporti](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=it) a seconda dei casi di utilizzo dell&#39;analisi.
+All&#39;interno di un progetto, puoi utilizzare una o [molte suite di rapporti](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) a seconda dei casi di utilizzo dell&#39;analisi.
 
 L’elenco delle suite di rapporti è ordinato in base alla rilevanza, che Adobe definisce in base a quanto recentemente e con quale frequenza l’utente corrente ha utilizzato la suite, e alla frequenza con cui questa viene utilizzata all’interno dell’organizzazione.
 
@@ -173,7 +173,7 @@ Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/329414?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -284,7 +284,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## Report suite {#report-suite}
 
-Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=it) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
 
@@ -348,7 +348,7 @@ Right-clicking a drop-down segment provides the following options:
 * **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=it) to learn more about how to add drop-down filters to your project.
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
 #### Use static drop-down segments
 

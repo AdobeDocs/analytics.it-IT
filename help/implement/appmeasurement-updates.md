@@ -4,9 +4,9 @@ description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '2726'
+source-wordcount: '2725'
 ht-degree: 86%
 
 ---
@@ -71,7 +71,7 @@ Data di rilascio: **11 ottobre 2021**
 
 Data di rilascio: **7 settembre 2021**
 
-* Con questo aggiornamento, `opt.dmp` e `opt.sell` vengono sempre inclusi durante il tracciamento dei collegamenti. Per ulteriori informazioni, consulta la [segnalazione della privacy](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) nella guida utente dell&#39;amministratore.
+* Con questo aggiornamento, `opt.dmp` e `opt.sell` vengono sempre inclusi durante il tracciamento dei collegamenti. Per ulteriori informazioni, consulta la [segnalazione della privacy](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) nella guida utente dell&#39;amministratore.
 
 ## Versione 2.22.1
 
@@ -101,7 +101,7 @@ Data di rilascio: **5 marzo 2020**
 
 Data di rilascio:**21 febbraio 2020**
 
-* Il modulo Gestione dell’audience è stato aggiornato a DIL 9.4. (AN-209341)
+* Il modulo Gestione del pubblico è stato aggiornato a DIL 9.4. (AN-209341)
 
 ## Versione 2.18.0
 
@@ -122,7 +122,7 @@ Data di rilascio: **15 agosto 2019**
 
 * In `sendBeacon` è stato implementato il supporto di [!UICONTROL AppMeasurement] per i collegamenti di uscita. Se un hit utilizza `sendBeacon` e la pagina viene scaricata, la richiesta viene comunque completata. Questo risulta piuttosto utile per i collegamenti di uscita perché è più probabile che l’hit raggiunga i server di raccolta dati. (AN-175142)
 * I valori ECID/fid ora sono memorizzati nella cache al primo hit, anche se le impostazioni Opt-In dovessero cambiare. (AN-175142)
-* Il modulo Gestione dell’audience è stato aggiornato a DIL 9.3. (AN-182704)
+* Il modulo Gestione del pubblico è stato aggiornato a DIL 9.3. (AN-182704)
 * È stato esposto uno switch in `s.ActivityMap.trackScrollReach` per attivare o disattivare il tracciamento della portata di scorrimento. (AN-182754)
 * AppMeasurement è stato aggiornato per utilizzare il servizio ID visitatori 4.4.0. (AN-182912)
 
@@ -150,7 +150,7 @@ Data di rilascio: **10 aprile 2019**
 
 Data di rilascio: **22 febbraio 2019**
 
-* Il modulo Gestione dell’audience è stato aggiornato a DIL 9.1. (AN-175255)
+* Il modulo Gestione del pubblico è stato aggiornato a DIL 9.1. (AN-175255)
 * Il criterio di sicurezza GTM non consente l’esecuzione del modulo Activity Map. (AN-174679)
 * AppMeasurement è stato migliorato per rispettare eventuali rinunce (opt-out) quando Identity Service non è approvato in consenso (opt-in). (AN-175259)
 
@@ -301,7 +301,7 @@ Aggiornato il **18 agosto 2016**
 
 Aggiornato il **4 agosto 2016**
 
-* È stato risolto un problema che causava la chiusura anticipata delle connessioni richieste da [!DNL AppMeasurement]. (AN-126448)
+* È stato risolto un problema a causa del quale le connessioni richieste venivano terminate prematuramente da [!DNL AppMeasurement]. (AN-126448)
 
 >[!IMPORTANT]
 >
@@ -313,7 +313,7 @@ Data di rilascio: **21 luglio 2016**
 
 * Inclusione di API Visitor 1.6.0.
 * Risolto un problema che causava la chiamata del metodo offuscato errato in API Visitor da parte di [!DNL AppMeasurement]. (AN-126006)
-* Risolto un problema che causava l’errore [!DNL JavaScript]: “Attribute only valid on v:image” (Attributo valido solo in v:image). (AN-124009)
+* È stato risolto un problema che causava l&#39;errore [!DNL JavaScript]: &quot;Attributo valido solo in v:image&quot;. (AN-124009)
 
 ## Versione 1.6.1
 

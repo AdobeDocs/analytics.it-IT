@@ -1,9 +1,9 @@
 ---
 title: Metriche comunemente utilizzate su altre piattaforme guida alla traduzione
-description: Scopri come estrarre i dati delle metriche per molti rapporti comuni utilizzando una terminologia più familiare agli utenti Google Analytics.
+description: Scopri come estrarre i dati delle metriche per molti rapporti comuni utilizzando una terminologia più familiare agli utenti di Google Analytics.
 feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Metriche comunemente utilizzate su altre piattaforme guida alla traduzione
 
-Su altre piattaforme, come le Google Analytics, molti rapporti condividono un numero comune di metriche. Utilizzare questa pagina per capire come ricreare le metriche utilizzate in molti rapporti.
+Su altre piattaforme, come Google Analytics, molti rapporti condividono un numero comune di metriche. Utilizzare questa pagina per capire come ricreare le metriche utilizzate in molti rapporti.
 
 Per aggiungere più metriche a una tabella a forma libera dell’area di lavoro, trascina la metrica dall’area dei componenti accanto all’intestazione della metrica nell’area di lavoro:
 
@@ -51,7 +51,7 @@ Per aggiungere più metriche a una tabella a forma libera dell’area di lavoro,
 7. Fai clic su Salva per tornare all’area di lavoro.
 8. Trascina la metrica calcolata appena definita nell’area di lavoro.
 
-   Ulteriori informazioni su [Metriche calcolate](/help/components/c-calcmetrics/cm-overview.md) nella guida utente Componenti.
+   Ulteriori informazioni su [Metriche calcolate](/help/components/calculated-metrics/cm-overview.md) nella guida utente Componenti.
 
 **Media La durata della sessione** è approssimativamente uguale a **Tempo trascorso per visita (secondi)**. Ulteriori informazioni sulle metriche [Tempo trascorso per visita](/help/components/metrics/time-spent-per-visit.md) nella guida utente dei Componenti.
 
@@ -65,4 +65,4 @@ Per aggiungere più metriche a una tabella a forma libera dell’area di lavoro,
 
    ![Ordini per visita](/help/technotes/ga-to-aa/assets/orders_per_visit.png)
 
-Se l’implementazione non supporta ancora i dati di prodotto o conversione, Adobe consiglia di collaborare con un consulente per l’implementazione per garantire la qualità e l’integrità dei dati.
+Se l’implementazione non supporta ancora dati di prodotto o conversione, Adobe consiglia di collaborare con un consulente per l’implementazione per garantire la qualità e l’integrità dei dati.

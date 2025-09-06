@@ -5,7 +5,7 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 1%
@@ -26,7 +26,7 @@ La maggior parte dei filtri popolari sono filtri di espressione configurati util
 
 1. In [!UICONTROL Request Wizard: Step 2] fare clic sul collegamento accanto alla dimensione nella griglia, quindi scegliere **[!UICONTROL Filter]**.
 
-   ![Schermata che mostra la finestra di dialogo Definisci filtro con le opzioni di filtro per applicazione, utente e progetto.](/help/admin/admin/assets/filter.png)
+   ![Schermata che mostra la finestra di dialogo Definisci filtro con le opzioni di filtro per applicazione, utente e progetto.](/help/admin/tools/assets/filter.png)
 
 1. Nel modulo [!UICONTROL Choose Page], abilita **[!UICONTROL Most Popular]**, quindi configura le seguenti opzioni:
 

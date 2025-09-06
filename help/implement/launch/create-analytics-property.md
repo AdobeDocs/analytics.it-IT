@@ -4,7 +4,7 @@ description: Crea uno spazio per personalizzare la modalità di raccolta dei dat
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 11%
@@ -13,11 +13,11 @@ ht-degree: 11%
 
 # Creare una proprietà tag in Adobe Analytics
 
-I tag in Adobe Experience Platform consentono di integrare soluzioni Experience Cloud sul sito web (incluso Analytics). Questa pagina illustra in modo specifico come un amministratore di tag può ottenere un’implementazione di base di Adobe Analytics configurata correttamente.
+I tag in Adobe Experience Platform consentono di integrare le soluzioni Experience Cloud sul sito web (incluso Analytics). Questa pagina illustra in modo specifico come un amministratore di tag può ottenere un’implementazione di base di Adobe Analytics configurata correttamente.
 
 ## Prerequisiti
 
-[Crea una suite di rapporti](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): crea un silo per i dati di Analytics da raccogliere.
+[Crea una suite di rapporti](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md): crea un silo per i dati di Analytics da raccogliere.
 
 ## Creare una proprietà tag e installare estensioni vitali
 
@@ -28,7 +28,7 @@ Le proprietà sono contenitori generali utilizzati per gestire i tag. Le estensi
 1. Assegna alla proprietà un nome, ad esempio il titolo del sito web, e immetti il dominio in cui intendi implementare Analytics. Fai clic su **[!UICONTROL Save]**.
 1. Fai clic sulla nuova proprietà tag creata per immetterne le impostazioni.
 1. Fare clic sulla scheda **[!UICONTROL Extensions]**, quindi su **[!UICONTROL Catalog]**.
-1. Individuare &#39;Experience Cloud ID Service&#39;, quindi fare clic su **[!UICONTROL Install]**.
+1. Individua &quot;Servizio Experience Cloud ID&quot;, quindi fai clic su **[!UICONTROL Install]**.
 1. Tutte le impostazioni, incluso l’ID organizzazione Experience Cloud, devono essere già compilate. Fai clic su **[!UICONTROL Save]**.
 1. Nel catalogo delle estensioni, individuare Adobe Analytics e fare clic su **[!UICONTROL Install]**.
 

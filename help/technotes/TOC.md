@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Note tecniche di Analytics
 breadcrumb-title: Note tecniche
 user-guide-description: Sfoglia una knowledge base contenente articoli utili che non sono specifici per un particolare strumento o componente di Analytics.
-source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 88%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 100%
 # Note tecniche di Analytics {#technotes}
 
 + [Note tecniche di Analytics](home.md)
-+ Adobe Analytics per gli utenti di Google Analytics {#ga-to-aa}
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/it/docs/analytics/release-notes/latest)
++ Adobe Analytics per utenti Google Analytics {#ga-to-aa}
    + [Guida di Adobe Analytics per utenti Google Analytics](ga-to-aa/home.md)
    + [Account e suite di rapporti](ga-to-aa/accounts.md)
    + [Personalizzare le visualizzazioni di reporting](ga-to-aa/customization.md)
@@ -30,7 +31,7 @@ ht-degree: 100%
    + [Domande frequenti](ga-to-aa/faq.md)
    + [Differenze di elaborazione tra piattaforme](ga-to-aa/processing-differences.md)
    + [Confrontare i dati con prodotti di terze parti](ga-to-aa/compare-data.md)
-+ Analisi dei dati interessati dagli eventi {#event}
++ Analizzare i dati interessati dagli eventi {#event}
    + [Panoramica dell’analisi dei dati interessati dagli eventi](event/overview.md)
    + [Risolvere i problemi relativi a picchi/cadute nei dati](event/spikes-drops.md)
    + [Esclusione di date specifiche nell’analisi](event/segments.md)
@@ -49,7 +50,13 @@ ht-degree: 100%
 + [Valore traffico ridotto](low-traffic.md)
 + [Migrare le regole di elaborazione di Mobile Services ad Adobe Analytics](migrate-mobile.md)
 + [Supporto multi-valuta](multicurrency.md)
-+ [Panoramica sulla privacy](privacy-overview.md)
++ Privacy {#privacy}
+   + [Panoramica sulla privacy](privacy/privacy-overview.md)
+   + [Flusso di lavoro per la privacy](privacy/privacy-workflow.md)
+   + [Analytics e GDPR](privacy/gdpr.md)
+   + [Analytics e CCPA](privacy/ccpa.md)
+   + [Esenzione dal consenso di Analytics e CNIL](privacy/cnil-consent-exemption.md)
+   + [Domande frequenti sulla privacy](privacy/faq.md)
 + [Ordine di elaborazione](processing-order.md)
 + [App web progressive](pwa.md)
 + [Reindirizzamenti e alias](redirects.md)

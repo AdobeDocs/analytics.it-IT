@@ -4,7 +4,7 @@ description: Scopri diversi metodi per escludere i dati sia prima che dopo la ra
 exl-id: dee5bf3b-8bb3-48eb-908d-b4a981f17bfb
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -17,11 +17,11 @@ L’esclusione dei dati viene comunemente utilizzata per impedire che le attivit
 
 ## Escludere la raccolta di dati successivi ai dati
 
-I metodi seguenti consentono di escludere i dati nei rapporti di Analytics dopo che i server di raccolta dati di Adobe hanno ricevuto le richieste di immagini. I dati esclusi utilizzando questi metodi vengono comunque conteggiati per le chiamate al server fatturabili.
+I metodi seguenti consentono di escludere i dati dal reporting di Analytics dopo che i server di raccolta dati di Adobe hanno ricevuto le richieste di immagini. I dati esclusi utilizzando questi metodi vengono comunque conteggiati per le chiamate al server fatturabili.
 
-* **Escludi per IP**: Adobe Analytics fornisce funzionalità di base per escludere i dati per gli indirizzi IP o gli intervalli in una suite di rapporti. Vedi [Escludi per IP](/help/admin/admin/exclude-ip.md) nella guida utente dell&#39;amministratore.
-* **Regole bot**: le regole bot prelevano traffico dalle stringhe note dell&#39;agente utente bot e le escludono dai rapporti di Analytics. I dati esclusi tramite le regole bot vengono inseriti nel rapporto Bots. È possibile creare regole bot personalizzate per escludere dati aggiuntivi. Vedi [Regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) nella guida utente Admin.
-* **Regole VISTA**: a seconda delle esigenze della tua organizzazione, gli hit che corrispondono ai tuoi requisiti vengono inviati a un&#39;altra suite di rapporti dedicata alla ricezione di dati esclusi. Le regole VISTA vengono comunemente utilizzate per gli indirizzi IP, ma non sono limitate a essi. Puoi utilizzare qualsiasi dimensione per includere o escludere dati nelle suite di rapporti. Le regole VISTA sono soggette a costi aggiuntivi; contatta il team dell’account Adobe per dettagli.
+* **Escludi per IP**: Adobe Analytics fornisce funzionalità di base per escludere i dati per gli indirizzi IP o gli intervalli in una suite di rapporti. Vedi [Escludi per IP](/help/admin/tools/exclude-ip.md) nella guida utente dell&#39;amministratore.
+* **Regole bot**: le regole bot prelevano traffico dalle stringhe note dell&#39;agente utente bot e le escludono dai rapporti di Analytics. I dati esclusi tramite le regole bot vengono inseriti nel rapporto Bots. È possibile creare regole bot personalizzate per escludere dati aggiuntivi. Vedi [Regole bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) nella guida utente Admin.
+* **Regole VISTA**: a seconda delle esigenze della tua organizzazione, gli hit che corrispondono ai tuoi requisiti vengono inviati a un&#39;altra suite di rapporti dedicata alla ricezione di dati esclusi. Le regole VISTA vengono comunemente utilizzate per gli indirizzi IP, ma non sono limitate a essi. Puoi utilizzare qualsiasi dimensione per includere o escludere dati nelle suite di rapporti. Le regole VISTA sono soggette a costi aggiuntivi; contatta il team del tuo account Adobe per dettagli.
 * **Cookie di rinuncia**: tutti i visitatori del sito possono rinunciare volontariamente al tracciamento in Adobe Analytics visitando una pagina specifica del server di tracciamento. Consulta [Implementare collegamenti di rinuncia](/help/implement/js/opt-out.md) nella guida utente di implementazione.
 
 >[!TIP]
@@ -30,4 +30,4 @@ I metodi seguenti consentono di escludere i dati nei rapporti di Analytics dopo 
 
 ## Escludere la raccolta di dati preliminari
 
-Se vuoi impedire che alcuni hit raggiungano i server di raccolta dati di Analytics, utilizza la variabile [`abort`](/help/implement/vars/config-vars/abort.md). Questo flag impedisce l’invio della richiesta di immagine. Le chiamate al server fatturabili non vengono incrementate per le richieste di immagini interrotte, in quanto non raggiungono i server di raccolta dati Adobe.
+Se vuoi impedire che alcuni hit raggiungano i server di raccolta dati di Analytics, utilizza la variabile [`abort`](/help/implement/vars/config-vars/abort.md). Questo flag impedisce l’invio della richiesta di immagine. Le chiamate al server fatturabili non vengono incrementate per le richieste di immagini interrotte, in quanto non raggiungono i server di raccolta dati di Adobe.

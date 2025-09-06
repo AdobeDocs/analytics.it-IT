@@ -4,9 +4,9 @@ title: Suddividere le dimensioni in base al tempo
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 74%
 
 ---
@@ -18,7 +18,7 @@ Con la suddivisione in base al tempo, il timestamp degli hit raccolti viene sudd
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni suddivise in base al tempo](https://video.tv.adobe.com/v/329410?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni suddivise in base al tempo](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ Le dimensioni suddivise in base al tempo sono relative al fuso orario della suit
 
 >[!NOTE]
 >
->le dimensioni suddivise in base al tempo sono disponibili solo in Analysis Workspace. Per usare le dimensioni suddivise in base al tempo in altre soluzioni Analytics, è necessario implementare il [plug-in getTimeParting](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html?lang=it).
+>le dimensioni suddivise in base al tempo sono disponibili solo in Analysis Workspace. Per usare le dimensioni suddivise in base al tempo in altre soluzioni Analytics, è necessario implementare il [plug-in getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
 
 In Analysis Workspace, le dimensioni suddivise in base al tempo comprendono:
 

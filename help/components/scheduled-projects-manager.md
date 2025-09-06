@@ -3,7 +3,7 @@ description: Scopri come gestire i progetti pianificati.
 title: 'Gestione '
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 37%
@@ -35,8 +35,8 @@ Nell&#39;elenco Progetti pianificati ➊ sono visualizzate le colonne per:
 | **[!UICONTROL Frequency]** | Con quale frequenza desideri che questo progetto di pianificazione venga inviato a uno o più destinatari. |
 | **[!UICONTROL Execution Time]** | A che ora del giorno viene inviato questo progetto programmato. |
 | **[!UICONTROL Number of Queries]** | Il numero di query su questo progetto. |
-| **[!UICONTROL Longest Date Range]** | L’intervallo di date più lungo definito per il progetto pianificato. Questo valore potrebbe essere rilevante per analizzare i problemi di prestazioni. Per ulteriori informazioni, vedere [Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md). |
-| **[!UICONTROL Number of queries]** | Numero di query eseguite per il progetto pianificato. Questo valore potrebbe essere rilevante per analizzare i problemi di prestazioni. Per ulteriori informazioni, vedere [Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md). |
+| **[!UICONTROL Longest Date Range]** | L’intervallo di date più lungo definito per il progetto pianificato. Questo valore potrebbe essere rilevante per analizzare i problemi di prestazioni. Per ulteriori informazioni, vedere [Reporting Activity Manager](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md). |
+| **[!UICONTROL Number of queries]** | Numero di query eseguite per il progetto pianificato. Questo valore potrebbe essere rilevante per analizzare i problemi di prestazioni. Per ulteriori informazioni, vedere [Reporting Activity Manager](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md). |
 
 
 È possibile utilizzare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per configurare le colonne da visualizzare.

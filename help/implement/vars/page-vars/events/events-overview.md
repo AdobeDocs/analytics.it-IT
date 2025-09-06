@@ -4,7 +4,7 @@ description: Imposta la variabile degli eventi, che governa la maggior parte del
 feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Dimensioni e metriche sono componenti vitali per i rapporti. La variabile `events` è responsabile della raccolta dei dati di molte metriche sul sito. In genere, gli eventi incrementano [metriche](/help/components/metrics/overview.md) nei rapporti.
 
-Prima di implementare gli eventi, assicurati di crearli e configurarli in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti. Se prevedi di utilizzare eventi personalizzati negli hit di tracciamento dei collegamenti, assicurati che [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) siano impostati correttamente.
+Prima di implementare gli eventi, assicurati di crearli e configurarli in [Eventi di successo](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti. Se prevedi di utilizzare eventi personalizzati negli hit di tracciamento dei collegamenti, assicurati che [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) siano impostati correttamente.
 
 ## Eventi che utilizzano il Web SDK
 
@@ -103,7 +103,7 @@ s.events = "event1=2,event2";
 
 È possibile modificare un evento personalizzato in modo che utilizzi la valuta anziché i numeri interi. Gli eventi di valuta vengono convertiti automaticamente nella valuta della suite di rapporti se la valuta della suite di rapporti e la variabile `currencyCode` non corrispondono. Sono utili per calcolare spese di spedizione, sconti o rimborsi. È possibile impostare gli eventi di valuta nella variabile `products` se si desidera attribuire l&#39;evento solo a tale prodotto.
 
-Prima di implementare gli eventi di valuta, assicurati di impostare l&#39;evento desiderato su &quot;Valuta&quot; in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
+Prima di implementare gli eventi di valuta, assicurati di impostare l&#39;evento desiderato su &quot;Valuta&quot; in [Eventi di successo](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -124,7 +124,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 È possibile modificare un evento personalizzato per accettare valori decimali anziché interi. Gli eventi numerici si comportano in modo simile agli eventi di valuta, tranne per il fatto che non utilizzano la conversione di valuta. È possibile impostare eventi numerici nella variabile `products` se si desidera attribuire l&#39;evento solo a tale prodotto.
 
-Prima di implementare eventi numerici, assicurati di impostare l&#39;evento desiderato su &quot;Numerico&quot; in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
+Prima di implementare eventi numerici, assicurati di impostare l&#39;evento desiderato su &quot;Numerico&quot; in [Eventi di successo](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings

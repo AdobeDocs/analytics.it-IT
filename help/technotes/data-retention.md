@@ -3,10 +3,10 @@ title: Criteri di conservazione dei dati
 description: Un criterio di conservazione dei dati determina per quanto tempo Adobe archivia i dati.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '615'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Una volta superati i criteri di conservazione dei dati, Adobe si riserva il diri
 
 ## Visualizzare/gestire i criteri di conservazione dei dati correnti
 
-La finestra di dialogo Governance dei dati in Strumenti di [!UICONTROL Admin] fornisce una panoramica delle suite di rapporti configurate per la governance dei dati. Indica inoltre se sono stati mappati a un’organizzazione Experience Cloud e se sono stati impostati i criteri di conservazione dei dati per la suite di rapporti. [Ulteriori informazioni](/help/admin/admin/c-data-governance/an-gdpr-workflow.md)
+La finestra di dialogo Governance dei dati in Strumenti di [!UICONTROL Admin] fornisce una panoramica delle suite di rapporti configurate per la governance dei dati. Indica inoltre se sono stati mappati a un’organizzazione Experience Cloud e se per questa suite di rapporti sono applicati i criteri di conservazione dei dati.
 
 ## Domande frequenti
 
@@ -47,7 +47,7 @@ La tua azienda, in quanto titolare del trattamento dei dati, deve identificare l
 
 +++ Come si calcola la finestra di conservazione dei dati?
 
-I criteri di conservazione dei dati definiscono una finestra temporale dinamica per la conservazione dei dati, all’interno della quale i dati completi possono essere visualizzati e utilizzati per la generazione dei rapporti. La data di inizio della conservazione dei dati è determinata dalla data corrente sottraendo il periodo di conservazione dei dati. La data di fine della conservazione dei dati è determinata dalla data corrente. I dati vengono inclusi nella finestra temporale di conservazione dei dati se la marca temporale dei dati è compresa tra la data di inizio e quella di fine.
+I criteri di conservazione dei dati definiscono una finestra temporale dinamica per la conservazione dei dati, all’interno della quale i dati completi possono essere visualizzati e utilizzati per la generazione dei rapporti. La data di inizio della conservazione dei dati è determinata dalla data corrente sottraendo il periodo di conservazione dei dati. La data di fine della conservazione dei dati è determinata dalla data corrente. I dati vengono inclusi nella finestra temporale di conservazione dei dati se la marca temporale dei dati è compresa tra la data di inizio e la data di fine.
 
 +++
 

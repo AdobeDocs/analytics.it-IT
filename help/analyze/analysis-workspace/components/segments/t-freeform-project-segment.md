@@ -4,10 +4,10 @@ title: Panoramica dei segmenti
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 34%
+source-wordcount: '304'
+ht-degree: 33%
 
 ---
 
@@ -20,21 +20,21 @@ Puoi creare e utilizzare i segmenti in Analysis Workspace e Customer Journey Ana
 | --- | --- | --- | --- |
 | Segmento nell’elenco dei componenti | Scopri come [creare un segmento](/help/components/segmentation/segmentation-workflow/seg-create.md). | Tutti i progetti Workspace | Per segmenti più complessi, segmenti sequenziali |
 | Segmento rapido | [Generatore di segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo progetto, ma può essere salvato e aggiunto all’elenco dei segmenti. | Può essere utilizzato per segmenti ad hoc a regola singola (con trascinamento della selezione) oppure per aggiungere/modificare più regole (facendo clic sull’icona Segmento) |
-| Segmento basato su metriche calcolate | [Generatore di metrica calcolata](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=it) | Per singola metrica calcolata | Applicare segmenti nella definizione della metrica |
-| Segmento basato su suite di rapporti virtuali | [Generatore suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) | Per singole suite di rapporti virtuali | Applicare segmenti nella definizione della suite di rapporti virtuali |
+| Segmento basato su metriche calcolate | [Generatore di metrica calcolata](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | Per singola metrica calcolata | Applicare segmenti nella definizione della metrica |
+| Segmento basato su suite di rapporti virtuali | [Generatore suite di rapporti virtuali](/help/components/vrs/c-workflow-vrs/vrs-create.md) | Per singole suite di rapporti virtuali | Applicare segmenti nella definizione della suite di rapporti virtuali |
 
 ## Video
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di segmenti in Analysis Workspace](https://video.tv.adobe.com/v/329400?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di segmenti in Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ricerca e creazione di segmenti](https://video.tv.adobe.com/v/3415644?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ricerca e creazione di segmenti](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ In Analysis Workspace puoi creare diversi tipi di segmenti:
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Altri metodi per applicare segmenti](https://video.tv.adobe.com/v/35903?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Altri metodi per applicare segmenti](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

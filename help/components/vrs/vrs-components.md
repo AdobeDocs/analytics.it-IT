@@ -3,9 +3,9 @@ description: Le suite di rapporti virtuali possono essere curate per includere e
 title: Cura dei componenti della suite di rapporti virtuali
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '384'
 ht-degree: 10%
 
 ---
@@ -17,7 +17,7 @@ Le suite di rapporti virtuali possono essere curate per includere ed escludere i
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura dei componenti](https://video.tv.adobe.com/v/3425529?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura dei componenti](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -77,4 +77,4 @@ Utilizza i gruppi di componenti per effettuare aggiunte in blocco di componenti 
 
 ## Comportamento di Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Per ulteriori informazioni sulla cura in Analysis Workspace, consulta [Curare e condividere un progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=it).
+Per ulteriori informazioni sulla cura in Analysis Workspace, consulta [Curare e condividere un progetto](/help/analyze/analysis-workspace/curate-share/curate.md).

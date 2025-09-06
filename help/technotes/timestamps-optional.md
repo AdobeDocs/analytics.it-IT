@@ -5,10 +5,10 @@ title: Marche temporali opzionali
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 10%
+source-wordcount: '599'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ Scopri i vantaggi e i vincoli dell’impostazione opzionale Marca temporale.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/3418614?quality=12&learn=on&captions=ita){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 -->
@@ -36,7 +36,7 @@ Marca temporale opzionale è l’impostazione predefinita per tutte le nuove sui
 >
 >Marca temporale opzionale è l&#39;impostazione predefinita per tutte le nuove suite per report generate da un modello Le nuove suite di rapporti copiate da una suite di rapporti esistente ereditano le impostazioni dall’originale.
 
-Per ulteriori informazioni sull&#39;installazione, vedere [Marca temporale opzionale](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=it).
+Per ulteriori informazioni sull&#39;installazione, vedere [Marca temporale opzionale](/help/technotes/timestamps-optional.md).
 
 ## Marca temporale opzionale: integrazione di dati con marca temporale e senza marca temporale {#integrate}
 
@@ -73,9 +73,9 @@ La combinazione di dati in una suite di rapporti globale può essere eseguita in
 
 Di seguito sono riportate le best practice e alcuni requisiti e restrizioni di cui tenere conto durante l’integrazione di dati con marca temporale non registrata.
 
-* In generale, le marche temporali per una determinata visita o visitatore devono arrivare a Adobe nell’ordine cronologico corretto.
+* In generale, i timestamp per una determinata visita o visitatore devono pervenire ad Adobe nell’ordine cronologico corretto.
 
-  I dati fuori servizio possono includere dati in arrivo tardivo dalla raccolta dati offline e hit in arrivo tardivo oppure orologi non sincronizzati su dispositivi mobili offline. I dati fuori servizio possono influire negativamente sui calcoli del tempo (come i valori del tempo trascorso), sull’attribuzione (persistenza eVar), sui conteggi di numero di visite/visite e sui rapporti sui percorsi.
+  I dati fuori servizio possono includere dati in arrivo tardivo dalla raccolta dati offline e hit in arrivo tardivo oppure orologi non sincronizzati su dispositivi mobili offline. I dati fuori servizio possono influire negativamente sui calcoli del tempo (come i valori del tempo trascorso), sull’attribuzione (persistenza di eVar), sui conteggi di numero di visite/visite e sui rapporti sui percorsi.
 
 * L&#39;utilizzo di marche temporali durante l&#39;impostazione di un [s.visitorID](/help/implement/vars/config-vars/visitorid.md) non è consigliato. Può causare dati fuori servizio.
 

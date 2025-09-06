@@ -4,9 +4,9 @@ description: Scopri come le misure di prevenzione del tracciamento influiscono s
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1909'
+source-wordcount: '1908'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Questo documento spiega come le principali misure di prevenzione del tracciament
 ## In che modo i browser hanno limitato l’utilizzo dei cookie?
 
 >[!NOTE]
->[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=it#cda) e [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it#comparing-cja-to-traditional-adobe-analytics) possono unire i cookie utilizzando un ID persona, ad esempio un ID di accesso con hash, se disponibile.
+>[Cross-Device Analytics](/help/components/cda/overview.md#cda) e [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it#comparing-cja-to-traditional-adobe-analytics) possono unire i cookie utilizzando un ID persona, ad esempio un ID di accesso con hash, se disponibile.
 
 ### Limitazioni dei cookie di terze parti
 
@@ -178,4 +178,4 @@ Se la tua azienda è interessata dalla prevenzione del tracciamento ITP, puoi pr
 >[!MORELIKETHIS]
 >
 >[Opzioni per attenuare l’effetto delle limitazioni dei cookie del browser](cookieless.md)
->[Impatto del nuovo framework per la trasparenza del tracciamento delle app di Apple su Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)
+>>[Impatto del nuovo framework per la trasparenza del tracciamento delle app di Apple su Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)

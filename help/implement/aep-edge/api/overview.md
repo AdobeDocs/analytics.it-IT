@@ -4,7 +4,7 @@ description: Utilizza l’API Edge Network di Adobe Experience Platform per invi
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 In genere si utilizza l’API di Experience Platform Edge Network per raccogliere i dati lato server anziché lato client e durante la raccolta di dati da dispositivi quali dispositivi IoT, set-top box e applicazioni desktop. Poi invii i dati alla rete Edge e a servizi come Adobe Analytics.
 
-Considera anche l’API di Edge Network quando hai bisogno che i dati sensibili vengano raccolti in modo sicuro e autenticati in tutta la rete. Per ulteriori informazioni, vedere [Autenticazione](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=it).
+Considera anche l’API di Edge Network quando hai bisogno che i dati sensibili vengano raccolti in modo sicuro e autenticati in tutta la rete. Per ulteriori informazioni, vedere [Autenticazione](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html).
 
 Panoramica ad alto livello dei compiti di implementazione:
 
@@ -30,7 +30,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>1</td>
 <td>Assicurati di aver <b>definito una suite di rapporti</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
@@ -48,7 +48,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>4</td>
 <td><b>Implementare e testare la raccolta dati</b> utilizzando le API di raccolta dati evento singolo e evento batch.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=it">Raccolta dati evento singolo</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=it">Raccolta dati evento batch</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=it">Raccolta dati evento singolo</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Raccolta dati evento batch</a>
 </tr>
 
 <td>5</td>

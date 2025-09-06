@@ -1,13 +1,13 @@
 ---
 title: Panoramica di Analysis Workspace
-description: Scopri Analysis Workspace, il principale strumento di analisi per Adobe Analytics. Utilizza progetti, pannelli, tabelle, visualizzazioni e altri componenti per dare vita ai dati, curare e condividere le analisi.
+description: Scopri Analysis Workspace, lo strumento di analisi principale per Adobe Analytics. Utilizza progetti, pannelli, tabelle, visualizzazioni e altri componenti per dare vita ai dati e per curare e condividere le analisi.
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 06e66118888f5dfcefb484d429bf5421861fb92e
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '1255'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/328627/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +30,7 @@ L’immagine seguente e la tabella associata illustrano gli elementi principali 
 | Posizione | Nome e funzione |
 |:---------:|----------|
 | A | Contiene il nome del progetto, una struttura di menu per accedere alle funzionalità, un pulsante ![Indietro](/help/assets/icons/ChevronLeft.svg) per tornare all’elenco dei progetti e un pulsante **[!UICONTROL Share]** per [condividere il progetto Workspace](/help/analyze/analysis-workspace/curate-share/share-projects.md). <br/>Seleziona il nome del progetto (ad esempio: Nuovo progetto) in qualsiasi momento per modificare il nome. <br/>Seleziona ![Unfavor](/help/assets/icons/StarOutline.svg) per contrassegnare il progetto come progetto preferito ![Favor](/help/assets/icons/Star.svg). |
-| B | **Pannello pulsanti:** contiene pulsanti per accedere alla chiave [funzionalità](#features) di Analysis Workspace:<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL Panels]](/help/analyze/analysis-workspace/c-panels/panels.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualizations]](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Cura](/help/assets/icons/Curate.svg) [[!UICONTROL Components]](/help/components/home.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL Table of contents]](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Segnalibro](/help/assets/icons/Bookmark.svg) [[!UICONTROL Data Dictionary]](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| B | **Pannello pulsanti:** contiene i pulsanti per accedere alle [funzionalità](#features) chiave di Analysis Workspace:<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL Panels]](/help/analyze/analysis-workspace/c-panels/panels.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualizations]](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Cura](/help/assets/icons/Curate.svg) [[!UICONTROL Components]](/help/components/home.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL Table of contents]](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Segnalibro](/help/assets/icons/Bookmark.svg) [[!UICONTROL Data Dictionary]](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | C | **Pannello a sinistra:** quest’area contiene pannelli singoli, visualizzazioni, componenti o elenchi. Il contenuto dipende dal pulsante selezionato nel pannello pulsante. |
 | D | **Area di lavoro:** area principale in cui trascini il contenuto dal pannello a sinistra per creare il progetto. Il progetto viene aggiornato dinamicamente quando aggiungi pannelli, visualizzazioni ai pannelli e componenti alle visualizzazioni. Puoi creare più pannelli e, all’interno di ogni pannello, creare più visualizzazioni.<br/>Ogni pannello si basa su una suite di rapporti selezionata. La suite di rapporti selezionata determina i componenti disponibili, come metriche e dimensioni. Per ulteriori informazioni, consulta [Pannelli - Suite di rapporti](/help/analyze/analysis-workspace/c-panels/panels.md#report-suite). |
 
@@ -53,7 +53,7 @@ La maggior parte delle funzionalità di Analysis Workspace è disponibile tramit
 
 La funzionalità è anche disponibile tramite il menu di Workspace e i tasti di scelta rapida. I tasti di scelta rapida variano a seconda del sistema operativo su cui è in esecuzione il browser. Per una panoramica, consulta le seguenti tabelle.
 
-Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
+Sulla tastiera possono essere utilizzati i seguenti simboli:
 
 - **⇧** per **[!UICONTROL *Maiusc *]**.
 - **⌘** per **[!UICONTROL *Comando *]**(comando).
@@ -103,7 +103,7 @@ Per una panoramica dei menu disponibili, consulta le seguenti tabelle.
 | **[!UICONTROL Components]** | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows | Descrizione |
 |---|---|---|---|
 | **[!UICONTROL Create segment...]** | **[!UICONTROL *Maiusc+Comando+e *]** | **[!UICONTROL *Maiusc+Ctrl+e *]** | Crea un nuovo [segmento](/help/components/segmentation/segmentation-workflow/seg-create.md). |
-| **[!UICONTROL Create metric...]** | **[!UICONTROL *Maiusc+Comando+c *]** | **[!UICONTROL *Maiusc+Ctrl+c *]** | Crea una nuova [metrica calcolata](/help/components/c-calcmetrics/cm-overview.md). |
+| **[!UICONTROL Create metric...]** | **[!UICONTROL *Maiusc+Comando+c *]** | **[!UICONTROL *Maiusc+Ctrl+c *]** | Crea una nuova [metrica calcolata](/help/components/calculated-metrics/cm-overview.md). |
 | **[!UICONTROL Create date range...]** | **[!UICONTROL *Maiusc+Comando+d *]** | **[!UICONTROL *Maiusc+Ctrl+d *]** | Crea un nuovo [intervallo di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | **[!UICONTROL Create annotation...]** | **[!UICONTROL *Maiusc+Comando+o *]** | **[!UICONTROL *Maiusc+Ctrl+o *]** | Crea una nuova [annotazione](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 | **[!UICONTROL Refresh components]** | **[!UICONTROL *Opzione+Maiusc+r *]** | **[!UICONTROL *Alt+Maiusc+r *]** | Aggiorna i componenti nel progetto. |
@@ -168,7 +168,7 @@ Analysis Workspace allows you to build analyses quickly to gather insights and t
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis workspace overview](https://video.tv.adobe.com/v/328627/?quality=12&learn=on&captions=ita){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis workspace overview](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -311,8 +311,8 @@ When you finish building out the project and it's gathering actionable insights,
 ## Additional resources {#resources}
 
 - The [Learning landing](/help/getting-started/landing.md#learning) page in Customer Journey Analytics. This page is  great way to become acquainted with Analysis Workspace. Especially the Learning Workspace Fundamental. This template walks you through common terminology and steps for building your first analysis in Workspace
-- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/overview).
-- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/it/docs/release-notes/experience-cloud/current) for updates about new features.
+- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
+- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) for updates about new features.
 
 
 
@@ -326,7 +326,7 @@ The following video provides a brief overview with examples of what is possible.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace overview](https://video.tv.adobe.com/v/328627/?quality=12&learn=on&captions=ita){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace overview](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -351,7 +351,7 @@ Following are some of the key features available in Analysis Workspace:
 
 **Panels** are used to organize your analysis within a project and can contain many tables & visualizations. Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. On the far left rail, select the top **[!UICONTROL Panels]** icon to see a full list of panels available.
 
-To learn more about panels, see [Panels overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it).
+To learn more about panels, see [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 ![](assets/build-panels.png)
 
@@ -359,7 +359,7 @@ To learn more about panels, see [Panels overview](https://experienceleague.adobe
 
 **Visualizations**, such as a bar or line chart, can be used to visually bring data to life. On the far left rail, select the middle **[!UICONTROL Visualizations]** icon to see the full list of visualizations available. 
 
-To learn more about visualizations, see [Visualizations overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=it).
+To learn more about visualizations, see [Visualizations overview](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 ![](assets/build-visualizations.png)
 
@@ -415,8 +415,8 @@ When you finish building out the project and it's gathering actionable insights,
 
 ## Additional resources {#resources}
 
-* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=it).
-* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it#analytics) for updates about new features.
+* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
+* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) for updates about new features.
 * A great way to become acquainted with Analysis Workspace is through the Analysis Workspace Training Tutorial template. This template walks you through common terminology and steps for building your first analysis in Workspace. To begin the tutorial:
   1. On the [!UICONTROL **Workspace**] tab in Adobe Analytics, select **[!UICONTROL Learning]** on the left.
   1. Select **[!UICONTROL Open Tutorial]**.

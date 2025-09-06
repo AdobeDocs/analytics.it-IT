@@ -4,7 +4,7 @@ description: Utilizzare l’estensione Mobile SDK in Adobe Experience Platform D
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8b585a1a05b5fcabd343da52a4b6f05fea8fd86f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 28%
@@ -19,7 +19,7 @@ L’Adobe Experience Platform Mobile SDK aiuta ad alimentare soluzioni e servizi
 >
 >Un’estensione Adobe Analytics è disponibile anche in Raccolta dati di Adobe Experience Platform. Se installi questa estensione, non sfrutti XDM o la rete Edge.
 
-## SDK per Adobe Experience Platform
+## Adobe Experience Platform SDK
 
 Panoramica ad alto livello dei compiti di implementazione:
 
@@ -34,7 +34,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>1</td>
 <td>Assicurati di aver <b>definito una suite di rapporti</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
@@ -45,7 +45,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <td>3</td>
 <td><b>Aggiungi un servizio Adobe Analytics</b> allo stream di dati. Tale servizio controlla se e come i dati vengono inviati ad Adobe Analytics.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=it#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
 </tr>
 
 <tr>
@@ -55,8 +55,8 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>5</td>
-<td><b>Installa l'estensione dell'Edge Network Adobe Experience Platform</b> nella proprietà del tag per dispositivi mobili e configura lo stream di dati nell'estensione.</td>
-<td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Edge Network Adobe Experience Platform</a>
+<td><b>Installa l'estensione Adobe Experience Platform Edge Network</b> nella proprietà del tag per dispositivi mobili e configura lo stream di dati nell'estensione.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Adobe Experience Platform Edge Network</a>
 </tr>
 
 <tr>
@@ -67,7 +67,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>7</td>
-<td><b>Implementa e verifica la funzionalità</b> utilizzando una combinazione di elementi dati del tag, regole, estensioni aggiuntive e chiamate API SDK nell'app. Inspect, convalida ed esegui il debug della raccolta dati e delle esperienze per la tua app mobile.</td>
+<td><b>Implementa e verifica la funzionalità</b> utilizzando una combinazione di elementi dati del tag, regole, estensioni aggiuntive e chiamate API di SDK nell'app. Ispeziona, convalida ed esegui il debug della raccolta dati e delle esperienze per la tua app mobile.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Utilizza l'applicazione di esempio</a>
 </tr>
 
@@ -95,7 +95,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>1</td>
 <td>Assicurati di aver <b>definito una suite di rapporti</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
@@ -112,7 +112,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <tr>
 <td>4</td>
-<td><b>Implementa e verifica la funzionalità</b> utilizzando una combinazione di elementi dati del tag, regole, estensioni aggiuntive e chiamate API SDK nell'app. Inspect, convalida ed esegui il debug della raccolta dati e delle esperienze per la tua app mobile.</td>
+<td><b>Implementa e verifica la funzionalità</b> utilizzando una combinazione di elementi dati del tag, regole, estensioni aggiuntive e chiamate API di SDK nell'app. Ispeziona, convalida ed esegui il debug della raccolta dati e delle esperienze per la tua app mobile.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Utilizza l'applicazione di esempio</a>
 </tr>
 
@@ -126,6 +126,6 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 ## Risorse aggiuntive
 
-- [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it#)
+- [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#)
 
 - [Documentazione di Mobile SDK](https://developer.adobe.com/client-sdks/documentation/)

@@ -3,7 +3,7 @@ title: Metriche principali dei servizi di contenuti multimediali in streaming
 description: Metriche disponibili quando abiliti [!UICONTROL Media Core] per una suite di rapporti.
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Le metriche di base dei servizi multimediali di streaming forniscono funzionalità di reporting di base ai dati raccolti tramite le librerie di raccolta dei servizi multimediali di streaming. L&#39;utilizzo di queste metriche richiede **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
-Quando abiliti **[!UICONTROL Media Core]** in [Report multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le metriche seguenti:
+Quando abiliti **[!UICONTROL Media Core]** in [Report multimediali](/help/admin/tools/manage-rs/edit-settings/media-management.md), sono disponibili le metriche seguenti:
 
 | Nome della metrica | Descrizione | Inviato con | Variabile dati contestuali |
 | --- | --- | --- | --- |

@@ -1,10 +1,10 @@
 ---
 title: Dimensioni di uscita
 description: Elenca le dimensioni di uscita e il relativo utilizzo.
-keywords: chiudi pagina, esci dalla sezione del sito, esci dal server, esci da approfondimenti personalizzati
+keywords: chiudi pagina, esci dalla sezione del sito, esci dal server, esci da insight personalizzato
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 *Questa pagina della Guida descrive il funzionamento delle uscite come [dimensione](overview.md). Per informazioni sul funzionamento delle uscite come metrica, vedi la metrica [Uscite](../metrics/exits.md).*
 
-Le dimensioni di uscita registrano l’ultimo elemento dimensione e lo applicano retroattivamente a tutti gli hit nella visita. Le dimensioni di uscita sono disponibili per tutte le variabili con percorsi abilitati in [Variabili di traffico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
+Le dimensioni di uscita registrano l’ultimo elemento dimensione e lo applicano retroattivamente a tutti gli hit nella visita. Le dimensioni di uscita sono disponibili per tutte le variabili con percorsi abilitati in [Variabili di traffico](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) nelle impostazioni della suite di rapporti.
 
 ## Popolare le dimensioni di uscita con i dati
 

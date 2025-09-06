@@ -4,7 +4,7 @@ description: Guida per gli amministratori di Adobe Analytics, compresa la gestio
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
+source-git-commit: 65e1bfb6793f2e5be3d025214f4797edd6e316a1
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 96%
@@ -31,7 +31,7 @@ Adobe Analytics dispone attualmente di due aree per gli amministratori:
 
 Questa guida tratta i seguenti argomenti:
 
-* Tutte le attività eseguite negli Strumenti di amministrazione di Analytics. compresa la configurazione di suite di rapporti, variabili, classificazioni o governance dei dati. Per un elenco delle impostazioni aziendali e per suite di rapporti disponibili, consulta [Strumenti di amministrazione](admin/c-admin-tools.md).
+* Tutte le attività eseguite negli Strumenti di amministrazione di Analytics. compresa la configurazione di suite di rapporti, variabili, classificazioni o governance dei dati. Per un elenco delle impostazioni aziendali e per suite di rapporti disponibili, consulta [Strumenti di amministrazione](tools/c-admin-tools.md).
 * Tutte le attività specifiche di Analytics che vengono eseguite in Adobe Admin Console, compresi il provisioning dei prodotti e la gestione delle autorizzazioni degli utenti. Consulta [Adobe Analytics in Adobe Admin Console](admin-console/home.md) per un elenco delle azioni che possono essere eseguite in Adobe Admin Console.
 
 Questa guida non tratta molte delle funzionalità generiche offerte da Adobe Admin Console, che puoi invece trovare nella sezione [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html) della guida utente Enterprise.
@@ -39,7 +39,7 @@ Questa guida non tratta molte delle funzionalità generiche offerte da Adobe Adm
 ## Articoli chiave
 
 * [Prima guida introduttiva dell’amministratore di Analytics](admin-console/first-admin-guide.md): se la tua organizzazione utilizza Adobe Analytics per la prima volta, segui questa guida per iniziare a sfruttare le possibilità offerte da Adobe Analytics.
-* [Report Suite Manager](admin/c-manage-report-suites/report-suites-admin.md): questo è lo strumento di amministrazione più utilizzato in Analytics. Report Suite Manager contiene le impostazioni per la gestione delle variabili e delle classificazioni, del fuso orario e altro ancora.
+* [Report Suite Manager](tools/manage-rs/report-suites-admin.md): questo è lo strumento di amministrazione più utilizzato in Analytics. Report Suite Manager contiene le impostazioni per la gestione delle variabili e delle classificazioni, del fuso orario e altro ancora.
 
 ## Altre guide utente di Analytics
 
@@ -47,7 +47,7 @@ Questa guida non tratta molte delle funzionalità generiche offerte da Adobe Adm
 
 ## Risorse chiave per Analytics
 
-* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/it?support-solution=Analytics?lang=it#support)
+* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/?support-solution=Analytics?lang=it#support)
 * [Adobe Analytics Community su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

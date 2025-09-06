@@ -4,7 +4,7 @@ description: Variabili personalizzate che contengono più valori nello stesso hi
 feature: Appmeasurement Implementation
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 75%
@@ -19,15 +19,15 @@ Assicurati di registrare in che modo utilizzi ciascuna variabile elenco e la rel
 
 >[!NOTE]
 >
->Le variabili elenco memorizzano i valori più recenti per visitatore in base all&#39;impostazione [!UICONTROL Max values] in [Impostazioni suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Sono supportati fino a 250 valori. Se sono presenti più valori univoci di quelli consentiti dall&#39;impostazione [!UICONTROL Max values], i valori meno recenti non vengono attribuiti alle metriche.
+>Le variabili elenco memorizzano i valori più recenti per visitatore in base all&#39;impostazione [!UICONTROL Max values] in [Impostazioni suite di rapporti](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md). Sono supportati fino a 250 valori. Se sono presenti più valori univoci di quelli consentiti dall&#39;impostazione [!UICONTROL Max values], i valori meno recenti non vengono attribuiti alle metriche.
 
 ## Impostare le variabili elenco nelle impostazioni delle suite di rapporti
 
-Assicurati di configurare ogni variabile elenco nelle impostazioni della suite di rapporti prima di utilizzarla nell’implementazione. Consulta [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) nella guida per l’amministratore. Questo passaggio si applica a tutti i metodi di implementazione.
+Assicurati di configurare ogni variabile elenco nelle impostazioni della suite di rapporti prima di utilizzarla nell’implementazione. Consulta [Variabili di conversione](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md) nella guida per l’amministratore. Questo passaggio si applica a tutti i metodi di implementazione.
 
 ## Variabili elenco tramite il Web SDK
 
-Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), le variabili elenco utilizzano i campi XDM da `xdm._experience.analytics.customDimensions.lists.list1.list[]` a `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Ogni elemento array contiene un oggetto `"value"` che contiene ogni stringa. Non è necessario fornire un delimitatore. I server di raccolta dati di Adobe rilevano e includono automaticamente il delimitatore corretto impostato nelle [impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), le variabili elenco utilizzano i campi XDM da `xdm._experience.analytics.customDimensions.lists.list1.list[]` a `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Ogni elemento array contiene un oggetto `"value"` che contiene ogni stringa. Non è necessario fornire un delimitatore. I server di raccolta dati di Adobe rilevano e includono automaticamente il delimitatore corretto impostato nelle [impostazioni della suite di rapporti](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -59,7 +59,7 @@ Se si utilizza l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.
 >
 >Lo schema XDM di Adobe contiene oggetti `key` oltre a oggetti `value` in ogni array `list[]`. Adobe non utilizza questi oggetti `key` durante l’invio di dati ad Adobe Analytics.
 
-Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), le variabili elenco utilizzano `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` seguendo la sintassi di AppMeasurement. Assicurati di utilizzare il set di delimitatori corretto in [Impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), le variabili elenco utilizzano `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` seguendo la sintassi di AppMeasurement. Assicurati di utilizzare il set di delimitatori corretto in [Impostazioni della suite di rapporti](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md).
 
 ```json
 "data": {
@@ -77,7 +77,7 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.list1 - s.list3 in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-Ogni variabile elenco è una stringa che contiene valori personalizzati specifici dell’organizzazione. Questa variabile non ha un numero massimo di byte; tuttavia, ogni singolo valore ha un limite massimo di 255 byte. Il delimitatore utilizzato viene determinato quando si imposta la variabile nelle [Impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Non utilizzare spazi quando si delimitano più elementi.
+Ogni variabile elenco è una stringa che contiene valori personalizzati specifici dell’organizzazione. Questa variabile non ha un numero massimo di byte; tuttavia, ogni singolo valore ha un limite massimo di 255 byte. Il delimitatore utilizzato viene determinato quando si imposta la variabile nelle [Impostazioni della suite di rapporti](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md). Non utilizzare spazi quando si delimitano più elementi.
 
 ```js
 // A list variable configured with a comma as a delimiter

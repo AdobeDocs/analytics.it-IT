@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
 # Guida agli strumenti di Adobe Analytics {#analyze}
 
 + [Guida agli strumenti di Analytics](home.md)
-+ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/it/docs/analytics/release-notes/latest)
 + Guida introduttiva ad Adobe Analytics {#admin-overview}
    + [Panoramica di Analytics](get-started/analytics-overview.md)
    + [Introduzione (per ruolo)](get-started/get-started-by-role.md)
@@ -28,16 +28,16 @@ ht-degree: 91%
    + [Panoramica di Analysis Workspace](analysis-workspace/home.md)
    + Progetti {#build-workspace-project}
       + [Panoramica](analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [Avvia rapidamente i progetti](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [Avviare rapidamente i progetti](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Creare progetti](analysis-workspace/build-workspace-project/create-projects.md)
       + [Aprire i progetti](analysis-workspace/build-workspace-project/open-projects.md)
       + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
       + [Sommario](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Cartelle in Workspace {#workspace-folders}
          + [Panoramica](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Creare cartelle](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Creare le cartelle](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Gestire le cartelle](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [Aggiungere o spostare progetti](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Aggiungere o spostare i progetti](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Suite di rapporti multiple](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Tasti di scelta rapida](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Palette di colori](analysis-workspace/build-workspace-project/color-palettes.md)
@@ -276,7 +276,7 @@ ht-degree: 91%
       + [Caricare una cartella di lavoro](legacy-report-builder/workbook-library/t-upload-a-workbook.md)
       + [Scaricare una cartella di lavoro](legacy-report-builder/workbook-library/t-download-a-workbook.md)
       + [Bloccare/sbloccare le cartelle di lavoro](legacy-report-builder/workbook-library/protect-wb.md)
-      + [Pianificazione delle cartelle di lavoro con attivazione macro](legacy-report-builder/workbook-library/schedule-macro-wb.md)
+      + [Pianificazione delle cartelle di lavoro con abilitazione delle macro](legacy-report-builder/workbook-library/schedule-macro-wb.md)
    + Pubblicare su Power BI con Report Builder 5.5 {#publish-powerbi}
       + [Pubblicare su Power BI: panoramica](legacy-report-builder/c-publish-power-bi/power-bi.md)
       + [Limiti e specifiche](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
@@ -302,6 +302,6 @@ ht-degree: 91%
    + [Panoramica delle dashboard di Adobe Analytics](mobile-app/home.md)
    + [Introduzione al curatore](mobile-app/curator.md)
    + [Creare una scorecard per dispositivi mobili](mobile-app/create-scorecard.md)
-   + [Preparare gli utenti manageriali a utilizzare le scorecard](mobile-app/set-up-execs.md)
+   + [Preparare il management a utilizzare le dashboard](mobile-app/set-up-execs.md)
    + [Guida introduttiva per utenti direzionali](mobile-app/executive.md)
 + [Labs](labs.md)

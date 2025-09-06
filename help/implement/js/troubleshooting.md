@@ -4,7 +4,7 @@ description: Scopri i problemi comuni e le best practice per la risoluzione dei 
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 1%
@@ -88,7 +88,7 @@ Questi due valori delle variabili sono considerati separati in Adobe Analytics. 
 Le implementazioni che popolano molte variabili con valori lunghi a volte possono causare richieste di immagini troncate. Alcuni browser meno recenti, come Internet Explorer, impongono un limite di 2083 caratteri per gli URL di richiesta delle immagini. Se l’organizzazione deve far fronte a richieste di immagini molto lunghe, prova quanto segue:
 
 * **Utilizza il servizio Experience Cloud ID**: le librerie AppMeasurement 1.4.1 e versioni successive inviano automaticamente le richieste di immagini tramite HTTP POST se sono troppo lunghe. I dati inviati con questo metodo non vengono troncati, a prescindere dalla lunghezza. Per ulteriori informazioni, consulta [Servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
-* **Usa regole di elaborazione**: [Le regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) possono copiare i valori da una variabile a un&#39;altra. Questo metodo evita di impostare lo stesso valore in più variabili. Ad esempio:
+* **Usa regole di elaborazione**: [Le regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) possono copiare i valori da una variabile a un&#39;altra. Questo metodo evita di impostare lo stesso valore in più variabili. Ad esempio:
 
   Esegui sempre:<br>
 Sovrascrivi il valore di prop1 con eVar1<br>

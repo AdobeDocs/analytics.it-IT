@@ -3,7 +3,7 @@ title: Regole VISTA in Adobe Analytics
 description: Ulteriori informazioni sulle regole VISTA e sulle relative funzionalità.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 81%
@@ -17,12 +17,12 @@ Le regole VISTA sono una forma alternativa di modifica dei dati personalizzati c
 Alcuni casi d’uso comuni delle regole VISTA includono:
 
 * Copiare un hit di Analytics da una suite di rapporti a un’altra, modificando facoltativamente i dati nella suite di rapporti copiata
-* Personalizzare l‘esclusione IP che supera i casi d’uso offerti da [Escludi per IP](/help/admin/admin/exclude-ip.md)
+* Personalizzare l‘esclusione IP che supera i casi d’uso offerti da [Escludi per IP](/help/admin/tools/exclude-ip.md)
 * Modificare qualsiasi valore della variabile in modo condizionale o globale
 * Duplicare i valori della variabile in altre variabili
 * Caricare file su un sito FTP di Adobe che può influenzare i valori delle variabili
 
-Molti casi d’uso per le regole VISTA sono già offerti dalle [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md), [Regole bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [Suite di rapporti virtuali](/help/components/vrs/vrs-about.md) o semplicemente aggiornando l‘implementazione di Adobe Analytics. Adobe consiglia di applicare le regole VISTA solo come ultima risorsa.
+Molti casi d’uso per le regole VISTA sono già offerti dalle [Regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md), [Regole bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), [Suite di rapporti virtuali](/help/components/vrs/vrs-about.md) o semplicemente aggiornando l‘implementazione di Adobe Analytics. Adobe consiglia di applicare le regole VISTA solo come ultima risorsa.
 
 >[!IMPORTANT]
 >

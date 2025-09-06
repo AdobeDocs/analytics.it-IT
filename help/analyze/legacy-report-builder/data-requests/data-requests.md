@@ -4,9 +4,9 @@ title: 'Richieste di dati: Creazione guidata richieste passaggio 1'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '378'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Nella maschera Creazione guidata richieste: passaggio 1 selezionare la suite di 
 
 1. **Selettore intervallo**: consente di selezionare un ID suite di rapporti da una cella in Excel. Vedi [Seleziona suite di rapporti](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segmento**: i segmenti sono sottoinsiemi di dati personalizzati o dati filtrati dalle regole create. I segmenti si basano su hit, visite e visitatori. Per ulteriori informazioni sui segmenti, consulta la [Guida alla segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it).
+1. **Segmento**: i segmenti sono sottoinsiemi di dati personalizzati o dati filtrati dalle regole create. I segmenti si basano su hit, visite e visitatori. Per ulteriori informazioni sui segmenti, consulta la [Guida alla segmentazione di Analytics](/help/components/segmentation/seg-home.md).
 
    Ad esempio, puoi eseguire [!UICONTROL Pages Report] e quindi applicare un segmento Nuovo visitatore.
 
@@ -43,7 +43,7 @@ Talvolta la Creazione guidata richieste viene visualizzata fuori schermo, in par
 
 Per risolvere il problema, è possibile tornare alla Creazione guidata richieste sullo schermo.
 
-1. Apri Microsoft Excel e accedi al Report Builder.
+1. Apri Microsoft Excel e accedi a Report Builder.
 2. Fare clic su [!UICONTROL Create] per aprire la Creazione guidata richieste fuori schermo.
 3. Premere `[Alt]` + `[Space]`.
 4. Premere `[M]`.

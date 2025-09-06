@@ -3,7 +3,7 @@ title: Dimensioni principali dei servizi di contenuti multimediali in streaming
 description: Dimensioni disponibili quando si abilita [!UICONTROL Media Core] per una suite di rapporti.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Le dimensioni principali dei servizi di contenuti multimediali in streaming forniscono funzionalità di reporting di base ai dati raccolti tramite le librerie dei servizi di contenuti multimediali in streaming. L&#39;utilizzo di queste dimensioni richiede **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
-Quando abiliti **[!UICONTROL Media Core]** in [Generazione rapporti multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le seguenti dimensioni:
+Quando abiliti **[!UICONTROL Media Core]** in [Generazione rapporti multimediali](/help/admin/tools/manage-rs/edit-settings/media-management.md), sono disponibili le seguenti dimensioni:
 
 | Nome dimensione | Descrizione | Inviato con | Variabile dati contestuali |
 | --- | --- | --- | --- |

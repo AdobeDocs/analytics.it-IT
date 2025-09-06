@@ -4,7 +4,7 @@ keywords: Suite di rapporti virtuali
 title: Considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1634'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Le suite di rapporti virtuali ti consentono di visualizzare i dati di una suite di rapporti che raccoglie dati dalle proprietà digitali, ma con un segmento applicato in modo permanente.
 
-In molti casi, puoi utilizzare suite di rapporti virtuali per sostituire l’assegnazione di tag a più suite. Il passaggio alle suite di rapporti virtuali può effettivamente rimuovere la necessità di [chiamate al server secondarie](/help/admin/admin/c-server-call-usage/overage-overview.md). Ad esempio, la tua organizzazione dispone di 6 siti web diversi, ciascuno dei quali invia dati alla propria suite di rapporti e a una suite di rapporti globale combinata. Ogni sito riceve una chiamata al server secondaria, una alla singola suite di rapporti sul brand e una seconda alla suite di rapporti globale. Al contrario, puoi inviare dati da tutti i siti solo alla suite di rapporti globale, quindi utilizzare più suite di rapporti virtuali per separare ogni marchio.
+In molti casi, puoi utilizzare suite di rapporti virtuali per sostituire l’assegnazione di tag a più suite. Il passaggio alle suite di rapporti virtuali può effettivamente rimuovere la necessità di [chiamate al server secondarie](/help/admin/tools/server-call-usage/overage-overview.md). Ad esempio, la tua organizzazione dispone di 6 siti web diversi, ciascuno dei quali invia dati alla propria suite di rapporti e a una suite di rapporti globale combinata. Ogni sito riceve una chiamata al server secondaria, una alla singola suite di rapporti sul brand e una seconda alla suite di rapporti globale. Al contrario, puoi inviare dati da tutti i siti solo alla suite di rapporti globale, quindi utilizzare più suite di rapporti virtuali per separare ogni marchio.
 
 La sostituzione dell’assegnazione tag per più suite con una suite di rapporti globale e una suite di rapporti virtuale consente di semplificare l’implementazione di Adobe Analytics e ridurre il consumo di chiamate al server; questa procedura è consigliata come best practice. Tuttavia, le suite di rapporti virtuali presentano alcune limitazioni importanti da considerare. Le linee guida seguenti sono utili per decidere se implementare suite di rapporti virtuali basate su una suite di rapporti globale sia l’approccio giusto.
 

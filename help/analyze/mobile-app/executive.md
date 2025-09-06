@@ -4,7 +4,7 @@ title: Guida alle dashboard di Adobe Analytics per utenti direzionali
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 92%
@@ -110,7 +110,7 @@ Per utilizzare le dashboard:
 
 1. Per applicare un filtro segmenti alla scorecard, tocca il menu a discesa dei filtri e seleziona un segmento configurato dal tuo curatore. I [filtri](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell’app funzionano allo stesso modo di Analytics Workspace.
 
-   ![Filtro del segmento](/help/admin/admin/assets/filter.png)
+   ![Filtro del segmento](/help/admin/tools/assets/filter.png)
 
 1. Ricevere gli aggiornamenti delle scorecard. Se una scorecard non include tutte le metriche o i raggruppamenti che potrebbero interessarti, contatta il tuo team di Analytics per far aggiornare la scorecard. Una volta aggiornata, è possibile trascinare giù la scheda sullo schermo per aggiornarla e caricare i dati aggiunti di recente.
 

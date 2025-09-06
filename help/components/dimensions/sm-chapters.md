@@ -3,7 +3,7 @@ title: Dimensioni del capitolo di Streaming Media
 description: Dimensioni disponibili quando si abilita [!UICONTROL Media Chapters] per una suite di rapporti.
 feature: Dimensions
 exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 11%
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Le dimensioni del capitolo dei servizi di contenuti multimediali in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie dei servizi di contenuti multimediali in streaming. L&#39;utilizzo di queste dimensioni richiede **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
-Quando abiliti **[!UICONTROL Media Chapters]** in [Generazione rapporti multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), è disponibile la seguente dimensione:
+Quando abiliti **[!UICONTROL Media Chapters]** in [Generazione rapporti multimediali](/help/admin/tools/manage-rs/edit-settings/media-management.md), è disponibile la seguente dimensione:
 
 | Nome dimensione | Descrizione | Inviato con | Variabile dati contestuali |
 | --- | --- | --- | --- |

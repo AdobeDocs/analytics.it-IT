@@ -4,9 +4,9 @@ title: Metriche calcolate
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '395'
 ht-degree: 12%
 
 ---
@@ -19,15 +19,15 @@ Report Builder 5.2 e versioni successive supportano le metriche calcolate di Ado
 
 >[!NOTE]
 >
->Le cartelle di lavoro esistenti potrebbero puntare a richieste con ID metrici legacy. Quando utilizzi il Report Builder 5.2, questi ID metrica legacy verranno convertiti nel nuovo ID globale. Se condividi questa cartella di lavoro con un utente del Report Builder v5.1 o versioni precedenti, tale utente non sarà in grado di visualizzare le metriche calcolate.
+>Le cartelle di lavoro esistenti potrebbero puntare a richieste con ID metrici legacy. Quando utilizzi Report Builder 5.2, questi ID metrici legacy verranno convertiti nel nuovo ID globale. Se condividi questa cartella di lavoro con un utente di Report Builder v5.1 o versioni precedenti, tale utente non sarà in grado di visualizzare le metriche calcolate.
 
-Per ulteriori informazioni su come creare e gestire le metriche calcolate con il nuovo Generatore di metriche calcolate e Manager, consulta la [Guida alle metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=it).
+Per ulteriori informazioni su come creare e gestire le metriche calcolate con il nuovo Generatore di metriche calcolate e Manager, consulta la [Guida alle metriche calcolate](/help/components/calculated-metrics/cm-overview.md).
 
 Nel passaggio 2 della Creazione guidata richieste, puoi filtrare e applicare le metriche calcolate.
 
 ## Filtrare le metriche calcolate {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtrare** le metriche calcolate facendo clic sull&#39;icona Filtro: ![Schermata delle opzioni di Filtro che mostra i campi Applicazione, Utente, Progetto.](/help/admin/admin/assets/filter.png)
+**Filtrare** le metriche calcolate facendo clic sull&#39;icona Filtro: ![Schermata delle opzioni di Filtro che mostra i campi Applicazione, Utente, Progetto.](/help/admin/tools/assets/filter.png)
 
 La finestra di dialogo Filtri avanzati è compilata con metriche standard e calcolate.
 

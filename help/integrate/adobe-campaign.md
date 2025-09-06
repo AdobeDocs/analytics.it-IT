@@ -4,9 +4,9 @@ title: In che modo viene integrato il reporting di Adobe Campaign Standard in Ad
 feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '464'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 Per ulteriori informazioni su come configurare questa integrazione, consulta la [documentazione di Adobe Campaign](https://helpx.adobe.com/it/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 >[!IMPORTANT]
->Questo articolo si applica solo alla generazione rapporti di Adobe Campaign **Standard**. Consulta [qui](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=it) per aggiungere il reporting di Adobe Campaign **Classic**.
+>Questo articolo si applica solo alla generazione rapporti di Adobe Campaign **Standard**. Consulta [qui](/help/integrate/analytics-to-campaign-classic.md) per aggiungere il reporting di Adobe Campaign **Classic**.
 
 Questa integrazione tra Adobe Analytics e Adobe Campaign Standard:
 

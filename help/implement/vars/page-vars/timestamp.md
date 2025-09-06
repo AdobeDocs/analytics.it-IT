@@ -4,9 +4,9 @@ description: Imposta manualmente la marca temporale dell’hit.
 feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 9%
 
 ---
@@ -21,7 +21,7 @@ La variabile `timestamp` imposta manualmente la marca temporale dell&#39;hit per
 
 ## Marca temporale tramite Web SDK
 
-La marca temporale è [mappata per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=it) nel campo XDM `xdm.timestamp`. Questo campo supporta solo il tempo Unix.
+La marca temporale è [mappata per Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) nel campo XDM `xdm.timestamp`. Questo campo supporta solo il tempo Unix.
 
 ## Marca temporale tramite l’estensione Adobe Analytics
 

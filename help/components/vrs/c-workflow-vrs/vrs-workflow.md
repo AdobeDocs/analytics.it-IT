@@ -4,7 +4,7 @@ keywords: Suite di rapporti virtuali
 title: Flusso di lavoro suite di rapporti virtuali
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 8%
@@ -15,11 +15,11 @@ ht-degree: 8%
 
 Panoramica dei passaggi necessari per pianificare e implementare suite di rapporti virtuali.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Pianifica la tua strategia per suite di rapporti virtuali.
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Pianifica la tua strategia per suite di rapporti virtuali.
 
 Acquisisci familiarità con [considerazioni sull&#39;assegnazione di tag globali/multisuite](/help/components/vrs/vrs-considerations.md) e con le domande frequenti man mano che decidi la tua strategia.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [Crea una suite di rapporti virtuale](/help/components/vrs/c-workflow-vrs/vrs-create.md) applicando uno o più segmenti a una suite di rapporti principale.
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) [Crea una suite di rapporti virtuale](/help/components/vrs/c-workflow-vrs/vrs-create.md) applicando uno o più segmenti a una suite di rapporti principale.
 
 Le suite di rapporti virtuali vengono create nel gestore delle suite di rapporti virtuali, disponibile tramite **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
 
@@ -27,7 +27,7 @@ Una volta creata, una suite di rapporti virtuale viene trattata come una suite d
 
 Fai clic sull&#39;icona Info accanto al nome della suite di rapporti per [visualizzare le relative informazioni](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Aprire un progetto o un report e selezionare una suite di rapporti virtuali per fornire una visualizzazione segmentata dei dati.
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) Aprire un progetto o un report e selezionare una suite di rapporti virtuali per fornire una visualizzazione segmentata dei dati.
 
 ![](assets/step4_icon.png) [Gestione](/help/components/vrs/c-workflow-vrs/vrs-manage.md) della suite di rapporti virtuali.
 

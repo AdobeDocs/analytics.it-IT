@@ -4,9 +4,9 @@ short-description: Scopri le funzioni chiave, i casi d’uso comuni e i primi pa
 title: Panoramica di Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 97%
 
 ---
@@ -41,7 +41,7 @@ Per il video del webinar, vedi ![VideoCheckedOut](/help/assets/icons/VideoChecke
 >[!ENDSHADEBOX]
 
 
-Per domande sullo strumento da utilizzare, consulta [Quale strumento Adobe Analytics usare?](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=it).
+Per domande sullo strumento da utilizzare, consulta [Quale strumento Adobe Analytics usare?](/help/analyze/get-started/which-analytics-tool.md).
 
 ## Fare di più con Customer Journey Analytics
 

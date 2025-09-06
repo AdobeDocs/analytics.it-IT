@@ -4,7 +4,7 @@ title: Limitazioni note
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 * Non è possibile aggiungere colonne di confronto delle date quando si utilizzano intervalli di date o metriche di date nelle righe di una tabella.
 * La funzione Create metric from selection (Crea metrica da selezione) è disabilitata quando i segmenti sono utilizzati come righe di una tabella. Inoltre, la funzione Create metric from selection (Crea metrica da selezione) non deve essere applicata a colonne allineate su data.
-* La formattazione condizionale per le righe di suddivisione non può utilizzare intervalli personalizzati.
+* La formattazione condizionale per le righe di raggruppamento non può utilizzare intervalli personalizzati.
 * Le righe dei totali della tabella non possono includere tendenze quando si applica l’impostazione di calcolo dei totali sommando i valori delle righe (generalmente utilizzato per righe con elementi statici).
 
 ## Visualizzazioni
@@ -33,7 +33,7 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 * Alcune metriche e dimensioni non possono essere segmentate, ad esempio [!UICONTROL Events], [!UICONTROL Persons], ecc.
 * I segmenti ad hoc creati nella [zona di rilascio del pannello](/help/analyze/analysis-workspace/c-panels/panels.md) sono un tipo di segmento rapido. Non vengono visualizzati nel pannello a sinistra di Workspace o in Gestione segmenti, a meno che non vengano resi pubblici. Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/segmentation/segmentation-workflow/seg-quick.md).
 
-## Metriche calcolate 
+## Metriche calcolate
 
 * Le metriche calcolate non possono essere utilizzate in alcune visualizzazioni. Consulta [Visualizzazioni](#visualizations).
 * Le metriche calcolate non possono essere utilizzate nel pannello [!UICONTROL Attribution], poiché possono includere modelli di attribuzione separati.
@@ -76,7 +76,7 @@ Here is a list of known limitations in Analysis Workspace and its related compon
 ## Components > Segments
 
 * Certain metrics and dimensions are not segmentable, such as [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], etc.
-* Adhoc segments created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=it) are a type of quick filter. They do not appear in the left rail of Workspace or the Segment component manager unless they are made public. For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* Adhoc segments created in the [panel dropzone](/help/analyze/analysis-workspace/c-panels/panels.md) are a type of quick filter. They do not appear in the left rail of Workspace or the Segment component manager unless they are made public. For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## Components > Calculated Metrics
 

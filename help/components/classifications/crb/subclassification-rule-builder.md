@@ -3,7 +3,7 @@ description: Utilizza le sottoclassificazioni con il generatore di regole di cla
 title: Sottoclassificazioni e Generatore di regole
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 84%
@@ -42,7 +42,7 @@ Esempi di passaggi che descrivono come caricare le sottoclassificazioni utilizza
 
    Esempio:
 
-   ![Informazioni sul passaggio](/help/admin/admin/assets/sub_class_create.png)
+   ![Informazioni sul passaggio](/help/admin/tools/assets/sub_class_create.png)
 
 1. Nel [Generatore regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md), classifica la chiave di sottoclassificazione dal codice di tracciamento originale.
 
@@ -63,7 +63,7 @@ Esempi di passaggi che descrivono come caricare le sottoclassificazioni utilizza
 
    Esempio:
 
-   | Chiave | Canale | Broad Campaign code | Broad Campaign code&Hat;Campaign type | Broad Campaign code&Hat;Campaign Director | ... |
+   | Chiave | Canale | Broad Campaign code | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Brand | Suzanne |  |
    | &#42; |  | 222 | Brand | Frank |  |

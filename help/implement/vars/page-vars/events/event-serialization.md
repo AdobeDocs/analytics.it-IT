@@ -4,7 +4,7 @@ description: Aiuta a deduplicare le metriche sul tuo sito.
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 10%
@@ -21,7 +21,7 @@ La serializzazione degli eventi è il processo di implementazione delle misure p
 
 ## Impostare la serializzazione degli eventi
 
-Devi prima impostare [!UICONTROL Unique Event Recording] di un evento su [!UICONTROL Use Event ID] nelle impostazioni della suite di rapporti. Vedi [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nella guida utente dell&#39;amministratore.
+Devi prima impostare [!UICONTROL Unique Event Recording] di un evento su [!UICONTROL Use Event ID] nelle impostazioni della suite di rapporti. Vedi [Eventi di successo](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) nella guida utente dell&#39;amministratore.
 
 Quando si utilizzano gli ID evento, la deduplicazione si verifica sui seguenti livelli:
 

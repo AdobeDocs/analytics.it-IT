@@ -5,10 +5,10 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -103,7 +103,7 @@ Puoi gestire una visualizzazione quando passi il cursore del mouse su di essa o 
 
 * Per comprimere una visualizzazione, selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg).
 * Per visualizzare una visualizzazione compressa, selezionare ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
-* Per eliminare una visualizzazione, selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg). Per annullare, selezionare **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Per eliminare una visualizzazione, selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg). Per annullare, seleziona **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *Comando+Z *]**|**[!UICONTROL * CTRL+Z *]**).
 * Per ripristinare l&#39;altezza predefinita di una visualizzazione, selezionare ![Ridimensiona immagine](/help/assets/icons/Resize.svg).
 * Per spostare una visualizzazione all&#39;interno di un pannello, trascina e rilascia la visualizzazione ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg) (in genere quando passi il cursore del mouse sull&#39;intestazione).
 
@@ -154,7 +154,7 @@ Le impostazioni di visualizzazione disponibili dipendono dal tipo di visualizzaz
 | **[!UICONTROL Limit max items]** | Consente di limitare il numero di elementi presentati in una visualizzazione. Se questa opzione è selezionata, definisci il numero massimo di elementi. |
 | **[!UICONTROL Show annotations]** | Mostra le annotazioni effettuate per questa visualizzazione. |
 | **[!UICONTROL Hide title]** | Nascondi il titolo della visualizzazione. |
-| **[!UICONTROL Anchor y-axis at zero]** | Forza la parte inferiore dell’asse y a zero. Se tutti i valori tracciati sul grafico sono notevolmente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà non zero. Se si attiva questa opzione, l’asse y viene forzato a zero (e il grafico viene ridisegnato). |
+| **[!UICONTROL Anchor y-axis at zero]** | Forza la parte inferiore dell’asse y a zero. Se tutti i valori tracciati sul grafico sono notevolmente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà non zero. Se abiliti questa opzione, l’asse y viene forzato a zero (e il grafico viene ridisegnato). |
 | **[!UICONTROL Display dual axis]** | Visualizza gli assi y a sinistra e a destra per due metriche diverse. Questa opzione è applicabile solo se si dispone di due metriche. I doppi assi sono utili quando le metriche tracciate hanno dimensioni diverse. |
 | **[!UICONTROL Show x-axis]** | Mostra l’asse x nella visualizzazione. |
 | **[!UICONTROL Show y-axis]** | Mostra l’asse y nella visualizzazione. |
@@ -246,8 +246,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](/help/analyze/analysis-workspace/curate-share/download-send.md#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
@@ -263,6 +263,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/329405/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->

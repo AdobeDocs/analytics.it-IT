@@ -1,23 +1,23 @@
 ---
-description: Come aggiungere, modificare, applicare e filtrare segmenti di Adobe Analytics nel Report Builder.
+description: Aggiungere, modificare, applicare e filtrare segmenti di Adobe Analytics in Report Builder
 title: Gestire i segmenti (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 4%
+source-wordcount: '935'
+ht-degree: 3%
 
 ---
 
-# Gestire segmenti
+# Gestire i segmenti
 
 {{legacy-arb}}
 
-Come aggiungere, modificare, applicare e filtrare segmenti di Adobe Analytics nel Report Builder.
+Aggiungere, modificare, applicare e filtrare segmenti di Adobe Analytics in Report Builder
 
-Nel passaggio 1 della Creazione guidata richieste, il Report Builder dispone di un pannello di segmentazione che consente di creare e gestire i segmenti.
+Report Builder dispone di un pannello di segmentazione nel passaggio 1 della Creazione guidata richieste che consente di creare e gestire i segmenti.
 
 ![Schermata che mostra le opzioni Segmento per aggiungere, modificare o cancellare segmenti ed evidenzia le icone Controllo, Filtro e Aggiornamento.](assets/seg_dialog.png)
 
@@ -25,10 +25,10 @@ Nel passaggio 1 della Creazione guidata richieste, il Report Builder dispone di 
 
 >[!NOTE]
 >
->Per aggiungere o modificare segmenti, l’interfaccia dei segmenti di Report Builder avvia il Generatore di segmenti di Analytics in una finestra di Microsoft Internet Explorer. La sessione di Report Builder rimarrà attiva. I browser diversi da Internet Explorer non sono supportati per questa operazione.
+>Per aggiungere o modificare segmenti, l’interfaccia di Report Builder Segment Avvia il Generatore di segmenti di Analytics in una finestra di Microsoft Internet Explorer. La sessione Report Builder rimarrà attiva. I browser diversi da Internet Explorer non sono supportati per questa operazione.
 
 1. Nel pannello dei segmenti del passaggio 1 della Creazione guidata richieste, fare clic su **[!UICONTROL Add]**.
-1. Viene visualizzata una finestra di Internet Explorer che apre l’interfaccia del Generatore di segmenti di Analytics. Per informazioni su come creare i segmenti, consulta [Segmentazione di Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it).
+1. Viene visualizzata una finestra di Internet Explorer che apre l’interfaccia del Generatore di segmenti di Analytics. Per informazioni su come creare i segmenti, consulta [Segmentazione di Analytics](/help/components/segmentation/seg-home.md).
 1. Dopo aver definito e salvato il segmento, torna alla Creazione guidata richieste.
 1. Fai clic sull’icona Aggiorna per aggiornare l’elenco dei segmenti.
 
@@ -45,11 +45,11 @@ Puoi avere combinazioni specifiche di dimensioni di rapporto che desideri trasfo
 
    ![Schermata che mostra Crea segmento nel contesto nelle opzioni contenitore selezionate e disponibili.](assets/seg_in_context.png)
 
-   Per ulteriori informazioni sui contenitori, vedere la [Guida alla segmentazione](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it).
+   Per ulteriori informazioni sui contenitori, vedere la [Guida alla segmentazione](/help/components/segmentation/seg-home.md).
 
 1. L’interfaccia utente del Generatore di segmenti verrà ora avviata in Internet Explorer. L’interfaccia utente del Generatore di segmenti verrà inizializzata con il contenitore e il filtro specificati.
 1. Dopo aver aggiunto un nome e una descrizione al segmento, salvalo.
-1. Torna al Report Builder e fai clic sull’icona Aggiorna per aggiornare l’elenco dei segmenti.
+1. Torna a Report Builder e fai clic sull’icona Aggiorna per aggiornare l’elenco dei segmenti.
 1. Ora puoi applicare questo segmento.
 
 ## Cercare e applicare segmenti {#search}
@@ -66,7 +66,7 @@ Puoi applicare uno o più segmenti a una determinata richiesta. Sono inclusi i s
 
 >[!NOTE]
 >
->Che tu sia un amministratore o un non amministratore, nel Report Builder puoi visualizzare solo i segmenti che possiedi e quelli che sono stati condivisi con te.
+>Che tu sia un amministratore o un non amministratore, in Report Builder puoi visualizzare solo i segmenti che possiedi e quelli che sono stati condivisi con te.
 
 ## Filtrare segmenti {#filter}
 
@@ -113,7 +113,7 @@ Ogni volta che aggiungi un nuovo segmento o ne modifichi uno esistente, fai clic
 
 Prima della versione 5.4, Report Builder consentiva agli utenti di modificare i segmenti su più richieste. Tuttavia, questo processo ha sempre sostituito i segmenti esistenti. Gli utenti che desideravano aggiungere un nuovo segmento a ciascuna richiesta non potevano farlo, poiché l’aggiunta del segmento rimuoveva il precedente set di segmenti già assegnato a ogni richiesta.
 
-Il Report Builder 5.4 consente di aggiungere, rimuovere e sostituire tutti i segmenti all’interno di più richieste:
+Report Builder 5.4 consente di aggiungere, rimuovere e sostituire tutti i segmenti all’interno di più richieste:
 
 1. Selezionare più richieste in una cartella di lavoro.
 1. Fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Edit Requests]** > **[!UICONTROL By Segment]**.

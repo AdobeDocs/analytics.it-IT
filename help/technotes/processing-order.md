@@ -3,10 +3,10 @@ title: Ordine di elaborazione per dati in Adobe Analytics
 description: Scopri l’ordine dei componenti e dei servizi che elaborano i dati in Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -32,12 +32,12 @@ Una volta arrivati i dati ad Adobe Analytics, le seguenti funzioni modificano i 
 
 1. **Tabelle di ricerca**: dimensioni che si basano su tabelle di ricerca interne di Adobe (ad esempio, la dimensione [Browser](/help/components/dimensions/browser.md)) vengono associate al valore corrispondente.
 2. [**Variabili dinamiche**](/help/implement/vars/page-vars/dynamic-variables.md): se una variabile dinamica viene visualizzata in una qualsiasi parte di una richiesta di immagine, il valore viene copiato e trattato come un valore indipendente da qui in avanti.
-3. [**Regole bot**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): applica un filtro bot standard o personalizzato per escludere tali dati dal reporting.
-4. [**Regole di elaborazione**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md): regole personalizzate applicate ai dati dalla tua organizzazione. Include la mappatura delle [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md) alla rispettiva variabile.
+3. [**Regole bot**](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md): applica un filtro bot standard o personalizzato per escludere tali dati dal reporting.
+4. [**Regole di elaborazione**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md): regole personalizzate applicate ai dati dalla tua organizzazione. Include la mappatura delle [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md) alla rispettiva variabile.
 5. **Regole VISTA**: regole flessibili personalizzate applicate ai tuoi dati da un consulente di Adobe. Potenzialmente, le regole VISTA possono essere eseguite prima o dopo le regole di elaborazione, a seconda delle esigenze della tua organizzazione. La maggior parte delle regole VISTA viene generalmente eseguita dopo le regole di elaborazione, ma ogni organizzazione viene impostata in modo diverso. Contatta il team del tuo account Adobe per ulteriori informazioni sulle regole VISTA esistenti.
-6. [**Regole di elaborazione per il canale di marketing**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md): è possibile utilizzare le [Regole di elaborazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) per preparare i dati da utilizzare nelle regole di elaborazione del canale di marketing.
+6. [**Regole di elaborazione per il canale di marketing**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md): è possibile utilizzare le [Regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) per preparare i dati da utilizzare nelle regole di elaborazione del canale di marketing.
 7. **Dati di geolocalizzazione**: vengono compilate dimensioni che si basano sulla ricerca degli indirizzi IP (ad esempio, la dimensione [Paesi](/help/components/dimensions/countries.md)).
-8. [**Offuscamento IP**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md): se l’organizzazione ha scelto di offuscare gli indirizzi IP nei dati non elaborati, ciò viene effettuato al termine di tutte le altre funzioni di elaborazione.
+8. [**Offuscamento IP**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): se l’organizzazione ha scelto di offuscare gli indirizzi IP nei dati non elaborati, ciò viene effettuato al termine di tutte le altre funzioni di elaborazione.
 
 A questo punto, il singolo hit viene registrato nelle tabelle di dati della suite di rapporti. Dopo l’intervallo di [latenza](latency.md) standard, questo diviene disponibile nel reporting.
 
@@ -46,6 +46,6 @@ A questo punto, il singolo hit viene registrato nelle tabelle di dati della suit
 I dati in Adobe Analytics sono per lo più permanenti. Tuttavia, esistono alcune funzioni che possono consentire la modifica o la rimozione selettiva dei dati:
 
 * [**API Data Repair**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): modifica determinate colonne o elimina le righe di dati desiderate.
-* [**Governance dei dati**](/help/admin/admin/c-data-governance/an-gdpr-workflow.md): soddisfa le richieste di privacy per eliminare definitivamente i dati.
+* [**Governance dei dati**](/help/technotes/privacy/privacy-overview.md): soddisfa le richieste di privacy per eliminare definitivamente i dati.
 * [**Classificazioni**](/help/components/classifications/classifications-overview.md): crea dimensioni basate su regole o dati caricati che ti consentono di organizzare i dati in modo diverso. I dati sottostanti della suite di rapporti non vengono modificati, pertanto puoi modificare o sovrascrivere liberamente i dati di classificazione.
 * [**Suite di rapporti virtuale**](/help/components/vrs/vrs-about.md): crea una visualizzazione alternativa della suite di rapporti che può modificare il timeout della visita o consentire [Cross-Device Analytics](/help/components/cda/overview.md).

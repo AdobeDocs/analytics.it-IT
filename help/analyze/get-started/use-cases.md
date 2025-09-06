@@ -3,10 +3,10 @@ description: Informazioni generali di panoramica su Adobe Analytics, tra cui inf
 title: Casi d’uso di Analytics
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics fornisce la segmentazione complessa e gli strumenti predittivi s
 
 * [Analisi del flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [Segmentazione avanzata](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it)
+* [Segmentazione avanzata](/help/components/segmentation/seg-home.md)
 
 
 ## Analisi di marketing
@@ -33,9 +33,7 @@ Adobe Analytics consente alle organizzazioni di comprendere dove la clientela in
 
 Le seguenti funzioni chiave di Adobe Analytics forniscono queste funzionalità di marketing:
 
-* [Raccolta dati multicanale](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=it)
-
-* [Integrazione dei dati offline](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=it)
+* [Integrazione dei dati offline](/help/import/data-sources/overview.md)
 
 * [Analisi ad hoc in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
@@ -55,4 +53,4 @@ Le seguenti funzioni chiave di Adobe Analytics forniscono queste funzionalità p
 
 * [Analisi dei contributi](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [Avvisi](/help/components/c-alerts/intellligent-alerts.md)
+* [Avvisi](/help/components/alerts/alerts-overview.md)

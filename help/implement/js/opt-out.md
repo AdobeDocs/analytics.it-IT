@@ -6,7 +6,7 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 hidefromtoc: true
 role: Developer
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 4%
@@ -18,17 +18,17 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 > Questo articolo fornisce a **clienti Adobe Analytics che (prevedono di) implementare Adobe Analytics** sul proprio sito Web istruzioni su come fornire agli utenti del sito Web collegamenti di rinuncia. <p><p>
-> Se **stai visitando un sito Web che ha implementato Adobe Analytics** e desideri rinunciare, **<span style="color:red">questo articolo NON è adatto a te</span>**. Consulta [Adobe Privacy Choices](https://www.adobe.com/privacy/opt-out.html) per controllare come Adobe utilizza le tue informazioni.
+<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Se **stai visitando un sito Web che ha implementato Adobe Analytics** e desideri rinunciare, **<span style="color:red">questo articolo NON è adatto a te</span>**. Consulta [Opzioni sulla privacy di Adobe](https://www.adobe.com/privacy/opt-out.html) per controllare come Adobe utilizza le tue informazioni.
 
 Alcuni visitatori del tuo sito web preferiscono non includere le informazioni di navigazione nel set di dati. Adobe offre la possibilità di fornire ai visitatori del sito web un mezzo per rinunciare alle informazioni analizzate.
 
-I collegamenti di rinuncia consentono ai visitatori del sito web di omettere i propri dati dai rapporti di Analytics. Questi collegamenti sono limitati alle implementazioni AppMeasurement. Adobe consiglia di utilizzare il servizio Opt-in [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it). Il servizio Opt-in è più robusto e funziona su più prodotti Adobe Experience Cloud, inclusi Adobe Analytics e AppMeasurement.
+I collegamenti di rinuncia consentono ai visitatori del sito web di omettere i propri dati dai rapporti di Analytics. Questi collegamenti sono limitati alle implementazioni di AppMeasurement; Adobe consiglia di utilizzare il servizio Opt-in di [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it). Il servizio Opt-in è più robusto e funziona su più prodotti Adobe Experience Cloud, tra cui Adobe Analytics e AppMeasurement.
 
 Quando un visitatore raggiunge un URL di rinuncia, gli viene richiesto di installare un cookie di rinuncia. Se un utente sceglie di non essere tracciato e viene impostato un cookie di rinuncia, AppMeasurement continua a inviare dati ad Adobe. Tuttavia, tali dati non vengono elaborati o inclusi nei rapporti.
 
 >[!TIP]
 >
->Adobe offre anche le impostazioni della privacy in base alla suite per report. Consulta [Impostazioni privacy](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md) nella guida utente dell&#39;amministratore.
+>Adobe offre anche le impostazioni della privacy in base alla suite di rapporti. Consulta [Impostazioni privacy](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md) nella guida utente dell&#39;amministratore.
 
 ## URL di rinuncia
 
@@ -44,9 +44,9 @@ La pagina di rinuncia per l&#39;organizzazione dipende dal valore della variabil
    1. Sul server web, apri il file AppMeasurement.js utilizzato sul sito in un editor di codice o di testo.
    1. Nota il valore della variabile `trackingServer`.
 
-* Utilizzo di [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=it):
+* Utilizzo di [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Passa al sito utilizzando il browser Chrome.
-   1. Aprire il Experience Cloud Debugger, quindi passare a [!UICONTROL Network tab].
+   1. Apri Experience Cloud Debugger, quindi passa a [!UICONTROL Network tab].
    1. Nota il valore [!UICONTROL Request URL - Hostname].
 
 Dopo aver trovato il dominio `trackingServer` dell&#39;implementazione, aggiungere il percorso `/optout.html` alla fine. Ad esempio:

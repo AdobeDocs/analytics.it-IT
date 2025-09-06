@@ -4,7 +4,7 @@ description: Compila manualmente la dimensione "Codice postale" se le impostazio
 feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 17%
@@ -17,7 +17,7 @@ La variabile `zip` ti consente di popolare manualmente la dimensione &quot;Codic
 
 >[!IMPORTANT]
 >
->Assicurarsi che [!UICONTROL Zip Option] nelle impostazioni della suite di rapporti sia impostato sul valore desiderato. Non è possibile utilizzare questa variabile se [!UICONTROL Geo zip] è sempre utilizzato. Per ulteriori informazioni, consulta [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) nella guida utente dell&#39;amministratore.
+>Assicurarsi che [!UICONTROL Zip Option] nelle impostazioni della suite di rapporti sia impostato sul valore desiderato. Non è possibile utilizzare questa variabile se [!UICONTROL Geo zip] è sempre utilizzato. Per ulteriori informazioni, consulta [Impostazioni account generali](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) nella guida utente dell&#39;amministratore.
 
 ## Codice di avviamento postale tramite Web SDK
 

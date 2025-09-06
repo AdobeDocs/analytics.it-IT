@@ -4,7 +4,7 @@ description: Per i siti di eCommerce, imposta la valuta in cui sono effettuate l
 feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 97%
@@ -15,9 +15,9 @@ ht-degree: 97%
 
 Per i siti che utilizzano Commerce, le entrate e la valuta sono una parte importante di Analytics. Molti siti, soprattutto quelli che interessano più Paesi, utilizzano valute diverse. Utilizza la variabile `currencyCode` per assicurarti che le entrate siano attribuite alla valuta corretta.
 
-La conversione della valuta utilizza la seguente logica su ogni hit. Questi passaggi si applicano ai valori delle entrate assegnati alla variabile [`products`](../page-vars/products.md) e tutti gli eventi elencati come “Valuta” negli [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
+La conversione della valuta utilizza la seguente logica su ogni hit. Questi passaggi si applicano ai valori delle entrate assegnati alla variabile [`products`](../page-vars/products.md) e tutti gli eventi elencati come “Valuta” negli [Eventi di successo](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) nelle impostazioni della suite di rapporti.
 
-* Se `currencyCode` non è definita, Adobe presuppone che tutti i valori di valuta siano la valuta della suite di rapporti. Consulta le [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) nelle Impostazioni della suite di rapporti per visualizzare la valuta della suite di rapporti.
+* Se `currencyCode` non è definita, Adobe presuppone che tutti i valori di valuta siano la valuta della suite di rapporti. Consulta le [Impostazioni account generali](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) nelle Impostazioni della suite di rapporti per visualizzare la valuta della suite di rapporti.
 * Se `currencyCode` è definita e corrisponde alla valuta della suite di rapporti, non viene applicata alcuna conversione di valuta.
 * Se `currencyCode` è definita ed è diversa dalla valuta della suite di rapporti, Adobe applica una conversione della valuta in base al tasso di cambio del giorno corrente. Adobe collabora con [XE](https://xe.com) per convertire la valuta ogni giorno. Tutti i valori memorizzati nella suite di rapporti si trovano nella valuta della suite di rapporti.
 * Se `currencyCode` è impostata su un valore non valido, **l’intero hit viene eliminato causando la perdita di dati.** Assicurati che questa variabile sia definita correttamente ogni volta che viene utilizzata.

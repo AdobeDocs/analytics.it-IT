@@ -5,10 +5,10 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Puoi eseguire ricerche su elementi dimensionali specifici creando un filtro che 
 
 1. Crea o modifica una richiesta e passa a [!UICONTROL Request Wizard: Step 2].
 
-   ![Schermata che mostra le opzioni Filtro per: Applicazione, Utente e Progetto.](/help/admin/admin/assets/filter.png)
+   ![Schermata che mostra le opzioni Filtro per: Applicazione, Utente e Progetto.](/help/admin/tools/assets/filter.png)
 
 1. In [!UICONTROL Request Wizard: Step 2] fare clic sul collegamento accanto alla dimensione nella griglia, quindi scegliere **[!UICONTROL Filter]**.
 
@@ -34,7 +34,7 @@ Puoi eseguire ricerche su elementi dimensionali specifici creando un filtro che 
 
 1. Abilita una delle seguenti opzioni specifiche:
 
-   * **Da intervallo di celle:** consente di selezionare dati dalle celle. Puoi selezionare:
+   * **Da intervallo di celle:** consente di selezionare dati dalle celle. È possibile selezionare:
       * **Tutte le celle nell&#39;intervallo:** Consente di mappare ogni cella dell&#39;intervallo. Il testo descrittivo spiega il numero di gruppi di celle da selezionare. Per eseguire il mapping di più gruppi di celle, premere il tasto Ctrl mentre si effettuano selezioni successive. Se l’intervallo da mappare contiene una sola cella, questa è l’unica opzione disponibile
       * **Prima cella dell&#39;intervallo:** Selezionare solo la cella superiore sinistra dell&#39;intervallo, quindi scegliere una direzione per i dati. Inoltre, se la richiesta ha più periodi, è possibile scegliere la direzione dei periodi e scegliere se si desidera saltare un numero impostato di celle tra i periodi.
    * **Dall&#39;elenco:** consente di selezionare i dati da un elenco a cui è possibile aggiungere dati.

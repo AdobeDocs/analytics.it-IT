@@ -3,7 +3,7 @@ title: Codice di avviamento postale
 description: Il codice postale del visitatore.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 7%
@@ -21,16 +21,16 @@ Questa dimensione è univoca in quanto contiene più modi per compilarla con i d
 * Impostare il codice postale direttamente utilizzando la variabile `zip` oppure
 * Configuralo per estrarre i dati di geolocalizzazione.
 
-[!UICONTROL Zip option] in [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) controlla come popolare questa dimensione.
+[!UICONTROL Zip option] in [Impostazioni account generali](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) controlla come popolare questa dimensione.
 
 Se scegli di utilizzare un’opzione che coinvolge geo zip:
 
-* Ad AppMeasurement, le implementazioni di questa dimensione sono pronte all’uso.
-* Per le implementazioni Web SDK, abilita [!UICONTROL Geo Lookup] quando [si configura uno stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it).
+* Per le implementazioni di AppMeasurement, questa dimensione funziona in modo predefinito.
+* Per le implementazioni di Web SDK, abilita [!UICONTROL Geo Lookup] quando [si configura uno stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it).
 
 ## Elementi dimensionali
 
-Gli elementi del Dimension includono il codice postale del visitatore.
+Gli elementi Dimension includono il codice postale del visitatore.
 
 ## Paesi con codice postale supportati
 

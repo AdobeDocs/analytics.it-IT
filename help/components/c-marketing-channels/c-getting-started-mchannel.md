@@ -3,10 +3,10 @@ title: Introduzione ai canali di marketing
 description: Scopri il flusso di lavoro Canali di marketing, la configurazione automatica e come applicare un modello di impostazioni a più suite di rapporti.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >Per massimizzare l’efficacia dei canali di marketing per la funzione Attribuzione e Customer Journey Analytics, abbiamo pubblicato alcune [best practice revisionate](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Gli amministratori di Analytics possono gestire i canali di marketing per le loro organizzazioni come descritto in [Gestire i canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Gli amministratori di Analytics possono gestire i canali di marketing per le loro organizzazioni come descritto in [Gestire i canali di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
 I canali di marketing vengono comunemente utilizzati per fornire insight su come i visitatori arrivano sul sito. Puoi personalizzare le regole di elaborazione dei canali di marketing in base a quali desideri monitorare e a come desideri tenerne traccia.
 
@@ -41,9 +41,9 @@ Un elenco dei canali consigliati è disponibile nella sezione [Domande frequenti
 
 Dopo aver definito i canali da tracciare, puoi abilitarli da **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-Consulta [Canali e regole](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) per informazioni importanti sui prerequisiti e sui concetti.
+Consulta [Canali e regole](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) per informazioni importanti sui prerequisiti e sui concetti.
 
-Consulta [Aggiungere canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) per la procedura da seguire.
+Consulta [Aggiungere canali di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) per la procedura da seguire.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Consulta [Aggiungere canali di marketing](/help/admin/admin/c-manage-report-suit
 
 Dopo aver creato i canali dalla pagina [!UICONTROL Marketing Channel Manager], puoi configurare le regole in modo che i canali possano recuperare dati e generare rapporti.
 
-Consulta [Regole di elaborazione per il canale di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+Consulta [Regole di elaborazione per il canale di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
 
 Se i canali sono stati creati nella configurazione automatica, le regole in tali canali sono già definite. Puoi modificarle in base alle tue esigenze.
 
@@ -71,7 +71,7 @@ Come eseguire la configurazione automatica dei canali di marketing.
 
    >[!NOTE]
    >
-   >La pagina [!UICONTROL Marketing Channels: Auto Setup] viene visualizzata in automatico quando accedi alle applicazioni di configurazione dei canali in Strumenti di amministrazione. Consulta [Gestione canali di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).) Se la suite di rapporti contiene uno o più canali di marketing, questa pagina non viene visualizzata. Non puoi accedere nuovamente a questa pagina a meno che non selezioni un’altra suite di rapporti che non contiene canali di marketing.
+   >La pagina [!UICONTROL Marketing Channels: Auto Setup] viene visualizzata in automatico quando accedi alle applicazioni di configurazione dei canali in Strumenti di amministrazione. (Vedi [Marketing Channel Manager](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).) Questa pagina non viene visualizzata se la suite di rapporti contiene uno o più canali di marketing. Non puoi accedere nuovamente a questa pagina a meno che non selezioni un’altra suite di rapporti che non contiene canali di marketing.
 
 1. Assicurati che i canali che desideri creare siano selezionati.
 

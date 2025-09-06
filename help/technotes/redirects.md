@@ -4,7 +4,7 @@ keywords: Implementazione di Analytics
 title: Reindirizzamenti e alias
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 1%
@@ -41,8 +41,8 @@ Considera il seguente scenario ipotetico in cui l’utente non incontra un reind
 I reindirizzamenti possono causare la rimozione del browser dall’URL di riferimento effettivo. Considera lo scenario seguente:
 
 1. L&#39;utente punta il browser a `https://www.google.com` e digita *biglietti aerei scontati* nel campo di ricerca, quindi fa clic sul pulsante **[!UICONTROL Search]**.
-1. Nella barra degli indirizzi della finestra del browser vengono visualizzati i termini di ricerca digitati dall&#39;utente nel campo di ricerca `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. I termini di ricerca sono inclusi nei parametri della stringa di query URL che seguono `https://www.google.com/search?`. Nel browser viene inoltre visualizzata una pagina contenente i risultati della ricerca, incluso un collegamento a uno dei tuoi nomi di dominio: [!DNL https://www.flytohawaiiforfree.com/]. Questo dominio *vanity* è configurato per reindirizzare l&#39;utente a `https://www.example.com/`.
-1. L&#39;utente fa clic sul collegamento `https://www.flytohawaiiforfree.com/` e viene reindirizzato dal server al sito principale, `https://www.example.com`. Quando si verifica il reindirizzamento, i dati importanti per la raccolta dati [!DNL Analytics] vengono persi perché il browser cancella l&#39;URL di riferimento. Pertanto, le informazioni di ricerca originali utilizzate nei report [!DNL Analytics] (ad esempio, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) andranno perse.
+1. Nella barra degli indirizzi della finestra del browser vengono visualizzati i termini di ricerca digitati dall&#39;utente nel campo di ricerca `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. I termini di ricerca sono inclusi nei parametri della stringa di query URL che seguono `https://www.google.com/search?`. Nel browser viene inoltre visualizzata una pagina contenente i risultati della ricerca, incluso un collegamento a uno dei tuoi nomi di dominio: [!DNL https://www.flytohawaii.example/]. Questo dominio *vanity* è configurato per reindirizzare l&#39;utente a `https://www.example.com/`.
+1. L&#39;utente fa clic sul collegamento `https://www.flytohawaii.example/` e viene reindirizzato dal server al sito principale, `https://www.example.com`. Quando si verifica il reindirizzamento, i dati importanti per la raccolta dati [!DNL Analytics] vengono persi perché il browser cancella l&#39;URL di riferimento. Pertanto, le informazioni di ricerca originali utilizzate nei report [!DNL Analytics] (ad esempio, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) andranno perse.
 
 ## Implementare reindirizzamenti {#implement}
 
@@ -52,7 +52,7 @@ Il completamento dei seguenti passaggi conserverà le informazioni che il refere
 
 ## Configurare il referente per sostituire il codice JavaScript {#override}
 
-Il frammento di codice seguente mostra due variabili JavaScript, *`s_referrer`* e *`s_pageURL`*. Questo codice viene inserito nella pagina di destinazione finale del reindirizzamento.
+Il frammento di codice seguente mostra due variabili JavaScript, `s.referrer` e `s.pageURL`. Questo codice viene inserito nella pagina di destinazione finale del reindirizzamento.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -101,7 +101,7 @@ In genere, [!DNL Analytics] otterrà l&#39;URL di riferimento dalla proprietà [
 Pertanto, la versione finale della pagina di destinazione dovrebbe contenere il seguente codice per correggere i problemi introdotti nello scenario &quot;biglietti aerei scontati&quot;.
 
 ```js
-<script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
+<script language="JavaScript" src="AppMeasurement.js"></script> 
 <script language="JavaScript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 
@@ -110,7 +110,7 @@ s.server=""
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
 // Setting the s.pageURL variable is optional.
-s.pageURL="https://www.flytohawaiiforfree.com"
+s.pageURL="https://www.flytohawaii.example"
 ```
 
 ## Verificare il referente con Adobe Debugger {#verify}
@@ -135,13 +135,13 @@ Queste variabili saranno rappresentate come i seguenti parametri nel [Experience
   </tr> 
   <tr> 
    <td> <p>URL della pagina </p> </td> 
-   <td> <p> <span class="filepath"> https://www.flytohawaiiforfree.com </span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>Questo valore verrà visualizzato nel debugger di DigitalPulse se si utilizza la variabile <span class="varname"> pageURL </span>. </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>Questo valore verrà visualizzato nel debugger di DigitalPulse se si utilizza la variabile <span class="varname"> pageURL </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>URL della pagina di destinazione di Ultimate </p> </td> 
    <td> <p> <span class="filepath"> https://www.example.com </span> </p> </td> 
-   <td> <p>Questo valore NON verrà visualizzato nel debugger DigitalPulse se si utilizza la variabile </span> pageURL <span class="varname">. </p> </td> 
+   <td> <p>Questo valore NON verrà visualizzato nel debugger DigitalPulse se si utilizza la variabile <span class="varname"> pageURL </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,7 +157,7 @@ t=4/8/20XX 13:34:28 4 360
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
-g=https://www.flytohawaiiforfree.com 
+g=https://www.flytohawaii.example 
 s=1280x1024 
 c=32 
 j=1.3 

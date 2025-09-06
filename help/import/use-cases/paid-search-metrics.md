@@ -3,9 +3,9 @@ title: Importare metriche di ricerca a pagamento
 description: Passaggi per configurare Adobe Analytics per tenere traccia delle metriche di ricerca a pagamento (ad esempio, Google Ads, Microsoft Advertising, ecc.) tramite Origini dati.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1098'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Dovresti ricevere un messaggio che informa che i tuoi salvataggi sono stati appr
 1. Fare clic su **[!UICONTROL Next]** e assegnare un nome all&#39;origine dati. Questo nome viene visualizzato in Data Source Manager.
 1. Accettare il contratto di assistenza e fare clic su **[!UICONTROL Next]**.
 1. Selezionare le tre metriche standard [!UICONTROL Impressions], [!UICONTROL Clicks] e [!UICONTROL Total Cost] e fare clic su **[!UICONTROL Next]**.
-1. Ora &quot;mappare&quot; questa nuova origine dati agli eventi personalizzati creati in [Eventi di successo](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
+1. Ora &quot;mappare&quot; questa nuova origine dati agli eventi personalizzati creati in [Eventi di successo](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md).
 
    ![Mappatura](assets/data-source-mapping.png)
 
@@ -118,7 +118,7 @@ Torna alla procedura guidata Source dati per istruzioni e carica il file tramite
 
 L’aggiunta di metriche calcolate sarà utile quando si prendono decisioni pay-per-click.
 
-Ad esempio, puoi aggiungere queste [metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=it#calculated-metrics):
+Ad esempio, puoi aggiungere queste [metriche calcolate](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#calculated-metrics):
 
 | Nome | Formula | Tipi di metriche | Descrizione |
 | --- | --- | --- | --- |

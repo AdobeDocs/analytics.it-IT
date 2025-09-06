@@ -3,7 +3,7 @@ description: Adobe Analytics supporta modelli di classificazione sia a livello s
 title: Sottoclassificazioni
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 96%
@@ -18,7 +18,7 @@ Adobe Analytics supporta modelli di classificazione sia a livello singolo che a 
 
 >[!NOTE]
 >
->Per sottoclassificazione si intende la possibilità di creare classificazioni di classificazioni. Le sottoclassificazioni sono diverse dalla [!UICONTROL Classification Hierarchy] (gerarchia di classificazione) utilizzata per creare rapporti [!UICONTROL Hierarchy]. Per ulteriori informazioni sulle gerarchie di classificazione, vedere [Gerarchie di classificazione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md).
+>Per sottoclassificazione si intende la possibilità di creare classificazioni di classificazioni. Le sottoclassificazioni sono diverse dalla [!UICONTROL Classification Hierarchy] (gerarchia di classificazione) utilizzata per creare rapporti [!UICONTROL Hierarchy]. Per ulteriori informazioni sulle gerarchie di classificazione, vedere [Gerarchie di classificazione](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md).
 
 Ad esempio:
 
@@ -62,7 +62,7 @@ Anche se il modello di file per una classificazione a più livelli è più compl
 
 ## Esempi
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/classifications.png)
 
 >[!NOTE]
 >

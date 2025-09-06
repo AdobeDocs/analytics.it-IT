@@ -4,7 +4,7 @@ description: Variabili personalizzate che puoi utilizzare nell’implementazione
 feature: Appmeasurement Implementation
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 93%
@@ -15,13 +15,13 @@ ht-degree: 93%
 
 *Questa pagina di aiuto descrive come implementare le eVar. Per informazioni sul funzionamento delle eVar come dimensione, consulta [eVar](/help/components/dimensions/evar.md) nella guida utente Componenti.*
 
-Le eVar sono variabili personalizzate che puoi utilizzare come desideri. Se hai un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), la maggior parte delle dimensioni specifiche dell’organizzazione saranno delle eVar. Per impostazione predefinita, le eVar persistono oltre l’hit su cui sono impostate. Puoi personalizzarne la scadenza e l’allocazione in [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nelle impostazioni della suite di rapporti.
+Le eVar sono variabili personalizzate che puoi utilizzare come desideri. Se hai un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), la maggior parte delle dimensioni specifiche dell’organizzazione saranno delle eVar. Per impostazione predefinita, le eVar persistono oltre l’hit su cui sono impostate. Puoi personalizzarne la scadenza e l’allocazione in [Variabili di conversione](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) nelle impostazioni della suite di rapporti.
 
 Il numero di eVar disponibili dipende dal contratto con Adobe. Se il contratto con Adobe lo supporta, sono disponibili fino a 250 eVar.
 
 ## Impostare le eVar nelle impostazioni della suite di rapporti
 
-Prima di utilizzare le eVar nell’implementazione, accertati di configurarle nelle impostazioni della suite di rapporti. Vedi [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nella guida per l’amministratore.
+Prima di utilizzare le eVar nell’implementazione, accertati di configurarle nelle impostazioni della suite di rapporti. Vedi [Variabili di conversione](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) nella guida per l’amministratore.
 
 ## eVar tramite Web SDK
 
@@ -67,4 +67,4 @@ Se vengono fornite più di due posizioni decimali, il contatore eVar arrotonda a
 
 >[!IMPORTANT]
 >
->Prima di utilizzare le eVar come contatore, devi configurarle come “Contatore” in Admin Console. Vedi [Variabili di conversione](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nella guida per l’amministratore.
+>Prima di utilizzare le eVar come contatore, devi configurarle come “Contatore” in Admin Console. Vedi [Variabili di conversione](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) nella guida per l’amministratore.

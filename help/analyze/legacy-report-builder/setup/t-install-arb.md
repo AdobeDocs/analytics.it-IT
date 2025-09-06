@@ -5,9 +5,9 @@ uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 52%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 52%
 
 {{legacy-arb}}
 
-Per installare il Report Builder:
+Per installare Report Builder:
 
 1. Fare clic su **[Adobe Experience Cloud](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Report Builder]**.
 1. Fai clic su **[!UICONTROL Download Now]** per scaricare la versione a 32 bit o a 64 bit (a seconda della versione di MS Excel installata).
@@ -29,4 +29,4 @@ Per installare il Report Builder:
 
 ## Autorizzazioni
 
-Se non vedi **[!UICONTROL Report Builder]** come voce di menu in **[!UICONTROL Tools]**, chiedi all&#39;amministratore di Adobe Analytics di fare parte di un profilo di prodotto che include le seguenti autorizzazioni: *Report Builder*. Ulteriori informazioni su [Profili di prodotto](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=it) e [Autorizzazioni di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=it).
+Se non vedi **[!UICONTROL Report Builder]** come voce di menu in **[!UICONTROL Tools]**, chiedi all&#39;amministratore di Adobe Analytics di fare parte di un profilo di prodotto che include le seguenti autorizzazioni: *Report Builder*. Ulteriori informazioni su [Profili di prodotto](/help/admin/admin-console/permissions/product-profile.md) e [Autorizzazioni di Analytics](/help/admin/admin-console/permissions/analytics-tools.md).

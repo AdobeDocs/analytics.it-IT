@@ -4,7 +4,7 @@ title: Panoramica reportistica in tempo reale
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 9%
@@ -17,7 +17,7 @@ Il reporting in tempo reale visualizza il traffico della pagina web e classifica
 
 >[!NOTE]
 >
->Il rapporto in tempo reale non richiede alcuna implementazione o assegnazione di tag aggiuntivi. Sfrutta l’implementazione esistente di Adobe Analytics. Per configurare rapporti in tempo reale, vedere [Configurazione rapporti in tempo reale](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+>Il rapporto in tempo reale non richiede alcuna implementazione o assegnazione di tag aggiuntivi. Sfrutta l’implementazione esistente di Adobe Analytics. Per configurare rapporti in tempo reale, vedere [Configurazione rapporti in tempo reale](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
 
 ## Accedere ai rapporti in tempo reale
 
@@ -31,7 +31,7 @@ Il reporting in tempo reale visualizza il traffico della pagina web e classifica
 
 Risposte in tempo reale alle seguenti domande: Che cosa è la tendenza sul mio sito e perché? Consente a un addetto marketing di rispondere rapidamente e gestire attivamente le prestazioni dei contenuti e delle campagne di marketing. I dati in tempo reale segnalati sono meno di due minuti latenti e con aggiornamenti automatici minuto per minuto.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report-realtime.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report-realtime.png)
 
 La dashboard include metriche ad alta frequenza di Adobe Analytics e analisi dei siti per segnalare visivamente il traffico e visualizzare le tendenze di notizie dinamiche e siti web di vendita al dettaglio. Real-Time conosce le tendenze nei tuoi dati di minuto in minuto, entro pochi secondi dalla raccolta. Raccoglie e trasmette i dati in un’interfaccia utente con aggiornamento automatico, utilizzando la correlazione e il tracciamento in tempo reale dei contenuti e alcune conversioni.
 

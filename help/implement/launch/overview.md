@@ -4,20 +4,20 @@ description: Scopri come implementare Adobe Analytics utilizzando i tag e l’es
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 8%
+ht-degree: 23%
 
 ---
 
 # Implementare Adobe Analytics utilizzando l’estensione Analytics
 
-Durante il ciclo di vita di Adobe Analytics, Adobe ha offerto diversi metodi per implementare nel sito il codice per la raccolta dati. Il metodo attualmente consigliato da Adobe è tramite [Tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it) in Adobe Experience Platform.
+Nel corso del ciclo di vita di Adobe Analytics, Adobe ha offerto diversi metodi per implementare il codice sul sito per la raccolta dati. Il metodo attualmente consigliato da Adobe è tramite [Tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it) in Adobe Experience Platform.
 
-I tag in Adobe Experience Platform sono una soluzione di gestione dei tag che consente di distribuire il codice Analytics insieme ad altri requisiti di assegnazione tag. Adobe offre integrazioni con altre soluzioni e prodotti e consente di distribuire codice personalizzato. Tutte queste attività possono essere eseguite senza dover ricorrere a team di sviluppo nell’organizzazione per aggiornare il codice sul sito.
+Tag in Adobe Experience Platform è una soluzione di gestione dei tag che consente di distribuire il codice Analytics insieme ad altri requisiti di assegnazione tag. Adobe offre integrazioni con altre soluzioni e prodotti e consente di implementare codice personalizzato. Tutte queste attività possono essere eseguite senza dover ricorrere a un team di sviluppatori nell’organizzazione per aggiornare il codice sul sito.
 
-Tutti i clienti con un contratto Adobe Experience Cloud attivo possono utilizzare i tag. Se non sai se puoi accedervi, contatta uno degli amministratori di sistema Experienci Cloud della tua organizzazione.
+Tutti i clienti con un contratto Adobe Experience Cloud attivo possono utilizzare i tag. Se non sai se puoi accedere a, contatta uno degli amministratori di sistema di Experience Cloud della tua organizzazione.
 
 Panoramica ad alto livello dei compiti di implementazione:
 
@@ -34,14 +34,14 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td> 1</td>
 <td>Assicurati di aver <b>definito una suite di rapporti</b>.</td>
-<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
 <td>2</td>
 <td><b>Crea un livello dati</b> per gestire il tracciamento dei dati sul tuo sito Web.</td>
 <td>
-<a href="../prepare/data-layer.md">Creare un livello di dati</a>
+<a href="../prepare/data-layer.md">Creare un livello dati</a>
 </td>
 </tr>
 
@@ -65,7 +65,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>6</td> 
 <td><b>Convalida e pubblicazione in produzione</b>. Incorpora il codice per includere la proprietà tag nelle pagine del sito web. Quindi utilizza elementi dati, regole e così via, per personalizzare l’implementazione.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=it#embed-code">Codice di incorporamento</a><br/><a href="./validate-publish-prod.md">Convalidare un'implementazione di sviluppo e pubblicare in produzione</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Codice di incorporamento</a><br/><a href="./validate-publish-prod.md">Convalidare un'implementazione di sviluppo e pubblicare in produzione</a></td>
 </tr>
 
 </table>
@@ -74,6 +74,6 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 I tag possono essere altamente personalizzati. Scopri come ottenere il massimo da Adobe Analytics includendo i dati corretti nella tua implementazione.
 
-- [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it#): scopri come funziona l&#39;interfaccia e quali estensioni sono disponibili.
+- [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): scopri come funziona l&#39;interfaccia e quali estensioni sono disponibili.
 
 - [Variabili di implementazione](../vars/overview.md): determinare le variabili da inviare ai server di raccolta dati.

@@ -3,7 +3,7 @@ title: Panoramica delle metriche
 description: Visualizzare una quantità di elementi dimensionali o dati nel tempo.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 90%
@@ -24,7 +24,7 @@ Ad esempio, se hai combinato la dimensione **[!UICONTROL Page]** con la metrica 
 
 {style="table-layout:fixed"}
 
-Se non riesci a trovare la pagina della guida per una data metrica, è probabile che si tratti di un [evento personalizzato](custom-events.md) o una [metrica calcolata](../c-calcmetrics/cm-overview.md).
+Se non riesci a trovare la pagina della guida per una data metrica, è probabile che si tratti di un [evento personalizzato](custom-events.md) o una [metrica calcolata](../calculated-metrics/cm-overview.md).
 
 * Se la metrica è un evento personalizzato, consulta un amministratore di Analytics all’interno della tua organizzazione o il [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md) della suite di rapporti.
 * Se la metrica è calcolata, fai clic sull’icona delle informazioni per determinarne la formula.

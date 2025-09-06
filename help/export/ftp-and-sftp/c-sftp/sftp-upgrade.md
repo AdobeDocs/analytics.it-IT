@@ -3,9 +3,9 @@ title: Aggiornamento dei servizi SFTP - Domande frequenti
 description: Domande frequenti sull’aggiornamento pianificato dei servizi SFTP.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '397'
 ht-degree: 9%
 
 ---
@@ -24,17 +24,17 @@ Le opzioni di connessione che verranno rimosse sono generalmente considerate obs
 
 Le seguenti funzioni forniscono un’opzione per caricare dati in Adobe Analytics utilizzando SFTP.
 
-* [Classificazioni](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=it)
+* [Classificazioni](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
-* [Attributi cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=it)
+* [Attributi cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
-* [Feed dati](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=it)
+* [Feed dati](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 
-* [Origini dati](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html?lang=it)
+* [Origini dati](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
 
-* [Report consegnati di Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html?lang=it)
+* [Report consegnati di Data Warehouse](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
 
-* Inoltre, alcune implementazioni personalizzate create tramite [Engineering Services](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html?lang=it) possono utilizzare SFTP per scambiare dati con Adobe.
+* Inoltre, alcune implementazioni personalizzate create tramite [Engineering Services](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md) possono utilizzare SFTP per scambiare dati con Adobe.
 
 ## Quali modifiche specifiche saranno incluse in questo aggiornamento?
 

@@ -3,7 +3,7 @@ title: Metriche e servizi multimediali in streaming
 description: Metriche disponibili quando abiliti [!UICONTROL Media Ads] per una suite di rapporti.
 feature: Metrics
 exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 I servizi e le metriche di Streaming Media forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie di servizi multimediali in streaming. L&#39;utilizzo di queste metriche richiede **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
-Quando abiliti **[!UICONTROL Media Ads]** in [Report multimediali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), sono disponibili le metriche seguenti:
+Quando abiliti **[!UICONTROL Media Ads]** in [Report multimediali](/help/admin/tools/manage-rs/edit-settings/media-management.md), sono disponibili le metriche seguenti:
 
 | Nome della metrica | Descrizione | Inviato con | Variabile dati contestuali |
 | --- | --- | --- | --- |

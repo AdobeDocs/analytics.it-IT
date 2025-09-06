@@ -4,7 +4,7 @@ description: Utilizza i valori memorizzati da un hit online per arricchire gli h
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 0a65114d598b7c6d2871a2446ad4d574b9ca44bb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 8%
@@ -17,7 +17,7 @@ Le origini dati ID transazione sono una variante delle origini dati di riepilogo
 
 >[!NOTE]
 >
->Prima di utilizzare le origini dati ID transazione, devi attivarle in [Impostazioni account generali](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) per la suite di rapporti desiderata.
+>Prima di utilizzare le origini dati ID transazione, devi attivarle in [Impostazioni account generali](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) per la suite di rapporti desiderata.
 
 ## Come funziona
 
@@ -32,7 +32,7 @@ Quando invii un hit online contenente la variabile di implementazione `transacti
 * [Giorni precedenti al primo acquisto](/help/components/dimensions/days-before-first-purchase.md)
 * [Giorni dall’ultimo acquisto](/help/components/dimensions/days-since-last-purchase.md)
 * [eVar 1-250](/help/components/dimensions/evar.md)
-* Dimensioni specifiche della funzionalità abilitate in [Impostazioni della suite di rapporti](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) che si comportano in modo simile alle eVar. Le quote specifiche della feature che si comportano in modo simile alle proprietà non sono incluse.
+* Dimensioni specifiche della funzionalità abilitate in [Impostazioni della suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md) che si comportano in modo simile alle eVar. Le quote specifiche della feature che si comportano in modo simile alle proprietà non sono incluse.
 * [Variabili elenco](/help/implement/vars/page-vars/list.md)
 * [Canale di marketing](/help/components/dimensions/marketing-channel.md)
 * [Dettagli del canale Marketing](/help/components/dimensions/marketing-detail.md)

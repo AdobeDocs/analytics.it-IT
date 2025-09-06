@@ -3,9 +3,9 @@ description: Definizioni degli elementi dell’interfaccia nelle pagine del Gene
 title: 'Regole di classificazione: definizioni'
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '857'
 ht-degree: 17%
 
 ---
@@ -34,7 +34,7 @@ In questa pagina vengono visualizzate le regole di un set di regole.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Selezione di suite per report e variabili </p> </td> 
-   <td colname="col2"> <p><b>Suite di rapporti</b> </p> <p>Le suite di rapporti a cui si applica il set di regole. </p> <p><b>Variabile</b> </p> <p>Puoi applicare una sola variabile quando crei un set di regole di classificazione. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti. </p> <p>Nota: nelle suite di rapporti puoi utilizzare solo le variabili a cui hai accesso. Le variabili verranno visualizzate nel pannello <span class="wintitle"> Nuovo set di regole</span> solo dopo che è stata definita almeno una classificazione per tale variabile. </p> <p> È possibile creare classificazioni in una variabile in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span> &gt; <span class="uicontrol"> Traffic</span> &gt; <span class="uicontrol"> Traffic Classifications</span> (o <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Conversion Classifications</span>). Selezionare quindi la variabile e fare clic su <span class="uicontrol"> Aggiungi classificazione</span>. </p> <p>Consulta <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html?lang=it"  > classificazioni traffico</a> e <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=it"  > classificazioni conversione</a> nella Guida dell'amministratore. </p> </td> 
+   <td colname="col2"> <p><b>Suite di rapporti</b> </p> <p>Le suite di rapporti a cui si applica il set di regole. </p> <p><b>Variabile</b> </p> <p>Puoi applicare una sola variabile quando crei un set di regole di classificazione. Per creare più set di regole per una variabile, è necessario applicare ciascun set di regole a più suite di rapporti. </p> <p>Nota: nelle suite di rapporti puoi utilizzare solo le variabili a cui hai accesso. Le variabili verranno visualizzate nel pannello <span class="wintitle"> Nuovo set di regole</span> solo dopo che è stata definita almeno una classificazione per tale variabile. </p> <p> È possibile creare classificazioni in una variabile in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span> &gt; <span class="uicontrol"> Traffic</span> &gt; <span class="uicontrol"> Traffic Classifications</span> (o <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Conversion Classifications</span>). Selezionare quindi la variabile e fare clic su <span class="uicontrol"> Aggiungi classificazione</span>. </p> <p>Consulta <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  > classificazioni traffico</a> e <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  > classificazioni conversione</a> nella Guida dell'amministratore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Attiva</span> </p> </td> 

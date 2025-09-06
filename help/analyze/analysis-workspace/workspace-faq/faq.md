@@ -1,13 +1,13 @@
 ---
-description: Trova le risposte alle domande più frequenti su Analysis Workspace.
+description: Ottieni risposte alle domande più frequenti su Analysis Workspace.
 title: Domande frequenti
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 80%
+source-wordcount: '550'
+ht-degree: 81%
 
 ---
 
@@ -26,36 +26,36 @@ Poiché Analysis Workspace è uno strumento di reporting, non ha alcun impatto s
 +++
 
 +++Quante suite di rapporti è possibile visualizzare in un progetto di Analysis Workspace?
-Ora puoi creare progetti in Analysis Workspace con dati provenienti da più [suite di rapporti multiple](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=it).
+Ora puoi creare progetti in Analysis Workspace con dati provenienti da più [suite di rapporti multiple](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md).
 +++
 
 +++Come si implementa Analysis Workspace?
 Non è richiesta alcuna implementazione particolare. Analysis Workspace è disponibile per tutte le società che dispongono di Analytics Standard o Premium. Tuttavia, si applicano le autorizzazioni standard per i contenuti (come suite di rapporti e componenti dei progetti) e per la cura e la condivisione di progetti. Consulta [Amministrazione e requisiti di accesso](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
 +++
 
-+++Posso utilizzare Analysis Workspace per Data Warehouse?
++++Posso utilizzare Analysis Workspace per il Data Warehouse?
 Analysis Workspace non è consigliato per l’esportazione di dati in massa. Si tratta di un’area di lavoro di visualizzazione per la creazione di progetti di analisi con layout simile a una dashboard.
 +++
 
-+++Come posso ottimizzare le prestazioni di Analysis Workspace?
++++Come si ottimizzano le prestazioni di Analysis Workspace?
 
-Consulta [Ottimizzazione delle prestazioni](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
+Vedi [Ottimizzazione delle prestazioni](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
 
 +++
 
 +++Come entrano i dati nel progetto Analysis Workspace?
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dati in Analysis Workspace](https://video.tv.adobe.com/v/35894?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dati in Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 +++
 
-+++Come si tiene traccia dell&#39;utilizzo di Workspace?
++++Come si tiene traccia dell’utilizzo di Workspace?
 
 Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tracciamento del registro](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}.
 
 +++
 
-+++Quando trascino una metrica, un messaggio indica “Dati non validi”. Come posso risolvere questo problema?
++++Quando trascino una metrica, visualizzo un messaggio indicante che i dati non sono validi. Come posso risolvere questo problema?
 
 Il messaggio indicante che i dati non sono validi significa che Adobe non può restituire dati utilizzando la combinazione di dimensioni e metriche utilizzate nel report. Ad esempio, due metriche posizionate una sopra all’altra non possono essere restituite come dati, in quanto non è possibile visualizzare due metriche in questo modo. Posiziona invece le metriche una accanto all’altra.
 

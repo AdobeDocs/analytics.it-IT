@@ -1,17 +1,17 @@
 ---
-description: Scopri come utilizzare i componenti di un progetto in Analysis Workspace
-title: Utilizzare Componenti In Un Progetto
+description: Scopri come usare i componenti in un progetto in Analysis Workspace
+title: Usare i componenti in un progetto
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
-# Utilizzare componenti in un progetto
+# Usare i componenti in un progetto
 
 I componenti costituiscono i dati effettivi di ogni progetto in Analysis Workspace. I componenti sono costituiti da dimensioni, metriche, segmenti e intervalli di date. Puoi aggiungere componenti a un progetto trascinandoli nelle visualizzazioni o nei pannelli.
 
@@ -46,7 +46,7 @@ Per informazioni su come utilizzare la zona di rilascio dei segmenti in un panne
 
 ### Aggiungere dimensioni a un progetto
 
-[Le dimensioni](/help/components/dimensions/overview.md) sono variabili in Adobe Analytics che in genere contengono valori stringa. Al contrario, le [metriche](/help/components/c-calcmetrics/cm-overview.md) contengono valori numerici che si legano a una dimensione. Un rapporto di base mostra righe di valori stringa (dimensioni) rispetto a una colonna di valori numerici (metriche).
+[Le dimensioni](/help/components/dimensions/overview.md) sono variabili in Adobe Analytics che in genere contengono valori stringa. Al contrario, le [metriche](/help/components/calculated-metrics/cm-overview.md) contengono valori numerici che si legano a una dimensione. Un rapporto di base mostra righe di valori stringa (dimensioni) rispetto a una colonna di valori numerici (metriche).
 
 1. Inizia aggiungendo una dimensione al progetto in Analysis Workspace, come descritto in [Aggiungere componenti in un progetto](#add-components-to-a-project).
 
@@ -103,7 +103,7 @@ Per informazioni su come utilizzare la zona di rilascio dei segmenti in un panne
 Quando aggiungi segmenti a una colonna in una tabella a forma libera, i segmenti si applicano a tutto il contenuto della colonna. Puoi anche aggiungere segmenti come parte di una visualizzazione del fallout.
 
 * Utilizzare i segmenti nei componenti
-Quando definisci componenti come [metriche calcolate](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [annotazioni](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) o anche [segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) puoi utilizzare i segmenti come parte della definizione.
+Quando definisci componenti come [metriche calcolate](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md), [annotazioni](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) o anche [segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md) puoi utilizzare i segmenti come parte della definizione.
 
 
 ### Aggiungere intervalli di date a un progetto
@@ -245,7 +245,7 @@ When you add segments to a column in a freeform table, the segments apply to all
 
 In the Calculated metric builder, you can apply segments within your metric definition. 
 
-For more information, see [Segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+For more information, see [Segmented metrics](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Add date ranges to a project
 

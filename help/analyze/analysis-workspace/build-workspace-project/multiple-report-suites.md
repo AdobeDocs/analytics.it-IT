@@ -4,9 +4,9 @@ description: Scopri come utilizzare più suite di rapporti in un unico progetto 
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '431'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ Questa funzionalità è utile per:
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Più suite di rapporti](https://video.tv.adobe.com/v/36964?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Più suite di rapporti](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -71,6 +71,6 @@ Il pannello attivo è riconoscibile dal bordo blu chiaro intorno ad esso. È suf
 
 1. (Facoltativo) Puoi anche passare ad altri generatori di componenti Analytics e accertarti che ora visualizzino l’etichetta della suite di rapporti che indica
 
-   * Dove verrà creato un segmento: [Generatore di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=it).
-   * Dove verrà creata una metrica calcolata: [Generatore di metrica calcolata](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=it).
-   * Dove verrà generato un avviso: [Generatore di avvisi](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=it).
+   * Dove verrà creato un segmento: [Generatore di segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md).
+   * Dove verrà creata una metrica calcolata: [Generatore di metrica calcolata](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
+   * Dove verrà generato un avviso: [Generatore di avvisi](/help/components/alerts/alert-builder.md).

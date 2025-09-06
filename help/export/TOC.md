@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Scopri come utilizzare i feed di dati e Data Warehouse per recuperare l’output di dati.
-source-git-commit: 9131c9ffbcf409620a67b36637367af22733b909
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 90%
+source-wordcount: '255'
+ht-degree: 89%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 # Guida all’esportazione di Adobe Analytics {#export}
 
 + [Guida all’esportazione di Analytics](home.md)
-+ [Note sulla versione di Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
++ [Note sulla versione di Analytics](https://experienceleague.adobe.com/it/docs/analytics/release-notes/latest)
 + Feed dati di Analytics {#analytics-data-feed}
    + [Panoramica sui feed dati](analytics-data-feed/data-feed-overview.md)
    + [Creare un feed di dati](analytics-data-feed/create-feed.md)
@@ -73,6 +73,4 @@ ht-degree: 90%
       + [Invio di dati Adobe a un account FTP esterno tramite SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Invio di richieste di Data Warehouse a server SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Connessione ad Adobe tramite SFTP senza password](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Download di Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=it)
-+ [API Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/it/docs/analytics/analyze/report-builder/rb-overview)
++ [API Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/)

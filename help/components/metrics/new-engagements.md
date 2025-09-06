@@ -3,7 +3,7 @@ title: Nuovi engagement
 description: Il numero di volte in cui è impostato un canale di primo contatto.
 feature: Metrics
 exl-id: a419d048-9715-4d7b-9c24-d34129755371
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 6%
@@ -16,6 +16,6 @@ La [metrica](overview.md) dei &quot;Nuovi impegni&quot; mostra il numero di volt
 
 ## Come è calcolata questa metrica
 
-Durante l&#39;elaborazione dei dati, ogni hit viene eseguito tramite [Regole di elaborazione del canale di marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md). Se un hit corrisponde a una regola di elaborazione del canale di marketing e il visitatore non dispone già di un canale di primo contatto, l’hit è un nuovo coinvolgimento. Se un hit non corrisponde ad alcuna regola di elaborazione del canale di marketing o se il visitatore dispone già di un canale di primo contatto, l’hit non è un nuovo coinvolgimento.
+Durante l&#39;elaborazione dei dati, ogni hit viene eseguito tramite [Regole di elaborazione del canale di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md). Se un hit corrisponde a una regola di elaborazione del canale di marketing e il visitatore non dispone già di un canale di primo contatto, l’hit è un nuovo coinvolgimento. Se un hit non corrisponde ad alcuna regola di elaborazione del canale di marketing o se il visitatore dispone già di un canale di primo contatto, l’hit non è un nuovo coinvolgimento.
 
 I visitatori possono avere più di un nuovo coinvolgimento se lasciano scadere il periodo di coinvolgimento dei visitatori.
