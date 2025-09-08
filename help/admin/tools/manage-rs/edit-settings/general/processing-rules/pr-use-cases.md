@@ -5,10 +5,10 @@ title: Casi di utilizzo delle regole di elaborazione
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -27,6 +27,7 @@ L&#39;elenco [!UICONTROL Context Variables] contiene tutte le variabili inviate 
 L&#39;esempio seguente prende la variabile di dati di contesto `search_term` e inserisce il relativo valore in eVar3:
 
 | Set di regole | Valore |
+| --- | --- |
 | Condizione | `search_term` (dati contestuali) è impostato |
 | Azione | [!UICONTROL Overwrite value of] eVar3 con `search_term` (dati contestuali) |
 
@@ -37,6 +38,7 @@ L’esempio precedente funziona benissimo quando sono presenti solo poche eVar d
 L’esempio seguente compila più variabili con variabili di dati di contesto diverse. Un’azione contiene anche un’istruzione condizionale:
 
 | Set di regole | Valore |
+| --- | --- |
 | Azione | [!UICONTROL Overwrite value of] eVar55 con `spa.billing_customer_name` (dati contestuali) |
 | Azione | [!UICONTROL Overwrite value of] Prop7 con `testhierarchy` (dati contestuali), se `testhierarchy` (dati contestuali) è impostato |
 | Azione | [!UICONTROL Overwrite value of] eVar8 con `spa.ims_org` (dati contestuali) |
