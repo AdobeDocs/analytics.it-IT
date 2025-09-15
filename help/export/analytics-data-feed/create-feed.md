@@ -3,9 +3,9 @@ title: Creare un feed dati
 description: Scopri come creare un feed di dati e le informazioni sui file da fornire ad Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '4124'
+source-wordcount: '4136'
 ht-degree: 47%
 
 ---
@@ -69,6 +69,8 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    Puoi inviare feed direttamente ai bucket di Amazon S3. Questo tipo di destinazione richiede solo l’account Amazon S3 e la posizione (bucket).
 
    Adobe Analytics utilizza l’autenticazione tra account diversi per caricare i file da Adobe Analytics nella posizione specificata nell’istanza Amazon S3.
+
+   Quando si utilizza Amazon S3 con feed di dati, è supportata solo la crittografia SSE-S3.
 
    Per configurare un bucket Amazon S3 come destinazione per un feed di dati:
 

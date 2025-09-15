@@ -3,9 +3,9 @@ description: Passaggi che descrivono come creare una richiesta di Data Warehouse
 title: Configurare una destinazione di rapporto per una richiesta di Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: d213befd0fd8d530d95b8d3ac3c4f3b808558244
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1977'
 ht-degree: 82%
 
 ---
@@ -83,7 +83,9 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       **Tipi di account**
 
-      +++ARN per ruolo Amazon S3
+      +++Amazon S3 con ruolo ARN
+
+      **NOTA:** quando si utilizza Amazon S3 con Data Warehouse, è supportata solo la crittografia SSE-S3.
 
       Per configurare un account Amazon S3 con ruolo ARN, specifica le seguenti informazioni:
 
@@ -121,7 +123,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       {style="table-layout:auto"}
 
-      +++
+      +++   
 
       +++Azure RBAC
 
@@ -213,7 +215,7 @@ Per completare i campi disponibili, utilizza le seguenti informazioni:
 
 * [!UICONTROL **Nome utente**]: immetti il nome utente per accedere al sito SFTP.
 
-* [!UICONTROL **Utilizza estensioni di file temporanee durante il caricamento**]: quando questa opzione è abilitata, durante il processo di caricamento viene utilizzata l’estensione file `.part`. Mantieni attiva questa opzione a meno che il server SFTP non limiti la modifica dei nomi dei file al termine del caricamento.
+* [!UICONTROL **Utilizza estensioni di file temporanee durante il caricamento**]: quando questa opzione è abilitata, durante il processo di caricamento viene utilizzata l’estensione file `.part`. Mantieni abilitata questa opzione a meno che il server SFTP non limiti la modifica dei nomi dei file al termine del caricamento.
 
 * [!UICONTROL **Chiavi pubbliche**]: scarica la chiave pubblica appropriata durante la creazione della destinazione del Data Warehouse.
 

@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare account di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 55%
+source-wordcount: '1488'
+ht-degree: 54%
 
 ---
 
@@ -61,7 +61,9 @@ Per configurare un account di importazione o esportazione cloud:
 
    **Tipi di account**
 
-   +++ARN per ruolo Amazon S3
+   +++Amazon S3 con ruolo ARN
+
+   **NOTA:** quando si utilizza Amazon S3 con feed di dati e Data Warehouse, è supportata solo la crittografia SSE-S3.
 
    Per configurare un account Amazon S3 con ruolo ARN, specifica le seguenti informazioni:
 
@@ -99,7 +101,7 @@ Per configurare un account di importazione o esportazione cloud:
 
    {style="table-layout:auto"}
 
-   +++
+   +++   
 
    +++Azure RBAC
 
