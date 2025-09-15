@@ -3,10 +3,10 @@ description: Come migrare componenti e progetti da Adobe Analytics a Customer Jo
 title: Migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 5%
+source-wordcount: '1635'
+ht-degree: 4%
 
 ---
 
@@ -39,39 +39,53 @@ Eseguire inoltre un [inventario Adobe Analytics](/help/admin/tools/analytics-inv
 
 ## Migrare progetti Adobe Analytics a Customer Journey Analytics
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Prima di eseguire la migrazione di progetti a Customer Journey Analytics come descritto in questa sezione, ulteriori informazioni sulla migrazione di progetti sono disponibili in [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md).
 >
->**Qualsiasi dimensione o metrica mappata è permanente, sia per questo progetto che per tutti i progetti futuri migrati nell&#39;intera organizzazione IMS, indipendentemente dall&#39;utente che sta eseguendo la migrazione. Queste mappature possono essere modificate o annullate solo contattando l&#39;Assistenza clienti.**
+>**Qualsiasi dimensione o metrica mappata viene applicata a questo progetto e a tutti i progetti futuri nell&#39;intera organizzazione IMS, indipendentemente dall&#39;utente che sta eseguendo la migrazione. Questi mapping possono essere aggiornati durante la migrazione di progetti futuri.**
 
 1. In Adobe Analytics, seleziona la scheda [!UICONTROL **Amministrazione**], quindi seleziona [!UICONTROL **Tutte le attività di amministrazione**].
 
 1. In [!UICONTROL **Configurazione e raccolta dati**], selezionare [!UICONTROL **Migrazione componenti**].
 
-1. Individua il progetto di cui vuoi eseguire la migrazione. Puoi filtrare, ordinare o cercare nell’elenco dei progetti.
+1. Individua ogni progetto di cui vuoi eseguire la migrazione. Puoi filtrare, ordinare o cercare nell’elenco dei progetti.
 
    Per impostazione predefinita, vengono visualizzati solo i progetti condivisi con te. Per visualizzare tutti i progetti della tua organizzazione, seleziona l&#39;icona **Filtro**, quindi espandi [!UICONTROL **Altri filtri**] e seleziona [!UICONTROL **Mostra tutto**]. Per ulteriori informazioni su come filtrare, ordinare e cercare nell&#39;elenco dei progetti, vedere [Filtrare, ordinare e cercare nell&#39;elenco dei progetti](#filter-sort-and-search-the-list-of-projects).
 
-1. Passa il puntatore del mouse sul progetto di cui vuoi eseguire la migrazione, quindi seleziona l&#39;icona **Esegui migrazione** ![Esegui migrazione progetto](assets/migrate.svg).
+1. (Condizionale) Per migrare più progetti contemporaneamente, seleziona la casella di controllo a sinistra di ciascun progetto di cui vuoi eseguire la migrazione, quindi seleziona [!UICONTROL **Migra a Customer Journey Analytics**].
 
-   Oppure
+   Quando esegui la migrazione di più progetti, tieni presente quanto segue:
 
-   Seleziona il progetto di cui vuoi eseguire la migrazione, quindi seleziona [!UICONTROL **Esegui migrazione a Customer Journey Analytics**].
+   * Puoi selezionare fino a 20 progetti da migrare contemporaneamente.
 
-   È possibile selezionare un solo progetto alla volta per la migrazione.
+   * Lo stato di migrazione deve essere lo stesso per tutti i progetti di cui stai eseguendo la migrazione.
+
+     Se ad esempio si seleziona un progetto per la migrazione con stato di migrazione **[!UICONTROL Not started]**, non sarà possibile selezionare un altro progetto con stato di migrazione **[!UICONTROL Failed]**.
+
+   * È necessario designare lo stesso proprietario per tutti i progetti di cui si sta eseguendo la migrazione.
+
+   * Le dimensioni e le metriche devono essere mappate alla stessa visualizzazione dati per tutti i progetti di cui si sta eseguendo la migrazione.
 
    Viene visualizzata la finestra di dialogo [!UICONTROL **Migra nome_progetto a Customer Journey Analytics**].
 
    <!-- add screenshot -->
 
-1. Nel campo [!UICONTROL **Proprietario progetto**], inizia a digitare il nome dell&#39;utente che desideri impostare come proprietario del progetto in Customer Journey Analytics, quindi selezionane il nome nel menu a discesa.
+1. (Condizionale) Per migrare un singolo progetto, passa il puntatore del mouse sul progetto di cui vuoi eseguire la migrazione, quindi seleziona l&#39;icona **Migra** ![Migra progetto](assets/migrate.svg).
 
-   Il proprietario specificato dispone dei diritti di gestione completi per il progetto. Il proprietario deve essere un amministratore di Customer Journey Analytics. Puoi cambiare la proprietà del progetto in un passaggio successivo.
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Migra nome_progetto a Customer Journey Analytics**].
+
+   <!-- add screenshot -->
+
+1. Nel campo [!UICONTROL **Proprietario progetto**], inizia a digitare il nome dell&#39;utente che desideri impostare come proprietario dei progetti di cui si sta eseguendo la migrazione in Customer Journey Analytics, quindi selezionane il nome nel menu a discesa.
+
+   Il proprietario specificato dispone dei diritti di gestione completi per i progetti migrati. Il proprietario deve essere un amministratore di Customer Journey Analytics. Puoi cambiare la proprietà dei progetti in un passaggio successivo.
 
 1. Nella sezione [!UICONTROL **Schema mappa per suite di rapporti**], seleziona una suite di rapporti.
 
-1. Nel menu a discesa [!UICONTROL **Visualizzazione dati**], selezionare la visualizzazione dati di Customer Journey Analytics in cui si desidera eseguire la migrazione del progetto e dei componenti.
+1. Nel menu a discesa [!UICONTROL **Visualizzazione dati**], seleziona la visualizzazione dati di Customer Journey Analytics in cui desideri eseguire la migrazione dei progetti e dei componenti.
+
+   Quando esegui la migrazione di più progetti, tutti i progetti di cui stai eseguendo la migrazione vengono combinati nella mappatura di una singola visualizzazione dati.
 
 1. Seleziona [!UICONTROL **Mappa schema**].
 
@@ -117,19 +131,19 @@ Eseguire inoltre un [inventario Adobe Analytics](/help/admin/tools/analytics-inv
 
    Dopo aver mappato tutte le dimensioni e le metriche nella suite di rapporti di Adobe Analytics a una dimensione o metrica nella suite di rapporti di Customer Journey Analytics, accanto al nome della suite di rapporti nella sezione ![Schema mappa per suite di rapporti](assets/report-suite-check.png) viene visualizzato un segno di spunta verde [!UICONTROL **segno di spunta**].
 
-1. (Condizionale) Se il progetto di cui si sta eseguendo la migrazione contiene più di una suite di rapporti, selezionare un&#39;altra suite di rapporti nella sezione [!UICONTROL **Mappa schema per suite di rapporti**], quindi ripetere i passaggi da 6 a 10. <!-- double-check that the step numbers are still correct -->
+1. (Condizionale) Se i progetti di cui si sta eseguendo la migrazione contengono più di una suite di rapporti, selezionare un&#39;altra suite di rapporti nella sezione [!UICONTROL **Mappa schema per suite di rapporti**], quindi ripetere i passaggi da 6 a 10. <!-- double-check that the step numbers are still correct -->
 
 1. Seleziona [!UICONTROL **Migra**].
 
    >[!WARNING]
    >
-   >   Dopo aver selezionato [!UICONTROL **Esegui migrazione**], viene visualizzato un messaggio di avviso sullo schermo. Prima di scegliere di continuare, assicurati che tutte le dimensioni o metriche mappate siano permanenti, sia per questo progetto che per tutti i progetti futuri migrati in tutta l’organizzazione. Se si continua, le mappature create non potranno essere modificate.
+   >Dopo aver selezionato [!UICONTROL **Esegui migrazione**], viene visualizzato un messaggio di avviso sullo schermo. Prima di scegliere di continuare, assicurati che tutte le dimensioni o metriche mappate siano applicabili a questo progetto e a tutti i progetti futuri nell’intera organizzazione IMS, indipendentemente dall’utente che sta eseguendo la migrazione. Queste mappature possono essere aggiornate durante la migrazione di progetti futuri.
 
    Al termine di una migrazione, la pagina [!UICONTROL **Stato migrazione**] fornisce un riepilogo di ciò che è stato migrato.
 
    Se la migrazione non riesce, vedere la sezione [Riprova una migrazione non riuscita](#retry-a-failed-migration) di seguito per ulteriori informazioni.
 
-1. (Facoltativo) Dopo la migrazione di un progetto, puoi trasferirne la proprietà a qualsiasi utente in Customer Journey Analytics. Per ulteriori informazioni, consulta [Trasferire risorse](https://experienceleague.adobe.com/it/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) nella Guida di Customer Journey Analytics.
+1. (Facoltativo) Dopo la migrazione dei progetti, puoi trasferire la proprietà dei progetti a qualsiasi utente in Customer Journey Analytics. Per ulteriori informazioni, consulta [Trasferire risorse](https://experienceleague.adobe.com/it/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) nella Guida di Customer Journey Analytics.
 
 ## Ritentare una migrazione non riuscita
 

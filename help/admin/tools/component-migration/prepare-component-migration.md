@@ -3,9 +3,9 @@ description: Spiega i preparativi necessari per preparare la migrazione di compo
 title: Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '863'
 ht-degree: 6%
 
 ---
@@ -27,21 +27,21 @@ Prima che i tuoi progetti e i relativi componenti associati siano pronti per la 
 
    * Per utilizzare il connettore di origine di Adobe Analytics, è necessario:
 
-      1. [Configura suite di rapporti per l&#39;acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=it#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Configura suite di rapporti per l&#39;acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [Acquisire e utilizzare i dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=it)
 
    * Per utilizzare Web SDK, è necessario:
 
-      1. [Configura suite di rapporti per l&#39;acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=it#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Configura suite di rapporti per l&#39;acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Acquisire dati tramite Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=it)
+      1. [Acquisire dati tramite Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. Crea una [connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=it) e una [visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it) con i dati acquisiti.
+1. Crea una [connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) e una [visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it) con i dati acquisiti.
 
 1. Assicurati che gli utenti di Customer Journey Analytics dispongano delle visualizzazioni dati in cui vengono mappati i dati.
 
-   Per ulteriori informazioni, vedere [Autorizzazioni Customer Journey Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=it#customer-journey-analytics-permissions-in-admin-console) in [Controllo dell&#39;accesso Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=it).
+   Per ulteriori informazioni, vedere [Autorizzazioni Customer Journey Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) in [Controllo dell&#39;accesso Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
    La scheda Autorizzazioni fa parte di ciascun profilo di prodotto in Admin Console. Puoi aggiungere utenti a profili di prodotto specifici. Puoi quindi assegnare i diritti a visualizzazioni dati specifiche e specificare quali autorizzazioni hanno gli utenti in un profilo di prodotto.
 
@@ -99,10 +99,6 @@ Le visualizzazioni e i pannelli seguenti non sono supportati in Customer Journey
 
 Rimuovi questi elementi dal progetto Adobe Analytics prima di eseguire la migrazione del progetto a Customer Journey Analytics. Se una migrazione non riesce, rimuovi questi elementi prima di riprovare.
 
-### Visualizzazioni non supportate
-
-* [Mappa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
-
 ### Pannelli non supportati
 
 * [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
@@ -119,13 +115,13 @@ Rimuovi questi elementi dal progetto Adobe Analytics prima di eseguire la migraz
 
 ## Decidere come organizzazione la mappatura dei componenti
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Il processo di migrazione identifica i componenti nel progetto Adobe Analytics che non possono essere mappati automaticamente sui componenti in Customer Journey Analytics e consente di mapparli manualmente.
 >
->**Qualsiasi mappatura effettuata su un progetto si applica a tutti i progetti futuri nell’intera organizzazione IMS, indipendentemente dall’utente che sta eseguendo la migrazione. Queste mappature possono essere modificate o annullate solo contattando l&#39;Assistenza clienti.**
+>**Qualsiasi mappatura effettuata su un progetto si applica a tutti i progetti futuri nell’intera organizzazione IMS, indipendentemente dall’utente che sta eseguendo la migrazione. Questi mapping possono essere aggiornati durante la migrazione di progetti futuri.**
 >
->Per questo motivo, è importante che la tua organizzazione decida come verranno mappate dimensioni e metriche prima della migrazione di qualsiasi progetto. In questo modo i singoli amministratori non possono prendere decisioni all’interno di un silo se si considera un solo progetto.
+>È importante che la tua organizzazione decida come verranno mappate dimensioni e metriche prima di migrare qualsiasi progetto. In questo modo i singoli amministratori non possono prendere decisioni all’interno di un silo se si considera un solo progetto.
 >
 >Di seguito è riportato un elenco di dimensioni e metriche da mappare manualmente, se presenti nel progetto. È consigliabile rivedere questo elenco prima della migrazione. Se nel progetto è presente uno di questi componenti, decidi ora a quali componenti Customer Journey Analytics mapparli.
 
