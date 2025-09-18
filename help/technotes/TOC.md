@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Note tecniche di Analytics
 breadcrumb-title: Note tecniche
 user-guide-description: Sfoglia una knowledge base contenente articoli utili che non sono specifici per un particolare strumento o componente di Analytics.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '204'
 ht-degree: 88%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 88%
 + [Reindirizzamenti e alias](redirects.md)
 + [Risorse di sicurezza](security.md)
 + [Termini utilizzati (glossario)](terms.md)
-+ [Marche temporali opzionali](timestamps-optional.md)
 + [Risoluzione dei problemi di accesso](troubleshoot-login.md)
 + [Risoluzione dei problemi di disconnessione](troubleshoot-sessions.md)
 + [Non specificato, altro e sconosciuto](unspecified.md)

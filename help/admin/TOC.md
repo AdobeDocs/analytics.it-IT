@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 35675c2e65456a175d1516dd421b80d2af809286
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 88%
@@ -60,7 +60,7 @@ ht-degree: 88%
                + [Firme bot comuni](tools/manage-rs/edit-settings/general/bot-removal/bot-signatures.md)
                + [Metodi di esclusione bot](tools/manage-rs/edit-settings/general/bot-removal/bot-exclusion-methods.md)
             + [Impostazioni privacy](tools/manage-rs/edit-settings/general/privacy-settings.md)
-            + [Configurazione delle marche temporali](tools/manage-rs/edit-settings/general/timestamp-optional.md)
+            + [Configurazione timestamp](tools/manage-rs/edit-settings/general/timestamp-configuration.md)
             + Inoltro lato server {#server-side-forwarding}
                + [Panoramica sull&#39;inoltro lato server](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
                + [Conformità a GDPR/ePrivacy e inoltro lato server](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)

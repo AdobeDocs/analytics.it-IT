@@ -4,9 +4,9 @@ title: Domande frequenti sulla governance dei dati
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2040'
 ht-degree: 40%
 
 ---
@@ -63,7 +63,7 @@ Tuttavia, esistono alcuni modi per verificare l’elaborazione Privacy dei dati 
 
 * Un’opzione consiste nell’impostare un’organizzazione Experience Cloud diversa che contiene solo suite di rapporti di prova. Quindi si utilizza questa organizzazione Experience Cloud per il test Privacy dei dati e la normale organizzazione Experience Cloud per l’elaborazione effettiva Privacy dei dati.
 
-* Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione. Ad esempio, puoi usare il prefisso “qa-” per ogni namespace nelle suite di rapporti di prova. Quando si inviano richieste di Privacy dei dati con solo namespace con il prefisso qa, queste richieste verranno eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l&#39;approccio consigliato, a meno che non si utilizzino gli spazi dei nomi visitorId, AAID, ECID o customVisitorId. Questi spazi dei nomi sono codificati e non è possibile specificarne nomi alternativi nelle suite di rapporti di prova.**
+* Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione. Ad esempio, puoi usare il prefisso “qa-” per ogni namespace nelle suite di rapporti di prova. Quando si inviano richieste di Privacy dei dati con solo namespace con il prefisso qa, queste richieste verranno eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l&#39;approccio consigliato, a meno che non si utilizzino gli spazi dei nomi `visitorId`, AAID, ECID o `customVisitorId`. Questi spazi dei nomi sono codificati e non è possibile specificarne nomi alternativi nelle suite di rapporti di prova.**
 
 +++
 

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 0193dea6870266a2fe8b557cb8ee6b9907c1bd71
 workflow-type: tm+mt
-source-wordcount: '6392'
-ht-degree: 92%
+source-wordcount: '6413'
+ht-degree: 91%
 
 ---
 
@@ -25,6 +25,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Settembre 2025** | |
+| Miglioramenti nell’identificazione dei visitatori | Sono state rese più chiare le best practice sull&#39;identificazione dei visitatori, concentrandosi sullo scopo delle variabili [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) e [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) in AppMeasurement. |
 | **Agosto 2025** | |
 | I nomi dei feed dati devono essere univoci | È stato chiarito il motivo per cui i nomi dei feed dati [devono essere univoci](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique). |
 | Avvisi obsoleti | Sono stati aggiunti avvisi di deprecazione agli articoli nelle sezioni [Generatore regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md) e [Importazione classificazioni](/help/components/classifications/importer/c-working-with-saint.md). |
@@ -37,7 +39,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Nuove azioni di scelta rapida da tastiera | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [spostare i pannelli di Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) in alto e in basso in un progetto. |
 | **Marzo 2025** |  |
 | Inventario di Analytics | [L&#39;inventario di Analytics](/help/admin/tools/analytics-inventory.md) fornisce una panoramica completa dell&#39;ambiente Adobe Analytics, incluso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora. |
-| Guida per l’aggiornamento di Customer Journey Analytics | Consente di generare una [guida dettagliata](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. |
+| Guida per l’aggiornamento di Customer Journey Analytics | Consente di generare una [guida dettagliata](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. |
 | Formattazione data più chiara nelle esportazioni Data Warehouse | I valori delle dimensioni basati sul tempo nelle esportazioni Data Warehouse hanno una formattazione della data non standard. Sono state aggiunte informazioni che spiegano come interpretare i valori delle date dalle esportazioni Data Warehouse. <p>Vedi [Dimensioni supportate in modo diverso (formattazione della data non standard)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) in [Supporto dei componenti in Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Sono state aggiornate le informazioni sulle esclusioni IP | Sono state aggiunte informazioni che spiegano che [le esclusioni IP](/help/admin/tools/exclude-ip.md) possono richiedere fino a 5 minuti prima di diventare effettive e che le modifiche si applicano solo ai nuovi hit (i dati acquisiti prima dell&#39;impostazione dell&#39;esclusione non sono interessati). <p>È stato aggiornato anche il layout dei contenuti per migliorarne la leggibilità.</p> |
 | **Febbraio 2025** |  |
@@ -338,7 +340,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 12 settembre 2019 | È stato aggiornato il documento sui [totali delle metriche calcolate](/help/components/calculated-metrics/cm-totals.md). |
 | 28 agosto 2019 | Nuovo articolo sulle [App web progressive (PWA) per Analytics](/help/technotes/pwa.md). |
 | 8 agosto 2019 | Nuovo articolo sui [Totali delle metriche calcolate](/help/components/calculated-metrics/cm-totals.md). |
-| 8 agosto 2019 | Chiarimento sui [dati della sessione abilitati per data e ora](/help/admin/tools/manage-rs/edit-settings/general/timestamp-optional.md). |
+| 8 agosto 2019 | Chiarimento sui [dati della sessione abilitati per data e ora](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md). |
 | 8 agosto 2019 | In Workspace, Adobe ha aumentato il limite di elementi che possono essere inseriti in un filtro a discesa da 50 a 200. Questo miglioramento è utile per una serie di casi d’uso, ad esempio per poter aggiungere a un filtro tutti i paesi (195), oppure tutti gli stati e le province degli Stati Uniti (52). |
 | 2 agosto 2019 | Aggiornamento principale del [glossario di Analytics](/help/technotes/terms.md). |
 | 22 luglio 2019 | Magento aggiunto: modello marketing e commercio alla documentazione dei [modelli di Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |

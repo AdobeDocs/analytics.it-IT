@@ -4,9 +4,9 @@ description: Comprendere i vantaggi e i requisiti dell’utilizzo di una suite d
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Utilizza le seguenti linee guida generali per comprendere il processo di impleme
    >Assicurati che qualsiasi variabile personalizzata venga utilizzata in modo simile tra i domini. Non utilizzare lo stesso eVar o evento per scopi diversi nei siti.
 1. Assicurati che ogni dominio abbia un livello di dati per semplificare la raccolta dati. I dati possono comunque essere raccolti senza un livello di dati, ma l’affidabilità e la longevità dell’implementazione diminuiscono, soprattutto in seguito a riprogettazioni del sito.
 1. Utilizza i tag in Adobe Experience Platform per implementare Analytics. Siti diversi richiederanno probabilmente elementi di dati diversi. Utilizza le regole specifiche per ciascun dominio per assicurarti che ogni elemento dati sia compilato correttamente, quindi assegna tali elementi dati alle rispettive eVar ed eventi. Consulta la [panoramica dei tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
-1. Includi il [servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) e utilizza la funzione [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=it). Questa funzione unisce i dati dei visitatori quando gli utenti fanno clic da un dominio all’altro.
+1. Includi il [servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) e utilizza la funzione [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=it). Questa funzione unisce i dati dei visitatori quando gli utenti fanno clic da un dominio all’altro.
 
 ## Modifica di un’implementazione esistente con una suite di rapporti globale
 
@@ -55,7 +55,7 @@ Il processo di spostamento di un’implementazione esistente su più siti in un�
 3. Segui i passaggi precedenti (crea una suite di rapporti, raccogli i requisiti di reporting in un documento di progettazione della soluzione e stabilisci un livello dati su ciascun sito). Quando implementi i tag in Adobe Experience Platform, convalida l’implementazione utilizzando una versione di sviluppo del sito web.
 4. Dopo aver confermato che l’implementazione funziona sullo sviluppo, invia in tempo reale l’implementazione dei tag alla data di cutover.
 
-## Pagine correlate
-
-[Passaggio dall&#39;assegnazione di tag a più suite a suite di rapporti globali e suite di rapporti virtuali](../../components/vrs/vrs-considerations.md)
-[Confronto delle aggregazioni dati e delle suite di rapporti globali](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[!MORELIKETHIS]
+>
+>[Passaggio dall&#39;assegnazione di tag a più suite a suite di rapporti globali e suite di rapporti virtuali](../../components/vrs/vrs-considerations.md)
+>>[Confronto delle aggregazioni dati e delle suite di rapporti globali](../../admin/tools/manage-rs/rollup-report-suite.md)

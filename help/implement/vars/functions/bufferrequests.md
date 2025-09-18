@@ -4,7 +4,7 @@ description: Migliora l’affidabilità di acquisire richieste di tracciamento d
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 325c035c0b5a9cc828be22ef7781d3b67f104476
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 5%
@@ -19,7 +19,7 @@ Quando chiami [`t()`](t-method.md) o [`tl()`](tl-method.md) in una pagina succes
 
 >[!TIP]
 >
->La marca temporale delle richieste nel buffer viene condivisa con la pagina a cui vengono inviati i dati. Se desideri maggiore precisione nel secondo esatto in cui viene registrata una richiesta nel buffer, puoi impostare la variabile di pagina [`timestamp`](../page-vars/timestamp.md) prima di inserire la richiesta nel buffer. Se utilizzi questa variabile, assicurati che [Marca temporale opzionale](/help/technotes/timestamps-optional.md) sia abilitato. In caso contrario, tutti gli hit con marca temporale andranno persi definitivamente.
+>La marca temporale delle richieste nel buffer viene condivisa con la pagina a cui vengono inviati i dati. Se desideri maggiore precisione nel secondo esatto in cui viene registrata una richiesta nel buffer, puoi impostare la variabile di pagina [`timestamp`](../page-vars/timestamp.md) prima di inserire la richiesta nel buffer. Se utilizzi questa variabile, assicurati che [Marca temporale opzionale](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) sia abilitato. In caso contrario, tutti gli hit con marca temporale andranno persi definitivamente.
 
 ## Limitazioni
 

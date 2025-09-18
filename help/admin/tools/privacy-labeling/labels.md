@@ -4,10 +4,10 @@ title: Etichette Privacy dei dati per le variabili di Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '3725'
-ht-degree: 68%
+source-wordcount: '3723'
+ht-degree: 67%
 
 ---
 
@@ -128,7 +128,7 @@ Un altro esempio: è possibile che CRM-ID venga inviato a volte tramite eVar1, a
 
 >[!CAUTION]
 >
->I namespace “visitorId” e “customVisitorId” sono riservati per identificare il cookie di tracciamento legacy di Analytics e l’ID visitatore del cliente Analytics. Non utilizzare questi spazi dei nomi per le variabili di traffico o conversione personalizzate.
+>Gli spazi dei nomi `visitorId` e `customVisitorId` sono riservati per identificare il cookie di tracciamento legacy di Analytics e l&#39;ID visitatore del cliente Analytics. Non utilizzare questi spazi dei nomi per le variabili di traffico o conversione personalizzate.
 
 ## Tipi di variabili ed etichette per la Privacy dei dati supportate {#variable-types}
 
