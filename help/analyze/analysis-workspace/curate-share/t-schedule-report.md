@@ -5,18 +5,22 @@ title: Inviare E Programmare Progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 39%
+source-wordcount: '374'
+ht-degree: 34%
 
 ---
 
 # Inviare e pianificare progetti
 
-Puoi inviare progetti Adobe Analytics come file a utenti selezionati tramite e-mail. Puoi inviare file ad hoc oppure configurare i file da inviare secondo una pianificazione. I file possono essere inviati in formato CSV o PDF.
+Puoi inviare progetti Adobe Analytics come file a utenti selezionati tramite e-mail. Puoi inviare file ad hoc oppure configurare i file da inviare in base a una pianificazione.
 
-Tutti i tag applicati al progetto vengono applicati automaticamente all’esportazione.
+Quando invii dei file, tieni presente quanto segue:
+
+* I file possono essere inviati in formato CSV o PDF.
+
+* Tutti i tag applicati al progetto vengono applicati automaticamente all’esportazione.
 
 Sono disponibili anche altri metodi di esportazione dei dati di Adobe Analytics, come descritto in [Panoramica sull&#39;esportazione](/help/export/home.md).
 
@@ -38,7 +42,7 @@ Per inviare un file ad hoc ai destinatari tramite e-mail:
 
 ## Pianificare l’esportazione di file {#schedule}
 
-Per inviare un file in base a una pianificazione ai destinatari tramite e-mail
+Per inviare un file ai destinatari in base a una pianificazione tramite e-mail:
 
 1. Seleziona **[!UICONTROL Share]>[!UICONTROL Schedule file export]**.
 1. Specifica il tipo di file:
