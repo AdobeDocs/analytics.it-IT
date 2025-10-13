@@ -22,6 +22,6 @@ Consente ad Analytics di raccogliere impression e clic su [!UICONTROL Assets] da
 * Aggiunge nuove dimensioni alle variabili della risorsa in Analysis Workspace: ID risorsa, Origine risorsa e ID risorsa su cui è stato fatto clic
 * Aggiunge nuove dimensioni agli eventi delle risorse: clic sulle risorse e impression sulle risorse
 
-Per i dati da compilare, consulta la [&#x200B; documentazione di AEM Asset Insights](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/assets-insights.html) per le istruzioni complete sull’implementazione.
+Per i dati da compilare, consulta la [&#x200B; documentazione di AEM Asset Insights](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/assets-insights.html?lang=it) per le istruzioni complete sull’implementazione.
 
 <!--The content in this article is duplicated with the content in the Integration guide (aem-assets-reporting.md)-->

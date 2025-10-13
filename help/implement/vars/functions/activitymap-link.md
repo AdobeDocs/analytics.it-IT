@@ -20,7 +20,7 @@ La variabile `ActivityMap.link` consente di ignorare la logica utilizzata da Act
 
 ## Sovrascrittura dei valori dei collegamenti tramite Web SDK
 
-È possibile utilizzare il callback [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) per modificare il payload di Web SDK o interrompere l&#39;invio dei dati.
+È possibile utilizzare il callback [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) per modificare il payload di Web SDK o interrompere l&#39;invio dei dati.
 
 ## Sostituzione dei collegamenti tramite l’estensione Adobe Analytics
 

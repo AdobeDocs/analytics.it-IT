@@ -37,7 +37,7 @@ Per configurare un account del motore di ricerca con tipo **[!UICONTROL Auto]**,
 
 >[!IMPORTANT]
 >
->Ulteriori informazioni sull&#39;aggiunta del parametro `s_kwcid` ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
+>Ulteriori informazioni sull&#39;aggiunta del parametro `s_kwcid` ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/it/docs/id-service/using/reference/csp).
 
 ## Tracciamento manuale {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 

@@ -20,7 +20,7 @@ La variabile `ActivityMap.region` consente di ignorare la logica utilizzata da A
 
 ## Sovrascrittura dei valori dell’area geografica tramite Web SDK
 
-È possibile utilizzare il callback [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) per modificare il payload di Web SDK o interrompere l&#39;invio dei dati.
+È possibile utilizzare il callback [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) per modificare il payload di Web SDK o interrompere l&#39;invio dei dati.
 
 ## Sostituzione dell’area geografica tramite l’estensione Adobe Analytics
 

@@ -61,9 +61,9 @@ Fare riferimento alla versione più recente di `alloy.js` in modo che sia possib
 
 +++**3. Configura Web SDK**
 
-Configurare l&#39;implementazione in modo che punti allo stream di dati creato nel passaggio precedente utilizzando il comando Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview). Il comando `configure` deve essere impostato su ogni pagina, in modo da poterlo includere insieme al codice di installazione della libreria.
+Configurare l&#39;implementazione in modo che punti allo stream di dati creato nel passaggio precedente utilizzando il comando Web SDK [`configure`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/overview). Il comando `configure` deve essere impostato su ogni pagina, in modo da poterlo includere insieme al codice di installazione della libreria.
 
-Utilizzare le proprietà [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) e [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) nel comando Web SDK `configure`:
+Utilizzare le proprietà [`datastreamId`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/datastreamid) e [`orgId`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/orgid) nel comando Web SDK `configure`:
 
 * Imposta `datastreamId` sull&#39;ID dello stream di dati recuperato dal passaggio precedente.
 * Imposta `orgId` per l&#39;organizzazione IMS della tua organizzazione.
@@ -75,7 +75,7 @@ alloy("configure", {
 });
 ```
 
-Facoltativamente, è possibile impostare altre proprietà nel comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) in base ai requisiti di implementazione della propria organizzazione.
+Facoltativamente, è possibile impostare altre proprietà nel comando [`configure`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/overview) in base ai requisiti di implementazione della propria organizzazione.
 
 +++
 
@@ -116,7 +116,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. Aggiorna le chiamate del metodo per utilizzare Web SDK**
 
-Aggiorna tutte le istanze in cui chiami [`s.t()`](../../vars/functions/t-method.md) e [`s.tl()`](../../vars/functions/tl-method.md), sostituendole con il comando [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview). Ci sono tre scenari da considerare:
+Aggiorna tutte le istanze in cui chiami [`s.t()`](../../vars/functions/t-method.md) e [`s.tl()`](../../vars/functions/tl-method.md), sostituendole con il comando [`sendEvent`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/sendevent/overview). Ci sono tre scenari da considerare:
 
 * **Tracciamento visualizzazione pagina**: sostituire la chiamata di tracciamento visualizzazione pagina con il comando Web SDK `sendEvent`:
 
@@ -128,7 +128,7 @@ Aggiorna tutte le istanze in cui chiami [`s.t()`](../../vars/functions/t-method.
   alloy("sendEvent", dataObj);
   ```
 
-* **Tracciamento automatico dei collegamenti**: la proprietà di configurazione [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) è attivata per impostazione predefinita. Imposta automaticamente le variabili di tracciamento dei collegamenti corrette per inviare dati ad Adobe Analytics. Se si desidera disabilitare il rilevamento automatico dei collegamenti, impostare questa proprietà su `false` nel comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Tracciamento automatico dei collegamenti**: la proprietà di configurazione [`clickCollectionEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) è attivata per impostazione predefinita. Imposta automaticamente le variabili di tracciamento dei collegamenti corrette per inviare dati ad Adobe Analytics. Se si desidera disabilitare il rilevamento automatico dei collegamenti, impostare questa proprietà su `false` nel comando [`configure`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/overview).
 
 * **Tracciamento manuale dei collegamenti**: il Web SDK non dispone di comandi separati tra le chiamate pageview e non pageview. Specifica la distinzione all&#39;interno dell&#39;oggetto payload.
 
