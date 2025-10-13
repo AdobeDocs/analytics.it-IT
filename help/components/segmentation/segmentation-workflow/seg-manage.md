@@ -41,7 +41,7 @@ Nell&#39;elenco dei segmenti ➊ vengono visualizzati tutti i segmenti di tua pr
 | **[!UICONTROL Owner]** | Il proprietario del segmento. In qualità di utente, puoi visualizzare solo i segmenti di tua proprietà o le annotazioni condivise con te. |
 | **[!UICONTROL Tags]** | I tag per questo segmento. |
 | **[!UICONTROL Shared with]** | Quanti singoli utenti o gruppi hai condiviso il segmento con. Seleziona per aprire la finestra di dialogo **[!UICONTROL Share Component]**. Consulta [Condividi segmenti](t-seg-share.md) per ulteriori informazioni. |
-| **[!UICONTROL Published]** | Indica se il segmento [ è pubblicato](seg-publish.md) in Experience Cloud. |
+| **[!UICONTROL Published]** | Indica se il segmento [&#x200B; è pubblicato](seg-publish.md) in Experience Cloud. |
 | **[!UICONTROL Date modified]** | La data e l’ora dell’ultima modifica apportata al segmento. |
 
 Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare quali colonne vuoi visualizzare.

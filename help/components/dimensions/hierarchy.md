@@ -20,7 +20,7 @@ Le gerarchie sono variabili personalizzate che puoi utilizzare come preferisci. 
 
 ## Popolare le gerarchie con i dati
 
-Ogni gerarchia raccoglie dati dalla stringa di query [`h1` - `h5` ](/help/implement/validate/query-parameters.md) nelle richieste di immagini. Ad esempio, il parametro della stringa di query `h1` raccoglie i dati per la gerarchia 1, mentre il parametro della stringa di query `h4` raccoglie i dati per la gerarchia 4.
+Ogni gerarchia raccoglie dati dalla stringa di query [`h1` - `h5` &#x200B;](/help/implement/validate/query-parameters.md) nelle richieste di immagini. Ad esempio, il parametro della stringa di query `h1` raccoglie i dati per la gerarchia 1, mentre il parametro della stringa di query `h4` raccoglie i dati per la gerarchia 4.
 
 AppMeasurement, che compila variabili JavaScript in una richiesta di immagine per la raccolta dati, utilizza le variabili `hier1` - `hier5`. Per le linee guida per l’implementazione, consulta [qui](/help/implement/vars/page-vars/hier.md) nella Guida utente di implementazione.
 

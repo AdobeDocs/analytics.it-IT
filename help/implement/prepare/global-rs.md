@@ -58,4 +58,4 @@ Il processo di spostamento di un’implementazione esistente su più siti in un�
 >[!MORELIKETHIS]
 >
 >[Passaggio dall&#39;assegnazione di tag a più suite a suite di rapporti globali e suite di rapporti virtuali](../../components/vrs/vrs-considerations.md)
->>[Confronto delle aggregazioni dati e delle suite di rapporti globali](../../admin/tools/manage-rs/rollup-report-suite.md)
+>&#x200B;>[Confronto delle aggregazioni dati e delle suite di rapporti globali](../../admin/tools/manage-rs/rollup-report-suite.md)

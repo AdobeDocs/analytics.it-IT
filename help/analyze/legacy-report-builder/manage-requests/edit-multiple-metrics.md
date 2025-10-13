@@ -30,7 +30,7 @@ Se alcune delle richieste selezionate sono Layout personalizzati, non è possibi
 Per aggiungere una o più metriche
 
 1. Seleziona una o più richieste in Excel e fai clic con il pulsante destro del mouse per selezionare **[!UICONTROL Edit Metrics]**. (Oppure fai clic su **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** per selezionare il gruppo di richieste da modificare.)
-1. Seleziona **[!UICONTROL Add Metric(s)]**e seleziona le metriche da aggiungere.
+1. Seleziona **[!UICONTROL Add Metric(s)]**&#x200B;e seleziona le metriche da aggiungere.
 
    ![Schermata che mostra l&#39;opzione Modifica richiesta, Aggiungi metriche selezionata.](assets/add_metric.png)
 

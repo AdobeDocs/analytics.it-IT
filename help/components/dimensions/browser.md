@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Browser
 
-La [!UICONTROL Browser]dimensione[ &#39;](overview.md)&#39; riporta il nome e la versione del browser che invia l&#39;hit. Questa dimensione è utile quando desideri misurare i browser più comuni utilizzati dai visitatori. Quando esegui il test di nuove versioni del sito, puoi eseguirli sui browser principali in questa dimensione per massimizzare le attività di controllo della qualità.
+La [!UICONTROL Browser]dimensione[&#x200B; &#39;](overview.md)&#39; riporta il nome e la versione del browser che invia l&#39;hit. Questa dimensione è utile quando desideri misurare i browser più comuni utilizzati dai visitatori. Quando esegui il test di nuove versioni del sito, puoi eseguirli sui browser principali in questa dimensione per massimizzare le attività di controllo della qualità.
 
 ## Popolare questa dimensione con i dati
 

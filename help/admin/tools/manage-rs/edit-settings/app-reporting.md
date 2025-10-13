@@ -108,4 +108,4 @@ Sono disponibili le seguenti metriche:
 
 I rapporti legacy indicano che gli hit generati quando un’app è in background vengono trattati come normali hit in primo piano. Vengono visualizzati nei rapporti e influiscono sull’attribuzione. Questa configurazione legacy è in genere utile per mantenere la coerenza con le implementazioni legacy.
 
-Adobe consiglia di disabilitare la generazione rapporti legacy in modo che gli hit in background non siano visibili. Se desideri includere gli hit in background nell&#39;analisi, puoi abilitare l&#39;impostazione [ della ](/help/components/vrs/vrs-about.md)Suite di rapporti virtuale **[!UICONTROL Include background hits]**.
+Adobe consiglia di disabilitare la generazione rapporti legacy in modo che gli hit in background non siano visibili. Se desideri includere gli hit in background nell&#39;analisi, puoi abilitare l&#39;impostazione [&#x200B; della &#x200B;](/help/components/vrs/vrs-about.md)Suite di rapporti virtuale **[!UICONTROL Include background hits]**.

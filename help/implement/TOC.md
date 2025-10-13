@@ -62,7 +62,7 @@ ht-degree: 84%
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
-      + [eVar ](vars/page-vars/evar.md)
+      + [eVar &#x200B;](vars/page-vars/evar.md)
       + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)

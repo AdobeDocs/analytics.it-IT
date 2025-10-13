@@ -38,7 +38,7 @@ I controlli interattivi sono stati creati in risposta a un flusso di lavoro comu
 1. Nel passaggio 1 della Creazione guidata richieste selezionare, ad esempio, il report **[!UICONTROL Page]**.
 1. Accanto all&#39;elenco a discesa **[!UICONTROL Commonly Used Dates]**, fare clic sull&#39;icona **[!UICONTROL Control Settings]**:
 
-   ![Schermata del passaggio 1 della Creazione guidata richieste che evidenzia l&#39;icona Impostazioni controllo. ](assets/date_range_control.png)
+   ![Schermata del passaggio 1 della Creazione guidata richieste che evidenzia l&#39;icona Impostazioni controllo. &#x200B;](assets/date_range_control.png)
 
 1. Nella finestra di dialogo Impostazioni controllo selezionare tutti gli elementi dell&#39;intervallo di date che si desidera visualizzare nel controllo interattivo. Specificare inoltre la posizione della cella superiore sinistra del controllo.
 
