@@ -23,7 +23,7 @@ Puoi [condividere](t-seg-share.md), [segmento](t-seg-filter.md), [tag](seg-tag.m
 >I segmenti rapidi creati all&#39;interno di un progetto Workspace specifico non vengono visualizzati nel gestore [!UICONTROL Segment], a meno che il segmento non sia stato reso disponibile per tutti i progetti.
 >
 
-## Gestore segmenti
+## Gestione segmenti
 
 Il Gestore segmenti dispone dei seguenti elementi dell’interfaccia:
 
@@ -137,6 +137,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=it) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

@@ -7,7 +7,7 @@ exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ Nella scheda [!UICONTROL Visit Definition], definire queste impostazioni e quind
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Regolare la definizione di una visita](https://video.tv.adobe.com/v/3428474?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Regolare la definizione di una visita](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -54,10 +54,10 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Regolare la
 | --- |--- |
 | **Configura definizione visita** |  |
 | Abilita elaborazione dei tempi di report | Utilizza l’elaborazione dei tempi di report per modificare la lunghezza di timeout predefinita per la visita. Queste impostazioni non sono distruttive e si applicano solo ad Analysis Workspace. [Ulteriori informazioni](/help/components/vrs/vrs-report-time-processing.md) |
-| Timeout della visita | Definisce la quantità di inattività che un visitatore univoco deve avere prima che una nuova visita venga avviata automaticamente. Questo influenzerà la metrica Visite, il contenitore del segmento di visita e le eVar che scadono durante la visita. |
+| Timeout della visita | Definisce il periodo di inattività che deve trascorrere per un visitatore univoco prima che venga avviata automaticamente una nuova visita. Questo influirà sulla metrica delle visite, sul contenitore del segmento di visita e sulle evar che scadono al momento della visita. |
 | Inizia nuova visita con evento | Avvia una nuova sessione quando uno qualsiasi degli eventi specificati si attiva indipendentemente dal timeout di una sessione. |
 | **Impostazioni di visita app mobile** | Modifica la definizione delle visite per gli hit delle app mobili raccolti dagli SDK di Adobe per dispositivi mobili. Queste impostazioni non sono distruttive e si applicano solo ad Analysis Workspace. |
-| Impedire che gli hit di background diano inizio a una nuova visita | Impedisce che gli hit di background diano inizio a una nuova visita e che aumentino le metriche relative a visite e visitatori univoci. |
+| Impedisci agli hit in background di avviare una nuova visita | Impedisce che gli hit di background diano inizio a una nuova visita e che aumentino le metriche relative a visite e visitatori univoci. |
 | Avvia una nuova visita a ogni avvio dell’app | Avvia una nuova sessione quando si verifica l&#39;avvio di un&#39;app. [Ulteriori informazioni](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
 ## Includere e rinominare i componenti

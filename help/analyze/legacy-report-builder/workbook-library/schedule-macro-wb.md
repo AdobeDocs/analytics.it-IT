@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# Pianificazione delle cartelle di lavoro con attivazione macro
+# Pianificazione delle cartelle di lavoro con abilitazione delle macro
 
 {{legacy-arb}}
 
@@ -22,6 +22,6 @@ Questa funzione è utile se è necessario pianificare, elaborare e ricevere in m
 
 >[!IMPORTANT]
 >
->Anche se il Report Builder consente di pianificare cartelle di lavoro con macro, queste non vengono esercitate durante ogni esecuzione pianificata. Vengono esercitati solo quando la cartella di lavoro viene aperta nell&#39;applicazione nativa di Microsoft Excel.
+>Anche se Report Builder consente di pianificare cartelle di lavoro con macro, queste non vengono esercitate durante ogni esecuzione pianificata. Vengono esercitati solo quando la cartella di lavoro viene aperta nell&#39;applicazione nativa di Microsoft Excel.
 
 Le cartelle di lavoro pianificate con macro possono essere distribuite solo in formato con attivazione macro (.xlsm), poiché tutti gli altri formati supportati (xls, xlsx, pdf, word, csv o txt) rimuoverebbero le macro dalla cartella di lavoro.

@@ -18,9 +18,9 @@ La [metrica](overview.md) &#39;Istanze&#39; mostra il numero di volte in cui una
 
 Di tutti gli hit in una suite di rapporti, includi solo quelli che impostano esplicitamente un elemento dimensione nella richiesta di immagine. Alcune dimensioni, come le [eVar](../dimensions/evar.md) persistono oltre l’hit su cui sono impostate. Le metriche come [Visualizzazioni pagina](page-views.md) e [Occorrenze](occurrences.md) contano sia i valori iniziali che quelli persistenti. Questa metrica non conta i valori persistenti.
 
-Ad esempio, un visitatore arriva sul tuo sito e utilizza la ricerca interna. Puoi tenere traccia della ricerca interna in eVar1. Dopo aver utilizzato una sola volta la ricerca interna, visita altre cinque pagine prima di uscire.
+Ad esempio, un visitatore arriva sul tuo sito e utilizza la ricerca interna. Tieni traccia della ricerca interna in eVar1. Dopo aver utilizzato una sola volta la ricerca interna, visita altre cinque pagine prima di uscire.
 
-Se visualizzi un rapporto in Workspace, visualizzerai un’istanza eVar1 e sei occorrenze. Un’istanza conta nella pagina dei risultati della ricerca, mentre la metrica Occorrenze conta il valore iniziale e i successivi valori persistenti.
+Quando visualizzi un rapporto in Workspace, visualizzi un’istanza di eVar1 e sei occorrenze. Un’istanza conta nella pagina dei risultati della ricerca, mentre la metrica Occorrenze conta il valore iniziale e i successivi valori persistenti.
 
 ## Confronto con metriche simili
 

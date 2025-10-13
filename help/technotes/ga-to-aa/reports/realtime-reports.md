@@ -1,6 +1,6 @@
 ---
 title: Rapporti in tempo reale in Adobe Analytics
-description: Scopri come creare rapporti in tempo reale in Adobe Analytics rivolti agli utenti che hanno più familiarità con la Google Analytics.
+description: Scopri come creare rapporti in tempo reale in Adobe Analytics rivolti agli utenti che hanno più familiarità con Google Analytics.
 feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
 source-git-commit: 8f08ff46d33d050d0bdb4e0555611ba37ccc8474
@@ -37,7 +37,7 @@ Le posizioni in tempo reale indicano dove si trovano i visitatori mentre visitan
 2. In uno degli slot di rapporti in tempo reale:
    * Denomina il rapporto in tempo reale, ad esempio &quot;Posizioni&quot;.
    * Istanze viene in genere utilizzato come metrica. Utenti/Visitatori univoci non è al momento disponibile nei rapporti in tempo reale.
-   * Per il Dimension principale, in genere viene utilizzato il paese di geosegmentazione. Sono inoltre disponibili le opzioni Regione di geosegmentazione, GeoSegmentation US DMA e Città di geosegmentazione.
+   * Per il Dimension primario, in genere viene utilizzato il Paese di geosegmentazione. Sono inoltre disponibili le opzioni Regione di geosegmentazione, GeoSegmentation US DMA e Città di geosegmentazione.
    * Per le due dimensioni secondarie, utilizza i dati aggiuntivi preferiti che desideri visualizzare per questo traffico. Non è necessario che le dimensioni secondarie siano specifiche per la posizione.
 3. Fai clic su [!UICONTROL Save and View Report].
 
@@ -49,7 +49,7 @@ Le origini del traffico in tempo reale indicano da dove provengono i visitatori 
 2. In uno degli slot di rapporti in tempo reale:
    * Denomina il rapporto in tempo reale, ad esempio &quot;Origini del traffico&quot;.
    * Istanze viene in genere utilizzato come metrica. Utenti/Visitatori univoci non è al momento disponibile nei rapporti in tempo reale.
-   * Per il Dimension principale, viene in genere utilizzato il dominio di riferimento. Sono disponibili anche motore di ricerca e parola chiave di ricerca.
+   * Per il Dimension primario, viene in genere utilizzato il dominio di riferimento. Sono disponibili anche motore di ricerca e parola chiave di ricerca.
    * Per le due dimensioni secondarie, utilizza i dati aggiuntivi preferiti che desideri visualizzare per questo traffico. Le dimensioni secondarie non devono essere specifiche per le origini di traffico.
 3. Fai clic su [!UICONTROL Save and View Report].
 
@@ -67,7 +67,7 @@ Il contenuto in tempo reale indica le pagine attualmente visualizzate dai visita
 
 ## Eventi in tempo reale
 
-Eventi in tempo reale indica gli eventi che si verificano maggiormente sul sito. Nelle Google Analytics, un evento acquisisce il numero di volte in cui si è verificata un’azione specifica (in genere un’azione non correlata a una visualizzazione pagina). Gli eventi GA vengono inviati con Categoria, Etichetta e Azione. In Adobe Analytics, gli eventi personalizzati sono metriche a cui vengono assegnati nomi descrittivi nell’Admin Console e che possono essere analizzati insieme a qualsiasi dimensione. Se cerchi in Adobe Analytics una dimensione simile agli eventi Google Analytics, puoi applicare la dimensione Collegamento personalizzato, che spesso viene utilizzata come elemento di riferimento per la raccolta di dati non correlati alle visualizzazioni di pagina (oltre a Collegamenti di uscita per Uscite e Collegamenti di download per Download).
+Eventi in tempo reale indica gli eventi che si verificano maggiormente sul sito. In Google Analytics, un evento acquisisce il numero di volte in cui si è verificata un’azione specifica (in genere un’azione che non è correlata a una visualizzazione di pagina). Gli eventi GA vengono inviati con Categoria, Etichetta e Azione. In Adobe Analytics, gli eventi personalizzati sono metriche a cui vengono assegnati nomi descrittivi nell’Admin Console e che possono essere analizzati insieme a qualsiasi dimensione. Se cerchi in Adobe Analytics una dimensione simile agli eventi di Google Analytics, puoi applicare la dimensione Custom Link, che spesso viene utilizzata come modello per la raccolta di dati non correlati alle visualizzazioni di pagina (oltre a Collegamenti di uscita per Uscite e Collegamenti di download per Download).
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Eventi in tempo reale indica gli eventi che si verificano maggiormente sul sito.
 
 ## Conversioni in tempo reale
 
-Le conversioni in tempo reale presentano i dati in modo diverso tra le piattaforme. Gli obiettivi nelle Google Analytics sono simili alle metriche e agli eventi di successo in Adobe Analytics. Puoi utilizzare la maggior parte delle metriche in Adobe Analytics (metriche personalizzate come eventi di successo e metriche standard come ricavi) nei Rapporti in tempo reale. Analogamente alle Google Analytics, puoi anche applicare dimensioni come nome del prodotto, codice di tracciamento e prestazioni della campagna nei rapporti in tempo reale.
+Le conversioni in tempo reale presentano i dati in modo diverso tra le piattaforme. Gli obiettivi in Google Analytics sono simili alle metriche e agli eventi di successo in Adobe Analytics. Puoi utilizzare la maggior parte delle metriche in Adobe Analytics (metriche personalizzate come eventi di successo e metriche standard come ricavi) nei Rapporti in tempo reale. Simile a Google Analytics, puoi anche applicare dimensioni come nome del prodotto, codice di tracciamento e prestazioni della campagna nei rapporti in tempo reale.
 
 1. Fare clic su [!UICONTROL Configure] accanto al titolo del report in tempo reale.
 2. In uno degli slot di rapporti in tempo reale:

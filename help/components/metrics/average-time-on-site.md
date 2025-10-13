@@ -81,6 +81,6 @@ Poiché nella dimensione di raggruppamento era presente una singola sequenza, es
 
 ## Percentuali superiori al 100%
 
-Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo medio dell’intera dimensione sul sito e il numeratore è il tempo medio dell’elemento dimensione sul sito. Se il tempo medio dell’intera dimensione sul sito è inferiore al tempo medio sul sito di un dato elemento dimensione, vengono visualizzate percentuali superiori al 100%. L’ordinamento dei rapporti classificati in base a questa metrica mostra un’anomalia nel tempo medio sui valori del sito, che in genere non è importante. L&#39;Adobe consiglia di ordinare in base a un&#39;altra metrica, ad esempio [Visite](visits.md), nei report classificati.
+Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo medio dell’intera dimensione sul sito e il numeratore è il tempo medio dell’elemento dimensione sul sito. Se il tempo medio dell’intera dimensione sul sito è inferiore al tempo medio sul sito di un dato elemento dimensione, vengono visualizzate percentuali superiori al 100%. L’ordinamento dei rapporti classificati in base a questa metrica mostra un’anomalia nel tempo medio sui valori del sito, che in genere non è importante. Adobe consiglia di ordinare i rapporti in base a un&#39;altra metrica, ad esempio [Visite](visits.md).
 
 Consulta [Panoramica sul tempo trascorso](time-spent.md) per informazioni più generali sul tempo trascorso.

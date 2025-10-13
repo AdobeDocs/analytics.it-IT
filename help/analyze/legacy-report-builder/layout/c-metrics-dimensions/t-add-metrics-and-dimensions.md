@@ -37,7 +37,7 @@ Quando aggiungi metriche e dimensioni, considera le seguenti linee guida.
 
 * Quando inserisci un termine di ricerca, l’elenco viene aggiornato automaticamente in modo da visualizzare le metriche con etichette che corrispondono al termine di ricerca.
 * La corrispondenza è senza distinzione tra maiuscole e minuscole ed equivale a una ricerca *contains*.
-* Ricerche di parole complete e altri contrassegni di ricerca speciali (inizia con, termina con, E, O, ecc.) non sono supportati.
+* Le ricerche di parole complete e altri flag di ricerca speciali (che iniziano con, terminano con, E, O, ecc.) non sono supportati.
 
 Il termine di ricerca viene cancellato se si esce dalla Creazione guidata richieste quando si fa clic su [!UICONTROL Finish] o [!UICONTROL Cancel], si torna al Passaggio 1 della Creazione guidata richieste o si modifica la categoria della metrica.
 
@@ -45,10 +45,10 @@ Il termine di ricerca non viene cancellato:
 
 * Quando trascini e rilasci (o fai doppio clic) un elemento metrico dall’elenco, in modo che venga aggiunto al pannello Layout pivot/Metriche layout personalizzate.
 * Quando rimuovi uno o più elementi metrici dal pannello Metrica layout pivot/layout personalizzato.
-* Quando fai clic sulla scheda Dimension, quindi torna alla scheda Metrica.
+* Quando fai clic sulla scheda Dimension, torna alla scheda Metrica.
 * Quando si richiamano altri sottomoduli (modali o non modali) che all&#39;uscita torneranno al Passaggio 2 della Creazione guidata richieste. Esempi di questi moduli sono
 
-   * Forms filtro Dimension
+   * Dimension Filter Forms
    * Formattazione intervallo di date Forms
    * Modulo opzioni formato
    * Modulo testo pre-pend-postpend

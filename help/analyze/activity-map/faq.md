@@ -1,6 +1,6 @@
 ---
 title: Domande frequenti su Activity Map
-description: Domande frequenti sull’Activity Map.
+description: Domande frequenti relative ad Activity Map.
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
@@ -13,11 +13,11 @@ ht-degree: 16%
 
 # Domande frequenti su Activity Map
 
-Domande frequenti sull’Activity Map.
+Domande frequenti relative ad Activity Map.
 
-+++Come posso concedere le autorizzazioni all’Activity Map?
++++Come posso concedere autorizzazioni ad Activity Map?
 
-Le autorizzazioni per l&#39;utilizzo di Activity Map e delle dimensioni associate vengono gestite in [Adobe Admin Console](/help/admin/admin-console/home.md).
+Le autorizzazioni per utilizzare Activity Map e le dimensioni associate vengono gestite in [Adobe Admin Console](/help/admin/admin-console/home.md).
 
 I [elementi di autorizzazione](/help/admin/admin-console/permissions/product-profile.md) richiesti per Activity Map includono:
 
@@ -33,7 +33,7 @@ Per ulteriori informazioni, consulta [Autorizzazioni del profilo di prodotto per
 
 +++
 
-+++Tutti i clienti Analytics hanno accesso all’Activity Map?
++++Tutti i clienti Analytics hanno accesso ad Activity Map?
 
 Le organizzazioni con un contratto per Adobe Analytics Standard, Premium e Ultimate hanno accesso ad Activity Map. Questi tipi di contratto rappresentano la maggior parte dei clienti Adobe Analytics.
 
@@ -41,7 +41,7 @@ Le organizzazioni con un contratto per Adobe Analytics Standard, Premium e Ultim
 
 +++In che modo Activity Map supporta le applicazioni a pagina singola (SPA)?
 
-Ogni pochi secondi, Activity Map analizza la pagina web alla ricerca di modifiche. L’Activity Map trova nuovi contenuti nella pagina senza ricaricarli, ma questi sono sempre attribuiti al primo valore di dimensione della pagina.
+Ogni pochi secondi, Activity Map analizza la pagina web alla ricerca di modifiche. Activity Map trova nuovi contenuti nella pagina senza dover ricaricare, ma questo nuovo contenuto è sempre attribuito al primo valore di dimensione della pagina.
 
 * Activity Map controlla se la visibilità dei collegamenti di cui è a conoscenza è cambiata. Se viene rilevata una modifica nella visibilità, la colonna Link On Page della tabella Links On Page presente per quel collegamento si aggiorna con [!UICONTROL Displayed] o [!UICONTROL Hidden].
 
@@ -49,7 +49,7 @@ Ogni pochi secondi, Activity Map analizza la pagina web alla ricerca di modifich
 
 +++
 
-+++L’Activity Map fornisce dati sui collegamenti visualizzati ma non selezionati?
++++Activity Map fornisce dati sui collegamenti visualizzati ma non selezionati?
 
 No, Adobe non tiene traccia automaticamente dei collegamenti che sono stati visualizzati solo.
 
@@ -61,9 +61,9 @@ Activity Map supporta la versione più recente della maggior parte dei browser m
 
 +++
 
-+++L’Activity Map aumenta le chiamate server?
++++Activity Map aumenta le chiamate server?
 
-Activity Map non invia chiamate server da sola. Al contrario, le variabili di dati di contesto Activity Map sono incluse nelle chiamate di visualizzazione della pagina di Analytics nella pagina successiva. Tuttavia, alcune versioni precedenti di Activity Map sul Web SDK inviano una chiamata separata per i dati Activity Map. Se utilizzi la versione più recente del Web SDK, i dati Activity Map vengono uniti all’evento seguente.
+Activity Map non invia chiamate server da sola. Al contrario, le variabili di dati di contesto di Activity Map sono incluse nelle chiamate di visualizzazione della pagina di Analytics nella pagina successiva. Tuttavia, alcune versioni precedenti di Activity Map sul Web SDK inviano una chiamata separata per i dati di Activity Map. Se utilizzi la versione più recente del Web SDK, i dati di Activity Map vengono uniti all’evento seguente.
 
 +++
 
@@ -86,7 +86,7 @@ Per impostazione predefinita, Activity Map utilizza la suite di rapporti associa
 
 +++
 
-+++Per quanto tempo Activity Map esegue la scansione di Adobe Analytics nella pagina?
++++Per quanto tempo Activity Map esegue la scansione di Adobe Analytics sulla pagina?
 
 Activity Map cerca la presenza di Adobe Analytics per un massimo di 20 secondi dopo un evento di completamento della pagina.
 
@@ -110,7 +110,7 @@ Tutti i dati visualizzati si basano sulle visualizzazioni di pagina.
 
 +++
 
-+++Posso esportare dati Activity Map tramite feed di dati?
++++Posso esportare dati di Activity Map tramite feed di dati?
 
 Sì. Le [colonne feed dati](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) utilizzate da Activity Map sono:
 
@@ -127,20 +127,20 @@ No, i segmenti non funzionano in modalità Live.
 
 +++
 
-+++L’Activity Map è compatibile con le suite di rapporti virtuali?
++++Activity Map è compatibile con le suite di rapporti virtuali?
 
-Sì. Tuttavia, a causa delle limitazioni della suite di rapporti virtuali, la modalità Live dell’Activity Map non è compatibile con le suite di rapporti virtuali.
+Sì. Tuttavia, a causa delle limitazioni della suite di rapporti virtuali, la modalità Live di Activity Map non è compatibile con le suite di rapporti virtuali.
 
 +++
 
-+++Come posso disabilitare l’Activity Map?
++++Come posso disattivare Activity Map?
 
-Il metodo per disabilitare l’Activity Map dipende dal tipo di implementazione:
+Il metodo per disabilitare Activity Map dipende dal tipo di implementazione:
 
 * **Estensione Web SDK**: nelle impostazioni di configurazione dell&#39;estensione, deselezionare le caselle **[!UICONTROL Collect internal link clicks]**, **[!UICONTROL Collect external link clicks]** e **[!UICONTROL Collect download link clicks]**.
-* **Libreria Web SDK JavaScript**: impostare [`clickCollectionEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) su `false`.
+* **Libreria Web SDK JavaScript**: impostare [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) su `false`.
 * **Estensione Analytics**: nelle impostazioni di configurazione dell&#39;estensione, deselezionare la casella con etichetta **[!UICONTROL Use Activity Map]**.
-* **AppMeasurement**: rimuovere o commentare il modulo Activity Map in `AppMeasurement.js` oppure sovrascrivere la chiamata alla funzione del modulo con un corpo vuoto:
+* **AppMeasurement**: rimuovi o commenta il modulo Activity Map in `AppMeasurement.js` oppure sovrascrivi la chiamata della funzione del modulo con un corpo vuoto:
 
   ```js
   function AppMeasurement_Module_ActivityMap() {}
@@ -154,18 +154,18 @@ Puoi utilizzare la versione più recente di Chrome, Edge o Firefox con l’esten
 
 +++
 
-+++Cosa devo considerare quando utilizzo l’Activity Map per informazioni personali?
++++Cosa devo considerare quando utilizzo Activity Map per informazioni personali?
 
-Considera i seguenti scenari in cui è possibile raccogliere dati personali utilizzando l’Activity Map:
+Considera i seguenti scenari in cui è possibile raccogliere dati personali utilizzando Activity Map:
 
-* **Collegamenti e-mail**: se è possibile fare clic su un indirizzo e-mail per aprire il client di posta dell&#39;utente, l&#39;Activity Map può raccogliere l&#39;indirizzo e-mail su cui è stato fatto clic.
-* **Collegamenti ID utente**: dopo che un visitatore ha effettuato l&#39;accesso, l&#39;Activity Map può registrare tutti i collegamenti che contengono l&#39;ID utente del visitatore.
+* **Collegamenti e-mail**: se è possibile fare clic su un indirizzo e-mail per aprire il client di posta dell&#39;utente, Activity Map può raccogliere l&#39;indirizzo e-mail su cui è stato fatto clic.
+* **Collegamenti ID utente**: dopo che un visitatore ha effettuato l&#39;accesso, Activity Map può registrare tutti i collegamenti che contengono l&#39;ID utente del visitatore.
 * **Collegamenti per informazioni riservate**: per le istituzioni finanziarie, è possibile tenere traccia di informazioni riservate come il numero di account, se si tratta di un collegamento su cui i visitatori fanno clic.
 * **Collegamenti contenenti informazioni personali**: per i siti Web sanitari, i collegamenti possono contenere informazioni personali. Se un visitatore fa clic su questi collegamenti, Activity Map ne raccoglie il testo.
 
 +++
 
-+++Quali dati tiene traccia di Activity Map per impostazione predefinita?
++++Quali dati vengono tracciati da Activity Map per impostazione predefinita?
 
 Activity Map tiene traccia dei seguenti elementi:
 
@@ -201,7 +201,7 @@ Di seguito sono riportati alcuni esempi in cui Activity Map dispone di tutte le 
 
 +++
 
-+++Quali sono alcuni esempi di collegamenti che Activity Map NON tiene traccia automaticamente?
++++Quali sono alcuni esempi di collegamenti di cui Activity Map NON tiene traccia automaticamente?
 
 * Il tag di ancoraggio non ha un `href` valido
 * Metodo [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md) o [`tl()`](/help/implement/vars/functions/tl-method.md) non presente

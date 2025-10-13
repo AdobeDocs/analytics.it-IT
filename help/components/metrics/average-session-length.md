@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Lunghezza media sessione (mobile)
 
-Il valore di &#39;Durata media sessione (dispositivi mobili)&#39; [metrica](overview.md) mostra il tempo medio di presenza di un dato elemento dimensione per elemento dimensione. È simile alla metrica [[!UICONTROL Time spent per visit (seconds)]](time-spent-per-visit.md), tranne per il fatto che questa metrica utilizza componenti specifici dell&#39;SDK mobile come parte del calcolo.
+Il valore di &#39;Durata media sessione (dispositivi mobili)&#39; [metrica](overview.md) mostra il tempo medio di presenza di un dato elemento dimensione per elemento dimensione. È simile alla metrica [[!UICONTROL Time spent per visit (seconds)]](time-spent-per-visit.md), con la differenza che questa metrica utilizza componenti specifici per SDK mobile come parte del calcolo.
 
 ## Come è calcolata questa metrica
 

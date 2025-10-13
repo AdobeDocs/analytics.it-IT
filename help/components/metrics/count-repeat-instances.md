@@ -1,12 +1,12 @@
 ---
 title: Conta istanze ripetute
-description: Specifica se nei rapporti vengono conteggiate le istanze ripetute.
+description: Specifica se le istanze ripetute vengono conteggiate o meno nei rapporti.
 feature: Metrics
 exl-id: e80544c0-f030-44e7-84c5-0902cd18d467
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 

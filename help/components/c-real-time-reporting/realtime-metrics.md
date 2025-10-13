@@ -7,7 +7,7 @@ exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
 source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 28%
+ht-degree: 32%
 
 ---
 
@@ -28,7 +28,7 @@ Elenca metriche e dimensioni supportate dai rapporti in tempo reale. Sono suppor
 * Istanze
 * Eventi personalizzati 1-100 (se abilitati nella suite di rapporti)
 
-## Dimension supportati {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## Dimensioni supportate {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
 * Pagina
 * Parola chiave di ricerca

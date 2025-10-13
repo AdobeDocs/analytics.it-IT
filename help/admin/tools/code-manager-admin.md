@@ -25,5 +25,5 @@ Dopo aver scaricato la libreria, devi configurare il codice per inviare i dati a
 |--- |--- |
 | [!UICONTROL Name] | Il nome corrisponde alla piattaforma in cui desideri abilitare la raccolta dati. In questa colonna vengono fornite librerie native per ogni piattaforma elencata. |
 | [!UICONTROL Type] | Tipo di applicazioni che possono essere misurate utilizzando ogni libreria. |
-| [!UICONTROL Version] | Elencare la versione più recente della libreria. Fai clic sul numero di versione per visualizzare la cronologia delle versioni [&#128279;](/help/implement/appmeasurement-updates.md). |
+| [!UICONTROL Version] | Elencare la versione più recente della libreria. Fai clic sul numero di versione per visualizzare la cronologia delle versioni [](/help/implement/appmeasurement-updates.md). |
 | [!UICONTROL Documentation] | Consulta la documentazione di riferimento della libreria. |

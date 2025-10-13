@@ -17,7 +17,7 @@ Le suite di rapporti virtuali possono essere curate per includere ed escludere i
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura dei componenti](https://video.tv.adobe.com/v/3425529?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura dei componenti](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

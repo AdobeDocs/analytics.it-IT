@@ -38,7 +38,7 @@ Queste dimensioni funzionano in modo predefinito per tutte le implementazioni. S
 
 Esistono più dimensioni per il tempo trascorso per visita:
 
-* **Tempo trascorso per visita - a blocchi**: la quantità di tempo è a blocchi. Gli elementi Dimension sono compresi tra `"Less than 1 minute"` e `"More than 15 hours"`. Le visite in genere non durano più di 12 ore; tuttavia, le visite possono superare le 12 ore se si utilizzano hit con marca temporale o origini dati.
-* **Tempo trascorso per visita - granulare**: ogni numero di secondi è un elemento dimensione univoco. Questa dimensione non è disponibile nella Data Warehouse.
+* **Tempo trascorso per visita - a blocchi**: la quantità di tempo è a blocchi. Gli elementi di Dimension sono compresi tra `"Less than 1 minute"` e `"More than 15 hours"`. Le visite in genere non durano più di 12 ore; tuttavia, le visite possono superare le 12 ore se si utilizzano hit con marca temporale o origini dati.
+* **Tempo trascorso per visita - granulare**: ogni numero di secondi è un elemento dimensione univoco. Dimensione non disponibile in Data Warehouse.
 
 Consulta [Panoramica sul tempo trascorso](../metrics/time-spent.md) per informazioni più generali sul tempo trascorso.

@@ -20,7 +20,7 @@ Questa dimensione fa riferimento alla prima parte della stringa nella variabile 
 
 ## Elementi dimensionali
 
-Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina quali sono gli elementi dimensionali. L’Adobe consiglia di raggruppare singoli prodotti in categorie significative, utilizzando sia la dimensione &quot;Prodotto&quot; che la dimensione &quot;Categoria&quot;.
+Poiché questa variabile è basata su una stringa personalizzata nell’implementazione, l’organizzazione determina quali sono gli elementi dimensionali. Adobe consiglia di raggruppare i singoli prodotti in categorie significative, utilizzando le dimensioni &quot;Prodotto&quot; e &quot;Categoria&quot;.
 
 >[!TIP]
 >

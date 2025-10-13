@@ -18,7 +18,7 @@ Scopri come utilizzare FTP e SFTP per trasferire file tra computer e server.
 Modi in cui puoi utilizzare l&#39;FTP con i prodotti e le soluzioni Adobe:
 
 * Carica grandi set di dati di classificazione in Analytics.
-* Carica gli attributi del cliente nell&#39;Experience Cloud da utilizzare nelle soluzioni.
+* Carica gli attributi del cliente in Experience Cloud per l&#39;utilizzo nelle soluzioni.
 * Utilizzare Analytics per creare e gestire origini dati basate su FTP, che sfrutta il trasferimento di file FTP per importare dati non in linea o storici in [!UICONTROL Experience Cloud]
 
 Questi articoli non descrivono necessariamente i passaggi dell’utilizzo dell’FTP con ciascun prodotto. ma vuole consigliarti invece buone prassi per l&#39;utilizzo dell&#39;FTP con Adobe.

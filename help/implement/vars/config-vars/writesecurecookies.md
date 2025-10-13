@@ -17,7 +17,7 @@ La variabile `writeSecureCookies` consente ad AppMeasurement di impostare [Cooki
 
 `writeSecureCookies` si applica solo ai cookie impostati da AppMeasurement JavaScript (`s_fid`, `s_cc` e `s_sq`). I cookie impostati dalla risposta `https` (`s_vi` e `s_ecid`) possono essere impostati su &quot;protetti&quot; contattando l&#39;Assistenza clienti di Adobe.
 
-Ulteriori informazioni sui cookie di Analytics [qui](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=it).
+Ulteriori informazioni sui cookie di Analytics [qui](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html).
 
 >[!WARNING]
 >

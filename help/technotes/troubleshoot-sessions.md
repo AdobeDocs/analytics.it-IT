@@ -24,9 +24,9 @@ Per determinare se la rete aziendale a cui sei connesso causa problemi con l’u
 
 ## Problemi dovuti al proxy {#proxy}
 
-Adobe utilizza un’intestazione di autorizzazione quando effettua richieste ad Adobe. Alcuni proxy, come Edge Secure Web Gateway (precedentemente Bluecoat), eliminano le informazioni critiche sull’intestazione delle autorizzazioni utilizzate da Adobe Analytics. Se l’Adobe non visualizza l’intestazione di autorizzazione, la sessione scade.
+Adobe utilizza un’intestazione di autorizzazione quando effettua richieste ad Adobe. Alcuni proxy, come Edge Secure Web Gateway (precedentemente Bluecoat), eliminano le informazioni critiche sull’intestazione delle autorizzazioni utilizzate da Adobe Analytics. Se Adobe non vede l’intestazione di autorizzazione, la sessione scade.
 
-Per risolvere questo problema, l’Adobe consiglia di collaborare con il team IT della tua organizzazione per consentire l’intestazione di autorizzazione tramite il proxy dell’organizzazione.
+Per risolvere questo problema, Adobe consiglia di collaborare con il team IT della tua organizzazione per consentire l’intestazione di autorizzazione tramite il proxy dell’organizzazione.
 
 >[!NOTE]
 >

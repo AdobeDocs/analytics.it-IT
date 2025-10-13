@@ -36,7 +36,7 @@ Le risorse seguenti sono utili per comprendere il flusso di lavoro di base per o
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell&#39;interfaccia feed dati](https://video.tv.adobe.com/v/3428563?quality=12&learn=on&captions=ita){target="_blank"} per vedere un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell&#39;interfaccia feed dati](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trova il tuo ID feed dati](https://video.tv.adobe.com/v/3418481?quality=12&learn=on&captions=ita){target="_blank"} per vedere un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trova il tuo ID feed dati](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
 
 >[!ENDSHADEBOX]

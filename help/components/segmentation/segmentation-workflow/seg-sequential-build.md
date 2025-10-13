@@ -19,7 +19,7 @@ Inoltre, è possibile vincolare i segmenti sequenziali a una durata di tempo, a 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://video.tv.adobe.com/v/41653?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ Per applicare vincoli di tempo all&#39;operatore **[!UICONTROL Then]**:
 1. Seleziona ![Orologio](/help/assets/icons/Clock.svg).
 1. Selezionare **[!UICONTROL Within]** o **[!UICONTROL After]** dal menu di scelta rapida.
 1. Specificare un periodo di tempo (**[!UICONTROL Minute]**, **[!UICONTROL Hour]**, fino a **[!UICONTROL Years]**).
-1. Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;per aprire un popup che consente di digitare o specificare un numero utilizzando **[!UICONTROL -]**&#x200B;o **[!UICONTROL +]**.
+1. Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**per aprire un popup che consente di digitare o specificare un numero utilizzando **[!UICONTROL -]**o **[!UICONTROL +]**.
 
 Per rimuovere un vincolo di tempo, utilizzare ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -101,7 +101,7 @@ Identifica i visitatori che hanno visitato una pagina e poi un’altra solo dopo
 
 ![Sequenza dopo](assets/sequence-after.png)
 
-Se una visualizzazione di pagina per la Home si verifica il 1° giugno 2024, alle 00:01, allora una visualizzazione di pagina per le donne | Le scarpe corrisponderanno finché la visualizzazione della pagina si verifica dopo il 15 giugno 2024 alle 00:01.
+Se una visualizzazione di pagina per la Home si verifica il 1° giugno 2024, alle 00:01, allora una visualizzazione di pagina per le donne | Le scarpe corrispondono finché la visualizzazione della pagina si verifica dopo il 15 giugno 2024 00:01.
 
 ##### Operatore [!UICONTROL Within]
 
@@ -109,7 +109,7 @@ Identifica i visitatori che hanno visitato una pagina e poi un’altra pagina en
 
 ![Sequenza entro](assets/sequence-within.png)
 
-Se una visualizzazione di pagina per la Home si verifica il 1° giugno 2024, alle 12:01, allora una visualizzazione di pagina per le donne | Le scarpe corrisponderanno, purché la visualizzazione della pagina avvenga prima del 15 giugno 2024 alle 12:16.
+Se una visualizzazione di pagina per la Home si verifica il 1° giugno 2024, alle 12:01, allora una visualizzazione di pagina per le donne | Le scarpe corrispondono finché la visualizzazione della pagina si verifica prima del 15 giugno 2024 12:16.
 
 ##### Operatore [!UICONTROL After] ma [!UICONTROL Within]
 
@@ -117,7 +117,7 @@ Identifica i visitatori che hanno visitato una pagina e poi un’altra pagina do
 
 ![Sequenza dopo ma entro](assets/sequence-afterbutwithin.png)
 
-Tutti i visitatori che hanno raggiunto la Home page il 1° giugno 2024 e che ritornano a visitare le donne | La pagina delle scarpe dopo il 15 giugno 2019 alle 00:01, ma prima del 1 luglio 2019 si qualifica per il segmento.
+Tutti i visitatori che hanno raggiunto la Home page il 1° giugno 2024 e che ritornano a visitare le donne | La pagina delle scarpe dopo il 15 giugno 2019 00:01, ma prima del 1 luglio 2019 si qualifica per il segmento.
 
 
 ### [!UICONTROL Hit], [!UICONTROL Visit] e [!UICONTROL Dimension] vincoli

@@ -17,9 +17,9 @@ ht-degree: 61%
 >
 >Le seguenti informazioni sono relative ai tipi di destinazione FTP e SFTP. FTP e SFTP sono tipi di destinazione legacy. Durante la configurazione di un feed di dati, è necessario utilizzare un tipo di destinazione cloud più sicuro. Per ulteriori informazioni sulla configurazione dei tipi di destinazione cloud per un feed dati, vedere [Creare un feed dati](/help/export/analytics-data-feed/create-feed.md).
 
-I feed di dati sono un&#39;esportazione dei dati clickstream ricevuti da Adobe che offre [feed di dati](/help/export/analytics-data-feed/data-feed-overview.md) sia standard che personalizzati.
+I feed di dati sono un&#39;esportazione dei dati clickstream ricevuti da Adobe che offre [feed di dati](/help/export/analytics-data-feed/data-feed-overview.md) standard e personalizzati.
 
-Se hai acquistato Adobe Data Warehouse, [!UICONTROL Standard Data Feeds] puoi impostare feed di dati di Analytics personalizzati. Questi feed possono essere inviati a un qualsiasi account FTP (uno configurato da Adobe o un FTP esterno). Adobe Engineering Services offre [!UICONTROL Data Feeds] personalizzati che possono essere inviati con qualsiasi mezzo.
+Se hai acquistato Adobe Data Warehouse, [!UICONTROL Standard Data Feeds] puoi impostare i tuoi feed dati di Analytics. Questi feed possono essere inviati a un qualsiasi account FTP (uno configurato da Adobe o un FTP esterno). Adobe Engineering Services offre [!UICONTROL Data Feeds] personalizzati che possono essere inviati con qualsiasi mezzo.
 
 [!UICONTROL Data Feed] account FTP consentono 10 GB (per impostazione predefinita). Tutti gli altri account FTP standard consentono di archiviare 50 MB, per impostazione predefinita. Quando i client utilizzano l&#39;account FTP in maniera corretta e per il proprio utilizzo previsto, alcuni utenti che generano elevate quantità di traffico potrebbero riempire velocemente questi account. Quando un account FTP è pieno, non è possibile trasmettervi in push nessun altro file. Di conseguenza, tutti i file consegnati a tale account FTP ( [!UICONTROL Data Feeds], richieste data warehouse e così via) non vengono consegnati. Questo è solo uno dei motivi per cui è importante gestire il tuo account Adobe FTP rimuovendo i file ricevuti e già scaricati.
 

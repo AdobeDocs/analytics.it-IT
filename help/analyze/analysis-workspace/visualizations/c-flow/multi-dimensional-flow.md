@@ -18,7 +18,7 @@ Un flusso interdimensionale consente di esaminare i percorsi seguiti dai clienti
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussi interdimensionali](https://video.tv.adobe.com/v/329409?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussi interdimensionali](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

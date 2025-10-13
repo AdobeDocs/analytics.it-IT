@@ -27,7 +27,7 @@ Adobe offre diversi modi per implementare Adobe Analytics. Ogni pagina offre una
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurazione delle variabili](https://video.tv.adobe.com/v/37363?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurazione delle variabili](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurazione 
 Le librerie AppMeasurement pubblicate da Adobe Analytics seguono un ordine specifico quando inviano dati ad Adobe. Se si eseguono queste attività fuori ordine, i dati possono essere incompleti.
 
 1. Se il sito utilizza un livello di dati, assicurati che tutte le variabili applicabili siano compilate per prime. Ad esempio, si popola `adobeDataLayer.page.title` con il titolo della pagina. Consulta [Livello dati](../prepare/data-layer.md) per ulteriori informazioni.
-2. Utilizza il livello dati per compilare le variabili di Analytics. <br/>Se si utilizzano i tag in Adobe Experience Platform, questa attività viene eseguita utilizzando gli elementi dati intermedi. Gli elementi dati vengono compilati con i valori del livello dati. Ad esempio, l&#39;elemento dati `Page Title` ottiene il valore dalla variabile del livello dati `adobeDataLayer.page.title`. <br/>È quindi possibile utilizzare l&#39;elemento dati per popolare le variabili di Analytics. Ad esempio `eVar4` ottiene il valore dall&#39;elemento dati `Page Title`. <br/>Per ulteriori informazioni, consulta [Elementi dati](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=it), [Mappatura di oggetti livello dati su elementi dati](../launch/layer-to-elements.md) e [Mappatura di elementi dati tag su variabili Analytics](../launch/elements-to-variable.md)
+2. Utilizza il livello dati per compilare le variabili di Analytics. <br/>Se si utilizzano i tag in Adobe Experience Platform, questa attività viene eseguita utilizzando gli elementi dati intermedi. Gli elementi dati vengono compilati con i valori del livello dati. Ad esempio, l&#39;elemento dati `Page Title` ottiene il valore dalla variabile del livello dati `adobeDataLayer.page.title`. <br/>È quindi possibile utilizzare l&#39;elemento dati per popolare le variabili di Analytics. Ad esempio `eVar4` ottiene il valore dall&#39;elemento dati `Page Title`. <br/>Per ulteriori informazioni, consulta [Elementi dati](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html), [Mappatura di oggetti livello dati su elementi dati](../launch/layer-to-elements.md) e [Mappatura di elementi dati tag su variabili Analytics](../launch/elements-to-variable.md)
 3. Infine, chiama la funzione di tracciamento. La maggior parte delle librerie AppMeasurement utilizza il metodo `t()`, tuttavia alcuni SDK mobili utilizzano `track()`. Quando viene chiamata la funzione di tracciamento, tutte le variabili supportate definite nell’oggetto Analytics vengono inviate ad Adobe sotto forma di richiesta di immagine.
 
 ## Caratteri non validi

@@ -28,7 +28,7 @@ La funzione Schedule (Pianifica) consente inoltre di impostare la protezione tra
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://video.tv.adobe.com/v/3417505?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -71,7 +71,7 @@ Utilizzare il pulsante Pianifica nell&#39;hub di Report Builder per creare rapid
 
 1. Configura le opzioni di pianificazione per impostare la data e l’ora in cui desideri inviare la cartella di lavoro ai destinatari tramite e-mail.
 
-   Scegli le date e ore di inizio e fine e l’arco temporale. Può essere la data odierna o una data futura.
+   Scegli le date e ore di inizio e di fine e l’arco temporale. Può essere la data odierna o una data futura.
 
    Scegli la frequenza in **Frequency** (Frequenza) dal menu a discesa. Puoi impostare la frequenza in modo che sia ogni ora, giorno, settimana, mese o anno in un giorno specifico. Ad esempio, puoi impostare una pianificazione per l’invio della cartella di lavoro la prima domenica notte del mese in modo che i destinatari abbiano l’e-mail nella casella in entrata il lunedì mattina.
 

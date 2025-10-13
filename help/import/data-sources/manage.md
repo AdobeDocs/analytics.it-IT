@@ -21,13 +21,13 @@ Utilizza il selettore suite di rapporti in alto a destra per passare da una suit
 
 Sono disponibili tre schede principali per questa interfaccia: **[!UICONTROL Manage]**, **[!UICONTROL Create]** e **[!UICONTROL File Log]**.
 
-## Gestire i  
+## Gestire i
 
 La scheda **[!UICONTROL Manage]** gestisce tutte le origini dati create dall&#39;organizzazione. È possibile visualizzare le informazioni FTP, apportare modifiche alle variabili utilizzate nei file modello o disattivare completamente le origini dati.
 
 ![Gestisci](assets/manage.png)
 
-L&#39;origine dati più in alto è sempre [!UICONTROL Web Beacon]. Questa origine dati è ciò che si utilizza per la tipica raccolta dati tramite AppMeasurement. Non può essere modificato o disattivato.
+L&#39;origine dati più in alto è sempre [!UICONTROL Web Beacon]. Questa origine dati è ciò che si utilizza per la raccolta dati tipica tramite AppMeasurement. Non può essere modificato o disattivato.
 
 Ciascuna origine dati dispone delle seguenti opzioni:
 

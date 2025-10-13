@@ -20,7 +20,7 @@ La variabile di conversione (o eVar) Custom Insight viene inserita nel codice di
 
 ## Panoramica sulle variabili di conversione (eVar)
 
-Per una panoramica video delle variabili di conversione, vedi [Introduzione alle variabili di conversione](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) nella guida delle esercitazioni di Analytics.
+Per una panoramica video delle variabili di conversione, vedi [Introduzione alle variabili di conversione](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) nella guida delle esercitazioni di Analytics.
 
 Quando un’eVar è impostata su un valore per un visitatore, Adobe ricorda automaticamente tale valore fino alla scadenza. Eventuali eventi di successo riscontrati da un visitatore mentre il valore eVar è attivo vengono conteggiati per il valore eVar.
 

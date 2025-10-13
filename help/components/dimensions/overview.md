@@ -1,12 +1,12 @@
 ---
-title: Panoramica delle dimensioni
+title: Panoramica sulle dimensioni
 description: Scopri che cosa sono le dimensioni e come vengono utilizzate in Adobe Analytics.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 

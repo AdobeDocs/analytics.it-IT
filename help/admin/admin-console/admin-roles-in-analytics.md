@@ -68,7 +68,7 @@ L’accesso come amministratore di prodotto per la raccolta dati in Experience P
 
 ## Concedere l’accesso come amministratore del prodotto per i profili di prodotto
 
-Per informazioni sull&#39;assegnazione degli utenti come amministratori dei profili di prodotto, consulta la sezione &quot;Gestire gli amministratori dei profili di prodotto&quot; nell&#39;articolo [Gestire i profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) nella guida utente Enterprise.
+Per informazioni sull&#39;assegnazione degli utenti come amministratori dei profili di prodotto, consulta la sezione &quot;Gestire gli amministratori dei profili di prodotto&quot; nell&#39;articolo [Gestire i profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) nella guida utente Enterprise.
 
 ## Passaggi successivi
 

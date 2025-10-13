@@ -1,5 +1,5 @@
 ---
-description: Scopri come caricare una cartella di lavoro di Excel di Report Builder da condividere.
+description: Scopri come caricare una cartella di lavoro di Report Builder Excel da condividere.
 title: Come caricare una cartella di lavoro
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 feature: Report Builder
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 {{legacy-arb}}
 
-Caricare una cartella di lavoro di Excel di Report Builder da condividere.
+Caricare una cartella di lavoro di Report Builder Excel da condividere.
 
-[!UICONTROL Workbook Library] consente di caricare una cartella di lavoro di Excel di Report Builder da condividere. È inoltre possibile scaricare e modificare cartelle di lavoro condivise. Durante la migrazione da ExcelClient al Report Builder, è consigliabile scaricare le cartelle di lavoro dal repository di ExcelClient e quindi caricarle nel repository del Report Builder.
+[!UICONTROL Workbook Library] consente di caricare una cartella di lavoro di Report Builder Excel da condividere. È inoltre possibile scaricare e modificare cartelle di lavoro condivise. Durante la migrazione da ExcelClient a Report Builder, è consigliabile scaricare le cartelle di lavoro dal repository di ExcelClient e quindi caricarle nel repository di Report Builder.
 
 >[!NOTE]
 >
->È possibile caricare solo le cartelle di lavoro con richieste di Report Builder. Inoltre, è possibile distribuire i report di Report Builder alle persone che non utilizzano il Report Builder. Gli utenti non devono effettuare l’accesso per visualizzare i dati.
+>È possibile caricare solo le cartelle di lavoro con richieste Report Builder. Inoltre, puoi distribuire i rapporti di Report Builder a persone che non utilizzano Report Builder. Gli utenti non devono effettuare l’accesso per visualizzare i dati.
 
 1. Creare ed eseguire una richiesta.
 1. Dopo aver salvato il report, fare clic su **[!UICONTROL Share]**.

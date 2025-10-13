@@ -1,6 +1,6 @@
 ---
-description: Scopri i consigli e i prerequisiti di sistema per il Report Builder.
-title: Requisiti di sistema per il Report Builder
+description: Scopri i consigli e i prerequisiti di sistema per Report Builder.
+title: Informazioni sui requisiti di sistema per Report Builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
 role: User, Admin
@@ -25,5 +25,5 @@ Raccomandazioni di sistema e prerequisiti.
 **Prerequisiti**
 
 * Il contratto della tua organizzazione include Report Builder for Excel.
-* Il nome utente fa parte del Report Builder utenti predefinito. Questo requisito include [!DNL Analytics] amministratori.
+* Il tuo nome utente fa parte del gruppo utenti predefinito di Report Builder. Questo requisito include [!DNL Analytics] amministratori.
 * L&#39;utente deve eseguire Windows e aver effettuato l&#39;accesso come amministratore.

@@ -13,16 +13,16 @@ ht-degree: 1%
 
 # Implementazione con AMP
 
-[AMP](https://amp.dev) è un framework HTML open-source che fornisce un modo semplice per creare pagine Web a caricamento rapido e senza problemi.
+[AMP](https://amp.dev) è un framework HTML open-source che fornisce un modo semplice per creare pagine Web veloci e dal caricamento senza problemi.
 
-Poiché Adobe Analytics utilizza una libreria JavaScript per compilare e inviare una richiesta di immagine, sono necessarie delle regolazioni nell’implementazione per inviare i dati agli Adobi sulle pagine utilizzando AMP.
+Poiché Adobe Analytics utilizza una libreria JavaScript per compilare e inviare una richiesta di immagine, sono necessarie delle regolazioni nell’implementazione per inviare dati ad Adobe sulle pagine utilizzando AMP.
 
 ## Determinare quale metodo implementare Adobe Analytics sulle pagine utilizzando AMP
 
 Adobe ha creato due metodi per implementare Adobe Analytics sulle pagine utilizzando AMP. Entrambi utilizzano il tag HTML `<amp-analytics>`. Per ulteriori informazioni, consulta [amp-analytics](https://amp.dev/documentation/components/amp-analytics) nella documentazione di AMP.
 
 * **Usa il modello `"adobeanalytics"`**: crea la richiesta Analytics direttamente sulla pagina
-* **Utilizza il modello `"analytics_nativeConfig"`**: utilizza un iframe contenente lo stesso codice di AppMeasurement distribuito nel sito normale
+* **Utilizza il modello `"analytics_nativeConfig"`**: utilizza un iframe contenente lo stesso codice AppMeasurement che distribuisci nel sito normale
 
 Nella tabella seguente vengono confrontati i due metodi seguenti:
 
@@ -165,4 +165,4 @@ Per tutte le pagine AMP, la dimensione [!UICONTROL JavaScript Version] raccoglie
 
 **Come si confronta questo metodo di implementazione con gli articoli istantanei di Facebook?**
 
-Gli articoli istantanei di facebook supportano una soluzione simile al metodo `"adobeanalytics_nativeConfig"`. La pagina `stats.html` per questo metodo può soddisfare le tue esigenze di analisi sia per AMP che per FIA contemporaneamente. Per ulteriori informazioni sull&#39;implementazione del tracciamento in FIA, vedere [Facebook Instant Article](fb-instant-articles.md).
+Gli articoli istantanei di Facebook supportano una soluzione simile al metodo `"adobeanalytics_nativeConfig"`. La pagina `stats.html` per questo metodo può soddisfare le tue esigenze di analisi sia per AMP che per FIA contemporaneamente. Per ulteriori informazioni sull&#39;implementazione del tracciamento su FIA, consulta [Facebook Instant Article](fb-instant-articles.md).

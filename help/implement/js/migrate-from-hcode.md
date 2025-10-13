@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Migrazione ad AppMeasurement per JavaScript
 
-Se la tua implementazione utilizza ancora il codice H, Adobe consiglia vivamente di migrare all’ultima versione di AppMeasurement. Si consiglia di implementare Analytics tramite [tag in Adobe Experience Platform](../launch/overview.md), tuttavia è possibile utilizzare un&#39;implementazione JavaScript aggiornata.
+Se la tua implementazione utilizza ancora codice H, Adobe consiglia vivamente di migrare all’ultima versione di AppMeasurement. Si consiglia di implementare Analytics tramite [tag in Adobe Experience Platform](../launch/overview.md), tuttavia è possibile utilizzare un&#39;implementazione JavaScript aggiornata.
 
 Rispetto al codice H, in AppMeasurement sono presenti le seguenti modifiche di rilievo:
 
@@ -26,7 +26,7 @@ Rispetto al codice H, in AppMeasurement sono presenti le seguenti modifiche di r
 
 I passaggi seguenti descrivono un flusso di lavoro di migrazione tipico.
 
-1. **Scarica il nuovo file di AppMeasurement**: accedi al nuovo file accedendo ad Adobe Analytics, quindi scegliendo Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Il file compresso scaricato contiene un file `AppMeasurement.js` minimizzato, insieme ai moduli Media e Integrate.
+1. **Scarica il nuovo file AppMeasurement**: accedi al nuovo file accedendo ad Adobe Analytics, quindi scegliendo Admin > All admin > Code manager (Amministrazione > Tutte le attività di amministrazione > Gestione codici). Il file compresso scaricato contiene un file `AppMeasurement.js` minimizzato, insieme ai moduli Media e Integrate.
 1. **Copia le personalizzazioni di `s_code.js` in`AppMeasurement.js`**: sposta tutto il codice prima della sezione `DO NOT ALTER ANYTHING BELOW THIS LINE` in `s_code.js` all&#39;inizio di `AppMeasurement.js`.
 1. **Aggiorna tutti i plug-in**: assicurarsi di utilizzare la versione più recente di ciascun plug-in elencato nel file `s_code.js`. Questo passaggio include i moduli Media e Integrate.
 1. **Distribuisci il file AppMeasurement.js**: carica il file `AppMeasurement.js` nel server Web.

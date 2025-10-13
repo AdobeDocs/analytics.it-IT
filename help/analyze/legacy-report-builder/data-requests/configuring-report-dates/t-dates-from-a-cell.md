@@ -23,7 +23,7 @@ ht-degree: 4%
 1. In [!UICONTROL Request Wizard: Step 1], selezionare **[!UICONTROL Dates From Cell]**.
 1. Immettere i riferimenti di cella nei campi **[!UICONTROL From]** e **[!UICONTROL To]** oppure fare clic sul selettore e selezionare le celle contenenti le richieste con le date di inizio e di fine.
 
-   Ad esempio, crea una richiesta di Report Builder con l’intervallo di date impostato su &quot;ieri&quot; e genera la data della richiesta nella stessa cella di &quot;oggi()-1&quot;.
+   Ad esempio, crea una richiesta Report Builder con intervallo di date impostato su &quot;ieri&quot; e genera la data della richiesta nella stessa cella di &quot;oggi()-1&quot;.
 
 Elenco dei formati di data supportati:
 

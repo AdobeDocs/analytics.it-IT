@@ -20,7 +20,7 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono una determinata ora nell’intervallo di date di un rapporto insieme alla relativa data. È formattato come `HH:HH YYYY-MM-DD`.
+Gli elementi Dimension includono una determinata ora nell’intervallo di date di un rapporto insieme alla relativa data. È formattato come `HH:HH YYYY-MM-DD`.
 
 ## Ora legale
 

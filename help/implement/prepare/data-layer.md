@@ -1,5 +1,5 @@
 ---
-title: Creare un livello di dati
+title: Creare un livello dati
 description: Scopri cosa è un livello dati nell’implementazione di Analytics e come può essere utilizzato per mappare le variabili in Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
@@ -11,7 +11,7 @@ ht-degree: 97%
 
 ---
 
-# Creare un livello di dati
+# Creare un livello dati
 
 Un livello dati è un framework di oggetti JavaScript presenti sul sito che contiene i valori delle variabili utilizzati nell’implementazione di Analytics. Consente un controllo maggiore e una manutenzione più semplice quando si assegnano valori alle variabili di Analytics.
 

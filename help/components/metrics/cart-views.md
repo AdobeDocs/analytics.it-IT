@@ -12,7 +12,7 @@ ht-degree: 12%
 
 # Visualizzazioni del carrello
 
-La [metrica](overview.md) delle &#39;Visualizzazioni carrello&#39; mostra quante volte un visitatore ha visualizzato il carrello. Questa metrica è utile quando desideri comprendere la parte del funnel di conversione in cui i clienti visualizzano il contenuto nel carrello.
+La [metrica](overview.md) delle &#39;Visualizzazioni carrello&#39; mostra quante volte un visitatore ha visualizzato il carrello. Questa metrica è utile quando si desidera comprendere la parte del funnel di conversione in cui i clienti visualizzano il contenuto nel carrello.
 
 ## Come è calcolata questa metrica
 

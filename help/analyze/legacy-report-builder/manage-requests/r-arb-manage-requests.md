@@ -1,6 +1,6 @@
 ---
-description: Scopri le descrizioni dei campi per Gestisci richieste nel Report Builder.
-title: Come gestire le richieste nel Report Builder
+description: Scopri le descrizioni dei campi per Gestire le richieste in Report Builder.
+title: Gestire le richieste in Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 {{legacy-arb}}
 
-Visualizzare i dettagli dello stato di una richiesta e utilizzare le descrizioni dei campi per gestire le richieste nel Report Builder.
+Visualizzare i dettagli dello stato di una richiesta e utilizzare le descrizioni dei campi per gestire le richieste in Report Builder.
 
 ## Panoramica {#section_75C288C945FA4781A4EDF806711A5660}
 
 [!UICONTROL Request Manager] fornisce una visualizzazione dettagliata dello stato di tutte le richieste create per tutti i fogli o un solo foglio della cartella di lavoro attiva. Puoi anche aggiungere, modificare, aggiornare ed eliminare una richiesta. Queste funzioni sono in genere associate a [!UICONTROL Request Wizard] e a [!UICONTROL Request Manager] quando si fa clic con il pulsante destro del mouse su una cella disponibile nel foglio di calcolo di Excel contenente richieste precedenti.
 
-[!UICONTROL Request Manager] viene visualizzato quando si fa clic su **[!UICONTROL Manage]** ![](assets/edit_request.gif) nella barra degli strumenti Report Builder.
+[!UICONTROL Request Manager] viene visualizzato quando si fa clic su **[!UICONTROL Manage]** ![](assets/edit_request.gif) nella barra degli strumenti di Report Builder.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Visualizzare i dettagli dello stato di una richiesta e utilizzare le descrizioni
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ultima esecuzione </p> </td> 
-   <td colname="col2"> <p>Specifica la data dell'ultima elaborazione della richiesta per Report Builder. In questa tabella viene visualizzato anche un messaggio di diagnostica nella colonna <span class="wintitle"> Ultima esecuzione</span>, se applicabile. </p> </td> 
+   <td colname="col2"> <p>Specifica la data dell’ultima elaborazione della richiesta da parte di Report Builder. In questa tabella viene visualizzato anche un messaggio di diagnostica nella colonna <span class="wintitle"> Ultima esecuzione</span>, se applicabile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Add </p> </td> 

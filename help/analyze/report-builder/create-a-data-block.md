@@ -45,13 +45,13 @@ Configura i parametri iniziali dei blocchi di dati per la posizione del blocco d
 
    ![Schermata che mostra l&#39;opzione Intervallo date e il pulsante Avanti attivo.](./assets/choose_date_report_suite.png)
 
-   Dopo aver configurato il blocco di dati, puoi selezionare dimensioni, metriche e segmenti per crearlo. Le schede Dimension, Metriche e Filtri vengono visualizzate sopra il riquadro Generatore tabella.
+   Dopo aver configurato il blocco di dati, puoi selezionare dimensioni, metriche e segmenti per crearlo. Le schede Dimensioni, Metriche e Filtri vengono visualizzate sopra il riquadro Generatore tabella.
 
 ## Creare il blocco di dati
 
 Per creare il blocco di dati, seleziona i componenti del rapporto, quindi personalizza il layout.
 
-1. Aggiungere Dimension, metriche e segmenti.
+1. Aggiungi dimensioni, metriche e segmenti.
 
    Scorrere gli elenchi dei componenti o utilizzare il campo **[!UICONTROL Search]** per individuare i componenti. Trascina i componenti nel riquadro Tabella oppure fai doppio clic sul nome di un componente nell’elenco per aggiungerlo automaticamente al riquadro Tabella.
 
@@ -95,6 +95,6 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 
    Durante il recupero dei dati di analisi viene visualizzato un messaggio di elaborazione.
 
-   Il Report Builder recupera i dati e visualizza il blocco di dati completato nel foglio di lavoro.
+   Report Builder recupera i dati e visualizza il blocco di dati completato nel foglio di lavoro.
 
    ![Blocco di dati completato.](./assets/image12.png)

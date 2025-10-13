@@ -1,5 +1,5 @@
 ---
-description: Data Warehouse consente di richiedere rapporti che visualizzano relazioni avanzate tra dati da dati non elaborati in base a domande univoche.
+description: Data Warehouse consente di richiedere rapporti che visualizzano relazioni avanzate tra i dati, da dati non elaborati in base a domande univoche.
 keywords: ftp;sftp
 title: Report consegnati di Data Warehouse
 feature: FTP Export
@@ -13,7 +13,7 @@ ht-degree: 47%
 
 # Report consegnati di Data Warehouse
 
-Data Warehouse consente di richiedere rapporti che visualizzano relazioni avanzate tra dati da dati non elaborati in base a domande univoche.
+Data Warehouse consente di richiedere rapporti che visualizzano relazioni avanzate tra i dati, da dati non elaborati in base a domande univoche.
 
 Il recapito FTP, in questo caso, è disponibile come parte della configurazione di [!UICONTROL Advanced Delivery Options]. Per utilizzare l&#39;FTP hai bisogno di un account FTP interno o un account FTP Adobe. Adobe non configura automaticamente il tuo account FTP attraverso l&#39;interfaccia data warehouse. La consegna FTP è solitamente immediata, ma dipende delle dimensioni del file e dal numero di report in elaborazione.
 

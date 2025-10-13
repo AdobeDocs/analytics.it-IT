@@ -20,4 +20,4 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi Dimension includono i trimestri numerici dell&#39;anno (`1` a `4`), che rappresentano il trimestre dell&#39;anno in cui si è verificato l&#39;hit.
+Gli elementi di Dimension includono i trimestri numerici dell&#39;anno (`1` a `4`), che rappresentano il trimestre dell&#39;anno in cui si è verificato l&#39;hit.

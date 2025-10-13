@@ -18,7 +18,7 @@ ht-degree: 3%
 
 Aggiungere metriche e dimensioni nella Richiesta guidata: passaggio 2 per definire il layout Analytics dei dati nella richiesta. L’elenco delle metriche e delle dimensioni in Report Builder segue il layout del menu visualizzato in Reports and Analytics.
 
-Le metriche sono valori numerici. Sono costituiti da informazioni quantitative sulle attività nel sito Web, ad esempio [!UICONTROL Page Views], [!UICONTROL Visitor Profile], [!UICONTROL Click-throughs], [!UICONTROL Reloads], [!UICONTROL Average Time Spent], [!UICONTROL Date], [!UICONTROL Units] e così via. Il Report Builder organizza le metriche in diversi gruppi, che seguono il raggruppamento standard in Analytics:
+Le metriche sono valori numerici. Sono costituiti da informazioni quantitative sulle attività nel sito Web, ad esempio [!UICONTROL Page Views], [!UICONTROL Visitor Profile], [!UICONTROL Click-throughs], [!UICONTROL Reloads], [!UICONTROL Average Time Spent], [!UICONTROL Date], [!UICONTROL Units] e così via. Report Builder organizza le metriche in diversi gruppi, che seguono il raggruppamento standard in Analytics:
 
 * Traffico standard: visualizza la metrica in base alla riga specificata. Ad esempio, in un rapporto Pagine, la metrica Visite visualizza il numero di visite a quella pagina specifica.
 * Commerce standard: metriche quali Ricavi, Ordini e Pagamenti.
@@ -26,4 +26,4 @@ Le metriche sono valori numerici. Sono costituiti da informazioni quantitative s
 * Partecipazione
 * Calcolato
 
-I Dimension sono valori e date non numerici, ad esempio genere, mese, età, fedeltà, risoluzione monitor e così via. I Dimension sono descrizioni o caratteristiche dei dati metrici che possono essere visualizzate e confrontate, ad esempio nei rapporti di suddivisione.
+Le dimensioni sono valori e date non numerici, ad esempio genere, mese, età, fedeltà, risoluzione monitor e così via. Le dimensioni sono descrizioni o caratteristiche dei dati metrici che possono essere visualizzate e confrontate, ad esempio nei rapporti di suddivisione.

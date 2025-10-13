@@ -13,9 +13,9 @@ ht-degree: 17%
 
 # Prima guida dell’amministratore di Adobe Analytics
 
-Prima che a qualsiasi utente possano essere assegnati ruoli in Adobe Analytics, in Experience Cloud deve essere assegnato un utente come primo amministratore. Il primo amministratore può quindi assegnare altri ruoli chiave agli utenti dell’organizzazione.
+Prima che a qualsiasi utente possano essere assegnati ruoli in Adobe Analytics, deve essere assegnato un utente come primo amministratore in Experience Cloud. Il primo amministratore può quindi assegnare altri ruoli chiave agli utenti dell’organizzazione.
 
-Un primo amministratore è il punto di partenza per consentire al resto dell’organizzazione di utilizzare ogni soluzione di Experience Cloud, incluso Adobe Analytics.
+Un primo amministratore è il punto di partenza per consentire al resto dell’organizzazione di utilizzare ogni soluzione Experience Cloud, incluso Adobe Analytics.
 
 ## Processo di provisioning per un primo amministratore
 

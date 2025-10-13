@@ -1,5 +1,5 @@
 ---
-description: Descrizioni dei campi per la configurazione delle metriche nel Report Builder.
+description: Descrizioni dei campi per la configurazione delle metriche in Report Builder.
 title: 'Modificare le metriche: definizioni dei campi'
 uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 {{legacy-arb}}
 
-Descrizioni dei campi per la configurazione delle metriche nel Report Builder.
+Descrizioni dei campi per la configurazione delle metriche in Report Builder.
 
 | Campi | Definizioni |
 |--- |--- |

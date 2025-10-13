@@ -1,5 +1,5 @@
 ---
-description: È possibile salvare filtri o altri parametri nel Report Builder e utilizzarli in altri fogli di lavoro o cartelle di lavoro. Questi parametri vengono salvati in Analytics per essere certi di essere disponibili per altri utenti del Report Builder su altri computer.
+description: È possibile salvare filtri o altri parametri in Report Builder e utilizzarli in altri fogli o cartelle di lavoro. Questi parametri vengono salvati in Analytics per garantire che siano disponibili per altri utenti di Report Builder su altri computer.
 title: Filtri salvati
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 {{legacy-arb}}
 
-È possibile salvare filtri o altri parametri nel Report Builder e utilizzarli in altri fogli di lavoro o cartelle di lavoro. Questi parametri vengono salvati in Analytics per essere certi di essere disponibili per altri utenti del Report Builder su altri computer.
+È possibile salvare filtri o altri parametri in Report Builder e utilizzarli in altri fogli o cartelle di lavoro. Questi parametri vengono salvati in Analytics per garantire che siano disponibili per altri utenti di Report Builder su altri computer.
 
 Salvare i filtri nel modulo [!UICONTROL Choose Page] durante la creazione di un filtro. Per un esempio di questa procedura, vedere [Filtri specifici](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md).
 

@@ -21,7 +21,7 @@ Gli account dinamici sono una funzione di implementazione che consente di determ
 
 >[!TIP]
 >
->L’Adobe consiglia di inviare dati a una singola suite di rapporti e, se necessario, di utilizzare suite di rapporti virtuali per separare i dati. Per ulteriori informazioni, consulta [Considerazioni globali sulla suite di rapporti](../../../prepare/global-rs.md).
+>Adobe consiglia di inviare i dati a una singola suite di rapporti e, se necessario, di utilizzare suite di rapporti virtuali per separare i dati. Per ulteriori informazioni, consulta [Considerazioni globali sulla suite di rapporti](../../../prepare/global-rs.md).
 
 3 variabili vengono utilizzate per selezionare dinamicamente una suite di rapporti.
 

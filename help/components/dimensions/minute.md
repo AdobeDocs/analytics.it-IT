@@ -5,7 +5,7 @@ feature: Dimensions
 exl-id: 63f13083-321f-4fd8-9352-e413e1ebf168
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '146'
 ht-degree: 19%
 
 ---
@@ -20,4 +20,4 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono un determinato minuto nell’intervallo di date di un rapporto insieme alla relativa data. È formattato come `HH:MM YYYY-MM-DD`. Gli elementi Dimension che iniziano con `00:00` equivalgono a mezzanotte di quel giorno, mentre i valori che iniziano con `23:59` equivalgono alle 23:59 di quel giorno.
+Gli elementi di Dimension includono un determinato minuto nell’intervallo di date di un rapporto insieme alla relativa data. È formattato come `HH:MM YYYY-MM-DD`. Gli elementi di Dimension che iniziano con `00:00` equivalgono a mezzanotte di quel giorno, mentre i valori che iniziano con `23:59` equivalgono a 11:59 PM per quel giorno.

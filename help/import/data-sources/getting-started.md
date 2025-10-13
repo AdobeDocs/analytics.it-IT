@@ -59,7 +59,7 @@ Puoi seguire questi passaggi per caricare facilmente i dati di esempio in una su
 1. Quando vengono richieste le credenziali di accesso, utilizzare il nome utente e la password forniti nell&#39;ultimo passaggio della procedura guidata di creazione dell&#39;origine dati. Puoi fare nuovamente riferimento a essa spostandoti su [!UICONTROL Data sources] e facendo clic su **[!UICONTROL FTP Info]** accanto all&#39;origine dati creata.
 1. Dopo aver eseguito l&#39;autenticazione, trascinare il file modificato nella finestra FTP autenticata.
 1. Creare un file di testo vuoto in qualsiasi posizione all&#39;esterno della finestra FTP. Assegna al file lo stesso nome del file delle origini dati caricato sul sito FTP, con una eccezione. Invece di un tipo di file `.txt`, assegnargli un tipo di file `.fin`. Verificare che le impostazioni del sistema operativo consentano di visualizzare e modificare i tipi di file.
-1. Trascinare il file `.fin` vuoto nella stessa posizione FTP del file di origine dati. La presenza del file `.fin` indica all&#39;Adobe che il file di origine dati è completamente caricato e pronto per essere acquisito.
+1. Trascinare il file `.fin` vuoto nella stessa posizione FTP del file di origine dati. La presenza del file `.fin` indica ad Adobe che il file di origine dati è completamente caricato e pronto per essere acquisito.
 1. Dopo alcuni minuti, il file scompare dalla posizione FTP ed è visibile nel reporting.
 1. Aggiorna la pagina Origini dati e verifica che il file sia stato acquisito correttamente.
 1. Passa ad Analysis Workspace e crea un progetto.

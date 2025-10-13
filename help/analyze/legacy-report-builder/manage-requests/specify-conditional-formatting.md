@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Dopo aver creato report con richieste incorporate, è possibile applicare la formattazione condizionale alle celle della cartella di lavoro.
 
-Sulla barra degli strumenti del Report Builder fare clic su **[!UICONTROL Format]**.
+Sulla barra degli strumenti di Report Builder fare clic su **[!UICONTROL Format]**.
 
 La formattazione condizionale consente di identificare le celle che contengono risultati o valori che si desidera monitorare. È ad esempio possibile applicare un&#39;ombreggiatura o un&#39;evidenziazione rossa a una cella specifica se i ricavi sono inferiori alle aspettative e un&#39;ombreggiatura blu se i ricavi superano gli importi previsti. Se una modifica negli intervalli di date per le richieste rimuove le condizioni che determinano l’applicazione della formattazione condizionale ai valori delle celle, i formati che evidenziano tale condizione vengono temporaneamente disabilitati. Quando i formati condizionali specificati non determinano alcuna modifica poiché le condizioni non vengono soddisfatte, i formati condizionali continuano ad essere applicati alle celle fino a quando non vengono rimossi.
 

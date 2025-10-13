@@ -20,4 +20,4 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi del Dimension includono il trimestre e l&#39;anno di 3 mesi di una determinata data.
+Gli elementi di Dimension includono il trimestre e l&#39;anno di 3 mesi di una data specificata.

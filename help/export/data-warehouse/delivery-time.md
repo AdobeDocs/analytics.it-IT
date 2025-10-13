@@ -1,5 +1,5 @@
 ---
-title: Risolvere i problemi relativi ai tempi di consegna delle richieste Data Warehouse
+title: Risolvere i problemi relativi ai tempi di consegna delle richieste di Data Warehouse
 description: Individua potenziali problemi con una richiesta Data Warehouse che possono prolungare i tempi di consegna.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Risolvere i problemi relativi ai tempi di consegna delle richieste Data Warehouse
 
-Una determinata richiesta di Data Warehouse può richiedere da meno di un’ora a diversi giorni o più. È difficile stimare il tempo esatto necessario per elaborare una richiesta, a causa dei seguenti fattori:
+Una determinata richiesta Data Warehouse può richiedere da meno di un’ora a diversi giorni o più. È difficile stimare il tempo esatto necessario per elaborare una richiesta, a causa dei seguenti fattori:
 
 * L’intervallo di date della richiesta
 * La quantità di traffico ricevuto dalla suite di rapporti durante il periodo di tempo richiesto
@@ -21,11 +21,11 @@ Una determinata richiesta di Data Warehouse può richiedere da meno di un’ora 
 * Il numero di raggruppamenti utilizzati e il numero di valori univoci all’interno di ogni raggruppamento
 * Numero di metriche utilizzate
 * Numero di richieste simultanee elaborate
-* Regole VISTA, se configurate per essere applicate alle richieste di DataWarehouse
+* Regole VISTA, se configurate per essere applicate alle richieste Datawarehouse
 
 ## Modificare le richieste per velocizzare la consegna
 
-Se le richieste Data Warehouse richiedono molto tempo, puoi modificarle. La modifica di una richiesta è l’unico modo per velocizzare la consegna di una richiesta Data Warehouse.
+Se le richieste di Data Warehouse richiedono molto tempo, puoi modificarle. La modifica di una richiesta è l’unico modo per velocizzare la consegna di una richiesta Data Warehouse.
 
 Per accelerare la consegna di una richiesta Data Warehouse, puoi modificarla in uno dei seguenti modi:
 
@@ -37,6 +37,6 @@ Per accelerare la consegna di una richiesta Data Warehouse, puoi modificarla in 
 
 Se hai bisogno di questi tipi di rapporti in modo più tempestivo, considera le seguenti alternative:
 
-* **Analysis Workspace**: anche se gli elementi dimensione illimitati non sono disponibili, include quasi tutti gli altri casi d&#39;uso forniti da Data Warehouse.
+* **Analysis Workspace**: sebbene non siano disponibili elementi dimensione illimitati, include quasi tutti gli altri casi d&#39;uso forniti da Data Warehouse.
 * **Feed dati**: prende tutti i dati non elaborati in una suite di rapporti ogni giorno e li invia a una destinazione cloud. È quindi possibile importare i dati nel proprio database ed eseguire query per ottenere i dati necessari.
-* **Soluzione di servizi tecnici personalizzati**: Adobe Engineering Services può fornire una soluzione personalizzata per la tua organizzazione a un costo aggiuntivo. Per ulteriori informazioni, contatta il team dell’account Adobe.
+* **Soluzione di servizi tecnici personalizzati**: Adobe Engineering Services può fornire una soluzione personalizzata per la tua organizzazione a un costo aggiuntivo. Per ulteriori informazioni, contatta il team del tuo account di Adobe.

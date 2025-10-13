@@ -13,8 +13,8 @@ ht-degree: 5%
 
 Questo percorso di implementazione prevede un approccio metodologico di migrazione per passare dall’estensione tag Adobe Analytics all’estensione tag Web SDK. Altri percorsi di implementazione sono trattati in pagine separate:
 
-* [AppMeasurement alla libreria JavaScript dell&#39;SDK Web](appmeasurement-to-web-sdk.md): un approccio fluido e metodico per la migrazione all&#39;SDK Web, ma non utilizza i tag. È invece possibile rimuovere manualmente la raccolta dati di Adobe Analytics (`AppMeasurement.js`) e sostituirla con la raccolta JavaScript di Web SDK (`alloy.js`).
-* [Estensione tag Web SDK](web-sdk-tag-extension.md): una nuova installazione di Web SDK in cui è possibile gestire l&#39;implementazione utilizzando i tag in Raccolta dati di Adobe Experience Platform. Richiede il gruppo di campi ExperienceEvent di Adobe Analytics, che include le variabili Analytics tipiche da includere nello schema XDM.
+* [Libreria JavaScript da AppMeasurement a Web SDK](appmeasurement-to-web-sdk.md): approccio semplice e sistematico per la migrazione al Web SDK, ma senza l&#39;utilizzo di tag. È invece possibile rimuovere manualmente la raccolta dati di Adobe Analytics (`AppMeasurement.js`) e sostituirla con la raccolta JavaScript di Web SDK (`alloy.js`).
+* [Estensione tag Web SDK](web-sdk-tag-extension.md): una nuova installazione di Web SDK in cui è possibile gestire l&#39;implementazione utilizzando i tag in Raccolta dati Adobe Experience Platform. Richiede il gruppo di campi ExperienceEvent di Adobe Analytics, che include le variabili Analytics tipiche da includere nello schema XDM.
 * [Libreria Web SDK JavaScript](web-sdk-javascript-library.md): una nuova installazione di Web SDK utilizzando la libreria Web SDK JavaScript (`alloy.js`). Gestisci autonomamente l’implementazione anziché utilizzare l’interfaccia utente dei tag. Richiede il gruppo di campi ExperienceEvent di Adobe Analytics, che include le variabili Analytics tipiche da includere nello schema XDM.
 
 ## Vantaggi e svantaggi di questo percorso di implementazione
@@ -23,20 +23,20 @@ L’utilizzo di questo approccio alla migrazione presenta sia vantaggi che svant
 
 | Vantaggi | Svantaggi |
 | --- | --- |
-| <ul><li>**Nessuna modifica al codice nel sito**: poiché l&#39;implementazione dispone già di tag installati, è possibile eseguire tutti gli aggiornamenti della migrazione nell&#39;interfaccia dei tag.</li><li>**Utilizza l&#39;implementazione esistente**: questo approccio non richiede una nuova implementazione. Anche se richiede nuove azioni della regola, puoi riutilizzare gli elementi dati e le condizioni della regola esistenti con modifiche minime.</li><li>**Non richiede uno schema**: per questa fase della migrazione all&#39;SDK Web, non è necessario uno schema XDM. È invece possibile popolare l&#39;oggetto `data`, che invia i dati direttamente ad Adobe Analytics. Una volta completata la migrazione all’SDK per web, puoi creare uno schema per la tua organizzazione e utilizzare la mappatura dello stream di dati per popolare i campi XDM applicabili. Se in questa fase del processo di migrazione fosse necessario uno schema, l’organizzazione sarebbe costretta a utilizzare uno schema XDM di Adobe Analytics. L’utilizzo di questo schema rende più difficile per l’organizzazione utilizzare il proprio schema in futuro.</li></ul> | <ul><li>**Debito tecnico per l&#39;implementazione**: poiché questo approccio utilizza una forma modificata dell&#39;implementazione esistente, può essere più difficile tenere traccia della logica di implementazione ed eseguire modifiche quando necessario. Il debug del codice personalizzato può essere particolarmente difficile.</li><li>**Richiede la mappatura per inviare i dati a Platform**: quando l’organizzazione è pronta per utilizzare Customer Journey Analytics, devi inviare i dati a un set di dati in Adobe Experience Platform. Questa azione richiede che ogni campo nell&#39;oggetto `data` sia una voce nello strumento di mappatura dello stream di dati che lo assegna a un campo dello schema XDM. La mappatura deve essere eseguita solo una volta per questo flusso di lavoro e non implica l’apportazione di modifiche all’implementazione. Tuttavia, si tratta di un passaggio aggiuntivo non richiesto quando si inviano dati in un oggetto XDM.</li></ul> |
+| <ul><li>**Nessuna modifica al codice nel sito**: poiché l&#39;implementazione dispone già di tag installati, è possibile eseguire tutti gli aggiornamenti della migrazione nell&#39;interfaccia dei tag.</li><li>**Utilizza l&#39;implementazione esistente**: questo approccio non richiede una nuova implementazione. Anche se richiede nuove azioni della regola, puoi riutilizzare gli elementi dati e le condizioni della regola esistenti con modifiche minime.</li><li>**Non richiede uno schema**: per questa fase della migrazione al Web SDK non è necessario uno schema XDM. È invece possibile popolare l&#39;oggetto `data`, che invia i dati direttamente ad Adobe Analytics. Una volta completata la migrazione al Web SDK, puoi creare uno schema per la tua organizzazione e utilizzare la mappatura dello stream di dati per popolare i campi XDM applicabili. Se in questa fase del processo di migrazione fosse necessario uno schema, l’organizzazione sarebbe costretta a utilizzare uno schema XDM di Adobe Analytics. L’utilizzo di questo schema rende più difficile per l’organizzazione utilizzare il proprio schema in futuro.</li></ul> | <ul><li>**Debito tecnico per l&#39;implementazione**: poiché questo approccio utilizza una forma modificata dell&#39;implementazione esistente, può essere più difficile tenere traccia della logica di implementazione ed eseguire modifiche quando necessario. Il debug del codice personalizzato può essere particolarmente difficile.</li><li>**Richiede la mappatura per inviare i dati a Platform**: quando l’organizzazione è pronta per utilizzare Customer Journey Analytics, devi inviare i dati a un set di dati in Adobe Experience Platform. Questa azione richiede che ogni campo nell&#39;oggetto `data` sia una voce nello strumento di mappatura dello stream di dati che lo assegna a un campo dello schema XDM. La mappatura deve essere eseguita solo una volta per questo flusso di lavoro e non implica l’apportazione di modifiche all’implementazione. Tuttavia, si tratta di un passaggio aggiuntivo non richiesto quando si inviano dati in un oggetto XDM.</li></ul> |
 
-L’Adobe consiglia di seguire questo percorso di implementazione nei seguenti scenari:
+Adobe consiglia di seguire questo percorso di implementazione nei seguenti scenari:
 
-* È presente un’implementazione tramite l’estensione tag Adobe Analytics. Se hai un&#39;implementazione che utilizza AppMeasurement, segui invece [Migrare da AppMeasurement a Web SDK](appmeasurement-to-web-sdk.md).
-* Intendi utilizzare il Customer Journey Analytics in futuro, ma non desideri sostituire l’implementazione di Analytics con un’implementazione Web SDK da zero. La sostituzione dell’implementazione da zero su Web SDK richiede il massimo impegno, ma offre anche l’architettura di implementazione a lungo termine più efficiente. Se la tua organizzazione è disposta a passare attraverso l&#39;implementazione di un Web SDK pulito, consulta [Inserire dati tramite Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) nella guida utente del Customer Journey Analytics.
+* È presente un’implementazione tramite l’estensione tag Adobe Analytics. Se hai un&#39;implementazione che utilizza AppMeasurement, segui [Esegui migrazione da AppMeasurement al Web SDK](appmeasurement-to-web-sdk.md).
+* Intendi utilizzare Customer Journey Analytics in futuro, ma non desideri sostituire l’implementazione di Analytics con un’implementazione di Web SDK da zero. La sostituzione dell’implementazione da zero sul Web SDK richiede il massimo impegno, ma offre anche l’architettura di implementazione a lungo termine più efficiente. Se la tua organizzazione è disposta a passare attraverso l&#39;implementazione di un SDK Web pulito, consulta [Inserire dati tramite Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) nella guida utente di Customer Journey Analytics.
 
-## Passaggi necessari per migrare a Web SDK
+## Passaggi necessari per la migrazione al Web SDK
 
 Le seguenti fasi contengono obiettivi concreti da perseguire. Fai clic su ogni passaggio per istruzioni dettagliate su come eseguirlo.
 
 +++**1. Crea e configura un flusso di dati**
 
-Creare uno stream di dati in Raccolta dati di Adobe Experience Platform. Quando invii dati a questo stream di dati, questi vengono inoltrati ad Adobe Analytics. In futuro, lo stesso flusso di dati inoltra i dati al Customer Journey Analytics.
+Creare uno stream di dati in Raccolta dati di Adobe Experience Platform. Quando invii dati a questo stream di dati, questi vengono inoltrati ad Adobe Analytics. In futuro, lo stesso flusso di dati inoltra i dati a Customer Journey Analytics.
 
 1. Passa a [experience.adobe.com](https://experience.adobe.com) e accedi con le tue credenziali.
 1. Utilizzare la home page o il selettore di prodotti in alto a destra per passare a **[!UICONTROL Data Collection]**.
@@ -67,17 +67,17 @@ Questa sezione prepara il tag per la maggior parte dell’impegno di migrazione 
 
 1. Vengono visualizzate le impostazioni di configurazione dell’estensione. Individuate la sezione Flussi di dati e selezionate lo stream di dati creato nel passaggio precedente.
 
-   ![Selezione flusso di dati](assets/datastream-select.png) {style="border:1px solid lightslategray"}
+   ![Selezione dello stream di dati](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. Seleziona **[!UICONTROL Save]**.
 
-L’SDK web è ora installato nella proprietà del tag.
+Il Web SDK è installato nella proprietà del tag.
 
 +++
 
 +++**3. Crea un elemento dati dell&#39;oggetto dati**
 
-L’elemento dati dell’oggetto dati fornisce un framework intuitivo per configurare un payload che l’SDK web utilizza per inviare a un flusso di dati. La maggior parte delle regole che aggiorni nel passaggio seguente interagisce con questo elemento dati.
+L’elemento dati dell’oggetto dati fornisce un framework intuitivo per configurare un payload che il Web SDK utilizza per inviare a un flusso di dati. La maggior parte delle regole che aggiorni nel passaggio seguente interagisce con questo elemento dati.
 
 1. Nel menu di navigazione a sinistra dell&#39;interfaccia dei tag, selezionare **[!UICONTROL Data Elements]**.
 1. Seleziona **[!UICONTROL Add Data Element]**
@@ -97,9 +97,9 @@ La proprietà tag ora dispone di tutto il necessario per aggiornare ogni regola.
 
 +++
 
-+++**4. Aggiorna le regole per utilizzare l&#39;estensione Web SDK invece dell&#39;estensione Analytics**
++++**4. Aggiorna le regole per utilizzare l&#39;estensione Web SDK anziché l&#39;estensione Analytics**
 
-Questo passaggio contiene la maggior parte dello sforzo necessario per migrare all’SDK per web e richiede la conoscenza di come funziona l’implementazione. Di seguito è riportato un esempio di come modificare una tipica regola di tag. Aggiorna tutte le regole di tag nell’implementazione per sostituire tutti i riferimenti all’estensione Adobe Analytics con l’estensione Web SDK.
+Questo passaggio contiene la maggior parte dello sforzo necessario per migrare al Web SDK e richiede la conoscenza di come funziona la tua implementazione. Di seguito è riportato un esempio di come modificare una tipica regola di tag. Aggiorna tutte le regole di tag nell’implementazione per sostituire tutti i riferimenti all’estensione Adobe Analytics con l’estensione Web SDK.
 
 1. Nel menu di navigazione a sinistra dell&#39;interfaccia dei tag, selezionare **[!UICONTROL Rules]**.
 1. Seleziona una regola da modificare.
@@ -113,7 +113,7 @@ Questo passaggio contiene la maggior parte dello sforzo necessario per migrare a
    * Le variabili impostate nell’interfaccia dei tag possono tradursi direttamente negli stessi valori.
    * Le variabili stringa impostate nel codice personalizzato richiedono regolazioni minime. Anziché utilizzare l&#39;oggetto `s`, utilizzare `data.__adobe.analytics`. `s.eVar1`, ad esempio, tradurrebbe in `data.__adobe.analytics.eVar1`.
    * Le variabili di configurazione e le chiamate ai metodi di Analytics nel codice personalizzato possono richiedere una logica di implementazione modificata. Consulta ogni rispettiva [variabile](/help/implement/vars/overview.md) per determinare come ottenere il suo equivalente utilizzando Web SDK.
-1. Dopo aver replicato tutta la logica della regola utilizzando l&#39;estensione Web SDK, selezionare **[!UICONTROL Keep Changes]**.
+1. Una volta replicata la logica di tutte le regole tramite l&#39;estensione Web SDK, selezionare **[!UICONTROL Keep Changes]**.
 1. Ripeti questi passaggi per ogni configurazione di azione che utilizza l&#39;estensione Adobe Analytics per impostare i valori. Questo passaggio include sia le variabili impostate tramite l’interfaccia tag che quelle impostate tramite il codice personalizzato. I blocchi di codice personalizzato non possono fare riferimento all&#39;oggetto `s` in alcun punto.
 
 I passaggi precedenti si applicano solo alle regole che impostano valori. I passaggi seguenti sostituiscono tutte le azioni che utilizzano [!UICONTROL Action Configuration] [!UICONTROL Send Beacon].
@@ -134,13 +134,13 @@ I passaggi precedenti si applicano solo alle regole che impostano valori. I pass
 
 +++
 
-+++**5. Regole aggiornate di Publish**
++++**5. Pubblica regole aggiornate**
 
 La pubblicazione delle regole aggiornate segue lo stesso flusso di lavoro di qualsiasi altra modifica alla configurazione dei tag.
 
 1. Nel menu di navigazione a sinistra dell&#39;interfaccia dei tag, selezionare **[!UICONTROL Publishing Flow]**.
 1. Seleziona **[!UICONTROL Add Library]**.
-1. Assegna un nome al commit del tag, ad esempio &quot;Aggiorna a Web SDK&quot;.
+1. Assegna un nome al commit del tag, ad esempio &quot;Esegui aggiornamento a Web SDK&quot;.
 1. Seleziona **[!UICONTROL Add All Changed Resources]** (Aggiungi set di dati).
 1. Seleziona **[!UICONTROL Save]** (Salva).
 1. Il flusso di lavoro di pubblicazione visualizza un punto arancione, che indica che è in corso la creazione. Quando il punto diventa verde, le modifiche sono disponibili nell’ambiente di sviluppo.
@@ -163,4 +163,4 @@ Una volta che l’implementazione dei tag è completamente sul Web SDK, puoi dis
 
 +++
 
-A questo punto, l’implementazione di Analytics si basa interamente sull’SDK per web ed è adeguatamente preparata per passare al Customer Journey Analytics in futuro.
+A questo punto, l’implementazione di Analytics è completamente sul Web SDK ed è adeguatamente preparata per il passaggio a Customer Journey Analytics in futuro.

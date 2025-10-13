@@ -16,10 +16,10 @@ La [dimensione](overview.md) dei &#39;tipi di sistema operativo&#39; mostra il s
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione fa riferimento a una tabella di ricerca interna a Adobe. Il valore di ricerca si basa sull&#39;intestazione HTTP `User-Agent` nelle richieste di immagini. Adobe di partner con [DeviceAtlas](https://deviceatlas.com/) per mantenere le ricerche tra l&#39;agente utente e il tipo di sistema operativo.
+Questa dimensione fa riferimento a una tabella di ricerca interna ad Adobe. Il valore di ricerca si basa sull&#39;intestazione HTTP `User-Agent` nelle richieste di immagini. Adobe collabora con [DeviceAtlas](https://deviceatlas.com/) per mantenere le ricerche tra l&#39;agente utente e il tipo di sistema operativo.
 
-* Ad AppMeasurement, le implementazioni di questa dimensione sono pronte all’uso.
-* Per le implementazioni Web SDK, abilita [!UICONTROL Device Lookup] quando [si configura uno stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it).
+* Per le implementazioni di AppMeasurement, questa dimensione funziona in modo predefinito.
+* Per le implementazioni di Web SDK, abilita [!UICONTROL Device Lookup] quando [si configura uno stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it).
 
 ## Elementi dimensionali
 

@@ -1,6 +1,6 @@
 ---
 title: Mappatura della variabile dell’oggetto dati su Adobe Analytics
-description: Visualizzare quali campi dell’oggetto dati Experience Platform Edge viene mappato automaticamente sulle variabili di Analytics.
+description: Visualizza i campi dell’oggetto dati mappati automaticamente da Experience Platform Edge alle variabili di Analytics.
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
@@ -13,19 +13,19 @@ ht-degree: 2%
 
 # Mappatura della variabile dell’oggetto dati su Adobe Analytics
 
-La tabella seguente mostra le variabili dell’oggetto dati mappate automaticamente dall’Edge Network di Adobe Experience Platform in Adobe Analytics. Se utilizzi questi percorsi dei campi dell’oggetto dati, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics.
+La tabella seguente mostra le variabili dell’oggetto dati mappate automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi dell’oggetto dati, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics.
 
-L’utilizzo di questi campi è consigliato se intendi utilizzare il Customer Journey Analytics in futuro. Questo metodo di implementazione consente all’organizzazione di inviare dati ad Adobe utilizzando l’SDK web senza essere conforme a uno schema XDM. Quando la tua organizzazione è pronta per inviare dati a Adobe Experience Platform, puoi utilizzare la [mappatura dello stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep#mapping) per puntare i campi dell&#39;oggetto dati ai rispettivi campi XDM.
+L’utilizzo di questi campi è consigliato se intendi utilizzare Customer Journey Analytics in futuro. Questo metodo di implementazione consente all’organizzazione di inviare dati ad Adobe utilizzando il Web SDK senza essere conforme a uno schema XDM. Quando la tua organizzazione è pronta per inviare dati a Adobe Experience Platform, puoi utilizzare la [mappatura dello stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) per puntare i campi dell&#39;oggetto dati ai rispettivi campi XDM.
 
 ## Priorità di valore
 
 La maggior parte dei campi oggetto dati in questa tabella coincidono con un campo XDM [mappato](xdm-var-mapping.md). Se imposti sia un determinato campo oggetto dati che il relativo campo XDM, il campo oggetto dati ha la priorità. Ad esempio, se il campo `data.__adobe.analytics.events` è presente, sovrascrive tutti i campi oggetto XDM relativi all’evento.
 
-Alcuni campi dell&#39;oggetto dati supportano anche i rispettivi valori del parametro [Query](../validate/query-parameters.md) come valori abbreviati. È possibile utilizzare campi oggetto dati standard e campi oggetto dati abbreviati in modo intercambiabile, purché ciascuno di essi sia destinato a variabili univoche. Evitare di impostare contemporaneamente un campo oggetto dati standard e il relativo campo oggetto dati a sintassi abbreviata. L&#39;Adobe non può garantire quale campo ha la priorità.
+Alcuni campi dell&#39;oggetto dati supportano anche i rispettivi valori del parametro [Query](../validate/query-parameters.md) come valori abbreviati. È possibile utilizzare campi oggetto dati standard e campi oggetto dati abbreviati in modo intercambiabile, purché ciascuno di essi sia destinato a variabili univoche. Evitare di impostare contemporaneamente un campo oggetto dati standard e il relativo campo oggetto dati a sintassi abbreviata. Adobe non può garantire quale campo ha la priorità.
 
 ## Mappatura campo oggetto dati
 
-Gli aggiornamenti precedenti a questa tabella si trovano nella cronologia del commit [di questa pagina su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Analogamente alle variabili AppMeasurement, tutti i campi degli oggetti dati fanno distinzione tra maiuscole e minuscole.
+Gli aggiornamenti precedenti a questa tabella si trovano nella cronologia del commit [di questa pagina su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Analogamente alle variabili di AppMeasurement, tutti i campi degli oggetti dati fanno distinzione tra maiuscole e minuscole.
 
 | Percorso campo oggetto dati | Variabile e descrizione di Analytics |
 | --- | --- |
@@ -39,7 +39,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella cronologia del co
 | `data.__adobe.analytics.cookiesEnabled` | La dimensione [Supporto cookie](../../components/dimensions/cookie-support.md). È supportato anche il campo abbreviato `data.__adobe.analytics.k`. |
 | `data.__adobe.analytics.currencyCode` | La variabile di implementazione [`currencyCode`](../vars/config-vars/currencycode.md). È supportato anche il campo abbreviato `data.__adobe.analytics.cc`. |
 | `data.__adobe.analytics.dynamicVariablePrefix` | La variabile di implementazione [`dynamicVariablePrefix`](../vars/config-vars/dynamicvariableprefix.md). |
-| `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` | [Dimensioni eVar](../../components/dimensions/evar.md). Sono supportati anche i campi abbreviati `data.__adobe.analytics.v1` - `data.__adobe.analytics.v250`. |
+| `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` | [dimensioni eVar](../../components/dimensions/evar.md). Sono supportati anche i campi abbreviati `data.__adobe.analytics.v1` - `data.__adobe.analytics.v250`. |
 | `data.__adobe.analytics.events` | [Eventi personalizzati](../../components/metrics/custom-events.md). Formattare questo campo in modo simile alla variabile di implementazione [`events`](../vars/page-vars/events/events-overview.md). |
 | `data.__adobe.analytics.javaEnabled` | La dimensione [Java abilitato](../../components/dimensions/java-enabled.md). È supportato anche il campo abbreviato `data.__adobe.analytics.v`. |
 | `data.__adobe.analytics.latitude` | Consente di impostare le dimensioni del ciclo di vita mobile [Posizione](../../components/dimensions/lifecycle-dimensions.md). È supportato anche il campo abbreviato `data.__adobe.analytics.lat`. |

@@ -6,7 +6,7 @@ exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -20,7 +20,7 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono la stringa `"Hit Depth"` seguita da un numero che rappresenta il numero di hit nella visita. L&#39;elemento dimensione di `"Hit Depth 1"` rappresenta il primo hit della visita, mentre l&#39;elemento dimensione `"Hit Depth 8"` rappresenta l&#39;ottavo hit della visita.
+Gli elementi Dimension includono la stringa `"Hit Depth"` seguita da un numero che rappresenta il numero di hit nella visita. L&#39;elemento dimensione di `"Hit Depth 1"` rappresenta il primo hit della visita, mentre l&#39;elemento dimensione `"Hit Depth 8"` rappresenta l&#39;ottavo hit della visita.
 
 ## Confronto con profondità di visita
 
@@ -29,10 +29,10 @@ La profondità degli hit conta tutti i tipi di hit, inclusi gli hit di visualizz
 | Sequenza di pagine | Profondità di hit | Conta per la profondità di visita? | Profondità della visita |
 | --- | --- | --- | --- |
 | Pagina Home | 1 | Sì | 4 |
-| Pagina prodotto | 2 | Sì | 4 |
+| Pagina di prodotto | 2 | Sì | 4 |
 | Pagina Home | 3 | Sì | 4 |
 | Clic collegamento personalizzato | 4 | No (collegamento personalizzato) | 4 |
 | Clic collegamento personalizzato | 5 | No (collegamento personalizzato) | 4 |
-| Pagina prodotto | 6 | Sì | 4 |
+| Pagina di prodotto | 6 | Sì | 4 |
 | Clic collegamento personalizzato | 7 | No (collegamento personalizzato) | 4 |
-| Pagina prodotto | 8 | No (come nella pagina precedente) | 4 |
+| Pagina di prodotto | 8 | No (come nella pagina precedente) | 4 |

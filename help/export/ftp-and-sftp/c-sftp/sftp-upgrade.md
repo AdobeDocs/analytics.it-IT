@@ -26,7 +26,7 @@ Le seguenti funzioni forniscono un’opzione per caricare dati in Adobe Analytic
 
 * [Classificazioni](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
-* [Attributi cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=it)
+* [Attributi cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
 * [Feed dati](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 

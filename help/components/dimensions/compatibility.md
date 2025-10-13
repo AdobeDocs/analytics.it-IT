@@ -6,7 +6,7 @@ exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
 source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -214,13 +214,13 @@ Adobe Social è ritirato.
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
 | Termini | `socialterm` |
-| Piattaforme/Proprietà social | `socialcontentprovider` |
+| Piattaforme/proprietà social | `socialcontentprovider` |
 | Autori | `socialauthor` |
 | Lingua | `sociallanguage` |
 | Latitudine/Longitudine | `sociallatlong` |
-| Codici di tracciamento risorse | `socialassettrackingcode` |
+| Codici di tracciamento delle risorse | `socialassettrackingcode` |
 | Proprietà social possedute | `socialaccountandappids` |
-| ID post di proprietà | `socialownedpostids` |
+| ID dei post di proprietà | `socialownedpostids` |
 | Definizioni social di proprietà | `socialinteractiontype` |
 | ID proprietà possedute | `socialownedpropertyid` |
 | Proprietà di proprietà e applicazione | `socialownedpropertypropertyvsapp` |

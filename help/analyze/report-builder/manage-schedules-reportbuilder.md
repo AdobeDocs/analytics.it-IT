@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
+exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
+source-git-commit: 6ec04fcc250b2858987ac7d70255310be910386f
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 4%
@@ -72,5 +73,3 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le 
    * Un ![AlertRed](/help/assets/icons/AlertRed.svg) indica che si è verificato un errore.
 
 In alternativa, è possibile selezionare ![Cronologia](/help/assets/icons/History.svg) per una o più cartelle di lavoro selezionate nella scheda **[!UICONTROL Workbooks]**. Questa azione mostra la scheda **[!UICONTROL History]** con un elenco filtrato in base alla selezione. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un filtro.
-
-

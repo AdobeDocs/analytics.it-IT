@@ -21,7 +21,7 @@ ht-degree: 8%
 
 L’esempio seguente illustra il funzionamento dell’identificazione dei visitatori cross-device utilizzando un esempio di chiamate al server inviate in un’interazione con il cliente comune.
 
-| Chiamata server | Azione | Cookie ID visitatore | Variabile ID visitatore | ID visitatore effettivo | Numero di pagina visita | Numero di visite |
+| Chiamata server | Azione | Cookie ID visitatore | Variabile ID visitatore | ID visitatore effettivo | Numero pagina di visita | Numero di visite |
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Un visitatore fa clic su un collegamento in un’e-mail di marketing e visita il sito dal computer di casa. Questo visitatore ha visitato il tuo sito altre 7 volte in passato. | 1 | - | 1 | 1 | 8 |
 | 2-8 | Visita altre 7 pagine del sito. | 1 | - | 1 | 2-8 | 8 |

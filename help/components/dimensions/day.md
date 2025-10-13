@@ -20,4 +20,4 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi Dimension includono la data di un determinato giorno. Include il mese, il giorno e l’anno come parte dell’elemento dimensione.
+Gli elementi di Dimension includono la data di un determinato giorno. Include il mese, il giorno e l’anno come parte dell’elemento dimensione.

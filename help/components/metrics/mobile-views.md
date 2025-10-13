@@ -16,4 +16,4 @@ ht-degree: 8%
 >
 >Questa metrica è stata disattivata a settembre 2017. Non restituisce dati.
 
-Se desideri una [metrica](overview.md) che misuri il traffico da dispositivi mobili, l&#39;Adobe consiglia di utilizzare il segmento &quot;Visite da dispositivi mobili&quot; in un progetto o in una metrica calcolata.
+Se desideri una [metrica](overview.md) che misuri il traffico proveniente da dispositivi mobili, Adobe consiglia di utilizzare il segmento &quot;Visite da dispositivi mobili&quot; in un progetto o in una metrica calcolata.

@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Carica file origini dati in Adobe
 
-L’invio di un file di origini dati a Adobe comporta un tipico flusso di lavoro FTP autenticato. È possibile utilizzare Esplora risorse, Finder o un client FTP dedicato per caricare i file desiderati nel percorso FTP di Adobe.
+L’invio di un file di origini dati ad Adobe comporta un tipico flusso di lavoro FTP autenticato. È possibile utilizzare Esplora risorse, Finder o un client FTP dedicato per caricare i file desiderati nel percorso FTP di Adobe.
 
 Individuare le credenziali FTP in [Gestione origini dati](manage.md). Ogni origine dati ha un collegamento al relativo **[!UICONTROL FTP Info]**. Ogni posizione FTP è dedicata a quella specifica origine dati; non è possibile utilizzare la stessa posizione FTP per più origini dati.
 
@@ -27,9 +27,9 @@ Il file `.fin` ha le seguenti proprietà:
 
 * Il file ha estensione `.fin`. Verificare che il sistema operativo in uso consenta di visualizzare e modificare i tipi di file.
 * File vuoto. Non archiviare dati nel file `.fin`.
-* Il file ha lo stesso nome del file delle origini dati. Se ad esempio si carica un file di origini dati denominato `example.txt`, il file `.fin` **deve** essere denominato `example.fin`. Se non sono denominati in modo identico, Adobe non elabora mai il file delle origini dati.
+* Il file ha lo stesso nome del file delle origini dati. Se ad esempio si carica un file di origini dati denominato `example.txt`, il file `.fin` **deve** essere denominato `example.fin`. Se non hanno un nome identico, Adobe non elabora mai il file delle origini dati.
 
-Una volta caricati sia il file di origine dati che il file `.fin` nel sito FTP, Adobe elabora il file. Non caricare il file `.fin` finché il file delle origini dati non è stato completamente caricato. Se il file `.fin` viene caricato in modo anomalo, Adobe recupera e acquisisce il file parzialmente caricato, generando possibili errori.
+Dopo aver caricato sia il file di origine dati che il file `.fin` sul sito FTP, Adobe elabora il file. Non caricare il file `.fin` finché il file delle origini dati non è stato completamente caricato. Se il file `.fin` viene caricato in modo anomalo, Adobe recupera e acquisisce il file parzialmente caricato, generando possibili errori.
 
 ## Ordine di elaborazione
 
@@ -37,7 +37,7 @@ Se carichi più file contemporaneamente sul sito FTP, Adobe li acquisisce in ord
 
 ## Tempo di elaborazione
 
-Per garantire l’elaborazione più rapida dei file, l’Adobe consiglia di aggregare i dati delle metriche in una singola riga per data. Ad esempio, questo file di origini dati, anche se valido, verrebbe elaborato più lentamente:
+Per garantire l’elaborazione più rapida dei file, Adobe consiglia di aggregare i dati delle metriche in una singola riga per data. Ad esempio, questo file di origini dati, anche se valido, verrebbe elaborato più lentamente:
 
 | `date` | `eVar1` | `event1` | `event2` | `event3` |
 | --- | --- | --- | --- | --- |

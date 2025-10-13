@@ -18,7 +18,7 @@ Le proprietà sono variabili personalizzate che puoi utilizzare come desideri. N
 
 >[!TIP]
 >
->Adobe consiglia di utilizzare [eVar](evar.md) nella maggior parte dei casi. Nelle versioni precedenti di Adobe Analytics, prop e eVar presentavano vantaggi e svantaggi l’uno per l’altro. Tuttavia, Adobe ha migliorato le eVar in modo da soddisfare quasi tutti i casi d’uso per prop.
+>Adobe consiglia di utilizzare [eVar](evar.md) nella maggior parte dei casi. Nelle versioni precedenti di Adobe Analytics, prop e eVar presentavano vantaggi e svantaggi l’uno per l’altro. Tuttavia, Adobe ha migliorato le eVar per soddisfare quasi tutti i casi d’uso per prop.
 
 Se hai un [documento di progettazione della soluzione](/help/implement/prepare/solution-design.md), puoi allocare queste dimensioni personalizzate a valori specifici della tua organizzazione. Il numero di prop disponibili dipende dal contratto con Adobe. Se il contratto con Adobe lo supporta, sono disponibili fino a 75 proprietà.
 
@@ -36,15 +36,15 @@ Poiché le proprietà contengono stringhe personalizzate nell’implementazione,
 
 Per impostazione predefinita, le proprietà non distinguono tra maiuscole e minuscole. Se invii lo stesso valore in casi diversi (ad esempio, `"DOG"` e `"Dog"`), Analysis Workspace li raggruppa nello stesso elemento dimensione. Viene utilizzato il caso del primo valore visualizzato all’inizio del mese di riferimento. Data Warehouse mostra il primo valore rilevato durante il periodo della richiesta.
 
-Puoi fare distinzione tra maiuscole e minuscole in qualsiasi proprietà. Puoi anche disattivare la distinzione tra maiuscole e minuscole per qualsiasi proprietà una volta abilitata. Per attivare o disattivare la distinzione tra maiuscole/minuscole, contatta l’Assistenza clienti Adobe con l’ID della suite di rapporti e le variabili desiderate.
+Puoi fare distinzione tra maiuscole e minuscole in qualsiasi proprietà. Puoi anche disattivare la distinzione tra maiuscole e minuscole per qualsiasi proprietà una volta abilitata. Contatta l’Assistenza clienti di Adobe con l’ID suite di rapporti e le variabili desiderate per attivare o disattivare la distinzione tra maiuscole e minuscole.
 
 >[!WARNING]
 >
->L’attivazione della distinzione tra maiuscole e minuscole può causare il cliff di elementi dimensionali, risultati imprevisti con i segmenti e problemi con i filtri. Adobe consiglia vivamente di alternare questa impostazione tra due periodi di tempo principali, ad esempio l’inizio di un mese o di un anno.
+>L’attivazione della distinzione tra maiuscole e minuscole può causare il cliff di elementi dimensionali, risultati imprevisti con i segmenti e problemi con i filtri. Adobe consiglia vivamente di impostare due periodi di tempo principali, ad esempio l’inizio di un mese o di un anno.
 
 ## Valore delle proprietà rispetto alle eVar
 
-Nella maggior parte dei casi, l’Adobe consiglia di utilizzare le eVar. Le eccezioni a questa istruzione sono le seguenti:
+Nella maggior parte dei casi, Adobe consiglia di utilizzare le eVar. Le eccezioni a questa istruzione sono le seguenti:
 
 * Puoi utilizzare prop nei rapporti in tempo reale. Le eVar richiedono almeno 30 minuti per essere visualizzate nel reporting.
 * Le proprietà possono diventare prop elenco, che accettano più valori nello stesso hit. Le variabili elenco sono una variabile separata e sono disponibili solo tre variabili elenco.

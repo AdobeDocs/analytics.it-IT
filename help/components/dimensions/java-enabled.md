@@ -16,12 +16,12 @@ La [dimensione](overview.md) &quot;Java abilitato&quot; determina se nel browser
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione recupera i dati dalla stringa di query [`v`](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati rilevando se Java è abilitato nel browser. Se utilizzi una libreria di AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati esterno a AppMeasurement (ad esempio tramite l&#39;API), accertati di includere il parametro della stringa di query `v` contenente &quot;Y&quot; o &quot;N&quot; se desideri utilizzare questa dimensione.
+Questa dimensione recupera i dati dalla stringa di query [`v`](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati rilevando se Java è abilitato nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati esterno ad AppMeasurement (ad esempio tramite l&#39;API), accertati di includere il parametro della stringa di query `v` contenente &quot;Y&quot; o &quot;N&quot; se desideri utilizzare questa dimensione.
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono &quot;Enabled&quot; (Abilitato), &quot;Disabled&quot; (Disabilitato) e &quot;Unknown&quot; (Sconosciuto).
+Gli elementi Dimension includono &quot;Enabled&quot; (Abilitato), &quot;Disabled&quot; (Disabilitato) e &quot;Unknown&quot; (Sconosciuto).
 
 * **Abilitato**: Java è abilitato nel browser. La stringa di query `v` contiene il valore &quot;Y&quot;.
 * **Disabilitato**: Java è disabilitato nel browser o non supporta Java. La stringa di query `v` contiene il valore &quot;N&quot;.
-* **Sconosciuto**: l&#39;AppMeasurement non è stato in grado di determinare il supporto Java. La stringa di query `v` non è presente nella richiesta di immagine.
+* **Sconosciuto**: AppMeasurement non è riuscito a determinare il supporto Java. La stringa di query `v` non è presente nella richiesta di immagine.

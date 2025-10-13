@@ -16,9 +16,9 @@ ht-degree: 73%
 
 Ogni piattaforma Analytics offre diversi modi per raccogliere, gestire e archiviare i dati. Al posto della migrazione dei dati storici, Adobe consiglia di stabilire una data di interruzione precisa per iniziare a raccogliere e utilizzare i dati in Adobe Analytics. Le date di interruzione più frequenti sono l’inizio dell’anno fiscale, l’inizio dell’anno solare o l’inizio del mese. Se gli utenti desiderano visualizzare i dati storici, possono accedere alla piattaforma di terze parti per soddisfare eventuali esigenze specifiche di reporting storico.
 
-Se la tua organizzazione desidera che i dati storici vengano trasferiti a Adobe, contatta il team del tuo account Adobe. Un consulente per l’implementazione può collaborare con l’organizzazione per tradurre un’esportazione di dati Google Analytics in un’origine dati che può essere ingerita dai server di raccolta dati Adobe.
+Se la tua organizzazione desidera che i dati storici vengano trasferiti ad Adobe, contatta il team del tuo account Adobe. Un consulente per l’implementazione può collaborare con l’organizzazione per tradurre un’esportazione di dati Google Analytics in un’origine dati che può essere ingerita dai server di raccolta dati Adobe.
 
-Per trasferire i dati storici consigliamo di utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it) che può acquisire qualsiasi origine dati omni-channel.
+Per trasferire i dati storici consigliamo di utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it) che può acquisire qualsiasi origine dati omnicanale.
 
 **Ho l&#39;abitudine di usare in molti rapporti un elenco a discesa di segmentazione. Come è possibile ricrearlo in [!UICONTROL Analysis Workspace]?**
 

@@ -6,7 +6,7 @@ exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1720'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 I rapporti sul pubblico mostrano informazioni sui tipi di persone che visitano il tuo sito.
 
-Questa pagina presuppone che l’utente abbia una conoscenza di base dell’utilizzo di Analysis Workspace. Se non conosci ancora lo strumento in Analysis Workspace, consulta [Creare un report di base in Adobe Analytics per gli utenti Google Analytics](create-report.md).
+Questa pagina presuppone che l’utente abbia una conoscenza di base dell’utilizzo di Analysis Workspace. Se non conosci ancora lo strumento in Analysis Workspace, consulta [Creare un report di base in Adobe Analytics per gli utenti di Google Analytics](create-report.md).
 
 ## Utenti attivi
 
-Gli utenti attivi mostrano il numero cumulativo di utenti del sito negli ultimi 1, 7, 14 o 28 giorni. Anche se Adobe non dispone del calcolo esatto utilizzato nelle Google Analytics, puoi utilizzare la metrica Visitatori univoci per visualizzare un conteggio deduplicato degli utenti nel sito in base all’intervallo di date selezionato.
+Gli utenti attivi mostrano il numero cumulativo di utenti del sito negli ultimi 1, 7, 14 o 28 giorni. Anche se Adobe non dispone del calcolo esatto utilizzato in Google Analytics, puoi utilizzare la metrica Visitatori univoci per visualizzare un conteggio deduplicato degli utenti nel sito in base all’intervallo di date selezionato.
 
 Per ottenere un grafico a linee di visitatori univoci:
 
@@ -30,7 +30,7 @@ Per informazioni dettagliate su come Adobe calcola i visitatori univoci, consult
 
 ## Valore del ciclo di vita
 
-Il valore del ciclo di vita è una funzione che richiede un’implementazione aggiuntiva specializzata su entrambe le piattaforme. L’Adobe consiglia di collaborare con un consulente per l’implementazione per ottenere questi dati.
+Il valore del ciclo di vita è una funzione che richiede un’implementazione aggiuntiva specializzata su entrambe le piattaforme. Adobe consiglia di collaborare con un consulente per l’implementazione per ottenere questi dati.
 
 ## Analisi per coorte
 
@@ -50,16 +50,16 @@ Il rapporto Tipi di pubblico in Google Analytics richiede la configurazione di T
 
 ## Esplora utenti
 
-Il rapporto User Explorer consente a un analista di visualizzare le singole visite tramite identificatori anonimi. Adobe non fa emergere gli identificatori di backend al di fuori dei feed di dati, che sono esportazioni di dati non elaborate a livello di hit.
+Il rapporto User Explorer consente a un analista di visualizzare le singole visite tramite identificatori anonimi. Adobe non fa emergere gli identificatori di backend al di fuori dei feed di dati, che sono esportazioni di dati non elaborati a livello di hit.
 
-* Se questi dati sono desiderati in Analysis Workspace, è possibile collaborare con un consulente per l’implementazione per trasmettere in un eVar il valore cookie dell’identificatore univoco anonimo. Tieni presente che questo funziona solo con implementazioni più piccole costituite da meno di 1 milione di visitatori univoci al mese.
+* Se questi dati sono desiderati in Analysis Workspace, è possibile collaborare con un consulente per l’implementazione per trasmettere il valore cookie dell’identificatore univoco anonimo in un eVar. Tieni presente che questo funziona solo con implementazioni più piccole costituite da meno di 1 milione di visitatori univoci al mese.
 * Se questi dati sono desiderati all&#39;interno dei feed di dati, le colonne concatenate `visid_high` e `visid_low` sono il modo più comune per identificare i visitatori univoci. Ulteriori informazioni su [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) nella guida utente per l&#39;esportazione.
 
 ## Rapporti Demografia e interessi
 
 I dati demografici e relativi agli interessi forniscono informazioni su età, genere e interessi degli utenti del sito. Tali dati vengono raccolti da Google tramite le loro funzionalità di tracciamento intersito.
 
-I dati demografici e relativi agli interessi non vengono raccolti automaticamente dagli Adobi. Tuttavia, se l’organizzazione ottiene questi dati, puoi utilizzare gli attributi del cliente, una funzione all’interno di Adobe Experience Cloud Platform. Consente il pieno controllo sull’organizzazione dei dati per attributi e non è limitato solo a dati demografici o interessi.
+I dati demografici e relativi agli interessi non vengono raccolti automaticamente da Adobe. Tuttavia, se l’organizzazione ottiene questi dati, puoi utilizzare gli attributi del cliente, una funzione all’interno di Adobe Experience Cloud Platform. Consente il pieno controllo sull’organizzazione dei dati per attributi e non è limitato solo a dati demografici o interessi.
 
 Per ulteriori informazioni, consulta la guida Attributi del cliente.
 
@@ -69,7 +69,7 @@ Il rapporto di lingua geografica mostra il traffico del sito in base all’impos
 
 Per creare un rapporto lingua:
 
-1. Nel menu Componenti, individua la dimensione **Lingua** e trascinala nella grande area della tabella a forma libera denominata &#39;Rilascia qui un Dimension&#39;.
+1. Nel menu Componenti, individua la dimensione **Lingua** e trascinala nella grande area della tabella a forma libera denominata &quot;Rilascia qui un Dimension&quot;.
 2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
 Per ulteriori informazioni, consulta la dimensione [Lingua](/help/components/dimensions/language.md) nella guida utente dei Componenti.
@@ -97,7 +97,7 @@ Il rapporto Nuovo/Ritorno offre una visualizzazione semplificata delle prime ses
 
 Per creare un nuovo rapporto sulle visite e sulle visite di ritorno:
 
-1. Nel menu dei componenti, individua il segmento **Visite per la prima volta** e trascinalo nella grande area della tabella a forma libera con l&#39;etichetta &quot;Rilascia qui un Dimension&quot;. Tieni presente che **Visite per la prima volta** è un segmento, mentre Workspace in genere utilizza dimensioni per rappresentare le righe.
+1. Nel menu dei componenti, individua il segmento **Visite per la prima volta** e trascinalo nella grande area della tabella a forma libera denominata &quot;Rilascia qui un Dimension&quot;. Tieni presente che **Visite per la prima volta** è un segmento, mentre Workspace in genere utilizza dimensioni per rappresentare le righe.
 2. Individua il segmento **Visite di ritorno** e trascinalo sopra l&#39;intestazione della riga Segmenti. Questo aggiunge il segmento come dimensione sotto Prime visite, consentendo un facile confronto.
 3. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
@@ -133,7 +133,7 @@ Nel rapporto Browser &amp; OS sono disponibili più dimensioni principali.
 * La dimensione primaria **Sistema operativo** è disponibile anche in Analysis Workspace come dimensione.
 * La dimensione primaria **Risoluzione schermo** è disponibile in Analysis Workspace come dimensione **Risoluzione monitor**.
 * La dimensione principale **Colori schermo** è disponibile in Analysis Workspace come dimensione **Profondità colore**.
-* La dimensione primaria **Versione Flash** non è disponibile in Adobe Analytics, tuttavia questi dati possono essere raccolti da un eVar, se necessario.
+* La dimensione primaria **Flash versione** non è disponibile in Adobe Analytics, tuttavia questi dati possono essere raccolti da un eVar, se necessario.
 
 1. Nel menu dei componenti, individua la dimensione desiderata indicata sopra e trascinala sulla grande area della tabella a forma libera denominata &quot;Rilascia qui una dimensione&quot;.
 2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
@@ -142,7 +142,7 @@ Per ulteriori informazioni sulle rispettive dimensioni, consulta le pagine segue
 
 * [Browser](/help/components/dimensions/browser.md)
 * [Sistema operativo](/help/components/dimensions/operating-systems.md)
-* [Risoluzione monitor](/help/components/dimensions/monitor-resolution.md)
+* [Risoluzione del monitor](/help/components/dimensions/monitor-resolution.md)
 * [Profondità colore](/help/components/dimensions/color-depth.md)
 
 ## Tecnologia - Rete
@@ -178,13 +178,13 @@ I rapporti personalizzati vengono definiti in base all’implementazione. Per in
 
 ## Benchmarking
 
-I rapporti di benchmark consentono di vedere come i facet dei dati si confrontano con le medie del settore. Adobe non condivide i dati di benchmarking tra i suoi clienti in questo momento.
+I rapporti di benchmark consentono di vedere come i facet dei dati si confrontano con le medie del settore. Al momento, Adobe non condivide i dati di benchmark tra i suoi clienti.
 
 ## Flusso utenti
 
 Il rapporto di flusso è disponibile su entrambe le piattaforme. Per creare un rapporto di flusso:
 
 1. Fai clic sull’icona delle visualizzazioni a sinistra, quindi trascina una visualizzazione Flusso sul workspace sopra la tabella a forma libera
-2. Individua la dimensione **Pagine**, quindi fai clic sull&#39;icona a forma di freccia per visualizzare i valori della pagina. Gli elementi Dimension sono di colore giallo.
+2. Individua la dimensione **Pagine**, quindi fai clic sull&#39;icona a forma di freccia per visualizzare i valori della pagina. Gli elementi di Dimension sono di colore giallo.
 3. Individua il valore di pagina desiderato per iniziare, quindi trascinalo nello spazio al centro con l’etichetta &quot;Dimension o elemento&quot;
 4. Questo rapporto di flusso è interattivo. Fai clic su uno dei valori per espandere i flussi alle pagine successive o precedenti. Utilizza il menu di scelta rapida per espandere o comprimere le colonne. Possono essere utilizzate anche dimensioni diverse all’interno dello stesso rapporto di flusso.

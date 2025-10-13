@@ -43,4 +43,4 @@ Oltre a differenziare le visualizzazioni di pagina e i clic sui collegamenti, è
 | `xdm.eventType = click` o `xdm.eventType = decisioning.propositionInteract` e `xdm._experience.decisioning` e nessun `web.webInteraction.type` | considera il payload una chiamata **A4T**. |
 | `xdm.eventType = click` o `xdm.eventType = decisioning.propositionInteract` e nessun `xdm._experience.decisioning` e nessun `web.webInteraction.type` | rilascia il payload e ignora i dati. |
 
-Per ulteriori informazioni, consulta [Gruppo di campi schema di estensione completo di Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/analytics-full-extension).
+Per ulteriori informazioni, consulta [Gruppo di campi schema di estensione completo di Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension).

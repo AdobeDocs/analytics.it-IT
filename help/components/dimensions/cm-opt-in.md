@@ -25,7 +25,7 @@ La tua organizzazione determina la logica per implementare queste variabili di d
 
 ## Elementi dimensionali
 
-Gli elementi Dimension includono i due valori seguenti:
+Gli elementi di Dimension includono i due valori seguenti:
 
 * **`DMP`**: il visitatore ha acconsentito alla condivisione sulle piattaforme di gestione dati. Questo elemento dimensione è presente quando la variabile di dati di contesto `opt.dmp` è uguale a `Y`.
 * **`SELL`**: il visitatore ha acconsentito alla condivisione o alla vendita dei dati a terzi. Questa dimensione è presente quando la variabile di dati di contesto `opt.sell` è uguale a `Y`.

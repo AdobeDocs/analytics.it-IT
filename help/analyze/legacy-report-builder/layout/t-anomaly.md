@@ -8,7 +8,7 @@ exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 {{legacy-arb}}
 
-Per creare una richiesta di rilevamento delle anomalie nel Report Builder:
+Per creare una richiesta di rilevamento delle anomalie in Report Builder:
 
 1. Selezionare un report con tendenze, ad esempio **[!UICONTROL Site Metrics]** > **[!UICONTROL Traffic]**.
 1. Nel menu [!UICONTROL Apply Granularity], selezionare **[!UICONTROL Day]**.
@@ -33,7 +33,7 @@ Per creare una richiesta di rilevamento delle anomalie nel Report Builder:
 
    ![Schermata che mostra il rilevamento delle anomalie, quindi Inserisci e inserisci le opzioni per Limite inferiore e superiore e previsto.](assets/anomaly_select.png)
 
-1. Selezionare **[!UICONTROL Anomaly Detection]** > **[!UICONTROL `<selection>`]**.
+1. Seleziona **[!UICONTROL Anomaly Detection]** > **[!UICONTROL `<selection>`]**.
 
    ![Schermata che mostra il passaggio 2 della Creazione guidata richieste - Rapporto traffico.](assets/anomaly_visit.png)
 

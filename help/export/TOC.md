@@ -7,7 +7,7 @@ user-guide-description: Scopri come utilizzare i feed di dati e Data Warehouse p
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 

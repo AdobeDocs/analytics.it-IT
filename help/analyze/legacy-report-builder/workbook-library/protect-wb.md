@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In qualità di analista, il blocco di una cartella di lavoro consente di proteggere le richieste della cartella di lavoro da manomissioni da parte di altri utenti dell&#39;organizzazione. Allo stesso tempo, tali utenti possono comunque aggiornare le richieste nella cartella di lavoro.
 
-Per impedire la modifica di una cartella di lavoro, fare clic su **[!UICONTROL Locked]** sulla barra degli strumenti del Report Builder ( ![](assets/locked_icon.png)).
+Per impedire la modifica di una cartella di lavoro, fare clic su **[!UICONTROL Locked]** sulla barra degli strumenti di Report Builder ( ![](assets/locked_icon.png)).
 
 Per rimuovere la protezione di una cartella di lavoro, fare clic su **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)).
 
@@ -54,7 +54,7 @@ Supponiamo che la cartella di lavoro A abbia una richiesta che si trova in uno s
 
 **Esempio 1: utente amministratore (o utente A)**
 
-1. L’utente accede al Report Builder e apre la cartella di lavoro A.
+1. L’utente accede a Report Builder e apre la cartella di lavoro A.
 1. La cartella di lavoro A è attualmente bloccata, pertanto il pulsante &quot;Crea richiesta&quot; viene disattivato nella barra degli strumenti, insieme a tutti gli altri pulsanti la cui funzionalità è disabilitata dal blocco.
 1. Se l&#39;utente tenta di utilizzare uno dei pulsanti disattivati, viene visualizzato un messaggio che indica che la cartella di lavoro è attualmente bloccata.
 1. L&#39;utente può sbloccare la cartella di lavoro, che consente la funzionalità di modifica completa.
@@ -62,6 +62,6 @@ Supponiamo che la cartella di lavoro A abbia una richiesta che si trova in uno s
 
 **Esempio 2: utente non amministratore (utente B)**
 
-1. L’utente accede al Report Builder e apre la cartella di lavoro A.
+1. L’utente accede a Report Builder e apre la cartella di lavoro A.
 1. L’utente non può aggiungere/modificare la richiesta.
 1. Impossibile sbloccare la cartella di lavoro.

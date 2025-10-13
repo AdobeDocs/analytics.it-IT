@@ -7,13 +7,13 @@ role: Admin
 source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Fine del ciclo di vita delle origini dati a elaborazione completa
 
-Le origini dati a elaborazione completa hanno sempre consentito alle organizzazioni di inviare dati a livello di hit ad Adobe Analytics. Questi dati sono stati trattati allo stesso modo dei dati raccolti attraverso i mezzi di raccolta tradizionali, come ad AppMeasurement. Nel 2020, Adobe ha rilasciato l&#39;API di inserimento dati in blocco [Bulk](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), che esegue le stesse funzioni delle origini dati a elaborazione completa, ma con funzionalità aggiuntive. Questa pagina fornisce dettagli sulle funzionalità aggiuntive fornite dall’API di inserimento dati in blocco e illustra le differenze nei formati di file.
+Le origini dati a elaborazione completa hanno sempre consentito alle organizzazioni di inviare dati a livello di hit ad Adobe Analytics. Questi dati sono stati elaborati con le stesse modalità dei dati raccolti attraverso i metodi tradizionali di raccolta dei dati, come AppMeasurement. Nel 2020, Adobe ha rilasciato l&#39;API di inserimento dati in blocco [Bulk](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), che esegue le stesse funzioni delle origini dati a elaborazione completa, ma con funzionalità aggiuntive. Questa pagina fornisce dettagli sulle funzionalità aggiuntive fornite dall’API di inserimento dati in blocco e illustra le differenze nei formati di file.
 
 Il 25 marzo 2021 Adobe ha impedito la creazione di nuove connessioni di origini dati a elaborazione completa. Il 31 gennaio 2022 sono stati disattivati tutti i servizi di elaborazione dati completa.
 
@@ -33,8 +33,8 @@ Le seguenti variabili sono state introdotte nell’inserimento di dati in blocco
 
 * **`aamlh`**: hint di posizione Adobe Audience Manager.
 * **`contextData.key`**: [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md).
-* **`customerID`**: Experience Cloud di variabili del servizio ID. Include `id`, `authState` e `isMCSeed`.
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=it) variabili. Include `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
+* **`customerID`**: variabili del servizio Experience Cloud ID. Include `id`, `authState` e `isMCSeed`.
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variabili. Include `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
 * **`ipaddress`**: indirizzo IP del visitatore.
 * **`language`**: dimensione [Lingua](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`**: [Variabili elenco](/help/implement/vars/page-vars/list.md).
@@ -48,4 +48,4 @@ Le seguenti variabili non sono supportate tramite l’inserimento di dati in blo
 
 * **`charSet`**: la variabile [`charSet`](/help/implement/vars/config-vars/charset.md). L&#39;inserimento di dati in blocco supporta solo UTF-8.
 * **`timezone`**: scostamento del fuso orario del visitatore da GMT in ore.
-* **`clickAction`**, **`clickActionType`**, **`clickContext`**, **`clickContextType`**, **`clickSourceID`**, **`clickTag`**: variabili utilizzate nella raccolta dati Activity Map.
+* **`clickAction`**, **`clickActionType`**, **`clickContext`**, **`clickContextType`**, **`clickSourceID`**, **`clickTag`**: variabili utilizzate nella raccolta dati di Activity Map.

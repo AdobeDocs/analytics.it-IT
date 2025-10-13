@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Pagina
 
-La dimensione [pagina](overview.md) elenca i nomi delle pagine del sito. Si tratta di una delle dimensioni più comuni utilizzate in Adobe Analytics, in quanto fornisce informazioni approfondite sulle pagine del sito che offrono le prestazioni migliori.
+La dimensione [pagina](overview.md) elenca i nomi delle pagine del sito. Si tratta di una delle dimensioni più comuni utilizzate in Adobe Analytics, in quanto fornisce ad insight le pagine del sito con le prestazioni migliori.
 
 Questa dimensione è correlata alle dimensioni [Sezione sito](site-section.md) e [Server](server.md). La pagina è più granulare, il server meno granulare e la sezione Sito è compresa tra le due.
 

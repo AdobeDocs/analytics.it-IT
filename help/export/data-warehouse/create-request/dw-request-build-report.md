@@ -22,15 +22,15 @@ Per creare un rapporto per una richiesta Data Warehouse:
 
    Per ulteriori dettagli, consulta [Creare una richiesta di Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Nella pagina Nuova richiesta Data Warehouse selezionare la scheda [!UICONTROL **Genera report**].
+1. Nella pagina Nuova richiesta Data Warehouse, seleziona la scheda [!UICONTROL **Genera il tuo report**].
 
    ![Scheda Genera report](assets/build-report.png)
 
-1. Nell’angolo in alto a sinistra, scegli la suite di rapporti che desideri utilizzare per creare il rapporto Date Warehouse.
+1. Nell’angolo in alto a sinistra, scegli la suite di rapporti che desideri utilizzare per creare il rapporto Data Warehouse.
 
    Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con Data Warehouse. Se scegli una suite di rapporti virtuale che contiene segmenti non compatibili, viene visualizzato un errore.
 
-   Per un elenco delle funzioni supportate all&#39;interno di un segmento, vedi [Data Warehouse compatibilità segmento](/help/components/segmentation/seg-reference/seg-compatibility.md).
+   Per un elenco delle funzioni supportate all&#39;interno di un segmento, vedi [Compatibilità del segmento Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
 
 1. Trascina nel generatore segmenti, metriche e dimensioni. Il rapporto generato determina i dati inclusi nella richiesta Data Warehouse.
 

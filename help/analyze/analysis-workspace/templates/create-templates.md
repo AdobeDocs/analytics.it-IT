@@ -1,13 +1,13 @@
 ---
 description: Scopri come creare e gestire i modelli in Analysis Workspace.
-title: Creare E Gestire I Modelli
+title: Creare e gestire i modelli
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 

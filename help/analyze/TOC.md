@@ -298,7 +298,7 @@ ht-degree: 94%
       + [Impostazioni dell’estensione](activity-map/overlay/settings.md)
    + [Risoluzione dei problemi](activity-map/troubleshooting.md)
    + [Domande frequenti](activity-map/faq.md)
-+ Dashboard di Adobe Analytics {#mobapp}
++ Dashboard Adobe Analytics {#mobapp}
    + [Panoramica delle dashboard di Adobe Analytics](mobile-app/home.md)
    + [Introduzione al curatore](mobile-app/curator.md)
    + [Creare una scorecard per dispositivi mobili](mobile-app/create-scorecard.md)

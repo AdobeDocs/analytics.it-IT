@@ -24,10 +24,10 @@ La larghezza del browser è sempre inferiore o uguale alla larghezza dello scher
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione recupera i dati dalla stringa di query [`bw`](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `window.innerWidth` nel browser. Se utilizzi una libreria di AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati al di fuori di AppMeasurement (ad esempio tramite l&#39;API), accertati di includere il parametro della stringa di query `bw` nel primo hit di ogni visita.
+Questa dimensione recupera i dati dalla stringa di query [`bw`](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `window.innerWidth` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati esterno ad AppMeasurement (ad esempio tramite l&#39;API), accertati di includere il parametro della stringa di query `bw` nel primo hit di ogni visita.
 
-L’Adobe mantiene la larghezza del browser per una visita. Se la larghezza del browser viene regolata a metà visita, la regolazione non viene registrata.
+Adobe mantiene la larghezza del browser per una visita. Se la larghezza del browser viene regolata a metà visita, la regolazione non viene registrata.
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono tutte le larghezze del browser raccolte, classificate in gruppi predefiniti. Ad esempio, se la larghezza del browser di un hit è `1280`, viene raggruppato nell&#39;elemento dimensione `1200 to 1299`.
+Gli elementi Dimension includono tutte le larghezze del browser raccolte, classificate in gruppi predefiniti. Ad esempio, se la larghezza del browser di un hit è `1280`, viene raggruppato nell&#39;elemento dimensione `1200 to 1299`.

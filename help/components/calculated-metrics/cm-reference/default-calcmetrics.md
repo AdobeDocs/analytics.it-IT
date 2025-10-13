@@ -6,7 +6,7 @@ exl-id: 84468e63-f967-41cd-8084-525b1b90957a
 source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Di seguito è riportato un elenco di ogni metrica calcolata fornita da Adobe, co
 >
 >Puoi:
 >
-> * Aggiungere le metriche calcolate predefinite per i servizi multimediali in streaming, come descritto in [Metriche calcolate](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html?lang=it)
+> * Aggiungere le metriche calcolate predefinite per i servizi multimediali in streaming, come descritto in [Metriche calcolate](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
 > * Creare metriche calcolate personalizzate da metriche esistenti, come descritto in [Metriche calcolate e metriche calcolate avanzate](/help/components/calculated-metrics/cm-overview.md).
 >
 
@@ -38,11 +38,11 @@ Di seguito è riportato un elenco di ogni metrica calcolata fornita da Adobe, co
 | Clic sui collegamenti di acquisizione | Il numero di volte in cui le persone fanno clic su un collegamento progettato per indirizzare il traffico verso il sito. | `[Campaign Click-throughs]` |
 | Azioni | Numero totale di azioni eseguite nell&#39;app | `[Has an Action] (segment)`<br>`[Custom Link Instances] (metric)` |
 | Utenti dell’app | Numero totale di utenti di un’app mobile | `[Mobile App Users] (segment)`<br>`[Unique Visitors] (metric)` |
-| Lunghezza media sessione (mobile) | La quantità media di tempo che i visitatori trascorrono sul sito durante una singola sessione. | Vuoto |
+| Lunghezza media sessione (mobile) | Tempo medio trascorso dai visitatori sul sito durante una singola sessione. | Vuoto |
 | Tempo medio sul sito | Il tempo medio trascorso da un visitatore sul sito prima di partire o di allontanarsi. | `[Average Time Spent on Site (Seconds)]` |
-| Percentuale non recapitate | Il rapporto tra le visite che contenevano esattamente un hit e il numero di visite su quella pagina. Questa metrica può aiutarti a capire quali elementi dimensionali hanno il tasso di mancato recapito più alto o a vedere un tasso di mancato recapito totale aggregato del tuo sito nel tempo. | `[Bounces] / [Entries]` |
+| Tasso di mancato recapito | Il rapporto tra le visite che contenevano esattamente un hit e il numero di visite su quella pagina. Questa metrica può aiutarti a capire quali elementi dimensionali hanno il tasso di mancato recapito più alto o a vedere un tasso di mancato recapito totale aggregato del tuo sito nel tempo. | `[Bounces] / [Entries]` |
 | Percentuale visualizzazioni pagina bot | Il rapporto tra le visualizzazioni di pagina dei bot e il numero totale di visualizzazioni di pagina. | `[Bot Page Views] / [Page Views]` |
-| Velocità dei contenuti | La velocità con cui i nuovi contenuti vengono creati e pubblicati sul sito e la velocità con cui generano coinvolgimento degli utenti. | `[Page Views] / [Visits]` |
+| Velocità dei contenuti | La velocità con cui vengono creati e pubblicati nuovi contenuti sul sito e la rapidità con cui generano il coinvolgimento degli utenti. | `[Page Views] / [Visits]` |
 | Tasso di conversione | Percentuale di visitatori che hanno intrapreso un’azione desiderata, ad esempio un acquisto. | `[Orders] / [Visits]` |
 | Tasso di ingresso | La percentuale di visitatori che sono entrati nel sito in una determinata pagina rispetto al numero totale di sessioni sul sito. | `[Entries] / [Visits]` |
 | Visitatori univoci stimati (ITP 2.1) | Per i visitatori ITP (utenti nei browser Safari), dividi Visitatori univoci per 2 o meno. Questa metrica calcolata presuppone che tu sia impostato su cookie utilizzando JavaScript lato client (non utilizzando un’implementazione CNAME). Le implementazioni che impostavano i cookie utilizzando JavaScript lato client erano interessate a partire da ITP 2.1. Per ulteriori informazioni, consulta [Intelligent tracking prevent](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/). | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |

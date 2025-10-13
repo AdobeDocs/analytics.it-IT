@@ -7,7 +7,7 @@ user-guide-description: Scopri le nuove funzionalità e le correzioni di Adobe A
 source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 

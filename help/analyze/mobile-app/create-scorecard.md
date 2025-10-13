@@ -7,7 +7,7 @@ exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '2452'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Le informazioni riportate di seguito spiegano ai curatori di dati di Adobe Analy
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generatore di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/38169?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generatore di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -34,11 +34,11 @@ Una scorecard Adobe Analytics mostra le visualizzazioni dei dati chiave per gli 
 
 ![Esempio di scorecard](assets/intro_scorecard.png)
 
-In qualità di curatore di questa scorecard, puoi usare il generatore di scorecard per configurare le tessere da presentare all’utente manageriale sulla scorecard. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
+In qualità di curatore di questa scorecard, puoi usare il generatore di scorecard per configurare le sezioni che appariranno nella scorecard per l’utente direzionale. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
 
 ![Creatore di scorecard](assets/scorecard_builder.png)
 
-Per creare la scorecard, devi effettuare le seguenti operazioni:
+Per creare la scorecard, dovrai effettuare le seguenti operazioni:
 
 1. Accedi al modello [!UICONTROL Blank Mobile Scorecard].
 1. Configura la scorecard con i dati e salvala.
@@ -62,13 +62,13 @@ Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo pr
 
 ## Configurare la scorecard con i dati e salvarla {#configure}
 
-Per implementare il modello di scorecard:
+Per implementare il modello della scorecard:
 
 1. Alla voce **[!UICONTROL Properties]** (nella barra a destra), specifica la **[!UICONTROL Project report suite]** della quale desideri utilizzare i dati.
 
    ![Selezione di suite di rapporti](assets/properties_save.png)
 
-1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella zona **[!UICONTROL Drag and Drop Metrics Here]**. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
+1. Per aggiungere una nuova sezione alla scorecard, trascina una metrica dal pannello a sinistra e rilasciala nella zona **[!UICONTROL Drag and Drop Metrics Here]**. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
 
    ![Aggiungere sezioni](assets/build_list.png)
 
@@ -79,7 +79,7 @@ Per implementare il modello di scorecard:
 
 Per aggiungere una dimensione correlata a una metrica, trascina una dimensione dal pannello di sinistra e rilasciala su una tessera.
 
-Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla sezione. Le dimensioni dei raggruppamenti vengono visualizzate sotto la [!UICONTROL Drill Ins]sezione del dettaglio specifico della diapositiva **[!UICONTROL Properties]**. Puoi aggiungere più dimensioni a ogni sezione.
+Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla sezione. Le dimensioni dei raggruppamenti vengono visualizzate nella sezione [!UICONTROL Drill Ins] delle **[!UICONTROL Properties]** specifiche per i dettagli della diapositiva. Puoi aggiungere più dimensioni a ogni sezione.
 
 ![Aggiunta di dimensioni](assets/layer_dimensions.png)
 
@@ -87,7 +87,7 @@ Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Chann
 
 Per applicare segmenti alle singole sezioni, trascina un segmento dal pannello di sinistra e rilascialo direttamente sulla sezione.
 
-Se vuoi applicare il segmento a tutte le tessere della scorecard, rilascia la tessera sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionandoli nel menu del filtro sotto gli intervalli di date. [configura e applica filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo che utilizzi in Adobe Analytics Workspace.
+Se vuoi applicare il segmento a tutte le sezioni della scorecard, rilascia la sezione sopra la scorecard. Oppure, puoi anche applicare i segmenti selezionandoli nel menu del filtro sotto gli intervalli di date. [configura e applica filtri per le scorecard](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nello stesso modo che utilizzi in Adobe Analytics Workspace.
 
 ![Creare segmenti per il filtro](assets/segment_ui.png)
 
@@ -109,7 +109,7 @@ Per creare una data di confronto, puoi scegliere tra i pratici predefiniti per i
 
 ![Nuova scorecard4](assets/new_score_card4.png)
 
-Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona del calendario.
+Se l’intervallo di date desiderato non è ancora stato creato, puoi crearne uno nuovo facendo clic sull’icona del Calendario.
 
 ![Nuova scorecard5](assets/new_score_card5.png)
 
@@ -130,7 +130,7 @@ L’impostazione è *attiva* per impostazione predefinita. Se non desideri visua
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni](https://video.tv.adobe.com/v/3445774?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Le diapositive di dettaglio personalizzate consentono di essere ancora più mira
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dettagli personalizzate](https://video.tv.adobe.com/v/3413788?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Ad esempio, se ti concentri sul traffico web, la metrica più importante potrebb
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare storie di dati](https://video.tv.adobe.com/v/3420561?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare storie di dati](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -265,7 +265,7 @@ Crea la presentazione di dati aggiungendo più diapositive di dettaglio a una se
 
 1. Aggiungi le diapositive per creare una presentazione di dati personale. La prima diapositiva viene generata per impostazione predefinita.
 
-   Per aggiungere nuove diapositive, passa il cursore del mouse oppure fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
+   Per aggiungere nuove diapositive, passa il puntatore oppure fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
 
    * Tocca il segno [!UICONTROL +] per creare una nuova diapositiva.
 
@@ -279,7 +279,7 @@ Per eliminare una diapositiva, tocca l’icona del cestino.
 
 ### Personalizzare una presentazione di dati {#customize-data-story}
 
-Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. Puoi personalizzare le sezioni e le singole diapositive per aggiungere filtri, mostrare suddivisioni, modificare il layout e cambiare le visualizzazioni.
+Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. Puoi personalizzare le sezioni e le singole diapositive per aggiungere filtri, mostrare raggruppamenti, modificare il layout e cambiare le visualizzazioni.
 
 **Personalizzazione delle sezioni**
 
@@ -340,7 +340,7 @@ Puoi visualizzare in anteprima come si presenterà e funzionerà una scorecard u
 
 ## Assegnare un nome a una scorecard {#name}
 
-Per assegnare un nome alla scorecard, fai clic sullo spazio dei nomi in alto a sinistra dello schermo e digita il nuovo nome.
+Per denominare la scorecard, fai clic sullo spazio dei nomi in alto a sinistra dello schermo e digita il nuovo nome.
 
 ![Assegnare_un_nome_alle_scorecard](assets/new_name.png)
 
@@ -361,13 +361,13 @@ Per condividere la scorecard con un utente direzionale:
 
 ![Condividere_scorecard](assets/new_share.png)
 
-Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel generatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti direzionali vedranno quindi le modifiche dopo aver aggiornato la scorecard nella loro app.
+Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Generatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti direzionali vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
 Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente (e di selezionare l’opzione **[!UICONTROL Share embedded components]**) per assicurarti che gli utenti direzionali abbiano accesso a queste modifiche.
 
 ### Condividere le scorecard mediante un collegamento condivisibile {#shareable-link}
 
-L’utilizzo di un collegamento condivisibile semplifica la condivisione di una scorecard in un’app e-mail, documento o SMS. Il collegamento condivisibile consente ai destinatari di aprire la scorecard sul desktop o sull’app mobile delle dashboard. I collegamenti profondi condivisibili consentono di condividere i progetti in modo ancora più semplice e di aumentare il coinvolgimento delle parti interessate.
+L’utilizzo di un collegamento condivisibile semplifica la condivisione di una scorecard in un’e-mail, in un documento o in un’app di messaggistica testuale. Il collegamento condivisibile consente ai destinatari di aprire la scorecard sul desktop o sull’app per dispositivi mobili delle dashboard. Il deep linking condivisibile consente di condividere i progetti in modo ancora più semplice e di aumentare il coinvolgimento degli stakeholder.
 
 Per condividere una scorecard utilizzando un collegamento condivisibile
 
@@ -381,5 +381,5 @@ Per condividere una scorecard utilizzando un collegamento condivisibile
 
    Quando un destinatario apre il collegamento su un dispositivo mobile, la scorecard si apre direttamente nell’app delle dashboard di Analytics.
 
-   Se un destinatario non ha scaricato l’app mobile, verrà indirizzato all’inserzione dell’app nell’App Store o Google Play Store dove può scaricarla.
+   Se un destinatario non ha scaricato l’app per dispositivi mobili, verrà indirizzato all’elenco delle app nell’App Store o in Google Play Store dove può scaricarla.
 

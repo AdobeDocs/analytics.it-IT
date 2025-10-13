@@ -1,5 +1,5 @@
 ---
-description: Definizioni dei campi per date continue nel Report Builder.
+description: Definizioni dei campi per date continue in Report Builder.
 title: 'Richieste di Creazione guidata richieste: date di rotazione'
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 16%
 
 {{legacy-arb}}
 
-Definizioni dei campi per date continue nel Report Builder.
+Definizioni dei campi per date continue in Report Builder.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 

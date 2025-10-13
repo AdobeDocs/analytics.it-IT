@@ -1,6 +1,6 @@
 ---
-description: Scopri come aggiornare il Report Builder.
-title: Come aggiornare il Report Builder
+description: Scopri come aggiornare Report Builder.
+title: Come aggiornare Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
 role: User, Admin
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 {{legacy-arb}}
 
-Quando si aggiorna il Report Builder, tenere presenti le seguenti linee guida:
+Quando aggiorni Report Builder, tieni presenti le seguenti linee guida:
 
 * La vecchia versione verrà rimossa.
 
@@ -24,9 +24,9 @@ Quando si aggiorna il Report Builder, tenere presenti le seguenti linee guida:
 
 * Tutte le impostazioni personali, comprese quelle di autenticazione, continueranno a funzionare.
 
-Per aggiornare il Report Builder
+Per aggiornare Report Builder
 
-1. Accedi alla versione corrente del Report Builder.
+1. Accedi alla versione corrente di Report Builder.
 1. Passa al menu **[!UICONTROL Options]** per eseguire l&#39;aggiornamento alla versione più recente. Il numero di versione corrente viene visualizzato nella parte inferiore della finestra di dialogo Opzioni.
 
    ![Schermata che mostra la finestra di dialogo Opzioni e la versione corrente e la nuova versione.](assets/upgrade.png)
@@ -35,18 +35,18 @@ Per aggiornare il Report Builder
 
    >[!NOTE]
    >
-   >Se questo pulsante è disattivato, non è disponibile alcuna nuova versione del Report Builder.
+   >Se questo pulsante è disattivato, non è disponibile alcuna nuova versione di Report Builder.
 
 1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Update when a new version is available]**. In futuro, il processo di aggiornamento verrà avviato automaticamente non appena sarà disponibile una nuova versione.
 1. Quando viene visualizzata la schermata di installazione, fare clic su **[!UICONTROL Next >]**.
 
-   ![Schermata che mostra la schermata di configurazione del Report Builder.](assets/setup.png)
+   ![Schermata che mostra la schermata di installazione di Report Builder.](assets/setup.png)
 
-1. Al termine dell’aggiornamento, accedi di nuovo al Report Builder.
+1. Al termine dell’aggiornamento, accedi di nuovo a Report Builder.
 
 ## Istruzioni per l’aggiornamento manuale {#section_27A0200010DC4747A718F1A65B180599}
 
-È sempre possibile ottenere la versione più recente del Report Builder da Adobe Analytics.
+Puoi sempre ottenere la versione più recente di Report Builder da Adobe Analytics.
 
 1. Accedi ad Adobe Analytics e passa a **[!UICONTROL Tools]**.
 1. Fai clic su **[!UICONTROL Report Builder]**.

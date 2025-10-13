@@ -22,6 +22,6 @@ Questa metrica utilizza la formula [`Total seconds spent`](total-seconds-spent.m
 
 ## Percentuali superiori al 100%
 
-Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo trascorso dall’intera dimensione per visitatore e il numeratore è il tempo trascorso dall’elemento dimensione per visitatore. Se il tempo trascorso dell’intera dimensione per visitatore è inferiore al tempo trascorso per visitatore di un dato elemento della dimensione, vedrai percentuali superiori al 100%. L’ordinamento dei rapporti classificati in base a questa metrica mostra il tempo di anomalia trascorso per i valori dei visitatori, che in genere non è prezioso. L&#39;Adobe consiglia di ordinare in base a un&#39;altra metrica, ad esempio [Visite](visits.md), nei report classificati.
+Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è il tempo trascorso dall’intera dimensione per visitatore e il numeratore è il tempo trascorso dall’elemento dimensione per visitatore. Se il tempo trascorso dell’intera dimensione per visitatore è inferiore al tempo trascorso per visitatore di un dato elemento della dimensione, vedrai percentuali superiori al 100%. L’ordinamento dei rapporti classificati in base a questa metrica mostra il tempo di anomalia trascorso per i valori dei visitatori, che in genere non è prezioso. Adobe consiglia di ordinare i rapporti in base a un&#39;altra metrica, ad esempio [Visite](visits.md).
 
 Consulta [Panoramica sul tempo trascorso](time-spent.md) per informazioni più generali sul tempo trascorso.

@@ -40,11 +40,11 @@ Di seguito sono elencati i principali motivi per cui potresti ritrovarti con vis
 >[!IMPORTANT]
 >
 >Report Builder richiede un amministratore per autorizzare l’accesso alle risorse della tua organizzazione. Se hai bisogno di accedere, chiedi a un amministratore di concederti l’autorizzazione.
-> Un amministratore di Microsoft può esaminare l&#39;impostazione *Gli utenti possono registrare l&#39;applicazione* trovata in: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL User Settings allows options]**. Se questa opzione è impostata su **No**, l&#39;amministratore può registrare questi tipi di applicazioni.
+>> Un amministratore di Microsoft può esaminare l&#39;impostazione *Gli utenti possono registrare l&#39;applicazione* trovata in: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL User Settings allows options]**. Se questa opzione è impostata su **No**, l&#39;amministratore può registrare questi tipi di applicazioni.
 
-Gli utenti possono concedere l&#39;accesso accedendo al proprio [account Microsoft Power BI](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Gli utenti possono concedere l&#39;accesso accedendo al proprio [account Microsoft Power BI](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
 
-Gli amministratori possono concedere l&#39;accesso a ogni account effettuando l&#39;accesso all&#39;account Microsoft Power BI [dell&#39;amministratore](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Gli amministratori possono concedere l&#39;accesso a ogni account effettuando l&#39;accesso all&#39;account Microsoft Power BI [dell&#39;amministratore](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=admin_consent&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
 
 ## Raggiungimento del limite API
 

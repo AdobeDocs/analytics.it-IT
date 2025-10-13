@@ -1,5 +1,5 @@
 ---
-description: Quando si specifica una data fissa o un intervallo di date, in Report Builder viene visualizzato il calendario di reporting, che consente di selezionare una data, un intervallo di date o una data predefinita. Puoi anche salvare una data fissa da utilizzare come modello e specificare se le date salvate sono disponibili per la suite di rapporti corrente o per tutte le suite di rapporti.
+description: Quando si specifica una data fissa o un intervallo di date, in Report Builder viene visualizzato il calendario di reporting che consente di selezionare una data, un intervallo di date o una data predefinita. Puoi anche salvare una data fissa da utilizzare come modello e specificare se le date salvate sono disponibili per la suite di rapporti corrente o per tutte le suite di rapporti.
 title: Date corrette e intervalli di date salvati
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 {{legacy-arb}}
 
-Quando si specifica una data fissa o un intervallo di date, in Report Builder viene visualizzato il calendario di reporting, che consente di selezionare una data, un intervallo di date o una data predefinita. Puoi anche salvare una data fissa da utilizzare come modello e specificare se le date salvate sono disponibili per la suite di rapporti corrente o per tutte le suite di rapporti.
+Quando si specifica una data fissa o un intervallo di date, in Report Builder viene visualizzato il calendario di reporting che consente di selezionare una data, un intervallo di date o una data predefinita. Puoi anche salvare una data fissa da utilizzare come modello e specificare se le date salvate sono disponibili per la suite di rapporti corrente o per tutte le suite di rapporti.
 
 1. Nella Creazione guidata richieste: passaggio 1, scegliere **[!UICONTROL Fixed Dates]**.
 1. Fai clic sul collegamento della data.

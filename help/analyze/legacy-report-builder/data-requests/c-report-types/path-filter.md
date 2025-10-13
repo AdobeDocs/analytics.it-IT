@@ -29,7 +29,7 @@ In questo esempio vengono utilizzati i percorsi delle sezioni del sito.
 
 1. Fai clic su **[!UICONTROL Next]**.
 
-1. Nel passaggio 2 della procedura guidata fare clic sul collegamento **[!UICONTROL Top 1-10 (pattern applied)]** in **[!UICONTROL Row Labels]**. In un report di percorsi, viene applicato un pattern per impostazione predefinita.
+1. Nel passaggio 2 della procedura guidata fare clic sul collegamento **[!UICONTROL Row Labels]** in **[!UICONTROL Top 1-10 (pattern applied)]**. In un report di percorsi, viene applicato un pattern per impostazione predefinita.
 
    ![Schermata che mostra il modello di percorso predefinito.](assets/site_section_path_2.png)
 
@@ -50,7 +50,7 @@ In questo esempio vengono utilizzati i percorsi delle sezioni del sito.
 
    ![](assets/select_a_pattern.png)
 
-   Alcuni di questi modelli sono specifici per il Report Builder: Motivo elemento successivo del percorso di immissione, Motivo elemento precedente del percorso di uscita, Motivo elemento successivo.
+   Alcuni di questi modelli sono specifici di Report Builder: Pattern elemento successivo del percorso di ingresso, Pattern elemento precedente del percorso di uscita, Pattern elemento successivo.
 
 ## Per modificare un pattern predefinito
 

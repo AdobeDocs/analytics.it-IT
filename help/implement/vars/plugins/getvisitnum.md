@@ -6,7 +6,7 @@ exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 role: Admin, Developer
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '754'
 ht-degree: 6%
 
 ---
@@ -79,7 +79,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 La funzione `getVisitNum` utilizza i seguenti argomenti:
 
 * **`rp`** (facoltativo, numero intero o stringa): il numero di giorni prima che il contatore del numero di visite venga ripristinato.  Impostazione predefinita: `365` se non impostata.
-   * Quando questo argomento è `"w"`, il contatore viene ripristinato alla fine della settimana (questo sabato alle 23:59)
+   * Quando questo argomento è `"w"`, il contatore viene ripristinato alla fine della settimana (questo sabato alle 23:00):59
    * Quando questo argomento è `"m"`, il contatore viene ripristinato alla fine del mese (l&#39;ultimo giorno del mese)
    * Quando questo argomento è `"y"`, il contatore viene ripristinato alla fine dell&#39;anno (31 dicembre)
 * **`erp`** (facoltativo, booleano): quando l&#39;argomento `rp` è un numero, questo argomento determina se la scadenza del numero di visita deve essere estesa. Se è impostato su `true`, gli hit successivi nel sito reimpostano il contatore dei numeri di visita. Se è impostato su `false`, gli hit successivi sul sito non si estendono quando il contatore del numero di visite si ripristina. Predefinito su `true`. Argomento non valido se l&#39;argomento `rp` è una stringa.

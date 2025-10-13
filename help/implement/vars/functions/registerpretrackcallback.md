@@ -37,7 +37,7 @@ Il Web SDK non può eseguire l&#39;hook di una funzione dopo la compilazione dei
 
 ## Pre-tracciare il callback manualmente implementando Web SDK
 
-Il Web SDK non può eseguire l&#39;hook di una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati ad Adobe. Tuttavia, è possibile utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell&#39;invio dei dati, in modo analogo a `doPlugins`. Per ulteriori informazioni, vedere [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it#modifying-events-globally) nella documentazione di Web SDK.
+Il Web SDK non può eseguire l&#39;hook di una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati ad Adobe. Tuttavia, è possibile utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell&#39;invio dei dati, in modo analogo a `doPlugins`. Per ulteriori informazioni, vedere [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) nella documentazione di Web SDK.
 
 ```js
 // Set the trackingCode XDM field to "New value"

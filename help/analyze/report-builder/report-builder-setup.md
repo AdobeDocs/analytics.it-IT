@@ -1,24 +1,25 @@
 ---
-title: Come impostare il Report Builder in Adobe Analytics
-description: Descrive come impostare il Report Builder in Adobe Analytics
+title: Impostare Report Builder in Adobe Analytics
+description: Descrive come configurare Report Builder in Adobe Analytics
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # Configurazione Report Builder
 
-È possibile accedere rapidamente al Report Builder utilizzando il menu Componente aggiuntivo di Excel.
+È possibile accedere rapidamente a Report Builder utilizzando il menu Componente aggiuntivo di Excel.
 
 ## Requisiti
 
-Il Report Builder per Adobe Analytics è supportato nei seguenti sistemi operativi e browser web.
+Report Builder per Adobe Analytics è supportato dai seguenti sistemi operativi e browser web.
 
 ### macOS
 
@@ -43,15 +44,15 @@ Il Report Builder per Adobe Analytics è supportato nei seguenti sistemi operati
 
 ## Componente aggiuntivo Report Builder Excel
 
-È necessario installare il componente aggiuntivo Report Builder Excel per utilizzare Report Builder per Adobe Analytics. Dopo aver installato il componente aggiuntivo Report Builder Excel, è possibile accedere al Report Builder da una cartella di lavoro di Excel aperta.
+È necessario installare il componente aggiuntivo Report Builder Excel per utilizzare Report Builder per Adobe Analytics. Dopo aver installato il componente aggiuntivo Report Builder Excel, è possibile accedere a Report Builder da una cartella di lavoro di Excel aperta.
 
-### Scaricare e installare il componente aggiuntivo di Report Builder
+### Scaricare e installare il componente aggiuntivo Report Builder
 
-Per scaricare e installare il componente aggiuntivo di Report Builder
+Per scaricare e installare il componente aggiuntivo Report Builder
 
 1. Avviare Excel e aprire una nuova cartella di lavoro.
 
-1. Selezionare **[!UICONTROL Insert]** > **[!UICONTROL Get Add-ins]**.
+1. Seleziona **[!UICONTROL Insert]** > **[!UICONTROL Get Add-ins]**.
 
 1. Nella finestra di dialogo Componenti aggiuntivi di Office selezionare la scheda Archivio.
 
@@ -69,25 +70,25 @@ Per scaricare e installare il componente aggiuntivo di Report Builder
 
 **Se l&#39;organizzazione blocca l&#39;accesso a Microsoft Store**
 
-Rivolgiti al tuo team IT o di sicurezza per richiedere l’approvazione per il componente aggiuntivo di Report Builder. Dopo aver concesso l&#39;approvazione, nella finestra di dialogo Componenti aggiuntivi di Office selezionare la scheda Gestione amministratore.
+Rivolgiti al tuo team IT o di sicurezza per richiedere l’approvazione per il componente aggiuntivo Report Builder. Dopo aver concesso l&#39;approvazione, nella finestra di dialogo Componenti aggiuntivi di Office selezionare la scheda Gestione amministratore.
 
 ![Scheda Amministrazione gestita nella finestra di dialogo Componenti aggiuntivi di Office.](./assets/image1.png)
 
-Dopo aver installato il componente aggiuntivo di Report Builder, l&#39;icona del Report Builder viene visualizzata nella barra multifunzione di Excel nella scheda Home.
+Dopo aver installato il componente aggiuntivo Report Builder, l&#39;icona Report Builder viene visualizzata sulla barra multifunzione di Excel nella scheda Home.
 
 ![Icona Report Builder in Excel](./assets/rb_app_icon.png)
 
-## Accedi al Report Builder
+## Accedi a Report Builder
 
-Dopo aver installato il componente aggiuntivo Report Builder for Excel per la piattaforma operativa o il browser in uso, eseguire la procedura seguente per accedere al Report Builder.
+Dopo aver installato il componente aggiuntivo Report Builder for Excel per la piattaforma operativa o il browser in uso, eseguire la procedura seguente per accedere a Report Builder.
 
 1. Aprire una cartella di lavoro di Excel.
 
-1. Fai clic sull’icona Report Builder per avviare il Report Builder.
+1. Fai clic sull’icona Report Builder per avviare Report Builder.
 
 1. Dalla barra degli strumenti di Adobe Report Builder, fare clic su **[!UICONTROL Login]**.
 
-   ![Fare clic sul pulsante di accesso al Report Builder.](./assets/rb_login.png)
+   ![Fare clic sul pulsante di accesso a Report Builder.](./assets/rb_login.png)
 
 1. Immetti le informazioni del tuo account Adobe Experience ID. Le informazioni sull’account devono corrispondere alle credenziali di Adobe Analytics.
 
@@ -107,7 +108,7 @@ La prima volta che accedi, accedi all’organizzazione predefinita assegnata al 
 
 ## Uscire
 
-Puoi uscire dal Report Builder dal profilo utente.
+Puoi uscire da Report Builder dal profilo utente.
 
 1. Salvare le modifiche apportate alle cartelle di lavoro aperte.
 

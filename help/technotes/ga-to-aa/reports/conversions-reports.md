@@ -14,23 +14,23 @@ ht-degree: 0%
 
 Una &quot;conversione&quot; è un’azione eseguita da un visitatore sul sito e tradotta direttamente negli indicatori chiave della tua organizzazione. I rapporti sulle conversioni mostrano i dettagli sulla conversione dei visitatori.
 
-Questa pagina presuppone che l’utente abbia una conoscenza di base dell’utilizzo di Analysis Workspace. Se non conosci ancora lo strumento in Analysis Workspace, consulta [Creare un report di base in Adobe Analytics per gli utenti Google Analytics](create-report.md).
+Questa pagina presuppone che l’utente abbia una conoscenza di base dell’utilizzo di Analysis Workspace. Se non conosci ancora lo strumento in Analysis Workspace, consulta [Creare un report di base in Adobe Analytics per gli utenti di Google Analytics](create-report.md).
 
 ## Rapporti sugli obiettivi
 
-Gli obiettivi forniscono agli utenti Google Analytics un modo per definire la conversione di un sito web. Sono il modo predefinito per creare funnel, invertire il flusso comportamentale, funnel multicanale e attribuzione. Gli obiettivi nelle Google Analytics non sono retroattivi e possono essere impostati solo sulla pagina di amministrazione. Inoltre, si basano solo su una pagina, un evento, il tempo trascorso o il numero medio di pagine.
+Gli obiettivi forniscono agli utenti di Google Analytics un modo per definire la conversione di un sito web. Sono il modo predefinito per creare funnel, invertire il flusso comportamentale, funnel multicanale e attribuzione. Gli obiettivi in Google Analytics non sono retroattivi e possono essere impostati solo sulla pagina di amministrazione. Inoltre, si basano solo su una pagina, un evento, il tempo trascorso o il numero medio di pagine.
 
 In Adobe Analytics, il concetto di obiettivo non è necessario perché le metriche possono essere applicate in qualsiasi contesto. Se l’implementazione soddisfa gli eventi da monitorare, puoi modificare qualsiasi rapporto di conversione e ottenere immediatamente i risultati per i dati storici.
 
 ### Visualizzazione funnel
 
-Il rapporto di visualizzazione funnel aiuta gli analisti a concentrarsi su una particolare serie di passaggi necessari per la conversione. Ad esempio, prima di effettuare un acquisto, un visitatore su un sito di e-commerce deve accedere al carrello, alla pagina di fatturazione e spedizione, alla pagina di pagamento e alla pagina di revisione dell’ordine.
+Il rapporto di visualizzazione di funnel consente agli analisti di concentrarsi su una particolare serie di passaggi necessari per la conversione. Ad esempio, prima di effettuare un acquisto, un visitatore su un sito di e-commerce deve accedere al carrello, alla pagina di fatturazione e spedizione, alla pagina di pagamento e alla pagina di revisione dell’ordine.
 
 In Analysis Workspace, questi dati possono essere visualizzati utilizzando la Visualizzazione di fallout.
 
 1. Fai clic sull’icona delle visualizzazioni a sinistra, quindi trascina una visualizzazione Fallout nell’area di lavoro sopra la tabella a forma libera
 2. Fai clic sull&#39;icona dei componenti a sinistra, quindi individua la dimensione **Pagine**.
-3. Fai clic sull’icona a forma di freccia accanto alla dimensione Pagine per visualizzare i valori della pagina. Gli elementi Dimension sono di colore giallo.
+3. Fai clic sull’icona a forma di freccia accanto alla dimensione Pagine per visualizzare i valori della pagina. Gli elementi di Dimension sono di colore giallo.
 4. Individua la pagina desiderata come primo punto di contatto e trascinala nello spazio etichettato &quot;Aggiungi punto di contatto&quot; nella visualizzazione.
 5. Continua ad aggiungere i punti di contatto desiderati trascinando i valori di pagina nella visualizzazione.
 
@@ -42,15 +42,15 @@ La visualizzazione Abbandono non è limitata alla sola dimensione Pagine. Qualsi
 
 I rapporti di e-commerce vengono generalmente utilizzati dai siti che vendono prodotti o servizi per misurare gli ordini e i ricavi relativi agli articoli acquistati. Questa funzione è disponibile in Adobe Analytics ed è nota come rapporti sui prodotti.
 
-Sia i rapporti di e-commerce nelle Google Analytics che i rapporti sui prodotti in Adobe Analytics richiedono modifiche di implementazione personalizzate da utilizzare. Per ulteriori informazioni, consulta la dimensione [Prodotti](/help/components/dimensions/product.md) nella guida utente dei Componenti.
+Sia i rapporti di e-commerce in Google Analytics che i rapporti sui prodotti in Adobe Analytics richiedono modifiche di implementazione personalizzate da utilizzare. Per ulteriori informazioni, consulta la dimensione [Prodotti](/help/components/dimensions/product.md) nella guida utente dei Componenti.
 
 ## Rapporti Funnel multicanale
 
-I rapporti funnel multicanale forniscono dati di canale di marketing aggiuntivi oltre a quelli forniti dai rapporti di acquisizione. Questi rapporti si concentrano sulla conversione dei visitatori, anziché sul modo in cui i visitatori arrivano al sito.
+I rapporti multicanale funnel forniscono dati di canale di marketing aggiuntivi oltre a quelli forniti dai rapporti di acquisizione. Questi rapporti si concentrano sulla conversione dei visitatori, anziché sul modo in cui i visitatori arrivano al sito.
 
 >[!NOTE]
 >
-> L’utilizzo dei rapporti multicanale in Adobe Analytics richiede sia la configurazione di Canali di marketing sia un’implementazione personalizzata per contenere la variabile dei prodotti e l’evento di acquisto. L’Adobe consiglia di lavorare con un consulente per l’implementazione se queste funzioni non sono ancora configurate per la suite di rapporti.
+> L’utilizzo dei rapporti multicanale in Adobe Analytics richiede sia la configurazione di Canali di marketing sia un’implementazione personalizzata per contenere la variabile dei prodotti e l’evento di acquisto. Adobe consiglia di collaborare con un consulente per l’implementazione se queste funzioni non sono ancora configurate per la suite di rapporti.
 
 ### Multicanale - Conversioni assistite
 
@@ -77,17 +77,17 @@ Questa visualizzazione del flusso è interattiva. Fare clic su ciascun canale pe
 
 Il rapporto ritardo mostra la quantità di tempo, in giorni, necessaria per la conversione di un visitatore sul sito. In Analysis Workspace, questi dati sono disponibili utilizzando la dimensione **Giorni prima del primo acquisto**. È disponibile solo nel contesto di un evento di acquisto implementato correttamente.
 
-1. Nel menu Componenti, individua la dimensione **Giorni prima del primo acquisto** e trascinala nella grande area della tabella a forma libera con l&#39;etichetta &#39;Rilascia qui un Dimension&#39;.
+1. Nel menu Componenti, individua la dimensione **Giorni prima del primo acquisto** e trascinala nella grande area della tabella a forma libera denominata &#39;Rilascia qui un Dimension&#39;.
 2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
-L&#39;Adobe consiglia di utilizzare le metriche **Ordini**, **Unità** o **Entrate** con questa dimensione.
+Adobe consiglia di utilizzare le metriche **Ordini**, **Unità** o **Ricavi** con questa dimensione.
 
 Per altri tipi di conversioni, inclusi gli eventi personalizzati, è disponibile la dimensione **Tempo precedente all&#39;evento**. Mostra la quantità di tempo, in minuti, impiegata da un visitatore per attivare l’evento all’interno della visita.
 
 1. Nel menu Componenti, individua la dimensione **Tempo precedente all&#39;evento** e trascinala nella grande area della tabella a forma libera con l&#39;etichetta &#39;Rilascia qui un Dimension&#39;.
 2. Trascina le metriche desiderate nell&#39;area di lavoro insieme alla metrica **Occorrenze** creata automaticamente. Per informazioni dettagliate su come ottenere ciascuna metrica, consulta la [guida alla traduzione delle metriche](common-metrics.md).
 
-L’Adobe consiglia di utilizzare questa dimensione insieme a eventi personalizzati o eventi di acquisto.
+Adobe consiglia di utilizzare questa dimensione insieme a eventi personalizzati o eventi di acquisto.
 
 ### Multicanale - Lunghezza percorso
 

@@ -19,7 +19,7 @@ Questa pagina descrive come utilizzare Adobe Analytics con le app web progressiv
 
 Le PWA possono offrire l’esperienza di un’app nativa e funzionalità offline per un sito web. Di solito le PWA includono un service worker, sistemi di caching e un file manifest, grazie ai quali è possibile fornire assistenza con tempi di caricamento più rapidi e una navigazione più semplice e responsive.
 
-Adobe Analytics funziona perfettamente con i PWA come con i siti web tradizionali. Sebbene le PWA prevedano alcuni requisiti in più per svilupparsi progressivamente, non creano barriere o limitazioni diverse nella raccolta o reporting dei dati di tali siti da parte di Analytics rispetto ai siti web tradizionali. Infatti, poiché Analytics già include il tracciamento offline, puoi sfruttare questa funzionalità più facilmente con le PWA che con i siti web tradizionali.
+Adobe Analytics funziona perfettamente con le PWA, come con i siti web tradizionali. Sebbene le PWA prevedano alcuni requisiti in più per svilupparsi progressivamente, non creano barriere o limitazioni diverse nella raccolta o reporting dei dati di tali siti da parte di Analytics rispetto ai siti web tradizionali. Infatti, poiché Analytics già include il tracciamento offline, puoi sfruttare questa funzionalità incorporata più facilmente con le PWA che con i siti web tradizionali.
 
 ## Ottenere i dati PWA Analytics
 

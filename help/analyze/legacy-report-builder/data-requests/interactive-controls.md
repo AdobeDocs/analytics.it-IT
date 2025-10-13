@@ -17,15 +17,15 @@ ht-degree: 1%
 
 I controlli interattivi consentono di modificare segmenti e intervalli di date per una o più richieste direttamente dal foglio di lavoro. Questo offre maggiore flessibilità nell’aggiornamento delle richieste di Report Builder.
 
-I controlli interattivi sono stati creati in risposta a un flusso di lavoro comune in cui gli analisti creano cartelle di lavoro e le condividono con l’organizzazione di marketing. I controlli interattivi consentono agli addetti al marketing di modificare e aggiornare le richieste senza dover conoscere a fondo il funzionamento del Report Builder. Per aggiornare una richiesta, il destinatario della cartella di lavoro deve essere un utente del Report Builder. Questi controlli funzionano all&#39;interno di cartelle di lavoro pianificate. Sono attualmente disponibili due tipi di controlli interattivi:
+I controlli interattivi sono stati creati in risposta a un flusso di lavoro comune in cui gli analisti creano cartelle di lavoro e le condividono con l’organizzazione di marketing. I controlli interattivi consentono agli addetti al marketing di modificare e aggiornare le richieste senza dover conoscere a fondo il funzionamento di Report Builder. Per aggiornare una richiesta, il destinatario della cartella di lavoro deve essere un utente di Report Builder. Questi controlli funzionano all&#39;interno di cartelle di lavoro pianificate. Sono attualmente disponibili due tipi di controlli interattivi:
 
 * Intervallo date continuo
 * Segmenti
 
 >[!IMPORTANT]
 >
->Affinché i controlli interattivi funzionino è necessario che sia installato Report Builder v5.0. >
->* Se Microsoft Excel è in esecuzione ma è in esecuzione una versione di Report Builder precedente o se non è installato alcun Report Builder, è possibile modificare il valore nel controllo interattivo, ma non aggiornerà la richiesta associata né i parametri associati alla richiesta.
+>Per il funzionamento dei controlli interattivi è necessario che sia installato Report Builder v5.0. >
+>* Se Microsoft Excel è in esecuzione ma è in esecuzione una versione inferiore di Report Builder o se non è installato Report Builder, è possibile modificare il valore nel controllo interattivo, ma la richiesta associata non verrà aggiornata né i parametri associati alla richiesta.
 >* Se si esegue Excel su Mac, la modifica del valore nel controllo causerà la visualizzazione del seguente messaggio: &quot;Impossibile trovare la macro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39;.&quot;
 >
 

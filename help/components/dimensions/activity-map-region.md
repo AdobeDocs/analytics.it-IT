@@ -3,7 +3,8 @@ title: Area geografica di Activity Map
 description: L’area del sito su cui hai fatto clic.
 feature: Dimensions
 role: User, Admin
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+exl-id: e262e537-ce73-492a-8ab3-b88cd77cb8c5
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 5%
@@ -12,7 +13,7 @@ ht-degree: 5%
 
 # Area geografica di Activity Map
 
-Nella &#39;Area Activity Map&#39; [dimensione](overview.md) sono visualizzate le aree del sito in cui si è fatto più clic. Questa dimensione è utile quando desideri confrontare i clic tra aree generali del sito anziché tra singoli collegamenti. È utile anche per le aree del sito che forniscono contenuti dinamici. Ad esempio, se hai una pagina iniziale con articoli di notizie rotanti, utilizzare la dimensione [Collegamento Activity Map](activity-map-link.md) sarebbe difficile perché il testo del collegamento cambia costantemente. Tuttavia, poiché tali collegamenti utilizzano la stessa area, è possibile analizzarne le prestazioni anche se i singoli collegamenti potrebbero cambiare ogni giorno.
+Nella &#39;Area geografica Activity Map&#39; [dimensione](overview.md) sono visualizzate le aree del sito in cui è stato fatto più clic. Questa dimensione è utile quando desideri confrontare i clic tra aree generali del sito anziché tra singoli collegamenti. È utile anche per le aree del sito che forniscono contenuti dinamici. Ad esempio, se hai una pagina iniziale con articoli di notizie rotanti, usare la dimensione [Activity Map Link](activity-map-link.md) sarebbe difficile perché il testo del collegamento cambia costantemente. Tuttavia, poiché tali collegamenti utilizzano la stessa area, è possibile analizzarne le prestazioni anche se i singoli collegamenti potrebbero cambiare ogni giorno.
 
 ## Popolare questa dimensione con i dati
 

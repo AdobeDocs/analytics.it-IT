@@ -1,6 +1,6 @@
 ---
 description: Scopri come applicare la formattazione standard e limitata agli intervalli di celle.
-title: Come formattare la data nel Report Builder
+title: Come formattare la data in Report Builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
@@ -8,7 +8,7 @@ exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Nella tabella seguente viene descritto come utilizzare le abbreviazioni di data 
 | dd/MM/yyyy | Data numerica completa | 03/14/2012 |
 | M | Numero di mesi | 3 |
 | MM | Numero di mesi con riempimento 0 per mesi &lt; 10 | 03 |
-| MMM | Nome breve del mese | mar |
+| MMM | Nome breve del mese | Mar |
 | MMMM | Nome lungo del mese | Marzo |
 | D | Nome lungo della data | giovedì 14 marzo 2012 |
 | d | Numero di giorni | 14 |

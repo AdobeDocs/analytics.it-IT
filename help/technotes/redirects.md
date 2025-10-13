@@ -129,7 +129,7 @@ Queste variabili saranno rappresentate come i seguenti parametri nel [Experience
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>Referente originale </p> </td> 
+   <td> <p>Referrer originale </p> </td> 
    <td> <p> <span class="filepath"> https://www.google.com/search%3F hl%3Den %26ie%3DUTF826q%3 Ddiscount%2Bairline%2Bticket </span> </p> </td> 
    <td> <p> <span class="filepath"> r=https:/ref=www.google.com/search?hl=en&amp;ie=UTF -8&amp;q=sconto+compagnia aerea+biglietti </span> </p> </td> 
   </tr> 

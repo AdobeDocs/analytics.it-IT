@@ -17,7 +17,7 @@ Le origini dati di Adobe Analytics ti consentono di importare ulteriori dati onl
 
 1. La tua organizzazione raccoglie dati da altre origini. Alcuni esempi includono dati pre-clic, dati del call center o informazioni sulle transazioni avvenute al di fuori del sito.
 1. I dati vengono formattati in modo tale che Adobe Analytics possa comprenderli utilizzando un file di testo delimitato da tabulazioni.
-1. Caricare il file di testo in un Adobe del sito FTP fornito, insieme a un file `.fin` associato.
+1. Carichi il file di testo su un sito FTP fornito da Adobe, insieme a un file `.fin` associato.
 1. Adobe acquisisce il file di testo e visualizza tali dati insieme alle dimensioni e alle metriche raccolte sul sito.
 
 Adobe offre due tipi generali di origini dati. Tutti i modelli di origine dati si basano su uno dei due tipi seguenti:

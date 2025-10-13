@@ -9,7 +9,7 @@ exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
 source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -62,7 +62,7 @@ Per selezionare le date utilizzando il calendario
 
 Per impostare un intervallo di date in ordine inverso, fare clic prima sulla data di fine e quindi sulla data di inizio.
 
-![Riquadro Report Builder intervallo date che mostra il calendario, la data di fine e la data di inizio selezionate.](./assets/image18.png)
+![Riquadro dell&#39;intervallo di date di Report Builder che mostra il calendario, la data di fine e la data di inizio selezionate.](./assets/image18.png)
 
 ### Menu a discesa Predefinito
 
@@ -76,7 +76,7 @@ L’opzione Rollout date consente di selezionare un intervallo di date utilizzan
 
 1. Seleziona un’espressione continua per la data di inizio e/o di fine.
 
-   ![Riquadro Report Builder intervallo date che mostra Usa date continue selezionate ed espressione continua.](./assets/image19.png)
+   ![Riquadro Intervallo date di Report Builder che mostra Usa date continue selezionate ed espressione continua.](./assets/image19.png)
 
    **Inizio di** - Consente di selezionare l&#39;inizio di un giorno, una settimana, un mese, un trimestre o un anno.
 
@@ -86,11 +86,11 @@ L’opzione Rollout date consente di selezionare un intervallo di date utilizzan
 
 1. Scegliere giorno, settimana, mese, trimestre o anno come periodo continuo.
 
-   ![Riquadro dell&#39;intervallo di date del Report Builder che mostra il giorno corrente selezionato.](./assets/image20.png)
+   ![Riquadro dell&#39;intervallo di date di Report Builder che mostra il giorno corrente selezionato.](./assets/image20.png)
 
 1. Aggiungere o sottrarre giorni, settimane, mesi, trimestri o anni dalla data di rotazione.
 
-   ![riquadro Intervallo date Report Builder che mostra il giorno corrente più 14 giorni selezionati.](./assets/image21.png)
+   ![Riquadro Intervallo date di Report Builder che mostra il giorno corrente più 14 giorni selezionati.](./assets/image21.png)
 
 1. Fai clic su Successivo per definire l’intervallo di dati.
 
@@ -143,7 +143,7 @@ Nella tabella seguente sono elencati alcuni esempi di operatori di date.
 |----------------|---------|--------------------|
 | +6d | Giorno | Aggiungi 6 giorni alla data di riferimento |
 | +1 w | Settimana | Aggiungi una settimana intera alla data di riferimento |
-| -2 m | Mese | Sottrarre 2 mesi interi alla data di riferimento |
+| -2m | Mese | Sottrarre 2 mesi interi alla data di riferimento |
 | -4q | Trimestre | Sottrarre 4 trimestri alla data di riferimento |
 | -1 anno | Anno | Sottrai un anno alla data di riferimento |
 
@@ -202,4 +202,4 @@ Per modificare l’intervallo di date dal pannello QUICK EDIT (MODIFICA RAPIDA)
 1. Fai clic su **Applica**.
 
 
-Il nuovo intervallo di date viene applicato dal Report Builder a tutti i blocchi di dati della selezione.
+Report Builder applica il nuovo intervallo di date a tutti i blocchi di dati della selezione.

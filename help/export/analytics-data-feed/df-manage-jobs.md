@@ -65,4 +65,4 @@ Ogni processo mostra diverse colonne che forniscono informazioni al riguardo. Fa
    * In attesa di esportazione: i dati per l’intervallo di reporting non sono ancora stati completamente elaborati.
    * Nessun dato: non sono presenti dati nella suite di rapporti per l’intervallo di reporting richiesto.
 * **Ora di completamento**: l&#39;ora in cui il processo è stato completato. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT.
-* **Data richiesta**: l&#39;intervallo di reporting del file. I feed giornalieri in genere mostrano le 00:00 - 23:59 con una differenza GMT, che indica un giorno completo in base al fuso orario della suite di rapporti. I feed orari mostrano la singola ora a cui il processo è destinato.
+* **Data richiesta**: l&#39;intervallo di reporting del file. I feed giornalieri in genere mostrano 00:00 - 23:59 con una differenza GMT, che indica un giorno completo in base al fuso orario della suite di rapporti. I feed orari mostrano la singola ora a cui il processo è destinato.

@@ -20,4 +20,4 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi Dimension includono i numeri da `1` a `31` che rappresentano il giorno del mese in cui si è verificato l&#39;hit.
+Gli elementi di Dimension includono i numeri da `1` a `31` che rappresentano il giorno del mese in cui si è verificato l&#39;hit.

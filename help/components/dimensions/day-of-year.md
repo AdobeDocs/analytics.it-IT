@@ -20,4 +20,4 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi Dimension includono i numeri da `1` (1° gennaio) a `366` (31 dicembre dell&#39;anno bisestile), che rappresentano il giorno dell&#39;anno in cui si è verificato l&#39;hit.
+Gli elementi di Dimension includono i numeri da `1` (1° gennaio) a `366` (31 dicembre dell’anno bisestile), che rappresentano il giorno dell’anno in cui si è verificato l’hit.

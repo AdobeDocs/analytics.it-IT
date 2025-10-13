@@ -20,4 +20,4 @@ Puoi copiare le celle mappate con più di una richiesta e incollare il contenuto
 
 Dopo aver copiato le celle, Report Builder ed Excel determinano l&#39;area necessaria per incollare la quantità minima di copie. Se l’area è sufficientemente grande, l’operazione Incolla crea una copia di tutte le richieste, dove ogni richiesta incollata ha la stessa disposizione spaziale e la stessa formattazione delle richieste originali.
 
-Questa operazione è nota come propagazione della richiesta. Si tratta di un modo semplice e rapido per creare un rapporto lungo. Il Report Builder propaga innanzitutto le richieste incollando tutte le richieste nelle celle per l’area incolla di destinazione, quindi aggiorna le celle in base alle date del rapporto stabilite per le richieste.
+Questa operazione è nota come propagazione della richiesta. Si tratta di un modo semplice e rapido per creare un rapporto lungo. Report Builder propaga innanzitutto le richieste incollando tutte le richieste nelle celle dell’area incolla di destinazione, quindi aggiorna le celle in base alle date del rapporto stabilite per le richieste.

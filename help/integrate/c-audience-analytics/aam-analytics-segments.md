@@ -27,7 +27,7 @@ L’iscrizione al segmento Audience Manager è fluida. Gli utenti possono inseri
 
 In Analytics, un segmento di Audience Manager è identificato come un pubblico.
 
-Per ulteriori informazioni, consulta [Dati sulle caratteristiche e sulla popolazione dei segmenti nel Generatore di segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=it) e [Segnali, caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=it).
+Per ulteriori informazioni, consulta [Dati sulle caratteristiche e sulla popolazione dei segmenti nel Generatore di segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) e [Segnali, caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Segmenti di Analytics {#analytics-segments}
 

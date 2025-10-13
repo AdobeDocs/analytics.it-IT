@@ -29,7 +29,7 @@ Qualsiasi riga che inizia con &#39;`#`&#39; è un commento. Quando si scarica un
 * Il primo commento indica il tipo di modello configurato per l&#39;origine dati, l&#39;ID utente backend che ha creato l&#39;origine dati e l&#39;ID origine dati.
 * Il secondo commento fornisce nomi descrittivi per ciascuna delle intestazioni incluse nel file modello.
 
-Tutte le righe di commento vengono ignorate per Adobe quando il file viene elaborato, in modo da poter rimuovere i commenti del modello o aggiungerne altri in tutto il file. È possibile aggiungere commenti solo a righe intere, ma non a singoli campi o a righe parziali.
+Tutte le righe di commento vengono ignorate da Adobe durante l’elaborazione del file, per consentire di rimuovere i commenti del modello o aggiungerne di nuovi in tutto il file. È possibile aggiungere commenti solo a righe intere, ma non a singoli campi o a righe parziali.
 
 ## Intestazioni
 
@@ -42,7 +42,7 @@ Durante il caricamento di file di origine dati, sono necessarie intestazioni di 
 | Dimensione | Intestazione origine dati |
 | --- | --- |
 | [Categoria](/help/components/dimensions/category.md) | `Category` |
-| [eVar 1 - eVar 250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
+| [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
 | [Canale di marketing](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
 | [Dettagli canale di marketing](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [Prodotto](/help/components/dimensions/product.md) | `Product` |
@@ -52,7 +52,7 @@ Durante il caricamento di file di origine dati, sono necessarie intestazioni di 
 
 {style="table-layout:auto"}
 
-Dimension e metriche vanno nella stessa riga di intestazione.
+Dimensioni e metriche vanno nella stessa riga di intestazione.
 
 | Metrica | Intestazione origine dati |
 | --- | --- |
@@ -81,12 +81,12 @@ Se si omettono le ore/minuti/secondi, la marca temporale viene impostata automat
 
 Un singolo file di origine dati supporta fino a 90 giorni univoci. Se vuoi includere più di 90 giorni univoci in un caricamento, suddividi i dati in più file.
 
-## Dati di Dimension e metriche
+## Dati Dimension e metriche
 
 I valori successivi dopo la data in ogni riga contengono i dati da caricare. Ogni riga corrisponde alla rispettiva marca temporale. Assicurati che su ogni riga esista lo stesso numero di schede. Le colonne possono essere in qualsiasi ordine; assicurati che i dati in ogni riga siano allineati con le intestazioni nella parte superiore. La quantità massima di dati che una singola riga può avere è di 4096 byte.
 
-I dati del Dimension non possono contenere punti e virgola (`;`). Le righe contenenti punti e virgola vengono ignorate.
+I dati di Dimension non possono contenere punti e virgola (`;`). Le righe contenenti punti e virgola vengono ignorate.
 
 ## Passaggi successivi
 
-[Caricamento file](file-upload.md): scopri come caricare un file di origini dati per l&#39;acquisizione da parte di Adobe.
+[Caricamento file](file-upload.md): scopri come caricare un file di origini dati da acquisire tramite Adobe.

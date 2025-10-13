@@ -35,6 +35,6 @@ Per configurare un messaggio e-mail di notifica per una richiesta Data Warehouse
 
    {style="table-layout:auto"}
 
-1. Seleziona [!UICONTROL **Salva richiesta**] per salvare la richiesta di Data Warehouse rapporto.
+1. Seleziona [!UICONTROL **Salva richiesta**] per salvare la richiesta del rapporto di Data Warehouse.
 
    Ora puoi esportare i dati nell’account e nella posizione configurati.

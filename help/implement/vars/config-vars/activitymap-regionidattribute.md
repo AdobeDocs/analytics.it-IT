@@ -21,7 +21,7 @@ Quando **[!UICONTROL Enable click data collection]** è abilitato, utilizzare il
 
 ## Attributo ID area nella libreria JavaScript di Web SDK
 
-Quando [`clickCollectionEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) è abilitato, utilizzare il callback `filterClickDetails` nell&#39;oggetto `clickCollection`. All&#39;interno di questo callback, è possibile controllare il valore di `clickedElement` e personalizzare la logica dell&#39;area raccolta.
+Quando [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) è abilitato, utilizzare il callback `filterClickDetails` nell&#39;oggetto `clickCollection`. All&#39;interno di questo callback, è possibile controllare il valore di `clickedElement` e personalizzare la logica dell&#39;area raccolta.
 
 ```js
 alloy("configure", {

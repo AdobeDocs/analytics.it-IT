@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 23%
+source-wordcount: '560'
+ht-degree: 24%
 
 ---
 
@@ -22,7 +22,7 @@ Aggiungere, rimuovere o sostituire metriche in una richiesta preesistente o in u
 Quando aggiungi metriche, prendi in considerazione le seguenti linee guida:
 
 * Le metriche possono essere aggiunte solo alle richieste di layout pivot.
-Se alcune delle richieste selezionate sono Layout personalizzati, non è possibile aggiungere metriche. Se il layout è personalizzato, il Report Builder non sa dove collocare la nuova metrica nel foglio di calcolo.
+Se alcune delle richieste selezionate sono Layout personalizzati, non è possibile aggiungere metriche. Se il layout è personalizzato, Report Builder non sa dove collocare la nuova metrica nel foglio di calcolo.
 * Se si selezionano solo richieste di layout personalizzato, l&#39;opzione **[!UICONTROL Add Metrics]** non è disponibile.
 * L’aggiunta di metriche aumenta le dimensioni di una richiesta e potrebbe causarne la sovrapposizione con un’altra richiesta. Assicurati che la richiesta disponga di spazio sufficiente intorno a essa per consentire l’aggiunta di metriche.
 * Se la metrica aggiunta è già presente in una delle richieste selezionate, non verrà aggiunta a tale richiesta.
@@ -30,7 +30,7 @@ Se alcune delle richieste selezionate sono Layout personalizzati, non è possibi
 Per aggiungere una o più metriche
 
 1. Seleziona una o più richieste in Excel e fai clic con il pulsante destro del mouse per selezionare **[!UICONTROL Edit Metrics]**. (Oppure fai clic su **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** per selezionare il gruppo di richieste da modificare.)
-1. Seleziona **[!UICONTROL Add Metric(s)]**&#x200B;e seleziona le metriche da aggiungere.
+1. Seleziona **[!UICONTROL Add Metric(s)]**e seleziona le metriche da aggiungere.
 
    ![Schermata che mostra l&#39;opzione Modifica richiesta, Aggiungi metriche selezionata.](assets/add_metric.png)
 
@@ -40,7 +40,7 @@ Per aggiungere una o più metriche
 
 Quando sostituisci le metriche, considera le seguenti linee guida:
 
-* Sono consentite solo sostituzioni 1:1. 1:molti o molti:1 non sono consentiti.
+* Sono consentite solo 1:1 sostituzioni. 1:many o molti:1 non sono consentiti.
 * Se la metrica selezionata non è presente in una delle richieste selezionate, la richiesta viene lasciata invariata.
 * La nuova metrica viene posizionata nella stessa posizione della metrica sostituita.
 

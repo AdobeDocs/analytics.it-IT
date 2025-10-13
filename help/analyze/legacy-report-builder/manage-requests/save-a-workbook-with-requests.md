@@ -16,9 +16,9 @@ ht-degree: 1%
 
 {{legacy-arb}}
 
-Quando crei report con richieste incorporate, puoi salvarli utilizzando **File** > **Salva** o **File** > **Salva con nome** in Excel. Il Report Builder rileva se il rapporto contiene richieste. Quando selezioni una delle opzioni di salvataggio, completa il modulo **Salva cartella di lavoro come**.
+Quando crei report con richieste incorporate, puoi salvarli utilizzando **File** > **Salva** o **File** > **Salva con nome** in Excel. Report Builder rileva se il rapporto contiene richieste. Quando selezioni una delle opzioni di salvataggio, completa il modulo **Salva cartella di lavoro come**.
 
-* Come best practice per l&#39;utilizzo intensivo delle applicazioni Windows, Adobe consiglia di salvare le richieste nel foglio di calcolo spesso e regolarmente per evitare una perdita imprevista di richieste nel foglio di lavoro.
+* Come best practice per qualsiasi lavoro esteso con le applicazioni Windows, Adobe consiglia di salvare le richieste nel foglio di calcolo spesso e regolarmente per evitare una perdita imprevista di richieste nel foglio di lavoro.
 * Quando si assegna un nome alla cartella di lavoro, è consigliabile utilizzare un numero di versione nel nome del file in modo da poter conservare una cronologia di lavoro. Ad esempio, assegnare un nome alla prima cartella di lavoro [!DNL web_forecast_01_01.xlsx].
 * Se il report è già stato salvato, la maschera [!UICONTROL Save Template] non viene visualizzata quando si salva il report una seconda volta. Se il report non contiene richieste, questa finestra di dialogo non viene visualizzata. Viene invece visualizzato il modulo standard di Excel [!UICONTROL Save As].
 

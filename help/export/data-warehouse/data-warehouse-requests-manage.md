@@ -7,25 +7,25 @@ exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Gestire le richieste di Data Warehouse
 
-Puoi visualizzare e gestire le richieste Data Warehouse che hai effettuato. Solo gli amministratori possono visualizzare e gestire le richieste effettuate da altri utenti dell’organizzazione.
+Puoi visualizzare e gestire le richieste di Data Warehouse che hai effettuato. Solo gli amministratori possono visualizzare e gestire le richieste effettuate da altri utenti dell’organizzazione.
 
 Le sezioni seguenti descrivono le attività che è possibile eseguire durante la gestione delle richieste.
 
 ## Visualizzare richieste
 
-Per impostazione predefinita, è possibile visualizzare solo le richieste create, a meno che gli utenti non abbiano scelto di rendere le proprie richieste visibili ad altri utenti dell&#39;organizzazione (come descritto in [Data Warehouse impostazioni generali della richiesta](/help/export/data-warehouse/create-request/dw-general-settings.md)). Gli amministratori di sistema possono visualizzare tutte le richieste.
+Per impostazione predefinita, è possibile visualizzare solo le richieste create, a meno che gli utenti non abbiano scelto di rendere le proprie richieste visibili ad altri utenti dell&#39;organizzazione (come descritto in [Impostazioni generali richieste Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md)). Gli amministratori di sistema possono visualizzare tutte le richieste.
 
 Per visualizzare le richieste Data Warehouse:
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Strumenti**] > [!UICONTROL **Data Warehouse**].
 
-   Nella pagina Data Warehouse vengono visualizzate tutte le richieste effettuate dall&#39;utente. I dati vengono visualizzati in ogni colonna. Puoi [configurare quali colonne](#configure-columns) sono visibili.
+   Nella pagina Data Warehouse vengono visualizzate tutte le richieste effettuate dall’utente. I dati vengono visualizzati in ogni colonna. Puoi [configurare quali colonne](#configure-columns) sono visibili.
 
    <!-- add screenshot of main page -->
 
@@ -65,7 +65,7 @@ Per modificare una richiesta pianificata:
 
 ## Visualizzare la cronologia di una richiesta
 
-Puoi visualizzare la cronologia di qualsiasi richiesta Data Warehouse effettuata.
+Puoi visualizzare la cronologia di tutte le richieste Data Warehouse che hai effettuato.
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Strumenti**] > [!UICONTROL **Data Warehouse**].
 
@@ -75,7 +75,7 @@ Puoi visualizzare la cronologia di qualsiasi richiesta Data Warehouse effettuata
 
 1. Selezionare [!UICONTROL **Visualizza cronologia**].
 
-   Nella pagina [!UICONTROL **Visualizza richiesta di Data Warehouse**] è visualizzato l&#39;elenco delle singole consegne di report associate alla richiesta.
+   Nella pagina [!UICONTROL **Visualizza richiesta Data Warehouse**] è visualizzato un elenco delle singole consegne di report associate alla richiesta.
 
    Selezionare l&#39;icona **Configura colonna** ![Configura icona colonna](assets/configure-column-icon.png) per nascondere le colonne o visualizzarne altre non visualizzate per impostazione predefinita.
 
@@ -92,8 +92,8 @@ Puoi visualizzare la cronologia di qualsiasi richiesta Data Warehouse effettuata
    | [!UICONTROL **Stato**] | Stato della consegna del rapporto. Gli stati possibili sono:<ul><li>[!UICONTROL **Creato**]: il report è stato creato ma non è ancora stato elaborato.</li><li>[!UICONTROL **In sospeso**]: il report è in attesa di elaborazione.</li><li>[!UICONTROL **Elaborazione**]: report in corso.</li><li>[!UICONTROL **Completato**]: report completato ed ora disponibile.</li><li>[!UICONTROL **Pianificato**]: report pianificato ma non ancora avviato.</li><li>[!UICONTROL **Annullato**]: report annullato dall&#39;utente.</li><li>[!UICONTROL **Errore - Elaborazione**:] Il report ha rilevato un errore e non è stato possibile elaborarlo.</li><li>[!UICONTROL **Errore - Impossibile inviare**]: il report è stato generato correttamente ma non è stato possibile recapitare. Controlla la [configurazione della tua destinazione](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), quindi invia nuovamente il rapporto.</li></ul>. |
    | [!UICONTROL **Da**] | Data di inizio dell’intervallo di tempo complessivo incluso nel rapporto.<p>Viene visualizzato nel fuso orario della suite di rapporti.</p> |
    | [!UICONTROL **A**] | Data di fine dell’intervallo di tempo complessivo incluso nel rapporto. <p>Viene visualizzato nel fuso orario della suite di rapporti.</p> |
-   | [!UICONTROL **ID richiesta legacy**] | ID utilizzato per identificare un report nell&#39;interfaccia Data Warehouse legacy. Questo ID potrebbe essere necessario quando si contatta l’Assistenza clienti di Adobe. |
-   | [!UICONTROL **ID report**] | ID utilizzato per identificare un report nell&#39;interfaccia Data Warehouse corrente. Questo ID potrebbe essere necessario quando si contatta l’Assistenza clienti di Adobe. |
+   | [!UICONTROL **ID richiesta legacy**] | ID utilizzato per identificare un rapporto nell’interfaccia legacy di Data Warehouse. Questo ID potrebbe essere necessario per contattare l’Assistenza clienti di Adobe. |
+   | [!UICONTROL **ID report**] | ID utilizzato per identificare un rapporto nell’interfaccia corrente di Data Warehouse. Questo ID potrebbe essere necessario per contattare l’Assistenza clienti di Adobe. |
 
 
 1. Seleziona una consegna di rapporti, quindi seleziona una delle seguenti opzioni:

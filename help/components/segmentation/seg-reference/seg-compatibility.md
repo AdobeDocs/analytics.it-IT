@@ -99,4 +99,4 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
  </tbody> 
 </table>
 
-*Nota: Data Warehouse non supporta tutti i casi di utilizzo di un contenitore `exclusion` o `without` quando si utilizza `AND/OR`. Quando si utilizza questa combinazione, solo i segmenti che possono essere riscritti come `A AND NOT B` (o **includi questa caratteristica**&#x200B;ed **escludi questa caratteristica**) sono supportati in Data Warehouse.*
+*Nota: Data Warehouse non supporta tutti i casi di utilizzo di un contenitore `exclusion` o `without` quando si utilizza `AND/OR`. Quando si utilizza questa combinazione, solo i segmenti che possono essere riscritti come `A AND NOT B` (o **includi questa caratteristica**ed **escludi questa caratteristica**) sono supportati in Data Warehouse.*

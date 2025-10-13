@@ -20,7 +20,7 @@ Ad esempio, tutti i dati potrebbero essere raccolti in una singola suite di rapp
 
 Una *suite di rapporti virtuale* consente di riprodurre questo concetto di diramazione utilizzando segmenti invece di più suite di rapporti. I dati vengono inviati a una suite di rapporti, quindi vengono suddivisi in base ai segmenti. Utilizzando l’esempio di più marchi, puoi impostare una proprietà per il marchio a cui appartiene un articolo. Utilizzando i segmenti, puoi creare rapporti sugli elementi assegnati a ciascuna proprietà. Ognuno di questi segmenti diventa la propria vista, creando in modo efficace una nuova suite di rapporti. Non si inviano dati specifici a quel segmento, ma solo alla suite di rapporti globale, ma nei rapporti funziona come se si trattasse di una suite di rapporti diversa.
 
-Una suite di rapporti virtuale eredita la maggior parte dei livelli di servizio della suite di rapporti di base, come le impostazioni eVar, le regole di elaborazione, le classificazioni e così via. LE seguenti impostazioni NON vengono ereditate:
+Una suite di rapporti virtuale eredita la maggior parte dei livelli di servizio della suite di rapporti di base, come le impostazioni di eVar, le regole di elaborazione, le classificazioni e così via. LE seguenti impostazioni NON vengono ereditate:
 
 * ID suite di rapporti (RSID)
 * Nome suite di rapporti
@@ -45,7 +45,7 @@ Le suite di rapporti virtuali presentano le seguenti limitazioni:
 
 * Eventuali limitazioni dei segmenti si applicano anche alle suite di rapporti virtuali
 
-  Una suite di rapporti virtuale non è altro che un segmento applicato a una suite di rapporti. Poiché ogni suite di rapporti ha una propria Data Warehouse e un proprio feed di dati, l’utilizzo di più suite di rapporti offre alcuni vantaggi che i segmenti non forniscono.
+  Una suite di rapporti virtuale non è altro che un segmento applicato a una suite di rapporti. Poiché ogni suite di rapporti ha un proprio Data Warehouse e un proprio Feed di dati, l’utilizzo di più suite di rapporti comporta alcuni vantaggi che i segmenti non forniscono.
 * Rapporto in tempo reale
 * Le impostazioni e i nomi delle variabili non possono essere personalizzati come in una suite di rapporti completa
 
@@ -66,4 +66,4 @@ Le suite di rapporti virtuali presentano le seguenti limitazioni:
 
 In alcuni casi, l’utilizzo di suite di rapporti virtuali e di tag per più suite presenta alcuni vantaggi.
 
-Ad esempio, un rivenditore potrebbe utilizzare una suite di rapporti per ogni marchio e suite di rapporti virtuali per ogni marchio per suddividere i dati per regione. Allo stesso modo, un&#39;organizzazione sportiva potrebbe utilizzare una suite di rapporti per ogni squadra, poi suite di rapporti virtuali per dividere i tifosi nella regione della squadra da quelli al di fuori della regione.
+Ad esempio, una retailer potrebbe utilizzare una suite di rapporti per ogni marchio e suite di rapporti virtuali per ogni marchio per suddividere i dati per regione. Allo stesso modo, un&#39;organizzazione sportiva potrebbe utilizzare una suite di rapporti per ogni squadra, poi suite di rapporti virtuali per dividere i tifosi nella regione della squadra da quelli al di fuori della regione.

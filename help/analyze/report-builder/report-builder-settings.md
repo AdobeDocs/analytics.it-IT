@@ -1,5 +1,5 @@
 ---
-title: Come configurare le impostazioni per il Report Builder in Adobe Analytics
+title: Configurare le impostazioni per Report Builder in Adobe Analytics
 description: Descrive come impostare la modalità offline, la lingua, la data di fine e le impostazioni per la risoluzione dei problemi.
 role: Admin
 feature: Report Builder
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Utilizza il riquadro **Impostazioni** per configurare le impostazioni a livello di applicazione, ad esempio la lingua visualizzata dall&#39;interfaccia utente o se utilizzare o meno la modalità offline. Le impostazioni vengono applicate immediatamente e vengono impostate per tutte le sessioni future fino a quando non vengono modificate.
 
-Per modificare le impostazioni del Report Builder
+Per modificare le impostazioni di Report Builder
 
 1. Fai clic sull&#39;icona **Impostazioni**.
 
@@ -43,15 +43,15 @@ Per attivare la modalità offline
 
 ## Lingua
 
-Puoi scegliere la lingua per l’interfaccia utente del Report Builder. Sono disponibili tutte le lingue Adobe Analytics supportate.
+Puoi scegliere la lingua per l’interfaccia utente di Report Builder. Sono disponibili tutte le lingue Adobe Analytics supportate.
 
-Per selezionare la lingua utilizzata nell’interfaccia utente del Report Builder
+Per selezionare la lingua utilizzata nell’interfaccia utente di Report Builder
 
 1. Fai clic su Impostazioni.
 
 1. Selezionare una lingua dal menu a discesa **[!UICONTROL Language]**.
 
-   ![Riquadro Report Builder intervallo date che mostra l&#39;elenco delle lingue con l&#39;inglese selezionato.](./assets/image39.png)
+   ![Riquadro dell&#39;intervallo di date di Report Builder che mostra l&#39;elenco delle lingue con l&#39;inglese selezionato.](./assets/image39.png)
 
 1. Fai clic su **[!UICONTROL Apply].**
 

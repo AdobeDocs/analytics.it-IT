@@ -15,19 +15,19 @@ ht-degree: 80%
 
 Semplicemente non puoi misurare tutto e l’implementazione di Adobe Analytics avrà il maggior successo se assegni priorità alla misurazione di ciò che è più importante per l’azienda. Collabora con i leader aziendali per definire gli indicatori delle prestazioni chiave (KPI, Key Performance Indicators) più rilevanti per la tua azienda. Quindi concentra i tuoi sforzi sulle metriche e le variabili che supportano tali KPI.
 
-## 1. Comprendi gli obiettivi aziendali
+## &#x200B;1. Comprendi gli obiettivi aziendali
 
 Comincia con la comprensione degli obiettivi aziendali, in modo da poter scegliere i 5 KPI più importanti per il business. Questi KPI possono essere metriche quali ricavi, metriche calcolate come ricavi per visita e anche variabili. NON copiare KPI casuali da altre aziende o standard di settore; probabilmente non rientreranno negli obiettivi aziendali.
 
-## 2. Poni la domanda cruciale
+## &#x200B;2. Poni la domanda cruciale
 
-Chiediti: se il mio amministratore delegato fosse bloccato su un’isola e gli diceste solo 5 cose sullo stato dell’azienda, quali sarebbero? Se le diceste che il tempo medio trascorso su una pagina era 1:30, non l&#39;aiuterebbe affatto. Tuttavia, se gli hai detto che il tuo reddito medio per visita era di 2.00 $ e hai avuto 2 milioni di visite, questo gli darà una vera indicazione del successo commerciale.
+Chiediti: se il mio amministratore delegato fosse bloccato su un’isola e gli diceste solo 5 cose sullo stato dell’azienda, quali sarebbero? Se le dicessi che il tempo medio trascorso su una pagina era 1:30, non l&#39;aiuterebbe affatto. Tuttavia, se gli hai detto che il tuo reddito medio per visita era di 2.00 $ e hai avuto 2 milioni di visite, questo gli darà una vera indicazione del successo commerciale.
 
-## 3. Ricorda cosa sono e cosa non sono i KPI
+## &#x200B;3. Ricorda cosa sono e cosa non sono i KPI
 
 ![](assets/kpis.png)
 
-## 4. Definisci i KPI
+## &#x200B;4. Definisci i KPI
 
 Compila il tuo grafico, simile a questo:
 
@@ -39,6 +39,6 @@ Compila il tuo grafico, simile a questo:
 | Conversione del sito | Clic CTA / Visualizzazioni di pagina totali |
 | Collegamenti al sito | Visualizzazioni di pagina per visitatore univoco, tempo medio del visitatore sul sito |
 
-## 5. Rivedi regolarmente i KPI
+## &#x200B;5. Rivedi regolarmente i KPI
 
 Aggiorna i KPI almeno ogni 6 mesi - ricorda che le esigenze dell’azienda cambieranno frequentemente!

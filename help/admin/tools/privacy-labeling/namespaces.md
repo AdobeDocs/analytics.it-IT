@@ -21,7 +21,7 @@ La stringa namespace viene usata per identificare i campi in cui si desidera ese
 * Un campo “type” che per la maggior parte delle richieste di Adobe Analytics contiene il valore “analytics”.
 * Un campo “value” contenente l’ID che Analytics deve cercare nelle variabili namespace associate di ciascuna suite di rapporti.
 
-Per ulteriori informazioni e per un [elenco degli spazi dei nomi di identità standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it), consulta la [documentazione API Privacy dei dati per Experience Cloud](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix#standard-namespaces). Vedi [Creare un processo di accesso/eliminazione](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/privacy-jobs#access-delete) per una richiesta di esempio.
+Per ulteriori informazioni e per un [elenco degli spazi dei nomi di identità standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it), consulta la [documentazione API Privacy dei dati per Experience Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). Vedi [Creare un processo di accesso/eliminazione](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) per una richiesta di esempio.
 
 ## ID cookie
 

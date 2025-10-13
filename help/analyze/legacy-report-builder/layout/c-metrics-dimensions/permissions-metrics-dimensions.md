@@ -30,6 +30,6 @@ Segui queste istruzioni per **ogni** cartella di lavoro di Report Builder gestit
 1. Aggiorna tutte le richieste.
 1. Se viene richiesto un errore di autorizzazione di accesso utente, fare clic su **[!UICONTROL Open CSV File]** per accedere all&#39;elenco degli errori relativi alle autorizzazioni limitate.
 1. Crea un file &quot;AllRestrictedPermissionErrors.xlsx&quot; e copia/incolla l’elenco degli errori di autorizzazione con restrizioni dal file CSV in questo file.
-1. Chiudere la cartella di lavoro del Report Builder.
+1. Chiudere la cartella di lavoro di Report Builder.
 
 Dopo aver elaborato tutte le cartelle di lavoro, è necessario disporre di un elenco completo degli errori di autorizzazione con restrizioni in &quot;AllRestrictedPermissionErrors.xlsx&quot;. Invia questo elenco all’amministratore degli accessi utente di Adobe Analytics, chiedendogli di concederti l’accesso alle metriche e alle dimensioni.

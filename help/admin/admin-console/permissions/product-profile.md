@@ -15,7 +15,7 @@ ht-degree: 59%
 
 I profili di prodotto sono predefiniti di autorizzazione che gli amministratori di prodotto possono assegnare agli utenti all’interno di un’organizzazione. Se crei un profilo di prodotto e assegni un utente di Experience Cloud a tale profilo di prodotto, questi ereditano gli elementi di autorizzazione contenuti nel profilo di prodotto.
 
-Per informazioni generali sui profili di prodotto, tra cui la creazione di profili di prodotto e l&#39;assegnazione di utenti, consulta [Gestione dei profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) nella guida utente Enterprise.
+Per informazioni generali sui profili di prodotto, tra cui la creazione di profili di prodotto e l&#39;assegnazione di utenti, consulta [Gestione dei profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) nella guida utente Enterprise.
 
 ## Amministratori del profilo di prodotto
 
@@ -26,7 +26,7 @@ Gli amministratori dei profili di prodotto sono un gruppo facoltativo che può a
 * Gli amministratori dei profili di prodotto possono assegnare o rimuovere i profili di prodotto ai gruppi di utenti.
 * Gli amministratori dei profili di prodotto sono ideali per i lead o i manager dei team che devono concedere e gestire l’accesso ad Adobe Analytics per il proprio team. Gli utenti singoli non dovranno più preoccuparsi degli amministratori di sistema o dei prodotti per concedere l’accesso ad Adobe Analytics.
 
-Per informazioni su come assegnare gli amministratori dei profili di prodotto, consulta la sezione &quot;Gestire gli amministratori dei profili di prodotto&quot; nell&#39;articolo [Gestire i profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) nella guida utente Enterprise.
+Per informazioni su come assegnare gli amministratori dei profili di prodotto, consulta la sezione &quot;Gestire gli amministratori dei profili di prodotto&quot; nell&#39;articolo [Gestire i profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) nella guida utente Enterprise.
 
 ## Autorizzazioni Adobe Analytics
 

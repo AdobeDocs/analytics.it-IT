@@ -16,7 +16,7 @@ La dimensione [dimension](overview.md) del supporto dei cookie persistenti mostr
 
 ## Popolare questa dimensione con i dati
 
-L’Adobe determina il valore di questa dimensione lato server in base all’origine dell’identificatore dell’hit. Non esiste un modo per impostarlo direttamente. Funziona automaticamente per tutte le implementazioni.
+Adobe determina il valore di questa dimensione lato server in base all’origine dell’identificatore dell’hit. Non esiste un modo per impostarlo direttamente. Funziona automaticamente per tutte le implementazioni.
 
 ## Elementi dimensionali
 
@@ -25,5 +25,5 @@ L’Adobe determina il valore di questa dimensione lato server in base all’ori
 
 ## Differenza tra &quot;Supporto cookie&quot; e &quot;Supporto cookie persistente&quot;
 
-* **Supporto cookie**: l&#39;AppMeasurement tenta di impostare un cookie generico. L’elemento dimensione si basa sulla verifica se il cookie è stato impostato correttamente.
+* **Supporto cookie**: AppMeasurement tenta di impostare un cookie generico. L’elemento dimensione si basa sulla verifica se il cookie è stato impostato correttamente.
 * **Supporto cookie persistenti**: l&#39;elemento dimensione si basa sul fatto che l&#39;identificatore dell&#39;hit provenga da un&#39;origine persistente, ad esempio un cookie.

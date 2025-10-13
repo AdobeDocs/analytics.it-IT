@@ -63,4 +63,4 @@ Se non disponi ancora di un modello di attribuzione che fornisca risposte soddis
 
 * Potrebbe essere necessario avvalersi anche di un data scientist, invece di affidarsi solo ad Analysis Workspace.
 * Puoi fare affidamento sui dati non elaborati, come nei feed di dati di Adobe.
-* È consigliabile utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), ad esempio, se si desidera considerare i dati relativi alle impression.
+* È consigliabile utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), ad esempio, se si desidera considerare i dati relativi alle impression.

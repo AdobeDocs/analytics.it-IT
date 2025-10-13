@@ -1,5 +1,5 @@
 ---
-description: Gran parte dell'engagement ai servizi tecnici Adobe prevede lo scambio di dati, attività che spesso richiede l'uso di un FTP.
+description: 'Gran parte dell''engagement ai servizi tecnici Adobe prevede lo scambio di dati, attività che spesso richiede l''uso di un FTP. '
 keywords: ftp;sftp
 title: Engagement ai servizi tecnici con FTP
 feature: FTP Export
@@ -21,7 +21,7 @@ Per informazioni sui limiti FTP e sulla conservazione dei dati, vedere [Limiti F
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
-Analogamente a un caricamento SAINT tramite FTP, [!UICONTROL DB VISTA] riceve dati tramite un caricamento FTP. Per ulteriori informazioni sui formati di file e sulla procedura di caricamento di [!UICONTROL DB VISTA], fare riferimento al [!UICONTROL DB VISTA] Introduzione al [!UICONTROL DB VISTA]white paper, disponibile nella Guida di Adobe Suite dal sito **[!UICONTROL Supporting Docs]** > **[!UICONTROL White Papers]**.
+Analogamente a un caricamento SAINT tramite FTP, [!UICONTROL DB VISTA] riceve dati tramite un caricamento FTP. Per ulteriori informazioni sui formati di file e sul processo di caricamento di [!UICONTROL DB VISTA], fare riferimento al [!UICONTROL DB VISTA] Introduzione al [!UICONTROL DB VISTA]white paper, disponibile nella Guida di Adobe Suite dal sito **[!UICONTROL Supporting Docs]** > **[!UICONTROL White Papers]**.
 
 ## Engagement personalizzati {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 

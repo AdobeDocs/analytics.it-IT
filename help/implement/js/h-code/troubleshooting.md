@@ -25,7 +25,7 @@ Il codice di Analytics crea un’immagine invisibile di 1x1 pixel. In precedenza
 
 Tuttavia, alcuni elementi del codice richiedono l&#39;esistenza dell&#39;oggetto `<body>`. Se il codice JavaScript di Analytics si trova nel tag `<head>`, viene eseguito prima dell&#39;esistenza dell&#39;oggetto `<body>`. Di conseguenza, l&#39;implementazione non raccoglie i dati di [!UICONTROL ClickMap], il tracciamento automatico dei download di file o dei collegamenti di uscita, né i dati del tipo di connessione. L&#39;inserimento del riferimento script in `s_code.js` nel tag `<head>` funziona, ma il risultato è una versione di Analytics molto limitata.
 
-Il codice Analytics può essere posizionato ovunque all&#39;interno del tag `<body>` di una pagina HTML ben formata. L&#39;Adobe consiglia di posizionare il codice Analytics il più vicino possibile alla parte superiore del tag `<body>`. Verificare che tutte le variabili di pagina siano impostate dopo il caricamento del file `s_code.js`.
+Il codice Analytics può essere posizionato ovunque all&#39;interno del tag `<body>` di una pagina HTML ben formata. Adobe consiglia di posizionare il codice Analytics il più vicino possibile alla parte superiore del tag `<body>`. Verificare che tutte le variabili di pagina siano impostate dopo il caricamento del file `s_code.js`.
 
 >[!TIP]
 >

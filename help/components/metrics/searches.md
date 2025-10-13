@@ -18,5 +18,5 @@ La [metrica](overview.md) di &#39;Ricerche&#39; mostra il numero di hit che corr
 
 Questa metrica conta il numero di hit che corrispondono al rilevamento di ricerche esterne di Adobe. Deve corrispondere a entrambi i seguenti elementi:
 
-* Il valore del referente dell’hit è un dominio di ricerca riconosciuto da Adobe
+* Il valore referrer dell’hit è un dominio di ricerca riconosciuto da Adobe
 * L’URL di riferimento dell’hit contiene un parametro di stringa di query per parola chiave. A causa delle moderne procedure sulla privacy, questo valore della stringa di query è solitamente vuoto. Adobe riconosce le stringhe di query vuote per parole chiave come parte del rilevamento di ricerche.

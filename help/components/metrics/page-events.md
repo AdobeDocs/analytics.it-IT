@@ -14,7 +14,7 @@ ht-degree: 6%
 
 La [metrica](overview.md) di &#39;Eventi pagina&#39; mostra il numero di volte in cui è stata effettuata una chiamata di tracciamento dei collegamenti. Questa metrica è utile quando vuoi capire quali pagine hanno il contenuto più coinvolgente. La misurazione per questa metrica è più utile quando un visitatore può eseguire un’azione sulla pagina senza passare a una nuova pagina.
 
-In un percorso tipico di un sito eCommerce, ad esempio, un visitatore può avere diverse interazioni su una singola pagina. In un&#39;implementazione tipica di Analytics queste interazioni sono configurate come chiamata di tracciamento dei collegamenti ([`tl()`](/help/implement/vars/functions/tl-method.md)), mentre una chiamata di visualizzazione pagina ([`t()`](/help/implement/vars/functions/t-method.md)) è riservata per il caricamento della pagina iniziale. Questo metodo di implementazione fornisce un tracciamento degli eventi arricchito che fornisce informazioni sulle interazioni che si verificano prima che un visitatore continui il suo percorso.
+In un percorso tipico di un sito eCommerce, ad esempio, un visitatore può avere diverse interazioni su una singola pagina. In un&#39;implementazione tipica di Analytics queste interazioni sono configurate come chiamata di tracciamento dei collegamenti ([`tl()`](/help/implement/vars/functions/tl-method.md)), mentre una chiamata di visualizzazione pagina ([`t()`](/help/implement/vars/functions/t-method.md)) è riservata per il caricamento della pagina iniziale. Questo metodo di implementazione fornisce un tracciamento degli eventi arricchito che fornisce ad insight informazioni sulle interazioni che si verificano prima che un visitatore continui il suo percorso.
 
 ## Come è calcolata questa metrica
 

@@ -1,5 +1,5 @@
 ---
-description: Data Warehouse Scopri come filtrare i dati, e come creare ed eseguire rapporti personalizzati.
+description: Scopri Data Warehouse e come filtrare i dati per creare ed eseguire rapporti personalizzati.
 title: Panoramica di Data Warehouse
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
@@ -35,7 +35,7 @@ Data warehouse comprime automaticamente qualsiasi file di dimensioni superiori a
 
 ## Accesso
 
-Adobe abilita Data Warehouse solo per gli utenti a livello di amministratore, per suite di rapporti specifiche. Può essere abilitata per le suite di rapporti globali e secondarie, ma non per le suite di rapporti di aggregazione dati. L&#39;amministratore può creare un gruppo con accesso a Data Warehouse e quindi associare al gruppo utenti non amministratori.
+Adobe abilita Data Warehouse solo per gli utenti a livello di amministratore, per suite di rapporti specifiche. Può essere abilitata per le suite di rapporti globali e secondarie, ma non per le suite di rapporti di aggregazione dati. L&#39;amministratore può creare un gruppo con accesso a Data Warehouse e quindi associare utenti non amministratori a tale gruppo.
 
 Consulta [Gestire le autorizzazioni di Data Warehouse](/help/export/data-warehouse/t-dw-group.md).
 

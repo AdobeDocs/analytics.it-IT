@@ -1,5 +1,5 @@
 ---
-description: Il dizionario dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, compreso l’uso previsto, che viene approvato, che sono duplicati e così via.
+description: Il dizionario dei dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, incluso l’uso previsto, quali sono approvati, quali sono duplicati e così via.
 title: Modificare le voci nel dizionario dei dati
 feature: Components
 role: Admin
@@ -7,7 +7,7 @@ exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
 source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 

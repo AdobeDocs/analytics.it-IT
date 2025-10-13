@@ -1,11 +1,12 @@
 ---
-title: Come selezionare una suite di rapporti nel Report Builder
+title: Come selezionare una suite di rapporti in Report Builder
 description: Descrive come selezionare suite di rapporti in Adobe Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+exl-id: 96e24d5d-78fb-4e5c-8513-c5fe221d0aeb
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 2%
@@ -51,4 +52,4 @@ Per informazioni sulla creazione di un blocco di dati, vedere [Creare un blocco 
 
 1. Fai clic su **Applica**.
 
-   Il Report Builder aggiorna il blocco di dati con la suite di rapporti scelta.
+   Report Builder aggiorna il blocco di dati con la suite di rapporti scelta.

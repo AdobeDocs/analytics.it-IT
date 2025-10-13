@@ -20,4 +20,4 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi Dimension includono il mese e l’anno di una data specifica.
+Gli elementi di Dimension includono il mese e l’anno di una determinata data.

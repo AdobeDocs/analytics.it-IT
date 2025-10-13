@@ -20,7 +20,7 @@ Questa metrica conta il numero di hit in cui `scOpen` esiste nella variabile [`e
 
 ## Differenza tra &quot;Carrelli&quot;, &quot;Visualizzazioni carrello&quot; e &quot;Aggiunte carrello&quot;
 
-Poiché &quot;Carrelli&quot;, &quot;Visualizzazioni carrello&quot; e &quot;Aggiunte carrello&quot; sono eventi che richiedono l’implementazione, la tua organizzazione determina la differenza precisa tra queste metriche. Tuttavia, Adobe ha progettato queste metriche per la logica seguente:
+Poiché &quot;Carrelli&quot;, &quot;Visualizzazioni carrello&quot; e &quot;Aggiunte carrello&quot; sono eventi che richiedono l’implementazione, la tua organizzazione determina la differenza precisa tra queste metriche. Tuttavia, Adobe ha progettato queste metriche per la seguente logica:
 
 * &quot;Carrelli&quot; viene attivato solo una volta per acquisto quando un visitatore aggiunge il primo prodotto al carrello.
 * Le visualizzazioni del carrello si attivano ogni volta che un visitatore visualizza il carrello.

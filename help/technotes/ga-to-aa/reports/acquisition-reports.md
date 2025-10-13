@@ -57,7 +57,7 @@ I rapporti Source e medium mostrano i domini che hanno portato il traffico al si
 Per ulteriori informazioni sulle rispettive dimensioni, consulta le pagine seguenti nella guida utente dei Componenti:
 
 * [Dominio di riferimento](/help/components/dimensions/referring-domain.md)
-* [Tipo di referrer](/help/components/dimensions/referrer-type.md)
+* [Tipo di destinatario che inoltra](/help/components/dimensions/referrer-type.md)
 * [Parola chiave di ricerca](/help/components/dimensions/search-keyword.md)
 
 ## Tutto il traffico - Riferimenti

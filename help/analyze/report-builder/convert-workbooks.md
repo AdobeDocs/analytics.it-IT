@@ -1,5 +1,5 @@
 ---
-title: Come convertire le cartelle di lavoro di Report Builder legacy in blocchi di dati
+title: Come convertire le cartelle di lavoro legacy di Report Builder in blocchi di dati
 description: Descrive come convertire le richieste legacy in blocchi dati
 role: User
 feature: Report Builder
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Conversione di cartelle di lavoro di Report Builder legacy in blocchi di dati
+# Conversione di cartelle di lavoro legacy di Report Builder in blocchi di dati
 
-Con il passaggio a una nuova tecnologia di Report Builder, è possibile convertire rapidamente le cartelle di lavoro legacy correnti in cartelle di lavoro basate su JavaScript.
+Con il passaggio a una nuova tecnologia Report Builder, è possibile convertire rapidamente le cartelle di lavoro legacy correnti in cartelle di lavoro basate su JavaScript.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ Con il passaggio a una nuova tecnologia di Report Builder, è possibile converti
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converti cartelle di lavoro](https://video.tv.adobe.com/v/3446190?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converti cartelle di lavoro](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +34,9 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 1. Apri Excel e fai clic sull’icona Adobe Report Builder in alto a destra.
 
-1. Fare clic su **[!UICONTROL Login]** e accedere al Report Builder.
+1. Fare clic su **[!UICONTROL Login]** e accedere a Report Builder.
 
-1. Il componente aggiuntivo Report Builder rileva se la cartella di lavoro contiene [richieste Report Builder legacy](/help/analyze/legacy-report-builder/home.md).
+1. Il componente aggiuntivo Report Builder rileva se la cartella di lavoro contiene [richieste legacy di Report Builder](/help/analyze/legacy-report-builder/home.md).
 
    ![richiesta aggiornamento cartella di lavoro](assets/upgrade_workbook.png)
 
@@ -62,9 +62,9 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 Ora puoi [gestire il blocco di dati](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Funzioni di Report Builder legacy non supportate nel nuovo Report Builder {#unsupported}
+## Funzioni legacy di Report Builder non supportate nel nuovo Report Builder {#unsupported}
 
-Quando si confrontano le funzionalità del Report Builder legacy con il nuovo componente aggiuntivo di Report Builder, alcune funzionalità legacy non sono più disponibili:
+Confrontando le funzionalità legacy di Report Builder con il nuovo componente aggiuntivo di Report Builder, alcune funzionalità legacy non sono più disponibili:
 
 - Richieste in tempo reale
 

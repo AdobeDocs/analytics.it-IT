@@ -21,4 +21,4 @@ ht-degree: 7%
 1. Selezionare la richiesta, quindi fare clic su **[!UICONTROL Copy Requests]**.
 1. Selezionare tutte le celle vuote necessarie, quindi fare clic su [!DNL Paste Requests].
 
-   Il Report Builder riempie l’area Incolla con il numero di copie delle richieste originali che possono rientrare, purché le richieste non si sovrappongano al bordo del foglio di calcolo o non siano già presenti richieste nell’area incolla selezionata.
+   Report Builder riempie l’area di incollamento con il numero di copie delle richieste originali che rientrano nella dimensione desiderata, purché le richieste non si sovrappongano al bordo del foglio di calcolo o non siano già presenti richieste nell’area di incollamento selezionata.

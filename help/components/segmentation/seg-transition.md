@@ -6,7 +6,7 @@ exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
 workflow-type: tm+mt
 source-wordcount: '1424'
-ht-degree: 57%
+ht-degree: 56%
 
 ---
 
@@ -90,7 +90,7 @@ I segmenti esistenti che utilizzano una logica che è stata modificata come desc
 
 +++
 
-+++ **Cosa conviene fare con i segmenti duplicati che hanno lo stesso nome ma definizioni diverse?**
++++ **Cosa conviene fare con i segmenti duplicati che hanno lo stesso nome ma definizioni diverse?** 
 Ora che i segmenti funzionano in più suite di rapporti, potresti avere più segmenti con lo stesso nome. Devi:
 
 * Rinominare i segmenti che hanno lo stesso nome ma definizioni diverse, oppure

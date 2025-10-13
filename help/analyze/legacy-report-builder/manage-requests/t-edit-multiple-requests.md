@@ -49,4 +49,4 @@ Puoi modificare diverse richieste contemporaneamente, in base alla suite di rapp
 
 Ecco un video che mostra il processo:
 
-https://video.tv.adobe.com/v/328285/?quality=12&captions=ita
+https://video.tv.adobe.com/v/25445/?quality=12

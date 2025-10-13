@@ -6,7 +6,7 @@ exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -25,32 +25,32 @@ Le metriche del visitatore sono:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=it"  > Adobe Audience Manager: popolazione totale del segmento</a> </p> </td> 
-   <td colname="col3"> <p>Numero di dispositivi (ID Experience Cloud) che erano membri del segmento durante il periodo di lookback. </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: popolazione totale del segmento</a> </p> </td> 
+   <td colname="col3"> <p>Numero di dispositivi (Experience Cloud ID) che erano membri del segmento durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=it"  > Adobe Audience Manager: Popolazione segmento in tempo reale</a> </p> </td> 
-   <td colname="col3"> <p>Numero di dispositivi (ID Experience Cloud) membri del segmento che hanno raggiunto le proprietà durante il periodo di lookback. </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: Popolazione segmento in tempo reale</a> </p> </td> 
+   <td colname="col3"> <p>Numero di dispositivi (Experience Cloud ID) membri del segmento che hanno raggiunto le proprietà durante il periodo di lookback. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: visitatori univoci </p> </td> 
    <td colname="col3"> <p>Mostra il numero di visitatori univoci che hanno raggiunto le proprietà durante l’intervallo di reporting. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analytics: visitatori con ID Experience Cloud </p> </td> 
-   <td colname="col3"> <p>Mostra il numero di visitatori univoci con un ID Experience Cloud che hanno raggiunto le proprietà durante l’intervallo di reporting. </p> </td> 
+   <td colname="col2"> <p>Analytics: visitatori con Experience Cloud ID </p> </td> 
+   <td colname="col3"> <p>Mostra il numero di visitatori univoci con un Experience Cloud ID che hanno raggiunto le proprietà durante l’intervallo di reporting. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La popolazione dei segmenti in tempo reale di Adobe Audience Manager e i visitatori di Analytics con l’ID Experience Cloud utilizzato nel reporting di Audience Analytics saranno i più simili. Nel breve periodo, tuttavia, a causa di diversi fattori, vi saranno lievi discrepanze tra di essi. I fattori che contribuiscono sono:
+La popolazione dei segmenti in tempo reale di Adobe Audience Manager e i visitatori di Analytics con Experience Cloud ID utilizzati nel reporting di Audience Analytics saranno i più simili. Nel breve periodo, tuttavia, a causa di diversi fattori, vi saranno lievi discrepanze tra di essi. I fattori che contribuiscono sono:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Fattore </th> 
    <th colname="col2" class="entry"> Adobe Audience Manager: popolazione dei segmenti in tempo reale </th> 
-   <th colname="col3" class="entry"> Analytics: visitatori con ID Experience Cloud </th> 
+   <th colname="col3" class="entry"> Analytics: visitatori con Experience Cloud ID </th> 
   </tr>
  </thead>
  <tbody> 
@@ -72,4 +72,4 @@ La popolazione dei segmenti in tempo reale di Adobe Audience Manager e i visitat
  </tbody> 
 </table>
 
-Per ulteriori spiegazioni sulle sfumature tra Analytics e i dati e la segmentazione di Audience Manager, consulta [Informazioni sui segmenti in Analytics e Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
+Per ulteriori spiegazioni sulle sfumature tra i dati e la segmentazione di Analytics e Audience Manager, consulta [Informazioni sui segmenti in Analytics e Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).

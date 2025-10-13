@@ -20,4 +20,4 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi Dimension includono un determinato anno, con le date tra parentesi.
+Gli elementi di Dimension includono un determinato anno, con le date tra parentesi.

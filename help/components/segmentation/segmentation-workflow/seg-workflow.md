@@ -23,7 +23,7 @@ Questo articolo descrive un flusso di lavoro consigliato per creare segmenti con
 | 4 | [Segmenti di tag](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Assegna tag ai segmenti per semplificarne l’organizzazione e la condivisione. Scopri come pianificare e assegnare tag per ricerche e organizzazioni semplici e avanzate. |
 | 5 | [Approvare segmenti](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Approva i segmenti per renderli canonici. |
 | 6 | [Usa segmenti](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | Puoi applicare segmenti dai componenti dei segmenti direttamente a un rapporto. |
-| 7 | [Condividere segmenti](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Condividi i segmenti con l’audience prevista in altri strumenti Analytics e in Adobe Target e Adobe Experience Cloud. |
+| 7 | [Condividere segmenti](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Condividi i segmenti con il pubblico previsto in altri strumenti Analytics e in Adobe Target e Adobe Experience Cloud. |
 | 8 | [Filtrare segmenti](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | È possibile filtrare per tag, proprietari e altri filtri (Mostra tutto, Personali, Condivisi con me, Preferiti e Approvati). |
 | 9 | [Segmento contrassegnato come preferito](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | Contrassegnare i segmenti come preferiti è un altro modo per organizzarli in modo semplice e intuitivo. |
 

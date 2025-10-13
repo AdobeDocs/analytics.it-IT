@@ -24,7 +24,7 @@ Quando crei segmenti rapidi, tieni presente quanto segue:
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi](https://video.tv.adobe.com/v/345338?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

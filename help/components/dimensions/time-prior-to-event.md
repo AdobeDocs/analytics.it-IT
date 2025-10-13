@@ -16,8 +16,8 @@ La &#39;dimensione Tempo precedente all&#39;evento&#39; [dimension](overview.md)
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione funziona tecnicamente in modo predefinito per tutte le implementazioni, ma funziona meglio con eventi personalizzati e di acquisto. L’Adobe consiglia di implementare eventi personalizzati sul sito. Se implementi eventi personalizzati, non è necessaria alcuna implementazione aggiuntiva per questa dimensione.
+Questa dimensione funziona tecnicamente in modo predefinito per tutte le implementazioni, ma funziona meglio con eventi personalizzati e di acquisto. Adobe consiglia di implementare eventi personalizzati sul sito. Se implementi eventi personalizzati, non è necessaria alcuna implementazione aggiuntiva per questa dimensione.
 
 ## Elementi dimensionali
 
-Gli elementi del Dimension includono bucket basati sul tempo compresi tra `"Less than 1 minute"` e `"More than 15 hours"`. Ad esempio, se un visitatore ha impiegato 23 minuti dal suo primo hit per effettuare un acquisto, questo apparterrà all&#39;elemento dimensione `"10 to 30 minutes"`. Non è possibile personalizzare i bucket per questa metrica.
+Gli elementi Dimension includono bucket basati sul tempo che vanno da `"Less than 1 minute"` a `"More than 15 hours"`. Ad esempio, se un visitatore ha impiegato 23 minuti dal suo primo hit per effettuare un acquisto, questo apparterrà all&#39;elemento dimensione `"10 to 30 minutes"`. Non è possibile personalizzare i bucket per questa metrica.

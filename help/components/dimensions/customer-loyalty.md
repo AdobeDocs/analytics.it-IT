@@ -20,7 +20,7 @@ Adobe compila automaticamente questa dimensione in base all&#39;evento [`purchas
 
 ## Elementi dimensionali
 
-Gli elementi del Dimension includono:
+Gli elementi di Dimension includono:
 
 * **Non è un cliente**: al momento dell&#39;hit, il visitatore non ha mai effettuato un acquisto in precedenza.
 * **Nuovi clienti**: al momento dell&#39;hit, il visitatore ha effettuato un singolo acquisto in precedenza.

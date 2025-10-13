@@ -24,7 +24,7 @@ Consulta questi suggerimenti dal tuo collega Proprietario tecnico, Sarah Owen. S
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza il playbook di implementazione ereditato](https://video.tv.adobe.com/v/3438767?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza il playbook di implementazione ereditato](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

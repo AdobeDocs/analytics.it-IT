@@ -1,5 +1,5 @@
 ---
-description: Scopri come Data Warehouse può fornire rapporti in formato TDE (Tableau Data Extract). È possibile inviare queste informazioni tramite e-mail o tramite FTP per inviarle a un sito FTP.
+description: Scopri come Data Warehouse può consegnare rapporti in formato TDE (Tableau Data Extract). È possibile inviare queste informazioni tramite e-mail o tramite FTP per inviarle a un sito FTP.
 title: File di dati Tableau
 feature: Data Warehouse
 exl-id: c9973eb6-9ca2-4a8d-94b0-4c7c9c70ab26

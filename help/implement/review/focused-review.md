@@ -36,7 +36,7 @@ Assicurati che la versione più recente del sito non abbia avuto un impatto nega
 
 Se hai aggiunto o modificato metriche o variabili di recente, devi aggiornare il tuo documento sui requisiti aziendali (BRD) e Solution Design Reference (SDR).
 
-Se non disponi di documentazione sull&#39;implementazione, esporta un elenco di variabili e crea il tuo BRD o SDR utilizzando [questo modello](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=it#implementation).
+Se non disponi di documentazione sull&#39;implementazione, esporta un elenco di variabili e crea il tuo BRD o SDR utilizzando [questo modello](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## &#x200B;5. Risolvi immediatamente eventuali lacune nella qualità dei dati
 
@@ -47,7 +47,7 @@ Valuta la situazione ed elabora un piano per correggere i dati. Quindi apporta l
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verifica dell&#39;implementazione](https://video.tv.adobe.com/v/3440177?quality=12&learn=on&captions=ita){target="_blank"} per vedere un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verifica dell&#39;implementazione](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

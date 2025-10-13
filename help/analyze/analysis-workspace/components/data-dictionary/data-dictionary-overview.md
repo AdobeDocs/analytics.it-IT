@@ -1,5 +1,5 @@
 ---
-description: Il dizionario dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, compreso l’uso previsto, che viene approvato, che sono duplicati e così via.
+description: Il dizionario dei dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, incluso l’uso previsto, quali sono approvati, quali sono duplicati e così via.
 title: Panoramica del dizionario dati
 feature: Components
 role: User, Admin
@@ -7,7 +7,7 @@ exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 74%
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ Gli amministratori di Analytics sono responsabili della cura delle informazioni 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dati per Analysis Workspace](https://video.tv.adobe.com/v/3422283/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dei dati in Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ Per informazioni su come accedere al dizionario dei dati e per informazioni dett
 
 Il dizionario dei dati aiuta gli amministratori di sistema a tenere traccia e a curare i componenti nel loro ambiente Analytics.
 
-Gli amministratori di Analytics possono utilizzare il dizionario dati per i seguenti scopi:
+Gli amministratori di Analytics possono utilizzare il dizionario dei dati per gli scopi seguenti:
 
 * Identificare i componenti duplicati che devono essere consolidati.
 
@@ -108,7 +108,7 @@ Puoi modificare la finestra del dizionario dei dati in uno dei seguenti modi:
 
   Quando selezioni la scheda blu, viene aperto il dizionario dei dati del componente visualizzato più di recente.
 
-* Chiudete la finestra.
+* Chiudi la finestra.
 
 
 <!--
@@ -121,7 +121,7 @@ Analytics administrators are responsible for curating information about each com
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3422283?quality=12&learn=on&captions=ita){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

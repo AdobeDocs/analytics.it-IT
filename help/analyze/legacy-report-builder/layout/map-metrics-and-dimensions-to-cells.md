@@ -20,7 +20,7 @@ Prima di iniziare a mappare gli elementi al foglio di calcolo, verificare che il
 
 Il numero di aree e celle da mappare varia in base alla metrica selezionata, alla granularità, all’intervallo di date e ai filtri impostati. Se ad esempio si seleziona [!UICONTROL Site Metric] > [!UICONTROL Traffic Report], si imposta la granularità [!UICONTROL Week] e si imposta l&#39;intervallo di date per [!UICONTROL Last 2 Weeks], verrà richiesto di mappare tre celle (quando si utilizza [!UICONTROL Custom Layout]) in [!UICONTROL Request Wizard: Step 2]. La richiesta recupera i dati per la settimana uno e i dati per la settimana due, dove ogni valore di punto dati è uguale al valore di una visualizzazione di pagina. La terza cella funge da intestazione di riga, che puoi configurare utilizzando [!UICONTROL Format Options].
 
-Se mappi erroneamente posizioni incompatibili sul foglio di calcolo, il Report Builder genera un errore.
+Se mappi erroneamente posizioni non compatibili sul foglio di calcolo, Report Builder genera un errore.
 
 Per maggiori informazioni, consulta le sezioni seguenti:
 
@@ -35,7 +35,7 @@ In [!UICONTROL Request Wizard: Step 2], quando abiliti [!UICONTROL Custom Layout
 Fai clic sul **[!UICONTROL Range Selector]** ![select_cell_icon.png](assets/select_cell_icon.png) accanto all&#39;elemento da mappare.
 
 * **Tutte le celle nell&#39;intervallo:** È necessario selezionare un gruppo di celle per una richiesta di stile [!UICONTROL Custom Layout].
-* **Prima cella dell&#39;intervallo:** Consente di selezionare la cella superiore sinistra dell&#39;intervallo e di visualizzare l&#39;orientamento [!UICONTROL Range] per specificare l&#39;orientamento orizzontale o verticale delle celle di input e di output (colonna o riga). Utilizzare questa opzione per fare in modo che il Report Builder selezioni automaticamente le celle.
+* **Prima cella dell&#39;intervallo:** Consente di selezionare la cella superiore sinistra dell&#39;intervallo e di visualizzare l&#39;orientamento [!UICONTROL Range] per specificare l&#39;orientamento orizzontale o verticale delle celle di input e di output (colonna o riga). Utilizzare questa opzione per fare in modo che Report Builder selezioni automaticamente le celle.
 * **Orientamento intervallo:** Consente di orientare gli intervalli di celle come colonne o righe.
 * **Seleziona posizione cella superiore dell&#39;intervallo:** Visualizza i riferimenti di cella.
 
@@ -59,7 +59,7 @@ Dopo aver selezionato le celle, fare di nuovo clic su **[!UICONTROL Range Select
 
 ## Risoluzione dei problemi di mappatura{#section_CC1BCF841291447EB3A994EB08F3A099}
 
-Se si sceglie erroneamente di eseguire il mapping a una cella che dispone già di un mapping attivo, nella casella di testo accanto all&#39;icona del selettore di intervalli non verrà visualizzato alcun riferimento di cella. Quando si fa clic su [!UICONTROL OK], l&#39;errore viene visualizzato in Report Builder *L&#39;intervallo selezionato interseca l&#39;intervallo di un&#39;altra richiesta. Modifica la selezione.*
+Se si sceglie erroneamente di eseguire il mapping a una cella che dispone già di un mapping attivo, nella casella di testo accanto all&#39;icona del selettore di intervalli non verrà visualizzato alcun riferimento di cella. Quando si fa clic su [!UICONTROL OK], in Report Builder viene visualizzato l&#39;errore *L&#39;intervallo selezionato interseca l&#39;intervallo di un&#39;altra richiesta. Modifica la selezione.*
 
 * Se è ancora necessario utilizzare la cella, fare clic con il pulsante destro del mouse sulla cella o sulle celle desiderate e selezionare **[!UICONTROL Delete Request]**.
 

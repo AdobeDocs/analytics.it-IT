@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Supporto multi-valuta
 
-Adobe offre più livelli di conversione della valuta in modo che l’organizzazione possa ottenere la valuta desiderata in molti rapporti. La conversione avviene a tre livelli:
+Adobe offre diversi livelli di conversione della valuta, in modo che la tua organizzazione possa ottenere la valuta desiderata in molti rapporti. La conversione avviene a tre livelli:
 
 ## Livello pagina
 

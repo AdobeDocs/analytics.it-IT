@@ -29,12 +29,12 @@ Se intendi implementare Cross-Device Analytics utilizzando il metodo del grafico
 
 * Tutti i prerequisiti elencati nella [pagina della panoramica](overview.md).
 * L&#39;organizzazione deve utilizzare il [grafo privato del servizio Adobe Experience Platform Identity](https://business.adobe.com/products/experience-platform/identity-service.html). Vedi anche la [home page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it) nella guida utente del servizio Identity.
-* L&#39;implementazione deve utilizzare la versione più recente del servizio ID Experience Cloud (ECID). Consulta la [home page](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) nella guida utente del servizio ID. È probabile che il servizio ID sia già stato distribuito per la maggior parte delle implementazioni che utilizzano [Tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it) in Adobe Experience Platform.
-* L&#39;implementazione deve chiamare la funzione `setCustomerIDs` (o l&#39;equivalente SDK) ogni volta che un utente può essere identificato, ad esempio quando un utente accede o apre un messaggio e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Vedi [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=it) nella guida utente del servizio ID.
+* L&#39;implementazione deve utilizzare la versione più recente del servizio Experience Cloud ID (ECID). Consulta la [home page](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) nella guida utente del servizio ID. È probabile che il servizio ID sia già stato distribuito per la maggior parte delle implementazioni che utilizzano [Tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it) in Adobe Experience Platform.
+* L&#39;implementazione deve chiamare la funzione `setCustomerIDs` (o equivalente a SDK) ogni volta che un utente può essere identificato, ad esempio quando un utente effettua l&#39;accesso o apre un messaggio e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Vedi [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) nella guida utente del servizio ID.
 
 ## Limitazioni specifiche del grafico dei dispositivi
 
-* Gli ID legacy di Analytics non sono supportati. Solo i visitatori con ID Experience Cloud sono uniti.
+* Gli ID legacy di Analytics non sono supportati. Solo i visitatori con Experience Cloud ID sono uniti.
 * Se l’organizzazione utilizza un grafico privato, i nuovi dispositivi richiedono fino a 24 ore per essere uniti.
 * I grafici dei dispositivi di terze parti non sono supportati.
 

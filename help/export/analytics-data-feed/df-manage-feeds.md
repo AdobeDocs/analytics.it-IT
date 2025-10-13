@@ -6,7 +6,7 @@ exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ Data Feed Manager consente di creare, modificare ed eliminare feed di dati per l
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://video.tv.adobe.com/v/3428563?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

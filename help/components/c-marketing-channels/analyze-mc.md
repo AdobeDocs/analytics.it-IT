@@ -6,7 +6,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ Probabilmente vorrai sapere quale dei tuoi canali di marketing è più efficace 
 | Dimension/Metrica | Definizione |
 | --- | --- |
 | Canale di marketing | Si tratta della dimensione Canali di marketing consigliata da utilizzare. I modelli di attribuzione possono essere applicati al modello in fase di esecuzione. Questa dimensione si comporta in modo identico alla dimensione Canale ultimo contatto, ma è etichettata in modo diverso per evitare confusione quando viene utilizzata con un modello di attribuzione diverso. |
-| Canale ultimo contatto | Dimensione legacy, con modello di attribuzione ultimo contatto pre-applicato e immutabile. |
+| Canale di ultimo contatto | Dimensione legacy, con modello di attribuzione ultimo contatto pre-applicato e immutabile. |
 | Canale di primo contatto | Dimensione legacy, con modello di attribuzione primo contatto pre-applicato e immutabile. |
 | Istanze del canale di marketing | Questa metrica misura quante volte un canale di marketing è stato definito in una richiesta di immagine, incluse le visualizzazioni di pagina standard e le chiamate di collegamento personalizzate. Non include valori persistenti. |
 | Nuovi engagement | Questa metrica è simile a Istanze, ma viene incrementata solo quando il canale di marketing di primo contatto è definito in una richiesta di immagine. |

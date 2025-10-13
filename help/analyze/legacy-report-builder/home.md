@@ -1,5 +1,5 @@
 ---
-title: Informazioni sul Report Builder legacy per Adobe Analytics
+title: Informazioni sulla versione precedente di Report Builder per Adobe Analytics
 description: Utilizza Report Builder per portare i dati di Adobe Analytics direttamente in Microsoft Excel.
 feature: Workspace Basics
 role: User, Admin
@@ -11,7 +11,7 @@ ht-degree: 90%
 
 ---
 
-# Cos&#39;è il Report Builder legacy?
+# Cos’è la versione precedente di Report Builder?
 
 {{legacy-arb}}
 

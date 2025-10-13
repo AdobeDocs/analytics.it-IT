@@ -14,13 +14,13 @@ ht-degree: 9%
 
 Questo documento fornisce istruzioni su come migrare ad Adobe Analytics eventuali regole di elaborazione aggiuntive, oltre alle Metriche del ciclo di vita, create nell’interfaccia utente di Mobile Services.
 
-Le regole di elaborazione vengono utilizzate per spostare i valori dalle variabili di dati di contesto a prop e eVar. Ad esempio, puoi inserire il valore di una variabile di dati contestuali &quot;search-term&quot; nel valore di un eVar di variabile Commerce e sovrascrivere tale valore su ogni hit. Senza regole di elaborazione, le variabili dei dati di contesto sono prive di significato e non compilano alcun rapporto in Analytics.
+Le regole di elaborazione vengono utilizzate per spostare i valori dalle variabili di dati di contesto a prop e eVar. Ad esempio, puoi inserire il valore di una variabile di dati contestuali &quot;search-term&quot; nel valore di una variabile di Commerce eVar e sovrascrivere tale valore su ogni hit. Senza regole di elaborazione, le variabili dei dati di contesto sono prive di significato e non compilano alcun rapporto in Analytics.
 
 Questo documento illustra anche come creare rapporti sull’utilizzo dei dispositivi mobili in Analysis Workspace.
 
 ## Migra regole di elaborazione
 
-Se utilizzi Mobile Services per funzionalità gratuite, come le regole di elaborazione e le funzioni di reporting sull’utilizzo, puoi passare facilmente all’interfaccia utente di Analytics (interfaccia utente delle regole di elaborazione o Analysis Workspace) per eseguire queste funzioni. Per le metriche del ciclo di vita, o per le regole impostate nell’interfaccia utente delle regole di elaborazione di AA, non è necessario eseguire alcuna migrazione. Le Metriche del ciclo di vita sono metriche &quot;pronte all’uso&quot; che vengono raccolte automaticamente quando l’SDK di Mobile viene implementato per la prima volta nell’app.
+Se utilizzi Mobile Services per funzionalità gratuite, come le regole di elaborazione e le funzioni di reporting sull’utilizzo, puoi passare facilmente all’interfaccia utente di Analytics (interfaccia utente delle regole di elaborazione o Analysis Workspace) per eseguire queste funzioni. Per le metriche del ciclo di vita, o per le regole impostate nell’interfaccia utente delle regole di elaborazione di AA, non è necessario eseguire alcuna migrazione. Le Metriche del ciclo di vita sono metriche &quot;pronte all’uso&quot; che vengono raccolte automaticamente quando il SDK mobile viene implementato per la prima volta nell’app.
 
 Tuttavia, se imposti ulteriori regole di elaborazione nell’interfaccia utente di Mobile Services (oltre alle Metriche del ciclo di vita), devi migrarle in modo da poterle modificare o eliminare in Analytics dopo aver perso l’accesso a Mobile Services.
 
@@ -30,7 +30,7 @@ Tuttavia, se imposti ulteriori regole di elaborazione nell’interfaccia utente 
 
    ![Variabile di contesto](assets/context-var.png)
 
-1. Ad Experience Cloud, passa ad Adobe Analytics e accertati di trovarti nella stessa suite di rapporti per dispositivi mobili che stavi esaminando in Mobile Services.
+1. In Experience Cloud, passa ad Adobe Analytics e accertati di trovarti nella stessa suite di rapporti per dispositivi mobili che stavi esaminando in Mobile Services.
 1. Vai a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]**.
 1. Fai clic su **[!UICONTROL Add Rule]**.
 1. Ignora le condizioni e procedi all’aggiunta delle stesse variabili di contesto esistenti in Mobile Services.
@@ -75,6 +75,6 @@ Anche la seguente funzionalità di Mobile Services è collegata ad Adobe Analyti
 
 Se utilizzi Mobile Services per le funzionalità a pagamento, non disponi di un percorso di migrazione valido ad altri strumenti interni/esterni:
 
-* Per i collegamenti di acquisizione, possiamo indirizzarti a partner Adobi per soddisfare le tue esigenze.
+* Per i collegamenti di acquisizione, possiamo indirizzarti ai partner Adobe per soddisfare le tue esigenze.
 * I messaggi push e i messaggi in-app sono disponibili in Adobe Campaign Standard e Adobe Campaign Classic (solo push). Tuttavia, il set di dati sottostante utilizzato per il targeting è diverso. Consigliamo di collaborare con il team del tuo account Adobe per determinare le opzioni di migrazione per i dati di messaggistica.
 * Per la funzionalità Posizione, ti invitiamo ad adottare il nuovo [servizio Posizione Adobe Experience Platform](https://www.adobe.com/experience-platform/location-service.html), gratuito per tutti i clienti Adobe Experience Platform.

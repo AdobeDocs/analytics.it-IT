@@ -37,7 +37,7 @@ Definire un intervallo di date che definisca il periodo compreso tra il giorno c
 
 ![Esempio di intervallo di date](assets/date-range-example.png)
 
-+++
++++ 
 
 <!--
 

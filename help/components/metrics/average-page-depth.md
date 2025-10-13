@@ -16,7 +16,7 @@ La &quot;Profondità media di pagina&quot; [metrica](overview.md) mostra in medi
 
 >[!TIP]
 >
->Utilizza questa metrica insieme a un&#39;altra metrica, ad esempio [Visite](visits.md), per ottenere informazioni migliori. Se utilizzi questa metrica da sola, potresti ottenere elementi dimensionali contenenti profondità di pagina anomale, che in genere non è un’informazione utile.
+>Utilizza questa metrica insieme a un&#39;altra metrica, ad esempio [Visite](visits.md), per ottenere informazioni migliori. Se utilizzi questa metrica da sola, potresti ottenere elementi dimensionali contenenti profondità di pagina anomale, che in genere non è un valore insight.
 
 ## Come è calcolata questa metrica
 
@@ -48,4 +48,4 @@ If 'Count repeat instances' is disabled:
 
 Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è la profondità di pagina media dell’intera dimensione e il numeratore è la profondità di pagina media dell’elemento dimensione.
 
-Se la profondità di pagina media dell’intera dimensione è inferiore alla profondità di pagina media di un dato elemento dimensione, puoi vedere percentuali superiori al 100%. L’ordinamento dei rapporti classificati per questa metrica mostra le anomalie nei valori medi di profondità di pagina, che in genere non sono importanti. L&#39;Adobe consiglia di ordinare in base a un&#39;altra metrica, ad esempio [Visite](visits.md), nei report classificati.
+Se la profondità di pagina media dell’intera dimensione è inferiore alla profondità di pagina media di un dato elemento dimensione, puoi vedere percentuali superiori al 100%. L’ordinamento dei rapporti classificati per questa metrica mostra le anomalie nei valori medi di profondità di pagina, che in genere non sono importanti. Adobe consiglia di ordinare i rapporti in base a un&#39;altra metrica, ad esempio [Visite](visits.md).

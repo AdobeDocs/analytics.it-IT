@@ -5,8 +5,8 @@ feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 85%
+source-wordcount: '710'
+ht-degree: 80%
 
 ---
 
@@ -50,7 +50,7 @@ Puoi modificare la definizione di visita in un periodo diverso da 30 minuti.
 
 ## Visite che si estendono su un limite di date
 
-Per ogni periodo di tempo interessato, viene considerata una visita. Ad esempio, se un visitatore inizia a navigare sul sito lunedì alle 23:45 e poi invia la sua ultima richiesta di immagine martedì alle 00:10, si vedrà una visita attribuita sia a lunedì che a martedì. Tuttavia, la metrica di visita totale è deduplicata e mostra una singola visita per l’intervallo di date del progetto.
+Per ogni periodo di tempo interessato, viene considerata una visita. Ad esempio, se un visitatore inizia a navigare nel tuo sito lunedì alle 23:45 e poi invia la sua ultima richiesta di immagine martedì alle 00:00, vedrai una visita attribuita sia a lunedì che a martedì. :10 Tuttavia, la metrica di visita totale è deduplicata e mostra una singola visita per l’intervallo di date del progetto.
 
 ## Visite su una dimensione rispetto alle visite totali
 

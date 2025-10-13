@@ -30,6 +30,6 @@ Di conseguenza, queste metriche producono risultati simili a livello di visita, 
 
 ## Percentuali superiori al 100%
 
-Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è l’intero tempo trascorso per visita della dimensione e il numeratore è il tempo trascorso per visita dell’elemento dimensionale. Se il tempo trascorso per visita dell’intera dimensione è inferiore al tempo trascorso per visita di un dato elemento dimensione, vedrai percentuali superiori al 100%. L’ordinamento dei rapporti classificati per questa metrica mostra il tempo di anomalia trascorso per i valori di visita, che in genere non è prezioso. L&#39;Adobe consiglia di ordinare in base a un&#39;altra metrica, ad esempio [Visite](visits.md), nei report classificati.
+Questa metrica contiene spesso percentuali superiori al 100%. Il denominatore è l’intero tempo trascorso per visita della dimensione e il numeratore è il tempo trascorso per visita dell’elemento dimensionale. Se il tempo trascorso per visita dell’intera dimensione è inferiore al tempo trascorso per visita di un dato elemento dimensione, vedrai percentuali superiori al 100%. L’ordinamento dei rapporti classificati per questa metrica mostra il tempo di anomalia trascorso per i valori di visita, che in genere non è prezioso. Adobe consiglia di ordinare i rapporti in base a un&#39;altra metrica, ad esempio [Visite](visits.md).
 
 Consulta [Panoramica sul tempo trascorso](time-spent.md) per informazioni più generali sul tempo trascorso.

@@ -1,5 +1,5 @@
 ---
-description: Configura un Experience Cloud di suite di rapporti mappata da utilizzare in Advertising Analytics.
+description: Configura una suite di rapporti mappata da Experience Cloud da utilizzare in Advertising Analytics.
 title: Abilitare suite di rapporti per Advertising Analytics
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
@@ -12,11 +12,11 @@ ht-degree: 6%
 
 # Abilitare suite di rapporti per Advertising Analytics
 
-Per visualizzare i dati di ricerca di Advertising Analytics in Analytics, devi configurare ogni suite di rapporti mappata dall’Experience Cloud per la generazione di rapporti di Advertising Analytics.
+Per visualizzare i dati di ricerca di Advertising Analytics in Analytics, devi configurare ogni suite di rapporti mappata da Experience Cloud per il reporting di Advertising Analytics.
 
 1. Passa a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-1. Seleziona la suite di rapporti mappata sulla tua organizzazione di Experienci Cloud.
+1. Seleziona la suite di rapporti mappata sulla tua organizzazione Experience Cloud.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**.
 
    ![Reporting](assets/aa-reporting.png)
@@ -32,6 +32,6 @@ Per visualizzare i dati di ricerca di Advertising Analytics in Analytics, devi c
    | Impostazione | Definizione |
    |--- |--- |
    | **[!UICONTROL Allocation]** | Seleziona tra:<br/> **[!UICONTROL Original Value (First)]**: il primo valore visualizzato ottiene il credito di allocazione completo, indipendentemente dai valori successivi per tale variabile. <br/>**[!UICONTROL Most Recent (Last)]**: l&#39;ultimo valore visualizzato ottiene il credito di allocazione completo per l&#39;evento di successo, indipendentemente dalle variabili attivate prima di esso. |
-   | **[!UICONTROL Expire After]** | Consente di specificare un periodo di tempo, o un evento, dopo la scadenza del valore eVar (ovvero, non riceve più crediti per eventi di successo).  Se un evento di successo si verifica dopo la scadenza eVar, il merito per l’evento viene attribuito al valore None (nessun eVar è attivo). |
+   | **[!UICONTROL Expire After]** | Consente di specificare un periodo di tempo, o un evento, dopo la scadenza del valore eVar (ovvero, non riceve più crediti per eventi di successo).  Se un evento di successo si verifica dopo la scadenza di eVar, il merito per l’evento viene attribuito al valore None (nessun eVar era attivo). |
 
 1. Fare clic su **[!UICONTROL Enable Advertising Analytics Reporting]** (prima volta) o su **[!UICONTROL Update Advertising Analytics Reporting]** (volte successive). La suite di rapporti è ora pronta per ricevere i dati di Advertising Analytics Search. Ora puoi [creare account Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).

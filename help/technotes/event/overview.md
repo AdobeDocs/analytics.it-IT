@@ -47,7 +47,7 @@ Una volta preparati a gestire un evento, puoi [comunicare con gli utenti della t
 Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analizzare e comunicare le varianti dei tuoi dati](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
 
 * **0:27**: escludi dati tramite segmentazione
-* **2:55**: confrontare un evento con intervalli precedenti
+* **2:55**: confronta un evento con intervalli precedenti
 * **8:42**: derivare dati utilizzando metriche calcolate
 * **11:46**: comunicare l&#39;impatto agli utenti
 

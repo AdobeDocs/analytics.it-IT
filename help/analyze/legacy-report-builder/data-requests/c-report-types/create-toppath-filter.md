@@ -17,7 +17,7 @@ ht-degree: 11%
 
 Descrive come creare rapporti sui percorsi con filtri predefiniti.
 
-Il Report Builder non offre i report percorso come report autonomi, ma è possibile crearli tramite i menu di scelta rapida **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]**. Sono disponibili i seguenti rapporti:
+Report Builder non offre rapporti sui percorsi come rapporti autonomi, ma è possibile crearli tramite i menu di scelta rapida **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]**. Sono disponibili i seguenti rapporti:
 
 * Percorso > Abbandono pagina
 * Path (Percorso) > Entry Path (Percorso di ingresso)

@@ -16,7 +16,7 @@ Il rapporto &quot;Supporto cookie&quot; [dimension](overview.md) indica se il br
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione raccoglie dati dalla stringa di query [`k`](/help/implement/validate/query-parameters.md) nelle richieste di immagini. L&#39;AppMeasurement tenta di impostare un cookie denominato `s_cc`, quindi rileva se il cookie esiste. Il risultato è il valore del parametro della stringa di query `Y` (se il browser supporta e ha i cookie abilitati) o `N` (se il browser ha i cookie disabilitati). Se utilizzi AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati esterno a AppMeasurement (ad esempio tramite l&#39;API), accertati di includere il parametro della stringa di query `k` in ogni hit con il valore `Y` o `N`.
+Questa dimensione raccoglie dati dalla stringa di query [`k`](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement tenta di impostare un cookie denominato `s_cc`, quindi rileva se il cookie esiste. Il risultato è il valore del parametro della stringa di query `Y` (se il browser supporta e ha i cookie abilitati) o `N` (se il browser ha i cookie disabilitati). Se utilizzi AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati esterno ad AppMeasurement (ad esempio tramite l&#39;API), accertati di includere il parametro della stringa di query `k` in ogni hit con il valore `Y` o `N`.
 
 ## Elementi dimensionali
 
@@ -24,4 +24,4 @@ Gli elementi della dimensione includono `Enabled`, `Disabled` e `Unknown`.
 
 * **`Enabled`**: il browser supporta i cookie e li ha abilitati.
 * **`Disabled`**: il browser non supporta i cookie o il visitatore li ha disabilitati.
-* **`Unknown`**: l&#39;AppMeasurement non è in grado di determinare il supporto dei cookie. La stringa di query `k` non è presente nella richiesta di immagine.
+* **`Unknown`**: AppMeasurement non è in grado di determinare il supporto dei cookie. La stringa di query `k` non è presente nella richiesta di immagine.

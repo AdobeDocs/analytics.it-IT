@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Adobe Analytics utilizza più metodi di autenticazione per accedere:
 
-* Adobe ID tramite l’Experience Cloud
+* Adobe ID tramite Experience Cloud
 * ID legacy di Analytics
 * Single Sign-On
 
@@ -24,7 +24,7 @@ Talvolta, possono verificarsi problemi di disponibilità che influiscono sulla c
 
 ## Adobe ID
 
-Risolvere i problemi relativi all’accesso ad Adobe Analytics utilizzando l’Experience Cloud.
+Risolvere i problemi relativi all’accesso ad Adobe Analytics utilizzando Experience Cloud.
 
 1. Passa a [experience.adobe.com](https://experience.adobe.com). Se non è possibile accedere al sito, è possibile che l&#39;organizzazione non consenta l&#39;accesso al dominio tramite il firewall. Collabora con il team IT della tua organizzazione per consentirlo. Per informazioni utili da fornire al team IT, vedere [IP e domini utilizzati in Adobe Experience Cloud](https://helpx.adobe.com/it/analytics/kb/adobe-ip-addresses.html).
 
@@ -60,7 +60,7 @@ Un utente dell’organizzazione può ricevere il seguente errore quando tenta di
 
 *Errore: l&#39;accesso è scaduto.*
 
-Questo errore funziona come previsto. Adobe Analytics offre agli amministratori la possibilità di impostare un intervallo di date valido per un account utente. Se la data corrente non rientra nell’intervallo di date valido per l’account, non è possibile effettuare l’accesso. Rivolgiti a un amministratore Analytics della tua organizzazione per estendere l’intervallo di date valido per l’accesso. Adobe L’Assistenza clienti non è autorizzata a modificare intervalli di date di accesso validi per gli account utente.
+Questo errore funziona come previsto. Adobe Analytics offre agli amministratori la possibilità di impostare un intervallo di date valido per un account utente. Se la data corrente non rientra nell’intervallo di date valido per l’account, non è possibile effettuare l’accesso. Rivolgiti a un amministratore Analytics della tua organizzazione per estendere l’intervallo di date valido per l’accesso. L’Assistenza clienti di Adobe non è autorizzata a modificare intervalli di date di accesso validi per gli account utente.
 
 ## Altri problemi di accesso
 
@@ -70,4 +70,4 @@ Se nessuno dei passaggi precedenti funziona, determina l’ampiezza del problema
 * Il problema si verifica su un computer diverso della rete o si verifica su più computer?
 * Prova ad accedere utilizzando una rete diversa, ad esempio una connessione dati mobile, una libreria o una rete domestica. Il problema è presente nelle reti?
 
-Se il problema è isolato all’interno della rete, collabora con il team IT della tua organizzazione per risolverlo. Se non è limitato a una singola rete, contatta l’Assistenza clienti Adobe.
+Se il problema è isolato all’interno della rete, collabora con il team IT della tua organizzazione per risolverlo. Se non è limitato a una singola rete, contatta l’Assistenza clienti di Adobe.

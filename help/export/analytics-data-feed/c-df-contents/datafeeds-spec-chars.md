@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Caratteri speciali nei feed di dati
 
-In Adobe viene utilizzata la logica di escape per garantire che i valori inviati ai server di raccolta dati non danneggino o non rechino pregiudizio ai file di feed dati. I seguenti caratteri sono riservati per Adobe per i seguenti scopi in `hit_data.tsv`.
+Adobe utilizza la logica di escape per assicurarsi che i valori inviati ai server di raccolta dati non danneggino o non danneggino i file di feed dati. I seguenti caratteri sono riservati da Adobe per le seguenti finalità in `hit_data.tsv`.
 
 ## Caratteri speciali in qualsiasi colonna
 
@@ -32,7 +32,7 @@ Quando questi valori riservati sono preceduti da una barra rovesciata, sono stat
 | `\\n` | Il valore &#39;`\n`&#39; è stato inviato durante la raccolta dati, con escape da Adobe. |
 | `\\` | Il valore &#39;`\`&#39; è stato inviato durante la raccolta dati, con escape da Adobe. |
 
-Ad esempio, un visitatore del tuo sito utilizza la ricerca interna e cerca `"search\nstring"`. Compilate eVar1 con `"search\nstring"` e inviate tale valore ad Adobe. L’Adobe riceve questo hit ed esce dalla nuova riga inclusa nella stringa. Il valore effettivo inserito nei dati non elaborati è `"search\\nstring"`.
+Ad esempio, un visitatore del tuo sito utilizza la ricerca interna e cerca `"search\nstring"`. Compilate eVar1 con `"search\nstring"` e inviate tale valore ad Adobe. Adobe riceve questo hit ed esce dalla nuova riga inclusa nella stringa. Il valore effettivo inserito nei dati non elaborati è `"search\\nstring"`.
 
 ## Caratteri speciali nelle variabili con più valori (events_list, products_list, mvars)
 

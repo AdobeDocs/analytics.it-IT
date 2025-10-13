@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Domini utilizzati da Adobe Analytics
 
-Alcune configurazioni del firewall bloccano i domini su cui Adobe Analytics si basa per l’interfaccia di prodotto. È possibile utilizzare questo elenco di domini per modificare le impostazioni di rete dell&#39;organizzazione per consentire l&#39;accesso ai prodotti dall&#39;interno dell&#39;organizzazione. L’Adobe consiglia di abilitare questi domini attraverso il firewall dell’organizzazione per un’esperienza ottimale.
+Alcune configurazioni del firewall bloccano i domini su cui Adobe Analytics si basa per l’interfaccia di prodotto. È possibile utilizzare questo elenco di domini per modificare le impostazioni di rete dell&#39;organizzazione per consentire l&#39;accesso ai prodotti dall&#39;interno dell&#39;organizzazione. Per un’esperienza ottimale, Adobe consiglia di abilitare questi domini attraverso il firewall dell’organizzazione.
 
 | Tecnologia | Dominio |
 | --- | --- |
@@ -29,10 +29,10 @@ Alcune configurazioni del firewall bloccano i domini su cui Adobe Analytics si b
 
 ## Domini di Adobe Experience Cloud
 
-Oltre ai domini di cui sopra, Adobe Experience Cloud si basa su diversi domini per la raccolta dei dati e l’esportazione dei rapporti. Vedere [Domini utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/domains) per questo elenco di domini.
+Oltre ai domini di cui sopra, Adobe Experience Cloud si basa su diversi domini per la raccolta dei dati e l’esportazione dei rapporti. Vedere [Domini utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) per questo elenco di domini.
 
 >[!MORELIKETHIS]
 >
 >[Indirizzi IP utilizzati da Adobe Analytics](ip-addresses.md)
 >
->[Domini utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/domains)
+>[Domini utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

@@ -1,5 +1,5 @@
 ---
-title: Come utilizzare i segmenti nel Report Builder in Adobe Analytics
+title: Come utilizzare i segmenti in Report Builder in Adobe Analytics
 description: Descrive come utilizzare i segmenti in Report Builder per Adobe Analytics
 role: User
 feature: Report Builder
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Utilizzare i segmenti nel Report Builder
+# Utilizzare i segmenti in Report Builder
 
 È possibile applicare segmenti quando si crea un nuovo blocco di dati o quando si seleziona l&#39;opzione **Modifica blocco di dati** dal pannello COMANDI.
 
@@ -65,7 +65,7 @@ Puoi aggiungere o rimuovere segmenti utilizzando le opzioni Aggiungi/Rimuovi.
 
 1. Fare clic su **[!UICONTROL Apply]** per salvare le modifiche e tornare al pannello hub.
 
-   Nel Report Builder viene visualizzato un messaggio per confermare le modifiche apportate al segmento applicato.
+   In Report Builder viene visualizzato un messaggio per confermare le modifiche al segmento applicato.
 
 ### Sostituire un segmento
 

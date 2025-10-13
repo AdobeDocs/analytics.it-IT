@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: aa2182f9-a140-4239-b2fb-f723e2767260
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 49%
@@ -26,12 +27,12 @@ Per ulteriori informazioni, consulta [Adobe Analytics e governance dei dati](htt
 
 ## Visualizzazione dei dati con limitazioni in Report Builder
 
-In Adobe Analytics vengono visualizzati due criteri definiti dagli Adobi che influiscono su reporting, download e condivisione:
+In Adobe Analytics vengono visualizzati due criteri definiti da Adobe che influiscono su reporting, download e condivisione:
 
 * Criterio Enforce Analytics (Applica analisi)
 * Criterio Enforce Download (Applica download)
 
-I componenti interessati da questi criteri sono visualizzati in grigio. Quando passi il cursore su un componente a cui è stato applicato un criterio, viene visualizzata una nota per indicare che **a questo campo sono stati applicati criteri che impediscono l’utilizzo dei dati.** Per ulteriori informazioni consulta [Etichette e criteri](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html?lang=it).
+I componenti interessati da questi criteri sono visualizzati in grigio. Quando passi il puntatore su un componente a cui è stato applicato un criterio, viene visualizzata una nota per indicare che **a questo campo sono stati applicati criteri che impediscono l’utilizzo dei dati.** Per ulteriori informazioni consulta [Etichette e criteri](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html?lang=it).
 
 ![Nota del criterio che indica l&#39;utilizzo non consentito dei dati.](assets/rb-restricted-label.png)
 

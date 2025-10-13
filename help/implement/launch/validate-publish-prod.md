@@ -21,7 +21,7 @@ Una volta che la libreria di tag è stata inviata in produzione, la tua organizz
 
 ## Convalidare l’implementazione di sviluppo utilizzando Experience Cloud Debugger
 
-Experience Cloud Debugger è un’estensione che mostra tutti i tag Experience Cloud presenti in una pagina.
+Experience Cloud debugger è un’estensione che mostra tutti i tag Experience Cloud presenti in una pagina.
 
 1. Installa l&#39;estensione per [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o Firefox.
 2. Vai al tuo sito web di sviluppo su cui hai implementato i tag.
@@ -58,7 +58,7 @@ Sul sito, apri la console per sviluppatori del browser (in genere F12). Osserva 
 
 * Nessun errore JavaScript nella console. Rivolgiti ai proprietari del sito web della tua organizzazione per assicurarti che tutti gli errori JS siano stati risolti.
 * Il codice intestazione è implementato correttamente: verificare che il codice intestazione sia incluso nel tag `<head>` e che il file esista.
-* Esiste già una libreria di AppMeasurement: passa direttamente all’origine JS per assicurarti che il file JS contenga codice. In caso contrario, assicurati che ogni ambiente sia stato creato e che la libreria sia stata pubblicata nel rispettivo ambiente.
+* Esiste già una libreria AppMeasurement: passa direttamente all’origine JS per assicurarti che il file JS contenga codice. In caso contrario, assicurati che ogni ambiente sia stato creato e che la libreria sia stata pubblicata nel rispettivo ambiente.
 * Estensioni di interferenza: alcune estensioni, come ad blocker, possono impedire l’attivazione delle richieste di immagini. Disattiva le estensioni che potrebbero impedire l’invio dei dati ad Adobe.
 
 ## Passaggi successivi

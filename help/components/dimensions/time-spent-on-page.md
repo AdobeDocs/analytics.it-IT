@@ -36,7 +36,7 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 Esistono più dimensioni per il tempo trascorso sulla pagina:
 
-* **Tempo trascorso sulla pagina - a blocchi**: la quantità di tempo è a blocchi. Gli elementi Dimension sono compresi tra `"Less than 15 seconds"` e `"More than 30 minutes"`. Il tempo tra gli hit in genere non dura più di 30 minuti; tuttavia, il tempo tra gli hit può superare i 30 minuti se si utilizzano hit con marca temporale o origini dati.
+* **Tempo trascorso sulla pagina - a blocchi**: la quantità di tempo è a blocchi. Gli elementi di Dimension sono compresi tra `"Less than 15 seconds"` e `"More than 30 minutes"`. Il tempo tra gli hit in genere non dura più di 30 minuti; tuttavia, il tempo tra gli hit può superare i 30 minuti se si utilizzano hit con marca temporale o origini dati.
 * **Tempo trascorso sulla pagina - granulare**: ogni numero di secondi è un elemento dimensione univoco.
 
 Consulta [Panoramica sul tempo trascorso](../metrics/time-spent.md) per informazioni più generali sul tempo trascorso.

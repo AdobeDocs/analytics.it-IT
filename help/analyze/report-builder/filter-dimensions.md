@@ -1,6 +1,6 @@
 ---
-title: Come filtrare le dimensioni nel Report Builder
-description: Descrive come utilizzare le dimensioni filtro nel Report Builder
+title: Come filtrare le dimensioni in Report Builder
+description: Descrive come utilizzare le dimensioni filtro in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
@@ -25,7 +25,7 @@ Per modificare gli elementi dimensione restituiti per ogni dimensione:
 
 1. Fare clic su **[!UICONTROL Edit data block]** nel pannello COMANDI.
 
-1. Fare clic su **[!UICONTROL Next]** per visualizzare la scheda Dimension.
+1. Fare clic su **[!UICONTROL Next]** per visualizzare la scheda Dimensioni.
 
 1. Fare clic sull&#39;icona **...** accanto al nome di un componente nella tabella.
 
@@ -43,7 +43,7 @@ Per modificare gli elementi dimensione restituiti per ogni dimensione:
 
    In Report Builder viene visualizzata la conferma del filtro aggiunto.
 
-Per visualizzare i filtri applicati, passa il cursore su una dimensione. Un’icona filtro a destra del nome di una dimensione indica che ci sono stati applicati dei filtri.
+Per visualizzare i filtri applicati, passa il puntatore su una dimensione. Un’icona filtro a destra del nome di una dimensione indica che ci sono stati applicati dei filtri.
 
 ## Tipo di filtro
 
@@ -179,6 +179,6 @@ La selezione può contenere celle vuote o con valori che non corrispondono a un 
 
 Dalla scheda **[!UICONTROL Dimensions]**, fare clic sulla freccia accanto al nome di una dimensione per visualizzare l&#39;elenco degli elementi dimensione.
 
-![Scheda Dimension e elenco delle dimensioni.](./assets/dimensions_chevron.png)
+![Scheda Dimensioni e elenco delle dimensioni.](./assets/dimensions_chevron.png)
 
 È possibile trascinare gli elementi su **[!UICONTROL Table]** oppure fare doppio clic sul nome di un elemento per aggiungerlo al generatore **[!UICONTROL Table]**.

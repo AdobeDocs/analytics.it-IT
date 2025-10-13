@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Configurare le impostazioni di Activity Map
 
-Il pannello delle impostazioni Activity Map consente di modificare le impostazioni e le proprietà per tutti i tipi di visualizzazioni di sovrapposizione.
+Il pannello delle impostazioni di Activity Map consente di modificare le impostazioni e le proprietà per tutti i tipi di visualizzazioni di sovrapposizione.
 
 **[!UICONTROL Activity Map overlay]** > **Mostra impostazioni (icona ingranaggio)** > **[!UICONTROL Settings]**
 
