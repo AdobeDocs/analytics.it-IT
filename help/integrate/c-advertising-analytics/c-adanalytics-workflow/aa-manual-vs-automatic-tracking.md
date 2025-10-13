@@ -18,7 +18,7 @@ Il tipo di tracciamento determina il modo in cui l’implementazione di Adobe An
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41424/?quality=12&captions=ita)
 
 -->
 

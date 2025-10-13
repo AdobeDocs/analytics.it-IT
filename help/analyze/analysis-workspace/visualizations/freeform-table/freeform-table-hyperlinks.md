@@ -27,7 +27,7 @@ Questa funzionalità è particolarmente utile quando si creano collegamenti iper
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Collegamenti ipertestuali per la dimensione](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Collegamenti ipertestuali per la dimensione](https://video.tv.adobe.com/v/3445793?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

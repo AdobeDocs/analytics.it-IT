@@ -34,7 +34,7 @@ I dati sul traffico generato dai bot vengono memorizzati in un archivio separato
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurare le regole bot](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurare le regole bot](https://video.tv.adobe.com/v/3418509/?quality=12&captions=ita){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

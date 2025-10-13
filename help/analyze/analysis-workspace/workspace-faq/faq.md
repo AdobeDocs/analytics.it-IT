@@ -45,7 +45,7 @@ Vedi [Ottimizzazione delle prestazioni](/help/analyze/analysis-workspace/workspa
 
 +++Come entrano i dati nel progetto Analysis Workspace?
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dati in Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dati in Analysis Workspace](https://video.tv.adobe.com/v/35894?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
 
 +++
 

@@ -19,7 +19,7 @@ Puoi definire una visita in qualsiasi modo senza alterare i dati sottostanti, in
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessioni in base al contesto](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessioni in base al contesto](https://video.tv.adobe.com/v/3428474?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
