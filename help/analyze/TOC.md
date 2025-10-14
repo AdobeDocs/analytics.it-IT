@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '870'
 ht-degree: 94%
 
 ---
@@ -81,12 +81,13 @@ ht-degree: 94%
       + Tabella a forma libera {#freeform-table}
          + [Panoramica](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Creare collegamenti ipertestuali](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [Visualizza dati con tendenze](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Filtrare e ordinare](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Totali](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Impostazioni colonna e riga {#column-row-settings}
             + [Impostazioni colonna](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Impostazioni riga](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Elementi statici e dinamici](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Filtrare e ordinare](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totali](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabella coorte {#cohort-table}
          + [Panoramica](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurare](analysis-workspace/visualizations/cohort-table/t-cohort.md)
