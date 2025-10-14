@@ -3,9 +3,9 @@ title: Tipo di referrer
 description: Il tipo di referente, a seconda di dove proviene il visitatore.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 400f0170f13e95c401f3c4c329d23d63dcd70443
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '500'
 ht-degree: 2%
 
 ---
@@ -24,10 +24,34 @@ Gli elementi Dimension includono il tipo di referente dell’hit. I valori speci
 
 * **Digitato/Contrassegnato con segnalibro**: non esistono dati di riferimento per l&#39;hit.
 * **Motori di ricerca**: il referente proviene da un motore di ricerca riconosciuto che include una stringa di query per parole chiave.
+* **Strumenti di IA per la conversazione**: il referente proviene da uno strumento di IA per la conversazione riconosciuto.
 * **Social network:**: i dati del referente appartengono a un social network riconosciuto da Adobe.
 * **Altri siti Web**: i dati del referente non appartengono a un motore di ricerca o a un social network riconosciuto da Adobe.
+* **Nessun JavaScript**: il referente proviene da un browser in cui non è abilitato JavaScript.
 * **Disco rigido**: il referrer proviene da una copia locale di una pagina Web sul disco rigido del visitatore.
 * **E-mail**: il referrer ha avuto origine da un URL con protocollo `imap://` o `mail://`. Non include i servizi di posta elettronica online, che in genere utilizzano il protocollo `https://`.
+
+### Strumenti di intelligenza artificiale per conversazioni
+
+L’elenco seguente fa riferimento alla tabella di ricerca &quot;Strumenti di IA per la conversazione&quot; utilizzata da Adobe. Adobe fornisce questo elenco per cortesia ai clienti Adobe Analytics. Se desideri consigliare ad Adobe di aggiungere un dominio a questo elenco, rivolgiti a un delegato del supporto nella tua organizzazione e contatta l’Assistenza clienti.
+
+* `https://chatgpt.com`
+* `https://chat.com`
+* `https://chat.openai.com`
+* `https://gemini.google.com`
+* `https://copilot.microsoft.com`
+* `https://m365.cloud.microsoft`
+* `https://perplexity.ai`
+* `https://labs.perplexity.ai`
+* `https://playground.perplexity.ai`
+* `https://claude.ai`
+* `https://grok.com`
+* `https://komo.ai`
+* `https://phind.com`
+* `https://poe.com`
+* `https://blackbox.ai`
+* `https://chat.mistral.ai`
+* `https://meta.ai`
 
 ### Social network
 
