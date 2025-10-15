@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Di seguito sono riportati alcuni dei modi principali in cui Adobe Analytics aiuta le organizzazioni a ottenere approfondimenti critici per servire al meglio la propria clientela.
 
-Per ulteriori dettagli sui vantaggi offerti da Adobe Analytics, consulta la [Pagina di prodotto Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html?lang=it).
+Per ulteriori dettagli sui vantaggi offerti da Adobe Analytics, consulta la [Pagina di prodotto Adobe Analytics](https://business.adobe.com/it/products/analytics/adobe-analytics.html?lang=it).
 
 ## Analisi web
 

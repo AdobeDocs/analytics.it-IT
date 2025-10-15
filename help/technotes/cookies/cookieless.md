@@ -39,7 +39,7 @@ Con Adobe Experience Platform Web SDK puoi scegliere di impostare e gestire i tu
 
 ## Ulteriori informazioni
 
-Per i passaggi pratici che la tua azienda può intraprendere per abbandonare i cookie di terze parti, consulta [Acquisire e mantenere i clienti in un mondo senza cookie con Adobe](https://business.adobe.com/solutions/cookieless.html) e l’approfondimento [Pensare oltre i cookie di terze parti: la guida completa per un mondo senza cookie di terze parti](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf).”
+Per i passaggi pratici che la tua azienda può intraprendere per abbandonare i cookie di terze parti, consulta [Acquisire e mantenere i clienti in un mondo senza cookie con Adobe](https://business.adobe.com/it/solutions/cookieless.html) e l’approfondimento [Pensare oltre i cookie di terze parti: la guida completa per un mondo senza cookie di terze parti](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf).”
 
 >[!MORELIKETHIS]
 >

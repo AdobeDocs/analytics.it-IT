@@ -20,7 +20,7 @@ Se la tua organizzazione desidera tenere traccia delle prestazioni e del tasso d
 1. [Impostare o regolare l’implementazione di Adobe Analytics per includere i dati del codice di tracciamento](#include-campaign-variables-in-your-implementation)
 1. [Visualizzare i rapporti in Analysis Workspace](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html?lang=it) può aiutare a semplificare ciascuno di questi passaggi per dare il massimo valore alle attività relative al marketing. Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe.
+[Adobe Campaign](https://business.adobe.com/it/products/campaign/adobe-campaign.html?lang=it) può aiutare a semplificare ciascuno di questi passaggi per dare il massimo valore alle attività relative al marketing. Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe.
 
 ## Stabilire un processo di generazione del codice di tracciamento
 
